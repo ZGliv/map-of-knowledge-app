@@ -1,0 +1,541 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.stereochemistry",
+ "name": "Stereochemistry",
+ "summary": [
+  {
+   "text": "Stereochemistry is the part of chemistry that studies how the atoms in a molecule are arranged in space.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its main subjects are stereoisomers, which have the same molecular formula and the same sequence of bonded atoms but differ in where the atoms sit in space.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It matters in medicine: ibuprofen exists as (R)- and (S)-isomers, and only the (S) form reduces inflammation and pain.",
+   "cites": [
+    12,
+    22,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Also known as",
+   "value": "3D chemistry",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Applies to",
+   "value": "Organic and inorganic compounds and ions alike",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Types of isomers",
+   "value": "Diastereomers and enantiomers",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Term 'chiral'",
+   "value": "Introduced by Lord Kelvin in 1904",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Thalidomide first made",
+   "value": "1957, in Germany",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two molecules have the same formula and the same sequence of bonded atoms, but their atoms sit differently in space. How are they related?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They have different bonded sequences"
+    },
+    {
+     "id": "b",
+     "label": "They are stereoisomers of each other"
+    },
+    {
+     "id": "c",
+     "label": "They are the same molecule drawn twice"
+    },
+    {
+     "id": "d",
+     "label": "They have different molecular formulas"
+    }
+   ],
+   "answer": "b",
+   "explain": "Same formula and same bonded sequence with a different spatial positioning of atoms is what defines stereoisomers.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry:q1"
+  },
+  {
+   "prompt": "In a drawing, one bond is shown as a solid wedge. What does that tell you about the bond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lies flat in the plane of the molecule"
+    },
+    {
+     "id": "b",
+     "label": "It recedes away from the viewer"
+    },
+    {
+     "id": "c",
+     "label": "It projects toward the viewer"
+    },
+    {
+     "id": "d",
+     "label": "It has been broken in the reaction"
+    }
+   ],
+   "answer": "c",
+   "explain": "A solid wedge marks a bond projecting toward the viewer; a dashed bond recedes and plain lines lie in the plane.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry:q2"
+  },
+  {
+   "prompt": "In a Fischer projection, you see a bond drawn horizontally. What does it mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The bond recedes away from the viewer"
+    },
+    {
+     "id": "b",
+     "label": "The bond is a double bond"
+    },
+    {
+     "id": "c",
+     "label": "The bond lies in the plane of the page"
+    },
+    {
+     "id": "d",
+     "label": "The bond projects toward the viewer"
+    }
+   ],
+   "answer": "d",
+   "explain": "In a Fischer projection horizontal bonds project toward the viewer and vertical bonds recede away.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry:q3"
+  },
+  {
+   "prompt": "A pharmacist argues that giving patients only one of thalidomide's two mirror-image forms would avoid the harm. Why does that fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The body produces the other form from the one given"
+    },
+    {
+     "id": "b",
+     "label": "The one form is destroyed before it acts"
+    },
+    {
+     "id": "c",
+     "label": "Both forms are always harmless on their own"
+    },
+    {
+     "id": "d",
+     "label": "The mirror-image forms are in fact identical"
+    }
+   ],
+   "answer": "a",
+   "explain": "Thalidomide undergoes racemization in the body, so the other enantiomer appears even when only one is administered.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry:q4"
+  },
+  {
+   "prompt": "A tablet contains ibuprofen, which can exist as two isomers. Which one does the work against pain and inflammation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both isomers equally"
+    },
+    {
+     "id": "b",
+     "label": "The (R) isomer"
+    },
+    {
+     "id": "c",
+     "label": "Neither alone; they must be combined"
+    },
+    {
+     "id": "d",
+     "label": "The (S) isomer"
+    }
+   ],
+   "answer": "d",
+   "explain": "Only (S)-ibuprofen is active in reducing inflammation and pain.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry:q5"
+  },
+  {
+   "prompt": "Two chemists want to describe the same molecule's stereochemistry in exactly the same way. What do the Cahn–Ingold–Prelog rules give them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A standard ranking of atoms around a stereochemical region"
+    },
+    {
+     "id": "b",
+     "label": "A photograph-quality 3D picture of the molecule"
+    },
+    {
+     "id": "c",
+     "label": "A way to change one stereoisomer into another"
+    },
+    {
+     "id": "d",
+     "label": "A count of every atom in the molecule"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rules rank the atoms around a stereochemical region in a standard way, which allows unambiguous descriptions of their relative positions.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Isomerism.svg/960px-Isomerism.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Stereochemistry",
+  "credit": "Vladsinger",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Isomerism.svg"
+ },
+ "source": {
+  "title": "Stereochemistry",
+  "url": "https://en.wikipedia.org/wiki/Stereochemistry",
+  "revision": 1382284650
+ },
+ "pack": {
+  "id": "auto-organic-chemistry-stereochemistry",
+  "title": "Same atoms, different shapes",
+  "question": "How can two molecules built from the same atoms in the same sequence still differ?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Organic chemistry",
+   "Stereochemistry"
+  ],
+  "hue": 179,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Isomerism.svg/960px-Isomerism.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Stereochemistry",
+    "credit": "Vladsinger · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isomerism.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Same atoms, different shapes",
+    "hook": "A drug can be hurt or helped by nothing more than which way its atoms point in space."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-organic-chemistry-stereochemistry:1",
+    "transfer": false,
+    "prompt": "A drug comes as two enantiomers, but a patient is given only one of them. What does the body do?",
+    "explain": "Thalidomide undergoes racemization, so even a single administered enantiomer leads to the other being produced by metabolism.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "It produces the other enantiomer too"
+       },
+       {
+        "id": "c",
+        "label": "It destroys the form that was given",
+        "feedback": "Nothing in the facts suggests the given form vanishes; the other form is made instead."
+       },
+       {
+        "id": "b",
+        "label": "It keeps only the form that was given",
+        "feedback": "It sounds tidy, but in the body thalidomide undergoes racemization, so the other form appears anyway."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-organic-chemistry-stereochemistry:2",
+    "transfer": false,
+    "prompt": "match each way of drawing a bond to what it shows",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Solid wedge"
+     },
+     {
+      "id": "l1",
+      "label": "Dashed bond"
+     },
+     {
+      "id": "l2",
+      "label": "Plain line"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Bond projecting toward the viewer"
+     },
+     {
+      "id": "r2",
+      "label": "Bond in the plane of the molecule"
+     },
+     {
+      "id": "r1",
+      "label": "Bond receding away from the viewer"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "These simplified conventions show 3D positions of atoms around a stereocenter."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-organic-chemistry-stereochemistry:3",
+    "transfer": true,
+    "prompt": "put these milestones in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "Biot observes optical activity"
+     },
+     {
+      "id": "b",
+      "label": "Pasteur studies tartaric acid salts"
+     },
+     {
+      "id": "c",
+      "label": "Van 't Hoff and Le Bel explain optical activity"
+     },
+     {
+      "id": "d",
+      "label": "Lord Kelvin introduces the term chiral"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The dates are 1815, 1842, 1874 and 1904."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-organic-chemistry-stereochemistry:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Ibuprofen can exist as (R)- and (S)-isomers."
+     },
+     {
+      "id": "b",
+      "text": "Only (S)-ibuprofen is active in reducing inflammation and pain."
+     },
+     {
+      "id": "c",
+      "text": "So the (R) and (S) forms must act the same way in the body."
+     },
+     {
+      "id": "d",
+      "text": "So a drug's spatial arrangement can matter for how it works."
+     }
+    ],
+    "answer": "c",
+    "explain": "Only the (S) form is active, so the two isomers do not act the same way."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Stereoisomers share a formula and bonded sequence but differ in how atoms sit in space, and that difference can matter in medicine.",
+    "connections": [
+     {
+      "title": "Isomer",
+      "place": "Stereochemistry",
+      "node": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer"
+     },
+     {
+      "title": "Enantiomer",
+      "place": "Stereochemistry",
+      "node": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer"
+     },
+     {
+      "title": "Diastereomer",
+      "place": "Stereochemistry",
+      "node": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer"
+     },
+     {
+      "title": "Optical rotation",
+      "place": "Stereochemistry",
+      "node": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Thalidomide undergoes racemization, so even a single administered enantiomer leads to the other being produced by metabolism.",
+    "source": "Wikipedia sentences 17"
+   },
+   {
+    "claim": "These simplified conventions show 3D positions of atoms around a stereocenter.",
+    "source": "Wikipedia sentences 10"
+   },
+   {
+    "claim": "The dates are 1815, 1842, 1874 and 1904.",
+    "source": "Wikipedia sentences 28, 30, 32, 34"
+   },
+   {
+    "claim": "Only the (S) form is active, so the two isomers do not act the same way.",
+    "source": "Wikipedia sentences 12, 22, 23"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Chemistry in three dimensions",
+    "text": "Stereochemistry is the branch of chemistry that studies how the atoms of a molecule are arranged in space, and how that arrangement can be manipulated. Its central subject is stereoisomers: molecules that share a molecular formula and the same order of bonded atoms, called the constitution, but whose atoms sit in different places in space. That is why it is also called 3D chemistry, since the prefix stereo- means three-dimensionality. It applies to every kind of compound and ion, organic and inorganic alike.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Two kinds of isomer",
+    "text": "These isomers fall into two types. Enantiomers are mirror images that cannot be laid exactly on top of each other. Diastereomers, also called diastereoisomers, are all the other types. The field reaches into biological, physical and supramolecular chemistry, and it also studies how these molecules react, a part known as dynamic stereochemistry.",
+    "cites": [
+     5,
+     6,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Drawing molecules on paper",
+    "text": "Rather than a detailed 3D picture, chemists use a few simple standard ways to show where atoms sit around a stereocenter. In one, a solid wedge marks a bond pointing toward the viewer, a dashed or hashed bond marks one pointing away, and a plain line marks one lying in the plane of the molecule. A Fischer projection draws the four bonds of a tetrahedral atom straight across or straight up and down: vertical bonds point away from the viewer and horizontal ones point toward. To name arrangements without ambiguity, the Cahn–Ingold–Prelog priority rules rank the atoms around a stereochemical region in a standard order. Devised in 1966, they give a chiral center an R or S label.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     36
+    ]
+   },
+   {
+    "heading": "The thalidomide lesson",
+    "text": "Stereochemistry matters a great deal in medicine, especially for drugs, and thalidomide is the example most often given. First made in Germany in 1957, it was prescribed to pregnant women for morning sickness, and it turned out to badly damage embryos as they grew, causing deformed limbs in babies. Several proposed explanations involve its (R) and (S) enantiomers having different biological roles. Yet the body converts one form into the other, a process called racemization, so giving just one form still yields both, and calling one version safe is wrong. The disaster did much to push for strict testing of medicines before they reach the public.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     21
+    ]
+   },
+   {
+    "heading": "A gentler example",
+    "text": "Ibuprofen also exists as (R) and (S) isomers. Only the (S) form actually eases inflammation and pain. Thalidomide itself is still used today, notably against cancer and leprosy. Strict rules and controls now keep it away from pregnant women to prevent deformities.",
+    "cites": [
+     19,
+     20,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Where the field began",
+    "text": "Organic stereochemistry began in 1815, when Jean-Baptiste Biot saw that organic molecules in a solution or a gas could rotate the plane of polarized light. Even so, Louis Pasteur is usually called the first stereochemist. In 1842 he found that tartaric acid salts from wine-making vessels rotated polarized light, while salts from other sources did not, and this was the only physical property that set the two apart. In 1874 van 't Hoff and Le Bel explained such rotation by a tetrahedral arrangement of the atoms bound to carbon. Lord Kelvin introduced the word chiral in 1904.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ch5-intro",
+   "kind": "book",
+   "title": "Why This Chapter? (Stereochemistry at Tetrahedral Centers)",
+   "by": "OpenStax (McMurry, Organic Chemistry)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-why-this-chapter",
+   "note": "The opening of a free textbook chapter on molecular handedness and why it matters for drugs and the molecules of life.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-ochem-8",
+   "kind": "video",
+   "title": "Stereochemistry: Crash Course Organic Chemistry #8",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Bw_cetheReo",
+   "note": "A Crash Course episode on why molecular shape matters and how to tell chiral from achiral molecules."
+  }
+ ]
+}

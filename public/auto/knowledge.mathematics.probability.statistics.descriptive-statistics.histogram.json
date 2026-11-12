@@ -1,0 +1,309 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.descriptive-statistics.histogram",
+ "name": "Histogram",
+ "summary": [
+  {
+   "text": "A histogram is a visual representation of the distribution of quantitative data.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "To make one, divide the range of values into consecutive intervals called bins, then count how many values fall into each bin.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "A histogram differs from a bar chart: each histogram bin covers a range of values, while each bar in a bar chart stands for a separate category.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Bins",
+   "value": "Adjacent, non-overlapping intervals, typically of equal size",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Name coined",
+   "value": "Karl Pearson introduced the term in 1892 lectures",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Total area",
+   "value": "Normalized to 1 when used for probability density",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Pattern words",
+   "value": "Symmetric, skewed, unimodal, bimodal, multimodal",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Bin widths",
+   "value": "Worth trying several to learn more about the data",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You have 200 measured heights and want a histogram. What is the first step?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Divide the range of heights into intervals"
+    },
+    {
+     "id": "b",
+     "label": "Plot each person as a separate bar"
+    },
+    {
+     "id": "c",
+     "label": "Sort the people by name"
+    },
+    {
+     "id": "d",
+     "label": "Find the single most common height"
+    }
+   ],
+   "answer": "a",
+   "explain": "The first step is to bin the range of values into intervals, then count how many values fall into each.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.histogram:q1"
+  },
+  {
+   "prompt": "A chart shows one bar per store so you can compare three different stores. Which chart is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A histogram"
+    },
+    {
+     "id": "b",
+     "label": "A density plot"
+    },
+    {
+     "id": "c",
+     "label": "A bar chart"
+    },
+    {
+     "id": "d",
+     "label": "A relative frequency plot"
+    }
+   ],
+   "answer": "c",
+   "explain": "In a bar chart each bar is a different category, so categories can be compared; a histogram's bins are ranges of values.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.histogram:q2"
+  },
+  {
+   "prompt": "Why is it a good idea to plot data with several different bin widths?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wider bins are always more correct"
+    },
+    {
+     "id": "b",
+     "label": "To make the total area larger"
+    },
+    {
+     "id": "c",
+     "label": "To avoid counting any value twice"
+    },
+    {
+     "id": "d",
+     "label": "To learn more about the data"
+    }
+   ],
+   "answer": "d",
+   "explain": "Plotting with several bin widths shows more about the data than a single choice.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.histogram:q3"
+  },
+  {
+   "prompt": "Who introduced the word histogram in lectures in 1892?",
+   "options": [
+    {
+     "id": "a",
+     "label": "William Playfair"
+    },
+    {
+     "id": "b",
+     "label": "Stanisław Ulam"
+    },
+    {
+     "id": "c",
+     "label": "Karl Pearson"
+    },
+    {
+     "id": "d",
+     "label": "Isaac Newton"
+    }
+   ],
+   "answer": "c",
+   "explain": "Karl Pearson introduced the term in lectures delivered in 1892 at University College London.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.histogram:q5"
+  },
+  {
+   "prompt": "A friend draws bins so one value would be counted in two bins at once. Why is that unusual?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bins are usually non-overlapping, so a value falls in one"
+    },
+    {
+     "id": "b",
+     "label": "Bins must always be unequal in size when drawn"
+    },
+    {
+     "id": "c",
+     "label": "Bins are meant to leave gaps between the bars"
+    },
+    {
+     "id": "d",
+     "label": "Each value should be counted twice for safety"
+    }
+   ],
+   "answer": "a",
+   "explain": "Bins are usually specified as consecutive, non-overlapping intervals.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.histogram:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Black_cherry_tree_histogram.svg/960px-Black_cherry_tree_histogram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Histogram",
+  "credit": "Wikimedia Commons",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_cherry_tree_histogram.svg"
+ },
+ "source": {
+  "title": "Histogram",
+  "url": "https://en.wikipedia.org/wiki/Histogram",
+  "revision": 1376012468
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a histogram shows",
+    "text": "A histogram is a picture of how quantitative data are distributed. To build one, you split the whole range of values into a series of intervals, called bins, and count how many values fall into each. The bins sit side by side without overlapping, and they are typically, though not necessarily, all the same size.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Not a bar chart",
+    "text": "Histograms are sometimes confused with bar charts. In a histogram each bin covers a different range of values, so together the bins show how the values are spread. In a bar chart each bar stands for a separate category, such as a different population, so the chart is used to compare categories. Some authors advise always leaving gaps between the bars of a bar chart to make clear it is not a histogram.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Area tells the story",
+    "text": "Strictly, a histogram uses rectangles whose widths are the class intervals and whose areas are proportional to the frequencies. The height of each rectangle is then the average frequency density over its interval. In one version, the area of each block equals the number of people in that category. In another, called a unit area histogram, each block's area is its fraction of the total, and all the areas add up to 1.",
+    "cites": [
+     30,
+     23,
+     27,
+     29
+    ]
+   },
+   {
+    "heading": "Choosing the bins",
+    "text": "No number of bins is the best one, and changing the bin size can bring out different features of the data. Wider bins where data points are sparse reduce noise from sampling randomness, while narrower bins where they are dense give more precise estimates, so varying the width within one histogram can help. Even so, equal-width bins are widely used. Trying several bin widths is a good way to learn more about the data.",
+    "cites": [
+     39,
+     41,
+     42,
+     43,
+     20
+    ]
+   },
+   {
+    "heading": "Reading the shape",
+    "text": "People describe a histogram's pattern with words such as symmetric, skewed left or right, unimodal, bimodal or multimodal. A histogram offers a rough idea of how densely the data are spread and is often used to estimate the variable's probability density function. A smoother kernel density estimate will in general reflect that distribution more accurately. Histograms are still preferred when their statistical properties need modeling, since each bin varies independently and is simple to describe mathematically.",
+    "cites": [
+     19,
+     5,
+     33,
+     34,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Where the name comes from",
+    "text": "Karl Pearson, the founder of mathematical statistics, introduced the word histogram in lectures at University College London in 1892. Pearson knew Ancient Greek well and built the word from ἱστός, meaning something set upright or a mast, pointing to the graph's vertical bars. The kind of graph was older than its name: the Scottish economist William Playfair used bar graphs for statistical measurements in his Commercial and political atlas of 1786.",
+    "cites": [
+     12,
+     15,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-2-2",
+   "kind": "book",
+   "title": "2.2 Histograms, Frequency Polygons, and Time Series Graphs",
+   "by": "Barbara Illowsky and Susan Dean, OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-2-histograms-frequency-polygons-and-time-series-graphs",
+   "note": "A free college textbook section showing step by step how to choose bins and draw a histogram.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-histogram",
+   "kind": "article",
+   "title": "Histogram",
+   "by": "Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Histogram.html",
+   "note": "A short reference entry on bins, bar areas and how histograms are drawn, with an illustrated example."
+  },
+  {
+   "id": "cc-plots-outliers",
+   "kind": "video",
+   "title": "Plots, Outliers, and Justin Timberlake: Data Visualization Part 2: Crash Course Statistics #6",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=HMkllhBI91Y",
+   "note": "A Crash Course video on plots for numerical data, including histograms, and how they reveal outliers."
+  }
+ ]
+}

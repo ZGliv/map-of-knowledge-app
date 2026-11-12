@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry",
+ "name": "Stoichiometry",
+ "summary": [
+  {
+   "text": "Stoichiometry is the study of the relationships between the quantities of reactants and products before, during and after chemical reactions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is based on the law of conservation of mass, so the relationship between reactants and products forms a ratio of positive integers.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Knowing the reactant amounts lets you calculate the amount of product, and a known reactant plus measured products reveals the other reactants.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who named it",
+   "value": "Jeremias Benjamin Richter first used the term in 1792",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Word roots",
+   "value": "Ancient Greek words meaning 'element' and 'measure'",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Stoichiometric coefficients",
+   "value": "The numbers in front reflect molar ratios of reactants and products",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Methane example",
+   "value": "Each mole of methane combusted consumes two moles of oxygen",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Gas stoichiometry",
+   "value": "Deals with reactions solely involving gases",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A camp stove burns methane, using two moles of oxygen for every mole of methane. How many moles of oxygen does it consume when 5 moles of methane burn?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5 mol"
+    },
+    {
+     "id": "b",
+     "label": "10 mol"
+    },
+    {
+     "id": "c",
+     "label": "15 mol"
+    },
+    {
+     "id": "d",
+     "label": "20 mol"
+    }
+   ],
+   "answer": "b",
+   "explain": "For every mole of methane combusted, two moles of oxygen are consumed, so 5 moles of methane use 10 moles of oxygen.",
+   "cites": [
+    6,
+    10
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry:q1"
+  },
+  {
+   "prompt": "A chemist finds reactants always combine in ratios like 1:2, never 1:1.37. What best explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lab balances can only display whole numbers of moles"
+    },
+    {
+     "id": "b",
+     "label": "Catalysts force every reaction into fixed whole-number ratios"
+    },
+    {
+     "id": "c",
+     "label": "Heating the mixture rounds the amounts to whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "Reacting molecules hold a definite, whole-number set of atoms"
+    }
+   ],
+   "answer": "d",
+   "explain": "The reacting molecules consist of a definite set of atoms in an integer ratio, so the ratio between reactants in a complete reaction is also an integer ratio.",
+   "cites": [
+    21,
+    25
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry:q2"
+  },
+  {
+   "prompt": "A substance takes part in one step of a reaction and is made again in a later step, so none is used up overall. What kind of reactant is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A catalytic reactant"
+    },
+    {
+     "id": "b",
+     "label": "A stoichiometric reactant"
+    },
+    {
+     "id": "c",
+     "label": "A limiting reactant"
+    },
+    {
+     "id": "d",
+     "label": "A product"
+    }
+   ],
+   "answer": "a",
+   "explain": "A catalytic reactant is not consumed in the overall reaction because it reacts in one step and is regenerated in another.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry:q3"
+  },
+  {
+   "prompt": "You know the grams of copper dropped into a silver nitrate solution and want the grams of silver produced. What comes first?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Set up the mole ratio using the grams directly"
+    },
+    {
+     "id": "b",
+     "label": "Divide the grams by the weight of the silver"
+    },
+    {
+     "id": "c",
+     "label": "Convert grams of copper to moles using molar mass"
+    },
+    {
+     "id": "d",
+     "label": "Count how many silver nitrate molecules are present"
+    }
+   ],
+   "answer": "c",
+   "explain": "The mass of copper is first converted to moles by dividing by its molar mass, and only then can the mole ratio be set up.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry:q4"
+  },
+  {
+   "prompt": "A chemist expects ammonia to split into nitrogen and hydrogen by mass in exactly 14:3, but real samples come out slightly off. What explains the gap?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Chemical bonds add a little extra mass to ammonia"
+    },
+    {
+     "id": "b",
+     "label": "Molar masses are only ever rough, rounded guesses"
+    },
+    {
+     "id": "c",
+     "label": "Some of the hydrogen always stays out of the reaction"
+    },
+    {
+     "id": "d",
+     "label": "Natural elements are mixtures of atoms of differing mass"
+    }
+   ],
+   "answer": "d",
+   "explain": "Natural nitrogen includes a little nitrogen-15 and natural hydrogen includes deuterium, so molar masses are not exactly integers.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry:q5"
+  },
+  {
+   "prompt": "A chemist counts oxygen atoms before a reaction. Some of them never take part in it. After the reaction, how should the oxygen count on the product side compare to before?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It falls by however many atoms sat out of the reaction"
+    },
+    {
+     "id": "b",
+     "label": "It matches the starting count, as matter is not made or lost"
+    },
+    {
+     "id": "c",
+     "label": "It rises by however many atoms sat out of the reaction"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be known without weighing the products first"
+    }
+   ],
+   "answer": "b",
+   "explain": "Reactions neither create nor destroy matter nor turn one element into another, so the atom count of an element is the same throughout, whether or not all its atoms take part.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Combustion_reaction_of_methane.jpg/960px-Combustion_reaction_of_methane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Stoichiometry",
+  "credit": "Jynto Robert A. Rohde Jacek FH Jynto",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Combustion_reaction_of_methane.jpg"
+ },
+ "source": {
+  "title": "Stoichiometry",
+  "url": "https://en.wikipedia.org/wiki/Stoichiometry",
+  "revision": 1372736584
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it measures",
+    "text": "Stoichiometry is the study of how much of each substance goes into and comes out of a chemical reaction. It follows the quantities of the reactants and the products before, during and after the change. Chemists use it to work out how much product a reaction will give, or how much of each reactant it will need.",
+    "cites": [
+     1,
+     8
+    ]
+   },
+   {
+    "heading": "Rooted in conserved mass",
+    "text": "The whole idea rests on the law of conservation of mass: the reactants together weigh exactly as much as the products. A reaction cannot create or destroy matter, and it cannot turn one element into another. So the number of atoms of any element on the reactant side must match the number on the product side. That is why reactants and products always relate to each other as ratios of positive whole numbers.",
+    "cites": [
+     2,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Reading an equation",
+    "text": "Take methane burning in oxygen. Each methane molecule combines with two oxygen molecules, and out come one carbon dioxide molecule and two water molecules, an example of complete combustion. The numbers written in front of each substance are called stoichiometric coefficients, and they give the ratios in moles. A mole is a set count of particles, fixed by the Avogadro constant at exactly 6.02214076×10²³ per mole. So each mole of methane burned uses up two moles of oxygen and yields one mole of carbon dioxide and two moles of water.",
+    "cites": [
+     5,
+     6,
+     7,
+     10,
+     30
+    ]
+   },
+   {
+    "heading": "From moles to grams",
+    "text": "Every element has an atomic mass, and adding up the atoms in a compound gives its molecular or formula mass. Written in daltons, that number equals the molar mass in grams per mole. Carbon-12, for instance, is exactly 12 Da by definition, so its molar mass is 12 g/mol. To find masses in a reaction, you take the moles each reactant needs and multiply by its molar mass. Using stoichiometry to reach quantities by weight like this is called composition stoichiometry.",
+    "cites": [
+     11,
+     12,
+     28,
+     29,
+     31
+    ]
+   },
+   {
+    "heading": "Why the masses are not tidy",
+    "text": "Elements in nature are mixtures of isotopes, forms of an atom that differ in mass, so their atomic and molar masses are not exact whole numbers. Ammonia shows the effect. Instead of a clean 14:3 split, 17.031 g of ammonia is made up of 14.007 g of nitrogen plus 3 × 1.008 g of hydrogen. Natural nitrogen carries a little nitrogen-15, and natural hydrogen carries some hydrogen-2, also called deuterium.",
+    "cites": [
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "A worked example",
+    "text": "Drop solid copper into a solution of silver nitrate, and the copper takes the place of the silver. The reaction leaves copper(II) nitrate dissolved in the water and solid silver behind. Suppose you add 16.00 g of copper to an excess of silver nitrate and want to know how much silver you get. Dividing the copper mass by its molar mass, 63.55 g/mol, gives 0.2518 moles of copper. The balanced equation puts copper and silver in a 1:2 ratio, and that ratio is the next step toward the amount of silver.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Where the word comes from",
+    "text": "Jeremias Benjamin Richter first used the term in 1792, when the first volume of his German book on the fundamentals of stoichiometry came out. The word joins two Ancient Greek roots: stoikheîon, meaning element, and métron, meaning measure. Put together, it names the art of measuring the elements.",
+    "cites": [
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-4-3",
+   "kind": "book",
+   "title": "4.3 Reaction Stoichiometry",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry",
+   "note": "A free college textbook section on using balanced equations to turn moles and masses of one substance into another, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-4-4",
+   "kind": "book",
+   "title": "4.4 Reaction Yields",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+   "note": "The next textbook section: limiting reactants, theoretical yield and percent yield, worked step by step.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-stoichiometry",
+   "kind": "video",
+   "title": "Stoichiometry - Chemistry for Massive Creatures: Crash Course Chemistry #6",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=UL1jmJaUkaQ",
+   "note": "A Crash Course Chemistry episode introducing stoichiometry, the arithmetic of amounts in reactions."
+  }
+ ]
+}

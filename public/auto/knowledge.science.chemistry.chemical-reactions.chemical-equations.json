@@ -1,0 +1,570 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equations",
+ "name": "Chemical equations",
+ "summary": [
+  {
+   "text": "A chemical equation is the symbolic representation of a chemical reaction, written with symbols and chemical formulas.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The reactants go on the left and the products on the right, with an arrow that points toward the products to show the direction.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "An equation is balanced by choosing coefficients so each side has the same number of atoms of every element.",
+   "cites": [
+    25,
+    27,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First one drawn",
+   "value": "Jean Beguin diagrammed the first one in 1615",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Missing coefficient",
+   "value": "If no number is written, the coefficient is 1",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Heat symbol",
+   "value": "A delta on the arrow shows heat is added",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Light symbol",
+   "value": "The expression hν shows energy added as light",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Simple balancing",
+   "value": "Simple equations can be balanced by trial and error",
+   "cites": [
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In an equation, a formula appears with no number in front of it. How many entities of that substance take part in the reaction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two, the smallest group that can react"
+    },
+    {
+     "id": "b",
+     "label": "Zero, since it is not counted at all"
+    },
+    {
+     "id": "c",
+     "label": "One, since the missing number equals 1"
+    },
+    {
+     "id": "d",
+     "label": "However many the chemist later chooses"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the coefficient is not written, it is equal to 1, and the coefficient specifies how many entities are involved.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations:q1"
+  },
+  {
+   "prompt": "A textbook equation has a small triangle drawn on its reaction arrow. What does it show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heat is added to the reaction as energy"
+    },
+    {
+     "id": "b",
+     "label": "Light is added to the reaction as energy"
+    },
+    {
+     "id": "c",
+     "label": "The equation has been checked and balanced"
+    },
+    {
+     "id": "d",
+     "label": "The reaction runs in both directions"
+    }
+   ],
+   "answer": "a",
+   "explain": "A delta or triangle on the arrow shows that energy in the form of heat is added to the reaction.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations:q2"
+  },
+  {
+   "prompt": "A student counts atoms for a reaction. Carbon matches on both sides, but hydrogen shows 4 on the left and 2 on the right. What should she do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Accept it, since carbon already matches"
+    },
+    {
+     "id": "b",
+     "label": "Delete the extra hydrogen from the left"
+    },
+    {
+     "id": "c",
+     "label": "Add some new element to the right side"
+    },
+    {
+     "id": "d",
+     "label": "Change coefficients until hydrogen agrees"
+    }
+   ],
+   "answer": "d",
+   "explain": "Each side must have the same number of atoms of each element, and an equation is balanced by assigning suitable coefficients.",
+   "cites": [
+    25,
+    27,
+    28
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations:q3"
+  },
+  {
+   "prompt": "Why must an equation show the same atoms of each element on both sides?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because atoms keep changing into other elements and back again"
+    },
+    {
+     "id": "b",
+     "label": "Because elements pass through a chemical reaction unchanged"
+    },
+    {
+     "id": "c",
+     "label": "Because the arrow works as an equals sign between the two sides"
+    },
+    {
+     "id": "d",
+     "label": "Because plus signs ask you to add up the atoms in each side"
+    }
+   ],
+   "answer": "b",
+   "explain": "No nuclear reactions take place in a chemical reaction, so the elements pass through unchanged and each side must show the same number of atoms.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations:q4"
+  },
+  {
+   "prompt": "While balancing by trial and error, you reach a coefficient like 1/2. What clears the fraction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Scale every coefficient by the lowest common denominator"
+    },
+    {
+     "id": "b",
+     "label": "Round each fraction to the nearest whole number you like"
+    },
+    {
+     "id": "c",
+     "label": "Remove the substance carrying the fraction entirely"
+    },
+    {
+     "id": "d",
+     "label": "Double only the coefficient that holds the fraction"
+    }
+   ],
+   "answer": "a",
+   "explain": "Fractions can be eliminated by multiplying all coefficients by their lowest common denominator.",
+   "cites": [
+    29,
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations:q5"
+  },
+  {
+   "prompt": "A chemist wants to show that a reaction runs in an acidic medium but does not name a specific acid. What can she write on top of the arrow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "OH⁻"
+    },
+    {
+     "id": "b",
+     "label": "Δ"
+    },
+    {
+     "id": "c",
+     "label": "H⁺"
+    },
+    {
+     "id": "d",
+     "label": "hν"
+    }
+   ],
+   "answer": "c",
+   "explain": "Writing H⁺ (or even \"acid\") on top of the arrow denotes an acidic medium when no specific acid is required.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations:q6"
+  }
+ ],
+ "source": {
+  "title": "Chemical equation",
+  "url": "https://en.wikipedia.org/wiki/Chemical_equation",
+  "revision": 1373920998
+ },
+ "pack": {
+  "id": "auto-chemical-reactions-chemical-equations",
+  "title": "Chemistry's Shorthand, Decoded",
+  "question": "How do you read a chemical equation and tell if it is right?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical reactions",
+   "Chemical equations"
+  ],
+  "hue": 170,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Mole_carbon-12_diagram.svg/960px-Mole_carbon-12_diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Mole (unit)",
+    "credit": "VectorVoyager · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mole_carbon-12_diagram.svg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Chemistry's Shorthand, Decoded",
+    "hook": "One line of symbols can say what goes in, what comes out, and what energy is added."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemical-reactions-chemical-equations:1",
+    "transfer": false,
+    "prompt": "You count atoms in a draft equation: 3 oxygen atoms on the left, 2 on the right. What should you conclude?",
+    "explain": "Each side must show the same number of atoms of an element, and an equation is balanced by assigning suitable coefficients.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It is not balanced, so the coefficients need adjusting"
+       },
+       {
+        "id": "b",
+        "label": "It is fine as long as the arrow points toward the products",
+        "feedback": "The arrow shows direction, but a balanced equation needs the same number of atoms of each element on both sides."
+       },
+       {
+        "id": "a",
+        "label": "Oxygen was destroyed in the reaction",
+        "feedback": "No nuclear reactions take place in a chemical reaction, so the elements pass through unchanged and nothing is destroyed."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-reactions-chemical-equations:2",
+    "transfer": false,
+    "prompt": "Match each piece of notation to what it tells you.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "A coefficient"
+     },
+     {
+      "id": "l1",
+      "label": "A plus sign"
+     },
+     {
+      "id": "l2",
+      "label": "Δ on the arrow"
+     },
+     {
+      "id": "l3",
+      "label": "hν on the arrow"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Energy added as heat"
+     },
+     {
+      "id": "r3",
+      "label": "Energy added as light"
+     },
+     {
+      "id": "r0",
+      "label": "How many entities of a substance take part"
+     },
+     {
+      "id": "r1",
+      "label": "Separates substances on one side"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Coefficients count entities, plus signs separate substances, and Δ and hν show the form of added energy."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-reactions-chemical-equations:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each item by where it is written.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Δ"
+     },
+     {
+      "id": "i1",
+      "label": "hν"
+     },
+     {
+      "id": "i2",
+      "label": "H⁺"
+     },
+     {
+      "id": "i3",
+      "label": "A reactant's formula"
+     },
+     {
+      "id": "i4",
+      "label": "A product's formula"
+     },
+     {
+      "id": "i5",
+      "label": "A stoichiometric coefficient"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "On the arrow"
+     },
+     {
+      "id": "g1",
+      "label": "In the sides"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "Energy and medium symbols go on the arrow, while formulas and their coefficients are written in the reactant and product sides."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemical-reactions-chemical-equations:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Elements pass through a chemical reaction unchanged."
+     },
+     {
+      "id": "b",
+      "text": "So each side of the equation must show the same number of atoms of each element."
+     },
+     {
+      "id": "c",
+      "text": "An equation that meets this is said to be balanced."
+     },
+     {
+      "id": "d",
+      "text": "So to balance an equation, you change the small numbers inside each formula."
+     }
+    ],
+    "answer": "d",
+    "explain": "A chemical equation is balanced by assigning suitable values to the stoichiometric coefficients."
+   },
+   {
+    "kind": "payoff",
+    "idea": "An equation puts reactants on the left and products on the right, and it is balanced when every element has the same atom count on both sides.",
+    "connections": [
+     {
+      "title": "Conservation of mass",
+      "place": "Chemical equations",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass"
+     },
+     {
+      "title": "Mole (unit)",
+      "place": "Chemical equations",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equations.mole-unit"
+     },
+     {
+      "title": "Stoichiometry",
+      "place": "Chemical equations",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equations.stoichiometry"
+     },
+     {
+      "title": "Limiting reagent",
+      "place": "Chemical equations",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Each side must show the same number of atoms of an element, and an equation is balanced by assigning suitable coefficients.",
+    "source": "Wikipedia sentences 24, 25, 27, 28"
+   },
+   {
+    "claim": "Coefficients count entities, plus signs separate substances, and Δ and hν show the form of added energy.",
+    "source": "Wikipedia sentences 8, 10, 12, 13"
+   },
+   {
+    "claim": "Energy and medium symbols go on the arrow, while formulas and their coefficients are written in the reactant and product sides.",
+    "source": "Wikipedia sentences 2, 6, 7, 12, 13, 16"
+   },
+   {
+    "claim": "A chemical equation is balanced by assigning suitable values to the stoichiometric coefficients.",
+    "source": "Wikipedia sentences 24, 25, 27, 28"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A reaction written as symbols",
+    "text": "A chemical equation is shorthand for a chemical reaction, built from element symbols and chemical formulas. The reactants, the substances you start with, go on the left. The products, the substances the reaction makes, go on the right. An arrow points toward the products to show which way the reaction runs, and plus signs separate the substances on each side. Jean Beguin drew the first one in 1615.",
+    "cites": [
+     1,
+     2,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "heading": "The numbers in front",
+    "text": "A formula can have a number placed before it, called the stoichiometric coefficient. It says how many entities of that substance, such as molecules, take part in the reaction. When no number is written, the coefficient is taken to be 1.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Notes on the arrow",
+    "text": "Extra information can sit on the arrow itself. A capital delta (Δ) or a triangle means heat is supplied, and hν means light is supplied. The acid or base the reaction needs as its medium can be named there, or simply written as H⁺ or OH⁻, and temperature, pressure and catalysts are shown the same way. This keeps minor substances off the two sides, makes the kind of reaction easier to see, and lets equations be chained together, which helps when showing reactions that happen in several steps.",
+    "cites": [
+     11,
+     12,
+     13,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Why equations must balance",
+    "text": "A chemical reaction involves no nuclear reactions, so every element comes through it unchanged. That means each side must show the same number of atoms of each element. The total electric charge must match on both sides too. An equation that meets these rules is called balanced, and you balance it by choosing suitable coefficients.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Balancing by inspection",
+    "text": "Simple equations can be balanced by trial and error, a method called inspection. Give the most complicated substance a coefficient of 1, then fill in the other coefficients one at a time until every element has equal atom counts on both sides. If fractions turn up along the way, multiply all the coefficients by their lowest common denominator to clear them. Finally, check the result, for instance confirming that both sides hold 1 carbon, 4 hydrogen and 4 oxygen atoms.",
+    "cites": [
+     29,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Balancing with algebra",
+    "text": "Another route turns the problem into a system of linear equations that can be solved with standard mathematics. Setting every coefficient to zero always solves it, but that answer is useless. If any other solution exists, there are infinitely many, and each of them balances the equation. The preferred answer uses whole numbers, mostly positive, that share no common divisor larger than one.",
+    "cites": [
+     30,
+     34,
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-4-1",
+   "kind": "book",
+   "title": "4.1: Writing and Balancing Chemical Equations",
+   "by": "OpenStax, on Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.02%3A_Writing_and_Balancing_Chemical_Equations",
+   "note": "A free textbook section on writing equations and balancing them by counting atoms, with worked examples.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "wikibooks-balancing",
+   "kind": "book",
+   "title": "General Chemistry/Balancing Equations",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Balancing_Equations",
+   "note": "A short open textbook page that balances several equations step by step, including fuel combustion.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "wikibooks-chemical-equations",
+   "kind": "book",
+   "title": "General Chemistry/Chemical equations",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Chemical_equations",
+   "note": "An open textbook page on the parts of an equation: coefficients, states, conditions and catalysts.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

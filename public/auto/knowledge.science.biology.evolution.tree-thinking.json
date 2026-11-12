@@ -1,0 +1,317 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.evolution.tree-thinking",
+ "name": "Tree thinking",
+ "summary": [
+  {
+   "text": "Phylogenetics is the study of the evolutionary history of life, using observable characteristics of organisms or genes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its result is a phylogenetic tree, a diagram of the hypothetical relationships among organisms that reflects their inferred evolutionary history.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "It is used in fields such as cancer research, drug discovery and forensic science, for example to screen for closely related species that may share a useful trait.",
+   "cites": [
+    11,
+    14,
+    18,
+    21
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Tree tips",
+   "value": "Observed entities: living taxa or fossils",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Rooted tree",
+   "value": "Shows the hypothetical common ancestor of the taxa",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Before 1950",
+   "value": "Inferences were generally presented as narrative scenarios",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "HIV limits",
+   "value": "Relatedness of samples cannot show the direction of transmission",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A diagram links species by relatedness but marks no starting point or shared ancestor at its base. What kind of diagram is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Linnaean table"
+    },
+    {
+     "id": "b",
+     "label": "An unrooted tree"
+    },
+    {
+     "id": "c",
+     "label": "A rooted tree"
+    },
+    {
+     "id": "d",
+     "label": "A narrative scenario"
+    }
+   ],
+   "answer": "b",
+   "explain": "An unrooted tree does not show the origin or root of the taxa, while a rooted tree indicates their hypothetical common ancestor.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.biology.evolution.tree-thinking:q1"
+  },
+  {
+   "prompt": "A researcher finds a fossil and wants to place it on a tree of life. Where does it go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At a tip, where living taxa also sit"
+    },
+    {
+     "id": "b",
+     "label": "Only at the root, since fossils are old"
+    },
+    {
+     "id": "c",
+     "label": "Fossils can't go on trees, only living species"
+    },
+    {
+     "id": "d",
+     "label": "Along the branches, never at a tip"
+    }
+   ],
+   "answer": "a",
+   "explain": "The tips of a phylogenetic tree represent the observed entities, which can be living taxa or fossils.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.biology.evolution.tree-thinking:q2"
+  },
+  {
+   "prompt": "Two patients carry HIV samples that are closely related. Can a lab prove from this that one infected the other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes; close relatedness proves who infected whom"
+    },
+    {
+     "id": "b",
+     "label": "Yes; but only if the samples were taken in one year"
+    },
+    {
+     "id": "c",
+     "label": "No; HIV genes do not differ between people"
+    },
+    {
+     "id": "d",
+     "label": "No; it cannot be the sole proof and shows no direction"
+    }
+   ],
+   "answer": "d",
+   "explain": "Phylogenetic analysis can track differences in HIV genes, but it cannot be the sole proof of transmission and does not show its direction.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.science.biology.evolution.tree-thinking:q3"
+  },
+  {
+   "prompt": "Chemists have found a useful venom in one fish. How can a phylogenetic tree help them look for more?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It shows which distant species evolved different venoms"
+    },
+    {
+     "id": "b",
+     "label": "It limits the search to fish, the only venomous group"
+    },
+    {
+     "id": "c",
+     "label": "It points to close relatives that may share the trait"
+    },
+    {
+     "id": "d",
+     "label": "It cannot help, so every species must be tested at random"
+    }
+   ],
+   "answer": "c",
+   "explain": "Scientists screen for closely related species that may have the same useful traits, and a tree shows which related fish may also carry the trait.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.biology.evolution.tree-thinking:q4"
+  },
+  {
+   "prompt": "Two biologists in the 1940s each tell a different story of how some animal groups are related, with no scoring rule. Why is it hard to decide who is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Such stories were often ambiguous, with no explicit criteria"
+    },
+    {
+     "id": "b",
+     "label": "Such stories ignored every observable trait of the organisms"
+    },
+    {
+     "id": "c",
+     "label": "Such stories relied too heavily on modern DNA sequence data"
+    },
+    {
+     "id": "d",
+     "label": "Such stories were never allowed to include any fossil taxa"
+    }
+   ],
+   "answer": "a",
+   "explain": "Before 1950, inferences were generally narrative scenarios, which were often ambiguous and lacked explicit criteria for evaluating alternative hypotheses.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.science.biology.evolution.tree-thinking:q5"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Clade_of_the_fish_tree_of_life.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Tree thinking",
+  "credit": "University of California, Berkeley.",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Clade_of_the_fish_tree_of_life.png"
+ },
+ "source": {
+  "title": "Phylogenetics",
+  "url": "https://en.wikipedia.org/wiki/Phylogenetics",
+  "revision": 1378290443
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Reading life's family history",
+    "text": "Phylogenetics studies how life has evolved over its history, working this out from features we can observe in organisms or in their genes. Researchers look at inherited traits such as DNA sequences, the amino acid sequences and shapes of proteins, and body form, and from these they infer how organisms are related. The result is a phylogenetic tree: a diagram of proposed relationships that reflects the inferred history. The tips of the tree stand for the things actually observed, which can be living groups or fossils.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Rooted and unrooted trees",
+    "text": "A tree can be drawn rooted or unrooted. A rooted tree marks the supposed common ancestor of all the groups it shows. An unrooted tree, also called a network, does not show that origin, and it makes no assumption about which way traits changed over time.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Sorting and naming life",
+    "text": "Phylogenetics is part of systematics, which uses the likenesses and differences between species to make sense of how they are related and where they came from. It is also used to map relationships among genes or single organisms, and it has become central to understanding biodiversity, evolution, ecology and genomes. Taxonomy, the naming and sorting of organisms, rests on the system Carolus Linnaeus built in the 1700s, which grouped species by their physical features. Today groupings are often based on DNA data, alone or together with body form.",
+    "cites": [
+     8,
+     9,
+     10,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Uses in medicine",
+    "text": "The same thinking helps in medicine. In cancer research, it can trace how groups of cells in a tumour change as the disease advances and during treatment. In drug discovery, it can point to species likely to share a medically useful trait with a known relative. Venoms from animals have given drugs such as ACE inhibitors and Prialt, and by screening close relatives of venomous species, biologists can pick out fish, snakes and lizards that may be venomous too.",
+    "cites": [
+     11,
+     14,
+     15,
+     16,
+     17,
+     18,
+     20
+    ]
+   },
+   {
+    "heading": "Uses in court",
+    "text": "In forensic science, phylogenetic tools help judge DNA evidence, and they have been used in criminal trials both to clear people and to hold them responsible. In HIV cases, the method compares HIV genes to judge how closely two samples are related. But it cannot on its own prove that one person infected another, and it does not reveal which way the virus passed.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "From stories to statistics",
+    "text": "Before 1950, ideas about how groups were related were usually told as narrative scenarios. These were often vague and gave no clear rules for weighing one hypothesis against another. Modern methods are computational, using approaches such as parsimony, maximum likelihood and Bayesian inference. Trees built from a larger total number of nucleotides, the units of a DNA sequence, are generally more accurate.",
+    "cites": [
+     30,
+     34,
+     35,
+     37,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-20-1",
+   "kind": "book",
+   "title": "20.1 Organizing Life on Earth",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+   "note": "A free textbook section on how to read phylogenetic trees, rooted and unrooted, and on levels of classification."
+  },
+  {
+   "id": "openstax-bio-20-2",
+   "kind": "book",
+   "title": "20.2 Determining Evolutionary Relationships",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/biology-2e/pages/20-2-determining-evolutionary-relationships",
+   "note": "The next section: how biologists use shared traits and DNA comparisons to build trees, and why look-alikes can mislead."
+  },
+  {
+   "id": "cc-bio-phylogeny",
+   "kind": "video",
+   "title": "Phylogeny: How We're All Related: Crash Course Biology #17",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=YM6Ekb5De2o",
+   "note": "A Crash Course Biology episode on phylogeny and how evolutionary trees show that all life is related."
+  },
+  {
+   "id": "openstax-bio-20-3",
+   "kind": "book",
+   "title": "20.3 Perspectives on the Phylogenetic Tree - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/20-3-perspectives-on-the-phylogenetic-tree",
+   "note": "A free textbook section on the limits of the tree model, including horizontal gene transfer and genome fusion.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

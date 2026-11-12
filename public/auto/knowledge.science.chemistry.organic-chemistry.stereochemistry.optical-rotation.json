@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation",
+ "name": "Optical rotation",
+ "summary": [
+  {
+   "text": "Optical rotation is the turning of the plane of polarization of linearly polarized light as it travels through certain materials.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It occurs only in chiral materials, and unlike other sources of birefringence it can be observed in fluids such as gases and solutions of chiral molecules.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "The angle of rotation grows with the path length and, in a solution, with its concentration, so polarimeters can measure sugar concentration.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Clockwise rotation",
+   "value": "Dextrorotatory, written (+)",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Counterclockwise rotation",
+   "value": "Levorotatory, written (−)",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Sugar industry use",
+   "value": "Polarimeters measure the sugar concentration of syrup",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Examples",
+   "value": "Sucrose and camphor turn light right; cholesterol turns it left",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "First observed",
+   "value": "1811, in quartz, by François Arago",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A polarimeter reads a certain angle for a sugar solution in a tube. You make the solution twice as concentrated and keep the same tube. What happens to the angle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same"
+    },
+    {
+     "id": "b",
+     "label": "It shrinks"
+    },
+    {
+     "id": "c",
+     "label": "It becomes proportionally larger"
+    },
+    {
+     "id": "d",
+     "label": "It reverses direction"
+    }
+   ],
+   "answer": "c",
+   "explain": "For a solution the angle is proportional to its concentration, so doubling the concentration increases it in proportion.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation:q1"
+  },
+  {
+   "prompt": "A chiral molecule turns polarized light to the right by a certain angle. What does its mirror image do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Turns it to the right by the same angle"
+    },
+    {
+     "id": "b",
+     "label": "Turns it to the left by the same angle"
+    },
+    {
+     "id": "c",
+     "label": "Turns it to the left by twice the angle"
+    },
+    {
+     "id": "d",
+     "label": "Does not turn it at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "Enantiomers rotate plane-polarized light the same number of degrees, but in opposite directions.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation:q2"
+  },
+  {
+   "prompt": "A student reasons that every L-amino acid in proteins must turn polarized light to the left. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Proteins are built from no amino acids"
+    },
+    {
+     "id": "b",
+     "label": "The L label does not give the rotation direction"
+    },
+    {
+     "id": "c",
+     "label": "L always means a turn to the right"
+    },
+    {
+     "id": "d",
+     "label": "Amino acids never rotate any light"
+    }
+   ],
+   "answer": "b",
+   "explain": "The prefix for absolute configuration is not directly related to the (+) or (−) sign; some L-amino acids are dextrorotary.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation:q3"
+  },
+  {
+   "prompt": "A material has microscopic mirror symmetry. Will it show optical activity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, only chiral materials lacking such symmetry do"
+    },
+    {
+     "id": "b",
+     "label": "Yes, every liquid does"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if the light is bright enough"
+    },
+    {
+     "id": "d",
+     "label": "Only if it is a solid crystal"
+    }
+   ],
+   "answer": "a",
+   "explain": "Optical activity occurs only in chiral materials, those lacking microscopic mirror symmetry.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation:q4"
+  },
+  {
+   "prompt": "Two quartz crystals have structures that are mirror images of each other. How do they treat linearly polarized light?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both turn it the same way by the same amount"
+    },
+    {
+     "id": "b",
+     "label": "Neither turns it"
+    },
+    {
+     "id": "c",
+     "label": "They turn it by equal amounts in opposite directions"
+    },
+    {
+     "id": "d",
+     "label": "One turns it and the other does not"
+    }
+   ],
+   "answer": "c",
+   "explain": "Herschel found that mirror-image quartz crystals rotate linear polarization by equal amounts in opposite directions.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation:q5"
+  },
+  {
+   "prompt": "Sucrose syrup is split into glucose and fructose. Why is the result called invert sugar?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It turns the syrup upside down in the jar"
+    },
+    {
+     "id": "b",
+     "label": "It makes the syrup sourer"
+    },
+    {
+     "id": "c",
+     "label": "It dissolves the sugar crystals"
+    },
+    {
+     "id": "d",
+     "label": "Its rotation of polarized light flips from right to left"
+    }
+   ],
+   "answer": "d",
+   "explain": "Fructose is even more strongly levorotatory than glucose is dextrorotatory, so the conversion makes the direction of rotation go from right to left.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.optical-rotation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Polarimeter_%28Optical_rotation%29.svg/960px-Polarimeter_%28Optical_rotation%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Optical rotation",
+  "credit": "Kaidor",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Polarimeter_(Optical_rotation).svg"
+ },
+ "source": {
+  "title": "Optical rotation",
+  "url": "https://en.wikipedia.org/wiki/Optical_rotation",
+  "revision": 1337171355
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Light that gets turned",
+    "text": "When linearly polarized light passes through certain materials, its plane of polarization gets turned, and that turning is called optical rotation. It is also known as polarization rotation or circular birefringence. Together with circular dichroism, it is one of the ways optical activity shows itself. Optical activity happens only in chiral materials, meaning ones that lack mirror symmetry at the microscopic scale.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Where it shows up",
+    "text": "Unlike other sources of birefringence that change a beam's polarization, optical activity can be seen in fluids. That includes gases and solutions of chiral molecules such as sugars, some proteins with a helical structure, and chiral liquid crystals. Solids can show it too, such as quartz crystals, where neighbouring crystal planes are rotated, and metamaterials. Controlling a liquid crystal's optical activity between two polarizing sheets is how liquid-crystal displays work, the screens in most modern televisions and computer monitors.",
+    "cites": [
+     4,
+     5,
+     6,
+     12
+    ]
+   },
+   {
+    "heading": "Right turns and left turns",
+    "text": "Seen from the light source, the plane can turn to the right, clockwise, called dextrorotatory and marked (+), or to the left, counterclockwise, called levorotatory and marked (−). Which way depends on which stereoisomer dominates. Sucrose and camphor turn light to the right, while cholesterol turns it to the left. If a chiral molecule turns light one way, its enantiomer, the mirror-image form, turns it by the same number of degrees the opposite way. The prefixes d- and l- can mark the same thing, but the International Union of Pure and Applied Chemistry strongly discourages them.",
+    "cites": [
+     7,
+     8,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Measuring it",
+    "text": "For a given substance and light of a set wavelength, the angle of rotation is proportional to the distance the light travels through the material and, for a solution, to its concentration. Optical activity is measured with a polarized light source and an instrument called a polarimeter. The sugar industry uses polarimeters to find the sugar concentration of syrup, and chemists use them to measure the concentration or enantiomer ratio of chiral molecules in solution.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Labels that do not match",
+    "text": "The (+) and (−) signs are separate from the small-capital D- and L- prefixes, which give a molecule's absolute configuration relative to (+)-glyceraldehyde. The two are not directly related. Nine of the nineteen L-amino acids found in proteins actually turn light to the right at 589 nm. Meanwhile D-fructose turns light to the left, which earned it the nickname levulose. The (R) and (S) labels have no strict tie to rotation either, so the link must be found case by case through experiments or detailed computer modelling.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     31,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "From quartz to sugar syrup",
+    "text": "François Arago first saw this rotation in quartz in 1811, and Jean Baptiste Biot also found it in liquids and vapours of organic substances such as turpentine. In 1822 Augustin-Jean Fresnel explained it as a kind of birefringence, caused by right-hand and left-hand circularly polarized light travelling at different speeds. Sugar names still carry the idea: D-glucose is also called dextrose because it turns light to the right, while fructose, or levulose, turns it to the left even more strongly. Invert sugar syrup, made by splitting sucrose into fructose and glucose, is named for how that change flips the rotation from right to left.",
+    "cites": [
+     35,
+     38,
+     39,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-5-3",
+   "kind": "book",
+   "title": "5.3 Optical Activity",
+   "by": "OpenStax (McMurry, Organic Chemistry)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-3-optical-activity",
+   "note": "A free textbook section on plane-polarized light, how a polarimeter works, and specific rotation, with a table of values.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

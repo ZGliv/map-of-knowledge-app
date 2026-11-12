@@ -1,0 +1,104 @@
+{
+ "title": "When Only Whole Numbers Count",
+ "question": "What changes about an equation when only whole-number answers are allowed?",
+ "hook": "Half a box or a third of a coin makes no sense, and that small rule makes some equations very hard.",
+ "idea": "Diophantine equations ask for whole-number solutions, and beyond the simplest cases there is no general method for deciding whether any exist.",
+ "beats": [
+  {
+   "kind": "match",
+   "prompt": "match each name to what it describes",
+   "pairs": [
+    [
+     "Linear Diophantine equation",
+     "A sum of unknowns with coefficients equals a constant"
+    ],
+    [
+     "Exponential Diophantine equation",
+     "Unknowns can appear in exponents"
+    ],
+    [
+     "Diophantine geometry",
+     "The part of algebraic geometry that studies the curves and surfaces such systems define"
+    ],
+    [
+     "Diophantine analysis",
+     "The study of Diophantine problems that Diophantus began"
+    ]
+   ],
+   "explain": "Each name marks a different way of looking at whole-number equations: by the shape of the equation or by the study built around it.",
+   "cites": [
+    2,
+    3,
+    5,
+    7
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Someone proposes writing one computer program that checks any Diophantine equation and reports whether it has a whole-number solution. What does Hilbert's tenth problem say about this plan?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Such a general program cannot exist"
+    },
+    {
+     "id": "b",
+     "label": "It can exist but would be too slow to be practical",
+     "feedback": "It sounds like a speed problem, but the result is stronger: no such general method exists at all, however much time it gets."
+    },
+    {
+     "id": "c",
+     "label": "It exists, but only for equations with a single unknown",
+     "feedback": "This sounds like a sensible restriction, but the result is about arbitrary equations and says no general algorithm exists."
+    }
+   ],
+   "answer": "a",
+   "explain": "Hilbert's tenth problem shows that there cannot exist a general algorithm that decides whether an arbitrary Diophantine equation has an integer solution.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Diophantus of Alexandria studied these equations in the 3rd century.",
+    "Individual equations have been treated as puzzles throughout history.",
+    "So a general theory covering every kind of equation must have been finished soon after Diophantus.",
+    "In fact, general theories beyond linear and quadratic equations came only in the twentieth century."
+   ],
+   "wrong": 2,
+   "explain": "Puzzles are old, but general theories beyond the linear and quadratic cases only arrived in the twentieth century, so the third step does not follow.",
+   "cites": [
+    6,
+    8
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Mathematicians have general methods that work on almost every cubic equation seen in practice. What can be said about all cubic equations?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A method for every cubic equation has been proven impossible to improve",
+     "feedback": "This sounds like the final word, but nothing in that claim is known."
+    },
+    {
+     "id": "b",
+     "label": "No algorithm is known that works for every cubic equation"
+    },
+    {
+     "id": "c",
+     "label": "Cubic equations are easier to solve than quadratic ones",
+     "feedback": "Cubic cases feel like a small step up, but degree-two equations are the easier ones."
+    }
+   ],
+   "answer": "b",
+   "explain": "Methods cover almost all cubic equations met in practice, yet no algorithm is known for every cubic one, and degree-two equations are easier.",
+   "cites": [
+    28,
+    29
+   ]
+  }
+ ]
+}

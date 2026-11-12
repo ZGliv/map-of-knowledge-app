@@ -1,0 +1,40 @@
+/* The Save sheet (SaveSheet.tsx), from Watch and Reels: the night of the Library's sheets, small. */
+.save-scrim{position:fixed;inset:0;z-index:40;display:flex;align-items:flex-end;justify-content:center;background:rgb(3 4 10/.42);animation:save-fade .18s ease-out}
+.save-sheet{position:relative;width:100%;max-width:520px;max-height:min(86dvh,680px);overflow:auto;overscroll-behavior:contain;display:grid;gap:14px;padding:18px 18px calc(16px + var(--safe-bottom,env(safe-area-inset-bottom,0px)));border-radius:22px 22px 0 0;background:linear-gradient(180deg,hsl(231 30% 10%),hsl(232 34% 7%));box-shadow:0 -1px 0 hsl(224 60% 97%/.07),0 -20px 40px -10px #000;color:var(--atlas-text,#e8ecff);font-family:'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;animation:save-rise .26s cubic-bezier(.2,.8,.2,1)}
+.save-sheet:focus{outline:none}
+.save-title{margin:0;font:400 22px/1.15 var(--atlas-serif,Georgia,serif);color:var(--atlas-bright,#fff)}
+.save-places,.save-found{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.save-place,.save-found button{width:100%;display:flex;align-items:center;gap:12px;min-height:52px;padding:8px 14px;border-radius:14px;background:rgb(255 255 255/.04);border:1px solid rgb(255 255 255/.1);color:#fff;text-align:left;transition:background .15s,border-color .15s}
+.save-place i,.save-found i{width:9px;height:9px;border-radius:50%;flex-shrink:0;background:var(--place-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--place-color) 22%,transparent)}
+.save-place span:not(.save-tick),.save-found span{display:grid;gap:1px;flex:1;min-width:0}
+.save-place b,.save-found b{font:400 17px/1.25 var(--atlas-serif,Georgia,serif);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.save-place small,.save-found small{font-size:11.5px;color:rgb(255 255 255/.52);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.save-place.is-on{background:color-mix(in srgb,var(--place-color) 14%,rgb(255 255 255/.04));border-color:color-mix(in srgb,var(--place-color) 55%,transparent)}
+.save-tick{width:26px;height:26px;flex-shrink:0;display:grid;place-items:center;border-radius:50%;border:1px solid rgb(255 255 255/.22);color:var(--atlas-button-ink,#0b0e22)}
+.save-place.is-on .save-tick{background:color-mix(in oklab,var(--place-color) 40%,#f2f5ff);border-color:transparent}
+.save-search{display:flex;align-items:center;gap:10px;min-height:46px;padding:0 14px;border-radius:999px;background:rgb(255 255 255/.05);border:1px solid rgb(255 255 255/.12);color:rgb(255 255 255/.55)}
+.save-search:focus-within{border-color:rgb(255 255 255/.3);background:rgb(255 255 255/.08)}
+.save-search input{flex:1;min-width:0;height:44px;border:0;background:none;color:#fff;font-size:16px}
+.save-search input:focus{outline:none}
+.save-search input::placeholder{color:rgb(255 255 255/.45)}
+.save-search input::-webkit-search-cancel-button{display:none}
+.save-found button{min-height:46px;background:none;border-color:transparent;padding-left:6px}
+.save-actions{display:flex;align-items:center;justify-content:flex-end;gap:18px;padding-top:2px}
+/* A full sheet (five places, the rest searched in) scrolls under Save, which stays on screen at its foot. */
+.save-actions{position:sticky;z-index:1;bottom:calc(-16px - var(--safe-bottom,env(safe-area-inset-bottom,0px)));margin:0 -18px calc(-16px - var(--safe-bottom,env(safe-area-inset-bottom,0px)));padding:8px 18px calc(16px + var(--safe-bottom,env(safe-area-inset-bottom,0px)));background:hsl(232 34% 7%)}
+.save-actions::before{content:'';position:absolute;left:0;right:0;bottom:100%;height:16px;background:linear-gradient(hsl(232 34% 7%/0),hsl(232 34% 7%));pointer-events:none}
+.save-remove{min-height:44px;margin-right:auto;background:none;color:rgb(255 255 255/.66);font-size:15px;font-weight:500}
+.save-confirm{min-height:46px;padding:0 30px;border-radius:999px;background:linear-gradient(180deg,#f7f9ff,#d3dbf7);border:1px solid #fff;color:var(--atlas-button-ink,#0b0e22);font-size:16px;font-weight:650;letter-spacing:.1px;box-shadow:inset 0 1px 0 rgb(255 255 255/.8)}
+.save-confirm:disabled{opacity:.4}
+.save-place:disabled{opacity:.42}
+.save-search:has(input:disabled){opacity:.42}
+.save-problem{margin:0;font-size:14px;line-height:1.35;color:#ffb4a8}
+@media(hover:hover){
+ .save-place:hover,.save-found button:hover{background:rgb(255 255 255/.08)}
+ .save-remove:hover{color:#fff}
+}
+.save-place:focus-visible,.save-found button:focus-visible,.save-confirm:focus-visible,.save-remove:focus-visible{outline:2px solid var(--atlas-pale,#cfd8ff);outline-offset:2px}
+@media(min-width:801px){.save-scrim{align-items:center}.save-sheet{border-radius:20px}}
+@keyframes save-fade{from{opacity:0}}
+@keyframes save-rise{from{transform:translateY(24px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.save-scrim,.save-sheet{animation:none}}

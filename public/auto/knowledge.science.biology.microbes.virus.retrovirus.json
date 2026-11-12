@@ -1,0 +1,310 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.virus.retrovirus",
+ "name": "Retrovirus",
+ "summary": [
+  {
+   "text": "A retrovirus is a virus that inserts a DNA copy of its RNA genome into the DNA of a host cell it invades, changing that cell's genome.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It makes the DNA from its RNA with its own reverse transcriptase enzyme, which is the reverse of the usual pattern, and an integrase enzyme adds it to the host genome.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The host cell then treats the viral DNA as part of its own genome and makes the proteins needed to assemble new copies of the virus.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Why \"retro\"",
+   "value": "Its enzyme makes DNA from RNA, the reverse pattern",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Provirus",
+   "value": "Retroviral DNA is called this once built into the host genome",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "AIDS viruses",
+   "value": "HIV-1 and HIV-2, which are lentiviruses",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Ancient history",
+   "value": "Infecting vertebrates for at least 450 million years",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Virion size",
+   "value": "Enveloped particles about 100 nm in diameter",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A virus carries RNA and, after invading a cell, makes DNA from it. Which of its enzymes does that job?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Integrase"
+    },
+    {
+     "id": "b",
+     "label": "Protease"
+    },
+    {
+     "id": "c",
+     "label": "Reverse transcriptase"
+    },
+    {
+     "id": "d",
+     "label": "The host's RNA polymerase II"
+    }
+   ],
+   "answer": "c",
+   "explain": "The virus uses its own reverse transcriptase to produce DNA from its RNA genome; integrase later adds the DNA to the host genome.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.biology.microbes.virus.retrovirus:q1"
+  },
+  {
+   "prompt": "Retroviral DNA has been built into a host cell's genome. How does the cell treat it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As part of its own genome, reading the viral genes along with its own"
+    },
+    {
+     "id": "b",
+     "label": "As foreign DNA that it cuts out at once"
+    },
+    {
+     "id": "c",
+     "label": "As dormant DNA that it never reads"
+    },
+    {
+     "id": "d",
+     "label": "As an extra copy that it uses only for repair"
+    }
+   ],
+   "answer": "a",
+   "explain": "The host cell treats the viral DNA as part of its own genome, transcribing and translating the viral genes along with its own.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.science.biology.microbes.virus.retrovirus:q2"
+  },
+  {
+   "prompt": "Some retroviruses cause cancer or AIDS. What is known about the spumaviruses, or foamy viruses?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They cause a mild flu in birds"
+    },
+    {
+     "id": "b",
+     "label": "They are benign and not linked to any disease in humans or animals"
+    },
+    {
+     "id": "c",
+     "label": "They cause leukemia in mice"
+    },
+    {
+     "id": "d",
+     "label": "They cause AIDS in humans through a slower path"
+    }
+   ],
+   "answer": "b",
+   "explain": "Spumaviruses are benign and not linked to any disease in humans or animals, unlike the oncoretroviruses and lentiviruses.",
+   "cites": [
+    6,
+    7,
+    8
+   ],
+   "id": "knowledge.science.biology.microbes.virus.retrovirus:q3"
+  },
+  {
+   "prompt": "A biologist wants to put a new gene into cells. Why might they borrow a retrovirus?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It never changes the genome of the cell it invades"
+    },
+    {
+     "id": "b",
+     "label": "It leaves cells untouched and carries genes on the outside"
+    },
+    {
+     "id": "c",
+     "label": "It makes DNA directly from protein"
+    },
+    {
+     "id": "d",
+     "label": "Its specialized enzymes are built to insert DNA into a host's DNA"
+    }
+   ],
+   "answer": "d",
+   "explain": "The specialized DNA-infiltration enzymes in retroviruses make them valuable research tools and they have been used in gene delivery systems.",
+   "cites": [
+    3,
+    9
+   ],
+   "id": "knowledge.science.biology.microbes.virus.retrovirus:q4"
+  },
+  {
+   "prompt": "A retrovirus particle has all its parts except the Env protein. What can it no longer do well?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bind to and enter its target host cell"
+    },
+    {
+     "id": "b",
+     "label": "Turn its RNA into DNA copies"
+    },
+    {
+     "id": "c",
+     "label": "Pack its genome into new particles"
+    },
+    {
+     "id": "d",
+     "label": "Cut proteins as particles mature"
+    }
+   ],
+   "answer": "a",
+   "explain": "Env proteins let the virion bind to and enter the host cell, which makes the retrovirus infectious. Pol makes the DNA, Gag packages the RNA and protease cuts during maturation.",
+   "cites": [
+    33,
+    38,
+    40,
+    41,
+    44
+   ],
+   "id": "knowledge.science.biology.microbes.virus.retrovirus:q5"
+  },
+  {
+   "prompt": "A retrovirus is wrapped in a lipid envelope. Where does the fat in it come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The virus's own RNA genome"
+    },
+    {
+     "id": "b",
+     "label": "The host's plasma membrane, taken as the virus buds out"
+    },
+    {
+     "id": "c",
+     "label": "The Gag proteins inside the particle"
+    },
+    {
+     "id": "d",
+     "label": "The reverse transcriptase enzyme"
+    }
+   ],
+   "answer": "b",
+   "explain": "The envelope is composed of lipids obtained from the host plasma membrane during the budding process.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.biology.microbes.virus.retrovirus:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Hiv_gross.png/960px-Hiv_gross.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Retrovirus",
+  "credit": "Translated by Raul654",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hiv_gross.png"
+ },
+ "source": {
+  "title": "Retrovirus",
+  "url": "https://en.wikipedia.org/wiki/Retrovirus",
+  "revision": 1378362780
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A virus that writes itself in",
+    "text": "A retrovirus carries its genes as RNA, but once it gets inside a cell it turns that RNA into a DNA copy and slips the copy into the cell's own DNA. From then on the cell's genome has been changed. The virus brings its own enzyme, reverse transcriptase, to make DNA from RNA. That runs opposite to the normal direction, and the backward step is where the name retro comes from.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "From guest to provirus",
+    "text": "Another enzyme, called integrase, stitches the new DNA into the host's genome. Once built in, the viral DNA is called a provirus. The cell now handles it like any of its own genes, reading the viral genes and making their proteins alongside its own. Those proteins are the parts needed to put together fresh copies of the virus.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "What a particle looks like",
+    "text": "A single free retrovirus particle, or virion, is about 100 nanometres wide and wrapped in an envelope. The envelope is fatty membrane taken from the host cell as the virus buds out, studded with glycoprotein made from the virus's env gene. Inside sit two matching single strands of RNA, each 7 to 10 kilobases long. The two strands pair up with each other at matching stretches, forming a linked pair called a dimer.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     17
+    ]
+   },
+   {
+    "heading": "The working proteins",
+    "text": "Gag proteins are major building blocks of the viral capsid, with roughly 2,000 to 4,000 copies in each virion, and they recognise and pack the viral RNA into new particles. Pol proteins make the viral DNA and fit it into the host's DNA after infection. Env proteins let the virus attach to and enter a cell. One part of Env grips particular receptors on the cell surface, and another part, anchored in the membrane, fuses the virus with the cell, which is why Env is what makes a retrovirus infectious.",
+    "cites": [
+     31,
+     33,
+     40,
+     41,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Disease and harmless kin",
+    "text": "Many retroviruses cause serious illness in people, other mammals and birds. Some cause cancer: human T-lymphotropic virus, or HTLV, causes a type of leukaemia in people, and murine leukaemia viruses do the same in mice. The lentiviruses, or slow viruses, include HIV-1 and HIV-2, which cause AIDS in humans. Yet the spumaviruses, or foamy viruses, are harmless and have no link to any disease in people or animals.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "An ancient guest, a modern tool",
+    "text": "Some animal genomes carry inherited provirus DNA, known as endogenous retroviruses. That evidence suggests vertebrates have been infected by retroviruses for at least 450 million years. Their skill at inserting DNA into a cell has also made them useful in the laboratory. Molecular biologists use them as research tools, and they have worked well as systems for delivering genes into cells.",
+    "cites": [
+     10,
+     9
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell",
+ "name": "Swell",
+ "summary": [
+  {
+   "text": "A swell is a series of waves moving along the water surface under gravity, which began as wind waves from distant weather systems.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Swell is not greatly affected by the local wind, and it has a more defined shape and direction than waves made nearby.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "text": "As swell spreads from its source, its waves sort by speed, so the faster ones pass a distant point first.",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Also called",
+   "value": "Ground swell",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Longest swells",
+   "value": "Over 700 m, from the most severe storms",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Direction given as",
+   "value": "Where it comes from, such as NNW or SW",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Energy source",
+   "value": "Shorter wind waves",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On a still, windless morning, steady waves keep rolling onto the beach. What best explains them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The tide is pushing water onto the shore"
+    },
+    {
+     "id": "b",
+     "label": "Boats passing offshore are making wakes"
+    },
+    {
+     "id": "c",
+     "label": "Wind from a far-off storm made them"
+    },
+    {
+     "id": "d",
+     "label": "Warm sand is heating the shallow water"
+    }
+   ],
+   "answer": "c",
+   "explain": "Swell starts as wind waves from distant weather systems and travels outward, so it can arrive where the local wind is calm.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell:q1"
+  },
+  {
+   "prompt": "Why do the waves in a swell tend to have long wavelengths?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Short waves carry less energy and die out faster"
+    },
+    {
+     "id": "b",
+     "label": "Long waves are pushed along by the local wind"
+    },
+    {
+     "id": "c",
+     "label": "The seabed stretches every wave as it travels"
+    },
+    {
+     "id": "d",
+     "label": "Long waves are made by distant earthquakes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Shorter waves hold less energy and dissipate faster, so the longer ones are what tends to survive the trip.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell:q2"
+  },
+  {
+   "prompt": "A surf report announces a \"SW swell\". What does it mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The waves are heading off to the southwest"
+    },
+    {
+     "id": "b",
+     "label": "The waves are arriving from the southwest"
+    },
+    {
+     "id": "c",
+     "label": "The local wind is blowing to the southwest"
+    },
+    {
+     "id": "d",
+     "label": "The waves will reach the southwest coast"
+    }
+   ],
+   "answer": "b",
+   "explain": "Like wind direction, swell direction is usually given as the direction the swell is coming from.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell:q3"
+  },
+  {
+   "prompt": "Why does swell from a faraway storm look more orderly than choppy waves whipped up nearby?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The local wind smooths each wave as it lands"
+    },
+    {
+     "id": "b",
+     "label": "Deep water absorbs every wave but the tallest"
+    },
+    {
+     "id": "c",
+     "label": "Swell waves are all exactly the same height"
+    },
+    {
+     "id": "d",
+     "label": "Over the long trip, its waves sort by speed"
+    }
+   ],
+   "answer": "d",
+   "explain": "Having left their birthplace, swell waves spread out and sort by speed, which narrows their range of frequencies and directions.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell:q4"
+  },
+  {
+   "prompt": "An undersea earthquake sets off a train of waves. Would oceanographers usually call them a swell?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, swell grows out of wind-made waves"
+    },
+    {
+     "id": "b",
+     "label": "Yes, all waves that cross an ocean are swell"
+    },
+    {
+     "id": "c",
+     "label": "Yes, once they are far enough from the quake"
+    },
+    {
+     "id": "d",
+     "label": "No, swell only forms in lakes and small seas"
+    }
+   ],
+   "answer": "a",
+   "explain": "Seismic events can make gravity waves, but those are not wind waves and do not generally produce swell.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell:q5"
+  },
+  {
+   "prompt": "Where do long swell waves get their energy as they grow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From the pull of the moon and sun"
+    },
+    {
+     "id": "b",
+     "label": "From heat rising off the seafloor"
+    },
+    {
+     "id": "c",
+     "label": "From the shorter wind waves"
+    },
+    {
+     "id": "d",
+     "label": "From whatever wind blows locally"
+    }
+   ],
+   "answer": "c",
+   "explain": "Long swell waves develop from and take energy from shorter wind waves, as wave trains interact to make longer and shorter waves.",
+   "cites": [
+    41,
+    43
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Early_90%27s_Bangs.jpg/960px-Early_90%27s_Bangs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Swell",
+  "credit": "C. W. Cohenour",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Early_90%27s_Bangs.jpg"
+ },
+ "source": {
+  "title": "Swell (wave)",
+  "url": "https://en.wikipedia.org/wiki/Swell_(wave)",
+  "revision": 1372665296
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Waves from far away",
+    "text": "A swell, sometimes called a ground swell, is a series of waves running along the boundary between water and air, driven mainly by gravity, which is why such waves are called surface gravity waves. They start life as wind waves under distant weather systems, where wind blows across the water for some time. The waves then travel out from that area, at speeds set by their period and length. By the time they arrive, they are not much affected by whatever wind is blowing locally.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Long and orderly",
+    "text": "Swell waves tend to have long wavelengths, because shorter waves carry less energy and die away faster. How long they get depends on the size, strength and duration of the storm and on the size of the body of water. The most severe storms sometimes produce swells longer than 700 m. As swells travel away from where they formed, they sort themselves by speed, with the faster waves reaching a distant point first. That leaves them with a narrower spread of frequencies and directions, and a clearer shape, than the more random waves made nearby.",
+    "cites": [
+     4,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "Swell direction names where the swell is coming from, just as wind direction does. It is given in degrees or as points of the compass, so a forecast might mention a NNW or SW swell.",
+    "cites": [
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "How wind starts waves",
+    "text": "Every swell starts out as wind waves. On flat water, two processes get them going. In the first, proposed by Phillips in 1957, random pressure changes from turbulent wind create small waves only a few centimetres long. In the second, suggested by Miles the same year, shear in the wind flow takes over: as the waves get bigger the pressure differences grow, and wave growth speeds up exponentially.",
+    "cites": [
+     2,
+     20,
+     21,
+     22,
+     23,
+     24,
+     26,
+     27,
+     32,
+     33,
+     35
+    ]
+   },
+   {
+    "heading": "How high is a swell",
+    "text": "Waves in one place come in a range of heights, so reports describe them with the significant wave height. That is the average of the highest third of the waves over a set period, usually somewhere between 20 minutes and twelve hours. It is also about what a trained observer, such as a member of a ship's crew, would judge by eye. The largest single waves are likely to be a bit less than twice that figure.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "webb-waves-at-sea",
+   "kind": "book",
+   "title": "10.2: Waves at Sea",
+   "by": "Paul Webb, Roger Williams University (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Oceanography/Introduction_to_Oceanography_(Webb)/10%3A_Waves/10.02%3A_Waves_at_Sea",
+   "note": "A free oceanography textbook section on wind waves at sea, showing how waves leaving a storm sort into long, regular swell.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

@@ -1,0 +1,557 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.markov-chains",
+ "name": "Markov chains",
+ "summary": [
+  {
+   "text": "A Markov chain is a process in which the probability of each event depends only on the state reached in the previous event.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Because only the present state matters, predictions about the future are just as good as ones made knowing the full history.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "Markov chains are used as statistical models of real-world processes and underlie Markov chain Monte Carlo simulation methods.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named for",
+   "value": "Russian mathematician Andrey Markov",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "First paper",
+   "value": "Markov published on the topic in 1906",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Key property",
+   "value": "The Markov property, sometimes called memorylessness",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "What defines one",
+   "value": "A state space, a transition matrix, and an initial state or distribution",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Early test text",
+   "value": "Markov studied the distribution of vowels in Eugene Onegin",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A token hops between squares on a board, and where it goes next depends only on the square it sits on now, not on how it got there. What property does this process have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Markov property"
+    },
+    {
+     "id": "b",
+     "label": "Perfect predictability"
+    },
+    {
+     "id": "c",
+     "label": "Independence between all squares"
+    },
+    {
+     "id": "d",
+     "label": "A long-term memory"
+    }
+   ],
+   "answer": "a",
+   "explain": "The Markov property says the next step depends only on the current state, not on earlier states.",
+   "cites": [
+    8,
+    29
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains:q1"
+  },
+  {
+   "prompt": "Two forecasters predict a Markov chain's next step. One knows only its current state; the other knows its whole history. How do their predictions compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with the whole history is more accurate"
+    },
+    {
+     "id": "b",
+     "label": "The one with the current state alone is more accurate"
+    },
+    {
+     "id": "c",
+     "label": "They are equally good"
+    },
+    {
+     "id": "d",
+     "label": "Neither can say anything at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Predictions from the present state alone are just as good as ones that could be made knowing the full history.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains:q2"
+  },
+  {
+   "prompt": "Can you say for certain which state a Markov chain will be in many steps from now, even if you know where it is today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since the next step depends on today only"
+    },
+    {
+     "id": "b",
+     "label": "No, but statistical properties of its future can be predicted"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as the chain has finitely many states"
+    },
+    {
+     "id": "d",
+     "label": "No, and nothing about its future can be predicted"
+    }
+   ],
+   "answer": "b",
+   "explain": "Since the system changes randomly, its exact future state cannot generally be predicted with certainty, but its statistical properties can be.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains:q3"
+  },
+  {
+   "prompt": "In a Markov chain, what are the probabilities of moving from one state to another called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Initial distributions"
+    },
+    {
+     "id": "b",
+     "label": "State spaces"
+    },
+    {
+     "id": "c",
+     "label": "Memory weights"
+    },
+    {
+     "id": "d",
+     "label": "Transition probabilities"
+    }
+   ],
+   "answer": "d",
+   "explain": "Changes of state are called transitions, and the probabilities attached to them are called transition probabilities.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains:q4"
+  },
+  {
+   "prompt": "A mathematician argued with Nekrasov, who said independence was needed for the weak law of large numbers. What did Markov show with his chains?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That the law fails without independence"
+    },
+    {
+     "id": "b",
+     "label": "That independence only matters for coin flips"
+    },
+    {
+     "id": "c",
+     "label": "That the law can hold without independence"
+    },
+    {
+     "id": "d",
+     "label": "That the law needs a continuous time index"
+    }
+   ],
+   "answer": "c",
+   "explain": "Markov showed that, under certain conditions, average outcomes of a chain converge to a fixed vector of values, proving a weak law of large numbers without the independence assumption.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains:q5"
+  },
+  {
+   "prompt": "You want to fully describe a Markov chain. Which set of ingredients do you need?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The possible states, a clock, and the final result"
+    },
+    {
+     "id": "b",
+     "label": "The possible states, the transition probabilities, and where it starts"
+    },
+    {
+     "id": "c",
+     "label": "The full history, the possible states, and a final state"
+    },
+    {
+     "id": "d",
+     "label": "The starting state, a final state, and the history"
+    }
+   ],
+   "answer": "b",
+   "explain": "A chain is characterized by a state space, a transition matrix of probabilities, and an initial state or distribution.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Markovkate_01.svg/960px-Markovkate_01.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Markov chains",
+  "credit": "Joxemai4",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Markovkate_01.svg"
+ },
+ "source": {
+  "title": "Markov chain",
+  "url": "https://en.wikipedia.org/wiki/Markov_chain",
+  "revision": 1382192629
+ },
+ "pack": {
+  "id": "auto-stochastic-processes-markov-chains",
+  "title": "Forgetting the Past on Purpose",
+  "question": "How can a process ignore its history and still be predictable?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Stochastic processes",
+   "Markov chains"
+  ],
+  "hue": 40,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Markovkate_01.svg/960px-Markovkate_01.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Markov chains",
+    "credit": "Joxemai4 · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Markovkate_01.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Forgetting the Past on Purpose",
+    "hook": "Some random processes treat every moment as a fresh start, and that makes them easier to study."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-stochastic-processes-markov-chains:1",
+    "transfer": false,
+    "prompt": "A frog hops between lily pads, and each hop depends only on the pad it sits on. Two frogs reach the same pad, one by a long winding route and one directly. How do their next-hop odds compare?",
+    "explain": "Conditional on the present state, future and past states are independent, so both frogs face the same odds.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The direct frog has better odds",
+        "feedback": "Arriving quickly does not help; only the current state counts."
+       },
+       {
+        "id": "a",
+        "label": "The winding frog has different odds",
+        "feedback": "It seems the long route should matter, but in a Markov chain the past is irrelevant once the present state is known."
+       },
+       {
+        "id": "b",
+        "label": "They are the same"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-stochastic-processes-markov-chains:2",
+    "transfer": false,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A Markov chain's state changes randomly between steps."
+     },
+     {
+      "id": "b",
+      "text": "So the state at a given future time cannot be known for certain."
+     },
+     {
+      "id": "c",
+      "text": "So nothing at all can be said about its future."
+     },
+     {
+      "id": "d",
+      "text": "Yet in many applications, the statistical properties of the future are what matter."
+     }
+    ],
+    "answer": "c",
+    "explain": "Although the exact future state is unpredictable, the statistical properties of the system's future can be predicted."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-stochastic-processes-markov-chains:3",
+    "transfer": true,
+    "prompt": "match each term to what it means",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Transitions"
+     },
+     {
+      "id": "l1",
+      "label": "Transition probabilities"
+     },
+     {
+      "id": "l2",
+      "label": "Transition matrix"
+     },
+     {
+      "id": "l3",
+      "label": "Initial distribution"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "The changes of state"
+     },
+     {
+      "id": "r2",
+      "label": "Describes the probabilities of particular transitions"
+     },
+     {
+      "id": "r3",
+      "label": "Where the chain might start across the state space"
+     },
+     {
+      "id": "r1",
+      "label": "The chances of each kind of state change"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "A Markov chain is characterized by a state space, a transition matrix, and an initial state or distribution."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-stochastic-processes-markov-chains:4",
+    "transfer": true,
+    "prompt": "put these early Markov-chain milestones in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "Galton and Watson's branching process (1873)"
+     },
+     {
+      "id": "b",
+      "label": "The Ehrenfests' diffusion model (1907)"
+     },
+     {
+      "id": "c",
+      "label": "Poincaré studies card shuffling (1912)"
+     },
+     {
+      "id": "d",
+      "label": "Kolmogorov's paper on continuous-time processes (1931)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The sentences date the branching process to 1873, the diffusion model to 1907, Poincaré's card shuffling to 1912, and Kolmogorov's paper to 1931."
+   },
+   {
+    "kind": "payoff",
+    "idea": "In a Markov chain only the present state matters for what comes next, so the exact future is uncertain but its statistics can be predicted.",
+    "connections": [
+     {
+      "title": "Stochastic matrix",
+      "place": "Markov chains",
+      "node": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix"
+     },
+     {
+      "title": "Stationary distribution",
+      "place": "Markov chains",
+      "node": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stationary-distribution"
+     },
+     {
+      "title": "PageRank",
+      "place": "Markov chains",
+      "node": "knowledge.mathematics.probability.stochastic-processes.markov-chains.pagerank"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Conditional on the present state, future and past states are independent, so both frogs face the same odds.",
+    "source": "Wikipedia sentences 9, 10"
+   },
+   {
+    "claim": "Although the exact future state is unpredictable, the statistical properties of the system's future can be predicted.",
+    "source": "Wikipedia sentences 30, 31, 32"
+   },
+   {
+    "claim": "A Markov chain is characterized by a state space, a transition matrix, and an initial state or distribution.",
+    "source": "Wikipedia sentences 22, 23, 24"
+   },
+   {
+    "claim": "The sentences date the branching process to 1873, the diffusion model to 1907, Poincaré's card shuffling to 1912, and Kolmogorov's paper to 1931.",
+    "source": "Wikipedia sentences 38, 39, 42"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Only the present matters",
+    "text": "A Markov chain is a model of something that moves between states at random, where the chance of each next event depends only on the state reached in the event before. This is called the Markov property, sometimes described as memorylessness. Knowing the full history adds nothing: predictions made from the present state alone are just as good. Put another way, once the present state is known, the future and the past are independent.",
+    "cites": [
+     1,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "The parts of a chain",
+    "text": "Each change of state is called a transition, and the chances attached to these changes are transition probabilities. A chain is described by three things: its set of possible states, called the state space; a transition matrix giving the probability of each transition; and a starting state or starting distribution. By convention every possible state and transition is included, so a next state always exists and the process never ends. Steps are usually pictured as moments in time, yet they could just as well be steps of distance or any other discrete measurement.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Kinds of chain",
+    "text": "If the chain moves at separate time steps, it is a discrete-time Markov chain, or DTMC; if it runs in continuous time, it is a continuous-time Markov chain, or CTMC. The term Markov chain is usually kept for the discrete-time kind, though some authors use the words differently. Many applications use a finite or countably infinite state space, and such state spaces are more straightforward to analyse statistically.",
+    "cites": [
+     2,
+     3,
+     14,
+     19
+    ]
+   },
+   {
+    "heading": "What can be predicted",
+    "text": "Since the system changes at random, it is generally impossible to say for certain which state the chain will be in at some future point. What can be predicted are the statistical properties of its future. In many applications, those properties are what matter.",
+    "cites": [
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Where they are used",
+    "text": "Markov chains are used in many ways to model real-world processes statistically. They are also the basis of Markov chain Monte Carlo, a family of simulation methods for sampling from complex probability distributions. Those methods are applied in fields such as physics, biology, chemistry, finance, economics, Bayesian statistics, information theory, and signal and speech processing.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Markov's own work",
+    "text": "The chains are named after the Russian mathematician Andrey Markov, who published his first paper on them in 1906. He was motivated by a disagreement with Pavel Nekrasov, who claimed that the weak law of large numbers needed independence. He proved that, given certain conditions, a chain's average outcomes converge to a fixed vector of values, which established such a law without assuming independence. He later used chains to study how vowels are distributed in Alexander Pushkin's Eugene Onegin.",
+    "cites": [
+     4,
+     33,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Before and after Markov",
+    "text": "Some of the ideas came earlier: Markov processes in continuous time were known long before his work, in the form of the Poisson process. Henri Poincaré turned to chains on finite groups in 1912 to understand card shuffling. In a 1931 paper Andrey Kolmogorov developed much of the early theory of continuous-time Markov processes. Working independently while studying Brownian movement, Sydney Chapman had derived what is now called the Chapman–Kolmogorov equation in 1928.",
+    "cites": [
+     34,
+     38,
+     42,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "grinstead-snell-markov-chains",
+   "kind": "book",
+   "title": "11: Markov Chains - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/11%3A_Markov_Chains",
+   "note": "A free textbook chapter introducing Markov chains, with absorbing and ergodic chains and the limit theorem for regular chains.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "veritasium-strange-math",
+   "kind": "video",
+   "title": "The Strange Math That Predicts (Almost) Anything",
+   "by": "Veritasium",
+   "url": "https://www.youtube.com/watch?v=KZeIEiBrT_w",
+   "note": "A Veritasium video on Markov chains: where the idea came from and how it is used for prediction."
+  },
+  {
+   "id": "gallager-finite-state-markov",
+   "kind": "book",
+   "title": "3: Finite-State Markov Chains - Discrete Stochastic Processes (Gallager)",
+   "by": "Robert Gallager",
+   "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Discrete_Stochastic_Processes_(Gallager)/03%3A_Finite-State_Markov_Chains",
+   "note": "A more advanced free textbook chapter on finite-state Markov chains from MIT's stochastic processes course.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

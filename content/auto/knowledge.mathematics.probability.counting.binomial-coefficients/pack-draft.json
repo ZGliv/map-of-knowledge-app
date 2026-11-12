@@ -1,0 +1,97 @@
+{
+ "title": "Choosing without the lineup",
+ "question": "How do binomial coefficients count the ways to choose k items from n?",
+ "hook": "Picking a starting team ignores who stands where, and that one fact explains every entry in Pascal's triangle.",
+ "idea": "A binomial coefficient counts the unordered choices of k items from n.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You try to choose 5 elements from a set that has only 3. How many ways are there?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "One way: take all three elements",
+     "feedback": "Taking all three is not choosing five, so it does not count."
+    },
+    {
+     "id": "b",
+     "label": "Zero ways, since entries past the edge are zero"
+    },
+    {
+     "id": "c",
+     "label": "Ten ways, the same as 5 choose 3",
+     "feedback": "Choosing five from only three is not the same question as choosing three from five."
+    }
+   ],
+   "answer": "b",
+   "explain": "Entries of Pascal's triangle past its edges are all zero, and terms with k > n are zero.",
+   "cites": [
+    17,
+    19
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it counts or means",
+   "pairs": [
+    [
+     "C_(n,k)",
+     "the number of ways to choose k out of n objects"
+    ],
+    [
+     "P(n, k)",
+     "the number of k-permutations of n"
+    ],
+    [
+     "Numerator",
+     "sequences of k distinct objects, order kept"
+    ],
+    [
+     "Denominator",
+     "sequences that define the same k-combination"
+    ]
+   ],
+   "explain": "C counts choices, P counts ordered selections, and in the product formula the top counts ordered sequences while the bottom counts those that give the same group.",
+   "cites": [
+    4,
+    6,
+    11,
+    12
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the steps for building (n k) from the start of row n in order",
+   "items": [
+    "Start at the leftmost coefficient of row n, which is 1",
+    "Compute the next coefficient to its right",
+    "Keep moving right, one coefficient at a time",
+    "Stop when you reach the k-th coefficient"
+   ],
+   "ends": [
+    "start",
+    "finish"
+   ],
+   "explain": "Starting from the leftmost value of 1, each coefficient is worked out from the previous one until the k-th is reached.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "A coach picks 3 of 8 starters, order ignored. One step in this count is wrong; which?",
+   "steps": [
+    "The coach picks 3 starters from 8 and order does not matter.",
+    "Counting ordered picks gives 8 × 7 × 6.",
+    "Each group of three is counted once in those ordered picks.",
+    "So the number of groups is 8 × 7 × 6."
+   ],
+   "wrong": 2,
+   "explain": "One group shows up as several different ordered sequences, so the ordered count must be reduced by the denominator that counts those repeats.",
+   "cites": [
+    11,
+    12
+   ]
+  }
+ ]
+}

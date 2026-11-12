@@ -1,0 +1,318 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.sampling.margin-of-error",
+ "name": "Margin of error",
+ "summary": [
+  {
+   "text": "The margin of error is a statistic that expresses how much random sampling error there is in a survey's results.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The larger it is, the less confident you should be that a poll's result matches what a simultaneous census of the whole population would show.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "As long as the sampling fraction is small, it is essentially the same whether the population is a school, a city, a state or a country.",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Meaning",
+   "value": "The amount of random sampling error in a survey's results",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Default level",
+   "value": "95% when no confidence level is given",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Near the extremes",
+   "value": "Approaches ±0% as a percentage nears 0% or 100%",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Population size",
+   "value": "Essentially unchanged from a school to a country if the sampling fraction is small",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two polls use the same method and the same small sampling fraction, one of a school and one of a whole country. How do their margins of error compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The country's is far larger because it has more people"
+    },
+    {
+     "id": "b",
+     "label": "The school's is far larger because it is closer-knit"
+    },
+    {
+     "id": "c",
+     "label": "They are essentially the same"
+    },
+    {
+     "id": "d",
+     "label": "Neither poll can have a margin of error"
+    }
+   ],
+   "answer": "c",
+   "explain": "For a given sampling method the margin of error is essentially the same whatever the population size, as long as the sampling fraction is small.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.margin-of-error:q1"
+  },
+  {
+   "prompt": "Poll A reports a larger margin of error than Poll B. What should you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Less confidence that A's result matches a census of everyone"
+    },
+    {
+     "id": "b",
+     "label": "A's result is certainly wrong and should be thrown out"
+    },
+    {
+     "id": "c",
+     "label": "A must have surveyed more people than B did"
+    },
+    {
+     "id": "d",
+     "label": "A was surely run with a clearly biased method"
+    }
+   ],
+   "answer": "a",
+   "explain": "The larger the margin of error, the less confidence one should have that the poll result would reflect a census of the whole population.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.margin-of-error:q2"
+  },
+  {
+   "prompt": "As a poll's reported percentage gets very close to 0% or 100%, what happens to its margin of error?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows, because small shares are noisier"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same for every percentage"
+    },
+    {
+     "id": "c",
+     "label": "It stops existing once the share is tiny"
+    },
+    {
+     "id": "d",
+     "label": "It shrinks toward zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "A given percentage's margin of error approaches ±0% as the percentage approaches the extremes of 0% or 100%.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.margin-of-error:q3"
+  },
+  {
+   "prompt": "A poll report states a margin of error of 3 points but never mentions a confidence level. Which level should you assume?",
+   "options": [
+    {
+     "id": "a",
+     "label": "50%"
+    },
+    {
+     "id": "b",
+     "label": "95%"
+    },
+    {
+     "id": "c",
+     "label": "100%"
+    },
+    {
+     "id": "d",
+     "label": "68%"
+    }
+   ],
+   "answer": "b",
+   "explain": "If no explicit confidence level is given, the most commonly used level is 95%.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.margin-of-error:q4"
+  },
+  {
+   "prompt": "A survey asks about a trait that differs from person to person, and it covers only part of the population. Can its margin of error be zero?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, if the sample is chosen carefully enough"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the sample is large enough"
+    },
+    {
+     "id": "c",
+     "label": "No, it is positive when part is left out and the measure varies"
+    },
+    {
+     "id": "d",
+     "label": "Only if every person is asked twice"
+    }
+   ],
+   "answer": "c",
+   "explain": "The margin of error is positive whenever a population is incompletely sampled and the outcome measure varies.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.margin-of-error:q5"
+  },
+  {
+   "prompt": "A lab report gives a measured length with a margin of error. Outside of surveys, what might that margin describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Observational error in the measured quantity"
+    },
+    {
+     "id": "b",
+     "label": "How many people were surveyed for the report"
+    },
+    {
+     "id": "c",
+     "label": "The share of respondents who said yes"
+    },
+    {
+     "id": "d",
+     "label": "The size of the full population"
+    }
+   ],
+   "answer": "a",
+   "explain": "The term is often used outside surveys to indicate observational error in reporting measured quantities.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.margin-of-error:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Margin-of-error-95.svg/960px-Margin-of-error-95.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Margin of error",
+  "credit": "Zieben007",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Margin-of-error-95.svg"
+ },
+ "source": {
+  "title": "Margin of error",
+  "url": "https://en.wikipedia.org/wiki/Margin_of_error",
+  "revision": 1381020582
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The plus-or-minus on a poll",
+    "text": "The margin of error is a number that says how much random sampling error a survey's results contain. A bigger margin means you should trust less that the poll matches what a census of the whole population, taken at the same moment, would find. Any time only part of a population is asked and the answers vary, the margin of error is above zero. Outside surveys, the phrase is also used for observational error in reported measurements.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Imagining many repeat polls",
+    "text": "Picture a yes-or-no poll of n people, drawn from a much larger population, that finds a share p saying yes. We want to know how close p is to the true share without asking everyone. Suppose we ran the same poll again and again on fresh samples. The results would be expected to form a normal distribution around the true but unknown share, and the margin of error is the distance within which a stated percentage of them should fall.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Where the 95% comes from",
+    "text": "By the 68-95-99.7 rule, 95% of those repeat results should land within about two standard deviations of the true value. That range is called the confidence interval, and half its width is the margin of error at a 95% confidence level. When a poll does not state a confidence level, 95% is the one most often used. A margin reported at 95% can be turned into one at 99% by multiplying it by about 1.3.",
+    "cites": [
+     11,
+     12,
+     16,
+     25
+    ]
+   },
+   {
+    "heading": "Sample size and the formula",
+    "text": "In general the margin of error equals a z-score times the standard error, written MOE _(1−2α) = z_(1−α) × √(σ²/n). At 95% confidence the z-score is about 2, giving MOE _0.95 ≈ 2 × √(σ²/n). The smaller the sample size n, the wider the margin. For a yes-or-no poll, the standard error is roughly √((p (1 − p))/n).",
+    "cites": [
+     5,
+     13,
+     14,
+     15,
+     18,
+     20
+    ]
+   },
+   {
+    "heading": "Population size hardly matters",
+    "text": "These formulas assume an endlessly large population, so they depend only on the sample size n, not on the population size N. Sampling theory says that assumption is reasonable when the sample is a small fraction of the population. So a given sampling method has about the same margin of error whether the population is a school, a city, a state or a whole country. As a reported share gets close to 0% or 100%, its margin of error shrinks toward zero.",
+    "cites": [
+     26,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Reading a close race",
+    "text": "Imagine a poll of 1013 people that puts three options at 46%, 42% and 12%. The margin usually reported is the one for the 46% figure, because it is nearest to 50%. But talk of a statistical tie, or dead heat, is about something else: not how accurate each number is, but whether the ranking of the options is right.",
+    "cites": [
+     27,
+     28,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "diez-5-2",
+   "kind": "book",
+   "title": "5.2: Confidence intervals for a proportion",
+   "by": "David Diez, Christopher Barr and Mine Çetinkaya-Rundel (OpenIntro)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introduction_to_Statistics_4e_(Diez_et_al.)/05%3A_Foundations_for_Inference/5.02%3A_Confidence_intervals_for_a_proportion",
+   "note": "Builds confidence intervals for poll results, with the standard error and margin of error at 90%, 95% and 99%.",
+   "license": "CC BY-SA 3.0"
+  },
+  {
+   "id": "lane-10-12",
+   "kind": "book",
+   "title": "10.12: Proportion",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/10%3A_Estimation/10.12%3A_Proportion",
+   "note": "A worked election-poll example that builds a 95% confidence interval and margin of error for a proportion.",
+   "license": "Public Domain"
+  }
+ ]
+}

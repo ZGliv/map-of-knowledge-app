@@ -1,0 +1,326 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.redox.corrosion",
+ "name": "Corrosion",
+ "summary": [
+  {
+   "text": "Corrosion is a natural process that turns a refined metal into a more chemically stable oxide through reaction with its environment.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "On iron, oxidation at one spot makes it an anode, and electrons move through the metal to another spot that reduces oxygen and becomes a cathode.",
+   "cites": [
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "text": "Painting, hot-dip galvanization and cathodic protection protect metals, and sacrificial anodes such as zinc help prevent galvanic corrosion of steel.",
+   "cites": [
+    22,
+    26,
+    37
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Rust",
+   "value": "Red-orange iron oxides from electrochemical corrosion",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Galvanic series",
+   "value": "A hierarchy of materials in a given medium",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "label": "Sacrificial anode",
+   "value": "Zinc is often used for steel structures",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Gold and platinum",
+   "value": "Their corrosion products decompose back to pure metal",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Passivation",
+   "value": "A thin film that blocks further oxidation",
+   "cites": [
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A neglected bike chain turns red-orange. What is that coating?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Iron oxides formed by electrochemical corrosion"
+    },
+    {
+     "id": "b",
+     "label": "Pure iron pushed to the surface"
+    },
+    {
+     "id": "c",
+     "label": "A layer of paint wearing off"
+    },
+    {
+     "id": "d",
+     "label": "Dried salt left behind by water"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rusting, the formation of red-orange iron oxides, is the most familiar example of electrochemical corrosion.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox.corrosion:q1"
+  },
+  {
+   "prompt": "Two different metals touch in salty water. Which one corrodes faster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The more active metal, which acts as the anode"
+    },
+    {
+     "id": "b",
+     "label": "The more noble metal, which acts as the cathode"
+    },
+    {
+     "id": "c",
+     "label": "Both corrode exactly as they would apart"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since contact stops all corrosion"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a galvanic couple, the more active metal (the anode) corrodes at an accelerated rate and the more noble metal (the cathode) corrodes more slowly.",
+   "cites": [
+    18,
+    19,
+    20
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox.corrosion:q2"
+  },
+  {
+   "prompt": "A zinc block is bolted onto a steel structure. What role does the zinc play?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It acts as a paint layer that seals out air"
+    },
+    {
+     "id": "b",
+     "label": "It acts as a cathode that speeds up rusting"
+    },
+    {
+     "id": "c",
+     "label": "It acts as a reducing film that cleans off rust"
+    },
+    {
+     "id": "d",
+     "label": "It acts as a sacrificial anode that helps prevent galvanic corrosion"
+    }
+   ],
+   "answer": "d",
+   "explain": "Zinc is often used as a sacrificial anode for steel structures, and galvanic corrosion is often prevented by sacrificial anodes.",
+   "cites": [
+    22,
+    26
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox.corrosion:q3"
+  },
+  {
+   "prompt": "Gold and platinum are found as pure metal on Earth. What is the reason?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They react so slowly that no oxide ever forms"
+    },
+    {
+     "id": "b",
+     "label": "They are always covered by a thick oxide film"
+    },
+    {
+     "id": "c",
+     "label": "Their corrosion products tend to decompose spontaneously back into the metal"
+    },
+    {
+     "id": "d",
+     "label": "They sit at the active end of the galvanic series"
+    }
+   ],
+   "answer": "c",
+   "explain": "Corrosion is thermodynamically unfavorable for gold and platinum, and any corrosion products tend to decompose spontaneously into pure metal.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox.corrosion:q4"
+  },
+  {
+   "prompt": "Graphite would release a lot of energy if it oxidized, yet it essentially does not corrode under normal conditions. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oxidizing it would absorb energy"
+    },
+    {
+     "id": "b",
+     "label": "Its reaction kinetics are so slow"
+    },
+    {
+     "id": "c",
+     "label": "A thick layer of paint forms on it"
+    },
+    {
+     "id": "d",
+     "label": "Its corrosion is thermodynamically unfavorable"
+    }
+   ],
+   "answer": "b",
+   "explain": "Graphite releases large amounts of energy upon oxidation but has such slow kinetics that it is effectively immune to electrochemical corrosion under normal conditions.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox.corrosion:q5"
+  },
+  {
+   "prompt": "A thin layer of corrosion products forms by itself on a metal and blocks further oxidation. What is this called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Passivation"
+    },
+    {
+     "id": "b",
+     "label": "Galvanization"
+    },
+    {
+     "id": "c",
+     "label": "Electropolishing"
+    },
+    {
+     "id": "d",
+     "label": "Cathodic protection"
+    }
+   ],
+   "answer": "a",
+   "explain": "Passivation is the spontaneous formation of an ultrathin film of corrosion products, a passive film, that acts as a barrier to further oxidation.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox.corrosion:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Rust_Bolt.JPG/960px-Rust_Bolt.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Corrosion",
+  "credit": "Thester11",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rust_Bolt.JPG"
+ },
+ "source": {
+  "title": "Corrosion",
+  "url": "https://en.wikipedia.org/wiki/Corrosion",
+  "revision": 1381040387
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What corrosion is",
+    "text": "Corrosion is the slow breakdown of a material, usually a metal, through chemical or electrochemical reaction with its surroundings. It is a natural process that turns a refined metal into a more chemically stable oxide. In everyday use the word means a metal being electrochemically oxidized by something like oxygen, as a gas or dissolved in water, or by hydrogen ions in a watery solution. Rusting, which forms red-orange iron oxides, is perhaps the best-known case.",
+    "cites": [
+     1,
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Corrosion harms useful properties of materials and structures, including their mechanical strength, their appearance and their permeability to liquids and gases. Many structural alloys corrode just from moisture in the air, though certain substances can change the process strongly. The damage may stay in one spot as a pit or crack, or spread fairly evenly over a wide surface. Ceramics and polymers can corrode too, although there the usual word is degradation. Corrosion engineering is the field devoted to controlling and preventing it.",
+    "cites": [
+     3,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Anode and cathode on iron",
+    "text": "The chemistry of corrosion is complex, but it can be treated as an electrochemical process. On an iron object, one spot where oxidation happens acts as an anode. The electrons released there travel through the metal to another spot, where they reduce oxygen with the help of hydrogen ions, and that second spot acts as a cathode. The hydrogen ions are thought to come from carbonic acid, which forms when carbon dioxide from the air dissolves in moisture.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Galvanic corrosion",
+    "text": "Galvanic corrosion happens when two different metals touch, or are electrically connected, while sitting in the same electrolyte, a medium that carries a flow of ions. It can also happen when one metal meets electrolyte of different concentrations. In such a pair, the more active metal becomes the anode and corrodes faster, while the more noble metal becomes the cathode and corrodes more slowly. Kept apart, each would corrode at its own rate. It is a major concern for the marine industry, and anywhere salty water touches pipes or metal structures.",
+    "cites": [
+     18,
+     19,
+     20,
+     23,
+     29
+    ]
+   },
+   {
+    "heading": "Metals that resist",
+    "text": "The most resistant materials are those for which corrosion is thermodynamically unfavourable. Gold and platinum are examples: any corrosion products tend to break down by themselves into pure metal, which is why these elements are found as metal on Earth and have long been prized. Zinc, magnesium and cadmium are different, since corrosion is favourable for them, but they react so slowly that the ongoing loss is acceptable. Graphite is an extreme case: oxidizing it releases a lot of energy, yet it reacts so slowly that under normal conditions it is effectively immune to electrochemical corrosion.",
+    "cites": [
+     38,
+     39,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-corrosion",
+   "kind": "book",
+   "title": "17.6 Corrosion",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+   "note": "A free textbook section on rust, patina and ways to stop corrosion, from paint and galvanizing to sacrificial anodes."
+  },
+  {
+   "id": "doitpoms-aqueous-corrosion",
+   "kind": "book",
+   "title": "1: Kinetics of Aqueous Corrosion - TLP Library II",
+   "by": "DoITPoMS",
+   "url": "https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/1%3A_Kinetics_of_Aqueous_Corrosion",
+   "note": "A materials-science teaching package on how metals corrode in water and what controls the rate.",
+   "license": "CC BY-NC-SA"
+  }
+ ]
+}

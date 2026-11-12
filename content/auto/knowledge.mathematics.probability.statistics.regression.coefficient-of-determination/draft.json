@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "The coefficient of determination, R², is the proportion of the variation in the dependent variable that is predictable from the independent variables.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It measures how well a model reproduces observed outcomes: a perfect match gives R²=1, and a simple baseline model gives R²=0.",
+   "cites": [
+    3,
+    16,
+    17
+   ]
+  },
+  {
+   "text": "With ordinary least squares it never decreases as variables are added, so adjusted R² was devised to penalize extra variables.",
+   "cites": [
+    35,
+    38,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Perfect fit",
+   "value": "Modeled values matching observed values exactly give R² of 1",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Usual range",
+   "value": "Smaller than 1 and usually greater than 0",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Negative values",
+   "value": "Can arise when predictions were not fitted to those data",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Adding variables",
+   "value": "Under ordinary least squares, R² never decreases",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "label": "Adjusted R²",
+   "value": "Penalizes the statistic as extra variables are included",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two models predict house prices from the same data. Model A has an R² of 0.9 and model B has 0.4. What does that tell us?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Model B reproduces the observed prices better"
+    },
+    {
+     "id": "b",
+     "label": "Model A reproduces the observed prices better"
+    },
+    {
+     "id": "c",
+     "label": "The models cannot be compared at all"
+    },
+    {
+     "id": "d",
+     "label": "Model A uses more variables than model B"
+    }
+   ],
+   "answer": "b",
+   "explain": "R² measures how well observed outcomes are replicated by the model, and R²=1 is the best case where they match exactly.",
+   "cites": [
+    3,
+    16
+   ]
+  },
+  {
+   "prompt": "An analyst keeps adding irrelevant factors, such as a model's first letter, to a regression just to push R² up. What happens, and what is the remedy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "R² falls, so extra variables are self-correcting"
+    },
+    {
+     "id": "b",
+     "label": "R² stays exactly the same however many are added"
+    },
+    {
+     "id": "c",
+     "label": "R² will not fall, so adjusted R² is used, which penalizes extra variables"
+    },
+    {
+     "id": "d",
+     "label": "R² becomes negative as soon as a factor is irrelevant"
+    }
+   ],
+   "answer": "c",
+   "explain": "With ordinary least squares, R² never decreases as variables are added, which rewards kitchen-sink regression. Adjusted R² penalizes the statistic for extra variables.",
+   "cites": [
+    35,
+    36,
+    37,
+    38,
+    39
+   ]
+  },
+  {
+   "prompt": "Someone computes R² using predictions that were not derived by fitting a model to those data, and gets a negative number. What does that mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The data must contain a recording mistake somewhere"
+    },
+    {
+     "id": "b",
+     "label": "The model must be a perfect fit to the data"
+    },
+    {
+     "id": "c",
+     "label": "The correlation between the variables is negative"
+    },
+    {
+     "id": "d",
+     "label": "The data's average fits better than the predictions do"
+    }
+   ],
+   "answer": "d",
+   "explain": "Negative values can arise when predictions are not from a fitting procedure on those data, and then the mean of the data fits the outcomes better than the predicted values do.",
+   "cites": [
+    8,
+    10
+   ]
+  },
+  {
+   "prompt": "Every point lies exactly on the model's predictions, so the leftover squared error is zero. What is R²?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 0"
+    },
+    {
+     "id": "b",
+     "label": "Exactly 1, the best case"
+    },
+    {
+     "id": "c",
+     "label": "Exactly 0.5"
+    },
+    {
+     "id": "d",
+     "label": "Negative"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the best case the modeled values exactly match the observed values, which gives SS_res = 0 and R²=1.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "In a simple linear regression with an intercept, the sample correlation between predictor and outcome is 0.5. What is R²?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.5"
+    },
+    {
+     "id": "b",
+     "label": "0.75"
+    },
+    {
+     "id": "c",
+     "label": "0.25"
+    },
+    {
+     "id": "d",
+     "label": "1"
+    }
+   ],
+   "answer": "c",
+   "explain": "In simple linear regression with an intercept, r² is simply the square of the sample correlation coefficient, and 0.5 squared is 0.25.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "A manager sees an error figure in dollars whose scale means little to her. Why might R² be easier to judge?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can be shown as a percentage, unlike measures with arbitrary range"
+    },
+    {
+     "id": "b",
+     "label": "It is always computed in dollars as well as units"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be affected by a poor fit to the data"
+    },
+    {
+     "id": "d",
+     "label": "It needs no model of any kind to be calculated"
+    }
+   ],
+   "answer": "a",
+   "explain": "R² can be more intuitively informative than error measures such as MSE and RMSE because it can be expressed as a percentage, whereas those have arbitrary range.",
+   "cites": [
+    11
+   ]
+  }
+ ]
+}

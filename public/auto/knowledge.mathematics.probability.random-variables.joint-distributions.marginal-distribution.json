@@ -1,0 +1,306 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution",
+ "name": "Marginal distribution",
+ "summary": [
+  {
+   "text": "A marginal distribution gives the probabilities of some variables on their own, without reference to the values of the other variables.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "From a joint table of two variables, you get one variable's marginal by summing over every value of the other, and the sums sit in the table's margins.",
+   "cites": [
+    5,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "text": "This contrasts with a conditional distribution, which gives probabilities that depend on the values of the other variables.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Where the name comes from",
+   "value": "Sums along rows or columns are written in the table's margins",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "How to get it",
+   "value": "Sum the joint distribution over all values of the other variable",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Versus conditional",
+   "value": "A conditional distribution depends on other variables' values",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Other variable",
+   "value": "Sum over X's values to get Y's marginal",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Traffic example",
+   "value": "Each light colour's hit chance is weighted by how often it occurs",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A pedestrian's chance of being hit depends on the colour of the traffic light. You want the overall chance of being hit when the colour is unknown. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Use the hit chance for the most common colour only"
+    },
+    {
+     "id": "b",
+     "label": "Add each colour's hit chance, weighted by how often that colour occurs"
+    },
+    {
+     "id": "c",
+     "label": "Take the plain average of the hit chances for the colours"
+    },
+    {
+     "id": "d",
+     "label": "Use the lowest of the colours' hit chances"
+    }
+   ],
+   "answer": "b",
+   "explain": "With the colour unknown, you sum the conditional chances over all colours, each weighted by the probability of that colour.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution:q1"
+  },
+  {
+   "prompt": "A table lists the chance of each combination of two results. How do you read off the chance of just one of those results, ignoring the other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pick the biggest cell in its row"
+    },
+    {
+     "id": "b",
+     "label": "Multiply all the cells in its row"
+    },
+    {
+     "id": "c",
+     "label": "Add up the cells along its row or column"
+    },
+    {
+     "id": "d",
+     "label": "Subtract the other result's total from 1"
+    }
+   ],
+   "answer": "c",
+   "explain": "Summing along rows or columns and writing the sums in the margins gives each variable's own probabilities.",
+   "cites": [
+    5,
+    10,
+    11
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution:q2"
+  },
+  {
+   "prompt": "A teacher has study time and test scores for a class. Which question looks at the scores with study time left out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How are the scores spread across the whole class?"
+    },
+    {
+     "id": "b",
+     "label": "Among students who studied longest, how are scores spread?"
+    },
+    {
+     "id": "c",
+     "label": "Among students with top scores, how long did they study?"
+    },
+    {
+     "id": "d",
+     "label": "Do students who study longer tend to score higher?"
+    }
+   ],
+   "answer": "a",
+   "explain": "The marginal distribution of the scores is the distribution when study time is not taken into consideration. The other questions all depend on study time.",
+   "cites": [
+    10,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution:q3"
+  },
+  {
+   "prompt": "One friend says, \"It rains on 30% of days.\" Another says, \"It rains on 60% of the cloudy days.\" What makes the second statement different?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It sums over all weather conditions"
+    },
+    {
+     "id": "b",
+     "label": "It averages many days instead of one"
+    },
+    {
+     "id": "c",
+     "label": "It looks at one event on its own"
+    },
+    {
+     "id": "d",
+     "label": "It assumes another event has already occurred"
+    }
+   ],
+   "answer": "d",
+   "explain": "The first is a marginal probability of a single event. The second is conditional: it holds given that another event, cloud, has occurred.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution:q4"
+  },
+  {
+   "prompt": "You know X's marginal distribution is found by summing the joint distribution over all values of Y. How would you find Y's marginal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sum the joint distribution over the separate values of X"
+    },
+    {
+     "id": "b",
+     "label": "Divide X's marginal by the joint distribution"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be found from the same joint distribution"
+    },
+    {
+     "id": "d",
+     "label": "Subtract X's marginal from 1"
+    }
+   ],
+   "answer": "a",
+   "explain": "The same works the other way round: summing over the values of X gives the marginal of Y.",
+   "cites": [
+    10,
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution:q5"
+  },
+  {
+   "prompt": "In the traffic example, why is the overall chance of being hit found by adding the chances across the lights?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Being hit is always certain under at least one light"
+    },
+    {
+     "id": "b",
+     "label": "Each light colour is a separate way for a person to be hit"
+    },
+    {
+     "id": "c",
+     "label": "The chances under the lights must add up to 1 anyway"
+    },
+    {
+     "id": "d",
+     "label": "Only the green light matters for this sum"
+    }
+   ],
+   "answer": "b",
+   "explain": "A pedestrian can be hit if the light is red, or yellow, or green, so the separate chances are added, weighted by how often each colour occurs.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution:q6"
+  }
+ ],
+ "source": {
+  "title": "Marginal distribution",
+  "url": "https://en.wikipedia.org/wiki/Marginal_distribution",
+  "revision": 1367682406
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Some variables on their own",
+    "text": "Suppose you have a collection of random variables. The marginal distribution of a subset of them is the probability distribution of just those variables. It gives the probabilities of their values with no reference to the values of the rest. A conditional distribution is different: it gives probabilities that depend on the values of the other variables.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why it is called marginal",
+    "text": "The name comes from tables. You can find these probabilities by adding values along the rows or columns of a table and writing the totals in its margins. The variables you keep are the marginal variables. The ones you drop are said to be marginalized out.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Why you would want it",
+    "text": "Often a study or a data analysis involves many random variables, but attention narrows to just a few. An analysis might start with some variables, add new ones such as their sum, and then focus only on the distribution of that sum. Different analyses can pick different subsets to treat as marginal.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "How to compute it",
+    "text": "Say you know the joint distribution of two discrete random variables, X and Y. The marginal distribution of X is its distribution when Y is ignored, found by adding up the joint probabilities over every value of Y. The same works the other way round for Y. Another way to see it: take the conditional probability of X for each value of Y, then average those over how likely each value of Y is.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "A pedestrian and a traffic light",
+    "text": "Imagine working out the chance that a pedestrian is hit by a car while crossing at a crossing without looking at the traffic light. Call being hit H and the light L. H depends on L: a person is far more likely to be hit when the lights for cross traffic are green than when they are red. The marginal probability of being hit is the chance when the light's colour is unknown. You find it by adding up the chance of being hit for each colour, each weighted by how likely that colour is.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Putting in numbers",
+    "text": "Suppose the light is red with probability 0.2, yellow with 0.1, and green with 0.7. Multiply each column of the conditional table by the chance of that colour, and you get the joint distribution of H and L, a 2×3 block whose cells add up to 1. Adding along the Hit row then gives the marginal probability of being hit: 0.572.",
+    "cites": [
+     29,
+     30,
+     31
+    ]
+   }
+  ]
+ }
+}

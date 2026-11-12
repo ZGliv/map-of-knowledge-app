@@ -1,0 +1,102 @@
+{
+ "title": "A Margin Note's Long Shadow",
+ "question": "How did one unproved claim shape the study of whole numbers?",
+ "hook": "A scribbled boast in a book margin kept mathematicians busy for 358 years.",
+ "idea": "The long hunt for a proof of Fermat's claim pushed number theory to borrow tools from abstract algebra.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "In 1637 Fermat wrote that he had a proof too large for the margin of his book. What happened over the next centuries?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A proof appeared within a few years and the matter closed",
+     "feedback": "Tempting for a boast, but no proof was published for 358 years."
+    },
+    {
+     "id": "b",
+     "label": "No proof was published until 1995, and the effort spurred new theory"
+    },
+    {
+     "id": "c",
+     "label": "Mathematicians quickly disproved the claim",
+     "feedback": "It was eventually proved, not disproved."
+    }
+   ],
+   "answer": "b",
+   "explain": "No successful proof was published until 1995, and the unsolved problem stimulated algebraic number theory.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these events in order",
+   "items": [
+    "The Babylonians solve x² + y² = z² in Pythagorean triples (c. 1800 BC)",
+    "The Euclidean algorithm solves linear Diophantine equations like 26x + 65y = 13 (c. 5th century BC)",
+    "Fermat conjectures his Last Theorem (1637)",
+    "Gauss's Disquisitiones Arithmeticae is published (1801)"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "The Babylonians come first, then the Euclidean algorithm, then Fermat in 1637, then Gauss's book in 1801.",
+   "cites": [
+    4,
+    5,
+    7,
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each mathematician to their contribution",
+   "pairs": [
+    [
+     "Gauss",
+     "Wrote Disquisitiones Arithmeticae"
+    ],
+    [
+     "Dedekind",
+     "Defined ideals using algebraic integers"
+    ],
+    [
+     "Hilbert",
+     "Unified algebraic number theory in the 1897 Zahlbericht"
+    ],
+    [
+     "Wiles",
+     "Proved modularity for semistable elliptic curves"
+    ]
+   ],
+   "explain": "Gauss wrote a founding work of algebraic number theory, Dedekind defined ideals, Hilbert unified the field, and Wiles proved a result that gave a proof of Fermat's Last Theorem.",
+   "cites": [
+    10,
+    23,
+    26,
+    41
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Fermat conjectured the theorem in 1637, saying he had a proof too large for the margin.",
+    "No proof was published for 358 years despite countless attempts.",
+    "A claim nobody could prove for that long must therefore be false.",
+    "Yet Wiles's work in 1993 and 1994 gave a proof, so the claim held."
+   ],
+   "wrong": 2,
+   "explain": "Being hard to prove does not make a claim false. The theorem was eventually proved.",
+   "cites": [
+    7,
+    8,
+    41
+   ]
+  }
+ ]
+}

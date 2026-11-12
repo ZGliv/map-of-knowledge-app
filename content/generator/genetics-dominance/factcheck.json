@@ -1,0 +1,682 @@
+{
+  "checker": "independent subagent (Claude)",
+  "checkedAt": "2026-10-17T14:50:35+00:00",
+  "units": [
+    {
+      "id": "P1",
+      "verdict": "supported",
+      "evidence": "[W4.1] [W4.18] [W4.19] [W4.20]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P2",
+      "verdict": "imprecise",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: figs. 15 and 16 are the Andalusian diagrams; \"FIG. 13. Diagram illustrating a cross between a red (dark) and a white variety of four o'clock\"",
+      "note": "Fig. 13 is the four o'clock cross, not the Andalusian; also labelled \"verbatim\" but it is a paraphrase. The genetics content matches the text.",
+      "fix": "Say \"figs. 15 and 16 (fig. 13 is the four o'clock cross it builds on)\" and drop \"verbatim\".",
+      "resolved": "Dropped “verbatim”; figs. 15 and 16 for the birds, fig. 13 named as the four o’clock cross"
+    },
+    {
+      "id": "P3",
+      "verdict": "supported",
+      "evidence": "[W1.43] [W1.46] [W1.48] [W1.50]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P4",
+      "verdict": "supported",
+      "evidence": "[W1.52] [W1.58] [W1.60]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P5",
+      "verdict": "imprecise",
+      "evidence": "[W1.13] [W1.22] [W1.23]",
+      "note": "W1.23 is about true-breeding lines (\"When bred separately, the plants always produced the same phenotypes\"); a heterozygous tall plant crossed with short gives about half short.",
+      "fix": "\"crossing pure-breeding tall with short gives tall\".",
+      "resolved": "“pure-breeding tall”"
+    },
+    {
+      "id": "P6",
+      "verdict": "supported",
+      "evidence": "[W1.2] [W1.15] [W1.16]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P7",
+      "verdict": "supported",
+      "evidence": "[W3.1] [W3.16] [W3.18]",
+      "note": "Note: W3.18 says the counterexamples were in variegated leaf colour, not flower colour.",
+      "fix": ""
+    },
+    {
+      "id": "P8",
+      "verdict": "imprecise",
+      "evidence": "[W2.56] \"used Mirabilis as a model organism for his studies on cytoplasmic inheritance\"; [W2.59] begins \"Also when plants with dark-pink flowers...\"",
+      "note": "The source ties Correns's model-organism use to cytoplasmic inheritance (leaves); it does not attribute the dark-pink x white cross to him. (Morgan does credit Correns with the red x white four o'clock cross.)",
+      "fix": "\"Around 1900 Correns used Mirabilis as a model organism for cytoplasmic inheritance; the article also notes dark-pink x white gives light-pink offspring, called incomplete dominance.\"",
+      "resolved": "Correns’s Mirabilis work tied to cytoplasmic inheritance; the flower cross stated separately"
+    },
+    {
+      "id": "P9",
+      "verdict": "supported",
+      "evidence": "[W7.49] [W7.50] [W7.54] [W7.59] [W7.60]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P10",
+      "verdict": "supported",
+      "evidence": "[W5.85] [W5.73] [W5.273] [W5.30] [W5.293] [W5.301]",
+      "note": "W5.301 says HD was used \"tentatively\"; Bateson then established it [W5.302]. Acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "P11",
+      "verdict": "supported",
+      "evidence": "[W6.14] [W6.26] [W6.116] [W6.117] [W6.122]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P12",
+      "verdict": "supported",
+      "evidence": "[W15.5] [W15.10]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B1.hook",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"these blue birds do not breed true but produce white, black, and blue offspring\"; \"1 white, to 2 blues, to 1 black\"; [W4.20]",
+      "note": "\"Well over a century\": Morgan 1916 already says \"Breeders know\".",
+      "fix": ""
+    },
+    {
+      "id": "B2.goal",
+      "verdict": "imprecise",
+      "evidence": "[W4.18] \"caused by a dilution gene, which, in combination with the E gene for black plumage, produces partial dilution\"",
+      "note": "Colour depends on the dilution gene acting on the E (black) gene; one gene decides black/blue/white within the breed, but \"one gene sets the colour\" overstates it.",
+      "fix": "\"One gene decides whether an Andalusian's feathers are black, blue or white.\"",
+      "resolved": "“decides whether … black, blue or white”"
+    },
+    {
+      "id": "B2.f1.ask",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"the whites ... bred to the blacks (both being pure strains)\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f1.mix",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"all the offspring will be blue (fig. 15)\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f1.black",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage; [W4.19] one copy = partial dilution = blue",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f1.blue",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"all the offspring will be blue (fig. 15)\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f1.grey",
+      "verdict": "supported",
+      "evidence": "[W4.19]; Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage",
+      "note": "Distractor is clearly wrong under the stated model.",
+      "fix": ""
+    },
+    {
+      "id": "B2.f1.explain",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage \"hybrid type formed by the meeting of the white and the black germ cells\"; [W4.19] partial dilution; [W1.43] incomplete dominance = heterozygote intermediate",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f2.ask",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f2.allblue",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"these blue birds do not breed true\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f2.three",
+      "verdict": "supported",
+      "evidence": "[W1.24] [W1.26] 3:1 under complete dominance; Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage 1:2:1",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f2.ratio",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"1 white, to 2 blues, to 1 black\"; [W4.20]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f2.paler",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage (four o'clock): \"they are as pure as are white or red flowering plants\"; [W4.19]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.f2.explain",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage; [W4.19] [W4.20]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.quote1",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage - matches word for word (\"Another case of the same kind ... white, black, and blue offspring.\")",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.quote2",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage - matches word for word (\"The explanation of the failure ... Andalusian birds (fig. 16).\")",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.note.true",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"the failure to produce a pure race of Andalusians\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.note.hybrid",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"a hybrid type formed by the meeting of the white and the black germ cells\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.note.ratio",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"1 white, to 2 blues, to 1 black\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.note.separate",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"the factor for white and the factor for black separate in the germ cells\"; four o'clock: \"each carries only one of these factors\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.q.fade",
+      "verdict": "supported",
+      "evidence": "[W4.19]; Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.q.hybrid",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.q.hidden",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage; [W4.19] black = no copies of the dilution gene",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.q.crossed",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage",
+      "note": "Note [W4.4] says the English type was made partly by cross-breeding, but that does not explain the failure to breed true; distractor stays wrong.",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame1",
+      "verdict": "supported",
+      "evidence": "[W3.1] [W3.18]; Morgan 1916: \"one worked out later by Correns. If the common garden plant called four o'clock (Mirabilis jalapa) with red flowers is crossed...\"",
+      "note": "Wikipedia ties Correns's Mirabilis exceptions to leaf colour; Morgan credits him with the flower-colour cross, so the framing holds.",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame2",
+      "verdict": "supported",
+      "evidence": "Morgan 1916: \"with red flowers is crossed to one having white flowers, the offspring are pink\"; [W1.48] [W2.60]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame3",
+      "verdict": "supported",
+      "evidence": "Morgan 1916: \"If these hybrids are inbred the offspring are white, pink and red, in the proportion of 1:2:1\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame4",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage figs. 15-16 and \"they are like the pink flowers of the four o'clock, i.e., they are a hybrid type\"; \"each carries only one of these factors\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.prompt",
+      "verdict": "supported",
+      "evidence": "[W7.49] [W7.50] Shorthorns \"may be solid red, solid white, or red roan\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.explain",
+      "verdict": "supported",
+      "evidence": "[W7.54] [W7.60]; [W1.52] co-dominance definition",
+      "note": "Source does not use the word co-dominance for roan, but it fits W1.52/W1.63 and is the standard textbook label.",
+      "fix": ""
+    },
+    {
+      "id": "B5.calf.pink",
+      "verdict": "supported",
+      "evidence": "[W7.60] \"mixture of white regions and colored regions\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.calf.roan",
+      "verdict": "supported",
+      "evidence": "[W7.54] \"breeding white cattle to a solid mate will always yield a roan calf\"; [W7.60]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.calf.red",
+      "verdict": "supported",
+      "evidence": "[W7.54]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.calf.coin",
+      "verdict": "supported",
+      "evidence": "[W7.59] [W7.60]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.prompt",
+      "verdict": "supported",
+      "evidence": "[W5.85] [W5.273]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.explain",
+      "verdict": "supported",
+      "evidence": "[W1.1] [W1.15]; [W5.273] \"The worldwide prevalence of HD is 5–10 cases per 100,000\"; [W5.280] founder effect",
+      "note": "Optional: add \"worldwide\" (local rates reach 700/100,000 [W5.278]).",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.a",
+      "verdict": "supported",
+      "evidence": "[W5.73] \"a single mutant HTT allele from either parent is sufficient\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.b",
+      "verdict": "supported",
+      "evidence": "[W1.1] [W1.13]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.c",
+      "verdict": "supported",
+      "evidence": "[W5.273] HD is dominant yet rare; [W1.15]",
+      "note": "Correctly marked as the broken step.",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.d",
+      "verdict": "supported",
+      "evidence": "[W5.273]",
+      "note": "Conclusion step; false, follows from c.",
+      "fix": ""
+    },
+    {
+      "id": "B7.prompt",
+      "verdict": "supported",
+      "evidence": "[W1.3] heterozygote definition",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.explain",
+      "verdict": "imprecise",
+      "evidence": "[W1.13] [W1.46] [W1.58] [W15.10]; sickle: [W1.60] incomplete for anemia, but [W1.59] molecular co-dominance, [W6.99] carriers make \"a mixture of normal HbA and sickle HbS\", [W6.14] carriers usually have no symptoms",
+      "note": "Calling sickle-cell carriers simply \"in between\" is one of three defensible readings (co-dominant for haemoglobin, near-recessive for symptoms). Rest is correct.",
+      "fix": "\"...Pink snapdragons are in between, and sickle-cell carriers are in between for anaemia...\" or swap sickle cell for familial hypercholesterolemia / four o'clocks.",
+      "resolved": "sickle-cell “in between if you judge by anaemia”, both proteins noted"
+    },
+    {
+      "id": "B7.pair.tall",
+      "verdict": "imprecise",
+      "evidence": "[W1.22] [W1.23] (true-breeding lines)",
+      "note": "A heterozygous tall plant x short gives about half short; \"only tall young\" needs pure-breeding parents.",
+      "fix": "\"Pea plants: pure-breeding tall crossed with short gives only tall young\".",
+      "resolved": "“pure-breeding tall”"
+    },
+    {
+      "id": "B7.pair.snap",
+      "verdict": "supported",
+      "evidence": "[W1.45] [W1.46] [W1.47]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.ab",
+      "verdict": "supported",
+      "evidence": "[W1.58]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.round",
+      "verdict": "imprecise",
+      "evidence": "[W1.12] [W1.13] [W1.23]",
+      "note": "Same as tall: needs pure-breeding (RR) round parents; Rr x rr gives half wrinkled.",
+      "fix": "\"Pea seeds: pure-breeding round crossed with wrinkled gives only round seeds\".",
+      "resolved": "“pure-breeding round”"
+    },
+    {
+      "id": "B7.pair.sickle",
+      "verdict": "imprecise",
+      "evidence": "[W1.60] supports in-between for anemia; [W1.59] and [W6.99] support \"both show\" (HbA and HbS both made); [W6.14] carriers usually symptom-free (looks like \"one hides the other\")",
+      "note": "Key not uniquely right: a learner choosing \"Both show at once\" is defensible from the cited sources.",
+      "fix": "Qualify: \"Sickle-cell carriers, judged by anaemia: a far milder condition than with two copies\", or replace with a clean incomplete-dominance case (four o'clock pink, or FH cholesterol levels [W14.33]).",
+      "resolved": "label now “judged by anaemia”"
+    },
+    {
+      "id": "B7.pair.mn",
+      "verdict": "supported",
+      "evidence": "[W15.5] [W15.10]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.prompt",
+      "verdict": "supported",
+      "evidence": "[W6.116] [W6.122]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.explain",
+      "verdict": "supported",
+      "evidence": "[W6.117] [W6.122] \"an example of natural selection\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.dominant",
+      "verdict": "supported",
+      "evidence": "[W6.14] [W6.102]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.more",
+      "verdict": "supported",
+      "evidence": "[W6.8] [W6.122] \"shorter life expectancy for those with the homozygous condition would tend to disfavour the trait's survival\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.carriers",
+      "verdict": "supported",
+      "evidence": "[W6.117] [W6.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.cause",
+      "verdict": "supported",
+      "evidence": "[W6.26] [W6.122] (general science: mutations are not directed)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B9.number",
+      "verdict": "supported",
+      "evidence": "[W1.46] [W1.50] 1:2:1 Red:Pink:White",
+      "note": "RW x RW gives 1/2 RW; 80 x 2/4 = 40. Rule and setup correct.",
+      "fix": "",
+      "resolved": "Round 4 (2026-10-27, drafting side, from the shared-wording check): the working said “show it” with no referent, and “Half” beside “× 2/4”. The beat now has shows: “have pink flowers”, and crossCount writes halves as a division: “Half the offspring of two pink plants have pink flowers. 80 ÷ 2 = 40 plants.” (likewise 120 ÷ 2 = 60, 200 ÷ 2 = 100). Answers unchanged; new text for an independent read."
+    },
+    {
+      "id": "B10.idea",
+      "verdict": "supported",
+      "evidence": "[W1.6] [W1.15] [W1.16] [W1.32] [W1.43] [W1.52]; [W5.273]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f1",
+      "verdict": "imprecise",
+      "evidence": "[W4.1] [W4.18]; [W4.19] \"Not all Andalusians are blue\"",
+      "note": "Source gives no reason the breed is \"kept\"; and not every Andalusian is blue.",
+      "fix": "\"The Andalusian is a Spanish breed of chicken known for its slate-blue feathers.\"",
+      "resolved": "“known for its slate-blue feathers”"
+    },
+    {
+      "id": "R1.f2",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"these blue birds do not breed true but produce white, black, and blue offspring\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f3",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage: \"If the whites ... are bred to the blacks (both being pure strains), all the offspring will be blue (fig. 15)\"; author Thomas Hunt Morgan, 1916",
+      "note": "\"Drew\" = his figs. 15-16 diagrams; fine.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f4",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage \"separate in the germ cells\"; [W4.19]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f5",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage \"1 white, to 2 blues, to 1 black\"; [W4.19] one copy = blue",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.prediction",
+      "verdict": "imprecise",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage",
+      "note": "\"Two slate-blue chickens of the same breed\" does not name the Andalusian; some blue/lavender (self-blue) breeds carry a recessive dilution and do breed true, so the key is not guaranteed.",
+      "fix": "\"A breeder mates two blue Andalusian chickens. What colours will their chicks be?\"",
+      "resolved": "names blue Andalusians"
+    },
+    {
+      "id": "R1.takeaway",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage \"a hybrid type\"; [W4.19]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f1",
+      "verdict": "supported",
+      "evidence": "[W5.30] [W5.293] [W5.295]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f2",
+      "verdict": "supported",
+      "evidence": "[W5.301] [W5.302]",
+      "note": "Source says \"tentatively\"; Bateson then established it. Acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "R2.f3",
+      "verdict": "supported",
+      "evidence": "[W1.1] [W5.73]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f4",
+      "verdict": "supported",
+      "evidence": "[W5.273] worldwide prevalence 5–10 per 100,000; [W1.15]",
+      "note": "Optional: \"worldwide, about five to ten...\".",
+      "fix": ""
+    },
+    {
+      "id": "R2.f5",
+      "verdict": "supported",
+      "evidence": "[W1.1] [W1.15] [W1.16]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.prediction",
+      "verdict": "supported",
+      "evidence": "[W5.73] [W5.273]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.takeaway",
+      "verdict": "supported",
+      "evidence": "[W1.15] [W5.273]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_5azenc8zr1",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage; [W4.19] (Bb x BB -> 1/2 blue, 1/2 black)",
+      "note": "Distractors all wrong under the model.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_j21dk3ymk2",
+      "verdict": "supported",
+      "evidence": "[W4.19] two copies = off-white; Morgan: pure strains; \"The white flowering plants should forever breed true\" (same principle)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_mjxmpfh3dj",
+      "verdict": "supported",
+      "evidence": "Morgan 1916 (Gutenberg #30701), ch. II Andalusian passage (fig. 15 then inbred blues 1:2:1)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_k7wq7v9pr8",
+      "verdict": "supported",
+      "evidence": "[W5.85] [W5.87] \"each offspring of an affected individual has a 50% risk\"",
+      "note": "No medical advice given.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_zz88ews23z",
+      "verdict": "supported",
+      "evidence": "[W4.20]; Morgan 1:2:1",
+      "note": "48 x 2/4 = 24. Correct.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_s8tsskrt9j",
+      "verdict": "supported",
+      "evidence": "[W7.59] [W7.60]",
+      "note": "Rn x rr -> 1/2 roan, 1/2 white. Correct.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_33byqznrdq",
+      "verdict": "supported",
+      "evidence": "[W12.2] [W12.58] [W12.60] [W12.94] \"palomino is inherently a heterozygous condition and thus cannot be true-breeding\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_1bzammxx0k",
+      "verdict": "supported",
+      "evidence": "[W13.4] [W13.40] [W13.63]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_rx7w8emcmz",
+      "verdict": "supported",
+      "evidence": "[W9.2] [W9.10] [W9.11] \"About 80% of cases occur in children of parents without the disease, and result from a new (de novo...) mutation...during spermatogenesis\"",
+      "note": "\"Average height\" paraphrases \"without the disease\"; acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_r6hh6qd5tw",
+      "verdict": "supported",
+      "evidence": "[W14.33] \"350–550 mg/dL are typical of heterozygous FH while ... 650–1000 mg/dL are typical of homozygous FH\"; [W1.6] partial effect = incomplete dominance",
+      "note": "Source calls FH \"autosomal dominant\" (clinical usage) [W14.14]; the dosage numbers justify incomplete dominance as the key, and \"complete dominance\" is clearly ruled out. No medical advice.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_e3esjq87a9",
+      "verdict": "supported",
+      "evidence": "[W12.58] \"50% heterozygous dilute\"",
+      "note": "20 x 1/2 = 10. Correct.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_408g0fk3v2",
+      "verdict": "supported",
+      "evidence": "[W13.45] \"Affected (heterozygous) x Not Affected (homozygous recessive): 50%\"",
+      "note": "24 x 1/2 = 12. Correct.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_671k8hxbvp",
+      "verdict": "supported",
+      "evidence": "[W7.59] [W7.60]",
+      "note": "40 x 1/4 = 10. Correct.",
+      "fix": ""
+    }
+  ]
+}

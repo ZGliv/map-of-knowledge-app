@@ -1,0 +1,338 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws",
+ "name": "Kirchhoff's circuit laws",
+ "summary": [
+  {
+   "text": "Kirchhoff's circuit laws are two rules about current and voltage in circuits, first described in 1845 by German physicist Gustav Kirchhoff.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The current law says the currents meeting at a point sum to zero, and the voltage law says the voltages around any closed loop sum to zero.",
+   "cites": [
+    8,
+    16
+   ]
+  },
+  {
+   "text": "They hold for DC circuits and for AC circuits at low enough frequencies, and they form the basis for network analysis.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Year",
+   "value": "First described in 1845",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Current law",
+   "value": "Currents meeting at a point add up to zero",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Voltage law",
+   "value": "Voltage changes around any closed loop sum to zero",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Software",
+   "value": "Its matrix form underlies circuit simulators such as SPICE",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "Kirchhoff's rules, or simply Kirchhoff's laws",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Three wires meet at a junction. A current of 5 amperes flows in through one and 2 amperes flows out through another. What does the third wire carry?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3 amperes flowing out"
+    },
+    {
+     "id": "b",
+     "label": "3 amperes flowing in"
+    },
+    {
+     "id": "c",
+     "label": "7 amperes flowing out"
+    },
+    {
+     "id": "d",
+     "label": "Zero, since the junction stores the rest"
+    }
+   ],
+   "answer": "a",
+   "explain": "The currents at a junction must sum to zero, so the third wire must carry away the remaining 3 amperes.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws:q1"
+  },
+  {
+   "prompt": "Why can't current simply pile up at a junction in an ordinary circuit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wires push charge back against the flow"
+    },
+    {
+     "id": "b",
+     "label": "The charge in the wires and parts stays constant"
+    },
+    {
+     "id": "c",
+     "label": "Junctions are cooler than the rest of the wire"
+    },
+    {
+     "id": "d",
+     "label": "Current is a force, and forces cannot add"
+    }
+   ],
+   "answer": "b",
+   "explain": "The current law extends the conservation of charge: it relies on the net charge in the wires and components staying constant.",
+   "cites": [
+    10,
+    12
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws:q2"
+  },
+  {
+   "prompt": "You trace a closed loop around a circuit, adding each voltage rise and subtracting each drop. What should the total be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The battery voltage"
+    },
+    {
+     "id": "b",
+     "label": "Twice the battery voltage"
+    },
+    {
+     "id": "c",
+     "label": "Whatever the largest drop is"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "The directed sum of the potential differences around any closed loop is zero.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws:q3"
+  },
+  {
+   "prompt": "After solving a circuit you find one current has a negative sign. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The current actually flows opposite to the arrow you assumed"
+    },
+    {
+     "id": "b",
+     "label": "The component is broken and passes no current"
+    },
+    {
+     "id": "c",
+     "label": "The circuit breaks the conservation of charge"
+    },
+    {
+     "id": "d",
+     "label": "The battery has been connected the wrong way round"
+    }
+   ],
+   "answer": "a",
+   "explain": "A negative result means the assumed direction was wrong, and the current flows the other way.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws:q4"
+  },
+  {
+   "prompt": "An engineer sends a very high-frequency signal along a long transmission line. Why might the simple laws stop working?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wires stop conducting current at high frequency"
+    },
+    {
+     "id": "b",
+     "label": "Voltage cannot be measured at any high frequency"
+    },
+    {
+     "id": "c",
+     "label": "The lumped-element model fails as charge keeps shifting"
+    },
+    {
+     "id": "d",
+     "label": "The laws only apply to circuits using batteries"
+    }
+   ],
+   "answer": "c",
+   "explain": "Both laws depend on the lumped-element model, which breaks down at high frequencies where charge density in conductors changes constantly.",
+   "cites": [
+    21,
+    22,
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws:q5"
+  },
+  {
+   "prompt": "In nodal analysis, the current law is paired with another rule to solve circuits. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Coulomb's law"
+    },
+    {
+     "id": "b",
+     "label": "Faraday's law of induction"
+    },
+    {
+     "id": "c",
+     "label": "Gauss's law"
+    },
+    {
+     "id": "d",
+     "label": "Ohm's law"
+    }
+   ],
+   "answer": "d",
+   "explain": "The current law is used together with Ohm's law to perform nodal analysis.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.kirchhoff-s-circuit-laws:q6"
+  }
+ ],
+ "source": {
+  "title": "Kirchhoff's circuit laws",
+  "url": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws",
+  "revision": 1372152542
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two rules for circuits",
+    "text": "Kirchhoff's circuit laws are two equations about current and voltage in electrical circuits, where voltage means potential difference. They belong to the lumped element model of circuits. The German physicist Gustav Kirchhoff first set them out in 1845, extending the work of Georg Ohm and coming before that of James Clerk Maxwell. Electrical engineers use them widely, and they also go by Kirchhoff's rules or simply Kirchhoff's laws.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "The current law",
+    "text": "The first law is about a point where several conductors meet. Add up the currents at that point, counting each with its sign, and the total is zero. The law can be viewed as an outgrowth of the conservation of charge, because charge equals current multiplied by how long it has flowed. It holds as long as the net charge in the wires and components stays constant. Paired with Ohm's law, the current law is used in a method called nodal analysis.",
+    "cites": [
+     8,
+     10,
+     11,
+     12,
+     14
+    ]
+   },
+   {
+    "heading": "The voltage law",
+    "text": "The second law is about loops. Go around any closed loop and add up the potential differences, each with its direction, and the total is zero. At low frequencies this holds even for imaginary loops drawn anywhere in space, not just loops traced by the wires and parts. In that low-frequency limit it follows from Faraday's law of induction, itself among Maxwell's equations.",
+    "cites": [
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Where they come from and why they matter",
+    "text": "The laws were first drawn from experimental results. Today both can be seen as consequences of Maxwell's equations at low frequencies. They give accurate results in DC circuits, and in AC circuits whenever the wavelengths of electromagnetic radiation are far larger than the circuit. They work in both the time and frequency domains and form the basis of network analysis. A matrix form of the current law sits at the heart of most circuit simulation software, such as SPICE.",
+    "cites": [
+     5,
+     6,
+     7,
+     9,
+     13
+    ]
+   },
+   {
+    "heading": "When the laws break down",
+    "text": "Both laws depend on the lumped element model, and where that model does not fit the circuit, the laws do not apply. The current law assumes the net charge in every wire, junction and component stays constant. That may fail when the electric field between parts of a circuit is not negligible, for example when two wires are coupled through capacitance. This happens in high-frequency AC circuits. In a transmission line, for instance, the charge density in the conductor may keep changing.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Real wires are not ideal",
+    "text": "The voltage law assumes that changing magnetic fields act only inside particular components, such as inductors. In reality an inductor's induced field does leak out, but the leak is often small enough to ignore. A real wire is not an ideal conductor either: wires can couple to each other and to themselves, and signals take a finite time to travel along them. To an extent, these effects can be modeled by adding extra modeled parts called parasitic components, so that both laws can still be used.",
+    "cites": [
+     27,
+     28,
+     31,
+     33,
+     34,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cp-kirchhoffs-rules",
+   "kind": "book",
+   "title": "21.3 Kirchhoff’s Rules - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/21-3-kirchhoffs-rules",
+   "note": "A free textbook section on the junction and loop rules and how to apply them to circuits.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "up2-kirchhoffs-rules",
+   "kind": "book",
+   "title": "10.3 Kirchhoff's Rules - University Physics Volume 2",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules",
+   "note": "A university-level textbook section on Kirchhoff's junction and loop rules with worked circuit problems.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crash-course-kirchhoff",
+   "kind": "video",
+   "title": "Capacitors and Kirchhoff: Crash Course Physics #31",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=vuCJP_5KOlI",
+   "note": "A Crash Course Physics episode covering Kirchhoff's rules for circuit analysis, alongside capacitors in circuits."
+  }
+ ]
+}

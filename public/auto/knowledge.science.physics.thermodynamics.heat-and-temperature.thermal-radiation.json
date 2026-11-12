@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation",
+ "name": "Thermal radiation",
+ "summary": [
+  {
+   "text": "Thermal radiation is electromagnetic radiation given off by the random motion of particles in any matter that is warmer than absolute zero.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "At room temperature most of it is infrared, but above about 525 °C enough becomes visible that the matter glows.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "It is how the Sun heats the Earth, and like light it keeps travelling through a vacuum.",
+   "cites": [
+    8,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who emits it",
+   "value": "All matter above absolute zero",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Glow threshold",
+   "value": "About 525 °C (977 °F)",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Thermal cameras",
+   "value": "They sense infrared to show temperature differences",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Perfect emitter",
+   "value": "A black body has an emissivity of one",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Sun's surface",
+   "value": "About 6000 K, radiating mostly visible light",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A thermal camera picks out a person standing in a pitch-black room. Why can it see them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their skin reflects stray visible light"
+    },
+    {
+     "id": "b",
+     "label": "Their body gives off infrared because of its temperature"
+    },
+    {
+     "id": "c",
+     "label": "The camera sends out heat beams that bounce back"
+    },
+    {
+     "id": "d",
+     "label": "Warmth from them conducts through the air to the lens"
+    }
+   ],
+   "answer": "b",
+   "explain": "Thermographic cameras sense infrared radiation, and a body emits it at its own temperature, so people show up against cooler surroundings.",
+   "cites": [
+    12,
+    14
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation:q1"
+  },
+  {
+   "prompt": "A blacksmith heats a bar of iron until it glows orange. What changed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It began giving off radiation for the first time"
+    },
+    {
+     "id": "b",
+     "label": "It stopped giving off infrared altogether"
+    },
+    {
+     "id": "c",
+     "label": "Enough of its emission moved into visible light"
+    },
+    {
+     "id": "d",
+     "label": "Its atoms stopped moving randomly"
+    }
+   ],
+   "answer": "c",
+   "explain": "All matter radiates, mostly as infrared when cool, but above about 525 °C enough of it is visible for the matter to glow.",
+   "cites": [
+    2,
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation:q2"
+  },
+  {
+   "prompt": "A friend says a block of ice gives off no thermal radiation because it is not hot. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since only hot objects radiate"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since ice just reflects radiation instead"
+    },
+    {
+     "id": "c",
+     "label": "No, but it radiates only visible light"
+    },
+    {
+     "id": "d",
+     "label": "No, since everything warmer than absolute zero radiates"
+    }
+   ],
+   "answer": "d",
+   "explain": "Every bit of matter with a temperature above absolute zero emits thermal radiation, however cold it feels.",
+   "cites": [
+    2,
+    21
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation:q3"
+  },
+  {
+   "prompt": "Physicists imagine a surface that soaks up all radiation hitting it at every wavelength. What else is true of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a perfect emitter too"
+    },
+    {
+     "id": "b",
+     "label": "It gives off no radiation at all"
+    },
+    {
+     "id": "c",
+     "label": "It only emits visible light"
+    },
+    {
+     "id": "d",
+     "label": "It stays at absolute zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "A body that absorbs perfectly at all wavelengths, in equilibrium, is a black body, and a black body is also a perfect emitter.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation:q4"
+  },
+  {
+   "prompt": "The Sun's surface radiates mostly visible light, while Earth's surface radiates at lower frequencies. What explains the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Sun is made of different atoms than Earth"
+    },
+    {
+     "id": "b",
+     "label": "Space filters out the Earth's higher frequencies"
+    },
+    {
+     "id": "c",
+     "label": "Earth only reflects light and never emits any"
+    },
+    {
+     "id": "d",
+     "label": "The Sun is far hotter, and temperature sets the spectrum"
+    }
+   ],
+   "answer": "d",
+   "explain": "Temperature determines the wavelength distribution, with the peak frequency proportional to absolute temperature: about 6000 K for the Sun against roughly 300 K for Earth's surface.",
+   "cites": [
+    37,
+    40,
+    41,
+    43
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation:q5"
+  },
+  {
+   "prompt": "Space between the Sun and Earth is nearly empty. How does the Sun's warmth still reach us?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Through hot air rising from the Sun's surface"
+    },
+    {
+     "id": "b",
+     "label": "Through the thin gas that fills all of space"
+    },
+    {
+     "id": "c",
+     "label": "Through electromagnetic radiation crossing the vacuum"
+    },
+    {
+     "id": "d",
+     "label": "Through direct contact between the two bodies"
+    }
+   ],
+   "answer": "c",
+   "explain": "Thermal radiation is the main way the Sun transfers heat to Earth, and electromagnetic radiation propagates indefinitely in a vacuum.",
+   "cites": [
+    8,
+    28
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-radiation:q6"
+  }
+ ],
+ "source": {
+  "title": "Thermal radiation",
+  "url": "https://en.wikipedia.org/wiki/Thermal_radiation",
+  "revision": 1383812064
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Thermal radiation is electromagnetic radiation given off because of the heat-driven motion of particles in matter. Everything warmer than absolute zero gives it off. Along with conduction and convection, it is one of the basic ways heat moves from place to place.",
+    "cites": [
+     1,
+     2,
+     7
+    ]
+   },
+   {
+    "heading": "How it is made",
+    "text": "Thermal energy is the kinetic energy of atoms and molecules moving at random. Those atoms and molecules are built from charged particles, protons and electrons. As the particles jostle, charges accelerate and dipoles oscillate. That produces linked electric and magnetic fields, which send out photons that carry energy away from the body. Like visible light, this radiation can keep travelling through a vacuum without end.",
+    "cites": [
+     23,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "From infrared to glowing",
+    "text": "At room temperature most thermal radiation is infrared. Above about 525 °C (977 °F), enough of it is visible that the object glows, a glow called incandescence. The radiation is never a single frequency but a continuous spread, and temperature sets how that spread is shaped. At any temperature there is one frequency where the output peaks, and Wien's displacement law says this peak frequency is proportional to the absolute temperature.",
+    "cites": [
+     5,
+     6,
+     30,
+     37,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "The perfect emitter",
+    "text": "A black body is an ideal object in thermodynamic equilibrium whose surface absorbs every wavelength perfectly. It is also a perfect emitter, and its radiation is called black-body radiation. Real objects are compared with it through emissivity, their emission as a fraction of a black body's, so a black body scores one. At any one wavelength in equilibrium, a good absorber is also a good emitter, and a poor absorber a poor emitter. Planck's law gives the spread of a black body's radiation across frequencies.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     36,
+     38
+    ]
+   },
+   {
+    "heading": "Sun, Earth and air",
+    "text": "The Sun heats the Earth mainly by thermal radiation. Its photosphere is about 6000 K and gives off mostly visible light. Much of that light passes through the atmosphere to the ground, where it is absorbed or reflected. The ground then radiates like a black body at 300 K, at lower frequencies where the air is largely opaque. About 10% of this escapes to space, but most is absorbed and given off again by gases in the atmosphere.",
+    "cites": [
+     8,
+     10,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Seeing heat",
+    "text": "Thermal radiation can reveal things the eye cannot see. Thermographic cameras make pictures by sensing infrared, which can show how temperature varies across a scene and pick out objects warmer than their surroundings. In the dark they can find animals or people by their body heat. The cosmic microwave background is thermal radiation too.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-14-7",
+   "kind": "book",
+   "title": "14.7 Radiation",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/14-7-radiation",
+   "note": "A free textbook section on radiant heat, emissivity, the Stefan-Boltzmann law and the greenhouse effect.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up2-1-6",
+   "kind": "book",
+   "title": "1.6 Mechanisms of Heat Transfer",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+   "note": "A free university textbook section on radiative heat transfer alongside conduction and convection.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nasa-infrared",
+   "kind": "article",
+   "title": "Infrared Waves",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/ems/07_infraredwaves/",
+   "note": "NASA's illustrated page on infrared light, thermal imaging of warm bodies and satellite views of Earth's heat."
+  }
+ ]
+}

@@ -1,0 +1,545 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.modular-arithmetic",
+ "name": "Modular arithmetic",
+ "summary": [
+  {
+   "text": "Modular arithmetic is arithmetic in which numbers wrap around once they reach a set value, called the modulus.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A 12-hour clock shows it: 8 hours after 7 o'clock the hand points to 3, because 7 + 8 = 15 and the hour starts over after 12.",
+   "cites": [
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Carl Friedrich Gauss built the modern approach to number theory on it in his 1801 book Disquisitiones Arithmeticae.",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "The modulus",
+   "value": "The value at which numbers wrap around",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "How it works",
+   "value": "Replace each result by its remainder after dividing by the modulus",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Clock example",
+   "value": "15 reads as 3 on a 12-hour clock",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Developed by",
+   "value": "Carl Friedrich Gauss, in a book published in 1801",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Order of steps",
+   "value": "Taking the remainder early or only at the end gives the same result",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "It is 9 o'clock on a 12-hour clock. What does the hour hand show 5 hours later?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2"
+    },
+    {
+     "id": "b",
+     "label": "14"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "3"
+    }
+   ],
+   "answer": "a",
+   "explain": "9 plus 5 is 14, and 14 reads as 2 on a 12-hour clock because the numbering starts over after 12.",
+   "cites": [
+    5,
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic:q1"
+  },
+  {
+   "prompt": "You start a timer on a clock face and wait exactly 12 hours. How does that compare with waiting no time at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The hand ends 12 places ahead of where it began"
+    },
+    {
+     "id": "b",
+     "label": "It is the same: the hand is right where it started"
+    },
+    {
+     "id": "c",
+     "label": "The hand ends one hour behind where it began"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be compared with any other wait"
+    }
+   ],
+   "answer": "b",
+   "explain": "After exactly 12 hours the hour hand is back where it began, so 12 acts as 0.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic:q2"
+  },
+  {
+   "prompt": "You wait 8 hours and then 8 more, 16 hours in total. How does the clock change compared with waiting a shorter time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Like waiting 8 hours"
+    },
+    {
+     "id": "b",
+     "label": "Like waiting 6 hours"
+    },
+    {
+     "id": "c",
+     "label": "Like waiting 4 hours"
+    },
+    {
+     "id": "d",
+     "label": "Like waiting 16 hours without wrapping"
+    }
+   ],
+   "answer": "c",
+   "explain": "16 hours takes the hour hand one full turn plus 4 more hours, so the clock changes as it would after 4 hours.",
+   "cites": [
+    8,
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic:q3"
+  },
+  {
+   "prompt": "Two friends add up a long list of hours on a 12-hour clock. One reduces to a clock reading after every step; the other only at the very end. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first friend is always off by one hour"
+    },
+    {
+     "id": "b",
+     "label": "The second friend always gets the larger answer"
+    },
+    {
+     "id": "c",
+     "label": "Only the first friend's method is allowed"
+    },
+    {
+     "id": "d",
+     "label": "They end on the same clock reading"
+    }
+   ],
+   "answer": "d",
+   "explain": "The result does not depend on whether you reduce after each operation or once at the end.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic:q4"
+  },
+  {
+   "prompt": "38 and 14 differ by exactly 24, which is two full turns of a 12-hour clock. What does that tell you about them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They leave the same remainder when divided by 12"
+    },
+    {
+     "id": "b",
+     "label": "They leave remainders that add up to 12"
+    },
+    {
+     "id": "c",
+     "label": "One of them divides the other"
+    },
+    {
+     "id": "d",
+     "label": "They are both divisible by 12"
+    }
+   ],
+   "answer": "a",
+   "explain": "Their difference is a multiple of 12, so they have the same remainder, 2, when divided by 12.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic:q5"
+  },
+  {
+   "prompt": "On a clock with a prime number of hours, say 7, which readings have a multiplicative inverse, a partner that multiplies with them to give 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the reading 1"
+    },
+    {
+     "id": "b",
+     "label": "Only the odd readings"
+    },
+    {
+     "id": "c",
+     "label": "Every reading except 0"
+    },
+    {
+     "id": "d",
+     "label": "Every reading, including 0"
+    }
+   ],
+   "answer": "c",
+   "explain": "A number has an inverse exactly when it is coprime with the modulus. With a prime modulus, every nonzero reading is.",
+   "cites": [
+    28,
+    29,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Clock_group.svg/960px-Clock_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Modular arithmetic",
+  "credit": "The original uploader was Spindled at English Wikipedia.",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Clock_group.svg"
+ },
+ "source": {
+  "title": "Modular arithmetic",
+  "url": "https://en.wikipedia.org/wiki/Modular_arithmetic",
+  "revision": 1382702311
+ },
+ "pack": {
+  "id": "auto-number-theory-modular-arithmetic",
+  "title": "Why 7 + 8 is 3",
+  "question": "What happens to arithmetic when numbers wrap around, like hours on a clock?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Number theory",
+   "Modular arithmetic"
+  ],
+  "hue": 52,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Clock_group.svg/960px-Clock_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Modular arithmetic",
+    "credit": "The original uploader was Spindled at English Wikipedia. · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Clock_group.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why 7 + 8 is 3",
+    "hook": "On a clock face, 7 + 8 reads as 3."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-modular-arithmetic:1",
+    "transfer": false,
+    "prompt": "The hour hand points to 7. What does it show 8 hours later?",
+    "explain": "7 + 8 = 15, and 15 reads as 3 because the hour numbers start over after 12.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "3",
+        "feedback": ""
+       },
+       {
+        "id": "a",
+        "label": "15",
+        "feedback": "Ordinary addition gives 15, but a 12-hour clock face has no 15."
+       },
+       {
+        "id": "c",
+        "label": "1",
+        "feedback": "It tempts if you subtract 12 from the wrong total, but 15 minus 12 is not 1."
+       },
+       {
+        "id": "d",
+        "label": "8",
+        "feedback": "It tempts if you think the hand returns to the number of hours waited, but it does not."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-modular-arithmetic:2",
+    "transfer": false,
+    "prompt": "You wait 8 hours and then 8 more hours. Compared with waiting a shorter time, how does the clock change?",
+    "explain": "16 hours is one full turn of 12 plus 4 more hours, so the clock moves as it does after 4 hours.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The same as waiting 16 hours without wrapping",
+        "feedback": "A clock face wraps around, so 16 cannot appear."
+       },
+       {
+        "id": "b",
+        "label": "The same as waiting 8 hours",
+        "feedback": "It tempts because the repeated number is 8, but the second wait adds to the first."
+       },
+       {
+        "id": "a",
+        "label": "The same as waiting 4 hours",
+        "feedback": ""
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-number-theory-modular-arithmetic:3",
+    "transfer": true,
+    "prompt": "Match each clock situation to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Waiting exactly 12 hours"
+     },
+     {
+      "id": "l1",
+      "label": "Ordinary 7 + 8 = 15"
+     },
+     {
+      "id": "l2",
+      "label": "Waiting 8, then 8 hours more"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "On the clock face it reads as 3"
+     },
+     {
+      "id": "r2",
+      "label": "Same change as waiting 4 hours"
+     },
+     {
+      "id": "r0",
+      "label": "The hand is back where it started, so 12 acts as 0"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each time the total passes 12, the numbering starts over."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-number-theory-modular-arithmetic:4",
+    "transfer": true,
+    "prompt": "Someone works out the hour 8 hours after 7 o'clock. One step is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Start at 7 and wait 8 hours."
+     },
+     {
+      "id": "b",
+      "text": "Ordinary addition gives 7 + 8 = 15."
+     },
+     {
+      "id": "c",
+      "text": "The hand makes a full turn every 12 hours, so the numbering starts over after 12."
+     },
+     {
+      "id": "d",
+      "text": "So the hand points to 5."
+     }
+    ],
+    "answer": "d",
+    "explain": "15 reads as 3 on the clock, not 5: you take 12 away from 15, leaving 3."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Modular arithmetic replaces every result by its remainder after division by a fixed number, so numbers wrap around like the hours on a clock.",
+    "connections": [
+     {
+      "title": "Congruence relation",
+      "place": "Modular arithmetic",
+      "node": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation"
+     },
+     {
+      "title": "Chinese remainder theorem",
+      "place": "Modular arithmetic",
+      "node": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.chinese-remainder-theorem"
+     },
+     {
+      "title": "Fermat's little theorem",
+      "place": "Modular arithmetic",
+      "node": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem"
+     },
+     {
+      "title": "Euler totient function",
+      "place": "Modular arithmetic",
+      "node": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "7 + 8 = 15, and 15 reads as 3 because the hour numbers start over after 12.",
+    "source": "Wikipedia sentences 6, 7, 8"
+   },
+   {
+    "claim": "16 hours is one full turn of 12 plus 4 more hours, so the clock moves as it does after 4 hours.",
+    "source": "Wikipedia sentences 10"
+   },
+   {
+    "claim": "Each time the total passes 12, the numbering starts over.",
+    "source": "Wikipedia sentences 7, 10, 12"
+   },
+   {
+    "claim": "15 reads as 3 on the clock, not 5: you take 12 away from 15, leaving 3.",
+    "source": "Wikipedia sentences 6, 7, 8"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Numbers that wrap around",
+    "text": "Modular arithmetic is a way of doing sums with whole numbers in which the numbers wrap around once they reach or pass a chosen value. That value is called the modulus. To work modulo m, you take the result of each addition, subtraction or multiplication and swap it for the remainder left over after dividing by m.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "The clock on the wall",
+    "text": "The hour hand of a 12-hour clock is the everyday case. If it points to 7 now, it points to 3 eight hours later. Plain addition gives 7 + 8 = 15, yet the clock face shows 3, since the hand goes round once every 12 hours and the numbering starts again after 12. We say 15 is congruent to 3 modulo 12 and write 15 ≡ 3 (mod 12).",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Twelve acts as zero",
+    "text": "The same idea covers longer waits. Waiting 8 hours twice, 16 hours in all, moves the hand just as far as waiting 4 hours, which is written 2 × 8 ≡ 4 (mod 12). Wait exactly 12 hours and the hand is back where it began, so in this system 12 behaves like 0: 12 ≡ 0 (mod 12).",
+    "cites": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Reading the notation",
+    "text": "The statement a ≡ b (mod m) says that a and b leave the same remainder when divided by m. A different notation, b mod m, written without the parentheses, names that remainder itself: the single integer r with 0 ≤ r < m and r ≡ b (mod m). For example, 38 ≡ 14 (mod 12), because 38 − 14 = 24 = 2 × 12 is a multiple of 12. Put another way, both 38 and 14 leave remainder 2 when divided by 12.",
+    "cites": [
+     14,
+     15,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Reduce whenever you like",
+    "text": "One handy property is that it does not matter when you divide by m. You can reduce after every step, only once at the very end, or now and then along the way, typically when a middle result grows too large. The final answer comes out the same.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "heading": "Division and inverses",
+    "text": "A number a has a modular multiplicative inverse modulo m, written a⁻¹ and satisfying aa⁻¹ ≡ 1 (mod m), exactly when a is coprime with m. With that inverse you can solve ax ≡ b (mod m): the answer is x ≡ a⁻¹b (mod m). The inverse can be computed efficiently with the extended Euclidean algorithm. When the modulus is a prime p, every a that is not congruent to 0 modulo p has an inverse.",
+    "cites": [
+     28,
+     29,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Famous results",
+    "text": "Several theorems are stated in this language. Fermat's little theorem says that for a prime p that is not a divisor of a, aᵖ⁻¹ ≡ 1 (mod p). The Chinese remainder theorem says that for coprime m and n, the two conditions x ≡ a (mod m) and x ≡ b (mod n) have a single solution x modulo mn. Carl Friedrich Gauss developed this modular approach to number theory in Disquisitiones Arithmeticae, a book that appeared in 1801.",
+    "cites": [
+     2,
+     34,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "raji-ch3",
+   "kind": "book",
+   "title": "3: Congruences",
+   "by": "Wissam Raji",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Raji)/03%3A_Congruences",
+   "note": "A free textbook chapter on congruences modulo n: their rules, solving them, and the classic theorems built on them.",
+   "license": "CC BY"
+  },
+  {
+   "id": "veerman-ch5",
+   "kind": "book",
+   "title": "5: Modular Arithmetic and Primes",
+   "by": "J. J. P. Veerman",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/An_Introduction_to_Number_Theory_(Veerman)/05%3A_Modular_Arithmetic_and_Primes",
+   "note": "A free textbook chapter introducing modular arithmetic and how it connects to the primes.",
+   "license": "CC BY-NC"
+  }
+ ]
+}

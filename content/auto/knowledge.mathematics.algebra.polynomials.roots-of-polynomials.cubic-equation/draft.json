@@ -1,0 +1,226 @@
+{
+ "summary": [
+  {
+   "text": "A cubic equation can be solved algebraically by a formula that uses its four coefficients, the four basic arithmetic operations, square roots and cube roots.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "When an exact answer is not needed, root-finding algorithms such as Newton's method can approximate the roots numerically.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "In the early 16th century del Ferro found a method for a class of cubics, and a secret-keeping quarrel between Tartaglia and Cardano followed.",
+   "cites": [
+    26,
+    35,
+    37,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Formula ingredients",
+   "value": "Four coefficients, four operations, square roots and cube roots",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Ancient roots",
+   "value": "Known to Babylonians, Greeks, Chinese, Indians and Egyptians",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Oldest cubic problem",
+   "value": "Doubling the cube is the simplest and oldest studied cubic equation",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Tartaglia's contest",
+   "value": "Most problems solved within 30 days won all the money",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "label": "Negative square roots",
+   "value": "Cardano met them while using Tartaglia's method",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cubic equation has only fraction coefficients. What can you say about its solutions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some may be irrational, or even non-real complex numbers"
+    },
+    {
+     "id": "b",
+     "label": "They must be fractions too, like the coefficients"
+    },
+    {
+     "id": "c",
+     "label": "They must be whole numbers if the fractions are tidy"
+    },
+    {
+     "id": "d",
+     "label": "They must be real, though possibly decimals that never end"
+    }
+   ],
+   "answer": "a",
+   "explain": "The solutions need not belong to the same field as the coefficients. Some cubics with rational coefficients have irrational and even non-real complex roots.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "You need a rough value for a root of a cubic on a computer, and exactness does not matter. What is a sensible plan?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Search by hand for a pattern, since nothing else works"
+    },
+    {
+     "id": "b",
+     "label": "Try the quadratic formula, which also covers cubics"
+    },
+    {
+     "id": "c",
+     "label": "Run a root-finding method such as Newton's method"
+    },
+    {
+     "id": "d",
+     "label": "Wait until a formula gives the root to every digit"
+    }
+   ],
+   "answer": "c",
+   "explain": "Numerical approximations of the roots can be found with root-finding algorithms such as Newton's method.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "In a famous contest, one man got questions of a kind he had a general method for, and his rival got a harder kind. How did it end?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rival won, since the harder questions earned bonus money"
+    },
+    {
+     "id": "b",
+     "label": "The man with the method won; his rival could not solve his questions"
+    },
+    {
+     "id": "c",
+     "label": "It was a tie, since each solved the same number in 30 days"
+    },
+    {
+     "id": "d",
+     "label": "Neither finished, so the money was split between them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Tartaglia received questions he had worked out a general method for. Fior's questions proved too difficult for him, and Tartaglia won.",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "prompt": "Cardano's rival method sometimes forced a step needing the square root of a negative number. What did Cardano do with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He dropped those cases as impossible and moved on"
+    },
+    {
+     "id": "b",
+     "label": "He proved the step must always cancel out"
+    },
+    {
+     "id": "c",
+     "label": "He rewrote it with trigonometry, as Viète later did"
+    },
+    {
+     "id": "d",
+     "label": "He included a calculation with such numbers but did not really understand it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Cardano put a calculation with these complex numbers in Ars Magna without really understanding it. Bombelli later studied the issue in detail.",
+   "cites": [
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "prompt": "A friend says that since cubics have a formula, a similar formula must exist for every degree of equation. What is the catch?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Such formulas exist for quadratics, cubics and quartics, but not higher degrees"
+    },
+    {
+     "id": "b",
+     "label": "Formulas exist for every degree but get too long to write"
+    },
+    {
+     "id": "c",
+     "label": "It holds only when all coefficients are real numbers"
+    },
+    {
+     "id": "d",
+     "label": "Cubics are the last case, and quartics have no formula"
+    }
+   ],
+   "answer": "a",
+   "explain": "A formula with roots and arithmetic works for quadratic, cubic and quartic equations, but not for higher degrees.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Babylonian tablets with tables of cubes and cube roots exist. Does that prove the Babylonians solved cubic equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because the tables could only serve that purpose"
+    },
+    {
+     "id": "b",
+     "label": "No, the tables only suggest it; no evidence confirms they did"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because tablets show they solved the doubling-the-cube puzzle"
+    },
+    {
+     "id": "d",
+     "label": "No, since the Babylonians had no word for cubes"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Babylonians could have used the tables to solve cubic equations, but no evidence exists to confirm that they did.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ]
+}

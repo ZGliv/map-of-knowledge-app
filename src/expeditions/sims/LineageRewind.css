@@ -1,0 +1,36 @@
+/* Lineage-rewind sim. Scoped under .expedition-shell like the rest of the player. */
+.expedition-shell .rewind { max-width: 780px; border: 1px solid var(--rule); border-radius: 4px; padding: 10px 14px 14px; background: radial-gradient(120% 90% at 70% 0%, var(--panel), var(--deep)); }
+.expedition-shell .rewind__chart { display: block; width: 100%; max-width: 720px; margin: 0 auto; height: auto; overflow: visible; }
+.expedition-shell .rewind__when { fill: var(--bright); font: 26px var(--serif); font-variant-numeric: tabular-nums; }
+.expedition-shell .rewind__cursor { stroke: var(--pale); stroke-width: 1.5; stroke-dasharray: 3 5; opacity: .55; }
+.expedition-shell .rewind__line { stroke: var(--pale); stroke-width: 3.5; stroke-linecap: round; transition: stroke .4s; }
+.expedition-shell .rewind__line.is-path { stroke: var(--accent); stroke-width: 6; }
+.expedition-shell .rewind__range { stroke: var(--accent); stroke-width: 12; stroke-linecap: round; opacity: .18; }
+.expedition-shell .rewind__node { fill: var(--pale); stroke: var(--shade); stroke-width: 3; animation: xp-rise .3s ease-out; }
+.expedition-shell .rewind__node.is-focus { fill: var(--accent); }
+.expedition-shell .rewind__label text { fill: var(--accent); font: 600 22px var(--sans); paint-order: stroke; stroke: var(--deep); stroke-width: 6px; stroke-linejoin: round; animation: xp-rise .4s ease-out; }
+.expedition-shell .rewind__label text.is-date { fill: var(--secondary); font-weight: 400; }
+.expedition-shell .rewind__tip circle { fill: var(--line); stroke: var(--shade); stroke-width: 3; }
+.expedition-shell .rewind__tip text { fill: var(--text); font: 24px var(--serif); }
+.expedition-shell .rewind__tip.is-pair circle { fill: var(--accent); }
+.expedition-shell .rewind__tip.is-pair text { fill: var(--bright); }
+.expedition-shell .rewind__axis { stroke: var(--border); stroke-width: 2; }
+.expedition-shell .rewind__tick line { stroke: var(--border); stroke-width: 2; }
+.expedition-shell .rewind__tick text { fill: var(--muted); font: 20px var(--sans); }
+.expedition-shell .rewind__controls { display: flex; align-items: center; gap: 14px; margin-top: 8px; }
+.expedition-shell .rewind__play { min-width: 112px; min-height: 44px; padding: 11px 18px; border: 0; border-radius: 3px; background: var(--pale); color: var(--panel); font-weight: 600; }
+.expedition-shell .rewind__slider { flex: 1; }
+.expedition-shell .rewind__slider input { width: 100%; accent-color: var(--accent); min-height: 44px; }
+
+@media (max-width: 720px) {
+  .expedition-shell .rewind { padding: 8px 8px 12px; }
+  .expedition-shell .rewind__tip text { font-size: 28px; }
+  .expedition-shell .rewind__tick text { font-size: 26px; }
+  .expedition-shell .rewind__when { font-size: 32px; }
+  .expedition-shell .rewind__label text { font-size: 27px; }
+}
+
+/* On a phone the questions are about the chart, so the chart stays in view while they scroll beneath it. */
+@media (max-width: 720px) {
+  .expedition-shell .rewind { position: sticky; top: 60px; z-index: 5; background: var(--deep); }
+}

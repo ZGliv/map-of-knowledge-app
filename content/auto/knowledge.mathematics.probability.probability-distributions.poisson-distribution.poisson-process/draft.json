@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "A Poisson point process is a set of points randomly located on a space, with the essential feature that the points occur independently of one another.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The number of points in any bounded region is Poisson distributed, and the counts in disjoint regions are completely independent of each other.",
+   "cites": [
+    22,
+    24
+   ]
+  },
+  {
+   "text": "On the real line, the gaps between consecutive points are exponential with mean 1/λ, which suits arrivals of customers, phone calls and earthquakes.",
+   "cites": [
+    7,
+    40
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Rate λ",
+   "value": "Average number of points per unit of length, area or time",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Where discovered",
+   "value": "Radioactive decay, telephone calls and actuarial science",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Gap between points",
+   "value": "Exponential, with mean 1/λ",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Homogeneous kind",
+   "value": "Has a constant rate, also called stationary",
+   "cites": [
+    12,
+    27
+   ]
+  },
+  {
+   "label": "In the plane",
+   "value": "Can place transmitters, particles or trees",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Phone calls arrive at an exchange as a Poisson process of 2 per hour. What is the expected number in 3 hours?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "1.5"
+    }
+   ],
+   "answer": "a",
+   "explain": "In an interval of length t, the number of points is Poisson with mean λt, so 2 × 3 = 6.",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "prompt": "Customers arrive as a Poisson process. A busy hour from 9 to 10 tells you what about the number arriving from 11 to 12?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, as counts in disjoint intervals are independent"
+    },
+    {
+     "id": "b",
+     "label": "The count will be low, to make up for it"
+    },
+    {
+     "id": "c",
+     "label": "The count will be equally high, to match"
+    },
+    {
+     "id": "d",
+     "label": "The count will be exactly the same number"
+    }
+   ],
+   "answer": "a",
+   "explain": "The number of points in disjoint intervals are independent of each other.",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "prompt": "In a Poisson process on a timeline, which distribution describes the time between two consecutive arrivals?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A normal distribution around the average gap"
+    },
+    {
+     "id": "b",
+     "label": "A uniform spread between zero and one"
+    },
+    {
+     "id": "c",
+     "label": "A fixed gap that never varies"
+    },
+    {
+     "id": "d",
+     "label": "An exponential distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "The distance between consecutive points is an exponential random variable with mean 1/λ.",
+   "cites": [
+    31,
+    40
+   ]
+  },
+  {
+   "prompt": "An arrival has just happened in a Poisson process. Does that make another arrival come sooner or later than usual?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sooner, because arrivals tend to bunch together"
+    },
+    {
+     "id": "b",
+     "label": "Later, because arrivals need time to recover"
+    },
+    {
+     "id": "c",
+     "label": "No effect, since the points have the memoryless property"
+    },
+    {
+     "id": "d",
+     "label": "Impossible to say, as nothing is known about it"
+    }
+   ],
+   "answer": "c",
+   "explain": "The existence of one point does not affect the probability of other points existing: the memoryless property.",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "prompt": "Points are scattered over a region, but the average density of points depends on the location. What is such a process called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An inhomogeneous Poisson point process"
+    },
+    {
+     "id": "b",
+     "label": "A homogeneous Poisson point process"
+    },
+    {
+     "id": "c",
+     "label": "A stationary Poisson point process"
+    },
+    {
+     "id": "d",
+     "label": "A fully constant Poisson point process"
+    }
+   ],
+   "answer": "a",
+   "explain": "When the average density depends on location, the process is called inhomogeneous or nonhomogeneous.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "Which situation can a Poisson point process in the plane represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Days of the week in their fixed order"
+    },
+    {
+     "id": "b",
+     "label": "Locations of trees scattered in a forest"
+    },
+    {
+     "id": "c",
+     "label": "A single value that never changes"
+    },
+    {
+     "id": "d",
+     "label": "A list sorted from smallest to largest"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the plane, a spatial Poisson process can represent the locations of scattered objects such as trees in a forest.",
+   "cites": [
+    8
+   ]
+  }
+ ]
+}

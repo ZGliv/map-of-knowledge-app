@@ -1,0 +1,556 @@
+# Media candidates: genetics-meiosis
+
+All on the licence allowlist with no restrictions. ShareAlike files can only be shown whole (no cover, no documentary pan, no ink tone). CC BY files that are cropped must say "cropped" in the credit.
+
+- **File:Doryphoros MAN Napoli Inv6011 Schema-Contrapposto-chiasmo-ponderazione-Canone policleteo-Doriforo di Policleto.jpg** · CC BY-SA 4.0 · Marie-Lan Nguyen image; Paolo Villa diagrams with transparent background, up draw and write example of Contrapposto Doryphoros from Pompeii (anonymous roman copy after Polykleitos) · 2011 · 2050×4100
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Doryphoros_MAN_Napoli_Inv6011_Schema-Contrapposto-chiasmo-ponderazione-Canone_policleteo-Doriforo_di_Policleto.jpg/1280px-Doryphoros_MAN_Napoli_Inv6011_Schema-Contrapposto-chiasmo-ponderazione-Canone_policleteo-Doriforo_di_Policleto.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Doryphoros_MAN_Napoli_Inv6011_Schema-Contrapposto-chiasmo-ponderazione-Canone_policleteo-Doriforo_di_Policleto.jpg
+  - Doryphoros MAN Napoli Inv6011 Schema-Contrapposto-chiasmo-ponderazione-Canone policleteo-Doriforo di Policleto, Teaching cards with diagram
+- **File:Meiosis crossover.png** · CC BY-SA 3.0 · Boumphreyfr · 2009-06-02 · 360×275
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/87/Meiosis_crossover.png
+  - page: https://commons.wikimedia.org/wiki/File:Meiosis_crossover.png
+  - Meiosis: schematic diagram of Crossover
+- **File:Chiasma-ru.png** · CC BY-SA 3.0 · Antimoni Eruvanda - translated into Russian · 2013-02-17 · 164×69
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0c/Chiasma-ru.png
+  - page: https://commons.wikimedia.org/wiki/File:Chiasma-ru.png
+  - Chiasma.
+- **File:Chiasma.svg** · CC BY-SA 3.0 · Antimoni · 2007-10-16 · 164×69
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chiasma.svg/1280px-Chiasma.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Chiasma.svg
+  - Chiasma
+- **File:Janssens's theory of chiasmatype.jpg** · Public domain · Frans Alfons Janssens (1865–1924) · 1909 · 450×1800
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2f/Janssens%27s_theory_of_chiasmatype.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Janssens's_theory_of_chiasmatype.jpg
+  - Janssens's theory of chiasmatype.
+- **File:Crossover 2.jpg** · Public domain · MichelHamels at French Wikipedia · 18 March 2006 (original upload date) · 720×540
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/df/Crossover_2.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Crossover_2.jpg
+  - Description: Le processus de Crossing-over (Cycle cellulaire - méiose). Source: Dessin original. Auteur: Michel Hamels. Cette image est: librement diffusable à titre commercial ou non librement modifiable et l'image modifiée est elle-même librement modifiable et diffusable à titre commercial ou non.
+- **File:Chelipa.png** · CC BY-SA 4.0 · Alireza bidad · 2023-10-26 · 360×275
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/3a/Chelipa.png
+  - page: https://commons.wikimedia.org/wiki/File:Chelipa.png
+  - ناحیه کیاسما در فرآیند کراسینگ‌اور در یک کروموزوم همتا
+- **File:Diakinesis.jpg** · CC BY-SA 4.0 · Vallusruti · 2017-09-27 · 2304×4096
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Diakinesis.jpg/1280px-Diakinesis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Diakinesis.jpg
+  - Terminalization of chiasmata.
+- **File:Nematode Diagram of meiotic events during oogenesis in the C. elegans germ line.jpg** · CC BY 2.5 · Hillers K.J., Jantsch V., Martinez-Perez E., Yanowitz J.L · 2017-05-04 · 1800×1190
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Nematode_Diagram_of_meiotic_events_during_oogenesis_in_the_C._elegans_germ_line.jpg/1280px-Nematode_Diagram_of_meiotic_events_during_oogenesis_in_the_C._elegans_germ_line.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Nematode_Diagram_of_meiotic_events_during_oogenesis_in_the_C._elegans_germ_line.jpg
+  - Figure 1: Diagram of meiotic events during oogenesis in the C. elegans germ line. For simplicity, a single pair of homologous chromosomes is shown. DNA replication occurs at the onset of meiosis. During the transition zone in early meiotic prophase (leptotene and zygotene), homolog pairing is achiev
+- **File:Nematode C. elegans The hermaphrodite germ line contains a complete time course of meiotic prophase..jpg** · CC BY 2.5 · Hillers K.J., Jantsch V., Martinez-Perez E., Yanowitz J.L · 2017-05-04 · 1800×772
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nematode_C._elegans_The_hermaphrodite_germ_line_contains_a_complete_time_course_of_meiotic_prophase..jpg/1280px-Nematode_C._elegans_The_hermaphrodite_germ_line_contains_a_complete_time_course_of_meiotic_prophase..jpg
+  - page: https://commons.wikimedia.org/wiki/File:Nematode_C._elegans_The_hermaphrodite_germ_line_contains_a_complete_time_course_of_meiotic_prophase..jpg
+  - Figure 2: The hermaphrodite germ line contains a complete time course of meiotic prophase. Projection of a dissected, three-dimensionally intact hermaphrodite germ line stained with DAPI to visualize chromatin. Stages of meiotic prophase and magnification of a representative nucleus of each meiotic 
+- **File:VanBeneden-1883-2.jpg** · CC BY-SA 4.0 · Popocatomar · 2016-10-07 00:02:58 · 2399×1219
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/VanBeneden-1883-2.jpg/1280px-VanBeneden-1883-2.jpg
+  - page: https://commons.wikimedia.org/wiki/File:VanBeneden-1883-2.jpg
+  - Edouard van Beneden-Archives de Biologie-1883-Penetration of sperms into the oocyte of Ascaris megalocephala Top:Panels XI et XII, Some steps in the sperm's penetration Bottom:Panels XIV et XV, middle, Formation of the spindle; left, "ypsiliforme" figure
+- **File:VanBeneden-1883-1.jpg** · CC BY-SA 4.0 · Popocatomar · 2016-10-06 22:12:23 · 1637×932
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/VanBeneden-1883-1.jpg/1280px-VanBeneden-1883-1.jpg
+  - page: https://commons.wikimedia.org/wiki/File:VanBeneden-1883-1.jpg
+  - Edouard van Beneden-Archives de Biologie-1883-Spermatogenenesis in Ascaris megalocephala Top:Panel XIXter, 16-17, Two steps in the division of a spermatogony; 18, Two spermatocytes still linked; 19-20, Two spermatogemmes constituted of four spermatocytes each and showing in the middle the cytophore 
+- **File:August Weismann.jpg** · Public domain · Unknown authorUnknown author · 1147×1565
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/15/August_Weismann.jpg
+  - page: https://commons.wikimedia.org/wiki/File:August_Weismann.jpg
+  - August Weismann, German biologist.
+- **File:AugustWeismann.jpg** · Public domain · Linnean Society · 1908 · 686×1146
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/92/AugustWeismann.jpg
+  - page: https://commons.wikimedia.org/wiki/File:AugustWeismann.jpg
+  - August Weismann
+- **File:Prof. August Weismann Ruhestätte.JPG** · CC BY-SA 3.0 · Dr. med. Mabuse · 2012-03-03 · 3322×2992
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Prof._August_Weismann_Ruhest%C3%A4tte.JPG/1280px-Prof._August_Weismann_Ruhest%C3%A4tte.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Prof._August_Weismann_Ruhest%C3%A4tte.JPG
+  - Grave of Prof. August Weismann
+- **File:Weismann, August – Aufsätze über Vererbung und verwandte biologische Fragen, 1892 – BEIC 11801734.jpg** · Public domain · August Weismann · 1065×1716
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a2/Weismann%2C_August_%E2%80%93_Aufs%C3%A4tze_%C3%BCber_Vererbung_und_verwandte_biologische_Fragen%2C_1892_%E2%80%93_BEIC_11801734.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Weismann,_August_%E2%80%93_Aufs%C3%A4tze_%C3%BCber_Vererbung_und_verwandte_biologische_Fragen,_1892_%E2%80%93_BEIC_11801734.jpg
+  - Frontespizio
+- **File:Weismann's Germ Plasm.svg** · CC BY-SA 4.0 · Ian Alexander · 2017-08-31 · 1240×642
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Weismann%27s_Germ_Plasm.svg/1280px-Weismann%27s_Germ_Plasm.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Weismann's_Germ_Plasm.svg
+  - Diagram of August Weismann's germ plasm theory. The hereditary material, the germ plasm, is confined to the gonads. Somatic cells (of the body) develop afresh in each generation from the germ plasm.
+- **File:Joseph Kowarzik - Der Zoologe Geheimrat August Weismann.png** · Public domain · Joseph Kowarzik · circa 1904date QS:P,+1904-00-00T00:00:00Z/9,P1480,Q5727902 · 571×759
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/53/Joseph_Kowarzik_-_Der_Zoologe_Geheimrat_August_Weismann.png
+  - page: https://commons.wikimedia.org/wiki/File:Joseph_Kowarzik_-_Der_Zoologe_Geheimrat_August_Weismann.png
+  - Joseph Kowarzik - Der Zoologe Geheimrat August Weismann, c. 1904
+- **File:Weismann's Germ Plasm zh-hans.svg** · CC BY-SA 4.0 · 百战天虫 · 2017-08-31 · 1240×642
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Weismann%27s_Germ_Plasm_zh-hans.svg/1280px-Weismann%27s_Germ_Plasm_zh-hans.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Weismann's_Germ_Plasm_zh-hans.svg
+  - ​奥古斯特·魏斯曼种质理论的示意图。图中的遗传物质种质仅存在于体细胞，体细胞的每一代都从种质中重新发育。
+- **File:Weismann's Germ Plasm-es.svg** · CC BY-SA 4.0 · Ian Alexander De las modificaciones Senda1234 · 2023-03-22 · 1240×642
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Weismann%27s_Germ_Plasm-es.svg/1280px-Weismann%27s_Germ_Plasm-es.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Weismann's_Germ_Plasm-es.svg
+  - Diagram of August Weismann's germ plasm theory. The hereditary material, the germ plasm, is confined to the gonads. Somatic cells (of the body) develop afresh in each generation from the germ plasm.
+- **File:PSM V87 D107 August Wiseman.png** · Public domain · Unknown authorUnknown author · 1915 · 1587×2321
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/PSM_V87_D107_August_Wiseman.png/1280px-PSM_V87_D107_August_Wiseman.png
+  - page: https://commons.wikimedia.org/wiki/File:PSM_V87_D107_August_Wiseman.png
+  - August Wiseman
+- **File:Die Keimbahn.png** · CC BY-SA 4.0 · Ian Alexander, deutsche Beschriftung Sciencia58 · 2017-08-31 · 1240×786
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/7f/Die_Keimbahn.png
+  - page: https://commons.wikimedia.org/wiki/File:Die_Keimbahn.png
+  - Schematische Darstellung der Keimplasmatheorie von August Weismann. Das Erbgut, das Keimplasma, ist auf die Keimdrüsen beschränkt. Die somatischen Zellen (Körperzellen) entwickeln sich in jeder Generation neu aus dem Keimplasma und somit auch die Keimzellen der neuen Generation.
+- **File:Weismanntr.jpg** · CC BY-SA 4.0 · Locutor1234 · 2008-12-12 · 871×1184
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bd/Weismanntr.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Weismanntr.jpg
+  - Weismann experiment of cutting the queue to rats
+- **File:LA2-Blitz-0421.jpg** · Public domain · Anonymous · 1829×2843
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/LA2-Blitz-0421.jpg/1280px-LA2-Blitz-0421.jpg
+  - page: https://commons.wikimedia.org/wiki/File:LA2-Blitz-0421.jpg
+  - 
+- **File:L. I. Gardner, Molecular genetics... Wellcome L0000560.jpg** · CC BY 4.0 · unknown · 1120×1694
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f0/L._I._Gardner%2C_Molecular_genetics..._Wellcome_L0000560.jpg
+  - page: https://commons.wikimedia.org/wiki/File:L._I._Gardner,_Molecular_genetics..._Wellcome_L0000560.jpg
+  - اوغست وايزمان
+- **File:We Can Do It!.jpg** · Public domain · J. Howard Miller (1898–1985), artist employed by Westinghouse, poster used by the War Production Co-ordinating Committee · 1942date QS:P571,+1942-00-00T00:00:00Z/9 · 1000×1294
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/12/We_Can_Do_It%21.jpg
+  - page: https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg
+  - "We Can Do It!" poster for Westinghouse, closely associated with Rosie the Riveter, although not a depiction of the cultural icon itself. Model may be Geraldine Doyle (1924-2010) or Naomi Parker (1921-2018).
+- **File:Houston, We Have a Problem! official movie poster.jpg** · CC BY-SA 3.0 · Studio Virc · 2016-04-16 · 2100×3000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Houston%2C_We_Have_a_Problem%21_official_movie_poster.jpg/1280px-Houston%2C_We_Have_a_Problem%21_official_movie_poster.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Houston,_We_Have_a_Problem!_official_movie_poster.jpg
+  - Houston, We Have a Problem! official movie poster
+- **File:Kasyno Szlacheckie we Lwowie (1).jpg** · CC BY-SA 4.0 · Pudelek · 2019-04-08 13:32:12 · 3711×2440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Kasyno_Szlacheckie_we_Lwowie_%281%29.jpg/1280px-Kasyno_Szlacheckie_we_Lwowie_%281%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Kasyno_Szlacheckie_we_Lwowie_(1).jpg
+  - House of scientists, Lviv, Ukraine
+- **File:SteffiWeismann-CallingVictoria.jpg** · CC BY-SA 3.0 · Comaberlin · 2003-08 · 720×576
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/03/SteffiWeismann-CallingVictoria.jpg
+  - page: https://commons.wikimedia.org/wiki/File:SteffiWeismann-CallingVictoria.jpg
+  - Solo-Performance Calling Victoria by Steffi Weismann
+- **File:We Can Do It! NARA 535413 - Restoration 2.jpg** · Public domain · J. Howard Miller · between circa 1942 and circa 1943date QS:P571,+1942-00-00T00:00:00Z/8,P1319,+1942-00-00T00:00:00Z/9,P1326,+1943-00-00T00:00:00Z/9,P1480,Q5727902 · 6782×8784
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/We_Can_Do_It%21_NARA_535413_-_Restoration_2.jpg/1280px-We_Can_Do_It%21_NARA_535413_-_Restoration_2.jpg
+  - page: https://commons.wikimedia.org/wiki/File:We_Can_Do_It!_NARA_535413_-_Restoration_2.jpg
+  - General notes: Use War and Conflict Number 798 when ordering a reproduction or requesting information about this image.
+- **File:2013 Weismann MF4 GT (14761018080).jpg** · CC BY 2.0 · Kieran White from Manchester, England · 2014-08-17 10:17 · 3072×1728
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/2013_Weismann_MF4_GT_%2814761018080%29.jpg/1280px-2013_Weismann_MF4_GT_%2814761018080%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:2013_Weismann_MF4_GT_(14761018080).jpg
+  - 2013 Weismann MF4 GT
+- **File:2013 Weismann MF4 GT (14761814777).jpg** · CC BY 2.0 · Kieran White from Manchester, England · 2014-08-17 10:18 · 3072×1728
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/2013_Weismann_MF4_GT_%2814761814777%29.jpg/1280px-2013_Weismann_MF4_GT_%2814761814777%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:2013_Weismann_MF4_GT_(14761814777).jpg
+  - 2013 Weismann MF4 GT
+- **File:Rose O'Neill - When We All Believe (Santa Claus and children illustration from the 1903 December 2 issue of Puck).jpg** · Public domain · Adam Cuerden · 1903 · 7696×5152
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rose_O%27Neill_-_When_We_All_Believe_%28Santa_Claus_and_children_illustration_from_the_1903_December_2_issue_of_Puck%29.jpg/1280px-Rose_O%27Neill_-_When_We_All_Believe_%28Santa_Claus_and_children_illustration_from_the_1903_December_2_issue_of_Puck%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Rose_O'Neill_-_When_We_All_Believe_(Santa_Claus_and_children_illustration_from_the_1903_December_2_issue_of_Puck).jpg
+  - "When We All Believe", a chromolithograph by Rose O'Neill. The illustration shows many children gathered around Santa Claus and his bag of toys.
+- **File:Nematode C. elegans Anatomy Relating to the Control of Meiotic Maturation.jpg** · CC BY 2.5 · Greenstein, D. · 2005-09-01 · 1800×2281
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Nematode_C._elegans_Anatomy_Relating_to_the_Control_of_Meiotic_Maturation.jpg/1280px-Nematode_C._elegans_Anatomy_Relating_to_the_Control_of_Meiotic_Maturation.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Nematode_C._elegans_Anatomy_Relating_to_the_Control_of_Meiotic_Maturation.jpg
+  - Figure 2. Anatomy Relating to the Control of Meiotic Maturation. (A) Representation of the adult hermaphrodite gonad. The anterior arm (on the left) shows the germ line and the posterior arm (on the right) shows the somatic cells of the gonad arm. Ten gonadal sheath cells cover the gonad arm. The po
+- **File:Figure 11 02 02.jpg** · CC BY 4.0 · CNX OpenStax · 2016-05-27 · 1042×719
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f2/Figure_11_02_02.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Figure_11_02_02.jpg
+  - Fungi, such as black bread mold (Rhizopus nigricans), have haploid-dominant life cycles. The haploid multicellular stage produces specialized haploid cells by mitosis that fuse to form a diploid zygote. The zygote undergoes meiosis to produce haploid spores. Each spore gives rise to a multicellular 
+- **File:Barbara McClintock (1902-1992) shown in her laboratory in 1947.jpg** · Public domain · Smithsonian Institution/Science Service; Restored by Adam Cuerden · 1947 · 1833×1500
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/1280px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg
+  - Barbara McClintock (1902-1992), Department of Genetics, Carnegie Institution at Cold Spring Harbor, New York, shown in her laboratory. This photograph was distributed when McClintock received the American Association of University Women Achievement Award in 1947 for her work on cytogenetics. (From h
+- **File:Barbara McClintock - Bizilabe.png** · CC BY-SA 3.0 · Bizilabe - Elhuyar Fundazioa · 2021-02-11 · 543×768
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c9/Barbara_McClintock_-_Bizilabe.png
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_-_Bizilabe.png
+  - Barbara McClintock - Bizilabe
+- **File:Barbara McClintock.jpeg** · Public domain · Unknown authorUnknown author · 1910sdate QS:P,+1910-00-00T00:00:00Z/8 · 667×667
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/1e/Barbara_McClintock.jpeg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock.jpeg
+  - Crop of a family photo to show only Barbara McClintock
+- **File:McClintock Nobel Lecture.jpg** · Public domain · Unknown authorUnknown author · 1983-12-08 · 2960×2072
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/McClintock_Nobel_Lecture.jpg/1280px-McClintock_Nobel_Lecture.jpg
+  - page: https://commons.wikimedia.org/wiki/File:McClintock_Nobel_Lecture.jpg
+  - McClintock giving her Nobel Lecture at Karolinska Institute in Stockholm during the week of the Nobel Prize ceremony.
+- **File:Barbara McClintock (1902-1992) shown in her laboratory in 1947.png** · Public domain · Smithsonian Institution; Restored by Adam Cuerden · 1947 · 1833×1500
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.png/1280px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.png
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.png
+  - Barbara McClintock (1902-1992), Department of Genetics, Carnegie Institution at Cold Spring Harbor, New York, shown in her laboratory. This photograph was distributed when McClintock received the American Association of University Women Achievement Award in 1947 for her work on cytogenetics. (From S
+- **File:McClintock family 1907.jpg** · Public domain · Unknown authorUnknown author · circa 1907date QS:P,+1907-00-00T00:00:00Z/9,P1480,Q5727902 · 3663×1640
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/McClintock_family_1907.jpg/1280px-McClintock_family_1907.jpg
+  - page: https://commons.wikimedia.org/wiki/File:McClintock_family_1907.jpg
+  - From left to right: Mignon, Malcolm Rider "Tom", Barbara, and Marjorie
+- **File:McClintock family.jpg** · Public domain · Unknown authorUnknown author · 1910sdate QS:P,+1910-00-00T00:00:00Z/8 · 3788×2780
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/McClintock_family.jpg/1280px-McClintock_family.jpg
+  - page: https://commons.wikimedia.org/wiki/File:McClintock_family.jpg
+  - From left to right: Mignon, Malcolm Rider "Tom", Barbara, Marjorie, and Sara (at the piano)
+- **File:Barbara McClintock (1902-1992) shown in her laboratory in 1947 - Original.jpg** · Public domain · Smithsonian Institution · 1947 · 2000×1544
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947_-_Original.jpg/1280px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947_-_Original.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947_-_Original.jpg
+  - Barbara McClintock (1902-1992), Department of Genetics, Carnegie Institution at Cold Spring Harbor, New York, shown in her laboratory. This photograph was distributed when McClintock received the American Association of University Women Achievement Award in 1947 for her work on cytogenetics. (From S
+- **File:McClintock Nobel Lecture crop.jpeg** · Public domain · Unknown authorUnknown author · 8 December 1983 (original) · 234×301
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/45/McClintock_Nobel_Lecture_crop.jpeg
+  - page: https://commons.wikimedia.org/wiki/File:McClintock_Nobel_Lecture_crop.jpeg
+  - McClintock giving her Nobel Lecture at Karolinska Institute in Stockholm during the week of the Nobel Prize ceremony.
+- **File:Barbara McClintock (1902-1992) shown in her laboratory in 1947 (cropped).jpg** · Public domain · Smithsonian Institution/Science Service; Restored by Adam Cuerden · 1947 · 621×892
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/cd/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947_(cropped).jpg
+  - Barbara McClintock (1902-1992), Department of Genetics, Carnegie Institution at Cold Spring Harbor, New York, shown in her laboratory. This photograph was distributed when McClintock received the American Association of University Women Achievement Award in 1947 for her work on cytogenetics. (From h
+- **File:McClintock.jpg** · CC BY-SA 4.0 · Cristian472735 · 2022-05-05 · 1525×1853
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/McClintock.jpg/1280px-McClintock.jpg
+  - page: https://commons.wikimedia.org/wiki/File:McClintock.jpg
+  - Barbara McClintock con uno de sus resultados
+- **File:Barbara McClintock Hall, Cornell University.jpg** · CC BY-SA 4.0 · Kenneth C. Zirkel · 2023-06-24 20:07:28 · 3600×2767
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Barbara_McClintock_Hall%2C_Cornell_University.jpg/1280px-Barbara_McClintock_Hall%2C_Cornell_University.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_Hall,_Cornell_University.jpg
+  - Barbara McClintock Hall, Cornell University, Ithaca, New York. Part of the 2022 North Campus Residential Expansion (NCRE). ikon.5 Architects.
+- **File:Adlershof Barbara-McClintock-Straße.jpg** · CC BY-SA 3.0 · Fridolin freudenfett (Peter Kuley) · 2012-03-17 · 3264×2448
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Adlershof_Barbara-McClintock-Stra%C3%9Fe.jpg/1280px-Adlershof_Barbara-McClintock-Stra%C3%9Fe.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Adlershof_Barbara-McClintock-Stra%C3%9Fe.jpg
+  - Berlin-Adlershof Barbara-McClintock-Straße
+- **File:Barbara-McClintock-Straße 20140524 8.jpg** · CC BY-SA 3.0 · Srittau · 2014-05-24 17:50:25 · 4399×2933
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Barbara-McClintock-Stra%C3%9Fe_20140524_8.jpg/1280px-Barbara-McClintock-Stra%C3%9Fe_20140524_8.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara-McClintock-Stra%C3%9Fe_20140524_8.jpg
+  - Barbara-McClintock-Straße
+- **File:Barbara McClintock (signature).svg** · Public domain · Barbara McClintock · 2013-01-18 11:48:40 · 155×32
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Barbara_McClintock_%28signature%29.svg/1280px-Barbara_McClintock_%28signature%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(signature).svg
+  - Signature of Barbara McClintock. Traced from bitmap using Inkscape.
+- **File:Jun16 Woman of the Day.png** · CC BY-SA 3.0 · Victuallers, Smithsonian Institution/Science Service, and the authors of en:Barbara McClintock · 2017-06-12 · 1500×500
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jun16_Woman_of_the_Day.png/1280px-Jun16_Woman_of_the_Day.png
+  - page: https://commons.wikimedia.org/wiki/File:Jun16_Woman_of_the_Day.png
+  - these are twitter banners made by me and using en:wiki screenshots
+- **File:Barbara Mc Clintock en Grandes Mujeres de Chicas en Tecnología.jpg** · CC BY-SA 4.0 · Chicas En Tecnología · 2017-11-01 · 1080×1080
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a2/Barbara_Mc_Clintock_en_Grandes_Mujeres_de_Chicas_en_Tecnolog%C3%ADa.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_Mc_Clintock_en_Grandes_Mujeres_de_Chicas_en_Tecnolog%C3%ADa.jpg
+  - Ilustración de #GrandesMujeres realizada por Martina Scapola (instagram.com/luaailustrada) para Chicas en Tecnología (www.chicasentecnologia.org), ONG destinada a cerrar la brecha de género en tecnología.
+- **File:Corn mosaic.jpg** · Public domain · Barbara McClintock · 1951 · 392×506
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/1c/Corn_mosaic.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Corn_mosaic.jpg
+  - The relationship of Ac/Ds in the control of the elements and mosaic color of maize. The seed in 10 is colorless, there is no Ac element present and Ds inhibits the synthesis of colored pigments called anthocyanins. In 11 to 13, one copy of Ac is present. Ds can move and some anthocyanin is produced,
+- **File:Barbara McClintock for Women's History Month.jpg** · CC0 · Wikimedia Foundation · 2017-03-16 · 1466×1466
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Barbara_McClintock_for_Women%27s_History_Month.jpg/1280px-Barbara_McClintock_for_Women%27s_History_Month.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Barbara_McClintock_for_Women's_History_Month.jpg
+  - A public domain photo of scientist Barbara McClintock underneath an overlay of the I (Heart) Women's History Facebook frame.
+- **File:Corn and microscope.jpg** · Public domain · The original uploader was PDH at English Wikipedia.; Original Repository and creator: Smithsonian Institution. National Museum of American History · 1995 · 438×545
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a2/Corn_and_microscope.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Corn_and_microscope.jpg
+  - Photograph of Barbara McClintock's ears of corn (five) and a Bausch &amp; Lomb KW Wide Field Binocular Microscope.
+- **File:Lowchen puppies color.jpg** · CC BY-SA 4.0 · Jk9dat · 2020-03-20 11:32:43 · 3024×4032
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Lowchen_puppies_color.jpg/1280px-Lowchen_puppies_color.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Lowchen_puppies_color.jpg
+  - This photo represents the different colors of lowchens that can appear in a single litter.
+- **File:Oregon National Historic Trail in Wyoming.jpg** · Public domain · Bureau of Land Management · 2010-09-14 06:53 · 4097×3198
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Oregon_National_Historic_Trail_in_Wyoming.jpg/1280px-Oregon_National_Historic_Trail_in_Wyoming.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Oregon_National_Historic_Trail_in_Wyoming.jpg
+  - Section of the Oregon Trail Blue Mountain Crossing Segment — of the pioneer [[:en:Oregon Trail|Oregon Trail]] in [[:en:Wyoming|Wyoming]]. Protected within a Bureau of Land Management area in Wyoming. Oregon National Historic Trail The incredible image — National historic trails can take us back, ret
+- **File:Equidae E. africanus asinus x E. ferus caballus (Mule).jpg** · CC BY-SA 4.0 · NasserHalaweh · 2017-09-20 12:31:19 · 1933×2577
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Equidae_E._africanus_asinus_x_E._ferus_caballus_%28Mule%29.jpg/1280px-Equidae_E._africanus_asinus_x_E._ferus_caballus_%28Mule%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Equidae_E._africanus_asinus_x_E._ferus_caballus_(Mule).jpg
+  - Equus africanus asinus x Equus ferus caballus MULE. Golden Donkeys Farm in Skarinou village, Cyprus.
+- **File:Juancito.jpg** · Public domain · w:User:Dario u / User:Dario urruty · 2006-02 · 1486×1245
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Juancito.jpg/1280px-Juancito.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Juancito.jpg
+  - Juancito (officially called Remonta Inesperado), which the photographer calls the best mule of Argentina, on an excursion on the Mitre Peninsula, in Tierra del Fuego, Argentina. In the background are the remains of the SV Duchess of Albany, shipwrecked in 1893. Photograph taken in February 2006.
+- **File:Chestnut mule Israel.jpg** · CC BY-SA 3.0 · SuperJew · 2007-08-15 · 713×1109
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/33/Chestnut_mule_Israel.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Chestnut_mule_Israel.jpg
+  - A Chestnut Mule (Equus ferus caballus) in Israel.
+- **File:Mule (1).jpg** · CC BY 2.5 · Sogospelman at English Wikipedia · 29 October 2006 (original upload date) · 1932×2576
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Mule_%281%29.jpg/1280px-Mule_%281%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mule_(1).jpg
+  - A mule in rural NE Oklahoma一直打一直打https://www.google.com.tw/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;cad=rja&amp;uact=8&amp;docid=6p7VcQaKdL1M2M&amp;tbnid=-ruN28JBNkqCaM:&amp;ved=0CAUQjRw&amp;url=http%3A%2F%2Fbbs.tiexue.net%2Fpost_4238220_1.html&amp;ei=puNYU6ucHMTQkwW27YCQBQ
+- **File:Mule in Santorini.jpg** · CC0 · Anthony Baratier · 2024-04-13 12:24:50 · 3000×2400
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Mule_in_Santorini.jpg/1280px-Mule_in_Santorini.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mule_in_Santorini.jpg
+  - Autrefois, les ânes et les mules étaient utilisés pour remonter les livraisons des bateaux depuis le port pour ravitailler l'île. Aujourd'hui, les ânes et les mules sont contraints de transporter des touristes en gravissant les 588 marches pour relier le centr̠e-ville de Fira.
+- **File:Catharine mule arabe issue de Barbe.jpg** · Public domain · Unknown authorUnknown author · 1894-01-01 · 1665×1431
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Catharine_mule_arabe_issue_de_Barbe.jpg/1280px-Catharine_mule_arabe_issue_de_Barbe.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Catharine_mule_arabe_issue_de_Barbe.jpg
+  - Catharine, mule arabe de 25 ans, issue d'un croisement entre le Barbe et l'âne local.
+- **File:Molly Mule.jpg** · CC0 · Opittman · 05/12/2024 · 1365×2048
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Molly_Mule.jpg/1280px-Molly_Mule.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Molly_Mule.jpg
+  - Black molly mule
+- **File:Mule and Skyros ponies.jpg** · CC BY-SA 4.0 · Meltedrainbow · 2014-08-23 16:20:21 · 1964×2536
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Mule_and_Skyros_ponies.jpg/1280px-Mule_and_Skyros_ponies.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mule_and_Skyros_ponies.jpg
+  - Mule and Skyros ponies
+- **File:Stranded mules during the Uttarakhand Floods of 2013 as encountered by People for Animals during a rescue operation.jpg** · CC BY-SA 4.0 · Pulakit Singh · 2013-07-21 14:38:06 · 4472×3354
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Stranded_mules_during_the_Uttarakhand_Floods_of_2013_as_encountered_by_People_for_Animals_during_a_rescue_operation.jpg/1280px-Stranded_mules_during_the_Uttarakhand_Floods_of_2013_as_encountered_by_People_for_Animals_during_a_rescue_operation.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Stranded_mules_during_the_Uttarakhand_Floods_of_2013_as_encountered_by_People_for_Animals_during_a_rescue_operation.jpg
+  - Even after stranded people had been rescued, the authorities left thousands of animals to fend for themselves on isolated pockets in the mountains surrounded by deadly landslides or treacherous currents. These animals were raised by humans and did not know how to fend for themselves once the disaste
+- **File:Zentralbibliothek Zürich - Maultiere - 991018347849705501.jpg** · Public domain · Robert Breitinger · 1891 · 4393×3649
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Zentralbibliothek_Z%C3%BCrich_-_Maultiere_-_991018347849705501.jpg/1280px-Zentralbibliothek_Z%C3%BCrich_-_Maultiere_-_991018347849705501.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Maultiere_-_991018347849705501.jpg
+  - Maultiere: Zwei Männer mit Maultieren auf einem Bergpfad unterhalb eines Wasserfalls vom Brummbach
+- **File:Mule heart.jpg** · CC BY-SA 4.0 · Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva · 2015-12-10 08:04 · 2476×3698
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Mule_heart.jpg/1280px-Mule_heart.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mule_heart.jpg
+  - Mule heart. Equus Technique of latex injection and formalin fixation on display at the Museum of Veterinary Anatomy, FMVZ USP. This file was published as the result of a partnership between the Museum of Veterinary Anatomy FMVZ USP, the RIDC NeuroMat and the Wikimedia Community User Group Brasil. Th
+- **File:Mules Alpujarras may 1999 06.jpg** · CC BY-SA 4.0 · Smiley.toerist · 1999-05 · 1493×2599
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Mules_Alpujarras_may_1999_06.jpg/1280px-Mules_Alpujarras_may_1999_06.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mules_Alpujarras_may_1999_06.jpg
+  - Muilezels op de bergpaden
+- **File:Mules Lindos.jpg** · CC BY-SA 3.0 · Elgaard · 1 August 2002 (according to Exif data) · 926×888
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/dc/Mules_Lindos.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mules_Lindos.jpg
+  - Two Mules at Lindos, Greece
+- **File:Mule deer buck full-face.jpg** · CC BY 3.0 · Dcrjsr · 2012-01-01 · 2560×1700
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Mule_deer_buck_full-face.jpg/1280px-Mule_deer_buck_full-face.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mule_deer_buck_full-face.jpg
+  - A mule deer buck (Odocoileus hemionus) in full-face view, getting ready to walk away. Swall Meadows, Mono County, California, USA.
+- **File:The Smiling Mule - geograph.org.uk - 4963971.jpg** · CC BY-SA 2.0 · Ian S · 2016-05-20 · 1065×1600
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c9/The_Smiling_Mule_-_geograph.org.uk_-_4963971.jpg
+  - page: https://commons.wikimedia.org/wiki/File:The_Smiling_Mule_-_geograph.org.uk_-_4963971.jpg
+  - The Smiling Mule
+- **File:Delivery by mule in Medina of Fez.jpg** · CC BY-SA 4.0 · Subotai85 · Taken on 29 February 2020, 10:50:26 · 4032×3024
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Delivery_by_mule_in_Medina_of_Fez.jpg/1280px-Delivery_by_mule_in_Medina_of_Fez.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Delivery_by_mule_in_Medina_of_Fez.jpg
+  - In the city of Fez, Morocco, the circulation of cars in the Medina is prohibited, so all delivery in this region must be made by mules or cars.
+- **File:CGMCG Wagon and Mule Team.jpg** · Public domain · SPC Daniela Lechuga · 2023-05-27 · 704×470
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/af/CGMCG_Wagon_and_Mule_Team.jpg
+  - page: https://commons.wikimedia.org/wiki/File:CGMCG_Wagon_and_Mule_Team.jpg
+  - CGMCG Wagon Master and Swamper staging for the Omaha, NE Patriot Day Parade
+- **File:Don Quixote and the Dead Mule MET EP1036.jpg** · CC0 · Honoré Daumier · after 1864date QS:P571,+1864-00-00T00:00:00Z/7,P1319,+1864-00-00T00:00:00Z/9 · 1992×1080
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Don_Quixote_and_the_Dead_Mule_MET_EP1036.jpg/1280px-Don_Quixote_and_the_Dead_Mule_MET_EP1036.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Don_Quixote_and_the_Dead_Mule_MET_EP1036.jpg
+  - 
+- **File:Mule - Katır 2.JPG** · CC BY-SA 4.0 · Zeynel Cebeci · 2014-08-17 14:13:53 · 4061×2640
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mule_-_Kat%C4%B1r_2.JPG/1280px-Mule_-_Kat%C4%B1r_2.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Mule_-_Kat%C4%B1r_2.JPG
+  - A grazing mule (Equus asinus ♂ x Equus caballus ♀). Zeybekler, Mezitli - Mersin, TR.
+- **File:Santorin (GR), Fira, Esel -- 2017 -- 2563.jpg** · CC BY-SA 4.0 · Dietmar Rabich · Taken on 25 September 2017, 10:41 · 5472×3648
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Santorin_%28GR%29%2C_Fira%2C_Esel_--_2017_--_2563.jpg/1280px-Santorin_%28GR%29%2C_Fira%2C_Esel_--_2017_--_2563.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Fira,_Esel_--_2017_--_2563.jpg
+  - Donkeys in Fira, Santorini, Greece
+- **File:Mule - Katır 1.JPG** · CC BY-SA 4.0 · Zeynel Cebeci · 2014-08-17 14:13:41 · 4001×2538
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mule_-_Kat%C4%B1r_1.JPG/1280px-Mule_-_Kat%C4%B1r_1.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Mule_-_Kat%C4%B1r_1.JPG
+  - A mule (Equus asinus ♂ x Equus caballus ♀). Zeybekler, Mezitli - Mersin, TR.
+- **File:Navajo Nation Mule 9-15 (21800633621).jpg** · CC BY-SA 2.0 · Don Graham from Redlands, CA, USA - God bless it! · 2015-09-22 08:51 · 1883×2100
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Navajo_Nation_Mule_9-15_%2821800633621%29.jpg/1280px-Navajo_Nation_Mule_9-15_%2821800633621%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Navajo_Nation_Mule_9-15_(21800633621).jpg
+  - (1 in a multiple picture album) Among the herd we found north of Bitter Spring on the Navajo Nation was this pretty mule. Some mountain men and explorers preferred mules to horse. They said they were stronger and smarter.
+- **File:Maultier Namibia Outpost 5.jpg** · CC BY-SA 4.0 · Hp.Baumeler · 2018-10-19 10:47:30 · 5472×3648
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Maultier_Namibia_Outpost_5.jpg/1280px-Maultier_Namibia_Outpost_5.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Maultier_Namibia_Outpost_5.jpg
+  - Maultier in Namibia Outpost
+- **File:Animals on the Home Front, 1914-1918 Q30917.jpg** · Public domain · Horace Nicholls · (First World War) · 800×577
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bc/Animals_on_the_Home_Front%2C_1914-1918_Q30917.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Animals_on_the_Home_Front,_1914-1918_Q30917.jpg
+  - Animals on the Home Front, 1914-1918 A female trainer taking a mule over the hurdles.
+- **File:Brachystola magna 250415191.jpg** · CC BY 4.0 · Pirataber · 2022-10-01 · 2048×1535
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Brachystola_magna_250415191.jpg/1280px-Brachystola_magna_250415191.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_250415191.jpg
+  - Plains Lubber Grasshopper (Brachystola magna)
+- **File:Brachystola magna P1320587a.jpg** · CC BY-SA 4.0 · xpda · 16 September 2012 · 4592×3448
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Brachystola_magna_P1320587a.jpg/1280px-Brachystola_magna_P1320587a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_P1320587a.jpg
+  - Brachystola magna, plains lubber grasshopper, Size: big, ID Confidence: 87
+- **File:Brachystola magna P1310486a.jpg** · CC BY-SA 4.0 · xpda · 10 September 2012 · 4119×3352
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Brachystola_magna_P1310486a.jpg/1280px-Brachystola_magna_P1310486a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_P1310486a.jpg
+  - Brachystola magna, plains lubber grasshopper, ID Confidence: 87
+- **File:Brachystola magna P1100139a.jpg** · CC BY-SA 4.0 · xpda · 6 June 2012 · 2016×2392
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Brachystola_magna_P1100139a.jpg/1280px-Brachystola_magna_P1100139a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_P1100139a.jpg
+  - Brachystola magna, plains lubber grasshopper, ID Confidence: 98
+- **File:Brachystola magna P1100155a.jpg** · CC BY-SA 4.0 · xpda · 6 June 2012 · 1997×2382
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Brachystola_magna_P1100155a.jpg/1280px-Brachystola_magna_P1100155a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_P1100155a.jpg
+  - Brachystola magna, plains lubber grasshopper, ID Confidence: 87
+- **File:Brachystola magna P1310423a.jpg** · CC BY-SA 4.0 · xpda · 10 September 2012 · 3881×2837
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Brachystola_magna_P1310423a.jpg/1280px-Brachystola_magna_P1310423a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_P1310423a.jpg
+  - Brachystola magna, plains lubber grasshopper, ID Confidence: 87
+- **File:Plains Luber Grasshopper (Acrididae, Brachystola magna) (29609413005).jpg** · CC0 · Insects Unlocked · 2016-09-04 09:43 · 5184×3912
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Plains_Luber_Grasshopper_%28Acrididae%2C_Brachystola_magna%29_%2829609413005%29.jpg/1280px-Plains_Luber_Grasshopper_%28Acrididae%2C_Brachystola_magna%29_%2829609413005%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Plains_Luber_Grasshopper_(Acrididae,_Brachystola_magna)_(29609413005).jpg
+  - USA, TX, Jeff Davis Co.: Fort Davis Davis Mountains State Park 4-ix-2016
+- **File:Brachystola magna 306324032.jpg** · CC0 · Dustin Cotten · 2023-08-01 · 1536×2048
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Brachystola_magna_306324032.jpg/1280px-Brachystola_magna_306324032.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_306324032.jpg
+  - Plains Lubber Grasshopper (Brachystola magna)
+- **File:Brachystola magna 228181782.jpg** · CC BY 4.0 · jimeckert49 · 2022-08-02 · 600×430
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6f/Brachystola_magna_228181782.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_magna_228181782.jpg
+  - Plains Lubber Grasshopper (Brachystola magna)
+- **File:Brachystola Magna.jpg** · Public domain · Marco Zanola · 2010-08-06 · 1600×1071
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Brachystola_Magna.jpg/1280px-Brachystola_Magna.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Brachystola_Magna.jpg
+  - A grasshopper (Brachystola magna shown) feeding on a plant. On the central and southern Great Plains, individuals reach their largest size, and are more often (especially females) predominantly green. In the Southwest they tend to be smaller, more varied in coloration, but most often predominantly b
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (9-20-10) patagonia lake st park, scc, az -01 (5010024472).jpg** · CC0 · ALAN SCHMIERER · 2010-09-20 09:22:17 · 3444×2540
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-20-10%29_patagonia_lake_st_park%2C_scc%2C_az_-01_%285010024472%29.jpg/1280px-GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-20-10%29_patagonia_lake_st_park%2C_scc%2C_az_-01_%285010024472%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(9-20-10)_patagonia_lake_st_park,_scc,_az_-01_(5010024472).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (9-2-12) 78 circulo montana, patagonia lake ranch estates, scc, az -02 (7918152838).jpg** · CC0 · ALAN SCHMIERER · 2012-09-02 09:13:33 · 3000×2000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-02_%287918152838%29.jpg/1280px-GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-02_%287918152838%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(9-2-12)_78_circulo_montana,_patagonia_lake_ranch_estates,_scc,_az_-02_(7918152838).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (9-2-12) 78 circulo montana, patagonia lake ranch estates, scc, az -01 (7918155776).jpg** · CC0 · ALAN SCHMIERER · 2012-09-02 09:14:48 · 2345×1640
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-01_%287918155776%29.jpg/1280px-GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-01_%287918155776%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(9-2-12)_78_circulo_montana,_patagonia_lake_ranch_estates,_scc,_az_-01_(7918155776).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (9-2-12) 78 circulo montana, patagonia lake ranch estates, scc, az -04 (7918146498).jpg** · CC0 · ALAN SCHMIERER · 2012-09-02 09:15:03 · 2345×1563
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-04_%287918146498%29.jpg/1280px-GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-04_%287918146498%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(9-2-12)_78_circulo_montana,_patagonia_lake_ranch_estates,_scc,_az_-04_(7918146498).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (9-2-12) 78 circulo montana, patagonia lake ranch estates, scc, az -03 (7918148990).jpg** · CC0 · ALAN SCHMIERER · 2012-09-02 09:14:15 · 2345×1685
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-03_%287918148990%29.jpg/1280px-GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%289-2-12%29_78_circulo_montana%2C_patagonia_lake_ranch_estates%2C_scc%2C_az_-03_%287918148990%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(9-2-12)_78_circulo_montana,_patagonia_lake_ranch_estates,_scc,_az_-03_(7918148990).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (8-10-10) fem, yard, west of patagonia, scc, az -02 (9-17-10) 78 circulo montana, pat lake ranch estates, scc, az -02 (4999273243).jpg** · CC0 · ALAN SCHMIERER · 2010-09-17 09:43:56 · 3080×2800
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%288-10-10%29_fem%2C_yard%2C_west_of_patagonia%2C_scc%2C_az_-02_%289-17-10%29_78_circulo_montana%2C_pat_lake_ranch_estates%2C_scc%2C_az_-02_%284999273243%29.jpg/1280px-thumbnail.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(8-10-10)_fem,_yard,_west_of_patagonia,_scc,_az_-02_(9-17-10)_78_circulo_montana,_pat_lake_ranch_estates,_scc,_az_-02_(4999273243).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (8-10-10) fem, yard, west of patagonia, scc, az -02 (9-17-10) 78 circulo montana, pat lake ranch estates, scc, az -01 (4999271997).jpg** · CC0 · ALAN SCHMIERER · 2010-09-17 11:18:11 · 3772×2924
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%288-10-10%29_fem%2C_yard%2C_west_of_patagonia%2C_scc%2C_az_-02_%289-17-10%29_78_circulo_montana%2C_pat_lake_ranch_estates%2C_scc%2C_az_-01_%284999271997%29.jpg/1280px-thumbnail.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(8-10-10)_fem,_yard,_west_of_patagonia,_scc,_az_-02_(9-17-10)_78_circulo_montana,_pat_lake_ranch_estates,_scc,_az_-01_(4999271997).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (8-10-10) fem, yard, west of patagonia, scc, az -02 (9-17-10) 78 circulo montana, pat lake ranch estates, scc, az -01 (8-10-10) imm, yard, west of (4933639970).jpg** · CC0 · ALAN SCHMIERER · 2010-08-25 11:45:02 · 2730×3336
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%288-10-10%29_fem%2C_yard%2C_west_of_patagonia%2C_scc%2C_az_-02_%289-17-10%29_78_circulo_montana%2C_pat_lake_ranch_estates%2C_scc%2C_az_-01_%288-10-10%29_imm%2C_yard%2C_west_of_%284933639970%29.jpg/1280px-thumbnail.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(8-10-10)_fem,_yard,_west_of_patagonia,_scc,_az_-02_(9-17-10)_78_circulo_montana,_pat_lake_ranch_estates,_scc,_az_-01_(8-10-10)_imm,_yard,_west_of_(4933639970).jpg
+  - "Bugs"
+- **File:GRASSHOPPER, PLAINS LUBBER (Brachystola magna) (8-10-10) fem, yard, west of patagonia, scc, az -02 (9-17-10) 78 circulo montana, pat lake ranch estates, scc, az -01 (8-10-10) fem, yard, west of (4933051203).jpg** · CC0 · ALAN SCHMIERER · 2010-08-27 09:10:23 · 3808×3020
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/GRASSHOPPER%2C_PLAINS_LUBBER_%28Brachystola_magna%29_%288-10-10%29_fem%2C_yard%2C_west_of_patagonia%2C_scc%2C_az_-02_%289-17-10%29_78_circulo_montana%2C_pat_lake_ranch_estates%2C_scc%2C_az_-01_%288-10-10%29_fem%2C_yard%2C_west_of_%284933051203%29.jpg/1280px-thumbnail.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GRASSHOPPER,_PLAINS_LUBBER_(Brachystola_magna)_(8-10-10)_fem,_yard,_west_of_patagonia,_scc,_az_-02_(9-17-10)_78_circulo_montana,_pat_lake_ranch_estates,_scc,_az_-01_(8-10-10)_fem,_yard,_west_of_(4933051203).jpg
+  - "Bugs"
+- **File:EB1911 Cytology - preparation for mitosis (2).jpg** · Public domain · From Boveri, Ergebnisse ü. d. Konstitution der chromatischen Substanz des Zellkerns · published 1911 · 891×421
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/eb/EB1911_Cytology_-_preparation_for_mitosis_%282%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_preparation_for_mitosis_(2).jpg
+  - Preparation for mitosis. a, Spermatogonium of Brachystola magna with resting nucleus; b, Same with prophase for mitosis. (After Sutton.)
+- **File:Plains lubber grasshopper - 50373693151.jpg** · CC BY 2.0 · cricketsblog · 2020-08-29 12:37:42 · 5760×3840
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Plains_lubber_grasshopper_-_50373693151.jpg/1280px-Plains_lubber_grasshopper_-_50373693151.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Plains_lubber_grasshopper_-_50373693151.jpg
+  - Rocky Mountain Arsenal National Wildlife Refuge, Denver, CO
+- **File:Plains lubber grasshopper.jpg** · CC BY 2.0 · cricketsblog · 2020-08-26 14:07:09 · 5760×3840
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Plains_lubber_grasshopper.jpg/1280px-Plains_lubber_grasshopper.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Plains_lubber_grasshopper.jpg
+  - Rocky Mountain Arsenal National Wildlife Refuge, Denver, CO
+- **File:Plains Lubber Grasshopper.jpg** · Public domain · Brady Smith, Coconino National Forest · 2018-11-07 15:32:32 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Plains_Lubber_Grasshopper.jpg/1280px-Plains_Lubber_Grasshopper.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Plains_Lubber_Grasshopper.jpg
+  - Photo taken on Fossil Creek Road (FR 708), Coconino National Forest.
+- **File:Oskar Hertwig.jpg** · Public domain · Nicola Perscheid · 1906 · 623×832
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6b/Oskar_Hertwig.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Oskar_Hertwig.jpg
+  - Porträt von Oskar Hertwig, am Mikroskop sitzend. Aufgenommen von Nicola Perscheid, 1906.
+- **File:Oskar Hertwig (cropped).jpg** · Public domain · Nicola Perscheid · 1906 · 205×305
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/47/Oskar_Hertwig_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Oskar_Hertwig_(cropped).jpg
+  - Porträt von Oskar Hertwig, am Mikroskop sitzend. Aufgenommen von Nicola Perscheid, 1906.
+- **File:Rudolf Duehrkoop Oscar Hertwig 1910.jpg** · Public domain · Rudolf Dührkoop · 1910 · 768×1024
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/39/Rudolf_Duehrkoop_Oscar_Hertwig_1910.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Rudolf_Duehrkoop_Oscar_Hertwig_1910.jpg
+  - Porträt des Zoologen und Anatomen Oscar Hertwig
+- **File:Plate 03 Oscar Hertwig, Photograph album of German and Austrian scientists (cropped).png** · Public domain · Emil Rade (1832 - 1931) · 1876 · 963×1351
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/37/Plate_03_Oscar_Hertwig%2C_Photograph_album_of_German_and_Austrian_scientists_%28cropped%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Plate_03_Oscar_Hertwig,_Photograph_album_of_German_and_Austrian_scientists_(cropped).png
+  - Plate 03 Photograph album of German and Austrian scientists. Jena: Doctor philos. Richard Hertwig.
+- **File:2009-06-01 Grab-Oscar-Hertwig.jpg** · CC BY-SA 4.0 · Axel Mauruszat · 2009-06-01 · 2344×3178
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2009-06-01_Grab-Oscar-Hertwig.jpg/1280px-2009-06-01_Grab-Oscar-Hertwig.jpg
+  - page: https://commons.wikimedia.org/wiki/File:2009-06-01_Grab-Oscar-Hertwig.jpg
+  - Grab von Oscar Hertwig auf dem Friedhof Grunewald in Berlin.
+- **File:PSM V67 D130 Oskar Hertwig.png** · Public domain · Unknown authorUnknown author · 1905 · 945×1503
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/69/PSM_V67_D130_Oskar_Hertwig.png
+  - page: https://commons.wikimedia.org/wiki/File:PSM_V67_D130_Oskar_Hertwig.png
+  - Oskar Hertwig
+- **File:O.Hertwig1906Fig2-6.jpg** · Public domain · Dr. Oskar Hertwig, o. ö. Professor, Direktor des anatomisch-biologischen Instituts der Universität Berlin. · 1906 · 1382×1459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/O.Hertwig1906Fig2-6.jpg/1280px-O.Hertwig1906Fig2-6.jpg
+  - page: https://commons.wikimedia.org/wiki/File:O.Hertwig1906Fig2-6.jpg
+  - Cell nuclei from several young eggs from Triton (a Salamander species) at several stages of development. For sizes of corresponding eggs in mm see original legend at the bottom of the figure. Translation: "In Fig. 3, the nucleoli below the nuclear membrane start to wander in the center. From the now
+- **File:Bardeleben Karl von Jena Teichgraben7 a.jpg** · CC BY-SA 4.0 · Evergreen68 · Taken on 18 March 2012 17:47:13 · 1092×697
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/36/Bardeleben_Karl_von_Jena_Teichgraben7_a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Bardeleben_Karl_von_Jena_Teichgraben7_a.jpg
+  - Tafel für den Anatomen Karl von Bardeleben (1849-1918) in Jena, Teichgraben 7
+- **File:O.Hertwig1906Fig5.jpg** · Public domain · Dr. Oskar Hertwig, o. ö. Professor, Direktor des anatomisch-biologischen Instituts der Universität Berlin. · 1906 · 379×349
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/4a/O.Hertwig1906Fig5.jpg
+  - page: https://commons.wikimedia.org/wiki/File:O.Hertwig1906Fig5.jpg
+  - "Chromatic fiber that resembles a bottle brush (In today's terminology a Lampbrush chromosome) from the cell nucleus of an ovarial egg from Triton", a Salamander species.
+- **File:Plate 03 Photograph album of German and Austrian scientists.png** · Public domain · Emil Rade (1832 - 1931) · before 1877date QS:P,+1877-00-00T00:00:00Z/7,P1326,+1877-00-00T00:00:00Z/9 · 6452×7863
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Plate_03_Photograph_album_of_German_and_Austrian_scientists.png/1280px-Plate_03_Photograph_album_of_German_and_Austrian_scientists.png
+  - page: https://commons.wikimedia.org/wiki/File:Plate_03_Photograph_album_of_German_and_Austrian_scientists.png
+  - Plate 03 Photograph album of German and Austrian scientists. Jena: Professor E. Strassburger; Doctor philos. Richard Hertwig; Professor W. Preyer; Oscar Hertwig; Dr. Gust. Wilh. Koerber, Breslau; Dr. Ed. Lucas, Reutlingen and Jac. Moleschott.
+- **File:Alabama- CALHOUN County, Enumeration District 23, Sheet No. 3A - DPLA - 52ed31626c3193e4a3196f8145ced59b.jpg** · Public domain · Department of Commerce. Bureau of the Census. 1913-1/1/1972 · 1920-01-01/1920-12-31 · 5184×3731
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Alabama-_CALHOUN_County%2C_Enumeration_District_23%2C_Sheet_No._3A_-_DPLA_-_52ed31626c3193e4a3196f8145ced59b.jpg/1280px-Alabama-_CALHOUN_County%2C_Enumeration_District_23%2C_Sheet_No._3A_-_DPLA_-_52ed31626c3193e4a3196f8145ced59b.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Alabama-_CALHOUN_County,_Enumeration_District_23,_Sheet_No._3A_-_DPLA_-_52ed31626c3193e4a3196f8145ced59b.jpg
+  - Surname, Given Name; Family Number; Age; Birth Year; Place of Birth Kyle, Robert; 34; 31; 1889; Alabama Kyle, Nannie V; 34; 53; 1867; Alabama LaGarde, Lawrence C; 34; 28; 1892; Louisiana Howdon, William R; 34; 64; 1856; Kentucky Howdon, Minnie D; 34; 21; 1899; Alabama Klugh, Bethune G; 34; 39; 1881;
+- **File:334 Receive Diplomas at Snyder High School in the Jersey Journal of Jersey City, New Jersey on June 30, 1937.png** · Public domain · AnonymousUnknown author · 1937-06-30 · 1966×5097
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/334_Receive_Diplomas_at_Snyder_High_School_in_the_Jersey_Journal_of_Jersey_City%2C_New_Jersey_on_June_30%2C_1937.png/1280px-334_Receive_Diplomas_at_Snyder_High_School_in_the_Jersey_Journal_of_Jersey_City%2C_New_Jersey_on_June_30%2C_1937.png
+  - page: https://commons.wikimedia.org/wiki/File:334_Receive_Diplomas_at_Snyder_High_School_in_the_Jersey_Journal_of_Jersey_City,_New_Jersey_on_June_30,_1937.png
+  - 334 Receive Diplomas at Snyder High School in the Jersey Journal of Jersey City, New Jersey on June 30, 1937
+- **File:EB1911 Cytology - spermatocytes.jpg** · Public domain · After Henneguy. From O. Hertwig, Allgemeine Biologie, by permission of Gustav Fischer. · published 1911 · 789×297
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b5/EB1911_Cytology_-_spermatocytes.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_spermatocytes.jpg
+  - Spermatocytes of Bombyx mori, showing the precocious appearance of the spermatozoon flagellum and its relation to the centrosome. (After Henneguy.)
+- **File:EB1911 Cytology - nuclear division.jpg** · Public domain · a, b and c from E. B. Wilson’s The Cell in Development and Inheritance; d from A. Gurwitsch, Morphologie u. Biologie der Zelle · published 1911 · 766×935
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0b/EB1911_Cytology_-_nuclear_division.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_nuclear_division.jpg
+  - Diagram of nuclear division of a biological cell. a, spireme stage; b, spindle formed; c, spindle complete; equatorial plate formed; d, Division completed.
+- **File:EB1911 Cytology - preparation for mitosis.jpg** · Public domain · From Boveri’s Ergebnisse ü. d. Konstitution der chromatischen Substanz des Zellkerns · published 1911 · 793×211
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/cd/EB1911_Cytology_-_preparation_for_mitosis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_preparation_for_mitosis.jpg
+  - Preparation for mitosis: a, nucleus of “½ blastomere” of Ascaris megalocephala bivalens in resting condition; b and c, nuclei from sister ½ blastomeres in preparation for mitosis.
+- **File:EB1911 Cytology - centrosomes.jpg** · Public domain · a from E. B. Wilson’s The Cell in Development and Inheritance; b from A. Gurwitsch, Morphologie u. Biologie der Zelle · published 1911 · 794×411
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/10/EB1911_Cytology_-_centrosomes.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_centrosomes.jpg
+  - Centrosomes: a, leucocyte from a salamander, showing permanent aster and centrosome; b, sperm-mother cell of Salamandra maculata, showing Hermann’s “central spindle.”
+- **File:EB1911 Cytology - heterotypical mitosis.jpg** · Public domain · O. Hertwig, Allgemeine Biologie (Schematic, after Flemming.) · published 1911 · 760×277
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/e3/EB1911_Cytology_-_heterotypical_mitosis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_heterotypical_mitosis.jpg
+  - Heterotypical mitosis. The characteristic appearance the looped chromosomes give to the first maturation division in many vertebrates, especially in the Amphibia (shown), led Flemming (1887) to term this type of mitosis “heterotypical.”
+- **File:EB1911 Cytology - types of nuclei.jpg** · Public domain · a from E. B. Wilson’s The Cell in Development and Inheritance (After van Gehuchten.); b from Korschelt and Heider, Lehrbuch der verg. Entwicklungsgeschichte der wirbellosen Tiere · published 1911 · 798×409
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/23/EB1911_Cytology_-_types_of_nuclei.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_types_of_nuclei.jpg
+  - a, Permanent spireme-nuclei in cells from the intestinal epithelium of a dipterous larva, Ptychoptera. b, Branched nucleus of the “nutritive” cell, from a portion of an ovarial tube of Forficula auricularia.
+- **File:EB1911 Cytology - types of cells (2).jpg** · Public domain · From A. Gurwitsch, Morphologie und Biologie der Zelle, by permission of Gustav Fischer. · published 1911 · 789×737
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/86/EB1911_Cytology_-_types_of_cells_%282%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_types_of_cells_(2).jpg
+  - Types of Cells. a, Ciliated epithelial cells. (After Heidenhain.) b, Mucus-secreting “goblet”-cells. (After Gurwitsch.)
+- **File:EB1911 Cytology - nervous and sensory cells.jpg** · Public domain · From Schäfer’s Essentials of Histology, by permission of Longmans, Green &amp; Co. (see also desc.) · published 1911 · 853×954
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5c/EB1911_Cytology_-_nervous_and_sensory_cells.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_nervous_and_sensory_cells.jpg
+  - A and B, Ganglion cells from the cerebral cortex; in A the only slightly branched axon may extend the whole length of the spinal cord. (After Schäfer.); C, Body of a ganglion-cell showing “Nissl’s granules.”; D, Sensory cells from olfactory epithelium. (After Schultze.); E, Diagrammatic representati
+- **File:EB1911 Cytology - maturation divisions (1).jpg** · Public domain · From Korschelt and Heider’s Lehrbuch d. vergl. Entwicklungsgeschichte d. wirbellosen Tiere · published 1911 · 813×655
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/12/EB1911_Cytology_-_maturation_divisions_%281%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_maturation_divisions_(1).jpg
+  - Maturation divisions: a-d, formation of the tetrads in Cyclops. (After Rückert.) e, 1st maturation division; separation of the bivalent sister chromosomes. f, 2nd maturation division; distribution of the univalent chromosomes.
+- **File:EB1911 Cytology - maturation divisions (2).jpg** · Public domain · From E. B. Wilson, The Cell in Development and Inheritance · published 1911 · 800×715
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/ff/EB1911_Cytology_-_maturation_divisions_%282%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_maturation_divisions_(2).jpg
+  - Maturation divisions: origin of the tetrads by ring formation in the spermatogenesis of the mole-cricket (Gryllotalpa) (vom Rath). a, primary spermatocyte with six split, bivalent chromosomes. b and c, Split has opened out. d, concentration of the chromatin has made visible the belated transverse di
+- **File:EB1911 Fungi - Cytology of Uredineae.jpg** · Public domain · From Annals of Botany, by permission of the Clarendon Press. · published 1911 · 629×617
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0d/EB1911_Fungi_-_Cytology_of_Uredineae.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Fungi_-_Cytology_of_Uredineae.jpg
+  - Before the teleutospore reaches maturity the nuclei fuse, and the uninucleate condition then continues again until aecidium formation. In the hemi, brachy, micro and lepto forms, which possess no aecidium, we find that the association takes place at various points in the ordinary mycelium but always
+- **File:EB1911 Cytology - types of cells (1).jpg** · Public domain · a and b from Schäfer’s Essentials of Histology, by permission of Longmans, Green &amp; Co.; c unknown artist · published 1911 · 763×332
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5a/EB1911_Cytology_-_types_of_cells_%281%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Cytology_-_types_of_cells_(1).jpg
+  - Types of Cells. a, Fat-cell enclosing a huge fat-globule. b, Part of a mammalian “striated” muscle-cell (diagrammatic). c, Spermatozoa of mouse and bird.
+- **File:EB1911 Plants (Cytology) - continuity of protoplasm.jpg** · Public domain · After Gardiner. · published 1911 · 356×513
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b8/EB1911_Plants_%28Cytology%29_-_continuity_of_protoplasm.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_continuity_of_protoplasm.jpg
+  - Plant cytology: continuity of protoplasm of cells of Tamus communis (A) and endosperm of Lilium Martagon (B)
+- **File:EB1911 Plants (Cytology) - fertilization in the lily.jpg** · Public domain · From Wilson. After Guignard and Mottier. · published 1911 · 477×670
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/e3/EB1911_Plants_%28Cytology%29_-_fertilization_in_the_lily.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_fertilization_in_the_lily.jpg
+  - Plant cytology: fertilization in the lily.
+- **File:EB1911 Plants (Cytology) - spermatozoid and fertilization in Zamia.jpg** · Public domain · After Webber · published 1911 · 510×920
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/48/EB1911_Plants_%28Cytology%29_-_spermatozoid_and_fertilization_in_Zamia.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_spermatozoid_and_fertilization_in_Zamia.jpg
+  - Plant cytology: spermatozoid and fertilization in Zamia.
+- **File:EB1911 Plants (Cytology) - cell structure of the Cyanophyceae.jpg** · Public domain · From Proc. Roy. Soc., vol. lxxix. · published 1911 · 844×629
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/3c/EB1911_Plants_%28Cytology%29_-_cell_structure_of_the_Cyanophyceae.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_cell_structure_of_the_Cyanophyceae.jpg
+  - Plant cytology: cell structure of the Cyanophyceae. A and B, Tolypothrix lanata; (1) Young, (2) Old cells. C, Oscillaria limosa: transverse microtome section.
+- **File:EB1911 Plants (Cytology) - epidermal cells of Saxifraga hirsutum.jpg** · Public domain · Unknown authorUnknown author · published 1911 · 399×388
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2b/EB1911_Plants_%28Cytology%29_-_epidermal_cells_of_Saxifraga_hirsutum.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_epidermal_cells_of_Saxifraga_hirsutum.jpg
+  - Plant cytology: convergence of light to a bright spot on the basal walls of the epidermal cells of Saxifraga hirsuta.
+- **File:EB1911 Plants (Cytology) - nuclei and nuclear division in the Basidiomycetes.jpg** · Public domain · From the Annals of Botany, vols. vii. and viii. · published 1911 · 747×1363
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b5/EB1911_Plants_%28Cytology%29_-_nuclei_and_nuclear_division_in_the_Basidiomycetes.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_nuclei_and_nuclear_division_in_the_Basidiomycetes.jpg
+  - Plant cytology: nuclei and nuclear division in the Basidiomycetes. A to D, Amanita muscaria; E to G, Mycena galericulata. A, Basidium with two nuclei. B, single nucleus due to the fusion of the two pre-existing nuclei. C, Nuclear thread segmenting. D, Nuclear cavity with chromosomes. E, Chromosomes 
+- **File:EB1911 Plants (Cytology) - epidermal cells of Tradescantia fluminensis.jpg** · Public domain · Unknown photographer · published 1911 · 387×389
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/12/EB1911_Plants_%28Cytology%29_-_epidermal_cells_of_Tradescantia_fluminensis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_epidermal_cells_of_Tradescantia_fluminensis.jpg
+  - Plant cytology: photograph taken from life through the epidermal cells of Tradescantia fluminensis.
+- **File:EB1911 Plants (Cytology) - reconstruction of the daughter nuclei of Phaseolus.jpg** · Public domain · Unknown authorUnknown author · published 1911 · 847×1341
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fe/EB1911_Plants_%28Cytology%29_-_reconstruction_of_the_daughter_nuclei_of_Phaseolus.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_reconstruction_of_the_daughter_nuclei_of_Phaseolus.jpg
+  - Plant cytology: reconstruction of the daughter nuclei of Phaseolus. The relation of the nucleolus to the chromosomes is clearly seen in the reconstruction of the daughter nuclei after division in the cells of the root-apex of Phaseolus (A to F). The chromosomes (A) unite to form an irregular mass (B
+- **File:EB1911 Plants (Cytology) - flagellum and eye spots of Euglena viridis.jpg** · Public domain · Journal of the Linnean Society, “Zoology” vol. xxvii. · published 1911 · 636×406
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/06/EB1911_Plants_%28Cytology%29_-_flagellum_and_eye_spots_of_Euglena_viridis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_flagellum_and_eye_spots_of_Euglena_viridis.jpg
+  - A, Eye-spots of Euglena viridis. B, Anterior end of Euglena showing the flagellum with its swelling just in the hollow of the eye-spot.
+- **File:EB1911 Plants (Cytology) - nuclear division of Lilium pollen mother-cells.jpg** · Public domain · After Grégoire · published 1911 · 788×1476
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/39/EB1911_Plants_%28Cytology%29_-_nuclear_division_of_Lilium_pollen_mother-cells.jpg
+  - page: https://commons.wikimedia.org/wiki/File:EB1911_Plants_(Cytology)_-_nuclear_division_of_Lilium_pollen_mother-cells.jpg
+  - Plant cytology: various stages in the nuclear division of the pollen mother-cells of Lilium.

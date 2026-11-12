@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "The cross product of two vectors in three-dimensional space is a vector perpendicular to both, written a × b.",
+   "cites": [
+    2,
+    17
+   ]
+  },
+  {
+   "text": "Its direction follows the right-hand rule, and its length equals the area of the parallelogram that the two vectors span.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "text": "It is the zero vector for parallel vectors, and swapping the order of the two vectors reverses its sign.",
+   "cites": [
+    20,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dimensions",
+   "value": "A vector-valued product like this exists only in three and seven dimensions",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Alternative name",
+   "value": "Vector product, a name coined by Clifford in 1877",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Notation",
+   "value": "Gibbs and Heaviside introduced the cross symbol in 1881",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Size of result",
+   "value": "Equals the area of the parallelogram the vectors span",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Order matters",
+   "value": "Swapping the vectors gives b × a = −(a × b)",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two vectors point in exactly the same direction. What is their cross product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A vector twice as long as either"
+    },
+    {
+     "id": "b",
+     "label": "A vector standing straight out of the page"
+    },
+    {
+     "id": "c",
+     "label": "The zero vector"
+    },
+    {
+     "id": "d",
+     "label": "A single positive number"
+    }
+   ],
+   "answer": "c",
+   "explain": "If two vectors are parallel, their cross product is the zero vector.",
+   "cites": [
+    7,
+    20
+   ]
+  },
+  {
+   "prompt": "Two vectors are drawn as sides of a parallelogram. What does the length of their cross product measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The area of the parallelogram"
+    },
+    {
+     "id": "b",
+     "label": "The perimeter of the parallelogram"
+    },
+    {
+     "id": "c",
+     "label": "The longer diagonal of the shape"
+    },
+    {
+     "id": "d",
+     "label": "The angle between the two sides"
+    }
+   ],
+   "answer": "a",
+   "explain": "The magnitude of the cross product equals the area of the parallelogram with the vectors for sides.",
+   "cites": [
+    5,
+    19
+   ]
+  },
+  {
+   "prompt": "Using the right-hand rule, a cross product comes out pointing up. What do you get when you swap the order of the two vectors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The very same vector"
+    },
+    {
+     "id": "b",
+     "label": "The zero vector"
+    },
+    {
+     "id": "c",
+     "label": "A vector twice as long"
+    },
+    {
+     "id": "d",
+     "label": "The same length, pointing down"
+    }
+   ],
+   "answer": "d",
+   "explain": "The cross product is anti-commutative: b × a = −(a × b).",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "A game developer wants a cross product that gives a vector, for two vectors in a flat two-dimensional world. What is the problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is only defined for vectors of unit length"
+    },
+    {
+     "id": "b",
+     "label": "It exists only in three and seven dimensions"
+    },
+    {
+     "id": "c",
+     "label": "It exists in every dimension, but is slow to compute"
+    },
+    {
+     "id": "d",
+     "label": "It needs the two vectors to be exactly parallel"
+    }
+   ],
+   "answer": "b",
+   "explain": "The cross product of two vectors is defined only in three-dimensional space, and a vector-valued binary product of this kind exists only in three and seven dimensions.",
+   "cites": [
+    15,
+    17
+   ]
+  },
+  {
+   "prompt": "Point your right forefinger along a and your middle finger along b. Which way does a × b point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Out of the thumb"
+    },
+    {
+     "id": "b",
+     "label": "Along the forefinger"
+    },
+    {
+     "id": "c",
+     "label": "Along the middle finger"
+    },
+    {
+     "id": "d",
+     "label": "Opposite to the thumb"
+    }
+   ],
+   "answer": "a",
+   "explain": "By the right-hand rule, the cross product comes out of the thumb. Pointing the fingers the other way round reverses it.",
+   "cites": [
+    22,
+    23,
+    25
+   ]
+  },
+  {
+   "prompt": "Two arrows meet at a right angle. One is 3 units long and the other is 4 units long. How big is their cross product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "7"
+    },
+    {
+     "id": "b",
+     "label": "0"
+    },
+    {
+     "id": "c",
+     "label": "12"
+    },
+    {
+     "id": "d",
+     "label": "1"
+    }
+   ],
+   "answer": "c",
+   "explain": "The magnitude of the cross product of two perpendicular vectors is the product of their lengths, so 3 times 4.",
+   "cites": [
+    5
+   ]
+  }
+ ]
+}

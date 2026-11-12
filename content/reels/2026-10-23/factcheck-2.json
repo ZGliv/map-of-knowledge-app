@@ -1,0 +1,384 @@
+{
+ "checker": "Claude (Opus 5.5), independent adversarial checker, round 2; did not write these reels",
+ "checkedAt": "2026-10-23T18:26:59Z",
+ "units": [
+  {
+   "id": "2026-10-23-the-night-the-world-began/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: James Ussher] \"his chronology that sought to establish the time and date of the creation as “the entrance of the night preceding the 23rd day of October ... the year before Christ 4004”\"",
+   "note": "\"Said\" keeps it as Ussher's claim, which matches the source.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: James Ussher] \"In this work, he calculated the date of the Creation to have been nightfall on 22 October 4004 BC.\"; \"Church of Ireland Archbishop of Armagh ... between 1625 and 1656\"",
+   "note": "Nightfall before 23 October is the evening of 22 October (proleptic Julian), which is what the source says. \"Calculated\" keeps it as his reckoning.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: James Ussher] \"Ussher's account of historical events for which he had multiple sources other than the Bible is usually in close agreement with modern accounts – for example, he placed ... that of Julius Caesar in 44 BC.\"",
+   "note": "\"Several sources beyond the Bible\" matches \"multiple sources other than the Bible\", and \"usually hold up\" matches \"usually in close agreement with modern accounts\". Both qualifiers are kept and 44 BC is exact.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/f5",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Age of Earth] \"The age of Earth is estimated to be 4.54 ± 0.05 billion years. ... Estimates are based on radiometric dating of meteoritic material ... and accretion models\"; the same article says the oldest terrestrial minerals are \"at least 4.404 billion years old\".",
+   "note": "Low severity, and better than round 1. But \"Measured by radiometric dating, Earth is ...\" still reads as a direct measurement of Earth itself. The 4.54 figure is an estimate made by dating meteorites (plus accretion models), and Earth's own oldest minerals are about 4.4 billion years old. The \"method\" claim this frame rests on says \"meteorites\", and the caption drops it.",
+   "fix": "Radiometric dating of meteorites puts Earth's age at about 4.54 billion years.  (Update \"say\" to match.)",
+   "resolved": "Now \"Radiometric dating puts Earth's age at about 4.54 billion years.\" It no longer says Earth itself was dated. Meteorites stay unnamed: an E06 check item asks where the figure comes from."
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: James Ussher] \"Faced with inconsistent texts of the Torah ... Ussher chose the Masoretic version\"; \"multiple sources other than the Bible\"; [Wikipedia: Age of Earth] \"estimated to be 4.54 ± 0.05 billion years\"",
+   "note": "\"Counted back through written records\" fairly sums up a chronology built on the Bible and ancient histories. \"Puts ... at about\" keeps the estimate hedge. Naming meteorites would be more exact, but it is not needed for the takeaway to be true.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/claim.caesar",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: James Ussher] (Chronology section).",
+   "note": "The claim keeps \"several/multiple\" and \"usually\", so the round-1 fix is applied.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/media.m1",
+   "verdict": "supported",
+   "evidence": "Commons: Artist \"After Peter Lely (1618–1680)\", Date \"circa 1654\", NPG 574, PD-Art (PD-old-100-expired), 2,400 × 2,871. Image: black skullcap, white pleated ruff, white lawn sleeves under a black chimere.",
+   "note": "Alt, credit, licence and size all match. Heads-up only: the Commons page carries a warning that third parties (the NPG source) have made copyright claims. media.json's \"restrictions\" list is empty and does not record this.",
+   "fix": "None needed. Optionally, note the third-party-claims warning in media.json."
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/media.m5",
+   "verdict": "supported",
+   "evidence": "Commons: Artist \"Attributed to Cornelis Janssens van Ceulen\", Date 1641, Jesus College, Oxford (Art UK), PD-Art (PD-old-100), 1,200 × 1,444. Image: small book in his hands, white ruff, full white lawn sleeves (also a black cap and black chimere).",
+   "note": "The round-1 fix is applied, and the alt now matches the picture. \"Earlier\" is right (1641 against c. 1654).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-fastest-wind-on-record/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hurricane Patricia] \"the strongest globally in terms of one-minute maximum sustained winds\"; \"Patricia's one-minute maximum sustained winds ranked as the highest ever reliably observed or estimated in a tropical cyclone\"",
+   "note": "In the raw record, Typhoon Nancy (1961) tied Patricia's 345 km/h, but the pinned page says its data are \"widely considered unreliable\". Nancy was a typhoon, so among hurricanes the record is unambiguous. Hurricane Polo (2026) is listed only as the second-most-intense Pacific hurricane.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-fastest-wind-on-record/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hurricane Patricia] \"As Patricia neared its peak strength, the cyclone began to turn east-northeast towards Mexico.\" \"Late on October 23, dramatic weakening ensued and Patricia made landfall near Cuixmala, Jalisco, with winds of 150 mph (240 km/h).\"",
+   "note": "Both round-1 issues are fixed: the turn now comes near the peak, and 240 km/h is now the wind speed, not the storm's travel speed. 150 mph is about 241 km/h, so \"about 240\" is right.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-fastest-wind-on-record/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hurricane Patricia] \"the most powerful tropical cyclone on record worldwide in terms of maximum sustained winds\"; \"On October 23, the hurricane achieved its record peak intensity\" (peak \"at around 12:00 UTC on October 23\")",
+   "note": "The key is right, and the record was set that day. Both distractors are wrong. Patricia was compact, and the largest storm on record is Typhoon Tip (1979). The world 24-hour rainfall record is 1,825 mm at Foc-Foc, Réunion (Cyclone Denise, 1966). The only rain record in the pinned page is local (Chetumal, 502 mm, from the precursor), not a world record. The key drops \"reliably\", but the reveal frame (f3) carries it.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-fastest-wind-on-record/takeaway",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Hurricane Patricia] \"Patricia reached hurricane strength shortly after 00:00 UTC on October 22\"; \"grew from a tropical storm to a Category 5 hurricane in just 24 hours\"; \"The hurricane reached its peak intensity at around 12:00 UTC on October 23\"; the record 24-hour window, 06:00–06:00 UTC 22–23 October, ended at 205 mph (335 km/h).",
+   "note": "The timeline is still compressed. The source's 24 hours is tropical storm to Category 5. The record 345 km/h came about 12 hours later, roughly 36 hours after Patricia was last a tropical storm. That is a day and a half, which \"about a day\" does not cover. (Round 1 proposed this wording, and I disagree with it.) The second sentence is fine.",
+   "fix": "In about a day and a half Patricia grew from a tropical storm to the strongest sustained winds ever reliably recorded in a tropical cyclone. Within a day of landfall it was only a tropical depression.",
+   "resolved": "Now \"In about a day and a half Patricia grew from a tropical storm to the strongest sustained winds ever reliably recorded…\"."
+  },
+  {
+   "id": "2026-10-23-the-fastest-wind-on-record/media.m3",
+   "verdict": "supported",
+   "evidence": "Commons: Author \"Wxtrackercody\"; \"This work has been released into the public domain by its author, Wxtrackercody\"; \"The background image is from NASA\"; 2,700 × 1,669. Image: dots start south of the Gulf of Tehuantepec, run west-north-west well offshore, then curve north and north-east to landfall on the Jalisco coast and continue inland.",
+   "note": "The round-1 fix is applied, and the alt now matches the map. The track continuing inland past Jalisco is not a problem. On the credit year: the Commons Date field is the storm period (\"2015-10-20–2015-10-24\"), but the file was made in 2023 (first uploaded 26 Feb 2023 by Wxtrackercody; current version 5 Apr 2023 by SolarisPenguin). \"2015\" is defensible as the date of the data.",
+   "fix": "None needed. If credit years mean when the work was made, use 2023 or drop the year."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] \"These were the first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body, and the first of their kind recognised by the Fédération Aéronautique Internationale.\"; on the Wrights: \"without any official observers\"",
+   "note": "\"Aeroplane\" now limits it to heavier-than-air flight (round-1 fix). \"Anyone\" rests on the clause \"officially witnessed by an aeronautics recordkeeping body\", which the cited \"certified\" quote stops short of (see claim.certified). I looked for an earlier certifier and found none: the Aero Club of America only printed the Wrights' own March 1906 report of their 1905 flights.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Santos-Dumont 14-bis] \"was a pioneer era, canard-style biplane designed and built by Brazilian aviation pioneer Alberto Santos-Dumont\"",
+   "note": "The photo does show the 14-bis, in its November form, with the octagonal ailerons.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] \"on 23 October 1906 flew about 60 metres at a height of two to three metres ... at the Bagatelle Gamefield in Paris\"; \"without taking advantage of headwinds, ramps, catapults, slopes, or other devices\"",
+   "note": "The pinned 14-bis article gives \"over 50 metres at an altitude of 3–5 m\". \"About 60 metres\" follows the cited source, and \"a few metres\" covers both heights. The caption sits on the 12 November photo but makes no claim about it, and f3 dates the photo.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] \"On 12 November in front of a crowd, he flew 220 metres\"; \"flew 220 metres, for 21 seconds at an average speed of 37.4 km/h\"; [Commons] \"Nouveau triomphe de Santos-Dumont. 12 novembre 1906\"",
+   "note": "The pinned 14-bis article differs (\"After 22 seconds, he cut the engine and glided in to land\"). The Bagatelle memorial plaque gives 220 m in 21 1/5 s, so \"21 seconds\" is the better figure, and 37.4 km/h × 21.2 s ≈ 220 m checks out. The photo date rests on the BnF caption and on the octagonal ailerons, which were fitted after 23 October.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] \"the first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body\"; [Wikipedia: Santos-Dumont 14-bis] the 13 September hop watched by Aéro-Club observers \"did not qualify for any prize\"",
+   "note": "The round-1 error (\"watched\") is fixed. The 13 September hop that observers watched was not certified, so it does not contradict this caption. The second sentence rests on the \"officially witnessed by an aeronautics recordkeeping body\" clause. That clause is in the source but not in the cited quote.",
+   "fix": "None to the caption. Extend the \"certified\" quote (see claim.certified)."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Biplane] \"The first powered, controlled aeroplane to fly, the Wright Flyer, used a biplane wing arrangement\"; [Wikipedia: Alberto Santos-Dumont] lead sentence on certification (see title)",
+   "note": "Both sentences are supported. \"Aeroplane\" is now included (round-1 fix).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] \"on 23 October 1906 flew about 60 metres\"",
+   "note": "The key matches the cited source. The 14-bis article's \"over 50 metres\" is the same order of size. The distractors (6 km, 60 km) are 100 to 1,000 times too far, so they are clearly wrong.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Biplane] \"The first powered, controlled aeroplane to fly, the Wright Flyer\"; [Wikipedia: Alberto Santos-Dumont] \"first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body\"",
+   "note": "\"An official body\" here means the Aéro-Club de France acting as the aeronautics recordkeeping body, and the source supports it.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/claim.first",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Alberto Santos-Dumont] (lead).",
+   "note": "The quote is now long enough to carry Paris and the unassisted take-off. \"A few metres up\" fairly renders \"two to three metres\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/claim.certified",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Alberto Santos-Dumont] (lead).",
+   "note": "The quote supports the claim as worded. But the reel's wider wording (\"anyone certified\" in the title and f6, \"No record keeper\" in f4, \"an official body\" in the takeaway) leans on the next clause of the same sentence, which the quote cuts off. Also, the same article's body says the 23 October \"record was not made official\", while the 14-bis article says that flight won the 25 m prize. \"They\" is safe either way, because the 12 November flights were certified.",
+   "fix": "Optional: extend the quote to \"These were the first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body\", and extend the claim to match."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/claim.photo",
+   "verdict": "imprecise",
+   "evidence": "[Commons: File:14-bis_de_Alberto_Santos_Dumont.jpg] \"Le 14-bis de Alberto Santos Dumont avec, en arrière-plan, le Blériot IV. [Collection Jules Beau. ...] ... [Les étapes de l\\ aviation. Nouveau triomphe de Santos-Dumont. 12 novembre 1906]\"",
+   "note": "The quote is verbatim and carries the date, but not \"with the Blériot IV behind the 14-bis\". That part is in the description's first sentence, outside the quote. \"Records ... new triumph\" also slightly overstates: the photo shows the 14-bis standing on the field that day, not the flight, and \"Nouveau triomphe\" is the album's caption.",
+   "fix": "Claim: \"The photograph is from 12 November 1906, the day of Santos-Dumont's new triumph\" (quote unchanged). Add a separate claim for the aircraft behind it, quoting \"Le 14-bis de Alberto Santos Dumont avec, en arrière-plan, le Blériot IV.\"",
+   "resolved": "Claim now \"The photograph is from 12 November 1906, the day of Santos-Dumont's new triumph\". The Blériot detail stays in the alt only."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/media.m3",
+   "verdict": "supported",
+   "evidence": "Commons: Author \"Jules Beau (1864–1932)\", PD-France + PD-1923, 2,632 × 1,814; description: \"Le 14-bis ... avec, en arrière-plan, le Blériot IV\". Image: the 14-bis on its wheels on grass with a man standing in it, and a second box-cell biplane with people around it at left behind.",
+   "note": "Alt, credit, licence and size all match. The date comes from the BnF caption, because the Commons Date field is broken (\"Template:November\"). A presentation point, not part of this unit's test: m3 is still the hero image under the \"Paris, 23 October 1906\" prediction. Until f3, the 12 November photo can read as the 23 October flight.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Evolution as fact and theory] \"To the public, theory can mean an opinion or conjecture (e.g., “it's only a theory”)\"",
+   "note": "The title names the myth that the reel then corrects.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Evolution as fact and theory] \"Many scientists and philosophers of science have described evolution as fact and theory\"; \"A scientific theory is a well-substantiated explanation of such facts\"; \"Evidence for evolution continues to be accumulated and tested.\"",
+   "note": "\"That is why\" follows the source's own reasoning: in Gould's usage a fact is data and the theory explains such facts. \"Many\" keeps the hedge; the source also lists other framings.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Evolution as fact and theory] \"In the vernacular, theory can refer to guesswork ...\"; \"A scientific theory is “a well-substantiated explanation of some aspect of the natural world that can incorporate facts, laws, inferences, and tested hypotheses.”\"; \"Theories are formed from hypotheses that have been subjected repeatedly to tests\"",
+   "note": "The source also calls theories \"provisional\", and \"tested\" is consistent with that.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/claim.both",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Evolution as fact and theory] (lead).",
+   "note": "\"Many\" is restored (round-1 fix).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/media.m3",
+   "verdict": "supported",
+   "evidence": "Commons: Author \"Julia Margaret Cameron (1815–1879)\", \"Restored by Adam Cuerden\", Date \"circa 1868\" (printed 1875), Art Institute of Chicago, PD-old-100-expired, 2,348 × 2,916. Image: profile, bald crown, long white beard, dark coat.",
+   "note": "Darwin was 59 in the 1868 sitting and looks elderly, so \"in old age\" is fair; \"in later life\" would be safer. Credit and licence match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/media.m5",
+   "verdict": "imprecise",
+   "evidence": "Commons: Author \"Zina Deretsky\", \"National Science Foundation\"; Date \"9 July 2009, 12:28\" (the NSF Flickr upload); the file history's first version is \"22:38, 9 August 2007\" by TomCatX. Web: \"In 2006, the artist Zina Deretsky made a scientific illustration of Tiktaalik for the National Science Foundation\" (CASW Showcase); it was released with NSF's 5 April 2006 news release (Know Your Meme).",
+   "note": "The alt is fixed and now matches the picture: the animal hauls out of shallow water onto sand, with one leg-like pectoral fin on the beach. But the credit year \"2009\" is when NSF posted the image to Flickr, not when it was made: Commons already had it in August 2007, and it was drawn for NSF's April 2006 Tiktaalik release. The stray space in \"Deretsky ,\" that round 1 flagged is still there. Minor: it is a digital illustration, so \"Painting\" is loose. The licence (PD, NSF) matches.",
+   "fix": "Credit: \"Zina Deretsky, National Science Foundation, 2006\". Optional alt: \"Illustration of Tiktaalik, an early fish with stubby, leg-like fins, at the edge of shallow water\".",
+   "resolved": "Alt now \"Illustration of Tiktaalik…\". The credit year stays as Commons records it (2009): engine credits come from the Commons snapshot. The stray space before the comma is removed by the credit cleaner."
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] \"A study reported in 2011 of skeletons exhumed from the Black Death cemetery in East Smithfield, London, found Yersinia pestis DNA.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] \"a seaman who arrived at Weymouth, Dorset, from Gascony in June 1348\"; \"a figure of 40–60% of the population is widely accepted\"; \"The most immediate consequence was a halt to the campaigns of the Hundred Years' War.\"",
+   "note": "The round-1 fix (\"halts the campaigns\") is applied.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f2",
+   "verdict": "imprecise",
+   "evidence": "Pinned body: \"It was not until the 17th century that the term under which we know the outbreak today became common\". Pinned lead: \"The term Black Death was not used until the late 17th century.\" Wikipedia \"Black Death\" (Names section): in English the name was not used until \"the 1750s; the term is first attested in 1755\"; Elizabeth Penrose used it in 1823; Latin \"atra mors\" appears in Pontanus, 1631. Etymonline dates the English name to 1823.",
+   "note": "The first sentence is right. The second matches the pinned body, but the pinned article contradicts itself (its lead says the term was not even used until the late 17th century). The main Black Death article dates English use to 1755 and popular use to the 19th century. The 17th-century date fits Danish and Latin usage, not England, so in a reel about England the century is contested.",
+   "fix": "People at the time called it the Great Pestilence or the Great Mortality. The name Black Death came centuries later.",
+   "resolved": "Now \"The name Black Death came centuries later.\" No disputed century."
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] \"skeletons exhumed from the Black Death cemetery in East Smithfield, London, found Yersinia pestis DNA\"; \"Genotyping ... proved the Black Death was bubonic plague\"",
+   "note": "\"Key proof\" (rather than \"the proof\") fixes round 1. Bos et al. 2011 rebuilt the genome from four East Smithfield (Royal Mint site) skeletons.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f5",
+   "verdict": "imprecise",
+   "evidence": "Pinned: \"ancestor of all modern strains\". Bos et al. 2011 (Nature 478:506), abstract: the ancient organism \"is ancestral to most extant strains\" and sits very close to the ancestral node of the Y. pestis strains commonly linked to human infection.",
+   "note": "Low severity. Dropping \"all\" helps, but \"the ancestor of modern plague strains\" still reads as the ancestor of every modern strain. The study behind the sentence says most: some lineages branch off earlier.",
+   "fix": "Its genes showed a strain that was new at the time: an ancestor of most modern plague strains.",
+   "resolved": "Now \"Many modern plague strains descend from it.\" True under the pinned source (\"all\") and under Bos et al. (\"most\")."
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] \"Modern medical knowledge suggests that because it was a new strain, the human immune system would have had little or no defence against it, helping to explain the plague's virulence and high death rates.\"",
+   "note": "The hedges are restored (\"probably\", \"may help\"), matching \"suggests\". Bos et al. found few genetic differences from modern strains, and the hedge leaves room for that.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] dna and strain quotes (see claim.strain).",
+   "note": "The unsupported round-1 line \"Chronicles counted the dead\" is gone. \"The dead themselves named the killer\" is a figure of speech for the DNA result. See f5 on how far \"new at the time\" reaches; the takeaway itself is fine.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/claim.strain",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Black Death in England]; the \"[at that time]\" brackets are in the source text.",
+   "note": "The claim (\"ancestral to modern strains\") is weaker than its quote (\"ancestor of all\"), so the quote supports it. The source sentence itself overstates; Bos et al. say \"most\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/claim.defence",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Black Death in England], directly after \"Modern medical knowledge suggests that\".",
+   "note": "The claim now carries the hedge. The quote starts at \"because...\", so the hedge words themselves sit just outside it.",
+   "fix": "Optional: start the quote at \"Modern medical knowledge suggests that because it was a new strain...\" so the hedge is inside the quote."
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/media.m2",
+   "verdict": "supported",
+   "evidence": "Commons: Artist \"Loyset Liédet\", Date \"15th century\", BnF Français 2643, fol. 165v, PD-Art, 1,998 × 1,755. Image: mounted armoured knights, crossbowmen and longbowmen, French fleur-de-lis and English royal banners.",
+   "note": "The round-1 error (\"1450\") is fixed. The scene is Crécy (1346), two years before the plague, and the alt does not say otherwise.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/media.m1",
+   "verdict": "imprecise",
+   "evidence": "On the map itself: \"To the Great and most Illustrious Highness WILLIAM HENRY, by the Grace of God Prince of Orange ... Restorer of the Laws of Great Brittain, And also To ... MARY, Princess of Orange ... is This Mapp of England most Humbly dedicated by Nicolas Visscher\"; imprint: \"Printed and given out at Amsteldam by Nicolas Visscher ... to be sould at London by Iohn Overton\". Commons: Author \"Dirk Jansz van Santen\", Date \"circa 1685\", Publication date \"circa 1690\"; the description says the dedication was changed to William and Mary after April 1689.",
+   "note": "The alt is fixed and accurate: county borders coloured, towns and roads shown. The credit still copies Commons' Author and Date fields, but those describe the 1685 first state. This copy carries the William-and-Mary rededication, so it dates from c. 1688–90. Van Santen was the colourist, not the mapmaker.",
+   "fix": "Credit: \"Nicolaes Visscher II and John Overton, coloured by Dirk Jansz van Santen, c. 1689\"",
+   "resolved": "Credit kept as Commons records it (\"Dirk Jansz van Santen, c. 1685\"). The engine takes attribution from the Commons metadata it snapshots. The alt no longer gives a year."
+  },
+  {
+   "id": "2026-10-23-the-auld-alliance/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Auld Alliance] \"The alliance was never formally revoked, although it is considered by some to have ended with the signing of the Treaty of Edinburgh in 1560.\"",
+   "note": "Revoking is a formal act, so \"never revoked\" equals the source's \"never formally revoked\". The round-1 overstatement (\"never ended\") is gone, and f6 and the takeaway carry \"formally\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-auld-alliance/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Auld Alliance] \"The alliance was renewed by all the French and Scottish monarchs of that period except Louis XI.\"; renewals in 1326, 1512, 1517 and 1548; \"In 1558, the alliance ... was revived with the marriage of Mary, Queen of Scots to the future Francis II of France\"",
+   "note": "The round-1 fix (\"the future Francis II\") is applied, and the renewals from 1326 to 1558 support \"for centuries\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-auld-alliance/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Auld Alliance] \"In October 1295, a Scottish embassy to France agreed to the Treaty of Paris, which was signed on 23 October.\"; \"The alliance was never formally revoked\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-auld-alliance/claim.renewed",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Auld Alliance] (lead).",
+   "note": "\"Of that period\" is restored (round-1 fix).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-auld-alliance/claim.marriage",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Auld Alliance] (Reformation and decline).",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-auld-alliance/media.m5",
+   "verdict": "supported",
+   "evidence": "Commons: \"Unknown author\", \"After François Clouet (1510–1572)\", Date \"circa 1573\", illumination on parchment, BnF, PD-Art, 2,376 × 3,848. Image: both crowned; Francis in an ermine cape over a blue fleur-de-lis mantle with hands joined, Mary crowned and jewelled, inside a decorated Book of Hours border.",
+   "note": "Alt, credit, licence and size all match. Commons gives the accession as \"NAL 82\" while the filename says \"NAL 83\"; this does not affect the credit.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] \"Herbert Spencer first used the phrase ... in his Principles of Biology (1864)\"",
+   "note": "A question title; it asserts nothing.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] \"I fully agree with all that you say on the advantages of H. Spencer's excellent expression ... This however had not occurred to me till reading your letter.\"; \"In On the Origin of Species, he introduced the phrase in the fifth edition published in 1869\"",
+   "note": "The round-1 fix is applied. The caption does not claim the fifth edition was his first use (that was Variation, 1868). It leaves out Darwin's objection in the same letter, that the term \"cannot be used as a substantive governing a verb\", but this claim does not need it. \"He put it\" could refer to \"the letter\" by grammar; round 1 suggested \"the phrase\", which is clearer.",
+   "fix": "Optional: \"He put the phrase in the fifth edition of the Origin, in 1869.\""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] \"By “fittest” Darwin meant “better adapted for the immediate, local environment”, not the common, modern meaning of “in the best physical shape” (think of a puzzle piece, not an athlete).\"; \"the phrase is best understood as “survival of the form that in successive generations will leave most copies of itself.”\"",
+   "note": "\"Does not mean strongest\" is supported by the source, though not by the cited quote. \"Best understood as\" keeps the hedge. The caption drops \"in successive generations\", but this does not make it untrue.",
+   "fix": "Optional: \"...the form that, over generations, leaves the most copies of itself.\""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] Wallace's July 1866 letter (\"by adopting Spencer's term\") and Darwin's reply; \"Had he received the letter two months earlier, he would have worked the phrase into the fourth edition\"",
+   "note": "The letters show why (Wallace's worry that \"natural selection\" made nature sound like it was choosing) and when (July 1866: too late for the fourth edition, planned for his next book).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/claim.reply",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim, once, in [Wikipedia: Survival of the fittest] (History of the phrase).",
+   "note": "",
+   "fix": ""
+  }
+ ]
+}

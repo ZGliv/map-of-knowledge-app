@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean",
+ "name": "Mean",
+ "summary": [
+  {
+   "text": "A mean is a quantity representing the center of a collection of numbers, lying between the extreme values of the set.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "The most commonly used kind is the arithmetic mean, the sum divided by the count: for 2, 3, 4, 7 and 9 it is 25 divided by 5, which is 5.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "text": "Which kind of average is most illuminating depends on what is measured; the median suits skewed data and the harmonic mean suits rates such as speeds.",
+   "cites": [
+    6,
+    11,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Arithmetic mean",
+   "value": "The sum divided by the count",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Worked example",
+   "value": "The list 2, 3, 4, 7, 9 has mean 5",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Sample mean",
+   "value": "Name for a mean taken from a sample of a larger group",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Harmonic mean",
+   "value": "The reciprocal of the mean of the reciprocals",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Bounds",
+   "value": "Every average lies between the maximum and minimum",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Four test scores are 1, 2, 3 and 10. What is their arithmetic mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2.5"
+    },
+    {
+     "id": "b",
+     "label": "4"
+    },
+    {
+     "id": "c",
+     "label": "10"
+    },
+    {
+     "id": "d",
+     "label": "16"
+    }
+   ],
+   "answer": "b",
+   "explain": "The arithmetic mean is the sum divided by the count: 16 divided by 4 is 4.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean:q1"
+  },
+  {
+   "prompt": "Most people in a town earn modest salaries but a few earn huge amounts. Which average better represents the majority?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mean, because the huge amounts matter most"
+    },
+    {
+     "id": "b",
+     "label": "The sum of all salaries"
+    },
+    {
+     "id": "c",
+     "label": "The largest salary"
+    },
+    {
+     "id": "d",
+     "label": "The median, because it is not overly influenced by a few higher incomes"
+    }
+   ],
+   "answer": "d",
+   "explain": "The median is usually used for skewed data so that it represents the majority rather than being overly influenced by a few much higher incomes.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean:q2"
+  },
+  {
+   "prompt": "You drive to a town at 30 mph and back at 60 mph, over the same distance. Which average gives the constant speed that would take the same total time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The arithmetic mean"
+    },
+    {
+     "id": "b",
+     "label": "The median"
+    },
+    {
+     "id": "c",
+     "label": "The harmonic mean"
+    },
+    {
+     "id": "d",
+     "label": "The mode"
+    }
+   ],
+   "answer": "c",
+   "explain": "A harmonic mean of speeds gives the constant speed that covers the same distance in the same time, unlike an arithmetic mean or median of speeds.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean:q3"
+  },
+  {
+   "prompt": "A class's test scores range from 40 to 90. Which value could not be an average of those scores?",
+   "options": [
+    {
+     "id": "a",
+     "label": "95"
+    },
+    {
+     "id": "b",
+     "label": "65"
+    },
+    {
+     "id": "c",
+     "label": "41"
+    },
+    {
+     "id": "d",
+     "label": "89"
+    }
+   ],
+   "answer": "a",
+   "explain": "All averages of a collection lie within its bounds, between the maximum and minimum.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean:q4"
+  },
+  {
+   "prompt": "A shop wants the most popular shirt colour among its sales. Which average can handle colours, which are categories?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The arithmetic mean"
+    },
+    {
+     "id": "b",
+     "label": "The mode"
+    },
+    {
+     "id": "c",
+     "label": "The harmonic mean"
+    },
+    {
+     "id": "d",
+     "label": "The mid-range"
+    }
+   ],
+   "answer": "b",
+   "explain": "The mode is the most common value and can be used when the data is categorical rather than numeric.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean:q5"
+  },
+  {
+   "prompt": "A poll averages answers from 500 people drawn from a city. What is that mean called, compared with the mean of the whole group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The group mean"
+    },
+    {
+     "id": "b",
+     "label": "The harmonic mean"
+    },
+    {
+     "id": "c",
+     "label": "The sample mean"
+    },
+    {
+     "id": "d",
+     "label": "The mode"
+    }
+   ],
+   "answer": "c",
+   "explain": "A mean from a sample of a larger group is called the sample mean, to distinguish it from the group mean of the underlying distribution.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.statistics.descriptive-statistics.mean:q6"
+  }
+ ],
+ "source": {
+  "title": "Average",
+  "url": "https://en.wikipedia.org/wiki/Average",
+  "revision": 1383291919
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a mean is",
+    "text": "An average is a single value that stands for a whole collection: the one that is most central or typical. A mean is one kind of average, a number that sits at the center of a list of numbers, somewhere between its smallest and largest values. Statistics uses several kinds of means, which also go by the name measures of central tendency.",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "The arithmetic mean",
+    "text": "The kind people use most is the arithmetic mean: add up the numbers and divide by how many there are. For the list 2, 3, 4, 7 and 9, the total is 25 and there are five numbers, so the mean is 25/5 = 5. It is usually written with a bar over the letter, as x̄. When the numbers come from a sample of a bigger group, x̄ is called the sample mean, to keep it apart from the mean of the underlying distribution, written μ.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "A mean squeezes a whole group of data into one number that shows its size and sign. The mean, the median and the mode are the most common of these summaries, and in school the word average can point to any of the three. Which one tells you the most depends on what you are measuring and why.",
+    "cites": [
+     5,
+     6,
+     10,
+     21
+    ]
+   },
+   {
+    "heading": "When the mean misleads",
+    "text": "For skewed data, where values trail off in a long tail on one side, the mean need not match the middle value or the most likely value. Income is one example. A small number of people with huge incomes pull the mean up, so most people earn less than the mean. The median income, by contrast, splits the population in half, and the mode income is the single most likely income.",
+    "cites": [
+     11,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Other kinds of mean",
+    "text": "Some means suit special jobs. The harmonic mean is the reciprocal of the mean of the reciprocals, and it fits rates and ratios. If you cover the same distance several times at different speeds, the harmonic mean of those speeds gives the one steady speed that would cover the same distance in the same time, which the ordinary mean of the speeds does not. The geometric mean and the quadratic mean are further options, though people rarely call them the average.",
+    "cites": [
+     13,
+     14,
+     17
+    ]
+   },
+   {
+    "heading": "Rules every average follows",
+    "text": "Every average of a list of numbers lies between the largest and smallest values. So if every number in a list is the same, the average is that number too. Multiply every value by the same factor and the commonly used averages are multiplied by that factor as well. Most averages also ignore order, so shuffling the list leaves them unchanged.",
+    "cites": [
+     26,
+     27,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "The mean of a chance process",
+    "text": "The idea stretches from lists of numbers to chance. For a probability distribution, the mean is what a random variable with that distribution averages out to over the long run, and it is also called the expected value, written E(X). The mean does not always exist, though. For some distributions it is infinite, and for others it is not defined at all.",
+    "cites": [
+     37,
+     38,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-2-5",
+   "kind": "book",
+   "title": "2.5 Measures of the Center of the Data",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
+   "note": "A free textbook section on the mean, median and mode, with worked examples and practice problems.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-2-6",
+   "kind": "book",
+   "title": "2.6 Skewness and the Mean, Median, and Mode",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-6-skewness-and-the-mean-median-and-mode",
+   "note": "A free textbook section on how a skewed shape pulls the mean, median and mode apart.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "mathworld-mean",
+   "kind": "article",
+   "title": "Arithmetic Mean",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/ArithmeticMean.html",
+   "note": "A compact reference entry on the arithmetic mean, its formula and its links to other means."
+  },
+  {
+   "id": "cc-mean-median-mode",
+   "kind": "video",
+   "title": "Mean, Median, and Mode: Measures of Central Tendency: Crash Course Statistics #3",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=kn83BA7cRNM",
+   "note": "A Crash Course video comparing the mean, median and mode as measures of central tendency."
+  }
+ ]
+}

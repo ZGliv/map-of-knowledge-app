@@ -1,0 +1,218 @@
+{
+ "summary": [
+  {
+   "text": "An indicator function of a subset maps each element of the subset to one and every other element to zero.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It has several notations, including 𝟙_A, χ_A and the Iverson bracket [ x ∈ A ].",
+   "cites": [
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "In probability, the indicator random variable of an event A equals 1 when the outcome is in A and 0 otherwise.",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Values",
+   "value": "Only 1 for members and 0 for non-members",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Famous example",
+   "value": "The Dirichlet function is the indicator of the rationals",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Empty set",
+   "value": "If A is empty, its indicator is always 0",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Fuzzy sets",
+   "value": "Values may fall anywhere from 0 to 1",
+   "cites": [
+    29,
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Let A be the set of days it rained last month. The indicator of A gives 0 for Tuesday. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rained on Tuesday"
+    },
+    {
+     "id": "b",
+     "label": "Tuesday was a day with no rain"
+    },
+    {
+     "id": "c",
+     "label": "Tuesday is not a valid day"
+    },
+    {
+     "id": "d",
+     "label": "Rain on Tuesday was unlikely"
+    }
+   ],
+   "answer": "b",
+   "explain": "An indicator gives one for elements of the set and zero for all others, so zero means Tuesday is not in A.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "Suppose no element at all belongs to the set A. What does the indicator of A output?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Always 1"
+    },
+    {
+     "id": "b",
+     "label": "It is undefined"
+    },
+    {
+     "id": "c",
+     "label": "Always 0"
+    },
+    {
+     "id": "d",
+     "label": "1 for the first element and 0 after"
+    }
+   ],
+   "answer": "c",
+   "explain": "If A is empty, its indicator is identically zero.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "You roll a die and let A be the event of a six. What values can the indicator random variable of A take?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number of sixes divided by the number of rolls"
+    },
+    {
+     "id": "b",
+     "label": "The chance of getting a six"
+    },
+    {
+     "id": "c",
+     "label": "6 if a six comes up and 0 otherwise"
+    },
+    {
+     "id": "d",
+     "label": "1 if a six comes up and 0 otherwise"
+    }
+   ],
+   "answer": "d",
+   "explain": "The indicator random variable is 1 when the outcome is in the event and 0 otherwise.",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "prompt": "A thermostat app wants to say a room is warm to a degree of 0.7, not just yes or no. Why can an ordinary indicator not do this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It takes only the values 1 and 0, and degrees need fuzzy-set membership functions"
+    },
+    {
+     "id": "b",
+     "label": "It only works on numbers that are rational"
+    },
+    {
+     "id": "c",
+     "label": "It can only describe sets that have a smooth shape"
+    },
+    {
+     "id": "d",
+     "label": "It must always return the value one for a warm room"
+    }
+   ],
+   "answer": "a",
+   "explain": "In classical mathematics a set's indicator takes only 1 or 0. Fuzzy sets generalise it to values between 0 and 1, called membership functions.",
+   "cites": [
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "prompt": "Why do probability writers avoid calling this 1-or-0 function by its other name, characteristic function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That name is only for sets of rational numbers"
+    },
+    {
+     "id": "b",
+     "label": "That name already means something unrelated in probability"
+    },
+    {
+     "id": "c",
+     "label": "That name belongs to fuzzy logic alone"
+    },
+    {
+     "id": "d",
+     "label": "That name describes a function that is never zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "In classic probability theory, characteristic function has an unrelated meaning, so traditional probabilists use indicator function almost exclusively.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "A function on the real numbers returns 1 at every rational number and 0 at every other real number. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Möbius function"
+    },
+    {
+     "id": "b",
+     "label": "A membership function"
+    },
+    {
+     "id": "c",
+     "label": "A dummy variable"
+    },
+    {
+     "id": "d",
+     "label": "The Dirichlet function"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Dirichlet function is the indicator function of the rational numbers as a subset of the real numbers.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

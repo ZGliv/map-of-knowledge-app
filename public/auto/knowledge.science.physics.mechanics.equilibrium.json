@@ -1,0 +1,594 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.equilibrium",
+ "name": "Equilibrium",
+ "summary": [
+  {
+   "text": "A system is in mechanical equilibrium when the net force on each of its parts is zero, so the parts keep a constant momentum and velocity.",
+   "cites": [
+    1,
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Equilibrium can be static, with nothing moving, or it can involve steady motion, like a child sliding down a slide at constant speed.",
+   "cites": [
+    8,
+    33,
+    34
+   ]
+  },
+  {
+   "text": "An equilibrium is stable if a small nudge brings back restoring forces, and unstable if the nudge makes forces push the system farther away.",
+   "cites": [
+    12,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Net force",
+   "value": "Zero on every part",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Rotational condition",
+   "value": "Net torque is zero",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Static equilibrium",
+   "value": "Equilibrium with zero velocity",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Stable equilibrium",
+   "value": "Potential energy at a local minimum",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Unstable equilibrium",
+   "value": "Potential energy at a local maximum",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A child glides down a playground slide at a steady, unchanging speed. How would a physicist describe this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Out of equilibrium, since she moves"
+    },
+    {
+     "id": "b",
+     "label": "In static equilibrium, like a paperweight"
+    },
+    {
+     "id": "c",
+     "label": "In mechanical equilibrium, though not at rest"
+    },
+    {
+     "id": "d",
+     "label": "Out of equilibrium, since gravity acts"
+    }
+   ],
+   "answer": "c",
+   "explain": "Constant velocity means zero net force, so she is in mechanical equilibrium but not static equilibrium.",
+   "cites": [
+    33,
+    34,
+    30
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium:q1"
+  },
+  {
+   "prompt": "A marble rests at the bottom of a bowl and is nudged slightly. What do the forces do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Return it toward where it began"
+    },
+    {
+     "id": "b",
+     "label": "Push it farther away"
+    },
+    {
+     "id": "c",
+     "label": "Leave it wherever it was nudged"
+    },
+    {
+     "id": "d",
+     "label": "Make it speed up without limit"
+    }
+   ],
+   "answer": "a",
+   "explain": "At a local minimum of potential energy, a small disturbance meets forces that tend to restore equilibrium.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium:q2"
+  },
+  {
+   "prompt": "A pencil balanced perfectly on its sharp tip can be in equilibrium, yet it never stays. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity on it is zero at the tip"
+    },
+    {
+     "id": "b",
+     "label": "Nothing balances it, even undisturbed"
+    },
+    {
+     "id": "c",
+     "label": "Small nudges get absorbed and it settles"
+    },
+    {
+     "id": "d",
+     "label": "Any slight disturbance makes forces carry it farther away"
+    }
+   ],
+   "answer": "d",
+   "explain": "At a local maximum of potential energy the equilibrium is unstable, so a tiny displacement grows.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium:q3"
+  },
+  {
+   "prompt": "A ball sits on a saddle-shaped surface: nudged sideways it rolls back, nudged forward it rolls off. Is that called stable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since one direction is stable"
+    },
+    {
+     "id": "b",
+     "label": "No, stability needs every direction"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because it started at rest"
+    },
+    {
+     "id": "d",
+     "label": "No, a saddle has no equilibrium"
+    }
+   ],
+   "answer": "b",
+   "explain": "Generally an equilibrium is called stable only if it is stable in all directions.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium:q4"
+  },
+  {
+   "prompt": "A beam sits on extra supports, and the force and moment balance equations cannot fix every support's push. What can be done?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Assume the net force is not zero"
+    },
+    {
+     "id": "b",
+     "label": "Drop the equilibrium requirement"
+    },
+    {
+     "id": "c",
+     "label": "Bring in information from outside those equations"
+    },
+    {
+     "id": "d",
+     "label": "Ignore the extra supports"
+    }
+   ],
+   "answer": "c",
+   "explain": "Such statically indeterminate cases can often be solved with information beyond the standard equilibrium equations.",
+   "cites": [
+    27,
+    28,
+    29
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium:q5"
+  },
+  {
+   "prompt": "Which of these is an object at mechanical equilibrium while at rest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A paperweight sitting on a desk"
+    },
+    {
+     "id": "b",
+     "label": "A child sliding at constant speed"
+    },
+    {
+     "id": "c",
+     "label": "A stone dropping faster and faster"
+    },
+    {
+     "id": "d",
+     "label": "A ball speeding down a ramp"
+    }
+   ],
+   "answer": "a",
+   "explain": "A paperweight on a desk is the standard example of static equilibrium.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/WeightNormal.svg/960px-WeightNormal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Equilibrium",
+  "credit": "Mog_peso.jpg: Algarabia derivative work: kismalac",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:WeightNormal.svg"
+ },
+ "source": {
+  "title": "Mechanical equilibrium",
+  "url": "https://en.wikipedia.org/wiki/Mechanical_equilibrium",
+  "revision": 1383639153
+ },
+ "pack": {
+  "id": "auto-mechanics-equilibrium",
+  "title": "Balanced, Yet Moving",
+  "question": "Does being in balance mean standing still?",
+  "path": [
+   "Science",
+   "Physics",
+   "Mechanics",
+   "Equilibrium"
+  ],
+  "hue": 202,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/WeightNormal.svg/960px-WeightNormal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Equilibrium",
+    "credit": "Mog_peso.jpg: Algarabia derivative work: kismalac · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:WeightNormal.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Balanced, Yet Moving",
+    "hook": "A child zooming down a slide is perfectly balanced."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-mechanics-equilibrium:1",
+    "transfer": false,
+    "prompt": "A marble sits at the very top of a smooth upside-down bowl and gets a tiny nudge. What happens?",
+    "explain": "At a local maximum of potential energy, a small displacement makes forces push the system even farther away, an unstable equilibrium.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It stays wherever it was nudged",
+        "feedback": "That describes a flat, neutral spot; the top of a bowl is not flat."
+       },
+       {
+        "id": "b",
+        "label": "Forces carry it farther away"
+       },
+       {
+        "id": "a",
+        "label": "It rolls back to the top",
+        "feedback": "Restoring forces belong to a low point, not a hilltop."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-mechanics-equilibrium:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each case: is it in mechanical equilibrium?",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Paperweight on a desk"
+     },
+     {
+      "id": "i1",
+      "label": "Child sliding at constant speed"
+     },
+     {
+      "id": "i2",
+      "label": "Jenga stack standing steady"
+     },
+     {
+      "id": "i3",
+      "label": "Jenga stack collapsing"
+     },
+     {
+      "id": "i4",
+      "label": "Stone speeding up as it falls"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Equilibrium"
+     },
+     {
+      "id": "g1",
+      "label": "Not equilibrium"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Equilibrium needs zero net force, so constant velocity counts, while collapsing or speeding up does not."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-mechanics-equilibrium:3",
+    "transfer": true,
+    "prompt": "Match each situation to its type of equilibrium.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Potential energy at a local minimum"
+     },
+     {
+      "id": "l1",
+      "label": "Potential energy at a local maximum"
+     },
+     {
+      "id": "l2",
+      "label": "Zero velocity"
+     },
+     {
+      "id": "l3",
+      "label": "Stable one way, not another"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Static equilibrium"
+     },
+     {
+      "id": "r0",
+      "label": "Stable equilibrium"
+     },
+     {
+      "id": "r3",
+      "label": "Saddle point"
+     },
+     {
+      "id": "r1",
+      "label": "Unstable equilibrium"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The shape of the potential energy around a point tells you how it responds to a small nudge."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-mechanics-equilibrium:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A particle is in mechanical equilibrium when the net force on it is zero."
+     },
+     {
+      "id": "b",
+      "text": "So a book resting on a table is in equilibrium."
+     },
+     {
+      "id": "c",
+      "text": "A child sliding at constant speed also has a constant velocity."
+     },
+     {
+      "id": "d",
+      "text": "So the child cannot be in equilibrium, because she is moving."
+     }
+    ],
+    "answer": "d",
+    "explain": "Constant velocity means zero net force, so a moving child is in mechanical equilibrium but not in static equilibrium."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A system is in mechanical equilibrium when the net force on every part is zero, which allows steady motion as well as rest, and a small nudge decides whether it is stable.",
+    "connections": [
+     {
+      "title": "Torque",
+      "place": "Equilibrium",
+      "node": "knowledge.science.physics.mechanics.equilibrium.torque"
+     },
+     {
+      "title": "Center of mass",
+      "place": "Equilibrium",
+      "node": "knowledge.science.physics.mechanics.equilibrium.center-of-mass"
+     },
+     {
+      "title": "Lever",
+      "place": "Equilibrium",
+      "node": "knowledge.science.physics.mechanics.equilibrium.lever"
+     },
+     {
+      "title": "Stable equilibrium",
+      "place": "Equilibrium",
+      "node": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "At a local maximum of potential energy, a small displacement makes forces push the system even farther away, an unstable equilibrium.",
+    "source": "Wikipedia sentences 11, 12"
+   },
+   {
+    "claim": "Equilibrium needs zero net force, so constant velocity counts, while collapsing or speeding up does not.",
+    "source": "Wikipedia sentences 1, 5, 30, 32, 34"
+   },
+   {
+    "claim": "The shape of the potential energy around a point tells you how it responds to a small nudge.",
+    "source": "Wikipedia sentences 8, 11, 13, 25"
+   },
+   {
+    "claim": "Constant velocity means zero net force, so a moving child is in mechanical equilibrium but not in static equilibrium.",
+    "source": "Wikipedia sentences 1, 5, 34"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "When forces cancel",
+    "text": "In classical mechanics, a particle is in mechanical equilibrium when the net force on it is zero. A system made of many parts is in equilibrium when the net force on every one of those parts is zero. The same idea can be put in other, equivalent ways: the momentum of each part stays constant, or the velocity stays constant. For turning motion, equilibrium means the net torque is zero and angular momentum is conserved.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Still or steady",
+    "text": "If a particle in equilibrium has zero velocity, it is in static equilibrium. A paperweight on a desk is one example, and so is a Jenga stack that is not in the middle of collapsing. Moving things can be in equilibrium too: a child sliding down a slide at constant speed is in mechanical equilibrium, but not static equilibrium, as seen from the slide or the earth. Since every particle in equilibrium has constant velocity, you can always find an inertial reference frame in which it is standing still.",
+    "cites": [
+     8,
+     9,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Stable or unstable",
+    "text": "An important property of any equilibrium is its stability. When the potential energy is at a local maximum, the equilibrium is unstable: move the system even a tiny distance and the forces push it farther away. When the potential energy is at a local minimum, a small nudge brings forces that tend to restore the balance. If a system has more than one stable state, any of them with potential energy above the absolute lowest is called metastable.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Neutral states and saddles",
+    "text": "In a truly neutral state the energy does not change, and the equilibrium covers a finite width. This is sometimes called marginally stable, or a state of indifference. In more than one dimension, a system can be stable when pushed along x but unstable when pushed along y, a case known as a saddle point. In general, an equilibrium is only called stable if it is stable in every direction.",
+    "cites": [
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "A hand on a spring",
+    "text": "Picture a person pressing a spring to a chosen point and holding it there. At that point the push and the spring's reaction are equal, so the system is in mechanical equilibrium. When the push is taken away, the spring goes back to its original state.",
+    "cites": [
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "When the sums fall short",
+    "text": "Sometimes the equilibrium equations, which balance forces and moments, are not enough to work out all the forces and reactions. Such a case is called statically indeterminate. These problems can often be solved with information from outside the standard equilibrium equations.",
+    "cites": [
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "The gömböc",
+    "text": "A question of special interest is how few static equilibria a uniform, convex body can have when it rests under gravity on a flat surface. For flat, two-dimensional shapes the smallest number is 4. In three dimensions, though, an object can be built with just one stable and one unstable balance point. Such an object is called a gömböc.",
+    "cites": [
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-12-1",
+   "kind": "book",
+   "title": "12.1 Conditions for Static Equilibrium",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+   "note": "A free textbook section on the force and torque conditions for equilibrium, with free-body diagrams.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-8-4",
+   "kind": "book",
+   "title": "8.4 Potential Energy Diagrams and Stability",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/8-4-potential-energy-diagrams-and-stability",
+   "note": "Shows how stable and unstable equilibrium sit at minima and maxima of potential energy.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-9-3",
+   "kind": "book",
+   "title": "9.3 Stability",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+   "note": "An introductory textbook section on stable, unstable and neutral equilibrium with everyday examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crash-course-13",
+   "kind": "video",
+   "title": "Statics: Crash Course Physics #13",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=9cbF9A6eQNA",
+   "note": "A Crash Course Physics episode on statics: objects held in balance by forces and torques."
+  }
+ ]
+}

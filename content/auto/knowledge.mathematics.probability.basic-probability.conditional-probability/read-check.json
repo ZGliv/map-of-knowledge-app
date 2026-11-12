@@ -1,0 +1,30 @@
+{
+ "readHash": "c35d4a1dffa60d5a3498339451c3d6045bd03b47",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Probability of A knowing B occurred (38); cough 5%, sick 75%, P(Cough|Sick) notation (1-3)"
+  },
+  "r1": {
+   "supported": true,
+   "why": "P(A∩B)/P(B) defined (19, 38, 39), equally likely share (16, 17), definition not result (18), undefined if P(B)=0 (21)"
+  },
+  "r2": {
+   "supported": true,
+   "why": "Two dice, sum at most 5 (32), 36 outcomes at 1/36 (33), events A and B (34), 3/10 (35)"
+  },
+  "r3": {
+   "supported": true,
+   "why": "May or may not equal P(A) (5), independence (6), no relation or simultaneity needed (4)"
+  },
+  "r4": {
+   "supported": true,
+   "why": "P(A|B) differs from P(B|A) (7), dengue 90% and 15% due to false positives (8-11), base rate fallacies (12)"
+  },
+  "r5": {
+   "supported": true,
+   "why": "Limited information so reverse via Bayes (13, 14), table (15), evidence interpretation and before/after (42-44)"
+  }
+ }
+}

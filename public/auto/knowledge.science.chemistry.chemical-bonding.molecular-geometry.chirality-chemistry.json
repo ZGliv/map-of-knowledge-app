@@ -1,0 +1,338 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry",
+ "name": "Chirality (chemistry)",
+ "summary": [
+  {
+   "text": "A molecule or ion is chiral if it cannot be superposed on its mirror image by any combination of rotations, translations and some conformational changes.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A chiral molecule exists as two mirror-image stereoisomers called enantiomers, which have the same chemical properties except when reacting with other chiral compounds.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Chirality matters in biochemistry: organisms typically hold only one enantiomer of a chiral compound, so the effects of a drug's enantiomers can differ sharply.",
+   "cites": [
+    23,
+    26,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "Ancient Greek cheir, meaning hand",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Most common source",
+   "value": "A carbon atom with four distinct groups attached",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Racemic mixture",
+   "value": "Equal parts of both enantiomers",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Amino acids",
+   "value": "All but one are chiral",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The word chirality comes from the Greek for \"hand\", and a hand is the classic example. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hands have five parts, like the groups around a stereocenter"
+    },
+    {
+     "id": "b",
+     "label": "Hands come in pairs, so chiral molecules form pairs of atoms"
+    },
+    {
+     "id": "c",
+     "label": "A hand can be rotated into place over its mirror image"
+    },
+    {
+     "id": "d",
+     "label": "A hand and its mirror image cannot be laid exactly over each other"
+    }
+   ],
+   "answer": "d",
+   "explain": "A hand is the canonical example of an object that cannot be superposed on its mirror image, which is what chirality means.",
+   "cites": [
+    1,
+    3
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry:q1"
+  },
+  {
+   "prompt": "An organic molecule has exactly one carbon bonded to four different groups, and no other stereogenic carbon. What must be true of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is chiral"
+    },
+    {
+     "id": "b",
+     "label": "It is achiral, since a single centre has no mirror"
+    },
+    {
+     "id": "c",
+     "label": "It is a meso compound"
+    },
+    {
+     "id": "d",
+     "label": "It is chiral only at low temperature"
+    }
+   ],
+   "answer": "a",
+   "explain": "An organic compound with only one stereogenic carbon is always chiral.",
+   "cites": [
+    10,
+    14
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry:q2"
+  },
+  {
+   "prompt": "A molecule has several stereocenters, but they are arranged so that it can take a conformation with a plane of symmetry. Is it chiral?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since several stereocenters always make it chiral"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only in its conformation without symmetry"
+    },
+    {
+     "id": "c",
+     "label": "No, it is achiral and known as a meso compound"
+    },
+    {
+     "id": "d",
+     "label": "No, it is chiral only when it has one stereocenter"
+    }
+   ],
+   "answer": "c",
+   "explain": "A compound with multiple stereogenic carbons is typically, but not always, chiral; one that can take a conformation with a plane of symmetry is achiral and called a meso compound.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry:q3"
+  },
+  {
+   "prompt": "An organism feeds on a chiral compound. What is it likely to do with the compound's mirror-image form?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Use it just as well, since the chemistry is the same"
+    },
+    {
+     "id": "b",
+     "label": "Usually be unable to metabolise it"
+    },
+    {
+     "id": "c",
+     "label": "Turn it into the first form at once"
+    },
+    {
+     "id": "d",
+     "label": "Store it unchanged as a racemic mixture"
+    }
+   ],
+   "answer": "b",
+   "explain": "Living organisms typically hold only one enantiomer, so organisms that consume a chiral compound usually can metabolise only one of its enantiomers.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry:q4"
+  },
+  {
+   "prompt": "A chemist mixes equal parts of the two enantiomers of a compound. How does the mixture compare with a pure enantiomer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It behaves exactly like either pure form"
+    },
+    {
+     "id": "b",
+     "label": "It differs only in its optical activity"
+    },
+    {
+     "id": "c",
+     "label": "It is a single new molecule joined together"
+    },
+    {
+     "id": "d",
+     "label": "It differs chemically and physically from the pure forms"
+    }
+   ],
+   "answer": "d",
+   "explain": "A racemic mixture, equal parts of both enantiomers, differs chemically and physically from the pure enantiomers.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry:q5"
+  },
+  {
+   "prompt": "At room temperature butane is considered achiral, even though some of its conformers are chiral. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Rotation about its central bond rapidly interconverts the mirror-image forms"
+    },
+    {
+     "id": "b",
+     "label": "Its twisted conformers do not actually exist"
+    },
+    {
+     "id": "c",
+     "label": "Its mirror-image forms are too alike to tell apart"
+    },
+    {
+     "id": "d",
+     "label": "It is too small to have any real shape"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rotation about the central C–C bond rapidly interconverts the enantiomeric conformers, so the molecule is considered achiral at room temperature.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Chirality_with_hands.svg/960px-Chirality_with_hands.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Chirality (chemistry)",
+  "credit": "Original: Unknown Vector: -- πϵρήλιο",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Chirality_with_hands.svg"
+ },
+ "source": {
+  "title": "Chirality (chemistry)",
+  "url": "https://en.wikipedia.org/wiki/Chirality_(chemistry)",
+  "revision": 1379840299
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Handedness in molecules",
+    "text": "A molecule or ion is chiral if it cannot be laid exactly over its mirror image, whatever rotations, shifts and some changes of shape you try. This property is called chirality. The word comes from the Ancient Greek for hand, the standard example of an object that behaves this way.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Enantiomers",
+    "text": "A chiral molecule exists in two mirror-image forms called enantiomers, often labelled right-handed or left-handed. The pair share the same chemical properties, except when they react with other chiral compounds. Their physical properties also match, except that they often show opposite optical activity. An equal mix of the two, called a racemic mixture, differs both chemically and physically from either pure form.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Stereocenters",
+    "text": "Chirality usually arises from a stereogenic element, and the most common one is a stereocenter. In organic compounds this is most often a carbon atom bonded to four different groups in a tetrahedral arrangement. Less often, atoms such as N, P, S and Si fill this role, provided they carry four distinct substituents, counting lone pair electrons. Each stereocenter has two possible configurations, called R and S.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "One center or many",
+    "text": "An organic compound with just one stereogenic carbon is always chiral. With several, it usually is, but not always. If the centers are arranged so the molecule can take a shape with a plane of symmetry or an inversion point, it is achiral and is called a meso compound. Rarer kinds of chirality come from an axis, a plane or the curvature of the whole molecule; helicene, for instance, has helical chirality.",
+    "cites": [
+     14,
+     15,
+     16,
+     18,
+     19,
+     20,
+     22
+    ]
+   },
+   {
+    "heading": "Why biology cares",
+    "text": "Most substances that matter in biology are chiral, including sugars, starch, cellulose, nucleic acids and all but one of the amino acids that build proteins. Living things typically contain just one of the two enantiomers of any given chiral compound. So organisms that consume such a compound can usually metabolize only one form. For the same reason, the two enantiomers of a drug can differ sharply in potency or effect.",
+    "cites": [
+     24,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "It depends on temperature",
+    "text": "Whether a molecule counts as chiral can depend on how quickly its mirror-image shapes turn into each other. Butane has chiral twisted forms, but at room temperature rotation about its central C–C bond swaps them fast, so it is treated as achiral. If the temperature is low enough, that swapping slows and the molecule is then considered chiral. Molecules that stay chiral at room temperature because rotation about a single bond is restricted are said to show atropisomerism.",
+    "cites": [
+     31,
+     32,
+     35,
+     36,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-orgchem-5-2",
+   "kind": "book",
+   "title": "5.2 The Reason for Handedness in Molecules: Chirality",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-2-the-reason-for-handedness-in-molecules-chirality",
+   "note": "A free textbook section on what makes a molecule chiral or achiral and how to spot chirality centers.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-chirality",
+   "kind": "book",
+   "title": "Organic Chemistry/Chirality",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Organic_Chemistry/Chirality",
+   "note": "An open textbook page on chirality in organic molecules.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "crashcourse-stereochemistry",
+   "kind": "video",
+   "title": "Stereochemistry: Crash Course Organic Chemistry #8",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Bw_cetheReo",
+   "note": "A Crash Course video on stereochemistry and how to tell chiral from achiral molecules, with practice."
+  }
+ ]
+}

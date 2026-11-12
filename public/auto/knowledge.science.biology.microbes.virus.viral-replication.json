@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.virus.viral-replication",
+ "name": "Viral replication",
+ "summary": [
+  {
+   "text": "Viral replication is the formation of new viruses inside the target host cells during infection.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A virus attaches to a host cell, passes into it, has its protein coat removed, and then rapidly produces copies of its genome.",
+   "cites": [
+    9,
+    14,
+    29,
+    30,
+    36
+   ]
+  },
+  {
+   "text": "The host cell has to supply the energy, the synthetic machinery and the precursors for making viral proteins and nucleic acids.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "DNA virus site",
+   "value": "Most DNA viruses assemble in the nucleus",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "RNA virus site",
+   "value": "Most RNA viruses develop solely in the cytoplasm",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Common way in",
+   "value": "Receptor-mediated endocytosis, at no energy cost to the virus",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Rhinovirus attachment",
+   "value": "It binds ICAM-1, a receptor that normally helps cells adhere",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Two life cycles",
+   "value": "The lytic cycle and the lysogenic cycle",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab puts virus particles in a flask of nutrient broth with no living cells. Will they multiply there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the broth supplies what they need to copy themselves"
+    },
+    {
+     "id": "b",
+     "label": "No, because viruses multiply only in living cells"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only at a slower rate than usual"
+    },
+    {
+     "id": "d",
+     "label": "Only if the broth is warmed above room temperature"
+    }
+   ],
+   "answer": "b",
+   "explain": "Viruses multiply only in living cells; the host cell provides the energy, machinery and precursors.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.biology.microbes.virus.viral-replication:q1"
+  },
+  {
+   "prompt": "What lets a virus stick to the right cell before it gets in?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hooks of lipid that pierce straight through the cell"
+    },
+    {
+     "id": "b",
+     "label": "The cell's own digestive enzymes, which pull it close"
+    },
+    {
+     "id": "c",
+     "label": "A protein extending from its capsid that binds a receptor on the cell surface"
+    },
+    {
+     "id": "d",
+     "label": "A sticky film that lets it cling to any surface"
+    }
+   ],
+   "answer": "c",
+   "explain": "Attachment is often achieved by a virus attachment protein extending from the capsid that binds a surface receptor on the host cell.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.biology.microbes.virus.viral-replication:q2"
+  },
+  {
+   "prompt": "Rhinovirus binds ICAM-1, a receptor that cells use to stick to each other. What does this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Viruses build their own receptors on host cells"
+    },
+    {
+     "id": "b",
+     "label": "Cells make receptors that are meant to welcome viruses"
+    },
+    {
+     "id": "c",
+     "label": "Receptors only work on virus-infected cells"
+    },
+    {
+     "id": "d",
+     "label": "Viruses can exploit normal cell receptor functions to attach"
+    }
+   ],
+   "answer": "d",
+   "explain": "Viruses can exploit normal cell receptor functions by mimicking molecules that bind to host cell receptors.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.biology.microbes.virus.viral-replication:q3"
+  },
+  {
+   "prompt": "When a virus slips in by the most common route, which side spends energy on the entry?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the cell being infected"
+    },
+    {
+     "id": "b",
+     "label": "Only the virus"
+    },
+    {
+     "id": "c",
+     "label": "Both share the cost equally"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since it needs no energy at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Receptor-mediated endocytosis comes at no energy cost to the virus, only the host cell.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.biology.microbes.virus.viral-replication:q4"
+  },
+  {
+   "prompt": "A virus is inside a cell with its genetic material still packaged. Which step must come before its genome can be copied?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Attachment to a receptor on the plasma membrane"
+    },
+    {
+     "id": "b",
+     "label": "Uncoating, which removes the virion's coat and frees the genes"
+    },
+    {
+     "id": "c",
+     "label": "Cell-to-cell fusion that forms a syncytium"
+    },
+    {
+     "id": "d",
+     "label": "Entry through the cell's outer membrane"
+    }
+   ],
+   "answer": "b",
+   "explain": "Uncoating is the third step, after attachment and entry, and comes before replication of the genome.",
+   "cites": [
+    14,
+    29,
+    30,
+    36
+   ],
+   "id": "knowledge.science.biology.microbes.virus.viral-replication:q5"
+  },
+  {
+   "prompt": "A viral genome is built into the host's genome, copied whenever the host divides, and only later triggered to make virus. Which life cycle is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The lysogenic cycle, where the viral genome joins the host's"
+    },
+    {
+     "id": "b",
+     "label": "The lytic cycle, where the virus hijacks machinery at once"
+    },
+    {
+     "id": "c",
+     "label": "Cell-to-cell fusion, where infected cells draw in neighbours"
+    },
+    {
+     "id": "d",
+     "label": "Endocytosis, where the cell wraps a virus in a vesicle"
+    }
+   ],
+   "answer": "a",
+   "explain": "In the lysogenic cycle the viral genome is incorporated into the host genome and copied with it, and can later be triggered to begin viral production.",
+   "cites": [
+    43,
+    44,
+    45
+   ],
+   "id": "knowledge.science.biology.microbes.virus.viral-replication:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/T4_phage_EM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Viral replication",
+  "credit": "7USSR7",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:T4_phage_EM.jpg"
+ },
+ "source": {
+  "title": "Viral replication",
+  "url": "https://en.wikipedia.org/wiki/Viral_replication",
+  "revision": 1355941558
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Making more viruses",
+    "text": "Viral replication is how new viruses are made inside the cells a virus infects. A virus can multiply only within a living cell, and it has to get inside first. By turning out many copies of its genes and packing them up, it goes on to infect new hosts. The host cell pays for all of it, supplying the energy, the building machinery and the small raw materials for viral proteins and nucleic acids.",
+    "cites": [
+     1,
+     2,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Step one, attachment",
+    "text": "The process starts when a virus latches on to a host cell. Often it does so with an attachment protein that sticks out from its protein shell, the capsid. That protein binds a receptor on the cell's outer membrane. Viruses can take advantage of a receptor's normal job by mimicking the molecules that usually bind it. The rhinovirus, for example, grips a receptor called ICAM-1, which cells normally use to stick to one another.",
+    "cites": [
+     8,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Step two, getting in",
+    "text": "Next the virus crosses the cell's outer membrane, a step called entry or penetration. The most common route is receptor-mediated endocytosis: the virus binds a receptor, chemical signals follow, and the cell folds its membrane around the virus to form a small bubble, or vesicle, inside the cell. This costs the virus no energy, only the host. In other cases, proteins on the outside of the virus make it fuse with the membrane, which opens a pore; once inside, the virus sheds its coat and its genes move into the cytoplasm.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Step three, uncoating",
+    "text": "Once inside, the virus loses its protein coat and lets its genetic material out, a step called uncoating. Viruses do this in different ways. Rhinoviruses use the low pH inside the cell's endosomes to trigger it, releasing a protein that punches holes so the genome can escape. Many DNA viruses instead travel to the nucleus and pass their genes in through its pores.",
+    "cites": [
+     29,
+     30,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Step four, copying the genome",
+    "text": "The fourth step is replication proper, the fast production of the viral genome. How it goes depends on what kind of genetic material the virus has, since each kind takes over the matching machinery in the cell. Viruses with double-stranded DNA share their kind of genetic material with all living things, so they can use the copying enzymes in the cell's nucleus. Many RNA viruses copy themselves in the cytosol and reach the cell's ribosomes directly to make viral proteins.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Two ways to live in a cell",
+    "text": "Viruses can follow one of two life cycles. In the lytic cycle, the virus puts its genome into the cell and starts copying by taking over the cell's machinery to make new viruses. In the lysogenic cycle, the viral genome is built into the host's own genome and is copied each time the cell divides. Later, chemical or environmental triggers can wake it up and start virus production.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-21-2",
+   "kind": "book",
+   "title": "21.2 Virus Infections and Hosts",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts",
+   "note": "A free college textbook section on the steps of virus infection, from attachment to release, with diagrams.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-micro-6-2",
+   "kind": "book",
+   "title": "6.2 The Viral Life Cycle",
+   "by": "OpenStax Microbiology",
+   "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+   "note": "A free textbook section on the lytic and lysogenic cycles and how animal viruses enter, uncoat and copy themselves.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

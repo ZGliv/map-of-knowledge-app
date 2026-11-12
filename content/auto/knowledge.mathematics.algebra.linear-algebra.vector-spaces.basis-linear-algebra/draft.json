@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "An ordered basis of an n-dimensional vector space lets you write any vector uniquely as a list of n numbers called coordinates.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Under a different basis the same vector usually gets different coordinates, and a change-of-basis matrix converts between them.",
+   "cites": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "A new group of n vectors is a basis exactly when its change-of-basis matrix is invertible, which means it has a nonzero determinant.",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Coordinates",
+   "value": "A list of n scalars in an n-dimensional space",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Transition matrix",
+   "value": "Its columns are the new basis vectors written in the old basis",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Basis test",
+   "value": "The change-of-basis matrix must be invertible",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Standard basis",
+   "value": "Tuples with a 1 in one place and 0 everywhere else",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Physics use",
+   "value": "Often a rotation of an orthonormal basis, never a translation",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two surveyors describe the same location in a plane, each using their own pair of reference directions. What do you expect of their coordinate lists?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are identical, since the location is identical"
+    },
+    {
+     "id": "b",
+     "label": "They are in general different"
+    },
+    {
+     "id": "c",
+     "label": "They are always negatives of each other"
+    },
+    {
+     "id": "d",
+     "label": "They are always in the same order but doubled"
+    }
+   ],
+   "answer": "b",
+   "explain": "The coordinate vector of a vector on one basis is, in general, different from its coordinate vector on another basis.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Once an ordered basis is fixed, how many coordinate lists can represent a single given vector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one"
+    },
+    {
+     "id": "b",
+     "label": "Exactly two, one per direction"
+    },
+    {
+     "id": "c",
+     "label": "As many as there are scalars"
+    },
+    {
+     "id": "d",
+     "label": "None, unless the vector is zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "An ordered basis allows representing any element of the space uniquely by a coordinate vector.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "Someone writes n new vectors using an old basis and puts their coordinates into a matrix. Its determinant is zero. Do the new vectors form a basis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any n vectors form a basis"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for the standard basis"
+    },
+    {
+     "id": "c",
+     "label": "No, the matrix would need to be invertible"
+    },
+    {
+     "id": "d",
+     "label": "No, the determinant would need to be one"
+    }
+   ],
+   "answer": "c",
+   "explain": "The new vectors form a basis if and only if the matrix is invertible, equivalently if its determinant is nonzero.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "In a change-of-basis matrix, what do the entries in column j describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The old basis vectors written in the new basis"
+    },
+    {
+     "id": "b",
+     "label": "The rows of the identity matrix"
+    },
+    {
+     "id": "c",
+     "label": "The j-th coordinate of every old vector"
+    },
+    {
+     "id": "d",
+     "label": "The j-th new basis vector written in the old basis"
+    }
+   ],
+   "answer": "d",
+   "explain": "The matrix columns are the coordinates of the new basis vectors on the old basis.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "In the space of triples of numbers, which triple belongs to the standard basis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "(1, 1, 1)"
+    },
+    {
+     "id": "b",
+     "label": "(2, 0, 0)"
+    },
+    {
+     "id": "c",
+     "label": "(0, 1, 0)"
+    },
+    {
+     "id": "d",
+     "label": "(1, 1, 0)"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each standard basis element has a 1 in one position and 0 in all the others.",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "prompt": "A physicist turns the axes of her coordinate system to line up with a ramp, keeping the origin fixed. In mechanics, how is such a change of orthonormal basis understood?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a rotation in physical space"
+    },
+    {
+     "id": "b",
+     "label": "As a stretching of physical space"
+    },
+    {
+     "id": "c",
+     "label": "As a shift of the origin"
+    },
+    {
+     "id": "d",
+     "label": "As a swap of two measurement units"
+    }
+   ],
+   "answer": "a",
+   "explain": "A change of basis in mechanics often transforms an orthonormal basis, understood as a rotation in physical space that excludes translations.",
+   "cites": [
+    7
+   ]
+  }
+ ]
+}

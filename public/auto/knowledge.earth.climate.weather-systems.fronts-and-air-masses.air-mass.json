@@ -1,0 +1,350 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass",
+ "name": "Air mass",
+ "summary": [
+  {
+   "text": "An air mass is a huge volume of air, covering hundreds or thousands of square miles, that is defined by its temperature and humidity.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Air masses take on the traits of the surface below them and are classified by latitude and by whether their source region is land or sea.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Weather fronts are the boundaries between air masses of different temperature or moisture, and once an air mass leaves its source region, the plants and water beneath it can quickly change it.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Typical size",
+   "value": "Hundreds or thousands of square miles",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Standard scheme",
+   "value": "The Bergeron classification",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Code example",
+   "value": "cPk: continental polar, colder than the surface",
+   "cites": [
+    11,
+    12,
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Main cT source",
+   "value": "The Sahara Desert in northern Africa",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A weather map labels an incoming body of air \"mT\". Where did it most likely take shape?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Over a frozen northern continent"
+    },
+    {
+     "id": "b",
+     "label": "Over a warm tropical sea"
+    },
+    {
+     "id": "c",
+     "label": "Over a hot inland desert"
+    },
+    {
+     "id": "d",
+     "label": "Over polar sea ice"
+    }
+   ],
+   "answer": "b",
+   "explain": "\"m\" means maritime, so it formed over water and is moist, and \"T\" means tropical, so it formed in warm low latitudes.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass:q1"
+  },
+  {
+   "prompt": "Air builds up over northern Siberia in winter, far from any ocean and very cold. Which code fits it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "mT"
+    },
+    {
+     "id": "b",
+     "label": "mP"
+    },
+    {
+     "id": "c",
+     "label": "cT"
+    },
+    {
+     "id": "d",
+     "label": "cA"
+    }
+   ],
+   "answer": "d",
+   "explain": "\"c\" marks dry air from over land and \"A\" marks Arctic air, and Siberian winter air is given as an example of cA.",
+   "cites": [
+    11,
+    12,
+    14
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass:q2"
+  },
+  {
+   "prompt": "A chilly polar air mass streams out over the warm water of the Gulf Stream. Which stability letter is added to its code?",
+   "options": [
+    {
+     "id": "a",
+     "label": "k, since the air is colder than the water under it"
+    },
+    {
+     "id": "b",
+     "label": "w, since the water is heating the air above it"
+    },
+    {
+     "id": "c",
+     "label": "m, since the air is now over the ocean"
+    },
+    {
+     "id": "d",
+     "label": "S, since the air is sinking and drying out"
+    }
+   ],
+   "answer": "a",
+   "explain": "The third letter compares the air with the surface below: \"k\" means the air is colder than that surface, and this case is written cPk.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass:q3"
+  },
+  {
+   "prompt": "Tropical air masses tend to come with lower air pressure than cold ones. What explains that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They hold far less water vapour"
+    },
+    {
+     "id": "b",
+     "label": "They form high up in the mountains"
+    },
+    {
+     "id": "c",
+     "label": "Hot air rises while cold air sinks"
+    },
+    {
+     "id": "d",
+     "label": "The Earth spins slower near the poles"
+    }
+   ],
+   "answer": "c",
+   "explain": "Hot air rises and cold air sinks, which is why tropical air masses have lower pressure.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass:q4"
+  },
+  {
+   "prompt": "A stable polar air mass drifts over warmer ocean water and soaks up moisture. What happens to its stability?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes even more stable"
+    },
+    {
+     "id": "b",
+     "label": "It loses its stability"
+    },
+    {
+     "id": "c",
+     "label": "It stays exactly as it was"
+    },
+    {
+     "id": "d",
+     "label": "It turns into Arctic air"
+    }
+   ],
+   "answer": "b",
+   "explain": "Polar air over the ocean loses its stability as it gains moisture over warmer water.",
+   "cites": [
+    40,
+    41
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass:q5"
+  },
+  {
+   "prompt": "Continental tropical air is extremely hot and dry. Which place is the major source of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Sahara Desert"
+    },
+    {
+     "id": "b",
+     "label": "The Amazon rainforest"
+    },
+    {
+     "id": "c",
+     "label": "The Caribbean Sea"
+    },
+    {
+     "id": "d",
+     "label": "The Greenland ice sheet"
+    }
+   ],
+   "answer": "a",
+   "explain": "This air forms over large low-latitude deserts, and the Sahara in northern Africa is its major source.",
+   "cites": [
+    33,
+    35
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Airmassesorigin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Air mass",
+  "credit": "The original uploader was Gopher backer at English Wikipedia.",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Airmassesorigin.png"
+ },
+ "source": {
+  "title": "Air mass",
+  "url": "https://en.wikipedia.org/wiki/Air_mass",
+  "revision": 1355451359
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an air mass is",
+    "text": "In weather science, an air mass is a huge body of air that is identified by two things: how warm it is and how much moisture it holds. A single one can spread over hundreds or even thousands of square miles. It takes on the character of the ground or sea beneath it. Once it drifts away from the place where it formed, the plants and water it passes over can change it fast.",
+    "cites": [
+     1,
+     2,
+     7
+    ]
+   },
+   {
+    "heading": "Sorted by where they form",
+    "text": "Air masses are sorted by latitude and by whether they formed over land or over sea. The colder ones are called polar or arctic, and the warmer ones are called tropical. Those from land are dry, while those from the sea are moist.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "A short letter code",
+    "text": "The most widely accepted way to label air masses is the Bergeron classification, which uses a code of three letters. The first letter gives the moisture: c for continental, which is dry, and m for maritime, which is moist. The next letter names the source region, such as T for tropical, P for polar, A for arctic or Antarctic, M for monsoon and E for equatorial. So air that forms in summer above the deserts of the southwestern United States may be written cT, while a winter air mass from northern Siberia may be labelled cA.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Stability and change",
+    "text": "A third letter tells how the air compares with the surface under it: k means the air is colder than that surface, and w means it is warmer. A polar air mass moving over the Gulf Stream, for example, is written cPk. The same letters can also show one type turning into another. Arctic air spilling out over the Gulf of Alaska may be written cA-mPk.",
+    "cites": [
+     15,
+     16,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Hot air masses",
+    "text": "Tropical and equatorial air masses are hot because they form at lower latitudes. Tropical ones have lower pressure, since hot air rises and cold air sinks. Those born over land are drier and hotter than those born over oceans. Continental tropical air, written cT, comes mostly from low-latitude deserts, above all the Sahara in northern Africa, and it is extremely hot and dry. Maritime tropical air, written mT, is sometimes called trade air.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     33,
+     35
+    ]
+   },
+   {
+    "heading": "Cold air masses",
+    "text": "Arctic, Antarctic and polar air masses are all cold. Arctic air gets its qualities over ice and snow-covered ground and is even colder than polar air, though in summer it can be shallow and changes quickly as it heads toward the equator. Polar air forms at higher latitudes over land or sea; it is very stable and usually shallower than Arctic air. Over the ocean, polar air picks up moisture from warmer water and loses that stability.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Where air masses meet",
+    "text": "The boundary between two air masses is called a weather front. Fronts separate air masses whose density differs, through temperature or moisture, and the air on the two sides usually differs in both temperature and humidity. Fronts are the main cause of weather events. A cold front, for instance, can bring narrow bands of thunderstorms and severe weather.",
+    "cites": [
+     6,
+     42,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-air-masses",
+   "kind": "book",
+   "title": "8.2: Air Masses",
+   "by": "Michael E. Ritter, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/08%3A_Weather_Systems/8.02%3A_Air_Masses",
+   "note": "A textbook section on how air masses form over source regions and how they are classified and labelled.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "stull-airmasses",
+   "kind": "book",
+   "title": "12.2: Airmasses",
+   "by": "Roland Stull, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/12%3A_Fronts_and_Airmasses/12.01%3A_Section_2-",
+   "note": "A deeper college-level look at airmass codes, how airmasses form, and how they change as they travel.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "noaa-air-masses",
+   "kind": "article",
+   "title": "Air Masses",
+   "by": "NOAA JetStream",
+   "url": "https://www.noaa.gov/jetstream/synoptic/air-masses",
+   "note": "NOAA's plain guide to the main air mass types, their letter codes and the fronts between them."
+  }
+ ]
+}

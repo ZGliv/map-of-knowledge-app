@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "Random number generation produces a sequence of numbers or symbols that cannot reasonably be predicted better than by random chance.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "True random generators draw on a physical environment that keeps changing in ways practically impossible to model, while pseudorandom generators are predetermined.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "A pseudorandom generator can be rerun from the same starting state, which makes debugging Monte Carlo simulations easier.",
+   "cites": [
+    4,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "True generators",
+   "value": "Use a constantly changing physical attribute",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Pseudorandom numbers",
+   "value": "Reproducible from the initial state and method",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Ancient methods",
+   "value": "Dice, coin flipping, and shuffling playing cards",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Natural sources",
+   "value": "Atmospheric noise, thermal noise, radioactive decay",
+   "cites": [
+    27,
+    28
+   ]
+  },
+  {
+   "label": "Random number tables",
+   "value": "Collected results handed out because making numbers was slow",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A programmer reruns a buggy simulation and wants exactly the same random numbers as before. What helps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Switching to a hardware generator"
+    },
+    {
+     "id": "b",
+     "label": "Starting a pseudorandom generator from the same seed"
+    },
+    {
+     "id": "c",
+     "label": "Using a bigger sample"
+    },
+    {
+     "id": "d",
+     "label": "Letting the generator pick a new method"
+    }
+   ],
+   "answer": "b",
+   "explain": "A pseudorandom generator can run the same sequence again from the same random seed, which helps debugging.",
+   "cites": [
+    4,
+    16
+   ]
+  },
+  {
+   "prompt": "Before computers, why were books of random number tables handed out to statisticians?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dice and coins were banned in research"
+    },
+    {
+     "id": "b",
+     "label": "Statisticians could not read dice"
+    },
+    {
+     "id": "c",
+     "label": "Tables were more random than any physical method"
+    },
+    {
+     "id": "d",
+     "label": "Making large amounts of random numbers by hand took much work and time"
+    }
+   ],
+   "answer": "d",
+   "explain": "Mechanical methods needed much work and time for large quantities, so results were collected and distributed as tables.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "A security product needs unpredictability above everything. Which kind of generator is generally preferred where feasible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A hardware generator"
+    },
+    {
+     "id": "b",
+     "label": "A pseudorandom algorithm"
+    },
+    {
+     "id": "c",
+     "label": "A random number table"
+    },
+    {
+     "id": "d",
+     "label": "A coin flipped by the user"
+    }
+   ],
+   "answer": "a",
+   "explain": "Where unpredictability is paramount, such as in security applications, hardware generators are generally preferred over pseudorandom algorithms.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "What does it mean that a pseudorandom number generator is predetermined?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its numbers are written down in advance by hand"
+    },
+    {
+     "id": "b",
+     "label": "Its output is always a fixed single value"
+    },
+    {
+     "id": "c",
+     "label": "Anyone who knows its starting state and method can reproduce its numbers"
+    },
+    {
+     "id": "d",
+     "label": "It measures a physical source that never changes"
+    }
+   ],
+   "answer": "c",
+   "explain": "Pseudorandom numbers can be reproduced simply by knowing the initial state of the generator and the method it uses.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A music player is meant to feel random, yet it avoids playing the same song twice in a row. Why is that reasonable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It need only seem random, and true randomness can repeat songs"
+    },
+    {
+     "id": "b",
+     "label": "True randomness would never repeat any single item"
+    },
+    {
+     "id": "c",
+     "label": "The generator has probably run out of entropy"
+    },
+    {
+     "id": "d",
+     "label": "Hardware generators are unable to handle music"
+    }
+   ],
+   "answer": "a",
+   "explain": "Such a system must only appear random; a truly random system would put no restriction on the same item appearing two or three times in succession.",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "prompt": "A generator measures a natural source such as radioactive decay. Why might it be slow to deliver numbers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pseudorandom methods are always faster than natural ones"
+    },
+    {
+     "id": "b",
+     "label": "It can only collect entropy as fast as the physical phenomenon produces it"
+    },
+    {
+     "id": "c",
+     "label": "Natural sources must be reset daily"
+    },
+    {
+     "id": "d",
+     "label": "Radioactive decay needs a secret seed"
+    }
+   ],
+   "answer": "b",
+   "explain": "The speed of obtaining entropy depends on the physical phenomenon, so such sources are rate-limited until enough is harvested.",
+   "cites": [
+    28,
+    29,
+    30
+   ]
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "title": "Why the bell shows up",
+ "question": "Why does the bell curve turn up in so many places?",
+ "hook": "Measurement errors, averages and many other things settle into the same shape, and there is a reason.",
+ "idea": "Averages of many independent samples converge to a normal distribution, so sums of many small independent effects often look bell-shaped.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You take the average of many independent observations of a variable, again and again, with more observations each time. What happens to the distribution of that average?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It gets closer and closer to a normal distribution",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "It becomes flat, with every value equally likely",
+     "feedback": "Averaging pulls values toward the middle rather than spreading them evenly."
+    },
+    {
+     "id": "c",
+     "label": "It keeps the exact shape of one single observation",
+     "feedback": "It is tempting to think averaging changes nothing, but the shape of the average changes."
+    }
+   ],
+   "answer": "a",
+   "explain": "The central limit theorem says the average of many independent samples converges to a normal distribution as the number of samples increases.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each piece of notation to what it means.",
+   "pairs": [
+    [
+     "μ",
+     "The mean, also the median and mode"
+    ],
+    [
+     "σ²",
+     "The variance"
+    ],
+    [
+     "σ",
+     "The standard deviation"
+    ],
+    [
+     "Z = (X − μ)/σ",
+     "The standardized form of X"
+    ]
+   ],
+   "explain": "A normal distribution is described by its mean and variance, and rescaling by them gives the standard normal.",
+   "cites": [
+    3,
+    4,
+    25,
+    26
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A researcher does not know the shape of her data's distribution.",
+    "She notes that normal distributions are often used when the distribution is unknown.",
+    "She concludes the data must therefore be normally distributed.",
+    "She then applies methods that assume normality."
+   ],
+   "wrong": 2,
+   "explain": "Being a common model does not make data normal. Normal distributions are frequently misused where the assumption is not met.",
+   "cites": [
+    6,
+    13
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You take a variable Z with mean 0 and standard deviation 1, stretch it by a factor of σ, then shift it by μ. What do you get?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The very same distribution as before, since stretching changes nothing",
+     "feedback": "Stretching by σ and shifting by μ changes the mean and the spread."
+    },
+    {
+     "id": "b",
+     "label": "A distribution that is no longer bell-shaped",
+     "feedback": "The result keeps its type; only its center and width change."
+    },
+    {
+     "id": "c",
+     "label": "A distribution with expected value μ and standard deviation σ",
+     "feedback": ""
+    }
+   ],
+   "answer": "c",
+   "explain": "If Z is a standard normal deviate, then X = σZ + μ has a normal distribution with expected value μ and standard deviation σ.",
+   "cites": [
+    19,
+    23,
+    24
+   ]
+  }
+ ]
+}

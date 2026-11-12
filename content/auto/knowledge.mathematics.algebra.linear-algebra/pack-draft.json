@@ -1,0 +1,13 @@
+{"title":"Anything you can add and scale",
+"question":"What do arrows, polynomials and functions have in common?",
+"hook":"They look nothing alike, yet one set of rules is enough to cover all of them.",
+"idea":"Linear algebra studies what is shared by anything whose elements can be added together and scaled by numbers.",
+"beats":[
+{"kind":"predict","prompt":"In 1637 Descartes introduced coordinates in geometry, so lines and planes could be written as linear equations. Two lines are drawn on a page. What does finding the point where they cross turn into?","choices":[
+{"id":"a","label":"Solving a system of linear equations","feedback":""},
+{"id":"b","label":"Measuring one angle with a protractor","feedback":"It tempts because the lines are drawn, but with coordinates the crossing point is found by computation, not measurement."},
+{"id":"c","label":"Taking the slope of a single curve","feedback":"A slope belongs to one line; the crossing involves two lines at once, which means two equations."}],
+"answer":"a","explain":"In this geometry lines and planes are represented by linear equations, so computing their intersections amounts to solving systems of linear equations.","cites":[9,10]},
+{"kind":"match","prompt":"Match each milestone to the person or place behind it.","pairs":[["Gaussian elimination in an old text","Ancient China"],["Coordinates in geometry, 1637","Descartes"],["The word matrix, 1848","Sylvester"],["Matrix multiplication and inverse, 1856","Cayley"]],"explain":"Linear algebra grew over many centuries, from solving equations to naming and multiplying matrices.","cites":[7,9,14,21]},
+{"kind":"order","prompt":"Put these milestones in order, earliest first.","items":["Leibniz first considers determinants for solving linear systems","Cramer uses determinants to give explicit solutions","Sylvester introduces the term matrix","Peano gives the first modern definition of a vector space"],"ends":["earliest","latest"],"explain":"These happened in 1693, 1750, 1848 and 1888.","cites":[11,12,14,29]},
+{"kind":"flaw","prompt":"One step in this reasoning is wrong. Which one?","steps":["Elements of a vector space only need two operations: adding them and scaling them by numbers.","Polynomials can be elements of a vector space, along with functions and matrices.","But vectors have to be arrows, so these polynomials are not really vectors.","So linear algebra can tell us nothing about polynomials."],"wrong":2,"explain":"The elements of a vector space are called vectors whatever they are, and they can be polynomials, functions or matrices. Linear algebra studies what they share.","cites":[35,36,37,40,41]}]}

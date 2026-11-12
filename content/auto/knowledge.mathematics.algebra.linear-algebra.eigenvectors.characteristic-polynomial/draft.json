@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The characteristic polynomial of a square matrix is a polynomial that has the matrix's eigenvalues as its roots.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It has the determinant and the trace of the matrix among its coefficients, and it stays the same when the matrix is replaced by a similar one.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Setting it equal to zero gives the characteristic equation, and for a linear map on a finite-dimensional space it does not depend on the choice of basis.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Roots",
+   "value": "The eigenvalues of the matrix",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Degree",
+   "value": "Degree n for an n × n matrix, and monic",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Similar matrices",
+   "value": "Two similar matrices have the same characteristic polynomial",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Converse fails",
+   "value": "Same polynomial does not force two matrices to be similar",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Old name",
+   "value": "Secular function, from calculating slow planetary orbit changes",
+   "cites": [
+    37,
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two matrices are similar to each other. What can you say about their characteristic polynomials?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are exactly the same polynomial"
+    },
+    {
+     "id": "b",
+     "label": "They share only the same degree"
+    },
+    {
+     "id": "c",
+     "label": "They differ by a constant factor"
+    },
+    {
+     "id": "d",
+     "label": "They share nothing in general"
+    }
+   ],
+   "answer": "a",
+   "explain": "Similar matrices have the same characteristic polynomial; it does not change under similarity.",
+   "cites": [
+    1,
+    24
+   ]
+  },
+  {
+   "prompt": "Two matrices turn out to have exactly the same characteristic polynomial. Must they be similar?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the polynomial identifies a matrix up to similarity"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when the matrices are square"
+    },
+    {
+     "id": "c",
+     "label": "No, but they must then be equal"
+    },
+    {
+     "id": "d",
+     "label": "No, equal polynomials need not mean similar"
+    }
+   ],
+   "answer": "d",
+   "explain": "Similar matrices share a polynomial, but the converse is not true in general.",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "You factor a matrix's characteristic polynomial and find its roots are 2 and 5. What have you found?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The trace and the determinant"
+    },
+    {
+     "id": "b",
+     "label": "Two eigenvectors of the matrix"
+    },
+    {
+     "id": "c",
+     "label": "The eigenvalues of the matrix"
+    },
+    {
+     "id": "d",
+     "label": "A basis for the vector space"
+    }
+   ],
+   "answer": "c",
+   "explain": "The eigenvalues are the roots of the characteristic polynomial.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "You have the characteristic polynomial and want the equation whose solutions are the eigenvalues. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Square it and then divide by its degree"
+    },
+    {
+     "id": "b",
+     "label": "Set the polynomial equal to zero"
+    },
+    {
+     "id": "c",
+     "label": "Add up all of its coefficients"
+    },
+    {
+     "id": "d",
+     "label": "Differentiate it once and solve"
+    }
+   ],
+   "answer": "b",
+   "explain": "Equating the characteristic polynomial to zero gives the characteristic equation.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "prompt": "Two students write the same linear map on a finite-dimensional space as matrices, using different bases. Will their characteristic polynomials differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, each basis gives its own polynomial"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only in the constant term"
+    },
+    {
+     "id": "c",
+     "label": "No, but only if the bases are orthogonal"
+    },
+    {
+     "id": "d",
+     "label": "No, the polynomial does not depend on the basis"
+    }
+   ],
+   "answer": "d",
+   "explain": "The characteristic polynomial of a linear map is the same over any basis.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Astronomers once used the characteristic polynomial under another name to calculate slow changes in planetary orbits over centuries. What was that name?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Secular function"
+    },
+    {
+     "id": "b",
+     "label": "Orbital equation"
+    },
+    {
+     "id": "c",
+     "label": "Spectral polynomial"
+    },
+    {
+     "id": "d",
+     "label": "Determinantal root"
+    }
+   ],
+   "answer": "a",
+   "explain": "It was called the secular function because it served to compute secular perturbations of planetary orbits.",
+   "cites": [
+    37,
+    38
+   ]
+  }
+ ]
+}

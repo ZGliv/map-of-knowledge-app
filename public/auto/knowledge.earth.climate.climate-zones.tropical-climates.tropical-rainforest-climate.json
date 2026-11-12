@@ -1,0 +1,300 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate",
+ "name": "Tropical rainforest climate",
+ "summary": [
+  {
+   "text": "The tropical rainforest climate, Köppen type Af and sometimes called equatorial, is hot and humid, with rain falling throughout the year and no dry season.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It is usually found within 10 to 15 degrees of the equator, though a few places farther out, such as the southeast Florida coast and Okinawa, also qualify.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Its yearly temperature range is small, and the gap between day and night may even be larger than the average change across the year.",
+   "cites": [
+    1,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Köppen code",
+   "value": "Af",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Usual latitude",
+   "value": "Within 10 to 15 degrees of the equator",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Higher-latitude examples",
+   "value": "Southeast Florida coast and Japan's Okinawa Islands",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Dry season",
+   "value": "None; rain falls throughout the year",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Two variants",
+   "value": "Equatorial climates and tropical trade-wind climates",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Someone logs temperatures every day for a year in a rainforest-climate city. What might surprise them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Day and night can differ more than the seasons do"
+    },
+    {
+     "id": "b",
+     "label": "Summer and winter differ by more than 20 degrees"
+    },
+    {
+     "id": "c",
+     "label": "Nights there are as hot as the middle of the day"
+    },
+    {
+     "id": "d",
+     "label": "The coolest month regularly drops near freezing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Yearly temperature ranges are small, so the daily gap between day and night may be larger than the average change through the year.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate:q1"
+  },
+  {
+   "prompt": "In a pure equatorial climate, winds are rare and usually weak. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dense forest blocks nearly all moving air"
+    },
+    {
+     "id": "b",
+     "label": "Steady low pressure leaves little to push air"
+    },
+    {
+     "id": "c",
+     "label": "The warm ocean soaks up any passing wind"
+    },
+    {
+     "id": "d",
+     "label": "Daily heavy rain knocks the wind down flat"
+    }
+   ],
+   "answer": "b",
+   "explain": "Air pressure stays almost constantly low, so the horizontal pressure difference that drives wind is small.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate:q2"
+  },
+  {
+   "prompt": "Rainforests in tropical trade-wind climates are poorer than those near the equator. What holds them back?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They get much less sunlight"
+    },
+    {
+     "id": "b",
+     "label": "Their soil is frozen part of the year"
+    },
+    {
+     "id": "c",
+     "label": "They must withstand strong winds"
+    },
+    {
+     "id": "d",
+     "label": "They get almost no rain at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "In trade-wind climates the wind is almost permanent, and the forests must resist the strong winds that come with tropical disturbances.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate:q3"
+  },
+  {
+   "prompt": "Is every region with a tropical rainforest climate actually covered in rainforest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the climate is defined by the forest"
+    },
+    {
+     "id": "b",
+     "label": "Yes, except on the highest mountain peaks"
+    },
+    {
+     "id": "c",
+     "label": "No, most of these regions are sandy deserts"
+    },
+    {
+     "id": "d",
+     "label": "No, some are flooded grasslands or savannas"
+    }
+   ],
+   "answer": "d",
+   "explain": "Some regions with this climate are not forests at all but flooded grasslands and savannas, and some rainforest lies in other A-type climates.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate:q4"
+  },
+  {
+   "prompt": "A rainforest-climate region close to the equator is ruled more by the Intertropical Convergence Zone than by trade winds, and cyclones are rare. What else is its climate called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An equatorial climate"
+    },
+    {
+     "id": "b",
+     "label": "A trade-wind climate"
+    },
+    {
+     "id": "c",
+     "label": "A monsoon climate"
+    },
+    {
+     "id": "d",
+     "label": "A savanna climate"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rainforest climates dominated by the ITCZ rather than the trade winds, usually near the equator, are also called equatorial climates.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate:q5"
+  },
+  {
+   "prompt": "A farmer in a tropical rainforest climate wants to plan around the yearly dry spell. How long a dry spell should they expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About three months each winter"
+    },
+    {
+     "id": "b",
+     "label": "None; rain falls in every season"
+    },
+    {
+     "id": "c",
+     "label": "About half of every year"
+    },
+    {
+     "id": "d",
+     "label": "One short week each summer"
+    }
+   ],
+   "answer": "b",
+   "explain": "This climate has rain throughout the year and no dry season.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Koppen-Geiger_Map_v2_Af_1991%E2%80%932020.svg/960px-Koppen-Geiger_Map_v2_Af_1991%E2%80%932020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tropical rainforest climate",
+  "credit": "Beck, H.E., McVicar, T.R., Vergopolan, N., Alexis, B., Lutsko, N.J., Dufour, A.,",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Koppen-Geiger_Map_v2_Af_1991%E2%80%932020.svg"
+ },
+ "source": {
+  "title": "Tropical rainforest climate",
+  "url": "https://en.wikipedia.org/wiki/Tropical_rainforest_climate",
+  "revision": 1384981457
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Hot, humid and wet all year",
+    "text": "The tropical rainforest climate is one kind of tropical climate, and it is sometimes called an equatorial climate. The Köppen climate classification usually labels it Af. Its average yearly temperatures are high, they change little over the year, and the air is very humid. Rain falls in every part of the year, so there is no dry season at all.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Where it is found",
+    "text": "This climate usually lies within 10 to 15 degrees of latitude of the equator. A few places farther from the equator also qualify. Two examples are the southeast Florida coast in the United States and Japan's Okinawa Islands.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Days change more than seasons",
+    "text": "The gap between daytime and nighttime temperatures may be larger than the average change in temperature across the whole year. In other words, a single day and night can swing more than the passing of the seasons. As the name suggests, tropical rainforest is the most common kind of natural landscape in this climate. Still, much of what people call tropical rainforest grows in other A-type climates, and some places with this climate are not forest at all but flooded grasslands and savannas.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Two kinds of rainforest climate",
+    "text": "Two forces can rule this climate: the Intertropical Convergence Zone (ITCZ) and the trade winds. Where the ITCZ matters more than the trade winds, and cyclones are rare or absent, the climate is also called equatorial, and such places are usually near the equator. Where the trade winds matter more than the ITCZ, it is called a tropical trade-wind climate.",
+    "cites": [
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Why wind shapes the forest",
+    "text": "In a pure equatorial climate, air pressure stays low almost all the time, so pressure hardly differs from place to place. Wind is rare there and usually weak, apart from sea and land breezes along coasts. Trade-wind climates, often found farther from the equator, have wind nearly all the time. Their rainforests are poorer than equatorial ones, since the plants must stand up to the strong winds that come with tropical disturbances.",
+    "cites": [
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-rainforest",
+   "kind": "book",
+   "title": "9.4.1: Tropical Rain Forest",
+   "by": "Michael E. Ritter, University of Wisconsin-Stevens Point",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.04%3A_Low_Latitude_Climates/9.4.01%3A_Tropical_Rain_Forest",
+   "note": "A free textbook section on the rainforest climate: steady heat, high humidity and daily thunderstorms.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

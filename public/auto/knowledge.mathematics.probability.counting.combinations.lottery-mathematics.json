@@ -1,0 +1,312 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics",
+ "name": "Lottery mathematics",
+ "summary": [
+  {
+   "text": "Lottery mathematics calculates the probabilities of winning or losing a lottery game.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is based mainly on combinatorics, in particular combinations without replacement.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "To be sure of a jackpot in a 6/49 game you would need 13,983,816 different tickets, one for every possible number combination.",
+   "cites": [
+    14,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Jackpot cover",
+   "value": "13,983,816 tickets cover every combination in a 6/49 game",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Only sure way",
+   "value": "Buy a ticket for every possible number combination",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Small guarantee",
+   "value": "In 5-from-90 lotto, 100 tickets guarantee a ticket with two matches",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Repeat draw",
+   "value": "In Bulgaria's 6/49 lottery, the same six numbers came up twice in four days",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Also useful for",
+   "value": "Analysing coincidences, like repeated numbers across draws",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend says that picking numbers from family birthdays guarantees a jackpot. What is the only way to be certain of winning?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Buy a ticket for every possible number combination"
+    },
+    {
+     "id": "b",
+     "label": "Pick numbers that have not been drawn recently"
+    },
+    {
+     "id": "c",
+     "label": "Choose numbers spread evenly over the whole range"
+    },
+    {
+     "id": "d",
+     "label": "Play the same ticket in every single draw"
+    }
+   ],
+   "answer": "a",
+   "explain": "There is only one way to ensure a jackpot: buy at least one ticket for every possible combination.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics:q1"
+  },
+  {
+   "prompt": "A syndicate buys every ticket to guarantee the jackpot, but it is likely that several other winners will share it. How should the winnings be counted?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Count the full jackpot as if the syndicate won it alone"
+    },
+    {
+     "id": "b",
+     "label": "Count only the syndicate's likely share of the jackpot"
+    },
+    {
+     "id": "c",
+     "label": "Ignore the jackpot and count only the smaller prizes"
+    },
+    {
+     "id": "d",
+     "label": "Count the jackpot twice, once for each ticket"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the jackpot will probably be split, only your likely share counts towards the total the tickets win.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics:q2"
+  },
+  {
+   "prompt": "In a lottery draw, a ball that has been pulled out is set aside and cannot come out again. What is this way of drawing called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Drawing with replacement"
+    },
+    {
+     "id": "b",
+     "label": "Drawing in random order"
+    },
+    {
+     "id": "c",
+     "label": "Drawing without replacement"
+    },
+    {
+     "id": "d",
+     "label": "Drawing from a sample"
+    }
+   ],
+   "answer": "c",
+   "explain": "The winning balls are drawn from the pool without replacement, which is why the maths uses combinations without replacement.",
+   "cites": [
+    2,
+    4
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics:q3"
+  },
+  {
+   "prompt": "The same six numbers came up in two draws in a row. What does lottery mathematics offer here?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Proof that the second draw was influenced by the first"
+    },
+    {
+     "id": "b",
+     "label": "A tool to analyse how unusual such a coincidence really is"
+    },
+    {
+     "id": "c",
+     "label": "A rule that repeated numbers can never be calculated"
+    },
+    {
+     "id": "d",
+     "label": "A reason to avoid numbers that were drawn before"
+    }
+   ],
+   "answer": "b",
+   "explain": "Such repeats look implausible for random outcomes, and lottery mathematics can be used to analyse these extraordinary events.",
+   "cites": [
+    20,
+    21,
+    23
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics:q4"
+  },
+  {
+   "prompt": "Someone wants the smallest number of tickets that guarantees at least two matching numbers. How easy is it to work out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Easy, with the same formula as the jackpot case"
+    },
+    {
+     "id": "b",
+     "label": "Easy, because it is just half of all combinations"
+    },
+    {
+     "id": "c",
+     "label": "Impossible, because lotteries are random"
+    },
+    {
+     "id": "d",
+     "label": "Hard, and often an open problem"
+    }
+   ],
+   "answer": "d",
+   "explain": "Finding the minimum number of tickets that guarantees at least 2 matches is a hard and often open problem.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics:q5"
+  },
+  {
+   "prompt": "A lottery uses a drum of 49 balls and each ticket lists 6 numbers. In the standard formulas, which letter stands for the 49?",
+   "options": [
+    {
+     "id": "a",
+     "label": "T, the numbers on a ticket"
+    },
+    {
+     "id": "b",
+     "label": "P, the balls in the pool"
+    },
+    {
+     "id": "c",
+     "label": "M, the numbers that match"
+    },
+    {
+     "id": "d",
+     "label": "W, the balls that are drawn"
+    }
+   ],
+   "answer": "b",
+   "explain": "P is the number of balls in the pool, T is the number on a ticket, M the matches and W the winning balls drawn.",
+   "cites": [
+    4,
+    5,
+    6,
+    9,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.lottery-mathematics:q6"
+  }
+ ],
+ "source": {
+  "title": "Lottery mathematics",
+  "url": "https://en.wikipedia.org/wiki/Lottery_mathematics",
+  "revision": 1353644089
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Counting your chances",
+    "text": "Lottery mathematics works out the probabilities of winning or losing a lottery game. It rests mainly on combinatorics, in particular the twelvefold way and combinations drawn without replacement. It can also be used to study coincidences in draws, such as the same numbers turning up in different draws.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The pieces of a calculation",
+    "text": "A lottery calculation names a few quantities. P is the number of balls in the pool that the winning balls are drawn from, without replacement. T is how many balls are listed on your ticket, and M is how many of those also land in the winning set. Often the ticket lists as many balls as the winning set holds.",
+    "cites": [
+     4,
+     5,
+     6,
+     12
+    ]
+   },
+   {
+    "heading": "Power balls",
+    "text": "Some lotteries add one or more power balls drawn from a second, separate pool. For example, a game might first draw 5 balls out of 69, then draw 1 power ball out of 26. Both pools are drawn without replacement. A ticket then lists some regular balls and some power balls.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Buying every ticket",
+    "text": "The only way to be certain of the jackpot is to buy at least one ticket for every possible combination of numbers. In a 6/49 game, that means 13,983,816 different tickets. The plan only makes money if the tickets, overhead included, cost no more than everything they win, jackpot and smaller prizes together. And if a prize will likely be split among several winners, you should count only your likely share of it.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Smaller guarantees",
+    "text": "A more modest goal turns out to be hard. Finding the fewest tickets that guarantee at least one ticket matching 2 or more numbers is a difficult problem and is often unsolved. For the 5-from-90 lotto, that minimum is 100 tickets.",
+    "cites": [
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "When numbers repeat",
+    "text": "Coincidences in draws catch people's imagination and can reach the news, because they seem to show patterns in what should be pure chance. On September 6, 2009, Bulgaria's national 6/49 lottery drew 4, 15, 23, 24, 35 and 42. In the very next draw, on September 10th, the same six numbers came up again. Lottery mathematics gives a way to analyse events like this.",
+    "cites": [
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-lottery",
+   "kind": "video",
+   "title": "13,983,816 and the Lottery",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=U7f8j3mVMbc",
+   "note": "A Numberphile video on where the 13,983,816 possible 6/49 lottery tickets come from and what that means for your odds."
+  }
+ ]
+}

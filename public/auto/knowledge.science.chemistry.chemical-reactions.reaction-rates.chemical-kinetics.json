@@ -1,0 +1,351 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics",
+ "name": "Chemical kinetics",
+ "summary": [
+  {
+   "text": "Chemical kinetics, also called reaction kinetics, is the branch of physical chemistry concerned with the rates of chemical reactions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Thermodynamics says which direction a reaction goes but nothing about its speed; kinetics adds the speed, plus clues to its mechanism and transition states.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The main factors that influence the rate are the physical state of the reactants, their concentrations, the temperature, and whether catalysts are present.",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Early pioneer",
+   "value": "Ludwig Wilhelmy, in 1850",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "His experiment",
+   "value": "The rate of inversion of sucrose",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Law of mass action",
+   "value": "Published by Waage and Guldberg in 1864",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "First Chemistry Nobel",
+   "value": "Awarded to van 't Hoff in 1901",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "To light a campfire you start with wood chips and small branches, not big logs. What does kinetics say about why this works?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Small pieces have less fuel to heat, so they cost less energy to ignite"
+    },
+    {
+     "id": "b",
+     "label": "Small pieces burn at a lower temperature, which keeps the fire safe"
+    },
+    {
+     "id": "c",
+     "label": "Small pieces expose more surface to the other reactant, so contact is greater and the reaction is faster"
+    },
+    {
+     "id": "d",
+     "label": "Small pieces contain more oxygen inside them than a log does"
+    }
+   ],
+   "answer": "c",
+   "explain": "The more finely divided a reactant, the greater its surface area per volume and the more contact it has with the other reactant, so the faster the reaction.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics:q1"
+  },
+  {
+   "prompt": "A fire burns more vigorously in pure oxygen than in ordinary air. Why does this fit the kinetics of collisions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Molecules crowded more tightly collide more often, so the reaction is faster"
+    },
+    {
+     "id": "b",
+     "label": "Pure oxygen is hotter than air before the fire starts, so it ignites sooner"
+    },
+    {
+     "id": "c",
+     "label": "Air contains a gas that slows each individual collision down"
+    },
+    {
+     "id": "d",
+     "label": "Pure oxygen makes each collision more gentle, so more of them succeed"
+    }
+   ],
+   "answer": "a",
+   "explain": "Collision frequency depends on concentration. Higher concentrations usually mean a higher rate, and air is only 21% oxygen.",
+   "cites": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics:q2"
+  },
+  {
+   "prompt": "A chemist is sure a reaction will end up going in a certain direction. Does that alone tell her how quickly it gets there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any reaction going in a clear direction is automatically a fast one"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when the reaction happens between gases"
+    },
+    {
+     "id": "c",
+     "label": "No, because speed cannot be measured, only the direction can"
+    },
+    {
+     "id": "d",
+     "label": "No, direction and speed are separate questions, and speed is what kinetics studies"
+    }
+   ],
+   "answer": "d",
+   "explain": "Thermodynamics deals with the direction in which a reaction occurs but tells nothing about its rate. Kinetics is the study of rates.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics:q3"
+  },
+  {
+   "prompt": "Two liquids that do not mix sit in layers in a flask. Where can they react with each other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Throughout both layers, because thermal motion always spreads them out"
+    },
+    {
+     "id": "b",
+     "label": "Only at the area of contact between the layers"
+    },
+    {
+     "id": "c",
+     "label": "Only at the bottom of the flask, where the denser layer sits"
+    },
+    {
+     "id": "d",
+     "label": "Nowhere, since reactions need reactants in the same phase to happen at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "When reactants are in separate phases, the reaction is limited to the interface between them, which is why shaking and stirring may be needed.",
+   "cites": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics:q4"
+  },
+  {
+   "prompt": "A chemist doubles the amount of a reactant in the flask, but the speed of the reaction does not change at all. Which kind of reaction is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A zero order reaction"
+    },
+    {
+     "id": "b",
+     "label": "A first order reaction"
+    },
+    {
+     "id": "c",
+     "label": "A second order reaction"
+    },
+    {
+     "id": "d",
+     "label": "A reaction with no mechanism"
+    }
+   ],
+   "answer": "a",
+   "explain": "Zero order reactions are ones whose rates are independent of concentration.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics:q5"
+  },
+  {
+   "prompt": "A reaction runs as a chain of consecutive steps, like an assembly line. Which step often sets the pace for the whole chain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The very first step, whichever one it is"
+    },
+    {
+     "id": "b",
+     "label": "The step that finishes fastest"
+    },
+    {
+     "id": "c",
+     "label": "The step that uses the most reactant"
+    },
+    {
+     "id": "d",
+     "label": "The step that determines the rate"
+    }
+   ],
+   "answer": "d",
+   "explain": "In consecutive reactions, the rate-determining step often determines the kinetics.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.chemical-kinetics:q6"
+  }
+ ],
+ "source": {
+  "title": "Chemical kinetics",
+  "url": "https://en.wikipedia.org/wiki/Chemical_kinetics",
+  "revision": 1375378241
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The science of speed",
+    "text": "Chemical kinetics, also called reaction kinetics, is the part of physical chemistry that tries to understand how fast chemical reactions go. It is different from chemical thermodynamics, which tells you which direction a reaction runs but nothing about its speed. Kinetics studies how the conditions of an experiment change a reaction's speed. It also uses that to learn about the reaction's mechanism and transition states, and builds mathematical models that describe the reaction.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Where it began",
+    "text": "The German chemist Ludwig Wilhelmy did the pioneering work in 1850. He measured how fast sucrose undergoes inversion and used an integrated rate law to work out its kinetics, though Wilhelm Ostwald only noticed this 34 years later. The law of mass action, put out by Peter Waage and Cato Guldberg in 1864, says reaction speed is proportional to the quantity of the reacting substances. Van 't Hoff published his Études de dynamique chimique in 1884, and in 1901 he won the first Nobel Prize in Chemistry, partly for discovering the laws of chemical dynamics.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Rate laws",
+    "text": "After van 't Hoff, the field focused on measuring reaction rates in experiments and deriving rate laws and rate constants from them. Fairly simple rate laws exist for zero order reactions, whose rates do not depend on concentration, and for first and second order reactions. Elementary reactions follow the law of mass action, but for reactions that happen in steps the rate law has to be pieced together from the steps and can get complicated. When steps follow one another, a rate-determining step often decides the overall kinetics.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "What sets the pace",
+    "text": "The main things that affect a reaction's rate are the physical state of the reactants, how concentrated they are, the temperature, and whether a catalyst is present. Which substances are reacting matters too. Reactions between acids and bases, the making of salts and ion exchange are usually fast. Reactions that form covalent bonds between molecules or build large molecules tend to be slower.",
+    "cites": [
+     16,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Surface area",
+    "text": "When reactants share the same phase, as in a water solution, thermal motion brings them into contact. When they sit in separate phases, they can react only where they touch, such as the surface of a liquid meeting a gas, so hard shaking or stirring may be needed. In a solid, only particles at the surface can take part. Crushing it into smaller bits brings more particles to the surface, collisions with the other reactant become more frequent, and the reaction goes faster. Starting a fire works the same way: you begin with wood chips and small branches, not big logs.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Sherbet and fireworks",
+    "text": "Sherbet powder combines sodium hydrogen carbonate with a very fine powder of malic acid, which is a weak organic acid. In the mouth, saliva makes them dissolve and react quickly, releasing carbon dioxide that gives the fizz. Fireworks makers adjust the surface area of their solid fuels to control how fast they are oxidised and create different effects. Finely divided aluminium held in a shell explodes violently, while larger pieces react more slowly and are thrown out as sparks of burning metal.",
+    "cites": [
+     35,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Crowding molecules together",
+    "text": "Reactions happen when reacting particles collide, and how often they collide depends on their concentrations. The more crowded the molecules, the more likely they are to meet and react. So raising reactant concentrations usually raises the rate, and lowering them usually slows it. Combustion, for example, goes faster in pure oxygen than in air, which is 21% oxygen.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-intro-kinetics",
+   "kind": "book",
+   "title": "1: Introduction to Reaction Kinetics",
+   "by": "LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/01%3A_Introduction_to_Reaction_Kinetics",
+   "note": "An open textbook introduction to what kinetics studies and why it matters in industry, biology and the environment."
+  },
+  {
+   "id": "openstax-12-3",
+   "kind": "book",
+   "title": "12.3 Rate Laws",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+   "note": "A free textbook section on rate laws, reaction orders and rate constants found by the method of initial rates.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-12-2",
+   "kind": "book",
+   "title": "12.2 Factors Affecting Reaction Rates",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-2-factors-affecting-reaction-rates",
+   "note": "A free textbook section on how reactant type, surface area, temperature, concentration and catalysts change rates.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-kinetics",
+   "kind": "video",
+   "title": "Kinetics: Chemistry's Demolition Derby - Crash Course Chemistry #32",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=7qOFtL3VEBc",
+   "note": "A Crash Course Chemistry episode introducing kinetics, the study of how fast reactions happen."
+  }
+ ]
+}

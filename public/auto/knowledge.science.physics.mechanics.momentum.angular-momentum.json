@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.momentum.angular-momentum",
+ "name": "Angular momentum",
+ "summary": [
+  {
+   "text": "Angular momentum is the rotational counterpart of linear momentum, and it has both a size and a direction.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "For a spinning object it is proportional to moment of inertia times angular speed, and moment of inertia depends on where the matter sits relative to the axis.",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "text": "It stays constant when no net external torque acts, which is why bicycles, gyroscopes and hurricane spirals behave as they do.",
+   "cites": [
+    2,
+    4,
+    5,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Rotational analog of",
+   "value": "Linear momentum",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Spin formula",
+   "value": "Proportional to moment of inertia times angular speed",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Conserved when",
+   "value": "No net external torque acts",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Adds up over parts",
+   "value": "Total equals the sum of its parts' angular momenta",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Torque link",
+   "value": "Torque is its rate of change",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A spinning skater pulls her arms tight against her body, with no outside twist on her. What happens to her spin rate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same"
+    },
+    {
+     "id": "b",
+     "label": "It speeds up"
+    },
+    {
+     "id": "c",
+     "label": "It slows down"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "Pulling matter closer to the axis lowers the moment of inertia. The angular momentum is conserved, so the angular speed must rise.",
+   "cites": [
+    31,
+    32,
+    11,
+    21
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.angular-momentum:q1"
+  },
+  {
+   "prompt": "Why does a thrown flying disc hold a steady tilt in flight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Spinning makes it lighter"
+    },
+    {
+     "id": "b",
+     "label": "Spin makes air push it up"
+    },
+    {
+     "id": "c",
+     "label": "Friction adds energy to it"
+    },
+    {
+     "id": "d",
+     "label": "Its spin carries a conserved quantity"
+    }
+   ],
+   "answer": "d",
+   "explain": "Flying discs owe their useful properties to conservation of angular momentum.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.angular-momentum:q2"
+  },
+  {
+   "prompt": "A spinning wheel's angular momentum is seen to change. What must have acted on it from outside?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A net external torque"
+    },
+    {
+     "id": "b",
+     "label": "Nothing; it is always conserved"
+    },
+    {
+     "id": "c",
+     "label": "A change in its mass only"
+    },
+    {
+     "id": "d",
+     "label": "Its own linear momentum shifting"
+    }
+   ],
+   "answer": "a",
+   "explain": "Angular momentum is conserved only when there is no net external torque, and torque is its rate of change.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.angular-momentum:q3"
+  },
+  {
+   "prompt": "Two discs have the same mass. One has its matter packed near the axle and the other spread toward the rim. Which is harder to start spinning?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Neither, equal mass means equal difficulty"
+    },
+    {
+     "id": "b",
+     "label": "The one packed near the axle"
+    },
+    {
+     "id": "c",
+     "label": "The one spread toward the rim"
+    },
+    {
+     "id": "d",
+     "label": "Neither, spin direction decides it"
+    }
+   ],
+   "answer": "c",
+   "explain": "Moment of inertia, a measure of rotational inertia, depends on how matter is distributed and not on mass alone.",
+   "cites": [
+    32,
+    21
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.angular-momentum:q4"
+  },
+  {
+   "prompt": "What does angular momentum depend on that plain linear momentum does not?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How long the object has been moving"
+    },
+    {
+     "id": "b",
+     "label": "Which point the position is measured from"
+    },
+    {
+     "id": "c",
+     "label": "How hot the object is"
+    },
+    {
+     "id": "d",
+     "label": "How many bodies are nearby"
+    }
+   ],
+   "answer": "b",
+   "explain": "Unlike linear momentum, angular momentum depends on where the origin is chosen, since the particle's position is measured from it.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.angular-momentum:q5"
+  },
+  {
+   "prompt": "Which part of Earth's motion carries its spin angular momentum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its daily turn about the polar axis"
+    },
+    {
+     "id": "b",
+     "label": "Its yearly trip around the Sun"
+    },
+    {
+     "id": "c",
+     "label": "Its pull on the Moon"
+    },
+    {
+     "id": "d",
+     "label": "Its tilt toward the Sun"
+    }
+   ],
+   "answer": "a",
+   "explain": "Spin angular momentum comes from rotation about the body's own center of mass, while orbital comes from revolving around the Sun.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.angular-momentum:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gyroskop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Angular momentum",
+  "credit": "Wikimedia Commons",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gyroskop.jpg"
+ },
+ "source": {
+  "title": "Angular momentum",
+  "url": "https://en.wikipedia.org/wiki/Angular_momentum",
+  "revision": 1380305811
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Momentum for turning things",
+    "text": "Angular momentum is the rotational partner of ordinary, or linear, momentum. It is also called moment of momentum or rotational momentum. It has both a size and a direction.",
+    "cites": [
+     1,
+     3,
+     30
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Angular momentum is conserved: when no net outside torque acts on a system, its total angular momentum stays constant. Torque can be defined as the rate at which angular momentum changes, much as force is for linear momentum. Both the size and the direction of the angular momentum are kept. Conservation narrows down how a system can move, though it does not settle the motion completely.",
+    "cites": [
+     2,
+     3,
+     6,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "How it is built",
+    "text": "For motion in a line, momentum is mass times speed, p = mv. For a spinning object, angular momentum L is proportional to its moment of inertia I times its angular speed ω, measured in radians per second. Moment of inertia is unlike mass: it depends not only on how much matter there is but on where that matter sits relative to the axis of spin. For a single particle, angular momentum is r × p, combining its position r from a chosen origin with its momentum.",
+    "cites": [
+     7,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "It depends on the centre",
+    "text": "Unlike linear momentum, angular momentum changes if you choose a different origin, because the particle's position is measured from that point. Strictly, then, L is the angular momentum about a particular centre. For a whole system, you add up the angular momenta of all its parts to get the total.",
+    "cites": [
+     8,
+     9,
+     34
+    ]
+   },
+   {
+    "heading": "Spin and orbit",
+    "text": "There are two special kinds. Spin angular momentum is taken about an object's own centre of mass, and orbital angular momentum about some chosen centre of rotation. The Earth has both: orbital from circling the Sun, spin from turning on its polar axis each day. Its orbital share is about 2.66 × 10⁴⁰ J⋅s, while its spin share is about 7.05 × 10³³ J⋅s.",
+    "cites": [
+     19,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Where you see it",
+    "text": "Bicycles and motorcycles, flying discs, rifled bullets and gyroscopes all rely on conservation of angular momentum for their useful behaviour. The same rule is why hurricanes form spirals. It is also why neutron stars spin so fast.",
+    "cites": [
+     4,
+     5
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up-11-2",
+   "kind": "book",
+   "title": "11.2 Angular Momentum",
+   "by": "William Moebs, Samuel J. Ling, Jeff Sanny (OpenStax)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/11-2-angular-momentum",
+   "note": "A free college textbook section on angular momentum for a particle, a system and a rigid body, with worked problems.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up-11-3",
+   "kind": "book",
+   "title": "11.3 Conservation of Angular Momentum",
+   "by": "William Moebs, Samuel J. Ling, Jeff Sanny (OpenStax)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum",
+   "note": "Textbook section on why spin is conserved, with an ice skater, a forming solar system and a gymnast's dismount.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-10-5",
+   "kind": "book",
+   "title": "10.5 Angular Momentum and Its Conservation",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/college-physics-2e/pages/10-5-angular-momentum-and-its-conservation",
+   "note": "A gentler introductory section tying angular momentum to torque, with the spinning skater example."
+  },
+  {
+   "id": "minutephysics-angular-momentum",
+   "kind": "video",
+   "title": "What IS Angular Momentum?",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=iWSu6U0Ujs8",
+   "minutes": 3,
+   "note": "A three-minute explainer on what angular momentum actually is."
+  }
+ ]
+}

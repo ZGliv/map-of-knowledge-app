@@ -1,0 +1,325 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value",
+ "name": "P-value",
+ "summary": [
+  {
+   "text": "The p-value is the probability of getting results at least as extreme as those observed, assuming the null hypothesis is correct.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A very small p-value means such an extreme outcome would be very unlikely under the null hypothesis, so smaller values are taken as stronger evidence against it.",
+   "cites": [
+    2,
+    13
+   ]
+  },
+  {
+   "text": "Reporting p-values is common practice in academic papers of many quantitative fields, yet misinterpretation and misuse of them is widespread.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Usual alpha level",
+   "value": "Commonly 0.05, set before looking at the data",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Where 0.05 came from",
+   "value": "Ronald Fisher proposed it in 1925",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Decision rule",
+   "value": "If p is less than alpha, the null is rejected",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Common problem",
+   "value": "Widely misinterpreted and misused despite routine reporting",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Not fixed",
+   "value": "Repeating the test with fresh data typically gives a new p-value",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A tester assumes a coin is fair, flips it, and gets a result so lopsided that a fair coin would rarely produce it. What will the p-value look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Large, since the result did happen and is therefore likely"
+    },
+    {
+     "id": "b",
+     "label": "Exactly 0.5, since a fair coin has two sides"
+    },
+    {
+     "id": "c",
+     "label": "Small, since such an extreme result is unlikely if the coin is fair"
+    },
+    {
+     "id": "d",
+     "label": "Undefined, since one run of flips is not enough"
+    }
+   ],
+   "answer": "c",
+   "explain": "The p-value is the probability of a result at least this extreme if the null hypothesis is correct. A very small one means the outcome would be very unlikely under it.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value:q1"
+  },
+  {
+   "prompt": "A lab fixes its threshold at 0.05 before collecting anything, then its study returns p = 0.03. What does the decision rule say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The null hypothesis is rejected, because p is below the threshold"
+    },
+    {
+     "id": "b",
+     "label": "The null hypothesis is kept, because 0.03 is a small number"
+    },
+    {
+     "id": "c",
+     "label": "The threshold must be lowered until p is above it"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, because a p-value cannot meet a threshold"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a significance test the null hypothesis is rejected if the p-value is less than the predefined threshold α, here 0.05.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value:q2"
+  },
+  {
+   "prompt": "A researcher runs a study, sees p = 0.04, and then decides to set the cutoff at 0.05 so the result passes. What principle is broken?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The cutoff must be exactly 0.01 in every study"
+    },
+    {
+     "id": "b",
+     "label": "The cutoff may only be chosen by an independent referee"
+    },
+    {
+     "id": "c",
+     "label": "A lower cutoff always makes the p-value more accurate"
+    },
+    {
+     "id": "d",
+     "label": "The cutoff is set by the researcher before examining the data"
+    }
+   ],
+   "answer": "d",
+   "explain": "The alpha level is not derived from the data; it is set before the data are examined, and the result is then compared with it.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value:q3"
+  },
+  {
+   "prompt": "Two labs run the same kind of test on the same question, each with its own fresh data. Lab A gets p = 0.03. What should we expect from Lab B?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 0.03, since the question has not changed"
+    },
+    {
+     "id": "b",
+     "label": "Typically a different p-value, since it depends on the data"
+    },
+    {
+     "id": "c",
+     "label": "Exactly 0.97, the complement of Lab A's result"
+    },
+    {
+     "id": "d",
+     "label": "No p-value at all unless Lab A rejected the null"
+    }
+   ],
+   "answer": "b",
+   "explain": "The p-value is not fixed. If a test is repeated independently with fresh data, one will typically obtain a different p-value each time.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value:q4"
+  },
+  {
+   "prompt": "Two studies test the same null hypothesis, all else equal. Study X gets p = 0.2 and study Y gets p = 0.001. Which provides stronger evidence against the null?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Study X, since a larger p-value means the data fit better"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since p-values carry no information about evidence"
+    },
+    {
+     "id": "c",
+     "label": "Study Y, since a smaller p-value is stronger evidence against the null"
+    },
+    {
+     "id": "d",
+     "label": "They are equal, since both are below one"
+    }
+   ],
+   "answer": "c",
+   "explain": "All other things being equal, smaller p-values are taken as stronger evidence against the null hypothesis.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value:q5"
+  },
+  {
+   "prompt": "A statistics teacher says this number turns up in nearly every quantitative paper. What is a fair warning to give students about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is so standard that nobody ever misreads it"
+    },
+    {
+     "id": "b",
+     "label": "It is often misinterpreted and misused, even though it is common"
+    },
+    {
+     "id": "c",
+     "label": "It has been dropped from most published research"
+    },
+    {
+     "id": "d",
+     "label": "Only the very smallest values are ever misunderstood"
+    }
+   ],
+   "answer": "b",
+   "explain": "Reporting p-values is common practice, but misinterpretation and misuse of them is widespread.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value:q6"
+  }
+ ],
+ "source": {
+  "title": "P-value",
+  "url": "https://en.wikipedia.org/wiki/P-value",
+  "revision": 1378624770
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A p-value answers one question: if the null hypothesis were correct, how probable would it be to get test results at least as extreme as the ones actually seen? The null hypothesis is the default claim that some property does not exist, typically that a parameter such as a difference between means is zero. A very small p-value means an outcome this extreme would be very unlikely if the null hypothesis held.",
+    "cites": [
+     1,
+     2,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "The p-value is how null hypothesis testing puts a number on the statistical significance of a result. A result counts as statistically significant if it lets us reject the null hypothesis. All else being equal, a smaller p-value is taken as stronger evidence against that hypothesis. Reporting p-values is common practice in academic papers across many quantitative fields, yet misreading and misusing them is widespread and has become a major topic in mathematics and metascience.",
+    "cites": [
+     3,
+     10,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Working it out",
+    "text": "The data are usually reduced to a single number, a statistic T, tied closely to the main question of the study. A one-sided right-tail test uses p = Pr (T ≥ t ∣ H₀), and a one-sided left-tail test uses p = Pr (T ≤ t ∣ H₀). When the distribution of T is symmetric about zero, p = Pr (|T| ≥ |t| ∣ H₀).",
+    "cites": [
+     9,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Drawing the line",
+    "text": "The null hypothesis is rejected when the p-value falls below a threshold α, called the alpha level or significance level. The researcher sets α before looking at the data rather than deriving it from them. It is commonly 0.05, though lower levels are sometimes used. That 0.05 value, a 1 in 20 chance, was first proposed by Ronald Fisher in 1925 in his book Statistical Methods for Research Workers.",
+    "cites": [
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "What it cannot tell you",
+    "text": "Rejecting a null hypothesis can mean several different things. If the null says a statistic T has the standard normal distribution N (0, 1), a rejection could mean the mean of T is not 0, the variance is not 1, or T is not normal at all. Even when we know the distribution is normal with variance 1, the test does not say which non-zero means are now most plausible. More independent observations make the test more accurate, but they also make it more important to ask whether the deviation matters in the real world.",
+    "cites": [
+     15,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "A number that moves",
+    "text": "Because the p-value is a function of the test statistic, it is itself a random variable. If the null hypothesis fixes the distribution of T precisely and that distribution is continuous, the p-value is spread evenly between 0 and 1 whenever the null is true. Repeat the same test on fresh data and you will typically get a different p-value each time. When many studies on one subject are gathered, the distribution of their significant p-values, called a p-curve, can reveal publication bias or p-hacking.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "lane-11-2",
+   "kind": "book",
+   "title": "11.2: Significance Testing",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/11%3A_Logic_of_Hypothesis_Testing/11.02%3A_Significance_Testing",
+   "note": "A plain explanation of probability values as evidence against the null hypothesis, and of the alpha level.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "lane-11-9",
+   "kind": "book",
+   "title": "11.9: Misconceptions of Hypothesis Testing",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/11%3A_Logic_of_Hypothesis_Testing/11.09%3A_Misconceptions_of_Hypothesis_Testing",
+   "note": "Short and useful: the common ways people misread a p-value, and what it really measures.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "cc-stats-22",
+   "kind": "video",
+   "title": "P-Value Problems: Crash Course Statistics #22",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=PPD8lER8ju4",
+   "note": "A Crash Course Statistics episode on what p-values can and cannot tell you, and the trouble with fixed cutoffs."
+  }
+ ]
+}

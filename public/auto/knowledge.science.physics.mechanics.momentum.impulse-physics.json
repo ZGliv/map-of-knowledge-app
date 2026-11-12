@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.momentum.impulse-physics",
+ "name": "Impulse (physics)",
+ "summary": [
+  {
+   "text": "Impulse is the change in an object's momentum, most often used for forces that act for a short time, as in impacts and collisions.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Like momentum it has a size and a direction, and its SI unit is the newton-second, dimensionally equal to kilogram metre per second.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "text": "A constant force acting for a time gives an impulse equal to force times time, and in rocketry impulse per unit of propellant gives a performance number called specific impulse.",
+   "cites": [
+    12,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Definition",
+   "value": "The change in an object's momentum",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "SI unit",
+   "value": "Newton-second (N⋅s)",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Vector?",
+   "value": "Yes, it has size and direction",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Rocketry term",
+   "value": "Total impulse means the same thing",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Specific impulse",
+   "value": "Impulse per unit mass of propellant",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A kick changes a ball's momentum by 4 kg⋅m/s toward the goal. What is the impulse of the kick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8 N⋅s, double the change"
+    },
+    {
+     "id": "b",
+     "label": "4 N⋅s, pointing the way the momentum changed"
+    },
+    {
+     "id": "c",
+     "label": "4 N⋅s, with no direction"
+    },
+    {
+     "id": "d",
+     "label": "4 N⋅s, pointing back at the kicker"
+    }
+   ],
+   "answer": "b",
+   "explain": "Impulse is the momentum change, a vector, and N⋅s is equivalent to kg⋅m/s.",
+   "cites": [
+    1,
+    3,
+    9
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.impulse-physics:q1"
+  },
+  {
+   "prompt": "Why do game physics engines treat a collision's push as instant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real collisions take exactly zero time"
+    },
+    {
+     "id": "b",
+     "label": "Impulse exists only for one-second pushes"
+    },
+    {
+     "id": "c",
+     "label": "Instant changes need no force at all"
+    },
+    {
+     "id": "d",
+     "label": "It is not literally possible but simplifies ideal collisions"
+    }
+   ],
+   "answer": "d",
+   "explain": "The step change is not physically possible, yet it is a useful model for ideal collisions.",
+   "cites": [
+    4,
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.impulse-physics:q2"
+  },
+  {
+   "prompt": "Two rocket engines give the same total push over a burn, but engine X burns half as much propellant. Which has the higher specific impulse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Engine X, the one using less propellant"
+    },
+    {
+     "id": "b",
+     "label": "The one burning more propellant"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since propellant is ignored"
+    },
+    {
+     "id": "d",
+     "label": "They match, since the totals are equal"
+    }
+   ],
+   "answer": "a",
+   "explain": "Specific impulse is impulse per unit of propellant, so the same impulse from less propellant scores higher.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.impulse-physics:q3"
+  },
+  {
+   "prompt": "A physicist says impulse and momentum share the same basic dimensions. Which pair of units shows it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Joule and kilogram-metre"
+    },
+    {
+     "id": "b",
+     "label": "Newton-metre and kilogram-second"
+    },
+    {
+     "id": "c",
+     "label": "Newton-second and kilogram metre per second"
+    },
+    {
+     "id": "d",
+     "label": "Watt and kilogram metre per second"
+    }
+   ],
+   "answer": "c",
+   "explain": "The newton-second is the SI unit of impulse and is dimensionally equivalent to momentum's kg⋅m/s.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.impulse-physics:q4"
+  },
+  {
+   "prompt": "A puck slides into the rink edge and bounces straight back. Which way does the impulse on the puck point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Toward the edge, the way it first travelled"
+    },
+    {
+     "id": "b",
+     "label": "Along the edge, sideways to both"
+    },
+    {
+     "id": "c",
+     "label": "It has no direction at all"
+    },
+    {
+     "id": "d",
+     "label": "Away from the edge, the way its motion changed"
+    }
+   ],
+   "answer": "d",
+   "explain": "Impulse is a vector pointing the way the momentum changed, here back out from the edge.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.impulse-physics:q5"
+  },
+  {
+   "prompt": "For which kind of force is it most natural to talk about impulse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A push that lasts only a moment, like a hit"
+    },
+    {
+     "id": "b",
+     "label": "A steady pull that lasts for hours"
+    },
+    {
+     "id": "c",
+     "label": "A force that never changes direction"
+    },
+    {
+     "id": "d",
+     "label": "A force on an object that is not moving"
+    }
+   ],
+   "answer": "a",
+   "explain": "The term is most often used for forces acting over short time periods, as in impacts and collisions.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.impulse-physics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Armedforces_jeffery_tee_shot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Impulse (physics)",
+  "credit": "Master Sgt. Steve Miller",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Armedforces_jeffery_tee_shot.jpg"
+ },
+ "source": {
+  "title": "Impulse (physics)",
+  "url": "https://en.wikipedia.org/wiki/Impulse_(physics)",
+  "revision": 1364586628
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Change in momentum",
+    "text": "Impulse is the change in an object's momentum, usually written J. If an object's momentum begins at pᵢ and ends at p_f, the impulse is J = p_f − pᵢ. It is mostly used for forces that act briefly, such as in impacts and collisions, which is where its name comes from.",
+    "cites": [
+     1,
+     2,
+     11
+    ]
+   },
+   {
+    "heading": "Size and direction",
+    "text": "Impulse is a vector. Its size tells you how much the momentum changed, and its direction tells you which way. It shares the units and dimensions of momentum. In SI units it is measured in newton-seconds, N⋅s, which equal kilogram-metres per second.",
+    "cites": [
+     3,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Force times time",
+    "text": "Newton's second law says the net force on an object equals how fast its momentum changes. So a steady force F acting for a time Δt delivers an impulse J = FΔt.",
+    "cites": [
+     12
+    ]
+   },
+   {
+    "heading": "The instant-change model",
+    "text": "For a very brief force, impulse is often treated as if the momentum jumped all at once. Such a sudden step change cannot really happen. Still, the shortcut is handy for working out ideal collisions, for example in videogame physics engines.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Rockets and impulse",
+    "text": "Impulse is a working tool for analysing jet and rocket vehicles, and in rocketry total impulse means the same thing as impulse. Dividing the impulse a rocket delivers by the mass of propellant it burns gives specific impulse, a measure of engine performance. Specific impulse feeds into the Tsiolkovsky rocket equation, which links a vehicle's change in velocity to its engine's specific impulse and its propellant-mass ratio.",
+    "cites": [
+     7,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "When mass is lost",
+    "text": "Newton's second law in the form F = dp/dt holds only when no mass flows into or out of the object. For an object whose mass changes, such as a rocket, you can instead treat the escaping material as a series of small masses. The specific impulse then turns out to be the exhaust velocity, the speed at which material leaves the rocket as seen from the rocket.",
+    "cites": [
+     17,
+     18,
+     19,
+     21,
+     29,
+     30,
+     31
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up-9-2",
+   "kind": "book",
+   "title": "9.2 Impulse and Collisions",
+   "by": "William Moebs, Samuel J. Ling, Jeff Sanny (OpenStax)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions",
+   "note": "A free college textbook section on impulse as force over time, with a meteor impact, airbags and a tennis serve.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-8-2",
+   "kind": "book",
+   "title": "8.2 Impulse",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+   "note": "An introductory section showing impulse equals change in momentum, applied to car safety and everyday cases."
+  }
+ ]
+}

@@ -1,0 +1,589 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.dna-and-rna",
+ "name": "DNA and RNA",
+ "summary": [
+  {
+   "text": "Nucleic acids are large molecules found in all cells and viruses, built as chains of nucleotides.",
+   "cites": [
+    1,
+    2,
+    38
+   ]
+  },
+  {
+   "text": "The two main kinds are DNA and RNA, told apart by their sugar: deoxyribose in DNA and ribose in RNA.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "They carry information in cells and both play a crucial role in directing protein synthesis.",
+   "cites": [
+    6,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sugar difference",
+   "value": "Ribose in RNA, deoxyribose in DNA",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Base only in DNA",
+   "value": "Thymine occurs only in DNA",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Base only in RNA",
+   "value": "Uracil occurs only in RNA",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Biggest molecules",
+   "value": "Human chromosome 1 holds 247 million base pairs",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Double helix",
+   "value": "Watson and Crick proposed the structure in 1953",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab sample's chains contain thymine but no uracil. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is RNA, since thymine is an RNA base"
+    },
+    {
+     "id": "b",
+     "label": "It is DNA, since thymine occurs only there"
+    },
+    {
+     "id": "c",
+     "label": "It is neither, since nucleic acids lack thymine"
+    },
+    {
+     "id": "d",
+     "label": "It could be either, since both use thymine equally"
+    }
+   ],
+   "answer": "b",
+   "explain": "Thymine occurs only in DNA and uracil only in RNA, so thymine without uracil points to DNA.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna:q1"
+  },
+  {
+   "prompt": "You break a nucleic acid chain into its repeating units. What does each unit contain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A 5-carbon sugar, an amino acid and a nitrogenous base"
+    },
+    {
+     "id": "b",
+     "label": "A 6-carbon sugar, a phosphate group and a fatty acid"
+    },
+    {
+     "id": "c",
+     "label": "A phosphate group, an amino acid and a fatty acid"
+    },
+    {
+     "id": "d",
+     "label": "A 5-carbon sugar, a phosphate group and a nitrogenous base"
+    }
+   ],
+   "answer": "d",
+   "explain": "Nucleic acids are made of nucleotides, and each nucleotide is a 5-carbon sugar, a phosphate group and a nitrogenous base.",
+   "cites": [
+    2,
+    31
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna:q2"
+  },
+  {
+   "prompt": "Nearly all living cells hold both kinds of nucleic acid. What is usual for a virus?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It holds one kind in its genome, usually not both"
+    },
+    {
+     "id": "b",
+     "label": "It holds both kinds, just as cells do"
+    },
+    {
+     "id": "c",
+     "label": "It holds neither, since viruses have no nucleic acid"
+    },
+    {
+     "id": "d",
+     "label": "It holds only the double-stranded kind, never single"
+    }
+   ],
+   "answer": "a",
+   "explain": "Viruses contain either DNA or RNA, but usually not both.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna:q3"
+  },
+  {
+   "prompt": "Why are these molecules called nucleic acids?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They neutralize the acids found inside the cell nucleus"
+    },
+    {
+     "id": "b",
+     "label": "First found in blood, and they contain nitrogen only"
+    },
+    {
+     "id": "c",
+     "label": "First found in the nucleus, and they contain acidic phosphate groups"
+    },
+    {
+     "id": "d",
+     "label": "They dissolve the nucleus whenever a cell divides"
+    }
+   ],
+   "answer": "c",
+   "explain": "They were named for their discovery within the nucleus and for their phosphate groups, which relate to phosphoric acid.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna:q4"
+  },
+  {
+   "prompt": "You compare the usual natural shapes of the two main nucleic acids. What do you find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "DNA has one strand; RNA has two strands"
+    },
+    {
+     "id": "b",
+     "label": "Both usually have two strands"
+    },
+    {
+     "id": "c",
+     "label": "Both usually have one strand"
+    },
+    {
+     "id": "d",
+     "label": "DNA has two strands; RNA has one strand"
+    }
+   ],
+   "answer": "d",
+   "explain": "In most cases naturally occurring DNA is double-stranded and RNA is single-stranded, though there are exceptions.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna:q5"
+  },
+  {
+   "prompt": "What did the Avery-MacLeod-McCarty experiment demonstrate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That DNA carries genetic information"
+    },
+    {
+     "id": "b",
+     "label": "That DNA has a double-helix shape"
+    },
+    {
+     "id": "c",
+     "label": "That DNA contains the base uracil"
+    },
+    {
+     "id": "d",
+     "label": "That DNA is made only of sugar"
+    }
+   ],
+   "answer": "a",
+   "explain": "The 1944 experiment showed DNA is the carrier of genetic information; the double helix was proposed later by Watson and Crick.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Difference_DNA_RNA-EN.svg/960px-Difference_DNA_RNA-EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "DNA and RNA",
+  "credit": "File:Difference DNA RNA-DE.svg: Sponk / *translation: Sponk",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-EN.svg"
+ },
+ "source": {
+  "title": "Nucleic acid",
+  "url": "https://en.wikipedia.org/wiki/Nucleic_acid",
+  "revision": 1381480491
+ },
+ "pack": {
+  "id": "auto-biochemistry-dna-and-rna",
+  "title": "Two sugars, one big family",
+  "question": "What sets DNA and RNA apart from each other?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Biochemistry",
+   "DNA and RNA"
+  ],
+  "hue": 175,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Difference_DNA_RNA-EN.svg/960px-Difference_DNA_RNA-EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "DNA and RNA",
+    "credit": "File:Difference DNA RNA-DE.svg: Sponk / *translation: Sponk · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-EN.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Two sugars, one big family",
+    "hook": "They are built from the same kind of parts, yet one small swap changes which molecule you have."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-biochemistry-dna-and-rna:1",
+    "transfer": false,
+    "prompt": "Match each item to its partner.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "RNA"
+     },
+     {
+      "id": "l1",
+      "label": "DNA"
+     },
+     {
+      "id": "l2",
+      "label": "Found only in DNA"
+     },
+     {
+      "id": "l3",
+      "label": "Found only in RNA"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "deoxyribose"
+     },
+     {
+      "id": "r2",
+      "label": "thymine"
+     },
+     {
+      "id": "r3",
+      "label": "uracil"
+     },
+     {
+      "id": "r0",
+      "label": "ribose"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The sugar decides the polymer, and thymine and uracil split between the two."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-biochemistry-dna-and-rna:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each feature into the nucleic acid it describes.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Sugar is deoxyribose"
+     },
+     {
+      "id": "i1",
+      "label": "Sugar is ribose"
+     },
+     {
+      "id": "i2",
+      "label": "Contains thymine"
+     },
+     {
+      "id": "i3",
+      "label": "Contains uracil"
+     },
+     {
+      "id": "i4",
+      "label": "Usually double-stranded"
+     },
+     {
+      "id": "i5",
+      "label": "Usually single-stranded"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "DNA"
+     },
+     {
+      "id": "g1",
+      "label": "RNA"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g0",
+     "i5": "g1"
+    },
+    "explain": "Sugar, one base and usual strand count all separate the two."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-biochemistry-dna-and-rna:3",
+    "transfer": true,
+    "prompt": "You test a virus and find its genome is double-stranded RNA. Is that possible?",
+    "explain": "Natural RNA is usually single-stranded, but some viruses have genomes made of double-stranded RNA.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "No, RNA is always single-stranded",
+        "feedback": "RNA is usually single-stranded, which makes this tempting, but there are exceptions."
+       },
+       {
+        "id": "c",
+        "label": "No, viruses have no nucleic acids at all",
+        "feedback": "Viruses do contain nucleic acid, either DNA or RNA."
+       },
+       {
+        "id": "b",
+        "label": "Yes, some viruses have double-stranded RNA genomes"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-biochemistry-dna-and-rna:4",
+    "transfer": true,
+    "prompt": "Put these discoveries in order, earliest first.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Miescher discovers nuclein"
+     },
+     {
+      "id": "b",
+      "label": "Altmann coins the term nucleic acid"
+     },
+     {
+      "id": "c",
+      "label": "Astbury and Bell publish the first X-ray pattern of DNA"
+     },
+     {
+      "id": "d",
+      "label": "Watson and Crick propose the double helix"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Earliest",
+     "Latest"
+    ],
+    "explain": "These happened in 1869, 1889, 1938 and 1953."
+   },
+   {
+    "kind": "payoff",
+    "idea": "DNA and RNA are both chains of nucleotides, told apart by their sugar and by one base.",
+    "connections": [
+     {
+      "title": "Nucleotide",
+      "place": "DNA and RNA",
+      "node": "knowledge.science.chemistry.biochemistry.dna-and-rna.nucleotide"
+     },
+     {
+      "title": "DNA replication",
+      "place": "DNA and RNA",
+      "node": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication"
+     },
+     {
+      "title": "Transcription (biology)",
+      "place": "DNA and RNA",
+      "node": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology"
+     },
+     {
+      "title": "Translation (biology)",
+      "place": "DNA and RNA",
+      "node": "knowledge.science.chemistry.biochemistry.dna-and-rna.translation-biology"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The sugar decides the polymer, and thymine and uracil split between the two.",
+    "source": "Wikipedia sentences 4, 15"
+   },
+   {
+    "claim": "Sugar, one base and usual strand count all separate the two.",
+    "source": "Wikipedia sentences 4, 15, 36"
+   },
+   {
+    "claim": "Natural RNA is usually single-stranded, but some viruses have genomes made of double-stranded RNA.",
+    "source": "Wikipedia sentences 30, 36, 37"
+   },
+   {
+    "claim": "These happened in 1869, 1889, 1938 and 1953.",
+    "source": "Wikipedia sentences 18, 23, 24, 25"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two kinds of nucleic acid",
+    "text": "DNA and RNA are the two main classes of nucleic acid. Their full names are deoxyribonucleic acid and ribonucleic acid. Nucleic acids are big biomolecules, and every cell and virus depends crucially on them. Inside cells they hold information and form the genetic material, and both DNA and RNA play a crucial part in directing how proteins are made.",
+    "cites": [
+     1,
+     3,
+     6,
+     11
+    ]
+   },
+   {
+    "heading": "Built from nucleotides",
+    "text": "A nucleic acid is a linear polymer, a chain, of units called nucleotides. Each nucleotide has three parts: a sugar with five carbons, a phosphate group that makes the molecule acidic, and a nitrogenous base. The base together with the sugar is called a nucleoside. Along the chain, sugars and phosphates alternate, joined by phosphodiester linkages, to form the sugar-phosphate backbone.",
+    "cites": [
+     2,
+     38,
+     39,
+     40,
+     43
+    ]
+   },
+   {
+    "heading": "Telling them apart",
+    "text": "The sugar decides which one you have. A chain built on ribose is RNA, while a chain built on deoxyribose, a variant of ribose, is DNA; the two sugars differ only by a hydroxyl group. The bases differ too. Adenine, cytosine and guanine show up in both, but thymine is limited to DNA, and uracil to RNA. In most natural cases DNA is double-stranded and RNA single-stranded, though some viruses have double-stranded RNA or single-stranded DNA genomes.",
+    "cites": [
+     4,
+     15,
+     36,
+     37,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Carrying information",
+    "text": "The order of the bases is what carries the information. In DNA, the sequence of base pairs helps store and pass on coded instructions as genes. In RNA, the sequence helps make new proteins, which determine most chemical processes of living things. All living cells hold both DNA and RNA, apart from some such as mature red blood cells, while viruses usually hold one or the other.",
+    "cites": [
+     16,
+     17,
+     30
+    ]
+   },
+   {
+    "heading": "Giant molecules",
+    "text": "Nucleic acids are usually very large. DNA molecules are probably the biggest single molecules known. Well-studied examples run from small interfering RNA, just 21 nucleotides long, up to whole chromosomes. Human chromosome 1 is one single molecule containing 247 million base pairs.",
+    "cites": [
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "How they were found",
+    "text": "Friedrich Miescher made a first, partial discovery of nucleic acid in 1869 at the University of Tübingen, Germany, and called his new substance nuclein. In the early 1880s Albrecht Kossel purified it further, found it was highly acidic, and later identified the bases. Richard Altmann coined the term nucleic acid in 1889. The name comes from the nucleus, where these acids were first found, and from their phosphate groups. DNA was shown to carry genetic information by the Avery–MacLeod–McCarty experiment of 1944, and in 1953 Watson and Crick proposed its double-helix structure.",
+    "cites": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     25,
+     28
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-3-5",
+   "kind": "book",
+   "title": "3.5 Nucleic Acids",
+   "by": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+   "note": "A free college biology section on nucleotides, the DNA double helix and how RNA differs from DNA.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-14-2",
+   "kind": "book",
+   "title": "14.2 DNA Structure and Sequencing",
+   "by": "OpenStax, Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+   "note": "A free biology textbook section on how DNA is built, how its strands pair, and how it is read and packed.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-nucleic-acids",
+   "kind": "book",
+   "title": "8.1: Nucleic Acids - Structure and Function",
+   "by": "Henry Jakubowski and Patricia Flatt, LibreTexts",
+   "url": "https://bio.libretexts.org/Bookshelves/Biochemistry/Fundamentals_of_Biochemistry_(Jakubowski_and_Flatt)/01%3A_Unit_I-_Structure_and_Catalysis/08%3A_Nucleotides_and_Nucleic_Acids/8.01%3A_Nucleic_Acids_-_Structure_and_Function",
+   "note": "A deeper free biochemistry textbook section on nucleotides, base pairing and the many shapes DNA and RNA can take.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "crashcourse-dna-structure",
+   "kind": "video",
+   "title": "DNA Structure and Replication: Crash Course Biology #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=8kK2zwjRV0M",
+   "note": "A Crash Course Biology episode on how DNA is built and how it is copied."
+  }
+ ]
+}

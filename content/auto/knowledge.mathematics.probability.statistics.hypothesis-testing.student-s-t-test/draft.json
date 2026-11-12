@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "Student's t-test is a statistical test of whether the difference between the response of two groups is statistically significant.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is any hypothesis test whose test statistic follows a Student's t-distribution under the null hypothesis, and it most commonly tests whether the means of two populations differ.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "The distribution is named for William Sealy Gosset, who published it in 1908 under the pseudonym Student while working at the Guinness Brewery in Dublin.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who devised it",
+   "value": "William Sealy Gosset, who worked at Guinness in Dublin",
+   "cites": [
+    11,
+    14
+   ]
+  },
+  {
+   "label": "First published",
+   "value": "1908, in the journal Biometrika",
+   "cites": [
+    10,
+    15
+   ]
+  },
+  {
+   "label": "Original purpose",
+   "value": "An economical way to monitor the quality of stout",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Large-sample behaviour",
+   "value": "A Z-test gives very similar results as the dataset grows",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Most common use",
+   "value": "Testing whether two population means are significantly different",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Researchers enroll 100 people and randomly assign 50 to a treatment and 50 to a control group. Which form of the t-test fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Paired, because everyone is measured once"
+    },
+    {
+     "id": "b",
+     "label": "Paired, because the two groups have equal size"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because it needs two measurements per person"
+    },
+    {
+     "id": "d",
+     "label": "Unpaired, because the groups are two separate sets of people"
+    }
+   ],
+   "answer": "d",
+   "explain": "With two non-overlapping, independent samples, the unpaired (independent samples) form of the t-test is used.",
+   "cites": [
+    26,
+    30,
+    31,
+    32
+   ]
+  },
+  {
+   "prompt": "A clinic measures each patient's blood pressure before and after a drug, then compares each patient's own two numbers. Why is this design attractive?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It removes random differences between patients, raising power"
+    },
+    {
+     "id": "b",
+     "label": "It cuts the number of examinations the study needs"
+    },
+    {
+     "id": "c",
+     "label": "It makes the two groups independent of each other"
+    },
+    {
+     "id": "d",
+     "label": "It makes a null hypothesis unnecessary for the test"
+    }
+   ],
+   "answer": "a",
+   "explain": "Each patient serves as their own control, eliminating the random variation between patients. The price is that every subject must be examined twice.",
+   "cites": [
+    34,
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "prompt": "A dataset keeps growing to a very large size. How do the results of a t-test and a Z-test compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They grow steadily more different from each other"
+    },
+    {
+     "id": "b",
+     "label": "They become very similar, as the t-test approaches the Z-test"
+    },
+    {
+     "id": "c",
+     "label": "The Z-test always reaches a decision before the t-test"
+    },
+    {
+     "id": "d",
+     "label": "The t-test can no longer be computed at that size"
+    }
+   ],
+   "answer": "b",
+   "explain": "In many cases a Z-test yields very similar results, because the t-test converges to the Z-test as the dataset gets larger.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "A 1908 statistics paper was signed with the pen name Student. Who was behind it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Karl Pearson, who edited the journal"
+    },
+    {
+     "id": "b",
+     "label": "Ronald Fisher, who made the distribution well known"
+    },
+    {
+     "id": "c",
+     "label": "William Gosset, an employee of a Dublin brewery"
+    },
+    {
+     "id": "d",
+     "label": "Helmert, who derived the distribution in 1876"
+    }
+   ],
+   "answer": "c",
+   "explain": "Gosset published under the pseudonym Student. Fisher's later work made the distribution well known under that name.",
+   "cites": [
+    10,
+    11,
+    13
+   ]
+  },
+  {
+   "prompt": "Brewery chemists could only afford a handful of barley measurements at a time. Why was that a fitting setting for Gosset's work?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He was interested in the problems of small samples"
+    },
+    {
+     "id": "b",
+     "label": "Barley data are always normally distributed"
+    },
+    {
+     "id": "c",
+     "label": "Large samples were banned by the brewery"
+    },
+    {
+     "id": "d",
+     "label": "Competitors demanded published proof of quality"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gosset was interested in problems of small samples, for example the chemical properties of barley, and devised the t-test as an economical way to monitor quality.",
+   "cites": [
+    11,
+    14
+   ]
+  },
+  {
+   "prompt": "A coach wants to know whether two training programs lead to different average sprint times. Which kind of test is the usual choice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A test of whether sprint times follow a normal distribution"
+    },
+    {
+     "id": "b",
+     "label": "A t-test of whether the two group means differ"
+    },
+    {
+     "id": "c",
+     "label": "A count of how many athletes finished"
+    },
+    {
+     "id": "d",
+     "label": "A test using only one athlete's times"
+    }
+   ],
+   "answer": "b",
+   "explain": "The t-test's most common application is testing whether the means of two populations are significantly different.",
+   "cites": [
+    1,
+    5
+   ]
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "The AM–GM inequality says the arithmetic mean of a list of non-negative real numbers is at least their geometric mean, and the two are equal only when every number is the same.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "For rectangles, it means that among all rectangles with the same area, only the square has the smallest perimeter.",
+   "cites": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "In finance it shows that the annualized return, a geometric mean, is less than the average annual return, an arithmetic mean.",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Equality case",
+   "value": "The two means match only when every number is the same",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Oldest trace",
+   "value": "The simplest case is implicit in Euclid's Elements",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Rectangle meaning",
+   "value": "For a given area, only the square has the smallest perimeter",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Finance use",
+   "value": "Annualized return is below the average annual return",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Proof use",
+   "value": "It can be used to prove the Cauchy–Schwarz inequality",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Four friends each have exactly 7 marbles. How do the arithmetic mean and the geometric mean of their counts compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The arithmetic mean is larger"
+    },
+    {
+     "id": "b",
+     "label": "The geometric mean is larger"
+    },
+    {
+     "id": "c",
+     "label": "They are equal, since every number is the same"
+    },
+    {
+     "id": "d",
+     "label": "They cannot be compared for equal numbers"
+    }
+   ],
+   "answer": "c",
+   "explain": "The two means are equal exactly when every number in the list is the same, and then both equal that number.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "You have a fixed amount of land and want the shortest possible fence around a rectangular plot. Which plot shape should you choose?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Equal sides, as for a square"
+    },
+    {
+     "id": "b",
+     "label": "A long, thin rectangle"
+    },
+    {
+     "id": "c",
+     "label": "Any rectangle, since the fence is the same length"
+    },
+    {
+     "id": "d",
+     "label": "A rectangle twice as long as it is wide"
+    }
+   ],
+   "answer": "a",
+   "explain": "A rectangle of a given area has the smallest perimeter when it is also a square.",
+   "cites": [
+    6,
+    12
+   ]
+  },
+  {
+   "prompt": "A list contains just the numbers 2 and 8. Which statement about its two means is correct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two means are equal because both numbers are positive"
+    },
+    {
+     "id": "b",
+     "label": "The geometric mean is larger because 8 is far from 2"
+    },
+    {
+     "id": "c",
+     "label": "The two means are equal because the numbers multiply to a perfect square"
+    },
+    {
+     "id": "d",
+     "label": "The arithmetic mean is larger because the numbers differ"
+    }
+   ],
+   "answer": "d",
+   "explain": "The means can be equal only when every number is the same. Otherwise the arithmetic mean is greater.",
+   "cites": [
+    1,
+    39
+   ]
+  },
+  {
+   "prompt": "An investment fund's plain average of yearly returns looks strong. How does the return you actually keep per year, compounded, compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is higher than the plain average"
+    },
+    {
+     "id": "b",
+     "label": "It is lower than the plain average"
+    },
+    {
+     "id": "c",
+     "label": "It is always exactly the same as the plain average"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be compared with the plain average"
+    }
+   ],
+   "answer": "b",
+   "explain": "The annualized return is a geometric mean and the average annual return is an arithmetic mean, so the annualized return comes out lower.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "prompt": "Of all boxes with the same volume, which has the smallest average length of the edges meeting at a corner?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A tall, narrow box"
+    },
+    {
+     "id": "b",
+     "label": "A flat, wide box"
+    },
+    {
+     "id": "c",
+     "label": "The one with all edges equal"
+    },
+    {
+     "id": "d",
+     "label": "Any box, since volume fixes the average"
+    }
+   ],
+   "answer": "c",
+   "explain": "Only the box with all edges equal has the smallest average edge length among boxes of the same volume.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "A mathematician wants a stepping stone to prove a different famous inequality about vectors. Which result from this topic can she use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The inequality comparing arithmetic and geometric means"
+    },
+    {
+     "id": "b",
+     "label": "The rule that a square has the largest perimeter"
+    },
+    {
+     "id": "c",
+     "label": "The rule that all means are always equal"
+    },
+    {
+     "id": "d",
+     "label": "The rule that geometric means exceed arithmetic means"
+    }
+   ],
+   "answer": "a",
+   "explain": "The AM–GM inequality can be used to prove the Cauchy–Schwarz inequality.",
+   "cites": [
+    18
+   ]
+  }
+ ]
+}

@@ -1,0 +1,566 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.normal-distribution",
+ "name": "Normal distribution",
+ "summary": [
+  {
+   "text": "The normal distribution, informally called a bell curve, is described by a mean μ and a variance σ², with the standard deviation σ as the positive value measuring spread.",
+   "cites": [
+    3,
+    4,
+    14
+   ]
+  },
+  {
+   "text": "The average of many independent samples converges toward it as the samples grow, so quantities built from many independent processes, like measurement errors, are often nearly normal.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "text": "It is often used in the natural and social sciences when a variable's distribution is unknown, but it is frequently misused when the data are not actually normal.",
+   "cites": [
+    6,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Center",
+   "value": "The mean is also the median and the mode",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Spread",
+   "value": "Variance is σ²; standard deviation is σ",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Standard case",
+   "value": "The simplest case has μ = 0 and σ² = 1",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "label": "Standardizing",
+   "value": "Z = (X − μ)/σ gives a mean of 0 and a spread of 1",
+   "cites": [
+    19,
+    25
+   ]
+  },
+  {
+   "label": "Sums stay normal",
+   "value": "Any mix of independent normal deviates is normal",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab weighs the same object many times. Each reading's error comes from many tiny, independent causes added together. What shape should the errors roughly follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Close to a bell curve, because sums of many independent effects tend that way"
+    },
+    {
+     "id": "b",
+     "label": "Perfectly flat, because every error size is equally likely"
+    },
+    {
+     "id": "c",
+     "label": "Lopsided, because errors always push the reading the same direction"
+    },
+    {
+     "id": "d",
+     "label": "Random with no pattern, because independent causes cancel any shape"
+    }
+   ],
+   "answer": "a",
+   "explain": "Quantities that are sums of many independent processes, such as measurement errors, often have nearly normal distributions.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution:q1"
+  },
+  {
+   "prompt": "A friend sees a bell-shaped histogram and says, 'So the data must be normally distributed.' What is the flaw?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bell shapes only come from data with a mean of zero"
+    },
+    {
+     "id": "b",
+     "label": "Other distributions, such as Student's t, are bell-shaped too"
+    },
+    {
+     "id": "c",
+     "label": "A histogram can never reveal anything about shape at all"
+    },
+    {
+     "id": "d",
+     "label": "Normal data always look lopsided rather than bell-shaped"
+    }
+   ],
+   "answer": "b",
+   "explain": "Many other distributions, including Cauchy, Student's t and logistic, are bell-shaped, so the look alone does not make data normal.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution:q2"
+  },
+  {
+   "prompt": "A teacher takes scores that follow the standard normal pattern, multiplies each by 10 and adds 50. What do the new scores look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Normal, with mean 10 and standard deviation 50"
+    },
+    {
+     "id": "b",
+     "label": "Not normal, because stretching bends the bell shape"
+    },
+    {
+     "id": "c",
+     "label": "Normal, with mean 50 and standard deviation 10"
+    },
+    {
+     "id": "d",
+     "label": "Standard normal, because they started that way"
+    }
+   ],
+   "answer": "c",
+   "explain": "Scaling a standard normal deviate Z by σ and shifting by μ, as in X = σZ + μ, gives a normal distribution with expected value μ and standard deviation σ.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution:q3"
+  },
+  {
+   "prompt": "Two independent quantities are each normally distributed, and you add them together to make a total. What can you say about the total's distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is no longer bell-shaped, because adding spoils symmetry"
+    },
+    {
+     "id": "b",
+     "label": "It is uniform, because adding evens out the extremes"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be described, because the two spreads differ"
+    },
+    {
+     "id": "d",
+     "label": "It is also normal, because such combinations stay normal"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any linear combination of a fixed collection of independent normal deviates is itself a normal deviate.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution:q4"
+  },
+  {
+   "prompt": "A quiz score has mean 100 and standard deviation 15, and the scores are normal. Rescale a score of 130 as (score − mean) ÷ spread. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2"
+    },
+    {
+     "id": "b",
+     "label": "30"
+    },
+    {
+     "id": "c",
+     "label": "0.5"
+    },
+    {
+     "id": "d",
+     "label": "8.7"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rescaling Z = (X − μ)/σ gives (130 − 100)/15 = 2, which puts the score on the standard normal scale.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution:q5"
+  },
+  {
+   "prompt": "An analyst has no idea what shape her data have, and just assumes they are normal because that model is common. What is the risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The normal model can fit poorly when the data are not normal"
+    },
+    {
+     "id": "b",
+     "label": "Normal models refuse to run on data with unknown shape"
+    },
+    {
+     "id": "c",
+     "label": "The assumption makes the data become normal after enough use"
+    },
+    {
+     "id": "d",
+     "label": "Unknown data always follow the normal model in the long run"
+    }
+   ],
+   "answer": "a",
+   "explain": "Normal distributions are frequently misused when the assumption of normality is not met, and then the model is poor.",
+   "cites": [
+    6,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/960px-Normal_Distribution_PDF.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Normal distribution",
+  "credit": "Inductiveload",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Normal_Distribution_PDF.svg"
+ },
+ "source": {
+  "title": "Normal distribution",
+  "url": "https://en.wikipedia.org/wiki/Normal_distribution",
+  "revision": 1382495450
+ },
+ "pack": {
+  "id": "auto-probability-distributions-normal-distribution",
+  "title": "Why the bell shows up",
+  "question": "Why does the bell curve turn up in so many places?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Probability distributions",
+   "Normal distribution"
+  ],
+  "hue": 43,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/960px-Normal_Distribution_PDF.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Normal distribution",
+    "credit": "Inductiveload · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Normal_Distribution_PDF.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why the bell shows up",
+    "hook": "Measurement errors, averages and many other things settle into the same shape, and there is a reason."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-distributions-normal-distribution:1",
+    "transfer": false,
+    "prompt": "You take the average of many independent observations of a variable, again and again, with more observations each time. What happens to the distribution of that average?",
+    "explain": "The central limit theorem says the average of many independent samples converges to a normal distribution as the number of samples increases.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "It gets closer and closer to a normal distribution",
+        "feedback": ""
+       },
+       {
+        "id": "c",
+        "label": "It keeps the exact shape of one single observation",
+        "feedback": "It is tempting to think averaging changes nothing, but the shape of the average changes."
+       },
+       {
+        "id": "b",
+        "label": "It becomes flat, with every value equally likely",
+        "feedback": "Averaging pulls values toward the middle rather than spreading them evenly."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-distributions-normal-distribution:2",
+    "transfer": false,
+    "prompt": "Match each piece of notation to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "μ"
+     },
+     {
+      "id": "l1",
+      "label": "σ²"
+     },
+     {
+      "id": "l2",
+      "label": "σ"
+     },
+     {
+      "id": "l3",
+      "label": "Z = (X − μ)/σ"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "The mean, also the median and mode"
+     },
+     {
+      "id": "r2",
+      "label": "The standard deviation"
+     },
+     {
+      "id": "r1",
+      "label": "The variance"
+     },
+     {
+      "id": "r3",
+      "label": "The standardized form of X"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "A normal distribution is described by its mean and variance, and rescaling by them gives the standard normal."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-distributions-normal-distribution:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A researcher does not know the shape of her data's distribution."
+     },
+     {
+      "id": "b",
+      "text": "She notes that normal distributions are often used when the distribution is unknown."
+     },
+     {
+      "id": "c",
+      "text": "She concludes the data must therefore be normally distributed."
+     },
+     {
+      "id": "d",
+      "text": "She then applies methods that assume normality."
+     }
+    ],
+    "answer": "c",
+    "explain": "Being a common model does not make data normal. Normal distributions are frequently misused where the assumption is not met."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-distributions-normal-distribution:4",
+    "transfer": true,
+    "prompt": "You take a variable Z with mean 0 and standard deviation 1, stretch it by a factor of σ, then shift it by μ. What do you get?",
+    "explain": "If Z is a standard normal deviate, then X = σZ + μ has a normal distribution with expected value μ and standard deviation σ.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "A distribution with expected value μ and standard deviation σ",
+        "feedback": ""
+       },
+       {
+        "id": "a",
+        "label": "The very same distribution as before, since stretching changes nothing",
+        "feedback": "Stretching by σ and shifting by μ changes the mean and the spread."
+       },
+       {
+        "id": "b",
+        "label": "A distribution that is no longer bell-shaped",
+        "feedback": "The result keeps its type; only its center and width change."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "Averages of many independent samples converge to a normal distribution, so sums of many small independent effects often look bell-shaped.",
+    "connections": [
+     {
+      "title": "Gaussian function",
+      "place": "Normal distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function"
+     },
+     {
+      "title": "Standard score",
+      "place": "Normal distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score"
+     },
+     {
+      "title": "68-95-99.7 rule",
+      "place": "Normal distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The central limit theorem says the average of many independent samples converges to a normal distribution as the number of samples increases.",
+    "source": "Wikipedia sentences 7, 8"
+   },
+   {
+    "claim": "A normal distribution is described by its mean and variance, and rescaling by them gives the standard normal.",
+    "source": "Wikipedia sentences 3, 4, 25, 26"
+   },
+   {
+    "claim": "Being a common model does not make data normal. Normal distributions are frequently misused where the assumption is not met.",
+    "source": "Wikipedia sentences 6, 13"
+   },
+   {
+    "claim": "If Z is a standard normal deviate, then X = σZ + μ has a normal distribution with expected value μ and standard deviation σ.",
+    "source": "Wikipedia sentences 19, 23, 24"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The normal distribution, also called the Gaussian distribution, is a continuous probability distribution for a variable that takes real-number values. Its density has the form f(x) = 1/√2πσ²exp (−((x − μ)²)/2σ²). Two numbers set it up. The mean μ is also the median and the mode, while the variance σ² describes the spread. The standard deviation is the positive value σ.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Why it shows up everywhere",
+    "text": "Normal distributions matter a great deal in statistics, and scientists in both natural and social fields often use them for real-valued quantities whose true distribution is unknown. Part of the reason is the central limit theorem. It says that if you average many independent observations of something with a finite mean and variance, the distribution of that average gets closer and closer to normal as the number of observations grows. That is why quantities built from many independent processes, such as measurement errors, tend to come out nearly normal.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Handy properties, and a warning",
+    "text": "The normal distribution also has unusual properties that are valuable in analytic work. Add up a fixed set of independent normal variables, each multiplied by some constant, and the result is normal too. Methods such as least squares fitting and propagation of uncertainty can be worked out exactly when the variables involved are normal. The catch is that people often assume data are normal when they are not, and then the model fits poorly.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Not the only bell curve",
+    "text": "People informally call the normal distribution a bell curve. Yet plenty of other distributions are bell-shaped too, including the Cauchy, Student's t and logistic distributions.",
+    "cites": [
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "The standard normal",
+    "text": "The simplest version is the standard normal distribution, where μ = 0 and σ² = 1. Its density, written φ(z) = (e^(−z²/2))/√2π, reaches its highest value, 1/√2π, at z = 0 and has inflection points at z = 1 and z = −1. The density is usually written with the Greek letter phi, while its cumulative distribution function is written with capital phi, Φ.",
+    "cites": [
+     17,
+     18,
+     20,
+     29,
+     31
+    ]
+   },
+   {
+    "heading": "Shifting and stretching",
+    "text": "Every normal distribution is the standard one moved and rescaled. If Z is standard normal, then X = σZ + μ is normal with mean μ and standard deviation σ: Z has been stretched by σ and slid over by μ. Going the other way, Z = (X − μ)/σ turns any normal X back into the standard form. Writing the density of X through φ means dividing by σ, which keeps the total area under it equal to 1.",
+    "cites": [
+     23,
+     24,
+     25,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Finding probabilities",
+    "text": "Some of the integrals involved cannot be written using elementary functions and are often called special functions, but many numerical approximations exist. Engineering texts in particular use the complement of the standard normal cumulative distribution function, 1 − Φ(x), under the name Q-function. It gives the probability that a standard normal variable comes out larger than x.",
+    "cites": [
+     40,
+     41,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ch6",
+   "kind": "book",
+   "title": "Ch. 6 Introduction",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-introduction",
+   "note": "Opening of a free textbook chapter on the normal distribution: the bell shape, its mean and its standard deviation.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-6-2",
+   "kind": "book",
+   "title": "6.2 Using the Normal Distribution",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-2-using-the-normal-distribution",
+   "note": "Worked examples of finding normal probabilities and percentiles with tables or a calculator.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-normal",
+   "kind": "article",
+   "title": "Normal Distribution",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/NormalDistribution.html",
+   "note": "A detailed reference entry with the formulas for the normal density, its moments and related results."
+  },
+  {
+   "id": "crashcourse-normal",
+   "kind": "video",
+   "title": "The Normal Distribution: Crash Course Statistics #19",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=rBjft49MAO8",
+   "note": "A short video introducing the normal distribution and its link to the central limit theorem."
+  }
+ ]
+}

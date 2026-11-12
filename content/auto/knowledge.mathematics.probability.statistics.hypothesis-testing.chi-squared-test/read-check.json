@@ -1,0 +1,30 @@
+{
+ "readHash": "2ea48c6be398fd70194b13254e98217400dc1b31",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Large-sample contingency test, independence of two categorical variables, Fisher's exact for small samples all in [1],[2],[5]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Pearson's variant [3], observed vs expected [4], mutually exclusive classes [6], null gives chi-squared [7], purpose [8]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Asymptotic approach [11], approximation error [25],[26], Yates 0.5 correction in 2x2 [27], lowers value raises p [28]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Normal assumption [12], skewness [13], 1900 paper foundational [14], goodness of fit [15], controversy settled by Fisher 1922/1924 [19],[20]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Variance test for normal population, stable process, statistic, n-1 df and 9.59-34.17 region all in [29]-[34]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Cryptanalysis comparison and lowest value meaning success [42],[43]; gene properties across categories [45]; opening line is framing only."
+  }
+ }
+}

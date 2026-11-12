@@ -1,0 +1,319 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality",
+ "name": "AM-GM inequality",
+ "summary": [
+  {
+   "text": "The AM–GM inequality says the arithmetic mean of a list of non-negative real numbers is at least their geometric mean, and the two are equal only when every number is the same.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "For rectangles, it means that among all rectangles with the same area, only the square has the smallest perimeter.",
+   "cites": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "In finance it shows that the annualized return, a geometric mean, is less than the average annual return, an arithmetic mean.",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Equality case",
+   "value": "The two means match only when every number is the same",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Oldest trace",
+   "value": "The simplest case is implicit in Euclid's Elements",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Rectangle meaning",
+   "value": "For a given area, only the square has the smallest perimeter",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Finance use",
+   "value": "Annualized return is below the average annual return",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Proof use",
+   "value": "It can be used to prove the Cauchy–Schwarz inequality",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Four friends each have exactly 7 marbles. How do the arithmetic mean and the geometric mean of their counts compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The arithmetic mean is larger"
+    },
+    {
+     "id": "b",
+     "label": "The geometric mean is larger"
+    },
+    {
+     "id": "c",
+     "label": "They are equal, since every number is the same"
+    },
+    {
+     "id": "d",
+     "label": "They cannot be compared for equal numbers"
+    }
+   ],
+   "answer": "c",
+   "explain": "The two means are equal exactly when every number in the list is the same, and then both equal that number.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality:q1"
+  },
+  {
+   "prompt": "You have a fixed amount of land and want the shortest possible fence around a rectangular plot. Which plot shape should you choose?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Equal sides, as for a square"
+    },
+    {
+     "id": "b",
+     "label": "A long, thin rectangle"
+    },
+    {
+     "id": "c",
+     "label": "Any rectangle, since the fence is the same length"
+    },
+    {
+     "id": "d",
+     "label": "A rectangle twice as long as it is wide"
+    }
+   ],
+   "answer": "a",
+   "explain": "A rectangle of a given area has the smallest perimeter when it is also a square.",
+   "cites": [
+    6,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality:q2"
+  },
+  {
+   "prompt": "A list contains just the numbers 2 and 8. Which statement about its two means is correct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two means are equal because both numbers are positive"
+    },
+    {
+     "id": "b",
+     "label": "The geometric mean is larger because 8 is far from 2"
+    },
+    {
+     "id": "c",
+     "label": "The two means are equal because the numbers multiply to a perfect square"
+    },
+    {
+     "id": "d",
+     "label": "The arithmetic mean is larger because the numbers differ"
+    }
+   ],
+   "answer": "d",
+   "explain": "The means can be equal only when every number is the same. Otherwise the arithmetic mean is greater.",
+   "cites": [
+    1,
+    39
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality:q3"
+  },
+  {
+   "prompt": "An investment fund's plain average of yearly returns looks strong. How does the return you actually keep per year, compounded, compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is higher than the plain average"
+    },
+    {
+     "id": "b",
+     "label": "It is lower than the plain average"
+    },
+    {
+     "id": "c",
+     "label": "It is always exactly the same as the plain average"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be compared with the plain average"
+    }
+   ],
+   "answer": "b",
+   "explain": "The annualized return is a geometric mean and the average annual return is an arithmetic mean, so the annualized return comes out lower.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality:q4"
+  },
+  {
+   "prompt": "Of all boxes with the same volume, which has the smallest average length of the edges meeting at a corner?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A tall, narrow box"
+    },
+    {
+     "id": "b",
+     "label": "A flat, wide box"
+    },
+    {
+     "id": "c",
+     "label": "The one with all edges equal"
+    },
+    {
+     "id": "d",
+     "label": "Any box, since volume fixes the average"
+    }
+   ],
+   "answer": "c",
+   "explain": "Only the box with all edges equal has the smallest average edge length among boxes of the same volume.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality:q5"
+  },
+  {
+   "prompt": "A mathematician wants a stepping stone to prove a different famous inequality about vectors. Which result from this topic can she use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The inequality comparing arithmetic and geometric means"
+    },
+    {
+     "id": "b",
+     "label": "The rule that a square has the largest perimeter"
+    },
+    {
+     "id": "c",
+     "label": "The rule that all means are always equal"
+    },
+    {
+     "id": "d",
+     "label": "The rule that geometric means exceed arithmetic means"
+    }
+   ],
+   "answer": "a",
+   "explain": "The AM–GM inequality can be used to prove the Cauchy–Schwarz inequality.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/AM_GM_inequality_visual_proof.svg/960px-AM_GM_inequality_visual_proof.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "AM-GM inequality",
+  "credit": "Cmglee",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:AM_GM_inequality_visual_proof.svg"
+ },
+ "source": {
+  "title": "AM–GM inequality",
+  "url": "https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality",
+  "revision": 1373602128
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two kinds of average",
+    "text": "The AM–GM inequality compares two ways of averaging a list of non-negative real numbers: the arithmetic mean and the geometric mean. It says the arithmetic mean is always greater than or equal to the geometric mean. The two are equal exactly when every number in the list is the same, and in that case both equal that number.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "heading": "Why it holds for two numbers",
+    "text": "For two numbers x and y, the key fact is that (x + y)² ≥ 4xy, with equality exactly when (x − y)² = 0, that is, when x = y. Take the positive square root of both sides, divide by 2, and the two-number AM–GM inequality drops out.",
+    "cites": [
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Rectangles and squares",
+    "text": "Picture a rectangle with sides x and y. Its perimeter is 2x + 2y and its area is xy. A square with sides √xy has the same area, and its perimeter is 4√xy. AM–GM says 2x + 2y ≥ 4√xy, so among all rectangles with a given area, only the square has the smallest perimeter. This simplest case is already implicit in Euclid's Elements, Book V, Proposition 25.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Boxes in any dimension",
+    "text": "The full inequality stretches this picture to n dimensions. Take a box in n dimensions whose edges have lengths x₁ through xₙ. Each corner meets n edges in different directions, so the average length of those edges is (x₁ + x₂ + · · · + xₙ)/n. A cube with the same volume has edge length ⁿ√(x₁ x₂ ⋯ xₙ), which is also the average edge length at each of its corners. AM–GM then says that among boxes of equal volume, only the cube has the smallest average edge length at each corner.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Uses in proofs and money",
+    "text": "The inequality is useful well beyond geometry. It can be used to prove the Cauchy–Schwarz inequality. In financial mathematics, it shows that the annualized return, which is a geometric mean, is less than the average annual return, which is an arithmetic mean.",
+    "cites": [
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "A polynomial puzzle",
+    "text": "It also settles a puzzle about the Motzkin polynomial. This polynomial in x and y never goes below zero, and yet it cannot be written as a sum of squares of polynomials. To show it is nonnegative, apply AM–GM to the three numbers x⁴ y², x² y⁴ and 1. Simplifying and multiplying through by 3 turns the result into exactly the claim that the polynomial is at least 0.",
+    "cites": [
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Many ways to prove it",
+    "text": "The general case can be proved in several ways. One proof uses mathematical induction and nothing beyond well-known rules of arithmetic. Another, which goes back essentially to Augustin Louis Cauchy and appears in his Cours d'analyse, uses a rarely seen technique called forward-backward induction.",
+    "cites": [
+     28,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mathworld-pythagorean-means",
+   "kind": "article",
+   "title": "Pythagorean Means",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/PythagoreanMeans.html",
+   "note": "The arithmetic, geometric and harmonic means, with a figure showing why they always come in that order."
+  }
+ ]
+}

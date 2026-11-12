@@ -1,0 +1,351 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.rings",
+ "name": "Rings",
+ "summary": [
+  {
+   "text": "A ring is a set with two operations, called addition and multiplication, that behave like integer addition and multiplication, except that multiplication need not be commutative.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The elements can be numbers such as integers, but also polynomials, square matrices, functions and power series.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Commutative algebra, the theory of commutative rings, is a major branch of ring theory and has been shaped by number theory and algebraic geometry.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Noncommutative example",
+   "value": "n × n real square matrices with n ≥ 2",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Built over",
+   "value": "The 1870s to the 1920s, with Dedekind, Hilbert, Fraenkel and Noether",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "A rng",
+   "value": "A ring-like structure that lacks a multiplicative identity",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "The even integers",
+   "value": "A rng under the usual operations, but not a ring",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "The zero ring",
+   "value": "If 0 = 1, the ring has only one element",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In some system with two operations, ab gives a different result from ba for certain pairs. What does this say about it being a ring?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It cannot be a ring, because both operations must commute"
+    },
+    {
+     "id": "b",
+     "label": "It can still be a ring, since only addition must commute"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be a ring, because elements must be plain numbers"
+    },
+    {
+     "id": "d",
+     "label": "It can be a ring only if it has no zero element in it"
+    }
+   ],
+   "answer": "b",
+   "explain": "Ring addition is commutative, but ring multiplication is not required to be, so ab need not equal ba.",
+   "cites": [
+    2,
+    29
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings:q1"
+  },
+  {
+   "prompt": "The even integers are closed under the usual + and ⋅, yet they are called a rng rather than a ring. What is missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An element that leaves every member unchanged when multiplied"
+    },
+    {
+     "id": "b",
+     "label": "An element that leaves every member unchanged when added"
+    },
+    {
+     "id": "c",
+     "label": "A rule that makes multiplication give the same result in either order"
+    },
+    {
+     "id": "d",
+     "label": "A rule that makes addition give the same result in either order"
+    }
+   ],
+   "answer": "a",
+   "explain": "A ring needs a multiplicative identity; a rng has the same axioms without that requirement, and the even integers are an example.",
+   "cites": [
+    22,
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings:q2"
+  },
+  {
+   "prompt": "In the ring of integers, there is no integer you can multiply 2 by to get 1. Why does that not stop the integers being a ring?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the integers are also required to be a field"
+    },
+    {
+     "id": "b",
+     "label": "Because rings only use addition, never multiplication"
+    },
+    {
+     "id": "c",
+     "label": "Because rings do not require multiplicative inverses to exist"
+    },
+    {
+     "id": "d",
+     "label": "Because a ring only needs inverses for the number zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "In a ring, multiplicative inverses are not required to exist. The integers are a standard commutative ring without them.",
+   "cites": [
+    30,
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings:q3"
+  },
+  {
+   "prompt": "In the real numbers every nonzero number has a multiplicative inverse, and the order of multiplying never matters. In ring language, what is that structure called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A rng"
+    },
+    {
+     "id": "b",
+     "label": "A zero ring"
+    },
+    {
+     "id": "c",
+     "label": "A field"
+    },
+    {
+     "id": "d",
+     "label": "A noncommutative ring"
+    }
+   ],
+   "answer": "c",
+   "explain": "A commutative ring in which every nonzero element has a multiplicative inverse is a field; the real numbers are the standard example.",
+   "cites": [
+    12,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings:q4"
+  },
+  {
+   "prompt": "You must pick a ring in which multiplying in the other order can change the answer. Which choice works?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ring of n × n real square matrices with n ≥ 2"
+    },
+    {
+     "id": "b",
+     "label": "The ring of integers"
+    },
+    {
+     "id": "c",
+     "label": "The complex numbers, which form a field"
+    },
+    {
+     "id": "d",
+     "label": "The polynomials in one variable over another ring"
+    }
+   ],
+   "answer": "a",
+   "explain": "n × n real square matrices with n ≥ 2 form a noncommutative ring, while integers, fields and polynomial rings are listed as commutative.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings:q5"
+  },
+  {
+   "prompt": "In a certain ring 0 = 1 turns out to hold. How many elements does the ring have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two, called 0 and 1"
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many"
+    },
+    {
+     "id": "c",
+     "label": "None"
+    },
+    {
+     "id": "d",
+     "label": "Just one"
+    }
+   ],
+   "answer": "d",
+   "explain": "If 0 = 1 the ring has only one element and is called the zero ring.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings:q6"
+  }
+ ],
+ "source": {
+  "title": "Ring (mathematics)",
+  "url": "https://en.wikipedia.org/wiki/Ring_(mathematics)",
+  "revision": 1377647385
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two operations on one set",
+    "text": "A ring is a set with two operations, usually called addition and multiplication and written the way we write them for integers. They behave much like adding and multiplying integers, with one big difference: multiplication in a ring need not be commutative, so ab may differ from ba. The elements can be numbers such as integers or complex numbers. They can also be things that are not numbers at all, like polynomials, square matrices, functions and power series.",
+    "cites": [
+     1,
+     2,
+     3,
+     29
+    ]
+   },
+   {
+    "heading": "The rules",
+    "text": "Under addition, a ring is an abelian group. Addition is associative and commutative, there is a 0 with a + 0 = a, and each a has a −a with a + (−a) = 0. Multiplication is associative and has an identity 1, with a · 1 = a and 1 · a = a. The operations are tied together on both sides: a · (b + c) = (a · b) + (a · c) and (b + c) · a = (b · a) + (c · a). These axioms are modelled on familiar facts about adding and multiplying integers.",
+    "cites": [
+     4,
+     5,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     39
+    ]
+   },
+   {
+    "heading": "What a ring may lack",
+    "text": "A ring does not have to contain multiplicative inverses. A nonzero ring where every nonzero element has an inverse is called a division ring; if it is also commutative, it is a field. Many authors also drop the requirement of a 1; a structure that meets every other axiom but has no 1 is called a rng, a ring with the \"i\" taken out. The even integers with the usual + and ⋅ are a rng, not a ring.",
+    "cites": [
+     6,
+     26,
+     27,
+     28,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Commutative or not",
+    "text": "Rings whose multiplication is commutative, like the integers, are called commutative rings. Other examples are every field, polynomials in one or several variables, and the ring of integers of a number field. Their theory, commutative algebra, is a major branch of ring theory; it grew under the influence of algebraic number theory and algebraic geometry and is now a basic tool in both. Noncommutative examples include real square matrices of size n × n with n ≥ 2, group rings, rings of differential operators and cohomology rings in topology.",
+    "cites": [
+     7,
+     9,
+     10,
+     11,
+     12,
+     13,
+     30
+    ]
+   },
+   {
+    "heading": "Quick consequences",
+    "text": "Several facts follow straight from the axioms. Zero absorbs everything under multiplication, x0 = 0 = 0x, and (–1)x = –x. If 0 = 1 in a ring, the ring has just one element and is called the zero ring. The binomial formula still holds for any x and y with xy = yx. Even the commutativity of addition can be derived from the other axioms, with the help of the 1.",
+    "cites": [
+     35,
+     36,
+     40,
+     41,
+     43
+    ]
+   },
+   {
+    "heading": "A small example",
+    "text": "In the ring ℤ/4ℤ, the sum x̄ + ȳ is the remainder left when the integer x + y is divided by 4. So 2̄ + 3̄ = 1̄, and 3̄ + 3̄ = 2̄.",
+    "cites": [
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Where rings came from",
+    "text": "The idea of a ring took shape between the 1870s and the 1920s, with major work from Richard Dedekind, David Hilbert, Abraham Fraenkel and Emmy Noether. Rings were first formalized to generalize Dedekind domains from number theory, along with polynomial rings and rings of invariants from algebraic geometry and invariant theory. Later they proved useful in other parts of mathematics, such as geometry and analysis.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-16",
+   "kind": "book",
+   "title": "16: Rings",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/16%3A_Rings",
+   "note": "A free textbook chapter on rings, integral domains and fields, ring homomorphisms, and prime and maximal ideals.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "clark-9",
+   "kind": "book",
+   "title": "9: Introduction to Ring Theory",
+   "by": "W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Elementary_Abstract_Algebra_(Clark)/01%3A_Chapters/1.09%3A_Introduction_to_Ring_Theory",
+   "note": "A short, elementary textbook introduction to rings and their basic examples."
+  },
+  {
+   "id": "numberphile-commutative-rings",
+   "kind": "video",
+   "title": "Lord of the Commutative Rings",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=1oqqpqaDgfI",
+   "note": "Mathematician Kevin Tucker talks about commutative rings in a Numberphile video."
+  }
+ ]
+}

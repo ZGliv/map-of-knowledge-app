@@ -1,0 +1,226 @@
+{
+ "summary": [
+  {
+   "text": "Polynomial long division is a step-by-step method for dividing one polynomial by another to get a quotient and a remainder.",
+   "cites": [
+    1,
+    2,
+    14
+   ]
+  },
+  {
+   "text": "The remainder is zero exactly when the divisor is a factor of the dividend, so the method tests for factors and factors them out.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "If one root r of a polynomial is known, dividing by (x − r) factors it into (x − r) times a quotient of one lower degree.",
+   "cites": [
+    23,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Zero remainder",
+   "value": "Remainder 0 happens only when the divisor is a factor",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Shortcut method",
+   "value": "Synthetic division needs less writing, especially for linear divisors",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Field coefficients",
+   "value": "Coefficients must come from one field, such as the rationals",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Tangent lines",
+   "value": "Division by (x − r)² gives the tangent line at x = r",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "label": "Error detection",
+   "value": "Cyclic redundancy checks use the remainder to catch message errors",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student divides polynomial A by polynomial B and the leftover comes out to exactly 0. What can she conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A has lower degree than B"
+    },
+    {
+     "id": "b",
+     "label": "B is a factor of A, dividing it evenly"
+    },
+    {
+     "id": "c",
+     "label": "The quotient must also be 0"
+    },
+    {
+     "id": "d",
+     "label": "A and B share no roots"
+    }
+   ],
+   "answer": "b",
+   "explain": "A zero remainder happens if and only if the divisor is a factor of the dividend.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "prompt": "A polynomial of degree 5 has one known root r. You divide it by (x − r). What kind of quotient do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Degree 5, with a nonzero remainder"
+    },
+    {
+     "id": "b",
+     "label": "Degree 4, with a remainder of zero"
+    },
+    {
+     "id": "c",
+     "label": "Degree 3, with a remainder of zero"
+    },
+    {
+     "id": "d",
+     "label": "Degree 6, with a remainder of zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "A known root r gives a quotient of degree n − 1, here 4, and since r is a root the remainder must be zero.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "How does the long division you learned in school for ordinary numbers relate to the polynomial version?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two methods are unrelated tricks"
+    },
+    {
+     "id": "b",
+     "label": "Polynomial division swaps the digits for letters"
+    },
+    {
+     "id": "c",
+     "label": "Both give only whole-number answers"
+    },
+    {
+     "id": "d",
+     "label": "It is the same algorithm with x replaced by 10"
+    }
+   ],
+   "answer": "d",
+   "explain": "The arithmetic algorithm is the polynomial one with x replaced by 10, plus the restriction that coefficients be non-negative.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "You must divide a polynomial by a monic polynomial of degree 1 and want less writing. Which method fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Synthetic division"
+    },
+    {
+     "id": "b",
+     "label": "Guessing a quotient"
+    },
+    {
+     "id": "c",
+     "label": "Euclid’s tangent trick"
+    },
+    {
+     "id": "d",
+     "label": "Dividing term by term in reverse"
+    }
+   ],
+   "answer": "a",
+   "explain": "Synthetic division is an alternative to long division that needs less writing and fewer calculations when the divisor is monic and linear.",
+   "cites": [
+    4,
+    34
+   ]
+  },
+  {
+   "prompt": "A polynomial of degree 1 is divided by one of degree 3 with the long division algorithm. What comes out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A quotient of degree 2 and no remainder"
+    },
+    {
+     "id": "b",
+     "label": "An error, because the division is impossible"
+    },
+    {
+     "id": "c",
+     "label": "A quotient of 0 and the original polynomial as remainder"
+    },
+    {
+     "id": "d",
+     "label": "A quotient equal to the original and remainder 0"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the numerator’s degree is lower than the denominator’s, the result is just (0, numerator) and the loop is never entered.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "You want the tangent line to a polynomial’s graph at one point using division. What divisor do you use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The square of the linear factor, (x − r)²"
+    },
+    {
+     "id": "b",
+     "label": "The linear factor alone, (x − r)"
+    },
+    {
+     "id": "c",
+     "label": "The sum of the two roots, (x + r)"
+    },
+    {
+     "id": "d",
+     "label": "The point’s height, r"
+    }
+   ],
+   "answer": "a",
+   "explain": "The remainder of dividing P(x) by (x − r)² is the tangent line at x = r, whether or not r is a root.",
+   "cites": [
+    30,
+    31
+   ]
+  }
+ ]
+}

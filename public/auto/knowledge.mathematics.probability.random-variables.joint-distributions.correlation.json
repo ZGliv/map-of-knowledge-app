@@ -1,0 +1,339 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation",
+ "name": "Correlation",
+ "summary": [
+  {
+   "text": "Correlation is a statistical relationship between two random variables, usually meaning how far a pair of quantities are linearly related.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The common Pearson coefficient divides the covariance by the product of the two standard deviations, which gives a value between -1 and +1.",
+   "cites": [
+    15,
+    20
+   ]
+  },
+  {
+   "text": "Correlation does not imply causation, and a correlation of 0 does not mean the variables are independent.",
+   "cites": [
+    4,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Perfect line",
+   "value": "+1 for a perfect rising line, -1 for a perfect falling line",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Near zero",
+   "value": "The closer to zero, the less of a relationship",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "What Pearson detects",
+   "value": "Only linear dependencies between two variables",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Rank coefficients",
+   "value": "Spearman's and Kendall's check whether one tends to rise as the other rises",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Who developed it",
+   "value": "Karl Pearson, from a similar idea by Francis Galton",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An electrical utility plans to produce less power on a mild day, because demand tracks the weather. What makes the correlation useful here?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It indicates a predictive relationship that can be used in practice"
+    },
+    {
+     "id": "b",
+     "label": "It proves that mild weather is the only cause of demand"
+    },
+    {
+     "id": "c",
+     "label": "It shows demand and weather are independent"
+    },
+    {
+     "id": "d",
+     "label": "It removes the need to measure demand"
+    }
+   ],
+   "answer": "a",
+   "explain": "Correlations are useful because they can point to a predictive relationship that can be exploited, as the utility does.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation:q1"
+  },
+  {
+   "prompt": "Sales of sunscreen and ice cream rise and fall together over the year. Can you conclude that one causes the other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any strong correlation shows cause"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the correlation is exactly +1"
+    },
+    {
+     "id": "c",
+     "label": "Only if sales are measured in the same units"
+    },
+    {
+     "id": "d",
+     "label": "No, correlation alone is not enough to infer cause"
+    }
+   ],
+   "answer": "d",
+   "explain": "The presence of a correlation is not sufficient to infer a causal relationship.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation:q2"
+  },
+  {
+   "prompt": "X is spread evenly on both sides of zero, and Y = X². What is true of X and Y?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are independent, since the correlation is zero"
+    },
+    {
+     "id": "b",
+     "label": "Y depends fully on X, yet their correlation is zero"
+    },
+    {
+     "id": "c",
+     "label": "Their correlation must be +1, since Y follows X"
+    },
+    {
+     "id": "d",
+     "label": "Their correlation must be -1, since Y is a square"
+    }
+   ],
+   "answer": "b",
+   "explain": "Y is completely determined by X, but the relationship is not a straight line, so the correlation is zero and they are uncorrelated.",
+   "cites": [
+    25,
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation:q3"
+  },
+  {
+   "prompt": "Someone reports a correlation coefficient of 1.4 between two measures. What should you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The relationship is stronger than a perfect line"
+    },
+    {
+     "id": "b",
+     "label": "The measures are independent"
+    },
+    {
+     "id": "c",
+     "label": "Something is wrong, since it must lie from -1 to +1"
+    },
+    {
+     "id": "d",
+     "label": "It shows a perfect falling relationship"
+    }
+   ],
+   "answer": "c",
+   "explain": "The absolute value of Pearson's coefficient cannot exceed 1, so the value ranges only from -1 to +1.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation:q4"
+  },
+  {
+   "prompt": "Two variables are independent of each other. What can you say about their Pearson correlation coefficient?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is exactly 1"
+    },
+    {
+     "id": "b",
+     "label": "It is exactly -1"
+    },
+    {
+     "id": "c",
+     "label": "Somewhere between 0 and 1"
+    },
+    {
+     "id": "d",
+     "label": "It is 0"
+    }
+   ],
+   "answer": "d",
+   "explain": "Independent variables are uncorrelated, so the coefficient is 0. The reverse does not hold: a coefficient of 0 does not guarantee independence.",
+   "cites": [
+    24,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation:q5"
+  },
+  {
+   "prompt": "Each time x goes up, y goes up too, but the points bend along a curve rather than a straight line. Which kind of measure reads this as a perfect relationship?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pearson's coefficient, which needs a straight line"
+    },
+    {
+     "id": "b",
+     "label": "Every coefficient gives the same value"
+    },
+    {
+     "id": "c",
+     "label": "No coefficient, as the points are off a line"
+    },
+    {
+     "id": "d",
+     "label": "A rank coefficient such as Spearman's"
+    }
+   ],
+   "answer": "d",
+   "explain": "Rank coefficients check whether one variable tends to rise as the other rises, so they can reach 1 here, while Pearson's value falls short because the points are not on a straight line.",
+   "cites": [
+    36,
+    40,
+    41,
+    42
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Correlation_examples2.svg/960px-Correlation_examples2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Correlation",
+  "credit": "DenisBoigelot, original uploader was Imagecreator",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Correlation_examples2.svg"
+ },
+ "source": {
+  "title": "Correlation",
+  "url": "https://en.wikipedia.org/wiki/Correlation",
+  "revision": 1379810158
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What correlation means",
+    "text": "Correlation is a kind of statistical relationship between two random variables, or between two sets of paired data. It usually means how closely the two quantities follow a straight-line relationship. Any relationship at all between variables, linear or not, is called an association: the degree to which the ups and downs of one can be explained by the other.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Useful, but not proof of cause",
+    "text": "Correlations matter because they can point to a relationship you can use to predict. A power company, for instance, may generate less electricity on a mild day, based on the link between weather and demand. In that case there really is a cause, since extreme weather makes people use more power for heating or cooling. But a correlation alone is not enough to show a cause, a point usually put as \"correlation does not imply causation\".",
+    "cites": [
+     4,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Pearson's coefficient",
+    "text": "The most common measure is the Pearson correlation coefficient, which Karl Pearson built from a similar idea by Francis Galton. You get it by dividing the covariance by the product of the two variables' standard deviations. Its value always lies between −1 and +1. It is +1 for a perfect rising straight-line relationship and −1 for a perfect falling one. The nearer it is to zero, the weaker the relationship; the nearer to −1 or 1, the stronger.",
+    "cites": [
+     10,
+     15,
+     16,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Zero does not mean unrelated",
+    "text": "If two variables are independent, their Pearson coefficient is 0. The reverse is not guaranteed, because the coefficient only picks up linear links. Take a variable X spread symmetrically around zero, and let Y = X². Y is completely fixed by X, yet their correlation is zero. One special case is different: when X and Y are jointly normal, being uncorrelated is the same as being independent.",
+    "cites": [
+     5,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Rank correlation",
+    "text": "Rank correlation coefficients, such as Spearman's and Kendall's (τ), ask whether one variable tends to rise as the other rises, without needing the rise to follow a straight line. If one falls as the other rises, they come out negative. Take a set of pairs where y goes up every time x goes up. Spearman's and Kendall's coefficients are both 1, but Pearson's is only 0.7544, because the points sit far from a straight line. Rank coefficients are best seen as measuring a different kind of association, not as stand-ins for Pearson's.",
+    "cites": [
+     36,
+     37,
+     39,
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Two practical notes",
+    "text": "When the measured values carry measurement error, the realistic range of the coefficient is narrower than −1 to +1. And when a linear model has just one independent variable, R squared (the coefficient of determination) equals the square of Pearson's coefficient.",
+    "cites": [
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "crashcourse-correlation",
+   "kind": "video",
+   "title": "Correlation Doesn't Equal Causation: Crash Course Statistics #8",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
+   "note": "A Crash Course Statistics episode on what correlation measures and why it does not by itself show causation."
+  },
+  {
+   "id": "openstax-correlation",
+   "kind": "book",
+   "title": "4.3 Correlation and Linear Regression Analysis - Principles of Data Science",
+   "by": "Shaun V. Ault, Soohyun Nam Liao, Larry Musolino (OpenStax)",
+   "url": "https://openstax.org/books/principles-data-science/pages/4-3-correlation-and-linear-regression-analysis",
+   "note": "A free textbook section on the correlation coefficient and how it ties into fitting a regression line.",
+   "license": "Creative Commons Attribution-NonCommercial-ShareAlike License"
+  }
+ ]
+}

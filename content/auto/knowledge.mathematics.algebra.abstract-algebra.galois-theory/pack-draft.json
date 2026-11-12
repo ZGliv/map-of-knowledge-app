@@ -1,0 +1,99 @@
+{
+ "title": "Why No Quintic Formula?",
+ "question": "Why can some equations be solved by a formula while most high-degree ones cannot?",
+ "hook": "The answer came from studying how the roots of an equation can be shuffled.",
+ "idea": "Whether an equation can be solved by radicals depends on the group of ways its roots can be permuted.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Cubic and quartic equations both have root formulas built from radicals. You are asked about a typical fifth-degree equation. What does Galois theory say?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A similar but longer formula exists for it",
+     "feedback": "The pattern from degree three and four tempts, but Galois theory explains why it breaks."
+    },
+    {
+     "id": "b",
+     "label": "No such formula exists for most equations of that size"
+    },
+    {
+     "id": "c",
+     "label": "A formula exists only when the roots are whole numbers",
+     "feedback": "Whole-number roots are not the criterion; the shuffling group of the roots is."
+    }
+   ],
+   "answer": "b",
+   "explain": "Galois theory shows why equations of degree four or lower can be solved this way and why most of degree five or higher cannot.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps toward the unsolvability of the quintic in order",
+   "items": [
+    "Ruffini nearly proves it using permutation groups (1799)",
+    "Abel publishes a proof, patching the gap (1824)",
+    "Galois submits his memoir on solvability by radicals (1830)",
+    "Liouville publishes Galois's memoir (1846)"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Ruffini came first in 1799, then Abel in 1824, then Galois's submission in 1830, and finally Liouville's printing in 1846.",
+   "cites": [
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each mathematician to what they did",
+   "pairs": [
+    [
+     "Scipione del Ferro",
+     "Partly solved the cubic, for one type, without publishing"
+    ],
+    [
+     "Lodovico Ferrari",
+     "Solved the quartic polynomial"
+    ],
+    [
+     "Rafael Bombelli",
+     "Used complex numbers to solve all forms of cubic"
+    ],
+    [
+     "Niels Henrik Abel",
+     "Published a proof of the Abel–Ruffini theorem in 1824"
+    ]
+   ],
+   "explain": "Each step pushed the formula-hunt forward, until Abel showed the quintic has no general solution by radicals.",
+   "cites": [
+    19,
+    23,
+    26,
+    29
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Every equation of degree four or lower can be solved by a formula using roots and arithmetic.",
+    "Degree five is only one step higher.",
+    "So a step up in degree cannot break the pattern, and all quintics must be solvable.",
+    "Therefore the Abel–Ruffini theorem must be mistaken."
+   ],
+   "wrong": 2,
+   "explain": "Galois theory explains why the pattern does break: most equations of degree five or higher cannot be solved by radicals.",
+   "cites": [
+    5,
+    11
+   ]
+  }
+ ]
+}

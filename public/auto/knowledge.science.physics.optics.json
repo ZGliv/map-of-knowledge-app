@@ -1,0 +1,543 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics",
+ "name": "Optics",
+ "summary": [
+  {
+   "text": "Optics is the study of light, and the technology built to manipulate it, from lenses and mirrors to lasers and fibre optics.",
+   "cites": [
+    16,
+    18
+   ]
+  },
+  {
+   "text": "Practical optics usually uses simplified models: geometric optics treats light as straight rays that bend or reflect, and physical optics adds wave effects like diffraction and interference.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Light is understood as electromagnetic radiation, and effects that need both wave and particle behavior call for quantum mechanics and photons.",
+   "cites": [
+    10,
+    11,
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "From a Greek word meaning 'appearance' or 'look'",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Earliest lenses",
+   "value": "Polished crystal lenses from Crete, as early as 2000 BC",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Model order",
+   "value": "The ray model came first, then the wave model",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Fields that use it",
+   "value": "Astronomy, photography, medicine and many engineering fields",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You want to work out where a mirror will send a beam of light. Which simple model suits the job?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Geometric optics, with light as straight rays that reflect"
+    },
+    {
+     "id": "b",
+     "label": "Quantum optics, with every photon tracked one by one"
+    },
+    {
+     "id": "c",
+     "label": "A full wave model that ignores rays altogether"
+    },
+    {
+     "id": "d",
+     "label": "Ancient models that hold light is made of water"
+    }
+   ],
+   "answer": "a",
+   "explain": "Geometric optics treats light as rays that travel in straight lines and bend or reflect at surfaces, which is the usual practical tool.",
+   "cites": [
+    7,
+    6
+   ],
+   "id": "knowledge.science.physics.optics:q1"
+  },
+  {
+   "prompt": "Light passing through a narrow gap fans out and forms bands of bright and dark. Why can't the ray model explain this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Rays can only describe light that is moving very slowly"
+    },
+    {
+     "id": "b",
+     "label": "Rays cannot bend when they hit any surface at all"
+    },
+    {
+     "id": "c",
+     "label": "Rays only work for mirrors and never for lenses"
+    },
+    {
+     "id": "d",
+     "label": "Diffraction and interference are wave effects that rays miss"
+    }
+   ],
+   "answer": "d",
+   "explain": "Physical optics includes wave effects such as diffraction and interference, which geometric optics cannot account for.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.optics:q2"
+  },
+  {
+   "prompt": "In what order did people develop models of light?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wave model first, then rays, then electromagnetic radiation"
+    },
+    {
+     "id": "b",
+     "label": "Rays first, then waves, then electromagnetic waves in the 19th century"
+    },
+    {
+     "id": "c",
+     "label": "Photons first, then rays, then waves"
+    },
+    {
+     "id": "d",
+     "label": "All three models arrived together in ancient Greece"
+    }
+   ],
+   "answer": "b",
+   "explain": "The ray model came first, followed by the wave model; 19th-century progress showed light waves are electromagnetic radiation.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.optics:q3"
+  },
+  {
+   "prompt": "Some experiments need light to act as both a wave and a particle. What does explaining them require?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mirrors with a more rotationally symmetric shape"
+    },
+    {
+     "id": "b",
+     "label": "Better lenses made from polished crystal"
+    },
+    {
+     "id": "c",
+     "label": "Quantum mechanics, with light modelled as photons"
+    },
+    {
+     "id": "d",
+     "label": "Simply measuring the rays more carefully"
+    }
+   ],
+   "answer": "c",
+   "explain": "Phenomena that depend on both wave-like and particle-like properties need quantum mechanics, which models light as photons.",
+   "cites": [
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.science.physics.optics:q4"
+  },
+  {
+   "prompt": "A doctor uses a CT scan and an astronomer uses a telescope. What does this show about optical science?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is limited to the design of eyeglasses"
+    },
+    {
+     "id": "b",
+     "label": "It is studied only within pure physics"
+    },
+    {
+     "id": "c",
+     "label": "It matters only for lasers and fibre optics"
+    },
+    {
+     "id": "d",
+     "label": "It is relevant across fields like medicine and astronomy"
+    }
+   ],
+   "answer": "d",
+   "explain": "Optical science is studied in many disciplines, including astronomy, engineering, photography and medicine.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.physics.optics:q5"
+  },
+  {
+   "prompt": "Why do practical optics designers often use simplified models instead of a complete electromagnetic description?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The full description is often difficult to apply in practice"
+    },
+    {
+     "id": "b",
+     "label": "The full description has been shown to be incorrect"
+    },
+    {
+     "id": "c",
+     "label": "Light has no electromagnetic nature to describe"
+    },
+    {
+     "id": "d",
+     "label": "Simplified models are always more accurate"
+    }
+   ],
+   "answer": "a",
+   "explain": "Most optical phenomena fit classical electromagnetic theory, but complete descriptions are often hard to use, so simplified models are common.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.optics:q6"
+  }
+ ],
+ "source": {
+  "title": "Optics",
+  "url": "https://en.wikipedia.org/wiki/Optics",
+  "revision": 1383635793
+ },
+ "pack": {
+  "id": "auto-physics-optics",
+  "title": "Light Has Three Faces",
+  "question": "Is light a ray, a wave or a particle?",
+  "path": [
+   "Science",
+   "Physics",
+   "Optics"
+  ],
+  "hue": 182,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Laser_Interference.JPG/960px-Laser_Interference.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Wave optics",
+    "credit": "Wisky · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laser_Interference.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Light Has Three Faces",
+    "hook": "Depending on the job, light is treated as rays, waves or photons, and all three are useful."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-physics-optics:1",
+    "transfer": false,
+    "prompt": "Match each model to what it handles.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Geometric optics"
+     },
+     {
+      "id": "l1",
+      "label": "Physical optics"
+     },
+     {
+      "id": "l2",
+      "label": "Quantum optics"
+     },
+     {
+      "id": "l3",
+      "label": "Photons"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Wave effects like diffraction and interference"
+     },
+     {
+      "id": "r0",
+      "label": "Straight rays that bend or reflect"
+     },
+     {
+      "id": "r2",
+      "label": "Quantum mechanics applied to optical systems"
+     },
+     {
+      "id": "r3",
+      "label": "Particle-like view of light"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each model captures a different layer of how light behaves."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-physics-optics:2",
+    "transfer": true,
+    "prompt": "You want to trace how light will bend through a simple magnifying lens. Which model do most practical designers reach for first?",
+    "explain": "Complete descriptions are often hard to apply, so practical optics usually uses simplified models, most commonly geometric optics.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "No model, since lenses cannot be predicted",
+        "feedback": "Lenses are routinely designed with ray models."
+       },
+       {
+        "id": "a",
+        "label": "Geometric optics, with simple rays"
+       },
+       {
+        "id": "b",
+        "label": "A full quantum treatment of every photon",
+        "feedback": "It tempts as the most complete, but practical optics usually uses simplified models."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-physics-optics:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Geometric optics treats light as straight-line rays."
+     },
+     {
+      "id": "b",
+      "text": "So it explains every optical effect, including interference."
+     },
+     {
+      "id": "c",
+      "text": "Interference is a wave effect."
+     },
+     {
+      "id": "d",
+      "text": "Physical optics is needed to account for it."
+     }
+    ],
+    "answer": "b",
+    "explain": "Geometric optics cannot account for wave effects like diffraction and interference; physical optics is needed."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Optics uses ray, wave and quantum models of light, picking the simplest one that explains the effect at hand.",
+    "connections": [
+     {
+      "title": "Reflection and refraction",
+      "place": "Optics",
+      "node": "knowledge.science.physics.optics.reflection-and-refraction"
+     },
+     {
+      "title": "Lenses and mirrors",
+      "place": "Optics",
+      "node": "knowledge.science.physics.optics.lenses-and-mirrors"
+     },
+     {
+      "title": "Wave optics",
+      "place": "Optics",
+      "node": "knowledge.science.physics.optics.wave-optics"
+     },
+     {
+      "title": "Optical instruments",
+      "place": "Optics",
+      "node": "knowledge.science.physics.optics.optical-instruments"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Each model captures a different layer of how light behaves.",
+    "source": "Wikipedia sentences 7, 8, 13, 14"
+   },
+   {
+    "claim": "Complete descriptions are often hard to apply, so practical optics usually uses simplified models, most commonly geometric optics.",
+    "source": "Wikipedia sentences 5, 6, 7"
+   },
+   {
+    "claim": "Geometric optics cannot account for wave effects like diffraction and interference; physical optics is needed.",
+    "source": "Wikipedia sentences 7, 8"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "The science of light",
+    "text": "Optics is the part of physics that looks at electromagnetic radiation: how it behaves, how it can be controlled, and how it can be detected. That includes how it acts on matter and the instruments that use or sense it. Most of the time optics deals with visible, ultraviolet and infrared light, but it reaches out to radio waves, microwaves and X-rays too. The same word is also used for technology that steers beams of elementary charged particles.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Rays and waves",
+    "text": "The classical electromagnetic account of light explains most optical effects, but it is often hard to use in practice, so working optics relies on simpler models. The most common, geometric optics, treats light as rays that travel straight and change direction at surfaces, either passing through them or reflecting from them. Physical optics is a fuller model that adds wave effects, such as diffraction and interference, which rays cannot explain. Historically the ray model came first and the wave model followed. In the 19th century, advances in electromagnetic theory showed that light waves are in fact electromagnetic radiation.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Light as particles",
+    "text": "Some effects only make sense if light behaves both like a wave and like a stream of particles. Explaining them takes quantum mechanics. When light is treated as particles, those particles are called photons. Quantum optics is the field that applies quantum mechanics to optical systems.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Where optics turns up",
+    "text": "Optics matters in astronomy, many kinds of engineering, photography and medicine, including radiation therapy and CT scans, as well as in eye care fields such as ophthalmology and optometry. In daily life it is built into mirrors, lenses, telescopes, microscopes, lasers and fibre optics.",
+    "cites": [
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "The first lenses",
+    "text": "Optics started with lenses made by the ancient Egyptians and Mesopotamians. The oldest known lenses, of polished crystal and often of quartz, come from Crete and date back as far as 2000 BC. Lenses from Rhodes, and Assyrian ones such as the Nimrud lens, date from around 700 BC. The Greeks and Romans made lenses by filling glass spheres with water. The word optics itself comes from the ancient Greek optikē, meaning 'appearance, look'.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     23
+    ]
+   },
+   {
+    "heading": "How does seeing work",
+    "text": "Greek thinkers split into two camps over how vision works. In the intromission theory, objects shed copies of themselves, called eidola, which the eye catches. In the emission theory, first set out by Plato, the eyes send out rays. Euclid wrote a book called Optics that tied vision to geometry and so created geometrical optics, yet he doubted that a beam from the eye could light up the stars instantly every time someone blinked. Ptolemy, in his own Optics, summed up much of Euclid and described a way to measure the angle of refraction.",
+    "cites": [
+     24,
+     25,
+     27,
+     29,
+     30,
+     32,
+     34
+    ]
+   },
+   {
+    "heading": "Advances in the Muslim world",
+    "text": "In the Middle Ages, writers in the Muslim world revived Greek ideas about optics and pushed them further. In 984 the Persian mathematician Ibn Sahl correctly described a law of refraction equal to Snell's law and used it to work out the best shapes for lenses and curved mirrors. In the early 11th century, Alhazen wrote the Book of Optics, grounding his account of light and vision in observation and experiment. He rejected the idea of rays leaving the eye and argued that light bounces in straight lines in every direction from each point of an object and then enters the eye. Translated into Latin around 1200, his work became a standard optics text in Europe for the next 400 years.",
+    "cites": [
+     36,
+     38,
+     39,
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Light comes from objects",
+    "text": "Roger Bacon, the best-known follower of the 13th-century English bishop Robert Grosseteste, drew on many freshly translated works, Alhazen's among them. Using parts of glass spheres as magnifying glasses, he showed that light reflects off objects rather than being given off by them.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cp-25-intro",
+   "kind": "book",
+   "title": "Introduction to Geometric Optics",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics",
+   "note": "A free textbook chapter opener on optics and when light can be treated as rays."
+  },
+  {
+   "id": "up3-1-1",
+   "kind": "book",
+   "title": "1.1 The Propagation of Light",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-1-the-propagation-of-light",
+   "note": "A textbook section on the speed of light in materials, early measurements of it, and the ray model."
+  },
+  {
+   "id": "cp-27-1",
+   "kind": "book",
+   "title": "27.1 The Wave Aspect of Light: Interference",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
+   "note": "A textbook section on light as a wave: interference, and what changes when light enters a material."
+  },
+  {
+   "id": "cc-geometric-optics",
+   "kind": "video",
+   "title": "Geometric Optics: Crash Course Physics #38",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Oh4m8Ees-3Q",
+   "note": "A Crash Course Physics episode on treating light as rays that reflect and refract."
+  },
+  {
+   "id": "newton-opticks",
+   "kind": "primary",
+   "title": "Opticks: or, A treatise of the reflections, refractions, inflections and colours of light",
+   "by": "Isaac Newton",
+   "url": "https://www.gutenberg.org/ebooks/33504",
+   "note": "Newton's own treatise on the reflection, refraction and colours of light, free on Project Gutenberg.",
+   "license": "Public domain in the USA"
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "title": "Holding more than it should",
+ "question": "How can a solution hold more solute than it normally could?",
+ "hook": "Some solutions sit holding extra solute, until one tiny crystal sets it all off.",
+ "idea": "A supersaturated solution holds more solute than equilibrium allows and releases the excess once something starts crystals forming.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A solution cools but stays clear, though it holds more solute than it should. A tiny crystal of the solute is dropped in. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Crystals begin to form around it"
+    },
+    {
+     "id": "b",
+     "label": "The tiny crystal simply dissolves and nothing changes",
+     "feedback": "Adding a tiny crystal of the solute is the common way to overcome the barrier to forming crystals."
+    },
+    {
+     "id": "c",
+     "label": "The extra solute escapes as a gas",
+     "feedback": "The excess solute separates from the solution as crystals, not as a gas."
+    }
+   ],
+   "answer": "a",
+   "explain": "The tiny crystal acts as a starting site, so the excess solute can separate out as crystals.",
+   "cites": [
+    3,
+    6,
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the steps of recrystallization in order.",
+   "items": [
+    "Heat the impure compound with solvent until it dissolves",
+    "Filter off any solid impurity that remains",
+    "Lower the temperature so the solution briefly becomes supersaturated",
+    "The compound crystallizes out, leaving impurities in the liquid"
+   ],
+   "ends": [
+    "First",
+    "Last"
+   ],
+   "explain": "The compound is dissolved hot, cleaned of solids, cooled into supersaturation, then crystallizes while impurities stay dissolved.",
+   "cites": [
+    31,
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each method to what it does.",
+   "pairs": [
+    [
+     "Seeding",
+     "Adding a tiny crystal of the solute"
+    ],
+    [
+     "Rubbing a rod on glass",
+     "Releases particles that act as nucleation centres"
+    ],
+    [
+     "Centrifugation",
+     "Separates crystals from the liquid in industry"
+    ],
+    [
+     "Recrystallization",
+     "Purifies chemical compounds"
+    ]
+   ],
+   "explain": "Each of these either starts crystals forming or uses crystals to separate and purify a compound.",
+   "cites": [
+    30,
+    37,
+    38,
+    39
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A hot solution is cooled, and in most cases solubility decreases with decreasing temperature.",
+    "So at the lower temperature the solution can hold more solute than it should.",
+    "A thermodynamic barrier can stop crystals forming, so the solution may stay supersaturated.",
+    "So adding a tiny crystal of the solute would only dissolve and change nothing."
+   ],
+   "wrong": 3,
+   "explain": "Adding a tiny crystal of the solute, called seeding, is the common way to overcome the barrier and start crystals forming.",
+   "cites": [
+    26,
+    27,
+    35,
+    36,
+    37
+   ]
+  }
+ ]
+}

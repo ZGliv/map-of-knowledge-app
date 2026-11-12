@@ -1,0 +1,319 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes",
+ "name": "Sieve of Eratosthenes",
+ "summary": [
+  {
+   "text": "The sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It marks the multiples of each prime as composite, starting with 2, and the numbers left unmarked at the end are the primes.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Unlike trial division, which tests each candidate, it generates the composites from their prime factors and gets the primes for free between them.",
+   "cites": [
+    4,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Earliest known reference",
+   "value": "Nicomachus's Introduction to Arithmetic, early 2nd century CE",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Credited to",
+   "value": "Eratosthenes of Cyrene, a 3rd-century BCE Greek mathematician",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Key property",
+   "value": "Only additions are needed, no multiplications or divisions",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Main weakness",
+   "value": "Memory requirements, not the number of operations",
+   "cites": [
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a sieve run, the number 15 gets crossed out twice. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a multiple of both 3 and 5"
+    },
+    {
+     "id": "b",
+     "label": "It is a prime that was checked twice"
+    },
+    {
+     "id": "c",
+     "label": "It is a multiple of 2 and of 15"
+    },
+    {
+     "id": "d",
+     "label": "The sieve makes two passes over every number"
+    }
+   ],
+   "answer": "a",
+   "explain": "Some numbers are marked more than once; 15 is marked once for 3 and once for 5.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes:q1"
+  },
+  {
+   "prompt": "The sieve has crossed out the multiples of every prime it found. What do the untouched numbers left in the list represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The composite numbers"
+    },
+    {
+     "id": "b",
+     "label": "The odd numbers only"
+    },
+    {
+     "id": "c",
+     "label": "The primes"
+    },
+    {
+     "id": "d",
+     "label": "The numbers that were skipped by mistake"
+    }
+   ],
+   "answer": "c",
+   "explain": "Once all multiples of each discovered prime are marked as composite, the remaining unmarked numbers are primes.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes:q2"
+  },
+  {
+   "prompt": "After crossing out multiples of the smaller primes, the next uncrossed number you meet is always prime. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has more digits than the earlier primes"
+    },
+    {
+     "id": "b",
+     "label": "It was never tested, so nothing says otherwise"
+    },
+    {
+     "id": "c",
+     "label": "It is odd, and every odd number is prime"
+    },
+    {
+     "id": "d",
+     "label": "If it were composite, a smaller prime would already have crossed it out"
+    }
+   ],
+   "answer": "d",
+   "explain": "A composite number would have been marked as a multiple of some smaller prime.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes:q3"
+  },
+  {
+   "prompt": "What most clearly separates the sieve from checking each number with trial division?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sieve builds composites from primes, while trial division tests each candidate"
+    },
+    {
+     "id": "b",
+     "label": "The sieve tests every candidate against every smaller number"
+    },
+    {
+     "id": "c",
+     "label": "The sieve only works on odd numbers"
+    },
+    {
+     "id": "d",
+     "label": "Trial division never needs any prime numbers at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "The sieve directly generates composites as multiples of primes instead of testing for them, getting the primes between the composites.",
+   "cites": [
+    4,
+    41,
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes:q4"
+  },
+  {
+   "prompt": "Someone runs the sieve on an enormous range and it struggles. According to the note by Sorenson, what is the usual problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Too many multiplications to carry out"
+    },
+    {
+     "id": "b",
+     "label": "Memory requirements rather than the number of operations"
+    },
+    {
+     "id": "c",
+     "label": "Primes become impossible to recognize"
+    },
+    {
+     "id": "d",
+     "label": "The multiples drift out of order"
+    }
+   ],
+   "answer": "b",
+   "explain": "The problem is not the number of operations but the memory needed, since the range may not fit in memory and cache use is poor.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes:q5"
+  },
+  {
+   "prompt": "Once a new prime is found, how are its multiples lined up for crossing out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Evenly spaced, with a gap equal to that prime"
+    },
+    {
+     "id": "b",
+     "label": "Spaced by one more each time"
+    },
+    {
+     "id": "c",
+     "label": "Spaced by the number of primes found so far"
+    },
+    {
+     "id": "d",
+     "label": "Randomly across the list"
+    }
+   ],
+   "answer": "a",
+   "explain": "The multiples form a sequence starting from the prime with a constant difference equal to that prime.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/Animation_Sieve_of_Eratosth.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Sieve of Eratosthenes",
+  "credit": "SKopp at German Wikipedia",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Animation_Sieve_of_Eratosth.gif"
+ },
+ "source": {
+  "title": "Sieve of Eratosthenes",
+  "url": "https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes",
+  "revision": 1378696777
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Crossing out the non-primes",
+    "text": "The sieve of Eratosthenes is an ancient method for listing every prime number up to a chosen limit. A prime is a natural number with exactly two divisors: 1 and itself. The sieve works by crossing out. Starting with 2, the first prime, it marks the multiples of each prime as composite, meaning not prime. Once every multiple of every prime found has been marked, whatever is left unmarked is prime.",
+    "cites": [
+     1,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "heading": "Running it by hand",
+    "text": "Write the whole numbers from 2 up to n in a list. Take p = 2 and mark 2p, 3p, 4p and so on up to n, counting up in steps of p, but leave p itself unmarked. Then find the smallest number above p that is still unmarked; it becomes the new p, and you repeat. If no such number is left, you stop, and the unmarked numbers are the primes. Each new p must be prime, since a composite number would already have been marked as a multiple of a smaller prime.",
+    "cites": [
+     2,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Only additions needed",
+    "text": "The multiples of a prime are found just by counting up in equal steps of that prime. Nothing is ever multiplied or divided; the sieve needs only additions. That is its key difference from trial division, which tests each candidate number to see whether each prime divides it. Some numbers get marked twice, such as 15, which is crossed out for both 3 and 5. In effect the sieve builds each composite from its prime factors, and the primes turn up for free in the gaps.",
+    "cites": [
+     3,
+     4,
+     17,
+     18,
+     43
+    ]
+   },
+   {
+    "heading": "Two shortcuts",
+    "text": "When handling a prime p, marking can begin at p², because every smaller multiple of p has already been crossed out. That also means the process can end once p² is bigger than n. Another trick is to list only odd numbers at the start and count in steps of 2p, so only odd multiples get marked. This trick actually appears in the original algorithm.",
+    "cites": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "The oldest known reference to the sieve is in Introduction to Arithmetic by Nicomachus of Gerasa, a book from the early 2nd century CE. Nicomachus credits the method to Eratosthenes of Cyrene, a Greek mathematician of the 3rd century BCE. The sieve is one of several prime sieves and among the most efficient ways to collect every one of the smaller primes. It can also find primes in arithmetic progressions, and it is a popular way to benchmark computer performance.",
+    "cites": [
+     6,
+     7,
+     8,
+     45
+    ]
+   },
+   {
+    "heading": "Memory is the real limit",
+    "text": "The sieve's time complexity is O(n log log n). Its real weakness is memory: for large n the list may not fit, and even for moderate n it makes poor use of the computer's cache. A segmented version helps. It splits the range from 2 to n into blocks, sieves the lowest block in the usual way, then clears each later block using the primes already found. With blocks of size √n, the space needed drops to O(√n) while the time stays the same as the regular sieve.",
+    "cites": [
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     37
+    ]
+   },
+   {
+    "heading": "A common mix-up",
+    "text": "Removing composites by testing each number for divisibility by one prime after another is often confused with this sieve, but it is trial division. The sieve of Eratosthenes produces the composites directly instead of testing for them. Trial division is worse in theory when generating ranges of primes. Even David Turner's widely known 1975 functional sieve code, often shown as an example of the sieve, is really a less efficient trial division sieve.",
+    "cites": [
+     40,
+     41,
+     42,
+     44
+    ]
+   }
+  ]
+ }
+}

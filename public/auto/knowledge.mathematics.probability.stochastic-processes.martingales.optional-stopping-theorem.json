@@ -1,0 +1,310 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem",
+ "name": "Optional stopping theorem",
+ "summary": [
+  {
+   "text": "The optional stopping theorem says that, under certain conditions, the expected value of a martingale at a stopping time equals its initial expected value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Because martingales can model a gambler's wealth in a fair game, it implies that on average nothing can be gained by choosing when to stop from information obtained so far.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It applies to doubling strategies and shows mathematically why they cannot guarantee a profit with finite resources.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Doob's optional sampling theorem",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Credited to",
+   "value": "American probabilist Joseph Doob",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Finance role",
+   "value": "Used with the fundamental theorem of asset pricing",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Fine print",
+   "value": "Care is needed to ensure one of its conditions holds",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Betting limits",
+   "value": "Finite lifetime, or a house limit on bets",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gambler in a fair game starts with $100 on average. They stop by a rule that uses only past results, and the theorem's conditions hold. What is their average wealth when they stop?",
+   "options": [
+    {
+     "id": "a",
+     "label": "More than $100, since they chose when to quit"
+    },
+    {
+     "id": "b",
+     "label": "Less than $100, since quitting loses momentum"
+    },
+    {
+     "id": "c",
+     "label": "Exactly $100, the initial expected value"
+    },
+    {
+     "id": "d",
+     "label": "It depends entirely on the rule they chose"
+    }
+   ],
+   "answer": "c",
+   "explain": "Under the conditions, the expected value of the martingale at the stopping time equals its initial expected value.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem:q1"
+  },
+  {
+   "prompt": "A gambler doubles the bet after each loss on a fair coin, with a house limit on bets. Can the strategy guarantee a profit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because the first win recovers every loss"
+    },
+    {
+     "id": "b",
+     "label": "No, the theorem shows that no such betting strategy succeeds"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as the gambler stops after a win"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if the coin is slightly unfair"
+    }
+   ],
+   "answer": "b",
+   "explain": "The theorem proves the impossibility of successful betting strategies for a gambler under such limits, including doubling strategies.",
+   "cites": [
+    4,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem:q2"
+  },
+  {
+   "prompt": "Instead of a house limit on bets, a gambler faces a limit on how deep in debt they may go. What changes about the no-gain result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The result still holds"
+    },
+    {
+     "id": "b",
+     "label": "The gambler can now guarantee a profit"
+    },
+    {
+     "id": "c",
+     "label": "The gambler can now only break even"
+    },
+    {
+     "id": "d",
+     "label": "The result no longer applies to fair coins"
+    }
+   ],
+   "answer": "a",
+   "explain": "The same result holds if the gambler has a finite limit on their line of credit rather than a house limit on bets.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem:q3"
+  },
+  {
+   "prompt": "A student applies the theorem to a quitting rule without checking anything about it. What is the problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The theorem only applies to coin flips"
+    },
+    {
+     "id": "b",
+     "label": "The theorem is never true in practice"
+    },
+    {
+     "id": "c",
+     "label": "The theorem needs a stopping time to be a whole number"
+    },
+    {
+     "id": "d",
+     "label": "The theorem holds only when one of its conditions does"
+    }
+   ],
+   "answer": "d",
+   "explain": "Certain conditions are necessary for the result, and care must be taken to ensure one of them holds.",
+   "cites": [
+    3,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem:q4"
+  },
+  {
+   "prompt": "Besides gambling, in which area is the theorem an important tool, for evaluating expected returns of pricing models?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mathematical finance"
+    },
+    {
+     "id": "b",
+     "label": "Weather forecasting"
+    },
+    {
+     "id": "c",
+     "label": "Map making"
+    },
+    {
+     "id": "d",
+     "label": "Music theory"
+    }
+   ],
+   "answer": "a",
+   "explain": "It is an important tool of mathematical finance in the context of the fundamental theorem of asset pricing.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem:q5"
+  },
+  {
+   "prompt": "Two gamblers quit a fair game whenever they like. One uses only past results; the other secretly knows the next flip. For whom does the no-gain result apply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both gamblers equally"
+    },
+    {
+     "id": "b",
+     "label": "Only the gambler who knows the next flip"
+    },
+    {
+     "id": "c",
+     "label": "Only the gambler using past results"
+    },
+    {
+     "id": "d",
+     "label": "Neither gambler"
+    }
+   ],
+   "answer": "c",
+   "explain": "The result is about stopping based on information obtained so far, without looking into the future.",
+   "cites": [
+    2,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.optional-stopping-theorem:q6"
+  }
+ ],
+ "source": {
+  "title": "Optional stopping theorem",
+  "url": "https://en.wikipedia.org/wiki/Optional_stopping_theorem",
+  "revision": 1350459868
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the theorem says",
+    "text": "The optional stopping theorem, sometimes called Doob's optional sampling theorem after the American probabilist Joseph Doob, is about martingales. It says that, when certain conditions hold, a martingale's expected value at a stopping time equals its expected value at the start. A martingale can model the wealth of a gambler in a fair game. So the theorem means that, on average, choosing when to quit using only what you know so far, without seeing the future, gains you nothing.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "What counts as a stopping time",
+    "text": "Imagine a gambler who may stake up to c dollars on each flip of a fair coin, winning the stake on heads and losing it on tails. They can walk away whenever they like, but they cannot foresee bets not yet played. Their fortune over time is a martingale. The moment they choose to quit, or are forced out by going broke, is a stopping time.",
+    "cites": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The conditions matter",
+    "text": "The result needs certain conditions. One is that the stopping time τ is almost surely bounded, meaning some constant c with τ ≤ c almost surely. Another is that τ has finite expectation and the expected sizes of the martingale's steps, given the past, are almost surely bounded. Under such a condition E[X_τ] = E[X₀]. For a submartingale the equality becomes E[X_τ] ≥ E[X₀], and for a supermartingale E[X_τ] ≤ E[X₀].",
+    "cites": [
+     3,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "No perfect betting system",
+    "text": "The theorem shows why doubling strategies cannot promise a profit when resources are finite. A finite lifetime gives the bounded-time condition, and a house limit on bets gives the second one. Either way E[X_τ] = E[X₀]: on average the gambler goes home with the same money they brought. The same holds if the limit is on credit or debt rather than on single bets. The theorem is also a key tool in mathematical finance, where it helps judge the expected returns of pricing models.",
+    "cites": [
+     4,
+     5,
+     14,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Where a random walk ends",
+    "text": "Take a random walk that starts at a ≥ 0 and moves up or down by one, each with equal chance. It stops when it first reaches 0 or m ≥ a, and that moment is a stopping time. If the walk is known to end in finite expected time, the theorem says its expected final position is its start, a. Solving a = p m + (1 − p) 0 for p, the chance of reaching m before 0, gives p = a / m.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "How long the walk lasts",
+    "text": "A second martingale answers a different question. Let a walk X start at 0 and stop on reaching −m or + m, and use Yₙ = X_n² − n. Let τ be the first time the walk hits ± m. Since Y starts at zero, the theorem makes the expected value of Y at τ zero too, which is m² − E[τ]. So E[τ] = m².",
+    "cites": [
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "When the theorem breaks",
+    "text": "One of the conditions must really hold. Change the last example so the walk stops only at + m, never at −m. Then its value when it stops is always m, so E[X_τ] is m. The theorem would have given E[X_τ] = X₀ = 0, so all three conditions must fail when stopping is one-sided and the walk can roam without bound.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   }
+  ]
+ }
+}

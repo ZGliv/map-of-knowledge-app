@@ -1,0 +1,336 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.proteins.amino-acid",
+ "name": "Amino acid",
+ "summary": [
+  {
+   "text": "Amino acids are organic compounds that contain both an amino group and a carboxylic acid group.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Over 500 exist in nature, but the 22 that appear in the genetic code are the ones built into proteins.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "As parts of proteins, amino acid residues make up the second-largest component of human muscle and other tissues, after water.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First discovered",
+   "value": "Asparagine, isolated from asparagus in 1806",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Last common one found",
+   "value": "Threonine, found in 1935 by William Cumming Rose",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Protein-building",
+   "value": "22 of the many hundreds described are proteinogenic",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Handedness in proteins",
+   "value": "Chiral proteinogenic ones all have the L configuration",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Charged at neutral pH",
+   "value": "Five of them carry a charge",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Histidine often takes part in proton transfers during enzyme reactions. What makes it suited to that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the only amino acid fully protonated at pH 7"
+    },
+    {
+     "id": "b",
+     "label": "It is easily found in both its basic and acid forms"
+    },
+    {
+     "id": "c",
+     "label": "It carries a negative charge at neutral pH"
+    },
+    {
+     "id": "d",
+     "label": "It has no side chain that can change charge"
+    }
+   ],
+   "answer": "b",
+   "explain": "Histidine is easily found in its basic and conjugate acid forms, so it often joins catalytic proton transfers.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.amino-acid:q1"
+  },
+  {
+   "prompt": "Chiral amino acids built into proteins all share one handedness. Which?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Right-handed, the D configuration"
+    },
+    {
+     "id": "b",
+     "label": "An even mix of both"
+    },
+    {
+     "id": "c",
+     "label": "Left-handed, the L configuration"
+    },
+    {
+     "id": "d",
+     "label": "Alternating along the chain"
+    }
+   ],
+   "answer": "c",
+   "explain": "All chiral proteinogenic amino acids have the L configuration, the left-handed form.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.amino-acid:q2"
+  },
+  {
+   "prompt": "Glycine's side chain is just a hydrogen atom. What does that mean for its α-carbon?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is not stereogenic, unlike in the others"
+    },
+    {
+     "id": "b",
+     "label": "It carries a charge at neutral pH"
+    },
+    {
+     "id": "c",
+     "label": "It carries two carboxyl groups"
+    },
+    {
+     "id": "d",
+     "label": "It is stereogenic like the others"
+    }
+   ],
+   "answer": "a",
+   "explain": "Except for glycine, whose side chain is also a hydrogen atom, the α-carbon is stereogenic.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.amino-acid:q3"
+  },
+  {
+   "prompt": "Charged side chains often sit on the outside surface of a protein. What does that help the protein do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bind to ribosomes more tightly"
+    },
+    {
+     "id": "b",
+     "label": "Resist damage from UV light"
+    },
+    {
+     "id": "c",
+     "label": "Switch the handedness of its amino acids"
+    },
+    {
+     "id": "d",
+     "label": "Dissolve in the surrounding water"
+    }
+   ],
+   "answer": "d",
+   "explain": "Charged side chains often appear at protein surfaces to enable their solubility in water.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.amino-acid:q4"
+  },
+  {
+   "prompt": "In 1902 two chemists proposed how amino acids link into proteins. Which parts of two neighbouring amino acids bond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The amino group of one and the carboxyl group of the next"
+    },
+    {
+     "id": "b",
+     "label": "The side chain of one and the side chain of the next"
+    },
+    {
+     "id": "c",
+     "label": "The carboxyl groups of both, joined back to back"
+    },
+    {
+     "id": "d",
+     "label": "The amino groups of both, joined back to back"
+    }
+   ],
+   "answer": "a",
+   "explain": "Fischer and Hofmeister proposed that bonds form between the amino group of one amino acid and the carboxyl group of another, giving a linear chain.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.amino-acid:q5"
+  },
+  {
+   "prompt": "Pepsin is an enzyme in the stomach, a very sour, low-pH place. Which residues may act as acids in it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Arginine or lysine"
+    },
+    {
+     "id": "b",
+     "label": "Serine or threonine"
+    },
+    {
+     "id": "c",
+     "label": "Glycine or leucine"
+    },
+    {
+     "id": "d",
+     "label": "Aspartate or glutamate"
+    }
+   ],
+   "answer": "d",
+   "explain": "Enzymes in very low pH environments, like pepsin in the stomach, may have catalytic aspartate or glutamate residues that act as acids.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.amino-acid:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/L-amino_acid_structure.svg/960px-L-amino_acid_structure.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Amino acid",
+  "credit": "Smokefoot",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:L-amino_acid_structure.svg"
+ },
+ "source": {
+  "title": "Amino acid",
+  "url": "https://en.wikipedia.org/wiki/Amino_acid",
+  "revision": 1383292554
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an amino acid is",
+    "text": "An amino acid is an organic compound that carries two working parts: an amino group and a carboxylic acid group. Nature holds more than 500 of them, but the 22 alpha-amino acids that go into proteins matter most by far. Those 22 are the only ones written into the genetic code. They are called proteinogenic, meaning protein-building, and ribosomes string them together into a vast range of peptides and proteins.",
+    "cites": [
+     1,
+     2,
+     3,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Why they matter",
+    "text": "Inside proteins, amino acid residues are the second-biggest ingredient of human muscle and other tissues, after water. They also do work outside proteins, for example in moving neurotransmitters around and in building other molecules. Scientists think amino acids played a key part in how life on Earth got started.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "The basic shape",
+    "text": "Most alpha-amino acids share the general formula H₂NCHRCOOH. Here R stands for the side chain, the part that differs from one amino acid to the next. The α-carbon is the carbon atom sitting right beside the carboxyl group. In the protein-building amino acids it holds the amine group, the side chain and a hydrogen atom.",
+    "cites": [
+     19,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Left and right hands",
+    "text": "Apart from glycine, whose side chain is just another hydrogen atom, the α-carbon is stereogenic. Every chiral protein-building amino acid takes the L configuration, and these are described as left-handed, a name that refers to the arrangement around the α-carbon. A few right-handed D-amino acids turn up in nature, for example in bacterial envelopes, in some antibiotics, and as the nerve-signal modulator D-serine. On rare occasions D residues appear inside proteins, made by converting an L residue after the protein is built.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Charged side chains",
+    "text": "At neutral pH, five amino acids carry an electric charge. Aspartate and glutamate are the two with a negative charge, while arginine, lysine and histidine are positive. Histidine is a special case: only about 10% of it is protonated at neutral pH. Because it slips easily between its two forms, it often helps move protons around during enzyme reactions.",
+    "cites": [
+     33,
+     37,
+     40,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "How charge shapes proteins",
+    "text": "Charged side chains often sit on a protein's surface, which helps the protein dissolve in water. Side chains with opposite charges can pair up in contacts called salt bridges that hold a protein's structure together, or link two proteins. Many proteins grip metal atoms, usually through charged side chains such as aspartate, glutamate and histidine. Other side chains, like those of serine, threonine, asparagine and glutamine, carry no charge but readily form hydrogen bonds with water and with other amino acids.",
+    "cites": [
+     34,
+     35,
+     44
+    ]
+   },
+   {
+    "heading": "Finding them",
+    "text": "The first amino acid was found in 1806, when French chemists Louis-Nicolas Vauquelin and Pierre Jean Robiquet pulled a compound out of asparagus; it was later named asparagine. Glycine and leucine followed in 1820. The last of the 20 common ones, threonine, was found in 1935 by William Cumming Rose. In 1902 Emil Fischer and Franz Hofmeister each proposed that proteins are long chains of amino acids, with the amino group of one bonded to the carboxyl group of the next.",
+    "cites": [
+     11,
+     13,
+     14,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ochem-26-1",
+   "kind": "book",
+   "title": "26.1 Structures of Amino Acids",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids",
+   "note": "A free organic chemistry section on alpha-amino acid structure, side chains and zwitterions.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "kimball-2-7",
+   "kind": "book",
+   "title": "2.7: Amino Acids",
+   "by": "John W. Kimball",
+   "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Biology_(Kimball)/02%3A_The_Molecules_of_Life/2.07%3A_Amino_Acids",
+   "note": "A free introductory biology section on the amino acids that make up proteins.",
+   "license": "CC BY 3.0"
+  }
+ ]
+}

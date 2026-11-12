@@ -1,0 +1,319 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product",
+ "name": "Dot product",
+ "summary": [
+  {
+   "text": "The dot product takes two equal-length lists of numbers, usually coordinate vectors, and returns a single number.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Algebraically it is the sum of the products of matching entries; geometrically it is 𝐚⋅𝐛 = ‖𝐚‖‖𝐛‖cos θ, with θ the angle between them.",
+   "cites": [
+    5,
+    23
+   ]
+  },
+  {
+   "text": "Two non-zero vectors are orthogonal exactly when 𝐚⋅𝐛 = 0, and a vector's length is ‖𝐚‖ = √𝐚⋅𝐚.",
+   "cites": [
+    25,
+    40
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Also called the scalar product, and a kind of inner product",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Why scalar",
+   "value": "Its result is a scalar, not a vector",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Self dot product",
+   "value": "𝐚⋅𝐚 is never negative, and is zero only if 𝐚 = 𝟎",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Orthogonality test",
+   "value": "𝐚⋅𝐛 = 0 means orthogonal, for non-zero vectors",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "No cancellation",
+   "value": "𝐚⋅𝐛 = 𝐚⋅𝐜 does not force 𝐛 = 𝐜",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A list of quantities (2, 3) and a list of prices (5, 4) are combined with the dot product. What is the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "14"
+    },
+    {
+     "id": "b",
+     "label": "22"
+    },
+    {
+     "id": "c",
+     "label": "The pair 10 and 12"
+    },
+    {
+     "id": "d",
+     "label": "120"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dot product returns a single number: the sum of the products of matching entries, 2 times 5 plus 3 times 4.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product:q1"
+  },
+  {
+   "prompt": "Two arrows, both with real length, are at right angles to each other. What is the dot product of the two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one"
+    },
+    {
+     "id": "b",
+     "label": "The product of their lengths"
+    },
+    {
+     "id": "c",
+     "label": "The sum of their lengths"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "Two non-zero vectors are orthogonal if and only if 𝐚⋅𝐛 = 0.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product:q2"
+  },
+  {
+   "prompt": "Why is the dot product also called the scalar product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its result is a single number, not a vector"
+    },
+    {
+     "id": "b",
+     "label": "It only works on lists with one entry"
+    },
+    {
+     "id": "c",
+     "label": "It first scales each vector down to length one"
+    },
+    {
+     "id": "d",
+     "label": "It multiplies each vector by a scalar first"
+    }
+   ],
+   "answer": "a",
+   "explain": "The name scalar product emphasizes that the result is a scalar rather than a vector.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product:q3"
+  },
+  {
+   "prompt": "You know a vector's dot product with itself. How do you get the vector's length?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Double it"
+    },
+    {
+     "id": "b",
+     "label": "Divide it by the angle"
+    },
+    {
+     "id": "c",
+     "label": "Take its square root"
+    },
+    {
+     "id": "d",
+     "label": "Subtract one from it"
+    }
+   ],
+   "answer": "c",
+   "explain": "The length of a vector is the square root of the dot product of the vector by itself: ‖𝐚‖ = √𝐚⋅𝐚.",
+   "cites": [
+    9,
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product:q4"
+  },
+  {
+   "prompt": "With ordinary numbers, if ab = ac and a is not zero, then b must equal c. Does the same hold for dot products?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, cancellation works for every pair of vectors"
+    },
+    {
+     "id": "b",
+     "label": "No, b and c can differ when their difference is perpendicular to a"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only in three dimensions"
+    },
+    {
+     "id": "d",
+     "label": "No, because the dot product is not distributive"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dot product does not obey the cancellation law: 𝐚⋅𝐛 = 𝐚⋅𝐜 only means 𝐚 is perpendicular to (𝐛 − 𝐜), which can be non-zero.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product:q5"
+  },
+  {
+   "prompt": "You know two vectors' lengths and their dot product. What can you work out about their directions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which one is longer"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, since direction needs the cross product"
+    },
+    {
+     "id": "c",
+     "label": "The cosine of the angle between them"
+    },
+    {
+     "id": "d",
+     "label": "Whether either one is a scalar"
+    }
+   ],
+   "answer": "c",
+   "explain": "Since 𝐚⋅𝐛 = ‖𝐚‖‖𝐛‖cos θ, the cosine of the angle is the dot product divided by the product of the lengths.",
+   "cites": [
+    6,
+    9,
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.dot-product:q6"
+  }
+ ],
+ "source": {
+  "title": "Dot product",
+  "url": "https://en.wikipedia.org/wiki/Dot_product",
+  "revision": 1379397601
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two lists in, one number out",
+    "text": "The dot product takes two lists of numbers of the same length, usually the coordinates of two vectors, and gives back one number. It is also called the scalar product, a name that stresses the answer is a plain number, called a scalar, rather than a vector. The name dot product comes from the dot symbol, as in 𝐚⋅𝐛. Because it is a special case of an inner product, that term is often used for it as well.",
+    "cites": [
+     1,
+     3,
+     4,
+     10
+    ]
+   },
+   {
+    "heading": "Two ways to compute it",
+    "text": "There are two ways to define it. The algebraic way: multiply the matching entries of the two lists, then add up those products. The geometric way: multiply the two lengths, then multiply by the cosine of the angle between the vectors, written 𝐚⋅𝐛 = ‖𝐚‖‖𝐛‖cos θ. When you work in Cartesian coordinates, the two recipes always agree.",
+    "cites": [
+     5,
+     6,
+     7,
+     11,
+     23
+    ]
+   },
+   {
+    "heading": "Measuring length and angle",
+    "text": "In modern geometry, where space is often built from vectors, the dot product is what defines lengths and angles. Dot a vector with itself and you get the square of its length, so the length is ‖𝐚‖ = √𝐚⋅𝐚. Divide the dot product of two vectors by the product of their lengths and you get the cosine of the angle between them. So a single operation hands you both measurements.",
+    "cites": [
+     8,
+     9,
+     25
+    ]
+   },
+   {
+    "heading": "A test for right angles",
+    "text": "One handy consequence is a quick check for perpendicular vectors. The cosine of a right angle is zero, so two vectors at 90 degrees have a dot product of zero. In fact, two non-zero vectors are orthogonal, meaning at right angles, exactly when their dot product is zero. At the other extreme, two vectors pointing the same way give the product of their lengths.",
+    "cites": [
+     24,
+     25,
+     40
+    ]
+   },
+   {
+    "heading": "Rules it follows",
+    "text": "Scaling either vector by a number scales the answer by that number, and the dot product spreads over addition: 𝐚⋅(𝐛 + 𝐜) = 𝐚⋅𝐛 + 𝐚⋅𝐜. Together these make it what is called a bilinear form. A vector dotted with itself is never negative, and it is zero only for the zero vector. If vectors are written as columns, the dot product is also the matrix product of the transpose of 𝐚 with 𝐛.",
+    "cites": [
+     18,
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "No cancelling allowed",
+    "text": "With ordinary numbers, if ab = ac and a is not zero, then b must equal c. The dot product breaks this habit. Knowing 𝐚⋅𝐛 = 𝐚⋅𝐜 only tells you that 𝐚 is perpendicular to the difference 𝐛 − 𝐜. That difference can be a non-zero vector, so 𝐛 and 𝐜 may well be different.",
+    "cites": [
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-dot-product",
+   "kind": "book",
+   "title": "2.3 The Dot Product - Calculus Volume 3",
+   "by": "OpenStax (Gilbert Strang, Edwin “Jed” Herman)",
+   "url": "https://openstax.org/books/calculus-volume-3/pages/2-3-the-dot-product",
+   "note": "A free textbook section on the dot product, angles between vectors, and projections.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-dot-products",
+   "kind": "video",
+   "title": "Dot products and duality",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=LyGKycYT2v0",
+   "note": "An animated explainer of the dot product and why its geometric meaning matches the formula."
+  }
+ ]
+}

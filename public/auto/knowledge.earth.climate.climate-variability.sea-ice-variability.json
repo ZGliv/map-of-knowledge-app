@@ -1,0 +1,478 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-variability.sea-ice-variability",
+ "name": "Sea ice variability",
+ "summary": [
+  {
+   "text": "Sea ice is frozen seawater floating on the ocean, and it covers about 7% of Earth's surface and about 12% of its oceans.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The polar ice packs reach their greatest extent in winter and retreat in summer, and satellites show a marked decline in Arctic sea ice extent and thickness in recent decades.",
+   "cites": [
+    5,
+    11
+   ]
+  },
+  {
+   "text": "Its white surface reflects the Sun's energy back to space and it insulates the ocean below, so its presence or absence shapes climate, regional weather and ocean circulation.",
+   "cites": [
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Ocean coverage",
+   "value": "About 12% of the world's oceans",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Yearly cycle",
+   "value": "Greatest in winter, retreats in summer",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "First-year ice density",
+   "value": "Typically around 840–910 kg/m³",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Giant floe",
+   "value": "More than 10 km across",
+   "cites": [
+    38
+   ]
+  },
+  {
+   "label": "Age stages",
+   "value": "New ice, nilas, young ice, first-year, old",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Seawater freezes on a calm polar bay. Why does the new ice stay on top instead of sinking?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Salt in the ice makes it heavier than water"
+    },
+    {
+     "id": "b",
+     "label": "Wind pressure holds the ice up at the surface"
+    },
+    {
+     "id": "c",
+     "label": "Ice is less dense than the liquid water below"
+    },
+    {
+     "id": "d",
+     "label": "Trapped sunlight keeps the ice warm and buoyant"
+    }
+   ],
+   "answer": "c",
+   "explain": "Ice is less dense than liquid water, so sea ice floats just as freshwater ice does.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.climate.climate-variability.sea-ice-variability:q1"
+  },
+  {
+   "prompt": "A warm summer melts a wide stretch of polar sea ice, leaving dark open water. What changes about the Sun's energy there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Less of it is reflected back out to space"
+    },
+    {
+     "id": "b",
+     "label": "More of it is reflected back out to space"
+    },
+    {
+     "id": "c",
+     "label": "None of it reaches the ocean surface anymore"
+    },
+    {
+     "id": "d",
+     "label": "It is reflected exactly as much as before"
+    }
+   ],
+   "answer": "a",
+   "explain": "The white ice surface reflects the Sun's energy and helps keep the planet cool; losing it means less energy bounces back.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.earth.climate.climate-variability.sea-ice-variability:q2"
+  },
+  {
+   "prompt": "A sheet of sea ice is frozen firmly to the coastline and does not move with currents or wind. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Drift ice"
+    },
+    {
+     "id": "b",
+     "label": "Fast ice"
+    },
+    {
+     "id": "c",
+     "label": "Pack ice"
+    },
+    {
+     "id": "d",
+     "label": "An iceberg"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sea ice attached to the shore is landfast or fast ice, as in fastened; drift ice is free to move.",
+   "cites": [
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.earth.climate.climate-variability.sea-ice-variability:q3"
+  },
+  {
+   "prompt": "A huge chunk breaks off the front of a glacier and floats out to sea. Does it count as sea ice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any ice floating in the ocean is sea ice"
+    },
+    {
+     "id": "b",
+     "label": "Yes, once it drifts away from the coastline"
+    },
+    {
+     "id": "c",
+     "label": "No, sea ice must be at least a year old"
+    },
+    {
+     "id": "d",
+     "label": "No, it is an iceberg, not frozen seawater"
+    }
+   ],
+   "answer": "d",
+   "explain": "Sea ice forms when seawater freezes, while icebergs are pieces of glaciers or ice shelves that calve into the ocean.",
+   "cites": [
+    1,
+    14
+   ],
+   "id": "knowledge.earth.climate.climate-variability.sea-ice-variability:q4"
+  },
+  {
+   "prompt": "In winter a lid of sea ice covers a polar sea. What does it do to the exchange between the water and the air above?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It speeds up the release of heat into the air"
+    },
+    {
+     "id": "b",
+     "label": "It has no effect on what passes between them"
+    },
+    {
+     "id": "c",
+     "label": "It limits the flow of heat, vapour and gases"
+    },
+    {
+     "id": "d",
+     "label": "It pulls extra carbon dioxide down into the sea"
+    }
+   ],
+   "answer": "c",
+   "explain": "Sea ice insulates the ocean, limiting the transfer of heat, water vapour and gases such as carbon dioxide between sea and air.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.earth.climate.climate-variability.sea-ice-variability:q5"
+  },
+  {
+   "prompt": "Roughly how much of Earth's entire surface is covered by sea ice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Less than 0.5%"
+    },
+    {
+     "id": "b",
+     "label": "About 7%"
+    },
+    {
+     "id": "c",
+     "label": "About 30%"
+    },
+    {
+     "id": "d",
+     "label": "About half"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sea ice covers about 7% of Earth's surface and about 12% of the world's oceans.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.earth.climate.climate-variability.sea-ice-variability:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Arctic_ice.jpg/960px-Arctic_ice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Sea ice variability",
+  "credit": "Patrick Kelley",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Arctic_ice.jpg"
+ },
+ "source": {
+  "title": "Sea ice",
+  "url": "https://en.wikipedia.org/wiki/Sea_ice",
+  "revision": 1381112026
+ },
+ "pack": {
+  "id": "auto-climate-variability-sea-ice-variability",
+  "title": "The Ocean's Seasonal Lid",
+  "question": "Why does it matter that sea ice grows and shrinks?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Climate variability",
+   "Sea ice variability"
+  ],
+  "hue": 127,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Arctic_ice.jpg/960px-Arctic_ice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Sea ice variability",
+    "credit": "Patrick Kelley · CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arctic_ice.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The Ocean's Seasonal Lid",
+    "hook": "Every winter the polar seas freeze over and every summer much of that ice retreats, and the swing reaches far beyond the poles."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-climate-variability-sea-ice-variability:1",
+    "transfer": false,
+    "prompt": "A warmer summer than usual melts back a large area of Arctic sea ice, exposing dark open ocean. What happens to the sunlight hitting that area?",
+    "explain": "Sea ice's white surface reflects the Sun's energy and helps keep the planet cool, so losing it means less energy is reflected.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Nothing changes, since sunlight is the same",
+        "feedback": "The sunlight arriving is the same, but how much is reflected depends on the surface."
+       },
+       {
+        "id": "b",
+        "label": "Less of it bounces back to space",
+        "feedback": ""
+       },
+       {
+        "id": "a",
+        "label": "More of it bounces back to space",
+        "feedback": "Dark water reflects less than white ice, not more."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-climate-variability-sea-ice-variability:2",
+    "transfer": false,
+    "prompt": "Put these stages of sea ice in order of age.",
+    "items": [
+     {
+      "id": "a",
+      "label": "New ice"
+     },
+     {
+      "id": "b",
+      "label": "Young ice"
+     },
+     {
+      "id": "c",
+      "label": "First-year ice"
+     },
+     {
+      "id": "d",
+      "label": "Old ice"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Youngest",
+     "Oldest"
+    ],
+    "explain": "Scientists classify sea ice by its development stages: new ice, nilas, young ice, first-year and old."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-variability-sea-ice-variability:3",
+    "transfer": true,
+    "prompt": "Match each floe name to its size across.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Small"
+     },
+     {
+      "id": "l1",
+      "label": "Medium"
+     },
+     {
+      "id": "l2",
+      "label": "Big"
+     },
+     {
+      "id": "l3",
+      "label": "Giant"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "More than 10 km"
+     },
+     {
+      "id": "r1",
+      "label": "100 to 500 m"
+     },
+     {
+      "id": "r2",
+      "label": "500 to 2,000 m"
+     },
+     {
+      "id": "r0",
+      "label": "20 to 100 m"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Floes are individual pieces of drift ice, and each size band has its own name."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-variability-sea-ice-variability:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each description into the kind of sea ice it fits.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Frozen to the shoreline"
+     },
+     {
+      "id": "i1",
+      "label": "Moves with currents and winds"
+     },
+     {
+      "id": "i2",
+      "label": "Spreads over very wide areas offshore"
+     },
+     {
+      "id": "i3",
+      "label": "Held fast between shoals or grounded icebergs"
+     },
+     {
+      "id": "i4",
+      "label": "Includes the marginal ice zone"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Fast ice"
+     },
+     {
+      "id": "g1",
+      "label": "Drift ice"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g1",
+     "i3": "g0",
+     "i4": "g1"
+    },
+    "explain": "Fast ice is attached to the shore, shoals or grounded icebergs; drift ice lies further offshore and is free to move."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Sea ice grows in winter and retreats in summer, and because it reflects sunlight and insulates the ocean, its changes shape climate, weather and ocean circulation.",
+    "connections": [
+     {
+      "title": "Arctic sea ice",
+      "place": "Sea ice variability",
+      "node": "knowledge.earth.climate.climate-variability.sea-ice-variability.arctic-sea-ice"
+     },
+     {
+      "title": "Antarctic sea ice",
+      "place": "Sea ice variability",
+      "node": "knowledge.earth.climate.climate-variability.sea-ice-variability.antarctic-sea-ice"
+     },
+     {
+      "title": "Polynya",
+      "place": "Sea ice variability",
+      "node": "knowledge.earth.climate.climate-variability.sea-ice-variability.polynya"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Sea ice's white surface reflects the Sun's energy and helps keep the planet cool, so losing it means less energy is reflected.",
+    "source": "Wikipedia sentences 9"
+   },
+   {
+    "claim": "Scientists classify sea ice by its development stages: new ice, nilas, young ice, first-year and old.",
+    "source": "Wikipedia sentences 41, 42"
+   },
+   {
+    "claim": "Floes are individual pieces of drift ice, and each size band has its own name.",
+    "source": "Wikipedia sentences 38"
+   },
+   {
+    "claim": "Fast ice is attached to the shore, shoals or grounded icebergs; drift ice lies further offshore and is free to move.",
+    "source": "Wikipedia sentences 30, 31, 32, 34"
+   }
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "readHash": "6bffcd6751f242a823e4eca6501a6d02691f20e1",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Definition and independence from past failures/elapsed time match 1, 2, 6."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Only geometric (discrete) and exponential (continuous) are memoryless, per 3, 7, 8, 9, 15."
+  },
+  "r2": {
+   "supported": true,
+   "why": "IID Bernoulli trials, coin flips until heads, and earthquake gaps all in 4 and 5."
+  },
+  "r3": {
+   "supported": true,
+   "why": "S(t/k)=S(t)^(1/k), rationals, then density of rationals extends to reals: 10-12."
+  },
+  "r4": {
+   "supported": true,
+   "why": "S(t)=e^(-lambda t), lambda=-ln S(1)>=0, the exponential survival function; discrete case geometric per 15."
+  }
+ }
+}

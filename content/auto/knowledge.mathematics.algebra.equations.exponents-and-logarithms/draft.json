@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "The exponential function is the unique real function that maps zero to one and has a derivative everywhere equal to its value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its argument works as an exponent on the constant e ≈ 2.718, and the function converts sums to products: exp (x + y) = exp x⋅exp y.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "Its inverse function, the natural logarithm, converts products to sums: ln (x⋅y) = ln x + ln y.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "The base",
+   "value": "e ≈ 2.718, raised to the power x",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Inverse function",
+   "value": "The natural logarithm, written ln or log",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Graph shape",
+   "value": "Upward-sloping, and always above the x-axis",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Slope rule",
+   "value": "The tangent's slope at each point equals its height there",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "General form",
+   "value": "Functions of the form f(x) = abˣ are also called exponential",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A curve is drawn so that, at every point, the slope of its tangent is exactly as large as its height above the x-axis. Which graph is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "y = ln x"
+    },
+    {
+     "id": "b",
+     "label": "y = x²"
+    },
+    {
+     "id": "c",
+     "label": "y = eˣ"
+    },
+    {
+     "id": "d",
+     "label": "y = 1/x"
+    }
+   ],
+   "answer": "c",
+   "explain": "For y = eˣ the slope of the tangent at each point equals its height (its y-coordinate) at that point.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "You know the values of exp 2 and exp 3 and want exp 5. What do you do with them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply them together"
+    },
+    {
+     "id": "b",
+     "label": "Add them together"
+    },
+    {
+     "id": "c",
+     "label": "Divide one by the other"
+    },
+    {
+     "id": "d",
+     "label": "Multiply 2 by 3 first"
+    }
+   ],
+   "answer": "a",
+   "explain": "The exponential function converts sums to products: exp (x + y) = exp x⋅exp y, and 5 = 2 + 3.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "You know the natural logarithms of 4 and of 5 and need the natural logarithm of 20. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply them together"
+    },
+    {
+     "id": "b",
+     "label": "Subtract one from the other"
+    },
+    {
+     "id": "c",
+     "label": "Divide one by the other"
+    },
+    {
+     "id": "d",
+     "label": "Add them together"
+    }
+   ],
+   "answer": "d",
+   "explain": "The natural logarithm converts products to sums: ln (x⋅y) = ln x + ln y, and 20 = 4⋅5.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "A savings pile grows so that its speed of growth at any moment is proportional to how much is already in it. What kind of function describes this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A function that adds the same amount each step"
+    },
+    {
+     "id": "b",
+     "label": "An exponential function, such as f(x) = abˣ"
+    },
+    {
+     "id": "c",
+     "label": "A function that equals its own square"
+    },
+    {
+     "id": "d",
+     "label": "A function that stays below the x-axis"
+    }
+   ],
+   "answer": "b",
+   "explain": "Exponential functions grow or decay so that the rate of change is proportional to the current value of f(x).",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "Far to the left on the graph of y = eˣ, where x is a large negative number, what does the curve do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gets arbitrarily close to the x-axis"
+    },
+    {
+     "id": "b",
+     "label": "Crosses the x-axis and goes negative"
+    },
+    {
+     "id": "c",
+     "label": "Levels off at a height of 1"
+    },
+    {
+     "id": "d",
+     "label": "Drops steeply downward"
+    }
+   ],
+   "answer": "a",
+   "explain": "The graph always lies above the x-axis but becomes arbitrarily close to it for large negative x, so the x-axis is a horizontal asymptote.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "A lab measures a quantity that follows f(x) = abˣ. The lab switches to a different measurement unit. Which constant changes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The base b alone"
+    },
+    {
+     "id": "b",
+     "label": "The variable x"
+    },
+    {
+     "id": "c",
+     "label": "The value of a"
+    },
+    {
+     "id": "d",
+     "label": "Nothing at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "A change of measurement unit changes the value of a, which is why it makes no sense to insist that a = 1.",
+   "cites": [
+    37,
+    38
+   ]
+  }
+ ]
+}

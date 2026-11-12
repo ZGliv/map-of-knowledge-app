@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis",
+ "name": "Glycolysis",
+ "summary": [
+  {
+   "text": "Glycolysis is a sequence of ten enzyme-catalyzed reactions that converts glucose into pyruvate, and in most organisms it occurs in the cytosol.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "The energy it releases is used to form ATP and NADH, and without much oxygen it is the only biochemical pathway in eukaryotes that can generate ATP.",
+   "cites": [
+    2,
+    14
+   ]
+  },
+  {
+   "text": "Its wide occurrence in other species indicates it is an ancient pathway, yet the modern understanding of it took almost 100 years to fully learn.",
+   "cites": [
+    4,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Number of reactions",
+   "value": "Ten, each catalyzed by an enzyme",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Starting molecule",
+   "value": "Glucose, converted into pyruvate",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Most common type",
+   "value": "The Embden–Meyerhof–Parnas pathway",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Where it happens",
+   "value": "The cytosol, in most organisms",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Time to decode",
+   "value": "Almost 100 years to fully learn",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Oxygen runs out in a cell, yet glycolysis carries on. What do many organisms do to keep it supplying ATP?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Use fermentation pathways that recycle NAD⁺"
+    },
+    {
+     "id": "b",
+     "label": "Switch it off and wait until oxygen returns"
+    },
+    {
+     "id": "c",
+     "label": "Run the citric acid cycle harder to compensate"
+    },
+    {
+     "id": "d",
+     "label": "Turn pyruvate back into glucose for later"
+    }
+   ],
+   "answer": "a",
+   "explain": "Many organisms evolved fermentation pathways to recycle NAD⁺ so glycolysis can continue to produce ATP.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis:q1"
+  },
+  {
+   "prompt": "Oxygen is plentiful and a eukaryotic cell has pyruvate from glycolysis. How can it get significantly more ATP from it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Split it into two new glucose molecules"
+    },
+    {
+     "id": "b",
+     "label": "Release it from the cell as a waste product"
+    },
+    {
+     "id": "c",
+     "label": "Feed it into the citric acid cycle or electron transport chain"
+    },
+    {
+     "id": "d",
+     "label": "Keep it in the cytosol unchanged until oxygen drops"
+    }
+   ],
+   "answer": "c",
+   "explain": "With high oxygen, eukaryotic cells can continue from glycolysis through the citric acid cycle or electron transport chain for much more ATP.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis:q2"
+  },
+  {
+   "prompt": "In the 1850s, wine sometimes spoiled instead of turning into alcohol. What did Pasteur's experiments show about alcohol fermentation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a plain chemical change that needs no living things"
+    },
+    {
+     "id": "b",
+     "label": "It is driven by heat from the cellar, not by microorganisms"
+    },
+    {
+     "id": "c",
+     "label": "It happens only when no sugar is present"
+    },
+    {
+     "id": "d",
+     "label": "It happens through the action of living yeasts"
+    }
+   ],
+   "answer": "d",
+   "explain": "Pasteur showed that alcohol fermentation occurs by the action of living microorganisms, yeasts.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis:q3"
+  },
+  {
+   "prompt": "Buchner mixed glucose with a non-living extract of yeast. What happened?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing happened, because living yeast cells were required"
+    },
+    {
+     "id": "b",
+     "label": "The glucose still became ethanol, thanks to enzymes in the extract"
+    },
+    {
+     "id": "c",
+     "label": "Only lactic acid formed, never ethanol"
+    },
+    {
+     "id": "d",
+     "label": "The extract turned into living yeast within days"
+    }
+   ],
+   "answer": "b",
+   "explain": "The conversion of glucose to ethanol was possible with a non-living extract because of enzymes in it.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis:q4"
+  },
+  {
+   "prompt": "Purified yeast juice could not ferment. Adding yeast extract that had been boiled, which inactivates proteins, restored fermentation. What does this suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The helper cofactors were not proteins"
+    },
+    {
+     "id": "b",
+     "label": "The helpers were enzymes that boiling makes stronger"
+    },
+    {
+     "id": "c",
+     "label": "The helpers were living cells that survived the boiling"
+    },
+    {
+     "id": "d",
+     "label": "The helpers were sugars that boiling had created"
+    }
+   ],
+   "answer": "a",
+   "explain": "Boiling denatures proteins, yet the boiled extract still rescued fermentation, suggesting the cofactors were non-protein in character.",
+   "cites": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis:q5"
+  },
+  {
+   "prompt": "In the 1920s Meyerhof's team took glycolytic enzymes from muscle tissue and combined them. What did they achieve?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They grew new muscle fibres from glucose in a dish"
+    },
+    {
+     "id": "b",
+     "label": "They showed muscle could not break down glycogen"
+    },
+    {
+     "id": "c",
+     "label": "They built the path from glycogen to lactic acid in a lab"
+    },
+    {
+     "id": "d",
+     "label": "They made alcohol from glycogen using living yeast"
+    }
+   ],
+   "answer": "c",
+   "explain": "Meyerhof's team extracted distinct glycolytic enzymes from muscle and combined them to artificially create the pathway from glycogen to lactic acid.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.glycolysis:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Glycolysis_metabolic_pathway_3.svg/960px-Glycolysis_metabolic_pathway_3.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Glycolysis",
+  "credit": "Thomas Shafee",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Glycolysis_metabolic_pathway_3.svg"
+ },
+ "source": {
+  "title": "Glycolysis",
+  "url": "https://en.wikipedia.org/wiki/Glycolysis",
+  "revision": 1382744387
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Splitting glucose",
+    "text": "Glycolysis is the pathway that turns glucose (C₆H₁₂O₆) into pyruvate. In most organisms it happens in the cytosol, the liquid part of the cell. It is a sequence of ten reactions, each driven by an enzyme. The free energy released along the way is used to make two high-energy molecules, ATP and NADH.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Energy without oxygen",
+    "text": "When oxygen is low, a state called anaerobic, glycolysis is the only pathway in eukaryotes that can make ATP, and for many organisms that respire without oxygen it is the most important ATP source. To keep it going, many organisms evolved fermentation pathways that recycle NAD⁺, such as ethanol and lactic acid fermentation. When oxygen is plentiful, eukaryotic cells can pass the pyruvate on to the citric acid cycle or the electron transport chain and make far more ATP.",
+    "cites": [
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "An ancient pathway",
+    "text": "Glycolysis turns up in so many species that it appears to be very old. Its reactions, and those of the parallel pentose phosphate pathway, can even run without enzymes, helped along by metal ions, in oxygen-free conditions like those of the Archean oceans. That makes glycolysis a plausible prebiotic pathway on the road to abiogenesis.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "From spoiled wine to yeast juice",
+    "text": "Work on glycolysis began in the 19th century with a business problem: the French wine industry wanted to know why wine sometimes went distasteful rather than fermenting into alcohol. Louis Pasteur studied this in the 1850s. He showed that living yeasts carry out alcohol fermentation, and that glucose use falls when oxygen is present, now called the Pasteur effect. In the 1890s Eduard Buchner showed that a non-living yeast extract could still turn glucose into ethanol, thanks to the enzymes in it.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Filling in the pieces",
+    "text": "Between 1905 and 1911, Arthur Harden and William Young found more parts of the pathway. When they fed glucose to yeast juice, CO₂ output rose fast and then slowed, but started again once inorganic phosphate was added. Following that clue, they extracted fructose 1,6-bisphosphate, one of the pathway's intermediates. They also showed that fermentation needs two parts together: heat-sensitive enzymes and heat-insensitive small cofactors such as ADP, ATP and NAD⁺.",
+    "cites": [
+     26,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Putting it together",
+    "text": "In the 1920s Otto Meyerhof linked some of the many separate pieces found by Buchner, Harden and Young. His team pulled separate enzymes out of muscle and combined them to rebuild the route from glycogen to lactic acid. By the 1930s Gustav Embden could set out the full step-by-step pathway, and its most common form now carries the names of Embden, Meyerhof and Jakub Karol Parnas. The hardest part had been that the reactions are fast and their intermediates are very short-lived and kept at low levels. In all, understanding glycolysis took almost 100 years and the combined results of many smaller experiments.",
+    "cites": [
+     6,
+     17,
+     18,
+     38,
+     39,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-7-2",
+   "kind": "book",
+   "title": "7.2 Glycolysis",
+   "by": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+   "note": "A free college textbook section on glycolysis's energy-investing and energy-releasing halves and its ten steps."
+  }
+ ]
+}

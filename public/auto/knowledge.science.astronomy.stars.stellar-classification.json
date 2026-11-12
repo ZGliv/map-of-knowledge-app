@@ -1,0 +1,545 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.stars.stellar-classification",
+ "name": "Stellar classification",
+ "summary": [
+  {
+   "text": "Stellar classification sorts stars by the features in their spectrum, the rainbow you get when a prism or grating splits a star's light.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Lines in that rainbow each point to an element or molecule, and their strengths vary mainly with the temperature of the star's photosphere.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Most stars get a letter from O (hottest) to M (coolest), then a digit from 0 (hottest) to 9 (coolest).",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Letter order",
+   "value": "O, B, A, F, G, K, M, from hottest to coolest",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "The Sun's class",
+   "value": "G2V, with a surface around 5,800 K",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Digit meaning",
+   "value": "0 is the hottest in a class, 9 the coolest",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "MK system origin",
+   "value": "Introduced in 1943 at Yerkes Observatory",
+   "cites": [
+    38,
+    39
+   ]
+  },
+  {
+   "label": "Who showed temperature",
+   "value": "Cecilia Payne showed the letter sequence is a temperature sequence",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two stars are both in class A. One is labelled A1 and the other A8. Which statement is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A8 is the hotter star, because 8 is larger"
+    },
+    {
+     "id": "b",
+     "label": "Both have the same temperature within a class"
+    },
+    {
+     "id": "c",
+     "label": "A1 is the hotter star, because 0 is hottest"
+    },
+    {
+     "id": "d",
+     "label": "Neither label says anything about temperature"
+    }
+   ],
+   "answer": "c",
+   "explain": "Within a class the digit runs from 0 (hottest) to 9 (coolest), so A1 is hotter than A8.",
+   "cites": [
+    7,
+    29,
+    30
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification:q1"
+  },
+  {
+   "prompt": "Each line in a star's spectrum points to one chemical element. What does a line's strength indicate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How much of that element is present"
+    },
+    {
+     "id": "b",
+     "label": "How old the star is"
+    },
+    {
+     "id": "c",
+     "label": "How fast the star is spinning"
+    },
+    {
+     "id": "d",
+     "label": "How far away the star is"
+    }
+   ],
+   "answer": "a",
+   "explain": "Each line marks an element or molecule, and the strength of the line shows how abundant it is.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification:q2"
+  },
+  {
+   "prompt": "A star's full label is G2V. What does the V at the end tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a bright giant"
+    },
+    {
+     "id": "b",
+     "label": "It is a white dwarf"
+    },
+    {
+     "id": "c",
+     "label": "It is a hypergiant"
+    },
+    {
+     "id": "d",
+     "label": "It is a main-sequence star"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Roman numeral is the luminosity class, and class V is used for main-sequence stars, as in the Sun's G2V.",
+   "cites": [
+    10,
+    12,
+    13
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification:q3"
+  },
+  {
+   "prompt": "Early astronomers lined up stars as O, B, A, F, G, K, M without knowing why the order worked. What did later work show it to be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A ranking by how far away the stars are"
+    },
+    {
+     "id": "b",
+     "label": "A sequence of temperature"
+    },
+    {
+     "id": "c",
+     "label": "A ranking by how old the stars are"
+    },
+    {
+     "id": "d",
+     "label": "A sequence of star size"
+    }
+   ],
+   "answer": "b",
+   "explain": "The sequence predates the understanding that it tracks temperature; Cecilia Payne showed that it does.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification:q4"
+  },
+  {
+   "prompt": "A book calls one star 'red' and another 'blue', yet to the eye stars look paler than those words suggest. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stars give off every colour, and combined colours look white"
+    },
+    {
+     "id": "b",
+     "label": "Earth's air washes out every star's colour"
+    },
+    {
+     "id": "c",
+     "label": "Stars only give off white light"
+    },
+    {
+     "id": "d",
+     "label": "The eye cannot see the peak colour of a star"
+    }
+   ],
+   "answer": "a",
+   "explain": "Colour names only count the peak of the spectrum, but stars radiate in all parts of it, and all colours together look white.",
+   "cites": [
+    14,
+    15,
+    16
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification:q5"
+  },
+  {
+   "prompt": "Two stars share the same temperature, but one is a giant and the other a dwarf. What in their spectra helps tell them apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The giant always has the earlier letter"
+    },
+    {
+     "id": "b",
+     "label": "The giant always has a higher digit"
+    },
+    {
+     "id": "c",
+     "label": "The giant has more spectral lines in total"
+    },
+    {
+     "id": "d",
+     "label": "The width of certain absorption lines"
+    }
+   ],
+   "answer": "d",
+   "explain": "The width of some absorption lines depends on the density of the star's atmosphere, which separates giants from dwarfs.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/HR-diag-no-text-2.svg/960px-HR-diag-no-text-2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Stellar classification",
+  "credit": "User:Spacepotato",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:HR-diag-no-text-2.svg"
+ },
+ "source": {
+  "title": "Stellar classification",
+  "url": "https://en.wikipedia.org/wiki/Stellar_classification",
+  "revision": 1383114563
+ },
+ "pack": {
+  "id": "auto-stars-stellar-classification",
+  "title": "Reading a star's rainbow",
+  "question": "How can astronomers sort stars by the light they give off?",
+  "path": [
+   "Science",
+   "Astronomy",
+   "Stars",
+   "Stellar classification"
+  ],
+  "hue": 204,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/HR-diag-no-text-2.svg/960px-HR-diag-no-text-2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Stellar classification",
+    "credit": "User:Spacepotato · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HR-diag-no-text-2.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Reading a star's rainbow",
+    "hook": "Split a star's light and the rainbow hides a label for its temperature and its kind."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-stars-stellar-classification:1",
+    "transfer": false,
+    "prompt": "Two stars sit next to each other in the classification: one is A9 and the other is F0. Which one is hotter?",
+    "explain": "A8, A9, F0 and F1 form a sequence from hotter to cooler, so A9 is hotter than F0.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "They have the same temperature",
+        "feedback": "The sequence A8, A9, F0, F1 runs steadily from hotter to cooler, so each step changes temperature."
+       },
+       {
+        "id": "b",
+        "label": "F0",
+        "feedback": "The 0 looks small, but within the sequence F comes after A, so F0 is cooler than A9."
+       },
+       {
+        "id": "a",
+        "label": "A9"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-stars-stellar-classification:2",
+    "transfer": false,
+    "prompt": "Put these classes in order of temperature.",
+    "items": [
+     {
+      "id": "a",
+      "label": "B"
+     },
+     {
+      "id": "b",
+      "label": "A"
+     },
+     {
+      "id": "c",
+      "label": "G"
+     },
+     {
+      "id": "d",
+      "label": "K"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "hottest",
+     "coolest"
+    ],
+    "explain": "The letters run O, B, A, F, G, K, M from the hottest to the coolest."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-stars-stellar-classification:3",
+    "transfer": true,
+    "prompt": "Match each luminosity class to the stars it is used for.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "I"
+     },
+     {
+      "id": "l1",
+      "label": "III"
+     },
+     {
+      "id": "l2",
+      "label": "V"
+     },
+     {
+      "id": "l3",
+      "label": "D (or VII)"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "supergiants"
+     },
+     {
+      "id": "r2",
+      "label": "main-sequence stars"
+     },
+     {
+      "id": "r3",
+      "label": "white dwarfs"
+     },
+     {
+      "id": "r1",
+      "label": "regular giants"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "A Roman numeral added to the spectral class marks which kind of star it is."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-stars-stellar-classification:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Astronomers split a star's light into a spectrum with lines in it."
+     },
+     {
+      "id": "b",
+      "text": "Each line points to an element or molecule, and its strength shows how much of it there is."
+     },
+     {
+      "id": "c",
+      "text": "So differences in line strength between stars always come from what the stars are made of."
+     },
+     {
+      "id": "d",
+      "text": "So sorting stars by their lines tells us nothing about temperature."
+     }
+    ],
+    "answer": "c",
+    "explain": "Line strengths vary mainly with the temperature of the photosphere, although in some cases there are true abundance differences."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A star's spectrum gives it a letter and digit for temperature, and a luminosity class separates giants from dwarfs.",
+    "connections": [
+     {
+      "title": "Luminosity",
+      "place": "Stellar classification",
+      "node": "knowledge.science.astronomy.stars.stellar-classification.luminosity"
+     },
+     {
+      "title": "Hertzsprung–Russell diagram",
+      "place": "Stellar classification",
+      "node": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram"
+     },
+     {
+      "title": "Main sequence",
+      "place": "Stellar classification",
+      "node": "knowledge.science.astronomy.stars.stellar-classification.main-sequence"
+     },
+     {
+      "title": "Red giant",
+      "place": "Stellar classification",
+      "node": "knowledge.science.astronomy.stars.stellar-classification.red-giant"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A8, A9, F0 and F1 form a sequence from hotter to cooler, so A9 is hotter than F0.",
+    "source": "Wikipedia sentences 6, 7"
+   },
+   {
+    "claim": "The letters run O, B, A, F, G, K, M from the hottest to the coolest.",
+    "source": "Wikipedia sentences 6"
+   },
+   {
+    "claim": "A Roman numeral added to the spectral class marks which kind of star it is.",
+    "source": "Wikipedia sentences 10, 12"
+   },
+   {
+    "claim": "Line strengths vary mainly with the temperature of the photosphere, although in some cases there are true abundance differences.",
+    "source": "Wikipedia sentences 3, 4"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Sorting stars by their light",
+    "text": "Stellar classification sorts stars by the features of their spectrum. To get a spectrum, astronomers split a star's light with a prism or a diffraction grating into a rainbow of colors crossed by spectral lines. Each line points to a particular chemical element or molecule. How strong the line is shows how much of that element is present.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Temperature is the key",
+    "text": "Line strengths change mainly with the temperature of the photosphere, the star's surface, though in some cases a star really does hold more or less of an element. A star's spectral class is a short code that mostly sums up its ionization state, which gives an objective measure of that temperature. Most stars get one of seven letters, O, B, A, F, G, K or M, in order from hottest to coolest. A digit from 0 to 9 then splits each letter, with 0 the hottest, so A8 and A9 are followed by F0. The classic memory aid for the order is Oh, Be A Fine Girl/Guy: Kiss Me!",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     27,
+     32
+    ]
+   },
+   {
+    "heading": "Adding a size label",
+    "text": "The modern Morgan–Keenan, or MK, system adds a second label: a luminosity class written in Roman numerals. It rests on the width of certain absorption lines, which depends on how dense the star's atmosphere is. A giant has a far larger radius than a dwarf of similar mass, so the gravity and pressure at its surface are much lower and its lines are less broadened. The classes run from 0 or Ia+ for hypergiants, through I for supergiants and III for regular giants, to V for main-sequence stars.",
+    "cites": [
+     10,
+     11,
+     12,
+     18,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "The Sun's label",
+    "text": "Put the two labels together and the Sun becomes G2V: a main-sequence star whose surface is around 5,800 K. Main-sequence stars range from roughly 2,000 to 50,000 K at the surface, while newly formed white dwarfs can pass 100,000 K. Extra letters cover stars that do not fit the classic scheme: W, S and C. White dwarfs get the letter D, while brown dwarfs get L, T or Y.",
+    "cites": [
+     8,
+     9,
+     13,
+     25
+    ]
+   },
+   {
+    "heading": "Letters first, physics later",
+    "text": "Annie Jump Cannon built the one-dimensional Harvard system by reordering and simplifying Draper's alphabetical scheme. In the 1920s the Indian physicist Meghnad Saha worked out a theory of how atoms become ionized. The Harvard astronomer Cecilia Payne then showed that the O-B-A-F-G-K-M sequence is really a sequence in temperature. Because the letters came before that understanding, placing a star into a subtype such as B3 rests on largely subjective estimates of line strength. As a result, the subtypes are not evenly spaced.",
+    "cites": [
+     23,
+     33,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Star colors can mislead",
+    "text": "Stars are often described by color, but those labels reflect only the peak of each star's spectrum. In reality stars give off light across the whole spectrum. Since all the colors mixed together look white, the colors a human eye would actually see are far paler than the usual descriptions suggest.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-star-spectra",
+   "kind": "book",
+   "title": "The Spectra of Stars (and Brown Dwarfs) (Astronomy 2e, section 17.3)",
+   "by": "Andrew Fraknoi, David Morrison and Sidney Wolff, OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs",
+   "note": "A free textbook section on the OBAFGKM spectral classes, brown dwarfs and Annie Cannon's work.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+/* Deep space. The interface around the atlas is the night it floats in: its
+   surfaces never change with navigation. The territory you are in shows up only
+   as light (the current place, active navigation, focus rings, the primary
+   glow, a few hairlines), painted on the camera clock by useAtlasAtmosphere:
+   --atlas-hue carries the territory's hue and --atlas-tint how much of it the
+   accents take (0 at the world view, where accents are plain starlight).
+   The spatial canvas keeps its geometry, camera and per-territory spectra. */
+/* The check screen (checks/check.css) is portaled outside the shell and shares these tokens. */
+.studio-shell,.check-shell{
+ /* Surfaces: near-black indigo, layered by lightness. */
+ --atlas-shade:hsl(234 42% 3.5%);
+ --atlas-deep:hsl(233 38% 5.5%);
+ --atlas-chrome:hsl(232 34% 7%);
+ --atlas-sidebar:hsl(232 32% 7.5%);
+ --atlas-margin:hsl(231 30% 9.5%);
+ --atlas-panel:hsl(231 30% 8.5%);
+ --atlas-paper:hsl(230 28% 11%);
+ --atlas-raised:hsl(229 26% 13.5%);
+ --atlas-hover:hsl(228 26% 17%);
+ --atlas-selected:hsl(228 26% 20.5%);
+ --atlas-rule:hsl(229 26% 15%);
+ --atlas-border:hsl(228 22% 22%);
+ --atlas-border-strong:hsl(228 20% 31%);
+ --atlas-line:hsl(228 18% 42%);
+ /* Ink. */
+ --atlas-faint:hsl(226 15% 55%);
+ --atlas-muted:hsl(226 17% 66%);
+ --atlas-secondary:hsl(225 22% 77%);
+ --atlas-pale:hsl(224 30% 85%);
+ --atlas-highlight:hsl(224 40% 90%);
+ --atlas-text:hsl(224 36% 93%);
+ --atlas-bright:hsl(224 60% 97%);
+ --starlight:#b9c8ff;
+ /* Elevation: a hairline of light along top edges, real shadow beneath. */
+ --edge-light:inset 0 1px 0 rgb(214 224 255/.06);
+ --lift-1:0 1px 2px rgb(0 0 0/.45),0 6px 16px -8px rgb(0 0 0/.7);
+ --lift-2:0 2px 6px rgb(0 0 0/.4),0 28px 80px -20px rgb(0 0 0/.9);
+ --radius:8px;--radius-panel:12px;
+ --atlas-input:var(--atlas-deep);--atlas-button-ink:hsl(235 50% 9%);
+ --icon-knob:var(--atlas-chrome);
+ --atlas-serif:Georgia,'Times New Roman',serif;
+ background:var(--atlas-shade);
+}
+/* Light: starlight at the world view, the territory's own color inside it. Declared on the
+   shell and again on each surface useAtlasAtmosphere paints per camera frame, so a moving
+   camera restyles only those surfaces, never the map (keep this list in step with
+   ATMOSPHERE_SURFACES). */
+.studio-shell,.studio-shell :is(.shell-bar,.studio-sidebar,.location-bar,.atlas-next,.studio-mobile-nav),.check-shell{
+ --territory-light:hsl(var(--atlas-hue,226) 64% 70%);
+ --accent:color-mix(in oklab,var(--territory-light) calc(var(--atlas-tint,0) * 100%),var(--starlight));
+ --accent-strong:color-mix(in oklab,var(--accent) 62%,#fff);
+ --accent-soft:color-mix(in srgb,var(--accent) 13%,transparent);
+ --accent-line:color-mix(in srgb,var(--accent) 40%,transparent);
+ --accent-glow:color-mix(in srgb,var(--accent) 45%,transparent);
+ --atlas-accent:var(--accent-strong);
+ --atlas-button-top:color-mix(in oklab,var(--accent) 14%,#f7f9ff);
+ --atlas-button-bottom:color-mix(in oklab,var(--accent) 34%,#d3dbf7);
+ --atlas-button:var(--atlas-button-bottom);
+}
+.studio-shell :is(.shell-bar,.studio-sidebar,.location-bar,.atlas-next,.studio-mobile-nav,.app-menu-layer,.modal-backdrop,.notebook-workspace){color-scheme:dark;color:var(--atlas-text)}
+.studio-shell :focus-visible{outline:2px solid var(--accent-strong);outline-offset:3px}
+.studio-shell ::selection{background:color-mix(in srgb,var(--accent) 38%,transparent);color:var(--atlas-bright)}
+
+/* Top bar: the top edge of the night, lifted off the map with a hairline of territory light. */
+.studio-shell .shell-bar{position:relative;background:linear-gradient(180deg,hsl(232 32% 9%),hsl(232 34% 7%));border-color:var(--atlas-rule);box-shadow:var(--edge-light),0 1px 0 rgb(0 0 0/.55)}
+.studio-shell .shell-bar::after{content:'';position:absolute;pointer-events:none;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent 6%,var(--accent-line) 50%,transparent 94%)}
+.studio-shell .brand{color:var(--atlas-text);font-family:var(--atlas-serif);font-weight:400;letter-spacing:.05px}
+.studio-shell .brand-mark{filter:none}
+.studio-shell .brand-mark i{background:linear-gradient(135deg,color-mix(in srgb,var(--starlight) 24%,transparent),transparent 70%);border-color:color-mix(in srgb,var(--starlight) 62%,transparent)}
+.studio-shell .brand-mark i:nth-child(2){opacity:.45}
+.studio-shell .brand-mark i:nth-child(3){background:var(--accent-strong);border-color:var(--accent-strong)}
+
+/* Sidebar: plain night, with the active place raised and lit. */
+.studio-shell .studio-sidebar{background:linear-gradient(180deg,var(--atlas-chrome),var(--atlas-deep));border-color:var(--atlas-rule);scrollbar-color:var(--atlas-rule) transparent}
+.studio-shell .studio-nav button{color:var(--atlas-secondary);border-radius:var(--radius);font-size:13px;transition:background .15s,color .15s}
+.studio-shell .studio-nav button svg{color:var(--atlas-muted)}
+.studio-shell .studio-nav button:hover{background:var(--atlas-raised);color:var(--atlas-text)}
+.studio-shell .studio-nav button[aria-current=page]{background:linear-gradient(180deg,var(--atlas-hover),var(--atlas-raised));color:var(--atlas-bright);box-shadow:var(--edge-light),0 0 0 1px var(--atlas-border),var(--lift-1);font-weight:500}
+.studio-shell .studio-nav button[aria-current=page] svg{color:var(--accent-strong)}
+.studio-shell .studio-nav small{color:var(--atlas-muted);font-variant-numeric:tabular-nums}
+.studio-shell .studio-section-label{color:var(--atlas-faint);letter-spacing:1.2px;font-weight:600}
+.studio-shell .studio-territories button{color:var(--atlas-secondary);border-radius:var(--radius);font-size:13px;transition:background .15s,color .15s}
+.studio-shell .studio-territories button:hover{background:var(--atlas-raised);color:var(--atlas-text)}
+.studio-shell .studio-territories button[aria-current=location]{background:color-mix(in srgb,var(--accent) 10%,var(--atlas-raised));color:var(--atlas-bright);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 24%,transparent)}
+.studio-shell .studio-territories i{width:7px;height:7px}
+.studio-shell .studio-territories button[aria-current=location] i{box-shadow:0 0 0 3px var(--accent-soft),0 0 10px var(--accent-glow)}
+.studio-shell .studio-territories small{color:var(--atlas-muted)}
+
+/* Location: where you are, said plainly; the current place carries the territory's light. */
+.studio-shell .location-bar{background:linear-gradient(180deg,var(--atlas-chrome),hsl(232 34% 6.5%));border-color:var(--atlas-rule)}
+.studio-shell .location-back{color:var(--atlas-secondary);border-radius:var(--radius)}
+.studio-shell .location-back:hover:not(:disabled){color:var(--atlas-bright);background:var(--atlas-raised)}
+.studio-shell .location-current{color:var(--atlas-bright);border-color:transparent}
+
+/* The guide's status and symbol, inside the conversation and discovery sheets. */
+.studio-shell .guide-availability{color:var(--atlas-muted)}
+.studio-shell .guide-availability i{background:var(--atlas-faint)}
+.studio-shell .guide-availability.is-connected i{background:#7ed6ac;box-shadow:0 0 6px rgb(126 214 172/.55)}
+.studio-shell .discovery-subject i{box-shadow:0 0 8px var(--discovery-color,transparent)}
+.studio-shell .guide-symbol{color:var(--accent-strong)}
+.studio-shell .studio-mobile-nav{background:linear-gradient(180deg,var(--atlas-chrome),var(--atlas-deep));border-color:var(--atlas-rule);box-shadow:var(--edge-light),0 -10px 30px -16px rgb(0 0 0/.9)}
+.studio-shell .studio-mobile-nav button{color:var(--atlas-muted);position:relative}
+.studio-shell .studio-mobile-nav button[aria-current=page]{color:var(--atlas-bright)}
+.studio-shell .studio-mobile-nav button[aria-current=page] svg{color:var(--accent-strong)}
+.studio-shell .studio-mobile-nav button[aria-current=page]::before{content:'';position:absolute;top:-1px;left:22%;right:22%;height:2px;border-radius:0 0 2px 2px;background:var(--accent);box-shadow:0 0 12px var(--accent-glow)}
+
+/* Controls. Primary actions are lit: a starlit face that takes on the territory's
+   light, a top highlight, a real shadow and a soft glow; they press down on touch. */
+.studio-shell .primary-button,
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .primary-button,
+.studio-shell :is(.notebook-primary,.capture-primary,.exp-primary,.recall-compare,.recall-primary){background:linear-gradient(180deg,var(--atlas-button-top),var(--atlas-button-bottom));border:1px solid color-mix(in oklab,var(--accent) 22%,#fff);color:var(--atlas-button-ink);border-radius:var(--radius);font-weight:600;text-shadow:none;box-shadow:inset 0 1px 0 rgb(255 255 255/.8),inset 0 -1px 0 rgb(10 14 40/.2),0 1px 2px rgb(0 0 0/.6),0 8px 24px -10px var(--accent-glow);transition:transform .16s ease,box-shadow .2s ease,filter .2s ease}
+.studio-shell .primary-button:hover:not(:disabled),
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .primary-button:hover:not(:disabled),
+.studio-shell :is(.notebook-primary,.capture-primary,.exp-primary,.recall-compare,.recall-primary):hover:not(:disabled){background:linear-gradient(180deg,var(--atlas-button-top),var(--atlas-button-bottom));border-color:color-mix(in oklab,var(--accent) 22%,#fff);color:var(--atlas-button-ink);filter:brightness(1.05);transform:translateY(-1px);box-shadow:inset 0 1px 0 rgb(255 255 255/.85),inset 0 -1px 0 rgb(10 14 40/.2),0 2px 4px rgb(0 0 0/.55),0 12px 30px -10px var(--accent-glow),0 0 0 4px var(--accent-soft)}
+.studio-shell .primary-button:active:not(:disabled),
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .primary-button:active:not(:disabled),
+.studio-shell :is(.notebook-primary,.capture-primary,.exp-primary,.recall-compare,.recall-primary):active:not(:disabled){transform:translateY(0);filter:brightness(.97);box-shadow:inset 0 1px 2px rgb(10 14 40/.25),0 1px 2px rgb(0 0 0/.5),0 4px 14px -8px var(--accent-glow)}
+.studio-shell .primary-button:disabled,
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .primary-button:disabled{filter:saturate(.4) brightness(.7);box-shadow:none}
+.studio-shell .secondary-button,
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .secondary-button,
+.studio-shell :is(.notebook-secondary,.capture-secondary,.exp-secondary,.recall-secondary){background:linear-gradient(180deg,var(--atlas-hover),var(--atlas-raised));border:1px solid var(--atlas-border);color:var(--atlas-highlight);border-radius:var(--radius);box-shadow:var(--edge-light),0 1px 2px rgb(0 0 0/.45);transition:border-color .15s,background .15s}
+.studio-shell .secondary-button:hover:not(:disabled),
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .secondary-button:hover:not(:disabled),
+.studio-shell :is(.notebook-secondary,.capture-secondary,.exp-secondary,.recall-secondary):hover:not(:disabled){background:linear-gradient(180deg,var(--atlas-selected),var(--atlas-hover));border-color:var(--accent-line);color:var(--atlas-bright)}
+.studio-shell .text-button,
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .text-button{color:var(--atlas-secondary)}
+.studio-shell .text-button:hover:not(:disabled),
+.studio-shell :is(.modal-backdrop,.notebook-workspace,.mock-leaf) .text-button:hover:not(:disabled){color:var(--accent-strong)}
+.studio-shell .modal-backdrop .icon-button{color:var(--atlas-secondary);border-radius:var(--radius)}
+.studio-shell .modal-backdrop .icon-button:hover{background:var(--atlas-hover);color:var(--atlas-text)}
+
+/* Open sheets float above the night: layered surface, top light, deep shadow. */
+.studio-shell .modal-backdrop{background:rgb(2 3 9/.74);backdrop-filter:blur(8px) saturate(.9)}
+.studio-shell :is(.settings-dialog,.search-dialog){position:relative;background:linear-gradient(180deg,var(--atlas-raised),var(--atlas-paper) 180px);border:1px solid var(--atlas-border);border-radius:var(--radius-panel);box-shadow:var(--edge-light),var(--lift-2);color:var(--atlas-text)}
+.studio-shell :is(.settings-dialog,.search-dialog)::before{content:'';position:absolute;left:12%;right:12%;top:-1px;height:1px;background:linear-gradient(90deg,transparent,var(--accent-line),transparent);pointer-events:none}
+.studio-shell .modal-heading h2{font-family:var(--atlas-serif);font-weight:400;color:var(--atlas-text);letter-spacing:-.4px}
+.studio-shell .modal-backdrop :is(p,small){color:var(--atlas-muted)}
+.studio-shell .modal-backdrop :is(h3,h4,strong,dt){color:var(--atlas-text)}
+.studio-shell .settings-dialog>p{color:var(--atlas-secondary)}
+.studio-shell .settings-dialog :is(details,.subject-ledger,.subject-ledger button){border-color:var(--atlas-rule)}
+.studio-shell .settings-dialog summary{color:var(--atlas-secondary)}
+.studio-shell .settings-dialog :is(textarea,input:not([type=radio]):not([type=checkbox]):not([type=range]),select),
+.studio-shell .capture-dialog :is(.capture-input,.capture-textarea),.studio-shell .capture-dialog textarea.capture-title{background:var(--atlas-input);color:var(--atlas-highlight);border-color:var(--atlas-border);border-radius:var(--radius);caret-color:var(--atlas-pale)}
+.studio-shell .modal-backdrop ::placeholder,.studio-shell .notebook-workspace ::placeholder{color:var(--atlas-faint);opacity:1}
+.studio-shell .modal-backdrop input:is([type=radio],[type=checkbox]){accent-color:var(--accent)}
+.studio-shell .settings-dialog p.fine-print{color:var(--atlas-muted)}
+.studio-shell .search-input{background:var(--atlas-sidebar);color:var(--atlas-muted);border-color:var(--atlas-border);border-radius:var(--radius)}
+.studio-shell .search-input input{background:transparent!important;border:0!important;color:var(--atlas-highlight)}
+.studio-shell .search-dialog .eyebrow{color:var(--atlas-muted)}
+.studio-shell .search-results button{border-color:var(--atlas-selected);color:var(--atlas-pale)}
+.studio-shell .search-results button:hover{background:var(--atlas-hover)}
+.studio-shell .search-results small,.studio-shell .search-results button>span:last-child{color:var(--atlas-muted)}
+.studio-shell .subject-ledger button{color:var(--atlas-pale)}
+.studio-shell .subject-ledger small{color:var(--atlas-muted)}
+.studio-shell .studio-settings-notebook{background:var(--atlas-raised);border-color:var(--atlas-rule);border-radius:var(--radius)}
+.studio-shell .studio-settings-notebook h3{color:var(--atlas-highlight)}
+.studio-shell .studio-settings-notebook p{color:var(--atlas-muted)}
+.studio-shell .studio-settings-learning,.studio-shell .learning-sketch-link{border-color:var(--atlas-rule)}
+.studio-shell .learning-sketch-link{color:var(--atlas-secondary)}
+.studio-shell .topic-intro-badge{background:var(--atlas-hover);border-color:var(--atlas-border);color:var(--atlas-pale)}
+.studio-shell :is(.topic-intro-caption,.topic-intro-note,.topic-intro-reflection p){color:var(--atlas-muted)}
+.studio-shell :is(.topic-intro-tabs,.topic-intro-footer,.topic-intro-related,.topic-intro-idea){border-color:var(--atlas-rule)}
+.studio-shell .topic-intro-tab{color:var(--atlas-muted)}
+.studio-shell .topic-intro-tab.is-active{color:var(--atlas-bright);border-color:var(--accent)}
+.studio-shell :is(.topic-intro-overview,.topic-intro-prompt){color:var(--atlas-pale)}
+.studio-shell .topic-intro-idea dt{color:var(--atlas-pale)}
+.studio-shell .topic-intro-idea dd{color:var(--atlas-muted)}
+.studio-shell :is(.topic-intro-example-label,.topic-intro-related-label){color:var(--atlas-secondary)}
+.studio-shell .topic-intro-child{border-color:var(--atlas-rule);color:var(--atlas-pale)}
+.studio-shell .topic-intro-child:hover{background:var(--atlas-hover);color:var(--atlas-highlight)}
+.studio-shell .topic-intro-back{color:var(--atlas-secondary)}
+.studio-shell .toast{background:linear-gradient(180deg,var(--atlas-hover),var(--atlas-raised));color:var(--atlas-bright);border:1px solid var(--accent-line);border-radius:var(--radius);box-shadow:var(--edge-light),var(--lift-2),0 0 24px -8px var(--accent-glow)}
+.studio-shell .save-warning{background:#251f12;color:#efd9a6;border:1px solid #6b5627;border-radius:var(--radius);box-shadow:var(--lift-1)}
+
+/* Discoveries, conversation, memory, and the economics sheet. */
+.studio-shell .modal-backdrop .guide-context-note{color:var(--atlas-muted)!important}
+.studio-shell .modal-backdrop .memory-explainer p{color:var(--atlas-muted)!important}
+.studio-shell .modal-backdrop .discovery-subject{color:var(--atlas-muted)}
+.studio-shell .journey-overview strong{font-family:var(--atlas-serif);color:var(--atlas-highlight)}
+.studio-shell .journey-overview strong span,.studio-shell .journey-overview small{color:var(--atlas-muted)}
+.studio-shell .journey-overview p{color:var(--atlas-secondary);font-family:var(--atlas-serif);font-style:italic}
+.studio-shell .guide-tabs{border-color:var(--atlas-rule)}
+.studio-shell .guide-tabs button{color:var(--atlas-muted)}
+.studio-shell .guide-tabs button[aria-pressed=true]{color:var(--atlas-bright);border-color:var(--accent)}
+.studio-shell .discovery-grid article{background:linear-gradient(140deg,color-mix(in srgb,var(--atlas-raised) 50.2%,transparent),color-mix(in srgb,var(--atlas-panel) 50.2%,transparent));border-color:var(--atlas-rule);border-radius:var(--radius);box-shadow:inset 0 0 0 3px color-mix(in srgb,var(--atlas-panel) 15.7%,transparent)}
+.studio-shell .discovery-grid h3{font-family:var(--atlas-serif);font-weight:400;color:var(--atlas-highlight);letter-spacing:-.2px}
+.studio-shell .discovery-grid article>p{color:var(--atlas-secondary)}
+.studio-shell .discovery-grid article>small{color:var(--atlas-muted)}
+.studio-shell .learning-evidence article{border-color:var(--atlas-rule)}
+.studio-shell .learning-evidence strong{color:var(--atlas-highlight)}
+.studio-shell .learning-evidence p{color:var(--atlas-secondary)}
+.studio-shell .learning-evidence :is(small,time){color:var(--atlas-faint)}
+.studio-shell .guide-conversation-context{border-color:var(--atlas-rule)}
+.studio-shell .guide-conversation-context>span:nth-child(2){color:var(--atlas-muted)}
+.studio-shell .guide-welcome h3{color:var(--atlas-highlight);font-family:var(--atlas-serif);font-weight:400;letter-spacing:-.3px}
+.studio-shell .guide-welcome p{color:var(--atlas-muted)}
+.studio-shell .guide-suggestions button{background:var(--atlas-raised);border-color:var(--atlas-rule);color:var(--atlas-pale);border-radius:var(--radius)}
+.studio-shell .guide-suggestions button:hover{background:var(--atlas-hover);border-color:var(--atlas-line)}
+.studio-shell .guide-message.user{background:var(--atlas-hover);border-radius:var(--radius);border-left:1px solid var(--atlas-line)}
+.studio-shell .guide-message>small{color:var(--atlas-muted)}
+.studio-shell .guide-message>p{color:var(--atlas-highlight)}
+.studio-shell .guide-sources a{color:var(--atlas-secondary);border-color:var(--atlas-border);background:var(--atlas-raised)}
+.studio-shell .guide-reply-meta{color:var(--atlas-muted)}
+.studio-shell .guide-thinking{color:var(--atlas-secondary)}
+.studio-shell .guide-thinking>span{background:var(--atlas-secondary)}
+.studio-shell .guide-composer{background:var(--atlas-sidebar);border-color:var(--atlas-border);border-radius:var(--radius)}
+.studio-shell .settings-dialog .guide-composer textarea{background:transparent;border:0;color:var(--atlas-highlight);flex:1;min-width:0}
+.studio-shell .guide-composer .primary-button{width:auto;flex:0 0 auto}
+.studio-shell .guide-offline{background:var(--atlas-raised);border-color:var(--atlas-border);border-radius:var(--radius)}
+.studio-shell .guide-offline strong{color:var(--atlas-pale)}
+.studio-shell .guide-offline p{color:var(--atlas-muted)}
+.studio-shell .guide-error{color:#dfb59b!important}
+.studio-shell .guide-next-ideas{border-color:var(--atlas-rule)}
+.studio-shell .guide-next-ideas p,.studio-shell .guide-next-ideas small,.studio-shell .guide-next-ideas p>span{color:var(--atlas-muted)}
+.studio-shell .guide-next-ideas button{background:var(--atlas-raised);border-color:var(--atlas-rule);color:var(--atlas-pale)}
+.studio-shell .guide-next-ideas button:hover{background:var(--atlas-hover);color:var(--atlas-highlight)}
+.studio-shell .learner-memory :is(label,legend),.studio-shell .economics-inputs label{color:var(--atlas-secondary)}
+.studio-shell .interest-choices button{background:var(--atlas-paper);border-color:var(--atlas-border);color:var(--atlas-secondary);border-radius:var(--radius)}
+.studio-shell .interest-choices button[aria-pressed=true]{background:var(--atlas-selected);border-color:var(--atlas-faint);color:var(--atlas-highlight)}
+.studio-shell .memory-explainer{border-color:var(--atlas-rule)}
+.studio-shell .memory-explainer h3,.studio-shell .guide-economics h3{color:var(--atlas-highlight);font-family:var(--atlas-serif);font-weight:400}
+.studio-shell .memory-status{color:var(--atlas-secondary)}
+.studio-shell .budget-reading{background:linear-gradient(125deg,var(--atlas-hover),var(--atlas-raised));border:1px solid var(--atlas-border);border-radius:var(--radius)}
+.studio-shell .budget-reading>span{color:var(--atlas-muted)}
+.studio-shell .budget-reading>strong{color:var(--atlas-highlight);font-family:var(--atlas-serif)}
+.studio-shell .budget-reading>strong>small{color:var(--atlas-muted)}
+.studio-shell .budget-reading p{color:var(--atlas-secondary)}
+.studio-shell .budget-track{background:var(--atlas-margin)}
+.studio-shell .budget-track i{background:var(--accent);box-shadow:0 0 8px var(--accent-glow)}
+.studio-shell .economics-results{border-color:var(--atlas-rule)}
+.studio-shell .economics-results small{color:var(--atlas-muted)}
+.studio-shell .economics-results strong{color:var(--atlas-pale);font-family:var(--atlas-serif)}
+.studio-shell .economics-results .cost-negative{color:#e0aa92}
+
+/* The notebook reads as a field journal bound into the same atlas. */
+.studio-shell .studio-main>.notebook-workspace{background:linear-gradient(110deg,var(--atlas-paper),var(--atlas-panel));scrollbar-color:var(--atlas-rule) transparent}
+.studio-shell .notebook-workspace [data-workspace=notebook]{color:var(--atlas-text)}
+.studio-shell :is(.notebook-header h1,.notebook-empty h2,.notebook-entry-title){color:var(--atlas-highlight);font-family:var(--atlas-serif);font-weight:400;letter-spacing:-.35px}
+.studio-shell :is(.notebook-kicker,.notebook-subtitle,.notebook-summary,.notebook-footnote){color:var(--atlas-muted)}
+.studio-shell :is(.notebook-toolbar,.notebook-entry){border-color:var(--atlas-rule)}
+.studio-shell .notebook-search{background:var(--atlas-sidebar);border-color:var(--atlas-rule);color:var(--atlas-muted);border-radius:var(--radius)}
+.studio-shell .notebook-search input{color:var(--atlas-highlight)}
+.studio-shell .notebook-filter{color:var(--atlas-muted)}
+.studio-shell .notebook-filter span{color:var(--atlas-muted)}
+.studio-shell .notebook-filter.is-active{background:var(--atlas-hover);color:var(--atlas-highlight)}
+.studio-shell :is(.notebook-file-actions button,.notebook-text-button,.notebook-edit){color:var(--atlas-secondary)}
+.studio-shell .notebook-group>h2{color:var(--atlas-secondary)}
+.studio-shell .notebook-group>h2 span{color:var(--atlas-muted)}
+.studio-shell .notebook-list{background:var(--atlas-raised);border-color:var(--atlas-rule);border-radius:var(--radius)}
+.studio-shell .notebook-entry-meta{color:var(--atlas-muted)}
+.studio-shell .notebook-kind{color:var(--atlas-secondary)}
+.studio-shell .notebook-kind.is-question{color:var(--atlas-secondary)}
+.studio-shell .notebook-entry-title button{color:var(--atlas-highlight);font-family:var(--atlas-serif);font-weight:400}
+.studio-shell .notebook-excerpt{color:var(--atlas-secondary)}
+.studio-shell .notebook-topic{background:var(--atlas-hover);color:var(--atlas-pale);border-radius:var(--radius)}
+.studio-shell .notebook-source{color:var(--atlas-muted)}
+.studio-shell .notebook-source:hover{color:var(--atlas-highlight)}
+.studio-shell .notebook-empty{background:repeating-linear-gradient(0deg,transparent 0 31px,color-mix(in srgb,var(--atlas-secondary) 2.4%,transparent) 31px 32px),color-mix(in srgb,var(--atlas-paper) 40.0%,transparent);border-color:var(--atlas-border);border-radius:var(--radius)}
+.studio-shell .notebook-empty-mark{color:var(--atlas-muted)}
+.studio-shell .notebook-empty>p:not(.notebook-kicker){color:var(--atlas-muted)}
+.studio-shell :is(.notebook-notice,.capture-notice){background:#251f12;border-color:#6b5627;color:#efd9a6}
+.studio-shell .capture-dialog>.modal-heading h2{color:var(--atlas-muted);font-family:inherit}
+.studio-shell .capture-header h2{color:var(--atlas-highlight);font-family:var(--atlas-serif);font-weight:400}
+.studio-shell .capture-header>p{color:var(--atlas-muted)}
+.studio-shell .capture-kind-switch{background:var(--atlas-margin);border:1px solid var(--atlas-rule);border-radius:var(--radius)}
+.studio-shell .capture-kind{color:var(--atlas-muted)}
+.studio-shell .capture-kind.is-active{background:linear-gradient(180deg,var(--atlas-selected),var(--atlas-hover));color:var(--atlas-bright);box-shadow:var(--edge-light),0 1px 2px rgb(0 0 0/.4)}
+.studio-shell .capture-label{color:var(--atlas-secondary)}
+.studio-shell .capture-label span,.studio-shell .capture-hint{color:var(--atlas-muted)}
+.studio-shell :is(.capture-topic-chip,.capture-add-topic){background:var(--atlas-hover);color:var(--atlas-pale);border-color:var(--atlas-border-strong);border-radius:var(--radius)}
+.studio-shell .capture-topic-chip>span{color:var(--atlas-secondary)}
+.studio-shell .capture-topic-picker{background:var(--atlas-paper);border-color:var(--atlas-rule);border-radius:var(--radius)}
+.studio-shell .capture-topic-search>span{color:var(--atlas-muted)}
+.studio-shell .capture-topic-option{color:var(--atlas-secondary)}
+.studio-shell .capture-topic-option:hover{background:var(--atlas-hover)}
+.studio-shell .capture-topic-option strong{color:var(--atlas-pale)}
+.studio-shell .capture-topic-option small{color:var(--atlas-faint)}
+.studio-shell .capture-source,.studio-shell .capture-footer{border-color:var(--atlas-rule)}
+.studio-shell .capture-source summary{color:var(--atlas-secondary)}
+.studio-shell .capture-source summary>span{color:var(--atlas-muted)}
+.studio-shell .capture-evidence-option{background:var(--atlas-paper);border-color:var(--atlas-rule);border-radius:var(--radius)}
+.studio-shell .capture-evidence-option.is-active{background:var(--atlas-hover);border-color:var(--atlas-faint)}
+.studio-shell .capture-evidence-option strong{color:var(--atlas-secondary)}
+.studio-shell .capture-evidence-option small{color:var(--atlas-muted)}
+.studio-shell .capture-danger{background:#8c5545;color:#fff0df}
+.studio-shell .capture-delete,.studio-shell .capture-delete-confirm>span{color:#d5ae99}
+.studio-shell .notebook-revisit{background:var(--atlas-hover);border-color:var(--atlas-border-strong);color:var(--atlas-pale)}
+.studio-shell .notebook-revisit:hover{background:var(--atlas-selected);color:var(--atlas-highlight)}
+.studio-shell .recall-header h2{color:var(--atlas-text);font-family:var(--atlas-serif);font-weight:400}
+.studio-shell :is(.recall-kicker,.recall-header>p:last-child,.recall-subject>span,.recall-hint,.recall-footer>p){color:var(--atlas-muted)}
+.studio-shell .recall-subject{border-color:var(--atlas-rule);color:var(--atlas-secondary)}
+.studio-shell .recall-subject h3{color:var(--atlas-text);font-family:var(--atlas-serif);font-weight:400}
+.studio-shell .recall-field{color:var(--atlas-secondary)}
+.studio-shell .capture-dialog .recall-textarea{background:var(--atlas-input);border-color:var(--atlas-border);color:var(--atlas-highlight);caret-color:var(--atlas-pale)}
+.studio-shell :is(.recall-compare,.recall-primary){background:var(--atlas-button);color:var(--atlas-button-ink)}
+.studio-shell :is(.recall-compare,.recall-primary):hover:not(:disabled){background:var(--atlas-highlight)}
+.studio-shell .recall-secondary{background:var(--atlas-hover);color:var(--atlas-pale)}
+.studio-shell .recall-secondary:hover{background:var(--atlas-selected)}
+.studio-shell .recall-original{background:var(--atlas-raised);border-color:var(--atlas-border-strong);color:var(--atlas-pale)}
+.studio-shell .recall-original h3{color:var(--atlas-text)}
+.studio-shell :is(.recall-original-body,.recall-prompt,.recall-original-empty){color:var(--atlas-secondary)}
+.studio-shell .recall-source{color:var(--atlas-secondary)}
+.studio-shell .recall-notice{color:#dfb59b}
+.studio-shell .recall-footer{border-color:var(--atlas-rule)}
+
+/* Learning diagrams remain interactive; their ink belongs to the open sheet. */
+.studio-shell .learning-expedition{--exp-ink:var(--atlas-highlight);--exp-muted:var(--atlas-muted);--exp-line:var(--atlas-rule);--exp-blue:var(--atlas-secondary);color:var(--exp-ink)}
+.studio-shell .learning-expedition h2{font-family:var(--atlas-serif);font-weight:400;color:var(--atlas-text);letter-spacing:-.4px}
+.studio-shell :is(.exp-meta,.exp-kicker,.exp-subject){color:var(--atlas-secondary)}
+.studio-shell .exp-route li{color:var(--atlas-muted)}
+.studio-shell .exp-route li:not(:last-child):after{background:var(--atlas-rule)}
+.studio-shell .exp-route i{border-color:var(--atlas-line)}
+.studio-shell .exp-route li.is-current{color:var(--atlas-pale)}
+.studio-shell .exp-route .is-current i{border-color:var(--atlas-secondary);background:var(--atlas-secondary);box-shadow:0 0 0 4px color-mix(in srgb,var(--atlas-faint) 7.8%,transparent)}
+.studio-shell .exp-route .is-past i{border-color:#8fba91;background:#8fba91}
+.studio-shell .exp-intro-summary{color:var(--atlas-secondary)}
+.studio-shell .exp-intro-art{background:linear-gradient(180deg,transparent,var(--atlas-panel));border-color:var(--atlas-rule);border-radius:var(--radius)}
+.studio-shell .exp-intro-art svg{fill:var(--atlas-muted)}
+.studio-shell .exp-intro-art .exp-art-path{stroke:var(--atlas-line)}
+.studio-shell .exp-intro-art .exp-art-halo{stroke:var(--atlas-faint)}
+.studio-shell .exp-intro-art span{color:var(--atlas-muted)}
+.studio-shell .exp-insight>span{color:var(--atlas-secondary)}
+.studio-shell .exp-insight p{color:var(--atlas-secondary)}
+.studio-shell .exp-actions>span{color:var(--atlas-muted)}
+.studio-shell .exp-challenge-eyebrow>span{color:var(--atlas-faint)}
+.studio-shell .exp-visual{background:repeating-linear-gradient(0deg,transparent 0 35px,color-mix(in srgb,var(--atlas-muted) 2.7%,transparent) 35px 36px),var(--atlas-panel);border-color:var(--atlas-border);border-radius:var(--radius)}
+.studio-shell .exp-visual-heading{color:var(--atlas-secondary)}
+.studio-shell .exp-visual-heading>span:last-child,.studio-shell .exp-visual p{color:var(--atlas-muted)}
+.studio-shell .exp-visual-toggle{color:var(--atlas-secondary)}
+.studio-shell .exp-pulse-tick{color:var(--atlas-muted)}
+.studio-shell .exp-pulse-tick i{background:var(--atlas-border-strong);box-shadow:0 0 0 5px color-mix(in srgb,var(--atlas-border-strong) 14.9%,transparent)}
+.studio-shell .exp-pulse-tick.is-beat{color:var(--atlas-pale)}
+.studio-shell .exp-pulse-tick.is-beat i{background:var(--atlas-muted);box-shadow:0 0 0 5px color-mix(in srgb,var(--atlas-faint) 11.0%,transparent)}
+.studio-shell .exp-pulse-tick.is-playing i{background:var(--atlas-pale);box-shadow:0 0 0 8px color-mix(in srgb,var(--atlas-secondary) 20.0%,transparent)}
+.studio-shell .exp-play{color:var(--atlas-pale);border-color:var(--atlas-rule)}
+.studio-shell .exp-play small{color:var(--atlas-muted)}
+.studio-shell .exp-fraction-whole.with-guides{border-color:var(--atlas-line)}
+.studio-shell .exp-fraction-parts span{background:var(--atlas-raised);border-color:var(--atlas-border-strong)}
+.studio-shell .exp-fraction-parts .is-filled{background:var(--atlas-faint);border-color:var(--atlas-muted)}
+.studio-shell .exp-fraction-label{color:var(--atlas-secondary)}
+.studio-shell .exp-motion svg text{fill:var(--atlas-muted)}
+.studio-shell .exp-chart-grid{stroke:var(--atlas-border)}
+.studio-shell .exp-chart-line{stroke:var(--atlas-secondary)}
+.studio-shell .exp-chart-dot{fill:var(--atlas-muted);stroke:var(--atlas-panel)}
+.studio-shell .exp-chart-active{fill:var(--atlas-pale);stroke:var(--atlas-panel)}
+.studio-shell .exp-sample-slider{border-color:var(--atlas-rule)}
+.studio-shell .exp-sample-slider>span{color:var(--atlas-muted)}
+.studio-shell .exp-sample-slider strong{color:var(--atlas-pale)}
+.studio-shell .exp-sample-slider input{accent-color:var(--atlas-muted)}
+.studio-shell .exp-sort-row>span{color:var(--atlas-secondary)}
+.studio-shell .exp-sort-row button{background:var(--atlas-hover);border-color:var(--atlas-border-strong);color:var(--atlas-pale)}
+.studio-shell .exp-sort-row .tone-1{background:hsl(calc(var(--atlas-hue,153) + 36) 25% 21%);border-color:hsl(calc(var(--atlas-hue,153) + 36) 24% 43%);color:hsl(calc(var(--atlas-hue,153) + 36) 28% 81%)}
+.studio-shell .exp-sort-row button.is-inspected{outline-color:var(--atlas-secondary)}
+.studio-shell .exp-relationship-piece>button{background:var(--atlas-hover);border-color:var(--atlas-border);color:var(--atlas-secondary)}
+.studio-shell .exp-relationship-piece>svg{color:var(--atlas-muted)}
+.studio-shell .exp-relationship-piece .is-inspected{border-color:var(--atlas-secondary);background:var(--atlas-selected);box-shadow:none}
+.studio-shell .exp-relationship-piece i{background:var(--atlas-faint)}
+.studio-shell .exp-relationship-piece strong{color:var(--atlas-pale)}
+.studio-shell .exp-relationship.has-bars .exp-relationship-piece .is-inspected{border-color:var(--atlas-line);background:var(--atlas-hover)}
+.studio-shell .exp-choice{background:var(--atlas-paper);border-color:var(--atlas-border);color:var(--atlas-pale);border-radius:var(--radius)}
+.studio-shell .exp-choice-letter{background:var(--atlas-hover);color:var(--atlas-muted)}
+.studio-shell .exp-choice>i{border-color:var(--atlas-line)}
+.studio-shell .exp-choice.is-selected{background:var(--atlas-selected);border-color:var(--atlas-muted);color:var(--atlas-highlight)}
+.studio-shell .exp-choice.is-selected>i{background:var(--atlas-paper);border-color:var(--atlas-secondary)}
+.studio-shell .exp-choice.is-selected .exp-choice-letter{background:var(--atlas-border);color:var(--atlas-highlight)}
+.studio-shell .exp-choice.is-correct{border-color:#8fb684;background:#294b2e}
+.studio-shell .exp-choice.is-correct>i{border-color:#b4d6a8}
+.studio-shell .exp-hint-button,.studio-shell .exp-support-label{color:var(--atlas-muted)}
+.studio-shell .exp-hint-button>span{border-color:var(--atlas-border-strong);color:var(--atlas-secondary)}
+.studio-shell .exp-hints{background:linear-gradient(90deg,color-mix(in srgb,var(--atlas-hover) 50.2%,transparent),transparent);border-color:var(--atlas-faint)}
+.studio-shell .exp-hints p{color:var(--atlas-pale)}
+.studio-shell .exp-hints span{color:var(--atlas-muted)}
+.studio-shell .exp-feedback{background:#294731;border-color:#66845a;color:#c8debd}
+.studio-shell .exp-feedback.incorrect{background:#3a3e29;border-color:#8a8255;color:#dfd4ad}
+.studio-shell .exp-feedback strong,.studio-shell .exp-feedback p{color:inherit}
+.studio-shell .exp-coach{border-color:var(--atlas-rule)}
+.studio-shell .exp-coach-toggle{color:var(--atlas-secondary)}
+.studio-shell .exp-coach-toggle small,.studio-shell .exp-coach-toggle>span:last-child{color:var(--atlas-muted)}
+.studio-shell .exp-guide-symbol{background:var(--atlas-hover);color:var(--atlas-secondary)}
+.studio-shell .exp-coach-body label{color:var(--atlas-secondary)}
+.studio-shell .exp-coach-actions>span{color:var(--atlas-muted)}
+.studio-shell .exp-guide-wait{color:var(--atlas-secondary)}
+.studio-shell .exp-guide-wait i{background:var(--atlas-secondary);box-shadow:0 0 0 4px color-mix(in srgb,var(--atlas-muted) 12.2%,transparent)}
+.studio-shell .exp-guide-reply{border-color:var(--atlas-faint)}
+.studio-shell .exp-guide-reply>span{color:var(--atlas-muted)}
+.studio-shell .exp-guide-reply>p{color:var(--atlas-pale)}
+.studio-shell .exp-guide-reply>small{color:var(--atlas-secondary)}
+.studio-shell .exp-guide-sources a{color:var(--atlas-secondary)}
+.studio-shell .exp-error{background:#433b29;border-color:#8f7d54;color:#e4cfaa}
+.studio-shell .exp-complete>p:not(.exp-kicker){color:var(--atlas-secondary)}
+.studio-shell .exp-evidence-note{border-color:var(--atlas-border)}
+.studio-shell .exp-evidence-note>span{color:var(--atlas-secondary)}
+.studio-shell .exp-evidence-note>strong{color:#b1d2a6}
+.studio-shell .exp-fresh{color:var(--atlas-secondary)}
+.studio-shell .exp-complete>p.exp-fine{color:var(--atlas-muted)}
+.studio-shell .exp-connections{border-color:var(--atlas-rule)}
+.studio-shell .exp-connections>p{color:var(--atlas-secondary)}
+.studio-shell .exp-connections>button{color:var(--atlas-pale);border-color:var(--atlas-rule)}
+.studio-shell .exp-sources,.studio-shell .exp-sources article{border-color:var(--atlas-rule)}
+.studio-shell .exp-sources summary,.studio-shell .exp-sources summary:before,.studio-shell .exp-sources summary>span{color:var(--atlas-muted)}
+.studio-shell .exp-sources article>a,.studio-shell .exp-sources article>strong{color:var(--atlas-pale)}
+.studio-shell .exp-sources article>p{color:var(--atlas-muted)}
+.studio-shell .exp-return{color:var(--atlas-secondary)}
+.studio-shell .exp-coach-offline{background:var(--atlas-raised);border-color:var(--atlas-border);color:var(--atlas-secondary)}
+.studio-shell .exp-coach-offline strong{color:var(--atlas-pale)}
+.studio-shell .exp-coach-offline p{color:var(--atlas-muted)}
+@media(max-width:800px){.studio-shell .shell-bar::after{left:16px;right:16px}}
+@media(prefers-reduced-transparency:reduce){.studio-shell .modal-backdrop{backdrop-filter:none;background:color-mix(in srgb,var(--atlas-deep) 96.1%,transparent)}}
+
+/* Inset panels inside sheets sit a step below the sheet, so layers read at a glance. */
+.studio-shell :is(.learning-backup-panel,.studio-settings-notebook){background:rgb(3 5 14/.32);border:1px solid var(--atlas-rule);border-radius:10px;box-shadow:inset 0 1px 3px rgb(0 0 0/.35)}
+.studio-shell .settings-dialog :is(.subject-ledger button){transition:background .15s}
+.studio-shell .settings-dialog .subject-ledger button:hover{background:var(--atlas-raised)}
+.studio-shell .search-results button{border-radius:0}
+
+/* The map itself: deep-space land, lit at the edges, lifting toward the pointer.
+   Geometry, camera and every territory's spectrum are untouched; only paint changes. */
+.studio-shell .atlas-stage{background:var(--atlas-shade)}
+.studio-shell .map-background{fill:#070a14}
+.studio-shell .map-cell,.studio-shell .transition-cell{stroke:#04060d}
+.studio-shell .map-contours path{stroke:rgb(150 168 235/.11)}
+.studio-shell .region-title,.studio-shell .is-playable .region-title{fill:#e4e9ff;stroke:rgb(5 7 16/.72);stroke-width:3.5px}
+.studio-shell .region-caption{stroke:rgb(5 7 16/.85);stroke-width:3px;font-size:10px;font-weight:600;letter-spacing:1.6px}
+.studio-shell .is-hovered .region-title{fill:#fff}
+/* Generic captions (explore, a next discovery, N regions) appear only for the territory you point at. */
+.studio-shell .region-caption.is-hint{opacity:0;transition:opacity .2s ease}
+.studio-shell .is-hovered .region-caption.is-hint{opacity:1}
+.studio-shell .map-motif{opacity:.52;transition:opacity .2s ease}
+.studio-shell .is-hovered .map-motif{opacity:.95}
+.studio-shell .is-pointer-hover-enabled .map-cell[role=button]:not(.is-complete):hover,.studio-shell .map-cell[role=button]:not(.is-complete):focus{fill:#18203d}
+/* Earned land keeps its colour under the pointer and after a tap; it only brightens. */
+.studio-shell .is-pointer-hover-enabled .map-cell.is-complete[role=button]:hover,.studio-shell .map-cell.is-complete[role=button]:focus{filter:brightness(1.14)}
+.studio-shell .map-prototype .map-cell:focus-visible,.studio-shell .map-cell:focus-visible{stroke:var(--accent-strong)}
+.territory-rim{opacity:.66;transition:opacity .22s ease}
+@media(max-width:700px){.territory-rim .rim-0{stroke-width:20px}.territory-rim .rim-1{stroke-width:14px}.territory-rim .rim-2{stroke-width:9px}.territory-rim .rim-3{stroke-width:5px}.territory-rim .rim-4{stroke-width:2.5px}}
+.territory-rim.is-hovered{opacity:1}
+.territory-color-edges .is-hovered{stroke-width:5px}
+
+/* Color preview: a quiet swatch in the corner until it is switched on. */
+.studio-shell .spectrum-control{top:12px;right:12px;background:rgb(7 10 20/.72);border:1px solid var(--atlas-border);border-radius:999px;color:var(--atlas-pale);box-shadow:var(--edge-light),var(--lift-1);backdrop-filter:blur(8px)}
+.studio-shell .spectrum-control:not(.is-open) .spectrum-toggle{width:40px;min-height:40px;padding:0;justify-content:center}
+.studio-shell .spectrum-control:not(.is-open) .spectrum-toggle>span{display:none}
+.studio-shell .spectrum-control:not(.is-open):hover{border-color:var(--atlas-border-strong)}
+.studio-shell .spectrum-swatch{width:16px;height:16px;box-shadow:inset 0 0 0 1px rgb(255 255 255/.15),0 0 10px rgb(185 200 255/.25)}
+.studio-shell .spectrum-control.is-open{border-radius:22px}
+.studio-shell .spectrum-switch{background:var(--atlas-hover)}
+.studio-shell .spectrum-switch i{background:var(--atlas-muted)}
+.studio-shell .spectrum-toggle[aria-checked=true] .spectrum-switch{background:var(--accent-line)}
+.studio-shell .spectrum-toggle[aria-checked=true] .spectrum-switch i{background:var(--atlas-bright)}
+.studio-shell .spectrum-options{border-color:var(--atlas-border)}
+.studio-shell .spectrum-modes button{color:var(--atlas-muted);border-radius:999px}
+.studio-shell .spectrum-modes button[aria-pressed=true]{background:var(--atlas-hover);color:var(--atlas-bright)}
+@media(max-width:800px){.studio-shell .spectrum-control{top:10px;right:10px}}
+
+/* A single piece, opened: the night stays, the piece's own light gathers behind its name. */
+.studio-shell .mock-leaf{background:radial-gradient(ellipse 60% 45% at 50% 30%,color-mix(in srgb,var(--accent) 9%,transparent),transparent 70%),rgb(6 8 18/.93);color:var(--atlas-text)}
+.studio-shell .mock-content h1{color:var(--atlas-bright);font-family:var(--atlas-serif);font-weight:400;letter-spacing:-.6px}
+.studio-shell .mock-description{color:var(--atlas-secondary)}
+.studio-shell .mock-footnote,.studio-shell .mock-path{color:var(--atlas-faint)}
+.studio-shell .mock-content .eyebrow{color:var(--accent-strong)}
+.studio-shell .mock-content .eyebrow span{color:var(--atlas-muted);border-color:var(--atlas-border)}
+.studio-shell .mock-diagram{color:var(--accent)}
+.studio-shell .mock-content .text-button{color:var(--atlas-secondary)}
+.studio-shell .mock-content .text-button:hover{color:var(--accent-strong)}
+.studio-shell .learning-leaf-entry{background:linear-gradient(180deg,var(--atlas-raised),var(--atlas-paper));border:1px solid var(--atlas-border);border-radius:var(--radius-panel);box-shadow:var(--edge-light),var(--lift-1)}
+.studio-shell .learning-leaf-entry p{color:var(--atlas-secondary)}
+.studio-shell .leaf-capture-button{background:transparent;border:1px solid var(--atlas-border);border-radius:var(--radius);color:var(--atlas-highlight)}
+.studio-shell .leaf-capture-button:hover{border-color:var(--accent-line);background:var(--atlas-raised)}
+.studio-shell .leaf-capture-button svg{color:var(--accent-strong)}
+
+/* The world view is not a territory, so its place carries no territory light. */
+.studio-shell .is-world .atlas-current-light{display:none}
+
+@media(max-width:800px){.studio-shell .region-caption{font-size:8.5px}}
+/* Fields light their own frame on focus instead of drawing a second outline inside it. */
+.studio-shell :is(.search-input,.notebook-search,.guide-composer) :is(input,textarea):focus-visible{outline:none}
+.studio-shell :is(.search-input,.notebook-search,.guide-composer):focus-within{border-color:var(--accent-line);box-shadow:0 0 0 3px var(--accent-soft)}
+.studio-shell .modal-backdrop :is(textarea,input:not([type=radio]):not([type=checkbox]):not([type=range]):not([type=file])):focus-visible{outline:none;border-color:var(--accent-line);box-shadow:0 0 0 3px var(--accent-soft)}

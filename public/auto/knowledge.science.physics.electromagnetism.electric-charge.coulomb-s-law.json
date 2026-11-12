@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law",
+ "name": "Coulomb's law",
+ "summary": [
+  {
+   "text": "Coulomb's law describes the force between two electrically charged particles at rest, often called the electrostatic or Coulomb force.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The force acts along the line joining the charges, pushing them apart if their signs match and pulling them together if they differ.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "text": "It follows an inverse-square rule like Newton's gravity, but electric forces can push or pull and are much stronger than gravity.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First published",
+   "value": "1785, by French physicist Charles-Augustin de Coulomb",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Coulomb's instrument",
+   "value": "A torsion balance: a charged ball on a twisting fiber",
+   "cites": [
+    28,
+    31,
+    35
+   ]
+  },
+  {
+   "label": "Distance rule",
+   "value": "Force shrinks with the square of the distance",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Tested range",
+   "value": "From 10⁻¹⁶ metres up to 10⁸ metres",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Earlier hint",
+   "value": "Priestley conjectured an inverse-square law in 1767",
+   "cites": [
+    22,
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two charged balls repel each other. You move them twice as far apart. How does the push between them change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It falls to a quarter of what it was"
+    },
+    {
+     "id": "b",
+     "label": "It falls to half of what it was"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same, as charges are fixed"
+    },
+    {
+     "id": "d",
+     "label": "It doubles, since they have more room"
+    }
+   ],
+   "answer": "a",
+   "explain": "The force is inversely proportional to the square of the distance, so doubling the distance cuts it to a quarter.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law:q1"
+  },
+  {
+   "prompt": "You hold two balls that both carry a positive charge close together. What does the force between them do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It pulls them together, as with gravity"
+    },
+    {
+     "id": "b",
+     "label": "It pushes them apart along the line joining them"
+    },
+    {
+     "id": "c",
+     "label": "It pushes them sideways, at right angles to the line"
+    },
+    {
+     "id": "d",
+     "label": "It does nothing until one of them starts moving"
+    }
+   ],
+   "answer": "b",
+   "explain": "Same-sign charges repel, and the force lies along the straight line joining the two bodies.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law:q2"
+  },
+  {
+   "prompt": "Coulomb hung a charged ball from a thin fiber and brought a second charged ball near. How did he work out the force?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He weighed the balls before and after the test"
+    },
+    {
+     "id": "b",
+     "label": "He timed how fast the balls fell to the floor"
+    },
+    {
+     "id": "c",
+     "label": "He measured how far the fiber twisted"
+    },
+    {
+     "id": "d",
+     "label": "He counted the sparks jumping between the balls"
+    }
+   ],
+   "answer": "c",
+   "explain": "The twist angle, together with the known force needed to twist the fiber that far, gave the force between the balls.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law:q3"
+  },
+  {
+   "prompt": "A friend says electric forces and gravity are the same kind of rule, so electric forces must always pull. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Electric forces never act over a distance at all"
+    },
+    {
+     "id": "b",
+     "label": "Electric forces are far weaker, so they can be ignored"
+    },
+    {
+     "id": "c",
+     "label": "Electric forces only act on objects that are moving"
+    },
+    {
+     "id": "d",
+     "label": "Electric forces can also push, depending on the signs"
+    }
+   ],
+   "answer": "d",
+   "explain": "Both follow an inverse-square law, but gravity always attracts while electric forces repel or attract depending on the charges.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law:q4"
+  },
+  {
+   "prompt": "A small charged bead sits near three other fixed charges. How do you find the total force on the bead?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add up the three separate forces as vectors"
+    },
+    {
+     "id": "b",
+     "label": "Use only the force from the nearest charge"
+    },
+    {
+     "id": "c",
+     "label": "Average the three forces as plain numbers"
+    },
+    {
+     "id": "d",
+     "label": "Use the force from the largest charge alone"
+    }
+   ],
+   "answer": "a",
+   "explain": "Superposition says the net force is the vector sum of the forces each charge would exert alone.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law:q5"
+  },
+  {
+   "prompt": "Charge A pushes on charge B with a certain force. What does B do to A?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since only A is charged enough"
+    },
+    {
+     "id": "b",
+     "label": "It pushes on A with a weaker force"
+    },
+    {
+     "id": "c",
+     "label": "It pulls on A with an equal force"
+    },
+    {
+     "id": "d",
+     "label": "It pushes on A with an equal force the other way"
+    }
+   ],
+   "answer": "d",
+   "explain": "By Newton's third law the force on the second charge is the exact opposite of the force on the first.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/CoulombsLaw_scal.svg/960px-CoulombsLaw_scal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Coulomb's law",
+  "credit": "File:CoulombsLaw.svg: User:Dna-Dennis / *derivative work RJB1",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:CoulombsLaw_scal.svg"
+ },
+ "source": {
+  "title": "Coulomb's law",
+  "url": "https://en.wikipedia.org/wiki/Coulomb%27s_law",
+  "revision": 1382803616
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The force between charges",
+    "text": "Coulomb's law tells you how strong the force is between two electrically charged particles that are not moving. That force is usually called the electrostatic force, or the Coulomb force. The law was known before him, but the French physicist Charles-Augustin de Coulomb was the first to publish it, in 1785.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "How the rule works",
+    "text": "The force grows with the product of the two charges, q₁ and q₂, and shrinks with the square of the distance r between them. A constant of proportionality, which may be called the Coulomb constant, sets the scale and depends on the unit of charge you use. The force points along the straight line joining the two charges. Charges of the same sign push apart, and charges of opposite sign pull together.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     29
+    ]
+   },
+   {
+    "heading": "A cousin of gravity",
+    "text": "Because it is an inverse-square law, it looks like Newton's law of universal gravitation. But gravity only ever attracts, while electric forces can attract or repel, and gravity is much weaker. The law has been tested many times and holds over distances from 10⁻¹⁶ m to 10⁸ m.",
+    "cites": [
+     10,
+     11,
+     14
+    ]
+   },
+   {
+    "heading": "Amber and a new word",
+    "text": "People around the ancient Mediterranean knew that amber rubbed with cat's fur would pick up feathers and scraps of paper. Around 600 BC, Thales of Miletus left the earliest written account of static electricity. In 1600 William Gilbert studied electricity and magnetism closely. He coined the word electricus, meaning like amber, for the pull an object shows after rubbing. From it came the English words electric and electricity, first printed in 1646.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Guesses before Coulomb",
+    "text": "Others suspected an inverse-square rule earlier. Joseph Priestley, after experiments with charged spheres, guessed in 1767 that the force varied with the inverse square of the distance. In 1769 John Robison reported that the push between two like-charged spheres varied as x⁻².06. Henry Cavendish found how the force depends on both distance and charge in the early 1770s, but did not publish it.",
+    "cites": [
+     22,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "The twisting balance",
+    "text": "Coulomb measured the force with a torsion balance: a bar hung from its middle by a thin fiber that acts as a very weak twisting spring. His was an insulating rod with a metal-coated ball on one end, hung by a silk thread. He gave the ball a known charge and brought a second ball with the same kind of charge near it. The balls pushed apart and twisted the fiber, and he read the angle off a scale. Knowing how much force each amount of twist took, he worked out the force between the balls and arrived at his inverse-square law.",
+    "cites": [
+     28,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Many charges at once",
+    "text": "Coulomb then showed that the same law covers the pull between opposite charges. The law of superposition extends it to any number of point charges. The total force on one charge is just the vector sum of the forces each of the other charges would exert on it alone.",
+    "cites": [
+     30,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up2-5-4",
+   "kind": "book",
+   "title": "5.4: Coulomb's Law",
+   "by": "OpenStax, on LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields/5.04%3A_Coulomb's_Law",
+   "note": "A free university textbook section on Coulomb's law and adding up forces from many charges, with worked examples.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cp-18-3",
+   "kind": "book",
+   "title": "18.3: Coulomb's Law",
+   "by": "OpenStax, on LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/18%3A_Electric_Charge_and_Electric_Field/18.03%3A_Coulomb's_Law",
+   "note": "An algebra-level take on Coulomb's law that compares the electric pull in a hydrogen atom with gravity.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

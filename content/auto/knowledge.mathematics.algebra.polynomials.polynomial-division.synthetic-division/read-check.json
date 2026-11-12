@@ -1,0 +1,30 @@
+{
+ "readHash": "2cb383f917ad58d4b81af7ee9572bcc75fdb5f0e",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Manual Euclidean division with less writing [1], Ruffini's rule for monic linear, generalizable [2], x - a form [5]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "No variables, few calculations, less space [3]; sign switch turns subtractions into additions, preventing sign errors [4]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Numerator [6], drop and multiply steps [7],[8], remainder -123 and quotient coefficient order [9],[10]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Remainder theorem use [11],[12], just over half the multiplications [13], Horner's method [14]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Coefficients only, top row, diagonal with sign change, drop/multiply/repeat, degree-one remainder all from [15]-[22]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "No pre-reduction [27], divide after dropping before multiplying [28], extra row and unchanged sign [29],[30]."
+  }
+ }
+}

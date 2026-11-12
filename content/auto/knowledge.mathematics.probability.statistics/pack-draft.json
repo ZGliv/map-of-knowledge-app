@@ -1,0 +1,109 @@
+{
+ "title": "How a Few Speak for Many",
+ "question": "How can data from a few people tell us about everyone?",
+ "hook": "Nobody asks every resident, yet statistics still claims to know what a country thinks.",
+ "idea": "Statistics summarizes the data you collected, and random sampling lets conclusions reasonably carry from the sample to the whole population.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A city of 500,000 people wants to learn how residents feel about a new park, and cannot ask everyone. How should it pick whom to ask?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Pick people at random"
+    },
+    {
+     "id": "b",
+     "label": "Ask only people standing at the park gate",
+     "feedback": "Easy to do, but nothing assures that these people stand for everyone else."
+    },
+    {
+     "id": "c",
+     "label": "Ask only those who volunteer by email",
+     "feedback": "Volunteers are not a random draw, so their views may not extend to the whole city."
+    },
+    {
+     "id": "d",
+     "label": "Ask the first ten people you meet",
+     "feedback": "It is quick, but the choice is not random, so nothing assures the results extend to the city."
+    }
+   ],
+   "answer": "a",
+   "explain": "Random sampling assures that inferences and conclusions can reasonably extend from the sample to the population as a whole.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each activity into the kind of statistics it belongs to.",
+   "groups": [
+    "descriptive",
+    "inferential"
+   ],
+   "items": [
+    [
+     "Computing the mean of a sample",
+     "descriptive"
+    ],
+    [
+     "Stating a sample's standard deviation",
+     "descriptive"
+    ],
+    [
+     "Drawing conclusions from data subject to random variation",
+     "inferential"
+    ],
+    [
+     "Making statements about a population from a sample",
+     "inferential"
+    ]
+   ],
+   "explain": "Descriptive statistics summarize a sample using indexes such as the mean or standard deviation; inferential statistics draw conclusions from data subject to random variation.",
+   "cites": [
+    10,
+    26
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Random error",
+     "Noise"
+    ],
+    [
+     "Systematic error",
+     "Bias"
+    ],
+    [
+     "Type I error",
+     "False positive"
+    ]
+   ],
+   "explain": "Errors are classified as random (noise) or systematic (bias), and a Type I error rejects a true null hypothesis, giving a false positive.",
+   "cites": [
+    16,
+    19
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "We want to learn about everyone in a country.",
+    "We cannot collect data from every member.",
+    "So we survey a sample chosen at random.",
+    "Therefore the results describe only those surveyed and can never reasonably extend to the country."
+   ],
+   "wrong": 3,
+   "explain": "Random sampling assures that conclusions can reasonably extend from the sample to the population as a whole.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ]
+}

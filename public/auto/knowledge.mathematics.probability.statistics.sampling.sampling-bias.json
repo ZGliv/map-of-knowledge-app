@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.sampling.sampling-bias",
+ "name": "Sampling bias",
+ "summary": [
+  {
+   "text": "Sampling bias happens when a sample is collected so that some members of the intended population are more or less likely to be picked than others.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "If it is not accounted for, results can wrongly be credited to the thing being studied rather than to the way the sample was gathered.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Typical forms include surveys that leave out whole groups, polls where people choose themselves, and studies that look only at survivors.",
+   "cites": [
+    11,
+    18,
+    30
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core idea",
+   "value": "Some members have a lower or higher chance of being selected",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Medical name",
+   "value": "Medical sources sometimes call it ascertainment bias",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Self-selection",
+   "value": "Online and phone-in polls are biased because respondents choose themselves",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Zero chance",
+   "value": "Excluding a group entirely gives its members zero probability of selection",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A survey of teenage drug use is handed out only in high school classrooms. Why does it give a biased picture of all teenagers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Students always lie about drug use on surveys"
+    },
+    {
+     "id": "b",
+     "label": "Teens not enrolled in school never had a chance to be asked"
+    },
+    {
+     "id": "c",
+     "label": "Schools hold too many students to count properly"
+    },
+    {
+     "id": "d",
+     "label": "Teenagers change their habits once a survey arrives"
+    }
+   ],
+   "answer": "b",
+   "explain": "Home-schooled students and dropouts are left out, so some members of the population had no chance of being selected.",
+   "cites": [
+    11,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.sampling-bias:q1"
+  },
+  {
+   "prompt": "A reporter interviews people who walk past a downtown corner at noon about their health. Whose voices are likely overrepresented?",
+   "options": [
+    {
+     "id": "a",
+     "label": "People with chronic illness, who need the most attention"
+    },
+    {
+     "id": "b",
+     "label": "An even mix, since passers-by are effectively random"
+    },
+    {
+     "id": "c",
+     "label": "Only people who live on that exact block"
+    },
+    {
+     "id": "d",
+     "label": "Healthy people, who are more likely to be out of the house"
+    }
+   ],
+   "answer": "d",
+   "explain": "People who walk by are more likely to be healthy than those with a chronic illness, so the sample leans toward the healthy.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.sampling-bias:q2"
+  },
+  {
+   "prompt": "A website invites visitors to vote in a poll on a hot political issue. Who is most likely to take part?",
+   "options": [
+    {
+     "id": "a",
+     "label": "People with strong opinions, whose views then get extra weight"
+    },
+    {
+     "id": "b",
+     "label": "A fair cross-section, since anyone could click a button"
+    },
+    {
+     "id": "c",
+     "label": "Mostly people who feel indifferent about the issue"
+    },
+    {
+     "id": "d",
+     "label": "Only visitors the website picked at random"
+    }
+   ],
+   "answer": "a",
+   "explain": "Respondents choose themselves, and highly motivated people with strong opinions are overrepresented, which can give extreme views a disproportionate weight.",
+   "cites": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.sampling-bias:q3"
+  },
+  {
+   "prompt": "Someone judges how healthy the economy is by looking only at the companies that exist today. What is missing from that picture?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Companies that are about to be founded"
+    },
+    {
+     "id": "b",
+     "label": "The very largest firms, which are always excluded"
+    },
+    {
+     "id": "c",
+     "label": "The businesses that failed and no longer exist"
+    },
+    {
+     "id": "d",
+     "label": "The customers of the companies that survive"
+    }
+   ],
+   "answer": "c",
+   "explain": "Looking only at survivors ignores subjects that fell out of view, such as failed businesses.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.sampling-bias:q4"
+  },
+  {
+   "prompt": "A study of manual laborers' health is used to describe everyone's health. Why will it likely make people look healthier than they are?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Laborers report their own health less honestly than others"
+    },
+    {
+     "id": "b",
+     "label": "People in poor health are unlikely to hold manual labor jobs"
+    },
+    {
+     "id": "c",
+     "label": "Manual laborers are always older than the general population"
+    },
+    {
+     "id": "d",
+     "label": "Studies of workers include too few participants to judge"
+    }
+   ],
+   "answer": "b",
+   "explain": "The study population is likely healthier than the general population, because someone in poor health is unlikely to work as a manual laborer.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.sampling-bias:q5"
+  },
+  {
+   "prompt": "In a hospital's records, patients without diabetes more often have some other disease. Why can this pattern be misleading about people in general?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every patient had some reason to be admitted, which creates the pattern"
+    },
+    {
+     "id": "b",
+     "label": "Diabetes protects people against most other diseases"
+    },
+    {
+     "id": "c",
+     "label": "Hospitals only record diseases that are rare"
+    },
+    {
+     "id": "d",
+     "label": "Hospital patients are healthier than the general population"
+    }
+   ],
+   "answer": "a",
+   "explain": "A hospital sample is less healthy than the general population, and a patient without diabetes must have had some other reason to be there, giving a spurious negative link between diseases.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.sampling-bias:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Survey-survey.svg/960px-Survey-survey.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Sampling bias",
+  "credit": "SilviaASH",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Survey-survey.svg"
+ },
+ "source": {
+  "title": "Sampling bias",
+  "url": "https://en.wikipedia.org/wiki/Sampling_bias",
+  "revision": 1375044021
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Sampling bias is a flaw in the way a sample is gathered. Some members of the population a study means to describe end up with a better or worse chance of being picked than others. The sample that results is called biased, because not every individual was equally likely to land in it.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "The danger is a wrong conclusion. If nobody corrects for the bias, a result can be credited to the thing under study when it really comes from how the sample was drawn. One view, not shared by everyone, says sampling bias harms external validity: how well the findings carry over to the whole population.",
+    "cites": [
+     3,
+     7
+    ]
+   },
+   {
+    "heading": "Other names",
+    "text": "In medicine the same problem is sometimes called ascertainment bias. Sampling bias is usually counted as one kind of selection bias, though some people keep the two apart. In practice the two names are often swapped freely.",
+    "cites": [
+     4,
+     6,
+     9
+    ]
+   },
+   {
+    "heading": "Leaving groups out",
+    "text": "One form comes from drawing the sample in one particular place. A survey of teenage drug use handed out in high schools misses teens who are home-schooled or have dropped out. A street interview that stops passers-by catches too many healthy people and too few with a chronic illness, who are less often out of the house. When a group is shut out entirely, its members have zero chance of selection, which may be an extreme form of the problem.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Choosing yourself",
+    "text": "Self-selection bias can arise whenever the people being studied decide for themselves whether to take part. That choice may be tied to traits that affect the study, so those who join are not typical. People with strong opinions or deep knowledge are keener to spend time on a survey. So online and phone-in polls overrepresent the highly motivated, hear less from the indifferent, and give extreme views too much weight. For this reason such polls are regarded as unscientific.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Survivors and hospitals",
+    "text": "Survivorship bias looks only at what survived and ignores what dropped out of view. Judging the economy by the firms that exist today, for instance, leaves out every business that failed. Berkson's fallacy is the hospital version: a study population drawn from patients is less healthy than people in general. This can produce a false negative link between diseases, since a patient without diabetes is more likely to have some other illness, such as cholecystitis, that brought them in.",
+    "cites": [
+     26,
+     27,
+     30,
+     31
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cc-stats-10",
+   "kind": "video",
+   "title": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Rf-fIpB4D50",
+   "note": "A Crash Course video on sampling methods and the biases, such as voluntary response, that distort surveys."
+  },
+  {
+   "id": "ds-2-2",
+   "kind": "book",
+   "title": "2.2 Survey Design and Implementation",
+   "by": "Shaun V. Ault, Soohyun Nam Liao, Larry Musolino (OpenStax)",
+   "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+   "note": "A free textbook section with parts on sampling bias, including selection and volunteer bias, and a case study.",
+   "license": "Creative Commons Attribution-NonCommercial-ShareAlike License"
+  }
+ ]
+}

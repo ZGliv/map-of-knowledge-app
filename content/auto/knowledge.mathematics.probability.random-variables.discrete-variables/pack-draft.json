@@ -1,0 +1,119 @@
+{
+ "title": "Counting versus measuring",
+ "question": "What makes a variable discrete rather than continuous?",
+ "hook": "Some quantities leap from value to value with nothing in between, and that changes which maths you can use on them.",
+ "idea": "A discrete variable has a gap around each permitted value, and its probabilities are described by mass functions rather than densities.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A variable can be exactly 2 or exactly 3, and nothing in between. Is it continuous or discrete?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Continuous, because 2 and 3 are real numbers",
+     "feedback": "Being a real number is not enough: a continuous variable needs possible values between any two of its values, and here there are none between 2 and 3."
+    },
+    {
+     "id": "b",
+     "label": "Discrete, because there is a gap on each side of each value"
+    },
+    {
+     "id": "c",
+     "label": "Continuous, because it has two end values to stop at",
+     "feedback": "Having end values does not make a variable continuous. What counts is whether values exist between any two permitted values."
+    }
+   ],
+   "answer": "b",
+   "explain": "There is a non-infinitesimal gap around each value with no permitted values, so it is discrete around those values.",
+   "cites": [
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each situation to the tool that goes with it",
+   "pairs": [
+    [
+     "Distribution of a discrete variable",
+     "Probability mass function"
+    ],
+    [
+     "Distribution of a continuous variable",
+     "Probability density function"
+    ],
+    [
+     "Time treated as discrete",
+     "Difference equation"
+    ],
+    [
+     "Time treated as continuous",
+     "Differential equation"
+    ]
+   ],
+   "explain": "Each kind of variable, and each treatment of time, has its own matching description.",
+   "cites": [
+    9,
+    10,
+    19,
+    20
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each into its group",
+   "groups": [
+    "continuous",
+    "discrete"
+   ],
+   "items": [
+    [
+     "Any value in a range of the real numbers",
+     "continuous"
+    ],
+    [
+     "Time in continuous-time dynamics",
+     "continuous"
+    ],
+    [
+     "Only the integers 0 and 1",
+     "discrete"
+    ],
+    [
+     "Integer programming variables",
+     "discrete"
+    ],
+    [
+     "Time in discrete-time dynamics",
+     "discrete"
+    ]
+   ],
+   "explain": "Continuous variables can take any value in a range; discrete ones have separated permitted values such as integers.",
+   "cites": [
+    7,
+    10,
+    15,
+    18,
+    20
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A variable can take only the values 0 and 1.",
+    "So there is a gap on each side of each value.",
+    "That makes it a discrete variable.",
+    "So calculus methods are the natural tool for it."
+   ],
+   "wrong": 3,
+   "explain": "Calculus methods do not readily lend themselves to problems with discrete variables; they are often used for continuous ones.",
+   "cites": [
+    3,
+    15,
+    16
+   ]
+  }
+ ]
+}

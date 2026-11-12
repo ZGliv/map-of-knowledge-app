@@ -1,0 +1,311 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram",
+ "name": "Tree diagram",
+ "summary": [
+  {
+   "text": "A tree diagram represents a probability space, with each node standing for an event and carrying that event’s probability.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "It can show a series of independent events like coin flips, or conditional probabilities like drawing cards without replacing them.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "The probability of reaching a node is the product of the probabilities along its branch, and probabilities on different branches are added.",
+   "cites": [
+    7,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Root node",
+   "value": "Stands for the certain event, with probability 1",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Node meaning",
+   "value": "Chance of an event occurring after its parent event occurs",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Sibling nodes",
+   "value": "Split the parent event into exclusive, exhaustive parts",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Path probability",
+   "value": "Product of the node’s and its parents’ probabilities",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Add or multiply",
+   "value": "Same branch multiplies; different branches add",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A tree diagram starts from one node before any branching. What probability does it carry, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0, because nothing has happened yet"
+    },
+    {
+     "id": "b",
+     "label": "Whatever the first branch is"
+    },
+    {
+     "id": "c",
+     "label": "1, because it is the certain event"
+    },
+    {
+     "id": "d",
+     "label": "1/2, since the tree splits in two"
+    }
+   ],
+   "answer": "c",
+   "explain": "The root node represents the certain event, so its probability is 1.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram:q1"
+  },
+  {
+   "prompt": "On a tree, you follow a branch for one event and then a branch for the next. How do you find the chance of that whole path?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the larger of the two"
+    },
+    {
+     "id": "b",
+     "label": "Add the two probabilities"
+    },
+    {
+     "id": "c",
+     "label": "Average the two probabilities"
+    },
+    {
+     "id": "d",
+     "label": "Combine them by taking the product"
+    }
+   ],
+   "answer": "d",
+   "explain": "The probability of a series of events leading to a node equals the product of that node’s and its parents’ probabilities.",
+   "cites": [
+    7,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram:q2"
+  },
+  {
+   "prompt": "Two outcomes sit on separate branches of a tree. You want the chance that either one happens. What do you do with their probabilities?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add them"
+    },
+    {
+     "id": "b",
+     "label": "Multiply them"
+    },
+    {
+     "id": "c",
+     "label": "Subtract the smaller from the larger"
+    },
+    {
+     "id": "d",
+     "label": "Use only the first one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Probabilities that do not lie on the same branch are added.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram:q3"
+  },
+  {
+   "prompt": "A node deep in the tree shows 0.4. What does that 0.4 tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of that event from the very start"
+    },
+    {
+     "id": "b",
+     "label": "The chance of its parent event"
+    },
+    {
+     "id": "c",
+     "label": "The chance of every other branch combined"
+    },
+    {
+     "id": "d",
+     "label": "The chance of that event after its parent event occurs"
+    }
+   ],
+   "answer": "d",
+   "explain": "The probability on a node is the chance of that event occurring after the parent event occurs.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram:q4"
+  },
+  {
+   "prompt": "Several sibling nodes hang below one parent node. How do they divide up the parent event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Into outcomes that cannot overlap and together cover every possibility"
+    },
+    {
+     "id": "b",
+     "label": "Into equal pieces, whatever the situation"
+    },
+    {
+     "id": "c",
+     "label": "Into outcomes that may overlap but need not cover everything"
+    },
+    {
+     "id": "d",
+     "label": "Into one likely outcome and the rest unlikely"
+    }
+   ],
+   "answer": "a",
+   "explain": "Each set of sibling nodes is an exclusive and exhaustive partition of the parent event.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram:q5"
+  },
+  {
+   "prompt": "What makes a tree diagram helpful when combining probabilities?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It removes the need for any calculation at all"
+    },
+    {
+     "id": "b",
+     "label": "It shows which probabilities to add or multiply"
+    },
+    {
+     "id": "c",
+     "label": "It forces every probability to be the same size"
+    },
+    {
+     "id": "d",
+     "label": "It can be used only for a series of coin flips"
+    }
+   ],
+   "answer": "b",
+   "explain": "Probability trees give a simple visual delineation between additive and multiplicative relations between events.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Probability_tree_diagram.svg/960px-Probability_tree_diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tree diagram",
+  "credit": "Gnathan87 (talk · contribs)",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Probability_tree_diagram.svg"
+ },
+ "source": {
+  "title": "Tree diagram (probability theory)",
+  "url": "https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)",
+  "revision": 1351092398
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A picture of chance",
+    "text": "In probability theory, a tree diagram is one way to draw a probability space. The drawing is made of nodes linked together in branches, a little like the forks of a real tree. Every node stands for one event, and each node is labelled with the probability of that event.",
+    "cites": [
+     1,
+     3,
+     9
+    ]
+   },
+   {
+    "heading": "Two kinds of story",
+    "text": "A tree can show a series of independent events, such as a coin being flipped several times in a row. It can also show conditional probabilities. Drawing cards from a deck without putting them back is an example of this second kind. Probability trees are also a way to describe how several conditional events relate to each other.",
+    "cites": [
+     2,
+     10
+    ]
+   },
+   {
+    "heading": "How the parts fit together",
+    "text": "The node at the very start, called the root, stands for the certain event, so its probability is 1. The nodes that branch out from the same parent are siblings. Together they split the parent event into parts that are exclusive, meaning no two can both happen, and exhaustive, meaning between them they cover everything. The probability written at a node is the chance of that event happening once its parent event has happened.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Multiply along, add across",
+    "text": "To find the chance that the whole chain of events leading down to one node takes place, multiply that node's probability by the probabilities of all the nodes above it. Probabilities that lie on different branches are added together instead. This simple visual split between when to multiply and when to add is why probability trees are valued.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Following a path",
+    "text": "Picture a tree for two events in a row. You begin at the root, which has probability 1, and follow one branch down to a first node and then on to a second node below it. The chance of the whole path to that second node is the product of the probabilities you passed along the way. Probabilities for end points that sit on separate branches are not multiplied with each other; they are added.",
+    "cites": [
+     4,
+     7,
+     9
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-4",
+   "kind": "book",
+   "title": "7.4 Tree Diagrams, Tables, and Outcomes",
+   "by": "OpenStax, Contemporary Mathematics",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-4-tree-diagrams-tables-and-outcomes",
+   "note": "A free textbook section on drawing tree diagrams to list every outcome of a multi-stage experiment.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-stats-3-5",
+   "kind": "book",
+   "title": "3.5 Tree and Venn Diagrams - Introductory Statistics 2e",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-5-tree-and-venn-diagrams",
+   "note": "A free statistics textbook section on using tree diagrams to work out probabilities, alongside Venn diagrams.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

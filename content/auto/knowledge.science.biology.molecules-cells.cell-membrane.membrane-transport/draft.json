@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "Membrane transport is the set of mechanisms that regulate how ions and small molecules pass through biological membranes, which are lipid bilayers with embedded proteins.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Membranes are selectively permeable, letting some substances through and not others, and the movement of most solutes is mediated by membrane transport proteins.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Moving a substance down its gradient needs no outside energy, but moving it against the gradient requires metabolic energy.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Passive diffusion",
+   "value": "Crosses with no metabolic energy and no transport proteins",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Active transport",
+   "value": "Moves a solute against its gradient, usually using ATP",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Primary active transport",
+   "value": "The energy provider is broken down directly to move the solute",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "label": "Antiporter",
+   "value": "Moves two substances in opposite directions",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "label": "Symporter",
+   "value": "Moves two substances in the same direction",
+   "cites": [
+    44,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A solute flows from where it is crowded to where it is sparse across a membrane. Does the cell need to supply energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, moving with the gradient needs no outside energy"
+    },
+    {
+     "id": "b",
+     "label": "Yes, ATP is needed for every crossing"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because the lipid barrier always resists crossings"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if the solute carries a charge"
+    }
+   ],
+   "answer": "a",
+   "explain": "Exchange in the direction of the gradient needs no energy input; only transport against the gradient does.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A cell holds more of a nutrient inside than outside, yet it still takes in more. How?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Simple diffusion, since solutes always flow toward the crowded side"
+    },
+    {
+     "id": "b",
+     "label": "Dialysis, which moves solutes with no energy at all"
+    },
+    {
+     "id": "c",
+     "label": "Transport proteins use metabolic energy such as ATP to move it against the gradient"
+    },
+    {
+     "id": "d",
+     "label": "Channels of facilitated diffusion running on the gradient"
+    }
+   ],
+   "answer": "c",
+   "explain": "In active transport a solute is moved against its gradient, and the transport proteins consume metabolic energy, usually ATP.",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "prompt": "In the lab, raising a solute's concentration speeds up its uptake at first, but past a certain point uptake stops speeding up. What does this suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The solute is crossing by simple diffusion through the lipids"
+    },
+    {
+     "id": "b",
+     "label": "A transport protein forms a complex with the solute, like an enzyme and its substrate"
+    },
+    {
+     "id": "c",
+     "label": "The membrane is thinning out as the solute builds up"
+    },
+    {
+     "id": "d",
+     "label": "The solute is dissolving into the hydrophobic layer"
+    }
+   ],
+   "answer": "b",
+   "explain": "The plateau was interpreted as transport mediated by a substrate-transporter complex, conceptually the same as an enzyme-substrate complex.",
+   "cites": [
+    37,
+    38,
+    39
+   ]
+  },
+  {
+   "prompt": "A protein pushes one molecule uphill while a different ion rides downhill the opposite way. What kind of transporter is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A symporter"
+    },
+    {
+     "id": "b",
+     "label": "A primary pump that only splits ATP"
+    },
+    {
+     "id": "c",
+     "label": "A simple channel of passive diffusion"
+    },
+    {
+     "id": "d",
+     "label": "An antiporter"
+    }
+   ],
+   "answer": "d",
+   "explain": "An antiporter moves a molecule against its gradient while displacing ions along theirs, and the molecules move in opposite directions.",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "prompt": "A cell moves a compound uphill by letting a second solute run downhill, and no ATP is broken down at that moment. Where does the energy really come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From earlier ATP-style hydrolysis that built the other gradient"
+    },
+    {
+     "id": "b",
+     "label": "From the lipid bilayer itself, which stores energy"
+    },
+    {
+     "id": "c",
+     "label": "From the membrane being semipermeable"
+    },
+    {
+     "id": "d",
+     "label": "From nowhere, since uphill movement is free here"
+    }
+   ],
+   "answer": "a",
+   "explain": "In secondary active transport the energy is stored in a gradient, and hydrolysis of the energy provider is required to establish it.",
+   "cites": [
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "prompt": "A membrane holds an electrical potential across it. Why might a charged ion move across even when its concentrations on both sides are equal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Charged particles ignore membranes entirely"
+    },
+    {
+     "id": "b",
+     "label": "It responds to the membrane potential as well as to its concentration"
+    },
+    {
+     "id": "c",
+     "label": "Charge lets it dissolve in the hydrophobic tails"
+    },
+    {
+     "id": "d",
+     "label": "The potential changes the ion's concentration for it"
+    }
+   ],
+   "answer": "b",
+   "explain": "A charged substance moves in response to the electrochemical gradient due to the membrane potential, not just concentration.",
+   "cites": [
+    16,
+    28
+   ]
+  }
+ ]
+}

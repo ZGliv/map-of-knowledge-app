@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law",
+ "name": "Snell's law",
+ "summary": [
+  {
+   "text": "Snell's law ties together the angle a ray of light arrives at and the angle it bends to when it crosses the boundary between two media, such as air and glass.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The ratio of the sines of the two angles equals the ratio of the media's refractive indices (n₂/n₁), and the rule follows from light taking the path of least time.",
+   "cites": [
+    4,
+    5,
+    38
+   ]
+  },
+  {
+   "text": "Ibn Sahl described it in 984 and others found it again centuries later; today it is used to trace rays and to measure the refractive index of a material.",
+   "cites": [
+    2,
+    8,
+    11,
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First discovered",
+   "value": "Ibn Sahl, at the Baghdad court, in 984",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Descartes' version",
+   "value": "Derived independently in his 1637 essay La Dioptrique",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Air into water",
+   "value": "Light bends toward the normal line",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Reversible",
+   "value": "Light going the opposite way makes the same angles",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Where it holds",
+   "value": "Generally true only for isotropic media such as glass",
+   "cites": [
+    36
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A beam of light travels from air into a swimming pool. Compared with the line perpendicular to the surface, how does the beam bend?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Toward that line, because light slows down in water"
+    },
+    {
+     "id": "b",
+     "label": "Away from that line, because water is denser"
+    },
+    {
+     "id": "c",
+     "label": "It stays on the same angle, only dimmer"
+    },
+    {
+     "id": "d",
+     "label": "Along the surface, parallel to the water"
+    }
+   ],
+   "answer": "a",
+   "explain": "Light is slowed in water, so it refracts toward the normal line; going from water to air it would refract away from it.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law:q1"
+  },
+  {
+   "prompt": "Snell's law carries the name of a Dutch astronomer. Which statement about its history is accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Snell first found it and published it at once in 1621"
+    },
+    {
+     "id": "b",
+     "label": "Descartes found it first and Snell later copied him"
+    },
+    {
+     "id": "c",
+     "label": "Ptolemy found the exact law and Snell only renamed it"
+    },
+    {
+     "id": "d",
+     "label": "Ibn Sahl described it in 984, centuries before Snell"
+    }
+   ],
+   "answer": "d",
+   "explain": "Ibn Sahl used the law in 984; Snell's equivalent form of 1621 was never published in his lifetime, and the law was found by several people.",
+   "cites": [
+    8,
+    12
+   ],
+   "id": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law:q2"
+  },
+  {
+   "prompt": "A lab has an unknown clear plastic and wants its refractive index. How could Snell's law help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Weigh the plastic and compare it with glass"
+    },
+    {
+     "id": "b",
+     "label": "Measure how fast the plastic melts under a lamp"
+    },
+    {
+     "id": "c",
+     "label": "Check how much light the plastic soaks up in total"
+    },
+    {
+     "id": "d",
+     "label": "Shine a beam in at a known angle and measure the bent angle"
+    }
+   ],
+   "answer": "d",
+   "explain": "The law relates the two angles to the refractive indices, so measuring them in experiments lets you find a material's index.",
+   "cites": [
+    2,
+    4
+   ],
+   "id": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law:q3"
+  },
+  {
+   "prompt": "Why does light bend at a boundary exactly as Snell's law says, rather than by some other rule? One account is based on which principle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Light always takes the shortest distance between two points"
+    },
+    {
+     "id": "b",
+     "label": "Light travels the path that takes the least time"
+    },
+    {
+     "id": "c",
+     "label": "Light always avoids the densest part of any material"
+    },
+    {
+     "id": "d",
+     "label": "Light picks the path with the fewest bends"
+    }
+   ],
+   "answer": "b",
+   "explain": "Snell's law can be derived from Fermat's principle: light travels the path that takes the least time, which is not the same as the shortest distance.",
+   "cites": [
+    5,
+    38
+   ],
+   "id": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law:q4"
+  },
+  {
+   "prompt": "A ray is sent into glass and bends in a certain way. If you ran a ray back along the exit path under identical conditions, what would you see?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It retraces the same angles in the opposite direction"
+    },
+    {
+     "id": "b",
+     "label": "It bends twice as much as on the way in"
+    },
+    {
+     "id": "c",
+     "label": "It bends the same way and ends up somewhere else"
+    },
+    {
+     "id": "d",
+     "label": "It reflects off the boundary instead of crossing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Refraction between two surfaces is reversible: with identical conditions, the angles are the same for light going the other way.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law:q5"
+  },
+  {
+   "prompt": "A beam enters a certain crystal and splits into two beams, one of which does not obey Snell's law. What is the likely cause?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The crystal is isotropic, so it treats every direction alike"
+    },
+    {
+     "id": "b",
+     "label": "The crystal is a perfect mirror on one side"
+    },
+    {
+     "id": "c",
+     "label": "The crystal is anisotropic, and birefringence splits the ray"
+    },
+    {
+     "id": "d",
+     "label": "The beam was slowed to below the speed in water"
+    }
+   ],
+   "answer": "c",
+   "explain": "Snell's law generally holds for isotropic media; in some anisotropic crystals, birefringence splits the ray and the extraordinary ray may not follow it.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.science.physics.optics.reflection-and-refraction.snell-s-law:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Snells_law2.svg/960px-Snells_law2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Snell's law",
+  "credit": "Oleg Alexandrov — I just tweaked the original",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Snells_law2.svg"
+ },
+ "source": {
+  "title": "Snell's law",
+  "url": "https://en.wikipedia.org/wiki/Snell%27s_law",
+  "revision": 1379958766
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A rule for bending light",
+    "text": "Snell's law, also called the law of refraction, links two angles when light or another wave crosses from one material into another, such as from air into water or glass. One is the angle at which the ray arrives, the angle of incidence. The other is the angle at which it carries on after bending, the angle of refraction. Both are measured from the normal, a line standing straight out from the boundary.",
+    "cites": [
+     1,
+     33
+    ]
+   },
+   {
+    "heading": "What the law says",
+    "text": "Take the sine of each angle, θ₁ for the incoming ray and θ₂ for the bent one. Snell's law says their ratio equals n₂/n₁, the ratio of the two materials' refractive indices. It equally matches the ratio of the light's speeds in the two materials, v₁/v₂. A refractive index tells you by what factor light slows down in a material, such as glass or water, compared with a vacuum.",
+    "cites": [
+     4,
+     31
+    ]
+   },
+   {
+    "heading": "Toward or away from the normal",
+    "text": "Light going from air into water slows down, so it bends toward the normal. Going the other way, from water into air, it bends away from the normal. The path also works in reverse: under identical conditions, light travelling backwards follows the same angles. In optics, the law is used to trace the paths of rays and, in experiments, to measure a material's refractive index.",
+    "cites": [
+     2,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Why it holds",
+    "text": "The law follows from Fermat's principle, the idea that light takes the path that needs the least time. Christiaan Huygens showed in 1678 that it could also be explained by treating light as a wave. It can be derived as well from the boundary conditions of Maxwell's equations for electromagnetic radiation.",
+    "cites": [
+     5,
+     26,
+     38,
+     45
+    ]
+   },
+   {
+    "heading": "A long trail of discovery",
+    "text": "Ptolemy in Alexandria found a rule for refraction angles, but it failed for angles that were not small. The first to discover the law was Ibn Sahl, a Persian scientist working at the court in Baghdad in 984, who used it to work out lens shapes that focus light without distortion. Thomas Harriot found it again in 1602 but did not publish. Willebrord Snellius reached an equivalent form in 1621, and René Descartes derived it on his own in 1637.",
+    "cites": [
+     6,
+     8,
+     9,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Where it stops working",
+    "text": "Snell's law generally holds only for isotropic materials such as glass. In other materials, such as some crystals, an effect called birefringence can split the bent ray into two. One ray, the ordinary ray, obeys Snell's law, while the extraordinary ray may not stay in the same plane as the incoming one. In metamaterials, light can even bend backward, with a negative refractive index, and the law still holds.",
+    "cites": [
+     3,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-25-3",
+   "kind": "book",
+   "title": "25.3 The Law of Refraction",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+   "note": "An introductory textbook section stating Snell's law with refractive indices and worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-snell-springs",
+   "kind": "video",
+   "title": "Snell's law proof using springs",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=Iq1a_KJTWJ8",
+   "note": "A short visual proof of Snell's law using a mechanical model with springs."
+  },
+  {
+   "id": "tatum-fermat-huygens",
+   "kind": "book",
+   "title": "1: Reflection and Refraction via Fermat's Principle and Huygens' Construction",
+   "by": "Jeremy Tatum",
+   "url": "https://phys.libretexts.org/Bookshelves/Optics/Physical_Optics_(Tatum)/01%3A_Reflection_and_Refraction_via_Fermat's_Principle_and_Huygens'_Construction",
+   "note": "A textbook chapter deriving the laws of reflection and refraction from least time and from wavelets.",
+   "license": "CC BY-NC 4.0"
+  }
+ ]
+}

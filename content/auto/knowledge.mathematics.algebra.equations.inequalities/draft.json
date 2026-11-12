@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "An inequality is a relation that makes a non-equal comparison between two numbers or other mathematical expressions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its main types are less than and greater than, written < and >, and in either case a is not equal to b.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Adding or subtracting the same number preserves an inequality, while multiplying or dividing by a negative constant reverses it.",
+   "cites": [
+    22,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Strict symbols",
+   "value": "< and > mean strictly less or strictly greater",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "label": "Non-strict symbols",
+   "value": "a ≤ b means a is at most b",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Wallis, 1670",
+   "value": "Used a single horizontal bar above < and >",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Bouguer, 1734",
+   "value": "≦ and ≧ first appeared in his work",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Chained form",
+   "value": "a < b < c stands for a < b and b < c",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You know that 2 < 5. You multiply both sides by −3. What is true afterwards?",
+   "options": [
+    {
+     "id": "a",
+     "label": "−6 < −15"
+    },
+    {
+     "id": "b",
+     "label": "−6 > −15"
+    },
+    {
+     "id": "c",
+     "label": "−6 = −15"
+    },
+    {
+     "id": "d",
+     "label": "6 < 15"
+    }
+   ],
+   "answer": "b",
+   "explain": "Multiplying by a negative constant reverses the inequality relation, so the sign flips.",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "prompt": "You know that a < b. A friend adds 7 to both sides. What happens to the relation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It reverses: a + 7 > b + 7"
+    },
+    {
+     "id": "b",
+     "label": "It becomes an equality"
+    },
+    {
+     "id": "c",
+     "label": "It no longer says anything"
+    },
+    {
+     "id": "d",
+     "label": "It still holds: a + 7 < b + 7"
+    }
+   ],
+   "answer": "d",
+   "explain": "The inequality relation is preserved under addition (or subtraction).",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "prompt": "A sign says a < b. Which statement says exactly the same thing from the other side?",
+   "options": [
+    {
+     "id": "a",
+     "label": "b > a"
+    },
+    {
+     "id": "b",
+     "label": "b < a"
+    },
+    {
+     "id": "c",
+     "label": "a > b"
+    },
+    {
+     "id": "d",
+     "label": "b = a"
+    }
+   ],
+   "answer": "a",
+   "explain": "Reversing the order of the two quantities while flipping the inequality symbol gives an equivalent statement.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "A friend says a ≠ b tells you that a is the larger one. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, it always means a is larger"
+    },
+    {
+     "id": "b",
+     "label": "It means they are equal after all"
+    },
+    {
+     "id": "c",
+     "label": "It says only that they differ, not which is bigger"
+    },
+    {
+     "id": "d",
+     "label": "It means b must be the larger one"
+    }
+   ],
+   "answer": "c",
+   "explain": "The notation a ≠ b does not say that one is greater than the other, and it does not even require an ordered set.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "You read a < b < c. A classmate asks how a compares with c. What can you say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "a < c, because less-than carries through"
+    },
+    {
+     "id": "b",
+     "label": "a > c, because the order flips"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, they were never compared"
+    },
+    {
+     "id": "d",
+     "label": "a = c, because b sits between them"
+    }
+   ],
+   "answer": "a",
+   "explain": "The chain means a < b and b < c, and by transitivity it also follows that a < c.",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "prompt": "You apply a monotonically decreasing function to both sides of a < b. What happens to the inequality?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same"
+    },
+    {
+     "id": "b",
+     "label": "It is reversed"
+    },
+    {
+     "id": "c",
+     "label": "It becomes an equality"
+    },
+    {
+     "id": "d",
+     "label": "It disappears"
+    }
+   ],
+   "answer": "b",
+   "explain": "Applying a monotonically decreasing function to both sides reverses the inequality relation.",
+   "cites": [
+    27
+   ]
+  }
+ ]
+}

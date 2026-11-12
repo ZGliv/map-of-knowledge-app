@@ -1,0 +1,101 @@
+{
+ "title": "Half Your Air Is Seawater",
+ "question": "How does the ocean shape life and climate on Earth?",
+ "hook": "The ocean still supplies half the oxygen in the air you breathe.",
+ "idea": "The ocean holds most of Earth's water, stores heat, moves it around with currents and feeds most of its life from its sunlit upper layer.",
+ "beats": [
+  {
+   "kind": "order",
+   "prompt": "Put these oceans in order by area",
+   "items": [
+    "Pacific Ocean",
+    "Atlantic Ocean",
+    "Indian Ocean",
+    "Antarctic/Southern Ocean",
+    "Arctic Ocean"
+   ],
+   "ends": [
+    "Largest",
+    "Smallest"
+   ],
+   "explain": "Listed by descending area, the Pacific is largest and the Arctic smallest.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Sunlight fades quickly with depth. Where in the ocean would most of its food supply be made?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "In the cold, dark deep water",
+     "feedback": "The deep ocean is dark, and without light, algae cannot photosynthesize."
+    },
+    {
+     "id": "b",
+     "label": "In the sunlit upper layer"
+    },
+    {
+     "id": "c",
+     "label": "Evenly at every depth",
+     "feedback": "Light reaches only a few hundred meters, so food-making is not even."
+    },
+    {
+     "id": "d",
+     "label": "On the ocean floor",
+     "feedback": "Below the top few hundred meters the ocean is dark, so algae there cannot use light."
+    }
+   ],
+   "answer": "b",
+   "explain": "Photosynthesis happens only in the photic zone, so it is the most biodiverse and the source of most of the ocean's food.",
+   "cites": [
+    13,
+    15,
+    16
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each ocean zone to its description",
+   "pairs": [
+    [
+     "Pelagic zone",
+     "Open water from surface to floor"
+    ],
+    [
+     "Photic zone",
+     "Where photosynthesis can happen"
+    ],
+    [
+     "Aphotic zone",
+     "Cold, dark deep water"
+    ]
+   ],
+   "explain": "The water column is divided by depth and how much sunlight reaches it, from the sunlit photic zone down to the dark aphotic zone.",
+   "cites": [
+    10,
+    11,
+    13,
+    16
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Burning fossil fuels raises CO₂ in the air.",
+    "The ocean absorbs CO₂ from the atmosphere.",
+    "More CO₂ makes seawater less acidic, raising its pH.",
+    "This is one of the ways climate change affects the ocean."
+   ],
+   "wrong": 2,
+   "explain": "A higher CO₂ concentration leads to ocean acidification, which is a drop in pH, not a rise.",
+   "cites": [
+    30,
+    31,
+    35
+   ]
+  }
+ ]
+}

@@ -1,0 +1,540 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.rational-functions",
+ "name": "Rational functions",
+ "summary": [
+  {
+   "text": "A rational function is a function defined by a fraction whose numerator and denominator are both polynomials.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its domain is the set of values for which the denominator is not zero.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "Every polynomial is itself a rational function, and the sum, product or quotient of two rational functions is again rational, unless you divide by the zero polynomial.",
+   "cites": [
+    27,
+    32
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Domain rule",
+   "value": "All values of x for which the denominator is not zero",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Constants count",
+   "value": "f(x) = π is rational, since constants are polynomials",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Not rational",
+   "value": "f(x) = sin (x) cannot be written as such a fraction",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Removable singularity",
+   "value": "x/x is equal to 1 for all x except 0",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Proper rational function",
+   "value": "The numerator's degree is less than the denominator's",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A function simply adds 5 to its input, with no fraction anywhere. Is it a rational function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, a rational function must visibly contain a fraction"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when the input is not zero"
+    },
+    {
+     "id": "c",
+     "label": "Yes, since it is a polynomial and every polynomial is rational"
+    },
+    {
+     "id": "d",
+     "label": "No, because adding 5 can give irrational values"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every polynomial function is a rational function, with Q(x) = 1.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions:q1"
+  },
+  {
+   "prompt": "What decides which inputs a rational function cannot accept?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The inputs that make the denominator zero"
+    },
+    {
+     "id": "b",
+     "label": "The inputs that make the numerator zero"
+    },
+    {
+     "id": "c",
+     "label": "Every negative input, as with square roots"
+    },
+    {
+     "id": "d",
+     "label": "The inputs where the fraction equals 1"
+    }
+   ],
+   "answer": "a",
+   "explain": "The domain is the set of values for which the denominator is not zero.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions:q2"
+  },
+  {
+   "prompt": "A friend says the sine function is rational because its curve is smooth like many fractions. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any smooth curve can be written as a polynomial fraction"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as the input is limited to whole numbers"
+    },
+    {
+     "id": "c",
+     "label": "No, a function must be periodic to be rational"
+    },
+    {
+     "id": "d",
+     "label": "No, it cannot be written as one polynomial over another"
+    }
+   ],
+   "answer": "d",
+   "explain": "A rational function is one polynomial over another. A function that cannot be written in this form, such as f(x) = sin (x), is not a rational function.",
+   "cites": [
+    1,
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions:q3"
+  },
+  {
+   "prompt": "A function is x/x. What can you say about its values?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It equals 1 at every input without exception"
+    },
+    {
+     "id": "b",
+     "label": "It equals 1 for all x except 0, where it has a removable singularity"
+    },
+    {
+     "id": "c",
+     "label": "It equals 0 at the input 0 and 1 elsewhere"
+    },
+    {
+     "id": "d",
+     "label": "It equals x at every input but 0"
+    }
+   ],
+   "answer": "b",
+   "explain": "The function x/x is equal to 1 for all x except 0, where there is a removable singularity.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions:q4"
+  },
+  {
+   "prompt": "A fraction of two real polynomials has a top of degree 2 and a bottom of degree 3. What is such a rational function called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Proper"
+    },
+    {
+     "id": "b",
+     "label": "Improper"
+    },
+    {
+     "id": "c",
+     "label": "Reduced"
+    },
+    {
+     "id": "d",
+     "label": "Removable"
+    }
+   ],
+   "answer": "a",
+   "explain": "A proper rational function has a numerator of smaller degree than its denominator, by analogy to a proper fraction.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions:q5"
+  },
+  {
+   "prompt": "You add two rational functions together. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A polynomial, since the fractions cancel"
+    },
+    {
+     "id": "b",
+     "label": "Something that may fail to be rational"
+    },
+    {
+     "id": "c",
+     "label": "Another rational function"
+    },
+    {
+     "id": "d",
+     "label": "A constant"
+    }
+   ],
+   "answer": "c",
+   "explain": "The sum, product or quotient (excepting division by the zero polynomial) of two rational functions is itself a rational function.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions:q6"
+  }
+ ],
+ "source": {
+  "title": "Rational function",
+  "url": "https://en.wikipedia.org/wiki/Rational_function",
+  "revision": 1384063253
+ },
+ "pack": {
+  "id": "auto-polynomials-rational-functions",
+  "title": "When the Bottom Hits Zero",
+  "question": "What is a rational function, and where does it break?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Polynomials",
+   "Rational functions"
+  ],
+  "hue": 58,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Asymptotic_curve_hvo1.svg/960px-Asymptotic_curve_hvo1.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Asymptote",
+    "credit": "Luxure · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Asymptotic_curve_hvo1.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When the Bottom Hits Zero",
+    "hook": "A fraction made of polynomials looks harmless, until its bottom reaches zero."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-polynomials-rational-functions:1",
+    "transfer": false,
+    "prompt": "The function f(x) = π is a constant, and π is irrational, so the value of f(x) is irrational for every x. Is f a rational function?",
+    "explain": "A constant is a polynomial, so it is a polynomial over the polynomial 1. The function is rational even though the value of f(x) is irrational for all x.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "No, because constants are not polynomials",
+        "feedback": "It tempts because a constant has no x, but constants are polynomials."
+       },
+       {
+        "id": "a",
+        "label": "No, because its values are irrational",
+        "feedback": "It tempts because the values are irrational, but a rational function is judged by its form, not by its values."
+       },
+       {
+        "id": "c",
+        "label": "Only when x is a rational number",
+        "feedback": "It tempts because rationality seems to depend on the input, but the function's form is what counts."
+       },
+       {
+        "id": "b",
+        "label": "Yes, since constants are polynomials",
+        "feedback": ""
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-rational-functions:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each into its group.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Every polynomial function"
+     },
+     {
+      "id": "i1",
+      "label": "A polynomial over a nonzero polynomial"
+     },
+     {
+      "id": "i2",
+      "label": "The sum of two rational functions"
+     },
+     {
+      "id": "i3",
+      "label": "The product of two rational functions"
+     },
+     {
+      "id": "i4",
+      "label": "The sine function"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Rational function"
+     },
+     {
+      "id": "g1",
+      "label": "Not a rational function"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g0",
+     "i4": "g1"
+    },
+    "explain": "Polynomials, polynomial fractions and their sums and products are rational. The sine function cannot be written as a polynomial over a polynomial."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-rational-functions:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Domain of a rational function"
+     },
+     {
+      "id": "l1",
+      "label": "Proper rational function"
+     },
+     {
+      "id": "l2",
+      "label": "Complex rational function of degree one"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "A Möbius transformation"
+     },
+     {
+      "id": "r1",
+      "label": "Numerator degree below denominator degree"
+     },
+     {
+      "id": "r0",
+      "label": "Values where the denominator is not zero"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each pair comes from how rational functions are defined and classified."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-polynomials-rational-functions:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Take the function x divided by x."
+     },
+     {
+      "id": "b",
+      "text": "Dividing a number by itself gives 1."
+     },
+     {
+      "id": "c",
+      "text": "So the function equals 1 at every input, including 0."
+     },
+     {
+      "id": "d",
+      "text": "So it is just the constant function 1."
+     }
+    ],
+    "answer": "c",
+    "explain": "Zero is not in the domain, because the denominator is zero there. The function equals 1 for all x except 0, where there is a removable singularity."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A rational function is one polynomial divided by another, defined wherever the denominator is not zero.",
+    "connections": [
+     {
+      "title": "Asymptote",
+      "place": "Rational functions",
+      "node": "knowledge.mathematics.algebra.polynomials.rational-functions.asymptote"
+     },
+     {
+      "title": "Partial fractions",
+      "place": "Rational functions",
+      "node": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions"
+     },
+     {
+      "title": "Graph of a function",
+      "place": "Rational functions",
+      "node": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A constant is a polynomial, so it is a polynomial over the polynomial 1. The function is rational even though the value of f(x) is irrational for all x.",
+    "source": "Wikipedia sentences 25, 26"
+   },
+   {
+    "claim": "Polynomials, polynomial fractions and their sums and products are rational. The sine function cannot be written as a polynomial over a polynomial.",
+    "source": "Wikipedia sentences 1, 27, 28, 32"
+   },
+   {
+    "claim": "Each pair comes from how rational functions are defined and classified.",
+    "source": "Wikipedia sentences 8, 13, 18"
+   },
+   {
+    "claim": "Zero is not in the domain, because the denominator is zero there. The function equals 1 for all x except 0, where there is a removable singularity.",
+    "source": "Wikipedia sentences 8, 31"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A fraction made of polynomials",
+    "text": "A rational function is a function you can write as a fraction whose top and bottom are both polynomials. We usually call them P and Q, with P on top, Q underneath, and Q not allowed to be the zero function. The function only makes sense where the bottom is not zero, so its domain, the set of inputs it accepts, is every x for which Q(x) is not zero.",
+    "cites": [
+     1,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "What counts and what does not",
+    "text": "A constant such as f(x) = π is a rational function, because a constant is a polynomial. That holds even though every output it gives is an irrational number. Every polynomial P(x) also qualifies: just put Q(x) = 1 underneath. A function like sin(x), which cannot be written as such a fraction, is not rational, though nobody usually calls it irrational.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Combining and simplifying",
+    "text": "Add, multiply or divide two rational functions, as long as you never divide by the zero polynomial, and the result is again a rational function. Simplifying takes care. The function x/x equals 1 for every x except 0, where it has a gap called a removable singularity, and tidying the fraction into standard form can quietly erase such gaps. One way around this is to treat A(x)/B(x) and C(x)/D(x) as the same thing whenever A(x)D(x) = B(x)C(x). Under that rule, x/x and 1/1 are simply equivalent.",
+    "cites": [
+     11,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Proper functions and degree",
+    "text": "A rational function is called proper when P has a lower degree than Q and both are real polynomials, a name borrowed from proper fractions among the rational numbers. The word degree itself is slippery here: there are several definitions that do not agree. In asymptotic analysis, for instance, the degree is the numerator's degree minus the denominator's. In network analysis, a ratio of two polynomials of degree at most two often goes by the name biquadratic function.",
+    "cites": [
+     13,
+     20,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Beyond the real numbers",
+    "text": "The coefficients need not be rational numbers; they can come from any field K. With complex coefficients, the domain becomes the complex numbers z for which Q(z) ≠ 0. Every rational function extends naturally to the whole Riemann sphere, and applying one over and over there forms a discrete dynamical system. A complex rational function of degree one is called a Möbius transformation.",
+    "cites": [
+     2,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "A family of their own",
+    "text": "All the rational functions over a field K together form a field too: the field of fractions built from the polynomial functions over K. In abstract algebra, the field of rational expressions over a field F is written F(X). A rational expression can be written as P/Q in more than one way, but there is exactly one way with P and Q of lowest degree and Q monic. That mirrors how a fraction of whole numbers has one form in lowest terms once common factors are cancelled.",
+    "cites": [
+     6,
+     40,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Solving number patterns",
+    "text": "Rational functions are a tool for sequences. If you expand one as a Taylor series, its coefficients follow a linear recurrence relation, and any sequence that obeys such a recurrence, used as Taylor coefficients, gives back a rational function. To get an explicit formula for the terms, split a proper rational function by partial fractions into pieces of the form 1 / (ax + b), then expand each piece as a geometric series. This is the method of generating functions.",
+    "cites": [
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-rational-functions",
+   "kind": "book",
+   "title": "3.7 Rational Functions - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/3-7-rational-functions",
+   "note": "A free textbook section introducing rational functions: their domains, asymptotes and graphs.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

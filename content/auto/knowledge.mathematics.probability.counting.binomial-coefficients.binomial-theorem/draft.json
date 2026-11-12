@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "The binomial theorem expands (x + y)ⁿ into terms of the form axᵏʸᵐ, where each coefficient a is a binomial coefficient.",
+   "cites": [
+    1,
+    2,
+    7
+   ]
+  },
+  {
+   "text": "Each term of the form xⁿ⁻²y² arises once for each way of choosing exactly two of the binomials to give a y, so its coefficient counts those choices.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "After like terms are combined there are n + 1 terms, and their coefficients add up to 2ⁿ.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Worked case",
+   "value": "(x + y)⁴ contains the term 6x²y²",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Term count",
+   "value": "n + 1 terms after combining like terms",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Pascal's triangle",
+   "value": "Stifel used it for (1 + x)ⁿ in 1544",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Generalised form",
+   "value": "Non-integer exponents are allowed, but the sum becomes infinite",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Early history",
+   "value": "Euclid mentioned the exponent-2 case by the 4th century BC",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The coefficient of a term can be computed as a product of fractions. What is still true of every coefficient in an expansion?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a positive whole number"
+    },
+    {
+     "id": "b",
+     "label": "It is a fraction in lowest terms"
+    },
+    {
+     "id": "c",
+     "label": "It is a power of two"
+    },
+    {
+     "id": "d",
+     "label": "It is always larger than the exponent"
+    }
+   ],
+   "answer": "a",
+   "explain": "Even though the product is made of fractions, the coefficient of each term is a specific positive integer.",
+   "cites": [
+    2,
+    32
+   ]
+  },
+  {
+   "prompt": "You multiply five factors, each (x + y), by picking either x or y from every factor. Which picks give a term with exactly two y's?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any pick where the first two factors give y"
+    },
+    {
+     "id": "b",
+     "label": "Any pick of two factors to give y, the rest giving x"
+    },
+    {
+     "id": "c",
+     "label": "Any pick that gives x in the middle factor"
+    },
+    {
+     "id": "d",
+     "label": "Only the pick where the last two factors give y"
+    }
+   ],
+   "answer": "b",
+   "explain": "One term arises for each way of choosing exactly two factors to contribute a y, so that count is the coefficient.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "A square of side a + b is cut up along the lines marking a and b on each side. What are the pieces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Four squares, each of side a or b"
+    },
+    {
+     "id": "b",
+     "label": "Two squares of side a, and two of side b"
+    },
+    {
+     "id": "c",
+     "label": "A square of side a, a square of side b, and two a-by-b rectangles"
+    },
+    {
+     "id": "d",
+     "label": "One large square of side a and three small ones of side b"
+    }
+   ],
+   "answer": "c",
+   "explain": "For n = 2 the theorem is the fact that this square splits into a square of side a, a square of side b and two rectangles.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "You multiply out (x + y)⁶ and combine like terms. How many terms does the result have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "12"
+    },
+    {
+     "id": "c",
+     "label": "64"
+    },
+    {
+     "id": "d",
+     "label": "7"
+    }
+   ],
+   "answer": "d",
+   "explain": "After like terms are combined there are n + 1 terms, so n = 6 gives 7.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "What is the price of allowing a negative or fractional exponent in the binomial theorem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The coefficients stop being whole numbers entirely"
+    },
+    {
+     "id": "b",
+     "label": "The theorem only works for the exponent 1"
+    },
+    {
+     "id": "c",
+     "label": "The finite sum is replaced by an infinite series"
+    },
+    {
+     "id": "d",
+     "label": "The terms must be added in the opposite order"
+    }
+   ],
+   "answer": "c",
+   "explain": "The generalised theorem allows non-integer, negative or complex exponents at the expense of replacing the finite sum by an infinite series.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "The coefficients in the expansion of (x + y)⁵ are all added together. What total do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "10"
+    },
+    {
+     "id": "b",
+     "label": "32"
+    },
+    {
+     "id": "c",
+     "label": "25"
+    },
+    {
+     "id": "d",
+     "label": "120"
+    }
+   ],
+   "answer": "b",
+   "explain": "The coefficients of the combined terms sum to 2ⁿ, which is 2⁵ = 32 for n = 5.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

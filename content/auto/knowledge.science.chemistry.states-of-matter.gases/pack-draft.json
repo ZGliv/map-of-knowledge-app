@@ -1,0 +1,105 @@
+{
+ "title": "Squeezing the invisible",
+ "question": "What happens to a trapped gas when you push on it?",
+ "hook": "A gas fills whatever holds it, yet it can still be squeezed into less room.",
+ "idea": "Gas particles are widely separated, so a gas spreads through its container and shrinks when pressure rises.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You release gas at one end of an empty closed box. Where do its particles end up?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Clustered near where they were released",
+     "feedback": "Gas particles spread apart rather than staying bunched up."
+    },
+    {
+     "id": "b",
+     "label": "Spread evenly throughout the box"
+    },
+    {
+     "id": "c",
+     "label": "Packed along the bottom",
+     "feedback": "That is how a liquid or solid might sit; gas particles distribute themselves throughout the container."
+    }
+   ],
+   "answer": "b",
+   "explain": "Gas particles spread apart to distribute themselves evenly throughout any container.",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "When measuring a gas, sort each quantity by what it describes.",
+   "groups": [
+    "The gas particles themselves",
+    "Their surroundings"
+   ],
+   "items": [
+    [
+     "Velocity",
+     "The gas particles themselves"
+    ],
+    [
+     "Pressure",
+     "The gas particles themselves"
+    ],
+    [
+     "Temperature",
+     "The gas particles themselves"
+    ],
+    [
+     "Volume",
+     "Their surroundings"
+    ]
+   ],
+   "explain": "Measured characteristics are either in terms of the particles (velocity, pressure, temperature) or their surroundings (volume).",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this account of Boyle's experiment is wrong. Which?",
+   "steps": [
+    "Boyle trapped a gas in the closed end of a J-shaped tube.",
+    "The number of particles and the temperature stayed constant.",
+    "He added mercury, and the pressure on the gas rose, so its volume grew.",
+    "The pressure and volume of a gas therefore have an inverse relationship."
+   ],
+   "wrong": 2,
+   "explain": "When the pressure was increased, the trapped gas's volume decreased, which is what makes the relationship inverse.",
+   "cites": [
+    44,
+    45
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You compare a 1-liter container of gas with a 1-liter container of liquid. Which holds fewer particles?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The liquid, since its particles are far apart",
+     "feedback": "It is the gas whose particles are vastly separated."
+    },
+    {
+     "id": "b",
+     "label": "The gas, since its particles are far apart"
+    },
+    {
+     "id": "c",
+     "label": "Both hold exactly the same number",
+     "feedback": "Gases have low density compared with other states, so equal volumes do not hold equal numbers."
+    }
+   ],
+   "answer": "b",
+   "explain": "Gas particles are vastly separated and gases have low density compared with other states of matter.",
+   "cites": [
+    5,
+    30
+   ]
+  }
+ ]
+}

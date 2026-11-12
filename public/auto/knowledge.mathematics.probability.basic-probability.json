@@ -1,0 +1,541 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability",
+ "name": "Basic probability",
+ "summary": [
+  {
+   "text": "Probability is a number between 0 and 1 that describes how likely an event is, often written as a percentage from 0% to 100%.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "text": "For a fair coin, heads and tails are equally probable, so each has a probability of 1/2, also written 0.5 or 50%.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "People read probability in two main ways: as the relative frequency of an outcome in the long run, or as a degree of belief.",
+   "cites": [
+    11,
+    12,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Probability range",
+   "value": "Always a number between 0 and 1",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Fair coin",
+   "value": "Heads and tails each get probability 1/2",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Word origin",
+   "value": "Comes from the Latin probabilitas",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Cardano’s odds",
+   "value": "Defined odds as favourable outcomes against unfavourable ones",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Earliest treatment",
+   "value": "Huygens gave the earliest known scientific treatment in 1657",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A factory tests one machine part many thousands of times and reports how often it fails. Which reading of probability is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Degree of belief, held before any testing"
+    },
+    {
+     "id": "b",
+     "label": "Relative frequency across repeated trials"
+    },
+    {
+     "id": "c",
+     "label": "A tendency in one single trial"
+    },
+    {
+     "id": "d",
+     "label": "Expert knowledge turned into a prior"
+    }
+   ],
+   "answer": "b",
+   "explain": "Frequentist probability is the relative frequency of an outcome when an experiment is repeated indefinitely.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability:q1"
+  },
+  {
+   "prompt": "An analyst starts with an expert’s prior view, then folds in new experimental data to reach a final probability. Which approach is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Frequentist probability"
+    },
+    {
+     "id": "b",
+     "label": "Propensity probability"
+    },
+    {
+     "id": "c",
+     "label": "The theory of errors"
+    },
+    {
+     "id": "d",
+     "label": "Bayesian probability"
+    }
+   ],
+   "answer": "d",
+   "explain": "Bayesian probability combines expert knowledge, as a prior, with experimental data to produce probabilities.",
+   "cites": [
+    16,
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability:q2"
+  },
+  {
+   "prompt": "A raffle drum holds some prize tickets and some blanks. Which ratio gives the probability of drawing a prize?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Prizes out of all tickets in the drum"
+    },
+    {
+     "id": "b",
+     "label": "Prizes compared with blanks"
+    },
+    {
+     "id": "c",
+     "label": "Blanks out of all tickets in the drum"
+    },
+    {
+     "id": "d",
+     "label": "Blanks compared with prizes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Odds compare favourable to unfavourable outcomes, which implies probability is favourable outcomes over all possible outcomes.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability:q3"
+  },
+  {
+   "prompt": "A fair coin lands heads or tails and nothing else. What fixes the chance of heads at 1/2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each flip cancels out the one before it"
+    },
+    {
+     "id": "b",
+     "label": "The coin must alternate between its two sides"
+    },
+    {
+     "id": "c",
+     "label": "Tails is always twice as likely"
+    },
+    {
+     "id": "d",
+     "label": "The two outcomes are equally probable and nothing else can happen"
+    }
+   ],
+   "answer": "d",
+   "explain": "Both outcomes are equally probable and no other outcome is possible, so each gets 1/2.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability:q4"
+  },
+  {
+   "prompt": "A forecaster says an event has probability 1.4. Why can that not be right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Probabilities must be whole numbers"
+    },
+    {
+     "id": "b",
+     "label": "A probability is a number between 0 and 1"
+    },
+    {
+     "id": "c",
+     "label": "Only coins can have probabilities"
+    },
+    {
+     "id": "d",
+     "label": "Percentages cannot be turned into decimals"
+    }
+   ],
+   "answer": "b",
+   "explain": "A probability lies between 0 and 1, or 0% and 100% as a percentage.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability:q5"
+  },
+  {
+   "prompt": "Before the middle of the seventeenth century, what did calling an opinion “probable” mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That it was approvable, the kind sensible people would hold"
+    },
+    {
+     "id": "b",
+     "label": "That it had been measured by repeated experiments"
+    },
+    {
+     "id": "c",
+     "label": "That it was more likely than not to be true"
+    },
+    {
+     "id": "d",
+     "label": "That a witness had sworn to it in court"
+    }
+   ],
+   "answer": "a",
+   "explain": "Back then “probable” meant approvable, applied to opinion and action, unlike the modern weight of empirical evidence.",
+   "cites": [
+    9,
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Basic probability",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Probability",
+  "url": "https://en.wikipedia.org/wiki/Probability",
+  "revision": 1381440308
+ },
+ "pack": {
+  "id": "auto-probability-basic-probability",
+  "title": "Chance has more than one meaning",
+  "question": "What does it mean to say something has a 50% chance?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Basic probability"
+  ],
+  "hue": 45,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Basic probability",
+    "credit": "Ainali · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Chance has more than one meaning",
+    "hook": "A coin flip and a doctor’s forecast both use the word chance, yet they can mean different things."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-basic-probability:1",
+    "transfer": false,
+    "prompt": "A fair coin is tossed once. What probability goes with each outcome?",
+    "explain": "The outcomes are equally probable and no other outcome is possible, so each is 1/2, also written 0.5 or 50%.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "1 for heads, since it is listed first",
+        "feedback": "Order of listing has no effect, and the two outcomes are equally probable."
+       },
+       {
+        "id": "a",
+        "label": "1/2 for heads and 1/2 for tails"
+       },
+       {
+        "id": "c",
+        "label": "1/3 each, adding a third outcome",
+        "feedback": "The setup allows only heads and tails, so no other outcome takes a share."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-probability-basic-probability:2",
+    "transfer": false,
+    "prompt": "Put these steps in the history of probability in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Cardano defines odds as favourable against unfavourable outcomes"
+     },
+     {
+      "id": "b",
+      "label": "Fermat and Pascal correspond about probabilities (1654)"
+     },
+     {
+      "id": "c",
+      "label": "Huygens gives the earliest known scientific treatment (1657)"
+     },
+     {
+      "id": "d",
+      "label": "Jakob Bernoulli’s Ars Conjectandi appears (1713)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Earliest",
+     "Latest"
+    ],
+    "explain": "Cardano worked in the sixteenth century, followed by the letters of 1654, Huygens in 1657 and Bernoulli in 1713."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-basic-probability:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each reading of probability by its family.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Frequentist probability"
+     },
+     {
+      "id": "i1",
+      "label": "Propensity probability"
+     },
+     {
+      "id": "i2",
+      "label": "Bayesian probability"
+     },
+     {
+      "id": "i3",
+      "label": "Degree of belief"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Objective reading"
+     },
+     {
+      "id": "g1",
+      "label": "Subjective reading"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Objectivists describe a physical state of affairs, while subjectivists treat probability as a degree of belief."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-basic-probability:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A probability is a number between 0 and 1."
+     },
+     {
+      "id": "b",
+      "text": "It can also be written as a percentage from 0% to 100%."
+     },
+     {
+      "id": "c",
+      "text": "So a forecast of 150% means the event is even more certain than a sure thing."
+     },
+     {
+      "id": "d",
+      "text": "A larger probability does still mean the event is more likely."
+     }
+    ],
+    "answer": "c",
+    "explain": "Percentages stop at 100%, so 150% is not a possible probability."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Probability is a number from 0 to 1 for how likely an event is, read as long-run frequency or as a degree of belief.",
+    "connections": [
+     {
+      "title": "Sample spaces",
+      "place": "Basic probability",
+      "node": "knowledge.mathematics.probability.basic-probability.sample-spaces"
+     },
+     {
+      "title": "Conditional probability",
+      "place": "Basic probability",
+      "node": "knowledge.mathematics.probability.basic-probability.conditional-probability"
+     },
+     {
+      "title": "Independence",
+      "place": "Basic probability",
+      "node": "knowledge.mathematics.probability.basic-probability.independence"
+     },
+     {
+      "title": "Bayes' theorem",
+      "place": "Basic probability",
+      "node": "knowledge.mathematics.probability.basic-probability.bayes-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The outcomes are equally probable and no other outcome is possible, so each is 1/2, also written 0.5 or 50%.",
+    "source": "Wikipedia sentences 5"
+   },
+   {
+    "claim": "Cardano worked in the sixteenth century, followed by the letters of 1654, Huygens in 1657 and Bernoulli in 1713.",
+    "source": "Wikipedia sentences 28, 29, 30, 31"
+   },
+   {
+    "claim": "Objectivists describe a physical state of affairs, while subjectivists treat probability as a degree of belief.",
+    "source": "Wikipedia sentences 10, 11, 13, 14, 16"
+   },
+   {
+    "claim": "Percentages stop at 100%, so 150% is not a possible probability.",
+    "source": "Wikipedia sentences 2, 3"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The 0 to 1 scale",
+    "text": "Basic probability puts a number on how likely an event is. That number always sits between 0 and 1. The closer it is to 1, the more likely the event. You will often see the same number written as a percentage, running from 0% to 100%.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Counting outcomes",
+    "text": "Think of tossing a fair coin, one with no bias toward either side. There are only two possible results, heads and tails, and they are equally likely. Each therefore gets a probability of 1/2, the same as 0.5 or 50%. In the 1500s Gerolamo Cardano showed it works well to compare favourable outcomes with unfavourable ones. That idea means an event's probability is its favourable outcomes divided by all the possible outcomes.",
+    "cites": [
+     4,
+     5,
+     28
+    ]
+   },
+   {
+    "heading": "Probability as long-run frequency",
+    "text": "One school, the objectivists, says a probability describes something real in the world. Its best-known form is frequentist probability. On this view, the probability of an outcome is how often it turns up if you repeat the experiment again and again without end. A variant, propensity probability, treats it instead as a tendency of the experiment to give that outcome, even if you run it just once.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Probability as belief",
+    "text": "The other school, the subjectivists, treats a probability as a degree of belief. One way to pin that down is as the price you would pay or accept for a bet that pays 1 unit if the event happens and nothing if it does not. Not everyone accepts that reading. The best-known subjective form is Bayesian probability, which combines expert knowledge with experimental data.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Updating with evidence",
+    "text": "In the Bayesian view, what experts know at the start is written as a prior, a probability distribution held before the data come in. The data enter through a likelihood function. Multiply the prior and the likelihood, rescale the result, and you get the posterior: a distribution that holds all the information known so far.",
+    "cites": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "When people disagree",
+    "text": "Two people who reason this way and start from similar priors will end up with similar posteriors. But if their priors are different enough, they can reach different conclusions. That stays true no matter how much information they share.",
+    "cites": [
+     20,
+     21
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-basic-concepts",
+   "kind": "book",
+   "title": "7.5 Basic Concepts of Probability - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-5-basic-concepts-of-probability",
+   "note": "A free textbook section introducing outcomes, events and how to compute basic probabilities.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-stats-probability-1",
+   "kind": "video",
+   "title": "Probability Part 1: Rules and Patterns: Crash Course Statistics #13",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=OyddY7DlV58",
+   "note": "A quick video on the basic rules of probability and how to combine them."
+  },
+  {
+   "id": "shafer-zhang-basic",
+   "kind": "book",
+   "title": "3: Basic Concepts of Probability - Introductory Statistics (Shafer and Zhang)",
+   "by": "Shafer and Zhang",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/03%3A_Basic_Concepts_of_Probability",
+   "note": "A free textbook chapter on sample spaces, events and the basic rules of probability.",
+   "license": "CC BY-NC-SA 3.0"
+  }
+ ]
+}

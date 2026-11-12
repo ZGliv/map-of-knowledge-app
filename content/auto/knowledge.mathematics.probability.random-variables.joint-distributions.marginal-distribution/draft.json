@@ -1,0 +1,229 @@
+{
+ "summary": [
+  {
+   "text": "A marginal distribution gives the probabilities of some variables on their own, without reference to the values of the other variables.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "From a joint table of two variables, you get one variable's marginal by summing over every value of the other, and the sums sit in the table's margins.",
+   "cites": [
+    5,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "text": "This contrasts with a conditional distribution, which gives probabilities that depend on the values of the other variables.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Where the name comes from",
+   "value": "Sums along rows or columns are written in the table's margins",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "How to get it",
+   "value": "Sum the joint distribution over all values of the other variable",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Versus conditional",
+   "value": "A conditional distribution depends on other variables' values",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Other variable",
+   "value": "Sum over X's values to get Y's marginal",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Traffic example",
+   "value": "Each light colour's hit chance is weighted by how often it occurs",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A pedestrian's chance of being hit depends on the colour of the traffic light. You want the overall chance of being hit when the colour is unknown. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Use the hit chance for the most common colour only"
+    },
+    {
+     "id": "b",
+     "label": "Add each colour's hit chance, weighted by how often that colour occurs"
+    },
+    {
+     "id": "c",
+     "label": "Take the plain average of the hit chances for the colours"
+    },
+    {
+     "id": "d",
+     "label": "Use the lowest of the colours' hit chances"
+    }
+   ],
+   "answer": "b",
+   "explain": "With the colour unknown, you sum the conditional chances over all colours, each weighted by the probability of that colour.",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "prompt": "A table lists the chance of each combination of two results. How do you read off the chance of just one of those results, ignoring the other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pick the biggest cell in its row"
+    },
+    {
+     "id": "b",
+     "label": "Multiply all the cells in its row"
+    },
+    {
+     "id": "c",
+     "label": "Add up the cells along its row or column"
+    },
+    {
+     "id": "d",
+     "label": "Subtract the other result's total from 1"
+    }
+   ],
+   "answer": "c",
+   "explain": "Summing along rows or columns and writing the sums in the margins gives each variable's own probabilities.",
+   "cites": [
+    5,
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "A teacher has study time and test scores for a class. Which question looks at the scores with study time left out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How are the scores spread across the whole class?"
+    },
+    {
+     "id": "b",
+     "label": "Among students who studied longest, how are scores spread?"
+    },
+    {
+     "id": "c",
+     "label": "Among students with top scores, how long did they study?"
+    },
+    {
+     "id": "d",
+     "label": "Do students who study longer tend to score higher?"
+    }
+   ],
+   "answer": "a",
+   "explain": "The marginal distribution of the scores is the distribution when study time is not taken into consideration. The other questions all depend on study time.",
+   "cites": [
+    10,
+    17
+   ]
+  },
+  {
+   "prompt": "One friend says, \"It rains on 30% of days.\" Another says, \"It rains on 60% of the cloudy days.\" What makes the second statement different?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It sums over all weather conditions"
+    },
+    {
+     "id": "b",
+     "label": "It averages many days instead of one"
+    },
+    {
+     "id": "c",
+     "label": "It looks at one event on its own"
+    },
+    {
+     "id": "d",
+     "label": "It assumes another event has already occurred"
+    }
+   ],
+   "answer": "d",
+   "explain": "The first is a marginal probability of a single event. The second is conditional: it holds given that another event, cloud, has occurred.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "You know X's marginal distribution is found by summing the joint distribution over all values of Y. How would you find Y's marginal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sum the joint distribution over the separate values of X"
+    },
+    {
+     "id": "b",
+     "label": "Divide X's marginal by the joint distribution"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be found from the same joint distribution"
+    },
+    {
+     "id": "d",
+     "label": "Subtract X's marginal from 1"
+    }
+   ],
+   "answer": "a",
+   "explain": "The same works the other way round: summing over the values of X gives the marginal of Y.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "In the traffic example, why is the overall chance of being hit found by adding the chances across the lights?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Being hit is always certain under at least one light"
+    },
+    {
+     "id": "b",
+     "label": "Each light colour is a separate way for a person to be hit"
+    },
+    {
+     "id": "c",
+     "label": "The chances under the lights must add up to 1 anyway"
+    },
+    {
+     "id": "d",
+     "label": "Only the green light matters for this sum"
+    }
+   ],
+   "answer": "b",
+   "explain": "A pedestrian can be hit if the light is red, or yellow, or green, so the separate chances are added, weighted by how often each colour occurs.",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ]
+}

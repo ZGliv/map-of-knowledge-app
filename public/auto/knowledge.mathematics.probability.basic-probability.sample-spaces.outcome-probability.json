@@ -1,0 +1,322 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability",
+ "name": "Outcome (probability)",
+ "summary": [
+  {
+   "text": "An outcome is a possible result of an experiment or trial, and all of the possible outcomes together form the sample space.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "Different outcomes are mutually exclusive, so only one occurs on each trial, and outcomes should not be confused with events, which are groups of outcomes.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Outcomes can have probabilities between zero and one, but in a continuous distribution each individual outcome has zero probability.",
+   "cites": [
+    15,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two coin flips",
+   "value": "Four outcomes: (H, T), (T, H), (T, T) and (H, H)",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Elementary event",
+   "value": "An event containing exactly one outcome",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Probability range",
+   "value": "Between zero and one, inclusive",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Continuous case",
+   "value": "Individual outcomes all have zero probability",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Atoms",
+   "value": "Discrete outcomes in mixed distributions that can have non-zero probability",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You flip a coin twice and win if at least one flip is heads. Which of the four possible outcomes is not a winning one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "(H, T)"
+    },
+    {
+     "id": "b",
+     "label": "(T, H)"
+    },
+    {
+     "id": "c",
+     "label": "(H, H)"
+    },
+    {
+     "id": "d",
+     "label": "(T, T)"
+    }
+   ],
+   "answer": "d",
+   "explain": "The event 'at least one heads' contains every outcome except (T, T).",
+   "cites": [
+    4,
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability:q1"
+  },
+  {
+   "prompt": "For one die roll, which of these is a single outcome rather than a group of outcomes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The roll is an even number"
+    },
+    {
+     "id": "b",
+     "label": "The roll shows exactly a four"
+    },
+    {
+     "id": "c",
+     "label": "The roll is bigger than two"
+    },
+    {
+     "id": "d",
+     "label": "The roll is one of the odd numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "An event is a group of outcomes; a single result is one outcome, and an event holding exactly one outcome is an elementary event.",
+   "cites": [
+    5,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability:q2"
+  },
+  {
+   "prompt": "A dart lands at a random real-number position along a ruler. What is the chance it lands at exactly 3.5?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero, because single outcomes have no probability here"
+    },
+    {
+     "id": "b",
+     "label": "A small positive amount, shared by all positions"
+    },
+    {
+     "id": "c",
+     "label": "One half, because it either lands there or not"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be said, because the ruler is too long"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a continuous distribution individual outcomes all have zero probability; only ranges of outcomes can have non-zero probabilities.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability:q3"
+  },
+  {
+   "prompt": "Which of these experiments is hard to describe with equally likely outcomes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tossing a thumb tack to see if its point lands up or down"
+    },
+    {
+     "id": "b",
+     "label": "Shuffling and drawing one card from a deck"
+    },
+    {
+     "id": "c",
+     "label": "Rolling an ordinary six-sided die"
+    },
+    {
+     "id": "d",
+     "label": "Tossing an ordinary coin once"
+    }
+   ],
+   "answer": "a",
+   "explain": "Coins, dice and shuffled cards are usually assumed equally likely, but a thumb tack has no symmetry to suggest its two outcomes are.",
+   "cites": [
+    22,
+    23,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability:q4"
+  },
+  {
+   "prompt": "Two coin flips both come up heads. How many different events can that single outcome be part of?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Just one, named after the outcome itself"
+    },
+    {
+     "id": "b",
+     "label": "None, unless it is the only outcome"
+    },
+    {
+     "id": "c",
+     "label": "Only events that hold exactly two outcomes"
+    },
+    {
+     "id": "d",
+     "label": "Many different events at once"
+    }
+   ],
+   "answer": "d",
+   "explain": "A single outcome can be a part of many different events.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability:q5"
+  },
+  {
+   "prompt": "At a casino a player secretly shaves a die so some faces come up more often. What is this player doing to the outcomes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Forcing them to rule each other out"
+    },
+    {
+     "id": "b",
+     "label": "Introducing a systematic departure from equal likelihood"
+    },
+    {
+     "id": "c",
+     "label": "Turning them into events"
+    },
+    {
+     "id": "d",
+     "label": "Raising each one's chance past certainty"
+    }
+   ],
+   "answer": "b",
+   "explain": "Games of chance implicitly assume equally likely outcomes, and cheaters try to introduce systematic deviations from that, such as with shaved dice.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Outcome (probability)",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Outcome (probability)",
+  "url": "https://en.wikipedia.org/wiki/Outcome_(probability)",
+  "revision": 1347345135
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What an outcome is",
+    "text": "In probability, an outcome is one possible result of an experiment or trial. Different outcomes are mutually exclusive, so only one of them happens on each trial. All the possible outcomes together make up the sample space.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Two coin flips",
+    "text": "Flip a coin twice and there are four possible outcomes: (H, T), (T, H), (T, T) and (H, H). Here H stands for heads and T for tails. Those four outcomes form the sample space of this experiment.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "heading": "Outcomes versus events",
+    "text": "Outcomes are not the same as events, which are sets, or groups, of outcomes. In the two-flip experiment, the event \"at least one heads\" contains every outcome except (T, T). Outcomes get grouped into events because single outcomes may matter little in practice, or because there may be far too many of them, even infinitely many. An event with exactly one outcome is an elementary event, the event holding every outcome is the sample space itself, and one outcome can sit in many events.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "How likely an outcome is",
+    "text": "Outcomes can have probabilities anywhere from zero to one, inclusive. In a discrete distribution with a finite sample space, each outcome gets its own probability. In a continuous distribution, every single outcome has probability zero, and only ranges of outcomes can have non-zero probability. Some mixed distributions combine continuous stretches with discrete outcomes, called atoms, and these atoms can have non-zero probability.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Equally likely outcomes",
+    "text": "In some sample spaces it makes sense to assume every outcome is equally likely. For an ordinary coin, heads and tails are typically taken as equally likely. Most randomizing tools in games of chance, such as dice, shuffled cards, spinning wheels and drawing lots, quietly rely on this assumption, and players who cheat may try to bend it with marked cards or loaded dice. Not every experiment works this way: toss a thumb tack, and no symmetry suggests that point-up and point-down should be equally likely.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     26
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-terminology",
+   "kind": "book",
+   "title": "3.1 Terminology - Introductory Statistics 2e",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+   "note": "A free textbook section defining outcomes, sample spaces, events and the probability of an outcome.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-tree-diagrams",
+   "kind": "book",
+   "title": "7.4 Tree Diagrams, Tables, and Outcomes - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-4-tree-diagrams-tables-and-outcomes",
+   "note": "A free textbook section on listing the possible outcomes of an experiment with tree diagrams and tables.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

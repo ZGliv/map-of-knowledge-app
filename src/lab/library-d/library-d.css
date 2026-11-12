@@ -1,0 +1,378 @@
+/* Prototype D, the Logbook: the Library as a dated record. Warm ink and paper (the Exhibitions palette),
+   one hairline spine, months as chapters, days in the margin. Colour comes only from places, and the
+   spine takes a place's colour only on a day it was proved: the Atlas's own rule, kept in time. Places
+   are dots, never their land's shape. */
+
+/* The room: while the Logbook shows, the shell's chrome turns to the same warm ink. */
+.studio-shell:has(.ld){
+ --atlas-shade:#100f0d;--atlas-deep:#13110f;--atlas-chrome:#161411;--atlas-panel:#171512;--atlas-paper:#1a1815;--atlas-raised:#1e1c18;
+ --atlas-rule:#25221d;--atlas-border:#2f2b25;--atlas-border-strong:#3d3832;--atlas-hover:#24211c;--atlas-selected:#2a2620;--atlas-margin:#121110;
+ --atlas-sidebar:#121110;--atlas-input:#13110f;
+ --atlas-text:#eee8dc;--atlas-bright:#f8f3ea;--atlas-highlight:#f3eee4;--atlas-pale:#e4ddd0;--atlas-secondary:#cdc6b9;--atlas-muted:#9b9387;--atlas-faint:#6f685f;--atlas-line:#5a544c;
+}
+/* One count on the screen: the Logbook's own rail counts what it holds, so the sidebar's Library count steps aside. */
+.studio-shell:has(.ld) [data-action="open-notebook"] small{display:none}
+
+.ld{
+ --ld-ground:#100f0d;--ld-raised:#1a1815;--ld-sheet:#191714;--ld-cover:#211f1b;
+ --ld-ink:#eee8dc;--ld-ink-2:#cdc6b9;--ld-ink-3:#9b9387;--ld-ink-4:#6f685f;
+ --ld-rule:rgb(238 232 220/.09);--ld-rule-2:rgb(238 232 220/.17);--ld-rule-3:rgb(238 232 220/.3);
+ --ld-serif:'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;
+ --ld-sans:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+ /* The Library's own sheets, reused, take this page's colours through the atlas tokens they read. */
+ --place:var(--ld-ink-2);--atlas-serif:var(--ld-serif);--atlas-button:var(--ld-ink);--atlas-button-top:var(--ld-ink);--atlas-button-ink:#13110e;
+ position:absolute;inset:0;background:var(--ld-ground);color:var(--ld-ink);font:400 15px/1.45 var(--ld-sans);-webkit-font-smoothing:antialiased;
+}
+/* A plain button, at no specificity, so every class below sets its own face. */
+:where(.ld) button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
+.ld :focus-visible{outline:2px solid var(--ld-ink-2);outline-offset:2px}
+.ld :is(input,textarea):focus-visible{outline:none}
+.ld button:disabled{opacity:.4;cursor:default}
+:where(.ld) :is(h1,h2,h3,p){margin:0;font-weight:400}
+:where(.ld) :is(ol,ul){list-style:none;margin:0;padding:0}
+.ld .ld-scroll{position:absolute;inset:0;overflow:auto;overscroll-behavior:contain;background:var(--ld-ground);padding:var(--chrome-top) 0 0;scrollbar-width:thin;scrollbar-color:var(--ld-rule-2) transparent}
+.ld-page{max-width:640px;margin:0 auto;padding:6px 16px calc(var(--chrome-bottom) + 44px)}
+.ld-main{min-width:0}
+.ld-none{padding:18px 0;font:italic 400 16px/1.4 var(--ld-serif);color:var(--ld-ink-3)}
+.ld-problem{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 12px;padding:10px 12px;border-radius:8px;background:#2a1d17;color:#f2c9b6;font-size:13px}
+.ld-icon{display:inline-grid;place-items:center;flex:none;width:36px;height:36px;border-radius:50%;color:var(--ld-ink-2)}
+.ld-icon:hover{color:var(--ld-ink);background:var(--ld-raised)}
+.ld-quiet{display:inline-flex;align-items:center;gap:7px;min-height:40px;font-size:14px;color:var(--ld-ink-2)}
+.ld-quiet:hover{color:var(--ld-ink)}
+.ld-quiet svg{width:16px;height:16px}
+.ld-quiet.is-danger{color:#e59a8b}
+.ld-solid{display:inline-flex;align-items:center;justify-content:center;min-width:104px;height:40px;padding:0 18px;border-radius:999px;background:var(--ld-ink);color:#15130f;font-size:14px;font-weight:600}
+
+/* ---- head, search, tabs ---- */
+.ld-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-top:4px}
+.ld-head h1{font:400 40px/1 var(--ld-serif);letter-spacing:-.8px;color:var(--ld-ink)}
+.ld-add{flex:none;display:grid;place-items:center;width:40px;height:40px;margin-bottom:1px;border-radius:50%;color:var(--ld-ink-2);box-shadow:inset 0 0 0 1px var(--ld-rule-2)}
+.ld-add:hover{color:var(--ld-ink);background:var(--ld-raised)}
+.ld-search{display:flex;align-items:center;gap:10px;height:46px;margin-top:14px;border-bottom:1px solid var(--ld-rule-2);color:var(--ld-ink-3)}
+.ld-search:focus-within,.ld-search.is-on{border-color:var(--ld-rule-3);color:var(--ld-ink-2)}
+.ld-search svg{width:17px;height:17px;flex:none}
+.ld-search input{flex:1;min-width:0;height:100%;padding:0;background:none;border:0;border-radius:0;outline:0;color:var(--ld-ink);font:400 17px/1 var(--ld-sans);-webkit-appearance:none;appearance:none}
+.ld-search input::placeholder{font:italic 400 17px/1 var(--ld-serif);color:var(--ld-ink-4);opacity:1}
+.ld-search input::-webkit-search-cancel-button,.ld-search input::-webkit-search-decoration{-webkit-appearance:none;display:none}
+.ld-clear{flex:none;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgb(238 232 220/.12);color:var(--ld-ink-2)}
+.ld-clear svg{width:13px;height:13px}
+.ld-tabs{display:flex;gap:20px;margin:2px -16px 0;padding:0 16px;overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+.ld-tabs::-webkit-scrollbar{display:none}
+.ld-tabs button{flex:none;padding:12px 0 9px;font-size:14px;color:var(--ld-ink-3);border-bottom:1.5px solid transparent}
+.ld-tabs button:hover{color:var(--ld-ink-2)}
+.ld-tabs button[aria-pressed=true]{color:var(--ld-ink);font-weight:500;border-color:var(--ld-ink)}
+
+/* ---- months: chapters ---- */
+.ld-month{margin-top:30px}
+.ld-month-top{padding-bottom:13px;border-bottom:1px solid var(--ld-rule)}
+.ld-month-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.ld-month-head h2{font:400 31px/1.05 var(--ld-serif);letter-spacing:-.5px;color:var(--ld-ink)}
+.ld-month-head h2 span,.ld-fold-name span,.ld-contents-name span{color:var(--ld-ink-4)}
+.ld-month-head small,.ld-fold-head small{font-size:12.5px;color:var(--ld-ink-3);font-variant-numeric:tabular-nums;white-space:nowrap}
+.ld-month-proved{margin-top:8px}
+.ld-proved{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px;font-size:12.5px;line-height:1.5;color:var(--ld-ink-3)}
+.ld-lit{display:inline-flex;align-items:center;gap:6px;color:var(--ld-ink-2);white-space:nowrap}
+.ld-year{margin-top:40px;font:400 40px/1 var(--ld-serif);letter-spacing:-.8px;color:var(--ld-ink-3)}
+
+/* ---- the spine and its days ---- */
+.ld-days{position:relative;padding-top:20px}
+.ld-days::before{content:'';position:absolute;left:39px;top:22px;bottom:14px;width:1px;background:var(--ld-rule-2)}
+.ld-day{position:relative;display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:23px;padding-bottom:24px}
+.ld-day::after{content:'';position:absolute;left:36px;top:5px;width:7px;height:7px;border-radius:50%;background:var(--ld-ground);box-shadow:inset 0 0 0 1.3px var(--ld-ink-4)}
+.ld-day.is-lit::after{left:35px;top:4px;width:9px;height:9px;background:var(--hue);box-shadow:0 0 0 3px var(--ld-ground)}
+.ld-day.is-today::after{box-shadow:inset 0 0 0 1.5px var(--ld-ink-2)}
+.ld-day.is-today.is-lit::after{box-shadow:0 0 0 3px var(--ld-ground)}
+.ld-date{text-align:right;line-height:1;padding-top:1px}
+.ld-date small{display:block;margin-bottom:4px;font-size:11px;color:var(--ld-ink-3);white-space:nowrap}
+.ld-date b{display:block;font:400 21px/1 var(--ld-serif);color:var(--ld-ink);font-variant-numeric:lining-nums tabular-nums}
+.ld-day.is-today .ld-date small{color:var(--ld-ink)}
+.ld-entries{display:grid;gap:18px;min-width:0}
+.ld-began{position:relative;margin-top:2px;padding-left:63px;font:italic 400 14.5px/1.2 var(--ld-serif);color:var(--ld-ink-3)}
+.ld-began::before{content:'';position:absolute;left:36px;top:4px;width:7px;height:7px;border-radius:50%;background:var(--ld-ink-4)}
+.ld-month.is-folded+.ld-began{margin-top:0;padding:16px 0 0;border-top:1px solid var(--ld-rule)}
+.ld-month.is-folded+.ld-began::before{content:none}
+
+/* ---- one entry ---- */
+.ld-e{min-width:0}
+.ld-e-main{display:grid;grid-template-columns:84px minmax(0,1fr);column-gap:13px;align-items:start;width:100%;min-width:0}
+.ld-e:is(.is-note,.is-proof,.is-explored,.is-changed) .ld-e-main{grid-template-columns:minmax(0,1fr)}
+.ld-e-pic{display:flex;justify-content:center;min-width:0}
+.ld-e-text{display:block;min-width:0}
+.ld-e-t{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:break-word;font:450 15px/1.33 var(--ld-sans);color:var(--ld-ink)}
+.ld-e-t i{font-style:normal;font-weight:400;font-size:13.5px;color:var(--ld-ink-3)}
+.ld-e-t.is-serif{font:400 18px/1.25 var(--ld-serif)}
+:is(.ld-e-t,.ld-prow-text) mark{background:none;color:inherit;font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:var(--ld-ink-3)}
+/* the meta line wraps like a sentence; the place, the one way back to the Atlas, is kept whole and moves
+   under the words when the line is narrow (it is cut only if it is wider than the whole line) */
+.ld-e-m{display:flex;flex-wrap:wrap;align-items:center;gap:3px 10px;margin-top:5px;font-size:12.5px;line-height:1.35;color:var(--ld-ink-3);min-width:0}
+.ld-e-w{flex:0 1 auto;min-width:0;overflow-wrap:break-word}
+.ld-sep{color:var(--ld-ink-4)}
+.ld-pl{display:inline-flex;align-items:center;gap:5px;color:var(--ld-ink-2);min-width:0;max-width:100%;white-space:nowrap}
+.ld-pl em{font-style:normal;min-width:0;overflow:hidden;text-overflow:ellipsis}
+/* in a meta line the place never takes an ellipsis: a name wider than the whole line wraps under its dot */
+.ld-e-m>.ld-pl{flex:0 1 auto;align-items:flex-start;white-space:normal}
+.ld-e-m>.ld-pl .ld-dot{margin-top:calc((1.35em - 8px)/2)}
+.ld-e-m>.ld-pl em{overflow:visible;overflow-wrap:break-word}
+/* the learner's own words are set in the book face */
+.ld-e.is-note .ld-e-t{font:italic 400 17px/1.38 var(--ld-serif);-webkit-line-clamp:4}
+.ld-e-now{display:block;margin-top:5px;font:italic 400 15px/1.35 var(--ld-serif);color:var(--ld-ink-2)}
+/* a place proved: the one moment the page raises its voice */
+.ld-e-p{display:flex;align-items:center;gap:9px;font:400 23px/1.15 var(--ld-serif);letter-spacing:-.2px;color:var(--ld-ink);overflow-wrap:break-word}
+/* a flex row: its words need their own box to wrap inside the line rather than push past it */
+.ld-e-pn{min-width:0;overflow-wrap:anywhere}
+.ld-e-p.is-quiet{font-size:18px;color:var(--ld-ink-2);gap:8px}
+.ld-e.is-proof .ld-verb{color:color-mix(in oklab,var(--hue) 72%,var(--ld-ink))}
+.ld-e-q{display:block;margin-top:6px;font:italic 400 15px/1.4 var(--ld-serif);color:var(--ld-ink-2)}
+.ld-e-main:hover .ld-e-t,.ld-e-main:hover .ld-e-p{color:#fffaf0}
+
+/* one quiet next step: a link in the place's colour, never a button block */
+.ld-step{display:inline-flex;align-items:center;min-height:32px;margin-top:2px;font-size:13px;color:var(--ld-ink);white-space:nowrap;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;text-decoration-color:color-mix(in oklab,var(--hue,var(--ld-ink-3)) 85%,transparent)}
+.ld-step span{color:var(--ld-ink-2)}
+.ld-step:hover{text-decoration-thickness:2px}
+
+/* today: each place ready to refresh, or where the learner left off; the name opens the place, the step beside it starts the case */
+.ld-e.is-today{display:grid;gap:4px}
+.ld-today-row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:0 14px;min-width:0}
+.ld-e.is-today>.ld-today-row:first-child{margin-top:-5px}
+.ld .ld-today-name{display:inline-flex;align-items:center;gap:8px;min-width:0;font:400 20px/1.4 var(--ld-serif);color:var(--ld-ink);overflow-wrap:anywhere}
+.ld-today-name .ld-dot{width:9px;height:9px}
+.ld-today-name:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;text-decoration-color:var(--hue)}
+.ld-today-row .ld-step{margin:0}
+.ld-e.is-empty .ld-quiet{margin-top:-11px}
+
+/* a place's colour, as a dot: filled once proved, a ring before */
+.ld-dot{flex:none;display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--hue)}
+.ld-dot.is-open{background:none;box-shadow:inset 0 0 0 1.4px var(--hue)}
+
+/* thumbnails keep their own shape: a frame, a cover, a reel, a page */
+.ld-th{position:relative;display:block;flex:none;overflow:hidden;background:var(--ld-cover);border-radius:2px}
+.ld-th img{display:block;width:100%;height:100%;object-fit:cover}
+.ld-th.is-video{width:84px;height:47px;border-radius:3px}
+.ld-th.is-reel{width:38px;height:66px;border-radius:3px}
+.ld-th:is(.is-book,.is-film){width:44px;height:66px;box-shadow:0 0 0 1px rgb(238 232 220/.06)}
+.ld-th:is(.is-book,.is-film).has-img{background:none;box-shadow:none}
+.ld-th:is(.is-book,.is-film).has-img img{object-fit:contain;object-position:50% 100%}
+.ld-th.is-link{width:84px;height:56px;border-radius:3px}
+.ld-th.is-link:not(.has-img){width:56px;height:56px;display:grid;place-items:center;background:none;box-shadow:inset 0 0 0 1px var(--ld-rule-2);font:400 22px/1 var(--ld-serif);color:var(--ld-ink-3)}
+.ld-th.is-link:not(.has-img) b{font-weight:400}
+.ld-th:not(.has-img):is(.is-book,.is-film,.is-video,.is-reel){display:flex;align-items:flex-end;padding:4px;font:400 8px/1.15 var(--ld-serif);color:var(--ld-ink-2)}
+.ld-th:not(.has-img):is(.is-book,.is-film,.is-video,.is-reel) b{font-weight:400;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;-webkit-hyphens:auto;hyphens:auto}
+.ld-th.is-film:not(.has-img){font-style:italic}
+.ld-th.is-coll{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:2px;width:56px;height:56px;background:none;border-radius:0}
+.ld-th.is-coll:empty{box-shadow:inset 0 0 0 1px var(--ld-rule-2);border-radius:3px}
+.ld-th.is-tile{width:auto!important;height:auto!important;min-width:0;min-height:0;padding:0!important;box-shadow:none;border-radius:1.5px}
+.ld-th.is-tile img{object-fit:cover!important}
+.ld-th.is-tile:not(.has-img) b{display:none}
+
+/* ---- months folded (an older record) ---- */
+.ld-month.is-folded{margin-top:0}
+.ld-month+.ld-month.is-folded,.ld-year+.ld-month.is-folded{margin-top:26px}
+.ld-month.is-folded+.ld-month.is-folded{margin-top:0}
+.ld-fold{display:grid;gap:6px;width:100%;padding:16px 0 18px;border-top:1px solid var(--ld-rule)}
+.ld-fold:hover .ld-fold-name{color:#fffaf0}
+.ld-fold-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.ld-fold-name{font:400 23px/1.1 var(--ld-serif);letter-spacing:-.3px;color:var(--ld-ink)}
+.ld-strip{display:flex;align-items:flex-end;gap:6px;height:42px;margin-top:6px;overflow:hidden}
+.ld-th.is-strip.is-video{width:56px;height:32px}
+.ld-th.is-strip:is(.is-book,.is-film){width:28px;height:42px}
+.ld-th.is-strip.is-reel{width:24px;height:42px}
+.ld-th.is-strip.is-link{width:48px;height:32px}
+
+/* ---- places: the second way in ---- */
+.ld-index{margin-top:4px}
+.ld-subject{margin-top:28px}
+.ld-subject>h2{padding-bottom:10px;border-bottom:1px solid var(--ld-rule);font:400 25px/1.15 var(--ld-serif);letter-spacing:-.3px;color:var(--ld-ink)}
+.ld-field{padding:4px 0 8px;border-bottom:1px solid var(--ld-rule)}
+.ld-region{border-bottom:1px solid var(--ld-rule)}
+.ld .ld-region-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;width:100%;padding:16px 0 2px;font:italic 400 17px/1.25 var(--ld-serif);color:var(--ld-ink-2)}
+.ld-region-head i{font:400 12.5px/1 var(--ld-sans);color:var(--ld-ink-3);font-variant-numeric:tabular-nums}
+.ld-region-head:hover{color:var(--ld-ink)}
+.ld-region>ul{margin-left:0}
+.ld-region .ld-field:last-child{border-bottom:0}
+.ld-subject-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;width:100%;padding-bottom:10px;border-bottom:1px solid var(--ld-rule)}
+.ld-subject-row h2{font:400 25px/1.15 var(--ld-serif);letter-spacing:-.3px;color:var(--ld-ink)}
+.ld-subject-row i{font-style:normal;font-size:12.5px;color:var(--ld-ink-3);font-variant-numeric:tabular-nums}
+/* A place row keeps its name and state whole. Its step sits beside them while there is room and moves under
+   the name, lined up with it, when there is not (the row's left padding is that line; the name's button pulls
+   back over it). A step wider than its own line cuts only the place it names. */
+.ld-prow{--ld-prow-in:26px;display:flex;flex-wrap:wrap;align-items:center;column-gap:14px;min-width:0;padding-left:var(--ld-prow-in)}
+.ld-prow-main{flex:1 1 auto;display:grid;grid-template-columns:14px minmax(0,1fr) auto;align-items:center;column-gap:12px;min-width:0;min-height:44px;margin-left:calc(-1*var(--ld-prow-in));padding:6px 0}
+.ld-prow-main .ld-dot{justify-self:center}
+.ld-prow-text{min-width:0}
+.ld-prow-text b{display:block;font:400 17px/1.25 var(--ld-serif);color:var(--ld-ink);overflow-wrap:break-word}
+.ld-prow.is-field .ld-prow-text b{font-size:20px}
+.ld-prow.is-field .ld-dot{width:10px;height:10px}
+.ld-prow-text small{display:block;margin-top:1px;font-size:12.5px;color:var(--ld-ink-3)}
+.ld-prow-main i{font-style:normal;font-size:12.5px;color:var(--ld-ink-3);font-variant-numeric:tabular-nums}
+.ld-prow-main:hover b{color:#fffaf0}
+.ld-prow .ld-step{flex:0 1 auto;min-width:0;max-width:100%;margin:0}
+.ld-prow .ld-step span{min-width:0;overflow:hidden;text-overflow:ellipsis;padding-bottom:7px;margin-bottom:-7px}
+.ld-inner{margin-left:26px}
+.ld-inner .ld-prow-main{min-height:42px;padding:4px 0}
+.ld-inner .ld-prow-text b{font-size:16.5px}
+.ld-index.is-flat{margin-top:0}
+.ld-index.is-flat>.ld-prow{border-bottom:1px solid var(--ld-rule);padding-block:3px}
+.ld-index~.ld-pill{margin-top:22px}
+
+/* ---- collections ---- */
+.ld-colls{margin-top:14px}
+.ld-colls ul{border-top:1px solid var(--ld-rule)}
+.ld-colls li{border-bottom:1px solid var(--ld-rule)}
+.ld-coll{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;padding:14px 0}
+.ld-coll-text{min-width:0}
+.ld-coll-text b{display:block;font:400 20px/1.2 var(--ld-serif);color:var(--ld-ink)}
+.ld-coll-text small{display:block;margin-top:3px;font-size:12.5px;color:var(--ld-ink-3)}
+.ld-coll-strip{display:flex;align-items:flex-end;gap:5px;flex:none;height:42px}
+.ld-colls>.ld-quiet{margin-top:10px}
+
+/* ---- search ---- */
+.ld-found{margin-top:16px;font:italic 400 16px/1.4 var(--ld-serif);color:var(--ld-ink-3)}
+.ld-sec{margin-top:22px}
+.ld-sec>h2{padding-bottom:10px;border-bottom:1px solid var(--ld-rule);font:400 21px/1.2 var(--ld-serif);color:var(--ld-ink)}
+.ld-list>.ld-e{padding:14px 0;border-bottom:1px solid var(--ld-rule)}
+.ld-more{height:1px}
+
+/* ---- a place, a collection ---- */
+.ld-back{display:inline-flex;align-items:center;gap:2px;height:36px;margin:0 0 2px -6px;padding-right:8px;font-size:14px;color:var(--ld-ink-2)}
+.ld-back:hover{color:var(--ld-ink)}
+.ld-path{margin-top:6px;font-size:13px;color:var(--ld-ink-3)}
+.ld-place-head h1{margin-top:6px;font:400 38px/1.04 var(--ld-serif);letter-spacing:-.8px;color:var(--ld-ink);overflow-wrap:break-word}
+.ld-state{display:flex;align-items:center;gap:9px;margin-top:12px;font:italic 400 16px/1.35 var(--ld-serif);color:var(--ld-ink-2)}
+.ld-state em{font-style:inherit;min-width:0}
+.ld-state>.ld-dot{width:11px;height:11px}
+.ld-state.is-chips{flex-wrap:wrap;gap:4px 12px;font:400 13px/1.4 var(--ld-sans);color:var(--ld-ink-3)}
+.ld-place-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin-top:16px}
+.ld-pill{display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 15px 0 12px;border-radius:18px;font-size:13.5px;color:var(--ld-ink);box-shadow:inset 0 0 0 1px var(--ld-rule-2)}
+.ld-pill:hover{background:var(--ld-raised)}
+.ld-pill svg{width:16px;height:16px;color:var(--ld-ink-2)}
+.ld-place-actions .ld-step{margin:0;font-size:14px}
+.ld-here{margin-top:28px}
+.ld-place .ld-log>.ld-month:first-child{margin-top:32px}
+
+/* ---- the month, floating in the top row on a phone, and the months to jump to ---- */
+.ld-month-pill{position:fixed;z-index:12;top:calc(var(--safe-top,0px) + 6px);left:50%;transform:translateX(-50%);max-width:calc(100vw - 124px);height:44px;padding:0 18px;border:0;border-radius:22px;
+ background:rgb(24 22 19/.88);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);box-shadow:inset 0 0 0 1px rgb(238 232 220/.13),0 8px 24px -10px rgb(0 0 0/.75);
+ color:#eee8dc;font:400 16px/44px 'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;
+ -webkit-tap-highlight-color:transparent;animation:ld-pill-in .18s ease-out}
+.ld-month-pill:focus-visible{outline:2px solid #cdc6b9;outline-offset:2px}
+@keyframes ld-pill-in{from{opacity:0;transform:translate(-50%,-4px)}}
+@media(min-width:801px){.ld-month-pill{display:none}}
+.ld-contents{display:grid}
+.ld-contents button{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:4px 12px;width:100%;padding:12px 0;border-bottom:1px solid var(--ld-rule)}
+.ld-contents-name{font:400 20px/1.2 var(--ld-serif);color:var(--ld-ink)}
+.ld-contents i{font-style:normal;font-size:12.5px;color:var(--ld-ink-3);font-variant-numeric:tabular-nums}
+.ld-contents .ld-proved{grid-column:1/-1}
+.ld-contents-year{padding:20px 0 6px;font:400 28px/1 var(--ld-serif);color:var(--ld-ink-3)}
+.ld-months-sheet .ld-contents{margin-top:4px}
+
+/* ---- sheets: the Library's own, in this page's ink ---- */
+.ld .ld-sheets{position:absolute;top:0;left:0;width:0;height:0;padding:0;margin:0;max-width:none}
+.ld .lib-sheet{background:var(--ld-sheet);box-shadow:0 -1px 0 rgb(238 232 220/.07),0 -24px 48px -12px #000}
+.ld .lib-sheet-foot{background:linear-gradient(0deg,var(--ld-sheet) 70%,transparent)}
+.ld .lib-sheet-backdrop{background:rgb(6 5 4/.6)}
+.ld .lib-search{background:var(--ld-raised)}
+.ld-sheet-head{display:flex;align-items:center;gap:10px;margin:6px 0 12px}
+.ld-name-field{flex:1;min-width:0;height:46px;padding:0;background:none;border:0;border-bottom:1px solid var(--ld-rule-2);border-radius:0;outline:0;color:var(--ld-ink);font:400 24px/1.1 var(--ld-serif)}
+.ld-name-field::placeholder{color:var(--ld-ink-4)}
+.ld-search.is-sheet{margin:0 0 6px}
+.ld-pick>li>button{display:grid;grid-template-columns:56px minmax(0,1fr) 22px;align-items:center;gap:12px;width:100%;padding:9px 0;border-bottom:1px solid var(--ld-rule)}
+.ld-pick .ld-th{justify-self:center;transform:scale(.8)}
+.ld-pick-quote{justify-self:center;font:italic 400 26px/1 var(--ld-serif);color:var(--ld-ink-3)}
+.ld-tick{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--ld-rule-3);color:#15130f}
+.ld-tick.is-on{background:var(--ld-ink);box-shadow:none}
+.ld-tick svg{width:14px;height:14px}
+.ld-sheet-foot{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ld-sheet-foot .ld-solid{margin-left:auto}
+.studio-shell:has(.ld) .capture-dialog{
+ --atlas-input:#1c1a16;--atlas-border:rgb(238 232 220/.19);--atlas-border-strong:rgb(238 232 220/.26);--atlas-rule:rgb(238 232 220/.1);--atlas-highlight:#f3eee4;--atlas-pale:#e4ddd0;--atlas-muted:#9b9387;--atlas-text:#eee8dc;
+ --atlas-secondary:#cdc6b9;--atlas-faint:#6f685f;--atlas-bright:#f8f3ea;--atlas-margin:#151310;--atlas-paper:#1a1815;--atlas-raised:#1e1c18;--atlas-hover:#25221d;--atlas-selected:#2d2a24;
+ --atlas-button-top:#eee8dc;--atlas-button-bottom:#e2dbcd;--atlas-button-ink:#15130f;--accent:#eee8dc;--accent-line:rgb(238 232 220/.3);--accent-soft:rgb(238 232 220/.08);--accent-glow:transparent;
+ --atlas-serif:'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;
+ background:#191714;border-color:rgb(238 232 220/.1);box-shadow:0 30px 80px -20px #000}
+.studio-shell:has(.ld) .modal-backdrop:has(.capture-dialog){background:rgb(6 5 4/.6)}
+
+/* ---- a desktop: rails either side of the record ---- */
+@media(min-width:801px){
+ .ld-page.is-desk{max-width:1320px;padding:28px clamp(28px,3vw,40px) 80px;display:grid;grid-template-columns:240px minmax(0,1fr);column-gap:clamp(36px,4vw,56px);align-items:start}
+ .ld-page.is-desk>.ld-problem{grid-column:1/-1}
+ .ld-main{width:100%;max-width:720px;justify-self:center}
+ .ld-rail,.ld-side{position:sticky;top:calc(var(--chrome-top) + 28px);max-height:calc(100vh - var(--chrome-top) - 56px);overflow:auto;scrollbar-width:none}
+ .ld-rail::-webkit-scrollbar,.ld-side::-webkit-scrollbar{display:none}
+ .ld-rail .ld-head{margin-top:0}
+ .ld-rail .ld-head h1{font-size:46px;letter-spacing:-1px}
+ .ld-rail .ld-search{margin-top:20px;height:42px}
+ .ld-rail .ld-search input,.ld-rail .ld-search input::placeholder{font-size:16px}
+ .ld-kinds{display:grid;margin-top:16px}
+ .ld-kinds button{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:7px 0;font-size:14.5px;color:var(--ld-ink-3)}
+ .ld-kinds button i,.ld-rail-colls button i{font-style:normal;font-size:12.5px;color:var(--ld-ink-4);font-variant-numeric:tabular-nums}
+ .ld-kinds button:hover,.ld-rail-colls button:hover{color:var(--ld-ink-2)}
+ .ld-kinds button[aria-pressed=true],.ld-rail-colls button[aria-pressed=true]{color:var(--ld-ink);font-weight:500}
+ .ld-rail-sec{margin-top:30px}
+ :is(.ld-rail-sec,.ld-side)>h3{padding-bottom:9px;border-bottom:1px solid var(--ld-rule);font:400 19px/1.2 var(--ld-serif);color:var(--ld-ink)}
+ .ld-contents.is-rail{margin-top:4px}
+ .ld-contents.is-rail button{padding:7px 0;border:0}
+ .ld-contents.is-rail .ld-contents-name{font-size:16px;color:var(--ld-ink-2)}
+ .ld-contents.is-rail button:hover .ld-contents-name{color:var(--ld-ink)}
+ .ld-rail-colls{margin-top:4px}
+ .ld-rail-colls button{display:flex;justify-content:space-between;gap:10px;width:100%;padding:7px 0;font-size:14px;color:var(--ld-ink-2)}
+ .ld-rail-sec .ld-quiet{margin-top:2px;font-size:13.5px;color:var(--ld-ink-3)}
+
+ .ld-main>.ld-home>.ld-log>.ld-month:first-child,.ld-main>.ld-home>.ld-log>.ld-year:first-child{margin-top:4px}
+ .ld-month-head h2{font-size:40px;letter-spacing:-.8px}
+ .ld-days::before{left:52px}
+ .ld-day{grid-template-columns:40px minmax(0,1fr);column-gap:32px;padding-bottom:30px}
+ .ld-day::after{left:49px;top:7px}
+ .ld-day.is-lit::after{left:48px;top:6px}
+ .ld-date small{font-size:12px}
+ .ld-date b{font-size:26px}
+ .ld-entries{gap:20px}
+ .ld-e-main{grid-template-columns:120px minmax(0,1fr);column-gap:20px}
+ .ld-e-t{font-size:16px;-webkit-line-clamp:2}
+ .ld-e-t i{font-size:14px}
+ .ld-e-m{font-size:13px;margin-top:6px}
+ .ld-e.is-note .ld-e-t{font-size:20px}
+ .ld-e-p{font-size:27px}
+ .ld-e-p.is-quiet{font-size:20px}
+ .ld .ld-today-name{font-size:23px}
+ .ld-th.is-video{width:120px;height:68px}
+ .ld-th:is(.is-book,.is-film){width:60px;height:90px}
+ .ld-th.is-reel{width:51px;height:90px}
+ .ld-th.is-link{width:120px;height:80px}
+ .ld-th.is-link:not(.has-img){width:72px;height:72px;font-size:28px}
+ .ld-th:not(.has-img):is(.is-book,.is-film,.is-video,.is-reel){font-size:10px;padding:5px}
+ .ld-th.is-coll{width:72px;height:72px}
+ .ld-began{padding-left:84px}
+ .ld-began::before{left:49px}
+ .ld-strip{height:54px;gap:8px}
+ .ld-th.is-strip.is-video{width:72px;height:41px}
+ .ld-th.is-strip:is(.is-book,.is-film){width:36px;height:54px}
+ .ld-th.is-strip.is-reel{width:31px;height:54px}
+ .ld-th.is-strip.is-link{width:60px;height:40px}
+ .ld-fold-name{font-size:26px}
+ .ld-place-head h1{font-size:48px;letter-spacing:-1.1px}
+ .ld-state{font-size:18px}
+ .ld-results .ld-found{margin-top:4px}
+ .ld-main>.ld-home>.ld-index>.ld-subject:first-child{margin-top:4px}
+
+ /* the places rail */
+ .ld-side .ld-index{margin-top:0}
+ .ld-index.is-compact .ld-subject{margin-top:16px}
+ .ld-index.is-compact .ld-subject>h2{padding:0 0 4px;border:0;font:400 13px/1.3 var(--ld-sans);color:var(--ld-ink-3)}
+ .ld-index.is-compact .ld-field{padding:0 0 4px;border:0}
+ .ld-index.is-compact .ld-region{border:0}
+ .ld .ld-index.is-compact .ld-region-head{padding:8px 0 2px;font-size:15.5px}
+ .ld-index.is-compact .ld-subject-row{padding:0;border:0}
+ .ld-index.is-compact .ld-subject-row h2{font:400 13px/1.3 var(--ld-sans);color:var(--ld-ink-3)}
+ .ld-index.is-compact .ld-prow{--ld-prow-in:24px}
+ .ld-index.is-compact .ld-prow-main{min-height:30px;padding:4px 0;column-gap:10px}
+ .ld-index.is-compact .ld-prow-text b{font:400 14.5px/1.3 var(--ld-sans);color:var(--ld-ink-2)}
+ .ld-index.is-compact .ld-prow.is-field .ld-prow-text b{font:400 16.5px/1.25 var(--ld-serif);color:var(--ld-ink)}
+ .ld-index.is-compact .ld-prow-text small{font-size:12px}
+ .ld-index.is-compact .ld-inner{margin-left:24px}
+ .ld-index.is-compact .ld-step{font-size:12.5px;min-height:24px}
+ .ld-side .ld-pill{margin-top:18px}
+}
+@media(min-width:1181px){
+ .ld-page.is-desk{grid-template-columns:240px minmax(0,1fr) 280px}
+}
+@media(prefers-reduced-motion:reduce){.ld-month-pill{animation:none}}

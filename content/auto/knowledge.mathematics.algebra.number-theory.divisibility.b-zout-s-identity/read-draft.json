@@ -1,0 +1,56 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What it says",
+   "cites": [
+    1,
+    3,
+    36,
+    37
+   ],
+   "text": "Bézout's identity is about the greatest common divisor d of two integers a and b. It says there are always integers x and y with ax + by = d. These two multipliers are called Bézout coefficients, and they are not unique. For example, the greatest common divisor of 15 and 69 is 3, and 15(−9) + 69(2) = 3, so (−9, 2) is one pair of Bézout coefficients."
+  },
+  {
+   "heading": "Finding the coefficients",
+   "cites": [
+    2,
+    3,
+    4,
+    9,
+    15
+   ],
+   "text": "The extended Euclidean algorithm computes a pair of Bézout coefficients, and the pair it gives is always a minimal one, meaning |x| ≤ |b/d| and |y| < |a/d|. When a and b are not both zero, one known pair gives you all the others: each has the form (x − kb/d, y + ka/d) for some integer k. For 15 and 69, the pair (−9, 2) is minimal, and the other minimal pair is (14, −3)."
+  },
+  {
+   "heading": "What follows from it",
+   "cites": [
+    5,
+    28,
+    29,
+    30,
+    43
+   ],
+   "text": "Many other results in elementary number theory, such as Euclid's lemma and the Chinese remainder theorem, can be derived from Bézout's identity. A quick consequence concerns coprime integers a and b: the identity gives integers x and y with ax + by = 1. Multiplying both sides by any integer n gives a(xn) + b(yn) = n, so every integer can be built from two coprime integers this way. The identity also settles exactly which water pouring puzzles can be solved."
+  },
+  {
+   "heading": "Beyond whole numbers",
+   "cites": [
+    6,
+    7,
+    31,
+    32,
+    33
+   ],
+   "text": "The identity holds in more places than the integers. It is true in every principal ideal domain, and any integral domain where it holds is called a Bézout domain. It also works for polynomials in one variable whose coefficients come from a field. But it can fail when the coefficients are integers: x is the greatest common divisor of 2x and x², yet no such polynomials p(x) and q(x) make 2xp(x) + x²q(x) = x."
+  },
+  {
+   "heading": "Who it is named for",
+   "cites": [
+    40,
+    41,
+    42
+   ],
+   "text": "The French mathematician Étienne Bézout (1730–1783) proved the identity for polynomials. The version for integers already appears in the work of an earlier Frenchman, Claude Gaspard Bachet de Méziriac (1581–1638). Andrew Granville traced the use of Bézout's name to Bourbaki and called that a misattribution, because the identity is already implicit in Euclid's Elements."
+  }
+ ]
+}

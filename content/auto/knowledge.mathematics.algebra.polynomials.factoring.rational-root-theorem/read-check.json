@@ -1,0 +1,34 @@
+{
+ "readHash": "5d8316b2564cc2af15ab82152df766bfbeba85d6",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Constraint on rational solutions, integer coefficients, a0 and an nonzero, alternate names and roots/zeros all in [1],[2]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Finds all rational roots [5], finite checkable candidates [6], factoring out (x-r) by long division gives lower-degree polynomial [7]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Clearing by q^n [12], factoring p [13], coprime plus Euclid's lemma gives p divides a0 [14], q rearrangement against an [15]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Both examples, candidate lists, results and the three-roots remark match [21]-[25]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Eight candidates [26], tedious/tricks [29], negatives excluded [30], P(1)=1 [31], 2 ruled out [33], only P(2/3) computed [34], single root 2/3 [28]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Three complex solutions [8], cube roots if no rational root [9], quadratic formula after factoring out (x-r) [10]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Special case of Gauss's lemma for a single linear factor [3]; integral root theorem when an=1 [4]."
+  }
+ }
+}

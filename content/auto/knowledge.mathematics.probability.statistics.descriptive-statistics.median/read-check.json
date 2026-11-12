@@ -1,0 +1,34 @@
+{
+ "readHash": "f4a0cd0a88e9c91db0be7307fcfbe89c11db8114",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Splits higher/lower half, middle value, sort and take middle: 1,2,7."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Not skewed by extremes, income example where largest incomes rising leaves median unchanged, robust statistics: 3,4,5."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Reduced weight on extremes for skew/unknown/untrustworthy outliers, no need to know extremes, psychology test example: 20,24,25."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Ordered data, no metric, F-to-A grades, odd vs even students: 12,13,14."
+  },
+  "r4": {
+   "supported": true,
+   "why": "2-quantile splitting into two equal parts, 2nd quartile, 5th decile, 50th percentile: 6,19."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Symmetric unimodal median=mode, normal mean=median=mode, uniform (a+b)/2, exponential ln2/lambda: 36,39,40,43."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Popular because simple and robust (26), 64% efficiency / ~50% larger variance for large normal samples (32), mean more efficient only when uncontaminated (31)."
+  }
+ }
+}

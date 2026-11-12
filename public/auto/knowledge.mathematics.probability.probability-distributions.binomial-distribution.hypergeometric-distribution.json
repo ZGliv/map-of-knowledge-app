@@ -1,0 +1,329 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution",
+ "name": "Hypergeometric distribution",
+ "summary": [
+  {
+   "text": "The hypergeometric distribution covers draws without replacement from a finite population, where each result falls into one of two categories such as pass or fail.",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Because each draw shrinks the population, the probability of a success changes on every draw.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "A typical case is an urn of 5 green and 45 red marbles, drawing 10 without replacement and asking for exactly 4 green.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sampling type",
+   "value": "Without replacement from a finite population",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Two categories",
+   "value": "Each result is one of two exclusive groups, like pass or fail",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Marble example",
+   "value": "5 green and 45 red marbles, 10 drawn",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "label": "Matching test",
+   "value": "The hypergeometric test equals a one-tailed Fisher's exact test",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "One-draw case",
+   "value": "With a single draw it becomes a Bernoulli distribution",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You pull marbles out of an urn and keep each one out. Why does the chance of drawing a green one change from draw to draw?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Marbles change colour while in the urn"
+    },
+    {
+     "id": "b",
+     "label": "The urn is shaken harder each time"
+    },
+    {
+     "id": "c",
+     "label": "Each draw removes a marble, which shrinks the population"
+    },
+    {
+     "id": "d",
+     "label": "Green marbles are heavier and sink"
+    }
+   ],
+   "answer": "c",
+   "explain": "Sampling without replacement from a finite population means each draw decreases the population, so the success probability changes.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution:q1"
+  },
+  {
+   "prompt": "An urn holds 5 green and 45 red marbles, and you draw 10 without looking. Which is more likely: exactly 4 green or all 5 green?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 4 green, by a wide margin"
+    },
+    {
+     "id": "b",
+     "label": "All 5 green, since green is the focus"
+    },
+    {
+     "id": "c",
+     "label": "They are about equally likely"
+    },
+    {
+     "id": "d",
+     "label": "Neither can happen with only 10 draws"
+    }
+   ],
+   "answer": "a",
+   "explain": "Getting all 5 green among the 10 drawn is far harder; it is roughly 35 times less likely than getting 4.",
+   "cites": [
+    19,
+    20,
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution:q2"
+  },
+  {
+   "prompt": "Each item drawn from a pool is sorted into one of two exclusive categories. Which pair of categories fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Low, medium or high"
+    },
+    {
+     "id": "b",
+     "label": "Red, green or blue"
+    },
+    {
+     "id": "c",
+     "label": "Pass or fail"
+    },
+    {
+     "id": "d",
+     "label": "Any whole number from 1 to 80"
+    }
+   ],
+   "answer": "c",
+   "explain": "The results fall into two mutually exclusive categories, as with pass or fail.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution:q3"
+  },
+  {
+   "prompt": "You draw 10 raffle tickets from a bin of 40, putting each ticket back before the next draw, and count the winners. Which distribution describes that count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric distribution"
+    },
+    {
+     "id": "b",
+     "label": "Geometric distribution"
+    },
+    {
+     "id": "c",
+     "label": "Multivariate distribution"
+    },
+    {
+     "id": "d",
+     "label": "Binomial distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "Drawing with replacement gives the binomial distribution; the hypergeometric one is for draws without replacement.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution:q4"
+  },
+  {
+   "prompt": "A lab finds k cells of one type in a sample and tests whether that type is under-represented. What does the p-value measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of randomly drawing k or more of that type"
+    },
+    {
+     "id": "b",
+     "label": "The chance of randomly drawing k or fewer of that type"
+    },
+    {
+     "id": "c",
+     "label": "The chance of randomly drawing exactly k of that type"
+    },
+    {
+     "id": "d",
+     "label": "The chance of drawing none of that type at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "In a test for under-representation, the p-value is the probability of randomly drawing k or fewer successes.",
+   "cites": [
+    31,
+    33
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution:q5"
+  },
+  {
+   "prompt": "A marketing group wants to know whether a subgroup, such as people under 30, is over-represented among its known customers. Which approach fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A hypergeometric test"
+    },
+    {
+     "id": "b",
+     "label": "Counting customers by age and reporting the largest group"
+    },
+    {
+     "id": "c",
+     "label": "Checking whether each customer bought more than once"
+    },
+    {
+     "id": "d",
+     "label": "Asking each subgroup to vote on its share"
+    }
+   ],
+   "answer": "a",
+   "explain": "The hypergeometric test is often used to identify which sub-populations are over- or under-represented in a sample, including testing customers for over-representation of demographic subgroups.",
+   "cites": [
+    36,
+    38
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/HypergeometricPDF.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Hypergeometric distribution",
+  "credit": "Fuzzyrandom",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:HypergeometricPDF.png"
+ },
+ "source": {
+  "title": "Hypergeometric distribution",
+  "url": "https://en.wikipedia.org/wiki/Hypergeometric_distribution",
+  "revision": 1364778061
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Drawing without putting back",
+    "text": "The hypergeometric distribution gives the chance of getting k successes in n draws from a finite population of size N, when nothing drawn is returned. Exactly K members of the population have the feature you count as a success, and every draw is either a success or a failure. Each item falls into one of two categories that exclude each other, such as pass and fail, or employed and unemployed. A variable with this distribution is written X ∼ Hypergeometric (N, K, n).",
+    "cites": [
+     1,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "How it differs from the binomial",
+    "text": "Because each draw removes an item, the population shrinks and the chance of a success changes from one draw to the next. The binomial distribution covers the other case, k successes in n draws where each item goes back before the next draw. With just one draw, n = 1, the hypergeometric becomes a Bernoulli distribution. A related pair mirrors this: the multinomial distribution is the with-replacement case, and the multivariate hypergeometric is the without-replacement one.",
+    "cites": [
+     2,
+     5,
+     39,
+     43
+    ]
+   },
+   {
+    "heading": "Green and red marbles",
+    "text": "Say an urn holds 5 green marbles and 45 red ones. With your eyes shut, you take out 10 marbles and do not put any back. The hypergeometric distribution tells you how likely it is that exactly 4 of the 10 are green. Getting all 5 green marbles in your handful is less likely still: roughly 35 times less likely than getting 4.",
+    "cites": [
+     19,
+     20,
+     21,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "A hidden symmetry",
+    "text": "Imagine two rounds of drawing from N plain marbles, neither round putting marbles back while it runs. In the first round you draw K of them, paint them green, and return them to the urn. In the second you draw n and paint those red. The count of marbles that end up with both colours follows a hypergeometric distribution. Since the two rounds are independent, you could just as well have painted the red ones first, which is why K and n can trade places.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "The hypergeometric test",
+    "text": "The hypergeometric test uses this distribution to measure how statistically significant it is to find k successes in a sample of n draws. To test whether successes are over-represented, the p-value is the chance of randomly drawing k or more of them. To test for under-representation, it is the chance of drawing k or fewer. This test matches the one-tailed version of Fisher's exact test.",
+    "cites": [
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Putting the test to work",
+    "text": "The test is often used to spot which sub-groups appear more or less than expected in a sample, and its uses are broad. A marketing team, for example, could run it on a set of known customers. That would show whether groups such as women or people under 30 are over-represented among them.",
+    "cites": [
+     36,
+     37,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-stats-4-5",
+   "kind": "book",
+   "title": "4.5 Hypergeometric Distribution",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-5-hypergeometric-distribution",
+   "note": "A free textbook section on the hypergeometric distribution for draws without replacement, with examples.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

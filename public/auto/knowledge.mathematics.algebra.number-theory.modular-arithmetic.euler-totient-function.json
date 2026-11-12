@@ -1,0 +1,322 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function",
+ "name": "Euler totient function",
+ "summary": [
+  {
+   "text": "Euler's totient function counts the positive integers up to a given number n that are relatively prime to n, meaning their greatest common divisor with n is 1.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "For n = 9 it counts the six numbers 1, 2, 4, 5, 7 and 8, and leaves out 3, 6 and 9.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "It is multiplicative for relatively prime numbers, gives the size of the group of integers modulo n, and is used to define the RSA encryption system.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Count for 9",
+   "value": "Six of the numbers 1 to 9 are relatively prime to 9",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Count for 20",
+   "value": "Eight numbers: 1, 3, 7, 9, 11, 13, 17, 19",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Introduced",
+   "value": "Leonhard Euler introduced it in 1763",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Name 'totient'",
+   "value": "Coined by Sylvester",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Modern symbol",
+   "value": "The Greek letter phi, standard since Gauss's 1801 book",
+   "cites": [
+    2,
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "How many of the numbers from 1 to 9 share no common divisor with 9 other than 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three"
+    },
+    {
+     "id": "b",
+     "label": "Six"
+    },
+    {
+     "id": "c",
+     "label": "Eight"
+    },
+    {
+     "id": "d",
+     "label": "Nine"
+    }
+   ],
+   "answer": "b",
+   "explain": "The numbers 1, 2, 4, 5, 7 and 8 qualify; 3, 6 and 9 share the divisor 3 or 9 with 9.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function:q1"
+  },
+  {
+   "prompt": "For n = 1, the only number in the range from 1 to n is 1 itself. What does the totient count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero numbers"
+    },
+    {
+     "id": "b",
+     "label": "Two numbers"
+    },
+    {
+     "id": "c",
+     "label": "One number"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be defined"
+    }
+   ],
+   "answer": "c",
+   "explain": "gcd (1, 1) = 1, so 1 counts and φ(1) = 1.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function:q2"
+  },
+  {
+   "prompt": "The totient of 9 is 6 and the totient of 20 is 8. Since 9 and 20 share no factor but 1, what is the totient of 180, their product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "14"
+    },
+    {
+     "id": "b",
+     "label": "54"
+    },
+    {
+     "id": "c",
+     "label": "90"
+    },
+    {
+     "id": "d",
+     "label": "48"
+    }
+   ],
+   "answer": "d",
+   "explain": "For relatively prime numbers φ(mn) = φ(m)φ(n), so the totient of 180 is the product of 6 and 8, which is 48.",
+   "cites": [
+    5,
+    8,
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function:q3"
+  },
+  {
+   "prompt": "Which number is among the eight that share no common divisor with 20 other than 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "9"
+    },
+    {
+     "id": "b",
+     "label": "10"
+    },
+    {
+     "id": "c",
+     "label": "12"
+    },
+    {
+     "id": "d",
+     "label": "15"
+    }
+   ],
+   "answer": "a",
+   "explain": "The list is 1, 3, 7, 9, 11, 13, 17, 19. The others share 2 or 5 with 20.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function:q4"
+  },
+  {
+   "prompt": "Which widely used method of encrypting messages relies on this counting function in its definition?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Morse code"
+    },
+    {
+     "id": "b",
+     "label": "A simple letter-shift cipher"
+    },
+    {
+     "id": "c",
+     "label": "RSA encryption"
+    },
+    {
+     "id": "d",
+     "label": "A hash of the file"
+    }
+   ],
+   "answer": "c",
+   "explain": "The function is used for defining the RSA encryption system.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function:q5"
+  },
+  {
+   "prompt": "For n = 20, you work out n − φ(n). What does the result count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Numbers up to 20 sharing at least one prime factor with 20"
+    },
+    {
+     "id": "b",
+     "label": "Numbers up to 20 that are prime"
+    },
+    {
+     "id": "c",
+     "label": "Numbers up to 20 sharing no factor with 20"
+    },
+    {
+     "id": "d",
+     "label": "Divisors of 20 only"
+    }
+   ],
+   "answer": "a",
+   "explain": "This is the cototient: n − φ(n) counts the positive integers up to n with a prime factor in common with n.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.euler-totient-function:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/EulerPhi.svg/960px-EulerPhi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Euler totient function",
+  "credit": "Pietro Battiston (it:User:Toobaz)",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:EulerPhi.svg"
+ },
+ "source": {
+  "title": "Euler's totient function",
+  "url": "https://en.wikipedia.org/wiki/Euler%27s_totient_function",
+  "revision": 1383434124
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it counts",
+    "text": "For a given whole number n, Euler's totient function counts how many of the numbers from 1 to n are relatively prime to n, meaning their greatest common divisor with n is 1. It is written with the Greek letter phi, as φ(n), and is also called Euler's phi function. The numbers it counts are sometimes called the totatives of n.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Two small examples",
+    "text": "Take n = 9. Of the numbers 1 to 9, six are relatively prime to it: 1, 2, 4, 5, 7 and 8. The remaining three, 3, 6 and 9, fail: their greatest common divisor with 9 is 3 for the first two and 9 for the last. At the other extreme, φ(1) = 1, because 1 is the only number in range and gcd(1, 1) = 1.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Counting for twenty",
+    "text": "For n = 20, the distinct prime factors are 2 and 5. Half of the numbers 1 to 20 are even, which leaves ten; a fifth of those ten are multiples of 5, which leaves eight. Those eight, 1, 3, 7, 9, 11, 13, 17 and 19, are the ones relatively prime to 20. A formula that uses only whole numbers, built from the prime factors 2² and 5¹, gives the same count, since 2⋅1⋅1⋅4 = 8.",
+    "cites": [
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Multiplying",
+    "text": "The function is multiplicative: when m and n are relatively prime, φ(mn) = φ(m)φ(n). One way to see this uses the Chinese remainder theorem. It matches each pair made of one number counted for m and one counted for n with exactly one number counted for mn.",
+    "cites": [
+     8,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "History and name",
+    "text": "Leonhard Euler introduced the function in 1763 but gave it no symbol at the time. In a 1784 publication he studied it further and used the Greek letter π for it. The symbol φ used today comes from Gauss's 1801 treatise Disquisitiones Arithmeticae, though Gauss wrote φA without parentheses. The name totient was coined by Sylvester.",
+    "cites": [
+     11,
+     12,
+     13,
+     15,
+     17
+    ]
+   },
+   {
+    "heading": "Groups and secret codes",
+    "text": "For the multiplicative group of integers modulo n, φ(n) gives the order of that group. It is also used to define the RSA encryption system. In RSA, the private decryption exponent d is the multiplicative inverse of the public encryption exponent e modulo φ(n). The private key holder builds n by multiplying two large, randomly chosen primes p and q, and so knows its factors. Only n is made public, and because large numbers are hard to factor, nobody else knows them.",
+    "cites": [
+     9,
+     10,
+     41,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "barrus-1-15",
+   "kind": "book",
+   "title": "1.15: Number Theoretic Functions",
+   "by": "Mike Barrus & W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Barrus_and_Clark)/01%3A_Chapters/1.15%3A_Number_Theoretic_Functions",
+   "note": "A free textbook section defining Euler's phi function, with its prime-power and product formulas and multiplicativity.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

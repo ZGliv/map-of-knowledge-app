@@ -1,0 +1,103 @@
+{
+ "title": "Slow rust, instant fire",
+ "question": "What makes some reactions fast and others slow?",
+ "hook": "Iron rusts over years while a fire burns in a blink, and the same few ideas explain both.",
+ "idea": "A reaction's speed depends on factors such as concentration and temperature, which change how often particles meet and how many of them react.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A fireplace holds coal and plenty of oxygen, yet at room temperature the coal does not burn. A lit match is held to it. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The coal catches and then keeps itself hot",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "The coal burns only for as long as the match stays there",
+     "feedback": "It tempts because the match seems to be the only heat source, but the burning gives off heat itself and keeps the reaction going."
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since coal cannot react with oxygen at any heat",
+     "feedback": "It tempts because nothing happens at room temperature, but the rate there is just too slow to notice, and heat changes that."
+    }
+   ],
+   "answer": "a",
+   "explain": "The reaction is spontaneous at high temperature but negligibly slow at room temperature. The match raises the temperature, and since the reaction is exothermic it then heats itself.",
+   "cites": [
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each change to what it does",
+   "pairs": [
+    [
+     "More concentrated reactant",
+     "Collisions happen more often"
+    ],
+    [
+     "Higher gas pressure",
+     "Equivalent to a rise in concentration"
+    ],
+    [
+     "Higher temperature",
+     "More colliding particles have the needed activation energy"
+    ]
+   ],
+   "explain": "Concentration and pressure raise how often particles collide, while temperature mainly raises how many collisions succeed.",
+   "cites": [
+    31,
+    32,
+    37
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A cook pours water into a pot of salty water.",
+    "The salt concentration in the pot goes down.",
+    "So the salt must have been used up in a chemical reaction.",
+    "The definition of rate applies only to a single reaction in a closed system of constant volume."
+   ],
+   "wrong": 2,
+   "explain": "Adding water lowers the salt concentration even though there is no chemical reaction, so a falling concentration alone does not show a reaction.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A chemist measures the rate of a typical reaction right at the start, and again once it is well under way. How do the two rates compare?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The later rate is lower",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "The later rate is higher, since products help the reaction along",
+     "feedback": "It tempts because products pile up, but for most reactions the rate falls as the reaction proceeds."
+    },
+    {
+     "id": "c",
+     "label": "The rates are identical throughout",
+     "feedback": "It tempts because a rate sounds like a fixed number, but it is usually measured from concentration changes that slow down."
+    }
+   ],
+   "answer": "a",
+   "explain": "For most reactions the rate decreases as the reaction proceeds.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ]
+}

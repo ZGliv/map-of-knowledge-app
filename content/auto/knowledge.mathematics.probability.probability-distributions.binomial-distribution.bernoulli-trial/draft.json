@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "A Bernoulli trial is a random experiment with exactly two possible outcomes, called success and failure.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is named after Jacob Bernoulli, a 17th-century Swiss mathematician who analysed such trials in his Ars Conjectandi (1713).",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Bernoulli trials can also lead to negative binomial distributions, which count successes in repeated trials until a set number of failures appears.",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Jacob Bernoulli, a 17th-century Swiss mathematician",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Fair coin",
+   "value": "Success probability is 0.5 by definition",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Die example",
+   "value": "Rolling a six counts as success; anything else is failure",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Coding convention",
+   "value": "1 stands for success and 0 for failure",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Formal version",
+   "value": "Known as the Bernoulli process",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A die has six faces. How can rolling it still count as a Bernoulli trial?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By counting a six as success and the other five faces as failure"
+    },
+    {
+     "id": "b",
+     "label": "By ignoring any roll that is not a six or a one"
+    },
+    {
+     "id": "c",
+     "label": "By giving each face its own success probability"
+    },
+    {
+     "id": "d",
+     "label": "It cannot, because a die has more than two outcomes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Grouping the outcomes into one event (a six) and its complement (not a six) leaves exactly two possibilities.",
+   "cites": [
+    1,
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "Which of these is a Bernoulli trial?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Measuring the height of one randomly chosen voter"
+    },
+    {
+     "id": "b",
+     "label": "Asking one random voter whether they will vote yes in a referendum"
+    },
+    {
+     "id": "c",
+     "label": "Recording the temperature on one randomly chosen day"
+    },
+    {
+     "id": "d",
+     "label": "Weighing one randomly chosen package of ham"
+    }
+   ],
+   "answer": "b",
+   "explain": "Asking a randomly chosen voter whether they will vote yes has just two outcomes, yes or no. The others give a range of measured values.",
+   "cites": [
+    1,
+    8
+   ]
+  },
+  {
+   "prompt": "You roll one fair die and count a six as success. What is the probability of failure on that roll?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1/6"
+    },
+    {
+     "id": "b",
+     "label": "1/2"
+    },
+    {
+     "id": "c",
+     "label": "5/6"
+    },
+    {
+     "id": "d",
+     "label": "1/5"
+    }
+   ],
+   "answer": "c",
+   "explain": "The chance of a six is p = 1/6, so the chance of anything else is q = 1 − p = 5/6.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "A statistician records every trial as a 1 or a 0. By the usual convention, what does a 1 stand for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Failure"
+    },
+    {
+     "id": "b",
+     "label": "The first trial in the series"
+    },
+    {
+     "id": "c",
+     "label": "A trial that did not happen"
+    },
+    {
+     "id": "d",
+     "label": "Success"
+    }
+   ],
+   "answer": "d",
+   "explain": "Random variables describing Bernoulli trials are usually coded 1 for success and 0 for failure.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A researcher runs several two-outcome trials, but each one has its own chance of success. What are these sometimes called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Poisson trials"
+    },
+    {
+     "id": "b",
+     "label": "Fair coin trials"
+    },
+    {
+     "id": "c",
+     "label": "Complement trials"
+    },
+    {
+     "id": "d",
+     "label": "Convention trials"
+    }
+   ],
+   "answer": "a",
+   "explain": "When multiple Bernoulli trials are performed, each with its own probability of success, they are sometimes referred to as Poisson trials.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "Mathematicians study a whole run of coin tosses with advanced tools. What is the formal theory of such repeated trials called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A binomial coefficient"
+    },
+    {
+     "id": "b",
+     "label": "A Bernoulli process"
+    },
+    {
+     "id": "c",
+     "label": "A single success"
+    },
+    {
+     "id": "d",
+     "label": "A die roll"
+    }
+   ],
+   "answer": "b",
+   "explain": "The mathematical formalization and advanced formulation of the Bernoulli trial is known as the Bernoulli process.",
+   "cites": [
+    3
+   ]
+  }
+ ]
+}

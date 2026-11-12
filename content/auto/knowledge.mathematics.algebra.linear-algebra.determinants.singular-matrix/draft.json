@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A singular matrix is a square matrix with no inverse, which is the same as det (A) = 0.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its columns and rows are linearly dependent, so the map it describes is not one-to-one and the equation Ax = 0 has nonzero solutions.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Singular matrices turn up in practice, for example in regression with collinear predictors and in projections from 3D to 2D.",
+   "cites": [
+    20,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Determinant test",
+   "value": "An n by n matrix is singular exactly when det (A) = 0",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Rank",
+   "value": "Singular means rank (A) < n",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Regression",
+   "value": "Collinear predictors make the normal equations matrix singular",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Graph Laplacian",
+   "value": "Always singular, since each row sums to zero",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Projections",
+   "value": "3D to 2D projections are modeled by singular matrices",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A square matrix has a determinant of zero. Someone tries to find another matrix that undoes it. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One always exists if you search long enough"
+    },
+    {
+     "id": "b",
+     "label": "None exists, because the matrix is not invertible"
+    },
+    {
+     "id": "c",
+     "label": "Exactly two exist, one for each side"
+    },
+    {
+     "id": "d",
+     "label": "One exists, but only for square roots"
+    }
+   ],
+   "answer": "b",
+   "explain": "A matrix is singular exactly when its determinant is zero, and singular means it has no inverse.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "A graphics program squashes 3D points onto a flat screen with a matrix. Why can it not recover the original 3D positions from the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The screen has far too many pixels to count"
+    },
+    {
+     "id": "b",
+     "label": "The matrix has too many rows to be undone"
+    },
+    {
+     "id": "c",
+     "label": "The depth values are always negative numbers"
+    },
+    {
+     "id": "d",
+     "label": "It collapses a dimension, so it is singular"
+    }
+   ],
+   "answer": "d",
+   "explain": "Projections from 3D to 2D are modeled by singular matrices because they collapse a dimension, and a projection cannot be inverted.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "In a regression, one input column is always exactly a multiple of another input column. What goes wrong with the normal equations matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes singular"
+    },
+    {
+     "id": "b",
+     "label": "It becomes the identity"
+    },
+    {
+     "id": "c",
+     "label": "It becomes triangular"
+    },
+    {
+     "id": "d",
+     "label": "It becomes smaller by one row"
+    }
+   ],
+   "answer": "a",
+   "explain": "Linearly dependent or collinear features make that matrix singular.",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "prompt": "A regression has two features that always move together. What is often the fix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Collect the same feature a third time"
+    },
+    {
+     "id": "b",
+     "label": "Multiply every entry by a large number"
+    },
+    {
+     "id": "c",
+     "label": "Drop or combine features, or use the pseudoinverse"
+    },
+    {
+     "id": "d",
+     "label": "Replace the data with all zeros"
+    }
+   ],
+   "answer": "c",
+   "explain": "The remedy is often to drop or combine features, or to use the pseudoinverse.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "prompt": "One column of a square matrix is exactly twice another column. What must be true of the map the matrix describes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is one-to-one and reversible"
+    },
+    {
+     "id": "b",
+     "label": "It maps every vector to zero"
+    },
+    {
+     "id": "c",
+     "label": "It doubles every vector"
+    },
+    {
+     "id": "d",
+     "label": "It is not one-to-one, so the matrix is singular"
+    }
+   ],
+   "answer": "d",
+   "explain": "A matrix is singular exactly when its columns are linearly dependent, and then the map is not one-to-one.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "You solve a system of equations by Gaussian elimination, but the coefficient matrix is singular. What often happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A zero pivot appears that row swaps cannot fix"
+    },
+    {
+     "id": "b",
+     "label": "Every pivot is nonzero and a single answer appears"
+    },
+    {
+     "id": "c",
+     "label": "Row swaps always repair the zero pivot"
+    },
+    {
+     "id": "d",
+     "label": "The answer is always exactly zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "With a singular matrix some pivots can be zero in a way row swaps cannot fix, and the result is often infinitely many solutions.",
+   "cites": [
+    9,
+    12
+   ]
+  }
+ ]
+}

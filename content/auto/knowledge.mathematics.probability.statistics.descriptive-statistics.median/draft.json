@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "The median of a set of numbers is the value separating the higher half from the lower half, so it can be thought of as the middle value.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "For a finite list of numbers, it is the middle number when they are arranged in order from smallest to greatest.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "text": "The median is not skewed by a small proportion of extreme values, so median income may describe the center of incomes better than the mean.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Finding it",
+   "value": "The middle number after sorting smallest to greatest",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Percentile",
+   "value": "The 50th percentile and the 2nd quartile",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Rich earners",
+   "value": "Raising the largest incomes alone has no effect",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Ranked grades",
+   "value": "Can be found for letter grades from F to A",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Unknown extremes",
+   "value": "Computable without knowing the extreme results",
+   "cites": [
+    24,
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Five test scores are 1, 3, 5, 7 and 30. What is their median?",
+   "options": [
+    {
+     "id": "a",
+     "label": "9.2"
+    },
+    {
+     "id": "b",
+     "label": "5"
+    },
+    {
+     "id": "c",
+     "label": "7"
+    },
+    {
+     "id": "d",
+     "label": "30"
+    }
+   ],
+   "answer": "b",
+   "explain": "The median is the middle number when arranged in order from smallest to greatest, which is 5 here.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "The richest person in a town doubles their income and no one else's income changes. What happens to the town's median income?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It does not change"
+    },
+    {
+     "id": "b",
+     "label": "It doubles"
+    },
+    {
+     "id": "c",
+     "label": "It rises slightly"
+    },
+    {
+     "id": "d",
+     "label": "It falls"
+    }
+   ],
+   "answer": "a",
+   "explain": "Increases in the largest incomes alone have no effect on the median.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "A teacher has only letter grades from F to A, no points. Can she find a median grade?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, a median needs numbers to add"
+    },
+    {
+     "id": "b",
+     "label": "Yes, ranking the grades is enough"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only after turning them into points"
+    },
+    {
+     "id": "d",
+     "label": "No, only the most common grade works"
+    }
+   ],
+   "answer": "b",
+   "explain": "The median is well-defined for any ordered data, so it can be applied to ranked grades that are not numerical.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "Four students are ranked by grade and the two middle ones got a B and a C. Where does the median fall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly at B, since it comes first"
+    },
+    {
+     "id": "b",
+     "label": "Exactly at C, since it comes last"
+    },
+    {
+     "id": "c",
+     "label": "At A, the top grade"
+    },
+    {
+     "id": "d",
+     "label": "Halfway between B and C"
+    }
+   ],
+   "answer": "d",
+   "explain": "With an even number of students, the result might be halfway between grades.",
+   "cites": [
+    1,
+    14
+   ]
+  },
+  {
+   "prompt": "In a problem-solving test, a few people never finished in time, so their times are unknown. Can a median time still be found?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since it rests on the middle data and not the extreme results"
+    },
+    {
+     "id": "b",
+     "label": "No, every result must be known"
+    },
+    {
+     "id": "c",
+     "label": "No, unless the unfinished people are removed first"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only by guessing their times"
+    }
+   ],
+   "answer": "a",
+   "explain": "Because the median is based on the middle data, the extreme results need not be known to calculate it.",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "A teacher splits her class into two equal-sized groups, lower and higher scorers. What is the score at the dividing line?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mean"
+    },
+    {
+     "id": "b",
+     "label": "The mode"
+    },
+    {
+     "id": "c",
+     "label": "The range"
+    },
+    {
+     "id": "d",
+     "label": "The median"
+    }
+   ],
+   "answer": "d",
+   "explain": "The median is the value that partitions a set into two equal parts, separating the higher half from the lower half.",
+   "cites": [
+    1,
+    6
+   ]
+  }
+ ]
+}

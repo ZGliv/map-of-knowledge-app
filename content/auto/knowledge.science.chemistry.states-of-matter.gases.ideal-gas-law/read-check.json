@@ -1,0 +1,34 @@
+{
+ "readHash": "b195aa9f8b978cb1b675b2910b8777038dadb41f",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Equation, symbol meanings and p/V/T fixing the state are all in [1] and [3]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Absolute temperature in kelvins, Kelvin offset, SI units and the three values of R match [5], [7], [8]."
+  },
+  "r2": {
+   "supported": false,
+   "why": "'One of them uses N' identifies the N/k_B form as one of the two main forms; [4] only says there are two forms and no cited sentence says which they are."
+  },
+  "r3": {
+   "supported": true,
+   "why": "No attractions, zero potential energy, all kinetic energy, and independent derivation by Kronig 1856 and Clausius 1857 match [2], [13]-[15]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Two-variable experiments, Boyle holding N and T, and no plain algebraic combination match [40], [43], [44]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Ideal-only scope, best at high T and low p, density and temperature explanations, and van der Waals match [34], [36]-[39]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Free expansion, real-gas interaction, Joule-Thomson name and 0.22 C/bar for air match [30]-[33]."
+  }
+ }
+}

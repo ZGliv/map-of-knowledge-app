@@ -1,0 +1,568 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.conditional-probability",
+ "name": "Conditional probability",
+ "summary": [
+  {
+   "text": "Conditional probability is the chance that one event happens once you already know another event has happened.",
+   "cites": [
+    2,
+    19,
+    38
+   ]
+  },
+  {
+   "text": "On a given day only 5% of people may be coughing, but a person known to be sick might cough 75% of the time, so the extra knowledge changes the odds.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The chance of A given B typically differs from the chance of B given A, and mixing the two up leads to reasoning errors such as base rate fallacies.",
+   "cites": [
+    7,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Cough example",
+   "value": "5% overall, but 75% for someone who is sick",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "label": "Test for independence",
+   "value": "If P(A∣B) equals P(A), the events are independent",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Dengue test",
+   "value": "90% of dengue patients test positive; only 15% of positives have it",
+   "cites": [
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Two dice",
+   "value": "Told the sum is at most 5, the first die is 2 with chance 3/10",
+   "cites": [
+    32,
+    35
+   ]
+  },
+  {
+   "label": "Undefined case",
+   "value": "If P(B) = 0, P(A∣B) is undefined",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a town, few people cough on a typical day, while sick people are much more likely to cough. You learn your neighbour is sick. Which chance should you use for 'my neighbour is coughing'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The low town-wide chance, since news about one neighbour changes nothing"
+    },
+    {
+     "id": "b",
+     "label": "The town-wide chance halved, since only one person is involved"
+    },
+    {
+     "id": "c",
+     "label": "The higher chance among sick people, since the news narrows the group"
+    },
+    {
+     "id": "d",
+     "label": "Exactly 50%, since they are either coughing or they are not"
+    }
+   ],
+   "answer": "c",
+   "explain": "Knowing the person is sick makes coughing much more likely, so the chance given illness replaces the everyday chance.",
+   "cites": [
+    1,
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability:q1"
+  },
+  {
+   "prompt": "A test for a rare disease comes back positive for 90% of people who have it. Yet someone with a positive result may have only a 15% chance of having it. How can both be true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One figure must be a mistake, since both describe the very same people"
+    },
+    {
+     "id": "b",
+     "label": "The test must work far worse on people who really have the disease"
+    },
+    {
+     "id": "c",
+     "label": "A positive result lowers the odds of disease, so the second is smaller"
+    },
+    {
+     "id": "d",
+     "label": "They answer two different questions, so one cannot stand in for the other"
+    }
+   ],
+   "answer": "d",
+   "explain": "The chance of a positive given the disease is a different quantity from the chance of the disease given a positive, and the two typically differ.",
+   "cites": [
+    7,
+    8,
+    10,
+    11
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability:q2"
+  },
+  {
+   "prompt": "The chance your bus is late turns out to be the same whether or not you learn that a lottery jackpot was won. What does that say about the two events?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two are tied together, since you were told about both of them"
+    },
+    {
+     "id": "b",
+     "label": "The jackpot must be causing late buses, or the other way round"
+    },
+    {
+     "id": "c",
+     "label": "Knowing one tells you nothing about the other, so they are independent"
+    },
+    {
+     "id": "d",
+     "label": "The bus chance must be 50%, since there are only two outcomes"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the chance of A given B equals the plain chance of A, knowing about either event does not change the likelihood of the other.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability:q3"
+  },
+  {
+   "prompt": "Two fair dice are rolled out of sight and you are told the total is at most 5. Of the 36 equally likely pairs, 10 fit that total, and 3 of those have a 2 on the first die. What is the chance the first die shows 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3 out of 10, since only the pairs that fit the total count"
+    },
+    {
+     "id": "b",
+     "label": "3 out of 36, since all 36 pairs are still in play"
+    },
+    {
+     "id": "c",
+     "label": "1 out of 6, since a die shows any face equally often"
+    },
+    {
+     "id": "d",
+     "label": "10 out of 36, the share of pairs with a total of 5 or less"
+    }
+   ],
+   "answer": "a",
+   "explain": "Given the total, the possible outcomes shrink to the 10 pairs that fit, and 3 of them have a 2 first, so the chance is 3/10.",
+   "cites": [
+    17,
+    32,
+    33,
+    34,
+    35
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability:q4"
+  },
+  {
+   "prompt": "A clinic knows how often sick people test positive but wants to know how likely a positive patient is to be sick. What can turn one conditional probability into its reverse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Averaging the two probabilities, since each describes the same patients"
+    },
+    {
+     "id": "b",
+     "label": "Reusing the known figure, since the two are normally equal"
+    },
+    {
+     "id": "c",
+     "label": "Subtracting the known figure from one, since positive and sick are opposites"
+    },
+    {
+     "id": "d",
+     "label": "Bayes' theorem, which converts a conditional probability to the reverse"
+    }
+   ],
+   "answer": "d",
+   "explain": "The two directions typically differ, and Bayes' theorem is the tool for reversing a conditional probability when limited information is at hand.",
+   "cites": [
+    7,
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability:q5"
+  },
+  {
+   "prompt": "A rule says the chance of A given B is the chance of both together, divided by the chance of B. What does this give if B has no chance of happening at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero, since B never happens and so neither does A"
+    },
+    {
+     "id": "b",
+     "label": "One, since nothing in the situation contradicts A"
+    },
+    {
+     "id": "c",
+     "label": "It is undefined, since the rule would divide by zero"
+    },
+    {
+     "id": "d",
+     "label": "The plain chance of A, since B adds no information"
+    }
+   ],
+   "answer": "c",
+   "explain": "By the definition, the chance of A given B is undefined when the chance of B is zero.",
+   "cites": [
+    19,
+    21,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Conditional probability",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Conditional probability",
+  "url": "https://en.wikipedia.org/wiki/Conditional_probability",
+  "revision": 1377896814
+ },
+ "pack": {
+  "id": "auto-basic-probability-conditional-probability",
+  "title": "When a clue changes the odds",
+  "question": "How does learning one fact change the chance of another?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Basic probability",
+   "Conditional probability"
+  ],
+  "hue": 47,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Conditional probability",
+    "credit": "Ainali · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When a clue changes the odds",
+    "hook": "A stranger's chance of coughing jumps the moment you learn one small thing about them."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-basic-probability-conditional-probability:1",
+    "transfer": false,
+    "prompt": "Only about 5% of people are coughing on a given day. You learn that one particular stranger is sick. What happens to the chance they are coughing?",
+    "explain": "The chance of a cough given that someone is sick can be far higher than the everyday chance: 75% against 5% in the example.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It drops below 5%",
+        "feedback": "It might seem illness drains the person, but learning of sickness pushes the chance of coughing up, not down."
+       },
+       {
+        "id": "b",
+        "label": "It jumps, perhaps to around 75%"
+       },
+       {
+        "id": "a",
+        "label": "It stays at 5%",
+        "feedback": "It seems the fact is unrelated, but being told someone is sick makes coughing much more likely."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-conditional-probability:2",
+    "transfer": false,
+    "prompt": "match each question to the number it might have",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Chance of a cough on any given day"
+     },
+     {
+      "id": "l1",
+      "label": "Chance of a cough for someone who is sick"
+     },
+     {
+      "id": "l2",
+      "label": "Chance of a positive test if you have dengue"
+     },
+     {
+      "id": "l3",
+      "label": "Chance of having dengue if you test positive"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "5%"
+     },
+     {
+      "id": "r2",
+      "label": "90%"
+     },
+     {
+      "id": "r1",
+      "label": "75%"
+     },
+     {
+      "id": "r3",
+      "label": "15%"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each chance depends on what you already know, and the chance of A given B is a different number from the chance of B given A."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-basic-probability-conditional-probability:3",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A test comes back positive for 90% of people who have a rare disease."
+     },
+     {
+      "id": "b",
+      "text": "Sam takes the test and it comes back positive."
+     },
+     {
+      "id": "c",
+      "text": "So there is a 90% chance that Sam has the disease."
+     },
+     {
+      "id": "d",
+      "text": "Sam should treat 90% as the answer."
+     }
+    ],
+    "answer": "c",
+    "explain": "The 90% is the chance of a positive given the disease. The chance of the disease given a positive can be much lower, such as 15%."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-conditional-probability:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each chance into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Chance of a cough, given the person is sick"
+     },
+     {
+      "id": "i1",
+      "label": "Chance of a cough on any given day"
+     },
+     {
+      "id": "i2",
+      "label": "Chance of a positive test, given dengue"
+     },
+     {
+      "id": "i3",
+      "label": "Chance of A with nothing known about B"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Conditional probability"
+     },
+     {
+      "id": "g1",
+      "label": "Unconditional probability"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "A conditional probability assumes another event has happened; an unconditional one does not."
+   },
+   {
+    "kind": "payoff",
+    "idea": "The chance of something can change once you know a related fact, and the chance of A given B is not the chance of B given A.",
+    "connections": [
+     {
+      "title": "Law of total probability",
+      "place": "Conditional probability",
+      "node": "knowledge.mathematics.probability.basic-probability.conditional-probability.law-of-total-probability"
+     },
+     {
+      "title": "Monty Hall problem",
+      "place": "Conditional probability",
+      "node": "knowledge.mathematics.probability.basic-probability.conditional-probability.monty-hall-problem"
+     },
+     {
+      "title": "Base rate fallacy",
+      "place": "Conditional probability",
+      "node": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The chance of a cough given that someone is sick can be far higher than the everyday chance: 75% against 5% in the example.",
+    "source": "Wikipedia sentences 1, 2, 3"
+   },
+   {
+    "claim": "Each chance depends on what you already know, and the chance of A given B is a different number from the chance of B given A.",
+    "source": "Wikipedia sentences 1, 3, 8, 10, 11"
+   },
+   {
+    "claim": "The 90% is the chance of a positive given the disease. The chance of the disease given a positive can be much lower, such as 15%.",
+    "source": "Wikipedia sentences 7, 8, 10, 11, 12"
+   },
+   {
+    "claim": "A conditional probability assumes another event has happened; an unconditional one does not.",
+    "source": "Wikipedia sentences 1, 3, 5, 8"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Chances that depend on what you know",
+    "text": "Conditional probability is the chance of one event once you know, or assume, that another event has happened. Say the chance that any given person is coughing on any given day is only 5%. If you know the person is sick, coughing becomes much more likely, perhaps 75%. In symbols, P(Cough) = 5% while P(Cough|Sick) = 75%, where the bar is read as given.",
+    "cites": [
+     1,
+     2,
+     3,
+     38
+    ]
+   },
+   {
+    "heading": "The definition",
+    "text": "The chance of A given B is defined as the chance that both happen, divided by the chance of B. It is written P(A∣B) and equals P(A ∩ B)/P(B). When every outcome is equally likely, this is simply the share of the outcomes in B that are also in A. This formula is a definition, not merely a result derived from theory. If B has probability zero, the conditional probability is undefined.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     21,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "A dice example",
+    "text": "Someone secretly rolls two fair six-sided dice and tells you only that the total is 5 or less. What is the chance the first die shows 2? There are 36 equally likely pairs, each with chance 1/36. Here B is the event that the sum is at most 5 and A is the event that the first die is 2, so P(A∣B) = (3/36)/(10/36) = 3/10.",
+    "cites": [
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "When knowing changes nothing",
+    "text": "The conditional chance of A given B may or may not equal the plain chance of A. When P(A|B) = P(A), the events are called independent: learning about one tells you nothing new about the other. The two events also need not be related or happen at the same time.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Direction matters",
+    "text": "The chance of A given B usually differs from the chance of B given A. A person with dengue fever might have a 90% chance of testing positive. Yet a person who tests positive might have only a 15% chance of really having this rare disease, because false positives are common. Treating the two numbers as the same causes reasoning errors, often seen in base rate fallacies.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Turning it around",
+    "text": "Since information is often limited, it can help to reverse a conditional probability with Bayes' theorem, which gives P(A∣B) as P(B∣A) times P(A), divided by P(B). Another option is to lay the numbers out in a conditional probability table to show how the events relate. In the Bayesian reading, the event you condition on counts as evidence. P(A) is the chance of A before taking evidence E into account, and P(A|E) is the updated chance after it.",
+    "cites": [
+     13,
+     14,
+     15,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-conditional",
+   "kind": "book",
+   "title": "7.9 Conditional Probability and the Multiplication Rule - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-9-conditional-probability-and-the-multiplication-rule",
+   "note": "A free textbook section defining conditional probability, with worked card, coin and dice examples and tree diagrams.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "grinstead-snell-ch4",
+   "kind": "book",
+   "title": "4: Conditional Probability - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/04%3A_Conditional_Probability",
+   "note": "A free textbook chapter on conditional probability from a classic introductory probability text.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

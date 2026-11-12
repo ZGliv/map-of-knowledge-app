@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential",
+ "name": "Electric potential",
+ "summary": [
+  {
+   "text": "Electric potential is the electric potential energy a charged particle has at a point, divided by the charge of that particle.",
+   "cites": [
+    6,
+    8
+   ]
+  },
+  {
+   "text": "It can be thought of as the work needed to move a test charge from a chosen zero point to that spot, divided by the charge.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "It is measured in volts, which are joules per coulomb, and only differences between points matter because the zero point is chosen freely.",
+   "cites": [
+    9,
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit",
+   "value": "The volt, which equals one joule per coulomb",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Symbol",
+   "value": "Written V or φ",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Zero point",
+   "value": "Usually earth or a point infinitely far away",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Point charge",
+   "value": "Its potential falls off as one over the distance",
+   "cites": [
+    15,
+    35
+   ]
+  },
+  {
+   "label": "Link to field",
+   "value": "The static electric field is the gradient of the potential",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Between two points the potential differs by some fixed amount. You move a charge twice as large between them. How does the change in its energy compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is half as big, since the charge is spread out"
+    },
+    {
+     "id": "b",
+     "label": "It is the same, because the points are unchanged"
+    },
+    {
+     "id": "c",
+     "label": "It is twice as big"
+    },
+    {
+     "id": "d",
+     "label": "It is four times as big, since charge is squared"
+    }
+   ],
+   "answer": "c",
+   "explain": "The energy change equals the charge times the potential difference, so doubling the charge doubles it.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential:q1"
+  },
+  {
+   "prompt": "Two students work out the potential at the same spot but pick different places to call zero, and get different answers. Who is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one whose zero point is nearer the charge"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since the zero point can be chosen freely"
+    },
+    {
+     "id": "c",
+     "label": "The one whose number is larger"
+    },
+    {
+     "id": "d",
+     "label": "Both, since only the earth can serve as zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "Potential is only defined up to an additive constant, so any point can be taken as zero.",
+   "cites": [
+    5,
+    31
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential:q2"
+  },
+  {
+   "prompt": "A positive charge is released and drifts in the direction of the force on it. What happens to its potential energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rises, as it gains speed"
+    },
+    {
+     "id": "b",
+     "label": "It holds steady, since the charge is unchanged"
+    },
+    {
+     "id": "c",
+     "label": "It vanishes the moment motion begins"
+    },
+    {
+     "id": "d",
+     "label": "It falls, turning into motion"
+    }
+   ],
+   "answer": "d",
+   "explain": "Like a cannonball rolling downhill, an object moving along the force loses potential energy, and that becomes kinetic energy.",
+   "cites": [
+    22,
+    24
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential:q3"
+  },
+  {
+   "prompt": "You move away from a single point charge. Which weakens faster with distance, the field or the potential?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The field, which scales with the inverse square"
+    },
+    {
+     "id": "b",
+     "label": "The potential, which scales with the inverse square"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since both fall off the same way"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since both stay constant in space"
+    }
+   ],
+   "answer": "a",
+   "explain": "The potential of a point charge scales with the reciprocal of the distance, rather than the distance squared as the field does.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential:q4"
+  },
+  {
+   "prompt": "A changing magnetic field is present. Can a single scalar potential V alone describe the electric field then?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a scalar potential always works"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for a point charge"
+    },
+    {
+     "id": "c",
+     "label": "No, the field is no longer conservative"
+    },
+    {
+     "id": "d",
+     "label": "No, because potential only exists in air"
+    }
+   ],
+   "answer": "c",
+   "explain": "With time-varying magnetic fields the electric field is not conservative, so a scalar potential alone is not enough.",
+   "cites": [
+    11,
+    32
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential:q5"
+  },
+  {
+   "prompt": "Why is potential defined as energy divided by the charge, rather than just as the energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dividing makes every value come out smaller"
+    },
+    {
+     "id": "b",
+     "label": "Dividing lets us ignore the field entirely"
+    },
+    {
+     "id": "c",
+     "label": "Dividing turns energy into a force"
+    },
+    {
+     "id": "d",
+     "label": "Dividing gives a property of the field itself"
+    }
+   ],
+   "answer": "d",
+   "explain": "Dividing out the particle's charge leaves a quantity that belongs to the electric field, not to the particle.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/VFPt_metal_balls_largesmall_potential%2Bcontour.svg/960px-VFPt_metal_balls_largesmall_potential%2Bcontour.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Electric potential",
+  "credit": "Geek3",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:VFPt_metal_balls_largesmall_potential%2Bcontour.svg"
+ },
+ "source": {
+  "title": "Electric potential",
+  "url": "https://en.wikipedia.org/wiki/Electric_potential",
+  "revision": 1382839761
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Energy per unit of charge",
+    "text": "Electric potential is the electric potential energy a charged particle has at some location, divided by that particle's charge. Put simply, it is energy per unit of charge. It is measured in joules per coulomb, a unit called the volt, named in honor of Alessandro Volta. That is why the potential difference between two points is known as a voltage.",
+    "cites": [
+     6,
+     8,
+     9,
+     40
+    ]
+   },
+   {
+    "heading": "Work to move a test charge",
+    "text": "Another way to see it is as the work needed to carry a test charge from a reference point to a chosen spot, divided by the charge. The test charge is assumed so small that it barely disturbs the charges making the field, and it is moved so gently that it gains no kinetic energy and gives off no radiation. The reference point has a potential of zero by definition. It is usually the earth or a point infinitely far away, but any point can be used. Because the zero is chosen freely, potential is only fixed up to an added constant.",
+    "cites": [
+     2,
+     3,
+     4,
+     5,
+     31
+    ]
+   },
+   {
+    "heading": "Potential and energy",
+    "text": "The potentials at two points tell you how a charged particle's energy changes between them. If a particle with charge q goes from point A to point B, its potential energy changes by q times the change in potential: U_B − U_A = q(V_B − V_A). Dividing out the charge leaves a quantity that belongs to the electric field itself, not to any particular particle.",
+    "cites": [
+     1,
+     7
+    ]
+   },
+   {
+    "heading": "Like a ball rolling downhill",
+    "text": "Potential borrows an idea from classical mechanics, which deals with force, energy and potential. When an object moves the way a force pushes it, its potential energy drops. A cannonball at the top of a hill has more gravitational potential energy than at the bottom, and as it rolls down, that energy turns into energy of motion, called kinetic energy. For some force fields, an object's potential energy depends only on where it sits in the field. Gravity is one such field, and the electric field is another, as long as no magnetic field is changing in time.",
+    "cites": [
+     19,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Around a point charge",
+    "text": "For a single point charge Q, the potential at a distance r is V_𝐄 = 1/4πε₀Q/r, known as the Coulomb potential. Here ε₀ stands for the permittivity of vacuum. It shrinks with one over the distance, whereas the size of a point charge's field shrinks with one over the distance squared. This potential is continuous everywhere except at the spot where the charge itself sits.",
+    "cites": [
+     15,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "When fields change in time",
+    "text": "In electrodynamics, where fields change over time, a single potential is no longer enough to describe the electric field. Instead the field is built from the electric potential together with the magnetic vector potential. These two together form a four-vector, and under Lorentz transformations the two kinds of potential mix into each other.",
+    "cites": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "What a voltmeter reads",
+    "text": "Inside metals, and other solids and liquids, an electron's energy depends not only on the electric potential but also on its local atomic surroundings. A voltmeter connected between two different metals reports the potential difference corrected for those differing surroundings. What it actually measures is the Fermi level of the electrons divided by the electron's charge.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up2-electric-potential",
+   "kind": "book",
+   "title": "7.2 Electric Potential and Potential Difference - University Physics Volume 2",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/7-2-electric-potential-and-potential-difference",
+   "note": "A free textbook section defining electric potential and potential difference, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cp-potential-difference",
+   "kind": "book",
+   "title": "19.1 Electric Potential Energy: Potential Difference - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/19-1-electric-potential-energy-potential-difference",
+   "note": "An algebra-based textbook section linking electric potential energy to potential difference and the volt.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crash-course-voltage",
+   "kind": "video",
+   "title": "Voltage, Electric Energy, and Capacitors: Crash Course Physics #27",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ZrMltpK6iAw",
+   "note": "A Crash Course Physics episode on electric potential energy, electric potential and voltage, ending with capacitors."
+  }
+ ]
+}

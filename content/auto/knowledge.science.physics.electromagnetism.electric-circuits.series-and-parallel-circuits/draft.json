@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "Two-terminal parts such as resistors or bulbs can be wired in series, one after another along a single path, or in parallel, side by side along several paths.",
+   "cites": [
+    1,
+    5,
+    7
+   ]
+  },
+  {
+   "text": "In a series circuit every part carries the same current, while the voltages across the parts add up to the voltage across the whole.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "In a parallel circuit every part has the same voltage across it, while the currents through the parts add up to the total current.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Series bulbs",
+   "value": "Four bulbs on a 12-volt battery get 3 volts each",
+   "cites": [
+    14,
+    17
+   ]
+  },
+  {
+   "label": "Parallel bulbs",
+   "value": "The same four bulbs would each get the full 12 volts",
+   "cites": [
+    14,
+    18
+   ]
+  },
+  {
+   "label": "Car battery",
+   "value": "Six 2-volt cells in series make 12 volts",
+   "cites": [
+    44,
+    45
+   ]
+  },
+  {
+   "label": "Two switches in series",
+   "value": "They act as a logical AND",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "label": "Christmas lights",
+   "value": "One dead bulb stops an older series string",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An older string of Christmas lights goes completely dark when one bulb is removed. How are the bulbs wired?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In series, so breaking the single path stops everything"
+    },
+    {
+     "id": "b",
+     "label": "In parallel, so each bulb needs the others lit"
+    },
+    {
+     "id": "c",
+     "label": "In parallel, so the battery runs down at once"
+    },
+    {
+     "id": "d",
+     "label": "In series, so the voltage drops to zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "A series circuit has one path, so opening it anywhere stops the whole circuit.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "Three lamps are each wired to a battery in their own separate loop. One lamp burns out. What happens to the other two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both go dark, since the circuit is broken"
+    },
+    {
+     "id": "b",
+     "label": "They stay lit, since each has its own circuit"
+    },
+    {
+     "id": "c",
+     "label": "They dim, because they must share the current"
+    },
+    {
+     "id": "d",
+     "label": "They flare brighter, taking over the lost lamp's share"
+    }
+   ],
+   "answer": "b",
+   "explain": "In parallel each lamp has its own circuit, so the others still work when one fails.",
+   "cites": [
+    16,
+    21
+   ]
+  },
+  {
+   "prompt": "Four identical bulbs are wired one after another in a single loop to a 12-volt battery, and they barely glow. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each bulb gets the whole 12 volts, which is too much"
+    },
+    {
+     "id": "b",
+     "label": "The current is used up by the first bulb in the loop"
+    },
+    {
+     "id": "c",
+     "label": "The battery voltage is split among the bulbs"
+    },
+    {
+     "id": "d",
+     "label": "The bulbs push the current backwards against each other"
+    }
+   ],
+   "answer": "c",
+   "explain": "In series the voltage is shared out, leaving about 3 volts per bulb, which may not be enough to make them glow.",
+   "cites": [
+    15,
+    17
+   ]
+  },
+  {
+   "prompt": "Several devices are wired in parallel to one battery. How does the battery's current compare with the current in one device?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the same as in each single device"
+    },
+    {
+     "id": "b",
+     "label": "It is smaller, as the devices share the voltage"
+    },
+    {
+     "id": "c",
+     "label": "It is zero, since the devices cancel each other"
+    },
+    {
+     "id": "d",
+     "label": "It is the sum of the currents through all the devices"
+    }
+   ],
+   "answer": "d",
+   "explain": "In a parallel circuit the total current is the sum of the currents through each component.",
+   "cites": [
+    8,
+    13,
+    18
+   ]
+  },
+  {
+   "prompt": "A circuit has two switches wired in series with a lamp. When does the lamp light?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When at least one switch is closed"
+    },
+    {
+     "id": "b",
+     "label": "When both switches are closed"
+    },
+    {
+     "id": "c",
+     "label": "When both switches are open"
+    },
+    {
+     "id": "d",
+     "label": "Only when the switches are alternately closed"
+    }
+   ],
+   "answer": "b",
+   "explain": "Switches in series act as a logical AND: current flows only if every switch is closed.",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "prompt": "A battery pack must reach 12 volts but is built from 2-volt cells. How should the six cells be joined?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In parallel, so the voltages add up"
+    },
+    {
+     "id": "b",
+     "label": "In parallel, so the currents match"
+    },
+    {
+     "id": "c",
+     "label": "In series, so the voltages add up"
+    },
+    {
+     "id": "d",
+     "label": "In series, so each keeps its own 2 volts"
+    }
+   ],
+   "answer": "c",
+   "explain": "Cells connected in series add their voltages, as in a 12 volt car battery made of six 2-volt cells.",
+   "cites": [
+    44,
+    45
+   ]
+  }
+ ]
+}

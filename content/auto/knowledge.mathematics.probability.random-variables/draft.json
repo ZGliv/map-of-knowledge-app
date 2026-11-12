@@ -1,0 +1,227 @@
+{
+  "summary": [
+    {
+      "text": "A random variable is a measurable function from a sample space of possible outcomes to a measurable space, and its range is typically a subset of the real numbers.",
+      "cites": [
+        1,
+        5,
+        13
+      ]
+    },
+    {
+      "text": "A discrete random variable takes finitely or countably many values, while a continuous one takes uncountably many, usually filling an interval.",
+      "cites": [
+        18,
+        19
+      ]
+    },
+    {
+      "text": "Any random variable can be described by its cumulative distribution function, which gives the probability that it is less than or equal to a certain value.",
+      "cites": [
+        22
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Usual notation",
+      "value": "Capital letters such as X, Y, Z and T",
+      "cites": [
+        15
+      ]
+    },
+    {
+      "label": "One realization",
+      "value": "A particular outcome is called a random variate",
+      "cites": [
+        11
+      ]
+    },
+    {
+      "label": "Early thinker",
+      "value": "Pafnuty Chebyshev, according to George Mackey",
+      "cites": [
+        12
+      ]
+    },
+    {
+      "label": "Distribution",
+      "value": "Recording the probabilities of its outputs gives its probability distribution",
+      "cites": [
+        36
+      ]
+    },
+    {
+      "label": "Values beyond numbers",
+      "value": "Words, graphs, vectors and even functions can be random",
+      "cites": [
+        26,
+        28,
+        31,
+        32
+      ]
+    }
+  ],
+  "items": [
+    {
+      "prompt": "A statistics student says a random variable is simply a number that changes by chance. In the formal definition, what is it really?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A list of every outcome the experiment could produce"
+        },
+        {
+          "id": "b",
+          "label": "A measurable function from outcomes to a measurable space"
+        },
+        {
+          "id": "c",
+          "label": "The single outcome that happens when the trial is run"
+        },
+        {
+          "id": "d",
+          "label": "A probability measure placed on the sample space itself"
+        }
+      ],
+      "answer": "b",
+      "explain": "A random variable is defined as a measurable function from a sample space of possible outcomes to a measurable space.",
+      "cites": [
+        5,
+        13
+      ]
+    },
+    {
+      "prompt": "A die can land on only six different faces. What kind of random variable describes one roll?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Discrete, with finitely many values"
+        },
+        {
+          "id": "b",
+          "label": "Continuous, with values filling an interval"
+        },
+        {
+          "id": "c",
+          "label": "Neither, since dice are not random"
+        },
+        {
+          "id": "d",
+          "label": "Both kinds at once"
+        }
+      ],
+      "answer": "a",
+      "explain": "When the range of a random variable is finite or countably infinite, it is a discrete random variable with a probability mass function giving a probability to each value.",
+      "cites": [
+        2,
+        18
+      ]
+    },
+    {
+      "prompt": "A random variable is absolutely continuous. What is the chance it lands on one particular exact value?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A small positive chance"
+        },
+        {
+          "id": "b",
+          "label": "Exactly one half"
+        },
+        {
+          "id": "c",
+          "label": "Zero"
+        },
+        {
+          "id": "d",
+          "label": "One divided by the number of values"
+        }
+      ],
+      "answer": "c",
+      "explain": "Its distribution is described by a density that assigns probabilities to intervals, and each individual point must necessarily have probability zero.",
+      "cites": [
+        20
+      ]
+    },
+    {
+      "prompt": "You roll a die and it shows a 4. How would a mathematician describe that 4 in relation to the random variable?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The distribution of the variable"
+        },
+        {
+          "id": "b",
+          "label": "A particular outcome, or realization, of it"
+        },
+        {
+          "id": "c",
+          "label": "The sample space of the variable"
+        },
+        {
+          "id": "d",
+          "label": "The notation used for the variable"
+        }
+      ],
+      "answer": "b",
+      "explain": "A random variate is a particular outcome or realization of a random variable.",
+      "cites": [
+        11
+      ]
+    },
+    {
+      "prompt": "What does the cumulative distribution function of a random variable tell you?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The chance it is at most a certain value"
+        },
+        {
+          "id": "b",
+          "label": "The exact next value it will take"
+        },
+        {
+          "id": "c",
+          "label": "The number of times it was observed"
+        },
+        {
+          "id": "d",
+          "label": "The chance it equals its average"
+        }
+      ],
+      "answer": "a",
+      "explain": "It describes the probability that the random variable will be less than or equal to a certain value, and any random variable can be described this way.",
+      "cites": [
+        22
+      ]
+    },
+    {
+      "prompt": "Can a random variable take values that are not numbers, such as words or whole functions?",
+      "options": [
+        {
+          "id": "a",
+          "label": "No, values must always be real numbers"
+        },
+        {
+          "id": "b",
+          "label": "No, only whole numbers are ever allowed"
+        },
+        {
+          "id": "c",
+          "label": "Yes, but only if the values are dates"
+        },
+        {
+          "id": "d",
+          "label": "Yes, values can lie in other sets, like words"
+        }
+      ],
+      "answer": "d",
+      "explain": "The definition is valid for any measurable space of values, so one can consider random elements such as words, vectors, graphs and functions.",
+      "cites": [
+        25,
+        26,
+        32
+      ]
+    }
+  ]
+}

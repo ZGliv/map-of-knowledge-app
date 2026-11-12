@@ -1,0 +1,222 @@
+{
+  "summary": [
+    {
+      "text": "Exponentiation raises a base to an exponent, which is usually written as a small raised number to the right of the base, and the result is also called a power.",
+      "cites": [
+        1,
+        8,
+        12
+      ]
+    },
+    {
+      "text": "Squared and cubed get their names from geometry: b² = b · b is the area of a square with side b, and b³ = b · b · b is the volume of a cube with side b.",
+      "cites": [
+        14,
+        15
+      ]
+    },
+    {
+      "text": "Powers of 10 write large or small numbers in scientific notation, and powers 2ⁿ give the number of values an n-bit binary number can take.",
+      "cites": [
+        36,
+        43
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Other names",
+      "value": "The exponent is also called the power, or the index in British English",
+      "cites": [
+        11
+      ]
+    },
+    {
+      "label": "Scientific notation",
+      "value": "Base-ten powers denote large or small numbers",
+      "cites": [
+        36
+      ]
+    },
+    {
+      "label": "Power sets",
+      "value": "A set with n members has a power set of 2ⁿ members",
+      "cites": [
+        41
+      ]
+    },
+    {
+      "label": "Order matters",
+      "value": "2³ = 8, but reversing gives 3² = 9",
+      "cites": [
+        26
+      ]
+    },
+    {
+      "label": "One byte",
+      "value": "A byte may take 2⁸ = 256 different values",
+      "cites": [
+        43
+      ]
+    }
+  ],
+  "items": [
+    {
+      "prompt": "A storage box has a length, width and height that are all 4 metres. Multiplying 4 by itself three times gives what property of the box?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The area of its floor"
+        },
+        {
+          "id": "b",
+          "label": "The total length of its edges"
+        },
+        {
+          "id": "c",
+          "label": "The space it takes up"
+        },
+        {
+          "id": "d",
+          "label": "The area of one wall"
+        }
+      ],
+      "answer": "c",
+      "explain": "Multiplying a side length by itself three times gives the volume of a cube, which is why it is called cubed.",
+      "cites": [
+        15
+      ]
+    },
+    {
+      "prompt": "A calculator is asked for zero raised to a negative power and refuses to answer. What is the reason?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It amounts to dividing by zero, which is typically undefined"
+        },
+        {
+          "id": "b",
+          "label": "Negative powers are never allowed for any base"
+        },
+        {
+          "id": "c",
+          "label": "Zero times itself is not a number the machine can store"
+        },
+        {
+          "id": "d",
+          "label": "The answer is always 1 so no calculation is needed"
+        }
+      ],
+      "answer": "a",
+      "explain": "Raising 0 to a negative exponent is related to division by zero, so it is typically undefined.",
+      "cites": [
+        22
+      ]
+    },
+    {
+      "prompt": "A student reasons that 2 times 3 equals 3 times 2, so swapping a base and its exponent must give the same result. What is wrong with that?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Nothing, since swapping never changes a power"
+        },
+        {
+          "id": "b",
+          "label": "Swapping only works when the exponent is even"
+        },
+        {
+          "id": "c",
+          "label": "Swapping only works when the base is ten"
+        },
+        {
+          "id": "d",
+          "label": "Unlike multiplication, a power changes when the two swap"
+        }
+      ],
+      "answer": "d",
+      "explain": "Exponentiation is not commutative: 2³ = 8, but reversing the operands gives the different value 3² = 9.",
+      "cites": [
+        26
+      ]
+    },
+    {
+      "prompt": "A tower of three numbers is written in superscripts with no brackets. In what order does the usual convention evaluate it?",
+      "options": [
+        {
+          "id": "a",
+          "label": "From the bottom up, taking the lowest pair first"
+        },
+        {
+          "id": "b",
+          "label": "From the top down, taking the highest pair first"
+        },
+        {
+          "id": "c",
+          "label": "Whichever order the reader prefers"
+        },
+        {
+          "id": "d",
+          "label": "Both orders always give the same value"
+        }
+      ],
+      "answer": "b",
+      "explain": "Serial exponentiation is conventionally top-down (right-associative), so 2^(3²) = 2⁹ = 512, not (2³)² = 64.",
+      "cites": [
+        27,
+        28
+      ]
+    },
+    {
+      "prompt": "An astronomer wants a compact way to write a distance with many zeros. Which tool from exponentiation is built for this?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Power sets of the distance"
+        },
+        {
+          "id": "b",
+          "label": "Powers of negative one"
+        },
+        {
+          "id": "c",
+          "label": "Powers of ten in scientific notation"
+        },
+        {
+          "id": "d",
+          "label": "The British word index"
+        }
+      ],
+      "answer": "c",
+      "explain": "Exponentiation with base 10 is used in scientific notation to denote large or small numbers.",
+      "cites": [
+        36
+      ]
+    },
+    {
+      "prompt": "A byte is an 8-bit binary number. How many different values can it take?",
+      "options": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "64"
+        },
+        {
+          "id": "c",
+          "label": "256"
+        },
+        {
+          "id": "d",
+          "label": "1000"
+        }
+      ],
+      "answer": "c",
+      "explain": "An n-bit binary number can take 2ⁿ different values, and a byte may take 2⁸ = 256.",
+      "cites": [
+        43
+      ]
+    }
+  ]
+}

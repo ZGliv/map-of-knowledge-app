@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The quantile function of a probability distribution is the inverse of its cumulative distribution function, and it is also called the percentile function.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "text": "It is one way of prescribing a probability distribution, as an alternative to the density or mass function and the cumulative distribution function.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "It gives key percentage points such as the median and quartiles, and in simulations it turns uniform random numbers into draws from other distributions.",
+   "cites": [
+    13,
+    16,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Percentile function, percent-point function, inverse CDF",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Key points",
+   "value": "Used for the median, quartiles and 5% or 95% levels",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Sampling",
+   "value": "Applied to a uniform sample to sample another distribution",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Normal case",
+   "value": "Derived from the standard normal's probit function",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Finance and economics",
+   "value": "Its integral gives the Lorenz curve",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A teacher says a distribution can only be specified by its density or mass function. What else can specify one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the mean and the spread"
+    },
+    {
+     "id": "b",
+     "label": "The quantile function, among other functions"
+    },
+    {
+     "id": "c",
+     "label": "Only its highest point"
+    },
+    {
+     "id": "d",
+     "label": "Nothing else can"
+    }
+   ],
+   "answer": "b",
+   "explain": "The quantile function is one way of prescribing a probability distribution, an alternative to the density, mass and cumulative distribution functions.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "A researcher needs the 2.5% and 97.5% cut-offs of a known distribution to judge whether an observation is significant. Which function gives them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The probability density function"
+    },
+    {
+     "id": "b",
+     "label": "The probability mass function"
+    },
+    {
+     "id": "c",
+     "label": "The indicator function"
+    },
+    {
+     "id": "d",
+     "label": "The quantile function"
+    }
+   ],
+   "answer": "d",
+   "explain": "Quantile functions give key percentage points of a distribution, such as the 5%, 95%, 2.5% and 97.5% levels.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "A computer can only draw numbers spread evenly between 0 and 1. How can it produce numbers from some other distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Apply that distribution's quantile function to the uniform draws"
+    },
+    {
+     "id": "b",
+     "label": "Add up many of the uniform draws"
+    },
+    {
+     "id": "c",
+     "label": "Round each draw to the nearest whole number"
+    },
+    {
+     "id": "d",
+     "label": "Multiply each draw by the distribution's mean"
+    }
+   ],
+   "answer": "a",
+   "explain": "A sample from a given distribution can be obtained by applying its quantile function to a sample from a uniform distribution.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "Statistics software lists a percent-point function for a distribution. Which other function is it the same as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The probability mass function of the distribution"
+    },
+    {
+     "id": "b",
+     "label": "The Lorenz curve used in economics"
+    },
+    {
+     "id": "c",
+     "label": "The inverse of the cumulative distribution function"
+    },
+    {
+     "id": "d",
+     "label": "The density function of the distribution"
+    }
+   ],
+   "answer": "c",
+   "explain": "The percent-point function is another name for the quantile function, which is the inverse of the cumulative distribution function.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "prompt": "How can the quantile function for a normal distribution with any mean and spread be obtained?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By a simple transformation of the standard normal's quantile function"
+    },
+    {
+     "id": "b",
+     "label": "By solving a short algebra formula for each mean"
+    },
+    {
+     "id": "c",
+     "label": "By taking the derivative of the density"
+    },
+    {
+     "id": "d",
+     "label": "By rebuilding a fresh table for each mean"
+    }
+   ],
+   "answer": "a",
+   "explain": "The normal distribution is a location-scale family, so its quantile function for arbitrary parameters comes from a simple transformation of the standard normal quantile function, the probit function.",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "prompt": "What is true about writing the probit function down as a formula?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a plain formula built from squares and roots"
+    },
+    {
+     "id": "b",
+     "label": "It has no closed form in basic algebra, so approximations are used"
+    },
+    {
+     "id": "c",
+     "label": "It is identical to the density function itself"
+    },
+    {
+     "id": "d",
+     "label": "It can only be found by reading off a printed table"
+    }
+   ],
+   "answer": "b",
+   "explain": "The probit function has no closed-form representation using basic algebraic functions, so approximate representations are usually used.",
+   "cites": [
+    24
+   ]
+  }
+ ]
+}

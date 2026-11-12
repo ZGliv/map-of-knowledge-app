@@ -1,0 +1,553 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.groups",
+ "name": "Groups",
+ "summary": [
+  {
+   "text": "Group theory studies groups, algebraic structures that are central to abstract algebra.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Rings, fields and vector spaces can all be seen as groups with additional operations and axioms.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Symmetry groups model crystals, the hydrogen atom and three of the four known fundamental forces, and group theory is also central to public key cryptography.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Big classification",
+   "value": "Finite simple groups were classified over more than 10,000 journal pages",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Naming",
+   "value": "Evariste Galois coined the term group",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "First studied class",
+   "value": "Permutation groups",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Unified",
+   "value": "The theory of groups was unified starting around 1880",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Historical sources",
+   "value": "Number theory, algebraic equations, geometry and analysis",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You collect rearrangements of a deck of cards. Doing one after another stays in the collection, and so does undoing any one. What have you built?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A group acting on the deck"
+    },
+    {
+     "id": "b",
+     "label": "A field of cards"
+    },
+    {
+     "id": "c",
+     "label": "A vector space"
+    },
+    {
+     "id": "d",
+     "label": "A polynomial"
+    }
+   ],
+   "answer": "a",
+   "explain": "A collection of permutations closed under composition and inverses is a group acting on the set.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups:q1"
+  },
+  {
+   "prompt": "You take every possible rearrangement of n different objects. Which group is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The alternating group"
+    },
+    {
+     "id": "b",
+     "label": "The symmetric group"
+    },
+    {
+     "id": "c",
+     "label": "A matrix group"
+    },
+    {
+     "id": "d",
+     "label": "A Lie group"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the collection consists of all permutations of n elements, it is the symmetric group Sₙ.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups:q2"
+  },
+  {
+   "prompt": "A chemist wants a mathematical model for the symmetries of a crystal. Which tool is suited?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Polynomial factoring"
+    },
+    {
+     "id": "b",
+     "label": "Modular clock arithmetic only"
+    },
+    {
+     "id": "c",
+     "label": "Public key encryption"
+    },
+    {
+     "id": "d",
+     "label": "Symmetry groups"
+    }
+   ],
+   "answer": "d",
+   "explain": "Physical systems such as crystals may be modelled by symmetry groups, with applications in chemistry and materials science.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups:q3"
+  },
+  {
+   "prompt": "Why do groups matter for the impossibility of a general solution in radicals for equations of degree five or higher?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One group has no proper normal subgroups from degree five up"
+    },
+    {
+     "id": "b",
+     "label": "Groups only come into existence from degree five"
+    },
+    {
+     "id": "c",
+     "label": "Matrix groups cannot be used for high degrees"
+    },
+    {
+     "id": "d",
+     "label": "Radicals always form one single cyclic group"
+    }
+   ],
+   "answer": "a",
+   "explain": "The alternating group Aₙ is simple for n ≥ 5, and this fact plays a key role in the impossibility.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups:q4"
+  },
+  {
+   "prompt": "What do permutation groups and matrix groups have in common?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both act only on finite sets"
+    },
+    {
+     "id": "b",
+     "label": "Both are made of invertible matrices"
+    },
+    {
+     "id": "c",
+     "label": "Both act on a space while preserving its structure"
+    },
+    {
+     "id": "d",
+     "label": "Both have a simple alternating subgroup"
+    }
+   ],
+   "answer": "c",
+   "explain": "Both are special cases of transformation groups: a permutation group acts on a set, a matrix group on a vector space.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups:q5"
+  },
+  {
+   "prompt": "Mathematicians in the 1800s struggled to sort out Euclidean, hyperbolic and projective geometry. What idea did Klein's Erlangen program offer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Count how many dimensions each geometry has"
+    },
+    {
+     "id": "b",
+     "label": "Prove one geometry is the only true one"
+    },
+    {
+     "id": "c",
+     "label": "Classify each geometry by its total area"
+    },
+    {
+     "id": "d",
+     "label": "Use group theory as the organizing principle"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Erlangen program proclaimed group theory to be the organizing principle of geometry.",
+   "cites": [
+    14,
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cyclic_group.svg/960px-Cyclic_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Groups",
+  "credit": "Original: Jakob.scholbach Vector: Pbroks13",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cyclic_group.svg"
+ },
+ "source": {
+  "title": "Group theory",
+  "url": "https://en.wikipedia.org/wiki/Group_theory",
+  "revision": 1378038109
+ },
+ "pack": {
+  "id": "auto-abstract-algebra-groups",
+  "title": "Why Symmetry Needs Algebra",
+  "question": "Why does one idea, the group, appear in crystals, codes and equations?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Abstract algebra",
+   "Groups"
+  ],
+  "hue": 52,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cyclic_group.svg/960px-Cyclic_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Groups",
+    "credit": "Original: Jakob.scholbach Vector: Pbroks13 · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cyclic_group.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Symmetry Needs Algebra",
+    "hook": "The same small set of rules describes shuffled cards, turned crystals and unsolvable equations."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-abstract-algebra-groups:1",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each description into the kind of group it belongs to.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Bijections of a set, closed under composition and inverses"
+     },
+     {
+      "id": "i1",
+      "label": "Invertible matrices over a field, closed under products and inverses"
+     },
+     {
+      "id": "i2",
+      "label": "Acts on a set"
+     },
+     {
+      "id": "i3",
+      "label": "Acts on a vector space by linear transformations"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Permutation group"
+     },
+     {
+      "id": "g1",
+      "label": "Matrix group"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "Both are transformation groups; the permutation kind acts on a set and the matrix kind acts on a vector space."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-abstract-algebra-groups:2",
+    "transfer": false,
+    "prompt": "Put these moments in the history of group theory in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Galois uses groups to study solvability of equations (1830s)"
+     },
+     {
+      "id": "b",
+      "label": "The theory of groups is unified (starting around 1880)"
+     },
+     {
+      "id": "c",
+      "label": "Lie starts using groups for analytic problems (1884)"
+     },
+     {
+      "id": "d",
+      "label": "The classification of finite simple groups is published (mostly 1960 to 2004)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Groups grew from equation solving, through unification and geometry, to a huge 20th century classification."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-abstract-algebra-groups:3",
+    "transfer": true,
+    "prompt": "Take all possible shuffles of a set, then keep only some of them, as long as the kept ones stay closed under composition and inverses. What do you have?",
+    "explain": "Any permutation group is a subgroup of the symmetric group of its set.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "A permutation group sitting inside the full symmetric group"
+       },
+       {
+        "id": "c",
+        "label": "Always the whole symmetric group again",
+        "feedback": "Closure alone does not force every shuffle to be kept; smaller collections qualify."
+       },
+       {
+        "id": "b",
+        "label": "A new object unrelated to the symmetric group",
+        "feedback": "It seems new, but any permutation group is a subgroup of the symmetric group of its set."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-abstract-algebra-groups:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Any permutation group is a subgroup of the symmetric group on its set."
+     },
+     {
+      "id": "b",
+      "text": "For n at least 5, the alternating group on n elements is simple."
+     },
+     {
+      "id": "c",
+      "text": "Simple means it has no proper normal subgroups."
+     },
+     {
+      "id": "d",
+      "text": "So this fact shows general equations of degree three and four cannot be solved in radicals."
+     }
+    ],
+    "answer": "d",
+    "explain": "The simplicity fact plays a key role in the impossibility for degree five and higher, not degrees three and four."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A group captures symmetry by abstracting what it takes to combine and undo transformations, which is why it appears across mathematics and physics.",
+    "connections": [
+     {
+      "title": "Subgroup",
+      "place": "Groups",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup"
+     },
+     {
+      "title": "Cyclic group",
+      "place": "Groups",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.groups.cyclic-group"
+     },
+     {
+      "title": "Symmetric group",
+      "place": "Groups",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group"
+     },
+     {
+      "title": "Lagrange's theorem",
+      "place": "Groups",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.groups.lagrange-s-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Both are transformation groups; the permutation kind acts on a set and the matrix kind acts on a vector space.",
+    "source": "Wikipedia sentences 27, 34, 35, 38"
+   },
+   {
+    "claim": "Groups grew from equation solving, through unification and geometry, to a huge 20th century classification.",
+    "source": "Wikipedia sentences 15, 19, 22, 9"
+   },
+   {
+    "claim": "Any permutation group is a subgroup of the symmetric group of its set.",
+    "source": "Wikipedia sentences 27, 28"
+   },
+   {
+    "claim": "The simplicity fact plays a key role in the impossibility for degree five and higher, not degrees three and four.",
+    "source": "Wikipedia sentences 28, 31, 32"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What group theory studies",
+    "text": "Group theory is the part of abstract algebra that studies structures called groups. The idea of a group sits at the center of abstract algebra. Rings, fields and vector spaces, which are other well-known structures, can each be viewed as a group with extra operations and rules added on top. Groups turn up again and again across mathematics, and the methods of group theory have shaped many parts of algebra.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why it matters outside mathematics",
+    "text": "Symmetry groups can model physical systems such as crystals and the hydrogen atom. Three of the universe's four known fundamental forces can be modelled this way too. For this reason group theory, together with the closely linked representation theory, has many uses in physics, chemistry and materials science. Group theory is also central to public key cryptography.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Where the idea came from",
+    "text": "The early history of groups goes back to the 19th century. Lagrange, Ruffini and Abel found early results about permutation groups while hunting for general ways to solve polynomial equations of high degree. Évariste Galois coined the word \"group\" and tied groups to field theory, a link now known as Galois theory. In the 1830s Galois was the first to use groups to decide whether polynomial equations can be solved. Cayley and Cauchy then went further and created the theory of permutation groups.",
+    "cites": [
+     8,
+     12,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Several roots, one theory",
+    "text": "Within geometry, groups first gained importance in projective geometry, and after that in non-Euclidean geometry. Felix Klein's Erlangen program declared group theory to be the organizing principle of geometry. In 1884 Sophus Lie began attaching groups, now called Lie groups, to problems in analysis. The theory was unified starting around 1880. Since then its influence has kept growing, and it gave rise to abstract algebra itself in the early 20th century.",
+    "cites": [
+     13,
+     14,
+     19,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Permutation groups",
+    "text": "Permutation groups were the first class of groups to be studied in a systematic way. Take any set X and a collection G of permutations, which are bijections of X into itself. If G contains the composite and the inverse of each of its members, then G forms a group that acts on X. When X has n elements and G holds every permutation, G is the symmetric group Sₙ. Cayley showed early on that any group can be pictured as a permutation group acting on itself.",
+    "cites": [
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Matrix groups",
+    "text": "The next important class is matrix groups, also called linear groups. Here G is a set of invertible matrices of a fixed order n over a field K, and G is closed under products and inverses. Each such group acts by linear transformations on Kⁿ, the vector space of dimension n. Permutation groups and matrix groups are both special cases of transformation groups, which act on a space while keeping its structure intact. For permutation groups that space is a set; for matrix groups it is a vector space.",
+    "cites": [
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "A striking consequence",
+    "text": "Often the structure of a permutation group can be studied through the way it acts on its set. Used this way, the approach shows the alternating group Aₙ to be simple whenever n ≥ 5, meaning it has no proper normal subgroups. That fact plays a key part in showing a general algebraic equation of degree n ≥ 5 cannot be solved in radicals. One of the most important feats of 20th-century mathematics was a joint effort that ended in a complete classification of finite simple groups. It filled more than 10,000 journal pages, mostly published between 1960 and 2004.",
+    "cites": [
+     9,
+     30,
+     31,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-groups",
+   "kind": "book",
+   "title": "3: Groups - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/03%3A_Groups",
+   "note": "A free textbook chapter introducing groups: definitions, examples and basic properties.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "3b1b-monster",
+   "kind": "video",
+   "title": "Group theory, abstraction, and the 196,883-dimensional monster",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=mH0oCDa74tE",
+   "note": "An animated explainer of what groups are as abstractions of symmetry, building up to the Monster group."
+  },
+  {
+   "id": "3b1b-euler-groups",
+   "kind": "video",
+   "title": "Euler's formula with introductory group theory",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=mvmuCPvRoWQ",
+   "note": "A visual introduction to group theory, using groups of actions to make sense of Euler's formula."
+  }
+ ]
+}

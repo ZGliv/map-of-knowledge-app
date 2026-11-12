@@ -1,0 +1,320 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension",
+ "name": "Field extension",
+ "summary": [
+  {
+   "text": "When a field K sits inside a larger field L and K uses the operations of L restricted to K, L is called an extension field of K and K a subfield of L.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "For example, the complex numbers are an extension field of the real numbers, and the real numbers are a subfield of the complex numbers.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Field extensions are fundamental in algebraic number theory and in the study of polynomial roots through Galois theory, and are widely used in algebraic geometry.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Standard example",
+   "value": "The complex numbers extend the real numbers",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Trivial extension",
+   "value": "The degree is 1 exactly when the two fields are equal",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Quadratic and cubic",
+   "value": "Extensions of degree 2 and 3 have these names",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Characteristic",
+   "value": "A subfield has the same characteristic as the larger field",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Splitting field",
+   "value": "One exists for any polynomial over K, splitting it into linear factors",
+   "cites": [
+    42,
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The complex numbers contain the real numbers and use the same addition and multiplication. How are the two fields related?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The reals are an extension field of the complex numbers"
+    },
+    {
+     "id": "b",
+     "label": "The complex numbers are an extension field of the reals"
+    },
+    {
+     "id": "c",
+     "label": "Neither contains the other, so they are unrelated"
+    },
+    {
+     "id": "d",
+     "label": "They are the same field written two ways"
+    }
+   ],
+   "answer": "b",
+   "explain": "The complex numbers are an extension field of the real numbers, and the real numbers are a subfield of the complex numbers.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension:q1"
+  },
+  {
+   "prompt": "An extension has degree 1. What does that tell you about the two fields?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are equal, so the extension is trivial"
+    },
+    {
+     "id": "b",
+     "label": "The larger field has exactly one new element"
+    },
+    {
+     "id": "c",
+     "label": "The extension is quadratic"
+    },
+    {
+     "id": "d",
+     "label": "The smaller field has no elements"
+    }
+   ],
+   "answer": "a",
+   "explain": "The degree of an extension is 1 if and only if the two fields are equal, which makes it a trivial extension.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension:q2"
+  },
+  {
+   "prompt": "A field extension has degree 3. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A quadratic extension"
+    },
+    {
+     "id": "b",
+     "label": "A trivial extension"
+    },
+    {
+     "id": "c",
+     "label": "A finite extension only in characteristic 0"
+    },
+    {
+     "id": "d",
+     "label": "A cubic extension"
+    }
+   ],
+   "answer": "d",
+   "explain": "Extensions of degree 2 and 3 are called quadratic and cubic extensions respectively; both are also finite, since their degree is finite.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension:q3"
+  },
+  {
+   "prompt": "A smaller field has a certain characteristic, and you move to a larger field that contains it. What can you say about the larger field's characteristic?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the same as the smaller field's"
+    },
+    {
+     "id": "b",
+     "label": "It is always zero"
+    },
+    {
+     "id": "c",
+     "label": "It is always a different prime"
+    },
+    {
+     "id": "d",
+     "label": "It could be anything at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "The characteristic of a subfield is the same as the characteristic of the larger field.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension:q4"
+  },
+  {
+   "prompt": "You take all ratios of two polynomials with coefficients in a field K, and call the result K(X). What is this field to the polynomial ring K[X]?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its subring of constant terms"
+    },
+    {
+     "id": "b",
+     "label": "Its field of fractions"
+    },
+    {
+     "id": "c",
+     "label": "Its splitting field over K"
+    },
+    {
+     "id": "d",
+     "label": "Its quotient by a maximal ideal"
+    }
+   ],
+   "answer": "b",
+   "explain": "The elements of K(X) are fractions of two polynomials over K, and K(X) is the field of fractions of the polynomial ring K[X].",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension:q5"
+  },
+  {
+   "prompt": "You have a polynomial with coefficients in K and want a larger field where it breaks into a product of linear factors. Is that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, this only works for degree 2"
+    },
+    {
+     "id": "b",
+     "label": "No, the extension would be a smaller field"
+    },
+    {
+     "id": "c",
+     "label": "Only if K is the real numbers"
+    },
+    {
+     "id": "d",
+     "label": "Yes, by building extensions step by step"
+    }
+   ],
+   "answer": "d",
+   "explain": "Iterating the construction yields a splitting field of any polynomial from K[X], an extension field in which the polynomial splits into linear factors.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension:q6"
+  }
+ ],
+ "source": {
+  "title": "Field extension",
+  "url": "https://en.wikipedia.org/wiki/Field_extension",
+  "revision": 1381536150
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a field extension is",
+    "text": "A field extension is a pair of fields: a smaller one, K, sitting inside a larger one, L, where K adds and multiplies exactly as L does when you stay inside K. We then call L an extension field of K, and K a subfield of L. The shorthand for the pair is L / K, said aloud as \"L over K\".",
+    "cites": [
+     1,
+     2,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Familiar examples",
+    "text": "The rational numbers sit inside the real numbers, and the real numbers sit inside the complex numbers, so each step is a field extension. Stacking the two steps means C / Q is an extension too. A field caught between the two ends of an extension, as R sits between Q and C, is called an intermediate field.",
+    "cites": [
+     3,
+     8,
+     13,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Measuring size with degree",
+    "text": "In an extension L / K, the larger field L can be treated as a vector space over K. The dimension of that space is the degree of the extension, written [L : K]. The degree is 1 exactly when the two fields are the same, and that case is called a trivial extension. Degree 2 gives a quadratic extension, degree 3 a cubic one, and any extension of finite degree is called a finite extension.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Adjoining new elements",
+    "text": "Pick some set S of elements of L. The smallest subfield of L that holds both K and S is written K(S), read \"K adjoin S\", and S is said to generate it over K. When S is one element s, the extension K(s) / K is called simple and s is called a primitive element. In characteristic 0, every finite extension turns out to be simple; this is the primitive element theorem, and it fails for fields of nonzero characteristic.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Building a missing root",
+    "text": "A common way to make an extension is to create a root for a polynomial that has none. Suppose K has no element whose square is −1. Then X² + 1 is irreducible in K[X], and the quotient K[X] / (X² + 1) is a larger field that does contain a square root of −1, namely the class of X. Repeating this trick builds a splitting field for any polynomial: a field where it breaks completely into linear factors.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Where extensions matter",
+    "text": "Finite extensions of Q go by the name algebraic number fields and matter in number theory, as do the p-adic numbers Q_p, an extension of Q that is not finite. For each prime p and positive integer n there is, up to isomorphism, exactly one finite field with pⁿ elements, and it extends the prime field with p elements. More broadly, field extensions are basic tools in algebraic number theory, in Galois theory's study of polynomial roots, and in algebraic geometry.",
+    "cites": [
+     4,
+     37,
+     38,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-fields",
+   "kind": "book",
+   "title": "21: Fields - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/21%3A_Fields",
+   "note": "A free textbook chapter on extension fields, splitting fields and geometric constructions.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

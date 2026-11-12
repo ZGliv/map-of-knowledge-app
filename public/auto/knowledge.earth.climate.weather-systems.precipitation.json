@@ -1,0 +1,494 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.precipitation",
+ "name": "Precipitation",
+ "summary": [
+  {
+   "text": "Precipitation is water vapor that has condensed and falls from clouds under gravity, as drizzle, rain, sleet, snow, ice pellets, graupel or hail.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It falls once cloud particles grow too heavy for moving air to hold them up, which is why fog and mist, which do not fall, are not precipitation.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Precipitation deposits most of the planet's fresh water, about 505,000 cubic kilometres a year, most of it over the oceans.",
+   "cites": [
+    18,
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Yearly total",
+   "value": "About 505,000 km³ of water",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Global yearly average",
+   "value": "990 mm, but only 715 mm over land",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Where most falls",
+   "value": "In the tropics, from convection",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Beyond Earth",
+   "value": "Methane drizzle on Saturn's moon Titan",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "How rain is measured",
+   "value": "Rain gauge, in millimetres of depth",
+   "cites": [
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Thick fog hangs in a valley all morning, soaking everything it touches. Why doesn't it count as precipitation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It contains no liquid water at all"
+    },
+    {
+     "id": "b",
+     "label": "Its water stays suspended instead of falling"
+    },
+    {
+     "id": "c",
+     "label": "It is too warm to count as weather"
+    },
+    {
+     "id": "d",
+     "label": "It only forms over lakes and rivers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Precipitation must fall; fog's water vapor does not condense enough to precipitate, so fog does not fall.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation:q1"
+  },
+  {
+   "prompt": "Where on Earth does most precipitation fall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Over the polar ice caps"
+    },
+    {
+     "id": "b",
+     "label": "Along the world's mountain ranges"
+    },
+    {
+     "id": "c",
+     "label": "In the mid-latitude storm belts"
+    },
+    {
+     "id": "d",
+     "label": "Within the tropics"
+    }
+   ],
+   "answer": "d",
+   "explain": "Most precipitation occurs within the tropics, driven by convection.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation:q2"
+  },
+  {
+   "prompt": "Moist wind blows steadily up one side of a tall mountain range and down the other. Where are you most likely to find a desert?",
+   "options": [
+    {
+     "id": "a",
+     "label": "On the far, downwind side"
+    },
+    {
+     "id": "b",
+     "label": "On the slopes facing the wind"
+    },
+    {
+     "id": "c",
+     "label": "Right at the highest peaks"
+    },
+    {
+     "id": "d",
+     "label": "In valleys facing the wind"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rising air on the windward side can bring heavy precipitation, while the leeward side gets dry air from compressional heating.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation:q3"
+  },
+  {
+   "prompt": "Raindrops land on cold cars and power lines and turn to ice the instant they touch. What is this called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hail"
+    },
+    {
+     "id": "b",
+     "label": "Graupel"
+    },
+    {
+     "id": "c",
+     "label": "Freezing rain"
+    },
+    {
+     "id": "d",
+     "label": "Ice pellets"
+    }
+   ],
+   "answer": "c",
+   "explain": "Rain that freezes on contact in subfreezing air is freezing rain; hail, graupel and ice pellets are already frozen as they fall.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation:q4"
+  },
+  {
+   "prompt": "A storm drops 10 mm of rain. How much water landed on each square metre of ground?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1 litre"
+    },
+    {
+     "id": "b",
+     "label": "10 litres"
+    },
+    {
+     "id": "c",
+     "label": "100 litres"
+    },
+    {
+     "id": "d",
+     "label": "100 millilitres"
+    }
+   ],
+   "answer": "b",
+   "explain": "One millimetre of rain equals one litre per square metre, so 10 mm is 10 litres on each square metre.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation:q5"
+  },
+  {
+   "prompt": "A sudden summer downpour soaks the street in minutes, while a grey day brings only light rain. What drives the downpour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Weak, gentle upward motion"
+    },
+    {
+     "id": "b",
+     "label": "Air sinking down a mountainside"
+    },
+    {
+     "id": "c",
+     "label": "A layer of fog becoming heavier"
+    },
+    {
+     "id": "d",
+     "label": "Strong vertical motion in the air"
+    }
+   ],
+   "answer": "d",
+   "explain": "Convective processes involve strong vertical motions and heavy precipitation, while stratiform processes have weaker upward motions and lighter precipitation.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/ERA5_global_precipitation_sum.png/960px-ERA5_global_precipitation_sum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Precipitation",
+  "credit": "S. Berghald",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:ERA5_global_precipitation_sum.png"
+ },
+ "source": {
+  "title": "Precipitation",
+  "url": "https://en.wikipedia.org/wiki/Precipitation",
+  "revision": 1382048128
+ },
+ "pack": {
+  "id": "auto-weather-systems-precipitation",
+  "title": "Why Clouds Finally Let Go",
+  "question": "What makes water in a cloud fall to the ground?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Weather systems",
+   "Precipitation"
+  ],
+  "hue": 124,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/ERA5_global_precipitation_sum.png/960px-ERA5_global_precipitation_sum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Precipitation",
+    "credit": "S. Berghald · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ERA5_global_precipitation_sum.png",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Clouds Finally Let Go",
+    "hook": "Fog is made of water, yet it never counts as precipitation."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-weather-systems-precipitation:1",
+    "transfer": false,
+    "prompt": "Moist air is pushed up the windward side of a mountain range and spills down the other side. What is the far side likely to be like?",
+    "explain": "Upslope flow brings heavy precipitation to the windward side, while compressional heating leaves dry air, and sometimes desert, on the leeward side.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Just as wet as the windward side",
+        "feedback": "It seems the same air should rain on both sides, but the air that descends is dry."
+       },
+       {
+        "id": "c",
+        "label": "Wetter than the windward side",
+        "feedback": "Heavy precipitation is on the windward side, where air flows uphill."
+       },
+       {
+        "id": "a",
+        "label": "Dry, possibly desert"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-weather-systems-precipitation:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each type of precipitation by how it falls.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Rain"
+     },
+     {
+      "id": "i1",
+      "label": "Drizzle"
+     },
+     {
+      "id": "i2",
+      "label": "Snow"
+     },
+     {
+      "id": "i3",
+      "label": "Hail"
+     },
+     {
+      "id": "i4",
+      "label": "Graupel"
+     },
+     {
+      "id": "i5",
+      "label": "Ice pellets"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Liquid"
+     },
+     {
+      "id": "g1",
+      "label": "Frozen"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "Rain and drizzle are liquid forms, while snow, hail, graupel and ice pellets fall as ice."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-weather-systems-precipitation:3",
+    "transfer": true,
+    "prompt": "Match each way of making precipitation to its description.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Convective"
+     },
+     {
+      "id": "l1",
+      "label": "Stratiform"
+     },
+     {
+      "id": "l2",
+      "label": "Orographic"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Strong vertical motion, heavy precipitation"
+     },
+     {
+      "id": "r2",
+      "label": "Air flowing up the windward side of mountains"
+     },
+     {
+      "id": "r1",
+      "label": "Weaker upward motion, gentler precipitation"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each mechanism differs in how the air is forced upward and how hard it rains."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-weather-systems-precipitation:4",
+    "transfer": true,
+    "prompt": "Put the steps that lead to rain in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Air becomes saturated by cooling or gaining water vapor"
+     },
+     {
+      "id": "b",
+      "label": "Vapor in the rising air condenses into clouds"
+     },
+     {
+      "id": "c",
+      "label": "Cloud droplets grow large enough to become raindrops"
+     },
+     {
+      "id": "d",
+      "label": "Raindrops descend toward the ground"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Moist air",
+     "Rain falls"
+    ],
+    "explain": "Air must first be saturated, then vapor condenses into cloud, and only once droplets are big enough do they fall."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Precipitation falls once cloud particles grow too heavy for moving air to hold up, reaching the ground as liquid, freezing liquid or ice.",
+    "connections": [
+     {
+      "title": "Rain",
+      "place": "Precipitation",
+      "node": "knowledge.earth.climate.weather-systems.precipitation.rain"
+     },
+     {
+      "title": "Snow",
+      "place": "Precipitation",
+      "node": "knowledge.earth.climate.weather-systems.precipitation.snow"
+     },
+     {
+      "title": "Hail",
+      "place": "Precipitation",
+      "node": "knowledge.earth.climate.weather-systems.precipitation.hail"
+     },
+     {
+      "title": "Freezing rain",
+      "place": "Precipitation",
+      "node": "knowledge.earth.climate.weather-systems.precipitation.freezing-rain"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Upslope flow brings heavy precipitation to the windward side, while compressional heating leaves dry air, and sometimes desert, on the leeward side.",
+    "source": "Wikipedia sentences 15, 16"
+   },
+   {
+    "claim": "Rain and drizzle are liquid forms, while snow, hail, graupel and ice pellets fall as ice.",
+    "source": "Wikipedia sentences 29, 31"
+   },
+   {
+    "claim": "Each mechanism differs in how the air is forced upward and how hard it rains.",
+    "source": "Wikipedia sentences 15, 25, 26"
+   },
+   {
+    "claim": "Air must first be saturated, then vapor condenses into cloud, and only once droplets are big enough do they fall.",
+    "source": "Wikipedia sentences 4, 10, 11"
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "stull-precip-processes",
+   "kind": "book",
+   "title": "7: Precipitation Processes - Practical Meteorology (Stull)",
+   "by": "Roland Stull",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/07%3A_Precipitation_Processes",
+   "note": "A college meteorology chapter on how droplets and ice crystals form and grow into rain and snow, and how it is measured.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-geo-precipitation",
+   "kind": "video",
+   "title": "How Can Rain Create Conflict? Precipitation and Water Use: Crash Course Geography #11",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=68G1ikYRNxg",
+   "note": "A Crash Course Geography episode on precipitation and how people depend on and compete for the water it brings."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+/* The 16-box grid of a two-gene cross (CrossGrid.tsx). At 375 px the content is 343 px: a header
+   column of about 80 px and four cells of about 66 px. Headers wrap; groups are split by a
+   stronger rule so equal looks read as one band. */
+/* Brought into view below the sticky player bar and progress line (52 px + 10 px, plus the notch), as .case__after is. */
+.expedition-shell .cross-grid { width: 100%; max-width: 460px; table-layout: fixed; border-collapse: collapse; margin: 2px 0 0; font-size: 12px; line-height: 1.25; color: var(--secondary); scroll-margin-top: calc(68px + var(--safe-top, 0px)); }
+.expedition-shell .cross-grid col.cross-grid__heads { width: 24%; }
+.expedition-shell .cross-grid th { font-weight: 500; padding: 4px 5px 6px; overflow-wrap: anywhere; hyphens: auto; }
+.expedition-shell .cross-grid thead th { text-align: center; vertical-align: bottom; border-left: 2px solid var(--line); }
+.expedition-shell .cross-grid thead th:nth-child(2) { border-left: 0; }
+.expedition-shell .cross-grid tbody th { text-align: left; vertical-align: middle; padding-left: 0; }
+.expedition-shell .cross-grid tbody tr.is-group th, .expedition-shell .cross-grid tbody tr.is-group td { border-top: 2px solid var(--line); }
+.expedition-shell .cross-grid td { height: 34px; padding: 0; text-align: center; vertical-align: middle; border: 1px solid var(--rule); background: var(--panel); }
+.expedition-shell .cross-grid td.is-group { border-left: 2px solid var(--line); }
+.expedition-shell .cross-grid td > * { margin: 0 auto; }
+.expedition-shell .cross-grid thead td { border: 0; background: none; }
+.expedition-shell .cross-grid td.is-marked { background: var(--raised); }
+@media (min-width: 700px) {
+  .expedition-shell .cross-grid { font-size: 13px; }
+  .expedition-shell .cross-grid td { height: 42px; }
+}

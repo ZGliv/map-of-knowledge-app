@@ -1,0 +1,30 @@
+{
+ "readHash": "88a717ddb03e75b54ed3e91bd7388055519954b6",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Flip over diagonal, index swap, A^T notation (1); Cayley 1858 (2)."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Involution (3), scalar (4), determinant (6), inverse of transpose (9)."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Square sizes (19), symmetric (20,25), entries from two rows of A and p_ij = p_ji (22-24)."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Dot product as a^T b (7) and (Aa).b = a.(A^T b) (11)."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Reading in different order (26), BLAS option (27), physical reorder sometimes worth it (28), row-major layout (29), FFT on columns may improve performance (30)."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Linear-map view (35), general definition incl. infinite-dimensional (36), basis-independent agreement (37)."
+  }
+ }
+}

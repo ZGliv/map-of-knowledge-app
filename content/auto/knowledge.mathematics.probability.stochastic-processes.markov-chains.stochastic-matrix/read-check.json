@@ -1,0 +1,30 @@
+{
+ "readHash": "e07b20f46a6be6382086835abdc943848ce4af99",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "right/left/doubly/substochastic definitions and finite-state Markov chain per [1]-[4],[19]"
+  },
+  "r1": {
+   "supported": true,
+   "why": "probability vector, rows/columns, entry meanings and multiplication side per [5]-[8]"
+  },
+  "r2": {
+   "supported": true,
+   "why": "P^k, initial row vector, mass-preserving redistribution, convergence to stationary per [20],[21],[31],[32]"
+  },
+  "r3": {
+   "supported": true,
+   "why": "spectral radius one, Gershgorin bound, all-ones eigenvector, left eigenvector per [22],[23],[26],[27]"
+  },
+  "r4": {
+   "supported": true,
+   "why": "cat and mouse setup, matrix indexing, capture with probability 1 and limit state per [34]-[36],[39],[41],[44]"
+  },
+  "r5": {
+   "supported": true,
+   "why": "Markov, St. Petersburg, 1906, linguistics and card shuffling, Kolmogorov, 1950s/60s/70s fields per [10]-[15],[17]"
+  }
+ }
+}

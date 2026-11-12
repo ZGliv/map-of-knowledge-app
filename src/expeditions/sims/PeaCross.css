@@ -1,0 +1,49 @@
+/* Pea-cross sim (PeaCross.tsx). Scoped under .expedition-shell like the rest of the player. */
+.expedition-shell .peacross { display: grid; gap: 34px; }
+.expedition-shell .peacross__step { display: grid; gap: 14px; animation: xp-rise .35s ease-out; }
+.expedition-shell .peacross__title { font: 400 22px/1.25 var(--serif); color: var(--bright); margin: 0; }
+.expedition-shell .peacross__parents { display: flex; align-items: center; justify-content: center; gap: 18px; padding: 16px 12px; border: 1px solid var(--rule); border-radius: 4px; background: radial-gradient(120% 90% at 50% 0%, var(--panel), var(--deep)); }
+.expedition-shell .peacross__parent { display: grid; justify-items: center; gap: 6px; text-align: center; max-width: 140px; }
+.expedition-shell .peacross__parent span { font-size: 14px; color: var(--secondary); line-height: 1.3; }
+.expedition-shell .peacross__parent code, .expedition-shell .peacross__square code { font: 600 14px var(--mono); color: var(--accent); }
+.expedition-shell .peacross__times { font: 28px var(--serif); color: var(--muted); }
+.expedition-shell .pea { display: block; flex: none; overflow: visible; }
+.expedition-shell .pea__body { fill: hsl(58 52% 66%); stroke: hsl(58 30% 34%); stroke-width: 1; }
+.expedition-shell .pea--wrinkled .pea__body { fill: hsl(58 44% 58%); }
+.expedition-shell .pea__shine { fill: hsl(58 70% 88% / .7); }
+.expedition-shell .pea__crease { fill: none; stroke: hsl(58 30% 30%); stroke-width: 1.1; stroke-linecap: round; }
+.expedition-shell .peacross__go { justify-self: start; padding: 12px 22px; border: 0; border-radius: 3px; background: var(--pale); color: var(--panel); font-weight: 600; }
+.expedition-shell .peacross__go:hover { background: var(--highlight); }
+.expedition-shell .peacross__result { display: grid; gap: 12px; }
+.expedition-shell .peacross__tray { display: flex; flex-wrap: wrap; gap: 4px; align-content: flex-start; min-height: 44px; padding: 12px; border: 1px solid var(--rule); border-radius: 4px; background: hsl(32 18% 16%); }
+.expedition-shell .peacross__square { border-collapse: collapse; margin: 4px 0 0; font-size: 14px; }
+.expedition-shell .peacross__square th { color: var(--secondary); font-weight: 500; padding: 4px 8px; text-align: center; }
+.expedition-shell .peacross__square .peacross__allele { font: 600 16px var(--mono); color: var(--accent); }
+.expedition-shell .peacross__square td { border: 1px solid var(--rule); background: var(--panel); padding: 8px 14px; text-align: center; }
+.expedition-shell .peacross__square td svg { margin: 0 auto 4px; }
+.expedition-shell .peacross__side { width: 28px; padding: 0 !important; }
+.expedition-shell .peacross__side span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); font-size: 13px; color: var(--muted); max-height: 140px; }
+.expedition-shell .peacross__compare { display: grid; gap: 14px; margin-top: 4px; }
+.expedition-shell .peacross__bar { display: grid; gap: 5px; }
+.expedition-shell .peacross__bar > span { font-size: 14px; color: var(--secondary); }
+.expedition-shell .peacross__bar > b { font: 400 16px var(--serif); color: var(--text); font-variant-numeric: tabular-nums; }
+.expedition-shell .peacross__fill { display: flex; height: 14px; border-radius: 2px; overflow: hidden; background: var(--raised); }
+.expedition-shell .peacross__fill i { display: block; height: 100%; transition: width .8s ease; }
+.expedition-shell .peacross__fill i.is-round { background: hsl(58 52% 66%); }
+.expedition-shell .peacross__fill i.is-wrinkled { background: hsl(58 26% 40%); }
+/* Dot looks for any other trait: full, half and empty read apart without colour. */
+.expedition-shell .pea__ring { fill: var(--panel); stroke: var(--accent); stroke-width: 1.6; }
+.expedition-shell .pea__fill { fill: var(--accent); }
+.expedition-shell .peacross__fill i.is-full { background: var(--accent); }
+.expedition-shell .peacross__fill i.is-half { background: color-mix(in srgb, var(--accent) 50%, var(--panel)); }
+.expedition-shell .peacross__fill i.is-none { background: var(--secondary); }
+.expedition-shell .peacross__figure { max-width: 360px; margin: 6px 0 0; }
+.expedition-shell .peacross__figure img { border-radius: 3px; }
+.expedition-shell .peacross__figure figcaption { display: grid; gap: 4px; }
+.expedition-shell .peacross__square { width: auto; }
+.expedition-shell .peacross__square td { min-width: 76px; }
+/* Two genes: the first gene's shape inside the second gene's ring (solid, dashed or none). */
+.expedition-shell .pea2 { display: inline-grid; place-items: center; padding: 2px; border: 2px solid transparent; border-radius: 50%; flex: none; }
+.expedition-shell .pea2--ring { border-color: var(--pale); }
+.expedition-shell .pea2--dashed { border-color: var(--pale); border-style: dashed; }
+.expedition-shell .peacross__tray > span { display: inline-flex; }

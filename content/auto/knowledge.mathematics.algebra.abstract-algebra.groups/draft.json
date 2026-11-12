@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "Group theory studies groups, algebraic structures that are central to abstract algebra.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Rings, fields and vector spaces can all be seen as groups with additional operations and axioms.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Symmetry groups model crystals, the hydrogen atom and three of the four known fundamental forces, and group theory is also central to public key cryptography.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Big classification",
+   "value": "Finite simple groups were classified over more than 10,000 journal pages",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Naming",
+   "value": "Evariste Galois coined the term group",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "First studied class",
+   "value": "Permutation groups",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Unified",
+   "value": "The theory of groups was unified starting around 1880",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Historical sources",
+   "value": "Number theory, algebraic equations, geometry and analysis",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You collect rearrangements of a deck of cards. Doing one after another stays in the collection, and so does undoing any one. What have you built?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A group acting on the deck"
+    },
+    {
+     "id": "b",
+     "label": "A field of cards"
+    },
+    {
+     "id": "c",
+     "label": "A vector space"
+    },
+    {
+     "id": "d",
+     "label": "A polynomial"
+    }
+   ],
+   "answer": "a",
+   "explain": "A collection of permutations closed under composition and inverses is a group acting on the set.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "prompt": "You take every possible rearrangement of n different objects. Which group is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The alternating group"
+    },
+    {
+     "id": "b",
+     "label": "The symmetric group"
+    },
+    {
+     "id": "c",
+     "label": "A matrix group"
+    },
+    {
+     "id": "d",
+     "label": "A Lie group"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the collection consists of all permutations of n elements, it is the symmetric group Sₙ.",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "prompt": "A chemist wants a mathematical model for the symmetries of a crystal. Which tool is suited?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Polynomial factoring"
+    },
+    {
+     "id": "b",
+     "label": "Modular clock arithmetic only"
+    },
+    {
+     "id": "c",
+     "label": "Public key encryption"
+    },
+    {
+     "id": "d",
+     "label": "Symmetry groups"
+    }
+   ],
+   "answer": "d",
+   "explain": "Physical systems such as crystals may be modelled by symmetry groups, with applications in chemistry and materials science.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Why do groups matter for the impossibility of a general solution in radicals for equations of degree five or higher?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One group has no proper normal subgroups from degree five up"
+    },
+    {
+     "id": "b",
+     "label": "Groups only come into existence from degree five"
+    },
+    {
+     "id": "c",
+     "label": "Matrix groups cannot be used for high degrees"
+    },
+    {
+     "id": "d",
+     "label": "Radicals always form one single cyclic group"
+    }
+   ],
+   "answer": "a",
+   "explain": "The alternating group Aₙ is simple for n ≥ 5, and this fact plays a key role in the impossibility.",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "prompt": "What do permutation groups and matrix groups have in common?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both act only on finite sets"
+    },
+    {
+     "id": "b",
+     "label": "Both are made of invertible matrices"
+    },
+    {
+     "id": "c",
+     "label": "Both act on a space while preserving its structure"
+    },
+    {
+     "id": "d",
+     "label": "Both have a simple alternating subgroup"
+    }
+   ],
+   "answer": "c",
+   "explain": "Both are special cases of transformation groups: a permutation group acts on a set, a matrix group on a vector space.",
+   "cites": [
+    37,
+    38
+   ]
+  },
+  {
+   "prompt": "Mathematicians in the 1800s struggled to sort out Euclidean, hyperbolic and projective geometry. What idea did Klein's Erlangen program offer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Count how many dimensions each geometry has"
+    },
+    {
+     "id": "b",
+     "label": "Prove one geometry is the only true one"
+    },
+    {
+     "id": "c",
+     "label": "Classify each geometry by its total area"
+    },
+    {
+     "id": "d",
+     "label": "Use group theory as the organizing principle"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Erlangen program proclaimed group theory to be the organizing principle of geometry.",
+   "cites": [
+    14,
+    18
+   ]
+  }
+ ]
+}

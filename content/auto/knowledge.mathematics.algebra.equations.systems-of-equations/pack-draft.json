@@ -1,0 +1,99 @@
+{
+ "title": "Where the lines meet",
+ "question": "What does it mean to solve several equations at once?",
+ "hook": "One equation leaves plenty of room; stack on more and that room can shrink to a point or vanish.",
+ "idea": "A solution must satisfy every equation together, so the solution set is where all their lines or planes intersect.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two equations in x and y draw two parallel lines. What is the solution set?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "One point",
+     "feedback": "Parallel lines never cross, so there is no single meeting point."
+    },
+    {
+     "id": "b",
+     "label": "A whole line",
+     "feedback": "That needs the two lines to coincide, which parallel lines do not."
+    },
+    {
+     "id": "c",
+     "label": "Empty"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is possible for a system of two equations and two unknowns to have no solution, if the two lines are parallel.",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each number of variables to what one equation draws",
+   "pairs": [
+    [
+     "Two variables",
+     "A line on the xy-plane"
+    ],
+    [
+     "Three variables",
+     "A plane in three-dimensional space"
+    ],
+    [
+     "n variables",
+     "A hyperplane in n-dimensional space"
+    ]
+   ],
+   "explain": "Each linear equation determines a flat shape one dimension below the space of its variables, and the solution set is their intersection.",
+   "cites": [
+    25,
+    27,
+    30
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A system has the same number of equations as unknowns. In general, what do you expect?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "No solution",
+     "feedback": "That is the usual outcome with more equations than unknowns, not with equal numbers."
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many solutions",
+     "feedback": "That is the usual outcome with fewer equations than unknowns."
+    },
+    {
+     "id": "c",
+     "label": "A single unique solution"
+    }
+   ],
+   "answer": "c",
+   "explain": "In general, a system with the same number of equations and unknowns has a single unique solution.",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Each of three equations in three variables determines a plane.",
+    "The solution set is the intersection of the three planes.",
+    "Three planes can meet at a single point, which gives one solution.",
+    "So the solution set of three planes can never be a line."
+   ],
+   "wrong": 3,
+   "explain": "The solution set may be a plane, a line, a single point, or the empty set; three planes passing through two points share the whole line through them.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  }
+ ]
+}

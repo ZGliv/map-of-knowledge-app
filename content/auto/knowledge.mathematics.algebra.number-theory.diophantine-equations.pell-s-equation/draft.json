@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "Pell's equation is a Diophantine equation of the form x² − ny² = 1, where n is a given positive nonsquare integer and integer solutions are sought for x and y.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Lagrange proved that when n is not a perfect square there are infinitely many distinct whole-number solutions.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Those solutions give fractions x/y that closely approximate the square root of n.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Early solver",
+   "value": "Brahmagupta in India, circa 628",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Odd naming",
+   "value": "Euler wrongly credited Brouncker's solution to John Pell",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Its graph",
+   "value": "A hyperbola, with solutions at whole-number points",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Archimedes link",
+   "value": "His cattle problem can be recast as a Pell's equation",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Square root of 2",
+   "value": "Baudhayana found 17/12 and 577/408 as close approximations",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "People call this equation by Pell's name, yet John Pell did not solve it first in Europe. How did the name arise?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pell wrote the first European textbook on the topic"
+    },
+    {
+     "id": "b",
+     "label": "Euler mistakenly credited Brouncker's solution to Pell"
+    },
+    {
+     "id": "c",
+     "label": "Brouncker named it after his teacher, John Pell"
+    },
+    {
+     "id": "d",
+     "label": "Lagrange renamed it to honour a rival of Fermat"
+    }
+   ],
+   "answer": "b",
+   "explain": "William Brouncker was the first European to solve it, but Leonhard Euler mistakenly attributed Brouncker's solution to John Pell, and the name stuck.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "You need a fraction made of whole numbers that sits very close to the square root of a non-square number. How can this equation help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its whole-number solutions x and y give fractions x/y that approximate the root"
+    },
+    {
+     "id": "b",
+     "label": "It lists the digits of the root one at a time"
+    },
+    {
+     "id": "c",
+     "label": "It proves the root can be written exactly as a fraction"
+    },
+    {
+     "id": "d",
+     "label": "It shows which roots are impossible to approximate"
+    }
+   ],
+   "answer": "a",
+   "explain": "Solutions can be used to approximate the square root of n accurately by rational numbers of the form x/y.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A student finds one nontrivial solution for a given n that is not a perfect square and assumes that is the only one. What is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There is exactly one more, found by swapping x and y"
+    },
+    {
+     "id": "b",
+     "label": "The one found is the only solution"
+    },
+    {
+     "id": "c",
+     "label": "There are only a handful, and none for large x"
+    },
+    {
+     "id": "d",
+     "label": "There are endlessly many distinct solutions, as Lagrange proved"
+    }
+   ],
+   "answer": "d",
+   "explain": "Lagrange proved that as long as n is not a perfect square, the equation has infinitely many distinct integer solutions.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "The equation is drawn as a curve on a grid. What does a solution look like on that picture?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any point where the curve crosses the horizontal axis"
+    },
+    {
+     "id": "b",
+     "label": "Any point along the curve, since each one satisfies the equation"
+    },
+    {
+     "id": "c",
+     "label": "A point on the curve whose two coordinates are both whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "The highest point of the curve"
+    }
+   ],
+   "answer": "c",
+   "explain": "The equation is a hyperbola, and solutions occur where the curve passes through a point whose x and y coordinates are both integers.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "An ancient word problem asks how many cattle belong to the sun god Helios. How can it be solved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By rewriting it as a Pell's equation"
+    },
+    {
+     "id": "b",
+     "label": "By counting the herd in a single field"
+    },
+    {
+     "id": "c",
+     "label": "By drawing a hyperbola and measuring it"
+    },
+    {
+     "id": "d",
+     "label": "It has never been solved by any method"
+    }
+   ],
+   "answer": "a",
+   "explain": "Archimedes's cattle problem can be solved by reformulating it as a Pell's equation.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "The Pythagoreans used 'side' and 'diameter' number pairs x and y. What did the ratio x/y approximate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The square root of 3"
+    },
+    {
+     "id": "b",
+     "label": "The number pi"
+    },
+    {
+     "id": "c",
+     "label": "The golden ratio"
+    },
+    {
+     "id": "d",
+     "label": "The square root of 2"
+    }
+   ],
+   "answer": "d",
+   "explain": "If x and y are positive integers satisfying the equation for n = 2, then x/y approximates the square root of 2, and the Pythagoreans knew these side and diameter numbers.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ]
+}

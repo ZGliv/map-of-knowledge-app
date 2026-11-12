@@ -1,0 +1,20 @@
+{"summary":[
+{"text":"The moment magnitude scale, written M_w, rates an earthquake's size from its seismic moment and is treated as the authoritative scale for ranking quakes.","cites":[1,7]},
+{"text":"It is tied more directly to a quake's energy than other scales and does not saturate, so it avoids the underestimates other scales make in some conditions.","cites":[8]},
+{"text":"Agencies such as the US Geological Survey use it for large quakes, yet news reports often still call it the Richter scale.","cites":[6,9]}
+],
+"facts":[
+{"label":"Symbol","value":"M_w","cites":[1]},
+{"label":"Defined in","value":"1979, by Hanks and Kanamori","cites":[2,3]},
+{"label":"USGS uses it for","value":"Large quakes, typically above M 4","cites":[9]},
+{"label":"1960 Chilean quake","value":"Mₛ 8.5, but moment magnitude near 9.6","cites":[18,19]},
+{"label":"Small quakes","value":"About the same as on Richter's scale","cites":[5]}
+],
+"items":[
+{"prompt":"The 1960 Chilean earthquake scored 8.5 on the surface-wave scale, which tops out around 8. About what was its moment magnitude?","options":[{"id":"a","label":"About 8.0"},{"id":"b","label":"About 8.5"},{"id":"c","label":"About 9.6"},{"id":"d","label":"About 11.0"}],"answer":"c","explain":"The surface-wave scale saturates near 8 and underestimated this great quake; its moment magnitude was closer to 9.6.","cites":[18,19]},
+{"prompt":"An older scale gives two giant quakes nearly the same number, though one released far more energy. What is this problem called?","options":[{"id":"a","label":"Saturation"},{"id":"b","label":"Attenuation"},{"id":"c","label":"Resonance"},{"id":"d","label":"Liquefaction"}],"answer":"a","explain":"When a scale stops rising for bigger quakes and so underestimates them, seismologists call it saturation.","cites":[16,18]},
+{"prompt":"A news report says a big quake measured 7.8 \"on the Richter scale\". Which scale most likely produced that number?","options":[{"id":"a","label":"The Mercalli intensity scale"},{"id":"b","label":"The moment magnitude scale"},{"id":"c","label":"Richter's original local scale"},{"id":"d","label":"A count of building damage"}],"answer":"b","explain":"Agencies report large quakes in moment magnitude, but the media often still call those numbers Richter values.","cites":[6,9]},
+{"prompt":"The scale now used to rank the biggest earthquakes gets its number from what?","options":[{"id":"a","label":"The height of one seismograph trace"},{"id":"b","label":"How many aftershocks followed"},{"id":"c","label":"How much damage buildings took"},{"id":"d","label":"The quake's seismic moment"}],"answer":"d","explain":"Moment magnitude is based on seismic moment, not on a single trace's amplitude or on damage.","cites":[1,7]},
+{"prompt":"A small local quake is rated on both the Richter scale and the moment magnitude scale. How do the two numbers usually compare?","options":[{"id":"a","label":"They come out about the same"},{"id":"b","label":"Moment magnitude is two units higher"},{"id":"c","label":"Moment magnitude is always far lower"},{"id":"d","label":"They cannot be compared at all"}],"answer":"a","explain":"Both scales are logarithmic, and small earthquakes get roughly the same magnitude on each.","cites":[5]},
+{"prompt":"Two seismographs record the same quake, one 50 km away and one 500 km away. Which shows the bigger peak wave, and why must magnitude scales adjust for it?","options":[{"id":"a","label":"The far one; waves grow as they spread"},{"id":"b","label":"The near one; waves shrink with distance"},{"id":"c","label":"Both equal; distance has no effect"},{"id":"d","label":"Neither; peaks depend only on depth"}],"answer":"b","explain":"Peak amplitude diminishes with distance at a certain rate, so Richter had to correct for distance to make magnitude consistent.","cites":[12,13]}
+]}

@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "A probability mass function gives the probability that a discrete random variable is exactly equal to some value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is often the main way of defining a discrete probability distribution, for single variables or several at once.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Thinking of probability as mass helps avoid mistakes, since the total probability over all outcomes is conserved just as physical mass is.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What it gives",
+   "value": "Probability that a variable equals a value exactly",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Mode",
+   "value": "The value with the largest probability mass",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Binomial example",
+   "value": "Chance of exactly one 6 in three die rolls",
+   "cites": [
+    22,
+    24
+   ]
+  },
+  {
+   "label": "Geometric example",
+   "value": "Tossing a coin until the first heads appears",
+   "cites": [
+    25,
+    26
+   ]
+  },
+  {
+   "label": "Where it is zero",
+   "value": "Zero for all but a countable number of values",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A variable records the number shown on a die roll. What does its mass function tell you when you put in the number 4?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance that the roll is 4 or lower"
+    },
+    {
+     "id": "b",
+     "label": "The chance that the roll is exactly 4"
+    },
+    {
+     "id": "c",
+     "label": "The average of all the possible rolls"
+    },
+    {
+     "id": "d",
+     "label": "How likely a roll is to land near 4 per unit length"
+    }
+   ],
+   "answer": "b",
+   "explain": "A probability mass function gives the probability that a discrete variable is exactly equal to the value you put in.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "In a quiz, the mass function for scores is largest at a score of 7. What is 7 called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mode"
+    },
+    {
+     "id": "b",
+     "label": "The density"
+    },
+    {
+     "id": "c",
+     "label": "The cumulative total"
+    },
+    {
+     "id": "d",
+     "label": "The mean"
+    }
+   ],
+   "answer": "a",
+   "explain": "The value of the random variable with the largest probability mass is called the mode.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "You flip a coin over and over until the first heads shows up, and record how many flips it took. Which distribution models that number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bernoulli"
+    },
+    {
+     "id": "b",
+     "label": "Binomial"
+    },
+    {
+     "id": "c",
+     "label": "Geometric"
+    },
+    {
+     "id": "d",
+     "label": "Categorical"
+    }
+   ],
+   "answer": "c",
+   "explain": "The geometric distribution describes the number of trials needed to get one success, such as tossing a coin until the first heads.",
+   "cites": [
+    25,
+    26
+   ]
+  },
+  {
+   "prompt": "You pull one marble from a bag of red, green and blue marbles and record its colour. Which distribution models a single draw like this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Geometric"
+    },
+    {
+     "id": "b",
+     "label": "Binomial"
+    },
+    {
+     "id": "c",
+     "label": "Multinomial"
+    },
+    {
+     "id": "d",
+     "label": "Categorical"
+    }
+   ],
+   "answer": "d",
+   "explain": "When a discrete distribution has two or more categories, one of which may occur in a single trial (draw), it is a categorical distribution.",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "prompt": "You roll a fair die three times and count how many sixes appear. Which distribution models that count of successes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Binomial"
+    },
+    {
+     "id": "b",
+     "label": "Geometric"
+    },
+    {
+     "id": "c",
+     "label": "Bernoulli"
+    },
+    {
+     "id": "d",
+     "label": "Categorical"
+    }
+   ],
+   "answer": "a",
+   "explain": "The binomial distribution models the number of successes in n independent draws that each have two possible outcomes, such as getting exactly one 6 in three rolls.",
+   "cites": [
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "A smooth measurement, such as a scale reading that can be any value in a range, is a continuous variable. What is the chance it equals exactly one given value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A small but positive chance"
+    },
+    {
+     "id": "b",
+     "label": "Equal to the mass function at that value"
+    },
+    {
+     "id": "c",
+     "label": "Zero"
+    },
+    {
+     "id": "d",
+     "label": "It depends on how common the value is"
+    }
+   ],
+   "answer": "c",
+   "explain": "For a continuous random variable the probability of any single exact value is zero. That is why a mass function is used only for discrete variables.",
+   "cites": [
+    18,
+    19
+   ]
+  }
+ ]
+}

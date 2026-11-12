@@ -1,0 +1,312 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem",
+ "name": "RSA (cryptosystem)",
+ "summary": [
+  {
+   "text": "The RSA problem is the task of performing an RSA private-key operation when given only the public key.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "RSA raises a message to an exponent, modulo a composite number N whose factors are not known.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "For large keys no efficient solution is known, and the best known approach is to factor N, which is believed impractical when N is large enough.",
+   "cites": [
+    4,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Public key",
+   "value": "A modulus N and an exponent e",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Shape of N",
+   "value": "A large semiprime: a product of two large primes",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Best known attack",
+   "value": "Factor the modulus N",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Size threshold",
+   "value": "No efficient method known beyond 1024-bit keys",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Safeguard",
+   "value": "A padding scheme such as OAEP",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Eve manages to factor the modulus in someone's RSA public key. What does she gain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the one message she was looking at"
+    },
+    {
+     "id": "b",
+     "label": "The private key, so she can decrypt every ciphertext"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, because the public key does not depend on factors"
+    },
+    {
+     "id": "d",
+     "label": "Only the ability to forge messages, not read them"
+    }
+   ],
+   "answer": "b",
+   "explain": "The key setup turns the public exponent into the private exponent, so anyone who factors N obtains the private key and can decrypt any ciphertext.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem:q1"
+  },
+  {
+   "prompt": "The number N in an RSA public key is made from smaller pieces. Which description fits it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A product of two large prime numbers"
+    },
+    {
+     "id": "b",
+     "label": "A single very large prime number"
+    },
+    {
+     "id": "c",
+     "label": "A number with many small factors"
+    },
+    {
+     "id": "d",
+     "label": "Any random number below 1024"
+    }
+   ],
+   "answer": "a",
+   "explain": "The structure of an RSA public key requires N to be a large semiprime, a product of two large primes.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem:q2"
+  },
+  {
+   "prompt": "A salesperson says RSA has been mathematically proven impossible to break. What is accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The claim is right, since factoring was proven hard long ago"
+    },
+    {
+     "id": "b",
+     "label": "Only the proof for small keys is missing"
+    },
+    {
+     "id": "c",
+     "label": "The claim is right as long as the key has 1024 bits"
+    },
+    {
+     "id": "d",
+     "label": "No proof exists that the RSA problem is hard, just as none exists for factoring"
+    }
+   ],
+   "answer": "d",
+   "explain": "There are no proofs that integer factorization is computationally difficult, and likewise none that the RSA problem is similarly difficult.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem:q3"
+  },
+  {
+   "prompt": "Someone invents a way to decrypt RSA messages without the private key. Does that automatically give a way to factor large semiprimes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the two tasks are known to be identical"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for keys under 1024 bits"
+    },
+    {
+     "id": "c",
+     "label": "Not necessarily, since breaking RSA might be easier than factoring"
+    },
+    {
+     "id": "d",
+     "label": "No, because factoring is already known to be easy"
+    }
+   ],
+   "answer": "c",
+   "explain": "Factoring breaks RSA, but there is strong evidence that a method for breaking RSA cannot necessarily be converted into a method for factoring large semiprimes.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem:q4"
+  },
+  {
+   "prompt": "A system uses raw RSA with no extra step. Why do experts add a padding scheme such as OAEP?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To make the keys shorter and quicker to compute in use"
+    },
+    {
+     "id": "b",
+     "label": "To guard against structural weaknesses that skip the RSA problem"
+    },
+    {
+     "id": "c",
+     "label": "To replace the modulus with just one large prime number"
+    },
+    {
+     "id": "d",
+     "label": "To let anyone factor the modulus without any trouble"
+    }
+   ],
+   "answer": "b",
+   "explain": "RSA has a mathematical structure that might be exploited without solving the RSA problem, so padding is needed to reach its full strength.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem:q5"
+  },
+  {
+   "prompt": "Suppose someone found a fast way to solve the RSA problem for very large keys. What would be at risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since only small keys are affected"
+    },
+    {
+     "id": "b",
+     "label": "Only the storage of public keys"
+    },
+    {
+     "id": "c",
+     "label": "Only digital signatures and nothing else"
+    },
+    {
+     "id": "d",
+     "label": "The security of RSA-based encryption and digital signatures"
+    }
+   ],
+   "answer": "d",
+   "explain": "An efficient method would threaten RSA-based systems, both public-key encryption and digital signatures.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem:q6"
+  }
+ ],
+ "source": {
+  "title": "RSA problem",
+  "url": "https://en.wikipedia.org/wiki/RSA_problem",
+  "revision": 1299539591
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The question at the heart of RSA",
+    "text": "The RSA problem is the task of carrying out a private-key operation using nothing but the public key. RSA works by raising a message to a power, called the exponent, modulo a composite number N, and nobody else knows the factors of N. Seen that way, breaking it means finding e-th roots of an arbitrary number modulo N.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Stating it precisely",
+    "text": "Written out exactly, the public key is the pair (N, e), and the ciphertext is C ≡ Pᵉ (mod N); the task is to find the original message P quickly. N must be a large semiprime, meaning a product of two large prime numbers. The exponent must satisfy 2 < e < N and be coprime to φ(N), and the ciphertext must satisfy 0 ≤ C < N. C is picked at random from that range, and a fully precise statement also depends on how N and e were generated.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Why the problem matters",
+    "text": "For large RSA keys, over 1024 bits, nobody knows an efficient way to solve this problem. If someone found one, it would put RSA-based systems at risk, both for encrypting messages and for digital signatures. Yet there is no proof that the problem is hard, just as there is no proof that factoring whole numbers is hard.",
+    "cites": [
+     4,
+     11
+    ]
+   },
+   {
+    "heading": "The factoring route",
+    "text": "The best known attack is to factor the modulus N first, a task thought to be impractical when N is big enough. Once the prime factors are known, the same steps RSA uses during key setup turn the public exponent e into the private exponent d. So anyone who factors N gets the private key, and with it can decrypt any ciphertext.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Maybe easier than factoring",
+    "text": "That attack shows the RSA problem is no harder than factoring, but it could be easier. There is strong evidence that a way to break RSA would not necessarily give a way to factor large semiprimes. Factoring is overkill: the RSA problem only asks to decrypt one ciphertext, while factoring hands over the private key, which opens every ciphertext and allowing any private-key operation. Finding the private exponent d, though, is just as hard as factoring N, even though the RSA problem never asks for d.",
+    "cites": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Padding closes a side door",
+    "text": "RSA also has a particular mathematical structure that an attacker might exploit without solving the RSA problem at all. To get the full strength the problem promises, a system built on RSA must also use a padding scheme such as OAEP, which guards against these structural weaknesses.",
+    "cites": [
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "barrus-clark-1-27",
+   "kind": "book",
+   "title": "1.27: The RSA Scheme - Elementary Number Theory (Barrus and Clark)",
+   "by": "Mike Barrus & W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Barrus_and_Clark)/01%3A_Chapters/1.27%3A_The_RSA_Scheme",
+   "note": "A free textbook section proving why RSA encryption and decryption work, and why its security rests on factoring.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "numberphile-rsa-129",
+   "kind": "video",
+   "title": "RSA-129",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=YQw124CtvO0",
+   "note": "A Numberphile video on RSA-129, a famous RSA challenge number."
+  }
+ ]
+}

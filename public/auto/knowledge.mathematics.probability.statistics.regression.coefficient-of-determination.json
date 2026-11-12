@@ -1,0 +1,341 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination",
+ "name": "Coefficient of determination",
+ "summary": [
+  {
+   "text": "The coefficient of determination, R², is the proportion of the variation in the dependent variable that is predictable from the independent variables.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It measures how well a model reproduces observed outcomes: a perfect match gives R²=1, and a simple baseline model gives R²=0.",
+   "cites": [
+    3,
+    16,
+    17
+   ]
+  },
+  {
+   "text": "With ordinary least squares it never decreases as variables are added, so adjusted R² was devised to penalize extra variables.",
+   "cites": [
+    35,
+    38,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Perfect fit",
+   "value": "Modeled values matching observed values exactly give R² of 1",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Usual range",
+   "value": "Smaller than 1 and usually greater than 0",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Negative values",
+   "value": "Can arise when predictions were not fitted to those data",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Adding variables",
+   "value": "Under ordinary least squares, R² never decreases",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "label": "Adjusted R²",
+   "value": "Penalizes the statistic as extra variables are included",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two models predict house prices from the same data. Model A has an R² of 0.9 and model B has 0.4. What does that tell us?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Model B reproduces the observed prices better"
+    },
+    {
+     "id": "b",
+     "label": "Model A reproduces the observed prices better"
+    },
+    {
+     "id": "c",
+     "label": "The models cannot be compared at all"
+    },
+    {
+     "id": "d",
+     "label": "Model A uses more variables than model B"
+    }
+   ],
+   "answer": "b",
+   "explain": "R² measures how well observed outcomes are replicated by the model, and R²=1 is the best case where they match exactly.",
+   "cites": [
+    3,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination:q1"
+  },
+  {
+   "prompt": "An analyst keeps adding irrelevant factors, such as a model's first letter, to a regression just to push R² up. What happens, and what is the remedy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "R² falls, so extra variables are self-correcting"
+    },
+    {
+     "id": "b",
+     "label": "R² stays exactly the same however many are added"
+    },
+    {
+     "id": "c",
+     "label": "R² will not fall, so adjusted R² is used, which penalizes extra variables"
+    },
+    {
+     "id": "d",
+     "label": "R² becomes negative as soon as a factor is irrelevant"
+    }
+   ],
+   "answer": "c",
+   "explain": "With ordinary least squares, R² never decreases as variables are added, which rewards kitchen-sink regression. Adjusted R² penalizes the statistic for extra variables.",
+   "cites": [
+    35,
+    36,
+    37,
+    38,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination:q2"
+  },
+  {
+   "prompt": "Someone computes R² using predictions that were not derived by fitting a model to those data, and gets a negative number. What does that mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The data must contain a recording mistake somewhere"
+    },
+    {
+     "id": "b",
+     "label": "The model must be a perfect fit to the data"
+    },
+    {
+     "id": "c",
+     "label": "The correlation between the variables is negative"
+    },
+    {
+     "id": "d",
+     "label": "The data's average fits better than the predictions do"
+    }
+   ],
+   "answer": "d",
+   "explain": "Negative values can arise when predictions are not from a fitting procedure on those data, and then the mean of the data fits the outcomes better than the predicted values do.",
+   "cites": [
+    8,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination:q3"
+  },
+  {
+   "prompt": "Every point lies exactly on the model's predictions, so the leftover squared error is zero. What is R²?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 0"
+    },
+    {
+     "id": "b",
+     "label": "Exactly 1, the best case"
+    },
+    {
+     "id": "c",
+     "label": "Exactly 0.5"
+    },
+    {
+     "id": "d",
+     "label": "Negative"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the best case the modeled values exactly match the observed values, which gives SS_res = 0 and R²=1.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination:q4"
+  },
+  {
+   "prompt": "In a simple linear regression with an intercept, the sample correlation between predictor and outcome is 0.5. What is R²?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.5"
+    },
+    {
+     "id": "b",
+     "label": "0.75"
+    },
+    {
+     "id": "c",
+     "label": "0.25"
+    },
+    {
+     "id": "d",
+     "label": "1"
+    }
+   ],
+   "answer": "c",
+   "explain": "In simple linear regression with an intercept, r² is simply the square of the sample correlation coefficient, and 0.5 squared is 0.25.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination:q5"
+  },
+  {
+   "prompt": "A manager sees an error figure in dollars whose scale means little to her. Why might R² be easier to judge?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can be shown as a percentage, unlike measures with arbitrary range"
+    },
+    {
+     "id": "b",
+     "label": "It is always computed in dollars as well as units"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be affected by a poor fit to the data"
+    },
+    {
+     "id": "d",
+     "label": "It needs no model of any kind to be calculated"
+    }
+   ],
+   "answer": "a",
+   "explain": "R² can be more intuitively informative than error measures such as MSE and RMSE because it can be expressed as a percentage, whereas those have arbitrary range.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/R2values.svg/960px-R2values.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Coefficient of determination",
+  "credit": "Debenben",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:R2values.svg"
+ },
+ "source": {
+  "title": "Coefficient of determination",
+  "url": "https://en.wikipedia.org/wiki/Coefficient_of_determination",
+  "revision": 1376517997
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A score for how well a model fits",
+    "text": "The coefficient of determination, written R² and read as R squared, tells you what share of the variation in an outcome can be predicted from the variables used to explain it. It measures how closely a model reproduces the outcomes that were actually observed. In short, it is a measure of goodness of fit. It is used both for models built to predict and for models built to test hypotheses.",
+    "cites": [
+     1,
+     2,
+     3,
+     27
+    ]
+   },
+   {
+    "heading": "The ends of the scale",
+    "text": "If the model's values match every observed value exactly, R² equals 1. A baseline model that always predicts the mean of the observed data scores R² of 0. Because R² can be stated as a percentage, it can be easier to read than error measures such as MSE or RMSE, whose ranges are arbitrary.",
+    "cites": [
+     11,
+     16,
+     17,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Link to correlation",
+    "text": "In simple linear regression with an intercept, r² is just the square of the sample correlation coefficient r. When further predictors are added, R² becomes the squared coefficient of multiple correlation. In both of these cases it is always below 1 and usually above 0. Several different definitions of R² exist, and they only sometimes agree.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "When R² goes negative",
+    "text": "R² can drop below zero. This can happen when the predictions were not produced by fitting a model to those same data. It can also happen after fitting, for example in a linear regression with no intercept or when a nonlinear function is fitted. A negative value means that simply using the mean of the data would fit the outcomes better than the model does.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Why more variables mislead",
+    "text": "When a model is fitted by ordinary least squares, R² never falls as you add variables; it can only stay level or rise. That invites a bad habit of piling in variables just to push R² up. Suppose you predict a car's sales from its mileage, price and engine power. You could add the first letter of its name or the height of its lead engineer, and R² would not drop and would likely creep up by chance alone.",
+    "cites": [
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "The adjusted version",
+    "text": "This problem leads to a second measure, adjusted R². It is read in nearly the same way as R², but it is penalized as extra variables enter the model. R² values can be worked out for any kind of predictive model, even one with no statistical basis.",
+    "cites": [
+     38,
+     39,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "lane-14-3",
+   "kind": "book",
+   "title": "14.3: Partitioning Sums of Squares",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/14%3A_Regression/14.03%3A_Partitioning_Sums_of_Squares",
+   "note": "Splits total variation into explained and error parts, showing where the proportion of variation explained comes from.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "diez-8-2",
+   "kind": "book",
+   "title": "8.2: Least squares regression",
+   "by": "David Diez, Christopher Barr and Mine Çetinkaya-Rundel (OpenIntro)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introduction_to_Statistics_4e_(Diez_et_al.)/08%3A_Introduction_to_Linear_Regression/8.02%3A_Least_squares_regression",
+   "note": "An open textbook section on fitting a line by minimizing squared residuals, reading slope and R², and the risk of extrapolation.",
+   "license": "CC BY-SA 3.0"
+  },
+  {
+   "id": "os-12-3",
+   "kind": "book",
+   "title": "12.3 The Regression Equation",
+   "by": "OpenStax (Introductory Statistics 2e)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+   "note": "A free textbook section on the least-squares line, residuals and r², worked through a real exam-score example."
+  }
+ ]
+}

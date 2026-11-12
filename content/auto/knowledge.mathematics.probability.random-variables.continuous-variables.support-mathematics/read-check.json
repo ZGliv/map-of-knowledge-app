@@ -1,0 +1,30 @@
+{
+ "readHash": "1968d5c62382edb560d9c1418bdd9f251c9d7122",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Real-valued f, support = non-zero inputs [1], smallest set with f zero outside [5], used widely in analysis [3]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Topology as extra structure [6], smallest closed set containing non-zero points [2], most common case continuous f on real line or R^n [8]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Compact closed support [11], equals bounded on R^n since compact iff closed and bounded [12], stronger than vanishing at infinity [15], 1/(1+x^2) example [16]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Bump functions [17], mollifiers special case approximating nonsmooth functions [18], dense in many topologies so fundamental [24]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Loose closure-of-values picture [33], formal smallest closed set with P=1 [35]; 'certain to land in' paraphrases probability 1."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Essential support depends on measure and may be smaller [26], Dirichlet example with Lebesgue measure [27], analysts nearly always prefer it when different [28]."
+  }
+ }
+}

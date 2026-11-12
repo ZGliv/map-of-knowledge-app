@@ -1,0 +1,1060 @@
+{
+  "checker": "independent adversarial subagent (Claude), second pass. Where factcheck-input.md is older than src/places/generated/genetics-meiosis.ts, the shipped .ts text was judged and the difference noted. Cases C1-C3 read from the .ts. Seeded runs recomputed with src/expeditions/sims/cross.ts.",
+  "independent": true,
+  "checkedAt": "2026-10-26T17:12:24Z",
+  "resolvedAt": "2026-10-26T17:17:16.050Z",
+  "resolvedBy": "fix agent (did not run the check), from the cached sources; verdicts unchanged",
+  "units": [
+    {
+      "id": "P1",
+      "verdict": "supported",
+      "evidence": "[W1.7] [W1.2] [W1.20] [W1.21] [W1.18] [W1.19]",
+      "note": "Four cells is the source's own wording (W1.2); in females one egg plus two or three polar bodies (W1.204). Fine for a provenance line.",
+      "fix": ""
+    },
+    {
+      "id": "P2",
+      "verdict": "supported",
+      "evidence": "[W1.76] [W1.77] [W1.113] [W1.234] [W1.235] [W1.161] [W1.99] [W1.251] [W1.159]",
+      "note": "The source says 'approximately 42 times on average' without 'per meiosis'; that is the standard reading. 'At least one crossover per pair' matches W1.76 (W1.117 says 'ordinarily').",
+      "fix": ""
+    },
+    {
+      "id": "P3",
+      "verdict": "supported",
+      "evidence": "[W3.130] [W3.140] [W3.132]; 2^23 = 8,388,608 checked",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P4",
+      "verdict": "supported",
+      "evidence": "[W21.152] (essay VI dated 1887) [W10.96] (1889 Clarendon translation) [W21.12830] [W21.12838] [W21.12840]-[W21.12843] [W21.13688]-[W21.13692] [W21.13590] [W21.13570]-[W21.13572]",
+      "note": "Weismann hedges the one-egg origin of identical twins ('not yet been shown ... always') and calls them 'almost exactly alike'; 'alike in every way' renders his 'exactly alike'. Acceptable for provenance.",
+      "fix": ""
+    },
+    {
+      "id": "P5",
+      "verdict": "supported",
+      "evidence": "[W6.10] [W6.1] [W6.2] [W6.15]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P6",
+      "verdict": "supported",
+      "evidence": "[W7.2] [W7.11] [W7.12] [W7.19]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. The input sheet still has 'working with grasshopper embryos'; the shipped line drops it and says 'through meiosis in grasshoppers', which is the better reading (meiosis is not studied in embryos, even though W7.11 says so).",
+      "fix": ""
+    },
+    {
+      "id": "P7",
+      "verdict": "supported",
+      "evidence": "[W2.6] [W2.7] [W2.9]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P8",
+      "verdict": "supported",
+      "evidence": "[W11.15] [W11.9] [W11.8]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped line gives the paper's title and 'key evidence that chromosomes carry and exchange genetic information', both in the source.",
+      "fix": ""
+    },
+    {
+      "id": "P9",
+      "verdict": "supported",
+      "evidence": "[W23.15] [W23.1] [W23.6] [W2.19]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P10",
+      "verdict": "supported",
+      "evidence": "No cached text. Judged from general knowledge of Visscher et al. 2006 (PLoS Genet 2(3): e41): 4,401 quasi-independent full-sib pairs, estimated genome-wide IBD mean 0.498, SD 0.036, range 0.374-0.617. Consistent with [W13.58] (mean 50.28%, SD 3.68%).",
+      "note": "Not verifiable from the cache; matches my recollection of the paper. The values are marker-based estimates, so the true spread is slightly narrower; fine as reported.",
+      "fix": ""
+    },
+    {
+      "id": "P11",
+      "verdict": "supported",
+      "evidence": "[W14.2] [W14.21] [W14.23] [W14.25] [W14.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P12",
+      "verdict": "supported",
+      "evidence": "[W15.2] [W15.3] [W15.5] [W15.56] [W15.57] [W15.58] [W15.63]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Source says 'often leaving mules infertile'; 'usually infertile' is fair. The shipped line no longer blames the odd number, which is right (XO grasshopper males meiose fine with an odd count).",
+      "fix": ""
+    },
+    {
+      "id": "P13",
+      "verdict": "supported",
+      "evidence": "[W13.7] [W13.9] [W13.13] [W13.41] [W13.52]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P14",
+      "verdict": "supported",
+      "evidence": "[W16.160] [W16.161] [W16.163] (88% maternal)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P15",
+      "verdict": "supported",
+      "evidence": "[W8.12] [W8.13] [W1.42]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P16",
+      "verdict": "supported",
+      "evidence": "[W4.84] [W4.4] [W2.79] [W4.2]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B1.hook",
+      "verdict": "supported",
+      "evidence": "[W23.15] [W23.17] [W23.18] [W2.19] [W23.5] [W23.6] [W23.53] [W14.25]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped: 'grew up to show, under a microscope, that chromosomes trade pieces' and 'no two come out the same'. The input sheet's 'watch chromosomes trade pieces' would overstate: the exchange itself is not visible by light microscopy (W1.95); she correlated visible chromosome markers with recombinant traits (W23.53).",
+      "fix": ""
+    },
+    {
+      "id": "B2.prompt",
+      "verdict": "supported",
+      "evidence": "[W1.20] [W1.22]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.explain",
+      "verdict": "supported",
+      "evidence": "[W1.21] [W1.22] [W1.18] [W3.136]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.carry.all",
+      "verdict": "supported",
+      "evidence": "[W1.19] [W3.136]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.carry.any",
+      "verdict": "supported",
+      "evidence": "[W1.239] (too many or too few of a chromosome gives trisomy or monosomy)",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped feedback: 'both partners of one pair and neither of another ... too many copies of one chromosome and too few of another' is correct. The input sheet's 'a child missing one would lack thousands of genes' is false for small chromosomes (21, Y) and is gone.",
+      "fix": ""
+    },
+    {
+      "id": "B2.carry.one",
+      "verdict": "supported",
+      "evidence": "[W1.21] [W1.65] [W3.77]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.carry.half",
+      "verdict": "supported",
+      "evidence": "[W1.94] [W1.65]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped label 'every chromosome cut across the middle' is unambiguously wrong, as a distractor should be. The input sheet's 'split down its length' was a bad distractor: a replicated chromosome does split lengthwise into chromatids in meiosis II.",
+      "fix": ""
+    },
+    {
+      "id": "B3.goal",
+      "verdict": "supported",
+      "evidence": "[W3.32] [W2.77] [W3.120]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped says 'one spot on chromosome 5'. 'Kept back' means 'did not pass on'; fine.",
+      "fix": ""
+    },
+    {
+      "id": "B3.twelve.ask",
+      "verdict": "supported",
+      "evidence": "[W2.83] [W3.32]",
+      "note": "Tautological by construction (S is defined as what each parent gave the eldest); that is the point of the setup.",
+      "fix": ""
+    },
+    {
+      "id": "B3.twelve.same",
+      "verdict": "supported",
+      "evidence": "[W2.83] (one offspring's combination has no influence on the next)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.twelve.new",
+      "verdict": "supported",
+      "evidence": "[W3.50] [W3.119]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.twelve.blend",
+      "verdict": "supported",
+      "evidence": "[W3.43] [W3.119]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.twelve.mix",
+      "verdict": "supported",
+      "evidence": "[W3.102] [W3.108]; seeded brood genetics-meiosis-deal-9:twelve = 3 both / 6 one / 3 neither, so the run shown agrees with the key",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped key 'Some both, about half one, some neither' is right. The input sheet's 'most one' was wrong (expected share with one copy is exactly half, not most).",
+      "fix": ""
+    },
+    {
+      "id": "B3.twelve.explain",
+      "verdict": "supported",
+      "evidence": "[W3.102] [W3.35] [W3.36]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.hundred.ask",
+      "verdict": "supported",
+      "evidence": "[W13.7] [W14.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.hundred.each",
+      "verdict": "supported",
+      "evidence": "[W3.102]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.hundred.average",
+      "verdict": "supported",
+      "evidence": "[W3.102]; seeded brood genetics-meiosis-deal-9:hundred = 25 / 51 / 24",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.hundred.split",
+      "verdict": "supported",
+      "evidence": "[W3.102]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.hundred.mother",
+      "verdict": "supported",
+      "evidence": "[W3.50] [W3.120]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.hundred.explain",
+      "verdict": "supported",
+      "evidence": "[W13.57] [W13.58]; Visscher 2006 from general knowledge (4,401 pairs, 0.374-0.617)",
+      "note": "Expected IBD 0.25x2 + 0.5x1 = 1 copy of 2, checked. 'Across all 23 pairs the luck mostly evens out' is true, though crossing over (dozens of segments per meiosis) does much of the evening out, not the 23 pairs alone; no change needed.",
+      "fix": ""
+    },
+    {
+      "id": "B4.quote1",
+      "verdict": "supported",
+      "evidence": "[W21.12830]-[W21.12843]: '...the question arises,—How can sexual reproduction now proceed without a doubling of the quantity of germ-plasm in each germ-cell, with every new generation?' / 'the necessary reduction can only be produced by nuclear division;' / 'there _must_ be a form of nuclear division in which ... receives only half the number contained in the original nucleus.'",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped passage (which keeps 'there must be a form of nuclear division in which') matches the Gutenberg text word for word; italics markers aside. The input sheet's shorter elision also matches. Both elisions keep Weismann's meaning; the dropped 'according to our theory' is a hedge worth knowing but not required.",
+      "fix": ""
+    },
+    {
+      "id": "B4.quote2",
+      "verdict": "supported",
+      "evidence": "[W21.13688]-[W21.13692], verbatim, essay VI",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.quote3",
+      "verdict": "supported",
+      "evidence": "[W21.13590]: 'In other words, the two children are exactly alike because they have arisen from the same egg-cell, which could of course only contain a single combination of ancestral germ-plasms, and therefore of hereditary tendencies' (trailing clause elided)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.note.doubling",
+      "verdict": "supported",
+      "evidence": "[W21.12830]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.note.division",
+      "verdict": "supported",
+      "evidence": "[W21.12839]-[W21.12843] ('quite apart from any observation ... we may safely assert that there must be')",
+      "note": "Meiosis is strictly two divisions and the halving happens in the first; 'the division now called meiosis' is the usual lay shorthand and the pack uses it consistently.",
+      "fix": ""
+    },
+    {
+      "id": "B4.note.half",
+      "verdict": "supported",
+      "evidence": "[W1.21] [W3.136]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.note.different",
+      "verdict": "supported",
+      "evidence": "[W21.13688]-[W21.13691] [W21.13575]-[W21.13577]",
+      "note": "Weismann says germ cells, not only eggs; 'no two eggs' is narrower but true.",
+      "fix": ""
+    },
+    {
+      "id": "B4.note.siblings",
+      "verdict": "supported",
+      "evidence": "[W21.13692]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.note.twins",
+      "verdict": "supported",
+      "evidence": "[W21.13586]-[W21.13590]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.q.cells",
+      "verdict": "supported",
+      "evidence": "[W21.13688]-[W21.13692]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.q.food",
+      "verdict": "supported",
+      "evidence": "[W21.13566]-[W21.13572]: nutrition 'to which ... the egg is subjected in the ovary'; 'I had myself referred to these influences as a partial explanation, before I recognized clearly how extremely feeble and powerless are the influences of nourishment'",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped option says 'in the ovary', matching the source; the input sheet's 'in the womb' did not.",
+      "fix": ""
+    },
+    {
+      "id": "B4.q.blend",
+      "verdict": "supported",
+      "evidence": "[W21.13575]-[W21.13578] ('a peculiar combination of ancestral germ-plasms')",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. ",
+      "fix": ""
+    },
+    {
+      "id": "B4.q.mutate",
+      "verdict": "supported",
+      "evidence": "[W21.13688]-[W21.13692]",
+      "note": "Children do carry de novo mutations their siblings lack, but the question asks for Weismann's reason, so the key stands.",
+      "fix": ""
+    },
+    {
+      "id": "B5.frame1",
+      "verdict": "supported",
+      "evidence": "[W1.30] [W1.32] [W1.201]-[W1.203]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped says 'the two joined duplicates of each chromosome part'.",
+      "fix": "",
+      "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the last sentence read “the two joined duplicates of each chromosome part”, a noun phrase, and named duplicates before any were introduced. Now: “…two divisions in a row, after every chromosome has been duplicated. In the first, the partners of each chromosome pair separate. In the second, each chromosome’s two duplicates come apart.” Rests on P1 (one round of copying, then two divisions)."
+    },
+    {
+      "id": "B5.frame2",
+      "verdict": "supported",
+      "evidence": "[W6.10] [W6.1] [W6.9]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Brachystola magna is the plains lubber shown in the photo (general knowledge). 'Early 1900s' fits a master's thesis finished by 1901 and the 1902-03 papers.",
+      "fix": ""
+    },
+    {
+      "id": "B5.frame3",
+      "verdict": "supported",
+      "evidence": "[W1.113] [W7.2] [W7.12] [W7.19] [W3.140]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Carothers' 1917 paper (W7.19, two genera of Acrididae) followed several heteromorphic pairs and found them sorting independently of one another, so 'whatever the other pairs do' holds. Shipped says 'different kinds of egg or sperm'.",
+      "fix": ""
+    },
+    {
+      "id": "B5.frame4",
+      "verdict": "supported",
+      "evidence": "[W2.6] [W2.8]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.frame5",
+      "verdict": "supported",
+      "evidence": "[W2.9] [W5.16] [W23.53]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped 'the plants' traits recombined when their chromosomes traded pieces' is right; the input sheet's 'exactly when' overstated the correlation.",
+      "fix": "",
+      "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “recombined” is replaced by plain words: “where they saw partner chromosomes trade pieces, the plants’ traits turned up in new combinations to match.” Rests on P7 and P8 (Creighton and McClintock first demonstrated the physical basis of crossing over, 1931; their paper correlates cytological and genetical crossing-over)."
+    },
+    {
+      "id": "B6.prompt",
+      "verdict": "supported",
+      "evidence": "[W1.2] [W1.65]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.explain",
+      "verdict": "supported",
+      "evidence": "[W1.7] [W1.29]-[W1.32] [W1.113]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Says meiosis 'duplicates every chromosome once'; bank item i_bah9my0a7y says the duplicating comes 'before meiosis proper'. Both have source support (W1.7 versus W1.9), so this is a small inconsistency, not an error.",
+      "fix": ""
+    },
+    {
+      "id": "B6.order",
+      "verdict": "supported",
+      "evidence": "[W1.9] [W1.76] [W1.87] [W1.91] [W1.111] [W1.113] [W1.119] [W1.140]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped items say 'duplicated' and 'duplicates' where the input sheet said 'strands', which could be misread as DNA strands. The order is unique and right.",
+      "fix": ""
+    },
+    {
+      "id": "B8.prompt",
+      "verdict": "supported",
+      "evidence": "[W15.2] [W15.5] [W15.50] [W15.56] [W15.57] [W15.63]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.explain",
+      "verdict": "imprecise",
+      "evidence": "[W15.58] [W1.78] [W1.117]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. 'Meiosis needs every chromosome to find its partner' is stated as universal, but it isn't: the pack's own grasshoppers (XO males, an unpaired X) meiose normally, and some species segregate without crossovers. It holds for mammals like the mule, where unpaired chromosomes stall meiosis. The rest is right, and dropping the input sheet's odd-number reasoning was correct.",
+      "fix": "A mule’s meiosis needs every chromosome to find its partner, so that each egg or sperm gets one of each.",
+      "resolved": "Scoped to the mule: “A mule’s meiosis needs every chromosome to find its partner, so that each egg or sperm gets one of each. Its horse and donkey chromosomes don’t all match up…” Checked against [W1.78] (pairing enables accurate segregation at the first division), [W5.76] (pairing must work for the genetic material to be sorted correctly) and [W15.57]–[W15.58] (63 chromosomes; gamete formation is difficult, often leaving mules infertile). No universal claim remains."
+    },
+    {
+      "id": "B8.why.odd",
+      "verdict": "supported",
+      "evidence": "[W1.181] (body cells divide by mitosis)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.weak",
+      "verdict": "supported",
+      "evidence": "[W15.5] [W15.50]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.pairs",
+      "verdict": "supported",
+      "evidence": "[W15.58] [W1.78]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.why.new",
+      "verdict": "supported",
+      "evidence": "[W15.57] [W15.85]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B9.number",
+      "verdict": "supported",
+      "evidence": "[W13.52] [W3.50]; model SN x NN, trait N: 1/2, so 30 -> 15, 42 -> 21, 56 -> 28",
+      "note": "The 'unrelated' buck plus the aside make identity by descent the clear frame. Same structure as bank item i_wq7jhxanyr (sheep), which is fine for a bank.",
+      "fix": "",
+      "resolved": "Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the computed working now reads “Half the offspring of a doe and a second, unrelated buck share neither of the first kit’s copies. 30 × 2/4 = 15 kits.” (was “2 in every 4 offspring …”). The answer is unchanged. The aside “Assume the second buck is unrelated to the first.” is gone, since the prompt already says “a second, unrelated buck”."
+    },
+    {
+      "id": "B10.idea",
+      "verdict": "supported",
+      "evidence": "[W1.18] [W1.19] [W1.113] [W1.76] [W14.2]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f1",
+      "verdict": "supported",
+      "evidence": "[W21.152] (essay VI, 1887) [W10.3] [W10.15]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f2",
+      "verdict": "supported",
+      "evidence": "[W21.12830]-[W21.12832]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f3",
+      "verdict": "supported",
+      "evidence": "[W21.12833]-[W21.12843] ('a reduction which is repeated in every generation'; 'only half the number')",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f4",
+      "verdict": "supported",
+      "evidence": "[W1.20] [W1.21]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f5",
+      "verdict": "supported",
+      "evidence": "[W1.22] [W1.19]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.prediction",
+      "verdict": "supported",
+      "evidence": "[W21.12830] [W3.136]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.takeaway",
+      "verdict": "supported",
+      "evidence": "[W1.18] [W1.19] [W21.12843]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f1",
+      "verdict": "supported",
+      "evidence": "[W23.15] [W23.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f2",
+      "verdict": "supported",
+      "evidence": "[W1.113] [W5.54]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f3",
+      "verdict": "supported",
+      "evidence": "[W3.140] [W1.76] [W1.3]",
+      "note": "'Reshuffling every one' fits the obligate crossover per pair (W1.76).",
+      "fix": ""
+    },
+    {
+      "id": "R2.f4",
+      "verdict": "supported",
+      "evidence": "[W2.9] [W5.16]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f5",
+      "verdict": "supported",
+      "evidence": "[W14.23] [W14.26] [W14.35]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped adds 'genetically'. Rare exceptions (semi-identical twins, twins with different fathers) don't need a qualifier here.",
+      "fix": ""
+    },
+    {
+      "id": "R2.prediction",
+      "verdict": "supported",
+      "evidence": "[W14.23] [W14.26]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped prompt says 'grow in the womb together', which is better than the input's 'born on the same day'.",
+      "fix": ""
+    },
+    {
+      "id": "R2.takeaway",
+      "verdict": "supported",
+      "evidence": "[W1.113] [W1.76] [W3.140] [W14.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_7bpmny7jd7",
+      "verdict": "supported",
+      "evidence": "[W1.21] [W1.65] [W3.137]",
+      "note": "Key is the single best answer; 'eleven or twelve complete pairs' (22 or 24) and 'any 23' are clean misses.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_dk6svbfwmk",
+      "verdict": "supported",
+      "evidence": "[W3.35] [W3.36] [W2.83]",
+      "note": "'Each carry two different copies' makes identity of copy and allele coincide; 1/2 x 1/2 = 1/4 checked.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_c20573yc7v",
+      "verdict": "supported",
+      "evidence": "[W3.102]; model SN x SN, trait N (NN) = 1/4: 40 -> 10, 24 -> 6, 60 -> 15",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_bah9my0a7y",
+      "verdict": "supported",
+      "evidence": "[W1.9] [W1.76] [W1.91] [W1.119] [W1.140]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped wording uses 'duplicated'/'duplicates' instead of 'strands'. See B6.explain for the small 'before meiosis proper' inconsistency.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_0h1jve82c1",
+      "verdict": "supported",
+      "evidence": "[W1.21] [W1.22] [W1.19]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_hdvrqe1ybq",
+      "verdict": "supported",
+      "evidence": "[W14.21] [W14.23] [W14.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_1ggabacsbn",
+      "verdict": "supported",
+      "evidence": "[W16.152] [W16.160] [W16.161] [W16.163] [W17.57]",
+      "note": "Most cases are maternal meiosis I errors (W17.57), where the homologous pair fails to part, so 'the pair failed to part' is right for most. Meiosis II errors (two copies of one homolog) are the minority.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_1bgkhktr32",
+      "verdict": "supported",
+      "evidence": "[W1.159] [W1.160] [W2.79] [W4.84]",
+      "note": "Ignores gene conversion, which is negligible at gene scale. Fine.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_b59qz6a6df",
+      "verdict": "supported",
+      "evidence": "[W1.161] [W1.99]-[W1.101] [W1.209] [W1.245] [W1.251] [W17.38] [W17.42]",
+      "note": "The maternal-age rise for trisomy 13 specifically is not in the cited source; it is true (general knowledge), and W1.251 covers oocyte nondisjunction generally. Eggs resume meiosis shortly before ovulation and pause again at metaphase II, so 'partway through meiosis ... until they are released' holds.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_ttg70n7hm6",
+      "verdict": "supported",
+      "evidence": "[W8.12] [W8.13] [W1.42] [W1.18]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped prompt: 'published what he had seen in sea urchins: a sperm enters the egg and the two nuclei fuse'. The source says fusion of sperm and egg and the role of the nucleus; the pronuclear fusion is right by general knowledge.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_tjty71renr",
+      "verdict": "supported",
+      "evidence": "[W3.102]; model SN x SN, trait S (SS) = 1/4: 8 -> 2, 12 -> 3, 16 -> 4",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped brood sizes are 8/12/16 (input sheet: 32), plausible for one doe and buck over years.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_wq7jhxanyr",
+      "verdict": "supported",
+      "evidence": "[W13.52] [W13.13]; model SN x NN, trait N = 1/2: 6 -> 3, 8 -> 4, 12 -> 6",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped brood sizes are 6/8/12 (input sheet: 30). Same structure as pack beat B9 (rabbits).",
+      "fix": ""
+    },
+    {
+      "id": "I.i_v1vzcwpzjj",
+      "verdict": "supported",
+      "evidence": "[W3.102]; model SN x SN, S dominant: P(at least one S) = 3/4: 40 -> 30, 24 -> 18, 56 -> 42",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.goal",
+      "verdict": "supported",
+      "evidence": "[W1.20] “diploid human cells contain 23 pairs of chromosomes … half of maternal origin and half of paternal origin”: chromosomes 5 and 11 are two different autosome pairs, one copy of each from each of her parents. [W1.2] meiosis gives four cells “each with only one copy of each chromosome”, so an egg takes one of her two copies at each spot.",
+      "note": "M and F name a copy by the parent it came from, not by its DNA, so every woman is “M and F” at every autosomal spot: the setup can exist for any woman. Read against the current .ts text.",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.20] 23 pairs, half maternal and half paternal: chromosomes 5 and 11 are different pairs; [W1.4] a zygote has two copies of each chromosome; an egg takes one copy of each pair [W1.2]",
+        "note": "New beat (replaces the grandparent flaw beat). M and F are defined here because the square prints them.",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      }
+    },
+    {
+      "id": "B7.eggs.ask",
+      "verdict": "supported",
+      "evidence": "[W1.20] (one copy of each pair from each parent); [W4.84] “The law of independent assortment always holds true for genes that are located on different chromosomes”.",
+      "note": "The premise (her mother’s two copies sit on different chromosomes) is true by construction: 5 and 11 are different pairs.",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.20] [W1.113] [W3.79] [W3.130]–[W3.131] [W4.84] [W4.96]",
+        "note": "",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      }
+    },
+    {
+      "id": "B7.eggs.half",
+      "verdict": "supported",
+      "evidence": "[W1.113] “The physical basis of the independent assortment of chromosomes is the random orientation of each bivalent … with respect to the orientation of the other bivalents”; [W4.96] “genes located on different chromosomes assort independently”.",
+      "note": "Right as a wrong option: “travel together” would give one egg in two; the feedback’s “each pair lines up its own way, whatever the other pair does” is [W1.113] in plain words.",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.113] each bivalent orients at random with respect to the others; [W4.84], [W4.96]",
+        "note": "Wrong option; feedback says copies on different chromosomes do not travel together.",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      }
+    },
+    {
+      "id": "B7.eggs.quarter",
+      "verdict": "supported",
+      "evidence": "Own enumeration: an egg takes M or F at chromosome 5 and, independently, M or F at chromosome 11: MM, MF, FM, FF equally likely, so her mother’s copy at both = 1/4 (father’s at both 1/4, one of each 1/2). The engine agrees: expected(MF, MF) = {M: 1, FM: 2, F: 1} in four. Independence: [W1.113], [W4.84].",
+      "note": "Key is right. Display only, not a fact error: the pinned seed (genetics-meiosis-two-spots:eggs) prints 18 mother’s-at-both, 56 one-of-each, 26 father’s-at-both in 100 eggs, so the learner who picks “about one in four” sees 18 beside the explanation’s “about one egg in four” (1.6 SD low). A seed that lands nearer 25 would read better; optional.",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.20] [W1.113] [W3.79] [W3.130]–[W3.131] [W4.84] [W4.96]; the sim computes it: MF × MF over two spots gives M 1, FM 2, F 1 in four (step expect, checked by checkSimBeat)",
+        "note": "Key.",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      },
+      "changed": "Display nit taken: the beat’s seed is now genetics-meiosis-two-spots-47, whose pinned 100-egg run shows 25 with her mother’s copy at both spots, 51 one of each and 24 her father’s at both, beside the explanation’s “about one egg in four”. Wording and key unchanged; the beat is not pinned by cross-compat. By round-5 fix agent (drafting side; wrote none of the round-4 verdicts), 2026-10-27.",
+      "recheck": {
+        "verdict": "supported",
+        "independent": true,
+        "by": "round-6 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-27",
+        "checkedAt": "2026-10-27T21:10:00Z",
+        "evidence": "The new seed, genetics-meiosis-two-spots-47, recomputed with the app’s own sample() and tally() on the stream “genetics-meiosis-two-spots-47:eggs”: 25 eggs with her mother’s copy at both spots, 51 one of each, 24 her father’s at both, beside the explanation’s “about one egg in four” and “another one in four”; the old seed gave 18 / 56 / 26. Key, wording and expect ({ M: 1, FM: 2, F: 1 }) unchanged; the beat has no entry in the cross-compat test or its snapshot. The display nit is closed."
+      }
+    },
+    {
+      "id": "B7.eggs.none",
+      "verdict": "supported",
+      "evidence": "[W1.113] each pair orients at random with respect to the others; own enumeration gives MM in 1 of 4, so “none” is wrong.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.113] [W3.79]",
+        "note": "Wrong option.",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      }
+    },
+    {
+      "id": "B7.eggs.all",
+      "verdict": "supported",
+      "evidence": "[W1.20] each of her pairs holds one copy from her mother and one from her father; [W1.2] each egg gets one copy of each chromosome, so at each spot her mother’s copy passes half the time.",
+      "note": "The feedback is right that both copies are hers whichever parent they came from.",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.20] [W1.113]",
+        "note": "Wrong option.",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      }
+    },
+    {
+      "id": "B7.eggs.explain",
+      "verdict": "supported",
+      "evidence": "Own enumeration: 1/2 × 1/2 = 1/4 mother’s at both, 1/4 father’s at both, 1/2 one of each; [W1.113]; [W4.84]; [W4.96].",
+      "note": "“What came from one parent doesn’t travel as a set” is scoped by the beat to the two spots on different chromosomes; the crossover beats handle one chromosome.",
+      "fix": "",
+      "independent": true,
+      "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T19:17:05.901Z",
+      "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+      "drafting": {
+        "verdict": "supported",
+        "evidence": "[W1.20] [W1.113] [W3.79] [W3.130]–[W3.131] [W4.84] [W4.96]",
+        "note": "",
+        "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+      }
+    },
+    {
+      "id": "C.c_2ssd401nns",
+      "verdict": "supported",
+      "independent": true,
+      "caseHash": "27a9a9719e34",
+      "by": "round-11 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-28",
+      "checkedAt": "2026-10-28T02:18:09Z",
+      "method": "Sheet regenerated with factcheck.mjs --sheet (unchanged from the committed one; its hashes match the bundle). Every cited sentence re-read in the cached sources/*.json \"text\" field, not only the fact sheet. Network only to confirm two NCBI records the drafter had summarised by hand: the GCF_047663525.1 dataset report and sequence reports (organism Anas platyrhynchos, common name mallard, breed Pekin duck; chromosomes 1-39, W, Z; 2, 5, 7 and 9 are assembled molecules) and the Gene esummary for 42521 and 36421 (e on 3R, vg on 2R); both match the cached text. Shares recomputed by my own brute-force enumeration of each parent's gametes in a scratch script (no app code). Then, through scripts/generate/lib.mjs loadTs: caseHash, runCase, caseProblems, guessP, reflexWins, nearestReflex, judgeCase on ten simple fractions of the count, and validatePlace with placeContext for both places ([] for each).",
+      "evidence": "[W25.11] \"A male is called a drake\"; NCBI GCF_047663525.1 (cached, and confirmed live): Anas platyrhynchos, common name mallard, chromosomes 1-39 plus W and Z, so 2, 5, 7 and 9 are four different numbered pairs; [W25.93] domestic ducks descend from the mallard. [W1.18] \"a diploid zygote that contains two copies of each chromosome, one from each parent\"; [W1.2] each gamete gets one copy of each chromosome; [W4.84] \"The law of independent assortment always holds true for genes that are located on different chromosomes\"; [W4.96]; [W1.113]. Own enumeration of the 16 kinds of sperm (mother's or father's copy at each of four spots): mmmm 1/16 + pppp 1/16 = 1/8, 40 of 320. Engine: truth 40, band 34-46, caseProblems [], reflexWins [], nearest scan reflex 60 (14 outside), blind guess 3.75%, scenario and ask 69 words. The model is a fair stand-in: each pair of spots is run as MF x MF, which gives both-mother's 1/4, one of each 1/2, both-father's 1/4, exactly two independent half-chances; the focus M|P + F|Q is mother's at all four plus father's at all four.",
+      "note": "Tried to break it: crossing over does not change the share, because a single spot still gets one of his two copies, half the time his mother's; the four spots are on different chromosomes, so they are independent whatever crossovers happen; a drake is ZZ, so \"carries his chromosomes in pairs\" holds for every pair, and the case never uses the Z. Reveal, line and claim all keep \"at all four spots\" or \"there\", so nothing says one sperm in eight carries only one parent's chromosomes. Of my ten simple fractions only an eighth (40) wins. Nothing wrong found.",
+      "fix": "",
+      "previous": {
+        "id": "C.c_2ssd401nns",
+        "verdict": "supported",
+        "independent": false,
+        "caseHash": "27a9a9719e34",
+        "by": "round-10 fix agent (drafting side; wrote none of the verdicts), 2026-10-27; NOT an independent check: awaiting a fresh checker",
+        "checkedAt": "2026-10-28T00:39:27.328Z",
+        "method": "Bundle read after the edit. Shares recomputed by an own enumeration of every pairing of the parents’ gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase, caseProblems, guessP, reflexWins, nearestReflex, judgeCase on each named route at every whole number one step either side of it, a sweep of every fraction k/d of the count (d = 2 to 24), and validatePlace on all seven genetics places. No network.",
+        "evidence": "Only call.tolerance changed since the round-4 verdict (hash edf2b46fc7e3), so every fact stands as judged there: [W25.11] a male is a drake; [W27.2] [W27.4] numbered mallard chromosomes, so 2, 5, 7 and 9 are four pairs; [W1.2] [W1.4] one copy of each pair per gamete, one of each pair from each parent; [W4.84] [W4.96] pairs on different chromosomes assort independently. Own enumeration: 16 kinds of sperm, mother’s at all four 1/16 plus father’s at all four 1/16 = 1/8, 40 of 320. Engine: truth 40; band 34–46; caseProblems []; reflexWins []; nearest scan reflex the flies’ answer 60 (14 outside, was 12); blind guess 3.75% (was 5.0%); scenario and ask 69 words. Routes one step either side: Sex-linked’s answer 48 now loses (47, 48, 49 all outside), as do a quarter (80), a third (106.7), one corner (20), 3/16 (60) and the other cases’ answers (60, 209, 72, 100).",
+        "note": "Still inside the band, as before: 1/9 (35.6, equal chances for the three outcomes at each pair of spots plus a second slip) and 1/7 (45.7, no reading found); both need more than one mistake. Sex-linked’s orange-and-white share (1/8 → 40) carried here still wins: a cross-place share repeat, design §7.2, open for Zack.",
+        "fix": "",
+        "resolved": "Round 10 (two-gene verifier, should-fix): call.tolerance 8 → 6 (band 34–46). Sex-linked’s answer 48 typed here sat on the old band’s edge (32–48), and 47 won too. Text, model and seed unchanged; the seeded run (38) is inside the new band. lazy.test.ts now holds every two-gene case against every other two-gene case’s answer, a step either side.",
+        "previous": {
+          "caseHash": "edf2b46fc7e3",
+          "verdict": "supported",
+          "evidence": "Current text (hash edf2b46fc7e3). [W25.11] “A male is called a drake”; [W25.93] domestic ducks descend from the mallard (Anas platyrhynchos); [W27.2] [W27.4] the mallard genome has numbered chromosomes 1–39 plus W and Z, so 2, 5, 7 and 9 are four different pairs; [W1.4] a zygote has two copies of each chromosome, one from each parent’s gamete, so “one of each pair from his mother, one from his father” holds for a drake (his two Zs included); [W1.2] each gamete gets one copy of each chromosome; [W1.113] [W3.79] [W4.84] [W4.96] pairs on different chromosomes assort independently. Own enumeration of the 16 sperm kinds (mother’s or father’s copy at each of four spots): mother’s at all four 1/16, father’s at all four 1/16, together 2/16 = 1/8, 40 of 320. Engine: truth 40 under the case seed and six others; line “1 sperm in every 8 carries one parent’s copies at all four spots: about 40 of 320. … These 320 sperm had 38.”; caseProblems []; reflexWins []; nearest scan reflex the fly case’s answer 60 (12 outside); blind guess 5.0%; validatePlace [] for the place; scenario and ask 69 words.",
+          "note": "Both round-4 problems are fixed. No number in the scenario or ask is within one step of the 32–48 band (2, 5, 7, 9, four and 320 remain). The class label, call label, computed line and the reveal’s last sentence all keep “at all four spots”, so nothing says one sperm in eight carries only one parent’s chromosomes; the claim keeps its scope with “there”. Lazy routes played through judgeCase, one step either side, all lose: his mother’s at all four only (20), a coin flip for each named condition (80), either condition as a half (160), three outcomes, mother’s, father’s or a mix (107), copies travelling as sets (320), the two-spot lesson’s quarter (80), a third of the count (107). The routes that win are reasoning: a half at each spot, four times over, then twice; or the first spot sets the parent and the other three must match (a half cubed). Observation, not a defect: numbers printed elsewhere in the lesson fall in the band (46 chromosomes in the halving beat, 42 kits in the kits beat, 32 in the mule beat) and typing any of them wins; none is a count of sperm or a share, so nothing in the case points to them.",
+          "fix": "",
+          "independent": true,
+          "by": "round-6 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-27",
+          "checkedAt": "2026-10-27T21:10:00Z",
+          "method": "Current text read from the bundle and the regenerated sheet (unchanged by --sheet). Every cited sentence re-read in the cached sources/*.json text. Shares recomputed by an own brute-force enumeration of each parent’s gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase under the case seed and six others, judgeCase on every lazy route one step either side, caseProblems, guessP, reflexWins, nearestReflex and validatePlace. No network.",
+          "drafting": {
+            "verdict": "supported",
+            "evidence": "[W25.11] drake = male duck; [W26.18] 80 chromosomes for ducks other than the Mandarin; [W27.2] [W27.4] the complete Pekin duck (domestic mallard, Anas platyrhynchos) genome: chromosomes 1–39 plus W and Z, i.e. 40 pairs, so 2, 5, 7 and 9 are four numbered pairs; [W1.20] [W1.113] [W3.79] [W3.130]–[W3.131] [W4.84] [W4.96]. Engine: MF×MF at spots 2/5 and PQ×PQ at 7/9, focus M|P + F|Q = 2/16 of 320 = 40 (tolerance 8); reflex scan clean, nearest the fly case's answer 60 (12 outside); blind guess 5.0%.",
+            "note": "design §4 M1 (the 1/8 version, Zack's call). Not claimed: anything about the Z chromosome.",
+            "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+          },
+          "previous": {
+            "caseHash": "5be5979e1837",
+            "verdict": "imprecise",
+            "evidence": "Facts hold: [W25.11] “A male is called a drake”; [W25.93] domestic ducks “are descended from the mallard (Anas platyrhynchos)”; [W26.18] Mandarin duck has 84 chromosomes “compared to 80 … for other ducks”; NCBI GCF_047663525.1 (cached text, and re-fetched live 2026-10-27 from the Datasets sequence_reports API: assembled molecules 1–39, W, Z) is a female Anas platyrhynchos (common name mallard), so a drake (ZZ) has 39 numbered pairs plus ZZ = 40 pairs, one of each from each parent (a drake’s Z from his mother, too). Own enumeration of the 16 sperm kinds at four spots: MMMM 1/16, FFFF 1/16, together 2/16 = 1/8 → 40 of 320. Engine truth 40 under 50 seeds, caseProblems [], reflexWins [], blind guess 5.0%.",
+            "note": "Two problems. (1) A REFLEX THE SCAN MISSES WINS IT: the scenario prints “has 40 pairs of chromosomes” and the answer is 40 of 320. Typing a number the scenario gives wins (judgeCase on 39, 40 and 41 all succeed). cases/reflexes.ts has no family for numbers printed in the scenario or ask, so validatePlace passes it. (2) A missing qualifier in what the learner reads after the run: the outcome line, built from the class label “Copies from only one of his parents”, says “1 sperm in every 8 carries copies from only one of his parents”, and the reveal ends “The other seven in eight mix copies from both his parents.” Read on its own, that says one sperm in eight carries only one parent’s chromosomes, which is false for a drake with 40 pairs and is the exact opposite of what this place teaches. The ask and the claim keep the scope (“at all four spots”, “there”); the line and the reveal’s last sentence drop it.",
+            "fix": "Scenario: “has 40 pairs of chromosomes:” → “carries his chromosomes in pairs:” (the numbers left are 2, 5, 7, 9 and 320). second.classes['M|P,F|Q'] → 'One parent’s copies at all four spots' (line becomes “1 sperm in every 8 carries one parent’s copies at all four spots: about 40 of 320.”); call.label → 'Sperm with one parent’s copies at all four spots'; reveal’s last sentence → “The other seven in eight mix copies from both his parents across the four spots.” Tested in memory on a clone of the bundle: validatePlace [], caseProblems [], reflexWins [], nearest reflex still the fly case’s 60 (12 outside), scenario + ask 69 words. The case hash changes, so the edited case needs a fresh independent look.",
+            "independent": true,
+            "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+            "checkedAt": "2026-10-27T19:17:05.901Z",
+            "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+            "resolved": "Both problems fixed as the checker proposed. (1) Scenario: “has 40 pairs of chromosomes:” → “carries his chromosomes in pairs:”, so no number in the scenario or ask lands in the 32–48 band any more (2, 5, 7, 9, four and 320 remain). (2) The class label “Copies from only one of his parents” → “One parent’s copies at all four spots”, so the computed line reads “1 sperm in every 8 carries one parent’s copies at all four spots: about 40 of 320”; the call label → “Sperm with one parent’s copies at all four spots”; the reveal’s last sentence → “The other seven in eight mix copies from both his parents across the four spots.” validate.mjs passes; caseProblems [], reflexWins [], nearest reflex the fly case’s answer 60 (12 outside); no scenario number within one step of the band. The case hash moved from 5be5979e1837 to edf2b46fc7e3, so this verdict covers the earlier text: the edited case needs an independent look. By round-5 fix agent (drafting side; wrote none of the round-4 verdicts), 2026-10-27."
+          }
+        }
+      }
+    },
+    {
+      "id": "C.c_cm3v9gm8ct",
+      "verdict": "supported",
+      "independent": true,
+      "caseHash": "e9a8fac7137e",
+      "by": "round-11 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-28",
+      "checkedAt": "2026-10-28T02:18:09Z",
+      "method": "Sheet regenerated with factcheck.mjs --sheet (unchanged from the committed one; its hashes match the bundle). Every cited sentence re-read in the cached sources/*.json \"text\" field, not only the fact sheet. Network only to confirm two NCBI records the drafter had summarised by hand: the GCF_047663525.1 dataset report and sequence reports (organism Anas platyrhynchos, common name mallard, breed Pekin duck; chromosomes 1-39, W, Z; 2, 5, 7 and 9 are assembled molecules) and the Gene esummary for 42521 and 36421 (e on 3R, vg on 2R); both match the cached text. Shares recomputed by my own brute-force enumeration of each parent's gametes in a scratch script (no app code). Then, through scripts/generate/lib.mjs loadTs: caseHash, runCase, caseProblems, guessP, reflexWins, nearestReflex, judgeCase on ten simple fractions of the count, and validatePlace with placeContext for both places ([] for each).",
+      "evidence": "Morgan 1916 (cached Gutenberg text, under \"MENDEL'S SECOND DISCOVERY--INDEPENDENT ASSORTMENT\"): \"an ebony fly with long wings is mated to a grey fly with vestigial wings (fig. 24). The offspring are gray with long wings. If these are inbred they give 9 gray long, 3 gray vestigial, 3 ebony long, 1 ebony vestigial\". Same text: vestigial x wild type gives long-winged F1 and \"three long to one vestigial\" (vestigial needs two copies). Drosophila melanogaster: \"e1: Ebony; black body and wings (heterozygotes are also visibly darker than wild type)\", listed where \"Recessive alleles are in lower case\"; \"Vestigial wings are those not fully developed and that have lost function\". NCBI Gene 42521 e on 3R and 36421 vg on 2R (cached, and confirmed live), so \"chromosomes 3 and 2\" in that order. [W3.86] pure-bred parents give a uniform F1. Own enumeration (ee VV x EE vv gives Ee Vv; Ee Vv x Ee Vv, 16 gamete pairings): ee V_ = 3/16, 60 of 320. Engine: truth 60, band 55-65, caseProblems [], reflexWins [], nearest scan reflex a quarter (80, 15 outside), blind guess 3.13%, 69 words.",
+      "note": "Tried to break it: the scenario's cross is Morgan's cross exactly (ebony long x grey vestigial, F1 inbred), so \"this very cross\" holds; Morgan's species name in 1916 was Drosophila ampelophila, but the scenario says only \"the fruit fly Drosophila\". \"A fly is ebony (black-bodied) only with two ebony copies\" stays true even though heterozygotes are a shade darker: Morgan calls them gray, and the source keeps black body for e1. The reveal's 9:3:3:1 is a paraphrase, not a quote, and matches. Of my ten simple fractions only 3/16 (60) wins. Nothing wrong found.",
+      "fix": "",
+      "previous": {
+        "id": "C.c_cm3v9gm8ct",
+        "verdict": "supported",
+        "independent": false,
+        "caseHash": "e9a8fac7137e",
+        "by": "round-10 fix agent (drafting side; wrote none of the verdicts), 2026-10-27; NOT an independent check: awaiting a fresh checker",
+        "checkedAt": "2026-10-28T00:39:27.328Z",
+        "method": "Bundle read after the edit. Shares recomputed by an own enumeration of every pairing of the parents’ gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase, caseProblems, guessP, reflexWins, nearestReflex, judgeCase on each named route at every whole number one step either side of it, a sweep of every fraction k/d of the count (d = 2 to 24), and validatePlace on all seven genetics places. No network.",
+        "evidence": "[W3.74] two identical alleles make an organism homozygous; [W3.86] parents “both homozygous (each pure-bred)” give a uniform first generation; [W3.102] heterozygotes are carriers, so a pure-bred fly hides no copy: the ebony, normal-winged line is ee VV and the grey, vestigial line EE vv, and every young fly is Ee Vv. [W29.2] e on 3R, [W30.2] vg on 2R; [W28.157] [W28.155] ebony recessive; [W31.783]–[W31.788] vestigial recessive; [W31.850]–[W31.853] Morgan 1916, this cross, 9 : 3 : 3 : 1. Own enumeration (Ee Vv × Ee Vv): ebony with normal wings 3/16, 60 of 320. Engine: truth 60; band 55–65; caseProblems []; reflexWins []; nearest scan reflex a quarter (80, 15 outside); blind guess 3.13%; the seeded run (58) inside the band; scenario and ask 69 words. Routes one step either side: a sixth (53.3) and two ninths (71.1), the round-8 1:1:1 readings, lose; so do 1/16, 1/8 and the other cases’ answers (40, 209, 72, 48, 100).",
+        "note": "A fifth (64) still wins; it is 3/16 rounded to 0.2, the right answer rounded (round 9). Out of scope here but on the record: genetics-dna’s case c_jdtsqd9859 has the answer 64, inside this band (a coincidence of numbers between places, not a reading of this case).",
+        "fix": "",
+        "resolved": "Round 10: (1) the round-9 edit (tolerance 10 → 5, seed gm-ebony-vestigial-163, hash 34032366723d) never had its independent look while this unit still read independent: true under hash 7b8941528612; this unit now says independent: false, so --merge holds it open. (2) Two-gene verifier nit: the scenario now glosses “Pure-bred (no hidden copies)”, the fact the honest working rests on (the middle generation carries one of each), and “Picture 320 of the grandchildren” became “Picture 320 grandchildren” to stay within 70 words (69). (3) The case now also cites Mendelian inheritance for the gloss (sources are outside caseHash).",
+        "previous": {
+          "caseHash": "7b8941528612",
+          "verdict": "supported",
+          "evidence": "NCBI Gene 42521 e (ebony) chromosome 3R, 3-71 cM; NCBI Gene 36421 vg (vestigial) chromosome 2R, 2-67 cM (cached text, and the live E-utilities esummary re-fetched 2026-10-27 agrees). [W28.157] “e1: Ebony; black body and wings (heterozygotes are also visibly darker than wild type)” under “Recessive alleles are in lower case” [W28.155]. Morgan 1916 [W31.783]–[W31.788]: F1 of vestigial × long “have long wings … three long to one vestigial”. Morgan 1916 [W31.850]–[W31.853], in the section on independent assortment: “an ebony fly with long wings is mated to a grey fly with vestigial wings … The offspring are gray with long wings. If these are inbred they give 9 gray long, 3 gray vestigial, 3 ebony long, 1 ebony vestigial”; the lectures are dated 1916 and the author is Thomas Hunt Morgan [W31.9]. Own enumeration of P ee VV × EE vv → F1 all Ee Vv → F2 9:3:3:1 over 16 boxes; ebony with normal wings 3/16 → 60 of 320. Engine truth 60 under 50 seeds, caseProblems [], reflexWins [], nearest a quarter (80, 10 outside), blind guess 6.3%.",
+          "note": "Facts, maths and line are right. Not errors: (a) Wikipedia calls wild-type flies “yellow-brown” [W28.15]; “grey” is Morgan’s “gray” and the usual textbook word, and the case is his cross. (b) One ebony copy darkens a fly “visibly”; the scenario says only that ebony (black) needs two copies, which is true, and the case counts black flies only. (c) The reveal switches from “normal wings” to Morgan’s “long-winged” in the ratio; clear from the contrast with vestigial, optional to align. Cross-place look-alike, for Zack (design §7.2 covers 1/8 and 3/8 but not this one): genetics-sex-linked’s lesson fly step (“White eyes, short wings”) prints R|D “3 in 16” for another Drosophila two-gene cross; a learner who played it can carry “3 in 16” to this fly cross and win (60). The in-place scan does not look across places by design.",
+          "fix": "",
+          "independent": true,
+          "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+          "checkedAt": "2026-10-27T19:17:05.901Z",
+          "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+          "drafting": {
+            "verdict": "supported",
+            "evidence": "[W29.2] e on chromosome arm 3R; [W30.2] vg on 2R; [W28.216] autosomes 2, 3, 4; [W28.157] [W28.155] ebony is a recessive marker (heterozygotes visibly darker than wild type, not ebony); [W31.783]–[W31.788] vestigial: F1 long-winged, F2 three long to one vestigial; [W31.850]–[W31.853] Morgan 1916: ebony long × grey vestigial, offspring gray long, inbred 9 gray long, 3 gray vestigial, 3 ebony long, 1 ebony vestigial. Engine: Ee Vv × Ee Vv, focus e|V = 3/16 of 320 = 60 (tolerance 10); reflex scan clean, nearest a quarter of the count 80 (10 outside); blind guess 6.3%.",
+            "note": "design §4 M2; entities Drosophila, ebony, vestigial (honest). The model labels the E class \"Grey body\" as Morgan does (\"gray\"); Wikipedia notes one ebony copy darkens a fly visibly, which the case never contradicts (it counts ebony, black flies only).",
+            "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+          },
+          "response": "Verdict supported; the cross-place note is argued down rather than fixed, and disclosed in docs/dihybrid-design.md §7.2. On two hybrids the 9:3:3:1 table is the reasoning itself (design §4), and Morgan 1916 gives this very cross with that ratio ([W31.850]–[W31.853]). The Sex-linked fly step’s 3 in 16 is a quarter (white eyes, by sex) times three quarters (normal wings), the same product this case asks for (a quarter ebony, three quarters of those with normal wings): a learner who carries “one trait in a quarter, the other in three quarters of those” is doing the reasoning. A learner who carries a bare “3 in 16” has 1 in 16 printed beside it on the same grid. The case is unchanged (hash 7b8941528612). By round-5 fix agent (drafting side; wrote none of the round-4 verdicts), 2026-10-27.",
+          "resolved": "Round 9 (drafting side; wrote none of the verdicts), after the round-8 observation: fixed rather than left open, the way round 7 handled a third of the count. call.tolerance 10 → 5 (band 55–65), and the seed gm-ebony-vestigial → gm-ebony-vestigial-163, whose run (58 of 320) sits inside the new band (the old seed’s 70 would have sat outside it). No text or model changed. Every route played through judgeCase at each whole number within one step: genotypes counted as equally likely (1:1:1, not 1:2:1) now lose, a sixth (a quarter times two thirds, or a third times a half: 53.3; 53 and 54 lose) and two ninths (a third times two thirds: 71.1; 70, 71 and 72 lose); a third times three quarters (80) loses; 3/16 rounded to 0.2 (64) or to 0.18 (57.6) still wins. Fraction sweep (k/d of 320, d up to 24, one step either side): besides 3/16 only 1/5 (3/16 rounded), 2/11, 3/17, 4/21 and 4/23 win, and no reading of the question gives the last four. caseProblems [], reflexWins [], validatePlace [], nearest scan reflex a quarter of the count (80, 15 outside), blind guess 3.1%, truth 60 under the seed and six others. The hash moves from 7b8941528612 to 34032366723d, so the case needs an independent look. The bundle comments and docs/dihybrid-design.md (§4 M2 row, §7.5, §7.10) carry the new numbers."
+        }
+      }
+    },
+    {
+      "id": "C.c_nv3fs4gag5",
+      "verdict": "supported",
+      "independent": true,
+      "caseHash": "9dd4f89f1fd4",
+      "by": "round-11 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-28",
+      "checkedAt": "2026-10-28T02:18:09Z",
+      "method": "Sheet regenerated with factcheck.mjs --sheet (unchanged from the committed one; its hashes match the bundle). Every cited sentence re-read in the cached sources/*.json \"text\" field, not only the fact sheet. Network only to confirm two NCBI records the drafter had summarised by hand: the GCF_047663525.1 dataset report and sequence reports (organism Anas platyrhynchos, common name mallard, breed Pekin duck; chromosomes 1-39, W, Z; 2, 5, 7 and 9 are assembled molecules) and the Gene esummary for 42521 and 36421 (e on 3R, vg on 2R); both match the cached text. Shares recomputed by my own brute-force enumeration of each parent's gametes in a scratch script (no app code). Then, through scripts/generate/lib.mjs loadTs: caseHash, runCase, caseProblems, guessP, reflexWins, nearestReflex, judgeCase on ten simple fractions of the count, and validatePlace with placeContext for both places ([] for each).",
+      "evidence": "Mendel, Bateson translation (cached Wikisource), Expt. 1 of the two-character experiments: seed parents round and yellow, pollen parents angular and green; \"The fertilised seeds appeared round and yellow like those of the seed parents\"; \"In all 556 seeds were yielded by 15 plants, and of these there were :— 315 round and yellow, 101 angular and yellow, 108 round and green, 32 angular and green.\" 108 + 101 = 209. Experiments on Plant Hybridization table: seed shape Round over Wrinkled, linkage group V; cotyledon color Yellow over Green, linkage group I; \"the 7 genes appeared on 5 chromosomes\" and Mendel \"only reported on the unlinked pairs\". Morgan 1916: yellow-round x green-wrinkled gives 9:3:3:1 and \"Yellow is said therefore to be dominant and green to be recessive\". [W33.24] \"Pea plants can self-pollinate\". Own enumeration (Rr Yy selfed): R_ yy 3/16 + rr Y_ 3/16 = 3/8, 208.5 of 556. Engine: truth 208.5, band 188.5-228.5, caseProblems [], reflexWins [], blind guess 7.19%, 70 words.",
+      "note": "Tried to break it: the translation says \"angular\" where the case says \"wrinkled\"; the same translation elsewhere says \"angular wrinkled\", and the modern table says Wrinkled, so the word is fair. The cached Wikisource dominance list reads \"The low colouring of the seed albumen\", an OCR slip for \"yellow\"; the case does not lean on that line, and the yellow F1 seeds plus the modern table carry the dominance. The 556 seeds are the seeds set on the hybrid plants, as the scenario says. Of my ten simple fractions only 3/8 (208.5) wins. Nothing wrong found.",
+      "fix": "",
+      "previous": {
+        "id": "C.c_nv3fs4gag5",
+        "verdict": "supported",
+        "independent": false,
+        "caseHash": "9dd4f89f1fd4",
+        "by": "round-10 fix agent (drafting side; wrote none of the verdicts), 2026-10-27; NOT an independent check: awaiting a fresh checker",
+        "checkedAt": "2026-10-28T00:39:27.328Z",
+        "method": "Bundle read after the edit. Shares recomputed by an own enumeration of every pairing of the parents’ gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase, caseProblems, guessP, reflexWins, nearestReflex, judgeCase on each named route at every whole number one step either side of it, a sweep of every fraction k/d of the count (d = 2 to 24), and validatePlace on all seven genetics places. No network.",
+        "evidence": "[W3.74] two identical alleles make a homozygote; [W3.86] “both homozygous (each pure-bred)”; [W3.102] heterozygotes are carriers, so the pure-bred round, yellow line is RR YY, the wrinkled, green line rr yy, and their young Rr Yy. Everything else as in the round-8 verdict (hash 4a1a36cc2b79): Mendel’s 556 seeds from 15 plants, 108 round and green and 101 wrinkled and yellow (cached Wikisource); [W34.33] [W34.35] dominance and linkage groups V and I; [W33.24] peas self-pollinate. Own enumeration (Rr Yy selfed): the mixes are 6/16, 208.5 of 556. Engine: truth 208.5; band 188.5–228.5; caseProblems []; reflexWins []; nearest scan reflex the slider’s middle (278, 49.5 outside); blind guess 7.19%; scenario and ask 70 words. A third (185.3), a quarter, 3/16 alone and 7/16 lose.",
+        "note": "Sex-linked’s black-and-white share (3/8 → 208.5) carried here still wins: design §7.2, open for Zack.",
+        "fix": "",
+        "resolved": "Round 10 (two-gene verifier nit): the scenario now glosses “pure-bred (no hidden copies)”, the fact the honest working rests on: the plants that pollinate themselves carry one of each version of both genes. Scenario and ask 70 words, the cap. Model, call and seed unchanged.",
+        "previous": {
+          "caseHash": "4a1a36cc2b79",
+          "verdict": "supported",
+          "evidence": "Current text (hash 4a1a36cc2b79; since round 6 only call.tolerance changed, 24 → 20). Cached Wikisource Mendel (Bateson), Expt. 1: “The fertilised seeds appeared round and yellow like those of the seed parents” and “In all 556 seeds were yielded by 15 plants, and of these there were :— 315 round and yellow, 101 angular and yellow, 108 round and green, 32 angular and green” (108 + 101 = 209). [W34.33] [W34.35] round over wrinkled, yellow over green, linkage groups V and I; [W34.23] the 7 genes on 5 chromosomes; [W33.24] “Pea plants can self-pollinate”; [W3.86] pure-bred parents give a uniform first generation. Own enumeration (Rr Yy selfed, 16 boxes, no app code): 9 round and yellow, 3 round and green, 3 wrinkled and yellow, 1 wrinkled and green; the mixes are 6/16 = 3/8, 208.5 of 556. Engine: truth 208.5 under the case seed and six others; line “… a mix of the grandparents’ looks in 3 of every 8 seeds, about 209 of 556. Round and green in 3 of every 16, and wrinkled and yellow in 3 of every 16. This run had 204.” (204 is inside the band, so the pinned run never contradicts the judgement); caseProblems []; reflexWins []; validatePlace [] for the place; nearest scan reflex the slider’s middle (278, 49.5 outside); blind guess 40/556 = 7.19%; winning whole numbers 189–228; scenario and ask 67 words.",
+          "note": "The round-6 fix is in and breaks nothing. Lazy routes played through judgeCase at every whole number within a step, all lose: a third of the count (185.3, 3.17 outside; 184–187 lose), half or a coin flip per trait (278), a quarter or double hybrids read as the mix (139), one mix only (104.25), round and yellow (312.75), at least one hidden look (7/16, 243.25, 14.75 outside), 5/16 (173.75), two thirds (370.7), any hybrid (417), the drake share 1/8 (69.5), the looks travelling together (0), the other cases’ answers (40, 60) and the slider’s middle (278). Mendel’s real 209 still wins: outside knowledge, accepted in design §7.8. The fraction sweep finds winners only at 3/8 and at fractions no reading of the question gives (2/5 = 222.4, 4/11, 5/13, 5/14, 7/18 and longer ones); I can name no route to any of them. The cross-place 3/8 (Sex-linked c_s0h4bevghh) is the disclosed look-alike (design §7.2). Design §4’s M3 row (20, 7.2%, 49.5) and the bundle’s case comment match what I computed.",
+          "fix": "",
+          "independent": true,
+          "by": "round-8 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-27",
+          "checkedAt": "2026-10-27T22:02:00Z",
+          "method": "Current text read from the bundle (git show 09e0acb: in src only call.tolerance changed, plus comments) and the current sheet, whose hashes match. Every cited sentence re-read in the cached sources/*.json text. Shares recomputed by an own brute-force enumeration of each parent’s gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase under the case seed and six others, judgeCase on each lazy route at every whole number within one step of it, caseProblems, guessP, reflexWins, nearestReflex, crossReflexes and validatePlace, plus a sweep of every fraction k/d of the count (d = 2 to 24), rounded, one step either side. No network.",
+          "drafting": {
+            "verdict": "supported",
+            "evidence": "[W32.264]–[W32.265] round seed dominant; [W32.514] hybrid seeds of round-yellow × angular-green \"appeared round and yellow\"; [W34.33] [W34.35] round over wrinkled, yellow over green, linkage groups V and I; [W34.23] 7 genes on 5 chromosomes; [W34.27] only unlinked pairs reported; [W33.24] [W32.84]–[W32.88] peas self-pollinate; cached Wikisource text: \"In all 556 seeds were yielded by 15 plants … 315 round and yellow, 101 angular and yellow, 108 round and green, 32 angular and green\" (108 + 101 = 209); [W31.825]–[W31.826] Morgan on the same pea cross. Engine: Rr Yy selfed, focus R|y + r|Y = 6/16 of 556 = 208.5 (tolerance 24); reflex scan clean, nearest the slider's middle 278 (45.5 outside); blind guess 8.6%.",
+            "note": "design §4 M3; the scenario states dominance and self-pollination and never names Mendel (only the source label does). The translation says \"angular\"; the case says \"wrinkled\", as [W32.299] \"angular wrinkled\" and [W34.33] do. The Wikisource line \"The low colouring of the seed albumen\" [W32.266] is a transcription slip for \"yellow\" (see the factsheet notes); the case does not rest on it.",
+            "by": "two-gene rebuild author (drafting side), 2026-10-27; NOT an independent check: awaiting a fresh checker"
+          },
+          "previous": {
+            "caseHash": "ef95e264444d",
+            "verdict": "imprecise",
+            "evidence": "Current text (hash ef95e264444d). Cached Wikisource Mendel (Bateson), Expt. 1: “In all 556 seeds were yielded by 15 plants, and of these there were :— 315 round and yellow, 101 angular and yellow, 108 round and green, 32 angular and green” (108 + 101 = 209; the four sum to 556). [W34.33] [W34.35] round over wrinkled, yellow over green, linkage groups V and I; [W34.23] the 7 genes on 5 chromosomes; [W33.24] “Pea plants can self-pollinate”. Own enumeration of Rr Yy selfed over 16 boxes: round and green 3, wrinkled and yellow 3, so 6/16 = 3/8, 208.5 of 556; the reveal’s new “together 6 in 16” is right. Engine: truth 208.5 under the case seed and six others; line “about 209 of 556”; caseProblems []; reflexWins []; nearest scan reflex the slider’s middle (278, 45.5 outside); blind guess 8.6%. judgeCase on a third of the count: 185 WINS, 186 WINS (band 184.5–232.5).",
+            "note": "Every fact, share and sentence is right, and the round-4 wording slip is fixed. But a lazy route outside the scan wins: a third of the count. The ask sets up three outcomes, a seed that looks like one grandparent, like the other, or a mix of their looks, and the equal-chances habit gives a third: 556 ÷ 3 = 185.3, which sits 23.2 from the truth, inside the tolerance of 24 (the case’s tally, shown once the run starts, also has exactly three classes). cases/reflexes.ts tries quarters, halves and three quarters but never a third, so validatePlace passes it. It is the same kind of route the round-5 drafter sized the new cat case against (“one colour in three”), so by this place’s own standard it should lose here too. It predates round 5: the reveal edit did not cause it. Other lazy routes lose: half (two of four looks, or a coin flip per trait: 278), a quarter (139), one mix only (104), the looks travelling together (0). Recalling Mendel’s 209 wins, which design §7.8 accepts as outside knowledge. Outside this unit, the same gap: a bare third of the count also lands in two Sex-linked bands (c_s0h4bevghh, 64 of 192, exactly on the band’s edge; c_exsm0wnbs6, 106.7 of 320).",
+            "fix": "call.tolerance 24 → 20 (band 188.5–228.5). A third (185.3) then lands 3.2 outside the band and one step up (186.3) 2.2 outside; Mendel’s real 209 still wins; blind guess 40/556 = 7.2%. Tested in memory on a clone of the bundle: caseProblems [], reflexWins [] (also [] for the other two Meiosis cases), validatePlace [], nearest scan reflex the slider’s middle (278, 49.5 outside); judgeCase 185 and 186 lose, 209 wins. The case hash changes (to 4a1a36cc2b79) and design §4’s M3 row (tolerance 24, guess 8.6%) needs the new numbers. Tolerance 22 also stops it but leaves one step up only 0.2 outside.",
+            "independent": true,
+            "by": "round-6 independent adversarial checker (Claude, fresh subagent; drafted and fixed nothing in either place), 2026-10-27",
+            "checkedAt": "2026-10-27T21:10:00Z",
+            "method": "Current text read from the bundle and the regenerated sheet (unchanged by --sheet). Every cited sentence re-read in the cached sources/*.json text. Shares recomputed by an own brute-force enumeration of each parent’s gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase under the case seed and six others, judgeCase on every lazy route one step either side, caseProblems, guessP, reflexWins, nearestReflex and validatePlace. No network.",
+            "resolved": "Fixed as the checker proposed: call.tolerance 24 → 20 (band 188.5–228.5). No text, model or seed changed. Rechecked on the live bundle through scripts/generate/lib.mjs loadTs: hash 4a1a36cc2b79, the version the checker tested in memory; truth 208.5 under the case seed and six others; caseProblems []; reflexWins [] (also [] for c_2ssd401nns and c_cm3v9gm8ct); validatePlace []; nearest scan reflex the slider’s middle (278, 49.5 outside); blind guess 7.2%. judgeCase: 184, 185, 186 and 187 lose (a third, 185.3, lands 3.2 outside the band, 2.2 one step up); Mendel’s 209 wins. A sweep of every fraction k/d of the count (d = 2–8 and 16), one step either side, finds two that win: 3/8 (the truth) and 2/5 (222.4); no reading of the question we can name gives two in five. Design §4’s M3 row now reads 20, 7.2% and 49.5, and §7.10 records a third of the count as a fourth reflex the scan lacks. The case hash moved from ef95e264444d to 4a1a36cc2b79, so this verdict covers the earlier text: the edited case needs an independent look. By round-7 fix agent (drafting side; wrote none of the round-6 verdicts), 2026-10-27.",
+            "previous": {
+              "caseHash": "f9b67896331b",
+              "verdict": "imprecise",
+              "evidence": "Cached Wikisource Mendel (Bateson translation), Expt. 1: “AB, seed parents; ab, pollen parents; A, form round; a, form angular; B, albumen yellow. b, albumen green. The fertilised seeds appeared round and yellow like those of the seed parents. … In all 556 seeds were yielded by 15 plants, and of these there were :— 315 round and yellow, 101 angular and yellow, 108 round and green, 32 angular and green.” 108 + 101 = 209; 315 + 101 + 108 + 32 = 556. [W34.33]/[W34.35] table: seed shape round over wrinkled, linkage group V; cotyledon colour yellow over green, linkage group I; “the 7 genes appeared on 5 chromosomes” [W34.23]. Self-pollination: [W33.24] “Pea plants can self-pollinate”; Mendel’s keel and bud passage [W32.84]–[W32.88]. Own enumeration of P RRYY × rryy → F1 all RrYy → F2: round green 3/16 + wrinkled yellow 3/16 = 3/8 → 208.5 of 556. Engine truth 208.5 under 50 seeds, line “about 209”, caseProblems [], reflexWins [], nearest the slider’s middle (278, 45.5 outside), blind guess 8.6%.",
+              "note": "Setup, maths, line, Mendel’s numbers and “wrinkled” for his “angular” are all right, and Mendel is never named. One missing qualifier in the reveal: “Round and green is three quarters of a quarter, 3 in 16, and wrinkled and yellow the same: 6 in 16, about 209 of 556” reads as if wrinkled-and-yellow alone were 6 in 16; the 6 is the two classes together. Cross-place look-alike (disclosed in design §7.2): genetics-sex-linked case c_s0h4bevghh also has share 3/8. Nit, not a verdict: the line opens “Round, yellow pea plants” (the plants grew from round, yellow seeds), a common shorthand.",
+              "fix": "Reveal: “and wrinkled and yellow the same: 6 in 16” → “and wrinkled and yellow the same: together 6 in 16”. Tested in memory: validatePlace [], reflexWins [].",
+              "independent": true,
+              "by": "round-4 independent adversarial checker (Claude, fresh subagent; drafted nothing in this place), 2026-10-27",
+              "checkedAt": "2026-10-27T19:17:05.901Z",
+              "method": "Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app.",
+              "resolved": "Reveal: “and wrinkled and yellow the same: 6 in 16” → “and wrinkled and yellow the same: together 6 in 16”. validate.mjs passes; caseProblems [], reflexWins []. The case hash moved from f9b67896331b to ef95e264444d, so the edited case needs an independent look. By round-5 fix agent (drafting side; wrote none of the round-4 verdicts), 2026-10-27."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "round1": "2026-10-26, round-1 learner review, drafting side. Changed units: B5.frame1, B5.frame5, B9.number, C3 (C.c_m93c05xfq1). Changed text that is not a unit: the bank claim shown on the hub and the mission screen (“through independent assortment and crossing over”, terms the lesson never names, is now “dealing each pair out separately and swapping stretches between partners”, as the payoff says it) and the Deal the copies sim note (“Each parent passes on one of its two copies at this spot, picked at random, so the four boxes are equally likely.” in place of the default about factors). None of this has been seen by the independent checker.",
+  "retired": [
+    {
+      "id": "C1",
+      "verdict": "imprecise",
+      "evidence": "[W1.113] [W3.124] [W3.125] [W4.84]; engine: DS x DS codominant, focus DD = 1/4 of 200 = 50 (tolerance 12); seeded run gm-bull-sperm gives 47",
+      "note": "The setup, the 50-of-200 truth and the reveal are right. A half guess, the slider's middle and the 'copies travel as a set' belief (100) all lose. Two problems: (1) the claim 'a sperm carries one parent's copy at spots on two different chromosomes only one time in four' can be read as 'the same parent at both' (dam or sire), which is one in two. (2) The result line from the cross engine is shown to the learner as 'The cross gives his dam's copy at both spots in 1 of every 4 ... This brood had 47.' There is no cross and no brood, only one bull's sperm, and the 'parents' row shows the two spots as two parents. That wording comes from engines.ts and views.tsx, not the case.",
+      "fix": "Claim: 'Meiosis deals each chromosome pair separately, so a sperm carries his dam’s copy at both of two spots on different chromosomes only one time in four.' Engine: when the case is about one animal's gametes, the result line should name the who (for example, '1 of every 4 sperm ... These 200 sperm had 47'), not 'The cross gives ... This brood had'.",
+      "resolved": "Claim rewritten so it can only be read one way: “Because each chromosome pair is dealt separately, only one in four of a male’s sperm carries his mother’s copy at both of two spots on different chromosomes” (the same pattern as case 2’s claim; [W3.79] each pair segregates independently, [W1.113]). Engine fixed for the result line and the parents row: CrossModel takes an optional `spots` (src/cases/types.ts). With it, src/cases/engines.ts says “1 sperm in every 4 carries his dam’s copy at both spots: about 50 of 200. These 200 sperm had 47.” (no cross, no brood), and src/cases/views.tsx labels the row “Chromosome 6 spot · Chromosome 14 spot” instead of two parents. The answer (50), seed and tolerance are unchanged, and a test in engines.test.ts covers the gamete wording.",
+      "retired": "2026-10-26 round 2: this verdict is on c_fsw954xfq8, renamed c_4jxaxn8hg1 when “dam” and “sire” became “mother” and “father” (same model, numbers and reveal). C.c_4jxaxn8hg1 carries the drafting side’s check of the new words."
+    },
+    {
+      "id": "C3",
+      "verdict": "supported",
+      "evidence": "[W24.106] [W24.107]; [W3.102]; engine: SN x SN, S dominant, focus = 3/4 of 64 = 48 (tolerance 5); seeded run gm-mice-litters gives 49",
+      "note": "The 5-10 litters a year and 6-8 pups on average match the source. 'The same pair' rightly fixes the father, since house-mouse litters can have several sires (W24.135). Half (32) and quarter (16) guesses lose. Caveat: this is the same question as bank item i_v1vzcwpzjj (pigs, 'at least one copy', 3/4), so a learner who has met that item can pattern-match the answer. That's a design point, not a factual error.",
+      "fix": "",
+      "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): display only: the parents row printed the focus trait for both parents (“At least one of the first pup’s copies × …”). The model now carries parentLabels: [“Mother”, “Father”], which only the picture reads; truth, line and every learner-facing sentence are unchanged, but the case hash changed.",
+      "retired": "2026-10-26 round 2: this verdict is on c_m93c05xfq1 (house-mouse litters), retired because it retold the sim’s own siblings. Its replacement, the barley case C.c_5fa2b3t5ew, carries only the drafting side’s check."
+    },
+    {
+      "id": "B7.prompt",
+      "verdict": "supported",
+      "evidence": "[W13.57]",
+      "note": "",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild (docs/dihybrid-design.md §7.1, Zack's grade-budget call): the graded 'grandparent' flaw beat was removed; beat 7 is now the pea-cross sim “Two spots, one egg”, whose units (B7.goal, B7.eggs.*) carry only the drafting side's check."
+    },
+    {
+      "id": "B7.explain",
+      "verdict": "supported",
+      "evidence": "[W1.113] [W1.34] [W1.35] [W13.57]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped 'Averaged over many grandchildren, each grandparent's share comes out near a quarter' is right: the X/Y asymmetry means even the average isn't exactly a quarter for every grandparent (a grandson's Y comes only from his paternal grandfather).",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild (docs/dihybrid-design.md §7.1, Zack's grade-budget call): the graded 'grandparent' flaw beat was removed; beat 7 is now the pea-cross sim “Two spots, one egg”, whose units (B7.goal, B7.eggs.*) carry only the drafting side's check."
+    },
+    {
+      "id": "B7.step.a",
+      "verdict": "supported",
+      "evidence": "[W1.22] [W3.121]",
+      "note": "",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild (docs/dihybrid-design.md §7.1, Zack's grade-budget call): the graded 'grandparent' flaw beat was removed; beat 7 is now the pea-cross sim “Two spots, one egg”, whose units (B7.goal, B7.eggs.*) carry only the drafting side's check."
+    },
+    {
+      "id": "B7.step.b",
+      "verdict": "supported",
+      "evidence": "[W5.6] [W1.20]",
+      "note": "",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild (docs/dihybrid-design.md §7.1, Zack's grade-budget call): the graded 'grandparent' flaw beat was removed; beat 7 is now the pea-cross sim “Two spots, one egg”, whose units (B7.goal, B7.eggs.*) carry only the drafting side's check."
+    },
+    {
+      "id": "B7.step.c",
+      "verdict": "supported",
+      "evidence": "[W1.113] [W1.34] [W3.137]-[W3.139]",
+      "note": "factcheck-input.md is older than src/places/generated/genetics-meiosis.ts here; the shipped .ts text was judged. Shipped step reads 'came exactly half from her mother and half from her father', which makes it unambiguously the broken step. Without 'exactly' (input sheet) it was arguably true on average.",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild (docs/dihybrid-design.md §7.1, Zack's grade-budget call): the graded 'grandparent' flaw beat was removed; beat 7 is now the pea-cross sim “Two spots, one egg”, whose units (B7.goal, B7.eggs.*) carry only the drafting side's check."
+    },
+    {
+      "id": "B7.step.d",
+      "verdict": "supported",
+      "evidence": "follows from c",
+      "note": "Valid given c and the unstated paternal-side twin of a-c; c is the single best answer.",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild (docs/dihybrid-design.md §7.1, Zack's grade-budget call): the graded 'grandparent' flaw beat was removed; beat 7 is now the pea-cross sim “Two spots, one egg”, whose units (B7.goal, B7.eggs.*) carry only the drafting side's check."
+    },
+    {
+      "id": "C2",
+      "verdict": "imprecise",
+      "evidence": "[W1.113] [W3.124] [W3.125] [W4.84]; engine: MF x MF with M dominant, focus M = 3/4 of 120 = 90 (tolerance 7); seeded run gm-rooster-sperm gives 86",
+      "note": "The setup, truth and reveal are right, and the case can't be won by a half guess (60), the slider's middle (60), case 1's quarter (30) or the 'set' belief (60). Chicken chromosomes 3 and 5 are autosomes, so nothing sex-linked interferes. The only problem is the engine wording the learner sees: 'The cross gives at least one copy from his mother in 3 of every 4 ... This brood had 86.' It is one rooster's sperm, not a cross. The parents row also shows each spot as a parent labelled 'At least one copy from his mother', a phrase meant for sperm.",
+      "fix": "Engine and view: for a case about one animal's gametes, name the who in the result line and label the two loci as spots (for example, 'Spot on chromosome 3 / Spot on chromosome 5') instead of reusing the offspring trait labels for them.",
+      "resolved": "Same engine fix: the case sets spots: [“Chromosome 3 spot”, “Chromosome 5 spot”], so the parents row names the two spots instead of reusing the offspring label “At least one copy from his mother”, and the result line reads “3 sperm in every 4 carry at least one copy from his mother: about 90 of 120. These 120 sperm had 86.” The answer (90), seed and tolerance are unchanged.",
+      "retired": "2026-10-27 two-gene rebuild: this positional verdict is on the rooster case c_pfnx2m7wsf, retired (a one-gene case three quarters of the count won). Case 2 is now the fly case c_cm3v9gm8ct, which this verdict does not cover."
+    },
+    {
+      "id": "C.c_4jxaxn8hg1",
+      "verdict": "supported",
+      "independent": false,
+      "caseHash": "c5a3182895d9",
+      "by": "round-2 fix agent (drafting side), learner review round 2, 2026-10-26; awaiting an independent check",
+      "checkedAt": "2026-10-26T21:00:00Z",
+      "evidence": "Same situation, model and numbers as c_fsw954xfq8, whose independent verdict (now under “retired”: imprecise, resolved by the claim rewrite) covered them. Recomputed: MF × MF with M and F ranked equal gives M 1, FM 2, F 1 in four; focus M = 1/4 of 200 = 50, band 38–62, blind guess 24/200 = 12%; seed gm-bull-sperm draws 47. [W1.113] each bivalent orients at random, independently of the others; [W3.124] [W3.125] alleles for separate traits pass independently; [W4.84] always for genes on different chromosomes. Only the words changed: “dam” and “sire” are “mother” and “father” in the scenario, ask, trait labels, call label and reveal.",
+      "note": "Drafting-side check only; an independent checker must still read it. A quarter of the count wins it without the step it tests (the sim prints one in four sharing both copies): held for Zack in src/cases/lazy.test.ts.",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild: the bull case c_4jxaxn8hg1 is retired (a quarter of the count won it); replaced by the drake case c_2ssd401nns."
+    },
+    {
+      "id": "C.c_5fa2b3t5ew",
+      "verdict": "supported",
+      "independent": false,
+      "caseHash": "24a28bab228f",
+      "by": "round-2 fix agent (drafting side), learner review round 2, 2026-10-26; awaiting an independent check",
+      "checkedAt": "2026-10-26T21:00:00Z",
+      "evidence": "[W19.23] barley “is a self-pollinating, diploid species with 14 chromosomes”; [W19.25] seven chromosome pairs, designated 1H to 7H, so chromosome 3H is one of a pair; [W18.1] self-pollination brings pollen to the stigma or ovule of the same plant; [W1.113] [W3.124] each egg cell or pollen grain takes one copy of each pair at random; [W3.35] [W3.36] two heterozygous parents give 50% heterozygous offspring and 25% of each homozygote; [W18.61] “Meiosis followed by self-pollination produces little overall genetic variation”. Engine: AB × AB with A and B ranked equal gives A 1, AB 2, B 1 in four; focus AB = 2/4 of 120 = 60, band 53–67, blind guess 14/120 = 12%; seed gm-barley-selfing draws 64, and the truth is the expected count, so every seed agrees. “Every generation halves the share with two different copies” follows from the same rule: only an AB plant gives AB seeds, half of them.",
+      "note": "Drafting-side check only; an independent checker must still read it. Replaces c_m93c05xfq1. The reveal’s last clause (“one reason self-pollinating plants produce so little new variation”) is an inference tied to [W18.61], not a quote. The slider’s middle wins it: held for Zack in src/cases/lazy.test.ts.",
+      "fix": "",
+      "retired": "2026-10-27 two-gene rebuild: the barley case c_5fa2b3t5ew is retired (the slider's middle won it); replaced by the pea case c_nv3fs4gag5."
+    }
+  ],
+  "round2": "2026-10-26, round-2 learner review, drafting side. Renamed: c_fsw954xfq8 → c_4jxaxn8hg1 (“dam”/“sire” → “mother”/“father”; was: c_fsw954xfq8, so a play of the old ID spends it). Replaced: c_m93c05xfq1 → c_5fa2b3t5ew (barley self-pollination, a situation the pack never runs). Both carry \"independent\": false, so merge keeps them open. Changed unit: B9.number (working wording, aside dropped). Changed text that is not a unit: the hub claim in src/core/places.ts now matches the bank claim; the sim’s line under its square is gone (the step’s explanation says how copies pass). None of this has been seen by the independent checker.",
+  "round3": "2026-10-27, two-gene rebuild (docs/dihybrid-design.md §4, §7), drafting side. Removed: the graded 'grandparent' flaw beat (beat 7) and the one-gene cases c_4jxaxn8hg1, c_pfnx2m7wsf, c_5fa2b3t5ew (their verdicts are under 'retired'). New: beat 7, the pea-cross sim “Two spots, one egg” (B7.goal, B7.eggs.*), and the two-gene cases C.c_2ssd401nns (drake, four spots), C.c_cm3v9gm8ct (ebony × vestigial flies) and C.c_nv3fs4gag5 (self-pollinated round-yellow peas). New sources W25–W34, cached 2026-10-27; notes with quotes at the end of factsheet.md. Every new unit carries \"independent\": false: the drafting side checked it, so merge keeps it open until a fresh checker writes its verdict. Changed text that is not a unit: the bank's expeditionFamilies (grandparent → two-spots, f_msgpc2jbhw) and the file's comments.",
+  "round4": "2026-10-27, round-4 independent adversarial check of the two-gene units (B7.goal, B7.eggs.*, C.c_2ssd401nns, C.c_cm3v9gm8ct, C.c_nv3fs4gag5) by a fresh subagent that drafted nothing in this place. Shares recomputed by an own brute-force enumeration of gametes (no import of cross.ts), then compared with runCase/caseProblems/reflexWins from a scratch bundle of the app. Sources re-read in the cached files; NCBI duck genome and the ebony and vestigial gene records re-fetched live and found to agree. Results: B7.* (7) and the fly case supported; the drake case imprecise (the scenario’s “40 pairs” equals the answer 40, a reflex the scan has no family for, and the outcome line and reveal drop “at the four spots”); the pea case imprecise (reveal’s “the same: 6 in 16” lacks “together”). Each drafting-side verdict is kept under the unit’s “drafting” field.",
+  "round5": "2026-10-27, round-5 fixes by the drafting side after the round-4 independent check (no verdict changed). Changed: C.c_2ssd401nns (scenario drops “40 pairs”; class label, call label and the reveal’s last sentence keep “at all four spots”), C.c_nv3fs4gag5 (reveal: “together 6 in 16”), and the seed of beat 7 (Two spots, one egg) so its pinned run reads 25/51/24 (B7.eggs.quarter’s optional nit). C.c_cm3v9gm8ct is unchanged: its cross-place 3 in 16 is argued down on the unit (“response”) and disclosed in docs/dihybrid-design.md §7.2. The two edited cases have new hashes and need an independent look. Not changed (shared code, not named by the task): the pea-cross screen-reader label “Chromosome 5 spot crossed with Chromosome 11 spot”.",
+  "round6": "2026-10-27, round-6 independent adversarial check of the round-5 changes by a fresh subagent that drafted and fixed nothing in this place; no network (every source relied on was already cached). Units: C.c_2ssd401nns supported (hash edf2b46fc7e3); C.c_nv3fs4gag5 imprecise (hash ef95e264444d): every fact is right, but a third of the count (185 of 556) wins, a lazy route the scan has no rule for, fixed by tolerance 20; B7.eggs.quarter recheck, the new seed’s 25 / 51 / 24 confirmed. The round-4 verdicts are kept under each case’s “previous”, the drafting side’s under “drafting”. C.c_cm3v9gm8ct was not changed in round 5 and was not re-judged. Current text read from the bundle and the regenerated sheet (unchanged by --sheet). Every cited sentence re-read in the cached sources/*.json text. Shares recomputed by an own brute-force enumeration of each parent’s gametes (no app code). Then the app bundled through scripts/generate/lib.mjs loadTs: runCase under the case seed and six others, judgeCase on every lazy route one step either side, caseProblems, guessP, reflexWins, nearestReflex and validatePlace. No network.",
+  "round7": "2026-10-27, round-7 fix by the drafting side after the round-6 independent check (no verdict changed). Changed: C.c_nv3fs4gag5, call.tolerance 24 → 20, the checker’s own fix (hash ef95e264444d → 4a1a36cc2b79, the version it tested in memory), so a third of the count (185.3) loses. No other unit changed. The bundle’s case comment and docs/dihybrid-design.md §4 and §7 carry the new numbers. The edited case needs an independent look.",
+  "round8": "2026-10-27, round-8 independent adversarial check of the round-7 change by a fresh subagent that drafted and fixed nothing in either place; no network. C.c_nv3fs4gag5 supported on its new hash 4a1a36cc2b79 (the round-6 verdict, with its round-7 resolution, kept under “previous”, and the round-4 verdict inside that). Observation only, not re-judged: in c_cm3v9gm8ct (unchanged) a sixth of the count (53.3) and a fifth (64) land in the band. The only route I can name to a sixth is weak: three body genotypes times two wing looks, taken as six equal kinds. Two ninths (nine genotypes taken as equally likely) gives 71.1: 71 loses, but 70, one step further down, wins.",
+  "round9": "2026-10-27, round-9 fixes by the drafting side after the round-8 independent check (no verdict changed). Changed: C.c_cm3v9gm8ct, call.tolerance 10 → 5 and seed → gm-ebony-vestigial-163 (hash 7b8941528612 → 34032366723d; the seed is outside the hash), so genotypes counted as equally likely (a sixth, 53.3; two ninths, 71.1) lose. No other unit changed. The same 1:1:1 reading was played on the other five two-gene cases in both places and loses in each. Also from round 8, not a unit: the comment in src/cases/reflexes.test.ts and design §0 now say that the test pins its own fixtures’ margins (the six as first recommended) while §4 quotes the built cases’ margins. The edited case needs an independent look.",
+  "round10": "2026-10-27, round-10 fixes by the drafting side after two independent verifiers tested the branch (no verdict changed). C.c_2ssd401nns: tolerance 8 → 6, so Sex-linked’s answer 48 typed here loses. C.c_cm3v9gm8ct: the round-9 edit had kept independent: true under its old hash; it now reads independent: false until a fresh checker looks, and the scenario glosses “pure-bred (no hidden copies)”. C.c_nv3fs4gag5: the same gloss. Each of the three carries a drafting-side verdict, independent: false, with the earlier verdict under “previous”. Units needing an independent look: C.c_2ssd401nns, C.c_cm3v9gm8ct, C.c_nv3fs4gag5.",
+  "round11": "2026-10-28, round-11 independent adversarial check by a fresh subagent that drafted and fixed nothing in either place. The three cases round 10 changed are now judged independently: C.c_2ssd401nns (hash 27a9a9719e34), C.c_cm3v9gm8ct (hash e9a8fac7137e) and C.c_nv3fs4gag5 (hash 9dd4f89f1fd4), all supported, each recomputed by my own gamete enumeration (40, 60, 208.5) and its facts re-read in the cached sources. The round-10 drafting-side verdict of each sits under \"previous\". Network was used only to confirm the two NCBI records the drafter summarised by hand (duck genome, ebony and vestigial loci); both match. No other unit was re-judged."
+}

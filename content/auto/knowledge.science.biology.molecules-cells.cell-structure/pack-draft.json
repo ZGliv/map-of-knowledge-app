@@ -1,0 +1,123 @@
+{
+ "title": "Life's smallest rooms",
+ "question": "What are living things made of, and how do cells differ?",
+ "hook": "Every living thing, from bacteria to animals, is built from cells, and cells come in two basic designs.",
+ "idea": "All cells share a membrane around cytoplasm with genetic material, but prokaryotes lack a nucleus while eukaryotes have one.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Under a microscope you see a single-celled organism whose DNA floats in the cytoplasm with no nuclear membrane around it. What is it most likely to be?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A bacterium or archaeon"
+    },
+    {
+     "id": "b",
+     "label": "A yeast",
+     "feedback": "Yeasts are single-celled, which tempts, but they are eukaryotes and so have a nucleus."
+    },
+    {
+     "id": "c",
+     "label": "A somatic cell from an animal",
+     "feedback": "Animal body cells are eukaryotic, so their nucleus is enclosed in a membrane."
+    },
+    {
+     "id": "d",
+     "label": "A cell from a plant",
+     "feedback": "Plants are eukaryotes, so their cells have a membrane-bound nucleus."
+    }
+   ],
+   "answer": "a",
+   "explain": "Prokaryotes, which include bacteria and archaea, are single-celled and have a nucleoid instead of a membrane-bound nucleus.",
+   "cites": [
+    9,
+    11,
+    12,
+    15,
+    43
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each name to its place in the story of the cell.",
+   "pairs": [
+    [
+     "Robert Hooke",
+     "Discovered cells in 1665"
+    ],
+    [
+     "Matthias Schleiden",
+     "Cell theory work in 1838"
+    ],
+    [
+     "Theodor Schwann",
+     "Cell theory work in 1839"
+    ],
+    [
+     "Thiomargarita magnifica",
+     "Largest known bacterium"
+    ]
+   ],
+   "explain": "Hooke discovered cells, Schleiden and Schwann developed cell theory, and Thiomargarita magnifica is the largest bacterium known.",
+   "cites": [
+    20,
+    21,
+    34
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each organism into its cell type.",
+   "groups": [
+    "Prokaryote",
+    "Eukaryote"
+   ],
+   "items": [
+    [
+     "Bacteria",
+     "Prokaryote"
+    ],
+    [
+     "Archaea",
+     "Prokaryote"
+    ],
+    [
+     "Yeasts",
+     "Eukaryote"
+    ],
+    [
+     "Animals",
+     "Eukaryote"
+    ],
+    [
+     "Plants",
+     "Eukaryote"
+    ]
+   ],
+   "explain": "Bacteria and archaea are prokaryotes; yeasts, animals and plants are eukaryotes.",
+   "cites": [
+    9,
+    11,
+    12,
+    28
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about yeasts is wrong. Which?",
+   "steps": [
+    "Yeasts are single-celled fungi.",
+    "Single-celled organisms are always prokaryotes.",
+    "So yeasts must be prokaryotes.",
+    "So a yeast would have a nucleoid, not a nucleus."
+   ],
+   "wrong": 1,
+   "explain": "Eukaryotes can be single-celled too; yeasts are single-celled eukaryotes, so being one cell does not make an organism a prokaryote.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ]
+}

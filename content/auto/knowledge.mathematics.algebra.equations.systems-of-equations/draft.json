@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "A system of linear equations is a collection of two or more linear equations involving the same variables.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A solution assigns values to the variables so that all the equations are satisfied simultaneously.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "With two variables each equation determines a line, so the solution set is where the lines meet: a line, a single point, or the empty set.",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Example solution",
+   "value": "(x, y, z) = (1, −2, −2) fits all three equations",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Two variables",
+   "value": "Each equation determines a line on the xy-plane",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Three variables",
+   "value": "Each equation determines a plane in three-dimensional space",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Matrix form",
+   "value": "A𝐱 = 𝐛, with A an m×n matrix",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Fewer equations",
+   "value": "Fewer equations than unknowns is called underdetermined",
+   "cites": [
+    34,
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Three flat sheets are all parallel and sit apart from one another. What can you say about the solution set of their three equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is one single common point"
+    },
+    {
+     "id": "b",
+     "label": "It is a whole line of points"
+    },
+    {
+     "id": "c",
+     "label": "It is empty, no shared point"
+    },
+    {
+     "id": "d",
+     "label": "It is a whole plane of points"
+    }
+   ],
+   "answer": "c",
+   "explain": "Three parallel planes do not have a common point, so the solution set of their equations is empty.",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "prompt": "Two equations in x and y draw two lines that cross at one spot. How many solutions does the system have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one, where they cross"
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many, all along both"
+    },
+    {
+     "id": "c",
+     "label": "None, since they never agree"
+    },
+    {
+     "id": "d",
+     "label": "Two, one for each of the lines"
+    }
+   ],
+   "answer": "a",
+   "explain": "The solution set is the intersection of the lines, and two lines crossing share a single unique point.",
+   "cites": [
+    26,
+    41
+   ]
+  },
+  {
+   "prompt": "A system has fewer equations than unknowns. In general, what should you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one unique solution"
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many, or possibly none"
+    },
+    {
+     "id": "c",
+     "label": "Exactly two separate solutions"
+    },
+    {
+     "id": "d",
+     "label": "Never any solutions at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "In general such an underdetermined system has infinitely many solutions, but it may have no solution.",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "prompt": "A system has more equations than unknowns. In general, what should you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No solution"
+    },
+    {
+     "id": "b",
+     "label": "Exactly one solution"
+    },
+    {
+     "id": "c",
+     "label": "Infinitely many solutions"
+    },
+    {
+     "id": "d",
+     "label": "A solution for every choice of values"
+    }
+   ],
+   "answer": "a",
+   "explain": "In general a system with more equations than unknowns has no solution; it is called overdetermined.",
+   "cites": [
+    37,
+    38
+   ]
+  },
+  {
+   "prompt": "Someone finds values that satisfy two of the three equations in a system. Have they found a solution of the system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, satisfying most of them is enough"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as the two are linear"
+    },
+    {
+     "id": "c",
+     "label": "No, every equation must hold at once"
+    },
+    {
+     "id": "d",
+     "label": "Only if the third is non-linear"
+    }
+   ],
+   "answer": "c",
+   "explain": "A solution must make all the equations simultaneously satisfied.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Three equations in two unknowns draw three lines. Under which condition can the system still be solved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Never, since extra equations always rule it out"
+    },
+    {
+     "id": "b",
+     "label": "Only when two of the lines are parallel"
+    },
+    {
+     "id": "c",
+     "label": "Only when the lines never touch"
+    },
+    {
+     "id": "d",
+     "label": "When all three lines meet at a single point"
+    }
+   ],
+   "answer": "d",
+   "explain": "A system of three equations and two unknowns can be solvable if the three lines intersect at a single point.",
+   "cites": [
+    44
+   ]
+  }
+ ]
+}

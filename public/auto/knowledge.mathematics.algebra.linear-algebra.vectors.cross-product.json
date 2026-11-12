@@ -1,0 +1,331 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product",
+ "name": "Cross product",
+ "summary": [
+  {
+   "text": "The cross product of two vectors in three-dimensional space is a vector perpendicular to both, written a × b.",
+   "cites": [
+    2,
+    17
+   ]
+  },
+  {
+   "text": "Its direction follows the right-hand rule, and its length equals the area of the parallelogram that the two vectors span.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "text": "It is the zero vector for parallel vectors, and swapping the order of the two vectors reverses its sign.",
+   "cites": [
+    20,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dimensions",
+   "value": "A vector-valued product like this exists only in three and seven dimensions",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Alternative name",
+   "value": "Vector product, a name coined by Clifford in 1877",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Notation",
+   "value": "Gibbs and Heaviside introduced the cross symbol in 1881",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Size of result",
+   "value": "Equals the area of the parallelogram the vectors span",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Order matters",
+   "value": "Swapping the vectors gives b × a = −(a × b)",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two vectors point in exactly the same direction. What is their cross product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A vector twice as long as either"
+    },
+    {
+     "id": "b",
+     "label": "A vector standing straight out of the page"
+    },
+    {
+     "id": "c",
+     "label": "The zero vector"
+    },
+    {
+     "id": "d",
+     "label": "A single positive number"
+    }
+   ],
+   "answer": "c",
+   "explain": "If two vectors are parallel, their cross product is the zero vector.",
+   "cites": [
+    7,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product:q1"
+  },
+  {
+   "prompt": "Two vectors are drawn as sides of a parallelogram. What does the length of their cross product measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The area of the parallelogram"
+    },
+    {
+     "id": "b",
+     "label": "The perimeter of the parallelogram"
+    },
+    {
+     "id": "c",
+     "label": "The longer diagonal of the shape"
+    },
+    {
+     "id": "d",
+     "label": "The angle between the two sides"
+    }
+   ],
+   "answer": "a",
+   "explain": "The magnitude of the cross product equals the area of the parallelogram with the vectors for sides.",
+   "cites": [
+    5,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product:q2"
+  },
+  {
+   "prompt": "Using the right-hand rule, a cross product comes out pointing up. What do you get when you swap the order of the two vectors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The very same vector"
+    },
+    {
+     "id": "b",
+     "label": "The zero vector"
+    },
+    {
+     "id": "c",
+     "label": "A vector twice as long"
+    },
+    {
+     "id": "d",
+     "label": "The same length, pointing down"
+    }
+   ],
+   "answer": "d",
+   "explain": "The cross product is anti-commutative: b × a = −(a × b).",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product:q3"
+  },
+  {
+   "prompt": "A game developer wants a cross product that gives a vector, for two vectors in a flat two-dimensional world. What is the problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is only defined for vectors of unit length"
+    },
+    {
+     "id": "b",
+     "label": "It exists only in three and seven dimensions"
+    },
+    {
+     "id": "c",
+     "label": "It exists in every dimension, but is slow to compute"
+    },
+    {
+     "id": "d",
+     "label": "It needs the two vectors to be exactly parallel"
+    }
+   ],
+   "answer": "b",
+   "explain": "The cross product of two vectors is defined only in three-dimensional space, and a vector-valued binary product of this kind exists only in three and seven dimensions.",
+   "cites": [
+    15,
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product:q4"
+  },
+  {
+   "prompt": "Point your right forefinger along a and your middle finger along b. Which way does a × b point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Out of the thumb"
+    },
+    {
+     "id": "b",
+     "label": "Along the forefinger"
+    },
+    {
+     "id": "c",
+     "label": "Along the middle finger"
+    },
+    {
+     "id": "d",
+     "label": "Opposite to the thumb"
+    }
+   ],
+   "answer": "a",
+   "explain": "By the right-hand rule, the cross product comes out of the thumb. Pointing the fingers the other way round reverses it.",
+   "cites": [
+    22,
+    23,
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product:q5"
+  },
+  {
+   "prompt": "Two arrows meet at a right angle. One is 3 units long and the other is 4 units long. How big is their cross product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "7"
+    },
+    {
+     "id": "b",
+     "label": "0"
+    },
+    {
+     "id": "c",
+     "label": "12"
+    },
+    {
+     "id": "d",
+     "label": "1"
+    }
+   ],
+   "answer": "c",
+   "explain": "The magnitude of the cross product of two perpendicular vectors is the product of their lengths, so 3 times 4.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.cross-product:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cross_product_vector.svg/960px-Cross_product_vector.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Cross product",
+  "credit": "Acdx",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Cross_product_vector.svg"
+ },
+ "source": {
+  "title": "Cross product",
+  "url": "https://en.wikipedia.org/wiki/Cross_product",
+  "revision": 1373148526
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A product that gives a new arrow",
+    "text": "The cross product takes two vectors in three-dimensional space and returns a third vector, written a × b and read \"a cross b\". It is also called the vector product. When a and b point in genuinely different directions, the result stands at right angles to both of them, so it sticks straight out of the flat plane that holds them. It is easy to mix up with the dot product, but the two are different operations.",
+    "cites": [
+     1,
+     2,
+     4,
+     17
+    ]
+   },
+   {
+    "heading": "Why it is useful",
+    "text": "The cross product shows up in mathematics, physics, engineering and computer programming. Its length carries a picture: it equals the area of the parallelogram whose sides are the two vectors. In symbols, ‖ a × b ‖ = ‖ a ‖ ‖ b ‖ |sin θ|, where θ is the angle between them. For two vectors at right angles, the length is just their two lengths multiplied together.",
+    "cites": [
+     3,
+     5,
+     20,
+     45
+    ]
+   },
+   {
+    "heading": "The right-hand rule",
+    "text": "Which way the result points depends on a convention. Point the index finger of your right hand along a and the middle finger along b; the result comes out along your thumb. Do it the other way round, index finger on b first, and your thumb is forced to point the opposite way. That is why swapping the order flips the sign: b × a = −(a × b).",
+    "cites": [
+     19,
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "When the answer is zero",
+    "text": "If the two vectors are parallel or point in exactly opposite directions, their cross product is the zero vector. The same happens if either vector has zero length. Together with the sign flip from swapping, this also gives i × i = j × j = k × k = 0.",
+    "cites": [
+     7,
+     20,
+     37
+    ]
+   },
+   {
+    "heading": "Names and symbols",
+    "text": "In 1881 Josiah Willard Gibbs, and Oliver Heaviside working on his own, brought in the dot for one product and the cross for the other. A few years earlier, in 1877, William Kingdon Clifford had named them the scalar product and the vector product, to stress that one gives a number and the other a vector. The names scalar product and vector product are still widely used.",
+    "cites": [
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "A product only some spaces have",
+    "text": "The cross product depends on choosing an orientation for the space. Because of that it is not a true vector but what is called a pseudovector. Ideas like it can be stretched to other dimensions in several ways. But a product of just two vectors that gives back a vector, in a non-trivial way, exists only in three and seven dimensions.",
+    "cites": [
+     10,
+     12,
+     14,
+     15,
+     26
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cross-product",
+   "kind": "book",
+   "title": "2.4 The Cross Product - Calculus Volume 3",
+   "by": "OpenStax (Gilbert Strang, Edwin “Jed” Herman)",
+   "url": "https://openstax.org/books/calculus-volume-3/pages/2-4-the-cross-product",
+   "note": "A free textbook section on computing the cross product and its geometric meaning.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-cross-products",
+   "kind": "video",
+   "title": "Cross products",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=eu6i7WJeinw",
+   "note": "An animated explainer of the cross product as a perpendicular vector sized by parallelogram area."
+  }
+ ]
+}

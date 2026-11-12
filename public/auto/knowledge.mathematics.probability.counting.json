@@ -1,0 +1,528 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting",
+ "name": "Counting",
+ "summary": [
+  {
+   "text": "Counting is the process of finding how many elements a finite set has, which means finding the size of the set.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The traditional method raises a counter by one for each element and marks every element visited, so none is counted twice.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Evidence suggests humans have counted for at least 50,000 years, and counting led to numeral systems and writing.",
+   "cites": [
+    5,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Oldest evidence",
+   "value": "Humans have likely counted for at least 50,000 years",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Early uses",
+   "value": "Tracking group members, prey animals, property or debts",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Finger binary",
+   "value": "Ten fingers can reach a count of 1023",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Inclusive counting",
+   "value": "Always gives a count one higher than exclusive counting",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Learning to count",
+   "value": "From age two, children gradually learn the ordered number words",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You want to count the cars passing your window over a whole afternoon, a small set counted over time. Which method fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Say numbers aloud and trust yourself to remember where you stopped"
+    },
+    {
+     "id": "b",
+     "label": "Wait until evening and estimate the total from memory"
+    },
+    {
+     "id": "c",
+     "label": "Make one stroke per car, then count all the strokes at the end"
+    },
+    {
+     "id": "d",
+     "label": "Count only the cars that happen to be in front of you now"
+    }
+   ],
+   "answer": "c",
+   "explain": "Making a mark for each item and counting the marks at the end works well for a small set counted over time. Spoken counting must be resumed after an interruption from a number you have to remember.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.counting:q1"
+  },
+  {
+   "prompt": "In English, which counts exclusively, a friend says \"see you eight days from Sunday\". Which day do you meet?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Sunday one week later"
+    },
+    {
+     "id": "b",
+     "label": "The Monday one week later"
+    },
+    {
+     "id": "c",
+     "label": "The Saturday after that Sunday"
+    },
+    {
+     "id": "d",
+     "label": "The Tuesday after that Sunday"
+    }
+   ],
+   "answer": "b",
+   "explain": "Counting exclusively, Monday is day 1, so the following Monday is day 8. Counting inclusively, with Sunday as day 1, the following Sunday would be day 8.",
+   "cites": [
+    28,
+    31
+   ],
+   "id": "knowledge.mathematics.probability.counting:q2"
+  },
+  {
+   "prompt": "Ana counts the starting day itself as day 1. Ben counts only at the end of each interval, so he skips the starting day. They count the same stretch of days. How do their totals compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ana's total is always one higher than Ben's"
+    },
+    {
+     "id": "b",
+     "label": "Ben's total is always one higher than Ana's"
+    },
+    {
+     "id": "c",
+     "label": "Their totals are always exactly equal"
+    },
+    {
+     "id": "d",
+     "label": "Ana's total is always twice Ben's"
+    }
+   ],
+   "answer": "a",
+   "explain": "Inclusive counting includes the starting point and exclusive counting does not, so the inclusive count is always one greater for the same set.",
+   "cites": [
+    20,
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.probability.counting:q3"
+  },
+  {
+   "prompt": "A teacher gives every student in a class a different number so that each one can be picked out individually. Which term fits this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Enumeration"
+    },
+    {
+     "id": "b",
+     "label": "Exclusive counting"
+    },
+    {
+     "id": "c",
+     "label": "Tallying"
+    },
+    {
+     "id": "d",
+     "label": "Verbal counting"
+    }
+   ],
+   "answer": "a",
+   "explain": "Enumeration means uniquely identifying each element of a set by assigning it a number.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.counting:q5"
+  },
+  {
+   "prompt": "A toddler recites \"one, two, three, four\" smoothly. Can you conclude they understand what each number word means?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a smooth recital proves the meanings are understood"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if they use their fingers while reciting"
+    },
+    {
+     "id": "c",
+     "label": "Not necessarily, since they may only know the word sequence"
+    },
+    {
+     "id": "d",
+     "label": "No, children cannot learn number words before school"
+    }
+   ],
+   "answer": "c",
+   "explain": "Children learn the ordered sequence of number words gradually, and may say it without understanding what the individual words mean.",
+   "cites": [
+    38,
+    40
+   ],
+   "id": "knowledge.mathematics.probability.counting:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg/960px-Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Counting",
+  "credit": "perpetual.fostering",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg"
+ },
+ "source": {
+  "title": "Counting",
+  "url": "https://en.wikipedia.org/wiki/Counting",
+  "revision": 1383477526
+ },
+ "pack": {
+  "id": "auto-probability-counting",
+  "title": "Why Sunday can be day eight",
+  "question": "Why can two people counting the same days disagree on the total?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Counting"
+  ],
+  "hue": 41,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg/960px-Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Counting",
+    "credit": "perpetual.fostering · CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Sunday can be day eight",
+    "hook": "Count the days from one Sunday to the next and you may get seven or eight, depending on where you start."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-counting:1",
+    "transfer": false,
+    "prompt": "A guest checks in on a Sunday and that Sunday counts as day 1 of the stay. Counting this way, which day number is the following Sunday?",
+    "explain": "With inclusive counting the starting Sunday is day 1, so the following Sunday is the eighth day.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Day 7",
+        "feedback": "Tempting because a week has seven days, but the starting Sunday already took number one."
+       },
+       {
+        "id": "b",
+        "label": "Day 8"
+       },
+       {
+        "id": "c",
+        "label": "Day 9",
+        "feedback": "This overshoots; the next Sunday is only one week after the start."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-counting:2",
+    "transfer": false,
+    "prompt": "match each counting method to what it suits",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Verbal counting"
+     },
+     {
+      "id": "l1",
+      "label": "Tally marks"
+     },
+     {
+      "id": "l2",
+      "label": "Finger counting"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Small numbers"
+     },
+     {
+      "id": "r0",
+      "label": "Objects that are currently present"
+     },
+     {
+      "id": "r1",
+      "label": "A small set counted over time"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each method has a setting where it is convenient: speaking suits what is in front of you, marks suit counting over time, and fingers suit small numbers."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-counting:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each example by how it counts",
+    "left": [
+     {
+      "id": "i0",
+      "label": "The French quinzaine for a fortnight, 15 days"
+     },
+     {
+      "id": "i1",
+      "label": "The Roman nones, 8 days before the ides"
+     },
+     {
+      "id": "i2",
+      "label": "Sunday is day 1, so the next Sunday is day 8"
+     },
+     {
+      "id": "i3",
+      "label": "The English fortnight, from a fourteen-night"
+     },
+     {
+      "id": "i4",
+      "label": "Eight days from Sunday, with Monday as day 1"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "inclusive counting"
+     },
+     {
+      "id": "g1",
+      "label": "exclusive counting"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Inclusive counting includes the starting point, as in Roman dates and the Romance languages. English counts exclusively."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-counting:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Ana counts the starting day itself, so Sunday is day 1 for her."
+     },
+     {
+      "id": "b",
+      "text": "Ben counts at the end of each interval, so his count skips the starting day."
+     },
+     {
+      "id": "c",
+      "text": "Both count the same stretch of days, so their totals must come out equal."
+     },
+     {
+      "id": "d",
+      "text": "So any difference between their totals must be an arithmetic slip."
+     }
+    ],
+    "answer": "c",
+    "explain": "Including or skipping the starting point changes the total: the inclusive count is always one greater for the same set."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Counting a set is simple, but whether the starting point counts changes the total by one.",
+    "connections": [
+     {
+      "title": "Rule of product",
+      "place": "Counting",
+      "node": "knowledge.mathematics.probability.counting.rule-of-product"
+     },
+     {
+      "title": "Permutations",
+      "place": "Counting",
+      "node": "knowledge.mathematics.probability.counting.permutations"
+     },
+     {
+      "title": "Combinations",
+      "place": "Counting",
+      "node": "knowledge.mathematics.probability.counting.combinations"
+     },
+     {
+      "title": "Binomial coefficients",
+      "place": "Counting",
+      "node": "knowledge.mathematics.probability.counting.binomial-coefficients"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "With inclusive counting the starting Sunday is day 1, so the following Sunday is the eighth day.",
+    "source": "Wikipedia sentences 28"
+   },
+   {
+    "claim": "Each method has a setting where it is convenient: speaking suits what is in front of you, marks suit counting over time, and fingers suit small numbers.",
+    "source": "Wikipedia sentences 11, 12, 13"
+   },
+   {
+    "claim": "Inclusive counting includes the starting point, as in Roman dates and the Romance languages. English counts exclusively.",
+    "source": "Wikipedia sentences 25, 26, 28, 29, 30, 31"
+   },
+   {
+    "claim": "Including or skipping the starting point changes the total: the inclusive count is always one greater for the same set.",
+    "source": "Wikipedia sentences 20, 21, 22"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Finding the size of a set",
+    "text": "Counting means working out how many elements a finite set holds, in other words, its size. The traditional way keeps a counter, spoken aloud or kept in your head, and raises it by one for each element in turn. Each element gets marked or moved aside so it is never visited twice, and when nothing unmarked is left, the counter gives the total, provided it read one after the first object. Counting does not always go up in ones: people count money, count by twos (2, 4, 6, ...) or count by fives. A related idea, enumeration, gives each element of a finite or infinite set its own number so that it can be told apart from the rest.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "An ancient skill",
+    "text": "Archaeological evidence suggests people have been counting for at least 50,000 years. Notched bones from the Border Caves in South Africa may point to counting as early as 44,000 BCE. Ancient cultures mostly counted to keep track of social and economic facts, such as how many people belonged to a group, how many prey animals there were, what property someone held, or what debts were owed. Counting in turn led to mathematical notation, numeral systems and writing.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Ways of keeping count",
+    "text": "Verbal counting means saying the numbers in order, out loud or silently, usually in base 10. It suits things that are in front of you right now, because an interrupted count has to pick up where it stopped, and that number must be remembered or written down. For a small set, especially one counted over time, tally marks work well: make one mark per item, then count the marks at the end. Fingers are handy for small numbers, and older methods used the three bones in each of four fingers to reach twelve. With finger binary you can count as high as 1023 = 2¹⁰ − 1, and tools such as tally counters and abacuses help too.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     15,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Inclusive and exclusive counting",
+    "text": "Inclusive and exclusive counting are two different methods. Inclusive counting begins with the start of the starting point and runs to the end of the last point. Exclusive counting counts at the end of each interval, so the starting point is left out. For the same set, the inclusive count always comes out one higher than the exclusive count.",
+    "cites": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Calendars, words and music",
+    "text": "Inclusive counting often turns up with time in Roman calendars and the Romance languages. Counted inclusively from a Sunday, that Sunday is day 1 and the next Sunday is the eighth day; in English, which counts exclusively, Monday is day 1 and the following Monday is day eight. For example, the French word for a fortnight, quinzaine, means fifteen days, and Spanish and Portuguese have similar words, quincena and quinzena. East Asian age reckoning works in a similar way, treating a newborn as 1. Music does too: one note up is a second, two notes up is a third, and seven notes up is an octave.",
+    "cites": [
+     25,
+     28,
+     29,
+     31,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Learning to count",
+    "text": "In most cultures, learning to count is an important step in a child's development. From the age of two, children pick up the number words in order, first a short run and then longer and longer ones. At first they may say \"one, two, three\" without really knowing what each word means. Learning to count takes more than memorising the list: children must learn that each object is paired with just one number word, which is called one-to-one correspondence. In parts of Amazonia and the Australian Outback, some cultures have no counting at all, and no number words in their languages.",
+    "cites": [
+     35,
+     37,
+     38,
+     39,
+     40,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "levin-counting",
+   "kind": "book",
+   "title": "1: Counting - Discrete Mathematics (Levin)",
+   "by": "Oscar Levin",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Discrete_Mathematics_(Levin)/1%3A_Counting",
+   "note": "A free textbook chapter on counting: additive and multiplicative principles, combinations, permutations and more.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "openstax-counting-principles",
+   "kind": "book",
+   "title": "11.5 Counting Principles - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/11-5-counting-principles",
+   "note": "A free textbook section on the addition and multiplication principles, permutations and combinations.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

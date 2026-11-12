@@ -1,0 +1,306 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product",
+ "name": "Tensor product",
+ "summary": [
+  {
+   "text": "The tensor product V⊗W of two vector spaces V and W over the same field is itself a vector space, with a bilinear map sending each pair (v, w) to an element v⊗w.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Every element of V⊗W is a sum of elementary tensors, which are elements of the form v⊗w.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Given bases for the two spaces, a basis of the tensor product is formed by all products of one basis element from each.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Elementary tensors",
+   "value": "Every element is a sum of them",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Basis",
+   "value": "All products of a basis element of V with one of W",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Dimension",
+   "value": "For finite dimensions, the product of the two dimensions",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "label": "Universal property",
+   "value": "Every bilinear map factors uniquely through a linear map",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "In physics",
+   "value": "General relativity describes gravity with the metric tensor field",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two finite-dimensional vector spaces have dimensions 3 and 4. What is the dimension of their tensor product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "7"
+    },
+    {
+     "id": "b",
+     "label": "81"
+    },
+    {
+     "id": "c",
+     "label": "14"
+    },
+    {
+     "id": "d",
+     "label": "12"
+    }
+   ],
+   "answer": "d",
+   "explain": "When both spaces are finite-dimensional, the dimension of the tensor product is the product of their dimensions.",
+   "cites": [
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product:q1"
+  },
+  {
+   "prompt": "One space has a basis of 2 elements and the other a basis of 3 elements. How are basis elements of the tensor product obtained?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By pairing each basis element of one with each of the other"
+    },
+    {
+     "id": "b",
+     "label": "By adding one basis element from each space"
+    },
+    {
+     "id": "c",
+     "label": "By keeping only the matching basis positions"
+    },
+    {
+     "id": "d",
+     "label": "By listing both bases one after the other"
+    }
+   ],
+   "answer": "a",
+   "explain": "A basis of the tensor product is formed by all tensor products of a basis element of one space with a basis element of the other.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product:q2"
+  },
+  {
+   "prompt": "You pick an arbitrary element of a tensor product. What form can you count on it having?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single product of two vectors"
+    },
+    {
+     "id": "b",
+     "label": "A sum of products of two vectors"
+    },
+    {
+     "id": "c",
+     "label": "A single vector from one of the spaces"
+    },
+    {
+     "id": "d",
+     "label": "A basis element of one of the spaces"
+    }
+   ],
+   "answer": "b",
+   "explain": "The elementary tensors span the tensor product, so every element is a sum of elementary tensors, though not necessarily a single one.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product:q3"
+  },
+  {
+   "prompt": "You have a bilinear map from pairs of vectors into some other space Z. What does the tensor product do for such a map?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It turns the map into a basis of Z"
+    },
+    {
+     "id": "b",
+     "label": "It makes the map equal to zero"
+    },
+    {
+     "id": "c",
+     "label": "It replaces the map with several unrelated maps"
+    },
+    {
+     "id": "d",
+     "label": "It matches the map with one unique linear map to Z"
+    }
+   ],
+   "answer": "d",
+   "explain": "A bilinear map from the pairs into Z factors uniquely through a linear map from the tensor product to Z, so it captures all bilinear maps.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product:q4"
+  },
+  {
+   "prompt": "You arrange the coordinates of two vectors into a rectangular array. Which familiar operation does the tensor product abstract beyond coordinates?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sum of the two vectors"
+    },
+    {
+     "id": "b",
+     "label": "The outer product"
+    },
+    {
+     "id": "c",
+     "label": "The length of each vector"
+    },
+    {
+     "id": "d",
+     "label": "The inverse of each vector"
+    }
+   ],
+   "answer": "b",
+   "explain": "The coordinate array of x⊗y is the outer product of the coordinate vectors of x and y, so the tensor product generalizes the outer product.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product:q5"
+  },
+  {
+   "prompt": "In general relativity, how is the gravitational field described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By a single number for all of space-time"
+    },
+    {
+     "id": "b",
+     "label": "By one vector shared by the whole space"
+    },
+    {
+     "id": "c",
+     "label": "By a metric tensor field, with one tensor at each point"
+    },
+    {
+     "id": "d",
+     "label": "By a basis chosen once and never changed"
+    }
+   ],
+   "answer": "c",
+   "explain": "The metric tensor is a tensor field with one tensor at each point of the space-time manifold.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.tensor-product:q6"
+  }
+ ],
+ "source": {
+  "title": "Tensor product",
+  "url": "https://en.wikipedia.org/wiki/Tensor_product",
+  "revision": 1383911443
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A space built from two spaces",
+    "text": "Start with V and W, two vector spaces over one shared field. Their tensor product V⊗W is a new vector space, and it comes with a bilinear map that sends each pair (v, w) to an element written v⊗w. That element is called the tensor product of v and w. Any element of V⊗W is called a tensor, and one of the simple form v⊗w is called an elementary or decomposable tensor. Every tensor is a sum of elementary ones.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Bases and dimension",
+    "text": "If V and W come with bases, pairing each basis element of V with each basis element of W gives a basis of V⊗W. So when V and W are finite-dimensional, V⊗W is too, and its dimension is the product of their two dimensions. Written as a rectangular array, the coordinates of x⊗y are what you get by taking the outer product of the coordinate vector of x with that of y. In this sense the tensor product generalizes the outer product, lifting it beyond coordinate vectors.",
+    "cites": [
+     5,
+     23,
+     24,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "A definition using bases",
+    "text": "One way to define V⊗W picks bases B_V and B_W and declares the symbols v⊗w, with v in B_V and w in B_W, to be a basis, giving them no other meaning. This has drawbacks. Choosing new bases defines a different tensor product, though the two can be identified through a canonical isomorphism. It also cannot be extended to a definition for modules over a ring.",
+    "cites": [
+     15,
+     16,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "A definition without bases",
+    "text": "A construction that does not depend on bases begins with a vector space L whose basis is the entire Cartesian product V × W. Each pair (v, w) is then one basis element of L. The result of this construction can be shown to satisfy the universal property below, and a very similar construction gives the tensor product of modules.",
+    "cites": [
+     28,
+     29,
+     30,
+     32
+    ]
+   },
+   {
+    "heading": "The universal property",
+    "text": "The tensor product can also be pinned down by what it does. It is a vector space V⊗W together with a bilinear map φ sending (v, w) to v⊗w, such that each bilinear map h from V × W into a vector space Z equals h̃∘φ for exactly one linear map h̃ from V⊗W to Z. Any two objects with this property are related by a unique isomorphism, so the tensor product is defined up to isomorphism. The constructions above then serve as proofs that it exists, and every property of it can be deduced from the universal property alone.",
+    "cites": [
+     6,
+     9,
+     34,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Functions and physics",
+    "text": "Functions give a concrete case. For complex-valued functions f on a set S and g on a set T, f⊗g is the function on S×T that sends (s, t) to f(s)g(t). Tensor products are also used in physics and engineering. In general relativity, gravity is described by the metric tensor, a tensor field that assigns one tensor to each point of space-time, each lying in the tensor product of the cotangent space at that point with itself.",
+    "cites": [
+     7,
+     8,
+     41,
+     42
+    ]
+   }
+  ]
+ }
+}

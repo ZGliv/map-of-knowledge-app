@@ -1,0 +1,109 @@
+{
+ "title": "What a gamble is really worth",
+ "question": "How can one number sum up a gamble whose result is uncertain?",
+ "hook": "Two French mathematicians once settled an unfinished game with a single idea, and it still prices every gamble today.",
+ "idea": "The expected value weights each possible result by its probability, giving the long-run average.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A friend flips a fair coin: heads pays you $10, tails pays nothing. You could play this thousands of times. What does your average winnings per flip head toward?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "$10, since that is the prize",
+     "feedback": "The prize is only paid on heads, so the average falls below it."
+    },
+    {
+     "id": "b",
+     "label": "$5, the prize weighted by its chance"
+    },
+    {
+     "id": "c",
+     "label": "$0, since tails is just as likely",
+     "feedback": "Heads pays out as often as tails, so the average cannot be zero."
+    }
+   ],
+   "answer": "b",
+   "explain": "Half the time you win $10 and half the time $0, so the weighted average is $5, which is also the long-run average per play.",
+   "cites": [
+    2,
+    3,
+    44
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each name to its place in the story of expected value.",
+   "pairs": [
+    [
+     "Problem of points",
+     "Dividing stakes fairly when a game ends early"
+    ],
+    [
+     "Pascal and Fermat",
+     "Reached the same solution on one shared principle"
+    ],
+    [
+     "Huygens",
+     "Published a probability treatise in 1657"
+    ],
+    [
+     "Chebyshev",
+     "First to think systematically about expectations of random variables"
+    ]
+   ],
+   "explain": "Each person or puzzle marks a step in how expectation was posed, solved, written down and then studied as a general idea.",
+   "cites": [
+    6,
+    12,
+    13,
+    18,
+    23
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A spinner pays $1 in nine spins out of ten and $100 in the tenth.",
+    "Expected value is a weighted average, with probabilities as the weights.",
+    "Both prizes are just two numbers, so the expected value is their plain average, $50.50.",
+    "So over many spins the average payout should settle near $50.50."
+   ],
+   "wrong": 2,
+   "explain": "The expected value weights each value by its probability, so the likelier $1 counts for more than $100 and the result is not the midpoint.",
+   "cites": [
+    2,
+    3,
+    45
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Two players stop a game early. Player A is three times as likely to win as player B. How should the stakes be divided?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Equally, since neither has won",
+     "feedback": "It feels fair, but it ignores that A is likelier to win."
+    },
+    {
+     "id": "b",
+     "label": "All to A, since A is favored",
+     "feedback": "B still had a real chance, so B is owed something."
+    },
+    {
+     "id": "c",
+     "label": "In shares matching their chances, three to one"
+    }
+   ],
+   "answer": "c",
+   "explain": "Pascal and Fermat's principle was that the value of a future gain is proportional to the chance of getting it.",
+   "cites": [
+    6,
+    12,
+    13
+   ]
+  }
+ ]
+}

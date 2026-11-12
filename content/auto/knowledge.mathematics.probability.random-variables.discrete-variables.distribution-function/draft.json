@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "The cumulative distribution function of a variable X, evaluated at x, is the probability that X takes a value less than or equal to x.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its complementary version, P (X > x) = 1 − F_X(x), asks how often the variable is above a particular level.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "text": "For a continuous distribution, it gives the area under the probability density function from negative infinity up to x.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Notation",
+   "value": "Capital F, against lower-case f for densities and mass functions",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Tail version",
+   "value": "P (X > x) = 1 − F_X(x), the complementary CDF",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Standard normal table",
+   "value": "Also called the unit normal table or Z table",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Inverse",
+   "value": "For strictly increasing continuous cases, it gives the quantile function",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "label": "Sampling use",
+   "value": "Its inverse turns uniform random numbers into other distributions",
+   "cites": [
+    33,
+    34,
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A variable records a die roll, and its cumulative function is evaluated at 4. What probability does that give?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That the roll is exactly 4"
+    },
+    {
+     "id": "b",
+     "label": "That the roll is 4 or lower"
+    },
+    {
+     "id": "c",
+     "label": "That the roll is 4 or higher"
+    },
+    {
+     "id": "d",
+     "label": "That the roll is below 4"
+    }
+   ],
+   "answer": "b",
+   "explain": "The cumulative function at x is the probability of a value less than or equal to x, so at 4 it covers rolls of 4 and lower.",
+   "cites": [
+    1,
+    21,
+    22
+   ]
+  },
+  {
+   "prompt": "A weather analyst wants to know how often rainfall is above a given level, not at or below it. What do they compute from the cumulative function F?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The value of F itself at that level"
+    },
+    {
+     "id": "b",
+     "label": "F divided by that level"
+    },
+    {
+     "id": "c",
+     "label": "One minus F at that level"
+    },
+    {
+     "id": "d",
+     "label": "The slope of F at that level"
+    }
+   ],
+   "answer": "c",
+   "explain": "The complementary cumulative distribution function is P (X > x) = 1 − F_X(x), and it asks how often the variable is above a level.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "A textbook defines the cumulative function with a strict less-than sign instead of less-than-or-equal. For which kind of distribution does that choice matter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Discrete distributions"
+    },
+    {
+     "id": "b",
+     "label": "Only continuous distributions"
+    },
+    {
+     "id": "c",
+     "label": "Only distributions with an infinite mean"
+    },
+    {
+     "id": "d",
+     "label": "None, the two always agree"
+    }
+   ],
+   "answer": "a",
+   "explain": "The sign is a convention, but the distinction is important for discrete distributions.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "You have a picture of a continuous distribution's density curve. How do you read the cumulative value at a point x from it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Read the height of the curve at x"
+    },
+    {
+     "id": "b",
+     "label": "Take the slope of the curve at x"
+    },
+    {
+     "id": "c",
+     "label": "Find the highest point on the curve"
+    },
+    {
+     "id": "d",
+     "label": "Measure the area under the curve from far left up to x"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a continuous distribution, the cumulative function at x is the area under the density curve from negative infinity to x.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A computer can produce a uniform random number between 0 and 1 and wants a draw from some other distribution. What does it apply to that number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The inverse of the target distribution's cumulative function"
+    },
+    {
+     "id": "b",
+     "label": "The target distribution's cumulative function itself"
+    },
+    {
+     "id": "c",
+     "label": "The target distribution's standard normal table"
+    },
+    {
+     "id": "d",
+     "label": "The area under the uniform number's curve"
+    }
+   ],
+   "answer": "a",
+   "explain": "If Y is uniform between 0 and 1, then the inverse of the cumulative function F applied to Y is distributed as F. This is the inverse transform sampling method.",
+   "cites": [
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "prompt": "A pollster has only a sample of points, not the true distribution. What estimates the cumulative function that generated them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Z table"
+    },
+    {
+     "id": "b",
+     "label": "The empirical distribution function"
+    },
+    {
+     "id": "c",
+     "label": "The survival function"
+    },
+    {
+     "id": "d",
+     "label": "The standard normal table"
+    }
+   ],
+   "answer": "b",
+   "explain": "The empirical distribution function is an estimate of the cumulative distribution function that generated the sample, and it converges to it with probability 1.",
+   "cites": [
+    36,
+    37
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "readHash": "7f559000cf6bcf1c9a3bc3313ee66c4334849853",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Represents a probability space [1], nodes are events with probabilities [3], branches [9]; tree comparison adds no fact."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Independent coin flips and conditional card draws [2], multiple conditional events [10]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Root certain event prob 1 [4], siblings exclusive and exhaustive partition [5], conditional on parent [6]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Product along path [7], add across branches [9], valued for visual additive/multiplicative split [8]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Illustrative walk-through restates root prob 1 [4], path product [7], add across branches [9]."
+  }
+ }
+}

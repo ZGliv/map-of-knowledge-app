@@ -1,0 +1,552 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.metallic-bonding",
+ "name": "Metallic bonding",
+ "summary": [
+  {
+   "text": "Metallic bonding is a type of chemical bonding that arises from the attraction between positively charged metal ions and a cloud of delocalized conduction electrons.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Metal atoms lose their valence electrons to a large delocalized orbital, and the leftover positive ions form a crystal lattice held together by its negative charge.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It accounts for many properties of metals, including strength, ductility, conductivity, opacity and lustre.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Classic picture",
+   "value": "Positive ions held together by an ocean of negative electrons",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Link to covalent bonding",
+   "value": "A more delocalized version of covalent bonding",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Polarity",
+   "value": "Mostly non-polar",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Two-dimensional example",
+   "value": "Graphene",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Molecules inside metal",
+   "value": "None can be told apart inside a metal",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A copper wire carries electric current easily. Which feature of its bonding is involved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Electrons locked in fixed pairs between neighbouring atoms"
+    },
+    {
+     "id": "b",
+     "label": "Negative ions packed in a regular crystal lattice"
+    },
+    {
+     "id": "c",
+     "label": "Delocalized conduction electrons shared among positively charged ions"
+    },
+    {
+     "id": "d",
+     "label": "Neutral atoms that never lose any of their electrons"
+    }
+   ],
+   "answer": "c",
+   "explain": "Metallic bonding involves conduction electrons delocalized among positively charged ions, and it accounts for electrical conductivity among other metal properties.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding:q1"
+  },
+  {
+   "prompt": "In a piece of metal, positive ions sit in a regular pattern. What holds them together?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The negative charge of the delocalized electrons around them"
+    },
+    {
+     "id": "b",
+     "label": "Direct covalent bonds between each pair of neighbouring ions"
+    },
+    {
+     "id": "c",
+     "label": "The ions' own charges pushing them apart evenly"
+    },
+    {
+     "id": "d",
+     "label": "Neutral atoms stuck in place by fixed shared pairs"
+    }
+   ],
+   "answer": "a",
+   "explain": "The ions form a crystal lattice as they are held together by the negative charge of the delocalized orbital.",
+   "cites": [
+    1,
+    3
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding:q2"
+  },
+  {
+   "prompt": "A metal is heated until it turns to vapour. How are its particles typically bonded there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As one huge delocalized crystal, just as they were in the solid"
+    },
+    {
+     "id": "b",
+     "label": "In an ionic lattice of alternating positive and negative charges"
+    },
+    {
+     "id": "c",
+     "label": "Bound by a sea of electrons shared across the whole vapour cloud"
+    },
+    {
+     "id": "d",
+     "label": "Often as single atoms, at times as molecules held by covalent bonds"
+    }
+   ],
+   "answer": "d",
+   "explain": "Metallic vapors are often atomic (Hg) or at times contain molecules, such as Na₂, held together by a more conventional covalent bond.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding:q3"
+  },
+  {
+   "prompt": "Why is the bonding in a metal alloy mostly nonpolar?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its electrons are locked tightly to a single atom each"
+    },
+    {
+     "id": "b",
+     "label": "The bonded atoms have little to no difference in electronegativity"
+    },
+    {
+     "id": "c",
+     "label": "The metal ions carry no charge at all"
+    },
+    {
+     "id": "d",
+     "label": "All of its electrons are paired up in covalent bonds"
+    }
+   ],
+   "answer": "b",
+   "explain": "Metallic bonding is mostly non-polar because there is little to no difference, even in alloys, among the electronegativities of the atoms involved.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding:q4"
+  },
+  {
+   "prompt": "Hume-Rothery's electron model correctly predicted many alloy compositions, yet later measurements showed the shape of its electron \"balloon\" was off. What does this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Models that predict well must be correct in every assumption"
+    },
+    {
+     "id": "b",
+     "label": "A model is useless as soon as one measurement disagrees"
+    },
+    {
+     "id": "c",
+     "label": "Alloys cannot be explained by any model of electrons"
+    },
+    {
+     "id": "d",
+     "label": "Right predictions do not prove a model's basic assumptions are sound"
+    }
+   ],
+   "answer": "d",
+   "explain": "A model can give a whole series of correct predictions and still be wrong in its basic assumptions.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding:q5"
+  },
+  {
+   "prompt": "Why can you not pick out separate molecules inside a block of metal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All its conduction electrons are delocalized over the whole crystal, like one molecule"
+    },
+    {
+     "id": "b",
+     "label": "Metal atoms are bonded in pairs that switch partners constantly"
+    },
+    {
+     "id": "c",
+     "label": "Its electrons stay in orbitals around single atoms"
+    },
+    {
+     "id": "d",
+     "label": "Metals contain only one atom in total"
+    }
+   ],
+   "answer": "a",
+   "explain": "A metal crystal can be seen as one molecule over which all conduction electrons are delocalized in all three dimensions, so metallic bonding is neither intra- nor inter-molecular.",
+   "cites": [
+    39,
+    40
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Metallic_Bonding_Example.svg/960px-Metallic_Bonding_Example.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Metallic bonding",
+  "credit": "JackFromReedsburg",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Metallic_Bonding_Example.svg"
+ },
+ "source": {
+  "title": "Metallic bonding",
+  "url": "https://en.wikipedia.org/wiki/Metallic_bonding",
+  "revision": 1380383070
+ },
+ "pack": {
+  "id": "auto-chemical-bonding-metallic-bonding",
+  "title": "Electrons that belong to everyone",
+  "question": "What holds a metal together if no atom keeps its own outer electrons?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical bonding",
+   "Metallic bonding"
+  ],
+  "hue": 167,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Metallic_Bonding_Example.svg/960px-Metallic_Bonding_Example.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Metallic bonding",
+    "credit": "JackFromReedsburg · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Metallic_Bonding_Example.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Electrons that belong to everyone",
+    "hook": "In a metal, the outer electrons stop belonging to any one atom."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemical-bonding-metallic-bonding:1",
+    "transfer": false,
+    "prompt": "A metal atom gives up its valence electrons to a large delocalized orbital. What is left behind?",
+    "explain": "The nucleus and the electrons closer to it are left as positively charged cations, held together by the negative charge of the delocalized orbital.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Negatively charged ions",
+        "feedback": "It tempts because electrons are moving around, but the atoms are the ones losing electrons, so they end up positive."
+       },
+       {
+        "id": "c",
+        "label": "Neutral atoms with the same electrons as before",
+        "feedback": "The atoms really do lose their valence electrons into the shared orbital, so they cannot stay neutral."
+       },
+       {
+        "id": "a",
+        "label": "Positively charged cations"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-chemical-bonding-metallic-bonding:2",
+    "transfer": false,
+    "prompt": "Put these models of metals in the order they developed.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Metals as positive ions held by an ocean of electrons"
+     },
+     {
+      "id": "b",
+      "label": "The free electron model"
+     },
+     {
+      "id": "c",
+      "label": "The nearly free electron model"
+     },
+     {
+      "id": "d",
+      "label": "Band structure and density functional models"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "later"
+    ],
+    "explain": "Electrochemistry gave the ocean-of-electrons picture, quantum mechanics gave the free electron model and its nearly free extension, and the nearly free model's failures led to band structure calculations and density functional theory."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-bonding-metallic-bonding:3",
+    "transfer": true,
+    "prompt": "Match each example to how it relates to metallic bonding.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Graphene"
+     },
+     {
+      "id": "l1",
+      "label": "A metal crystal"
+     },
+     {
+      "id": "l2",
+      "label": "Metal clusters"
+     },
+     {
+      "id": "l3",
+      "label": "Metallic vapors"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Often atomic, or molecules held by a conventional covalent bond"
+     },
+     {
+      "id": "r2",
+      "label": "Delocalization, often in three-dimensional arrangements"
+     },
+     {
+      "id": "r0",
+      "label": "Two-dimensional metallic bonding"
+     },
+     {
+      "id": "r1",
+      "label": "Like one molecule with electrons delocalized in three dimensions"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Metals take delocalization to its extreme in two and three dimensions, while in vapours the bonding is more conventional."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemical-bonding-metallic-bonding:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about metallic bonding is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Metal atoms give up valence electrons to a delocalized orbital."
+     },
+     {
+      "id": "b",
+      "text": "This leaves positively charged ions in a crystal lattice."
+     },
+     {
+      "id": "c",
+      "text": "The negative charge of the delocalized orbital holds the ions together."
+     },
+     {
+      "id": "d",
+      "text": "So metallic bonding must be strongly polar, with charge piled on certain atoms."
+     }
+    ],
+    "answer": "d",
+    "explain": "Metallic bonding is mostly non-polar, because there is little to no difference among the electronegativities of the atoms involved."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Metal atoms release their valence electrons into a shared cloud, and the attraction between the cloud and the positive ions holds the metal together.",
+    "connections": [
+     {
+      "title": "Electrical conductivity",
+      "place": "Metallic bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.electrical-conductivity"
+     },
+     {
+      "title": "Malleability",
+      "place": "Metallic bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.malleability"
+     },
+     {
+      "title": "Alloy",
+      "place": "Metallic bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.alloy"
+     },
+     {
+      "title": "Steel",
+      "place": "Metallic bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The nucleus and the electrons closer to it are left as positively charged cations, held together by the negative charge of the delocalized orbital.",
+    "source": "Wikipedia sentences 2, 3"
+   },
+   {
+    "claim": "Electrochemistry gave the ocean-of-electrons picture, quantum mechanics gave the free electron model and its nearly free extension, and the nearly free model's failures led to band structure calculations and density functional theory.",
+    "source": "Wikipedia sentences 7, 8, 9, 22, 23"
+   },
+   {
+    "claim": "Metals take delocalization to its extreme in two and three dimensions, while in vapours the bonding is more conventional.",
+    "source": "Wikipedia sentences 36, 38, 39, 44"
+   },
+   {
+    "claim": "Metallic bonding is mostly non-polar, because there is little to no difference among the electronegativities of the atoms involved.",
+    "source": "Wikipedia sentences 2, 3, 41"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Ions in a cloud of electrons",
+    "text": "Metallic bonding is a type of chemical bonding. It comes from the electrostatic pull between positively charged metal ions and a cloud of delocalized conduction electrons, which are shared freely across the structure of ions. Metal atoms give up their valence electrons to one large delocalized orbital, leaving the nucleus and its inner electrons behind as positive ions. The negative charge of that orbital then holds the ions together in a crystal lattice.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "One way to picture it is free electrons shared among a framework of positive ions, a more spread-out version of covalent bonding. This kind of bonding explains many physical properties of metals: strength, ductility, how they conduct heat and electricity, opacity and lustre. It is mostly non-polar, because the atoms taking part, even in alloys, differ little or not at all in electronegativity.",
+    "cites": [
+     4,
+     5,
+     41
+    ]
+   },
+   {
+    "heading": "From an ocean of electrons to models",
+    "text": "Electrochemistry showed that metals generally dissolve as positively charged ions. From this grew a picture of a metal as positive ions bound by an ocean of negative electrons. Quantum mechanics later gave the picture a formal shape in the free electron model and its extension, the nearly free electron model. In both, the electrons behave like a gas moving through the solid.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Right answers, wrong idea",
+    "text": "The metallurgist Hume-Rothery used the nearly free electron model to explain why alloys of some compositions form and others do not. He pictured adding electrons to inflate a spherical balloon, the Fermi surface, inside a series of boxes, and asked when a given box would fill. The idea predicted quite a few alloy compositions that were observed later. But once cyclotron resonance could measure the balloon's shape, it turned out not to be spherical, except perhaps in caesium. A model can make a run of correct predictions and still rest on wrong assumptions.",
+    "cites": [
+     11,
+     16,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Newer pictures",
+    "text": "Researchers went on to build quantum mechanical models such as band structure calculations and density functional theory. Band structure became a major focus in studying metals and, even more, semiconductors. Yet it is a one-electron approximation: each electron is treated as if all the others formed an even background. The free electron picture still dominates introductory courses on metallurgy.",
+    "cites": [
+     23,
+     25,
+     26,
+     31
+    ]
+   },
+   {
+    "heading": "What makes it work",
+    "text": "Two things together give rise to metallic bonding: electrons are delocalized, and there are far more delocalized energy states available than there are delocalized electrons. That second feature could be called electron deficiency. A metal crystal can even be seen as a single molecule, with its conduction electrons spread through all three dimensions. So inside a metal one generally cannot tell separate molecules apart, which makes the bonding neither within nor between molecules.",
+    "cites": [
+     34,
+     35,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Not one single bond",
+    "text": "Metallic bonding exists only in condensed matter, whether a crystalline solid or a liquid. Metal vapours are different: they are often single atoms, as with mercury, or sometimes molecules like Na₂ held by a more ordinary covalent bond. That is why it is not correct to speak of one single metallic bond.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-averill-8-10",
+   "kind": "book",
+   "title": "8.10: Metallic Bonding",
+   "by": "LibreTexts (Averill, General Chemistry)",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Book%3A_General_Chemistry%3A_Principles_Patterns_and_Applications_(Averill)/08%3A_Ionic_versus_Covalent_Bonding/8.10%3A_Metallic_Bonding",
+   "note": "Covers the sea-of-electrons model, what sets metallic bond strength, and band theory of conductors and insulators.",
+   "license": "CC BY-NC-SA 3.0"
+  },
+  {
+   "id": "wikibooks-metallic-bonds",
+   "kind": "book",
+   "title": "General Chemistry/Metallic bonds",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Metallic_bonds",
+   "note": "A short open-textbook page on how the electron sea explains conductivity, lustre and malleability in metals."
+  }
+ ]
+}

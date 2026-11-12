@@ -1,0 +1,316 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory",
+ "name": "Ideal (ring theory)",
+ "summary": [
+  {
+   "text": "An ideal of a ring is a special subset of its elements, generalizing subsets of the integers such as the even numbers or the multiples of 3.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Adding or subtracting even numbers keeps you among the evens, and multiplying an even number by any integer gives an even number; these closure and absorption properties define an ideal.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "An ideal can be used to build a quotient ring, much as a normal subgroup is used to build a quotient group in group theory.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Ideals of the integers",
+   "value": "Each is the multiples of one non-negative number",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Ideal numbers",
+   "value": "Ernst Kummer invented them as the missing factors where unique factorization fails",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Dedekind in 1876",
+   "value": "He replaced Kummer's undefined idea with concrete sets of numbers",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Kernels",
+   "value": "Two-sided ideals are exactly the kernels of ring homomorphisms",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Multiples of n",
+   "value": "All integers divisible by a fixed integer n form the ideal nℤ",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You take any even number and multiply it by 7, or by 10, or by any other integer. Which property of the evens does this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiplying a member by any ring element keeps the result inside"
+    },
+    {
+     "id": "b",
+     "label": "Multiplying two members together always gives back a member"
+    },
+    {
+     "id": "c",
+     "label": "Multiplying a member by any ring element lands outside the set"
+    },
+    {
+     "id": "d",
+     "label": "Multiplying a member by an outside element needs an inverse"
+    }
+   ],
+   "answer": "a",
+   "explain": "Multiplying an even number by any integer, even or odd, gives an even number. This absorption, with closure under adding and subtracting, defines an ideal.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory:q1"
+  },
+  {
+   "prompt": "In group theory a normal subgroup is used to build a quotient group. What plays the matching role when building a quotient ring?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A field"
+    },
+    {
+     "id": "b",
+     "label": "An ideal"
+    },
+    {
+     "id": "c",
+     "label": "A rng"
+    },
+    {
+     "id": "d",
+     "label": "A polynomial"
+    }
+   ],
+   "answer": "b",
+   "explain": "An ideal can be used to construct a quotient ring in a way similar to how a normal subgroup constructs a quotient group.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory:q2"
+  },
+  {
+   "prompt": "You want to list every ideal of the integers. What labels them one-for-one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The prime numbers"
+    },
+    {
+     "id": "b",
+     "label": "The even numbers"
+    },
+    {
+     "id": "c",
+     "label": "Pairs of integers"
+    },
+    {
+     "id": "d",
+     "label": "The non-negative integers"
+    }
+   ],
+   "answer": "d",
+   "explain": "Among the integers, ideals correspond one-for-one with the non-negative integers, each being the multiples of a single non-negative number.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory:q3"
+  },
+  {
+   "prompt": "You send a ring through a ring homomorphism and collect everything that lands on zero. What kind of subset is that collection?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A two-sided ideal"
+    },
+    {
+     "id": "b",
+     "label": "A single element only"
+    },
+    {
+     "id": "c",
+     "label": "A field"
+    },
+    {
+     "id": "d",
+     "label": "A left ideal and nothing more"
+    }
+   ],
+   "answer": "a",
+   "explain": "The kernel of a ring homomorphism is a two-sided ideal, and every two-sided ideal arises as such a kernel.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory:q4"
+  },
+  {
+   "prompt": "A ring has commutative multiplication. What happens to the difference between left, right and two-sided ideals?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only two-sided ideals survive"
+    },
+    {
+     "id": "b",
+     "label": "Right ideals become the only kind"
+    },
+    {
+     "id": "c",
+     "label": "The three kinds become the same thing"
+    },
+    {
+     "id": "d",
+     "label": "Left ideals split into two new kinds"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the ring is commutative, the definitions of left, right and two-sided ideal coincide, so one speaks simply of an ideal.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory:q5"
+  },
+  {
+   "prompt": "In some number rings, numbers do not break into factors in only one way. What was Kummer's invention meant to do about that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Delete the numbers that factor badly"
+    },
+    {
+     "id": "b",
+     "label": "Supply imagined numbers acting as the missing factors"
+    },
+    {
+     "id": "c",
+     "label": "Replace every ring with the integers"
+    },
+    {
+     "id": "d",
+     "label": "Prove that factoring never needs extra factors"
+    }
+   ],
+   "answer": "b",
+   "explain": "Kummer invented ideal numbers to serve as the missing factors in rings where unique factorization fails; Dedekind later replaced them with concrete sets.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.ideal-ring-theory:q6"
+  }
+ ],
+ "source": {
+  "title": "Ideal (ring theory)",
+  "url": "https://en.wikipedia.org/wiki/Ideal_(ring_theory)",
+  "revision": 1377810552
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A special subset",
+    "text": "An ideal is a special subset of a ring. The model is a set like the even numbers, or the multiples of 3, inside the integers. Adding or subtracting two evens gives an even, and multiplying an even number by any integer, odd or even, also gives an even. These two features, closure and absorption, are what define an ideal.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Quotients and kernels",
+    "text": "An ideal lets you build a quotient ring, much as a normal subgroup lets you build a quotient group. An ideal I splits R into equivalence classes, and these classes form an abelian group written R/I, the quotient of R by I. The map sending each element to its class is a surjective ring homomorphism whose kernel is the ideal. In the other direction, the kernel of a ring homomorphism is always a two-sided ideal, so two-sided ideals are exactly such kernels.",
+    "cites": [
+     4,
+     19,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Left, right and two-sided",
+    "text": "A left ideal is a left submodule of R, with R viewed as a left module over itself; a right ideal is defined the same way from the other side. An ideal that is both is two-sided. In a commutative ring the three notions coincide and one simply says ideal, and in the noncommutative case \"ideal\" often means two-sided. Every ideal contains the zero ideal and lies inside the unit ideal, which is R itself. An ideal other than the unit ideal is called proper, and a left ideal is proper exactly when it contains no unit element.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18,
+     31,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Examples",
+    "text": "The even integers form the ideal 2ℤ, and all integers divisible by a fixed n form the ideal nℤ. Every nonzero ideal of ℤ is generated by its smallest positive element, so ℤ is a principal ideal domain. Real polynomials divisible by x² + 1 form an ideal in ℝ[x]. Among n × n matrices, those whose i-th row is zero form a right ideal, while those whose j-th column is zero form a left ideal but not a right one.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Ideals in place of numbers",
+    "text": "In the integers, ideals match the non-negative integers one-for-one, since each ideal is the multiples of a single such number. In other rings the ideals need not match the elements so directly, and some properties of integers carry over more naturally to ideals than to elements. Prime ideals play the part of prime numbers, and the Chinese remainder theorem extends to ideals. In a Dedekind domain, a kind of ring important in number theory, ideals have a version of unique prime factorization.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Where the name comes from",
+    "text": "Ernst Kummer invented ideal numbers to act as the missing factors in number rings where unique factorization breaks down. Here \"ideal\" meant existing only in imagination, like points at infinity in geometry. In 1876 Richard Dedekind swapped Kummer's undefined notion for concrete sets of numbers that he named ideals, in the third edition of Vorlesungen über Zahlentheorie, a book by Dirichlet. David Hilbert and especially Emmy Noether later carried the idea to polynomial rings and other commutative rings.",
+    "cites": [
+     11,
+     12,
+     13
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "janssen-lindsey-4",
+   "kind": "book",
+   "title": "4: Ideals and Homomorphisms",
+   "by": "Michael Janssen & Melissa Lindsey",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Rings_with_Inquiry_(Janssen_and_Lindsey)/04%3A_Ideals_and_Homomorphisms_and_test",
+   "note": "An inquiry-based chapter on ideals, ring homomorphisms, quotient rings, and prime and maximal ideals.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

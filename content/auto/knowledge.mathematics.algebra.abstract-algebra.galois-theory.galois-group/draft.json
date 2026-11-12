@@ -1,0 +1,211 @@
+{
+ "summary": [
+  {
+   "text": "The Galois group of a certain type of field extension is a symmetry group describing how the extension builds on its base field.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Each element of the group is a transformation of the larger field that leaves every element of the base field fixed.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Through the fundamental theorem of Galois theory, group tools can attack field problems, such as describing the solutions to quintic polynomials.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Évariste Galois, who first discovered them",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "What its elements do",
+   "value": "Transformations that leave the base field fixed",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Finite abelian groups",
+   "value": "Each one is a Galois group of some cyclotomic subfield",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Complex over reals",
+   "value": "A cyclic group of order 2, from complex conjugation",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "What kind of object is the Galois group of a field extension?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A list of the coefficients of the polynomial involved"
+    },
+    {
+     "id": "b",
+     "label": "A count of how many roots the polynomial has"
+    },
+    {
+     "id": "c",
+     "label": "A symmetry group showing how the extension sits over its base field"
+    },
+    {
+     "id": "d",
+     "label": "A table of the prime numbers inside the field"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is a symmetry group that characterizes how the extension extends the base field.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A transformation of the bigger field is a candidate for the Galois group only if it does what to the smaller base field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Leaves each element of the base field unchanged"
+    },
+    {
+     "id": "b",
+     "label": "Swaps every element of the base field with another"
+    },
+    {
+     "id": "c",
+     "label": "Doubles every element of the base field"
+    },
+    {
+     "id": "d",
+     "label": "Sends the base field onto the larger field"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every element of the Galois group leaves each element of the base field fixed.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "The complex numbers a + b i are extended from the reals. The only symmetries of C that keep every real number fixed are doing nothing and swapping a + b i for a − b i. What size is this symmetry group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Trivial, with a single element"
+    },
+    {
+     "id": "b",
+     "label": "Infinite, with one for each real number"
+    },
+    {
+     "id": "c",
+     "label": "Four elements, one per sign choice"
+    },
+    {
+     "id": "d",
+     "label": "Two elements, identity and conjugation"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gal(C / R) is the cyclic group of order 2: the identity and complex conjugation, which fixes every real number.",
+   "cites": [
+    12,
+    33
+   ]
+  },
+  {
+   "prompt": "Why do mathematicians bother connecting fields to groups at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every field finite and easy to list"
+    },
+    {
+     "id": "b",
+     "label": "It lets group tools be used on problems about fields"
+    },
+    {
+     "id": "c",
+     "label": "It replaces polynomials with simple numbers"
+    },
+    {
+     "id": "d",
+     "label": "It avoids ever needing the base field"
+    }
+   ],
+   "answer": "b",
+   "explain": "The connection lets group-theoretic tools be used on field problems, such as describing the solutions of quintic polynomials.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Someone claims only a few special finite abelian groups can ever show up as Galois groups. What does the Kronecker–Weber theorem say about subfields of cyclotomic extensions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only cyclic ones of prime order appear"
+    },
+    {
+     "id": "b",
+     "label": "Only the trivial group appears"
+    },
+    {
+     "id": "c",
+     "label": "Any finite abelian group can be found"
+    },
+    {
+     "id": "d",
+     "label": "Only groups with exactly two elements appear"
+    }
+   ],
+   "answer": "c",
+   "explain": "By the Kronecker–Weber theorem, any finite abelian group arises as the Galois group of some subfield of a cyclotomic field extension.",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "prompt": "Whose name is attached to this group, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Abel, who proved the quintic cannot be solved"
+    },
+    {
+     "id": "b",
+     "label": "Galois, who first discovered these groups"
+    },
+    {
+     "id": "c",
+     "label": "Liouville, who first published the theory"
+    },
+    {
+     "id": "d",
+     "label": "Kronecker, who linked it to cyclotomic fields"
+    }
+   ],
+   "answer": "b",
+   "explain": "The study is named in honor of Évariste Galois, who first discovered Galois groups.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

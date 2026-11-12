@@ -1,0 +1,325 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin",
+ "name": "Gambler's ruin",
+ "summary": [
+  {
+   "text": "Gambler's ruin is the fact that a gambler playing a game that is not in their favor will eventually go bankrupt, no matter what betting system they use.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Even in a fair game, a gambler with limited money who keeps playing against an opponent with unlimited money will eventually go broke.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "The idea comes from a theorem by Christiaan Huygens and led to important advances in the mathematical theory of probability.",
+   "cites": [
+    6,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core claim",
+   "value": "A non-positive expected value game ends in bankruptcy, whatever the betting system",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Modeled as",
+   "value": "A random walk on the real number line",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Origin",
+   "value": "A general theorem by Christiaan Huygens",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "What Huygens' theorem finds",
+   "value": "Each player's chance of winning a series of bets until one is wiped out",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Small stake disadvantage",
+   "value": "Even with equal odds, the player starting with fewer pennies is likelier to fail",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gambler with a limited bankroll plays a perfectly fair game, every night, against an opponent with unlimited money. What does the theory say happens eventually?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The gambler goes broke"
+    },
+    {
+     "id": "b",
+     "label": "The gambler ends up well ahead"
+    },
+    {
+     "id": "c",
+     "label": "The results balance out, so the gambler stays afloat"
+    },
+    {
+     "id": "d",
+     "label": "It depends on how big the first bet is"
+    }
+   ],
+   "answer": "a",
+   "explain": "A persistent gambler with finite wealth, playing a fair game against an opponent with infinite wealth, will eventually and inevitably go broke.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin:q1"
+  },
+  {
+   "prompt": "Your friend invents a clever betting system for a game that is slightly stacked against him. Will the system save him from going broke in the long run?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any careful system beats a small disadvantage"
+    },
+    {
+     "id": "b",
+     "label": "Only if he changes the bet size after every round"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as he starts with enough money"
+    },
+    {
+     "id": "d",
+     "label": "No, he will eventually go bankrupt whatever system he uses"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gambler's ruin says a player in a game with non-positive expected value eventually goes bankrupt regardless of their betting system.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin:q2"
+  },
+  {
+   "prompt": "Is a gambler who plays a game tilted against them any better off in the long run than one who plays a perfectly fair game?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because a tilted game ends sooner and cuts losses"
+    },
+    {
+     "id": "b",
+     "label": "No, their eventual fate cannot be better, so they go broke too"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because they are more careful with each bet"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if the casino has unlimited money"
+    }
+   ],
+   "answer": "b",
+   "explain": "The eventual fate of a player at a game with negative expected value cannot be better than that of a player at a fair game, so they go broke as well.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin:q3"
+  },
+  {
+   "prompt": "Two friends flip a fair coin, and the loser of each flip hands the winner one penny. One starts with 3 pennies, the other with 50. Who is more likely to end up with nothing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with 50, since they have more to lose"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since the coin is fair to both"
+    },
+    {
+     "id": "c",
+     "label": "The one with 3, since a short losing run wipes them out"
+    },
+    {
+     "id": "d",
+     "label": "Each is equally likely, since each flip is 50-50"
+    }
+   ],
+   "answer": "c",
+   "explain": "Even with equal odds on each flip, the player who starts with fewer pennies is more likely to fail.",
+   "cites": [
+    34,
+    35,
+    36,
+    40
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin:q4"
+  },
+  {
+   "prompt": "A gambler raises each bet after a win and never lowers it after a loss, and each bet has a favorable expected value. What outcome is virtually certain over time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The bets stay profitable, so the bankroll grows steadily"
+    },
+    {
+     "id": "b",
+     "label": "The gambler stabilizes at a constant bankroll"
+    },
+    {
+     "id": "c",
+     "label": "The gambler is protected, since each bet favors them"
+    },
+    {
+     "id": "d",
+     "label": "The gambler eventually goes broke"
+    }
+   ],
+   "answer": "d",
+   "explain": "Such a persistent gambler will eventually go broke, even if each bet has a positive expected value.",
+   "cites": [
+    2,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin:q5"
+  },
+  {
+   "prompt": "Suppose you know each of two players' starting money, and each bet has the same chance of being won. Huygens's theorem lets you work out what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How long a single bet will take to settle"
+    },
+    {
+     "id": "b",
+     "label": "How much each player should wager on every bet"
+    },
+    {
+     "id": "c",
+     "label": "Which player is the more skilled gambler"
+    },
+    {
+     "id": "d",
+     "label": "Each player's chance of winning the whole series of bets"
+    }
+   ],
+   "answer": "d",
+   "explain": "The theorem computes the probability of each player winning a series of bets that continues until one player's entire stake is lost.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin:q6"
+  }
+ ],
+ "source": {
+  "title": "Gambler's ruin",
+  "url": "https://en.wikipedia.org/wiki/Gambler%27s_ruin",
+  "revision": 1356180292
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The idea",
+    "text": "Gambler's ruin is the fact that someone who plays a game with non-positive expected value will go bankrupt in the end, whatever betting system they use. Another version covers a fair game, where each bet has expected value of zero for both sides. A persistent gambler with limited money, facing an opponent with unlimited money, will still go broke for certain. This situation can be modelled as a random walk on the real number line.",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Huygens and the oldest version",
+    "text": "In the random walk picture, the gambler is all but certain to come back to the starting point, which means going broke. That outcome follows as a corollary from a general theorem of Christiaan Huygens, which also goes by the name gambler's ruin. Given each player's starting stake and a fixed chance of winning each bet, it shows how to work out each player's chance of winning a series that runs until one side loses everything. It is the oldest mathematical idea to carry the name, though not the first idea the name was given to. Huygens's result went on to drive major progress in how mathematicians understand probability.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     12
+    ]
+   },
+   {
+    "heading": "A game with three dice",
+    "text": "The classic problem pits two players against each other with three dice. The first scores whenever 11 is rolled, the second whenever 14 is rolled. In one form, each starts with 12 points, and a successful roll adds a point to the roller and takes one from the opponent. Whoever reaches zero first loses. This is the standard picture: two players start with fixed stakes and pass points back and forth until one is ruined, although the name gambler's ruin came much later.",
+    "cites": [
+     13,
+     17,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Raising the stakes",
+    "text": "The idea was first stated about a particular habit. Let d be the gambler's money at any moment and N any positive integer, and suppose they raise their stake to d/N after a win but never lower it after a loss. Then N losses in a row are enough to bankrupt them. If the chance of winning each bet is below 1, they are virtually certain to suffer such a streak eventually, however big N is. This holds even when each bet has positive expected value.",
+    "cites": [
+     2,
+     23,
+     24,
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Doubling or going broke",
+    "text": "In a fair game with a 1/2 chance of winning each bet, the gambler will sooner or later either go broke or double their wealth. By symmetry, each outcome has a 1/2 chance of coming first. If they double up and keep playing, they again face a 1/2 chance of ruin before the next doubling. After two such rounds, the chance they are still solvent is (1/2) ² = 1/4. A player in a game with negative expected value can do no better than this, so they go broke too.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Pennies on the table",
+    "text": "Picture two players flipping a coin, each with a 50% chance of winning each flip. The loser of each flip hands one penny to the winner, and play ends when one player holds every penny. With no other limit on the number of flips, the game ends this way with probability 1. Even though the odds are equal, the player who starts with fewer pennies is more likely to be ruined.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     40
+    ]
+   },
+   {
+    "heading": "More than two players",
+    "text": "The two-player game is a special case of the N-Player Ruin problem. There, N ≥ 2 players start with capital x₁, x₂, …, x_N dollars. They play a sequence of independent games, winning and losing money to each other under fixed rules, and the sequence stops once at least one player is ruined.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "grinstead-snell-gamblers-ruin",
+   "kind": "book",
+   "title": "12: Random Walks - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/12%3A_Random_Walks",
+   "note": "A free textbook chapter whose section 12.2, Gambler's Ruin, works out the odds of a gambler going broke.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

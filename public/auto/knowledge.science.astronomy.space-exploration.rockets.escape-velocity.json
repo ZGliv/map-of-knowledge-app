@@ -1,0 +1,320 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity",
+ "name": "Escape velocity",
+ "summary": [
+  {
+   "text": "Escape velocity is the speed an object needs so that, with enough energy, it can reach every distance from a body, out to infinity.",
+   "cites": [
+    20,
+    23
+   ]
+  },
+  {
+   "text": "It is more accurately a speed than a velocity because direction does not matter, and it gets smaller the farther you are from the body's center.",
+   "cites": [
+    1,
+    4,
+    32
+   ]
+  },
+  {
+   "text": "From Earth's surface it is 11.186 km/s, but a craft in low Earth orbit already moves at about 7.8 km/s, so it needs far less extra speed.",
+   "cites": [
+    17,
+    33,
+    34
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Earth's value",
+   "value": "11.186 km/s from the surface",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Low orbit speed",
+   "value": "About 7.8 km/s in low Earth orbit",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Eastward launch",
+   "value": "About 10.735 km/s relative to the moving equator",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Other name",
+   "value": "The second cosmic velocity",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Launch site latitudes",
+   "value": "Cape Canaveral 28°28′ N, French Guiana 5°14′ N",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A satellite travels in a steady circular orbit around Earth. Compared with the speed needed to leave Earth's pull for good from that same distance, its speed is...",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly the same, which is why it stays up"
+    },
+    {
+     "id": "b",
+     "label": "Always higher, which keeps it circling"
+    },
+    {
+     "id": "c",
+     "label": "Always lower, at its current distance"
+    },
+    {
+     "id": "d",
+     "label": "Higher when near Earth and lower when far"
+    }
+   ],
+   "answer": "c",
+   "explain": "An object in a circular or elliptical orbit always has a speed below the escape speed at its current distance.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity:q1"
+  },
+  {
+   "prompt": "Two identical rockets leave the equator, one aimed east and one aimed west. Measured against the moving ground, which needs less speed to escape?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one aimed east"
+    },
+    {
+     "id": "b",
+     "label": "The one aimed west"
+    },
+    {
+     "id": "c",
+     "label": "Both need exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "Neither could escape from the equator"
+    }
+   ],
+   "answer": "a",
+   "explain": "Relative to the rotating surface, the eastward launch needs about 10.735 km/s and the westward launch about 11.665 km/s.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity:q2"
+  },
+  {
+   "prompt": "A spacecraft is first parked in a low orbit and then sent on its way, instead of being fired straight from the ground at full speed. Why does this help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity switches off once an object is in orbit, so no extra speed is needed"
+    },
+    {
+     "id": "b",
+     "label": "Anything in orbit has an escape speed of zero around Earth"
+    },
+    {
+     "id": "c",
+     "label": "The craft gets heavier in orbit, so its engine pushes harder"
+    },
+    {
+     "id": "d",
+     "label": "It already has a lot of orbital speed, so the extra change needed is far smaller"
+    }
+   ],
+   "answer": "d",
+   "explain": "In low Earth orbit the craft already moves at about 7.8 km/s, so the additional change in speed is far less than starting from rest.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity:q3"
+  },
+  {
+   "prompt": "A probe is on a parabolic path, always travelling at exactly the speed needed to escape from where it is. What does its speed do over time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same forever"
+    },
+    {
+     "id": "b",
+     "label": "It keeps dropping toward zero but never quite gets there"
+    },
+    {
+     "id": "c",
+     "label": "It reaches zero far away and the probe falls back"
+    },
+    {
+     "id": "d",
+     "label": "It rises steadily as the probe leaves"
+    }
+   ],
+   "answer": "b",
+   "explain": "The probe balances positive kinetic energy and negative gravitational potential energy, so it keeps slowing, approaching zero speed but never quite stopping.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity:q4"
+  },
+  {
+   "prompt": "Liftoff acceleration and thick air make it hard to reach full escape speed all at once. How can a rocket escape anyway?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Escape needs less energy if the climb is slow enough"
+    },
+    {
+     "id": "b",
+     "label": "It must still hit the full surface escape speed at some moment"
+    },
+    {
+     "id": "c",
+     "label": "It keeps thrusting, so it can escape at any speed above zero"
+    },
+    {
+     "id": "d",
+     "label": "It cannot escape unless it fires in one single burst"
+    }
+   ],
+   "answer": "c",
+   "explain": "A rocket under continuous or intermittent thrust can escape at any non-zero speed, though the minimum energy needed is always the same.",
+   "cites": [
+    13,
+    31
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity:q5"
+  },
+  {
+   "prompt": "Two small spacecraft of different weights leave Earth. Why can engineers usually ignore which is heavier when working out escape speed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each adds a negligible amount to the combined mass of it and Earth"
+    },
+    {
+     "id": "b",
+     "label": "Gravity pulls every object with the same force, whatever its mass"
+    },
+    {
+     "id": "c",
+     "label": "Air slows heavy craft and not light ones, so the effects cancel"
+    },
+    {
+     "id": "d",
+     "label": "Escape speed depends only on the direction of travel"
+    }
+   ],
+   "answer": "a",
+   "explain": "Escape speed depends on the combined mass, but a satellite or small object contributes a negligible part of it, so it is often ignored.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.rockets.escape-velocity:q6"
+  }
+ ],
+ "source": {
+  "title": "Escape velocity",
+  "url": "https://en.wikipedia.org/wiki/Escape_velocity",
+  "revision": 1381606273
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Staying or leaving",
+    "text": "Escape velocity is used to work out whether an object will stay inside a body's gravitational reach or leave it. The more speed an object has, the more places it can reach, and with enough energy every distance out to infinity is open to it. In energy terms, an object has reached escape velocity once its specific orbital energy, which is essentially its kinetic plus potential energy divided by its mass, is zero or more. Strictly it is a speed rather than a velocity, since direction does not matter.",
+    "cites": [
+     1,
+     8,
+     19,
+     20,
+     23
+    ]
+   },
+   {
+    "heading": "What it depends on",
+    "text": "Escape speed depends on mass, because the pull of gravity between two objects depends on their combined mass. For a satellite or other small object, its own mass adds almost nothing and is usually ignored. Escape speed also changes with distance from the centre of the body. An object in a circular or elliptical orbit always moves slower than the escape speed where it is, while one on a hyperbolic path always moves faster. On the borderline parabolic path it moves at exactly escape speed, slowing forever toward zero but never quite stopping.",
+    "cites": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Leaving Earth",
+    "text": "From Earth, the escape velocity is 11.186 km/s, or about 40,270 km/h. A handy formula at a body's surface is vₑ = √2gr, where r is the distance from the body's centre and g is the pull of gravity there. In most cases it is not practical to reach that speed almost at once: the acceleration involved is too great, and in Earth's atmosphere such speeds would make most objects burn up or be torn apart. Instead, a spacecraft speeds up steadily as it climbs out of the air, until it reaches the escape velocity for its height, which is lower than at the surface.",
+    "cites": [
+     17,
+     25,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "A head start from orbit",
+    "text": "Often a spacecraft is first placed in a parking orbit, such as a low Earth orbit, and then sped up from there. At 200 km up, escape velocity is about 11.0 km/s, but the craft is already moving at roughly 7.8 km/s in orbit, so the extra speed it needs is much smaller. In general, escape velocity at any height is √2 times the speed of a circular orbit at that height. The circular-orbit speed is sometimes called the first cosmic velocity, and escape velocity the second cosmic velocity.",
+    "cites": [
+     33,
+     34,
+     35,
+     37
+    ]
+   },
+   {
+    "heading": "The spinning Earth helps",
+    "text": "These figures are measured in a frame that does not rotate. Earth's surface does rotate, so the speed a rocket needs relative to the ground depends on the direction it heads. At the equator the ground moves at 465 m/s, so a rocket launched east needs about 10.735 km/s relative to the surface, while one launched west needs about 11.665 km/s. The ground speed shrinks toward the poles, so launch sites such as Cape Canaveral and the Guiana Space Centre are placed as close to the equator as is practical.",
+    "cites": [
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Other ways out",
+    "text": "A rocket does not have to reach escape velocity in one burn. Under steady or repeated thrust it can in principle escape while moving at any speed above zero, although the least energy needed stays the same. Spacecraft can also take kinetic energy from large bodies through a gravity assist. And on an elliptical orbit, the change in speed needed to escape is smallest at the point closest to the central body, an effect explained by the Oberth effect.",
+    "cites": [
+     11,
+     13,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-gravitational-energy",
+   "kind": "book",
+   "title": "13.3 Gravitational Potential Energy and Total Energy - University Physics Volume 1",
+   "by": "OpenStax (William Moebs, Samuel J. Ling, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+   "note": "A free textbook section deriving escape velocity from energy conservation, with a worked example of escaping Earth.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

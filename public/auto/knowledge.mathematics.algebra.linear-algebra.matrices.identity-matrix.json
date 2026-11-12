@@ -1,0 +1,305 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix",
+ "name": "Identity matrix",
+ "summary": [
+  {
+   "text": "The identity matrix is a square matrix with ones on the main diagonal and zeros everywhere else.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Multiplying by it is analogous to multiplying by the number 1, and as a geometric transformation it leaves every object unchanged.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It is its own inverse, and two square matrices multiply to give it exactly when each is the inverse of the other.",
+   "cites": [
+    14,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Shape",
+   "value": "Square, with ones on the main diagonal and zeros elsewhere",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Role",
+   "value": "Plays the part of the number 1 in multiplication",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Own inverse",
+   "value": "It is involutory: equal to its own inverse",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Test for inverses",
+   "value": "Two square matrices have it as product exactly when inverses",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Principal square root",
+   "value": "Its principal square root is itself",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Which pattern describes the identity matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every entry equal to one"
+    },
+    {
+     "id": "b",
+     "label": "Ones along the main diagonal, zeros elsewhere"
+    },
+    {
+     "id": "c",
+     "label": "Zeros along the main diagonal, ones elsewhere"
+    },
+    {
+     "id": "d",
+     "label": "Ones in the first row, zeros elsewhere"
+    }
+   ],
+   "answer": "b",
+   "explain": "It is a square matrix with ones on the main diagonal and zeros elsewhere.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix:q1"
+  },
+  {
+   "prompt": "A graphics program applies a transformation whose matrix is the identity matrix. What happens to the shape on screen?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is rotated a quarter turn"
+    },
+    {
+     "id": "b",
+     "label": "It is flipped over"
+    },
+    {
+     "id": "c",
+     "label": "It shrinks to a single point"
+    },
+    {
+     "id": "d",
+     "label": "It stays exactly as it was"
+    }
+   ],
+   "answer": "d",
+   "explain": "When the identity matrix represents a geometric transformation, the object remains unchanged.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix:q2"
+  },
+  {
+   "prompt": "Multiplying by the identity matrix is like which everyday arithmetic move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiplying a number by 1"
+    },
+    {
+     "id": "b",
+     "label": "Multiplying a number by 0"
+    },
+    {
+     "id": "c",
+     "label": "Adding 1 to a number"
+    },
+    {
+     "id": "d",
+     "label": "Squaring a number"
+    }
+   ],
+   "answer": "a",
+   "explain": "It is analogous to multiplying by the number 1, which leaves things as they were.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix:q3"
+  },
+  {
+   "prompt": "Some matrices are equal to their own inverse. Which of these is such a matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A square matrix filled entirely with zeros"
+    },
+    {
+     "id": "b",
+     "label": "A square matrix filled entirely with ones"
+    },
+    {
+     "id": "c",
+     "label": "The square matrix with ones down the diagonal"
+    },
+    {
+     "id": "d",
+     "label": "A square matrix with one single nonzero entry"
+    }
+   ],
+   "answer": "c",
+   "explain": "The identity matrix is invertible and is an involutory matrix, equal to its own inverse.",
+   "cites": [
+    1,
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix:q4"
+  },
+  {
+   "prompt": "Two square matrices are multiplied together and the result is the identity matrix. What does this tell you about them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both of them must be the identity matrix"
+    },
+    {
+     "id": "b",
+     "label": "Each one is the inverse of the other"
+    },
+    {
+     "id": "c",
+     "label": "They must be equal to each other"
+    },
+    {
+     "id": "d",
+     "label": "One of them must be filled with zeros"
+    }
+   ],
+   "answer": "b",
+   "explain": "Two square matrices have the identity matrix as their product exactly when they are inverses of each other.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix:q5"
+  },
+  {
+   "prompt": "For an identity matrix with at least two rows, how many symmetric matrices square to it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one, the identity itself"
+    },
+    {
+     "id": "b",
+     "label": "Exactly two, the identity and its negative"
+    },
+    {
+     "id": "c",
+     "label": "None, because it has no square root"
+    },
+    {
+     "id": "d",
+     "label": "Infinitely many"
+    }
+   ],
+   "answer": "d",
+   "explain": "Every identity matrix with at least two rows and columns has an infinitude of symmetric square roots, although its principal square root is itself.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Math_identify_matrix_3x3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Identity matrix",
+  "credit": "Tim bates",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Math_identify_matrix_3x3.png"
+ },
+ "source": {
+  "title": "Identity matrix",
+  "url": "https://en.wikipedia.org/wiki/Identity_matrix",
+  "revision": 1346999583
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Ones down the diagonal",
+    "text": "For any size n, the identity matrix is the n × n square matrix with ones along its main diagonal and zeros in every other place. It is usually written Iₙ, or just I when the size does not matter or is clear from context. In the shorthand used for diagonal matrices, it is Iₙ = diag (1, 1, …, 1).",
+    "cites": [
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "heading": "The matrix version of 1",
+    "text": "The identity matrix plays the part that the number 1 plays in ordinary multiplication. For any m × n matrix A, Iₘ A = A Iₙ = A. Used as a geometric transformation, it leaves every object just as it was. When n × n matrices stand for linear transformations of an n-dimensional space to itself, Iₙ stands for the identity function, whatever basis is used.",
+    "cites": [
+     2,
+     3,
+     11,
+     16
+    ]
+   },
+   {
+    "heading": "Inverses",
+    "text": "Among all n × n matrices, the identity matrix is the identity for multiplication. It is also the identity element of the general linear group GL(n), the group of all invertible n × n matrices under multiplication. Two square matrices multiply to give the identity matrix exactly when each is the inverse of the other. The identity matrix is invertible, and it is its own inverse.",
+    "cites": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Columns and key numbers",
+    "text": "Column i of the identity matrix is the unit vector eᵢ, which has a 1 in position i and 0 everywhere else. The determinant of the identity matrix is 1, its trace is n, and its rank is n. Using the Kronecker delta, it can be written (Iₙ)_ij = δ_ij.",
+    "cites": [
+     10,
+     17,
+     18,
+     21
+    ]
+   },
+   {
+    "heading": "A surprise with square roots",
+    "text": "Square roots of the identity matrix hold a surprise. Its principal square root is the identity matrix itself, and that is its only positive-definite square root. Yet once an identity matrix has two or more rows and columns, it has infinitely many symmetric square roots.",
+    "cites": [
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Other names",
+    "text": "Many writers have also called it the unit matrix, but identity matrix is now the standard term. Unit matrix is ambiguous, because it can also mean a matrix of ones or any unit of the ring of n × n matrices. In group theory or quantum mechanics the identity is sometimes a bold 1 or simply id. A few books write U, for unit matrix, or E, from the German word Einheitsmatrix.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  ]
+ }
+}

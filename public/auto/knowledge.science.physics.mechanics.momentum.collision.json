@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.momentum.collision",
+ "name": "Collision",
+ "summary": [
+  {
+   "text": "A collision is any event in which two or more bodies push on each other for a short time, however hard or gently they do it.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "In a perfectly elastic collision no kinetic energy is lost, while an inelastic one turns much of it into heat, sound or damage.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "How bouncy a collision is gets a score called the coefficient of restitution, which is one for perfectly elastic and zero for perfectly inelastic.",
+   "cites": [
+    11,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Perfectly elastic",
+   "value": "Total kinetic energy is conserved",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Perfectly inelastic",
+   "value": "The two bodies stick together after impact",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Restitution range",
+   "value": "Generally between zero and one",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Car crashes",
+   "value": "Inelastic, with the frame absorbing energy",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Billiard balls",
+   "value": "Nearly elastic collisions",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Why are car frames built to crumple instead of bounce?",
+   "options": [
+    {
+     "id": "a",
+     "label": "So the cars can bounce apart with energy intact"
+    },
+    {
+     "id": "b",
+     "label": "So the crash is perfectly elastic and harmless"
+    },
+    {
+     "id": "c",
+     "label": "So the frame absorbs the energy, not the people"
+    },
+    {
+     "id": "d",
+     "label": "So the cars separate faster after impact"
+    }
+   ],
+   "answer": "c",
+   "explain": "Cars crumple inward on purpose, so the frame takes the crash energy rather than the occupants and bystanders.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.collision:q1"
+  },
+  {
+   "prompt": "Two lumps of clay hit and stay stuck together. What coefficient of restitution fits that collision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero"
+    },
+    {
+     "id": "b",
+     "label": "One"
+    },
+    {
+     "id": "c",
+     "label": "One half"
+    },
+    {
+     "id": "d",
+     "label": "More than one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Bodies that join after impact make a perfectly inelastic collision, whose coefficient is zero.",
+   "cites": [
+    8,
+    12
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.collision:q2"
+  },
+  {
+   "prompt": "A cue ball strikes a stationary ball of equal mass off-center, nearly elastically and with no friction. How do the two paths relate afterward?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They fly off in nearly parallel lines"
+    },
+    {
+     "id": "b",
+     "label": "They leave at 45 degrees to each other"
+    },
+    {
+     "id": "c",
+     "label": "They head back toward each other"
+    },
+    {
+     "id": "d",
+     "label": "They leave at a right angle to each other"
+    }
+   ],
+   "answer": "d",
+   "explain": "After a zero-friction elastic collision of equal masses, with the target initially still, the two directions are perpendicular unless the hit is head-on.",
+   "cites": [
+    19,
+    26
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.collision:q3"
+  },
+  {
+   "prompt": "A bat hits a baseball with a loud crack. What does that sound tell you about the energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The collision was perfectly elastic"
+    },
+    {
+     "id": "b",
+     "label": "Some kinetic energy escaped as sound"
+    },
+    {
+     "id": "c",
+     "label": "The ball gained energy from the sound"
+    },
+    {
+     "id": "d",
+     "label": "The bat passed none of its energy on"
+    }
+   ],
+   "answer": "b",
+   "explain": "The sound represents lost energy, so the collision was not perfectly elastic, even though the ball picked up a lot of speed.",
+   "cites": [
+    6,
+    7,
+    3
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.collision:q4"
+  },
+  {
+   "prompt": "Which of these comes closest to a perfectly bouncy collision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A car folding into a barrier"
+    },
+    {
+     "id": "b",
+     "label": "A running animal's paw hitting the ground"
+    },
+    {
+     "id": "c",
+     "label": "Molecules of an ideal gas bumping"
+    },
+    {
+     "id": "d",
+     "label": "A meteorite striking the Earth"
+    }
+   ],
+   "answer": "c",
+   "explain": "Collisions in ideal gases approach perfectly elastic ones, while crashes, footfalls and hypervelocity impacts lose kinetic energy.",
+   "cites": [
+    15,
+    9,
+    32,
+    38
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.collision:q5"
+  },
+  {
+   "prompt": "Two objects brush gently against each other for an instant. Can a physicist call that a collision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the term says nothing about how hard they push"
+    },
+    {
+     "id": "b",
+     "label": "No, collisions need a great force"
+    },
+    {
+     "id": "c",
+     "label": "No, collisions need the objects to bounce"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if energy is conserved"
+    }
+   ],
+   "answer": "a",
+   "explain": "The scientific meaning only requires bodies exerting forces on each other briefly; it implies nothing about the size of the force.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum.collision:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Collision_9_Block.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Collision",
+  "credit": "Casint",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Collision_9_Block.gif"
+ },
+ "source": {
+  "title": "Collision",
+  "url": "https://en.wikipedia.org/wiki/Collision",
+  "revision": 1375215057
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What counts as a collision",
+    "text": "In physics, a collision is any event where two or more bodies push on each other over a fairly short time. In daily speech the word suggests a violent smash. The physics meaning says nothing about how strong the forces are.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Elastic and inelastic",
+    "text": "Collisions are sorted by what happens to their total kinetic energy. If none of it is lost as sound, heat or anything else, the collision is perfectly elastic, though this is an ideal that the second law of thermodynamics rules out in reality. If most or all of it is lost, the collision is inelastic. In a perfectly inelastic collision the two bodies join together after the impact.",
+    "cites": [
+     3,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "heading": "Scoring the bounce",
+    "text": "How elastic a collision is gets measured by the coefficient of restitution. It usually lies between zero and one. A perfectly elastic collision scores one and a perfectly inelastic one scores zero.",
+    "cites": [
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Crumpling on purpose",
+    "text": "A car crash is an example of a perfectly inelastic collision: the cars crumple inward instead of bouncing apart. This is deliberate. The car's frame soaks up the crash energy to protect the people inside and nearby.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Near-perfect bounces",
+    "text": "Some collisions come close to perfectly elastic. Collisions in ideal gases do, as do sub-atomic particles deflected by the electromagnetic force. Slingshot encounters between satellites and planets are almost perfectly elastic as well.",
+    "cites": [
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "The billiard table",
+    "text": "Billiard balls collide almost elastically and roll with little friction, so they are often used to show Newton's laws of motion. When a moving ball hits a still ball of the same mass with no friction, the two head off at 90 degrees to each other. Skilled players take this into account. The exception is a head-on hit, where the moving ball comes to a stop.",
+    "cites": [
+     18,
+     19,
+     20,
+     26
+    ]
+   },
+   {
+    "heading": "Extremely fast impacts",
+    "text": "Hypervelocity means speeds above roughly 3,000 metres per second. At such speeds the strength of materials hardly matters next to inertia, so metals and fluids behave alike on impact. Under extreme hypervelocity both the impactor and the target turn to vapour. Meteorite craters are examples of hypervelocity impacts.",
+    "cites": [
+     35,
+     36,
+     37,
+     38,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up-9-4",
+   "kind": "book",
+   "title": "9.4 Types of Collisions",
+   "by": "William Moebs, Samuel J. Ling, Jeff Sanny (OpenStax)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/9-4-types-of-collisions",
+   "note": "A free college textbook section sorting collisions by what happens to kinetic energy, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-8-5",
+   "kind": "book",
+   "title": "8.5 Inelastic Collisions in One Dimension",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension",
+   "note": "An introductory section on collisions that lose kinetic energy, with a goalie catching a puck and colliding carts."
+  },
+  {
+   "id": "crashcourse-collisions",
+   "kind": "video",
+   "title": "Collisions: Crash Course Physics #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Y-QOfc2XqOk",
+   "note": "A Crash Course Physics episode on collisions and the momentum that objects carry into and out of them."
+  }
+ ]
+}

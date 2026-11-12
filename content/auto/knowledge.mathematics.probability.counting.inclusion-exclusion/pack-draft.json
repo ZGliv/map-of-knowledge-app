@@ -1,0 +1,102 @@
+{
+ "title": "Count it once, not twice",
+ "question": "How can you count a union of sets without counting anyone twice?",
+ "hook": "Two clubs share some members, so adding their rosters gives a number that is too big.",
+ "idea": "Add the set sizes, then alternately subtract and add back the overlaps until the biggest overlap has been handled.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A class has 12 students in choir and 9 in band, and 5 are in both. How many students are in at least one of the two?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "21",
+     "feedback": "This just adds the two headcounts, which counts the 5 students in both groups twice."
+    },
+    {
+     "id": "b",
+     "label": "16"
+    },
+    {
+     "id": "c",
+     "label": "14",
+     "feedback": "This does not come from correcting the double count: the fix is to subtract the overlap once from the sum of the two sizes, which gives 16."
+    },
+    {
+     "id": "d",
+     "label": "7",
+     "feedback": "This is only the choir members not also in band (12 - 5); it leaves out everyone who is in band."
+    }
+   ],
+   "answer": "b",
+   "explain": "The sum of the sizes is too large because those in both groups are counted twice, so you subtract the overlap once: 12 + 9 - 5 = 16.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the steps of the counting recipe in order for a union of many sets.",
+   "items": [
+    "Add up the sizes of the individual sets",
+    "Subtract the number of elements in at least two sets",
+    "Add back the number in at least three sets",
+    "Subtract the number in at least four sets"
+   ],
+   "ends": [
+    "First step",
+    "Later step"
+   ],
+   "explain": "The recipe starts with the sum of the sizes, then alternately subtracts and adds back elements that appear in more and more sets.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each overlap to what you do with it.",
+   "pairs": [
+    [
+     "Elements in two sets",
+     "Subtract the size of the intersection"
+    ],
+    [
+     "Elements in all three of three sets",
+     "Add back, since they were subtracted too often"
+    ],
+    [
+     "Quadruple-wise intersections",
+     "Exclude them"
+    ],
+    [
+     "Quintuple-wise intersections",
+     "Include them"
+    ]
+   ],
+   "explain": "The overlaps are handled in alternating fashion: excluded, then included, and so on, as the intersections involve more sets.",
+   "cites": [
+    2,
+    3,
+    4,
+    5,
+    14
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about two overlapping sets is wrong. Which one?",
+   "steps": [
+    "Add the size of set A to the size of set B.",
+    "Elements in both sets were counted twice in that sum.",
+    "So fix this by subtracting the size of the combined union.",
+    "The corrected total counts each element exactly once."
+   ],
+   "wrong": 2,
+   "explain": "The double-counted elements are those in the intersection, so the correction is to subtract the size of the intersection, not the union.",
+   "cites": [
+    2
+   ]
+  }
+ ]
+}

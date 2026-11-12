@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "Michaelis–Menten kinetics is the model often assumed for enzyme reactions that involve a single substrate.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "At low substrate concentration the rate rises in step with it, but at high concentration it levels off toward a limiting rate called Vₘₐₓ.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "text": "Kₘ is the substrate concentration at which the rate is half of Vₘₐₓ, and the same model also describes things like protein–protein interaction.",
+   "cites": [
+    1,
+    35,
+    22
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Vₘₐₓ",
+   "value": "Limiting rate when all enzyme is bound to substrate",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "label": "Kₘ meaning",
+   "value": "Substrate concentration giving half the maximum rate",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "k_cat name",
+   "value": "Turnover number, limiting conversions per enzyme per unit time",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Equation origin",
+   "value": "It originated with Henri, not Michaelis and Menten",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Kₘ and enzyme amount",
+   "value": "Not affected by enzyme concentration or purity",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cook adds a tiny pinch of substrate to plenty of enzyme, then doubles the pinch. What happens to the reaction rate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same, since the enzyme is already maxed out"
+    },
+    {
+     "id": "b",
+     "label": "It falls to half, as the enzyme gets crowded"
+    },
+    {
+     "id": "c",
+     "label": "It roughly doubles, rising in step with the substrate"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero, as the substrate swamps the enzyme"
+    }
+   ],
+   "answer": "c",
+   "explain": "At low substrate concentration the rate varies linearly with substrate concentration.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "At very high substrate levels, adding even more barely changes the rate. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Almost every enzyme molecule is already bound to substrate"
+    },
+    {
+     "id": "b",
+     "label": "The substrate has run out of energy"
+    },
+    {
+     "id": "c",
+     "label": "The enzyme concentration drops as substrate rises"
+    },
+    {
+     "id": "d",
+     "label": "The Kₘ shifts to match the substrate"
+    }
+   ],
+   "answer": "a",
+   "explain": "At high substrate the rate approaches a limit at which all enzyme molecules are bound to substrate, so the enzyme is saturated.",
+   "cites": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "Two labs measure Kₘ for the same enzyme and substrate at the same temperature and pH, but one uses twice as much enzyme. What do they expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Twice the Kₘ in the richer lab"
+    },
+    {
+     "id": "b",
+     "label": "Half the Kₘ in the richer lab"
+    },
+    {
+     "id": "c",
+     "label": "No Kₘ, since more enzyme hides it"
+    },
+    {
+     "id": "d",
+     "label": "The same Kₘ in both labs"
+    }
+   ],
+   "answer": "d",
+   "explain": "Kₘ is not affected by the concentration of an enzyme; it depends on the enzyme, the substrate, and conditions like temperature and pH.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "A lab doubles the amount of enzyme in a reaction with plenty of substrate. What happens to the limiting rate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It halves, since the enzyme gets crowded"
+    },
+    {
+     "id": "b",
+     "label": "It doubles, since the limit scales with enzyme"
+    },
+    {
+     "id": "c",
+     "label": "It stays put, since only Kₘ matters"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero once saturated"
+    }
+   ],
+   "answer": "b",
+   "explain": "The limiting rate Vₘₐₓ equals k_cat times the enzyme concentration, so it scales with the amount of enzyme.",
+   "cites": [
+    14,
+    17
+   ]
+  },
+  {
+   "prompt": "Henri first derived the equation but never applied it. What did Michaelis and Menten realise that made the work more productive?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That initial rates are simpler to analyse than a whole time course"
+    },
+    {
+     "id": "b",
+     "label": "That substrate concentration must always be plotted on a log scale"
+    },
+    {
+     "id": "c",
+     "label": "That Kₘ is always exactly equal to the dissociation constant"
+    },
+    {
+     "id": "d",
+     "label": "That only reactions with a single substrate can ever be measured"
+    }
+   ],
+   "answer": "a",
+   "explain": "Michaelis and Menten realized that analysing initial rates is simpler and more productive than following the whole time course, as Henri had tried.",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "prompt": "A lab wants one number for how efficiently an enzyme turns a substrate into product. Which should they use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "k_cat divided by Kₘ"
+    },
+    {
+     "id": "b",
+     "label": "Kₘ divided by k_cat"
+    },
+    {
+     "id": "c",
+     "label": "Vₘₐₓ on its own"
+    },
+    {
+     "id": "d",
+     "label": "Kₘ on its own"
+    }
+   ],
+   "answer": "a",
+   "explain": "The specificity constant k_cat/Kₘ, also called catalytic efficiency, measures how efficiently an enzyme converts a substrate into product.",
+   "cites": [
+    27,
+    28
+   ]
+  }
+ ]
+}

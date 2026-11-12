@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer",
+ "name": "Enantiomer",
+ "summary": [
+  {
+   "text": "An enantiomer is one of a pair of molecular entities that are mirror images of each other and cannot be superposed.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Like right and left hands, one cannot be laid onto the other, and no re-orientation or conformational change turns one into the other.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Chiral structures rotate plane-polarized light, but a mixture of equal amounts of both enantiomers does not rotate it.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Optical isomer, antipode, or optical antipode",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "In proteins",
+   "value": "Only the L-isomer of alanine is incorporated",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Equal mixture",
+   "value": "A racemic mixture, which does not rotate light",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Citalopram versus escitalopram",
+   "value": "The pure enantiomer is typically dosed at half",
+   "cites": [
+    35,
+    36
+   ]
+  },
+  {
+   "label": "Propoxyphene pair",
+   "value": "One partner is an analgesic, the other an antitussive",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend says you can match a molecule to its mirror image just by turning it around. Why is that wrong for enantiomers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Turning is only allowed in two dimensions"
+    },
+    {
+     "id": "b",
+     "label": "No re-orientation or change of shape converts one into the other"
+    },
+    {
+     "id": "c",
+     "label": "Mirror images always weigh differently"
+    },
+    {
+     "id": "d",
+     "label": "The two molecules have different formulas"
+    }
+   ],
+   "answer": "b",
+   "explain": "Enantiomers are related by chirality, and no re-orientation or conformational change converts one into its enantiomer.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer:q1"
+  },
+  {
+   "prompt": "A solution holds exactly equal amounts of a chiral molecule's two enantiomers. What does it do to plane-polarized light?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rotates the light clockwise"
+    },
+    {
+     "id": "b",
+     "label": "It rotates the light counterclockwise"
+    },
+    {
+     "id": "c",
+     "label": "It rotates the light twice as far"
+    },
+    {
+     "id": "d",
+     "label": "It does not rotate the light"
+    }
+   ],
+   "answer": "d",
+   "explain": "An equal mixture of the enantiomers is a racemic mixture, which does not rotate light.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer:q2"
+  },
+  {
+   "prompt": "A sample turns the plane of polarized light clockwise. How is it described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dextrorotatory, written (+)"
+    },
+    {
+     "id": "b",
+     "label": "Levorotatory, written (+)"
+    },
+    {
+     "id": "c",
+     "label": "Dextrorotatory, written (−)"
+    },
+    {
+     "id": "d",
+     "label": "Levorotatory, written (−)"
+    }
+   ],
+   "answer": "a",
+   "explain": "Clockwise rotation is dextrorotatory, which can also be written (+).",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer:q3"
+  },
+  {
+   "prompt": "A drug company replaces a 1:1 mixture of two forms with just one form of the molecule. What is the practical aim?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To make the drug cheaper to produce"
+    },
+    {
+     "id": "b",
+     "label": "To make it rotate more light"
+    },
+    {
+     "id": "c",
+     "label": "To get improved therapeutic efficacy"
+    },
+    {
+     "id": "d",
+     "label": "To make the two forms identical"
+    }
+   ],
+   "answer": "c",
+   "explain": "Compositions with only one enantiomer have improved therapeutic efficacy, which is why a switch from a racemic drug is made.",
+   "cites": [
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer:q4"
+  },
+  {
+   "prompt": "Alanine can exist as two mirror-image forms. Which does the body build into proteins?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the L-isomer"
+    },
+    {
+     "id": "b",
+     "label": "Equal amounts of both"
+    },
+    {
+     "id": "c",
+     "label": "Only the D-isomer"
+    },
+    {
+     "id": "d",
+     "label": "Neither one"
+    }
+   ],
+   "answer": "a",
+   "explain": "In nature most chiral compounds are present as one enantiomer; only the L-isomer of alanine goes into proteins.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer:q5"
+  },
+  {
+   "prompt": "Meso tartaric acid has two asymmetric carbon atoms yet shows no enantiomerism. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its carbon atoms are not asymmetric"
+    },
+    {
+     "id": "b",
+     "label": "It rotates light twice as much as other forms"
+    },
+    {
+     "id": "c",
+     "label": "It contains only one kind of atom"
+    },
+    {
+     "id": "d",
+     "label": "It has a mirror symmetry plane"
+    }
+   ],
+   "answer": "d",
+   "explain": "A mirror symmetry plane means it does not exhibit enantiomerism despite its two asymmetric carbons.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.enantiomer:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Milchs%C3%A4ure_Enantiomerenpaar.svg/960px-Milchs%C3%A4ure_Enantiomerenpaar.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Enantiomer",
+  "credit": "NEUROtiker",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Milchs%C3%A4ure_Enantiomerenpaar.svg"
+ },
+ "source": {
+  "title": "Enantiomer",
+  "url": "https://en.wikipedia.org/wiki/Enantiomer",
+  "revision": 1382234440
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Mirror-image molecules",
+    "text": "An enantiomer, also called an optical isomer or optical antipode, is one of a pair of molecules that are mirror images of each other but cannot be superposed, meaning laid one on the other so they match. Your hands are the classic picture: you cannot fit a left hand onto a right hand without first turning it into its mirror image. No amount of turning the whole molecule around, or changing its shape by flexing, converts one enantiomer into the other. The difference lies purely in chirality and in fixed three-dimensional relationships.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Turning light",
+    "text": "Chiral structures rotate plane-polarized light. A dextrorotatory molecule, marked (+), turns the plane clockwise, and a levorotatory one, marked (−), turns it counterclockwise. A racemic mixture, also called a racemate, holds equal amounts of both enantiomers and does not rotate light. In nature most chiral compounds occur as only one enantiomer: proteins, for example, take in only the L form of the amino acid alanine.",
+    "cites": [
+     4,
+     5,
+     8,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Three ways to name them",
+    "text": "Chemists have three common ways to say which enantiomer they mean. The R/S system follows the molecule's geometry around a chiral center, using the Cahn–Ingold–Prelog priority rules, which give the highest priority to the group or atom with the largest atomic number. The (+)/(−) system, once written with d- and l-, follows optical rotation, and the D/L system relates the molecule to the enantiomers of glyceraldehyde. The letters trace back to Latin: laevus and sinister mean left, while dexter means right, as does rectus in the sense of correct.",
+    "cites": [
+     9,
+     10,
+     11,
+     15,
+     17
+    ]
+   },
+   {
+    "heading": "One form or both in a drug",
+    "text": "An enantiopure compound contains only one of the two enantiomers, and such compositions give better therapeutic effect. The antidepressant citalopram is a racemate, a 1:1 mixture of its (S) and (R) forms, while escitalopram is the pure (S) form. Typical doses of escitalopram are about half those of citalopram. Swapping a racemic drug for an enantiopure one is called a chiral switch.",
+    "cites": [
+     34,
+     35,
+     36,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Twins with different jobs",
+    "text": "In many cases the two enantiomers have distinct effects. Eli Lilly sold the two forms of propoxyphene separately: dextropropoxyphene as an analgesic called Darvon, and levopropoxyphene as an antitussive called Novrad. Even the two trade names mirror each other. The herbicide mecoprop is a racemic mixture, but the weed-killing activity belongs to its (R)-(+) enantiomer.",
+    "cites": [
+     33,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-5-1",
+   "kind": "book",
+   "title": "5.1 Enantiomers and the Tetrahedral Carbon",
+   "by": "OpenStax (McMurry, Organic Chemistry)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-1-enantiomers-and-the-tetrahedral-carbon",
+   "note": "A free textbook section showing how a carbon with four different groups gives two mirror-image molecules.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-5-8",
+   "kind": "book",
+   "title": "5.8 Racemic Mixtures and the Resolution of Enantiomers",
+   "by": "OpenStax (McMurry, Organic Chemistry)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-8-racemic-mixtures-and-the-resolution-of-enantiomers",
+   "note": "A free textbook section on racemates and how chemists separate a pair of enantiomers.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-ochem-9",
+   "kind": "video",
+   "title": "More Stereochemical Relationships: Crash Course Organic Chemistry #9",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ofFEFywbJKA",
+   "note": "A Crash Course episode on telling enantiomers apart with polarimetry and how they are separated."
+  }
+ ]
+}

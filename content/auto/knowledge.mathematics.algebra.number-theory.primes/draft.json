@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Primes are central in number theory because every natural number greater than 1 is either prime or a product of primes, unique up to their order.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "There are infinitely many primes, no known simple formula separates them from composites, and public-key cryptography relies on how hard it is to factor large numbers.",
+   "cites": [
+    10,
+    11,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Infinitely many",
+   "value": "Demonstrated by Euclid around 300 BC",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Divisor test",
+   "value": "A prime has exactly two positive divisors: 1 and itself",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "label": "The only even prime",
+   "value": "2; every other prime is odd",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "label": "Unsolved questions",
+   "value": "Goldbach's conjecture and the twin prime conjecture",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend says 1 should count as prime because no smaller numbers multiply to make it. Why is 1 left out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is even, and primes must be odd"
+    },
+    {
+     "id": "b",
+     "label": "It is too small to be written as a product"
+    },
+    {
+     "id": "c",
+     "label": "A prime has exactly two divisors, and 1 has only one"
+    },
+    {
+     "id": "d",
+     "label": "It is a multiple of every other number"
+    }
+   ],
+   "answer": "c",
+   "explain": "Primes are the numbers with exactly two positive divisors, 1 and themselves, and 1 has only one divisor.",
+   "cites": [
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "prompt": "A number larger than 5 ends in the digit 5. Could it be prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any odd number could be"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as it is over 100"
+    },
+    {
+     "id": "c",
+     "label": "Only if its other digits are all odd"
+    },
+    {
+     "id": "d",
+     "label": "No, it is divisible by 5"
+    }
+   ],
+   "answer": "d",
+   "explain": "Primes larger than 5 end in 1, 3, 7 or 9; numbers ending in 0 or 5 are divisible by 5, so they are composite.",
+   "cites": [
+    32,
+    33
+   ]
+  },
+  {
+   "prompt": "Why can a large even number such as 1,000 never be prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the product of 2 and a smaller number"
+    },
+    {
+     "id": "b",
+     "label": "Primes stop appearing past a few hundred"
+    },
+    {
+     "id": "c",
+     "label": "It has far too many digits to be prime"
+    },
+    {
+     "id": "d",
+     "label": "It is always divisible by 3 as well"
+    }
+   ],
+   "answer": "a",
+   "explain": "Any even number above 2 can be written as 2 × n/2, so it is a product of smaller numbers.",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "prompt": "You can arrange a pile of dots into a rectangle at least two dots wide and two high. What does that tell you about the count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a prime number"
+    },
+    {
+     "id": "b",
+     "label": "It is a composite number"
+    },
+    {
+     "id": "c",
+     "label": "It is exactly 1"
+    },
+    {
+     "id": "d",
+     "label": "It must be even"
+    }
+   ],
+   "answer": "b",
+   "explain": "A number is prime only if its dots cannot be arranged in such a grid, so a count that can be is composite.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "Why do number theorists treat primes as the building blocks of whole numbers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every even number is a sum of two primes"
+    },
+    {
+     "id": "b",
+     "label": "Primes appear at perfectly regular intervals"
+    },
+    {
+     "id": "c",
+     "label": "Every number over 1 is a prime or a product of primes, in one way"
+    },
+    {
+     "id": "d",
+     "label": "Primes are the only numbers with a divisor"
+    }
+   ],
+   "answer": "c",
+   "explain": "The fundamental theorem of arithmetic says each natural number above 1 is prime or factors into primes, uniquely up to order. The sum-of-two-primes claim is Goldbach's conjecture, still unsolved.",
+   "cites": [
+    5,
+    15
+   ]
+  },
+  {
+   "prompt": "As numbers get larger, how does the chance that a randomly chosen one is prime change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same at every size"
+    },
+    {
+     "id": "b",
+     "label": "It rises, since bigger numbers have more room"
+    },
+    {
+     "id": "c",
+     "label": "It falls, tied inversely to the number of digits"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero beyond a certain size"
+    }
+   ],
+   "answer": "c",
+   "explain": "The prime number theorem says the chance for a large number is inversely proportional to its number of digits, so primes thin out.",
+   "cites": [
+    13
+   ]
+  }
+ ]
+}

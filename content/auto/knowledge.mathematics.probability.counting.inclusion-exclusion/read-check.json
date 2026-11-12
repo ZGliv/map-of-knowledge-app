@@ -1,0 +1,30 @@
+{
+ "readHash": "62bac2e1d21a8b57af26ac1dc50ffb6946c7ccdc",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Counting a union [14], double count corrected by subtracting intersection [1],[2], name from over-inclusion then exclusion [6]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Alternating add/subtract for at least 2,3,4 sets [14]; termination and 4-sets/5-sets example [15]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Probabilities replace counts [10], properties/none variant via complementary form [16],[17], sieve method/sieve formula [9]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "First m sums over/underestimate by parity [18], alternating bounds per Bonferroni inequalities [30], useful when full formula cumbersome [31]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Deck setup and question [19]-[21], count depends only on p [23], derangement definition [26], about e^-1 or 37% [27]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Derangement counting application [43], [n!/e] nearest integer [45], de Moivre 1718 and da Silva 1854 [7], Da Silva or Sylvester name [8]."
+  }
+ }
+}

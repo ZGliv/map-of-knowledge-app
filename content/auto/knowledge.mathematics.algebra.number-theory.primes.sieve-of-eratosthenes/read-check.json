@@ -1,0 +1,34 @@
+{
+ "readHash": "cfe110296b284063226d1f4c8babc02111c2ec7c",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Ancient algorithm, prime definition, marking multiples from 2, unmarked are primes in 1,2,5,9"
+  },
+  "r1": {
+   "supported": true,
+   "why": "Step-by-step list, mark 2p,3p.., next unmarked p, stop, why p is prime all in 10-16"
+  },
+  "r2": {
+   "supported": true,
+   "why": "Constant-step multiples, only additions, key distinction from trial division, 15 marked twice, primes for free in 3,4,17,18,43"
+  },
+  "r3": {
+   "supported": true,
+   "why": "Start at p squared, stop when p squared > n, odd-only with 2p steps, in original algorithm: 19-22"
+  },
+  "r4": {
+   "supported": true,
+   "why": "Nicomachus 2nd c CE, Eratosthenes 3rd c BCE, efficient for small primes, arithmetic progressions, benchmark in 6,7,8,45"
+  },
+  "r5": {
+   "supported": true,
+   "why": "O(n log log n), memory and cache issues, segmented sieve steps, O(sqrt n) space with same time in 28-37"
+  },
+  "r6": {
+   "supported": true,
+   "why": "Trial division confusion, generates composites directly, worse complexity, Turner 1975 sub-optimal in 40-44"
+  }
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235",
+ "name": "Uranium-235",
+ "summary": [
+  {
+   "text": "Uranium-235 is an isotope making up about 0.72% of natural uranium and, unlike the more common uranium-238, it is fissile.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Fissile means it can sustain a nuclear chain reaction, and its fission powers most nuclear reactors and nuclear weapons.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Making fuel or weapons often needs uranium enrichment, a process that raises the proportion of uranium-235 in natural uranium.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Natural share",
+   "value": "About 0.72% of natural uranium",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Half-life",
+   "value": "704 million years",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Discovered",
+   "value": "1935, by Arthur Jeffrey Dempster",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Neutrons per fission",
+   "value": "An average of 2.43, most often two or three",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Weapons grade",
+   "value": "85% or more uranium-235",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Natural uranium is mostly uranium-238, but uranium-235 matters most for energy. What can it do that uranium-238 cannot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Give off no radiation at all"
+    },
+    {
+     "id": "b",
+     "label": "Sustain a nuclear chain reaction"
+    },
+    {
+     "id": "c",
+     "label": "Dissolve in ordinary water"
+    },
+    {
+     "id": "d",
+     "label": "Exist in nature as a free element"
+    }
+   ],
+   "answer": "b",
+   "explain": "Unlike the predominant isotope uranium-238, uranium-235 is fissile, meaning it can sustain a nuclear chain reaction.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235:q1"
+  },
+  {
+   "prompt": "A uranium-235 nucleus splits and releases two or three neutrons. What has to happen for the reaction to keep itself going?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All the neutrons must escape the fuel"
+    },
+    {
+     "id": "b",
+     "label": "Every neutron must split a new nucleus"
+    },
+    {
+     "id": "c",
+     "label": "The fuel must be cooled to near zero"
+    },
+    {
+     "id": "d",
+     "label": "At least one neutron must hit another nucleus and split it"
+    }
+   ],
+   "answer": "d",
+   "explain": "If at least one neutron from a fission strikes another nucleus and causes it to fission, the chain reaction continues.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235:q2"
+  },
+  {
+   "prompt": "Operators of a reactor want to change its power output. How do they adjust it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Move neutron-absorbing rods in or out of the core"
+    },
+    {
+     "id": "b",
+     "label": "Add more uranium-238 to the fuel"
+    },
+    {
+     "id": "c",
+     "label": "Change the half-life of the fuel"
+    },
+    {
+     "id": "d",
+     "label": "Cool the fuel below critical mass"
+    }
+   ],
+   "answer": "a",
+   "explain": "Power output is adjusted by the location of control rods containing elements that strongly absorb neutrons, such as boron, cadmium or hafnium.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235:q3"
+  },
+  {
+   "prompt": "A reactor uses fuel with only a little uranium-235 and still keeps a chain reaction going. What makes that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Speeding the neutrons up so they hit harder"
+    },
+    {
+     "id": "b",
+     "label": "Cooling the uranium until it turns fissile"
+    },
+    {
+     "id": "c",
+     "label": "Slowing the neutrons, since slow ones split nuclei more readily"
+    },
+    {
+     "id": "d",
+     "label": "Adding uranium-238 to absorb stray neutrons"
+    }
+   ],
+   "answer": "c",
+   "explain": "A critical chain reaction can be achieved at low concentrations if fission neutrons are moderated to lower their speed, since fission is more probable with slow neutrons.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235:q4"
+  },
+  {
+   "prompt": "Some reactors run on natural uranium, but light water reactors cannot. What forces them to use enriched fuel?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Light water reacts chemically with uranium-238"
+    },
+    {
+     "id": "b",
+     "label": "Light water absorbs neutrons more strongly"
+    },
+    {
+     "id": "c",
+     "label": "Light water slows fission to nothing"
+    },
+    {
+     "id": "d",
+     "label": "Light water makes the fuel too hot"
+    }
+   ],
+   "answer": "b",
+   "explain": "Light water reactors must use low enriched uranium because of the higher neutron absorption of light water.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235:q5"
+  },
+  {
+   "prompt": "Uranium-235 declines relative to uranium-238 over billions of years. What can scientists do with how that ratio started and where it is now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Measure how much fuel remains underground"
+    },
+    {
+     "id": "b",
+     "label": "Work out how quickly a bomb would fizzle"
+    },
+    {
+     "id": "c",
+     "label": "Tell which ores contain gold"
+    },
+    {
+     "id": "d",
+     "label": "Estimate the time since modern uranium nuclei were formed"
+    }
+   ],
+   "answer": "d",
+   "explain": "Knowledge of the production and present ratios of uranium-235 to uranium-238 allows radiometric dating of the time since modern uranium nuclei were formed.",
+   "cites": [
+    28,
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/HEUraniumC.jpg/960px-HEUraniumC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Uranium-235",
+  "credit": "Unspecified",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:HEUraniumC.jpg"
+ },
+ "source": {
+  "title": "Uranium-235",
+  "url": "https://en.wikipedia.org/wiki/Uranium-235",
+  "revision": 1382290886
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The fissile uranium",
+    "text": "Uranium-235 makes up about 0.72% of natural uranium. Unlike uranium-238, the main isotope, it is fissile, meaning it can sustain a nuclear chain reaction. It is the only fissile isotope found in nature as a primordial nuclide, and Arthur Jeffrey Dempster discovered it in 1935. Its half-life is 704 million years.",
+    "cites": [
+     1,
+     2,
+     3,
+     7
+    ]
+   },
+   {
+    "heading": "How the chain reaction works",
+    "text": "Each time a uranium-235 nucleus splits, it releases an average of 2.43 neutrons, most often two or three. If at least one of them hits another nucleus and makes it split, the chain reaction keeps going. A reaction that sustains itself is called critical, and the amount of uranium-235 needed for that is the critical mass. Slowing the neutrons down, called moderating them, makes fission more likely, so a chain reaction can run even at low concentrations of uranium-235.",
+    "cites": [
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Slow and fast neutrons",
+    "text": "For slow thermal neutrons, the fission cross section of uranium-235 is about 584.3 barns, while for fast neutrons it is around 1 barn. Most neutrons it absorbs make it split. A minority, about 15%, turn it into uranium-236 instead.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Fuel for reactors",
+    "text": "The energy from splitting uranium-235 powers most nuclear reactors and nuclear weapons. Enrichment raises the share of uranium-235 in natural uranium, which is mostly uranium-238. Heavy water reactors and some graphite moderated reactors can run on natural uranium, but light water reactors need low enriched uranium because light water absorbs more neutrons. Highly enriched uranium is sometimes used in the reactors of nuclear submarines and in research reactors. A reactor's power is adjusted by moving control rods that hold strong neutron absorbers such as boron, cadmium or hafnium.",
+    "cites": [
+     4,
+     5,
+     6,
+     11,
+     12,
+     19
+    ]
+   },
+   {
+    "heading": "Weapons",
+    "text": "In a nuclear bomb the reaction is uncontrolled, and the large burst of energy makes a nuclear explosion. The Little Boy bomb dropped on Hiroshima on August 6, 1945, used highly enriched uranium with a large tamper, a layer of dense material around the core that delays its expansion and keeps it supercritical longer. Without a tamper, the nominal critical mass is 56 kilograms, which would be a sphere 17.32 centimetres across. Weapons grade uranium is 85% or more uranium-235, though 20% is enough for a crude, inefficient weapon.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "A clock for the galaxy",
+    "text": "The ratio of uranium-235 to uranium-238 can also be used for dating, measuring the time since these nuclei formed in stars. The 1957 B2FH paper explained the r-process that makes both isotopes, and its authors predicted that r-process events add them in a ²³⁵U/²³⁸U ratio of 1.64. Over billions of years that ratio falls to today's value of 0.0072. In one scenario, a steady series of supernovae over the Milky Way's lifetime, they estimated the galaxy's age at around 10 billion years; the modern value is 13.61 billion years.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     34,
+     35
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-chem-21-4",
+   "kind": "book",
+   "title": "21.4 Transmutation and Nuclear Energy",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/21-4-transmutation-and-nuclear-energy",
+   "note": "A free textbook section on fission, nuclear fuels, moderators such as heavy water, reactors and fusion.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up3-10-5",
+   "kind": "book",
+   "title": "10.5 Fission",
+   "by": "OpenStax (Ling, Sanny and Moebs)",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/10-5-fission",
+   "note": "A physics textbook section on uranium-235 fission, chain reactions, critical mass, reactors and bombs.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure",
+ "name": "Crystal structure",
+ "summary": [
+  {
+   "text": "Crystal structure is the ordered arrangement of atoms, ions or molecules in a crystalline material.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The pattern repeats in all three directions of space, and the smallest repeating group of particles, the unit cell, reflects the symmetry of the whole crystal.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Structure and symmetry play a critical role in physical properties such as cleavage, electronic band structure and optical transparency.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit cell",
+   "value": "The smallest repeating unit with the full symmetry of the structure",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Lattice parameters",
+   "value": "Three edge lengths and three angles describe a unit cell",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Space groups",
+   "value": "230 describe every symmetric arrangement of particles in 3D space",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Defining property",
+   "value": "A crystal's inherent symmetry",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A crystal may hold billions of atoms. How can a scientist describe all of it by looking at one small group of particles?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The group is an average of every particle, so the crystal needs no pattern"
+    },
+    {
+     "id": "b",
+     "label": "The whole crystal is built by repeating that group, which carries the crystal's symmetry"
+    },
+    {
+     "id": "c",
+     "label": "The group is the only part that matters, and the rest is filler"
+    },
+    {
+     "id": "d",
+     "label": "The crystal's atoms keep changing places, so only the group stays put"
+    }
+   ],
+   "answer": "b",
+   "explain": "The unit cell completely reflects the symmetry and structure of the entire crystal, which is built by repeating it along its principal axes.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure:q1"
+  },
+  {
+   "prompt": "A mineral tends to split cleanly along certain flat directions. Which feature of its structure is behind that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Planes where its particles are packed more densely"
+    },
+    {
+     "id": "b",
+     "label": "Planes where its particles are far apart"
+    },
+    {
+     "id": "c",
+     "label": "Planes that hold the crystal's coloured impurities"
+    },
+    {
+     "id": "d",
+     "label": "Planes along which the crystal is always perfectly square"
+    }
+   ],
+   "answer": "a",
+   "explain": "Cleavage typically occurs preferentially parallel to higher density planes.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure:q2"
+  },
+  {
+   "prompt": "A scientist wants to describe the shape of one unit cell in a crystal. How many measurements does she need?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two: one length and one angle"
+    },
+    {
+     "id": "b",
+     "label": "Three: the lengths of the three edges only"
+    },
+    {
+     "id": "c",
+     "label": "Six: three edge lengths and three angles"
+    },
+    {
+     "id": "d",
+     "label": "Nine: one for each particle in the cell"
+    }
+   ],
+   "answer": "c",
+   "explain": "The unit cell is a parallelepiped described by six lattice parameters: the edge lengths (a, b, c) and the angles between them.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure:q3"
+  },
+  {
+   "prompt": "A crystallographer rotates a lattice in a particular way, and it looks the same as before. What is this showing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That the lattice has no ordered structure"
+    },
+    {
+     "id": "b",
+     "label": "That the lattice is a liquid in disguise"
+    },
+    {
+     "id": "c",
+     "label": "That the lattice is polluted with impurities"
+    },
+    {
+     "id": "d",
+     "label": "The inherent symmetry that defines a crystal"
+    }
+   ],
+   "answer": "d",
+   "explain": "The defining property of a crystal is its inherent symmetry: certain symmetry operations leave the lattice unchanged.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure:q4"
+  },
+  {
+   "prompt": "A metal crystal bends and keeps its new shape. Along which direction do its particles shift most easily?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A sparse direction, which has the most room"
+    },
+    {
+     "id": "b",
+     "label": "A dense direction, which needs less distortion of the lattice"
+    },
+    {
+     "id": "c",
+     "label": "A random direction, since every direction needs the same effort"
+    },
+    {
+     "id": "d",
+     "label": "Directions outside the crystal's symmetry"
+    }
+   ],
+   "answer": "b",
+   "explain": "Dislocation glide occurs preferentially along dense directions, because shifting a node in a denser direction requires a lesser distortion of the lattice.",
+   "cites": [
+    34,
+    35,
+    36
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure:q5"
+  },
+  {
+   "prompt": "Two faces of the same crystal react with a gas at different rates. What about the faces could explain this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They have different densities of surface particles"
+    },
+    {
+     "id": "b",
+     "label": "They are different colours"
+    },
+    {
+     "id": "c",
+     "label": "One is deeper inside the crystal"
+    },
+    {
+     "id": "d",
+     "label": "They contain different numbers of unit cells"
+    }
+   ],
+   "answer": "a",
+   "explain": "Reactions occur at or near surface atoms or molecules, so they are sensitive to the density of nodes.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.crystal-structure:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sodium-chloride-3D-ionic.png/960px-Sodium-chloride-3D-ionic.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Crystal structure",
+  "credit": "Benjah-bmm27 (talk · contribs)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Sodium-chloride-3D-ionic.png"
+ },
+ "source": {
+  "title": "Crystal structure",
+  "url": "https://en.wikipedia.org/wiki/Crystal_structure",
+  "revision": 1382260927
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Order you can describe",
+    "text": "A crystal structure is a description of how the atoms, ions or molecules in a crystalline material are laid out in an orderly way. The particles, by their own nature, settle into symmetric patterns that repeat along the main directions of three-dimensional space. Symmetry is the defining property of a crystal: certain symmetry operations leave the lattice looking exactly as it was.",
+    "cites": [
+     1,
+     2,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "The unit cell",
+    "text": "The unit cell is the smallest group of particles that makes up the repeating pattern while still carrying the full symmetry of the crystal. Shifting copies of it over and over along its main axes builds the whole crystal, a little like tiles covering a floor. The shifts used to do this mark out points called the nodes of the Bravais lattice.",
+    "cites": [
+     3,
+     4,
+     5,
+     11
+    ]
+   },
+   {
+    "heading": "Six numbers for one box",
+    "text": "The unit cell has a box-like shape called a parallelepiped. It is pinned down by six lattice parameters: the lengths of its three edges, a, b and c, and the three angles between them, α, β and γ. Particles inside the cell are located by fractional coordinates along its edges, measured from a chosen reference point. In practice only a smallest asymmetric subset, called the asymmetric unit, needs to be listed, since the symmetry operations of the cell produce all the other particles.",
+    "cites": [
+     6,
+     12,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Space groups and axes",
+    "text": "The full set of symmetry operations of a unit cell is written formally as the crystal's space group. Every possible symmetric arrangement of particles in three-dimensional space can be described by 230 space groups. In monoclinic, trigonal, tetragonal and hexagonal systems, one unique principal axis has higher rotational symmetry than the other two, and the plane at right angles to it is called the basal plane. In triclinic, orthorhombic and cubic systems there is no principal axis, and which axis gets which label is arbitrary.",
+    "cites": [
+     7,
+     8,
+     17,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Naming planes with Miller indices",
+    "text": "Planes and directions in a crystal are named with Miller indices, three numbers written h, k and ℓ. A plane written (hkℓ) crosses the cell axes at a₁/h, a₂/k and a₃/ℓ, or a multiple of these, so the indices scale with the inverses of those crossing points. A zero means the plane never meets that axis. The indices are integers with no common factor, and a negative one is marked with a bar. Angle brackets such as ⟨100⟩ stand for a whole family of directions that symmetry makes equivalent, along with their negatives.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     24,
+     25,
+     41
+    ]
+   },
+   {
+    "heading": "Why the arrangement matters",
+    "text": "Crystal structure and symmetry strongly shape physical properties, including how a crystal splits, its electronic band structure and whether light passes through it. Cleavage tends to run parallel to planes of higher density, and dislocation glide, part of plastic deformation, prefers such planes too. Adsorption and chemical reactions happen at or near surface particles, so they depend on how densely the nodes are packed.",
+    "cites": [
+     9,
+     28,
+     29,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-10-6",
+   "kind": "book",
+   "title": "10.6 Lattice Structures in Crystalline Solids",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids",
+   "note": "A free college textbook section on unit cells, cubic lattices and how X-ray diffraction reveals crystal structures.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-ionic-covalent-solids",
+   "kind": "book",
+   "title": "Introduction to Inorganic Chemistry/Ionic and Covalent Solids - Structures",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry/Ionic_and_Covalent_Solids_-_Structures",
+   "note": "An open textbook chapter walking through real crystal structures such as rock salt, fluorite and perovskite, with diagrams.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "iot-crystallography",
+   "kind": "documentary",
+   "title": "Crystallography",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b01p0s9s",
+   "minutes": 42,
+   "note": "A radio discussion on how X-ray crystallography, pioneered by the Braggs, revealed the atomic structure of crystals."
+  }
+ ]
+}

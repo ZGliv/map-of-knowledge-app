@@ -1,0 +1,548 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.cryptography",
+ "name": "Cryptography",
+ "summary": [
+  {
+   "text": "Cryptography is the practice and study of techniques for secure communication when adversaries are present.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Classic cryptography turns readable plaintext into unintelligible ciphertext, which can be read only by reversing the process with the right key.",
+   "cites": [
+    6,
+    24,
+    25
+   ]
+  },
+  {
+   "text": "Modern designs rest on mathematical problems that are hard to break in practice, which makes them computationally secure.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "Greek 'crypton' (hidden) and 'grapho' (to write)",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Cast of characters",
+   "value": "Alice sends, Bob receives, Eve eavesdrops",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Core concepts",
+   "value": "Confidentiality, integrity, authentication and non-repudiation",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Everyday uses",
+   "value": "Electronic commerce, payment cards, digital currencies, passwords",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Unbreakable but awkward",
+   "value": "The one-time pad cannot be broken, yet is hard to use",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two friends use a scrambling method that never changes and has no secret setting. Their rival learns which method they use. What follows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rival still needs a lucky guess"
+    },
+    {
+     "id": "b",
+     "label": "The method is stronger the more widely it is known"
+    },
+    {
+     "id": "c",
+     "label": "The messages can trivially be broken"
+    },
+    {
+     "id": "d",
+     "label": "Only the sender's messages are at risk"
+    }
+   ],
+   "answer": "c",
+   "explain": "Ciphers without variable keys can be trivially broken with only knowledge of the cipher used, so keys matter in practice as well as in theory.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography:q1"
+  },
+  {
+   "prompt": "A spy receives a page of nonsense letters and runs the process backward to read the message. What are the terms for the page and the process?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The page is plaintext and the process is encryption"
+    },
+    {
+     "id": "b",
+     "label": "The page is a key and the process is a cipher"
+    },
+    {
+     "id": "c",
+     "label": "The page is ciphertext and the process is encryption"
+    },
+    {
+     "id": "d",
+     "label": "The page is ciphertext and the process is decryption"
+    }
+   ],
+   "answer": "d",
+   "explain": "Encryption turns plaintext into unintelligible ciphertext, and decryption is the reverse, moving back from ciphertext to plaintext.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography:q2"
+  },
+  {
+   "prompt": "A scheme could in theory be cracked, but doing so would be infeasible in actual practice. How is such a scheme described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Information-theoretically secure"
+    },
+    {
+     "id": "b",
+     "label": "Computationally secure"
+    },
+    {
+     "id": "c",
+     "label": "Insecure"
+    },
+    {
+     "id": "d",
+     "label": "Non-repudiated"
+    }
+   ],
+   "answer": "b",
+   "explain": "A well-designed scheme that is breakable in theory but not in practice is termed computationally secure.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography:q3"
+  },
+  {
+   "prompt": "A scheme exists that cannot be broken even with unlimited computing power. Why doesn't everyone simply use it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is far harder to use in practice than good computationally secure schemes"
+    },
+    {
+     "id": "b",
+     "label": "It is known to break once computers get quick enough"
+    },
+    {
+     "id": "c",
+     "label": "It only protects messages that are written in a single language"
+    },
+    {
+     "id": "d",
+     "label": "It has been made illegal in every country on earth, so nobody may"
+    }
+   ],
+   "answer": "a",
+   "explain": "Information-theoretically secure schemes such as the one-time pad are much more difficult to use in practice than the best theoretically breakable but computationally secure ones.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography:q4"
+  },
+  {
+   "prompt": "A designer says a cryptographic scheme, once built, can be left alone for good. What is the problem with that view?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Schemes only keep working if they are rebuilt every single day"
+    },
+    {
+     "id": "b",
+     "label": "Faster computers and better factoring methods force re-examination"
+    },
+    {
+     "id": "c",
+     "label": "Keys expire after sending a fixed number of messages in total"
+    },
+    {
+     "id": "d",
+     "label": "Governments reset and replace all schemes each year as routine"
+    }
+   ],
+   "answer": "b",
+   "explain": "Theoretical advances, such as improvements in integer factorization algorithms, and faster computing require designs to be continually reevaluated and adapted if necessary.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography:q5"
+  },
+  {
+   "prompt": "Why have many governments classified cryptography as a weapon and limited its use or export?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it can only be run on military computers"
+    },
+    {
+     "id": "b",
+     "label": "Because it is too slow for civilians to use"
+    },
+    {
+     "id": "c",
+     "label": "Because it can serve as a tool for espionage and sedition"
+    },
+    {
+     "id": "d",
+     "label": "Because it cannot be used for commerce"
+    }
+   ],
+   "answer": "c",
+   "explain": "Its potential use as a tool for espionage and sedition led many governments to treat it as a weapon and limit or prohibit its use and export.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/960px-Lorenz-SZ42-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Cryptography",
+  "credit": "Wikimedia Commons",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Lorenz-SZ42-2.jpg"
+ },
+ "source": {
+  "title": "Cryptography",
+  "url": "https://en.wikipedia.org/wiki/Cryptography",
+  "revision": 1384196240
+ },
+ "pack": {
+  "id": "auto-number-theory-cryptography",
+  "title": "Secrets Against Eavesdroppers",
+  "question": "How can a message stay private when someone is listening in?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Number theory",
+   "Cryptography"
+  ],
+  "hue": 53,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/960px-Lorenz-SZ42-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Cryptography",
+    "credit": "Wikimedia Commons · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lorenz-SZ42-2.jpg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Secrets Against Eavesdroppers",
+    "hook": "Alice sends a note to Bob while Eve reads over the wire, and the whole field is about what Alice should do."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-number-theory-cryptography:1",
+    "transfer": false,
+    "prompt": "match each term to its meaning",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Plaintext"
+     },
+     {
+      "id": "l1",
+      "label": "Ciphertext"
+     },
+     {
+      "id": "l2",
+      "label": "Decryption"
+     },
+     {
+      "id": "l3",
+      "label": "Key"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Ordinary readable information"
+     },
+     {
+      "id": "r1",
+      "label": "The unintelligible form produced by encryption"
+     },
+     {
+      "id": "r2",
+      "label": "Reversing the process to get the readable message back"
+     },
+     {
+      "id": "r3",
+      "label": "The secret needed to decrypt the ciphertext"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "A cipher turns plaintext into ciphertext and back again, and the key controls how it operates in each case."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-cryptography:2",
+    "transfer": false,
+    "prompt": "Alice and Bob scramble messages with a method that has no variable key. Eve finds out which method they use. What happens?",
+    "explain": "Ciphers without variable keys can be trivially broken with only knowledge of the cipher used, which is why keys matter.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Eve can trivially break their messages"
+       },
+       {
+        "id": "b",
+        "label": "Eve still has to guess a secret setting",
+        "feedback": "That would be true if the method had a variable key, but here the method itself is the only thing there is to know."
+       },
+       {
+        "id": "c",
+        "label": "Nothing, since Eve does not hold the messages",
+        "feedback": "Eavesdropping is exactly what Eve does, so she does see the scrambled messages."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-number-theory-cryptography:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The one-time pad cannot be broken even with unlimited computing power."
+     },
+     {
+      "id": "b",
+      "text": "So every real system should simply use one-time pads."
+     },
+     {
+      "id": "c",
+      "text": "But such schemes are much more difficult to use in practice than the best computationally secure ones."
+     },
+     {
+      "id": "d",
+      "text": "Modern designs are therefore built around mathematical problems that are hard to break in actual practice."
+     }
+    ],
+    "answer": "b",
+    "explain": "Unbreakable does not mean practical: the one-time pad is much harder to use than computationally secure schemes, which is why modern designs rely on hard problems."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-cryptography:4",
+    "transfer": true,
+    "prompt": "A researcher announces a faster method of factoring large integers, and some schemes depend on factoring being slow. What should designers do?",
+    "explain": "Theoretical advances such as better integer factorization algorithms require designs to be continually reevaluated and, if necessary, adapted.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Reevaluate the designs and adapt them if necessary"
+       },
+       {
+        "id": "b",
+        "label": "Throw away all cryptography for good",
+        "feedback": "This overreacts to one advance, when the point is to reevaluate and adapt."
+       },
+       {
+        "id": "a",
+        "label": "Nothing, since schemes never need to change",
+        "feedback": "This is tempting because a scheme feels finished once built, but designs have to be continually reevaluated."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "Cryptography scrambles a message so that only someone with the secret key can unscramble it, and modern schemes rely on problems too hard to break in practice.",
+    "connections": [
+     {
+      "title": "Public-key cryptography",
+      "place": "Cryptography",
+      "node": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography"
+     },
+     {
+      "title": "RSA (cryptosystem)",
+      "place": "Cryptography",
+      "node": "knowledge.mathematics.algebra.number-theory.cryptography.rsa-cryptosystem"
+     },
+     {
+      "title": "Elliptic-curve cryptography",
+      "place": "Cryptography",
+      "node": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A cipher turns plaintext into ciphertext and back again, and the key controls how it operates in each case.",
+    "source": "Wikipedia sentences 21, 22, 24, 25"
+   },
+   {
+    "claim": "Ciphers without variable keys can be trivially broken with only knowledge of the cipher used, which is why keys matter.",
+    "source": "Wikipedia sentences 27"
+   },
+   {
+    "claim": "Unbreakable does not mean practical: the one-time pad is much harder to use than computationally secure schemes, which is why modern designs rely on hard problems.",
+    "source": "Wikipedia sentences 10, 14"
+   },
+   {
+    "claim": "Theoretical advances such as better integer factorization algorithms require designs to be continually reevaluated and, if necessary, adapted.",
+    "source": "Wikipedia sentences 13"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Keeping secrets from listeners",
+    "text": "Cryptography, also called cryptology, is the study and practice of ways to communicate safely while an adversary is trying to interfere. Put more broadly, it is about building and testing schemes that stop outsiders, or the public at large, from reading private messages. The word itself comes from two Greek parts, one meaning hidden and one meaning to write.",
+    "cites": [
+     1,
+     2,
+     20
+    ]
+   },
+   {
+    "heading": "Plaintext, ciphertext and keys",
+    "text": "For most of its history, cryptography simply meant encryption: turning ordinary readable text, called plaintext, into scrambled nonsense, called ciphertext. Decryption is the same trip in reverse, from ciphertext back to plaintext. A cipher is the pair of procedures that do these two jobs. Each time a cipher is used, its exact behaviour is set by a key, a secret that is needed to turn the ciphertext back into readable text. A cipher without a changeable key is easy to break for anyone who knows which cipher was used.",
+    "cites": [
+     6,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27
+    ]
+   },
+   {
+    "heading": "Alice, Bob and Eve",
+    "text": "Writers in the field give the players stock names: Alice sends the message, Bob is meant to receive it, and Eve is the eavesdropper. The sender shares the way to decode only with the people it is meant for, to shut adversaries out. In everyday talk a code is any secret writing, but here it means swapping a whole word or phrase for a code word, so that wallaby might stand for attack at dawn. A cipher works below that level, changing single letters, syllables or pairs of letters.",
+    "cites": [
+     7,
+     8,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "One shared key, or two keys",
+    "text": "There are two main families of system. In a symmetric system, the only kind known until the 1970s, one secret key both locks and unlocks a message, and the work runs much faster. In an asymmetric system, a public key locks the message and a matching private key unlocks it. Because the public key can be published openly, two parties can start talking securely without first sharing a secret. In practice the asymmetric method is used to swap a secret key, and the conversation then continues with a quicker symmetric method. AES is a widely used, secure symmetric method.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     36
+    ]
+   },
+   {
+    "heading": "Hard to break, not impossible",
+    "text": "Modern cryptography leans on mathematics and computer science. Its methods are built on assumptions that certain problems are very hard to compute, so a well-made system could be broken in theory but not in any practical way. Such systems are called computationally secure. Better methods for factoring whole numbers and faster computers mean these designs must keep being reviewed and adjusted. The one-time pad is different: it provably cannot be broken even with unlimited computing power, but it is much harder to use than the best breakable schemes.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "In daily life and in law",
+    "text": "Cryptography is at work in online shopping, chip payment cards, digital currencies, computer passwords and military messages. Because it can serve spies and rebels, many governments have treated it as a weapon and limited or even banned its use and export. In some places where it is legal, investigators can be allowed by law to force someone to hand over the encryption keys for documents tied to a case.",
+    "cites": [
+     5,
+     15,
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-cryptography",
+   "kind": "book",
+   "title": "7: Introduction to Cryptography - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/07%3A_Introduction_to_Cryptography",
+   "note": "A free textbook chapter on the mathematics of cryptography, from classical ciphers to public-key systems.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "crashcourse-cryptography",
+   "kind": "video",
+   "title": "Cryptography: Crash Course Computer Science #33",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=jhXCTbFnK8o",
+   "note": "A fast-paced video overview of cryptography from ancient ciphers to modern encryption."
+  },
+  {
+   "id": "iot-cryptography",
+   "kind": "documentary",
+   "title": "Cryptography",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/p004y272",
+   "minutes": 45,
+   "note": "A BBC radio discussion programme on cryptography."
+  }
+ ]
+}

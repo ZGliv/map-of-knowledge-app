@@ -1,0 +1,338 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation",
+ "name": "Oxidative phosphorylation",
+ "summary": [
+  {
+   "text": "Oxidative phosphorylation is the metabolic pathway in which cells use enzymes to oxidize nutrients and release chemical energy to produce ATP.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Electrons pass along a chain of protein complexes, and the energy they release is used to move protons across a membrane, storing energy in a gradient.",
+   "cites": [
+    9,
+    11,
+    12
+   ]
+  },
+  {
+   "text": "ATP synthase taps that stored energy as protons flow back across the membrane, working as a rotary mechanical motor that turns ADP into ATP.",
+   "cites": [
+    13,
+    14,
+    15,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Eukaryotic location",
+   "value": "Inside mitochondria",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "ATP synthase",
+   "value": "Described as a rotary mechanical motor",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Main complexes",
+   "value": "Five main protein complexes in mitochondria",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Final electron acceptor",
+   "value": "Oxygen, at the end of the redox series",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Energy yield",
+   "value": "30 to 36 ATP, versus 2 from glycolysis",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Almost all aerobic organisms carry out oxidative phosphorylation. Why is it so widespread?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It runs without any oxygen, so any cell can use it"
+    },
+    {
+     "id": "b",
+     "label": "It is the only pathway that makes NADH"
+    },
+    {
+     "id": "c",
+     "label": "It breaks glucose into pyruvate faster"
+    },
+    {
+     "id": "d",
+     "label": "It releases more energy than fermentation does"
+    }
+   ],
+   "answer": "d",
+   "explain": "The pathway is pervasive because it releases more energy than fermentation.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation:q1"
+  },
+  {
+   "prompt": "Electrons flow along the transport chain in a mitochondrion. What does that flow accomplish directly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It joins phosphate onto ADP at each complex"
+    },
+    {
+     "id": "b",
+     "label": "It moves protons across the inner membrane, storing energy"
+    },
+    {
+     "id": "c",
+     "label": "It splits oxygen to supply more electrons"
+    },
+    {
+     "id": "d",
+     "label": "It rotates cytochrome c to build ATP"
+    }
+   ],
+   "answer": "b",
+   "explain": "The energy transferred by electrons through the chain is used to transport protons across the inner membrane.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation:q2"
+  },
+  {
+   "prompt": "Pressure built up on one side of a membrane is released through ATP synthase, spinning part of it. What flows through to turn it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Protons moving back across the membrane"
+    },
+    {
+     "id": "b",
+     "label": "Oxygen molecules entering the matrix"
+    },
+    {
+     "id": "c",
+     "label": "ADP molecules moving back to the start"
+    },
+    {
+     "id": "d",
+     "label": "Electrons carried by iron atoms"
+    }
+   ],
+   "answer": "a",
+   "explain": "The reaction is driven by proton flow back across the membrane through ATP synthase, which forces rotation of part of the enzyme.",
+   "cites": [
+    13,
+    15
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation:q3"
+  },
+  {
+   "prompt": "In a cell's power plant, energy-releasing reactions and ATP-making reactions are linked. What does the link mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "ATP-making reactions can run alone without help"
+    },
+    {
+     "id": "b",
+     "label": "The two sets happen in separate compartments with no contact"
+    },
+    {
+     "id": "c",
+     "label": "Neither set of reactions can occur without the other"
+    },
+    {
+     "id": "d",
+     "label": "ATP making releases the energy that drives electron flow"
+    }
+   ],
+   "answer": "c",
+   "explain": "The two sets of reactions are coupled, meaning one cannot occur without the other.",
+   "cites": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation:q4"
+  },
+  {
+   "prompt": "Besides ATP, running this pathway also produces something that can damage cells. What is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Excess ADP that clogs the membrane"
+    },
+    {
+     "id": "b",
+     "label": "Reactive oxygen species, such as superoxide"
+    },
+    {
+     "id": "c",
+     "label": "Lactic acid from the fermentation side"
+    },
+    {
+     "id": "d",
+     "label": "Extra glucose that overloads the cell"
+    }
+   ],
+   "answer": "b",
+   "explain": "It produces reactive oxygen species such as superoxide and hydrogen peroxide, propagating free radicals that damage cells.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation:q5"
+  },
+  {
+   "prompt": "In real cells the ATP produced falls short of the theoretical maximum. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oxygen is used up before the chain ends"
+    },
+    {
+     "id": "b",
+     "label": "ATP synthase runs backward half the time"
+    },
+    {
+     "id": "c",
+     "label": "Cytochrome c loses its iron atom"
+    },
+    {
+     "id": "d",
+     "label": "Some protons leak across the membrane"
+    }
+   ],
+   "answer": "d",
+   "explain": "These yields are theoretical maximums; in practice some protons leak across the membrane, lowering the yield of ATP.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.oxidative-phosphorylation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg/960px-Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Oxidative phosphorylation",
+  "credit": "Fvasconcellos",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg"
+ },
+ "source": {
+  "title": "Oxidative phosphorylation",
+  "url": "https://en.wikipedia.org/wiki/Oxidative_phosphorylation",
+  "revision": 1368886692
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Oxidative phosphorylation is a pathway in which cells use enzymes to oxidize nutrients and capture the chemical energy that comes out. That energy is spent making adenosine triphosphate, or ATP, a molecule the cell uses anywhere it needs energy. In eukaryotes the whole process happens inside mitochondria. Almost every organism that lives on oxygen runs it, because it frees more energy than fermentation does.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "Where the fuel comes from",
+    "text": "In aerobic respiration, a cell first breaks glucose down through glycolysis and then the citric acid cycle. Those steps give off carbon dioxide and load up two electron carriers, NADH and FADH₂. Oxidative phosphorylation takes these carriers, together with O₂, and turns their energy into ATP. It works by pairing reactions: passing electrons along gives off energy, while building ATP needs energy put in. The two are said to be coupled, so neither can happen without the other.",
+    "cites": [
+     5,
+     6,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "The electron transport chain",
+    "text": "Electrons are handed from the carriers along a row of acceptors in a series of redox reactions, and the last acceptor is oxygen. That final step with oxygen releases half of all the energy. In eukaryotes, protein complexes sitting in the inner mitochondrial membrane run these handoffs; in prokaryotes the proteins sit in the plasma membrane. This linked set of proteins is called the electron transport chain. Mitochondria use five main complexes, while prokaryotes have many other enzymes and use a wide range of electron donors and acceptors.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Pumping protons",
+    "text": "The energy carried by the moving electrons is used to push protons across the inner membrane. Protons are driven from the negative N-side to the positive P-side. This piles up stored energy in two forms: a difference in pH and a difference in electric charge across the membrane. Together these make an electrochemical gradient known as the proton-motive force.",
+    "cites": [
+     11,
+     12,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "A spinning motor",
+    "text": "The stored energy is released when protons stream back across the membrane through an enzyme called ATP synthase, a step named chemiosmosis. The proton flow forces part of the enzyme to turn, so ATP synthase works as a rotary mechanical motor. That motion is linked to a phosphorylation reaction that converts adenosine diphosphate (ADP) into ATP.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "How much it yields",
+    "text": "The payoff is large next to fermentation. Glycolysis alone gives just 2 ATP, but oxidative phosphorylation of the carriers made from one glucose molecule gives somewhere between 30 and 36 ATP. These are theoretical maximums. In real cells some protons leak across the membrane, so the actual yield is lower.",
+    "cites": [
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "The cost",
+    "text": "The pathway also has a downside. It gives rise to reactive oxygen species, among them superoxide and hydrogen peroxide, and these spread free radicals that damage cells and contribute to disease, and possibly to aging. Many drugs and poisons also aim at its enzymes and stop them from working.",
+    "cites": [
+     17,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-7-4",
+   "kind": "book",
+   "title": "7.4 Oxidative Phosphorylation",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+   "note": "A free college textbook section on the electron transport chain, chemiosmosis and ATP synthase.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

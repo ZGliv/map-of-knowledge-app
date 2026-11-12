@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "Elliptic-curve cryptography is a kind of public-key cryptography based on the algebraic structure of elliptic curves over finite fields.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its main promise is smaller keys, which give equivalent security to systems like RSA while reducing storage and transmission needs.",
+   "cites": [
+    2,
+    33
+   ]
+  },
+  {
+   "text": "It works because point multiplication is efficient to compute but apparently cannot be reversed for properly chosen curves and key sizes.",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Wide use began",
+   "value": "Starting in 2004",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Main benefit",
+   "value": "Smaller key size than alternatives such as RSA",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Used in",
+   "value": "Transport Layer Security and Bitcoin",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "NIST curves",
+   "value": "Fifteen curves recommended for the Digital Signature Standard",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Quantum worry",
+   "value": "In 2015 the NSA planned to replace Suite B over quantum-attack concerns",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A small device has little storage and a slow connection but needs strong public-key security. Why might elliptic curves suit it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They avoid using any keys at all"
+    },
+    {
+     "id": "b",
+     "label": "They need larger keys, which are easier to protect"
+    },
+    {
+     "id": "c",
+     "label": "They offer equivalent security with smaller keys"
+    },
+    {
+     "id": "d",
+     "label": "They work only for devices with no network"
+    }
+   ],
+   "answer": "c",
+   "explain": "ECC allows smaller keys to provide equivalent security compared with systems such as RSA, reducing storage and transmission requirements.",
+   "cites": [
+    2,
+    33
+   ]
+  },
+  {
+   "prompt": "What does the security of elliptic-curve cryptography lean on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Point multiplication is easy to compute, yet apparently cannot be reversed"
+    },
+    {
+     "id": "b",
+     "label": "Keeping the curve equation itself secret from everyone"
+    },
+    {
+     "id": "c",
+     "label": "Point multiplication being hard to compute in the forward direction"
+    },
+    {
+     "id": "d",
+     "label": "Using as many coordinate pairs as possible"
+    }
+   ],
+   "answer": "a",
+   "explain": "Security depends on computing point multiplication efficiently and the apparent inability to reverse it for properly chosen curves and key sizes.",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "prompt": "A standard random-number generator was later said to contain a deliberate weakness put in through an agency's influence. What advice followed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "RSA Security advised customers to stop using software based on it"
+    },
+    {
+     "id": "b",
+     "label": "Everyone was told to use it more widely"
+    },
+    {
+     "id": "c",
+     "label": "It was recommended only for military communications"
+    },
+    {
+     "id": "d",
+     "label": "Nothing changed, since the weakness was harmless"
+    }
+   ],
+   "answer": "a",
+   "explain": "After Dual_EC_DRBG was reported to carry a deliberate weakness, RSA Security issued an advisory in 2013 recommending customers discontinue software based on it.",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "prompt": "Why did the NSA announce in 2015 that it planned to replace its Suite B cipher suite?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The curves had been found to be too large"
+    },
+    {
+     "id": "b",
+     "label": "Patents had made the suite too costly"
+    },
+    {
+     "id": "c",
+     "label": "Nobody had used the suite for signatures"
+    },
+    {
+     "id": "d",
+     "label": "Concerns about quantum computing attacks on ECC"
+    }
+   ],
+   "answer": "d",
+   "explain": "The NSA cited concerns about quantum computing attacks on elliptic-curve cryptography, later publishing guidance for a transition to quantum-resistant algorithms.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "Elliptic curves do not directly encrypt a message. How can they still be used for encryption?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By swapping the message for a random curve"
+    },
+    {
+     "id": "b",
+     "label": "By hiding the message inside the curve's equation"
+    },
+    {
+     "id": "c",
+     "label": "By pairing key agreement with a symmetric encryption scheme"
+    },
+    {
+     "id": "d",
+     "label": "By removing the need for any keys"
+    }
+   ],
+   "answer": "c",
+   "explain": "Elliptic curves are used for key agreement, and they can be used indirectly for encryption by combining that key agreement with a symmetric encryption scheme.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "Two curves have the same number of coordinate pairs satisfying their equations. What decides how hard the underlying problem is?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The size and structure of the curve group, not just that total"
+    },
+    {
+     "id": "b",
+     "label": "Only the total number of coordinate pairs"
+    },
+    {
+     "id": "c",
+     "label": "The color of the graph when it is drawn"
+    },
+    {
+     "id": "d",
+     "label": "Whether the curve was named by NIST"
+    }
+   ],
+   "answer": "a",
+   "explain": "The size and structure of the curve group, rather than only the number of coordinate pairs satisfying the curve equation, determine the difficulty of the problem.",
+   "cites": [
+    32
+   ]
+  }
+ ]
+}

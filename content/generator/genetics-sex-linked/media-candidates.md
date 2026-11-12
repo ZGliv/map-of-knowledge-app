@@ -1,0 +1,400 @@
+# Media candidates: genetics-sex-linked
+
+All on the licence allowlist with no restrictions. ShareAlike files can only be shown whole (no cover, no documentary pan, no ink tone). CC BY files that are cropped must say "cropped" in the credit.
+
+- **File:Ishihara 9.svg** · Public domain · Shinobu Ishihara · Original: Unknown date, Derivative: 20:50, 20 April 2021 (UTC) · 360×360
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ishihara_9.svg/1280px-Ishihara_9.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_9.svg
+  - Ishihara Plate 9, vectorized
+- **File:Ishihara-Test.svg** · CC BY-SA 3.0 · Dan-yell · 2014-06-20 19:15:20 · 290×290
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ishihara-Test.svg/1280px-Ishihara-Test.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara-Test.svg
+  - Ishihara Plate for testing on Deuteranopia. Edible with Ikscape the File offers many options for creation of other plates. It contains special Layers facilitating editing. Based on and Colors chosen with support from Java-Program "Color Oracle"
+- **File:Ishihara 1.svg** · Public domain · Shinobu Ishihara · Unknown date · 1440×1440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ishihara_1.svg/1280px-Ishihara_1.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_1.svg
+  - Ishihara Plate No. 1 (Number 12). Used for the en:Ishihara test of color blindness.
+- **File:Ishihara 2.svg** · CC BY 2.5 · Sakurambo · 2006-05-22 · 297×297
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ishihara_2.svg/1280px-Ishihara_2.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_2.svg
+  - Example of an Ishihara colour test (numeral 2). See Image:Ishihara_2a.svg also.
+- **File:Ishihara 19.PNG** · Public domain · Shinobu Ishihara · Unknown date · 1440×1440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ishihara_19.PNG/1280px-Ishihara_19.PNG
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_19.PNG
+  - Ishihara Plate #19
+- **File:Ishihara 23.PNG** · Public domain · Shinobu Ishihara · Unknown date · 1440×1440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ishihara_23.PNG/1280px-Ishihara_23.PNG
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_23.PNG
+  - Ishihara Plate 23
+- **File:Ishihara 2a.svg** · CC BY 2.5 · Sakurambo · 2006-05-22 · 297×297
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ishihara_2a.svg/1280px-Ishihara_2a.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_2a.svg
+  - Example of an Ishihara colour test (converted to monochrome; see Image:Ishihara 2.svg for original)
+- **File:Ishihara 11.PNG** · Public domain · Shinobu Ishihara · Unknown date · 1440×1440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ishihara_11.PNG/1280px-Ishihara_11.PNG
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_11.PNG
+  - Ishihara Plate 11 depicting "6"
+- **File:Ishihara tests 12 74.svg** · CC BY-SA 4.0 · RWhitwam · 2025-06-08 · 1632×864
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ishihara_tests_12_74.svg/1280px-Ishihara_tests_12_74.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_tests_12_74.svg
+  - Created from: https://en.wikipedia.org/wiki/File:Ishihara_1.svg and https://commons.wikimedia.org/wiki/File:Ishihara_9.png. Original author: Shinobu Ishihara (1879–1963) wikidata:Q530761 According to Japanese Copyright Law (June 1, 2018 grant) the copyright on the Ishihara plates included here has e
+- **File:Ishihara-12.gif** · Public domain · Shinobu Ishihara · 23 August 2004 (original upload date) · 328×322
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c7/Ishihara-12.gif
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara-12.gif
+  - illustratie hoe het patroon verborgen zit de echte test maakt gebruik van gekleurde bolletjes, maar hier heb ik het in het zwart-wit gemaakt, want kleurenblinde personen zouden het anders niet zien, dus niet begrijpen... zelf gemaakte animatie
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059158.jpg** · CC BY 4.0 · unknown · 4388×4390
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059158.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059158.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059158.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059155.jpg** · Public domain · Shinobu Ishihara · 4404×4360
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059155.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059155.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059155.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059162.jpg** · CC BY 4.0 · unknown · 4212×4240
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059162.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059162.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059162.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059159.jpg** · CC BY 4.0 · unknown · 4400×4396
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059159.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059159.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059159.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059160.jpg** · CC BY 4.0 · unknown · 4388×4402
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059160.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059160.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059160.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059157.jpg** · CC BY 4.0 · unknown · 4386×4385
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059157.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059157.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059157.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059161.jpg** · CC BY 4.0 · unknown · 4395×4389
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059161.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059161.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059161.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:47-rg12.jpg** · CC BY-SA 3.0 · The original uploader was Persil at German Wikipedia. · 8 August 2004 (original upload date) · 300×302
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/68/47-rg12.jpg
+  - page: https://commons.wikimedia.org/wiki/File:47-rg12.jpg
+  - rg Farbtafel (gnu-fdl)
+- **File:47-rg17 lösung.jpg** · CC BY-SA 3.0 · Matze6587 · 17 November 2005 (original upload date) · 300×302
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/11/47-rg17_l%C3%B6sung.jpg
+  - page: https://commons.wikimedia.org/wiki/File:47-rg17_l%C3%B6sung.jpg
+  - rg-Farbtafel Auflösung für Betroffene, die in 47-rg12.jpg die Zahl 17 anstatt der Zahl 47 erkennen.Die betreffenden Felder wurden mit der Pipette-Funktion eines Grafikprogramms eingefärbt, sodass sie im Originalbild entsprechend zugeordnet werden können und der Sehschwache sieht, was er nicht sieht.
+- **File:Ishihara Plates 3, 11, 23, 21.svg** · CC BY-SA 4.0 · RWhitwam · 2025-06-08 · 840×960
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ishihara_Plates_3%2C_11%2C_23%2C_21.svg/1280px-Ishihara_Plates_3%2C_11%2C_23%2C_21.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_Plates_3,_11,_23,_21.svg
+  - Note: Numbering of Ishihara plates is not universal; the correct answers should be based on finding matching visuals, rather than matching plate numbers. Correct answers (Non-CB vs CB). Plate 3: 6 vs 5. Plate 11: 6 vs no number. Plate 23: 42 vs 2 or 4. Plate 21: no number vs 73. Plate images taken f
+- **File:Testcol2.png** · CC BY-SA 3.0 · unknown · 200×300
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/df/Testcol2.png
+  - page: https://commons.wikimedia.org/wiki/File:Testcol2.png
+  - 
+- **File:Ishihara 3.jpg** · Public domain · Shinobu Ishihara · Unknown date · 233×233
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/76/Ishihara_3.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_3.jpg
+  - Ishihara colourblindness test No 3
+- **File:Ishihara compare 1.jpg** · CC BY-SA 3.0 · Eddau processed File:Ishihara 2.svg by User:Sakurambo, with https://www.vischeck.com/vischeck/vischeckURL.php · 2010-02-27 · 601×600
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fb/Ishihara_compare_1.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Ishihara_compare_1.jpg
+  - An Ishihara test image as seen by able-bodied and by persons with a variety of Daltonism forms.
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059165.jpg** · CC BY 4.0 · unknown · 5336×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059165.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059165.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059165.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Eight Ishihara charts for testing colour blindness, Europe Wellcome L0059164.jpg** · CC BY 4.0 · unknown · 5336×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059164.jpg/1280px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059164.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059164.jpg
+  - Eight Ishihara charts for testing colour blindness, Europe, 1917-1959 Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&amp;#150;1963). Each image consists of closely packed c
+- **File:Critique of the Theory of Evolution Fig 035.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 510×773
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/03/Critique_of_the_Theory_of_Evolution_Fig_035.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_035.jpg
+  - Fig. 35. Diagram showing a cross between a white eyed male and a red eyed female of the fruit fly. Sex linked inheritance.
+- **File:Critique of the Theory of Evolution Fig 036.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 522×778
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/31/Critique_of_the_Theory_of_Evolution_Fig_036.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_036.jpg
+  - Fig. 36. Diagram illustrating a cross between a red eyed male and white eyed female of the fruit fly (reciprocal cross of that shown in Fig. 35).
+- **File:Portrait of John Dalton Wellcome L0002379.jpg** · CC BY 4.0 · unknown · 1286×1478
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Portrait_of_John_Dalton_Wellcome_L0002379.jpg/1280px-Portrait_of_John_Dalton_Wellcome_L0002379.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Portrait_of_John_Dalton_Wellcome_L0002379.jpg
+  - Portrait of John Dalton Iconographic Collections Keywords: John Dalton
+- **File:John Dalton by Thomas Phillips, 1835.jpg** · Public domain · Thomas Phillips · 1835date QS:P571,+1835-00-00T00:00:00Z/9 · 623×800
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/00/John_Dalton_by_Thomas_Phillips%2C_1835.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_by_Thomas_Phillips,_1835.jpg
+  - John Dalton oil on canvasmedium QS:P186,Q296955;P186,Q12321255,P518,Q861259 height: 91.4 cm (35.9 in); width: 71.4 cm (28.1 in)dimensions QS:P2048,91.4U174728dimensions QS:P2049,71.4U174728
+- **File:John Dalton and his tomb in Manchester.png** · Public domain · not stated · Unknown date for portrait; tomb c.1910s · 2202×2574
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/John_Dalton_and_his_tomb_in_Manchester.png/1280px-John_Dalton_and_his_tomb_in_Manchester.png
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_and_his_tomb_in_Manchester.png
+  - John Dalton and his tomb in Manchester, from the book Biographies of Scientific Men
+- **File:John Dalton by Charles Turner.jpg** · Public domain · Charles Turner / After James Lonsdale · 1834 (publication date) · 996×1230
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d4/John_Dalton_by_Charles_Turner.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_by_Charles_Turner.jpg
+  - British physicist and chemist John Dalton (1766–1844) by Charles Turner (1773–1857) after James Lonsdale (1777–1839). Mezzotint.
+- **File:John Dalton circa 1835.jpg** · Public domain · Unknown authorUnknown author · 1835 · 321×428
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/73/John_Dalton_circa_1835.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_circa_1835.jpg
+  - John Dalton circa 1835.
+- **File:Potrait of John Dalton Wellcome M0004640.jpg** · CC BY 4.0 · unknown · 2946×3864
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Potrait_of_John_Dalton_Wellcome_M0004640.jpg/1280px-Potrait_of_John_Dalton_Wellcome_M0004640.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Potrait_of_John_Dalton_Wellcome_M0004640.jpg
+  - Potrait of John Dalton, bust profile Iconographic Collections Keywords: John Dalton; J. Stephenson
+- **File:John Dalton in old age (detail) by Thomas Phillips.jpg** · CC BY-SA 4.0 · Stephencdickson · 2014-09-25 14:43:17 · 2056×3088
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/John_Dalton_in_old_age_%28detail%29_by_Thomas_Phillips.jpg/1280px-John_Dalton_in_old_age_%28detail%29_by_Thomas_Phillips.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_in_old_age_(detail)_by_Thomas_Phillips.jpg
+  - John Dalton in old age (detail) by Thomas Phillips
+- **File:John Dalton Stephenson.jpg** · Public domain · Engraver James Stephenson · 1845-05 · 379×439
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/62/John_Dalton_Stephenson.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_Stephenson.jpg
+  - Portrait of John Dalton (1766–1844), English chemist.
+- **File:Portrait of John M. Dalton.jpg** · Public domain · State of Missouri · 1963 · 1036×1557
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5d/Portrait_of_John_M._Dalton.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Portrait_of_John_M._Dalton.jpg
+  - John M. Dalton, Governor of Missouri (1961–65)
+- **File:MD John Call Dalton by Eastman Johnson.png** · Public domain · Eastman Johnson, 29 Jul 1824 - 5 Apr 1906 · 1886date QS:P571,+1886-00-00T00:00:00Z/9 · 382×510
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6c/MD_John_Call_Dalton_by_Eastman_Johnson.png
+  - page: https://commons.wikimedia.org/wiki/File:MD_John_Call_Dalton_by_Eastman_Johnson.png
+  - MD John Call Dalton Artist Eastman Johnson, 29 Jul 1824 - 5 Apr 1906 Sitter John Call Dalton, M.D., 1825 - 1889 Date 1886 Type Painting Medium Oil on canvas Dimensions 114.3cm x 86.3cm (45" x 34") Credit Line Current Owner: Columbia University, Art Properties Website: library.columbia.edu/locations/
+- **File:John Dalton. Wood engraving. Wellcome V0001450.jpg** · CC BY 4.0 · unknown · 2411×3314
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/John_Dalton._Wood_engraving._Wellcome_V0001450.jpg/1280px-John_Dalton._Wood_engraving._Wellcome_V0001450.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Wood_engraving._Wellcome_V0001450.jpg
+  - John Dalton. Wood engraving. Iconographic Collections Keywords: portrait prints; John Dalton; wood engravings; dalton, john, 1766-1844
+- **File:John Dalton. Pen drawing with watercolour wash. Wellcome V0001447.jpg** · CC BY 4.0 · unknown · 2542×3123
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/John_Dalton._Pen_drawing_with_watercolour_wash._Wellcome_V0001447.jpg/1280px-John_Dalton._Pen_drawing_with_watercolour_wash._Wellcome_V0001447.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Pen_drawing_with_watercolour_wash._Wellcome_V0001447.jpg
+  - John Dalton. Pen drawing with watercolour wash. Iconographic Collections Keywords: John Dalton; portrait drawings; dalton, john, 1766-1844
+- **File:John Dalton. Mezzotint by C. Turner, 1834, after J. Lonsdale Wellcome V0001446.jpg** · CC BY 4.0 · unknown · 2476×3441
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/John_Dalton._Mezzotint_by_C._Turner%2C_1834%2C_after_J._Lonsdale_Wellcome_V0001446.jpg/1280px-John_Dalton._Mezzotint_by_C._Turner%2C_1834%2C_after_J._Lonsdale_Wellcome_V0001446.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Mezzotint_by_C._Turner,_1834,_after_J._Lonsdale_Wellcome_V0001446.jpg
+  - John Dalton. Mezzotint by C. Turner, 1834, after J. Lonsdale. Iconographic Collections Keywords: portrait prints; John Dalton; mezzotints; dalton, john, 1766-1844
+- **File:John Dalton. Mezzotint by C. Turner, 1834, after J. Lonsdale Wellcome V0001446 (cropped).jpg** · CC BY 4.0 · unknown · 1915×2348
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/John_Dalton._Mezzotint_by_C._Turner%2C_1834%2C_after_J._Lonsdale_Wellcome_V0001446_%28cropped%29.jpg/1280px-John_Dalton._Mezzotint_by_C._Turner%2C_1834%2C_after_J._Lonsdale_Wellcome_V0001446_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Mezzotint_by_C._Turner,_1834,_after_J._Lonsdale_Wellcome_V0001446_(cropped).jpg
+  - John Dalton. Mezzotint by C. Turner, 1834, after J. Lonsdale. Iconographic Collections Keywords: portrait prints; John Dalton; mezzotints; dalton, john, 1766-1844
+- **File:John Dalton. Etching by J. Stephenson after himself. Wellcome V0001449.jpg** · CC BY 4.0 · unknown · 2316×3798
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/John_Dalton._Etching_by_J._Stephenson_after_himself._Wellcome_V0001449.jpg/1280px-John_Dalton._Etching_by_J._Stephenson_after_himself._Wellcome_V0001449.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Etching_by_J._Stephenson_after_himself._Wellcome_V0001449.jpg
+  - John Dalton. Etching by J. Stephenson after himself. Iconographic Collections Keywords: portrait prints; John Dalton; etchings; dalton, john, 1766-1844
+- **File:John Dalton by Charles Turner.png** · Public domain · Charles Turner / After James Lonsdale · 1834 · 948×1167
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0a/John_Dalton_by_Charles_Turner.png
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_by_Charles_Turner.png
+  - British physicist and chemist John Dalton (1766-1844) by Charles Turner (1773-1857) after James Lonsdale (1777-1839). Mezzotint.
+- **File:John Dalton. Engraving by J. Stephenson, 1845, after himself Wellcome V0006490.jpg** · CC BY 4.0 · unknown · 2362×3054
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/John_Dalton._Engraving_by_J._Stephenson%2C_1845%2C_after_himself_Wellcome_V0006490.jpg/1280px-John_Dalton._Engraving_by_J._Stephenson%2C_1845%2C_after_himself_Wellcome_V0006490.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Engraving_by_J._Stephenson,_1845,_after_himself_Wellcome_V0006490.jpg
+  - John Dalton. Engraving by J. Stephenson, 1845, after himself. Iconographic Collections Keywords: portrait prints; John Dalton; engravings; James Stephenson
+- **File:John Dalton. Line engraving by W. H. Worthington, 1823, afte Wellcome V0006489.jpg** · CC BY 4.0 · unknown · 3927×5362
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0006489.jpg/1280px-John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0006489.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Line_engraving_by_W._H._Worthington,_1823,_afte_Wellcome_V0006489.jpg
+  - John Dalton. Line engraving by W. H. Worthington, 1823, after J. Allen, 1814. Iconographic Collections Keywords: portrait prints; John Dalton; engravings; William Henry Worthington; Joseph Allen
+- **File:John Dalton by Charles Turner (cropped).jpg** · Public domain · Charles Turner / After James Lonsdale · 1834 (publication date) · 379×591
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/85/John_Dalton_by_Charles_Turner_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton_by_Charles_Turner_(cropped).jpg
+  - British physicist and chemist John Dalton (1766–1844) by Charles Turner (1773–1857) after James Lonsdale (1777–1839). Mezzotint.
+- **File:Thomas Phillips (1770-1845) - John Dalton - NPG 5963 - National Portrait Gallery.jpg** · Public domain · Thomas Phillips · 1835 · 623×800
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bf/Thomas_Phillips_%281770-1845%29_-_John_Dalton_-_NPG_5963_-_National_Portrait_Gallery.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Thomas_Phillips_(1770-1845)_-_John_Dalton_-_NPG_5963_-_National_Portrait_Gallery.jpg
+  - 
+- **File:John Dalton. Line engraving by W. H. Worthington, 1823, afte Wellcome V0001445.jpg** · CC BY 4.0 · unknown · 2226×3149
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0001445.jpg/1280px-John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0001445.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Dalton._Line_engraving_by_W._H._Worthington,_1823,_afte_Wellcome_V0001445.jpg
+  - John Dalton. Line engraving by W. H. Worthington, 1823, after J. Allen, 1814. Iconographic Collections Keywords: portrait prints; John Dalton; engravings; dalton, john, 1766-1844
+- **File:MO Governors - 45 John Montgomery Dalton (1961-1965) (52976630509).jpg** · Public domain · Missouri State Archives from Jefferson City, Missouri, United States · 1953-01-01 00:00 · 2316×2395
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/MO_Governors_-_45_John_Montgomery_Dalton_%281961-1965%29_%2852976630509%29.jpg/1280px-MO_Governors_-_45_John_Montgomery_Dalton_%281961-1965%29_%2852976630509%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:MO_Governors_-_45_John_Montgomery_Dalton_(1961-1965)_(52976630509).jpg
+  - Collection Name: RG005 SOS Publications Portrait Collection Description: Official portrait of John M. Dalton taken while he was Missouri Attorney General. It first appeared in the 1953 Blue Book and was reused when he was Governor in 1961. Photographer/Studio: Hammond and Irwin, Jefferson City, MO C
+- **File:Portrait print of Dr. John Dalton, F.R.S. - DPLA - 194318da0efdb9c5379115f4b4e797b0.jpg** · Public domain · Lonsdale, James, 1777-1839; Turner, Charles, 1774-1857 · 1834-Oct-01 · 6833×9413
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Portrait_print_of_Dr._John_Dalton%2C_F.R.S._-_DPLA_-_194318da0efdb9c5379115f4b4e797b0.jpg/1280px-Portrait_print_of_Dr._John_Dalton%2C_F.R.S._-_DPLA_-_194318da0efdb9c5379115f4b4e797b0.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Portrait_print_of_Dr._John_Dalton,_F.R.S._-_DPLA_-_194318da0efdb9c5379115f4b4e797b0.jpg
+  - Half-length mezzotint portrait of Dr. John Dalton, chemist and physicist, with his right hand partially tucked into his vest. Widely known for introducing the atomic theory into chemistry, Dalton was a noted English meteorologist and chemist. His research on meteorology resulted in its acceptance as
+- **File:DaltonJohn.jpg** · Public domain · United States Navy. · circa 1993date QS:P,+1993-00-00T00:00:00Z/9,P1480,Q5727902 to 1998 · 2357×3000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/DaltonJohn.jpg/1280px-DaltonJohn.jpg
+  - page: https://commons.wikimedia.org/wiki/File:DaltonJohn.jpg
+  - John Howard Dalton, Navy Secretary from 1993-1998.
+- **File:James Lonsdale (1777-1839) - Mary Dalton, Daughter of John Dalton and Mary Dalton, née Gage - LANLM.1983.43.10 - Lancaster Maritime Museum.jpg** · Public domain · James Lonsdale · 1819 · 924×1200
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5c/James_Lonsdale_%281777-1839%29_-_Mary_Dalton%2C_Daughter_of_John_Dalton_and_Mary_Dalton%2C_n%C3%A9e_Gage_-_LANLM.1983.43.10_-_Lancaster_Maritime_Museum.jpg
+  - page: https://commons.wikimedia.org/wiki/File:James_Lonsdale_(1777-1839)_-_Mary_Dalton,_Daughter_of_John_Dalton_and_Mary_Dalton,_n%C3%A9e_Gage_-_LANLM.1983.43.10_-_Lancaster_Maritime_Museum.jpg
+  - 
+- **File:Thomas Hunt Morgan.jpg** · Public domain · Unknown authorUnknown author · 1891 · 2192×2923
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thomas_Hunt_Morgan.jpg/1280px-Thomas_Hunt_Morgan.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan.jpg
+  - This image is one of several created for the 1891 Johns Hopkins yearbook of 1891, see Shine and Hobel. 1976. Thomas Hunt Morgan. The University Press of Kentucky ISBN 081310095X for other examples of photos from the same sitting.
+- **File:Thomas Hunt Morgan2.jpg** · Public domain · US gov · 1891 · 341×332
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_Hunt_Morgan2.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan2.jpg
+  - Image:Thomas_Hunt_Morgan.jpg retravaillée.
+- **File:Thomas Hunt Morgan sketch 1931.png** · Public domain · Carl Rudolph Gist · 1931 · 1500×1900
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Thomas_Hunt_Morgan_sketch_1931.png/1280px-Thomas_Hunt_Morgan_sketch_1931.png
+  - page: https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan_sketch_1931.png
+  - 1931 sketch of California Institute of Technology Professor Thomas Hunt Morgan
+- **File:Thomas Hunt Morgan signature.svg** · Public domain · Thomas Hunt Morgan Created in vector format by Scewing · Unknown date · 585×131
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Thomas_Hunt_Morgan_signature.svg/1280px-Thomas_Hunt_Morgan_signature.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan_signature.svg
+  - Signature of Thomas Hunt Morgan
+- **File:Thomas Hunt Morgan signature (cropped).svg** · Public domain · Thomas Hunt Morgan Created in vector format by Scewing · Unknown date · 502×139
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Thomas_Hunt_Morgan_signature_%28cropped%29.svg/1280px-Thomas_Hunt_Morgan_signature_%28cropped%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan_signature_(cropped).svg
+  - Signature of Thomas Hunt Morgan
+- **File:Hunt-Morgan House, Lexington Kentucky.jpg** · CC BY-SA 4.0 · FloNight (Sydney Poore) and Russell Poore · 2008-03-02 · 3264×2448
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Hunt-Morgan_House%2C_Lexington_Kentucky.jpg/1280px-Hunt-Morgan_House%2C_Lexington_Kentucky.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Hunt-Morgan_House,_Lexington_Kentucky.jpg
+  - Hunt-Morgan House, located in the Gratz Park Historic District in Lexington, Kentucky, was built by John Wesley Hunt in 1814. Other famous residents include Confederate General John Hunt Morgan and Noble Prize recipient Dr. Thomas Hunt Morgan. The current address is 201 N. Mill Street, Lexington, Ke
+- **File:Hunt-Morgan House, Lexington Kentucky 2.jpg** · CC BY-SA 4.0 · FloNight (Sydney Poore) and Russell Poore · 2008-03-02 · 2359×2214
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Hunt-Morgan_House%2C_Lexington_Kentucky_2.jpg/1280px-Hunt-Morgan_House%2C_Lexington_Kentucky_2.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Hunt-Morgan_House,_Lexington_Kentucky_2.jpg
+  - Hunt-Morgan House, located in the Gratz Park Historic District in Lexington, Kentucky, was built by John Wesley Hunt in 1814. Other famous residents include Confederate General John Hunt Morgan and Noble Prize recipient Dr. Thomas Hunt Morgan. The current address is 201 N. Mill Street, Lexington, Ke
+- **File:Gene Linkage Map of a Drosophila Chromosome.svg** · CC BY-SA 4.0 · Twaanders17 · 2015-06-03n · 512×289
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Gene_Linkage_Map_of_a_Drosophila_Chromosome.svg/1280px-Gene_Linkage_Map_of_a_Drosophila_Chromosome.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Gene_Linkage_Map_of_a_Drosophila_Chromosome.svg
+  - This gene linkage map shows the relative positions of allelic characteristics on the second Drosophila chromosome. The alleles on the chromosome form a linkage group due to their tendency to form together into gametes. The distance between the genes (map units) are equal to the percentage of crossin
+- **File:Criss-cross inheritance.jpg** · Public domain · Morgan T. H., Sturtevant A. H., Muller H. J., Bridges C. B. · 1915 · 1400×1350
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Criss-cross_inheritance.jpg/1280px-Criss-cross_inheritance.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Criss-cross_inheritance.jpg
+  - Criss-cross inheritance in Drosophila.
+- **File:Sexlinked inheritance white.jpg** · Public domain · Electric goat · 2005-03-24 · 397×363
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/49/Sexlinked_inheritance_white.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Sexlinked_inheritance_white.jpg
+  - white mutation and sex-linked inheritance. Fly images are available under PD. (from THE PHYSICAL BASIS OF HEREDITY. Thomas Hunt Morgan. Philadelphia: J.B. Lippincott Company 1919)
+- **File:Trustees of the Marine Biological Laboratory, 1934.jpg** · Public domain · Unknown photographer · 1934-08 · 2484×1400
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Trustees_of_the_Marine_Biological_Laboratory%2C_1934.jpg/1280px-Trustees_of_the_Marine_Biological_Laboratory%2C_1934.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Trustees_of_the_Marine_Biological_Laboratory,_1934.jpg
+  - Trustees of the Marine Biological Laboratory at Woods Hole, 1934. Top row: M. J. Greenman, director of the Wistar Institute; Caswell Grave, professor oz Zoology, Washington; E. Newton Harvey, Professor of Physiology, Princeton; Walter E. Garrey, Professor of Physiology, Vanderbilt School of Medicine
+- **File:Spectral sensitivities of Drosophila melanogaster opsins in white eyed flies.png** · CC BY 4.0 · Camilla R. Sharkey, Jorge Blanco, Maya M. Leibowitz, Daniel Pinto-Benito, and Trevor J. Wardill · 2020-10-26 · 1090×545
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fc/Spectral_sensitivities_of_Drosophila_melanogaster_opsins_in_white_eyed_flies.png
+  - page: https://commons.wikimedia.org/wiki/File:Spectral_sensitivities_of_Drosophila_melanogaster_opsins_in_white_eyed_flies.png
+  - Spectral sensitivities of Drosophila melanogaster opsins in white eyed flies. The sensitivities of Rh3–6 are modelled with opsin templates and sensitivity estimates of Salcedo et al. (1999). The opsin Rh1 (redrawn from Salcedo et al.) has a characteristic shape as it is coupled to a UV-sensitising p
+- **File:White eyed drosophila.jpg** · CC0 · Adema.akizhanova · 2025-03-12 18:58:11 · 4284×5712
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/White_eyed_drosophila.jpg/1280px-White_eyed_drosophila.jpg
+  - page: https://commons.wikimedia.org/wiki/File:White_eyed_drosophila.jpg
+  - A mutant strain of Drosophila under a light microscope. Drosophila was captured using CO2 to make them sleep and observed under the microscope to detect phenotype
+- **File:White-eyed Drosophila.jpg** · CC BY 2.5 · Paul Reynolds (Flickr user sylverwytche) · 2006-11-16 11:14 · 1280×960
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/da/White-eyed_Drosophila.jpg
+  - page: https://commons.wikimedia.org/wiki/File:White-eyed_Drosophila.jpg
+  - A white-eyed mutant Drosophila fruit fly, photographed through a binocular microscope.
+- **File:202208 Fruit fly white eye.svg** · CC BY 4.0 · DataBase Center for Life Science (DBCLS) · 2022-08-01 · 1000×1000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202208_Fruit_fly_white_eye.svg/1280px-202208_Fruit_fly_white_eye.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:202208_Fruit_fly_white_eye.svg
+  - Fruit fly white eye
+- **File:Drosophila brains and the circadian system.gif** · CC BY-SA 4.0 · Mauro Agostino Zordan, Federica Sandrelli · 2015-04-20 · 92×150
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2f/Drosophila_brains_and_the_circadian_system.gif
+  - page: https://commons.wikimedia.org/wiki/File:Drosophila_brains_and_the_circadian_system.gif
+  - Key centers of the mammalian and Drosophila brains and the circadian system in Drosophila. A) the brain. B) The clocks in the brain, and in most of the peripheral tissues, are autonomous (yellow), while those located in the oenocytes resemble the mammalian subsidiary clocks (white), whose phase is c
+- **File:Fruit Fly Eye Colors.jpg** · Public domain · No machine-readable author provided. Ktbn assumed (based on copyright claims). · 15 January 2007 (original upload date) · 799×999
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b1/Fruit_Fly_Eye_Colors.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Fruit_Fly_Eye_Colors.jpg
+  - Eye colors (clockwise): brown, cinnabar, sepia, vermilion, white, wild. Also, the white-eyed fly has a yellow body, the sepia-eyed fly has a black body, and the brown-eyed fly has an ebony body.
+- **File:Neurons used for studies on neuronal growth at different stages of Drosophila development.jpg** · CC BY 2.0 · Sánchez-Soriano N, Tear G, Whitington P, Prokop A. · 2007-01-28 · 1200×1392
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9b/Neurons_used_for_studies_on_neuronal_growth_at_different_stages_of_Drosophila_development.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Neurons_used_for_studies_on_neuronal_growth_at_different_stages_of_Drosophila_development.jpg
+  - Neurons used for studies on neuronal growth at different stages of Drosophila development. (a,c) Horizontal views of a Drosophila larva and adult fly, respectively, illustrating the position of the CNS (grey and cream) in relation to other body structures. (b,d) Three-dimensional extracts from the a
+- **File:Culture vials of Drosophila melanogaster in Unifei.jpg** · CC BY 4.0 · Mateus S. Figueiredo · 2015-12-17 15:25:15 · 4437×2404
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Culture_vials_of_Drosophila_melanogaster_in_Unifei.jpg/1280px-Culture_vials_of_Drosophila_melanogaster_in_Unifei.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Culture_vials_of_Drosophila_melanogaster_in_Unifei.jpg
+  - Plastic and glass vials used for creation of Drosophila melanogaster (Diptera; Drosophilidae), the fruit fly, for didactic purposes in Federal University of Itajubá, Brazil.
+- **File:Critique of the Theory of Evolution Fig 058.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 900×934
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/ea/Critique_of_the_Theory_of_Evolution_Fig_058.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_058.jpg
+  - Fig. 58. Cross between white eyed male of D. ampelophila and red eyed female. The sex chromosomes are indicated by the rods. A black rod indicates that the chromosome carries the factor for red; the open chromosome the factor for white eye color.
+- **File:Critique of the Theory of Evolution Fig 059.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 660×990
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/97/Critique_of_the_Theory_of_Evolution_Fig_059.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_059.jpg
+  - Fig. 59. Cross between red eyed male and white eyed female; reciprocal cross of Fig. 58.
+- **File:Critique of the Theory of Evolution Fig 062.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 900×1030
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/36/Critique_of_the_Theory_of_Evolution_Fig_062.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_062.jpg
+  - Fig. 62. Cross between a white eyed, yellow winged female of D. ampelophila and a red eyed, gray winged male. Two pairs of sex linked characters, viz., white-red and yellow-gray are involved.
+- **File:Genetic interactions between Ras signalling and chromatin remodelling.jpg** · CC BY 4.0 · Bernd Fischer, Thomas Sandmann, Thomas Horn, Maximilian Billmann, Varun Chaudhary, Wolfgang Huber, Michael Boutros · 2015-03-06 23:46:17 · 792×1081
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/35/Genetic_interactions_between_Ras_signalling_and_chromatin_remodelling.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_interactions_between_Ras_signalling_and_chromatin_remodelling.jpg
+  - (A) Edges show the detected genetic interactions in the interaction screen of members of the SWI/SNF complex with RasGAP1 and members of the Ras pathway. An edge is drawn if a significant interaction (FDR 0.01) was detected for at least one phenotype. Edges with attributed epistatic interactions are
+- **File:Human karyotype with bands and sub-bands.png** · CC0 · Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None Mikael Häggström, M.D.- The work integrates Public Domain source images by Was A Bee, Kelvin Ma and Michał Komorniczak- Also, a special acknowledgement to everyone involved in the Human Genome Project for generating the source data.edit · 2022-11-20 · 9684×16008
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Human_karyotype_with_bands_and_sub-bands.png/1280px-Human_karyotype_with_bands_and_sub-bands.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_karyotype_with_bands_and_sub-bands.png
+  - Schematic and relatively language-neutral karyogram of a human. Even at low magnification, it gives an overview of the human genome, with numbered chromosome pairs, its main changes during the cell cycle (top center), and the mitochondrial genome to scale (at bottom left). High magnification (of ful
+- **File:Human chromosome X with ASD genes from IJMS-16-06464.png** · CC BY 4.0 · Merlin G. Butler, Syed K. Rafi, Ann M. Manzardo and Lorie Gavulic (illustration) · Published: 20 March 2015 · 1044×1873
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5f/Human_chromosome_X_with_ASD_genes_from_IJMS-16-06464.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_with_ASD_genes_from_IJMS-16-06464.png
+  - High-resolution human chromosome X ideograms (850 band level) with the autism spectrum disorders (ASD) gene symbol placed at the chromosomal band location. The centromere area, highlighted in black, separates the upper short “p” arm and lower long “q” arm.
+- **File:Chromosome X.svg** · Public domain · Mysid · 2007-01-05 · 175×450
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chromosome_X.svg/1280px-Chromosome_X.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Chromosome_X.svg
+  - Ideogram of the human chromosome X
+- **File:Human male karyotpe high resolution - Chromosome X.png** · Public domain · National Human Genome Research Institute · 2015-07-07 · 1200×940
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c7/Human_male_karyotpe_high_resolution_-_Chromosome_X.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_male_karyotpe_high_resolution_-_Chromosome_X.png
+  - Human male Karyotype after G-banding. X chromosome highlighted
+- **File:Human male karyotpe high resolution - Chromosome 10 cropped.png** · Public domain · National Human Genome Research Institute · 2015-07-04 · 77×112
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/60/Human_male_karyotpe_high_resolution_-_Chromosome_10_cropped.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_male_karyotpe_high_resolution_-_Chromosome_10_cropped.png
+  - Pair of human chromosome 10 after G-banding. One is from mother, one is from father.
+- **File:Human X chromosome - ideogram.png** · Public domain · U.S. National Library of Medicine · 2015-07-11 · 122×360
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/97/Human_X_chromosome_-_ideogram.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_X_chromosome_-_ideogram.png
+  - Ideogram of human X chromosome.
+- **File:Human chromosome 10 with ASD genes from IJMS-16-06464.png** · CC BY 4.0 · Merlin G. Butler, Syed K. Rafi, Ann M. Manzardo and Lorie Gavulic (illustration) · Published: 20 March 2015 · 606×1510
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9a/Human_chromosome_10_with_ASD_genes_from_IJMS-16-06464.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_10_with_ASD_genes_from_IJMS-16-06464.png
+  - High-resolution human chromosome 10 ideograms (850 band level) with the autism spectrum disorders (ASD) gene symbol placed at the chromosomal band location. The centromere area, highlighted in black, separates the upper short “p” arm and lower long “q” arm.
+- **File:Human chromosome X ideogram.svg** · Public domain · Own work · 2017-04-22 · 1125×216
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Human_chromosome_X_ideogram.svg/1280px-Human_chromosome_X_ideogram.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_ideogram.svg
+  - Human chromosome X. G-banding ideogram in resolution 850 bphs.
+- **File:Human chromosome X ideogram vertical.svg** · Public domain · Own work · 2017-04-22 · 216×1125
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Human_chromosome_X_ideogram_vertical.svg/1280px-Human_chromosome_X_ideogram_vertical.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_ideogram_vertical.svg
+  - Human chromosome X. G-banding ideogram in resolution 850 bphs.
+- **File:Human chromosome X - 550 bphs.png** · Public domain · National Center for Biotechnology Information, U.S. National Library of Medicine · 2015-08-16 · 413×778
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/34/Human_chromosome_X_-_550_bphs.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_-_550_bphs.png
+  - Ideogram of human X chromosome. G-band, 550 bphs (bands per haploid set). Black and gray: Giemsa positive. Red: Centromere. Light blue: Variable region. Dark blue: Stalk. Mbp: Mega base pairs.
+- **File:Human chromosome X from Gene Gateway - no label.png** · Public domain · Office of Biological and Environmental Research of the U.S. Department of Energy Office of Science, the Biological and Environmental Research Information System, Oak Ridge National Laboratory. · 2002 · 540×1335
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/ea/Human_chromosome_X_from_Gene_Gateway_-_no_label.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_from_Gene_Gateway_-_no_label.png
+  - Ideogram of human chromosome X.
+- **File:Human chromosome X from Gene Gateway - with label.png** · Public domain · Office of Biological and Environmental Research of the U.S. Department of Energy Office of Science, the Biological and Environmental Research Information System, Oak Ridge National Laboratory. · 2002 · 1257×2953
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bf/Human_chromosome_X_from_Gene_Gateway_-_with_label.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_from_Gene_Gateway_-_with_label.png
+  - Ideogram of human chromosome X. Selected genes, traits, and disorders associated with the chromosome listed.
+- **File:Human chromosome X ideogram from GHR.png** · Public domain · Genetics Home Reference, Genome Decoration Page/NCBI · Published: March 28, 2017 · 613×168
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/76/Human_chromosome_X_ideogram_from_GHR.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_ideogram_from_GHR.png
+  - Ideogram of human chromosome X
+- **File:Human chromosome X from NCBI Bookshelf.jpg** · Public domain · National Center for Biotechnology Information · 1998 · 400×450
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0c/Human_chromosome_X_from_NCBI_Bookshelf.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_from_NCBI_Bookshelf.jpg
+  - Ideogram of human chromosome X.
+- **File:Ideogram human chromosome X.svg** · Public domain · National Center for Biotechnology Information, U.S. National Library of Medicine · 2017-07-29 · 474×189
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ideogram_human_chromosome_X.svg/1280px-Ideogram_human_chromosome_X.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ideogram_human_chromosome_X.svg
+  - Ideogram of human chromosome. Chromosome X highlighted. G-band, 850 bphs (bands per haploid set). Black and gray: Giemsa positive. Red: Centromere. Light blue: Variable region. Dark blue: Stalk.
+- **File:Human chromosome X from Hemabase database.png** · Public domain · Goh SH, Lee YT, Bouffard GG, Miller JL. · Hembase is originally developed in 2003. · 146×465
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/88/Human_chromosome_X_from_Hemabase_database.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_from_Hemabase_database.png
+  - Human X chromosome
+- **File:Human X and Y chromosomes and their role in determining the sex of the child.svg** · CC BY-SA 4.0 · Parsa 2au · 2023-08-22 · 512×440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Human_X_and_Y_chromosomes_and_their_role_in_determining_the_sex_of_the_child.svg/1280px-Human_X_and_Y_chromosomes_and_their_role_in_determining_the_sex_of_the_child.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_X_and_Y_chromosomes_and_their_role_in_determining_the_sex_of_the_child.svg
+  - Human X and Y chromosomes and their role in determining the sex of the child
+- **File:Human chromosome X - 400 550 850 bphs.png** · Public domain · National Center for Biotechnology Information, U.S. National Library of Medicine · 2015-08-13 · 989×1713
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/04/Human_chromosome_X_-_400_550_850_bphs.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_-_400_550_850_bphs.png
+  - Ideograms of G-band pattern of human X chromosome in three different resolutions (400, 550 and 850 bphs, bands per haploid set). Different resolutions are corresponding to different band patterns observed through mitotic phase (about relation between banding resolution and mitotic phase, see, for ex
+- **File:NCBI - Human X Chromosome Cytogenetic Map - Focus G6PD.png** · Public domain · National Center for Biotechnology Information (NCBI), Bethesda, MD, USA for X-chromosomal map. Christaras A for annotations added. · 2006-09-28 · 236×525
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b9/NCBI_-_Human_X_Chromosome_Cytogenetic_Map_-_Focus_G6PD.png
+  - page: https://commons.wikimedia.org/wiki/File:NCBI_-_Human_X_Chromosome_Cytogenetic_Map_-_Focus_G6PD.png
+  - Human X chromosome in cytogenetic view (G-banding) with annotations added. Focus on G6PD deficiency (marked red).
+- **File:Human chromosome X from NCBI Bookshelf - no text.png** · Public domain · National Center for Biotechnology Information · 1998 · 30×370
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b5/Human_chromosome_X_from_NCBI_Bookshelf_-_no_text.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_from_NCBI_Bookshelf_-_no_text.png
+  - Ideogram of human X chromosome.
+- **File:Human chromosome X from IJMS-16-06464 no text.png** · CC BY 4.0 · Merlin G. Butler, Syed K. Rafi, Ann M. Manzardo and Lorie Gavulic (illustration) · Published: 20 March 2015 · 232×1809
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c1/Human_chromosome_X_from_IJMS-16-06464_no_text.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_from_IJMS-16-06464_no_text.png
+  - High-resolution human chromosome X ideogram (850 bands per haploid-set level). The centromere area, highlighted in black, separates the upper short “p” arm and lower long “q” arm.
+- **File:Human male karyotpe high resolution - X chromosome cropped.png** · Public domain · National Human Genome Research Institute · 2015-07-07 · 37×100
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bf/Human_male_karyotpe_high_resolution_-_X_chromosome_cropped.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_male_karyotpe_high_resolution_-_X_chromosome_cropped.png
+  - X chromosome after G-banding.
+- **File:Human chromosome X - ideogram from NCBI Map viewer.png** · Public domain · U.S. National Library of Medicine · 2015-07-20 · 320×2040
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f0/Human_chromosome_X_-_ideogram_from_NCBI_Map_viewer.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_-_ideogram_from_NCBI_Map_viewer.png
+  - Ideogram of human X chromosome. G-banding pattern at the 850 band resolution.
+- **File:Human chromosome X FISH-mapped BACs from CGAP.png** · Public domain · Cancer Genome Anatomy Project · 2015-07-24 · 127×863
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fb/Human_chromosome_X_FISH-mapped_BACs_from_CGAP.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_chromosome_X_FISH-mapped_BACs_from_CGAP.png
+  - Human chromosome X, FISH-mapped BAC clones at a resolution of 1-2 MB. Since this BAC map is constructed at a higher resolution than that used in the traditional ISCN (1978) G-stain 850-band nomenclature system, it was necessary to derive a method for referencing this data. They chose to add a lowerc

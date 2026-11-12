@@ -1,0 +1,30 @@
+{
+ "readHash": "8e3b278451d50bc2fe65fe069f44a37d5bd275be",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Joint variability, sign, positive/negative behavior, mean, and positively/negatively correlated all from 1,2,3,10,24,25"
+  },
+  "r1": {
+   "supported": true,
+   "why": "Units X times Y (13), meters to millimeters (6), correlation coefficient dividing by product of SDs to -1..1 (8), dimensionless (14)"
+  },
+  "r2": {
+   "supported": true,
+   "why": "cov(X,X)=var(X) (16), sigma_XY notation (11), uncorrelated (17), independence implies zero via E[XY] (19,20)"
+  },
+  "r3": {
+   "supported": true,
+   "why": "Non-linear relation with linear measures (21), uncorrelated not independent (22), joint normal exception (23), linear algebra distinction (37,38)"
+  },
+  "r4": {
+   "supported": true,
+   "why": "Population parameter vs sample covariance estimate (9); catastrophic cancellation and stable algorithms for uncentered data (35,36)"
+  },
+  "r5": {
+   "supported": true,
+   "why": "Biology, conserved sequences, noncoding RNA motifs, GRM/kinship for population structure and heritability all in 41-44"
+  }
+ }
+}

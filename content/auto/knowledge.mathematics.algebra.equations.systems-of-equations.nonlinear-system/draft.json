@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "A nonlinear system is one in which the change in the output is not proportional to the change in the input.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In a nonlinear system of equations, at least one equation is not linear, so it cannot be written as a linear combination of the unknowns.",
+   "cites": [
+    5,
+    19
+   ]
+  },
+  {
+   "text": "Because such equations are hard to solve, they are often approximated by linear ones, which hides effects such as chaos.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Defining trait",
+   "value": "Output change is not proportional to input change",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Equation test",
+   "value": "At least one equation in the set is not linear",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Usual shortcut",
+   "value": "Approximating with linear equations, called linearization",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Chaos example",
+   "value": "Some aspects of the weather are chaotic",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Main solving method",
+   "value": "Newton's method and its variants, for differentiable functions",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Machine A always gives 2 extra units out for each extra unit in. Machine B gives 2 extra out for the first extra unit in, then 5 extra out for the next one. Which one is a nonlinear system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Machine B, since equal input steps give different output changes"
+    },
+    {
+     "id": "b",
+     "label": "Machine A, since its output keeps growing as input rises"
+    },
+    {
+     "id": "c",
+     "label": "Both, since any machine that produces more output qualifies"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since both give more output for more input"
+    }
+   ],
+   "answer": "a",
+   "explain": "A nonlinear system is one where the change in output is not proportional to the change in input. Machine B breaks that pattern.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A scientist faces equations that are very hard to solve exactly. Why might she swap in simpler straight-line equations anyway?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Straight-line versions are always exactly equal to the originals"
+    },
+    {
+     "id": "b",
+     "label": "Straight-line versions reveal more hidden behaviour than the originals"
+    },
+    {
+     "id": "c",
+     "label": "Straight-line versions are easier to solve and work well within a limited range"
+    },
+    {
+     "id": "d",
+     "label": "Straight-line versions are the only ones that have solutions at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Hard nonlinear equations are commonly approximated by linear ones, which works well up to some accuracy and some range of inputs.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "A forecaster replaces a swirling weather model with a simple straight-line one. What is she most likely to lose?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Behaviour such as chaos, where small changes ripple into big effects"
+    },
+    {
+     "id": "b",
+     "label": "The ability to add up the numbers in the model"
+    },
+    {
+     "id": "c",
+     "label": "Any chance of the model matching its inputs at all"
+    },
+    {
+     "id": "d",
+     "label": "The units used to measure temperature and wind"
+    }
+   ],
+   "answer": "a",
+   "explain": "Linearization hides interesting phenomena such as chaos, and some aspects of the weather are chaotic.",
+   "cites": [
+    9,
+    12
+   ]
+  },
+  {
+   "prompt": "A shuffled-looking pattern in a nonlinear system turns out to follow fixed rules. Does the jumpy behaviour count as random?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, anything that looks unpredictable must be random"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because nothing in a nonlinear system can follow rules"
+    },
+    {
+     "id": "c",
+     "label": "Only when the system is approximated by a linear one"
+    },
+    {
+     "id": "d",
+     "label": "No, chaotic behaviour can resemble random behaviour but is not random"
+    }
+   ],
+   "answer": "d",
+   "explain": "Chaotic behaviour may look like random behaviour, but it is in fact not random.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "Three equations in several unknowns: two are straight-line, and one has an unknown multiplied by itself. Is the set of equations linear?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since most of its equations are straight-line"
+    },
+    {
+     "id": "b",
+     "label": "No, a single equation that is not linear is enough to spoil it"
+    },
+    {
+     "id": "c",
+     "label": "Yes, since the two straight-line ones cancel out the third"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if every equation in the set is not linear"
+    }
+   ],
+   "answer": "b",
+   "explain": "A nonlinear system of equations has at least one equation that is not linear.",
+   "cites": [
+    4,
+    19
+   ]
+  },
+  {
+   "prompt": "You found two different solutions to a nonlinear equation. Can you add them together to build a new, third solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any two solutions can always be combined this way"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when both solutions are positive"
+    },
+    {
+     "id": "c",
+     "label": "Generally no, because known solutions cannot usually be combined into new ones"
+    },
+    {
+     "id": "d",
+     "label": "Generally yes, since combining is the main tool for these equations"
+    }
+   ],
+   "answer": "c",
+   "explain": "One of the greatest difficulties of nonlinear problems is that known solutions generally cannot be combined into new ones, unlike in linear problems.",
+   "cites": [
+    34,
+    37
+   ]
+  }
+ ]
+}

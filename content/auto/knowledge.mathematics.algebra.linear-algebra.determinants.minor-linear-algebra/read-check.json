@@ -1,0 +1,34 @@
+{
+ "readHash": "1859434a1a03ed5a07cf3df95daed0626ebf49ae",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Definition [1], smaller requirement often omitted [3], submatrix vs minor terminology [10]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "(i,j) minor by deleting row i and column j, M_(i,j) [4][5]; cofactor via (-1)^(i+j), C_(i,j) [6]; M2,3 example [7]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "First minors for cofactors, determinant and inverse [2]; transpose of cofactor matrix is adjugate/classical adjoint [16]; zeroth minor is determinant [12]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "m x n matrix, integer 0<k<=m, k<=n [8]; k x k minor of order k by deleting m-k rows, n-k columns [9]; order zero often 1 [11]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Rank r gives a nonzero r x r minor and all larger minors zero over a field [17]; basic minor defined [20]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Principal minor I=J [18], i leading principal minors [19], Hermitian definiteness tests [21], Sylvester's criterion for details [22]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Wedge-product treatment [24], k x k minors as components of k-vectors [25], coefficients -13,-7,5 agree with earlier minors [26][27]."
+  }
+ }
+}

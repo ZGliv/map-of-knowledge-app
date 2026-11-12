@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.motion.trajectories",
+ "name": "Trajectories",
+ "summary": [
+  {
+   "text": "A trajectory describes the physical path a moving object follows across space over a period of time.",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "While simple paths in a vacuum form parabolas or ellipses, motion in nature often involves extra forces like air drag or radiation pressure.",
+   "cites": [
+    10,
+    11,
+    14,
+    15,
+    30
+   ]
+  },
+  {
+   "text": "Newton's theory of motion grew into classical mechanics, which helps explain and predict an enormous range of phenomena, including the orbits of planets.",
+   "cites": [
+    15,
+    16,
+    20
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Parabolic Path",
+   "value": "Shape of short throws under uniform gravity in a vacuum",
+   "cites": [
+    8,
+    9,
+    10,
+    30
+   ]
+  },
+  {
+   "label": "Orbital Shapes",
+   "value": "Ellipses or hyperbolas created by spherical gravitational fields",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Ballistics Focus",
+   "value": "Calculates motion while accounting for air drag and gravity variations",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Launch Speed",
+   "value": "Initial velocity at which an object leaves its origin",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An astronaut on the Moon throws a small rock a short distance across the airless surface. What geometric shape best describes the path the rock takes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight vertical line rising and falling"
+    },
+    {
+     "id": "b",
+     "label": "A perfect, endless circle"
+    },
+    {
+     "id": "c",
+     "label": "A parabola"
+    },
+    {
+     "id": "d",
+     "label": "A hyperbola"
+    }
+   ],
+   "answer": "c",
+   "explain": "In a simplified model with a uniform gravitational field and no air drag, such as throwing a rock short distances on the Moon, the trajectory is a parabola.",
+   "cites": [
+    8,
+    9,
+    10,
+    30
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.trajectories:q1"
+  },
+  {
+   "prompt": "A space probe travels near a large, perfectly spherical planet with no atmosphere. If gravity is the only force acting on the probe, what shape will its path take?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A conic section, such as an ellipse or hyperbola"
+    },
+    {
+     "id": "b",
+     "label": "A uniform parabola curved toward the horizon"
+    },
+    {
+     "id": "c",
+     "label": "A spiraling circle that steadily shrinks"
+    },
+    {
+     "id": "d",
+     "label": "A straight line that bends into a right angle"
+    }
+   ],
+   "answer": "a",
+   "explain": "In the gravitational field of a spherically symmetrical mass, the moving object's trajectory is a conic section, typically an ellipse or hyperbola.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.trajectories:q2"
+  },
+  {
+   "prompt": "A comet passes very close to the Sun. Why might its real path differ from a pure gravitational orbit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Air resistance in deep space slows the comet down significantly."
+    },
+    {
+     "id": "b",
+     "label": "Solar wind and radiation pressure exert additional forces on it."
+    },
+    {
+     "id": "c",
+     "label": "The comet loses its mass, causing gravity to stop acting on it."
+    },
+    {
+     "id": "d",
+     "label": "Classical mechanics does not apply to objects larger than rocks."
+    }
+   ],
+   "answer": "b",
+   "explain": "When a comet passes close to the Sun, non-gravitational influences like solar wind and radiation pressure modify its orbit.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.trajectories:q3"
+  },
+  {
+   "prompt": "Why does a rock thrown on the Moon follow a simple parabola more closely than one thrown on Earth?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its lighter gravity makes rocks lose weight in flight"
+    },
+    {
+     "id": "b",
+     "label": "Rocks keep more of their speed when launched there"
+    },
+    {
+     "id": "c",
+     "label": "Its surface is flatter than any terrain on Earth"
+    },
+    {
+     "id": "d",
+     "label": "It has almost no atmosphere to add air drag"
+    }
+   ],
+   "answer": "d",
+   "explain": "Air drag and other effects can change a trajectory, but in a near vacuum such as on the Moon the simple parabolic path is essentially correct.",
+   "cites": [
+    11,
+    30
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.trajectories:q4"
+  },
+  {
+   "prompt": "A kicker wants to send a ball as far as possible at a fixed launch speed on the airless Moon. Which launch angle does that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Halfway between flat and straight up, at 45°"
+    },
+    {
+     "id": "b",
+     "label": "As steep as possible, nearly straight up"
+    },
+    {
+     "id": "c",
+     "label": "Nearly flat, close to the ground"
+    },
+    {
+     "id": "d",
+     "label": "About 60 degrees, steeper than halfway"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a given launch speed in a uniform field without drag, the maximum range comes when the initial angle is 45°.",
+   "cites": [
+    27,
+    37
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.trajectories:q5"
+  },
+  {
+   "prompt": "According to Hamiltonian mechanics, what two quantities must be known at the same time to fully define an object's trajectory?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its launch angle and drag coefficient"
+    },
+    {
+     "id": "b",
+     "label": "Its mass and acceleration"
+    },
+    {
+     "id": "c",
+     "label": "Its position and momentum"
+    },
+    {
+     "id": "d",
+     "label": "Its elevation angle and time in flight"
+    }
+   ],
+   "answer": "c",
+   "explain": "In Hamiltonian mechanics within classical physics, a complete trajectory is defined simultaneously by position and momentum.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.trajectories:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/RiflemansRule.svg/960px-RiflemansRule.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Trajectories",
+  "credit": "Softwarejonas",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:RiflemansRule.svg"
+ },
+ "source": {
+  "title": "Trajectory",
+  "url": "https://en.wikipedia.org/wiki/Trajectory",
+  "revision": 1344958910
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a trajectory is",
+    "text": "A trajectory is the path an object follows as it moves over time. The object might be a projectile or a satellite, or a planet, asteroid or comet travelling around a central mass. In classical mechanics, Hamiltonian mechanics defines a complete trajectory by position and momentum together. The word is used outside physics too: control theory uses it for a set of states of a dynamical system, listed in time order.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "A thrown stone",
+    "text": "One familiar trajectory is the path of a thrown ball or rock. In a much simplified model, only a uniform pull of gravity acts on it, and the path comes out as a parabola. That is a good approximation for a rock tossed a short way on the Moon. In general, though, working out a trajectory may mean allowing for gravity that varies and for air resistance, and that is the job of ballistics.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Galileo's idealised path",
+    "text": "Galileo Galilei first studied the ideal case of a projectile in uniform gravity with no other forces such as air drag. Throughout the Middle Ages in Europe, practical investigators would have seen ignoring the air as a pointless idea. Galileo expected a vacuum to exist, which his collaborator Evangelista Torricelli later showed on Earth, and this let him start the future science of mechanics. In a near vacuum, such as on the Moon, his simple parabola turns out to be essentially right.",
+    "cites": [
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Orbits",
+    "text": "A major success of Newtonian mechanics was deriving Kepler's laws of planetary motion. Around a point mass, or a spherically symmetrical mass such as the Sun, a moving object follows a conic section, usually an ellipse or a hyperbola. This matches the orbits of planets, comets and spacecraft reasonably well. A comet that passes close to the Sun is also pushed by the solar wind and radiation pressure, which alter its orbit and make it throw material into space.",
+    "cites": [
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "How far and how high",
+    "text": "Let g be the acceleration of gravity, and launch a projectile from flat ground at speed v and angle θ. Its starting horizontal speed is vₕ = vcos (θ) and its starting vertical speed is v_v = vsin (θ). The range is 2v_hv_v/g and the highest point reached is v_v²/2g. For a given launch speed, the range is greatest when vₕ = v_v, which means a launch angle of 45 degrees, and that range is v²/g.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "The law underneath",
+    "text": "Picture a particle of mass m travelling through a potential field V. The mass stands for inertia, and V stands for a kind of outside force called conservative. If you know V at every point that matters, you can work out the force acting at each point, such as the force from gravity, though not every force can be described this way. The equation of the trajectory is then Newton's second law: force equals mass times acceleration.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     26
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-4-3",
+   "kind": "book",
+   "title": "4.3 Projectile Motion - University Physics Volume 1",
+   "by": "OpenStax (William Moebs, Samuel J. Ling, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion",
+   "note": "A free textbook section on the parabolic path of a projectile, its range and time of flight.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

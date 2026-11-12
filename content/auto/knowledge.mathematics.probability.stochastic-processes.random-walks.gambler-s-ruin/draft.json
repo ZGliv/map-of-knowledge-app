@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "Gambler's ruin is the fact that a gambler playing a game that is not in their favor will eventually go bankrupt, no matter what betting system they use.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Even in a fair game, a gambler with limited money who keeps playing against an opponent with unlimited money will eventually go broke.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "The idea comes from a theorem by Christiaan Huygens and led to important advances in the mathematical theory of probability.",
+   "cites": [
+    6,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core claim",
+   "value": "A non-positive expected value game ends in bankruptcy, whatever the betting system",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Modeled as",
+   "value": "A random walk on the real number line",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Origin",
+   "value": "A general theorem by Christiaan Huygens",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "What Huygens' theorem finds",
+   "value": "Each player's chance of winning a series of bets until one is wiped out",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Small stake disadvantage",
+   "value": "Even with equal odds, the player starting with fewer pennies is likelier to fail",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gambler with a limited bankroll plays a perfectly fair game, every night, against an opponent with unlimited money. What does the theory say happens eventually?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The gambler goes broke"
+    },
+    {
+     "id": "b",
+     "label": "The gambler ends up well ahead"
+    },
+    {
+     "id": "c",
+     "label": "The results balance out, so the gambler stays afloat"
+    },
+    {
+     "id": "d",
+     "label": "It depends on how big the first bet is"
+    }
+   ],
+   "answer": "a",
+   "explain": "A persistent gambler with finite wealth, playing a fair game against an opponent with infinite wealth, will eventually and inevitably go broke.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Your friend invents a clever betting system for a game that is slightly stacked against him. Will the system save him from going broke in the long run?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any careful system beats a small disadvantage"
+    },
+    {
+     "id": "b",
+     "label": "Only if he changes the bet size after every round"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as he starts with enough money"
+    },
+    {
+     "id": "d",
+     "label": "No, he will eventually go bankrupt whatever system he uses"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gambler's ruin says a player in a game with non-positive expected value eventually goes bankrupt regardless of their betting system.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "Is a gambler who plays a game tilted against them any better off in the long run than one who plays a perfectly fair game?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because a tilted game ends sooner and cuts losses"
+    },
+    {
+     "id": "b",
+     "label": "No, their eventual fate cannot be better, so they go broke too"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because they are more careful with each bet"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if the casino has unlimited money"
+    }
+   ],
+   "answer": "b",
+   "explain": "The eventual fate of a player at a game with negative expected value cannot be better than that of a player at a fair game, so they go broke as well.",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "prompt": "Two friends flip a fair coin, and the loser of each flip hands the winner one penny. One starts with 3 pennies, the other with 50. Who is more likely to end up with nothing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with 50, since they have more to lose"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since the coin is fair to both"
+    },
+    {
+     "id": "c",
+     "label": "The one with 3, since a short losing run wipes them out"
+    },
+    {
+     "id": "d",
+     "label": "Each is equally likely, since each flip is 50-50"
+    }
+   ],
+   "answer": "c",
+   "explain": "Even with equal odds on each flip, the player who starts with fewer pennies is more likely to fail.",
+   "cites": [
+    34,
+    35,
+    36,
+    40
+   ]
+  },
+  {
+   "prompt": "A gambler raises each bet after a win and never lowers it after a loss, and each bet has a favorable expected value. What outcome is virtually certain over time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The bets stay profitable, so the bankroll grows steadily"
+    },
+    {
+     "id": "b",
+     "label": "The gambler stabilizes at a constant bankroll"
+    },
+    {
+     "id": "c",
+     "label": "The gambler is protected, since each bet favors them"
+    },
+    {
+     "id": "d",
+     "label": "The gambler eventually goes broke"
+    }
+   ],
+   "answer": "d",
+   "explain": "Such a persistent gambler will eventually go broke, even if each bet has a positive expected value.",
+   "cites": [
+    2,
+    28
+   ]
+  },
+  {
+   "prompt": "Suppose you know each of two players' starting money, and each bet has the same chance of being won. Huygens's theorem lets you work out what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How long a single bet will take to settle"
+    },
+    {
+     "id": "b",
+     "label": "How much each player should wager on every bet"
+    },
+    {
+     "id": "c",
+     "label": "Which player is the more skilled gambler"
+    },
+    {
+     "id": "d",
+     "label": "Each player's chance of winning the whole series of bets"
+    }
+   ],
+   "answer": "d",
+   "explain": "The theorem computes the probability of each player winning a series of bets that continues until one player's entire stake is lost.",
+   "cites": [
+    7
+   ]
+  }
+ ]
+}

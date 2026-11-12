@@ -1,0 +1,107 @@
+{
+ "title": "Same stuff, different behavior",
+ "question": "Why do solids, liquids and gases act so differently?",
+ "hook": "Some matter keeps its shape, some flows to fit a container, and some fills every corner.",
+ "idea": "The difference is how tightly the particles are packed and how freely they move.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You pour a liquid from a tall glass into a wide bowl. What happens to its shape and its amount?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It keeps the glass's tall shape, and the amount stays the same",
+     "feedback": "Tempting because a solid behaves this way, but liquid particles can move past one another and adapt to the container."
+    },
+    {
+     "id": "b",
+     "label": "It takes the bowl's shape, and the amount stays the same"
+    },
+    {
+     "id": "c",
+     "label": "It spreads to fill the whole bowl, and the amount grows",
+     "feedback": "That is what a gas does; a liquid keeps a fixed volume."
+    }
+   ],
+   "answer": "b",
+   "explain": "Liquid particles stay close together but slide past one another, so the volume is fixed while the shape follows the container.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each state to how its particles behave.",
+   "pairs": [
+    [
+     "Solid",
+     "Tightly packed in fixed positions"
+    ],
+    [
+     "Liquid",
+     "Close together but able to move past one another"
+    ],
+    [
+     "Gas",
+     "Far apart and moving freely"
+    ],
+    [
+     "Plasma",
+     "Contains charged ions and free electrons"
+    ]
+   ],
+   "explain": "The states are told apart by how their particles are arranged and how they behave collectively.",
+   "cites": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Ice is the solid state of water.",
+    "Ice has fifteen known crystal structures, formed at different pressures and temperatures.",
+    "So each of those structures must be its own state of matter.",
+    "Therefore water has at least fifteen states."
+   ],
+   "wrong": 2,
+   "explain": "Different crystal structures are different phases within the same state, here the solid state.",
+   "cites": [
+    14,
+    15,
+    23
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A beaker of liquid sits at a steady temperature. Without heating it, how could you turn it into a gas?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Raise the pressure around it",
+     "feedback": "Compression works the other way: below the critical temperature it can liquefy a vapor."
+    },
+    {
+     "id": "b",
+     "label": "Reduce the pressure around it"
+    },
+    {
+     "id": "c",
+     "label": "Cool it until it solidifies",
+     "feedback": "Cooling moves a liquid toward a solid, not a gas."
+    }
+   ],
+   "answer": "b",
+   "explain": "A liquid may become a gas by reducing the pressure at constant temperature.",
+   "cites": [
+    38,
+    39
+   ]
+  }
+ ]
+}

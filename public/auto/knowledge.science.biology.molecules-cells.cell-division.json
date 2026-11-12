@@ -1,0 +1,580 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.cell-division",
+ "name": "Cell division",
+ "summary": [
+  {
+   "text": "Cell division is the process by which a parent cell divides into two daughter cells.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In eukaryotes there are two types: mitosis, which makes daughter cells genetically identical to the parent, and meiosis, which makes haploid gametes for sexual reproduction.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "All cell divisions, whatever the organism, are preceded by a single round of DNA replication.",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Mitosis outcome",
+   "value": "Genetically identical cells, with chromosome number maintained",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Meiosis outcome",
+   "value": "Two divisions give four haploid daughter cells",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Prokaryote method",
+   "value": "Usually binary fission, splitting genetic material equally",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Lifetime divisions",
+   "value": "The human body has about 10 quadrillion",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Single-celled organisms",
+   "value": "For an amoeba, one division equals reproduction",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gardener plants a cutting, and it grows into a whole new plant. Which kind of cell division makes this possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mitosis, which produces genetically identical cells"
+    },
+    {
+     "id": "b",
+     "label": "Meiosis, which produces haploid gametes"
+    },
+    {
+     "id": "c",
+     "label": "Binary fission, which is how bacteria divide"
+    },
+    {
+     "id": "d",
+     "label": "Amitosis, a primitive form of cell division"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mitotic cell division can create progeny from multicellular organisms, such as plants that grow from cuttings.",
+   "cites": [
+    3,
+    18
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division:q1"
+  },
+  {
+   "prompt": "Egg and sperm cells must each carry half the usual set of chromosomes. Which division makes cells like that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mitosis, which keeps the chromosome number the same"
+    },
+    {
+     "id": "b",
+     "label": "Binary fission, which splits genetic material equally"
+    },
+    {
+     "id": "c",
+     "label": "Meiosis, which reduces the chromosome number"
+    },
+    {
+     "id": "d",
+     "label": "Amitosis, a primitive form of cell division"
+    }
+   ],
+   "answer": "c",
+   "explain": "Meiosis produces haploid gametes by reducing the chromosomes from two of each type to one of each type.",
+   "cites": [
+    3,
+    29,
+    30
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division:q2"
+  },
+  {
+   "prompt": "A person begins as a single cell formed when two gametes fuse. What lets that one cell grow into a whole body?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Meiosis, repeated until enough cells exist"
+    },
+    {
+     "id": "b",
+     "label": "Binary fission, as in bacteria"
+    },
+    {
+     "id": "c",
+     "label": "Amitosis, a primitive form of cell division"
+    },
+    {
+     "id": "d",
+     "label": "Mitosis, which builds and repairs the organism"
+    }
+   ],
+   "answer": "d",
+   "explain": "Mitotic cell division lets sexually reproducing organisms develop from the one-celled zygote and then allows continual construction and repair.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division:q3"
+  },
+  {
+   "prompt": "A single bacterium makes two new cells from itself. Which method does it usually use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mitosis, with chromosomes lining up on a plate"
+    },
+    {
+     "id": "b",
+     "label": "Binary fission, splitting its genetic material equally"
+    },
+    {
+     "id": "c",
+     "label": "Meiosis, halving its chromosomes first"
+    },
+    {
+     "id": "d",
+     "label": "Gametic meiosis, producing four gametes"
+    }
+   ],
+   "answer": "b",
+   "explain": "Prokaryotes such as bacteria usually divide by binary fission, segregating their genetic material equally into two daughter cells.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division:q4"
+  },
+  {
+   "prompt": "An amoeba divides, and a whole new organism exists. What is different about cell division inside the body of a grown animal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It repairs or adds to the existing organism rather than making a new one"
+    },
+    {
+     "id": "b",
+     "label": "It always produces haploid gametes instead of ordinary cells"
+    },
+    {
+     "id": "c",
+     "label": "It happens without any DNA replication beforehand"
+    },
+    {
+     "id": "d",
+     "label": "It cuts the chromosome number in half every time"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a simple single-celled organism one division is reproduction, but in an adult mitosis allows continual construction and repair of the organism.",
+   "cites": [
+    16,
+    17,
+    20
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division:q5"
+  },
+  {
+   "prompt": "A cell's DNA is damaged as it moves through the cell cycle. What can the checkpoints do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Rush the cell through so it divides before the damage spreads"
+    },
+    {
+     "id": "b",
+     "label": "Copy the damaged DNA twice so that one good copy survives"
+    },
+    {
+     "id": "c",
+     "label": "Halt progress through the cycle while the damage is repaired"
+    },
+    {
+     "id": "d",
+     "label": "Skip DNA replication and go straight to the division"
+    }
+   ],
+   "answer": "c",
+   "explain": "DNA damage is detected and repaired at cell cycle checkpoints, which can halt progression through the cycle.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Three_cell_growth_types.svg/960px-Three_cell_growth_types.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Cell division",
+  "credit": "domdomegg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Three_cell_growth_types.svg"
+ },
+ "source": {
+  "title": "Cell division",
+  "url": "https://en.wikipedia.org/wiki/Cell_division",
+  "revision": 1384139751
+ },
+ "pack": {
+  "id": "auto-molecules-cells-cell-division",
+  "title": "Two Ways to Split",
+  "question": "How can one cell divide in two different ways for two different jobs?",
+  "path": [
+   "Science",
+   "Biology",
+   "Molecules & Cells",
+   "Cell division"
+  ],
+  "hue": 180,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Three_cell_growth_types.svg/960px-Three_cell_growth_types.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Cell division",
+    "credit": "domdomegg · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_cell_growth_types.svg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Two Ways to Split",
+    "hook": "A cell can split into identical copies or into cells with half the chromosomes, and each way has its own job."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-molecules-cells-cell-division:1",
+    "transfer": false,
+    "prompt": "A diploid cell, with two of each type of chromosome, goes through the vegetative division. What do its daughter cells look like?",
+    "explain": "Mitosis produces daughter cells genetically identical to the parent cell, with the total number of chromosomes maintained.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Haploid, with one of each type of chromosome",
+        "feedback": "That describes the division that makes gametes, not the vegetative one."
+       },
+       {
+        "id": "c",
+        "label": "A random mix, with a changed chromosome number",
+        "feedback": "The vegetative division keeps the total number of chromosomes the same."
+       },
+       {
+        "id": "a",
+        "label": "Genetically identical to the parent, with the same chromosome number"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-molecules-cells-cell-division:2",
+    "transfer": false,
+    "prompt": "Match each type of division to what it does.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Mitosis"
+     },
+     {
+      "id": "l1",
+      "label": "Meiosis"
+     },
+     {
+      "id": "l2",
+      "label": "Binary fission"
+     },
+     {
+      "id": "l3",
+      "label": "An amoeba dividing"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Equals reproduction"
+     },
+     {
+      "id": "r0",
+      "label": "Genetically identical daughter cells"
+     },
+     {
+      "id": "r1",
+      "label": "Haploid gametes"
+     },
+     {
+      "id": "r2",
+      "label": "How prokaryotes usually divide"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each division type has its own result, from identical copies to gametes to a whole new single-celled organism."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-molecules-cells-cell-division:3",
+    "transfer": true,
+    "prompt": "Put the steps of meiosis in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "DNA replication"
+     },
+     {
+      "id": "b",
+      "label": "First division: homologous chromosomes separate"
+     },
+     {
+      "id": "c",
+      "label": "Second division: sister chromatids separate"
+     },
+     {
+      "id": "d",
+      "label": "Four haploid cells"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Start",
+     "End"
+    ],
+    "explain": "Meiosis follows DNA replication with two divisions, ending in four haploid daughter cells."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-molecules-cells-cell-division:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each description into the division it fits.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Daughter cells genetically identical to the parent"
+     },
+     {
+      "id": "i1",
+      "label": "Chromosome number is maintained"
+     },
+     {
+      "id": "i2",
+      "label": "Chromosome number is reduced"
+     },
+     {
+      "id": "i3",
+      "label": "Four haploid daughter cells result"
+     },
+     {
+      "id": "i4",
+      "label": "Haploid gametes are produced"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Mitosis"
+     },
+     {
+      "id": "g1",
+      "label": "Meiosis"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Mitosis keeps the chromosome number and makes identical cells, while meiosis reduces it and makes haploid cells."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Mitosis makes genetically identical cells with the chromosome number kept, while meiosis makes four haploid cells, so the two do different jobs.",
+    "connections": [
+     {
+      "title": "Cell cycle",
+      "place": "Cell division",
+      "node": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle"
+     },
+     {
+      "title": "Mitosis",
+      "place": "Cell division",
+      "node": "knowledge.science.biology.molecules-cells.cell-division.mitosis"
+     },
+     {
+      "title": "Meiosis",
+      "place": "Cell division",
+      "node": "knowledge.science.biology.molecules-cells.cell-division.meiosis"
+     },
+     {
+      "title": "Apoptosis",
+      "place": "Cell division",
+      "node": "knowledge.science.biology.molecules-cells.cell-division.apoptosis"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Mitosis produces daughter cells genetically identical to the parent cell, with the total number of chromosomes maintained.",
+    "source": "Wikipedia sentences 3, 5"
+   },
+   {
+    "claim": "Each division type has its own result, from identical copies to gametes to a whole new single-celled organism.",
+    "source": "Wikipedia sentences 3, 15, 17"
+   },
+   {
+    "claim": "Meiosis follows DNA replication with two divisions, ending in four haploid daughter cells.",
+    "source": "Wikipedia sentences 10, 11, 12"
+   },
+   {
+    "claim": "Mitosis keeps the chromosome number and makes identical cells, while meiosis reduces it and makes haploid cells.",
+    "source": "Wikipedia sentences 3, 5, 10, 29, 30"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What cell division is",
+    "text": "Cell division is how one parent cell becomes two daughter cells. It is usually one part of a bigger cell cycle, during which the cell first grows and copies its chromosomes, then splits. In every organism, each division comes after a single round of DNA replication. The central aim is to keep the original cell's genome intact: the genetic information in the chromosomes has to be copied, and the copy then shared out cleanly between the new cells.",
+    "cites": [
+     1,
+     2,
+     16,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Two kinds in eukaryotes",
+    "text": "Eukaryotes divide in two distinct ways. Mitosis is a vegetative division that keeps the chromosome number the same and gives daughter cells genetically identical to the parent. Meiosis makes haploid gametes for sexual reproduction, so a diploid parent with two chromosomes of each type gives daughters with just one of each. It runs through two divisions and ends with four haploid daughter cells. The first division separates homologous chromosomes, and the second separates the two sister chromatids that each already-copied chromosome carries.",
+    "cites": [
+     3,
+     10,
+     11,
+     12,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "For a simple single-celled microorganism such as an amoeba, one division is reproduction: a whole new organism appears. Mitotic division can also make offspring of multicellular organisms, as when plants grow from cuttings. Sexually reproducing organisms start as a one-celled zygote, formed when two gametes fuse, and mitosis lets them develop from it. Once the adult is grown, mitosis keeps building and repairing the body. A human body goes through about 10 quadrillion cell divisions in a lifetime.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Step by step in mitosis",
+    "text": "Before dividing, a cell passes through interphase, which has three main phases: G₁, S and G₂. G₁ is a growth time that readies the cell for DNA replication, and the DNA is then copied during S. In mitosis, the division of the nucleus, the chromosomes, each made of two sister chromatids, typically line up on the metaphase plate before the chromatids split and go to the two daughter cells. Cytokinesis then divides the cytoplasm, organelles and cell membrane into two cells with roughly equal shares. Along the way, checkpoints detect and repair DNA damage, and they can halt the cycle by blocking certain cyclin-CDK complexes.",
+    "cites": [
+     6,
+     8,
+     9,
+     33,
+     34,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "How bacteria divide",
+    "text": "Prokaryotes, meaning bacteria and archaea, usually divide by binary fission, sharing their genetic material equally between two daughter cells, though budding has also been seen. In bacteria, a protein complex called the divisome carries out division. It pinches in the inner and outer membranes and remodels the peptidoglycan cell wall at the site of the split. A tubulin-like protein called FtsZ is critical for building the contractile ring that does the dividing. Division in eukaryotes is more complicated than in these prokaryotes.",
+    "cites": [
+     15,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ap-3-5",
+   "kind": "book",
+   "title": "3.5 Cell Growth and Division",
+   "by": "OpenStax Anatomy and Physiology 2e",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-5-cell-growth-and-division",
+   "note": "A free textbook section on interphase, chromosome structure, mitosis, cytokinesis and how the cycle is controlled.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-10-5",
+   "kind": "book",
+   "title": "10.5 Prokaryotic Cell Division",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/10-5-prokaryotic-cell-division",
+   "note": "A free textbook section on binary fission in bacteria, the FtsZ ring, and how division compares across living things.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-10-1",
+   "kind": "book",
+   "title": "10.1 Cell Division - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/10-1-cell-division",
+   "note": "A free textbook section introducing cell division: genomes, chromosomes, and diploid and haploid cells.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-mitosis-cell-cycle",
+   "kind": "video",
+   "title": "Mitosis & the Cell Cycle: How Cells Clone Themselves: Crash Course Biology #29",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=skPOXcVvS5c",
+   "note": "A Crash Course video on how cells copy themselves through the cell cycle and mitosis."
+  }
+ ]
+}

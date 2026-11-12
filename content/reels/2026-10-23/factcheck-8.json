@@ -1,0 +1,34 @@
+{
+ "checker": "Claude (Opus 5.5), independent adversarial checker, round 8; did not write or edit these reels. Every quote was machine-matched against its pinned source (all exact, each occurs once). Both whole reels were read in reels.json. Every frame's narration hash was recomputed with src/explore/narrationText.ts (all 12 current), and both mp3 durations were measured with ffprobe: 49.83 s and 48.97 s, both under 50 s and matching reels.json.",
+ "checkedAt": "2026-10-23T20:46:13Z",
+ "units": [
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] \"Santos-Dumont is a national hero in Brazil, where it is popularly held that he preceded the Wright brothers in demonstrating a practical aeroplane.\" (exact)",
+   "note": "Round 7's fix is applied. 'Beat the Wright brothers to showing a practical aeroplane' brings back the source's 'in demonstrating', so the caption reports the narrow belief the source records: that he was first to demonstrate one, not first to have one. 'Many there hold' is a fair reading of 'it is popularly held', and 'counts him a national hero' matches 'is a national hero in Brazil'. The claim stays attributed to Brazilians and is not asserted as fact. In the reel, 'him' points back to Santos-Dumont (named in f1 and f6, and the 'him' of f3), and this frame shows his portrait (m1). F6 ('The first powered, controlled aeroplane to fly was the Wright brothers' Flyer') no longer reads as knocking down a broader version of the belief than the source gives. The frame has no 'say', so the voice reads the caption as written, and it contains no name the TTS could mispronounce. The hash is current (0b01fa9d), and the re-narrated reel runs 49.83 s.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] \"Herbert Spencer first used the phrase, after reading Charles Darwin's On the Origin of Species, in his Principles of Biology (1864)\" (exact)",
+   "note": "The trim cuts 'in his Principles of Biology of 1864' to 'from 1864'. Nothing the claim needs is lost: the author and the year carry the claim, and no later frame refers back to the book. 'From 1864' still dates where the words come from. The source's only earlier Spencer link is a 'concept similar to' the phrase in 1852, not the words themselves, so 1864 stays right. This frame is the prediction reveal (reveal 0, answer 'Herbert Spencer'), and it still answers it directly. The spoken line matches the caption: the quotation marks are dropped and the year is written out.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] \"In July 1866, Alfred Russel Wallace wrote to Darwin about readers thinking that the phrase \"natural selection\" personified nature as \"selecting\" and said this misconception could be avoided \"by adopting Spencer's term\"\" (exact)",
+   "note": "The trim cuts 'Alfred Russel Wallace wrote with a worry' to 'Wallace wrote to him with a worry'. The added 'to him' is backed by 'wrote to Darwin', and 'him' can only mean Darwin, the subject of the sentence before. The date (July 1866) and the 'worry' (spelled out in f4 as the misreading that nature chooses) are unchanged. On the name: no frame now gives his full name, but the reel still does. ReelPlayer.tsx starts the story only after a choice is picked on the prediction screen, and that screen lists 'Alfred Russel Wallace' as a choice. So every viewer sees the full name just before f1, and anyone who picked him keeps seeing 'You guessed Alfred Russel Wallace' from frame 0 onward. The voice never says 'Alfred Russel' because the prediction is not narrated, but that is not a fact error. 'His letters' still holds: Darwin's reply calls it 'H. Spencer's excellent expression'. The spoken line matches the caption, with the year written out.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-whose-words-were-they/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Survival of the fittest] \"I fully agree with all that you say on the advantages of H. Spencer's excellent expression of 'the survival of the fittest'. This however had not occurred to me till reading your letter.\" and \"In On the Origin of Species, he introduced the phrase in the fifth edition published in 1869\" (both exact)",
+   "note": "The first sentence is unchanged from round 7, which found it supported: it still says only that the phrase's ADVANTAGES had not occurred to him. The second sentence now names the book in full. That clears the round-7 clarity point, that no frame before this one named On the Origin of Species. 'Added it to the fifth edition' is the source's 'introduced the phrase in the fifth edition'. 'Added' implies the four earlier editions lacked it, which the source supports: had the letter come two months earlier he 'would have worked the phrase into the fourth edition'. 'On the Origin of Species' is the right title for the 1869 edition, since the title was only shortened to 'The Origin of Species' in 1872. The caption still does not claim this was his first use (that was Variation, 1868). A small grammar point, not a fact error: 'it' follows the noun 'that letter', but nobody would read it as adding a letter to a book. The spoken line matches the caption, with the year written out. The hash is current (9ed94656), and the reel runs 48.97 s, under 50 s.",
+   "fix": ""
+  }
+ ]
+}

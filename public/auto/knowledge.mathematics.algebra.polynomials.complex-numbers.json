@@ -1,0 +1,572 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.complex-numbers",
+ "name": "Complex numbers",
+ "summary": [
+  {
+   "text": "A complex number has the form a + bi, where a and b are ordinary real numbers and i is the imaginary unit, a number that satisfies i² = −1.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Complex numbers extend the real numbers and still allow addition, subtraction, multiplication and division with the same familiar laws, which makes them a field.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "They give solutions to all non-constant polynomial equations, even ones with no real solutions, and each complex number can be pictured as a point on a plane.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Parts of 2 + 3i",
+   "value": "Real part is 2 and imaginary part is 3",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Real numbers inside",
+   "value": "A real number a is the complex number a + 0i",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Naming",
+   "value": "Square roots of negatives were named imaginary in the 17th century",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Multiplication on the plane",
+   "value": "Multiplying by a complex number scales and rotates the plane",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Absolute value",
+   "value": "The distance from the origin to the point",
+   "cites": [
+    36
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend argues that no number can be multiplied by itself to give a negative result, because positives and negatives both end up positive. How does the complex number system respond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It redefines negative numbers so that they square to negatives"
+    },
+    {
+     "id": "b",
+     "label": "It bans negative numbers from the system altogether"
+    },
+    {
+     "id": "c",
+     "label": "It adds a new number i that satisfies i² = −1"
+    },
+    {
+     "id": "d",
+     "label": "It proves the friend's claim about positives is false"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every nonzero real number squares to a positive number, so the system introduces the imaginary unit i, which satisfies i² = −1.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers:q1"
+  },
+  {
+   "prompt": "A complex number is a plain number plus a multiple of i. Which piece is called its imaginary part?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The real number that multiplies i, without the i itself"
+    },
+    {
+     "id": "b",
+     "label": "The whole second term, with the i included"
+    },
+    {
+     "id": "c",
+     "label": "The plain number that has no i attached"
+    },
+    {
+     "id": "d",
+     "label": "The sum of the two pieces added together"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a + bi, the imaginary part is the real number b, not the complex number bi.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers:q2"
+  },
+  {
+   "prompt": "A teacher writes an everyday whole number such as nine on the board and asks whether it counts as a complex number. What is the right reply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because its imaginary part is missing altogether"
+    },
+    {
+     "id": "b",
+     "label": "No, complex numbers must have a nonzero imaginary part"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only after it has been multiplied by i"
+    },
+    {
+     "id": "d",
+     "label": "Yes, it is that number plus 0i, with imaginary part 0"
+    }
+   ],
+   "answer": "d",
+   "explain": "The complex numbers extend the real numbers, and a real number a is regarded as the complex number a + 0i.",
+   "cites": [
+    2,
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers:q3"
+  },
+  {
+   "prompt": "A drawing program stores each point as a complex number. What happens to the picture if every point is multiplied by the same complex number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It slides across the page without turning"
+    },
+    {
+     "id": "b",
+     "label": "It is scaled and rotated"
+    },
+    {
+     "id": "c",
+     "label": "It is flipped over, like a mirror image"
+    },
+    {
+     "id": "d",
+     "label": "It stays exactly where it was before"
+    }
+   ],
+   "answer": "b",
+   "explain": "On the complex plane, multiplying by a complex number corresponds to scaling and rotation, while adding one corresponds to translation.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers:q4"
+  },
+  {
+   "prompt": "A point sits 3 units across and 4 units up on the complex plane. What does the absolute value of its complex number measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How far the point is from the origin"
+    },
+    {
+     "id": "b",
+     "label": "How tall the point stands over the horizontal axis"
+    },
+    {
+     "id": "c",
+     "label": "The angle the point makes with the positive real axis"
+    },
+    {
+     "id": "d",
+     "label": "Which side of the plane the point lies on"
+    }
+   ],
+   "answer": "a",
+   "explain": "By Pythagoras' theorem, the absolute value is the distance from the origin to the point. The angle is a different quantity, called the argument.",
+   "cites": [
+    9,
+    36
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers:q5"
+  },
+  {
+   "prompt": "A complex number x + yi is multiplied by its conjugate, x − yi. What kind of number comes out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Another number with a nonzero imaginary part"
+    },
+    {
+     "id": "b",
+     "label": "A purely imaginary number, such as 3i"
+    },
+    {
+     "id": "c",
+     "label": "A real number that is never negative, x² + y²"
+    },
+    {
+     "id": "d",
+     "label": "Always minus one, whatever x and y are"
+    }
+   ],
+   "answer": "c",
+   "explain": "The product (x + iy)(x − iy) equals x² + y², which is a non-negative real number.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/A_plus_bi.svg/960px-A_plus_bi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Complex numbers",
+  "credit": "IkamusumeFan",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:A_plus_bi.svg"
+ },
+ "source": {
+  "title": "Complex number",
+  "url": "https://en.wikipedia.org/wiki/Complex_number",
+  "revision": 1381307413
+ },
+ "pack": {
+  "id": "auto-polynomials-complex-numbers",
+  "title": "Numbers with a sideways direction",
+  "question": "What do you get when a number is allowed to square to minus one?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Polynomials",
+   "Complex numbers"
+  ],
+  "hue": 54,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/A_plus_bi.svg/960px-A_plus_bi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Complex numbers",
+    "credit": "IkamusumeFan · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_plus_bi.svg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Numbers with a sideways direction",
+    "hook": "Square any ordinary number and you never land below zero, so what could possibly square to minus one?"
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-polynomials-complex-numbers:1",
+    "transfer": false,
+    "prompt": "In the 16th century, mathematicians met square roots of negative numbers while working on cubic equations. Every nonzero real number squares to a positive result, so these roots looked impossible. What did they do with them?",
+    "explain": "Such roots proved helpful for determining real solutions of cubic equations. At first they were treated as a mere symbolic contrivance, and in the 17th century they were named imaginary numbers.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Declared them fictitious, so they could never be used in real mathematics",
+        "feedback": "It tempts because of the name imaginary, but these numbers are no less valid than real numbers and are essential to science."
+       },
+       {
+        "id": "b",
+        "label": "Dropped cubic equations until a purely real method turned up",
+        "feedback": "It tempts because the roots looked impossible, but the roots turned out to be helpful for real solutions, so people kept using them."
+       },
+       {
+        "id": "a",
+        "label": "Used them as a symbolic device, since they helped find real solutions",
+        "feedback": ""
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-complex-numbers:2",
+    "transfer": false,
+    "prompt": "Match each operation or idea to what it means on the complex plane.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Adding a complex number"
+     },
+     {
+      "id": "l1",
+      "label": "Multiplying by a complex number"
+     },
+     {
+      "id": "l2",
+      "label": "Horizontal axis"
+     },
+     {
+      "id": "l3",
+      "label": "Absolute value of z"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Scales and rotates the plane"
+     },
+     {
+      "id": "r0",
+      "label": "Slides the plane (translation)"
+     },
+     {
+      "id": "r3",
+      "label": "Distance from the origin"
+     },
+     {
+      "id": "r2",
+      "label": "Shows the real part"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each statement turns something done with numbers into something you can see on the plane."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-complex-numbers:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each complex number by what kind of number it is.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "3 + 0i"
+     },
+     {
+      "id": "i1",
+      "label": "0 + 4i"
+     },
+     {
+      "id": "i2",
+      "label": "8 + 0i"
+     },
+     {
+      "id": "i3",
+      "label": "0 + 9i"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Real number"
+     },
+     {
+      "id": "g1",
+      "label": "Purely imaginary"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "A real number a is the complex number a + 0i, with imaginary part 0. A purely imaginary number bi is 0 + bi, with real part 0."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-polynomials-complex-numbers:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Positive times positive is positive, and negative times negative is also positive."
+     },
+     {
+      "id": "b",
+      "text": "So every real number squares to something that is not negative."
+     },
+     {
+      "id": "c",
+      "text": "So no real number squares to minus one."
+     },
+     {
+      "id": "d",
+      "text": "So no number of any kind can, and such equations have no solutions anywhere."
+     }
+    ],
+    "answer": "d",
+    "explain": "Complex numbers allow solutions to all non-constant polynomial equations, including ones that have no solutions among the real numbers."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Complex numbers add a second, sideways direction to the number line, and that is enough to solve every non-constant polynomial equation.",
+    "connections": [
+     {
+      "title": "Imaginary unit",
+      "place": "Complex numbers",
+      "node": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit"
+     },
+     {
+      "title": "Complex plane",
+      "place": "Complex numbers",
+      "node": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane"
+     },
+     {
+      "title": "Euler's formula",
+      "place": "Complex numbers",
+      "node": "knowledge.mathematics.algebra.polynomials.complex-numbers.euler-s-formula"
+     },
+     {
+      "title": "De Moivre's formula",
+      "place": "Complex numbers",
+      "node": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Such roots proved helpful for determining real solutions of cubic equations. At first they were treated as a mere symbolic contrivance, and in the 17th century they were named imaginary numbers.",
+    "source": "Wikipedia sentences 5, 6, 7"
+   },
+   {
+    "claim": "Each statement turns something done with numbers into something you can see on the plane.",
+    "source": "Wikipedia sentences 10, 17, 36"
+   },
+   {
+    "claim": "A real number a is the complex number a + 0i, with imaginary part 0. A purely imaginary number bi is 0 + bi, with real part 0.",
+    "source": "Wikipedia sentences 18, 19"
+   },
+   {
+    "claim": "Complex numbers allow solutions to all non-constant polynomial equations, including ones that have no solutions among the real numbers.",
+    "source": "Wikipedia sentences 5, 8"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Real part and imaginary part",
+    "text": "A complex number is written a + bi. Here a and b are ordinary real numbers. The symbol i stands for the imaginary unit, which satisfies i² = −1. The real number a is the real part, and the real number b, not bi, is the imaginary part. For example, 2 + 3i is a complex number with real part 2 and imaginary part 3. The set of all complex numbers is written ℂ or C.",
+    "cites": [
+     1,
+     4,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Why they were needed",
+    "text": "Squaring any nonzero real number gives a positive result, so for a long time taking the square root of a negative number was thought impossible. In the 16th century such roots turned out to help in finding real solutions of cubic equations, but they were seen as a mere trick with symbols, and in the 17th century they were named imaginary numbers. Despite the name, they are not made up: they are as valid as real numbers and essential for describing the physical world. With complex numbers, every non-constant polynomial equation with real or complex coefficients has a solution, even one with no real solution. This result is called the fundamental theorem of algebra.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Doing arithmetic",
+    "text": "Complex numbers extend the real numbers: a real number a is just a + 0i, and a purely imaginary number bi is 0 + bi. You can add, subtract, multiply and divide them, and the usual associative, commutative and distributive laws still hold, which makes the complex numbers a field. Adding and subtracting work part by part: (x + yi) + (u + vi) = (x + u) + (y + v)i, and (x + yi) − (u + vi) = (x − u) + (y − v)i.",
+    "cites": [
+     2,
+     3,
+     18,
+     19,
+     23,
+     25
+    ]
+   },
+   {
+    "heading": "Numbers as points",
+    "text": "Each complex number a + bi can be matched to the point (a, b) on a flat grid called the complex plane, or Argand diagram. The real part is usually shown along the horizontal axis, growing to the right, and the imaginary part along the vertical axis, growing upwards. This turns arithmetic into geometry. Adding a complex number slides the whole plane over, while multiplying by one scales and rotates it.",
+    "cites": [
+     9,
+     10,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Conjugate and size",
+    "text": "The complex conjugate of z = x + yi is z̄ = x − yi, which is the mirror image of z across the real axis. Multiplying z by its conjugate gives x² + y², a real number that is never negative. Its square root, |z| = √(x² + y²), is called the absolute value or modulus of z. By Pythagoras' theorem, it is the distance from the origin to z in the complex plane, and the numbers with |z| = 1 make up the circle of radius one around the origin.",
+    "cites": [
+     30,
+     32,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Angle and another notation",
+    "text": "The argument of z, also called its phase, is the angle of the line from the origin to z, measured anticlockwise from the positive real axis. It is fixed only up to adding integer multiples of 2π, since turning the plane by 2π, or 360°, leaves every point where it was; one possible choice keeps it within (−π, π]. With r = |z| and φ = arg z, any complex number can be written z = r(cos φ + isin φ). In electrical engineering, where i often stands for electric current, j is written instead of i.",
+    "cites": [
+     22,
+     39,
+     41,
+     42,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-complex-numbers",
+   "kind": "book",
+   "title": "2.4 Complex Numbers - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/2-4-complex-numbers",
+   "note": "A free textbook section on complex numbers a + bi and how to add, subtract, multiply and divide them.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-complex-number-fundamentals",
+   "kind": "video",
+   "title": "Complex number fundamentals",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=5PcpBw5Hbwo",
+   "note": "A 3Blue1Brown lesson on the fundamentals of complex numbers."
+  },
+  {
+   "id": "in-our-time-imaginary-numbers",
+   "kind": "documentary",
+   "title": "Imaginary Numbers",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b00tt6b2",
+   "minutes": 45,
+   "note": "A radio discussion of imaginary numbers and their history."
+  },
+  {
+   "id": "veritasium-imaginary-invented",
+   "kind": "video",
+   "title": "How Imaginary Numbers Were Invented",
+   "by": "Veritasium",
+   "url": "https://www.youtube.com/watch?v=cUzklzVXJwo",
+   "note": "Veritasium tells how imaginary numbers came out of solving cubic equations."
+  }
+ ]
+}

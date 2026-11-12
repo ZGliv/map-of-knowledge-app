@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "The support of a real-valued function is the part of its domain whose elements are not mapped to zero.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When the domain is a topological space, the support is the smallest closed set containing all points not mapped to zero.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "In probability, the support of a distribution can loosely be thought of as the closure of the set of possible values of a random variable with that distribution.",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Basic idea",
+   "value": "Elements of the domain not mapped to zero",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Compact support",
+   "value": "On the real line, it means the support is bounded",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Bump functions",
+   "value": "Real-valued smooth functions with compact support",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Essential support",
+   "value": "Depends on the measure and may be smaller",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Random variable",
+   "value": "Smallest closed set with probability one",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A function is defined on the numbers 1 to 10 and equals zero everywhere except at 2, 5 and 7. Which set is its support?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The numbers 1 to 10"
+    },
+    {
+     "id": "b",
+     "label": "The numbers 2, 5 and 7"
+    },
+    {
+     "id": "c",
+     "label": "The numbers 1, 3, 4, 6, 8, 9 and 10"
+    },
+    {
+     "id": "d",
+     "label": "The number zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "The support is the subset of the domain whose elements are not mapped to zero.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A function is nonzero at every point strictly between -1 and 1, and zero outside. Why is its support the closed interval including -1 and 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the function is nonzero at -1 and 1"
+    },
+    {
+     "id": "b",
+     "label": "Because a support always contains the ends of its domain"
+    },
+    {
+     "id": "c",
+     "label": "Because the support is the smallest closed set containing the nonzero points"
+    },
+    {
+     "id": "d",
+     "label": "Because the function has to be continuous"
+    }
+   ],
+   "answer": "c",
+   "explain": "The support is the smallest closed set containing all points not mapped to zero, so it is the closure of the open interval.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "A function on the real line is nonzero only between -5 and 5, and zero everywhere else. Does it have compact support?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No: compact support means zero at every point"
+    },
+    {
+     "id": "b",
+     "label": "Yes: its support is closed and bounded, so it is compact"
+    },
+    {
+     "id": "c",
+     "label": "No: that needs a domain of separated values"
+    },
+    {
+     "id": "d",
+     "label": "Yes: but only if it is a smooth function"
+    }
+   ],
+   "answer": "b",
+   "explain": "On the real line a function has compact support exactly when its support is bounded, since a subset is compact if and only if it is closed and bounded.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "A function never equals zero anywhere on the real line, though it fades toward zero far away. What is its support?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the point where it is largest"
+    },
+    {
+     "id": "b",
+     "label": "A closed interval around its peak"
+    },
+    {
+     "id": "c",
+     "label": "The empty set"
+    },
+    {
+     "id": "d",
+     "label": "The entire real line"
+    }
+   ],
+   "answer": "d",
+   "explain": "Since there is no point where the function is zero, its support is the entire set of real numbers, which is not compact.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "A random variable can only ever take the values 1, 2 or 3. Loosely, what is the support of its distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The set containing 1, 2 and 3"
+    },
+    {
+     "id": "b",
+     "label": "The whole interval from 1 to 3"
+    },
+    {
+     "id": "c",
+     "label": "The set containing 0, 1, 2 and 3"
+    },
+    {
+     "id": "d",
+     "label": "The entire real line"
+    }
+   ],
+   "answer": "a",
+   "explain": "The support can loosely be thought of as the closure of the set of possible values, here just 1, 2 and 3.",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "prompt": "Beyond the function itself, what else does the essential support of a function depend on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How many zeros the function has"
+    },
+    {
+     "id": "b",
+     "label": "The measure used on the domain"
+    },
+    {
+     "id": "c",
+     "label": "Whether the function is smooth"
+    },
+    {
+     "id": "d",
+     "label": "The function's value at the origin"
+    }
+   ],
+   "answer": "b",
+   "explain": "The essential support depends on the measure as well as on the function, and it may be strictly smaller than the closed support.",
+   "cites": [
+    26
+   ]
+  }
+ ]
+}

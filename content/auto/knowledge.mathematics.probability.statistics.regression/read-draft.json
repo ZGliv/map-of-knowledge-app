@@ -1,0 +1,62 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Relating a response to predictors",
+   "text": "Regression describes how one quantity relates to others. The quantity you care about is called the response, or dependent variable. The quantities used to explain it are called explanatory variables, or predictors. In linear regression, the predictors are tied to the response through a linear combination of them.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "heading": "One predictor or many",
+   "text": "When there is a single predictor x and a single response y, the model is called simple linear regression. With two or more predictors, it is called multiple linear regression. The model's parameters are unknown at the start, so they are estimated from the data. Most often the model describes the mean response expected for given predictor values, though sometimes the median or another quantile is used instead.",
+   "cites": [
+    2,
+    3,
+    4,
+    17,
+    18
+   ]
+  },
+  {
+   "heading": "Why it came first",
+   "text": "Linear regression was the first kind of regression to be studied rigorously and put to wide practical use. One reason is that a model whose unknown parameters enter in a linear way is easier to fit. Another is that the statistical behaviour of the resulting estimates is easier to work out. Nonlinear regression is a generalization of it.",
+   "cites": [
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "heading": "Predicting new cases",
+   "text": "A common goal is prediction or forecasting. You fit the model to an observed data set where both the predictors and the response were recorded. Later, if new predictor values arrive with no response attached, the fitted model can predict the response. In machine learning, linear regression counts as a supervised algorithm that learns from labelled data sets.",
+   "cites": [
+    7,
+    10,
+    11
+   ]
+  },
+  {
+   "heading": "How the model is fitted",
+   "text": "The model is often fitted by least squares. There are other options, such as least absolute deviations, or ridge regression and lasso, which add a penalty to the least squares cost. Using the mean squared error as the cost gives large errors extra weight. In a data set with many large outliers, the model can then fit those outliers more than the true data, so a cost that is robust to outliers should be used there.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "heading": "Reading a coefficient",
+   "text": "Each predictor x_j has a coefficient β_j. It is read as the expected change in y when x_j rises by one unit while every other predictor stays the same. People sometimes call this the unique effect of x_j on y. A predictor can have a large effect on its own yet nearly zero unique effect, which may mean another variable already captures its information. Care is needed, since some predictors cannot really be held fixed while others change.",
+   "cites": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ]
+  }
+ ]
+}

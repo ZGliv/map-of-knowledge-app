@@ -1,0 +1,424 @@
+# Media candidates: genetics-gene-regulation
+
+All on the licence allowlist with no restrictions. ShareAlike files can only be shown whole (no cover, no documentary pan, no ink tone). CC BY files that are cropped must say "cropped" in the credit.
+
+- **File:Dolly the Sheep National Museum of Scotland.jpg** · CC BY-SA 4.0 · Sgerbic · 2019-04-25 03:54:56 · 4592×3064
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Dolly_the_Sheep_National_Museum_of_Scotland.jpg/1280px-Dolly_the_Sheep_National_Museum_of_Scotland.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dolly_the_Sheep_National_Museum_of_Scotland.jpg
+  - Dolly the Sheep National Museum of Scotland
+- **File:Dolly the sheep, National Museums of Scotland, Edinburgh - geograph.org.uk - 1301843.jpg** · CC BY-SA 2.0 · Mike Pennington · 2009-05-07 · 640×426
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/62/Dolly_the_sheep%2C_National_Museums_of_Scotland%2C_Edinburgh_-_geograph.org.uk_-_1301843.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dolly_the_sheep,_National_Museums_of_Scotland,_Edinburgh_-_geograph.org.uk_-_1301843.jpg
+  - Dolly the sheep, National Museums of Scotland, Edinburgh The world's first cloned sheep, now a stuffed exhibit in the Chambers Street museum.
+- **File:Dolly at the National Museum Scotland - geograph.org.uk - 5051696.jpg** · CC BY-SA 2.0 · M J Richardson · 2016-07-27 · 3264×2448
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Dolly_at_the_National_Museum_Scotland_-_geograph.org.uk_-_5051696.jpg/1280px-Dolly_at_the_National_Museum_Scotland_-_geograph.org.uk_-_5051696.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dolly_at_the_National_Museum_Scotland_-_geograph.org.uk_-_5051696.jpg
+  - Dolly at the National Museum Scotland
+- **File:National Museum of Scotland - Dolly - 2025-04-19.jpg** · CC BY-SA 4.0 · 瑞丽江的河水 · 2025-04-19 11:54:45 · 4032×3024
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/National_Museum_of_Scotland_-_Dolly_-_2025-04-19.jpg/1280px-National_Museum_of_Scotland_-_Dolly_-_2025-04-19.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_-_Dolly_-_2025-04-19.jpg
+  - National Museum of Scotland - Dolly
+- **File:National Museum of Scotland 04b.jpg** · CC BY-SA 4.0 · FrDr · 2012-09-08 16:33:39 · 2592×3888
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/National_Museum_of_Scotland_04b.jpg/1280px-National_Museum_of_Scotland_04b.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_04b.jpg
+  - National Museum of Scotland
+- **File:National Museum of Scotland 05.jpg** · CC BY-SA 4.0 · FrDr · 2012-09-08 16:34:08 · 3888×2592
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/National_Museum_of_Scotland_05.jpg/1280px-National_Museum_of_Scotland_05.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_05.jpg
+  - National Museum of Scotland
+- **File:National Museum of Scotland 03.jpg** · CC BY-SA 4.0 · FrDr · 2012-09-08 16:32:53 · 3888×2592
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/National_Museum_of_Scotland_03.jpg/1280px-National_Museum_of_Scotland_03.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_03.jpg
+  - National Museum of Scotland
+- **File:National Museum of Scotland 06.jpg** · CC BY-SA 4.0 · FrDr · 2012-09-08 16:34:08 · 3888×2592
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/National_Museum_of_Scotland_06.jpg/1280px-National_Museum_of_Scotland_06.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_06.jpg
+  - National Museum of Scotland
+- **File:National Museum of Scotland (42001098604) (cropped).jpg** · CC BY 2.0 · Paul Hudson from United Kingdom · 2018-06-04 16:10 · 1819×1365
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/National_Museum_of_Scotland_%2842001098604%29_%28cropped%29.jpg/1280px-National_Museum_of_Scotland_%2842001098604%29_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_(42001098604)_(cropped).jpg
+  - National Museum of Scotland
+- **File:National Museum of Scotland (42001098604).jpg** · CC BY 2.0 · Paul Hudson from United Kingdom · 2018-06-04 16:10 · 2048×1365
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/National_Museum_of_Scotland_%2842001098604%29.jpg/1280px-National_Museum_of_Scotland_%2842001098604%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_(42001098604).jpg
+  - National Museum of Scotland
+- **File:Dolly the Sheep (1996 - 2003) (7022922845).jpg** · CC BY-SA 2.0 · dun_deagh · 2012-03-19 12:30:36 · 3000×2023
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Dolly_the_Sheep_%281996_-_2003%29_%287022922845%29.jpg/1280px-Dolly_the_Sheep_%281996_-_2003%29_%287022922845%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dolly_the_Sheep_(1996_-_2003)_(7022922845).jpg
+  - Cloned from a mammary gland cell from an adult sheep, so named after Dolly Parton. At the National Museum of Scotland, Edinburgh.
+- **File:Dolly death mask.jpg** · CC BY-SA 3.0 · Manfred Werner - Tsui · 2009-10-11 · 2467×1450
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Dolly_death_mask.jpg/1280px-Dolly_death_mask.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dolly_death_mask.jpg
+  - Death mask of cloned sheep Dolly (loan from the National Museums Scotland to Naturhistorisches Museum in Vienna).
+- **File:World-famous sheep (28147270737).jpg** · CC BY 2.0 · Mike McBey · 2017-08-18 12:15 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/World-famous_sheep_%2828147270737%29.jpg/1280px-World-famous_sheep_%2828147270737%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:World-famous_sheep_(28147270737).jpg
+  - Dolly (5 July 1996 – 14 February 2003) was a female sheep, and the first mammal ever cloned from an adult cell. The success of the cloning made worldwide news. Since her cloning several other animals have been cloned, including horses, pigs, bulls and possibly domestic animals. Her preserved remains
+- **File:John Gurdon Cambridge 2012.JPG** · CC BY-SA 3.0 · Deryck Chan, courtesy to cameraman Sien Yi Tan. · 2012-10-10 20:53:18 · 502×732
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9b/John_Gurdon_Cambridge_2012.JPG
+  - page: https://commons.wikimedia.org/wiki/File:John_Gurdon_Cambridge_2012.JPG
+  - Professor Sir John Gurdon, winner of Nobel Prize for Physiology or Medicine 2012, at the annual Scholar's Dinner of Magdalene College, Cambridge, 10 October 2012
+- **File:John Gurdon memorial.jpg** · CC BY-SA 4.0 · Tedster007 · 2018-02-13 · 3024×4032
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/John_Gurdon_memorial.jpg/1280px-John_Gurdon_memorial.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Gurdon_memorial.jpg
+  - Memorial to John Gurdon in the church of St Edmund in Assington, Suffolk
+- **File:John Gurdon Cambridge 2012 (cropped).JPG** · CC BY-SA 3.0 · Deryck Chan, courtesy to cameraman Sien Yi Tan. · 2012-10-10 20:53:18 · 434×661
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/52/John_Gurdon_Cambridge_2012_%28cropped%29.JPG
+  - page: https://commons.wikimedia.org/wiki/File:John_Gurdon_Cambridge_2012_(cropped).JPG
+  - Professor Sir John Gurdon, winner of Nobel Prize for Physiology or Medicine 2012, at the annual Scholar's Dinner of Magdalene College, Cambridge, 10 October 2012
+- **File:Experimento-gurdon.jpg** · CC BY-SA 4.0 · Gonzalo Escobar T. · 2016-01-10 · 670×302
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/47/Experimento-gurdon.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Experimento-gurdon.jpg
+  - Experiment by John Gurdon to clone a frog using intact nuclei from the somatic cells of a Xenopus tadpole.
+- **File:John Gurdon d. 1623(page 497 crop).jpg** · Public domain · prince Frederick Duleep Singh · 355×421
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/21/John_Gurdon_d._1623%28page_497_crop%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Gurdon_d._1623(page_497_crop).jpg
+  - 
+- **File:John Constable - Wivenhoe Park, Essex - Google Art Project.jpg** · Public domain · John Constable · 1816date QS:P571,+1816-00-00T00:00:00Z/9 · 5042×2728
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/John_Constable_-_Wivenhoe_Park%2C_Essex_-_Google_Art_Project.jpg/1280px-John_Constable_-_Wivenhoe_Park%2C_Essex_-_Google_Art_Project.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Constable_-_Wivenhoe_Park,_Essex_-_Google_Art_Project.jpg
+  - 
+- **File:Prof. John Gurdon in University of Yamanashi, Japan, 11, March 2016.jpg** · CC BY-SA 4.0 · Nichefinder · 2016-03-12 · 4272×2856
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Prof._John_Gurdon_in_University_of_Yamanashi%2C_Japan%2C_11%2C_March_2016.jpg/1280px-Prof._John_Gurdon_in_University_of_Yamanashi%2C_Japan%2C_11%2C_March_2016.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Prof._John_Gurdon_in_University_of_Yamanashi,_Japan,_11,_March_2016.jpg
+  - Prof. John Gurdon in University of Yamanashi, Japan, 11, March 2016
+- **File:Post-Medieval token farthing of John Gurdon of Thame, Oxfordshire. (FindID 724136).jpg** · CC BY 2.0 · St. Albans District Council, Julian Watters, 2015-07-13 10:55:19 · 1657date QS:P571,+1657-00-00T00:00:00Z/9 · 4044×2559
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Post-Medieval_token_farthing_of_John_Gurdon_of_Thame%2C_Oxfordshire._%28FindID_724136%29.jpg/1280px-Post-Medieval_token_farthing_of_John_Gurdon_of_Thame%2C_Oxfordshire._%28FindID_724136%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Post-Medieval_token_farthing_of_John_Gurdon_of_Thame,_Oxfordshire._(FindID_724136).jpg
+  - A copper-alloy token farthing issued by John Gurdon of Thame, Oxfordshire. Dated '1657'. Williamson no. 199 (1967: Vol. 2, p. 935). Diameter: 15.3mm; thickness: 0.7mm. Weight: 0.84g.
+- **File:John White Alexander - Henry G. Marquand - PP344 - Princeton University Art Museum.jpg** · Public domain · John White Alexander · 1896 · 1087×2000
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/75/John_White_Alexander_-_Henry_G._Marquand_-_PP344_-_Princeton_University_Art_Museum.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_White_Alexander_-_Henry_G._Marquand_-_PP344_-_Princeton_University_Art_Museum.jpg
+  - 
+- **File:Blickling, St Andrew's church monument (48313524641).jpg** · CC BY 2.0 · Jules &amp; Jenny from Lincoln, UK · 2019-05-21 14:29 · 3216×5568
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Blickling%2C_St_Andrew%27s_church_monument_%2848313524641%29.jpg/1280px-Blickling%2C_St_Andrew%27s_church_monument_%2848313524641%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Blickling,_St_Andrew's_church_monument_(48313524641).jpg
+  - St Andrew's Church, Blickling, Norfolk, monument to Elizabeth Gurdon (1565-1582) who died aged 17. Erected by Sir Edward Clere (1536-1606), MP, of Blickling Hall. She died of a cold while visiting Sir Edward Clere at Blickling (Source: http://www.northernvicar.co.uk/2018/07/29/blickling-norfolk-st-a
+- **File:Henry G. Marquand MET DT1512.jpg** · CC0 · John Singer Sargent · 1897 · 2980×3722
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Henry_G._Marquand_MET_DT1512.jpg/1280px-Henry_G._Marquand_MET_DT1512.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Henry_G._Marquand_MET_DT1512.jpg
+  - 
+- **File:John Black (Confederate).jpg** · Public domain · Unknown authorUnknown author · between 1861 and 1865date QS:P,+1861-00-00T00:00:00Z/8,P1319,+1861-00-00T00:00:00Z/9,P1326,+1865-00-00T00:00:00Z/9 · 5010×8016
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/John_Black_%28Confederate%29.jpg/1280px-John_Black_%28Confederate%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Black_(Confederate).jpg
+  - Uncased tintype in brass mat enclosed in plastic envelope on a CDV card. Bust portrait of man in uniform coat. "John Black Confederate Soldier" and "Gurdon G. Black" is written on the back. There is also writing immediately below image, but it has almost completely worn away.Title: John Black (Confe
+- **File:John Black (Confederate) (cropped).jpg** · Public domain · Unknown authorUnknown author · between 1861 and 1865date QS:P,+1861-00-00T00:00:00Z/8,P1319,+1861-00-00T00:00:00Z/9,P1326,+1865-00-00T00:00:00Z/9 · 2944×3680
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/John_Black_%28Confederate%29_%28cropped%29.jpg/1280px-John_Black_%28Confederate%29_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:John_Black_(Confederate)_(cropped).jpg
+  - Uncased tintype in brass mat enclosed in plastic envelope on a CDV card. Bust portrait of man in uniform coat. "John Black Confederate Soldier" and "Gurdon G. Black" is written on the back. There is also writing immediately below image, but it has almost completely worn away.Title: John Black (Confe
+- **File:Shinya Yamanaka 20141226.jpg** · CC BY 4.0 · 日本学士院 · Taken on 26 December 2014, 11:08:50 (according to Exif data) · 2176×3265
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Shinya_Yamanaka_20141226.jpg/1280px-Shinya_Yamanaka_20141226.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_20141226.jpg
+  - 日本学士院第7分科会員・山中伸弥
+- **File:Shinya yamanaka10.jpg** · Public domain · National Institutes of Health · 2013-07-06 20:19:44 · 900×885
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f9/Shinya_yamanaka10.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_yamanaka10.jpg
+  - Dr. Shinya Yamanaka
+- **File:Shinya Yamanaka 20141226 (cropped).jpg** · CC BY 4.0 · 日本学士院 · Taken on 26 December 2014, 11:08:50 (according to Exif data) · 1800×2400
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Shinya_Yamanaka_20141226_%28cropped%29.jpg/1280px-Shinya_Yamanaka_20141226_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_20141226_(cropped).jpg
+  - 日本学士院第7分科会員・山中伸弥
+- **File:Shinya Yamanaka in December 2014 (cropped).png** · CC BY 4.0 · 文部科学省 · 2014-12 · 741×988
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/80/Shinya_Yamanaka_in_December_2014_%28cropped%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_in_December_2014_(cropped).png
+  - 「私と科研費」へ寄稿を行った山中伸弥
+- **File:Shinya Yamanaka in December 2014.png** · CC BY 4.0 · 文部科学省 · 2014-12 · 1024×988
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/84/Shinya_Yamanaka_in_December_2014.png
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_in_December_2014.png
+  - 「私と科研費」へ移行を行った山中伸弥
+- **File:Francis Collins Shinya Yamanaka and Michael Gottesman.jpg** · Public domain · National Institutes of Health · 2010-01-14 · 1363×1079
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Francis_Collins_Shinya_Yamanaka_and_Michael_Gottesman.jpg/1280px-Francis_Collins_Shinya_Yamanaka_and_Michael_Gottesman.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Francis_Collins_Shinya_Yamanaka_and_Michael_Gottesman.jpg
+  - Shinya Yamanaka, Director of the Center for iPS Cell Research and Application, Kyoto University, accepted a plaque of appreciation from Francis Collins, Director of the National Institutes of Health, and Michael Gottesman, Deputy Director for Intramural Research of the National Institutes of Health,
+- **File:Shinya Yamanaka 3x4.jpg** · Public domain · National Institutes of Health · 2013-07-06 20:19:44 · 524×698
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/3d/Shinya_Yamanaka_3x4.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_3x4.jpg
+  - Dr. Shinya Yamanaka
+- **File:Shinya Yamanaka giving a lecture at NIH.jpg** · Public domain · National Institutes of Health · 2010-02-18 03:34:27 · 250×148
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/7a/Shinya_Yamanaka_giving_a_lecture_at_NIH.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_giving_a_lecture_at_NIH.jpg
+  - Shinya Yamanaka giving a lecture at NIH
+- **File:Shinya Yamanaka Banner in San Francisco (8443676486).jpg** · CC BY 2.0 · Jun Seita from Palo Alto, CA, U.S. · 2013-02-03 12:50 · 3530×2352
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Shinya_Yamanaka_Banner_in_San_Francisco_%288443676486%29.jpg/1280px-Shinya_Yamanaka_Banner_in_San_Francisco_%288443676486%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_Banner_in_San_Francisco_(8443676486).jpg
+  - Shinya Yamanaka Banner in San Francisco
+- **File:Lecture by Nobel Laureate Dr. Shinya Yamanaka “New Era of Medicine with iPS Cells- Message to Future Scientists“ (46596989035).jpg** · CC BY 2.0 · OIST from Onna Village, Japan · 2019-03-25 15:45 · 4000×2664
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_%2846596989035%29.jpg/1280px-Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_%2846596989035%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_(46596989035).jpg
+  - A lecture by the 2012 Nobel laureate in Physiology or Medicine, Dr. Shinya Yamanaka, was held in the Ryukyu Shimpo Hall as part of the joint Next Generation Development Project between OIST and the Ryukyu Shimpo | ノーベル生理学・医学賞受賞 山中伸弥氏講演会「ｉＰＳ細胞がひらく新しい医学―科学者を目指す君たちへ―」 | 沖縄科学技術大学院大学・琉球新報による次世代育成事業の一環で、京
+- **File:Lecture by Nobel Laureate Dr. Shinya Yamanaka “New Era of Medicine with iPS Cells- Message to Future Scientists“ (46596989145).jpg** · CC BY 2.0 · OIST from Onna Village, Japan · 2019-03-25 15:55 · 4000×2664
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_%2846596989145%29.jpg/1280px-Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_%2846596989145%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_(46596989145).jpg
+  - A lecture by the 2012 Nobel laureate in Physiology or Medicine, Dr. Shinya Yamanaka, was held in the Ryukyu Shimpo Hall as part of the joint Next Generation Development Project between OIST and the Ryukyu Shimpo | ノーベル生理学・医学賞受賞 山中伸弥氏講演会「ｉＰＳ細胞がひらく新しい医学―科学者を目指す君たちへ―」 | 沖縄科学技術大学院大学・琉球新報による次世代育成事業の一環で、京
+- **File:Lecture by Nobel Laureate Dr. Shinya Yamanaka “New Era of Medicine with iPS Cells- Message to Future Scientists“ (46596988895).jpg** · CC BY 2.0 · OIST from Onna Village, Japan · 2019-03-25 15:52 · 4000×2664
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_%2846596988895%29.jpg/1280px-Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_%2846596988895%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Lecture_by_Nobel_Laureate_Dr._Shinya_Yamanaka_%E2%80%9CNew_Era_of_Medicine_with_iPS_Cells-_Message_to_Future_Scientists%E2%80%9C_(46596988895).jpg
+  - A lecture by the 2012 Nobel laureate in Physiology or Medicine, Dr. Shinya Yamanaka, was held in the Ryukyu Shimpo Hall as part of the joint Next Generation Development Project between OIST and the Ryukyu Shimpo | ノーベル生理学・医学賞受賞 山中伸弥氏講演会「ｉＰＳ細胞がひらく新しい医学―科学者を目指す君たちへ―」 | 沖縄科学技術大学院大学・琉球新報による次世代育成事業の一環で、京
+- **File:Shinya Yamanaka, Person of Cultural Merit.png** · CC BY 4.0 · 文部科学省 · 2010 · 4000×2667
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Shinya_Yamanaka%2C_Person_of_Cultural_Merit.png/1280px-Shinya_Yamanaka%2C_Person_of_Cultural_Merit.png
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka,_Person_of_Cultural_Merit.png
+  - Shinya Yamanaka, Person of Cultural Merit in 2010
+- **File:Shinya Yamanaka, Person of Cultural Merit (cropped).png** · CC BY 4.0 · 文部科学省 · 2010 · 1999×2667
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shinya_Yamanaka%2C_Person_of_Cultural_Merit_%28cropped%29.png/1280px-Shinya_Yamanaka%2C_Person_of_Cultural_Merit_%28cropped%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka,_Person_of_Cultural_Merit_(cropped).png
+  - Shinya Yamanaka, Person of Cultural Merit in 2010
+- **File:Shinya Yamanaka, Person of Cultural Merit (cropped 2).png** · CC BY 4.0 · 文部科学省 · 2010 · 848×1273
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2a/Shinya_Yamanaka%2C_Person_of_Cultural_Merit_%28cropped_2%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka,_Person_of_Cultural_Merit_(cropped_2).png
+  - Shinya Yamanaka, Person of Cultural Merit in 2010
+- **File:Pre-Ceremony, 50th All-Japan Rugby Football Championship ‐02.JPG** · CC0 · Dɐ · 2013-02-24 13:45:18 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9002.JPG/1280px-Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9002.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Pre-Ceremony,_50th_All-Japan_Rugby_Football_Championship_%E2%80%9002.JPG
+  - 50th All Japan Rugby Football Championship Final, Pre-Ceremony. Tatsuzō Yabe, Shinya Yamanaka, Ryōji Noyori, Yoshirō Mori and Yoshikazu Fujita
+- **File:Pre-Ceremony, 50th All-Japan Rugby Football Championship ‐04.JPG** · CC0 · Dɐ · 2013-02-24 13:45:22 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9004.JPG/1280px-Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9004.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Pre-Ceremony,_50th_All-Japan_Rugby_Football_Championship_%E2%80%9004.JPG
+  - 50th All Japan Rugby Football Championship Final, Pre-Ceremony. Tatsuzō Yabe, Shinya Yamanaka, Ryōji Noyori, Yoshirō Mori and Yoshikazu Fujita
+- **File:Pre-Ceremony, 50th All-Japan Rugby Football Championship ‐05.JPG** · CC0 · Dɐ · 2013-02-24 13:45:25 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9005.JPG/1280px-Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9005.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Pre-Ceremony,_50th_All-Japan_Rugby_Football_Championship_%E2%80%9005.JPG
+  - 50th All Japan Rugby Football Championship Final, Pre-Ceremony. Tatsuzō Yabe, Shinya Yamanaka, Ryōji Noyori, Yoshirō Mori and Yoshikazu Fujita
+- **File:Pre-Ceremony, 50th All-Japan Rugby Football Championship ‐03.JPG** · CC0 · Dɐ · 2013-02-24 13:45:10 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9003.JPG/1280px-Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9003.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Pre-Ceremony,_50th_All-Japan_Rugby_Football_Championship_%E2%80%9003.JPG
+  - 50th All Japan Rugby Football Championship Final, Pre-Ceremony. Tatsuzō Yabe, Shinya Yamanaka, Ryōji Noyori, Yoshirō Mori and Yoshikazu Fujita
+- **File:Pre-Ceremony, 50th All-Japan Rugby Football Championship ‐01.JPG** · CC0 · Dɐ · 2013-02-24 13:45:15 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9001.JPG/1280px-Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9001.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Pre-Ceremony,_50th_All-Japan_Rugby_Football_Championship_%E2%80%9001.JPG
+  - 50th All Japan Rugby Football Championship Final, Pre-Ceremony. Tatsuzō Yabe, Shinya Yamanaka, Ryōji Noyori, Yoshirō Mori and Yoshikazu Fujita
+- **File:Pre-Ceremony, 50th All-Japan Rugby Football Championship ‐06.JPG** · CC0 · Dɐ · 2013-02-24 13:45:32 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9006.JPG/1280px-Pre-Ceremony%2C_50th_All-Japan_Rugby_Football_Championship_%E2%80%9006.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Pre-Ceremony,_50th_All-Japan_Rugby_Football_Championship_%E2%80%9006.JPG
+  - 50th All Japan Rugby Football Championship Final, Pre-Ceremony. Tatsuzō Yabe, Shinya Yamanaka, Ryōji Noyori, Yoshirō Mori and Yoshikazu Fujita
+- **File:Human induced pluripotent stem cell colony (51816035910).jpg** · Public domain · NIH Image Gallery from Bethesda, Maryland, USA · 2022-01-11 18:36 · 862×862
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/3e/Human_induced_pluripotent_stem_cell_colony_%2851816035910%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Human_induced_pluripotent_stem_cell_colony_(51816035910).jpg
+  - Researchers at NIH's National Eye Institute (NEI) developed the first patient-derived stem cell model for studying eye conditions related to oculocutaneous albinism (OCA). Learn more: at https://www.nih.gov/news-events/news-releases/nih-researchers-develop-first-stem-cell-model-albinism-study-relate
+- **File:Human iPS cells colonies.png** · CC BY 4.0 · Christine Hale, Amy Yeung, David Goulding, Derek Pickard, Kaur Alasoo, Fiona Powrie, Gordon Dougan, Subhankar Mukhopadhyay · 2015 · 629×634
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b0/Human_iPS_cells_colonies.png
+  - page: https://commons.wikimedia.org/wiki/File:Human_iPS_cells_colonies.png
+  - Human iPS cell colonies. The spindle-shaped cells in the background are mouse fibroblast cells. Only those cells composing the center colony are human iPS cells. This photo is from open-accessed journal PLOS ONE.
+- **File:Morphology and endothelial markers of hiPSC-EC.png** · CC BY 4.0 · de Boer S, Laan S, Dirven R, Eikenboom J · 2024-02-23 · 2100×2330
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Morphology_and_endothelial_markers_of_hiPSC-EC.png/1280px-Morphology_and_endothelial_markers_of_hiPSC-EC.png
+  - page: https://commons.wikimedia.org/wiki/File:Morphology_and_endothelial_markers_of_hiPSC-EC.png
+  - Fig 1. Morphology and endothelial markers of hiPSC-ECs (human induced pluripotent stem cells-endothelial cells). A) VWF and VE-Cadherin in hiPSC-ECs (left) and ECFCs (endothelial colony forming cells) (right). B) FACS analysis showing endothelial and hematopoietic cell marker expression in the three
+- **File:Red blood cells infected with malaria.jpg** · Public domain · Rick Fairhurst and Jordan Zuspann, National Institute of Allergy and Infectious Diseases, National Institutes of Health · 2016-03-30 07:25:16 · 1551×1229
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Red_blood_cells_infected_with_malaria.jpg/1280px-Red_blood_cells_infected_with_malaria.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_blood_cells_infected_with_malaria.jpg
+  - Electron micrograph of red blood cells infected with Plasmodium falciparum, the parasite that causes malaria in humans. During its development, the parasite forms protrusions called 'knobs' on the surface of its host red blood cell which enable it to avoid destruction and cause inflammation. Using s
+- **File:Blood clot in scanning electron microscopy.jpg** · Public domain · Janice Carr · 2005 · 700×475
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d7/Blood_clot_in_scanning_electron_microscopy.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Blood_clot_in_scanning_electron_microscopy.jpg
+  - This scanning electron micrograph (SEM) depicted a number of red blood cells found enmeshed in a fibrinous matrix on the luminal surface of an indwelling vascular catheter; Magnified 2858x. Note the biconcave cytomorphologic shape of each erythrocyte, which increases the surface area of these hemogl
+- **File:Malaria-infected Red Blood Cell.jpg** · Public domain · National Institutes of Health (NIH) · 2013-11-10 23:47:32 · 507×640
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0f/Malaria-infected_Red_Blood_Cell.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Malaria-infected_Red_Blood_Cell.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites, which are colorized in blue. The infected cell is in the center of the image area. To the left are uninfected cells with a smooth red surface. National Institute of Allergy and Infectious Diseases (NIAID)
+- **File:Red blood cells (2).jpg** · CC BY-SA 3.0 · Scootdive (talk · contribs) · 2008-11-04 · 2400×2000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Red_blood_cells_%282%29.jpg/1280px-Red_blood_cells_%282%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_blood_cells_(2).jpg
+  - This is a Scanning Electron Micrograph of several red blood cells.
+- **File:Red blood cell infected with malaria parasites-NIAID RML.jpg** · Public domain · National Institute of Allergy and Infectious Diseases (NIAID)/Rocky Mountain Laboratory · 2013-04-25 10:17:32 · 476×600
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/24/Red_blood_cell_infected_with_malaria_parasites-NIAID_RML.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_blood_cell_infected_with_malaria_parasites-NIAID_RML.jpg
+  - Colorized electron micrograph of red blood cell infected with malaria parasites (blue). The small bumps on the infected cell show how the parasite remodels its host cell. Uninfected cells (red) have smoother surfaces. Credit: NIAID/RML
+- **File:Blood Cells (red) infected with malaria parasites (blue) with the small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface.jpg** · CC BY 2.0 · NIAID · 2023-04-14 05:54:07 · 854×679
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6a/Blood_Cells_%28red%29_infected_with_malaria_parasites_%28blue%29_with_the_small_bumps_on_the_infected_cell_show_how_the_parasite_remodels_its_host_cell_by_forming_protrusions_called_%27knobs%27_on_the_surface.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Blood_Cells_(red)_infected_with_malaria_parasites_(blue)_with_the_small_bumps_on_the_infected_cell_show_how_the_parasite_remodels_its_host_cell_by_forming_protrusions_called_'knobs'_on_the_surface.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (blue). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfected
+- **File:Malaria-infected Red Blood Cell (10856848295).jpg** · CC BY 2.0 · NIAID · 2013-11-14 12:26 · 2700×3406
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malaria-infected_Red_Blood_Cell_%2810856848295%29.jpg/1280px-Malaria-infected_Red_Blood_Cell_%2810856848295%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Malaria-infected_Red_Blood_Cell_(10856848295).jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites, which are colorized in blue. The infected cell is in the center of the image area. To the left are uninfected cells with a smooth red surface. Credit: NIAID
+- **File:Blood Cells (red) infected with malaria parasites (blue) with the small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface (2).jpg** · CC BY 2.0 · NIAID · 2011-04-12 05:25:30 · 3406×2700
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Blood_Cells_%28red%29_infected_with_malaria_parasites_%28blue%29_with_the_small_bumps_on_the_infected_cell_show_how_the_parasite_remodels_its_host_cell_by_forming_protrusions_called_%27knobs%27_on_the_surface_%282%29.jpg/1280px-thumbnail.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Blood_Cells_(red)_infected_with_malaria_parasites_(blue)_with_the_small_bumps_on_the_infected_cell_show_how_the_parasite_remodels_its_host_cell_by_forming_protrusions_called_'knobs'_on_the_surface_(2).jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (blue). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfected
+- **File:Blood smear from healthy dogs, showing positions for diameter and height calculations from optical micrographs using AmScope™ software.jpg** · CC BY 4.0 · Montoya-Navarrete AL, Guerrero-Barrera AL, Quezada-Tristán T, Valdivia-Flores AG and Cano-Rábano MJ · 2022-11-10 · 658×477
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d3/Blood_smear_from_healthy_dogs%2C_showing_positions_for_diameter_and_height_calculations_from_optical_micrographs_using_AmScope%E2%84%A2_software.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Blood_smear_from_healthy_dogs,_showing_positions_for_diameter_and_height_calculations_from_optical_micrographs_using_AmScope%E2%84%A2_software.jpg
+  - Figure 1. Blood smear from healthy dogs, showing positions for diameter and height calculations from optical micrographs using AmScope™ software. The diameter or major axis was measured in the erythrocytes and a perpendicular line was drawn in the center of the diameter to establish the height. Scal
+- **File:Optical micrographs at 100 × of senior and geriatric dogs.jpg** · CC BY 4.0 · Montoya-Navarrete AL, Guerrero-Barrera AL, Quezada-Tristán T, Valdivia-Flores AG and Cano-Rábano MJ · 2022-11-10 · 1403×514
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Optical_micrographs_at_100_%C3%97_of_senior_and_geriatric_dogs.jpg/1280px-Optical_micrographs_at_100_%C3%97_of_senior_and_geriatric_dogs.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Optical_micrographs_at_100_%C3%97_of_senior_and_geriatric_dogs.jpg
+  - Figure 4. Optical micrographs at 100 × of senior and geriatric dogs. (A) Polychromatophilic erythrocytes have a bluish cytoplasm and are larger than a normal red blood cell (blue arrow). (B) Erythroblasts are nucleated precursor cells of erythrocytes (blue arrow).
+- **File:Malaria-infected Red Blood Cell (26834372607).jpg** · Public domain · NIH Image Gallery from Bethesda, Maryland, USA · 2018-04-25 16:01 · 1157×1460
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/15/Malaria-infected_Red_Blood_Cell_%2826834372607%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Malaria-infected_Red_Blood_Cell_(26834372607).jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites, which are colorized in blue. The infected cell is in the center of the image area. To the left are uninfected cells with a smooth red surface. Read the 2019 NIH statement on World Malaria Day: &lt;a href="https
+- **File:Red Blood Cell Infected with Malaria Parasites.jpg** · CC BY 2.0 · NIAID · 2023-04-14 05:54:07 · 1584×1224
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Red_Blood_Cell_Infected_with_Malaria_Parasites.jpg/1280px-Red_Blood_Cell_Infected_with_Malaria_Parasites.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_Blood_Cell_Infected_with_Malaria_Parasites.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (pink). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfected
+- **File:Hortolà hc+jc EA 6 Copyright Taylor & Francis.png** · CC BY-SA 4.0 · Policarp · 2001 · 935×1453
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/54/Hortol%C3%A0_hc%2Bjc_EA_6_Copyright_Taylor_%26_Francis.png
+  - page: https://commons.wikimedia.org/wiki/File:Hortol%C3%A0_hc+jc_EA_6_Copyright_Taylor_&_Francis.png
+  - SEM micrographs of a collared peccary’s bloodstain on chert, aged for one year. Above, confined between measurement lines, a moon-like shape (hecatocyte); below, indicated with the letter n, a negative replica (janocyte). Color measurements have been added to the original images. Source: Experimenta
+- **File:Red Blood Cell Infected with Malaria Parasites - 53678590755.jpg** · CC BY 2.0 · NIAID · 2023-04-14 05:54:07 · 1584×1224
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678590755.jpg/1280px-Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678590755.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678590755.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (purple). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfect
+- **File:Red Blood Cell Infected with Malaria Parasites - 53677264707.jpg** · CC BY 2.0 · NIAID · 2023-04-14 05:54:07 · 1584×1224
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53677264707.jpg/1280px-Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53677264707.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53677264707.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (green). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfecte
+- **File:Red Blood Cell Infected with Malaria Parasites - 53678588885.jpg** · CC BY 2.0 · NIAID · 2023-04-14 05:54:07 · 1584×1224
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678588885.jpg/1280px-Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678588885.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678588885.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (gold). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfected
+- **File:Red Blood Cell Infected with Malaria Parasites - 53678586440.jpg** · CC BY 2.0 · NIAID · 2023-04-14 05:54:07 · 1584×1224
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678586440.jpg/1280px-Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678586440.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Red_Blood_Cell_Infected_with_Malaria_Parasites_-_53678586440.jpg
+  - Colorized scanning electron micrograph of red blood cell infected with malaria parasites (blue). The small bumps on the infected cell show how the parasite remodels its host cell by forming protrusions called 'knobs' on the surface, enabling it to avoid destruction and cause inflammation. Uninfected
+- **File:Borrelia hermsii Bacteria (13758011613).jpg** · Public domain · NIAID · 2014-04-03 09:25 · 3000×2250
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Borrelia_hermsii_Bacteria_%2813758011613%29.jpg/1280px-Borrelia_hermsii_Bacteria_%2813758011613%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Borrelia_hermsii_Bacteria_(13758011613).jpg
+  - Scanning electron micrograph of Borrelia hermsii, the causative agent of relapsing fever, interacting with red blood cells. Credit: NIAID
+- **File:Methicillin-resistant Staph bacteria (49234831117).jpg** · Public domain · NIH Image Gallery from Bethesda, Maryland, USA · 2006-06-30 10:45 · 2047×1462
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Methicillin-resistant_Staph_bacteria_%2849234831117%29.jpg/1280px-Methicillin-resistant_Staph_bacteria_%2849234831117%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Methicillin-resistant_Staph_bacteria_(49234831117).jpg
+  - Scanning electron micrograph of methicillin-resistant Staphylococcus aureus bacteria (yellow) and a dead human white blood cell (colored red.) According to the Centers for Disease Control and Prevention, antibacterial resistance is already a serious concern—more than 35,000 people die in the United 
+- **File:Human pancreatic islet.jpg** · CC BY-SA 3.0 · Afferent · 2013-08-16 22:17:34 · 1600×1200
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Human_pancreatic_islet.jpg/1280px-Human_pancreatic_islet.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Human_pancreatic_islet.jpg
+  - Visualised using double immunostaining Colours: red = glucagon antibody, blue = insulin antibody Generated in Laboratory of nervous system development, FSBI Human Morphology SRI RAMS, Moscow
+- **File:Inter-specimen comparison of endocrine cell mass in the head, body and tail region.png** · CC BY 4.0 · Wang X, Zielinski MC, Misawa R, Wen P, Wang T-Y, Wang C-Z, et al. · 2013-01-31 · 2465×3156
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Inter-specimen_comparison_of_endocrine_cell_mass_in_the_head%2C_body_and_tail_region.png/1280px-Inter-specimen_comparison_of_endocrine_cell_mass_in_the_head%2C_body_and_tail_region.png
+  - page: https://commons.wikimedia.org/wiki/File:Inter-specimen_comparison_of_endocrine_cell_mass_in_the_head,_body_and_tail_region.png
+  - Figure 3. Analysis on multiple specimens. A: Inter-specimen comparison of endocrine cell mass in the head, body and tail region. B: a. Representative view of islets in the PP-cell rich area (PP in red, insulin in green, glucagon in white and nuclei in blue). b. Adjacent section immunostained for ins
+- **File:Detailed distribution of the PP-rich region in the head of the pancreas.png** · CC BY 4.0 · Wang X, Zielinski MC, Misawa R, Wen P, Wang T-Y, Wang C-Z, et al. · 2013-01-31 · 2460×3007
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Detailed_distribution_of_the_PP-rich_region_in_the_head_of_the_pancreas.png/1280px-Detailed_distribution_of_the_PP-rich_region_in_the_head_of_the_pancreas.png
+  - page: https://commons.wikimedia.org/wiki/File:Detailed_distribution_of_the_PP-rich_region_in_the_head_of_the_pancreas.png
+  - Figure 2. Detailed distribution of the PP-rich region in the head of the pancreas. A: Virtual slice views of blocks in the head region. Immunostained for PP (red), insulin (green), glucagon (white) and nuclei (blue). All in the same scale. B: 3D visualization of islet size (area) and shape (circular
+- **File:Krallenfrosch Xenopus laevis.jpg** · CC BY 3.0 · Holger Krisp · 2011-12-09 · 3000×1727
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Krallenfrosch_Xenopus_laevis.jpg/1280px-Krallenfrosch_Xenopus_laevis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Krallenfrosch_Xenopus_laevis.jpg
+  - African Clawed Frog Xenopus laevis, Family: Pipidae, Location: Germany, Ulm, Zoological Garden
+- **File:Xenopus laevis 1.jpg** · CC BY-SA 3.0 · de:User:Michael Linnenbach · 2005-11-04 · 2789×2209
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Xenopus_laevis_1.jpg/1280px-Xenopus_laevis_1.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_1.jpg
+  - Xenopus laevis
+- **File:201902 Xenopus laevis.svg** · CC BY 4.0 · DataBase Center for Life Science (DBCLS) · 0019-02 · 512×277
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/201902_Xenopus_laevis.svg/1280px-201902_Xenopus_laevis.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:201902_Xenopus_laevis.svg
+  - Xenopus laevis
+- **File:Xenopus laevis (10.3897-zookeys.1022.51422) Figure 4.jpg** · CC BY 4.0 · González-Sánchez VH, Johnson JD, González-Solís D, Fucsko LA, Wilson LD (2021) A review of the introduced herpetofauna of Mexico and Central America, with comments on the effects of invasive species and biosecurity methodology. ZooKeys 1022: 79-154. · 2021-03-08 · 1512×1441
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Xenopus_laevis_%2810.3897-zookeys.1022.51422%29_Figure_4.jpg/1280px-Xenopus_laevis_%2810.3897-zookeys.1022.51422%29_Figure_4.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_(10.3897-zookeys.1022.51422)_Figure_4.jpg
+  - Figure 4. Xenopus laevis. Rosarito, Baja California, Mexico. Photograph by Anny Peralta.
+- **File:Xenopus laevis 251440090.jpg** · CC0 · Marius Burger · 2023-01-10 · 2048×1536
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Xenopus_laevis_251440090.jpg/1280px-Xenopus_laevis_251440090.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_251440090.jpg
+  - African Clawed Frog (Xenopus laevis)
+- **File:Bosco delle fate - Xenopus laevis.jpg** · CC BY-SA 4.0 · Syrio · 2017-06-03 15:24:29 · 3571×2678
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Bosco_delle_fate_-_Xenopus_laevis.jpg/1280px-Bosco_delle_fate_-_Xenopus_laevis.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Bosco_delle_fate_-_Xenopus_laevis.jpg
+  - An African clawed frog (Xenopus laevis) in the Fairy Wood of Butterfly Arc, Montegrotto Terme (Veneto, Italy)
+- **File:Xenopus laevis 02.jpg** · CC BY 2.0 · Brian Gratwicke · 2012-12-30 10:08:24 · 3000×2000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Xenopus_laevis_02.jpg/1280px-Xenopus_laevis_02.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_02.jpg
+  - African clawed frog (Xenopus laevis), from Chimanimani in Manicaland, Zimbabwe
+- **File:Xenopus laevis distribution by country.png** · CC BY-SA 4.0 · B kimmel · 2015-05-07 · 1754×1546
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Xenopus_laevis_distribution_by_country.png/1280px-Xenopus_laevis_distribution_by_country.png
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_distribution_by_country.png
+  - Tagged version of File:BlankMap-Africa2.png
+- **File:Xenopus laevis embyro.jpg** · CC BY 4.0 · Emily · 2014-04-03 18:31:16 · 1392×1040
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Xenopus_laevis_embyro.jpg/1280px-Xenopus_laevis_embyro.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_embyro.jpg
+  - In situ hybridization of MRF4 (myf6) gene in X. laevis embryo
+- **File:Xenopus laevis, albino.jpg** · CC BY-SA 4.0 · Capilat · 2020-04-30 · 1200×797
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a1/Xenopus_laevis%2C_albino.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis,_albino.jpg
+  - Xenopus laevis, albino
+- **File:202003 Model animal xenopus laevis mono.svg** · CC BY 4.0 · DataBase Center for Life Science (DBCLS) · 0020-03 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/202003_Model_animal_xenopus_laevis_mono.svg/1280px-202003_Model_animal_xenopus_laevis_mono.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:202003_Model_animal_xenopus_laevis_mono.svg
+  - Xenopus laevis (mono)
+- **File:Xenopus laevis 4zz.jpg** · CC BY-SA 4.0 · Photo by David J. Stang · 2006-11-16 · 1000×480
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2f/Xenopus_laevis_4zz.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_4zz.jpg
+  - Location taken: National Aquarium in Baltimore, Baltimore MD.. Names: Xenopus laevis (Daudin, 1802), African Clawed Frog, Afrika pençeli kurbağası, Afrikankynsisammakko, Clawed frog, Clawed toad, Common Clawed Frog, Common Clawed Toad, Common platanna, Dél afrikai karmosbéka, Drápatka vodní, Glatter
+- **File:Xenopus laevis 2zz.jpg** · CC BY-SA 4.0 · Photo by David J. Stang · 2006-11-16 · 1000×604
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fb/Xenopus_laevis_2zz.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_2zz.jpg
+  - Location taken: National Aquarium in Baltimore, Baltimore MD.. Names: Xenopus laevis (Daudin, 1802), African Clawed Frog, Afrika pençeli kurbağası, Afrikankynsisammakko, Clawed frog, Clawed toad, Common Clawed Frog, Common Clawed Toad, Common platanna, Dél afrikai karmosbéka, Drápatka vodní, Glatter
+- **File:Xenopus laevis 1zz.jpg** · CC BY-SA 4.0 · Photo by David J. Stang · 2006-11-16 · 1000×667
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/1f/Xenopus_laevis_1zz.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_1zz.jpg
+  - Location taken: National Aquarium in Baltimore, Baltimore MD.. Names: Xenopus laevis (Daudin, 1802), African Clawed Frog, Afrika pençeli kurbağası, Afrikankynsisammakko, Clawed frog, Clawed toad, Common Clawed Frog, Common Clawed Toad, Common platanna, Dél afrikai karmosbéka, Drápatka vodní, Glatter
+- **File:Xenopus laevis pair.JPG** · Public domain · TimVickers · 2008-12-07 · 4062×2190
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Xenopus_laevis_pair.JPG/1280px-Xenopus_laevis_pair.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_pair.JPG
+  - African clawed frogs (Xenopus laevis)
+- **File:XenopusLaevis 6473.jpg** · CC BY-SA 4.0 · Davefoc · 2019-04-20 15:49:57 · 4493×2889
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/XenopusLaevis_6473.jpg/1280px-XenopusLaevis_6473.jpg
+  - page: https://commons.wikimedia.org/wiki/File:XenopusLaevis_6473.jpg
+  - African clawed frog (Xenopus laevis) tadpole that has partially transformed to an adult Location: The tadpole was captured in a vernal pond near Santiago Oaks Park in Orange County, California, USA
+- **File:Xenopus laevis 01.jpg** · CC BY 2.0 · Brian Gratwicke · 2012-12-22 07:02:32 · 5184×3456
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Xenopus_laevis_01.jpg/1280px-Xenopus_laevis_01.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_01.jpg
+  - Le xénope (Xenopus laevis)
+- **File:Xenopus laevis male.png** · CC BY 2.5 · Narbonne P, Simpson D, Gurdon J (2011) · 2012-10-09 01:55:55 · 1118×1034
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0d/Xenopus_laevis_male.png
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_male.png
+  - Xenopus laevis male. Diameter of the coin present in the background: 2 cm.
+- **File:Karyotype of African clawed frog (Xenopus laevis).png** · CC BY 4.0 · Session AM, Uno Y, Kwon T, et al. · Published online 19 October 2016 · 714×608
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fd/Karyotype_of_African_clawed_frog_%28Xenopus_laevis%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Karyotype_of_African_clawed_frog_(Xenopus_laevis).png
+  - Karyotype of African clawed frog (Xenopus laevis). 2n = 36. Scale bar is 10 μm.
+- **File:Xenopus laevis brown.jpg** · CC BY-SA 3.0 · Christophe cagé 06 Jully 2007 · 2007-06-25 · 2048×1536
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Xenopus_laevis_brown.jpg/1280px-Xenopus_laevis_brown.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_brown.jpg
+  - Xenopus laevis - savage form
+- **File:Ke - Xenopus laevis - 4.jpg** · CC BY-SA 4.0 · Emőke Dénes · 2017-08-29 11:47:14 · 5312×2988
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ke_-_Xenopus_laevis_-_4.jpg/1280px-Ke_-_Xenopus_laevis_-_4.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Ke_-_Xenopus_laevis_-_4.jpg
+  - Albino African clawed frog (Xenopus laevis) in Southend-on-Sea aquarium, England.
+- **File:Frame-Sequence-of-Xenopus-Laevis-Jump.jpg** · CC BY 4.0 · Li et al; · 2021-05-03 · 2128×777
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Frame-Sequence-of-Xenopus-Laevis-Jump.jpg/1280px-Frame-Sequence-of-Xenopus-Laevis-Jump.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Frame-Sequence-of-Xenopus-Laevis-Jump.jpg
+  - Frame Sequence of Xenopus Laevis Jump
+- **File:Xenopus laevis belly shot.jpg** · CC BY 2.0 · Brian Gratwicke · 2012-12-22 07:00:27 · 5184×3456
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Xenopus_laevis_belly_shot.jpg/1280px-Xenopus_laevis_belly_shot.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_belly_shot.jpg
+  - 
+- **File:Gemeiner Krallenfrosch - Xenopus laevis - aus Afrika.jpg** · CC BY-SA 3.0 · Benedikt Rauscher · 2006-01-28 · 2848×2136
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gemeiner_Krallenfrosch_-_Xenopus_laevis_-_aus_Afrika.jpg/1280px-Gemeiner_Krallenfrosch_-_Xenopus_laevis_-_aus_Afrika.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Gemeiner_Krallenfrosch_-_Xenopus_laevis_-_aus_Afrika.jpg
+  - Frontalansicht eines Gemeinen Krallenfrosches (Xenopus laevis)aus Afrika
+- **File:Xenopus laevis togopic.png** · CC BY 3.0 · Database Center for Life Science (DBCLS) · 2013-08-15 15:27:47 · 435×400
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b3/Xenopus_laevis_togopic.png
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_togopic.png
+  - Xenopus laevis. Images are from Togo picture gallery maintained by Database Center for Life Science (DBCLS).
+- **File:Xenopus laevis x tropicalis cybrids 01.png** · CC BY 2.5 · Narbonne P, Simpson D, Gurdon J (2011) · 2012-10-09 01:55:55 · 3169×2156
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Xenopus_laevis_x_tropicalis_cybrids_01.png/1280px-Xenopus_laevis_x_tropicalis_cybrids_01.png
+  - page: https://commons.wikimedia.org/wiki/File:Xenopus_laevis_x_tropicalis_cybrids_01.png
+  - Characterization of the hybrids formed by the cross-fertilization of X. laevis eggs with X. tropicalis sperm. (A-C) lxt embryos are bona fide hybrids and synthesize proteins from the X. tropicalis genome. Stage 40 tadpoles of the following kinds are shown: (A) lxl, (B) albino (a) lxl (alxal) and (C)
+- **File:Table 1 Xenopus Laevis.png** · CC BY-SA 4.0 · Krmeyer0717 · 2016-02-29 · 1286×288
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Table_1_Xenopus_Laevis.png/1280px-Table_1_Xenopus_Laevis.png
+  - page: https://commons.wikimedia.org/wiki/File:Table_1_Xenopus_Laevis.png
+  - Table 1 depicts the data taken from various students in a Biology 101 course at CSBSJU on both Tuesday, January 26th and Wednesday, January 27th. The Data was collected in order to test the toxicity of methoprene in various concentrations on the tadpoles after four days of exposure.
+- **File:ClawedFrogLarvaeUnidentified.JPG** · CC BY-SA 3.0 · Viridiflavus · 2008-05-15 · 2272×1704
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/ClawedFrogLarvaeUnidentified.JPG/1280px-ClawedFrogLarvaeUnidentified.JPG
+  - page: https://commons.wikimedia.org/wiki/File:ClawedFrogLarvaeUnidentified.JPG
+  - These plancton feeding larvae of the clawed frog (probably Xenopus laevis) are social living creatures. The tentacles give them a catfish like appearance. Taken in Munda Wanga Botanical Garden, Lusaka, Zambia
+- **File:ACFtadpole (32849150450).jpg** · CC BY 2.0 · California Department of Fish and Wildlife from Sacramento, CA, USA · 2017-03-03 13:25 · 533×800
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/1d/ACFtadpole_%2832849150450%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:ACFtadpole_(32849150450).jpg
+  - Tadpole of African clawed frog (Xenopus laevis)
+- **File:SNAP-115927-0016.jpg** · CC BY-SA 3.0 · Nicolas Pollet · 2009-10-13 · 1392×1038
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/SNAP-115927-0016.jpg/1280px-SNAP-115927-0016.jpg
+  - page: https://commons.wikimedia.org/wiki/File:SNAP-115927-0016.jpg
+  - Têtard de Xenopus tropicalis
+- **File:Unilateral knockdown of recql4 results in smaller head and eye size on the edited side.jpg** · CC BY 4.0 · Caroline W Beck, Matthew Reily-Bell, Louise S Bicknell, Perda unilateral da função recql4 em girinos de Xenopus laevis leva à ablação ipsilateral do membro anterior, cartilagem de Meckel hipoplásica e defeitos vasculares, G3 Genes|Genomes|Genetics , Volume 15, Edição 10, outubro de 2025, jkaf179, https://doi.org/10.1093/g3journal/jkaf179 · 2025-08-16 · 520×609
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/26/Unilateral_knockdown_of_recql4_results_in_smaller_head_and_eye_size_on_the_edited_side.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Unilateral_knockdown_of_recql4_results_in_smaller_head_and_eye_size_on_the_edited_side.jpg
+  - Supressão unilateral de recql4 reduz cabeça e olhos no lado editado. Embriões foram injetados com sgRNA e GFP. Análises mostram redução significativa nas áreas da cabeça e olhos comparado ao controle (****P &lt; 0,0001).
+- **File:The biology of the amphibia (1931) (20356016846).jpg** · Public domain · Internet Archive Book Images · 1931 · 1938×1938
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_biology_of_the_amphibia_%281931%29_%2820356016846%29.jpg/1280px-The_biology_of_the_amphibia_%281931%29_%2820356016846%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:The_biology_of_the_amphibia_(1931)_(20356016846).jpg
+  - Title: The biology of the amphibia Identifier: biologyofamphibi00nobl (find matches) Year: 1931 (1930s) Authors: Noble, Gladwyn Kingsley, 1894-1940 Subjects: Amphibians Publisher: New York : McGraw-Hill Contributing Library: ASC - York University Libraries Digitizing Sponsor: York University - Unive
+- **File:A What is the differentiation potential of cells in the blastema?.jpg** · CC BY 3.0 · Gurley, K.A. and Sánchez Alvarado, A., Stem cells in animal models of regeneration (December 31, 2008), StemBook, ed. The Stem Cell Research Community, StemBook, doi/10.3824/stembook.1.32.1, http://www.stembook.org. · Published December 31, 2008. · 531×600
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c8/A_What_is_the_differentiation_potential_of_cells_in_the_blastema%3F.jpg
+  - page: https://commons.wikimedia.org/wiki/File:A_What_is_the_differentiation_potential_of_cells_in_the_blastema?.jpg
+  - The blastema may be composed of 1) cells that are restricted to give rise to the same tissues from which they were derived, 2) cells that are multipotent and give rise different tissue types, or 3) a complex mix of cells with a variety of origins and potentials. In the larval tail of urodeles, fluor

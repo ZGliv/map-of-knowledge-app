@@ -1,0 +1,545 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.random-walks",
+ "name": "Random walks",
+ "summary": [
+  {
+   "text": "A random walk is a path made of a series of random steps, such as a marker that moves one step left or right depending on a coin flip.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The same idea describes a molecule drifting in a liquid, an animal searching for food, a fluctuating stock price, or a gambler's money.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Because it fits so many situations, random walks are used in fields from ecology and physics to economics and computer science.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simplest example",
+   "value": "Start at 0 on a number line; each step is +1 or −1",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Name introduced",
+   "value": "Karl Pearson, 1905",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Other name",
+   "value": "The drunkard's walk",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Studied by simulation",
+   "value": "Monte Carlo simulation can produce sample walks",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Walking forever",
+   "value": "A simple walk on the number line crosses every point infinitely often",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A marker starts at zero. Each fair coin flip moves it one step right for heads or one step left for tails. After exactly five flips, which spot can it NOT be on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three steps to the left"
+    },
+    {
+     "id": "b",
+     "label": "One step to the right"
+    },
+    {
+     "id": "c",
+     "label": "Two steps to the right"
+    },
+    {
+     "id": "d",
+     "label": "Five steps to the right"
+    }
+   ],
+   "answer": "c",
+   "explain": "After five flips the marker can only be on −5, −3, −1, 1, 3 or 5, so two steps to the right is impossible.",
+   "cites": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks:q1"
+  },
+  {
+   "prompt": "After five fair coin flips, a marker is either one step right of zero or three steps right of zero. Which is more likely, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three right, since four heads feels like a strong streak"
+    },
+    {
+     "id": "b",
+     "label": "One right, since more mixes of flips lead there"
+    },
+    {
+     "id": "c",
+     "label": "They are equally likely, since every flip is fair"
+    },
+    {
+     "id": "d",
+     "label": "Three right, since it is further from the start"
+    }
+   ],
+   "answer": "b",
+   "explain": "One step right comes from three heads and two tails in any order, which can happen 10 ways; three right needs four heads and one tail, only 5 ways.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks:q2"
+  },
+  {
+   "prompt": "A gambler with a limited bankroll plays a fair game against a bank that never runs out of money. What is the long-run outcome?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wins and losses cancel out, so the gambler stays afloat"
+    },
+    {
+     "id": "b",
+     "label": "The gambler slowly accumulates the bank's money"
+    },
+    {
+     "id": "c",
+     "label": "It depends entirely on the gambler's lucky streaks"
+    },
+    {
+     "id": "d",
+     "label": "The gambler eventually reaches zero and the game ends"
+    }
+   ],
+   "answer": "d",
+   "explain": "The gambler's money performs a random walk, and it will reach zero at some point, even though the game is fair.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks:q3"
+  },
+  {
+   "prompt": "A simple random walk on a number line is allowed to continue forever. How often does it pass over any one given point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Over and over, without any limit"
+    },
+    {
+     "id": "b",
+     "label": "Exactly once, then it drifts off"
+    },
+    {
+     "id": "c",
+     "label": "Never, if it starts somewhere else"
+    },
+    {
+     "id": "d",
+     "label": "Only a handful of times in total"
+    }
+   ],
+   "answer": "a",
+   "explain": "A simple random walk on the integers crosses every point an infinite number of times.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks:q4"
+  },
+  {
+   "prompt": "A foraging animal's search path, a molecule moving through a liquid, and a gambler's changing finances have what in common?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They all follow a fixed, repeating pattern"
+    },
+    {
+     "id": "b",
+     "label": "They all move in only one direction"
+    },
+    {
+     "id": "c",
+     "label": "Each can be modeled as a random walk"
+    },
+    {
+     "id": "d",
+     "label": "They all begin at exactly zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "These are all given as examples of random walks: paths or quantities that change through random steps.",
+   "cites": [
+    1,
+    3
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks:q5"
+  },
+  {
+   "prompt": "A walker on a grid has the same chance of stepping to each place right next to it. What is such a walk called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Monte Carlo walk"
+    },
+    {
+     "id": "b",
+     "label": "A heavy-tailed walk"
+    },
+    {
+     "id": "c",
+     "label": "A bordered walk"
+    },
+    {
+     "id": "d",
+     "label": "A simple symmetric random walk"
+    }
+   ],
+   "answer": "d",
+   "explain": "When a walk can only jump to neighboring sites and each neighbor is equally likely, it is a simple symmetric random walk.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Eight-step_random_walks.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Random walks",
+  "credit": "User:Jgn1055",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Eight-step_random_walks.png"
+ },
+ "source": {
+  "title": "Random walk",
+  "url": "https://en.wikipedia.org/wiki/Random_walk",
+  "revision": 1380701841
+ },
+ "pack": {
+  "id": "auto-stochastic-processes-random-walks",
+  "title": "The Coin-Flip Staggerer",
+  "question": "What can you say about a path made only of random steps?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Stochastic processes",
+   "Random walks"
+  ],
+  "hue": 39,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Eight-step_random_walks.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Random walks",
+    "credit": "User:Jgn1055 · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eight-step_random_walks.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The Coin-Flip Staggerer",
+    "hook": "Flip a coin to decide each step, and you can still say surprising things about where you end up."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-stochastic-processes-random-walks:1",
+    "transfer": false,
+    "prompt": "A marker starts at zero. Heads moves it one step right, tails one step left. After exactly five fair flips, where could it be?",
+    "explain": "After five flips the marker can only be on −5, −3, −1, 1, 3 or 5.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Only −5, −3, −1, 1, 3 or 5"
+       },
+       {
+        "id": "c",
+        "label": "Only zero, since heads and tails cancel",
+        "feedback": "They would cancel only on average; with five flips you cannot have equal heads and tails."
+       },
+       {
+        "id": "a",
+        "label": "Any whole number from −5 to 5",
+        "feedback": "It sounds natural, but each flip changes the position by one, so the parity is forced and half those spots are impossible."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-stochastic-processes-random-walks:2",
+    "transfer": false,
+    "prompt": "match each to the thing whose path is a random walk",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Foraging animal"
+     },
+     {
+      "id": "l1",
+      "label": "Stock"
+     },
+     {
+      "id": "l2",
+      "label": "Gambler"
+     },
+     {
+      "id": "l3",
+      "label": "Molecule in a gas"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Its search path"
+     },
+     {
+      "id": "r1",
+      "label": "Its fluctuating price"
+     },
+     {
+      "id": "r3",
+      "label": "The path it traces"
+     },
+     {
+      "id": "r2",
+      "label": "Their financial status"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "All are given as examples of things that can be modeled as random walks."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-stochastic-processes-random-walks:3",
+    "transfer": true,
+    "prompt": "A simple random walk on the number line is allowed to go on forever. How many times does it cross any given point?",
+    "explain": "A simple random walk on the integers crosses every point an infinite number of times.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Infinitely many times"
+       },
+       {
+        "id": "c",
+        "label": "A few times, depending on luck",
+        "feedback": "Luck changes when it crosses, not whether it keeps crossing."
+       },
+       {
+        "id": "a",
+        "label": "Once, then it wanders away for good",
+        "feedback": "Wandering away feels likely, but the walk keeps coming back."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-stochastic-processes-random-walks:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about a gambler is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A gambler has a finite amount of money."
+     },
+     {
+      "id": "b",
+      "text": "The gambler plays a fair game against a bank with infinite money."
+     },
+     {
+      "id": "c",
+      "text": "The gambler's money performs a random walk."
+     },
+     {
+      "id": "d",
+      "text": "So the walk will never reach zero and the gambler is safe."
+     }
+    ],
+    "answer": "d",
+    "explain": "The walk will reach zero at some point, and then the gambler's game is over."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A path built from random steps is still bound by counting: some places are reached by far more routes than others, and over enough time it keeps returning.",
+    "connections": [
+     {
+      "title": "Gambler's ruin",
+      "place": "Random walks",
+      "node": "knowledge.mathematics.probability.stochastic-processes.random-walks.gambler-s-ruin"
+     },
+     {
+      "title": "Self-avoiding walk",
+      "place": "Random walks",
+      "node": "knowledge.mathematics.probability.stochastic-processes.random-walks.self-avoiding-walk"
+     },
+     {
+      "title": "Lévy flight",
+      "place": "Random walks",
+      "node": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "After five flips the marker can only be on −5, −3, −1, 1, 3 or 5.",
+    "source": "Wikipedia sentences 18"
+   },
+   {
+    "claim": "All are given as examples of things that can be modeled as random walks.",
+    "source": "Wikipedia sentences 3"
+   },
+   {
+    "claim": "A simple random walk on the integers crosses every point an infinite number of times.",
+    "source": "Wikipedia sentences 22"
+   },
+   {
+    "claim": "The walk will reach zero at some point, and then the gambler's game is over.",
+    "source": "Wikipedia sentences 24, 25"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A path of random steps",
+    "text": "A random walk is a process that traces out a path made of one random step after another in some mathematical space. The plainest example lives on the integer number line ℤ. It starts at 0, and at each step it moves +1 or −1 with equal chance. Some texts call it a drunkard's walk.",
+    "cites": [
+     1,
+     2,
+     7
+    ]
+   },
+   {
+    "heading": "Why it shows up everywhere",
+    "text": "The same picture fits a molecule wandering through a liquid or a gas, an animal searching for food, a stock price that moves up and down, and a gambler's money. Random walks are used in engineering and in many sciences, from ecology and psychology to physics, chemistry, biology, computer science, economics and sociology. Karl Pearson coined the term random walk in 1905. Sample paths can be produced by Monte Carlo simulation.",
+    "cites": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "A coin and a number line",
+    "text": "Put a marker on zero and flip a fair coin. Heads moves it one unit right; tails moves it one unit left. After five flips the marker sits on -5, -3, -1, 1, 3 or 5. Three heads and two tails, in any order, leave it on 1, and there are 10 such orders. There are 5 ways to reach 3, and just 1 way to reach 5.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Walks on a grid",
+    "text": "A common model is a walk on a regular lattice, where each step jumps to another site according to some probability distribution. In a simple random walk, the marker may only hop to neighbouring sites. If it is also symmetric, each immediate neighbour is equally likely. The best-studied case is the d-dimensional integer lattice ℤᵈ.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "It keeps coming back",
+    "text": "Let a simple random walk on ℤ run forever and it will cross every point infinitely many times. This fact goes by several names: the level-crossing phenomenon, recurrence, or gambler's ruin. The last name has a story. A gambler with limited money playing a fair game against a bank with unlimited money will eventually lose, because their money follows a random walk that hits zero at some point.",
+    "cites": [
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Hitting a target",
+    "text": "Start a one-dimensional simple random walk at 0, and pick positive integers a and b. On average it takes ab steps to first reach either b or −a. The chance that it reaches b before −a is a/(a + b). That second answer follows from the fact that a simple random walk is a martingale.",
+    "cites": [
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Pascal's triangle and the normal curve",
+    "text": "Some of these results come from Pascal's triangle. With steps of +1 or −1, there are 2ⁿ different walks of n steps, and in the simple random walk each one is equally likely. The central limit theorem says that as n grows, the chances of ending at each position approach a normal distribution.",
+    "cites": [
+     29,
+     30,
+     31,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "grinstead-snell-random-walks",
+   "kind": "book",
+   "title": "12: Random Walks - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/12%3A_Random_Walks",
+   "note": "A free textbook chapter on random walks in Euclidean space, gambler's ruin and the arc sine laws.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "gallager-random-walks",
+   "kind": "book",
+   "title": "7: Random Walks, Large Deviations, and Martingales - Discrete Stochastic Processes (Gallager)",
+   "by": "Robert Gallager",
+   "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Discrete_Stochastic_Processes_(Gallager)/07%3A_Random_Walks_Large_Deviations_and_Martingales",
+   "note": "A more advanced free textbook chapter from MIT's stochastic processes course on random walks and their large deviations.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

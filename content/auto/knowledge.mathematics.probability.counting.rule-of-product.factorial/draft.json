@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A factorial, written n!, counts the distinct sequences, called permutations, of n distinct objects.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "Arranging n distinct objects into a sequence can be done in n factorial ways, and the factorial of zero is defined to be 1.",
+   "cites": [
+    2,
+    41
+   ]
+  },
+  {
+   "text": "Factorials appear in ancient Indian and Jewish writings, and Christian Kramp introduced the exclamation-mark notation in 1808.",
+   "cites": [
+    3,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Zero case",
+   "value": "0! equals 1, by the empty-product convention",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Notation",
+   "value": "Christian Kramp introduced n! in 1808",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Growth",
+   "value": "Factorials grow more quickly than exponential growth",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Pacioli's table",
+   "value": "In 1494 he calculated factorials up to 11!",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Bell ringing",
+   "value": "Fabian Stedman applied factorials to change ringing in 1677",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A librarian wants to know how many different orders five different books can take on a shelf. Which number gives that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5 × 5, since any book can go in any spot"
+    },
+    {
+     "id": "b",
+     "label": "5, one for each book"
+    },
+    {
+     "id": "c",
+     "label": "5!, the factorial of 5"
+    },
+    {
+     "id": "d",
+     "label": "5 + 5, one for each end of the shelf"
+    }
+   ],
+   "answer": "c",
+   "explain": "The factorial n! counts the ways of arranging n distinct objects into a sequence.",
+   "cites": [
+    4,
+    41
+   ]
+  },
+  {
+   "prompt": "A shelf holds no books at all. How many ways are there to arrange the books on it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero ways, since there is nothing to arrange"
+    },
+    {
+     "id": "b",
+     "label": "Exactly one way, doing nothing"
+    },
+    {
+     "id": "c",
+     "label": "Two ways, empty or not empty"
+    },
+    {
+     "id": "d",
+     "label": "No answer, because it makes no sense"
+    }
+   ],
+   "answer": "b",
+   "explain": "With nothing to permute, the only rearrangement is to do nothing, so there is exactly one permutation of zero objects, matching 0! = 1.",
+   "cites": [
+    2,
+    36
+   ]
+  },
+  {
+   "prompt": "You choose 2 friends out of 5 for a team and the order of choosing does not matter. Why do factorials appear in the formula for such counts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They account for different orderings of the objects"
+    },
+    {
+     "id": "b",
+     "label": "They make the numbers in the formula smaller"
+    },
+    {
+     "id": "c",
+     "label": "They count only the even numbered friends"
+    },
+    {
+     "id": "d",
+     "label": "They are needed only when a group has five members"
+    }
+   ],
+   "answer": "a",
+   "explain": "Factorials appear broadly in combinatorics to account for different orderings of objects.",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "prompt": "Why is the factorial called by that name?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it was invented to factor large numbers"
+    },
+    {
+     "id": "b",
+     "label": "Because it is only defined for prime numbers"
+    },
+    {
+     "id": "c",
+     "label": "Because it factors an exponential into smaller powers"
+    },
+    {
+     "id": "d",
+     "label": "Because the terms of its product formula are its factors"
+    }
+   ],
+   "answer": "d",
+   "explain": "The word refers to the terms of the product formula for the factorial, which are its factors.",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "prompt": "A church team has several tuned bells and wants to ring them in every possible order without repeating one. Which tool counts those orders?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A binomial coefficient, which counts subsets"
+    },
+    {
+     "id": "b",
+     "label": "A factorial, which counts orderings"
+    },
+    {
+     "id": "c",
+     "label": "A power series for the exponential function"
+    },
+    {
+     "id": "d",
+     "label": "A prime factorization of the number of bells"
+    }
+   ],
+   "answer": "b",
+   "explain": "Factorials count the ways to order distinct objects, and Fabian Stedman applied them to change ringing, the ringing of several tuned bells.",
+   "cites": [
+    22,
+    41
+   ]
+  },
+  {
+   "prompt": "A programmer computes factorials by repeating the rule that n! is n times the factorial of the number just below it. Why does defining 0! as 1 help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every answer an even number"
+    },
+    {
+     "id": "b",
+     "label": "It lets the rule stop at one and avoid zero"
+    },
+    {
+     "id": "c",
+     "label": "Only zero is needed as a starting value, with no special cases"
+    },
+    {
+     "id": "d",
+     "label": "It makes factorials of large numbers faster to compute"
+    }
+   ],
+   "answer": "c",
+   "explain": "With 0! = 1 the recurrence stays valid at 1, so a recursive computation needs only the value at zero as its base case.",
+   "cites": [
+    33,
+    38,
+    39
+   ]
+  }
+ ]
+}

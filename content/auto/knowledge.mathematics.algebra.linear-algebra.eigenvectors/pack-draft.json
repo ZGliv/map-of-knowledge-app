@@ -1,0 +1,107 @@
+{
+ "title": "Arrows That Hold Their Line",
+ "question": "Which arrows does a transformation only stretch, never turn?",
+ "hook": "Shove a picture sideways and nearly every arrow tilts, yet a few stubbornly keep their line.",
+ "idea": "Eigenvectors are the arrows a transformation merely scales, and the eigenvalue says by how much.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A picture is sheared: points in the top half slide right and points in the bottom half slide left, more the farther they are from the middle line. Which arrows, drawn from the center, keep pointing the same way?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Arrows pointing straight along the horizontal middle line"
+    },
+    {
+     "id": "b",
+     "label": "Arrows pointing straight up toward the top edge",
+     "feedback": "These point at the part that slides sideways the most, so they tilt."
+    },
+    {
+     "id": "c",
+     "label": "Arrows pointing at the top corners",
+     "feedback": "Corners are far from the middle line and slide the most, so these tilt too."
+    }
+   ],
+   "answer": "a",
+   "explain": "Points on the horizontal axis do not move, so arrows along it keep direction and length: eigenvectors with eigenvalue one.",
+   "cites": [
+    27,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each effect of a transformation on an arrow.",
+   "groups": [
+    "Eigenvector",
+    "Not an eigenvector"
+   ],
+   "items": [
+    [
+     "Only stretched",
+     "Eigenvector"
+    ],
+    [
+     "Only shrunk",
+     "Eigenvector"
+    ],
+    [
+     "Rotated",
+     "Not an eigenvector"
+    ],
+    [
+     "Sheared",
+     "Not an eigenvector"
+    ]
+   ],
+   "explain": "Eigenvectors are only stretched or shrunk, with neither rotation nor shear.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each collection to its name.",
+   "pairs": [
+    [
+     "All eigenvectors, each paired with its eigenvalue",
+     "Eigensystem"
+    ],
+    [
+     "Eigenvectors for one eigenvalue, plus the zero vector",
+     "Eigenspace"
+    ],
+    [
+     "Eigenvectors that form a basis",
+     "Eigenbasis"
+    ]
+   ],
+   "explain": "Each name describes a different way of gathering eigenvectors.",
+   "cites": [
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about a feedback system is wrong. Which one?",
+   "steps": [
+    "A system feeds its outputs back in as inputs to the same transformation.",
+    "We want to know how it behaves after many repeats.",
+    "The smallest eigenvalue governs that long-term behavior.",
+    "The matching eigenvector is then the steady state."
+   ],
+   "wrong": 2,
+   "explain": "The largest eigenvalue, not the smallest, governs the long-term behavior.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ]
+}

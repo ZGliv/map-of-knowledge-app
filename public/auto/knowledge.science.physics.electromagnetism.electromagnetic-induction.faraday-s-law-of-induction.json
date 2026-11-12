@@ -1,0 +1,325 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction",
+ "name": "Faraday's law of induction",
+ "summary": [
+  {
+   "text": "Faraday's law of induction describes how a changing magnetic field can drive an electric current in a circuit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In its flux-rule form, the emf around a closed loop equals the negative rate of change of magnetic flux through it.",
+   "cites": [
+    38
+   ]
+  },
+  {
+   "text": "This is the working principle behind transformers, inductors, and many motors, generators and solenoids.",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Key experiment",
+   "value": "Faraday's iron ring with two coils, August 29, 1831",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "label": "Flux rule causes",
+   "value": "Changing field, moving circuit, or a deformed loop shape",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Two mechanisms",
+   "value": "Transformer emf and motional emf",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Neumann's contribution",
+   "value": "Set out the math of induction in 1845",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Static magnets",
+   "value": "A magnet resting near a loop produces no current",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A magnet is held still next to a loop of wire. Which change would produce a current?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Leaving the magnet exactly where it is"
+    },
+    {
+     "id": "b",
+     "label": "Making the magnet look shinier"
+    },
+    {
+     "id": "c",
+     "label": "Waiting longer"
+    },
+    {
+     "id": "d",
+     "label": "Moving the magnet toward the loop"
+    }
+   ],
+   "answer": "d",
+   "explain": "A static field has no effect on a circuit. A changing field, such as one from a moving magnet, induces current.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction:q1"
+  },
+  {
+   "prompt": "A flat wire loop is squeezed into a narrower shape inside a steady magnetic field. Does it get an emf?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because deforming the loop changes the flux through it"
+    },
+    {
+     "id": "b",
+     "label": "No, because the field never changed"
+    },
+    {
+     "id": "c",
+     "label": "No, because only magnets can cause an emf"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if the loop heats up"
+    }
+   ],
+   "answer": "a",
+   "explain": "The flux rule accounts for flux changes from field variation, movement of the circuit, or deformation of its shape.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction:q2"
+  },
+  {
+   "prompt": "A loop moves through a steady magnetic field and a current appears. Which mechanism is at work?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Transformer emf from a changing field"
+    },
+    {
+     "id": "b",
+     "label": "Motional emf from the magnetic force on charges"
+    },
+    {
+     "id": "c",
+     "label": "Static charge left on the wire"
+    },
+    {
+     "id": "d",
+     "label": "Heat flowing along the wire"
+    }
+   ],
+   "answer": "b",
+   "explain": "In motional emf the circuit moves through a field and the magnetic part of the Lorentz force pushes the charges.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction:q3"
+  },
+  {
+   "prompt": "The minus sign in Faraday's law carries which idea?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The current can never be negative"
+    },
+    {
+     "id": "b",
+     "label": "The induced current's field opposes the change in flux"
+    },
+    {
+     "id": "c",
+     "label": "The loop must be turned upside down"
+    },
+    {
+     "id": "d",
+     "label": "The flux always shrinks"
+    }
+   ],
+   "answer": "b",
+   "explain": "The direction is given by Lenz's law: the induced current opposes the change in the original flux.",
+   "cites": [
+    38,
+    40
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction:q4"
+  },
+  {
+   "prompt": "Why did the 1831 experiment need a battery to be switched on or off, rather than just connected?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The meter only works at night"
+    },
+    {
+     "id": "b",
+     "label": "A steady current would have burned out the meter"
+    },
+    {
+     "id": "c",
+     "label": "Changing current in coil one made a changing field in the ring"
+    },
+    {
+     "id": "d",
+     "label": "Batteries only work when moving"
+    }
+   ],
+   "answer": "c",
+   "explain": "Faraday concluded that a changing current made a changing magnetic field in the ring, which induced a current in the second coil.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction:q5"
+  },
+  {
+   "prompt": "Early critics doubted Faraday's explanation. What was their main objection?",
+   "options": [
+    {
+     "id": "a",
+     "label": "His experiments never worked"
+    },
+    {
+     "id": "b",
+     "label": "His lines of force had no mathematical form"
+    },
+    {
+     "id": "c",
+     "label": "He used the wrong metal"
+    },
+    {
+     "id": "d",
+     "label": "He copied Henry's results"
+    }
+   ],
+   "answer": "b",
+   "explain": "His theoretical ideas met skepticism because they were not formulated mathematically; Maxwell later supplied the math.",
+   "cites": [
+    26,
+    27,
+    33
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Elementary_generator.svg/960px-Elementary_generator.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Faraday's law of induction",
+  "credit": "Federal Aviation Administration",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Elementary_generator.svg"
+ },
+ "source": {
+  "title": "Faraday's law of induction",
+  "url": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+  "revision": 1375269873
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The question before Faraday",
+    "text": "In 1820 Hans Christian Ørsted showed that an electric current makes a magnetic field, by turning a compass needle with a nearby wire carrying current. Scientists then asked whether it worked the other way round. Early tests found that a magnet simply sitting near a wire loop made no current at all. In 1831 Michael Faraday showed that a changing magnetic field could do it. Joseph Henry saw similar effects in 1832, but Faraday published first.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The iron ring",
+    "text": "Faraday's notebook entry for August 29, 1831 records a demonstration of induction. He wound two coils of wire on opposite sides of an iron ring. When he connected one coil to a battery, a galvanometer attached to the second coil gave a brief kick. He reasoned that the changing current in the first coil made a changing magnetic field in the ring, and that this field drove a current in the second coil. In the months after, he also got brief currents by moving a bar magnet quickly into or out of a coil.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Two versions of one law",
+    "text": "The name Faraday's law is used for two related but distinct statements. The Maxwell–Faraday equation says a magnetic field that changes in time always comes with a circulating electric field, and it applies to the fields even when no circuit is there. The flux rule, also called the Faraday–Lenz law, ties the emf around a closed conducting loop to how fast the flux through it changes, and it can be derived from the first statement for a closed circuit. The direction comes from Lenz's law: the induced current flows so that its own magnetic field opposes the change in flux.",
+    "cites": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     40
+    ]
+   },
+   {
+    "heading": "Two ways to make an emf",
+    "text": "The flux rule covers two mechanisms. In transformer emf, a changing magnetic field creates an electric field, and that field pushes current around the loop. In motional emf, the loop itself travels through a magnetic field, and the magnetic part of the Lorentz force acts on the charges in the wire. The current depends only on relative motion, yet the two explanations differed, which posed a puzzle. Special relativity treats the difference as depending on the observer: a magnetic force in one frame can appear as an induced electric field in another.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up2-faradays-law",
+   "kind": "book",
+   "title": "13.1 Faraday’s Law - University Physics Volume 2",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law",
+   "note": "A free textbook section on Faraday's law relating induced emf to changing magnetic flux.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cp-faraday-lenz",
+   "kind": "book",
+   "title": "23.2 Faraday’s Law of Induction: Lenz’s Law - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/23-2-faradays-law-of-induction-lenzs-law",
+   "note": "An algebra-based textbook section on Faraday's law of induction and Lenz's law.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crash-course-induction",
+   "kind": "video",
+   "title": "Induction - An Introduction: Crash Course Physics #34",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=pQp6bmJPU_0",
+   "note": "A Crash Course Physics introduction to induction by changing magnetic fields."
+  }
+ ]
+}

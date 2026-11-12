@@ -1,0 +1,34 @@
+{
+ "readHash": "d58d0e730080f93868468248cf8e8c7ce5ccc6da",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Eigenvalues as roots [1], 'precisely' from [16], determinant and trace among coefficients [2], characteristic/determinantal equation [4]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Eigenvector/eigenvalue meaning [6], A v = lambda v and (lambda I - A)v = 0 with v nonzero [7][8], singular, det zero [9], degree n polynomial is the characteristic polynomial [10][11]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "p_A(t)=det(tI-A) [12], monic degree n [15], alternative det(A-tI) [13], differs by (-1)^n, same roots, monic only for even n [14]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Coefficients polynomial in entries [17], constant (-1)^n det A, t^n coefficient 1, t^(n-1) coefficient -tr A [18], 2x2 form [19]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Similar matrices same polynomial [24], basis independence for endomorphism [3], converse fails [25], transpose [26], AB and BA [29]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Cayley-Hamilton substitution yields zero matrix [21]; informal restatement [22]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Secular function term still used in some literature [37]; secular perturbations on century time scale, slow vs annual, per Lagrange's theory [38]."
+  }
+ }
+}

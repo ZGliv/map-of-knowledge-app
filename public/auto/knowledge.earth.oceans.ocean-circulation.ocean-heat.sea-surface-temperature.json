@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature",
+ "name": "Sea surface temperature",
+ "summary": [
+  {
+   "text": "Sea surface temperature is the temperature of ocean water near the surface, usually measured somewhere between 1 millimetre and 20 metres down.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "It shapes the air above it: warm surface water can build and strengthen cyclones, and coastal values help forecasters predict sea breezes and sea fog.",
+   "cites": [
+    6,
+    14
+   ]
+  },
+  {
+   "text": "Global mean sea surface temperature very likely rose by 0.88 °C between 1850–1900 and 2011–2020 because of global warming.",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Depth meant by surface",
+   "value": "Usually between 1 mm and 20 m down",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Daily swing",
+   "value": "Can vary by 6 °C on calm days",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Warming since 1850–1900",
+   "value": "Very likely 0.88 °C by 2011–2020",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Saharan dust effect",
+   "value": "Cools it by 0.2 to 0.4 °C",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A hurricane has just crossed a stretch of warm tropical sea. What happens to the water temperature along its track?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It warms from the storm's heat"
+    },
+    {
+     "id": "b",
+     "label": "It stays exactly the same"
+    },
+    {
+     "id": "c",
+     "label": "It cools as the storm stirs the water"
+    },
+    {
+     "id": "d",
+     "label": "It warms because rain is warm"
+    }
+   ],
+   "answer": "c",
+   "explain": "Tropical cyclones leave a cool wake because they churn up and mix the top 30 metres of the ocean.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature:q1"
+  },
+  {
+   "prompt": "You log the sea temperature at a beach every hour for two days, one calm and one breezy. Which day shows the bigger swing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The calm day"
+    },
+    {
+     "id": "b",
+     "label": "The breezy day"
+    },
+    {
+     "id": "c",
+     "label": "Both swing the same"
+    },
+    {
+     "id": "d",
+     "label": "Neither swings at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Sea surface temperature varies less on breezy days than on calm days, when it can shift by as much as 6 °C.",
+   "cites": [
+    11,
+    30
+   ],
+   "id": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature:q2"
+  },
+  {
+   "prompt": "Over a sunny day the sea surface warms and cools much less than the air above it. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Salt blocks most of the sunlight"
+    },
+    {
+     "id": "b",
+     "label": "The sea is always moving faster"
+    },
+    {
+     "id": "c",
+     "label": "Cold rivers keep pouring into it"
+    },
+    {
+     "id": "d",
+     "label": "Water has greater thermal inertia"
+    }
+   ],
+   "answer": "d",
+   "explain": "The sea surface has a daily temperature range like the air, but smaller, because of its greater thermal inertia.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature:q3"
+  },
+  {
+   "prompt": "Along a coast, winds push the sun-warmed top layer of the sea out away from shore. What happens to the water near the beach?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gets warmer as it piles up"
+    },
+    {
+     "id": "b",
+     "label": "Cooler water rises from below"
+    },
+    {
+     "id": "c",
+     "label": "It drains away and sea level drops"
+    },
+    {
+     "id": "d",
+     "label": "It freezes into a thin crust"
+    }
+   ],
+   "answer": "b",
+   "explain": "When winds move warm surface water offshore, cooler water from below replaces it, a process called Ekman transport.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature:q4"
+  },
+  {
+   "prompt": "Off a large river delta, fresh river water spreads over the top of the salty sea. How does that top layer warm in the sun?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Slower, since fresh water holds less heat"
+    },
+    {
+     "id": "b",
+     "label": "Exactly as fast as open ocean"
+    },
+    {
+     "id": "c",
+     "label": "Faster, since it mixes little with below"
+    },
+    {
+     "id": "d",
+     "label": "It cannot warm until it turns salty"
+    }
+   ],
+   "answer": "c",
+   "explain": "Freshwater floats over the denser seawater, and with little vertical mixing it heats faster.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature:q5"
+  },
+  {
+   "prompt": "What can a patch of unusually warm sea surface do to a storm passing over it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Help it grow stronger"
+    },
+    {
+     "id": "b",
+     "label": "Break it up quickly"
+    },
+    {
+     "id": "c",
+     "label": "Turn its rain into snow"
+    },
+    {
+     "id": "d",
+     "label": "Stop it from moving"
+    }
+   ],
+   "answer": "a",
+   "explain": "Warm sea surface temperatures can develop and strengthen cyclones over the ocean.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.earth.oceans.ocean-circulation.ocean-heat.sea-surface-temperature:q6"
+  }
+ ],
+ "source": {
+  "title": "Sea surface temperature",
+  "url": "https://en.wikipedia.org/wiki/Sea_surface_temperature",
+  "revision": 1381460090
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What counts as the surface",
+    "text": "Sea surface temperature is how warm the ocean is near its top. What counts as the surface depends on how it is measured, but it lies somewhere between 1 millimetre and 20 metres down. The very top film, about 20 micrometres thick, has its own name: the skin temperature. Water below the surface layer is described by ocean temperature, or deeper ocean temperature.",
+    "cites": [
+     1,
+     2,
+     3,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Why there is no single depth",
+    "text": "How far the surface layer reaches depends on how much it mixes with the water beneath. In the tropics a warm top layer of about 100 m stays stable and barely mixes downward. Near the poles, winter cold and storms make the top water denser, so it mixes very deep before layering again in summer. So there is no one simple depth for the ocean surface. The ocean's photic depth, typically about 100 m and up to around 200 m in the open ocean, is tied to this heated layer.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Daily ups and downs",
+    "text": "Like the air, the sea surface warms and cools over a day, but by less. The sea has greater thermal inertia, so its swing is smaller. Even so, the surface can change by 6 °C on a calm day, while breezy days bring smaller changes. Deeper water follows the air with a delay of 15 days for every 10 metres. In the Aral Sea this means the water near the bottom is warmest in December and coldest in May and June.",
+    "cites": [
+     9,
+     10,
+     11,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Shaping weather and storms",
+    "text": "Sea surface temperature changes the air above it, especially air masses close to the shore. Forecasting models use coastal values because they help produce sea breezes and sea fog. Warm surface water can help cyclones form and grow stronger over the ocean. A tropical cyclone can also leave a cool wake behind it, as it churns the top 30 metres of water. Satellites can spot this cooling, which comes mainly from a deepening mixed layer and heat lost from the surface.",
+    "cites": [
+     4,
+     6,
+     7,
+     8,
+     14,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Coasts, rivers and dust",
+    "text": "Near some coasts, winds push warm surface water out to sea and cooler water rises from below to take its place, a process called Ekman transport. This usually brings more nutrients for sea life. Off river deltas, fresh water spreads over the heavier seawater and warms faster because it mixes little with the water below. After Saharan dust storms lasting several days, the nearby northern Atlantic surface cools by 0.2 C to 0.4 C. Storms outside the tropics, sudden floods of glacial meltwater and dense blooms of phytoplankton can also cause short-lived changes.",
+    "cites": [
+     32,
+     33,
+     34,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "A warming surface",
+    "text": "Global warming has very likely lifted the average sea surface temperature worldwide by 0.88 °C, comparing 1850–1900 with 2011–2020. Most of that, 0.60 °C, came between 1980 and 2020. Land is warming faster than the sea, because the ocean takes in about 90% of the excess heat from climate change. Since 1950 the tropical ocean has warmed fastest, especially the tropical Indian Ocean, the western Pacific and the western boundary currents of the subtropical gyres. The eastern Pacific, the subtropical North Atlantic and the Southern Ocean have warmed more slowly than average, or even cooled.",
+    "cites": [
+     15,
+     16,
+     17,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Swings over decades",
+    "text": "Some changes play out over decades. The Atlantic Multidecadal Oscillation, or AMO, is a major driver of North Atlantic surface temperatures and Northern Hemisphere climate. What controls it is still poorly understood: the atmosphere's own variability, shifts in ocean circulation or human influence may all play a part. North Atlantic changes may even alter winds over the subtropical North Pacific and warm the western Pacific. El Niño, in turn, is defined by long-lasting departures of Pacific surface temperatures from their average.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-sst",
+   "kind": "article",
+   "title": "Why do scientists measure sea surface temperature?",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/sea-surface-temperature.html",
+   "note": "A short NOAA explainer on how sea surface temperature is measured and used for forecasts, El Niño and ecosystems."
+  },
+  {
+   "id": "webb-temperature",
+   "kind": "book",
+   "title": "6.2: Temperature",
+   "by": "Paul Webb, Roger Williams University (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Oceanography/Introduction_to_Oceanography_(Webb)/06%3A_Physical_Oceanography/6.02%3A_Temperature",
+   "note": "A free textbook section on surface temperature patterns by latitude and season, the mixed layer and the thermocline.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

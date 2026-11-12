@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination",
+ "name": "Gaussian elimination",
+ "summary": [
+  {
+   "text": "Gaussian elimination, also called row reduction, is an algorithm for solving systems of linear equations using row operations on the matrix of coefficients.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its first part reduces the system to row echelon form, which shows whether there are no solutions, one, or infinitely many; the second part finds the solution.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "It is named after Carl Friedrich Gauss, but a version appears in the ancient Chinese text The Nine Chapters on the Mathematical Art.",
+   "cites": [
+    4,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other uses",
+   "value": "Computes rank, determinant and inverse of a matrix",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Two parts",
+   "value": "Forward elimination, then back substitution",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Safe moves",
+   "value": "Row operations do not change the solution set",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Gauss-Jordan",
+   "value": "Reducing all the way to reduced row echelon form",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Old appearance",
+   "value": "Appears in The Nine Chapters, parts written about 150 BC",
+   "cites": [
+    36,
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You swap two rows and add a multiple of one row to another in a system's matrix. Why does the final answer still fit the original system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "These row operations leave the solution set unchanged"
+    },
+    {
+     "id": "b",
+     "label": "The original equations are discarded"
+    },
+    {
+     "id": "c",
+     "label": "Adding rows always cancels the unknowns"
+    },
+    {
+     "id": "d",
+     "label": "Row order never matters for any matrix"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the matrix is associated with a system of linear equations, these operations do not change the solution set.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination:q1"
+  },
+  {
+   "prompt": "After forward elimination you reach row echelon form. What can you already tell?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The exact solution of every unknown"
+    },
+    {
+     "id": "b",
+     "label": "Whether it has no solution, one, or infinitely many"
+    },
+    {
+     "id": "c",
+     "label": "Only the determinant of the matrix"
+    },
+    {
+     "id": "d",
+     "label": "Nothing until back substitution is done"
+    }
+   ],
+   "answer": "b",
+   "explain": "Echelon form shows whether there are no solutions, a unique solution, or infinitely many.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination:q2"
+  },
+  {
+   "prompt": "A three-unknown system is in triangular form. Which order of solving the unknowns is quicker?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In a random order"
+    },
+    {
+     "id": "b",
+     "label": "In the same order they were eliminated"
+    },
+    {
+     "id": "c",
+     "label": "In reverse order, starting from the last unknown"
+    },
+    {
+     "id": "d",
+     "label": "By guessing all and checking"
+    }
+   ],
+   "answer": "c",
+   "explain": "From a computational point of view it is faster to solve the variables in reverse order, called back-substitution.",
+   "cites": [
+    29,
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination:q3"
+  },
+  {
+   "prompt": "What is continuing row operations all the way to reduced row echelon form called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Forward elimination"
+    },
+    {
+     "id": "b",
+     "label": "LU decomposition"
+    },
+    {
+     "id": "c",
+     "label": "Cramer's rule"
+    },
+    {
+     "id": "d",
+     "label": "Gauss-Jordan elimination"
+    }
+   ],
+   "answer": "d",
+   "explain": "Row reducing until the matrix is reduced is sometimes called Gauss-Jordan elimination.",
+   "cites": [
+    5,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination:q4"
+  },
+  {
+   "prompt": "A programmer sets up a system of equations so a computer can row reduce it. How should the system be stored?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As an augmented matrix rather than written-out equations"
+    },
+    {
+     "id": "b",
+     "label": "As separate written equations, one per line"
+    },
+    {
+     "id": "c",
+     "label": "As one long equation joined with plus signs"
+    },
+    {
+     "id": "d",
+     "label": "As a list of the final solved unknowns"
+    }
+   ],
+   "answer": "a",
+   "explain": "In practice the augmented matrix is used instead of the equations, because it is more suitable for computer manipulations.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination:q5"
+  },
+  {
+   "prompt": "The method carries Gauss's name. What does the evidence say about its origins?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gauss was the first person to use elimination"
+    },
+    {
+     "id": "b",
+     "label": "It appears in an ancient Chinese text and arose in several cultures"
+    },
+    {
+     "id": "c",
+     "label": "It was invented once and then spread by trade"
+    },
+    {
+     "id": "d",
+     "label": "It was first written down in Europe in the 1550s"
+    }
+   ],
+   "answer": "b",
+   "explain": "Elimination appears in The Nine Chapters and was invented independently in several cultures from antiquity.",
+   "cites": [
+    4,
+    36,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Gaussian_elimination_animated.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Gaussian elimination",
+  "credit": "Jirka Fiala",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gaussian_elimination_animated.gif"
+ },
+ "source": {
+  "title": "Gaussian elimination",
+  "url": "https://en.wikipedia.org/wiki/Gaussian_elimination",
+  "revision": 1380056789
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Solving by tidying rows",
+    "text": "Gaussian elimination, also called row reduction, is a step-by-step method for solving systems of linear equations. It works by applying a series of operations to the rows of the matrix of coefficients. The same method can also work out a matrix's rank, a square matrix's determinant, and an invertible matrix's inverse. It is named after Carl Friedrich Gauss (1777–1855).",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Two stages",
+    "text": "The work splits into two parts, both using elementary row operations. Forward elimination brings the system into row echelon form, which already reveals whether there are no solutions, one solution, or infinitely many. Back substitution then keeps going until the solution appears, leaving the matrix in reduced row echelon form. None of these operations changes the solution set. In practice people work on the augmented matrix rather than the written equations, since it suits computers better.",
+    "cites": [
+     8,
+     9,
+     10,
+     15,
+     26
+    ]
+   },
+   {
+    "heading": "The staircase shape",
+    "text": "In each row that is not all zeros, the leftmost nonzero number is called the leading entry, or pivot. A matrix is in row echelon form when each pivot sits to the right of the pivot in the row above, and in that form the lower left holds only zeros and any all-zero rows are at the bottom. The word echelon hints at rows ranked by size, largest on top. Reduced row echelon form goes further: every pivot is 1, and every other entry in a pivot's column is zero.",
+    "cites": [
+     17,
+     19,
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "A worked run",
+    "text": "With three unknowns, you first remove x from every equation below the first, then remove y from every equation below the second. That leaves the system in triangular form. You then solve for the variables in reverse order, which is quicker, a step called back-substitution. In the standard example this gives z = −1, y = 3 and x = 2, a unique solution.",
+    "cites": [
+     27,
+     28,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Seen as matrix multiplication",
+    "text": "Each elementary row operation can be seen as multiplying the original matrix on the left by an elementary matrix. From this angle, the first part of the method computes what is called an LU decomposition of the matrix. Continuing all the way to reduced form is sometimes named Gauss–Jordan elimination, to set it apart from stopping at echelon form.",
+    "cites": [
+     12,
+     14,
+     35
+    ]
+   },
+   {
+    "heading": "Roots in China and Europe",
+    "text": "The method appears, without proof, in Chapter Eight of the Chinese text The Nine Chapters on the Mathematical Art, used in eighteen problems with two to five equations. Parts of that book date back to around 150 BC. In Europe the method stems from notes by Isaac Newton, who wrote in 1669–1670 that the algebra books he knew lacked a lesson on simultaneous equations. Cambridge published his notes in 1707 as Arithmetica Universalis, and they were copied so widely that the method was a standard textbook lesson by the end of the 18th century.",
+    "cites": [
+     36,
+     37,
+     38,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-6",
+   "kind": "book",
+   "title": "7.6 Solving Systems with Gaussian Elimination",
+   "by": "OpenStax (Jay Abramson et al.)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/7-6-solving-systems-with-gaussian-elimination",
+   "note": "A free textbook section on augmented matrices, row operations and back-substitution, with worked problems."
+  },
+  {
+   "id": "mit-elimination",
+   "kind": "course",
+   "title": "Elimination with Matrices",
+   "by": "Gilbert Strang, MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/elimination-with-matrices/",
+   "note": "Strang's MIT lecture on elimination as matrix multiplication, with a recitation, notes and practice problems.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-gaussian-elimination",
+   "kind": "article",
+   "title": "Gaussian Elimination",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/GaussianElimination.html",
+   "note": "A reference covering triangular form, pivoting, LU decomposition and Gauss–Jordan elimination, with a 3×3 example."
+  }
+ ]
+}

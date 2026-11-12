@@ -1,0 +1,100 @@
+{
+  "title": "The Rules Below the Atom",
+  "question": "Why does nature act so strangely at the smallest scales?",
+  "hook": "At the scale of atoms, you can only predict odds, never certainties.",
+  "idea": "Quantum mechanics gives discrete energies, wave-like particles and probability-only predictions, with everyday physics as its approximation.",
+  "beats": [
+    {
+      "kind": "predict",
+      "prompt": "You fire identical electrons through the same experiment and want to know where the next one lands. What can quantum mechanics give you?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Probabilities for where it might be found",
+          "feedback": "This is the real answer."
+        },
+        {
+          "id": "b",
+          "label": "One exact location, if the setup is perfect",
+          "feedback": "It tempts because classical physics works that way, but the theory usually cannot predict with certainty."
+        },
+        {
+          "id": "c",
+          "label": "Nothing at all, since electrons cannot be studied",
+          "feedback": "Predictions have been verified to extreme accuracy."
+        }
+      ],
+      "answer": "a",
+      "explain": "The theory usually gives only probabilities, found by squaring the size of a probability amplitude from the wave function.",
+      "cites": [
+        17,
+        18,
+        20
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "Match each term to its meaning.",
+      "pairs": [
+        [
+          "Wave function",
+          "Gives probability amplitudes for measurement results"
+        ],
+        [
+          "Wave-particle duality",
+          "Shows traits of both waves and particles"
+        ],
+        [
+          "Uncertainty principle",
+          "Limits how well a quantity can be predicted before measurement"
+        ],
+        [
+          "Born rule",
+          "Squares a probability amplitude to get a probability"
+        ]
+      ],
+      "explain": "These ideas together describe how quantum systems are modelled and measured.",
+      "cites": [
+        7,
+        11,
+        18,
+        19
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "Put these steps of quantum history in order.",
+      "items": [
+        "Planck solves the black-body radiation problem (1900)",
+        "Einstein explains the photoelectric effect (1905)",
+        "Full quantum mechanics arrives in the mid-1920s"
+      ],
+      "ends": [
+        "earliest",
+        "latest"
+      ],
+      "explain": "Planck's 1900 solution and Einstein's 1905 paper came first, and the full theory followed in the mid-1920s.",
+      "cites": [
+        8,
+        9
+      ]
+    },
+    {
+      "kind": "flaw",
+      "prompt": "One step in this reasoning is wrong; which?",
+      "steps": [
+        "Quantum mechanics describes behavior at and below the scale of atoms.",
+        "Classical mechanics works at ordinary scales.",
+        "So the two theories contradict each other everywhere.",
+        "In fact classical mechanics can be derived from quantum mechanics as an approximation."
+      ],
+      "wrong": 2,
+      "explain": "Classical mechanics follows from quantum mechanics as a valid approximation at ordinary scales, so they do not clash there.",
+      "cites": [
+        1,
+        4,
+        5
+      ]
+    }
+  ]
+}

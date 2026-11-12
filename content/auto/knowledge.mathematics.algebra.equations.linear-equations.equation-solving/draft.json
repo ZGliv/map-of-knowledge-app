@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "Solving an equation means finding the values of the unknowns that make the equality true; such a value is a solution, often called a root.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It can be done numerically, admitting only numbers, or symbolically, using expressions to represent the solutions.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "text": "The solutions may be none, one, finitely many or infinitely many, and for some classes of equations no general method is known.",
+   "cites": [
+    22,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "A solution is often called a root",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Solution set",
+   "value": "The set of all solutions of an equation",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "How many",
+   "value": "None, one, finitely many or infinitely many",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Few equations",
+   "value": "More unknowns than equations often means infinitely many solutions",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Hilbert's tenth",
+   "value": "Proved unsolvable by any algorithm in 1970",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student answers x = y + 1 for an equation in x and y. What kind of solution is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Symbolic, because it uses an expression"
+    },
+    {
+     "id": "b",
+     "label": "Numerical, because it is a tidy equation"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because it has two letters"
+    },
+    {
+     "id": "d",
+     "label": "Not a solution, because it still contains y"
+    }
+   ],
+   "answer": "a",
+   "explain": "A symbolic solution represents the unknown with an expression; the equation x + y = 2x – 1 is solved for x this way.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "A Diophantine equation seeks only whole-number solutions. What if it asks for a whole number whose square is exactly 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There is one solution, the nearest whole number"
+    },
+    {
+     "id": "b",
+     "label": "The solution set is empty"
+    },
+    {
+     "id": "c",
+     "label": "There are two solutions, one positive and one negative"
+    },
+    {
+     "id": "d",
+     "label": "There are infinitely many solutions"
+    }
+   ],
+   "answer": "b",
+   "explain": "2 is not the square of an integer, so the solution set is the empty set.",
+   "cites": [
+    22,
+    28,
+    29
+   ]
+  },
+  {
+   "prompt": "A puzzle has 3 unknowns but only 1 equation. What is the solution set often like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one solution"
+    },
+    {
+     "id": "b",
+     "label": "Always empty"
+    },
+    {
+     "id": "c",
+     "label": "Infinite"
+    },
+    {
+     "id": "d",
+     "label": "Exactly three solutions"
+    }
+   ],
+   "answer": "c",
+   "explain": "With more unknowns than equations the solution set is often infinite.",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "prompt": "Why is finding the best solution under some criterion usually not called equation solving?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Best solutions never satisfy the equality"
+    },
+    {
+     "id": "b",
+     "label": "It only works for equations with one unknown"
+    },
+    {
+     "id": "c",
+     "label": "It needs a computer rather than pencil and paper"
+    },
+    {
+     "id": "d",
+     "label": "Its methods start from one solution and keep improving it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Optimization methods start from a particular solution and repeat the process to find a better one.",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "prompt": "A symbolic solution for x and y is x = a + 1, y = a, where a can be any value. What pair does a = 5 give?",
+   "options": [
+    {
+     "id": "a",
+     "label": "(6, 5)"
+    },
+    {
+     "id": "b",
+     "label": "(5, 6)"
+    },
+    {
+     "id": "c",
+     "label": "(5, 5)"
+    },
+    {
+     "id": "d",
+     "label": "(6, 6)"
+    }
+   ],
+   "answer": "a",
+   "explain": "Putting a specific number into a symbolic solution gives a numerical solution.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "Someone claims every class of equations has a step-by-step method, we just have not found it yet. What is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Methods exist only for polynomial equations"
+    },
+    {
+     "id": "b",
+     "label": "Some classes are proved to have no such method"
+    },
+    {
+     "id": "c",
+     "label": "Every class has one, but it is too slow"
+    },
+    {
+     "id": "d",
+     "label": "Methods exist only for equations with one unknown"
+    }
+   ],
+   "answer": "b",
+   "explain": "In general no such method need exist; some problems are proved unsolvable by an algorithm.",
+   "cites": [
+    39,
+    41
+   ]
+  }
+ ]
+}

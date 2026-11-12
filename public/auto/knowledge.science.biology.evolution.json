@@ -1,0 +1,573 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.evolution",
+ "name": "Evolution",
+ "summary": [
+  {
+   "text": "Evolution is the change in the inherited characteristics of populations over successive generations.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It happens when individuals in a population differ genetically and differ in how many offspring survive.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Mutation adds new genetic variation, while drift, gene flow and natural selection make some variants more or less common over time.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core definition",
+   "value": "A change in heritable traits across generations",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Often defined as",
+   "value": "A change in allele frequency within a population",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Who conceived it",
+   "value": "Darwin and Wallace, independently, in the mid-19th century",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Shared ancestor",
+   "value": "All life descends from one ancestor, 3.5-3.8 billion years ago",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Sources of variation",
+   "value": "Mutation, gene reshuffling in sexual reproduction, and gene flow",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A biologist tracks a mouse colony for 50 generations. The mice look identical throughout, yet one gene variant has become much more common. Has evolution happened?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No; evolution requires a visible change in appearance"
+    },
+    {
+     "id": "b",
+     "label": "Yes; evolution can occur with no change in appearance"
+    },
+    {
+     "id": "c",
+     "label": "No; evolution needs a brand-new species to appear"
+    },
+    {
+     "id": "d",
+     "label": "Only if the colony also grows much larger over the years"
+    }
+   ],
+   "answer": "b",
+   "explain": "Alleles do not always have a visible effect, so in the strict sense evolution can occur even when the phenotype is unchanged.",
+   "cites": [
+    4,
+    6
+   ],
+   "id": "knowledge.science.biology.evolution:q1"
+  },
+  {
+   "prompt": "A lifeguard's skin darkens deeply every summer from sun exposure. Will her babies be born with that dark skin?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes; anything her body gains during life is passed to children"
+    },
+    {
+     "id": "b",
+     "label": "Yes; but only if the darkening lasts for several years"
+    },
+    {
+     "id": "c",
+     "label": "No; sunlight on her genes caused it, so it isn't passed on"
+    },
+    {
+     "id": "d",
+     "label": "No; skin colour is never inherited from either parent"
+    }
+   ],
+   "answer": "c",
+   "explain": "A suntan comes from the interaction between a person's genotype and sunlight, so it is not passed on to children.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.biology.evolution:q2"
+  },
+  {
+   "prompt": "A zoologist wants to know whether a beetle population could be evolving. What should she look for among the individuals?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Genetic differences and differing numbers of surviving offspring"
+    },
+    {
+     "id": "b",
+     "label": "Differences in colour and body size, whatever their cause"
+    },
+    {
+     "id": "c",
+     "label": "Differences in the ages and diets of the individuals"
+    },
+    {
+     "id": "d",
+     "label": "Differences in the habitats and mates of the individuals"
+    }
+   ],
+   "answer": "a",
+   "explain": "Evolution happens when individuals vary in their genetic characteristics and in the numbers of their surviving offspring.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.biology.evolution:q3"
+  },
+  {
+   "prompt": "A child asks whether she is related to the oak tree in the park and to the bacteria on her hand. What does evolutionary biology say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Animals and plants share an ancestor, but bacteria began separately"
+    },
+    {
+     "id": "b",
+     "label": "She is related to the oak tree but not to any bacteria"
+    },
+    {
+     "id": "c",
+     "label": "Only living things that look alike can share an ancestor"
+    },
+    {
+     "id": "d",
+     "label": "All life, humans included, shares a last universal common ancestor"
+    }
+   ],
+   "answer": "d",
+   "explain": "All life on Earth, including humanity, shares a last universal common ancestor.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.biology.evolution:q4"
+  },
+  {
+   "prompt": "Two seedlings carry the same genes, but one grows on a sunny sill and the other in a dark cupboard, and they end up different. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The dark cupboard rewrote the genes of the second seedling"
+    },
+    {
+     "id": "b",
+     "label": "Observable traits come from genes plus the environment each lived in"
+    },
+    {
+     "id": "c",
+     "label": "Genes alone fix every observable trait, so one must have mutated"
+    },
+    {
+     "id": "d",
+     "label": "Observable traits are set by the environment alone, not by genes"
+    }
+   ],
+   "answer": "b",
+   "explain": "An organism's phenotype results from both its genotype and the influence of the environment it has lived in.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.science.biology.evolution:q5"
+  },
+  {
+   "prompt": "A change in a DNA sequence creates a new version of a gene at a particular spot on a chromosome. What is that new version called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A new chromosome, a long strand of DNA inside a cell"
+    },
+    {
+     "id": "b",
+     "label": "A new locus, the position of a sequence on a chromosome"
+    },
+    {
+     "id": "c",
+     "label": "A new allele, a different form of the sequence at a locus"
+    },
+    {
+     "id": "d",
+     "label": "A new phenotype, the observable traits of an organism"
+    }
+   ],
+   "answer": "c",
+   "explain": "Different forms of a DNA sequence at a locus are called alleles, and mutations produce new alleles.",
+   "cites": [
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.science.biology.evolution:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Darwin_Tree_1837.png/960px-Darwin_Tree_1837.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Evolution",
+  "credit": "Charles Darwin",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png"
+ },
+ "source": {
+  "title": "Evolution",
+  "url": "https://en.wikipedia.org/wiki/Evolution",
+  "revision": 1383687562
+ },
+ "pack": {
+  "id": "auto-biology-evolution",
+  "title": "Populations change, not people",
+  "question": "How can a whole population change over generations?",
+  "path": [
+   "Science",
+   "Biology",
+   "Evolution"
+  ],
+  "hue": 176,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Darwin_Tree_1837.png/960px-Darwin_Tree_1837.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Evolution",
+    "credit": "Charles Darwin · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Populations change, not people",
+    "hook": "A suntan is not inherited, yet other differences between people are, and those are the ones that can change a population."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-biology-evolution:1",
+    "transfer": false,
+    "prompt": "Two people sit in the same sunlight for hours. One turns brown. The other never tans at all and burns badly. What explains the difference?",
+    "explain": "People differ in how easily they tan because of differences in their genotypes, and albinism is a striking example. Tans themselves are not inherited.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The one who tans had parents who were tanned",
+        "feedback": "A tan is not passed on, so the parents' tans cannot explain it."
+       },
+       {
+        "id": "b",
+        "label": "Inherited differences in their genotypes"
+       },
+       {
+        "id": "a",
+        "label": "The sunlight reaching each of them was different",
+        "feedback": "They sit in the same sunlight, so the light cannot explain the gap."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-biology-evolution:2",
+    "transfer": false,
+    "prompt": "match each to its partner",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Genotype"
+     },
+     {
+      "id": "l1",
+      "label": "Phenotype"
+     },
+     {
+      "id": "l2",
+      "label": "Allele"
+     },
+     {
+      "id": "l3",
+      "label": "Locus"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "The specific location of a sequence within a chromosome"
+     },
+     {
+      "id": "r0",
+      "label": "An organism's complete set of genes"
+     },
+     {
+      "id": "r2",
+      "label": "One of the forms taken by a sequence that varies between people"
+     },
+     {
+      "id": "r1",
+      "label": "Its complete set of observable traits"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Genes make up the genotype, observable traits make up the phenotype, and alleles are the forms a sequence takes at a particular locus."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-biology-evolution:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Mutation"
+     },
+     {
+      "id": "i1",
+      "label": "Gene reshuffling in sexual reproduction"
+     },
+     {
+      "id": "i2",
+      "label": "Genetic drift"
+     },
+     {
+      "id": "i3",
+      "label": "Natural selection"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Adds new variation"
+     },
+     {
+      "id": "g1",
+      "label": "Changes how common variants are"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Mutation and reshuffling supply variation, while drift and natural selection make existing variants more or less common."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-biology-evolution:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A swimmer's skin turns deeply tanned after years in the sun."
+     },
+     {
+      "id": "b",
+      "text": "A suntan comes from the interaction between her genotype and sunlight."
+     },
+     {
+      "id": "c",
+      "text": "So the tan itself is inherited, and her children will be born tanned."
+     },
+     {
+      "id": "d",
+      "text": "Her tendency to tan more easily than others comes from her genotype."
+     }
+    ],
+    "answer": "c",
+    "explain": "Suntans are not passed on to children. What is inherited is the genotype behind how easily someone tans."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Evolution is a change in which inherited variants are common in a population over successive generations.",
+    "connections": [
+     {
+      "title": "Tree thinking",
+      "place": "Evolution",
+      "node": "knowledge.science.biology.evolution.tree-thinking"
+     },
+     {
+      "title": "Variation and heredity",
+      "place": "Evolution",
+      "node": "knowledge.science.biology.evolution.variation-heredity"
+     },
+     {
+      "title": "Natural selection",
+      "place": "Evolution",
+      "node": "knowledge.science.biology.evolution.natural-selection"
+     },
+     {
+      "title": "Chance and drift",
+      "place": "Evolution",
+      "node": "knowledge.science.biology.evolution.chance-drift"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "People differ in how easily they tan because of differences in their genotypes, and albinism is a striking example. Tans themselves are not inherited.",
+    "source": "Wikipedia sentences 26, 28"
+   },
+   {
+    "claim": "Genes make up the genotype, observable traits make up the phenotype, and alleles are the forms a sequence takes at a particular locus.",
+    "source": "Wikipedia sentences 22, 23, 35, 36"
+   },
+   {
+    "claim": "Mutation and reshuffling supply variation, while drift and natural selection make existing variants more or less common.",
+    "source": "Wikipedia sentences 3, 41"
+   },
+   {
+    "claim": "Suntans are not passed on to children. What is inherited is the genotype behind how easily someone tans.",
+    "source": "Wikipedia sentences 26, 28"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Change across generations",
+    "text": "Evolution is a shift, over many generations, in the inherited traits of a population of living things. It takes place when individuals differ in their genes and also differ in how many of their young survive. Biologists often put it more precisely as a change in how common particular alleles are, where an allele is one version of a gene at a given spot. Since alleles need not have any visible effect, a population can evolve even while it looks exactly the same.",
+    "cites": [
+     1,
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "Where inherited traits live",
+    "text": "Inherited traits pass from parents to offspring through DNA, a long molecule built from four kinds of bases. The order of those bases carries the information, much as the order of letters spells out a sentence. A stretch of DNA that sets up one working unit is a gene, and the full set of an organism's genes is its genotype. The traits you can actually observe, in body and behaviour, make up its phenotype.",
+    "cites": [
+     22,
+     23,
+     29,
+     30,
+     31,
+     33
+    ]
+   },
+   {
+    "heading": "Not every trait is inherited",
+    "text": "A phenotype comes from both the genotype and the surroundings an organism has lived in. A suntan is a good example: it arises when a person's genes meet sunlight, so it is not handed down to that person's children. The phenotype in this case is the skin's ability to tan when sunlight falls on it. People differ in how easily they tan, and those with albinism, an inherited trait, do not tan at all.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     44
+    ]
+   },
+   {
+    "heading": "The raw material of change",
+    "text": "Evolution needs genetic variation within a population. New variation appears through mutations, which change DNA and create new alleles. Sexual reproduction shuffles existing genes, and migration between populations, called gene flow, moves them around. Even so, most of a species' genome is very similar from one individual to the next.",
+    "cites": [
+     37,
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "What makes variants spread",
+    "text": "Once variation exists, several processes make some alleles more common and others rarer over time. These are natural selection, genetic drift and gene flow, with mutation supplying the new material. Generation after generation, the offspring of parents with traits that suit their surroundings tend to take the place of other members of the population.",
+    "cites": [
+     3,
+     10,
+     13
+    ]
+   },
+   {
+    "heading": "Darwin, Wallace and after",
+    "text": "Charles Darwin and Alfred Russel Wallace, two British naturalists, each arrived at the idea of evolution by natural selection in the mid-19th century. They were trying to explain why living things fit their surroundings so well. Darwin laid the theory out in detail in On the Origin of Species. In the early 20th century, evolution was joined with Mendelian inheritance and population genetics, and that union became modern evolutionary theory.",
+    "cites": [
+     8,
+     9,
+     11
+    ]
+   },
+   {
+    "heading": "One family tree for all life",
+    "text": "Every living thing on Earth, people included, descends from a last universal common ancestor that lived roughly 3.5–3.8 billion years ago. Today's variety of life was shaped by new species forming, species changing, and species dying out. Species with a more recent shared ancestor tend to look and work more alike. Biologists once used such likenesses to build family trees, but now they mostly compare genetic sequences directly.",
+    "cites": [
+     14,
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-18-1",
+   "kind": "book",
+   "title": "18.1 Understanding Evolution",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+   "note": "A free textbook section on Darwin, Wallace, natural selection and the main lines of evidence for evolution.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-19-1",
+   "kind": "book",
+   "title": "19.1 Population Evolution",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution",
+   "note": "How evolution is measured as changing allele frequencies in a population, including the Hardy-Weinberg principle.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "gutenberg-origin",
+   "kind": "primary",
+   "title": "On the Origin of Species By Means of Natural Selection",
+   "by": "Charles Darwin",
+   "url": "https://www.gutenberg.org/ebooks/1228",
+   "note": "Darwin's 1859 book setting out evolution by natural selection, free to read online or download."
+  },
+  {
+   "id": "cc-bio-20",
+   "kind": "video",
+   "title": "Evolution: It's a Thing - Crash Course Biology #20",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=P3GagfbA2vo",
+   "note": "A Crash Course Biology episode on what evolution is and the evidence that it happens."
+  }
+ ]
+}

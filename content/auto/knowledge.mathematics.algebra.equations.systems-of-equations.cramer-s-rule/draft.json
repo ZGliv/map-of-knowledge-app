@@ -1,0 +1,220 @@
+{
+ "summary": [
+  {
+   "text": "Cramer's rule is an explicit formula for solving a system of linear equations with as many equations as unknowns, valid whenever the system has a unique solution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It writes the solution using determinants of the coefficient matrix and of matrices where one column is replaced by the right-hand sides.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "It is named after Gabriel Cramer, who published it in 1750, though Colin Maclaurin published special cases in 1748.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Published",
+   "value": "Gabriel Cramer, 1750, for any number of unknowns",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Earlier cases",
+   "value": "Colin Maclaurin published special cases in 1748",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Number system",
+   "value": "Works over any field, not just real numbers",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Requirement",
+   "value": "The coefficient determinant must be nonzero",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Geometry",
+   "value": "A determinant of n vectors gives a parallelepiped's volume",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A system has three equations but four unknowns. Can Cramer's rule be used directly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it needs as many equations as unknowns"
+    },
+    {
+     "id": "b",
+     "label": "Yes, whenever any solution exists"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if all coefficients are whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "No, it only works with two unknowns"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rule applies to systems with as many equations as unknowns.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "You compute the coefficient determinant and it comes out zero. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The system has exactly one solution"
+    },
+    {
+     "id": "b",
+     "label": "All the unknowns are zero"
+    },
+    {
+     "id": "c",
+     "label": "The rule does not apply to this system"
+    },
+    {
+     "id": "d",
+     "label": "The solution is zero for every unknown"
+    }
+   ],
+   "answer": "c",
+   "explain": "Cramer's rule applies to the case where the coefficient determinant is nonzero.",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "prompt": "To find the second unknown with Cramer's rule, how do you build the matrix for its numerator?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Delete the second row"
+    },
+    {
+     "id": "b",
+     "label": "Replace the second column with the right-hand sides"
+    },
+    {
+     "id": "c",
+     "label": "Replace the second row with the right-hand sides"
+    },
+    {
+     "id": "d",
+     "label": "Swap the first and second columns"
+    }
+   ],
+   "answer": "b",
+   "explain": "The numerator matrix replaces one column of the coefficient matrix by the column of right-hand sides.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "prompt": "A 2×2 system has coefficient determinant zero but nonzero numerator determinants. What is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solved by all unknowns being zero"
+    },
+    {
+     "id": "b",
+     "label": "Indeterminate, with infinitely many"
+    },
+    {
+     "id": "c",
+     "label": "Uniquely solvable"
+    },
+    {
+     "id": "d",
+     "label": "Inconsistent, with no solutions"
+    }
+   ],
+   "answer": "d",
+   "explain": "In the 2×2 case, a zero coefficient determinant with nonzero numerators means the system is inconsistent.",
+   "cites": [
+    37,
+    40
+   ]
+  },
+  {
+   "prompt": "Someone says Cramer's rule only works when the coefficients are real numbers. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it holds in any field"
+    },
+    {
+     "id": "b",
+     "label": "Yes, real numbers only"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but whole numbers too"
+    },
+    {
+     "id": "d",
+     "label": "No, but only for rational numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rule holds for coefficients and unknowns in any field, not just the real numbers.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "Geometrically, what does the determinant of n vectors of length n give?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The angle between the first two"
+    },
+    {
+     "id": "b",
+     "label": "The sum of their lengths"
+    },
+    {
+     "id": "c",
+     "label": "The volume of the parallelepiped they determine"
+    },
+    {
+     "id": "d",
+     "label": "The number of solutions"
+    }
+   ],
+   "answer": "c",
+   "explain": "The determinant of n vectors of length n gives the volume of the parallelepiped they determine.",
+   "cites": [
+    30
+   ]
+  }
+ ]
+}

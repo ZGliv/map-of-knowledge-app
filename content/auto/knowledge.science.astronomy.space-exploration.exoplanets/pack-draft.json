@@ -1,0 +1,94 @@
+{
+ "title": "Worlds Around Other Suns",
+ "question": "How do astronomers find planets around other stars?",
+ "hook": "Thousands of planets circle other stars, yet the ways we find them favor some kinds over others.",
+ "idea": "The methods that have found the most exoplanets favor large planets close to their star.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Astronomers tally the planets found by the two most productive methods and see mostly large planets close to their stars. What should they conclude?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Large close-in planets are the most common kind in the galaxy",
+     "feedback": "It sounds natural, but the methods themselves favor those planets, so the tally overstates them."
+    },
+    {
+     "id": "b",
+     "label": "The methods are biased toward spotting large planets close in"
+    },
+    {
+     "id": "c",
+     "label": "Small planets cannot exist near their stars",
+     "feedback": "Missing small planets can come from the methods, not from the planets being impossible."
+    }
+   ],
+   "answer": "b",
+   "explain": "Transit photometry and Doppler spectroscopy suffer from a clear observational bias favoring large planets close to the star.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these exoplanet milestones in order.",
+   "items": [
+    "A possible sign of a planet is noted in old data",
+    "The first confirmed planet is detected, around a pulsar",
+    "The first planet around a main-sequence star is detected",
+    "A planet first detected in 1988 is confirmed"
+   ],
+   "ends": [
+    "Earliest",
+    "Latest"
+   ],
+   "explain": "The possible sign dates to 1917, the pulsar planet to 1992, the main-sequence star planet to 1995, and the 1988 planet was confirmed in 2003.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each name to what it is known for.",
+   "pairs": [
+    [
+     "Draugr",
+     "About twice the mass of the Moon"
+    ],
+    [
+     "HR 2562 b",
+     "About 30 times the mass of Jupiter"
+    ],
+    [
+     "Proxima Centauri",
+     "Star with the nearest known exoplanets"
+    ]
+   ],
+   "explain": "Draugr is the least massive known exoplanet, HR 2562 b the most massive on NASA's archive, and the nearest exoplanets orbit Proxima Centauri.",
+   "cites": [
+    10,
+    11,
+    15
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A common definition sets the planet limit at the mass where deuterium fusion starts, about 13 Jupiter masses.",
+    "HR 2562 b weighs about 30 Jupiter masses, well above that mass.",
+    "By that definition it is too massive to be a planet.",
+    "So every definition must agree it is a planet."
+   ],
+   "wrong": 3,
+   "explain": "According to some definitions it is too massive to be a planet and might be a brown dwarf, so definitions do not all agree.",
+   "cites": [
+    11,
+    12,
+    24
+   ]
+  }
+ ]
+}

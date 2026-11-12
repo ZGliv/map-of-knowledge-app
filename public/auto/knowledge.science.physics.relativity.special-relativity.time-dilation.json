@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.special-relativity.time-dilation",
+ "name": "Time dilation",
+ "summary": [
+  {
+   "text": "Time dilation is the difference in elapsed time measured by two clocks, caused by their relative velocity or by a difference in gravitational potential.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In special relativity, an observer measures a clock moving relative to them to tick more slowly than a clock at rest in their own frame.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "text": "At everyday speeds the difference is minuscule, yet it is a practical concern for satellite navigation systems such as GPS and Galileo.",
+   "cites": [
+    4,
+    25
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Astronaut aging",
+   "value": "About 5 milliseconds less after 6 months on the ISS",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Twin result",
+   "value": "The traveling twin ends up younger than the one on Earth",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "label": "Near light speed",
+   "value": "Time slows to a stop as a clock approaches light speed",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Cosmonauts' result",
+   "value": "Krikalev and Avdeev each experienced about 20 milliseconds",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two spaceships pass each other at high speed. The crew of ship A measures ship B's clock and finds it ticking slowly. What does ship B's crew measure about A's clock?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A's clock ticks faster than their own"
+    },
+    {
+     "id": "b",
+     "label": "A's clock ticks slower than their own"
+    },
+    {
+     "id": "c",
+     "label": "A's clock ticks at exactly their rate"
+    },
+    {
+     "id": "d",
+     "label": "A's clock has stopped completely"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each observer measures the other's clock as running slower, because each is in motion relative to the other.",
+   "cites": [
+    35,
+    38
+   ],
+   "id": "knowledge.science.physics.relativity.special-relativity.time-dilation:q1"
+  },
+  {
+   "prompt": "One twin stays home while the other flies a long round trip at very high speed. When they meet again, how do their ages compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same age, since each saw the other slow"
+    },
+    {
+     "id": "b",
+     "label": "The twin who stayed home is the younger one"
+    },
+    {
+     "id": "c",
+     "label": "The twin who flew is the younger one"
+    },
+    {
+     "id": "d",
+     "label": "The ages cannot be compared at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Although the effect looks symmetric, at the end of the round trip the traveling twin is younger than the sibling on Earth.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.science.physics.relativity.special-relativity.time-dilation:q2"
+  },
+  {
+   "prompt": "You watch a fast spaceship's clock through a telescope and see it ticking oddly. Why can you not use this to observe time dilation directly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Light takes time to reach you, which muddles the readings"
+    },
+    {
+     "id": "b",
+     "label": "Telescopes always make moving clocks look slow"
+    },
+    {
+     "id": "c",
+     "label": "Time dilation only shows up in broken clocks"
+    },
+    {
+     "id": "d",
+     "label": "Moving clocks cannot be seen from a distance"
+    }
+   ],
+   "answer": "a",
+   "explain": "Time dilation compares clock readings, and visual readings are delayed by light's travel, so there is no direct way to see it.",
+   "cites": [
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.science.physics.relativity.special-relativity.time-dilation:q3"
+  },
+  {
+   "prompt": "In a thought experiment, a clock ticks once each time a light pulse completes its trip. Why does that clock tick slower when it moves sideways past you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The clock's parts drift closer together as it moves"
+    },
+    {
+     "id": "b",
+     "label": "The light slows down to match the moving clock"
+    },
+    {
+     "id": "c",
+     "label": "The moving clock loses energy while travelling"
+    },
+    {
+     "id": "d",
+     "label": "The pulse follows a longer angled path at the same light speed"
+    }
+   ],
+   "answer": "d",
+   "explain": "With light's speed fixed for everyone, the longer path means a longer time between ticks from the observer's view.",
+   "cites": [
+    31,
+    32,
+    33
+   ],
+   "id": "knowledge.science.physics.relativity.special-relativity.time-dilation:q4"
+  },
+  {
+   "prompt": "You drive on a highway for hours and your watch seems to agree with the clock at home. Why do you not notice any time dilation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Watches are built to cancel the effect"
+    },
+    {
+     "id": "b",
+     "label": "Everyday speeds are far too small to make a visible difference"
+    },
+    {
+     "id": "c",
+     "label": "The effect only works while standing still"
+    },
+    {
+     "id": "d",
+     "label": "Cars carry fields that shield their clocks"
+    }
+   ],
+   "answer": "b",
+   "explain": "Speeds reachable with current technology produce only minuscule differences, such as a few milliseconds for astronauts after months in orbit.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.relativity.special-relativity.time-dilation:q5"
+  },
+  {
+   "prompt": "Two hikers far apart on a plain each look at the other and think the other looks tiny. How does this relate to two moving observers each seeing the other's clock slow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Neither case is real, so both are optical tricks"
+    },
+    {
+     "id": "b",
+     "label": "Only one of the observers can be right"
+    },
+    {
+     "id": "c",
+     "label": "Each case is a symmetric effect of the viewpoint, not a contradiction"
+    },
+    {
+     "id": "d",
+     "label": "The hikers are really smaller than they seem"
+    }
+   ],
+   "answer": "c",
+   "explain": "Like perspective, the effect appears the same from both sides, so there is no contradiction.",
+   "cites": [
+    38,
+    40,
+    41
+   ],
+   "id": "knowledge.science.physics.relativity.special-relativity.time-dilation:q6"
+  }
+ ],
+ "source": {
+  "title": "Time dilation",
+  "url": "https://en.wikipedia.org/wiki/Time_dilation",
+  "revision": 1382761380
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Time dilation is a difference in how much time two clocks record. It can come from the clocks moving relative to each other, which is the special relativity version, or from the clocks sitting at places with different gravitational potential. When nobody says which, people usually mean the effect of speed. In special relativity, an observer measures a clock moving past them as ticking more slowly than a clock at rest beside them.",
+    "cites": [
+     1,
+     2,
+     18
+    ]
+   },
+   {
+    "heading": "Faster means slower",
+    "text": "The greater the relative speed, the bigger the effect. As one clock gets close to the speed of light, 299,792,458 m/s, its time slows toward a stop. Because today's spacecraft are badly limited in speed, the gap people actually feel is tiny. An astronaut who spends 6 months on the International Space Station, circling Earth at about 7,700 m/s, ages about 5 milliseconds less than someone on the ground. The cosmonauts Sergei Krikalev and Sergey Avdeev both built up a difference of about 20 milliseconds.",
+    "cites": [
+     20,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Why it happens",
+    "text": "The effect follows from a basic rule of special relativity: light has the same speed for every observer. You cannot make light seem faster by moving toward its source or away from it, so the speeds of objects and of light do not simply add. Picture a clock whose ticks are timed by a pulse of light. When that clock moves past you, you see the pulse trace a longer, slanted path. To keep the speed of light the same, the time between ticks has to stretch, so the moving clock runs slow.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Each sees the other slow",
+    "text": "The effect works both ways. If a second observer rides along with the moving clock, each observer measures the other's clock as the slow one, since each sees the other as the one in motion. Common sense says a traveller whose time has slowed should see the outside world's time speed up, but special relativity predicts the opposite. A familiar comparison helps: two people looking at each other from far apart each see the other as small, and nobody calls that a contradiction.",
+    "cites": [
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "The twin paradox",
+    "text": "This two-way effect leads to the twin paradox. One twin stays on Earth while the other goes on a space trip, and the symmetry seems to say they should be the same age when they meet again. In fact the traveller comes home younger. The puzzle goes away because the two situations are not alike: the twin at home stays in one frame of reference the whole time, while the traveller uses one frame going out and a different one coming back.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Who saw it coming",
+    "text": "Several writers predicted this slowing around the turn of the 20th century. In 1897 Joseph Larmor wrote that electrons in orbit take shorter times by the ratio √(1 − v²/c²), and in 1904 Emil Cohn tied that formula to the rate of clocks. Einstein showed in 1905 that the effect is about the nature of time itself, and he was the first to point out that it works both ways. Hermann Minkowski then introduced the concept of proper time in 1907, which made its meaning clearer.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Real and useful",
+    "text": "Experiments have confirmed these predictions again and again. They matter in practice too, for example in running satellite navigation systems such as GPS and Galileo. In principle, the effect would let passengers in a very fast vehicle reach the future in a short stretch of their own time. At high enough speed, one year of travel could match ten years on Earth.",
+    "cites": [
+     4,
+     21,
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-5-3",
+   "kind": "book",
+   "title": "5.3 Time Dilation",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation",
+   "note": "A free textbook section deriving time dilation with a light clock, with muon evidence and the twin paradox.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "minutephysics-ch5",
+   "kind": "video",
+   "title": "Length Contraction and Time Dilation | Special Relativity Ch. 5",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=-NN_m2yKAAk",
+   "minutes": 7,
+   "note": "A short animated lesson using spacetime diagrams to show why moving clocks are measured to tick slowly."
+  },
+  {
+   "id": "teded-twin-paradox",
+   "kind": "video",
+   "title": "Einstein's twin paradox explained",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=h8GqaAp3cGs",
+   "minutes": 6,
+   "note": "An animated lesson on the twin paradox, where time dilation leaves a travelling twin younger."
+  }
+ ]
+}

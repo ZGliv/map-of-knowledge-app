@@ -1,0 +1,215 @@
+{
+ "summary": [
+  {
+   "text": "A Mersenne prime is a prime number that is one less than a power of two, named after the French friar Marin Mersenne, who studied them in the early 17th century.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "They have been studied since antiquity because of their link to perfect numbers: even perfect numbers correspond one-to-one with Mersenne primes.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "text": "Many of the largest known primes are Mersenne primes because Mersenne numbers are easier to check for primality; 52 are known as of 2025.",
+   "cites": [
+    11,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Marin Mersenne, a French friar of the early 17th century",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "First few",
+   "value": "3, 7, 31, 127, 8191",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Known count",
+   "value": "52 Mersenne primes as of 2025",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Recent discoveries",
+   "value": "Found by the Great Internet Mersenne Prime Search since 1997",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Someone wonders if 2ⁿ − 1 could be a Mersenne prime when n is a composite number. What does the rule about exponents say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any exponent can work"
+    },
+    {
+     "id": "b",
+     "label": "Only if the exponent is even"
+    },
+    {
+     "id": "c",
+     "label": "No, a composite exponent gives a composite number"
+    },
+    {
+     "id": "d",
+     "label": "Only if the exponent is over 100"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the exponent is composite, so is the number, so Mersenne primes need a prime exponent.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "A student claims that whenever the exponent is prime, one less than two to that power must be prime. What is a counterexample?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exponent 7, which gives the number 127"
+    },
+    {
+     "id": "b",
+     "label": "Exponent 5, which gives the number 31"
+    },
+    {
+     "id": "c",
+     "label": "Exponent 3, which gives the number 7"
+    },
+    {
+     "id": "d",
+     "label": "Exponent 11, giving 2¹¹ − 1 = 2047 = 23 × 89"
+    }
+   ],
+   "answer": "d",
+   "explain": "The smallest composite Mersenne number with a prime exponent is 2¹¹ − 1 = 2047 = 23 × 89.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Why are so many of the largest known primes Mersenne primes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are easier to check for primality than most numbers of similar size"
+    },
+    {
+     "id": "b",
+     "label": "They are guaranteed to be prime"
+    },
+    {
+     "id": "c",
+     "label": "There are only a few other kinds of primes"
+    },
+    {
+     "id": "d",
+     "label": "They are always the most recently found primes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mersenne numbers are easier to check, aided by the Lucas–Lehmer test, so searches reach very large sizes.",
+   "cites": [
+    11,
+    33
+   ]
+  },
+  {
+   "prompt": "Since antiquity people have studied Mersenne primes because of their close connection to which other kind of number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Square numbers"
+    },
+    {
+     "id": "b",
+     "label": "Fibonacci numbers"
+    },
+    {
+     "id": "c",
+     "label": "Twin primes"
+    },
+    {
+     "id": "d",
+     "label": "Perfect numbers"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Euclid–Euler theorem gives a one-to-one correspondence between even perfect numbers and Mersenne primes.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "Do mathematicians know whether the supply of Mersenne primes eventually runs out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, there are only finitely many"
+    },
+    {
+     "id": "b",
+     "label": "No, it is not even known whether there are finitely or infinitely many"
+    },
+    {
+     "id": "c",
+     "label": "Yes, there are infinitely many, proved by Euclid"
+    },
+    {
+     "id": "d",
+     "label": "Yes, the 52 known are all there are"
+    }
+   ],
+   "answer": "b",
+   "explain": "It is not even known whether the set of Mersenne primes is finite or infinite.",
+   "cites": [
+    12,
+    18
+   ]
+  },
+  {
+   "prompt": "As the prime exponent grows, how often does it produce a Mersenne prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "More and more often"
+    },
+    {
+     "id": "b",
+     "label": "Exactly as often as for random odd numbers"
+    },
+    {
+     "id": "c",
+     "label": "Less and less often"
+    },
+    {
+     "id": "d",
+     "label": "Never again after the first few"
+    }
+   ],
+   "answer": "c",
+   "explain": "Prime values appear to grow increasingly sparse as the exponent increases.",
+   "cites": [
+    31
+   ]
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle",
+ "name": "Uncertainty principle",
+ "summary": [
+  {
+   "text": "The uncertainty principle, also called Heisenberg's indeterminacy principle, says certain pairs of properties, like position and momentum, cannot both be known precisely at once.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Sharpening one property blurs the other, because the two are linked as Fourier transforms of each other in the wave picture.",
+   "cites": [
+    3,
+    13,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "text": "It matters for microscopic objects and is negligible for everyday ones, so people never notice it on large scales.",
+   "cites": [
+    9,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Also called",
+   "value": "Heisenberg's indeterminacy principle",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Classic pair",
+   "value": "Position and momentum, known as conjugate variables",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Where it bites",
+   "value": "Significant for microscopic objects, negligible for macroscopic ones",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Exact limit",
+   "value": "The Kennard bound sets the minimum for position and momentum spread",
+   "cites": [
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "label": "Other pairs",
+   "value": "Energy and time give a similar relation",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sound engineer makes a sound clip so short it is a sharp click. What does the same trade-off predict about its pitch?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a single clean tone"
+    },
+    {
+     "id": "b",
+     "label": "It is spread over many frequencies"
+    },
+    {
+     "id": "c",
+     "label": "It has no frequency content at all"
+    },
+    {
+     "id": "d",
+     "label": "It matches the pitch of a long clip"
+    }
+   ],
+   "answer": "b",
+   "explain": "A sharply localized signal cannot also be sharply localized in frequency; the same Fourier trade-off that links position and momentum appears in sound.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle:q1"
+  },
+  {
+   "prompt": "A physicist pins down an electron's position very precisely. What should she expect about its momentum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It also becomes sharper"
+    },
+    {
+     "id": "b",
+     "label": "It stays exactly as it was"
+    },
+    {
+     "id": "c",
+     "label": "It becomes more widely spread"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "Narrowing the position takes many waves added together, which makes the momentum a mixture of many values and less precise.",
+   "cites": [
+    22,
+    32,
+    35
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle:q2"
+  },
+  {
+   "prompt": "Why can't you see the uncertainty principle at work when you throw a baseball?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its effect is negligible for large, everyday objects"
+    },
+    {
+     "id": "b",
+     "label": "Baseballs are not made of atoms"
+    },
+    {
+     "id": "c",
+     "label": "Baseballs travel too fast for it to apply"
+    },
+    {
+     "id": "d",
+     "label": "The rule only applies in a laboratory"
+    }
+   ],
+   "answer": "a",
+   "explain": "The effect is significant only for microscopic objects and negligible for macroscopic ones.",
+   "cites": [
+    9,
+    12
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle:q3"
+  },
+  {
+   "prompt": "A friend says the principle exists because our instruments are clumsy and better ones would remove it. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since better tools will remove it"
+    },
+    {
+     "id": "b",
+     "label": "It only holds for old, crude instruments"
+    },
+    {
+     "id": "c",
+     "label": "It only holds in very dim light"
+    },
+    {
+     "id": "d",
+     "label": "It is a built-in limit of matter waves"
+    }
+   ],
+   "answer": "d",
+   "explain": "The limit comes from position and momentum being Fourier partners of a matter wave, a fundamental feature rather than a gadget flaw.",
+   "cites": [
+    2,
+    13,
+    16,
+    24
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle:q4"
+  },
+  {
+   "prompt": "Which statement about the principle is accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It applies only to position and momentum"
+    },
+    {
+     "id": "b",
+     "label": "It appears in many forms, such as energy and time"
+    },
+    {
+     "id": "c",
+     "label": "It applies only to electrons"
+    },
+    {
+     "id": "d",
+     "label": "It only concerns the observer's skill"
+    }
+   ],
+   "answer": "b",
+   "explain": "The principle comes in many forms beyond position and momentum, including an energy and time relationship.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle:q5"
+  },
+  {
+   "prompt": "In the wave picture, you add together many plane waves to build a narrow bump in position. What is the price?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The bump gets taller forever"
+    },
+    {
+     "id": "b",
+     "label": "The wave stops being a wave"
+    },
+    {
+     "id": "c",
+     "label": "The momentum becomes a mixture of many values"
+    },
+    {
+     "id": "d",
+     "label": "The position becomes less certain too"
+    }
+   ],
+   "answer": "c",
+   "explain": "Using many plane waves improves position precision but makes momentum a mixture of waves with many different momenta.",
+   "cites": [
+    32,
+    35
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.uncertainty-principle:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Bundesarchiv_Bild183-R57262%2C_Werner_Heisenberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Uncertainty principle",
+  "credit": "Unknown authorUnknown author",
+  "license": "CC BY-SA 3.0 de",
+  "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild183-R57262,_Werner_Heisenberg.jpg"
+ },
+ "source": {
+  "title": "Uncertainty principle",
+  "url": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+  "revision": 1383940069
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it says",
+    "text": "The uncertainty principle, also called Heisenberg's indeterminacy principle, is a basic idea of quantum mechanics. It says there is a limit to how precisely some pairs of properties, such as a particle's position and its momentum, can be known together. Pin one of them down more sharply and the other becomes harder to know. Pairs tied together in this way are called complementary variables, or canonically conjugate variables.",
+    "cites": [
+     1,
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "A limit on a product",
+    "text": "Stated more formally, the principle is a family of mathematical inequalities. Each one sets a basic floor under the product of the accuracies of two related measurements made on a quantum system, for example position x and momentum p. Position and momentum are only one pair, and the principle comes in many other forms. A widely used one links energy and time, connecting how long a quantum state lasts with the spread of energies measured for it. Deriving that version properly, though, raises confusing questions about what time is.",
+    "cites": [
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Why we never notice it",
+    "text": "The effect matters only for the motion of microscopic objects; for large, everyday objects it is negligible. It cannot be noticed at the large scales people experience. Still, nothing escapes it in principle. Under the de Broglie hypothesis every object in the universe has a wave linked to it, so everything from elementary particles and atoms up to planets is subject to the uncertainty principle.",
+    "cites": [
+     9,
+     12,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "The wave picture",
+    "text": "Two frameworks of quantum physics explain the principle in different ways. In wave mechanics, the easier one to picture, a particle's position takes the form of a matter wave, and its momentum is tied to that wave through the de Broglie relation p = ħk, with k standing for the wavenumber. The wave written in terms of position and the wave written in terms of momentum are Fourier transforms of one another. No nonzero function can be sharply bunched up at the same time as its Fourier transform, and that is where the trade-off comes from. The other framework, matrix mechanics, is more abstract but generalizes more easily.",
+    "cites": [
+     10,
+     11,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Building a wave packet",
+    "text": "Start with a single plane wave that has one momentum, p₀. The particle's position is then extremely uncertain, since it could be essentially anywhere along the wave. Adding many plane waves together makes a wave packet that is more localized in space. The cost is that the momentum is now a mix of many different momenta, so it is less precise. Using the standard deviation σ to measure spread, a smaller σₓ for position comes with a larger σₚ for momentum, and the exact limit on this trade is called the Kennard bound.",
+    "cites": [
+     27,
+     29,
+     30,
+     32,
+     33,
+     35,
+     37
+    ]
+   },
+   {
+    "heading": "The same trade in sound",
+    "text": "This kind of trade-off shows up in every system built on Fourier analysis, sound waves included. A pure tone is one sharp spike at a single frequency, yet over time it is a sine wave spread out completely. In fact, the proof for position and momentum uses just one piece of physics: that their wave functions are Fourier transforms of each other. So a similar result holds for any pair of conjugate variables.",
+    "cites": [
+     15,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-7-2",
+   "kind": "book",
+   "title": "7.2 The Heisenberg Uncertainty Principle",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/7-2-the-heisenberg-uncertainty-principle",
+   "note": "A free college textbook section on the position-momentum and energy-time limits, with worked examples."
+  },
+  {
+   "id": "openstax-cp2e-29-7",
+   "kind": "book",
+   "title": "29.7 Probability: The Heisenberg Uncertainty Principle",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/29-7-probability-the-heisenberg-uncertainty-principle",
+   "note": "A gentler free textbook section linking matter waves, probability and the uncertainty limit."
+  },
+  {
+   "id": "sep-uncertainty",
+   "kind": "article",
+   "title": "The Uncertainty Principle",
+   "by": "Stanford Encyclopedia of Philosophy",
+   "url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+   "note": "A deep reference on what Heisenberg and Bohr meant by the principle and how its meaning is still debated."
+  },
+  {
+   "id": "spacetime-uncertainty",
+   "kind": "video",
+   "title": "Understanding the Uncertainty Principle with Quantum Fourier Series",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=izqaWyZsEtY",
+   "minutes": 15,
+   "note": "A video that uses sound waves and Fourier series to explain Heisenberg's uncertainty principle."
+  },
+  {
+   "id": "iot-uncertainty",
+   "kind": "documentary",
+   "title": "Heisenberg's Uncertainty Principle",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/m001wq9h",
+   "minutes": 58,
+   "note": "A radio discussion of Heisenberg's uncertainty principle and what it means."
+  }
+ ]
+}

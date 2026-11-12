@@ -1,0 +1,332 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.primes.twin-prime",
+ "name": "Twin prime",
+ "summary": [
+  {
+   "text": "A twin prime is a prime that is 2 less or 2 more than another prime, such as either member of the pair (17, 19) or (41, 43).",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Whether there are infinitely many twin primes is one of the great open questions in number theory, and it is called the twin prime conjecture.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "text": "In 2013 Yitang Zhang proved there are infinitely many prime pairs differing by some number below 70 million, and that bound has since been cut to 246.",
+   "cites": [
+    19,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Example pairs",
+   "value": "(11, 13), (17, 19), (29, 31), (41, 43)",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Between the twins",
+   "value": "Beyond (3, 5), the number between them is a multiple of 6",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Only prime in two pairs",
+   "value": "Five, which sits in (3, 5) and (5, 7)",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Pair sums",
+   "value": "Any pair other than (3, 5) adds to a multiple of 12",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A classmate says 7 and 11 are twin primes, since both are prime. What is missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Twin primes must both be even"
+    },
+    {
+     "id": "b",
+     "label": "Twin primes must differ by two, and these differ by four"
+    },
+    {
+     "id": "c",
+     "label": "Twin primes must add up to a prime"
+    },
+    {
+     "id": "d",
+     "label": "Twin primes must be next to a multiple of ten"
+    }
+   ],
+   "answer": "b",
+   "explain": "A twin prime has a prime gap of two: it is 2 less or 2 more than another prime.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.twin-prime:q1"
+  },
+  {
+   "prompt": "The prime 5 sits in two twin pairs, (3, 5) and (5, 7). Can any larger prime sit in two twin pairs?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, five is the only prime that does"
+    },
+    {
+     "id": "b",
+     "label": "Yes, every twin prime does"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only primes ending in 3"
+    },
+    {
+     "id": "d",
+     "label": "Only if it is larger than a million"
+    }
+   ],
+   "answer": "a",
+   "explain": "Five is the only prime in two pairs, because every twin pair beyond (3, 5) has a multiple of 6 between its two primes.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.twin-prime:q2"
+  },
+  {
+   "prompt": "A friend says mathematicians proved after Zhang's 2013 work that infinitely many twin primes exist. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, Zhang proved it outright"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it was shown by computer search"
+    },
+    {
+     "id": "c",
+     "label": "No, substantial progress has been made but it remains unsolved"
+    },
+    {
+     "id": "d",
+     "label": "No, it was shown that only finitely many exist"
+    }
+   ],
+   "answer": "c",
+   "explain": "Zhang, Maynard, Tao and others made substantial progress, but the twin prime conjecture is unsolved.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.twin-prime:q3"
+  },
+  {
+   "prompt": "What exactly did Zhang's 2013 announcement show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There are infinitely many pairs of primes differing by two"
+    },
+    {
+     "id": "b",
+     "label": "There are no pairs of primes differing by two beyond a point"
+    },
+    {
+     "id": "c",
+     "label": "Every pair of consecutive primes differs by under 70 million"
+    },
+    {
+     "id": "d",
+     "label": "Some gap below 70 million occurs between infinitely many prime pairs"
+    }
+   ],
+   "answer": "d",
+   "explain": "He proved there is some integer N under 70 million for which infinitely many pairs of primes differ by N, without saying N is 2.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.twin-prime:q4"
+  },
+  {
+   "prompt": "Researchers have shown that infinitely many prime pairs lie within some fixed distance. What would turn that into the twin prime conjecture?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cutting the allowed distance down to 2"
+    },
+    {
+     "id": "b",
+     "label": "Finding one more twin prime pair"
+    },
+    {
+     "id": "c",
+     "label": "Doubling the allowed distance"
+    },
+    {
+     "id": "d",
+     "label": "Proving that 5 is the only repeated prime"
+    }
+   ],
+   "answer": "a",
+   "explain": "The bound stands at 246 at most, and improving it to 2 would prove the twin prime conjecture.",
+   "cites": [
+    36,
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.twin-prime:q5"
+  },
+  {
+   "prompt": "What do you know about the number sitting exactly between two twin primes, other than between 3 and 5?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a multiple of 6"
+    },
+    {
+     "id": "b",
+     "label": "It is an odd number"
+    },
+    {
+     "id": "c",
+     "label": "It is a multiple of 4"
+    },
+    {
+     "id": "d",
+     "label": "It is itself a prime"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every twin prime pair beyond (3, 5) has the form (6n − 1, 6n + 1) for some natural number n.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes.twin-prime:q6"
+  }
+ ],
+ "source": {
+  "title": "Twin prime",
+  "url": "https://en.wikipedia.org/wiki/Twin_prime",
+  "revision": 1383453042
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Primes two apart",
+    "text": "A twin prime is a prime number that sits 2 away from another prime, like either number in the pair (17, 19) or (41, 43). Put another way, its prime gap is two. The term is also used for the pair itself, which may be called a prime twin or prime pair. The pair (2, 3) is usually left out, so the list begins with (3, 5), (5, 7) and (11, 13).",
+    "cites": [
+     1,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "heading": "Patterns in the pairs",
+    "text": "Because 2 is the only even prime, (2, 3) is the only pair of primes just one apart, so twin primes are as close together as any other two primes can be. Every twin pair after (3, 5) has the shape (6n − 1, 6n + 1) for some natural number n, so the number between them is a multiple of 6. That is why 5 is the only prime that belongs to two pairs. It also means the sum of any twin pair other than 3 and 5 divides evenly by 12.",
+    "cites": [
+     8,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Do they ever run out",
+    "text": "Twin primes get rarer as you look at larger ranges, in line with the general tendency of gaps between primes to widen as numbers grow. Whether they stop altogether is unknown. The twin prime conjecture says there are infinitely many primes p for which p + 2 is also prime, and for many years this has ranked among the great unsolved questions of number theory. In 1849 de Polignac proposed a broader version: for every natural number k, infinitely many primes p have p + 2k prime too. The twin prime conjecture is his case k = 1.",
+    "cites": [
+     4,
+     5,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Zhang's breakthrough",
+    "text": "Yitang Zhang announced on 17 April 2013 that he could prove that some integer N below 70 million is the gap between infinitely many pairs of primes. His paper was accepted in early May 2013. Terence Tao then proposed a Polymath Project, a collaborative effort, to bring Zhang's bound down. One year after the announcement the bound had fallen to 246, and James Maynard and Tao found improved bounds independently with a different, simpler approach than Zhang's.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "What the bound of 246 means",
+    "text": "In plain terms, there are infinitely many primes whose next prime is at most 246 larger. Lowering that number to 2 would prove the twin prime conjecture. If the Elliott–Halberstam conjecture and its generalized form are assumed, the bound drops to 12 and 6 respectively. For now, though, the conjecture remains unsolved.",
+    "cites": [
+     6,
+     25,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Earlier steps",
+    "text": "In 1940 Paul Erdős showed that for some constant c < 1, infinitely many primes p have a next prime p′ with p′ − p < c ln p. This means infinitely many stretches of numbers hold two primes, as long as the stretches may grow slowly, at a logarithmic rate, as the primes get bigger. In 1986 Helmut Maier showed the constant could be below 0.25. In 2004 Daniel Goldston and Cem Yıldırım pushed it down to 0.085786... .",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "A law for twin primes",
+    "text": "A stronger form of the conjecture, the first Hardy–Littlewood conjecture, named after Hardy and John Littlewood, proposes a distribution law for twin primes, much as the prime number theorem does for all primes. Let π₂(x) count the primes p ≤ x for which p + 2 is prime as well. If you assume that 1/(ln t) describes the density of primes, an assumption the prime number theorem suggests, the conjecture can be justified, though not proven. That same assumption implies the twin prime conjecture.",
+    "cites": [
+     18,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "twin-prime-conjecture",
+   "kind": "video",
+   "title": "Twin Prime Conjecture",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=QKHKD8bRAro",
+   "note": "James Maynard explains the twin prime conjecture and progress towards it."
+  },
+  {
+   "id": "numberphile-twin-proofs",
+   "kind": "video",
+   "title": "Twin Proofs for Twin Primes",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=n4gmYjyI3vo",
+   "note": "Ben Sparks presents two proofs about twin primes."
+  }
+ ]
+}

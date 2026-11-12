@@ -1,0 +1,112 @@
+{
+ "title": "Where a function hits zero",
+ "question": "What is a root, and how many must a polynomial have?",
+ "hook": "Every equation you have ever solved was secretly a hunt for the spots where something equals nothing.",
+ "idea": "A root is an input that makes a polynomial’s output 0, and counting complex roots with repeats there are as many as the degree.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "The polynomial f(x) = x² − 5 x + 6 equals (x − 2) (x − 3). Which inputs make its output 0?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "2 and 3"
+    },
+    {
+     "id": "b",
+     "label": "−2 and −3",
+     "feedback": "It tempts because of the minus signs in the factors, but x = −2 gives a nonzero output."
+    },
+    {
+     "id": "c",
+     "label": "5 and 6",
+     "feedback": "It tempts because those numbers are in the polynomial, but they are coefficients, not roots."
+    }
+   ],
+   "answer": "a",
+   "explain": "f (2) = 2² − 5 × 2 + 6 = 0 and f (3) = 3² − 5 × 3 + 6 = 0.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "For a polynomial with real coefficients, sort each degree by what is guaranteed.",
+   "groups": [
+    "Must have a real root",
+    "May have no real root"
+   ],
+   "items": [
+    [
+     "Degree 3",
+     "Must have a real root"
+    ],
+    [
+     "Degree 5",
+     "Must have a real root"
+    ],
+    [
+     "Degree 2",
+     "May have no real root"
+    ],
+    [
+     "Degree 4",
+     "May have no real root"
+    ]
+   ],
+   "explain": "Odd degree forces at least one real root, while even degree may have none.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each idea to what it says.",
+   "pairs": [
+    [
+     "x-intercept",
+     "A point where the graph meets the x-axis"
+    ],
+    [
+     "Fundamental theorem of algebra",
+     "Degree n means n complex roots with multiplicities"
+    ],
+    [
+     "Vieta’s formulas",
+     "Coefficients relate to sums and products of roots"
+    ],
+    [
+     "Newton’s method",
+     "A way to compute accurate approximations of roots"
+    ]
+   ],
+   "explain": "Each is a tool or name used for locating or counting roots.",
+   "cites": [
+    7,
+    8,
+    15,
+    17,
+    18
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A real polynomial has degree 4.",
+    "Counting complex roots with their multiplicities, it has 4 roots.",
+    "Every one of those roots is a point where the graph meets the x-axis.",
+    "Even so, a polynomial of even degree may have none of its roots on the real line."
+   ],
+   "wrong": 2,
+   "explain": "Only real roots show up where the graph meets the x-axis, and even-degree polynomials may have no real roots at all.",
+   "cites": [
+    5,
+    7,
+    13,
+    15
+   ]
+  }
+ ]
+}

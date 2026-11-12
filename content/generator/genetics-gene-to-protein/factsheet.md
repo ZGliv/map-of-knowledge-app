@@ -1,0 +1,3511 @@
+# Fact sheet: genetics-gene-to-protein
+
+Numbered sentences from each pinned source. Draft from these facts in your own words: never copy a run of 8 words (the validator checks). Cite the source ID exactly as written in the heading.
+
+## [W1] Wikipedia: Central dogma of molecular biology
+https://en.wikipedia.org/w/index.php?title=Central_dogma_of_molecular_biology&oldid=1368164013 · CC BY-SA 4.0 · usage: ai_input
+
+- [W1.1] The central dogma of molecular biology deals with the flow of genetic information within a biological system.
+- [W1.2] It is often stated as "DNA makes RNA, and RNA makes protein", although this is not its original meaning.
+- [W1.3] It was first stated by Francis Crick in 1957, then published in 1958:
+- [W1.4] This states that once "information" has passed into protein it cannot get out again.
+- [W1.5] In more detail, the transfer of information from nucleic acid to nucleic acid, or from nucleic acid to protein may be possible, but transfer from protein to protein, or from protein to nucleic acid is impossible.
+- [W1.6] Information here means the precise determination of sequence, either of bases in the nucleic acid or of amino acid residues in the protein.
+- [W1.7] He re-stated it in a Nature paper published in 1970: "The central dogma of molecular biology deals with the detailed residue-by-residue transfer of sequential information.
+- [W1.8] It states that such information cannot be transferred back from protein to either protein or nucleic acid."
+- [W1.9] A second version of the central dogma is popular but incorrect.
+- [W1.10] This is the simplistic DNA → RNA → protein pathway published by James Watson in the first edition of The Molecular Biology of the Gene (1965).
+- [W1.11] Watson's version differs from Crick's because Watson describes a two-step (DNA → RNA / RNA → protein) process as the central dogma.
+- [W1.12] While the dogma as originally stated by Crick remains valid today, Watson's version does not.
+- [W1.13] Biological sequence information
+- [W1.14] The biopolymers that comprise DNA, RNA, and (poly)peptides are linear heteropolymers (i.e.: each monomer is connected to at most two other monomers).
+- [W1.15] The sequences of their monomers effectively encodes information.
+- [W1.16] The transfers of information from one molecule to another are faithful, deterministic transfers, wherein one biopolymer's sequence is used as a template for the construction of another biopolymer with a sequence that is entirely dependent on the original biopolymer's sequence.
+- [W1.17] When DNA is transcribed to RNA, its complement is paired to it.
+- [W1.18] DNA codes are transferred to RNA codes in a complementary fashion.
+- [W1.19] The encoding of proteins is done in groups of three, known as codons.
+- [W1.20] The standard codon table applies for humans and mammals, but some other lifeforms (including human mitochondria) use different translations.
+- [W1.21] General transfers of biological sequential information
+- [W1.22] In the sense that DNA replication must occur if genetic material is to be provided for the progeny of any cell, whether somatic or reproductive, the copying from DNA to DNA arguably is the fundamental step in information transfer.
+- [W1.23] A complex group of proteins called the replisome performs the replication of the information from the parent strand to the complementary daughter strand.
+- [W1.24] Transcription is the process by which the information contained in a section of DNA is replicated in the form of a newly assembled piece of messenger RNA (mRNA).
+- [W1.25] Enzymes facilitating the process include RNA polymerase and transcription factors.
+- [W1.26] In eukaryotic cells, the primary transcript is pre-mRNA.
+- [W1.27] Pre-mRNA must be processed for translation to proceed.
+- [W1.28] Processing includes the addition of a 5' cap and a poly-A tail to the pre-mRNA chain, followed by splicing.
+- [W1.29] Alternative splicing occurs when appropriate, increasing the diversity of the proteins that any single mRNA can produce.
+- [W1.30] The product of the entire transcription process (that began with the production of the pre-mRNA chain) is a mature mRNA chain.
+- [W1.31] The mature mRNA finds its way to a ribosome, where it gets translated.
+- [W1.32] In prokaryotic cells, which have no nuclear compartment, the processes of transcription and translation may be linked together without clear separation.
+- [W1.33] In eukaryotic cells, the site of transcription (the cell nucleus) is usually separated from the site of translation (the cytoplasm), so the mRNA must be transported out of the nucleus into the cytoplasm, where it can be bound by ribosomes.
+- [W1.34] The ribosome reads the mRNA triplet codons, usually beginning with an AUG (adenine−uracil−guanine), or initiator methionine codon downstream of the ribosome binding site.
+- [W1.35] Complexes of initiation factors and elongation factors bring aminoacylated transfer RNAs (tRNAs) into the ribosome-mRNA complex, matching the codon in the mRNA to the anti-codon on the tRNA.
+- [W1.36] Each tRNA bears the appropriate amino acid residue to add to the polypeptide chain being synthesised.
+- [W1.37] As the amino acids get linked into the growing peptide chain, the chain begins folding into the correct conformation.
+- [W1.38] Translation ends with a stop codon which may be a UAA, UGA, or UAG triplet.
+- [W1.39] The mRNA does not contain all the information for specifying the nature of the mature protein.
+- [W1.40] The nascent polypeptide chain released from the ribosome commonly requires additional processing before the final product emerges.
+- [W1.41] For one thing, the correct folding process is complex and vitally important.
+- [W1.42] For most proteins it requires other chaperone proteins to control the form of the product.
+- [W1.43] Some proteins then excise internal segments from their own peptide chains, splicing the free ends that border the gap; in such processes the inside "discarded" sections are called inteins.
+- [W1.44] Other proteins must be split into multiple sections without splicing.
+- [W1.45] Some polypeptide chains need to be cross-linked, and others must be attached to cofactors such as haem (heme) before they become functional.
+- [W1.46] Additional transfers of biological sequential information
+- [W1.47] Reverse transcription is the transfer of information from RNA to DNA (the reverse of normal transcription).
+- [W1.48] This is known to occur in the case of retroviruses, such as HIV, as well as in eukaryotes, in the case of retrotransposons and telomere synthesis.
+- [W1.49] It is the process by which genetic information from RNA gets transcribed into new DNA.
+- [W1.50] The family of enzymes involved in this process is called Reverse Transcriptase.
+- [W1.51] RNA replication is the copying of one RNA to another.
+- [W1.52] Many viruses replicate this way.
+- [W1.53] The enzymes that copy RNA to new RNA, called RNA-dependent RNA polymerases, are also found in many eukaryotes, where they are involved in RNA silencing.
+- [W1.54] RNA editing, in which an RNA sequence is altered by a complex of proteins and a "guide RNA", could also be seen as an RNA-to-RNA transfer.
+- [W1.55] Activities unrelated to the central dogma
+- [W1.56] The central dogma of molecular biology states that, once sequential information has passed from nucleic acid to protein, it cannot flow back from protein to nucleic acid.
+- [W1.57] Some people believe that the following activities conflict with the central dogma.
+- [W1.58] Post-translational modification
+- [W1.59] After protein amino-acid sequences have been translated from nucleic acid chains, they can be edited by appropriate enzymes.
+- [W1.60] This is a form of protein affecting protein sequence, not protein transferring information to nucleic acid.
+- [W1.61] Nonribosomal peptide synthesis
+- [W1.62] Some proteins are synthesized by nonribosomal peptide synthetases, which can be big protein complexes, each specializing in synthesizing only one type of peptide.
+- [W1.63] Nonribosomal peptides often have cyclic or branched structures and can contain non-proteinogenic amino acids – both of these factors differentiate them from ribosome synthesized proteins.
+- [W1.64] An example of nonribosomal peptides are some of the antibiotics.
+- [W1.65] An intein is a "parasitic" segment of a protein that is able to excise itself from the chain of amino acids as they emerge from the ribosome and rejoin the remaining portions with a peptide bond in such a manner that the main protein "backbone" does not fall apart.
+- [W1.66] This is a case of a protein changing its own primary sequence from the sequence originally encoded by the DNA of a gene.
+- [W1.67] Additionally, most inteins contain a homing endonuclease or HEG domain, which is capable of finding a copy of the parent gene that does not include the intein nucleotide sequence.
+- [W1.68] On contact with the intein-free copy, the HEG domain initiates the DNA double-stranded break repair mechanism.
+- [W1.69] This process causes the intein sequence to be copied from the original source gene to the intein-free gene.
+- [W1.70] This is an example of protein directly editing DNA sequence, as well as increasing the sequence's heritable propagation.
+- [W1.71] Prions are proteins of particular amino acid sequences in particular conformations.
+- [W1.72] They propagate themselves in host cells by making conformational changes in other molecules of protein with the same amino acid sequence, but with a different conformation that is functionally important or detrimental to the organism.
+- [W1.73] Once the protein has been transconformed to the prion folding, it changes function.
+- [W1.74] In turn, it can convey information into new cells and reconfigure more functional molecules of that sequence into the alternate prion form.
+- [W1.75] In some types of prion in fungi, this change is continuous and direct; the information flow is Protein → Protein.
+- [W1.76] Some scientists such as Alain E. Bussard and Eugene Koonin have argued that prion-mediated inheritance violates the central dogma of molecular biology.
+- [W1.77] However, Rosalind Ridley in Molecular Pathology of the Prions (2001) has written that "The prion hypothesis is not heretical to the central dogma of molecular biology—that the information necessary to manufacture proteins is encoded in the nucleotide sequence of nucleic acid—because it does not claim that proteins replicate.
+- [W1.78] Rather, it claims that there is a source of information within protein molecules that contributes to their biological function, and that this information can be passed on to other molecules."
+- [W1.79] In his autobiography, What Mad Pursuit, Crick wrote about his choice of the word dogma and some of the problems it caused him:
+- [W1.80] "I called this idea the central dogma, for two reasons, I suspect.
+- [W1.81] I had already used the obvious word hypothesis in the sequence hypothesis, and in addition I wanted to suggest that this new assumption was more central and more powerful. ...
+- [W1.82] As it turned out, the use of the word dogma caused almost more trouble than it was worth.
+- [W1.83] Many years later Jacques Monod pointed out to me that I did not appear to understand the correct use of the word dogma, which is a belief that cannot be doubted.
+- [W1.84] I did apprehend this in a vague sort of way but since I thought that all religious beliefs were without foundation, I used the word the way I myself thought about it, not as most of the world does, and simply applied it to a grand hypothesis that, however plausible, had little direct experimental support."
+- [W1.85] Similarly, Horace Freeland Judson records in The Eighth Day of Creation:
+- [W1.86] "My mind was, that a dogma was an idea for which there was no reasonable evidence.
+- [W1.87] You see?!" And Crick gave a roar of delight.
+- [W1.88] "I just didn't know what dogma meant.
+- [W1.89] And I could just as well have called it the 'Central Hypothesis,' or — you know.
+- [W1.90] Which is what I meant to say.
+- [W1.91] Dogma was just a catch phrase."
+- [W1.92] Comparison with the Weismann barrier
+- [W1.93] The Weismann barrier, proposed by August Weismann in 1892, distinguishes between the "immortal" germ cell lineages (the germ plasm) which produce gametes and the "disposable" somatic cells.
+- [W1.94] Hereditary information moves only from germline cells to somatic cells (that is, somatic mutations are not inherited).
+- [W1.95] This, before the discovery of the role or structure of DNA, does not predict the central dogma, but does anticipate its gene-centric view of life, albeit in non-molecular terms.
+- [W1.96] The Elaboration of the Central Dogma – Scitable: By Nature education
+- [W1.97] Animation of Central Dogma from RIKEN - NatureDocumentaries.org
+- [W1.98] Discussion on challenges to the "Central Dogma of Molecular Biology"
+- [W1.99] Explanation of the central dogma using a musical analogy
+- [W1.100] "Francis Harry Compton Crick (1916–2004)" by A. Andrei at the Embryo Project Encyclopedia
+
+## [W2] Wikipedia: Transcription (biology)
+https://en.wikipedia.org/w/index.php?title=Transcription_(biology)&oldid=1376993847 · CC BY-SA 4.0 · usage: ai_input
+
+- [W2.1] Transcription is the process of duplicating a segment of DNA into RNA for the purpose of gene expression.
+- [W2.2] Some segments of DNA are transcribed into RNA molecules that can encode proteins, called messenger RNA (mRNA).
+- [W2.3] Other segments of DNA are transcribed into RNA molecules called non-coding RNAs (ncRNAs).
+- [W2.4] Both DNA and RNA are nucleic acids, composed of nucleotide sequences.
+- [W2.5] During transcription, a DNA sequence is read by an RNA polymerase, which produces a complementary RNA strand called a primary transcript.
+- [W2.6] In virology, the term transcription is used when referring to mRNA synthesis from a viral RNA molecule.
+- [W2.7] The genome of many RNA viruses is composed of negative-sense RNA which acts as a template for positive sense viral messenger RNA - a necessary step in the synthesis of viral proteins needed for viral replication.
+- [W2.8] This process is catalyzed by a viral RNA dependent RNA polymerase.
+- [W2.9] A DNA transcription unit encoding for a protein may contain both a coding sequence, which will be translated into the protein, and regulatory sequences, which direct and regulate the synthesis of that protein.
+- [W2.10] The regulatory sequence before (upstream from) the coding sequence is called the five prime untranslated regions (5'UTR); the sequence after (downstream from) the coding sequence is called the three prime untranslated regions (3'UTR).
+- [W2.11] As opposed to DNA replication, transcription results in an RNA complement that includes the nucleotide uracil (U) in all instances where thymine (T) would have occurred in a DNA complement.
+- [W2.12] Only one of the two DNA strands serves as a template for transcription.
+- [W2.13] The antisense strand of DNA is read by RNA polymerase from the 3' end to the 5' end during transcription (3' → 5').
+- [W2.14] The complementary RNA is created in the opposite direction, in the 5' → 3' direction, matching the sequence of the sense strand except switching uracil for thymine.
+- [W2.15] This directionality is because RNA polymerase can only add nucleotides to the 3' end of the growing mRNA chain.
+- [W2.16] This use of only the 3' → 5' DNA strand eliminates the need for the Okazaki fragments that are seen in DNA replication.
+- [W2.17] This also removes the need for an RNA primer to initiate RNA synthesis, as is the case in DNA replication.
+- [W2.18] The non-template (sense) strand of DNA is called the coding strand, because its sequence is the same as the newly created RNA transcript (except for the substitution of uracil for thymine).
+- [W2.19] This is the strand that is used by convention when presenting a DNA sequence.
+- [W2.20] Transcription has some proofreading mechanisms, but they are fewer and less effective than the controls for copying DNA.
+- [W2.21] As a result, transcription has a lower copying fidelity than DNA replication.
+- [W2.22] Transcription is divided into initiation, promoter escape, elongation, and termination.
+- [W2.23] Setting up for transcription
+- [W2.24] Enhancers, transcription factors, Mediator complex, and DNA loops in mammalian transcription
+- [W2.25] Setting up for transcription in mammals is regulated by many cis-regulatory elements, including core promoter and promoter-proximal elements that are located near the transcription start sites of genes.
+- [W2.26] Core promoters combined with general transcription factors are sufficient to direct transcription initiation, but generally have low basal activity.
+- [W2.27] Other important cis-regulatory modules are localized in DNA regions that are distant from the transcription start sites.
+- [W2.28] These include enhancers, silencers, insulators and tethering elements.
+- [W2.29] Among this constellation of elements, enhancers and their associated transcription factors have a leading role in the initiation of gene transcription.
+- [W2.30] An enhancer localized in a DNA region distant from the promoter of a gene can have a very large effect on gene transcription, with some genes undergoing up to 100-fold increased transcription due to an activated enhancer.
+- [W2.31] Enhancers are regions of the genome that are major gene-regulatory elements.
+- [W2.32] Enhancers control cell-type-specific gene transcription programs, most often by looping through long distances to come in physical proximity with the promoters of their target genes.
+- [W2.33] While there are hundreds of thousands of enhancer DNA regions, for a particular type of tissue only specific enhancers are brought into proximity with the promoters that they regulate.
+- [W2.34] In a study of brain cortical neurons, 24,937 loops were found, bringing enhancers to their target promoters.
+- [W2.35] Multiple enhancers, each often at tens or hundred of thousands of nucleotides distant from their target genes, loop to their target gene promoters and can coordinate with each other to control transcription of their common target gene.
+- [W2.36] The schematic illustration in this section shows an enhancer looping around to come into close physical proximity with the promoter of a target gene.
+- [W2.37] The loop is stabilized by a dimer of a connector protein (e.g. dimer of CTCF or YY1), with one member of the dimer anchored to its binding motif on the enhancer and the other member anchored to its binding motif on the promoter (represented by the red zigzags in the illustration).
+- [W2.38] Several cell function specific transcription factors (there are about 1,600 transcription factors in a human cell) generally bind to specific motifs on an enhancer and a small combination of these enhancer-bound transcription factors, when brought close to a promoter by a DNA loop, govern level of transcription of the target gene.
+- [W2.39] Mediator (a complex usually consisting of about 26 proteins in an interacting structure) communicates regulatory signals from enhancer DNA-bound transcription factors directly to the RNA polymerase II (pol II) enzyme bound to the promoter.
+- [W2.40] Enhancers, when active, are generally transcribed from both strands of DNA with RNA polymerases acting in two different directions, producing two enhancer RNAs (eRNAs) as illustrated in the Figure.
+- [W2.41] An inactive enhancer may be bound by an inactive transcription factor.
+- [W2.42] Phosphorylation of the transcription factor may activate it and that activated transcription factor may then activate the enhancer to which it is bound (see small red star representing phosphorylation of transcription factor bound to enhancer in the illustration).
+- [W2.43] An activated enhancer begins transcription of its RNA before activating transcription of messenger RNA from its target gene.
+- [W2.44] CpG island methylation and demethylation
+- [W2.45] Transcription regulation at about 60% of promoters is also controlled by methylation of cytosines within CpG dinucleotides (where 5' cytosine is followed by 3' guanine or CpG sites).
+- [W2.46] 5-methylcytosine (5-mC) is a methylated form of the DNA base cytosine (see Figure).
+- [W2.47] 5-mC is an epigenetic marker found predominantly within CpG sites.
+- [W2.48] About 28 million CpG dinucleotides occur in the human genome.
+- [W2.49] In most tissues of mammals, on average, 70% to 80% of CpG cytosines are methylated (forming 5-methylCpG or 5-mCpG).
+- [W2.50] However, unmethylated cytosines within 5'cytosine-guanine 3' sequences often occur in groups, called CpG islands, at active promoters.
+- [W2.51] About 60% of promoter sequences have a CpG island while only about 6% of enhancer sequences have a CpG island.
+- [W2.52] CpG islands constitute regulatory sequences, since if CpG islands are methylated in the promoter of a gene this can reduce or silence gene transcription.
+- [W2.53] DNA methylation regulates gene transcription through interaction with methyl binding domain (MBD) proteins, such as MeCP2, MBD1 and MBD2.
+- [W2.54] These MBD proteins bind most strongly to highly methylated CpG islands.
+- [W2.55] These MBD proteins have both a methyl-CpG-binding domain as well as a transcription repression domain.
+- [W2.56] They bind to methylated DNA and guide or direct protein complexes with chromatin remodeling and/or histone modifying activity to methylated CpG islands.
+- [W2.57] MBD proteins generally repress local chromatin such as by catalyzing the introduction of repressive histone marks, or creating an overall repressive chromatin environment through nucleosome remodeling and chromatin reorganization.
+- [W2.58] As noted in the previous section, transcription factors are proteins that bind to specific DNA sequences in order to regulate the expression of a gene.
+- [W2.59] The binding sequence for a transcription factor in DNA is usually about 10 or 11 nucleotides long.
+- [W2.60] As summarized in 2009, Vaquerizas et al. indicated there are approximately 1,400 different transcription factors encoded in the human genome by genes that constitute about 6% of all human protein encoding genes.
+- [W2.61] About 94% of transcription factor binding sites (TFBSs) that are associated with signal-responsive genes occur in enhancers while only about 6% of such TFBSs occur in promoters.
+- [W2.62] EGR1 protein is a particular transcription factor that is important for regulation of methylation of CpG islands.
+- [W2.63] An EGR1 transcription factor binding site is frequently located in enhancer or promoter sequences.
+- [W2.64] There are about 12,000 binding sites for EGR1 in the mammalian genome and about half of EGR1 binding sites are located in promoters and half in enhancers.
+- [W2.65] The binding of EGR1 to its target DNA binding site is insensitive to cytosine methylation in the DNA.
+- [W2.66] While only small amounts of EGR1 transcription factor protein are detectable in cells that are un-stimulated, translation of the EGR1 gene into protein at one hour after stimulation is drastically elevated.
+- [W2.67] Production of EGR1 transcription factor proteins, in various types of cells, can be stimulated by growth factors, neurotransmitters, hormones, stress and injury.
+- [W2.68] In the brain, when neurons are activated, EGR1 proteins are up-regulated and they bind to (recruit) the pre-existing TET1 enzymes that are produced in high amounts in neurons.
+- [W2.69] TET enzymes can catalyse demethylation of 5-methylcytosine.
+- [W2.70] When EGR1 transcription factors bring TET1 enzymes to EGR1 binding sites in promoters, the TET enzymes can demethylate the methylated CpG islands at those promoters.
+- [W2.71] Upon demethylation, these promoters can then initiate transcription of their target genes.
+- [W2.72] Hundreds of genes in neurons are differentially expressed after neuron activation through EGR1 recruitment of TET1 to methylated regulatory sequences in their promoters.
+- [W2.73] The methylation of promoters is also altered in response to signals.
+- [W2.74] The three mammalian DNA methyltransferasess (DNMT1, DNMT3A, and DNMT3B) catalyze the addition of methyl groups to cytosines in DNA.
+- [W2.75] While DNMT1 is a maintenance methyltransferase, DNMT3A and DNMT3B can carry out new methylations.
+- [W2.76] There are also two splice protein isoforms produced from the DNMT3A gene: DNA methyltransferase proteins DNMT3A1 and DNMT3A2.
+- [W2.77] The splice isoform DNMT3A2 behaves like the product of a classical immediate-early gene and, for instance, it is robustly and transiently produced after neuronal activation.
+- [W2.78] Where the DNA methyltransferase isoform DNMT3A2 binds and adds methyl groups to cytosines appears to be determined by histone post translational modifications.
+- [W2.79] On the other hand, neural activation causes degradation of DNMT3A1 accompanied by reduced methylation of at least one evaluated targeted promoter.
+- [W2.80] Transcription begins with the RNA polymerase and one or more general transcription factors binding to a DNA promoter sequence to form an RNA polymerase-promoter closed complex.
+- [W2.81] In the closed complex, the promoter DNA is still fully double-stranded.
+- [W2.82] RNA polymerase, assisted by one or more general transcription factors, then unwinds approximately 14 base pairs of DNA to form an RNA polymerase-promoter open complex.
+- [W2.83] In the open complex, the promoter DNA is partly unwound and single-stranded.
+- [W2.84] The exposed, single-stranded DNA is referred to as the "transcription bubble".
+- [W2.85] RNA polymerase, assisted by one or more general transcription factors, then selects a transcription start site in the transcription bubble, binds to an initiating NTP and an extending NTP (or a short RNA primer and an extending NTP) complementary to the transcription start site sequence, and catalyzes bond formation to yield an initial RNA product.
+- [W2.86] In bacteria, the RNA polymerase core enzyme consists of five subunits: 2 α subunits, 1 β subunit, 1 β' subunit, and 1 ω subunit.
+- [W2.87] It binds to a single transcription factor, called the sigma factor, and together they make up the RNA polymerase holoenzyme.
+- [W2.88] Unlike in eukaryotes, the initiating nucleotide of nascent bacterial mRNA is not capped with a modified guanine nucleotide.
+- [W2.89] It instead bears a 5′ triphosphate (5′-PPP), which can be used for genome-wide mapping of transcription initiation sites.
+- [W2.90] In archaea and eukaryotes, RNA polymerase contains subunits homologous to each of the five bacterial RNA polymerase subunits as well as unique ones.
+- [W2.91] Instead of a single sigma factor, multiple general transcription factors are required to initiate transcription.
+- [W2.92] Archaea have three general transcription factors: TBP, TFB, and TFE.
+- [W2.93] In eukaryotes, RNA polymerase II requires six general transcription factors: TFIIA, TFIIB (an ortholog of archaeal TFB), TFIID (a multisubunit factor in which the key subunit, TBP, is an ortholog of archaeal TBP), TFIIE (an ortholog of archaeal TFE), TFIIF, and TFIIH.
+- [W2.94] The TBP subunit of TFIID is the first to bind to DNA, while TFIIH is the last component to be recruited.
+- [W2.95] In archaea and eukaryotes, the RNA polymerase-promoter closed complex is usually referred to as the "preinitiation complex".
+- [W2.96] Transcription initiation is regulated by additional proteins, known as activators and repressors, and, in some cases, associated coactivators or corepressors, which modulate formation and function of the transcription initiation complex.
+- [W2.97] After the first bond is synthesized, RNA polymerase must escape the promoter.
+- [W2.98] During this time there is a tendency to release the RNA transcript and produce truncated transcripts.
+- [W2.99] This is called abortive initiation, and is common for both eukaryotes and prokaryotes.
+- [W2.100] Abortive initiation continues to occur until an RNA product of a threshold length of approximately 10 nucleotides is synthesized, at which point promoter escape occurs and a transcription elongation complex is formed.
+- [W2.101] Mechanistically, promoter escape occurs through DNA scrunching, providing the energy needed to break interactions between RNA polymerase holoenzyme and the promoter.
+- [W2.102] In bacteria, it was historically thought that the sigma factor is definitely released after promoter clearance occurs.
+- [W2.103] This theory had been known as the obligate release model.
+- [W2.104] However, later data showed that upon and following promoter clearance, the sigma factor is released according to a stochastic model known as the stochastic release model.
+- [W2.105] In eukaryotes, at an RNA polymerase II-dependent promoter, upon promoter clearance, TFIIH phosphorylates serine 5 on the carboxy terminal domain of RNA polymerase II, leading to the recruitment of capping enzyme (CE).
+- [W2.106] The exact mechanism of how CE induces promoter clearance in eukaryotes is not yet known.
+- [W2.107] One strand of the DNA, the template strand (or noncoding strand), is used as a template for RNA synthesis.
+- [W2.108] As transcription proceeds, RNA polymerase traverses the template strand and uses base pairing complementarity with the DNA template to create an RNA copy (which elongates during the traversal).
+- [W2.109] Although RNA polymerase traverses the template strand from 3' → 5', the coding (non-template) strand and newly formed RNA can also be used as reference points, so transcription can be described as occurring 5' → 3'.
+- [W2.110] This produces an RNA molecule from 5' → 3', an exact copy of the coding strand (except that thymines are replaced with uracils, and the nucleotides are composed of a ribose (5-carbon) sugar whereas DNA has deoxyribose (one fewer oxygen atom) in its sugar-phosphate backbone).
+- [W2.111] mRNA transcription can involve multiple RNA polymerases on a single DNA template and multiple rounds of transcription (amplification of particular mRNA), so many mRNA molecules can be rapidly produced from a single copy of a gene.
+- [W2.112] The characteristic elongation rates in prokaryotes and eukaryotes are about 10–100 nts/sec.
+- [W2.113] In eukaryotes, however, nucleosomes act as major barriers to transcribing polymerases during transcription elongation.
+- [W2.114] In these organisms, the pausing induced by nucleosomes can be regulated by transcription elongation factors such as TFIIS.
+- [W2.115] Elongation also involves a proofreading mechanism that can replace incorrectly incorporated bases.
+- [W2.116] In eukaryotes, this may correspond with short pauses during transcription that allow appropriate RNA editing factors to bind.
+- [W2.117] These pauses may be intrinsic to the RNA polymerase or due to chromatin structure.
+- [W2.118] Double-strand breaks in actively transcribed regions of DNA are repaired by homologous recombination during the S and G2 phases of the cell cycle.
+- [W2.119] Since transcription enhances the accessibility of DNA to exogenous chemicals and internal metabolites that can cause recombinogenic lesions, homologous recombination of a particular DNA sequence may be strongly stimulated by transcription.
+- [W2.120] Bacteria use two different strategies for transcription termination – Rho-independent termination and Rho-dependent termination.
+- [W2.121] In Rho-independent transcription termination, RNA transcription stops when the newly synthesized RNA molecule forms a G-C-rich hairpin loop followed by a run of Us.
+- [W2.122] When the hairpin forms, the mechanical stress breaks the weak rU-dA bonds, now filling the DNA–RNA hybrid.
+- [W2.123] This pulls the poly-U transcript out of the active site of the RNA polymerase, terminating transcription.
+- [W2.124] In Rho-dependent termination, Rho, a protein factor, destabilizes the interaction between the template and the mRNA, thus releasing the newly synthesized mRNA from the elongation complex.
+- [W2.125] Transcription termination in eukaryotes is less well understood than in bacteria, but involves cleavage of the new transcript followed by template-independent addition of adenines at its new 3' end, in a process called polyadenylation.
+- [W2.126] Beyond termination by a terminator sequences (which is a part of a gene), transcription may also need to be terminated when it encounters conditions such as DNA damage or an active replication fork.
+- [W2.127] In bacteria, the Mfd ATPase can remove a RNA polymerase stalled at a lesion by prying open its clamp.
+- [W2.128] It also recruits nucleotide excision repair machinery to repair the lesion.
+- [W2.129] Mfd is proposed to also resolve conflicts between DNA replication and transcription.
+- [W2.130] In eukayrotes, ATPase TTF2 helps to suppress the action of RNAP I and II during mitosis, preventing errors in chromosomal segregation.
+- [W2.131] In archaea, the Eta ATPase is proposed to play a similar role.
+- [W2.132] Transcription increases susceptibility to DNA damage
+- [W2.133] Genome damage occurs with a high frequency, estimated to range between tens and hundreds of thousands of DNA damages arising in each cell every day.
+- [W2.134] The process of transcription is a major source of DNA damage, due to the formation of single-strand DNA intermediates that are vulnerable to damage.
+- [W2.135] The regulation of transcription by processes using base excision repair and/or topoisomerases to cut and remodel the genome also increases the vulnerability of DNA to damage.
+- [W2.136] Role of RNA polymerase in post-transcriptional changes in RNA
+- [W2.137] RNA polymerase plays a very crucial role in all steps including post-transcriptional changes in RNA.
+- [W2.138] As shown in the image in the right it is evident that the CTD (C Terminal Domain) is a tail that changes its shape; this tail will be used as a carrier of splicing, capping and polyadenylation, as shown in the image on the left.
+- [W2.139] Transcription inhibitors can be used as antibiotics against, for example, pathogenic bacteria (antibacterials) and fungi (antifungals).
+- [W2.140] An example of such an antibacterial is rifampicin, which inhibits bacterial transcription of DNA into mRNA by inhibiting DNA-dependent RNA polymerase by binding its beta-subunit, while 8-hydroxyquinoline is an antifungal transcription inhibitor.
+- [W2.141] The effects of histone methylation may also work to inhibit the action of transcription.
+- [W2.142] Potent, bioactive natural products like triptolide that inhibit mammalian transcription via inhibition of the XPB subunit of the general transcription factor TFIIH has been recently reported as a glucose conjugate for targeting hypoxic cancer cells with increased glucose transporter production.
+- [W2.143] In vertebrates, the majority of gene promoters contain a CpG island with numerous CpG sites.
+- [W2.144] When many of a gene's promoter CpG sites are methylated the gene becomes inhibited (silenced).
+- [W2.145] Colorectal cancers typically have 3 to 6 driver mutations and 33 to 66 hitchhiker or passenger mutations.
+- [W2.146] However, transcriptional inhibition (silencing) may be of more importance than mutation in causing progression to cancer.
+- [W2.147] For example, in colorectal cancers about 600 to 800 genes are transcriptionally inhibited by CpG island methylation (see regulation of transcription in cancer).
+- [W2.148] Transcriptional repression in cancer can also occur by other epigenetic mechanisms, such as altered production of microRNAs.
+- [W2.149] In breast cancer, transcriptional repression of BRCA1 may occur more frequently by over-produced microRNA-182 than by hypermethylation of the BRCA1 promoter (see Low expression of BRCA1 in breast and ovarian cancers).
+- [W2.150] Active transcription units are clustered in the nucleus, in discrete sites called transcription factories or euchromatin.
+- [W2.151] Such sites can be visualized by allowing engaged polymerases to extend their transcripts in tagged precursors (Br-UTP or Br-U) and immuno-labeling the tagged nascent RNA.
+- [W2.152] Transcription factories can also be localized using fluorescence in situ hybridization or marked by antibodies directed against polymerases.
+- [W2.153] There are ≈10,000 factories in the nucleoplasm of a HeLa cell, among which are ≈8,000 polymerase II factories and ≈2,000 polymerase III factories.
+- [W2.154] Each polymerase II factory contains ≈8 polymerases.
+- [W2.155] As most active transcription units are associated with only one polymerase, each factory usually contains ≈8 different transcription units.
+- [W2.156] These units might be associated through promoters and/or enhancers, with loops forming a "cloud" around the factor.
+- [W2.157] A molecule that allows the genetic material to be realized as a protein was first hypothesized by François Jacob and Jacques Monod.
+- [W2.158] Severo Ochoa won a Nobel Prize in Physiology or Medicine in 1959 for developing a process for synthesizing RNA in vitro with polynucleotide phosphorylase, which was useful for cracking the genetic code.
+- [W2.159] RNA synthesis by RNA polymerase was established in vitro by several laboratories by 1965; however, the RNA synthesized by these enzymes had properties that suggested the existence of an additional factor needed to terminate transcription correctly.
+- [W2.160] Roger D. Kornberg won the 2006 Nobel Prize in Chemistry "for his studies of the molecular basis of eukaryotic transcription".
+- [W2.161] Transcription can be measured and detected in a variety of ways:
+- [W2.162] G-Less Cassette transcription assay: measures promoter strength
+- [W2.163] Run-off transcription assay: identifies transcription start sites (TSS)
+- [W2.164] Nuclear run-on assay: measures the relative abundance of newly formed transcripts
+- [W2.165] KAS-seq: measures single-stranded DNA generated by RNA polymerases; can work with 1,000 cells.
+- [W2.166] RNase protection assay and ChIP-Chip of RNAP: detect active transcription sites
+- [W2.167] RT-PCR: measures the absolute abundance of total or nuclear RNA levels, which may however differ from transcription rates
+- [W2.168] DNA microarrays: measures the relative abundance of the global total or nuclear RNA levels; however, these may differ from transcription rates
+- [W2.169] In situ hybridization: detects the presence of a transcript
+- [W2.170] MS2 tagging: by incorporating RNA stem loops, such as MS2, into a gene, these become incorporated into newly synthesized RNA.
+- [W2.171] The stem loops can then be detected using a fusion of GFP and the MS2 coat protein, which has a high affinity, sequence-specific interaction with the MS2 stem loops.
+- [W2.172] The recruitment of GFP to the site of transcription is visualized as a single fluorescent spot.
+- [W2.173] This new approach has revealed that transcription occurs in discontinuous bursts, or pulses (see Transcriptional bursting).
+- [W2.174] With the notable exception of in situ techniques, most other methods provide cell population averages, and are not capable of detecting this fundamental property of genes.
+- [W2.175] Northern blot: the traditional method, and until the advent of RNA-Seq, the most quantitative
+- [W2.176] RNA-Seq: applies next-generation sequencing techniques to sequence whole transcriptomes, which allows the measurement of relative abundance of RNA, as well as the detection of additional variations such as fusion genes, post-transcriptional edits and novel splice sites
+- [W2.177] Single cell RNA-Seq: amplifies and reads partial transcriptomes from isolated cells, allowing for detailed analyses of RNA in tissues, embryos, and cancers
+- [W2.178] Some viruses (such as HIV, the cause of AIDS), have the ability to transcribe RNA into DNA.
+- [W2.179] HIV has an RNA genome that is reverse transcribed into DNA.
+- [W2.180] The resulting DNA can be merged with the DNA genome of the host cell.
+- [W2.181] The main enzyme responsible for synthesis of DNA from an RNA template is called reverse transcriptase.
+- [W2.182] In the case of HIV, reverse transcriptase is responsible for synthesizing a complementary DNA strand (cDNA) to the viral RNA genome.
+- [W2.183] The enzyme ribonuclease H then digests the RNA strand, and reverse transcriptase synthesises a complementary strand of DNA to form a double helix DNA structure (cDNA).
+- [W2.184] The cDNA is integrated into the host cell's genome by the enzyme integrase, which causes the host cell to generate viral proteins that reassemble into new viral particles.
+- [W2.185] In HIV, subsequent to this, the host cell undergoes programmed cell death, or apoptosis, of T cells.
+- [W2.186] However, in other retroviruses, the host cell remains intact as the virus buds out of the cell.
+- [W2.187] Some eukaryotic cells contain an enzyme with reverse transcription activity called telomerase.
+- [W2.188] Telomerase carries an RNA template from which it synthesizes a telomere, a repeating sequence of DNA, to the end of linear chromosomes.
+- [W2.189] It is important because every time a linear chromosome is duplicated, it is shortened.
+- [W2.190] With the telomere at the ends of chromosomes, the shortening eliminates some of the non-essential, repeated sequence, rather than the protein-encoding DNA sequence farther away from the chromosome end.
+- [W2.191] Telomerase is often activated in cancer cells to enable cancer cells to duplicate their genomes indefinitely without losing important protein-coding DNA sequence.
+- [W2.192] Activation of telomerase could be part of the process that allows cancer cells to become immortal.
+- [W2.193] The immortalizing factor of cancer via telomere lengthening due to telomerase has been proven to occur in 90% of all carcinogenic tumors in vivo with the remaining 10% using an alternative telomere maintenance route called ALT or Alternative Lengthening of Telomeres.
+- [W2.194] Splicing – process of removing introns from precursor messenger RNA (pre-mRNA) to make messenger RNA (mRNA)
+- [W2.195] Interactive Java simulation of transcription initiation.
+- [W2.196] Archived 2011-07-22 at the Wayback Machine From Center for Models of Life Archived 2011-08-09 at the Wayback Machine at the Niels Bohr Institute.
+- [W2.197] Interactive Java simulation of transcription interference—a game of promoter dominance in bacterial virus.
+- [W2.198] Archived 2011-08-26 at the Wayback Machine From Center for Models of Life Archived 2011-08-09 at the Wayback Machine at the Niels Bohr Institute.
+- [W2.199] Virtual Cell Animation Collection, Introducing Transcription Archived 2021-04-14 at the Wayback Machine
+
+## [W3] Wikipedia: Translation (biology)
+https://en.wikipedia.org/w/index.php?title=Translation_(biology)&oldid=1377556947 · CC BY-SA 4.0 · usage: ai_input
+
+- [W3.1] Translation is the process in biological cells in which proteins are produced using RNA molecules as templates.
+- [W3.2] The generated protein is a sequence of amino acids determined by the sequence of nucleotides in the RNA.
+- [W3.3] The nucleotides are considered three at a time.
+- [W3.4] Each such triple results in the addition of one specific amino acid to the protein being generated.
+- [W3.5] The matching from nucleotide triple to amino acid is called the genetic code.
+- [W3.6] The translation is performed by a large complex of functional RNA and proteins called ribosomes.
+- [W3.7] The entire process is called gene expression.
+- [W3.8] In translation, messenger RNA (mRNA) is decoded in a ribosome, outside the nucleus, to produce a specific amino acid chain, or polypeptide.
+- [W3.9] The polypeptide later folds into an active protein and performs its functions in the cell.
+- [W3.10] The polypeptide can also start folding during protein synthesis.
+- [W3.11] The ribosome facilitates decoding by inducing the binding of complementary transfer RNA (TRNA) anticodon sequences to mRNA codons.
+- [W3.12] The TRNAs carry specific amino acids that are chained together into a polypeptide as the mRNA passes through and is "read" by the ribosome.
+- [W3.13] The three stages of translation are initiation, elongation, and termination.
+- [W3.14] The basic process of protein production is the addition of one amino acid at a time to the end of a forming polypeptide chain.
+- [W3.15] This operation is performed by a ribosome.
+- [W3.16] A ribosome is made up of two subunits, in the eukaryote a small (40S) subunit, and a large (60S) subunit.
+- [W3.17] These subunits come together before the translation of mRNA into a protein to provide a location for translation to be carried out and a polypeptide to be produced.
+- [W3.18] The choice of amino acid type to add is determined by a messenger RNA (mRNA) molecule.
+- [W3.19] Each amino acid added is matched to a three-nucleotide subsequence of the mRNA.
+- [W3.20] For each such triplet possible, the corresponding amino acid is accepted.
+- [W3.21] The successive amino acids added to the chain are matched to successive nucleotide triplets in the mRNA.
+- [W3.22] In this way, the sequence of nucleotides in the template mRNA chain determines the sequence of amino acids in the generated amino acid chain.
+- [W3.23] The addition of an amino acid occurs at the C-terminus of the peptide; thus, translation is said to be amine-to-carboxyl directed.
+- [W3.24] The mRNA carries genetic information encoded as a ribonucleotide sequence from the chromosomes to the ribosomes.
+- [W3.25] The ribonucleotides are "read" by translational machinery in a sequence of nucleotide triplets called codons.
+- [W3.26] Each of those triplets codes for a specific amino acid.
+- [W3.27] The ribosome molecules translate this code to a specific sequence of amino acids.
+- [W3.28] The ribosome is a multi subunit structure containing ribosomal RNA (TRNA) and proteins.
+- [W3.29] It is the "factory" where amino acids are assembled into proteins.
+- [W3.30] Transfer RNAs (TRNAs) are small noncoding RNA chains (74–93 nucleotides) that transport amino acids to the ribosome.
+- [W3.31] The repertoire of TRNA genes varies widely between species, with some bacteria having between 20 and 30 genes while complex eukaryotes could have thousands.
+- [W3.32] TRNAs have a site for amino acid attachment, and a site called an anticodon.
+- [W3.33] The anticodon is an RNA triplet complementary to the mRNA triplet that codes for their cargo amino acid.
+- [W3.34] Aminoacyl TRNA synthetases (enzymes) catalyze the bonding between specific TRNAs and the amino acids that their anticodon sequences call for.
+- [W3.35] The product of this reaction is an aminoacyl-TRNA.
+- [W3.36] The amino acid is joined by its carboxyl group to the 3' OH of the TRNA by an ester bond.
+- [W3.37] When the TRNA has an amino acid linked to it, the TRNA is termed "charged".
+- [W3.38] Aminoacyl-TRNA synthetases that mispair TRNAs with the wrong amino acids can produce mischarged aminoacyl-TRNAs, which can result in inappropriate amino acids at the respective position in the protein.
+- [W3.39] This "mistranslation" of the genetic code naturally occurs at low levels in most organisms, but certain cellular environments cause an increase in permissive mRNA decoding, sometimes to the benefit of the cell.
+- [W3.40] The ribosome has two binding sites for TRNA.
+- [W3.41] They are the aminoacyl site (abbreviated A), and the peptidyl site/ exit site (abbreviated P/E).
+- [W3.42] Concerning the mRNA, the three sites are oriented 5' to 3' E-P-A, because ribosomes move toward the 3' end of mRNA.
+- [W3.43] The A-site binds the incoming TRNA with the complementary codon on the mRNA.
+- [W3.44] The P/E-site holds the TRNA with the growing polypeptide chain.
+- [W3.45] When an aminoacyl-TRNA initially binds to its corresponding codon on the mRNA, it is in the A site.
+- [W3.46] Then, a peptide bond forms between the amino acid of the TRNA in the A site and the amino acid of the charged TRNA in the P/E site.
+- [W3.47] The growing polypeptide chain is transferred to the TRNA in the A site.
+- [W3.48] Translocation occurs, moving the TRNA to the P/E site, now without an amino acid; the TRNA that was in the A site, now charged with the polypeptide chain, is moved to the P/E site and the uncharged TRNA leaves, and another aminoacyl-TRNA enters the A site to repeat the process.
+- [W3.49] After the new amino acid is added to the chain, and after the TRNA is released out of the ribosome and into the cytosol, the energy provided by the hydrolysis of a GTP bound to the translocase EEF2  moves the ribosome down one codon towards the 3' end.
+- [W3.50] The energy required for translation of proteins is significant.
+- [W3.51] For a protein containing n amino acids, the number of high-energy phosphate bonds required to translate it is 4n-1.
+- [W3.52] The rate of translation varies; it is significantly higher in prokaryotic cells (up to 17–21 amino acid residues per second) than in eukaryotic cells (up to 6–9 amino acid residues per second).
+- [W3.53] Translation proceeds in four phases: initiation, elongation, termination, and recycling.
+- [W3.54] Initiation involves the small subunit of the ribosome binding to the 5' end of mRNA with the help of initiation factors.
+- [W3.55] The ribosome and its associated factors assemble and bind to an mRNA.
+- [W3.56] The first TRNA is attached at the start codon.
+- [W3.57] This process is defined as either cap-dependent, in which the ribosome binds initially at the 5' cap and then travels to the stop codon, or as cap-independent, where the ribosome does not initially bind the 5' cap.
+- [W3.58] The 5' cap is added when the nascent pre-mRNA is about 20 nucleotides long.
+- [W3.59] Initiation of translation usually involves the interaction of certain key proteins, the initiation factors, with a special tag bound to the 5'-end of an mRNA molecule, the 5' cap, as well as with the 5' UTR.
+- [W3.60] These proteins bind the small (40S) ribosomal subunit and hold the mRNA in place.
+- [W3.61] eIF3 is associated with the 40S ribosomal subunit and plays a role in keeping the large (60S) ribosomal subunit from prematurely binding. eIF3 also interacts with the eIF4F complex, which consists of three other initiation factors: eIF4A, eIF4E, and eIF4G. eIF4G is a scaffolding protein that directly associates with both eIF3 and the other two components. eIF4E is the cap-binding protein.
+- [W3.62] Binding of the cap by eIF4E is often considered the rate-limiting step of cap-dependent initiation, and the concentration of eIF4E is a regulatory nexus of translational control.
+- [W3.63] Certain viruses cleave a portion of eIF4G that binds eIF4E, thus preventing cap-dependent translation to hijack the host machinery in favor of the viral (cap-independent) messages. eIF4A is an ATP-dependent RNA helicase that aids the ribosome by resolving certain secondary structures formed along the mRNA transcript.
+- [W3.64] Recent structural biology results also indicated that a second eIF4A protein can simultaneously associate with the initiation complex, specifically interacting with eIF3.
+- [W3.65] The poly(A)-binding protein (PABP) also associates with the eIF4F complex via eIF4G, and binds the poly-A tail of most eukaryotic mRNA molecules.
+- [W3.66] This protein has been implicated in playing a role in circularization of the mRNA during translation.
+- [W3.67] This 43S preinitiation complex (43S PIC) accompanied by the protein factors moves along the mRNA chain toward its 3'-end, in a process known as 'scanning', to reach the start codon (typically AUG).
+- [W3.68] In eukaryotes and archaea, the amino acid encoded by the start codon is methionine.
+- [W3.69] The Met-charged initiator tRNA (Met-tRNAiMet) is brought to the P-site of the small ribosomal subunit by eukaryotic initiation factor 2 (eIF2).
+- [W3.70] It hydrolyzes GTP, and signals for the dissociation of several factors from the small ribosomal subunit, eventually leading to the association of the large subunit (or the 60S subunit).
+- [W3.71] The complete ribosome (80S) then commences translation elongation.
+- [W3.72] Regulation of protein synthesis is partly influenced by phosphorylation of eIF2 (via the α subunit), which is a part of the eIF2-GTP-Met-tRNAiMet ternary complex (eIF2-TC).
+- [W3.73] When large numbers of eIF2 are phosphorylated, protein synthesis is inhibited.
+- [W3.74] This occurs under amino acid starvation or after viral infection.
+- [W3.75] However, a small fraction of this initiation factor is naturally phosphorylated.
+- [W3.76] Another regulator is 4EBP, which binds to the initiation factor eIF4E and inhibits its interactions with eIF4G, thus preventing cap-dependent initiation.
+- [W3.77] To oppose the effects of 4EBP, growth factors phosphorylate 4EBP, reducing its affinity for eIF4E and permitting protein synthesis.
+- [W3.78] While protein synthesis is globally regulated by modulating the expression of key initiation factors as well as the number of ribosomes, individual mRNAs can have different translation rates due to the presence of regulatory sequence elements.
+- [W3.79] This has been shown to be important in a variety of settings including yeast meiosis and ethylene response in plants.
+- [W3.80] In addition, recent work in yeast and humans suggest that evolutionary divergence in cis-regulatory sequences can impact translation regulation.
+- [W3.81] Additionally, RNA helicases such as DHX29 and Ded1/DDX3 participate in the process of translation initiation, especially for mRNAs with structured 5'UTRs.
+- [W3.82] Cap-independent initiation
+- [W3.83] The best-studied example of cap-independent translation initiation in eukaryotes uses the internal ribosome entry site (IRES).
+- [W3.84] Unlike cap-dependent translation, cap-independent translation does not require a 5' cap to initiate scanning from the 5' end of the mRNA until the start codon.
+- [W3.85] The ribosome can localize to the start site by direct binding, initiation factors, and/or ITAFs (IRES trans-acting factors) bypassing the need to scan the entire 5' UTR.
+- [W3.86] This method of translation is important in conditions that require the translation of specific mRNAs during cellular stress, when overall translation is reduced.
+- [W3.87] Examples include factors responding to apoptosis and stress-induced responses.
+- [W3.88] Elongation depends on elongation factors.
+- [W3.89] At the end of the initiation step, the mRNA is positioned so that the next codon can be translated during the elongation stage of protein synthesis.
+- [W3.90] The initiator TRNA occupies the P site in the ribosome, and the A site is ready to receive an aminoacyl-TRNA.
+- [W3.91] During chain elongation, each additional amino acid is added to the nascent polypeptide chain in a three-step micro cycle.
+- [W3.92] The steps in this micro cycle are (1) positioning the correct aminoacyl-TRNA in the A site of the ribosome, which is brought into that site by eEF1, (2) forming the peptide bond, and (3) shifting the mRNA by one codon relative to the ribosome with the help of eEF2.
+- [W3.93] Unlike bacteria, in which translation initiation occurs as soon as the 5' end of an mRNA is synthesized, in eukaryotes, such tight coupling between transcription and translation is not possible because transcription and translation are carried out in separate compartments of the cell (the nucleus and cytoplasm).
+- [W3.94] Eukaryotic mRNA precursors must be processed in the nucleus (e.g., capping, polyadenylation, splicing) in ribosomes before they are exported to the cytoplasm for translation.
+- [W3.95] Translation can also be affected by ribosomal pausing, which can trigger endo nucleolytic attack of the TRNA, a process termed mRNA no-go decay.
+- [W3.96] Ribosomal pausing also aids co-translational folding of the nascent polypeptide on the ribosome, and delays protein translation while it is encoding TRNA.
+- [W3.97] This can trigger ribosomal frameshifting.
+- [W3.98] The last TRNA validated by the small ribosomal subunit (accommodation) transfers the amino acid.
+- [W3.99] It carries to the large ribosomal subunit which binds it to one of the preceding admitted TRNA (transpeptidation).
+- [W3.100] The ribosome then moves to the next mRNA codon to continue the process (translocation), creating an amino acid chain.
+- [W3.101] In bacterial translation, and archaeal translation, translation occurs in the cytosol, where the ribosome binds to the mRNA.
+- [W3.102] In eukaryotes, translation can occur in the cytoplasm and also across the membrane of the endoplasmic reticulum through a process called co-translational translocation.
+- [W3.103] In co-translational translocation, the entire ribosome–mRNA complex binds to the outer membrane of the rough endoplasmic reticulum (ER), and the new protein is synthesized and released into the ER; the newly created polypeptide can be immediately secreted or stored inside the ER for future vesicle transport and secretion outside the cell.
+- [W3.104] Many types of transcribed RNA, such as TRNA, ribosomal RNA, and small nuclear RNA, do not undergo a translation into proteins.
+- [W3.105] Several antibiotics act by inhibiting translation.
+- [W3.106] These include Anisomycin, cycloheximide, chloramphenicol, tetracycline, streptomycin, erythromycin, and puromycin.
+- [W3.107] Prokaryotic ribosomes have a different structure from that of eukaryotic ribosomes, and thus antibiotics can specifically target bacterial infections without harming a eukaryotic host's cells.
+- [W3.108] Termination of elongation depends on the release factor eRF1 that recognizes all three stop codons.
+- [W3.109] When a stop codon is reached, termination of the polypeptide occurs the ribosome is disassembled and the completed polypeptide is released. eRF3 is a ribosome-dependent GTPase that helps eRF1 release the completed polypeptide.
+- [W3.110] The human genome encodes a few genes whose mRNA stop codons are surprisingly leaky: In these genes, termination of translation is inefficient due to special RNA bases in the vicinity of the stop codon.
+- [W3.111] Leaky termination in these genes leads to translational readthrough of up to 10% of the stop codons of these genes.
+- [W3.112] Some of these genes encode functional protein domains in their readthrough extension so that new protein isoforms can arise.
+- [W3.113] This process has been termed 'functional translational readthrough'.
+- [W3.114] When the A site of the ribosome is occupied by a stop codon (UAA, UAG, or UGA) on the mRNA, creating the primary structure of a protein. tRNA usually cannot recognize or bind to stop codons.
+- [W3.115] Instead, the stop codon induces the binding of a release factor protein (RF1 & RF2) that prompts the disassembly of the entire ribosome/mRNA complex by the hydrolysis of the polypeptide chain from the peptidyl transferase center  of the ribosome.
+- [W3.116] Drugs or special sequence motifs on the mRNA can change the ribosomal structure so that near-cognate TRNAs are bound to the stop codon instead of the release factors.
+- [W3.117] In such cases of 'translational readthrough', translation continues until the ribosome encounters the next stop codon.
+- [W3.118] When the synthesise protein is released the complex ribosome disassembles into its subunits for recycling.
+- [W3.119] Even though the ribosomes are usually considered accurate and processive machines, the translation process is subject to errors that can lead either to the synthesis of erroneous proteins or to the premature abandonment of translation, either because a TRNA couples to a wrong codon or because a TRNA is coupled to the wrong amino acid.
+- [W3.120] The rate of error in synthesizing proteins has been estimated to be between 1 in 105 and 1 in 103 misincorporated amino acids, depending on the experimental conditions.
+- [W3.121] The rate of premature translation abandonment, instead, has been estimated to be of the order of magnitude of 10−4 events per translated codon.
+- [W3.122] Translation is one of the key energy consumers in cells, hence it is strictly regulated.
+- [W3.123] Numerous mechanisms have evolved that control and regulate translation in eukaryotes as well as prokaryotes.
+- [W3.124] Regulation of translation can impact the global rate of protein synthesis which is closely coupled to the metabolic and proliferative state of a cell.
+- [W3.125] To study this process, scientists have used a wide variety of methods such as structural biology, analytical chemistry (mass-spectrometry based), imaging of reporter mRNA translation (in which the translation of a mRNA is linked to an output, such as luminescence or fluorescence), detecting it via radioactive amino acid incorporation, and next-generation sequencing based methods.
+- [W3.126] Other methods such as toeprinting assay can also be used to determine the location of ribosomes of a particular mRNA in vitro, and footprints of other proteins regulating translation.
+- [W3.127] To delve deeper into this intricate process, scientists typically use a technique known as ribosome profiling.
+- [W3.128] This method enables researchers to take a snapshot of the translatome, showing which parts of the mRNA are being translated into proteins by ribosomes at a given time.
+- [W3.129] Ribosome profiling provides valuable insights into translation dynamics, revealing the complex interplay between gene sequence, mRNA structure, and translation regulation.
+- [W3.130] Expanding on this concept,  single-cell ribosome profiling, is a technique that allows the study of the translation process at the resolution of individual cells.
+- [W3.131] Single-cell ribosome profiling has revealed that genetic differences and their subsequent expression as mRNAs can also impact translation rate in an RNA-specific manner.
+- [W3.132] Single-cell ribosome profiling has the potential to shed light on the heterogeneous nature of cells, leading to a more nuanced understanding of how translation regulation can impact cell behavior, metabolic state, and responsiveness to various stimuli or conditions.
+- [W3.133] Incorporating amino acids that deviate from the genetic code predictions is usually detected as amino acid substitutions in proteins and peptides.
+- [W3.134] Such alternate RNA decoding results in stable and abundant proteins in both mouse and human tissues.
+- [W3.135] The abundance of such substitutions is determined by multiple mechanisms, including codon frequency, codon–anticodon mismatches, RNA modifications, and protein stability.
+- [W3.136] In some cells certain amino acids can be depleted and thus affect translation efficiency.
+- [W3.137] For instance, activated T cells secrete interferon-γ which triggers intracellular tryptophan shortage by upregulating the indoleamine 2,3-dioxygenase 1 (IDO1) enzyme.
+- [W3.138] Despite tryptophan depletion, in-frame protein synthesis continues across tryptophan codons.
+- [W3.139] This is achieved by incorporation of phenylalanine instead of tryptophan.
+- [W3.140] The resulting peptides are called W>F "substitutiant".
+- [W3.141] Such W>F substitutiant are abundant in certain cancer types and have been associated with increased IDO1 expression.
+- [W3.142] Functionally, W>F substitutiants can impair protein activity.
+- [W3.143] Translational control is critical for the development and survival of cancer.
+- [W3.144] Cancer cells must frequently regulate the translation phase of gene expression, though it is not fully understood why translation is targeted over steps like transcription.
+- [W3.145] While cancer cells often have genetically altered translation factors, it is much more common for cancer cells to modify the levels of existing translation factors.
+- [W3.146] Several major oncogenic signaling pathways, including the RAS–MAPK, PI3K/AKT/mTOR, MYC, and WNT–β-catenin pathways, ultimately reprogram the genome via translation.
+- [W3.147] Cancer cells also control translation to adapt to cellular stress.
+- [W3.148] During stress, the cell translates mRNAs that can mitigate the stress and promote survival.
+- [W3.149] An example of this is the expression of AMPK in various cancers; its activation triggers a cascade that can ultimately allow the cancer to escape apoptosis (programmed cell death) triggered by nutrition deprivation.
+- [W3.150] Future cancer therapies may involve disrupting the translation machinery of the cell to counter the downstream effects of cancer.
+- [W3.151] Mathematical modeling of translation
+- [W3.152] The transcription-translation process description, mentioning only the most basic "elementary" processes, consists of:
+- [W3.153] production of mRNA molecules (including splicing),
+- [W3.154] initiation of these molecules with help of initiation factors (e.g., the initiation can include the circularization step though it is not universally required),
+- [W3.155] initiation of translation, recruiting the small ribosomal subunit,
+- [W3.156] assembly of full ribosomes,
+- [W3.157] elongation, (i.e. movement of ribosomes along mRNA with production of protein),
+- [W3.158] termination of translation,
+- [W3.159] degradation of mRNA molecules,
+- [W3.160] The process of amino acid building to create protein in translation is a subject of various physic models for a long time starting from the first detailed kinetic models such as or others taking into account stochastic aspects of translation and using computer simulations.
+- [W3.161] Many chemical kinetics-based models of protein synthesis have been developed and analyzed in the last four decades.
+- [W3.162] Beyond chemical kinetics, various modeling formalisms such as Totally Asymmetric Simple Exclusion Process, Probabilistic Boolean Networks, Petri Nets and max-plus algebra have been applied to model the detailed kinetics of protein synthesis or some of its stages.
+- [W3.163] A basic model of protein synthesis that takes into account all eight 'elementary' processes has been developed, following  the paradigm that "useful models are simple and extendable".
+- [W3.164] The simplest model M0 is represented by the reaction kinetic mechanism (Figure M0).
+- [W3.165] It was generalise to include 40S, 60S and initiation factors (IF) binding (Figure M1').
+- [W3.166] It was extended further to include effect of microRNA on protein synthesis.
+- [W3.167] Most of models in this hierarchy can be solved analytically.
+- [W3.168] These solutions were used to extract 'kinetic signatures' of different specific mechanisms of synthesis regulation.
+- [W3.169] It is also possible to translate either by hand (for short sequences) or by computer (after first programming one appropriately, see section below); this allows biologists and chemists to draw out the primary amino acid sequence of the encoded protein on paper.
+- [W3.170] First, convert each template DNA base to its RNA complement (note that the complement of A is now U), as shown below.
+- [W3.171] Note that the template strand of the DNA is the one the RNA is polymerized against; the other DNA strand would be the same as the RNA, but with thymine instead of uracil.
+- [W3.172] Then split the RNA into triplets (groups of three bases).
+- [W3.173] Note that there are 3 translation "windows", or reading frames, depending on where you start reading the code.
+- [W3.174] Finally, use the table at Genetic code to translate the above into a structural formula as used in chemistry.
+- [W3.175] This will give the primary structure of the protein.
+- [W3.176] However, proteins tend to fold, depending in part on hydrophilic and hydrophobic segments along the chain.
+- [W3.177] Secondary structure can often still be guessed, but the proper tertiary structure is often very hard to determine.
+- [W3.178] In order to determine the precise 3D structure and atomic interactions, Structural biology and several other Biophysics methods are used.
+- [W3.179] Whereas other aspects such as the 3D structure, called tertiary structure, of protein can only be predicted using sophisticated algorithms, the amino acid sequence, called primary structure, can be determined solely from the nucleic acid sequence with the aid of a translation table.
+- [W3.180] This approach may not give the correct amino acid composition of the protein, in particular if unconventional amino acids such as selenocysteine are incorporated into the protein, which is coded for by a conventional stop codon in combination with a downstream hairpin (SElenoCysteine Insertion Sequence, or SECIS).
+- [W3.181] There are many computer programs capable of translating a DNA/RNA sequence into a protein sequence.
+- [W3.182] Normally this is performed using the Standard Genetic Code, however, few programs can handle all the "special" cases, such as the use of the alternative initiation codons which are biologically significant.
+- [W3.183] For instance, the rare alternative start codon CTG codes for Methionine when used as a start codon, and for Leucine in all other positions.
+- [W3.184] Example: Condensed translation table for the Standard Genetic Code (from the NCBI Taxonomy webpage).
+- [W3.185] AAs    = FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG
+- [W3.186] Starts = ---M---------------M---------------M----------------------------
+- [W3.187] Base1  = TTTTTTTTTTTTTTTTCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGG
+- [W3.188] Base2  = TTTTCCCCAAAAGGGGTTTTCCCCAAAAGGGGTTTTCCCCAAAAGGGGTTTTCCCCAAAAGGGG
+- [W3.189] Base3  = TCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAG
+- [W3.190] The "Starts" row indicate three start codons, UUG, CUG, and the very common AUG.
+- [W3.191] It also indicates the first amino acid residue when interpreted as a start: in this case it is all methionine.
+- [W3.192] Even when working with ordinary eukaryotic sequences such as the Yeast genome, it is often desired to be able to use alternative translation tables—namely for translation of the mitochondrial genes.
+- [W3.193] Currently the following translation tables are defined by the NCBI Taxonomy Group for the translation of the sequences in GenBank:
+- [W3.194] Virtual Cell Animation Collection: Introducing Translation
+- [W3.195] Translate tool (from DNA or RNA sequence)
+
+## [W4] Wikipedia: Genetic code
+https://en.wikipedia.org/w/index.php?title=Genetic_code&oldid=1381521675 · CC BY-SA 4.0 · usage: ai_input
+
+- [W4.1] Genetic code is a set of rules used by living cells to translate information encoded within genetic material (DNA or RNA sequences of nucleotide triplets or codons) into proteins.
+- [W4.2] Translation is accomplished by the ribosome, which links proteinogenic amino acids in an order specified by messenger RNA (mRNA), using transfer RNA (tRNA) molecules to carry amino acids and to read the mRNA three nucleotides at a time.
+- [W4.3] The genetic code is highly similar among all organisms and can be expressed in a simple table with 64 entries.
+- [W4.4] The codons specify which amino acid will be added next during protein biosynthesis.
+- [W4.5] With some exceptions, a three-nucleotide codon in a nucleic acid sequence specifies a single amino acid.
+- [W4.6] The vast majority of genes are encoded with a single scheme (see the RNA codon table).
+- [W4.7] That scheme is often called the canonical or standard genetic code, or simply the genetic code, though variant codes (such as in mitochondria) exist.
+- [W4.8] Efforts to understand how proteins are encoded began after DNA's structure was discovered in 1953.
+- [W4.9] The key discoverers, English biophysicist Francis Crick and American biologist James Watson, working together at the Cavendish Laboratory of the University of Cambridge, hypothesised that information flows from DNA and that there is a link between DNA and proteins.
+- [W4.10] Soviet-American physicist George Gamow was the first to give a workable scheme for protein synthesis from DNA.
+- [W4.11] He postulated that sets of three bases (triplets) must be employed to encode the 20 standard amino acids used by living cells to build proteins, which would allow a maximum of 43 = 64 amino acids (all permutations of the four bases, read three at a time).
+- [W4.12] He named this DNA–protein interaction (the original genetic code) as the "diamond code".
+- [W4.13] In 1954, Gamow created an informal scientific organisation the RNA Tie Club, as suggested by Watson, for scientists of different persuasions who were interested in how proteins were synthesised from genes.
+- [W4.14] However, the club could have only 20 permanent members to represent each of the 20 amino acids; and four additional honorary members to represent the four nucleotides of DNA.
+- [W4.15] The first scientific contribution of the club, later recorded as "one of the most important unpublished articles in the history of science" and "the most famous unpublished paper in the annals of molecular biology", was made by Crick.
+- [W4.16] Crick presented a type-written paper titled  "On Degenerate Templates and the Adaptor Hypothesis: A Note for the RNA Tie Club" to the members of the club in January 1955, which "totally changed the way we thought about protein synthesis", as Watson recalled.
+- [W4.17] The hypothesis states that the triplet code was not passed on to amino acids as Gamow thought, but carried by a different molecule, an adaptor, that interacts with amino acids.
+- [W4.18] The adaptor was later identified as tRNA.
+- [W4.19] The Crick, Brenner, Barnett and Watts-Tobin experiment first demonstrated that codons consist of three DNA bases.
+- [W4.20] Marshall Nirenberg and J. Heinrich Matthaei were the first to reveal the nature of a codon in 1961.
+- [W4.21] They used a cell-free system to translate a poly-uracil RNA sequence (i.e., UUUUU...) and discovered that the polypeptide that they had synthesized consisted of only the amino acid phenylalanine.
+- [W4.22] They thereby deduced that the codon UUU specified the amino acid phenylalanine.
+- [W4.23] This was followed by experiments in Severo Ochoa's laboratory that demonstrated that the poly-adenine RNA sequence (AAAAA...) coded for the polypeptide poly-lysine and that the poly-cytosine RNA sequence (CCCCC...) coded for the polypeptide poly-proline.
+- [W4.24] Therefore, the codon AAA specified the amino acid lysine, and the codon CCC specified the amino acid proline.
+- [W4.25] Using various copolymers most of the remaining codons were then determined.
+- [W4.26] Subsequent work by Har Gobind Khorana identified the rest of the genetic code.
+- [W4.27] Shortly thereafter, Robert W. Holley determined the structure of transfer RNA (tRNA), the adapter molecule that facilitates the process of translating RNA into protein.
+- [W4.28] This work was based upon Ochoa's earlier studies, yielding the latter the Nobel Prize in Physiology or Medicine in 1959 for work on the enzymology of RNA synthesis.
+- [W4.29] Extending this work, Nirenberg and Philip Leder revealed the code's triplet nature and deciphered its codons.
+- [W4.30] In these experiments, various combinations of mRNA were passed through a filter that contained ribosomes, the components of cells that translate RNA into protein.
+- [W4.31] Unique triplets promoted the binding of specific tRNAs to the ribosome.
+- [W4.32] Leder and Nirenberg were able to determine the sequences of 54 out of 64 codons in their experiments.
+- [W4.33] Khorana, Holley and Nirenberg received the Nobel Prize (1968) for their work.
+- [W4.34] The three stop codons were named by discoverers Richard Epstein and Charles Steinberg.
+- [W4.35] "Amber" was named after their friend Harris Bernstein, whose last name means "amber" in German.
+- [W4.36] The other two stop codons were named "ochre" and "opal" in order to keep the "color names" theme.
+- [W4.37] Expanded genetic codes (synthetic biology)
+- [W4.38] In a broad academic audience, the concept of the evolution of the genetic code from its original ambiguous form to a well-defined ("frozen") code with the repertoire of 20 (+2) canonical amino acids is widely accepted.
+- [W4.39] However, there are different opinions, concepts, approaches and ideas regarding how to best reproduce this process experimentally.
+- [W4.40] Even models are proposed that predict "entry points" for synthetic amino acid invasion of the genetic code.
+- [W4.41] Since 2001, 40 non-natural amino acids have been added into proteins by creating a unique codon (recoding) and a corresponding transfer-RNA:aminoacyl – tRNA-synthetase pair to encode it with diverse physicochemical and biological properties in order to be used as a tool to exploring protein structure and function or to create novel or enhanced proteins.
+- [W4.42] H. Murakami and M. Sisido extended some codons to have four and five bases.
+- [W4.43] Steven A. Benner constructed a functional 65th (in vivo) codon.
+- [W4.44] In 2015 N. Budisa, D. Söll and co-workers reported the full substitution of all 20,899 tryptophan residues (UGG codons) with unnatural thienopyrrole-alanine in the genetic code of the bacterium E. coli.
+- [W4.45] In 2016 the first stable semisynthetic organism was created.
+- [W4.46] It was a (single cell) bacterium with two synthetic bases (called X and Y).
+- [W4.47] The bases survived cell division.
+- [W4.48] In 2017, researchers in South Korea reported that they had engineered a mouse with an extended genetic code that can produce proteins with unnatural amino acids.
+- [W4.49] In May 2019, researchers reported the creation of a new "Syn61" strain of the E. coli bacteria.
+- [W4.50] This strain has a fully synthetic genome that is refactored (all overlaps expanded), recoded (removing the use of three out of 64 codons completely), and further modified to remove the now unnecessary tRNAs and release factors.
+- [W4.51] It is fully viable and grows 1.6× slower than its wild-type counterpart "MDS42".
+- [W4.52] In 2025, researchers reported a new "Syn57" strain, which removes the use of 7 out of 64 codons completely.
+- [W4.53] A reading frame is defined by the initial triplet of nucleotides from which translation starts.
+- [W4.54] It sets the frame for a run of successive, non-overlapping codons, which is known as an "open reading frame" (ORF).
+- [W4.55] For example, the string 5'-AAATGAACG-3' (see figure), if read from the first position, contains the codons AAA, TGA, and ACG; if read from the second position, it contains the codons AAT and GAA; and if read from the third position, it contains the codons ATG and AAC.
+- [W4.56] Every sequence can, thus, be read in its 5' → 3' direction in three reading frames, each producing a possibly distinct amino acid sequence: in the given example, Lys (K)-Trp (W)-Thr (T), Asn (N)-Glu (E), or Met (M)-Asn (N), respectively (when translating with the vertebrate mitochondrial code).
+- [W4.57] When DNA is double-stranded, six possible reading frames are defined, three in the forward orientation on one strand and three reverse on the opposite strand.
+- [W4.58] Protein-coding frames are defined by a start codon, usually the first AUG codon in the RNA, (ATG in DNA) sequence.
+- [W4.59] In eukaryotes, open reading frames in exons are often interrupted by introns.
+- [W4.60] Translation starts with a chain-initiation codon or start codon.
+- [W4.61] The start  codon alone is not sufficient to begin the process.
+- [W4.62] Nearby sequences such as the Shine-Dalgarno sequence in E. coli and initiation factors are also required to start translation.
+- [W4.63] The most common start codon is AUG, which is read as methionine or as formylmethionine (in bacteria, mitochondria, and plastids).
+- [W4.64] Alternative start codons depending on the organism include "GUG" or "UUG"; these codons normally represent valine and leucine, respectively, but as start codons they are translated as methionine or formylmethionine.
+- [W4.65] The three stop codons have names: UAG is amber, UGA is opal (sometimes also called umber), and UAA is ochre.
+- [W4.66] Stop codons are also called "termination" or "nonsense" codons.
+- [W4.67] They signal release of the nascent polypeptide from the ribosome because no cognate tRNA has anticodons complementary to these stop signals, allowing a release factor to bind to the ribosome instead.
+- [W4.68] During the process of DNA replication, errors occasionally occur in the polymerization of the second strand.
+- [W4.69] These errors, mutations, can affect an organism's phenotype, especially if they occur within the protein coding sequence of a gene.
+- [W4.70] Error rates are typically 1 error in every 10–100 million bases—due to the "proofreading" ability of DNA polymerases.
+- [W4.71] Missense mutations and nonsense mutations are examples of point mutations that  can cause genetic diseases such as sickle-cell disease and thalassemia respectively.
+- [W4.72] Clinically important missense mutations generally change the properties of the coded amino acid residue among basic, acidic, polar or non-polar states, whereas nonsense mutations result in a stop codon.
+- [W4.73] Mutations that disrupt the reading frame sequence by indels (insertions or deletions) of a non-multiple of 3 nucleotide bases are known as frameshift mutations.
+- [W4.74] These mutations usually result in a completely different translation from the original, and likely cause a stop codon to be read, which truncates the protein.
+- [W4.75] These mutations may impair the protein's function and are thus rare in in vivo protein-coding sequences.
+- [W4.76] One reason inheritance of frameshift mutations is rare is that, if the protein being translated is essential for growth under the selective pressures the organism faces, absence of a functional protein may cause death before the organism becomes viable.
+- [W4.77] Frameshift mutations may result in severe genetic diseases such as Tay–Sachs disease.
+- [W4.78] Although most mutations that change protein sequences are harmful or neutral, some mutations have benefits.
+- [W4.79] These mutations may enable the mutant organism to withstand particular environmental stresses better than wild type organisms, or reproduce more quickly.
+- [W4.80] In these cases a mutation will tend to become more common in a population through natural selection.
+- [W4.81] Viruses that use RNA as their genetic material have rapid mutation rates, which can be an advantage, since these viruses thereby evolve rapidly, and thus evade the immune system defensive responses.
+- [W4.82] In large populations of asexually reproducing organisms, for example, E. coli, multiple beneficial mutations may co-occur.
+- [W4.83] This phenomenon is called clonal interference and causes competition among the mutations.
+- [W4.84] Degeneracy is the redundancy of the genetic code.
+- [W4.85] This term was given by Bernfield and Nirenberg.
+- [W4.86] The genetic code has redundancy but no ambiguity (see the codon tables below for the full correlation).
+- [W4.87] For example, although codons GAA and GAG both specify glutamic acid (redundancy), neither specifies another amino acid (no ambiguity).
+- [W4.88] The codons encoding one amino acid may differ in any of their three positions.
+- [W4.89] For example, the amino acid leucine is specified by YUR or CUN (UUA, UUG, CUU, CUC, CUA, or CUG) codons (difference in the first or third position indicated using IUPAC notation), while the amino acid serine is specified by UCN or AGY (UCA, UCG, UCC, UCU, AGU, or AGC) codons (difference in the first, second, or third position).
+- [W4.90] A practical consequence of redundancy is that errors in the third position of the triplet codon cause only a silent mutation or an error that would not affect the protein because the hydrophilicity or hydrophobicity is maintained by equivalent substitution of amino acids; for example, a codon of NUN (where N = any nucleotide) tends to code for hydrophobic amino acids.
+- [W4.91] NCN yields amino acid residues that are small in size and moderate in hydropathicity; NAN encodes average size hydrophilic residues.
+- [W4.92] The genetic code is so well-structured for hydropathicity that a mathematical analysis (Singular Value Decomposition) of 12 variables (4 nucleotides x 3 positions) yields a remarkable correlation (C = 0.95) for predicting the hydropathicity of the encoded amino acid directly from the triplet nucleotide sequence, without translation.
+- [W4.93] Note in the table, below, eight amino acids are not affected at all by mutations at the third position of the codon, whereas in the figure above, a mutation at the second position is likely to cause a radical change in the physicochemical properties of the encoded amino acid.
+- [W4.94] Nevertheless, changes in the first position of the codons are more important than changes in the second position on a global scale.
+- [W4.95] The reason may be that charge reversal (from a positive to a negative charge or vice versa) can only occur upon mutations in the first position of certain codons, but not upon changes in the second position of any codon.
+- [W4.96] Such charge reversal may have dramatic consequences for the structure or function of a protein.
+- [W4.97] This aspect may have been largely underestimated by previous studies.
+- [W4.98] The frequency of codons, also known as codon usage bias, can vary from species to species with functional implications for the control of translation.
+- [W4.99] The codon varies by organism; for example, most common proline codon in E. coli is CCG, whereas in humans this is the least used proline codon.
+- [W4.100] In some proteins, non-standard amino acids are substituted for standard stop codons, depending on associated signal sequences in the messenger RNA.
+- [W4.101] For example, UGA can code for selenocysteine and UAG can code for pyrrolysine.
+- [W4.102] Selenocysteine came to be seen as the 21st amino acid, and pyrrolysine as the 22nd.
+- [W4.103] Both selenocysteine and pyrrolysine may be present in the same organism.
+- [W4.104] Although the genetic code is normally fixed in an organism, the achaeal prokaryote Acetohalobium arabaticum can expand its genetic code from 20 to 21 amino acids (by including pyrrolysine) under different conditions of growth.
+- [W4.105] There was originally a simple and widely accepted argument that the genetic code should be universal: namely, that any variation in the genetic code would be lethal to the organism (although Crick had stated that viruses were an exception).
+- [W4.106] This is known as the "frozen accident" argument for the universality of the genetic code.
+- [W4.107] However, in his seminal paper on the origins of the genetic code in 1968, Francis Crick still stated that the universality of the genetic code in all organisms was an unproven assumption, and was probably not true in some instances.
+- [W4.108] He predicted that "The code is universal (the same in all organisms) or nearly so".
+- [W4.109] The first variation was discovered in 1979, by researchers studying human mitochondrial genes.
+- [W4.110] Many slight variants were discovered thereafter, including various alternative mitochondrial codes.
+- [W4.111] These minor variants for example involve translation of the codon UGA as tryptophan in Mycoplasma species, and translation of CUG as a serine rather than leucine in yeasts of the "CTG clade" (such as Candida albicans).
+- [W4.112] Because viruses must use the same genetic code as their hosts, modifications to the standard genetic code could interfere with viral protein synthesis or functioning.
+- [W4.113] However, viruses such as totiviruses have adapted to the host's genetic code modification.
+- [W4.114] In bacteria and archaea, GUG and UUG are common start codons.
+- [W4.115] In rare cases, certain proteins may use alternative start codons.
+- [W4.116] Surprisingly, variations in the interpretation of the genetic code exist also in human nuclear-encoded genes: In 2016, researchers studying the translation of malate dehydrogenase found that in about 4% of the mRNAs encoding this enzyme the stop codon is naturally used to encode the amino acids tryptophan and arginine.
+- [W4.117] This type of recoding is induced by a high-readthrough stop codon context and it is referred to as functional translational readthrough.
+- [W4.118] Despite these differences, all known naturally occurring codes are very similar.
+- [W4.119] The coding mechanism is the same for all organisms: three-base codons, tRNA, ribosomes, single direction reading and translating single codons into single amino acids.
+- [W4.120] The most extreme variations occur in certain ciliates where the meaning of stop codons depends on their position within mRNA.
+- [W4.121] When close to the 3' end they act as terminators while in internal positions they either code for amino acids as in Condylostoma magnum or trigger ribosomal frameshifting as in Euplotes.
+- [W4.122] The origins and variation of the genetic code, including the mechanisms behind the evolvability of the genetic code, have been widely studied, and some studies have been done experimentally evolving the genetic code of some organisms.
+- [W4.123] Variant genetic codes used by an organism can be inferred by identifying highly conserved genes encoded in that genome, and comparing its codon usage to the amino acids in homologous proteins of other organisms.
+- [W4.124] For example, the program FACIL infers a genetic code by searching which amino acids in homologous protein domains are most often aligned to every codon.
+- [W4.125] The resulting amino acid (or stop codon) probabilities for each codon are displayed in a genetic code logo.
+- [W4.126] As of January 2022, the most complete survey of genetic codes is done by Shulgina and Eddy, who screened 250,000 prokaryotic genomes using their Codetta tool.
+- [W4.127] This tool uses a similar approach to FACIL with a larger Pfam database.
+- [W4.128] Despite the NCBI already providing 27 translation tables, the authors were able to find new 5 genetic code variations (corroborated by tRNA mutations) and correct several misattributions.
+- [W4.129] Codetta was later used to analyze genetic code change in ciliates.
+- [W4.130] The genetic code is a key part of the history of life.
+- [W4.131] Under the RNA world hypothesis, self-replicating RNA molecules preceded significant use of proteins.
+- [W4.132] Under the nucleopeptide world hypothesis, significant use of peptides preceded the genetic code and was concurrent with early life's sophisticated use of RNA.
+- [W4.133] Transfer RNA molecules appear to have evolved before modern aminoacyl-tRNA synthetases.
+- [W4.134] It is possible that synthetases replaced an earlier system of ribozymes (RNA enzymes), or that amino acids were recognized by unique pockets in the tertiary structure of proto-tRNAs.
+- [W4.135] It is not known why the genetic code only uses L-amino acids and not D-amino acids.
+- [W4.136] Any evolutionary model for the code's origin must account for its robustness of encoded proteins to errors during DNA replication and during translation.
+- [W4.137] Many single nucleotide errors are synonymous, and those that are not tend to cause the substitution of a biochemically similar amino acid.
+- [W4.138] Even holding the structure of the code the same such that clusters of codons encode the same amino acid, which amino acids are encoded by which sets of codons is "one in a million" with respect to robustness.
+- [W4.139] Biochemically similar amino acids tend to share the same middle nucleotide, while synonymous changes generally happen at the third nucleotide.
+- [W4.140] Amino acids that share the same biosynthetic pathway tend to have the same first base in their codons.
+- [W4.141] This could be an evolutionary relic of an early, simpler genetic code with fewer amino acids that later evolved to code a larger set of amino acids.
+- [W4.142] It could also reflect steric and chemical properties that had another effect on the codon during its evolution.
+- [W4.143] Amino acids with similar physical properties also tend to have similar codons, reducing the problems caused by point mutations and mistranslations.
+- [W4.144] Three main hypotheses address the origin of the genetic code.
+- [W4.145] Many models belong to one of them or to a hybrid:
+- [W4.146] Random freeze: the genetic code was randomly created.
+- [W4.147] For example, early tRNA-like ribozymes may have had different affinities for amino acids, with codons emerging from another part of the ribozyme that exhibited random variability.
+- [W4.148] Once enough peptides were coded for, any major random change in the genetic code would have been lethal; hence it became "frozen".
+- [W4.149] Stereochemical affinity: the genetic code is a result of a high affinity between each amino acid and its codon or anti-codon; the latter option implies that pre-tRNA molecules matched their corresponding amino acids by this affinity.
+- [W4.150] Later during evolution, this matching was gradually replaced with matching by aminoacyl-tRNA synthetases.
+- [W4.151] Optimality: the genetic code continued to evolve after its initial creation, so that the current code maximizes some fitness function, usually some kind of error minimization.
+- [W4.152] Hypotheses have addressed a variety of scenarios:
+- [W4.153] Chemical principles govern specific RNA interaction with amino acids.
+- [W4.154] Experiments with aptamers showed that some amino acids have a selective chemical affinity for their codons.
+- [W4.155] Experiments showed that of 8 amino acids tested, 6 show some RNA triplet-amino acid association.
+- [W4.156] The genetic code grew from a simpler earlier code through a process of "biosynthetic expansion".
+- [W4.157] Primordial life "discovered" new amino acids (for example, as by-products of metabolism) and later incorporated some of these into the machinery of genetic coding.
+- [W4.158] Although much circumstantial evidence has been found to suggest that fewer amino acid types were used in the past, precise and detailed hypotheses about which amino acids entered the code in what order are controversial.
+- [W4.159] However, several studies have suggested that Gly, Ala, Asp, Val, Ser, Pro, Glu, Leu, Thr may belong to a group of early-addition amino acids, whereas Cys, Met, Tyr, Trp, His, Phe may belong to a group of later-addition amino acids.
+- [W4.160] An alternative analysis of amino acid usage in the Last Universal Common Ancestor concluded that the amino acids came in the following order: Val, Gly, Ile, Met, Ala, Thr, His, Glu, Cys, Pro, Lys, Ser, Asp, Leu, Asn, Arg, Phe, Tyr, Gln, Trp.
+- [W4.161] It was pointed out that the late appearance of sulfur-containing cysteine and methionine was concluded in part from their absence of the sulfur-free Miller–Urey experiment, that early life is believed to have used S-adenosyl methionine, and that while histidine is hard to make abiotically, it is straightforward to synthesize in an organism that already has sophisticated RNA and hence purine synthesis.
+- [W4.162] Natural selection has led to codon assignments of the genetic code that minimize the effects of mutations.
+- [W4.163] A recent hypothesis suggests that the triplet code was derived from codes that used longer than triplet codons (such as quadruplet codons).
+- [W4.164] Longer than triplet decoding would increase codon redundancy and would be more error resistant.
+- [W4.165] This feature could allow accurate decoding absent complex translational machinery such as the ribosome, such as before cells began making ribosomes.
+- [W4.166] Information channels: Information-theoretic approaches model the process of translating the genetic code into corresponding amino acids as an error-prone information channel.
+- [W4.167] The inherent noise (that is, the error) in the channel poses the organism with a fundamental question: how can a genetic code be constructed to withstand noise while accurately and efficiently translating information?
+- [W4.168] These "rate-distortion" models suggest that the genetic code originated as a result of the interplay of the three conflicting evolutionary forces: the needs for diverse amino acids, for error-tolerance and for minimal resource cost.
+- [W4.169] The code emerges at a transition when the mapping of codons to amino acids becomes nonrandom.
+- [W4.170] The code's emergence is governed by the topology defined by the probable errors and is related to the map coloring problem.
+- [W4.171] Game theory: Models based on signaling games combine elements of game theory, natural selection and information channels.
+- [W4.172] Such models have been used to suggest that the first polypeptides were likely short and had non-enzymatic function.
+- [W4.173] Game theoretic models suggested that the organization of RNA strings into cells may have been necessary to prevent "deceptive" use of the genetic code, i.e. preventing the ancient equivalent of viruses from overwhelming the RNA world.
+- [W4.174] Stop codons: Codons for translational stops are also an interesting aspect to the problem of the origin of the genetic code.
+- [W4.175] As an example for addressing stop codon evolution, it has been suggested that the stop codons are such that they are most likely to terminate translation early in the case of a frame shift error.
+- [W4.176] In contrast, some stereochemical molecular models explain the origin of stop codons as "unassignable".
+- [W4.177] List of genetic engineering software
+- [W4.178] The Genetic Codes: Genetic Code Tables
+- [W4.179] The Codon Usage Database — Codon frequency tables for many organisms
+- [W4.180] History of deciphering the genetic code Archived 21 October 2007 at the Wayback Machine
+
+## [W5] Wikipedia: Messenger RNA
+https://en.wikipedia.org/w/index.php?title=Messenger_RNA&oldid=1376379298 · CC BY-SA 4.0 · usage: ai_input
+
+- [W5.1] Messenger ribonucleic acid (mRNA) is a single-stranded molecule of RNA that corresponds to the genetic sequence of a gene, and is read by a ribosome in the process of synthesizing a protein.
+- [W5.2] mRNA is created during the process of transcription, where an enzyme (RNA polymerase) converts the gene into primary transcript mRNA (also known as pre-mRNA).
+- [W5.3] This pre-mRNA usually still contains introns, regions that will not go on to code for the final amino acid sequence.
+- [W5.4] These are removed in the process of RNA splicing, leaving only exons, regions that will encode the protein.
+- [W5.5] This exon sequence constitutes mature mRNA.
+- [W5.6] Mature mRNA is then read by the ribosome, and the ribosome creates the protein utilizing amino acids carried by transfer RNA (tRNA).
+- [W5.7] This process is known as translation.
+- [W5.8] All of these processes form part of the central dogma of molecular biology, which describes the flow of genetic information in a biological system.
+- [W5.9] As in DNA, genetic information in mRNA is contained in the sequence of nucleotides, which are arranged into codons consisting of three ribonucleotides each.
+- [W5.10] Each codon codes for a specific amino acid, except the stop codons, which terminate protein synthesis.
+- [W5.11] The translation of codons into amino acids requires two other types of RNA: transfer RNA, which recognizes the codon and provides the corresponding amino acid, and ribosomal RNA (rRNA), the central component of the ribosome's protein-manufacturing machinery.
+- [W5.12] The concept of mRNA was first conceived by Sydney Brenner and Francis Crick in 1960 during a conversation with François Jacob.
+- [W5.13] In May 1961, messenger RNA was experimentally characterized in two back-to-back Nature papers: one by Brenner, Jacob, and Meselson, and one by Gros and colleagues (including Watson).
+- [W5.14] While analyzing the data in preparation for publication, Jacob and Jacques Monod coined the term "messenger RNA".
+- [W5.15] The brief existence of an mRNA molecule begins with transcription, and ultimately ends in degradation.
+- [W5.16] During its life, an mRNA molecule may also be processed, edited, and transported prior to translation.
+- [W5.17] Eukaryotic mRNA molecules often require extensive processing and transport, while prokaryotic mRNA molecules do not.
+- [W5.18] A molecule of eukaryotic mRNA and the proteins surrounding it are together called a messenger RNP.
+- [W5.19] Transcription is the process by which genetic information stored in DNA is copied into RNA by the enzyme RNA polymerase.
+- [W5.20] During transcription, RNA polymerase binds to a promoter sequence on the DNA and synthesizes a complementary RNA strand (mRNA) from the DNA template.
+- [W5.21] This process differs between prokaryotes and eukaryotes.
+- [W5.22] In prokaryotes, transcription occurs in the cytoplasm.
+- [W5.23] Because prokaryotes lack a membrane-bound nucleus, ribosomes can attach to the nascent mRNA strand and begin translation while transcription is still in progress.
+- [W5.24] In eukaryotes, transcription occurs within the cell nucleus.
+- [W5.25] The initial product of transcription is not functional mRNA but is termed precursor mRNA or pre-mRNA.
+- [W5.26] This pre-mRNA must undergo extensive processing (including 5' capping, splicing to remove non-coding introns, and 3' polyadenylation) to become mature mRNA.
+- [W5.27] Once processed, the mature mRNA is exported from the nucleus to the cytoplasm for translation.
+- [W5.28] Uracil substitution for thymine
+- [W5.29] Whereas DNA contains thymine (T), RNA contains uracil (U).
+- [W5.30] During the process of transcription, the enzyme RNA polymerase incorporates uracil opposite adenine bases located on the DNA template strand.
+- [W5.31] Therefore, the resulting RNA transcript contains uracil in the positions where the coding DNA strand contains thymine.
+- [W5.32] Structurally, uracil–adenine (U–A) base pairs closely resemble thymine–adenine (T–A) base pairs, which ensures that the genetic information carried by the sequence is faithfully preserved.
+- [W5.33] A frequently cited explanation for the presence of thymine in DNA involves the necessity of genome maintenance.
+- [W5.34] Because cytosine can spontaneously deaminate to form uracil, DNA repair systems recognize uracil as a form of damage.
+- [W5.35] The utilization of thymine as a standard base allows the cell to distinguish legitimate bases from errors, thereby maintaining uracil as a specific signal for repair.
+- [W5.36] Eukaryotic pre-mRNA processing
+- [W5.37] Processing of mRNA differs greatly among eukaryotes, bacteria, and archaea.
+- [W5.38] Non-eukaryotic mRNA is, in essence, mature upon transcription and requires no processing, except in rare cases.
+- [W5.39] Eukaryotic pre-mRNA, however, requires several processing steps before its transport to the cytoplasm and its translation by the ribosome.
+- [W5.40] The extensive processing of eukaryotic pre-mRNA that leads to the mature mRNA is the RNA splicing, a mechanism by which introns or outrons (non-coding regions) are removed and exons (coding regions) are joined.
+- [W5.41] A 5' cap (also termed an RNA cap, an RNA 7-methylguanosine cap, or an RNA m7G cap) is a modified guanine nucleotide that has been added to the "front" or 5' end of a eukaryotic messenger RNA shortly after the start of transcription.
+- [W5.42] The 5' cap consists of a terminal 7-methylguanosine residue that is linked through a 5'-5'-triphosphate bond to the first transcribed nucleotide.
+- [W5.43] Its presence is critical for recognition by the ribosome and protection from RNases.
+- [W5.44] Cap addition is coupled to transcription, and occurs co-transcriptionally, such that each influences the other.
+- [W5.45] Shortly after the start of transcription, the 5' end of the mRNA being synthesized is bound by a cap-synthesizing complex associated with RNA polymerase.
+- [W5.46] This enzymatic complex catalyzes the chemical reactions that are required for mRNA capping.
+- [W5.47] Synthesis proceeds as a multi-step biochemical reaction.
+- [W5.48] In some instances, an mRNA molecule is edited, which changes the nucleotide composition of the transcript.
+- [W5.49] A prominent example in humans involves the apolipoprotein B mRNA.
+- [W5.50] In certain tissues, RNA editing of this transcript creates a premature stop codon, which results in the production of a shorter protein variant.
+- [W5.51] Another well studied mechanism is A-to-I (adenosine-to-inosine) editing.
+- [W5.52] This reaction is catalyzed by ADAR enzymes (adenosine deaminase acting on RNA) and typically occurs within double-stranded RNA regions.
+- [W5.53] A-to-I editing may occur in both coding sequences and untranslated regions.
+- [W5.54] Through these modifications, the process can affect protein recoding, RNA structure, and gene regulation.
+- [W5.55] Polyadenylation is the covalent linkage of a polyadenylyl moiety to a messenger RNA molecule.
+- [W5.56] In eukaryotic organisms most messenger RNA (mRNA) molecules are polyadenylated at the 3' end, but recent studies have shown that short stretches of uridine (oligouridylation) are also common.
+- [W5.57] The poly(A) tail and the protein bound to it aid in protecting mRNA from degradation by exonucleases.
+- [W5.58] Polyadenylation is also important for transcription termination, export of the mRNA from the nucleus, and translation. mRNA can also be polyadenylated in prokaryotic organisms, where poly(A) tails act to facilitate, rather than impede, exonucleolytic degradation.
+- [W5.59] Polyadenylation occurs during and/or immediately after transcription of DNA into RNA.
+- [W5.60] After transcription has been terminated, the mRNA chain is cleaved through the action of an endonuclease complex associated with RNA polymerase.
+- [W5.61] After the mRNA has been cleaved, around 200–250 adenosine residues are added to the free 3' end at the cleavage site.
+- [W5.62] This reaction is catalyzed by polyadenylate polymerase.
+- [W5.63] Just as in alternative splicing, there can be more than one polyadenylation variant of an mRNA.
+- [W5.64] Polyadenylation site mutations can occur.
+- [W5.65] The primary RNA transcript of a gene is cleaved at the poly(A) addition site, and about 150–250 adenosines are added to the 3′ end of the RNA as a poly(A) tail.
+- [W5.66] If this site is altered, cleavage and polyadenylation can shift to a downstream poly(A) site, producing an abnormally long and unstable mRNA.
+- [W5.67] Another difference between eukaryotes and prokaryotes is mRNA transport.
+- [W5.68] Because eukaryotic transcription and translation is compartmentally separated, eukaryotic mRNAs must be exported from the nucleus to the cytoplasm—a process that may be regulated by different signaling pathways.
+- [W5.69] Mature mRNAs are recognized by their processed modifications and then exported through the nuclear pore by binding to the cap-binding proteins CBP20 and CBP80, as well as the transcription/export complex (TREX).
+- [W5.70] Multiple mRNA export pathways have been identified in eukaryotes.
+- [W5.71] In spatially complex cells, some mRNAs are transported to particular subcellular destinations.
+- [W5.72] In mature neurons, certain mRNA are transported from the soma to dendrites.
+- [W5.73] One site of mRNA translation is at polyribosomes selectively localized beneath synapses.
+- [W5.74] The mRNA for Arc/Arg3.1 is induced by synaptic activity and localizes selectively near active synapses based on signals generated by NMDA receptors.
+- [W5.75] Other mRNAs also move into dendrites in response to external stimuli, such as β-actin mRNA.
+- [W5.76] For export from the nucleus, actin mRNA associates with ZBP1 and later with 40S subunit.
+- [W5.77] The complex is bound by a motor protein and is transported to the target location (neurite extension) along the cytoskeleton.
+- [W5.78] Eventually ZBP1 is phosphorylated by Src in order for translation to be initiated.
+- [W5.79] In developing neurons, mRNAs are also transported into growing axons and especially growth cones.
+- [W5.80] Many mRNAs are marked with so-called "zip codes", which target their transport to a specific location. mRNAs can also transfer between mammalian cells through structures called tunneling nanotubes.
+- [W5.81] Because prokaryotic mRNA does not need to be processed or transported, translation by the ribosome can begin immediately after the end of transcription.
+- [W5.82] Therefore, it can be said that prokaryotic translation is coupled to transcription and occurs co-transcriptionally.
+- [W5.83] In eukaryotic cells the process of translation starts with the information stored in the nucleotide sequence of DNA.
+- [W5.84] This is first transformed into mRNA, then transfer RNA (tRNA) specifies which three-nucleotide codon from the genetic code corresponds to which amino acid.
+- [W5.85] Eukaryotic mRNA that has been processed and transported to the cytoplasm (i.e., mature mRNA) can then be translated by ribosomes.
+- [W5.86] Translation may occur at ribosomes free in the cytoplasm, or targeted to the endoplasmic reticulum by the signal recognition particle.
+- [W5.87] Therefore, unlike in prokaryotes, eukaryotic translation is not directly coupled to transcription.
+- [W5.88] In some contexts, protein abundance can increase even when mRNA abundance decreases, because translation efficiency and protein turnover are regulated independently of transcript levels; this has been reported for mRNA and protein levels of EEF1A1 in breast cancer.
+- [W5.89] Coding regions are composed of codons, which are decoded and translated into proteins by the ribosome; in eukaryotes usually into one and in prokaryotes usually into several.
+- [W5.90] Coding regions begin with the start codon and end with a stop codon.
+- [W5.91] In general, the start codon is an AUG triplet and the stop codon is UAG ("amber"), UAA ("ochre"), or UGA ("opal").
+- [W5.92] The coding regions tend to be stabilized by internal base pairs; this impedes degradation.
+- [W5.93] In addition to being protein-coding, portions of coding regions may serve as regulatory sequences in the pre-mRNA as exonic splicing enhancers or exonic splicing silencers.
+- [W5.94] Untranslated regions (UTRs) are sections of the mRNA before the start codon and after the stop codon that are not translated, termed the five prime untranslated region (5' UTR) and three prime untranslated region (3' UTR), respectively.
+- [W5.95] These regions are transcribed with the coding region and thus are exonic as they are present in the mature mRNA.
+- [W5.96] Several roles in gene expression have been attributed to the untranslated regions, including mRNA stability, mRNA localization, and translational efficiency.
+- [W5.97] The ability of a UTR to perform these functions depends on the sequence of the UTR and can differ between mRNAs.
+- [W5.98] Genetic variants in 3' UTR have also been implicated in disease susceptibility because of the change in RNA structure and protein translation.
+- [W5.99] The stability of mRNAs may be controlled by the 5' UTR and/or 3' UTR due to varying affinity for RNA degrading enzymes called ribonucleases and for ancillary proteins that can promote or inhibit RNA degradation.
+- [W5.100] (See also, C-rich stability element.)
+- [W5.101] Translational efficiency, including sometimes the complete inhibition of translation, can be controlled by UTRs.
+- [W5.102] Proteins that bind to either the 3' or 5' UTR may affect translation by influencing the ribosome's ability to bind to the mRNA.
+- [W5.103] MicroRNAs bound to the 3' UTR also may affect translational efficiency or mRNA stability.
+- [W5.104] Cytoplasmic localization of mRNA is thought to be a function of the 3' UTR.
+- [W5.105] Proteins that are needed in a particular region of the cell can also be translated there; in such a case, the 3' UTR may contain sequences that allow the transcript to be localized to this region for translation.
+- [W5.106] Some of the elements contained in untranslated regions form a characteristic secondary structure when transcribed into RNA.
+- [W5.107] These structural mRNA elements are involved in regulating the mRNA.
+- [W5.108] Some, such as the SECIS element, are targets for proteins to bind.
+- [W5.109] One class of mRNA element, the riboswitches, directly bind small molecules, changing their fold to modify levels of transcription or translation.
+- [W5.110] In these cases, the mRNA regulates itself.
+- [W5.111] The 3' poly(A) tail is a long sequence of adenine nucleotides (often several hundred) added to the 3' end of the pre-mRNA.
+- [W5.112] This tail promotes export from the nucleus and translation, and protects the mRNA from degradation.
+- [W5.113] Monocistronic versus polycistronic mRNA
+- [W5.114] An mRNA molecule is said to be monocistronic when it contains the genetic information to translate only a single protein chain (polypeptide).
+- [W5.115] This is the case for most of the eukaryotic mRNAs.
+- [W5.116] On the other hand, polycistronic mRNA carries several open reading frames (ORFs), each of which is translated into a polypeptide.
+- [W5.117] These polypeptides usually have a related function (they often are the subunits composing a final complex protein) and their coding sequence is grouped and regulated together in a regulatory region, containing a promoter and an operator.
+- [W5.118] Most of the mRNA found in bacteria and archaea is polycistronic, as is the human mitochondrial genome.
+- [W5.119] Dicistronic or bicistronic mRNA encodes only two proteins.
+- [W5.120] In eukaryotes mRNA molecules form circular structures due to an interaction between the eIF4E and poly(A)-binding protein, which both bind to eIF4G, forming an mRNA-protein-mRNA bridge.
+- [W5.121] Circularization is thought to promote cycling of ribosomes on the mRNA leading to time-efficient translation, and may also function to ensure only intact mRNA are translated (partially degraded mRNA characteristically have no m7G cap, or no poly-A tail).
+- [W5.122] Other mechanisms for circularization exist, particularly in viruses.
+- [W5.123] In several RNA viruses, long-distance RNA interactions and/or protein-mediated bridges between the 5' and 3' ends can promote translation and genome replication.
+- [W5.124] RNA virus genomes (the + strands of which are translated as mRNA) are also commonly circularized.
+- [W5.125] Different mRNAs within the same cell have distinct lifetimes (stabilities).
+- [W5.126] In bacterial cells, individual mRNAs can survive from seconds to more than an hour.
+- [W5.127] However, the lifetime averages between 1 and 3 minutes, making bacterial mRNA much less stable than eukaryotic mRNA.
+- [W5.128] In mammalian cells, mRNA lifetimes range from several minutes to days.
+- [W5.129] The greater the stability of an mRNA the more protein may be produced from that mRNA.
+- [W5.130] The limited lifetime of mRNA enables a cell to alter protein synthesis rapidly in response to its changing needs.
+- [W5.131] There are many mechanisms that lead to the destruction of an mRNA, some of which are described below.
+- [W5.132] Prokaryotic mRNA degradation
+- [W5.133] In general, in prokaryotes the lifetime of mRNA is much shorter than in eukaryotes.
+- [W5.134] Prokaryotes degrade messages by using a combination of ribonucleases, including endonucleases, 3' exonucleases, and 5' exonucleases.
+- [W5.135] In some instances, small RNA molecules (sRNA) tens to hundreds of nucleotides long can stimulate the degradation of specific mRNAs by base-pairing with complementary sequences and facilitating ribonuclease cleavage by RNase III.
+- [W5.136] It was recently shown that bacteria also have a sort of 5' cap consisting of a triphosphate on the 5' end.
+- [W5.137] Removal of two of the phosphates leaves a 5' monophosphate, causing the message to be destroyed by the exonuclease RNase J, which degrades 5' to 3'.
+- [W5.138] Inside eukaryotic cells, there is a balance between the processes of translation and mRNA decay.
+- [W5.139] Messages that are being actively translated are typically associated with cap-binding and translation initiation factors and with poly(A)-binding protein, which can antagonize deadenylation and decapping and help protect mRNA ends from decay machinery.
+- [W5.140] The balance between translation and decay is reflected in the size and abundance of cytoplasmic structures known as P-bodies.
+- [W5.141] The poly(A) tail of the mRNA is shortened by specialized exonucleases that are targeted to specific messenger RNAs by a combination of cis-regulatory sequences on the RNA and trans-acting RNA-binding proteins.
+- [W5.142] Poly(A) tail removal is thought to disrupt the circular structure of the message and destabilize the cap binding complex.
+- [W5.143] The message is then subject to degradation by either the exosome complex or the decapping complex.
+- [W5.144] In this way, translationally inactive messages can be destroyed quickly, while active messages remain intact.
+- [W5.145] The mechanism by which translation stops and the message is handed-off to decay complexes is not understood in detail.
+- [W5.146] The majority of mRNA decay was believed to be cytoplasmic; however, recently, a novel mRNA decay pathway was described, which starts in the nucleus.
+- [W5.147] The presence of AU-rich elements in some mammalian mRNAs tends to destabilize those transcripts through the action of cellular proteins that bind these sequences and stimulate poly(A) tail removal.
+- [W5.148] Loss of the poly(A) tail is thought to promote mRNA degradation by facilitating attack by both the exosome complex and the decapping complex.
+- [W5.149] Rapid mRNA degradation via AU-rich elements is a critical mechanism for preventing the overproduction of potent cytokines such as tumor necrosis factor (TNF) and granulocyte-macrophage colony stimulating factor (GM-CSF).
+- [W5.150] AU-rich elements also regulate the biosynthesis of proto-oncogenic transcription factors like c-Jun and c-Fos.
+- [W5.151] Eukaryotic messages are subject to surveillance by nonsense-mediated decay (NMD), which checks for the presence of premature stop codons (nonsense codons) in the message.
+- [W5.152] These can arise via incomplete splicing, V(D)J recombination in the adaptive immune system, mutations in DNA, transcription errors, leaky scanning by the ribosome causing a frame shift, and other causes.
+- [W5.153] Detection of a premature stop codon triggers mRNA degradation by 5' decapping, 3' poly(A) tail removal, or endonucleolytic cleavage.
+- [W5.154] Small interfering RNA (siRNA)
+- [W5.155] In metazoans, small interfering RNAs (siRNAs) processed by Dicer are incorporated into a complex known as the RNA-induced silencing complex or RISC.
+- [W5.156] This complex contains an endonuclease that cleaves perfectly complementary messages to which the siRNA binds.
+- [W5.157] The resulting mRNA fragments are then destroyed by exonucleases. siRNA is commonly used in laboratories to block the function of genes in cell culture.
+- [W5.158] It is thought to be part of the innate immune system as a defense against double-stranded RNA viruses.
+- [W5.159] MicroRNAs (miRNAs) are small RNAs that typically are partially complementary to sequences in metazoan messenger RNAs.
+- [W5.160] Binding of a miRNA to a message can repress translation of that message and accelerate poly(A) tail removal, thereby hastening mRNA degradation.
+- [W5.161] The mechanism of action of miRNAs is the subject of active research.
+- [W5.162] There are other ways by which messages can be degraded, including non-stop decay and silencing by Piwi-interacting RNA (piRNA), among others.
+- [W5.163] The administration of a nucleoside-modified messenger RNA sequence can cause a cell to make a protein, which in turn could directly treat a disease or could function as a vaccine; more indirectly the protein could drive an endogenous stem cell to differentiate in a desired way.
+- [W5.164] The primary challenges of RNA therapy center on delivering the RNA to the appropriate cells.
+- [W5.165] Challenges include the fact that naked RNA sequences naturally degrade after preparation; they may trigger the body's immune system to attack them as an invader; and they are impermeable to the cell membrane.
+- [W5.166] Once within the cell, they must then leave the cell's transport mechanism to take action within the cytoplasm, which houses the necessary ribosomes.
+- [W5.167] Overcoming these challenges, mRNA as a therapeutic was first put forward in 1989 "after the development of a broadly applicable in vitro transfection technique." In the 1990s, mRNA vaccines for personalized cancer were developed, typically using unmodified mRNA. mRNA based therapies continue to be investigated as a method of treatment or therapy for both cancer as well as auto-immune, metabolic, and respiratory inflammatory diseases.
+- [W5.168] Gene editing therapies such as CRISPR may also benefit from using mRNA to induce cells to make the desired Cas protein.
+- [W5.169] Since the 2010s, RNA vaccines and other RNA therapeutics have been considered to be "a new class of drugs".
+- [W5.170] The first mRNA-based vaccines received restricted authorization and were rolled out across the world during the COVID-19 pandemic by Pfizer–BioNTech COVID-19 vaccine and Moderna, for example.
+- [W5.171] The 2023 Nobel Prize in Physiology or Medicine was awarded to Katalin Karikó and Drew Weissman for the development of effective mRNA vaccines against COVID-19.
+- [W5.172] New approaches to modulate RNA levels as a therapeutics include the use of antisense oligonucleotides, including for neurodevelopment diseases associated with high mortality.
+- [W5.173] Several molecular biology studies during the early 1950s suggested that RNA played a role in protein synthesis, though the specific role remained unclear.
+- [W5.174] For example, in one of the earliest reports, Ayaka Stephanie Hogg and his team showed that RNA synthesis was necessary for protein synthesis, specifically during the production of the enzyme β-galactosidase in the bacterium E. coli.
+- [W5.175] Arthur Pardee also found similar RNA accumulation in 1954.
+- [W5.176] In 1953, Alfred Hershey, June Dixon, and Martha Chase studied E. coli infected with bacteriophage T2 and reported that the bacterium's own DNA decreased while the phage's DNA built up inside the infected cells (including DNA containing 5-hydroxymethylcytosine).
+- [W5.177] In hindsight, this has been discussed as part of the chain of observations that led to the concept of mRNA, and it was not recognized at the time as such.
+- [W5.178] The idea of mRNA was first conceived by Sydney Brenner and Francis Crick on 15 April 1960 at King's College, Cambridge, while François Jacob was telling them about a recent experiment conducted by Arthur Pardee, himself, and Monod (the so-called PaJaMo experiment, which did not prove mRNA existed but suggested the possibility of its existence).
+- [W5.179] With Crick's encouragement, Brenner and Jacob immediately set out to test this new hypothesis, and they contacted Matthew Meselson at the California Institute of Technology for assistance.
+- [W5.180] During the summer of 1960, Brenner, Jacob, and Meselson conducted an experiment in Meselson's laboratory at Caltech which was the first to prove the existence of mRNA.
+- [W5.181] That fall, Jacob and Monod coined the name "messenger RNA" and developed the first theoretical framework to explain its function.
+- [W5.182] In February 1961, James Watson revealed that his Harvard-based research group had been right behind them with a series of experiments whose results pointed in roughly the same direction.
+- [W5.183] Brenner and the others agreed to Watson's request to delay publication of their research findings.
+- [W5.184] As a result, the Brenner and Watson articles were published simultaneously in the same issue of Nature in May 1961, while that same month, Jacob and Monod published their theoretical framework for mRNA in the Journal of Molecular Biology.
+- [W5.185] GeneCalling, an mRNA profiling technology
+- [W5.186] Prokaryotic mRNA degradation
+- [W5.187] Transcriptome, the sum of all RNA in a cell
+- [W5.188] modRNA Nucleoside-modified messenger RNA
+- [W5.189] RNAi Atlas: a database of RNAi libraries and their target analysis results
+- [W5.190] miRSearch Archived 2012-12-04 at the Wayback Machine: Tool for finding microRNAs that target mRNA
+- [W5.191] How mRNA is coded?: YouTube video
+- [W5.192] What is mRNA?: theconversation.com
+
+## [W6] Wikipedia: Ribosome
+https://en.wikipedia.org/w/index.php?title=Ribosome&oldid=1380883342 · CC BY-SA 4.0 · usage: ai_input
+
+- [W6.1] A ribosome () is a ribonucleoprotein particle found in all cells that synthesizes proteins by translating genetic information encoded in messenger RNA (mRNA).
+- [W6.2] During translation, the ribosome decodes successive codons in an mRNA molecule and, with the aid of transfer RNA (tRNA), links amino acids into a polypeptide chain.
+- [W6.3] Each ribosome comprises a small and a large subunit, each composed of one or more ribosomal RNA (rRNA) molecules and many ribosomal proteins.
+- [W6.4] Ribosomes differ in size, composition and organization among bacteria, archaea and eukaryotes, but they share a core structure that reflects a common evolutionary origin.
+- [W6.5] Distinct ribosomes are also found in eukaryotic mitochondria and, in plants and algae, chloroplasts.
+- [W6.6] Ribosomes are assembled through ribosome biogenesis, which involves rRNA synthesis and processing together with the assembly of ribosomal proteins into functional subunits.
+- [W6.7] First observed by George Emil Palade in 1955, ribosomes have been the subject of extensive structural and functional research.
+- [W6.8] Their discovery was recognized by the Nobel Prize in Physiology or Medicine in 1974, while determination of their atomic structure and mechanism through X-ray crystallography and cryo-electron microscopy was recognized by the Nobel Prize in Chemistry in 2009.
+- [W6.9] The sequence of RNA that encodes the sequence of the amino acids in a protein is transcribed into a messenger RNA (mRNA) chain.
+- [W6.10] Ribosomes bind to the messenger RNA molecules and use the RNA's sequence of nucleotides to determine the sequence of amino acids needed to generate a protein.
+- [W6.11] Amino acids are selected and carried to the ribosome by transfer RNA (tRNA) molecules, which enter the ribosome and bind to the messenger RNA chain via an anticodon stem loop.
+- [W6.12] For each coding triplet (codon) in the messenger RNA, there is a unique transfer RNA that must have the exact anti-codon match, and carries the correct amino acid for incorporating into a growing polypeptide chain.
+- [W6.13] Once the protein is produced, it can then fold to produce a functional three-dimensional structure.
+- [W6.14] During translation the synthesis of proteins from their building blocks takes place in four stages: initiation, elongation, termination, and ribosome recycling.
+- [W6.15] The start codon in all mRNA molecules has the sequence AUG.
+- [W6.16] The stop codon may either be UAA, UAG, or UGA; since there are no tRNA molecules that recognize these codons, the ribosome recognizes that translation is complete.
+- [W6.17] When a ribosome finishes reading an mRNA molecule, the two subunits separate and are usually broken up but can be reused.
+- [W6.18] Ribosomes are a kind of enzyme, called ribozymes because the catalytic peptidyl transferase activity that links amino acids together is performed by the ribosomal RNA.
+- [W6.19] Ribosomes from bacteria, archaea, and eukaryotes (in the three-domain system) resemble each other to a remarkable degree, evidence of a common origin.
+- [W6.20] They differ in their size, sequence, structure, and the ratio of protein to RNA.
+- [W6.21] The differences in structure allow some antibiotics to kill bacteria by inhibiting their ribosomes while leaving human ribosomes unaffected.
+- [W6.22] In all domains, a polysome of two or more ribosomes may move along a single mRNA chain at one time, each reading a specific sequence and producing a corresponding protein molecule.
+- [W6.23] The mitochondrial ribosomes (mitoribosomes) of eukaryotic cells are distinct from the other ribosomes.
+- [W6.24] They functionally resemble those in bacteria, reflecting the evolutionary origin of mitochondria as endosymbiotic bacteria.
+- [W6.25] Ribosomes were first observed in the mid-1950s as dense particles or granules by Romanian-American cell biologist George Emil Palade, using an electron microscope.
+- [W6.26] They were initially called Palade granules due to their granular structure.
+- [W6.27] The term "ribosome" was proposed in 1958 by Howard M. Dintzis:
+- [W6.28] During the course of the symposium a semantic difficulty became apparent.
+- [W6.29] To some of the participants, "microsomes" mean the ribonucleoprotein particles of the microsome fraction contaminated by other protein and lipid material; to others, the microsomes consist of protein and lipid contaminated by particles.
+- [W6.30] The phrase "microsomal particles" does not seem adequate, and "ribonucleoprotein particles of the microsome fraction" is much too awkward.
+- [W6.31] During the meeting, the word "ribosome" was suggested, which has a very satisfactory name and a pleasant sound.
+- [W6.32] The present confusion would be eliminated if "ribosome" were adopted to designate ribonucleoprotein particles in sizes ranging from 35 to 100S.
+- [W6.33] Albert Claude, Christian de Duve, and George Emil Palade were jointly awarded the Nobel Prize in Physiology or Medicine, in 1974, for the discovery of the ribosome.
+- [W6.34] The Nobel Prize in Chemistry 2009 was awarded to Venkatraman Ramakrishnan, Thomas A. Steitz, and Ada E. Yonath for determining the detailed structure and mechanism of the ribosome.
+- [W6.35] A ribosome is a ribonucleoprotein particle made from complexes of ribosomal RNAs and proteins, arranged into two ribosomal subunits, one large and the other small.
+- [W6.36] Ribosomes are complex molecular machines present in all cells both prokaryotic, and eukaryotic.
+- [W6.37] The ribosomal subunits of prokaryotes and eukaryotes are quite similar.
+- [W6.38] A ribosome is largely made up of specialized non-coding ribosomal RNA (rRNA) as well as dozens of distinct ribosomal proteins (the number varies slightly between species).
+- [W6.39] The ribosomal proteins and rRNAs are arranged into two distinct ribosomal subunits one large and one small.
+- [W6.40] The subunits fit together locking around a strand of mRNA, and work together to translate the mRNA into a polypeptide chain during protein synthesis.
+- [W6.41] Bacterial ribosomes are around 20 nm (200 Å) in diameter and are composed of 65% rRNA and 35% ribosomal proteins.
+- [W6.42] Eukaryotic ribosomes are between 25 and 30 nm (250–300 Å) in diameter with an rRNA-to-protein ratio that is close to 1.
+- [W6.43] Crystallographic work has shown that there are no ribosomal proteins close to the reaction site for polypeptide synthesis.
+- [W6.44] This suggests that the protein components of ribosomes do not directly participate in peptide bond formation catalysis, but rather that these proteins act as a scaffold that may enhance the ability of rRNA to synthesize protein
+- [W6.45] The unit of measurement used to describe the ribosomal subunits and the rRNA fragments is the Svedberg unit, a measure of the rate of sedimentation in centrifugation rather than size.
+- [W6.46] This accounts for why fragment names do not add up: for example, bacterial 70S ribosomes are made of 50S and 30S subunits.
+- [W6.47] Prokaryotes have 70S ribosomes, each consisting of a small (30S) and a large (50S) subunit.
+- [W6.48] E. coli, for example, has a 16S RNA subunit (consisting of 1540 nucleotides) that is bound to 21 proteins.
+- [W6.49] The large subunit is composed of a 5S RNA subunit (120 nucleotides), a 23S RNA subunit (2900 nucleotides) and 31 proteins.
+- [W6.50] Affinity label for the tRNA binding sites on the E. coli ribosome allowed the identification of A and P site proteins most likely associated with the peptidyltransferase activity; labelled proteins are L27, L14, L15, L16, L2; at least L27 is located at the donor site, as shown by E. Collatz and A.P.
+- [W6.51] Additional research has demonstrated that the S1 and S21 proteins, in association with the 3′-end of 16S ribosomal RNA, are involved in the initiation of translation.
+- [W6.52] Archaeal ribosomes are conventionally quoted as having similar sizes as the bacterial ribosome, being a 70S ribosome made up from a 50S large subunit and a 30S small subunit.
+- [W6.53] The rRNA chains are similarly commonly called 16S, 23S, and 5S, though again few (if any) recent sources have truly measured their sedimentation coefficients.
+- [W6.54] However, on the sequence and structural levels, they are much closer to eukaryotic ones than to bacterial ones.
+- [W6.55] Every extra ribosomal protein archaea have compared to bacteria has a eukaryotic counterpart, while no such relation applies between archaea and bacteria.
+- [W6.56] Eukaryotic cells have 80S ribosomes located in their cytosol, each consisting of a small (40S) and large (60S) subunit.
+- [W6.57] Their 40S subunit has an 18S RNA (1900 nucleotides) and 33 proteins.
+- [W6.58] The large subunit is composed of a 5S RNA (120 nucleotides), 28S RNA (4700 nucleotides), a 5.8S RNA (160 nucleotides) subunits and 49 proteins.
+- [W6.59] During 1977, Czernilofsky published research that used affinity labeling to identify tRNA-binding sites on rat liver ribosomes.
+- [W6.60] Several proteins, including L32/33, L36, L21, L23, L28/29 and L13 were implicated as being at or near the peptidyl transferase center.
+- [W6.61] Plastoribosomes and mitoribosomes
+- [W6.62] In eukaryotes, ribosomes are present in mitochondria (sometimes called mitoribosomes) and in plastids such as chloroplasts (also called plastoribosomes).
+- [W6.63] They also consist of large and small subunits bound together with proteins into one 70S particle.
+- [W6.64] These ribosomes are similar to those of bacteria and these organelles are thought to have originated as symbiotic bacteria.
+- [W6.65] Of the two, chloroplastic ribosomes are closer to bacterial ones than mitochondrial ones are.
+- [W6.66] Many pieces of ribosomal RNA in the mitochondria are shortened, and in the case of 5S rRNA, replaced by other structures in animals and fungi.
+- [W6.67] In particular, Leishmania tarentolae has a minimalized set of mitochondrial rRNA.
+- [W6.68] In contrast, plant mitoribosomes have both extended rRNA and additional proteins as compared to bacteria, in particular, many pentatricopetide repeat proteins.
+- [W6.69] The cryptomonad and chlorarachniophyte algae may contain a nucleomorph that resembles a vestigial eukaryotic nucleus.
+- [W6.70] Eukaryotic 80S ribosomes may be present in the compartment containing the nucleomorph.
+- [W6.71] Making use of the differences
+- [W6.72] The differences between the bacterial and eukaryotic ribosomes are exploited by pharmaceutical chemists to create antibiotics that can destroy a bacterial infection without harming the cells of the infected person.
+- [W6.73] Due to the differences in their structures, the bacterial 70S ribosomes are vulnerable to these antibiotics while the eukaryotic 80S ribosomes are not.
+- [W6.74] Even though mitochondria possess ribosomes similar to the bacterial ones, mitochondria are not affected by these antibiotics because they are surrounded by a double membrane that does not easily admit these antibiotics into the organelle.
+- [W6.75] A noteworthy counterexample is the antineoplastic antibiotic chloramphenicol, which inhibits bacterial 50S and eukaryotic mitochondrial 50S ribosomes.
+- [W6.76] Ribosomes in chloroplasts, however, are different: Antibiotic resistance in chloroplast ribosomal proteins is a trait that has to be introduced as a marker, with genetic engineering.
+- [W6.77] The various ribosomes share a core structure, which is quite similar despite the large differences in size.
+- [W6.78] Much of the RNA is highly organized into various tertiary structural motifs, for example pseudoknots that exhibit coaxial stacking.
+- [W6.79] The extra RNA in the larger ribosomes is in several long continuous insertions, such that they form loops out of the core structure without disrupting or changing it.
+- [W6.80] All of the catalytic activity of the ribosome is carried out by the RNA; the proteins reside on the surface and seem to stabilize the structure.
+- [W6.81] The general molecular structure of the ribosome has been known since the early 1970s.
+- [W6.82] In the early 2000s, the structure has been achieved at high resolutions, of the order of a few ångströms.
+- [W6.83] The first papers giving the structure of the ribosome at atomic resolution were published almost simultaneously in late 2000.
+- [W6.84] The 50S (large prokaryotic) subunit was determined from the archaeon Haloarcula marismortui and the bacterium Deinococcus radiodurans, and the structure of the 30S subunit was determined from the bacterium Thermus thermophilus.
+- [W6.85] These structural studies were awarded the Nobel Prize in Chemistry in 2009.
+- [W6.86] In May 2001 these coordinates were used to reconstruct the entire T. thermophilus 70S particle at 5.5 Å resolution.
+- [W6.87] Two papers were published in November 2005 with structures of the Escherichia coli 70S ribosome.
+- [W6.88] The structures of a vacant ribosome were determined at 3.5 Å resolution using X-ray crystallography.
+- [W6.89] Then, two weeks later, a structure based on cryo-electron microscopy was published, which depicts the ribosome at 11–15 Å resolution in the act of passing a newly synthesized protein strand into the protein-conducting channel.
+- [W6.90] The first atomic structures of the ribosome complexed with tRNA and mRNA molecules were solved by using X-ray crystallography by two groups independently, at 2.8 Å and at 3.7 Å.
+- [W6.91] These structures allow one to see the details of interactions of the Thermus thermophilus ribosome with mRNA and with tRNAs bound at classical ribosomal sites.
+- [W6.92] Interactions of the ribosome with long mRNAs containing Shine-Dalgarno sequences were visualized soon after that at 4.5–5.5 Å resolution.
+- [W6.93] In 2023, a cryo-electron microscopy study reported a 1.55 Å structure of the Escherichia coli 70S ribosome in the translating state, providing near-atomic detail of rRNA modifications, tRNA-mRNA interactions, and ion coordination.
+- [W6.94] The high-resolution map enabled identification of ribosomal polymorphism sites and visualization of transient chimeric hybrid states associated with tRNA translocation at approximately 2 Å resolution.
+- [W6.95] These findings improved structural understanding of the ribosome's functional regions and offered valuable insights for antibiotic design.
+- [W6.96] In 2011, the first complete atomic structure of the eukaryotic 80S ribosome from the yeast Saccharomyces cerevisiae   was obtained by crystallography.
+- [W6.97] The model reveals the architecture of eukaryote-specific elements and their interaction with the universally conserved core.
+- [W6.98] At the same time, the complete model of a eukaryotic 40S ribosomal structure in Tetrahymena thermophila was published and described the structure of the 40S subunit, as well as much about the 40S subunit's interaction with eIF1 during translation initiation.
+- [W6.99] Similarly, the eukaryotic 60S subunit structure was also determined from Tetrahymena thermophila in complex with eIF6.
+- [W6.100] In addition, high-resolution cryo-EM structures of a thermophilic eukaryotic 80S ribosome captured in two rotational states at ~2.9 Å and ~3.0 Å resolution revealed atomistic details of the eukaryotic translocation mechanism and conformational dynamics of eEF2 during GTP hydrolysis.
+- [W6.101] Ribosomes are minute particles consisting of RNA and associated proteins that function to synthesize proteins.
+- [W6.102] Proteins are needed for many cellular functions, such as repairing damage or directing chemical processes.
+- [W6.103] Ribosomes can be either free, floating within the cytoplasm or attached to the rough endoplasmic reticulum.
+- [W6.104] Their main function is to convert genetic code into an amino acid sequence and to build protein polymers from amino acid monomers.
+- [W6.105] Ribosomes act as catalysts in two extremely important biological processes called peptidyl transfer and peptidyl hydrolysis.
+- [W6.106] In summary, ribosomes have two main functions: Decoding the message, and the formation of peptide bonds.
+- [W6.107] These two functions reside in the ribosomal subunits.
+- [W6.108] Each subunit is made of one or more rRNAs and many r-proteins.
+- [W6.109] The small subunit (30S in bacteria and archaea, 40S in eukaryotes) has the decoding function, whereas the large subunit (50S in bacteria and archaea, 60S in eukaryotes) catalyzes the formation of peptide bonds, referred to as the peptidyl-transferase activity.
+- [W6.110] The bacterial (and archaeal) small subunit contains the 16S rRNA and 21 r-proteins (Escherichia coli), whereas the eukaryotic small subunit contains the 18S rRNA and 32 r-proteins (Saccharomyces cerevisiae, although the numbers vary between species).
+- [W6.111] The bacterial large subunit contains the 5S and 23S rRNAs and 34 r-proteins (E. coli), with the eukaryotic large subunit containing the 5S, 5.8S, and 25S/28S rRNAs and 46 r-proteins (S. cerevisiae; again, the exact numbers vary between species).
+- [W6.112] Ribosomes are the workplaces of protein biosynthesis, the process of translating mRNA into protein.
+- [W6.113] The mRNA comprises a series of codons which are decoded by the ribosome to make the protein.
+- [W6.114] Using the mRNA as a template, the ribosome traverses each codon (3 nucleotides) of the mRNA, pairing it with the appropriate amino acid provided by an aminoacyl-tRNA.
+- [W6.115] Aminoacyl-tRNA contains a complementary anticodon on one end and the appropriate amino acid on the other.
+- [W6.116] For fast and accurate recognition of the appropriate tRNA, the ribosome utilizes large conformational changes (conformational proofreading).
+- [W6.117] The small ribosomal subunit, typically bound to an aminoacyl-tRNA containing the first amino acid methionine, binds to an AUG codon on the mRNA and recruits the large ribosomal subunit.
+- [W6.118] The ribosome contains three RNA binding sites, designated A, P, and E. The A-site binds an aminoacyl-tRNA or termination release factors; the P-site binds a peptidyl-tRNA (a tRNA bound to the poly-peptide chain); and the E-site (exit) binds a free tRNA.
+- [W6.119] Protein synthesis begins at a start codon AUG near the 5′-end of the mRNA. mRNA binds to the P site of the ribosome first.
+- [W6.120] The ribosome recognizes the start codon by using the Shine-Dalgarno sequence of the mRNA in prokaryotes and Kozak box in eukaryotes.
+- [W6.121] Although catalysis of the peptide bond involves the C2 hydroxyl of RNA's P-site adenosine in a proton shuttle mechanism, other steps in protein synthesis (such as translocation) are caused by changes in protein conformations.
+- [W6.122] Since their catalytic core is made of RNA, ribosomes are classified as "ribozymes," and it is thought that they might be remnants of the RNA world.
+- [W6.123] In Figure 5, both ribosomal subunits (small and large) assemble at the start codon (towards the 5' end of the mRNA).
+- [W6.124] The ribosome uses tRNA that matches the current codon (triplet) on the mRNA to append an amino acid to the polypeptide chain.
+- [W6.125] This is done for each triplet on the mRNA, while the ribosome moves towards the 3' end of the mRNA.
+- [W6.126] Usually in bacterial cells, several ribosomes are working parallel on a single mRNA, forming what is called a polyribosome or polysome.
+- [W6.127] The ribosome is known to actively participate in the protein folding.
+- [W6.128] The structures obtained in this way are usually identical to the ones obtained during protein chemical refolding; however, the pathways leading to the final product may be different.
+- [W6.129] In some cases, the ribosome is crucial in obtaining the functional protein form.
+- [W6.130] For example, one of the possible mechanisms of folding of the deeply knotted proteins relies on the ribosome pushing the chain through the attached loop.
+- [W6.131] Addition of translation-independent amino acids
+- [W6.132] Presence of a ribosome quality control protein Rqc2 is associated with mRNA-independent protein elongation.
+- [W6.133] This elongation is a result of ribosomal addition (via tRNAs brought by Rqc2) of CAT tails: ribosomes extend the C-terminus of a stalled protein with random, translation-independent sequences of alanines and threonines.
+- [W6.134] Ribosomes are classified as being either "free" or "membrane-bound".
+- [W6.135] Free and membrane-bound ribosomes differ only in their spatial distribution; they are identical in structure.
+- [W6.136] Whether the ribosome exists in a free or membrane-bound state depends on the presence of an ER-targeting signal sequence on the protein being synthesized, so an individual ribosome might be membrane-bound when it is making one protein, but free in the cytosol when it makes another protein.
+- [W6.137] Ribosomes are sometimes referred to as organelles, but the use of the term organelle is often restricted to describing sub-cellular components that include a phospholipid membrane, which ribosomes, being entirely particulate, do not.
+- [W6.138] For this reason, ribosomes may sometimes be described as "non-membranous organelles".
+- [W6.139] Free ribosomes can move about anywhere in the cytosol, but are excluded from the cell nucleus and other organelles.
+- [W6.140] Proteins that are formed from free ribosomes are released into the cytosol and used within the cell.
+- [W6.141] Since the cytosol contains high concentrations of glutathione and is, therefore, a reducing environment, proteins containing disulfide bonds, which are formed from oxidized cysteine residues, cannot be produced within it.
+- [W6.142] When a ribosome begins to synthesize proteins needed in certain organelles, the ribosome making this protein can become "membrane-bound".
+- [W6.143] In eukaryotic cells this happens in a region of the endoplasmic reticulum (ER) called the "rough ER".
+- [W6.144] The newly produced polypeptide chains are inserted directly into the ER by the ribosome undertaking vectorial synthesis and are then transported to their destinations, through the secretory pathway.
+- [W6.145] Bound ribosomes usually produce proteins that are used within the plasma membrane or are expelled from the cell via exocytosis.
+- [W6.146] In bacterial cells, ribosomes are synthesized in the cytoplasm through the transcription of multiple ribosome gene operons.
+- [W6.147] In eukaryotes, the process takes place both in the cell cytoplasm and in the nucleolus, which is a region within the cell nucleus.
+- [W6.148] The assembly process involves the coordinated function of over 200 proteins in the synthesis and processing of the four rRNAs, as well as assembly of those rRNAs with the ribosomal proteins.
+- [W6.149] The ribosome may have first originated as a protoribosome, possibly containing a peptidyl transferase centre (PTC), in an RNA world, appearing as a self-replicating complex that only later evolved the ability to synthesize proteins when amino acids began to appear.
+- [W6.150] Studies suggest that ancient ribosomes constructed solely of rRNA could have developed the ability to synthesize peptide bonds.
+- [W6.151] In addition, evidence strongly points to ancient ribosomes as self-replicating complexes, where the rRNA in the ribosomes had informational, structural, and catalytic purposes because it could have coded for tRNAs and proteins needed for ribosomal self-replication.
+- [W6.152] Hypothetical cellular organisms with self-replicating RNA but without DNA are called ribocytes (or ribocells).
+- [W6.153] As amino acids gradually appeared in the RNA world under prebiotic conditions, their interactions with catalytic RNA would increase both the range and efficiency of function of catalytic RNA molecules.
+- [W6.154] Thus, the driving force for the evolution of the ribosome from an ancient self-replicating machine into its current form as a translational machine may have been the selective pressure to incorporate proteins into the ribosome's self-replicating mechanisms, so as to increase its capacity for self-replication.
+- [W6.155] In 1958, Francis Crick famously proposed the "one gene-one ribosome-one protein hypothesis," where each ribosome carries the genetic information required to encode a single protein.
+- [W6.156] Although discredited at that time, from the discovery of the first ribosomopathy Diamond–Blackfan Anemia in 1999, the ribosome has transitioned from a passive molecular machine to a dynamic macromolecular machine.Ribosomes are compositionally heterogeneous between species and even within the same cell, as evidenced by the existence of cytoplasmic and mitochondria ribosomes within the same eukaryotic cells.
+- [W6.157] Certain researchers have suggested that heterogeneity in the composition of ribosomal proteins in mammals is important for gene regulation, i.e., the specialized ribosome hypothesis.
+- [W6.158] However, this hypothesis is controversial and the topic of ongoing research.
+- [W6.159] Heterogeneity in ribosome composition was first proposed to be involved in translational control of protein synthesis by Vince Mauro and Gerald Edelman.
+- [W6.160] They proposed the ribosome filter hypothesis to explain the regulatory functions of ribosomes.
+- [W6.161] Evidence has suggested that specialized ribosomes specific to different cell populations may affect how genes are translated.
+- [W6.162] Some ribosomal proteins exchange from the assembled complex with cytosolic copies suggesting that the structure of the in vivo ribosome can be modified without synthesizing an entire new ribosome.
+- [W6.163] Certain ribosomal proteins are absolutely critical for cellular life while others are not.
+- [W6.164] In budding yeast, 14/78 ribosomal proteins are non-essential for growth, while in humans this depends on the cell of study.
+- [W6.165] Other forms of heterogeneity include post-translational modifications to ribosomal proteins such as acetylation, methylation, and phosphorylation.
+- [W6.166] Arabidopsis, Viral internal ribosome entry sites (IRESs) may mediate translations by compositionally distinct ribosomes.
+- [W6.167] For example, 40S ribosomal units without eS25 in yeast and mammalian cells are unable to recruit the CrPV IGR IRES.
+- [W6.168] Heterogeneity of ribosomal RNA modifications plays a significant role in structural maintenance and/or function and most mRNA modifications are found in highly conserved regions.
+- [W6.169] The most common rRNA modifications are pseudouridylation and 2'-O-methylation of ribose.
+- [W6.170] Posttranslational modification
+- [W6.171] Ribosome-associated vesicle
+- [W6.172] Lab computer simulates ribosome in motion
+- [W6.173] Role of the Ribosome, Gwen V. Childs, copied here
+- [W6.174] Ribosome in Proteopedia—The free, collaborative 3D encyclopedia of proteins & other molecules
+- [W6.175] Ribosomal proteins families in ExPASy Archived 2011-04-30 at the Wayback Machine
+- [W6.176] Molecule of the Month Archived 2009-10-27 at the Wayback Machine © RCSB Protein Data Bank:
+- [W6.177] Ribosome Archived 2010-11-14 at the Wayback Machine
+- [W6.178] Elongation Factors Archived 2011-03-16 at the Wayback Machine
+- [W6.179] 3D electron microscopy structures of ribosomes at the EM Data Bank (EMDB)
+- [W6.180] This article incorporates public domain material from Science Primer.
+- [W6.181] Archived from the original on 2009-12-08.
+
+## [W7] Wikipedia: Transfer RNA
+https://en.wikipedia.org/w/index.php?title=Transfer_RNA&oldid=1380829614 · CC BY-SA 4.0 · usage: ai_input
+
+- [W7.1] Transfer ribonucleic acid (tRNA), formerly referred to as soluble ribonucleic acid (sRNA), is an adaptor molecule composed of RNA, typically 76 to 90 nucleotides in length (in eukaryotes).
+- [W7.2] In a cell, it provides the physical link between the genetic code in messenger RNA (mRNA) and the amino acid sequence of proteins, carrying the correct sequence of amino acids to be combined by the protein-synthesizing machinery, the ribosome.
+- [W7.3] Each three-nucleotide codon in mRNA is complemented by a three-nucleotide anticodon in tRNA.
+- [W7.4] As such, tRNAs are a necessary component of translation, the biological synthesis of new proteins in accordance with the genetic code.
+- [W7.5] The process of translation starts with the information stored in the nucleotide sequence of DNA.
+- [W7.6] This is first transformed into mRNA, then tRNA specifies which three-nucleotide codon from the genetic code corresponds to which amino acid.
+- [W7.7] Each mRNA codon is recognized by a particular type of tRNA, which docks to it along a three-nucleotide anticodon, and together they form three complementary base pairs.
+- [W7.8] On the other end of the tRNA is a covalent attachment to the amino acid corresponding to the anticodon sequence, with each type of tRNA attaching to a specific amino acid.
+- [W7.9] Because the genetic code contains multiple codons that specify the same amino acid, there are several tRNA molecules bearing different anticodons which carry the same amino acid.
+- [W7.10] The covalent attachment to the tRNA 3' end is catalysed by enzymes called aminoacyl tRNA synthetases.
+- [W7.11] During protein synthesis, tRNAs with attached amino acids are delivered to the ribosome by proteins called elongation factors, which aid in association of the tRNA with the ribosome, synthesis of the new polypeptide, and translocation (movement) of the ribosome along the mRNA.
+- [W7.12] If the tRNA's anticodon matches the mRNA, another tRNA already bound to the ribosome transfers the growing polypeptide chain from its 3' end to the amino acid attached to the 3' end of the newly delivered tRNA, a reaction catalyzed by the ribosome.
+- [W7.13] A large number of the individual nucleotides in a tRNA molecule may be chemically modified, often by methylation or deamidation.
+- [W7.14] These unusual bases sometimes affect the tRNA's interaction with ribosomes and sometimes occur in the anticodon to alter base-pairing properties.
+- [W7.15] The addition of a guanine nucleotide at the -1 position (G-1) to the 5′ end of tRNA-His, catalyzed by tRNA-His guanylyltransferase (Thg1) and Thg1-like proteins (TLPs) is particularly notable as it proceeds in the 3′ to 5′ direction, which is opposite to the canonical 5′ to 3′ nucleotide addition used by all other known nucleic acid polymerases.
+- [W7.16] This reverse polymerization mechanism is biochemically unique and evolutionarily conserved, highlighting its fundamental importance in tRNA maturation.
+- [W7.17] Homologs of Thg1 are found in all domains of life, where they can also participate in tRNA repair and quality control.
+- [W7.18] The presence of G-1 is a key identity element for tRNA-His, and its absence severely impairs histidylation efficiency and tRNA function.
+- [W7.19] The structure of tRNA can be decomposed into its primary structure, its secondary structure (usually visualized as the cloverleaf structure), and its tertiary structure (all tRNAs have a similar L-shaped 3D structure that allows them to fit into the P and A sites of the ribosome).
+- [W7.20] The cloverleaf structure becomes the 3D L-shaped structure through coaxial stacking of the helices, which is a common RNA tertiary structure motif.
+- [W7.21] The lengths of each arm, as well as the loop 'diameter', in a tRNA molecule vary from species to species.
+- [W7.22] The tRNA structure consists of the following:
+- [W7.23] The acceptor stem is a 7- to 9-base pair (bp) stem made by the base pairing of the 5′-terminal nucleotide with the 3′-terminal nucleotide (which contains the CCA tail used to attach the amino acid).
+- [W7.24] The acceptor stem may contain non-Watson-Crick base pairs.
+- [W7.25] The CCA tail is a cytosine-cytosine-adenine sequence at the 3′ end of the tRNA molecule.
+- [W7.26] The amino acid loaded onto the tRNA by aminoacyl tRNA synthetases, to form aminoacyl-tRNA, is covalently bonded to the 3′-hydroxyl group on the CCA tail.
+- [W7.27] This sequence is important for the recognition of tRNA by enzymes and critical in translation.
+- [W7.28] In prokaryotes, the CCA sequence is transcribed in some tRNA sequences.
+- [W7.29] In most prokaryotic tRNAs and eukaryotic tRNAs, the CCA sequence is added during processing and therefore does not appear in the tRNA gene.
+- [W7.30] The D loop is a 4- to 6-bp stem ending in a loop that often contains dihydrouridine.
+- [W7.31] The anticodon loop is a 5-bp stem whose loop contains the anticodon.
+- [W7.32] The TΨC loop is named so because of the characteristic presence of the unusual base Ψ in the loop, where Ψ is pseudouridine, a modified uridine.
+- [W7.33] The modified base is often found within the sequence 5'-TΨCGA-3', with the T (ribothymidine, m5U) and A forming a base pair.
+- [W7.34] The variable loop or V loop sits between the anticodon loop and the ΨU loop and, as its name implies, varies in size from 3 to 21 bases.
+- [W7.35] In some tRNAs, the "loop" is long enough to form a rigid stem, the variable arm. tRNA with a V loop more than 10 bases long is classified as "class II" and the rest is called "class I".
+- [W7.36] An anticodon is a unit of three nucleotides corresponding to the three bases of an mRNA codon.
+- [W7.37] Each tRNA has a distinct anticodon triplet sequence that can form 3 complementary base pairs to one or more codons for an amino acid.
+- [W7.38] Some anticodons pair with more than one codon due to wobble base pairing.
+- [W7.39] Frequently, the first nucleotide of the anticodon is one not found on mRNA: inosine, which can hydrogen bond to more than one base in the corresponding codon position.
+- [W7.40] In genetic code, it is common for a single amino acid to be specified by all four third-position possibilities, or at least by both pyrimidines and purines; for example, the amino acid glycine is coded for by the codon sequences GGU, GGC, GGA, and GGG.
+- [W7.41] Other modified nucleotides may also appear at the first anticodon position—sometimes known as the "wobble position"—resulting in subtle changes to the genetic code, as for example in mitochondria.
+- [W7.42] The possibility of wobble bases reduces the number of tRNA types required: instead of 61 types with one for each sense codon of the standard genetic code), only 31 tRNAs are required to translate, unambiguously, all 61 sense codons.
+- [W7.43] A tRNA is commonly named by its intended amino acid (e.g. tRNA-Asn), by its anticodon sequence (e.g. tRNA(GUU)), or by both (e.g. tRNA-Asn(GUU) or tRNAAsnGUU).
+- [W7.44] These two features describe the main function of the tRNA, but do not actually cover the whole diversity of tRNA variation; as a result, numerical suffixes are added to differentiate. tRNAs intended for the same amino acid are called "isotypes"; when isotypes also share the same anticodon they are called "isoacceptors"; and when isotypes have an identical mature sequence they are called "isodecoders".
+- [W7.45] A special initiaitor tRNA is used to decode the start codon in all three domains of life.
+- [W7.46] This may be abbreviated i-tRNA or tRNAi.
+- [W7.47] In bacteria and organelles where the tRNA is target for methionyl-tRNA formyltransferase, it is also called tRNAfMet, after formylmethionine.
+- [W7.48] Aminoacylation is the process of adding an aminoacyl group to a compound.
+- [W7.49] It covalently links an amino acid to the CCA 3′ end of a tRNA molecule.
+- [W7.50] Each tRNA is aminoacylated (or charged) with a specific amino acid by an aminoacyl tRNA synthetase.
+- [W7.51] There is normally a single aminoacyl tRNA synthetase for each amino acid, despite the fact that there can be more than one tRNA, and more than one anticodon for an amino acid.
+- [W7.52] Recognition of the appropriate tRNA by the synthetases is not mediated solely by the anticodon, and the acceptor stem often plays a prominent role.
+- [W7.53] amino acid + ATP → aminoacyl-AMP + PPi
+- [W7.54] aminoacyl-AMP + tRNA → aminoacyl-tRNA + AMP
+- [W7.55] Certain organisms can have one or more aminophosphate-tRNA synthetases missing.
+- [W7.56] This leads to charging of the tRNA by a chemically related amino acid, and by use of an enzyme or enzymes, the tRNA is modified to be correctly charged.
+- [W7.57] For example, Helicobacter pylori has glutaminyl tRNA synthetase missing.
+- [W7.58] Thus, glutamate tRNA synthetase charges tRNA-glutamine(tRNA-Gln) with glutamate.
+- [W7.59] An amidotransferase then converts the acid side chain of the glutamate to the amide, forming the correctly charged gln-tRNA-Gln.
+- [W7.60] The ribosome has three binding sites for tRNA molecules that span the space between the two ribosomal subunits: the A (aminoacyl), P (peptidyl), and E (exit) sites.
+- [W7.61] In addition, the ribosome has two other sites for tRNA binding that are used during mRNA decoding or during the initiation of protein synthesis.
+- [W7.62] These are the T site (named elongation factor Tu) and I site (initiation).
+- [W7.63] By convention, the tRNA binding sites are denoted with the site on the small ribosomal subunit listed first and the site on the large ribosomal subunit listed second.
+- [W7.64] For example, the A site is often written A/A, the P site, P/P, and the E site, E/E.
+- [W7.65] The binding proteins like L27, L2, L14, L15, L16 at the A- and P- sites have been determined by affinity labeling by A. P. Czernilofsky et al. (Proc.
+- [W7.66] Once translation initiation is complete, the first aminoacyl tRNA is located in the P/P site, ready for the elongation cycle described below.
+- [W7.67] During translation elongation, tRNA first binds to the ribosome as part of a complex with elongation factor Tu (EF-Tu) or its eukaryotic (eEF-1) or archaeal counterpart.
+- [W7.68] This initial tRNA binding site is called the A/T site.
+- [W7.69] In the A/T site, the A-site half resides in the small ribosomal subunit where the mRNA decoding site is located.
+- [W7.70] The mRNA decoding site is where the mRNA codon is read out during translation.
+- [W7.71] The T-site half resides mainly on the large ribosomal subunit where EF-Tu or eEF-1 interacts with the ribosome.
+- [W7.72] Once mRNA decoding is complete, the aminoacyl-tRNA is bound in the A/A site and is ready for the next peptide bond to be formed to its attached amino acid.
+- [W7.73] The peptidyl-tRNA, which transfers the growing polypeptide to the aminoacyl-tRNA bound in the A/A site, is bound in the P/P site.
+- [W7.74] Once the peptide bond is formed, the tRNA in the P/P site is acylated, or has a free 3' end, and the tRNA in the A/A site dissociates the growing polypeptide chain.
+- [W7.75] To allow for the next elongation cycle, the tRNAs then move through hybrid A/P and P/E binding sites, before completing the cycle and residing in the P/P and E/E sites.
+- [W7.76] Once the A/A and P/P tRNAs have moved to the P/P and E/E sites, the mRNA has also moved over by one codon and the A/T site is vacant, ready for the next round of mRNA decoding.
+- [W7.77] The tRNA bound in the E/E site then leaves the ribosome.
+- [W7.78] The P/I site is actually the first to bind to aminoacyl tRNA, which is delivered by an initiation factor called IF2 in bacteria.
+- [W7.79] However, the existence of the P/I site in eukaryotic or archaeal ribosomes has not yet been confirmed.
+- [W7.80] The P-site protein L27 has been determined by affinity labeling by E. Collatz and A. P. Czernilofsky (FEBS Lett., Vol.
+- [W7.81] Organisms vary in the number of tRNA genes in their genome.
+- [W7.82] For example, the nematode worm C. elegans, a commonly used model organism in genetics studies, has 29,647 genes in its nuclear genome, of which 620 code for tRNA.
+- [W7.83] The budding yeast Saccharomyces cerevisiae has 275 tRNA genes in its genome.
+- [W7.84] The number of tRNA genes per genome can vary widely, with bacterial species from groups such as Fusobacteria and Tenericutes having around 30 genes per genome while complex eukaryotic genomes such as the zebrafish (Danio rerio) can bear more than 10 thousand tRNA genes.
+- [W7.85] In the human genome, which, according to January 2013 estimates, has about 20,848 protein-coding genes in total, there are 497 nuclear genes encoding cytoplasmic tRNA molecules, and 324 tRNA-derived pseudogenes—tRNA genes thought to be no longer functional (although pseudo tRNAs have been shown to be involved in antibiotic resistance in bacteria).
+- [W7.86] One study has shown that the copy number of tRNA genes varies among individuals.
+- [W7.87] As with all eukaryotes, there are 22 mitochondrial tRNA genes in humans.
+- [W7.88] Mutations in some of these genes have been associated with severe diseases like the MELAS syndrome.
+- [W7.89] Regions in nuclear chromosomes, very similar in sequence to mitochondrial tRNA genes, have also been identified (tRNA-lookalikes).
+- [W7.90] These tRNA-lookalikes are also considered part of the nuclear mitochondrial DNA (genes transferred from the mitochondria to the nucleus).
+- [W7.91] The phenomenon of multiple nuclear copies of mitochondrial tRNA (tRNA-lookalikes) has been observed in many higher organisms from human to the opossum suggesting the possibility that the lookalikes are functional.
+- [W7.92] In humans, cytoplasmic tRNA genes can be grouped into 49 families according to their anticodon features.
+- [W7.93] These genes are found on all chromosomes, except the 22 and Y chromosome.
+- [W7.94] High clustering on 6p is observed (140 tRNA genes), as well as on chromosome 1.
+- [W7.95] The HGNC, in collaboration with the Genomic tRNA Database (GtRNAdb) and experts in the field, has approved unique names for human genes that encode tRNAs.
+- [W7.96] Typically, tRNA genes from Bacteria are shorter (mean = 77.6 bp) than those from Archaea (mean = 83.1 bp) and eukaryotes (mean = 84.7 bp).
+- [W7.97] The mature tRNA follows an opposite pattern, with tRNAs from Bacteria being usually longer (median = 77.6 nt) than tRNAs from Archaea (median = 76.8 nt), with eukaryotes exhibiting the shortest mature tRNAs (median = 74.5 nt).
+- [W7.98] Genomic tRNA content is a differentiating feature of genomes among biological domains of life: Archaea present the simplest situation in terms of genomic tRNA content with a uniform number of gene copies, Bacteria have an intermediate situation and Eukarya present the most complex situation.
+- [W7.99] Eukarya present not only more tRNA gene content than the other two kingdoms but also a high variation in gene copy number among different isoacceptors, and this complexity seem to be due to duplications of tRNA genes and changes in anticodon specificity.
+- [W7.100] Evolution of the tRNA gene copy number across different species has been linked to the appearance of specific tRNA modification enzymes (uridine methyltransferases in Bacteria, and adenosine deaminases in Eukarya), which increase the decoding capacity of a given tRNA.
+- [W7.101] As an example, tRNAAla encodes four different tRNA isoacceptors (AGC, UGC, GGC and CGC).
+- [W7.102] In Eukarya, AGC isoacceptors are extremely enriched in gene copy number in comparison to the rest of isoacceptors, and this has been correlated with its A-to-I modification of its wobble base.
+- [W7.103] This same trend has been shown for most amino acids of eukaryal species.
+- [W7.104] Indeed, the effect of these two tRNA modifications is also seen in codon usage bias.
+- [W7.105] Highly expressed genes seem to be enriched in codons that are exclusively using codons that will be decoded by these modified tRNAs, which suggests a possible role of these codons—and consequently of these tRNA modifications—in translation efficiency.
+- [W7.106] Many species have lost specific tRNAs during evolution.
+- [W7.107] For instance, both mammals and birds lack the same 14 out of the possible 64 tRNA genes, but other life forms contain these tRNAs.
+- [W7.108] For translating codons for which an exactly pairing tRNA is missing, organisms resort to a strategy called wobbling, in which imperfectly matched tRNA/mRNA pairs still give rise to translation, although this strategy also increases the propensity for translation errors.
+- [W7.109] The reasons why tRNA genes have been lost during evolution remains under debate but may relate improving resistance to viral infection.
+- [W7.110] Because nucleotide triplets can present more combinations than there are amino acids and associated tRNAs, there is redundancy in the genetic code, and several different 3-nucleotide codons can express the same amino acid.
+- [W7.111] This codon bias is what necessitates codon optimization.
+- [W7.112] The top half of tRNA (consisting of the T arm and the acceptor stem with 5′-terminal phosphate group and 3′-terminal CCA group) and the bottom half (consisting of the D arm and the anticodon arm) are independent units in structure as well as in function.
+- [W7.113] The top half may have evolved first including the 3′-terminal genomic tag which originally may have marked tRNA-like molecules for replication in early RNA world.
+- [W7.114] The bottom half may have evolved later as an expansion, e.g. as protein synthesis started in RNA world and turned it into a ribonucleoprotein world (RNP world).
+- [W7.115] This proposed scenario is called genomic tag hypothesis.
+- [W7.116] In fact, tRNA and tRNA-like aggregates have an important catalytic influence (i.e., as ribozymes) on replication still today.
+- [W7.117] These roles may be regarded as 'molecular (or chemical) fossils' of RNA world.
+- [W7.118] In March 2021, researchers reported evidence suggesting that an early form of transfer RNA could have been a replicator ribozyme molecule in the very early development of life, or abiogenesis.
+- [W7.119] Evolution of type I and type II tRNAs is explained to the last nucleotide by the three 31 nucleotide minihelix tRNA evolution theorem, which also describes the pre-life to life transition on Earth.
+- [W7.120] Three 31 nucleotide minihelices of known sequence were ligated in pre-life to generate a 93 nucleotide tRNA precursor.
+- [W7.121] In pre-life, a 31 nucleotide D loop minihelix (GCGGCGGUAGCCUAGCCUAGCCUACCGCCGC) was ligated to two 31 nucleotide anticodon loop minihelices (GCGGCGGCCGGGCU/???AACCCGGCCGCCGC; / indicates a U-turn conformation in the RNA backbone; ? indicates unknown base identity) to form the 93 nucleotide tRNA precursor.
+- [W7.122] To generate type II tRNAs, a single internal 9 nucleotide deletion occurred within ligated acceptor stems (CCGCCGCGCGGCGG goes to GGCGG).
+- [W7.123] To generate type I tRNAs, an additional, related 9 nucleotide deletion occurred within ligated acceptor stems within the variable loop region (CCGCCGCGCGGCGG goes to CCGCC).
+- [W7.124] These two 9 nucleotide deletions are identical on complementary RNA strands. tRNAomes (all of the tRNAs of an organism) were generated by duplication and mutation.
+- [W7.125] Very clearly, life evolved from a polymer world that included RNA repeats and RNA inverted repeats (stem-loop-stems).
+- [W7.126] Of particular importance were the 7 nucleotide U-turn loops (CU/???AA).
+- [W7.127] After LUCA (the last universal common (cellular) ancestor), the T loop evolved to interact with the D loop at the tRNA "elbow" (T loop: UU/CAAAU, after LUCA).
+- [W7.128] Polymer world progressed to minihelix world to tRNA world, which has endured for ~4 billion years.
+- [W7.129] Analysis of tRNA sequences reveals a major successful pathway in evolution of life on Earth.
+- [W7.130] tRNA-derived fragments (or tRFs) are short molecules that emerge after cleavage of the mature tRNAs or the precursor transcript.
+- [W7.131] Both cytoplasmic and mitochondrial tRNAs can produce fragments.
+- [W7.132] There are at least four structural types of tRFs believed to originate from mature tRNAs, including the relatively long tRNA halves and short 5'-tRFs, 3'-tRFs and i-tRFs.
+- [W7.133] The precursor tRNA can be cleaved to produce molecules from the 5' leader or 3' trail sequences.
+- [W7.134] Cleavage enzymes include Angiogenin, Dicer, RNase Z and RNase P. Especially in the case of Angiogenin, the tRFs have a characteristically unusual cyclic phosphate at their 3' end and a hydroxyl group at the 5' end. tRFs appear to play a role in RNA interference, specifically in the suppression of retroviruses and retrotransposons that use tRNA as a primer for replication.
+- [W7.135] Half-tRNAs cleaved by angiogenin are also known as tiRNAs.
+- [W7.136] The biogenesis of smaller fragments, including those that function as piRNAs, are less understood.
+- [W7.137] tRFs have multiple dependencies and roles; such as exhibiting significant changes between sexes, among races and disease status.
+- [W7.138] Functionally, they can be loaded on Ago and act through RNAi pathways, participate in the formation of stress granules, displace mRNAs from RNA-binding proteins or inhibit translation.
+- [W7.139] At the system or the organismal level, the four types of tRFs have a diverse spectrum of activities.
+- [W7.140] Functionally, tRFs are associated with viral infection, cancer, cell proliferation  and also with epigenetic transgenerational regulation of metabolism.
+- [W7.141] tRFs are not restricted to humans and have been shown to exist in multiple organisms.
+- [W7.142] Two online tools are available for those wishing to learn more about tRFs: the framework for the interactive exploration of mitochondrial and nuclear tRNA fragments (MINTbase) and the relational database of Transfer RNA related Fragments (tRFdb Archived 2024-03-15 at the Wayback Machine).
+- [W7.143] MINTbase also provides a naming scheme for the naming of tRFs called tRF-license plates (or MINTcodes) that is genome independent; the scheme compresses an RNA sequence into a shorter string.
+- [W7.144] tRNAs with modified anticodons and/or acceptor stems can be used to modify the genetic code.
+- [W7.145] Scientists have successfully repurposed codons (sense and stop) to accept amino acids (natural and novel), for both initiation (see: start codon) and elongation.
+- [W7.146] In 1990, tRNAfMet2CUA (modified from the tRNAfMet2CAU gene metY) was inserted into E. coli, causing it to initiate protein synthesis at the UAG stop codon, as long as it is preceded by a strong Shine-Dalgarno sequence.
+- [W7.147] At initiation it not only inserts the traditional formylmethionine, but also formylglutamine, as glutamyl-tRNA synthase also recognizes the new tRNA.
+- [W7.148] The experiment was repeated in 1993, now with an elongator tRNA modified to be recognized by the methionyl-tRNA formyltransferase.
+- [W7.149] A similar result was obtained in Mycobacterium.
+- [W7.150] Later experiments showed that the new tRNA was orthogonal to the regular AUG start codon showing no detectable off-target translation initiation events in a genomically recoded E. coli strain.
+- [W7.151] In eukaryotic cells, tRNAs are transcribed by RNA polymerase III as pre-tRNAs in the nucleus.
+- [W7.152] RNA polymerase III recognizes two highly conserved downstream promoter sequences: the 5′ intragenic control region (5′-ICR, D-control region, or A box), and the 3′-ICR (T-control region or B box) inside tRNA genes.
+- [W7.153] The first promoter begins at +8 of mature tRNAs and the second promoter is located 30–60 nucleotides downstream of the first promoter.
+- [W7.154] The transcription terminates after a stretch of four or more thymidines.
+- [W7.155] Pre-tRNAs undergo extensive modifications inside the nucleus.
+- [W7.156] Some pre-tRNAs contain introns that are spliced, or cut, to form the functional tRNA molecule; in bacteria these self-splice, whereas in eukaryotes and archaea they are removed by tRNA-splicing endonucleases.
+- [W7.157] Eukaryotic pre-tRNA contains bulge-helix-bulge (BHB) structure motif that is important for recognition and precise splicing of tRNA intron by endonucleases.
+- [W7.158] This motif position and structure are evolutionarily conserved.
+- [W7.159] However, some organisms, such as unicellular algae have a non-canonical position of BHB-motif as well as 5′- and 3′-ends of the spliced intron sequence.
+- [W7.160] The 5′ sequence is removed by RNase P, whereas the 3′ end is removed by the tRNase Z enzyme.
+- [W7.161] A notable exception is in the archaeon Nanoarchaeum equitans, which does not possess an RNase P enzyme and has a promoter placed such that transcription starts at the 5′ end of the mature tRNA.
+- [W7.162] The non-templated 3′ CCA tail is added by a nucleotidyl transferase.
+- [W7.163] Before tRNAs are exported into the cytoplasm by Los1/Xpo-t, tRNAs are aminoacylated.
+- [W7.164] The order of the processing events is not conserved.
+- [W7.165] For example, in yeast, the splicing is not carried out in the nucleus but at the cytoplasmic side of mitochondrial membranes.
+- [W7.166] The existence of tRNA was first hypothesized by Francis Crick as the "adaptor hypothesis" based on the assumption that there must exist an adapter molecule capable of mediating the translation of the RNA alphabet into the protein alphabet.
+- [W7.167] Paul C Zamecnik, Mahlon Hoagland, and Mary Louise Stephenson discovered tRNA in 1958.
+- [W7.168] Significant research on structure was conducted in the early 1960s by Alex Rich and Donald Caspar, two researchers in Boston, the Jacques Fresco group in Princeton University and a United Kingdom group at King's College London.
+- [W7.169] In 1965, Robert W. Holley of Cornell University reported the primary structure and suggested three secondary structures. tRNA was first crystallized in Madison, Wisconsin, by Robert M. Bock.
+- [W7.170] The cloverleaf structure was ascertained by several other studies in the following years and was finally confirmed using X-ray crystallography studies in 1974.
+- [W7.171] Two independent groups, Kim Sung-Hou working under Alexander Rich and a British group headed by Aaron Klug, published the same crystallography findings within a year.
+- [W7.172] Interference with aminoacylation may be useful as an approach to treating some diseases: cancerous cells may be relatively vulnerable to disturbed aminoacylation compared to healthy cells.
+- [W7.173] The protein synthesis associated with cancer and viral biology is often very dependent on specific tRNA molecules.
+- [W7.174] For instance, for liver cancer charging tRNA-Lys-CUU with lysine sustains liver cancer cell growth and metastasis, whereas healthy cells have a much lower dependence on this tRNA to support cellular physiology.
+- [W7.175] Similarly, hepatitis E virus requires a tRNA landscape that substantially differs from that associated with uninfected cells.
+- [W7.176] Hence, inhibition of aminoacylation of specific tRNA species is considered a promising novel avenue for the rational treatment of a plethora of diseases.
+- [W7.177] tRNAdb (updated and completely restructured version of Spritzls tRNA compilation) Archived 2011-07-19 at the Wayback Machine
+- [W7.178] tRNA surprising role in breast cancer growth Archived 2023-12-03 at the Wayback Machine
+- [W7.179] tRNA link to heart disease and stroke
+- [W7.180] GtRNAdb: Collection of tRNAs identified from complete genomes
+- [W7.181] HGNC: Gene nomenclature of human tRNAs
+- [W7.182] Molecule of the Month © RCSB Protein Data Bank:
+- [W7.183] Aminoacyl-tRNA Synthetases
+
+## [W8] Wikipedia: Start codon
+https://en.wikipedia.org/w/index.php?title=Start_codon&oldid=1334185154 · CC BY-SA 4.0 · usage: ai_input
+
+- [W8.1] The start codon is the first codon of a messenger RNA (mRNA) transcript translated by a ribosome.
+- [W8.2] The start codon always codes for methionine in eukaryotes and archaea and N-formylmethionine (fMet) in bacteria, mitochondria and plastids.
+- [W8.3] The start codon is often preceded by a 5' untranslated region (5' UTR).
+- [W8.4] In prokaryotes this includes the ribosome binding site.
+- [W8.5] In all three domains of life, the start codon is decoded by a special "initiation" transfer RNA different from the tRNAs used for elongation.
+- [W8.6] There are important structural differences between an initiating tRNA and an elongating one, with distinguish features serving to satisfy the constraints of the translation system.
+- [W8.7] In bacteria and organelles, an acceptor stem C1:A72 mismatch guide formylation, which directs recruitment by the 30S ribosome into the P site; so-called "3GC" base pairs allow assembly into the 70S ribosome.
+- [W8.8] In eukaryotes and archaea, the T stem prevents the elongation factors from binding, while eIF2 specifically recognizes the attached methionine and a A1:U72 basepair.
+- [W8.9] In any case, the natural initiating tRNA only codes for methionine.
+- [W8.10] Knowledge of the key recognizing features has allowed researchers to construct alternative initiating tRNAs that code for different amino acids; see below.
+- [W8.11] Alternative start codons are different from the standard AUG codon and are found in both prokaryotes (bacteria and archaea) and eukaryotes.
+- [W8.12] Alternate start codons are still translated as Met when they are at the start of a protein (even if the codon encodes a different amino acid otherwise).
+- [W8.13] This is because a separate tRNA is used for initiation.
+- [W8.14] Alternate start codons (non-AUG) are very rare in eukaryotic genomes: a wide range of mechanisms work to guarantee the relative fidelity of AUG initiation.
+- [W8.15] However, naturally occurring non-AUG start codons have been reported for some cellular mRNAs.
+- [W8.16] Seven out of the nine possible single-nucleotide substitutions at the AUG start codon of dihydrofolate reductase are functional as translation start sites in mammalian cells.
+- [W8.17] In all cases, methionine was inserted as the first amino acid.
+- [W8.18] Bacteria do not generally have the wide range of translation factors monitoring start codon fidelity.
+- [W8.19] GUG and UUG are the main, even "canonical", alternate start codons.
+- [W8.20] GUG in particular is important to controlling the replication of plasmids.
+- [W8.21] E. coli uses 83% AUG (3542/4284), 14% (612) GUG, 3% (103) UUG and one or two others (e.g., an AUU and possibly a CUG).
+- [W8.22] Well-known coding regions that do not have AUG initiation codons are those of lacI (GUG) and lacA (UUG) in the E. coli lac operon.
+- [W8.23] Two more recent studies have independently shown that between 10 and 46 non-AUG start codons may initiate translation in E. coli.
+- [W8.24] However, the codons AUG, GUG, and UUG show much higher efficiency as start codons compared to the rest of the codons.
+- [W8.25] Mitochondrial genomes use alternate start codons more significantly (AUA and AUG in humans).
+- [W8.26] Many such examples, with codons, systematic range, and citations, are given in the NCBI list of translation tables.
+- [W8.27] Archaea, which are prokaryotes with a translation machinery similar to but simpler than that of eukaryotes, allow initiation at UUG and GUG.
+- [W8.28] These are "alternative" start codons in the sense that they are upstream of the regular start codons and thus could be used as alternative start codons.
+- [W8.29] More than half of all human mRNAs have at least one AUG codon upstream (uAUG) of their annotated translation initiation starts (TIS) (58% in the current versions of the human RefSeq sequence).
+- [W8.30] Their potential use as TISs could result in translation of so-called upstream Open Reading Frames (uORFs). uORF translation usually results in the synthesis of short polypeptides, some of which have been shown to be functional, e.g., in ASNSD1, MIEF1, MKKS, and SLC35A4.
+- [W8.31] However, it is believed that most translated uORFs only have a mild inhibitory effect on downstream translation because most uORF starts are leaky (i.e. don't initiate translation or because ribosomes terminating after translation of short ORFs are often capable of reinitiating).
+- [W8.32] A  Possible start codons in NCBI table 1.
+- [W8.33] The two other start codons listed by table 1 (CUG and UUG) are rare in eukaryotes.
+- [W8.34] Prokaryotes have less strigent start codon requirements; they are described by NCBI table 11.
+- [W8.35] B ^ ^ ^  The historical basis for designating the stop codons as amber, ochre and opal is described in an autobiography by Sydney Brenner and in a historical article by Bob Edgar.
+- [W8.36] Non-methionine start codons
+- [W8.37] Translation started by an internal ribosome entry site (IRES), which bypasses a number of regular eukaryotic initiation systems, can have a non-methinone start with GCU or CAA codons.
+- [W8.38] Mammalian cells can initiate translation with leucine using a specific leucyl-tRNA that decodes the codon CUG.
+- [W8.39] This mechanism is independent of eIF2.
+- [W8.40] No secondary structure similar to that of an IRES is needed.
+- [W8.41] It proceeds by ribosomal scanning, and a Kozak context enhances initiation efficiency.
+- [W8.42] Engineered initiator tRNA (tRNAfMetCUA, changed from a MetY tRNAfMetCAU) have been used to initiate translation at the amber stop codon UAG in E. coli.
+- [W8.43] Initiation with this tRNA not only inserts the traditional formylmethionine, but also formylglutamine, as glutamyl-tRNA synthase also recognizes the new tRNA.
+- [W8.44] (Recall from above that the bacterial translation initiation system does not specifically check for methionine, only the formyl modification).
+- [W8.45] One study has shown that the amber initiator tRNA does not initiate translation to any measurable degree from genomically-encoded UAG codons, only plasmid-borne reporters with strong upstream Shine-Dalgarno sites.
+- [W8.46] Central dogma of molecular biology
+- [W8.47] Compiled by Andrzej (Anjay) Elzanowski and Jim Ostell, National Center for Biotechnology Information (NCBI), Bethesda, Maryland, US
+
+## [W9] Wikipedia: Stop codon
+https://en.wikipedia.org/w/index.php?title=Stop_codon&oldid=1379378838 · CC BY-SA 4.0 · usage: ai_input
+
+- [W9.1] In molecular biology, a stop codon (or termination codon) is a codon (nucleotide triplet within messenger RNA) that signals the termination of the translation process of the current protein.
+- [W9.2] Most codons in messenger RNA correspond to the addition of an amino acid to a growing polypeptide chain, which may ultimately become a protein; stop codons signal the termination of this process by binding release factors, which cause the ribosomal subunits to disassociate, releasing the amino acid chain.
+- [W9.3] While start codons need nearby sequences or initiation factors to start translation, a stop codon alone is sufficient to initiate termination.
+- [W9.4] In the standard genetic code, there are three different termination codons:
+- [W9.5] There are variations on the standard genetic code, and alternative stop codons have been found in the mitochondrial genomes of vertebrates, Scenedesmus obliquus, and Thraustochytrium.
+- [W9.6] The nuclear genetic code is flexible as illustrated by variant genetic codes that reassign standard stop codons to amino acids.
+- [W9.7] In 1986, convincing evidence was provided that selenocysteine (Sec) was incorporated co-translationally.
+- [W9.8] Moreover, the codon partially directing its incorporation in the polypeptide chain was identified as UGA also known as the opal termination codon.
+- [W9.9] Different mechanisms for overriding the termination function of this codon have been identified in prokaryotes and in eukaryotes.
+- [W9.10] A particular difference between these kingdoms is that cis elements seem restricted to the neighborhood of the UAG codon in prokaryotes while in eukaryotes this restriction is not present.
+- [W9.11] Instead such locations seem disfavored albeit not prohibited.
+- [W9.12] In 2003, a landmark paper described the identification of all known selenoproteins in humans: 25 in total.
+- [W9.13] Similar analyses have been run for other organisms.
+- [W9.14] The UAG codon can translate into pyrrolysine (Pyl) in a similar manner.
+- [W9.15] Distribution of stop codons within the genome of an organism is non-random and can correlate with GC-content.
+- [W9.16] For example, the E. coli K-12 genome contains 2705 TAA (63%), 1257 TGA (29%), and 326 TAG (8%) stop codons (GC content 50.8%).
+- [W9.17] Also the substrates for the stop codons release factor 1 or release factor 2 are strongly correlated to the abundance of stop codons.
+- [W9.18] Large scale study of bacteria with a broad range of GC-contents shows that while the frequency of occurrence of TAA is negatively correlated to the GC-content and the frequency of occurrence of TGA is positively correlated to the GC-content, the frequency of occurrence of the TAG stop codon, which is often the minimally used stop codon in a genome, is not influenced by the GC-content.
+- [W9.19] Recognition of stop codons in bacteria have been associated with the so-called 'tripeptide anticodon', a highly conserved amino acid motif in RF1 (PxT) and RF2 (SPF).
+- [W9.20] Even though this is supported by structural studies, it was shown that the tripeptide anticodon hypothesis is an oversimplification.
+- [W9.21] Stop codons were historically given many different names, as they each corresponded to a distinct class of mutants that all behaved in a similar manner.
+- [W9.22] These mutants were first isolated within bacteriophages (T4 and lambda), viruses that infect the bacteria Escherichia coli.
+- [W9.23] Mutations in viral genes weakened their infectious ability, sometimes creating viruses that were able to infect and grow within only certain varieties of E. coli.
+- [W9.24] They were the first set of nonsense mutations to be discovered, isolated by Richard H. Epstein and Charles Steinberg and named after their friend and graduate Caltech student Harris Bernstein, whose last name means "amber" in German (cf. Bernstein).
+- [W9.25] Viruses with amber mutations are characterized by their ability to infect only certain strains of bacteria, known as amber suppressors.
+- [W9.26] These bacteria carry their own mutation that allows a recovery of function in the mutant viruses.
+- [W9.27] For example, a mutation in the tRNA that recognizes the amber stop codon allows translation to "read through" the codon and produce a full-length protein, thereby recovering the normal form of the protein and "suppressing" the amber mutation.
+- [W9.28] Thus, amber mutants are an entire class of virus mutants that can grow in bacteria that contain amber suppressor mutations.
+- [W9.29] Similar suppressors are known for ochre and opal stop codons as well.
+- [W9.30] tRNA molecules carrying unnatural aminoacids have been designed to recognize the amber stop codon in bacterial RNA.
+- [W9.31] This technology allows for incorporation of orthogonal aminoacids (such as p-azidophenylalanine) at specific locations of the target protein.
+- [W9.32] It was the second stop codon mutation to be discovered.
+- [W9.33] Reminiscent of the usual yellow-orange-brown color associated with amber, this second stop codon was given the name of "ochre", an orange-reddish-brown mineral pigment.
+- [W9.34] Ochre mutant viruses had a property similar to amber mutants in that they recovered infectious ability within certain suppressor strains of bacteria.
+- [W9.35] The set of ochre suppressors was distinct from amber suppressors, so ochre mutants were inferred to correspond to a different nucleotide triplet.
+- [W9.36] Through a series of mutation experiments comparing these mutants with each other and other known amino acid codons, Sydney Brenner concluded that the amber and ochre mutations corresponded to the nucleotide triplets "UAG" and "UAA".
+- [W9.37] opal or umber mutations (UGA)
+- [W9.38] The third and last stop codon in the standard genetic code was discovered soon after, and corresponds to the nucleotide triplet "UGA".
+- [W9.39] To continue matching with the theme of colored minerals, the third nonsense codon came to be known as "opal", which is a type of silica showing a variety of colors.
+- [W9.40] Nonsense mutations that created this premature stop codon were later called opal mutations or umber mutations.
+- [W9.41] Nonsense mutations are changes in DNA sequence that introduce a premature stop codon, causing any resulting protein to be abnormally shortened.
+- [W9.42] This often causes a loss of function in the protein, as critical parts of the amino acid chain are no longer assembled.
+- [W9.43] Because of this terminology, stop codons have also been referred to as nonsense codons.
+- [W9.44] A nonstop mutation, also called a stop-loss variant, is a point mutation that occurs within a stop codon.
+- [W9.45] Nonstop mutations cause the continued translation of an mRNA strand into what should be an untranslated region.
+- [W9.46] Most polypeptides resulting from a gene with a nonstop mutation lose their function due to their extreme length and the impact on normal folding.
+- [W9.47] Nonstop mutations differ from nonsense mutations in that they do not create a stop codon but, instead, delete one.
+- [W9.48] Nonstop mutations also differ from missense mutations, which are point mutations where a single nucleotide is changed to cause replacement by a different amino acid.
+- [W9.49] Nonstop mutations have been linked with many inherited diseases including endocrine disorders, eye disease, and neurodevelopmental disorders.
+- [W9.50] Hidden stops are non-stop codons that would be read as stop codons if they were frameshifted +1 or −1.
+- [W9.51] These prematurely terminate translation if the corresponding frame-shift (such as due to a ribosomal RNA slip) occurs before the hidden stop.
+- [W9.52] It is hypothesised that this decreases resource wastage on nonfunctional proteins and the production of potential cytotoxins.
+- [W9.53] Researchers at Louisiana State University propose the ambush hypothesis, that hidden stops are selected for.
+- [W9.54] Codons that can form hidden stops are used in genomes more frequently compared to synonymous codons that would otherwise code for the same amino acid.
+- [W9.55] Unstable rRNA in an organism correlates with a higher frequency of hidden stops.
+- [W9.56] However, this hypothesis could not be validated with a larger data set.
+- [W9.57] Stop-codons and hidden stops together are collectively referred as stop-signals.
+- [W9.58] Researchers at University of Memphis found that the ratios of the stop-signals on the three reading frames of a genome (referred to as translation stop-signals ratio or TSSR) of genetically related bacteria, despite their great differences in gene contents, are much alike.
+- [W9.59] This nearly identical genomic-TSSR value of genetically related bacteria may suggest that bacterial genome expansion is limited by their unique stop-signals bias of that bacterial species.
+- [W9.60] Stop codon suppression  or translational readthrough occurs when in translation a stop codon is interpreted as a sense codon, that is, when a (standard) amino acid is 'encoded' by the stop codon.
+- [W9.61] Mutated tRNAs can be the cause of readthrough, but also certain nucleotide motifs close to the stop codon.
+- [W9.62] Translational readthrough is very common in viruses and bacteria, and has also been found as a gene regulatory principle in humans, yeasts, bacteria and drosophila.
+- [W9.63] This kind of endogenous translational readthrough constitutes a variation of the genetic code, because a stop codon codes for an amino acid.
+- [W9.64] In the case of human malate dehydrogenase, the stop codon is read through with a frequency of about 4%.
+- [W9.65] The amino acid inserted at the stop codon depends on the identity of the stop codon itself: Gln, Tyr, and Lys have been found for the UAA and UAG codons, while Cys, Trp, and Arg for the UGA codon have been identified by mass spectrometry.
+- [W9.66] Extent of readthrough in mammals have widely variable extents, and can broadly diversify the proteome and affect cancer progression.
+- [W9.67] In 2010, when Craig Venter unveiled the first fully functioning, reproducing cell controlled by synthetic DNA he described how his team used frequent stop codons to create watermarks in RNA and DNA to help confirm the results were indeed synthetic (and not contaminated or otherwise), using it to encode authors' names and website addresses.
+
+## [W10] Wikipedia: Reading frame
+https://en.wikipedia.org/w/index.php?title=Reading_frame&oldid=1343133812 · CC BY-SA 4.0 · usage: ai_input
+
+- [W10.1] In molecular biology, a reading frame is a specific choice out of the possible ways to read the sequence of nucleotides in a nucleic acid (DNA or RNA) molecule as a sequence of triplets.
+- [W10.2] Where these triplets equate to amino acids or stop signals during translation, they are called codons.
+- [W10.3] A single strand of a nucleic acid molecule has a phosphoryl end, called the 5′-end, and a hydroxyl or 3′-end.
+- [W10.4] These define the 5′→3′ direction.
+- [W10.5] There are three reading frames that can be read in this 5′→3′ direction, each beginning from a different nucleotide in a triplet.
+- [W10.6] In a double stranded nucleic acid, an additional three reading frames may be read from the other, complementary strand in the 5′→3′ direction along this strand.
+- [W10.7] As the two strands of a double-stranded nucleic acid molecule are antiparallel, the 5′→3′ direction on the second strand corresponds to the 3′→5′ direction along the first strand.
+- [W10.8] In general, at the most, one reading frame in a given section of a nucleic acid is biologically relevant (open reading frame).
+- [W10.9] Some viral transcripts can be translated using multiple, overlapping reading frames.
+- [W10.10] There is one known example of overlapping reading frames in mammalian mitochondrial DNA: coding portions of genes for 2 subunits of ATPase overlap.
+- [W10.11] DNA encodes protein sequence by a series of three-nucleotide codons.
+- [W10.12] Any given sequence of DNA can therefore be read in six different ways: Three reading frames in one direction (starting at different nucleotides) and three in the opposite direction.
+- [W10.13] During transcription, the RNA polymerase read the template DNA strand in the 3′→5′ direction, but the mRNA is formed in the 5′ to 3′ direction.
+- [W10.14] The mRNA is single-stranded and therefore only contains three possible reading frames, of which only one is translated.
+- [W10.15] The codons of the mRNA reading frame are translated in the 5′→3′ direction into amino acids by a ribosome to produce a polypeptide chain.
+- [W10.16] An open reading frame (ORF) is a reading frame that has the potential to be transcribed into RNA and translated into protein.
+- [W10.17] It requires a continuous sequence of DNA which may include a start codon, through a subsequent region which has a length that is a multiple of 3 nucleotides, to a stop codon in the same reading frame.
+- [W10.18] When a putative amino acid sequence resulting from the translation of an ORF remained unknown in mitochondrial and chloroplast genomes, the corresponding open reading frame was called an unidentified reading frame (URF).
+- [W10.19] For example, the MT-ATP8 gene was first described as URF A6L when the complete human mitochondrial genome was sequenced.
+- [W10.20] The usage of multiple reading frames leads to the possibility of overlapping genes; there may be many of these in viral, prokaryote, and mitochondrial genomes.
+- [W10.21] Some viruses, e.g. hepatitis B virus and BYDV, use several overlapping genes in different reading frames.
+- [W10.22] In rare cases, a ribosome may shift from one frame to another during translation of an mRNA (translational frameshift).
+- [W10.23] This causes the first part of the mRNA to be translated in one reading frame, and the latter part to be translated in a different reading frame.
+- [W10.24] This is distinct from a frameshift mutation, as the nucleotide sequence (DNA or RNA) is not altered—only the frame in which it is read.
+- [W10.25] Directionality (molecular biology)
+
+## [W11] Wikipedia: Frameshift mutation
+https://en.wikipedia.org/w/index.php?title=Frameshift_mutation&oldid=1381201608 · CC BY-SA 4.0 · usage: ai_input
+
+- [W11.1] A frameshift mutation (also called a framing error or a reading frame shift) is a genetic mutation caused by indels (insertions or deletions) of a number of nucleotides in a DNA sequence that is not divisible by three.
+- [W11.2] Due to the triplet nature of gene expression by codons, the insertion or deletion can change the reading frame (the grouping of the codons), resulting in a completely different translation from the original.
+- [W11.3] The earlier in the sequence the deletion or insertion occurs, the more altered the protein.
+- [W11.4] A frameshift mutation is not the same as a single-nucleotide polymorphism in which a nucleotide is replaced, rather than inserted or deleted.
+- [W11.5] A frameshift mutation will in general cause the reading of the codons after the mutation to code for different amino acids.
+- [W11.6] The frameshift mutation will also alter the first stop codon ("UAA", "UGA" or "UAG") encountered in the sequence.
+- [W11.7] The polypeptide being created could be abnormally short or abnormally long, and will most likely not be functional.
+- [W11.8] Frameshift mutations are apparent in severe genetic diseases such as Tay–Sachs disease; they increase susceptibility to certain cancers and classes of familial hypercholesterolaemia; in 1997, a frameshift mutation was linked to resistance to infection by the HIV retrovirus.
+- [W11.9] Frameshift mutations have been proposed as a source of biological novelty, as with the alleged creation of nylonase, however, this interpretation is controversial.
+- [W11.10] A study by Negoro et al. (2006) found that a frameshift mutation was unlikely to have been the cause and that rather a two amino acid substitution in the active site of an ancestral esterase resulted in nylonase.
+- [W11.11] The information contained in DNA determines protein function in the cells of all organisms.
+- [W11.12] Transcription and translation allow this information to be communicated into making proteins.
+- [W11.13] However, an error in reading this communication can cause protein function to be incorrect and eventually cause disease even as the cell incorporates a variety of corrective measures.
+- [W11.14] Genetic information is conveyed by DNA for protein synthesis within cells.
+- [W11.15] Misinterpretation can lead to faulty function and disease, despite cellular correction mechanisms.
+- [W11.16] In 1956 Francis Crick described the flow of genetic information from DNA to a specific amino acid arrangement for making a protein as the central dogma.
+- [W11.17] For a cell to properly function, proteins are required to be produced accurately for structural and for catalytic activities.
+- [W11.18] An incorrectly made protein can have detrimental effects on cell viability and in most cases cause the higher organism to become unhealthy by abnormal cellular functions.
+- [W11.19] To ensure that the genome successfully passes the information on, proofreading mechanisms such as exonucleases and mismatch repair systems are incorporated in DNA replication.
+- [W11.20] Transcription and translation
+- [W11.21] After DNA replication, the reading of a selected section of genetic information is accomplished by transcription.
+- [W11.22] Nucleotides containing the genetic information are now on a single strand messenger template called mRNA.
+- [W11.23] The mRNA is incorporated with a subunit of the ribosome and interacts with an rRNA.
+- [W11.24] The genetic information carried in the codons of the mRNA are now read (decoded) by anticodons of the tRNA.
+- [W11.25] As each codon (triplet) is read, amino acids are being joined until a stop codon (UAG, UGA or UAA) is reached.
+- [W11.26] At this point the polypeptide (protein) has been synthesised and is released.
+- [W11.27] For every 1000 amino acid incorporated into the protein, no more than one is incorrect.
+- [W11.28] This fidelity of codon recognition, maintaining the importance of the proper reading frame, is accomplished by proper base pairing at the ribosome A site, GTP hydrolysis activity of EF-Tu a form of kinetic stability, and a proofreading mechanism as EF-Tu is released.
+- [W11.29] Frameshifting may also occur during prophase translation, producing different proteins from overlapping open reading frames, such as the gag-pol-env retroviral proteins.
+- [W11.30] This is fairly common in viruses and also occurs in bacteria and yeast (Farabaugh, 1996).
+- [W11.31] Reverse transcriptase, as opposed to RNA Polymerase II, is thought to be a stronger cause of the occurrence of frameshift mutations.
+- [W11.32] In experiments only 3–13% of all frameshift mutations occurred because of RNA Polymerase II.
+- [W11.33] In prokaryotes the error rate inducing frameshift mutations is only somewhere in the range of .0001 and .00001.
+- [W11.34] There are several biological processes that help to prevent frameshift mutations.
+- [W11.35] Reverse mutations occur which change the mutated sequence back to the original wild type sequence.
+- [W11.36] Another possibility for mutation correction is the use of a suppressor mutation.
+- [W11.37] This offsets the effect of the original mutation by creating a secondary mutation, shifting the sequence to allow for the correct amino acids to be read.
+- [W11.38] Guide RNA can also be used to insert or delete Uridine into the mRNA after transcription, this allows for the correct reading frame.
+- [W11.39] A codon is a set of three nucleotides, a triplet that codes for a certain amino acid.
+- [W11.40] The first codon establishes the reading frame, whereby a new codon begins.
+- [W11.41] A protein's amino acid backbone sequence is defined by contiguous triplets.
+- [W11.42] Codons are key to translation of genetic information for the synthesis of proteins.
+- [W11.43] The reading frame is set when translating the mRNA begins and is maintained as it reads one triplet to the next.
+- [W11.44] The reading of the genetic code is subject to three rules the monitor codons in mRNA.
+- [W11.45] First, codons are read in a 5' to 3' direction.
+- [W11.46] Second, codons are nonoverlapping and the message has no gaps.
+- [W11.47] The last rule, as stated above, that the message is translated in a fixed reading frame.
+- [W11.48] Frameshift mutations can occur randomly or be caused by an external stimulus.
+- [W11.49] The detection of frameshift mutations can occur via several different methods.
+- [W11.50] Frameshifts are just one type of mutation that can lead to incomplete or incorrect proteins, but they account for a significant percentage of errors in DNA.
+- [W11.51] In an unaltered gene, codons (triplets of nucleotides) are sequentially interpreted, with each codon encoding a specific amino acid.
+- [W11.52] This is known as the standard reading frame.
+- [W11.53] However, in cases of frameshift mutations, an extra nucleotide (or more) is inserted into the DNA sequence, disrupting the typical reading frame and causing a shift in the sequence.
+- [W11.54] This insertion prompts a shift in the reading frame due to the triplet nature of the genetic code.
+- [W11.55] For instance, the addition of an extra "A" leads to a sequence shift, triggering the reading of an entirely different set of codons.
+- [W11.56] This deviation in genetic information causes the ribosome, which reads the mRNA for protein synthesis, to misinterpret the genetic data.
+- [W11.57] Consequently, an entirely different series of amino acids is generated, resulting in the generation of an altered protein sequence.
+- [W11.58] In most instances, the new reading frame results in an early encounter with a stop codon, leading to the formation of a shortened and usually inactive protein.
+- [W11.59] This form of mutation is termed an early stop codon or a nonsense mutation.
+- [W11.60] This is a genetic mutation at the level of nucleotide bases.
+- [W11.61] Why and how frameshift mutations occur are continually being sought after.
+- [W11.62] An environmental study, specifically the production of UV-induced frameshift mutations by DNA polymerases deficient in 3′ → 5′ exonuclease activity was done.
+- [W11.63] The normal sequence 5′ GTC GTT TTA CAA 3′ was changed to GTC GTT T TTA CAA (MIDT) of GTC GTT C TTA CAA (MIDC) to study frameshifts.
+- [W11.64] E. coli pol I Kf and T7 DNA polymerase mutant enzymes devoid of 3′ → 5′ exonuclease activity produce UV-induced revertants at higher frequency than did their exonuclease proficient counterparts.
+- [W11.65] The data indicates that loss of proofreading activity increases the frequency of UV-induced frameshifts.
+- [W11.66] The effects of neighboring bases and secondary structure to detect the frequency of frameshift mutations has been investigated in depth using fluorescence.
+- [W11.67] Fluorescently tagged DNA, by means of base analogues, permits one to study the local changes of a DNA sequence.
+- [W11.68] Studies on the effects of the length of the primer strand reveal that an equilibrium mixture of four hybridization conformations was observed when template bases looped-out as a bulge, i.e. a structure flanked on both sides by duplex DNA.
+- [W11.69] In contrast, a double-loop structure with an unusual unstacked DNA conformation at its downstream edge was observed when the extruded bases were positioned at the primer–template junction, showing that misalignments can be modified by neighboring DNA secondary structure.
+- [W11.70] Sanger sequencing and pyrosequencing are two methods that have been used to detect frameshift mutations, however, it is likely that data generated will not be of the highest quality.
+- [W11.71] Even still, 1.96 million indels have been identified through Sanger sequencing that do not overlap with other databases.
+- [W11.72] When a frameshift mutation is observed it is compared against the Human Genome Mutation Database (HGMD) to determine if the mutation has a damaging effect.
+- [W11.73] This is done by looking at four features.
+- [W11.74] First, the ratio between the affected and conserved DNA, second the location of the mutation relative to the transcript, third the ratio of conserved and affected amino acids and finally the distance of the indel to the end of the exon.
+- [W11.75] Massively Parallel Sequencing is a newer method that can be used to detect mutations.
+- [W11.76] Using this method, up to 17 gigabases can be sequenced at once, as opposed to limited ranges for Sanger sequencing of only about 1 kilobase.
+- [W11.77] Several technologies are available to perform this test and it is being looked at to be used in clinical applications.
+- [W11.78] When testing for different carcinomas, current methods only allow for looking at one gene at a time.
+- [W11.79] Massively Parallel Sequencing can test for a variety of cancer causing mutations at once as opposed to several specific tests.
+- [W11.80] An experiment to determine the accuracy of this newer sequencing method tested for 21 genes and had no false positive calls for frameshift mutations.
+- [W11.81] A US patent (5,958,684) in 1999 by Leeuwen, details the methods and reagents for diagnosis of diseases caused by or associated with a gene having a somatic mutation giving rise to a frameshift mutation.
+- [W11.82] The methods include providing a tissue or fluid sample and conducting gene analysis for frameshift mutation or a protein from this type of mutation.
+- [W11.83] The nucleotide sequence of the suspected gene is provided from published gene sequences or from cloning and sequencing of the suspect gene.
+- [W11.84] The amino acid sequence encoded by the gene is then predicted.
+- [W11.85] NA Sequencing: Sanger sequencing or Next-Generation Sequencing (NGS) can be used to directly sequence the DNA and identify insertions or deletions.
+- [W11.86] Polymerase Chain Reaction (PCR): PCR can be used to amplify the specific region containing the mutation for subsequent analysis.
+- [W11.87] Multiplex Ligation-dependent Probe Amplification (MLPA): MLPA is a technique used to detect copy number variations and small insertions or deletions.
+- [W11.88] Comparative Genomic Hybridization (CGH): CGH is used to detect chromosomal imbalances, which may include large insertions or deletions.
+- [W11.89] Despite the rules that govern the genetic code and the various mechanisms present in a cell to ensure the correct transfer of genetic information during the process of DNA replication as well as during translation, mutations do occur; frameshift mutation is not the only type.
+- [W11.90] There are at least two other types of recognized point mutations, specifically missense mutation and nonsense mutation.
+- [W11.91] A frameshift mutation can drastically change the coding capacity (genetic information) of the message.
+- [W11.92] Small insertions or deletions (those less than 20 base pairs) make up 24% of mutations that manifest in currently recognized genetic disease.
+- [W11.93] Frameshift mutations are found to be more common in repeat regions of DNA.
+- [W11.94] A reason for this is because of slipping of the polymerase enzyme in repeat regions, allowing for mutations to enter the sequence.
+- [W11.95] Experiments can be run to determine the frequency of the frameshift mutation by adding or removing a pre-set number of nucleotides.
+- [W11.96] Experiments have been run by adding four basepairs, called the +4 experiments, but a team from Emory University looked at the difference in frequency of the mutation by both adding and deleting a base pair.
+- [W11.97] It was shown that there was no difference in the frequency between the addition and deletion of a base pair.
+- [W11.98] There is however, a difference in the result of the protein.
+- [W11.99] Huntington's disease is one of the nine codon reiteration disorders caused by polyglutamine expansion mutations that include spino-cerebellar ataxia (SCA) 1, 2, 6, 7 and 3, spinobulbar muscular atrophy and dentatorubal-pallidoluysianatrophy.
+- [W11.100] There may be a link between diseases caused by polyglutamine and polyalanine expansion mutations, as frame shifting of the original SCA3 gene product encoding CAG/polyglutamines to GCA/polyalanines.
+- [W11.101] Ribosomal slippage during translation of the SCA3 protein has been proposed as the mechanism resulting in shifting from the polyglutamine to the polyalanine-encoding frame.
+- [W11.102] A dinucleotide deletion or single nucleotide insertion within the polyglutamine tract of huntingtin exon 1 would shift the CAG, polyglutamineen coding frame by +1 (+1 frame shift) to the GCA, polyalanine-encoding frame and introduce a novel epitope to the C terminus of Htt exon 1 (APAAAPAATRPGCG).
+- [W11.103] Several diseases have frameshift mutations as at least part of the cause.
+- [W11.104] Knowing prevalent mutations can also aid in the diagnosis of the disease.
+- [W11.105] Currently there are attempts to use frameshift mutations beneficially in the treatment of diseases, changing the reading frame of the amino acids.
+- [W11.106] Frameshift mutations are known to be a factor in colorectal cancer as well as other cancers with microsatellite instability.
+- [W11.107] As stated previously, frameshift mutations are more likely to occur in a region of repeat sequence.
+- [W11.108] When DNA mismatch repair does not fix the addition or deletion of bases, these mutations are more likely to be pathogenic.
+- [W11.109] This may be in part because the tumor is not told to stop growing.
+- [W11.110] Experiments in yeast and bacteria help to show characteristics of microsatellites that may contribute to defective DNA mismatch repair.
+- [W11.111] These include the length of the microsatellite, the makeup of the genetic material and how pure the repeats are.
+- [W11.112] Based on experimental results longer microsatellites have a higher rate of frameshift mutations.
+- [W11.113] The flanking DNA can also contribute to frameshift mutations.
+- [W11.114] In prostate cancer a frameshift mutation changes the open reading frame (ORF) and prevents apoptosis from occurring.
+- [W11.115] This leads to an unregulated growth of the tumor.
+- [W11.116] While there are environmental factors that contribute to the progression of prostate cancer, there is also a genetic component.
+- [W11.117] During testing of coding regions to identify mutations, 116 genetic variants were discovered, including 61 frameshift mutations.
+- [W11.118] There are over 500 mutations on chromosome 17 that seem to play a role in the development of breast and ovarian cancer in the BRCA1 gene, many of which are frameshift.
+- [W11.119] Crohn's disease has an association with the NOD2 gene.
+- [W11.120] The mutation is an insertion of a cytosine at position 3020.
+- [W11.121] This leads to a premature stop codon, shortening the protein that is supposed to be transcribed.
+- [W11.122] When the protein is able to form normally, it responds to bacterial liposaccharides, where the 3020insC mutation prevents the protein from being responsive.
+- [W11.123] Cystic fibrosis (CF) is a disease based on mutations in the Cystic fibrosis transmembrane conductance regulator gene.
+- [W11.124] There are over 1500 mutations identified, but not all cause the disease.
+- [W11.125] Most cases of cystic fibrosis are a result of the ∆F508 mutation, which deletes the entire amino acid.
+- [W11.126] Two frameshift mutations are of interest in diagnosing CF, CF1213delT and CF1154-insTC.
+- [W11.127] Both of these mutations commonly occur in tandem with at least one other mutation.
+- [W11.128] They both lead to a small decrease in the function of the lungs and occur in about 1% of patients tested.
+- [W11.129] These mutations were identified through Sanger sequencing.
+- [W11.130] CCR5 is one of the cell entry co-factors associated with HIV, most frequently involved with nonsyncytium-inducing strains, is most apparent in HIV patients as opposed to AIDS patients.
+- [W11.131] A 32 base pair deletion in CCR5 has been identified as a mutation that negates the likelihood of an HIV infection.
+- [W11.132] This region on the open reading frame ORF contains a frameshift mutation leading to a premature stop codon.
+- [W11.133] This leads to the loss of the HIV-coreceptor function in vitro.
+- [W11.134] CCR5-1 is considered the wild type and CCR5-2 is considered to be the mutant allele.
+- [W11.135] Those with a heterozygous mutation for the CCR5 were less susceptible to the development of HIV.
+- [W11.136] In a study, despite high exposure to the HIV virus, there was no one homozygous for the CCR5 mutation that tested positive for HIV.
+- [W11.137] Tay–Sachs disease is a fatal disease affecting the central nervous system.
+- [W11.138] It is most frequently found in infants and small children.
+- [W11.139] Disease progression begins in the womb but symptoms do not appear until approximately 6 months of age.
+- [W11.140] There is no cure for the disease.
+- [W11.141] Mutations in the β-hexosaminidase A (HEXA) gene are known to affect the onset of Tay-Sachs, with 78 mutations of different types being described, 67 of which are known to cause disease.
+- [W11.142] Most of the mutations observed (65/78) are single base substitutions or SNPs, 11 deletions, 1 large and 10 small, and 2 insertions.
+- [W11.143] 8 of the observed mutations are frameshift, 6 deletions and 2 insertions.
+- [W11.144] A 4 base pair insertion in exon 11 is observed in 80% of Tay-Sachs disease presence in the Ashkenazi Jewish population.
+- [W11.145] The frameshift mutations lead to an early stop codon which is known to play a role in the disease in infants.
+- [W11.146] Delayed onset disease appears to be caused by 4 different mutations, one being a 3 base pair deletion.
+- [W11.147] Smith–Magenis syndrome (SMS) is a complex syndrome involving intellectual disabilities, sleep disturbance, behavioural problems, and a variety of craniofacial, skeletal, and visceral anomalies.
+- [W11.148] The majority of SMS cases harbor an ~3.5 Mb common deletion that encompasses the retinoic acid induced-1 (RAI1) gene.
+- [W11.149] Other cases illustrate variability in the SMS phenotype not previously shown for RAI1 mutation, including hearing loss, self-abusive behaviours, and mild global delays.
+- [W11.150] Sequencing of RAI1 revealed mutation of a heptamericC-tract (CCCCCCC) in exon 3 resulting in frameshift mutations.
+- [W11.151] Of the seven reported frameshift mutations occurring in poly C-tracts in RAI1, four cases (~57%) occur at this heptameric C-tract.
+- [W11.152] The results indicate that this heptameric C-tract is a preferential recombination hotspot insertion/deletions (SNindels) and therefore a primary target for analysis in patients suspected for mutations in RAI1.
+- [W11.153] Hypertrophic cardiomyopathy
+- [W11.154] Hypertrophic cardiomyopathy is the most common cause of sudden death in young people, including trained athletes, and is caused by mutations in genes encoding proteins of the cardiac sarcomere.
+- [W11.155] Mutations in the Troponin C gene (TNNC1) are a rare genetic cause of hypertrophic cardiomyopathy.
+- [W11.156] A recent study has indicated that a frameshift mutation (c.363dupG or p.Gln122AlafsX30) in Troponin C was the cause of hypertrophic cardiomyopathy (and sudden cardiac death) in a 19-year-old male.
+- [W11.157] Finding a cure for the diseases caused by frameshift mutations is rare.
+- [W11.158] Research into this is ongoing.
+- [W11.159] One example is a primary immunodeficiency (PID), an inherited condition which can lead to an increase in infections.
+- [W11.160] There are 120 genes and 150 mutations that play a role in primary immunodeficiencies.
+- [W11.161] The standard treatment is currently gene therapy, but this is a highly risky treatment and can often lead to other diseases, such as leukemia.
+- [W11.162] Gene therapy procedures include modifying the zinc fringer nuclease fusion protein, cleaving both ends of the mutation, which in turn removes it from the sequence.
+- [W11.163] Antisense-oligonucleotide mediated exon skipping is another possibility for Duchenne muscular dystrophy.
+- [W11.164] This process allows for passing over the mutation so that the rest of the sequence remains in frame and the function of the protein stays intact.
+- [W11.165] This, however, does not cure the disease, just treats symptoms, and is only practical in structural proteins or other repetitive genes.
+- [W11.166] A third form of repair is revertant mosaicism, which is naturally occurring by creating a reverse mutation or a mutation at a second site that corrects the reading frame.
+- [W11.167] This reversion may happen by intragenic recombination, mitotic gene conversion, second site DNA slipping or site-specific reversion.
+- [W11.168] This is possible in several diseases, such as X-linked severe combined immunodeficiency (SCID), Wiskott–Aldrich syndrome, and Bloom syndrome.
+- [W11.169] There are no drugs or other pharmacogenomic methods that help with PIDs.
+- [W11.170] A European patent (EP1369126A1) in 2003 by Bork records a method used for prevention of cancers and for the curative treatment of cancers and precancers such as DNA-mismatch repair deficient (MMR) sporadic tumours and HNPCC associated tumours.
+- [W11.171] The idea is to use immunotherapy with combinatorial mixtures of tumour-specific frameshift mutation-derived peptides to elicit a cytotoxic T-cell response specifically directed against tumour cells.
+- [W11.172] Frameshift+Mutation at the U.S.
+- [W11.173] National Library of Medicine Medical Subject Headings (MeSH)
+- [W11.174] NCBI dbSNP database — "a central repository for both single base nucleotide substitutions and short deletion and insertion polymorphisms"
+- [W11.175] Wise2 - aligns a protein against a DNA sequence allowing frameshifts and introns
+- [W11.176] FastY - compare a DNA sequence to a protein sequence database, allowing gaps and frameshifts
+- [W11.177] Path Archived 2011-07-19 at the Wayback Machine - tool that compares two frameshift proteins (back-translation principle)
+- [W11.178] HGMD - Human Genome Mutation Database
+
+## [W12] Wikipedia: Nirenberg and Matthaei experiment
+https://en.wikipedia.org/w/index.php?title=Nirenberg_and_Matthaei_experiment&oldid=1347902173 · CC BY-SA 4.0 · usage: ai_input
+
+- [W12.1] The Nirenberg and Matthaei experiment was a scientific experiment performed in May 1961 by Marshall W. Nirenberg and his post-doctoral fellow, J. Heinrich Matthaei, at the National Institutes of Health (NIH).
+- [W12.2] The experiment deciphered the first of the 64 triplet codons in the genetic code by using nucleic acid homopolymers to translate specific amino acids.
+- [W12.3] In the experiment, an extract was prepared from bacterial cells that could make protein without the presence of intact living cells.
+- [W12.4] An artificial form of RNA consisting entirely of uracil-containing nucleotides (polyuridylic acid or poly-U) was added to the extract, causing it to form a protein composed entirely of the amino acid phenylalanine.
+- [W12.5] This experiment cracked the first codon of the genetic code and showed that RNA controlled the production of specific types of protein.
+- [W12.6] Discoveries by Frederick Griffith and improved on by Oswald Avery discovered that the substance responsible for producing inheritable change in the disease-causing bacteria (Streptococcus pneumoniae) was neither a protein nor a lipid, rather deoxyribonucleic acid (DNA).
+- [W12.7] In 1944, he and his colleagues Colin MacLeod and Maclyn McCarty suggested that DNA was responsible for transferring genetic information.
+- [W12.8] Later, Erwin Chargaff (1950) discovered that the makeup of DNA differs from one species to another.
+- [W12.9] These experiments helped pave the way for the discovery of the structure of DNA.
+- [W12.10] In 1953, with the help of Maurice Wilkins and Rosalind Franklin's X-ray crystallography, James Watson and Francis Crick proposed DNA is structured as a double helix.
+- [W12.11] In the 1960s, one main DNA mystery scientists needed to figure out was the number of bases found in each code word, or codon, during transcription.
+- [W12.12] Scientists knew there was a total of four bases (guanine, cytosine, adenine, and thymine).
+- [W12.13] They also knew that were 20 known amino acids.
+- [W12.14] George Gamow suggested that the genetic code was made of three nucleotides per amino acid.
+- [W12.15] He reasoned that because there are 20 amino acids and only four bases, the coding units could not be single (4 combinations) or pairs (only 16 combinations).
+- [W12.16] Rather, he thought triplets (64 possible combinations) were the coding unit of the genetic code.
+- [W12.17] However, he proposed that the triplets were overlapping and non-degenerate (later explained by Crick in his Wobble concept).
+- [W12.18] Seymour Benzer in the late 1950s had developed an assay using phage mutations which provided the first detailed linearly structured map of a genetic region.
+- [W12.19] Crick felt he could use mutagenesis and genetic recombination phage to further delineate the nature of the genetic code.
+- [W12.20] In the Crick, Brenner et al. experiment, using these phages, the triplet nature of the genetic code was confirmed.
+- [W12.21] They used frameshift mutations and a process called reversions, to add and delete various numbers of nucleotides.
+- [W12.22] When a nucleotide triplet was added or deleted to the DNA sequence the encoded protein was minimally affected.
+- [W12.23] Thus, they concluded that the genetic code is a triplet code because it did not cause a frameshift in the reading frame.
+- [W12.24] They correctly concluded that the code is degenerate (multiple triplets can correspond to a single amino acid) and that each nucleotide sequence is read from a specific starting point.
+- [W12.25] In order to decipher this biological mystery, Nirenberg and Matthaei needed a cell-free system that would build amino acids into proteins.
+- [W12.26] Following the work of Alfred Tissières and after a few failed attempts, they created a stable system by rupturing E. coli bacteria cells and releasing the contents of the cytoplasm.
+- [W12.27] This allowed them to synthesize protein, but only when the correct kind of RNA was added, allowing Nirenberg and Matthaei to control the experiment.
+- [W12.28] They created synthetic RNA molecules outside the bacterium and introduced this RNA to the E. coli system.
+- [W12.29] The experiments used mixtures with all 20 amino acids.
+- [W12.30] For each individual experiment, 19 amino acids were "cold" (nonradioactive), and one was "hot" (radioactively tagged with 14C so they could detect the tagged amino acid later).
+- [W12.31] They varied the "hot" amino acid in each round of the experiment, seeking to determine which amino acids would be incorporated into a protein following the addition of a particular type of synthetic RNA.
+- [W12.32] The key first experiments were done with poly-U (synthetic RNA composed only of uridine bases, provided by Leon A. Heppel and Maxine Singer).
+- [W12.33] At 3 am on May 27, 1961, Matthaei used phenylalanine as the "hot" amino acid.
+- [W12.34] After an hour, the control tube (no poly-U) showed a background level of 70 counts, whereas the tube with poly-U added showed 38,000 counts per milligram of protein.
+- [W12.35] Subsequent experiments showed that the 19 "cold" amino acids were not necessary and that the protein product had the biochemical characteristics of polyphenylalanine, demonstrating that a chain of repeated uracil bases produced a protein chain made solely of the repeating amino acid phenylalanine.
+- [W12.36] While the experiment did not determine the number of bases per codon, it was consistent with the triplet codon UUU coding for phenylalanine.
+- [W12.37] In analogous experiments with other synthetic RNAs, they found that poly-C directed synthesis of polyproline.
+- [W12.38] Nirenberg recounts that the labs of Severo Ochoa and James Watson had earlier done similar experiments with poly-A, but failed to detect protein synthesis because polylysine (unlike most proteins) is soluble in trichloroacetic acid.
+- [W12.39] Further, using synthetic RNAs that randomly incorporated two bases at different ratios, they produced proteins containing more than one type of amino acid, from which they could deduce the triplet nature of the genetic code and narrow down the codon possibilities for other amino acids.
+- [W12.40] Nirenberg's group eventually decoded all the amino acid codons by 1966, however this required additional ingenious experimental methods (see Nirenberg and Leder experiment).
+- [W12.41] In August 1961, at the International Congress of Biochemistry in Moscow, Nirenberg presented the poly-U experiments – first to a small group, but then at Francis Crick's urging, again to about a thousand attendees.
+- [W12.42] The work was very enthusiastically received, and Nirenberg became famous overnight.
+- [W12.43] The paper describing the work was published the same month.
+- [W12.44] The experiment ushered in a furious race to fully crack the genetic code.
+- [W12.45] Nirenberg's main competition was the esteemed biochemist Severo Ochoa.
+- [W12.46] Dr. Ochoa and Dr. Arthur Kornberg shared the 1959 Nobel Prize in Physiology or Medicine for their previous "discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid."  However, many colleagues at the National Institutes of Health (NIH) supported Nirenberg, aware that it may lead to the first Nobel Prize by an intramural NIH scientist.
+- [W12.47] DeWitt Stetten Jr., the NIH director who first hired Nirenberg, called this period of collaboration "NIH's finest hour."
+- [W12.48] Indeed, "for their interpretation of the genetic code and its function in protein synthesis," Marshall W. Nirenberg, Robert W. Holley, and Har Gobind Khorana were awarded the 1968 Nobel Prize in Physiology or Medicine.
+- [W12.49] Working independently, Dr. Holley (Cornell University) had discovered the exact chemical structure of transfer-RNA, and Dr. Khorana (University of Wisconsin in Madison) had mastered the synthesis of nucleic acids.
+- [W12.50] Dr. Nirenberg showed - excluding nonsense codons - every combination of a triplet (i.e. a codon) composed of four different nitrogen-containing bases found in DNA and in RNA produces a specific amino acid.
+- [W12.51] The New York Times said of Nirenberg's discovery that "the science of biology has reached a new frontier," leading to "a revolution far greater in its potential significance than the atomic or hydrogen bomb." Most of the scientific community saw these experiments as highly important and beneficial.
+- [W12.52] However, there were some who were concerned with the new area of molecular genetics.
+- [W12.53] For example, Arne Tiselius, the 1948 Nobel Laureate in Chemistry, asserted that knowledge of the genetic code could "lead to methods of tampering with life, of creating new diseases, of controlling minds, of influencing heredity, even perhaps in certain desired directions."
+- [W12.54] In addition to the Nobel Prize, Dr. Nirenberg has received the Molecular Biology Award of the National Academy of Sciences and the Biological Science Award of the Washington Academy of Sciences (1962), the Paul Lewis Award of the American Chemical Society (1963), the Department of Health, Education, and Welfare Medal, along with the Harrison Howe Award of the American Chemical Society of USA, in America (1864).
+- [W12.55] Crick, Brenner et al. experiment
+- [W12.56] Nirenberg and Leder experiment
+- [W12.57] "Marshall Nirenberg: Deciphering the Genetic Code" – Office of NIH History and Stetten Museum
+
+## [W13] Wikipedia: Frameshift mutation experiment
+https://en.wikipedia.org/w/index.php?title=Frameshift_mutation_experiment&oldid=1371676726 · CC BY-SA 4.0 · usage: ai_input
+
+- [W13.1] The Crick, Brenner et al. experiment (1961) was a scientific experiment performed by Francis Crick, Sydney Brenner, Leslie Barnett  and Richard Watts-Tobin, demonstrated that the genetic code is read in non-overlapping triplets.
+- [W13.2] It was a key experiment in the development of what is now known as molecular biology and led to a publication entitled "The General Nature of the Genetic Code for Proteins".
+- [W13.3] According to the historian of science Horace Judson, the work is "regarded...as a classic of intellectual clarity, precision and rigour".
+- [W13.4] This study demonstrated that the genetic code is made up of a series of three base pair codons which code for individual amino acids; this "triplet-code" is summarized in DNA and RNA codon tables.
+- [W13.5] The experiment also elucidated the nature of gene expression and frame-shift mutations.
+- [W13.6] In the experiment, proflavin-induced mutations of the T4 bacteriophage gene, rIIB, were isolated.
+- [W13.7] Proflavin causes mutations by inserting itself between DNA bases, typically resulting in insertion or deletion of a single base pair.
+- [W13.8] Through the use of proflavin, the experimenters were able to insert or delete base pairs into their sequence of interest.
+- [W13.9] When nucleotides were inserted or deleted, the gene would often be nonfunctional.
+- [W13.10] However, if three base pairs were added or deleted, the gene would remain functional.
+- [W13.11] This proved that the genetic code uses a codon of three nucleotide bases that corresponds to an amino acid.
+- [W13.12] The mutants produced by Crick and Brenner that could not produce functional rIIB protein were the results of frameshift mutations, where the triplet code was disrupted.
+- [W13.13] Crick, Brenner et al. were also able to correct their frameshift mutations through the use of proflavin.
+- [W13.14] If they had a nonfunctional gene due to a deleted base pair, by inserting a base pair into the general area of the deleted one, they were able to rescue the function of the gene.
+- [W13.15] This is because the bases were shifted back into the correct reading frame.
+- [W13.16] In addition to discovering the triplet nature of the codon, this experiment confirmed the non-overlapping structure of the genetic code, identified the presence of "nonsense coding", and revealed the high degree of degeneracy in codon specification.
+- [W13.17] This demonstration of the triplet nature of the genetic code, although carried out with bacteriophage, later proved to be universally applicable to all forms of life.
+- [W13.18] Decades after its execution, the experiment remains inspiring for scientists, as it is both straightforward yet impactful, and it revealed fundamental insights into the organization and function of DNA and RNA.
+- [W13.19] The results of this experiment inspired many to begin decoding the triplet code discovered by Crick, Brenner et al. Once this paper was published in 1961, researchers knew that there are 64 possible triplet codons, since there are four nitrogenous bases (4 x 4 x 4 = 64).
+- [W13.20] Today, scientists have decoded what all 64 codons encode for, and the assignments have proven to be nearly universal.
+- [W13.21] Nirenberg and Leder experiment
+- [W13.22] Nirenberg and Matthaei experiment
+- [W13.23] Sydney Brenner (author), Lewis Wolpert (contributor), Errorl C. Friedberg (contributor), Eleanor Lawrence (contributor).
+- [W13.24] My Life in Science: Sydney Brenner, A Life in Science.
+- [W13.25] Biomed Central Ltd (publisher) ISBN 0954027809  ISBN 978-0954027803
+- [W13.26] Horace Freedland Judson (author).
+- [W13.27] The Eighth Day of Creation.
+- [W13.28] Johnathan Cape (publisher) ISBN 0-224-01722-5
+
+## [W14] Crick, Barnett, Brenner & Watts-Tobin 1961, Nature 192:1227
+https://doi.org/10.1038/1921227a0 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W15] Nirenberg & Matthaei 1961, PNAS 47:1588
+https://doi.org/10.1073/pnas.47.10.1588 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W16] Wikipedia: ABO blood group system
+https://en.wikipedia.org/w/index.php?title=ABO_blood_group_system&oldid=1380802160 · CC BY-SA 4.0 · usage: ai_input
+
+- [W16.1] The ABO blood group system is used to denote the presence of one, both, or neither of the A and B antigens on erythrocytes (red blood cells).
+- [W16.2] For human blood transfusions, it is the most important of the 48 different blood type (or group) classification systems currently recognized by the International Society of Blood Transfusions (ISBT) as of
+- [W16.3] A mismatch in this serotype (or in various others) can cause a potentially fatal adverse reaction after a transfusion, or an unwanted immune response to an organ transplant.
+- [W16.4] Such mismatches are rare in modern medicine.
+- [W16.5] The associated anti-A and anti-B antibodies are usually IgM antibodies, produced in the first years of life by sensitization to environmental substances such as food, bacteria, and viruses.
+- [W16.6] The ABO blood types were discovered by Karl Landsteiner in 1901; he received the Nobel Prize in Physiology or Medicine in 1930 for this discovery.
+- [W16.7] ABO blood types are also present in other primates such as apes, monkeys and Old World monkeys.
+- [W16.8] The ABO blood types were first discovered by an Austrian physician, Karl Landsteiner, working at the Pathological-Anatomical Institute of the University of Vienna (now Medical University of Vienna).
+- [W16.9] In 1900, he found that red blood cells would clump together (agglutinate) when mixed in test tubes with sera from different persons, and that some human blood also agglutinated with animal blood.
+- [W16.10] He wrote a two-sentence footnote:
+- [W16.11] The serum of healthy human beings not only agglutinates animal red cells, but also often those of human origin, from other individuals.
+- [W16.12] It remains to be seen whether this appearance is related to inborn differences between individuals or it is the result of some damage of bacterial kind.
+- [W16.13] This was the first evidence that blood variations exist in humans — it was believed that all humans have similar blood.
+- [W16.14] The next year, in 1901, he made a definitive observation that blood serum of an individual would agglutinate with only those of certain individuals.
+- [W16.15] Based on this he classified human blood into three groups, namely group A, group B, and group C. He defined that group A blood agglutinates with group B, but never with its own type.
+- [W16.16] Similarly, group B blood agglutinates with group A. Group C blood is different in that it agglutinates with both A and B. This was the discovery of blood groups for which Landsteiner was awarded the Nobel Prize in Physiology or Medicine in 1930.
+- [W16.17] In his paper, he referred to the specific blood group interactions as isoagglutination, and also introduced the concept of agglutinins (antibodies), which is the actual basis of antigen-antibody reaction in the ABO system.
+- [W16.18] [It] may be said that there exist at least two different types of agglutinins, one in A, another one in B, and both together in C. The red blood cells are inert to the agglutinins which are present in the same serum.
+- [W16.19] Thus, he discovered two antigens (agglutinogens A and B) and two antibodies (agglutinins — anti-A and anti-B).
+- [W16.20] His third group (C) indicated absence of both A and B antigens, but contains anti-A and anti-B.
+- [W16.21] The following year, his students Adriano Sturli and Alfred von Decastello discovered the fourth type (but not naming it, and simply referred to it as "no particular type").
+- [W16.22] In 1910, Ludwik Hirszfeld and Emil Freiherr von Dungern introduced the term 0 (null) for the group Landsteiner designated as C, and AB for the type discovered by Sturli and von Decastello.
+- [W16.23] They were also the first to explain the genetic inheritance of the blood groups.
+- [W16.24] Czech serologist Jan Janský independently introduced blood type classification in 1907 in a local journal.
+- [W16.25] He used the Roman numerical I, II, III, and IV (corresponding to modern O, A, B, and AB).
+- [W16.26] Unknown to Janský, an American physician William L. Moss devised a slightly different classification using the same numerical; his I, II, III, and IV corresponding to modern AB, A, B, and O. These two systems created confusion and potential danger in medical practice.
+- [W16.27] Moss's system was adopted in Britain, France, and US, while Janský's was preferred in most European countries and some parts of US.
+- [W16.28] To resolve the chaos, the American Association of Immunologists, the Society of American Bacteriologists, and the Association of Pathologists and Bacteriologists made a joint recommendation in 1921 that the Jansky classification be adopted based on priority.
+- [W16.29] But it was not followed particularly where Moss's system had been used.
+- [W16.30] In 1927, Landsteiner had moved to the Rockefeller Institute for Medical Research in New York.
+- [W16.31] As a member of a committee of the National Research Council concerned with blood grouping, he suggested to substitute Janský's and Moss's systems with the letters O, A, B, and AB.
+- [W16.32] (There was another confusion on the use of figure 0 for German null as introduced by Hirszfeld and von Dungern, because others used the letter O for ohne, meaning without or zero; Landsteiner chose the latter.) This classification was adopted by the National Research Council and became variously known as the National Research Council classification, the International classification, and most popularly the "new" Landsteiner classification.
+- [W16.33] The new system was gradually accepted and by the early 1950s, it was universally followed.
+- [W16.34] The first practical use of blood typing in transfusion was by an American physician Reuben Ottenberg in 1907.
+- [W16.35] Large-scale application began during the First World War (1914–1915) when citric acid began to be used for blood clot prevention.
+- [W16.36] Felix Bernstein demonstrated the correct blood group inheritance pattern of multiple alleles at one locus in 1924.
+- [W16.37] Watkins and Morgan, in England, discovered that the ABO epitopes were conferred by sugars, to be specific, N-acetylgalactosamine for the A-type and galactose for the B-type.
+- [W16.38] After much published literature claiming that the ABH substances were all attached to glycosphingolipids, Finne et al. (1978) found that the human erythrocyte glycoproteins contain polylactosamine chains that contains ABH substances attached and represent the majority of the antigens.
+- [W16.39] The main glycoproteins carrying the ABH antigens were identified to be the Band 3 and Band 4.5 proteins and glycophorin.
+- [W16.40] Later, Yamamoto's group showed the precise glycosyl transferase set that confers the A, B and O epitopes.
+- [W16.41] Blood groups are inherited from both parents.
+- [W16.42] The ABO blood type is controlled by a single gene (the ABO gene) with three types of alleles inferred from classical genetics: i, IA, and IB.
+- [W16.43] The I designation stands for isoagglutinogen, another term for antigen.
+- [W16.44] The gene encodes a glycosyltransferase—that is, an enzyme that modifies the carbohydrate content of the red blood cell antigens.
+- [W16.45] The gene is located on the long arm of the ninth chromosome (9q34).
+- [W16.46] The IA allele gives type A, IB gives type B, and i gives type O. As both IA and IB are dominant over i, only ii people have type O blood.
+- [W16.47] Individuals with IAIA or IAi have type A blood, and individuals with IBIB or IBi have type B. IAIB people have both phenotypes, because A and B express a special dominance relationship: codominance, which means that type A and B parents can have an AB child.
+- [W16.48] A couple with type A and type B can also have a type O child if they are both heterozygous (IBi and IAi).
+- [W16.49] The cis-AB phenotype has a single enzyme that creates both A and B antigens.
+- [W16.50] The resulting red blood cells do not usually express A or B antigen at the same level that would be expected on common group A1 or B red blood cells, which can help solve the problem of an apparently genetically impossible blood group.
+- [W16.51] Individuals with the rare Bombay phenotype (hh) produce antibodies against the A, B, and O groups and can only receive transfusions from other hh individuals.
+- [W16.52] The table above summarizes the various blood groups that children may inherit from their parents.
+- [W16.53] Genotypes are shown in the second column and in small print for the offspring: AO and AA both test as type A; BO and BB test as type B. The four possibilities represent the combinations obtained when one allele is taken from each parent; each has a 25% chance, but some occur more than once.
+- [W16.54] The text above them summarizes the outcomes.
+- [W16.55] Historically, ABO blood tests were used in paternity testing, but in 1957 only 50% of American men falsely accused were able to use them as evidence against paternity.
+- [W16.56] Occasionally, the blood types of children are not consistent with expectations—for example, a type O child can be born to an AB parent—due to rare situations, such as Bombay phenotype and cis AB.
+- [W16.57] The A blood type contains about 20 subgroups, of which A1 and A2 are the most common (over 99%).
+- [W16.58] A1 makes up about 80% of all A-type blood, with A2 making up almost all of the rest.
+- [W16.59] These two subgroups are not always interchangeable as far as transfusion is concerned, as some A2 individuals produce antibodies against the A1 antigen.
+- [W16.60] Complications can sometimes arise in rare cases when typing the blood.
+- [W16.61] With the development of DNA sequencing, it has been possible to identify a much larger number of alleles at the ABO locus, each of which can be categorized as A, B, or O in terms of the reaction to transfusion, but which can be distinguished by variations in the DNA sequence.
+- [W16.62] There are six common alleles in white individuals of the ABO gene that produce one's blood type:
+- [W16.63] The same study also identified 18 rare alleles, which generally have a weaker glycosylation activity.
+- [W16.64] People with weak alleles of A can sometimes express anti-A antibodies, though these are usually not clinically significant as they do not stably interact with the antigen at body temperature.
+- [W16.65] Cis AB is another rare variant, in which A and B antigens are transmitted together from a single parent.
+- [W16.66] Distribution and evolutionary history
+- [W16.67] The distribution of the blood groups A, B, O and AB varies across the world according to the population.
+- [W16.68] There are also variations in blood type distribution within human subpopulations.
+- [W16.69] In the UK, the distribution of blood type frequencies through the population still shows some correlation to the distribution of placenames and to the successive invasions and migrations including Celts, Norsemen, Danes, Anglo-Saxons, and Normans who contributed the morphemes to the placenames and the genes to the population.
+- [W16.70] The native Celts tended to have more type O blood, while the other populations tended to have more type A. The two common O alleles, O01 and O02, share their first 261 nucleotides with the group A allele A01.
+- [W16.71] However, unlike the group A allele, a guanosine base is subsequently deleted.
+- [W16.72] A premature stop codon results from this frame-shift mutation.
+- [W16.73] This variant is found worldwide, and likely predates human migration from Africa.
+- [W16.74] The O01 allele is considered to predate the O02 allele.
+- [W16.75] Some evolutionary biologists theorize that there are four main lineages of the ABO gene and that mutations creating type O have occurred at least three times in humans.
+- [W16.76] From oldest to youngest, these lineages comprise the following alleles: A101/A201/O09, B101, O02 and O01.
+- [W16.77] The continued presence of the O alleles is hypothesized to be the result of balancing selection.
+- [W16.78] Both theories contradict the previously held theory that type O blood evolved first.
+- [W16.79] It is possible that food and environmental antigens (bacterial, viral, or plant antigens) have epitopes similar enough to A and B glycoprotein antigens.
+- [W16.80] The antibodies created against these environmental antigens in the first years of life can cross-react with ABO-incompatible red blood cells that it comes in contact with during blood transfusion later in life.
+- [W16.81] Anti-A antibodies are hypothesized to originate from immune response towards influenza virus, whose epitopes are similar enough to the α-D-N-galactosamine on the A glycoprotein to be able to elicit a cross-reaction.
+- [W16.82] Anti-B antibodies are hypothesized to originate from antibodies produced against Gram-negative bacteria, such as E. coli, cross-reacting with the α-D-galactose on the B glycoprotein.
+- [W16.83] However, it is more likely that the force driving evolution of allele diversity is simply negative frequency-dependent selection; cells with rare variants of membrane antigens are more easily distinguished by the immune system from pathogens carrying antigens from other hosts.
+- [W16.84] Thus, individuals possessing rare types are better equipped to detect pathogens.
+- [W16.85] The high within-population diversity observed in human populations would, then, be a consequence of natural selection on individuals.
+- [W16.86] The carbohydrate molecules on the surfaces of red blood cells have roles in cell membrane integrity, cell adhesion, membrane transportation of molecules, and acting as receptors for extracellular ligands, and enzymes.
+- [W16.87] ABO antigens are found having similar roles on epithelial cells as well as red blood cells.
+- [W16.88] Bleeding and thrombosis (von Willebrand factor)
+- [W16.89] The ABO antigen is also expressed on the von Willebrand factor (vWF) glycoprotein, which participates in hemostasis (control of bleeding).
+- [W16.90] In fact, having type O blood predisposes to bleeding, as 30% of the total genetic variation observed in plasma vWF is explained by the effect of the ABO blood group, and individuals with group O blood normally have significantly lower plasma levels of vWF (and Factor VIII) than do non-O individuals.
+- [W16.91] In addition, vWF is degraded more rapidly due to the higher prevalence of blood group O with the Cys1584 variant of vWF (an amino acid polymorphism in VWF): the gene for ADAMTS13 (vWF-cleaving protease) maps to human chromosome 9 band q34.2, the same locus as ABO blood type.
+- [W16.92] Higher levels of vWF are more common amongst people who have had ischemic stroke (from blood clotting) for the first time.
+- [W16.93] The results of this study found that the occurrence was not affected by ADAMTS13 polymorphism, and the only significant genetic factor was the person's blood group.
+- [W16.94] ABO(H) blood group antigens are also carried by other hemostatically relevant glycoproteins, such as platelet glycoprotein Ibα, which is a ligand for vWF on platelets.
+- [W16.95] The significance of ABO(H) antigen expression on these other hemostatic glycoproteins is not fully defined, but may also be relevant for bleeding and thrombosis.
+- [W16.96] ABO hemolytic disease of the newborn
+- [W16.97] ABO blood group incompatibilities between the mother and child do not usually cause hemolytic disease of the newborn (HDN) because antibodies to the ABO blood groups are usually of the IgM type, which do not cross the placenta.
+- [W16.98] However, in an O-type mother, IgG ABO antibodies are produced and the baby can potentially develop ABO hemolytic disease of the newborn.
+- [W16.99] In human cells, the ABO alleles and their encoded glycosyltransferases have been described in several oncologic conditions.
+- [W16.100] Using anti-GTA/GTB monoclonal antibodies, it was demonstrated that a loss of these enzymes was correlated to malignant bladder and oral epithelia.
+- [W16.101] Furthermore, the expression of ABO blood group antigens in normal human tissues is dependent the type of differentiation of the epithelium.
+- [W16.102] In most human carcinomas, including oral carcinoma, a significant event as part of the underlying mechanism is decreased expression of the A and B antigens.
+- [W16.103] Several studies have observed that a relative down-regulation of GTA and GTB occurs in oral carcinomas in association with tumor development.
+- [W16.104] More recently, a genome wide association study (GWAS) has identified variants in the ABO locus associated with susceptibility to pancreatic cancer.
+- [W16.105] In addition, another large GWAS study has associated ABO-histo blood groups as well as FUT2 secretor status with the presence in the intestinal microbiome of specific bacterial species.
+- [W16.106] In this case the association was with Bacteroides and Faecalibacterium spp.
+- [W16.107] Bacteroides of the same OTU (operational taxonomic unit) have been shown to be associated with inflammatory bowel disease, thus the study suggests an important role for the ABO histo-blood group antigens as candidates for direct modulation of the human microbiome in health and disease.
+- [W16.108] A multi-locus genetic risk score study based on a combination of 27 loci, including the ABO gene, identified individuals at increased risk for both incident and recurrent coronary artery disease events, as well as an enhanced clinical benefit from statin therapy.
+- [W16.109] The study was based on a community cohort study (the Malmo Diet and Cancer study) and four additional randomized controlled trials of primary prevention cohorts (JUPITER and ASCOT) and secondary prevention cohorts (CARE and PROVE IT-TIMI 22).
+- [W16.110] Alteration of ABO antigens for transfusion
+- [W16.111] In April 2007, an international team of researchers announced in the journal Nature Biotechnology an inexpensive and efficient way to convert types A, B, and AB blood into type O. This is done by using glycosidase enzymes from specific bacteria to strip the blood group antigens from red blood cells.
+- [W16.112] The removal of A and B antigens still does not address the problem of the Rh blood group antigen on the blood cells of Rh positive individuals, and so blood from Rh negative donors must be used.
+- [W16.113] The modified blood is named "enzyme converted to O" (ECO blood) but despite the early success of converting B- to O-type RBCs and clinical trials without adverse effects transfusing into A- and O-type patients, the technology has not yet become clinical practice.
+- [W16.114] Another approach to the blood antigen problem is the manufacture of artificial blood, which could act as a substitute in emergencies.
+- [W16.115] In Japan and other parts of East Asia, there is a popular belief in blood type personality theory, which claims that blood types predict or influence personality.
+- [W16.116] This claim is not scientifically based, and there is scientific consensus that no such link exists; the scientific community considers it a pseudoscience and a superstition.
+- [W16.117] The belief originated in the 1930s, when it was introduced as part of Japan's eugenics program.
+- [W16.118] Its popularity faded following Japan's defeat in World War 2 and Japanese support for eugenics faltered, but it resurfaced in the 1970s by a journalist named Masahiko Nomi.
+- [W16.119] Despite its status as a pseudoscience, it remains widely popular throughout East Asia.
+- [W16.120] Other popular ideas are blood type-specific dietary needs, that group A causes severe hangovers, that group O is associated with better teeth, and that those with group A2 have the highest IQ scores.
+- [W16.121] As with blood type personality theory, these and other popular ideas lack scientific evidence, and many are discredited or pseudoscientific.
+- [W16.122] Secretor status – secretion of ABO antigens in body fluids
+- [W16.123] ABO at BGMUT Blood Group Antigen Gene Mutation Database at NCBI, NIH
+- [W16.124] Encyclopædia Britannica, ABO blood group system
+- [W16.125] National Blood Transfusion Service
+
+## [W17] Wikipedia: Hemoglobin Constant Spring
+https://en.wikipedia.org/w/index.php?title=Hemoglobin_Constant_Spring&oldid=1315203575 · CC BY-SA 4.0 · usage: ai_input
+
+- [W17.1] Hemoglobin Constant Spring is a variant of hemoglobin in which a mutation in the alpha globin gene produces an alpha globin chain that is abnormally long.
+- [W17.2] It is the most common nondeletional alpha-thalassemia mutation associated with hemoglobin H disease.
+- [W17.3] The quantity of hemoglobin in the cells is low because the messenger RNA is unstable and some is degraded prior to protein synthesis.
+- [W17.4] Another reason is that the Constant Spring alpha chain protein is itself unstable.
+- [W17.5] The result is a thalassemic phenotype.
+- [W17.6] Hemoglobin Constant Spring is renamed after Constant Spring district in Jamaica.
+
+## [W18] Wikipedia: Hemoglobin subunit beta
+https://en.wikipedia.org/w/index.php?title=Hemoglobin_subunit_beta&oldid=1369639741 · CC BY-SA 4.0 · usage: ai_input
+
+- [W18.1] Hemoglobin subunit beta (beta globin, β-globin, haemoglobin beta, hemoglobin beta) is a globin protein, coded for by the HBB gene, which along with alpha globin (HBA), makes up the most common form of haemoglobin in adult humans, hemoglobin A (HbA).
+- [W18.2] It is 147 amino acids long and has a molecular weight of 15,867 Da.
+- [W18.3] Normal adult human HbA is a heterotetramer consisting of two alpha chains and two beta chains.
+- [W18.4] β-globin is encoded by the HBB gene on human chromosome 11.
+- [W18.5] Mutations in the gene produce several variants of the proteins which are implicated with genetic disorders such as sickle-cell disease and beta thalassemia, as well as beneficial traits such as genetic resistance to malaria.
+- [W18.6] At least 50 disease-causing mutations in this gene have been discovered.
+- [W18.7] Beta-globin is produced by the gene HBB which is located in the multigene locus of β-globin locus on chromosome 11, specifically on the short arm position 15.4.
+- [W18.8] Expression of beta globin and the neighbouring globins in the β-globin locus is controlled by single locus control region (LCR), the most important regulatory element in the locus located upstream of the globin genes.
+- [W18.9] The normal allelic variant is 1600 base pairs (bp) long and contains three exons.
+- [W18.10] The order of the genes in the beta-globin cluster is 5' - epsilon – gamma-G – gamma-A – delta – beta - 3'.
+- [W18.11] Beta-globin interacts with alpha-globin to form haemoglobin A, the major haemoglobin in adult humans.
+- [W18.12] The interaction is two-fold.
+- [W18.13] First, one β-globin molecule and one  α-globin molecule combine by electrostatic attraction to form a dimer.
+- [W18.14] Secondly, two dimers combine to form the four-chain tetramer, and this becomes the functional haemoglobin.
+- [W18.15] Associated genetic disorders
+- [W18.16] Beta thalassemia is an inherited genetic mutation in one (Beta thalassemia minor) or both (Beta thalassemia major) of the Beta globin alleles on chromosome 11.
+- [W18.17] The mutant alleles are subdivided into two groups: β0, in which no functional β-globin is made, and β+, in which a small amount of normal β-globin protein is produced.
+- [W18.18] Beta thalassemia minor occurs when an individual inherits one normal Beta allele and one abnormal Beta allele (either β0, or β+).
+- [W18.19] Beta thalassemia minor results in a mild microcytic anemia that is often asymptomatic or may cause fatigue and or pale skin.
+- [W18.20] Beta thalassemia major occurs when a person inherits two abnormal alleles.
+- [W18.21] This can be either two β+ alleles, two β0 alleles, or one of each.
+- [W18.22] Beta thalassemia major is a severe medical condition.
+- [W18.23] A severe anemia is seen starting at 6 months of age.
+- [W18.24] Without medical treatment death often occurs before age 12.
+- [W18.25] Beta thalassemia major can be treated by lifelong blood transfusions or bone marrow transplantation.
+- [W18.26] More than a thousand naturally occurring HBB variants have been discovered.
+- [W18.27] The most common is HbS, which causes sickle cell disease.
+- [W18.28] HbS is produced by a point mutation in HBB in which the codon GAG is replaced by GTG.
+- [W18.29] This results in the replacement of hydrophilic amino acid glutamic acid with the hydrophobic amino acid valine at the seventh position (β6Glu→Val).
+- [W18.30] This substitution creates a hydrophobic spot on the outside of the protein that sticks to the hydrophobic region of an adjacent hemoglobin molecule's beta chain.
+- [W18.31] This further causes clumping of HbS molecules into rigid fibers, causing "sickling" of the entire red blood cells in the homozygous (HbS/HbS) condition.
+- [W18.32] The homozygous allele has become one of the deadliest genetic factors, whereas people heterozygous for the mutant allele (HbS/HbA) are resistant to malaria and develop minimal effects of the anaemia.
+- [W18.33] Sickle cell disease is closely related to another mutant haemoglobin called haemoglobin C (HbC), because they can be inherited together.
+- [W18.34] HbC mutation is at the same position in HbS, but glutamic acid is replaced by lysine (β6Glu→Lys).
+- [W18.35] The mutation is particularly prevalent in West African populations.
+- [W18.36] HbC provides near full protection against Plasmodium falciparum in homozygous (CC) individuals and intermediate protection in heterozygous (AC) individuals.
+- [W18.37] This indicates that HbC has stronger influence than HbS, and is predicted to replace HbS in malaria-endemic regions.
+- [W18.38] Another point mutation in HBB, in which glutamic acid is replaced with lysine at position 26 (β26Glu→Lys), leads to the formation of haemoglobin E (HbE).
+- [W18.39] HbE has a very unstable α- and β-globin association.
+- [W18.40] Even though the unstable protein itself has mild effect, inherited with HbS and thalassemia traits, it turns into a life-threatening form of β-thalassemia.
+- [W18.41] The mutation is of relatively recent origin suggesting that it resulted from selective pressure against severe falciparum malaria, as heterozygous allele prevents the development of malaria.
+- [W18.42] Malaria due to Plasmodium falciparum is a major selective factor in human evolution.
+- [W18.43] It has influenced mutations in HBB in various degrees resulting in the existence of numerous HBB variants.
+- [W18.44] Some of these mutations are not directly lethal and instead confer resistance to malaria, particularly in parts of the world where malaria is epidemic.
+- [W18.45] For example, there is evidence that the sickle cell mutation, common in people of African descent, provides a degree of resistance to severe malaria.
+- [W18.46] Thus, HBB mutations are the sources of positive selection in these regions and are important for their long-term survival.
+- [W18.47] Such selection markers are important for tracing human ancestry and diversification from Africa.
+- [W18.48] Overview of all the structural information available in the PDB for UniProt: P68871 (Human Hemoglobin subunit beta) at the PDBe-KB.
+- [W18.49] Overview of all the structural information available in the PDB for UniProt: P02088 (Mouse Hemoglobin subunit beta-1) at the PDBe-KB.
+
+## [W19] Wikipedia: Titin
+https://en.wikipedia.org/w/index.php?title=Titin&oldid=1380099395 · CC BY-SA 4.0 · usage: ai_input
+
+- [W19.1] Titin (; also called connectin) is a protein  that in humans is encoded by the TTN gene.
+- [W19.2] The protein, which is over 1 μm in length, functions as a molecular spring that is responsible for the passive elasticity of muscle.
+- [W19.3] It comprises 244 individually folded protein domains  connected by unstructured peptide sequences.
+- [W19.4] These domains unfold when the protein is stretched and refold when the tension is removed.
+- [W19.5] Titin is used in the contraction of striated muscle tissues.
+- [W19.6] It connects the Z disc to the M line in the sarcomere.
+- [W19.7] The protein contributes to force transmission at the Z disc and resting tension in the I band region.
+- [W19.8] It limits the range of motion of the sarcomere in tension, thus contributing to the passive stiffness of muscle.
+- [W19.9] Variations in the sequence of titin between different types of striated muscle (cardiac or skeletal) have been correlated with differences in the mechanical properties of these muscles.
+- [W19.10] Titin is the third most abundant protein in muscle (after myosin and actin), and an adult human contains approximately 0.5 kg of titin.
+- [W19.11] With its length of ~27,000 to ~35,000 amino acids (depending on the splice isoform), titin is the largest known protein.
+- [W19.12] Furthermore, the gene for titin contains the largest number of exons (363) discovered in any single gene, as well as the longest single exon (17,106 bp)
+- [W19.13] In 1954, Reiji Natori proposed the existence of an elastic structure in muscle fiber to account for the return to the resting state when muscles are stretched and then released.
+- [W19.14] In 1977, Koscak Maruyama and coworkers isolated an elastic protein from muscle fiber that they called connectin.
+- [W19.15] Two years later, Kuan Wang and coworkers identified a doublet band on electrophoresis gel corresponding to a high molecular weight, elastic protein that they named titin.
+- [W19.16] In 1991, Siegfried Labeit isolated a partial cDNA clone of titin.
+- [W19.17] Five years later, Labeit and Bernhard Kolmerer determined the cDNA sequence of human cardiac titin.
+- [W19.18] In 2001, Labeit and colleagues determined the complete sequence of the human titin gene.
+- [W19.19] The human gene encoding for titin is located on the long arm of chromosome 2 and contains 363 exons, which together code for 38,138 amino acid residues (4200 kDa).
+- [W19.20] Within the gene are found a large number of PEVK (proline-glutamate-valine-lysine -abundant structural motifs) exons 84 to 99 nucleotides in length, which code for conserved 28- to 33-residue motifs that may represent structural units of the titin PEVK spring.
+- [W19.21] The number of PEVK motifs in the titin gene appears to have increased during evolution, apparently modifying the genomic region responsible for titin's spring properties.
+- [W19.22] A number of titin isoforms are produced in different striated muscle tissues as a result of alternative splicing.
+- [W19.23] All but one of these isoforms are in the range of ~27,000 to ~36,000 amino acid residues in length.
+- [W19.24] The exception is the small cardiac novex-3 isoform, which is only 5,604 amino acid residues in length.
+- [W19.25] The following table lists the known titin isoforms:
+- [W19.26] Titin is the second largest known protein; its human variant consists of 34,350 amino acids, with the molecular mass of the mature "canonical" isoform of the protein being approximately 3,816,030.05 Da.
+- [W19.27] Its mouse homologue is even larger, comprising 35,213 amino acids with a molecular weight of 3,906,487.6 Da.
+- [W19.28] It has a theoretical isoelectric point of 6.02, and its chemical formula is C169,719H270,374N45,688O52,238S911.
+- [W19.29] It has a theoretical instability index (II) of 42.38, classifying the protein as unstable.
+- [W19.30] The protein's in vivo half-life, the time it takes for half of the amount of protein in a cell to break down after its synthesis in the cell, is predicted to be approximately 30 hours (in mammalian reticulocytes).
+- [W19.31] The titin protein is located between the myosin thick filament and the Z disk.
+- [W19.32] Titin consists primarily of a linear array of two types of modules, also referred to as protein domains (244 copies in total): type I fibronectin type III domain (132 copies) and type II immunoglobulin domain (112 copies).
+- [W19.33] However, the exact number of these domains is different in different species.
+- [W19.34] This linear array is further organized into two regions:
+- [W19.35] N-terminal I-band: acts as the elastic part of the molecule and is composed mainly of type II modules.
+- [W19.36] More specifically the I-band contains two regions of tandem type II immunoglobulin domains on either side of a PEVK region that is rich in proline (P), glutamate (E), valine (V) and lysine (K).
+- [W19.37] C-terminal A-band: is thought to act as a protein-ruler and is composed of alternating type I (Fn3) and II (Ig) modules with super-repeat segments.
+- [W19.38] These have been shown to align to the 43 nm axial repeats of myosin thick filaments with immunoglobulin domains correlating to myosin crowns.
+- [W19.39] The C-terminal region also contains a serine kinase domain that is primarily known for adapting the muscle to mechanical strain.
+- [W19.40] It is “stretch-sensitive” and helps repair overstretching of the sarcomere.
+- [W19.41] The N-terminal (the Z-disc end) contains a "Z repeat" that recognizes Actinin alpha 2.
+- [W19.42] The elasticity of the PEVK region has both entropic and enthalpic contributions and is characterized by a polymer persistence length and a stretch modulus.
+- [W19.43] At low to moderate extensions PEVK elasticity can be modeled with a standard worm-like chain (WLC) model of entropic elasticity.
+- [W19.44] At high extensions PEVK stretching can be modeled with a modified WLC model that incorporates enthalpic elasticity.
+- [W19.45] The difference between low-and high- stretch elasticity is due to electrostatic stiffening and hydrophobic effects.
+- [W19.46] Embedded between the PEVK and Ig residues are N2A domains.
+- [W19.47] The titin domains have evolved from a common ancestor through many gene duplication events.
+- [W19.48] Domain duplication was facilitated by the fact that most domains are encoded by single exons.
+- [W19.49] Other giant sarcomeric proteins made out of Fn3/Ig repeats include obscurin and myomesin.
+- [W19.50] Throughout evolution, titin mechanical strength appears to decrease through the loss of disulfide bonds as the organism becomes heavier.
+- [W19.51] Titin A-band has homologs in invertebrates, such as twitchin (unc-22) and projectin, which also contain Ig and FNIII repeats and a protein kinase domain.
+- [W19.52] The gene duplication events took place independently but were from the same ancestral Ig and FNIII domains.
+- [W19.53] It is said that the protein titin was the first to diverge out of the family.
+- [W19.54] Drosophila projectin, officially known as bent (bt), is associated with lethality by failing to escape the egg in some mutations as well as dominant changes in wing angles.
+- [W19.55] Drosophila titin, also known as Kettin or sallimus (sls), is kinase-free.
+- [W19.56] It has roles in the elasticity of both muscle and chromosomes.
+- [W19.57] It is homologous to vertebrate titin I-band and contains Ig PEVK domains, the many repeats being a hot target for splicing.
+- [W19.58] There also exists a titin homologue, ttn-1, in C. elegans.
+- [W19.59] It has a kinase domain, some Ig/Fn3 repeats, and PEVT repeats that are similarly elastic.
+- [W19.60] Titin is a large abundant protein of striated muscle.
+- [W19.61] Titin's primary functions are to stabilize the thick filament, center it between the thin filaments, prevent overstretching of the sarcomere, and to recoil the sarcomere like a spring after it is stretched.
+- [W19.62] An N-terminal Z-disc region and a C-terminal M-line region bind to the Z-line and M-line of the sarcomere, respectively, so that a single titin molecule spans half the length of a sarcomere.
+- [W19.63] Titin also contains binding sites for muscle-associated proteins so it serves as an adhesion template for the assembly of contractile machinery in muscle cells.
+- [W19.64] It has also been identified as a structural protein for chromosomes.
+- [W19.65] Considerable variability exists in the I-band, the M-line and the Z-disc regions of titin.
+- [W19.66] Variability in the I-band region contributes to the differences in elasticity of different titin isoforms and, therefore, to the differences in elasticity of different muscle types.
+- [W19.67] Of the many titin variants identified, five are described with complete transcript information available.
+- [W19.68] Dominant mutation in TTN causes predisposition to hernias.
+- [W19.69] Titin interacts with many sarcomeric proteins including:
+- [W19.70] Z line region: telethonin and alpha-actinin
+- [W19.71] I band region: calpain-3 and obscurin
+- [W19.72] M line region: myosin-binding protein C, calmodulin 1, CAPN3, and MURF1
+- [W19.73] Mutations anywhere within the unusually long sequence of this gene can cause premature stop codons or other defects.
+- [W19.74] Titin mutations are associated with hereditary myopathy with early respiratory failure, early-onset myopathy with fatal cardiomyopathy, core myopathy with heart disease, centronuclear myopathy, limb-girdle muscular dystrophy type 2J, familial dilated cardiomyopathy 9, hypertrophic cardiomyopathy and tibial muscular dystrophy.
+- [W19.75] Further research also suggests that no genetically linked form of any dystrophy or myopathy can be safely excluded from being caused by a mutation on the TTN gene.
+- [W19.76] Truncating mutations in dilated cardiomyopathy patients are most commonly found in the A region; although truncations in the upstream I region might be expected to prevent translation of the A region entirely, alternative splicing creates some transcripts that do not encounter the premature stop codon, ameliorating its effect. mRNA splicing factors such as RBM20 and SLM2 (KHDRBS3) were shown to mediated alternative mRNA splicing of titin mRNA contributing to the development of heart failure due to cardiomyopathies.
+- [W19.77] Autoantibodies to titin are produced in patients with the autoimmune disease Myasthenia gravis.
+- [W19.78] Titin has been shown to interact with:
+- [W19.79] The name titin is derived from the Greek Titan (a giant deity, anything of great size).
+- [W19.80] Titin also has the longest IUPAC name of a protein.
+- [W19.81] The full chemical name of the human canonical form of titin, expressed as a sequence of amino acids, which starts methionyl... and ends ...isoleucine, contains 189,819 letters and is sometimes stated to be the longest word in the English language, or of any language.
+- [W19.82] However, lexicographers regard formal names of chemical compounds as verbal formulae rather than English words.
+- [W19.83] PKZILLA-1 - new largest known protein with 45,212 amino acids
+- [W19.84] GeneReviews/NIH/NCBI/UW entry on Familial Hypertrophic Cardiomyopathy Overview
+- [W19.85] GeneReviews/NCBI/NIH/UW entry on Udd Distal Myopathy, Tibial Muscular Dystrophy, Udd Myopathy
+- [W19.86] GeneReviews/NIH/NCBI/UW entry on Salih Myopathy or Early-Onset Myopathy with Fatal Cardiomyopathy
+- [W19.87] InterPro domain organization of titin
+- [W19.88] This article incorporates text from the United States National Library of Medicine, which is in the public domain.
+
+## [W20] Wikipedia: Green fluorescent protein
+https://en.wikipedia.org/w/index.php?title=Green_fluorescent_protein&oldid=1381549356 · CC BY-SA 4.0 · usage: ai_input
+
+- [W20.1] The green fluorescent protein (GFP) is a protein that exhibits green fluorescence when exposed to light in the blue to ultraviolet range.
+- [W20.2] The label GFP traditionally refers to the protein first isolated from the jellyfish Aequorea victoria and is sometimes called avGFP.
+- [W20.3] However, GFPs have been found in other organisms including corals, sea anemones, zoanithids, copepods and lancelets.
+- [W20.4] The GFP from A. victoria has a major excitation peak at a wavelength of 395 nm and a minor one at 475 nm.
+- [W20.5] Its emission peak is at 509 nm, which is in the lower green portion of the visible spectrum.
+- [W20.6] The fluorescence quantum yield (QY) of GFP is 0.79.
+- [W20.7] The GFP from the sea pansy (Renilla reniformis) has a single major excitation peak at 498 nm.
+- [W20.8] GFP makes for an excellent tool in many forms of biology due to its ability to form an internal chromophore without requiring any accessory cofactors, gene products, or enzymes / substrates other than molecular oxygen.
+- [W20.9] In cell and molecular biology, the GFP gene is frequently used as a reporter of expression.
+- [W20.10] It has been used in modified forms to make biosensors, and many animals have been created that express GFP, which demonstrates a proof of concept that a gene can be expressed throughout a given organism, in selected organs, or in cells of interest.
+- [W20.11] GFP can be introduced into animals or other species through transgenic techniques, and maintained in their genome and that of their offspring.
+- [W20.12] GFP has been expressed in many species, including bacteria, yeasts, fungi, fish and mammals, including in human cells.
+- [W20.13] Scientists Roger Y. Tsien, Osamu Shimomura, and Martin Chalfie were awarded the 2008 Nobel Prize in Chemistry on 10 October 2008 for their discovery and development of the green fluorescent protein.
+- [W20.14] Most commercially available genes for GFP and similar fluorescent proteins are around 730 base-pairs long.
+- [W20.15] The natural protein has 238 amino acids.
+- [W20.16] Its molecular mass is 27 kD.
+- [W20.17] Therefore, fusing the GFP gene to the gene of a protein of interest can significantly increase the protein's size and molecular mass, and can impair the protein's natural function or change its location or trajectory of transport within the cell.
+- [W20.18] In the 1960s and 1970s, GFP, along with the separate luminescent protein aequorin (an enzyme that catalyzes the breakdown of luciferin, releasing light), was first purified from the jellyfish Aequorea victoria and its properties studied by Osamu Shimomura.
+- [W20.19] In A. victoria, GFP fluorescence occurs when aequorin interacts with Ca2+ ions, inducing a blue glow.
+- [W20.20] Some of this luminescent energy is transferred to the GFP, shifting the overall color towards green.
+- [W20.21] However, its utility as a tool for molecular biologists did not begin to be realized until 1992 when Douglas Prasher reported the cloning and nucleotide sequence of wtGFP in Gene.
+- [W20.22] The funding for this project had run out, so Prasher sent cDNA samples to several labs.
+- [W20.23] The lab of Martin Chalfie expressed the coding sequence of wtGFP, with the first few amino acids deleted, in heterologous cells of E. coli and C. elegans, publishing the results in Science in 1994.
+- [W20.24] Frederick Tsuji's lab independently reported the expression of the recombinant protein one month later.
+- [W20.25] Remarkably, the GFP molecule folded and was fluorescent at room temperature, without the need for exogenous cofactors specific to the jellyfish.
+- [W20.26] Although this near-wtGFP was fluorescent, it had several drawbacks, including dual peaked excitation spectra, pH sensitivity, chloride sensitivity, poor fluorescence quantum yield, poor photostability and poor folding at 37 °C (99 °F).
+- [W20.27] The first reported crystal structure of a GFP was that of the S65T mutant by the Remington group in Science in 1996.
+- [W20.28] One month later, the Phillips group independently reported the wild-type GFP structure in Nature Biotechnology.
+- [W20.29] These crystal structures provided vital background on chromophore formation and neighboring residue interactions.
+- [W20.30] Researchers have modified these residues by directed and random mutagenesis to produce the wide variety of GFP derivatives in use since then.
+- [W20.31] Further research into GFP has shown that it is resistant to detergents, proteases, guanidinium chloride (GdmCl) treatments, and drastic temperature changes.
+- [W20.32] Due to the potential for widespread usage and the evolving needs of researchers, many different mutants of GFP have been engineered.
+- [W20.33] The first major improvement was a single point mutation (S65T) reported in 1995 in Nature by Roger Tsien.
+- [W20.34] This mutation dramatically improved the spectral characteristics of GFP, resulting in increased fluorescence, photostability, and a shift of the major excitation peak to 488 nm, with the peak emission kept at 509 nm.
+- [W20.35] This matched the spectral characteristics of commonly available FITC filter sets, increasing the practicality of use by the general researcher.
+- [W20.36] A 37 °C folding efficiency (F64L) point mutant to this scaffold, yielding enhanced GFP (EGFP), was discovered in 1995 by the laboratories of Thastrup and Falkow.
+- [W20.37] EGFP allowed the practical use of GFPs in mammalian cells.
+- [W20.38] EGFP has an extinction coefficient (denoted ε) of 55,000 M−1cm−1.
+- [W20.39] The fluorescence quantum yield (QY) of EGFP is 0.60.
+- [W20.40] The relative brightness, expressed as ε•QY, is 33,000 M−1cm−1.
+- [W20.41] The widely used EGFP sequence, however, may produce an unintended protein product, using the +2 frame as the template.
+- [W20.42] Superfolder GFP (sfGFP), a series of mutations that allow GFP to rapidly fold and mature even when fused to poorly folding peptides, was reported in 2006.
+- [W20.43] Many other mutations have been made, including color mutants; in particular, blue fluorescent protein (EBFP, EBFP2, Azurite, mKalama1), cyan fluorescent protein (ECFP, Cerulean, CyPet, mTurquoise2), and yellow fluorescent protein derivatives (YFP, Citrine, Venus, YPet).
+- [W20.44] BFP derivatives (except mKalama1) contain the Y66H substitution.
+- [W20.45] They exhibit a broad absorption band in the ultraviolet centered close to 380 nanometers and an emission maximum at 448 nanometers.
+- [W20.46] A green fluorescent protein mutant (BFPms1) that preferentially binds Zn(II) and Cu(II) has been developed.
+- [W20.47] BFPms1 have several important mutations including and the BFP chromophore (Y66H),Y145F for higher quantum yield, H148G for creating a hole into the beta-barrel and several other mutations that increase solubility.
+- [W20.48] Zn(II) binding increases fluorescence intensity, while Cu(II) binding quenches fluorescence and shifts the absorbance maximum from 379 to 444 nm.
+- [W20.49] Therefore, they can be used as a Zn biosensor.
+- [W20.50] More color variants are possible via chromophore binding.
+- [W20.51] The critical mutation in cyan derivatives is the Y66W substitution, which causes the chromophore to form with an indole rather than phenol component.
+- [W20.52] Several additional compensatory mutations in the surrounding barrel are required to restore brightness to this modified chromophore due to the increased bulk of the indole group.
+- [W20.53] In ECFP and Cerulean, the N-terminal half of the seventh strand exhibits two conformations.
+- [W20.54] These conformations both have a complex set of van der Waals interactions with the chromophore.
+- [W20.55] The Y145A and H148D mutations in Cerulean stabilize these interactions and allow the chromophore to be more planar, better packed, and less prone to collisional quenching.
+- [W20.56] Additional site-directed random mutagenesis in combination with fluorescence lifetime based screening has further stabilized the seventh β-strand resulting in a bright variant, mTurquoise2, with a quantum yield (QY) of 0.93.
+- [W20.57] The red-shifted wavelength of the YFP derivatives is accomplished by the T203Y mutation and is due to π-electron stacking interactions between the substituted tyrosine residue and the chromophore.
+- [W20.58] These two classes of spectral variants are often employed for Förster resonance energy transfer (FRET) experiments.
+- [W20.59] Genetically encoded FRET reporters sensitive to cell signaling molecules, such as calcium or glutamate, protein phosphorylation state, protein complementation, receptor dimerization, and other processes provide highly specific optical readouts of cell activity in real time.
+- [W20.60] Semirational mutagenesis of a number of residues led to pH-sensitive mutants known as pHluorins, and later super-ecliptic pHluorins.
+- [W20.61] By exploiting the rapid change in pH upon synaptic vesicle fusion, pHluorins tagged to synaptobrevin have been used to visualize synaptic activity in neurons.
+- [W20.62] Redox sensitive GFP (roGFP) was engineered by introduction of cysteines into the beta barrel structure.
+- [W20.63] The redox state of the cysteines determines the fluorescent properties of roGFP.
+- [W20.64] The nomenclature of modified GFPs is often confusing due to overlapping mapping of several GFP versions onto a single name.
+- [W20.65] For example, mGFP often refers to a GFP with an N-terminal palmitoylation that causes the GFP to bind to cell membranes.
+- [W20.66] However, the same term is also used to refer to monomeric GFP, which is often achieved by the dimer interface breaking A206K mutation.
+- [W20.67] Wild-type GFP has a weak dimerization tendency at concentrations above 5 mg/mL. mGFP also stands for "modified GFP", which has been optimized through amino acid exchange for stable expression in plant cells.
+- [W20.68] The purpose of both the (primary) bioluminescence (from aequorin's action on luciferin) and the (secondary) fluorescence of GFP in jellyfish is unknown.
+- [W20.69] GFP is co-expressed with aequorin in small granules around the rim of the jellyfish bell.
+- [W20.70] The secondary excitation peak (480 nm) of GFP does absorb some of the blue emission of aequorin, giving the bioluminescence a more green hue.
+- [W20.71] The serine 65 residue of the GFP chromophore is responsible for the dual-peaked excitation spectra of wild-type GFP.
+- [W20.72] It is conserved in all three GFP isoforms originally cloned by Prasher.
+- [W20.73] Nearly all mutations of this residue consolidate the excitation spectra to a single peak at either 395 nm or 480 nm.
+- [W20.74] The precise mechanism of this sensitivity is complex, but, it seems, involves donation of a hydrogen from serine 65 to glutamate 222, which influences chromophore ionization.
+- [W20.75] Since a single mutation can dramatically enhance the 480 nm excitation peak, making GFP a much more efficient partner of aequorin, A. victoria appears to evolutionarily prefer the less-efficient, dual-peaked excitation spectrum.
+- [W20.76] Roger Tsien has speculated that varying hydrostatic pressure with depth may affect serine 65's ability to donate a hydrogen to the chromophore and shift the ratio of the two excitation peaks.
+- [W20.77] Thus, the jellyfish may change the color of its bioluminescence with depth.
+- [W20.78] However, a collapse in the population of jellyfish in Friday Harbor, where GFP was originally discovered, has hampered further study of the role of GFP in the jellyfish's natural environment.
+- [W20.79] Most species of lancelet are known to produce GFP in various regions of their body.
+- [W20.80] Unlike A. victoria, lancelets do not produce their own blue light, and the origin of their endogenous GFP is still unknown.
+- [W20.81] Some speculate that it attracts plankton towards the mouth of the lancelet, serving as a passive hunting mechanism.
+- [W20.82] It may also serve as a photoprotective agent in the larvae, preventing damage caused by high-intensity blue light by converting it into lower-intensity green light.
+- [W20.83] However, these theories have not been tested.
+- [W20.84] GFP-like proteins have been found in multiple species of marine copepods, particularly from the Pontellidae and Aetideidae families.
+- [W20.85] GFP isolated from Pontella mimocerami has shown high levels of brightness with a quantum yield of 0.92, making them nearly two-fold brighter than the commonly used EGFP isolated from A. victoria.
+- [W20.86] Other fluorescent proteins
+- [W20.87] There are many GFP-like proteins that, despite being in the same protein family as GFP, are not directly derived from Aequorea victoria.
+- [W20.88] These include dsRed, eqFP611, Dronpa, TagRFPs, KFP, EosFP/IrisFP, Dendra, and so on.
+- [W20.89] Having been developed from proteins in different organisms, these proteins can sometimes display unanticipated approaches to chromophore formation.
+- [W20.90] Some of these, such as KFP, are developed from naturally non- or weakly-fluorescent proteins to be greatly improved upon by mutagenesis.
+- [W20.91] When GFP-like barrels of different spectral characteristics are used, the excitation spectrum of one chromophore can be used to power another chromophore (FRET), allowing for conversion between wavelengths of light.
+- [W20.92] FMN-binding fluorescent proteins (FbFPs) were developed in 2007 and are a class of small (11–16 kDa), oxygen-independent fluorescent proteins that are derived from blue-light receptors.
+- [W20.93] They are intended especially for the use under anaerobic or hypoxic conditions, since the formation and binding of the flavin chromophore does not require molecular oxygen, as it is the case with the synthesis of the GFP chromophore.
+- [W20.94] Fluorescent proteins with other chromophores, such as UnaG with bilirubin, can display unique properties like red-shifted emission above 600 nm or photoconversion from a green-emitting state to a red-emitting state.
+- [W20.95] They can have excitation and emission wavelengths far enough apart to achieve conversion between red and green light.
+- [W20.96] A new class of fluorescent protein was engineered from α-allophycocyanin, a phycobiliprotein found in the cyanobacterium Trichodesmium erythraeum, and was named small ultra red fluorescent protein (smURFP) in 2016. smURFP autocatalytically incorporates the chromophore biliverdin without the need for an external protein known as a lyase.
+- [W20.97] Jellyfish- and coral-derived GFP-like proteins require oxygen and produce a stoichiometric amount of hydrogen peroxide upon chromophore formation. smURFP does not require oxygen or produce hydrogen peroxide. smURFP has a large extinction coefficient (180,000 M−1 cm−1) and has a modest quantum yield (0.20), which makes it comparable biophysical brightness to eGFP and ~2-fold brighter than most red or far-red fluorescent proteins derived from coral. smURFP spectral properties are similar to the organic dye Cy5.
+- [W20.98] Reviews on new classes of fluorescent proteins and applications can be found in the cited reviews.
+- [W20.99] GFP has a beta barrel structure consisting of eleven β-strands with a pleated sheet arrangement, with an alpha helix containing the covalently bonded chromophore 4-(p-hydroxybenzylidene)imidazolidin-5-one (HBI) running through the center.
+- [W20.100] Five shorter alpha helices form caps on the ends of the structure.
+- [W20.101] The beta barrel structure is a nearly perfect cylinder, 42Å long and 24Å in diameter (some studies have reported a diameter of 30Å), creating what is referred to as a "β-can" formation, which is unique to the GFP-like family.
+- [W20.102] HBI, the spontaneously modified form of the tripeptide Ser65–Tyr66–Gly67, is nonfluorescent in the absence of the properly folded GFP scaffold and exists mainly in the un-ionized phenol form in wtGFP.
+- [W20.103] Inward-facing sidechains of the barrel induce specific cyclization reactions in Ser65–Tyr66–Gly67 that induce ionization of HBI to the phenolate form and chromophore formation.
+- [W20.104] This process of post-translational modification is referred to as maturation.
+- [W20.105] The hydrogen-bonding network and electron-stacking interactions with these sidechains influence the color, intensity and photostability of GFP and its numerous derivatives.
+- [W20.106] The tightly packed nature of the barrel excludes solvent molecules, protecting the chromophore fluorescence from quenching by water.
+- [W20.107] In addition to the auto-cyclization of the Ser65-Tyr66-Gly67, a 1,2-dehydrogenation reaction occurs at the Tyr66 residue.
+- [W20.108] Besides the three residues that form the chromophore, residues such as Gln94, Arg96, His148, Thr203, and Glu222 all act as stabilizers.
+- [W20.109] The residues of Gln94, Arg96, and His148 are able to stabilize by delocalizing the chromophore charge.
+- [W20.110] Arg96 is the most important stabilizing residue due to the fact that it prompts the necessary structural realignments that are necessary from the HBI ring to occur.
+- [W20.111] Any mutation to the Arg96 residue would result in a decrease in the development rate of the chromophore because proper electrostatic and steric interactions would be lost.
+- [W20.112] Tyr66 is the recipient of hydrogen bonds and does not ionize in order to produce favorable electrostatics.
+- [W20.113] Blue fluorescent protein (BFP) is the blue variant of green fluorescent protein (GFP).
+- [W20.114] BFP has a very similar structure to GFP.
+- [W20.115] In the BFP structure, two substitution mutations in the amino acid sequence change its fluorescence from green to blue.
+- [W20.116] The first mutation occurs inside the chromophore of GFP at position 66 which changes a tyrosine to a histidine.
+- [W20.117] The other mutation in BFP is on the tyrosine at position 145 which mutates to phenylalanine.
+- [W20.118] The autocatalytic cyclization and oxidation of the serine, tyrosine, and glycine form the GFP chromophore.
+- [W20.119] These three residues at positions 65-67 make up the green fluorescent chromophore.
+- [W20.120] When the tyrosine in the chromophore is substituted by a histidine, it changes the folding structure of the protein and emission spectra.
+- [W20.121] The T145F mutation is also added to increase the stability of the protein and well as intensify the fluorescence.
+- [W20.122] These mutations are what change GFP to BFP.
+- [W20.123] Autocatalytic formation of the chromophore in wtGFP
+- [W20.124] Mechanistically, the process involves base-mediated cyclization followed by dehydration and oxidation.
+- [W20.125] In the reaction of 7a to 8 involves the formation of an enamine from the imine, while in the reaction of 7b to 9 a proton is abstracted.
+- [W20.126] The formed HBI fluorophore is highlighted in green.
+- [W20.127] The reactions are catalyzed by residues Glu222 and Arg96.
+- [W20.128] An analogous mechanism is also possible with threonine in place of Ser65.
+- [W20.129] Green fluorescent protein may be used as a reporter gene.
+- [W20.130] For example, GFP can be used as a reporter for environmental toxicity levels.
+- [W20.131] This protein has been shown to be an effective way to measure the toxicity levels of various chemicals including ethanol, p-formaldehyde, phenol, triclosan, and paraben.
+- [W20.132] GFP is great as a reporter protein because it has no effect on the host when introduced to the host's cellular environment.
+- [W20.133] Due to this ability, no external visualization stain, ATP, or cofactors are needed.
+- [W20.134] With regards to pollutant levels, the fluorescence was measured in order to gauge the effect that the pollutants have on the host cell.
+- [W20.135] The cellular density of the host cell was also measured.
+- [W20.136] Results from the study conducted by Song, Kim, & Seo (2016) showed that there was a decrease in both fluorescence and cellular density as pollutant levels increased.
+- [W20.137] This was indicative of the fact that cellular activity had decreased.
+- [W20.138] More research into this specific application in order to determine the mechanism by which GFP acts as a pollutant marker.
+- [W20.139] Similar results have been observed in zebrafish because zebrafish that were injected with GFP were approximately twenty times more susceptible to recognize cellular stresses than zebrafish that were not injected with GFP.
+- [W20.140] The biggest advantage of GFP is that it can be heritable, depending on how it was introduced, allowing for continued study of cells and tissues it is expressed in.
+- [W20.141] Visualizing GFP is noninvasive, requiring only illumination with blue light.
+- [W20.142] GFP alone does not interfere with biological processes, but when fused to proteins of interest, careful design of linkers is required to maintain the function of the protein of interest.
+- [W20.143] Moreover, if used with a monomer it is able to diffuse readily throughout cells.
+- [W20.144] The availability of GFP and its derivatives has thoroughly redefined fluorescence microscopy and the way it is used in cell biology and other biological disciplines.
+- [W20.145] While most small fluorescent molecules such as FITC (fluorescein isothiocyanate) are strongly phototoxic when used in live cells, fluorescent proteins such as GFP are usually much less harmful when illuminated in living cells.
+- [W20.146] This has triggered the development of highly automated live-cell fluorescence microscopy systems, which can be used to observe cells over time expressing one or more proteins tagged with fluorescent proteins.
+- [W20.147] There are many techniques to utilize GFP in a live cell imaging experiment.
+- [W20.148] The most direct way of utilizing GFP is to directly attach it to a protein of interest.
+- [W20.149] For example, GFP can be included in a plasmid expressing other genes to indicate a successful transfection of a gene of interest.
+- [W20.150] Another method is to use a GFP that contains a mutation where the fluorescence will change from green to yellow over time, which is referred to as a fluorescent timer.
+- [W20.151] With the fluorescent timer, researchers can study the state of protein production such as recently activated, continuously activated, or recently deactivated based on the color reported by the fluorescent protein.
+- [W20.152] In yet another example, scientists have modified GFP to become active only after exposure to irradiation giving researchers a tool to selectively activate certain portions of a cell and observe where proteins tagged with the GFP move from the starting location.
+- [W20.153] These are only two examples in a burgeoning field of fluorescent microcopy and a more complete review of biosensors utilizing GFP and other fluorescent proteins can be found here
+- [W20.154] For example, GFP had been widely used in labelling the spermatozoa of various organisms for identification purposes as in Drosophila melanogaster, where expression of GFP can be used as a marker for a particular characteristic.
+- [W20.155] GFP can also be expressed in different structures enabling morphological distinction.
+- [W20.156] In such cases, the gene for the production of GFP is incorporated into the genome of the organism in the region of the DNA that codes for the target proteins and that is controlled by the same regulatory sequence; that is, the gene's regulatory sequence now controls the production of GFP, in addition to the tagged protein(s).
+- [W20.157] In cells where the gene is expressed, and the tagged proteins are produced, GFP is produced at the same time.
+- [W20.158] Thus, only those cells in which the tagged gene is expressed, or the target proteins are produced, will fluoresce when observed under fluorescence microscopy.
+- [W20.159] Analysis of such time lapse movies has redefined the understanding of many biological processes including protein folding, protein transport, and RNA dynamics, which in the past had been studied using fixed (i.e., dead) material.
+- [W20.160] Obtained data are also used to calibrate mathematical models of intracellular systems and to estimate rates of gene expression.
+- [W20.161] Similarly, GFP can be used as an indicator of protein expression in heterologous systems.
+- [W20.162] In this scenario, fusion proteins containing GFP are introduced indirectly, using RNA of the construct, or directly, with the tagged protein itself.
+- [W20.163] This method is useful for studying structural and functional characteristics of the tagged protein on a macromolecular or single-molecule scale with fluorescence microscopy.
+- [W20.164] The Vertico SMI microscope using the SPDM Phymod technology uses the so-called "reversible photobleaching" effect of fluorescent dyes like GFP and its derivatives to localize them as single molecules in an optical resolution of 10 nm.
+- [W20.165] This can also be performed as a co-localization of two GFP derivatives (2CLM).
+- [W20.166] Another powerful use of GFP is to express the protein in small sets of specific cells.
+- [W20.167] This allows researchers to optically detect specific types of cells in vitro (in a dish), or even in vivo (in the living organism).
+- [W20.168] GFP is considered to be a reliable reporter of gene expression in eukaryotic cells when the fluorescence is measured by flow cytometry.
+- [W20.169] Genetically combining several spectral variants of GFP is a useful trick for the analysis of brain circuitry (Brainbow).
+- [W20.170] Other interesting uses of fluorescent proteins in the literature include using FPs as sensors of neuron membrane potential, tracking of AMPA receptors on cell membranes, viral entry and the infection of individual influenza viruses and lentiviral viruses, etc.
+- [W20.171] It has also been found that new lines of transgenic GFP rats can be relevant for gene therapy as well as regenerative medicine.
+- [W20.172] By using "high-expresser" GFP, transgenic rats display high expression in most tissues, and many cells that have not been characterized or have been only poorly characterized in previous GFP-transgenic rats.
+- [W20.173] GFP has been shown to be useful in cryobiology as a viability assay.
+- [W20.174] Correlation of viability as measured by trypan blue assays were 0.97.
+- [W20.175] Another application is the use of GFP co-transfection as internal control for transfection efficiency in mammalian cells.
+- [W20.176] A novel possible use of GFP includes using it as a sensitive monitor of intracellular processes via an eGFP laser system made out of a human embryonic kidney cell line.
+- [W20.177] The first engineered living laser is made by an eGFP expressing cell inside a reflective optical cavity and hitting it with pulses of blue light.
+- [W20.178] At a certain pulse threshold, the eGFP's optical output becomes brighter and completely uniform in color of pure green with a wavelength of 516 nm.
+- [W20.179] Before being emitted as laser light, the light bounces back and forth within the resonator cavity and passes the cell numerous times.
+- [W20.180] By studying the changes in optical activity, researchers may better understand cellular processes.
+- [W20.181] GFP is used widely in cancer research to label and track cancer cells.
+- [W20.182] GFP-labelled cancer cells have been used to model metastasis, the process by which cancer cells spread to distant organs.
+- [W20.183] GFP can be used to analyse the colocalization of proteins.
+- [W20.184] This is achieved by "splitting" the protein into two fragments which are able to self-assemble, and then fusing each of these to the two proteins of interest.
+- [W20.185] Alone, these incomplete GFP fragments are unable to fluoresce.
+- [W20.186] However, if the two proteins of interest colocalize, then the two GFP fragments assemble together to form a GFP-like structure which is able to fluoresce.
+- [W20.187] Therefore, by measuring the level of fluorescence it is possible to determine whether the two proteins of interest colocalize.
+- [W20.188] Macro-scale biological processes, such as the spread of virus infections, can be followed using GFP labeling.
+- [W20.189] In the past, mutagenic ultra violet light (UV) has been used to illuminate living organisms  (e.g., see) to detect and photograph the GFP expression.
+- [W20.190] Recently, a technique using non-mutagenic LED lights have been developed for macro-photography.
+- [W20.191] The technique uses an epifluorescence camera attachment based on the same principle used in the construction of epifluorescence microscopes.
+- [W20.192] Alba, a green-fluorescent rabbit, was created by a French laboratory commissioned by Eduardo Kac using GFP for purposes of art and social commentary.
+- [W20.193] The US company Yorktown Technologies markets to aquarium shops green fluorescent zebrafish (GloFish) that were initially developed to detect pollution in waterways.
+- [W20.194] NeonPets, a US-based company has marketed green fluorescent mice to the pet industry as NeonMice.
+- [W20.195] Green fluorescent pigs, known as Noels, were bred by a group of researchers led by Wu Shinn-Chih at the Department of Animal Science and Technology at National Taiwan University.
+- [W20.196] A Japanese-American Team created green-fluorescent cats as proof of concept to use them potentially as model organisms for diseases, particularly HIV.
+- [W20.197] In 2009 a South Korean team from Seoul National University bred the first transgenic beagles with fibroblast cells from sea anemones.
+- [W20.198] The dogs give off a red fluorescent light, and they are meant to allow scientists to study the genes that cause human diseases like narcolepsy and blindness.
+- [W20.199] Julian Voss-Andreae, a German-born artist specializing in "protein sculptures", created sculptures based on the structure of GFP, including the 1.70 metres (5 feet 7 inches)  tall "Green Fluorescent Protein" (2004) and the 1.40 metres (4 feet 7 inches) tall "Steel Jellyfish" (2006).
+- [W20.200] The latter sculpture is located at the place of GFP's discovery by Shimomura in 1962, the University of Washington's Friday Harbor Laboratories.
+- [W20.201] Yellow fluorescent protein
+- [W20.202] Genetically encoded voltage indicator
+- [W20.203] A comprehensive article on fluorescent proteins at Scholarpedia
+- [W20.204] Brief summary of landmark GFP papers
+- [W20.205] Interactive Java applet demonstrating the chemistry behind the formation of the GFP chromophore
+- [W20.206] Video of 2008 Nobel Prize lecture of Roger Tsien on fluorescent proteins
+- [W20.207] Excitation and emission spectra for various fluorescent proteins
+- [W20.208] Green Fluorescent Protein Chem Soc Rev themed issue dedicated to the 2008 Nobel Prize winners in Chemistry, Professors Osamu Shimomura, Martin Chalfie and Roger Y. Tsien
+- [W20.209] Molecule of the Month, June 2003: an illustrated overview of GFP by David Goodsell.
+- [W20.210] Molecule of the Month, June 2014: an illustrated overview of GFP-like variants by David Goodsell.
+- [W20.211] Green Fluorescent Protein on FPbase, a fluorescent protein database
+- [W20.212] Overview of all the structural information available in the PDB for UniProt: P42212 (Green fluorescent protein) at the PDBe-KB.
+
+## [W21] Wikipedia: Insulin
+https://en.wikipedia.org/w/index.php?title=Insulin&oldid=1380889447 · CC BY-SA 4.0 · usage: ai_input
+
+- [W21.1] Insulin ( ; from Latin  insula 'island') is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin (INS) gene.
+- [W21.2] It is the main anabolic hormone of the body.
+- [W21.3] It regulates the metabolism of carbohydrates, fats, and protein by promoting the absorption of glucose from the blood into cells of the liver, fat, and skeletal muscles.
+- [W21.4] In these tissues the absorbed glucose is converted into either glycogen, via glycogenesis, or fats (triglycerides), via lipogenesis; in the liver, glucose is converted into both.
+- [W21.5] Glucose production and secretion by the liver are strongly inhibited by high concentrations of insulin in the blood.
+- [W21.6] Circulating insulin also affects the synthesis of proteins in a wide variety of tissues.
+- [W21.7] It is thus an anabolic hormone, promoting the conversion of small molecules in the blood into large molecules in the cells.
+- [W21.8] Low insulin in the blood has the opposite effect, promoting widespread catabolism, especially of reserve body fat.
+- [W21.9] Beta cells are sensitive to blood sugar levels so that they secrete insulin into the blood in response to high level of glucose, and inhibit secretion of insulin when glucose levels are low.
+- [W21.10] Insulin enhances glucose uptake and metabolism in the cells, thereby reducing blood sugar.
+- [W21.11] Neighboring alpha cells, taking their cue from the beta cells, secrete glucagon into the blood in the opposite manner: increased secretion when blood glucose is low, and decreased secretion when glucose concentrations are high.
+- [W21.12] Glucagon increases blood glucose by stimulating glycogenolysis and gluconeogenesis in the liver.
+- [W21.13] The secretion of insulin and glucagon into the blood in response to the blood glucose concentration is the primary mechanism of glucose homeostasis.
+- [W21.14] Decreased or absent insulin activity results in diabetes, a condition of high blood sugar level (hyperglycaemia).
+- [W21.15] There are two types of the disease.
+- [W21.16] In type 1 diabetes, the beta cells are destroyed by an autoimmune reaction so that insulin can no longer be synthesized or be secreted into the blood.
+- [W21.17] In type 2 diabetes, the destruction of beta cells is less pronounced than in type 1, and is not due to an autoimmune process.
+- [W21.18] Instead, there is an accumulation of amyloid in the pancreatic islets, which likely disrupts their anatomy and physiology.
+- [W21.19] The pathogenesis of type 2 diabetes is not well understood but reduced population of islet beta-cells, reduced secretory function of islet beta-cells that survive, and peripheral tissue insulin resistance are known to be involved.
+- [W21.20] Type 2 diabetes is characterized by increased glucagon secretion which is unaffected by, and unresponsive to the concentration of blood glucose.
+- [W21.21] However, insulin is still secreted into the blood in response to the blood glucose.
+- [W21.22] As a result, glucose accumulates in the blood.
+- [W21.23] The human insulin protein is composed of 51 amino acids, and has a molecular mass of 5808 Da.
+- [W21.24] It is a heterodimer of an A-chain and a B-chain, which are linked together by disulfide bonds.
+- [W21.25] Insulin's structure varies slightly between species of animals.
+- [W21.26] Insulin from non-human animal sources differs somewhat in effectiveness (in carbohydrate metabolism effects) from human insulin because of these variations.
+- [W21.27] Porcine insulin is especially close to the human version, and was widely used to treat type 1 diabetics before human insulin could be produced in large quantities by recombinant DNA technologies.
+- [W21.28] Insulin was the first peptide hormone discovered.
+- [W21.29] Frederick Banting and Charles Best, working in the laboratory of John Macleod at the University of Toronto, were the first to isolate insulin from dog pancreas in 1921.
+- [W21.30] Frederick Sanger sequenced the amino acid structure in 1951, which made insulin the first protein to be fully sequenced.
+- [W21.31] The crystal structure of insulin in the solid state was determined by Dorothy Hodgkin in 1969.
+- [W21.32] Insulin is also the first protein to be chemically synthesised and produced by DNA recombinant technology.
+- [W21.33] It is on the WHO Model List of Essential Medicines, the most important medications needed in a basic health system.
+- [W21.34] Evolution and species distribution
+- [W21.35] Insulin may have originated more than a billion years ago.
+- [W21.36] The molecular origins of insulin go at least as far back as the simplest unicellular eukaryotes.
+- [W21.37] Apart from animals, insulin-like proteins are also known to exist in fungi and protists.
+- [W21.38] Insulin is produced by beta cells of the pancreatic islets in most vertebrates and by the Brockmann body in some teleost fish.
+- [W21.39] Cone snails: Conus geographus and Conus tulipa, venomous sea snails that hunt small fish, use modified forms of insulin in their venom cocktails.
+- [W21.40] The insulin toxin, closer in structure to fishes' than to snails' native insulin, slows down the prey fishes by lowering their blood glucose levels.
+- [W21.41] Insulin is produced exclusively in the beta cells of the pancreatic islets in mammals, and the Brockmann body in some fish.
+- [W21.42] Human insulin is produced from the INS gene, located on chromosome 11.
+- [W21.43] Rodents have two functional insulin genes; one is the homolog of most mammalian genes (Ins2), and the other is a retroposed copy that includes promoter sequence but that is missing an intron (Ins1).
+- [W21.44] Transcription of the insulin gene increases in response to elevated blood glucose.
+- [W21.45] This is primarily controlled by transcription factors that bind enhancer sequences in the ~400 base pairs before the gene's transcription start site.
+- [W21.46] The major transcription factors influencing insulin secretion are PDX1, NeuroD1, and MafA.
+- [W21.47] During a low-glucose state, PDX1 (pancreatic and duodenal homeobox protein 1) is located in the nuclear periphery as a result of interaction with HDAC1 and 2, which results in downregulation of insulin secretion.
+- [W21.48] An increase in blood glucose levels causes phosphorylation of PDX1, which leads it to undergo nuclear translocation and bind the A3 element within the insulin promoter.
+- [W21.49] Upon translocation it interacts with coactivators HAT p300 and SETD7.
+- [W21.50] PDX1 affects the histone modifications through acetylation and deacetylation as well as methylation.
+- [W21.51] It is also said to suppress glucagon.
+- [W21.52] NeuroD1, also known as β2, regulates insulin exocytosis in pancreatic β cells by directly inducing the expression of genes involved in exocytosis.
+- [W21.53] It is localized in the cytosol, but in response to high glucose it becomes glycosylated by OGT and/or phosphorylated by ERK, which causes translocation to the nucleus.
+- [W21.54] In the nucleus β2 heterodimerizes with E47, binds to the E1 element of the insulin promoter and recruits co-activator p300 which acetylates β2.
+- [W21.55] It is able to interact with other transcription factors as well in activation of the insulin gene.
+- [W21.56] MafA is degraded by proteasomes upon low blood glucose levels.
+- [W21.57] Increased levels of glucose make an unknown protein glycosylated.
+- [W21.58] This protein works as a transcription factor for MafA in an unknown manner and MafA is transported out of the cell.
+- [W21.59] MafA is then translocated back into the nucleus where it binds the C1 element of the insulin promoter.
+- [W21.60] These transcription factors work synergistically and in a complex arrangement.
+- [W21.61] Increased blood glucose can after a while destroy the binding capacities of these proteins, and therefore reduce the amount of insulin secreted, causing diabetes.
+- [W21.62] The decreased binding activities can be mediated by glucose induced oxidative stress and antioxidants are said to prevent the decreased insulin secretion in glucotoxic pancreatic β cells.
+- [W21.63] Stress signalling molecules and reactive oxygen species inhibits the insulin gene by interfering with the cofactors binding the transcription factors and the transcription factors itself.
+- [W21.64] Several regulatory sequences in the promoter region of the human insulin gene bind to transcription factors.
+- [W21.65] In general, the A-boxes bind to Pdx1 factors, E-boxes bind to NeuroD, C-boxes bind to MafA, and cAMP response elements to CREB.
+- [W21.66] There are also silencers that inhibit transcription.
+- [W21.67] Insulin is synthesized as an inactive precursor molecule, a 110 amino acid-long protein called preproinsulin.
+- [W21.68] Preproinsulin is translated directly into the rough endoplasmic reticulum (RER), where its signal peptide is removed by signal peptidase to form proinsulin.
+- [W21.69] As the proinsulin folds, opposite ends of the protein, called the "A-chain" and the "B-chain", are fused together with three disulfide bonds.
+- [W21.70] Folded proinsulin then transits through the Golgi apparatus and is packaged into specialized secretory vesicles, or granules.
+- [W21.71] In the granule, proinsulin is cleaved by proprotein convertase 1/3 and proprotein convertase 2, removing the middle part of the protein, called the "C-peptide".
+- [W21.72] Finally, carboxypeptidase E removes two pairs of amino acids from the protein's ends, resulting in active insulin – the insulin A- and B- chains, now connected with two disulfide bonds.
+- [W21.73] The resulting mature insulin is packaged inside mature granules waiting for metabolic signals (such as leucine, arginine, glucose and mannose) and vagal nerve stimulation to be exocytosed from the cell into the circulation.
+- [W21.74] Insulin and its related proteins have been shown to be produced inside the brain, and reduced levels of these proteins are linked to Alzheimer's disease.
+- [W21.75] Insulin release is stimulated also by beta-2 receptor stimulation and inhibited by alpha-1 receptor stimulation.
+- [W21.76] In addition, cortisol, glucagon and growth hormone antagonize the actions of insulin during times of stress.
+- [W21.77] Insulin also inhibits fatty acid release by hormone-sensitive lipase in adipose tissue.
+- [W21.78] Contrary to an initial belief that hormones would be generally small chemical molecules, as the first peptide hormone known of its structure, insulin was found to be quite large.
+- [W21.79] A single protein (monomer) of human insulin is composed of 51 amino acids, and has a molecular mass of 5808 Da.
+- [W21.80] The molecular formula of human insulin is C257H383N65O77S6.
+- [W21.81] It is a combination of two peptide chains (dimer) named an A-chain and a B-chain, which are linked together by two disulfide bonds.
+- [W21.82] The A-chain is composed of 21 amino acids, while the B-chain consists of 30 residues.
+- [W21.83] The linking (interchain) disulfide bonds are formed at cysteine residues between the positions A7-B7 and A20-B19.
+- [W21.84] There is an additional (intrachain) disulfide bond within the A-chain between cysteine residues at positions A6 and A11.
+- [W21.85] The A-chain exhibits two α-helical regions at A1-A8 and A12-A19 which are antiparallel; while the B chain has a central α -helix (covering residues B9-B19) flanked by the disulfide bond on both sides and two β-sheets (covering B7-B10 and B20-B23).
+- [W21.86] The amino acid sequence of insulin is strongly conserved and varies only slightly between species.
+- [W21.87] Bovine insulin differs from human in only three amino acid residues, and porcine insulin in one.
+- [W21.88] Even insulin from some species of fish is similar enough to human to be clinically effective in humans.
+- [W21.89] Insulin in some invertebrates is quite similar in sequence to human insulin, and has similar physiological effects.
+- [W21.90] The strong homology seen in the insulin sequence of diverse species suggests that it has been conserved across much of animal evolutionary history.
+- [W21.91] The C-peptide of proinsulin, however, differs much more among species; it is also a hormone, but a secondary one.
+- [W21.92] Insulin is produced and stored in the body as a hexamer (a unit of six insulin molecules), while the active form is the monomer.
+- [W21.93] The hexamer is about 36000 Da in size.
+- [W21.94] The six molecules are linked together as three dimeric units to form symmetrical molecule.
+- [W21.95] An important feature is the presence of zinc atoms (Zn2+) on the axis of symmetry, which are surrounded by three water molecules and three histidine residues at position B10.
+- [W21.96] The hexamer is an inactive form with long-term stability, which serves as a way to keep the highly reactive insulin protected, yet readily available.
+- [W21.97] The hexamer-monomer conversion is one of the central aspects of insulin formulations for injection.
+- [W21.98] The hexamer is far more stable than the monomer, which is desirable for practical reasons; however, the monomer is a much faster-reacting drug because diffusion rate is inversely related to particle size.
+- [W21.99] A fast-reacting drug means insulin injections do not have to precede mealtimes by hours, which in turn gives people with diabetes more flexibility in their daily schedules.
+- [W21.100] Insulin can aggregate and form fibrillar interdigitated beta-sheets.
+- [W21.101] This can cause injection amyloidosis, and prevents the storage of insulin for long periods.
+- [W21.102] Beta cells in the islets of Langerhans release insulin in two phases.
+- [W21.103] The first-phase release is rapidly triggered in response to increased blood glucose levels, and lasts about 10 minutes.
+- [W21.104] The second phase is a sustained, slow release of newly formed vesicles triggered independently of sugar, peaking in 2 to 3 hours.
+- [W21.105] The two phases of the insulin release suggest that insulin granules are present in diverse stated populations or "pools".
+- [W21.106] During the first phase of insulin exocytosis, most of the granules predispose for exocytosis are released after the calcium internalization.
+- [W21.107] This pool is known as Readily Releasable Pool (RRP).
+- [W21.108] The RRP granules represent 0.3-0.7% of the total insulin-containing granule population, and they are found immediately adjacent to the plasma membrane.
+- [W21.109] During the second phase of exocytosis, insulin granules require mobilization of granules to the plasma membrane and a previous preparation to undergo their release.
+- [W21.110] Thus, the second phase of insulin release is governed by the rate at which granules get ready for release.
+- [W21.111] This pool is known as a Reserve Pool (RP).
+- [W21.112] The RP is released slower than the RRP (RRP: 18 granules/min; RP: 6 granules/min).
+- [W21.113] Reduced first-phase insulin release may be the earliest detectable beta cell defect predicting onset of type 2 diabetes.
+- [W21.114] First-phase release and insulin sensitivity are independent predictors of diabetes.
+- [W21.115] The description of first phase release is as follows:
+- [W21.116] Glucose enters the β-cells through the glucose transporters, GLUT 2.
+- [W21.117] At low blood sugar levels little glucose enters the β-cells; at high blood glucose concentrations large quantities of glucose enter these cells.
+- [W21.118] The glucose that enters the β-cell is phosphorylated to glucose-6-phosphate (G-6-P) by glucokinase (hexokinase IV) which is not inhibited by G-6-P in the way that the hexokinases in other tissues (hexokinase I – III) are affected by this product.
+- [W21.119] This means that the intracellular G-6-P concentration remains proportional to the blood sugar concentration.
+- [W21.120] Glucose-6-phosphate enters glycolytic pathway and then, via the pyruvate dehydrogenase reaction, into the Krebs cycle, where multiple, high-energy ATP molecules are produced by the oxidation of acetyl CoA (the Krebs cycle substrate), leading to a rise in the ATP:ADP ratio within the cell.
+- [W21.121] An increased intracellular ATP:ADP ratio closes the ATP-sensitive SUR1/Kir6.2 potassium channel (see sulfonylurea receptor).
+- [W21.122] This prevents potassium ions (K+) from leaving the cell by facilitated diffusion, leading to a buildup of intracellular potassium ions.
+- [W21.123] As a result, the inside of the cell becomes less negative with respect to the outside, leading to the depolarization of the cell surface membrane.
+- [W21.124] Upon depolarization, voltage-gated calcium ion (Ca2+) channels open, allowing calcium ions to move into the cell by facilitated diffusion.
+- [W21.125] The cytosolic calcium ion concentration can also be increased by calcium release from intracellular stores via activation of ryanodine receptors.
+- [W21.126] The calcium ion concentration in the cytosol of the beta cells can also, or additionally, be increased through the activation of phospholipase C resulting from the binding of an extracellular ligand (hormone or neurotransmitter) to a G protein-coupled membrane receptor.
+- [W21.127] Phospholipase C cleaves the membrane phospholipid, phosphatidyl inositol 4,5-bisphosphate, into inositol 1,4,5-trisphosphate and diacylglycerol.
+- [W21.128] Inositol 1,4,5-trisphosphate (IP3) then binds to receptor proteins in the plasma membrane of the endoplasmic reticulum (ER).
+- [W21.129] This allows the release of Ca2+ ions from the ER via IP3-gated channels, which raises the cytosolic concentration of calcium ions independently of the effects of a high blood glucose concentration.
+- [W21.130] Parasympathetic stimulation of the pancreatic islets operates via this pathway to increase insulin secretion into the blood.
+- [W21.131] The significantly increased amount of calcium ions in the cells' cytoplasm causes the release into the blood of previously synthesized insulin, which has been stored in intracellular secretory vesicles.
+- [W21.132] This is the primary mechanism for release of insulin.
+- [W21.133] Other substances known to stimulate insulin release include the amino acids arginine and leucine, parasympathetic release of acetylcholine (acting via the phospholipase C pathway), sulfonylurea, cholecystokinin (CCK, also via phospholipase C), and the gastrointestinally derived incretins, such as glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic peptide (GIP).
+- [W21.134] Release of insulin is strongly inhibited by norepinephrine (noradrenaline), which leads to increased blood glucose levels during stress.
+- [W21.135] It appears that release of catecholamines by the sympathetic nervous system has conflicting influences on insulin release by beta cells, because insulin release is inhibited by α2-adrenergic receptors and stimulated by β2-adrenergic receptors.
+- [W21.136] The net effect of norepinephrine from sympathetic nerves and epinephrine from adrenal glands on insulin release is inhibition due to dominance of the α-adrenergic receptors.
+- [W21.137] When the glucose level comes down to the usual physiologic value, insulin release from the β-cells slows or stops.
+- [W21.138] If the blood glucose level drops lower than this, especially to dangerously low levels, release of hyperglycemic hormones (most prominently glucagon from islet of Langerhans alpha cells) forces release of glucose into the blood from the liver glycogen stores, supplemented by gluconeogenesis if the glycogen stores become depleted.
+- [W21.139] By increasing blood glucose, the hyperglycemic hormones prevent or correct life-threatening hypoglycemia.
+- [W21.140] Evidence of impaired first-phase insulin release can be seen in the glucose tolerance test, demonstrated by a substantially elevated blood glucose level at 30 minutes after the ingestion of a glucose load (75 or 100 g of glucose), followed by a slow drop over the next 100 minutes, to remain above 120 mg/100 mL after two hours after the start of the test.
+- [W21.141] In a normal person the blood glucose level is corrected (and may even be slightly over-corrected) by the end of the test.
+- [W21.142] An insulin spike is a 'first response' to blood glucose increase, this response is individual and dose specific although it was always previously assumed to be food type specific only.
+- [W21.143] Even during digestion, in general, one or two hours following a meal, insulin release from the pancreas is not continuous, but oscillates with a period of 3–6 minutes, changing from generating a blood insulin concentration more than about 800 p mol/l to less than 100 pmol/L (in rats).
+- [W21.144] This is thought to avoid downregulation of insulin receptors in target cells, and to assist the liver in extracting insulin from the blood.
+- [W21.145] This oscillation is important to consider when administering insulin-stimulating medication, since it is the oscillating blood concentration of insulin release, which should, ideally, be achieved, not a constant high concentration.
+- [W21.146] This may be achieved by delivering insulin rhythmically to the portal vein, by light activated delivery, or by islet cell transplantation to the liver.
+- [W21.147] The blood insulin level can be measured in international units, such as μIU/mL or in molar concentration, such as pmol/L, where 1 μIU/mL equals 6.945 pmol/L.
+- [W21.148] A typical blood level between meals is 8–11 μIU/mL (57–79 pmol/L).
+- [W21.149] The effects of insulin are initiated by its binding to a receptor, the insulin receptor (IR), present in the cell membrane.
+- [W21.150] The receptor molecule contains an α- and β subunits.
+- [W21.151] Two molecules are joined to form what is known as a homodimer.
+- [W21.152] Insulin binds to the α-subunits of the homodimer, which faces the extracellular side of the cells.
+- [W21.153] The β subunits have tyrosine kinase enzyme activity which is triggered by the insulin binding.
+- [W21.154] This activity provokes the autophosphorylation of the β subunits and subsequently the phosphorylation of proteins inside the cell known as insulin receptor substrates (IRS).
+- [W21.155] The phosphorylation of the IRS activates a signal transduction cascade that leads to the activation of other kinases as well as transcription factors that mediate the intracellular effects of insulin.
+- [W21.156] The cascade that leads to the insertion of GLUT4 glucose transporters into the cell membranes of muscle and fat cells, and to the synthesis of glycogen in liver and muscle tissue, as well as the conversion of glucose into triglycerides in liver, adipose, and lactating mammary gland tissue, operates via the activation, by IRS-1, of phosphoinositol 3 kinase (PI3K).
+- [W21.157] This enzyme converts a phospholipid in the cell membrane by the name of phosphatidylinositol 4,5-bisphosphate (PIP2), into phosphatidylinositol 3,4,5-triphosphate (PIP3), which, in turn, activates protein kinase B (PKB).
+- [W21.158] Activated PKB facilitates the fusion of GLUT4 containing endosomes with the cell membrane, resulting in an increase in GLUT4 transporters in the plasma membrane.
+- [W21.159] PKB also phosphorylates glycogen synthase kinase (GSK), thereby inactivating this enzyme.
+- [W21.160] This means that its substrate, glycogen synthase (GS), cannot be phosphorylated, and remains dephosphorylated, and therefore active.
+- [W21.161] The active enzyme, glycogen synthase (GS), catalyzes the rate limiting step in the synthesis of glycogen from glucose.
+- [W21.162] Similar dephosphorylations affect the enzymes controlling the rate of glycolysis leading to the synthesis of fats via malonyl-CoA in the tissues that can generate triglycerides, and also the enzymes that control the rate of gluconeogenesis in the liver.
+- [W21.163] The overall effect of these final enzyme dephosphorylations is that, in the tissues that can carry out these reactions, glycogen and fat synthesis from glucose are stimulated, and glucose production by the liver through glycogenolysis and gluconeogenesis are inhibited.
+- [W21.164] The breakdown of triglycerides by adipose tissue into free fatty acids and glycerol is also inhibited.
+- [W21.165] After the intracellular signal that resulted from the binding of insulin to its receptor has been produced, termination of signaling is then needed.
+- [W21.166] As mentioned below in the section on degradation, endocytosis and degradation of the receptor bound to insulin is a main mechanism to end signaling.
+- [W21.167] In addition, the signaling pathway is also terminated by dephosphorylation of the tyrosine residues in the various signaling pathways by tyrosine phosphatases.
+- [W21.168] Serine/Threonine kinases are also known to reduce the activity of insulin.
+- [W21.169] The structure of the insulin–insulin receptor complex has been determined using the techniques of X-ray crystallography.
+- [W21.170] The actions of insulin on the global human metabolism level include:
+- [W21.171] Increase of cellular intake of certain substances, most prominently glucose in muscle and adipose tissue (about two-thirds of body cells)
+- [W21.172] Increase of DNA replication and protein synthesis via control of amino acid uptake
+- [W21.173] Modification of the activity of numerous enzymes.
+- [W21.174] The actions of insulin (indirect and direct) on cells include:
+- [W21.175] Stimulates the uptake of glucose – Insulin decreases blood glucose concentration by inducing intake of glucose by the cells.
+- [W21.176] This is possible because Insulin causes the insertion of the GLUT4 transporter in the cell membranes of muscle and fat tissues which allows glucose to enter the cell.
+- [W21.177] Increased fat synthesis – insulin forces fat cells to take in blood glucose, which is converted into triglycerides; decrease of insulin causes the reverse.
+- [W21.178] Increased esterification of fatty acids – forces adipose tissue to make neutral fats (i.e., triglycerides) from fatty acids; decrease of insulin causes the reverse.
+- [W21.179] Decreased lipolysis in – forces reduction in conversion of fat cell lipid stores into blood fatty acids and glycerol; decrease of insulin causes the reverse.
+- [W21.180] Induced glycogen synthesis – When glucose levels are high, insulin induces the formation of glycogen by the activation of the hexokinase enzyme, which adds a phosphate group in glucose, thus resulting in a molecule that cannot exit the cell.
+- [W21.181] At the same time, insulin inhibits the enzyme glucose-6-phosphatase, which removes the phosphate group.
+- [W21.182] These two enzymes are key for the formation of glycogen.
+- [W21.183] Also, insulin activates the enzymes phosphofructokinase and glycogen synthase which are responsible for glycogen synthesis.
+- [W21.184] Decreased gluconeogenesis and glycogenolysis – decreases production of glucose from noncarbohydrate substrates, primarily in the liver (the vast majority of endogenous insulin arriving at the liver never leaves the liver); decrease of insulin causes glucose production by the liver from assorted substrates.
+- [W21.185] Decreased proteolysis – decreasing the breakdown of protein
+- [W21.186] Decreased autophagy – decreased level of degradation of damaged organelles.
+- [W21.187] Postprandial levels inhibit autophagy completely.
+- [W21.188] Increased amino acid uptake – forces cells to absorb circulating amino acids; decrease of insulin inhibits absorption.
+- [W21.189] Arterial muscle tone – forces arterial wall muscle to relax, increasing blood flow, especially in microarteries; decrease of insulin reduces flow by allowing these muscles to contract.
+- [W21.190] Increase in the secretion of hydrochloric acid by parietal cells in the stomach.
+- [W21.191] Increased potassium uptake – forces cells synthesizing glycogen (a very spongy, "wet" substance, that increases the content of intracellular water, and its accompanying K+ ions) to absorb potassium from the extracellular fluids; lack of insulin inhibits absorption.
+- [W21.192] Insulin's increase in cellular potassium uptake lowers potassium levels in blood plasma.
+- [W21.193] This possibly occurs via insulin-induced translocation of the Na+/K+-ATPase to the surface of skeletal muscle cells.
+- [W21.194] Decreased renal sodium excretion.
+- [W21.195] In hepatocytes, insulin binding acutely leads to activation of protein phosphatase 2A (PP2A), which dephosphorylates the bifunctional enzyme fructose bisphosphatase-2 (PFKB1), activating the phosphofructokinase-2 (PFK-2) active site.
+- [W21.196] PFK-2 increases production of fructose 2,6-bisphosphate.
+- [W21.197] Fructose 2,6-bisphosphate allosterically activates PFK-1, which favors glycolysis over gluconeogenesis.
+- [W21.198] Increased glycolysis increases the formation of malonyl-CoA, a molecule that can be shunted into lipogenesis and that allosterically inhibits of carnitine palmitoyltransferase I (CPT1), a mitochondrial enzyme necessary for the translocation of fatty acids into the intermembrane space of the mitochondria for fatty acid metabolism.
+- [W21.199] Insulin also influences other body functions, such as vascular compliance and cognition.
+- [W21.200] Once insulin enters the human brain, it enhances learning and memory and benefits verbal memory in particular.
+- [W21.201] Enhancing brain insulin signaling by means of intranasal insulin administration also enhances the acute thermoregulatory and glucoregulatory response to food intake, suggesting that central nervous insulin contributes to the co-ordination of a wide variety of homeostatic or regulatory processes in the human body.
+- [W21.202] Insulin also has stimulatory effects on gonadotropin-releasing hormone from the hypothalamus, thus favoring fertility.
+- [W21.203] Anabolic vs. Reponic Classification
+- [W21.204] Historically, insulin has been broadly classified as an anabolic hormone because it stimulates the synthesis of complex molecules.
+- [W21.205] However, recent medical literature has proposed reclassifying insulin specifically as a reponic hormone (from the Latin repono, meaning "to store") to better distinguish its metabolic role from that of classic anabolic hormones like testosterone or growth hormone.
+- [W21.206] While classic anabolic hormones drive energy-intensive processes to build metabolically active lean tissue, the primary physiological function of a reponic hormone is to conserve and store systemic energy.
+- [W21.207] Insulin achieves this by driving the cellular uptake of glucose and lipids for storage (lipogenesis and glycogenesis) while simultaneously inhibiting the breakdown of stored energy (lipolysis and glycogenolysis).
+- [W21.208] Researchers argue this distinction provides a clearer framework for understanding why hyperinsulinemia is uniquely characterized by central adiposity and metabolic syndrome rather than lean tissue growth.
+- [W21.209] Once an insulin molecule has docked onto the receptor and effected its action, it may be released back into the extracellular environment, or it may be degraded by the cell.
+- [W21.210] The two primary sites for insulin clearance are the liver and the kidney.
+- [W21.211] The liver clears most insulin during first-pass transit, whereas the kidney clears most of the insulin in systemic circulation.
+- [W21.212] Degradation normally involves endocytosis of the insulin-receptor complex, then the action of insulin-degrading enzyme on the B-chain, followed by the disulfide bond being broken by enzymes from the protein disulfide isomerase family.
+- [W21.213] An insulin molecule produced endogenously by the beta cells is estimated to be degraded within about one hour after its initial release into circulation (insulin half-life ~ 4–6 minutes).
+- [W21.214] Regulator of endocannabinoid metabolism
+- [W21.215] Insulin is a major regulator of endocannabinoid (EC) metabolism and insulin treatment has been shown to reduce intracellular ECs, the 2-arachidonoylglycerol (2-AG) and anandamide (AEA), which correspond with insulin-sensitive expression changes in enzymes of EC metabolism.
+- [W21.216] In insulin-resistant adipocytes, patterns of insulin-induced enzyme expression is disturbed in a manner consistent with elevated EC synthesis and reduced EC degradation.
+- [W21.217] Findings suggest that insulin-resistant adipocytes fail to regulate EC metabolism and decrease intracellular EC levels in response to insulin stimulation, whereby obese insulin-resistant individuals exhibit increased concentrations of ECs.
+- [W21.218] This dysregulation contributes to excessive visceral fat accumulation and reduced adiponectin release from abdominal adipose tissue, and further to the onset of several cardiometabolic risk factors that are associated with obesity and type 2 diabetes.
+- [W21.219] Hypoglycemia, also known as "low blood sugar", is when blood sugar decreases to below normal levels.
+- [W21.220] This may result in a variety of symptoms including clumsiness, trouble talking, confusion, loss of consciousness, seizures or death.
+- [W21.221] A feeling of hunger, sweating, shakiness and weakness may also be present.
+- [W21.222] Symptoms typically come on quickly.
+- [W21.223] The most common cause of hypoglycemia is medications used to treat diabetes such as insulin and sulfonylureas.
+- [W21.224] Risk is greater in diabetics who have eaten less than usual, exercised more than usual or have consumed alcohol.
+- [W21.225] Other causes of hypoglycemia include kidney failure, certain tumors, such as insulinoma, liver disease, hypothyroidism, starvation, inborn error of metabolism, severe infections, reactive hypoglycemia and a number of drugs including alcohol.
+- [W21.226] Low blood sugar may occur in otherwise healthy babies who have not eaten for a few hours.
+- [W21.227] There are several conditions in which insulin disturbance is pathologic:
+- [W21.228] Diabetes – general term referring to all states characterized by hyperglycemia.
+- [W21.229] It can be of the following types:
+- [W21.230] Type 1 diabetes – autoimmune-mediated destruction of insulin-producing β-cells in the pancreas, resulting in absolute insulin deficiency
+- [W21.231] Type 2 diabetes – either inadequate insulin production by the β-cells or insulin resistance or both because of reasons not completely understood.
+- [W21.232] there is correlation with diet, with sedentary lifestyle, with obesity, with age and with metabolic syndrome.
+- [W21.233] Causality has been demonstrated in multiple model organisms including mice and monkeys; importantly, non-obese people do get Type 2 diabetes due to diet, sedentary lifestyle and unknown risk factors, though this may not be a causal relationship.
+- [W21.234] it is likely that there is genetic susceptibility to develop Type 2 diabetes under certain environmental conditions
+- [W21.235] Other types of impaired glucose tolerance (see Diabetes)
+- [W21.236] Insulinoma – a tumor of beta cells producing excess insulin or reactive hypoglycemia.
+- [W21.237] Metabolic syndrome – a poorly understood condition first called syndrome X by Gerald Reaven.
+- [W21.238] It is not clear whether the syndrome has a single, treatable cause, or is the result of body changes leading to type 2 diabetes.
+- [W21.239] It is characterized by elevated blood pressure, dyslipidemia (disturbances in blood cholesterol forms and other blood lipids), and increased waist circumference (at least in populations in much of the developed world).
+- [W21.240] The basic underlying cause may be the insulin resistance that precedes type 2 diabetes, which is a diminished capacity for insulin response in some tissues (e.g., muscle, fat).
+- [W21.241] It is common for morbidities such as essential hypertension, obesity, type 2 diabetes, and cardiovascular disease (CVD) to develop.
+- [W21.242] Polycystic ovary syndrome – a complex syndrome in women in the reproductive years where anovulation and androgen excess are commonly displayed as hirsutism.
+- [W21.243] In many cases of PCOS, insulin resistance is present.
+- [W21.244] Biosynthetic human insulin (insulin human rDNA, INN) for clinical use is manufactured by recombinant DNA technology.
+- [W21.245] Biosynthetic human insulin has increased purity when compared with extractive animal insulin, enhanced purity reducing antibody formation.
+- [W21.246] Researchers have succeeded in introducing the gene for human insulin into plants as another method of producing insulin ("biopharming") in safflower.
+- [W21.247] This technique is anticipated to reduce production costs.
+- [W21.248] Several analogs of human insulin are available.
+- [W21.249] These insulin analogs are closely related to the human insulin structure, and were developed for specific aspects of glycemic control in terms of fast action (prandial insulins) and long action (basal insulins).
+- [W21.250] The first biosynthetic insulin analog was developed for clinical use at mealtime (prandial insulin), Humalog (insulin lispro), it is more rapidly absorbed after subcutaneous injection than regular insulin, with an effect 15 minutes after injection.
+- [W21.251] Other rapid-acting analogues are NovoRapid and Apidra, with similar profiles.
+- [W21.252] All are rapidly absorbed due to amino acid sequences that will reduce formation of dimers and hexamers (monomeric insulins are more rapidly absorbed).
+- [W21.253] Fast acting insulins do not require the injection-to-meal interval previously recommended for human insulin and animal insulins.
+- [W21.254] The other type is long acting insulin; the first of these was Lantus (insulin glargine).
+- [W21.255] These have a steady effect for an extended period from 18 to 24 hours.
+- [W21.256] Likewise, another protracted insulin analogue (Levemir) is based on a fatty acid acylation approach.
+- [W21.257] A myristic acid molecule is attached to this analogue, which associates the insulin molecule to the abundant serum albumin, which in turn extends the effect and reduces the risk of hypoglycemia.
+- [W21.258] Both protracted analogues need to be taken only once daily, and are used for type 1 diabetics as the basal insulin.
+- [W21.259] A combination of a rapid acting and a protracted insulin is also available, making it more likely for patients to achieve an insulin profile that mimics that of the body's own insulin release.
+- [W21.260] Insulin is also used in many cell lines, such as CHO-s, HEK 293 or Sf9, for the manufacturing of monoclonal antibodies, virus vaccines, and gene therapy products.
+- [W21.261] Insulin is usually taken as subcutaneous injections by single-use syringes with needles, via an insulin pump, or by repeated-use insulin pens with disposable needles.
+- [W21.262] Inhaled insulin is also available in the U.S. market.
+- [W21.263] Those who take insulin may choose a particular method of administration for improved blood glucose control, discrete delivery, comfort, or cost, among a variety of other factors.
+- [W21.264] Unlike many medicines, insulin cannot be taken by mouth because, like nearly all other proteins introduced into the gastrointestinal tract, it is reduced to fragments, whereupon all activity is lost.
+- [W21.265] There has been some research into ways to protect insulin from the digestive tract, so that it can be administered orally or sublingually.
+- [W21.266] In 2021, the World Health Organization added insulin to its model list of essential medicines.
+- [W21.267] Insulin, and all other medications, are supplied free of charge to people with diabetes by the National Health Service in the countries of the United Kingdom.
+- [W21.268] In 1869, while studying the structure of the pancreas under a microscope, Paul Langerhans, a medical student in Berlin, identified some previously unnoticed tissue clumps scattered throughout the bulk of the pancreas.
+- [W21.269] The function of the "little heaps of cells", later known as the islets of Langerhans, initially remained unknown, but Édouard Laguesse later suggested they might produce secretions that play a regulatory role in digestion.
+- [W21.270] Paul Langerhans' son, Archibald, also helped to understand this regulatory role.
+- [W21.271] In 1889, the physician Oskar Minkowski, in collaboration with Joseph von Mering, removed the pancreas from a healthy dog to test its assumed role in digestion.
+- [W21.272] On testing the urine, they found sugar, establishing for the first time a relationship between the pancreas and diabetes.
+- [W21.273] In 1901, another major step was taken by the American physician and scientist Eugene Lindsay Opie, when he isolated the role of the pancreas to the islets of Langerhans: "Diabetes mellitus when the result of a lesion of the pancreas is caused by destruction of the islets of Langerhans and occurs only when these bodies are in part or wholly destroyed".
+- [W21.274] Over the next two decades researchers made several attempts to isolate the islets' secretions.
+- [W21.275] In 1906, George Ludwig Zuelzer achieved partial success in treating dogs with pancreatic extract, but he was unable to continue his work.
+- [W21.276] Between 1911 and 1912, E.L.
+- [W21.277] Scott at the University of Chicago tried aqueous pancreatic extracts and noted "a slight diminution of glycosuria", but was unable to convince his director of his work's value; it was shut down.
+- [W21.278] Israel Kleiner demonstrated similar effects at Rockefeller University in 1915, but World War I interrupted his work and he did not return to it.
+- [W21.279] In 1916, Nicolae Paulescu developed an aqueous pancreatic extract which, when injected into a diabetic dog, had a normalizing effect on blood sugar levels.
+- [W21.280] He had to interrupt his experiments because of World War I, and in 1921 he wrote four papers about his work carried out in Bucharest and his tests on a diabetic dog.
+- [W21.281] Later that year, he published "Research on the Role of the Pancreas in Food Assimilation".
+- [W21.282] The name "insulin" was coined by Edward Albert Sharpey-Schafer in 1916 for a hypothetical molecule produced by pancreatic islets of Langerhans (Latin insula for islet or island) that controls glucose metabolism.
+- [W21.283] Unbeknown to Sharpey-Schafer, Jean de Meyer had introduced the very similar word "insuline" in 1909 for the same molecule.
+- [W21.284] Extraction and purification
+- [W21.285] In October 1920, Canadian Frederick Banting concluded that the digestive secretions that Minkowski had originally studied were breaking down the islet secretion, thereby making it impossible to extract successfully.
+- [W21.286] A surgeon by training, Banting knew that blockages of the pancreatic duct would lead most of the pancreas to atrophy, while leaving the islets of Langerhans intact.
+- [W21.287] He reasoned that a relatively pure extract could be made from the islets once most of the rest of the pancreas was gone.
+- [W21.288] He jotted a note to himself: "Ligate pancreatic ducts of dog.
+- [W21.289] Keep dogs alive till acini degenerate leaving Islets.
+- [W21.290] Try to isolate the internal secretion of these + relieve glycosurea[sic]."
+- [W21.291] In the spring of 1921, Banting traveled to Toronto to explain his idea to John Macleod, Professor of Physiology at the University of Toronto.
+- [W21.292] Macleod was initially skeptical, since Banting had no background in research and was not familiar with the latest literature, but he agreed to provide lab space for Banting to test out his ideas.
+- [W21.293] Macleod also arranged for two undergraduates to be Banting's lab assistants that summer, but Banting required only one lab assistant.
+- [W21.294] Charles Best and Clark Noble flipped a coin; Best won the coin toss and took the first shift.
+- [W21.295] This proved unfortunate for Noble, as Banting kept Best for the entire summer and eventually shared half his Nobel Prize money and credit for the discovery with Best.
+- [W21.296] On 30 July 1921, Banting and Best successfully isolated an extract ("isletin") from the islets of a duct-tied dog and injected it into a diabetic dog, finding that the extract reduced its blood sugar by 40% in 1 hour.
+- [W21.297] Banting and Best presented their results to Macleod on his return to Toronto in the fall of 1921, but Macleod pointed out flaws with the experimental design, and suggested the experiments be repeated with more dogs and better equipment.
+- [W21.298] He moved Banting and Best into a better laboratory and began paying Banting a salary from his research grants.
+- [W21.299] Several weeks later, the second round of experiments was also a success, and Macleod helped publish their results privately in Toronto that November.
+- [W21.300] Bottlenecked by the time-consuming task of duct-tying dogs and waiting several weeks to extract insulin, Banting hit upon the idea of extracting insulin from the fetal calf pancreas, which had not yet developed digestive glands.
+- [W21.301] By December, they had also succeeded in extracting insulin from the adult cow pancreas.
+- [W21.302] Macleod discontinued all other research in his laboratory to concentrate on the purification of insulin.
+- [W21.303] He invited biochemist James Collip to help with this task, and the team felt ready for a clinical test within a month.
+- [W21.304] On 11 January 1922, Leonard Thompson, a 14-year-old diabetic who lay dying at the Toronto General Hospital, was given the first injection of insulin.
+- [W21.305] However, the extract was so impure that Thompson had a severe allergic reaction, and further injections were cancelled.
+- [W21.306] Over the next 12 days, Collip worked day and night to improve the ox-pancreas extract.
+- [W21.307] A second dose was injected on 23 January, eliminating the glycosuria that was typical of diabetes without causing any obvious side-effects.
+- [W21.308] The first American patient was Elizabeth Hughes, the daughter of U.S.
+- [W21.309] Secretary of State Charles Evans Hughes.
+- [W21.310] The first patient treated in the U.S. was future woodcut artist James D. Havens; John Ralston Williams imported insulin from Toronto to Rochester, New York, to treat Havens.
+- [W21.311] Banting and Best never worked well with Collip, regarding him as something of an interloper, and Collip left the project soon after.
+- [W21.312] Over the spring of 1922, Best managed to improve his techniques to the point where large quantities of insulin could be extracted on demand, but the preparation remained impure.
+- [W21.313] The drug firm Eli Lilly and Company had offered assistance not long after the first publications in 1921, and they took Lilly up on the offer in April.
+- [W21.314] In November, Lilly's head chemist, George B. Walden discovered isoelectric precipitation and was able to produce large quantities of highly refined insulin.
+- [W21.315] Shortly thereafter, insulin was offered for sale to the general public.
+- [W21.316] Toward the end of January 1922, tensions mounted between the four "co-discoverers" of insulin and Collip briefly threatened to separately patent his purification process.
+- [W21.317] John G. FitzGerald, director of the non-commercial public health institution Connaught Laboratories, therefore stepped in as peacemaker.
+- [W21.318] The resulting agreement of 25 January 1922 established two key conditions: 1) that the collaborators would sign a contract agreeing not to take out a patent with a commercial pharmaceutical firm during an initial working period with Connaught; and 2) that no changes in research policy would be allowed unless first discussed among FitzGerald and the four collaborators.
+- [W21.319] It helped contain disagreement and tied the research to Connaught's public mandate.
+- [W21.320] Initially, Macleod and Banting were particularly reluctant to patent their process for insulin on grounds of medical ethics.
+- [W21.321] However, concerns remained that a private third-party would hijack and monopolize the research (as Eli Lilly and Company had hinted), and that safe distribution would be difficult to guarantee without capacity for quality control.
+- [W21.322] To this end, Edward Calvin Kendall gave valuable advice.
+- [W21.323] He had isolated thyroxin at the Mayo Clinic in 1914 and patented the process through an arrangement between himself, the brothers Mayo, and the University of Minnesota, transferring the patent to the public university.
+- [W21.324] On 12 April, Banting, Best, Collip, Macleod, and FitzGerald wrote jointly to the president of the University of Toronto to propose a similar arrangement with the aim of assigning a patent to the Board of Governors of the university.
+- [W21.325] The letter emphasized that:The patent would not be used for any other purpose than to prevent the taking out of a patent by other persons.
+- [W21.326] When the details of the method of preparation are published anyone would be free to prepare the extract, but no one could secure a profitable monopoly.The assignment to the University of Toronto Board of Governors was completed on 15 January 1923, for the token payment of $1.00.
+- [W21.327] The arrangement was congratulated in The World's Work in 1923 as "a step forward in medical ethics".
+- [W21.328] It has also received much media attention in the 2010s regarding the issue of healthcare and drug affordability.
+- [W21.329] Following further concern regarding Eli Lilly's attempts to separately patent parts of the manufacturing process, Connaught's Assistant Director and Head of the Insulin Division Robert Defries established a patent pooling policy which would require producers to freely share any improvements to the manufacturing process without compromising affordability.
+- [W21.330] Structural analysis and synthesis
+- [W21.331] Purified animal-sourced insulin was initially the only type of insulin available for experiments and diabetics.
+- [W21.332] John Jacob Abel was the first to produce the crystallised form in 1926.
+- [W21.333] Evidence of the protein nature was first given by Michael Somogyi, Edward A. Doisy, and Philip A. Shaffer in 1924.
+- [W21.334] It was fully proven when Hans Jensen and Earl A. Evans Jr. isolated the amino acids phenylalanine and proline in 1935.
+- [W21.335] The amino acid structure of insulin was first characterized in 1951 by Frederick Sanger, and the first synthetic insulin was produced simultaneously in the labs of Panayotis Katsoyannis at the University of Pittsburgh and Helmut Zahn at RWTH Aachen University in the mid-1960s.
+- [W21.336] Synthetic crystalline bovine insulin was achieved by Chinese researchers in 1965.
+- [W21.337] The complete 3-dimensional structure of insulin was determined by X-ray crystallography in Dorothy Hodgkin's laboratory in 1969.
+- [W21.338] Hans E. Weber discovered preproinsulin while working as a research fellow at the University of California Los Angeles in 1974.
+- [W21.339] In 1973–1974, Weber learned the techniques of how to isolate, purify, and translate messenger RNA.
+- [W21.340] To further investigate insulin, he obtained pancreatic tissues from a slaughterhouse in Los Angeles and then later from animal stock at UCLA.
+- [W21.341] He isolated and purified total messenger RNA from pancreatic islet cells which was then translated in oocytes from Xenopus laevis and precipitated using anti-insulin antibodies.
+- [W21.342] When total translated protein was run on an SDS-polyacrylamide gel electrophoresis and sucrose gradient, peaks corresponding to insulin and proinsulin were isolated.
+- [W21.343] However, to the surprise of Weber a third peak was isolated corresponding to a molecule larger than proinsulin.
+- [W21.344] After reproducing the experiment several times, he consistently noted this large peak prior to proinsulin that he determined must be a larger precursor molecule upstream of proinsulin.
+- [W21.345] In May 1975, at the American Diabetes Association meeting in New York, Weber gave an oral presentation of his work where he was the first to name this precursor molecule "preproinsulin".
+- [W21.346] Following this oral presentation, Weber was invited to dinner to discuss his paper and findings by Donald Steiner, a researcher who contributed to the characterization of proinsulin.
+- [W21.347] A year later in April 1976, this molecule was further characterized and sequenced by Steiner, referencing the work and discovery of Hans Weber.
+- [W21.348] Preproinsulin became an important molecule to study the process of transcription and translation.
+- [W21.349] The first genetically engineered (recombinant), synthetic human insulin was produced using E. coli in 1978 by Arthur Riggs and Keiichi Itakura at the Beckman Research Institute of the City of Hope in collaboration with Herbert Boyer at Genentech.
+- [W21.350] Genentech, founded by Swanson, Boyer and Eli Lilly and Company, went on in 1982 to sell the first commercially available biosynthetic human insulin under the brand name Humulin.
+- [W21.351] The vast majority of insulin used worldwide is biosynthetic recombinant human insulin or its analogues.
+- [W21.352] Recently, another recombinant approach has been used by a pioneering group of Canadian researchers, using an easily grown safflower plant, for the production of much cheaper insulin.
+- [W21.353] Recombinant insulin is produced either in yeast (usually Saccharomyces cerevisiae) or E. coli.
+- [W21.354] In yeast, insulin may be engineered as a single-chain protein with a KexII endoprotease (a yeast homolog of PCI/PCII) site that separates the insulin A chain from a C-terminally truncated insulin B chain.
+- [W21.355] A chemically synthesized C-terminal tail containing the missing threonine is then grafted onto insulin by reverse proteolysis using the inexpensive protease trypsin; typically the lysine on the C-terminal tail is protected with a chemical protecting group to prevent proteolysis.
+- [W21.356] The ease of modular synthesis and the relative safety of modifications in that region accounts for common insulin analogs with C-terminal modifications (e.g. lispro, aspart, glulisine).
+- [W21.357] The Genentech synthesis and completely chemical synthesis such as that by Bruce Merrifield are not preferred because the efficiency of recombining the two insulin chains is low, primarily due to competition with the precipitation of insulin B chain.
+- [W21.358] The Nobel Prize committee in 1923 credited the practical extraction of insulin to a team at the University of Toronto and awarded the Nobel Prize to two men: Frederick Banting and John Macleod.
+- [W21.359] They were awarded the Nobel Prize in Physiology or Medicine in 1923 for the discovery of insulin.
+- [W21.360] Banting, incensed that Best was not mentioned, shared his prize with him, and Macleod immediately shared his with James Collip.
+- [W21.361] The patent for insulin was sold to the University of Toronto for one dollar.
+- [W21.362] Two other Nobel Prizes have been awarded for work on insulin.
+- [W21.363] British molecular biologist Frederick Sanger, who determined the primary structure of insulin in 1955, was awarded the 1958 Nobel Prize in Chemistry.
+- [W21.364] Rosalyn Sussman Yalow received the 1977 Nobel Prize in Medicine for the development of the radioimmunoassay for insulin.
+- [W21.365] Several Nobel Prizes also have an indirect connection with insulin.
+- [W21.366] George Minot, co-recipient of the 1934 Nobel Prize for the development of the first effective treatment for pernicious anemia, had diabetes.
+- [W21.367] William Castle observed that the 1921 discovery of insulin, arriving in time to keep Minot alive, was therefore also responsible for the discovery of a cure for pernicious anemia.
+- [W21.368] Dorothy Hodgkin was awarded a Nobel Prize in Chemistry in 1964 for the development of crystallography, the technique she used for deciphering the complete molecular structure of insulin in 1969.
+- [W21.369] The work published by Banting, Best, Collip and Macleod represented the preparation of purified insulin extract suitable for use on human patients.
+- [W21.370] Although Paulescu discovered the principles of the treatment, his saline extract could not be used on humans; he was not mentioned in the 1923 Nobel Prize.
+- [W21.371] Ian Murray was particularly active in working to correct "the historical wrong" against Nicolae Paulescu.
+- [W21.372] Murray was a professor of physiology at the Anderson College of Medicine in Glasgow, United Kingdom, the head of the department of Metabolic Diseases at a leading Glasgow hospital, vice-president of the British Association of Diabetes, and a founding member of the International Diabetes Federation.
+- [W21.373] Insufficient recognition has been given to Paulescu, the distinguished Romanian scientist, who at the time when the Toronto team were commencing their research had already succeeded in extracting the antidiabetic hormone of the pancreas and proving its efficacy in reducing the hyperglycaemia in diabetic dogs.
+- [W21.374] In a private communication, Arne Tiselius, former head of the Nobel Institute, expressed his personal opinion that Paulescu was equally worthy of the award in 1923.
+- [W21.375] University of Toronto Libraries Collection: Discovery and Early Development of Insulin, 1920–1925
+- [W21.376] CBC Digital Archives – Banting, Best, Macleod, Collip: Chasing a Cure for Diabetes
+- [W21.377] Animations of insulin's action in the body at AboutKidsHealth.ca (archived 9 March 2011)
+- [W21.378] Overview of all the structural information available in the PDB for UniProt: P01308 (Insulin) at the PDBe-KB.
+
+## [W22] Yamamoto et al. 1990, Nature 345:229
+https://doi.org/10.1038/345229a0 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W23] Clegg, Weatherall & Milner 1971, Nature 234:337
+https://doi.org/10.1038/234337a0 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W24] NCBI RefSeq NM_020469.3: human ABO mRNA
+https://www.ncbi.nlm.nih.gov/nuccore/NM_020469.3 · Public domain · usage: ai_input, display
+
+- [W24.1] LOCUS       NM_020469               6478 bp    mRNA    linear   PRI 28-APR-2025
+- [W24.2] DEFINITION  Homo sapiens ABO, alpha 1-3-N-acetylgalactosaminyltransferase and
+- [W24.3] alpha 1-3-galactosyltransferase (ABO), transcript variant A1.01,
+- [W24.4] KEYWORDS    RefSeq; RefSeq Select.
+- [W24.5] SOURCE      Homo sapiens (human)
+- [W24.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W24.7] Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+- [W24.8] Catarrhini; Hominidae; Homo.
+- [W24.9] REFERENCE   1  (bases 1 to 6478)
+- [W24.10] AUTHORS   Thuresson,B., Chester,M.A., Storry,J.R. and Olsson,M.L.
+- [W24.11] TITLE     ABO transcript levels in peripheral blood and erythropoietic
+- [W24.12] culture show different allele-related patterns independent of the
+- [W24.13] CBF/NF-Y enhancer motif and multiple novel allele-specific
+- [W24.14] variations in the 5'- and 3'-noncoding regions
+- [W24.15] JOURNAL   Transfusion 48 (3), 493-504 (2008)
+- [W24.16] REFERENCE   2  (bases 1 to 6478)
+- [W24.17] AUTHORS   Seltsam,A., Wagner,F.F., Gruger,D., Gupta,C.D., Bade-Doeding,C. and
+- [W24.18] TITLE     Weak blood group B phenotypes may be caused by variations in the
+- [W24.19] CCAAT-binding factor/NF-Y enhancer region of the ABO gene
+- [W24.20] JOURNAL   Transfusion 47 (12), 2330-2335 (2007)
+- [W24.21] REMARK    GeneRIF: Data suggests that weak blood group B phenotypes may be
+- [W24.22] caused by sequence variations in the CBF/NF-Y regulatory region.
+- [W24.23] REFERENCE   3  (bases 1 to 6478)
+- [W24.24] AUTHORS   Twu,Y.C., Hsieh,C.Y. and Yu,L.C.
+- [W24.25] TITLE     Expression of the histo-blood group B gene predominates in
+- [W24.26] JOURNAL   Transfusion 46 (11), 1988-1996 (2006)
+- [W24.27] REFERENCE   4  (bases 1 to 6478)
+- [W24.28] AUTHORS   Jenkins,P.V. and O'Donnell,J.S.
+- [W24.29] TITLE     ABO blood group determines plasma von Willebrand factor levels: a
+- [W24.30] biologic function after all?
+- [W24.31] JOURNAL   Transfusion 46 (10), 1836-1844 (2006)
+- [W24.32] REFERENCE   5  (bases 1 to 6478)
+- [W24.33] AUTHORS   Roubinet,F., Despiau,S., Calafell,F., Jin,F., Bertranpetit,J.,
+- [W24.34] TITLE     Evolution of the O alleles of the human ABO blood group gene
+- [W24.35] JOURNAL   Transfusion 44 (5), 707-715 (2004)
+- [W24.36] REMARK    Erratum:[Transfusion.
+- [W24.37] [corrected to Bertranpetit, Jaume]]
+- [W24.38] REFERENCE   6  (bases 1 to 6478)
+- [W24.39] AUTHORS   Seltsam,A., Hallensleben,M., Kollmann,A. and Blasczyk,R.
+- [W24.40] TITLE     The nature of diversity and diversification at the ABO locus
+- [W24.41] JOURNAL   Blood 102 (8), 3035-3042 (2003)
+- [W24.42] REFERENCE   7  (bases 1 to 6478)
+- [W24.43] AUTHORS   Patenaude,S.I., Seto,N.O., Borisova,S.N., Szpacenko,A.,
+- [W24.44] Marcus,S.L., Palcic,M.M. and Evans,S.V.
+- [W24.45] TITLE     The structural basis for specificity in human ABO(H) blood group
+- [W24.46] JOURNAL   Nat Struct Biol 9 (9), 685-690 (2002)
+- [W24.47] REFERENCE   8  (bases 1 to 6478)
+- [W24.48] TITLE     Single-tube multiplex PCR-SSCP analysis distinguishes 7 common ABO
+- [W24.49] alleles and readily identifies new alleles
+- [W24.50] JOURNAL   Blood 95 (4), 1487-1492 (2000)
+- [W24.51] REFERENCE   9  (bases 1 to 6478)
+- [W24.52] AUTHORS   Kominato,Y., Tsuchiya,T., Hata,N., Takizawa,H. and Yamamoto,F.
+- [W24.53] TITLE     Transcription of human ABO histo-blood group genes is dependent
+- [W24.54] upon binding of transcription factor CBF/NF-Y to minisatellite
+- [W24.55] JOURNAL   J Biol Chem 272 (41), 25890-25898 (1997)
+- [W24.56] REFERENCE   10 (bases 1 to 6478)
+- [W24.57] AUTHORS   Ogasawara,K., Bannai,M., Saitou,N., Yabe,R., Nakata,K.,
+- [W24.58] Takenaka,M., Fujisawa,K., Uchikawa,M., Ishikawa,Y., Juji,T. and
+- [W24.59] TITLE     Extensive polymorphism of ABO blood group gene: three major
+- [W24.60] lineages of the alleles for the common ABO phenotypes
+- [W24.61] JOURNAL   Hum Genet 97 (6), 777-783 (1996)
+- [W24.62] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W24.63] reference sequence was derived from AV761252.1, AF134412.1,
+- [W24.64] This sequence is a reference standard in the RefSeqGene project.
+- [W24.65] [WARNING] On Jun 16, 2025 this sequence was replaced by
+- [W24.66] On Sep 25, 2018 this sequence version replaced NM_020469.2.
+- [W24.67] Summary: This gene encodes proteins related to the first discovered
+- [W24.68] Variation in the ABO gene (chromosome
+- [W24.69] 9q34.2) is the basis of the ABO blood group, thus the presence of
+- [W24.70] an allele determines the blood group in an individual.
+- [W24.71] blood group is caused by a deletion of guanine-258 near the
+- [W24.72] N-terminus of the protein which results in a frameshift and
+- [W24.73] translation of an almost entirely different protein.
+- [W24.74] with the A, B, and AB alleles express glycosyltransferase
+- [W24.75] activities that convert the H antigen into the A or B antigen.
+- [W24.76] Other minor alleles have been found for this gene. [provided by
+- [W24.77] Sequence Note: This RefSeq record represents the ABO*A1.01 allele.
+- [W24.78] Publication Note:  This RefSeq record includes a subset of the
+- [W24.79] publications that are available for this gene.
+- [W24.80] record to access additional publications.
+- [W24.81] CDS exon combination :: JX519570.1, JX519569.1 [ECO:0000331]
+- [W24.82] ##RefSeq-Attributes-START##
+- [W24.83] coronavirus related    :: locus in the vicinity of
+- [W24.84] disease-associated variant(s)
+- [W24.85] polymorphic pseudogene :: based on alignments, homology
+- [W24.86] RefSeq Select criteria :: based on manual assertion, conservation,
+- [W24.87] expression, longest protein
+- [W24.88] PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+- [W24.89] 1-40                AV761252.1         14-53
+- [W24.90] 41-1077             AF134412.1         29-1065
+- [W24.91] 1078-1567           U15197.1           17-506
+- [W24.92] 1568-6478           AL772161.10        49261-54171         c
+- [W24.93] FEATURES             Location/Qualifiers
+- [W24.94] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.95] /note="ABO, alpha 1-3-N-acetylgalactosaminyltransferase
+- [W24.96] and alpha 1-3-galactosyltransferase"
+- [W24.97] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.98] /inference="alignment:Splign:2.1.0"
+- [W24.99] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.100] /note="isoform A1.01 is encoded by transcript variant
+- [W24.101] A1.01; histo-blood group A2 transferase; B(A)
+- [W24.102] alpha-1,3-galactosyltransferase; ABO blood group
+- [W24.103] 1-3-N-acetylgalactosaminyltransferase; transferase B,
+- [W24.104] alpha 1-3-galactosyltransferase)"
+- [W24.105] /product="histo-blood group ABO system transferase isoform
+- [W24.106] /translation="MAEVLRTLAGKPKCHALRPMILFLIMLVLVLFGYGVLSPRSLMP
+- [W24.107] GSLERGFCMAVREPDHLQRVSLPRMVYPQPKVLTPCRKDVLVVTPWLAPIVWEGTFNI
+- [W24.108] DILNEQFRLQNTTIGLTVFAIKKYVAFLKLFLETAEKHFMVGHRVHYYVFTDQPAAVP
+- [W24.109] RVTLGTGRQLSVLEVRAYKRWQDVSMRRMEMISDFCERRFLSEVDYLVCVDVDMEFRD
+- [W24.110] HVGVEILTPLFGTLHPGFYGSSREAFTYERRPQSQAYIPKDEGDFYYLGGFFGGSVQE
+- [W24.111] VQRLTRACHQAMMVDQANGIEAVWHDESHLNKYLLRHKPTKVLSPEYLWDQQLLGWPA
+- [W24.112] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.113] /note="propagated from UniProtKB/Swiss-Prot (P16442.2);
+- [W24.114] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.115] /product="Fucosylglycoprotein
+- [W24.116] alpha-N-acetylgalactosaminyltransferase soluble form.
+- [W24.117] /note="propagated from UniProtKB/Swiss-Prot (P16442.2)"
+- [W24.118] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.119] /note="N-linked (GlcNAc...) asparagine.
+- [W24.120] /evidence=ECO:0000255; propagated from
+- [W24.121] UniProtKB/Swiss-Prot (P16442.2); glycosylation site"
+- [W24.122] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.123] /inference="alignment:Splign:2.1.0"
+- [W24.124] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.125] /inference="alignment:Splign:2.1.0"
+- [W24.126] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.127] /inference="alignment:Splign:2.1.0"
+- [W24.128] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.129] /inference="alignment:Splign:2.1.0"
+- [W24.130] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.131] /inference="alignment:Splign:2.1.0"
+- [W24.132] /gene_synonym="A3GALNT; A3GALT1; GTB; NAGAT"
+- [W24.133] /inference="alignment:Splign:2.1.0"
+- [W24.134] 1 agacgcggag ccatggccga ggtgttgcgg acgctggccg gaaaaccaaa atgccacgca
+- [W24.135] 61 cttcgaccta tgatcctttt cctaataatg cttgtcttgg tcttgtttgg ttacggggtc
+- [W24.136] 121 ctaagcccca gaagtctaat gccaggaagc ctggaacggg ggttctgcat ggctgttagg
+- [W24.137] 181 gaacctgacc atctgcagcg cgtctcgttg ccaaggatgg tctaccccca gccaaaggtg
+- [W24.138] 241 ctgacaccgt gtaggaagga tgtcctcgtg gtgacccctt ggctggctcc cattgtctgg
+- [W24.139] 301 gagggcacat tcaacatcga catcctcaac gagcagttca ggctccagaa caccaccatt
+- [W24.140] 361 gggttaactg tgtttgccat caagaaatac gtggctttcc tgaagctgtt cctggagacg
+- [W24.141] 421 gcggagaagc acttcatggt gggccaccgt gtccactact atgtcttcac cgaccagccg
+- [W24.142] 481 gccgcggtgc cccgcgtgac gctggggacc ggtcggcagc tgtcagtgct ggaggtgcgc
+- [W24.143] 541 gcctacaagc gctggcagga cgtgtccatg cgccgcatgg agatgatcag tgacttctgc
+- [W24.144] 601 gagcggcgct tcctcagcga ggtggattac ctggtgtgcg tggacgtgga catggagttc
+- [W24.145] 661 cgcgaccacg tgggcgtgga gatcctgact ccgctgttcg gcaccctgca ccccggcttc
+- [W24.146] 721 tacggaagca gccgggaggc cttcacctac gagcgccggc cccagtccca ggcctacatc
+- [W24.147] 781 cccaaggacg agggcgattt ctactacctg ggggggttct tcggggggtc ggtgcaagag
+- [W24.148] 841 gtgcagcggc tcaccagggc ctgccaccag gccatgatgg tcgaccaggc caacggcatc
+- [W24.149] 901 gaggccgtgt ggcacgacga gagccacctg aacaagtacc tgctgcgcca caaacccacc
+- [W24.150] 961 aaggtgctct cccccgagta cttgtgggac cagcagctgc tgggctggcc cgccgtcctg
+- [W24.151] 1021 aggaagctga ggttcactgc ggtgcccaag aaccaccagg cggtccggaa cccgtgagcg
+- [W24.152] 1081 gctgccaggg gctctgggag ggctgccggc agccccgtcc ccctcccgcc cttggtttta
+- [W24.153] 1141 gcagaacggg taaactctgt ttcctttgtc cgtcctgttg tgagtaactg aagcctaggc
+- [W24.154] 1201 cccgtcccca cctcaaatca cacacacccc ctccccacca cagagacacc attacataca
+- [W24.155] 1261 cagacacaca cagaaagaca cacacagaca caaaatcaca cacacaccct ccccgccaca
+- [W24.156] 1321 gagacaccat tacatacaca gacacacaca gaaagacaca gacacaaaat cacacacaca
+- [W24.157] 1381 ccctccccgc cacagagaca caccattaca tacacagaca cgcaatcgca gatacgccct
+- [W24.158] 1441 tccggccaca gaaacacacc attacacaca catacacaga aagacacaca cagacacaca
+- [W24.159] 1501 atcacacgca gcccctcccc gccacagaga cacaccatta catacacaga cacacacaga
+- [W24.160] 1561 aagacacaca cagacacaaa atcacacaca caccctcccc gccacagaga cacaccatta
+- [W24.161] 1621 catacacaga cacacacaga cacacaatca cacacagccc ctccccgcca cagagacaca
+- [W24.162] 1681 ccattacata cacagacaca cacagacaca caatcacaga taccccctcc cggccataga
+- [W24.163] 1741 gacacaccgt tacacacaca tacacagaaa gacacacaca gcccctccct gccacagaga
+- [W24.164] 1801 cacaccatta catacacaga cacacacaga catacacaga cacacacaca gacacacaat
+- [W24.165] 1861 cacacacatc ccctccccgc cacagagaca caccattaca cacacagaca cacacagaaa
+- [W24.166] 1921 gacacacata cacacaatca cacacaccct cttcttgcca cagagacgca ccattacata
+- [W24.167] 1981 cacagacaca gacacacaga gacacagaca cacaaacata gacacacaca cacagacaca
+- [W24.168] 2041 caccagacac gcaaagacac acagacacag atacacagat acaaagacac agacatatag
+- [W24.169] 2101 acacacagac atgcacagag acacatggag acacatgcaa aaatgcacag agaaagacat
+- [W24.170] 2161 acagaagtgt acacacagac acatagacca cacagacaca cagacatgca tgcaaacaca
+- [W24.171] 2221 cagacatgca gacatgcaca caaacacaga ctcacgcaca cagacttagg cagcccaaat
+- [W24.172] 2281 tcagcgcctg gggcataagt tcctggaggg gtggccacct tcagccccca cggtaaggtc
+- [W24.173] 2341 ctgaggaacc ttccccttag acaagggatc atggaggagg tctcttccgg agcctggagg
+- [W24.174] 2401 gaggcctcaa gtggtccttc cacctcggca tcccaaagtg ctaggattat aagcatgagc
+- [W24.175] 2461 cactgcacct ggccccaaca tcatttattg aacagactgt cgtttccaca ttgtgtttct
+- [W24.176] 2521 tggcatttct gtcaaaaatc agttgaccgt aaatgcatgg attcacttcc gggctctcta
+- [W24.177] 2581 ttctgtttca ttggtctgtt tgtttttatg ccaataccat gatgttttga ttattatagc
+- [W24.178] 2641 tttatagtat atcttgaagt taggtagtgt attgtctcca gctttgttct ttttgcttaa
+- [W24.179] 2701 gattgctttg gctatttagg ggtctttgtg gccattactg acagttaaaa tggccctggc
+- [W24.180] 2761 tcatgtctcc tgggcctcta cagtacttta ggtggggaag tactgtggcc cacatgtccc
+- [W24.181] 2821 aacaggctgt gtgtggcacc tgacagtgct ttgtgccact gtggagcagg tgttactccc
+- [W24.182] 2881 tcatacgaat tttaggatta ttttatttat ttcagtgaaa aatgtcaatg aaattttgat
+- [W24.183] 2941 agggattgca ttgaatctgt agattgtttg gggttgtatg gacattttaa caatattaat
+- [W24.184] 3001 tcttccaatt catgaacatg ggatgtcttt tttttggcac ctgatctcag atatgggaca
+- [W24.185] 3061 gctttctaat tatttgtatc ttcaatttct ttcacaaatg ttttatagtt ttcagcatac
+- [W24.186] 3121 agatctttca cttccttggt tggatttatt tgcaagtatt ttttgtagct attgtaaatg
+- [W24.187] 3181 acattgtttt cttgatttct ttgttagggt atagaaatgc tacagattgt tgtatgttaa
+- [W24.188] 3241 ttttatatcc tgcaacttta ctgatttcat ttattctaac atcttattgg tggaatcttt
+- [W24.189] 3301 agggttttct ataagatcat gtcatctgta aacagggaca atttaagttc ttcctttcca
+- [W24.190] 3361 atttggatac cttttatttc ttcctcttgc ctaattattt tggctgaggg ccaacttgtt
+- [W24.191] 3421 gggtttgttg ttgttggttt ttgtctgtgt cttttggtgt ttcgtgttgc tggcttttcc
+- [W24.192] 3481 agcacacagt cacagatata tgaggcagaa agaaaaccca gggaactcct gtcatgtcat
+- [W24.193] 3541 tcctcaggtc ccaaggtccc tacatggtct gccttcttct ctccaccttt tagtgtttga
+- [W24.194] 3601 tatacatacg tttatgtatg tagttatata tgtatgtgta atacccgggg aaatatacag
+- [W24.195] 3661 agattttaac tgtccttagt gtagggcgtg gggacaggtg catctattct accttgcctg
+- [W24.196] 3721 gaagtggaaa aatcttcaag aaatcaattt atcaccaact ggcatgacag aactcctggt
+- [W24.197] 3781 ttagtgtcta gctgtctcca ctaaaatcaa tcaccatgcc atcaggcact ctcttccctc
+- [W24.198] 3841 tggtgtgtac tggtacctga aacagcgtcc agcaccctga gagcacagaa cgcagcttct
+- [W24.199] 3901 tatgtgcccc acccaataat cccaaatcga gcacagacct gggagctgaa gagacaagct
+- [W24.200] 3961 ggaggtcagg cagttctatt acttaagcct ggttcttcct gactccaaaa gccaggcgcc
+- [W24.201] 4021 accccatgct ccttcccagc agaagctggt tttcaccggg tcaggaggac aggatggcta
+- [W24.202] 4081 ttcctgaccg ttgtacagca gtgccacatc tcctagtttc cagaacattt aatgtgttgc
+- [W24.203] 4141 tgtggaggcc tggcagctct gaagtagccc cttgcgccca ggacaaaccg ggcctggagg
+- [W24.204] 4201 ggtggggtgg ggtaagctga agcttccagt atcccacgtg ggcattctgt tgctgagggc
+- [W24.205] 4261 aaccgcccct ccctgcaagg gaggggaagg agcaggcagg cacacccttc ctccctccac
+- [W24.206] 4321 atttcactgg agttgacctg tgtcctactg tggttgcacc tggaccagcc cagagggact
+- [W24.207] 4381 ggagtgactc ttcccgcagg tagggcacag ccagcctggg cacagggcct cactgcaatc
+- [W24.208] 4441 cctgcgcccc gcctccctgg gggatttcca ggggttgtcc tgctgcttgg tgagctgggg
+- [W24.209] 4501 gtgtggggga ccacagatga ggcaggcgcc taaattgctt gggcggagtc cggctgctct
+- [W24.210] 4561 ctccctccag gccctttcct gtgtcctcgg gcccctcggg tccctgcacc aggccagcag
+- [W24.211] 4621 caatcgggtg tcagaggttc aagtccaggc tgactcctgg gatgcaccga ctttgcccag
+- [W24.212] 4681 gagggctggg gagagggcag ccccaaagtg tcatctttga ttattctttg tccccaaagc
+- [W24.213] 4741 cagccttggg catgtgccca gcacagggag agctgctgcc tctgtgggct tgagtcattt
+- [W24.214] 4801 ttgcttcctt gcccctctct gctctgtttg gtttaaaaaa caaaaaccaa cacccatggg
+- [W24.215] 4861 tgaggcgagg cgaggcgagg cttgccttga tccacccgct tcctcccctg cagcctcggg
+- [W24.216] 4921 ccccatcctc ccgcgtggcc gcactagggg tgctgggggc ggagtgggga ccagacctga
+- [W24.217] 4981 gtgggttctg ggttcggctt cgcagcagga gcagctgggg catcatcagt tgggcaggtg
+- [W24.218] 5041 acccaggatc tgagcaggaa tcttccaggt ggaggtgggg ccgcccctct gcttgccaca
+- [W24.219] 5101 gctgccttct gctctggggg cagcactggc tgagaatcca gtgaagtaag gcctttgaaa
+- [W24.220] 5161 tggttttgat tgtaaaagta atgtttatgt ttagccattc ctttttttat tttttatttt
+- [W24.221] 5221 ttgagacggg tctccctctg tcacccaggc tggagtgcag tcgtgaaatg tgggctcact
+- [W24.222] 5281 gcaacctcca cctcccaggt tcaagtgatt ctcctgcctc agcctcctga gtagttggga
+- [W24.223] 5341 ttacaagtgc ctgccaccac acctgactaa gttttgtatt ttttagtaga gatggagttt
+- [W24.224] 5401 caccatgttg gccaggctgg tctcaaactc atatcctcaa gtgatccacc ctcctcgtcc
+- [W24.225] 5461 tcccaaagtg ctgggatttt gccatgagcc accacgctca gccatgttta gccattttta
+- [W24.226] 5521 aaaggtgtga acagataatt aagtctatta gcaacattag aaaatttaag ttaaaattta
+- [W24.227] 5581 aatgactcta gcaagaatta gcctttaggt gccctgggtc cccctcccca ccgcccccca
+- [W24.228] 5641 ccccgccgcc ttctgagaag cgttttgtaa tttttcttat ttataaaatg ggtttgattc
+- [W24.229] 5701 aaaactgact tttcctcttc acagagtctc acaggtcctt ccccaggtcc aagaggctct
+- [W24.230] 5761 tctgtggtct aatgacaagt agctgcctag ccgtggtggc acctcctatc acatgttaag
+- [W24.231] 5821 ggacccctcc ccagggccac acctggcaga aggtggctta tgatgttcgc agcttgaaag
+- [W24.232] 5881 tagtgtaaac caaagataaa attctaagcc cactccccca gccatcggaa tggacccctc
+- [W24.233] 5941 ctcttggcca gggcactcca aagttaacct gaaaaaccgg ttcaggctgt gaagagaagg
+- [W24.234] 6001 tggagtggac atgcctcatt tatgtcctcc tcccttttgg aattcagcaa agctgaccag
+- [W24.235] 6061 catgaacatt aacacagacc ttaagtctga ttagtggcat ttacaatcta tactctctga
+- [W24.236] 6121 agcgtgctac ctggaggctt cctttgcatg ataaaacttt ggtctccaca accccttatc
+- [W24.237] 6181 ataacctaga cactcctttc tagtgataat aactctttca accaattgcc aataaaaaaa
+- [W24.238] 6241 ttttgaatct acctataacc tggaacctcc ctgctccacc ttcgagttgt cctacctttc
+- [W24.239] 6301 tggacagaag caatgtggat cttgcatgta tttgattgat gtctcatgtc tccctaaaat
+- [W24.240] 6361 gtatacaatt aggctgtgcc cagatcaccc tgggcacatg ttctcaggcc ctcctgaggt
+- [W24.241] 6421 ctctgtctcg ggccattggt cactcagatt cggctcagaa taaatctctt caaatatt
+
+## [W25] NCBI RefSeq NM_000518.5: human HBB mRNA
+https://www.ncbi.nlm.nih.gov/nuccore/NM_000518.5 · Public domain · usage: ai_input, display
+
+- [W25.1] LOCUS       NM_000518                628 bp    mRNA    linear   PRI 06-SEP-2026
+- [W25.2] DEFINITION  Homo sapiens hemoglobin subunit beta (HBB), mRNA.
+- [W25.3] KEYWORDS    RefSeq; MANE Select.
+- [W25.4] SOURCE      Homo sapiens (human)
+- [W25.5] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W25.6] Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+- [W25.7] Catarrhini; Hominidae; Homo.
+- [W25.8] REFERENCE   1  (bases 1 to 628)
+- [W25.9] AUTHORS   Civettini,I., Zappaterra,A., Corti,P., Messina,A., Aroldi,A.,
+- [W25.10] Biondi,A., Cavalca,F., Crippa,V., Crosti,F., Ferrari,G.M.,
+- [W25.11] Malighetti,F., Mologni,L., Piperno,A., Ramazzotti,D., Scollo,C.,
+- [W25.12] Zambon,A., Rossi,F. and Gambacorti-Passerini,C.
+- [W25.13] TITLE     Hb Monza: A novel extensive HBB duplication with preserved
+- [W25.14] alpha-beta subunit interaction and unstable hemoglobin phenotype
+- [W25.15] JOURNAL   Med 6 (4), 100554 (2025)
+- [W25.16] REFERENCE   2  (bases 1 to 628)
+- [W25.17] AUTHORS   Caria,C.A., Faa,V., Porcu,S., Marongiu,M.F., Poddie,D., Perseu,L.,
+- [W25.18] Meloni,A., Vaccargiu,S. and Ristaldi,M.S.
+- [W25.19] TITLE     Post-GWAS Validation of Target Genes Associated with HbF and HbA2
+- [W25.20] JOURNAL   Cells 13 (14), 1185 (2024)
+- [W25.21] REMARK    GeneRIF: Post-GWAS Validation of Target Genes Associated with HbF
+- [W25.22] REFERENCE   3  (bases 1 to 628)
+- [W25.23] AUTHORS   Xu,X., Cai,H., Peng,J., Liu,H. and Chu,F.
+- [W25.24] TITLE     HBB as a Novel Biomarker for the Diagnosis and Monitoring of Lung
+- [W25.25] Cancer Regulates Cell Proliferation via ERK1/2 Pathway
+- [W25.26] JOURNAL   Technol Cancer Res Treat 23, 15330338241249032 (2024)
+- [W25.27] REMARK    GeneRIF: HBB as a Novel Biomarker for the Diagnosis and Monitoring
+- [W25.28] of Lung Cancer Regulates Cell Proliferation via ERK1/2 Pathway.
+- [W25.29] REFERENCE   4  (bases 1 to 628)
+- [W25.30] AUTHORS   Waye,J.S., Hanna,M., Hohenadel,B.A., Nakamura,L., Walker,L., Eng,B.
+- [W25.31] TITLE     beta0-Thalassemia Caused by a Novel Nonsense Mutation [HBB:c.199A >
+- [W25.32] JOURNAL   Hemoglobin 48 (1), 69-70 (2024)
+- [W25.33] REMARK    GeneRIF: beta[0]-Thalassemia Caused by a Novel Nonsense Mutation
+- [W25.34] REFERENCE   5  (bases 1 to 628)
+- [W25.35] AUTHORS   Calvo,S.E., Pagliarini,D.J. and Mootha,V.K.
+- [W25.36] TITLE     Upstream open reading frames cause widespread reduction of protein
+- [W25.37] expression and are polymorphic among humans
+- [W25.38] JOURNAL   Proc Natl Acad Sci U S A 106 (18), 7507-7512 (2009)
+- [W25.39] REMARK    GeneRIF: Includes the study of a disease-related upstream ORF in
+- [W25.40] this gene, and shows that it functions to reduce protein levels by
+- [W25.41] REFERENCE   6  (bases 1 to 628)
+- [W25.42] TITLE     Beta-Thalassemia
+- [W25.43] JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+- [W25.44] REFERENCE   7  (bases 1 to 628)
+- [W25.45] AUTHORS   Bender,M.A. and Carlberg,K.
+- [W25.46] TITLE     Sickle Cell Disease
+- [W25.47] JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+- [W25.48] REFERENCE   8  (bases 1 to 628)
+- [W25.49] AUTHORS   Adams,J.G., Steinberg,M.H., Boxer,L.A., Baehner,R.L., Forget,B.G.
+- [W25.50] TITLE     The structure of hemoglobin Indianapolis [beta112(G14) arginine].
+- [W25.51] An unstable variant detectable only by isotopic labeling
+- [W25.52] JOURNAL   J Biol Chem 254 (9), 3479-3482 (1979)
+- [W25.53] REFERENCE   9  (bases 1 to 628)
+- [W25.54] AUTHORS   Marotta,C.A., Wilson,J.T., Forget,B.G. and Weissman,S.M.
+- [W25.55] TITLE     Human beta-globin messenger RNA.
+- [W25.56] Nucleotide sequences derived
+- [W25.57] JOURNAL   J Biol Chem 252 (14), 5040-5053 (1977)
+- [W25.58] REFERENCE   10 (bases 1 to 628)
+- [W25.59] TITLE     Complete 3' noncoding region sequences of rabbit and human
+- [W25.60] beta-globin messenger RNAs
+- [W25.61] JOURNAL   Cell 10 (4), 559-570 (1977)
+- [W25.62] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W25.63] reference sequence was derived from AK311825.1 and BU661647.1.
+- [W25.64] This sequence is a reference standard in the RefSeqGene project.
+- [W25.65] On Jun 13, 2018 this sequence version replaced NM_000518.4.
+- [W25.66] Summary: The alpha (HBA) and beta (HBB) loci determine the
+- [W25.67] structure of the 2 types of polypeptide chains in adult hemoglobin,
+- [W25.68] Hb A. The normal adult hemoglobin tetramer consists of two alpha
+- [W25.69] chains and two beta chains.
+- [W25.70] Mutant beta globin causes sickle cell
+- [W25.71] Absence of beta chain causes beta-zero-thalassemia.
+- [W25.72] amounts of detectable beta globin causes beta-plus-thalassemia.
+- [W25.73] order of the genes in the beta-globin cluster is 5'-epsilon --
+- [W25.74] gamma-G -- gamma-A -- delta -- beta--3'. [provided by RefSeq, Jul
+- [W25.75] Publication Note:  This RefSeq record includes a subset of the
+- [W25.76] publications that are available for this gene.
+- [W25.77] record to access additional publications.
+- [W25.78] Transcript exon combination :: BU662061.1, BU661647.1 [ECO:0000332]
+- [W25.79] RNAseq introns              :: single sample supports all introns
+- [W25.80] SAMEA1968832, SAMEA2142586
+- [W25.81] ##RefSeq-Attributes-START##
+- [W25.82] MANE Ensembl match     :: ENST00000335295.4/ ENSP00000333994.3
+- [W25.83] RefSeq Select criteria :: based on single protein-coding transcript
+- [W25.84] COMPLETENESS: full length.
+- [W25.85] PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+- [W25.86] 1-494               AK311825.1         1-494
+- [W25.87] 495-628             BU661647.1         507-640
+- [W25.88] FEATURES             Location/Qualifiers
+- [W25.89] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.90] /note="hemoglobin subunit beta"
+- [W25.91] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.92] /inference="alignment:Splign:2.1.0"
+- [W25.93] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.94] /note="upstream in-frame stop codon"
+- [W25.95] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.96] /note="beta globin chain; hemoglobin, beta; hemoglobin
+- [W25.97] beta subunit; Hb Monza protein"
+- [W25.98] /product="hemoglobin subunit beta"
+- [W25.99] /db_xref="CCDS:CCDS7753.1"
+- [W25.100] /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+- [W25.101] SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+- [W25.102] NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+- [W25.103] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.104] /evidence=ECO:0000250|UniProtKB:P02086; propagated from
+- [W25.105] UniProtKB/Swiss-Prot (P68871.2); acetylation site"
+- [W25.106] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.107] /note="N-linked (Glc) (glycation) valine, in Hb A1c.
+- [W25.108] /evidence=ECO:0000269|PubMed:635569; propagated from
+- [W25.109] UniProtKB/Swiss-Prot (P68871.2); glycosylation site"
+- [W25.110] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.111] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.112] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.113] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.114] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.115] /note="N-linked (Glc) (glycation) lysine.
+- [W25.116] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W25.117] UniProtKB/Swiss-Prot (P68871.2); glycosylation site"
+- [W25.118] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.119] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W25.120] UniProtKB/Swiss-Prot (P68871.2); phosphorylation site"
+- [W25.121] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.122] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W25.123] UniProtKB/Swiss-Prot (P68871.2); phosphorylation site"
+- [W25.124] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.125] /note="N-linked (Glc) (glycation) lysine.
+- [W25.126] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W25.127] UniProtKB/Swiss-Prot (P68871.2); glycosylation site"
+- [W25.128] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.129] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.130] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.131] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.132] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.133] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.134] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.135] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.136] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.137] /product="LVV-hemorphin-7. /id=PRO_0000296641"
+- [W25.138] /note="propagated from UniProtKB/Swiss-Prot (P68871.2)"
+- [W25.139] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.140] /product="Spinorphin. /id=PRO_0000424226"
+- [W25.141] /note="propagated from UniProtKB/Swiss-Prot (P68871.2)"
+- [W25.142] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.143] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.144] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.145] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.146] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.147] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.148] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.149] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.150] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.151] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W25.152] UniProtKB/Swiss-Prot (P68871.2); phosphorylation site"
+- [W25.153] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.154] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.155] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.156] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.157] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.158] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W25.159] UniProtKB/Swiss-Prot (P68871.2); phosphorylation site"
+- [W25.160] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.161] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.162] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.163] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.164] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.165] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.166] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.167] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.168] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.169] /evidence=ECO:0000269|PubMed:4531009; propagated from
+- [W25.170] UniProtKB/Swiss-Prot (P68871.2); acetylation site"
+- [W25.171] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.172] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W25.173] propagated from UniProtKB/Swiss-Prot (P68871.2); other
+- [W25.174] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.175] /note="N-linked (Glc) (glycation) lysine.
+- [W25.176] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W25.177] UniProtKB/Swiss-Prot (P68871.2); glycosylation site"
+- [W25.178] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.179] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.180] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.181] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.182] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.183] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.184] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.185] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.186] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.187] /evidence=ECO:0000269|PubMed:4531009; propagated from
+- [W25.188] UniProtKB/Swiss-Prot (P68871.2); acetylation site"
+- [W25.189] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.190] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W25.191] propagated from UniProtKB/Swiss-Prot (P68871.2); other
+- [W25.192] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.193] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.194] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.195] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.196] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.197] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W25.198] UniProtKB/Swiss-Prot (P68871.2); phosphorylation site"
+- [W25.199] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.200] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.201] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.202] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.203] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.204] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W25.205] propagated from UniProtKB/Swiss-Prot (P68871.2); other
+- [W25.206] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.207] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.208] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.209] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.210] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.211] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.212] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.213] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.214] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.215] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.216] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.217] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.218] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.219] /note="N-linked (Glc) (glycation) lysine.
+- [W25.220] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W25.221] UniProtKB/Swiss-Prot (P68871.2); glycosylation site"
+- [W25.222] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.223] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.224] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.225] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.226] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.227] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.228] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.229] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.230] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.231] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.232] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.233] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.234] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.235] /note="(Microbial infection) Cleavage, by N.americanus
+- [W25.236] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W25.237] from UniProtKB/Swiss-Prot (P68871.2); other site"
+- [W25.238] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.239] /note="N-linked (Glc) (glycation) lysine, alternate.
+- [W25.240] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W25.241] UniProtKB/Swiss-Prot (P68871.2); glycosylation site"
+- [W25.242] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.243] /note="N6-acetyllysine, alternate.
+- [W25.244] /evidence=ECO:0000269|PubMed:4531009; propagated from
+- [W25.245] UniProtKB/Swiss-Prot (P68871.2); acetylation site"
+- [W25.246] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.247] /inference="alignment:Splign:2.1.0"
+- [W25.248] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.249] /inference="alignment:Splign:2.1.0"
+- [W25.250] /regulatory_class="polyA_signal_sequence"
+- [W25.251] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.252] /gene_synonym="beta-globin; CD113t-C; ECYT6"
+- [W25.253] 1 acatttgctt ctgacacaac tgtgttcact agcaacctca aacagacacc atggtgcatc
+- [W25.254] 61 tgactcctga ggagaagtct gccgttactg ccctgtgggg caaggtgaac gtggatgaag
+- [W25.255] 121 ttggtggtga ggccctgggc aggctgctgg tggtctaccc ttggacccag aggttctttg
+- [W25.256] 181 agtcctttgg ggatctgtcc actcctgatg ctgttatggg caaccctaag gtgaaggctc
+- [W25.257] 241 atggcaagaa agtgctcggt gcctttagtg atggcctggc tcacctggac aacctcaagg
+- [W25.258] 301 gcacctttgc cacactgagt gagctgcact gtgacaagct gcacgtggat cctgagaact
+- [W25.259] 361 tcaggctcct gggcaacgtg ctggtctgtg tgctggccca tcactttggc aaagaattca
+- [W25.260] 421 ccccaccagt gcaggctgcc tatcagaaag tggtggctgg tgtggctaat gccctggccc
+- [W25.261] 481 acaagtatca ctaagctcgc tttcttgctg tccaatttct attaaaggtt cctttgttcc
+- [W25.262] 541 ctaagtccaa ctactaaact gggggatatt atgaagggcc ttgagcatct ggattctgcc
+- [W25.263] 601 taataaaaaa catttatttt cattgcaa
+
+## [W26] NCBI RefSeq NM_000517.6: human HBA2 mRNA
+https://www.ncbi.nlm.nih.gov/nuccore/NM_000517.6 · Public domain · usage: ai_input, display
+
+- [W26.1] LOCUS       NM_000517                576 bp    mRNA    linear   PRI 06-SEP-2026
+- [W26.2] DEFINITION  Homo sapiens hemoglobin subunit alpha 2 (HBA2), mRNA.
+- [W26.3] KEYWORDS    RefSeq; MANE Select.
+- [W26.4] SOURCE      Homo sapiens (human)
+- [W26.5] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W26.6] Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+- [W26.7] Catarrhini; Hominidae; Homo.
+- [W26.8] REFERENCE   1  (bases 1 to 576)
+- [W26.9] AUTHORS   Schaffer,L.V., Hu,M., Qian,G., Moon,K.M., Pal,A., Soni,N.,
+- [W26.10] Latham,A.P., Pontano Vaites,L., Tsai,D., Mattson,N.M., Licon,K.,
+- [W26.11] Bachelder,R., Cesnik,A., Gaur,I., Le,T., Leineweber,W., Palar,A.,
+- [W26.12] Pulido,E., Qin,Y., Zhao,X., Churas,C., Lenkiewicz,J., Chen,J.,
+- [W26.13] Ono,K., Pratt,D., Zage,P., Echeverria,I., Sali,A., Harper,J.W.,
+- [W26.14] Gygi,S.P., Foster,L.J., Huttlin,E.L., Lundberg,E. and Ideker,T.
+- [W26.15] TITLE     Multimodal cell maps as a foundation for structural and functional
+- [W26.16] JOURNAL   Nature 642 (8066), 222-231 (2025)
+- [W26.17] REMARK    Erratum:[Nature.
+- [W26.18] 2025 Oct;646(8086):E16. doi:
+- [W26.19] 10.1038/s41586-025-09648-x.
+- [W26.20] REFERENCE   2  (bases 1 to 576)
+- [W26.21] AUTHORS   Sun,M., Lou,J., Xinghe,W., Zhao,Y., Dai,Y., Liu,S. and Yan,T.
+- [W26.22] TITLE     Hb H disease associated with compound heterozygosity for --SEA
+- [W26.23] deletion and a novel alpha globin chain variant (HBA2:c.175C>A) on
+- [W26.24] the distal histidine in a Chinese family
+- [W26.25] JOURNAL   Hematology 29 (1), 2339559 (2024)
+- [W26.26] REMARK    GeneRIF: Hb H disease associated with compound heterozygosity for
+- [W26.27] --[SEA] deletion and a novel alpha globin chain variant
+- [W26.28] (HBA2:c.175C>A) on the distal histidine in a Chinese family.
+- [W26.29] REFERENCE   3  (bases 1 to 576)
+- [W26.30] AUTHORS   Chen,L.Z., Yan,T.Z., Huang,J., Zhong,Q.Y., Qin,X., Tang,N. and
+- [W26.31] TITLE     [Molecular Diagnosis and Pedigree Analysis of Rare Mutations in
+- [W26.32] Non-coding Region of HBA2 Gene]
+- [W26.33] JOURNAL   Zhongguo Shi Yan Xue Ye Xue Za Zhi 32 (3), 940-944 (2024)
+- [W26.34] REMARK    GeneRIF: [Molecular Diagnosis and Pedigree Analysis of Rare
+- [W26.35] Mutations in Non-coding Region of HBA2 Gene].
+- [W26.36] REFERENCE   4  (bases 1 to 576)
+- [W26.37] AUTHORS   Wang,Q.H., Chen,X.Y., Tang,N., Yan,T.Z., Huang,J., Zhong,Q.Y. and
+- [W26.38] TITLE     [Cases Analysis of Hemoglobin H Disease Caused by HBA2:c.2T>C and
+- [W26.39] JOURNAL   Zhongguo Shi Yan Xue Ye Xue Za Zhi 32 (2), 520-524 (2024)
+- [W26.40] REMARK    GeneRIF: [Cases Analysis of Hemoglobin H Disease Caused by
+- [W26.41] HBA2:c.2T>C and HBA2:c.2delT Mutations].
+- [W26.42] REFERENCE   5  (bases 1 to 576)
+- [W26.43] AUTHORS   Ghassemifar,R., Forster,L., Qadah,T. and Finlayson,J.
+- [W26.44] TITLE     Identification and characterization of two novel and differentially
+- [W26.45] expressed isoforms of human alpha2- and alpha1-globin genes
+- [W26.46] JOURNAL   Hemoglobin 36 (5), 421-432 (2012)
+- [W26.47] REMARK    GeneRIF: This study, for the first time, confirms the presence of
+- [W26.48] two isoforms for both the alpha2- and alpha1-globin genes with
+- [W26.49] varying transcription levels in healthy individuals.
+- [W26.50] REFERENCE   6  (bases 1 to 576)
+- [W26.51] AUTHORS   Tamary,H., Greenberg-Kushnir,N. and Dgany,O.
+- [W26.52] TITLE     Alpha-Thalassemia
+- [W26.53] JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+- [W26.54] REFERENCE   7  (bases 1 to 576)
+- [W26.55] AUTHORS   Liebhaber,S.A., Goossens,M.J. and Kan,Y.W.
+- [W26.56] TITLE     Cloning and complete nucleotide sequence of human 5'-alpha-globin
+- [W26.57] JOURNAL   Proc Natl Acad Sci U S A 77 (12), 7054-7058 (1980)
+- [W26.58] REFERENCE   8  (bases 1 to 576)
+- [W26.59] AUTHORS   Marinucci,M., Mavilio,F., Massa,A., Gabbianelli,M.,
+- [W26.60] Fontanarosa,P.P., Camagna,A., Ignesti,C. and Tentori,L.
+- [W26.61] TITLE     A new abnormal human hemoglobin: Hb Prato (alpha 2 31 (B12) Arg
+- [W26.62] JOURNAL   Biochim Biophys Acta 578 (2), 534-540 (1979)
+- [W26.63] REFERENCE   9  (bases 1 to 576)
+- [W26.64] AUTHORS   Sanguansermsri,T., Matragoon,S., Changloah,L. and Flatz,G.
+- [W26.65] TITLE     Hemoglobin Suan-Dok (alpha 2 109 (G16) Leu replaced by Arg beta 2):
+- [W26.66] an unstable variant associated with alpha-thalassemia
+- [W26.67] JOURNAL   Hemoglobin 3 (2-3), 161-174 (1979)
+- [W26.68] REFERENCE   10 (bases 1 to 576)
+- [W26.69] AUTHORS   Moo-Penn,W.F., Jue,D.L., Johnson,M.H., Wilson,S.M., Therrell,B.
+- [W26.70] TITLE     Hemoglobin Tarrant: alpha126(H9) Asp leads to Asn.
+- [W26.71] variant in the alpha1beta1 contact region showing high oxygen
+- [W26.72] affinity and reduced cooperativity
+- [W26.73] JOURNAL   Biochim Biophys Acta 490 (2), 443-451 (1977)
+- [W26.74] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W26.75] reference sequence was derived from V00493.1, Z84721.1 and
+- [W26.76] This sequence is a reference standard in the RefSeqGene project.
+- [W26.77] On Aug 3, 2018 this sequence version replaced NM_000517.5.
+- [W26.78] Summary: The human alpha globin gene cluster located on chromosome
+- [W26.79] 16 spans about 30 kb and includes seven loci: 5'- zeta - pseudozeta
+- [W26.80] - mu - pseudoalpha-1 - alpha-2 - alpha-1 - theta - 3'.
+- [W26.81] (HBA2) and alpha-1 (HBA1) coding sequences are identical.
+- [W26.82] genes differ slightly over the 5' untranslated regions and the
+- [W26.83] introns, but they differ significantly over the 3' untranslated
+- [W26.84] Two alpha chains plus two beta chains constitute HbA,
+- [W26.85] which in normal adult life comprises about 97% of the total
+- [W26.86] hemoglobin; alpha chains combine with delta chains to constitute
+- [W26.87] HbA-2, which with HbF (fetal hemoglobin) makes up the remaining 3%
+- [W26.88] Alpha thalassemias result from deletions of
+- [W26.89] each of the alpha genes as well as deletions of both HBA2 and HBA1;
+- [W26.90] some nondeletion alpha thalassemias have also been reported.
+- [W26.91] [provided by RefSeq, Jul 2008].
+- [W26.92] Publication Note:  This RefSeq record includes a subset of the
+- [W26.93] publications that are available for this gene.
+- [W26.94] record to access additional publications.
+- [W26.95] Transcript exon combination :: AI816040.1, AI815806.1 [ECO:0000332]
+- [W26.96] RNAseq introns              :: single sample supports all introns
+- [W26.97] SAMEA1965299, SAMEA1966682
+- [W26.98] ##RefSeq-Attributes-START##
+- [W26.99] MANE Ensembl match     :: ENST00000251595.11/ ENSP00000251595.6
+- [W26.100] RefSeq Select criteria :: based on single protein-coding transcript
+- [W26.101] COMPLETENESS: full length.
+- [W26.102] PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+- [W26.103] 1-84                V00493.1           1-84
+- [W26.104] 85-91               Z84721.1           33823-33829
+- [W26.105] 92-483              V00493.1           92-483
+- [W26.106] 484-572             AI016696.1         25-113              c
+- [W26.107] 573-576             Z84721.1           34570-34573
+- [W26.108] FEATURES             Location/Qualifiers
+- [W26.109] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.110] /note="hemoglobin subunit alpha 2"
+- [W26.111] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.112] /inference="alignment:Splign:2.1.0"
+- [W26.113] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.114] /note="alpha globin; alpha-2 globin; hemoglobin alpha
+- [W26.115] chain; mutant hemoglobin alpha 2 globin chain; hemoglobin,
+- [W26.116] /product="hemoglobin subunit alpha"
+- [W26.117] /db_xref="CCDS:CCDS10398.1"
+- [W26.118] /translation="MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYF
+- [W26.119] PHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL
+- [W26.120] SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR"
+- [W26.121] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.122] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W26.123] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.124] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.125] /note="N-linked (Glc) (glycation) lysine, alternate.
+- [W26.126] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W26.127] UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+- [W26.128] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.129] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.130] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.131] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.132] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.133] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W26.134] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.135] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.136] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W26.137] propagated from UniProtKB/Swiss-Prot (P69905.2); other
+- [W26.138] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.139] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.140] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.141] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.142] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.143] /note="N-linked (Glc) (glycation) lysine, alternate.
+- [W26.144] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W26.145] UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+- [W26.146] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.147] /note="N6-acetyllysine, alternate.
+- [W26.148] /evidence=ECO:0007744|PubMed:19608861; propagated from
+- [W26.149] UniProtKB/Swiss-Prot (P69905.2); acetylation site"
+- [W26.150] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.151] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.152] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.153] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.154] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.155] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W26.156] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.157] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.158] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.159] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.160] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.161] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.162] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W26.163] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.164] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.165] /note="N-linked (Glc) (glycation) lysine, alternate.
+- [W26.166] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W26.167] UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+- [W26.168] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.169] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.170] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.171] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.172] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.173] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.174] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.175] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.176] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.177] /evidence=ECO:0007744|PubMed:24275569; propagated from
+- [W26.178] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.179] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.180] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.181] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.182] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.183] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.184] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.185] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.186] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.187] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.188] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W26.189] propagated from UniProtKB/Swiss-Prot (P69905.2); other
+- [W26.190] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.191] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.192] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.193] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.194] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.195] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W26.196] propagated from UniProtKB/Swiss-Prot (P69905.2); other
+- [W26.197] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.198] /note="N-linked (Glc) (glycation) lysine.
+- [W26.199] /evidence=ECO:0000269|PubMed:7358733; propagated from
+- [W26.200] UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+- [W26.201] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.202] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W26.203] propagated from UniProtKB/Swiss-Prot (P69905.2); other
+- [W26.204] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.205] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.206] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.207] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.208] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.209] /evidence=ECO:0000305|PubMed:18077343. /id=PRO_0000455882"
+- [W26.210] /note="propagated from UniProtKB/Swiss-Prot (P69905.2)"
+- [W26.211] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.212] /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+- [W26.213] propagated from UniProtKB/Swiss-Prot (P69905.2); other
+- [W26.214] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.215] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.216] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.217] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.218] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.219] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.220] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.221] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.222] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.223] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.224] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.225] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.226] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.227] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.228] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.229] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.230] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.231] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.232] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.233] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.234] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.235] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.236] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.237] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.238] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.239] /note="(Microbial infection) Cleavage, by N.americanus
+- [W26.240] apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+- [W26.241] from UniProtKB/Swiss-Prot (P69905.2); other site"
+- [W26.242] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.243] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.244] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.245] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.246] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.247] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.248] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.249] /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+- [W26.250] UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+- [W26.251] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.252] /inference="alignment:Splign:2.1.0"
+- [W26.253] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.254] /inference="alignment:Splign:2.1.0"
+- [W26.255] /regulatory_class="polyA_signal_sequence"
+- [W26.256] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.257] /gene_synonym="ECYT7; HBA-T2; HBH"
+- [W26.258] 1 actcttctgg tccccacaga ctcagagaga acccaccatg gtgctgtctc ctgccgacaa
+- [W26.259] 61 gaccaacgtc aaggccgcct ggggtaaggt cggcgcgcac gctggcgagt atggtgcgga
+- [W26.260] 121 ggccctggag aggatgttcc tgtccttccc caccaccaag acctacttcc cgcacttcga
+- [W26.261] 181 cctgagccac ggctctgccc aggttaaggg ccacggcaag aaggtggccg acgcgctgac
+- [W26.262] 241 caacgccgtg gcgcacgtgg acgacatgcc caacgcgctg tccgccctga gcgacctgca
+- [W26.263] 301 cgcgcacaag cttcgggtgg acccggtcaa cttcaagctc ctaagccact gcctgctggt
+- [W26.264] 361 gaccctggcc gcccacctcc ccgccgagtt cacccctgcg gtgcacgcct ccctggacaa
+- [W26.265] 421 gttcctggct tctgtgagca ccgtgctgac ctccaaatac cgttaagctg gagcctcggt
+- [W26.266] 481 agccgttcct cctgcccgct gggcctccca acgggccctc ctcccctcct tgcaccggcc
+- [W26.267] 541 cttcctggtc tttgaataaa gtctgagtgg gcagca
+
+## [W27] NCBI dbSNP: rs713040, rs33930165, rs334, rs35699606 and rs34716011 in HBB
+https://www.ncbi.nlm.nih.gov/snp/rs713040 · Public domain · usage: ai_input, display
+
+- [W27.1] {"header":{"type":"esummary","version":"0.3"},"result":{"uids":["713040","33930165","334","35699606","34716011"],"713040":{"uid":"713040","snp_id":713040,"allele_origin":"","global_mafs":[{"study":"1000Genomes","freq":"A=0.285743/1431"},{"study":"1000Genomes_30X","freq":"A=0.282792/1811"},{"study":"ALSPAC","freq":"A=0.160872/620"},{"study":"Estonian","freq":"A=0.196205/879"},{"study":"FINRISK","freq":"A=0.208609/63"},{"study":"GnomAD_genomes","freq":"A=0.184794/27559"},{"study":"GoNL","freq":"A=0.137275/137"},{"study":"KOREAN","freq":"G=0.469966/1377"},{"study":"Korea1K","freq":"G=0.465611/853"},{"study":"Korea4K","freq":"G=0.462666/3346"},{"study":"MGP","freq":"A=0.183521/98"},{"study":"NorthernSweden","freq":"A=0.2/120"},{"study":"Qatari","freq":"A=0.12037/26"},{"study":"SGDP_PRJ","freq":"A=0.243902/120"},{"study":"Siberian","freq":"A=0.208333/10"},{"study":"TOMMO","freq":"G=0.49375/38238"},{"study":"TOPMED","freq":"A=0.179791/47589"},{"study":"TWINSUK","freq":"A=0.156958/582"},{"study":"Vietnamese","freq":"A=0.460912/283"},{"study":"ALFA","freq":"A=0.157374/11330"}],"global_population":"","global_samplesize":"","suspected":"","clinical_significance":"benign,other,likely-benign","genes":[{"name":"HBB","gene_id":"3043"}],"acc":"NC_000011.10","chr":"11","handle":"BIOINF_KMB_FNS_UNIBA,ILLUMINA,JJLAB,HGSV,SSMP,KYUGEN,EVA_DECODE,YEGNASUBRAMANIAN_LAB,CLINSEQ_SNP,1000G_HIGH_COVERAGE,HUGCELL_USP,BL,GENOMED,KHV_HUMAN_GENOMES,LEE,EVA_EXAC,HAMMER_LAB,SC_SNP,COMPLETE_GENOMICS,EVA-GONL,WEILL_CORNELL_DGM,SWEGEN,EGCUT_WGS,KOGIC,TRAN_CS_UWATERLOO,ABI,PJP,AFFY,GMI,TSC-CSHL,TOMMO_GENOMICS,HBVAR,KRGDB,TOPMED,GNOMAD,MILLER_NIDDK,CGAP-GAI,OMUKHERJEE_ADBS,CSHL-HAPMAP,CSHL,EVA_FINRISK,SGDP_PRJ,1000GENOMES,NHLBI-ESP,DDI,BCM-HGSC-SUB,EVA_UK10K_ALSPAC,EVA_UK10K_TWINSUK,USC_VALOUEV,SYSTEMSBIOZJU,ACPOP,SANFORD_IMAGENETICS,EVA_MGP,SEATTLESEQ,MGC_GENOME_DIFF,JMKIDD_LAB,BUSHMAN,APPLERA_GI,GRF,EVA,YY_MCH,RSG_UW,FSA-LAB,SEQUENOM,ENSEMBL,TISHKOFF,BGI,HUMAN_LONGEVITY,PACBIO","spdi":"NC_000011.10:5227012:A:C,NC_000011.10:5227012:A:G,NC_000011.10:5227012:A:T","fxn_class":"coding_sequence_variant,synonymous_variant,missense_variant","validated":"by-frequency,by-alfa,by-cluster","docsum":"HGVS=NC_000011.10:g.5227013A>C,NC_000011.10:g.5227013A>G,NC_000011.10:g.5227013A>T,NC_000011.9:g.5248243A>C,NC_000011.9:g.5248243A>G,NC_000011.9:g.5248243A>T,NG_000007.3:g.70603T>G,NG_000007.3:g.70603T>C,NG_000007.3:g.70603T>A,NG_059281.1:g.5059T>G,NG_059281.1:g.5059T>C,NG_059281.1:g.5059T>A,NM_000518.5:c.9T>G,NM_000518.5:c.9T>C,NM_000518.5:c.9T>A,NM_000518.4:c.9T>G,NM_000518.4:c.9T>C,NM_000518.4:c.9T>A,NG_046672.1:g.4948A>C,NG_046672.1:g.4948A>G,NG_046672.1:g.4948A>T,NG_042296.1:g.544A>C,NG_042296.1:g.544A>G,NG_042296.1:g.544A>T,NP_000509.1:p.His3Gln,NP_000509.1:p.His3Gln|SEQ=[A/C/G/T]|LEN=1|GENE=HBB:3043","tax_id":9606,"orig_build":86,"upd_build":157,"createdate":"2000/10/04 23:48","updatedate":"2024/11/01 07:22","ss":"1535702,2893879,3126418,4397553,4424098,5312189,16000583,16249027,16543087,24818625,28461443,28504459,39934114,48419812,49850525,79088877,79088878,84807063,84944416,102934270,155859650,159722270,161433018,167704337,168938358,168938429,170356602,202333860,207863192,212960456,225064978,235426034,242083994,254846544,280864758,286306162,291104261,342316077,491010801,491638177,532734488,562353906,657706296,974477576,988159027,1067519461,1077464819,1339939585,1426519243,1584072451,1597835756,1625895616,1668889649,1690220979,1690220980,1711280479,1806671472,1931523243,1959319823,1967278790,2026501690,2154788531,2179830169,2627719428,2699058232,2738739469,2748543912,2895840077,2984931976,3007522969,3021302546,3027043211,3349429892,3626587888,3637887856,3646421248,3651663826,3653703561,3674919089,3691127027,3737878776,3748887016,3786851730,3792007001,3796889018,3814235343,3824585934,3825791098,3832451942,3839770407,3845246389,3875552708,3923775573,3969119148,3983994692,3986053318,3986512436,4873695345,6117511896,6255132815,6308070214,6322410565,6326547075,6332143240,6343433923,6350063631,6383150887,6404060657,6404458816,6404670924,6441907426,6441907427,6869890391,8200489271,8236890649,8237212531,8237656747,8286250471,8314430906,8397462509,8481570500,8581295066,8623952034,8624016837,8650547110,8747189128,8799403748,8800062870,8800165441,8812089174,8836200499,8847521162,8848316252,8849837917,8918652482,8936547219,8941850076,8980656696,8981265255,8981426277,8981735659,8981735660,8982041685","allele":"N","snp_class":"snv","chrpos":"11:5227013","chrpos_prev_assm":"11:5248243","text":"","snp_id_sort":"0000713040","clinical_sort":"1","cited_sort":"","chrpos_sort":"0005227013","merged_sort":"0"},"33930165":{"uid":"33930165","snp_id":33930165,"allele_origin":"","global_mafs":[{"study":"1000Genomes","freq":"T=0.003395/17"},{"study":"1000Genomes_30X","freq":"T=0.00406/26"},{"study":"ALSPAC","freq":"T=0./0"},{"study":"ExAC","freq":"T=0.001228/149"},{"study":"GnomAD_genomes","freq":"T=0.003804/568"},{"study":"PAGE_STUDY","freq":"T=0.005455/429"},{"study":"PRJEB36033","freq":"G=0./0"},{"study":"TOMMO","freq":"G=0.000013/1"},{"study":"TOPMED","freq":"T=0.005365/1420"},{"study":"TWINSUK","freq":"T=0.00027/1"},{"study":"ALFA","freq":"T=0.001151/125"}],"global_population":"","global_samplesize":"","suspected":"","clinical_significance":"other,pathogenic,protective","genes":[{"name":"HBB","gene_id":"3043"}],"acc":"NC_000011.10","chr":"11","handle":"HUMAN_LONGEVITY,KHV_HUMAN_GENOMES,AFFY,ILLUMINA,PAGE_CC,RSG_UW,1000GENOMES,TOPMED,SANFORD_IMAGENETICS,1000G_HIGH_COVERAGE,NHLBI-ESP,LNCC-LABINFO,OMIM-CURATED-RECORDS,EXOME_CHIP,EVA_UK10K_TWINSUK,GNOMAD,EVA_UK10K_ALSPAC,OMICIA,CORNELL,HBVAR,EVA,HUGCELL_USP,TOMMO_GENOMICS,MILLER_NIDDK,ITMI","spdi":"NC_000011.10:5227002:C:A,NC_000011.10:5227002:C:G,NC_000011.10:5227002:C:T","fxn_class":"missense_variant,stop_gained,coding_sequence_variant","validated":"by-frequency,by-alfa,by-cluster","docsum":"HGVS=NC_000011.10:g.5227003C>A,NC_000011.10:g.5227003C>G,NC_000011.10:g.5227003C>T,NC_000011.9:g.5248233C>A,NC_000011.9:g.5248233C>G,NC_000011.9:g.5248233C>T,NG_000007.3:g.70613G>T,NG_000007.3:g.70613G>C,NG_000007.3:g.70613G>A,NG_059281.1:g.5069G>T,NG_059281.1:g.5069G>C,NG_059281.1:g.5069G>A,NM_000518.5:c.19G>T,NM_000518.5:c.19G>C,NM_000518.5:c.19G>A,NM_000518.4:c.19G>T,NM_000518.4:c.19G>C,NM_000518.4:c.19G>A,NG_046672.1:g.4938C>A,NG_046672.1:g.4938C>G,NG_046672.1:g.4938C>T,NG_042296.1:g.534C>A,NG_042296.1:g.534C>G,NG_042296.1:g.534C>T,NP_000509.1:p.Glu7Ter,NP_000509.1:p.Glu7Gln,NP_000509.1:p.Glu7Lys|SEQ=[C/A/G/T]|LEN=1|GENE=HBB:3043","tax_id":9606,"orig_build":126,"upd_build":157,"createdate":"2006/03/13 13:26","updatedate":"2024/11/01 07:22","ss":"49850530,49850531,49850533,49850535,49850537,79088885,79088887,86238298,160619148,212960458,244317470,263198802,263198903,336519576,342316076,481691220,491010800,491445405,1339939583,1625895614,1668889647,1776567974,1946300359,1959319822,2179830168,2710728123,2748543910,2895840075,2984931975,3021302544,3625594870,3644553134,3651663824,3653703560,3725211247,3744079858,3771601205,3814235342,3824585933,3985514792,3986512435,4873695340,6117511894,6255132813,6308070213,6441907416,6441907417,6869890386,8286250470,8397462507,8481570499,8581295064,8650547109,8747189126,8847620029,8918652480,8941850075,8982078882","allele":"N","snp_class":"snv","chrpos":"11:5227003","chrpos_prev_assm":"11:5248233","text":"","snp_id_sort":"0033930165","clinical_sort":"1","cited_sort":"","chrpos_sort":"0005227003","merged_sort":"0"},"334":{"uid":"334","snp_id":334,"allele_origin":"","global_mafs":[{"study":"1000Genomes","freq":"A=0.027356/137"},{"study":"1000Genomes_30X","freq":"A=0.028732/184"},{"study":"ExAC","freq":"A=0.004384/532"},{"study":"GnomAD_genomes","freq":"A=0.012876/1922"},{"study":"HapMap","freq":"A=0.040373/13"},{"study":"KOREAN","freq":"G=0.001711/5"},{"study":"Korea1K","freq":"G=0.000546/1"},{"study":"PRJEB36033","freq":"A=0./0"},{"study":"Qatari","freq":"A=0.018519/4"},{"study":"SGDP_PRJ","freq":"T=0.5/5"},{"study":"ALFA","freq":"A=0.000785/35"}],"global_population":"","global_samplesize":"","suspected":"","clinical_significance":"not-provided,protective,likely-benign,pathogenic,other","genes":[{"name":"HBB","gene_id":"3043"}],"acc":"NC_000011.10","chr":"11","handle":"ILLUMINA,PERLEGEN,CLINSEQ_SNP,1000G_HIGH_COVERAGE,OMIM-CURATED-RECORDS,KHV_HUMAN_GENOMES,EVA_EXAC,KOGIC,WEILL_CORNELL_DGM,COMPLETE_GENOMICS,EXOME_CHIP,AFFY,HBVAR,GNOMAD,MILLER_NIDDK,ITMI,SGDP_PRJ,1000GENOMES,NHLBI-ESP,HUGCELL_USP,SANFORD_IMAGENETICS,SEATTLESEQ,JMKIDD_LAB,EVA,APPLERA_GI,RSG_UW,FSA-LAB,SEQUENOM,KRGDB,NCBI,HUMAN_LONGEVITY","spdi":"NC_000011.10:5227001:T:A,NC_000011.10:5227001:T:C,NC_000011.10:5227001:T:G","fxn_class":"coding_sequence_variant,missense_variant","validated":"by-frequency,by-alfa,by-cluster","docsum":"HGVS=NC_000011.10:g.5227002T>A,NC_000011.10:g.5227002T>C,NC_000011.10:g.5227002T>G,NC_000011.9:g.5248232T>A,NC_000011.9:g.5248232T>C,NC_000011.9:g.5248232T>G,NG_000007.3:g.70614A>T,NG_000007.3:g.70614A>G,NG_000007.3:g.70614A>C,NG_059281.1:g.5070A>T,NG_059281.1:g.5070A>G,NG_059281.1:g.5070A>C,NM_000518.5:c.20A>T,NM_000518.5:c.20A>G,NM_000518.5:c.20A>C,NM_000518.4:c.20A>T,NM_000518.4:c.20A>G,NM_000518.4:c.20A>C,NG_046672.1:g.4937T>A,NG_046672.1:g.4937T>C,NG_046672.1:g.4937T>G,NG_042296.1:g.533T>A,NG_042296.1:g.533T>C,NG_042296.1:g.533T>G,NP_000509.1:p.Glu7Val,NP_000509.1:p.Glu7Gly,NP_000509.1:p.Glu7Ala|SEQ=[T/A/C/G]|LEN=1|GENE=HBB:3043","tax_id":9606,"orig_build":36,"upd_build":157,"createdate":"2000/09/19 17:02","updatedate":"2024/11/01 07:22","ss":"335,24811263,48419811,49850538,49850540,49850542,49850544,49850546,49850548,49850550,49850552,49850554,49850555,65658196,69307501,79088884,79088886,79089796,159722269,168938347,212960460,225064977,263198838,263198960,342316075,491010799,491445404,491638176,533576724,1067519460,1077464818,1339939582,1690220976,1776567973,1931523242,2179830167,2738739466,2748543909,2895840074,2984931974,3626587887,3653703559,3814235341,3824585932,3875552707,3923775569,3969119145,3983994691,3985514791,3986512434,6255132812,6308070212,6404060656,6441907414,6441907415,6869890385,8286250469,8397462506,8481570498,8581295063,8650547108,8918652479,8941850074","allele":"N","snp_class":"snv","chrpos":"11:5227002","chrpos_prev_assm":"11:5248232","text":"","snp_id_sort":"0000000334","clinical_sort":"1","cited_sort":"","chrpos_sort":"0005227002","merged_sort":"0"},"35699606":{"uid":"35699606","snp_id":35699606,"allele_origin":"","global_mafs":[{"study":"ExAC","freq":"C=0.0002802/34"},{"study":"GnomAD_exomes","freq":"C=0.0001328/186"},{"study":"GnomAD_genomes","freq":"C=0.0001072/16"},{"study":"TOPMED","freq":"C=0.0000076/2"},{"study":"ALFA","freq":"CC=0./0"}],"global_population":"","global_samplesize":"","suspected":"","clinical_significance":"uncertain-significance,pathogenic","genes":[{"name":"HBB","gene_id":"3043"}],"acc":"NC_000011.10","chr":"11","handle":"EVA,GENEREVIEWS,TOPMED,GNOMAD,CORRELAGEN,HBVAR,MILLER_NIDDK,EVA_EXAC","spdi":"NC_000011.10:5226994:C:CC","fxn_class":"coding_sequence_variant,frameshift_variant","validated":"by-frequency,by-alfa,by-cluster","docsum":"HGVS=NC_000011.10:g.5226995dup,NC_000011.9:g.5248225dup,NG_000007.3:g.70621dup,NG_059281.1:g.5077dup,NM_000518.5:c.27dup,NM_000518.4:c.27dup,NG_046672.1:g.4930dup,NG_042296.1:g.526dup,NP_000509.1:p.Ser10fs|SEQ=[-/C]|LEN=1|GENE=HBB:3043","tax_id":9606,"orig_build":126,"upd_build":157,"createdate":"2006/03/15 14:01","updatedate":"2024/11/01 07:22","ss":"49851065,79090196,184956622,472343555,1711960329,2738739461,4873695335,6441907408,6869890381,8847521161","allele":"N","snp_class":"delins","chrpos":"11:5226994","chrpos_prev_assm":"11:5248225","text":"","snp_id_sort":"0035699606","clinical_sort":"1","cited_sort":"","chrpos_sort":"0005226994","merged_sort":"0"},"34716011":{"uid":"34716011","snp_id":34716011,"allele_origin":"","global_mafs":[{"study":"GnomAD_exomes","freq":"T=0./0"},{"study":"GnomAD_genomes","freq":"T=0.0000067/1"},{"study":"Korea1K","freq":"T=0./0"},{"study":"TOPMED","freq":"T=0.0000038/1"},{"study":"ALFA","freq":"T=0./0"}],"global_population":"","global_samplesize":"","suspected":"","clinical_significance":"pathogenic","genes":[{"name":"HBB","gene_id":"3043"}],"acc":"NC_000011.10","chr":"11","handle":"HBVAR,GNOMAD,ILLUMINA,TOPMED,EVA,OMICIA,KOGIC,MILLER_NIDDK,CRYSTAL_QCHIP","spdi":"NC_000011.10:5226973:C:G,NC_000011.10:5226973:C:T","fxn_class":"missense_variant,stop_gained,coding_sequence_variant","validated":"by-frequency,by-alfa,by-cluster","docsum":"HGVS=NC_000011.10:g.5226974C>G,NC_000011.10:g.5226974C>T,NC_000011.9:g.5248204C>G,NC_000011.9:g.5248204C>T,NG_000007.3:g.70642G>C,NG_000007.3:g.70642G>A,NG_059281.1:g.5098G>C,NG_059281.1:g.5098G>A,NM_000518.5:c.48G>C,NM_000518.5:c.48G>A,NM_000518.4:c.48G>C,NM_000518.4:c.48G>A,NG_046672.1:g.4909C>G,NG_046672.1:g.4909C>T,NG_042296.1:g.505C>G,NG_042296.1:g.505C>T,NP_000509.1:p.Trp16Cys,NP_000509.1:p.Trp16Ter|SEQ=[C/G/T]|LEN=1|GENE=HBB:3043","tax_id":9606,"orig_build":126,"upd_build":157,"createdate":"2006/03/14 09:58","updatedate":"2024/11/01 07:22","ss":"49850582,79089452,244317517,1959319817,2632794383,3021302537,3651663816,3725211240,3969119141,4873695325,6349797818,6441907389,6869890372,8314393851","allele":"B","snp_class":"snv","chrpos":"11:5226974","chrpos_prev_assm":"11:5248204","text":"","snp_id_sort":"0034716011","clinical_sort":"1","cited_sort":"","chrpos_sort":"0005226974","merged_sort":"0"}}}
+
+## [W28] NCBI ClinVar VCV000015296: HBB c.9T>A (Hb Okayama)
+https://www.ncbi.nlm.nih.gov/clinvar/variation/15296/ · Public domain · usage: ai_input, display
+
+- [W28.1] <?xml version="1.0" encoding="UTF-8" ?>
+- [W28.2] <ClinVarResult-Set><VariationArchive VariationID="15296" VariationName="NM_000518.5(HBB):c.9T&gt;A (p.His3Gln)" VariationType="single nucleotide variant" Accession="VCV000015296" Version="5" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2026-01-24" DateCreated="2018-03-25" MostRecentSubmission="2026-01-24">
+- [W28.3] <RecordStatus>current</RecordStatus>
+- [W28.4] <Species>Homo sapiens</Species>
+- [W28.5] <SimpleAllele AlleleID="30335" VariationID="15296">
+- [W28.6] <Gene Symbol="HBB" FullName="hemoglobin subunit beta" GeneID="3043" HGNC_ID="HGNC:4827" Source="submitted" RelationshipType="within multiple genes by overlap">
+- [W28.7] <CytogeneticLocation>11p15.4</CytogeneticLocation>
+- [W28.8] <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5225464" stop="5227071" display_start="5225464" display_stop="5227071" Strand="-"/>
+- [W28.9] <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="5246695" stop="5248300" display_start="5246695" display_stop="5248300" Strand="-"/>
+- [W28.10] <Gene Symbol="LOC106099062" FullName="HBB recombination region" GeneID="106099062" Source="calculated" RelationshipType="within multiple genes by overlap">
+- [W28.11] <CytogeneticLocation>11p15.4</CytogeneticLocation>
+- [W28.12] <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5226570" stop="5228834" display_start="5226570" display_stop="5228834" Strand="+"/>
+- [W28.13] <Gene Symbol="LOC107133510" FullName="origin of replication at HBB" GeneID="107133510" Source="calculated" RelationshipType="within multiple genes by overlap">
+- [W28.14] <CytogeneticLocation>11p15.4</CytogeneticLocation>
+- [W28.15] <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5222166" stop="5229620" display_start="5222166" display_stop="5229620" Strand="+"/>
+- [W28.16] <Name>NM_000518.5(HBB):c.9T&gt;A (p.His3Gln)</Name>
+- [W28.17] <CanonicalSPDI>NC_000011.10:5227012:A:T</CanonicalSPDI>
+- [W28.18] <VariantType>single nucleotide variant</VariantType>
+- [W28.19] <CytogeneticLocation>11p15.4</CytogeneticLocation>
+- [W28.20] <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="5227013" stop="5227013" display_start="5227013" display_stop="5227013" variantLength="1" positionVCF="5227013" referenceAlleleVCF="A" alternateAlleleVCF="T"/>
+- [W28.21] <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="5248243" stop="5248243" display_start="5248243" display_stop="5248243" variantLength="1" positionVCF="5248243" referenceAlleleVCF="A" alternateAlleleVCF="T"/>
+- [W28.22] <ProteinChange>H3Q</ProteinChange>
+- [W28.23] <ProteinExpression sequenceAccessionVersion="P68871" sequenceAccession="P68871" change="p.His3Gln">
+- [W28.24] <Expression>P68871:p.His3Gln</Expression>
+- [W28.25] <HGVS Assembly="GRCh38" Type="genomic, top-level">
+- [W28.26] <NucleotideExpression sequenceAccessionVersion="NC_000011.10" sequenceAccession="NC_000011" sequenceVersion="10" change="g.5227013A&gt;T" Assembly="GRCh38">
+- [W28.27] <Expression>NC_000011.10:g.5227013A&gt;T</Expression>
+- [W28.28] <HGVS Assembly="GRCh37" Type="genomic, top-level">
+- [W28.29] <NucleotideExpression sequenceAccessionVersion="NC_000011.9" sequenceAccession="NC_000011" sequenceVersion="9" change="g.5248243A&gt;T" Assembly="GRCh37">
+- [W28.30] <Expression>NC_000011.9:g.5248243A&gt;T</Expression>
+- [W28.31] <NucleotideExpression sequenceAccessionVersion="NG_000007.3" sequenceAccession="NG_000007" sequenceVersion="3" change="g.70603T&gt;A">
+- [W28.32] <Expression>NG_000007.3:g.70603T&gt;A</Expression>
+- [W28.33] <NucleotideExpression sequenceAccessionVersion="NG_042296.1" sequenceAccession="NG_042296" sequenceVersion="1" change="g.544A&gt;T">
+- [W28.34] <Expression>NG_042296.1:g.544A&gt;T</Expression>
+- [W28.35] <NucleotideExpression sequenceAccessionVersion="NG_046672.1" sequenceAccession="NG_046672" sequenceVersion="1" change="g.4948A&gt;T">
+- [W28.36] <Expression>NG_046672.1:g.4948A&gt;T</Expression>
+- [W28.37] <NucleotideExpression sequenceAccessionVersion="NG_059281.1" sequenceAccession="NG_059281" sequenceVersion="1" change="g.5059T&gt;A">
+- [W28.38] <Expression>NG_059281.1:g.5059T&gt;A</Expression>
+- [W28.39] <NucleotideExpression sequenceAccessionVersion="NM_000518.5" sequenceAccession="NM_000518" sequenceVersion="5" change="c.9T&gt;A" MANESelect="true">
+- [W28.40] <Expression>NM_000518.5:c.9T&gt;A</Expression>
+- [W28.41] <ProteinExpression sequenceAccessionVersion="NP_000509.1" sequenceAccession="NP_000509" sequenceVersion="1" change="p.His3Gln" singleLetterProteinChange="H3Q">
+- [W28.42] <Expression>NP_000509.1:p.His3Gln</Expression>
+- [W28.43] <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+- [W28.44] <NucleotideExpression sequenceAccessionVersion="LRG_1232" sequenceAccession="LRG_1232">
+- [W28.45] <Expression>LRG_1232:g.5059T&gt;A</Expression>
+- [W28.46] <NucleotideExpression sequenceAccessionVersion="LRG_1232t1" sequenceAccession="LRG_1232t1">
+- [W28.47] <Expression>LRG_1232t1:c.9T&gt;A</Expression>
+- [W28.48] <ProteinExpression sequenceAccessionVersion="LRG_1232p1" sequenceAccession="LRG_1232p1" change="p.His3Gln">
+- [W28.49] <Expression>LRG_1232p1:p.His3Gln</Expression>
+- [W28.50] <XRef ID="CA125078" DB="ClinGen"/>
+- [W28.51] <XRef ID="P68871#VAR_002858" DB="UniProtKB"/>
+- [W28.52] <XRef Type="Allelic variant" ID="141900.0206" DB="OMIM"/>
+- [W28.53] <XRef Type="rs" ID="713040" DB="dbSNP"/>
+- [W28.54] <GlobalMinorAlleleFrequency Value="0.28574" Source="1000 Genomes Project" MinorAllele="A"/>
+- [W28.55] <RCVAccession Title="NM_000518.5(HBB):c.9T&gt;A (p.His3Gln) AND HEMOGLOBIN OKAYAMA" Accession="RCV000016529" Version="4">
+- [W28.56] <ClassifiedConditionList TraitSetID="4562">
+- [W28.57] <ClassifiedCondition>HEMOGLOBIN OKAYAMA</ClassifiedCondition>
+- [W28.58] </ClassifiedConditionList>
+- [W28.59] <ReviewStatus>no assertion criteria provided</ReviewStatus>
+- [W28.60] <Description DateLastEvaluated="2017-12-12" SubmissionCount="1">other</Description>
+- [W28.61] <RCVAccession Title="NM_000518.5(HBB):c.9T&gt;A (p.His3Gln) AND not provided" Accession="RCV003736540" Version="3">
+- [W28.62] <ClassifiedConditionList TraitSetID="9460">
+- [W28.63] <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+- [W28.64] </ClassifiedConditionList>
+- [W28.65] <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+- [W28.66] <Description DateLastEvaluated="2025-01-03" SubmissionCount="1">Likely benign</Description>
+- [W28.67] <GermlineClassification DateLastEvaluated="2025-01-03" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2018-03-25" MostRecentSubmission="2026-01-24">
+- [W28.68] <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+- [W28.69] <Description>Likely benign</Description>
+- [W28.70] <Explanation DataSource="ClinVar" Type="public">Likely benign (1)</Explanation>
+- [W28.71] <ID Source="PubMed">6852251</ID>
+- [W28.72] <DescriptionHistory Dated="2024-02-17">
+- [W28.73] <Description>other</Description>
+- [W28.74] <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+- [W28.75] <Trait ID="17556" Type="Disease">
+- [W28.76] <ElementValue Type="Alternate">none provided</ElementValue>
+- [W28.77] <ElementValue Type="Preferred">not provided</ElementValue>
+- [W28.78] <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+- [W28.79] <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+- [W28.80] <XRef ID="C3661900" DB="MedGen"/>
+- [W28.81] <TraitSet ID="4562" Type="Disease" ContributesToAggregateClassification="false">
+- [W28.82] <Trait ID="11837" Type="NamedProteinVariant">
+- [W28.83] <ElementValue Type="Preferred">HEMOGLOBIN OKAYAMA</ElementValue>
+- [W28.84] <XRef Type="Allelic variant" ID="141900.0206" DB="OMIM"/>
+- [W28.85] <ClinicalAssertion ID="36797" SubmissionDate="2017-12-12" ContributesToAggregateClassification="false" DateLastUpdated="2018-03-25" DateCreated="2013-04-04">
+- [W28.86] <ClinVarSubmissionID localKey="141900.0206_HEMOGLOBIN OKAYAMA" title="HBB, HIS2GLN_HEMOGLOBIN OKAYAMA"/>
+- [W28.87] <ClinVarAccession Accession="SCV000036797" DateUpdated="2018-03-25" DateCreated="2013-04-04" Type="SCV" Version="4" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource"/>
+- [W28.88] <RecordStatus>current</RecordStatus>
+- [W28.89] <Classification DateLastEvaluated="2017-12-12">
+- [W28.90] <ReviewStatus>no assertion criteria provided</ReviewStatus>
+- [W28.91] <GermlineClassification>other</GermlineClassification>
+- [W28.92] <Assertion>variation to disease</Assertion>
+- [W28.93] <AffectedStatus>not provided</AffectedStatus>
+- [W28.94] <MethodType>literature only</MethodType>
+- [W28.95] <Attribute Type="Description">See Harano et al. (1983).</Attribute>
+- [W28.96] <ID Source="PubMed">6852251</ID>
+- [W28.97] <VariantType>Variation</VariantType>
+- [W28.98] <Name Type="NonHGVS">HIS2GLN</Name>
+- [W28.99] <XRef DB="OMIM" ID="141900.0206" Type="Allelic variant"/>
+- [W28.100] <ElementValue Type="Preferred">HEMOGLOBIN OKAYAMA</ElementValue>
+- [W28.101] <ClinicalAssertion ID="8352784" SubmissionDate="2026-01-09" ContributesToAggregateClassification="true" DateLastUpdated="2026-01-24" DateCreated="2024-02-20">
+- [W28.102] <ClinVarSubmissionID localKey="3798792|MedGen:C3661900" submittedAssembly="GRCh37"/>
+- [W28.103] <ClinVarAccession Accession="SCV004565226" DateUpdated="2026-01-24" DateCreated="2024-02-20" Type="SCV" Version="3" SubmitterName="ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories" OrgID="25969" OrganizationCategory="laboratory"/>
+- [W28.104] <RecordStatus>current</RecordStatus>
+- [W28.105] <Classification DateLastEvaluated="2025-01-03">
+- [W28.106] <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+- [W28.107] <GermlineClassification>Likely Benign</GermlineClassification>
+- [W28.108] <Comment Type="public">The Hb Okayama variant (HBB: c.9T&gt;A; p.His3Gln, also known as His2Gln when numbered from the mature protein, rs713040, HbVar ID: 220) is reported in the heterozygous state in individuals with with no hematological abnormalities (Harano 1983, van Zwieten 2014, see link to HbVar and references therein).
+- [W28.109] This variant is also reported in ClinVar (Variation ID: 15296), but is only observed on one allele in the Genome Aggregation Database, indicating it is not a common polymorphism.
+- [W28.110] Functional analyses of the variant protein show normal stability and slightly increased oxygen affinity (see link to HbVar).
+- [W28.111] Based on available information, this variant is considered to be likely benign.
+- [W28.112] References: Link to HbVar database: https://globin.bx.psu.edu/hbvar/menu.html Harano T et al. Hemoglobin Okayama (beta 2 (NA 2) His replaced by Gln): a new 'silent' hemoglobin variant with substituted amino acid residue at the 2,3-diphosphoglycerate binding site.
+- [W28.113] PMID: 6852251. van Zwieten R et al. Hemoglobin analyses in the Netherlands reveal more than 80 different variants including six novel ones.
+- [W28.114] <Assertion>variation to disease</Assertion>
+- [W28.115] <Attribute Type="AssertionMethod">ARUP Molecular Germline Variant Investigation Process 2024</Attribute>
+- [W28.116] <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/xwiqgyug/arup_molecular_germline_variant_investigation_process_arup-info-0022_2024.pdf/?format=attachment</URL>
+- [W28.117] <Species TaxonomyId="9606">human</Species>
+- [W28.118] <AffectedStatus>unknown</AffectedStatus>
+- [W28.119] <MethodType>clinical testing</MethodType>
+- [W28.120] <Attribute Type="Description">not provided</Attribute>
+- [W28.121] <VariantType>Variation</VariantType>
+- [W28.122] <Attribute Type="HGVS">NC_000011.9:g.5248243A&gt;T</Attribute>
+- [W28.123] <XRef DB="MedGen" ID="C3661900" Type="CUI"/>
+- [W28.124] <SubmissionName>2023 ARUP ClinVar submission</SubmissionName>
+- [W28.125] <SubmissionName>2024 ARUP ClinVar Submission</SubmissionName>
+- [W28.126] <SubmissionName>SUB15923449</SubmissionName>
+- [W28.127] <TraitMapping ClinicalAssertionID="8352784" TraitType="Disease" MappingType="XRef" MappingValue="C3661900" MappingRef="MedGen">
+- [W28.128] <MedGen CUI="C3661900" Name="not provided"/>
+- [W28.129] <TraitMapping ClinicalAssertionID="36797" TraitType="Disease" MappingType="Name" MappingValue="HEMOGLOBIN OKAYAMA" MappingRef="Preferred">
+- [W28.130] <MedGen CUI="C3891149" Name="HEMOGLOBIN OKAYAMA"/>

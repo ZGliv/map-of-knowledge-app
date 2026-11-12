@@ -1,0 +1,61 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Two lists in, one number out",
+   "text": "The dot product takes two lists of numbers of the same length, usually the coordinates of two vectors, and gives back one number. It is also called the scalar product, a name that stresses the answer is a plain number, called a scalar, rather than a vector. The name dot product comes from the dot symbol, as in 𝐚⋅𝐛. Because it is a special case of an inner product, that term is often used for it as well.",
+   "cites": [
+    1,
+    3,
+    4,
+    10
+   ]
+  },
+  {
+   "heading": "Two ways to compute it",
+   "text": "There are two ways to define it. The algebraic way: multiply the matching entries of the two lists, then add up those products. The geometric way: multiply the two lengths, then multiply by the cosine of the angle between the vectors, written 𝐚⋅𝐛 = ‖𝐚‖‖𝐛‖cos θ. When you work in Cartesian coordinates, the two recipes always agree.",
+   "cites": [
+    5,
+    6,
+    7,
+    11,
+    23
+   ]
+  },
+  {
+   "heading": "Measuring length and angle",
+   "text": "In modern geometry, where space is often built from vectors, the dot product is what defines lengths and angles. Dot a vector with itself and you get the square of its length, so the length is ‖𝐚‖ = √𝐚⋅𝐚. Divide the dot product of two vectors by the product of their lengths and you get the cosine of the angle between them. So a single operation hands you both measurements.",
+   "cites": [
+    8,
+    9,
+    25
+   ]
+  },
+  {
+   "heading": "A test for right angles",
+   "text": "One handy consequence is a quick check for perpendicular vectors. The cosine of a right angle is zero, so two vectors at 90 degrees have a dot product of zero. In fact, two non-zero vectors are orthogonal, meaning at right angles, exactly when their dot product is zero. At the other extreme, two vectors pointing the same way give the product of their lengths.",
+   "cites": [
+    24,
+    25,
+    40
+   ]
+  },
+  {
+   "heading": "Rules it follows",
+   "text": "Scaling either vector by a number scales the answer by that number, and the dot product spreads over addition: 𝐚⋅(𝐛 + 𝐜) = 𝐚⋅𝐛 + 𝐚⋅𝐜. Together these make it what is called a bilinear form. A vector dotted with itself is never negative, and it is zero only for the zero vector. If vectors are written as columns, the dot product is also the matrix product of the transpose of 𝐚 with 𝐛.",
+   "cites": [
+    18,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "heading": "No cancelling allowed",
+   "text": "With ordinary numbers, if ab = ac and a is not zero, then b must equal c. The dot product breaks this habit. Knowing 𝐚⋅𝐛 = 𝐚⋅𝐜 only tells you that 𝐚 is perpendicular to the difference 𝐛 − 𝐜. That difference can be a non-zero vector, so 𝐛 and 𝐜 may well be different.",
+   "cites": [
+    41
+   ]
+  }
+ ]
+}

@@ -1,0 +1,558 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics",
+ "name": "Statistics",
+ "summary": [
+  {
+   "text": "Statistics is the discipline of collecting, organizing, analyzing, interpreting and presenting data.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When data on every member of a population cannot be collected, statisticians use survey samples and experiment designs, and random sampling lets conclusions reasonably extend to the whole population.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Descriptive statistics summarize a sample, while inferential statistics draw conclusions from data subject to random variation.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two main methods",
+   "value": "Descriptive and inferential statistics",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Foundation",
+   "value": "Rests on probability theory",
+   "cites": [
+    12,
+    28
+   ]
+  },
+  {
+   "label": "Name origin",
+   "value": "German Statistik, 'description of a state'",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Type I error",
+   "value": "Rejecting a null hypothesis that is true: a false positive",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Kinds of data",
+   "value": "Quantitative numbers or qualitative labels",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A city cannot ask all of its residents about a new park. What lets answers from some residents reasonably extend to everyone?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Asking only the loudest residents"
+    },
+    {
+     "id": "b",
+     "label": "Random sampling"
+    },
+    {
+     "id": "c",
+     "label": "Asking one person per street"
+    },
+    {
+     "id": "d",
+     "label": "Waiting until a census is possible"
+    }
+   ],
+   "answer": "b",
+   "explain": "When a census cannot be collected, random sampling assures that conclusions can reasonably extend from the sample to the whole population.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.statistics:q1"
+  },
+  {
+   "prompt": "Researchers measure a group of plants, change how much water they get, then measure them again the same way. What kind of study is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An observational study"
+    },
+    {
+     "id": "b",
+     "label": "A census"
+    },
+    {
+     "id": "c",
+     "label": "A survey sample"
+    },
+    {
+     "id": "d",
+     "label": "An experimental study"
+    }
+   ],
+   "answer": "d",
+   "explain": "An experimental study involves manipulating the system and measuring again; an observational study involves no manipulation.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.statistics:q2"
+  },
+  {
+   "prompt": "A pollster questions 1,000 voters to make statements about a whole country. Which method of data analysis is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Inferential statistics"
+    },
+    {
+     "id": "b",
+     "label": "Descriptive statistics"
+    },
+    {
+     "id": "c",
+     "label": "A census"
+    },
+    {
+     "id": "d",
+     "label": "A blunder"
+    }
+   ],
+   "answer": "a",
+   "explain": "Inferential statistics draws conclusions about a population from a sample, unlike descriptive statistics, which summarize the sample.",
+   "cites": [
+    10,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.statistics:q3"
+  },
+  {
+   "prompt": "A test says a medicine works, though in truth it does nothing. Which kind of error is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Type II error"
+    },
+    {
+     "id": "b",
+     "label": "A false negative"
+    },
+    {
+     "id": "c",
+     "label": "A Type I error"
+    },
+    {
+     "id": "d",
+     "label": "A missing-data error"
+    }
+   ],
+   "answer": "c",
+   "explain": "A Type I error is when the null hypothesis is rejected though it is in fact true, a false positive.",
+   "cites": [
+    14,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics:q4"
+  },
+  {
+   "prompt": "A survey records each person's favourite colour. What kind of data is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Quantitative data"
+    },
+    {
+     "id": "b",
+     "label": "Qualitative data, a label"
+    },
+    {
+     "id": "c",
+     "label": "A statistic like the mean"
+    },
+    {
+     "id": "d",
+     "label": "Census data"
+    }
+   ],
+   "answer": "b",
+   "explain": "Data may be a numerical value (quantitative) or a label (qualitative).",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.mathematics.probability.statistics:q5"
+  },
+  {
+   "prompt": "An analyst reports weights in pounds while everyone believes they are in kilograms. What kind of error is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A blunder"
+    },
+    {
+     "id": "b",
+     "label": "Random noise"
+    },
+    {
+     "id": "c",
+     "label": "Systematic bias"
+    },
+    {
+     "id": "d",
+     "label": "Type I error"
+    }
+   ],
+   "answer": "a",
+   "explain": "Errors can be random (noise), systematic (bias), or other types such as a blunder, for example reporting incorrect units.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.probability.statistics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Standard_Normal_Distribution-en.svg/960px-Standard_Normal_Distribution-en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Statistics",
+  "credit": "Д.Ильин: vectorization",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_Normal_Distribution-en.svg"
+ },
+ "source": {
+  "title": "Statistics",
+  "url": "https://en.wikipedia.org/wiki/Statistics",
+  "revision": 1383496462
+ },
+ "pack": {
+  "id": "auto-probability-statistics",
+  "title": "How a Few Speak for Many",
+  "question": "How can data from a few people tell us about everyone?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Statistics"
+  ],
+  "hue": 42,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Standard_Normal_Distribution-en.svg/960px-Standard_Normal_Distribution-en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Statistics",
+    "credit": "Д.Ильин: vectorization · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_Normal_Distribution-en.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "How a Few Speak for Many",
+    "hook": "Nobody asks every resident, yet statistics still claims to know what a country thinks."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-statistics:1",
+    "transfer": false,
+    "prompt": "A city of 500,000 people wants to learn how residents feel about a new park, and cannot ask everyone. How should it pick whom to ask?",
+    "explain": "Random sampling assures that inferences and conclusions can reasonably extend from the sample to the population as a whole.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "Ask the first ten people you meet",
+        "feedback": "It is quick, but the choice is not random, so nothing assures the results extend to the city."
+       },
+       {
+        "id": "a",
+        "label": "Pick people at random"
+       },
+       {
+        "id": "b",
+        "label": "Ask only people standing at the park gate",
+        "feedback": "Easy to do, but nothing assures that these people stand for everyone else."
+       },
+       {
+        "id": "c",
+        "label": "Ask only those who volunteer by email",
+        "feedback": "Volunteers are not a random draw, so their views may not extend to the whole city."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-statistics:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each activity into the kind of statistics it belongs to.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Computing the mean of a sample"
+     },
+     {
+      "id": "i1",
+      "label": "Stating a sample's standard deviation"
+     },
+     {
+      "id": "i2",
+      "label": "Drawing conclusions from data subject to random variation"
+     },
+     {
+      "id": "i3",
+      "label": "Making statements about a population from a sample"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "descriptive"
+     },
+     {
+      "id": "g1",
+      "label": "inferential"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Descriptive statistics summarize a sample using indexes such as the mean or standard deviation; inferential statistics draw conclusions from data subject to random variation."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-statistics:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Random error"
+     },
+     {
+      "id": "l1",
+      "label": "Systematic error"
+     },
+     {
+      "id": "l2",
+      "label": "Type I error"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "False positive"
+     },
+     {
+      "id": "r0",
+      "label": "Noise"
+     },
+     {
+      "id": "r1",
+      "label": "Bias"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Errors are classified as random (noise) or systematic (bias), and a Type I error rejects a true null hypothesis, giving a false positive."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-statistics:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "We want to learn about everyone in a country."
+     },
+     {
+      "id": "b",
+      "text": "We cannot collect data from every member."
+     },
+     {
+      "id": "c",
+      "text": "So we survey a sample chosen at random."
+     },
+     {
+      "id": "d",
+      "text": "Therefore the results describe only those surveyed and can never reasonably extend to the country."
+     }
+    ],
+    "answer": "d",
+    "explain": "Random sampling assures that conclusions can reasonably extend from the sample to the population as a whole."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Statistics summarizes the data you collected, and random sampling lets conclusions reasonably carry from the sample to the whole population.",
+    "connections": [
+     {
+      "title": "Descriptive statistics",
+      "place": "Statistics",
+      "node": "knowledge.mathematics.probability.statistics.descriptive-statistics"
+     },
+     {
+      "title": "Sampling",
+      "place": "Statistics",
+      "node": "knowledge.mathematics.probability.statistics.sampling"
+     },
+     {
+      "title": "Estimation",
+      "place": "Statistics",
+      "node": "knowledge.mathematics.probability.statistics.estimation"
+     },
+     {
+      "title": "Hypothesis testing",
+      "place": "Statistics",
+      "node": "knowledge.mathematics.probability.statistics.hypothesis-testing"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Random sampling assures that inferences and conclusions can reasonably extend from the sample to the population as a whole.",
+    "source": "Wikipedia sentences 6, 7"
+   },
+   {
+    "claim": "Descriptive statistics summarize a sample using indexes such as the mean or standard deviation; inferential statistics draw conclusions from data subject to random variation.",
+    "source": "Wikipedia sentences 10, 26"
+   },
+   {
+    "claim": "Errors are classified as random (noise) or systematic (bias), and a Type I error rejects a true null hypothesis, giving a false positive.",
+    "source": "Wikipedia sentences 16, 19"
+   },
+   {
+    "claim": "Random sampling assures that conclusions can reasonably extend from the sample to the population as a whole.",
+    "source": "Wikipedia sentences 6, 7"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What statistics is",
+    "text": "Statistics is the discipline of collecting, organizing, analyzing, interpreting and presenting data. Data can be numerical values, called quantitative data, or labels, called qualitative data. The name comes from the German Statistik, which first meant a description of a state or a country.",
+    "cites": [
+     1,
+     23
+    ]
+   },
+   {
+    "heading": "Populations and samples",
+    "text": "A statistical study usually begins with a statistical population or a statistical model. A population can be any group of people or objects, from everyone living in a country to every atom in a crystal. When a census covering every member is not possible, statisticians design experiments and survey samples instead. Random sampling is what lets conclusions drawn from a sample reasonably extend to the whole population.",
+    "cites": [
+     2,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Experiments and observation",
+    "text": "Two kinds of study are set against each other here. In an experimental study you measure a system, change something about it, then measure again in the same way to see whether the change altered the results. An observational study leaves out that manipulation.",
+    "cites": [
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Describing and inferring",
+    "text": "Analysis uses two main kinds of method. Descriptive statistics summarize a sample with measures such as the mean or the standard deviation. They mostly look at central tendency, the typical or central value, and dispersion, how far members spread from the center and from each other. Inferential statistics use a sample to make statements and predictions about the population, in the face of random variation such as observational errors and sampling variation.",
+    "cites": [
+     10,
+     11,
+     26
+    ]
+   },
+   {
+    "heading": "Testing hypotheses",
+    "text": "A standard procedure tests whether two data sets are related. The idealized default, called the null hypothesis, says there is no relationship, and statistical tests measure the sense in which the data show it to be false. Two basic mistakes are possible. A Type I error rejects a null hypothesis that is actually true, a false positive; a Type II error fails to reject one that is actually false, a false negative.",
+    "cites": [
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "The science of uncertainty",
+    "text": "Statistics rests on probability, the branch of mathematics that studies random events, yet the two are distinct. Probability deduces answers for particular situations from a general theory, while statistics works the other way, inducing statements about a population from a data set. Statistics is often called the science of uncertainty, a name that reflects how it copes with measurement and sampling errors and with uncertainty in modelling.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Where the word came from",
+    "text": "The word traces back to the Latin status, meaning situation or condition, which in late Latin came to mean state. From it the political scientist Gottfried Achenwall coined the German statistik. The term reached English in 1770, meaning the study of political arrangements, and took on its modern sense in the 1790s in the works of John Sinclair.",
+    "cites": [
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-1-1",
+   "kind": "book",
+   "title": "1.1 Definitions of Statistics, Probability, and Key Terms",
+   "by": "Barbara Illowsky and Susan Dean, OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-1-definitions-of-statistics-probability-and-key-terms",
+   "note": "A free college textbook opening section on what statistics is, with populations, samples and key terms.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-statistics",
+   "kind": "article",
+   "title": "Statistics",
+   "by": "Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Statistics.html",
+   "note": "A short reference entry on statistics as a field, with pointers to related topics and books."
+  },
+  {
+   "id": "cc-what-is-statistics",
+   "kind": "video",
+   "title": "What Is Statistics: Crash Course Statistics #1",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=sxQaBpKfDRk",
+   "note": "Crash Course's opening episode on what statistics is and why it matters, told through the lady tasting tea."
+  }
+ ]
+}

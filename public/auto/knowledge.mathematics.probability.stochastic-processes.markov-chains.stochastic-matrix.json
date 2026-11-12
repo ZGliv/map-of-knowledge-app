@@ -1,0 +1,314 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix",
+ "name": "Stochastic matrix",
+ "summary": [
+  {
+   "text": "A stochastic matrix is a square grid of nonnegative numbers in which each row (or each column, in the left version) adds up to 1.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It describes a Markov chain: in the row convention, the entry in row i and column j is the probability of moving from state i to state j.",
+   "cites": [
+    7,
+    19
+   ]
+  },
+  {
+   "text": "The matrix Pᵏ gives the chances of going from one state to another in k steps.",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Right stochastic",
+   "value": "Square, nonnegative entries, every row sums to 1",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Doubly stochastic",
+   "value": "Every row and every column sums to 1",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Developed with",
+   "value": "Markov chains, by Andrey Markov, who first published in 1906",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Spectral radius",
+   "value": "Equal to one for any stochastic matrix",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Repeated use",
+   "value": "Applying it again and again moves a distribution toward a stationary one",
+   "cites": [
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A table lists, for each town, the chances of traveling next to every town. What must each town's row of chances add up to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 1"
+    },
+    {
+     "id": "b",
+     "label": "The number of towns"
+    },
+    {
+     "id": "c",
+     "label": "Any value between 0 and 1"
+    },
+    {
+     "id": "d",
+     "label": "Exactly 0"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a right stochastic matrix each row is a probability vector: nonnegative numbers summing to 1.",
+   "cites": [
+    1,
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix:q1"
+  },
+  {
+   "prompt": "In a right stochastic matrix used for a Markov chain, what does the number in row 2, column 3 tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of moving from state 3 to state 2"
+    },
+    {
+     "id": "b",
+     "label": "The chance of ending in state 3 after two steps"
+    },
+    {
+     "id": "c",
+     "label": "The chance of moving from state 2 to state 3"
+    },
+    {
+     "id": "d",
+     "label": "The share of rows that include state 3"
+    }
+   ],
+   "answer": "c",
+   "explain": "With the right/row convention, the entry in row i and column j is the probability of transition from state i to state j.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix:q2"
+  },
+  {
+   "prompt": "You have the one-step chances of moving between states, and you want the chances after k steps. What do you do with the matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add its rows together k times"
+    },
+    {
+     "id": "b",
+     "label": "Multiply each entry by k"
+    },
+    {
+     "id": "c",
+     "label": "Divide each row by k"
+    },
+    {
+     "id": "d",
+     "label": "Use the matrix Pᵏ"
+    }
+   ],
+   "answer": "d",
+   "explain": "The probability of going from one state to another in k steps is given by Pᵏ.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix:q3"
+  },
+  {
+   "prompt": "A grid of nonnegative numbers is checked: every row sums to 1, and every column sums to 1 as well. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A substochastic matrix"
+    },
+    {
+     "id": "b",
+     "label": "A left stochastic matrix"
+    },
+    {
+     "id": "c",
+     "label": "A doubly stochastic matrix"
+    },
+    {
+     "id": "d",
+     "label": "A right stochastic matrix"
+    }
+   ],
+   "answer": "c",
+   "explain": "A doubly stochastic matrix has each row and column summing to 1; right stochastic needs only rows, and left only columns.",
+   "cites": [
+    1,
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix:q4"
+  },
+  {
+   "prompt": "You apply the same transition matrix to a probability distribution, over and over. What happens to the distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It converges to a stationary distribution"
+    },
+    {
+     "id": "b",
+     "label": "It swings wildly between extremes"
+    },
+    {
+     "id": "c",
+     "label": "It grows larger with each application"
+    },
+    {
+     "id": "d",
+     "label": "It returns exactly to the starting distribution"
+    }
+   ],
+   "answer": "a",
+   "explain": "Applying the matrix redistributes the probability mass, and repeated application makes the distribution converge to a stationary distribution of the chain.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix:q5"
+  },
+  {
+   "prompt": "A cat and a mouse jump to a random neighboring box in a row of five boxes, starting in the two end boxes, and the game ends if they share a box. What does the stochastic matrix analysis conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mouse escapes forever with some probability"
+    },
+    {
+     "id": "b",
+     "label": "They avoid each other, since both move randomly"
+    },
+    {
+     "id": "c",
+     "label": "The result depends on who jumps first"
+    },
+    {
+     "id": "d",
+     "label": "The cat eventually catches the mouse with probability 1"
+    }
+   ],
+   "answer": "d",
+   "explain": "No matter the initial state, the cat will eventually catch the mouse with probability 1.",
+   "cites": [
+    34,
+    35,
+    36,
+    39,
+    44
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.markov-chains.stochastic-matrix:q6"
+  }
+ ],
+ "source": {
+  "title": "Stochastic matrix",
+  "url": "https://en.wikipedia.org/wiki/Stochastic_matrix",
+  "revision": 1353839801
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A grid of chances",
+    "text": "A stochastic matrix is a square grid of numbers that describes a Markov chain on a finite set of states. In the right, or row, version, every entry is a nonnegative real number and each row adds up to 1. The left, or column, version has the same kind of entries, but each column adds up to 1. A doubly stochastic matrix has both its rows and its columns summing to 1, and a substochastic matrix is a real square matrix whose rows each add up to 1 or less.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     19
+    ]
+   },
+   {
+    "heading": "Reading the entries",
+    "text": "A probability vector is a list of nonnegative real numbers that add up to 1. Each row of a right stochastic matrix is one of these, and so is each column of a left one. In the row version, the entry in row i and column j is the chance of moving from state i to state j, and the matrix multiplies a row vector of probabilities from the right. The column version flips this: the entry in row i and column j is the chance of moving from state j to state i, and the matrix multiplies a column vector from the left.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Taking many steps",
+    "text": "If P is the matrix of a finite Markov chain, then Pᵏ gives the chance of going from any state to any other in k steps. The starting situation, saying where the system might begin and how likely each start is, is written as a row vector. Applying the matrix to such a distribution moves probability around between the states while keeping the total the same. Repeat this again and again, and the distribution converges to a stationary distribution of the chain.",
+    "cites": [
+     20,
+     21,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Tidy eigenvalues",
+    "text": "These matrices have neat algebra. The spectral radius of every stochastic matrix can be shown to equal one, and by the Gershgorin circle theorem every eigenvalue has an absolute value of at most one. Every right stochastic matrix has an obvious column eigenvector for the eigenvalue 1: the vector whose entries are all 1. Because a square matrix has the same left and right eigenvalues, every stochastic matrix also has at least one left eigenvector for the eigenvalue 1, and the largest absolute value among its eigenvalues is 1.",
+    "cites": [
+     22,
+     23,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "A cat and a mouse",
+    "text": "Picture a timer and a row of five boxes next to each other. At the start a cat sits in the first box and a mouse in the fifth. Each time the timer advances, both jump to a random neighbouring box, and if they land in the same box the cat eats the mouse and the game is over. A stochastic matrix P holds the chances of moving between the possible states, with the state before a move as the row and the state after as the column. Whatever the starting state, the cat catches the mouse in the end, with probability 1, and the chain approaches the stationary state π = (0,0,0,0,1).",
+    "cites": [
+     34,
+     35,
+     36,
+     39,
+     41,
+     44
+    ]
+   },
+   {
+    "heading": "From Markov to everywhere",
+    "text": "Andrey Markov developed the stochastic matrix together with the Markov chain. He was a Russian mathematician and professor at St. Petersburg University, and he first published on the subject in 1906. He first meant it for linguistic analysis and for problems such as card shuffling. Andrey Kolmogorov later widened its reach by allowing Markov processes in continuous time. By the 1950s it appeared in econometrics and circuit theory, in the 1960s in fields from behavioural science to geology, and since the 1970s in almost every field that needs formal analysis, from medical diagnosis to personnel management.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     17
+    ]
+   }
+  ]
+ }
+}

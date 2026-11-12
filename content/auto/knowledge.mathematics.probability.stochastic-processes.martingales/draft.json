@@ -1,0 +1,226 @@
+{
+ "summary": [
+  {
+   "text": "A martingale is a stochastic process in which the expected value of the next observation, given all prior observations, equals the most recent value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Martingales model fair games, where future expected winnings equal the current amount regardless of past outcomes.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "The word first meant 18th-century French betting strategies, like doubling the bet after each loss, which bankrupt their users because bankrolls are finite.",
+   "cites": [
+    4,
+    6,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Introduced by",
+   "value": "Paul Lévy in 1934, though he did not name it",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Named by",
+   "value": "Ville in 1939, who also extended it to continuous martingales",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Main developer",
+   "value": "Joseph Leo Doob, among others",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Simple example",
+   "value": "An unbiased random walk is a martingale",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Original motivation",
+   "value": "Proving that successful betting strategies are impossible",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You play a fair coin game, winning $1 on heads and losing $1 on tails. What is your expected fortune after the next toss, given the history so far?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A little higher than your present fortune"
+    },
+    {
+     "id": "b",
+     "label": "A little lower than your present fortune"
+    },
+    {
+     "id": "c",
+     "label": "Higher if you have just lost several tosses"
+    },
+    {
+     "id": "d",
+     "label": "Exactly equal to your present fortune"
+    }
+   ],
+   "answer": "d",
+   "explain": "A gambler's fortune in fair games is a martingale, so the expected fortune after the next game equals the present fortune.",
+   "cites": [
+    24,
+    25,
+    26
+   ]
+  },
+  {
+   "prompt": "A gambler doubles the bet after every loss on a fair coin, planning to win back everything with the first win. What eventually stops the plan?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The coin starts favoring tails"
+    },
+    {
+     "id": "b",
+     "label": "The bets grow so fast that a finite bankroll runs out"
+    },
+    {
+     "id": "c",
+     "label": "The casino bans doubling after three losses"
+    },
+    {
+     "id": "d",
+     "label": "The first win never recovers the earlier losses"
+    }
+   ],
+   "answer": "b",
+   "explain": "The first win would recover all previous losses, but the exponential growth of the bets eventually bankrupts users because bankrolls are finite.",
+   "cites": [
+    6,
+    8
+   ]
+  },
+  {
+   "prompt": "An urn holds red and blue marbles. Each round, one is drawn at random and put back along with several more of the same colour. What can you say about the red fraction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is expected to grow with each new round"
+    },
+    {
+     "id": "b",
+     "label": "It is expected to shrink with each new round"
+    },
+    {
+     "id": "c",
+     "label": "It is a martingale, so no change is expected"
+    },
+    {
+     "id": "d",
+     "label": "It is expected to drift back toward one half"
+    }
+   ],
+   "answer": "c",
+   "explain": "In Pólya's urn, the fraction of marbles of any given colour is a martingale.",
+   "cites": [
+    28,
+    29,
+    1
+   ]
+  },
+  {
+   "prompt": "After five losses in a row in a fair game, a gambler feels a win is due. What does the martingale model say about expected winnings from here?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are unchanged by the past losses"
+    },
+    {
+     "id": "b",
+     "label": "They are higher, to make up for the losses"
+    },
+    {
+     "id": "c",
+     "label": "They are lower, because luck has run out"
+    },
+    {
+     "id": "d",
+     "label": "They are zero until the next win"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a fair game modeled by a martingale, future expected winnings equal the current amount regardless of past outcomes.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A population of fixed size changes only by genetic drift, with no mutation or selection. What does this say about an allele's frequency?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is expected to rise every generation"
+    },
+    {
+     "id": "b",
+     "label": "It follows a martingale, so its expected next value is its current value"
+    },
+    {
+     "id": "c",
+     "label": "It is expected to fall every generation"
+    },
+    {
+     "id": "d",
+     "label": "It must stay exactly the same in every generation"
+    }
+   ],
+   "answer": "b",
+   "explain": "Under genetic drift alone the allele frequency follows a martingale, meaning its expected next value equals its latest value, though actual values can still change.",
+   "cites": [
+    1,
+    34
+   ]
+  },
+  {
+   "prompt": "Someone claims a process is a martingale. Can it fail to be one when judged with a different probability measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, being a martingale never depends on the measure"
+    },
+    {
+     "id": "b",
+     "label": "No, but only when it is a random walk"
+    },
+    {
+     "id": "c",
+     "label": "Yes, it can be a martingale for one measure but not another"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only for continuous-time processes"
+    }
+   ],
+   "answer": "c",
+   "explain": "The martingale property involves both the filtration and the probability measure, so a process may be a martingale for one measure and not another.",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ]
+}

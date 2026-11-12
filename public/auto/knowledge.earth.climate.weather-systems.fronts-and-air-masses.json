@@ -1,0 +1,471 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.fronts-and-air-masses",
+ "name": "Fronts and air masses",
+ "summary": [
+  {
+   "text": "A weather front is the boundary between two air masses that differ in features such as density, wind, temperature and humidity.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Disturbed, unstable weather often forms along this boundary: cold fronts can bring bands of thunderstorms, while warm fronts are usually preceded by stratiform precipitation and fog.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Cold fronts move faster than warm fronts because the dense air behind them can lift as well as push the warmer air ahead.",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Cold front on maps",
+   "value": "Blue line with triangles",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Warm front on maps",
+   "value": "Red line of semicircles",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Cold front speed",
+   "value": "Up to twice as fast as warm fronts",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Usual cold front path",
+   "value": "West to east",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Occluded front",
+   "value": "Forms when a cold front overtakes a warm front",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Over a day, layered grey clouds thicken, rain slowly picks up, and fog settles in. Which kind of front is most likely on its way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A cold front"
+    },
+    {
+     "id": "b",
+     "label": "A dry line"
+    },
+    {
+     "id": "c",
+     "label": "A warm front"
+    },
+    {
+     "id": "d",
+     "label": "A shear line"
+    }
+   ],
+   "answer": "c",
+   "explain": "Stratiform clouds, gradually increasing rain and fog are typical ahead of a warm front.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses:q1"
+  },
+  {
+   "prompt": "A fast-moving cold front catches up with the warm front ahead of it. What kind of boundary results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A stationary front"
+    },
+    {
+     "id": "b",
+     "label": "An occluded front"
+    },
+    {
+     "id": "c",
+     "label": "A shear line"
+    },
+    {
+     "id": "d",
+     "label": "A dry line"
+    }
+   ],
+   "answer": "b",
+   "explain": "An occluded front forms when a cold front overtakes a warm front.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses:q2"
+  },
+  {
+   "prompt": "Why do cold fronts usually travel faster than warm fronts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their dense air can lift as well as push the warm air"
+    },
+    {
+     "id": "b",
+     "label": "Cold air is lighter, so it flows more freely"
+    },
+    {
+     "id": "c",
+     "label": "Warm fronts are slowed by the fog ahead of them"
+    },
+    {
+     "id": "d",
+     "label": "Cold fronts only form on the windiest days"
+    }
+   ],
+   "answer": "a",
+   "explain": "The dense air behind a cold front can lift as well as push the warmer air, so it moves faster.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses:q3"
+  },
+  {
+   "prompt": "A front passes your town with no rain and barely a cloud. What change can you still count on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A sharp burst of thunder"
+    },
+    {
+     "id": "b",
+     "label": "A sudden rise in humidity"
+    },
+    {
+     "id": "c",
+     "label": "A drop in air pressure to a record low"
+    },
+    {
+     "id": "d",
+     "label": "A shift in the wind"
+    }
+   ],
+   "answer": "d",
+   "explain": "Some fronts bring no precipitation and little cloud, but a front always brings a wind shift.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses:q4"
+  },
+  {
+   "prompt": "A front drifts out over a uniformly warm ocean until the two air masses have nearly the same density. What does it tend to become?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A stronger cold front"
+    },
+    {
+     "id": "b",
+     "label": "An occluded front"
+    },
+    {
+     "id": "c",
+     "label": "A line of differing winds only"
+    },
+    {
+     "id": "d",
+     "label": "A line of heavy thunderstorms"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the density contrast fades, the front can degenerate into a shear line that just separates regions of differing wind.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses:q5"
+  },
+  {
+   "prompt": "Why does a warm front tend to move more slowly than the cold front behind it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Warm air holds too little moisture to move"
+    },
+    {
+     "id": "b",
+     "label": "The cold air it must shift is dense and hard to lift"
+    },
+    {
+     "id": "c",
+     "label": "Warm air sinks beneath the colder air ahead"
+    },
+    {
+     "id": "d",
+     "label": "Warm fronts form only over slow ocean currents"
+    }
+   ],
+   "answer": "b",
+   "explain": "Cold air is denser and harder to lift from the surface, so a warm front advancing into it moves slowly.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.earth.climate.weather-systems.fronts-and-air-masses:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Unusually_well_defined_warm_front.jpg/960px-Unusually_well_defined_warm_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Fronts and air masses",
+  "credit": "The Great Cloudwatcher",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Unusually_well_defined_warm_front.jpg"
+ },
+ "source": {
+  "title": "Weather front",
+  "url": "https://en.wikipedia.org/wiki/Weather_front",
+  "revision": 1383963455
+ },
+ "pack": {
+  "id": "auto-weather-systems-fronts-and-air-masses",
+  "title": "Where Two Airs Collide",
+  "question": "What happens when two different air masses meet?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Weather systems",
+   "Fronts and air masses"
+  ],
+  "hue": 120,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Unusually_well_defined_warm_front.jpg/960px-Unusually_well_defined_warm_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Fronts and air masses",
+    "credit": "The Great Cloudwatcher · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Unusually_well_defined_warm_front.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Where Two Airs Collide",
+    "hook": "A front can pass without a drop of rain, yet the wind will still change."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-weather-systems-fronts-and-air-masses:1",
+    "transfer": false,
+    "prompt": "A cold front and a warm front are moving across the same region. Which one usually catches the other?",
+    "explain": "Cold fronts move faster, and when one overtakes a warm front an occluded front forms.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "The cold front catches the warm front"
+       },
+       {
+        "id": "b",
+        "label": "The warm front catches the cold front",
+        "feedback": "Warm air feels lively, but a warm front has to shift dense cold air, which slows it down."
+       },
+       {
+        "id": "c",
+        "label": "Neither, since fronts all move at one speed",
+        "feedback": "Cold fronts can move up to twice as fast as warm fronts."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-weather-systems-fronts-and-air-masses:2",
+    "transfer": false,
+    "prompt": "Match each weather map symbol to what it shows.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Blue line with triangles"
+     },
+     {
+      "id": "l1",
+      "label": "Red line of semicircles"
+     },
+     {
+      "id": "l2",
+      "label": "H"
+     },
+     {
+      "id": "l3",
+      "label": "L"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Low pressure, often storms"
+     },
+     {
+      "id": "r1",
+      "label": "Warm front"
+     },
+     {
+      "id": "r2",
+      "label": "High pressure, fair weather"
+     },
+     {
+      "id": "r0",
+      "label": "Cold front"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Weather maps use special symbols for fronts and pressure areas to show what weather to expect."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-weather-systems-fronts-and-air-masses:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each sign by the type of front it goes with.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Bands of thunderstorms"
+     },
+     {
+      "id": "i1",
+      "label": "Squall lines ahead of it"
+     },
+     {
+      "id": "i2",
+      "label": "Moves up to twice as fast"
+     },
+     {
+      "id": "i3",
+      "label": "Fog before it arrives"
+     },
+     {
+      "id": "i4",
+      "label": "Stratiform clouds ahead of it"
+     },
+     {
+      "id": "i5",
+      "label": "Rain that builds gradually"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Cold front"
+     },
+     {
+      "id": "g1",
+      "label": "Warm front"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "Cold fronts bring sharper, faster changes, while warm fronts bring gradual, layered weather."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-weather-systems-fronts-and-air-masses:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Cold air is denser than warm air."
+     },
+     {
+      "id": "b",
+      "text": "So a cold front can lift as well as push the warm air ahead."
+     },
+     {
+      "id": "c",
+      "text": "A warm front must shift cold air, which is easy to lift off the ground."
+     },
+     {
+      "id": "d",
+      "text": "So warm fronts usually move more slowly than cold fronts."
+     }
+    ],
+    "answer": "c",
+    "explain": "Cold air is dense and hard to lift from the surface, which is exactly why warm fronts are slow."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Fronts are boundaries between unlike air masses, and the kind of front shapes how fast it moves and what weather it brings.",
+    "connections": [
+     {
+      "title": "Cold front",
+      "place": "Fronts and air masses",
+      "node": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.cold-front"
+     },
+     {
+      "title": "Warm front",
+      "place": "Fronts and air masses",
+      "node": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.warm-front"
+     },
+     {
+      "title": "Air mass",
+      "place": "Fronts and air masses",
+      "node": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.air-mass"
+     },
+     {
+      "title": "Occluded front",
+      "place": "Fronts and air masses",
+      "node": "knowledge.earth.climate.weather-systems.fronts-and-air-masses.occluded-front"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Cold fronts move faster, and when one overtakes a warm front an occluded front forms.",
+    "source": "Wikipedia sentences 31, 35, 42"
+   },
+   {
+    "claim": "Weather maps use special symbols for fronts and pressure areas to show what weather to expect.",
+    "source": "Wikipedia sentences 19, 20, 29, 41"
+   },
+   {
+    "claim": "Cold fronts bring sharper, faster changes, while warm fronts bring gradual, layered weather.",
+    "source": "Wikipedia sentences 3, 31, 37, 38"
+   },
+   {
+    "claim": "Cold air is dense and hard to lift from the surface, which is exactly why warm fronts are slow.",
+    "source": "Wikipedia sentences 8, 31, 35"
+   }
+  ]
+ }
+}

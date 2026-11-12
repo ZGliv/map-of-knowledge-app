@@ -1,0 +1,350 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.inequalities.linear-programming",
+ "name": "Linear programming",
+ "summary": [
+  {
+   "text": "Linear programming is a method for reaching the best outcome, such as maximum profit or lowest cost, in a model where the requirements and the objective are linear relationships.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It optimizes a linear objective function subject to linear equality and inequality constraints, and its feasible region is a convex polytope.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Dantzig's simplex method of 1947 first tackled it efficiently in most cases, and transportation, energy, telecommunications and manufacturing now use it.",
+   "cites": [
+    32,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simplex method",
+   "value": "Invented by Dantzig in 1947",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Nobel Prize",
+   "value": "Kantorovich and Koopmans shared the 1975 economics prize",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Dantzig's example",
+   "value": "Best assignment of 70 people to 70 jobs",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Interior-point method",
+   "value": "Introduced by Karmarkar in 1984",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Industries using it",
+   "value": "Transportation, energy, telecommunications, manufacturing",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Every limit on a factory's materials is a straight-line cap, such as 'at most this much steel'. The set of plans that obey all caps at once forms what kind of shape?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A curved blob with no flat edges"
+    },
+    {
+     "id": "b",
+     "label": "A shape with flat sides, cut out by overlapping one-sided limits"
+    },
+    {
+     "id": "c",
+     "label": "A single point that is always the answer"
+    },
+    {
+     "id": "d",
+     "label": "A closed loop with no inside"
+    }
+   ],
+   "answer": "b",
+   "explain": "The feasible region is a convex polytope: the intersection of finitely many half spaces, each defined by a linear inequality.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.linear-programming:q1"
+  },
+  {
+   "prompt": "Matching 70 workers to 70 jobs by checking every arrangement would take far too long. What makes the alternative approach practical?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It checks the arrangements faster by using more computers"
+    },
+    {
+     "id": "b",
+     "label": "It guesses one arrangement and accepts it"
+    },
+    {
+     "id": "c",
+     "label": "Its theory sharply cuts down the number of possible solutions to check"
+    },
+    {
+     "id": "d",
+     "label": "It drops 60 of the jobs to keep the problem small"
+    }
+   ],
+   "answer": "c",
+   "explain": "The number of possible assignments is vast, but posing the problem as a linear program and using the theory drastically reduces the possibilities that must be checked.",
+   "cites": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.linear-programming:q2"
+  },
+  {
+   "prompt": "Work from the late 1930s was ignored for decades. What event pushed the method into the spotlight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wartime use on transport, scheduling and resource problems"
+    },
+    {
+     "id": "b",
+     "label": "The award of a Nobel Prize in 1975"
+    },
+    {
+     "id": "c",
+     "label": "A method for solving linear inequalities published in 1827"
+    },
+    {
+     "id": "d",
+     "label": "The arrival of home computers in business offices"
+    }
+   ],
+   "answer": "a",
+   "explain": "During World War II it was used on logistics, scheduling and resource allocation, and those successes brought it recognition.",
+   "cites": [
+    18,
+    19,
+    20,
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.linear-programming:q3"
+  },
+  {
+   "prompt": "A baker wants to make as much profit as possible. In the mathematical model, the quantity she wants to make as large as possible is called what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The constraint"
+    },
+    {
+     "id": "b",
+     "label": "The feasible region"
+    },
+    {
+     "id": "c",
+     "label": "The polytope"
+    },
+    {
+     "id": "d",
+     "label": "The objective function"
+    }
+   ],
+   "answer": "d",
+   "explain": "The function whose value is to be maximized is called the objective function.",
+   "cites": [
+    3,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.linear-programming:q4"
+  },
+  {
+   "prompt": "A linear programming algorithm is run on a problem that has a best answer. What does it find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average of all plans that obey the limits"
+    },
+    {
+     "id": "b",
+     "label": "The plan that breaks the most limits"
+    },
+    {
+     "id": "c",
+     "label": "A point in the allowed region where the objective is largest or smallest"
+    },
+    {
+     "id": "d",
+     "label": "Every allowed plan, listed in order"
+    }
+   ],
+   "answer": "c",
+   "explain": "The algorithm finds a point in the polytope where the objective function has its largest (or smallest) value, if such a point exists.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.linear-programming:q5"
+  },
+  {
+   "prompt": "A city must assign drivers to bus routes and set schedules, all under fixed limits on cost and staff. Is linear programming a fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, it suits planning, routing, scheduling and assignment"
+    },
+    {
+     "id": "b",
+     "label": "No, it only suits abstract problems inside pure mathematics"
+    },
+    {
+     "id": "c",
+     "label": "No, it was built only to schedule factory production"
+    },
+    {
+     "id": "d",
+     "label": "No, it only suits military transport and supply problems"
+    }
+   ],
+   "answer": "a",
+   "explain": "It models diverse problems in planning, routing, scheduling, assignment and design, and is used in industries such as transportation.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities.linear-programming:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Linear_optimization_in_a_2-dimensional_polytope.svg/960px-Linear_optimization_in_a_2-dimensional_polytope.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Linear programming",
+  "credit": "Ylloh",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear_optimization_in_a_2-dimensional_polytope.svg"
+ },
+ "source": {
+  "title": "Linear programming",
+  "url": "https://en.wikipedia.org/wiki/Linear_programming",
+  "revision": 1382895282
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Finding the best choice",
+    "text": "Linear programming, also called linear optimization, is a way to find the best possible outcome, such as the highest profit or the lowest cost, in a model built from linear relationships. It is a special case of mathematical optimization. Put more precisely, you make a linear objective function as large or as small as possible while obeying constraints that are linear equations or linear inequalities.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The shape of the problem",
+    "text": "Together the constraints mark out the feasible region, the set over which the objective is optimized. That region is a convex polytope: the overlap of finitely many half spaces, each one set by a single linear inequality. The objective function is defined on this polytope. A linear programming algorithm looks for a point in it where the function is largest or smallest, if such a point exists.",
+    "cites": [
+     4,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "heading": "Where it is used",
+    "text": "Linear programming is used heavily in mathematics and, less so, in business, economics and some engineering. Transportation, energy, telecommunications and manufacturing all use its models. It has helped describe problems of planning, routing, scheduling, assignment and design.",
+    "cites": [
+     11,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "From Fourier to the war",
+    "text": "Solving a system of linear inequalities is an old problem: Fourier published a method for it in 1827. In the late 1930s the Soviet mathematician Leonid Kantorovich and the American economist Wassily Leontief each looked at practical uses on their own, Kantorovich for manufacturing schedules and Leontief for economics. Their work was largely ignored for decades. The turning point was World War II, when linear programming was used for transportation logistics, scheduling and resource allocation.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Dantzig and the simplex method",
+    "text": "Dantzig developed a general form of linear programming for planning problems in the US Air Force. In 1947 he invented the simplex method, which for the first time solved the problem efficiently in most cases. When he met John von Neumann to talk it over, von Neumann at once conjectured the theory of duality, seeing that a game theory problem he had been working on was equivalent. In 1975 Kantorovich and Koopmans split the Nobel Memorial Prize in Economic Sciences; Koopmans had also framed classical economic problems as linear programs.",
+    "cites": [
+     26,
+     27,
+     28,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Seventy people, seventy jobs",
+    "text": "Dantzig's original example was finding the best way to assign 70 people to 70 jobs. Testing every possible arrangement would take vast computing power, since the number of arrangements is larger than the number of particles in the observable universe. Posed as a linear program and fed to the simplex algorithm, the best answer takes only a moment to find. The theory hugely cuts down how many possible solutions have to be checked.",
+    "cites": [
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Later breakthroughs",
+    "text": "In 1979 Leonid Khachiyan first showed that the problem can be solved in polynomial time. Then in 1984 Narendra Karmarkar brought in a new interior-point method, a larger breakthrough both in theory and in practice.",
+    "cites": [
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-lp-geometric",
+   "kind": "book",
+   "title": "3.1: Maximization Applications",
+   "by": "Sekhon and Bloom, Applied Finite Mathematics (on LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/03%3A_Linear_Programming_-_A_Geometric_Approach/3.01%3A_Maximization_Applications",
+   "note": "A free textbook section on setting up a problem, graphing the feasible region and checking its corner points.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "libretexts-simplex",
+   "kind": "book",
+   "title": "4: Linear Programming - The Simplex Method",
+   "by": "Sekhon and Bloom, Applied Finite Mathematics (on LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/04%3A_Linear_Programming_The_Simplex_Method",
+   "note": "A free textbook chapter on real applications and on solving larger problems with the simplex method.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "mathworld-linear-programming",
+   "kind": "article",
+   "title": "Linear Programming",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/LinearProgramming.html",
+   "note": "A reference entry on optimizing a linear function over a region set by linear constraints."
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "title": "Defense in layers",
+ "question": "How does the body stop germs that get past its first defenses?",
+ "hook": "Your body has a quick general response and a slower learner, and the first sets off the second.",
+ "idea": "Defenses come in layers of increasing specificity, and the adaptive layer remembers pathogens so it can answer faster next time.",
+ "beats": [
+  {
+   "kind": "order",
+   "prompt": "Put the layers of defense in the order a pathogen meets them.",
+   "items": [
+    "Physical barriers block the pathogen",
+    "The innate system gives an immediate, non-specific response",
+    "The adaptive system tailors its response during the infection",
+    "Immunological memory is kept after the pathogen is gone"
+   ],
+   "ends": [
+    "Pathogen arrives",
+    "Infection over"
+   ],
+   "explain": "Barriers come first, the innate response follows if they are breached, the adaptive system is activated by the innate response, and its memory is retained afterwards.",
+   "cites": [
+    22,
+    23,
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each description into the system it belongs to.",
+   "groups": [
+    "Innate immune system",
+    "Adaptive immune system"
+   ],
+   "items": [
+    [
+     "Gives a preconfigured response to broad groups of situations",
+     "Innate immune system"
+    ],
+    [
+     "Tailors a response to each stimulus",
+     "Adaptive immune system"
+    ],
+    [
+     "Found in all animals",
+     "Innate immune system"
+    ],
+    [
+     "Activated by the innate response",
+     "Adaptive immune system"
+    ],
+    [
+     "Immediate but non-specific",
+     "Innate immune system"
+    ],
+    [
+     "Retains an immunological memory",
+     "Adaptive immune system"
+    ]
+   ],
+   "explain": "The innate system reacts broadly and at once, while the adaptive system tailors and remembers its response.",
+   "cites": [
+    4,
+    5,
+    23,
+    24,
+    25,
+    27
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A person fought off a virus last year and meets the same virus again today. Compared with the first time, what happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The response is faster and stronger"
+    },
+    {
+     "id": "b",
+     "label": "The response is just as slow, because the body starts over",
+     "feedback": "It tempts because each infection feels new, but the improved response is retained after the pathogen is eliminated."
+    },
+    {
+     "id": "c",
+     "label": "The response is weaker, because the system is used up",
+     "feedback": "Nothing is used up; immunological memory is kept and the adaptive system mounts stronger attacks each time."
+    }
+   ],
+   "answer": "a",
+   "explain": "Immunological memory lets the adaptive system mount faster and stronger attacks each time it meets the pathogen.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "Adaptive immunity learns to recognize pathogens.",
+    "This creates an immunological memory, so later encounters bring a stronger response.",
+    "That memory is the fundamental basis of vaccination.",
+    "So the innate system, found in all animals, must be what remembers pathogens."
+   ],
+   "wrong": 3,
+   "explain": "The innate response is preconfigured and non-specific; the memory comes from adaptive immunity.",
+   "cites": [
+    4,
+    13,
+    14,
+    24
+   ]
+  }
+ ]
+}

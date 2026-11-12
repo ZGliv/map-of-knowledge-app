@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A congruence relation is a way of treating some elements of an algebraic structure as equivalent while staying compatible with the structure's operations.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "text": "Each congruence has a matching quotient structure, whose elements are the equivalence classes, and the operations carry over to those classes.",
+   "cites": [
+    2,
+    5,
+    29
+   ]
+  },
+  {
+   "text": "For groups, the class holding the identity is a normal subgroup; for rings, the class holding 0 is a two-sided ideal.",
+   "cites": [
+    13,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Kernels",
+   "value": "The kernel of a homomorphism is always a congruence",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Converse",
+   "value": "Every congruence arises as a kernel",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "In a group",
+   "value": "One class, the one with the identity, determines the congruence",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "In a ring",
+   "value": "The class containing zero determines the congruence",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Quotient elements",
+   "value": "The equivalence classes of the relation",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Someone declares some elements of a structure to be 'the same', but then finds that adding equivalent elements gives results that are not equivalent. What is missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Compatibility with the structure's operations"
+    },
+    {
+     "id": "b",
+     "label": "A larger number of equivalence classes"
+    },
+    {
+     "id": "c",
+     "label": "A ring instead of a group"
+    },
+    {
+     "id": "d",
+     "label": "A smaller structure to start from"
+    }
+   ],
+   "answer": "a",
+   "explain": "A congruence is an equivalence relation that is also compatible with the operations, so the operations work on the classes.",
+   "cites": [
+    5,
+    8
+   ]
+  },
+  {
+   "prompt": "For a congruence on a ring, one equivalence class forms a two-sided ideal. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The class with the most elements"
+    },
+    {
+     "id": "b",
+     "label": "The class containing 1"
+    },
+    {
+     "id": "c",
+     "label": "The class containing 0"
+    },
+    {
+     "id": "d",
+     "label": "The class containing no elements"
+    }
+   ],
+   "answer": "c",
+   "explain": "The class containing 0 is always a two-sided ideal.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "Why do people often talk about normal subgroups of a group instead of congruences on it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every group has only one congruence"
+    },
+    {
+     "id": "b",
+     "label": "Normal subgroups are always larger than congruences"
+    },
+    {
+     "id": "c",
+     "label": "Congruences on groups are not equivalence relations"
+    },
+    {
+     "id": "d",
+     "label": "Each congruence corresponds uniquely to a normal subgroup"
+    }
+   ],
+   "answer": "d",
+   "explain": "A congruence on a group is determined by the class of the identity, which is a normal subgroup, so the two carry the same information.",
+   "cites": [
+    22,
+    32
+   ]
+  },
+  {
+   "prompt": "Take the kernel of a homomorphism between two algebraic structures. What kind of relation is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only an order relation"
+    },
+    {
+     "id": "b",
+     "label": "A congruence"
+    },
+    {
+     "id": "c",
+     "label": "A relation that is never compatible"
+    },
+    {
+     "id": "d",
+     "label": "A quotient"
+    }
+   ],
+   "answer": "b",
+   "explain": "The kernel of a homomorphism is always a congruence, and every congruence arises this way.",
+   "cites": [
+    27,
+    28
+   ]
+  },
+  {
+   "prompt": "For groups, one equivalence class pins down the whole congruence. What is the situation in semigroups?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The same: the class holding the identity decides it"
+    },
+    {
+     "id": "b",
+     "label": "Congruences cannot exist there"
+    },
+    {
+     "id": "c",
+     "label": "No single class does that, so congruences are studied as such"
+    },
+    {
+     "id": "d",
+     "label": "A single class decides it, but only in rings"
+    }
+   ],
+   "answer": "c",
+   "explain": "Semigroups lack that convenience, so their congruences have to be studied directly.",
+   "cites": [
+    32,
+    34
+   ]
+  },
+  {
+   "prompt": "A congruence sorts the elements of a structure into groups of equivalent elements. What are the elements of the quotient structure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The original elements, unchanged"
+    },
+    {
+     "id": "b",
+     "label": "The operations of the original structure"
+    },
+    {
+     "id": "c",
+     "label": "Only the identity element"
+    },
+    {
+     "id": "d",
+     "label": "The equivalence classes"
+    }
+   ],
+   "answer": "d",
+   "explain": "The quotient structure's elements are the equivalence classes, also called congruence classes.",
+   "cites": [
+    2
+   ]
+  }
+ ]
+}

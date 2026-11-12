@@ -1,0 +1,572 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.matrices",
+ "name": "Matrices",
+ "summary": [
+  {
+   "text": "A matrix is a rectangular array of numbers or other mathematical objects, with entries arranged in rows and columns.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In linear algebra matrices are used as linear maps, and in geometry they describe transformations such as rotations.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Matrices are used in most areas of mathematics and scientific fields, either directly or through geometry and numerical analysis.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Size notation",
+   "value": "m rows and n columns make an m × n matrix",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Square matrix",
+   "value": "It has the same number of rows and columns",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Invertibility test",
+   "value": "A square matrix is invertible exactly when its determinant is nonzero",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Product order",
+   "value": "Generally AB ≠ BA, even when both are defined",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "label": "Single-row matrix",
+   "value": "Called a row matrix or row vector",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A table holds a single column of entries. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A column vector"
+    },
+    {
+     "id": "b",
+     "label": "A row vector"
+    },
+    {
+     "id": "c",
+     "label": "A square matrix"
+    },
+    {
+     "id": "d",
+     "label": "An empty matrix"
+    }
+   ],
+   "answer": "a",
+   "explain": "Matrices with a single column are called column matrices or column vectors.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices:q1"
+  },
+  {
+   "prompt": "A grid of entries has exactly as many rows as columns. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A row vector"
+    },
+    {
+     "id": "b",
+     "label": "An infinite matrix"
+    },
+    {
+     "id": "c",
+     "label": "A square matrix"
+    },
+    {
+     "id": "d",
+     "label": "A column vector"
+    }
+   ],
+   "answer": "c",
+   "explain": "A matrix with the same number of rows and columns is called a square matrix.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices:q2"
+  },
+  {
+   "prompt": "A square matrix has a determinant of zero. What can you conclude about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is invertible"
+    },
+    {
+     "id": "b",
+     "label": "It is not invertible"
+    },
+    {
+     "id": "c",
+     "label": "It has no determinant"
+    },
+    {
+     "id": "d",
+     "label": "It is not square"
+    }
+   ],
+   "answer": "b",
+   "explain": "A square matrix is invertible if and only if it has a nonzero determinant.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices:q3"
+  },
+  {
+   "prompt": "A student multiplies matrices A and B to get AB and assumes that BA must give the same result. Is that safe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, matrix multiplication always commutes"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as both are defined"
+    },
+    {
+     "id": "c",
+     "label": "No, because BA is never defined"
+    },
+    {
+     "id": "d",
+     "label": "No, in general AB and BA need not be equal"
+    }
+   ],
+   "answer": "d",
+   "explain": "Even if both products are defined, they generally need not be equal: AB ≠ BA.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices:q4"
+  },
+  {
+   "prompt": "A matrix is named with a capital letter A. How are its individual entries written?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Capital A with one single subscript"
+    },
+    {
+     "id": "b",
+     "label": "Lower-case a with two subscripts, like a₁₁"
+    },
+    {
+     "id": "c",
+     "label": "A bold number in the top corner"
+    },
+    {
+     "id": "d",
+     "label": "The two letters m and n together"
+    }
+   ],
+   "answer": "b",
+   "explain": "Matrices are usually symbolized by upper-case letters, while the corresponding lower-case letters with two subscript indices represent the entries.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices:q5"
+  },
+  {
+   "prompt": "A is an m × n matrix and B is an n × k matrix, and m is different from k. Which statement is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "AB can be defined without BA being defined"
+    },
+    {
+     "id": "b",
+     "label": "BA can be defined without AB being defined"
+    },
+    {
+     "id": "c",
+     "label": "Both products are always defined"
+    },
+    {
+     "id": "d",
+     "label": "Neither product can be defined"
+    }
+   ],
+   "answer": "a",
+   "explain": "The product AB may be defined without BA being defined, namely if m ≠ k.",
+   "cites": [
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/MatrixLabelled.svg/960px-MatrixLabelled.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Matrices",
+  "credit": "Mavaddat",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:MatrixLabelled.svg"
+ },
+ "source": {
+  "title": "Matrix (mathematics)",
+  "url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+  "revision": 1384001436
+ },
+ "pack": {
+  "id": "auto-linear-algebra-matrices",
+  "title": "Grids that act on space",
+  "question": "What can a rectangular grid of numbers do?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Linear algebra",
+   "Matrices"
+  ],
+  "hue": 48,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/MatrixLabelled.svg/960px-MatrixLabelled.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Matrices",
+    "credit": "Mavaddat · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MatrixLabelled.svg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Grids that act on space",
+    "hook": "Arrange numbers in rows and columns and you get a tool for rotating shapes and testing invertibility."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-linear-algebra-matrices:1",
+    "transfer": false,
+    "prompt": "A is m × n and B is n × k, with m different from k. Which products can you compute?",
+    "explain": "The product AB may be defined without BA being defined, namely if m ≠ k.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Both AB and BA",
+        "feedback": "BA would need the sizes to line up the other way round, which needs m = k."
+       },
+       {
+        "id": "c",
+        "label": "Neither one",
+        "feedback": "The sizes line up for AB."
+       },
+       {
+        "id": "b",
+        "label": "AB, but not BA"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-linear-algebra-matrices:2",
+    "transfer": false,
+    "prompt": "match each name to its description",
+    "left": [
+     {
+      "id": "l0",
+      "label": "m × n matrix"
+     },
+     {
+      "id": "l1",
+      "label": "Row vector"
+     },
+     {
+      "id": "l2",
+      "label": "Column vector"
+     },
+     {
+      "id": "l3",
+      "label": "Square matrix"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "A matrix with a single column"
+     },
+     {
+      "id": "r3",
+      "label": "The same number of rows and columns"
+     },
+     {
+      "id": "r0",
+      "label": "m rows and n columns"
+     },
+     {
+      "id": "r1",
+      "label": "A matrix with a single row"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each name describes the shape of the grid."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-linear-algebra-matrices:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each rule by whether it holds for matrices",
+    "left": [
+     {
+      "id": "i0",
+      "label": "A + B = B + A"
+     },
+     {
+      "id": "i1",
+      "label": "(AB)C = A(BC)"
+     },
+     {
+      "id": "i2",
+      "label": "(A + B)C = AC + BC"
+     },
+     {
+      "id": "i3",
+      "label": "AB = BA"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "holds in general"
+     },
+     {
+      "id": "g1",
+      "label": "fails in general"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "Addition is commutative, and multiplication is associative and distributive, but the order of multiplication generally matters."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-linear-algebra-matrices:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Matrix A is m × n and matrix B is n × k, with m ≠ k."
+     },
+     {
+      "id": "b",
+      "text": "The product AB may be defined."
+     },
+     {
+      "id": "c",
+      "text": "Since AB is defined, BA must be defined as well."
+     },
+     {
+      "id": "d",
+      "text": "Even when both are defined, AB and BA generally need not be equal."
+     }
+    ],
+    "answer": "c",
+    "explain": "With m ≠ k, the product AB can be defined without BA being defined."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A matrix is a grid of entries in rows and columns, and its size and multiplication rules decide what you can do with it.",
+    "connections": [
+     {
+      "title": "Matrix multiplication",
+      "place": "Matrices",
+      "node": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication"
+     },
+     {
+      "title": "Identity matrix",
+      "place": "Matrices",
+      "node": "knowledge.mathematics.algebra.linear-algebra.matrices.identity-matrix"
+     },
+     {
+      "title": "Invertible matrix",
+      "place": "Matrices",
+      "node": "knowledge.mathematics.algebra.linear-algebra.matrices.invertible-matrix"
+     },
+     {
+      "title": "Transpose",
+      "place": "Matrices",
+      "node": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The product AB may be defined without BA being defined, namely if m ≠ k.",
+    "source": "Wikipedia sentences 43"
+   },
+   {
+    "claim": "Each name describes the shape of the grid.",
+    "source": "Wikipedia sentences 16, 18, 19"
+   },
+   {
+    "claim": "Addition is commutative, and multiplication is associative and distributive, but the order of multiplication generally matters.",
+    "source": "Wikipedia sentences 40, 42, 44"
+   },
+   {
+    "claim": "With m ≠ k, the product AB can be defined without BA being defined.",
+    "source": "Wikipedia sentences 43, 44"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A grid of entries",
+    "text": "A matrix is a rectangular grid of numbers, or of other mathematical objects, laid out in rows and columns. The items in it are called its entries or elements. Rows are the horizontal lines of entries and columns are the vertical ones. With m rows and n columns, a matrix is called an m × n matrix, and m and n are its dimensions.",
+    "cites": [
+     1,
+     12,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Shapes with names",
+    "text": "Some shapes get their own names. A matrix with a single row is a row vector, and one with a single column is a column vector. A square matrix has as many rows as columns, and square matrices play a major role in matrix theory. There are also infinite matrices, with endlessly many rows or columns, and empty matrices with no rows or no columns, which are handy in computer algebra programs.",
+    "cites": [
+     6,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Why they matter",
+    "text": "In linear algebra, matrices act as linear maps. In geometry they describe transformations such as rotations, and changes of coordinates too. In numerical analysis, many problems are solved by turning them into matrix calculations, often with enormous matrices. Through these routes, matrices reach most areas of mathematics and the sciences.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "How they are written",
+    "text": "Matrices are usually named with capital letters such as A, while a lowercase letter with two subscripts, such as a₁₁, names one entry. Many authors also print matrices in bold to set them apart from other objects. Sometimes the entries come from a formula, a_(i,j) = f(i, j). Some programming languages count rows and columns from zero instead of from one.",
+    "cites": [
+     23,
+     24,
+     25,
+     30
+    ]
+   },
+   {
+    "heading": "Doing arithmetic",
+    "text": "Several basic operations work on matrices. Some, such as transposition, do not depend on what kind of entries the matrix holds. Others, including addition, scalar multiplication and matrix multiplication, act on the entries, so the entries must be numbers or belong to a field or a ring. Addition behaves like ordinary addition, so A + B = B + A. Multiplication obeys (AB)C = A(BC) whenever the sizes allow the products.",
+    "cites": [
+     36,
+     37,
+     38,
+     40,
+     42
+    ]
+   },
+   {
+    "heading": "Order matters",
+    "text": "Matrix multiplication has a twist. The product AB can exist while BA does not, for example when A is m × n, B is n × k, and m ≠ k. Even when both products exist, they need not be equal: 𝐀𝐁 ≠ 𝐁𝐀.",
+    "cites": [
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "The determinant",
+    "text": "Every square matrix has a number called its determinant, which is central to studying it. A square matrix is invertible exactly when its determinant is not zero. Its eigenvalues are the roots of det (λI − A), which is called its characteristic polynomial.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "A field of its own",
+    "text": "Matrix theory is the part of mathematics devoted to matrices. It began as a branch of linear algebra but soon grew to take in topics linked to graph theory, algebra, combinatorics and statistics.",
+    "cites": [
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-matrices",
+   "kind": "book",
+   "title": "9.5 Matrices and Matrix Operations - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/9-5-matrices-and-matrix-operations",
+   "note": "A free textbook section introducing matrices, their notation, and adding, scaling and multiplying them.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-transformations-matrices",
+   "kind": "video",
+   "title": "Linear transformations and matrices",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=kYB8IZa5AuE",
+   "note": "An animated explanation of how a matrix describes a linear transformation of space."
+  },
+  {
+   "id": "hartman-matrix-arithmetic",
+   "kind": "book",
+   "title": "2: Matrix Arithmetic - Fundamentals of Matrix Algebra (Hartman)",
+   "by": "Gregory Hartman (Apex)",
+   "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Fundamentals_of_Matrix_Algebra_(Hartman)/02%3A_Matrix_Arithmetic",
+   "note": "A textbook chapter on matrix addition, multiplication, matrix equations and the matrix inverse, with exercises.",
+   "license": "CC BY-NC 3.0"
+  }
+ ]
+}

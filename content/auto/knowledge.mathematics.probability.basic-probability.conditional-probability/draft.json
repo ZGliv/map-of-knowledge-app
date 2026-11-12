@@ -1,0 +1,240 @@
+{
+ "summary": [
+  {
+   "text": "Conditional probability is the chance that one event happens once you already know another event has happened.",
+   "cites": [
+    2,
+    19,
+    38
+   ]
+  },
+  {
+   "text": "On a given day only 5% of people may be coughing, but a person known to be sick might cough 75% of the time, so the extra knowledge changes the odds.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The chance of A given B typically differs from the chance of B given A, and mixing the two up leads to reasoning errors such as base rate fallacies.",
+   "cites": [
+    7,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Cough example",
+   "value": "5% overall, but 75% for someone who is sick",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "label": "Test for independence",
+   "value": "If P(A∣B) equals P(A), the events are independent",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Dengue test",
+   "value": "90% of dengue patients test positive; only 15% of positives have it",
+   "cites": [
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Two dice",
+   "value": "Told the sum is at most 5, the first die is 2 with chance 3/10",
+   "cites": [
+    32,
+    35
+   ]
+  },
+  {
+   "label": "Undefined case",
+   "value": "If P(B) = 0, P(A∣B) is undefined",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a town, few people cough on a typical day, while sick people are much more likely to cough. You learn your neighbour is sick. Which chance should you use for 'my neighbour is coughing'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The low town-wide chance, since news about one neighbour changes nothing"
+    },
+    {
+     "id": "b",
+     "label": "The town-wide chance halved, since only one person is involved"
+    },
+    {
+     "id": "c",
+     "label": "The higher chance among sick people, since the news narrows the group"
+    },
+    {
+     "id": "d",
+     "label": "Exactly 50%, since they are either coughing or they are not"
+    }
+   ],
+   "answer": "c",
+   "explain": "Knowing the person is sick makes coughing much more likely, so the chance given illness replaces the everyday chance.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "prompt": "A test for a rare disease comes back positive for 90% of people who have it. Yet someone with a positive result may have only a 15% chance of having it. How can both be true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One figure must be a mistake, since both describe the very same people"
+    },
+    {
+     "id": "b",
+     "label": "The test must work far worse on people who really have the disease"
+    },
+    {
+     "id": "c",
+     "label": "A positive result lowers the odds of disease, so the second is smaller"
+    },
+    {
+     "id": "d",
+     "label": "They answer two different questions, so one cannot stand in for the other"
+    }
+   ],
+   "answer": "d",
+   "explain": "The chance of a positive given the disease is a different quantity from the chance of the disease given a positive, and the two typically differ.",
+   "cites": [
+    7,
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "The chance your bus is late turns out to be the same whether or not you learn that a lottery jackpot was won. What does that say about the two events?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two are tied together, since you were told about both of them"
+    },
+    {
+     "id": "b",
+     "label": "The jackpot must be causing late buses, or the other way round"
+    },
+    {
+     "id": "c",
+     "label": "Knowing one tells you nothing about the other, so they are independent"
+    },
+    {
+     "id": "d",
+     "label": "The bus chance must be 50%, since there are only two outcomes"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the chance of A given B equals the plain chance of A, knowing about either event does not change the likelihood of the other.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Two fair dice are rolled out of sight and you are told the total is at most 5. Of the 36 equally likely pairs, 10 fit that total, and 3 of those have a 2 on the first die. What is the chance the first die shows 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3 out of 10, since only the pairs that fit the total count"
+    },
+    {
+     "id": "b",
+     "label": "3 out of 36, since all 36 pairs are still in play"
+    },
+    {
+     "id": "c",
+     "label": "1 out of 6, since a die shows any face equally often"
+    },
+    {
+     "id": "d",
+     "label": "10 out of 36, the share of pairs with a total of 5 or less"
+    }
+   ],
+   "answer": "a",
+   "explain": "Given the total, the possible outcomes shrink to the 10 pairs that fit, and 3 of them have a 2 first, so the chance is 3/10.",
+   "cites": [
+    17,
+    32,
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "prompt": "A clinic knows how often sick people test positive but wants to know how likely a positive patient is to be sick. What can turn one conditional probability into its reverse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Averaging the two probabilities, since each describes the same patients"
+    },
+    {
+     "id": "b",
+     "label": "Reusing the known figure, since the two are normally equal"
+    },
+    {
+     "id": "c",
+     "label": "Subtracting the known figure from one, since positive and sick are opposites"
+    },
+    {
+     "id": "d",
+     "label": "Bayes' theorem, which converts a conditional probability to the reverse"
+    }
+   ],
+   "answer": "d",
+   "explain": "The two directions typically differ, and Bayes' theorem is the tool for reversing a conditional probability when limited information is at hand.",
+   "cites": [
+    7,
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "A rule says the chance of A given B is the chance of both together, divided by the chance of B. What does this give if B has no chance of happening at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero, since B never happens and so neither does A"
+    },
+    {
+     "id": "b",
+     "label": "One, since nothing in the situation contradicts A"
+    },
+    {
+     "id": "c",
+     "label": "It is undefined, since the rule would divide by zero"
+    },
+    {
+     "id": "d",
+     "label": "The plain chance of A, since B adds no information"
+    }
+   ],
+   "answer": "c",
+   "explain": "By the definition, the chance of A given B is undefined when the chance of B is zero.",
+   "cites": [
+    19,
+    21,
+    39
+   ]
+  }
+ ]
+}

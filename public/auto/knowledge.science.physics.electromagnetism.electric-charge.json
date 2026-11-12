@@ -1,0 +1,561 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-charge",
+ "name": "Electric charge",
+ "summary": [
+  {
+   "text": "Electric charge is a property of matter that makes it feel a force in an electromagnetic field, and it comes in two kinds, positive and negative.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Like charges push apart and unlike charges pull together, while an object with no net charge is called neutral.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "In ordinary matter electrons carry negative charge and protons carry positive charge, so an excess of either decides an object's overall charge.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Smallest free charge",
+   "value": "The elementary charge, about 1.602×10⁻¹⁹ C",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Unit",
+   "value": "The coulomb, named after Charles-Augustin de Coulomb",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Conservation",
+   "value": "Total charge in an isolated system never changes",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Franklin's rule",
+   "value": "Positive meant the charge on glass rubbed with silk",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Quark charges",
+   "value": "Fractions of e, but never found alone",
+   "cites": [
+    11,
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You rub a balloon on your hair and the balloon ends up with a negative charge. What is true of your hair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is left with an equal amount of positive charge"
+    },
+    {
+     "id": "b",
+     "label": "It stays neutral, since only the balloon was changed"
+    },
+    {
+     "id": "c",
+     "label": "It gains the same negative charge as the balloon has"
+    },
+    {
+     "id": "d",
+     "label": "It loses its protons, which move over to the balloon"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rubbing moves charge from one material to the other, leaving an opposite charge of the same size behind.",
+   "cites": [
+    43,
+    45
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge:q1"
+  },
+  {
+   "prompt": "A neutral atom picks up one extra electron. What is it now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A positive ion, because it has gained something"
+    },
+    {
+     "id": "b",
+     "label": "A negative ion, because electrons outnumber protons"
+    },
+    {
+     "id": "c",
+     "label": "Still a neutral atom, just a slightly heavier one"
+    },
+    {
+     "id": "d",
+     "label": "A new element, because its electron count changed"
+    }
+   ],
+   "answer": "b",
+   "explain": "With more electrons than protons the atom carries a net negative charge, which makes it a negative ion.",
+   "cites": [
+    9,
+    36
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge:q2"
+  },
+  {
+   "prompt": "Two balloons each carry a negative charge and are hung close together. What do they do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They drift together, since charged things attract"
+    },
+    {
+     "id": "b",
+     "label": "They ignore each other, as both are the same sort"
+    },
+    {
+     "id": "c",
+     "label": "They push away from each other"
+    },
+    {
+     "id": "d",
+     "label": "They swing together then spring apart repeatedly"
+    }
+   ],
+   "answer": "c",
+   "explain": "Charges of the same sign repel one another.",
+   "cites": [
+    3,
+    31
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge:q3"
+  },
+  {
+   "prompt": "A scientist measures the charge on a tiny free-floating speck. Which total could it be, in units of the elementary charge?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One and a half units"
+    },
+    {
+     "id": "b",
+     "label": "A third of a unit"
+    },
+    {
+     "id": "c",
+     "label": "Two and a half units"
+    },
+    {
+     "id": "d",
+     "label": "Three whole units"
+    }
+   ],
+   "answer": "d",
+   "explain": "Free charges come only in whole multiples of the elementary charge.",
+   "cites": [
+    10,
+    26
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge:q4"
+  },
+  {
+   "prompt": "Inside a sealed, insulated box you rub a glass rod with silk. Compared with before, what happens to the box's total charge?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows, since rubbing makes new charge"
+    },
+    {
+     "id": "b",
+     "label": "It shrinks, since some charge leaks into the air"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same, as charge only shifts around"
+    },
+    {
+     "id": "d",
+     "label": "It doubles, since both objects become charged"
+    }
+   ],
+   "answer": "c",
+   "explain": "In an isolated system the total charge does not change; rubbing only moves charge between the objects.",
+   "cites": [
+    6,
+    45
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge:q5"
+  },
+  {
+   "prompt": "Quarks carry fractions of the elementary charge. Why do we never see a lone object with a third of that charge?",
+   "options": [
+    {
+     "id": "b",
+     "label": "Quarks only exist combined, in particles with whole-number charges"
+    },
+    {
+     "id": "a",
+     "label": "Fractional charge is too weak for any instrument to detect"
+    },
+    {
+     "id": "c",
+     "label": "Quarks cancel each other out and leave no charge at all"
+    },
+    {
+     "id": "d",
+     "label": "Quarks turn into electrons whenever they are separated"
+    }
+   ],
+   "answer": "b",
+   "explain": "Quarks are found only inside particles whose total charge is a whole multiple of e, and free quarks have never been seen.",
+   "cites": [
+    11,
+    29
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/VFPt_charges_plus_minus_thumb.svg/960px-VFPt_charges_plus_minus_thumb.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Electric charge",
+  "credit": "Geek3",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg"
+ },
+ "source": {
+  "title": "Electric charge",
+  "url": "https://en.wikipedia.org/wiki/Electric_charge",
+  "revision": 1382478731
+ },
+ "pack": {
+  "id": "auto-electromagnetism-electric-charge",
+  "title": "The Sticky Balloon Puzzle",
+  "question": "What actually happens to charge when you rub two things together?",
+  "path": [
+   "Science",
+   "Physics",
+   "Electromagnetism",
+   "Electric charge"
+  ],
+  "hue": 193,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/VFPt_charges_plus_minus_thumb.svg/960px-VFPt_charges_plus_minus_thumb.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Electric charge",
+    "credit": "Geek3 · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The Sticky Balloon Puzzle",
+    "hook": "A rubbed balloon clings to a wall, and the reason is a quiet bit of bookkeeping."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-electromagnetism-electric-charge:1",
+    "transfer": false,
+    "prompt": "You rub a glass rod with silk and the rod becomes positively charged. What does the silk carry afterwards?",
+    "explain": "Charge taken from one material moves to the other, leaving an opposite charge of the same size behind.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "A larger positive charge",
+        "feedback": "It seems like rubbing should charge both the same way, but then total charge would grow."
+       },
+       {
+        "id": "b",
+        "label": "No charge at all",
+        "feedback": "It tempts because the rod is the one that changed, but the charge the rod lost has to go somewhere."
+       },
+       {
+        "id": "a",
+        "label": "An equal negative charge",
+        "feedback": ""
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-electromagnetism-electric-charge:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each into the kind of charge it has.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "An electron"
+     },
+     {
+      "id": "i1",
+      "label": "A proton"
+     },
+     {
+      "id": "i2",
+      "label": "An atom with extra electrons"
+     },
+     {
+      "id": "i3",
+      "label": "An atom missing some electrons"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Negative"
+     },
+     {
+      "id": "g1",
+      "label": "Positive"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "Electrons carry negative charge and protons carry positive charge, so an excess of one or the other sets the overall sign."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-electromagnetism-electric-charge:3",
+    "transfer": true,
+    "prompt": "Match each situation to what happens.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Two like charges"
+     },
+     {
+      "id": "l1",
+      "label": "Two unlike charges"
+     },
+     {
+      "id": "l2",
+      "label": "Equal protons and electrons"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Neutral"
+     },
+     {
+      "id": "r0",
+      "label": "Repel"
+     },
+     {
+      "id": "r1",
+      "label": "Attract"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Sign decides the push or pull between charges, and an equal count of protons and electrons cancels to neutral."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-electromagnetism-electric-charge:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Rubbing glass with silk leaves the glass rod positively charged."
+     },
+     {
+      "id": "b",
+      "text": "Before rubbing, both were neutral, so the total charge was zero."
+     },
+     {
+      "id": "c",
+      "text": "In a closed system the total charge must stay at zero afterwards."
+     },
+     {
+      "id": "d",
+      "text": "So the silk must still be neutral, since only the rod changed."
+     }
+    ],
+    "answer": "d",
+    "explain": "With a positive rod and a total of zero, the silk has to carry an equal negative charge."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Rubbing never creates charge; it moves it, leaving equal and opposite amounts on the two objects.",
+    "connections": [
+     {
+      "title": "Coulomb's law",
+      "place": "Electric charge",
+      "node": "knowledge.science.physics.electromagnetism.electric-charge.coulomb-s-law"
+     },
+     {
+      "title": "Electric field",
+      "place": "Electric charge",
+      "node": "knowledge.science.physics.electromagnetism.electric-charge.electric-field"
+     },
+     {
+      "title": "Electric potential",
+      "place": "Electric charge",
+      "node": "knowledge.science.physics.electromagnetism.electric-charge.electric-potential"
+     },
+     {
+      "title": "Capacitor",
+      "place": "Electric charge",
+      "node": "knowledge.science.physics.electromagnetism.electric-charge.capacitor"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Charge taken from one material moves to the other, leaving an opposite charge of the same size behind.",
+    "source": "Wikipedia sentences 43, 45"
+   },
+   {
+    "claim": "Electrons carry negative charge and protons carry positive charge, so an excess of one or the other sets the overall sign.",
+    "source": "Wikipedia sentences 8, 9, 36"
+   },
+   {
+    "claim": "Sign decides the push or pull between charges, and an equal count of protons and electrons cancels to neutral.",
+    "source": "Wikipedia sentences 3, 9"
+   },
+   {
+    "claim": "With a positive rod and a total of zero, the silk has to carry an equal negative charge.",
+    "source": "Wikipedia sentences 6, 15, 45"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two kinds of charge",
+    "text": "Electric charge is a property of matter that makes it feel a force when it sits in an electromagnetic field. It comes in two kinds, positive and negative. Charges of the same kind push each other away, and opposite charges pull together. An object with no overall charge is called electrically neutral.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Who carries it",
+    "text": "In ordinary matter, electrons carry negative charge and protons, in the nuclei of atoms, carry positive charge. A piece of matter with more electrons than protons is negative, one with fewer is positive, and one with equal numbers is neutral. The charge of a large object is just the sum of the charges of its particles. That total is often small, because atoms usually hold equal numbers of protons and electrons, so their charges cancel.",
+    "cites": [
+     8,
+     9,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Charge comes in steps",
+    "text": "Charge is quantized: it comes only in whole-number multiples of a tiny unit, the elementary charge e. One e is about 1.602×10⁻¹⁹ C. The proton carries +e and the electron carries −e. Quarks have smaller charges, in steps of 1/3 e, but they are only found joined into particles whose total charge is a whole multiple of e. Michael Faraday was the first to notice that charge comes in separate pieces, in his electrolysis experiments. Robert Millikan's oil drop experiment later showed it directly and measured e.",
+    "cites": [
+     10,
+     11,
+     13,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "It never disappears",
+    "text": "In an isolated system, the total charge stays fixed. Subtract all the negative charge from all the positive charge, and the answer never changes over time. The Standard Model treats charge as a quantum number that is conserved absolutely.",
+    "cites": [
+     6,
+     12
+    ]
+   },
+   {
+    "heading": "Ions",
+    "text": "When an atom, or a cluster of atoms, loses electrons, it ends up positive and is called a cation. One that has gained electrons ends up negative, and is called an anion. Both are ions. Ions made from a single atom are monatomic, while those made from two or more bonded atoms are polyatomic.",
+    "cites": [
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Static electricity",
+    "text": "When an object carries a net charge that is not moving, we call it static electricity. Rubbing two different materials together, like amber with fur or glass with silk, makes it easily. Charge moves from one material to the other and leaves behind an equal and opposite charge. Before electrons and protons were discovered, Benjamin Franklin defined positive charge as the charge a glass rod picks up when rubbed with silk.",
+    "cites": [
+     15,
+     42,
+     43,
+     45
+    ]
+   },
+   {
+    "heading": "Measuring charge",
+    "text": "The SI unit of charge is the coulomb, C, named after the French physicist Charles-Augustin de Coulomb. Electrical engineers often use the ampere-hour instead. Physicists and chemists also count charge in elementary charges. Chemists use the Faraday constant too, equal to the charge carried by a mole of elementary charges.",
+    "cites": [
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up2-5-2",
+   "kind": "book",
+   "title": "5.2: Electric Charge",
+   "by": "OpenStax, on LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields/5.02%3A_Electric_Charge",
+   "note": "A free university textbook section on the two kinds of charge, atoms and ions, quantization and conservation.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cp-18-1",
+   "kind": "book",
+   "title": "18.1: Static Electricity and Charge - Conservation of Charge",
+   "by": "OpenStax, on LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/18%3A_Electric_Charge_and_Electric_Field/18.01%3A_Static_Electricity_and_Charge_-_Conservation_of_Charge",
+   "note": "A gentler, algebra-level section on static electricity and why rubbing moves charge without creating it.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cc-phys-25-charge",
+   "kind": "video",
+   "title": "Electric Charge: Crash Course Physics #25",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=TFlVWf8JX4A",
+   "note": "The Crash Course Physics episode that opens electricity with what electric charge is and how it behaves."
+  }
+ ]
+}

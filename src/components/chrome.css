@@ -1,0 +1,226 @@
+/* The app's chrome as one system: the top bar, the tab bar, the menu, search, sheets and page
+   headers. The map runs full-bleed. On a desktop the top bar floats over it as a veil of the same
+   night, blurred, so the territories glow through it and fade out instead of stopping at a hard
+   edge. On a phone there are no bars at all: a few capsules float over the map, which runs edge to
+   edge, under the status bar and around the tab capsule (see "Phone" below).
+   The map keeps its names clear of the chrome (Atlas measures .map-safe-area and [data-map-obstacle]).
+   Loaded last: these rules settle what the older sheets leave open. */
+.studio-shell{
+ --chrome-bar:48px;
+ --chrome-tab:58px;
+ --chrome-top:calc(var(--chrome-bar) + var(--safe-top));
+ --chrome-bottom:0px;
+ /* The veil: the shell's own night, thin enough for the map's light to come through. */
+ --chrome-veil:color-mix(in srgb,var(--atlas-shade) 58%,transparent);
+ --chrome-veil-deep:color-mix(in srgb,var(--atlas-shade) 76%,transparent);
+ --chrome-blur:blur(22px) saturate(1.8);
+ --chrome-veil-flight:color-mix(in srgb,var(--atlas-shade) 84%,transparent);
+ --chrome-fade:16px;
+ /* Controls: a faintly lit face, a hairline edge and a highlight along the top. */
+ --control-face:linear-gradient(180deg,color-mix(in srgb,var(--atlas-bright) 10%,transparent),color-mix(in srgb,var(--atlas-bright) 3%,transparent));
+ --control-face-hover:linear-gradient(180deg,color-mix(in srgb,var(--atlas-bright) 15%,transparent),color-mix(in srgb,var(--atlas-bright) 5%,transparent));
+ --control-edge:color-mix(in srgb,var(--atlas-bright) 13%,transparent);
+ --control-depth:inset 0 1px 0 color-mix(in srgb,var(--atlas-bright) 9%,transparent),0 1px 2px rgb(0 0 0/.35);
+ --control-well:inset 0 1px 2px rgb(0 0 0/.35);
+ --chrome-ink-shadow:0 1px 10px rgb(0 0 0/.45);
+ position:relative;
+}
+/* A phone: the top row is a 44px capsule with 6px of air above and below it, and the tab capsule
+   lifts off the bottom edge to clear the home indicator. --chrome-top and --chrome-bottom are the
+   room a page leaves for them, so its content can scroll beneath them. */
+@media(max-width:800px){
+ .studio-shell{
+  --chrome-bar:56px;
+  --chrome-tab:56px;
+  --chrome-float:max(12px,var(--safe-bottom) - 8px);
+  --chrome-bottom:calc(var(--chrome-float) + var(--chrome-tab) + 8px);
+  /* The glass of a capsule: the night, blurred, a little denser than the desktop veil, so a name
+     in it always reads over the brightest territory. */
+  --chrome-face:color-mix(in srgb,var(--atlas-shade) 64%,transparent);
+  --chrome-face-edge:inset 0 0 0 1px var(--control-edge),inset 0 1px 0 color-mix(in srgb,var(--atlas-bright) 7%,transparent),0 8px 24px -10px rgb(0 0 0/.75);
+ }
+ /* Over a page of words the glass thickens, so a tab's label never reads against a paragraph. */
+ .studio-shell:has(.map-workspace.workspace-hidden){--chrome-face:color-mix(in srgb,var(--atlas-shade) 82%,transparent)}
+}
+/* Over a page of text (anything but the map) the veil thickens, so words never fight words. */
+.studio-shell:has(.map-workspace.workspace-hidden){--chrome-veil:color-mix(in srgb,var(--atlas-shade) 80%,transparent);--chrome-veil-deep:color-mix(in srgb,var(--atlas-shade) 90%,transparent)}
+
+/* The map's frame for names: Atlas measures it and keeps names inside it. On a desktop, the part
+   no bar or its fade covers. On a phone, the whole screen inside the device's insets (the status
+   bar and the home indicator); the capsules over it are avoided one rectangle at a time. */
+.map-safe-area{position:absolute;inset:calc(var(--chrome-top) + var(--chrome-fade) / 2) 0 0;pointer-events:none;visibility:hidden}
+@media(min-width:801px){.studio-shell:has(.atlas-next) .map-safe-area{bottom:calc(20px + 50px + var(--chrome-fade) / 2)}} /* the floating next-step pill */
+@media(max-width:800px){.map-safe-area{inset:var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left)}}
+
+/* ---- Bars: out of the flow, over the map ---------------------------------------------- */
+.studio-shell .shell-bar{position:absolute;top:0;left:0;right:0;height:var(--chrome-top);min-height:0;padding-top:var(--safe-top);padding-left:var(--safe-left);padding-right:max(10px,var(--safe-right));background:none;border:0;box-shadow:none;isolation:isolate}
+.studio-shell :is(.shell-bar,.studio-mobile-nav)::before{content:'';position:absolute;z-index:-1;pointer-events:none;-webkit-backdrop-filter:var(--chrome-blur);backdrop-filter:var(--chrome-blur)}
+.studio-shell .shell-bar::before{inset:0 0 calc(-1 * var(--chrome-fade));background:linear-gradient(180deg,var(--chrome-veil-deep),var(--chrome-veil) calc(100% - var(--chrome-fade)),transparent);-webkit-mask-image:linear-gradient(180deg,black calc(100% - 2 * var(--chrome-fade)),transparent);mask-image:linear-gradient(180deg,black calc(100% - 2 * var(--chrome-fade)),transparent)}
+
+/* While the camera flies, the blur steps aside for a slightly denser veil (cross-faded), so a moving
+   map never costs a fresh blur on every frame; it returns as the camera settles. */
+.studio-shell :is(.shell-bar,.studio-mobile-nav)::before{transition:opacity .22s ease}
+.studio-shell .shell-bar::after,.studio-shell .studio-mobile-nav::after{content:'';display:block;position:absolute;z-index:-1;pointer-events:none;height:auto;opacity:0;transition:opacity .22s ease}
+.studio-shell .shell-bar::after{inset:0 0 calc(-1 * var(--chrome-fade));background:linear-gradient(180deg,var(--chrome-veil-flight),var(--chrome-veil-flight) calc(100% - 2 * var(--chrome-fade)),transparent)}
+.studio-shell:has(.map-system.is-navigating) :is(.shell-bar,.studio-mobile-nav)::before{opacity:0}
+.studio-shell:has(.map-system.is-navigating) :is(.shell-bar,.studio-mobile-nav)::after{opacity:1}
+
+/* Pages and panels start below the top bar (and above the tab bar) and scroll beneath them. */
+.studio-shell :is(.hub-workspace,.discoveries-workspace,.studio-main>.notebook-workspace){padding-top:var(--chrome-top);padding-bottom:var(--chrome-bottom);scroll-padding-top:var(--chrome-top)}
+.studio-shell .studio-sidebar{padding-top:calc(var(--chrome-top) + 14px)}
+.studio-shell .mock-leaf{padding-top:calc(var(--chrome-top) + 24px);padding-bottom:calc(var(--chrome-bottom) + 20px)}
+.studio-shell .spectrum-control{top:calc(var(--chrome-top) + 10px)}
+.studio-shell .save-warning{top:calc(var(--chrome-top) + 10px)}
+@media(max-width:800px){.studio-shell .toast{bottom:calc(var(--chrome-bottom) + 12px)}}
+.app-menu{top:calc(var(--chrome-top) + 6px)}
+
+/* ---- Top bar contents ------------------------------------------------------------------ */
+.studio-shell .shell-brand,.studio-shell .atlas-current-place{text-shadow:var(--chrome-ink-shadow)}
+.studio-shell .shell-bar .atlas-current-place{color:var(--atlas-bright);font-size:14px;font-weight:500;letter-spacing:0}
+.studio-shell .shell-bar .atlas-ancestor button{color:var(--atlas-secondary);text-shadow:var(--chrome-ink-shadow)}
+.studio-shell .shell-bar .atlas-path-separator{color:var(--atlas-line)}
+.studio-shell .shell-bar :is(.atlas-step-back,.location-back){border-radius:999px;color:var(--atlas-pale)}
+.studio-shell .shell-bar :is(.atlas-step-back,.location-back):hover:not(:disabled){background:var(--control-face-hover);color:var(--atlas-bright)}
+.shell-bar-tools{border-left:0}
+.studio-shell .shell-bar.is-search-only{justify-content:flex-end}
+/* The one pill (Open, Overview, Map) and the menu button share the lit control face. */
+.studio-shell .shell-bar .atlas-open-place,.studio-shell .shell-menu{background:var(--control-face);border:1px solid var(--control-edge);box-shadow:var(--control-depth);color:var(--atlas-highlight);-webkit-backdrop-filter:none;backdrop-filter:none}
+.studio-shell .shell-bar .atlas-open-place{height:32px;padding:0 10px 0 14px;font-size:13px;font-weight:500;letter-spacing:.1px}
+.studio-shell .shell-bar .atlas-open-place svg{color:var(--accent-strong);opacity:.9}
+.studio-shell .shell-bar .atlas-open-place:hover:not(:disabled),.studio-shell .shell-menu:is(:hover,[aria-expanded=true]){background:var(--control-face-hover);border-color:var(--accent-line);color:var(--atlas-bright)}
+.studio-shell .shell-menu{width:34px;height:34px}
+.studio-shell .shell-search{color:var(--atlas-pale);border-color:var(--control-edge);background:var(--control-face);box-shadow:var(--control-depth)}
+.studio-shell .shell-search:hover{background:var(--control-face-hover);border-color:var(--accent-line);color:var(--atlas-bright)}
+.studio-shell .shell-search kbd{background:none;border-color:var(--control-edge);color:var(--atlas-muted)}
+/* The glyph's dark edge is for a phone's Explore, over the video (below); a desktop's search is a pill. */
+.shell-search-edge{display:none}
+/* ---- Phone: floating chrome --------------------------------------------------------------- */
+/* No bars. The map is the whole screen, under the status bar and down to the bottom edge, and three
+   capsules float over it: the lead (home, back, where you are and the way in), the tools (search and
+   the menu) and the tabs, with nothing painted between them. Each is the night, blurred; while the
+   camera flies its blur steps aside for a denser face, as the desktop veil does. Each one marks
+   itself data-map-obstacle, so the map lays its names out around it.
+   The tabs are generic: any number, any icon and label; the current one carries the territory's
+   light. A state that wants them clearer (over video, say) sets --chrome-face and --chrome-blur on
+   the tab capsule itself. */
+.shell-lead{display:contents} /* a desktop's bar lays the brand and the place out on its own row */
+@media(max-width:800px){
+ /* The top row only holds the two groups; between them the map is open to the touch. */
+ .studio-shell .shell-bar{height:var(--chrome-top);padding:calc(var(--safe-top) + 6px) max(10px,var(--safe-right)) 0 max(10px,var(--safe-left));align-items:flex-start;justify-content:space-between;gap:8px;pointer-events:none}
+ .studio-shell .shell-bar>*{pointer-events:auto}
+ /* The status bar keeps a little shade to read against (none without one); nothing else is painted. */
+ .studio-shell .shell-bar::before,.studio-shell:has(.map-system.is-navigating) .shell-bar::before{inset:0 0 auto;height:calc(var(--safe-top) * 1.5);background:linear-gradient(180deg,color-mix(in srgb,var(--atlas-shade) 55%,transparent),transparent);-webkit-mask-image:none;mask-image:none;-webkit-backdrop-filter:none;backdrop-filter:none;opacity:1}
+ .studio-shell .shell-bar::after{content:none}
+ /* Over a page of words the top edge fades the page out beneath the status bar and the capsules,
+    so words never fight words; a reel runs to the top edge, like the map. */
+ .studio-shell:has(.map-workspace.workspace-hidden) .shell-bar::before{height:calc(var(--chrome-top) + 18px);background:linear-gradient(180deg,color-mix(in srgb,var(--atlas-shade) 94%,transparent),color-mix(in srgb,var(--atlas-shade) 88%,transparent) calc(100% - 18px),transparent)}
+ /* Over a playing reel or video the workspace's own top fade (explore.css) shades the status bar. */
+ .studio-shell:has(.studio-mobile-nav.is-over-reel) .shell-bar::before{content:none}
+ /* Explore's Lessons list scrolls under the Watch · Reels · Lessons row as well as search: solid night
+    to just below that row, then the fade, so no word shows through the labels. */
+ .studio-shell:has(.explore-workspace.is-list:not(.is-hidden)) .shell-bar::before{height:calc(var(--chrome-top) + 18px);background:linear-gradient(180deg,var(--atlas-shade),var(--atlas-shade) calc(100% - 18px),transparent)}
+
+ /* The capsules and their glass. */
+ .shell-lead{display:flex}
+ .studio-shell .shell-lead{position:relative;isolation:isolate;flex:0 1 auto;min-width:44px;height:44px;align-items:center;padding:0;border-radius:22px}
+ .studio-shell .shell-bar-tools{position:relative;isolation:isolate;flex:0 0 auto;height:44px;margin:0;padding:0;gap:0;border:0;border-radius:22px}
+ .studio-shell :is(.shell-lead,.shell-bar-tools,.studio-mobile-nav)::before,.studio-shell :is(.shell-lead,.shell-bar-tools,.studio-mobile-nav)::after{content:'';display:block;position:absolute;inset:0;z-index:-1;height:auto;border-radius:inherit;box-shadow:var(--chrome-face-edge);pointer-events:none;-webkit-mask-image:none;mask-image:none;transition:opacity .22s ease}
+ .studio-shell :is(.shell-lead,.shell-bar-tools,.studio-mobile-nav)::before{background:var(--chrome-face);-webkit-backdrop-filter:var(--chrome-blur);backdrop-filter:var(--chrome-blur);opacity:1}
+ .studio-shell :is(.shell-lead,.shell-bar-tools,.studio-mobile-nav)::after{background:var(--chrome-veil-flight);-webkit-backdrop-filter:none;backdrop-filter:none;opacity:0}
+ .studio-shell:has(.map-system.is-navigating) :is(.shell-lead,.shell-bar-tools,.studio-mobile-nav)::before{opacity:0}
+ .studio-shell:has(.map-system.is-navigating) :is(.shell-lead,.shell-bar-tools,.studio-mobile-nav)::after{opacity:1}
+
+ /* The lead: the brand (home), back, the place, and the way into its hub. On a page of its own
+    (Explore, the library) it is only the way home, a round button. */
+ .studio-shell .shell-brand{width:42px;height:44px;padding:0 0 0 2px;gap:0;justify-content:center;align-self:center;border-radius:22px}
+ .studio-shell .shell-brand .brand-mark{transform-origin:center}
+ .studio-shell .shell-bar:has(.shell-bar-place:empty) .shell-brand-name,.studio-shell .shell-bar-place:empty{display:none}
+ .studio-shell .shell-lead:has(.shell-bar-place:empty){width:44px;padding:0;justify-content:center}
+ .studio-shell .shell-bar-place{flex:0 1 auto;min-width:0;align-self:stretch}
+ .studio-shell .shell-bar :is(.location-bar,.atlas-location-bar.is-world){flex:0 1 auto;padding:0;gap:0}
+ .studio-shell .shell-bar .atlas-step-back{width:36px;min-width:36px;height:44px;min-height:44px}
+ .studio-shell .shell-bar .atlas-location-trail{flex:0 1 auto}
+ .studio-shell .shell-bar .atlas-current-place{min-height:44px;padding:0 6px 0 2px;gap:8px;font-size:14px}
+ /* Open, Overview, Map: the lead's last segment, behind a hairline. */
+ .studio-shell .shell-bar .atlas-open-place{position:relative;height:44px;margin:0;padding:0 12px 0 10px;gap:4px;border:0;border-radius:0 22px 22px 0;background:none;box-shadow:none;color:var(--atlas-highlight);font-size:13px}
+ .studio-shell .shell-bar .atlas-open-place::before{content:'';position:absolute;left:0;top:14px;bottom:14px;width:1px;background:var(--control-edge)}
+ .studio-shell .shell-bar .atlas-open-place:hover:not(:disabled){background:none;color:var(--atlas-bright)}
+ /* On a phone a place's Open is the chevron alone, so long place names keep the room. */
+ .studio-shell .shell-bar .atlas-open-place.is-place{padding:0 13px 0 9px}
+ .studio-shell .shell-bar .atlas-open-place.is-place .atlas-open-label{display:none}
+
+ /* The tools: search and the menu, two round faces in one capsule. */
+ .studio-shell :is(.shell-search,.shell-menu){width:44px;height:44px;margin:0;padding:0;border:0;border-radius:50%;background:none;box-shadow:none;color:var(--atlas-pale);justify-content:center}
+ .studio-shell .shell-search svg{width:19px;height:19px}
+ .studio-shell .shell-menu[aria-expanded=true]{background:var(--control-face-hover);color:var(--atlas-bright)}
+ .studio-shell .shell-menu>span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--control-edge)}
+ .studio-shell .shell-menu::before{content:none}
+ @media(hover:hover){.studio-shell :is(.shell-search,.shell-menu):hover{background:var(--control-face-hover);color:var(--atlas-bright)}}
+ /* A touch screen keeps no hover: a tapped button does not stay lit once its sheet closes. */
+ @media(hover:none){.studio-shell :is(.shell-search,.shell-menu:not([aria-expanded=true])):hover{background:none;color:var(--atlas-pale)}}
+ .studio-shell .app-menu{right:max(10px,var(--safe-right))}
+ /* Explore: search alone at the row's end, a bare white glyph like the Watch · Reels · Lessons switch
+    beside it, a little bolder, edged in the night as the words are by their shadow (a wider dark stroke
+    drawn beneath the white one, ShellBar). No glass: a blur over moving video is a fresh blur on every
+    frame. No filter either: WebKit paints a filtered control over the video as a dark square at the
+    screen's top-left corner. */
+ .studio-shell .shell-bar.is-search-only .shell-bar-tools::before,.studio-shell .shell-bar.is-search-only .shell-bar-tools::after{content:none}
+ .studio-shell .shell-bar.is-search-only .shell-search,.studio-shell .shell-bar.is-search-only .shell-search:hover{color:#fff;background:none}
+ .studio-shell .shell-bar.is-search-only .shell-search svg{width:22px;height:22px;stroke-width:2}
+ .studio-shell .shell-bar.is-search-only .shell-search-edge{display:inline;stroke:color-mix(in srgb,var(--atlas-shade) 45%,transparent);stroke-width:4}
+
+ /* The tabs: one compact capsule centred over the home indicator. */
+ .studio-shell .studio-mobile-nav{position:absolute;left:0;right:0;bottom:var(--chrome-float);width:fit-content;height:var(--chrome-tab);margin:0 auto;padding:4px;gap:0;justify-content:center;align-items:stretch;border:0;border-radius:calc(var(--chrome-tab) / 2);background:none;box-shadow:none;isolation:isolate}
+ .studio-shell .studio-mobile-nav :is(button,a){position:relative;flex:0 0 auto;width:74px;max-width:none;min-width:0;min-height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:1px 0 0;border-radius:calc(var(--chrome-tab) / 2 - 4px);background:none;color:var(--atlas-muted);font-size:10.5px;font-weight:500;letter-spacing:.15px;text-shadow:none;transition:color .2s ease}
+ .studio-shell .studio-mobile-nav :is(button,a) svg{position:relative;width:22px;height:22px;color:var(--atlas-secondary);transition:color .2s ease,filter .2s ease}
+ @media(hover:hover){.studio-shell .studio-mobile-nav :is(button,a):hover{color:var(--atlas-highlight)}}
+ .studio-shell .studio-mobile-nav :is(button,a)[aria-current=page]{color:var(--atlas-bright);font-weight:600}
+ .studio-shell .studio-mobile-nav :is(button,a)[aria-current=page] svg{color:var(--accent-strong);filter:drop-shadow(0 0 7px var(--accent-glow))}
+ /* A pool of light behind the current tab's icon, in the territory's hue. */
+ .studio-shell .studio-mobile-nav :is(button,a)::before,.studio-shell .studio-mobile-nav :is(button,a)[aria-current=page]::before{content:'';position:absolute;inset:auto;left:50%;top:50%;width:58px;height:36px;margin:-25px 0 0 -29px;border-radius:50%;background:radial-gradient(closest-side,color-mix(in srgb,var(--accent) 26%,transparent),transparent);box-shadow:none;opacity:0;transform:scale(.7);transition:opacity .25s ease,transform .25s ease;pointer-events:none}
+ .studio-shell .studio-mobile-nav :is(button,a)[aria-current=page]::before{opacity:1;transform:none}
+}
+
+/* ---- The menu --------------------------------------------------------------------------- */
+.studio-shell .app-menu{background:linear-gradient(180deg,color-mix(in srgb,var(--atlas-raised) 88%,transparent),color-mix(in srgb,var(--atlas-paper) 92%,transparent));border:1px solid var(--control-edge);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--atlas-bright) 8%,transparent),var(--lift-2);-webkit-backdrop-filter:blur(24px) saturate(1.5);backdrop-filter:blur(24px) saturate(1.5)}
+.studio-shell .app-menu-item{min-height:44px;border-radius:9px;font-size:14px}
+.studio-shell .app-menu-item:is(:hover,:focus-visible){background:var(--control-face-hover)}
+.studio-shell .app-menu hr{background:var(--control-edge)}
+.studio-shell .app-menu-status{border-top-color:var(--control-edge)}
+
+/* ---- Sheets and search ------------------------------------------------------------------ */
+.studio-shell .modal-backdrop{background:color-mix(in srgb,var(--atlas-shade) 62%,transparent);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2)}
+/* On a phone a sheet starts below the status bar and ends above the home indicator. */
+@media(max-width:800px){.studio-shell .modal-backdrop{padding-top:calc(var(--safe-top) + 14px);padding-bottom:calc(var(--safe-bottom) + 14px)}}
+.studio-shell :is(.settings-dialog,.search-dialog){border-color:var(--control-edge);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--atlas-bright) 7%,transparent),var(--lift-2);border-radius:16px}
+.studio-shell :is(.settings-dialog,.search-dialog)::before{display:none}
+.studio-shell .modal-backdrop .icon-button{border-radius:999px}
+.studio-shell .search-input{min-height:48px;border-radius:12px;background:color-mix(in srgb,var(--atlas-shade) 70%,transparent);border-color:var(--control-edge);box-shadow:var(--control-well)}
+.studio-shell .search-dialog .eyebrow{display:none}
+/* Fields light their own frame on focus; the input inside stays plain. */
+.studio-shell :is(.search-input input,.guide-composer textarea){box-shadow:none!important}
+.studio-shell .guide-composer textarea{background:transparent!important;border:0!important}
+.studio-shell .search-results button{border-color:var(--atlas-rule);border-radius:10px;min-height:52px}
+.studio-shell .search-results button:hover{background:var(--control-face-hover)}
+
+/* ---- Sidebar (desktop) and the floating next step -------------------------------------- */
+.studio-shell .studio-nav button[aria-current=page],.studio-shell .studio-territories button[aria-current=location]{background:var(--control-face);box-shadow:var(--control-depth),inset 0 0 0 1px var(--control-edge)}
+.studio-shell .studio-nav button:hover:not([aria-current=page]),.studio-shell .studio-territories button:hover:not([aria-current=location]){background:var(--control-face)}
+.studio-shell .atlas-next{background:var(--chrome-veil-deep);border-color:var(--control-edge);box-shadow:var(--control-depth),var(--lift-1);-webkit-backdrop-filter:var(--chrome-blur);backdrop-filter:var(--chrome-blur)}
+.studio-shell .atlas-next:hover:not(:disabled){background:var(--chrome-veil-deep);border-color:var(--accent-line)}
+
+/* ---- Page headers: the hub, Discoveries, the notebook ---------------------------------- */
+.studio-shell :is(.hub-trail button,.hub-trail-code){text-transform:none;letter-spacing:0;font-size:13px}
+.studio-shell :is(.hub-stats dt,.discoveries-stats dt){text-transform:none;letter-spacing:0;font-size:13px;color:var(--atlas-muted)}
+.studio-shell .notebook-kicker{text-transform:none;letter-spacing:0}
+
+@media(prefers-reduced-transparency:reduce){
+ .studio-shell{--chrome-veil:var(--atlas-shade);--chrome-veil-deep:var(--atlas-shade);--chrome-face:var(--atlas-shade)}
+ .studio-shell :is(.shell-bar,.studio-mobile-nav,.shell-lead,.shell-bar-tools)::before{-webkit-backdrop-filter:none;backdrop-filter:none}
+}
+/* A landscape phone is shorter than the shell's 420px floor: fit the shell to the screen so the tab bar stays on it. */
+@media (orientation:landscape) and (max-height:500px){.app-shell,.studio-shell{min-height:0}}
+/* Sentence case for the last small labels: the place over a hub's next step ("E10 · Evolution now"), status chips ("Understood") and the map's captions. */
+.studio-shell :is(.hub-next-place,.hub-status,.learnable-status){text-transform:none;letter-spacing:0;font-size:12px}
+.studio-shell .region-caption{letter-spacing:.2px;font-size:11px}
+@media(max-width:800px){.studio-shell .region-caption{font-size:10px}}

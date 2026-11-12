@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "The Abel–Ruffini theorem says that general polynomial equations of degree five or higher with arbitrary coefficients have no solution in radicals.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equations of degree two, three and four do have formulas, the quadratic, cubic and quartic formulas, so degree five is where this stops.",
+   "cites": [
+    1,
+    8
+   ]
+  },
+  {
+   "text": "From the 16th century to the beginning of the 19th, searching for such a formula was the main problem of algebra.",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Ruffini (incomplete proof, 1799) and Abel (proof, 1824)",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Solution in radicals",
+   "value": "Coefficients, the four operations and nth roots only",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Solvable degrees",
+   "value": "Quadratic, cubic and quartic formulas cover degrees two to four",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Galois theory",
+   "value": "Decides, for any given equation, whether radicals can solve it",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Size of answers",
+   "value": "Even for degree five, solution expressions are huge and impractical",
+   "cites": [
+    24,
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student says that since formulas exist for degrees two, three and four, one will surely turn up for a general equation of degree five if people keep looking. What does the theorem say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No such formula can exist for general equations of degree five or higher"
+    },
+    {
+     "id": "b",
+     "label": "A formula exists but is too long for anyone to write"
+    },
+    {
+     "id": "c",
+     "label": "A formula exists, but only for some degree-five equations"
+    },
+    {
+     "id": "d",
+     "label": "Nobody has found one yet, and the question stays open"
+    }
+   ],
+   "answer": "a",
+   "explain": "The theorem states there is no solution in radicals to general polynomial equations of degree five or higher.",
+   "cites": [
+    1,
+    8
+   ]
+  },
+  {
+   "prompt": "Someone runs a program that approximates all roots of a fifth-degree equation to twenty decimal places. Does that contradict the theorem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since approximating the roots would require a formula"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because the computer must have used radicals underneath"
+    },
+    {
+     "id": "c",
+     "label": "No, the theorem is about exact expressions in radicals, and approximation methods exist"
+    },
+    {
+     "id": "d",
+     "label": "No, but only because the equation must have been a special one"
+    }
+   ],
+   "answer": "c",
+   "explain": "Radicals mean an expression using only the coefficients, the four operations and nth roots. Several methods approximate all solutions to any desired accuracy, and they do not contradict the theorem.",
+   "cites": [
+    1,
+    13,
+    15
+   ]
+  },
+  {
+   "prompt": "Abel's proof covered general equations. How can you decide, for one particular equation of high degree, whether radicals can solve it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Abel's proof already lists the unsolvable equations"
+    },
+    {
+     "id": "b",
+     "label": "Galois theory, introduced soon after, decides this for any given equation"
+    },
+    {
+     "id": "c",
+     "label": "Apply the quadratic formula and see if it works"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be decided for any particular equation"
+    }
+   ],
+   "answer": "b",
+   "explain": "Abel's proof does not explicitly say that specific equations are unsolvable. Soon after, Galois introduced a theory that decides this for any given equation.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "A teacher says the theorem means no equation of degree five or higher can ever be solved with roots and arithmetic. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing is wrong, since the theorem rules out every such equation"
+    },
+    {
+     "id": "b",
+     "label": "It holds only for equations whose coefficients are all whole numbers"
+    },
+    {
+     "id": "c",
+     "label": "Some specific equations of any degree can be solved that way, as xⁿ − 1 = 0 can"
+    },
+    {
+     "id": "d",
+     "label": "It holds only for degree five, and higher degrees are solvable"
+    }
+   ],
+   "answer": "c",
+   "explain": "The impossibility concerns general equations. There are specific equations of any degree that can be solved in radicals, such as xⁿ − 1 = 0 for any n.",
+   "cites": [
+    1,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "A learner argues that because every polynomial equation is guaranteed to have solutions, a formula for them must exist. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The guarantee only holds for equations of even degree"
+    },
+    {
+     "id": "b",
+     "label": "The guarantee gives no tool for computing the solutions"
+    },
+    {
+     "id": "c",
+     "label": "The guarantee covers only real solutions"
+    },
+    {
+     "id": "d",
+     "label": "Nothing is wrong; the formula is just very long"
+    }
+   ],
+   "answer": "b",
+   "explain": "The fundamental theorem of algebra says solutions exist, but does not provide any tool for computing them.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "Two names are attached to this theorem. How do their contributions differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ruffini gave a complete proof, and Abel only restated it"
+    },
+    {
+     "id": "b",
+     "label": "Both published identical proofs in the same year"
+    },
+    {
+     "id": "c",
+     "label": "Abel found the formula, and Ruffini showed it was too long"
+    },
+    {
+     "id": "d",
+     "label": "Ruffini's 1799 proof was incomplete, and Abel provided a proof in 1824"
+    }
+   ],
+   "answer": "d",
+   "explain": "The theorem is named after Ruffini, who made an incomplete proof in 1799, and Abel, who provided a proof in 1824.",
+   "cites": [
+    3
+   ]
+  }
+ ]
+}

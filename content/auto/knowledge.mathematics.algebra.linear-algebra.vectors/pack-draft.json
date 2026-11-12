@@ -1,0 +1,113 @@
+{
+ "title": "What counts as a vector?",
+ "question": "What makes something a vector?",
+ "hook": "Forces, polynomials and functions turn out to follow the very same rules.",
+ "idea": "A vector is any element of a set that can be added and scaled by numbers under the vector axioms.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two students pick different bases for the same vector space. The first finds that her basis has three vectors. How many vectors does the second find in his?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Exactly three",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "Any number, since the two bases are different",
+     "feedback": "Different bases are allowed, but all bases of one vector space have the same size."
+    },
+    {
+     "id": "c",
+     "label": "More than three, because a basis can always grow",
+     "feedback": "Adding a vector to a basis would break independence; every basis has the same size, which is the dimension."
+    }
+   ],
+   "answer": "a",
+   "explain": "All bases of a vector space have the same cardinality, called the dimension of the space.",
+   "cites": [
+    42,
+    44
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Linear subspace",
+     "Non-empty subset closed under adding and scaling"
+    ],
+    [
+     "Span",
+     "The set of all linear combinations of some elements"
+    ],
+    [
+     "Basis",
+     "Linearly independent elements that span the space"
+    ],
+    [
+     "Dimension",
+     "The common size of every basis"
+    ]
+   ],
+   "explain": "These four ideas build on each other: subsets that stay inside the space, what a set generates, the smallest generating sets, and their size.",
+   "cites": [
+    35,
+    40,
+    42,
+    44
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "A vector space is a set whose elements can be added together and scaled.",
+    "The elements of any such set are called vectors.",
+    "So every vector must be an arrow with a magnitude and a direction.",
+    "So a set of polynomials could never be a vector space."
+   ],
+   "wrong": 2,
+   "explain": "Vector spaces generalize Euclidean vectors, and polynomial rings are themselves vector spaces, so vectors need not be arrows.",
+   "cites": [
+    1,
+    5,
+    14
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Two vector spaces over the same field both have the same dimension. What can you say about them?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "They are isomorphic, so structure-only properties match exactly",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "They contain exactly the same vectors",
+     "feedback": "Same dimension does not mean same elements; one could hold arrows and the other polynomials."
+    },
+    {
+     "id": "c",
+     "label": "They both describe physical forces",
+     "feedback": "Vector spaces are far more general than forces and velocities."
+    },
+    {
+     "id": "d",
+     "label": "They must both be infinite-dimensional",
+     "feedback": "A dimension can be a natural number, which makes the space finite-dimensional."
+    }
+   ],
+   "answer": "a",
+   "explain": "For two vector spaces over a given field with the same dimension, the properties that depend only on the vector-space structure are exactly the same.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ]
+}

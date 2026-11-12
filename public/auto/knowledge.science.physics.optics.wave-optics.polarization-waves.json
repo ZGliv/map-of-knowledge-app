@@ -1,0 +1,340 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.wave-optics.polarization-waves",
+ "name": "Polarization (waves)",
+ "summary": [
+  {
+   "text": "Polarization is a property of transverse waves that describes the geometric direction in which the oscillations point.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In a transverse wave the wiggle is perpendicular to the direction of travel, so sound in air or liquid, which moves along its travel direction, cannot be polarized.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Light can be linearly, circularly or elliptically polarized, and a polarizer passes only one polarization, turning unpolarized light into polarized light.",
+   "cites": [
+    9,
+    10,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Requirement",
+   "value": "The wave must be transverse; longitudinal ones cannot be polarized",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Unpolarized sources",
+   "value": "The sun, flames and incandescent lamps",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "By reflection",
+   "value": "Light bouncing off a surface at an angle becomes partly polarized",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Photon view",
+   "value": "Polarization comes from photon spin, right or left handed",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "label": "Matters for",
+   "value": "Lasers, fiber-optic telecommunications and radar",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A guitar string can be plucked up and down, side to side, or at an angle. What does this show about the string's waves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their oscillation direction can vary, which is what polarization describes"
+    },
+    {
+     "id": "b",
+     "label": "They are longitudinal waves that travel along the string"
+    },
+    {
+     "id": "c",
+     "label": "They always vibrate vertically unless damped"
+    },
+    {
+     "id": "d",
+     "label": "Their frequency changes with the plucking direction"
+    }
+   ],
+   "answer": "a",
+   "explain": "The vibrations can be vertical, horizontal or anywhere between, which is the geometric orientation that polarization specifies.",
+   "cites": [
+    1,
+    3,
+    4
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.polarization-waves:q1"
+  },
+  {
+   "prompt": "Why can sound traveling through air not be polarized the way light can?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its frequency is too low for the effect to appear"
+    },
+    {
+     "id": "b",
+     "label": "It needs a material medium to travel through"
+    },
+    {
+     "id": "c",
+     "label": "Its particles move along the travel direction, not across it"
+    },
+    {
+     "id": "d",
+     "label": "It is too weak for any instrument to measure"
+    }
+   ],
+   "answer": "c",
+   "explain": "In longitudinal waves such as sound in a gas, the displacement is always in the direction of propagation, so there is no polarization.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.polarization-waves:q2"
+  },
+  {
+   "prompt": "Light straight from a candle flame passes through a polarizing filter. What comes out the other side?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Unpolarized light, unchanged"
+    },
+    {
+     "id": "b",
+     "label": "Light of one polarization only"
+    },
+    {
+     "id": "c",
+     "label": "No light at all"
+    },
+    {
+     "id": "d",
+     "label": "Circularly polarized light only"
+    }
+   ],
+   "answer": "b",
+   "explain": "Flames give an equal mixture of polarizations, and a polarizer lets through only one, producing polarized light.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.polarization-waves:q3"
+  },
+  {
+   "prompt": "Glare bounces off a lake at a slant. How does that light differ from direct sunlight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is partially polarized"
+    },
+    {
+     "id": "b",
+     "label": "It is entirely unpolarized"
+    },
+    {
+     "id": "c",
+     "label": "It is entirely circularly polarized"
+    },
+    {
+     "id": "d",
+     "label": "It has lost all its energy"
+    }
+   ],
+   "answer": "a",
+   "explain": "Light becomes partially polarized when it reflects at an angle from a surface.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.polarization-waves:q4"
+  },
+  {
+   "prompt": "A beam's fields rotate steadily around its direction of travel. What kind of polarization is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Linear polarization, with fields in one fixed direction"
+    },
+    {
+     "id": "b",
+     "label": "No polarization, since the beam is a plain stream"
+    },
+    {
+     "id": "c",
+     "label": "A longitudinal wave, like sound in the air"
+    },
+    {
+     "id": "d",
+     "label": "Circular or elliptical polarization"
+    }
+   ],
+   "answer": "d",
+   "explain": "In circular or elliptical polarization the fields rotate at a constant rate, right-handed or left-handed.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.polarization-waves:q5"
+  },
+  {
+   "prompt": "In the photon picture, what is a circularly polarized beam made of?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Photons that all have the same spin, right or left"
+    },
+    {
+     "id": "b",
+     "label": "A random mix of right and left spins"
+    },
+    {
+     "id": "c",
+     "label": "Photons that carry no spin of any kind"
+    },
+    {
+     "id": "d",
+     "label": "Photons held in a superposition of both spins"
+    }
+   ],
+   "answer": "a",
+   "explain": "Circularly polarized waves consist of photons with only one type of spin, while linearly polarized waves are a superposition of both.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.polarization-waves:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Polarizacio.jpg/960px-Polarizacio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Polarization (waves)",
+  "credit": "Zátonyi Sándor, (ifj.) Fizped",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Polarizacio.jpg"
+ },
+ "source": {
+  "title": "Polarization (waves)",
+  "url": "https://en.wikipedia.org/wiki/Polarization_(waves)",
+  "revision": 1377596512
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Which way the wave shakes",
+    "text": "Polarization is a property of transverse waves that describes the direction in which they oscillate. In a transverse wave, the oscillation is perpendicular to the direction the wave travels. A taut string, such as a guitar string, is a good example. Depending on how it is plucked, it can vibrate up and down, side to side, or in any direction in between.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Waves that cannot be polarized",
+    "text": "Longitudinal waves are different. In sound waves in a liquid or gas, the particles always move along the direction the wave is going, so these waves show no polarization. Transverse waves that do show it include light, radio waves, gravitational waves, and shear waves, which are transverse sound waves in solids.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "The fields inside light",
+    "text": "A light wave is made of an electric field and a magnetic field that oscillate together and are always perpendicular to each other. By convention, the polarization direction is the direction of the electric field. In linear polarization, each field oscillates in a single direction. In circular or elliptical polarization, the fields rotate at a steady rate around the beam's direction of travel. The rotation can be right-handed or left-handed.",
+    "cites": [
+     7,
+     9,
+     10,
+     11,
+     29
+    ]
+   },
+   {
+    "heading": "Making polarized light",
+    "text": "Light from the sun, from flames and from incandescent lamps is made of short wave trains with an equal mix of polarizations; this is called unpolarized light. A polarizer lets through waves of only one polarization, so passing unpolarized light through it gives polarized light. The most common optical materials leave polarization alone. Materials that show birefringence, dichroism or optical activity, though, treat light differently depending on its polarization, and some are used to make polarizing filters. Light also becomes partly polarized when it reflects off a surface at an angle.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "The photon picture",
+    "text": "Quantum mechanics also lets us treat light as a stream of particles called photons. Seen this way, polarization is set by a property of photons called spin. A photon spins either right-handed or left-handed about its direction of travel. Circularly polarized waves are made of photons with just one kind of spin. Linearly polarized waves are made of photons in a superposition of the right and left states, with equal amplitudes and phases lined up so the wave oscillates in a plane.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Where it matters",
+    "text": "Polarization is an important quantity in sciences dealing with transverse waves, for example optics, seismology, radio and microwaves. Technologies that depend on it especially include lasers, radar, and wireless and optical fiber telecommunications. Most light sources are incoherent and unpolarized, or only partly polarized. That is because they give out a random mixture of waves with different frequencies, phases and polarization states.",
+    "cites": [
+     22,
+     23,
+     24
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-1-7",
+   "kind": "book",
+   "title": "1.7 Polarization",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-7-polarization",
+   "note": "A free textbook section on polarizing filters, Malus's law, polarization by reflection and scattering, and LCDs.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-27-8",
+   "kind": "book",
+   "title": "27.8 Polarization",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization",
+   "note": "An introductory textbook section on how filters, reflection, scattering and some materials polarize light.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-barber-pole",
+   "kind": "video",
+   "title": "This tests your understanding of light | The barber pole effect",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=QCX62YJCmGk",
+   "note": "A visual puzzle about polarized light twisting through sugar water, building intuition for how light waves are polarized."
+  }
+ ]
+}

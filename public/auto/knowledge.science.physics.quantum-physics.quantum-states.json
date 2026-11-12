@@ -1,0 +1,538 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.quantum-states",
+ "name": "Quantum states",
+ "summary": [
+  {
+   "text": "A quantum state is a mathematical entity that represents a physical system, and knowing it, plus the rules for how it changes in time, tells you everything that can be known about the system.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "Unlike a classical state, such as a cannonball's position and velocity, a quantum state is made of complex numbers and only predicts probabilities for measurement outcomes.",
+   "cites": [
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "text": "Measuring a quantum system samples from those probabilities, and measurements that are incompatible with each other alter the state.",
+   "cites": [
+    21,
+    28,
+    30
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two types",
+   "value": "Quantum states are either pure or mixed",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Pure state form",
+   "value": "Commonly written as a vector in a Hilbert space",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Mixed state form",
+   "value": "Statistical mixtures, commonly written as density matrices",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Classical comparison",
+   "value": "A cannonball's state is its position and velocity",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Examples",
+   "value": "Wave functions, spin vectors, and many-body states in Fock space",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You know a cannon's position and the speed of its shots. How is predicting a cannonball different from predicting an electron's state?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both can be predicted exactly in the same way"
+    },
+    {
+     "id": "b",
+     "label": "The cannonball only has a probability of landing anywhere"
+    },
+    {
+     "id": "c",
+     "label": "The cannonball's path can be predicted precisely, but the electron gives only probabilities"
+    },
+    {
+     "id": "d",
+     "label": "The electron's path is always more precise than a cannonball's"
+    }
+   ],
+   "answer": "c",
+   "explain": "A classical state evolves under equations of motion and stays strictly determined. Quantum states provide only a probability distribution for outcomes.",
+   "cites": [
+    11,
+    12,
+    14
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states:q1"
+  },
+  {
+   "prompt": "A physicist fires many identical electrons at a double slit and records where each one lands. What does the quantum state predict?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The exact landing spot of each individual electron"
+    },
+    {
+     "id": "b",
+     "label": "The probability distribution of counts across the detector"
+    },
+    {
+     "id": "c",
+     "label": "That every electron lands at the center"
+    },
+    {
+     "id": "d",
+     "label": "Nothing at all, since the state is only decoration"
+    }
+   ],
+   "answer": "b",
+   "explain": "The state consists of complex values over the detection region and, when squared, predicts the probability distribution of electron counts.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states:q2"
+  },
+  {
+   "prompt": "After measuring a particle's momentum several times, you get the same value each time. Then you measure its position. What happens to the next momentum reading?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It may differ, since the position measurement altered the state"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same, since momentum cannot change"
+    },
+    {
+     "id": "c",
+     "label": "It always becomes zero after a position check"
+    },
+    {
+     "id": "d",
+     "label": "It can no longer be measured at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Momentum and position are incompatible measurements, and the quantum state appears unavoidably altered by incompatible measurements.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states:q3"
+  },
+  {
+   "prompt": "What does repeating an identical measurement over and over on a prepared quantum state tend to show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A random value each time, with no pattern"
+    },
+    {
+     "id": "b",
+     "label": "A value that fades as you keep measuring"
+    },
+    {
+     "id": "c",
+     "label": "A different set of values each day"
+    },
+    {
+     "id": "d",
+     "label": "Consistent values, which is why measurements prepare states"
+    }
+   ],
+   "answer": "d",
+   "explain": "Whatever the input state, repeated identical measurements give consistent values, so measurements place the system in a partially defined state.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states:q4"
+  },
+  {
+   "prompt": "A lab needs to describe a system that is a statistical blend of several different pure states. How is it usually written down?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a density matrix"
+    },
+    {
+     "id": "b",
+     "label": "As a single vector in Hilbert space"
+    },
+    {
+     "id": "c",
+     "label": "As a cannonball trajectory"
+    },
+    {
+     "id": "d",
+     "label": "As one real number"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mixed states are statistical mixtures of pure states and cannot be represented as vectors; they are commonly represented as density matrices.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states:q5"
+  },
+  {
+   "prompt": "In classical mechanics you measure one body once, then check the prediction. How does testing a quantum prediction differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single measurement is enough to confirm it"
+    },
+    {
+     "id": "b",
+     "label": "Many repeated measurements are compared with predicted probabilities"
+    },
+    {
+     "id": "c",
+     "label": "No measurement is ever compared with predictions"
+    },
+    {
+     "id": "d",
+     "label": "Only the final state matters, never the starting one"
+    }
+   ],
+   "answer": "b",
+   "explain": "In quantum mechanics, ensembles of identically prepared states evolve, and many repeated measurements are compared with predicted probability distributions.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states:q6"
+  }
+ ],
+ "source": {
+  "title": "Quantum state",
+  "url": "https://en.wikipedia.org/wiki/Quantum_state",
+  "revision": 1381971930
+ },
+ "pack": {
+  "id": "auto-quantum-physics-quantum-states",
+  "title": "Everything You Can Know",
+  "question": "What is a quantum state, and why does it only give odds?",
+  "path": [
+   "Science",
+   "Physics",
+   "Quantum physics",
+   "Quantum states"
+  ],
+  "hue": 196,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Quantum_harmonic_oscillators_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Wave function",
+    "credit": "Derivative work: KMaster888 · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quantum_harmonic_oscillators_animation.gif",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Everything You Can Know",
+    "hook": "A cannonball's future is fixed by two numbers, but an electron's comes with dice."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-quantum-physics-quantum-states:1",
+    "transfer": false,
+    "prompt": "You know a cannon's position and its shot speed exactly. Gravity is the only force. What can you predict about the cannonball's path?",
+    "explain": "A classical state evolves under equations of motion and stays strictly determined, so the trajectory can be predicted precisely. A quantum state only gives a probability distribution for outcomes.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Only odds of where it might land",
+        "feedback": "That is how quantum states work; classical states remain strictly determined."
+       },
+       {
+        "id": "c",
+        "label": "Nothing until it lands",
+        "feedback": "Equations of motion let you predict ahead of time."
+       },
+       {
+        "id": "b",
+        "label": "The whole trajectory, precisely"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-quantum-physics-quantum-states:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each description into classical or quantum state.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Position and velocity with well-defined real values"
+     },
+     {
+      "id": "i1",
+      "label": "Complex numbers that give only probabilities"
+     },
+     {
+      "id": "i2",
+      "label": "Evolves under equations of motion and stays strictly determined"
+     },
+     {
+      "id": "i3",
+      "label": "Values limited by uncertainty relations"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "classical state"
+     },
+     {
+      "id": "g1",
+      "label": "quantum state"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "Classical variables have definite real values; quantum values are complex, quantized, limited by uncertainty and give only probabilities."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-quantum-physics-quantum-states:3",
+    "transfer": true,
+    "prompt": "Put the steps of describing a quantum system in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Identify the variables that define the state"
+     },
+     {
+      "id": "b",
+      "label": "Measure a compatible set to prepare a unique state"
+     },
+     {
+      "id": "c",
+      "label": "The state evolves by the equations of motion"
+     },
+     {
+      "id": "d",
+      "label": "A later measurement samples from the predicted probabilities"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "start",
+     "end"
+    ],
+    "explain": "You choose variables, prepare the state, let it evolve deterministically, and measuring then yields one sample from a probability distribution."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-quantum-physics-quantum-states:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "I measure a particle's momentum along x, and get the same value every time I repeat it."
+     },
+     {
+      "id": "b",
+      "text": "Then I measure its position once."
+     },
+     {
+      "id": "c",
+      "text": "Position and momentum are incompatible, so the state is altered."
+     },
+     {
+      "id": "d",
+      "text": "So my next momentum reading must still equal the earlier one."
+     }
+    ],
+    "answer": "d",
+    "explain": "An incompatible measurement alters the state, so later momentum readings are no longer guaranteed to match."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A quantum state holds all that can be known about a system, but it predicts only probabilities, and some measurements change it.",
+    "connections": [
+     {
+      "title": "Wave function",
+      "place": "Quantum states",
+      "node": "knowledge.science.physics.quantum-physics.quantum-states.wave-function"
+     },
+     {
+      "title": "Quantum superposition",
+      "place": "Quantum states",
+      "node": "knowledge.science.physics.quantum-physics.quantum-states.quantum-superposition"
+     },
+     {
+      "title": "Schrödinger equation",
+      "place": "Quantum states",
+      "node": "knowledge.science.physics.quantum-physics.quantum-states.schr-dinger-equation"
+     },
+     {
+      "title": "Quantum tunnelling",
+      "place": "Quantum states",
+      "node": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A classical state evolves under equations of motion and stays strictly determined, so the trajectory can be predicted precisely. A quantum state only gives a probability distribution for outcomes.",
+    "source": "Wikipedia sentences 10, 11, 12, 14"
+   },
+   {
+    "claim": "Classical variables have definite real values; quantum values are complex, quantized, limited by uncertainty and give only probabilities.",
+    "source": "Wikipedia sentences 9, 11, 14"
+   },
+   {
+    "claim": "You choose variables, prepare the state, let it evolve deterministically, and measuring then yields one sample from a probability distribution.",
+    "source": "Wikipedia sentences 17, 19, 20, 21"
+   },
+   {
+    "claim": "An incompatible measurement alters the state, so later momentum readings are no longer guaranteed to match.",
+    "source": "Wikipedia sentences 28, 29, 30"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Everything that can be known",
+    "text": "In quantum physics, a quantum state is a piece of mathematics that stands for a physical system. Quantum mechanics sets the rules for building a state, for how it changes, and for measuring it. If you know the state and the rules for how the system changes over time, you know all there is to know about it.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "From cannonballs to electrons",
+    "text": "The idea grew out of states in classical mechanics. A classical state is a set of quantities with definite real values at each moment; a cannonball's state is its position and velocity. These values follow equations of motion, so with gravity in the equations you can predict the ball's path exactly. Quantum states also hold variables that follow equations of motion. But their values are complex numbers, come only in set steps, are limited by uncertainty relations, and give only probabilities for outcomes.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "An electron at two slits",
+    "text": "In the double-slit experiment, for example, an electron's quantum state is a set of complex values across the detection area. Squared, those values predict only the probability pattern of electron counts across the detector. Because measurement in quantum physics is a matter of chance, quantum states play a different role from classical ones.",
+    "cites": [
+     16,
+     22
+    ]
+   },
+   {
+    "heading": "Measuring prepares the state",
+    "text": "Measuring a full set of compatible quantities at once puts a system into a unique state. The state then changes in a fully determined way under the equations of motion, and a later measurement draws a sample from a predicted probability distribution. So physicists prepare many identical systems, let them evolve, and compare many repeated measurements with the predicted probabilities. Whatever state goes in, repeating the same measurement gives consistent values.",
+    "cites": [
+     19,
+     20,
+     21,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Compatible or not",
+    "text": "Some later measurements just pin the state down further; these are called compatible. Others change the state and are called incompatible, or complementary. You can measure momentum along the x axis again and again and get the same answer, but measuring position once in between changes later momentum results. This unavoidable disturbance is known as the uncertainty principle.",
+    "cites": [
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Pure and mixed",
+    "text": "Making a complete set of compatible measurements yields what is called a pure state, and any state that is not pure is called mixed. Pure states are usually written as vectors in a Hilbert space. Mixed states are statistical blends of pure states, cannot be written that way, and are usually written as density matrices instead. Experiments rarely produce pure states, so it is mixtures that must be compared with results.",
+    "cites": [
+     5,
+     6,
+     36,
+     37,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Many ways to write it",
+    "text": "The same state can be written in different mathematical forms called representations. The position wave function is often the first one beginners meet, and the momentum wave function is an equivalent alternative. Choosing a representation is like choosing a coordinate system: it makes some parts of a problem easier and others harder.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-7-1",
+   "kind": "book",
+   "title": "7.1 Wave Functions",
+   "by": "OpenStax (Samuel J. Ling, Jeff Sanny, William Moebs)",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/7-1-wave-functions",
+   "note": "A free textbook section on the wave function as the state of a quantum system and how it gives probabilities.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

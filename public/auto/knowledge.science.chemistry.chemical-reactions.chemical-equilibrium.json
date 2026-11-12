@@ -1,0 +1,530 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium",
+ "name": "Chemical equilibrium",
+ "summary": [
+  {
+   "text": "Chemical equilibrium is the state in which reactants and products are both present in concentrations that have no further tendency to change with time.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It results when the forward reaction runs at the same rate as the reverse reaction; those rates are generally not zero, just equal.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Because both reactions keep going with no net change in concentrations, this state is known as dynamic equilibrium.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Key condition",
+   "value": "Forward and reverse reaction rates are equal",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Name of the state",
+   "value": "Dynamic equilibrium",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Response to a disturbance",
+   "value": "The position moves to partially reverse the change",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Effect of a catalyst",
+   "value": "Speeds both directions; the equilibrium constant is unchanged",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "label": "Far to the right",
+   "value": "Nearly all the reactants are consumed",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sealed mixture shows no change in its concentrations at all. Has the reaction stopped?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a lack of change means that nothing is happening"
+    },
+    {
+     "id": "b",
+     "label": "No, the forward and reverse reactions are still going, at equal rates"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because only the forward reaction can ever proceed"
+    },
+    {
+     "id": "d",
+     "label": "No, but only the reverse reaction is still going"
+    }
+   ],
+   "answer": "b",
+   "explain": "The forward and backward rates are generally not zero, but they are equal, so there are no net changes in concentration.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium:q1"
+  },
+  {
+   "prompt": "Two identical mixtures start reacting, but one has a catalyst added. What differs at the end?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The catalysed one ends up with a higher equilibrium constant"
+    },
+    {
+     "id": "b",
+     "label": "The catalysed one ends up with a lower equilibrium constant"
+    },
+    {
+     "id": "c",
+     "label": "The constant is the same, but the catalysed one gets there sooner"
+    },
+    {
+     "id": "d",
+     "label": "The uncatalysed one reaches its equilibrium first"
+    }
+   ],
+   "answer": "c",
+   "explain": "A catalyst speeds up the forward and reverse reactions in the same way, so it does not change the equilibrium constant but speeds the approach to equilibrium.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium:q2"
+  },
+  {
+   "prompt": "At equilibrium, hardly any product has formed from the reactants. Where does the equilibrium position lie?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Far to the left"
+    },
+    {
+     "id": "b",
+     "label": "Far to the right"
+    },
+    {
+     "id": "c",
+     "label": "Exactly in the middle"
+    },
+    {
+     "id": "d",
+     "label": "Nowhere, because there is no equilibrium"
+    }
+   ],
+   "answer": "a",
+   "explain": "A position far to the left means hardly any product is formed from the reactants.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium:q3"
+  },
+  {
+   "prompt": "Extra product is poured into a mixture already at equilibrium. How does the system respond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The forward reaction increases, pushing further towards products"
+    },
+    {
+     "id": "b",
+     "label": "Neither reaction changes, so the mixture stays put"
+    },
+    {
+     "id": "c",
+     "label": "The equilibrium constant changes to absorb the product"
+    },
+    {
+     "id": "d",
+     "label": "The reverse reaction increases, pushing the equilibrium position backward"
+    }
+   ],
+   "answer": "d",
+   "explain": "A disturbed equilibrium moves to partially reverse the change. The equilibrium constant stays the same.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium:q4"
+  },
+  {
+   "prompt": "A mixture has settled at equilibrium. How does its reaction quotient compare with the equilibrium constant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The quotient is always larger than the constant"
+    },
+    {
+     "id": "b",
+     "label": "The quotient is always smaller than the constant"
+    },
+    {
+     "id": "c",
+     "label": "The two have no fixed relationship to each other"
+    },
+    {
+     "id": "d",
+     "label": "The quotient has the same value as the constant"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a system at equilibrium the reaction quotient Q_r equals the equilibrium constant K_eq.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium:q5"
+  },
+  {
+   "prompt": "A reaction runs in water. Why is the water's concentration left out of the equilibrium expression?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Water takes no part in any reaction"
+    },
+    {
+     "id": "b",
+     "label": "Water always has a concentration of zero"
+    },
+    {
+     "id": "c",
+     "label": "As the solvent, its concentration stays high and nearly constant"
+    },
+    {
+     "id": "d",
+     "label": "Water cannot be measured in a mixture"
+    }
+   ],
+   "answer": "c",
+   "explain": "H₂O is left out because it is the solvent and its concentration remains high and nearly constant.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium:q6"
+  }
+ ],
+ "source": {
+  "title": "Chemical equilibrium",
+  "url": "https://en.wikipedia.org/wiki/Chemical_equilibrium",
+  "revision": 1375011690
+ },
+ "pack": {
+  "id": "auto-chemical-reactions-chemical-equilibrium",
+  "title": "Reactions that never really stop",
+  "question": "What does it mean for a reaction to be at equilibrium?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical reactions",
+   "Chemical equilibrium"
+  ],
+  "hue": 176,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Fritz_Haber.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Haber process",
+    "credit": "The Nobel Foundation · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fritz_Haber.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Reactions that never really stop",
+    "hook": "A sealed flask can look perfectly still while reactions inside it keep running in both directions."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemical-reactions-chemical-equilibrium:1",
+    "transfer": false,
+    "prompt": "A flask holds reactants and products, and their concentrations have stopped changing. What is going on inside?",
+    "explain": "At equilibrium the forward reaction proceeds at the same rate as the reverse reaction, so there are no net changes in concentrations.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Forward and reverse reactions continue at equal rates",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "Both reactions have stopped completely",
+        "feedback": "It tempts because nothing visibly changes, but the rates are generally not zero, only equal."
+       },
+       {
+        "id": "c",
+        "label": "Only the forward reaction continues until the reactants run out",
+        "feedback": "It tempts because reactions seem to head one way, but a reverse reaction is running too and cancels the net change."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-reactions-chemical-equilibrium:2",
+    "transfer": false,
+    "prompt": "match each phrase to its meaning",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Far to the right"
+     },
+     {
+      "id": "l1",
+      "label": "Far to the left"
+     },
+     {
+      "id": "l2",
+      "label": "Dynamic equilibrium"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Nearly all reactants are consumed"
+     },
+     {
+      "id": "r1",
+      "label": "Hardly any product forms"
+     },
+     {
+      "id": "r2",
+      "label": "Rates are not zero, but equal"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "The position describes how far the reaction has gone, while dynamic equilibrium describes the equal, ongoing rates."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemical-reactions-chemical-equilibrium:3",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A sealed mixture reaches a point where concentrations no longer change."
+     },
+     {
+      "id": "b",
+      "text": "The forward and reverse reactions then run at equal rates."
+     },
+     {
+      "id": "c",
+      "text": "Equal rates must mean both reactions are at zero."
+     },
+     {
+      "id": "d",
+      "text": "So there is no net change in concentrations."
+     }
+    ],
+    "answer": "c",
+    "explain": "The forward and backward rates are generally not zero. They are equal, which is why concentrations do not change overall."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemical-reactions-chemical-equilibrium:4",
+    "transfer": true,
+    "prompt": "Two identical mixtures start reacting, and one has a catalyst added. What is different once both reach equilibrium?",
+    "explain": "A catalyst affects the forward and reverse reactions in the same way, so it does not change the equilibrium constant, and it speeds up reaching equilibrium.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The catalysed mixture never reaches equilibrium",
+        "feedback": "It tempts because catalysts are not consumed, but they speed both reactions and so equilibrium is reached sooner."
+       },
+       {
+        "id": "b",
+        "label": "The catalysed mixture has a larger equilibrium constant",
+        "feedback": "It tempts because catalysts seem to help products form, but they speed up both directions equally."
+       },
+       {
+        "id": "a",
+        "label": "Nothing about the equilibrium constant, but the catalysed mixture got there faster",
+        "feedback": ""
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "At equilibrium the forward and reverse reactions run at equal, non-zero rates, so nothing seems to change overall.",
+    "connections": [
+     {
+      "title": "Equilibrium constant",
+      "place": "Chemical equilibrium",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant"
+     },
+     {
+      "title": "Le Chatelier's principle",
+      "place": "Chemical equilibrium",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle"
+     },
+     {
+      "title": "Haber process",
+      "place": "Chemical equilibrium",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.haber-process"
+     },
+     {
+      "title": "Solubility",
+      "place": "Chemical equilibrium",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "At equilibrium the forward reaction proceeds at the same rate as the reverse reaction, so there are no net changes in concentrations.",
+    "source": "Wikipedia sentences 2, 3, 4"
+   },
+   {
+    "claim": "The position describes how far the reaction has gone, while dynamic equilibrium describes the equal, ongoing rates.",
+    "source": "Wikipedia sentences 3, 5, 7, 8"
+   },
+   {
+    "claim": "The forward and backward rates are generally not zero. They are equal, which is why concentrations do not change overall.",
+    "source": "Wikipedia sentences 3, 4"
+   },
+   {
+    "claim": "A catalyst affects the forward and reverse reactions in the same way, so it does not change the equilibrium constant, and it speeds up reaching equilibrium.",
+    "source": "Wikipedia sentences 14, 15"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What equilibrium is",
+    "text": "Chemical equilibrium is the point in a reaction where the amounts of reactants and products present no longer tend to change over time. Looking from outside, you would see no change in the properties of the system. This state is what the field of equilibrium chemistry studies.",
+    "cites": [
+     1,
+     6
+    ]
+   },
+   {
+    "heading": "Still busy underneath",
+    "text": "Equilibrium does not mean the reaction has stopped. The forward reaction and the reverse reaction both keep going, usually at rates above zero. They simply run at the same rate, so the concentrations show no net change. That is why the state is called a dynamic equilibrium.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Left or right",
+    "text": "Chemists describe where a reaction settles with a simple picture. If nearly all the reactants have been used up once the balance is reached, the equilibrium lies far to the right. If hardly any product has formed, it lies far to the left.",
+    "cites": [
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "One number for the balance",
+    "text": "The balance can be summed up by an equilibrium constant, which arises as a ratio of the forward and reverse rate constants, with the products written on top by convention. This constant stays the same whatever the amounts of the substances involved, though it does change with temperature. Equal forward and reverse rates are a necessary condition for equilibrium. On their own, though, they do not explain why equilibrium happens.",
+    "cites": [
+     9,
+     10,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Catalysts and disturbances",
+    "text": "A catalyst speeds up the forward and the reverse reaction in the same way. It helps the system reach equilibrium sooner, but it leaves the equilibrium constant untouched. Changing the conditions is a different matter. Le Châtelier's principle, from 1884, predicts that a disturbed equilibrium shifts its position so as to partly undo the change.",
+    "cites": [
+     14,
+     15,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "The energy view",
+    "text": "At constant temperature and pressure, the quantity to watch is the Gibbs free energy, G, which then depends only on the extent of reaction, written ξ. The second law of thermodynamics allows G only to fall as the reaction runs, and at equilibrium G stops changing as ξ changes. Mixing products with reactants adds a large amount of entropy, which gives the Gibbs energy a distinct minimum along the way. If the reactants and products were completely pure, sitting in separate regions of space, there would be no reversibility and no equilibrium.",
+    "cites": [
+     29,
+     31,
+     32,
+     33,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "A proton on the move",
+    "text": "Acetic acid in water gives a small picture of this constant traffic. A proton can hop from one acetic acid molecule onto a water molecule, then onto an acetate ion, forming a fresh acetic acid molecule. The number of acetic acid molecules ends up unchanged, even though the proton has moved. This is dynamic equilibrium at the scale of single molecules.",
+    "cites": [
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-13-1",
+   "kind": "book",
+   "title": "13.1 Chemical Equilibria",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+   "note": "A free textbook section on reversible reactions and why equilibrium is dynamic, with the N₂O₄ and NO₂ example.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-equilibrium",
+   "kind": "video",
+   "title": "Equilibrium: Crash Course Chemistry #28",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=g5wNg_dKsYY",
+   "note": "A Crash Course Chemistry episode on reversible reactions, dynamic equilibrium and Le Chatelier's principle."
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-and-temperature.temperature",
+ "name": "Temperature",
+ "summary": [
+  {
+   "text": "Temperature is a measure of how hot or cold something is, reflecting the average kinetic energy of the particles inside it.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is read with a thermometer on scales such as Celsius, Fahrenheit and Kelvin, each of which fixes a zero point and a size for one degree.",
+   "cites": [
+    2,
+    3,
+    4,
+    11
+   ]
+  },
+  {
+   "text": "The Kelvin scale starts at absolute zero, the lowest point on the scale, which experiments can approach very closely but never reach.",
+   "cites": [
+    6,
+    7,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Celsius anchors",
+   "value": "0 °C is water freezing, 100 °C is water boiling",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Fahrenheit anchors",
+   "value": "Water freezes at 32 °F and boils at 212 °F",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Absolute zero",
+   "value": "0 K, which equals −273.15 °C",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Kelvin's status",
+   "value": "One of the seven SI base units",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A kitchen warms by 5 °C over the afternoon. By how many kelvin did it warm?",
+   "options": [
+    {
+     "id": "a",
+     "label": "268.15 K"
+    },
+    {
+     "id": "b",
+     "label": "41 K"
+    },
+    {
+     "id": "c",
+     "label": "5 K"
+    },
+    {
+     "id": "d",
+     "label": "278.15 K"
+    }
+   ],
+   "answer": "c",
+   "explain": "A one degree Celsius step is the same size as a one kelvin step; the scales differ only by a fixed offset of 273.15.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.temperature:q1"
+  },
+  {
+   "prompt": "Two identical cups hold water, and one cup is hotter. What differs between them at the microscopic level?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its molecules are heavier than the others"
+    },
+    {
+     "id": "b",
+     "label": "It holds a larger number of molecules"
+    },
+    {
+     "id": "c",
+     "label": "Its molecules are packed in more tightly"
+    },
+    {
+     "id": "d",
+     "label": "Its molecules move with more energy on average"
+    }
+   ],
+   "answer": "d",
+   "explain": "Temperature reflects the average kinetic energy of the particles, so hotter water has faster-moving molecules.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.temperature:q3"
+  },
+  {
+   "prompt": "Physicists keep cooling a sample in a lab, getting closer to absolute zero each time. What will they find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They will reach it once the equipment is good enough"
+    },
+    {
+     "id": "b",
+     "label": "They can get extremely close but never actually arrive"
+    },
+    {
+     "id": "c",
+     "label": "Cooling becomes impossible below about one kelvin"
+    },
+    {
+     "id": "d",
+     "label": "They arrive, then the particles start speeding up again"
+    }
+   ],
+   "answer": "b",
+   "explain": "Absolute zero can be approached very closely but not reached, as the third law of thermodynamics recognizes.",
+   "cites": [
+    7,
+    19
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.temperature:q4"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Thermally_Agitated_Molecule.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Temperature",
+  "credit": "User:Greg_L on English wikipedia, uploaded to commons by User:Frokor",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Thermally_Agitated_Molecule.gif"
+ },
+ "source": {
+  "title": "Temperature",
+  "url": "https://en.wikipedia.org/wiki/Temperature",
+  "revision": 1382518516
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Temperature is a measure of how hot or cold something is. In physics terms, it reflects the average kinetic energy of a system's particles, and so shows how energy is shared out among their tiny motions. It matters in every natural science, from physics and chemistry to medicine and ecology. It also touches most parts of daily life.",
+    "cites": [
+     1,
+     10
+    ]
+   },
+   {
+    "heading": "Measuring it",
+    "text": "Temperature is read with a thermometer, marked in one of several scales. Every scale needs two choices: where zero sits, and how big one degree is. Most everyday thermometers rely on a simple physical property of a material, such as the length of a mercury column in a thin glass tube, which depends mainly on temperature. Such thermometers only work within a range: above mercury's boiling point a mercury thermometer is useless. Water makes a poor thermometer liquid, because over some range it contracts as it warms instead of expanding.",
+    "cites": [
+     2,
+     3,
+     11,
+     38,
+     39,
+     40,
+     41,
+     42,
+     44
+    ]
+   },
+   {
+    "heading": "Celsius and Fahrenheit",
+    "text": "Celsius is the scale for everyday readings in most of the world. Its zero was set at the freezing point of water and 100 °C at the boiling point, both at sea-level air pressure. Because of that 100-degree gap it used to be called centigrade. Fahrenheit is common in the United States, and on that scale water boils at 212 °F and freezes at 32 °F.",
+    "cites": [
+     4,
+     12,
+     13,
+     14,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Kelvin, the scientists' scale",
+    "text": "Science mostly uses the Kelvin scale, and its unit, the kelvin, is one of the seven base units of the International System of Units. Its zero is absolute zero, and it has no other reference point. A step of one kelvin is the same size as one degree Celsius; the two scales are simply shifted by exactly 273.15. Since May 2019 the size of the kelvin has been fixed through the Boltzmann constant, whose value is set by international agreement.",
+    "cites": [
+     4,
+     5,
+     6,
+     15,
+     23,
+     29,
+     28
+    ]
+   },
+   {
+    "heading": "Absolute zero",
+    "text": "Absolute zero, 0 K, equals exactly −273.15 °C or −459.67 °F. At that point no energy can be drawn out of matter as heat, a fact stated in the third law of thermodynamics. In classical terms, all motion of the particles would have stopped, though matter would still keep its quantum zero-point energy. Experiments can get very close but never reach it; the coldest so far is 38 pK, or 38 trillionths of a kelvin.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Below zero, yet hotter",
+    "text": "A body in thermodynamic equilibrium always sits at a temperature above absolute zero. Even so, negative absolute temperatures do exist. Strangely, they count as hotter than any positive temperature.",
+    "cites": [
+     9,
+     26
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-13-1",
+   "kind": "book",
+   "title": "13.1 Temperature",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+   "note": "A free textbook section on thermometers, the Celsius, Fahrenheit and Kelvin scales, and absolute zero.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up2-1-2",
+   "kind": "book",
+   "title": "1.2 Thermometers and Temperature Scales",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/1-2-thermometers-and-temperature-scales",
+   "note": "A free university textbook section on how thermometers work and how to convert between temperature scales.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-physics-20",
+   "kind": "video",
+   "title": "Temperature: Crash Course Physics #20",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=6BHbJ_gBOk0",
+   "note": "A Crash Course Physics episode on temperature, thermal expansion in bridges, and the ideal gas law."
+  }
+ ]
+}

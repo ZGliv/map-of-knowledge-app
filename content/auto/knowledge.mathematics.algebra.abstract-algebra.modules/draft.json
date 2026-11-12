@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "Among modules, the free ones are those that have a basis, which is a generating set that is linearly independent.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Every vector space is a free module, but over a ring that is not a division ring there exist modules that are not free.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Many statements true for free modules extend to larger classes: projective, flat and torsion-free modules.",
+   "cites": [
+    34,
+    35,
+    36,
+    37
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "A ring over itself",
+   "value": "It is a free module of rank one",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Direct sums",
+   "value": "A direct sum of free modules is free",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Projective modules",
+   "value": "They are direct summands of free modules",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Flat modules",
+   "value": "Tensoring with them preserves exact sequences",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Over the integers",
+   "value": "For finitely generated modules, free, projective, flat and torsion-free coincide",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You study vector spaces over a field and call each of them a module over that field. What kind of module is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A free module"
+    },
+    {
+     "id": "b",
+     "label": "A module that has no basis"
+    },
+    {
+     "id": "c",
+     "label": "A projective module that is never free"
+    },
+    {
+     "id": "d",
+     "label": "A module that is never generating"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every vector space is a free module.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "A ring is not a division ring, and you consider all modules over it. What can you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every module has a basis"
+    },
+    {
+     "id": "b",
+     "label": "Some modules will not be free"
+    },
+    {
+     "id": "c",
+     "label": "Only vector spaces will appear"
+    },
+    {
+     "id": "d",
+     "label": "No module can have a generating set"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the coefficient ring is not a division ring, there exist non-free modules, unlike over a field.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "You glue together several free modules, either by a direct sum or by an infinite product. Which one is guaranteed to stay free?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The infinite product only"
+    },
+    {
+     "id": "b",
+     "label": "Both of them"
+    },
+    {
+     "id": "c",
+     "label": "The direct sum"
+    },
+    {
+     "id": "d",
+     "label": "Neither of them"
+    }
+   ],
+   "answer": "c",
+   "explain": "A direct sum of free modules is free, while an infinite cartesian product is generally not.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "prompt": "A module is described as a direct summand of a free module. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A flat module"
+    },
+    {
+     "id": "b",
+     "label": "A torsion-free module"
+    },
+    {
+     "id": "c",
+     "label": "A trivial module"
+    },
+    {
+     "id": "d",
+     "label": "A projective module"
+    }
+   ],
+   "answer": "d",
+   "explain": "Projective modules are direct summands of free modules.",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "prompt": "Tensoring with a certain module never breaks an exact sequence. Which kind of module has that property?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A flat module"
+    },
+    {
+     "id": "b",
+     "label": "A free module only"
+    },
+    {
+     "id": "c",
+     "label": "A module with no generating set"
+    },
+    {
+     "id": "d",
+     "label": "A module over a field only"
+    }
+   ],
+   "answer": "a",
+   "explain": "Flat modules are defined by the property that tensoring with them preserves exact sequences.",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "prompt": "A finitely generated module over the integers is flat. What follows about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must be zero"
+    },
+    {
+     "id": "b",
+     "label": "It is probably not free"
+    },
+    {
+     "id": "c",
+     "label": "It has no torsion-free quotient"
+    },
+    {
+     "id": "d",
+     "label": "It is free, projective and torsion-free as well"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a finitely generated module over a principal ideal domain such as the integers, the properties free, projective, flat and torsion-free are equivalent.",
+   "cites": [
+    38
+   ]
+  }
+ ]
+}

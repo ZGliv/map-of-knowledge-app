@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent",
+ "name": "Limiting reagent",
+ "summary": [
+  {
+   "text": "The limiting reagent is the reactant that is totally consumed when a chemical reaction is completed.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The amount of product formed is limited by it, since the reaction cannot continue without it, and reagents present beyond what is needed are called excess reagents.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It must be identified to calculate percentage yield, because the theoretical yield is the amount of product obtained when it reacts completely.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Limiting reactant or limiting agent",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Leftover reagents",
+   "value": "Called excess reagents, excess reactants, or in abundance",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Why it matters",
+   "value": "Needed to calculate a reaction's percentage yield",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Product-based method",
+   "value": "The limiting reactant forms the smallest amount of product",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Two-reactant method",
+   "value": "Most useful when there are only two reactants",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab report says a reaction stopped because it could not continue without reactant X. How should X be described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Totally used up, capping how much product forms"
+    },
+    {
+     "id": "b",
+     "label": "Present in excess, with plenty left over at the end"
+    },
+    {
+     "id": "c",
+     "label": "A product that was formed in an earlier step"
+    },
+    {
+     "id": "d",
+     "label": "Not involved in the reaction in any way"
+    }
+   ],
+   "answer": "a",
+   "explain": "The limiting reagent is totally consumed when the reaction is completed, and the product formed is limited by it.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent:q1"
+  },
+  {
+   "prompt": "A mixture of Al and Fe₂O₃ could make 0.297 mol Fe from the Al but only 0.250 mol Fe from the Fe₂O₃. How much Fe can actually form?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.297 mol, set by the larger amount"
+    },
+    {
+     "id": "b",
+     "label": "0.250 mol, set by the smaller amount"
+    },
+    {
+     "id": "c",
+     "label": "0.547 mol, the two amounts added"
+    },
+    {
+     "id": "d",
+     "label": "0.047 mol, the gap between them"
+    }
+   ],
+   "answer": "b",
+   "explain": "The limiting reactant is the one that can form the smallest amount of product, so the iron produced is limited to 0.250 mol.",
+   "cites": [
+    14,
+    17,
+    18
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent:q2"
+  },
+  {
+   "prompt": "A student wants to express how well her experiment did as a percentage of the best possible result. What must she pin down first?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which reactant is the cheapest to buy and to replace"
+    },
+    {
+     "id": "b",
+     "label": "Which product is the heaviest once it has been collected"
+    },
+    {
+     "id": "c",
+     "label": "Which reactant is limiting, as it sets the theoretical yield"
+    },
+    {
+     "id": "d",
+     "label": "Which reactant was poured in first, since it reacts first"
+    }
+   ],
+   "answer": "c",
+   "explain": "The limiting reagent must be identified to calculate percentage yield, since the theoretical yield is the product obtained when the limiting reagent reacts completely.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent:q3"
+  },
+  {
+   "prompt": "You pick reactant A and work out how much of reactant B it needs. The flask holds more B than that. Which reactant limits the reaction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "B, since there is more of it"
+    },
+    {
+     "id": "b",
+     "label": "B, since it was worked out second"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since both are in abundance"
+    },
+    {
+     "id": "d",
+     "label": "A, since B is present in excess"
+    }
+   ],
+   "answer": "d",
+   "explain": "If the amount of B present exceeds the amount required, B is in excess and A is the limiting reagent.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent:q4"
+  },
+  {
+   "prompt": "Two reactants are each checked for how much of the same product they could form. Which one is limiting?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one that could form the least product"
+    },
+    {
+     "id": "b",
+     "label": "The one that could form the most product"
+    },
+    {
+     "id": "c",
+     "label": "The one present in the larger mass"
+    },
+    {
+     "id": "d",
+     "label": "The one written first in the equation"
+    }
+   ],
+   "answer": "a",
+   "explain": "The limiting reactant is the one which can form the smallest amount of the product considered.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent:q5"
+  },
+  {
+   "prompt": "A chemist runs a reaction until it can go no further. One reagent was present beyond what the other required. What is true of that surplus afterwards?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All of it is used up with the other"
+    },
+    {
+     "id": "b",
+     "label": "It turns into extra product beyond the limit"
+    },
+    {
+     "id": "c",
+     "label": "Some of it is left over, unreacted"
+    },
+    {
+     "id": "d",
+     "label": "It changes into the other reagent"
+    }
+   ],
+   "answer": "c",
+   "explain": "Reagents present in excess of what the limiting reagent needs are left over; in the example, 6.75 mol of oxygen remains unreacted.",
+   "cites": [
+    3,
+    10
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.limiting-reagent:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Reagente_limitante.svg/960px-Reagente_limitante.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Limiting reagent",
+  "credit": "AGeremia",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Reagente_limitante.svg"
+ },
+ "source": {
+  "title": "Limiting reagent",
+  "url": "https://en.wikipedia.org/wiki/Limiting_reagent",
+  "revision": 1373261533
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The ingredient that runs out",
+    "text": "In a chemical reaction, the limiting reagent is the reactant that is completely used up by the time the reaction finishes. Once it is gone the reaction cannot go on, so it sets a ceiling on how much product forms. Any other reactants left over, because more was present than the limiting reagent could react with, are called excess reagents, sometimes shortened to \"xs\".",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "You need to know the limiting reagent before you can work out a reaction's percentage yield. That is because the theoretical yield is defined as the product you would get if the limiting reagent reacted completely. Starting from the balanced chemical equation, there are several equivalent ways to find the limiting reagent and to work out how much of each other reactant is left in excess.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Method one: compare what is needed",
+    "text": "Choose one reactant, call it A, and use the balanced equation to work out how much of the other reactant, B, it would need. If more B is actually present than that, B is the excess reagent and A limits the reaction. If less B is present, B is the limiting reagent. This approach works best when there are just two reactants.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "A worked case with benzene",
+    "text": "Take a reaction of benzene with oxygen. With 18 mol of O₂ on hand, 18 − 11.25 = 6.75 mol of oxygen is still unreacted once every bit of benzene is consumed. Oxygen is therefore the reagent in excess, and benzene is the limiting reagent.",
+    "cites": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Method two: compare the product",
+    "text": "A second approach uses the equation to work out how much of one product each reactant could make from the amount present. Whichever reactant would make the least product is the limiting one. Unlike the first method, it extends easily to three, four or more reactants. In one example, the amounts of Al and Fe₂O₃ are given in grams, so both are first turned into moles. The Al present could yield 0.297 mol of Fe but the Fe₂O₃ only 0.250 mol, so the Fe₂O₃ limits how much Fe forms.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Method three: extent of reaction",
+    "text": "A third way works out, for each reagent, the extent of reaction needed to bring it down to zero. The reagent that runs out at the lowest extent is the limiting reagent. Multiplying that extent by each other chemical's stoichiometric coefficient then gives how much of each chemical there is when the reaction ends.",
+    "cites": [
+     19,
+     20,
+     21
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-4-4",
+   "kind": "book",
+   "title": "4.4: Reaction Yields",
+   "by": "OpenStax, on Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.05%3A_Reaction_Yields",
+   "note": "A free textbook section on limiting and excess reactants and percent yield, with worked examples.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "wikibooks-limiting",
+   "kind": "book",
+   "title": "General Chemistry/Limiting Reactants and Percent Yield",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Limiting_Reactants_and_Percent_Yield",
+   "note": "A brief open textbook page explaining limiting and excess reactants with simple combustion examples.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

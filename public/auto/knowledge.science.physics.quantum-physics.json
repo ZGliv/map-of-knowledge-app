@@ -1,0 +1,565 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics",
+ "name": "Quantum physics",
+ "summary": [
+  {
+   "text": "Quantum mechanics is the fundamental theory describing matter and light, mainly at the scale of atoms and below, where behavior is often counterintuitive.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It explains things classical physics cannot at very small scales, while classical mechanics emerges from it as an approximation at ordinary scales.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Its key features are discrete energy levels, wave-particle duality, and predictions given only as probabilities, and its predictions have been verified to extreme accuracy.",
+   "cites": [
+    6,
+    7,
+    15,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Birth",
+   "value": "Planck's 1900 solution to black-body radiation was an early step",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Full development",
+   "value": "The mid-1920s, by Bohr, Schrödinger, Heisenberg, Born, Dirac and others",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Born rule",
+   "value": "A probability is the squared size of a probability amplitude",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "label": "Accuracy",
+   "value": "Quantum electrodynamics matches experiment within 1 part in 10¹²",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Why can a marble roll at any speed you like, while an electron in an atom can only hold certain energies?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Electrons are too heavy to change their energy"
+    },
+    {
+     "id": "b",
+     "label": "Quantum bound states take only discrete energy values"
+    },
+    {
+     "id": "c",
+     "label": "Marbles are made of matter and electrons are not"
+    },
+    {
+     "id": "d",
+     "label": "Energy is never measurable inside an atom"
+    }
+   ],
+   "answer": "b",
+   "explain": "Quantum systems have bound states quantized to discrete values of energy and other quantities, unlike classical systems where they vary continuously.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.physics.quantum-physics:q1"
+  },
+  {
+   "prompt": "Physicists measure an electron in the same setup many times and get different results, though the setup was identical. What does quantum mechanics say about this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The theory gives only probabilities for the outcomes"
+    },
+    {
+     "id": "b",
+     "label": "The equipment must have been faulty each time"
+    },
+    {
+     "id": "c",
+     "label": "The theory predicts one exact result every time"
+    },
+    {
+     "id": "d",
+     "label": "Electrons are not real until a person looks"
+    }
+   ],
+   "answer": "a",
+   "explain": "A fundamental feature is that the theory usually cannot predict with certainty what will happen, but only gives probabilities.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.physics.quantum-physics:q2"
+  },
+  {
+   "prompt": "A baseball's flight is handled well by classical mechanics. How does that fit with quantum mechanics being more fundamental?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Classical mechanics is wrong and baseballs are not described"
+    },
+    {
+     "id": "b",
+     "label": "Baseballs must be treated as single atoms to be predicted"
+    },
+    {
+     "id": "c",
+     "label": "Classical mechanics can be derived as an approximation at ordinary scales"
+    },
+    {
+     "id": "d",
+     "label": "Quantum mechanics only applies to light, never to matter"
+    }
+   ],
+   "answer": "c",
+   "explain": "Classical mechanics can be derived from quantum mechanics as an approximation valid at ordinary scales.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.physics.quantum-physics:q3"
+  },
+  {
+   "prompt": "An experiment shows light sometimes behaves like a particle and sometimes like a wave. What is this called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Born rule"
+    },
+    {
+     "id": "b",
+     "label": "The old quantum theory"
+    },
+    {
+     "id": "c",
+     "label": "Quantum tunneling"
+    },
+    {
+     "id": "d",
+     "label": "Wave-particle duality"
+    }
+   ],
+   "answer": "d",
+   "explain": "Measurements of quantum systems show characteristics of both particles and waves, known as wave-particle duality.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.quantum-physics:q4"
+  },
+  {
+   "prompt": "The wave function of an electron assigns a number to each point in space. What does squaring its size give you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The probability of finding the electron there"
+    },
+    {
+     "id": "b",
+     "label": "The mass of the electron at that point"
+    },
+    {
+     "id": "c",
+     "label": "The temperature of the surrounding region"
+    },
+    {
+     "id": "d",
+     "label": "The exact path the electron will follow"
+    }
+   ],
+   "answer": "a",
+   "explain": "Taking the square of the absolute value of the probability amplitude gives a probability, a rule known as the Born rule.",
+   "cites": [
+    18,
+    19,
+    20
+   ],
+   "id": "knowledge.science.physics.quantum-physics:q5"
+  },
+  {
+   "prompt": "Why did physicists develop quantum mechanics at all, rather than keeping classical physics?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Classical physics was too accurate for ordinary scales"
+    },
+    {
+     "id": "b",
+     "label": "They found observations classical physics could not explain"
+    },
+    {
+     "id": "c",
+     "label": "They wanted to apply it to human beings first"
+    },
+    {
+     "id": "d",
+     "label": "They set out to prove atoms did not exist"
+    }
+   ],
+   "answer": "b",
+   "explain": "It arose gradually from attempts to explain observations such as black-body radiation and the photoelectric effect that classical physics could not reconcile.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.quantum-physics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hydrogen_Density_Plots.png/960px-Hydrogen_Density_Plots.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Quantum physics",
+  "credit": "PoorLeno (talk)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Hydrogen_Density_Plots.png"
+ },
+ "source": {
+  "title": "Quantum mechanics",
+  "url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+  "revision": 1380701615
+ },
+ "pack": {
+  "id": "auto-physics-quantum-physics",
+  "title": "The Rules Below the Atom",
+  "question": "Why does nature act so strangely at the smallest scales?",
+  "path": [
+   "Science",
+   "Physics",
+   "Quantum physics"
+  ],
+  "hue": 192,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hydrogen_Density_Plots.png/960px-Hydrogen_Density_Plots.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Quantum physics",
+    "credit": "PoorLeno (talk) · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hydrogen_Density_Plots.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The Rules Below the Atom",
+    "hook": "At the scale of atoms, you can only predict odds, never certainties."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-physics-quantum-physics:1",
+    "transfer": false,
+    "prompt": "You fire identical electrons through the same experiment and want to know where the next one lands. What can quantum mechanics give you?",
+    "explain": "The theory usually gives only probabilities, found by squaring the size of a probability amplitude from the wave function.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "One exact location, if the setup is perfect",
+        "feedback": "It tempts because classical physics works that way, but the theory usually cannot predict with certainty."
+       },
+       {
+        "id": "a",
+        "label": "Probabilities for where it might be found",
+        "feedback": "This is the real answer."
+       },
+       {
+        "id": "c",
+        "label": "Nothing at all, since electrons cannot be studied",
+        "feedback": "Predictions have been verified to extreme accuracy."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-physics-quantum-physics:2",
+    "transfer": false,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Wave function"
+     },
+     {
+      "id": "l1",
+      "label": "Wave-particle duality"
+     },
+     {
+      "id": "l2",
+      "label": "Uncertainty principle"
+     },
+     {
+      "id": "l3",
+      "label": "Born rule"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Squares a probability amplitude to get a probability"
+     },
+     {
+      "id": "r0",
+      "label": "Gives probability amplitudes for measurement results"
+     },
+     {
+      "id": "r2",
+      "label": "Limits how well a quantity can be predicted before measurement"
+     },
+     {
+      "id": "r1",
+      "label": "Shows traits of both waves and particles"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "These ideas together describe how quantum systems are modelled and measured."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-physics-quantum-physics:3",
+    "transfer": true,
+    "prompt": "Put these steps of quantum history in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Planck solves the black-body radiation problem (1900)"
+     },
+     {
+      "id": "b",
+      "label": "Einstein explains the photoelectric effect (1905)"
+     },
+     {
+      "id": "c",
+      "label": "Full quantum mechanics arrives in the mid-1920s"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Planck's 1900 solution and Einstein's 1905 paper came first, and the full theory followed in the mid-1920s."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-physics-quantum-physics:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Quantum mechanics describes behavior at and below the scale of atoms."
+     },
+     {
+      "id": "b",
+      "text": "Classical mechanics works at ordinary scales."
+     },
+     {
+      "id": "c",
+      "text": "So the two theories contradict each other everywhere."
+     },
+     {
+      "id": "d",
+      "text": "In fact classical mechanics can be derived from quantum mechanics as an approximation."
+     }
+    ],
+    "answer": "c",
+    "explain": "Classical mechanics follows from quantum mechanics as a valid approximation at ordinary scales, so they do not clash there."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Quantum mechanics gives discrete energies, wave-like particles and probability-only predictions, with everyday physics as its approximation.",
+    "connections": [
+     {
+      "title": "Wave–particle duality",
+      "place": "Quantum physics",
+      "node": "knowledge.science.physics.quantum-physics.wave-particle-duality"
+     },
+     {
+      "title": "Quantum states",
+      "place": "Quantum physics",
+      "node": "knowledge.science.physics.quantum-physics.quantum-states"
+     },
+     {
+      "title": "Uncertainty and measurement",
+      "place": "Quantum physics",
+      "node": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement"
+     },
+     {
+      "title": "Atomic physics",
+      "place": "Quantum physics",
+      "node": "knowledge.science.physics.quantum-physics.atomic-physics"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The theory usually gives only probabilities, found by squaring the size of a probability amplitude from the wave function.",
+    "source": "Wikipedia sentences 17, 18, 20"
+   },
+   {
+    "claim": "These ideas together describe how quantum systems are modelled and measured.",
+    "source": "Wikipedia sentences 7, 11, 18, 19"
+   },
+   {
+    "claim": "Planck's 1900 solution and Einstein's 1905 paper came first, and the full theory followed in the mid-1920s.",
+    "source": "Wikipedia sentences 8, 9"
+   },
+   {
+    "claim": "Classical mechanics follows from quantum mechanics as a valid approximation at ordinary scales, so they do not clash there.",
+    "source": "Wikipedia sentences 1, 4, 5"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The physics of the very small",
+    "text": "Quantum mechanics, also called quantum physics, is the basic theory of how matter and light behave. The behaviour it describes usually happens at the scale of atoms and below, and it is often called counterintuitive. Classical physics describes much of nature at everyday scales but is not enough at atomic and subatomic scales. Quantum mechanics handles many systems that classical physics cannot describe, and classical mechanics can be derived from it as an approximation that holds at ordinary scales.",
+    "cites": [
+     1,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "How it began",
+    "text": "The theory grew gradually out of attempts to explain observations that classical physics could not. Two of these were Max Planck's 1900 solution to the black-body radiation problem and Albert Einstein's 1905 paper on the photoelectric effect, which tied energy to frequency. These early efforts, now called the old quantum theory, led to full quantum mechanics in the mid-1920s. Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born and Paul Dirac were among those who built it. Its ideas are now used in quantum chemistry, quantum biology, quantum technology and quantum information science.",
+    "cites": [
+     2,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Strange rules",
+    "text": "In a quantum system, bound states are quantized: energy, momentum and similar quantities can take only certain separate values. In classical systems, by contrast, these quantities can be measured continuously. Measurements of quantum systems show features of both particles and waves, which is called wave–particle duality. There is also a limit to how accurately a quantity can be predicted before it is measured, even when all the starting conditions are known; this is the uncertainty principle.",
+    "cites": [
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Only probabilities",
+    "text": "The theory usually cannot say for certain what will happen; it gives probabilities. An electron, for example, can be described by a wave function, which gives every point in space a complex number called a probability amplitude. Taking the square of the absolute value of that number gives a probability, a recipe called the Born rule after Max Born. Applied to the electron, it gives the chances of finding it at each position when you measure it. That is the best the theory can do.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Interference and tunnelling",
+    "text": "Quantum interference is often illustrated with the double-slit experiment. Light passing two parallel slits makes bright and dark bands on a screen, yet it always arrives at separate points, like particles. If you detect which slit each particle goes through, the bands do not form, and electrons, atoms and molecules behave the same way. Another effect is quantum tunnelling: a particle can cross a barrier even when its kinetic energy is lower than the barrier's peak, where in classical mechanics it would be trapped. Tunnelling makes radioactive decay and nuclear fusion in stars possible, and it is used in scanning tunnelling microscopes.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     31,
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Entanglement",
+    "text": "When quantum systems interact, they can become entangled: their properties are so intertwined that the whole can no longer be described just by its separate parts. Entanglement enables quantum computing and is part of quantum key distribution. Despite a popular misconception, it does not allow signals to be sent faster than light. Results led by Bell's theorem, and many Bell tests, have shown that broad classes of \"hidden variable\" theories do not fit with quantum physics.",
+    "cites": [
+     37,
+     39,
+     40,
+     41,
+     42,
+     44
+    ]
+   },
+   {
+    "heading": "Tested to high precision",
+    "text": "Experiments have confirmed the predictions of quantum mechanics to an extremely high degree of accuracy. Quantum electrodynamics, the refinement that covers how light and matter interact, agrees with experiment to within 1 part in 10¹² when it predicts the magnetic properties of an electron.",
+    "cites": [
+     15,
+     16
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-up3-ch7",
+   "kind": "book",
+   "title": "7: Quantum Mechanics",
+   "by": "OpenStax via Physics LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/07%3A_Quantum_Mechanics",
+   "note": "A free textbook chapter on wave functions, the uncertainty principle, the Schrödinger equation and tunnelling.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "libretexts-chem-6-4",
+   "kind": "book",
+   "title": "Development of Quantum Theory",
+   "by": "OpenStax Chemistry 2e via Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Development_of_Quantum_Theory",
+   "note": "A chemistry textbook view of matter waves, the uncertainty principle and wave functions for electrons in atoms.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cc-physics-43",
+   "kind": "video",
+   "title": "Quantum Mechanics - Part 1: Crash Course Physics #43",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=7kb1VT0J3DE",
+   "note": "A fast-paced opener to quantum mechanics and how it changed our picture of light."
+  },
+  {
+   "id": "iot-physics-of-reality",
+   "kind": "documentary",
+   "title": "The Physics of Reality",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/p00548dl",
+   "minutes": 45,
+   "note": "A radio discussion of the attempt to reconcile quantum theory with classical physics."
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer",
+ "name": "Isomer",
+ "summary": [
+  {
+   "text": "Isomers are molecules or polyatomic ions that have the same number of atoms of each element but different arrangements of those atoms in space.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In structural isomerism the bonds between atoms differ, while in stereoisomerism the bonds are the same but the relative positions of the atoms differ.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Being isomers does not guarantee similar chemical or physical properties, and how deep an analysis goes depends on which properties matter.",
+   "cites": [
+    3,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "Greek isos, meaning equal, and meros, meaning part",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Propanol isomers",
+   "value": "Propan-1-ol and propan-2-ol differ in hydroxyl position",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Third isomer",
+   "value": "An ether called methoxyethane joins the two propanols",
+   "cites": [
+    15,
+    19
+   ]
+  },
+  {
+   "label": "Mirror-image example",
+   "value": "Bromochlorofluoromethane is a classic case of enantiomers",
+   "cites": [
+    34,
+    36
+   ]
+  },
+  {
+   "label": "Enantiomers versus diastereomers",
+   "value": "Enantiomers share physical properties; diastereomers do not",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two propanol samples differ only in which carbon of a three-carbon chain carries the hydroxyl group. How are they related?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are enantiomers"
+    },
+    {
+     "id": "b",
+     "label": "They are the same molecule numbered from the other end"
+    },
+    {
+     "id": "c",
+     "label": "They are positional isomers"
+    },
+    {
+     "id": "d",
+     "label": "They are stereoisomers"
+    }
+   ],
+   "answer": "c",
+   "explain": "Propan-1-ol and propan-2-ol differ in the position of the hydroxyl, which makes them positional isomers.",
+   "cites": [
+    17,
+    24
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer:q1"
+  },
+  {
+   "prompt": "A student lists '3-propanol' as a third isomer of propanol. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is 1-propanol, numbered from the other end"
+    },
+    {
+     "id": "b",
+     "label": "It would need a double bond to exist"
+    },
+    {
+     "id": "c",
+     "label": "It is an ether and not an alcohol"
+    },
+    {
+     "id": "d",
+     "label": "It has a different number of carbons"
+    }
+   ],
+   "answer": "a",
+   "explain": "The difference between it and 1-propanol is just a choice in the direction of numbering the carbons.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer:q2"
+  },
+  {
+   "prompt": "Like a left hand and a right hand, two molecules are mirror images and cannot be made to coincide by rotations or translations. What are they called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Positional isomers"
+    },
+    {
+     "id": "b",
+     "label": "Diastereomers"
+    },
+    {
+     "id": "c",
+     "label": "Epimers"
+    },
+    {
+     "id": "d",
+     "label": "Enantiomers"
+    }
+   ],
+   "answer": "d",
+   "explain": "Mirror-image molecules that cannot coincide through rotation or translation are enantiomers.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer:q3"
+  },
+  {
+   "prompt": "A chemist wants to tell two isomers apart by their physical properties. Which pair is the better bet?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Enantiomers, because they differ in physical properties"
+    },
+    {
+     "id": "b",
+     "label": "Diastereomers, because their physical properties differ"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since all isomers share physical properties"
+    },
+    {
+     "id": "d",
+     "label": "Both, since they behave identically"
+    }
+   ],
+   "answer": "b",
+   "explain": "Enantiomers have identical physical properties but diastereomers do not.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer:q4"
+  },
+  {
+   "prompt": "Two chemicals are the same constitutional isomer. Could a deeper look still show they differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, constitutional isomers are always identical"
+    },
+    {
+     "id": "b",
+     "label": "No, because isomers share all properties"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because they must be different elements"
+    },
+    {
+     "id": "d",
+     "label": "Yes, they might be stereoisomers of each other"
+    }
+   ],
+   "answer": "d",
+   "explain": "Isomeric relationships form a hierarchy, so the same constitutional isomer can still be two stereoisomers.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer:q5"
+  },
+  {
+   "prompt": "Chlorofluoromethane is not chiral. What explains that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It contains no hydrogen atoms at all"
+    },
+    {
+     "id": "b",
+     "label": "It has too many double bonds in it"
+    },
+    {
+     "id": "c",
+     "label": "A half-turn about an axis gives its mirror image"
+    },
+    {
+     "id": "d",
+     "label": "It is made of just two elements only"
+    }
+   ],
+   "answer": "c",
+   "explain": "Its mirror image is also obtained by a half-turn about a suitable axis, so it has no separate mirror-image form.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.isomer:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/IsomerOverview.svg/960px-IsomerOverview.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Isomer",
+  "credit": "Smokefoot",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:IsomerOverview.svg"
+ },
+ "source": {
+  "title": "Isomer",
+  "url": "https://en.wikipedia.org/wiki/Isomer",
+  "revision": 1382472700
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Same atoms, different shapes",
+    "text": "Isomers are molecules or polyatomic ions with the same molecular formula, meaning the same count of atoms of each element, but with those atoms arranged differently in space. Isomerism is the name for the fact that isomers exist or can exist. The word goes back to Greek isos, equal, and meros, part. Sharing a formula does not mean sharing behaviour: isomers need not have similar chemical or physical properties.",
+    "cites": [
+     1,
+     2,
+     3,
+     9
+    ]
+   },
+   {
+    "heading": "Two main kinds",
+    "text": "In structural, or constitutional, isomerism, the bonds linking the atoms are different. In stereoisomerism, or spatial isomerism, the bonds are the same but the atoms sit in different relative positions. These relationships form a hierarchy. Two chemicals may be the same constitutional isomer and still, on closer analysis, be stereoisomers of each other. How deep to look depends on the field of study and on which properties matter.",
+    "cites": [
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "heading": "Three ways to build C₃H₈O",
+    "text": "Structural isomers keep the same formula but join their atoms in different ways. Take C₃H₈O. Two of its isomers are propanols, alcohols on a chain of three carbons, which differ only in where the hydroxyl group (−OH) attaches: at the end of the chain in propan-1-ol, or at the middle carbon in propan-2-ol, also called isopropyl alcohol. These two are positional isomers, differing in where a feature sits on a parent molecule. The third isomer, methoxyethane, is an ether: its oxygen links to two carbons, and all eight hydrogens bond straight to carbons.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     19,
+     20,
+     24
+    ]
+   },
+   {
+    "heading": "Not every drawing is new",
+    "text": "A new way of drawing a molecule is not always a new isomer. A so-called 3-propanol is just 1-propanol with its carbons numbered from the other end, and ethoxymethane is the same molecule as methoxyethane. Among another set of three-carbon isomers, there is only one with a triple bond, propyne, and only one cyclopropene. Any other placement of those bonds just draws the three carbons in a different order.",
+    "cites": [
+     22,
+     23,
+     25,
+     26,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Mirror images",
+    "text": "Stereoisomers have the same atoms joined by bonds of the same type, but differ in where those atoms sit in space. They come in two broad types, enantiomers and diastereomers, and enantiomers have identical physical properties while diastereomers do not. Enantiomers are mirror images that no rotation or shift can make coincide, like a left hand and a right hand, and such shapes are called chiral. A classic case is bromochlorofluoromethane, CHFClBr: seen from the hydrogen atom, the route F to Cl to Br runs clockwise in one form and counterclockwise in the other.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Why they stay apart",
+    "text": "To turn one form of CHFClBr into the other, those four atoms would at some point have to lie flat in one plane. That would badly strain or break their bonds to the carbon. The energy barrier is so high that at room temperature there is practically no conversion, so the two count as different configurations. Chlorofluoromethane, CH₂ClF, is different: it is not chiral, because a half-turn about a suitable axis gives its mirror image.",
+    "cites": [
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-5-9",
+   "kind": "book",
+   "title": "5.9 A Review of Isomerism",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-9-a-review-of-isomerism",
+   "note": "A free textbook section sorting every kind of isomer, constitutional and stereo, into one overview.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

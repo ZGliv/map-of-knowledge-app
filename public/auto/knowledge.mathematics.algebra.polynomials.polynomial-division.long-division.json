@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division",
+ "name": "Long division",
+ "summary": [
+  {
+   "text": "Long division is a standard way to divide multi-digit numbers by hand, breaking a division problem into a series of easier steps.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "One number, the dividend, is divided by another, the divisor, to give the quotient, and the work starts from the left-most digit of the dividend.",
+   "cites": [
+    3,
+    23
+   ]
+  },
+  {
+   "text": "At each step the leftover is carried forward by bringing down the next digit, and the work is complete once all digits are used and no remainder is left.",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Three parts",
+   "value": "The dividend is divided by the divisor to give the quotient",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Short division",
+   "value": "Almost always used instead when the divisor has one digit",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Modern algorithm",
+   "value": "Introduced by Henry Briggs around 1600",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Worked example",
+   "value": "Dividing 500 by 4 gives 125",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Written layout",
+   "value": "English-speaking countries use a bracket tableau, nicknamed a bus stop",
+   "cites": [
+    18,
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You start dividing 500 by 4 by hand and begin with only the 5. Why not the whole number or the first two digits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The 5 is the biggest digit, so it must go first"
+    },
+    {
+     "id": "b",
+     "label": "Four cannot divide 50, so the next digit is skipped"
+    },
+    {
+     "id": "c",
+     "label": "Hand division always starts with a single digit"
+    },
+    {
+     "id": "d",
+     "label": "The 5 is the shortest left-hand stretch of digits that 4 goes into at least once"
+    }
+   ],
+   "answer": "d",
+   "explain": "You look for the shortest sequence of digits from the left that the divisor goes into at least once. Here that is just the first digit, 5.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division:q1"
+  },
+  {
+   "prompt": "In dividing 500 by 4, the 5 gets used up and 1 is left over. What happens with the next digit, 0?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is placed beside the leftover 1 to make 10, which is worked on next"
+    },
+    {
+     "id": "b",
+     "label": "It is added to the 1, giving a total of 1 and starting over"
+    },
+    {
+     "id": "c",
+     "label": "It is put into the quotient immediately as a 0"
+    },
+    {
+     "id": "d",
+     "label": "It is set aside until every other digit has been used"
+    }
+   ],
+   "answer": "a",
+   "explain": "The next unused digit is copied next to the remainder 1 to form 10, and the process repeats on that number.",
+   "cites": [
+    25,
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division:q2"
+  },
+  {
+   "prompt": "You must divide a large number by a one-digit number like 7 and want less writing. What do people almost always use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Long division with the bracket drawn twice"
+    },
+    {
+     "id": "b",
+     "label": "The decimal form with zeros brought down first"
+    },
+    {
+     "id": "c",
+     "label": "Short division, the abbreviated form of long division"
+    },
+    {
+     "id": "d",
+     "label": "Dividing by 7 using the Danda method"
+    }
+   ],
+   "answer": "c",
+   "explain": "Short division is the abbreviated form of long division, and it is almost always used when the divisor has only one digit.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division:q3"
+  },
+  {
+   "prompt": "Dividing by hand, you reach a step where the digits so far are worth 7 and the divisor is 3. What is written and what happens next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Write 2.33 in the quotient and finish at once"
+    },
+    {
+     "id": "b",
+     "label": "Write 2 in the quotient; the leftover 1 is carried forward"
+    },
+    {
+     "id": "c",
+     "label": "Write 3 in the quotient, rounding up, with a leftover of 2"
+    },
+    {
+     "id": "d",
+     "label": "Write 2 in the quotient and discard the leftover 1"
+    }
+   ],
+   "answer": "b",
+   "explain": "The quotient at each step is rounded down to an integer, and the remainder is calculated and carried forward to the next digit.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division:q4"
+  },
+  {
+   "prompt": "You divided by hand and ended with a leftover, but you want a decimal answer rather than a fraction. How do you continue?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Round the quotient to the nearest whole number"
+    },
+    {
+     "id": "b",
+     "label": "Extend the dividend with zeros after a decimal point and keep bringing them down"
+    },
+    {
+     "id": "c",
+     "label": "Start again with the divisor and dividend swapped"
+    },
+    {
+     "id": "d",
+     "label": "Multiply the leftover by the divisor and add it on"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dividend can be extended by writing it with a decimal point and zeros, and the process continues to give a decimal answer.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division:q5"
+  },
+  {
+   "prompt": "A dividend begins with the digit 1 and the divisor is 4. How does the first step go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Use the first two digits, since 1 is too small"
+    },
+    {
+     "id": "b",
+     "label": "Divide the 1 by 4 and then carry on in decimals"
+    },
+    {
+     "id": "c",
+     "label": "Start from the right-most digit instead"
+    },
+    {
+     "id": "d",
+     "label": "Switch to short division for that step"
+    }
+   ],
+   "answer": "a",
+   "explain": "When the first digit is less than the divisor, the first step is performed on the first two digits.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division:q6"
+  }
+ ],
+ "source": {
+  "title": "Long division",
+  "url": "https://en.wikipedia.org/wiki/Long_division",
+  "revision": 1384029613
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Division by hand",
+    "text": "Long division is the standard way to divide numbers with many digits using only pencil and paper. It turns one hard division into a chain of easy steps, so even very large numbers can be handled. The number being divided is the dividend, the number you divide by is the divisor, and the answer is the quotient. When the divisor has a single digit, people nearly always use a shorter form called short division.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "The basic loop",
+    "text": "First, divide the divisor into the left-most digit of the dividend. The whole-number part of that answer becomes the first digit of the result, and a subtraction gives what is left over. That leftover is carried along: you bring down the next digit of the dividend beside it and repeat. The work ends when every digit has been used and nothing is left over.",
+    "cites": [
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Dividing 500 by 4",
+    "text": "Four goes into 5 once, so write 1 above the 5, multiply 1 by 4, and subtract to leave 1. Bring down the next 0 to make 10. Four goes into 10 twice, giving 8, and 10 minus 8 leaves 2. Bring down the last 0 to make 20, and 4 goes into 20 five times with nothing left. The quotient reads 125.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Remainders and decimals",
+    "text": "If something is left at the end, you can write the answer as the quotient plus a fraction: the remainder over the divisor. Or you can keep going by writing the dividend as 500.000 and bringing down zeros past the units digit, with the decimal point in the answer placed right above the one in the dividend. Steps that would only give a leading zero can be skipped. If the first digit is 1 and the divisor is 4, you start with the first two digits, 12; with a divisor of 13, you would start with 127.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "The bus stop",
+    "text": "In English-speaking countries, long division is not written with ∕ or ÷. Instead it is set out as a table: a right parenthesis or vertical bar separates the divisor from the dividend, and a bar drawn over the dividend separates it from the quotient. Together these marks are sometimes called the division bracket, or even the bus stop. The layout grew in the 18th century out of an older one-line notation.",
+    "cites": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Where it came from",
+    "text": "Related methods go back to the 12th century. Al-Samawal al-Maghribi worked with decimal numbers in ways that need long division, though he never set out the procedure. The earliest printed example comes from Caldrini in 1491, where it was called the Danda method. The exact procedure taught today was introduced by Henry Briggs around 1600.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "In classrooms today",
+    "text": "Cheap calculators and computers now do most division at school and at work. In North America, long division has been played down or partly dropped as part of reform mathematics, which stresses understanding and technology. Countries such as Japan and Germany still teach and practise it in primary school.",
+    "cites": [
+     10,
+     13,
+     14,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-dividing-polynomials",
+   "kind": "book",
+   "title": "5.4 Dividing Polynomials - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/5-4-dividing-polynomials",
+   "note": "A free textbook section that works through long division of polynomials step by step, with examples and exercises.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

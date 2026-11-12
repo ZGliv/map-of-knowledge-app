@@ -1,0 +1,336 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system",
+ "name": "Tsunami warning system",
+ "summary": [
+  {
+   "text": "A tsunami warning system detects tsunamis in advance and sends timely alarms so coastal areas can be evacuated.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It pairs a sensor network with communications; earthquake alerts start the warnings, then tide gauges or DART buoys check whether a tsunami really exists.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "It works because seismic waves travel about 4 km/s while tsunamis move 500 to 1,000 km/h, though the poorly understood link between quakes and tsunamis limits reliability.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First attempt",
+   "value": "A rudimentary system in Hawaii, 1920s",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Pacific centre founded",
+   "value": "PTWC in 1949, after the 1946 Aleutian tsunami",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Local warning speed",
+   "value": "Public sirens in under 15 minutes",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Japan, 2011",
+   "value": "Warning issued within 3 minutes",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Indonesia gap",
+   "value": "Out of service in 2012 as buoys failed",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An undersea earthquake strikes far across the ocean. Why is there time to warn your coast before the tsunami arrives?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tsunamis wait for the next high tide to move"
+    },
+    {
+     "id": "b",
+     "label": "Seismic waves reach sensors far faster than the tsunami travels"
+    },
+    {
+     "id": "c",
+     "label": "Tsunamis only begin forming hours after the quake"
+    },
+    {
+     "id": "d",
+     "label": "Satellites can photograph the wave as it rises"
+    }
+   ],
+   "answer": "b",
+   "explain": "Seismic waves move about 4 km/s, much faster than a tsunami, so quakes are detected almost at once and forecasts can be made.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system:q1"
+  },
+  {
+   "prompt": "A seismic alert has gone out after an undersea quake. What is then used to confirm a tsunami actually formed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Reports from fishing boats out at sea"
+    },
+    {
+     "id": "b",
+     "label": "Weather radar scans of the coast"
+    },
+    {
+     "id": "c",
+     "label": "A second, larger earthquake reading"
+    },
+    {
+     "id": "d",
+     "label": "Sea level readings from tide gauges or buoys"
+    }
+   ],
+   "answer": "d",
+   "explain": "Observed sea level heights from shore tide gauges or DART buoys verify whether a tsunami exists.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system:q2"
+  },
+  {
+   "prompt": "Local warning centres sometimes sound false alarms. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They can't quickly tell if the seabed shifted enough to make waves"
+    },
+    {
+     "id": "b",
+     "label": "Their sirens are set off by ordinary storm waves"
+    },
+    {
+     "id": "c",
+     "label": "They wait for buoy data, which is often wrong"
+    },
+    {
+     "id": "d",
+     "label": "They cannot calculate where the quake struck"
+    }
+   ],
+   "answer": "a",
+   "explain": "The quake's epicentre and magnitude are found fast, but whether underwater ground shifts will make tsunami waves is almost always impossible to know.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system:q3"
+  },
+  {
+   "prompt": "After its detection buoys stopped working in 2012, Indonesia's prediction relied on seismic data alone. What blind spot did this leave?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It could no longer detect large earthquakes"
+    },
+    {
+     "id": "b",
+     "label": "It could only warn coasts far from Indonesia"
+    },
+    {
+     "id": "c",
+     "label": "No way to predict tsunamis caused by volcanoes"
+    },
+    {
+     "id": "d",
+     "label": "It could only issue warnings during daylight"
+    }
+   ],
+   "answer": "c",
+   "explain": "With only seismic detection, there was no system for volcano-caused tsunamis, like the one in December 2018.",
+   "cites": [
+    25,
+    26,
+    28
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system:q4"
+  },
+  {
+   "prompt": "A country installs excellent tsunami sensors but no sirens, broadcasts or other way to alert people. What is the system missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Communications to issue timely alarms"
+    },
+    {
+     "id": "b",
+     "label": "More sensors placed deeper offshore"
+    },
+    {
+     "id": "c",
+     "label": "A link to the national weather radar"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since sensors are what matters"
+    }
+   ],
+   "answer": "a",
+   "explain": "A warning system has two equally important parts: sensors to detect tsunamis and communications to alert people to evacuate.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system:q5"
+  },
+  {
+   "prompt": "How fast does a tsunami travel across open water?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 5 to 10 km/h"
+    },
+    {
+     "id": "b",
+     "label": "About 50 to 100 km/h"
+    },
+    {
+     "id": "c",
+     "label": "About 500 to 1,000 km/h"
+    },
+    {
+     "id": "d",
+     "label": "About 5,000 to 10,000 km/h"
+    }
+   ],
+   "answer": "c",
+   "explain": "Tsunamis travel at 500 to 1,000 km/h in open water, still slow compared with seismic waves.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tsunamis.tsunami-warning-system:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Tsunami_evac_sign_Seaside_Oregon.JPG/960px-Tsunami_evac_sign_Seaside_Oregon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tsunami warning system",
+  "credit": "M.O. Stevens",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Tsunami_evac_sign_Seaside_Oregon.JPG"
+ },
+ "source": {
+  "title": "Tsunami warning system",
+  "url": "https://en.wikipedia.org/wiki/Tsunami_warning_system",
+  "revision": 1379598873
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Sensors and alarms",
+    "text": "A tsunami warning system detects a tsunami ahead of time and issues warnings to save lives and limit damage to property. It has two parts that matter equally: a network of sensors that spots tsunamis, and a communications network that sends out alarms quickly enough for people to evacuate the coast. Such systems come in two kinds, international and regional.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Racing the wave",
+    "text": "An earthquake alert triggers the first watches and warnings. Then sea level readings, from tide gauges on shore or from DART buoys, confirm whether a tsunami really exists. The approach works because an earthquake's seismic waves travel at about 4 km/s, so a quake is picked up almost at once, while a tsunami in open water moves at 500 to 1,000 km/h. That leaves time to make a forecast and warn threatened areas if needed. But the link between earthquakes and tsunamis is not fully understood, so the reliability of these systems is limited.",
+    "cites": [
+     4,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Lessons from the Pacific",
+    "text": "The first rough attempt at a tsunami alert was made in Hawaii in the 1920s. Better systems followed two tsunamis that devastated Hilo, Hawaii, in 1946 and 1960, the first from an Aleutian Islands earthquake and the second from the Valdivia earthquake. The Pacific Tsunami Warning Center was set up in 1949, after the 1946 tsunami caused 165 casualties in Hawaii and Alaska. Run by the US agency NOAA from Ewa Beach, Hawaii, it issues warnings for most of the Pacific, while NOAA's National Tsunami Warning Center in Palmer, Alaska, founded in 1967, covers North America.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Gaps in the Indian Ocean",
+    "text": "The 2004 Indian Ocean tsunami killed almost 250,000 people. In January 2005 a United Nations conference in Kobe, Japan, decided the UN should set up an Indian Ocean warning system, which led to a system for Indonesia and other affected areas. Indonesia's system fell out of use in 2012 when its detection buoys stopped working, leaving only seismic detection and no way to predict tsunamis caused by volcanic eruptions. Indonesia was struck by tsunamis in September and December 2018, the second caused by a volcano, and the government then installed sea level sensors to fill the gap.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Fast local warnings",
+    "text": "Regional or local centres use seismic data on nearby quakes to judge whether a local tsunami is possible. They can warn the public through loudspeakers and sirens in less than 15 minutes. The location and size of an undersea quake and the likely arrival times can be worked out fast, but it is almost always impossible to know whether the sea floor has shifted in a way that will make tsunami waves. So false alarms happen, yet they cause little disruption, because these quick warnings cover only a small area, while a real tsunami would hit much more.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Japan and India",
+    "text": "Japan runs a nationwide system that usually issues a tsunami warning minutes after an Earthquake Early Warning, if waves are expected. During the 2011 Tōhoku earthquake it issued a warning within 3 minutes at its most serious level, a major tsunami, meaning waves at least 3 m high. An improved system was unveiled on 7 March 2013. After the 2004 tsunami struck its coasts, India set up INCOIS, the Indian National Centre for Ocean Information Services, in Hyderabad, which offers tsunami warnings along with ocean forecasts and fishing zone advice.",
+    "cites": [
+     38,
+     39,
+     40,
+     41,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-detection-warning",
+   "kind": "article",
+   "title": "Detection, Warning, and Forecasting",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/tsunamis/detection-warning-and-forecasting",
+   "note": "How NOAA warning centers use seismic stations, DART buoys and tide gauges to detect tsunamis and issue alerts."
+  },
+  {
+   "id": "noaa-dart",
+   "kind": "article",
+   "title": "JetStream Max: Deep-ocean Assessment and Reporting of Tsunami",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/dart-max",
+   "note": "NOAA page on the DART buoy network that detects tsunamis in the open ocean and relays data to warning centers."
+  }
+ ]
+}

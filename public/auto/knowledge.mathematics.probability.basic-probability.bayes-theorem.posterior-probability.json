@@ -1,0 +1,312 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability",
+ "name": "Posterior probability",
+ "summary": [
+  {
+   "text": "A posterior probability is a conditional probability found by updating a prior probability with the evidence, using Bayes' rule.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is proportional to the product Likelihood · Prior probability.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "text": "Once new information arrives, the current posterior can serve as the prior in another round of Bayesian updating.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Proportional to",
+   "value": "Likelihood · Prior probability",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Reused as",
+   "value": "The prior in the next round of updating",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Practical catch",
+   "value": "Generally not tractable, so it must be approximated",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Trousers example",
+   "value": "Seeing trousers gives a 25% chance the student is a girl",
+   "cites": [
+    28,
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A school has 60% boys and 40% girls. All boys wear trousers, and girls wear trousers or skirts in equal numbers. You glimpse a random student in trousers. How likely is it to be a girl?",
+   "options": [
+    {
+     "id": "a",
+     "label": "40%, her share of the school"
+    },
+    {
+     "id": "b",
+     "label": "50%, since girls split evenly"
+    },
+    {
+     "id": "c",
+     "label": "60%, since trousers are common"
+    },
+    {
+     "id": "d",
+     "label": "25%, a quarter of trouser wearers"
+    }
+   ],
+   "answer": "d",
+   "explain": "Among N students, boys are 0.6N and girls 0.4N, so girls among trouser wearers are (50% of 0.4N)/(0.6N + 50% of 0.4N) = 25%.",
+   "cites": [
+    11,
+    12,
+    25,
+    26,
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability:q1"
+  },
+  {
+   "prompt": "You finish one round of updating, then a second batch of data arrives. What do you use as the starting point for the new round?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The original starting assumption, unchanged"
+    },
+    {
+     "id": "b",
+     "label": "A blank assumption that treats all outcomes alike"
+    },
+    {
+     "id": "c",
+     "label": "Only the second batch of data on its own"
+    },
+    {
+     "id": "d",
+     "label": "The posterior from the first round"
+    }
+   ],
+   "answer": "d",
+   "explain": "After new information arrives, the current posterior probability may serve as the prior in another round of Bayesian updating.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability:q2"
+  },
+  {
+   "prompt": "A school is 40% girls. You glimpse a random student in trousers and your estimate that she is a girl goes down. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Trousers are more common among boys than girls here"
+    },
+    {
+     "id": "b",
+     "label": "Girls never wear trousers in this school"
+    },
+    {
+     "id": "c",
+     "label": "Seeing any student lowers every estimate"
+    },
+    {
+     "id": "d",
+     "label": "The observer simply gets tired and guesses"
+    }
+   ],
+   "answer": "a",
+   "explain": "All boys wear trousers but only half the girls do, so seeing trousers points toward a boy and the chance she is a girl falls from 40% to 25%.",
+   "cites": [
+    12,
+    17,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability:q3"
+  },
+  {
+   "prompt": "The posterior probability is proportional to the product of which two things?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The prior and the sample size"
+    },
+    {
+     "id": "b",
+     "label": "The likelihood and the prior"
+    },
+    {
+     "id": "c",
+     "label": "The mean and the variance"
+    },
+    {
+     "id": "d",
+     "label": "The evidence and its opposite"
+    }
+   ],
+   "answer": "b",
+   "explain": "The posterior probability is proportional to the product Likelihood · Prior probability.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability:q4"
+  },
+  {
+   "prompt": "The idea of a posterior distribution is simple, yet people often reach for numerical methods to get it. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It always comes out as a single whole number"
+    },
+    {
+     "id": "b",
+     "label": "It can only be found by asking an expert"
+    },
+    {
+     "id": "c",
+     "label": "It is generally not tractable, so it must be approximated"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be computed once data is observed"
+    }
+   ],
+   "answer": "c",
+   "explain": "While conceptually simple, the posterior distribution is generally not tractable, so it has to be approximated analytically or numerically.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability:q5"
+  },
+  {
+   "prompt": "You want to show how uncertain a posterior probability is. Which summary does the idea offer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A credible interval"
+    },
+    {
+     "id": "b",
+     "label": "A single guess with no range"
+    },
+    {
+     "id": "c",
+     "label": "The prior with the data removed"
+    },
+    {
+     "id": "d",
+     "label": "A count of how many data points exist"
+    }
+   ],
+   "answer": "a",
+   "explain": "Because the posterior is conditioned on random data, it helps to summarize its uncertainty, and one way is to provide a credible interval.",
+   "cites": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability:q6"
+  }
+ ],
+ "source": {
+  "title": "Posterior probability",
+  "url": "https://en.wikipedia.org/wiki/Posterior_probability",
+  "revision": 1348305026
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Belief after the evidence",
+    "text": "A posterior probability is what you get when you take a prior probability and update it with new information, using Bayes' rule. The new information is summed up in what is called the likelihood. The result is a conditional probability: a chance worked out given the evidence you now have. When still more information arrives, today's posterior can serve as the prior for another round of updating.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "The formal picture",
+    "text": "In Bayesian statistics, the posterior describes how probable each value of the parameters θ is once the evidence X is known, and it is written p (θ | X). It is the reverse of the likelihood function, which gives the chance of the evidence given the parameters, p (X | θ). The posterior is proportional to the product Likelihood · Prior probability.",
+    "cites": [
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "heading": "Everything you know so far",
+    "text": "Seen as a matter of knowledge, the posterior holds everything there is to know about an uncertain claim, such as a scientific hypothesis. That holds given what you knew beforehand and a mathematical model of the observations you have at that moment. In practice it usually describes how unsure we are about the values of some statistical parameters, given a set of observed data.",
+    "cites": [
+     2,
+     4
+    ]
+   },
+   {
+    "heading": "Girls, boys and trousers",
+    "text": "Imagine a school where 60% of students are boys and 40% are girls. Every boy wears trousers, while the girls wear trousers or skirts in equal numbers. From a distance you spot a random student and can only tell that they wear trousers. How likely is it that this is a girl? Before seeing anything, the chance of a girl is 0.4, and the chance that a girl wears trousers is 0.5. By the law of total probability, the chance that any student wears trousers is 0.8: half of the 0.4 who are girls, plus all of the 0.6 who are boys.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     17,
+     20,
+     23
+    ]
+   },
+   {
+    "heading": "Counting heads instead",
+    "text": "A more intuitive route is to picture N students: 0.6N boys and 0.4N girls. The trouser wearers are all 0.6N boys plus half of the 0.4N girls, and the girls among them are that half of 0.4N. Work out the share and girls make up 25% of everyone in trousers. So the chance that the student you saw is a girl is 25%, and any Bayes-theorem problem can be worked through in this counting way.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Summing it up in practice",
+    "text": "From a posterior distribution you can draw single best guesses and ranges, such as the maximum a posteriori (MAP) estimate or the highest posterior density interval (HPDI). Although the idea is simple, the posterior usually cannot be worked out exactly, so it has to be approximated, either by analysis or by numerical methods. Because it depends on data that came out at random, the posterior is itself a random quantity. A common way to show how uncertain it is, is to give a credible interval.",
+    "cites": [
+     5,
+     6,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Posteriors in classification",
+    "text": "When sorting observations into classes, posterior probabilities express how uncertain it is that an observation belongs to a given class. Statistical classification methods produce them by definition. Machine learning tools often give membership scores instead, which carry no probabilistic confidence. Converting such scores into class-membership probabilities is useful, because the probabilities can be compared and are easier to use in later steps.",
+    "cites": [
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ }
+}

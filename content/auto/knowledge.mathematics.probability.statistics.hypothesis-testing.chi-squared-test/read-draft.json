@@ -1,0 +1,68 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What it is",
+   "text": "A chi-squared test, also written χ² test, is a hypothesis test used to analyse contingency tables when the samples are large. Its main job is to check whether two categorical variables, the two dimensions of such a table, are independent. When the samples are smaller, Fisher's exact test is used in its place.",
+   "cites": [
+    1,
+    2,
+    5
+   ]
+  },
+  {
+   "heading": "Observed against expected",
+   "text": "One version, Pearson's chi-squared test, asks whether the frequencies you observe differ significantly from the frequencies you would expect, in one or more categories of the table. The observations are sorted into classes that do not overlap. If the null hypothesis holds, meaning the classes do not differ in the population, the statistic follows a χ² distribution. The whole aim is to judge how likely the observed frequencies would be if that null hypothesis were true.",
+   "cites": [
+    3,
+    4,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "heading": "An approximation with a fix",
+   "text": "In many cases the statistic only approaches the χ² distribution, getting closer and closer as sample sizes grow. Reading a table of counts with the continuous χ² distribution rests on an assumption that is not quite correct and brings in some error. To shrink that error in 2 × 2 tables, Frank Yates proposed a correction for continuity: take 0.5 off the size of the gap between every observed count and its expected count. This lowers the chi-squared value and so raises its p-value.",
+   "cites": [
+    11,
+    25,
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "heading": "How it began",
+   "text": "In the 19th century, statistical methods were used mainly on biological data, and researchers customarily assumed their observations followed a normal distribution. Near the end of that century, Karl Pearson noticed significant skewness in some biological observations. In 1900 he published a paper on the χ² test, studying a test of goodness of fit, and that paper is seen as one of the foundations of modern statistics. One of his conclusions about an approximation stirred controversy that was not settled until Fisher's papers of 1922 and 1924.",
+   "cites": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    20
+   ]
+  },
+  {
+   "heading": "Checking a factory's variance",
+   "text": "The χ² distribution can also test the variance of a normally distributed population. Picture a manufacturing process that has run steadily for a long time, so its variance is known almost without error. A new variant of the process is tried, giving a small sample of n items. The test statistic T squares each item's deviation from the sample mean, adds these up, and divides by the variance being tested, and T then follows the chi-squared distribution having n − 1 degrees of freedom. With a sample of 21, the acceptance region for T at a 5% significance level runs from 9.59 to 34.17.",
+   "cites": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "heading": "Codes and genes",
+   "text": "The test turns up far from the classroom. Code breakers use it to compare the distribution of plaintext with that of ciphertext that may have been decrypted, and the lowest value of the test signals that decryption very probably worked. In bioinformatics it compares properties of genes, such as mutation rate, across categories like disease genes and essential genes.",
+   "cites": [
+    42,
+    43,
+    45
+   ]
+  }
+ ]
+}

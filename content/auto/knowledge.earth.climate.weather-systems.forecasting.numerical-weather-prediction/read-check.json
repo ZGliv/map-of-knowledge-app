@@ -1,0 +1,30 @@
+{
+ "readHash": "1033f98c23fdff1623ad62a0eaafedb84236dfa4",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "models fed current conditions, sampling state then applying fluid dynamics and thermodynamics, and initialization all in [1],[33],[34]"
+  },
+  "r1": {
+   "supported": true,
+   "why": "inputs from radiosondes and satellites, radiosonde description, WMO standardization, assimilation of irregular data as starting point all in [3],[36]-[38],[40],[41]"
+  },
+  "r2": {
+   "supported": false,
+   "why": "'Even with perfect data' overstates [12], which says 'accurate input data'; perfect is a stronger qualifier than the source gives"
+  },
+  "r3": {
+   "supported": true,
+   "why": "parameterizations, MOS from 1970s-80s for near-surface detail, and 1990s ensembles of one or several models all in [13]-[15],[30],[31]"
+  },
+  "r4": {
+   "supported": true,
+   "why": "Richardson/Bjerknes six-hour hand forecast over six weeks, ENIAC 1950, Rossby group 1954 operational, US JNWPU 1955 all in [16],[18]-[21]"
+  },
+  "r5": {
+   "supported": true,
+   "why": "same physics for forecasts and climate, Phillips 1956 first successful climate model, GFDL late-1960s coupled model all in [4],[22],[24]"
+  }
+ }
+}

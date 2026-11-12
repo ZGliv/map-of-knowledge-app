@@ -1,0 +1,570 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electromagnetic-induction",
+ "name": "Electromagnetic induction",
+ "summary": [
+  {
+   "text": "Electromagnetic induction is the creation of a voltage across a conductor when the magnetic field around it changes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Michael Faraday is credited with finding it in 1831, and Lenz's law gives the direction of the induced current.",
+   "cites": [
+    2,
+    21
+   ]
+  },
+  {
+   "text": "It powers inductors, transformers, electric motors and generators.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discovered by",
+   "value": "Michael Faraday in 1831; Joseph Henry independently in 1832",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Faraday's first test",
+   "value": "Two wires wrapped on opposite sides of an iron ring",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Lenz's law, 1834",
+   "value": "Gives the direction of the induced emf and current",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "Generator principle",
+   "value": "Moving a magnet past a conductor creates an emf",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Einstein's link",
+   "value": "Induction was a path toward his special relativity",
+   "cites": [
+    29,
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You rest a magnet motionless next to a wire loop and see no current. Then you push it in quickly and the meter jumps. What matters?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The magnet's mass"
+    },
+    {
+     "id": "b",
+     "label": "A change in the magnetic flux"
+    },
+    {
+     "id": "c",
+     "label": "The wire's colour"
+    },
+    {
+     "id": "d",
+     "label": "The magnet's temperature"
+    }
+   ],
+   "answer": "b",
+   "explain": "Induction comes from a changing magnetic flux, not from a static field.",
+   "cites": [
+    1,
+    12,
+    14
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction:q1"
+  },
+  {
+   "prompt": "Faraday connected a battery to one coil on an iron ring and watched a meter on the other coil. When did the meter move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only while the current flowed steadily"
+    },
+    {
+     "id": "b",
+     "label": "Only if the ring was removed"
+    },
+    {
+     "id": "c",
+     "label": "When the battery was connected and again when disconnected"
+    },
+    {
+     "id": "d",
+     "label": "Never, because the coils were not touching"
+    }
+   ],
+   "answer": "c",
+   "explain": "He saw a brief current at connection and another at disconnection, because the flux changed only at those moments.",
+   "cites": [
+    10,
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction:q2"
+  },
+  {
+   "prompt": "A coil is moved toward a still magnet, then the magnet is moved toward a still coil. How do the two situations compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are the same relative movement, with the same outcome"
+    },
+    {
+     "id": "b",
+     "label": "Only moving the coil can ever make a current"
+    },
+    {
+     "id": "c",
+     "label": "Only moving the magnet can ever make a current"
+    },
+    {
+     "id": "d",
+     "label": "Neither works unless both of them are moving"
+    }
+   ],
+   "answer": "a",
+   "explain": "Einstein noticed that both situations are a relative movement between conductor and magnet, and the outcome does not depend on which one moves.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction:q3"
+  },
+  {
+   "prompt": "What does Lenz's law tell you about an induced current?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How large it will be in amps"
+    },
+    {
+     "id": "b",
+     "label": "How long it will last in seconds"
+    },
+    {
+     "id": "c",
+     "label": "Which metal the wire must be made from"
+    },
+    {
+     "id": "d",
+     "label": "Which direction it flows through the circuit"
+    }
+   ],
+   "answer": "d",
+   "explain": "Lenz's law gives the direction of the induced emf and current resulting from electromagnetic induction.",
+   "cites": [
+    3,
+    21
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction:q4"
+  },
+  {
+   "prompt": "Why can an electric generator turn a spinning shaft into usable power?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Motion of wire past a magnet creates an emf"
+    },
+    {
+     "id": "b",
+     "label": "Spinning heats the wire until it glows hot"
+    },
+    {
+     "id": "c",
+     "label": "Spinning stores static charge in the metal"
+    },
+    {
+     "id": "d",
+     "label": "Spinning makes the magnet stronger each turn"
+    }
+   ],
+   "answer": "a",
+   "explain": "Relative movement of a circuit and a magnetic field creates an emf; connected to a load, it converts mechanical energy to electrical energy.",
+   "cites": [
+    31,
+    32,
+    33
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction:q5"
+  },
+  {
+   "prompt": "Faraday's ideas were mostly ignored by scientists of his day. Who took them seriously?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heinrich Lenz, who used them for his law"
+    },
+    {
+     "id": "b",
+     "label": "Albert Einstein, who wrote them as equations"
+    },
+    {
+     "id": "c",
+     "label": "Joseph Henry, who rejected them in 1832"
+    },
+    {
+     "id": "d",
+     "label": "James Clerk Maxwell, who built his theory on them"
+    }
+   ],
+   "answer": "d",
+   "explain": "Scientists rejected the lines-of-force ideas because they lacked mathematics, except Maxwell, who used them as the basis for a quantitative theory.",
+   "cites": [
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Electromagnetic induction",
+  "credit": "Ponor",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif"
+ },
+ "source": {
+  "title": "Electromagnetic induction",
+  "url": "https://en.wikipedia.org/wiki/Electromagnetic_induction",
+  "revision": 1383967760
+ },
+ "pack": {
+  "id": "auto-electromagnetism-electromagnetic-induction",
+  "title": "Magnets That Make Current",
+  "question": "How can a moving magnet make electricity flow?",
+  "path": [
+   "Science",
+   "Physics",
+   "Electromagnetism",
+   "Electromagnetic induction"
+  ],
+  "hue": 191,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Electromagnetic induction",
+    "credit": "Ponor · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Magnets That Make Current",
+    "hook": "Faraday found that a still magnet does nothing, but a moving one lights up a wire."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-electromagnetism-electromagnetic-induction:1",
+    "transfer": false,
+    "prompt": "A bar magnet sits perfectly still inside a coil of wire attached to a meter. What does the meter show?",
+    "explain": "Faraday's early tests showed that a static magnetic field produces no current; the field has to change.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "A big current that fades slowly",
+        "feedback": "Nothing flows at all without a change in flux."
+       },
+       {
+        "id": "c",
+        "label": "No current at all"
+       },
+       {
+        "id": "a",
+        "label": "A steady current, because the magnet is close",
+        "feedback": "Closeness alone does nothing; a static magnet near a loop produced no current."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-electromagnetism-electromagnetic-induction:2",
+    "transfer": false,
+    "prompt": "put Faraday's first demonstration in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "Wrap two wires around opposite sides of an iron ring"
+     },
+     {
+      "id": "b",
+      "label": "Plug one wire into a galvanometer"
+     },
+     {
+      "id": "c",
+      "label": "Connect the other wire to a battery"
+     },
+     {
+      "id": "d",
+      "label": "See a brief current on the meter"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "first",
+     "last"
+    ],
+    "explain": "He set up the ring, connected the meter, switched on the battery, and saw a transient current."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-electromagnetism-electromagnetic-induction:3",
+    "transfer": true,
+    "prompt": "match each name to what they did",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Faraday"
+     },
+     {
+      "id": "l1",
+      "label": "Lenz"
+     },
+     {
+      "id": "l2",
+      "label": "Maxwell"
+     },
+     {
+      "id": "l3",
+      "label": "Henry"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Gave it a mathematical form"
+     },
+     {
+      "id": "r0",
+      "label": "Discovered induction in 1831"
+     },
+     {
+      "id": "r1",
+      "label": "Gave the direction rule in 1834"
+     },
+     {
+      "id": "r3",
+      "label": "Found it independently in 1832"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Faraday found it, Henry independently, Lenz gave direction and Maxwell the mathematics."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-electromagnetism-electromagnetic-induction:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A copper disc is rotated in a magnetic field, and a current flows in its arm."
+     },
+     {
+      "id": "b",
+      "text": "That current flows through the rim and makes the rim an electromagnet."
+     },
+     {
+      "id": "c",
+      "text": "The rim's magnet resists the rotation of the disc."
+     },
+     {
+      "id": "d",
+      "text": "So the electrical energy comes free, with no mechanical work needed."
+     }
+    ],
+    "answer": "d",
+    "explain": "Mechanical work is needed to drive the current, and the energy to keep the disc moving equals the electrical energy generated, plus losses."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A changing magnetic flux induces a voltage, and the electrical energy it yields is paid for by mechanical energy.",
+    "connections": [
+     {
+      "title": "Faraday's law of induction",
+      "place": "Electromagnetic induction",
+      "node": "knowledge.science.physics.electromagnetism.electromagnetic-induction.faraday-s-law-of-induction"
+     },
+     {
+      "title": "Lenz's law",
+      "place": "Electromagnetic induction",
+      "node": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law"
+     },
+     {
+      "title": "Electric generator",
+      "place": "Electromagnetic induction",
+      "node": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator"
+     },
+     {
+      "title": "Transformer",
+      "place": "Electromagnetic induction",
+      "node": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Faraday's early tests showed that a static magnetic field produces no current; the field has to change.",
+    "source": "Wikipedia sentences 12, 14"
+   },
+   {
+    "claim": "He set up the ring, connected the meter, switched on the battery, and saw a transient current.",
+    "source": "Wikipedia sentences 8, 10, 11"
+   },
+   {
+    "claim": "Faraday found it, Henry independently, Lenz gave direction and Maxwell the mathematics.",
+    "source": "Wikipedia sentences 2, 6, 7, 20"
+   },
+   {
+    "claim": "Mechanical work is needed to drive the current, and the energy to keep the disc moving equals the electrical energy generated, plus losses.",
+    "source": "Wikipedia sentences 36, 37, 38, 39, 44"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Electromagnetic induction happens when the magnetic field around a conductor, such as a wire, is changing. That change sets up an electromotive force, or emf, across the conductor. If the wire is joined to an electrical load, a current flows.",
+    "cites": [
+     1,
+     33
+    ]
+   },
+   {
+    "heading": "Who found it",
+    "text": "Michael Faraday is usually given the credit, and he published the discovery in 1831. Joseph Henry found the same effect on his own in 1832. James Clerk Maxwell later described it with mathematics, and the result became known as Faraday's law of induction.",
+    "cites": [
+     2,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Faraday's iron ring",
+    "text": "On August 29, 1831, Faraday wound two wires around opposite sides of an iron ring. He connected one wire to a galvanometer and watched it while he hooked the other wire up to a battery. It showed a short burst of current, which he called a \"wave of electricity\", at the moment of connection and another at the moment of disconnection. What mattered was the change in magnetic flux at those two moments.",
+    "cites": [
+     8,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "More ways to make a current",
+    "text": "Within two months Faraday had found other forms of induction. Pushing a bar magnet quickly into and out of a coil of wire gave brief currents. Spinning a copper disk near the magnet, with a sliding contact, gave a steady direct current; this became known as Faraday's disk. He explained it all with an idea he called lines of force, which most scientists of his day rejected, mainly because it had no mathematics. Maxwell was the exception and built his quantitative theory on it.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Flux and direction",
+    "text": "Faraday's law is built on magnetic flux through the area enclosed by a loop of wire. You can picture flux as the number of magnetic field lines passing through the loop. In 1834 Heinrich Lenz stated a law that gives the direction of the induced emf and current. Faraday's law was later widened into the Maxwell–Faraday equation, which is one of Maxwell's four equations of electromagnetism.",
+    "cites": [
+     4,
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "One law, two effects",
+    "text": "Faraday's law covers two different effects. Motional emf comes from a magnetic force on a wire that is moving, while transformer emf comes from an electric force set up by a changing magnetic field. This is thought to be a unique case of one basic law explaining two such different things. Albert Einstein noticed that both cases are a conductor and a magnet moving relative to each other, and the outcome is the same whichever one moves. That idea was one of the main paths that led him to special relativity.",
+    "cites": [
+     26,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Generators and their cost",
+    "text": "Relative motion between a circuit and a magnetic field is what makes electrical generators work. Moving a magnet past a conductor, or the other way round, creates an emf, and with a load attached, the energy of motion becomes electrical energy. In Faraday's disk, the current turns the rim into an electromagnet that resists the spinning, which is an example of Lenz's law. The energy needed to keep the disk turning equals the electrical energy produced, plus losses such as friction and heating, and the same is true of all generators.",
+    "cites": [
+     31,
+     32,
+     33,
+     35,
+     36,
+     38,
+     39,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Where it is used",
+    "text": "Induction has many uses. Inductors and transformers depend on it, and so do electric motors and generators.",
+    "cites": [
+     5
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "tatum-em-induction",
+   "kind": "book",
+   "title": "10: Electromagnetic Induction - Electricity and Magnetism (Tatum)",
+   "by": "Jeremy Tatum",
+   "url": "https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/10%3A_Electromagnetic_Induction",
+   "note": "A free textbook chapter on electromagnetic induction.",
+   "license": "CC BY-NC 4.0"
+  },
+  {
+   "id": "crash-course-induction",
+   "kind": "video",
+   "title": "Induction - An Introduction: Crash Course Physics #34",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=pQp6bmJPU_0",
+   "note": "A Crash Course Physics introduction to electromagnetic induction."
+  }
+ ]
+}

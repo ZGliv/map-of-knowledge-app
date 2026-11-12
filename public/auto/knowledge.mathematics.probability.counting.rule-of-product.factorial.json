@@ -1,0 +1,339 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.rule-of-product.factorial",
+ "name": "Factorial",
+ "summary": [
+  {
+   "text": "A factorial, written n!, counts the distinct sequences, called permutations, of n distinct objects.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "Arranging n distinct objects into a sequence can be done in n factorial ways, and the factorial of zero is defined to be 1.",
+   "cites": [
+    2,
+    41
+   ]
+  },
+  {
+   "text": "Factorials appear in ancient Indian and Jewish writings, and Christian Kramp introduced the exclamation-mark notation in 1808.",
+   "cites": [
+    3,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Zero case",
+   "value": "0! equals 1, by the empty-product convention",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Notation",
+   "value": "Christian Kramp introduced n! in 1808",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Growth",
+   "value": "Factorials grow more quickly than exponential growth",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Pacioli's table",
+   "value": "In 1494 he calculated factorials up to 11!",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Bell ringing",
+   "value": "Fabian Stedman applied factorials to change ringing in 1677",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A librarian wants to know how many different orders five different books can take on a shelf. Which number gives that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5 × 5, since any book can go in any spot"
+    },
+    {
+     "id": "b",
+     "label": "5, one for each book"
+    },
+    {
+     "id": "c",
+     "label": "5!, the factorial of 5"
+    },
+    {
+     "id": "d",
+     "label": "5 + 5, one for each end of the shelf"
+    }
+   ],
+   "answer": "c",
+   "explain": "The factorial n! counts the ways of arranging n distinct objects into a sequence.",
+   "cites": [
+    4,
+    41
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.factorial:q1"
+  },
+  {
+   "prompt": "A shelf holds no books at all. How many ways are there to arrange the books on it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero ways, since there is nothing to arrange"
+    },
+    {
+     "id": "b",
+     "label": "Exactly one way, doing nothing"
+    },
+    {
+     "id": "c",
+     "label": "Two ways, empty or not empty"
+    },
+    {
+     "id": "d",
+     "label": "No answer, because it makes no sense"
+    }
+   ],
+   "answer": "b",
+   "explain": "With nothing to permute, the only rearrangement is to do nothing, so there is exactly one permutation of zero objects, matching 0! = 1.",
+   "cites": [
+    2,
+    36
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.factorial:q2"
+  },
+  {
+   "prompt": "You choose 2 friends out of 5 for a team and the order of choosing does not matter. Why do factorials appear in the formula for such counts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They account for different orderings of the objects"
+    },
+    {
+     "id": "b",
+     "label": "They make the numbers in the formula smaller"
+    },
+    {
+     "id": "c",
+     "label": "They count only the even numbered friends"
+    },
+    {
+     "id": "d",
+     "label": "They are needed only when a group has five members"
+    }
+   ],
+   "answer": "a",
+   "explain": "Factorials appear broadly in combinatorics to account for different orderings of objects.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.factorial:q3"
+  },
+  {
+   "prompt": "Why is the factorial called by that name?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it was invented to factor large numbers"
+    },
+    {
+     "id": "b",
+     "label": "Because it is only defined for prime numbers"
+    },
+    {
+     "id": "c",
+     "label": "Because it factors an exponential into smaller powers"
+    },
+    {
+     "id": "d",
+     "label": "Because the terms of its product formula are its factors"
+    }
+   ],
+   "answer": "d",
+   "explain": "The word refers to the terms of the product formula for the factorial, which are its factors.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.factorial:q4"
+  },
+  {
+   "prompt": "A church team has several tuned bells and wants to ring them in every possible order without repeating one. Which tool counts those orders?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A binomial coefficient, which counts subsets"
+    },
+    {
+     "id": "b",
+     "label": "A factorial, which counts orderings"
+    },
+    {
+     "id": "c",
+     "label": "A power series for the exponential function"
+    },
+    {
+     "id": "d",
+     "label": "A prime factorization of the number of bells"
+    }
+   ],
+   "answer": "b",
+   "explain": "Factorials count the ways to order distinct objects, and Fabian Stedman applied them to change ringing, the ringing of several tuned bells.",
+   "cites": [
+    22,
+    41
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.factorial:q5"
+  },
+  {
+   "prompt": "A programmer computes factorials by repeating the rule that n! is n times the factorial of the number just below it. Why does defining 0! as 1 help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every answer an even number"
+    },
+    {
+     "id": "b",
+     "label": "It lets the rule stop at one and avoid zero"
+    },
+    {
+     "id": "c",
+     "label": "Only zero is needed as a starting value, with no special cases"
+    },
+    {
+     "id": "d",
+     "label": "It makes factorials of large numbers faster to compute"
+    }
+   ],
+   "answer": "c",
+   "explain": "With 0! = 1 the recurrence stays valid at 1, so a recursive computation needs only the value at zero as its base case.",
+   "cites": [
+    33,
+    38,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.factorial:q6"
+  }
+ ],
+ "source": {
+  "title": "Factorial",
+  "url": "https://en.wikipedia.org/wiki/Factorial",
+  "revision": 1382435367
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Multiplying down to one",
+    "text": "The factorial of a whole number n is written with an exclamation mark, as n!, and it is what you get when you multiply together every positive whole number from 1 up to n. Each value can also be found from the one before it, using the rule n! = n⋅(n − 1)!, so that 5! = 5⋅4! = 5⋅24 = 120. The numbers being multiplied are the factors that give the factorial its name.",
+    "cites": [
+     1,
+     31,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Counting arrangements",
+    "text": "The most basic job of the factorial is counting permutations, the different orders in which n distinct objects can be lined up. The number of such orders is exactly n!, no more and no fewer. This was also the earliest use of factorials, and they turn up across combinatorics wherever a formula has to account for objects being put in different orders. A related count is of derangements, orders in which no object stays in its starting place; for n items their number is the whole number closest to n!/e.",
+    "cites": [
+     4,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Why zero factorial is one",
+    "text": "By convention the factorial of zero equals 1. The reason is that it is a product of no numbers at all, and such an empty product is taken to equal 1. It also fits counting: there is exactly one way to arrange zero objects, which is to do nothing. With this choice, the rule n! = n⋅(n − 1)! still works when n is 1, so a computer program that finds factorials step by step needs only zero as its starting case.",
+    "cites": [
+     2,
+     35,
+     36,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "An old idea in many places",
+    "text": "Factorials were found in several ancient cultures. In India, an early account appears in the Anuyogadvāra-sūtra, a Jain text dated anywhere from 300 BCE to 400 CE. The Hebrew book Sefer Yetzirah, from the Talmudic period, lists factorials up to 7! as part of asking how many words can be built from the Hebrew alphabet. In 1150, Bhāskara II used them to count the ways the god Vishnu could hold four objects in his four hands.",
+    "cites": [
+     3,
+     13,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "From bells to an exclamation mark",
+    "text": "Western mathematicians took up factorials from the late 15th century. In 1494 Luca Pacioli worked them out up to 11! in a problem about seating people at a dining table. In 1677 Fabian Stedman applied them to change ringing, the musical art of ringing a set of tuned bells. The notation n! came from the French mathematician Christian Kramp in 1808.",
+    "cites": [
+     22,
+     23,
+     24,
+     28
+    ]
+   },
+   {
+    "heading": "Fast growth and prime numbers",
+    "text": "Factorials get large very fast, faster than exponential growth, and Stirling's approximation gives an accurate estimate of their size for large numbers. They also carry a link to prime numbers, since n! can be divided by every positive whole number up to n. From this it follows that the prime factors of n! ± 1 can be arbitrarily large, which leads to a proof that there are infinitely many primes.",
+    "cites": [
+     7,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-2",
+   "kind": "book",
+   "title": "7.2 Permutations",
+   "by": "OpenStax, Contemporary Mathematics",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-2-permutations",
+   "note": "A free textbook section introducing factorial notation, 0! = 1, and using factorials to count permutations.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-factorial",
+   "kind": "article",
+   "title": "Factorial",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Factorial.html",
+   "note": "A reference entry on factorials: notation, the gamma function, trailing zeros, prime factors and open problems."
+  },
+  {
+   "id": "numberphile-zero-factorial",
+   "kind": "video",
+   "title": "Zero Factorial",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=Mfk_L4Nx2ZI",
+   "note": "A Numberphile video with James Grime on why zero factorial is defined to be 1."
+  },
+  {
+   "id": "numberphile-big-factorials",
+   "kind": "video",
+   "title": "Big Factorials",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=6ofIBoWGc7k",
+   "note": "A Numberphile video with Ken McLaughlin on how quickly factorials grow and how to estimate huge ones."
+  }
+ ]
+}

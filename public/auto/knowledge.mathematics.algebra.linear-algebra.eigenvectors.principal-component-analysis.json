@@ -1,0 +1,506 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis",
+ "name": "Principal component analysis",
+ "summary": [
+  {
+   "text": "Principal component analysis is a linear technique that transforms data so the directions capturing the largest variation can be easily identified.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The first principal component explains the most variance, and each next one explains the most of what is left once earlier ones are removed.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "The components are eigenvectors of the data's covariance matrix, so they are computed by eigendecomposition or singular value decomposition.",
+   "cites": [
+    14,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Inventor",
+   "value": "Karl Pearson in 1901; Hotelling developed and named it in the 1930s",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Best used when",
+   "value": "Many variables are highly correlated with each other",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Where it appears",
+   "value": "Population genetics, microbiome studies and atmospheric science",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Variance share",
+   "value": "An eigenvalue divided by the sum of all eigenvalues",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Plotting habit",
+   "value": "The first two components often plot data in two dimensions",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A spreadsheet has dozens of columns that mostly rise and fall together. Is principal component analysis a good fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it needs columns that are unrelated"
+    },
+    {
+     "id": "b",
+     "label": "No, it only works on two columns"
+    },
+    {
+     "id": "c",
+     "label": "Yes, it suits many highly correlated variables"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if the columns are identical"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is most commonly used when many variables are highly correlated and one wants fewer, independent ones.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis:q1"
+  },
+  {
+   "prompt": "Which direction does the first principal component point along?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one where the projected data varies the most"
+    },
+    {
+     "id": "b",
+     "label": "The one where the projected data varies the least"
+    },
+    {
+     "id": "c",
+     "label": "The one along the first column of the data"
+    },
+    {
+     "id": "d",
+     "label": "The one that follows the average value"
+    }
+   ],
+   "answer": "a",
+   "explain": "The first component is the direction that maximizes the variance of the projected data.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis:q2"
+  },
+  {
+   "prompt": "The principal components are eigenvectors of which matrix built from the data?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The matrix of raw measurements"
+    },
+    {
+     "id": "b",
+     "label": "The covariance matrix"
+    },
+    {
+     "id": "c",
+     "label": "The identity matrix"
+    },
+    {
+     "id": "d",
+     "label": "The matrix of averages"
+    }
+   ],
+   "answer": "b",
+   "explain": "For either way of defining them, the components are eigenvectors of the data's covariance matrix.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis:q3"
+  },
+  {
+   "prompt": "A covariance matrix has eigenvalues 6, 3 and 1. What share of the total variance belongs to the eigenvector with eigenvalue 6?",
+   "options": [
+    {
+     "id": "a",
+     "label": "30 percent"
+    },
+    {
+     "id": "b",
+     "label": "6 percent"
+    },
+    {
+     "id": "c",
+     "label": "150 percent"
+    },
+    {
+     "id": "d",
+     "label": "60 percent"
+    }
+   ],
+   "answer": "d",
+   "explain": "Divide that eigenvalue by the sum of all eigenvalues: 6 out of 10.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis:q4"
+  },
+  {
+   "prompt": "A biologist has dozens of measurements per sample and wants a flat picture where related samples sit together. What helps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Plot the data on the first two principal components"
+    },
+    {
+     "id": "b",
+     "label": "Plot only the last principal component"
+    },
+    {
+     "id": "c",
+     "label": "Plot every variable against every other"
+    },
+    {
+     "id": "d",
+     "label": "Delete the samples that look different"
+    }
+   ],
+   "answer": "a",
+   "explain": "Plotting the first two principal components lets one visually identify clusters of closely related points.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis:q5"
+  },
+  {
+   "prompt": "Before looking for the axes, what must be done to each variable in the data?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Square every value"
+    },
+    {
+     "id": "b",
+     "label": "Sort the values from small to large"
+    },
+    {
+     "id": "c",
+     "label": "Rescale all values to the range of zero to one"
+    },
+    {
+     "id": "d",
+     "label": "Subtract its mean so it is centered on zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "Each variable is centered on 0 by subtracting the mean of its observed values.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/960px-GaussianScatterPCA.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Principal component analysis",
+  "credit": "Nicoguaro",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:GaussianScatterPCA.svg"
+ },
+ "source": {
+  "title": "Principal component analysis",
+  "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+  "revision": 1383885717
+ },
+ "pack": {
+  "id": "auto-eigenvectors-principal-component-analysis",
+  "title": "Finding the Data's Long Axis",
+  "question": "How can a pile of correlated numbers be squeezed into a few directions?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Linear algebra",
+   "Eigenvectors",
+   "Principal component analysis"
+  ],
+  "hue": 48,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/960px-GaussianScatterPCA.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Principal component analysis",
+    "credit": "Nicoguaro · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GaussianScatterPCA.svg",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Finding the Data's Long Axis",
+    "hook": "A cloud of points often stretches in one direction much more than another, and that stretch is the story."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-eigenvectors-principal-component-analysis:1",
+    "transfer": false,
+    "prompt": "Put the steps for finding the axes in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Center each variable on zero by subtracting its mean"
+     },
+     {
+      "id": "b",
+      "label": "Compute the covariance matrix of the data"
+     },
+     {
+      "id": "c",
+      "label": "Find the eigenvalues and eigenvectors of that matrix"
+     },
+     {
+      "id": "d",
+      "label": "Normalize each eigenvector into a unit vector"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "first",
+     "last"
+    ],
+    "explain": "Values are centered first, then the covariance matrix gives eigenvectors, which are normalized into unit vectors that serve as axes."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-eigenvectors-principal-component-analysis:2",
+    "transfer": false,
+    "prompt": "Data forms a long, thin, tilted oval cloud. Which axis of the fitted ellipsoid does the first principal component follow?",
+    "explain": "Each ellipsoid axis is a principal component; a small axis has small variance, and the first component explains the most variance.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Any axis; they explain equal amounts",
+        "feedback": "A small axis has small variance, so axes differ in what they explain."
+       },
+       {
+        "id": "a",
+        "label": "The long axis, where variance is largest"
+       },
+       {
+        "id": "b",
+        "label": "The short axis, where variance is smallest",
+        "feedback": "A small axis means small variance, and the first component explains the most variance."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-eigenvectors-principal-component-analysis:3",
+    "transfer": true,
+    "prompt": "Match each term to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "First principal component"
+     },
+     {
+      "id": "l1",
+      "label": "Second principal component"
+     },
+     {
+      "id": "l2",
+      "label": "All the components together"
+     },
+     {
+      "id": "l3",
+      "label": "Eigenvalue divided by the sum of eigenvalues"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Explains the most variance left after the first is removed"
+     },
+     {
+      "id": "r3",
+      "label": "Share of variance for that eigenvector"
+     },
+     {
+      "id": "r2",
+      "label": "An orthonormal basis with uncorrelated dimensions"
+     },
+     {
+      "id": "r0",
+      "label": "Explains the most variance"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Components are ranked by the variance they explain and together form uncorrelated directions."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-eigenvectors-principal-component-analysis:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Many of our variables are highly correlated."
+     },
+     {
+      "id": "b",
+      "text": "So we want a few independent directions that capture the variation."
+     },
+     {
+      "id": "c",
+      "text": "The principal components are eigenvectors of the data's covariance matrix."
+     },
+     {
+      "id": "d",
+      "text": "The component with the smallest eigenvalue explains the most variance, so it comes first."
+     }
+    ],
+    "answer": "d",
+    "explain": "The variance share is the eigenvalue divided by the sum of all eigenvalues, so the largest eigenvalue explains the most."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Principal components are the eigenvectors of the data's covariance matrix, ranked by how much variance each explains.",
+    "connections": []
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Values are centered first, then the covariance matrix gives eigenvectors, which are normalized into unit vectors that serve as axes.",
+    "source": "Wikipedia sentences 24, 26, 27, 28"
+   },
+   {
+    "claim": "Each ellipsoid axis is a principal component; a small axis has small variance, and the first component explains the most variance.",
+    "source": "Wikipedia sentences 9, 22, 23"
+   },
+   {
+    "claim": "Components are ranked by the variance they explain and together form uncorrelated directions.",
+    "source": "Wikipedia sentences 6, 9, 10, 30"
+   },
+   {
+    "claim": "The variance share is the eigenvalue divided by the sum of all eigenvalues, so the largest eigenvalue explains the most.",
+    "source": "Wikipedia sentences 11, 14, 30, 37"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Principal component analysis, or PCA, is a linear way of cutting down the number of dimensions in a data set. People use it to explore data, to draw it, and to prepare it for later work. PCA moves the data onto new coordinate axes, chosen so that the directions holding the most variation are easy to pick out. Those directions are called principal components.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Ranking the components",
+    "text": "The first principal component is a new variable made by mixing the original variables in a linear way, chosen to explain as much variance as possible. The second explains the most variance in what is left after the first has been taken out. Repeating this through all p variables eventually accounts for all of the variance. PCA is most often used when many variables are strongly correlated and you want a smaller, independent set in their place.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Lines that fit best",
+    "text": "Each component can also be seen as a line through the data. It is the line that fits the points best while staying at right angles to every earlier component. Here, best means that the squared perpendicular gaps between the points and the line are as small as possible on average. Equivalently, each component points in the direction that makes the variance of the projected data largest. In the basis the components form, the separate dimensions of the data are linearly uncorrelated.",
+    "cites": [
+     4,
+     5,
+     6,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Where eigenvectors come in",
+    "text": "Both views lead to the same answer: each principal component is an eigenvector of the covariance matrix of the data. In practice you first center each variable on zero by subtracting its mean from every value. You then compute the covariance matrix, find its eigenvalues and eigenvectors, and rescale each eigenvector to unit length. Dividing one eigenvector's eigenvalue by the sum of all the eigenvalues gives the share of the variance that direction carries. The components can also be found from the singular value decomposition of the data matrix.",
+    "cites": [
+     14,
+     15,
+     24,
+     26,
+     27,
+     30
+    ]
+   },
+   {
+    "heading": "An ellipsoid around the data",
+    "text": "A helpful image is a p-dimensional ellipsoid fitted to the data. Each axis of that ellipsoid is one principal component. If an axis is short, the data vary only a little along it.",
+    "cites": [
+     22,
+     23,
+     28
+    ]
+   },
+   {
+    "heading": "PCA at work",
+    "text": "Many studies plot data using only the first two principal components, which puts it in two dimensions where clusters of closely related points can be seen. PCA is used in population genetics, in microbiome studies and in atmospheric science, among other fields. Scree plots, which show how much variance is explained, and biplots help people read the results.",
+    "cites": [
+     7,
+     8,
+     31
+    ]
+   },
+   {
+    "heading": "Where it came from",
+    "text": "Karl Pearson invented PCA in 1901, modelling it on the principal axis theorem of mechanics. In the 1930s Harold Hotelling developed it again on his own and gave it its name. Among the true multivariate analyses built on eigenvectors, it is the simplest, and it is closely tied to factor analysis.",
+    "cites": [
+     16,
+     21
+    ]
+   }
+  ]
+ }
+}

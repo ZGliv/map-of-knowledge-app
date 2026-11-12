@@ -1,0 +1,30 @@
+{
+ "readHash": "3106cc16b9b00fa8176c154a12546863fdce2f96",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Speed in a direction [1], vector needing magnitude and direction [3], magnitude is speed in m/s SI [4]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "5 m/s scalar vs 5 m/s east vector [5]; colloquial interchange vs scientific difference [9,10]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Acceleration definition [6], constant velocity = straight line constant speed [11,12], circling car [13,14]."
+  },
+  "r3": {
+   "supported": false,
+   "why": "'Treating velocity as a vector makes it easy to compare two moving objects' is an evaluative claim not in [40,41,44]; also drops 'typically' on the shared frame."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Cartesian components of velocity, subscripts or u, v, w for x-, y-, z-axes [45]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "p = mv vector [29], KE scalar via square [30,31], ~11 200 m/s from surface any direction, 'escape speed' better term [35,36]."
+  }
+ }
+}

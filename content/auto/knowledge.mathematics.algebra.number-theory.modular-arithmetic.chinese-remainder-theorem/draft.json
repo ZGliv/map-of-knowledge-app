@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "The Chinese remainder theorem says that if you know the remainders of a whole number after division by several numbers with no shared factors, you can determine its remainder after division by their product.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "For example, remainders of 2, 3 and 2 when dividing by 3, 5 and 7 give 23 as the only possible positive value below 105.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "It is widely used for computing with large integers, replacing one big computation with several similar ones on small integers.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Classic puzzle",
+   "value": "Count by threes: 2 left; by fives: 3 left; by sevens: 2 left",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "label": "Worked answer",
+   "value": "Remainders 2, 3 and 2 point to 23, the only value below 105",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Early algorithm",
+   "value": "Aryabhata described one in the 6th century",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Full solution",
+   "value": "Qin Jiushao gave a complete one in 1247, called Da-yan-shu",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Modern use",
+   "value": "Called multi-modular computation for integer linear algebra",
+   "cites": [
+    21,
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A bag of coins leaves 2 over in groups of 3, 3 over in groups of 5, and 2 over in groups of 7. How many different counts below 105 fit all three clues?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One for each clue, so three"
+    },
+    {
+     "id": "b",
+     "label": "Exactly one"
+    },
+    {
+     "id": "c",
+     "label": "Every count below 105"
+    },
+    {
+     "id": "d",
+     "label": "None, since the clues clash"
+    }
+   ],
+   "answer": "b",
+   "explain": "With the divisors 3, 5 and 7, the remainders fix a single value below 105, which is 23.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "A teacher gives remainders for divisors 4 and 6 and expects a single answer for the product. Why might this fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Divisors must be even for the theorem to apply"
+    },
+    {
+     "id": "b",
+     "label": "Remainders must all be zero"
+    },
+    {
+     "id": "c",
+     "label": "4 and 6 share a common factor other than 1"
+    },
+    {
+     "id": "d",
+     "label": "Only three divisors at a time are allowed"
+    }
+   ],
+   "answer": "c",
+   "explain": "The theorem needs the divisors to be pairwise coprime: no two may share a common factor other than 1. 4 and 6 share 2.",
+   "cites": [
+    1,
+    18
+   ]
+  },
+  {
+   "prompt": "Two numbers leave the same remainders when divided by 3, 5 and 7. What must be true of their difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is divisible by 105"
+    },
+    {
+     "id": "b",
+     "label": "It is exactly 105"
+    },
+    {
+     "id": "c",
+     "label": "It is divisible only by 3"
+    },
+    {
+     "id": "d",
+     "label": "It must be a prime number"
+    }
+   ],
+   "answer": "a",
+   "explain": "The difference is a multiple of each divisor. Because they are pairwise coprime, their product, 105, also divides it.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "prompt": "Why is the theorem helpful when a computer must handle huge integers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every large number turn out to be a prime"
+    },
+    {
+     "id": "b",
+     "label": "It swaps one big sum for several small-number sums"
+    },
+    {
+     "id": "c",
+     "label": "It rounds any large number down to exactly zero"
+    },
+    {
+     "id": "d",
+     "label": "It removes any need for remainders in the working"
+    }
+   ],
+   "answer": "b",
+   "explain": "When a bound on the result's size is known, the work can be split into several computations on small integers.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Carl Friedrich Gauss illustrated the theorem with a problem about what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Weighing coins on a balance"
+    },
+    {
+     "id": "b",
+     "label": "Folding paper into equal parts"
+    },
+    {
+     "id": "c",
+     "label": "Calendars: years in the solar and lunar cycles"
+    },
+    {
+     "id": "d",
+     "label": "Counting the stars in a constellation"
+    }
+   ],
+   "answer": "c",
+   "explain": "Gauss used a problem about finding years with a certain period number in the solar and lunar cycle and the Roman indiction.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "Why would Sunzi's counting puzzle not be called a theorem by modern standards?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It uses only numbers that are below 10 in size"
+    },
+    {
+     "id": "b",
+     "label": "Its answer was later found to be wrong"
+    },
+    {
+     "id": "c",
+     "label": "It was written down much too recently"
+    },
+    {
+     "id": "d",
+     "label": "It gives one problem, with no general method or proof"
+    }
+   ],
+   "answer": "d",
+   "explain": "It states a single problem without showing how to solve it, and with no proof or algorithm for the general case.",
+   "cites": [
+    10
+   ]
+  }
+ ]
+}

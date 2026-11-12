@@ -1,0 +1,311 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method",
+ "name": "Transit method",
+ "summary": [
+  {
+   "text": "The transit method finds a planet by watching for a small drop in a star's brightness when the planet crosses in front of it.",
+   "cites": [
+    38
+   ]
+  },
+  {
+   "text": "How much the star dims depends on the relative sizes of the star and the planet, so the dip tells astronomers the planet's radius.",
+   "cites": [
+    37,
+    38
+   ]
+  },
+  {
+   "text": "Most dips are tiny: an Earth-size planet crossing a Sun-like star dims it by only 80 parts per million.",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "HD 209458 dimming",
+   "value": "The star dims by 1.7%",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Earth-size dip",
+   "value": "80 parts per million (0.008 percent)",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "What it reveals",
+   "value": "The planet's radius",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Partner method",
+   "value": "Radial velocity, which gives mass and confirms findings",
+   "cites": [
+    31,
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Astronomers watch a star and see its brightness drop by a small amount. Which cause fits the transit method?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A planet passing behind the star"
+    },
+    {
+     "id": "b",
+     "label": "The star's spectral lines shifting"
+    },
+    {
+     "id": "c",
+     "label": "A planet crossing in front of the star's disk"
+    },
+    {
+     "id": "d",
+     "label": "Glare washing out the star's own light"
+    }
+   ],
+   "answer": "c",
+   "explain": "If a planet crosses in front of its parent star's disk, the star's observed brightness drops by a small amount.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method:q1"
+  },
+  {
+   "prompt": "Two planets cross the face of the same Sun-sized star, and one dims it noticeably more than the other. What does that most directly reflect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one dimming it more is bigger next to the star"
+    },
+    {
+     "id": "b",
+     "label": "The one dimming it more has the greater mass"
+    },
+    {
+     "id": "c",
+     "label": "The one dimming it more orbits farther away"
+    },
+    {
+     "id": "d",
+     "label": "The one dimming it more is the hotter planet"
+    }
+   ],
+   "answer": "a",
+   "explain": "The drop in the star's brightness depends on the relative sizes of the star and the planet, so the planet blocking more light is the larger one.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method:q2"
+  },
+  {
+   "prompt": "A team has only records of a star dimming, but wants the planet's true mass. What would help most?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A longer record of the same dimming"
+    },
+    {
+     "id": "b",
+     "label": "Radial-velocity measurements of the star"
+    },
+    {
+     "id": "c",
+     "label": "A bigger image of the planet itself"
+    },
+    {
+     "id": "d",
+     "label": "A closer look at the star's brightness"
+    }
+   ],
+   "answer": "b",
+   "explain": "The photometric method gives radius while radial velocity gives mass, and using both methods together lets the true mass be estimated.",
+   "cites": [
+    31,
+    32,
+    37
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method:q3"
+  },
+  {
+   "prompt": "A planet-hunter says most planets are found from a star's signals, not by photographing them. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Planets give off no light of any kind"
+    },
+    {
+     "id": "b",
+     "label": "Telescopes cannot point at stars for long"
+    },
+    {
+     "id": "c",
+     "label": "Stars hide behind dust in space"
+    },
+    {
+     "id": "d",
+     "label": "A planet is so dim next to its star that the glare hides it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any planet is extremely faint next to its parent star, and the star's glare washes it out, so few have been detected directly.",
+   "cites": [
+    2,
+    4,
+    5
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method:q4"
+  },
+  {
+   "prompt": "You expect an Earth-size planet crossing a Sun-like star to dim it noticeably, like a cloud over the Sun. How far off are you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Far off: the dip is only about 0.008 percent"
+    },
+    {
+     "id": "b",
+     "label": "Not far: it dims the star by about 8 percent"
+    },
+    {
+     "id": "c",
+     "label": "Slightly off: it dims the star by 1.7 percent"
+    },
+    {
+     "id": "d",
+     "label": "Not far: it dims the star by about 0.8 percent"
+    }
+   ],
+   "answer": "a",
+   "explain": "An Earth-size planet transiting a Sun-like star dims it by only 80 parts per million, or 0.008 percent.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method:q5"
+  },
+  {
+   "prompt": "A student models a transit assuming a spherical planet, a uniform stellar disk and a circular orbit. How should she treat the results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As exact, since real stars and orbits match these"
+    },
+    {
+     "id": "b",
+     "label": "As useless, since no model can include assumptions"
+    },
+    {
+     "id": "c",
+     "label": "As reliable only for stars like HD 209458"
+    },
+    {
+     "id": "d",
+     "label": "As depending on those simplifying assumptions"
+    }
+   ],
+   "answer": "d",
+   "explain": "The observed quantities rest on several assumptions, which are made for convenience in the calculations.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.transit-method:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Confirmed_exoplanets_by_methods_EPE.svg/960px-Confirmed_exoplanets_by_methods_EPE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Transit method",
+  "credit": "Betseg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Confirmed_exoplanets_by_methods_EPE.svg"
+ },
+ "source": {
+  "title": "Methods of detecting exoplanets",
+  "url": "https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets",
+  "revision": 1382310478
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Finding planets indirectly",
+    "text": "Most ways of finding planets around other stars are indirect: instead of taking a picture of the planet, astronomers work out that it is there from some other signal. That is because a planet gives off very little light next to its star. A star like the Sun outshines the light reflected by its planets about a billion times over, and the star's glare washes them out. So by June 2025, only a few of the planets reported had been seen directly.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Watching for a dip",
+    "text": "The transit method is one of these indirect ways. When a planet crosses, or transits, in front of the disk of its star, the star looks a little dimmer to us. How much dimmer depends on how big the planet is compared with the star. So while the radial-velocity method tells astronomers about a planet's mass, this photometric method, which works from the star's brightness, can reveal its radius.",
+    "cites": [
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "How small the dips are",
+    "text": "The size of the dip varies a lot. The star HD 209458 fades by 1.7% when its planet passes in front. Most dips are far smaller: an Earth-size planet crossing a Sun-like star dims it by just 80 parts per million, which is 0.008 percent.",
+    "cites": [
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Reading the light curve",
+    "text": "A model of a transiting planet's light curve predicts four things: the transit depth (δ), the transit duration (T), the ingress and egress duration (τ), and the planet's period (P). The transit depth is how much the star's normalized flux falls during the transit. These numbers rest on simplifying assumptions: the planet and star are treated as spheres, the star's disk as evenly bright, and the orbit as a circle. The shape of the measured curve also changes depending on where the planet sits as it crosses the star.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Working with radial velocity",
+    "text": "The transit method pairs well with the radial-velocity method. That method tracks how a star speeds up and slows down toward and away from Earth as it moves in a small orbit under a planet's pull. Radial velocity can be used to confirm planets that transits turn up. On its own it gives only a planet's minimum mass, but when both methods are used together, astronomers can estimate the planet's true mass.",
+    "cites": [
+     6,
+     7,
+     28,
+     31,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-21-4",
+   "kind": "book",
+   "title": "21.4 Planets beyond the Solar System: Search and Discovery",
+   "by": "Andrew Fraknoi, David Morrison and Sidney Wolff (OpenStax)",
+   "url": "https://openstax.org/books/astronomy-2e/pages/21-4-planets-beyond-the-solar-system-search-and-discovery",
+   "note": "A free textbook section on the Doppler and transit methods, with a diagram of a transit light curve.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nasa-roman-transit",
+   "kind": "article",
+   "title": "Transit Method",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/mission/roman-space-telescope/transit-method/",
+   "note": "NASA on how a planet crossing its star dims the light, and how Kepler, TESS and Roman use it."
+  }
+ ]
+}

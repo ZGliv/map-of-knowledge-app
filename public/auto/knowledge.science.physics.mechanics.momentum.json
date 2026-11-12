@@ -1,0 +1,555 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.momentum",
+ "name": "Momentum",
+ "summary": [
+  {
+   "text": "Momentum is a measure of motion equal to an object's mass times its velocity, counted in kilogram metres per second.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "Because it has a direction as well as a size, it can be used to predict where objects head and how fast they move after they collide.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "text": "In a closed system with no outside forces the total momentum never changes, and the net force on a body equals how quickly its momentum changes.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "SI unit",
+   "value": "kilogram metre per second (kg⋅m/s)",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Kind of quantity",
+   "value": "Vector, with size and direction",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Link to force",
+   "value": "Net force equals the rate of change of momentum",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Depends on",
+   "value": "The chosen frame of reference",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Conserved when",
+   "value": "No outside forces act on a closed system",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two planes of equal mass fly at 50 m/s, one north and one south. How do their momenta compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Identical, since mass and speed match"
+    },
+    {
+     "id": "b",
+     "label": "The southbound one is larger"
+    },
+    {
+     "id": "c",
+     "label": "Equal in size but pointing opposite ways"
+    },
+    {
+     "id": "d",
+     "label": "Both are zero because they cancel"
+    }
+   ],
+   "answer": "c",
+   "explain": "Momentum is a vector, so equal size with opposite direction is not the same momentum.",
+   "cites": [
+    15,
+    20
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum:q1"
+  },
+  {
+   "prompt": "A 1 kg model plane speeds from rest to 6 m/s north in 2 s. What net force does that take?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3 newtons north"
+    },
+    {
+     "id": "b",
+     "label": "6 newtons north"
+    },
+    {
+     "id": "c",
+     "label": "12 newtons north"
+    },
+    {
+     "id": "d",
+     "label": "1 newton north"
+    }
+   ],
+   "answer": "a",
+   "explain": "The momentum changes by 6 kg⋅m/s over 2 s, which is 3 per second, and that rate equals the net force in newtons.",
+   "cites": [
+    31,
+    32,
+    33,
+    34
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum:q2"
+  },
+  {
+   "prompt": "Several particles move together as one system. Their total mass is m, and their center of mass moves at velocity v_cm. What is the system's momentum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mass of the heaviest particle times v_cm"
+    },
+    {
+     "id": "b",
+     "label": "Zero, because the particles' motions cancel out"
+    },
+    {
+     "id": "c",
+     "label": "The average particle mass times v_cm"
+    },
+    {
+     "id": "d",
+     "label": "p = mv_cm"
+    }
+   ],
+   "answer": "d",
+   "explain": "The momentum of the system is the total mass times the velocity of its center of mass: p = mv_cm.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum:q3"
+  },
+  {
+   "prompt": "Two skaters at rest on frictionless ice shove each other apart, with nothing else pushing them. What happens to their total momentum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows because they now move"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same as before the shove"
+    },
+    {
+     "id": "c",
+     "label": "It is zero only while they touch"
+    },
+    {
+     "id": "d",
+     "label": "It turns into kinetic energy"
+    }
+   ],
+   "answer": "b",
+   "explain": "With no outside forces the total momentum does not change, including when objects are pushed apart.",
+   "cites": [
+    35,
+    38
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum:q4"
+  },
+  {
+   "prompt": "A 2 kg cart rolls at 3 m/s. What is its momentum in SI units?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5 kg⋅m/s"
+    },
+    {
+     "id": "b",
+     "label": "1.5 kg⋅m/s"
+    },
+    {
+     "id": "c",
+     "label": "6 kg⋅m/s"
+    },
+    {
+     "id": "d",
+     "label": "9 kg⋅m/s"
+    }
+   ],
+   "answer": "c",
+   "explain": "Momentum is mass times velocity: 2 times 3 is 6 kg⋅m/s.",
+   "cites": [
+    20,
+    22
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum:q5"
+  },
+  {
+   "prompt": "Two carts on a track push against each other, and cart 1's momentum begins to grow. What happens to cart 2's momentum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It changes at the same rate, in the opposite direction"
+    },
+    {
+     "id": "b",
+     "label": "It changes at the same rate, in the same direction"
+    },
+    {
+     "id": "c",
+     "label": "It stays fixed because only one cart is pushed"
+    },
+    {
+     "id": "d",
+     "label": "It changes faster because the forces add together"
+    }
+   ],
+   "answer": "a",
+   "explain": "The forces between the two are equal in size and opposite in direction, so dp₁/dt = −dp₂/dt.",
+   "cites": [
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.science.physics.mechanics.momentum:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/960px-Billard.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Momentum",
+  "credit": "No-w-ay in collaboration with H. Caps",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Billard.JPG"
+ },
+ "source": {
+  "title": "Momentum",
+  "url": "https://en.wikipedia.org/wiki/Momentum",
+  "revision": 1381438396
+ },
+ "pack": {
+  "id": "auto-mechanics-momentum",
+  "title": "Motion's Hidden Bookkeeping",
+  "question": "What stays the same when objects crash or push apart?",
+  "path": [
+   "Science",
+   "Physics",
+   "Mechanics",
+   "Momentum"
+  ],
+  "hue": 195,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/960px-Billard.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Momentum",
+    "credit": "No-w-ay in collaboration with H. Caps · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Billard.JPG",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Motion's Hidden Bookkeeping",
+    "hook": "Every collision comes with a ledger that always balances."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-mechanics-momentum:1",
+    "transfer": false,
+    "prompt": "A model airplane of mass 1 kg accelerates from rest to 6 m/s due north in 2 s. What net force does that take?",
+    "explain": "The change in momentum is 6 kg⋅m/s, so the rate of change is 3 (kg⋅m/s)/s, which is numerically equivalent to 3 newtons.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "6 newtons due north",
+        "feedback": "6 kg⋅m/s is the total change in momentum; the force is that change spread over the 2 seconds."
+       },
+       {
+        "id": "c",
+        "label": "12 newtons due north",
+        "feedback": "Multiplying by the time gives 12, but force is the change divided by the time."
+       },
+       {
+        "id": "b",
+        "label": "3 newtons due north"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-mechanics-momentum:2",
+    "transfer": false,
+    "prompt": "Put these steps in order to show why two interacting particles keep a constant total momentum.",
+    "items": [
+     {
+      "id": "a",
+      "label": "The third law: the forces between them are equal in magnitude but opposite in direction"
+     },
+     {
+      "id": "b",
+      "label": "The second law: F₁ = dp₁/dt and F₂ = dp₂/dt"
+     },
+     {
+      "id": "c",
+      "label": "Therefore dp₁/dt = −dp₂/dt"
+     },
+     {
+      "id": "d",
+      "label": "Equivalently, d/dt(p₁ + p₂) = 0"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Two particles interact",
+     "Total momentum is constant"
+    ],
+    "explain": "Equal and opposite forces mean equal and opposite rates of change of momentum, so the changes cancel in the total."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-mechanics-momentum:3",
+    "transfer": true,
+    "prompt": "Match each idea to its partner.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "kg⋅m/s"
+     },
+     {
+      "id": "l1",
+      "label": "g⋅cm/s"
+     },
+     {
+      "id": "l2",
+      "label": "Net force"
+     },
+     {
+      "id": "l3",
+      "label": "Closed system"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "cgs unit of momentum"
+     },
+     {
+      "id": "r0",
+      "label": "SI unit of momentum"
+     },
+     {
+      "id": "r3",
+      "label": "Total momentum stays constant"
+     },
+     {
+      "id": "r2",
+      "label": "Rate of change of momentum"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Momentum has units of mass times velocity, is tied to force through its rate of change, and is conserved in a closed system."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-mechanics-momentum:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Two skaters at rest push off each other with nothing else acting."
+     },
+     {
+      "id": "b",
+      "text": "Momentum is conserved, so their total momentum stays the same."
+     },
+     {
+      "id": "c",
+      "text": "They started at rest, so their total momentum before the push is zero."
+     },
+     {
+      "id": "d",
+      "text": "So they cannot move, since zero total momentum means no motion."
+     }
+    ],
+    "answer": "d",
+    "explain": "Momentum has direction, so equal and opposite momenta add to zero while both skaters move."
+   },
+   {
+    "kind": "payoff",
+    "idea": "In a closed system the total momentum, mass times velocity with direction, never changes, which lets you predict what happens after a collision.",
+    "connections": [
+     {
+      "title": "Impulse (physics)",
+      "place": "Momentum",
+      "node": "knowledge.science.physics.mechanics.momentum.impulse-physics"
+     },
+     {
+      "title": "Conservation of momentum",
+      "place": "Momentum",
+      "node": "knowledge.science.physics.mechanics.momentum.conservation-of-momentum"
+     },
+     {
+      "title": "Collision",
+      "place": "Momentum",
+      "node": "knowledge.science.physics.mechanics.momentum.collision"
+     },
+     {
+      "title": "Angular momentum",
+      "place": "Momentum",
+      "node": "knowledge.science.physics.mechanics.momentum.angular-momentum"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The change in momentum is 6 kg⋅m/s, so the rate of change is 3 (kg⋅m/s)/s, which is numerically equivalent to 3 newtons.",
+    "source": "Wikipedia sentences 31, 32, 33, 34"
+   },
+   {
+    "claim": "Equal and opposite forces mean equal and opposite rates of change of momentum, so the changes cancel in the total.",
+    "source": "Wikipedia sentences 38, 39, 40, 41"
+   },
+   {
+    "claim": "Momentum has units of mass times velocity, is tied to force through its rate of change, and is conserved in a closed system.",
+    "source": "Wikipedia sentences 4, 5, 23, 35"
+   },
+   {
+    "claim": "Momentum has direction, so equal and opposite momenta add to zero while both skaters move.",
+    "source": "Wikipedia sentences 15, 35, 40"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Mass times velocity",
+    "text": "Momentum measures motion by multiplying how much mass an object has by its velocity, which also has a direction. It is written p, so p = mv. The letter comes from the Latin pellere, meaning to push or drive. In SI units it is counted in kg⋅m/s, kilogram metres per second, a unit equal in dimension to the newton-second.",
+    "cites": [
+     1,
+     3,
+     4,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "It points somewhere",
+    "text": "Momentum is a vector, a quantity with both a size and a direction. A 1 kg model airplane flying due north at 1 m/s carries 1 kg⋅m/s of momentum pointing north, measured against the ground. Because momentum carries a direction, it lets you predict which way objects will move, and how fast, after they collide.",
+    "cites": [
+     2,
+     16,
+     25
+    ]
+   },
+   {
+    "heading": "Force changes momentum",
+    "text": "Newton's second law ties momentum to force: the net force on a body equals how fast its momentum changes. If a steady force F acts for a time Δt, the momentum changes by Δp = FΔt. When the mass stays the same, this becomes the familiar F = ma, net force equals mass times acceleration.",
+    "cites": [
+     5,
+     28,
+     30
+    ]
+   },
+   {
+    "heading": "A worked example",
+    "text": "Take a 1 kg model airplane that starts at rest and reaches 6 m/s due north in 2 seconds. Its momentum has changed by 6 kg⋅m/s due north. Spread over those 2 seconds, that is a change of 3 (kg⋅m/s)/s, which is the same number as the 3 newtons of net force needed to push it.",
+    "cites": [
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "The total stays fixed",
+    "text": "In a closed system, one that swaps no matter with its surroundings and feels no outside forces, the total momentum does not change. This is the law of conservation of momentum, and it follows from Newton's laws. When two particles interact, the forces between them are equal in size and opposite in direction. So whatever momentum one gains, the other loses, and their sum stays the same.",
+    "cites": [
+     35,
+     36,
+     38,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Far beyond everyday objects",
+    "text": "Momentum does depend on the frame of reference you measure it from, but in any inertial frame it is conserved. The law reflects a basic symmetry of space and time called translational symmetry. Modified versions of it still hold in special relativity, electrodynamics, quantum mechanics and general relativity. In quantum mechanics, momentum and position are linked by the Heisenberg uncertainty principle.",
+    "cites": [
+     6,
+     7,
+     8,
+     12
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up-9-1",
+   "kind": "book",
+   "title": "9.1 Linear Momentum",
+   "by": "William Moebs, Samuel J. Ling, Jeff Sanny (OpenStax)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/9-1-linear-momentum",
+   "note": "A free college textbook section defining momentum as mass times velocity, comparing a gas molecule and a car.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-8-1",
+   "kind": "book",
+   "title": "8.1 Linear Momentum and Force",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+   "note": "An introductory textbook section linking momentum to force through Newton's second law, with worked examples."
+  },
+  {
+   "id": "crashcourse-collisions",
+   "kind": "video",
+   "title": "Collisions: Crash Course Physics #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Y-QOfc2XqOk",
+   "note": "A Crash Course Physics episode on collisions and the momentum that objects carry into and out of them."
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.microbiome.fermentation",
+ "name": "Fermentation",
+ "summary": [
+  {
+   "text": "Fermentation is anaerobic metabolism that breaks down organic molecules like glucose, passing their electrons to other organic molecules to make ATP.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It differs from cellular respiration, which passes electrons to oxygen or to other inorganic molecules.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "It is inefficient, giving 2 to 5 ATP per glucose against 32 for aerobic respiration, yet humans have used it for 13,000 years to make and preserve food.",
+   "cites": [
+    6,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Food use",
+   "value": "Humans have used it for 13,000 years",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "ATP per glucose",
+   "value": "Between 2 and 5 molecules",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Who ferments",
+   "value": "Over 25% of bacteria and archaea",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Common products",
+   "value": "Lactate, acetate, ethanol, CO₂, succinate, H₂, propionate, butyrate",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "In human muscle",
+   "value": "Supplies energy for 10 seconds to 2 minutes",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sprinter's muscles run short of oxygen mid-race. How can they still get energy for a little while?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fermentation pathways add ATP briefly, until lactate builds up"
+    },
+    {
+     "id": "b",
+     "label": "They switch to a pathway that never tires"
+    },
+    {
+     "id": "c",
+     "label": "They burn fat with nitrate in place of oxygen indefinitely"
+    },
+    {
+     "id": "d",
+     "label": "They stop making ATP and run on stored heat"
+    }
+   ],
+   "answer": "a",
+   "explain": "Fermentation can augment aerobic energy for 10 seconds to 2 minutes in humans but is limited by the buildup of lactate.",
+   "cites": [
+    4,
+    30,
+    31
+   ],
+   "id": "knowledge.science.biology.microbes.microbiome.fermentation:q1"
+  },
+  {
+   "prompt": "Yeast in dough and a person breathing both break down sugar. Where do the electrons go in each?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yeast hands them to oxygen; the person hands them to an organic molecule"
+    },
+    {
+     "id": "b",
+     "label": "Yeast hands them to another organic molecule; the person hands them to oxygen"
+    },
+    {
+     "id": "c",
+     "label": "Both pass them to oxygen, only at different speeds"
+    },
+    {
+     "id": "d",
+     "label": "Yeast releases them as heat; the person stores them as fat"
+    }
+   ],
+   "answer": "b",
+   "explain": "Fermentation transfers electrons to organic molecules, while cellular respiration transfers them to oxygen or other inorganic molecules.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.biology.microbes.microbiome.fermentation:q2"
+  },
+  {
+   "prompt": "A microbe lands where there is nothing to breathe. Why can it still make ATP by fermenting?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It borrows oxygen from the cells around it"
+    },
+    {
+     "id": "b",
+     "label": "It makes ATP faster than respiration, so oxygen is not missed"
+    },
+    {
+     "id": "c",
+     "label": "It runs on light instead of sugar"
+    },
+    {
+     "id": "d",
+     "label": "It needs no outside electron acceptor, so conditions do not stop it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Because fermentation does not need an exogenous electron acceptor, it can occur regardless of environmental conditions.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.biology.microbes.microbiome.fermentation:q3"
+  },
+  {
+   "prompt": "A cell has one glucose and plenty of oxygen. Compared with using the oxygen, how would fermenting the glucose do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It would yield about the same ATP"
+    },
+    {
+     "id": "b",
+     "label": "It would yield more ATP, since it is the simpler pathway"
+    },
+    {
+     "id": "c",
+     "label": "It would yield far fewer ATP, about 2 to 5 instead of 32"
+    },
+    {
+     "id": "d",
+     "label": "It would yield none, because fermentation makes no ATP"
+    }
+   ],
+   "answer": "c",
+   "explain": "Fermentation is relatively inefficient, producing 2 to 5 ATP per glucose versus 32 for aerobic respiration.",
+   "cites": [
+    1,
+    24
+   ],
+   "id": "knowledge.science.biology.microbes.microbiome.fermentation:q4"
+  },
+  {
+   "prompt": "Why did people first start fermenting foods like dairy, grains and honey?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To make industrial chemicals like ethanol"
+    },
+    {
+     "id": "b",
+     "label": "Mainly as a way to preserve the food"
+    },
+    {
+     "id": "c",
+     "label": "To feed the microbes in their own guts"
+    },
+    {
+     "id": "d",
+     "label": "To give the food a longer list of ingredients"
+    }
+   ],
+   "answer": "b",
+   "explain": "Food as a substrate is the most common and oldest human use of fermentation, since it was a method to preserve food.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.science.biology.microbes.microbiome.fermentation:q5"
+  },
+  {
+   "prompt": "A cow's gut microbes ferment what it eats. What does the cow get in return?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oxygen that the microbes release"
+    },
+    {
+     "id": "b",
+     "label": "Protein from digesting the microbes themselves"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since the microbes keep it all"
+    },
+    {
+     "id": "d",
+     "label": "End products it uses for energy"
+    }
+   ],
+   "answer": "d",
+   "explain": "Microbes in the gut release fermentation end products that humans and livestock then use for energy.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.biology.microbes.microbiome.fermentation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Phylogenetic_tree_of_bacteria_and_archaea%2C_highlighting_those_that_carry_out_fermentation.png/960px-Phylogenetic_tree_of_bacteria_and_archaea%2C_highlighting_those_that_carry_out_fermentation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Fermentation",
+  "credit": "Tjhackmann",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Phylogenetic_tree_of_bacteria_and_archaea,_highlighting_those_that_carry_out_fermentation.png"
+ },
+ "source": {
+  "title": "Fermentation",
+  "url": "https://en.wikipedia.org/wiki/Fermentation",
+  "revision": 1382176954
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Energy without oxygen",
+    "text": "Fermentation is a kind of anaerobic metabolism that makes adenosine triphosphate (ATP) along with organic end products. A cell breaks down organic molecules such as glucose and other sugars and hands their electrons to other organic molecules. That is the key difference from cellular respiration, where the electrons go to oxygen or to some other inorganic molecule. In 1876 Louis Pasteur called fermentation life without air.",
+    "cites": [
+     1,
+     2,
+     3,
+     18
+    ]
+   },
+   {
+    "heading": "How it works",
+    "text": "When a cell ferments an organic compound, it splits it into a simpler molecule and frees electrons. Those electrons pass to a carrier called a redox cofactor, such as NAD or ferredoxin, which then hands them on to an organic compound. Glucose first goes through glycolysis or the pentose phosphate pathway and becomes pyruvate. From pyruvate, several routes lead to different end products, such as lactate, and ATP is made along the way.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Cheap but wasteful",
+    "text": "Fermentation needs no outside electron acceptor, so it can run whatever the surroundings are like. Its main drawback is a low yield: it makes between 2 and 5 ATP molecules per glucose, while aerobic respiration makes 32. It lets organisms gain ATP from organic molecules taken in from outside, such as glucose. The earliest life could not gain energy from it overall, because they were mostly single cells living in an ocean with little complex organic matter.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Who ferments",
+    "text": "Fermentation happens in both prokaryotes and eukaryotes. More than a quarter of bacteria and archaea carry it out, and it is especially common in the phylum Bacillota but rarest in Actinomycetota. Fermenting microbes turn up most often in places tied to a host, such as the gut, but also in sediments and food. Their most common products include lactate, acetate, ethanol, CO₂, succinate, H₂, propionate and butyrate.",
+    "cites": [
+     12,
+     25,
+     26,
+     27,
+     29
+    ]
+   },
+   {
+    "heading": "Inside our bodies",
+    "text": "Humans and their livestock gain from gut microbes whose fermentation releases end products the host then uses for energy. Our own bodies ferment too, during exercise and in illnesses such as sepsis and hemorrhagic shock. This supplies energy for somewhere between 10 seconds and 2 minutes, adding to what aerobic metabolism provides. It is held back by the buildup of lactate, and in the end rest becomes necessary.",
+    "cites": [
+     8,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Food, drink and industry",
+    "text": "People have used fermentation to make and keep food for 13,000 years, and preserving food is its oldest human use. Fermented foods include cereals, dairy products, rice, honey, bread and beer, and the process is still valued for keeping food and for flavor and texture. On an industrial scale it is perhaps best known for making commodity chemicals such as ethanol and lactate. Ethanol goes into beer, wine and spirits, while lactate can be turned into lactic acid to preserve, cure or flavor food.",
+    "cites": [
+     6,
+     9,
+     10,
+     36,
+     37,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-micro-fermentation",
+   "kind": "book",
+   "title": "8.4: Fermentation",
+   "by": "OpenStax Microbiology (LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.04%3A_Fermentation",
+   "note": "A free college textbook section on how fermentation works, lactic acid and alcohol fermentation, and their uses.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "boundless-fermented-foods",
+   "kind": "book",
+   "title": "17.5A: Fermented Foods",
+   "by": "Boundless Microbiology (LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/17%3A_Industrial_Microbiology/17.05%3A_Food_Preservation/17.5A%3A_Fermented_Foods",
+   "note": "A short textbook section on fermented foods, from beer and bread to yogurt and kimchi, and why people ferment food.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "tedex-beneficial-bacteria-food",
+   "kind": "video",
+   "title": "The beneficial bacteria that make delicious food",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=eksagPy5tmQ",
+   "minutes": 5,
+   "note": "An animated lesson on the helpful bacteria that turn ingredients into foods we enjoy."
+  }
+ ]
+}

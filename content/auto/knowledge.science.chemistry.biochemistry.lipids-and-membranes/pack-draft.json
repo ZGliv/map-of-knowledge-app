@@ -1,0 +1,111 @@
+{
+ "title": "A barrier two layers thick",
+ "question": "How can a membrane only nanometers thick keep a cell's contents in?",
+ "hook": "Cells are wrapped in a film made of molecules that sort themselves around water.",
+ "idea": "Phospholipids self-assemble in water into two layers with tails inward, forming a thin barrier that blocks most water-soluble molecules.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A sugar dissolved in water reaches the center of a bilayer. What happens to the sugar?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It dissolves freely and passes straight through",
+     "feedback": "The center holds almost no water, so water-soluble sugars have nothing to dissolve in."
+    },
+    {
+     "id": "b",
+     "label": "It is excluded from the center",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "It collects there and tears the bilayer apart",
+     "feedback": "The center simply excludes sugars; nothing says they break the bilayer."
+    }
+   ],
+   "answer": "b",
+   "explain": "The center of a bilayer contains almost no water and excludes molecules like sugars or salts that dissolve in water.",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each region of the bilayer to its description.",
+   "pairs": [
+    [
+     "Hydrophilic headgroup",
+     "Completely hydrated, around 0.8-0.9 nm thick"
+    ],
+    [
+     "Boundary layer",
+     "Partially hydrated, about 0.3 nm thick"
+    ],
+    [
+     "Hydrophobic core",
+     "Typically 3-4 nm thick"
+    ]
+   ],
+   "explain": "Moving in from the water, the bilayer has a hydrated headgroup, a partly hydrated boundary layer and a hydrophobic core.",
+   "cites": [
+    32,
+    33,
+    37,
+    38,
+    40
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Is each part of a phospholipid hydrophilic or hydrophobic?",
+   "groups": [
+    "Hydrophilic",
+    "Hydrophobic"
+   ],
+   "items": [
+    [
+     "Phosphate head",
+     "Hydrophilic"
+    ],
+    [
+     "Fatty acid chains",
+     "Hydrophobic"
+    ],
+    [
+     "Part pointing toward the center of the sheet",
+     "Hydrophobic"
+    ],
+    [
+     "Headgroup region, completely hydrated",
+     "Hydrophilic"
+    ]
+   ],
+   "explain": "The phosphate head is hydrophilic and the two fatty acid chain tails are hydrophobic, so the tails point toward the center.",
+   "cites": [
+    7,
+    23,
+    32,
+    33
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Phospholipids have a hydrophilic head and hydrophobic tails.",
+    "In water they self-assemble into two layers, with the tails toward the center.",
+    "So the center of the bilayer is full of water, letting salts and sugars dissolve through.",
+    "Therefore ions cross only when ion pumps move them across."
+   ],
+   "wrong": 2,
+   "explain": "The center contains almost no water and excludes molecules that dissolve in water.",
+   "cites": [
+    6,
+    7,
+    23,
+    25
+   ]
+  }
+ ]
+}

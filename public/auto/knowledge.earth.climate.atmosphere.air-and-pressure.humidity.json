@@ -1,0 +1,332 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity",
+ "name": "Humidity",
+ "summary": [
+  {
+   "text": "Humidity is the concentration of water vapor, the usually invisible gas form of water, in the air.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It is mainly measured three ways, as absolute, relative or specific humidity, and relative humidity compares the vapor present with the maximum possible at that temperature.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "text": "High humidity slows the evaporation of sweat from skin, so in hot weather it makes the air feel hotter to people and animals.",
+   "cites": [
+    9,
+    45
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Three main measures",
+   "value": "Absolute, relative and specific humidity",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Absolute humidity unit",
+   "value": "Grams of water vapor per cubic metre",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Upper range in air",
+   "value": "About 30 g per m³, saturated at 30 °C",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Saturation point",
+   "value": "100% relative humidity, the dew point",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On a calm evening the air cools, but no water is added or removed. What happens to the relative humidity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It goes up as the air cools"
+    },
+    {
+     "id": "b",
+     "label": "It goes down with the temperature"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same, as no water changed"
+    },
+    {
+     "id": "d",
+     "label": "It drops toward zero overnight"
+    }
+   ],
+   "answer": "a",
+   "explain": "Colder air can contain less vapour, so cooling raises relative humidity even when the amount of water stays the same.",
+   "cites": [
+    31,
+    32,
+    34
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity:q1"
+  },
+  {
+   "prompt": "Morning fog fills a valley, then the sun warms the air. What tends to happen to the fog?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It thickens as more water evaporates"
+    },
+    {
+     "id": "b",
+     "label": "It freezes into frost on the ground"
+    },
+    {
+     "id": "c",
+     "label": "It evaporates as relative humidity falls"
+    },
+    {
+     "id": "d",
+     "label": "It stays until wind blows it away"
+    }
+   ],
+   "answer": "c",
+   "explain": "Warming air lowers relative humidity, which can make the fog's droplets evaporate.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity:q2"
+  },
+  {
+   "prompt": "Why does a hot day feel worse when the air is humid than when it is dry?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Humid air carries more heat from the Sun"
+    },
+    {
+     "id": "b",
+     "label": "Sweat evaporates more slowly from skin"
+    },
+    {
+     "id": "c",
+     "label": "Humid air holds less oxygen to breathe"
+    },
+    {
+     "id": "d",
+     "label": "Water vapor sticks to skin and burns it"
+    }
+   ],
+   "answer": "b",
+   "explain": "High humidity reduces how fast moisture evaporates from skin, which hinders cooling by sweat and raises the apparent temperature.",
+   "cites": [
+    9,
+    45
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity:q3"
+  },
+  {
+   "prompt": "At the same temperature, one box holds air and an identical box holds a vacuum. Which can take up more water vapor?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The air box, since air holds the water"
+    },
+    {
+     "id": "b",
+     "label": "The vacuum, since nothing is in the way"
+    },
+    {
+     "id": "c",
+     "label": "Neither; a vacuum stops all evaporation"
+    },
+    {
+     "id": "d",
+     "label": "About the same amount in each"
+    }
+   ],
+   "answer": "d",
+   "explain": "How much vapor a space can take is almost independent of the air in it; a vacuum has about the same capacity as the same volume of air.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity:q4"
+  },
+  {
+   "prompt": "Very clean air, with no dust or surfaces, is cooled past the point where dew would normally form. What can happen?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Humidity climbs above 100% with no droplets"
+    },
+    {
+     "id": "b",
+     "label": "The vapor turns instantly into rain"
+    },
+    {
+     "id": "c",
+     "label": "The air dries out completely"
+    },
+    {
+     "id": "d",
+     "label": "The temperature stops falling"
+    }
+   ],
+   "answer": "a",
+   "explain": "Without particles or surfaces for droplets to form on, relative humidity can exceed 100%, and the air is called supersaturated.",
+   "cites": [
+    35,
+    42
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity:q5"
+  },
+  {
+   "prompt": "Thick fog hangs in the air. Do its droplets count toward the relative humidity reading?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, all water in the air counts"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only half as much as vapor"
+    },
+    {
+     "id": "c",
+     "label": "No, only the invisible vapor counts"
+    },
+    {
+     "id": "d",
+     "label": "No, unless the fog is below freezing"
+    }
+   ],
+   "answer": "c",
+   "explain": "Relative humidity considers only invisible water vapour; fog, mist and clouds do not count, though they hint the air is near its dew point.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.humidity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cloud_forest_mount_kinabalu.jpg/960px-Cloud_forest_mount_kinabalu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Humidity",
+  "credit": "No machine-readable author provided. NepGrower~commonswiki assumed (based on cop",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Cloud_forest_mount_kinabalu.jpg"
+ },
+ "source": {
+  "title": "Humidity",
+  "url": "https://en.wikipedia.org/wiki/Humidity",
+  "revision": 1383704317
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Water you cannot see",
+    "text": "Humidity is the concentration of water vapor in the air. Water vapor is water in its gas form, and it is usually invisible. Humidity hints at how likely precipitation, dew or fog are. Three main measures are in wide use: absolute, relative and specific humidity.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Three ways to measure",
+    "text": "Absolute humidity is the mass of water vapor in a given volume of air, in grams per cubic metre. Specific humidity is the mass of water vapor divided by the mass of the whole parcel of moist air. Relative humidity compares the water vapor present with how much the air could contain at the same temperature and pressure. It is normally given as a percentage, and a higher percentage means more humid air.",
+    "cites": [
+     5,
+     6,
+     7,
+     28,
+     40
+    ]
+   },
+   {
+    "heading": "Trouble with absolute humidity",
+    "text": "In the atmosphere, absolute humidity runs from near zero to roughly 30 g per cubic metre when air at 30 °C is saturated. A given amount of air grows or shrinks as temperature and pressure change, so its absolute humidity shifts even when the share of water in it stays the same. In chemical engineering, absolute humidity may instead mean the mass of water vapor per mass of dry air, also called the humidity ratio or mixing ratio. The British Standard BS 1339 advises against the term absolute humidity altogether.",
+    "cites": [
+     17,
+     21,
+     22,
+     23,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Warming, cooling and dew",
+    "text": "Relative humidity shifts with any change in air temperature or pressure; colder air can contain less vapor. Cooling air raises its relative humidity, and warming it lowers it. When relative humidity reaches 100%, the dew point, and a surface or particle is available, the vapor condenses into liquid or turns to ice. Warming air that contains fog can make the fog evaporate.",
+    "cites": [
+     31,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Air does not hold water",
+    "text": "People often talk of air holding water vapor or being saturated with it, but this picture is misleading. The amount of vapor that can enter a space at a given temperature hardly depends on how much nitrogen, oxygen or other air is there. A vacuum can take about the same amount of vapor as the same volume filled with air. And with no particle or surface for droplets or crystals to form on, relative humidity can climb above 100%, a state called supersaturation. Add some particles, and condensation or ice forms on them, removing vapor and lowering the humidity.",
+    "cites": [
+     11,
+     12,
+     13,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Why muggy days feel hot",
+    "text": "Humidity plays an important part in life at the surface. Animals that sweat to control their body temperature lose heat less well in humid air, since sweat evaporates from the skin more slowly. In hot summer weather, rising relative humidity makes it feel hotter to people and other animals. A heat index table, or the similar humidex, can estimate this effect. Weather forecasts also use relative humidity as a sign of how likely precipitation, dew or fog are.",
+    "cites": [
+     8,
+     9,
+     10,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-humidity",
+   "kind": "book",
+   "title": "Climatology/Humidity",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Climatology/Humidity",
+   "note": "A free textbook chapter on the kinds of humidity, dew and frost, and what controls evaporation.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "openstax-humidity",
+   "kind": "book",
+   "title": "13.6 Humidity, Evaporation, and Boiling - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+   "note": "A physics textbook section on humidity, evaporation and boiling, explained through vapor pressure.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

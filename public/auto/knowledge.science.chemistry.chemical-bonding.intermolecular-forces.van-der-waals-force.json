@@ -1,0 +1,332 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force",
+ "name": "Van der Waals force",
+ "summary": [
+  {
+   "text": "The van der Waals force is a distance-dependent interaction between atoms or molecules, and it is one kind of intermolecular force.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It does not come from a chemical electronic bond, so it is comparatively weak, and it quickly vanishes at longer distances between molecules.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It is usually described as a mix of London dispersion, Debye and Keesom forces, and it underlies properties of organic compounds such as their solubility.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Dutch physicist Johannes Diderik van der Waals",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Three components",
+   "value": "London dispersion, Debye and Keesom forces",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Distance between atoms",
+   "value": "0.3 to 0.5 nm at equilibrium for individual atoms",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Fading with distance",
+   "value": "Hard to observe beyond 1.0 nm",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two neighbouring molecules are slowly pulled much farther apart. What happens to the pull between them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays about the same, since no bond is involved"
+    },
+    {
+     "id": "b",
+     "label": "It grows, since more room lets it act more freely"
+    },
+    {
+     "id": "c",
+     "label": "It quickly fades toward nothing at longer distances"
+    },
+    {
+     "id": "d",
+     "label": "It turns into a push once they are far apart"
+    }
+   ],
+   "answer": "c",
+   "explain": "The van der Waals force quickly vanishes at longer distances between interacting molecules.",
+   "cites": [
+    3,
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force:q1"
+  },
+  {
+   "prompt": "Two atoms are pushed closer and closer together with no other force present. Past a certain distance, the pull turns into a push. What causes this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The nuclei of the two atoms begin to fuse into one"
+    },
+    {
+     "id": "b",
+     "label": "The electron clouds of the two atoms repel each other"
+    },
+    {
+     "id": "c",
+     "label": "The atoms start a covalent bond that pushes back"
+    },
+    {
+     "id": "d",
+     "label": "The attraction runs out of strength at that distance"
+    }
+   ],
+   "answer": "b",
+   "explain": "The force becomes repulsive at the contact distance because of the mutual repulsion between the atoms' electron clouds.",
+   "cites": [
+    6,
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force:q2"
+  },
+  {
+   "prompt": "A chemist compares the pairwise pull between small hydrogen atoms in H₂ with the pull between large xenon atoms. Which is stronger, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hydrogen, because smaller atoms sit closer together"
+    },
+    {
+     "id": "b",
+     "label": "They are equal, since both are neutral gases"
+    },
+    {
+     "id": "c",
+     "label": "Hydrogen, because it has the fewest electrons to repel"
+    },
+    {
+     "id": "d",
+     "label": "Xenon, because its larger atoms are more polarizable"
+    }
+   ],
+   "answer": "d",
+   "explain": "The strength increases with the polarizability of the atoms; the xenon interaction is up to 40 times stronger than in H₂.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force:q3"
+  },
+  {
+   "prompt": "Two atoms carry no net charge and form no chemical bond, yet they pull on each other. What is behind the pull?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Electron density briefly shifts to one side, leaving a temporary charge"
+    },
+    {
+     "id": "b",
+     "label": "A permanent positive charge hides inside every neutral atom"
+    },
+    {
+     "id": "c",
+     "label": "The two atoms briefly share an electron pair"
+    },
+    {
+     "id": "d",
+     "label": "The nuclei attract each other directly through empty space"
+    }
+   ],
+   "answer": "a",
+   "explain": "A transient shift in electron density generates a transient charge that a nearby atom can be attracted to or repelled by.",
+   "cites": [
+    2,
+    10,
+    11,
+    12
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force:q4"
+  },
+  {
+   "prompt": "A molecule with a permanent dipole sits next to another molecule and causes a dipole to appear in it. Which part of the van der Waals force is at work?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Keesom force, between two permanent dipoles"
+    },
+    {
+     "id": "b",
+     "label": "London dispersion, between instantaneous multipoles"
+    },
+    {
+     "id": "c",
+     "label": "The Debye force, between a permanent and an induced multipole"
+    },
+    {
+     "id": "d",
+     "label": "Pauli repulsion, which keeps atoms from close contact"
+    }
+   ],
+   "answer": "c",
+   "explain": "Induction is the attraction between a permanent multipole on one molecule and an induced multipole on another, sometimes called the Debye force.",
+   "cites": [
+    7,
+    25,
+    29,
+    30,
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force:q5"
+  },
+  {
+   "prompt": "Molecules in a gas or liquid tumble around in thermal motion. Which part of the van der Waals force does this tumbling mostly average out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The electrostatic part, which can attract or repel by orientation"
+    },
+    {
+     "id": "b",
+     "label": "The dispersion part, which only attracts"
+    },
+    {
+     "id": "c",
+     "label": "The induction part, which always attracts"
+    },
+    {
+     "id": "d",
+     "label": "None of them; motion affects all parts equally"
+    }
+   ],
+   "answer": "a",
+   "explain": "The electrostatic force changes sign on rotation, so thermal motion averages it out to a large extent; induction and dispersion are always attractive and much less affected.",
+   "cites": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces.van-der-waals-force:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Closeup_shot_of_common_house_gecko%27s_feet.jpg/960px-Closeup_shot_of_common_house_gecko%27s_feet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Van der Waals force",
+  "credit": "Shyamli kashyap",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Closeup_shot_of_common_house_gecko%27s_feet.jpg"
+ },
+ "source": {
+  "title": "Van der Waals force",
+  "url": "https://en.wikipedia.org/wiki/Van_der_Waals_force",
+  "revision": 1383759085
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The van der Waals force is an interaction between atoms or molecules whose strength depends on the distance between them. It is one kind of intermolecular force and includes both attraction and repulsion. Unlike ionic or covalent bonds, it does not come from a chemical electronic bond, so it is comparatively weak and more easily disturbed. It quickly fades as molecules move farther apart. It is named after the Dutch physicist Johannes Diderik van der Waals.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     8
+    ]
+   },
+   {
+    "heading": "Its three parts",
+    "text": "It is usually described as a blend of three forces. London dispersion forces act between instantaneously induced dipoles, Debye forces act between permanent dipoles and the dipoles they induce, and the Keesom force acts between permanent dipoles averaged over their changing orientations. The force arises from a brief shift in electron density: for a moment, more of the electron cloud may sit on one side of the nucleus. That passing charge can attract or repel a nearby atom.",
+    "cites": [
+     7,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Push, balance, pull",
+    "text": "How the force acts depends on distance. At very short range it is repulsive, because the electron clouds of the atoms repel each other. At an equilibrium distance it falls to zero, and beyond that it attracts; for single atoms it lies somewhere from 0.3 to 0.5 nm. Past 1.0 nm the force is hard to observe, since it weakens roughly as the 7th power of distance, ~r⁻⁷.",
+    "cites": [
+     6,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "How weak, how strong",
+    "text": "These forces are often among the weakest of all chemical forces. The attraction between hydrogen atoms in different H₂ molecules is 0.06 kJ/mol. The force grows with the polarizability of the atoms involved: between xenon atoms it reaches 2.35 kJ/mol. Even that is not strong enough to make xenon anything other than a gas under standard conditions.",
+    "cites": [
+     16,
+     17,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Small pulls add up",
+    "text": "In molecular liquids, the many interactions add together. The energy needed to vaporise liquid H₂ or O₂ is roughly 15 times a single pairwise interaction between atoms. The bonds between atoms in metals can also be described as van der Waals interactions, on the order of 12 kJ/mol in lead and 32 kJ/mol in platinum, with strengths comparable to covalent and ionic bonds. So van der Waals forces span a range from weak to strong, and in large numbers they can carry real structural loads.",
+    "cites": [
+     18,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "The van der Waals force plays a basic role in many fields, from supramolecular chemistry and structural biology to polymer science, nanotechnology and surface science. It also shapes many properties of organic compounds and molecular solids, including how well they dissolve in polar and non-polar liquids.",
+    "cites": [
+     4,
+     5
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-vdw-forces",
+   "kind": "article",
+   "title": "Van der Waals Forces",
+   "by": "Chemistry LibreTexts (Rashe, Peterson, Buth and Ly)",
+   "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Atomic_and_Molecular_Properties/Intermolecular_Forces/Van_der_Waals_Forces",
+   "note": "An overview of dispersion and dipole-dipole forces, plus how the van der Waals equation corrects the ideal gas law.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-chem2e-10-1",
+   "kind": "book",
+   "title": "10.1 Intermolecular Forces",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+   "note": "A free textbook section that groups attractions between neutral molecules as van der Waals forces and explains each type.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

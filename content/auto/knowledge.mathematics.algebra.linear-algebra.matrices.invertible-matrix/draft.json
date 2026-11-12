@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "An invertible matrix is a square matrix that has an inverse, so multiplying the two together gives the identity matrix.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Applying a matrix to a vector and then its inverse returns the original vector, because the inverse undoes the operation.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "A square matrix is invertible exactly when its determinant is nonzero, while a matrix with determinant zero collapses volume to zero and has no inverse.",
+   "cites": [
+    13,
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Non-singular, non-degenerate or regular",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Without an inverse",
+   "value": "A square matrix like that is called singular or degenerate",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Finding the inverse",
+   "value": "Row-reduce the matrix beside the identity matrix",
+   "cites": [
+    35,
+    36
+   ]
+  },
+  {
+   "label": "Notation",
+   "value": "The inverse of A is written A⁻¹",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Rank test",
+   "value": "An n × n matrix with rank n is invertible",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A matrix transforms a vector into a new vector. Which matrix brings back the original vector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its inverse"
+    },
+    {
+     "id": "b",
+     "label": "The same matrix applied again"
+    },
+    {
+     "id": "c",
+     "label": "A matrix filled with zeros"
+    },
+    {
+     "id": "d",
+     "label": "Its determinant"
+    }
+   ],
+   "answer": "a",
+   "explain": "If a matrix is applied to a vector, followed by applying its inverse, the result is the original vector.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A matrix squashes every three-dimensional shape into a flat sheet with no volume. What does this say about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is invertible, with a large determinant"
+    },
+    {
+     "id": "b",
+     "label": "It is invertible, because nothing is lost"
+    },
+    {
+     "id": "c",
+     "label": "It is not invertible, since its determinant is zero"
+    },
+    {
+     "id": "d",
+     "label": "It must be the identity matrix"
+    }
+   ],
+   "answer": "c",
+   "explain": "A matrix with determinant zero collapses volume to zero and is not invertible; an invertible matrix does not collapse space.",
+   "cites": [
+    11,
+    13
+   ]
+  },
+  {
+   "prompt": "Can a matrix with 3 rows and 5 columns be invertible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, if all its entries are nonzero"
+    },
+    {
+     "id": "b",
+     "label": "No, only square matrices have inverses"
+    },
+    {
+     "id": "c",
+     "label": "Yes, with a 5 by 3 inverse"
+    },
+    {
+     "id": "d",
+     "label": "Yes, if its determinant is one"
+    }
+   ],
+   "answer": "b",
+   "explain": "An invertible matrix is a square matrix that has an inverse of the same size, so a matrix that is not square cannot qualify.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "prompt": "To find an inverse by hand, you write the matrix next to a second block and row-reduce. What goes in the second block, and what happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A zero matrix; the left side becomes zeros"
+    },
+    {
+     "id": "b",
+     "label": "A copy of the matrix; both sides become equal"
+    },
+    {
+     "id": "c",
+     "label": "Its determinant; the left side becomes a number"
+    },
+    {
+     "id": "d",
+     "label": "The identity matrix; the right side becomes the inverse"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gaussian elimination converts the left side into the identity matrix, which causes the right side to become the inverse of the input matrix.",
+   "cites": [
+    35,
+    36
+   ]
+  },
+  {
+   "prompt": "What is a square matrix without an inverse called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Regular"
+    },
+    {
+     "id": "b",
+     "label": "Singular"
+    },
+    {
+     "id": "c",
+     "label": "Non-singular"
+    },
+    {
+     "id": "d",
+     "label": "Involutory"
+    }
+   ],
+   "answer": "b",
+   "explain": "Over a field, a square matrix that is not invertible is called singular or degenerate.",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "prompt": "A 4 × 4 matrix has rank 4. What does that tell you about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must be the identity matrix"
+    },
+    {
+     "id": "b",
+     "label": "Its determinant must be zero"
+    },
+    {
+     "id": "c",
+     "label": "It has an inverse"
+    },
+    {
+     "id": "d",
+     "label": "It collapses space to a flat set"
+    }
+   ],
+   "answer": "c",
+   "explain": "An n × n matrix whose rank is n is of full rank, and such a matrix is invertible.",
+   "cites": [
+    22,
+    23
+   ]
+  }
+ ]
+}

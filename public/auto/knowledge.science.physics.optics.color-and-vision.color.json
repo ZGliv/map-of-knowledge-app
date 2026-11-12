@@ -1,0 +1,359 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.color-and-vision.color",
+ "name": "Color",
+ "summary": [
+  {
+   "text": "Color is the perception produced when light activates the different types of cone cells in the eye, so it is not an inherent property of matter.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "An object's color relates to how it absorbs, reflects, emits and transmits light, and very different light spectra can give the same color sensation.",
+   "cites": [
+    2,
+    21,
+    22
+   ]
+  },
+  {
+   "text": "Colors are described by hue, colorfulness and lightness, and organized into color spaces such as RGB and CMYK for print, screens and photography.",
+   "cites": [
+    6,
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two ways to mix",
+   "value": "Additive mixes light; subtractive mixes pigments",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Bee vision",
+   "value": "Bees can distinguish ultraviolet",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Spectral purity",
+   "value": "Spectral colors are 100% pure and fully saturated",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Bezold-Brucke shift",
+   "value": "Brighter light shifts hue toward yellow or blue",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Naming the spectrum",
+   "value": "Newton chose the word spectrum in 1671",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A designer dims an orange-yellow light more and more without changing its wavelength. What do viewers end up seeing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A pale lemon yellow"
+    },
+    {
+     "id": "b",
+     "label": "A deep, dark red"
+    },
+    {
+     "id": "c",
+     "label": "A bright white"
+    },
+    {
+     "id": "d",
+     "label": "A brown"
+    }
+   ],
+   "answer": "d",
+   "explain": "Intensity changes how a spectral color is seen: a low-intensity orange-yellow looks brown.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.science.physics.optics.color-and-vision.color:q1"
+  },
+  {
+   "prompt": "Two paint swatches look identical under the shop lights, yet instruments show their light spectra differ. What is going on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their spectra must secretly be the same"
+    },
+    {
+     "id": "b",
+     "label": "They are metamers: different spectra, same color sensation"
+    },
+    {
+     "id": "c",
+     "label": "One swatch is transparent and the other is opaque"
+    },
+    {
+     "id": "d",
+     "label": "The eye cannot sense the swatches' brightness"
+    }
+   ],
+   "answer": "b",
+   "explain": "Many spectra can produce the same color sensation. Spectra that look alike are called metamers of that color.",
+   "cites": [
+    8,
+    21,
+    22
+   ],
+   "id": "knowledge.science.physics.optics.color-and-vision.color:q2"
+  },
+  {
+   "prompt": "A painter blends tubes of paint on a palette, while a stage technician overlaps colored spotlights. Which description fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are doing subtractive mixing"
+    },
+    {
+     "id": "b",
+     "label": "The painter mixes additively and the technician subtractively"
+    },
+    {
+     "id": "c",
+     "label": "The painter mixes subtractively and the technician additively"
+    },
+    {
+     "id": "d",
+     "label": "Both are doing additive mixing"
+    }
+   ],
+   "answer": "c",
+   "explain": "Mixing light is additive, while mixing pigments is subtractive.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.optics.color-and-vision.color:q3"
+  },
+  {
+   "prompt": "A clean glass window pane is described as having no color of its own. Why do we see it that way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It bounces nearly all light back toward us"
+    },
+    {
+     "id": "b",
+     "label": "It soaks up every wavelength equally"
+    },
+    {
+     "id": "c",
+     "label": "It scatters light inward until it fades"
+    },
+    {
+     "id": "d",
+     "label": "It lets almost all light pass straight through"
+    }
+   ],
+   "answer": "d",
+   "explain": "A transparent object allows almost all light to pass through, so it is perceived as colorless.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.science.physics.optics.color-and-vision.color:q4"
+  },
+  {
+   "prompt": "A flower looks plain to you but bees seem to read patterns on it. What best explains the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bees can distinguish a range of light that humans cannot"
+    },
+    {
+     "id": "b",
+     "label": "Bees have fewer cone types than humans do"
+    },
+    {
+     "id": "c",
+     "label": "Flowers change their color when a bee approaches"
+    },
+    {
+     "id": "d",
+     "label": "Bees see only brightness and never any color"
+    }
+   ],
+   "answer": "a",
+   "explain": "Animals can have eyes sensitive to different wavelengths. Bees can distinguish ultraviolet, so their color sensitivity range differs from ours.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.physics.optics.color-and-vision.color:q5"
+  },
+  {
+   "prompt": "People argue over whether indigo and cyan really count as spectral colors. Why can this argument never be settled by measurement alone?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The spectrum is continuous, and where names divide it is a matter of culture and history"
+    },
+    {
+     "id": "b",
+     "label": "Indigo and cyan only appear in the spectrum of artificial lamps"
+    },
+    {
+     "id": "c",
+     "label": "Only one wavelength of each can be produced in a lab"
+    },
+    {
+     "id": "d",
+     "label": "Instruments cannot measure light between blue and green"
+    }
+   ],
+   "answer": "a",
+   "explain": "The spectrum has no built-in breaks, so how it is split into named colors is cultural and historical, and borders between names are not agreed.",
+   "cites": [
+    28,
+    29,
+    30
+   ],
+   "id": "knowledge.science.physics.optics.color-and-vision.color:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Colouring_pencils.jpg/960px-Colouring_pencils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Color",
+  "credit": "MichaelMaggs",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Colouring_pencils.jpg"
+ },
+ "source": {
+  "title": "Color",
+  "url": "https://en.wikipedia.org/wiki/Color",
+  "revision": 1382686687
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Color happens in the eye",
+    "text": "Color is a sensation, not a thing stored inside objects. It arises when light switches on the different kinds of cone cells in the eye. Even so, the color you see is tied to how an object absorbs, gives off, reflects and lets through light.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Three cones, and other animals",
+    "text": "Most people have three kinds of cone cell, a setup called trichromacy. Other animals may have a different number of cone types, or eyes tuned to other wavelengths. Bees, for instance, can pick out ultraviolet light, so the range of colors they sense differs from ours. In every animal, color starts with how its cone types respond to wavelengths, and the brain then processes those signals.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Light and its spectrum",
+    "text": "Electromagnetic radiation is described by its wavelength and its intensity. People see wavelengths from roughly 390 to 700 nm, and radiation in that band is called visible light. Most light sources send out many wavelengths at once. A source's spectrum records how strong it is at each wavelength.",
+    "cites": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Same color, different light",
+    "text": "There are far more possible mixtures of wavelengths than there are color sensations. So quite different spectra can give exactly the same color, and these look-alikes are called metamers. One way to define a color is as the whole group of spectra that produce one sensation. Those groups differ a lot between species and a little between individuals.",
+    "cites": [
+     8,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Pure spectral colors",
+    "text": "The familiar rainbow colors are the ones a single wavelength of light can make, called spectral colors. Isaac Newton named this band the spectrum in 1671, after a Latin word for appearance. Spectral colors count as fully saturated, with 100% purity. The spectrum is continuous, and where a language draws lines between named colors depends on culture and history; even the English ROYGBIV list is disputed, mostly over indigo and cyan.",
+    "cites": [
+     24,
+     26,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Why objects look colored",
+    "text": "An object's physical color depends on how it absorbs and scatters light. A transparent object lets almost all light pass, so it looks colorless. An opaque object lets none through and instead absorbs or reflects what reaches it. A translucent object lets light through yet looks colored, because inside it certain wavelengths are scattered or absorbed. Light that is absorbed often turns into heat.",
+    "cites": [
+     36,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Brightness changes color",
+    "text": "How intense a spectral color is, compared with its surroundings, can change its look a great deal. A dim orange-yellow appears brown, and a dim yellow-green appears olive green. Turning up the intensity of a spectral light shifts its hue toward yellow or blue, an effect called the Bezold–Brücke shift.",
+    "cites": [
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Mixing and measuring color",
+    "text": "Colors can be mixed additively, by combining lights, or subtractively, by combining pigments. To keep order, colors can be placed in a color space, and a mathematical color model then gives each region a set of numbers. These spaces are essential for reproducing color in print, photography, computer monitors and television. Well-known ones include RGB, CMYK, HSL/HSV, CIE Lab and YCbCr/YUV.",
+    "cites": [
+     7,
+     9,
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cp-color-vision",
+   "kind": "book",
+   "title": "Color and Color Vision",
+   "by": "OpenStax, on LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/26%3A_Vision_and_Optical_Instruments/26.03%3A_Color_and_Color_Vision",
+   "note": "A free textbook section on the three cone types, why objects have the colors they do, and color constancy.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "mp-no-pink-light",
+   "kind": "video",
+   "title": "There is no pink light",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=S9dqJRyk0YM",
+   "minutes": 1,
+   "note": "A one-minute minutephysics video on why pink is a color we see but no single wavelength of light."
+  },
+  {
+   "id": "goethe-colours",
+   "kind": "primary",
+   "title": "Goethe's Theory of Colours",
+   "by": "Johann Wolfgang von Goethe",
+   "url": "https://www.gutenberg.org/ebooks/50572",
+   "note": "Goethe's classic study of color and how we perceive it, free on Project Gutenberg.",
+   "license": "Public domain in the USA"
+  }
+ ]
+}

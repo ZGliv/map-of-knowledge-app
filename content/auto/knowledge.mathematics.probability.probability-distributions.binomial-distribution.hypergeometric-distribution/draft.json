@@ -1,0 +1,230 @@
+{
+ "summary": [
+  {
+   "text": "The hypergeometric distribution covers draws without replacement from a finite population, where each result falls into one of two categories such as pass or fail.",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Because each draw shrinks the population, the probability of a success changes on every draw.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "A typical case is an urn of 5 green and 45 red marbles, drawing 10 without replacement and asking for exactly 4 green.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sampling type",
+   "value": "Without replacement from a finite population",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Two categories",
+   "value": "Each result is one of two exclusive groups, like pass or fail",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Marble example",
+   "value": "5 green and 45 red marbles, 10 drawn",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "label": "Matching test",
+   "value": "The hypergeometric test equals a one-tailed Fisher's exact test",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "One-draw case",
+   "value": "With a single draw it becomes a Bernoulli distribution",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You pull marbles out of an urn and keep each one out. Why does the chance of drawing a green one change from draw to draw?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Marbles change colour while in the urn"
+    },
+    {
+     "id": "b",
+     "label": "The urn is shaken harder each time"
+    },
+    {
+     "id": "c",
+     "label": "Each draw removes a marble, which shrinks the population"
+    },
+    {
+     "id": "d",
+     "label": "Green marbles are heavier and sink"
+    }
+   ],
+   "answer": "c",
+   "explain": "Sampling without replacement from a finite population means each draw decreases the population, so the success probability changes.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "An urn holds 5 green and 45 red marbles, and you draw 10 without looking. Which is more likely: exactly 4 green or all 5 green?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 4 green, by a wide margin"
+    },
+    {
+     "id": "b",
+     "label": "All 5 green, since green is the focus"
+    },
+    {
+     "id": "c",
+     "label": "They are about equally likely"
+    },
+    {
+     "id": "d",
+     "label": "Neither can happen with only 10 draws"
+    }
+   ],
+   "answer": "a",
+   "explain": "Getting all 5 green among the 10 drawn is far harder; it is roughly 35 times less likely than getting 4.",
+   "cites": [
+    19,
+    20,
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "Each item drawn from a pool is sorted into one of two exclusive categories. Which pair of categories fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Low, medium or high"
+    },
+    {
+     "id": "b",
+     "label": "Red, green or blue"
+    },
+    {
+     "id": "c",
+     "label": "Pass or fail"
+    },
+    {
+     "id": "d",
+     "label": "Any whole number from 1 to 80"
+    }
+   ],
+   "answer": "c",
+   "explain": "The results fall into two mutually exclusive categories, as with pass or fail.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "You draw 10 raffle tickets from a bin of 40, putting each ticket back before the next draw, and count the winners. Which distribution describes that count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric distribution"
+    },
+    {
+     "id": "b",
+     "label": "Geometric distribution"
+    },
+    {
+     "id": "c",
+     "label": "Multivariate distribution"
+    },
+    {
+     "id": "d",
+     "label": "Binomial distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "Drawing with replacement gives the binomial distribution; the hypergeometric one is for draws without replacement.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "A lab finds k cells of one type in a sample and tests whether that type is under-represented. What does the p-value measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of randomly drawing k or more of that type"
+    },
+    {
+     "id": "b",
+     "label": "The chance of randomly drawing k or fewer of that type"
+    },
+    {
+     "id": "c",
+     "label": "The chance of randomly drawing exactly k of that type"
+    },
+    {
+     "id": "d",
+     "label": "The chance of drawing none of that type at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "In a test for under-representation, the p-value is the probability of randomly drawing k or fewer successes.",
+   "cites": [
+    31,
+    33
+   ]
+  },
+  {
+   "prompt": "A marketing group wants to know whether a subgroup, such as people under 30, is over-represented among its known customers. Which approach fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A hypergeometric test"
+    },
+    {
+     "id": "b",
+     "label": "Counting customers by age and reporting the largest group"
+    },
+    {
+     "id": "c",
+     "label": "Checking whether each customer bought more than once"
+    },
+    {
+     "id": "d",
+     "label": "Asking each subgroup to vote on its share"
+    }
+   ],
+   "answer": "a",
+   "explain": "The hypergeometric test is often used to identify which sub-populations are over- or under-represented in a sample, including testing customers for over-representation of demographic subgroups.",
+   "cites": [
+    36,
+    38
+   ]
+  }
+ ]
+}

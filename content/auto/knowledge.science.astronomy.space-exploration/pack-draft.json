@@ -1,0 +1,100 @@
+{
+ "title": "From Sputnik to Moon landing",
+ "question": "How did spaceflight go from a first beeping satellite to landing on the Moon?",
+ "hook": "A beeping satellite launched in 1957 opened a race that reached the Moon in 1969.",
+ "idea": "A Space Race between the Soviet Union and the United States drove early spaceflight, with each milestone leading toward the first Moon landing.",
+ "beats": [
+  {
+   "kind": "order",
+   "prompt": "Put these milestones in order",
+   "items": [
+    "Sputnik 1 orbits Earth (1957)",
+    "Vostok 1 carries Yuri Gagarin (1961)",
+    "Luna 9 makes a soft landing on the Moon (1966)",
+    "Apollo 11 lands on the Moon (1969)"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Sputnik 1 launched in 1957, Gagarin flew in 1961, Luna 9 landed in 1966 and Apollo 11 landed in 1969.",
+   "cites": [
+    24,
+    31,
+    35,
+    37
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A rocket climbs to 176 kilometers, well above the Kármán line, then returns to Earth in an impact. What explains it?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It never got high enough to count as being in space",
+     "feedback": "It tempts because height sounds like the test, but the rocket went well above the Kármán line."
+    },
+    {
+     "id": "b",
+     "label": "It did not reach orbital velocity, so the flight was sub-orbital"
+    },
+    {
+     "id": "c",
+     "label": "It carried no radio transmitter, so it could not stay up",
+     "feedback": "It tempts because Sputnik 1 had transmitters, but staying up depends on speed, not radio."
+    }
+   ],
+   "answer": "b",
+   "explain": "The V-2 reached space but not orbital velocity, so it fell back as the first sub-orbital spaceflight.",
+   "cites": [
+    20,
+    22
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each mission to its milestone",
+   "pairs": [
+    [
+     "Sputnik 1",
+     "First successful orbital launch"
+    ],
+    [
+     "Vostok 1",
+     "First successful human spaceflight"
+    ],
+    [
+     "Luna 2",
+     "First artificial object to reach another celestial body"
+    ],
+    [
+     "Luna 10",
+     "First artificial satellite of the Moon"
+    ]
+   ],
+   "explain": "Each mission reached its own milestone on the way from orbit to the Moon.",
+   "cites": [
+    24,
+    31,
+    34,
+    36
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Large, relatively efficient rockets were developed in the mid-twentieth century.",
+    "Those rockets allowed physical space exploration to become a reality.",
+    "So astronomy, the observation of objects in space, only began once such rockets existed.",
+    "Sputnik 1, the first human-made object to orbit Earth, followed in 1957."
+   ],
+   "wrong": 2,
+   "explain": "Astronomy predates reliable recorded history; the rockets enabled physical exploration, not observation.",
+   "cites": [
+    2,
+    5
+   ]
+  }
+ ]
+}

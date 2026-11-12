@@ -1,0 +1,322 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system",
+ "name": "Martingale (betting system)",
+ "summary": [
+  {
+   "text": "The martingale betting system is a class of betting strategies that originated in 18th-century France, the simplest of which has the gambler double the bet after every loss.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "The idea is that the first win recovers all previous losses plus a profit equal to the original stake.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "It fails because past bet results cannot predict a future bet better than chance, and in most casino games each bet has negative expected value.",
+   "cites": [
+    6,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Origin",
+   "value": "Popular in 18th-century France",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Roulette use",
+   "value": "Red or black comes up with probability close to 50%",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "When it fails",
+   "value": "Whenever bets, earnings or bankroll have a limit",
+   "cites": [
+    10,
+    12
+   ]
+  },
+  {
+   "label": "Only hope",
+   "value": "Unbounded wealth, bets and time",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "63-unit bankroll",
+   "value": "Six straight losses use it all up",
+   "cites": [
+    24,
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gambler bets 1 unit and loses, bets 2 units and loses, then bets 4 units and wins. What is the net result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Up 4 units"
+    },
+    {
+     "id": "b",
+     "label": "Break even"
+    },
+    {
+     "id": "c",
+     "label": "Down 3 units"
+    },
+    {
+     "id": "d",
+     "label": "Up 1 unit"
+    }
+   ],
+   "answer": "d",
+   "explain": "A win nets 1 unit over the total wagered to that point, which equals the original bet.",
+   "cites": [
+    3,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system:q1"
+  },
+  {
+   "prompt": "A gambler with a 63-unit bankroll bets 1 unit and doubles after each loss. After how many losses in a row can the system no longer continue?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Six"
+    },
+    {
+     "id": "b",
+     "label": "Three"
+    },
+    {
+     "id": "c",
+     "label": "Nine"
+    },
+    {
+     "id": "d",
+     "label": "Sixty-three"
+    }
+   ],
+   "answer": "a",
+   "explain": "Losing all of the first six spins costs a total of 63 units, which exhausts the bankroll.",
+   "cites": [
+    24,
+    25,
+    26,
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system:q2"
+  },
+  {
+   "prompt": "At the roulette table, a player sees red come up five times in a row and bets on black, sure it is due. Why does that not help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Past results cannot predict the next bet better than chance"
+    },
+    {
+     "id": "b",
+     "label": "Black is always less likely after a run of reds"
+    },
+    {
+     "id": "c",
+     "label": "The casino changes the wheel after a long streak"
+    },
+    {
+     "id": "d",
+     "label": "Black only helps when the bet is doubled again"
+    }
+   ],
+   "answer": "a",
+   "explain": "No amount of information about past bets can predict a future bet better than chance, because each bet's outcome is independent.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system:q3"
+  },
+  {
+   "prompt": "Under what conditions could the doubling system be argued to be a winning strategy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When the gambler has a very large bankroll"
+    },
+    {
+     "id": "b",
+     "label": "When the gambler plays for many years"
+    },
+    {
+     "id": "c",
+     "label": "When wealth, bets and time are all unbounded"
+    },
+    {
+     "id": "d",
+     "label": "When the gambler stops after the first win"
+    }
+   ],
+   "answer": "c",
+   "explain": "Only with unbounded wealth, bets and time could it be argued to become a winning strategy; any limit makes it fail.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system:q4"
+  },
+  {
+   "prompt": "Which result proves that winning over the long run is impossible when bets or bankroll are limited?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Doob's martingale inequality"
+    },
+    {
+     "id": "b",
+     "label": "The Black-Scholes formula"
+    },
+    {
+     "id": "c",
+     "label": "The law of the Wiener process"
+    },
+    {
+     "id": "d",
+     "label": "The optional stopping theorem"
+    }
+   ],
+   "answer": "d",
+   "explain": "The impossibility of winning over the long run under a limit on bets or bankroll is proven by the optional stopping theorem.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system:q5"
+  },
+  {
+   "prompt": "Each single bet in a casino game has negative expected value. What is the expected value of a long series of such bets?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Positive, once enough bets are made"
+    },
+    {
+     "id": "b",
+     "label": "Negative, as the sum of many negative numbers"
+    },
+    {
+     "id": "c",
+     "label": "Zero, because wins and losses cancel out"
+    },
+    {
+     "id": "d",
+     "label": "Unknown until the last bet is placed"
+    }
+   ],
+   "answer": "b",
+   "explain": "The expected value of a series of bets is the sum of the expected values of the individual bets, so many negative numbers sum to a negative number.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.martingale-betting-system:q6"
+  }
+ ],
+ "source": {
+  "title": "Martingale (betting system)",
+  "url": "https://en.wikipedia.org/wiki/Martingale_(betting_system)",
+  "revision": 1352413803
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Double after every loss",
+    "text": "The martingale is a family of betting strategies that began in France in the 1700s and was popular there. The simplest version was built for a coin game: heads, and the gambler wins the stake; tails, and the stake is lost. After each loss the gambler doubles the bet. The first win then wins back every earlier loss and adds a profit equal to the original stake. People have also used the system at roulette, where a bet on red or on black wins close to 50% of the time.",
+    "cites": [
+     1,
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "Why it cannot work",
+    "text": "Every martingale-style system fails for one basic reason. Knowing how past bets turned out does not help you predict the next one any better than chance. In mathematical terms, the wins and losses are treated as independent and identically distributed, which is a fair description of many real games. In most casino games each single bet has a negative expected value, and adding up many negative numbers always gives a negative total.",
+    "cites": [
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "heading": "Limits change everything",
+    "text": "The system fails even if the gambler may play forever, as long as winnings or bets are capped, which they are in practice. The optional stopping theorem proves that, with a limit on bet size, bankroll or credit, nobody can win over the long run. Only with unlimited wealth, bets and time could the martingale be argued to win. Then it would be certain to profit, since the chance of at least one heads approaches one as the flips go on without end.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "A worked example",
+    "text": "Imagine a gambler with a bankroll of 63 units who bets 1 unit on the first spin and doubles after each loss. After k losses in a row the bet is 2ᵏ units. Any win leaves the gambler 1 unit ahead of everything staked so far, and the system starts again at 1 unit. But six straight losses cost 63 units in total, which empties the bankroll and ends the system.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Counting the cost",
+    "text": "In that example, the chance of losing six times running and going bust is (10/19)⁶ = 2.1256%. The chance of a win before that happens is 1 − (10/19)⁶ = 97.8744%. Putting these together, the expected value of each application of the system is −0.360374.",
+    "cites": [
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Streaks are more common than they feel",
+    "text": "Many gamblers think six losses in a row is a remote event and that patience will slowly grow their money. Studies in psychology find that people know six losses in six plays is unlikely, and wrongly assume it stays unlikely over many plays. On a single-zero wheel, losing all of the first six plays has only about a 1.8% chance. Yet a run of six losses somewhere in 200 plays has a chance of roughly 84%. Even a gambler able to cover about 1,000 times the first bet faces an ~11% chance of ten losses in a row in 200 plays, which would cost 1,023 times the original bet.",
+    "cites": [
+     37,
+     38,
+     39,
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-martingale-strategy",
+   "kind": "video",
+   "title": "Gambling with the Martingale Strategy",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=zTsRGQj6VT4",
+   "note": "A Numberphile video on the double-after-every-loss martingale betting strategy and why it fails."
+  }
+ ]
+}

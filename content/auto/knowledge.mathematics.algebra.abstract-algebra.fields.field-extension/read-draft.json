@@ -1,0 +1,70 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What a field extension is",
+   "text": "A field extension is a pair of fields: a smaller one, K, sitting inside a larger one, L, where K adds and multiplies exactly as L does when you stay inside K. We then call L an extension field of K, and K a subfield of L. The shorthand for the pair is L / K, said aloud as \"L over K\".",
+   "cites": [
+    1,
+    2,
+    11,
+    12
+   ]
+  },
+  {
+   "heading": "Familiar examples",
+   "text": "The rational numbers sit inside the real numbers, and the real numbers sit inside the complex numbers, so each step is a field extension. Stacking the two steps means C / Q is an extension too. A field caught between the two ends of an extension, as R sits between Q and C, is called an intermediate field.",
+   "cites": [
+    3,
+    8,
+    13,
+    34,
+    35
+   ]
+  },
+  {
+   "heading": "Measuring size with degree",
+   "text": "In an extension L / K, the larger field L can be treated as a vector space over K. The dimension of that space is the degree of the extension, written [L : K]. The degree is 1 exactly when the two fields are the same, and that case is called a trivial extension. Degree 2 gives a quadratic extension, degree 3 a cubic one, and any extension of finite degree is called a finite extension.",
+   "cites": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "heading": "Adjoining new elements",
+   "text": "Pick some set S of elements of L. The smallest subfield of L that holds both K and S is written K(S), read \"K adjoin S\", and S is said to generate it over K. When S is one element s, the extension K(s) / K is called simple and s is called a primitive element. In characteristic 0, every finite extension turns out to be simple; this is the primitive element theorem, and it fails for fields of nonzero characteristic.",
+   "cites": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26
+   ]
+  },
+  {
+   "heading": "Building a missing root",
+   "text": "A common way to make an extension is to create a root for a polynomial that has none. Suppose K has no element whose square is −1. Then X² + 1 is irreducible in K[X], and the quotient K[X] / (X² + 1) is a larger field that does contain a square root of −1, namely the class of X. Repeating this trick builds a splitting field for any polynomial: a field where it breaks completely into linear factors.",
+   "cites": [
+    39,
+    40,
+    41,
+    42,
+    43
+   ]
+  },
+  {
+   "heading": "Where extensions matter",
+   "text": "Finite extensions of Q go by the name algebraic number fields and matter in number theory, as do the p-adic numbers Q_p, an extension of Q that is not finite. For each prime p and positive integer n there is, up to isomorphism, exactly one finite field with pⁿ elements, and it extends the prime field with p elements. More broadly, field extensions are basic tools in algebraic number theory, in Galois theory's study of polynomial roots, and in algebraic geometry.",
+   "cites": [
+    4,
+    37,
+    38,
+    44
+   ]
+  }
+ ]
+}

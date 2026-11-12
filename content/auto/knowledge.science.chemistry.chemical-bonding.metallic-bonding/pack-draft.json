@@ -1,0 +1,102 @@
+{
+ "title": "Electrons that belong to everyone",
+ "question": "What holds a metal together if no atom keeps its own outer electrons?",
+ "hook": "In a metal, the outer electrons stop belonging to any one atom.",
+ "idea": "Metal atoms release their valence electrons into a shared cloud, and the attraction between the cloud and the positive ions holds the metal together.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A metal atom gives up its valence electrons to a large delocalized orbital. What is left behind?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Positively charged cations"
+    },
+    {
+     "id": "b",
+     "label": "Negatively charged ions",
+     "feedback": "It tempts because electrons are moving around, but the atoms are the ones losing electrons, so they end up positive."
+    },
+    {
+     "id": "c",
+     "label": "Neutral atoms with the same electrons as before",
+     "feedback": "The atoms really do lose their valence electrons into the shared orbital, so they cannot stay neutral."
+    }
+   ],
+   "answer": "a",
+   "explain": "The nucleus and the electrons closer to it are left as positively charged cations, held together by the negative charge of the delocalized orbital.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these models of metals in the order they developed.",
+   "items": [
+    "Metals as positive ions held by an ocean of electrons",
+    "The free electron model",
+    "The nearly free electron model",
+    "Band structure and density functional models"
+   ],
+   "ends": [
+    "earliest",
+    "later"
+   ],
+   "explain": "Electrochemistry gave the ocean-of-electrons picture, quantum mechanics gave the free electron model and its nearly free extension, and the nearly free model's failures led to band structure calculations and density functional theory.",
+   "cites": [
+    7,
+    8,
+    9,
+    22,
+    23
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each example to how it relates to metallic bonding.",
+   "pairs": [
+    [
+     "Graphene",
+     "Two-dimensional metallic bonding"
+    ],
+    [
+     "A metal crystal",
+     "Like one molecule with electrons delocalized in three dimensions"
+    ],
+    [
+     "Metal clusters",
+     "Delocalization, often in three-dimensional arrangements"
+    ],
+    [
+     "Metallic vapors",
+     "Often atomic, or molecules held by a conventional covalent bond"
+    ]
+   ],
+   "explain": "Metals take delocalization to its extreme in two and three dimensions, while in vapours the bonding is more conventional.",
+   "cites": [
+    36,
+    38,
+    39,
+    44
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about metallic bonding is wrong. Which?",
+   "steps": [
+    "Metal atoms give up valence electrons to a delocalized orbital.",
+    "This leaves positively charged ions in a crystal lattice.",
+    "The negative charge of the delocalized orbital holds the ions together.",
+    "So metallic bonding must be strongly polar, with charge piled on certain atoms."
+   ],
+   "wrong": 3,
+   "explain": "Metallic bonding is mostly non-polar, because there is little to no difference among the electronegativities of the atoms involved.",
+   "cites": [
+    2,
+    3,
+    41
+   ]
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "A linear map is a function between vector spaces that respects vector addition and scalar multiplication.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It does not matter whether you apply the map before or after adding and scaling, so it preserves linear combinations.",
+   "cites": [
+    9,
+    11
+   ]
+  },
+  {
+   "text": "A matrix is the standard example, and rotations and reflections are simple cases.",
+   "cites": [
+    2,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Origin",
+   "value": "A linear map always sends the origin to the origin",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Matrices",
+   "value": "Maps between finite-dimensional spaces can be written as matrices",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Same space",
+   "value": "Called a linear transformation or linear endomorphism",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Calculus",
+   "value": "Differentiation is a linear map",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Not linear",
+   "value": "Adding one to every real number",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The function that adds one to every real number fails to be linear. What goes wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every number negative"
+    },
+    {
+     "id": "b",
+     "label": "It leaves every number unchanged"
+    },
+    {
+     "id": "c",
+     "label": "It moves zero to a different point"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be drawn as a graph"
+    }
+   ],
+   "answer": "c",
+   "explain": "A linear map always sends the origin to the origin, and adding one sends zero to one.",
+   "cites": [
+    6,
+    19
+   ]
+  },
+  {
+   "prompt": "T is a linear map. You add two vectors and then apply T. A friend applies T to each vector and then adds. How do the results compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same"
+    },
+    {
+     "id": "b",
+     "label": "They differ by a factor of two"
+    },
+    {
+     "id": "c",
+     "label": "They agree only for the zero vector"
+    },
+    {
+     "id": "d",
+     "label": "They are opposite in sign"
+    }
+   ],
+   "answer": "a",
+   "explain": "It does not matter whether the map is applied before or after addition and scalar multiplication.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A linear map squashes space, and you feed it a flat sheet that passes through the origin. What can come out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any flat sheet or line anywhere"
+    },
+    {
+     "id": "b",
+     "label": "A sheet, a line, or the origin, all through the origin"
+    },
+    {
+     "id": "c",
+     "label": "Only a sheet that misses the origin"
+    },
+    {
+     "id": "d",
+     "label": "Only another sheet, never a line"
+    }
+   ],
+   "answer": "b",
+   "explain": "A plane through the origin maps to a plane through the origin, a line through the origin, or just the origin.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "A real matrix with 3 rows and 2 columns multiplies column vectors. Which spaces does it connect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three-dimensional vectors to two-dimensional ones"
+    },
+    {
+     "id": "b",
+     "label": "Two-dimensional vectors to two-dimensional ones"
+    },
+    {
+     "id": "c",
+     "label": "Two-dimensional vectors to three-dimensional ones"
+    },
+    {
+     "id": "d",
+     "label": "Three-dimensional vectors to three-dimensional ones"
+    }
+   ],
+   "answer": "c",
+   "explain": "An m × n real matrix defines a linear map from ℝⁿ to ℝᵐ.",
+   "cites": [
+    2,
+    20
+   ]
+  },
+  {
+   "prompt": "Which of these behaves as a linear function of a random variable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its variance"
+    },
+    {
+     "id": "b",
+     "label": "Its expected value"
+    },
+    {
+     "id": "c",
+     "label": "Both of them"
+    },
+    {
+     "id": "d",
+     "label": "Neither of them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Expected value is linear, since E[X + Y] = E[X] + E[Y], but variance is not, since Var(aX) = a²Var(X).",
+   "cites": [
+    30,
+    32
+   ]
+  },
+  {
+   "prompt": "A student differentiates a sum of two scaled functions by differentiating each one separately and then combining. Which property allows this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Differentiation is a linear map"
+    },
+    {
+     "id": "b",
+     "label": "Differentiation is a basis change"
+    },
+    {
+     "id": "c",
+     "label": "Differentiation is a transposition"
+    },
+    {
+     "id": "d",
+     "label": "Differentiation is a zero map"
+    }
+   ],
+   "answer": "a",
+   "explain": "Differentiation is a linear map: d/dx(af(x) + bg(x)) = adf(x)/dx + bdg(x)/dx.",
+   "cites": [
+    24,
+    26
+   ]
+  }
+ ]
+}

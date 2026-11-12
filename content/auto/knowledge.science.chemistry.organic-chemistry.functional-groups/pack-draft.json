@@ -1,0 +1,106 @@
+{
+ "title": "Small Groups, Big Predictions",
+ "question": "Why can chemists predict how huge molecules will react?",
+ "hook": "A tiny cluster of atoms can decide how an enormous molecule behaves.",
+ "idea": "A functional group reacts the same or similar way wherever it sits, so spotting the group lets chemists predict a molecule's reactions and plan syntheses.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Sugar and water both carry hydroxyl groups. Following 'like dissolves like', what happens when sugar meets water?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It stays as grains, because solids rarely mix with liquids",
+     "feedback": "Everyday solids often stay put, but matching groups that interact strongly are what drive dissolving."
+    },
+    {
+     "id": "b",
+     "label": "It dissolves, because the shared hydroxyl groups interact strongly"
+    },
+    {
+     "id": "c",
+     "label": "It floats on top, because hydroxyl groups repel each other",
+     "feedback": "Hydroxyl groups interact strongly with each other, which pulls sugar and water together."
+    }
+   ],
+   "answer": "b",
+   "explain": "Sugar dissolves in water because both share the hydroxyl functional group, and hydroxyls interact strongly with each other.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each to its defining feature",
+   "pairs": [
+    [
+     "Haloalkane",
+     "A carbon–halogen bond"
+    ],
+    [
+     "Hydroxyl group",
+     "The −OH shared by sugar and water"
+    ],
+    [
+     "Carboxylate salt",
+     "A charged −COO⁻ group"
+    ],
+    [
+     "Ligand",
+     "A group binding to a central atom in a coordination complex"
+    ]
+   ],
+   "explain": "Each term names a group or class by the atoms that define it.",
+   "cites": [
+    9,
+    10,
+    13,
+    32
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Compounds containing boron have partially filled octets. How do they behave?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "As Lewis acids"
+    },
+    {
+     "id": "b",
+     "label": "As inert gases that react with nothing",
+     "feedback": "Partially filled octets make boron compounds eager to react, not inert."
+    },
+    {
+     "id": "c",
+     "label": "As Lewis bases",
+     "feedback": "A filled octet would point that way; boron's partly empty one points the opposite way."
+    }
+   ],
+   "answer": "a",
+   "explain": "Having partially filled octets, boron compounds act as Lewis acids.",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A functional group causes a molecule's characteristic chemical reactions.",
+    "The same group reacts the same or similar way in any molecule.",
+    "So other groups nearby can never change how a group reacts.",
+    "So chemists can use groups to predict reactions and plan syntheses."
+   ],
+   "wrong": 2,
+   "explain": "The reactivity of a functional group can be modified by other functional groups nearby, so predictions are good guides, not guarantees.",
+   "cites": [
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.virus.capsid",
+ "name": "Capsid",
+ "summary": [
+  {
+   "text": "A capsid is the protein shell of a virus, and it encloses the virus's genetic material.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Most viruses have a helical or icosahedral capsid, although some, such as bacteriophages, have more complicated structures.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "text": "Some viruses are enveloped, meaning the capsid is coated with a lipid membrane that it acquires from a cellular membrane of the host.",
+   "cites": [
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Building blocks",
+   "value": "Repeating protein subunits called protomers",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Nucleocapsid",
+   "value": "The capsid and core together bear this name",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "label": "Icosahedral shape",
+   "value": "Twenty equilateral triangular faces, close to a sphere",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Foot-and-mouth capsid",
+   "value": "Faces made of three proteins, VP1 to VP3",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Best-known helical virus",
+   "value": "The tobacco mosaic virus",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A virologist sees a capsid with 20 triangular faces that nearly forms a ball. How is it described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Helical, a shape like a spring"
+    },
+    {
+     "id": "b",
+     "label": "Icosahedral, a shape approximating a sphere"
+    },
+    {
+     "id": "c",
+     "label": "Enveloped, because of a lipid coat"
+    },
+    {
+     "id": "d",
+     "label": "Filamentous, like a loose thread"
+    }
+   ],
+   "answer": "b",
+   "explain": "The icosahedral shape has 20 equilateral triangular faces and approximates a sphere; the helical shape resembles a spring.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.biology.microbes.virus.capsid:q1"
+  },
+  {
+   "prompt": "Some viruses wear an extra lipid coat over their protein shell. Where does that coat come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The virus builds it from scratch with its own genes"
+    },
+    {
+     "id": "b",
+     "label": "The capsid proteins themselves fold into it"
+    },
+    {
+     "id": "c",
+     "label": "The capsid takes it from a membrane of the host it infected"
+    },
+    {
+     "id": "d",
+     "label": "The host's immune cells attach it as a tag"
+    }
+   ],
+   "answer": "c",
+   "explain": "The envelope is acquired by the capsid from a cellular membrane in the host.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.biology.microbes.virus.capsid:q2"
+  },
+  {
+   "prompt": "A virus has entered a cell and starts replicating. How does it get the new subunits for its capsids?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are built using the cell's own protein-making machinery"
+    },
+    {
+     "id": "b",
+     "label": "They are carried in whole inside the infecting virus"
+    },
+    {
+     "id": "c",
+     "label": "The virus builds them in its own tiny factories"
+    },
+    {
+     "id": "d",
+     "label": "They are borrowed from the cell's wall"
+    }
+   ],
+   "answer": "a",
+   "explain": "New capsid subunits are synthesized using the protein biosynthesis mechanism of the host cell.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.biology.microbes.virus.capsid:q3"
+  },
+  {
+   "prompt": "Why must a virus build a stable protein shell around its genes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To give the virus the energy it needs to replicate"
+    },
+    {
+     "id": "b",
+     "label": "To make the particle larger than the cell it infects"
+    },
+    {
+     "id": "c",
+     "label": "To let the host's immune cells grab hold of it"
+    },
+    {
+     "id": "d",
+     "label": "To shield the genome from extremes of pH or temperature and from enzymes"
+    }
+   ],
+   "answer": "d",
+   "explain": "The shell protects the genome from lethal chemical and physical agents, including extremes of pH or temperature and proteolytic and nucleolytic enzymes.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.science.biology.microbes.virus.capsid:q4"
+  },
+  {
+   "prompt": "Some complex viruses with double-stranded DNA assemble an empty shell first. How does the DNA get inside?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Through a specialized portal at one vertex of the shell"
+    },
+    {
+     "id": "b",
+     "label": "The shell is built around the DNA as the proteins co-assemble"
+    },
+    {
+     "id": "c",
+     "label": "The DNA seeps in through gaps between the shell proteins"
+    },
+    {
+     "id": "d",
+     "label": "The shell dissolves and re-forms around the DNA"
+    }
+   ],
+   "answer": "a",
+   "explain": "Such viruses assemble empty procapsids with a specialized portal structure at one vertex, and the viral DNA is translocated in through it.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.science.biology.microbes.virus.capsid:q5"
+  },
+  {
+   "prompt": "A farmer's plants carry a rod-shaped, filamentous virus. Which capsid symmetry do many such plant viruses have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Icosahedral symmetry"
+    },
+    {
+     "id": "b",
+     "label": "A cylinder with a cap at either end"
+    },
+    {
+     "id": "c",
+     "label": "Helical symmetry"
+    },
+    {
+     "id": "d",
+     "label": "No symmetry at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Many rod-shaped and filamentous plant viruses have capsids with helical symmetry.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.science.biology.microbes.virus.capsid:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/CMVschema.svg/960px-CMVschema.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Capsid",
+  "credit": "Emmanuel Boutet",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:CMVschema.svg"
+ },
+ "source": {
+  "title": "Capsid",
+  "url": "https://en.wikipedia.org/wiki/Capsid",
+  "revision": 1375443332
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A protein shell",
+    "text": "A capsid is the shell of protein around a virus's genetic material. It is built from repeating protein units called protomers. The units you can actually make out in its 3-D shape are called capsomeres, and they may or may not match single proteins. The proteins themselves are called capsid proteins, or viral coat proteins.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Core and envelope",
+    "text": "The genome inside the capsid, sometimes with a core protein, is called the virus core, and capsid plus core together make the nucleocapsid. In enveloped viruses the capsid is coated with a lipid membrane, the viral envelope. The capsid gets this envelope from one of the host cell's membranes, such as the inner nuclear membrane, the Golgi membrane or the cell's outer membrane.",
+    "cites": [
+     5,
+     6,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Two common shapes",
+    "text": "Most capsids are either helical or icosahedral. An icosahedron has 20 equal triangular faces and comes close to a sphere, while a helical capsid is shaped like a spring that fills the space of a cylinder without being one. Many rod-shaped and threadlike plant viruses are helical, and the best understood is the tobacco mosaic virus. Each of its coat proteins binds three nucleotides of its RNA, with 16.33 protein units per turn. Some viruses, such as bacteriophages, have more complicated shapes.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     32,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Counting the pieces",
+    "text": "An icosahedral capsid is made of 12 pentamers plus 10(T − 1) hexamers, where the T-number reflects how large and complex the capsid is. Each face can be made of one protein or of several; the foot-and-mouth disease virus uses three, named VP1–3. The heads of bacteriophages are often elongated icosahedra: a cylinder with a cap at each end.",
+    "cites": [
+     11,
+     12,
+     21,
+     22,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Building a capsid",
+    "text": "After a virus infects a cell and starts copying itself, the cell's own protein-making machinery builds new capsid pieces. In some viruses, including helical ones and especially those with RNA genomes, the capsid proteins assemble together with the genome. In others, especially complex viruses with double-stranded DNA, the proteins first build an empty procapsid with a special portal at one corner. The viral DNA is then moved into the capsid through that portal.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Protecting and delivering",
+    "text": "The shell has to be stable enough to guard the genome against harm, such as extremes of pH or temperature and enzymes that break down proteins and nucleic acids. In viruses without an envelope, the capsid itself may take part in contact with receptors on the host cell, which leads to it crossing the cell membrane and getting inside. The genome is then released either by the capsid coming apart in the cytoplasm or by being pushed through a portal straight into the nucleus.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Family trees from shells",
+    "text": "The structure of the major capsid protein has been used to sort viruses into lineages. Bacteriophage PRD1, the algal virus PBCV-1, mimivirus and mammalian adenovirus share one lineage. Tailed double-stranded DNA bacteriophages and herpesviruses belong to another.",
+    "cites": [
+     19,
+     20
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-viral-morphology",
+   "kind": "book",
+   "title": "21.1 Viral Evolution, Morphology, and Classification - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+   "note": "A free textbook section on virus structure: the capsid, capsomeres, and helical, icosahedral and complex shapes.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

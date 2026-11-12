@@ -1,0 +1,538 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.systems-of-equations",
+ "name": "Systems of equations",
+ "summary": [
+  {
+   "text": "A system of linear equations is a collection of two or more linear equations involving the same variables.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A solution assigns values to the variables so that all the equations are satisfied simultaneously.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "With two variables each equation determines a line, so the solution set is where the lines meet: a line, a single point, or the empty set.",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Example solution",
+   "value": "(x, y, z) = (1, −2, −2) fits all three equations",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Two variables",
+   "value": "Each equation determines a line on the xy-plane",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Three variables",
+   "value": "Each equation determines a plane in three-dimensional space",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Matrix form",
+   "value": "A𝐱 = 𝐛, with A an m×n matrix",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Fewer equations",
+   "value": "Fewer equations than unknowns is called underdetermined",
+   "cites": [
+    34,
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Three flat sheets are all parallel and sit apart from one another. What can you say about the solution set of their three equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is one single common point"
+    },
+    {
+     "id": "b",
+     "label": "It is a whole line of points"
+    },
+    {
+     "id": "c",
+     "label": "It is empty, no shared point"
+    },
+    {
+     "id": "d",
+     "label": "It is a whole plane of points"
+    }
+   ],
+   "answer": "c",
+   "explain": "Three parallel planes do not have a common point, so the solution set of their equations is empty.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations:q1"
+  },
+  {
+   "prompt": "Two equations in x and y draw two lines that cross at one spot. How many solutions does the system have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one, where they cross"
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many, all along both"
+    },
+    {
+     "id": "c",
+     "label": "None, since they never agree"
+    },
+    {
+     "id": "d",
+     "label": "Two, one for each of the lines"
+    }
+   ],
+   "answer": "a",
+   "explain": "The solution set is the intersection of the lines, and two lines crossing share a single unique point.",
+   "cites": [
+    26,
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations:q2"
+  },
+  {
+   "prompt": "A system has fewer equations than unknowns. In general, what should you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one unique solution"
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many, or possibly none"
+    },
+    {
+     "id": "c",
+     "label": "Exactly two separate solutions"
+    },
+    {
+     "id": "d",
+     "label": "Never any solutions at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "In general such an underdetermined system has infinitely many solutions, but it may have no solution.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations:q3"
+  },
+  {
+   "prompt": "A system has more equations than unknowns. In general, what should you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No solution"
+    },
+    {
+     "id": "b",
+     "label": "Exactly one solution"
+    },
+    {
+     "id": "c",
+     "label": "Infinitely many solutions"
+    },
+    {
+     "id": "d",
+     "label": "A solution for every choice of values"
+    }
+   ],
+   "answer": "a",
+   "explain": "In general a system with more equations than unknowns has no solution; it is called overdetermined.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations:q4"
+  },
+  {
+   "prompt": "Someone finds values that satisfy two of the three equations in a system. Have they found a solution of the system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, satisfying most of them is enough"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as the two are linear"
+    },
+    {
+     "id": "c",
+     "label": "No, every equation must hold at once"
+    },
+    {
+     "id": "d",
+     "label": "Only if the third is non-linear"
+    }
+   ],
+   "answer": "c",
+   "explain": "A solution must make all the equations simultaneously satisfied.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations:q5"
+  },
+  {
+   "prompt": "Three equations in two unknowns draw three lines. Under which condition can the system still be solved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Never, since extra equations always rule it out"
+    },
+    {
+     "id": "b",
+     "label": "Only when two of the lines are parallel"
+    },
+    {
+     "id": "c",
+     "label": "Only when the lines never touch"
+    },
+    {
+     "id": "d",
+     "label": "When all three lines meet at a single point"
+    }
+   ],
+   "answer": "d",
+   "explain": "A system of three equations and two unknowns can be solvable if the three lines intersect at a single point.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Secretsharing_3-point.svg/960px-Secretsharing_3-point.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Systems of equations",
+  "credit": "Fred the Oyster",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Secretsharing_3-point.svg"
+ },
+ "source": {
+  "title": "System of linear equations",
+  "url": "https://en.wikipedia.org/wiki/System_of_linear_equations",
+  "revision": 1382534594
+ },
+ "pack": {
+  "id": "auto-equations-systems-of-equations",
+  "title": "Where the lines meet",
+  "question": "What does it mean to solve several equations at once?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Equations",
+   "Systems of equations"
+  ],
+  "hue": 56,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Secretsharing_3-point.svg/960px-Secretsharing_3-point.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Systems of equations",
+    "credit": "Fred the Oyster · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Secretsharing_3-point.svg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Where the lines meet",
+    "hook": "One equation leaves plenty of room; stack on more and that room can shrink to a point or vanish."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-systems-of-equations:1",
+    "transfer": false,
+    "prompt": "Two equations in x and y draw two parallel lines. What is the solution set?",
+    "explain": "It is possible for a system of two equations and two unknowns to have no solution, if the two lines are parallel.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "One point",
+        "feedback": "Parallel lines never cross, so there is no single meeting point."
+       },
+       {
+        "id": "b",
+        "label": "A whole line",
+        "feedback": "That needs the two lines to coincide, which parallel lines do not."
+       },
+       {
+        "id": "c",
+        "label": "Empty"
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-equations-systems-of-equations:2",
+    "transfer": false,
+    "prompt": "match each number of variables to what one equation draws",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Two variables"
+     },
+     {
+      "id": "l1",
+      "label": "Three variables"
+     },
+     {
+      "id": "l2",
+      "label": "n variables"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "A plane in three-dimensional space"
+     },
+     {
+      "id": "r2",
+      "label": "A hyperplane in n-dimensional space"
+     },
+     {
+      "id": "r0",
+      "label": "A line on the xy-plane"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each linear equation determines a flat shape one dimension below the space of its variables, and the solution set is their intersection."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-systems-of-equations:3",
+    "transfer": true,
+    "prompt": "A system has the same number of equations as unknowns. In general, what do you expect?",
+    "explain": "In general, a system with the same number of equations and unknowns has a single unique solution.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "A single unique solution"
+       },
+       {
+        "id": "a",
+        "label": "No solution",
+        "feedback": "That is the usual outcome with more equations than unknowns, not with equal numbers."
+       },
+       {
+        "id": "b",
+        "label": "Infinitely many solutions",
+        "feedback": "That is the usual outcome with fewer equations than unknowns."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-equations-systems-of-equations:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Each of three equations in three variables determines a plane."
+     },
+     {
+      "id": "b",
+      "text": "The solution set is the intersection of the three planes."
+     },
+     {
+      "id": "c",
+      "text": "Three planes can meet at a single point, which gives one solution."
+     },
+     {
+      "id": "d",
+      "text": "So the solution set of three planes can never be a line."
+     }
+    ],
+    "answer": "d",
+    "explain": "The solution set may be a plane, a line, a single point, or the empty set; three planes passing through two points share the whole line through them."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A solution must satisfy every equation together, so the solution set is where all their lines or planes intersect.",
+    "connections": [
+     {
+      "title": "Gaussian elimination",
+      "place": "Systems of equations",
+      "node": "knowledge.mathematics.algebra.equations.systems-of-equations.gaussian-elimination"
+     },
+     {
+      "title": "Cramer's rule",
+      "place": "Systems of equations",
+      "node": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule"
+     },
+     {
+      "title": "Nonlinear system",
+      "place": "Systems of equations",
+      "node": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "It is possible for a system of two equations and two unknowns to have no solution, if the two lines are parallel.",
+    "source": "Wikipedia sentences 44"
+   },
+   {
+    "claim": "Each linear equation determines a flat shape one dimension below the space of its variables, and the solution set is their intersection.",
+    "source": "Wikipedia sentences 25, 27, 30"
+   },
+   {
+    "claim": "In general, a system with the same number of equations and unknowns has a single unique solution.",
+    "source": "Wikipedia sentences 36"
+   },
+   {
+    "claim": "The solution set may be a plane, a line, a single point, or the empty set; three planes passing through two points share the whole line through them.",
+    "source": "Wikipedia sentences 27, 28, 29"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Several equations at once",
+    "text": "A linear system is a set of two or more linear equations that all use the same variables. A solution gives a value to each variable so that every equation holds at the same moment. The collection of all such solutions is called the solution set. A lone equation such as 2x = 4 has the answer x = 2, but most interesting systems have two equations or more.",
+    "cites": [
+     1,
+     2,
+     13,
+     14,
+     24
+    ]
+   },
+   {
+    "heading": "Why they matter",
+    "text": "Linear systems are a basic building block of linear algebra, which most modern mathematics uses. Methods for solving them by computer belong to numerical linear algebra and play a big part in engineering, physics, chemistry, computer science and economics. Even a nonlinear system can often be approximated by a linear one, a trick called linearization, which helps when building a model or simulation of something complicated.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Lines and planes",
+    "text": "With two variables, x and y, each equation draws a line on the xy-plane. Since a solution must satisfy every equation, the solution set is where the lines meet: a whole line, a single point, or nothing. With three variables each equation is a plane in space, and the answer can be a plane, a line, a point or empty. Three parallel planes, for example, share no point, so their system has no solution.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Counting equations and unknowns",
+    "text": "Usually the number of equations compared with the number of unknowns decides how a system behaves. With fewer equations than unknowns there are typically infinitely many solutions, though there may be none; this is an underdetermined system. With equal numbers there is typically exactly one solution. With more equations than unknowns there is typically no solution; this is an overdetermined system.",
+    "cites": [
+     32,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "The exceptions",
+    "text": "These rules describe the general case, and particular values of the coefficients can break them. Two equations in two unknowns have no solution if their lines are parallel. Three equations in two unknowns can still be solved if all three lines pass through one point.",
+    "cites": [
+     33,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "The matrix form",
+    "text": "A vector equation can be traded for an equivalent matrix equation, A𝐱 = 𝐛. In it, A is an m×n matrix, while 𝐱 and 𝐛 are columns holding n and m entries respectively. The coefficients and unknowns are often real or complex numbers, but integers, rational numbers and polynomials appear too.",
+    "cites": [
+     18,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-1",
+   "kind": "book",
+   "title": "7.1 Systems of Linear Equations: Two Variables",
+   "by": "OpenStax (Jay Abramson et al.)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/7-1-systems-of-linear-equations-two-variables",
+   "note": "A free textbook section on solving two equations by graphing, substitution and elimination, and spotting parallel lines."
+  },
+  {
+   "id": "openstax-7-2",
+   "kind": "book",
+   "title": "7.2 Systems of Linear Equations: Three Variables",
+   "by": "OpenStax (Jay Abramson et al.)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/7-2-systems-of-linear-equations-three-variables",
+   "note": "The next section: three equations in three unknowns, and how to tell one, none or infinitely many solutions apart."
+  },
+  {
+   "id": "mit-geometry-linear-equations",
+   "kind": "course",
+   "title": "The Geometry of Linear Equations",
+   "by": "Gilbert Strang, MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/",
+   "note": "Strang's first linear algebra lecture: a system seen as crossing lines and planes, with notes and practice problems.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-linear-system",
+   "kind": "article",
+   "title": "Linear System of Equations",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/LinearSystemofEquations.html",
+   "note": "A short reference on the Ax = b form, when a system is consistent, and over- and underdetermined systems."
+  }
+ ]
+}

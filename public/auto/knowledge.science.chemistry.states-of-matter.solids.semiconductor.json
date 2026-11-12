@@ -1,0 +1,331 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.solids.semiconductor",
+ "name": "Semiconductor",
+ "summary": [
+  {
+   "text": "A semiconductor is a material with electrical conductivity between that of a conductor and an insulator.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Adding impurities, called doping, to its crystal structure changes its conductivity, and two regions with different doping in one crystal form a semiconductor junction.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The behavior of charge carriers at these junctions is the basis of diodes, transistors and most modern electronics.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Common examples",
+   "value": "Silicon, germanium and gallium arsenide",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Second-most common",
+   "value": "Gallium arsenide, after silicon",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Temperature effect",
+   "value": "Conductivity rises with temperature, unlike in a metal",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "label": "Transistor invented",
+   "value": "1947, with the integrated circuit following in 1958",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A silicon sample and a metal wire are both warmed. What happens to how well each conducts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both improve"
+    },
+    {
+     "id": "b",
+     "label": "Both decrease"
+    },
+    {
+     "id": "c",
+     "label": "The silicon's decreases, and the metal's improves"
+    },
+    {
+     "id": "d",
+     "label": "The silicon's conductivity improves, and the metal's decreases"
+    }
+   ],
+   "answer": "d",
+   "explain": "The conductivity of a semiconductor can be improved by increasing its temperature, contrary to a metal, where conductivity decreases.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.semiconductor:q1"
+  },
+  {
+   "prompt": "A chip maker mixes a tiny trace of boron atoms into silicon. What is the effect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes an insulator"
+    },
+    {
+     "id": "b",
+     "label": "Its conductivity increases"
+    },
+    {
+     "id": "c",
+     "label": "Nothing changes, because the amount is so small"
+    },
+    {
+     "id": "d",
+     "label": "It stops having a crystal structure"
+    }
+   ],
+   "answer": "b",
+   "explain": "Adding a small amount of trivalent atoms such as boron to silicon increases its conductivity. This is doping.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.semiconductor:q2"
+  },
+  {
+   "prompt": "A chip maker dopes a semiconductor with a Group V element. What does this add to the crystal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Extra ions, giving a fluid"
+    },
+    {
+     "id": "b",
+     "label": "Extra free holes, giving p-type doping"
+    },
+    {
+     "id": "c",
+     "label": "Free electrons, giving n-type doping"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since only Group III elements change a semiconductor"
+    }
+   ],
+   "answer": "c",
+   "explain": "Group V elements act as donors that create free electrons, known as n-type doping.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.semiconductor:q3"
+  },
+  {
+   "prompt": "Two differently doped pieces of germanium are joined. What happens at the join?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Electrons and holes cross over until a narrow strip of fixed ions sets up an electric field"
+    },
+    {
+     "id": "b",
+     "label": "Nothing happens at all until a current is forced through them"
+    },
+    {
+     "id": "c",
+     "label": "The pieces melt together into a single uniform sample at once"
+    },
+    {
+     "id": "d",
+     "label": "Only electrons cross over, while the holes stay exactly in place"
+    }
+   ],
+   "answer": "a",
+   "explain": "Electrons and holes are exchanged until equilibrium by recombination, leaving a narrow strip of immobile ions that causes an electric field across the junction.",
+   "cites": [
+    31,
+    33,
+    35,
+    36
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.semiconductor:q4"
+  },
+  {
+   "prompt": "Why can some semiconductor devices glow instead of just getting warm?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their ions burn off, producing a flame"
+    },
+    {
+     "id": "b",
+     "label": "Their holes heat the crystal until it shines"
+    },
+    {
+     "id": "c",
+     "label": "Their crystal lattice vibrates faster until it emits light"
+    },
+    {
+     "id": "d",
+     "label": "Excited electrons can give off light, not heat, when they relax"
+    }
+   ],
+   "answer": "d",
+   "explain": "In certain semiconductors, excited electrons relax by emitting light instead of producing heat, which is used in light-emitting diodes.",
+   "cites": [
+    42,
+    44
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.semiconductor:q5"
+  },
+  {
+   "prompt": "A semiconductor in its natural state barely carries current. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its valence bands are filled, which blocks new electrons from flowing"
+    },
+    {
+     "id": "b",
+     "label": "Its electrons are all missing, so nothing is left to move"
+    },
+    {
+     "id": "c",
+     "label": "It has far too many free holes, which block the flow"
+    },
+    {
+     "id": "d",
+     "label": "It is always too hot for any current to pass through"
+    }
+   ],
+   "answer": "a",
+   "explain": "Current needs electrons to flow, and semiconductors' filled valence bands prevent new electrons from flowing in their natural state.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solids.semiconductor:q6"
+  }
+ ],
+ "source": {
+  "title": "Semiconductor",
+  "url": "https://en.wikipedia.org/wiki/Semiconductor",
+  "revision": 1384009419
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Between conductor and insulator",
+    "text": "A semiconductor is a material that carries electricity better than an insulator but not as well as a conductor. Silicon, germanium and gallium arsenide are examples, along with elements close to the so-called metalloid staircase of the periodic table. Silicon is key to building most electronic circuits. Gallium arsenide is the second most common semiconductor after it, used in laser diodes, solar cells and microwave-frequency integrated circuits.",
+    "cites": [
+     1,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Changing conductivity on purpose",
+    "text": "A semiconductor's conductivity can be changed by adding impurities to its crystal, a process called doping. Doping greatly raises the number of charge carriers. In silicon, adding about one atom in 10⁸ of phosphorus, arsenic or antimony, or of boron, gallium or indium, increases conductivity, and the result is called an extrinsic semiconductor. Heating a semiconductor also raises its conductivity, the reverse of a metal, which conducts less as it warms.",
+    "cites": [
+     2,
+     12,
+     13,
+     14,
+     15,
+     17
+    ]
+   },
+   {
+    "heading": "n-type and p-type",
+    "text": "Doping with Group V elements makes them act as donors that supply free electrons, which is called n-type doping. Doping with Group III elements makes them act as acceptors that create free holes, which is p-type doping. The two labels refer to an excess of electrons and a shortage of them. Materials for electronic devices are doped under precise conditions to control where each type goes, and a hot-point probe can quickly tell which type a sample is.",
+    "cites": [
+     18,
+     19,
+     20,
+     22,
+     29
+    ]
+   },
+   {
+    "heading": "What happens at a junction",
+    "text": "When two regions with different doping sit in the same crystal, they form a junction. Picture germanium with a p-doped part and an n-doped part: the n side holds extra electrons and the p side extra holes, and the two trade carriers. Electrons drifting from the n side meet holes drifting from the p side and are removed by recombination until a balance is reached. What remains is a narrow strip of fixed ions, which sets up an electric field across the junction.",
+    "cites": [
+     3,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     41
+    ]
+   },
+   {
+    "heading": "From junctions to devices",
+    "text": "Diodes, transistors and most of today's electronics rest on how charge carriers behave at these junctions. Semiconductor devices can let current pass more easily one way than the other, vary their resistance, or react to light or heat. Since doping, electric fields and light can all change a semiconductor's electrical properties, devices made from them can amplify signals, switch, and convert energy. In some semiconductors, excited electrons give off light rather than heat, and these are used to build light-emitting diodes and fluorescent quantum dots.",
+    "cites": [
+     5,
+     9,
+     10,
+     42,
+     44
+    ]
+   },
+   {
+    "heading": "A short history",
+    "text": "Some semiconductor properties were noticed between the middle of the 1800s and the early decades of the 1900s. Their first practical use in electronics was the cat's-whisker detector of 1904, a crude diode used in early radio receivers. Advances in quantum physics then brought the transistor in 1947, followed by the integrated circuit in 1958.",
+    "cites": [
+     23,
+     24,
+     25
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-9-6",
+   "kind": "book",
+   "title": "9.6 Semiconductors and Doping",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/9-6-semiconductors-and-doping",
+   "note": "A free textbook section on band gaps and how donor and acceptor impurities make n-type and p-type semiconductors.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-semiconductors",
+   "kind": "book",
+   "title": "Introduction to Inorganic Chemistry/Electronic Properties of Materials: Superconductors and Semiconductors",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry/Electronic_Properties_of_Materials:_Superconductors_and_Semiconductors",
+   "note": "A chemist's open textbook chapter on band gaps, doping rules and p-n junctions, ending with problems."
+  },
+  {
+   "id": "crashcourse-eng-semiconductors",
+   "kind": "video",
+   "title": "Silicon, Semiconductors, & Solar Cells: Crash Course Engineering #22",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ivWXuOd5SrI",
+   "note": "A Crash Course Engineering episode on silicon semiconductors and how they are used in solar cells."
+  }
+ ]
+}

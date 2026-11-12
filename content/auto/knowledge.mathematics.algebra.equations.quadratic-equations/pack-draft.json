@@ -1,0 +1,106 @@
+{
+ "title": "When x meets its square",
+ "question": "How many answers can a quadratic equation have?",
+ "hook": "Give an equation a squared term and the number of answers stops being obvious.",
+ "idea": "A quadratic with real coefficients has zero, one or two real roots, and completing the square finds them.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A quadratic equation has only one distinct root. How can that root be understood?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "As two roots that happen to have the same value"
+    },
+    {
+     "id": "b",
+     "label": "As a missing root, so the equation is really linear",
+     "feedback": "A double root is still a root, counted twice, not a missing one."
+    },
+    {
+     "id": "c",
+     "label": "As a root plus a hidden complex partner",
+     "feedback": "Complex roots come in a pair when there are no real roots, not alongside a real one."
+    },
+    {
+     "id": "d",
+     "label": "As a sign the equation is broken",
+     "feedback": "A single repeated root is allowed and has a name."
+    }
+   ],
+   "answer": "a",
+   "explain": "A single distinct root is a double root, two roots with the same value.",
+   "cites": [
+    3,
+    13
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the steps of completing the square in order.",
+   "items": [
+    "Add the square of one-half of b/a, the coefficient of x, to both sides",
+    "See that the left side is now a perfect square",
+    "Write the left side as a square and simplify the right side",
+    "Take the positive and negative square roots to get two linear equations"
+   ],
+   "ends": [
+    "First",
+    "Last"
+   ],
+   "explain": "Adding the right amount completes the square, then you write it as a square, then square roots give two linear equations.",
+   "cites": [
+    27,
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each name to what it is.",
+   "pairs": [
+    [
+     "Quadratic formula",
+     "Gives the solutions in terms of a, b and c"
+    ],
+    [
+     "Completing the square",
+     "One of several ways to derive that formula"
+    ],
+    [
+     "Zero Factor Property",
+     "Equation holds if px + q = 0 or rx + s = 0"
+    ],
+    [
+     "Factoring by inspection",
+     "Apart from special cases, needs rational roots"
+    ]
+   ],
+   "explain": "Each connects to finding the solutions of a quadratic equation, and each has its own use.",
+   "cites": [
+    7,
+    8,
+    19,
+    25
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "To solve x² + 5x + 6 = 0, look for two numbers that add to 5 and multiply to 6.",
+    "Those numbers are 2 and 3, so it factors as (x + 2)(x + 3) = 0.",
+    "A product is zero only if one factor is zero, so x + 2 = 0 or x + 3 = 0.",
+    "So the solutions are x = 2 and x = 3."
+   ],
+   "wrong": 3,
+   "explain": "Solving x + 2 = 0 and x + 3 = 0 gives x = −2 and x = −3, not the positive numbers.",
+   "cites": [
+    19,
+    22,
+    23
+   ]
+  }
+ ]
+}

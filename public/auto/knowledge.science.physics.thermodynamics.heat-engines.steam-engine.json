@@ -1,0 +1,311 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine",
+ "name": "Steam engine",
+ "summary": [
+  {
+   "text": "A steam engine is a heat engine that does mechanical work by using steam pressure to push a piston back and forth inside a cylinder.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A connecting rod and crank turn that push into rotation, and the fuel burns outside so the steam stays separate from the combustion products.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "James Watt's 1764 separate condenser greatly cut fuel use per unit of work, and steam then powered the factories, ships and railways of the Industrial Revolution.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Ideal cycle",
+   "value": "The Rankine cycle",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Combustion type",
+   "value": "External: steam kept apart from combustion products",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Newcomen's engine",
+   "value": "First commercial engine with continuous power, in 1712",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Watt's improvement",
+   "value": "Spent steam condensed in a separate vessel",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "What replaced it",
+   "value": "Electric motors, combustion engines and steam turbines",
+   "cites": [
+    18,
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A coal fire heats a boiler, and the steam made there drives a piston without ever mixing with the fire's smoke. What kind of engine is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Internal combustion, since the fire is part of the machine"
+    },
+    {
+     "id": "b",
+     "label": "External combustion, because the working fluid stays separate"
+    },
+    {
+     "id": "c",
+     "label": "A turbine only, because there is a boiler"
+    },
+    {
+     "id": "d",
+     "label": "Not a heat engine, because no gas expands"
+    }
+   ],
+   "answer": "b",
+   "explain": "The essential feature of steam engines is that they are external combustion engines, with the working fluid separated from the combustion products.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine:q1"
+  },
+  {
+   "prompt": "In 1764 James Watt got much more work from the same amount of fuel. What key change did he make?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He burned the fuel at a higher temperature"
+    },
+    {
+     "id": "b",
+     "label": "He made the cylinder larger"
+    },
+    {
+     "id": "c",
+     "label": "He used water instead of steam as the working fluid"
+    },
+    {
+     "id": "d",
+     "label": "He sent the used steam to a separate vessel to condense"
+    }
+   ],
+   "answer": "d",
+   "explain": "Removing spent steam to a separate vessel for condensation greatly improved the work obtained per unit of fuel.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine:q2"
+  },
+  {
+   "prompt": "A piston moves back and forth, but a factory machine needs a spinning shaft. Which parts of a steam engine make that conversion?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A connecting rod and a crank"
+    },
+    {
+     "id": "b",
+     "label": "A boiler and a condenser"
+    },
+    {
+     "id": "c",
+     "label": "A cylinder and a valve"
+    },
+    {
+     "id": "d",
+     "label": "A pump and a flywheel"
+    }
+   ],
+   "answer": "a",
+   "explain": "A connecting rod and crank transform the pushing force into rotational force.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine:q3"
+  },
+  {
+   "prompt": "A power company is choosing between a reciprocating piston steam engine and a steam turbine to generate electricity. Why did turbines win out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They use no steam at all"
+    },
+    {
+     "id": "b",
+     "label": "They are smaller and quieter in every case"
+    },
+    {
+     "id": "c",
+     "label": "They cost less, run faster and are more efficient"
+    },
+    {
+     "id": "d",
+     "label": "They burn the fuel inside the cylinder"
+    }
+   ],
+   "answer": "c",
+   "explain": "Steam turbines replaced reciprocating engines in power generation because of lower cost, higher operating speed and higher efficiency.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine:q4"
+  },
+  {
+   "prompt": "Which early development mattered most because it could pass continuous power to a machine rather than just lift water?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hero's aeolipile"
+    },
+    {
+     "id": "b",
+     "label": "Newcomen's engine"
+    },
+    {
+     "id": "c",
+     "label": "Savery's pump"
+    },
+    {
+     "id": "d",
+     "label": "Ayanz's mine pump"
+    }
+   ],
+   "answer": "b",
+   "explain": "Newcomen's engine was the first commercially successful one able to transmit continuous power to a machine, while Savery's was a steam pump.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine:q5"
+  },
+  {
+   "prompt": "Why did early steam devices such as Hero's aeolipile not change how people worked?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They were mostly experiments to show what steam can do"
+    },
+    {
+     "id": "b",
+     "label": "Steam was unknown until the 19th century"
+    },
+    {
+     "id": "c",
+     "label": "They only worked when fuelled by peanut oil"
+    },
+    {
+     "id": "d",
+     "label": "They were banned because of boiler explosions"
+    }
+   ],
+   "answer": "a",
+   "explain": "The few steam-powered engines known for centuries were essentially experimental devices used to demonstrate the properties of steam.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Steam_locomotive_gear_%28J%C5%BD_06-018%3B_Slovenia%29.jpg/960px-Steam_locomotive_gear_%28J%C5%BD_06-018%3B_Slovenia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Steam engine",
+  "credit": "Petar Milošević",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Steam_locomotive_gear_(J%C5%BD_06-018;_Slovenia).jpg"
+ },
+ "source": {
+  "title": "Steam engine",
+  "url": "https://en.wikipedia.org/wiki/Steam_engine",
+  "revision": 1384187452
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Work from steam pressure",
+    "text": "A steam engine is a heat engine whose working fluid is steam. The pressure of the steam shoves a piston one way and then the other inside a cylinder. A connecting rod and a crank turn that back-and-forth push into turning motion that can drive machines. Above all, it is an external combustion engine: the steam is kept apart from the products of burning.",
+    "cites": [
+     1,
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "What the name covers",
+    "text": "The name usually means engines with a piston moving back and forth, though some writers also include the steam turbine. It can mean a whole steam plant with its boiler, such as a railway locomotive, or just the piston or turbine machinery on its own. Engineers study the process with an ideal model called the Rankine cycle.",
+    "cites": [
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Early experiments",
+    "text": "Hero of Alexandria described a simple steam device, the aeolipile, in Roman Egypt in the first century AD. For centuries after, the few steam engines known were mostly demonstrations of how steam behaves. In 1606 the Spanish inventor Jerónimo de Ayanz patented 50 steam-powered inventions, among them a pump for draining flooded mines. In 1690 the Frenchman Denis Papin first used a piston to lift weights.",
+    "cites": [
+     22,
+     23,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Pumping water from mines",
+    "text": "In 1698 Thomas Savery built the first commercial steam device, a water pump. Condensing steam made a vacuum that drew water up, and steam pressure then pushed it higher. It was cheap, but larger versions struggled, could lift water only a short way and were prone to boiler explosions. Around 1712 Thomas Newcomen's atmospheric engine became the first commercial success that could send steady power to a machine, though it was fairly inefficient and mostly pumped water.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     34,
+     38,
+     40
+    ]
+   },
+   {
+    "heading": "Watt's key change",
+    "text": "In 1764 James Watt moved the used steam into a separate vessel to condense it. This greatly increased the work gained from each unit of fuel. By the 1800s fixed steam engines ran the factories of the Industrial Revolution. Paddle steamers took the place of sailing ships, and steam locomotives ran on the railways.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Decline and survival",
+    "text": "Piston steam engines were the main source of power until the early 20th century. Better electric motors and internal combustion engines then slowly pushed them out of commercial use. In power stations, steam turbines took over because they cost less, ran faster and were more efficient. Even so, as of October 2026, large piston steam engines are still made in Germany.",
+    "cites": [
+     15,
+     18,
+     19,
+     21
+    ]
+   }
+  ]
+ }
+}

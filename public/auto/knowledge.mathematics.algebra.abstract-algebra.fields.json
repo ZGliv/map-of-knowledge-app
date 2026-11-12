@@ -1,0 +1,561 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.fields",
+ "name": "Fields",
+ "summary": [
+  {
+   "text": "A field is a set on which addition, subtraction, multiplication and division are defined and behave as they do for rational numbers.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The best known fields are the rational, real and complex numbers, and others such as finite fields, p-adic fields and fields of rational functions are widely studied.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Any field can serve as the scalars of a vector space, which is the standard general setting for linear algebra.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Short definition",
+   "value": "A commutative ring where 0 differs from 1 and nonzero elements have inverses",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Division by zero",
+   "value": "It is excluded by definition",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Finite fields",
+   "value": "Used for error correction codes and cryptography",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Impossible constructions",
+   "value": "Field theory helps prove angle trisection and squaring the circle cannot be done",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Galois theory",
+   "value": "Gives a proof that general quintic equations cannot be solved in radicals",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a field you divide a by b. For which values of b is that allowed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any b at all, including zero"
+    },
+    {
+     "id": "b",
+     "label": "Only b equal to 1"
+    },
+    {
+     "id": "c",
+     "label": "Any b that is not zero"
+    },
+    {
+     "id": "d",
+     "label": "Only b that are whole numbers"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every nonzero element has a multiplicative inverse, and dividing means multiplying by it. Division by zero is excluded by definition.",
+   "cites": [
+    15,
+    16,
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields:q1"
+  },
+  {
+   "prompt": "A number system has addition, subtraction and multiplication, but some nonzero elements have no multiplicative inverse. Is it a field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since subtraction is enough"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since inverses are optional"
+    },
+    {
+     "id": "c",
+     "label": "No, since addition must be missing"
+    },
+    {
+     "id": "d",
+     "label": "No, since every nonzero element needs an inverse"
+    }
+   ],
+   "answer": "d",
+   "explain": "The field axioms require a multiplicative inverse for each nonzero element, which is what makes division possible.",
+   "cites": [
+    15,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields:q2"
+  },
+  {
+   "prompt": "A field starts with only addition and multiplication plus inverses. How does it get subtraction a − b?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add the additive inverse of b to a"
+    },
+    {
+     "id": "b",
+     "label": "Multiply a by the multiplicative inverse of b"
+    },
+    {
+     "id": "c",
+     "label": "Add the multiplicative inverse of b to a"
+    },
+    {
+     "id": "d",
+     "label": "Multiply a by the additive inverse of b"
+    }
+   ],
+   "answer": "a",
+   "explain": "Subtraction is defined as a − b = a + (−b), while division is a / b = a ⋅ b⁻¹.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields:q3"
+  },
+  {
+   "prompt": "You are doing linear algebra and need numbers to scale your vectors by. What can serve as those scalars?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the real numbers"
+    },
+    {
+     "id": "b",
+     "label": "Only the rational numbers"
+    },
+    {
+     "id": "c",
+     "label": "Only the complex numbers"
+    },
+    {
+     "id": "d",
+     "label": "Any field"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any field may be used as the scalars for a vector space, the standard general context for linear algebra.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields:q4"
+  },
+  {
+   "prompt": "An engineer designs error correction codes and needs a field with finitely many elements. Which kind of field is used for this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A finite field"
+    },
+    {
+     "id": "b",
+     "label": "A field of real numbers"
+    },
+    {
+     "id": "c",
+     "label": "A function field"
+    },
+    {
+     "id": "d",
+     "label": "A number field"
+    }
+   ],
+   "answer": "a",
+   "explain": "Finite fields are used for error correction codes and cryptography, while function fields describe geometric objects and number fields are studied in number theory.",
+   "cites": [
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields:q5"
+  },
+  {
+   "prompt": "Complex numbers are drawn as arrows from the origin. You multiply two of them. What happens to the arrows' lengths and angles?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lengths add and angles multiply"
+    },
+    {
+     "id": "b",
+     "label": "Lengths and angles both add"
+    },
+    {
+     "id": "c",
+     "label": "Lengths multiply and angles add"
+    },
+    {
+     "id": "d",
+     "label": "Lengths and angles both multiply"
+    }
+   ],
+   "answer": "c",
+   "explain": "Multiplying complex numbers combines rotating and scaling: you add the angles and multiply the lengths.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Arithmetic_operations.svg/960px-Arithmetic_operations.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Fields",
+  "credit": "Phlsph7",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Arithmetic_operations.svg"
+ },
+ "source": {
+  "title": "Field (mathematics)",
+  "url": "https://en.wikipedia.org/wiki/Field_(mathematics)",
+  "revision": 1378041598
+ },
+ "pack": {
+  "id": "auto-abstract-algebra-fields",
+  "title": "Numbers you can always divide",
+  "question": "What makes a number system safe to divide in?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Abstract algebra",
+   "Fields"
+  ],
+  "hue": 53,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Arithmetic_operations.svg/960px-Arithmetic_operations.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Fields",
+    "credit": "Phlsph7 · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arithmetic_operations.svg",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Numbers you can always divide",
+    "hook": "Subtraction and division sound like extra operations, but a field gets them for free from just two ideas."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-abstract-algebra-fields:1",
+    "transfer": false,
+    "prompt": "Two complex numbers are drawn as arrows from the origin and then multiplied. What happens to the arrows' lengths and angles?",
+    "explain": "Multiplication of complex numbers combines rotating and scaling: angles add and lengths multiply.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "The lengths multiply and the angles add.",
+        "feedback": ""
+       },
+       {
+        "id": "a",
+        "label": "The lengths add and the angles multiply.",
+        "feedback": "This swaps the roles: adding goes with the angles, not the lengths."
+       },
+       {
+        "id": "d",
+        "label": "The lengths and angles both multiply.",
+        "feedback": "The angles behave like turns, and turns add rather than multiply."
+       },
+       {
+        "id": "c",
+        "label": "The lengths and angles both add.",
+        "feedback": "That describes adding arrows end to end of a different kind, not multiplying; multiplication scales."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-abstract-algebra-fields:2",
+    "transfer": false,
+    "prompt": "Match each kind of field to where it is used.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Finite fields"
+     },
+     {
+      "id": "l1",
+      "label": "Function fields"
+     },
+     {
+      "id": "l2",
+      "label": "Number fields"
+     },
+     {
+      "id": "l3",
+      "label": "The real numbers"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Studied in depth in number theory"
+     },
+     {
+      "id": "r3",
+      "label": "Basic theorems in analysis"
+     },
+     {
+      "id": "r1",
+      "label": "Describing properties of geometric objects"
+     },
+     {
+      "id": "r0",
+      "label": "Error correction codes and cryptography"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Different families of fields serve different areas, from coding to geometry to number theory and analysis."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-abstract-algebra-fields:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each field by how the sources describe it.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Rational numbers"
+     },
+     {
+      "id": "i1",
+      "label": "Real numbers"
+     },
+     {
+      "id": "i2",
+      "label": "Complex numbers"
+     },
+     {
+      "id": "i3",
+      "label": "Finite fields"
+     },
+     {
+      "id": "i4",
+      "label": "p-adic fields"
+     },
+     {
+      "id": "i5",
+      "label": "Algebraic number fields"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "the best known fields"
+     },
+     {
+      "id": "g1",
+      "label": "other fields in common use"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "The rational, real and complex numbers are the best known; the others are commonly used and studied, especially in number theory and algebraic geometry."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-abstract-algebra-fields:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "In a field every nonzero element has a multiplicative inverse."
+     },
+     {
+      "id": "b",
+      "text": "Dividing a by b means multiplying a by the inverse of b."
+     },
+     {
+      "id": "c",
+      "text": "So a field lets you divide by any nonzero element."
+     },
+     {
+      "id": "d",
+      "text": "So division by zero works too, because zero is an element."
+     }
+    ],
+    "answer": "d",
+    "explain": "Division by zero is excluded by definition: zero is the one element without a multiplicative inverse."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A field is a number system where adding, subtracting, multiplying and dividing by anything nonzero all behave like they do for rational numbers.",
+    "connections": [
+     {
+      "title": "Finite field",
+      "place": "Fields",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field"
+     },
+     {
+      "title": "Field extension",
+      "place": "Fields",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.fields.field-extension"
+     },
+     {
+      "title": "Algebraic number",
+      "place": "Fields",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.fields.algebraic-number"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Multiplication of complex numbers combines rotating and scaling: angles add and lengths multiply.",
+    "source": "Wikipedia sentences 42, 43"
+   },
+   {
+    "claim": "Different families of fields serve different areas, from coding to geometry to number theory and analysis.",
+    "source": "Wikipedia sentences 9, 11, 12, 13"
+   },
+   {
+    "claim": "The rational, real and complex numbers are the best known; the others are commonly used and studied, especially in number theory and algebraic geometry.",
+    "source": "Wikipedia sentences 3, 4"
+   },
+   {
+    "claim": "Division by zero is excluded by definition: zero is the one element without a multiplicative inverse.",
+    "source": "Wikipedia sentences 15, 16, 32"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a field is",
+    "text": "In mathematics, a field is a set where you can add, subtract, multiply and divide, and those operations work just as they do for the rational numbers. The most familiar fields are the rational numbers, the real numbers and the complex numbers. Fields are basic building blocks, used across algebra, number theory and many other parts of mathematics.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The rules of a field",
+    "text": "Formally, a field is a set F with two binary operations, called addition and multiplication. A binary operation takes any ordered pair of members of F and gives back exactly one member of F. The two operations must obey the field axioms: both are associative and commutative, and multiplication distributes over addition, so a ⋅ (b + c) = (a ⋅ b) + (a ⋅ c). There must be two different elements 0 and 1 with a + 0 = a and a ⋅ 1 = a. Every a needs an additive inverse −a with a + (−a) = 0, and every a other than 0 needs a multiplicative inverse a⁻¹ with a ⋅ a⁻¹ = 1.",
+    "cites": [
+     18,
+     19,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Subtraction and division for free",
+    "text": "Those inverses are what make the other two operations possible. Subtraction is defined as a − b = a + (−b), and division as a / b = a ⋅ b⁻¹. Dividing by zero is ruled out by the definition itself. The rational numbers show how this works: each is a fraction a/b built from two integers, with b ≠ 0, the additive inverse of a/b is −a/b, and when a ≠ 0 its multiplicative inverse is b/a.",
+    "cites": [
+     15,
+     16,
+     32,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Complex numbers as a field",
+    "text": "Multiplying two complex numbers gives (a + bi)(c + di) = (ac − bd) + (bc + ad)i, which has the same form again, and so the complex numbers form a field. You can picture each complex number as a point in the plane, or as an arrow from the origin with a length and an angle. Adding two of them then means joining their arrows into a parallelogram. Multiplying is less obvious: the angles add and the lengths multiply, so the arrow turns and stretches.",
+    "cites": [
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Where fields are used",
+    "text": "Any field can supply the scalars for a vector space, the usual general setting for linear algebra. Branches of analysis rest on fields that carry extra structure, and basic theorems there depend on the structural properties of the real numbers. Number fields, close relatives of the rational numbers, are studied closely in number theory, while function fields help describe the properties of geometric shapes. Finite fields are used in error-correcting codes and cryptography. The real and complex fields turn up throughout mathematics, physics, engineering and statistics.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     44
+    ]
+   },
+   {
+    "heading": "Settling ancient puzzles",
+    "text": "In ancient times, several geometry problems asked whether certain numbers could be constructed with only a compass and straightedge. Field theory is a key part of the proofs that trisecting an angle and squaring the circle are impossible using just those two tools. Galois theory, which studies the symmetries of field extensions, gives a neat proof of the Abel–Ruffini theorem: the general quintic equation cannot be solved in radicals.",
+    "cites": [
+     5,
+     6,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "rings-inquiry-fields",
+   "kind": "book",
+   "title": "2: Fields and Rings - Rings with Inquiry (Janssen and Lindsey)",
+   "by": "Michael Janssen & Melissa Lindsey",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Rings_with_Inquiry_(Janssen_and_Lindsey)/02%3A_Fields_and_Rings",
+   "note": "A free inquiry-based textbook chapter that opens by defining fields from familiar number systems.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

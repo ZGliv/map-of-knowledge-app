@@ -1,0 +1,30 @@
+{
+ "readHash": "169f12c4ff5e231e8c3591d72a8775064fce7447",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Rate parameter lambda>0 [4], support [0,inf) [5], notation [6], Poisson point processes and other contexts [1]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Not the same as exponential families, which include it plus normal, binomial, gamma, Poisson [2][3]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Mean 1/lambda [8], phone-call example [9], variance and SD equals mean [10]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Memoryless relation and waiting-time reading [11][12], 30/10 second example [13], only exp and geometric [14], constant failure rate [15]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Largest differential entropy on [0,inf) with mean mu, lambda=1/mu [16][17]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Scaling [18], equal-rate sum Erlang shape 2 special case of gamma [24], n-sum Gamma(n,lambda) [25], Exp=Gamma(1)=Erlang(1) [43]."
+  }
+ }
+}

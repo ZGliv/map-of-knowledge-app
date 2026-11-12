@@ -1,0 +1,565 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.regression",
+ "name": "Regression",
+ "summary": [
+  {
+   "text": "Linear regression is a model that estimates the relationship between a response and one or more explanatory variables related through a linear combination.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A model with exactly one explanatory variable is a simple linear regression, while a model with two or more is a multiple linear regression.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Once fitted, the model can be used to predict the response when new values of the explanatory variables arrive without a response.",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Early study",
+   "value": "First type of regression analysis studied rigorously and used widely",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Why it is popular",
+   "value": "Models linear in their parameters are easier to fit",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Usual way to fit",
+   "value": "Often fitted by the least squares approach",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Outlier weakness",
+   "value": "Squared error can make a model fit outliers over the true data",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Meaning of a coefficient",
+   "value": "Expected change in y per one-unit change in x_j, others fixed",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "One model predicts house price from floor area alone. Another predicts it from area, age and distance to town. Which counts as multiple linear regression?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both, since price is the response in each"
+    },
+    {
+     "id": "b",
+     "label": "The first, since price is a single response"
+    },
+    {
+     "id": "c",
+     "label": "The second, since it has two or more explanatory variables"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since that needs more than one response"
+    }
+   ],
+   "answer": "c",
+   "explain": "A model with exactly one explanatory variable is simple linear regression; two or more makes it multiple linear regression.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression:q1"
+  },
+  {
+   "prompt": "A fitted model relates sales to advertising spend. Next month's budget is known but sales are not yet. How can the model help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Use the budget in the fitted model to predict the response"
+    },
+    {
+     "id": "b",
+     "label": "Wait for sales to arrive, then refit before any use"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since the model needs an observed response"
+    },
+    {
+     "id": "d",
+     "label": "Predict the budget from the sales instead"
+    }
+   ],
+   "answer": "a",
+   "explain": "If values of the explanatory variables are collected without a response, the fitted model can be used to predict the response.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression:q2"
+  },
+  {
+   "prompt": "A dataset contains many very large outliers and the model is fitted by minimizing squared errors. What is the risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The outliers are ignored, because squaring shrinks them"
+    },
+    {
+     "id": "b",
+     "label": "The fit may chase the outliers, as large errors weigh heavily"
+    },
+    {
+     "id": "c",
+     "label": "The fit becomes perfect for all other points"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since every cost function treats errors alike"
+    }
+   ],
+   "answer": "b",
+   "explain": "Squared-error cost gives higher importance to large errors, so the model can fit outliers more than the true data. Cost functions robust to outliers should then be used.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression:q3"
+  },
+  {
+   "prompt": "Is every model fitted by least squares a linear model?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the two terms mean the same thing"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when there is a single predictor"
+    },
+    {
+     "id": "c",
+     "label": "No, least squares only works for straight lines"
+    },
+    {
+     "id": "d",
+     "label": "No, least squares can fit non-linear models too"
+    }
+   ],
+   "answer": "d",
+   "explain": "The terms are closely linked but not synonymous: the least squares approach can be used to fit models that are not linear.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression:q4"
+  },
+  {
+   "prompt": "A model predicts salary from years of experience and years of education. What does the coefficient on experience describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The total change in salary over a whole career"
+    },
+    {
+     "id": "b",
+     "label": "The correlation between experience and education"
+    },
+    {
+     "id": "c",
+     "label": "The change in salary when both variables move together"
+    },
+    {
+     "id": "d",
+     "label": "The expected salary change per extra year of experience, education held fixed"
+    }
+   ],
+   "answer": "d",
+   "explain": "The coefficient is the expected change in the response for a one-unit change in that predictor while the other covariates are held fixed.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression:q5"
+  },
+  {
+   "prompt": "In children's data, shoe size alone is strongly linked to reading score, but with age also in the model shoe size adds almost nothing. What does this suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Another covariate, age, captures the information shoe size carried"
+    },
+    {
+     "id": "b",
+     "label": "The regression has failed and should be discarded"
+    },
+    {
+     "id": "c",
+     "label": "Shoe size causes reading scores to rise"
+    },
+    {
+     "id": "d",
+     "label": "The reading score cannot be a scalar response"
+    }
+   ],
+   "answer": "a",
+   "explain": "A unique effect can be nearly zero even when the marginal effect is large, which may mean another covariate captures all the information in that predictor.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Linear_least_squares_example2.svg/960px-Linear_least_squares_example2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Regression",
+  "credit": "Krishnavedala",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear_least_squares_example2.svg"
+ },
+ "source": {
+  "title": "Linear regression",
+  "url": "https://en.wikipedia.org/wiki/Linear_regression",
+  "revision": 1383865853
+ },
+ "pack": {
+  "id": "auto-statistics-regression",
+  "title": "A line through the scatter",
+  "question": "How can a line fitted to scattered data predict what we have not measured?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Statistics",
+   "Regression"
+  ],
+  "hue": 42,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Linear_least_squares_example2.svg/960px-Linear_least_squares_example2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Regression",
+    "credit": "Krishnavedala · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_least_squares_example2.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "A line through the scatter",
+    "hook": "Scattered points never fall exactly on a line, yet a fitted line can still tell you something about the next one."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-statistics-regression:1",
+    "transfer": false,
+    "prompt": "A fitted model links sales to advertising spend. A new advertising budget arrives, but there are no sales figures for it yet. What can be done?",
+    "explain": "After a model is fitted, additional values of the explanatory variables collected without a response can be used to predict the response.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Use the fitted model to predict the sales response",
+        "feedback": ""
+       },
+       {
+        "id": "a",
+        "label": "Nothing, because the model needs an observed response first",
+        "feedback": "It is tempting to wait for data, but the fitted model already encodes the relationship."
+       },
+       {
+        "id": "c",
+        "label": "Refit the model after throwing away the old data",
+        "feedback": "Old data are exactly what the model was fitted to; discarding them removes the relationship."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-statistics-regression:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each description into the model it fits.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Exactly one explanatory variable"
+     },
+     {
+      "id": "i1",
+      "label": "Two or more explanatory variables"
+     },
+     {
+      "id": "i2",
+      "label": "A single scalar predictor x and a single scalar response y"
+     },
+     {
+      "id": "i3",
+      "label": "Several or vector-valued predictors, written with a capital X"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Simple linear regression"
+     },
+     {
+      "id": "g1",
+      "label": "Multiple linear regression"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "The number of explanatory variables separates the two: one for simple regression, more for multiple regression."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-statistics-regression:3",
+    "transfer": true,
+    "prompt": "Match each term to what it is about.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Least squares"
+     },
+     {
+      "id": "l1",
+      "label": "Least absolute deviations"
+     },
+     {
+      "id": "l2",
+      "label": "Large outliers with squared error"
+     },
+     {
+      "id": "l3",
+      "label": "Nonlinear regression"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Fitting by minimizing lack of fit in another norm"
+     },
+     {
+      "id": "r2",
+      "label": "The model may fit the outliers more than the true data"
+     },
+     {
+      "id": "r3",
+      "label": "A generalization of linear regression"
+     },
+     {
+      "id": "r0",
+      "label": "A common way to fit a linear regression"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Linear regression models are often fitted by least squares, but other fitting criteria exist, and nonlinear regression generalizes the idea."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-statistics-regression:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A model predicts y from two predictors, x1 and x2."
+     },
+     {
+      "id": "b",
+      "text": "The fitted coefficient of x1 is 3."
+     },
+     {
+      "id": "c",
+      "text": "So y is expected to rise by 3 for each one-unit rise in x1 with x2 held fixed."
+     },
+     {
+      "id": "d",
+      "text": "So x1 on its own, ignoring x2, must also raise y by exactly 3."
+     }
+    ],
+    "answer": "d",
+    "explain": "A coefficient gives the unique effect with other predictors held fixed. The marginal effect of x1 on its own can be quite different, even nearly zero while the unique effect is large."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Linear regression fits a straight-line relationship to known data, so the response can be predicted from new values and each coefficient read as a change per unit.",
+    "connections": [
+     {
+      "title": "Linear regression",
+      "place": "Regression",
+      "node": "knowledge.mathematics.probability.statistics.regression.linear-regression"
+     },
+     {
+      "title": "Least squares",
+      "place": "Regression",
+      "node": "knowledge.mathematics.probability.statistics.regression.least-squares"
+     },
+     {
+      "title": "Coefficient of determination",
+      "place": "Regression",
+      "node": "knowledge.mathematics.probability.statistics.regression.coefficient-of-determination"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "After a model is fitted, additional values of the explanatory variables collected without a response can be used to predict the response.",
+    "source": "Wikipedia sentences 11"
+   },
+   {
+    "claim": "The number of explanatory variables separates the two: one for simple regression, more for multiple regression.",
+    "source": "Wikipedia sentences 2, 17, 18"
+   },
+   {
+    "claim": "Linear regression models are often fitted by least squares, but other fitting criteria exist, and nonlinear regression generalizes the idea.",
+    "source": "Wikipedia sentences 6, 12, 13"
+   },
+   {
+    "claim": "A coefficient gives the unique effect with other predictors held fixed. The marginal effect of x1 on its own can be quite different, even nearly zero while the unique effect is large.",
+    "source": "Wikipedia sentences 23, 25, 27, 29"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Relating a response to predictors",
+    "text": "Regression describes how one quantity relates to others. The quantity you care about is called the response, or dependent variable. The quantities used to explain it are called explanatory variables, or predictors. In linear regression, the predictors are tied to the response through a linear combination of them.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "heading": "One predictor or many",
+    "text": "When there is a single predictor x and a single response y, the model is called simple linear regression. With two or more predictors, it is called multiple linear regression. The model's parameters are unknown at the start, so they are estimated from the data. Most often the model describes the mean response expected for given predictor values, though sometimes the median or another quantile is used instead.",
+    "cites": [
+     2,
+     3,
+     4,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Why it came first",
+    "text": "Linear regression was the first kind of regression to be studied rigorously and put to wide practical use. One reason is that a model whose unknown parameters enter in a linear way is easier to fit. Another is that the statistical behaviour of the resulting estimates is easier to work out. Nonlinear regression is a generalization of it.",
+    "cites": [
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Predicting new cases",
+    "text": "A common goal is prediction or forecasting. You fit the model to an observed data set where both the predictors and the response were recorded. Later, if new predictor values arrive with no response attached, the fitted model can predict the response. In machine learning, linear regression counts as a supervised algorithm that learns from labelled data sets.",
+    "cites": [
+     7,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "How the model is fitted",
+    "text": "The model is often fitted by least squares. There are other options, such as least absolute deviations, or ridge regression and lasso, which add a penalty to the least squares cost. Using the mean squared error as the cost gives large errors extra weight. In a data set with many large outliers, the model can then fit those outliers more than the true data, so a cost that is robust to outliers should be used there.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Reading a coefficient",
+    "text": "Each predictor x_j has a coefficient β_j. It is read as the expected change in y when x_j rises by one unit while every other predictor stays the same. People sometimes call this the unique effect of x_j on y. A predictor can have a large effect on its own yet nearly zero unique effect, which may mean another variable already captures its information. Care is needed, since some predictors cannot really be held fixed while others change.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "os-12-3",
+   "kind": "book",
+   "title": "12.3 The Regression Equation",
+   "by": "OpenStax (Introductory Statistics 2e)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+   "note": "A free textbook section on the least-squares line, residuals and r², worked through a real exam-score example."
+  },
+  {
+   "id": "os-12-5",
+   "kind": "book",
+   "title": "12.5 Prediction",
+   "by": "OpenStax (Introductory Statistics 2e)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-5-prediction",
+   "note": "Shows how to use a fitted regression line to predict new values, and why predicting far outside the data goes wrong."
+  },
+  {
+   "id": "os-12-6",
+   "kind": "book",
+   "title": "12.6 Outliers",
+   "by": "OpenStax (Introductory Statistics 2e)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-6-outliers",
+   "note": "How to spot outliers in a regression and how removing one changes the best-fit line."
+  },
+  {
+   "id": "lane-14-8",
+   "kind": "book",
+   "title": "14.8: Introduction to Multiple Regression",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/14%3A_Regression/14.08%3A_Introduction_to_Multiple_Regression",
+   "note": "Explains regression with several predictors, partial slopes with others held constant, and unique versus shared variance.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "cc-stats-32",
+   "kind": "video",
+   "title": "Regression: Crash Course Statistics #32",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=WWqE7YHR4Jc",
+   "note": "A Crash Course Statistics episode on regression models and the general linear model."
+  }
+ ]
+}

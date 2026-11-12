@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "Fermat's Last Theorem says there are no positive integers a, b, c, n with n > 2 such that aⁿ + bⁿ = cⁿ.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Around 1637 Fermat wrote in a book's margin that he had a marvelous proof, but he left no details and none has ever been found.",
+   "cites": [
+    3,
+    4,
+    13
+   ]
+  },
+  {
+   "text": "Andrew Wiles released the first successful proof in 1994, after 358 years of effort, and it was formally published in 1995.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Proved by",
+   "value": "Andrew Wiles, released 1994, published 1995",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Years of effort",
+   "value": "358 years before the first successful proof",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Easy cases",
+   "value": "n = 1 and n = 2 have infinitely many solutions",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Simplest triple",
+   "value": "3, 4, 5 solves x² + y² = z²",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Wiles's honour",
+   "value": "Abel Prize 2016, citing a stunning advance",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A teacher shows that 3, 4 and 5 satisfy x² + y² = z². A student asks if that breaks the theorem. What is the answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because 3, 4 and 5 are all positive whole numbers"
+    },
+    {
+     "id": "b",
+     "label": "No, the theorem only rules out powers above 2"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only because 5 is not a perfect square"
+    },
+    {
+     "id": "d",
+     "label": "No, because the theorem bans every power except 1"
+    }
+   ],
+   "answer": "b",
+   "explain": "The squares equation has infinitely many positive integer solutions, such as 3, 4, 5. The theorem concerns exponents greater than 2.",
+   "cites": [
+    1,
+    2,
+    11
+   ]
+  },
+  {
+   "prompt": "Fermat claimed a marvelous proof, yet nobody could find it or build one for centuries. What label did the claim end up with?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A proven theorem, because Fermat said so"
+    },
+    {
+     "id": "b",
+     "label": "A conjecture, because no proof was ever found"
+    },
+    {
+     "id": "c",
+     "label": "A disproved claim, because a counterexample appeared"
+    },
+    {
+     "id": "d",
+     "label": "A definition, because it was stated in a margin"
+    }
+   ],
+   "answer": "b",
+   "explain": "Because Fermat's proof never surfaced and the statement resisted proof, it became known as a conjecture rather than a theorem.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "Mathematicians checking the claim looked mostly at prime exponents. Why could they skip the others?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Non-prime exponents are known to be impossible to test"
+    },
+    {
+     "id": "b",
+     "label": "Fermat proved the claim for every non-prime exponent directly"
+    },
+    {
+     "id": "c",
+     "label": "Non-prime exponents give the same answer as the exponent 2"
+    },
+    {
+     "id": "d",
+     "label": "A failure at a non-prime exponent would force a failure at a smaller one"
+    }
+   ],
+   "answer": "d",
+   "explain": "The case of exponent 4, proved by Fermat, shows that if the theorem is false for a non-prime exponent, it is false for some smaller one, so only primes need study.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "prompt": "Two apparently unrelated problems were linked in the 1980s. What did the link say about a counterexample to Fermat's claim?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It could also be used to contradict the Taniyama-Shimura conjecture"
+    },
+    {
+     "id": "b",
+     "label": "It would make the Taniyama-Shimura conjecture automatically true"
+    },
+    {
+     "id": "c",
+     "label": "It would have no bearing on elliptic curves"
+    },
+    {
+     "id": "d",
+     "label": "It would show the Pythagorean equation has no solutions"
+    }
+   ],
+   "answer": "a",
+   "explain": "Any solution that could contradict Fermat's Last Theorem could also be used to contradict the Taniyama-Shimura conjecture, so proving that conjecture settles Fermat's claim.",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "prompt": "Computers verified the claim for every prime exponent up to four million. Does that settle the theorem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since four million exponents is more than anyone could need"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because primes are the only exponents that matter"
+    },
+    {
+     "id": "c",
+     "label": "No, a proof must cover all exponents, which was seen as exceedingly difficult"
+    },
+    {
+     "id": "d",
+     "label": "No, because computers cannot handle exponents at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "The theorem covers every exponent above 2, so checking up to four million is not a proof; a proof for all exponents was considered exceedingly difficult at that time.",
+   "cites": [
+    1,
+    21
+   ]
+  },
+  {
+   "prompt": "Some people picture Wiles rediscovering the proof Fermat hinted at. What does the record say about the mathematics used?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It used only methods that Fermat himself used"
+    },
+    {
+     "id": "b",
+     "label": "It was solved with mathematics Fermat would not have known"
+    },
+    {
+     "id": "c",
+     "label": "It was a short argument fitting in a margin"
+    },
+    {
+     "id": "d",
+     "label": "It relied only on the Pythagorean triples"
+    }
+   ],
+   "answer": "b",
+   "explain": "The claim stayed unsolved for three and a half centuries and was solved with mathematics that Fermat would not have known.",
+   "cites": [
+    15
+   ]
+  }
+ ]
+}

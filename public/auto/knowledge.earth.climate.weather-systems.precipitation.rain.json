@@ -1,0 +1,355 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.precipitation.rain",
+ "name": "Rain",
+ "summary": [
+  {
+   "text": "Rain is water vapor that has condensed in the air into droplets heavy enough to fall to the ground by gravity.",
+   "cites": [
+    1,
+    37
+   ]
+  },
+  {
+   "text": "Cloud droplets grow into raindrops by colliding and merging, or ice crystals in freezing clouds gain enough mass to fall and may melt on the way down.",
+   "cites": [
+    36,
+    37,
+    39,
+    42
+   ]
+  },
+  {
+   "text": "Rain deposits most of the fresh water on Earth, supplying hydroelectric plants, crop irrigation and many types of ecosystems.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Raindrop size",
+   "value": "0.1 to 9 mm mean diameter",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "label": "Average over land",
+   "value": "715 mm (28.1 in) per year",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Whole-Earth average",
+   "value": "990 mm (39 in) per year",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Measuring tool",
+   "value": "Rain gauges",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Warm rain process",
+   "value": "Droplets merging, called coalescence",
+   "cites": [
+    34,
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A mass of humid air is cooled steadily. Why does a cloud eventually form?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cooler air can hold less water vapor before saturating"
+    },
+    {
+     "id": "b",
+     "label": "Cooling adds extra water vapor to the air"
+    },
+    {
+     "id": "c",
+     "label": "Cold air always contains more dust"
+    },
+    {
+     "id": "d",
+     "label": "Cooling makes the air rise faster"
+    }
+   ],
+   "answer": "a",
+   "explain": "Warmer air can contain more water vapor than cooler air before becoming saturated, so cooling is one way to saturate air.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.rain:q1"
+  },
+  {
+   "prompt": "Picture a large raindrop partway through its fall. What shape is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A teardrop with a pointed top"
+    },
+    {
+     "id": "b",
+     "label": "A long, thin needle"
+    },
+    {
+     "id": "c",
+     "label": "Flattened, widest across the oncoming air"
+    },
+    {
+     "id": "d",
+     "label": "A perfect sphere"
+    }
+   ],
+   "answer": "c",
+   "explain": "Only small droplets are spherical; as a raindrop grows it becomes more oblate, with its largest cross-section facing the oncoming airflow.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.rain:q2"
+  },
+  {
+   "prompt": "One side of a mountain range is lush while the other side is desert. What makes the downwind side so dry?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gets less sunlight all year"
+    },
+    {
+     "id": "b",
+     "label": "Its soil drains water too fast"
+    },
+    {
+     "id": "c",
+     "label": "Rising air there cools and stays cloudy"
+    },
+    {
+     "id": "d",
+     "label": "Air flowing down that side heats and dries"
+    }
+   ],
+   "answer": "d",
+   "explain": "On the leeward side, downslope flow heats and dries the air mass, which can produce desert climates.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.rain:q3"
+  },
+  {
+   "prompt": "Compared with the countryside upwind, what happens to rainfall downwind of a big city?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It falls less often and more gently"
+    },
+    {
+     "id": "b",
+     "label": "It increases in both amount and intensity"
+    },
+    {
+     "id": "c",
+     "label": "It turns mostly into drizzle"
+    },
+    {
+     "id": "d",
+     "label": "It stays exactly the same"
+    }
+   ],
+   "answer": "b",
+   "explain": "The urban heat island effect leads to more rainfall, in both amounts and intensity, downwind of cities.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.rain:q4"
+  },
+  {
+   "prompt": "A weather report gives tonight's dew point. What does that number tell you about the air?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How much rain fell during the day"
+    },
+    {
+     "id": "b",
+     "label": "The temperature it must cool to before saturating"
+    },
+    {
+     "id": "c",
+     "label": "The coldest the ground can get overnight"
+    },
+    {
+     "id": "d",
+     "label": "The share of the sky covered by cloud"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dew point is the temperature to which a parcel of air must be cooled to become saturated.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.rain:q5"
+  },
+  {
+   "prompt": "Tiny droplets in a cloud hang in place instead of falling. What turns them into rain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bumping together and merging into heavier drops"
+    },
+    {
+     "id": "b",
+     "label": "Splitting into many smaller drops"
+    },
+    {
+     "id": "c",
+     "label": "Warming until the air pushes them down"
+    },
+    {
+     "id": "d",
+     "label": "Losing their dust cores to the wind"
+    }
+   ],
+   "answer": "a",
+   "explain": "Air resistance keeps cloud droplets stationary; turbulence makes them collide into larger drops that keep merging until they are heavy enough to fall.",
+   "cites": [
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.rain:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hard_rain_on_a_roof.jpg/960px-Hard_rain_on_a_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Rain",
+  "credit": "W.carter",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hard_rain_on_a_roof.jpg"
+ },
+ "source": {
+  "title": "Rain",
+  "url": "https://en.wikipedia.org/wiki/Rain",
+  "revision": 1383274305
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Water falling from clouds",
+    "text": "Rain is made of water droplets that have condensed out of the vapor in the air and fall under gravity. People name it by strength: drizzle is very light and patchy, a shower is brief and moderate, a cloudburst is brief and heavy, and a downpour is heavy and long-lasting. Rain often comes with other weather, such as strong wind in a rainstorm or lightning in a thunderstorm.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Rain is a major part of the water cycle and puts down most of the fresh water on Earth. It feeds hydroelectric power plants, irrigates crops and supports many kinds of ecosystems. Averaged over land, the planet gets 715 mm (28.1 in) of precipitation a year, and over the whole Earth the figure is higher, at 990 mm (39 in). Climate schemes such as the Köppen system use average yearly rainfall to tell climates apart, and rain is measured with rain gauges or estimated by weather radar.",
+    "cites": [
+     4,
+     5,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Filling the air to the brim",
+    "text": "How much water vapor air can hold before it is saturated, at 100% relative humidity, and forms a cloud depends on its temperature. Relative humidity is the share of that maximum the air holds right now. Warm air can carry more vapor than cool air, so one way to saturate air is to cool it. The dew point is the temperature air must be cooled to before it becomes saturated.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Four ways to cool air",
+    "text": "There are four main ways to cool air to its dew point. Adiabatic cooling happens when air rises and expands, whether by convection, by large-scale motions of the atmosphere, or by being pushed over a mountain. Conductive cooling happens when air touches a colder surface, for example when wind carries it from open water onto colder land. Radiational cooling comes from the air, or the ground beneath it, giving off infrared radiation, and evaporative cooling comes from water evaporating into the air.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "From droplet to raindrop",
+    "text": "Water vapor usually condenses onto particles such as dust, ice and salt to make clouds. Cloud droplets normally hang in place, held up by air resistance. When the air is turbulent, droplets collide and fuse into bigger ones, a process called coalescence. As the bigger drops sink they keep merging until they are heavy enough to beat air resistance and fall as rain. Coalescence happens most in clouds whose tops are above freezing, and it is also called the warm rain process.",
+    "cites": [
+     30,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Rain that starts as ice",
+    "text": "In clouds below freezing, ice crystals start to fall once they gain enough mass. This route depends on temperature, since supercooled droplets, liquid water below freezing, are found only in clouds that are below freezing. Because the cloud is so much colder than the ground, the falling crystals may melt on the way down and arrive as rain.",
+    "cites": [
+     39,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "The shape of a raindrop",
+    "text": "The mean diameter of raindrops runs from 0.1 to 9 mm, and the larger ones tend to break apart. Smaller drops, called cloud droplets, are round. As a raindrop grows it becomes flatter, with its widest side turned toward the air rushing past it.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "usgs-rain-and-precipitation",
+   "kind": "article",
+   "title": "Rain and Precipitation",
+   "by": "USGS Water Science School",
+   "url": "https://www.usgs.gov/water-science-school/science/rain-and-precipitation",
+   "note": "How rain returns water to Earth, the wettest and driest places, and where rainfall goes once it lands."
+  },
+  {
+   "id": "minutephysics-raindrops",
+   "kind": "video",
+   "title": "Why Raindrops Are Mathematically Impossible",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=8lBvC7aFB40",
+   "minutes": 3,
+   "note": "A short physics explainer on the puzzle of how tiny cloud droplets grow into falling raindrops."
+  },
+  {
+   "id": "usgs-raindrop-shape",
+   "kind": "article",
+   "title": "Are Raindrops Shaped Like Teardrops?",
+   "by": "USGS Water Science School",
+   "url": "https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops",
+   "note": "A short USGS explainer on the real shape of falling raindrops."
+  }
+ ]
+}

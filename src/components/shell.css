@@ -1,0 +1,55 @@
+/* The app's only top bar: brand (home) at the left, where you are, then search and the one
+   menu. On desktop the brand sits over the sidebar so the trail starts at the map's edge.
+   It floats over the full-bleed map; its veil, controls and spacing come from chrome.css. */
+.studio-shell .shell-bar{display:flex;align-items:center;flex-shrink:0;height:48px;min-height:48px;padding:0 10px 0 0;gap:4px;z-index:7;border-bottom:1px solid var(--atlas-rule)}
+
+/* Brand: the mark and the name, over the sidebar. */
+.studio-shell .shell-brand{display:flex;align-items:center;gap:11px;flex-shrink:0;align-self:stretch;width:208px;padding:0 12px 0 21px;background:none;color:var(--atlas-text);font:400 16px/1 var(--atlas-serif);letter-spacing:.05px;white-space:nowrap;transition:color .15s}
+.shell-brand:hover{color:var(--atlas-bright)}
+.studio-shell .shell-brand .brand-mark{width:28px;height:28px;display:grid;place-items:center;flex-shrink:0;filter:drop-shadow(0 0 6px rgb(120 160 255/.25));transform:scale(.92);transform-origin:left center;transition:transform .2s ease}
+.studio-shell .shell-brand:hover .brand-mark{transform:scale(.98)}
+.studio-shell .shell-brand:focus-visible{outline-offset:-4px;border-radius:var(--radius)}
+
+/* Where you are: the location bar, folded into this row. */
+.shell-bar-place{flex:1;min-width:0;display:flex;align-items:center;align-self:stretch}
+.studio-shell .shell-bar .location-bar{flex:1;min-width:0;height:auto;min-height:0;align-self:stretch;padding:0 6px 0 10px;gap:6px;background:none;border:0;box-shadow:none}
+.studio-shell .shell-bar .atlas-location-bar.is-world{padding-left:14px}
+.studio-shell .shell-bar .atlas-step-back{width:36px;min-width:36px;height:36px;min-height:36px}
+.studio-shell .shell-bar .atlas-ancestor button,.studio-shell .shell-bar .atlas-current-place{min-height:40px}
+.atlas-show-map svg{width:15px;height:15px;color:var(--accent-strong)}
+
+/* Search and the one menu. */
+.shell-bar-tools{display:flex;align-items:center;gap:8px;flex-shrink:0;padding-left:8px;margin-left:2px;border-left:1px solid color-mix(in srgb,var(--atlas-rule) 80%,transparent);height:24px}
+.shell-search{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 6px 0 10px;border:1px solid var(--atlas-border);border-radius:999px;background:transparent;color:var(--atlas-muted);transition:border-color .15s,color .15s,background .15s}
+.shell-search svg{width:16px;height:16px}
+.shell-search kbd{font:inherit;font-size:11px;line-height:1;color:var(--atlas-faint);padding:4px 6px;border:1px solid var(--atlas-rule);border-radius:999px;background:var(--atlas-deep)}
+.shell-search:hover{border-color:var(--accent-line);color:var(--atlas-bright);background:var(--atlas-raised)}
+.shell-menu{position:relative;width:34px;height:34px;flex-shrink:0;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,var(--atlas-hover),var(--atlas-raised));border:1px solid var(--atlas-border);color:var(--atlas-pale);box-shadow:var(--edge-light);font-size:13px;font-weight:600;transition:border-color .15s,color .15s}
+.shell-menu svg{width:18px;height:18px}
+.shell-menu::before{content:'';position:absolute;inset:-5px}
+.shell-menu:hover,.shell-menu[aria-expanded=true]{border-color:var(--accent-line);color:var(--atlas-bright)}
+
+@media(max-width:1180px) and (min-width:801px){
+ .studio-shell .shell-brand{width:64px;padding:0;justify-content:center}
+ .shell-brand-name{display:none}
+ .studio-shell .shell-brand .brand-mark{transform-origin:center}
+ /* Search and the menu share this row now, so a long place name gives way to the trail. */
+ .studio-shell .shell-bar .atlas-open-name{max-width:140px}
+}
+@media(max-width:800px){
+ .studio-shell .shell-bar{height:48px;min-height:48px;padding:0 6px 0 0;gap:0}
+ .studio-shell .shell-brand{width:auto;padding:0 6px 0 14px;font-size:15px;gap:9px}
+ /* On the map the place takes the room; on a page of its own the name returns. */
+ .shell-brand-name{display:none}
+ .shell-bar:has(.shell-bar-place:empty) .shell-brand-name{display:inline}
+ .studio-shell .shell-bar .location-bar,.studio-shell .shell-bar .atlas-location-bar.is-world{padding:0 4px 0 2px;gap:2px}
+ .studio-shell .shell-bar .atlas-current-place{padding:0 4px}
+ .studio-shell .shell-bar .atlas-open-place{height:30px;padding:0 9px 0 11px}
+ .shell-bar-tools{gap:2px;padding-left:2px;border-left:0}
+ .shell-search{width:40px;height:40px;padding:0;justify-content:center;border:0;color:var(--atlas-secondary)}
+ .shell-search svg{width:19px;height:19px}
+ .shell-search kbd{display:none}
+ .shell-search:hover{background:transparent}
+ .shell-menu{margin:0 3px}
+}
+@media(prefers-reduced-motion:reduce){.studio-shell .shell-brand .brand-mark{transition:none}}

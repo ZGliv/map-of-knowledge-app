@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "An eigenvector is a nonzero vector whose direction a linear transformation leaves unchanged or reverses, so the transformation only scales it.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The scaling factor is the eigenvalue: the amount an eigenvector is stretched or shrunk, with a negative value meaning the direction is reversed.",
+   "cites": [
+    3,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Eigenvectors and eigenvalues characterize a transformation, and in a feedback system the largest eigenvalue governs the long-term behavior.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "German eigen, meaning proper, characteristic or own",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Possible eigenvalues",
+   "value": "Negative, zero or complex numbers are allowed",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Original use",
+   "value": "Studying principal axes of rotating rigid bodies",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Eigenspace",
+   "value": "All eigenvectors sharing one eigenvalue, plus the zero vector",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Modern uses",
+   "value": "Stability analysis, vibration analysis, atomic orbitals, facial recognition",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A transformation tilts and lengthens most arrows but leaves every arrow lying along the horizontal axis exactly where it was. What eigenvalue do those horizontal arrows have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero, since those arrows do not move at all"
+    },
+    {
+     "id": "b",
+     "label": "One, since neither direction nor length changes"
+    },
+    {
+     "id": "c",
+     "label": "Negative one, since they point sideways"
+    },
+    {
+     "id": "d",
+     "label": "None, since other arrows are tilted"
+    }
+   ],
+   "answer": "b",
+   "explain": "Points on the horizontal axis keep their direction and their length, so the scaling factor is one.",
+   "cites": [
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "prompt": "A transformation sends an arrow to a new arrow that is longer and points in exactly the opposite direction. Is the original arrow an eigenvector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because its direction changed"
+    },
+    {
+     "id": "b",
+     "label": "No, because it also became longer"
+    },
+    {
+     "id": "c",
+     "label": "Yes, with a negative eigenvalue"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only with eigenvalue zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "An eigenvector may have its direction reversed; that happens when the eigenvalue is negative.",
+   "cites": [
+    1,
+    8,
+    23
+   ]
+  },
+  {
+   "prompt": "A transformation rotates some arrows, shears others, and merely stretches or shrinks a third group. Which group holds the eigenvectors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The arrows that are only stretched or shrunk"
+    },
+    {
+     "id": "b",
+     "label": "The arrows that are rotated"
+    },
+    {
+     "id": "c",
+     "label": "The arrows that are sheared"
+    },
+    {
+     "id": "d",
+     "label": "The arrows that end up longest"
+    }
+   ],
+   "answer": "a",
+   "explain": "Eigenvectors undergo neither rotation nor shear; they are only stretched or shrunk.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "A system feeds its output back into the same transformation again and again. What tells you where it settles after many rounds?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The smallest eigenvalue and its vector"
+    },
+    {
+     "id": "b",
+     "label": "The average of all the eigenvalues"
+    },
+    {
+     "id": "c",
+     "label": "The first arrow you started with"
+    },
+    {
+     "id": "d",
+     "label": "The largest eigenvalue and its eigenvector"
+    }
+   ],
+   "answer": "d",
+   "explain": "The largest eigenvalue governs long-term behavior, and its eigenvector is the steady state of the system.",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "Many different vectors are all scaled by the very same factor. Gather them together with the zero vector. What is that collection called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An eigenbasis"
+    },
+    {
+     "id": "b",
+     "label": "An eigenspace"
+    },
+    {
+     "id": "c",
+     "label": "A shear mapping"
+    },
+    {
+     "id": "d",
+     "label": "An eigensystem"
+    }
+   ],
+   "answer": "b",
+   "explain": "Eigenvectors sharing one eigenvalue, together with the zero vector, form an eigenspace.",
+   "cites": [
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "prompt": "A student says eigenvalues only make sense for geometric transformations and cannot be found from a square grid of numbers. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing; matrices cannot have eigenvalues"
+    },
+    {
+     "id": "b",
+     "label": "Only symmetric matrices have eigenvalues"
+    },
+    {
+     "id": "c",
+     "label": "In finite dimensions, either language defines them equally"
+    },
+    {
+     "id": "d",
+     "label": "Matrices only give eigenvalues for two dimensions"
+    }
+   ],
+   "answer": "c",
+   "explain": "In a finite-dimensional space, transformations and square matrices correspond directly, so eigenvalues can be defined in either language.",
+   "cites": [
+    14,
+    15
+   ]
+  }
+ ]
+}

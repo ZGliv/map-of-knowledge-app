@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "A standard score, or z-score, is the number of standard deviations by which a data point is above or below the mean of what is being measured.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is found by subtracting the population mean from the raw score and dividing the difference by the population standard deviation.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Because the units cancel, z-scores let you compare results measured on different scales, such as SAT and ACT scores.",
+   "cites": [
+    9,
+    19,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sign",
+   "value": "Positive above the mean, negative below it",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Calculation",
+   "value": "Subtract the mean, then divide by the standard deviation",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "None: the units cancel, leaving a dimensionless number",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Sample version",
+   "value": "With sample statistics instead, the result is a t-statistic",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "T-score",
+   "value": "A z-score rescaled to mean 50, standard deviation 10",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two students are compared to their class average. One has a positive z-score and the other a negative z-score. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first beat the class average and the second fell short of it"
+    },
+    {
+     "id": "b",
+     "label": "The first fell short of the class average and the second beat it"
+    },
+    {
+     "id": "c",
+     "label": "Both scored at the average but with different spreads"
+    },
+    {
+     "id": "d",
+     "label": "Their scores cannot be compared with the class average"
+    }
+   ],
+   "answer": "a",
+   "explain": "Raw scores above the mean have positive standard scores, and those below the mean have negative ones.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Maya scored 85 on a quiz and 60 on an exam, and the two are graded on different scales. How can you fairly judge which was better compared with classmates?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Compare the raw numbers, since the larger is better"
+    },
+    {
+     "id": "b",
+     "label": "Average the two raw scores together"
+    },
+    {
+     "id": "c",
+     "label": "Convert each into a z-score and compare those"
+    },
+    {
+     "id": "d",
+     "label": "Pick whichever test had more students"
+    }
+   ],
+   "answer": "c",
+   "explain": "When scores are on different scales, converting them to z-scores aids comparison.",
+   "cites": [
+    19,
+    24
+   ]
+  },
+  {
+   "prompt": "A test has mean 60 and standard deviation 5. A student scores 70. What is the student's z-score?",
+   "options": [
+    {
+     "id": "a",
+     "label": "10"
+    },
+    {
+     "id": "b",
+     "label": "0.5"
+    },
+    {
+     "id": "c",
+     "label": "14"
+    },
+    {
+     "id": "d",
+     "label": "2"
+    }
+   ],
+   "answer": "d",
+   "explain": "Subtract the mean (70 − 60 = 10) and divide by the standard deviation (10 ÷ 5 = 2).",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Heights are measured in centimetres, and so are their mean and standard deviation. What units does a person's z-score have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Centimetres, matching the heights"
+    },
+    {
+     "id": "b",
+     "label": "Square centimetres, from the spread"
+    },
+    {
+     "id": "c",
+     "label": "None, because the units cancel in the division"
+    },
+    {
+     "id": "d",
+     "label": "Standard centimetres, a special unit"
+    }
+   ],
+   "answer": "c",
+   "explain": "The numerator and denominator share the same units, so they cancel and z is dimensionless.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Why is the t-test used much more widely than the z-test?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it is unusual to know the entire population's parameters"
+    },
+    {
+     "id": "b",
+     "label": "Because z-scores cannot be computed from any numbers"
+    },
+    {
+     "id": "c",
+     "label": "Because the t-test never needs a mean at all"
+    },
+    {
+     "id": "d",
+     "label": "Because z-scores only work for standardized tests"
+    }
+   ],
+   "answer": "a",
+   "explain": "A z-test needs the population's parameters, and it is very unusual to know the entire population.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "You cannot measure a whole population, so its true mean and standard deviation are unknown. What is the usual workaround for a standard score?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Give up, since no standard score can be found"
+    },
+    {
+     "id": "b",
+     "label": "Use the sample mean and sample standard deviation as estimates"
+    },
+    {
+     "id": "c",
+     "label": "Use a mean of zero and a spread of one"
+    },
+    {
+     "id": "d",
+     "label": "Use the largest observation as the mean"
+    }
+   ],
+   "answer": "b",
+   "explain": "When the population values are unknown, the sample mean and sample standard deviation can be used as estimates.",
+   "cites": [
+    12
+   ]
+  }
+ ]
+}

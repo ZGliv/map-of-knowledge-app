@@ -1,0 +1,348 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator",
+ "name": "Electric generator",
+ "summary": [
+  {
+   "text": "An electric generator is a device that converts mechanical energy into electrical energy for an outside circuit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Steam, gas and water turbines, engines, wind turbines or even a hand crank can spin it.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "It works on Faraday's law, and generators supply nearly all the electricity on the world's power grids.",
+   "cites": [
+    4,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First generator",
+   "value": "Faraday's disk, invented in 1831",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Opposite device",
+   "value": "An electric motor turns electrical energy into motion",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Two broad types",
+   "value": "Dynamos and alternators",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Dynamo output",
+   "value": "Pulsing direct current through a commutator",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Voltage and turns",
+   "value": "Output voltage is proportional to the number of turns",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A wind turbine's spinning blades are connected to a generator. What does the generator do with the motion?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Turns it into electrical energy for a circuit"
+    },
+    {
+     "id": "b",
+     "label": "Turns it into heat to warm the blades"
+    },
+    {
+     "id": "c",
+     "label": "Stores it as chemical fuel"
+    },
+    {
+     "id": "d",
+     "label": "Turns it into more wind"
+    }
+   ],
+   "answer": "a",
+   "explain": "A generator converts mechanical energy from a source such as a wind turbine to electrical energy.",
+   "cites": [
+    1,
+    3
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator:q1"
+  },
+  {
+   "prompt": "Why did early inventors wind wire into coils rather than using a single copper disc?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Coils simply look much neater"
+    },
+    {
+     "id": "b",
+     "label": "Coils are always cheaper than discs"
+    },
+    {
+     "id": "c",
+     "label": "A copper disc cannot spin at all"
+    },
+    {
+     "id": "d",
+     "label": "More turns give a higher voltage"
+    }
+   ],
+   "answer": "d",
+   "explain": "The disc gave very low voltage through a single path; multiple turns produced higher voltage, proportional to the number of turns.",
+   "cites": [
+    33,
+    34,
+    35
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator:q2"
+  },
+  {
+   "prompt": "Why was Faraday's disk generator inefficient?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Current ran backwards outside the magnet, wasting power"
+    },
+    {
+     "id": "b",
+     "label": "The disc was too light to spin at speed"
+    },
+    {
+     "id": "c",
+     "label": "The magnet was made of weak wood"
+    },
+    {
+     "id": "d",
+     "label": "It produced only alternating current"
+    }
+   ],
+   "answer": "a",
+   "explain": "Counterflows of current in regions outside the magnetic field limited output and heated the copper.",
+   "cites": [
+    29,
+    30,
+    31
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator:q3"
+  },
+  {
+   "prompt": "A coil spins in a magnetic field with no commutator. What kind of current comes out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Perfectly steady direct current"
+    },
+    {
+     "id": "b",
+     "label": "Alternating current, reversing each half turn"
+    },
+    {
+     "id": "c",
+     "label": "No current at all in the coil"
+    },
+    {
+     "id": "d",
+     "label": "A single pulse and then nothing"
+    }
+   ],
+   "answer": "b",
+   "explain": "A coil rotating in a magnetic field gives a current that changes direction with each 180 degree rotation.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator:q4"
+  },
+  {
+   "prompt": "A farmer cranks a spare electric motor backwards by hand and a lamp lights. What is happening?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The motor is working as a generator"
+    },
+    {
+     "id": "b",
+     "label": "The lamp is somehow making the motor spin"
+    },
+    {
+     "id": "c",
+     "label": "Motors cannot work in this way at all"
+    },
+    {
+     "id": "d",
+     "label": "The lamp runs on static charge from the hand"
+    }
+   ],
+   "answer": "a",
+   "explain": "Motors and generators are very similar, and some motors generate power if their shaft is rotated.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator:q5"
+  },
+  {
+   "prompt": "Why were electrostatic generators never used to power cities?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They burned far too much fuel each day"
+    },
+    {
+     "id": "b",
+     "label": "They gave high voltage but only low current"
+    },
+    {
+     "id": "c",
+     "label": "They needed far too much cooling water"
+    },
+    {
+     "id": "d",
+     "label": "They only worked during the night"
+    }
+   ],
+   "answer": "b",
+   "explain": "They made very high voltage but low current, and were inefficient and hard to insulate, so power ratings stayed low.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.electric-generator:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Modern_Steam_Turbine_Generator.jpg/960px-Modern_Steam_Turbine_Generator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Electric generator",
+  "credit": "NRC",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Modern_Steam_Turbine_Generator.jpg"
+ },
+ "source": {
+  "title": "Electric generator",
+  "url": "https://en.wikipedia.org/wiki/Electric_generator",
+  "revision": 1381436191
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "An electric generator is a machine that turns mechanical energy into electrical energy for use in an outside circuit. In most generators, some source of power spins a shaft, and the generator sends a current out of its terminals to run whatever is plugged into that circuit. The spinning can come from steam, gas or water turbines, combustion engines, wind turbines, or even a hand crank. Generators make nearly all the electricity on the world's power grids.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "The idea behind it",
+    "text": "Generators rest on a principle Michael Faraday found in 1831 and 1832, later called Faraday's law of induction. It says an electromotive force appears in a conductor that loops around a changing magnetic flux. An electric motor does the reverse job, turning electrical energy into motion, and the two machines are very similar. Some motors will even work as generators if you turn their shaft.",
+    "cites": [
+     6,
+     7,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "The main parts",
+    "text": "The stator is the part that stays still and surrounds the turning rotor. The magnetic field comes either from coils of wire, called field coils, or from permanent magnets; a generator with permanent magnets is sometimes called a magneto. The armature is the part whose windings produce the current sent to the outside circuit. It can sit on the rotor or on the stator, with the field on the other part.",
+    "cites": [
+     11,
+     13,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Faraday's disk",
+    "text": "Faraday also built the first electromagnetic generator in 1831, a copper disc spinning between the poles of a horseshoe magnet. It gave only a small direct-current voltage. Current flowed backwards in parts of the disc outside the magnet's reach, which cut the output and heated the copper. Its voltage was also very low, because the current had only a single path through the magnetic flux.",
+    "cites": [
+     5,
+     27,
+     28,
+     29,
+     30,
+     31,
+     33
+    ]
+   },
+   {
+    "heading": "Why coils matter",
+    "text": "Experimenters found that a coil with many turns of wire gave higher and more useful voltages. The output voltage rises in step with the number of turns. That let designers reach any voltage they wanted by changing how many turns they used. Wire windings have been a basic part of every generator design since.",
+    "cites": [
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Dynamos and direct current",
+    "text": "Electromagnetic generators come in two broad kinds, dynamos and alternators. A coil turning in a magnetic field gives a current that switches direction every half turn, which is alternating current, or AC. Many early uses of electricity needed direct current, or DC, instead. Dynamos solved this with a commutator: switch contacts that turn with the shaft and flip the coil's connection every half turn, giving a pulsing DC. Hippolyte Pixii built one of the first dynamos in 1832.",
+    "cites": [
+     9,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Before magnets",
+    "text": "Before anyone knew electricity and magnetism were linked, people built electrostatic generators. These used moving charged belts, plates and disks to carry charge to an electrode at high potential. They made very high voltage but little current. Being inefficient and hard to insulate, they never produced commercially useful amounts of power, and their only practical jobs were running early X-ray tubes and later some particle accelerators.",
+    "cites": [
+     19,
+     20,
+     22,
+     23,
+     24
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cp-electric-generators",
+   "kind": "book",
+   "title": "23.5 Electric Generators - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/23-5-electric-generators",
+   "note": "A free textbook section on how electric generators produce an emf by electromagnetic induction.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "up2-generators-back-emf",
+   "kind": "book",
+   "title": "13.6 Electric Generators and Back Emf - University Physics Volume 2",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/13-6-electric-generators-and-back-emf",
+   "note": "A university-level textbook section on electric generators and the back emf in motors.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

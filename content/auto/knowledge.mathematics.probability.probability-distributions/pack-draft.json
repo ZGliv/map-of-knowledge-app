@@ -1,0 +1,119 @@
+{
+ "title": "The ham that never weighs 500 g",
+ "question": "How is probability shared out over possible results?",
+ "hook": "A scale with endless precision will never read exactly 500 g, yet a pack can still pass inspection.",
+ "idea": "A distribution shares probability across outcomes: discrete ones give each value a probability, while continuous ones give probability to ranges.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A scale can show arbitrarily many digits. What is the probability that a piece of ham weighs exactly 500 g?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Zero",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "Small but above zero",
+     "feedback": "It tempts because some packs surely land near 500 g, but however many digits you read, further non-zero digits could follow."
+    },
+    {
+     "id": "c",
+     "label": "One half",
+     "feedback": "Exactly 500 g is one value among endlessly many, so it cannot be this likely."
+    },
+    {
+     "id": "d",
+     "label": "It depends on the scale",
+     "feedback": "More precision does not rescue it: it stays zero at any chosen level of precision."
+    }
+   ],
+   "answer": "a",
+   "explain": "Whatever precision you pick, you cannot rule out non-zero digits beyond it, so an exact value has probability zero.",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each situation by the kind of distribution that describes it.",
+   "groups": [
+    "Discrete outcomes",
+    "Continuous range"
+   ],
+   "items": [
+    [
+     "A coin toss",
+     "Discrete outcomes"
+    ],
+    [
+     "A roll of a die",
+     "Discrete outcomes"
+    ],
+    [
+     "The temperature on a given day",
+     "Continuous range"
+    ],
+    [
+     "A weight read to arbitrarily many digits",
+     "Continuous range"
+    ]
+   ],
+   "explain": "Coin tosses and die rolls have a discrete set of outcomes; temperature and exact weight take values in a continuous range.",
+   "cites": [
+    17,
+    18,
+    38,
+    39
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it does.",
+   "pairs": [
+    [
+     "Probability mass function",
+     "Used for discrete distributions"
+    ],
+    [
+     "Probability density function",
+     "Used for many continuous distributions"
+    ],
+    [
+     "Cumulative distribution function",
+     "Gives the probability of being no larger than a value"
+    ],
+    [
+     "Univariate distribution",
+     "Gives probabilities for a single random variable"
+    ]
+   ],
+   "explain": "Each is a way of describing a distribution, chosen by the kind of variable and the question asked.",
+   "cites": [
+    9,
+    21,
+    44
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A scale shows a ham's weight to as many digits as you like.",
+    "Further non-zero digits could always follow, so exactly 500 g has probability zero.",
+    "But a pack must weigh between 490 g and 510 g to pass inspection.",
+    "So passing inspection must also have probability zero."
+   ],
+   "wrong": 3,
+   "explain": "A range covers infinitely many outcomes and needs no infinite precision, so it can have positive probability.",
+   "cites": [
+    16,
+    17,
+    18,
+    19
+   ]
+  }
+ ]
+}

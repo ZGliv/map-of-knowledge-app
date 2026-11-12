@@ -1,0 +1,114 @@
+{
+ "title": "Hydrogen Plus Carbon, Endless Forms",
+ "question": "What can compounds made of only hydrogen and carbon look like?",
+ "hook": "Natural gas, paraffin wax and polyethylene are all built from just two kinds of atom.",
+ "idea": "Hydrocarbons are sorted into saturated, unsaturated and aromatic types, and the bonds between carbon atoms decide which type a molecule is.",
+ "beats": [
+  {
+   "kind": "sort",
+   "prompt": "sort each into its group",
+   "groups": [
+    "Saturated",
+    "Unsaturated"
+   ],
+   "items": [
+    [
+     "Alkane",
+     "Saturated"
+    ],
+    [
+     "Cycloalkane",
+     "Saturated"
+    ],
+    [
+     "Alkene",
+     "Unsaturated"
+    ],
+    [
+     "Alkyne",
+     "Unsaturated"
+    ]
+   ],
+   "explain": "Saturated hydrocarbons have only single bonds; unsaturated ones have one or more double or triple bonds between carbon atoms.",
+   "cites": [
+    10,
+    11,
+    13,
+    22,
+    23,
+    25
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A chlorination reaction turns methane into chloroform by replacing hydrogen atoms with chlorine. Is chloroform a hydrocarbon?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Yes, it still contains carbon and hydrogen",
+     "feedback": "It keeps both, which is tempting, but a hydrocarbon must contain nothing except hydrogen and carbon."
+    },
+    {
+     "id": "b",
+     "label": "No, it now contains a halogen"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because substituting atoms never changes the compound's class",
+     "feedback": "Substitution can change the class: a halogenated hydrocarbon is no longer a hydrocarbon."
+    }
+   ],
+   "answer": "b",
+   "explain": "Halogenating a hydrocarbon produces something that is not a hydrocarbon, because chlorine is neither hydrogen nor carbon.",
+   "cites": [
+    1,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each to its form at room conditions",
+   "pairs": [
+    [
+     "Propane",
+     "Gas"
+    ],
+    [
+     "Hexane",
+     "Liquid"
+    ],
+    [
+     "Paraffin wax",
+     "Low melting solid"
+    ],
+    [
+     "Polystyrene",
+     "Polymer"
+    ]
+   ],
+   "explain": "Hydrocarbons occur in a diverse range of phases, from gases to polymers.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A non-cyclic hydrocarbon with only single bonds and 4 carbons follows CₙH₂ₙ₊₂, so it has 10 hydrogens.",
+    "A non-cyclic hydrocarbon with one double bond follows CₙH₂ₙ, so with 4 carbons it has 8 hydrogens.",
+    "Going from single bonds to one double bond therefore leaves two fewer hydrogens.",
+    "A non-cyclic hydrocarbon with one triple bond also follows CₙH₂ₙ₊₂, so it keeps 10 hydrogens."
+   ],
+   "wrong": 3,
+   "explain": "One triple bond gives the formula CₙH₂ₙ₋₂, so the 4-carbon version has 6 hydrogens, not 10.",
+   "cites": [
+    11,
+    24,
+    26
+   ]
+  }
+ ]
+}

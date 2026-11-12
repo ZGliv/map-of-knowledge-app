@@ -1,0 +1,58 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Where a function is not zero",
+   "text": "Take a function f that gives real numbers as outputs. Its support is the part of its domain, the set of inputs, where f gives something other than zero. Said another way, it is the smallest set of inputs such that f is zero everywhere outside it. The idea is used widely in mathematical analysis.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "heading": "Adding a closure",
+   "text": "When the domain carries extra structure called a topology, making it a topological space, the support is defined a little differently. It becomes the smallest closed set that holds every point where f is not zero. The most common case is a continuous function on the real line or on n-dimensional Euclidean space.",
+   "cites": [
+    2,
+    6,
+    8
+   ]
+  },
+  {
+   "heading": "Compact support",
+   "text": "A function has compact support when its closed support is a compact set. On the real line or in n-dimensional Euclidean space, that is the same as having bounded support, because a set there is compact exactly when it is closed and bounded. Having compact support is a stronger demand than vanishing at infinity. The function f(x) = 1/(1 + x²) shrinks toward 0 as |x| → ∞, yet it is never actually zero, so its support is all of ℝ, which is not compact.",
+   "cites": [
+    11,
+    12,
+    15,
+    16
+   ]
+  },
+  {
+   "heading": "Bump functions",
+   "text": "Smooth real-valued functions with compact support on a Euclidean space are sometimes called bump functions. One special kind, mollifiers, can be used to build sequences of smooth functions that approximate functions which are not smooth. In most good cases, compactly supported functions of a suitable kind are dense in many different topologies, and for that reason they are fundamental in analysis.",
+   "cites": [
+    17,
+    18,
+    24
+   ]
+  },
+  {
+   "heading": "Support in probability",
+   "text": "In probability theory, the support of a distribution can be loosely pictured as the closure of the set of values a random variable with that distribution can take. More formally, the support of a random variable X is the smallest closed set R_X ⊆ ℝ for which P(X ∈ R_X) = 1. In other words, it is the tightest closed set the variable is certain to land in.",
+   "cites": [
+    33,
+    35
+   ]
+  },
+  {
+   "heading": "When the support misleads",
+   "text": "A related idea, the essential support, depends on a measure as well as on f, and it can be smaller than the closed support. Take the Dirichlet function on the interval from 0 to 1, which is 1 on rational numbers and 0 on irrational ones. Its support is that whole interval, but its essential support is empty, since with Lebesgue measure it equals the zero function almost everywhere. When the two differ, analysts nearly always prefer the essential support.",
+   "cites": [
+    26,
+    27,
+    28
+   ]
+  }
+ ]
+}

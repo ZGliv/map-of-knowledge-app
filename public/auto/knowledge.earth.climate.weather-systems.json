@@ -1,0 +1,582 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems",
+ "name": "Weather systems",
+ "summary": [
+  {
+   "text": "Weather is the state of the atmosphere at a particular place and time, usually described by temperature, humidity, cloud cover and stability.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is driven by differences in air pressure, temperature and moisture from one place to another, which can come from the Sun's angle changing with latitude.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "Earth's weather is a chaotic system, so small changes in one part of it can grow into large effects on the whole.",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Where it happens",
+   "value": "Mostly in the troposphere, the lowest layer",
+   "cites": [
+    2,
+    24
+   ]
+  },
+  {
+   "label": "Yearly surface range",
+   "value": "Temperatures usually span ±40 °C",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Largest circulations",
+   "value": "Hadley, Ferrel and polar cells, plus jet stream",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Mid-latitude storms",
+   "value": "Extratropical cyclones, from jet stream instabilities",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Long-lived storm",
+   "value": "Jupiter's Great Red Spot: at least 300 years",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A city logs 31 °C and a thunderstorm on one July afternoon. A guidebook says its Julys average 27 °C with frequent storms. Which of these two statements describes weather?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The guidebook's July average"
+    },
+    {
+     "id": "b",
+     "label": "The single afternoon's reading"
+    },
+    {
+     "id": "c",
+     "label": "Neither; both describe climate"
+    },
+    {
+     "id": "d",
+     "label": "Both equally describe weather"
+    }
+   ],
+   "answer": "b",
+   "explain": "Weather is the day-to-day state of the atmosphere; climate is the average of conditions over longer periods.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.earth.climate.weather-systems:q1"
+  },
+  {
+   "prompt": "On a still winter morning, hikers find the summit noticeably warmer than the valley floor beneath it. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The summit sits closer to the Sun"
+    },
+    {
+     "id": "b",
+     "label": "Thin mountain air traps more heat"
+    },
+    {
+     "id": "c",
+     "label": "A layer where air gets warmer with height"
+    },
+    {
+     "id": "d",
+     "label": "The valley floor soaks heat out of the air"
+    }
+   ],
+   "answer": "c",
+   "explain": "Normally higher means cooler, but in an inversion temperature increases with height, which can leave mountaintops warmer than valleys.",
+   "cites": [
+    36,
+    37,
+    38
+   ],
+   "id": "knowledge.earth.climate.weather-systems:q2"
+  },
+  {
+   "prompt": "Why are places far from the tropics usually cooler?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are farther away from the Sun"
+    },
+    {
+     "id": "b",
+     "label": "Their atmosphere is much thinner"
+    },
+    {
+     "id": "c",
+     "label": "Ocean currents carry all their heat away"
+    },
+    {
+     "id": "d",
+     "label": "Sunlight arrives at a low angle and spreads out"
+    }
+   ],
+   "answer": "d",
+   "explain": "The farther from the tropics, the lower the Sun's angle, so the same sunlight is spread over a larger surface.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.earth.climate.weather-systems:q3"
+  },
+  {
+   "prompt": "On a sunny day, a beach's sand heats up faster than the nearby sea. What happens to the air just above the hot sand?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It warms, expands and lowers the surface pressure"
+    },
+    {
+     "id": "b",
+     "label": "It cools, sinks and raises the surface pressure"
+    },
+    {
+     "id": "c",
+     "label": "It warms, grows denser and raises the pressure"
+    },
+    {
+     "id": "d",
+     "label": "It keeps the same pressure as air over the sea"
+    }
+   ],
+   "answer": "a",
+   "explain": "A hot surface warms the air above it, which expands, lowers its density and lowers surface pressure; air then flows in from higher pressure as wind.",
+   "cites": [
+    40,
+    42,
+    43
+   ],
+   "id": "knowledge.earth.climate.weather-systems:q4"
+  },
+  {
+   "prompt": "Why can a tiny change in the air today end up mattering for next week's weather?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gusts store energy and release it days later"
+    },
+    {
+     "id": "b",
+     "label": "In a chaotic system small changes can grow huge"
+    },
+    {
+     "id": "c",
+     "label": "Winds circle the whole globe exactly once a week"
+    },
+    {
+     "id": "d",
+     "label": "Every gust resets the path of the jet stream"
+    }
+   ],
+   "answer": "b",
+   "explain": "Earth's weather is chaotic, so small changes in one part of the system can grow into large effects on the whole.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.earth.climate.weather-systems:q5"
+  },
+  {
+   "prompt": "Jupiter's Great Red Spot is a giant storm. For how long is it known to have existed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A few months"
+    },
+    {
+     "id": "b",
+     "label": "About 30 years"
+    },
+    {
+     "id": "c",
+     "label": "At least 300 years"
+    },
+    {
+     "id": "d",
+     "label": "Only a few days at a time"
+    }
+   ],
+   "answer": "c",
+   "explain": "The Great Red Spot is an anticyclonic storm known to have existed for at least 300 years.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.earth.climate.weather-systems:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg/960px-Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Weather systems",
+  "credit": "Maxime Raynal from France",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg"
+ },
+ "source": {
+  "title": "Weather",
+  "url": "https://en.wikipedia.org/wiki/Weather",
+  "revision": 1384243276
+ },
+ "pack": {
+  "id": "auto-climate-weather-systems",
+  "title": "Why Air Never Sits Still",
+  "question": "What sets the weather in motion?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Weather systems"
+  ],
+  "hue": 122,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg/960px-Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Weather systems",
+    "credit": "Maxime Raynal from France · CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Air Never Sits Still",
+    "hook": "A patch of hot sand next to a cool sea is enough to start the wind blowing."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-climate-weather-systems:1",
+    "transfer": false,
+    "prompt": "Put these steps in order, from a sunny surface to a breeze.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Different surfaces heat up by different amounts"
+     },
+     {
+      "id": "b",
+      "label": "A hot surface warms the air above it"
+     },
+     {
+      "id": "c",
+      "label": "That air expands and surface pressure drops"
+     },
+     {
+      "id": "d",
+      "label": "Air flows in from higher pressure as wind"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Cause",
+     "Effect"
+    ],
+    "explain": "Surface temperature differences cause pressure differences: heated air expands and lowers the pressure, and the pressure gradient pushes air from high to low pressure, making wind."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-climate-weather-systems:2",
+    "transfer": false,
+    "prompt": "Wind starts to blow from a high-pressure area toward a low-pressure area on our spinning planet. What happens to its path?",
+    "explain": "The horizontal pressure gradient moves air from higher to lower pressure, and Earth's rotation then deflects that airflow through the Coriolis effect.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Earth's rotation deflects it to one side"
+       },
+       {
+        "id": "d",
+        "label": "It rises straight up into space",
+        "feedback": "The pressure gradient here is horizontal, so the air moves sideways along the surface."
+       },
+       {
+        "id": "c",
+        "label": "It reverses once it reaches the low",
+        "feedback": "Nothing sends the air back; it keeps moving toward lower pressure while being turned sideways."
+       },
+       {
+        "id": "b",
+        "label": "It runs in a perfectly straight line",
+        "feedback": "Straight would be true on a planet that did not spin, but Earth's rotation bends moving air."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-weather-systems:3",
+    "transfer": true,
+    "prompt": "Match each term to what it does or describes.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Inversion"
+     },
+     {
+      "id": "l1",
+      "label": "Coriolis effect"
+     },
+     {
+      "id": "l2",
+      "label": "Jet stream instability"
+     },
+     {
+      "id": "l3",
+      "label": "Sun angle"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Temperature rises with height"
+     },
+     {
+      "id": "r2",
+      "label": "Drives mid-latitude cyclones"
+     },
+     {
+      "id": "r3",
+      "label": "Changes with latitude"
+     },
+     {
+      "id": "r1",
+      "label": "Turns moving air to one side"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The Sun's angle varies with latitude, jet stream instabilities cause mid-latitude cyclones, the Coriolis effect deflects moving air, and in an inversion temperature increases with height."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-weather-systems:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each into weather or climate.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "This afternoon's rain shower"
+     },
+     {
+      "id": "i1",
+      "label": "Tomorrow's high temperature"
+     },
+     {
+      "id": "i2",
+      "label": "Today's humidity"
+     },
+     {
+      "id": "i3",
+      "label": "Average conditions over many decades"
+     },
+     {
+      "id": "i4",
+      "label": "A region's long-term average rainfall"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Weather"
+     },
+     {
+      "id": "g1",
+      "label": "Climate"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Weather is day-to-day temperature, precipitation and other conditions; climate is the averaging of those conditions over longer periods."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Uneven heating makes differences in pressure, temperature and moisture, and air moving between them is what we call weather.",
+    "connections": [
+     {
+      "title": "Storms",
+      "place": "Weather systems",
+      "node": "knowledge.earth.climate.weather-systems.storms"
+     },
+     {
+      "title": "Fronts and air masses",
+      "place": "Weather systems",
+      "node": "knowledge.earth.climate.weather-systems.fronts-and-air-masses"
+     },
+     {
+      "title": "Precipitation",
+      "place": "Weather systems",
+      "node": "knowledge.earth.climate.weather-systems.precipitation"
+     },
+     {
+      "title": "Monsoons",
+      "place": "Weather systems",
+      "node": "knowledge.earth.climate.weather-systems.monsoons"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Surface temperature differences cause pressure differences: heated air expands and lowers the pressure, and the pressure gradient pushes air from high to low pressure, making wind.",
+    "source": "Wikipedia sentences 40, 41, 42, 43"
+   },
+   {
+    "claim": "The horizontal pressure gradient moves air from higher to lower pressure, and Earth's rotation then deflects that airflow through the Coriolis effect.",
+    "source": "Wikipedia sentences 43"
+   },
+   {
+    "claim": "The Sun's angle varies with latitude, jet stream instabilities cause mid-latitude cyclones, the Coriolis effect deflects moving air, and in an inversion temperature increases with height.",
+    "source": "Wikipedia sentences 6, 30, 37, 43"
+   },
+   {
+    "claim": "Weather is day-to-day temperature, precipitation and other conditions; climate is the averaging of those conditions over longer periods.",
+    "source": "Wikipedia sentences 3"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What drives it",
+    "text": "Weather comes from differences in air pressure, temperature and moisture between one place and another. These differences can come from the angle of the Sun at a given spot, which changes with latitude. The farther a place lies from the tropics, the lower the Sun sits, so its sunlight is spread over more ground and the place stays cooler.",
+    "cites": [
+     5,
+     6,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "From warm ground to wind",
+    "text": "Close up, surfaces such as oceans, forests, ice sheets and human-made objects differ in how reflective, rough or moist they are, so they warm by different amounts. A hot surface heats the air above it, and that air expands, gets less dense and lowers the pressure at the surface. Air then moves from higher to lower pressure, which makes wind. Earth's rotation bends that flow, through what is called the Coriolis effect.",
+    "cites": [
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Seasons and height",
+    "text": "Earth's axis is tilted against the plane of its orbit, so sunlight arrives at different angles through the year. In June the Northern Hemisphere leans toward the Sun, and sunlight there falls more directly than in December. Higher places are usually cooler, since most heating of the air comes from contact with the ground while heat lost to space stays mostly constant. Sometimes temperature rises with height instead. This is called an inversion, and it can leave mountaintops warmer than valleys, help fog form and hold back thunderstorms.",
+    "cites": [
+     9,
+     13,
+     33,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Chaos, and weather elsewhere",
+    "text": "Weather forecasting is the use of science and technology to say what the atmosphere will be like at a later time in a given place. Earth's weather is a chaotic system: a small change in one part can grow into a large effect on the whole. Studying weather on other planets has helped explain weather on Earth. Jupiter's Great Red Spot, for example, is an anticyclonic storm that has lasted for at least 300 years.",
+    "cites": [
+     14,
+     15,
+     17,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-weather-patterns",
+   "kind": "article",
+   "title": "Weather systems and patterns",
+   "by": "NOAA Education",
+   "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/weather-systems-patterns",
+   "note": "NOAA's plain guide to global winds, air masses, fronts, jet streams and the Coriolis effect, with classroom extras."
+  },
+  {
+   "id": "jetstream-global",
+   "kind": "article",
+   "title": "Global Weather",
+   "by": "NOAA JetStream",
+   "url": "https://www.noaa.gov/jetstream/global",
+   "note": "How uneven heating by the Sun and Earth's tilt drive the global movement of air, heat and the seasons."
+  },
+  {
+   "id": "jetstream-climate-weather",
+   "kind": "article",
+   "title": "Climate vs. Weather",
+   "by": "NOAA JetStream",
+   "url": "https://www.noaa.gov/jetstream/global/climate-vs-weather",
+   "note": "A short NOAA explainer on how weather differs from climate, using 30-year climate normals."
+  },
+  {
+   "id": "schmittner-weather",
+   "kind": "book",
+   "title": "1.1: Weather",
+   "by": "Andreas Schmittner, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Introduction_to_Climate_Science_(Schmittner_2021)/01%3A_Chapters/1.01%3A_Weather",
+   "note": "Free textbook section on weather versus climate, the parts of the climate system, and real temperature data.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "stull-general-circulation",
+   "kind": "book",
+   "title": "11: General Circulation",
+   "by": "Roland Stull, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/11:_General_Circulation",
+   "note": "Free textbook chapter on how uneven heating and Earth's spin set up the global winds and jet streams.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-cyclones",
+   "kind": "video",
+   "title": "What Are the Different Types of Cyclones? Crash Course Geography #12",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=06ke7hr1m_Q",
+   "note": "How mid-latitude cyclones form along the polar front and bring daily weather, and how tropical cyclones differ."
+  }
+ ]
+}

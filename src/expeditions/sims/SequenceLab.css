@@ -1,0 +1,92 @@
+/* Sequence lab (SequenceLab.tsx) and the letter strands it shares with its cases (SequenceParts.tsx).
+   Scoped under .expedition-shell like the rest of the player. A codon is 3 × 22px tiles: four sit in a
+   row at 375px with the 16px gutters. */
+.expedition-shell .seqlab { display: grid; gap: 34px; }
+.expedition-shell .seqlab__step { display: grid; gap: 14px; animation: xp-rise .35s ease-out; min-width: 0; }
+.expedition-shell .seqlab__title { font: 400 22px/1.25 var(--serif); color: var(--bright); margin: 0; }
+.expedition-shell .seqlab__stage { display: grid; gap: 14px; padding: 14px 12px 16px; border: 1px solid var(--rule); border-radius: 4px; background: radial-gradient(120% 90% at 50% 0%, var(--panel), var(--deep)); min-width: 0; }
+.expedition-shell .seqlab__go { justify-self: start; padding: 12px 22px; border: 0; border-radius: 3px; background: var(--pale); color: var(--panel); font-weight: 600; }
+.expedition-shell .seqlab__go:hover { background: var(--highlight); }
+.expedition-shell .seqlab__readout { margin: 0; font: 400 17px/1.4 var(--serif); color: var(--text); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.expedition-shell .seqlab__readout b { color: var(--accent); font-weight: 400; }
+.expedition-shell .seqlab__change { margin: 0; font-size: 14px; color: var(--secondary); }
+.expedition-shell .seqlab__change code { font: 600 14px var(--mono); color: var(--accent); }
+.expedition-shell .seqlab__picker { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
+.expedition-shell .seqlab__picker > span { flex: 1 1 100%; }
+.expedition-shell .seqlab__picker button { min-width: 44px; min-height: 40px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 3px; background: var(--raised); font: 600 15px var(--mono); color: var(--text); }
+.expedition-shell .seqlab__picker button.is-text { font: 500 14px var(--sans); }
+.expedition-shell .seqlab__picker button:hover { border-color: var(--accent); }
+.expedition-shell .seqlab__reset { justify-self: start; padding: 6px 0; border: 0; background: none; color: var(--secondary); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* strands */
+.expedition-shell .seq-strand { min-width: 0; }
+.expedition-shell .seq-strand__label, .expedition-shell .seq-legend { margin: 0 0 8px; font-size: 13px; color: var(--muted); letter-spacing: .2px; }
+.expedition-shell .seq-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.expedition-shell .seq-legend.is-rows { padding-left: 18px; display: grid; gap: 2px; }
+.expedition-shell .seq-strand__body { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px 6px; }
+.expedition-shell .seq-strand__body.is-run { gap: 6px 1px; }
+.expedition-shell .seq-group { display: inline-flex; gap: 1px; }
+.expedition-shell .seq-word { display: inline-grid; justify-items: center; gap: 3px; }
+.expedition-shell .seq-symbol { min-height: 17px; font: 500 12.5px/17px var(--sans); color: var(--secondary); letter-spacing: .2px; }
+.expedition-shell .seq-word.is-on .seq-group { box-shadow: 0 2px 0 -1px var(--line); }
+.expedition-shell .seq-word.is-first.is-on .seq-symbol { color: var(--right); }
+.expedition-shell .seq-word.is-stop.is-on .seq-symbol { color: var(--bright); font-style: italic; }
+.expedition-shell .seq-word.is-stop.is-on .seq-group { box-shadow: 0 2px 0 -1px var(--bright); }
+.expedition-shell .seq-word.is-changed .seq-symbol { color: var(--wrong); font-weight: 600; }
+.expedition-shell .seq-fold { align-self: center; padding: 3px 8px; border: 1px dashed var(--rule); border-radius: 3px; font-size: 12px; color: var(--faint); white-space: nowrap; }
+
+.expedition-shell .seq-tile { display: inline-grid; place-items: center; width: 22px; height: 28px; padding: 0; border: 1px solid var(--rule); border-radius: 2px; background: var(--panel); font: 600 15px/1 var(--mono); color: var(--text); flex: none; transition: background .2s, border-color .2s, opacity .2s; }
+.expedition-shell .seq-tile.is-a { color: hsl(140 34% 66%); }
+.expedition-shell .seq-tile.is-c { color: hsl(205 48% 72%); }
+.expedition-shell .seq-tile.is-g { color: hsl(42 58% 66%); }
+.expedition-shell .seq-tile.is-t, .expedition-shell .seq-tile.is-u { color: hsl(355 52% 72%); }
+.expedition-shell .seq-tile.is-dim { opacity: .45; }
+.expedition-shell .seq-tile.is-changed { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 1px var(--accent); }
+.expedition-shell .seq-tile.is-new { border: 1px dashed var(--accent); background: var(--accent-soft); }
+.expedition-shell .seq-tile.is-gone { opacity: .55; text-decoration: line-through; text-decoration-thickness: 2px; border-style: dashed; color: var(--wrong); }
+.expedition-shell .seq-tile.is-empty { color: var(--faint); border-style: dashed; background: none; }
+.expedition-shell .seq-tile.is-made { animation: seq-in .25s ease-out; border-color: var(--line); background: var(--raised); }
+.expedition-shell .seq-tile.is-gap { color: var(--faint); background: none; border-style: dashed; }
+.expedition-shell .seq-tile.is-diff { border-color: var(--wrong); box-shadow: 0 0 0 1px var(--wrong); }
+.expedition-shell button.seq-tile { cursor: pointer; }
+.expedition-shell button.seq-tile:hover { border-color: var(--line); }
+.expedition-shell button.seq-tile.is-selected { border-color: var(--bright); box-shadow: 0 0 0 1px var(--bright); background: var(--raised); }
+@keyframes seq-in { from { opacity: 0; transform: translateY(-4px); } }
+
+/* two strands, one column per letter */
+.expedition-shell .seq-pair { display: inline-flex; gap: 1px; }
+.expedition-shell .seq-col { display: inline-grid; justify-items: center; }
+.expedition-shell .seq-rung { width: 1px; height: 7px; background: var(--rule); }
+
+/* several strings lined up */
+.expedition-shell .seq-block { display: inline-grid; gap: 2px; }
+.expedition-shell .seq-rownum { flex: none; width: 13px; align-self: center; margin-right: 2px; font: 500 11.5px/1 var(--sans); color: var(--faint); text-align: right; font-variant-numeric: tabular-nums; }
+.expedition-shell .seqlab__pairs { margin: 0; padding: 0; list-style: none; display: grid; gap: 3px; font: 400 16px/1.4 var(--serif); color: var(--text); font-variant-numeric: tabular-nums; }
+.expedition-shell .seqlab__pairs b { font-weight: 400; color: var(--bright); }
+.expedition-shell .seq-aligned .seq-legend li::marker { color: var(--faint); font-size: 12px; }
+
+/* the codon table */
+.expedition-shell .seq-table { min-width: 0; }
+.expedition-shell .seq-table__toggle { padding: 6px 0; border: 0; background: none; color: var(--secondary); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+.expedition-shell .seq-table__toggle[aria-expanded="true"] { color: var(--bright); }
+.expedition-shell .seq-table__grid { width: 100%; max-width: 460px; margin-top: 8px; border-collapse: collapse; font-size: 12px; color: var(--secondary); table-layout: fixed; }
+.expedition-shell .seq-table__grid td { padding: 2px 0; white-space: nowrap; }
+.expedition-shell .seq-table__grid tr.is-block td { padding-top: 7px; }
+.expedition-shell .seq-table__grid code { font: 600 12px var(--mono); color: var(--text); margin-right: 3px; }
+.expedition-shell .seq-table__grid td.is-stop { color: var(--bright); font-style: italic; }
+.expedition-shell .seq-table__grid td.is-start code { color: var(--right); }
+
+@media (max-width: 380px) {
+  .expedition-shell .seqlab__stage { padding: 12px 8px 14px; }
+  .expedition-shell .seq-table__grid, .expedition-shell .seq-table__grid code { font-size: 11px; }
+}
+
+/* the tree drawn after the letters are compared */
+.expedition-shell .seq-tree { display: grid; gap: 10px; margin: 0; min-width: 0; animation: xp-rise .35s ease-out; }
+.expedition-shell .seq-tree svg { display: block; width: 100%; max-width: 560px; height: auto; padding: 6px 4px 2px; border: 1px solid var(--rule); border-radius: 4px; background: radial-gradient(120% 90% at 50% 0%, var(--panel), var(--deep)); box-sizing: border-box; }
+.expedition-shell .seq-tree__line { fill: none; stroke: var(--line); stroke-width: 3; stroke-linecap: round; }
+.expedition-shell .seq-tree__tip circle { fill: var(--pale); }
+.expedition-shell .seq-tree__tip text { fill: var(--secondary); font: 24px var(--sans); }
+.expedition-shell .seq-tree__tip.is-marked circle { fill: var(--accent); }
+.expedition-shell .seq-tree__tip.is-marked text { fill: var(--bright); font-weight: 600; }
+.expedition-shell .seq-tree__credit { margin: 0; max-width: 560px; font-size: 13px; color: var(--faint); }

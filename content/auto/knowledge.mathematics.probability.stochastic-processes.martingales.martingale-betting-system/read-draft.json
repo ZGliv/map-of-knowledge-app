@@ -1,0 +1,68 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Double after every loss",
+   "text": "The martingale is a family of betting strategies that began in France in the 1700s and was popular there. The simplest version was built for a coin game: heads, and the gambler wins the stake; tails, and the stake is lost. After each loss the gambler doubles the bet. The first win then wins back every earlier loss and adds a profit equal to the original stake. People have also used the system at roulette, where a bet on red or on black wins close to 50% of the time.",
+   "cites": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "heading": "Why it cannot work",
+   "text": "Every martingale-style system fails for one basic reason. Knowing how past bets turned out does not help you predict the next one any better than chance. In mathematical terms, the wins and losses are treated as independent and identically distributed, which is a fair description of many real games. In most casino games each single bet has a negative expected value, and adding up many negative numbers always gives a negative total.",
+   "cites": [
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "heading": "Limits change everything",
+   "text": "The system fails even if the gambler may play forever, as long as winnings or bets are capped, which they are in practice. The optional stopping theorem proves that, with a limit on bet size, bankroll or credit, nobody can win over the long run. Only with unlimited wealth, bets and time could the martingale be argued to win. Then it would be certain to profit, since the chance of at least one heads approaches one as the flips go on without end.",
+   "cites": [
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "heading": "A worked example",
+   "text": "Imagine a gambler with a bankroll of 63 units who bets 1 unit on the first spin and doubles after each loss. After k losses in a row the bet is 2ᵏ units. Any win leaves the gambler 1 unit ahead of everything staked so far, and the system starts again at 1 unit. But six straight losses cost 63 units in total, which empties the bankroll and ends the system.",
+   "cites": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "heading": "Counting the cost",
+   "text": "In that example, the chance of losing six times running and going bust is (10/19)⁶ = 2.1256%. The chance of a win before that happens is 1 − (10/19)⁶ = 97.8744%. Putting these together, the expected value of each application of the system is −0.360374.",
+   "cites": [
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "heading": "Streaks are more common than they feel",
+   "text": "Many gamblers think six losses in a row is a remote event and that patience will slowly grow their money. Studies in psychology find that people know six losses in six plays is unlikely, and wrongly assume it stays unlikely over many plays. On a single-zero wheel, losing all of the first six plays has only about a 1.8% chance. Yet a run of six losses somewhere in 200 plays has a chance of roughly 84%. Even a gambler able to cover about 1,000 times the first bet faces an ~11% chance of ten losses in a row in 200 plays, which would cost 1,023 times the original bet.",
+   "cites": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+   ]
+  }
+ ]
+}

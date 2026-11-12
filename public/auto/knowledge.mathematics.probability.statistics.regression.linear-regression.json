@@ -1,0 +1,358 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.regression.linear-regression",
+ "name": "Linear regression",
+ "summary": [
+  {
+   "text": "In statistics, linear regression is a model that estimates the relationship between a response and one or more explanatory variables related through a linear combination.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its unknown model parameters are estimated from the data, and it focuses on the conditional distribution of the response given the predictors.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It is also a supervised machine learning algorithm, and it was the first type of regression analysis to be studied rigorously.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simple form",
+   "value": "One explanatory variable is simple linear regression",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Why widely used",
+   "value": "Easier to fit than models non-linear in their parameters",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Prediction",
+   "value": "A fitted model can predict the response for new inputs",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Relaxing assumptions",
+   "value": "Extensions generally need more data or modelling assumptions",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "Machine learning",
+   "value": "A supervised algorithm learning from labelled datasets",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An analyst models sales using only the number of store visitors. A colleague models sales using visitors, price and weather. How should the two models be described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are simple, since sales is the one response"
+    },
+    {
+     "id": "b",
+     "label": "The first is simple and the second is multiple"
+    },
+    {
+     "id": "c",
+     "label": "The first is multiple and the second is simple"
+    },
+    {
+     "id": "d",
+     "label": "Both are multiple, since both include visitors"
+    }
+   ],
+   "answer": "b",
+   "explain": "Exactly one explanatory variable makes a simple linear regression; two or more makes a multiple linear regression.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.linear-regression:q1"
+  },
+  {
+   "prompt": "A regression of sales on advertising spend is mostly concerned with which question?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How sales are distributed for given advertising amounts"
+    },
+    {
+     "id": "b",
+     "label": "How sales and advertising spend are jointly distributed"
+    },
+    {
+     "id": "c",
+     "label": "Which of the two variables came first in time"
+    },
+    {
+     "id": "d",
+     "label": "How many observations the data set contains"
+    }
+   ],
+   "answer": "a",
+   "explain": "Regression focuses on the conditional distribution of the response given the predictor values, rather than on the joint distribution of all the variables.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.linear-regression:q2"
+  },
+  {
+   "prompt": "Why did linear regression become the first regression type to be studied rigorously and used widely in practice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Non-linear models were proven impossible to fit at all"
+    },
+    {
+     "id": "b",
+     "label": "It needs no assumptions whatsoever about the data"
+    },
+    {
+     "id": "c",
+     "label": "Linear-in-parameters models are easier to fit and analyse"
+    },
+    {
+     "id": "d",
+     "label": "It always produces a perfect fit to the data"
+    }
+   ],
+   "answer": "c",
+   "explain": "Models that depend linearly on their unknown parameters are easier to fit than non-linear ones, and the statistical properties of their estimators are easier to determine.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.linear-regression:q3"
+  },
+  {
+   "prompt": "An analyst wants to loosen some of the standard assumptions of linear regression. What is the usual price?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The model can no longer make predictions"
+    },
+    {
+     "id": "b",
+     "label": "The model must be non-linear"
+    },
+    {
+     "id": "c",
+     "label": "The explanatory variables must be removed"
+    },
+    {
+     "id": "d",
+     "label": "More data or modelling assumptions to stay equally precise"
+    }
+   ],
+   "answer": "d",
+   "explain": "Extensions exist that relax or remove these assumptions, but they generally require more data or modelling assumptions to produce an equally precise model.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.linear-regression:q4"
+  },
+  {
+   "prompt": "A dataset has many very large outliers, and the model is fitted by minimizing mean squared error. What can go wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The fit may favour the outliers over the true data"
+    },
+    {
+     "id": "b",
+     "label": "The outliers are always ignored"
+    },
+    {
+     "id": "c",
+     "label": "The coefficients all become zero"
+    },
+    {
+     "id": "d",
+     "label": "The model turns into a non-linear one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mean squared error gives higher importance to large errors, so the model can fit the outliers more than the true data. A cost robust to outliers is better then.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.linear-regression:q5"
+  },
+  {
+   "prompt": "A model predicts house price from area and number of rooms. What does the area coefficient mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The total price of a house of any size"
+    },
+    {
+     "id": "b",
+     "label": "The expected price change per extra unit of area, rooms held fixed"
+    },
+    {
+     "id": "c",
+     "label": "The correlation between area and rooms"
+    },
+    {
+     "id": "d",
+     "label": "The price change when area and rooms both rise"
+    }
+   ],
+   "answer": "b",
+   "explain": "A coefficient is the expected change in the response for a one-unit change in that predictor when the other covariates are held fixed.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.mathematics.probability.statistics.regression.linear-regression:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Linear_least_squares_example2.svg/960px-Linear_least_squares_example2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Linear regression",
+  "credit": "Krishnavedala",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear_least_squares_example2.svg"
+ },
+ "source": {
+  "title": "Linear regression",
+  "url": "https://en.wikipedia.org/wiki/Linear_regression",
+  "revision": 1383865853
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the model says",
+    "text": "Linear regression estimates how a response, also called the dependent variable, relates to one or more explanatory variables, also called predictors. The predictors are joined to the response through a linear combination. The model's unknown parameters are estimated from the data. It looks at how the response is distributed once the predictor values are known, not at how all the variables are spread out together.",
+    "cites": [
+     1,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "Assumptions and their limits",
+    "text": "Standard methods such as ordinary least squares rely on a number of assumptions about the predictors, the response and the link between them. They are needed to get estimates that are unbiased in a finite sample. Many extensions let these assumptions be weakened, and some drop them entirely. The price is usually that more data or more modelling assumptions are needed to get an equally precise model.",
+    "cites": [
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Holding the others fixed",
+    "text": "In a model with several predictors, each coefficient β_j answers a specific question. It gives the expected change in y for a one-unit rise in x_j while all the other predictors stay the same. This is called the unique effect of x_j. By contrast, the marginal effect looks at x_j alone, for example through a correlation coefficient or a simple regression of y on x_j only.",
+    "cites": [
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "When the two effects disagree",
+    "text": "The unique and marginal effects of a predictor can differ sharply. A predictor may matter a lot on its own but add almost nothing once other variables are included, perhaps because another variable already carries its information. The opposite can also happen. If the other variables explain much of the variation in y in a way that complements x_j, including them can make the link with x_j look stronger.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Experiments versus observation",
+    "text": "What held fixed means depends on where the data come from. In a designed experiment, the researcher sets the predictor values, so comparisons can literally be between units the researcher held fixed. In an observational study, the only option is to look at subsets of the data that happen to share the same value of a predictor. Some argue that when predictors are correlated with each other and not set by a design, multiple regression often fails to make the relationships clear.",
+    "cites": [
+     32,
+     33,
+     34,
+     35,
+     36,
+     39
+    ]
+   },
+   {
+    "heading": "Many ways to estimate",
+    "text": "A large number of methods exist for estimating the parameters and drawing conclusions from them. They differ in how simple they are to compute, whether a closed-form solution exists, and how well they cope with heavy-tailed data. One option is maximum likelihood, which can be used when the errors are known to follow a particular family of distributions. If the errors are normal with zero mean, the maximum likelihood answer is the same as the ordinary least squares one.",
+    "cites": [
+     40,
+     41,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "lane-14-1",
+   "kind": "book",
+   "title": "14.1: Introduction to Linear Regression",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/14%3A_Regression/14.01%3A_Introduction_to_Linear_Regression",
+   "note": "A short, clear introduction to predicting Y from X with a line chosen to minimize squared errors of prediction.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "diez-8-2",
+   "kind": "book",
+   "title": "8.2: Least squares regression",
+   "by": "David Diez, Christopher Barr and Mine Çetinkaya-Rundel (OpenIntro)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introduction_to_Statistics_4e_(Diez_et_al.)/08%3A_Introduction_to_Linear_Regression/8.02%3A_Least_squares_regression",
+   "note": "An open textbook section on fitting a line by minimizing squared residuals, reading slope and R², and the risk of extrapolation.",
+   "license": "CC BY-SA 3.0"
+  },
+  {
+   "id": "diez-9-1",
+   "kind": "book",
+   "title": "9.1: Introduction to Multiple Regression",
+   "by": "David Diez, Christopher Barr and Mine Çetinkaya-Rundel (OpenIntro)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introduction_to_Statistics_4e_(Diez_et_al.)/09%3A_Multiple_and_Logistic_Regression/9.01%3A_Introduction_to_Multiple_Regression",
+   "note": "Covers models with several predictors, correlated (collinear) predictors and adjusted R².",
+   "license": "CC BY-SA 3.0"
+  },
+  {
+   "id": "lane-14-8",
+   "kind": "book",
+   "title": "14.8: Introduction to Multiple Regression",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/14%3A_Regression/14.08%3A_Introduction_to_Multiple_Regression",
+   "note": "Explains regression with several predictors, partial slopes with others held constant, and unique versus shared variance.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "cc-stats-32",
+   "kind": "video",
+   "title": "Regression: Crash Course Statistics #32",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=WWqE7YHR4Jc",
+   "note": "A Crash Course video introducing regression models, fitting a line to data and the general linear model."
+  }
+ ]
+}

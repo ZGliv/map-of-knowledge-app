@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "The Catalan numbers are a sequence of natural numbers that occur in various counting problems, often involving recursively defined objects.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They are named after Eugene Catalan, though Minggatu discovered them earlier, in the 1730s.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Many counting problems have Catalan answers; a book by Richard Stanley has exercises describing 66 different interpretations.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Prime ones",
+   "value": "Only C₂ = 2 and C₃ = 5 are prime",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Odd ones",
+   "value": "The only odd Catalan numbers are those with n = 2ᵏ − 1",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Trees",
+   "value": "Cₙ counts ordered trees with n + 1 vertices",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Grid paths",
+   "value": "Cₙ counts grid paths that never pass above the diagonal",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Interpretations",
+   "value": "One book describes 66 ways to read them",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A language program counts the ways to build a sentence's parse tree when every branching splits in two. Which numbers give that count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Catalan numbers"
+    },
+    {
+     "id": "b",
+     "label": "The prime numbers"
+    },
+    {
+     "id": "c",
+     "label": "The powers of two"
+    },
+    {
+     "id": "d",
+     "label": "The triangular numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Cₙ is the number of possible parse trees for a sentence, assuming binary branching.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "prompt": "You walk from the lower left to the upper right corner of a 2-by-2 grid of squares, moving only right or up, never crossing over the diagonal. How many paths are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2"
+    },
+    {
+     "id": "b",
+     "label": "3"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "6"
+    }
+   ],
+   "answer": "a",
+   "explain": "Such paths are counted by Cₙ, and C₂ = 2.",
+   "cites": [
+    6,
+    19,
+    20
+   ]
+  },
+  {
+   "prompt": "Grid paths are written as strings of the letters X and Y. What do the two letters stand for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "X means move up, Y means move right"
+    },
+    {
+     "id": "b",
+     "label": "X means move right, Y means move up"
+    },
+    {
+     "id": "c",
+     "label": "X means stay put, Y means move"
+    },
+    {
+     "id": "d",
+     "label": "X means start, Y means finish"
+    }
+   ],
+   "answer": "b",
+   "explain": "Counting such paths is the same as counting Dyck words, where X is a move right and Y is a move up.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "prompt": "The numbers 1 to 2n are placed into a 2-by-n rectangle, and the count is a Catalan number. What rule must the arrangement follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each row and each column must be increasing"
+    },
+    {
+     "id": "b",
+     "label": "Each row must add up to the same total"
+    },
+    {
+     "id": "c",
+     "label": "Odd numbers must sit over the even numbers"
+    },
+    {
+     "id": "d",
+     "label": "No two neighbouring numbers may differ by one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Cₙ counts the ways of arranging 1, 2, ..., 2n in a 2-by-n rectangle so that each row and each column is increasing.",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "To count good grid paths indirectly, you first count the bad ones. What makes a path bad?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It goes up before it goes right"
+    },
+    {
+     "id": "b",
+     "label": "It touches the diagonal at any point"
+    },
+    {
+     "id": "c",
+     "label": "It contains a point higher than the line y = x"
+    },
+    {
+     "id": "d",
+     "label": "It ends anywhere but the far corner"
+    }
+   ],
+   "answer": "c",
+   "explain": "A bad path is monotonic from (0, 0) to (n, n) and contains a point above the line y = x.",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "prompt": "Catalan numbers keep turning up in unrelated puzzles. Which kind of problem tends to produce them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Counting problems about recursively defined objects, such as trees"
+    },
+    {
+     "id": "b",
+     "label": "Counting the ways to shuffle a deck of cards"
+    },
+    {
+     "id": "c",
+     "label": "Problems about the sums of digits of a number"
+    },
+    {
+     "id": "d",
+     "label": "Problems that can only be solved on a grid"
+    }
+   ],
+   "answer": "a",
+   "explain": "They occur in various counting problems, often involving recursively defined objects, with ordered trees as one example.",
+   "cites": [
+    1,
+    16
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1020 @@
+{
+ "checker": "Independent adversarial checker (Claude Opus 5.5 subagent; did not write these reels)",
+ "checkedAt": "2026-10-23T19:01:06Z",
+ "units": [
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"Hartog left behind a pewter dinner plate\"; \"On 25 October 1616, he landed at Cape Inscription\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Dirk Hartog] \"He made landfall at an island off the coast of Shark Bay, Western Australia\"; m1 is in Commons Category \"Rijksmuseum Amsterdam in 2004\" and its museum label reads \"Pewter plate left by Dirck Hartoghe on Australia's western coast, 1616\", so the photo is the original plate",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"he landed at Cape Inscription on the very northernmost tip of Dirk Hartog Island\" ... \"nailed to a post and placed upright in a fissure on the cliff top\"",
+   "note": "Fine as a location; note the same article says the spot was only named Cape Inscription after the 1801 and 1818 additions.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"in 1697, the Dutch sea captain Willem de Vlamingh also reached the island and discovered Hartog's pewter dish\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f4",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Hartog Plate, pinned] \"The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\"; WA Museum (museum.wa.gov.au/explore/dirk-hartog/dirk-hartogs-pewter-plate): \"De Vlamingh took Hartog's dish to Batavia (Jakarta) from where it was transferred to the VOC archives in The Netherlands.\"; the Rijksmuseum label visible in m1 itself says he brought it to Batavia, from where it was sent to Amsterdam",
+   "note": "Vlamingh did not carry the plate to Amsterdam himself: he took it to Batavia and it was sent on to the Netherlands (VOC archives; it reached the Rijksmuseum much later). \"Took the original to Amsterdam\" rests only on the Dirk Hartog Island page's compressed wording, and \"still\" implies it has sat in the Rijksmuseum since 1697.",
+   "fix": "He put up a new plate, and the original went back to the Netherlands. It is now in the Rijksmuseum in Amsterdam.",
+   "resolved": "Applied the checker's fix: He put up a new plate, and the original went back to the Netherlands. It is now in the Rijksmuseum in Amsterdam."
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"the oldest-known artefact of European exploration in Australia still in existence\"; [Wikipedia: Dirk Hartog Island] \"Known as Wirruwana by the traditional custodians of the island, the Malgana people, the island is named after Dirk Hartog\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"still kept in the Rijksmuseum Amsterdam\"; the plate left the island in 1697 and was not lost, so both wrong choices are wrong",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/takeaway",
+   "verdict": "imprecise",
+   "evidence": "WA Museum: \"De Vlamingh took Hartog's dish to Batavia (Jakarta) from where it was transferred to the VOC archives in The Netherlands.\"; [Wikipedia: Hartog Plate] \"The original dish was returned to the Netherlands\"",
+   "note": "Same problem as f4: Vlamingh removed the plate, but he took it to Batavia, not Amsterdam.",
+   "fix": "Hartog's plate marked his landing in 1616. Willem de Vlamingh removed it in 1697, and it is now in the Rijksmuseum in Amsterdam.",
+   "resolved": "Applied the checker's fix: Hartog's plate marked his landing in 1616. Willem de Vlamingh removed it in 1697, and it is now in the Rijksmuseum in Amsterdam."
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.landing",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Hartog Plate and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.island",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Dirk Hartog and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.plate",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Dirk Hartog; \"affixed ... on which he scratched a record of his visit\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.post",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Hartog Plate; \"nailed to a post and placed upright in a fissure on the cliff top\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.photo",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description; the file is in Category \"Rijksmuseum Amsterdam in 2004\" and the label in the photo names Hartog's 1616 plate",
+   "note": "The quote alone is ambiguous (\"either of two plates\"); the category and the visible label settle that it is the 1616 original, not the 1697 Vlamingh plate in Fremantle.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.vlamingh",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Hartog Plate; 1697 - 1616 = 81 matches \"Eighty-one years later\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.rijks",
+   "verdict": "imprecise",
+   "evidence": "Quote is verbatim in Wikipedia: Dirk Hartog Island, but the pinned Wikipedia: Hartog Plate says only \"The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\" and WA Museum says \"De Vlamingh took Hartog's dish to Batavia (Jakarta) from where it was transferred to the VOC archives in The Netherlands.\"",
+   "note": "The pinned sources disagree on the route; \"took the original to Amsterdam\" is contradicted by the WA Museum and by the Rijksmuseum label in m1 (via Batavia).",
+   "fix": "Claim: \"Vlamingh replaced it with his own plate copying Hartog's inscription; the original was returned to the Netherlands and is kept in the Rijksmuseum Amsterdam\". Add the Hartog Plate quote \"The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\"",
+   "resolved": "Claim now says the original was returned to the Netherlands and is kept in the Rijksmuseum, quoting the Hartog Plate article (S2)."
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.oldest",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Hartog Plate and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.names",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Dirk Hartog Island and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/media.m1",
+   "verdict": "supported",
+   "evidence": "Viewed the image: a round, corroded pewter plate under the glass lid of a slanted display case, with a Dutch/English label panel above it. Commons: Artist \"Adam Carr at English Wikipedia\", original upload 16 September 2004, Public domain, 1280x960; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/media.m2",
+   "verdict": "supported",
+   "evidence": "Viewed the map: Shark Bay with Bernier, Dorre, Faure islands and peninsulas, a star labelled CAPE INSCRIPTION at the north end of Dirk Hartog Island, inset map of Australia. Commons: \"OpenStreetMap contributors\", CC BY-SA 2.0, 1197x1350; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/media.m3",
+   "verdict": "supported",
+   "evidence": "Viewed the image: Terra true-colour view, long thin islands and peninsulas around blue-green water beside red-brown land. Commons: NASA, captured 6 November 2004, Public domain, 1200x1600; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/place",
+   "verdict": "supported",
+   "evidence": "Exploration of the Australian coast, island naming, map and satellite views fit knowledge.earth.geography",
+   "note": "knowledge.humanities.history would fit equally well (the core is an artefact of exploration); not wrong as tagged.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"This frond-shaped fossil was found in England's Charnwood Forest\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f1",
+   "verdict": "imprecise",
+   "evidence": "[Commons: Ediacaran_ecosystem_diorama_NMNH.jpg] \"Diorama of Ediacaran ecosystem, with abundant Charnia fronds\"",
+   "note": "The source says the diorama has abundant Charnia fronds, not that its fronds are all Charnia. The image visibly mixes frond types (pink stalked fronds on disc holdfasts, bushy and flat fan-shaped forms), so naming every feathery frond \"Charnia\" overstates it.",
+   "fix": "A museum model of Ediacaran life, crowded with feathery fronds, many of them Charnia.",
+   "resolved": "Applied the checker's fix: A museum model of Ediacaran life, crowded with feathery fronds, many of them Charnia."
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"first appeared around 600 million years ago and flourished until the cusp of the Cambrian 538.8 million years ago\"; \"about\" carries \"around\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"found in England's Charnwood Forest first by a 15 year-old girl in 1956 (Tina Negus, who was not believed)\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"and then the next year by a group of three schoolboys including 15 year-old Roger Mason\"; \"This frond-shaped fossil was found ... first ... and then\" supports \"found it again\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"Due to the detailed geological mapping of the British Geological Survey, there was no doubt these fossils sat in Precambrian rocks.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"It was not until the British discovery of the iconic Charnia that the Precambrian was seriously considered as containing life.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/prediction",
+   "verdict": "supported",
+   "evidence": "Key matches \"Due to the detailed geological mapping ... no doubt these fossils sat in Precambrian rocks\"; 1956 + \"the next year\" = 1957. Radiocarbon dating reaches only tens of thousands of years, and looks cannot date rock, so neither wrong choice is arguably right",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] negus + mapping + seriously quotes; \"Teenagers\" covers Negus (15) and Mason (15)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/claim.diorama",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description; \"many\" carries \"abundant\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/claim.age",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Ediacaran biota; \"around\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/claim.negus",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Ediacaran biota and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/claim.mapping",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Ediacaran biota and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/claim.seriously",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Ediacaran biota and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/media.m1",
+   "verdict": "supported",
+   "evidence": "Viewed the image: diorama sea floor with tall pink, orange and purple feather-shaped fronds and rounded forms on sand. Commons: Ryan Schwark, 2023-11-12, CC0, 2537x1250; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/place",
+   "verdict": "supported",
+   "evidence": "Precambrian fossils and dating by mapped rock fit E06 deep-time (\"rocks and fossils record life's history\")",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"never visited Hanover\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"at the age of 22, George succeeded to the throne when his grandfather George II died suddenly on 25 October 1760\"; born 4 June 1738, so 22 holds",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George II of Great Britain] \"Born and brought up in northern Germany, George is the most recent British monarch born outside Great Britain.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"the first monarch of the House of Hanover who was born in Great Britain, spoke English as his first language\"; George I and George II were both born in Hanover",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"concurrently duke and prince-elector of Hanover ... before becoming King of Hanover\"; \"never visited Hanover\"; \"spent his entire life in southern England\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"George, in his accession speech to Parliament, proclaimed: \\\"Born and educated in this country, I glory in the name of Britain.\\\"\"; the quoted words are exact",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"never visited Hanover\"; both wrong choices contradict it",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] accession quote and \"first monarch of the House of Hanover who was born in Great Britain ... and never visited Hanover\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.accession",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George III and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.g2",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George II of Great Britain and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.first",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George III and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.hanover",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George III; \"prince-elector ... before becoming King of Hanover on 12 October 1814\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.germany",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George III; the source adds \"until the end of the empire in 1806\", which the claim does not contradict",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.south",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George III and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.speech",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: George III and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/media.m1",
+   "verdict": "supported",
+   "evidence": "Viewed the image: full-length standing portrait in gold suit and long ermine robe, a fluted column with pink drapery behind. Commons: Allan Ramsay, circa 1765, Public domain, 2433x3801; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/media.m2",
+   "verdict": "supported",
+   "evidence": "Viewed the image: pastel head-and-shoulders of a youth in a powdered wig, white coat with silver embroidery, blue sash. Commons: \"George, Prince of Wales (1738-1820) ... pastel on vellum ... 1754\", Jean-Étienne Liotard, Public domain, 2475x3189; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/place",
+   "verdict": "supported",
+   "evidence": "Accession, rule over Hanover and national identity in an accession speech fit knowledge.society.politics",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"have allowed direct observation of genome evolution\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: E_coli_at_10000x] \"Low-temperature electron micrograph of a cluster of E. coli bacteria, magnified 10,000 times. Each individual bacterium is oblong shaped.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"The long-term evolution experiments using E. coli, begun by Richard Lenski in 1988, have allowed direct observation of genome evolution\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"over more than 65,000 generations in the laboratory\"",
+   "note": "True as worded; the count is the source's and the experiment is now well beyond it, so \"more than\" must stay.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"Under favourable conditions, it takes as little as 20 minutes to reproduce.\"; \"reproduces by binary fission\"; \"as little as\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"one population of E. coli unexpectedly evolved the ability to aerobically metabolize citrate\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"E. coli typically do not have the ability to grow aerobically with citrate ... used as a diagnostic criterion with which to differentiate E. coli from other, closely, related bacteria\"; \"some hallmarks of microbial speciation\"; \"Normally\" carries \"typically\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"more than 65,000 generations\"; 650 and 6,500 are both far below",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] lenski + citrate quotes",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.micrograph",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.rod",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description; in the image each rod is a single cell",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.lenski",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Escherichia coli and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.twenty",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Escherichia coli; \"as little as\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.fission",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Escherichia coli; binary fission is by definition one cell splitting into two, and the same sentence goes on \"the two supposedly identical cells produced by cell division\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.diagram",
+   "verdict": "imprecise",
+   "evidence": "Quote \"During cell division, two new poles are formed, one in each of the progeny cells\" is verbatim, but the life-cycle part is only in the description's first line: \"Schematic diagram of the life cycle of Escherichia coli .\"",
+   "note": "The quoted sentence supports \"a cell dividing into two\" but not that the picture is a diagram of E. coli's life cycle.",
+   "fix": "Quote \"Schematic diagram of the life cycle of Escherichia coli . Original caption During cell division, two new poles are formed, one in each of the progeny cells\" (verbatim in the pinned text, including the space before the full stop).",
+   "resolved": "Applied the checker's fix: Quote \"Schematic diagram of the life cycle of Escherichia coli . Original caption During cell division, two new poles are formed, one in each of the progeny cells\" (verbatim in the pinned text, including the space before the full stop)."
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.citrate",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Escherichia coli; \"some hallmarks\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.normally",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Escherichia coli; \"typically\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/media.m2",
+   "verdict": "imprecise",
+   "evidence": "Commons Artist: \"Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, ARS, EMU.\"; date 2005-03; Public domain, 2598x1889 (matches media.json). Viewed the image: clump of salmon-pink rods on a rough surface, 1 μm scale bar",
+   "note": "Alt text is accurate. The credit is a truncated scrape: \"Christopher Pooley,…,\" cuts the sentence and drops the USDA agency the PD release depends on.",
+   "fix": "Credit: \"Eric Erbe and Christopher Pooley, USDA ARS, 2005\"",
+   "resolved": "Applied the checker's fix: Credit: \"Eric Erbe and Christopher Pooley, USDA ARS, 2005\""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/media.m1",
+   "verdict": "wrong",
+   "evidence": "Commons Artist: \"See original article. Original TIFF ... by Fvasconcellos.\"; Credit: \"Stewart EJ, Madden R, Paul G, Taddei F (2005) ... PLoS Biol 3 (2): e45\"; Date: \"Article received August 4, 2004/ published February 1, 2005\"; CC BY 2.5, 1252x1000 (matches media.json)",
+   "note": "Alt text is accurate (viewed: rod cell growing and dividing, poles red and blue, time-lapse panel B). But the credit \"See original article\" is a pointer, not an author, so a CC BY 2.5 image goes out without attribution; and 2004 is the date the article was received, not published (2005).",
+   "fix": "Credit: \"Stewart, Madden, Paul & Taddei, PLoS Biology, 2005\"",
+   "resolved": "Applied the checker's fix: Credit: \"Stewart, Madden, Paul & Taddei, PLoS Biology, 2005\""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/place",
+   "verdict": "supported",
+   "evidence": "The long-term evolution experiment is the textbook case of evolution observed now; fits E10 evolution-now",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"This meant that the concerto would be premiered half a world away from Moscow.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"was composed by Pyotr Ilyich Tchaikovsky between November 1874 and February 1875.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"Tchaikovsky did hope that Rubinstein would perform the work at one of the 1875 concerts of the Russian Musical Society in Moscow.\"; Tchaikovsky's letter: \"It turned out that my concerto was worthless and unplayable\"; attribution \"By Tchaikovsky's account\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"\\\"I shall not alter a single note,\\\" I answered\"; \"Tchaikovsky next approached German pianist Hans von Bülow\"; Brown: \"he did not change the work\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"Bülow was preparing to go on a tour of the United States. This meant that the concerto would be premiered half a world away from Moscow.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"The first performance of the original version took place on October 25, 1875, in Boston, conducted by Benjamin Johnson Lang with Bülow as soloist.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"Although the premiere was a success with the audience, the critics were not so impressed.\"; \"Rubinstein later withdrew his criticism and became a fervent champion of the work.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"first performed on October 25, 1875, in Boston\"; Moscow and Paris both wrong",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1] \"first performed on October 25, 1875, in Boston by Hans von Bülow after Tchaikovsky's desired pianist, Nikolai Rubinstein, criticised the piece\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.composed",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the article lead and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.hoped",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the article and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.verdict",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim (Tchaikovsky's letter to von Meck); \"In Tchaikovsky's own account\" keeps the attribution",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.refused",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim (same letter) and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.bulow",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim; the claim drops \"it is not known why\", which concerns his motive, not the fact of the approach",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.tour",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.halfworld",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.premiere",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim; \"of the original version\" is the first performance of any version",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.critics",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/claim.withdrew",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/media.m1",
+   "verdict": "supported",
+   "evidence": "Viewed the image: vignetted portrait, white hair, grey beard, dark jacket. Commons: \"Cabinet card portrait of Pyotr Ilyich Tchaikovsky\", Émile Reutlinger, 1888, Public domain, 1369x1910; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/media.m5",
+   "verdict": "supported",
+   "evidence": "Viewed the image: oval portrait, moustache and pointed goatee, dark suit, bow tie. Commons: \"Portrait of Hans von Bülow ... Dated 1875 in pencil\", George Kendall Warren, ca. 1875, Public domain, 1711x2100; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/media.m4",
+   "verdict": "supported",
+   "evidence": "Viewed the image: printed portrait, balding, full beard, signature \"B. J. Lang\" below. Commons: from \"A Hundred Years of Music in America\" (1889), Unknown author, Public domain, 391x652; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/place",
+   "verdict": "supported",
+   "evidence": "A concerto's composition and premiere fit knowledge.arts.music",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/title",
+   "verdict": "supported",
+   "evidence": "[Commons: Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f1",
+   "verdict": "supported",
+   "evidence": "Viewed the diagram: dotted lines rise from A-L; B, C, D, G, H, K, L stop short, A and I fork repeatedly; [Commons] \"The other descents have gone extinct.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f2",
+   "verdict": "imprecise",
+   "evidence": "[Commons: Origin_of_Species.svg] \"Each horizontal line represents 1000 generations.\"; Darwin, Origin 1859: the intervals \"may represent each a thousand generations; but it would have been better if each had represented ten thousand generations\", and 1872: \"each horizontal line has hitherto been supposed to represent a thousand generations, but each may represent a million or more generations\" (darwin-online.org.uk Variorum)",
+   "note": "1,000 generations per level is Darwin's worked example, which he explicitly hedged; stated flat it reads as a fixed scale of the diagram.",
+   "fix": "Each letter is a line of descent. In Darwin's example, each level up the page stands for 1,000 generations.",
+   "resolved": "Applied the checker's fix: Each letter is a line of descent. In Darwin's example, each level up the page stands for 1,000 generations."
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f3",
+   "verdict": "supported",
+   "evidence": "[Commons: Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"first published on Thursday 24 November 1859 ... with a first printing of 1250 copies\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"During Darwin's lifetime the book went through six editions, with cumulative changes and revisions to deal with counter-arguments raised\"; \"the sixth edition ... (this was the first edition in which he used the word \\\"evolution\\\"\"; \"published by Murray on 19 February 1872\"",
+   "note": "\"Only the sixth\" is an inference from \"first edition in which he used\" plus six lifetime editions; it holds.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"though all editions concluded with the word \\\"evolved\\\"\"; the diagram is in the 1859 first edition",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/prediction",
+   "verdict": "supported",
+   "evidence": "[Commons: Origin_of_Species.svg] \"The only illustration in ... On the Origin of Species\", so \"None\" is right and both other choices wrong",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/takeaway",
+   "verdict": "supported",
+   "evidence": "[Commons] \"only illustration ... showing the divergence of species\"; [Wikipedia: On the Origin of Species] sixth edition first to use \"evolution\", published 19 February 1872",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.only",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description (including its stray spaces) and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.letters",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.levels",
+   "verdict": "imprecise",
+   "evidence": "Quote is verbatim in the Commons description; Darwin's own text: \"may represent each a thousand generations; but it would have been better if each had represented ten thousand generations\" (1859), \"each may represent a million or more generations\" (1872)",
+   "note": "Faithful to the Commons caption, but the caption drops Darwin's hedge: 1,000 generations is his illustrative assumption, not a fixed scale.",
+   "fix": "Claim: \"In Darwin's example, each horizontal level stands for 1,000 generations\"",
+   "resolved": "Applied the checker's fix: Claim: \"In Darwin's example, each horizontal level stands for 1,000 generations\""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.branching",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim; Descent A has 3 living species and the next sentence gives Descent I 2, so \"some lines branch into several\" holds",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.extinct",
+   "verdict": "imprecise",
+   "evidence": "Quote \"The other descents have gone extinct.\" is verbatim but gives no count; the preceding sentences, \"Descent A has 3 existent species after 10000 generations. Descent I has 2. Descents E, F have 1 each.\", leave 4 of the 11 letters (A-L has no J) alive, so 7 of 11 die out",
+   "note": "\"Most\" is true, but the quoted sentence alone does not show it; it needs the survivor count.",
+   "fix": "Quote \"Descent A has 3 existent species after 10000 generations. Descent I has 2. Descents E, F have 1 each. The other descents have gone extinct.\" (verbatim in the pinned text)",
+   "resolved": "Applied the checker's fix: Quote \"Descent A has 3 existent species after 10000 generations. Descent I has 2. Descents E, F have 1 each. The other descents have gone extinct.\" (verbatim in the pinned text)"
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.titlepage",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description; the cropped file shows only the title page, which is what the claim says",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.published",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: On the Origin of Species and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.editions",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.word",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.sixth",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.ended",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/media.m5",
+   "verdict": "supported",
+   "evidence": "Viewed the image: dotted lines branching upward from A-L, Roman numerals I-XIV at the right of the horizontal lines. Commons: \"Illustration by Charles Darwin, SVG file by Inductiveload\", 2009-02-05, Public domain, 750x500; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/media.m1",
+   "verdict": "supported",
+   "evidence": "Viewed the image: \"ON THE ORIGIN OF SPECIES BY MEANS OF NATURAL SELECTION ... BY CHARLES DARWIN, M.A. ... LONDON: JOHN MURRAY, ALBEMARLE STREET. 1859.\" Commons: John Murray, Publisher, 1859, Public domain, 2888x4636; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/media.m3",
+   "verdict": "imprecise",
+   "evidence": "Commons Artist: \"Henry Maull (1829–1914) and John Fox (1832–1907) (Maull & Fox)[1]\", circa 1854, Public domain, 2448x3456 (matches media.json). Viewed the image: Darwin seated in profile, dark coat, checked waistcoat and trousers, signature \"Charles Darwin\" below",
+   "note": "Alt text is accurate. The credit carries a scraped footnote marker \"[ 1 ]\" from the Commons page.",
+   "fix": "Credit: \"Maull & Fox, c. 1854\"",
+   "resolved": "Applied the checker's fix: Credit: \"Maull & Fox, c. 1854\""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/place",
+   "verdict": "wrong",
+   "evidence": "src/core/evolution.ts: E07 evidence = \"Independent lines of evidence (fossils, anatomy, DNA, geography) tell the same story.\"; scripts/reels/placeTable.mjs maps /on the origin of species/ to `${EVO}.how-we-know`",
+   "note": "The reel is about the book: its one diagram, print run, editions and the word \"evolution\". None of it is a line of evidence for evolution; the project's own place table sends Origin stories to how-we-know.",
+   "fix": "Tag knowledge.science.biology.evolution.how-we-know (E12), or tree-thinking (E01) if the diagram is the point.",
+   "resolved": "Re-tagged to knowledge.science.biology.evolution.how-we-know (E12)."
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"700 000 bricks were brought over in barges from the Bomarsund Fortress that had been demolished in the Crimean War\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"It was inaugurated on 25 October 1868.\"; \"set upon a hillside on the Katajanokka peninsula overlooking the city\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"designed by the Russian architect Aleksey Gornostayev (1808–1862). The cathedral was built after his death in 1862–1868\"; [Wikipedia: Aleksey Gornostayev] \"completed after his death\"; m2 is in Commons Category \"Alexei Gornostaev\", and the sitter was travelling in Europe 1834–1838",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"700 000 bricks were brought over in barges from the Bomarsund Fortress that had been demolished in the Crimean War\"; \"700,000 of them\" correctly avoids saying all its bricks",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"a plaque commemorating Russian Emperor Alexander II, who was the sovereign of the Grand Duchy of Finland during the cathedral's construction\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"main cathedral of the Orthodox Church of Finland\"; \"Annually, about half a million tourists visit the church.\"; \"About\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] bricks \"from the Bomarsund Fortress that had been demolished in the Crimean War\"; neither wrong choice has any support",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] opened + bricks quotes; \"in part\" is appropriately hedged",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.opened",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.hill",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.architect",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.completed",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in Wikipedia: Aleksey Gornostayev and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.portrait",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the Commons description (\"Портрет А. М. Горностаева. 1834\" = \"Portrait of A. M. Gornostaev\"); the file sits in Category \"Alexei Gornostaev\", same person as the architect (Alexey Maksimovich)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.bricks",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.plaque",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.main",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim and says exactly this",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/claim.tourists",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim; \"About\" kept",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/media.m5",
+   "verdict": "imprecise",
+   "evidence": "Commons: Artist \"Photochrom Print Collection\", date \"between 1890 and 1900\", Library of Congress LCCN 2001697412, Public domain, 3401x2508 (matches media.json). Viewed the image: tinted print, red-brick cathedral with gilded onion cupolas on a rocky rise behind a stone embankment and water",
+   "note": "Alt text is accurate. The credit's \"1890\" turns Commons' date range \"between 1890 and 1900\" into a single year.",
+   "fix": "Credit: \"Photochrom Print Collection, c. 1890–1900\"",
+   "resolved": "Applied the checker's fix: Credit: \"Photochrom Print Collection, c. 1890–1900\""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/media.m2",
+   "verdict": "supported",
+   "evidence": "Viewed the image: oil portrait, young man, curly brown hair, dark coat, dark background. Commons: \"Портрет А. М. Горностаева. 1834\", Karl Bryullov, 1834, Public domain, 772x1000; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/media.m1",
+   "verdict": "supported",
+   "evidence": "Viewed the image: red-brick walls, green copper roofs, gold onion domes, blue sky, visitors on the steps and at the railings. Commons: Diego Delso, 2012-08-14, CC BY-SA 3.0, 4081x3426; matches media.json",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/place",
+   "verdict": "supported",
+   "evidence": "A building's design, construction materials and status fit knowledge.arts.architecture",
+   "note": "",
+   "fix": ""
+  }
+ ]
+}

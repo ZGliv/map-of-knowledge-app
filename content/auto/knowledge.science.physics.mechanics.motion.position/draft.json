@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "A position vector locates a point in space, using whichever coordinates and basis vectors are simplest for the task at hand.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Position vectors can be added and scaled in length, so the set of all of them forms a position space.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "text": "In an equation of motion, the position vector changes with time and defines where a particle is, and its time derivatives are used in kinematics.",
+   "cites": [
+    15,
+    17,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Fields that use it",
+   "value": "Differential geometry, mechanics and vector calculus",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Vector space operations",
+   "value": "Position vectors can be added and scaled",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Coordinate independence",
+   "value": "Different coordinates and basis vectors represent the same position vector",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Single parameter path",
+   "value": "One parameter describes a curved one-dimensional path",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Motion tracking",
+   "value": "The position vector r(t) defines a particle's motion",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A weather model stores every location as an ordered list of readings, one for each direction a point can vary in. How many dimensions does its position space have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One fewer than the length of that list."
+    },
+    {
+     "id": "b",
+     "label": "Exactly the length of that list."
+    },
+    {
+     "id": "c",
+     "label": "Always three, whatever the list holds."
+    },
+    {
+     "id": "d",
+     "label": "Twice the length of that list."
+    }
+   ],
+   "answer": "b",
+   "explain": "A position space has dimension n when each position is written as an n-tuple of coordinates, so the dimension matches the length of the list.",
+   "cites": [
+    9,
+    11
+   ]
+  },
+  {
+   "prompt": "Two navigators track the exact same boat at sea using different grid maps. One uses rectangular grid lines while the other uses circular distance radar. How do their position vectors compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both coordinate systems represent the exact same underlying position vector."
+    },
+    {
+     "id": "b",
+     "label": "The radar coordinates shift the boat's physical location relative to the shore."
+    },
+    {
+     "id": "c",
+     "label": "They produce two unrelated vectors pointing to different physical locations."
+    },
+    {
+     "id": "d",
+     "label": "Rectangular grids are invalid for three-dimensional space while circular ones are valid."
+    }
+   ],
+   "answer": "a",
+   "explain": "Different coordinate systems and their associated basis vectors still represent the exact same position vector.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "prompt": "Why is the set of all possible location vectors called a position space?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because position vectors can only be multiplied together, never combined."
+    },
+    {
+     "id": "b",
+     "label": "Because it can only exist in three-dimensional physical space."
+    },
+    {
+     "id": "c",
+     "label": "Because all vectors in it are required to have a fixed length of one."
+    },
+    {
+     "id": "d",
+     "label": "Because position vectors within it can be added together and scaled in length."
+    }
+   ],
+   "answer": "d",
+   "explain": "The collection of position vectors forms a vector space because positions can be combined through vector addition and stretched or shortened through scalar multiplication.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "Design software builds geometric shapes using mathematical parameters. If a software formula controls a position vector using two independent parameters, what shape does it generate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A curved one-dimensional path."
+    },
+    {
+     "id": "b",
+     "label": "A single stationary point."
+    },
+    {
+     "id": "c",
+     "label": "A curved two-dimensional surface."
+    },
+    {
+     "id": "d",
+     "label": "A curved three-dimensional volume."
+    }
+   ],
+   "answer": "c",
+   "explain": "Parametrizing coordinates with one parameter creates a 1D path, two parameters describe a 2D surface, and three parameters describe a 3D volume.",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "prompt": "An aerospace center tracks a rocket by updating its position vector continuously as time passes. What does this time-dependent vector construct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A continuous path traced by the rocket as time values map to spatial locations."
+    },
+    {
+     "id": "b",
+     "label": "A fixed reference point that cancels out the rocket's speed."
+    },
+    {
+     "id": "c",
+     "label": "A static two-dimensional surface enclosing the rocket pad."
+    },
+    {
+     "id": "d",
+     "label": "A change in coordinate axes without any movement of the object."
+    }
+   ],
+   "answer": "a",
+   "explain": "Matching each successive value of time to a spatial coordinate sequence creates a continuous path traced by the moving point mass.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "Engineers analyzing high-speed train stability calculate higher-order time derivatives of the train's position vector. What is the benefit of computing these extra derivatives?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They turn the position vector into a single scalar value without direction."
+    },
+    {
+     "id": "b",
+     "label": "They eliminate the requirement for an origin point in physics calculations."
+    },
+    {
+     "id": "c",
+     "label": "They force the position space to lose one of its dimensions."
+    },
+    {
+     "id": "d",
+     "label": "They improve displacement approximations and allow representation as infinite sequence sums."
+    }
+   ],
+   "answer": "d",
+   "explain": "Calculating higher-order derivatives improves approximations of displacement and lets engineers express motion functions as infinite series for analytical work.",
+   "cites": [
+    21,
+    22
+   ]
+  }
+ ]
+}

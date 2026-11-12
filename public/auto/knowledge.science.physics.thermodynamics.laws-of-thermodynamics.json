@@ -1,0 +1,577 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics",
+ "name": "Laws of thermodynamics",
+ "summary": [
+  {
+   "text": "The laws of thermodynamics are a small set of rules linking temperature, energy, heat, work and entropy in systems at equilibrium.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Four laws are accepted: the zeroth defines temperature, the first conserves energy, the second says entropy never decreases, and the third ties entropy to absolute zero.",
+   "cites": [
+    7,
+    8,
+    10,
+    12
+   ]
+  },
+  {
+   "text": "Together they rule out perpetual motion machines, which would either make work from no energy input or turn heat spontaneously into work.",
+   "cites": [
+    3,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Number of laws",
+   "value": "Four, with the zeroth added last",
+   "cites": [
+    5,
+    6,
+    22
+   ]
+  },
+  {
+   "label": "Carnot's work",
+   "value": "Reflections on the Motive Power of Fire, 1824",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Nernst's third law",
+   "value": "Formulated over the years 1906 to 1912",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Heat direction",
+   "value": "Heat does not spontaneously pass from cold to warm",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Zeroth law named",
+   "value": "By Ralph H. Fowler in the 1930s",
+   "cites": [
+    28,
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A thermometer reads the same in a cup of coffee and in a bowl of soup. What can you conclude if the two are put in contact?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heat will flow from the coffee to the soup"
+    },
+    {
+     "id": "b",
+     "label": "Heat will flow from the soup to the coffee"
+    },
+    {
+     "id": "c",
+     "label": "The soup will cool until it reaches freezing"
+    },
+    {
+     "id": "d",
+     "label": "They are in thermal equilibrium and stay as they are"
+    }
+   ],
+   "answer": "d",
+   "explain": "If two systems are each in thermal equilibrium with a third, here the thermometer, they are in thermal equilibrium with each other.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics:q1"
+  },
+  {
+   "prompt": "An inventor shows a wheel that keeps doing useful work forever with no fuel and no outside energy. Which idea rules this out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Energy cannot be created, so work must use up energy"
+    },
+    {
+     "id": "b",
+     "label": "Heat cannot be measured without a thermometer"
+    },
+    {
+     "id": "c",
+     "label": "Temperature is always one-dimensional"
+    },
+    {
+     "id": "d",
+     "label": "Every substance has a single fixed melting point"
+    }
+   ],
+   "answer": "a",
+   "explain": "The first law says energy cannot be created or destroyed, so a machine making work from no energy input is impossible.",
+   "cites": [
+    9,
+    14
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics:q2"
+  },
+  {
+   "prompt": "An ice cube is dropped into a warm drink. Could the drink spontaneously get warmer while the ice gets colder?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since energy is conserved either way"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the drink is stirred"
+    },
+    {
+     "id": "c",
+     "label": "No, since heat does not pass by itself from cold to warm"
+    },
+    {
+     "id": "d",
+     "label": "No, since ice cannot take in any energy"
+    }
+   ],
+   "answer": "c",
+   "explain": "Under the second law, heat does not spontaneously pass from a colder body to a warmer one.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics:q3"
+  },
+  {
+   "prompt": "A flawless crystal of a pure substance is cooled closer and closer to absolute zero. What happens to its entropy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows larger and larger without limit"
+    },
+    {
+     "id": "b",
+     "label": "It settles toward a fixed value, typically close to zero"
+    },
+    {
+     "id": "c",
+     "label": "It swings up and down more wildly"
+    },
+    {
+     "id": "d",
+     "label": "It turns negative once the crystal is cold enough"
+    }
+   ],
+   "answer": "b",
+   "explain": "The third law says entropy approaches a constant value as temperature approaches absolute zero, and for a well-ordered crystal that value is typically close to zero.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics:q4"
+  },
+  {
+   "prompt": "Why was a law numbered zero added after the first three laws were already established?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To correct a mistake in the second law"
+    },
+    {
+     "id": "b",
+     "label": "To give a self-consistent definition of temperature"
+    },
+    {
+     "id": "c",
+     "label": "To replace the idea of heat engines"
+    },
+    {
+     "id": "d",
+     "label": "To explain why perpetual motion machines fail"
+    }
+   ],
+   "answer": "b",
+   "explain": "The zeroth law was added to allow a self-consistent definition of temperature, resting on thermal equilibrium.",
+   "cites": [
+    6,
+    7,
+    22
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics:q5"
+  },
+  {
+   "prompt": "A machine claims to draw heat from the surrounding air and turn it all into work, with energy fully accounted for. What does thermodynamics say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is allowed, because no energy is created"
+    },
+    {
+     "id": "b",
+     "label": "It is allowed, but only in cold surroundings"
+    },
+    {
+     "id": "c",
+     "label": "It is forbidden, because it breaks the first law"
+    },
+    {
+     "id": "d",
+     "label": "It is forbidden, because heat does not spontaneously become work"
+    }
+   ],
+   "answer": "d",
+   "explain": "This is a perpetual motion machine of the second kind, which spontaneously converts thermal energy into mechanical work and is prohibited by the second law even though energy is conserved.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Carnot_heat_engine_2.svg/960px-Carnot_heat_engine_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Laws of thermodynamics",
+  "credit": "Eric Gaba (Sting - fr:Sting)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Carnot_heat_engine_2.svg"
+ },
+ "source": {
+  "title": "Laws of thermodynamics",
+  "url": "https://en.wikipedia.org/wiki/Laws_of_thermodynamics",
+  "revision": 1380394503
+ },
+ "pack": {
+  "id": "auto-thermodynamics-laws-of-thermodynamics",
+  "title": "Four Rules Heat Must Obey",
+  "question": "What four rules govern heat, energy and entropy?",
+  "path": [
+   "Science",
+   "Physics",
+   "Thermodynamics",
+   "Laws of thermodynamics"
+  ],
+  "hue": 198,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Carnot_heat_engine_2.svg/960px-Carnot_heat_engine_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Laws of thermodynamics",
+    "credit": "Eric Gaba (Sting - fr:Sting) · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carnot_heat_engine_2.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Four Rules Heat Must Obey",
+    "hook": "Every machine ever imagined that runs forever breaks at least one of them."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-thermodynamics-laws-of-thermodynamics:1",
+    "transfer": false,
+    "prompt": "match each law to what it says",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Zeroth law"
+     },
+     {
+      "id": "l1",
+      "label": "First law"
+     },
+     {
+      "id": "l2",
+      "label": "Second law"
+     },
+     {
+      "id": "l3",
+      "label": "Third law"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Energy is conserved, never created or destroyed"
+     },
+     {
+      "id": "r0",
+      "label": "Defines thermal equilibrium and temperature"
+     },
+     {
+      "id": "r3",
+      "label": "Entropy approaches a constant near absolute zero"
+     },
+     {
+      "id": "r2",
+      "label": "Entropy of interacting systems never decreases"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each law covers a different quantity: temperature, energy, entropy and its behavior at the coldest limit."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-thermodynamics-laws-of-thermodynamics:2",
+    "transfer": false,
+    "prompt": "An inventor says a ship can scoop heat out of the ocean and turn all of it into propulsion, with no energy lost or made. What does thermodynamics say?",
+    "explain": "This is a perpetual motion machine of the second kind. The first law is satisfied, but the second law forbids spontaneously converting thermal energy into mechanical work.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It works if the ocean is warm enough",
+        "feedback": "It tempts because warmer water holds more heat, but the problem is the conversion, not the amount."
+       },
+       {
+        "id": "a",
+        "label": "It works, since no energy is created",
+        "feedback": "It tempts because the energy books balance, but balancing energy is only the first law's demand."
+       },
+       {
+        "id": "d",
+        "label": "It fails, since the ship would create energy",
+        "feedback": "It tempts because perpetual motion sounds like free energy, but this ship takes its energy from the ocean."
+       },
+       {
+        "id": "b",
+        "label": "It fails, since heat cannot spontaneously be turned into work",
+        "feedback": ""
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-thermodynamics-laws-of-thermodynamics:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each claim by the law it breaks",
+    "left": [
+     {
+      "id": "i0",
+      "label": "A machine makes work with no energy input"
+     },
+     {
+      "id": "i1",
+      "label": "Energy appears from nothing in an isolated box"
+     },
+     {
+      "id": "i2",
+      "label": "Heat flows by itself from ice to a warm room"
+     },
+     {
+      "id": "i3",
+      "label": "A drink warms itself by pulling heat from cold air"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Breaks the first law"
+     },
+     {
+      "id": "g1",
+      "label": "Breaks the second law"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "The first law forbids creating energy; the second forbids heat moving from colder to warmer by itself."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-thermodynamics-laws-of-thermodynamics:4",
+    "transfer": true,
+    "prompt": "put these milestones in the order they happened",
+    "items": [
+     {
+      "id": "a",
+      "label": "Carnot's principle, the seed of the second law (1824)"
+     },
+     {
+      "id": "b",
+      "label": "First and second laws established (by 1860)"
+     },
+     {
+      "id": "c",
+      "label": "Nernst's theorem, now the third law (1906 to 1912)"
+     },
+     {
+      "id": "d",
+      "label": "The zeroth law is named (1930s)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The laws were not found in numerical order: the zeroth, the most basic, was named last."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Four laws define temperature, conserve energy, give heat a one-way direction, and fix entropy near absolute zero.",
+    "connections": [
+     {
+      "title": "Zeroth law of thermodynamics",
+      "place": "Laws of thermodynamics",
+      "node": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.zeroth-law-of-thermodynamics"
+     },
+     {
+      "title": "First law of thermodynamics",
+      "place": "Laws of thermodynamics",
+      "node": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.first-law-of-thermodynamics"
+     },
+     {
+      "title": "Second law of thermodynamics",
+      "place": "Laws of thermodynamics",
+      "node": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics"
+     },
+     {
+      "title": "Third law of thermodynamics",
+      "place": "Laws of thermodynamics",
+      "node": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.third-law-of-thermodynamics"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Each law covers a different quantity: temperature, energy, entropy and its behavior at the coldest limit.",
+    "source": "Wikipedia sentences 7, 8, 10, 12"
+   },
+   {
+    "claim": "This is a perpetual motion machine of the second kind. The first law is satisfied, but the second law forbids spontaneously converting thermal energy into mechanical work.",
+    "source": "Wikipedia sentences 14"
+   },
+   {
+    "claim": "The first law forbids creating energy; the second forbids heat moving from colder to warmer by itself.",
+    "source": "Wikipedia sentences 9, 11, 14"
+   },
+   {
+    "claim": "The laws were not found in numerical order: the zeroth, the most basic, was named last.",
+    "source": "Wikipedia sentences 17, 18, 19, 29"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Rules for heat and energy",
+    "text": "The laws of thermodynamics are a short list of scientific laws about heat and energy. They define quantities such as temperature, energy and entropy that describe a system once it has settled into equilibrium. They also set out how work and heat in a process relate to each other. Their reach goes beyond thermodynamics: they are basic laws of physics and apply across the other natural sciences.",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "heading": "The zeroth law",
+    "text": "The zeroth law defines thermal equilibrium. If two systems are each in equilibrium with a third, then they are in equilibrium with each other. This gives a basis for defining temperature. Though it is more basic than the others, it was given its label only after the first three laws had been established.",
+    "cites": [
+     6,
+     7,
+     24
+    ]
+   },
+   {
+    "heading": "The first and second laws",
+    "text": "The first law is the conservation of energy adapted to thermodynamic processes. When energy flows into or out of a system, the system's internal energy changes to match, and in an isolated system the total stays fixed. The second law says that in a natural process the combined entropy of the systems involved never goes down. One everyday result is that heat does not flow by itself from a colder body to a warmer one.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     32
+    ]
+   },
+   {
+    "heading": "The third law",
+    "text": "The third law looks at the coldest limit. As temperature nears absolute zero, a system's entropy settles toward a fixed value. For most systems that value is close to zero. The exception is glasses, which are solids without a crystal structure.",
+    "cites": [
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "No machines that run for free",
+    "text": "These laws describe facts found by experiment that rule certain things out, such as perpetual motion. The first law forbids a machine that makes work without any energy going in. The second law forbids a machine that turns heat into mechanical work all by itself. Together they shut the door on both kinds of perpetual motion machine.",
+    "cites": [
+     3,
+     14
+    ]
+   },
+   {
+    "heading": "How the laws took shape",
+    "text": "The laws grew out of work done in the nineteenth and early twentieth centuries. In 1824 Sadi Carnot wrote down the earliest principle, which later became the second law, in Reflections on the Motive Power of Fire, his book. By 1860, through scientists such as Rudolf Clausius and William Thomson, the first and second laws were in place. Walther Nernst set out the third law between 1906 and 1912, and Ralph H. Fowler coined the name zeroth law in the 1930s.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     28,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-energy-laws",
+   "kind": "book",
+   "title": "Planet Earth/2a. Energy and the Laws of Thermodynamics",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Planet_Earth/2a._Energy_and_the_Laws_of_Thermodynamics",
+   "note": "A free open-book chapter on energy that closes by walking through all four laws of thermodynamics.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "crashcourse-thermodynamics",
+   "kind": "video",
+   "title": "Thermodynamics: Crash Course Physics #23",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=4i1MUWJoI0U",
+   "note": "A Crash Course Physics introduction to thermodynamics and why perpetual motion machines cannot work."
+  },
+  {
+   "id": "iot-perpetual-motion",
+   "kind": "documentary",
+   "title": "Perpetual Motion",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b06c06nd",
+   "minutes": 43,
+   "note": "An In Our Time discussion of the quest for perpetual motion and how the laws of thermodynamics ruled it out."
+  }
+ ]
+}

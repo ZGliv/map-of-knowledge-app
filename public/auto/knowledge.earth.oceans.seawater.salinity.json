@@ -1,0 +1,571 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.seawater.salinity",
+ "name": "Salinity",
+ "summary": [
+  {
+   "text": "Salinity is the amount of salt dissolved in water, usually measured in grams of salt per litre or per kilogram of water.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Along with temperature and pressure, it governs the water's density and heat capacity, which matter for ocean currents and heat exchange with the atmosphere.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Seawater typically holds about 35 g/kg, rivers and lakes range from under 0.01 g/kg to a few g/kg, and the Dead Sea tops 200 g/kg.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Typical seawater",
+   "value": "About 35 g/kg",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Dead Sea",
+   "value": "More than 200 g/kg",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Line of equal salinity",
+   "value": "Isohaline, or isohale",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Current seawater standard",
+   "value": "TEOS-10, introduced in 2010",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Rain and snow",
+   "value": "Typically 20 mg/kg dissolved solids or less",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Ocean scientists studying currents track salinity closely. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Salt dissolves faster in moving water"
+    },
+    {
+     "id": "b",
+     "label": "Salty water ignores temperature changes"
+    },
+    {
+     "id": "c",
+     "label": "It helps set the water's density"
+    },
+    {
+     "id": "d",
+     "label": "Currents only exist in fresh water"
+    }
+   ],
+   "answer": "c",
+   "explain": "Salinity, with temperature and pressure, governs density, which is important for understanding ocean currents.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.earth.oceans.seawater.salinity:q1"
+  },
+  {
+   "prompt": "You test seawater far offshore and again where a large river flows into the sea. What do you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lower salinity near the river mouth"
+    },
+    {
+     "id": "b",
+     "label": "Higher salinity near the river mouth"
+    },
+    {
+     "id": "c",
+     "label": "Exactly the same salinity at both"
+    },
+    {
+     "id": "d",
+     "label": "No salt at all far offshore"
+    }
+   ],
+   "answer": "a",
+   "explain": "Seawater is usually around 35 g/kg, but values are lower near coasts where rivers enter the ocean.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.earth.oceans.seawater.salinity:q2"
+  },
+  {
+   "prompt": "Typical seawater is about 35 g/kg. Roughly how much saltier is the Dead Sea?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About one and a half times"
+    },
+    {
+     "id": "b",
+     "label": "About twice"
+    },
+    {
+     "id": "c",
+     "label": "Over fifty times"
+    },
+    {
+     "id": "d",
+     "label": "More than five times"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Dead Sea holds more than 200 g/kg, which is over five times the 35 g/kg of typical seawater.",
+   "cites": [
+    12,
+    14
+   ],
+   "id": "knowledge.earth.oceans.seawater.salinity:q3"
+  },
+  {
+   "prompt": "Seawater holds several dissolved gases. Which one is often counted as part of its salinity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oxygen"
+    },
+    {
+     "id": "b",
+     "label": "Carbon dioxide"
+    },
+    {
+     "id": "c",
+     "label": "Nitrogen"
+    },
+    {
+     "id": "d",
+     "label": "No gas ever counts"
+    }
+   ],
+   "answer": "b",
+   "explain": "Dissolved oxygen and nitrogen are not usually included, but carbon dioxide is often counted because it partly turns into carbonates and bicarbonates.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.earth.oceans.seawater.salinity:q4"
+  },
+  {
+   "prompt": "The idea of salinity sounds simple. Why is it hard to define and measure precisely?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Natural water holds a complex mix of forms"
+    },
+    {
+     "id": "b",
+     "label": "Salt evaporates as soon as it is sampled"
+    },
+    {
+     "id": "c",
+     "label": "Salt grains are too small to be weighed"
+    },
+    {
+     "id": "d",
+     "label": "Each ocean contains a different kind of water"
+    }
+   ],
+   "answer": "a",
+   "explain": "Natural waters contain a complex mixture of many elements from different sources in different molecular forms, which makes exact measurement difficult.",
+   "cites": [
+    6,
+    19
+   ],
+   "id": "knowledge.earth.oceans.seawater.salinity:q5"
+  },
+  {
+   "prompt": "Dissolved salts break apart into charged ions. Which kind of measurement makes use of that to estimate seawater salinity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How much light it reflects"
+    },
+    {
+     "id": "b",
+     "label": "How fast sound fades in it"
+    },
+    {
+     "id": "c",
+     "label": "How well it conducts electricity"
+    },
+    {
+     "id": "d",
+     "label": "How quickly it boils away"
+    }
+   ],
+   "answer": "c",
+   "explain": "Electrical conductivity measurements estimate the ionic content of seawater, and they led to the practical salinity scale PSS-78.",
+   "cites": [
+    8,
+    36
+   ],
+   "id": "knowledge.earth.oceans.seawater.salinity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Water_salinity_diagram.png/960px-Water_salinity_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Salinity",
+  "credit": "Peter Summerlin",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Water_salinity_diagram.png"
+ },
+ "source": {
+  "title": "Salinity",
+  "url": "https://en.wikipedia.org/wiki/Salinity",
+  "revision": 1368851206
+ },
+ "pack": {
+  "id": "auto-seawater-salinity",
+  "title": "How Salty Is Salty?",
+  "question": "How much salt does natural water hold, and why does it matter?",
+  "path": [
+   "Earth",
+   "Oceans",
+   "Seawater",
+   "Salinity"
+  ],
+  "hue": 118,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Water_salinity_diagram.png/960px-Water_salinity_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Salinity",
+    "credit": "Peter Summerlin · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_salinity_diagram.png",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "How Salty Is Salty?",
+    "hook": "Rain, rivers, the open sea and the Dead Sea all carry salt, but in wildly different amounts that help steer the oceans."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-seawater-salinity:1",
+    "transfer": false,
+    "prompt": "Match each water to its typical salt content",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Typical seawater"
+     },
+     {
+      "id": "l1",
+      "label": "The Dead Sea"
+     },
+     {
+      "id": "l2",
+      "label": "Rivers and lakes"
+     },
+     {
+      "id": "l3",
+      "label": "Precipitation"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Under 0.01 to a few g/kg"
+     },
+     {
+      "id": "r1",
+      "label": "More than 200 g/kg"
+     },
+     {
+      "id": "r0",
+      "label": "About 35 g/kg"
+     },
+     {
+      "id": "r3",
+      "label": "20 mg/kg or less"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Seawater sits near 35 g/kg, fresh waters hold far less, rain and snow carry very little, and the Dead Sea holds several times more than the ocean."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-seawater-salinity:2",
+    "transfer": false,
+    "prompt": "Two labs measure salinity in the same sample of water, one filtering it at 0.45 μm and the other at 0.2 μm. How far apart are their results?",
+    "explain": "Dissolved matter is defined as what passes a very fine filter, and whichever pore size is used, the salinity value varies by no more than a few percent.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The coarser filter finds no salt",
+        "feedback": "Dissolved salt passes through both filters, so both still measure it."
+       },
+       {
+        "id": "b",
+        "label": "Within a few percent of each other"
+       },
+       {
+        "id": "a",
+        "label": "One reads about double the other",
+        "feedback": "Filter size changes what counts as dissolved only slightly, not by a factor of two."
+       },
+       {
+        "id": "d",
+        "label": "Only the finer filter finds salt",
+        "feedback": "Both pore sizes let dissolved matter through, so both detect salt."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-seawater-salinity:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each dissolved substance by whether salinity usually counts it",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Sodium chloride"
+     },
+     {
+      "id": "i1",
+      "label": "Magnesium sulfate"
+     },
+     {
+      "id": "i2",
+      "label": "Dissolved carbon dioxide"
+     },
+     {
+      "id": "i3",
+      "label": "Dissolved oxygen"
+     },
+     {
+      "id": "i4",
+      "label": "Dissolved nitrogen gas"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Usually counted"
+     },
+     {
+      "id": "g1",
+      "label": "Usually left out"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Salinity is the dissolved salt content, such as sodium chloride and magnesium sulfate; carbon dioxide is often included because it partly becomes carbonates, while oxygen and nitrogen gases usually are not."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-seawater-salinity:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The PSS-78 scale estimates salinity from electrical conductivity."
+     },
+     {
+      "id": "b",
+      "text": "Salinities measured on PSS-78 have no units."
+     },
+     {
+      "id": "c",
+      "text": "So writing PSU after a value is the formally correct way to report it."
+     },
+     {
+      "id": "d",
+      "text": "A typical seawater sample reads about 35 on this scale."
+     }
+    ],
+    "answer": "c",
+    "explain": "PSS-78 values have no units, and adding PSU after the value is described as formally incorrect and strongly discouraged."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Salinity is the dissolved salt in water, and with temperature and pressure it sets the water's density, which matters for ocean currents.",
+    "connections": [
+     {
+      "title": "Halocline",
+      "place": "Salinity",
+      "node": "knowledge.earth.oceans.seawater.salinity.halocline"
+     },
+     {
+      "title": "Sea salt",
+      "place": "Salinity",
+      "node": "knowledge.earth.oceans.seawater.salinity.sea-salt"
+     },
+     {
+      "title": "Brine pool",
+      "place": "Salinity",
+      "node": "knowledge.earth.oceans.seawater.salinity.brine-pool"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Seawater sits near 35 g/kg, fresh waters hold far less, rain and snow carry very little, and the Dead Sea holds several times more than the ocean.",
+    "source": "Wikipedia sentences 12, 13, 14, 15"
+   },
+   {
+    "claim": "Dissolved matter is defined as what passes a very fine filter, and whichever pore size is used, the salinity value varies by no more than a few percent.",
+    "source": "Wikipedia sentences 10, 16"
+   },
+   {
+    "claim": "Salinity is the dissolved salt content, such as sodium chloride and magnesium sulfate; carbon dioxide is often included because it partly becomes carbonates, while oxygen and nitrogen gases usually are not.",
+    "source": "Wikipedia sentences 7, 8, 27, 28"
+   },
+   {
+    "claim": "PSS-78 values have no units, and adding PSU after the value is described as formally incorrect and strongly discouraged.",
+    "source": "Wikipedia sentences 36, 37, 38, 39, 45"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What salinity measures",
+    "text": "Salinity is how much salt is dissolved in water. Salts are compounds such as sodium chloride and magnesium sulfate that split into ions when they dissolve. Salinity is usually given in grams of salt per litre or per kilogram of water. A contour line linking points of equal salinity is called an isohaline.",
+    "cites": [
+     1,
+     2,
+     5,
+     8
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Salinity shapes much of the chemistry of natural waters and the living processes in them. Together with temperature and pressure, it sets physical traits of water such as its density and heat capacity. Those traits in turn help explain ocean currents and how the sea trades heat with the air.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Salty, fresh and in between",
+    "text": "Seawater usually holds about 35 g/kg of salt, with lower values near coasts where rivers flow in. Rivers and lakes vary widely, from under 0.01 g/kg to a few g/kg, and some places are saltier still. The Dead Sea has more than 200 g/kg. Rain and other precipitation usually carry 20 mg/kg or less of dissolved material.",
+    "cites": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Simple idea, hard to measure",
+    "text": "The idea of salinity is simple, but defining and measuring it precisely is hard. Natural waters hold a complex mix of many elements in different forms, and not all of them come from dissolved salts. Many are difficult to measure accurately, and a full chemical analysis is impractical when there are many samples. So in practice, salinity is tied to the total of a set of dissolved ingredients, often eight major ions, with seven minor ones added for seawater at the highest precision. Scientists studying the deep ocean compare results to almost five significant digits, using a bottled product called IAPSO Standard Seawater to keep their measurements consistent.",
+    "cites": [
+     6,
+     17,
+     18,
+     19,
+     21,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Changing ways to measure",
+    "text": "Before the 1980s, salinity was mostly measured by titration. Adding silver nitrate revealed the amount of halide ions, mainly chlorine and bromine, giving a value called chlorinity, which was then multiplied by a factor to cover everything else. The results, called Knudsen salinities, were written in parts per thousand (ppt or ‰). Later, measuring how well seawater conducts electricity led to the practical salinity scale 1978, or PSS-78, whose values have no units. People sometimes write PSU after the number, but this is formally incorrect and strongly discouraged.",
+    "cites": [
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "One sample, three numbers",
+    "text": "In 2010, a new seawater standard called TEOS-10 proposed absolute salinity as a replacement for practical salinity. Absolute salinity is a mass fraction, in grams per kilogram of solution. It is found by combining conductivity readings with information about regional differences in seawater makeup, or by measuring density directly. The scales line up closely: a typical seawater sample with a chlorinity of 19.37 ppt has a Knudsen salinity of 35.00 ppt, a practical salinity of about 35.0, and an absolute salinity of about 35.2 g/kg.",
+    "cites": [
+     40,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "stewart-temp-salinity-density",
+   "kind": "book",
+   "title": "6: Temperature, Salinity, and Density - Introduction to Physical Oceanography (Stewart)",
+   "by": "Robert H. Stewart",
+   "url": "https://geo.libretexts.org/Bookshelves/Oceanography/Introduction_to_Physical_Oceanography_(Stewart)/06%3A_Temperature_Salinity_and_Density",
+   "note": "A free textbook chapter defining salinity, mapping it across the ocean surface and with depth, and explaining how it is measured.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "usgs-saline-water",
+   "kind": "article",
+   "title": "Saline Water and Salinity",
+   "by": "USGS Water Science School",
+   "url": "https://www.usgs.gov/water-science-school/science/saline-water-and-salinity",
+   "note": "A USGS explainer on what salinity is and how salty different waters are."
+  },
+  {
+   "id": "noaa-why-salty",
+   "kind": "article",
+   "title": "Why is the ocean salty?",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/whysalty.html",
+   "note": "A short NOAA answer on where the salt in seawater comes from."
+  }
+ ]
+}

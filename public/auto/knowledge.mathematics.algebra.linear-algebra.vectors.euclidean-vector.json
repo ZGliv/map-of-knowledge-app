@@ -1,0 +1,342 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector",
+ "name": "Euclidean vector",
+ "summary": [
+  {
+   "text": "A Euclidean vector is a geometric object with a magnitude (a length) and a direction, often drawn as an arrow from one point to another.",
+   "cites": [
+    1,
+    3,
+    23,
+    24
+   ]
+  },
+  {
+   "text": "The word vector means carrier in Latin: a vector is what carries one point to another, and its magnitude is the distance between them.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "Physics uses vectors for velocity, acceleration and force, which have both size and direction, unlike scalars, which have no direction.",
+   "cites": [
+    6,
+    33,
+    34
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "Latin for carrier; first used by 18th-century astronomers",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "label": "Same free vector",
+   "value": "Arrows with the same magnitude and direction are equal",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Modern system",
+   "value": "Gibbs's 1881 work is essentially modern vector analysis",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Scalars",
+   "value": "Scalars have no direction, unlike vectors",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Clifford's step",
+   "value": "He isolated the dot and cross products from quaternions",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Which situation needs a vector rather than a single number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number of players on one team"
+    },
+    {
+     "id": "b",
+     "label": "How long a long road trip takes"
+    },
+    {
+     "id": "c",
+     "label": "A ball rolling north at ten meters per second"
+    },
+    {
+     "id": "d",
+     "label": "The height of a table in a kitchen"
+    }
+   ],
+   "answer": "c",
+   "explain": "Velocity has both a magnitude and a direction, so it is represented by a vector. The other quantities have size only.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector:q1"
+  },
+  {
+   "prompt": "Two arrows on a page have the same length and point the same way, but they start at different places. Do they represent the same vector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, they stand for the same free vector"
+    },
+    {
+     "id": "b",
+     "label": "No, different starting points make different vectors"
+    },
+    {
+     "id": "c",
+     "label": "Only if they also end at the same point"
+    },
+    {
+     "id": "d",
+     "label": "Only if one is a perfect copy laid over the other"
+    }
+   ],
+   "answer": "a",
+   "explain": "Two arrows represent the same free vector if they have the same magnitude and direction.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector:q2"
+  },
+  {
+   "prompt": "A vector is drawn as an arrow between two points. What does the arrow's length represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How long the trip would take"
+    },
+    {
+     "id": "b",
+     "label": "The direction of travel"
+    },
+    {
+     "id": "c",
+     "label": "The speed of the arrow"
+    },
+    {
+     "id": "d",
+     "label": "The distance between the two points"
+    }
+   ],
+   "answer": "d",
+   "explain": "The magnitude of the vector is the distance between the two points; the direction is the direction of displacement.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector:q3"
+  },
+  {
+   "prompt": "The word vector comes from Latin. Which job does the name describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Measuring angles between lines"
+    },
+    {
+     "id": "b",
+     "label": "Carrying a starting point to an endpoint"
+    },
+    {
+     "id": "c",
+     "label": "Counting the units in a quantity"
+    },
+    {
+     "id": "d",
+     "label": "Splitting a quantity into equal parts"
+    }
+   ],
+   "answer": "b",
+   "explain": "A vector is what is needed to carry one point to another, and the Latin word means carrier.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector:q4"
+  },
+  {
+   "prompt": "Two physicists describe the same force using different coordinate axes and write down different lists of numbers. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How a physical vector is written depends on the coordinate system used"
+    },
+    {
+     "id": "b",
+     "label": "They must be describing two different forces"
+    },
+    {
+     "id": "c",
+     "label": "A force has no direction until axes are chosen"
+    },
+    {
+     "id": "d",
+     "label": "One of them must have made a mistake"
+    }
+   ],
+   "answer": "a",
+   "explain": "The mathematical representation of a physical vector depends on the coordinate system used to describe it.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector:q5"
+  },
+  {
+   "prompt": "Engineers working in three dimensions were wary of a fourth dimension. How did Clifford's approach help them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He proved the fourth dimension does not exist"
+    },
+    {
+     "id": "b",
+     "label": "He tripled the number of products to learn"
+    },
+    {
+     "id": "c",
+     "label": "He pulled the dot and cross products out of the quaternion product"
+    },
+    {
+     "id": "d",
+     "label": "He replaced vectors with single numbers"
+    }
+   ],
+   "answer": "c",
+   "explain": "Clifford simplified quaternions by isolating the dot product and cross product, which made vector calculations available to engineers working in three dimensions.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vectors.euclidean-vector:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Vector_from_A_to_B.svg/960px-Vector_from_A_to_B.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Euclidean vector",
+  "credit": "The original uploader was Nguyenthephuc at English Wikipedia. Later versions wer",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vector_from_A_to_B.svg"
+ },
+ "source": {
+  "title": "Euclidean vector",
+  "url": "https://en.wikipedia.org/wiki/Euclidean_vector",
+  "revision": 1383919829
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "An arrow with size and direction",
+    "text": "In physics and engineering, a vector is usually thought of as something with a size, called its magnitude, and a direction. Formally it is a directed line segment, an arrow, in Euclidean space. When these arrows need to be told apart from the wider meaning of vector in pure mathematics, they are called geometric, spatial or Euclidean vectors.",
+    "cites": [
+     23,
+     24,
+     29
+    ]
+   },
+   {
+    "heading": "The carrier",
+    "text": "The Latin word vector means carrier. A vector is what you need to carry a point A over to a point B. Its magnitude is the distance between the two points, and its direction is the way you move to get from A to B. Two arrows with the same length and the same direction count as the same vector, wherever they are drawn.",
+    "cites": [
+     1,
+     3,
+     32
+    ]
+   },
+   {
+    "heading": "Why physics needs them",
+    "text": "Many quantities in physics have both a size and a direction but are not tied to one spot. When something moves, its velocity and its acceleration are vectors, and so are the forces pushing on it. Most such quantities are not distances, yet an arrow can still show them: its length stands for the size and its direction for the direction. Quantities with no direction at all are called scalars.",
+    "cites": [
+     6,
+     8,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Arithmetic with arrows",
+    "text": "Adding, subtracting, multiplying and negating ordinary numbers all have close matches for vectors. They obey the usual rules of algebra: commutativity, associativity and distributivity. Because of this, Euclidean vectors are one example of the broader idea of a vector space. In pure mathematics, a vector is any member of a vector space, and it may or may not have a magnitude and a direction.",
+    "cites": [
+     4,
+     5,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "How the modern system arose",
+    "text": "In the mid-1800s several mathematicians worked on vector-like systems. Hermann Grassmann's 1840 work was the first system of spatial analysis close to today's, but it was largely ignored until the 1870s. William Kingdon Clifford separated the dot product and cross product out of the larger quaternion product, which put vector calculations in reach of engineers. Josiah Willard Gibbs then set out what is essentially the modern system of vector analysis, in work published in 1881.",
+    "cites": [
+     12,
+     13,
+     14,
+     18,
+     19,
+     21
+    ]
+   },
+   {
+    "heading": "Coordinates and ℝⁿ",
+    "text": "How you write a physical vector down in numbers depends on the coordinate system you choose. Sometimes Euclidean vectors are treated on their own, typically as members of the real coordinate space ℝⁿ together with the dot product. Every Euclidean space with n dimensions is isomorphic to ℝⁿ, which is why ℝⁿ is often treated as the standard example.",
+    "cites": [
+     9,
+     39,
+     40,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-scalars-vectors",
+   "kind": "book",
+   "title": "2.1 Scalars and Vectors - University Physics Volume 1",
+   "by": "OpenStax (William Moebs, Samuel J. Ling, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/2-1-scalars-and-vectors",
+   "note": "A free textbook section on vectors as quantities with magnitude and direction, contrasted with scalars.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-vectors-plane",
+   "kind": "book",
+   "title": "2.1 Vectors in the Plane - Calculus Volume 3",
+   "by": "OpenStax (Gilbert Strang, Edwin “Jed” Herman)",
+   "url": "https://openstax.org/books/calculus-volume-3/pages/2-1-vectors-in-the-plane",
+   "note": "A free textbook section on vectors as arrows in the plane: components, magnitude and vector arithmetic.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "ted-ed-what-is-vector",
+   "kind": "video",
+   "title": "What is a vector?",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=ml4NSzCQobk",
+   "minutes": 5,
+   "note": "A short animated lesson on what a vector is: a quantity with both size and direction."
+  }
+ ]
+}

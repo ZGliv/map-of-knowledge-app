@@ -1,0 +1,234 @@
+{
+ "summary": [
+  {
+   "text": "The Monty Hall problem is a game-show puzzle: you pick one of three doors hiding a car and two goats, the host opens a goat door, and you may switch.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Under the standard assumptions, switching wins the car with probability 2/3, while keeping your first choice wins only 1/3 of the time.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "The answer feels absurd to many people: about 10,000 readers, including nearly 1,000 with PhDs, wrote to a magazine, most of them calling it wrong.",
+   "cites": [
+    13,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Switching odds",
+   "value": "Switching wins 2/3 of the time; staying wins 1/3",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Reader mail",
+   "value": "About 10,000 readers wrote in, most calling the answer wrong",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Paul Erdős",
+   "value": "Unconvinced until shown a computer simulation of the result",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Name origin",
+   "value": "Steve Selvin named it in a letter after the game show",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Million-door version",
+   "value": "Host opens every door except one, door #777,777",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You pick door 1 of three. The host, who knows where the car is, opens door 3 to show a goat. A friend says your door's odds should now rise to even. Why is that wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Opening a door removes it, so the chances are shared out equally"
+    },
+    {
+     "id": "b",
+     "label": "The host was sure to show a goat anyway, so your door's chance is unchanged"
+    },
+    {
+     "id": "c",
+     "label": "The chance of the opened door moves to the door you picked first"
+    },
+    {
+     "id": "d",
+     "label": "A friend's guess cannot be checked without playing many times"
+    }
+   ],
+   "answer": "b",
+   "explain": "The host reveals a goat among the unchosen doors in every case, so the reveal changes nothing about the chance your first pick holds the car.",
+   "cites": [
+    7,
+    31
+   ]
+  },
+  {
+   "prompt": "In a version with a million doors, you pick one and the host, who knows where the prize is, opens every other door except one. How does that one remaining door compare with your first pick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Equal odds, since only two doors are left"
+    },
+    {
+     "id": "b",
+     "label": "Slightly better, by one chance in a million"
+    },
+    {
+     "id": "c",
+     "label": "Far better, since it is almost sure to hold the prize"
+    },
+    {
+     "id": "d",
+     "label": "Far worse, since the host chose to leave it"
+    }
+   ],
+   "answer": "c",
+   "explain": "Your first pick is almost surely a goat door, and the host must leave the prize door closed, so the remaining door almost always holds it.",
+   "cites": [
+    8,
+    9,
+    10,
+    45
+   ]
+  },
+  {
+   "prompt": "For switching to win two-thirds of the time, the host has to follow certain rules. Which set of rules is required?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Always open an unchosen door that hides a goat, and always offer the switch"
+    },
+    {
+     "id": "b",
+     "label": "Open any door at random and offer a switch only when it shows a goat"
+    },
+    {
+     "id": "c",
+     "label": "Open a goat door only when the contestant has picked the car"
+    },
+    {
+     "id": "d",
+     "label": "Open the door next to the choice and let the contestant decide"
+    }
+   ],
+   "answer": "a",
+   "explain": "The 2/3 result rests on a host who never opens the contestant's door, never reveals the car, and always offers the switch.",
+   "cites": [
+    20,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "prompt": "You happen to start on a goat door. The host must open the only other goat door. What follows if you now switch?",
+   "options": [
+    {
+     "id": "a",
+     "label": "You end on a goat, since two goats remain in play"
+    },
+    {
+     "id": "b",
+     "label": "You win half the time, as two closed doors remain"
+    },
+    {
+     "id": "c",
+     "label": "You take the host's goat, since the host hands it over"
+    },
+    {
+     "id": "d",
+     "label": "You win the car, since the one door left hides it"
+    }
+   ],
+   "answer": "d",
+   "explain": "If you started on a goat, the other goat's location is revealed, so switching must land on the car. That happens in 2 of the 3 equally likely starting picks.",
+   "cites": [
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "prompt": "After the host opens a door, most people say it is now a 50% chance for either of the two unopened doors. What would have to be true for that reasoning to hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The host kept the car's door closed on purpose"
+    },
+    {
+     "id": "b",
+     "label": "The host opened a door at random, not knowing the car"
+    },
+    {
+     "id": "c",
+     "label": "The host always offered a switch to every player"
+    },
+    {
+     "id": "d",
+     "label": "The player picked the car on the first try for sure"
+    }
+   ],
+   "answer": "b",
+   "explain": "The 50% view would be true if the host selected a door to open at random, but the host knowingly avoids the car, so it does not hold.",
+   "cites": [
+    32,
+    33
+   ]
+  },
+  {
+   "prompt": "Instead of opening a door, the host offers: keep your door, or take both of the other two doors. What is the chance the pair of doors holds the car?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1/2, since the offer has two sides to choose from"
+    },
+    {
+     "id": "b",
+     "label": "1/3, since the car sits behind only one door"
+    },
+    {
+     "id": "c",
+     "label": "1/3, since the host adds nothing to the pair"
+    },
+    {
+     "id": "d",
+     "label": "2/3, since each of the unchosen doors started with 1/3"
+    }
+   ],
+   "answer": "d",
+   "explain": "Switching after the reveal is no different from being offered both remaining doors, which gives a 2/3 chance of the car.",
+   "cites": [
+    40,
+    41,
+    43,
+    44
+   ]
+  }
+ ]
+}

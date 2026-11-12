@@ -1,0 +1,30 @@
+{
+ "readHash": "927a1f1f2f4619ac209fa41a16276615a614be1c",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Definition [1], less confidence vs simultaneous census [2], positive when incomplete and varying [3], non-survey use [4]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Yes/no poll with n much smaller than N [5], goal [6], repeat polls normal around true share [7], margin definition [8]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "95% within two SD [11], interval and radius [12], default 95% [16], MOE99 about 1.3 x MOE95 [25]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "General formula [13], z about 2 at 95% [14],[15], smaller n wider [18], yes/no standard error [20]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Infinite population, depends only on n [33], small sampling fraction [34], school to country [35], extremes toward 0 [26]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "46/42/12 with n=1013 [27], MOE for 46% as closest to 50% [28], tie concerns ranking [29]."
+  }
+ }
+}

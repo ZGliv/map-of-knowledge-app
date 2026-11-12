@@ -1,0 +1,102 @@
+{
+ "title": "Magnets That Make Current",
+ "question": "How can a moving magnet make electricity flow?",
+ "hook": "Faraday found that a still magnet does nothing, but a moving one lights up a wire.",
+ "idea": "A changing magnetic flux induces a voltage, and the electrical energy it yields is paid for by mechanical energy.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A bar magnet sits perfectly still inside a coil of wire attached to a meter. What does the meter show?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A steady current, because the magnet is close",
+     "feedback": "Closeness alone does nothing; a static magnet near a loop produced no current."
+    },
+    {
+     "id": "b",
+     "label": "A big current that fades slowly",
+     "feedback": "Nothing flows at all without a change in flux."
+    },
+    {
+     "id": "c",
+     "label": "No current at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Faraday's early tests showed that a static magnetic field produces no current; the field has to change.",
+   "cites": [
+    12,
+    14
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "put Faraday's first demonstration in order",
+   "items": [
+    "Wrap two wires around opposite sides of an iron ring",
+    "Plug one wire into a galvanometer",
+    "Connect the other wire to a battery",
+    "See a brief current on the meter"
+   ],
+   "ends": [
+    "first",
+    "last"
+   ],
+   "explain": "He set up the ring, connected the meter, switched on the battery, and saw a transient current.",
+   "cites": [
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each name to what they did",
+   "pairs": [
+    [
+     "Faraday",
+     "Discovered induction in 1831"
+    ],
+    [
+     "Lenz",
+     "Gave the direction rule in 1834"
+    ],
+    [
+     "Maxwell",
+     "Gave it a mathematical form"
+    ],
+    [
+     "Henry",
+     "Found it independently in 1832"
+    ]
+   ],
+   "explain": "Faraday found it, Henry independently, Lenz gave direction and Maxwell the mathematics.",
+   "cites": [
+    2,
+    6,
+    7,
+    20
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A copper disc is rotated in a magnetic field, and a current flows in its arm.",
+    "That current flows through the rim and makes the rim an electromagnet.",
+    "The rim's magnet resists the rotation of the disc.",
+    "So the electrical energy comes free, with no mechanical work needed."
+   ],
+   "wrong": 3,
+   "explain": "Mechanical work is needed to drive the current, and the energy to keep the disc moving equals the electrical energy generated, plus losses.",
+   "cites": [
+    36,
+    37,
+    38,
+    39,
+    44
+   ]
+  }
+ ]
+}

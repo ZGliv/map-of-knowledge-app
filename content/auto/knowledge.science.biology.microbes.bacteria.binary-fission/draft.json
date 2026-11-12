@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "Binary fission is how Archaea and Bacteria reproduce: a cell divides into two parts, each able to grow to the size of the original.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "text": "The single DNA molecule first replicates and each copy attaches to a different part of the cell membrane, so the daughter cells are genetically identical barring random mutations.",
+   "cites": [
+    7,
+    9
+   ]
+  },
+  {
+   "text": "For Escherichia coli one division typically takes about 20 minutes at 37 °C, and that time is also how long a culture needs to double its number of cells.",
+   "cites": [
+    23,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who does it",
+   "value": "Archaea, Bacteria, and some organelles such as mitochondria",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Daughter cells",
+   "value": "Genetically identical, barring random mutations",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Marker protein",
+   "value": "FtsZ forms a Z ring that defines the division plane",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "E. coli speed",
+   "value": "Divides about every 20 minutes at 37 °C",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Slow example",
+   "value": "Some tuberculosis strains take nearly 100 hours",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A bacterial culture starts with one cell, and each cell splits in two every 20 minutes. About how many cells are there after an hour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three"
+    },
+    {
+     "id": "b",
+     "label": "Eight"
+    },
+    {
+     "id": "c",
+     "label": "Six"
+    },
+    {
+     "id": "d",
+     "label": "Sixteen"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each division doubles the number of cells, so three divisions take one cell to two, then four, then eight.",
+   "cites": [
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "A single bacterium divides again and again in a dish. Barring rare mutations, how do its descendants compare with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are a blend of its genes and a partner's"
+    },
+    {
+     "id": "b",
+     "label": "They each keep only half of its genetic material"
+    },
+    {
+     "id": "c",
+     "label": "They are genetically identical to it"
+    },
+    {
+     "id": "d",
+     "label": "They differ more with every division that occurs"
+    }
+   ],
+   "answer": "c",
+   "explain": "Binary fission is asexual, so all the cells have the same genetic material barring random mutations.",
+   "cites": [
+    5,
+    9
+   ]
+  },
+  {
+   "prompt": "Why must the DNA be copied before the cell pulls apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "So the cell can grow a nucleus before it divides"
+    },
+    {
+     "id": "b",
+     "label": "So the cell wall can be removed before dividing"
+    },
+    {
+     "id": "c",
+     "label": "So the extra DNA can be thrown away afterwards"
+    },
+    {
+     "id": "d",
+     "label": "So each half can receive its own chromosome"
+    }
+   ],
+   "answer": "d",
+   "explain": "The DNA replicates and each copy attaches to a different part of the membrane, so the copies are separated when the cell pulls apart.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "In a dividing bacterium, a blocking signal is lifted only at the cell's centre. What does that let happen there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "FtsZ takes over and carries out the division"
+    },
+    {
+     "id": "b",
+     "label": "The cell wall dissolves entirely at that spot"
+    },
+    {
+     "id": "c",
+     "label": "The chromosomes stop being copied at that spot"
+    },
+    {
+     "id": "d",
+     "label": "MinC and MinD start to form the ring instead"
+    }
+   ],
+   "answer": "a",
+   "explain": "MinC and MinD block the FtsZ ring, and MinE stops their activity at midcell, allowing FtsZ to take over for division.",
+   "cites": [
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "A culture in a flask has run low on nutrients and space. What happens to its rate of binary fission?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It speeds up to make up for the losses"
+    },
+    {
+     "id": "b",
+     "label": "It falls to much lower rates"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same however crowded it gets"
+    },
+    {
+     "id": "d",
+     "label": "It stops for good and never starts again"
+    }
+   ],
+   "answer": "b",
+   "explain": "Bacterial growth is limited by nutrients and space, so binary fission occurs at much lower rates once a culture enters the stationary phase.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "prompt": "Eukaryotic cells divide by mitosis and meiosis. What does binary fission leave out that those processes use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Copying of the cell's DNA"
+    },
+    {
+     "id": "b",
+     "label": "Separation of the DNA copies"
+    },
+    {
+     "id": "c",
+     "label": "A spindle apparatus on the cell"
+    },
+    {
+     "id": "d",
+     "label": "Growth of the two new cells"
+    }
+   ],
+   "answer": "c",
+   "explain": "Binary fission takes place without the formation of a spindle apparatus, unlike mitosis and meiosis.",
+   "cites": [
+    10
+   ]
+  }
+ ]
+}

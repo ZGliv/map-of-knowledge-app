@@ -1,0 +1,534 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.brownian-motion",
+ "name": "Brownian motion",
+ "summary": [
+  {
+   "text": "Brownian motion is the random motion of particles suspended in a liquid or a gas.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is named after Robert Brown, who in 1827 watched pollen grains in water under a microscope and saw them make a continuous, jittery motion.",
+   "cites": [
+    9,
+    27,
+    29
+   ]
+  },
+  {
+   "text": "Einstein's 1905 explanation, with water molecules pushing the particles, served as convincing evidence that atoms and molecules exist, and Jean Perrin verified it in 1908.",
+   "cites": [
+    11,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First described",
+   "value": "Robert Brown, 1827, using pollen in water",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Experimental proof",
+   "value": "Jean Perrin verified Einstein's explanation in 1908",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Rigorous mathematics",
+   "value": "Norbert Wiener gave the first complete analysis in 1923",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Early finance model",
+   "value": "Louis Bachelier modeled it in his 1900 thesis on speculation",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Not alive",
+   "value": "Glass and rock dust jitter too",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A scientist sees pollen grains jitter in still water. He repeats the test with glass dust and rock dust, and they jitter as well. What does this tell him?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The jitter only happens with powdered stone"
+    },
+    {
+     "id": "b",
+     "label": "The jitter comes from the grains being alive"
+    },
+    {
+     "id": "c",
+     "label": "The motion is not caused by anything living"
+    },
+    {
+     "id": "d",
+     "label": "The microscope is making the grains shake"
+    }
+   ],
+   "answer": "c",
+   "explain": "Brown found the same motion in inorganic matter, so he could rule out that it was life-related.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion:q1"
+  },
+  {
+   "prompt": "A speck floats in a glass of still water and wanders unpredictably. What best explains the wandering?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Water molecules hit it harder on one side at different moments"
+    },
+    {
+     "id": "b",
+     "label": "The speck pushes itself through the water in random directions"
+    },
+    {
+     "id": "c",
+     "label": "The water steadily flows in one direction and carries it along"
+    },
+    {
+     "id": "d",
+     "label": "Each water molecule hits it from the same side every time"
+    }
+   ],
+   "answer": "a",
+   "explain": "The direction of the molecular bombardment keeps changing, so the particle is hit more on one side than another at different times.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion:q2"
+  },
+  {
+   "prompt": "In 1905 many scientists still argued over whether atoms were real. Why did explaining a visible jiggle help settle that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Atoms were seen directly through the microscope that year"
+    },
+    {
+     "id": "b",
+     "label": "The jiggle was shown to come from the particle's own heat"
+    },
+    {
+     "id": "c",
+     "label": "The pollen turned out to be made of single atoms"
+    },
+    {
+     "id": "d",
+     "label": "A jiggle explained by molecule impacts and then tested pointed to unseen molecules"
+    }
+   ],
+   "answer": "d",
+   "explain": "Einstein explained the motion as impacts of individual molecules, and experiments verified it, which served as convincing evidence that atoms and molecules exist.",
+   "cites": [
+    11,
+    13,
+    33
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion:q3"
+  },
+  {
+   "prompt": "Why do scientists describe this motion with probability models rather than tracking every molecule involved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Molecules in a liquid never obey any physical laws"
+    },
+    {
+     "id": "b",
+     "label": "The many-body interactions cannot be solved by modeling every molecule"
+    },
+    {
+     "id": "c",
+     "label": "Nobody has ever measured the position of a single particle"
+    },
+    {
+     "id": "d",
+     "label": "A single formula already predicts every individual collision"
+    }
+   ],
+   "answer": "b",
+   "explain": "The many-body interactions behind the pattern cannot be solved by a model accounting for every molecule, so only probabilistic models applied to molecular populations are used.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion:q4"
+  },
+  {
+   "prompt": "A pollen grain floats in a cup of water kept at one steady temperature. How does the fluid around it behave overall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has no preferred direction of flow"
+    },
+    {
+     "id": "b",
+     "label": "It slowly pushes everything toward the cup's edge"
+    },
+    {
+     "id": "c",
+     "label": "It spins steadily in one direction"
+    },
+    {
+     "id": "d",
+     "label": "It flows from the warm side toward the cool side"
+    }
+   ],
+   "answer": "a",
+   "explain": "The pattern describes a fluid at thermal equilibrium at a given temperature, and in such a fluid there is no preferential direction of flow.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion:q5"
+  },
+  {
+   "prompt": "A mathematician writes about Brownian motion in a research paper. What is she most likely referring to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the motion of pollen seen in water"
+    },
+    {
+     "id": "b",
+     "label": "A particle that always drifts in one direction"
+    },
+    {
+     "id": "c",
+     "label": "A process describing the movement of stock prices only"
+    },
+    {
+     "id": "d",
+     "label": "The Wiener process, its traditional mathematical formulation"
+    }
+   ],
+   "answer": "d",
+   "explain": "The traditional mathematical formulation of Brownian motion is the Wiener process, which is often itself called Brownian motion, even in mathematical sources.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/2d_random_walk_ag_adatom_ag111.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Brownian motion",
+  "credit": "Toshiyouri",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2d_random_walk_ag_adatom_ag111.gif"
+ },
+ "source": {
+  "title": "Brownian motion",
+  "url": "https://en.wikipedia.org/wiki/Brownian_motion",
+  "revision": 1383126763
+ },
+ "pack": {
+  "id": "auto-stochastic-processes-brownian-motion",
+  "title": "The Dust That Proved Atoms",
+  "question": "Why does a speck in still water never sit still, and what did that reveal?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Stochastic processes",
+   "Brownian motion"
+  ],
+  "hue": 41,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/2d_random_walk_ag_adatom_ag111.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Brownian motion",
+    "credit": "Toshiyouri · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2d_random_walk_ag_adatom_ag111.gif",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The Dust That Proved Atoms",
+    "hook": "A jittering pollen grain in a drop of water ended a long argument about whether atoms are real."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-stochastic-processes-brownian-motion:1",
+    "transfer": false,
+    "prompt": "A botanist sees pollen jitter in water and wonders if the grains are alive. He tries glass dust and rock dust in water. What happens?",
+    "explain": "Brown repeated the experiment with inorganic matter such as glass and rock dust and saw the motion again, so it was not life-related.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "They jitter too, so life is not the cause",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "They stay perfectly still, so the pollen must be alive",
+        "feedback": "It is a natural guess, but the dust moved as well, which ruled out life as the cause."
+       },
+       {
+        "id": "c",
+        "label": "They sink and never move at all",
+        "feedback": "Heavy dust seems likely to sit still, but the particles kept up the same continuous jitter."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-stochastic-processes-brownian-motion:2",
+    "transfer": false,
+    "prompt": "Put these steps in the order they happened.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Brown describes pollen jittering in water"
+     },
+     {
+      "id": "b",
+      "label": "Bachelier models the process for the stock market"
+     },
+     {
+      "id": "c",
+      "label": "Einstein explains it with water molecules"
+     },
+     {
+      "id": "d",
+      "label": "Perrin verifies it experimentally"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Brown described it in 1827, Bachelier modeled it in 1900, Einstein explained it in 1905, and Perrin verified it in 1908."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-stochastic-processes-brownian-motion:3",
+    "transfer": true,
+    "prompt": "Match each person to what they did.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Robert Brown"
+     },
+     {
+      "id": "l1",
+      "label": "Albert Einstein"
+     },
+     {
+      "id": "l2",
+      "label": "Jean Perrin"
+     },
+     {
+      "id": "l3",
+      "label": "Norbert Wiener"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Verified the explanation by experiment"
+     },
+     {
+      "id": "r0",
+      "label": "First described pollen jittering in water"
+     },
+     {
+      "id": "r3",
+      "label": "Gave the first complete, rigorous math analysis"
+     },
+     {
+      "id": "r1",
+      "label": "Explained the motion as hits from water molecules"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each worked on a different stage: observing it, explaining it, testing it, and putting the mathematics on firm ground."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-stochastic-processes-brownian-motion:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Pollen grains in still water jitter continuously."
+     },
+     {
+      "id": "b",
+      "text": "Glass and rock dust, which is not alive, jitters in the same way."
+     },
+     {
+      "id": "c",
+      "text": "So the jitter must come from the grains being alive."
+     },
+     {
+      "id": "d",
+      "text": "Something else must therefore be causing the motion."
+     }
+    ],
+    "answer": "c",
+    "explain": "Since lifeless dust jitters too, the motion cannot come from life. Brown's test ruled that out."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Tiny particles jitter because unseen molecules keep hitting them unevenly, and that jitter became evidence that molecules exist.",
+    "connections": [
+     {
+      "title": "Wiener process",
+      "place": "Brownian motion",
+      "node": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process"
+     },
+     {
+      "title": "Itô calculus",
+      "place": "Brownian motion",
+      "node": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.it-calculus"
+     },
+     {
+      "title": "Black-Scholes model",
+      "place": "Brownian motion",
+      "node": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Brown repeated the experiment with inorganic matter such as glass and rock dust and saw the motion again, so it was not life-related.",
+    "source": "Wikipedia sentences 30"
+   },
+   {
+    "claim": "Brown described it in 1827, Bachelier modeled it in 1900, Einstein explained it in 1905, and Perrin verified it in 1908.",
+    "source": "Wikipedia sentences 9, 10, 11, 13"
+   },
+   {
+    "claim": "Each worked on a different stage: observing it, explaining it, testing it, and putting the mathematics on firm ground.",
+    "source": "Wikipedia sentences 9, 11, 13, 36"
+   },
+   {
+    "claim": "Since lifeless dust jitters too, the motion cannot come from life. Brown's test ruled that out.",
+    "source": "Wikipedia sentences 29, 30"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Brownian motion is the random movement of particles suspended in a liquid or a gas. It is named after the Scottish botanist Robert Brown, who described it in 1827. In mathematics, the usual way to describe it is the Wiener process, which is itself often just called Brownian motion.",
+    "cites": [
+     1,
+     2,
+     9
+    ]
+   },
+   {
+    "heading": "What Brown saw",
+    "text": "Brown was studying how plants reproduce when he looked at pollen grains of Clarkia pulchella in water under a simple microscope. The grains hold particles about 6.4 microns (1/4,000th of an inch) across, and he watched them jiggle without stopping. He repeated the test with lifeless matter such as glass and rock dust. That ruled out life as the cause, though the physical reason was still unexplained.",
+    "cites": [
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Einstein's explanation",
+    "text": "In 1905 Albert Einstein modelled the pollen particles as being pushed by individual water molecules. The direction of these hits keeps changing, and at any moment one side may be struck more than the other, so the particle seems to move at random. At the time, whether atoms and molecules truly existed was still fiercely argued. His account became convincing evidence that they do.",
+    "cites": [
+     11,
+     12,
+     13,
+     33
+    ]
+   },
+   {
+    "heading": "Measuring atoms",
+    "text": "The first step in Einstein's argument was to work out the distance a Brownian particle covers over a set time. Classical mechanics cannot answer that, because the particle suffers roughly 10¹⁴ collisions every second. Einstein instead built a diffusion equation for the particles, and through it he could find the size of atoms and how many atoms are in a mole of gas. Jean Perrin's careful experiments in 1908 confirmed these predictions, settled the debate over atoms, and led to his Nobel Prize in Physics in 1926.",
+    "cites": [
+     14,
+     35,
+     39,
+     40,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "The mathematics",
+    "text": "In his 1900 doctoral thesis, The Theory of Speculation, Louis Bachelier modelled this random process while analysing the stock and option markets. His work tying random walks to continuous time stayed largely unknown until the 1950s. In 1923 Norbert Wiener gave the first complete and rigorous mathematical treatment, which is why the idea is now called the Wiener process.",
+    "cites": [
+     10,
+     31,
+     32,
+     36
+    ]
+   },
+   {
+    "heading": "Why chance is the only tool",
+    "text": "The motion comes from many molecules interacting at once, and no model can follow every one of them. So only probability models applied to whole populations of molecules can describe it. Both simpler and more complex random processes, such as random walks, approach Brownian motion in the limit. In 2010 researchers managed for the first time to measure, for one Brownian particle, its velocity at a single instant: the particle was a glass bead held in air by optical tweezers, and the data matched the Maxwell–Boltzmann velocity distribution.",
+    "cites": [
+     15,
+     16,
+     19,
+     37,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "siegrist-brownian-motion",
+   "kind": "book",
+   "title": "18: Brownian Motion - Probability, Mathematical Statistics, and Stochastic Processes (Siegrist)",
+   "by": "Kyle Siegrist",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/18%3A_Brownian_Motion",
+   "note": "A free textbook chapter on Brownian motion as a random process: standard, with drift, the Brownian bridge and geometric.",
+   "license": "CC BY 2.0"
+  }
+ ]
+}

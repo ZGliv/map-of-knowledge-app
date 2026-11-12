@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law",
+ "name": "Ampère's circuital law",
+ "summary": [
+  {
+   "text": "Ampère's circuital law relates the circulation of a magnetic field around a closed loop to the electric current passing through that loop.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It was inspired by Ørsted's 1820 finding that an electric current makes a magnetic field, and in 1865 Maxwell extended it with a displacement current term.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "The original law holds only for steady currents, so Maxwell's correction is needed when electric fields change in time; the result is one of Maxwell's equations.",
+   "cites": [
+    6,
+    17,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "The spark",
+   "value": "Ørsted's 1820 compass needle deflecting near a current",
+   "cites": [
+    2,
+    9
+   ]
+  },
+  {
+   "label": "Maxwell published it",
+   "value": "The law appeared in 1855",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Maxwell's extension",
+   "value": "The displacement current term, added in 1865",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Combined name",
+   "value": "The Ampère-Maxwell law",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In 1820 a compass placed next to a wire carrying current swung until it sat perpendicular to the wire. What did this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Compass needles are electrically charged"
+    },
+    {
+     "id": "b",
+     "label": "An electric current produces a magnetic effect"
+    },
+    {
+     "id": "c",
+     "label": "Magnets create current in nearby wires"
+    },
+    {
+     "id": "d",
+     "label": "Every metal wire is a permanent magnet"
+    }
+   ],
+   "answer": "b",
+   "explain": "Ørsted showed that an electric current produces a magnetic effect, which led to the formulation of the law.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law:q1"
+  },
+  {
+   "prompt": "Which situation can the original circuital law, without Maxwell's correction, handle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A radio wave crossing empty space"
+    },
+    {
+     "id": "b",
+     "label": "A current that rises and falls rapidly"
+    },
+    {
+     "id": "c",
+     "label": "A magnet being pushed through a ring"
+    },
+    {
+     "id": "d",
+     "label": "A steady, continuous current in a closed circuit"
+    }
+   ],
+   "answer": "d",
+   "explain": "The original law applies only to magnetostatic situations with steady, continuous currents in closed circuits; time-varying electric fields need the added term.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law:q2"
+  },
+  {
+   "prompt": "Before 1820, how did most scientists view electricity and magnetism?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As completely separate phenomena"
+    },
+    {
+     "id": "b",
+     "label": "As two views of one single force"
+    },
+    {
+     "id": "c",
+     "label": "As effects of the same moving compass"
+    },
+    {
+     "id": "d",
+     "label": "As unrelated to every kind of current"
+    }
+   ],
+   "answer": "a",
+   "explain": "Until the early 19th century they were thought to be completely separate; Ørsted's discovery changed that.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law:q3"
+  },
+  {
+   "prompt": "Two wires next to each other both carry current. What did Ampère find about them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Neither wire feels anything from the other"
+    },
+    {
+     "id": "b",
+     "label": "Only the heavier wire feels a force"
+    },
+    {
+     "id": "c",
+     "label": "A magnetic force acts between the two wires"
+    },
+    {
+     "id": "d",
+     "label": "The wires swap their currents"
+    }
+   ],
+   "answer": "c",
+   "explain": "Ampère investigated the magnetic force between two current-carrying wires, discovering Ampère's force law.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law:q4"
+  },
+  {
+   "prompt": "The circuital law comes in an integral form and a differential form that agree exactly. Which theorem links them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The divergence theorem"
+    },
+    {
+     "id": "b",
+     "label": "The Lorentz force law"
+    },
+    {
+     "id": "c",
+     "label": "The Kelvin-Stokes theorem"
+    },
+    {
+     "id": "d",
+     "label": "Snell's law"
+    }
+   ],
+   "answer": "c",
+   "explain": "The two forms are exactly equivalent and related by the Kelvin-Stokes theorem.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law:q5"
+  },
+  {
+   "prompt": "A known steady current flows through a loop. Using the original law, what can you work out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The magnetic field associated with that current"
+    },
+    {
+     "id": "b",
+     "label": "The resistance of the wire in the loop"
+    },
+    {
+     "id": "c",
+     "label": "The temperature the loop will reach"
+    },
+    {
+     "id": "d",
+     "label": "The voltage of whatever drives the current"
+    }
+   ],
+   "answer": "a",
+   "explain": "The law relates fields to the currents that produce them, so it can find the field for a given current, or the current for a given field.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.physics.electromagnetism.maxwell-s-equations.amp-re-s-circuital-law:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Electromagnetism.svg/960px-Electromagnetism.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Ampère's circuital law",
+  "credit": "User:Stannered",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Electromagnetism.svg"
+ },
+ "source": {
+  "title": "Ampère's circuital law",
+  "url": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
+  "revision": 1379962290
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Ampère's circuital law (often just called Ampère's law, and now and then named Oersted's law) relates how a magnetic field circulates around a closed loop to the current that flows through the loop. In 1865 Maxwell widened it to cover currents that change over time. The equation that came out of this, often known as the Ampère–Maxwell law, counts among Maxwell's equations, which form the foundation of classical electromagnetism.",
+    "cites": [
+     1,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Ørsted's compass",
+    "text": "Until the early 1800s, electricity and magnetism were thought to be completely separate. That changed in 1820, when the Danish physicist Hans Christian Ørsted found that an electric current has a magnetic effect. A compass needle near a wire carrying current swung to sit at right angles to the wire. In further experiments he showed that the current could affect magnetic poles nearby, that its effect spread outward from the wire, and that it formed a vortex around the wire.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "From Ampère to Maxwell",
+    "text": "Ørsted's discovery set off a wave of research into how electricity and magnetism are related. André-Marie Ampère studied the magnetic force between two wires carrying current and discovered Ampère's force law. In the 1850s James Clerk Maxwell pulled these results and others into a single mathematical law. He published it in 1855 in his paper \"On Faraday's Lines of Force\", basing it on an analogy with hydrodynamics. In 1865 he extended it to currents that change over time by adding a displacement current term.",
+    "cites": [
+     4,
+     5,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "What the original law says",
+    "text": "The original law connects magnetic fields to the currents that produce them. It works in both directions: it can give the magnetic field for a known current, or the current for a known field. But it holds only in magnetostatic situations, meaning steady, continuous currents flowing in closed circuits. When electric fields change over time, the law needs an extra term known as Maxwell's correction.",
+    "cites": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Loops and surfaces",
+    "text": "In its integral form, the law adds up the magnetic field along a closed curve, called C. That curve is the edge of a surface, S, which the current passes through. Written with the B field, the total around C is proportional to the total current crossing S. Many surfaces share the same edge, like a soap film on a wire loop that changes shape when you blow on it. In the magnetostatic case it makes no difference which one you pick, so in practice people choose whichever is most convenient.",
+    "cites": [
+     27,
+     28,
+     30,
+     37,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Free and bound current",
+    "text": "The current in simple textbook cases, such as the current through a wire or a battery, counts as free current. Bound current arises in bulk materials that can be magnetized or polarized, which all materials can be to some extent. When a material is magnetized, its electrons stay with their atoms but behave as if circling the nucleus in one direction, making a microscopic current. Added together, these act like one large current circulating forever around the magnetized object. The version of the law written with the H field counts only the free current, while the B version counts the total, free plus bound.",
+    "cites": [
+     30,
+     31,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up2-12-5",
+   "kind": "book",
+   "title": "12.5 Ampère's Law",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/12-5-amperes-law",
+   "note": "A free college textbook section on Ampère's law, using it to find the field of thin and thick wires.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-cp2e-22-9",
+   "kind": "book",
+   "title": "22.9 Magnetic Fields Produced by Currents: Ampere's Law",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law",
+   "note": "An introductory textbook section on the fields around wires, loops and solenoids, with the right-hand rule.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "crashcourse-amperes-law",
+   "kind": "video",
+   "title": "Ampère's Law: Crash Course Physics #33",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=5fqwJyt4Lus",
+   "note": "A Crash Course Physics episode on Ampère's law, from Ørsted's discovery to finding the field around a current."
+  }
+ ]
+}

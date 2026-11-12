@@ -1,0 +1,101 @@
+{
+ "title": "Light Has Three Faces",
+ "question": "Is light a ray, a wave or a particle?",
+ "hook": "Depending on the job, light is treated as rays, waves or photons, and all three are useful.",
+ "idea": "Optics uses ray, wave and quantum models of light, picking the simplest one that explains the effect at hand.",
+ "beats": [
+  {
+   "kind": "order",
+   "prompt": "Put the models of light in the order they were developed or deepened.",
+   "items": [
+    "Ray model of light",
+    "Wave model of light",
+    "Light as electromagnetic radiation",
+    "Photons in quantum optics"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "The ray model came first, then the wave model; 19th-century theory showed light is electromagnetic, and quantum mechanics later added photons.",
+   "cites": [
+    9,
+    10,
+    13,
+    14
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each model to what it handles.",
+   "pairs": [
+    [
+     "Geometric optics",
+     "Straight rays that bend or reflect"
+    ],
+    [
+     "Physical optics",
+     "Wave effects like diffraction and interference"
+    ],
+    [
+     "Quantum optics",
+     "Quantum mechanics applied to optical systems"
+    ],
+    [
+     "Photons",
+     "Particle-like view of light"
+    ]
+   ],
+   "explain": "Each model captures a different layer of how light behaves.",
+   "cites": [
+    7,
+    8,
+    13,
+    14
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You want to trace how light will bend through a simple magnifying lens. Which model do most practical designers reach for first?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Geometric optics, with simple rays"
+    },
+    {
+     "id": "b",
+     "label": "A full quantum treatment of every photon",
+     "feedback": "It tempts as the most complete, but practical optics usually uses simplified models."
+    },
+    {
+     "id": "c",
+     "label": "No model, since lenses cannot be predicted",
+     "feedback": "Lenses are routinely designed with ray models."
+    }
+   ],
+   "answer": "a",
+   "explain": "Complete descriptions are often hard to apply, so practical optics usually uses simplified models, most commonly geometric optics.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Geometric optics treats light as straight-line rays.",
+    "So it explains every optical effect, including interference.",
+    "Interference is a wave effect.",
+    "Physical optics is needed to account for it."
+   ],
+   "wrong": 1,
+   "explain": "Geometric optics cannot account for wave effects like diffraction and interference; physical optics is needed.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ]
+}

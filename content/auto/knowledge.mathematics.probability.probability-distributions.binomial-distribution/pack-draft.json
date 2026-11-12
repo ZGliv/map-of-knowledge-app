@@ -1,0 +1,114 @@
+{
+ "title": "Counting wins among repeated tries",
+ "question": "How likely is each count of successes in repeated yes-no tries?",
+ "hook": "Three tries, one win: it could come first, second or third, and every order is equally likely.",
+ "idea": "Every particular sequence with k successes has the same probability, so the chance of k successes is that probability times the number of such sequences.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Three independent tries each have the same chance of success. Win-win-loss versus loss-win-win: how do the chances compare?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Win-win-loss is likelier",
+     "feedback": "It tempts because it starts with wins, but the order does not matter when trials are independent with a constant chance."
+    },
+    {
+     "id": "b",
+     "label": "Loss-win-win is likelier",
+     "feedback": "Ending on wins feels hopeful, but no position is favoured."
+    },
+    {
+     "id": "c",
+     "label": "They are equal",
+     "feedback": ""
+    },
+    {
+     "id": "d",
+     "label": "It depends on which trial comes first",
+     "feedback": "The trials do not influence one another, so position cannot matter."
+    }
+   ],
+   "answer": "c",
+   "explain": "Each sequence with the same number of successes has the same probability, regardless of where the successes sit.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "In 4 independent tries you win exactly once. In how many different orders could that single win have happened?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "1",
+     "feedback": "There is one win but it can sit in several places."
+    },
+    {
+     "id": "b",
+     "label": "4",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "2",
+     "feedback": "Only counting first and last misses the middle places."
+    },
+    {
+     "id": "d",
+     "label": "16",
+     "feedback": "That counts every possible win-or-loss pattern, not just those with one win."
+    }
+   ],
+   "answer": "b",
+   "explain": "Counting sequences means choosing the position of the success, and with 4 trials the single win can be in any of 4 places.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Bernoulli trial",
+     "A single success-or-failure experiment"
+    ],
+    [
+     "Bernoulli process",
+     "A sequence of such outcomes"
+    ],
+    [
+     "Only one trial",
+     "The binomial becomes a Bernoulli distribution"
+    ],
+    [
+     "Draws without replacement",
+     "Not independent, so hypergeometric instead"
+    ]
+   ],
+   "explain": "The binomial builds on repeated independent trials; dropping independence or repeating gives the neighbouring cases.",
+   "cites": [
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about drawing marbles is wrong. Which?",
+   "steps": [
+    "A small bag has a few marbles, and you draw three, keeping each one out.",
+    "Each draw changes what is left in the bag.",
+    "So the draws are independent of one another.",
+    "So the count of one colour follows the binomial exactly."
+   ],
+   "wrong": 2,
+   "explain": "Because each draw changes what remains, the draws are not independent, so the result is hypergeometric.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "summary": [
+  {
+   "text": "The law of large numbers says the average of results from a large number of independent random samples converges to the true value, if one exists.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It guarantees stable long-term averages for some random events: a casino may lose on a single spin, but its earnings tend towards a predictable percentage over many spins.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "It applies only when many observations are considered, and a small number of observations need not match the expected value.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dice example",
+   "value": "The average of many rolls approaches 3.5",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Coin example",
+   "value": "The proportion of heads approaches 1⁄2",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Where it is used",
+   "value": "Statistics, economics, insurance and other fields",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "When it fails",
+   "value": "Averages from a Cauchy distribution do not converge",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend rolls an ordinary six-sided die thousands of times and works out the average of all the rolls. About what value should it be near?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6, the highest face"
+    },
+    {
+     "id": "b",
+     "label": "3, the middle face"
+    },
+    {
+     "id": "c",
+     "label": "3.5"
+    },
+    {
+     "id": "d",
+     "label": "4.5"
+    }
+   ],
+   "answer": "c",
+   "explain": "With many dice rolled, the average of their values approaches 3.5, with the precision increasing as more dice are rolled.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A fair coin lands heads five times in a row. A friend says tails is now due to balance things out. What does the law say about that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing guarantees that a streak is balanced right away"
+    },
+    {
+     "id": "b",
+     "label": "Tails becomes more likely until the streak is balanced"
+    },
+    {
+     "id": "c",
+     "label": "Heads becomes more likely because it is on a run"
+    },
+    {
+     "id": "d",
+     "label": "The coin must be unfair after such a streak"
+    }
+   ],
+   "answer": "a",
+   "explain": "There is no principle that a small number of observations will coincide with the expected value, or that a streak of one value will immediately be balanced by the others.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "A gambler wins big on one spin of a roulette wheel. Why can the casino still count on a predictable result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wheel is adjusted after every big win"
+    },
+    {
+     "id": "b",
+     "label": "Over very many spins, earnings tend toward a set percentage"
+    },
+    {
+     "id": "c",
+     "label": "Players always lose their very next spin"
+    },
+    {
+     "id": "d",
+     "label": "Winning streaks are banned by the casino"
+    }
+   ],
+   "answer": "b",
+   "explain": "A casino may lose on a single spin, but over a large number of spins its earnings tend towards a predictable percentage.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "You keep flipping a fair coin for a very long time. What happens to the gap between the number of heads and the number of tails?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It shrinks steadily toward zero for good"
+    },
+    {
+     "id": "b",
+     "label": "It stays about the same size throughout"
+    },
+    {
+     "id": "c",
+     "label": "It tends to grow, though the share stays near 1⁄2"
+    },
+    {
+     "id": "d",
+     "label": "It flips from positive to negative each flip"
+    }
+   ],
+   "answer": "c",
+   "explain": "The share of heads approaches 1⁄2, yet the absolute difference between heads and tails almost surely becomes large, growing at a slower rate than the number of flips.",
+   "cites": [
+    16,
+    17,
+    20
+   ]
+  },
+  {
+   "prompt": "A computer estimates a quantity by repeating random sampling many times. What should happen to the estimate as the repetitions increase?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gets worse as noise piles up"
+    },
+    {
+     "id": "b",
+     "label": "It tends to get better"
+    },
+    {
+     "id": "c",
+     "label": "It stays exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "It jumps between two fixed values"
+    }
+   ],
+   "answer": "b",
+   "explain": "Monte Carlo methods rely on repeated random sampling, and the larger the number of repetitions, the better the approximation tends to be.",
+   "cites": [
+    21,
+    22,
+    23
+   ]
+  },
+  {
+   "prompt": "Does the average of more and more results always settle down to one value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any random process settles eventually"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only after a million trials"
+    },
+    {
+     "id": "c",
+     "label": "No, never, not even for dice"
+    },
+    {
+     "id": "d",
+     "label": "No, heavy-tailed cases like the Cauchy distribution do not converge"
+    }
+   ],
+   "answer": "d",
+   "explain": "The average of results may fail to converge in some cases. Averages from the Cauchy distribution, for example, do not converge because of heavy tails.",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ]
+}

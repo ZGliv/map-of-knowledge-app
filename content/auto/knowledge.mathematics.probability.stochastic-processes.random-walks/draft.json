@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A random walk is a path made of a series of random steps, such as a marker that moves one step left or right depending on a coin flip.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The same idea describes a molecule drifting in a liquid, an animal searching for food, a fluctuating stock price, or a gambler's money.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Because it fits so many situations, random walks are used in fields from ecology and physics to economics and computer science.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simplest example",
+   "value": "Start at 0 on a number line; each step is +1 or −1",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Name introduced",
+   "value": "Karl Pearson, 1905",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Other name",
+   "value": "The drunkard's walk",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Studied by simulation",
+   "value": "Monte Carlo simulation can produce sample walks",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Walking forever",
+   "value": "A simple walk on the number line crosses every point infinitely often",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A marker starts at zero. Each fair coin flip moves it one step right for heads or one step left for tails. After exactly five flips, which spot can it NOT be on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three steps to the left"
+    },
+    {
+     "id": "b",
+     "label": "One step to the right"
+    },
+    {
+     "id": "c",
+     "label": "Two steps to the right"
+    },
+    {
+     "id": "d",
+     "label": "Five steps to the right"
+    }
+   ],
+   "answer": "c",
+   "explain": "After five flips the marker can only be on −5, −3, −1, 1, 3 or 5, so two steps to the right is impossible.",
+   "cites": [
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "prompt": "After five fair coin flips, a marker is either one step right of zero or three steps right of zero. Which is more likely, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three right, since four heads feels like a strong streak"
+    },
+    {
+     "id": "b",
+     "label": "One right, since more mixes of flips lead there"
+    },
+    {
+     "id": "c",
+     "label": "They are equally likely, since every flip is fair"
+    },
+    {
+     "id": "d",
+     "label": "Three right, since it is further from the start"
+    }
+   ],
+   "answer": "b",
+   "explain": "One step right comes from three heads and two tails in any order, which can happen 10 ways; three right needs four heads and one tail, only 5 ways.",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "prompt": "A gambler with a limited bankroll plays a fair game against a bank that never runs out of money. What is the long-run outcome?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wins and losses cancel out, so the gambler stays afloat"
+    },
+    {
+     "id": "b",
+     "label": "The gambler slowly accumulates the bank's money"
+    },
+    {
+     "id": "c",
+     "label": "It depends entirely on the gambler's lucky streaks"
+    },
+    {
+     "id": "d",
+     "label": "The gambler eventually reaches zero and the game ends"
+    }
+   ],
+   "answer": "d",
+   "explain": "The gambler's money performs a random walk, and it will reach zero at some point, even though the game is fair.",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "A simple random walk on a number line is allowed to continue forever. How often does it pass over any one given point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Over and over, without any limit"
+    },
+    {
+     "id": "b",
+     "label": "Exactly once, then it drifts off"
+    },
+    {
+     "id": "c",
+     "label": "Never, if it starts somewhere else"
+    },
+    {
+     "id": "d",
+     "label": "Only a handful of times in total"
+    }
+   ],
+   "answer": "a",
+   "explain": "A simple random walk on the integers crosses every point an infinite number of times.",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "prompt": "A foraging animal's search path, a molecule moving through a liquid, and a gambler's changing finances have what in common?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They all follow a fixed, repeating pattern"
+    },
+    {
+     "id": "b",
+     "label": "They all move in only one direction"
+    },
+    {
+     "id": "c",
+     "label": "Each can be modeled as a random walk"
+    },
+    {
+     "id": "d",
+     "label": "They all begin at exactly zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "These are all given as examples of random walks: paths or quantities that change through random steps.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "prompt": "A walker on a grid has the same chance of stepping to each place right next to it. What is such a walk called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Monte Carlo walk"
+    },
+    {
+     "id": "b",
+     "label": "A heavy-tailed walk"
+    },
+    {
+     "id": "c",
+     "label": "A bordered walk"
+    },
+    {
+     "id": "d",
+     "label": "A simple symmetric random walk"
+    }
+   ],
+   "answer": "d",
+   "explain": "When a walk can only jump to neighboring sites and each neighbor is equally likely, it is a simple symmetric random walk.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The Cauchy–Schwarz inequality is an upper bound on the absolute value of the inner product of two vectors, set by the product of the vectors' norms.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The two sides are equal if and only if the two vectors are linearly dependent.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "text": "It is considered one of the most important and widely used inequalities in mathematics, with uses from graph theory to the spectral theorem.",
+   "cites": [
+    2,
+    20,
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sum version",
+   "value": "Published by Cauchy in 1821",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Integral version",
+   "value": "Published by Bunyakovsky in 1859 and Schwarz in 1888",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Equality case",
+   "value": "Both sides match only for linearly dependent vectors",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Graph theory use",
+   "value": "Proves Mantel's theorem on triangle-free graphs",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Angle idea",
+   "value": "Lets angles between vectors work in any real inner-product space",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two arrows drawn on a flat sheet of paper point in exactly opposite directions. How do the two sides of the inequality compare for this pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The left side is strictly smaller"
+    },
+    {
+     "id": "b",
+     "label": "The two sides are equal"
+    },
+    {
+     "id": "c",
+     "label": "The left side is strictly larger"
+    },
+    {
+     "id": "d",
+     "label": "The sides cannot be compared for opposite arrows"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the plane, equality holds when the vectors point in the same or opposite directions, or when one of them is the zero vector.",
+   "cites": [
+    10,
+    11,
+    14
+   ]
+  },
+  {
+   "prompt": "For a particular pair of vectors, the product of their lengths turns out to be strictly bigger than the absolute value of their inner product. What follows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The vectors must both be the zero vector"
+    },
+    {
+     "id": "b",
+     "label": "The inequality has failed for this pair"
+    },
+    {
+     "id": "c",
+     "label": "The vectors must have equal lengths"
+    },
+    {
+     "id": "d",
+     "label": "The vectors are not linearly dependent"
+    }
+   ],
+   "answer": "d",
+   "explain": "The two sides are equal if and only if the vectors are linearly dependent, so a strict gap means they are not.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "The inequality was first published for sums of numbers. Who published that sum version, and in which year?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cauchy, in 1821"
+    },
+    {
+     "id": "b",
+     "label": "Bunyakovsky, in 1859"
+    },
+    {
+     "id": "c",
+     "label": "Schwarz, in 1888"
+    },
+    {
+     "id": "d",
+     "label": "Hölder, in 1859"
+    }
+   ],
+   "answer": "a",
+   "explain": "Cauchy published the sum version in 1821, while Bunyakovsky and Schwarz published the version for integrals.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "A student has the inequality for lists of numbers and wants it for areas under curves. Why can the same idea cover both?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Areas under curves are always just lists of numbers"
+    },
+    {
+     "id": "b",
+     "label": "Integrals are a type of vector, so the inequality was never needed"
+    },
+    {
+     "id": "c",
+     "label": "Inner products of vectors can describe sums, series and integrals"
+    },
+    {
+     "id": "d",
+     "label": "The sum version has to be applied twice for any integral"
+    }
+   ],
+   "answer": "c",
+   "explain": "Inner products can describe finite sums, infinite series and integrals, and the inequality holds for these inner products.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "prompt": "In the study of graphs with no triangles, what role does this inequality play?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It colours the points so no triangle appears"
+    },
+    {
+     "id": "b",
+     "label": "It counts every triangle exactly"
+    },
+    {
+     "id": "c",
+     "label": "It shows every large graph must contain a triangle"
+    },
+    {
+     "id": "d",
+     "label": "It is used to prove a cap on how many edges such a graph can have"
+    }
+   ],
+   "answer": "d",
+   "explain": "It is used to prove Mantel's theorem, which bounds the number of edges in a triangle-free graph.",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "prompt": "You find a proof of this inequality written only for the real numbers. What should you keep in mind when using it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It automatically covers every inner product space"
+    },
+    {
+     "id": "b",
+     "label": "It might not be valid when the field is the complex numbers"
+    },
+    {
+     "id": "c",
+     "label": "It is wrong, because proofs must work over complex numbers"
+    },
+    {
+     "id": "d",
+     "label": "It only needs checking when one vector is zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "Some proofs are only valid when the field is the real numbers and not the complex numbers, a common source of confusion.",
+   "cites": [
+    34,
+    36
+   ]
+  }
+ ]
+}

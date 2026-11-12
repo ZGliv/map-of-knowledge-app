@@ -1,0 +1,30 @@
+{
+ "readHash": "d1cf8349ecf4e3499aaf7786fc9b99fc9c9be053",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "RSA problem, exponentiation modulo N with unknown factors, e-th roots in 1-3"
+  },
+  "r1": {
+   "supported": true,
+   "why": "(N, e), C = P^e mod N, semiprime and range conditions, random C in 5-7"
+  },
+  "r2": {
+   "supported": true,
+   "why": "no efficient method above 1024 bits, threat to encryption and signatures, no hardness proof in 4, 11"
+  },
+  "r3": {
+   "supported": true,
+   "why": "factoring attack, key setup giving d, decrypt any C in 8-10"
+  },
+  "r4": {
+   "supported": true,
+   "why": "at most as hard as factoring, evidence, overkill argument, d equivalent to factoring in 12-15"
+  },
+  "r5": {
+   "supported": true,
+   "why": "structural weakness and OAEP padding in 16, 17"
+  }
+ }
+}

@@ -1,0 +1,548 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.expected-value",
+ "name": "Expected value",
+ "summary": [
+  {
+   "text": "Expected value, also called expectation or the mean, is a generalization of the weighted average.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When it is finite, it can be read as the long-run average of results from independent repetitions of the same random experiment.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It grew out of the problem of points, a puzzle about how to fairly divide stakes between two players forced to end a game early.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Expectation, mean, first moment",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Where it began",
+   "value": "The problem of points, mid-17th century",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Pascal and Fermat",
+   "value": "Each reached the same solution independently",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Huygens' book",
+   "value": "A probability treatise published in 1657",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Finite outcomes",
+   "value": "Weighted average with probabilities as weights",
+   "cites": [
+    3,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend offers a game: flip a fair coin, win $10 on heads and nothing on tails. What is the expected value of one flip?",
+   "options": [
+    {
+     "id": "a",
+     "label": "$10"
+    },
+    {
+     "id": "b",
+     "label": "$0"
+    },
+    {
+     "id": "c",
+     "label": "$5"
+    },
+    {
+     "id": "d",
+     "label": "$15"
+    }
+   ],
+   "answer": "c",
+   "explain": "For finitely many values, the expected value adds each value times its probability: half of $10 plus half of $0.",
+   "cites": [
+    3,
+    44
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value:q1"
+  },
+  {
+   "prompt": "You play the same game of chance thousands of times, each play independent of the others. What does your average result per play drift toward?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The game's expected value"
+    },
+    {
+     "id": "b",
+     "label": "The single biggest prize on offer"
+    },
+    {
+     "id": "c",
+     "label": "The most recent result you got"
+    },
+    {
+     "id": "d",
+     "label": "The smallest payout the game allows"
+    }
+   ],
+   "answer": "a",
+   "explain": "The expected value can be read as the long-run average of independent repetitions of the same experiment.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value:q2"
+  },
+  {
+   "prompt": "A fair six-sided die has six faces, each equally likely. How is its expected value built from the faces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From the face that comes up most often"
+    },
+    {
+     "id": "b",
+     "label": "From the faces added up with no weights"
+    },
+    {
+     "id": "c",
+     "label": "From the middle face printed on the die"
+    },
+    {
+     "id": "d",
+     "label": "From each face weighted by its probability"
+    }
+   ],
+   "answer": "d",
+   "explain": "For finitely many values, the expected value is the weighted average of those values, with their probabilities as weights.",
+   "cites": [
+    3,
+    45
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value:q3"
+  },
+  {
+   "prompt": "A spinner lands on 1 nine times out of ten and on 100 one time in ten. Why is its expected value not simply the midpoint of 1 and 100?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the two values are too far apart to average"
+    },
+    {
+     "id": "b",
+     "label": "Because likelier outcomes get more weight than unlikely ones"
+    },
+    {
+     "id": "c",
+     "label": "Because rare outcomes are ignored when averaging"
+    },
+    {
+     "id": "d",
+     "label": "Because expected values must be whole numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each value is weighted by its probability, so the common outcome counts for more than the rare one.",
+   "cites": [
+    3,
+    45
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value:q4"
+  },
+  {
+   "prompt": "Two players must stop a game early, and one has a much better chance of winning it. What principle did the early thinkers use to split the stakes fairly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each share should be proportional to that player's chance of winning"
+    },
+    {
+     "id": "b",
+     "label": "Split the stakes equally since the game was left unfinished"
+    },
+    {
+     "id": "c",
+     "label": "Give everything to whoever is ahead right now"
+    },
+    {
+     "id": "d",
+     "label": "Return each player's own stake and divide nothing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Pascal and Fermat held that the value of a future gain should be directly proportional to the chance of getting it.",
+   "cites": [
+    6,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value:q5"
+  },
+  {
+   "prompt": "Pascal and Fermat solved the same puzzle by different calculations yet got identical results. What best explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They agreed beforehand which answer to reach"
+    },
+    {
+     "id": "b",
+     "label": "They tested it by playing the game many times"
+    },
+    {
+     "id": "c",
+     "label": "Both relied on one idea: gain scales with chance"
+    },
+    {
+     "id": "d",
+     "label": "They averaged all the outcomes with equal weight"
+    }
+   ],
+   "answer": "c",
+   "explain": "Their computations differed, but both rested on the same principle that a future gain's value is proportional to its chance.",
+   "cites": [
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Expected value",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Expected value",
+  "url": "https://en.wikipedia.org/wiki/Expected_value",
+  "revision": 1377260319
+ },
+ "pack": {
+  "id": "auto-random-variables-expected-value",
+  "title": "What a gamble is really worth",
+  "question": "How can one number sum up a gamble whose result is uncertain?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Random variables",
+   "Expected value"
+  ],
+  "hue": 39,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Expected value",
+    "credit": "Ainali · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "What a gamble is really worth",
+    "hook": "Two French mathematicians once settled an unfinished game with a single idea, and it still prices every gamble today."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-random-variables-expected-value:1",
+    "transfer": false,
+    "prompt": "A friend flips a fair coin: heads pays you $10, tails pays nothing. You could play this thousands of times. What does your average winnings per flip head toward?",
+    "explain": "Half the time you win $10 and half the time $0, so the weighted average is $5, which is also the long-run average per play.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "$0, since tails is just as likely",
+        "feedback": "Heads pays out as often as tails, so the average cannot be zero."
+       },
+       {
+        "id": "b",
+        "label": "$5, the prize weighted by its chance"
+       },
+       {
+        "id": "a",
+        "label": "$10, since that is the prize",
+        "feedback": "The prize is only paid on heads, so the average falls below it."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-random-variables-expected-value:2",
+    "transfer": false,
+    "prompt": "Match each name to its place in the story of expected value.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Problem of points"
+     },
+     {
+      "id": "l1",
+      "label": "Pascal and Fermat"
+     },
+     {
+      "id": "l2",
+      "label": "Huygens"
+     },
+     {
+      "id": "l3",
+      "label": "Chebyshev"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Published a probability treatise in 1657"
+     },
+     {
+      "id": "r0",
+      "label": "Dividing stakes fairly when a game ends early"
+     },
+     {
+      "id": "r3",
+      "label": "First to think systematically about expectations of random variables"
+     },
+     {
+      "id": "r1",
+      "label": "Reached the same solution on one shared principle"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each person or puzzle marks a step in how expectation was posed, solved, written down and then studied as a general idea."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-random-variables-expected-value:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A spinner pays $1 in nine spins out of ten and $100 in the tenth."
+     },
+     {
+      "id": "b",
+      "text": "Expected value is a weighted average, with probabilities as the weights."
+     },
+     {
+      "id": "c",
+      "text": "Both prizes are just two numbers, so the expected value is their plain average, $50.50."
+     },
+     {
+      "id": "d",
+      "text": "So over many spins the average payout should settle near $50.50."
+     }
+    ],
+    "answer": "c",
+    "explain": "The expected value weights each value by its probability, so the likelier $1 counts for more than $100 and the result is not the midpoint."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-random-variables-expected-value:4",
+    "transfer": true,
+    "prompt": "Two players stop a game early. Player A is three times as likely to win as player B. How should the stakes be divided?",
+    "explain": "Pascal and Fermat's principle was that the value of a future gain is proportional to the chance of getting it.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "In shares matching their chances, three to one"
+       },
+       {
+        "id": "b",
+        "label": "All to A, since A is favored",
+        "feedback": "B still had a real chance, so B is owed something."
+       },
+       {
+        "id": "a",
+        "label": "Equally, since neither has won",
+        "feedback": "It feels fair, but it ignores that A is likelier to win."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "The expected value weights each possible result by its probability, giving the long-run average.",
+    "connections": [
+     {
+      "title": "Linearity of expectation",
+      "place": "Expected value",
+      "node": "knowledge.mathematics.probability.random-variables.expected-value.linearity-of-expectation"
+     },
+     {
+      "title": "Expectation operator",
+      "place": "Expected value",
+      "node": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator"
+     },
+     {
+      "title": "St. Petersburg paradox",
+      "place": "Expected value",
+      "node": "knowledge.mathematics.probability.random-variables.expected-value.st-petersburg-paradox"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Half the time you win $10 and half the time $0, so the weighted average is $5, which is also the long-run average per play.",
+    "source": "Wikipedia sentences 2, 3, 44"
+   },
+   {
+    "claim": "Each person or puzzle marks a step in how expectation was posed, solved, written down and then studied as a general idea.",
+    "source": "Wikipedia sentences 6, 12, 13, 18, 23"
+   },
+   {
+    "claim": "The expected value weights each value by its probability, so the likelier $1 counts for more than $100 and the result is not the midpoint.",
+    "source": "Wikipedia sentences 2, 3, 45"
+   },
+   {
+    "claim": "Pascal and Fermat's principle was that the value of a future gain is proportional to the chance of getting it.",
+    "source": "Wikipedia sentences 6, 12, 13"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A weighted average",
+    "text": "The expected value of a random variable generalizes the weighted average. It also goes by the names expectation, mean or first moment. When the variable takes only finitely many values, it is exactly that average, with each value weighted by its probability. More generally it is defined as a Lebesgue integral of the variable with respect to the underlying probability measure. It is usually written E(X), E[X] or EX.",
+    "cites": [
+     1,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "The long run",
+    "text": "When it is finite, the expected value can be read as the long-run average you would get from repeating the same random experiment independently. The law of large numbers is what turns that reading into a precise statement.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "heading": "The basic formula",
+    "text": "Suppose X has a finite list of possible outcomes x₁,..., xₖ, with probabilities p₁,..., pₖ. Then E [X] = x₁p₁ + x₂p₂ + ⋯ + xₖpₖ. Because the probabilities must add up to 1, it is natural to read this as a weighted average of the outcomes.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Born from a game",
+    "text": "The idea grew in the mid-17th century out of the problem of points: how to split the stakes fairly when two players must stop a game early. In 1654 the Chevalier de Méré brought the problem to Blaise Pascal, who took it up in letters with Pierre de Fermat. Working independently, they reached identical results by different calculations, resting on one principle. A future gain should be valued in direct proportion to the chance of getting it. They did not publish, and told only a small circle of friends in Paris.",
+    "cites": [
+     6,
+     7,
+     10,
+     11,
+     12,
+     13,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Into print",
+    "text": "Christiaan Huygens published a treatise on probability, \"De ratiociniis in ludo aleæ\", in 1657, soon after visiting Paris. It solved the problem of points on the same principle and added rules for harder cases, such as games with three or more players. The book can be seen as the first successful attempt to lay the foundations of probability theory. Later, in the mid-1800s, Pafnuty Chebyshev was the first person to think in a systematic way about the expectations of random variables.",
+    "cites": [
+     17,
+     18,
+     19,
+     23
+    ]
+   },
+   {
+    "heading": "Many settings, one idea",
+    "text": "The original definition handles finitely many outcomes, such as the flip of a coin. Infinite series stretch it to countably many outcomes, and it is also widely used for variables governed by continuous probability density functions. Measure theory and Lebesgue integration join all these cases as special cases of one general definition. It even extends to random vectors and random matrices, taken one component at a time.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "siegrist-expected-value",
+   "kind": "book",
+   "title": "4: Expected Value - Probability, Mathematical Statistics, and Stochastic Processes (Siegrist)",
+   "by": "Kyle Siegrist",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/04%3A_Expected_Value",
+   "note": "A free textbook chapter devoted to expected value, its definition, properties and related measures.",
+   "license": "CC BY 2.0"
+  },
+  {
+   "id": "grinstead-snell-expected-value",
+   "kind": "book",
+   "title": "6: Expected Value and Variance - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/06%3A_Expected_Value_and_Variance",
+   "note": "An open probability textbook chapter on expected value and variance of random variables.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "openstax-expected-value",
+   "kind": "book",
+   "title": "7.11 Expected Value - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-11-expected-value",
+   "note": "A gentle free textbook section on computing expected value as a long-run average, for non-specialists.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

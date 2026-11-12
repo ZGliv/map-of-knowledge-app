@@ -1,0 +1,346 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon",
+ "name": "Maxwell's demon",
+ "summary": [
+  {
+   "text": "Maxwell's demon is a thought experiment, proposed by James Clerk Maxwell in 1867, that seems to break the second law of thermodynamics.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A tiny gatekeeper guards a door between two gas chambers, letting fast molecules pass one way and slow ones the other, so one side warms and the other cools.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Most scientists argue no device can really do this, and the puzzle stimulated work linking thermodynamics and information theory.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Proposed by",
+   "value": "James Clerk Maxwell, in a letter of 1867",
+   "cites": [
+    2,
+    13
+   ]
+  },
+  {
+   "label": "Maxwell's own term",
+   "value": "A \"finite being\", never a demon",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Named by",
+   "value": "Lord Kelvin, who used \"demon\" in 1874",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Apparent effect",
+   "value": "Lowers entropy with no work applied",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Real experiments",
+   "value": "None shown to violate the second law",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In the thought experiment, why does one chamber warm up while the other cools down?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The demon's body gives off heat"
+    },
+    {
+     "id": "b",
+     "label": "Fast molecules collect on one side and slow ones on the other"
+    },
+    {
+     "id": "c",
+     "label": "More molecules are pushed into one chamber"
+    },
+    {
+     "id": "d",
+     "label": "The door insulates one chamber better"
+    }
+   ],
+   "answer": "b",
+   "explain": "The temperature of a gas depends on the speeds of its molecules, so sorting fast ones to one side heats it and cools the other.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon:q1"
+  },
+  {
+   "prompt": "A demon opens the door only for fast molecules heading from A to B, and never lets any back. What would end up higher on side B?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Temperature and pressure"
+    },
+    {
+     "id": "b",
+     "label": "Only the speed of the door"
+    },
+    {
+     "id": "c",
+     "label": "Nothing; the sides stay equal"
+    },
+    {
+     "id": "d",
+     "label": "Temperature but lower pressure"
+    }
+   ],
+   "answer": "a",
+   "explain": "One-way passage of fast molecules raises both temperature and pressure on side B; passing molecules both ways gives only a temperature difference.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon:q2"
+  },
+  {
+   "prompt": "Why would the demon's trick be such a problem for physics?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It would make entropy fall with no work being done"
+    },
+    {
+     "id": "b",
+     "label": "It would show molecules do not move"
+    },
+    {
+     "id": "c",
+     "label": "It would make gases impossible to cool"
+    },
+    {
+     "id": "d",
+     "label": "It would prove entropy always rises faster"
+    }
+   ],
+   "answer": "a",
+   "explain": "The second law says entropy in an isolated system never decreases, yet the demon seems to lower it without applying any work.",
+   "cites": [
+    8,
+    19,
+    23
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon:q3"
+  },
+  {
+   "prompt": "An engineer hears that one chamber is hot and the other cold, with no energy spent. Why would that interest her?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A heat engine between them could extract useful work"
+    },
+    {
+     "id": "b",
+     "label": "It would let her destroy heat completely"
+    },
+    {
+     "id": "c",
+     "label": "It would cool both chambers to zero"
+    },
+    {
+     "id": "d",
+     "label": "It would make the gas weigh less"
+    }
+   ],
+   "answer": "a",
+   "explain": "A heat engine operating between the two chambers could extract useful work from the temperature difference.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon:q4"
+  },
+  {
+   "prompt": "A lab builds a gadget that sorts molecules a little like the demon. What do researchers say about such experiments?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They prove the second law is false"
+    },
+    {
+     "id": "b",
+     "label": "They match the thought experiment exactly"
+    },
+    {
+     "id": "c",
+     "label": "They differ from it and none violate the second law"
+    },
+    {
+     "id": "d",
+     "label": "They show the gadget needs no energy"
+    }
+   ],
+   "answer": "c",
+   "explain": "Experiments implementing forms of the demon all differ from the thought experiment and none has been shown to violate the second law.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon:q5"
+  },
+  {
+   "prompt": "Two metal blocks at different temperatures touch and are sealed off from everything else. What does the second law predict, the very thing the demon would undo?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The hot one gets hotter and the cold one colder"
+    },
+    {
+     "id": "b",
+     "label": "They settle at about the same temperature"
+    },
+    {
+     "id": "c",
+     "label": "The cold block sends heat into the hot one"
+    },
+    {
+     "id": "d",
+     "label": "Neither changes temperature"
+    }
+   ],
+   "answer": "b",
+   "explain": "By statistical probability the two bodies evolve to equilibrium with approximately the same temperature; the demon would reverse that.",
+   "cites": [
+    18,
+    30
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.maxwell-s-demon:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Maxwell%27s_demon.svg/960px-Maxwell%27s_demon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Maxwell's demon",
+  "credit": "User:Htkym",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Maxwell%27s_demon.svg"
+ },
+ "source": {
+  "title": "Maxwell's demon",
+  "url": "https://en.wikipedia.org/wiki/Maxwell%27s_demon",
+  "revision": 1378609719
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A rule-breaking puzzle",
+    "text": "Maxwell's demon is a thought experiment that seems to break the second law of thermodynamics. The physicist James Clerk Maxwell proposed it in 1867. It has stirred up debate in physics and the philosophy of science that still goes on today. It also spurred work on how thermodynamics relates to information theory.",
+    "cites": [
+     1,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "The setup",
+    "text": "Picture a container of gas split into two chambers with a door between them, both sides at the same temperature. A demon watches the molecules and works the door, letting only fast ones through in one direction and only slow ones through in the other. A gas's temperature depends on how fast its molecules move, so one chamber warms up and the other cools down. That would lower the total entropy, seemingly without any work being done. It would break the second law, which says that in an isolated system entropy never decreases.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     19,
+     25
+    ]
+   },
+   {
+    "heading": "Why it would matter",
+    "text": "A heat engine running between the warm and cool sides could then pull useful work out of the temperature difference. The demon has to pass molecules both ways to create only a difference in temperature. If it let fast molecules through in one direction alone, the side receiving them would end up with higher pressure as well as higher temperature.",
+    "cites": [
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Where the name came from",
+    "text": "Maxwell first described the idea in a letter to Peter Guthrie Tait on 11 December 1867, then wrote to John William Strutt about it in 1871, and then presented it publicly in his 1872 book Theory of Heat. He called the door-keeper a finite being and, as a deeply religious man, never used the word demon. Lord Kelvin was the first to use it, in the journal Nature in 1874. He meant a daemon from Greek myth, a supernatural being working in the background, not an evil one.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The demon pays a price",
+    "text": "Several physicists have calculated that the second law holds once the whole system, demon included, is counted. Any demon must create more entropy sorting the molecules than it could ever remove. In 1929 Leó Szilárd pointed out that a real demon would need some way to measure molecular speed, and that getting that information would cost energy. Because the demon and the gas interact, their entropy has to be counted together, and the demon's rise in entropy is larger than the gas's drop.",
+    "cites": [
+     34,
+     35,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Memory and erasure",
+    "text": "Rolf Landauer found an exception to this reasoning in 1961. He saw that some measurements need not raise entropy if they are thermodynamically reversible, which seemed to let a demon sort molecules without adding entropy. But because entropy and information are connected, the demon's record of each measurement could then never be erased. To decide on each molecule, the demon must learn about its state and then either throw that information away or keep it.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Where things stand",
+    "text": "Most scientists hold that, on theoretical grounds, no device can break the second law in this way. Researchers have built forms of the demon in experiments. Each one differs from the thought experiment to some degree, and none has been shown to break the second law.",
+    "cites": [
+     11,
+     12
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "pbs-maxwell-demon",
+   "kind": "video",
+   "title": "Reversing Entropy with Maxwell's Demon",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=KR23aMjIHIY",
+   "minutes": 14,
+   "note": "A video on Maxwell's demon, how it seems to beat the second law, and why it fails."
+  },
+  {
+   "id": "sep-info-entropy",
+   "kind": "article",
+   "title": "Information Processing and Thermodynamic Entropy",
+   "by": "Owen Maroney, Stanford Encyclopedia of Philosophy",
+   "url": "https://plato.stanford.edu/entries/information-entropy/",
+   "note": "An encyclopedia article on Maxwell's demon, Szilard's engine and Landauer's principle linking information and entropy."
+  }
+ ]
+}

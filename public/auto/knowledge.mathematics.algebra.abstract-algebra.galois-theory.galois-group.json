@@ -1,0 +1,311 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group",
+ "name": "Galois group",
+ "summary": [
+  {
+   "text": "The Galois group of a certain type of field extension is a symmetry group describing how the extension builds on its base field.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Each element of the group is a transformation of the larger field that leaves every element of the base field fixed.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Through the fundamental theorem of Galois theory, group tools can attack field problems, such as describing the solutions to quintic polynomials.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Évariste Galois, who first discovered them",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "What its elements do",
+   "value": "Transformations that leave the base field fixed",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Finite abelian groups",
+   "value": "Each one is a Galois group of some cyclotomic subfield",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Complex over reals",
+   "value": "A cyclic group of order 2, from complex conjugation",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "What kind of object is the Galois group of a field extension?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A list of the coefficients of the polynomial involved"
+    },
+    {
+     "id": "b",
+     "label": "A count of how many roots the polynomial has"
+    },
+    {
+     "id": "c",
+     "label": "A symmetry group showing how the extension sits over its base field"
+    },
+    {
+     "id": "d",
+     "label": "A table of the prime numbers inside the field"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is a symmetry group that characterizes how the extension extends the base field.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group:q1"
+  },
+  {
+   "prompt": "A transformation of the bigger field is a candidate for the Galois group only if it does what to the smaller base field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Leaves each element of the base field unchanged"
+    },
+    {
+     "id": "b",
+     "label": "Swaps every element of the base field with another"
+    },
+    {
+     "id": "c",
+     "label": "Doubles every element of the base field"
+    },
+    {
+     "id": "d",
+     "label": "Sends the base field onto the larger field"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every element of the Galois group leaves each element of the base field fixed.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group:q2"
+  },
+  {
+   "prompt": "The complex numbers a + b i are extended from the reals. The only symmetries of C that keep every real number fixed are doing nothing and swapping a + b i for a − b i. What size is this symmetry group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Trivial, with a single element"
+    },
+    {
+     "id": "b",
+     "label": "Infinite, with one for each real number"
+    },
+    {
+     "id": "c",
+     "label": "Four elements, one per sign choice"
+    },
+    {
+     "id": "d",
+     "label": "Two elements, identity and conjugation"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gal(C / R) is the cyclic group of order 2: the identity and complex conjugation, which fixes every real number.",
+   "cites": [
+    12,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group:q3"
+  },
+  {
+   "prompt": "Why do mathematicians bother connecting fields to groups at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every field finite and easy to list"
+    },
+    {
+     "id": "b",
+     "label": "It lets group tools be used on problems about fields"
+    },
+    {
+     "id": "c",
+     "label": "It replaces polynomials with simple numbers"
+    },
+    {
+     "id": "d",
+     "label": "It avoids ever needing the base field"
+    }
+   ],
+   "answer": "b",
+   "explain": "The connection lets group-theoretic tools be used on field problems, such as describing the solutions of quintic polynomials.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group:q4"
+  },
+  {
+   "prompt": "Someone claims only a few special finite abelian groups can ever show up as Galois groups. What does the Kronecker–Weber theorem say about subfields of cyclotomic extensions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only cyclic ones of prime order appear"
+    },
+    {
+     "id": "b",
+     "label": "Only the trivial group appears"
+    },
+    {
+     "id": "c",
+     "label": "Any finite abelian group can be found"
+    },
+    {
+     "id": "d",
+     "label": "Only groups with exactly two elements appear"
+    }
+   ],
+   "answer": "c",
+   "explain": "By the Kronecker–Weber theorem, any finite abelian group arises as the Galois group of some subfield of a cyclotomic field extension.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group:q5"
+  },
+  {
+   "prompt": "Whose name is attached to this group, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Abel, who proved the quintic cannot be solved"
+    },
+    {
+     "id": "b",
+     "label": "Galois, who first discovered these groups"
+    },
+    {
+     "id": "c",
+     "label": "Liouville, who first published the theory"
+    },
+    {
+     "id": "d",
+     "label": "Kronecker, who linked it to cyclotomic fields"
+    }
+   ],
+   "answer": "b",
+   "explain": "The study is named in honor of Évariste Galois, who first discovered Galois groups.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.galois-group:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Lattice_diagram_of_Q_adjoin_the_positive_square_roots_of_2_and_3%2C_its_subfields%2C_and_Galois_groups.svg/960px-Lattice_diagram_of_Q_adjoin_the_positive_square_roots_of_2_and_3%2C_its_subfields%2C_and_Galois_groups.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Galois group",
+  "credit": "Self",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lattice_diagram_of_Q_adjoin_the_positive_square_roots_of_2_and_3,_its_subfields,_and_Galois_groups.svg"
+ },
+ "source": {
+  "title": "Galois group",
+  "url": "https://en.wikipedia.org/wiki/Galois_group",
+  "revision": 1371787106
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a Galois group is",
+    "text": "In Galois theory, the Galois group of certain kinds of field extension is a symmetry group that captures how the larger field extends the base field. Each member of the group is a transformation of the larger field that leaves every element of the base field in place. The fundamental theorem of Galois theory ties these groups to fields, so group tools can be used on field problems, such as describing the solutions of quintic polynomials.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why extensions need one",
+    "text": "A field is a set, such as Q or R, where addition, subtraction, multiplication and division work with standard properties. Fields can grow into larger ones with the same operations: Q into R, and R into the complex numbers C. An extension may arise because an equation has no answer in the smaller field but does in the larger: x² = 2 has no solution in Q, yet two in R. The Galois group describes the extra structure that the base field cannot see.",
+    "cites": [
+     5,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "heading": "Complex conjugation",
+    "text": "The group works by looking at transformations that change the extension but leave the base field untouched. Complex conjugation, which sends a + bi to a − bi, is one of them: it fixes every real number but generally moves complex numbers. Gal(C / R), the Galois group of C over R, is cyclic of order 2 and has two elements: the identity and complex conjugation.",
+    "cites": [
+     10,
+     11,
+     12,
+     33
+    ]
+   },
+   {
+    "heading": "The formal definition",
+    "text": "Suppose E is an extension of a field F, written E / F. An automorphism of E / F is an isomorphism α from E to itself with α(x) = x for each x in F. All such maps form a group when combined by composing functions, written Aut(E / F). When E / F is a Galois extension, this group is called the Galois group and written Gal(E / F).",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Small examples",
+    "text": "Gal(Q(√2) / Q) has two elements: the identity and a map σ that swaps √2 and −√2. The extension Q(√2, √3) / Q has degree 4; its automorphisms σ, which sends √2 to −√2, and τ, which sends √3 to −√3, generate the whole Galois group, the Klein four-group. Some Galois groups are trivial: Aut(R / Q) has only the identity, since any automorphism of R must keep the ordering of the real numbers.",
+    "cites": [
+     30,
+     31,
+     34,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Bigger examples",
+    "text": "For finite fields, if F has q elements and E has qⁿ, then Gal(E / F) is a cyclic group of order n, generated by the Frobenius homomorphism. With ω a primitive cube root of unity, the field L = Q(³√2, ω) is the splitting field of x³ − 2 over Q, and its Galois group is isomorphic to S₃, which has order 6. By the Kronecker–Weber theorem, every finite abelian group occurs as the Galois group for some subfield of a cyclotomic field extension.",
+    "cites": [
+     36,
+     38,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-galois",
+   "kind": "book",
+   "title": "23: Galois Theory - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/23%3A_Galois_Theory",
+   "note": "A free textbook chapter on field automorphisms, the Galois group and the fundamental theorem of Galois theory.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

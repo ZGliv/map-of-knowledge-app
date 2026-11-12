@@ -1,0 +1,533 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.linear-equations",
+ "name": "Linear equations",
+ "summary": [
+  {
+   "text": "A linear equation can be put in the form a₁x₁ + … + aₙₓₙ + b = 0, with variables x₁, …, xₙ, coefficients a₁, …, aₙ and constant term b.",
+   "cites": [
+    1,
+    42
+   ]
+  },
+  {
+   "text": "With two variables its solutions form a straight line in the plane, which is where the word linear comes from.",
+   "cites": [
+    9,
+    10,
+    26
+   ]
+  },
+  {
+   "text": "With one variable it has exactly one solution, provided that a₁ ≠ 0.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "One variable",
+   "value": "Exactly one solution, provided that a₁ ≠ 0",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Two variables",
+   "value": "Solutions form a line in the plane",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Many variables",
+   "value": "Solutions form a hyperplane of dimension n − 1",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Why it matters",
+   "value": "Non-linear systems are often well approximated by linear equations",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Zero y-coefficient",
+   "value": "The line is vertical, not a function of x",
+   "cites": [
+    16,
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You plot every pair (x, y) that satisfies a linear equation in two variables. What shape do the points make?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A parabola-shaped curve"
+    },
+    {
+     "id": "b",
+     "label": "A single point"
+    },
+    {
+     "id": "c",
+     "label": "A straight line"
+    },
+    {
+     "id": "d",
+     "label": "A filled-in region"
+    }
+   ],
+   "answer": "c",
+   "explain": "The solutions of a linear equation in two variables form a line.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations:q1"
+  },
+  {
+   "prompt": "Why does the name linear equation fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has only one variable"
+    },
+    {
+     "id": "b",
+     "label": "Its solutions in two variables form a line"
+    },
+    {
+     "id": "c",
+     "label": "It always passes through the origin"
+    },
+    {
+     "id": "d",
+     "label": "It can be solved in a single step"
+    }
+   ],
+   "answer": "b",
+   "explain": "The name comes from the correspondence between lines and equations whose solutions form a line.",
+   "cites": [
+    10,
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations:q2"
+  },
+  {
+   "prompt": "An equation has one unknown with a coefficient that is not zero, such as twice the unknown equals 8. How many solutions does it have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly two"
+    },
+    {
+     "id": "b",
+     "label": "None"
+    },
+    {
+     "id": "c",
+     "label": "Infinitely many"
+    },
+    {
+     "id": "d",
+     "label": "Exactly one"
+    }
+   ],
+   "answer": "d",
+   "explain": "With just one variable there is exactly one solution, provided that a₁ ≠ 0.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations:q3"
+  },
+  {
+   "prompt": "In a two-variable linear equation ax + by + c = 0, what does the line look like when b is 0?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Vertical, parallel to the y-axis"
+    },
+    {
+     "id": "b",
+     "label": "Horizontal, parallel to the x-axis"
+    },
+    {
+     "id": "c",
+     "label": "A single point"
+    },
+    {
+     "id": "d",
+     "label": "Always through the origin"
+    }
+   ],
+   "answer": "a",
+   "explain": "If b = 0 the line is vertical, and it is not the graph of a function of x; a horizontal line needs a = 0.",
+   "cites": [
+    16,
+    28,
+    29
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations:q4"
+  },
+  {
+   "prompt": "An engineer must model a curvy, non-linear system. Why might linear equations still be useful?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Curvy systems are always exactly linear"
+    },
+    {
+     "id": "b",
+     "label": "Non-linear systems are often well approximated by linear ones"
+    },
+    {
+     "id": "c",
+     "label": "Linear equations never need solving"
+    },
+    {
+     "id": "d",
+     "label": "Curves cannot be described mathematically"
+    }
+   ],
+   "answer": "b",
+   "explain": "Linear equations show up often in physics and engineering partly because non-linear systems are often well approximated by them.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations:q5"
+  },
+  {
+   "prompt": "A linear equation uses 4 variables, so its solutions live in 4-dimensional space. How many dimensions does its solution set have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "4"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "1"
+    }
+   ],
+   "answer": "c",
+   "explain": "The solutions of a linear equation in n variables form a hyperplane of dimension n − 1.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Linear_Function_Graph.svg/960px-Linear_Function_Graph.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Linear equations",
+  "credit": "Jim.belk",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear_Function_Graph.svg"
+ },
+ "source": {
+  "title": "Linear equation",
+  "url": "https://en.wikipedia.org/wiki/Linear_equation",
+  "revision": 1380831370
+ },
+ "pack": {
+  "id": "auto-equations-linear-equations",
+  "title": "Why linear means a line",
+  "question": "Why is a linear equation called linear?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Equations",
+   "Linear equations"
+  ],
+  "hue": 54,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Linear_Function_Graph.svg/960px-Linear_Function_Graph.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Linear equations",
+    "credit": "Jim.belk · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_Function_Graph.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why linear means a line",
+    "hook": "Plot every answer to certain equations and the dots refuse to scatter."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-linear-equations:1",
+    "transfer": false,
+    "prompt": "You list many pairs (x, y) that satisfy one linear equation in two variables and plot them as points. What do you see?",
+    "explain": "The solutions of a linear equation in two variables form a line, which is the origin of the word linear.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "They form a bowl-shaped curve",
+        "feedback": "Curves come from equations with squared terms, not linear ones."
+       },
+       {
+        "id": "d",
+        "label": "Only a single point appears",
+        "feedback": "With two variables there are infinitely many solutions, not one."
+       },
+       {
+        "id": "a",
+        "label": "They all fall on one straight line"
+       },
+       {
+        "id": "b",
+        "label": "They scatter across the whole plane",
+        "feedback": "Many pairs fit, but only those satisfying the equation count, and they line up."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-equations-linear-equations:2",
+    "transfer": false,
+    "prompt": "Match the number of variables to the solutions.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "One variable"
+     },
+     {
+      "id": "l1",
+      "label": "Two variables"
+     },
+     {
+      "id": "l2",
+      "label": "n variables"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Exactly one solution"
+     },
+     {
+      "id": "r1",
+      "label": "A line in the plane"
+     },
+     {
+      "id": "r2",
+      "label": "A hyperplane of dimension n − 1"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "One variable gives a single solution; more variables give lines and then hyperplanes."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-linear-equations:3",
+    "transfer": true,
+    "prompt": "An engineer faces a curvy, non-linear system. Why might linear equations still help?",
+    "explain": "Linear equations are common in physics and engineering partly because non-linear systems are often well approximated by them.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Linear equations never need solving",
+        "feedback": "Solving them is still the point."
+       },
+       {
+        "id": "c",
+        "label": "Non-linear systems are often well approximated by linear ones"
+       },
+       {
+        "id": "d",
+        "label": "Curves cannot be described in math",
+        "feedback": "They can; they are just harder than lines."
+       },
+       {
+        "id": "a",
+        "label": "Curvy systems are always exactly linear",
+        "feedback": "They are not; the claim is only about approximation."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-equations-linear-equations:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Take a two-variable linear equation ax + by + c = 0 where b = 0."
+     },
+     {
+      "id": "b",
+      "text": "Then x is pinned to one fixed value."
+     },
+     {
+      "id": "c",
+      "text": "So the solutions form a vertical line."
+     },
+     {
+      "id": "d",
+      "text": "A vertical line is the graph of a function of x, giving one height for each x."
+     }
+    ],
+    "answer": "d",
+    "explain": "When b = 0 the line is vertical, which is not the graph of a function of x."
+   },
+   {
+    "kind": "payoff",
+    "idea": "In two variables the solutions of a linear equation lie on a straight line, and every straight line comes from one.",
+    "connections": [
+     {
+      "title": "Variable (mathematics)",
+      "place": "Linear equations",
+      "node": "knowledge.mathematics.algebra.equations.linear-equations.variable-mathematics"
+     },
+     {
+      "title": "Equation solving",
+      "place": "Linear equations",
+      "node": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving"
+     },
+     {
+      "title": "Linear function",
+      "place": "Linear equations",
+      "node": "knowledge.mathematics.algebra.equations.linear-equations.linear-function"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The solutions of a linear equation in two variables form a line, which is the origin of the word linear.",
+    "source": "Wikipedia sentences 9, 10, 17"
+   },
+   {
+    "claim": "One variable gives a single solution; more variables give lines and then hyperplanes.",
+    "source": "Wikipedia sentences 6, 9, 11"
+   },
+   {
+    "claim": "Linear equations are common in physics and engineering partly because non-linear systems are often well approximated by them.",
+    "source": "Wikipedia sentences 12"
+   },
+   {
+    "claim": "When b = 0 the line is vertical, which is not the graph of a function of x.",
+    "source": "Wikipedia sentences 16, 28"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The basic form",
+    "text": "A linear equation is one that can be written in the form a₁x₁ + … + aₙₓₙ + b = 0. The x's are the variables, also called unknowns, and the a's and b are the coefficients, which are often real numbers. The coefficients can be any expressions at all, as long as none of the variables appears in them. For the equation to mean something, a₁, …, aₙ cannot all be zero. The lone coefficient b is known as the constant term.",
+    "cites": [
+     1,
+     2,
+     3,
+     42
+    ]
+   },
+   {
+    "heading": "What counts as a solution",
+    "text": "A solution is a choice of values that makes the equation true when you put them in place of the unknowns. With just one variable there is exactly one solution, as long as a₁ ≠ 0. People often mean this one-variable case when they say \"linear equation\", and then the variable is fittingly called the unknown.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Why it is called linear",
+    "text": "With two variables x and y, the equation takes the form ax + by + c = 0, with at least one of a and b nonzero. Each solution is a pair of numbers you can read as the coordinates of a point in the plane. If a and b are real numbers there are infinitely many solutions, and together they make a line. Every line, in turn, is the full set of solutions of such an equation, and this match between lines and equations is where the name linear comes from.",
+    "cites": [
+     8,
+     9,
+     10,
+     16,
+     17,
+     26
+    ]
+   },
+   {
+    "heading": "Slopes and special lines",
+    "text": "When b ≠ 0, you get the graph of a function of x: its line has y-intercept − c/b and slope − a/b. If b = 0, the line is vertical, with equation x = −c/a, and it is not the graph of a function of x. In the same way, if a = 0 the line is horizontal, with equation y = −c/b.",
+    "cites": [
+     18,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Linear or affine",
+    "text": "The word linear can mislead. In calculus, a function whose graph is a line is usually called linear. In linear algebra, though, a linear function is one that sends a sum to the sum of the images of its parts, and the function above passes that test only when c = 0, so its line goes through the origin. To avoid the clash, functions whose graph is any line are often called affine functions, and the ones with c = 0 are called linear maps.",
+    "cites": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "More variables, more uses",
+    "text": "With n variables, the solutions form a hyperplane, which is a subspace of dimension n − 1 inside n-dimensional Euclidean space. Linear equations appear throughout mathematics and in its uses in physics and engineering. Part of the reason is that non-linear systems can often be approximated well by linear equations.",
+    "cites": [
+     11,
+     12
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-linear-equations",
+   "kind": "book",
+   "title": "2.3: Linear Equations in One Variable",
+   "by": "OpenStax, College Algebra (on LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Algebra/College_Algebra_1e_(OpenStax)/02%3A_Equations_and_Inequalities/2.03%3A_Linear_Equations_in_One_Variable",
+   "note": "A free textbook section on solving linear equations, finding slopes and writing equations of lines.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "mathworld-linear-equation",
+   "kind": "article",
+   "title": "Linear Equation",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/LinearEquation.html",
+   "note": "A short reference entry defining a linear equation and its coefficients."
+  }
+ ]
+}

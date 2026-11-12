@@ -1,0 +1,103 @@
+{
+ "title": "Matter near absolute zero",
+ "question": "What happens to a gas of bosons close to absolute zero?",
+ "hook": "Cool the right atoms enough and a large share of them pile into one quantum state.",
+ "idea": "Cooled very close to absolute zero, a dilute gas of bosons can fall into the lowest quantum state together, forming a Bose–Einstein condensate.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A dilute cloud of bosonic atoms is cooled to very close to absolute zero. Where do many of them end up?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Together in the lowest quantum state"
+    },
+    {
+     "id": "b",
+     "label": "Spread evenly across the higher energy levels",
+     "feedback": "Cooling pushes bosons downward: a large fraction occupy the lowest state."
+    },
+    {
+     "id": "c",
+     "label": "Each in its own separate state",
+     "feedback": "Bosons are allowed to share a state, so they are not forced apart like fermions."
+    }
+   ],
+   "answer": "a",
+   "explain": "Einstein proposed that cooling bosonic atoms to a very low temperature would make them condense into the lowest accessible quantum state.",
+   "cites": [
+    1,
+    2,
+    14,
+    15
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these events in order.",
+   "items": [
+    "Einstein predicts the condensate (1924–1925)",
+    "London proposes it as a mechanism for superfluidity (1938)",
+    "Cornell and Wieman make the first gaseous condensate (1995)",
+    "Atomic hydrogen is condensed (1998)"
+   ],
+   "ends": [
+    "Earliest",
+    "Latest"
+   ],
+   "explain": "The prediction came first, then London's proposal, then the 1995 rubidium condensate, and last the 1998 hydrogen one.",
+   "cites": [
+    5,
+    17,
+    20,
+    21
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    [
+     "Eric Cornell and Carl Wieman",
+     "Made a condensate from rubidium atoms"
+    ],
+    [
+     "Wolfgang Ketterle",
+     "Made a condensate from sodium atoms"
+    ],
+    [
+     "Satyendra Nath Bose",
+     "Wrote the quantum statistics paper Einstein built on"
+    ],
+    [
+     "Fritz London",
+     "Proposed it as a mechanism for superfluidity"
+    ]
+   ],
+   "explain": "Bose's paper led to Einstein's prediction, London linked it to superfluidity, and Cornell, Wieman and Ketterle made the first gaseous condensates.",
+   "cites": [
+    5,
+    6,
+    7,
+    17
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Bosons are allowed to share a quantum state.",
+    "Cooling bosons close to absolute zero lets a large fraction occupy the lowest state.",
+    "Helium-3 atoms are bosons, so helium-3 must condense the same way.",
+    "So helium-3 should become superfluid at the same temperature as helium-4."
+   ],
+   "wrong": 2,
+   "explain": "A helium-3 atom is a fermion, which forms bosonic pairs only at a much lower temperature.",
+   "cites": [
+    1,
+    14,
+    40
+   ]
+  }
+ ]
+}

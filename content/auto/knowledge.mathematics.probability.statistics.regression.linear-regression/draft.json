@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "In statistics, linear regression is a model that estimates the relationship between a response and one or more explanatory variables related through a linear combination.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its unknown model parameters are estimated from the data, and it focuses on the conditional distribution of the response given the predictors.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It is also a supervised machine learning algorithm, and it was the first type of regression analysis to be studied rigorously.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simple form",
+   "value": "One explanatory variable is simple linear regression",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Why widely used",
+   "value": "Easier to fit than models non-linear in their parameters",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Prediction",
+   "value": "A fitted model can predict the response for new inputs",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Relaxing assumptions",
+   "value": "Extensions generally need more data or modelling assumptions",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "Machine learning",
+   "value": "A supervised algorithm learning from labelled datasets",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An analyst models sales using only the number of store visitors. A colleague models sales using visitors, price and weather. How should the two models be described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are simple, since sales is the one response"
+    },
+    {
+     "id": "b",
+     "label": "The first is simple and the second is multiple"
+    },
+    {
+     "id": "c",
+     "label": "The first is multiple and the second is simple"
+    },
+    {
+     "id": "d",
+     "label": "Both are multiple, since both include visitors"
+    }
+   ],
+   "answer": "b",
+   "explain": "Exactly one explanatory variable makes a simple linear regression; two or more makes a multiple linear regression.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "A regression of sales on advertising spend is mostly concerned with which question?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How sales are distributed for given advertising amounts"
+    },
+    {
+     "id": "b",
+     "label": "How sales and advertising spend are jointly distributed"
+    },
+    {
+     "id": "c",
+     "label": "Which of the two variables came first in time"
+    },
+    {
+     "id": "d",
+     "label": "How many observations the data set contains"
+    }
+   ],
+   "answer": "a",
+   "explain": "Regression focuses on the conditional distribution of the response given the predictor values, rather than on the joint distribution of all the variables.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Why did linear regression become the first regression type to be studied rigorously and used widely in practice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Non-linear models were proven impossible to fit at all"
+    },
+    {
+     "id": "b",
+     "label": "It needs no assumptions whatsoever about the data"
+    },
+    {
+     "id": "c",
+     "label": "Linear-in-parameters models are easier to fit and analyse"
+    },
+    {
+     "id": "d",
+     "label": "It always produces a perfect fit to the data"
+    }
+   ],
+   "answer": "c",
+   "explain": "Models that depend linearly on their unknown parameters are easier to fit than non-linear ones, and the statistical properties of their estimators are easier to determine.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "An analyst wants to loosen some of the standard assumptions of linear regression. What is the usual price?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The model can no longer make predictions"
+    },
+    {
+     "id": "b",
+     "label": "The model must be non-linear"
+    },
+    {
+     "id": "c",
+     "label": "The explanatory variables must be removed"
+    },
+    {
+     "id": "d",
+     "label": "More data or modelling assumptions to stay equally precise"
+    }
+   ],
+   "answer": "d",
+   "explain": "Extensions exist that relax or remove these assumptions, but they generally require more data or modelling assumptions to produce an equally precise model.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "A dataset has many very large outliers, and the model is fitted by minimizing mean squared error. What can go wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The fit may favour the outliers over the true data"
+    },
+    {
+     "id": "b",
+     "label": "The outliers are always ignored"
+    },
+    {
+     "id": "c",
+     "label": "The coefficients all become zero"
+    },
+    {
+     "id": "d",
+     "label": "The model turns into a non-linear one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mean squared error gives higher importance to large errors, so the model can fit the outliers more than the true data. A cost robust to outliers is better then.",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "A model predicts house price from area and number of rooms. What does the area coefficient mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The total price of a house of any size"
+    },
+    {
+     "id": "b",
+     "label": "The expected price change per extra unit of area, rooms held fixed"
+    },
+    {
+     "id": "c",
+     "label": "The correlation between area and rooms"
+    },
+    {
+     "id": "d",
+     "label": "The price change when area and rooms both rise"
+    }
+   ],
+   "answer": "b",
+   "explain": "A coefficient is the expected change in the response for a one-unit change in that predictor when the other covariates are held fixed.",
+   "cites": [
+    22,
+    23
+   ]
+  }
+ ]
+}

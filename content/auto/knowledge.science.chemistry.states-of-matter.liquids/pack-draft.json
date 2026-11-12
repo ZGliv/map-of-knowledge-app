@@ -1,0 +1,97 @@
+{
+ "title": "Why Liquids Are Rare",
+ "question": "What makes a liquid behave the way it does, and why is it so hard to find?",
+ "hook": "Water covers our planet, yet liquids are the rarest state of matter in the known universe.",
+ "idea": "Particles held by bonds of middling strength give liquids a fixed volume, a flexible shape and almost no squeeze.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A valve in a water pipe is slammed shut. What happens inside the pipe?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The water squeezes into a smaller space and absorbs the stop quietly",
+     "feedback": "Tempting, but liquids barely compress, so the water has nowhere to go."
+    },
+    {
+     "id": "b",
+     "label": "A big pressure spike forms at the valve and rushes backward through the system",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "The water simply stops moving, with no effect on the pipe",
+     "feedback": "Tempting, but the stopped flow has to go somewhere, and the pressure change travels through the liquid."
+    }
+   ],
+   "answer": "b",
+   "explain": "Liquids are nearly incompressible, so a sudden stop makes a huge pressure spike at the valve that travels backward at just under the speed of sound, banging the pipes.",
+   "cites": [
+    3,
+    39
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the steps of cavitation in order",
+   "items": [
+    "Liquid in a low-pressure area vaporizes into bubbles",
+    "The bubbles enter high-pressure areas and collapse",
+    "Liquid rushes into the empty cavities with great local force",
+    "Nearby solid surfaces erode"
+   ],
+   "ends": [
+    "First",
+    "Last"
+   ],
+   "explain": "Bubbles form in low pressure and collapse in high pressure, and the liquid rushing in erodes whatever solid is next to it.",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each everyday mixture to the kind of liquid mixture it is",
+   "pairs": [
+    [
+     "Vinaigrette",
+     "Emulsion"
+    ],
+    [
+     "Blood",
+     "Suspension"
+    ],
+    [
+     "Paint",
+     "Colloid"
+    ],
+    [
+     "Household bleach",
+     "Aqueous solution"
+    ]
+   ],
+   "explain": "Everyday liquid mixtures come in several kinds, from solutions to emulsions, suspensions and colloids.",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Liquids are nearly incompressible.",
+    "So pressure at one point is passed on to every other part of the liquid.",
+    "So very little energy is lost to squeezing the liquid.",
+    "So a liquid can never be pulled apart, even in violent turbulence."
+   ],
+   "wrong": 3,
+   "explain": "Because liquids have little elasticity, they can be pulled apart where there is high turbulence or a sharp change in direction.",
+   "cites": [
+    3,
+    37,
+    41
+   ]
+  }
+ ]
+}

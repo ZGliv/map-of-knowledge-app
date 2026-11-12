@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "Inclusion–exclusion is a way to count the elements in a union of finite sets so that no element is counted twice.",
+   "cites": [
+    1,
+    2,
+    14
+   ]
+  },
+  {
+   "text": "You add the sizes of the individual sets, subtract the elements that appear in at least two, add back those in at least three, and keep alternating.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "text": "Because finite probabilities are counts relative to the size of the probability space, the same formulas work with probabilities in place of counts.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Credited to",
+   "value": "Abraham de Moivre in 1718, first appearing in da Silva's 1854 paper",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "The formula of Da Silva or Sylvester, and the sieve formula",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "label": "Why the name",
+   "value": "Over-generous inclusion followed by compensating exclusion",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Shuffled deck result",
+   "value": "Getting every card wrong has chance about 37%",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Works with probabilities",
+   "value": "Finite probabilities can replace set sizes in the formulas",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A school has 10 players on the soccer team and 7 in the chess club, and 4 students do both. How many different students are in at least one of the two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "17, by adding the two group sizes"
+    },
+    {
+     "id": "b",
+     "label": "6, by subtracting the overlap from the smaller group"
+    },
+    {
+     "id": "c",
+     "label": "13, by adding then removing the double count"
+    },
+    {
+     "id": "d",
+     "label": "3, by subtracting the two group sizes"
+    }
+   ],
+   "answer": "c",
+   "explain": "Adding the sizes counts the 4 students in both groups twice, so the size of the overlap is subtracted once: 10 + 7 - 4.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "Two book clubs each report their member count. When does adding those two counts give a total that is too large?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When some people belong to both clubs"
+    },
+    {
+     "id": "b",
+     "label": "When the two clubs have different sizes"
+    },
+    {
+     "id": "c",
+     "label": "When nobody belongs to both clubs"
+    },
+    {
+     "id": "d",
+     "label": "When one club has just a few members"
+    }
+   ],
+   "answer": "a",
+   "explain": "People in both clubs are counted twice in the sum, so the count is corrected by subtracting the size of the overlap.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "With three clubs, you add the three club sizes, then subtract every two-club overlap. A student who is in all three clubs is now handled how?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Counted exactly right, so nothing more is needed"
+    },
+    {
+     "id": "b",
+     "label": "Not yet counted enough, so the count must go up further"
+    },
+    {
+     "id": "c",
+     "label": "Counted too many times, so they must be removed again"
+    },
+    {
+     "id": "d",
+     "label": "Taken out too often, so they must be added back in"
+    }
+   ],
+   "answer": "d",
+   "explain": "The three-way overlap has been subtracted too often, so it has to be added back to get the correct total.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "Someone guesses the full order of a shuffled deck of cards. About how likely is it that every single guess is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 63%"
+    },
+    {
+     "id": "b",
+     "label": "About 37%"
+    },
+    {
+     "id": "c",
+     "label": "About 50%"
+    },
+    {
+     "id": "d",
+     "label": "About 1%"
+    }
+   ],
+   "answer": "b",
+   "explain": "Inclusion–exclusion gives a probability of being wrong about every card of approximately e⁻¹, or 37%.",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "On a weekend, rain has a 0.3 chance on Saturday, a 0.4 chance on Sunday, and a 0.1 chance of falling on both days. What is the chance of rain on at least one of the days?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.7, by adding the two chances"
+    },
+    {
+     "id": "b",
+     "label": "0.12, by multiplying the two chances"
+    },
+    {
+     "id": "c",
+     "label": "0.6, by correcting for the double count"
+    },
+    {
+     "id": "d",
+     "label": "0.1, the chance of both days"
+    }
+   ],
+   "answer": "c",
+   "explain": "The formulas stay valid with finite probabilities in place of sizes, so you add 0.3 and 0.4 and subtract the 0.1 that was counted twice.",
+   "cites": [
+    1,
+    2,
+    10
+   ]
+  },
+  {
+   "prompt": "A jar holds 30 coins and you want to know how many have neither a scratch nor a dent. How does inclusion–exclusion help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add the scratched and dented counts to get the answer"
+    },
+    {
+     "id": "b",
+     "label": "It only works if no coin has both a scratch and a dent"
+    },
+    {
+     "id": "c",
+     "label": "Multiply the scratched count by the dented count"
+    },
+    {
+     "id": "d",
+     "label": "Start with all 30, subtract each count, add back coins with both"
+    }
+   ],
+   "answer": "d",
+   "explain": "The complementary form counts elements with none of the properties: take the whole set, subtract the sizes of the property subsets, add back overlaps, and so on.",
+   "cites": [
+    14,
+    16,
+    17
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "title": "The number hiding in a matrix",
+ "question": "What does one number computed from a square matrix tell you?",
+ "hook": "Squash a shape flat and a single number drops to zero.",
+ "idea": "The determinant is the factor by which a transformation scales volume, and a matrix over a field can be inverted exactly when it is nonzero.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two arrows from the origin lie along the same line, so the parallelogram they span is squashed flat. What is the determinant of the 2 by 2 matrix with those arrows as columns?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A positive number, since the arrows have length",
+     "feedback": "Length alone does not give area; the flat parallelogram encloses none."
+    },
+    {
+     "id": "b",
+     "label": "Zero"
+    },
+    {
+     "id": "c",
+     "label": "A negative number, since they point the same way",
+     "feedback": "The sign records which way one arrow turns to reach the other, and here there is no turn."
+    }
+   ],
+   "answer": "b",
+   "explain": "The determinant is the signed area of the parallelogram, and aligned vectors give zero.",
+   "cites": [
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each tool to where determinants help it.",
+   "pairs": [
+    [
+     "Cramer's rule",
+     "Solving systems of linear equations"
+    ],
+    [
+     "Characteristic polynomial",
+     "Finding eigenvalues"
+    ],
+    [
+     "Jacobian determinant",
+     "Changing variables in multiple integrals"
+    ],
+    [
+     "Hessian determinant",
+     "Finding inflexion points of plane curves"
+    ]
+   ],
+   "explain": "Determinants occur throughout mathematics, from equation solving to calculus to algebraic geometry.",
+   "cites": [
+    17,
+    18,
+    20,
+    21
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Square matrix A has determinant 2 and square matrix B has determinant 0.",
+    "The determinant of a product of two square matrices is the product of their determinants.",
+    "So AB has determinant 2 plus 0, which is 2.",
+    "A nonzero determinant means AB is invertible."
+   ],
+   "wrong": 2,
+   "explain": "The rule multiplies determinants; it does not add them. The product is 2 times 0, which is zero, so AB is not invertible.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A 2 by 2 matrix has a positive determinant. You swap its two columns, so the arrows now turn the opposite way. What happens to the determinant?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Same size, opposite sign"
+    },
+    {
+     "id": "b",
+     "label": "Same size, same sign",
+     "feedback": "The sign tells which way one arrow rotates to reach the other, and swapping reverses that turn."
+    },
+    {
+     "id": "c",
+     "label": "Half the size, same sign",
+     "feedback": "The parallelogram is the same, so its area is unchanged."
+    },
+    {
+     "id": "d",
+     "label": "It becomes zero",
+     "feedback": "Zero would need the arrows to lie on one line, which swapping does not cause."
+    }
+   ],
+   "answer": "a",
+   "explain": "The area stays the same, but the direction of rotation reverses, so the sign flips.",
+   "cites": [
+    29,
+    30,
+    31
+   ]
+  }
+ ]
+}

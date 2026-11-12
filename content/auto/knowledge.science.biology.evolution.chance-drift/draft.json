@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Genetic drift is a change in how common an existing allele is in a population, caused by chance.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It can make alleles disappear completely, which reduces genetic variation.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It can also make an initially rare allele much more frequent, sometimes until it displaces all others, which is called fixation.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Neutral theory",
+   "value": "Proposed by Motoo Kimura in 1968",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Fisher's view",
+   "value": "Drift plays at most a minor role in evolution",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Small populations",
+   "value": "Fixation can occur in just a few generations",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Bottleneck",
+   "value": "A population contracting to a few random survivors",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Marble jar model",
+   "value": "Twenty marbles stand in for twenty organisms",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A jar holds 10 red and 10 blue marbles. You fill a new jar by copying 20 marbles picked at random from it. What might the new jar hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 10 and 10, since each colour is equally likely to be copied"
+    },
+    {
+     "id": "b",
+     "label": "More of whichever colour is better adapted to survive"
+    },
+    {
+     "id": "c",
+     "label": "An uneven mix, a chance shift in allele frequency"
+    },
+    {
+     "id": "d",
+     "label": "All one colour right away, as drift always acts that fast"
+    }
+   ],
+   "answer": "c",
+   "explain": "Unless the second jar holds exactly 10 of each colour, a random shift in allele frequencies has occurred.",
+   "cites": [
+    15,
+    18
+   ]
+  },
+  {
+   "prompt": "In one generation of a tiny colony, chance gives none of the carriers of one allele any offspring. What has happened to that allele?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is lost permanently, and the remaining allele is fixed"
+    },
+    {
+     "id": "b",
+     "label": "It is only paused and will return in the next generation"
+    },
+    {
+     "id": "c",
+     "label": "It is weakened but will still be present in every later generation"
+    },
+    {
+     "id": "d",
+     "label": "It is copied into both alleles' offspring to balance things out"
+    }
+   ],
+   "answer": "a",
+   "explain": "If no marbles of one colour are selected, that allele is lost permanently and the remaining allele has become fixed for all future generations.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "A conservation team studies a very small, isolated group of animals. What could chance alone do to its gene variants over a few generations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since only natural selection can alter variant frequencies"
+    },
+    {
+     "id": "b",
+     "label": "Add new variants but never remove any"
+    },
+    {
+     "id": "c",
+     "label": "Keep every variant at exactly the same proportion"
+    },
+    {
+     "id": "d",
+     "label": "Make one variant take over completely, displacing the others"
+    }
+   ],
+   "answer": "d",
+   "explain": "Drift can cause an initially rare allele to displace all others, and in small populations fixation can occur in just a few generations.",
+   "cites": [
+    3,
+    22
+   ]
+  },
+  {
+   "prompt": "A colony split evenly between alleles A and B shrinks until four survivors are left, picked with no regard to their alleles. Why will the survivors probably not be half A and half B?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The better-adapted allele is always the one that gets picked"
+    },
+    {
+     "id": "b",
+     "label": "Chance sampling of few individuals tends to give uneven splits"
+    },
+    {
+     "id": "c",
+     "label": "Each survivor mutates to the other allele along the way"
+    },
+    {
+     "id": "d",
+     "label": "Alleles always split evenly, so survivors are half A and half B"
+    }
+   ],
+   "answer": "b",
+   "explain": "With four random survivors, equal numbers of each allele are less likely than unequal numbers, so the allele frequencies change because of random sampling.",
+   "cites": [
+    25,
+    33,
+    34
+   ]
+  },
+  {
+   "prompt": "In 1968 a geneticist argued that most genetic changes spreading through a population are not spreading because they are useful. What did he say lay behind them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Genetic drift acting on neutral mutations"
+    },
+    {
+     "id": "b",
+     "label": "Natural selection favouring each useful mutation"
+    },
+    {
+     "id": "c",
+     "label": "Gene flow carrying alleles in from other populations"
+    },
+    {
+     "id": "d",
+     "label": "Environmental change that alters the DNA of the survivors"
+    }
+   ],
+   "answer": "a",
+   "explain": "Kimura's neutral theory claims most instances of a genetic change spreading across a population are caused by genetic drift acting on neutral mutations.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "In a model where, at each step, one individual is chosen to reproduce and another chosen to die, how can the number of copies of one allele change in a step?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can only go up, never down"
+    },
+    {
+     "id": "b",
+     "label": "It can jump by any amount in a single step"
+    },
+    {
+     "id": "c",
+     "label": "It can go up by one, go down by one, or stay the same"
+    },
+    {
+     "id": "d",
+     "label": "It always stays the same unless a mutation occurs"
+    }
+   ],
+   "answer": "c",
+   "explain": "In the Moran model one individual reproduces and one dies at each time step, so the copies of an allele can go up by one, go down by one, or stay the same.",
+   "cites": [
+    38,
+    39
+   ]
+  }
+ ]
+}

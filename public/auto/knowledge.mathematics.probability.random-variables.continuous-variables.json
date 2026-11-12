@@ -1,0 +1,547 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.continuous-variables",
+ "name": "Continuous variables",
+ "summary": [
+  {
+   "text": "A continuous variable has possible values between any two of its values, so one that ranges over the real numbers can take any value in that range.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Methods of calculus are often used for problems with continuous variables, such as continuous optimization.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "In statistics, the probability distributions of continuous variables can be expressed with probability density functions.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Defining test",
+   "value": "Possible values exist between any two values",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Time version",
+   "value": "Continuous time uses differential equations",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Distribution tool",
+   "value": "Probability density functions",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Mixed case",
+   "value": "A variable can be continuous in some ranges, discrete in others",
+   "cites": [
+    4,
+    30
+   ]
+  },
+  {
+   "label": "Calculus",
+   "value": "Often used in problems with continuous variables",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An idealised thermometer can show any value from 20 to 30 degrees. Why is this reading a continuous variable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Between any two possible readings there is another possible reading"
+    },
+    {
+     "id": "b",
+     "label": "It is read from an instrument rather than counted"
+    },
+    {
+     "id": "c",
+     "label": "Its readings are written out with decimal points"
+    },
+    {
+     "id": "d",
+     "label": "It changes as time goes by"
+    }
+   ],
+   "answer": "a",
+   "explain": "A continuous variable is one with possible values between any two values, as with a variable over a range of the real numbers.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables:q1"
+  },
+  {
+   "prompt": "A model lets time flow smoothly, with every instant allowed. What kind of equation describes how a variable evolves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A difference equation"
+    },
+    {
+     "id": "b",
+     "label": "A differential equation"
+    },
+    {
+     "id": "c",
+     "label": "An integer programme"
+    },
+    {
+     "id": "d",
+     "label": "A mass function"
+    }
+   ],
+   "answer": "b",
+   "explain": "In continuous-time dynamics, time is treated as continuous and the evolution is described by a differential equation.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables:q2"
+  },
+  {
+   "prompt": "A statistician describes the distribution of a continuous variable. Which tool is the usual one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A probability mass function"
+    },
+    {
+     "id": "b",
+     "label": "A difference equation"
+    },
+    {
+     "id": "c",
+     "label": "A probability density function"
+    },
+    {
+     "id": "d",
+     "label": "A dummy variable"
+    }
+   ],
+   "answer": "c",
+   "explain": "The probability distributions of continuous variables can be expressed with probability density functions. Mass functions are for discrete variables.",
+   "cites": [
+    9,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables:q3"
+  },
+  {
+   "prompt": "Someone says a variable allowed only the values 1, 2 and 3 is continuous because those are real numbers. Where is the mistake?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real numbers can never form a continuous variable"
+    },
+    {
+     "id": "b",
+     "label": "The variable would have to be able to take 0 as well"
+    },
+    {
+     "id": "c",
+     "label": "The variable would have to be written with decimals"
+    },
+    {
+     "id": "d",
+     "label": "There are no possible values between 1 and 2, so it is not continuous"
+    }
+   ],
+   "answer": "d",
+   "explain": "A continuous variable needs possible values between any two values. Here there is a gap around each value, so it is discrete.",
+   "cites": [
+    2,
+    3,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables:q4"
+  },
+  {
+   "prompt": "Which job is calculus better suited to: tuning a dial that turns smoothly, or picking a whole number of trucks to rent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tuning the smoothly turning dial"
+    },
+    {
+     "id": "b",
+     "label": "Picking the whole number of trucks"
+    },
+    {
+     "id": "c",
+     "label": "Both equally well"
+    },
+    {
+     "id": "d",
+     "label": "Neither, calculus only deals with time"
+    }
+   ],
+   "answer": "a",
+   "explain": "Methods of calculus are often used with continuous variables, as in continuous optimization, and do not readily suit discrete variables such as integer programming.",
+   "cites": [
+    8,
+    16,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables:q5"
+  },
+  {
+   "prompt": "A study of psychological disorder risk uses a yes/no symptom measure and also a smooth cognitive score. What is this an example of?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A difference equation"
+    },
+    {
+     "id": "b",
+     "label": "A dummy variable model"
+    },
+    {
+     "id": "c",
+     "label": "A mixed model"
+    },
+    {
+     "id": "d",
+     "label": "An integer programme"
+    }
+   ],
+   "answer": "c",
+   "explain": "A study with one binary measure and one continuous measure is an example of a mixed model.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Continuous_and_discrete_variables.png/960px-Continuous_and_discrete_variables.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Continuous variables",
+  "credit": "Jc2773",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Continuous_and_discrete_variables.png"
+ },
+ "source": {
+  "title": "Continuous or discrete variable",
+  "url": "https://en.wikipedia.org/wiki/Continuous_or_discrete_variable",
+  "revision": 1353974054
+ },
+ "pack": {
+  "id": "auto-random-variables-continuous-variables",
+  "title": "Between any two values",
+  "question": "What makes a variable continuous?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Random variables",
+   "Continuous variables"
+  ],
+  "hue": 38,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Continuous_and_discrete_variables.png/960px-Continuous_and_discrete_variables.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Continuous variables",
+    "credit": "Jc2773 · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Continuous_and_discrete_variables.png",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Between any two values",
+    "hook": "If you can always fit another possible value between two others, the usual counting tools stop working."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-random-variables-continuous-variables:1",
+    "transfer": false,
+    "prompt": "Pick any two values that a continuous variable can take, however close together. What must be true?",
+    "explain": "A continuous variable has possible values between any two values.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "There are possible values between them"
+       },
+       {
+        "id": "b",
+        "label": "There is a gap with no possible values between them",
+        "feedback": "That describes a discrete variable, which has a gap around each permitted value."
+       },
+       {
+        "id": "c",
+        "label": "Only one of the two can actually occur",
+        "feedback": "Nothing in the idea of continuity limits which values can occur."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-random-variables-continuous-variables:2",
+    "transfer": false,
+    "prompt": "match each situation to the tool that goes with it",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Distribution of a continuous variable"
+     },
+     {
+      "id": "l1",
+      "label": "Distribution of a discrete variable"
+     },
+     {
+      "id": "l2",
+      "label": "Time treated as continuous"
+     },
+     {
+      "id": "l3",
+      "label": "Time treated as discrete"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Probability density function"
+     },
+     {
+      "id": "r1",
+      "label": "Probability mass function"
+     },
+     {
+      "id": "r2",
+      "label": "Differential equation"
+     },
+     {
+      "id": "r3",
+      "label": "Difference equation"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each kind of variable, and each treatment of time, has its own matching description."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-random-variables-continuous-variables:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Any value in a range of the real numbers"
+     },
+     {
+      "id": "i1",
+      "label": "Time in continuous-time dynamics"
+     },
+     {
+      "id": "i2",
+      "label": "Only the integers 0 and 1"
+     },
+     {
+      "id": "i3",
+      "label": "Integer programming variables"
+     },
+     {
+      "id": "i4",
+      "label": "Time in discrete-time dynamics"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "continuous"
+     },
+     {
+      "id": "g1",
+      "label": "discrete"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Continuous variables fill a range with no gaps; discrete ones have separated permitted values such as integers."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-random-variables-continuous-variables:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A dial can be set to any value between 0 and 1."
+     },
+     {
+      "id": "b",
+      "text": "Between any two settings there are other possible settings."
+     },
+     {
+      "id": "c",
+      "text": "So the variable is continuous."
+     },
+     {
+      "id": "d",
+      "text": "So its distribution is expressed with a probability mass function."
+     }
+    ],
+    "answer": "d",
+    "explain": "Probability density functions express the distributions of continuous variables; mass functions are for discrete ones."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A continuous variable has possible values between any two of its values, which is why calculus and density functions suit it.",
+    "connections": [
+     {
+      "title": "Probability density function",
+      "place": "Continuous variables",
+      "node": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function"
+     },
+     {
+      "title": "Quantile function",
+      "place": "Continuous variables",
+      "node": "knowledge.mathematics.probability.random-variables.continuous-variables.quantile-function"
+     },
+     {
+      "title": "Support (mathematics)",
+      "place": "Continuous variables",
+      "node": "knowledge.mathematics.probability.random-variables.continuous-variables.support-mathematics"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A continuous variable has possible values between any two values.",
+    "source": "Wikipedia sentences 2, 6"
+   },
+   {
+    "claim": "Each kind of variable, and each treatment of time, has its own matching description.",
+    "source": "Wikipedia sentences 9, 10, 19, 20"
+   },
+   {
+    "claim": "Continuous variables fill a range with no gaps; discrete ones have separated permitted values such as integers.",
+    "source": "Wikipedia sentences 7, 10, 15, 18, 20"
+   },
+   {
+    "claim": "Probability density functions express the distributions of continuous variables; mass functions are for discrete ones.",
+    "source": "Wikipedia sentences 6, 7, 9, 19"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "No gaps between values",
+    "text": "A quantity that is measured with numbers can be either continuous or discrete. It is continuous over a stretch if, whenever it can take two real values, it can also take every value between them. So a variable that can land anywhere in some range of the real numbers is continuous there. Statistics treats continuous and discrete variables as separate data types, each described by its own kind of probability distribution.",
+    "cites": [
+     1,
+     2,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "The discrete opposite",
+    "text": "A variable is discrete around a value if there is a real gap on each side of that value that the variable can never land in. Put another way, every allowed value sits some positive distance from its nearest allowed neighbour. The allowed values are either finitely many or countably infinite. Typical examples are variables that must be whole numbers, or that can only be 0 or 1.",
+    "cites": [
+     3,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Calculus and density",
+    "text": "Methods of calculus are often used on problems with continuous variables, for instance in continuous optimization problems. Those methods do not fit discrete variables easily, which instead appear in problems such as integer programming. In statistical theory, the chances for a continuous variable can be written using a probability density function, while a discrete variable uses a probability mass function.",
+    "cites": [
+     8,
+     9,
+     16,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Time, smooth or in steps",
+    "text": "How time is treated changes the mathematics. If time is continuous, the rule for how something changes over time is a differential equation. A related idea is the instantaneous rate of change: how much one quantity changes compared with another at a single moment. If time moves in separate steps, the rule is instead called a difference equation.",
+    "cites": [
+     10,
+     11,
+     20
+    ]
+   },
+   {
+    "heading": "Mixing both kinds",
+    "text": "A single variable can be discrete over part of the number line and continuous over another part. A mixed random variable has a probability distribution with both a discrete piece and a continuous piece. Waiting in a queue is an example: the chance of waiting exactly zero time is a discrete piece, while any nonzero wait is measured on a continuous time scale. In physics, especially quantum mechanics, Dirac delta functions are often used to handle both pieces in one framework.",
+    "cites": [
+     4,
+     31,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Switches and mixed models",
+    "text": "In regression analysis, some variables are allowed only the values 0 and 1. Such a dummy variable works like a switch, turning a part of an equation on or off, and it can mark which subgroup of a study each person belongs to. A model with several variables can mix discrete and continuous ones. For example, a study of the risk of psychological disorders might pair one yes-or-no measure of psychiatric symptoms with one continuous measure of cognitive performance.",
+    "cites": [
+     22,
+     23,
+     24,
+     26,
+     27,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "shafer-zhang-continuous",
+   "kind": "book",
+   "title": "5: Continuous Random Variables - Introductory Statistics (Shafer and Zhang)",
+   "by": "Shafer and Zhang",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/05%3A_Continuous_Random_Variables",
+   "note": "A free textbook chapter on continuous random variables and their probability distributions.",
+   "license": "CC BY-NC-SA 3.0"
+  }
+ ]
+}

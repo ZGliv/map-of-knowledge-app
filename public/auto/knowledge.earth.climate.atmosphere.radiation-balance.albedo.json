@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.radiation-balance.albedo",
+ "name": "Albedo",
+ "summary": [
+  {
+   "text": "Albedo is the fraction of sunlight a body reflects, on a scale from 0 for a surface that absorbs everything to 1 for one that reflects everything.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Fresh snow reflects about 0.9 to 0.95 of visible light while charcoal reflects about 0.04, and Earth as a whole averages about 0.3.",
+   "cites": [
+    15,
+    19
+   ]
+  },
+  {
+   "text": "It matters for climate because ice reflects far more sunlight than land or water, so changes in ice cover alter a planet's albedo and temperature.",
+   "cites": [
+    11,
+    12,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "Latin albedo, meaning 'whiteness'",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Earth's average",
+   "value": "About 0.3",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Most land areas",
+   "value": "Between 0.1 and 0.4",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Cities",
+   "value": "Commonly 0.01–0.02 lower than nearby cropland",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Measured from space",
+   "value": "By satellite sensors such as MODIS and CERES",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Which of these surfaces would have an albedo closest to 0?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fresh snow"
+    },
+    {
+     "id": "b",
+     "label": "Desert sand"
+    },
+    {
+     "id": "c",
+     "label": "A lump of charcoal"
+    },
+    {
+     "id": "d",
+     "label": "A bright cloud"
+    }
+   ],
+   "answer": "c",
+   "explain": "An albedo near 0 means almost all light is absorbed; charcoal, one of the darkest substances, is about 0.04, while fresh snow is about 0.9 to 0.95.",
+   "cites": [
+    2,
+    15
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance.albedo:q1"
+  },
+  {
+   "prompt": "Arctic sea ice shrinks and leaves more open water. What happens next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "More sunlight is absorbed, adding to warming"
+    },
+    {
+     "id": "b",
+     "label": "More sunlight is reflected, cooling the area"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since water and ice reflect equally"
+    },
+    {
+     "id": "d",
+     "label": "The water freezes back at once, undoing it"
+    }
+   ],
+   "answer": "a",
+   "explain": "Ice reflects far more solar energy than open water, so less ice lowers albedo and raises temperature in a positive feedback.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance.albedo:q2"
+  },
+  {
+   "prompt": "Earth's average albedo of about 0.3 is far higher than the ocean's, even though ocean covers much of the planet. What mainly makes up the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Desert sand"
+    },
+    {
+     "id": "b",
+     "label": "City rooftops"
+    },
+    {
+     "id": "c",
+     "label": "Forest canopies"
+    },
+    {
+     "id": "d",
+     "label": "Clouds"
+    }
+   ],
+   "answer": "d",
+   "explain": "Earth's average albedo is far higher than the ocean's mainly because of clouds.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance.albedo:q3"
+  },
+  {
+   "prompt": "Imagine the whole Earth froze over, making it much more reflective. Roughly what would the average temperature become?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 10 °C"
+    },
+    {
+     "id": "b",
+     "label": "Below −40 °C"
+    },
+    {
+     "id": "c",
+     "label": "About 0 °C"
+    },
+    {
+     "id": "d",
+     "label": "About −10 °C"
+    }
+   ],
+   "answer": "b",
+   "explain": "Today's average is about 15 °C; a fully frozen, more reflective Earth would drop below −40 °C.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance.albedo:q4"
+  },
+  {
+   "prompt": "A hot city paints many of its roofs and streets a light colour. What is the likely effect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It warms, because pale paint holds heat"
+    },
+    {
+     "id": "b",
+     "label": "No effect, since cities are too small"
+    },
+    {
+     "id": "c",
+     "label": "It eases the urban heat island effect"
+    },
+    {
+     "id": "d",
+     "label": "It only changes how the city looks"
+    }
+   ],
+   "answer": "c",
+   "explain": "Deliberately raising albedo in urban areas can mitigate the urban heat island effect.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance.albedo:q5"
+  },
+  {
+   "prompt": "You shine twice as much light on a patch of dry grass. What happens to its albedo?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It doubles along with the light"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same"
+    },
+    {
+     "id": "c",
+     "label": "It falls by half"
+    },
+    {
+     "id": "d",
+     "label": "It rises to exactly 1"
+    }
+   ],
+   "answer": "b",
+   "explain": "Albedo does not depend directly on illumination, because more incoming light means proportionally more reflected light, unless the surface itself changes, as melting ice does.",
+   "cites": [
+    43
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance.albedo:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Greenland_Albedo_Change.png/960px-Greenland_Albedo_Change.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Albedo",
+  "credit": "Map by NOAA’s climate.gov team, based on NASA satellite data processed by Jason ",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Greenland_Albedo_Change.png"
+ },
+ "source": {
+  "title": "Albedo",
+  "url": "https://en.wikipedia.org/wiki/Albedo",
+  "revision": 1383896381
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "How much light bounces back",
+    "text": "Albedo, from the Latin word for whiteness, is the share of sunlight that a body reflects diffusely. It runs from 0, a black body that soaks up everything falling on it, to 1, a body that sends all of it back. Unless a single wavelength is named, which is called spectral albedo, the term covers the whole range of solar radiation.",
+    "cites": [
+     1,
+     2,
+     8
+    ]
+   },
+   {
+    "heading": "Dark and bright surfaces",
+    "text": "Albedo is often given for 0.3 to 3 μm, the band where most solar energy reaches the ground, and that band includes visible light. That is why low-albedo surfaces look dark and high-albedo ones look bright: trees absorb most of the light, while snow reflects most of it. In visible light, fresh snow scores about 0.9 to 0.95, and charcoal, one of the darkest substances, about 0.04. Seen from a distance, the ocean and most forests score low, deserts are among the highest landforms, and most land falls between 0.1 and 0.4.",
+    "cites": [
+     9,
+     10,
+     15,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Earth as a whole",
+    "text": "Earth's average albedo is about 0.3, far higher than the ocean's, mainly because of clouds. Satellite sensors such as NASA's MODIS instruments on the Terra and Aqua satellites regularly estimate the surface value. Albedo and the greenhouse effect together give Earth an average surface temperature of about 15 °C (59 °F). A fully frozen, more reflective Earth would drop below −40 °C, glaciers over just the continents would bring it to about 0 °C, and an all-water ocean planet would warm to almost 27 °C.",
+    "cites": [
+     19,
+     20,
+     21,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "The ice–albedo feedback",
+    "text": "Albedo is an important idea in climate science. Ice is very reflective, sending far more solar energy back to space than open water or other kinds of land. So when the area of ice caps, glaciers and sea ice changes, a planet's albedo and surface temperature change with it. This ice–albedo feedback is a positive feedback, and it plays an important part in global climate change.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "People change albedo",
+    "text": "Deforestation, farming and the growth of cities all change the albedo of land around the world. Cities usually lower it, commonly by 0.01–0.02 compared with nearby cropland, which adds to global warming. Raising albedo on purpose in cities can ease the urban heat island effect. A 2022 estimate found that raising the albedo of all the world's urban areas by 0.1 would have a cooling effect equal to absorbing about 44 Gt of CO₂ emissions.",
+    "cites": [
+     33,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "White roofs in Almería",
+    "text": "In Almería, Spain, tens of thousands of hectares of greenhouses form a wide sheet of whitened plastic roofs. A 2008 study found that this human-made change lowered the surface temperature where the bright roofs stood, though the effect stayed local. A follow-up study found that albedo changes from transforming the land can reduce the rise in surface temperature linked to climate change.",
+    "cites": [
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-albedo",
+   "kind": "book",
+   "title": "2.5.1: Albedo",
+   "by": "Joshua Halpern (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Atmospheric_Processes_and_Phenomena/02%3A_Solar_and_Infrared_Radiation/2.05%3A_Application_to_the_Earth-Sun_System/2.5.01%3A_Albedo",
+   "note": "A short free textbook section defining albedo, with snow, sand, oceans and clouds as examples.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

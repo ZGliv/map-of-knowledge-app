@@ -1,0 +1,34 @@
+{
+ "readHash": "426d3f42c7e4d8372363e232b0899948dd34649a",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Rotation-scaling-rotation [1], generalizes normal-matrix eigendecomposition to m x n [2], always exists [5]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Form M=U Sigma V*, unitary U,V, nonnegative diagonal, singular values ordered, singular vector names in [4][7][8][10]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Real square rotation/reflection-scaling-rotation [16][17], unit sphere to ellipsoid semi-axes [40]-[42], magnitude vs direction [25]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Rank count [9], sum of r rank-1 matrices [13], column space and null space bases [33][36]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Low-rank approximation [3], pseudoinverse/approximation/rank/range/null space [14], applied fields [15]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Determinant sign cases for U and V* in [18]-[20] under real square setting [16]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "PSD Hermitian case [31], diagonalizable non-PSD-Hermitian case distinct [32]."
+  }
+ }
+}

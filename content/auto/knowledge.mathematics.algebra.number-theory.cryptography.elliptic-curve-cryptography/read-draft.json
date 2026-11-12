@@ -1,0 +1,70 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Curves as locks",
+   "text": "Elliptic-curve cryptography, or ECC, is a kind of public-key cryptography, the family of methods whose security rests on mathematical problems that are very hard to solve. ECC builds its problems from the algebra of elliptic curves over finite fields. Its main selling point is smaller keys for the same protection. A 256-bit ECC public key should be about as strong as a 3072-bit RSA public key, which means less to store and less to send.",
+   "cites": [
+    1,
+    2,
+    27,
+    33,
+    34
+   ]
+  },
+  {
+   "heading": "Easy one way, hard the other",
+   "text": "ECC depends on an operation called point multiplication being quick to carry out but, for well-chosen curves and key sizes, apparently impossible to undo. The central puzzle is called the elliptic curve discrete logarithm problem: given a public base point P and a second point Q = k P, it should be infeasible to find k. Key-agreement methods such as ECDH rely on a related puzzle, where knowing P, a P and b P should not let anyone compute a b P. What makes the puzzle hard is the size and structure of the curve's group, not just how many points lie on the curve.",
+   "cites": [
+    29,
+    30,
+    31,
+    32
+   ]
+  },
+  {
+   "heading": "Agreeing on a curve",
+   "text": "Before ECC can be used, everyone involved must agree on every detail of the curve, a set of values called the domain parameters. The arithmetic happens in a finite field, usually either a prime field or a binary field. The curve itself is fixed by the numbers in its equation, and a chosen starting point G, the base point, generates the group of points used. The order of G, the smallest positive n for which n G gives the point at infinity, is normally prime, and a related number called the cofactor is usually small, ideally 1. Unless a trusted party produced these parameters, they must be checked before use.",
+   "cites": [
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    42,
+    45
+   ]
+  },
+  {
+   "heading": "What it is used for",
+   "text": "Elliptic curves serve for key agreement, digital signatures, generating random-looking numbers and other jobs. They can also encrypt messages indirectly, by pairing key agreement with a symmetric scheme. Some methods for factoring whole numbers, such as Lenstra elliptic-curve factorization, use them too. ECC runs inside widely used protocols, among them Transport Layer Security and Bitcoin.",
+   "cites": [
+    3,
+    4,
+    5,
+    16
+   ]
+  },
+  {
+   "heading": "From idea to standard",
+   "text": "The idea of using elliptic curves in cryptography was put forward independently by more than one researcher, Neal Koblitz among them. ECC algorithms came into wide use from 2004. NIST recommended fifteen elliptic curves for its Digital Signature Standard. At the RSA Conference in 2005, the National Security Agency announced Suite B, which used ECC for digital signatures and key exchange.",
+   "cites": [
+    6,
+    7,
+    8,
+    12
+   ]
+  },
+  {
+   "heading": "Doubts and the quantum question",
+   "text": "In 2013, The New York Times reported that an elliptic-curve random bit generator called Dual_EC_DRBG had become a NIST standard under NSA influence, and that the NSA had built a deliberate weakness into it. RSA Security then told its customers to stop using any software based on it. Some cryptography experts went further and voiced worries about the NIST recommended curves themselves. In 2015 the NSA said it planned to replace Suite B because of concerns that quantum computers could attack ECC, and it later issued CNSA 2.0 guidance for moving to quantum-resistant algorithms.",
+   "cites": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ]
+  }
+ ]
+}

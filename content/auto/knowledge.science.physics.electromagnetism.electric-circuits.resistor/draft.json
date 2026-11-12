@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A resistor is a passive two-terminal electronic component that provides electrical resistance in a circuit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Resistors reduce current, set signal levels, divide voltages, and bias other parts, and by Ohm's law the voltage across one is proportional to the current through it.",
+   "cites": [
+    2,
+    18
+   ]
+  },
+  {
+   "text": "The electrical power a resistor absorbs turns into heat, so each one carries a maximum power rating it should not exceed.",
+   "cites": [
+    31,
+    32,
+    37
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit",
+   "value": "The ohm, equal to one volt per ampere",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "In series",
+   "value": "Resistances simply add together",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "In parallel",
+   "value": "Reciprocals of the resistances add together",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Part code 8K2",
+   "value": "Marks a resistor of 8.2 kilohms",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Common ratings",
+   "value": "Typically 1/10, 1/8, or 1/4 watt in electronics",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A 300-ohm resistor is connected across a 12-volt battery. About how much current flows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.04 amperes"
+    },
+    {
+     "id": "b",
+     "label": "25 amperes"
+    },
+    {
+     "id": "c",
+     "label": "3600 amperes"
+    },
+    {
+     "id": "d",
+     "label": "288 amperes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Current equals voltage divided by resistance: 12 / 300 = 0.04 amperes.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "You add a second resistor in parallel with a 10-ohm resistor. How does the total resistance compare with 10 ohms?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is higher, as there is more material in the way"
+    },
+    {
+     "id": "b",
+     "label": "It is lower, since parallel reciprocals add"
+    },
+    {
+     "id": "c",
+     "label": "It is exactly the same, as the 10 ohms sets the limit"
+    },
+    {
+     "id": "d",
+     "label": "It is double, as two parts are now involved"
+    }
+   ],
+   "answer": "b",
+   "explain": "For parallel resistors the reciprocals add, so the total is below the smallest one, as in the 10, 5 and 15 ohm example that gave about 2.7 ohms.",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "Three resistors are wired one after another in a single path. How do you find their combined resistance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the smallest of the three values"
+    },
+    {
+     "id": "b",
+     "label": "Add the reciprocals, then flip the result"
+    },
+    {
+     "id": "c",
+     "label": "Add their resistance values together"
+    },
+    {
+     "id": "d",
+     "label": "Multiply the three values together"
+    }
+   ],
+   "answer": "c",
+   "explain": "The total resistance of resistors in series is the sum of their individual values.",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "prompt": "A small resistor is used in a circuit well above its power rating for a long time. What can result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, ratings are only a rough hint"
+    },
+    {
+     "id": "b",
+     "label": "Only a brief dip in resistance that fades"
+    },
+    {
+     "id": "c",
+     "label": "The current simply falls to zero, safely"
+    },
+    {
+     "id": "d",
+     "label": "Permanent damage, even scorched boards or fire"
+    }
+   ],
+   "answer": "d",
+   "explain": "Dissipating more than the rating can permanently change the resistance and may overheat the board or nearby parts.",
+   "cites": [
+    37,
+    38
+   ]
+  },
+  {
+   "prompt": "You want a knob that smoothly adjusts the brightness of a lamp. Which kind of resistor suits this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A variable resistor"
+    },
+    {
+     "id": "b",
+     "label": "A fixed resistor"
+    },
+    {
+     "id": "c",
+     "label": "A flameproof resistor"
+    },
+    {
+     "id": "d",
+     "label": "A high-power resistor"
+    }
+   ],
+   "answer": "a",
+   "explain": "Variable resistors are used to adjust circuit elements, such as a volume control or a lamp dimmer.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Current is flowing through a resistor in a circuit. Where does the electrical power it absorbs end up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stored in the resistor as charge"
+    },
+    {
+     "id": "b",
+     "label": "Turned into heat that must be shed"
+    },
+    {
+     "id": "c",
+     "label": "Sent back to the battery unchanged"
+    },
+    {
+     "id": "d",
+     "label": "Turned into extra voltage on the wires"
+    }
+   ],
+   "answer": "b",
+   "explain": "The power is converted into heat, which the resistor's package must dissipate before the temperature climbs too high.",
+   "cites": [
+    31
+   ]
+  }
+ ]
+}

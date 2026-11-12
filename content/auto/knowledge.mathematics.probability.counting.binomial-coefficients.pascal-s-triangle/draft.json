@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "Pascal's triangle is an infinite triangular array of binomial coefficients, important in probability theory, combinatorics and algebra.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Row 0 has a single 1, and each later entry is the sum of the entry above and to the left and the entry above and to the right.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "It carries Pascal's name in much of the West, though mathematicians in India, Persia, China, Germany and Italy studied it centuries earlier.",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Row sums",
+   "value": "The entries in row n add up to 2ⁿ",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Binomial expansions",
+   "value": "Its entries are the coefficients in binomial expansions",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Name in Iran",
+   "value": "Khayyam's triangle",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Name in China",
+   "value": "Yang Hui's triangle",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Name in Italy",
+   "value": "Tartaglia's triangle",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "One row of the triangle reads 1, 4, 6, 4, 1. What is the first entry after the leading 1 in the next row?",
+   "options": [
+    {
+     "id": "a",
+     "label": "4"
+    },
+    {
+     "id": "b",
+     "label": "5"
+    },
+    {
+     "id": "c",
+     "label": "10"
+    },
+    {
+     "id": "d",
+     "label": "16"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each entry is the sum of the two above it, so the first entry after the leading 1 is 1 + 4 = 5.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "You label the rows of Pascal's triangle the usual way, and the topmost row holds a single 1. What number does that top row get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Row 1"
+    },
+    {
+     "id": "b",
+     "label": "Row 2"
+    },
+    {
+     "id": "c",
+     "label": "Row 0"
+    },
+    {
+     "id": "d",
+     "label": "Row n"
+    }
+   ],
+   "answer": "c",
+   "explain": "The rows are conventionally enumerated starting with row n = 0 at the top, and row 0 holds the unique nonzero entry 1.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "prompt": "Why do the entries of any row always add up to a power of 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each entry is a power of 2 on its own"
+    },
+    {
+     "id": "b",
+     "label": "Each new row is made by doubling the previous row"
+    },
+    {
+     "id": "c",
+     "label": "Each row counts the subsets of a set, and every element is in or out"
+    },
+    {
+     "id": "d",
+     "label": "Each row starts and ends with 1, forcing the sum"
+    }
+   ],
+   "answer": "c",
+   "explain": "The sum of the entries in row n is the nth power of 2, which matches the number of subsets of an n-element set, 2ⁿ, since each element is independently included or excluded.",
+   "cites": [
+    35,
+    36
+   ]
+  },
+  {
+   "prompt": "A friend claims Pascal invented the triangle in the 1600s. What is the best reply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is only called his in Italy and China"
+    },
+    {
+     "id": "b",
+     "label": "Others in India, Persia and China studied it centuries earlier"
+    },
+    {
+     "id": "c",
+     "label": "Pascal never wrote anything about the triangle"
+    },
+    {
+     "id": "d",
+     "label": "Khayyam invented it in the 1800s"
+    }
+   ],
+   "answer": "b",
+   "explain": "The pattern was known well before Pascal, studied by mathematicians in India, Persia, China, Germany and Italy.",
+   "cites": [
+    2,
+    8
+   ]
+  },
+  {
+   "prompt": "What did Omar Khayyam do with the triangle that earlier Indian and Karajian sources had not?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Used its coefficients in a general method for extracting nth roots"
+    },
+    {
+     "id": "b",
+     "label": "Published the full triangle on a book's frontispiece"
+    },
+    {
+     "id": "c",
+     "label": "Named it after the French mathematician Pascal"
+    },
+    {
+     "id": "d",
+     "label": "Used it to solve problems in probability theory"
+    }
+   ],
+   "answer": "a",
+   "explain": "Khayyam applied the binomial coefficients to a general method for extracting nth roots, which the earlier sources did not.",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "prompt": "Divide every entry of row n by 2ⁿ, and let n grow very large. What does the shape of the row approach?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A flat line with every value equal"
+    },
+    {
+     "id": "b",
+     "label": "A single spike at the first entry"
+    },
+    {
+     "id": "c",
+     "label": "A lopsided shape leaning to the right"
+    },
+    {
+     "id": "d",
+     "label": "The normal distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "The scaled row is the symmetric binomial distribution, and by the central limit theorem it approaches the normal distribution as n increases.",
+   "cites": [
+    38,
+    39
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+  "title": "Reactions that pass the baton",
+  "question": "How does a cell turn one molecule into another through a chain of reactions?",
+  "hook": "Cells rarely do a big job in one move; they hand a product from one enzyme to the next.",
+  "idea": "In a metabolic pathway, each reaction's product feeds the next, and anabolic and catabolic pathways trade energy.",
+  "beats": [
+    {
+      "kind": "predict",
+      "prompt": "Building a protein is unfavourable on its own, because it needs energy. What lets the cell go ahead anyway?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The protein builds itself once enough enzymes are nearby",
+          "feedback": "Enzymes speed reactions, but an unfavourable reaction still needs an energy input."
+        },
+        {
+          "id": "b",
+          "label": "It is coupled to an energy-releasing reaction",
+          "feedback": ""
+        },
+        {
+          "id": "c",
+          "label": "The cell waits for the reaction to turn spontaneous",
+          "feedback": "On its own the reaction stays non-spontaneous, so waiting does not help."
+        }
+      ],
+      "answer": "b",
+      "explain": "Anabolism has a positive Gibbs free energy (+ΔG) by itself, so it is coupled with an exergonic reaction that supplies the energy.",
+      "cites": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "Match each type of pathway to what it does.",
+      "pairs": [
+        [
+          "Anabolic pathway",
+          "Builds molecules using energy"
+        ],
+        [
+          "Catabolic pathway",
+          "Breaks molecules down and releases energy"
+        ],
+        [
+          "Amphibolic pathway",
+          "Either one, depending on energy need or availability"
+        ]
+      ],
+      "explain": "Anabolic and catabolic pathways complement each other, and an amphibolic pathway can act as either.",
+      "cites": [
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "kind": "sort",
+      "prompt": "Where in a eukaryotic cell does each process take place?",
+      "groups": [
+        "Cytosol",
+        "Mitochondrial membrane"
+      ],
+      "items": [
+        [
+          "Glycolysis",
+          "Cytosol"
+        ],
+        [
+          "Pentose phosphate pathway",
+          "Cytosol"
+        ],
+        [
+          "Fatty acid biosynthesis",
+          "Cytosol"
+        ],
+        [
+          "Electron transport chain",
+          "Mitochondrial membrane"
+        ],
+        [
+          "Oxidative phosphorylation",
+          "Mitochondrial membrane"
+        ]
+      ],
+      "explain": "Glycolysis, the pentose phosphate pathway and fatty acid biosynthesis occur in the cytosol, while the chain and oxidative phosphorylation use the mitochondrial membrane.",
+      "cites": [
+        6,
+        7
+      ]
+    },
+    {
+      "kind": "flaw",
+      "prompt": "One step in this reasoning is wrong. Which?",
+      "steps": [
+        "All chemical reactions are technically reversible.",
+        "In a cell, conditions often favour flux in one direction of a reaction.",
+        "So a cell breaks down an amino acid by running its building pathway backward.",
+        "That is why pathways are often considered to flow in one direction."
+      ],
+      "wrong": 2,
+      "explain": "The breakdown of an amino acid may occur via a separate and distinct pathway from the one that makes it.",
+      "cites": [
+        16,
+        17,
+        18
+      ]
+    }
+  ]
+}

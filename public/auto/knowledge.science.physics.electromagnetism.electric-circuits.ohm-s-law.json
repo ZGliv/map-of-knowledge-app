@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law",
+ "name": "Ohm's law",
+ "summary": [
+  {
+   "text": "Ohm's law links the current through a conductor to the voltage across it, with resistance as the constant that connects them.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It is an empirical rule that describes most conducting materials accurately over many orders of magnitude of current, though some non-ohmic materials do not obey it.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Paul Drude's 1900 model explained it: a voltage speeds electrons along, collisions with atoms turn their energy into heat, and the average drift grows with the field.",
+   "cites": [
+    37,
+    39,
+    40,
+    41
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "German physicist Georg Ohm, who published in 1827",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Conductance",
+   "value": "G equals 1 divided by the resistance R",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Earlier finding",
+   "value": "Henry Cavendish found voltage and current rise together in 1781, unpublished",
+   "cites": [
+    10,
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Slow welcome",
+   "value": "Not widely accepted until the 1840s",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Electron model",
+   "value": "Paul Drude proposed it in 1900, the first classical one",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lamp's filament passes more current as the voltage rises, but its resistance changes a lot along the way. Does it follow Ohm's law?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because current always rises with voltage"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because every material obeys the law"
+    },
+    {
+     "id": "c",
+     "label": "No, because resistance must stay constant"
+    },
+    {
+     "id": "d",
+     "label": "No, because a lamp is not a conductor"
+    }
+   ],
+   "answer": "c",
+   "explain": "Ohm's law says the resistance is constant, independent of current; if it varies, the relation is only a definition of static resistance.",
+   "cites": [
+    2,
+    3,
+    5
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law:q1"
+  },
+  {
+   "prompt": "In the Drude picture of a wire, electrons are pushed along by an electric field but keep bumping into atoms. Where does their lost motion energy go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Into heat in the material"
+    },
+    {
+     "id": "b",
+     "label": "Into extra charge on the atoms"
+    },
+    {
+     "id": "c",
+     "label": "Into a stronger electric field"
+    },
+    {
+     "id": "d",
+     "label": "Into making the electrons heavier"
+    }
+   ],
+   "answer": "a",
+   "explain": "Collisions scatter the electrons and convert their kinetic energy into thermal energy.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law:q2"
+  },
+  {
+   "prompt": "When Ohm first published his results, many German critics attacked them. What was behind much of that hostility?",
+   "options": [
+    {
+     "id": "a",
+     "label": "His measurements had been shown to be faulty"
+    },
+    {
+     "id": "b",
+     "label": "A view that truth comes from reasoning, not experiments"
+    },
+    {
+     "id": "c",
+     "label": "His results had already been published by Cavendish"
+    },
+    {
+     "id": "d",
+     "label": "A ban on research into electric currents"
+    }
+   ],
+   "answer": "b",
+   "explain": "The prevailing philosophy held that experiments were unnecessary because nature is well ordered and can be understood by reasoning alone.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law:q3"
+  },
+  {
+   "prompt": "Cavendish measured the link between voltage and current before Ohm, yet Ohm gets the credit. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cavendish had made errors, so his work was discarded"
+    },
+    {
+     "id": "b",
+     "label": "Cavendish only studied static electricity"
+    },
+    {
+     "id": "c",
+     "label": "Ohm's work was copied from Cavendish and renamed"
+    },
+    {
+     "id": "d",
+     "label": "Cavendish shared nothing, and his results surfaced in 1879"
+    }
+   ],
+   "answer": "d",
+   "explain": "He did not tell other scientists, and his results stayed unknown until James Clerk Maxwell published them in 1879.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law:q4"
+  },
+  {
+   "prompt": "In the electron model of a wire, why does doubling the voltage roughly double the current?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average drift speed is proportional to the field"
+    },
+    {
+     "id": "b",
+     "label": "The wire gains twice as many free electrons"
+    },
+    {
+     "id": "c",
+     "label": "The electrons collide only half as often"
+    },
+    {
+     "id": "d",
+     "label": "The atoms in the wire stop moving"
+    }
+   ],
+   "answer": "a",
+   "explain": "The average drift velocity of electrons, and so the current, is proportional to the electric field and thus the voltage.",
+   "cites": [
+    39,
+    41
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law:q5"
+  },
+  {
+   "prompt": "Ohm's law is called an empirical law. What does that mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was derived from first principles with no tests"
+    },
+    {
+     "id": "b",
+     "label": "It applies to every material in every situation"
+    },
+    {
+     "id": "c",
+     "label": "It only holds for materials made of metal"
+    },
+    {
+     "id": "d",
+     "label": "It rests on measurements of real materials"
+    }
+   ],
+   "answer": "d",
+   "explain": "An empirical relation comes from measurement, and this one accurately describes most conductive materials over many orders of magnitude of current.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.ohm-s-law:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/OhmsLaw.svg/960px-OhmsLaw.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Ohm's law",
+  "credit": "Waveguide2 (talk) (Transferred by Nk/Originally uploaded by Waveguide2)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:OhmsLaw.svg"
+ },
+ "source": {
+  "title": "Ohm's law",
+  "url": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+  "revision": 1383877171
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Current, voltage and resistance",
+    "text": "Ohm's law links three quantities for a conductor: the current I flowing through it, the voltage V measured across it, and its resistance R. The conductance, written G, is simply 1/R. The core of the law is that R stays constant whatever the current. If the resistance changes with the current, the relation can no longer be called Ohm's law, though it can still be used to define static, or DC, resistance.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Where it holds",
+    "text": "Ohm's law is an empirical relation. It describes how the great majority of conducting materials carry current, and it stays accurate over many orders of magnitude of current. Some materials break it, and these are called non-ohmic. The law can also be written for a single location inside a material, linking the current density J there to the electric field E through σ, the conductivity, which is the inverse of the resistivity ρ. Gustav Kirchhoff gave the law this form.",
+    "cites": [
+     4,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Cavendish's shocks",
+    "text": "Before Georg Ohm's work, in January 1781, Henry Cavendish ran experiments with Leyden jars and with glass tubes of salt solution of different widths and lengths. He judged the current by how strong a shock he felt when he closed the circuit with his own body. He wrote that current varied directly with voltage. He did not share the result with other scientists, and it stayed unknown until James Clerk Maxwell published it in 1879.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Ohm's experiments",
+    "text": "Georg Ohm, a German physicist, studied resistance during 1825 and 1826, then in 1827 brought out his findings in a book titled Die galvanische Kette, mathematisch bearbeitet. He started with voltaic piles as his source but later switched to a thermocouple, which gave a steadier voltage. He measured current with a galvanometer and completed the circuit with test wires of different lengths, diameters and materials. His readings fit the equation x = a/(b + ℓ), in which the galvanometer reading is x and the test wire's length is ℓ. From this he arrived at his law of proportionality.",
+    "cites": [
+     6,
+     16,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "A hostile welcome",
+    "text": "Today the law seems almost obvious, but it did not when Ohm first published. Critics met his work with hostility and called it a \"web of naked fancies\". The leading scientific view in Germany then held that nature is so orderly that its truths can be found by reasoning alone, with no need for experiments. His work was not widely accepted until the 1840s, and by the 1850s the law was widely known and regarded as proved.",
+    "cites": [
+     27,
+     28,
+     29,
+     31,
+     33
+    ]
+   },
+   {
+    "heading": "Why it works",
+    "text": "In 1900 Paul Drude proposed the Drude model, the first classical model of electrical conduction, and it finally explained the law. It pictures a solid conductor as a fixed lattice of atoms with conduction electrons moving about at random among them. A voltage creates an electric field that speeds the electrons along, and their overall drift is the current. The electrons keep colliding with atoms, which scatters them and turns their energy of motion into heat. On average, the drift speed, and with it the current, comes out proportional to the field, and so to the voltage, over a wide range of voltages.",
+    "cites": [
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "The quantum picture",
+    "text": "Quantum mechanics, developed in the 1920s, changed this picture somewhat. Modern theories can still show that the average drift speed of electrons is proportional to the electric field, which gives Ohm's law. Felix Bloch showed that electrons travel through a crystal lattice as waves. They scatter mainly off impurity atoms and defects, not off the lattice atoms as the Drude model supposed.",
+    "cites": [
+     42,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up2-ohms-law",
+   "kind": "book",
+   "title": "9.4 Ohm's Law - University Physics Volume 2",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/9-4-ohms-law",
+   "note": "A free textbook section on Ohm's law and on ohmic and non-ohmic devices, with examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cp-ohms-law",
+   "kind": "book",
+   "title": "20.2 Ohm’s Law: Resistance and Simple Circuits - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+   "note": "An algebra-based textbook section on Ohm's law, resistance and simple circuits.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

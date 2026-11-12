@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "Modular arithmetic is arithmetic in which numbers wrap around once they reach a set value, called the modulus.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A 12-hour clock shows it: 8 hours after 7 o'clock the hand points to 3, because 7 + 8 = 15 and the hour starts over after 12.",
+   "cites": [
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Carl Friedrich Gauss built the modern approach to number theory on it in his 1801 book Disquisitiones Arithmeticae.",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "The modulus",
+   "value": "The value at which numbers wrap around",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "How it works",
+   "value": "Replace each result by its remainder after dividing by the modulus",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Clock example",
+   "value": "15 reads as 3 on a 12-hour clock",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Developed by",
+   "value": "Carl Friedrich Gauss, in a book published in 1801",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Order of steps",
+   "value": "Taking the remainder early or only at the end gives the same result",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "It is 9 o'clock on a 12-hour clock. What does the hour hand show 5 hours later?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2"
+    },
+    {
+     "id": "b",
+     "label": "14"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "3"
+    }
+   ],
+   "answer": "a",
+   "explain": "9 plus 5 is 14, and 14 reads as 2 on a 12-hour clock because the numbering starts over after 12.",
+   "cites": [
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "You start a timer on a clock face and wait exactly 12 hours. How does that compare with waiting no time at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The hand ends 12 places ahead of where it began"
+    },
+    {
+     "id": "b",
+     "label": "It is the same: the hand is right where it started"
+    },
+    {
+     "id": "c",
+     "label": "The hand ends one hour behind where it began"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be compared with any other wait"
+    }
+   ],
+   "answer": "b",
+   "explain": "After exactly 12 hours the hour hand is back where it began, so 12 acts as 0.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "You wait 8 hours and then 8 more, 16 hours in total. How does the clock change compared with waiting a shorter time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Like waiting 8 hours"
+    },
+    {
+     "id": "b",
+     "label": "Like waiting 6 hours"
+    },
+    {
+     "id": "c",
+     "label": "Like waiting 4 hours"
+    },
+    {
+     "id": "d",
+     "label": "Like waiting 16 hours without wrapping"
+    }
+   ],
+   "answer": "c",
+   "explain": "16 hours takes the hour hand one full turn plus 4 more hours, so the clock changes as it would after 4 hours.",
+   "cites": [
+    8,
+    10
+   ]
+  },
+  {
+   "prompt": "Two friends add up a long list of hours on a 12-hour clock. One reduces to a clock reading after every step; the other only at the very end. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first friend is always off by one hour"
+    },
+    {
+     "id": "b",
+     "label": "The second friend always gets the larger answer"
+    },
+    {
+     "id": "c",
+     "label": "Only the first friend's method is allowed"
+    },
+    {
+     "id": "d",
+     "label": "They end on the same clock reading"
+    }
+   ],
+   "answer": "d",
+   "explain": "The result does not depend on whether you reduce after each operation or once at the end.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "38 and 14 differ by exactly 24, which is two full turns of a 12-hour clock. What does that tell you about them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They leave the same remainder when divided by 12"
+    },
+    {
+     "id": "b",
+     "label": "They leave remainders that add up to 12"
+    },
+    {
+     "id": "c",
+     "label": "One of them divides the other"
+    },
+    {
+     "id": "d",
+     "label": "They are both divisible by 12"
+    }
+   ],
+   "answer": "a",
+   "explain": "Their difference is a multiple of 12, so they have the same remainder, 2, when divided by 12.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "On a clock with a prime number of hours, say 7, which readings have a multiplicative inverse, a partner that multiplies with them to give 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the reading 1"
+    },
+    {
+     "id": "b",
+     "label": "Only the odd readings"
+    },
+    {
+     "id": "c",
+     "label": "Every reading except 0"
+    },
+    {
+     "id": "d",
+     "label": "Every reading, including 0"
+    }
+   ],
+   "answer": "c",
+   "explain": "A number has an inverse exactly when it is coprime with the modulus. With a prime modulus, every nonzero reading is.",
+   "cites": [
+    28,
+    29,
+    33
+   ]
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test",
+ "name": "Student's t-test",
+ "summary": [
+  {
+   "text": "Student's t-test is a statistical test of whether the difference between the response of two groups is statistically significant.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is any hypothesis test whose test statistic follows a Student's t-distribution under the null hypothesis, and it most commonly tests whether the means of two populations differ.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "The distribution is named for William Sealy Gosset, who published it in 1908 under the pseudonym Student while working at the Guinness Brewery in Dublin.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who devised it",
+   "value": "William Sealy Gosset, who worked at Guinness in Dublin",
+   "cites": [
+    11,
+    14
+   ]
+  },
+  {
+   "label": "First published",
+   "value": "1908, in the journal Biometrika",
+   "cites": [
+    10,
+    15
+   ]
+  },
+  {
+   "label": "Original purpose",
+   "value": "An economical way to monitor the quality of stout",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Large-sample behaviour",
+   "value": "A Z-test gives very similar results as the dataset grows",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Most common use",
+   "value": "Testing whether two population means are significantly different",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Researchers enroll 100 people and randomly assign 50 to a treatment and 50 to a control group. Which form of the t-test fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Paired, because everyone is measured once"
+    },
+    {
+     "id": "b",
+     "label": "Paired, because the two groups have equal size"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because it needs two measurements per person"
+    },
+    {
+     "id": "d",
+     "label": "Unpaired, because the groups are two separate sets of people"
+    }
+   ],
+   "answer": "d",
+   "explain": "With two non-overlapping, independent samples, the unpaired (independent samples) form of the t-test is used.",
+   "cites": [
+    26,
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test:q1"
+  },
+  {
+   "prompt": "A clinic measures each patient's blood pressure before and after a drug, then compares each patient's own two numbers. Why is this design attractive?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It removes random differences between patients, raising power"
+    },
+    {
+     "id": "b",
+     "label": "It cuts the number of examinations the study needs"
+    },
+    {
+     "id": "c",
+     "label": "It makes the two groups independent of each other"
+    },
+    {
+     "id": "d",
+     "label": "It makes a null hypothesis unnecessary for the test"
+    }
+   ],
+   "answer": "a",
+   "explain": "Each patient serves as their own control, eliminating the random variation between patients. The price is that every subject must be examined twice.",
+   "cites": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test:q2"
+  },
+  {
+   "prompt": "A dataset keeps growing to a very large size. How do the results of a t-test and a Z-test compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They grow steadily more different from each other"
+    },
+    {
+     "id": "b",
+     "label": "They become very similar, as the t-test approaches the Z-test"
+    },
+    {
+     "id": "c",
+     "label": "The Z-test always reaches a decision before the t-test"
+    },
+    {
+     "id": "d",
+     "label": "The t-test can no longer be computed at that size"
+    }
+   ],
+   "answer": "b",
+   "explain": "In many cases a Z-test yields very similar results, because the t-test converges to the Z-test as the dataset gets larger.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test:q3"
+  },
+  {
+   "prompt": "A 1908 statistics paper was signed with the pen name Student. Who was behind it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Karl Pearson, who edited the journal"
+    },
+    {
+     "id": "b",
+     "label": "Ronald Fisher, who made the distribution well known"
+    },
+    {
+     "id": "c",
+     "label": "William Gosset, an employee of a Dublin brewery"
+    },
+    {
+     "id": "d",
+     "label": "Helmert, who derived the distribution in 1876"
+    }
+   ],
+   "answer": "c",
+   "explain": "Gosset published under the pseudonym Student. Fisher's later work made the distribution well known under that name.",
+   "cites": [
+    10,
+    11,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test:q4"
+  },
+  {
+   "prompt": "Brewery chemists could only afford a handful of barley measurements at a time. Why was that a fitting setting for Gosset's work?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He was interested in the problems of small samples"
+    },
+    {
+     "id": "b",
+     "label": "Barley data are always normally distributed"
+    },
+    {
+     "id": "c",
+     "label": "Large samples were banned by the brewery"
+    },
+    {
+     "id": "d",
+     "label": "Competitors demanded published proof of quality"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gosset was interested in problems of small samples, for example the chemical properties of barley, and devised the t-test as an economical way to monitor quality.",
+   "cites": [
+    11,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test:q5"
+  },
+  {
+   "prompt": "A coach wants to know whether two training programs lead to different average sprint times. Which kind of test is the usual choice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A test of whether sprint times follow a normal distribution"
+    },
+    {
+     "id": "b",
+     "label": "A t-test of whether the two group means differ"
+    },
+    {
+     "id": "c",
+     "label": "A count of how many athletes finished"
+    },
+    {
+     "id": "d",
+     "label": "A test using only one athlete's times"
+    }
+   ],
+   "answer": "b",
+   "explain": "The t-test's most common application is testing whether the means of two populations are significantly different.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test:q6"
+  }
+ ],
+ "source": {
+  "title": "Student's t-test",
+  "url": "https://en.wikipedia.org/wiki/Student%27s_t-test",
+  "revision": 1383976649
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Student's t-test checks whether the difference between how two groups respond is statistically significant. More formally, it is any hypothesis test whose test statistic follows a Student's t-distribution when the null hypothesis is true. Its most common use is to test whether the means of two populations differ significantly.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "Why not the normal curve",
+    "text": "The test statistic would follow a normal distribution if one scaling term in it were known. Usually that term is unknown, which makes it a nuisance parameter. Once it is estimated from the data, the statistic instead has a Student's t distribution, under certain conditions. As datasets get larger the t-test converges to the Z-test, so the two often give very similar results.",
+    "cites": [
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "Born in a brewery",
+    "text": "The test is named after William Sealy Gosset, who worked at the Guinness Brewery in Dublin and cared about problems with small samples, such as the chemistry of barley. He devised the t-test as a cheap way to monitor the quality of stout. In 1908 he published it in English in the journal Biometrika under the pen name Student, since his employer liked its staff to publish under pen names. Another story holds that Guinness did not want rivals to know it used the test to check raw materials. The names Student's distribution and Student's t-test became well known through the work of Ronald Fisher.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "What goes into it",
+    "text": "A t statistic can be built from three numbers: the sample mean x̄, the sample standard deviation s and the sample size n. The test then uses n − 1 degrees of freedom. The population the data come from does not have to be normally distributed, but the distribution of sample means x̄ is assumed to be normal.",
+    "cites": [
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Unpaired or paired",
+    "text": "Two-sample t-tests come in two kinds, for independent samples or for paired ones. Suppose 100 people join a medical study and are randomly split, 50 to a treatment group and 50 to a control group; those are two independent samples, so the unpaired test fits. A paired test instead uses matched pairs of similar units, or one group measured twice. A typical case checks patients' blood pressure before and after a blood-pressure-lowering drug, so each patient serves as their own control. Strictly, the name Student's t-test belongs to the version that assumes the two populations have equal variances; without that assumption the test is sometimes called Welch's t-test.",
+    "cites": [
+     25,
+     27,
+     31,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "The price of pairing",
+    "text": "Pairing removes the random variation between patients, so the test becomes much more likely to correctly reject a null hypothesis of no treatment effect. That gain in statistical power has a cost: every subject must be examined twice. And since each half of the sample now depends on the other, the paired version is left with just n/2 − 1 degrees of freedom, where n counts all the observations.",
+    "cites": [
+     36,
+     37,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-10-2",
+   "kind": "book",
+   "title": "10.2: Comparing Two Independent Population Means",
+   "by": "OpenStax",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_2e_(OpenStax)/10%3A_Hypothesis_Testing_with_Two_Samples/10.02%3A_Comparing_Two_Independent_Population_Means",
+   "note": "A free textbook section on the two-sample t-test with unknown standard deviations, with worked examples.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "lane-12-3",
+   "kind": "book",
+   "title": "12.3: Difference between Two Means",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/12%3A_Tests_of_Means/12.03%3A_Difference_between_Two_Means",
+   "note": "A worked t-test for two independent groups, covering pooled variance, degrees of freedom and p-values.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "lane-12-7",
+   "kind": "book",
+   "title": "12.7: Correlated Pairs",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/12%3A_Tests_of_Means/12.07%3A_Correlated_Pairs",
+   "note": "Shows the paired t-test on real data, and how the wrong unpaired test gives a very different answer.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "cc-stats-27",
+   "kind": "video",
+   "title": "T-Tests: A Matched Pair Made in Heaven: Crash Course Statistics #27",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=AGh66ZPpOSQ",
+   "note": "A Crash Course Statistics episode on t-tests, including tests on matched pairs."
+  }
+ ]
+}

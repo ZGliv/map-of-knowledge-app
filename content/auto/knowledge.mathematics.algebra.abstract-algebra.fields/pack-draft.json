@@ -1,0 +1,125 @@
+{
+ "title": "Numbers you can always divide",
+ "question": "What makes a number system safe to divide in?",
+ "hook": "Subtraction and division sound like extra operations, but a field gets them for free from just two ideas.",
+ "idea": "A field is a number system where adding, subtracting, multiplying and dividing by anything nonzero all behave like they do for rational numbers.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two complex numbers are drawn as arrows from the origin and then multiplied. What happens to the arrows' lengths and angles?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The lengths add and the angles multiply.",
+     "feedback": "This swaps the roles: adding goes with the angles, not the lengths."
+    },
+    {
+     "id": "b",
+     "label": "The lengths multiply and the angles add.",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "The lengths and angles both add.",
+     "feedback": "That describes adding arrows end to end of a different kind, not multiplying; multiplication scales."
+    },
+    {
+     "id": "d",
+     "label": "The lengths and angles both multiply.",
+     "feedback": "The angles behave like turns, and turns add rather than multiply."
+    }
+   ],
+   "answer": "b",
+   "explain": "Multiplication of complex numbers combines rotating and scaling: angles add and lengths multiply.",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each kind of field to where it is used.",
+   "pairs": [
+    [
+     "Finite fields",
+     "Error correction codes and cryptography"
+    ],
+    [
+     "Function fields",
+     "Describing properties of geometric objects"
+    ],
+    [
+     "Number fields",
+     "Studied in depth in number theory"
+    ],
+    [
+     "The real numbers",
+     "Basic theorems in analysis"
+    ]
+   ],
+   "explain": "Different families of fields serve different areas, from coding to geometry to number theory and analysis.",
+   "cites": [
+    9,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each field by how the sources describe it.",
+   "groups": [
+    "the best known fields",
+    "other fields in common use"
+   ],
+   "items": [
+    [
+     "Rational numbers",
+     "the best known fields"
+    ],
+    [
+     "Real numbers",
+     "the best known fields"
+    ],
+    [
+     "Complex numbers",
+     "the best known fields"
+    ],
+    [
+     "Finite fields",
+     "other fields in common use"
+    ],
+    [
+     "p-adic fields",
+     "other fields in common use"
+    ],
+    [
+     "Algebraic number fields",
+     "other fields in common use"
+    ]
+   ],
+   "explain": "The rational, real and complex numbers are the best known; the others are commonly used and studied, especially in number theory and algebraic geometry.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "In a field every nonzero element has a multiplicative inverse.",
+    "Dividing a by b means multiplying a by the inverse of b.",
+    "So a field lets you divide by any nonzero element.",
+    "So division by zero works too, because zero is an element."
+   ],
+   "wrong": 3,
+   "explain": "Division by zero is excluded by definition: zero is the one element without a multiplicative inverse.",
+   "cites": [
+    15,
+    16,
+    32
+   ]
+  }
+ ]
+}

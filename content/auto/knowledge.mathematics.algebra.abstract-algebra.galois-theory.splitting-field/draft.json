@@ -1,0 +1,217 @@
+{
+ "summary": [
+  {
+   "text": "A splitting field of a polynomial is an extension of minimal degree over the base field in which the polynomial splits.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Such splitting fields exist and are unique up to isomorphism.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "The amount of freedom in that isomorphism is known as the Galois group of the polynomial, assuming it is separable.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Existence",
+   "value": "Splitting fields exist and are unique up to isomorphism",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "For several polynomials",
+   "value": "The smallest field over which each one splits",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Normal extension",
+   "value": "A splitting field for a set of polynomials is called this",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Building one",
+   "value": "Any irreducible factor may be chosen at each step",
+   "cites": [
+    17,
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two people build a splitting field step by step but pick different irreducible factors along the way. What happens to their final fields?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The final fields are isomorphic, even if the intermediate ones differ"
+    },
+    {
+     "id": "b",
+     "label": "The final fields are unrelated, so the choice matters a great deal"
+    },
+    {
+     "id": "c",
+     "label": "Only one of the two choices can produce a field"
+    },
+    {
+     "id": "d",
+     "label": "The final fields are equal, with identical intermediate steps"
+    }
+   ],
+   "answer": "a",
+   "explain": "Different choices of factors may give different sequences of subfields, but the resulting splitting fields are isomorphic.",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "prompt": "An extension L is the splitting field of a set of polynomials over K. What special name does L get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A prime extension"
+    },
+    {
+     "id": "b",
+     "label": "A normal extension"
+    },
+    {
+     "id": "c",
+     "label": "A trivial extension"
+    },
+    {
+     "id": "d",
+     "label": "A closed extension"
+    }
+   ],
+   "answer": "b",
+   "explain": "An extension that is a splitting field for a set of polynomials over K is called a normal extension of K.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "Two splitting fields of the same polynomial are isomorphic, but there can be several ways to match them up. What does that amount of freedom measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The degree of the polynomial"
+    },
+    {
+     "id": "b",
+     "label": "The number of choices of irreducible factor"
+    },
+    {
+     "id": "c",
+     "label": "The size of the base field"
+    },
+    {
+     "id": "d",
+     "label": "The Galois group of the polynomial, when it is separable"
+    }
+   ],
+   "answer": "d",
+   "explain": "The amount of freedom in the isomorphism is known as the Galois group of the polynomial, assuming it is separable.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Many fields contain all the roots of a given polynomial. What makes one of them the splitting field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the smallest field in which the polynomial splits"
+    },
+    {
+     "id": "b",
+     "label": "It is the largest field that contains the roots"
+    },
+    {
+     "id": "c",
+     "label": "It is the field with the fewest elements outside the roots"
+    },
+    {
+     "id": "d",
+     "label": "It is the field the polynomial's coefficients came from"
+    }
+   ],
+   "answer": "a",
+   "explain": "A splitting field is the smallest field over which the polynomial splits, generated over the base field by its roots.",
+   "cites": [
+    3,
+    4,
+    7
+   ]
+  },
+  {
+   "prompt": "In the step-by-step construction, how are two elements of the new field multiplied?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply as polynomials and keep the remainder after dividing by f"
+    },
+    {
+     "id": "b",
+     "label": "Multiply their coefficients one place at a time"
+    },
+    {
+     "id": "c",
+     "label": "Add them as polynomials and then take the remainder"
+    },
+    {
+     "id": "d",
+     "label": "Multiply as polynomials and keep the full result"
+    }
+   ],
+   "answer": "a",
+   "explain": "Elements are polynomials of low degree; the product is the remainder of their ordinary product on division by f.",
+   "cites": [
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "A polynomial already breaks fully into degree-one factors using numbers from the base field. What is its splitting field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A bigger field with new roots added"
+    },
+    {
+     "id": "b",
+     "label": "The base field itself"
+    },
+    {
+     "id": "c",
+     "label": "A field with no elements besides zero"
+    },
+    {
+     "id": "d",
+     "label": "The complex numbers, always"
+    }
+   ],
+   "answer": "b",
+   "explain": "Nothing needs adding when the polynomial already splits into linear factors, so the base field itself is the splitting field.",
+   "cites": [
+    39
+   ]
+  }
+ ]
+}

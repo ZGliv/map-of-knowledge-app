@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The dot product takes two equal-length lists of numbers, usually coordinate vectors, and returns a single number.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Algebraically it is the sum of the products of matching entries; geometrically it is 𝐚⋅𝐛 = ‖𝐚‖‖𝐛‖cos θ, with θ the angle between them.",
+   "cites": [
+    5,
+    23
+   ]
+  },
+  {
+   "text": "Two non-zero vectors are orthogonal exactly when 𝐚⋅𝐛 = 0, and a vector's length is ‖𝐚‖ = √𝐚⋅𝐚.",
+   "cites": [
+    25,
+    40
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Also called the scalar product, and a kind of inner product",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Why scalar",
+   "value": "Its result is a scalar, not a vector",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Self dot product",
+   "value": "𝐚⋅𝐚 is never negative, and is zero only if 𝐚 = 𝟎",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Orthogonality test",
+   "value": "𝐚⋅𝐛 = 0 means orthogonal, for non-zero vectors",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "No cancellation",
+   "value": "𝐚⋅𝐛 = 𝐚⋅𝐜 does not force 𝐛 = 𝐜",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A list of quantities (2, 3) and a list of prices (5, 4) are combined with the dot product. What is the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "14"
+    },
+    {
+     "id": "b",
+     "label": "22"
+    },
+    {
+     "id": "c",
+     "label": "The pair 10 and 12"
+    },
+    {
+     "id": "d",
+     "label": "120"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dot product returns a single number: the sum of the products of matching entries, 2 times 5 plus 3 times 4.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "prompt": "Two arrows, both with real length, are at right angles to each other. What is the dot product of the two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one"
+    },
+    {
+     "id": "b",
+     "label": "The product of their lengths"
+    },
+    {
+     "id": "c",
+     "label": "The sum of their lengths"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "Two non-zero vectors are orthogonal if and only if 𝐚⋅𝐛 = 0.",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "prompt": "Why is the dot product also called the scalar product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its result is a single number, not a vector"
+    },
+    {
+     "id": "b",
+     "label": "It only works on lists with one entry"
+    },
+    {
+     "id": "c",
+     "label": "It first scales each vector down to length one"
+    },
+    {
+     "id": "d",
+     "label": "It multiplies each vector by a scalar first"
+    }
+   ],
+   "answer": "a",
+   "explain": "The name scalar product emphasizes that the result is a scalar rather than a vector.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "You know a vector's dot product with itself. How do you get the vector's length?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Double it"
+    },
+    {
+     "id": "b",
+     "label": "Divide it by the angle"
+    },
+    {
+     "id": "c",
+     "label": "Take its square root"
+    },
+    {
+     "id": "d",
+     "label": "Subtract one from it"
+    }
+   ],
+   "answer": "c",
+   "explain": "The length of a vector is the square root of the dot product of the vector by itself: ‖𝐚‖ = √𝐚⋅𝐚.",
+   "cites": [
+    9,
+    25
+   ]
+  },
+  {
+   "prompt": "With ordinary numbers, if ab = ac and a is not zero, then b must equal c. Does the same hold for dot products?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, cancellation works for every pair of vectors"
+    },
+    {
+     "id": "b",
+     "label": "No, b and c can differ when their difference is perpendicular to a"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only in three dimensions"
+    },
+    {
+     "id": "d",
+     "label": "No, because the dot product is not distributive"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dot product does not obey the cancellation law: 𝐚⋅𝐛 = 𝐚⋅𝐜 only means 𝐚 is perpendicular to (𝐛 − 𝐜), which can be non-zero.",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "prompt": "You know two vectors' lengths and their dot product. What can you work out about their directions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which one is longer"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, since direction needs the cross product"
+    },
+    {
+     "id": "c",
+     "label": "The cosine of the angle between them"
+    },
+    {
+     "id": "d",
+     "label": "Whether either one is a scalar"
+    }
+   ],
+   "answer": "c",
+   "explain": "Since 𝐚⋅𝐛 = ‖𝐚‖‖𝐛‖cos θ, the cosine of the angle is the dot product divided by the product of the lengths.",
+   "cites": [
+    6,
+    9,
+    23
+   ]
+  }
+ ]
+}

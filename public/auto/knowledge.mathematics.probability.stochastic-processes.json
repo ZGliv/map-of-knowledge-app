@@ -1,0 +1,544 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes",
+ "name": "Stochastic processes",
+ "summary": [
+  {
+   "text": "A stochastic process is a family of random variables in a probability space, where the index of the family often has the interpretation of time.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Stochastic processes model systems that appear to vary randomly, such as a bacterial population growing, an electrical current fluctuating, or a gas molecule moving.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Two classic examples are the Wiener process, used by Bachelier for price changes, and the Poisson process, used by Erlang for counts of phone calls.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Index set",
+   "value": "Historically a subset of the real line, read as time",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "State space",
+   "value": "The shared space of values each random variable takes",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "One outcome",
+   "value": "A single outcome is called a sample function or realization",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Time types",
+   "value": "Countable index sets give discrete time; intervals give continuous time",
+   "cites": [
+    28,
+    29
+   ]
+  },
+  {
+   "label": "Name in English",
+   "value": "The term stochastic process first appeared in a 1934 paper by Doob",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A phone company counts how many calls arrive in each period. Which classic process did Erlang use for this kind of count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Wiener process"
+    },
+    {
+     "id": "b",
+     "label": "The Poisson process"
+    },
+    {
+     "id": "c",
+     "label": "A random field"
+    },
+    {
+     "id": "d",
+     "label": "A martingale"
+    }
+   ],
+   "answer": "b",
+   "explain": "Erlang used the Poisson process to model the number of phone calls in a given period of time. Bachelier used the Wiener process for price changes.",
+   "cites": [
+    7,
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes:q1"
+  },
+  {
+   "prompt": "A shop records its stock level once at the close of each day, so the index is day 1, day 2, day 3 and so on. Which kind of process is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Continuous-time, since days pass without a break"
+    },
+    {
+     "id": "b",
+     "label": "A random field, since there are many days"
+    },
+    {
+     "id": "c",
+     "label": "A process with no index set"
+    },
+    {
+     "id": "d",
+     "label": "Discrete-time, since the index set is countable"
+    }
+   ],
+   "answer": "d",
+   "explain": "When the index set has a finite or countable number of elements, such as the natural numbers, time is discrete. An interval of the real line gives continuous time.",
+   "cites": [
+    28,
+    29,
+    30
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes:q2"
+  },
+  {
+   "prompt": "A process counts the customers in a queue at each moment, taking the values 0, 1, 2 and so on. What is its state space like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real-valued, taking any number on the line"
+    },
+    {
+     "id": "b",
+     "label": "Integer-valued, taking whole-number values"
+    },
+    {
+     "id": "c",
+     "label": "A vector process in several dimensions"
+    },
+    {
+     "id": "d",
+     "label": "Not defined, since counts are not numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the state space is the integers or natural numbers, the process is called a discrete or integer-valued stochastic process.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes:q3"
+  },
+  {
+   "prompt": "You simulate a random process once and keep the one particular path that came out. What is that single outcome called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An increment"
+    },
+    {
+     "id": "b",
+     "label": "The index set"
+    },
+    {
+     "id": "c",
+     "label": "The state space"
+    },
+    {
+     "id": "d",
+     "label": "A realization"
+    }
+   ],
+   "answer": "d",
+   "explain": "A single outcome of a stochastic process is called a sample function or realization, among other names.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes:q4"
+  },
+  {
+   "prompt": "A scientist assigns a random temperature to every point on a flat map, indexing the random variables by the plane. What is this collection usually called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A random field"
+    },
+    {
+     "id": "b",
+     "label": "A random sequence"
+    },
+    {
+     "id": "c",
+     "label": "A discrete-time process"
+    },
+    {
+     "id": "d",
+     "label": "An integer-valued process"
+    }
+   ],
+   "answer": "a",
+   "explain": "When random variables are indexed by the plane or a higher-dimensional Euclidean space, the collection is usually called a random field.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes:q5"
+  },
+  {
+   "prompt": "Why are discrete-time processes considered easier to study than continuous-time ones?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Continuous time has no random variables in it"
+    },
+    {
+     "id": "b",
+     "label": "Discrete time never involves any randomness at all"
+    },
+    {
+     "id": "c",
+     "label": "Continuous time needs harder mathematics, as its index set is uncountable"
+    },
+    {
+     "id": "d",
+     "label": "Discrete time can only describe systems with finite states"
+    }
+   ],
+   "answer": "c",
+   "explain": "Continuous-time processes require more advanced techniques and knowledge, particularly because the index set is uncountable.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Stochastic processes",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Stochastic process",
+  "url": "https://en.wikipedia.org/wiki/Stochastic_process",
+  "revision": 1380363372
+ },
+ "pack": {
+  "id": "auto-probability-stochastic-processes",
+  "title": "Randomness that unfolds",
+  "question": "What is a random process, and what are its moving parts?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Stochastic processes"
+  ],
+  "hue": 40,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Stochastic processes",
+    "credit": "Ainali · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Randomness that unfolds",
+    "hook": "Prices, phone calls and gas molecules all change by chance, and one idea describes them all."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-stochastic-processes:1",
+    "transfer": false,
+    "prompt": "A mathematician wants to model price changes on a stock exchange and also the number of phone calls in a period. Which pairing matches the classic uses?",
+    "explain": "Bachelier used the Wiener process to model price changes on the Paris Bourse, while Erlang used the Poisson process to model phone calls in a period.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Wiener process for prices, Poisson process for call counts",
+        "feedback": ""
+       },
+       {
+        "id": "c",
+        "label": "Wiener process for both prices and call counts",
+        "feedback": "The two classic processes were each proposed for a different kind of phenomenon."
+       },
+       {
+        "id": "a",
+        "label": "Poisson process for prices, Wiener process for call counts",
+        "feedback": "This reverses the classic uses; Bachelier used the Wiener process for prices."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-stochastic-processes:2",
+    "transfer": false,
+    "prompt": "Match each part of a stochastic process to what it is.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Index set"
+     },
+     {
+      "id": "l1",
+      "label": "State space"
+     },
+     {
+      "id": "l2",
+      "label": "Increment"
+     },
+     {
+      "id": "l3",
+      "label": "Realization"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "The space of values each random variable takes"
+     },
+     {
+      "id": "r2",
+      "label": "How much the process changes between two index values"
+     },
+     {
+      "id": "r3",
+      "label": "A single outcome of the whole process"
+     },
+     {
+      "id": "r0",
+      "label": "The set that labels the random variables, often read as time"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "A process is a collection of random variables labelled by an index set, each taking values in the state space; one outcome is a realization."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-stochastic-processes:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each index set by the kind of time it gives.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "The integers"
+     },
+     {
+      "id": "i1",
+      "label": "The natural numbers"
+     },
+     {
+      "id": "i2",
+      "label": "A finite set of numbers"
+     },
+     {
+      "id": "i3",
+      "label": "An interval of the real line"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Discrete time"
+     },
+     {
+      "id": "g1",
+      "label": "Continuous time"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "A finite or countable index set gives discrete time, while an interval of the real line gives continuous time."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-stochastic-processes:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A process has the integers as its index set and the real line as its state space."
+     },
+     {
+      "id": "b",
+      "text": "Because the index set is the integers, it is a discrete-time process."
+     },
+     {
+      "id": "c",
+      "text": "Because the state space is the real line, it is a real-valued process."
+     },
+     {
+      "id": "d",
+      "text": "So it must be an integer-valued process, since it is discrete-time."
+     }
+    ],
+    "answer": "d",
+    "explain": "Integer-valued describes the state space, not the index set. With the real line as state space, the process is real-valued."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A stochastic process is a collection of random variables indexed by a set, often time, each taking values in a shared state space.",
+    "connections": [
+     {
+      "title": "Random walks",
+      "place": "Stochastic processes",
+      "node": "knowledge.mathematics.probability.stochastic-processes.random-walks"
+     },
+     {
+      "title": "Markov chains",
+      "place": "Stochastic processes",
+      "node": "knowledge.mathematics.probability.stochastic-processes.markov-chains"
+     },
+     {
+      "title": "Brownian motion",
+      "place": "Stochastic processes",
+      "node": "knowledge.mathematics.probability.stochastic-processes.brownian-motion"
+     },
+     {
+      "title": "Martingales",
+      "place": "Stochastic processes",
+      "node": "knowledge.mathematics.probability.stochastic-processes.martingales"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Bachelier used the Wiener process to model price changes on the Paris Bourse, while Erlang used the Poisson process to model phone calls in a period.",
+    "source": "Wikipedia sentences 7, 8, 9"
+   },
+   {
+    "claim": "A process is a collection of random variables labelled by an index set, each taking values in the state space; one outcome is a realization.",
+    "source": "Wikipedia sentences 19, 20, 22, 24, 25"
+   },
+   {
+    "claim": "A finite or countable index set gives discrete time, while an interval of the real line gives continuous time.",
+    "source": "Wikipedia sentences 28, 29"
+   },
+   {
+    "claim": "Integer-valued describes the state space, not the index set. With the real line as state space, the process is real-valued.",
+    "source": "Wikipedia sentences 28, 33, 34"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A stochastic process, also called a random process, is a family of random variables. Each variable in the family is matched to one element of a set, known as the index set. Very often that index is understood as time.",
+    "cites": [
+     1,
+     12,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Stochastic processes serve as models of systems that seem to change at random. Examples include a growing population of bacteria, an electric current that jitters because of thermal noise, and a moving gas molecule. They are used in biology, chemistry, ecology, neuroscience, physics, signal processing, computer science and telecommunications, among other fields. Market prices that seem to shift at random have also made them a major tool in finance.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "The working parts",
+    "text": "Every random variable in the family takes its values from one shared space, called the state space, such as the integers or the real line. In the past the index set was part of the real line, such as the natural numbers, which is why it is read as time. The amount a process changes between two index values is called an increment. Because it is random, a process can turn out in many ways, and one particular outcome is called a sample function or realization.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Discrete and continuous time",
+    "text": "One common way to sort processes is by their index set. If it has a finite or countable number of elements, like the integers, the process runs in discrete time. If it is an interval of the real line, time is continuous. Discrete-time processes count as easier to study, since continuous-time ones demand more advanced mathematics, largely because their index set is uncountable.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Two classic examples",
+    "text": "Two processes are widely seen as central to the whole theory. Louis Bachelier used the Wiener process, also known as the Brownian motion process, to model price changes on the Paris Bourse. Erlang used the Poisson process to model how many phone calls occur in a given stretch of time. Both were invented again and again, independently, in various settings and countries, before and after these two men.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Where the word comes from",
+    "text": "In English, stochastic first meant \"pertaining to conjecturing\", and it grew from a Greek word for guessing, or aiming at a mark. Jakob Bernoulli, in his 1713 Latin work Ars Conjectandi, used a phrase translated as the art of conjecturing or stochastics. Joseph Doob was the first to use the term stochastic process in English, in a paper from 1934.",
+    "cites": [
+     36,
+     37,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mit-6-262",
+   "kind": "course",
+   "title": "Discrete Stochastic Processes",
+   "by": "Prof. Robert Gallager",
+   "url": "https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/",
+   "note": "A full MIT course with video lectures on stochastic processes: Poisson processes, Markov chains, random walks and more.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

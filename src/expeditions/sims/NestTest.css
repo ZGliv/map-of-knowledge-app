@@ -1,0 +1,26 @@
+/* Nested-groups sim. Scoped under .expedition-shell like the rest of the player. */
+.expedition-shell .nest { max-width: 780px; border: 1px solid var(--rule); border-radius: 4px; padding: 14px 16px 16px; background: radial-gradient(120% 90% at 50% 0%, var(--panel), var(--deep)); }
+.expedition-shell .nest__traits { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.expedition-shell .nest__trait { min-height: 44px; padding: 9px 14px; border: 1px dashed var(--border); border-radius: 3px; background: none; font-size: 15px; color: var(--secondary); transition: background .2s, border-color .2s, color .2s; }
+.expedition-shell .nest__trait[aria-pressed="true"] { border-style: solid; border-color: var(--accent); background: var(--accent-soft); color: var(--bright); }
+.expedition-shell .nest__tree { position: relative; transition: height .35s ease; max-width: 560px; }
+.expedition-shell .nest__group, .expedition-shell .nest__taxon { position: absolute; right: 0; height: 34px; display: flex; align-items: center; transition: top .35s ease, left .35s ease; animation: xp-rise .3s ease-out; }
+.expedition-shell .nest__name { font: 600 13.5px var(--sans); color: var(--accent); letter-spacing: .2px; white-space: nowrap; }
+.expedition-shell .nest__bar { position: absolute; left: 3px; top: 26px; width: 10px; border-left: 2px solid var(--accent); border-bottom: 2px solid var(--accent); border-bottom-left-radius: 4px; opacity: .8; transition: height .35s ease; pointer-events: none; }
+.expedition-shell .nest__group.is-cross .nest__name { color: var(--wrong); }
+.expedition-shell .nest__group.is-cross .nest__bar { border-color: var(--wrong); border-left-style: dashed; opacity: 1; }
+.expedition-shell .nest__taxon { font: 17px var(--serif); color: var(--text); padding-left: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.expedition-shell .nest__taxon.is-find { color: var(--bright); font-style: italic; }
+.expedition-shell .nest__taxon.is-fits::before, .expedition-shell .nest__taxon.is-breaks::before { content: ''; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; flex: none; }
+.expedition-shell .nest__taxon.is-fits::before { background: var(--right); }
+.expedition-shell .nest__taxon.is-breaks::before { background: var(--wrong); }
+.expedition-shell .nest__verdict { margin: 12px 0 0; font: italic 17px/1.45 var(--serif); color: var(--accent); }
+.expedition-shell .nest__verdict.is-breaks { color: var(--wrong); }
+.expedition-shell .nest__finds { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--rule); }
+.expedition-shell .nest__finds .chip { min-height: 44px; text-align: left; }
+
+@media (max-width: 720px) {
+  .expedition-shell .nest { padding: 12px 10px 14px; }
+  .expedition-shell .nest__trait { font-size: 14px; padding: 8px 11px; }
+  .expedition-shell .nest__taxon { font-size: 16px; }
+}

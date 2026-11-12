@@ -1,0 +1,67 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What a divisibility rule is",
+   "cites": [
+    1,
+    2,
+    3
+   ],
+   "text": "A divisibility rule is a shortcut for telling whether a whole number divides evenly by some fixed number without doing the division. Most rules work by looking at the number's digits. Every base, or radix, has its own different tests; the ones here are for ordinary base-10 numbers. Martin Gardner explained and spread these rules in his \"Mathematical Games\" column in Scientific American in September 1962."
+  },
+  {
+   "heading": "How the rules work",
+   "cites": [
+    4,
+    5,
+    6
+   ],
+   "text": "Each rule swaps your number for one that is usually smaller but keeps the same divisibility. Unless a rule says otherwise, you then test the new number against the same divisor. Sometimes you can repeat the step until the answer is plain. For other rules, such as those that look at the last few digits, the result has to be checked some other way."
+  },
+  {
+   "heading": "Looking at the end: 2, 4 and 5",
+   "cites": [
+    8,
+    9,
+    10,
+    16,
+    24,
+    25
+   ],
+   "text": "Some divisors only need the end of the number. For 2, keep just the last digit: if it divides by 2, the whole number does, so 376 passes because 6 does. For 5, the last digit must be 0 or 5. For 4, check the number formed by the last two digits. This works because 100 is divisible by 4, so the hundreds, thousands and beyond only add more multiples of 4."
+  },
+  {
+   "heading": "Adding digits: 3 and 9",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "text": "For 3 and 9 you add up the digits instead. A number is divisible by 3 exactly when its digit sum is, and the same goes for 9. For 492, the digits add to 4 + 9 + 2 = 15, and you then ask whether 15 divides by 3. If you keep adding digits until one digit is left, that digit is the remainder after dividing by nine, unless it is 9 itself, which means the number divides by nine with nothing left over."
+  },
+  {
+   "heading": "Combining tests: 6",
+   "cites": [
+    32,
+    35,
+    36,
+    37,
+    38
+   ],
+   "text": "Some rules are built from others. Any number that is a multiple of both 2 and 3 is a multiple of 6, so you run both tests. Take 324: its last digit, 4, is even, so it divides by 2. Its digits add to 3 + 2 + 4 = 9, a multiple of 3, so 324 is divisible by 6."
+  },
+  {
+   "heading": "A repeating test: 7",
+   "cites": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "text": "Seven needs a test you repeat. Take off the last digit, double it, and subtract it from the number made by the digits that remain. Keep going until you reach a number whose divisibility by 7 you already know; the original number passes exactly when that one does. For 371, 37 − 2 = 35, then 3 − 10 = −7, and since −7 is divisible by 7, so is 371."
+  }
+ ]
+}

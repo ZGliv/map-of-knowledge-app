@@ -1,0 +1,353 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing",
+ "name": "Quantum computing",
+ "summary": [
+  {
+   "text": "A quantum computer stores and processes information in quantum states, using effects such as superposition, interference and entanglement.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its basic unit is the qubit, which can sit in a superposition of two states, and interference is used to boost the odds of the wanted measurement result.",
+   "cites": [
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "text": "It could solve some problems exponentially faster than classical machines, but today's hardware is largely experimental and suits only specialised tasks.",
+   "cites": [
+    3,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Basic unit",
+   "value": "The qubit, which can be a superposition of two states",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Shor's algorithm",
+   "value": "1994 method for factoring integers in polynomial time",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Grover's algorithm",
+   "value": "1996 speedup for unstructured search",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "First small machine",
+   "value": "A two-qubit computer in 1998 showed feasibility",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Government funding",
+   "value": "$10 billion worldwide by April 2025",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A light switch is either on or off. What can a qubit do before it is measured that a switch cannot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Switch faster than any other component"
+    },
+    {
+     "id": "b",
+     "label": "Hold a charge for years without any loss"
+    },
+    {
+     "id": "c",
+     "label": "Exist in a combination of both of its states"
+    },
+    {
+     "id": "d",
+     "label": "Store a whole page of text in one unit"
+    }
+   ],
+   "answer": "c",
+   "explain": "A qubit can exist in a linear combination of states called a superposition, unlike a classical bit.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing:q1"
+  },
+  {
+   "prompt": "You measure a qubit that was in a superposition. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One of its two states, chosen by a probabilistic rule"
+    },
+    {
+     "id": "b",
+     "label": "A blend of both states, shown together"
+    },
+    {
+     "id": "c",
+     "label": "Always the state that is listed first"
+    },
+    {
+     "id": "d",
+     "label": "A third state outside the original two"
+    }
+   ],
+   "answer": "a",
+   "explain": "The result of measuring a qubit is one of the two states, given by a probabilistic rule.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing:q2"
+  },
+  {
+   "prompt": "A lab leaves its qubits poorly shielded from stray heat and vibration. What is the likely result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The qubits compute faster because they are warmer"
+    },
+    {
+     "id": "b",
+     "label": "The qubits copy themselves to compensate"
+    },
+    {
+     "id": "c",
+     "label": "The machine simply switches back to being classical"
+    },
+    {
+     "id": "d",
+     "label": "Noise creeps in and causes errors in the calculation"
+    }
+   ],
+   "answer": "d",
+   "explain": "A qubit not isolated from its environment suffers decoherence, which introduces noise into calculations.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing:q3"
+  },
+  {
+   "prompt": "How does a quantum algorithm make the right answer likely to show up when you measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It tries every answer one at a time and keeps the best"
+    },
+    {
+     "id": "b",
+     "label": "It steers the qubits so wave interference amplifies the desired result"
+    },
+    {
+     "id": "c",
+     "label": "It repeats the run until luck gives the right answer"
+    },
+    {
+     "id": "d",
+     "label": "It copies the qubits and votes on the majority"
+    }
+   ],
+   "answer": "b",
+   "explain": "By manipulating qubits in a particular way, interference amplifies the probability of the desired measurement result; algorithm design is about creating that amplification.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing:q4"
+  },
+  {
+   "prompt": "Why do security experts keep an eye on progress in large quantum computers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They could break widely used public-key encryption such as RSA"
+    },
+    {
+     "id": "b",
+     "label": "They will use up the world's supply of electricity"
+    },
+    {
+     "id": "c",
+     "label": "They make every password longer automatically"
+    },
+    {
+     "id": "d",
+     "label": "They can read data stored on unplugged drives"
+    }
+   ],
+   "answer": "a",
+   "explain": "Shor's algorithm means a large enough quantum computer could factor efficiently and so compromise RSA and Diffie-Hellman.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing:q5"
+  },
+  {
+   "prompt": "A lab shows its quantum device beats a classical computer at one narrow task. What does that show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Quantum machines are ready to replace laptops"
+    },
+    {
+     "id": "b",
+     "label": "Classical computing is now obsolete for science"
+    },
+    {
+     "id": "c",
+     "label": "A scientific milestone, though the task may not be useful"
+    },
+    {
+     "id": "d",
+     "label": "The machine is free of errors and noise"
+    }
+   ],
+   "answer": "c",
+   "explain": "Such tasks are not necessarily useful, so demonstrations are best seen as scientific milestones rather than evidence for near-term deployment.",
+   "cites": [
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/IBM_Quantum_Computer_Demo_at_ITUWTSA_2024%2C_Delhi_2.jpg/960px-IBM_Quantum_Computer_Demo_at_ITUWTSA_2024%2C_Delhi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Quantum computing",
+  "credit": "Dev Jadiya",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:IBM_Quantum_Computer_Demo_at_ITUWTSA_2024,_Delhi_2.jpg"
+ },
+ "source": {
+  "title": "Quantum computing",
+  "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+  "revision": 1383736173
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Computing with quantum states",
+    "text": "A quantum computer represents and processes information using quantum states. It makes use of effects such as superposition, interference and entanglement. For some calculations it has the potential to be exponentially faster than an ordinary computer. A large-scale one could, for example, break widely used encryption and help physicists run physical simulations.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "The qubit",
+    "text": "The basic unit of information is the qubit, or quantum bit, which does the job a bit does in an ordinary, classical computer. A classical bit is in one of two states, but a qubit can be in a linear combination of states, called a quantum superposition. Measuring a qubit gives one of the two states, according to a probability rule. By handling qubits in a particular way, a quantum computer uses wave interference to boost the chance of the wanted result. Designing quantum algorithms means creating procedures that do this boosting.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Why it is still hard",
+    "text": "Quantum computers are not yet practical for real-world uses. A qubit that is not well isolated from its surroundings suffers quantum decoherence, which brings noise, or error, into calculations. Governments have funded research into qubits that stay coherent longer and make fewer errors, and global government investment reached $10 billion by April 2025. Builders use superconductors, which carry current with no electrical resistance, and ion traps, which hold a single atomic particle in place with electromagnetic fields.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     18
+    ]
+   },
+   {
+    "heading": "Early ideas",
+    "text": "Quantum theory arose in the 1920s, and computers came decades later; the two fields stayed separate until quantum computing joined them. In 1980 Paul Benioff introduced the quantum Turing machine, a simplified computer described with quantum theory. As simulating quantum behaviour on digital computers grew exponentially costly, Yuri Manin and Richard Feynman each suggested that hardware built on quantum effects might do it more efficiently. In 1984 Charles Bennett and Gilles Brassard showed that quantum key distribution could improve information security.",
+    "cites": [
+     19,
+     20,
+     21,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Shor and Grover",
+    "text": "In 1994 Peter Shor found polynomial-time quantum algorithms for factoring integers and for the discrete logarithm problem. A big enough quantum computer could therefore break widely used public-key systems: fast factoring would undo RSA, and a fast discrete-logarithm method would undo Diffie–Hellman key exchange. These implications drew attention to quantum computing. In 1996 Grover's algorithm gave a quantum speedup for unstructured search. That same year Seth Lloyd proved that a quantum computer can simulate quantum systems while avoiding the exponential overhead that classical simulation requires.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "From two qubits onward",
+    "text": "Experimenters built small quantum computers from trapped ions and superconductors, and in 1998 a two-qubit machine showed the idea was technically feasible. Later experiments added qubits and cut error rates. The field turned more and more to quantum error correction as a way to control decoherence.",
+    "cites": [
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Milestones, not products",
+    "text": "Researchers have claimed that quantum devices can beat classical computers on specific tasks, which is called quantum advantage or quantum supremacy. Those tasks are not necessarily useful in the real world. So, as of 2026, such demonstrations are best seen as scientific milestones rather than proof of near-term use.",
+    "cites": [
+     15,
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "sep-quantum-computing",
+   "kind": "article",
+   "title": "Quantum Computing",
+   "by": "Michael Cuffaro and Amit Hagar",
+   "url": "https://plato.stanford.edu/entries/qt-quantcomp/",
+   "note": "A Stanford Encyclopedia entry on quantum computing basics, algorithms, how machines are built and the open questions."
+  },
+  {
+   "id": "kurzgesagt-quantum-computers",
+   "kind": "video",
+   "title": "Quantum Computers Explained – Limits of Human Technology",
+   "by": "Kurzgesagt – In a Nutshell",
+   "url": "https://www.youtube.com/watch?v=JhHMJCUmq28",
+   "minutes": 7,
+   "note": "An animated explainer on how qubits work and what quantum computers could and could not do."
+  },
+  {
+   "id": "3b1b-quantum-computing",
+   "kind": "video",
+   "title": "But what is quantum computing?  (Grover's Algorithm)",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=RQWpF2Gb-gU",
+   "note": "3Blue1Brown builds up how a quantum computer works through Grover's search algorithm."
+  }
+ ]
+}

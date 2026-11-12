@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "An event is a subset of the sample space, and when the sample space is finite every subset is typically treated as an event.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "For infinite sample spaces such as the real numbers, giving a probability to every subset runs into difficulties with badly behaved, nonmeasurable sets, so events are restricted to a smaller family.",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "text": "In the measure-theoretic view an event is an element of a chosen σ-algebra, and a subset outside it is not an event and has no probability.",
+   "cites": [
+    18,
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Complement",
+   "value": "Each event defines the event not occurring",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Bernoulli trial",
+   "value": "Did the event occur or not?",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "σ-algebra rule",
+   "value": "Closed under complementation and countable unions",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Natural choice",
+   "value": "The Borel measurable sets, from unions and intersections of intervals",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "More useful in practice",
+   "value": "The larger class of Lebesgue measurable sets",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A die has six faces, so the sample space has a finite number of results. Could the group made of the faces one and five be treated as an event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, events must have at least three results"
+    },
+    {
+     "id": "b",
+     "label": "Yes, any subset of a finite sample space can be an event"
+    },
+    {
+     "id": "c",
+     "label": "No, only the whole list of results can be an event"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if both faces are equally likely"
+    }
+   ],
+   "answer": "b",
+   "explain": "When the sample space is finite, any subset of it is typically an event.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "Tomorrow's weather is described by the event 'it rains'. What else does that event automatically define?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A matching event for it not raining, giving a yes-or-no question"
+    },
+    {
+     "id": "b",
+     "label": "A second rainy day that must follow the first"
+    },
+    {
+     "id": "c",
+     "label": "A probability of one half for each result"
+    },
+    {
+     "id": "d",
+     "label": "A rule that no other event can be defined"
+    }
+   ],
+   "answer": "a",
+   "explain": "An event defines a complementary event, the event not occurring, and together they make a Bernoulli trial: did the event occur or not?",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "A measurement can be any real number. Why not simply declare every subset of the real numbers to be an event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because real numbers cannot be measured at all"
+    },
+    {
+     "id": "b",
+     "label": "Because there are too few subsets to choose from"
+    },
+    {
+     "id": "c",
+     "label": "Because finite sample spaces already use up all the subsets"
+    },
+    {
+     "id": "d",
+     "label": "Because badly behaved nonmeasurable sets resist getting probabilities"
+    }
+   ],
+   "answer": "d",
+   "explain": "Attempts to define probabilities for all subsets of the real numbers run into difficulties with nonmeasurable sets, so attention is restricted to a more limited family.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "A subset of the sample space is left out of the chosen σ-algebra. Does that subset have a probability?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a very small one"
+    },
+    {
+     "id": "b",
+     "label": "Yes, equal to its complement's"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only when the sample space is finite"
+    },
+    {
+     "id": "d",
+     "label": "No, it is not an event"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any subset that is not an element of the σ-algebra is not an event and does not have a probability.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "prompt": "A family of sets is called closed under complementation and countable unions. If one set is in the family, what else must be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The set made of its complement"
+    },
+    {
+     "id": "b",
+     "label": "Every other set in the sample space"
+    },
+    {
+     "id": "c",
+     "label": "Only the empty set"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, because one set is enough"
+    }
+   ],
+   "answer": "a",
+   "explain": "Being closed under complementation means the complement of any member is also a member, and a σ-algebra has this property.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "A statistician has set up a sensible probability space. Will an event she cares about be missing from its σ-algebra?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since most useful events are left out"
+    },
+    {
+     "id": "b",
+     "label": "No, with a reasonable setup all events of interest are included"
+    },
+    {
+     "id": "c",
+     "label": "Yes, since only complements are included"
+    },
+    {
+     "id": "d",
+     "label": "No, since every subset is an event anyway"
+    }
+   ],
+   "answer": "b",
+   "explain": "With a reasonable specification of the probability space, all events of interest are elements of the σ-algebra.",
+   "cites": [
+    20
+   ]
+  }
+ ]
+}

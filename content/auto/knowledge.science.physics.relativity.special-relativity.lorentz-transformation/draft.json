@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "The Lorentz transformations convert the space and time coordinates of an event from one frame to another frame moving at constant velocity relative to it.",
+   "cites": [
+    1,
+    10
+   ]
+  },
+  {
+   "text": "They replace the Galilean transformation of Newtonian physics, which is a good approximation only at speeds much less than the speed of light.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "text": "They let observers disagree about distances, elapsed times and even the order of events, while every one of them measures the same speed of light.",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Dutch physicist Hendrik Lorentz",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Speed limit",
+   "value": "Relative speed v must be smaller than c",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "What stays fixed",
+   "value": "The spacetime interval between any two events",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Boost",
+   "value": "A rotation-free Lorentz transformation",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Wider family",
+   "value": "Adding translations gives the Poincare group",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A rocket is firing its engines hard and speeding up. Can the Lorentz transformations link its frame to Earth's frame?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, they work for any frame at all"
+    },
+    {
+     "id": "b",
+     "label": "No, they refer to transformations between frames with no acceleration"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only once its engines have stopped firing"
+    },
+    {
+     "id": "d",
+     "label": "No, because rockets are too small to count"
+    }
+   ],
+   "answer": "b",
+   "explain": "The term refers only to transformations between inertial frames, which move at constant velocity.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "Two observers in relative motion disagree about the order in which two events happened. Does this break the theory?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since events must have one fixed order"
+    },
+    {
+     "id": "b",
+     "label": "Yes, unless their clocks were synchronized"
+    },
+    {
+     "id": "c",
+     "label": "No, but they must at least agree on the distances"
+    },
+    {
+     "id": "d",
+     "label": "No, the transformations allow it while keeping light speed the same"
+    }
+   ],
+   "answer": "d",
+   "explain": "Observers at different velocities may measure different distances, times and orderings, always so that light speed is the same in all inertial frames.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "A car and a rocket both use the Lorentz transformations, but the car's answer looks just like the old Galilean one. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The car's speed is tiny next to light, so the Lorentz factor is nearly 1"
+    },
+    {
+     "id": "b",
+     "label": "Cars are made of ordinary matter rather than particles"
+    },
+    {
+     "id": "c",
+     "label": "Lorentz's formulas only apply to light itself"
+    },
+    {
+     "id": "d",
+     "label": "The car's frame has no clocks to compare"
+    }
+   ],
+   "answer": "a",
+   "explain": "When speed is much smaller than c, the Lorentz factor is negligibly different from 1, and the Galilean version is a good approximation.",
+   "cites": [
+    4,
+    12
+   ]
+  },
+  {
+   "prompt": "A student plugs a relative speed bigger than the speed of light into the transformation and gets nonsense. What is the lesson?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The formula needs more decimal places to work"
+    },
+    {
+     "id": "b",
+     "label": "It only works below the speed of light"
+    },
+    {
+     "id": "c",
+     "label": "The student must switch to Galilean formulas instead"
+    },
+    {
+     "id": "d",
+     "label": "The nonsense shows the frames are accelerating"
+    }
+   ],
+   "answer": "b",
+   "explain": "The value of v must be smaller than c for the transformation to produce functional solutions.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Two observers in different inertial frames each calculate something about the same pair of events. Which quantity do they agree on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The time between the events"
+    },
+    {
+     "id": "b",
+     "label": "The spacetime interval between them"
+    },
+    {
+     "id": "c",
+     "label": "The distance between the events"
+    },
+    {
+     "id": "d",
+     "label": "The order in which they happened"
+    }
+   ],
+   "answer": "b",
+   "explain": "In Minkowski space the Lorentz transformations preserve the spacetime interval between any two events.",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "prompt": "Before 1905 the transformations were used with an aether to explain light's speed. What did Einstein do differently?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He derived them from two principles and dropped the aether as unneeded"
+    },
+    {
+     "id": "b",
+     "label": "He kept the aether but added a moving frame to it"
+    },
+    {
+     "id": "c",
+     "label": "He measured them directly in the lab for the first time"
+    },
+    {
+     "id": "d",
+     "label": "He borrowed Voigt's version without changing it"
+    }
+   ],
+   "answer": "a",
+   "explain": "Einstein derived the transformation from the principle of relativity and constant light speed, abandoning the aether as unnecessary.",
+   "cites": [
+    35,
+    36
+   ]
+  }
+ ]
+}

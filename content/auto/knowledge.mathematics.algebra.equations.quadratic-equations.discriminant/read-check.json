@@ -1,0 +1,30 @@
+{
+ "readHash": "6d4daf5ad0cbca00633c81b5b2ebbcdd839dbaed",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Expression in coefficients, fixed value, polynomial function of coefficients from [1],[2],[8]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Under square root, delta = 0 and delta < 0 cases, (x-2)^2 example from [3]-[7],[33]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Vertex formula, geometric sign explanation, a^2(r1-r2)^2, rational roots criterion from [31],[32],[34],[35]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Multiple root gives zero, historical sign choice, cubic cases, higher degree less info from [10],[11],[16],[23]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Unwieldy for higher degree, 16/59/246 terms, linear set to 1, no convention for constant from [25]-[29]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Sylvester 1851, uses, related concepts from [12]-[14]."
+  }
+ }
+}

@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.biomolecules.protein",
+ "name": "Protein",
+ "summary": [
+  {
+   "text": "Proteins are large biomolecules made of one or more long chains of amino acid residues.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They catalyse metabolic reactions, provide structure to cells and organisms, transport molecules, and respond to stimuli.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "A protein's amino acid sequence is dictated by its gene, and it usually folds into a specific 3D structure that determines its activity.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Building blocks",
+   "value": "Amino acid residues joined by peptide bonds",
+   "cites": [
+    1,
+    7
+   ]
+  },
+  {
+   "label": "Standard amino acids",
+   "value": "The genetic code specifies 20 of them",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Average lifespan",
+   "value": "1 to 2 days in mammalian cells",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Named in 1838",
+   "value": "Described by Mulder, named by Berzelius",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Urease",
+   "value": "Shown to be a protein by Sumner in 1926",
+   "cites": [
+    44,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab makes a chain of 15 amino acid residues. What would it usually be called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A protein, since any chain of amino acids counts"
+    },
+    {
+     "id": "b",
+     "label": "A peptide, since short chains are rarely considered proteins"
+    },
+    {
+     "id": "c",
+     "label": "A cofactor, since it is smaller than a protein"
+    },
+    {
+     "id": "d",
+     "label": "A proteasome, since it is a short assembly"
+    }
+   ],
+   "answer": "b",
+   "explain": "Short polypeptides of fewer than 20 to 30 residues are rarely considered proteins and are commonly called peptides.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.protein:q1"
+  },
+  {
+   "prompt": "A cell makes a protein that folds wrongly. What usually happens to it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lasts as long as a normal protein, since lifespan is fixed"
+    },
+    {
+     "id": "b",
+     "label": "It is turned into a cofactor for other proteins"
+    },
+    {
+     "id": "c",
+     "label": "It is exported whole to be rebuilt outside the cell"
+    },
+    {
+     "id": "d",
+     "label": "It is degraded more rapidly than normal, often by the proteasome"
+    }
+   ],
+   "answer": "d",
+   "explain": "Abnormal or misfolded proteins are degraded more rapidly, often by the proteasome.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.protein:q2"
+  },
+  {
+   "prompt": "Two proteins are made from genes with different nucleotide sequences. Why would they likely work differently?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their amino acid sequences differ, which usually changes how they fold into 3D shapes"
+    },
+    {
+     "id": "b",
+     "label": "Genes decide only how long a protein lasts, not its makeup"
+    },
+    {
+     "id": "c",
+     "label": "Their genes change how many peptide bonds a cell can break"
+    },
+    {
+     "id": "d",
+     "label": "Different genes make different cofactors but identical proteins"
+    }
+   ],
+   "answer": "a",
+   "explain": "A protein's amino acid sequence is dictated by its gene, and the sequence usually results in folding into a specific 3D structure that determines its activity.",
+   "cites": [
+    3,
+    8
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.protein:q3"
+  },
+  {
+   "prompt": "An enzyme works only when a metal ion is bound to it. What is this helper called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A peptide"
+    },
+    {
+     "id": "b",
+     "label": "A proteasome"
+    },
+    {
+     "id": "c",
+     "label": "A cofactor"
+    },
+    {
+     "id": "d",
+     "label": "A polypeptide"
+    }
+   ],
+   "answer": "c",
+   "explain": "Proteins that require a non-protein chemical compound or ion for biological activity use what are known as cofactors.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.protein:q4"
+  },
+  {
+   "prompt": "Why do animals need protein in their diet?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It supplies essential amino acids that the body cannot make"
+    },
+    {
+     "id": "b",
+     "label": "It is copied directly into muscle without being broken down"
+    },
+    {
+     "id": "c",
+     "label": "It is needed only to be burned for energy"
+    },
+    {
+     "id": "d",
+     "label": "It keeps cofactors topped up in every cell"
+    }
+   ],
+   "answer": "a",
+   "explain": "Dietary protein is digested into amino acids; essential ones cannot be made by animals, and the pool is mostly used to make new body proteins.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.protein:q5"
+  },
+  {
+   "prompt": "In the 1800s, Mulder found that nearly all proteins shared one empirical formula. What did he wrongly conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That proteins are made of sugars joined in chains"
+    },
+    {
+     "id": "b",
+     "label": "That proteins might be one single type of very large molecule"
+    },
+    {
+     "id": "c",
+     "label": "That each protein needs its own unique element"
+    },
+    {
+     "id": "d",
+     "label": "That proteins cannot be broken into smaller products"
+    }
+   ],
+   "answer": "b",
+   "explain": "Mulder concluded, erroneously, that proteins might be composed of a single type of very large molecule.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.protein:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Myoglobin.png/960px-Myoglobin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Protein",
+  "credit": "→AzaToth",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Myoglobin.png"
+ },
+ "source": {
+  "title": "Protein",
+  "url": "https://en.wikipedia.org/wiki/Protein",
+  "revision": 1381831521
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What proteins are",
+    "text": "Proteins are big molecules made of one or more long chains of amino acid residues, linked to each other by peptide bonds. A linear chain of these residues is called a polypeptide, and every protein contains at least one long polypeptide. Short chains, with fewer than about 20 to 30 residues, are rarely counted as proteins and usually go by the name peptides.",
+    "cites": [
+     1,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "What they do",
+    "text": "Proteins take part in almost every process inside cells. Many are enzymes, which catalyse the biochemical reactions that metabolism depends on. Some do structural or mechanical work, like actin and myosin in muscle, or the cytoskeleton's scaffolding proteins that hold a cell in shape. Others matter for cell signaling, immune responses, cells sticking together, and the cell cycle. Proteins also copy DNA, respond to stimuli and carry molecules from one place to another.",
+    "cites": [
+     2,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "From gene to shape",
+    "text": "What mainly sets one protein apart from another is its order of amino acids. That order is set by a gene, written in the genetic code, which generally specifies 20 standard amino acids; some organisms add selenocysteine, and certain archaea also pyrrolysine. The sequence usually makes the protein fold into a specific 3D structure, and that structure determines what it does. Soon after it is made, or even while it is being made, a protein's residues are often chemically modified, which can change its folding, stability, activity and function. Some proteins also need a non-protein compound or ion, called a cofactor, before they can work.",
+    "cites": [
+     3,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Teaming up and wearing out",
+    "text": "Proteins often work together and join into stable protein complexes. None lasts forever: the cell's machinery breaks them down and recycles them, a process called protein turnover. A protein's lifespan is given as its half-life, which can be anything from minutes to years, with an average of one to two days in mammalian cells. Abnormal or misfolded proteins are broken down faster, often by the proteasome, which is itself a large assembly of proteins. A protein is destroyed either because ubiquitin ligases have marked it for destruction or because it is unstable or damaged.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Protein in the diet",
+    "text": "Animals need protein in their food to get the essential amino acids their bodies cannot make. Digestion breaks dietary proteins into amino acids, which top up the body's free amino acid pool. Most of that pool goes into building new body proteins. It is also vital for producing energy and for making other key nitrogen-containing molecules.",
+    "cites": [
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Naming and understanding proteins",
+    "text": "In 1789 Antoine Fourcroy recognised three kinds of animal protein: albumin, fibrin and gelatin. The Dutch chemist Gerardus Johannes Mulder first described proteins, and the Swedish chemist Jöns Jacob Berzelius named them in 1838, from a Greek word meaning primary or in the lead. Mulder found that almost every protein shared one empirical formula, C₄₀₀H₆₂₀N₁₀₀O₁₂₀P₁S₁, and wrongly decided they might all be one single, very large type of molecule. The view of proteins as polypeptides, chains of amino acids, came in 1902, through research by Franz Hofmeister and Hermann Emil Fischer. Their central role as enzymes was not fully appreciated until 1926, when James B. Sumner showed that the enzyme urease was a protein.",
+    "cites": [
+     26,
+     28,
+     29,
+     30,
+     31,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "A gift from a hot dog maker",
+    "text": "Early protein biochemists were held back because proteins were so hard to purify. Blood, egg whites and keratin gave large amounts of protein, but not individual proteins. During the 1950s, the Armour Hot Dog Company prepared a purified 1 kg batch of bovine pancreatic ribonuclease A and handed it out freely to scientists. That helped make ribonuclease A a major subject of biochemical study for decades afterwards.",
+    "cites": [
+     39,
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-3-4",
+   "kind": "book",
+   "title": "3.4 Proteins",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+   "note": "A free textbook section on amino acids, peptide bonds, the four levels of protein structure, and folding.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

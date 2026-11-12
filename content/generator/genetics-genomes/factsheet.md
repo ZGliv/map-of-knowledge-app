@@ -1,0 +1,7535 @@
+# Fact sheet: genetics-genomes
+
+Numbered sentences from each pinned source. Draft from these facts in your own words: never copy a run of 8 words (the validator checks). Cite the source ID exactly as written in the heading.
+
+## [W1] Wikipedia: Genome size
+https://en.wikipedia.org/w/index.php?title=Genome_size&oldid=1373188538 · CC BY-SA 4.0 · usage: ai_input
+
+- [W1.1] Genome size is the total amount of DNA contained within one copy of a single complete genome.
+- [W1.2] It is typically measured in terms of mass in picograms (trillionths or 10−12 of a gram, abbreviated pg) or less frequently in daltons, or as the total number of nucleotide base pairs, usually in megabases (millions of base pairs, abbreviated Mb or Mbp).
+- [W1.3] One picogram is equal to 978 megabases.
+- [W1.4] In diploid organisms, genome size is often used interchangeably with the term C-value.
+- [W1.5] An organism's complexity is not directly proportional to its genome size; total DNA content is widely variable between biological taxa.
+- [W1.6] Some single-celled organisms have much more DNA than humans, for reasons that remain unclear (see Junk DNA and C-value).
+- [W1.7] Variation in genome size and gene content
+- [W1.8] Since the 1950s, with the emergence of various molecular techniques, the genome sizes of thousands of eukaryotes have been analyzed, and these data are available in online databases for animals, plants, and fungi (see external links).
+- [W1.9] Nuclear genome size is typically measured in eukaryotes using either densitometric measurements of Feulgen-stained nuclei (previously using specialized densitometers, now more commonly using computerized image analysis) or flow cytometry.
+- [W1.10] In prokaryotes, pulsed field gel electrophoresis and complete genome sequencing are the predominant methods of genome size determination.
+- [W1.11] Nuclear genome sizes are well known to vary enormously among eukaryotic species.
+- [W1.12] In animals they range more than 3,300-fold, and in land plants they differ by a factor of about 1,000.
+- [W1.13] Protist genomes have been reported to vary more than 300,000-fold in size, but the high end of this range (Amoeba) has been called into question.
+- [W1.14] Genome size in eukaryotes was thought to be proportional to the complexity of an organism but by the mid-20th century it became apparent that closely related species could differ substantially in the size of their genomes.
+- [W1.15] This counter-intuitive observation gave rise to what became known as the "C-value paradox."
+- [W1.16] By the end of 1960s this "paradox" was resolved by the discovery of repetitive DNA and the realization that much of the differences in genomes sizes was due to the presence or absence of large amounts of repetitive DNA.
+- [W1.17] Further advances at that time indicated that most of the DNA in large genomes was non-functional junk DNA and only a small fraction corresponded to functional DNA, including the functional parts of genes.
+- [W1.18] Genome size correlates with a range of measurable characteristics at the cell and organism levels, including cell size, cell division rate, and, depending on the taxon, body size, metabolic rate, developmental rate, organ complexity, geographical distribution, or extinction risk.
+- [W1.19] Based on currently available completely sequenced genome data (as of April 2009), log-transformed gene number forms a linear correlation with log-transformed genome size in bacteria, archaea, viruses, and organelles combined, whereas a nonlinear (semi-natural logarithm) correlation is seen for eukaryotes.
+- [W1.20] Although the latter contrasts with the previous view that no correlation exists for the eukaryotes, the observed nonlinear correlation for eukaryotes may reflect disproportionately fast-increasing junk DNA in increasingly large eukaryotic genomes.
+- [W1.21] Although sequenced genome data are practically biased toward small genomes, which may compromise the accuracy of the empirically derived correlation, and ultimate proof of the correlation remains to be obtained by sequencing some of the largest eukaryotic genomes, current data do not seem to rule out a possible correlation.
+- [W1.22] In humans, the total female diploid nuclear genome per cell extends for 6.37 Gigabase pairs (Gbp), is 208.23 cm long and weighs 6.51 picograms (pg).
+- [W1.23] Male values are 6.27 Gbp, 205.00 cm, 6.41 pg.
+- [W1.24] Each DNA polymer can contain hundreds of millions of nucleotides, such as in chromosome 1.
+- [W1.25] Chromosome 1 is the largest human chromosome with approximately 220 million base pairs, and would be 85 mm long if straightened.
+- [W1.26] In eukaryotes, in addition to nuclear DNA, there is also mitochondrial DNA (mtDNA) which encodes certain proteins used by the mitochondria.
+- [W1.27] The mtDNA is usually relatively small in comparison to the nuclear DNA.
+- [W1.28] For example, the human mitochondrial DNA forms closed circular molecules, each of which contains 16,569 DNA base pairs, with each such molecule normally containing a full set of the mitochondrial genes.
+- [W1.29] Each human mitochondrion contains, on average, approximately 5 such mtDNA molecules.
+- [W1.30] Each human cell contains approximately 100 mitochondria, giving a total number of mtDNA molecules per human cell of approximately 500.
+- [W1.31] However, the amount of mitochondria per cell also varies by cell type, and an egg cell can contain 100,000 mitochondria, corresponding to up to 1,500,000 copies of the mitochondrial genome (constituting up to 90% of the DNA of the cell).
+- [W1.32] Genome reduction, also known as genome degradation, is the process by which an organism's genome shrinks relative to that of its ancestors.
+- [W1.33] Genomes fluctuate in size regularly, and genome size reduction is most significant in bacteria.
+- [W1.34] The most evolutionarily significant cases of genome reduction may be observed in the eukaryotic organelles known to be derived from bacteria: mitochondria and plastids.
+- [W1.35] These organelles are descended from primordial endosymbionts, which were capable of surviving within the host cell and which the host cell likewise needed for survival.
+- [W1.36] Many present-day mitochondria have less than 20 genes in their entire genome, whereas a modern free-living bacterium generally has at least 1,000 genes.
+- [W1.37] Many genes have apparently been transferred to the host nucleus, while others have simply been lost and their function replaced by host processes.
+- [W1.38] Other bacteria have become endosymbionts or obligate intracellular pathogens and experienced extensive genome reduction as a result.
+- [W1.39] This process seems to be dominated by genetic drift resulting from small population size, low recombination rates, and high mutation rates, as opposed to selection for smaller genomes.
+- [W1.40] Some free-living marine bacterioplanktons also shows signs of genome reduction, which are hypothesized to be driven by natural selection.
+- [W1.41] In contrast, terrestrial prokaryotes appear to have larger genome sizes than both aquatic and host-associated prokaryotes (average of 3.7 Mbp for terrestrial, 3.1 Mbp for aquatic and 3.0 Mbp for host-associated).
+- [W1.42] In obligate endosymbiotic species
+- [W1.43] Obligate endosymbiotic species are characterized by a complete inability to survive external to their host environment.
+- [W1.44] These species have become a considerable threat to human health, as they are often capable of evading human immune systems and manipulating the host environment to acquire nutrients.
+- [W1.45] A common explanation for these manipulative abilities is their consistently compact and efficient genomic structure.
+- [W1.46] These small genomes are the result of massive losses of extraneous DNA, an occurrence that is exclusively associated with the loss of a free-living stage.
+- [W1.47] As much as 90% of the genetic material can be lost when a species makes the evolutionary transition from a free-living to an obligate intracellular lifestyle.
+- [W1.48] During this process the future parasite subjected to an environment rich of metabolite where somehow needs to hide within the host cell, those factors reduce the retention and increase the genetic drift leading to an acceleration of the loss of non-essential genes.
+- [W1.49] Common examples of species with reduced genomes include Buchnera aphidicola, Rickettsia prowazekii, and Mycobacterium leprae.
+- [W1.50] One obligate endosymbiont of leafhoppers, Nasuia deltocephalinicola, has the smallest genome currently known among cellular organisms at 112 kb.
+- [W1.51] Despite the pathogenicity of most endosymbionts, some obligate intracellular species have positive fitness effects on their hosts.
+- [W1.52] The reductive evolution model has been proposed as an effort to define the genomic commonalities seen in all obligate endosymbionts.
+- [W1.53] This model illustrates four general features of reduced genomes and obligate intracellular species:
+- [W1.54] "genome streamlining" resulting from relaxed selection on genes that are superfluous in the intracellular environment;
+- [W1.55] a bias towards deletions (rather than insertions), which heavily affects genes that have been disrupted by accumulation of mutations (pseudogenes);
+- [W1.56] very little or no capability for acquiring new DNA; and
+- [W1.57] considerable reduction of effective population size in endosymbiotic populations, particularly in species that rely on vertical transmission of genetic material.
+- [W1.58] Based on this model, it is clear that endosymbionts face different adaptive challenges than free-living species and, as emerged from the analysis between different parasites, their genes inventories are extremely different, leading us to the conclusion that the genome miniaturization follows a different pattern for the different symbionts.
+- [W1.59] Conversion from picograms (pg) to base pairs (bp)
+- [W1.60] {\displaystyle {\text{number of base pairs}}={\text{mass in pg}}\times 9.78\times 10^{8}}
+- [W1.61] {\displaystyle 1{\text{pg}}=978{\text{ Mbp}}}
+- [W1.62] Drake proposed a general rule: that the mutation rate within a genome and its size are inversely correlated.
+- [W1.63] This rule has been found to be approximately correct for simple genomes such as those in DNA viruses and unicellular organisms.
+- [W1.64] It has been proposed that the small size of RNA viruses is locked into a three-part relation between replication fidelity, genome size, and genetic complexity.
+- [W1.65] The majority of RNA viruses lack an RNA proofreading facility, which limits their replication fidelity and hence their genome size.
+- [W1.66] This has also been described as the Eigen paradox.
+- [W1.67] An exception to the rule of small genome sizes in RNA viruses is found in the Nidoviruses.
+- [W1.68] These viruses appear to have acquired a 3′-to-5′ exoribonuclease (ExoN) which has allowed for an increase in genome size.
+- [W1.69] Genome miniaturization and optimal size
+- [W1.70] In 1972 Michael David Bennett hypothesized that there was a correlation with the DNA content and the nuclear volume while Commoner, van't Hoff and Sparrow before him postulated that even cell size and cell-cycle length were controlled by the amount of DNA.
+- [W1.71] More recent theories have brought us to discuss about the possibility of the presence of a mechanism that constrains physically the development of the genome to an optimal size.
+- [W1.72] Those explanations have been disputed by Cavalier-Smith's article  where the author pointed that the way to understand the relation between genome size and cell volume was related to the skeletal theory.
+- [W1.73] The nucleus of this theory is related to the cell volume, determined by an adaptation balance between advantages and disadvantages of bigger cell size, the optimization of the ratio nucleus:cytoplasm (karyoplasmatic ratio) and the concept that larger genomes provides are more prone to the accumulation of duplicative transposons as consequences of higher content of non-coding skeletal DNA.
+- [W1.74] Cavalier-Smith also proposed that, as consequent reaction of a cell reduction, the nucleus will be more prone to a selection in favor for the deletion compared to the duplication.
+- [W1.75] From the economic way of thinking, since phosphorus and energy are scarce, a reduction in the DNA should be always the focus of the evolution, unless a benefit is acquired.
+- [W1.76] The random deletion will be then mainly deleterious and not selected due to the reduction of the gained fitness but occasionally the elimination will be advantageous as well.
+- [W1.77] This trade-off between economy and accumulation of non-coding DNA is the key to the maintenance of the karyoplasmatic ratio.
+- [W1.78] Mechanisms of genome miniaturization
+- [W1.79] The base question behind the process of genome miniaturization is whether it occurs through large steps or due to a constant erosion of the gene content.
+- [W1.80] In order to assess the evolution of this process is necessary to compare an ancestral genome with the one where the shrinkage is supposed to be occurred.
+- [W1.81] Thanks to the similarity among the gene content of Buchnera aphidicola and the enteric bacteria Escherichia coli, 89% identity for the 16S rDNA and 62% for orthologous genes was possible to shed light on the mechanism of genome miniaturization.
+- [W1.82] The genome of the endosymbiont B. aphidicola is characterized by a genome size that is seven times smaller than E. coli (643 kb compared to 4.6 Mb) and can be view as a subset of the enteric bacteria gene inventory.
+- [W1.83] From the confrontation of the two genomes emerged that some genes persist as partially degraded. indicating that the function was lost during the process and that consequent events of erosion shortened the length as documented in Rickettsia.
+- [W1.84] This hypothesis is confirmed by the analysis of the pseudogenes of Buchnera where the number of deletions was more than ten times higher compared to the insertion.
+- [W1.85] In Rickettsia prowazekii, as with other small genome bacteria, this mutualistic endosymbiont has experienced a vast reduction of functional activity with a major exception compared to other parasites  still retain the bio-synthetic ability of production of amino acid needed by its host.
+- [W1.86] The common effects of the genome shrinking between this endosymbiont and the other parasites are the reduction of the ability to produce phospholipids, repair and recombination and an overall conversion of the composition of the gene to a richer A-T content due to mutation and substitutions.
+- [W1.87] Evidence of the deletion of the function of repair and recombination is the loss of the gene recA, gene involved in the recombinase pathway.
+- [W1.88] This event happened during the removal of a larger region containing ten genes for a total of almost 10 kb.
+- [W1.89] Same faith occurred uvrA, uvrB and uvrC, genes encoding for excision enzymes involved in the repair of damaged DNA due to UV exposure.
+- [W1.90] One of the most plausible mechanisms for the explanation of the genome shrinking is the chromosomal rearrangement because insertion/deletion of larger portion of sequence are more easily to be seen in during homologous recombination compared to the illegitimate, therefore the spread of the transposable elements will positively affect the rate of deletion.
+- [W1.91] The loss of those genes in the early stages of miniaturization not only this function but must played a role in the evolution of the consequent deletions.
+- [W1.92] Evidences of the fact that larger event of removal occurred before smaller deletion emerged from the comparison of the genome of Bucknera and a reconstructed ancestor, where the gene that have been lost are in fact not randomly dispersed in the ancestor gene but aggregated and the negative relation between number of lost genes and length of the spacers.
+- [W1.93] The event of small local indels plays a marginal role on the genome reduction especially in the early stages where a larger number of genes became superfluous.
+- [W1.94] Single events instead occurred due to the lack of selection pressure for the retention of genes especially if part of a pathway that lost its function during a previous deletion.
+- [W1.95] An example for this is the deletion of recF, gene required for the function of recA, and its flanking genes.
+- [W1.96] One of the consequences of the elimination of such amount of sequences affected even the regulation of the remaining genes.
+- [W1.97] The loss of large section of genomes could in fact lead to a loss in promotor sequences.
+- [W1.98] This could in fact pushed the selection for the evolution of polycistronic regions with a positive effect for both size reduction and transcription efficiency.
+- [W1.99] Evidence of genome miniaturization
+- [W1.100] One example of the miniaturization of the genome occurred in the microsporidia, an anaerobic intracellular parasite of animals evolved from aerobic fungi.
+- [W1.101] During this process the mitosomes was formed consequent to the reduction of the mitochondria to a relic voided of genomes and metabolic activity except to the production of iron sulfur centers and the capacity to enter into the host cells.
+- [W1.102] Except for the ribosomes, miniaturized as well, many other organelles have been almost lost during the process of the formation of the smallest genome found in the eukaryotes.
+- [W1.103] From their possible ancestor, a zygomycotine fungi, the microsporidia shrunk its genome eliminating almost 1000 genes and reduced even the size of protein and protein-coding genes.
+- [W1.104] This extreme process was possible thanks to the advantageous selection for a smaller cell size imposed by the parasitism.
+- [W1.105] Another example of miniaturization is represented by the presence of nucleomorphs, enslaved nuclei, inside of the cell of two different algae, cryptophytes and chlorarachneans.
+- [W1.106] Nucleomorphs are characterized by one of the smallest genomes known (551 and 380 kb) and as noticed for microsporidia, some genomes are noticeable reduced in length compared to other eukaryotes due to a virtual lack of non-coding DNA.
+- [W1.107] The most interesting factor is represented by the coexistence of those small nuclei inside of a cell that contains another nucleus that never experienced such genome reduction.
+- [W1.108] Moreover, even if the host cells have different volumes from species to species and a consequent variability in genome size, the nucleomorph remain invariant denoting a double effect of selection within the same cell.
+- [W1.109] Evolution of Chlamydiaceae
+- [W1.110] Andersson JO Andersson SG; Andersson (1999).
+- [W1.111] "Genome degradation is an ongoing process in Rickettsia".
+- [W1.112] Molecular Biology and Evolution.
+- [W1.113] 16 (9): 1178–1191. doi:10.1093/oxfordjournals.molbev.a026208.
+- [W1.114] Archived from the original on 2005-04-17.
+- [W1.115] Animal Genome Size Database
+- [W1.116] Plant DNA C-values Database Archived 2019-03-10 at the Wayback Machine
+- [W1.117] Fungal Genome Size Database Archived 2013-02-07 at the Wayback Machine
+- [W1.118] Fungal Database Archived 2008-03-10 at the Wayback Machine — by CBS
+
+## [W2] Wikipedia: Phi X 174
+https://en.wikipedia.org/w/index.php?title=Phi_X_174&oldid=1374402859 · CC BY-SA 4.0 · usage: ai_input
+
+- [W2.1] The phi X 174 (or ΦX174) bacteriophage is a single-stranded DNA (ssDNA) virus that infects Escherichia coli.
+- [W2.2] This virus was isolated in 1935 by Nicolas Bulgakov in Félix d'Hérelle's laboratory at the Pasteur Institute, from samples collected in Paris sewers.
+- [W2.3] Its characterization and the study of its replication mechanism were carried out from the 1950s onwards.
+- [W2.4] It was the first DNA-based genome to be sequenced.
+- [W2.5] This work was completed by Fred Sanger and his team in 1977.
+- [W2.6] In 1962, Walter Fiers and Robert L.
+- [W2.7] Sinsheimer had already demonstrated the physical, covalently closed circularity of ΦX174 DNA.
+- [W2.8] Nobel prize winner Arthur Kornberg used ΦX174 as a model to first prove that DNA synthesized in a test tube by purified enzymes could produce all the features of a natural virus, ushering in the age of synthetic biology.
+- [W2.9] In 1972–1974, Jerard Hurwitz, Sue Wickner, and Reed Wickner with collaborators identified the genes required to produce the enzymes to catalyze conversion of the single stranded form of the virus to the double stranded replicative form.
+- [W2.10] In 2003, it was reported by Craig Venter's group that the genome of ΦX174 was the first to be completely assembled in vitro from synthesized oligonucleotides.
+- [W2.11] The ΦX174 virus particle has also been successfully assembled in vitro.
+- [W2.12] In 2012, it was shown how its highly overlapping genome can be fully decompressed and still remain functional.
+- [W2.13] The naming of the virus follows a system that was developed by Vladimir Sertić and Nikolai Boulgakov in 1935.
+- [W2.14] The Greek letter 'Φ' was used to indicate that it worked against multiple bacteria.
+- [W2.15] The Roman numeral 'X' (ten) referred to an antigen-based classification and 174 was related to isolates against which it was tested.
+- [W2.16] This bacteriophage has a [+] sense circular single-stranded DNA genome of 5,386 nucleotides.
+- [W2.17] The genome GC-content is 44% and 95% of nucleotides belong to coding genes.
+- [W2.18] Because of the balance base pattern of the genome, it is used as the control DNA for Illumina sequencers.
+- [W2.19] ΦX174 encodes 11 genes, named as consecutive letters of the alphabet in the order they were discovered, with the exception of A* which is an alternative start codon within the large A genes.
+- [W2.20] Only genes A* and K are thought to be non-essential, although there is some doubt about A* because its start codon could be changed to ATT but not any other sequence.
+- [W2.21] It is now known that the ATT is still likely capable of producing protein within E. coli and therefore this gene may in fact be essential.
+- [W2.22] The first half of the ΦX174 genome features high levels of gene overlap with eight out of 11 genes overlapping by at least one nucleotide.
+- [W2.23] These overlaps have been shown to be non-essential although the refactored phage with all gene overlaps removed had decreased fitness from wild-type.
+- [W2.24] Phage ΦX174 has been used to try to establish the absence of undiscovered genetic information through a "proof by synthesis" approach.
+- [W2.25] In 2020, the transcriptome of ΦX174 was generated.
+- [W2.26] Notable features of the ΦX174 transcriptome is a series of up to four relatively weak promoters in series with up to four Rho-independent (intrinsic) terminators and one Rho-dependent terminator.
+- [W2.27] ΦX174 encodes 11 proteins.
+- [W2.28] Identification of all ΦX174 proteins using mass spectrometry has recently been reported.
+- [W2.29] Infection begins when G protein binds to lipopolysaccharides on the bacterial host cell surface.
+- [W2.30] H protein (or the DNA Pilot Protein) pilots the viral genome through the bacterial membrane of E. coli bacteria most likely via a predicted N-terminal transmembrane domain helix.
+- [W2.31] However, it has become apparent that H protein is a multifunctional protein.
+- [W2.32] This is the only viral capsid protein of ΦX174 to lack a crystal structure for a couple of reasons.
+- [W2.33] It has low aromatic content and high glycine content, making the protein structure very flexible and in addition, individual hydrogen atoms (the R group for glycines) are difficult to detect in protein crystallography.
+- [W2.34] Additionally, H protein induces lysis of the bacterial host at high concentrations as the predicted N-terminal transmembrane helix easily pokes holes through the bacterial wall.
+- [W2.35] By bioinformatics, this protein contains four predicted coiled-coil domains which has a significant homology to known transcription factors.
+- [W2.36] Additionally, it was determined that de novo H protein was required for optimal synthesis of other viral proteins.
+- [W2.37] Mutations in H protein that prevent viral incorporation, can be overcome when excess amounts of protein B, the internal scaffolding protein, are supplied.
+- [W2.38] The DNA is ejected through a hydrophilic channel at the 5-fold vertex.
+- [W2.39] It is understood that H protein resides in this area but experimental evidence has not verified its exact location.
+- [W2.40] Once inside the host bacterium, replication of the [+] ssDNA genome proceeds via negative sense DNA intermediate.
+- [W2.41] This is done as the phage genome supercoils and the secondary structure formed by such supercoiling attracts a primosome protein complex.
+- [W2.42] This translocates once around the genome and synthesizes a [−]ssDNA from the positive original genome. [+]ssDNA genomes to package into viruses are created from this by a rolling circle mechanism.
+- [W2.43] This is the mechanism by which the double stranded supercoiled genome is nicked on the positive strand by a virus-encoded A protein, also attracting a bacterial DNA polymerase (DNAP) to the site of cleavage.
+- [W2.44] DNAP uses the negative strand as a template to make positive sense DNA.
+- [W2.45] As it translocates around the genome it displaces the outer strand of already-synthesised DNA, which is immediately coated by SSBP proteins.
+- [W2.46] The A protein cleaves the complete genome every time it recognises the origin sequence.
+- [W2.47] As D protein is the most abundant gene transcript, it is the most abundant protein in the viral procapsid.
+- [W2.48] Similarly, gene transcripts for F, J, and G are more abundant than for H as the stoichiometry for these structural proteins is 5:5:5:1.
+- [W2.49] The primosomes are protein complexes which attach/bind the enzyme helicase on the template.
+- [W2.50] Primosomes gives RNA primers for DNA synthesis to strands.
+- [W2.51] The mutation rate of phiX174 is estimated to be 1.0 × 10−6 substitutions per base per round of copying, a value that is consistent with Drake's rule (0.003 mutations per genome per round of copying in DNA-based microorganisms).
+- [W2.52] PhiX174 is able to undergo genetic recombination.
+- [W2.53] Based on recombination frequencies obtained in genetic crosses, a genetic map was constructed.
+- [W2.54] Recombination in phi X174 is associated with high negative interference, i.e., a positive correlation (negative interference) of recombinational events (see wikipedia crossover interference).
+- [W2.55] Phylogenetics and diversity
+- [W2.56] ΦX174 is closely related to other microviruses, especially the NC phage (e.g.
+- [W2.57] NC1, NC7, NC11, NC16, NC37, NC5, NC41, NC56, NC51, etc.) and more distantly related to the G4-like phages and even more distantly related to the α3-like phage.
+- [W2.58] 2006 presented a phylogenetic tree of their relationships.
+- [W2.59] ΦX174 has been used as a model organism in many evolution experiments.
+- [W2.60] ΦX174 is regularly used as a positive control in DNA sequencing due to its relatively small genome size in comparison to other organisms, its relatively balanced nucleotide content — about 23% G, 22% C, 24% A, and 31% T, i.e., 45% G+C and 55% A+T, see the accession NC_001422.1 for its 5,386 nucleotide long sequence.
+- [W2.61] Illumina's sequencing instruments use ΦX174 as a positive control, and a single Illumina sequencing run can cover the ΦX174 genome several million times over, making this very likely the most heavily sequenced genome in history.
+- [W2.62] ΦX174 is also used to test the resistance of personal protective equipment to bloodborne viruses.
+- [W2.63] ΦX174 has also been modified to enable peptide display (phage display) from the viral capsid G protein.
+- [W2.64] The ΦX174 genome was the first phage to be cloned in yeast, which provides a convenient drydock for genome modifications. ΦX174 was also the first genome to be fully decompressed, having all gene overlaps removed.
+- [W2.65] The effect of these changes resulted in significantly reduced host attachment, protein expression dysregulation, and heat sensitivity.
+- [W2.66] The genome was used as the starting point for an experiment in genome generation using a genomic AI, Evo, in which thousands of candidate genomes for similar phages were generated.
+- [W2.67] After filtering, 285 of these were synthesised and tested against E. coli bacteria.
+- [W2.68] 16 were found to be viable.
+- [W2.69] Goodsell D (February 2000).
+
+## [W3] Wikipedia: Haemophilus influenzae
+https://en.wikipedia.org/w/index.php?title=Haemophilus_influenzae&oldid=1375213235 · CC BY-SA 4.0 · usage: ai_input
+
+- [W3.1] Haemophilus influenzae (formerly called Pfeiffer's bacillus or Bacillus influenzae) is a Gram-negative, non-motile, coccobacillary, facultatively anaerobic, capnophilic pathogenic bacterium of the family Pasteurellaceae.
+- [W3.2] The bacteria are mesophilic and grow best at temperatures between 35 and 37 °C.
+- [W3.3] H. influenzae was first described in 1893 by Richard Pfeiffer during an influenza pandemic when he incorrectly identified it as the causative microbe, which is why the bacterium was given the name "influenzae".
+- [W3.4] H. influenzae is responsible for a wide range of localized and invasive infections, typically in infants and children, including pneumonia, meningitis, or bloodstream infections.
+- [W3.5] Treatment consists of antibiotics; however, H. influenzae is often resistant to the penicillin family, but amoxicillin/clavulanic acid can be used in mild cases.
+- [W3.6] Serotype B H. influenzae  (hib) can cause illness, called Hib infections, among other names.
+- [W3.7] It has been a major cause of meningitis in infants and small children, frequently causing deafness and mental degradation.
+- [W3.8] However, the development in the 1980s of a vaccine effective in this age group (the Hib vaccine) has almost eliminated this in developed countries.
+- [W3.9] This species was the first organism to have its entire genome sequenced.
+- [W3.10] H. influenzae is a small Gram-negative bacterium, approximately 0.3 micrometer to 1 micrometer.
+- [W3.11] Like other Gram-negative bacteria, H. influenzae has a thin peptidoglycan layer surrounded by an outer membrane containing lipopolysaccharide.
+- [W3.12] Some types of H. influenzae contain a polysaccharide capsule around the outer membrane to aid in protection and colonization.
+- [W3.13] The bacteria are pleomorphic, meaning the shape of the bacterium is variable, however it is typically coccobacillus or rod-shaped.
+- [W3.14] Influenzae contains pili, which are specialized to adhere to the human nasopharynx.
+- [W3.15] Influenzae pili, unlike those of E. coli, resist unwinding, allowing for stronger adhesion to resist expulsion when coughing or sneezing.
+- [W3.16] A minority of non-typeable, or unencapsulated, H. influenzae employ a variety of attachment techniques, such as pili, adhesins, or Hia and Hap proteins.
+- [W3.17] Though the bacteria possess pili, they are not used for traditional movement or motility, and the bacterium is still considered to be non-motile.
+- [W3.18] The cell wall of H. influenzae bacterium contains various proteins, referred to as autotransporters, for adherence and colony formation.
+- [W3.19] H. influenzae prefers to bind to mucus linings or non-ciliated epithelial cells, which is facilitated by Hap𝘴 autotransporters in the cell wall binding with unknown receptors within the epithelium.
+- [W3.20] The Hap𝘴 autotransporters also facilitate the formation of microcolonies of the bacteria.
+- [W3.21] These microcolonies are likely responsible for the formation of various biofilms within the body, such as those responsible for middle ear or lung infections.
+- [W3.22] Penicillin binding proteins
+- [W3.23] Penicillin binding proteins (PBPs) catalyze steps in peptidoglycan metabolism.
+- [W3.24] They carry out essential processes needed to build and modify the cell wall.
+- [W3.25] These proteins are the targets blocked by penicillin and other beta-lactam antibiotics that bind to PBPs, hence their name.
+- [W3.26] Some antibiotic-resistant isolates of H.
+- [W3.27] Influenzae contain modified PBPs that resist beta-lactam action by producing beta-lactamases to degrade these antibiotics.
+- [W3.28] This resistance is likely due to a N526K mutation, or R517H substitution in conjunction with another unknown mutation.
+- [W3.29] The R517H substitution alone did not have a lower affinity for penicillin, and therefore cannot cause resistance alone.
+- [W3.30] Beta-lactamase emergence in the 1970s caused the therapy for severe cases of H. influenzae to be changed from ampicillin to cephalosporins, however further resistance to cephalosporins has occurred due to changes in the transpeptidase domain of penicillin binding protein 3 (PBP3).
+- [W3.31] H. influenzae isolates were initially characterized as either encapsulated (having an extracellular polysaccharide layer, the bacterial capsule) or unencapsulated.
+- [W3.32] Encapsulated strains were further classified on the basis of the immune response to the type of polysaccharides in their capsule.
+- [W3.33] The six generally recognized types of encapsulated H. influenzae are: a, b, c, d, e, and f.
+- [W3.34] Influenzae type b, also known as Hib, is the most common form, recognizable by its polyribosyl ribitol phosphate (PRP) capsule, and found mostly in children.
+- [W3.35] Types a, e, and f have been isolated infrequently, while types d and c are rarely isolated.
+- [W3.36] Unencapsulated strains are more genetically diverse than the encapsulated group.
+- [W3.37] Unencapsulated strains are termed nontypable (NTHi) because they lack capsular serotypes; however, all H. influenzae isolates can now be classified by multilocus sequence typing and other molecular methods.
+- [W3.38] Most NTHi strains are considered to be part of the normal human flora in the upper and lower respiratory tract, genitals, and conjunctivae (mucous membranes of the eye).
+- [W3.39] H. influenzae uses the Embden–Meyerhof–Parnas (EMP) pathway for glycolysis and the pentose phosphate pathway, which is anabolic rather than catabolic.
+- [W3.40] The citric acid cycle is incomplete and lacks several enzymes that are found in a fully functioning cycle.
+- [W3.41] The enzymes missing from the TCA cycle are citrate synthase, aconitate hydratase, and isocitrate dehydrogenase.
+- [W3.42] H. influenzae has been found in both aerobic and anaerobic environments, as well as environments with different pH's.
+- [W3.43] H. influenzae was the first free-living organism to have its entire genome sequenced.
+- [W3.44] The sequencing was completed in 1995 by Craig Venter and his team at the Institute for Genomic Research, now part of the J.
+- [W3.45] Haemophilus was chosen because one of the project leaders, Nobel laureate Hamilton Smith, had been working on it for decades and was able to provide high-quality DNA libraries.
+- [W3.46] The sequencing method used was whole-genome shotgun, which was completed and published in Science in 1995.
+- [W3.47] The genome of strain Rd KW20 consists of 1,830,138 base pairs of DNA in a single circular chromosome that contains 1604 protein-coding genes, 117 pseudogenes, 57 tRNA genes, and 23 other RNA genes.
+- [W3.48] About 90% of the genes have homologs in E. coli, another gamma-proteobacterium.
+- [W3.49] In fact, the similarity between genes of the two species ranges from 18% to 98% protein sequence identity, with the majority sharing 40–80% of their amino acids (with an average of 59%).
+- [W3.50] Conjugative plasmids (DNA molecules that are capable of horizontal transfer between different species of bacteria) can frequently be found in H. influenzae.
+- [W3.51] It is common that the F+ plasmid of a competent Escherichia coli bacterium conjugates into the H. influenzae bacterium, which then allows the plasmid to transfer among H. influenzae strands via conjugation.
+- [W3.52] H. influenzae mutants defective in their rec1 gene (a homolog of recA) are very susceptible to being killed by the oxidizing agent hydrogen peroxide.
+- [W3.53] This finding suggests that rec1 expression is important for H. influenzae survival under conditions of oxidative stress.
+- [W3.54] Since it is a homolog of recA, rec1 likely plays a key role in recombinational repair of DNA damage.
+- [W3.55] Thus, H. influenzae may protect its genome against the reactive oxygen species produced by the host's phagocytic cells through recombinational repair of oxidative DNA damages.
+- [W3.56] Recombinational repair of a damaged site of a chromosome requires, in addition to rec1, a second homologous undamaged DNA molecule.
+- [W3.57] Individual H. influenzae cells are capable of taking up homologous DNA from other cells by the process of transformation.
+- [W3.58] Transformation in H. influenzae involves at least 15 gene products, and is likely an adaptation for repairing DNA damage in the resident chromosome.
+- [W3.59] Culture methods and diagnosis of infections
+- [W3.60] Bacterial culture of H. influenzae is performed on agar plates.
+- [W3.61] The strongest growth is seen on chocolate agar at 37 °C in a CO2-enriched incubator.
+- [W3.62] The ideal CO2 concentration for the culture is ~5%.
+- [W3.63] However adequate growth is often seen on brain-heart infusion agar supplemented with hemin and nicotinamide adenine dinucleotide (NAD)
+- [W3.64] Colonies of H. influenzae appear as convex, smooth, pale, grey, or transparent colonies with a mild odor.
+- [W3.65] H. influenzae will only grow on blood agar if other bacteria are present to release these factors from the red blood cells, forming 'satellite' colonies around these bacteria.
+- [W3.66] For example, H. influenzae will grow in the hemolytic zone of Staphylococcus aureus on blood agar plates; the hemolysis of cells by S. aureus releases NAD which is needed for its growth.
+- [W3.67] H. influenzae will not grow outside the hemolytic zone of S. aureus due to the lack of nutrients in these areas.
+- [W3.68] Clinical features of a respiratory tract infection may include initial symptoms of an upper respiratory tract infection mimicking a viral infection, usually associated with low-grade fevers.
+- [W3.69] This may progress to the lower respiratory tract within a few days, with features often resembling those of wheezy bronchitis.
+- [W3.70] Sputum may be difficult to expectorate and is often grey or creamy in color.
+- [W3.71] The cough may persist for weeks without appropriate treatment.
+- [W3.72] Many cases are diagnosed after presenting chest infections that do not respond to penicillins or first-generation cephalosporins.
+- [W3.73] A chest X-ray can identify alveolar consolidation.
+- [W3.74] Clinical diagnosis of invasive H. influenzae infection (infection that has spread to the bloodstream and internal tissues) is typically confirmed by bacterial culture, latex particle agglutination tests, or polymerase chain reaction tests on clinical samples obtained from an otherwise sterile body site.
+- [W3.75] In this respect, H. influenzae cultured from the nasopharyngeal cavity or throat would not indicate H. influenzae disease, because these sites are colonized in disease-free individuals.
+- [W3.76] Although highly specific, bacterial culture of H. influenzae lacks sensitivity.
+- [W3.77] Use of antibiotics prior to sample collection greatly reduces the isolation rate by killing the bacteria before identification is possible.
+- [W3.78] Recent work has shown that H. influenzae uses a highly specialized spectrum of nutrients where lactate is a preferred carbon source.
+- [W3.79] Latex particle agglutination
+- [W3.80] The latex particle agglutination test (LAT) is a more sensitive method to detect H. influenzae than is culture.
+- [W3.81] Because the method relies on antigen rather than viable bacteria, the results are not disrupted by prior antibiotic use.
+- [W3.82] It also has the added benefit of being quicker than culture methods.
+- [W3.83] However, antibiotic sensitivity testing is not possible with LAT alone, so a parallel culture is necessary.
+- [W3.84] Polymerase chain reaction (PCR) assays have been proven to be more sensitive than either LAT or culture tests and are highly specific.
+- [W3.85] These PCR tests can be used for capsular typing of encapsulated H. influenzae strains.
+- [W3.86] Many microbes colonize within a host organism.
+- [W3.87] Colonization occurs when a microorganism continues to multiply within the host, without interaction, causing no visible signs of illness or infection.
+- [W3.88] H. influenzae colonizes differently in adults than it does young children.
+- [W3.89] Because this bacterium colonizes more rapidly in young children, they are capable of carrying more than one strain of the same bacterium.
+- [W3.90] Once in the adult stage of life, a human is likely to only be carrying one strain as this bacterium does not colonize as aggressively in adults.
+- [W3.91] Nearly all infants will undergo colonization of this bacteria within their first year of life.
+- [W3.92] H. influenzae is generally found within and upon the human body, but can also live on various dry, hard surfaces for up to 12 days.
+- [W3.93] Most strains of H. influenzae are opportunistic pathogens; that is, they usually live in their host without causing disease, but cause problems only when other factors (such as a viral infection, reduced immune function or chronically inflamed tissues, e.g. from allergies) create an opportunity.
+- [W3.94] They infect the host by sticking to the host cell using trimeric autotransporter adhesins.
+- [W3.95] The pathogenesis of H. influenzae infections is not completely understood, although the presence of the polyribosyl ribitol phosphate (PRP) capsule in encapsulated type b (Hib), a serotype causing conditions such as epiglottitis, is known to be a major factor in virulence.
+- [W3.96] Their capsule allows them to resist phagocytosis and complement-mediated lysis in the nonimmune host.
+- [W3.97] The unencapsulated strains are almost always less invasive; however, they can produce an inflammatory response in humans, which can lead to many symptoms.
+- [W3.98] Vaccination with Hib conjugate vaccine is effective in preventing Hib infection but does not prevent infection with NTHi strains.
+- [W3.99] H. influenzae can cause respiratory tract infections including pneumonia, otitis media, epiglottitis (swelling in the throat), eye infections and bloodstream infection, meningitis.
+- [W3.100] It can also cause cellulitis (skin infection), infectious arthritis (inflammation of the joint), and non-gonococcal urethritis (NGU).
+- [W3.101] Haemophilus influenzae type b (Hib) infection
+- [W3.102] Naturally acquired disease caused by H. influenzae seems to occur in humans only.
+- [W3.103] In healthy children under the age of 5, H. influenzae type b was responsible for more than 80% of aggressive infections, before the introduction of the [Hib] vaccine.
+- [W3.104] In infants and young children, H. influenzae type b (Hib) causes bacteremia, pneumonia, epiglottitis and acute bacterial meningitis.
+- [W3.105] On occasion, it causes cellulitis, osteomyelitis, and infectious arthritis.
+- [W3.106] It is one cause of neonatal infection.
+- [W3.107] Due to routine use of the Hib vaccine in the US since 1990, the incidence of invasive Hib disease has decreased to 1.3/100,000 in children.
+- [W3.108] However, Hib remains a major cause of lower respiratory tract infections in infants and children in developing countries where the vaccine is not widely used.
+- [W3.109] Unencapsulated H. influenzae strains are unaffected by the Hib vaccine and cause ear infections (otitis media), eye infections (conjunctivitis), and sinusitis in children, and are associated with pneumonia.
+- [W3.110] Some strains of H. influenzae produce beta-lactamases, and are also able to modify its penicillin-binding proteins, so the bacteria have gained resistance to the penicillin family of antibiotics.
+- [W3.111] In severe cases, cefotaxime and ceftriaxone delivered directly into the bloodstream are the elected antibiotics, and, for the less severe cases, an association of ampicillin and sulbactam, cephalosporins of the second and third generation, or fluoroquinolones are preferred.
+- [W3.112] (Fluoroquinolone-resistant strains of H. influenzae have been observed).
+- [W3.113] Macrolides and fluoroquinolones have activity against non-typeable H. influenzae and could be used in patients with a history of allergy to beta-lactam antibiotics.
+- [W3.114] However, macrolide resistance has also been observed.
+- [W3.115] Serious and chronic complications
+- [W3.116] The serious complications of HiB are brain damage, hearing loss, and even death.
+- [W3.117] While non-typable H. influenzae strains rarely cause serious disease, they are more likely to cause chronic infections because they have the ability to change their surface antigens.
+- [W3.118] Chronic infections are usually not as serious as acute infections.
+- [W3.119] There are a few other possible diseases and conditions that can arise from the H. influenzae depending on the areas that they exist in within the human body.
+- [W3.120] This bacterium can exist in the nasal passages (especially the nasopharynx), the ear canal, and the lungs.
+- [W3.121] The bacterium's presence in these areas can lead to some conditions such as otitis media, chronic obstructive pulmonary disorder (COPD), epiglottitis, and asthma which can become severe.
+- [W3.122] Effective vaccines for Haemophilus influenzae serotype b have been available since the early 1990s, and are recommended for children under age 5 and asplenic patients.
+- [W3.123] The World Health Organization recommends a pentavalent vaccine, combining vaccines against diphtheria, tetanus, pertussis, hepatitis B and Hib.
+- [W3.124] There is not yet sufficient evidence on how effective this pentavalent vaccine is in relation to the individual vaccines.
+- [W3.125] Hib vaccines cost about seven times the total cost of vaccines against measles, polio, tuberculosis, diphtheria, tetanus, and pertussis.
+- [W3.126] Consequently, whereas 92% of the populations of developed countries, 94% for European countries, were vaccinated against Hib as of 2023, vaccination coverage was 77% globally, and only 33% for people living in the western pacific region.
+- [W3.127] The Hib vaccines do not provide cross-protection to any other H. influenzae serotypes like Hia, Hic, Hid, Hie or Hif.
+- [W3.128] An oral vaccination has been developed for non-typeable H. influenzae (NTHi) for patients with chronic bronchitis, but it has not shown to be effective in reducing the number and severity of COPD exacerbations.
+- [W3.129] However, there is no effective vaccine for the other types of capsulated H. influenzae or NTHi.
+- [W3.130] Vaccines that target unencapsulated H. influenzae serotypes are in development.
+- [W3.131] By 2026, following the decline of vaccinations in the United States, Hib was confirmed to be making a comeback in the country.
+- [W3.132] Centers for Disease Control and Prevention (2012).
+- [W3.133] 7: Haemophilus influenzae".
+- [W3.134] In Atkinson W; Wolfe S; Hamborsky J (eds.).
+- [W3.135] Epidemiology and Prevention of Vaccine-Preventable Diseases (12th ed.).
+- [W3.136] Washington, D.C.: Public Health Foundation. pp.
+- [W3.137] Archived from the original on 2017-03-10.
+- [W3.138] Hib information on the World Health Organization (WHO) site.
+- [W3.139] Fact sheet on the Centers for Disease Control and Prevention (CDC) site.
+- [W3.140] Type strain of Haemophilus influenzae at BacDive –  the Bacterial Diversity Metadatabase
+
+## [W4] Wikipedia: Frederick Sanger
+https://en.wikipedia.org/w/index.php?title=Frederick_Sanger&oldid=1379442193 · CC BY-SA 4.0 · usage: ai_input
+
+- [W4.1] Frederick Sanger (; 13 August 1918 – 19 November 2013) was a British biochemist who received the Nobel Prize in Chemistry twice.
+- [W4.2] Sanger won the 1958 Chemistry Prize for determining the amino acid sequence of insulin and numerous other proteins, demonstrating in the process that each had a unique, definite structure; this was a foundational discovery for the central dogma of molecular biology.
+- [W4.3] At the newly constructed Laboratory of Molecular Biology in Cambridge, he developed and subsequently refined the first-ever DNA sequencing technique, which vastly expanded the number of feasible experiments in molecular biology and remains in widespread use today.
+- [W4.4] The breakthrough earned him the 1980 Nobel Prize in Chemistry, which he shared with Walter Gilbert and Paul Berg.
+- [W4.5] He is one of only three people to have won multiple Nobel Prizes in the same category (the others being John Bardeen in physics and Karl Barry Sharpless in chemistry), and one of five persons with two Nobel Prizes.
+- [W4.6] Frederick Sanger was born on 13 August 1918 in Rendcomb, a small village in Gloucestershire, England, the second son of Frederick Sanger, a general practitioner, and his wife, Cicely Sanger (née Crewdson).
+- [W4.7] He was one of three children.
+- [W4.8] His brother, Theodore, was only a year older, while his sister May (Mary) was five years younger.
+- [W4.9] His father had worked as an Anglican medical missionary in China but returned to England because of ill health.
+- [W4.10] He was 40 in 1916 when he married Cicely, who was four years younger.
+- [W4.11] Sanger's father converted to Quakerism soon after his two sons were born and brought up the children as Quakers.
+- [W4.12] Sanger's mother was the daughter of an affluent cotton manufacturer and had a Quaker background, but was not a Quaker.
+- [W4.13] When Sanger was around five years old the family moved to the small village of Tanworth-in-Arden in Warwickshire.
+- [W4.14] The family was reasonably wealthy and employed a governess to teach the children.
+- [W4.15] In 1927, at the age of nine, he was sent to the Downs School, a residential preparatory school run by Quakers near Malvern.
+- [W4.16] His brother Theo was a year ahead of him at the same school.
+- [W4.17] In 1932, at the age of 14, he was sent to the recently established Bryanston School in Dorset.
+- [W4.18] This used the Dalton system and had a more liberal regime which Sanger much preferred.
+- [W4.19] At the school he liked his teachers and particularly enjoyed scientific subjects.
+- [W4.20] Able to complete his School Certificate a year early, for which he was awarded seven credits, Sanger was able to spend most of his last year of school experimenting in the laboratory alongside his chemistry master, Geoffrey Ordish, who had originally studied at Cambridge University and been a researcher in the Cavendish Laboratory.
+- [W4.21] Working with Ordish made a refreshing change from sitting and studying books and awakened Sanger's desire to pursue a scientific career.
+- [W4.22] In 1935, prior to heading off to university, Sanger was sent to Schule Schloss Salem in southern Germany on an exchange program.
+- [W4.23] The school placed a heavy emphasis on athletics, which caused Sanger to be much further ahead in the course material compared to the other students.
+- [W4.24] He was shocked to learn that each day was started with readings from Hitler's Mein Kampf, followed by a Sieg Heil salute.
+- [W4.25] In 1936 Sanger went to St John's College, Cambridge, to study natural sciences.
+- [W4.26] His father had attended the same college.
+- [W4.27] For Part I of his Tripos he took courses in physics, chemistry, biochemistry and mathematics but struggled with physics and mathematics.
+- [W4.28] Many of the other students had studied more mathematics at school.
+- [W4.29] In his second year he replaced physics with physiology.
+- [W4.30] He took three years to obtain his Part I.
+- [W4.31] For his Part II he studied biochemistry and obtained a 1st Class Honours.
+- [W4.32] Biochemistry was a relatively new department founded by Gowland Hopkins with enthusiastic lecturers who included Malcolm Dixon, Joseph Needham and Ernest Baldwin.
+- [W4.33] Both his parents died from cancer during his first two years at Cambridge.
+- [W4.34] His father was 60 and his mother was 58.
+- [W4.35] As an undergraduate Sanger's beliefs were strongly influenced by his Quaker upbringing.
+- [W4.36] He was a pacifist and a member of the Peace Pledge Union.
+- [W4.37] It was through his involvement with the Cambridge Scientists' Anti-War Group that he met his future wife, Joan Howe, who was studying economics at Newnham College.
+- [W4.38] They courted while he was studying for his Part II exams and married after he had graduated in December 1940.
+- [W4.39] Sanger, although brought up and influenced by his religious upbringing, later began to lose sight of his Quaker related ways.
+- [W4.40] He began to see the world through a more scientific lens, and with the growth of his research and scientific development he slowly drifted farther from the faith he grew up with.
+- [W4.41] He had nothing but respect for the religious and states he took two things from it, truth and respect for all life.
+- [W4.42] Under the Military Training Act 1939 he was provisionally registered as a conscientious objector, and again under the National Service (Armed Forces) Act 1939, before being granted unconditional exemption from military service by a tribunal.
+- [W4.43] In the meantime he undertook training in social relief work at the Quaker centre, Spicelands, Devon and served briefly as a hospital orderly.
+- [W4.44] Sanger began studying for a PhD in October 1940 under N.W.
+- [W4.45] His project was to investigate whether edible protein could be obtained from grass.
+- [W4.46] After little more than a month Pirie left the department and Albert Neuberger became his adviser.
+- [W4.47] Sanger changed his research project to study the metabolism of lysine and a more practical problem concerning the nitrogen of potatoes.
+- [W4.48] His thesis had the title, "The metabolism of the amino acid lysine in the animal body".
+- [W4.49] He was examined by Charles Harington and Albert Charles Chibnall and awarded his doctorate in 1943.
+- [W4.50] Neuberger moved to the National Institute for Medical Research in London, but Sanger stayed in Cambridge and in 1943 joined the group of Charles Chibnall, a protein chemist who had recently taken up the chair in the Department of Biochemistry.
+- [W4.51] Chibnall had already done some work on the amino acid composition of bovine insulin and suggested that Sanger look at the amino groups in the protein.
+- [W4.52] Insulin could be purchased from the pharmacy chain Boots and was one of the very few proteins that were available in a pure form.
+- [W4.53] Up to this time Sanger had been funding himself.
+- [W4.54] In Chibnall's group he was initially supported by the Medical Research Council and then from 1944 until 1951 by a Beit Memorial Fellowship for Medical Research.
+- [W4.55] Sanger's first triumph was to determine the complete amino acid sequence of the two polypeptide chains of bovine insulin, A and B, in 1952 and 1951, respectively.
+- [W4.56] Prior to this it was widely assumed that proteins were somewhat amorphous.
+- [W4.57] In determining these sequences, Sanger proved that proteins have a defined chemical composition.
+- [W4.58] To get to this point, Sanger refined a partition chromatography method first developed by Richard Laurence Millington Synge and Archer John Porter Martin to determine the composition of amino acids in wool.
+- [W4.59] Sanger used a chemical reagent 1-fluoro-2,4-dinitrobenzene (now, also known as Sanger's reagent, fluorodinitrobenzene, FDNB or DNFB), sourced from poisonous gas research by Bernard Charles Saunders at the Chemistry Department at Cambridge University.
+- [W4.60] Sanger's reagent proved effective at labelling the  N-terminal amino group at one end of the polypeptide chain.
+- [W4.61] He then partially hydrolysed the insulin into short peptides, either with hydrochloric acid or using an enzyme such as trypsin.
+- [W4.62] The mixture of peptides was fractionated in two dimensions on a sheet of filter paper, first by electrophoresis in one dimension and then, perpendicular to that, by chromatography in the other.
+- [W4.63] The different peptide fragments of insulin, detected with ninhydrin, moved to different positions on the paper, creating a distinct pattern that Sanger called "fingerprints".
+- [W4.64] The peptide from the N-terminus could be recognised by the yellow colour imparted by the FDNB label and the identity of the labelled amino acid at the end of the peptide determined by complete acid hydrolysis and discovering which dinitrophenyl-amino acid was there.
+- [W4.65] By repeating this type of procedure Sanger was able to determine the sequences of the many peptides generated using different methods for the initial partial hydrolysis.
+- [W4.66] These could then be assembled into the longer sequences to deduce the complete structure of insulin.
+- [W4.67] Finally, because the A and B chains are physiologically inactive without the three linking disulfide bonds (two interchain, one intrachain on A), Sanger and coworkers determined their assignments in 1955.
+- [W4.68] Sanger's principal conclusion was that the two polypeptide chains of the protein insulin had precise amino acid sequences and, by extension, that every protein had a unique sequence.
+- [W4.69] It was this achievement that earned him his first Nobel prize in Chemistry in 1958.
+- [W4.70] This discovery was crucial to the later sequence hypothesis of Francis Crick for developing ideas of how DNA codes for proteins.
+- [W4.71] From 1951 Sanger was a member of the external staff of the Medical Research Council and when they opened the Laboratory of Molecular Biology in 1962, he moved from his laboratories in the Biochemistry Department of the university to the top floor of the new building.
+- [W4.72] He became head of the Protein Chemistry division.
+- [W4.73] Prior to his move, Sanger began exploring the possibility of sequencing RNA molecules and began developing methods for separating ribonucleotide fragments generated with specific nucleases.
+- [W4.74] This work he did while trying to refine the sequencing techniques he had developed during his work on insulin.
+- [W4.75] The key challenge in the work was finding a pure piece of RNA to sequence.
+- [W4.76] In the course of the work he discovered in 1964, with Kjeld Marcker, the formylmethionine tRNA which initiates protein synthesis in bacteria.
+- [W4.77] He was beaten in the race to be the first to sequence a tRNA molecule by a group led by Robert Holley from Cornell University, who published the sequence of the 77 ribonucleotides of alanine tRNA from Saccharomyces cerevisiae in 1965.
+- [W4.78] By 1967 Sanger's group had determined the nucleotide sequence of the 5S ribosomal RNA from Escherichia coli, a small RNA of 120 nucleotides.
+- [W4.79] Sanger then turned to sequencing DNA, which would require an entirely different approach.
+- [W4.80] He looked at different ways of using DNA polymerase I from E. coli to copy single-stranded DNA.
+- [W4.81] In 1975, together with Alan Coulson, he published a sequencing procedure using DNA polymerase with radiolabelled nucleotides that he called the "Plus and Minus" technique.
+- [W4.82] This involved two closely related methods that generated short oligonucleotides with defined 3' termini.
+- [W4.83] These could be fractionated by electrophoresis on a polyacrylamide gel and visualised using autoradiography.
+- [W4.84] The procedure could sequence up to 80 nucleotides in one go and was a big improvement on what had gone before, but was still very laborious.
+- [W4.85] Nevertheless, his group were able to sequence most of the 5,386 nucleotides of the single-stranded bacteriophage φX174.
+- [W4.86] This was the first fully sequenced DNA-based genome.
+- [W4.87] To their surprise they discovered that the coding regions of some of the genes overlapped with one another.
+- [W4.88] In 1977 Sanger and colleagues introduced the "dideoxy" chain-termination method for sequencing DNA molecules, also known as the "Sanger method".
+- [W4.89] This was a major breakthrough and allowed long stretches of DNA to be rapidly and accurately sequenced.
+- [W4.90] It earned him his second Nobel prize in Chemistry in 1980, which he shared with Walter Gilbert and Paul Berg.
+- [W4.91] The new method was used by Sanger and colleagues to sequence human mitochondrial DNA (16,569 base pairs) and bacteriophage λ (48,502 base pairs).
+- [W4.92] The dideoxy method was eventually used to sequence the entire human genome.
+- [W4.93] During the course of his career Sanger supervised more than ten PhD students, two of whom went on to also win Nobel Prizes.
+- [W4.94] His first graduate student was Rodney Porter who joined the research group in 1947.
+- [W4.95] Porter later shared the 1972 Nobel Prize in Physiology or Medicine with Gerald Edelman for his work on the chemical structure of antibodies.
+- [W4.96] Elizabeth Blackburn studied for a PhD in Sanger's laboratory between 1971 and 1974.
+- [W4.97] She shared the 2009 Nobel Prize in Physiology or Medicine with Carol W.
+- [W4.98] Szostak for her work on telomeres and the action of telomerase.
+- [W4.99] ... anytime you get technical development that's two to threefold or more efficient, accurate, cheaper, a whole range of experiments opens up.
+- [W4.100] This rule should not be confused with Terence Sanger's rule, which is related to Oja's rule.
+- [W4.101] As of 2015, Sanger is one of the only two people to have been awarded the Nobel Prize in Chemistry twice (the other being Karl Barry Sharpless in 2001 and 2022), and one of only five two-time Nobel laureates: The other four were Marie Curie (Physics, 1903 and Chemistry, 1911), Linus Pauling (Chemistry, 1954 and Peace, 1962), John Bardeen (twice Physics, 1956 and 1972), and Karl Barry Sharpless (twice Chemistry, 2001 and 2022).
+- [W4.102] Elected Fellow of the Royal Society (FRS) in 1954
+- [W4.103] Commander of the Order of the British Empire (CBE) – 1963
+- [W4.104] Member of the Order of the Companions of Honour (CH) – 1981 Birthday Honours
+- [W4.105] Member of the Order of Merit (OM) – 1986
+- [W4.106] Corresponding Member of the Australian Academy of Science – 1982
+- [W4.107] William Bate Hardy Prize – 1976
+- [W4.108] Nobel Prize in Chemistry – 1958, 1980
+- [W4.109] Corday–Morgan Medal – 1951
+- [W4.110] Gairdner Foundation International Award – 1971
+- [W4.111] Louisa Gross Horwitz Prize of Columbia University – 1979
+- [W4.112] Albert Lasker Award for Basic Medical Research – 1979
+- [W4.113] Association of Biomolecular Resource Facilities Award – 1994
+- [W4.114] Golden Plate Award of the American Academy of Achievement – 2000
+- [W4.115] Citation for Chemical Breakthrough Award from the Division of History of Chemistry of the American Chemical Society – 2016
+- [W4.116] The Wellcome Trust Sanger Institute (formerly the Sanger Centre) is named in his honour.
+- [W4.117] Sanger married Margaret Joan Howe (not to be confused with Margaret Sanger, the American pioneer of birth control) in 1940.
+- [W4.118] They had three children—Robin, born in 1943, Peter born in 1946 and Sally Joan born in 1960.
+- [W4.119] He said that his wife had "contributed more to his work than anyone else by providing a peaceful and happy home."
+- [W4.120] Sanger retired in 1983, aged 65, to his home, "Far Leys", in Swaffham Bulbeck outside Cambridge.
+- [W4.121] In 1992, the Wellcome Trust and the Medical Research Council founded the Sanger Centre (now the Sanger Institute), named after him.
+- [W4.122] The institute is on the Wellcome Trust Genome Campus near Hinxton, only a few miles from Sanger's home.
+- [W4.123] He agreed to having the Centre named after him when asked by John Sulston, the founding director, but warned, "It had better be good." It was opened by Sanger in person on 4 October 1993, with a staff of fewer than 50 people, and went on to take a leading role in the sequencing of the human genome.
+- [W4.124] The Institute had about 900 people in 2020 and is one of the world's largest genomic research centres.
+- [W4.125] Sanger said he found no evidence for a God so he became an agnostic.
+- [W4.126] In an interview published in the Times newspaper in 2000 Sanger is quoted as saying: "My father was a committed Quaker and I was brought up as a Quaker, and for them truth is very important.
+- [W4.127] I drifted away from those beliefs – one is obviously looking for truth, but one needs some evidence for it.
+- [W4.128] Even if I wanted to believe in God I would find it very difficult.
+- [W4.129] I would need to see proof."
+- [W4.130] He declined the offer of a knighthood, as he did not wish to be addressed as "Sir".
+- [W4.131] He is quoted as saying, "A knighthood makes you different, doesn't it, and I don't want to be different." In 1986 he accepted admission to the Order of Merit, which can have only 24 living members.
+- [W4.132] In 2007 the British Biochemical Society was given a grant by the Wellcome Trust to catalogue and preserve the 35 laboratory notebooks in which Sanger recorded his research from 1944 to 1983.
+- [W4.133] In reporting this matter, Science noted that Sanger, "the most self-effacing person you could hope to meet", was spending his time gardening at his Cambridgeshire home.
+- [W4.134] Sanger died in his sleep at Addenbrooke's Hospital in Cambridge, on 19 November 2013, aged 95.
+- [W4.135] As noted in his obituary, he had described himself as "just a chap who messed about in a lab", and "academically not brilliant".
+- [W4.136] Sanger was one of the signatories of the agreement to convene a convention for drafting a world constitution.
+- [W4.137] As a result, for the first time in human history, a World Constituent Assembly convened to draft and adopt a Constitution for the Federation of Earth.
+- [W4.138] About the 1958 Nobel Prize
+- [W4.139] About the 1980 Nobel Prize
+- [W4.140] Fred Sanger 2001 Video Documentary by The Vega Science Trust
+- [W4.141] Portraits of Frederick Sanger at the National Portrait Gallery, London
+- [W4.142] Frederick Sanger interviewed by Alan Macfarlane, 24 August 2007 (video), also available on Video on YouTube.
+- [W4.143] Frederick Sanger archive collection – Wellcome Library finding aid for the digitised collection.
+- [W4.144] Frederick Sanger on Nobelprize.org
+
+## [W5] Wikipedia: Falcon
+https://en.wikipedia.org/w/index.php?title=Falcon&oldid=1380574696 · CC BY-SA 4.0 · usage: ai_input
+
+- [W5.1] Falcons () are birds of prey in the genus Falco, which includes about 40 species.
+- [W5.2] Some small species of falcons with long, narrow wings are called hobbies, and some that hover while hunting are called kestrels.
+- [W5.3] Falcons are widely distributed on all continents of the world except Antarctica, though closely related raptors did occur there in the Eocene.
+- [W5.4] Adult falcons have thin, tapered wings, which enable them to fly at high speed and change direction rapidly.
+- [W5.5] Fledgling falcons, in their first year of flying, have longer flight feathers, which make their configuration more like that of a general-purpose bird such as a broadwing.
+- [W5.6] This makes flying easier while still learning the aerial skills required to be effective hunters like the adults.
+- [W5.7] The falcons are the largest genus in the Falconinae subfamily of Falconidae, which also includes two other subfamilies comprising caracaras and a few other species of "falcons".
+- [W5.8] All these birds kill prey with their beaks, using a tomial "tooth" on the side of their beaks—unlike the hawks, eagles and other larger birds of prey from the unrelated family Accipitridae, who use talons on their feet.
+- [W5.9] The largest falcon is the gyrfalcon at up to 65 cm (26 in) in length.
+- [W5.10] The smallest falcon species is the Seychelles kestrel, which measures just 15–24 centimetres (5.9–9.4 in).
+- [W5.11] As with hawks and owls, falcons exhibit sexual dimorphism, with the females typically larger than the males, thus allowing a wider range of prey species.
+- [W5.12] As is the case with many birds of prey, falcons have exceptional powers of vision; the visual acuity of one species has been measured at 2.6 times that of human eyes.
+- [W5.13] They are fast fliers, with the Peregrine falcons having been recorded diving at speeds of 320 km/h (200 mph), making them the fastest-moving creatures on Earth; the fastest recorded dive attained a vertical speed of 390 km/h (240 mph).
+- [W5.14] The genus Falco was introduced in 1758 by the Swedish naturalist Carl Linnaeus in the tenth edition of his Systema Naturae.
+- [W5.15] The type species is the merlin (Falco columbarius).
+- [W5.16] The genus name Falco is Late Latin meaning a "falcon" from falx, falcis, meaning "a sickle", referring to the claws of the bird.
+- [W5.17] In Middle English and Old French, the title faucon refers generically to several captive raptor species.
+- [W5.18] The traditional term for a male falcon is tercel (British spelling) or tiercel (American spelling), from the Latin tertius (third) because of the belief that only one in three eggs hatched a male bird.
+- [W5.19] Some sources give the etymology as deriving from the fact that a male falcon is about one-third smaller than a female (Old French: tiercelet).
+- [W5.20] A falcon chick, especially one reared for falconry, still in its downy stage, is known as an eyas (sometimes spelled eyass).
+- [W5.21] The word arose by mistaken division of Old French un niais, from Latin presumed nidiscus (nestling) from nidus (nest).
+- [W5.22] The technique of hunting with trained captive birds of prey is known as falconry.
+- [W5.23] Compared to other birds of prey, the fossil record of the falcons is not well distributed in time.
+- [W5.24] For years, the oldest fossils tentatively assigned to this genus were from the Late Miocene, less than 10 million years ago.
+- [W5.25] This coincides with a period in which many modern genera of birds became recognizable in the fossil record.
+- [W5.26] As of 2021, the oldest falconid fossil is estimated to be 55 million years old.
+- [W5.27] Given the distribution of fossil and living Falco taxa, falcons are probably of North American, African, or possibly Middle Eastern or European origin.
+- [W5.28] Falcons are not closely related to other birds of prey, being part of the class Australaves, and their nearest relatives are parrots and songbirds.
+- [W5.29] Falcons are roughly divisible into three or four groups.
+- [W5.30] The first contains the kestrels (probably excepting the American kestrel); usually small and stocky falcons of mainly brown upperside colour and sometimes sexually dimorphic; three African species that are generally gray in colour stand apart from the typical members of this group.
+- [W5.31] The fox and greater kestrels can be told apart at first glance by their tail colours, but not by much else; they might be very close relatives and are probably much closer to each other than the lesser and common kestrels.
+- [W5.32] Kestrels feed chiefly on terrestrial vertebrates and invertebrates of appropriate size, such as rodents, reptiles, or insects.
+- [W5.33] The second group contains slightly larger (on average) species, the hobbies and relatives.
+- [W5.34] These birds are characterized by considerable amounts of dark slate-gray in their plumage; their malar areas are nearly always black.
+- [W5.35] They feed mainly on smaller birds.
+- [W5.36] Third are the peregrine falcon and its relatives, variably sized powerful birds that also have a black malar area (except some very light color morphs), and often a black cap, as well.
+- [W5.37] They are very fast birds with a maximum speed of 390 kilometres per hour.
+- [W5.38] Otherwise, they are somewhat intermediate between the other groups, being chiefly medium grey with some lighter or brownish colours on their upper sides.
+- [W5.39] They are, on average, more delicately patterned than the hobbies and, if the hierofalcons are excluded (see below), this group typically contains species with horizontal barring on their undersides.
+- [W5.40] As opposed to the other groups, where tail colour varies much in general but little according to evolutionary relatedness, the tails of the large falcons are quite uniformly dark grey with inconspicuous black banding and small, white tips, though this is probably plesiomorphic.
+- [W5.41] These large Falco species feed on mid-sized birds and terrestrial vertebrates.
+- [W5.42] Very similar to these, and sometimes included therein, are the four or so species of hierofalcon (literally, "hawk-falcons").
+- [W5.43] They represent taxa with, usually, more phaeomelanins, which impart reddish or brown colors, and generally more strongly patterned plumage reminiscent of hawks.
+- [W5.44] Their undersides have a lengthwise pattern of blotches, lines, or arrowhead marks.
+- [W5.45] While these three or four groups, loosely circumscribed, are an informal arrangement, they probably contain several distinct clades in their entirety.
+- [W5.46] A study of mtDNA cytochrome b sequence data of some kestrels identified a clade containing the common kestrel and related "malar-striped" species, to the exclusion of such taxa as the greater kestrel (which lacks a malar stripe), the lesser kestrel (which is very similar to the common, but also has no malar stripe), and the American kestrel, which has a malar stripe, but its colour pattern – apart from the brownish back – and also the black feathers behind the ear, which never occur in the true kestrels, are more reminiscent of some hobbies.
+- [W5.47] The malar-striped kestrels apparently split from their relatives in the Gelasian, roughly 2.0–2.5 million years ago (Mya), and are seemingly of tropical East African origin.
+- [W5.48] The entire "true kestrel" group—excluding the American species—is probably a distinct and quite young clade, as also suggested by their numerous apomorphies.
+- [W5.49] Other studies have confirmed that the hierofalcon are a monophyletic group–and that hybridization is quite frequent at least in the larger falcon species.
+- [W5.50] Initial studies of mtDNA cytochrome b sequence data suggested that the hierofalcon are sister to other living falcons.
+- [W5.51] The discovery of a NUMT proved this earlier theory erroneous.
+- [W5.52] In reality, the hierofalcon are a rather young group, originating at the same time as the start of the main kestrel radiation, about 2 Mya.
+- [W5.53] Very little fossil history exists for this lineage.
+- [W5.54] However, the present diversity of very recent origin suggests that this lineage may have nearly gone extinct in the recent past.
+- [W5.55] The phylogeny and delimitations of the peregrine and hobby groups are more problematic.
+- [W5.56] Molecular studies have only been conducted on a few species, and the morphologically ambiguous taxa have often been little researched.
+- [W5.57] The morphology of the syrinx, which contributes well to resolving the overall phylogeny of the Falconidae, is not very informative in the present genus.
+- [W5.58] Nonetheless, a core group containing the peregrine and Barbary falcons, which, in turn, group with the hierofalcon and the more distant prairie falcon (which was sometimes placed with the hierofalcon, though it is entirely distinct biogeographically), as well as at least most of the "typical" hobbies, are confirmed to be monophyletic as suspected.
+- [W5.59] Given that the American Falco species of today belong to the peregrine group, or are apparently sister to other species in the clade, the initially most successful evolutionary radiation seemingly was a Holarctic one that originated possibly around central Eurasia or in (northern) Africa.
+- [W5.60] One or several lineages were present in North America by the Early Pliocene at the latest.
+- [W5.61] The origin of today's major Falco groups—the "typical" hobbies and kestrels, for example, or the peregrine-hierofalcon complex, or the aplomado falcon lineage—can be quite confidently placed from the Miocene-Pliocene boundary through the Zanclean and Piacenzian and just into the Gelasian, that is from 2.4 to 5.3 Mya, when the malar-striped kestrels diversified.
+- [W5.62] Some groups of falcons, such as the hierofalcon complex and the peregrine falcon-Barbary falcon superspecies, have only evolved in more recent times; the species of the former seem to be 120,000 years old or so.
+- [W5.63] The sequence follows the taxonomic order of White et al.
+- [W5.64] (1996), except for adjustments in the kestrel sequence.
+- [W5.65] Réunion kestrel, Falco duboisi – extinct (about 1700)
+- [W5.66] Falco medius (Late Miocene of Cherevichnyi, Ukraine)
+- [W5.67] (Early Pliocene of Kansas)
+- [W5.68] (Early Pliocene of Bulgaria – Early Pleistocene of Spain and Czech Republic)
+- [W5.69] Falco oregonus (Early/Middle Pliocene of Fossil Lake, Oregon) – possibly not distinct from a living species
+- [W5.70] Falco umanskajae (Late Pliocene of Kryzhanovka, Ukraine) – includes "Falco odessanus", a nomen nudum
+- [W5.71] ?Falco bakalovi (Late Pliocene of Varshets, Bulgaria)
+- [W5.72] Falco antiquus (Middle Pleistocene of Noailles, France and possibly Horvőlgy, Hungary)
+- [W5.73] Cuban kestrel, Falco kurochkini (Late Pleistocene/Holocene of Cuba, West Indies)
+- [W5.74] Falco bulgaricus (Late Miocene of Hadzhidimovo, Bulgaria)
+- [W5.75] Several more paleosubspecies of extant species have also been described; see species accounts for these.
+- [W5.76] "Sushkinia" pliocaena from the Early Pliocene of Pavlodar (Kazakhstan) appears to be a falcon of some sort.
+- [W5.77] It might belong in this genus or a closely related one.
+- [W5.78] In any case, the genus name Sushkinia is invalid for this animal because it had already been allocated to a prehistoric dragonfly relative.
+- [W5.79] In 2015 the bird genus was renamed Psushkinia.
+- [W5.80] The supposed "Falco" pisanus was actually a pigeon of the genus Columba, possibly the same as Columba omnisanctorum, which, in that case, would adopt the older species name of the "falcon".
+- [W5.81] The Eocene fossil "Falco" falconellus (or "F." falconella) from Wyoming is a bird of uncertain affiliations, maybe a falconid, maybe not; it certainly does not belong in this genus.
+- [W5.82] "Falco" readei is now considered a paleosubspecies of the yellow-headed caracara (Daptrius chimachima).
+- [W5.83] Falconidae videos on the Internet Bird Collection, ibc.lynxeds.com
+- [W5.84] The Raptor Resource Project – Peregrine, owl, eagle and osprey cams, facts, and other resources, raptorresource.org
+- [W5.85] New International Encyclopedia.
+
+## [W6] Wikipedia: Australaves
+https://en.wikipedia.org/w/index.php?title=Australaves&oldid=1379689218 · CC BY-SA 4.0 · usage: ai_input
+
+- [W6.1] Australaves is a clade of birds defined in 2012, consisting of the Eufalconimorphae (passerines, parrots and falcons) as well as the Cariamiformes (including seriemas and the extinct "terror birds").
+- [W6.2] They appear to be the sister group of Afroaves.
+- [W6.3] This clade was defined in the PhyloCode by George Sangster and colleagues in 2022 as "the least inclusive crown clade containing Cariama cristata and Passer domesticus".
+- [W6.4] The clade's name, meaning 'southern birds', reflects the group's evolutionary origins in the Southern Hemisphere: passerines and parrots in Australia, and falcons and seriemas in South America.
+- [W6.5] As in the case of Afroaves, the most basal clades have predatory extant members, suggesting this was the ancestral lifestyle; however, some researchers like Darren Naish are skeptical of this assessment, since some extinct representatives such as the herbivorous Strigogyps led other lifestyles.
+- [W6.6] Basal parrots and falcons are at any rate vaguely crow-like and probably omnivorous.
+- [W6.7] Cladogram of Telluraves relationships based on Kuhl et al.
+- [W6.8] (2020) and Braun & Kimball (2021)
+
+## [W7] Wikipedia: Genome
+https://en.wikipedia.org/w/index.php?title=Genome&oldid=1378647772 · CC BY-SA 4.0 · usage: ai_input
+
+- [W7.1] In the fields of molecular biology and genetics, a genome is all the genetic information of an organism.
+- [W7.2] It consists of nucleotide sequences of DNA (or RNA in RNA viruses).
+- [W7.3] The nuclear genome includes protein-coding genes and non-coding genes, other functional regions of the genome such as regulatory sequences (see non-coding DNA), and often a substantial fraction of junk DNA with no evident function.
+- [W7.4] Almost all eukaryotes have mitochondria and a small mitochondrial genome.
+- [W7.5] Algae and plants also contain chloroplasts with a chloroplast genome.
+- [W7.6] The study of the genome is called genomics.
+- [W7.7] The genomes of many organisms have been sequenced and various regions have been annotated.
+- [W7.8] The first genome to be sequenced was that of the virus φX174 in 1977; the first genome sequence of a prokaryote (Haemophilus influenzae) was published in 1995; the yeast (Saccharomyces cerevisiae) genome was the first eukaryotic genome to be sequenced in 1996.
+- [W7.9] The Human Genome Project was started in October 1990, and the first draft sequences of the human genome were reported in April 2003.
+- [W7.10] The term genome was created in 1920 by Hans Winkler, professor of botany at the University of Hamburg, Germany.
+- [W7.11] The website Oxford Dictionaries and the Online Etymology Dictionary suggest the name is a blend of the words gene and chromosome.
+- [W7.12] However, see omics for a more thorough discussion.
+- [W7.13] A few related -ome words already existed, such as biome and rhizome, forming a vocabulary into which genome fits systematically.
+- [W7.14] The term "genome" usually refers to the DNA (or sometimes RNA) molecules that carry the genetic information in an organism, but sometimes it is uncertain which molecules to include; for example, bacteria usually have one or two large DNA molecules (chromosomes) that contain all of the essential genetic material but they also contain smaller extrachromosomal plasmid molecules that carry important genetic information.
+- [W7.15] In the scientific literature, the term 'genome' usually refers to the large chromosomal DNA molecules in bacteria.
+- [W7.16] Eukaryotic genomes are even more difficult to define because almost all eukaryotic species contain nuclear chromosomes plus extra DNA molecules in the mitochondria.
+- [W7.17] In addition, algae and plants have chloroplast DNA.
+- [W7.18] Most textbooks make a distinction between the nuclear genome and the organelle (mitochondria and chloroplast) genomes so when they speak of, say, the human genome, they are only referring to the genetic material in the nucleus.
+- [W7.19] This is the most common use of 'genome' in the scientific literature.
+- [W7.20] Most eukaryotes are diploid, meaning that there are two of each chromosome in the nucleus but the 'genome' refers to only one copy of each chromosome.
+- [W7.21] Some eukaryotes have distinctive sex chromosomes, such as the X and Y chromosomes of mammals, so the technical definition of the genome must include both copies of the sex chromosomes.
+- [W7.22] For example, the standard reference genome of humans consists of one copy of each of the 22 autosomes plus one X chromosome and one Y chromosome.
+- [W7.23] A genome sequence is the complete list of the nucleotides (A, C, G, and T for DNA genomes) that make up all the chromosomes of an individual or a species.
+- [W7.24] Within a species, the vast majority of nucleotides are identical between individuals, but sequencing multiple individuals is necessary to understand the genetic diversity.
+- [W7.25] In 1976, Walter Fiers at the University of Ghent (Belgium) was the first to establish the complete nucleotide sequence of a viral RNA-genome (Bacteriophage MS2).
+- [W7.26] The next year, Fred Sanger completed the first DNA-genome sequence: Phage X174, of 5386 base pairs.The first bacterial genome to be sequenced was that of Haemophilus influenzae, completed by a team at The Institute for Genomic Research in 1995.
+- [W7.27] A few months later, the first eukaryotic genome was completed, with sequences of the 16 chromosomes of budding yeast Saccharomyces cerevisiae published as the result of a European-led effort begun in the mid-1980s.
+- [W7.28] The first genome sequence for an archaeon, Methanococcus jannaschii, was completed in 1996, again by The Institute for Genomic Research.
+- [W7.29] The development of new technologies has made genome sequencing dramatically cheaper and easier, and the number of complete genome sequences is growing rapidly.
+- [W7.30] The US National Institutes of Health maintains one of several comprehensive databases of genomic information.
+- [W7.31] Among the thousands of completed genome sequencing projects include those for rice, a mouse, the plant Arabidopsis thaliana, the puffer fish, and the bacteria E. coli.
+- [W7.32] In December 2013, scientists first sequenced the entire genome of a Neanderthal, an extinct species of humans.
+- [W7.33] The genome was extracted from the toe bone of a 130,000-year-old Neanderthal found in a Siberian cave.
+- [W7.34] Viral genomes can be composed of either RNA or DNA.
+- [W7.35] The genomes of RNA viruses can be either single-stranded RNA or double-stranded RNA, and may contain one or more separate RNA molecules (segments: monopartit or multipartit genome).
+- [W7.36] DNA viruses can have either single-stranded or double-stranded genomes.
+- [W7.37] Most DNA virus genomes are composed of a single, linear molecule of DNA, but some are made up of a circular DNA molecule.
+- [W7.38] Prokaryotes and eukaryotes have DNA genomes.
+- [W7.39] Archaea and most bacteria have a single circular chromosome, however, some bacterial species have linear or multiple chromosomes.
+- [W7.40] If the DNA is replicated faster than the bacterial cells divide, multiple copies of the chromosome can be present in a single cell, and if the cells divide faster than the DNA can be replicated, multiple replication of the chromosome is initiated before the division occurs, allowing daughter cells to inherit complete genomes and already partially replicated chromosomes.
+- [W7.41] Most prokaryotes have very little repetitive DNA in their genomes.
+- [W7.42] However, some symbiotic bacteria (e.g.
+- [W7.43] Serratia symbiotica) have reduced genomes and a high fraction of pseudogenes: only ~40% of their DNA encodes proteins.
+- [W7.44] Some bacteria have auxiliary genetic material, also part of their genome, which is carried in plasmids.
+- [W7.45] For this, the word genome should not be used as a synonym of chromosome.
+- [W7.46] Eukaryotic genomes are composed of one or more linear DNA chromosomes.
+- [W7.47] The number of chromosomes varies widely from Jack jumper ants and an asexual nemotode, which each have only one pair, to a fern species that has 720 pairs.
+- [W7.48] It is surprising the amount of DNA that eukaryotic genomes contain compared to other genomes.
+- [W7.49] The amount is even more than what is necessary for DNA protein-coding and noncoding genes because eukaryotic genomes show as much as 64,000-fold variation in their sizes.
+- [W7.50] However, this special characteristic is caused by the presence of repetitive DNA, and transposable elements (TEs).
+- [W7.51] A typical human cell has two copies of each of 22 autosomes, one inherited from each parent, plus two sex chromosomes, making it diploid.
+- [W7.52] Gametes, such as ova, sperm, spores, and pollen, are haploid, meaning they carry only one copy of each chromosome.
+- [W7.53] In addition to the chromosomes in the nucleus, organelles such as the chloroplasts and mitochondria have their own DNA.
+- [W7.54] Mitochondria are sometimes said to have their own genome often referred to as the "mitochondrial genome".
+- [W7.55] The DNA found within the chloroplast may be referred to as the "plastome".
+- [W7.56] Like the bacteria they originated from, mitochondria and chloroplasts have a circular chromosome.
+- [W7.57] Unlike prokaryotes where exon-intron organization of protein coding genes exists but is rather exceptional, eukaryotes generally have these features in their genes and their genomes contain variable amounts of repetitive DNA.
+- [W7.58] In mammals and plants, the majority of the genome is composed of repetitive DNA.
+- [W7.59] High-throughput technology makes sequencing to assemble new genomes accessible to everyone.
+- [W7.60] Sequence polymorphisms are typically discovered by comparing resequenced isolates to a reference, whereas analyses of coverage depth and mapping topology can provide details regarding structural variations such as chromosomal translocations and segmental duplications.
+- [W7.61] DNA sequences that carry the instructions to make proteins are referred to as coding sequences.
+- [W7.62] The proportion of the genome occupied by coding sequences varies widely.
+- [W7.63] A larger genome does not necessarily contain more genes, and the proportion of non-repetitive DNA decreases along with increasing genome size in complex eukaryotes.
+- [W7.64] Noncoding sequences include introns, sequences for non-coding RNAs, regulatory regions, and repetitive DNA.
+- [W7.65] Noncoding sequences make up 98% of the human genome.
+- [W7.66] There are two categories of repetitive DNA in the genome: tandem repeats and interspersed repeats.
+- [W7.67] Short, non-coding sequences that are repeated head-to-tail are called tandem repeats.
+- [W7.68] Microsatellites consisting of 2–5 basepair repeats, while minisatellite repeats are 30–35 bp.
+- [W7.69] Tandem repeats make up about 4% of the human genome and 9% of the fruit fly genome.
+- [W7.70] Tandem repeats can be functional.
+- [W7.71] For example, telomeres are composed of the tandem repeat TTAGGG in mammals, and they play an important role in protecting the ends of the chromosome.
+- [W7.72] In other cases, expansions in the number of tandem repeats in exons or introns can cause disease.
+- [W7.73] For example, the human gene huntingtin (Htt) typically contains 6–29 tandem repeats of the nucleotides CAG (encoding a polyglutamine tract).
+- [W7.74] An expansion to over 36 repeats results in Huntington's disease, a neurodegenerative disease.
+- [W7.75] Twenty human disorders are known to result from similar tandem repeat expansions in various genes.
+- [W7.76] The mechanism by which proteins with expanded polygulatamine tracts cause death of neurons is not fully understood.
+- [W7.77] One possibility is that the proteins fail to fold properly and avoid degradation, instead accumulating in aggregates that also sequester important transcription factors, thereby altering gene expression.
+- [W7.78] Tandem repeats are usually caused by slippage during replication, unequal crossing-over and gene conversion.
+- [W7.79] Transposable elements (TEs) are sequences of DNA with a defined structure that are able to change their location in the genome.
+- [W7.80] TEs are categorized as either as a mechanism that replicates by copy-and-paste or as a mechanism that can be excised from the genome and inserted at a new location.
+- [W7.81] In the human genome, there are three important classes of TEs that make up more than 45% of the human DNA; these classes are The long interspersed nuclear elements (LINEs), The interspersed nuclear elements (SINEs), and endogenous retroviruses.
+- [W7.82] These elements have a big potential to modify the genetic control in a host organism.
+- [W7.83] The movement of TEs is a driving force of genome evolution in eukaryotes because their insertion can disrupt gene functions, homologous recombination between TEs can produce duplications, and TE can shuffle exons and regulatory sequences to new locations.
+- [W7.84] Retrotransposons are found mostly in eukaryotes but not found in prokaryotes.
+- [W7.85] Retrotransposons form a large portion of the genomes of many eukaryotes.
+- [W7.86] A retrotransposon is a transposable element that transposes through an RNA intermediate.
+- [W7.87] Retrotransposons are composed of DNA, but are transcribed into RNA for transposition, then the RNA transcript is copied back to DNA formation with the help of a specific enzyme called reverse transcriptase.
+- [W7.88] A retrotransposon that carries reverse transcriptase in its sequence can trigger its own transposition but retrotransposons that lack a reverse transcriptase must use reverse transcriptase synthesized by another retrotransposon.
+- [W7.89] Retrotransposons can be transcribed into RNA, which are then duplicated at another site into the genome.
+- [W7.90] Retrotransposons can be divided into long terminal repeats (LTRs) and non-long terminal repeats (Non-LTRs).
+- [W7.91] Long terminal repeats (LTRs) are derived from ancient retroviral infections, so they encode proteins related to retroviral proteins including gag (structural proteins of the virus), pol (reverse transcriptase and integrase), pro (protease), and in some cases env (envelope) genes.
+- [W7.92] These genes are flanked by long repeats at both 5' and 3' ends.
+- [W7.93] It has been reported that LTRs consist of the largest fraction in most plant genome and might account for the huge variation in genome size.
+- [W7.94] Non-long terminal repeats (Non-LTRs) are classified as long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), and Penelope-like elements (PLEs).
+- [W7.95] In Dictyostelium discoideum, there is another DIRS-like elements belong to Non-LTRs.
+- [W7.96] Non-LTRs are widely spread in eukaryotic genomes.
+- [W7.97] Long interspersed elements (LINEs) encode genes for reverse transcriptase and endonuclease, making them autonomous transposable elements.
+- [W7.98] The human genome has around 500,000 LINEs, taking around 17% of the genome.
+- [W7.99] Short interspersed elements (SINEs) are usually less than 500 base pairs and are non-autonomous, so they rely on the proteins encoded by LINEs for transposition.
+- [W7.100] The Alu element is the most common SINE found in primates.
+- [W7.101] It is about 350 base pairs and occupies about 11% of the human genome with around 1,500,000 copies.
+- [W7.102] DNA transposons encode a transposase enzyme between inverted terminal repeats.
+- [W7.103] When expressed, the transposase recognizes the terminal inverted repeats that flank the transposon and catalyzes its excision and reinsertion in a new site.
+- [W7.104] This cut-and-paste mechanism typically reinserts transposons near their original location (within 100 kb).
+- [W7.105] DNA transposons are found in bacteria and make up 3% of the human genome and 12% of the genome of the roundworm C. elegans.
+- [W7.106] Genome size is the total number of the DNA base pairs in one copy of a haploid genome.
+- [W7.107] Genome size varies widely across species.
+- [W7.108] Invertebrates have small genomes, this is also correlated to a small number of transposable elements.
+- [W7.109] Fish and amphibians have intermediate-size genomes, and birds have relatively small genomes but it has been suggested that birds lost a substantial portion of their genomes during the phase of transition to flight.
+- [W7.110] Before this loss, DNA methylation allows the adequate expansion of the genome.
+- [W7.111] In humans, the nuclear genome comprises approximately 3.1 billion nucleotides of DNA, divided into 24 linear chromosomes, the shortest 45 000 000 nucleotides in length and the longest 248 000 000 nucleotides.
+- [W7.112] Genome size and organismal complexity.
+- [W7.113] There is no clear and consistent correlation between morphological complexity and genome size in either prokaryotes or lower eukaryotes.
+- [W7.114] Genome size is largely a function of the expansion and contraction of repetitive DNA elements.
+- [W7.115] Even within certain taxonomic groups, genome size can vary substantially.
+- [W7.116] For instance, among fish, the size of the Tetraodon nigroviridis genome is only 340-360 Mb but at least the five-fold size in some Gobis, such as Awaous grammepomus which has a genome size of about 1878 Mb.
+- [W7.117] However, some invertebrates such as shrimp can have genomes that are five times as big as the human genome, e.g. in the  cave-dwelling shrimp Troglocaris planinensis.
+- [W7.118] Since genomes are very complex, one research strategy is to reduce the number of genes in a genome to the bare minimum and still have the organism in question survive.
+- [W7.119] This work is primarily done in bacteria as it is possible now to completely synthesize minimal genomes from scratch.
+- [W7.120] Genome size differences due to transposable elements
+- [W7.121] There are many enormous differences in size in genomes, specially mentioned before in the multicellular eukaryotic genomes.
+- [W7.122] Much of this is due to the differing abundances of transposable elements, which evolve by creating new copies of themselves in the chromosomes.
+- [W7.123] Eukaryote genomes often contain many thousands of copies of these elements, most of which have acquired mutations that make them defective.
+- [W7.124] All the cells of an organism originate from a single cell, so they are expected to have identical genomes; however, in some cases, differences arise.
+- [W7.125] Both the process of copying DNA during cell division and exposure to environmental mutagens can result in mutations in somatic cells.
+- [W7.126] In some cases, such mutations lead to cancer because they cause cells to divide more quickly and invade surrounding tissues.
+- [W7.127] In certain lymphocytes in the human immune system, V(D)J recombination generates different genomic sequences such that each cell produces a unique antibody or T cell receptors.
+- [W7.128] During meiosis, diploid cells divide twice to produce haploid germ cells.
+- [W7.129] During this process, recombination results in a reshuffling of the genetic material from homologous chromosomes so each gamete has a unique genome.
+- [W7.130] Genome-wide reprogramming in mouse primordial germ cells involves epigenetic imprint erasure leading to totipotency.
+- [W7.131] Reprogramming is facilitated by active DNA demethylation, a process that entails the DNA base excision repair pathway.
+- [W7.132] This pathway is employed in the erasure of CpG methylation (5mC) in primordial germ cells.
+- [W7.133] The erasure of 5mC occurs via its conversion to 5-hydroxymethylcytosine (5hmC) driven by high levels of the ten-eleven dioxygenase enzymes TET1 and TET2.
+- [W7.134] Genomes are more than the sum of an organism's genes and have traits that may be measured and studied without reference to the details of any particular genes and their products.
+- [W7.135] Researchers compare traits such as karyotype (chromosome number), genome size, gene order, codon usage bias, and GC-content to determine what mechanisms could have produced the great variety of genomes that exist today (for recent overviews, see Brown 2002; Saccone and Pesole 2003; Benfey and Protopapas 2004; Gibson and Muse 2004; Reese 2004; Gregory 2005).
+- [W7.136] Duplications play a major role in shaping the genome.
+- [W7.137] Duplication may range from extension of short tandem repeats, to duplication of a cluster of genes, and all the way to duplication of entire chromosomes or even entire genomes.
+- [W7.138] Such duplications are probably fundamental to the creation of genetic novelty.
+- [W7.139] Horizontal gene transfer is invoked to explain how there is often an extreme similarity between small portions of the genomes of two organisms that are otherwise very distantly related.
+- [W7.140] Horizontal gene transfer seems to be common among many microbes.
+- [W7.141] Also, eukaryotic cells seem to have experienced a transfer of some genetic material from their chloroplast and mitochondrial genomes to their nuclear chromosomes.
+- [W7.142] Recent empirical data suggest an important role of viruses and sub-viral RNA-networks to represent a main driving role to generate genetic novelty and natural genome editing.
+- [W7.143] The first company on genomics for detecting predisposition was Myriad Genetics founded by Mark Skolnick, and Kevin Kimberlin.
+- [W7.144] Works of science fiction illustrate concerns about the availability of genome sequences.
+- [W7.145] Michael Crichton's 1990 novel Jurassic Park and the subsequent film tell the story of a billionaire who creates a theme park of cloned dinosaurs on a remote island, with disastrous outcomes.
+- [W7.146] A geneticist extracts dinosaur DNA from the blood of ancient mosquitoes and fills in the gaps with DNA from modern species to create several species of dinosaurs.
+- [W7.147] A chaos theorist is asked to give his expert opinion on the safety of engineering an ecosystem with the dinosaurs, and he repeatedly warns that the outcomes of the project will be unpredictable and ultimately uncontrollable.
+- [W7.148] These warnings about the perils of using genomic information are a major theme of the book.
+- [W7.149] The 1997 film Gattaca is set in a futurist society where genomes of children are engineered to contain the most ideal combination of their parents' traits, and metrics such as risk of heart disease and predicted life expectancy are documented for each person based on their genome.
+- [W7.150] People conceived outside of the eugenics program, known as "In-Valids" suffer discrimination and are relegated to menial occupations.
+- [W7.151] The protagonist of the film is an In-Valid who works to defy the supposed genetic odds and achieve his dream of working as a space navigator.
+- [W7.152] The film warns against a future where genomic information fuels prejudice and extreme class differences between those who can and cannot afford genetically engineered children.
+- [W7.153] Benfey P, Protopapas AD (2004).
+- [W7.154] Oxford: Bios Scientific Publishers.
+- [W7.155] A Primer of Genome Science (Second ed.).
+- [W7.156] Sunderland, Mass: Sinauer Assoc.
+- [W7.157] The Evolution of the Genome.
+- [W7.158] Analysis of Genes and Genomes.
+- [W7.159] Chichester: John Wiley & Sons.
+- [W7.160] Saccone C, Pesole G (2003).
+- [W7.161] Handbook of Comparative Genomics.
+- [W7.162] Chichester: John Wiley & Sons.
+- [W7.163] "In silico multicellular systems biology and minimal genomes".
+- [W7.164] 8 (24): 1121–27. doi:10.1016/S1359-6446(03)02918-0.
+- [W7.165] UCSC Genome Browser – view the genome and annotations for more than 80 organisms.
+- [W7.166] genomecenter.howard.edu (archived 9 August 2013)
+- [W7.167] Build a DNA Molecule (archived 9 June 2010)
+- [W7.168] Some comparative genome sizes
+- [W7.169] DNA Interactive: The History of DNA Science
+- [W7.170] All About The Human Genome Project—from Genome.gov
+- [W7.171] Animal genome size database
+- [W7.172] Plant genome size database (archived 1 September 2005)
+- [W7.173] GOLD:Genomes OnLine Database
+- [W7.174] NCBI Entrez Genome Project database
+- [W7.175] GeneCards—an integrated database of human genes
+- [W7.176] BBC News – Final genome 'chapter' published
+- [W7.177] IMG (The Integrated Microbial Genomes system)—for genome analysis by the DOE-JGI
+- [W7.178] GeKnome Technologies Next-Gen Sequencing Data Analysis—next-generation sequencing data analysis for Illumina and 454 Service from GeKnome Technologies (archived 3 March 2012)
+
+## [W8] Wikipedia: Human Genome Project
+https://en.wikipedia.org/w/index.php?title=Human_Genome_Project&oldid=1376331013 · CC BY-SA 4.0 · usage: ai_input
+
+- [W8.1] The Human Genome Project (HGP) was an international scientific research project with the goal of determining the base pairs that make up human DNA, and of identifying, mapping and sequencing all of the genes of the human genome from both a physical and a functional standpoint.
+- [W8.2] It started in 1990 and was completed in 2003.
+- [W8.3] It was the world's largest collaborative biological project.
+- [W8.4] Planning for the project began in 1984 by the US government, and it officially launched in 1990.
+- [W8.5] It was declared complete on 14 April 2003, and included about 92% of the genome.
+- [W8.6] Level "complete genome" was achieved in May 2021, with only 0.3% of the bases covered by potential issues.
+- [W8.7] The full gapless sequence containing 22 autosomes and the X chromosome was published in January 2022, making it the first fully sequenced human genome.
+- [W8.8] The full sequence of the Y chromosome was only published in August 2023 due to challenges with sequencing and assembling, caused by its highly repetitive nature.
+- [W8.9] Funding came from the US government through the National Institutes of Health (NIH) as well as numerous other groups from around the world.
+- [W8.10] A parallel project was conducted outside the government by the Celera Corporation, or Celera Genomics, which was formally launched in 1998.
+- [W8.11] Most of the government-sponsored sequencing was performed in twenty universities and research centres in the United States, the United Kingdom, Japan, France, Germany, and China, working in the International Human Genome Sequencing Consortium (IHGSC).
+- [W8.12] The Human Genome Project originally aimed to map the complete set of nucleotides contained in a human haploid reference genome, of which there are more than three billion.
+- [W8.13] The genome of any given individual is unique; mapping the human genome involved sequencing samples collected from a small number of individuals and then assembling the sequenced fragments to get a complete sequence for each of the 23 human chromosome pairs (22 pairs of autosomes and a pair of sex chromosomes, known as allosomes).
+- [W8.14] Therefore, the finished human genome is a mosaic, not representing any one individual.
+- [W8.15] Much of the project's utility comes from the fact that the vast majority of the human genome is the same in all humans.
+- [W8.16] The Human Genome Project was a 13-year-long publicly funded project initiated in 1990 with the objective of determining the DNA sequence of the entire euchromatic human genome within 13 years.
+- [W8.17] The idea that sets of inherited genes predicted the concept of mapping a disease gene to a chromosomal region originated in the work of Ronald Fisher, whose work is further credited with later initiating the project.
+- [W8.18] In 1977, Walter Gilbert, Frederick Sanger, and Paul Berg invented these methods of sequencing DNA.
+- [W8.19] Sinsheimer organized a workshop at the University of California, Santa Cruz, to discuss the feasibility of building a systematic reference genome using gene sequencing technologies.
+- [W8.20] Gilbert wrote the first plan for what he called The Human Genome Institute on the plane ride home from the workshop.
+- [W8.21] In March 1986, the Santa Fe Workshop was organized by Charles DeLisi and David Smith of the Department of Energy's Office of Health and Environmental Research (OHER).
+- [W8.22] At the same time Renato Dulbecco, President of the Salk Institute for Biological Studies, first proposed the concept of whole genome sequencing in an essay in Science.
+- [W8.23] The published work, titled "A Turning Point in Cancer Research: Sequencing the Human Genome", was shortened from the original proposal of using the sequence to understand the genetic basis of breast cancer.
+- [W8.24] James Watson, one of the discoverers of the double helix shape of DNA in the 1950s, followed two months later with a workshop held at the Cold Spring Harbor Laboratory.
+- [W8.25] Thus the idea for obtaining a reference sequence had three independent origins: Sinsheimer, Dulbecco and DeLisi.
+- [W8.26] Ultimately it was the actions by DeLisi that launched the project.
+- [W8.27] The fact that the Santa Fe Workshop was motivated and supported by a federal agency opened a path, albeit a difficult and tortuous one, for converting the idea into public policy in the United States.
+- [W8.28] In a memo to the Assistant Secretary for Energy Research Alvin Trivelpiece, then-Director of the OHER Charles DeLisi outlined a broad plan for the project.
+- [W8.29] This started a long and complex chain of events that led to the approved reprogramming of funds that enabled the OHER to launch the project in 1986, and to recommend the first line item for the HGP, which was in President Reagan's 1988 budget submission, and ultimately approved by Congress.
+- [W8.30] Of particular importance in congressional approval was the advocacy of New Mexico Senator Pete Domenici, whom DeLisi had befriended.
+- [W8.31] Domenici chaired the Senate Committee on Energy and Natural Resources, as well as the Budget Committee, both of which were key in the DOE budget process.
+- [W8.32] Congress added a comparable amount to the NIH budget, thereby beginning official funding by both agencies.
+- [W8.33] Trivelpiece sought and obtained the approval of DeLisi's proposal from Deputy Secretary William Flynn Martin.
+- [W8.34] This chart was used by Trivelpiece in the spring of 1986 to brief Martin and Under Secretary Joseph Salgado regarding his intention to reprogram $4 million to initiate the project with the approval of John S.
+- [W8.35] This reprogramming was followed by a line item budget of $13 million in the Reagan administration's 1987 budget submission to Congress.
+- [W8.36] It subsequently passed both Houses.
+- [W8.37] The project was planned to be completed within 15 years.
+- [W8.38] In 1990 the two major funding agencies, DOE and the National Institutes of Health, developed a memorandum of understanding to coordinate plans and set the clock for the initiation of the Project to 1990.
+- [W8.39] Galas was Director of the renamed "Office of Biological and Environmental Research" in the US Department of Energy's Office of Science and James Watson headed the NIH Genome Program.
+- [W8.40] In 1993, Aristides Patrinos succeeded Galas and Francis Collins succeeded Watson, assuming the role of overall Project Head as Director of the NIH National Center for Human Genome Research (which would later become the National Human Genome Research Institute).
+- [W8.41] A working draft of the genome was announced in 2000 and the papers describing it were published in February 2001.
+- [W8.42] A more complete draft was published in 2003, and genome "finishing" work continued for more than a decade after that.
+- [W8.43] The $3 billion project was formally founded in 1990 by the US Department of Energy and the National Institutes of Health, and was expected to take 15 years.
+- [W8.44] In addition to the United States, the international consortium comprised geneticists in the United Kingdom, France, Australia, China, and myriad other spontaneous relationships.
+- [W8.45] The project ended up costing less than expected, at about $2.7 billion (equivalent to about $5 billion in 2021).
+- [W8.46] Most of the genome was mapped over a two-year span.
+- [W8.47] Two technologies enabled the project: gene mapping and DNA sequencing.
+- [W8.48] The gene mapping technique of restriction fragment length polymorphism (RFLP) arose from the search for the location of the breast cancer gene by Mark Skolnick of the University of Utah, which began in 1974.
+- [W8.49] Seeing a linkage marker for the gene, in collaboration with David Botstein, Ray White and Ron Davis conceived of a way to construct a genetic linkage map of the human genome.
+- [W8.50] This enabled scientists to launch the larger human genome effort.
+- [W8.51] Because of widespread international cooperation and advances in the field of genomics (especially in sequence analysis), as well as parallel advances in computing technology, a 'rough draft' of the genome was finished in 2000 (announced jointly by US President Bill Clinton and British Prime Minister Tony Blair on 26 June 2000).
+- [W8.52] This first available rough draft assembly of the genome was completed by the Genome Bioinformatics Group at the University of California, Santa Cruz, primarily led by then-graduate student Jim Kent and his advisor David Haussler.
+- [W8.53] Ongoing sequencing led to the announcement of the essentially complete genome on 14 April 2003, two years earlier than planned.
+- [W8.54] In May 2006, another milestone was passed on the way to completion of the project when the sequence of the very last chromosome was published in Nature.
+- [W8.55] The various institutions, companies, and laboratories which participated in the Human Genome Project are listed below, according to the NIH:
+- [W8.56] Notably the project was not able to sequence all of the DNA found in human cells; rather, the aim was to sequence only euchromatic regions of the nuclear genome, which make up 92.1% of the human genome.
+- [W8.57] The remaining 7.9% exists in scattered heterochromatic regions such as those found in centromeres and telomeres.
+- [W8.58] These regions by their nature are generally more difficult to sequence and so were not included as part of the project's original plans.
+- [W8.59] The Human Genome Project (HGP) was declared complete in April 2003.
+- [W8.60] An initial rough draft of the human genome was available in June 2000 and by February 2001 a working draft had been completed and published followed by the final sequencing mapping of the human genome on 14 April 2003.
+- [W8.61] Although this was reported to cover 99% of the euchromatic human genome with 99.99% accuracy, a major quality assessment of the human genome sequence was published on 27 May 2004, indicating over 92% of sampling exceeded 99.99% accuracy which was within the intended goal.
+- [W8.62] In March 2009, the Genome Reference Consortium (GRC) released a more accurate version of the human genome, but that still left more than 300 gaps, while 160 such gaps remained in 2015.
+- [W8.63] Though in May 2020 the GRC reported 79 "unresolved" gaps, accounting for as much as 5% of the human genome, months later, the application of new long-range sequencing techniques and a hydatidiform mole-derived cell line in which both copies of each chromosome are identical led to the first telomere-to-telomere, truly complete sequence of a human chromosome, the X chromosome.
+- [W8.64] Similarly, an end-to-end complete sequence of human autosomal chromosome 8 followed several months later.
+- [W8.65] In April 2022, the Telomere-to-Telomere (T2T) consortium published a complete sequence of the non-Y chromosomes, highlighting the 8% of the human genome that the HGP had not sequenced.
+- [W8.66] The T2T consortium then used this newly completed genome sequence as a reference to identify over 2 million additional genomic variants.
+- [W8.67] In August 2023, Rhie et al. reported the successful sequencing of the previously missing regions of the Y chromosome, achieving the full sequencing of all 24 human chromosomes.
+- [W8.68] The Y chromosome was the last chromosome to be fully sequenced due to its large proportion of repetitive elements which make up around 30 million base pairs, equating to around half the chromosome's total length.
+- [W8.69] Applications and proposed benefits
+- [W8.70] The sequencing of the human genome holds benefits for many fields, from molecular medicine to human evolution.
+- [W8.71] The Human Genome Project, through its sequencing of the DNA, can help researchers understand diseases including: genotyping of specific viruses to direct appropriate treatment; identification of mutations linked to different forms of cancer; the design of medication and more accurate prediction of their effects; advancement in forensic applied sciences; biofuels and other energy applications; agriculture, animal husbandry, bioprocessing; risk assessment; bioarcheology, anthropology and evolution.
+- [W8.72] The sequence of the DNA is stored in databases available to anyone on the Internet.
+- [W8.73] The US National Center for Biotechnology Information (and sister organizations in Europe and Japan) house the gene sequence in a database known as GenBank, along with sequences of known and hypothetical genes and proteins.
+- [W8.74] Other organizations, such as the UCSC Genome Browser at the University of California, Santa Cruz, and Ensembl present additional data and annotation and powerful tools for visualizing and searching it.
+- [W8.75] Computer programs have been developed to analyze the data because the data itself is difficult to interpret without such programs.
+- [W8.76] Generally speaking, advances in genome sequencing technology have followed Moore's Law, a concept from computer science which states that integrated circuits can increase in complexity at an exponential rate.
+- [W8.77] This means that the speeds at which whole genomes can be sequenced can increase at a similar rate, as was seen during the development of the Human Genome Project.
+- [W8.78] By 2023, the speed record for sequencing a genome was around five hours; more often, however, it takes weeks.
+- [W8.79] The process of identifying the boundaries between genes and other features in a raw DNA sequence is called genome annotation and is in the domain of bioinformatics.
+- [W8.80] While expert biologists make the best annotators, their work proceeds slowly, and computer programs are increasingly used to meet the high-throughput demands of genome sequencing projects.
+- [W8.81] Beginning in 2008, a new technology known as RNA-seq was introduced that allowed scientists to directly sequence the messenger RNA in cells.
+- [W8.82] This replaced previous methods of annotation, which relied on the inherent properties of the DNA sequence, with direct measurement, which was much more accurate.
+- [W8.83] Today, annotation of the human genome and other genomes relies primarily on deep sequencing of the transcripts in every human tissue using RNA-seq.
+- [W8.84] These experiments have revealed that over 90% of genes contain at least one and usually several alternative splice variants, in which the exons are combined in different ways to produce 2 or more gene products from the same locus.
+- [W8.85] The genome published by the HGP does not represent the sequence of every individual's genome.
+- [W8.86] It is the combined mosaic of a small number of anonymous donors, of African, European, and East Asian ancestry.
+- [W8.87] The HGP genome is a scaffold for future work in identifying differences among individuals.
+- [W8.88] Subsequent projects sequenced the genomes of multiple distinct ethnic groups, though as of 2019 there is still only one "reference genome".
+- [W8.89] Key findings of the draft (2001) and complete (2004) genome sequences include:
+- [W8.90] There are approximately 22,300 protein-coding genes in human beings, the same range as in other mammals.
+- [W8.91] Estimates of the number of protein-coding genes in the human genome have been revised downward to approximately 19,000–20,000 as more complete and accurate data have become available.
+- [W8.92] The human genome has significantly more segmental duplications (nearly identical, repeated sections of DNA) than had been previously suspected.
+- [W8.93] At the time when the draft sequence was published, fewer than 7% of protein families appeared to be vertebrate specific.
+- [W8.94] The human genome has approximately 3.1 billion base pairs.
+- [W8.95] The Human Genome Project was started in 1990 with the goal of sequencing and identifying all base pairs in the human genetic instruction set, finding the genetic roots of disease and then developing treatments.
+- [W8.96] It is considered a megaproject.
+- [W8.97] The genome was broken into smaller pieces; approximately 150,000 base pairs in length.
+- [W8.98] These pieces were then ligated into a type of vector known as "bacterial artificial chromosomes", or BACs, which are derived from bacterial chromosomes which have been genetically engineered.
+- [W8.99] The vectors containing the genes can be inserted into bacteria where they are copied by the bacterial DNA replication machinery.
+- [W8.100] Each of these pieces was then sequenced separately as a small "shotgun" project and then assembled.
+- [W8.101] The larger, 150,000 base pairs go together to create chromosomes.
+- [W8.102] This is known as the "hierarchical shotgun" approach, because the genome is first broken into relatively large chunks, which are then mapped to chromosomes before being selected for sequencing.
+- [W8.103] Funding came from the US government through the National Institutes of Health in the United States, and a UK charity organization, the Wellcome Trust, as well as numerous other groups from around the world.
+- [W8.104] The funding supported a number of large sequencing centers including those at Whitehead Institute, the Wellcome Sanger Institute (then called The Sanger Centre) based at the Wellcome Genome Campus, Washington University in St.
+- [W8.105] Louis, and Baylor College of Medicine.
+- [W8.106] The UN Educational, Scientific and Cultural Organization (UNESCO) served as an important channel for the involvement of developing countries in the Human Genome Project.
+- [W8.107] Public versus private approaches
+- [W8.108] In 1998, a similar, privately funded quest was launched by the American researcher Craig Venter, and his firm Celera Genomics.
+- [W8.109] Venter was a scientist at the NIH during the early 1990s when the project was initiated.
+- [W8.110] The $300 million Celera effort was intended to proceed at a faster pace and at a fraction of the cost of the roughly $3 billion publicly funded project.
+- [W8.111] While the Celera project focused its efforts on production sequencing and assembly of the human genome, the public HGP also funded mapping and sequencing of the worm, fly, and yeast genomes, funding of databases, development of new technologies, supporting bioinformatics and ethics programs, as well as polishing and assessment of the genome assembly.
+- [W8.112] Both the Celera and public approaches spent roughly $250 million on the production sequencing effort.
+- [W8.113] For sequence assembly, Celera made use of publicly available maps at GenBank, which Celera was capable of generating, but the availability of which was "beneficial" to the privately funded project.
+- [W8.114] Celera used a technique called whole genome shotgun sequencing, employing pairwise end sequencing, which had been used to sequence bacterial genomes of up to six million base pairs in length, but not for anything nearly as large as the three billion base pair human genome.
+- [W8.115] Celera initially announced that it would seek patent protection on "only 200–300" genes, but later amended this to seeking "intellectual property protection" on "fully-characterized important structures" amounting to 100–300 targets.
+- [W8.116] The firm eventually filed preliminary ("place-holder") patent applications on 6,500 whole or partial genes.
+- [W8.117] Celera also promised to publish their findings in accordance with the terms of the 1996 "Bermuda Statement", by releasing new data annually (the HGP released its new data daily), although, unlike the publicly funded project, they would not permit free redistribution or scientific use of the data.
+- [W8.118] The publicly funded competitors were compelled to release the first draft of the human genome before Celera for this reason.
+- [W8.119] On 7 July 2000, the UCSC Genome Bioinformatics Group released the first working draft on the web.
+- [W8.120] The scientific community downloaded about 500 GB of information from the UCSC genome server in the first 24 hours of free and unrestricted access.
+- [W8.121] In March 2000 President Bill Clinton, along with Prime Minister Tony Blair in a dual statement, urged that all researchers who wished to research the sequence should have "unencumbered access" to the genome sequence.
+- [W8.122] The statement sent Celera's stock plummeting and dragged down the biotechnology-heavy Nasdaq.
+- [W8.123] The biotechnology sector lost about $50 billion in market capitalization in two days.
+- [W8.124] Although the working draft was announced in June 2000, it was not until February 2001 that Celera and the HGP scientists published details of their drafts.
+- [W8.125] Special issues of Nature (which published the publicly funded project's scientific paper) described the methods used to produce the draft sequence and offered analysis of the sequence.
+- [W8.126] These drafts covered about 83% of the genome (90% of the euchromatic regions with 150,000 gaps and the order and orientation of many segments not yet established).
+- [W8.127] In February 2001, at the time of the joint publications, press releases announced that the project had been completed by both groups.
+- [W8.128] Improved drafts were announced in 2003 and 2005, filling in to approximately 92% of the sequence currently.
+- [W8.129] In the International Human Genome Sequencing Consortium (IHGSC) public-sector HGP, researchers collected blood (female) or sperm (male) samples from a large number of donors.
+- [W8.130] Only a few of many collected samples were processed as DNA resources.
+- [W8.131] Thus the donor identities were protected so neither donors nor scientists could know whose DNA was sequenced.
+- [W8.132] DNA clones taken from many different libraries were used in the overall project, with most of those libraries being created by Pieter J. de Jong.
+- [W8.133] Much of the sequence (>70%) of the reference genome produced by the public HGP came from a single anonymous male donor from Buffalo, New York, (code name RP11; the "RP" refers to Roswell Park Comprehensive Cancer Center).
+- [W8.134] HGP scientists used white blood cells from the blood of two male and two female donors (randomly selected from 20 of each) – each donor yielding a separate DNA library.
+- [W8.135] One of these libraries (RP11) was used considerably more than others, because of quality considerations.
+- [W8.136] One minor technical issue is that male samples contain just over half as much DNA from the sex chromosomes (one X chromosome and one Y chromosome) compared to female samples (which contain two X chromosomes).
+- [W8.137] The other 22 chromosomes (the autosomes) are the same for both sexes.
+- [W8.138] Although the main sequencing phase of the HGP has been completed, studies of DNA variation continued in the International HapMap Project, whose goal was to identify patterns of single-nucleotide polymorphism (SNP) groups (called haplotypes, or "haps").
+- [W8.139] The DNA samples for the HapMap came from a total of 270 individuals; Yoruba people in Ibadan, Nigeria; Japanese people in Tokyo; Han Chinese in Beijing; and the French Centre d'Etude du Polymorphisme Humain (CEPH) resource, which consisted of residents of the United States having ancestry from Western and Northern Europe.
+- [W8.140] In the Celera Genomics private-sector project, DNA from five different individuals was used for sequencing.
+- [W8.141] The lead scientist of Celera Genomics at that time, Craig Venter, later acknowledged (in a public letter to the journal Science) that his DNA was one of 21 samples in the pool, five of which were selected for use.
+- [W8.142] With the sequence in hand the next step was to identify the genetic variants that increase the risk for common diseases like cancer and diabetes.
+- [W8.143] It is anticipated that detailed knowledge of the human genome will offer new avenues for advances in medicine and biotechnology.
+- [W8.144] Clear practical results of the project emerged even before the work was finished.
+- [W8.145] For example, a number of companies, such as Myriad Genetics, started offering easy ways to administer genetic tests that can show predisposition to a variety of illnesses, including breast cancer, hemostasis disorders, cystic fibrosis, liver diseases, and many others.
+- [W8.146] Also, the etiologies for cancers, Alzheimer's disease and other areas of clinical interest are considered likely to benefit from genome information and possibly may lead in the long term to significant advances in their management.
+- [W8.147] There are also many tangible benefits for biologists.
+- [W8.148] For example, a researcher investigating a certain form of cancer may have narrowed down their search to a particular gene.
+- [W8.149] By visiting the human genome database on the internet, this researcher can examine what other scientists have written about this gene, including (potentially) the three-dimensional structure of its product, its functions, its evolutionary relationships to other human genes, or to genes in mice, yeast, or fruit flies, possible detrimental mutations, interactions with other genes, body tissues in which this gene is activated, and diseases associated with this gene or other datatypes.
+- [W8.150] Further, a deeper understanding of the disease processes at the level of molecular biology may determine new therapeutic procedures.
+- [W8.151] Given the established importance of DNA in molecular biology and its central role in determining the fundamental operation of cellular processes, it is likely that expanded knowledge in this area will facilitate medical advances in numerous areas of clinical interest that may not have been possible without them.
+- [W8.152] Analysis of similarities between DNA sequences from different organisms is also opening new avenues in the study of evolution.
+- [W8.153] In many cases, evolutionary questions can now be framed in terms of molecular biology; indeed, many major evolutionary milestones (the emergence of the ribosome and organelles, the development of embryos with body plans, the vertebrate immune system) can be related to the molecular level.
+- [W8.154] Many questions about the similarities and differences between humans and their closest relatives (the primates, and indeed the other mammals) are expected to be illuminated by the data in this project.
+- [W8.155] The project inspired and paved the way for genomic work in other fields, such as agriculture.
+- [W8.156] For example, by studying the genetic composition of Tritium aestivum, the world's most commonly used bread wheat, great insight has been gained into the ways that domestication has impacted the evolution of the plant.
+- [W8.157] It is being investigated which loci are most susceptible to manipulation, and how this plays out in evolutionary terms.
+- [W8.158] Genetic sequencing has allowed these questions to be addressed for the first time, as specific loci can be compared in wild and domesticated strains of the plant.
+- [W8.159] This will allow for advances in genetic modification in the future which could yield healthier and disease-resistant wheat crops, among other things.
+- [W8.160] The project also facilitated the emergence of systems biology, where researchers analyze networks of genes and proteins rather than individual genes in isolation.
+- [W8.161] In this context, scientists including Anton Yuryev have contributed to the development of computational models and pathway analysis tools that integrate genomic data with known biological interactions.
+- [W8.162] Such work has supported the identification of regulatory networks, signaling pathways, and potential drug targets.
+- [W8.163] Ethical, legal, and social issues
+- [W8.164] At the onset of the Human Genome Project, several ethical, legal, and social concerns were raised in regard to how increased knowledge of the human genome could be used to discriminate against people.
+- [W8.165] One of the main concerns of most individuals was the fear that both employers and health insurance companies would refuse to hire individuals or refuse to provide insurance to people because of a health concern indicated by someone's genes.
+- [W8.166] In 1996, the United States passed the Health Insurance Portability and Accountability Act (HIPAA), which protects against the unauthorized and non-consensual release of individually identifiable health information to any entity not actively engaged in the provision of healthcare services to a patient.
+- [W8.167] Along with identifying all of the approximately 20,000–25,000 genes in the human genome (estimated at between 80,000 and 140,000 at the start of the project), the Human Genome Project also sought to address the ethical, legal, and social issues that were created by the onset of the project.
+- [W8.168] For that, the Ethical, Legal, and Social Implications (ELSI) program was founded in 1990.
+- [W8.169] Five percent of the annual budget was allocated to address the ELSI arising from the project.
+- [W8.170] This budget started at approximately $1.57 million in the year 1990, but increased to approximately $18 million in the year 2014.
+- [W8.171] The ELSI program was a novel innovation in science policy that inspired both criticism and imitation reaching far beyond genomics.
+- [W8.172] While the project may offer significant benefits to medicine and scientific research, some authors have emphasized the need to address the potential social consequences of mapping the human genome.
+- [W8.173] Historian of science Hans-Jörg Rheinberger wrote that "the prospect of 'molecularizing' diseases and their possible cure will have a profound impact on what patients expect from medical help, and on a new generation of doctors' perception of illness." Stephen Hilgartner did a sociological study of the genome project in which he argues that the genome project produced new ways of controlling scientific information by creating new "knowledge-control regimes."
+- [W8.174] In July 2024, an investigation by Undark Magazine and co-published with STAT News revealed, for the first time, several ethical lapses by the scientists spearheading the Human Genome Project.
+- [W8.175] Chief among these was the use of roughly 75 percent of a single donor's DNA in the construction of the reference genome, despite informed consent forms, provided to each of the 20 anonymous donors participating, that indicated no more than 10 percent of any one donor's DNA would be used.
+- [W8.176] About 10 percent of the reference genome belonged to one of the project's lead scientists, Pieter De Jong.
+- [W8.177] National Human Genome Research Institute (NHGRI).
+- [W8.178] NHGRI led the National Institutes of Health's contribution to the International Human Genome Project.
+- [W8.179] This project, which had as its primary goal the sequencing of the three billion base pairs that make up the human genome, was successfully completed in April 2003.
+- [W8.180] Published from 1989 to 2002 by the US Department of Energy, this newsletter was a major communications method for coordination of the Human Genome Project.
+- [W8.181] Complete online archives are available.
+- [W8.182] The HGP information pages Department of Energy's portal to the international Human Genome Project, Microbial Genome Program, and Genomics:GTL systems biology for energy and environment
+- [W8.183] yourgenome.org: The Sanger Institute public information pages has general and detailed primers on DNA, genes, and genomes, the Human Genome Project and science spotlights.
+- [W8.184] Ensembl project, an automated annotation system and browser for the human genome
+- [W8.185] UCSC genome browser, This site contains the reference sequence and working draft assemblies for a large collection of genomes.
+- [W8.186] It also provides a portal to the ENCODE project.
+- [W8.187] Nature magazine's human genome gateway, including the HGP's paper on the draft genome sequence
+- [W8.188] Wellcome Trust Human Genome website A free resource allowing you to explore the human genome, your health and your future.
+- [W8.189] Learning about the Human Genome.
+- [W8.190] Part 1: Challenge to Science Educators.
+- [W8.191] Archived 3 October 2022 at the Wayback Machine
+- [W8.192] Learning about the Human Genome.
+- [W8.193] Part 2: Resources for Science Educators.
+- [W8.194] Archived 3 October 2022 at the Wayback Machine
+- [W8.195] Patenting Life by Merrill Goozner
+- [W8.196] Prepared Statement of Craig Venter of Celera Venter discusses Celera's progress in deciphering the human genome sequence and relationship to healthcare and to the federally funded Human Genome Project.
+- [W8.197] Cracking the Code of Life Companion website to 2-hour NOVA program documenting the race to decode the genome, including the entire program hosted in 16 parts in either QuickTime or RealPlayer format.
+- [W8.198] Bioethics Research Library Numerous original documents at Georgetown University.
+- [W8.199] Works by Human Genome Project at Project Gutenberg
+- [W8.200] Project Gutenberg hosts e-texts for Human Genome Project, titled Human Genome Project, Chromosome Number # (# denotes 01–22, X and Y).
+- [W8.201] This information is the raw sequence, released in November 2002; access to entry pages with download links is available through Human Genome Project, Chromosome Number 01 for Chromosome 1 sequentially to Human Genome Project, Y Chromosome for the Y Chromosome.
+- [W8.202] Note that this sequence might not be considered definitive because of ongoing revisions and refinements.
+- [W8.203] In addition to the chromosome files, there is a supplementary information file dated March 2004 which contains additional sequence information.
+- [W8.204] Works by or about Human Genome Project at the Internet Archive
+
+## [W9] Wikipedia: Molecular phylogenetics
+https://en.wikipedia.org/w/index.php?title=Molecular_phylogenetics&oldid=1344165943 · CC BY-SA 4.0 · usage: ai_input
+
+- [W9.1] Molecular phylogenetics () is the branch of phylogeny that analyzes genetic, hereditary molecular differences, predominantly in DNA sequences, to gain information on an organism's evolutionary relationships.
+- [W9.2] From these analyses, it is possible to determine the processes by which diversity among species has been achieved.
+- [W9.3] The result of a molecular phylogenetic analysis is expressed in a phylogenetic tree.
+- [W9.4] Molecular phylogenetics is one aspect of molecular systematics, a broader term that also includes the use of molecular data in taxonomy and biogeography.
+- [W9.5] Molecular phylogenetics and molecular evolution correlate.
+- [W9.6] Molecular evolution is the process of selective changes (mutations) at a molecular level (genes, proteins, etc.) throughout various branches in the tree of life (evolution).
+- [W9.7] Molecular phylogenetics makes inferences of the evolutionary relationships that arise due to molecular evolution and results in the construction of a phylogenetic tree.
+- [W9.8] The theoretical frameworks for molecular systematics were laid in the 1960s in the works of Emile Zuckerkandl, Emanuel Margoliash, Linus Pauling, and Walter M.
+- [W9.9] Applications of molecular systematics were pioneered by Charles G.
+- [W9.10] Sibley (birds), Herbert C.
+- [W9.11] Dessauer (herpetology), and Morris Goodman (primates), followed by Allan C.
+- [W9.12] Avise (who studied various groups).
+- [W9.13] Work with protein electrophoresis began around 1956.
+- [W9.14] Although the results were not quantitative and did not initially improve on morphological classification, they provided tantalizing hints that long-held notions of the classifications of birds, for example, needed substantial revision.
+- [W9.15] In the period of 1974–1986, DNA–DNA hybridization was the dominant technique used to measure genetic difference.
+- [W9.16] Early attempts at molecular systematics were also termed chemotaxonomy and made use of proteins, enzymes, carbohydrates, and other molecules that were separated and characterized using techniques such as chromatography.
+- [W9.17] These have been replaced in recent times largely by DNA sequencing, which produces the exact sequences of nucleotides or bases in either DNA or RNA segments extracted using different techniques.
+- [W9.18] In general, these are considered superior for evolutionary studies, since the actions of evolution are ultimately reflected in the genetic sequences.
+- [W9.19] At present, it is still a long and expensive process to sequence the entire DNA of an organism (its genome).
+- [W9.20] However, it is quite feasible to determine the sequence of a defined area of a particular chromosome.
+- [W9.21] Typical molecular systematic analyses require the sequencing of around 1000 base pairs.
+- [W9.22] At any location within such a sequence, the bases found in a given position may vary between organisms.
+- [W9.23] The particular sequence found in a given organism is referred to as its haplotype.
+- [W9.24] In principle, since there are four base types, with 1000 base pairs, we could have 41000 distinct haplotypes.
+- [W9.25] However, for organisms within a particular species or in a group of related species, it has been found empirically that only a minority of sites show any variation at all, and most of the variations that are found are correlated, so that the number of distinct haplotypes that are found is relatively small.
+- [W9.26] In a molecular systematic analysis, the haplotypes are determined for a defined area of genetic material; a substantial sample of individuals of the target species or other taxon is used; however, many current studies are based on single individuals.
+- [W9.27] Haplotypes of individuals of closely related, yet different, taxa are also determined.
+- [W9.28] Finally, haplotypes from a smaller number of individuals from a definitely different taxon are determined: these are referred to as an outgroup.
+- [W9.29] The base sequences for the haplotypes are then compared.
+- [W9.30] In the simplest case, the difference between two haplotypes is assessed by counting the number of locations where they have different bases: this is referred to as the number of substitutions (other kinds of differences between haplotypes can also occur, for example, the insertion of a section of nucleic acid in one haplotype that is not present in another).
+- [W9.31] The difference between organisms is usually re-expressed as a percentage divergence, by dividing the number of substitutions by the number of base pairs analysed: the hope is that this measure will be independent of the location and length of the section of DNA that is sequenced.
+- [W9.32] An older and superseded approach was to determine the divergences between the genotypes of individuals by DNA–DNA hybridization.
+- [W9.33] The advantage claimed for using hybridization rather than gene sequencing was that it was based on the entire genotype, rather than on particular sections of DNA.
+- [W9.34] Modern sequence comparison techniques overcome this objection by the use of multiple sequences.
+- [W9.35] Once the divergences between all pairs of samples have been determined, the resulting triangular matrix of differences is submitted to some form of statistical cluster analysis, and the resulting dendrogram is examined in order to see whether the samples cluster in the way that would be expected from current ideas about the taxonomy of the group.
+- [W9.36] Any group of haplotypes that are all more similar to one another than any of them is to any other haplotype may be said to constitute a clade, which may be visually represented as the figure displayed on the right demonstrates.
+- [W9.37] Statistical techniques such as bootstrapping and jackknifing help in providing reliability estimates for the positions of haplotypes within the evolutionary trees.
+- [W9.38] Techniques and applications
+- [W9.39] Every living organism contains deoxyribonucleic acid (DNA), ribonucleic acid (RNA), and proteins.
+- [W9.40] In general, closely related organisms have a high degree of similarity in the molecular structure of these substances, while the molecules of organisms distantly related often show a pattern of dissimilarity.
+- [W9.41] Conserved sequences, such as mitochondrial DNA, are expected to accumulate mutations over time, and assuming a constant rate of mutation, provide a molecular clock for dating divergence.
+- [W9.42] Molecular phylogeny uses such data to build a "relationship tree" that shows the probable evolution of various organisms.
+- [W9.43] With the invention of Sanger sequencing in 1977, it became possible to isolate and identify these molecular structures.
+- [W9.44] High-throughput sequencing may also be used to obtain the transcriptome of an organism, allowing inference of phylogenetic relationships using transcriptomic data.
+- [W9.45] The most common approach is the comparison of homologous sequences for genes using sequence alignment techniques to identify similarity.
+- [W9.46] Another application of molecular phylogeny is in DNA barcoding, wherein the species of an individual organism is identified using small sections of mitochondrial DNA or chloroplast DNA.
+- [W9.47] Another application of the techniques that make this possible can be seen in the very limited field of human genetics, such as the ever-more-popular use of genetic testing to determine a child's paternity, as well as the emergence of a new branch of criminal forensics focused on evidence known as genetic fingerprinting.
+- [W9.48] Molecular phylogenetic analysis
+- [W9.49] There are several methods available for performing a molecular phylogenetic analysis.
+- [W9.50] One method, including a comprehensive step-by-step protocol on constructing a phylogenetic tree, including DNA/Amino Acid contiguous sequence assembly, multiple sequence alignment, model-test (testing best-fitting substitution models), and phylogeny reconstruction using Maximum Likelihood and Bayesian Inference, is available at Nature Protocol.
+- [W9.51] Another molecular phylogenetic analysis technique has been described by Pevsner and shall be summarized in the sentences to follow (Pevsner, 2015).
+- [W9.52] A phylogenetic analysis typically consists of five major steps.
+- [W9.53] The first stage comprises sequence acquisition.
+- [W9.54] The following step consists of performing a multiple sequence alignment, which is the fundamental basis of constructing a phylogenetic tree.
+- [W9.55] The third stage includes different models of DNA and amino acid substitution.
+- [W9.56] Several models of substitution exist.
+- [W9.57] A few examples include Hamming distance, the Jukes and Cantor one-parameter model, and the Kimura two-parameter model (see Models of DNA evolution).
+- [W9.58] The fourth stage consists of various methods of tree building, including distance-based and character-based methods.
+- [W9.59] The normalized Hamming distance and the Jukes-Cantor correction formulas provide the degree of divergence and the probability that a nucleotide changes to another, respectively.
+- [W9.60] Common tree-building methods include unweighted pair group method using arithmetic mean (UPGMA) and Neighbor joining, which are distance-based methods, Maximum parsimony, which is a character-based method, and Maximum likelihood estimation and Bayesian inference, which are character-based/model-based methods.
+- [W9.61] UPGMA is a simple method; however, it is less accurate than the neighbor-joining approach.
+- [W9.62] Finally, the last step comprises evaluating the trees.
+- [W9.63] This assessment of accuracy is composed of consistency, efficiency, and robustness.
+- [W9.64] MEGA (molecular evolutionary genetics analysis) is an analysis software that is user-friendly and free to download and use.
+- [W9.65] This software is capable of analyzing both distance-based and character-based tree methodologies.
+- [W9.66] MEGA also contains several options one may choose to utilize, such as heuristic approaches and bootstrapping.
+- [W9.67] Bootstrapping is an approach that is commonly used to measure the robustness of topology in a phylogenetic tree, which demonstrates the percentage each clade is supported after numerous replicates.
+- [W9.68] In general, a value greater than 70% is considered significant.
+- [W9.69] The flow chart displayed on the right visually demonstrates the order of the five stages of Pevsner's molecular phylogenetic analysis technique that have been described.
+- [W9.70] Applications of Molecular Phylogenetic Analysis
+- [W9.71] Molecular phylogenetic analyses have broad applications across multiple biological disciplines, including genomics, evolutionary biology, epidemiology, and biodiversity research.
+- [W9.72] By comparing DNA, RNA, or protein sequences, researchers can reconstruct evolutionary relationships, investigate patterns of adaptation and diversification, and infer the history of genes and species.
+- [W9.73] These approaches are used to address both fundamental and applied biological questions.
+- [W9.74] Systematics and species classification
+- [W9.75] Molecular phylogenetic analysis has transformed biological systematics by providing an objective framework for classifying organisms based on genetic relationships rather than solely on morphological characteristics.
+- [W9.76] By comparing homologous DNA or protein sequences, researchers can reconstruct evolutionary relationships and refine taxonomic classifications to better reflect common ancestry.
+- [W9.77] Phylogenetic evidence has led to the reclassification of numerous taxa, clarification of previously ambiguous relationships, and identification of cryptic species that are morphologically similar but genetically distinct.
+- [W9.78] Molecular data have also helped resolve deep evolutionary relationships that were difficult to infer using morphology alone.
+- [W9.79] For example, traditional classifications based on morphology once grouped all diurnal birds of prey together in Falconiformes, which look superficially similar to other raptors or even to large Anseriformes (waterfowl).
+- [W9.80] However, molecular phylogenetic studies have demonstrated that falcons (family Falconidae) are not most closely related to hawks and eagles (order Accipitriformes) as previously thought.
+- [W9.81] Instead, genome-wide analyses place falcons within the clade Australaves, making them more closely related to passerines (songbirds) and parrots than to hawks and eagles.
+- [W9.82] This case illustrates how molecular data can overturn long-held morphological classifications and provide a more accurate picture of evolutionary relationships.
+- [W9.83] As a result, molecular phylogenetics plays a central role in modern systematic biology and evolutionary taxonomy, helping to refine classifications, identify cryptic species, and clarify deep divergences that morphology alone cannot resolve.
+- [W9.84] Genomics and Gene Family Evolution
+- [W9.85] In Genomics and molecular biology, molecular phylogenetic studies are widely used to investigate the evolutionary history of genes and gene families.
+- [W9.86] These analyses help to identify orthologous and paralogous relationships, distinguish speciation from gene duplication events and clarify the evolutionary origins of gene families.
+- [W9.87] Phylogenetic approaches can also trace independent loss events and differentiate them from duplications or other evolutionary processes, revealing how specific genes may be lost or modified in different lineages and how these changes contribute to functional diversification.
+- [W9.88] For example, MDA5 gene has been independently lost in several unrelated vertebrate lineages, including mammals and chickens (Galliformes), and has been disrupted in storks (Ciconiiformes) and rallids (Gruiformes).
+- [W9.89] Evolutionary Biology and Trait Evolution
+- [W9.90] Molecular Phylogenetic analyses are widely used in the field of evolutionary biology to address various evolutionary questions, such as how traits evolve across species.
+- [W9.91] One important application is the study of convergent evolution, where similar functional traits independently emerge in distantly related lineages as a result of comparable selective pressures.
+- [W9.92] To investigate patterns of convergence across species, tanglegrams are often used.
+- [W9.93] These are visual tools for comparing two phylogenetic trees, usually a species tree and a gene tree.
+- [W9.94] By examining concordance and discordance between the trees, researchers can detect instances where similar traits or amino acid changes have independently evolved in distantly related lineages.
+- [W9.95] Comparative analysis of gene or protein sequences further reveals specific convergent changes across species.
+- [W9.96] For example, phylogenetic studies have identified convergent amino acid substitutions in genes involved in immunity, such as TLRs, highlighting how natural selection shapes protein evolution across distantly related species.
+- [W9.97] Infectious Disease and Epidemiology
+- [W9.98] Molecular phylogenetic analysis plays a key role in infectious disease research by reconstructing the evolutionary relationships among pathogens and their hosts.
+- [W9.99] For example, phylogenetic studies have shown that waterfowl, particularly dabbling ducks(Anas spp.), are the major reservoirs of circulating influenza A virus strains and share the recent common viral ancestor with mammalian influenza viruses.
+- [W9.100] Phylogenetic trees and comparative analysis help to compare viral genome sequences across different host species and allow researchers to infer transmission pathways, identify ancestral viral lineages and virus evolution and adaptation to new hosts.
+- [W9.101] Phylogenetic analyses have also demonstrated that key components of innate immune systems, such as Toll-like receptors, RIG-I-like receptors, and NOD-like receptors, are conserved across vertebrates despite their deep evolutionary divergence.
+- [W9.102] The conservation of these immune genes across distantly related lineages, revealed through phylogenetic analysis, highlights their shared evolutionary origin.
+- [W9.103] Biodiversity and Conservation Biology
+- [W9.104] Molecular phylogenetics plays a key role in biodiversity research by enabling species identification, detecting cryptic species, reconstructing evolutionary relationships, and informing conservation planning.
+- [W9.105] These analyses help identify evolutionarily distinct lineages and prioritise populations for protection, while also revealing processes that can threaten genetic integrity.
+- [W9.106] For example, introgression, the transfer of genetic material between species through hybridisation, can disrupt native populations, particularly when non-native species are introduced by humans.
+- [W9.107] Phylogenetic and genome-wide analyses have demonstrated this in the case of the native red-legged partridge (Alectoris rufa) and the introduced chukar partridge (Alectoris chukar), where hybridisation altered the genetic structure of native populations.
+- [W9.108] Such findings illustrate how molecular markers can be used not only to understand biodiversity but also to monitor and restore genetic integrity in managed wildlife populations.
+- [W9.109] Molecular systematics is an essentially cladistic approach: it assumes that classification must correspond to phylogenetic descent, and that all valid taxa must be monophyletic.
+- [W9.110] This is a limitation when attempting to determine the optimal tree(s), which often involves bisecting and reconnecting portions of the phylogenetic tree(s).
+- [W9.111] The recent discovery of extensive horizontal gene transfer among organisms provides a significant complication to molecular systematics, indicating that different genes within the same organism can have different phylogenies.
+- [W9.112] HGTs can be detected and excluded using a number of phylogenetic methods (see Inferring horizontal gene transfer § Explicit phylogenetic methods).
+- [W9.113] In addition, molecular phylogenies are sensitive to the assumptions and models that go into making them.
+- [W9.114] Firstly, sequences must be aligned; then, issues such as long-branch attraction, saturation, and taxon sampling problems must be addressed.
+- [W9.115] This means that strikingly different results can be obtained by applying different models to the same dataset.
+- [W9.116] The tree-building method also brings with it specific assumptions about tree topology, evolution speeds, and sampling.
+- [W9.117] The simplistic UPGMA assumes a rooted tree and a uniform molecular clock, both of which can be incorrect.
+- [W9.118] The low resolution power of single genes have been overcome using multigene phylogenies, though the issue of HGT still merits careful algorithmic design.
+- [W9.119] Computational phylogenetics
+- [W9.120] San Mauro, D.; Agorreta, A.
+- [W9.121] "Molecular systematics: a synthesis of the common methods and the state of knowledge".
+- [W9.122] Cellular & Molecular Biology Letters.
+- [W9.123] 15 (2): 311–341. doi:10.2478/s11658-010-0010-8.
+- [W9.124] "The promise of a DNA taxonomy".
+- [W9.125] Philosophical Transactions of the Royal Society of London.
+- [W9.126] Series B, Biological Sciences.
+- [W9.127] 359 (1444): 669–679. doi:10.1098/rstb.2003.1447.
+- [W9.128] NCBI – Systematics and Molecular Phylogenetics
+- [W9.129] Molecular phylogenetics from Encyclopædia Britannica.
+
+## [W10] Wikipedia: Onion test
+https://en.wikipedia.org/w/index.php?title=Onion_test&oldid=1370421817 · CC BY-SA 4.0 · usage: ai_input
+
+- [W10.1] The onion test is a way of assessing the validity of an argument for a functional role for junk DNA.
+- [W10.2] It relates to the paradox that would emerge if the majority of eukaryotic non-coding DNA were assumed to be functional and the difficulty of reconciling that assumption with the diversity in genome sizes among species.
+- [W10.3] The term "onion test" was originally proposed informally in a blog post by T.
+- [W10.4] Ryan Gregory in order to help clarify the debate about junk DNA.
+- [W10.5] The term has been mentioned in newspapers and online media, scientific journal articles, and a textbook.
+- [W10.6] The test is defined as: The onion test is a simple reality check for anyone who thinks they have come up with a universal function for junk DNA.
+- [W10.7] Whatever your proposed function, ask yourself this question: Can I explain why an onion needs about five times more non-coding DNA for this function than a human?Onions and their relatives vary dramatically in their genome sizes, without changing their ploidy, and this gives an exceptionally valuable window on the genomic expansion of junk DNA.
+- [W10.8] Since the onion (Allium cepa) is a diploid organism having a haploid genome size of 15.9 Gb, it has 4.9x as much DNA as does a human genome (3.2 Gb).
+- [W10.9] Other species in the genus Allium vary hugely in DNA content without changing their ploidy.
+- [W10.10] Allium schoenoprasum (chives) for example has a haploid genome size of 7.5 Gb, less than half that of onions, yet Allium ursinum (wild garlic) has a haploid genome size of 30.9 Gb, nearly twice (1.94x) that of onion and over four times (4.1x) that of chives.
+- [W10.11] This extreme size variation between closely related species in the genus Allium is also part of the extended onion test rationale as originally defined:Further, if you think perhaps onions are somehow special, consider that members of the genus Allium range in genome size from 7 pg to 31.5 pg.
+- [W10.12] So why can A. altyncolicum make do with one fifth as much regulation, structural maintenance, protection against mutagens, or [insert preferred universal function] as A. ursinum?
+- [W10.13] Some researchers argue that the onion test is related to wider issues involving the C-value paradox and is only valid if one can justify the presumption that genome size has no bearing on organismal physiology.
+- [W10.14] According to Larry Moran, the onion test is not an argument for junk DNA, but an approach to assessing possible functional explanations for non-coding DNA.
+- [W10.15] According to him, it asks why allium species need so much more of that proposed function than do humans, and why so much more (or less) than other closely related species of allium and does not address the variation in genome size (C-value) among organisms itself.
+- [W10.16] According to Jonathan McLatchie, the onion test is only valid if one can justify the presumption that genome size has no bearing on organismal physiology.
+- [W10.17] Long sequences of repetitive DNA can be highly relevant to an organism and can contribute to transcription delays and developmental timing mechanisms for an organism.
+- [W10.18] Furthermore, he argues that there is a positive correlation between genome size and cell volume for unicellular eukaryotes like plants and protozoa and so the larger amount of DNA thus provides a selective advantage by contributing to the skeleton and volume of the nucleus of these cells.
+- [W10.19] Larry Moran who was actually addressed in McLatchie's post extensively replied :
+- [W10.20] [the onion test is] designed as a thought experiment to test a hypothesis about the possible function of large amounts of noncoding DNA.
+- [W10.21] If you think you have an explanation for why most of the human genome has a function then you should explain how that accounts for the genomes of onions.
+- [W10.22] Ryan Gregory knew that most so-called explanations look very silly when you try using them to account for genome size in onion species.
+- [W10.23] Ewan Birney (then head of the ENCODE Project) explained the difference as a product of polyploidy, and therefore not relevant to the discussion of humans.
+- [W10.24] (re: onions etc); polyploidy and letting your repeats "go crazy" (bad piRNAs anyone) mean your genome can be v. big
+- [W10.25] Similar claims were made by John Mattick in an article defending the ENCODE project against arguments disputing the main finding of the project:
+- [W10.26] The other substantive argument that bears on the issue, alluded to in the quotes that preface the Graur et al. article, and more explicitly discussed by Doolittle, is the so-called 'C-value enigma', which refers to the fact that some organisms (like some amoebae, onions, some arthropods, and amphibians) have much more DNA per cell than humans, but cannot possibly be more developmentally or cognitively complex, implying that eukaryotic genomes can and do carry varying amounts of unnecessary baggage.
+- [W10.27] That may be so, but the extent of such baggage in humans is unknown.
+- [W10.28] However, where data is available, these upward exceptions appear to be due to polyploidy and/or varying transposon loads (of uncertain biological relevance), rather than an absolute increase in genetic complexity.
+- [W10.29] Moreover, there is a broadly consistent rise in the amount of non-protein-coding intergenic and intronic DNA with developmental complexity, a relationship that proves nothing but which suggests an association that can only be falsified by downward exceptions, of which there are none known.
+- [W10.30] Freeling et al. proposed a genome balance hypothesis that presumably accounts for the C-Value Paradox and passes the Onion Test.
+
+## [W11] Wikipedia: Sunbird
+https://en.wikipedia.org/w/index.php?title=Sunbird&oldid=1368891219 · CC BY-SA 4.0 · usage: ai_input
+
+- [W11.1] Sunbirds and spiderhunters make up the family Nectariniidae of passerine birds.
+- [W11.2] They are small, slender passerines from the Old World, usually with downward-curved bills.
+- [W11.3] Many are brightly coloured, often with iridescent feathers, particularly in the males.
+- [W11.4] Many species also have especially long tail feathers.
+- [W11.5] Their range extends through most of Africa to the Middle East, South Asia, South-east Asia and southern China, to Indonesia, New Guinea and northern Australia.
+- [W11.6] Species diversity is highest in equatorial regions.
+- [W11.7] There are 152 species in 16 genera.
+- [W11.8] Their family name is from most sunbirds feeding largely on nectar, but they will also catch insects and spiders, especially when feeding their young.
+- [W11.9] Flowers that prevent access to their nectar because of their shape (for example, very long and narrow flowers) are simply punctured at the base near the nectaries, from which the birds sip the nectar.
+- [W11.10] Fruit is also part of the diet of some species.
+- [W11.11] Their flight is fast and direct, thanks to their short wings.
+- [W11.12] The sunbirds have counterparts in two very distantly related groups: the hummingbirds of the Americas and the honeyeaters of Australia.
+- [W11.13] The resemblances are due to convergent evolution brought about by a similar nectar-feeding lifestyle.
+- [W11.14] Some sunbird species can take nectar by hovering like a hummingbird, but they usually perch to feed.
+- [W11.15] The family ranges in size from the 5-gram black-bellied sunbird to the spectacled spiderhunter, at about 45 grams.
+- [W11.16] Like the hummingbirds, sunbirds are strongly sexually dimorphic, with the males usually brilliantly plumaged in iridescent colours.
+- [W11.17] In addition to this the tails of many species are longer in the males, and overall the males are larger.
+- [W11.18] Sunbirds have long thin down-curved bills and brush-tipped tubular tongues, both adaptations to their nectar feeding.
+- [W11.19] The spiderhunters, of the genus Arachnothera, are distinct in appearance from the other members of the family.
+- [W11.20] They are typically larger than the other sunbirds, with drab brown plumage that is the same for both sexes, and long, down-curved beaks.
+- [W11.21] In metabolic behaviour similar to that of Andes hummingbirds, species of sunbirds that live at high altitudes or latitudes will enter torpor while roosting at night, lowering their body temperature and entering a state of low activity and responsiveness.
+- [W11.22] The moulting regimes of sunbirds are complex, being different in different species.
+- [W11.23] Many species have no eclipse plumage but do have juvenile plumage.
+- [W11.24] Some species do show duller plumage in the off-season.
+- [W11.25] In the dry months of June−August, male copper sunbirds and variable sunbirds lose much of their metallic sheen.
+- [W11.26] In some instances, different populations of the same species can display variation in different molting regimes.
+- [W11.27] Sunbirds are a tropical Old World family, with representatives in Africa, Asia and Australasia.
+- [W11.28] In Africa, they occur mostly in sub-Saharan Africa and Madagascar and in Egypt.
+- [W11.29] In Asia, the group occurs along the coast of the Red Sea to the Palestine region and along the Mediterranean up to Beirut, with a gap in their distribution across inland Syria and Iraq, and resuming in Iran, from where the group occurs continuously as far as southern China and Indonesia.
+- [W11.30] In Australasia, they occur in New Guinea, north eastern Australia and the Solomon Islands.
+- [W11.31] They are generally not found on oceanic islands, with the exception of the Seychelles.
+- [W11.32] The greatest variety of species is found in Africa, where the group probably arose.
+- [W11.33] Most species are sedentary or short-distance seasonal migrants.
+- [W11.34] Sunbirds occur over the entire family's range, whereas the spiderhunters are restricted to Asia.
+- [W11.35] The sunbirds and spiderhunters occupy a wide range of habitats, with a majority of species being found in primary rainforest, but other habitats used by the family including disturbed secondary forest, open woodland, open scrub and savannah, coastal scrub and alpine forest.
+- [W11.36] Some species have readily adapted to human modified landscapes such as plantations, gardens and agricultural land.
+- [W11.37] Many species are able to occupy a wide range of habitats from sea level to 4,900 m (16,100 ft).
+- [W11.38] Sunbird are active diurnal birds that generally occur in pairs or occasionally in small family groups.
+- [W11.39] A few species occasionally gather in larger groups, and sunbird will join with other birds to mob potential predators, although sunbirds will also aggressively target other species, even if they are not predators, when defending their territories.
+- [W11.40] Sunbirds that breed outside of the equatorial regions are mostly seasonal breeders, with the majority of them breeding in the wet season.
+- [W11.41] This timing reflects the increased availability of insect prey for the growing young.
+- [W11.42] Where species, like the buff-throated sunbird, breed in the dry season, it is thought to be associated with the flowering of favoured food plants.
+- [W11.43] Species of sunbird in the equatorial areas breed throughout the year.
+- [W11.44] They are generally monogamous and often territorial, although a few species of sunbirds have lekking behaviour.
+- [W11.45] The nests of sunbirds are generally purse-shaped, enclosed, suspended from thin branches with generous use of spiderweb.
+- [W11.46] The nests of the spiderhunters are different, both from the sunbirds and in some cases from each other.
+- [W11.47] Some, like the little spiderhunter, are small woven cups attached to the underside of large leaves; that of the yellow-eared spiderhunter is similarly attached but is a long tube.
+- [W11.48] The nests of spiderhunters are inconspicuous, in contrast to those of the other sunbirds which are more visible.
+- [W11.49] In most species the female alone constructs the nest.
+- [W11.50] The female builds the nest and incubates the eggs alone, although the male assists in rearing the nestlings.
+- [W11.51] In the spiderhunters both sexes help to incubate the eggs.
+- [W11.52] The nests of sunbirds and spiderhunters are often targeted by brood parasites such as cuckoos and honeyguides.
+- [W11.53] As nectar is a primary food source for sunbirds, they are important pollinators in African ecosystems.
+- [W11.54] Sunbird-pollinated flowers are typically long, tubular, and red-to-orange in colour, showing convergent evolution with many hummingbird-pollinated flowers in the Americas.
+- [W11.55] A key difference is that sunbirds cannot hover, so sunbird-pollinated flowers and inflorescences are typically sturdier than hummingbird-pollinated flowers, with an appropriate landing spot from which the bird can feed.
+- [W11.56] Sunbirds are critical pollinators for many iconic African plants, including proteas, aloes, Erica, Erythrina coral trees, and Strelitzia flowers.
+- [W11.57] Specialization on sunbirds vs other pollinators is thought to have contributed to plant speciation, including the exceptionally high floral diversity in southern Africa.
+- [W11.58] Seven species are considered to be threatened with extinction.
+- [W11.59] Most species are fairly resistant to changes in habitat, and the family is not sought after by the cagebird trade as they have what is considered an unpleasant song and are tricky to keep alive.
+- [W11.60] Sunbirds are considered attractive birds and readily enter gardens where flowering plants are planted to attract them.
+- [W11.61] There are a few negative interactions, for example the scarlet-chested sunbird is considered a pest in cocoa plantations as it spreads parasitic mistletoes.
+- [W11.62] The family contains 152 species divided into 16 genera: For more detail, see list of sunbird species.
+- [W11.63] Sunbird videos on the Internet Bird Collection
+
+## [W12] Wikipedia: Hummingbird
+https://en.wikipedia.org/w/index.php?title=Hummingbird&oldid=1381602185 · CC BY-SA 4.0 · usage: ai_input
+
+- [W12.1] Hummingbirds are birds native to the Americas and comprise the biological family Trochilidae.
+- [W12.2] With approximately 375 species and 113 genera, they occur from Alaska to Tierra del Fuego, but most species are found in Central and South America.
+- [W12.3] As of 2026, 21 hummingbird species are listed as endangered or critically endangered, with about 255 species declining in population.
+- [W12.4] Hummingbirds have varied specialized characteristics to enable rapid, maneuverable flight: exceptional metabolic capacity, adaptations to high altitude, sensitive visual and communication abilities, and long-distance migration in some species.
+- [W12.5] Among all birds, male hummingbirds have the widest diversity of plumage color, particularly in blues, greens, and purples.
+- [W12.6] Hummingbirds are the smallest mature birds, measuring 7.5–13 cm (3–5 in) in length.
+- [W12.7] The smallest is the 5 cm (2.0 in) bee hummingbird, which weighs less than 2.0 g (0.07 oz), and the largest is the 23 cm (9 in) giant hummingbird, weighing 17–31 grams (0.60–1.09 oz).
+- [W12.8] Noted for long beaks, hummingbirds are specialized for feeding on flower nectar, but all species also consume small insects.
+- [W12.9] Hummingbirds are known by that name because of the humming sound created by their beating wings, which flap at high frequencies audible to other birds and humans.
+- [W12.10] They hover at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species to 99 per second in small hummingbirds.
+- [W12.11] Hummingbirds have the highest mass-specific metabolic rate of any homeothermic animal.
+- [W12.12] To conserve energy when food is scarce and at night when not foraging, they can enter torpor, a state similar to hibernation, and slow their metabolic rate to 1⁄15 of its normal rate.
+- [W12.13] While most hummingbirds do not migrate, the rufous hummingbird has one of the longest migrations among birds, traveling twice per year between Alaska and Mexico, a distance of about 3,900 miles (6,300 km).
+- [W12.14] Hummingbirds split from their sister group, the swifts and treeswifts, around 42 million years ago.
+- [W12.15] The oldest known fossil hummingbird is Eurotrochilus, from the Rupelian Stage of Early Oligocene Europe.
+- [W12.16] Hummingbirds are the smallest known and smallest living avian theropod dinosaurs.
+- [W12.17] The iridescent colors and highly specialized feathers of many species (mainly in males) give some hummingbirds exotic common names, such as sun gem, fairy, woodstar, sapphire or sylph.
+- [W12.18] Across the estimated 375 species, hummingbird weights range from as small as 2.0 grams (0.071 oz) to as large as 20 grams (0.71 oz).
+- [W12.19] They have characteristic long, narrow beaks (bills) which may be straight (of varying lengths) or highly curved.
+- [W12.20] The bee hummingbird – only 6 centimetres (2.4 in) long and weighing about 2 grams (0.071 oz) – is the world's smallest bird and smallest warm-blooded vertebrate.
+- [W12.21] The giant hummingbird is the largest, having a mass of 17–31 g (0.60–1.09 oz) –  approximately twice as heavy as the next largest hummingbird – with a wingspan of 21.5 cm (8.5 in) and body length of 23 cm (9.1 in).
+- [W12.22] Hummingbirds have compact bodies with relatively long, bladelike wings having anatomical structure enabling helicopter-like flight in any direction, including the ability to hover.
+- [W12.23] Particularly while hovering, the wing beats produce the humming sounds, which function to alert other birds.
+- [W12.24] In some species, the tail feathers produce sounds used by males during courtship flying.
+- [W12.25] One species of hummingbird – the little woodstar (Chaetocercus bombus) – has a wing-beat frequency of 99 per second during hovering.
+- [W12.26] Such extreme flight demands are supported by a high metabolic rate dependent on foraging for sugars from flower nectar.
+- [W12.27] Hummingbird legs are short with feet having three toes pointing forward and one backward – the hallux.
+- [W12.28] The toes of hummingbirds are formed as claws with ridged inner surfaces to aid gripping onto flower stems or petals.
+- [W12.29] Hummingbirds do not walk on the ground or hop like most birds, but rather shuffle laterally and use their feet to grip while perching, preening feathers, or nest-building (by females), and during fights to grab feathers of opponents.
+- [W12.30] Hummingbirds apply their legs as pistons for generating thrust upon taking flight, although the shortness of their legs provides about 20% less propulsion than assessed in other birds.
+- [W12.31] During flight, hummingbird feet are tucked up under the body, enabling optimal aerodynamics and maneuverability.
+- [W12.32] Of those species that have been measured during flight, the top flight speeds of hummingbirds exceed 15 m/s (54 km/h; 34 mph).
+- [W12.33] During courtship, some male species dive from 30 metres (100 ft) of height above a female at speeds around 23 m/s (83 km/h; 51 mph).
+- [W12.34] The sexes differ in feather coloration, with males having distinct brilliance and ornamentation of head, neck, wing, and breast feathers.
+- [W12.35] The most typical feather ornament in males is the gorget – a bib-like iridescent neck-feather patch that changes brilliance with the viewing angle to attract females and warn male competitors away from territory.
+- [W12.36] Hummingbirds begin mating when they are a year old.
+- [W12.37] Sex occurs over 3–5 seconds when the male joins its cloaca with the female's, passing sperm to fertilize the female's eggs.
+- [W12.38] Hummingbird females build a nest resembling a small cup about 1.5 inches (3.8 cm) in diameter, commonly attached to a tree branch using spider webs, lichens, moss, and loose strings of plant fibers (image).
+- [W12.39] Typically, two pea-sized white eggs (image) – the smallest of any bird – are incubated over 2–3 weeks in breeding season.
+- [W12.40] Fed by regurgitation only from the mother, the chicks fledge about 3 weeks after hatching.
+- [W12.41] As the nestlings develop juvenile plumage, they do more and more wing flapping as they develop their ability to fly.
+- [W12.42] The nestlings finally leave the nest (fledge), but are initially awkward fliers still fed by their mother.
+- [W12.43] Nectar-feeding hummingbirds ingest large volumes of liquid which must be eliminated.
+- [W12.44] Nestlings elevate their cloaca ejecting a stream of dilute liquid containing suspended fecal material beyond the rim of the nest.
+- [W12.45] The average lifespan of a ruby-throated hummingbird is estimated to be 3–5 years, with most deaths occurring in yearlings, although one banded ruby-throated hummingbird lived for 9 years and 2 months.
+- [W12.46] Bee hummingbirds live 7–10 years.
+- [W12.47] Population estimates and threatened species
+- [W12.48] Although most hummingbird species live in remote habitats where their population numbers are difficult to assess, population studies in the United States and Canada indicate that the ruby-throated hummingbird numbers are around 34 million, rufous hummingbirds are around 19 million, black-chinned, Anna's, and broad-tailed hummingbirds are about 8 million each, calliopes at 4 million, and Costa's and Allen's hummingbirds are around 2 million each.
+- [W12.49] Several species exist only in the thousands or hundreds.
+- [W12.50] According to the International Union for Conservation of Nature Red List of Threatened Species in 2026, 8 hummingbird species are classified as critically endangered, 13 are endangered, 13 are vulnerable, and 22 species are near-threatened.
+- [W12.51] Two species – the Brace's emerald (Riccordia bracei) and Caribbean emerald (Riccordia elegans) – have been declared extinct.
+- [W12.52] Although 316 species are considered to be of least concern, 255 species are declining in population numbers, with only 87 species rated as stable and 8 increasing in numbers.
+- [W12.53] Of the 15 species of North American hummingbirds that inhabit the United States and Canada, several have changed their range of distribution, while others showed declines in numbers since the 1970s, including in 2023 with dozens of hummingbird species in decline.
+- [W12.54] As of the 21st century, rufous, Costa's, calliope, broad-tailed, and Allen's hummingbirds are in significant decline, some losing as much as 67% of their numbers since 1970 at  nearly double the rate of population loss over the previous 50 years.
+- [W12.55] The ruby-throated hummingbird population – the most populous North American hummingbird – decreased by 17% over the early 21st century.
+- [W12.56] Habitat loss, glass collisions, cat predation, pesticides, and possibly climate change affecting food availability, migration signals, and breeding are factors that may contribute to declining hummingbird numbers.
+- [W12.57] By contrast, Anna's hummingbirds had large population growth at an accelerating rate since 2010, and expanded their range northward to reside year-round in cold winter climates.
+- [W12.58] Superficially similar species
+- [W12.59] Some species of sunbirds – an Old World group restricted in distribution to Eurasia, Africa, and Australia – resemble hummingbirds in appearance and behavior, but are not related to hummingbirds, as their resemblance is due to convergent evolution.
+- [W12.60] The hummingbird moth has flying and feeding characteristics similar to those of a hummingbird.
+- [W12.61] Hummingbirds may be mistaken for hummingbird hawk-moths, which are large, flying insects with hovering capabilities, and exist only in Eurasia.
+- [W12.62] Hummingbirds are restricted to the Americas from south central Alaska to Tierra del Fuego, including the Caribbean.
+- [W12.63] The majority of species occur in tropical and subtropical Central and South America, but several species also breed in temperate climates and some hillstars occur even in alpine Andean highlands at altitudes up to 5,200 m (17,100 ft).
+- [W12.64] The greatest species richness is in humid tropical and subtropical forests of the northern Andes and adjacent foothills, but the number of species found in the Atlantic Forest, Central America or southern Mexico also far exceeds the number found in southern South America, the Caribbean islands, the United States, and Canada.
+- [W12.65] While fewer than 25 different species of hummingbirds have been recorded from the United States and fewer than 10 from Canada and Chile each, Colombia alone has more than 160 and the comparably small Ecuador has about 130 species.
+- [W12.66] The family Trochilidae was introduced in 1825 by Irish zoologist Nicholas Aylward Vigors with Trochilus as the type genus.
+- [W12.67] In traditional taxonomy, hummingbirds are placed in the order Apodiformes, which also contains the swifts, but some taxonomists have separated them into their own order, the Trochiliformes.
+- [W12.68] Hummingbird wing bones are hollow and fragile, making fossilization difficult and leaving their evolutionary history poorly documented.
+- [W12.69] Though scientists theorize that hummingbirds originated in South America, where species diversity is greatest, possible ancestors of extant hummingbirds may have lived in parts of Europe and what is southern Russia today.
+- [W12.70] As of 2025, 375 hummingbird species have been identified.
+- [W12.71] They have been traditionally divided into two subfamilies: the hermits (Phaethornithinae) and the typical hummingbirds (Trochilinae, including all the other species).
+- [W12.72] Molecular phylogenetic studies have shown, though, that the hermits are sister to the topazes and jacobins, making the former definition of Trochilinae not monophyletic.
+- [W12.73] The hummingbirds form nine major clades: the topazes and jacobins, the hermits, the mangoes, the coquettes, the brilliants, the giant hummingbird (Patagona gigas), the mountaingems, the bees, and the emeralds.
+- [W12.74] The topazes and jacobins combined have the oldest split with the rest of the hummingbirds.
+- [W12.75] The hummingbird family has the third-greatest number of species of any bird family (after the tyrant flycatchers and the tanagers).
+- [W12.76] Fossil hummingbirds are known from the Pleistocene of Brazil and the Bahamas, but neither has yet been scientifically described, and fossils and subfossils of a few extant species are known.
+- [W12.77] Until recently, older fossils had not been securely identifiable as those of hummingbirds.
+- [W12.78] In 2004, Gerald Mayr identified two 30-million-year-old hummingbird fossils.
+- [W12.79] The fossils of this primitive hummingbird species, named Eurotrochilus inexpectatus ("unexpected European hummingbird"), had been sitting in a museum drawer in Stuttgart; they had been unearthed in a clay pit at Wiesloch–Frauenweiler, south of Heidelberg, Germany, and, because hummingbirds were assumed to have never occurred outside the Americas, were not recognized to be hummingbirds until Mayr took a closer look at them.
+- [W12.80] Fossils of birds not clearly assignable to either hummingbirds or a related extinct family, the Jungornithidae, have been found at the Messel pit and in the Caucasus, dating from 35 to 40 million years ago; this indicates that the split between these two lineages indeed occurred around that time.
+- [W12.81] The areas where these early fossils have been found had a climate quite similar to that of the northern Caribbean or southernmost China during that time.
+- [W12.82] The biggest remaining mystery at present is what happened to hummingbirds in the roughly 25 million years between the primitive Eurotrochilus and the modern fossils.
+- [W12.83] The astounding morphological adaptations, the decrease in size, and the dispersal to the Americas and extinction in Eurasia all occurred during this timespan.
+- [W12.84] DNA–DNA hybridization results suggest that the main radiation of South American hummingbirds took place at least partly in the Miocene, some 12 to 13 million years ago, during the uplifting of the northern Andes.
+- [W12.85] In 2013, a 50-million-year-old bird fossil unearthed in Wyoming was found to be a predecessor to hummingbirds and swifts before the groups diverged.
+- [W12.86] Hummingbirds split from other members of Apodiformes, the insectivorous swifts (family Apodidae) and treeswifts (family Hemiprocnidae), about 42 million years ago, probably in Eurasia.
+- [W12.87] Despite their current New World distribution, the earliest species of hummingbird occurred in the early Oligocene (Rupelian about 34–28 million years ago) of Europe, belonging to the genus Eurotrochilus, having similar morphology to modern hummingbirds.
+- [W12.88] A phylogenetic tree unequivocally indicates that modern hummingbirds originated in South America, with the last common ancestor of all living hummingbirds living around 22 million years ago.
+- [W12.89] A map of the hummingbird family tree – reconstructed from analysis of 284 species – shows rapid diversification from 22 million years ago.
+- [W12.90] Molecular phylogenetic studies of the hummingbirds have shown that the family is composed of nine major clades. – the topazes, hermits, mangoes, brilliants, coquettes, the giant hummingbird, mountaingems, bees, and emeralds – defining their relationship to nectar-bearing flowering plants which attract hummingbirds into new geographic areas.
+- [W12.91] When Edward Dickinson and James Van Remsen Jr. updated the Howard and Moore Complete Checklist of the Birds of the World for the 4th edition in 2013, they divided the hummingbirds into six subfamilies.
+- [W12.92] Molecular phylogenetic studies determined the relationships between the major groups of hummingbirds.
+- [W12.93] In the cladogram below, the English names are those introduced in 1997.
+- [W12.94] The scientific names are those introduced in 2013.
+- [W12.95] While all hummingbirds depend on flower nectar to fuel their high metabolisms and hovering flight, coordinated changes in flower and bill shape stimulated the formation of new species of hummingbirds and plants.
+- [W12.96] Due to this exceptional evolutionary pattern, as many as 140 hummingbird species can coexist in a specific region, such as the Andes range.
+- [W12.97] The hummingbird evolutionary tree shows that one key evolutionary factor appears to have been an altered taste receptor that enabled hummingbirds to seek nectar.
+- [W12.98] Upon maturity, males of a particular species, Phaethornis longirostris, the long-billed hermit, appear to be evolving a dagger-like weapon on the beak tip as a secondary sexual trait to defend mating areas.
+- [W12.99] Geographic diversification
+- [W12.100] The Andes Mountains appear to be a particularly rich environment for hummingbird evolution because diversification occurred simultaneously with mountain uplift over the past 10 million years.
+- [W12.101] Hummingbirds remain in dynamic diversification inhabiting ecological regions across South America, North America, and the Caribbean, indicating an enlarging evolutionary radiation.
+- [W12.102] Within the same geographic region, hummingbird clades coevolved with nectar-bearing plant clades, affecting mechanisms of pollination.
+- [W12.103] The same is true for the sword-billed hummingbird (Ensifera ensifera), one of the morphologically most extreme species, and one of its main food plant clades (Passiflora section Tacsonia).
+- [W12.104] Coevolution with ornithophilous flowers
+- [W12.105] The 375 hummingbird species are specialized nectarivores coevolved with some 7,000 plant species and ornithophilous flowers.
+- [W12.106] The first plant clade to coevolve with hummingbirds in the Americas is likely Heliconia, estimated to have occurred over 16 to 23 million years ago.
+- [W12.107] This coevolution implies that morphological traits of hummingbirds, such as bill length, bill curvature, and body mass, are correlated with morphological traits of plants, such as corolla length, curvature, and volume.
+- [W12.108] Some species, especially those with unusual bill shapes, such as the sword-billed hummingbird and the sicklebills, are coevolved with a small number of flower species.
+- [W12.109] Even in the most specialized hummingbird–plant mutualisms, the number of food plant lineages of the individual hummingbird species increases with time.
+- [W12.110] The bee hummingbird (Mellisuga helenae) – the world's smallest bird – evolved to dwarfism likely because it had to compete with long-billed hummingbirds having an advantage for nectar foraging from specialized flowers, consequently leading the bee hummingbird to more successfully compete for flower foraging against insects.
+- [W12.111] Hummingbirds and the plants they visit for nectar have a tight coevolutionary association, generally called a plant–bird syndrome or mutualistic network.
+- [W12.112] By collecting pollen on their beaks while foraging from flowers, hummingbirds contribute to flower species diversification and morphology adaptations – hummingbirds prefer bright red, yellow or purple flowers having no scent or landing platform, and with long corolla tubes containing copious nectar, characteristics unfavorable to insect pollinators.
+- [W12.113] Hummingbirds can see wavelengths into the near-ultraviolet, but hummingbird-pollinated flowers do not reflect these wavelengths as many insect-pollinated flowers do.
+- [W12.114] This narrow color spectrum may render hummingbird-pollinated flowers relatively inconspicuous to most insects, thereby reducing nectar robbing.
+- [W12.115] Hummingbird-pollinated flowers also produce relatively weak nectar (averaging 25% sugars) containing a high proportion of sucrose, whereas insect-pollinated flowers typically produce more concentrated nectars dominated by fructose and glucose.
+- [W12.116] Hummingbirds show high specialization and modularity, especially in communities with high species richness.
+- [W12.117] These associations are also observed when closely related hummingbirds, such as two species of the same genus, visit distinct sets of flowering species.
+- [W12.118] Hummingbirds exhibit sexual size dimorphism according to Rensch's rule, in which males are smaller than females in small-bodied species, and males are larger than females in large-bodied species.
+- [W12.119] The extent of this sexual size difference varies among clades of hummingbirds.
+- [W12.120] For example, the Mellisugini clade (bees) exhibits a large size dimorphism, with females being larger than males.
+- [W12.121] Conversely, the Lesbiini clade (coquettes) displays very little size dimorphism; males and females are similar in size.
+- [W12.122] Sexual dimorphisms in bill size and shape are also present between male and female hummingbirds, where in many clades, females have longer, more curved bills favored for accessing nectar from tall flowers.
+- [W12.123] For males and females of the same size, females tend to have larger bills.
+- [W12.124] Sexual size and bill differences likely evolved due to constraints imposed by courtship, because mating displays of male hummingbirds require complex aerial maneuvers.
+- [W12.125] Males tend to be smaller than females, allowing conservation of energy to forage competitively and participate more frequently in courtship.
+- [W12.126] Thus, sexual selection favors smaller male hummingbirds.
+- [W12.127] Female hummingbirds tend to be larger, requiring more energy, with longer beaks that allow for more effective reach into crevices of tall flowers for nectar.
+- [W12.128] Thus, females are better at foraging, acquiring flower nectar, and supporting the energy demands of their larger body size.
+- [W12.129] Directional selection thus favors the larger hummingbirds in terms of acquiring food.
+- [W12.130] Another evolutionary cause of this sexual bill dimorphism is that the selective forces from competition for nectar between the sexes of each species drives sexual dimorphism.
+- [W12.131] Depending on which sex holds territory in the species, the other sex having a longer bill and being able to feed on a wide variety of flowers is advantageous, decreasing intraspecific competition.
+- [W12.132] For example, in species of hummingbirds where males have longer bills, males do not hold a specific territory and have a lek mating system.
+- [W12.133] In species where males have shorter bills than females, males defend their resources, so females benefit from a longer bill to feed from a broader range of flowers.
+- [W12.134] The hummingbird plumage coloration gamut, particularly for blue, green, and purple colors in the gorget and crown of males, occupies 34% of the total color space for bird feathers.
+- [W12.135] White (unpigmented) feathers have the lowest incidence in the hummingbird color gamut.
+- [W12.136] Hummingbird plumage color diversity evolved from sexual and social selection on plumage coloration, which correlates with the rate of hummingbird species development over millions of years.
+- [W12.137] Bright plumage colors in males are part of aggressive competition for flower resources and mating.
+- [W12.138] The bright colors result from pigmentation in the feathers and from prismal cells within the top layers of feathers of the head, gorget, breast, back and wings.
+- [W12.139] When sunlight hits these cells, it is split into wavelengths that reflect to the observer in varying degrees of intensity, with the feather structure acting as a diffraction grating.
+- [W12.140] Iridescent hummingbird colors result from a combination of refraction and pigmentation, since the diffraction structures themselves are made of melanin, a pigment, and may also be colored by carotenoid pigmentation and more subdued black, brown or gray colors dependent on melanin.
+- [W12.141] By merely shifting position, feather regions of a muted-looking bird can instantly become fiery red or vivid green.
+- [W12.142] In courtship displays for one example, males of the colorful Anna's hummingbird orient their bodies and feathers toward the sun to enhance the display value of iridescent plumage toward a female of interest.
+- [W12.143] One study of Anna's hummingbirds found that dietary protein was an influential factor in feather color, as birds receiving more protein grew significantly more colorful crown feathers than those fed a low-protein diet.
+- [W12.144] Additionally, birds on a high-protein diet grew yellower (higher hue) green tail feathers than birds on a low-protein diet.
+- [W12.145] Specialized characteristics and metabolism
+- [W12.146] Hummingbirds are named for the prominent humming sound their wingbeats make while flying and hovering to feed or interact with other hummingbirds.
+- [W12.147] Humming serves communication purposes by alerting other birds of the arrival of a fellow forager or potential mate.
+- [W12.148] The humming sound derives from aerodynamic forces generated by the downstrokes and upstrokes of the rapid wingbeats, causing oscillations and harmonics that evoke an acoustic quality likened to that of a musical instrument.
+- [W12.149] The humming sound of hummingbirds is unique among flying animals, compared to the whine of mosquitoes, buzz of bees, and "whoosh" of larger birds.
+- [W12.150] The wingbeats causing the hum of hummingbirds during hovering are achieved by elastic recoil of wing strokes produced by the main flight muscles: the pectoralis major (the main downstroke muscle) and supracoracoideus (the main upstroke muscle).
+- [W12.151] Hummingbirds have visual properties typical of species that are both predatory and prey, a combination that enables them to capture insects and to hover at flowers for feeding, while simultaneously avoiding potential predators.
+- [W12.152] Hummingbirds have an upper and lower eyelid, and a nictitating membrane as a translucent "third" eyelid.
+- [W12.153] Although hummingbird eyes are only 5–6 mm in diameter, they are accommodated in the skull by reduced skull ossification, and occupy a larger proportion of the skull compared to other birds and animals.
+- [W12.154] The iris of hummingbird eyes is dark brown, with a black pupil measuring 216 micrometres in diameter, and a wide, thin cornea.
+- [W12.155] The enlarged cornea relative to total eye diameter serves to increase the amount of light perception by the eye when the pupil is dilated maximally, enabling nocturnal flight.
+- [W12.156] The retina has an extraordinary density of ganglion cells responsible for visual processing, containing some 45,000 neurons per mm2.
+- [W12.157] The prevalence of natural eye disease in a sample of Anna's and black-chinned hummingbirds was 2.3%.
+- [W12.158] During evolution, hummingbirds adapted to the navigational needs of visual processing while in rapid flight or hovering by development of an exceptionally dense array of retinal neurons, allowing for increased spatial resolution in the lateral and frontal visual fields.
+- [W12.159] Morphological studies of the hummingbird brain showed that neuronal hypertrophy – relatively the largest in any bird – exists in a region called the pretectal nucleus lentiformis mesencephali (called the nucleus of the optic tract in mammals) responsible for refining dynamic visual processing while hovering and during rapid flight.
+- [W12.160] The enlargement of the brain region responsible for visual processing indicates an enhanced ability for perception and processing of fast-moving visual stimuli encountered during rapid forward flight, insect foraging, competitive interactions, and high-speed courtship.
+- [W12.161] Hummingbirds are highly sensitive to stimuli in their visual fields, responding to even minimal motion in any direction by reorienting themselves in midflight.
+- [W12.162] While in complex and dynamic natural environments, their visual sensitivity allows them to precisely hover in place – functions controlled by the lentiform nucleus, which is tuned to fast-pattern velocities enabling highly tuned control and collision avoidance during forward flight.
+- [W12.163] A study of broad-tailed hummingbirds indicated that hummingbirds have a fourth color-sensitive visual cone (humans have three) that detects ultraviolet light and enables discrimination of non-spectral colors, possibly having a role in flower identity, courtship displays, territorial defense, and predator evasion.
+- [W12.164] The fourth color cone would extend the range of visible colors for hummingbirds to perceive ultraviolet light and color combinations of feathers and gorgets, colorful plants, and other objects in their environment, enabling detection of as many as five non-spectral colors, including purple, ultraviolet-red, ultraviolet-green, ultraviolet-yellow, and ultraviolet-purple.
+- [W12.165] Song, vocal learning, and hearing
+- [W12.166] Many hummingbird species exhibit a diverse vocal repertoire of chirps, squeaks, whistles and buzzes.
+- [W12.167] Vocalizations vary in complexity and spectral content during social interactions, foraging, territorial defense, courtship, and mother-nestling communication.
+- [W12.168] Territorial vocal signals may be produced in rapid succession to discourage aggressive encounters, with the chirping rate and loudness increasing when intruders persist.
+- [W12.169] During the breeding season, male and female hummingbirds vocalize as part of courtship.
+- [W12.170] Hummingbirds exhibit vocal production learning to enable song variation – "dialects" that exist across the same species.
+- [W12.171] For example, the blue-throated hummingbird's song differs from typical oscine songs in its wide frequency range, extending from 1.8 kHz to about 30 kHz.
+- [W12.172] It also produces ultrasonic vocalizations which do not function in communication.
+- [W12.173] As blue-throated hummingbirds often alternate singing with catching small flying insects, it is possible the ultrasonic clicks produced during singing disrupt insect flight patterns, making insects more vulnerable to predation.
+- [W12.174] Anna's, Costa's, long-billed hermits, and Andean hummingbirds have song dialects that vary across habitat locations and phylogenetic clades.
+- [W12.175] The avian vocal organ, the syrinx, plays an important role in understanding hummingbird song production.
+- [W12.176] What makes the hummingbird's syrinx different from that of other birds in the Apodiformes order is the presence of internal muscle structure, accessory cartilages, and a large tympanum that serves as an attachment point for external muscles, all of which are adaptations thought to be responsible for the hummingbird's increased ability in pitch control and large frequency range.
+- [W12.177] Hummingbird songs originate from at least seven specialized nuclei in the forebrain.
+- [W12.178] A genetic expression study showed that these nuclei enable vocal learning (ability to acquire vocalizations through imitation), a rare trait known to occur in only two other groups of birds (parrots and songbirds) and a few groups of mammals (including humans, whales and dolphins, and bats).
+- [W12.179] Within the past 66 million years, only hummingbirds, parrots, and songbirds out of 23 bird orders may have independently evolved seven similar forebrain structures for singing and vocal learning, indicating that evolution of these structures is under strong epigenetic constraints possibly derived from a common ancestor.
+- [W12.180] Generally, birds have been assessed to vocalize and hear in the range of 2–5 kHz, with hearing sensitivity falling with higher frequencies.
+- [W12.181] In the Ecuadorian hillstar (Oreotrochilus chimborazo), vocalizations were recorded in the wild to be at a frequency above 10 kHz, well outside of the known hearing ability of most birds.
+- [W12.182] Song system nuclei in the hummingbird brain are similar to those songbird brains, but the hummingbird brain has specialized regions involved for song processing.
+- [W12.183] Hummingbirds have the highest metabolism of all vertebrate animals – a necessity to support the rapid beating of their wings during hovering and fast forward flight.
+- [W12.184] During flight and hovering, oxygen consumption per gram of muscle tissue in a hummingbird is about 10 times higher than that measured in elite human athletes.
+- [W12.185] Hummingbirds achieve this extraordinary capacity for oxygen consumption by an exceptional density and proximity of capillaries and mitochondria in their flight muscles.
+- [W12.186] Hummingbirds are rare among vertebrates in their ability to rapidly make use of ingested sugars to fuel energetically expensive hovering flight, powering up to 100% of their metabolic needs with the sugars they drink.
+- [W12.187] Hummingbird flight muscles have extremely high capacities for oxidizing carbohydrates and fatty acids via hexokinase, carnitine palmitoyltransferase, and citrate synthase enzymes at rates that are the highest known for vertebrate skeletal muscle.
+- [W12.188] To sustain rapid wingbeats during flight and hovering, hummingbirds expend the human equivalent of 150,000 calories per day, an amount estimated to be 10 times the energy consumption by a marathon runner in competition.
+- [W12.189] Hummingbirds can use newly ingested sugars to fuel hovering flight within 30–45 minutes of consumption.
+- [W12.190] These data suggest that hummingbirds are able to oxidize sugar in flight muscles at rates rapid enough to satisfy their extreme metabolic demands – as indicated by a 2017 review showing that hummingbirds have in their flight muscles a mechanism for "direct oxidation" of sugars into maximal ATP yield to support a high metabolic rate for hovering, foraging at altitude, and migrating.
+- [W12.191] This adaptation occurred through the evolutionary loss of a key gene, fructose-bisphosphatase 2 (FBP2), coinciding with the onset of hovering by hummingbirds estimated by fossil evidence to be some 35 million years ago.
+- [W12.192] Without FBP2, glycolysis and mitochondrial respiration in flight muscles are enhanced, enabling hummingbirds to metabolize sugar more efficiently for energy.
+- [W12.193] By relying on newly ingested sugars to fuel flight, hummingbirds reserve their limited fat stores to sustain their overnight fasting during torpor or to power migratory flights.
+- [W12.194] Studies of hummingbird metabolism address how a migrating ruby-throated hummingbird can cross 800 km (500 mi) of the Gulf of Mexico on a nonstop flight.
+- [W12.195] This hummingbird, like other long-distance migrating birds, stores fat as a fuel reserve, augmenting its weight by as much as 100%, then enabling metabolic fuel for flying over open water.
+- [W12.196] The amount of fat (1–2 g) used by a migrating hummingbird to cross the Gulf of Mexico in a single flight is similar to that used by a human climbing about 50 feet (15 m).
+- [W12.197] The heart rate of hummingbirds can reach as high as 1,260 beats per minute, a rate measured in a blue-throated hummingbird with a breathing rate of 250 breaths per minute at rest.
+- [W12.198] The high metabolic rate of hummingbirds – especially during rapid forward flight and hovering – produces increased body heat that requires specialized mechanisms of thermoregulation for heat dissipation, which becomes an even greater challenge in hot, humid climates.
+- [W12.199] Hummingbirds dissipate heat partially by evaporation through exhaled air, and from body structures with thin or no feather covering, such as around the eyes, shoulders, under the wings (patagia), and feet.
+- [W12.200] While hovering, hummingbirds do not benefit from the heat loss by air convection during forward flight, except for air movement generated by their rapid wing-beat, possibly aiding convective heat loss from the extended feet.
+- [W12.201] Smaller hummingbird species, such as the calliope, appear to adapt their relatively higher surface-to-volume ratio to improve convective cooling from air movement by the wings.
+- [W12.202] When air temperatures rise above 36 °C (97 °F), thermal gradients driving heat passively by convective dissipation from around the eyes, shoulders, and feet are reduced or eliminated, requiring heat dissipation mainly by evaporation and exhalation.
+- [W12.203] In cold climates, hummingbirds retract their feet into breast feathers to eliminate skin exposure and minimize heat dissipation.
+- [W12.204] The dynamic range of metabolic rates in hummingbirds requires a parallel dynamic range in kidney function.
+- [W12.205] During a day of nectar consumption with a corresponding high water intake that may total five times the body weight per day, hummingbird kidneys process water via glomerular filtration rates (GFR) in amounts proportional to water consumption, thereby avoiding overhydration.
+- [W12.206] During brief periods of water deprivation, however, such as in nighttime torpor, GFR drops to zero, preserving body water.
+- [W12.207] Hummingbird kidneys also have a unique ability to control the levels of electrolytes after consuming nectars with high amounts of sodium and chloride or none, indicating that kidney and glomerular structures must be highly specialized for variations in nectar mineral quality.
+- [W12.208] Morphological studies on Anna's hummingbird kidneys showed adaptations of high capillary density in close proximity to nephrons, allowing for precise regulation of water and electrolytes.
+- [W12.209] Hemoglobin adaptation to altitude
+- [W12.210] Dozens of hummingbird species live year-round in tropical mountain habitats at high altitudes, such as in the Andes over ranges of 1,500 metres (4,900 ft) to 5,200 metres (17,100 ft) where the partial pressure of oxygen in the air is reduced, a condition of hypoxic challenge for the high metabolic demands of hummingbirds.
+- [W12.211] In Andean hummingbirds living at high elevations, researchers found that the oxygen-carrying protein in blood – hemoglobin – had increased oxygen-binding affinity, and that this adaptive effect likely resulted from evolutionary mutations within the hemoglobin molecule via specific amino acid changes due to natural selection.
+- [W12.212] Anna's hummingbirds are the northernmost year-round residents of any hummingbird.
+- [W12.213] Anna's hummingbirds were recorded in Alaska as early as 1971, and resident in the Pacific Northwest since the 1960s, particularly increasing as a year-round population during the early 21st century.
+- [W12.214] Scientists estimate that some Anna's hummingbirds overwinter and presumably breed at northern latitudes where food and shelter are available throughout winter, tolerating moderately cold winter temperatures.
+- [W12.215] During cold temperatures, Anna's hummingbirds gradually gain weight during the day as they convert sugar to fat.
+- [W12.216] In addition, hummingbirds with inadequate stores of body fat or insufficient plumage are able to survive periods of subfreezing weather by lowering their metabolic rate and entering a state of torpor.
+- [W12.217] While their range was originally limited to the chaparral of California and Baja California, it expanded northward to Oregon, Washington, and British Columbia, and east to Arizona over the 1960s to 1970s.
+- [W12.218] This rapid expansion is attributed to the widespread planting of non-native species, such as eucalyptus, as well as the use of urban bird feeders, in combination with the species' natural tendency for extensive postbreeding dispersal.
+- [W12.219] In the Pacific Northwest, the fastest growing populations occur in regions with breeding-season cold temperatures similar to those of its native range.
+- [W12.220] Northward expansion of the Anna's hummingbird represents an ecological release associated with introduced plants, year-round nectar availability from feeders supplied by humans, milder winter temperatures associated with climate change, and acclimation of the species to a winter climate cooler than its native region.
+- [W12.221] Although quantitative data are absent, it is likely that a sizable percentage of Anna's hummingbirds in the Pacific Northwest still do migrate south for winter, as of 2017.
+- [W12.222] Anna's hummingbird is the official city bird of Vancouver, British Columbia, Canada, and is a non-migrating resident of Seattle where it lives year-round through winter enduring extended periods of subfreezing temperatures, snow, and high winds.
+- [W12.223] The metabolism of hummingbirds can slow at night or at any time when food is not readily available; the birds enter a deep-sleep state (known as torpor) to prevent energy reserves from falling to a critical level.
+- [W12.224] One study of broad-tailed hummingbirds found that body weight decreased linearly throughout torpor at a rate of 0.04 g per hour.
+- [W12.225] During nighttime torpor, body temperature in a Caribbean hummingbird was shown to fall from 40 to 18 °C, with heart and breathing rates slowing dramatically (heart rate of roughly 50 to 180 bpm from its daytime rate of higher than 1000 bpm).
+- [W12.226] Recordings from a Metallura phoebe hummingbird in noctural torpor at around 3,800 metres (12,500 ft) in the Andes mountains showed that body temperature fell to 3.3 °C (38 °F), the lowest known level for a bird or non-hibernating mammal.
+- [W12.227] During cold nights at altitude, hummingbirds were in torpor for 2–13 hours depending on species, with cooling occurring at the rate of 0.6 °C per minute and rewarming at 1–1.5 °C per minute.
+- [W12.228] High-altitude Andean hummingbirds also lost body weight in negative proportion to how long the birds were in torpor, losing about 6% of weight each night.
+- [W12.229] During torpor, to prevent dehydration, the kidney function declines, preserving needed compounds, such as glucose, water, and nutrients.
+- [W12.230] The circulating hormone, corticosterone, is one signal that arouses a hummingbird from torpor.
+- [W12.231] Use and duration of torpor vary among hummingbird species and are affected by whether a dominant bird defends territory, with nonterritorial subordinate birds having longer periods of torpor.
+- [W12.232] A hummingbird with a higher fat percentage will be less likely to enter a state of torpor compared to one with less fat, as a bird can use the energy from its fat stores.
+- [W12.233] Torpor in hummingbirds appears to be unrelated to nighttime temperature, as it occurs across a wide temperature range, with energy savings of such deep sleep being more related to the photoperiod and duration of torpor.
+- [W12.234] Hummingbirds have unusually long lifespans for organisms with such rapid metabolisms.
+- [W12.235] Though many die during their first year of life, especially in the vulnerable period between hatching and fledging, those that survive may occasionally live a decade or more.
+- [W12.236] Among the better-known North American species, the typical lifespan is probably 3 to 5 years.
+- [W12.237] For comparison, the smaller shrews, among the smallest of all mammals, seldom live longer than 2 years.
+- [W12.238] The longest recorded lifespan in the wild relates to a female broad-tailed hummingbird that was banded as an adult at least one year old, then recaptured 11 years later, making her at least 12 years old.
+- [W12.239] Other longevity records for banded hummingbirds include an estimated minimum age of 10 years 1 month for a female black-chinned hummingbird similar in size to the broad-tailed hummingbird, and at least 11 years 2 months for a much larger buff-bellied hummingbird.
+- [W12.240] Cold weather is likely the most common cause of hummingbird deaths, with human activities having mortality effects via habitat depletion, pesticide use, and collisions with building windows and vehicles.
+- [W12.241] Where present, domestic cats are a common predator of non-nested hummingbirds.
+- [W12.242] Praying mantises have been observed as predators.
+- [W12.243] Other predators include dragonflies, frogs, orb-weaver spiders, predatory birds, such as sharp-shinned hawks, roadrunners, and American kestrels, and snakes.
+- [W12.244] Hummingbirds host a highly specialized lice fauna.
+- [W12.245] Two genera of Ricinid lice, Trochiloecetes and Trochiliphagus, are specialized on them, infesting about 14% in one study of 22 species.
+- [W12.246] In contrast, two genera of Menoponid lice, Myrsidea and Leremenopon, are rare on them.
+- [W12.247] Male hummingbirds do not take part in nesting.
+- [W12.248] Most species build a cup-shaped nest on the branch of a tree or shrub.
+- [W12.249] The nest varies in size relative to the particular species – from smaller than half a walnut shell to several centimeters in diameter.
+- [W12.250] Many hummingbird species use spider silk and lichen to bind the nest material together and secure the structure.
+- [W12.251] The unique properties of the silk allow the nest to expand as the young hummingbirds grow.
+- [W12.252] Two white eggs are laid, which despite being the smallest of all bird eggs, are large relative to the adult hummingbird's size.
+- [W12.253] Incubation lasts 14 to 23 days, depending on the species, ambient temperature, and female attentiveness to the nest.
+- [W12.254] The mother feeds her nestlings on small arthropods and nectar by inserting her bill into the open mouth of a nestling, and then regurgitating the food into its crop.
+- [W12.255] Hummingbirds stay in the nest for 18–22 days, after which they leave the nest to forage on their own, although the mother bird may continue feeding them for another 25 days.
+- [W12.256] Hummingbird flight has been studied intensively from an aerodynamic perspective using wind tunnels and high-speed video cameras.
+- [W12.257] Two studies of rufous or Anna's hummingbirds in a wind tunnel used particle image velocimetry techniques to investigate the lift generated on the bird's upstroke and downstroke.
+- [W12.258] The birds produced 75% of their weight support during the downstroke and 25% during the upstroke, with the wings making a "figure 8" motion.
+- [W12.259] Many earlier studies had assumed that lift was generated equally during the two phases of the wingbeat cycle, as is the case of insects of a similar size.
+- [W12.260] This finding shows that hummingbird hovering is similar to, but distinct from, that of hovering insects such as the hawk moth.
+- [W12.261] Further studies using electromyography in hovering rufous hummingbirds showed that muscle strain in the pectoralis major (principal downstroke muscle) was the lowest yet recorded in a flying bird, and the primary upstroke muscle (supracoracoideus) is proportionately larger than in other bird species.
+- [W12.262] Presumably due to rapid wingbeats for flight and hovering, hummingbird wings have adapted to perform without an alula.
+- [W12.263] The giant hummingbird's wings beat as few as 12 times per second, and the wings of typical hummingbirds beat up to 80 times per second.
+- [W12.264] As air density decreases, for example, at higher altitudes, the amount of power a hummingbird must use to hover increases.
+- [W12.265] Hummingbird species adapted for life at higher altitudes, therefore, have larger wings to help offset these negative effects of low air density on lift generation.
+- [W12.266] A slow-motion video has shown how the hummingbirds deal with rain when they are flying.
+- [W12.267] To remove the water from their heads, they shake their heads and bodies, similar to a dog shaking, to shed water.
+- [W12.268] Further, when raindrops collectively may weigh as much as 38% of the bird's body weight, hummingbirds shift their bodies and tails horizontally, beat their wings faster, and reduce their wings' angle of motion when flying in heavy rain.
+- [W12.269] Wingbeats and flight stability
+- [W12.270] The highest recorded wingbeat rate for hummingbirds during hovering is 99.1 per second, as measured for male woodstars (Chaetocercus sp.).
+- [W12.271] Males in the genus Chaetocercus have been recorded above 100 beats per second during courtship displays.
+- [W12.272] The number of beats per second increases above "normal" hovering while flying during courtship displays (up to 90 per second for the calliope hummingbird, Selasphorus calliope); a wingbeat rate 40% higher than its typical hovering rate.
+- [W12.273] During turbulent airflow conditions created experimentally in a wind tunnel, hummingbirds exhibit stable head positions and orientation when they hover at a feeder.
+- [W12.274] When wind gusts from the side, hummingbirds compensate by increasing wing-stroke amplitude and stroke plane angle and by varying these parameters asymmetrically between the wings and from one stroke to the next.
+- [W12.275] They also vary the orientation and enlarge the collective surface area of their tail feathers into the shape of a fan.
+- [W12.276] While hovering, the visual system of a hummingbird is able to separate apparent motion caused by the movement of the hummingbird itself from motions caused by external sources, such as an approaching predator.
+- [W12.277] In natural settings full of highly complex background motion, hummingbirds are able to precisely hover in place by rapid coordination of vision with body position.
+- [W12.278] When courting, the male Anna's hummingbird ascends some 35 m (115 ft) above a female, before diving at a speed of 27 m/s (89 ft/s), equal to 385 body lengths/sec – producing a high-pitched sound near the female at the nadir of the dive.
+- [W12.279] This downward acceleration during a dive is the highest reported for any vertebrate undergoing a voluntary aerial maneuver; in addition to acceleration, the speed relative to body length is the highest known for any vertebrate.
+- [W12.280] For instance, it is about twice the diving speed of peregrine falcons in pursuit of prey.
+- [W12.281] At maximum descent speed, about 10 g of gravitational force occur in the courting hummingbird during a dive (Note: G-force is generated as the bird pulls out of the dive).
+- [W12.282] The outer tail feathers of male Anna's (Calypte anna) and Selasphorus hummingbirds (e.g., Allen's, calliope) vibrate during courtship display dives and produce an audible chirp caused by aeroelastic flutter.
+- [W12.283] Hummingbirds cannot make the courtship dive sound when missing their outer tail feathers, and those same feathers could produce the dive sound in a wind tunnel.
+- [W12.284] The bird can sing at the same frequency as the tail-feather chirp, but its small syrinx is not capable of the same volume.
+- [W12.285] The sound is caused by the aerodynamics of rapid air flow past tail feathers, causing them to flutter in a vibration, which produces the high-pitched sound of a courtship dive.
+- [W12.286] Many other species of hummingbirds also produce sounds with their wings or tails while flying, hovering, or diving, including the wings of the calliope hummingbird, broad-tailed hummingbird, rufous hummingbird, Allen's hummingbird, and the streamertail species, as well as the tail of the Costa's hummingbird and the black-chinned hummingbird, and a number of related species.
+- [W12.287] The harmonics of sounds during courtship dives vary across species of hummingbirds.
+- [W12.288] Male rufous and broad-tailed hummingbirds (genus Selasphorus) have a distinctive wing feature during normal flight that sounds like jingling or a buzzing shrill whistle – a trill.
+- [W12.289] The trill arises from air rushing through slots created by the tapered tips of the ninth and tenth primary wing feathers, creating a sound loud enough to be detected by female or competitive male hummingbirds and researchers up to 100 m away.
+- [W12.290] Behaviorally, the trill serves several purposes: It announces the sex and presence of a male bird; it provides audible aggressive defense of a feeding territory and an intrusion tactic; it enhances communication of a threat; and it favors mate attraction and courtship.
+- [W12.291] Relatively few hummingbirds migrate as a percentage of the total number of species; of the roughly 375 known hummingbird species, only 12–15 species migrate annually, particularly those in North America.
+- [W12.292] Most hummingbirds live in the Amazonia-Central America tropical rainforest belt, where seasonal temperature changes and food sources are relatively constant, obviating the need to migrate.
+- [W12.293] As the smallest living birds, hummingbirds are relatively limited at conserving heat energy, and are generally unable to maintain a presence in higher latitudes during winter months, unless the specific location has a large food supply throughout the year, particularly access to flower nectar.
+- [W12.294] Other migration factors are seasonal fluctuation of food, climate, competition for resources, predators, and inherent signals.
+- [W12.295] The two species of giant hummingbird – the southern giant hummingbird (Patagona gigas, Gray, 1840), and northern giant hummingbird (Patagonia peruviana, Boucard, 1893) – have diverged into migrants undergoing adaptation from sea level to extreme mountain elevations, and others residing at exceptional elevations (4,300 m (14,100 ft) in Peru), possibly representing a new species, Patagona chaski sp. nov.
+- [W12.296] The range of the southern species crosses the Central Andean Plateau, moving from sea level up to 4,400 m (14,400 ft) altitude in the Andes.
+- [W12.297] Tracked by satellite transmitters and geolocators, their seasonal migration courses in a loop over 8,335 km (5,179 mi) of total distance traveled between Chile and Ecuador.
+- [W12.298] In 1834, Charles Darwin recorded their arrival in spring from the "parched deserts of the north", apparently referring to the Atacama Desert of northern Chile.
+- [W12.299] Most North American hummingbirds migrate southward in fall to spend winter in Mexico, the Caribbean Islands, or Central America.
+- [W12.300] A few species are year-round residents of Florida, California, and the southwestern desert regions of the US.
+- [W12.301] Among these are Anna's hummingbird, a common resident from southern Arizona and inland California, and the buff-bellied hummingbird, a winter resident from Florida across the Gulf Coast to South Texas.
+- [W12.302] Ruby-throated hummingbirds are common along the Atlantic flyway, and migrate in summer from as far north as Atlantic Canada, returning to Mexico, South America, southern Texas, and Florida to winter.
+- [W12.303] During winter in southern Louisiana, black-chinned, buff-bellied, calliope, Allen's, Anna's, ruby-throated, rufous, broad-tailed, and broad-billed hummingbirds are present.
+- [W12.304] The rufous hummingbird breeds farther north than any other species of hummingbird, spending summers along coastal British Columbia and Alaska, and wintering in the southwestern United States and Mexico, with some distributed along the coasts of the subtropical Gulf of Mexico and Florida.
+- [W12.305] By migrating in spring as far north as the Yukon or southern Alaska, the rufous hummingbird migrates more extensively and nests farther north than any other hummingbird species, and must tolerate occasional temperatures below freezing in its breeding territory.
+- [W12.306] This cold hardiness enables it to survive temperatures below freezing, provided that adequate shelter and food are available.
+- [W12.307] As calculated by displacement of body size, the rufous hummingbird makes perhaps the longest migratory journey of any bird in the world.
+- [W12.308] At just over 3 inches (7.6 cm) long, rufous hummingbirds travel 3,900 miles (6,300 km) one-way from Alaska to Mexico in late summer, a distance equal to 78,470,000 body lengths, then make the return journey in the following spring.
+- [W12.309] By comparison, the 13 inches (33 cm)-long Arctic tern makes a one-way flight of about 18,000 kilometres (11,000 mi), or 51,430,000 body lengths, just 65% of the body displacement during migration by rufous hummingbirds.
+- [W12.310] The northward migration of rufous hummingbirds occurs along the Pacific flyway, and may be time-coordinated with flower and tree-leaf emergence in early spring, and also with availability of insects as food.
+- [W12.311] Arrival at breeding grounds before nectar availability from mature flowers may jeopardize breeding opportunities.
+- [W12.312] All hummingbirds are overwhelmingly nectarivorous, being by far the most specialized such feeders among birds, as well as the only birds for whom nectar typically comprises the vast majority of energy intake.
+- [W12.313] Hummingbirds exhibit numerous and extensive adaptations to nectarivory, including long, probing bills and tongues which rapidly take up fluids.
+- [W12.314] Hummingbirds also possess the most sophisticated flight of all birds – hovering, a necessity for rapidly visiting many flowers without perching.
+- [W12.315] Their intestines are capable of extracting over 99% of the glucose from nectar feedings within minutes, owing to high densities of glucose transporters (the highest known among vertebrates).
+- [W12.316] As among the most important vertebrate pollinators, hummingbirds have coevolved in complex ways with flowering plants; thousands of New World species have evolved to be pollinated exclusively by hummingbirds, even barring access to insect pollinators.
+- [W12.317] In some plants these mechanisms, which include highly modified corollas, even render their nectaries inaccessible to all but certain hummingbirds, i.e., those possessing appropriate beak morphologies (although some hummingbirds rob nectar to overcome this).
+- [W12.318] Bird-pollinated plants (also termed "ornithophilous") were formerly thought to exemplify very close mutualisms, with specific flowering plants coevolving alongside specific hummingbirds in mutualistic pairings.
+- [W12.319] Both ornithophilous plants and hummingbirds are now known to not be nearly selective enough for this to be true.
+- [W12.320] Less accessible ornithophiles (for example, those requiring long bills) still rely on multiple hummingbird species for pollination.
+- [W12.321] More importantly, hummingbirds tend not to be especially selective nectar-feeders, even regularly visiting non-ornithophilous plants, as well as ornithophiles which appear poorly suited for feeding by their species.
+- [W12.322] Feeding efficiency is optimized, however, when birds feed on flowers better suited to their bill morphologies.
+- [W12.323] Although they may not be one-to-one, there are still marked overall preferences for certain genera, families, and orders of flowering plants by hummingbirds in general, as well as by certain species of hummingbird.
+- [W12.324] Flowers which are attractive to hummingbirds are often colorful (particularly red), open diurnally, and produce nectar with a high sucrose content; in ornithophilous plants, the corollas are often elongated and tubular, and they may be scentless (several of these are adaptations discouraging insect visitation).
+- [W12.325] Some common genera consumed by many species include Castilleja, Centropogon, Costus, Delphinium, Heliconia, Hibiscus, Inga, and Mimulus; some of these are primarily insect-pollinated.
+- [W12.326] Three Californian species were found to feed from 62 plant families in 30 orders, with the most frequently occurring orders being Apiales, Fabales, Lamiales, and Rosales.
+- [W12.327] A hummingbird may have to visit one or two thousand flowers daily to meet energy demands.
+- [W12.328] Although a high-quality source of energy, nectar is deficient in many macro- and micronutrients; it tends to be low in lipids, and although it may contain trace quantities of amino acids, some essential acids are severely or entirely lacking.
+- [W12.329] Though hummingbird protein requirements appear to be quite small, at 1.5% of the diet, nectar is still an inadequate source; most if not all hummingbirds therefore supplement their diet with the consumption of invertebrates.
+- [W12.330] Insectivory is not thought to be calorically important; nonetheless, regular consumption of arthropods is considered crucial for birds to thrive.
+- [W12.331] In fact, it has been suggested that the majority of non-caloric nutritional needs of hummingbirds are met by insectivory, but nectars do contain appreciable quantities of certain vitamins and minerals.
+- [W12.332] (Here, "insectivory" refers to the consumption of any arthropod, not exclusively insects).
+- [W12.333] Though not as insectivorous as once believed, and far less so than most of their relatives and ancestors among the Strisores (e.g., swifts), insectivory is probably of regular importance to most hummingbirds.
+- [W12.334] About 95% of individuals from 140 species in one study showed evidence of arthropod consumption, while another study found arthropod remains in 79% of over 1600 birds from sites across South and Central America.
+- [W12.335] Some species have even been recorded to be largely or entirely insectivorous for periods of time, particularly when nectar sources are scarce, and possibly, for some species, with seasonal regularity in areas with a wet season.
+- [W12.336] Observations of seasonal, near-exclusive insectivory have been made for blue-throated hummingbirds, as well as swallow-tailed hummingbirds in an urban park in Brazil.
+- [W12.337] In Arizona, when nearby nectar sources were seemingly absent, a nesting female broad-tailed hummingbird was recorded feeding only on arthropods for two weeks.
+- [W12.338] Other studies report 70–100% of feeding time devoted to arthropods; these accounts suggest a degree of adaptability, particularly when appropriate nectar sources are unavailable, although nectarivory always predominates when flowers are abundant (e.g., in non-seasonal tropical habitats).
+- [W12.339] In addition, the aforementioned Arizona study only surveyed a small portion of the study area, and mostly did not observe the bird while she was off the nest.
+- [W12.340] Similar concerns have been raised for other reports, leading to skepticism over whether hummingbirds can in fact subsist without nectar for extended periods at all.
+- [W12.341] Hummingbirds exhibit various feeding strategies and some morphological adaptations for insectivory.
+- [W12.342] Typically, they hawk for small flying insects, but also glean spiders from their webs.
+- [W12.343] Bill shape may play a role, as hummingbirds with longer or more curved bills may be unable to hawk efficiently, and so rely more heavily on gleaning spiders.
+- [W12.344] Regardless of bill shape, spiders are a common prey item; other very common prey items include flies, especially those of the family Chironomidae, as well as various Hymenopterans (such as wasps and ants) and Hemipterans.
+- [W12.345] The aforementioned California study found three species to consume invertebrates from 72 families in 15 orders, with flies alone occurring in over 90% of samples; the three species exhibited high dietary overlap, with little evidence for niche partitioning.
+- [W12.346] This suggests that prey availability is not a limiting resource for hummingbirds.
+- [W12.347] Estimates of overall dietary makeup for hummingbirds vary, but insectivory is often cited as comprising 5–15% of feeding time budgets, typically; 2–12% is a figure that is also cited.
+- [W12.348] In one study, 84% of feeding time was allotted to nectar feeding if breeding females are included, and 89% otherwise; 86% of total feeding records were on nectar.
+- [W12.349] It has been estimated, based on time budgets and other data, that the hummingbird diet is generally about 90% nectar and 10% arthropods by mass.
+- [W12.350] As their nestlings consume only arthropods, and possibly because their own requirements increase, breeding females spend 3–4 times as long as males foraging for arthropods, although 65–70% of their feeding time is still devoted to nectar.
+- [W12.351] Estimates for overall insectivory can be as low as <5%.
+- [W12.352] Such low numbers have been documented for some species; insects comprised 3% of foraging attempts for Peruvian shining sunbeams in one study, while the purple-throated carib has been reported to spend <1% of time consuming insects in Dominica.
+- [W12.353] Both species also have more typical numbers recorded elsewhere, however.
+- [W12.354] Overall, for most hummingbirds, insectivory is an essential and regular, albeit minor, component of the diet, while nectar is the primary feeding focus when conditions allow.
+- [W12.355] It has been shown that floral abundance (but not floral diversity) influences hummingbird diversity, but that arthropod abundance does not (i.e., that it is non-limiting).
+- [W12.356] Hummingbirds do not spend all day flying, as the energy cost would be prohibitive; the majority of their activity consists simply of sitting or perching.
+- [W12.357] Hummingbirds eat many small meals and consume around half their weight in nectar (twice their weight in nectar, if the nectar is 25% sugar) each day.
+- [W12.358] Hummingbirds digest their food rapidly due to their small size and high metabolism; a mean retention time less than an hour has been reported.
+- [W12.359] Hummingbirds spend an average of 20% of their time feeding and 75–80% sitting and digesting.
+- [W12.360] Because their high metabolism makes them vulnerable to starvation, hummingbirds are highly attuned to food sources.
+- [W12.361] Some species, including many found in North America, are territorial and try to guard food sources (such as a feeder) against other hummingbirds, attempting to ensure a future food supply.
+- [W12.362] Additionally, hummingbirds have an enlarged hippocampus, a brain region facilitating spatial memory used to map flowers previously visited during nectar foraging.
+- [W12.363] The shapes of hummingbird beaks (also called bills) vary widely as an adaptation for specialized feeding, with some 7000 flowering plants pollinated by hummingbird nectar feeding.
+- [W12.364] Hummingbird beak lengths range from about 6 millimetres (0.24 in) to as long as 110 millimetres (4.3 in).
+- [W12.365] When catching insects in flight, a hummingbird's jaw flexes downward to widen the beak for successful capture.
+- [W12.366] The extreme curved beaks of sicklebills are adapted for extracting nectar from the curved corolla tubes of Centropogon flowers.
+- [W12.367] Some species, such as hermits (Phaethornis spp.), have long beaks that enable insertion deeply into flowers with long corolla tubes.
+- [W12.368] Thornbills have short, sharp beaks adapted for feeding from flowers with short corolla tubes and piercing the bases of longer ones.
+- [W12.369] The beak of the fiery-tailed awlbill has an upturned tip adapted for feeding on nectar from tubular flowers while hovering.
+- [W12.370] Perception of sweet nectar
+- [W12.371] Perception of sweetness in nectar evolved in hummingbirds during their genetic divergence from insectivorous swifts, their closest bird relatives.
+- [W12.372] Although the only known sweet sensory receptor, called T1R2, is absent in birds, receptor expression studies showed that hummingbirds adapted a carbohydrate receptor from the T1R1-T1R3 receptor, identical to the one perceived as umami in humans, essentially repurposing it to function as a nectar sweetness receptor.
+- [W12.373] This adaptation for taste enabled hummingbirds to detect and exploit sweet nectar as an energy source, facilitating their distribution across geographical regions where nectar-bearing flowers are available.
+- [W12.374] Hummingbirds drink with their long tongues by rapidly lapping nectar.
+- [W12.375] Their tongues have semicircular tubes which run down their lengths to facilitate nectar consumption via rapid pumping in and out of the nectar.
+- [W12.376] While capillary action was believed to be what drew nectar into these tubes, high-speed photography revealed that the tubes open down their sides as the tongue goes into the nectar, and then close around the nectar, trapping it so it can be pulled back into the beak over a period of 14 milliseconds per lick at a rate of up to 20 licks per second.
+- [W12.377] The tongue, which is forked, is compressed until it reaches nectar, then the tongue springs open, the rapid action traps the nectar which moves up the grooves, like a pump action, with capillary action not involved.
+- [W12.378] Consequently, tongue flexibility enables accessing, transporting and unloading nectar via pump action, not by a capillary syphon as once believed.
+- [W12.379] Feeders and artificial nectar
+- [W12.380] In the wild, hummingbirds visit flowers for food, extracting nectar, which is 55% sucrose, 24% glucose, and 21% fructose on a dry-matter basis.
+- [W12.381] Hummingbirds also take sugar-water from bird feeders, which allow people to observe and enjoy hummingbirds up close while providing the birds with a reliable source of energy, especially when flower blossoms are less abundant.
+- [W12.382] A negative aspect of artificial feeders, however, is that the birds may seek less flower nectar for food, and so may reduce the amount of pollination their feeding naturally provides.
+- [W12.383] White granulated sugar is used in hummingbird feeders in a 20% concentration as a common recipe, although hummingbirds will defend feeders more aggressively when sugar content is at 35%, indicating preference for nectar with higher sugar content.
+- [W12.384] Organic and "raw" sugars contain iron, which can be harmful, and brown sugar, agave syrup, molasses, and artificial sweeteners also should not be used.
+- [W12.385] Honey is made by bees from the nectar of flowers, but it is not good to use in feeders because when it is diluted with water, microorganisms easily grow in it, causing it to spoil rapidly.
+- [W12.386] Red food dye was once thought to be a favorable ingredient for the nectar in home feeders, but it is unnecessary.
+- [W12.387] Commercial products sold as "instant nectar" or "hummingbird food" may also contain preservatives or artificial flavors, as well as dyes, which are unnecessary and potentially harmful.
+- [W12.388] Although some commercial products contain small amounts of nutritional additives, hummingbirds obtain all necessary nutrients from the insects they eat, rendering added nutrients unnecessary.
+- [W12.389] Hummingbirds have exceptional visual acuity providing them with discrimination of food sources while foraging.
+- [W12.390] Although hummingbirds are thought to be attracted to color while seeking food, such as red flowers or artificial feeders, experiments indicate that location and flower nectar quality are the most important "beacons" for foraging.
+- [W12.391] Hummingbirds depend little on visual cues of flower color to beacon to nectar-rich locations, but rather they use surrounding landmarks to find the nectar reward.
+- [W12.392] In at least one hummingbird species – the green-backed firecrown (Sephanoides sephaniodes) – flower colors preferred are in the red-green wavelength for the bird's visual system, providing a higher contrast than for other flower colors.
+- [W12.393] Further, the crown plumage of firecrown males is highly iridescent in the red wavelength range (peak at 650 nanometers), possibly providing a competitive advantage of dominance when foraging among other hummingbird species with less colorful plumage.
+- [W12.394] The ability to discriminate colors of flowers and plumage is enabled by a visual system having four single cone cells and a double cone screened by photoreceptor oil droplets which enhance color discrimination.
+- [W12.395] While hummingbirds rely primarily on vision and hearing to assess competition from bird and insect foragers near food sources, they may also be able to detect by smell the presence in nectar of insect defensive chemicals (such as formic acid) and aggregation pheromones of foraging ants, which discourage feeding.
+- [W12.396] Aztecs wore hummingbird talismans, artistic representations of hummingbirds and fetishes made from actual hummingbird parts as emblematic for vigor, energy, and propensity to do work along with their sharp beaks that symbolically mimic instruments of weaponry, bloodletting, penetration, and intimacy.
+- [W12.397] Hummingbird talismans were prized as drawing sexual potency, energy, vigor, and skill at arms and warfare to the wearer.
+- [W12.398] The Aztec god of war Huitzilopochtli is often depicted in art as a hummingbird.
+- [W12.399] Aztecs believed that fallen warriors would be reincarnated as hummingbirds.
+- [W12.400] The Nahuatl word huitzil translates to hummingbird.
+- [W12.401] One of the Nazca Lines depicts a hummingbird.
+- [W12.402] Trinidad and Tobago, known as "The land of the hummingbird", displays a hummingbird on its coat of arms, 1-cent coin, and livery on its national airline, Caribbean Airlines.
+- [W12.403] The Hummingbird Medal is awarded to individuals for  significant contributions to Trinidad and Tobago.
+- [W12.404] Umunhum in the Santa Cruz Mountains of Northern California is Ohlone for "resting place of the hummingbird".
+- [W12.405] The Gibson Hummingbird is an acoustic guitar model that incorporates a pickguard in the shape of a hummingbird by Gibson Brands, a major guitar manufacturer.
+- [W12.406] During the costume competition of the Miss Universe 2016 beauty pageant, Miss Ecuador, Connie Jiménez, wore a costume inspired by hummingbird wing feathers.
+- [W12.407] AeroVironment Nano Hummingbird – artificial hummingbird
+- [W12.408] The Hummingbird Website Hummingbird photos, videos, articles, links, frequently asked questions
+- [W12.409] High-resolution photo gallery of almost 100 species
+- [W12.410] High-resolution photo gallery of many species of hummingbirds
+- [W12.411] Video of hummingbird tongue acting as a micropump during nectar feeding
+
+## [W13] Wikipedia: Flamingo
+https://en.wikipedia.org/w/index.php?title=Flamingo&oldid=1374721268 · CC BY-SA 4.0 · usage: ai_input
+
+- [W13.1] Flamingos or flamingoes () are a type of wading bird in the family Phoenicopteridae, which is the only extant family in the order Phoenicopteriformes.
+- [W13.2] There are four flamingo species distributed throughout the Americas (including the Caribbean), and two species native to Afro-Eurasia.
+- [W13.3] The name flamingo comes from Portuguese or Spanish flamengo 'flame-coloured'; in turn, the word comes from Provençal flamenc – a combination of flama 'flame' and a Germanic-like suffix -ing.
+- [W13.4] The word may also have been influenced by the Spanish ethnonym flamenco 'Fleming' or 'Flemish'.
+- [W13.5] The name of the genus, Phoenicopterus, is from Ancient Greek  φοινικόπτερος (phoinikopteros) 'crimson/red-feathered'; other genera names include Phoeniconaias, which means 'crimson/red water nymph (or naiad)', and Phoenicoparrus, which means 'crimson/red bird (though, an unknown bird of omen)'.
+- [W13.6] A group of flamingos is called a "flamboyance", or a "stand".
+- [W13.7] The family Phoenicopteridae was introduced by the French zoologist Charles Lucien Bonaparte in 1831, with Phoenicopterus as the type genus.
+- [W13.8] Traditionally, the long-legged Ciconiiformes, probably a paraphyletic assemblage, have been considered the flamingos' closest relatives and the family was included in the order.
+- [W13.9] Usually, the ibises and spoonbills of the Threskiornithidae were considered their closest relatives within this order.
+- [W13.10] Earlier genetic studies, such as those of Charles Sibley and colleagues, also supported this relationship.
+- [W13.11] Relationships to the waterfowl were considered as well, especially as flamingos are parasitized by feather lice of the genus Anaticola, which are otherwise exclusively found on ducks and geese.
+- [W13.12] The peculiar presbyornithids were used to argue for a close relationship between flamingos, waterfowl, and waders.
+- [W13.13] A 2002 paper concluded they are waterfowl, but a 2014 comprehensive study of bird orders found that flamingos and grebes are not waterfowl, but rather are part of Columbea, along with doves, sandgrouse, and mesites.
+- [W13.14] Recent molecular studies have suggested a relation with grebes, while morphological evidence also strongly supports a relationship between flamingos and grebes.
+- [W13.15] They hold at least 11 morphological traits in common, which are not found in other birds.
+- [W13.16] Many of these characteristics have been previously identified on flamingos, but not on grebes.
+- [W13.17] The fossil palaelodids can be considered evolutionarily, and ecologically, intermediate between flamingos and grebes.
+- [W13.18] For the grebe-flamingo clade, the taxon Mirandornithes ("miraculous birds" due to their extreme divergence and apomorphies) has been proposed.
+- [W13.19] Alternatively, they could be placed in one order, with Phoenocopteriformes taking priority.
+- [W13.20] The cladogram below showing the phylogenetic relationships between the six extant flamingo species is based on a study by Roberto Frias-Soler and collaborators that was published in 2022; the same phylogeny was confirmed by a further study in 2026.
+- [W13.21] Six extant flamingo species are accepted by all recent sources.
+- [W13.22] They were formerly placed in one genus (have common characteristics) Phoenicopterus.
+- [W13.23] As a result of a 2014 publication, the family was reclassified into two genera.
+- [W13.24] In 2020, the family had three recognised genera, according to HBW.
+- [W13.25] A 2026 study suggested a return to two genera, with Phoeniconaias and Phoenicoparrus sufficiently closely related that merging them into one genus made better sense; when merged, the genus Phoenicoparrus (published in 1856) takes priority over Phoeniconaias (1869).
+- [W13.26] The two genera resulting can then be easily defined, with Phoenicopterus having a deep keel bone, and Phoenicoparrus a shallow keel bone.
+- [W13.27] Prehistoric species of flamingo:
+- [W13.28] Milne-Edwards, 1868 (Late Oligocene of France, Europe)
+- [W13.29] Harrisonavis (Gervais, 1852) (Middle Oligocene–Middle Miocene of C.
+- [W13.30] Leakeyornis (Harrison and Walker, 1976) (Early to Middle Miocene of Lake Victoria, Kenya)
+- [W13.31] Phoeniconaias proeses (De Vis 1905) (Pliocene of Lake Kanunka, Australia)
+- [W13.32] Phoeniconaias siamensis Cheneval et al.
+- [W13.33] 1991 (Early Miocene of Mae Long Reservoir, Thailand)
+- [W13.34] Phoeniconotius Miller 1963 (Late Oligocene of South Australia)
+- [W13.35] Phoenicopterus copei (Miller 1963) (Late Pleistocene of North America and Mexico)
+- [W13.36] Phoenicopterus floridanus (Brodkorb 1953) (Early Pliocene of Florida)
+- [W13.37] Phoenicopterus minutus Howard 1955 (Late Pleistocene of California, US)
+- [W13.38] Phoenicopterus novaehollandiae Miller 1963 (Late Oligocene of South Australia)
+- [W13.39] Phoenicopterus stocki (Miller 1944) (Middle Pliocene of Rincón, Mexico)
+- [W13.40] Xenorhynchopsis De Vis 1905 (Pliocene to Pleistocene of Australia)
+- [W13.41] The greater and American flamingos are the largest of the six different species of flamingos, both standing at 120–145 centimetres (47–57 in) tall, and weighing 2.1–4.1 kilograms (4.6–9.0 lb), while lesser flamingo is the smallest species, with a height of 80–90 centimetres (31–35 in) and weighing 1.5–2 kilograms (3.3–4.4 lb); James's flamingo is only slightly larger at 90–92 centimetres (35–36 in) tall and 2 kilograms (4.4 lb).
+- [W13.42] Flamingos can have a wingspan as small as 95–100 centimetres (37–39 in) in lesser flamingo, to as large as 140–165 centimetres (55–65 in) in greater and American flamingos.
+- [W13.43] Flamingos usually stand on one leg with the other tucked beneath the body.
+- [W13.44] The reason for this behaviour is not fully understood.
+- [W13.45] One theory is that standing on one leg allows the birds to conserve more body heat, given that they spend a significant amount of time wading in cold water.
+- [W13.46] However, the behaviour also takes place in warm water and is also observed in birds that do not typically stand in water.
+- [W13.47] An alternative theory is that standing on one leg reduces the energy expenditure for producing muscular effort to stand and balance on one leg.
+- [W13.48] A study on cadavers showed that the one-legged pose could be held without any muscle activity, while living flamingos demonstrate substantially less body sway in a one-legged posture.
+- [W13.49] While walking, a flamingo's legs may appear to bend backwards.
+- [W13.50] This appearance is due to the middle joint on their legs being their ankle, not their knee.
+- [W13.51] Flamingos also have webbed feet that aid with swimming and they may stamp their feet in the mud to stir up food from the bottom.
+- [W13.52] Flamingos are capable flyers, and flamingos in captivity often require wing clipping to prevent escape.
+- [W13.53] A pair of African flamingos which had not yet had their wings clipped escaped from the Wichita, Kansas, zoo in 2005.
+- [W13.54] One was spotted in Texas 14 years later.
+- [W13.55] It had been seen previously by birders in Texas, Wisconsin and Louisiana.
+- [W13.56] Young flamingos hatch with greyish-red plumage, but adults range from light pink to bright red due to aqueous bacteria and beta-carotene obtained from their food supply.
+- [W13.57] A well-fed, healthy flamingo is more vibrantly coloured, thus a more desirable mate; a white or pale flamingo is usually unhealthy or malnourished.
+- [W13.58] Captive flamingos are a notable exception; even if adequately nourished, they may turn a pale pink if they are not fed carotene at levels comparable to the wild.
+- [W13.59] Flamingos can open their bills by raising the upper jaw as well as by dropping the lower.
+- [W13.60] Flamingos are omnivores who filter-feed on brine shrimp, cyanobacteria, larvae, insects, mollusks and crustaceans.
+- [W13.61] Their bills are adapted to separate mud and silt from the food they eat and are uniquely used upside-down.
+- [W13.62] The filtering of food is assisted by hairy structures called lamellae, which line the mandible, and their large, rough tongue.
+- [W13.63] By rapidly retracting their head, flamingos generate vortexes that stir up sediment and shrimp.
+- [W13.64] Flamingos further induce directional flows by chattering their beaks, while their stomping creates eddies to trap invertebrates.
+- [W13.65] The pink or reddish colour of flamingos comes from carotenoids in their diet of animal and plant plankton.
+- [W13.66] American flamingos are a brighter red colour because of the beta carotene availability in their food while the lesser flamingos are a paler pink due to ingesting a smaller amount of this pigment.
+- [W13.67] These carotenoids are broken down into pigments by liver enzymes.
+- [W13.68] The source of this varies by species, and affects the colour saturation.
+- [W13.69] Flamingos whose sole diet is blue-green algae are darker than those that get it second-hand by eating animals that have digested blue-green algae.
+- [W13.70] Though flamingos prefer to drink freshwater, they are equipped with glands under their eyes that remove extra salt from their bodies.
+- [W13.71] This organ allows them to drink saltwater as well.
+- [W13.72] Flamingos are considered very noisy birds with their calls ranging from grunting or growling to nasal honking.
+- [W13.73] Vocalizations play an important role in parent-chick recognition, ritualized displays, and keeping large flocks together.
+- [W13.74] Variations in vocalizations exist in the voices of different species of flamingos.
+- [W13.75] Flamingos are very social birds; they live in colonies whose population can number in the thousands.
+- [W13.76] These large colonies are believed to serve three purposes for the flamingos: avoiding predators, maximizing food intake, and using scarce suitable nesting sites more efficiently.
+- [W13.77] Before breeding, flamingo colonies split into breeding groups of about 15 to 50 birds.
+- [W13.78] Both males and females in these groups perform synchronized ritual displays.
+- [W13.79] The members of a group stand together and display to each other by stretching their necks upwards, then uttering calls while head-flagging, and then flapping their wings.
+- [W13.80] The displays do not seem directed towards an individual, but occur randomly.
+- [W13.81] These displays stimulate "synchronous nesting" (see below) and help pair up those birds that do not already have mates.
+- [W13.82] Flamingos form strong pair bonds, although in larger colonies, flamingos sometimes change mates, presumably because more mates are available to choose.
+- [W13.83] Flamingo pairs establish and defend nesting territories.
+- [W13.84] They locate a suitable spot on the mudflat to build a nest (the female usually selects the place).
+- [W13.85] Copulation usually occurs during nest building, which is sometimes interrupted by another flamingo pair trying to commandeer the nesting site for their use.
+- [W13.86] Flamingos aggressively defend their nesting sites.
+- [W13.87] Both the male and the female contribute to building the nest, and to protecting the nest and egg.
+- [W13.88] Same-sex pairs have been reported.
+- [W13.89] After the chicks hatch, the only parental expense is feeding.
+- [W13.90] Both the male and the female feed their chicks with a kind of crop milk, produced in glands lining the whole of the upper digestive tract (not just the crop).
+- [W13.91] The hormone prolactin stimulates production.
+- [W13.92] Crop milk contains both fat and protein, as with mammalian milk, but unlike mammalian milk, it contains no carbohydrates.
+- [W13.93] (Pigeons and doves also produce crop milk, though just in the glands lining the crop, which contains less fat and more protein than flamingo crop milk.)
+- [W13.94] For the first six days after the chicks hatch, the adults and chicks stay in the nesting sites.
+- [W13.95] At around 7–12 days old, the chicks begin to move out of their nests and explore their surroundings.
+- [W13.96] When they are two weeks old, the chicks congregate in groups, called "microcrèches", and their parents leave them alone.
+- [W13.97] After a while, the microcrèches merge into "crèches" containing thousands of chicks.
+- [W13.98] Chicks that do not stay in their crèches are vulnerable to predators.
+- [W13.99] When young flamingos are around three to three and a half months old, their flight feathers will finish growing in, allowing them to fly.
+- [W13.100] The first flamingo hatched in a European zoo was a Chilean flamingo at Zoo Basel in Switzerland in 1958.
+- [W13.101] Since then, over 389 flamingos have grown up in Basel and been distributed to other zoos around the globe.
+- [W13.102] Greater, a greater flamingo who was at least 83 years old and believed to be the oldest in the world, died at the Adelaide Zoo in Australia in January 2014.
+- [W13.103] Zoos have used mirrors to encourage flamingos to breed.
+- [W13.104] The mirrors are thought to give the flamingos the impression that they are in a larger flock than they actually are.
+- [W13.105] While many different kinds of birds were valued items in Roman food, flamingos were among the most prized in Ancient Roman cuisine.
+- [W13.106] An early reference to their consumption, and especially of their tongues, is found in Pliny the Elder, who states in the Natural History:
+- [W13.107] Latin: phoenicopteri linguam praecipui saporis esse apicius docuit, nepotum omnium altissimus gurges
+- [W13.108] [Translated:] Apicius, that very deepest whirlpool of all our epicures, has informed us that the tongue of the phœnicopterus is of the most exquisite flavour.
+- [W13.109] Although a few recipes for flamingos are found in Apicius' extant works, none refer specifically to flamingo tongues.
+- [W13.110] The three flamingo recipes in the De re coquinaria (On the Subject of Cooking) involve the whole creature:
+- [W13.111] 220: roasted with an egg sauce, a recipe for wood pigeons, squabs, fattened fowl; flamingo is an afterthought.
+- [W13.112] 230: boiled; parrot may be substituted.
+- [W13.113] 231: roasted with a must sauce.
+- [W13.114] Suetonius mentions flamingo tongues in his Life of Vitellius:
+- [W13.115] Most notorious of all was the dinner given by his brother to celebrate the emperor's arrival in Rome, at which two thousand of the choicest fishes and seven thousand birds are said to have been served.
+- [W13.116] He himself eclipsed even this at the dedication of a platter, which on account of its enormous size he called the "Shield of Minerva, Defender of the City." In this he mingled the livers of pike, the brains of pheasants and peacocks, the tongues of flamingos and the milt of lampreys, brought by his captains and triremes from the whole empire, from Parthia to the Spanish strait.
+- [W13.117] Martial, the poet, devoted an ironic epigram, alluding to flamingo tongues:
+- [W13.118] [Translated:] My red wing gives me my name; but it is my tongue that is considered savoury by epicures.
+- [W13.119] What, if my tongue had been able to sing?
+- [W13.120] There is also a mention of flamingo brains in a later, highly contentious source, detailing, in the life of Elagabalus, a food item not apparently to his liking as much as camels' heels and parrot tongues, in the belief that the latter was a prophylactic:
+- [W13.121] In imitation of Apicius he frequently ate camels-heels and also cocks-combs taken from the living birds, and the tongues of peacocks and nightingales, because he was told that one who ate them was immune from the plague.
+- [W13.122] He served to the palace-attendants, moreover, huge platters heaped up with the viscera of mullets, and flamingo-brains, partridge-eggs, thrush-brains, and the heads of parrots, pheasants, and peacocks.
+- [W13.123] In the Americas, the Moche people of ancient Peru worshipped nature.
+- [W13.124] They placed emphasis on animals, and often depicted flamingos in their art.
+- [W13.125] The Ancient Egyptian god Set is depicted with a flamingo head in the Book of the Faiyum.
+- [W13.126] Flamingos are the national bird of the Bahamas.
+- [W13.127] Andean miners have killed flamingos for their fat, believing that it would cure tuberculosis.
+- [W13.128] In the United States, pink plastic flamingos are sometimes used as lawn ornaments.
+- [W13.129] They were first designed by Don Featherstone in 1957.
+- [W13.130] Their popularity was influenced in part by the prevalence of flamingo souvenirs in Florida along with the Flamingo grand hotel in Miami Beach, prompting the correlation of flamingos with style and wealth.
+- [W13.131] In 2026, the flamingo became a symbol of the anti-government protests in Albania known as the Flamingo Revolution.
+- [W13.132] Flamingo videos and photos on the Internet Bird Collection
+
+## [W14] Wikipedia: Thylacine
+https://en.wikipedia.org/w/index.php?title=Thylacine&oldid=1380205188 · CC BY-SA 4.0 · usage: ai_input
+
+- [W14.1] The thylacine ( THY-luh-seen; Thylacinus cynocephalus), also commonly known as the Tasmanian tiger, Tasmanian wolf or marsupial wolf, is an extinct species of carnivorous marsupial formerly native to the Australian mainland, Tasmania and New Guinea.
+- [W14.2] It became extinct on mainland Australia and New Guinea approximately 3,600–3,200 years ago, possibly following the arrival of the dingo, which was introduced to Australia around the same period but never reached Tasmania.
+- [W14.3] Prior to European settlement, the species remained widespread in Tasmania, where its population was estimated to number several thousand individuals.
+- [W14.4] During the 19th century, the species was increasingly persecuted because of its perceived threat to livestock, with government-sponsored bounty schemes encouraging its extermination.
+- [W14.5] The last known individual died at Hobart Zoo in Tasmania on 7 September 1936.
+- [W14.6] The thylacine was known as the Tasmanian tiger because of the dark transverse stripes that radiated from the top of its back, and it was called the Tasmanian wolf because it resembled a medium- to large-sized canid.
+- [W14.7] The name thylacine is derived from thýlakos meaning 'pouch' and -ine meaning 'pertaining to', and refers to the marsupial pouch.
+- [W14.8] The females used theirs for rearing young, and the males used theirs as a protective sheath, covering the external reproductive organs.
+- [W14.9] The animal had a stiff tail and could open its jaws to an unusual extent.
+- [W14.10] Recent studies and anecdotal evidence on its predatory behaviour suggest that the thylacine was a solitary ambush predator specialised in hunting small- to medium-sized prey.
+- [W14.11] Accounts suggest that, in the wild, it fed on small birds and mammals.
+- [W14.12] It was the only member of the genus Thylacinus and family Thylacinidae to have survived until modern times.
+- [W14.13] Its closest living relatives are the other members of Dasyuromorphia, including the Tasmanian devil, from which it is estimated to have split 42–36 million years ago.
+- [W14.14] Intensive hunting on Tasmania is generally blamed for its extinction, but other contributing factors were disease, the introduction of and competition with dingoes, human encroachment into its habitat and climate change.
+- [W14.15] Since extinction there have been numerous searches and reported sightings of live animals, none of which have been confirmed.
+- [W14.16] The thylacine has been used extensively as a symbol of Tasmania.
+- [W14.17] The animal is featured on the official coat of arms of Tasmania.
+- [W14.18] Since 1996, National Threatened Species Day has been commemorated in Australia on 7 September, the date on which the last known thylacine died in 1936.
+- [W14.19] Universities, museums and other institutions across the world research the animal.
+- [W14.20] Its whole genome sequence has been mapped, and there are efforts to clone and bring it back to life.
+- [W14.21] Discovery, taxonomy and etymology
+- [W14.22] Numerous examples of thylacine engravings and rock art have been found, dating back to at least 1000 BC.
+- [W14.23] Petroglyph images of the thylacine can be found at the Dampier Rock Art Precinct, on the Burrup Peninsula in Western Australia.
+- [W14.24] By the time the first European explorers arrived, the animal was already extinct in mainland Australia and New Guinea and rare in Tasmania.
+- [W14.25] Europeans may have encountered it in Tasmania as far back as 1642, when Abel Tasman first arrived in Tasmania.
+- [W14.26] His shore party reported seeing the footprints of "wild beasts having claws like a Tyger".
+- [W14.27] Marc-Joseph Marion du Fresne, arriving with the Mascarin in 1772, reported seeing a "tiger cat".
+- [W14.28] The first definitive encounter was by French explorers on 13 May 1792, as noted by the naturalist Jacques Labillardière, in his journal from the expedition led by d'Entrecasteaux.
+- [W14.29] In 1805, William Paterson, the Lieutenant Governor of Tasmania, sent a detailed description for publication in the Sydney Gazette.
+- [W14.30] He also sent a description of the thylacine in a letter to Joseph Banks, dated 30 March 1805.The first detailed scientific description was made by Tasmania's Deputy Surveyor-General, George Harris, in 1808, five years after first European settlement of the island.
+- [W14.31] Harris originally placed the thylacine in the genus Didelphis, which had been created by Linnaeus for the American opossums, describing it as Didelphis cynocephala, the "dog-headed opossum".
+- [W14.32] Recognition that the Australian marsupials were fundamentally different from the known mammal genera led to the establishment of the modern classification scheme, and in 1796, Geoffroy Saint-Hilaire created the genus Dasyurus, where he placed the thylacine in 1810.
+- [W14.33] To maintain gender agreement with the genus name, the species name was altered to cynocephalus.
+- [W14.34] In 1824, it was separated out into its own genus, Thylacinus, by Temminck.
+- [W14.35] The common name "thylacine" derives directly from the genus name, originally from the Greek θύλακος (thýlakos), meaning "pouch" or "sack" and ine meaning "pertaining to".
+- [W14.36] The name is pronounced THY-lə-seen or THY-lə-syne.
+- [W14.37] The Australian National Dictionary recognises 11 different informal common names that have been used to refer to Thylacinus cynocephalus, most of which have now fallen into disuse.
+- [W14.38] In the 1800s they were widely known as zebra wolves, zebra opossums or dog-headed opossums; the latter a direct translation of the obsolete binomial Didelphis cynocephalus.
+- [W14.39] They were also referred to as hyena opossums or simply hyenas in parts of Tasmania.
+- [W14.40] These names fell out of use during the early 20th century in favour of the contemporary terms Tasmanian tiger, Tasmanian wolf or marsupial wolf, referencing the animal's striped patterning and wolf-like appearance respectively.
+- [W14.41] The disparity in English common names has been attributed to the animal's unique combination of features.
+- [W14.42] Various Aboriginal Tasmanian names for the thylacine have been recorded, such as coorinna, kanunnah, cab-berr-one-nen-er, loarinna, laoonana, can-nen-ner and lagunta, while kaparunina is used in Palawa kani.
+- [W14.43] The earliest records of the modern thylacine are from the Early Pleistocene, with the oldest known fossil record in southeastern Australia from the Calabrian age around 1.77–0.78 million years ago.
+- [W14.44] Specimens from the Pliocene-aged Chinchilla Fauna, described as Thylacinus rostralis by Charles De Vis in 1894, have in the past been suggested to represent Thylacinus cynocephalus, but have been shown to either have been curatorial errors, or ambiguous in their specific attribution.
+- [W14.45] The family Thylacinidae includes at least 12 species in eight genera.
+- [W14.46] Thylacinids are estimated to have split from other members of Dasyuromorphia around 42–36 million years ago.
+- [W14.47] The earliest representative of the family is Badjcinus turnbulli from the Late Oligocene of Riversleigh in Queensland, around 25 million years ago.
+- [W14.48] Early thylacinids were quoll-sized, well under 10 kg (22 lb).
+- [W14.49] It probably ate insects and small reptiles and mammals, although signs of an increasingly-carnivorous diet can be seen as early as the early Miocene in Wabulacinus.
+- [W14.50] Members of the genus Thylacinus are notable for a dramatic increase in both the expression of carnivorous dental traits and in size, with the largest species, Thylacinus potens and Thylacinus megiriani, both approaching the size of a wolf.
+- [W14.51] In late Pleistocene and early Holocene times, the modern thylacine was widespread (although never numerous) throughout Australia and New Guinea.
+- [W14.52] A classic example of convergent evolution, the thylacine showed many similarities to the members of the dog family, Canidae, of the Northern Hemisphere: sharp teeth, powerful jaws, raised heels, and the same general body form.
+- [W14.53] Since the thylacine filled the same ecological niche in Australia and New Guinea as canids did elsewhere, it developed many of the same features.
+- [W14.54] Despite this, as a marsupial, it is unrelated to any of the Northern Hemisphere placental mammal predators.
+- [W14.55] Thylacinidae, including the thylacine, are the earliest diverging lineage of Dasyuromorphia, which also includes numbats, dunnarts, and Dasyuridae (which includes wambengers, quolls, and the Tasmanian devil, among numerous others).
+- [W14.56] The cladogram below follows the results of genetic studies:Phylogeny of Thylacinidae after Rovinsky et al.
+- [W14.57] Descriptions of the thylacine come from preserved specimens, fossil records, skins and skeletal remains, and black and white photographs and film of the animal both in captivity and from the field.
+- [W14.58] The thylacine resembled a large, short-haired dog with a stiff tail which smoothly extended from the body in a way similar to that of a kangaroo.
+- [W14.59] The mature thylacine measured about 60 cm (24 in) in shoulder height and 1–1.3 m (3.3–4.3 ft) in body length, excluding the tail which measured around 50 to 65 cm (20 to 26 in).
+- [W14.60] Because the recorded body mass estimates are scant, it has been suggested that they may have weighed anywhere from 15 to 35 kg (33 to 77 lb), but a 2020 study that examined 93 adult specimens, with 40 of the specimens' sexes being known, argued that their average body mass would be 16.7 kg (37 lb) with a range of 9.8–28.1 kg (22–62 lb) based on volumetric analysis.
+- [W14.61] There was slight sexual dimorphism, with the males being larger than females on average.
+- [W14.62] Males weighed on average 19.7 kg (43 lb), and females on average weighed 13.7 kg (30 lb).
+- [W14.63] The skull is noted to be highly convergent on those of canids, most closely resembling that of the red fox.
+- [W14.64] Thylacines, uniquely for marsupials, had largely cartilaginous epipubic bones with a highly reduced osseous element.
+- [W14.65] This was once considered a synapomorphy with sparassodonts, though it is now thought that both groups reduced their epipubics independently.
+- [W14.66] Its yellow-brown coat featured 15 to 20 distinctive dark stripes across its back, rump and the base of its tail, which earned the animal the nickname "tiger".
+- [W14.67] The stripes were more pronounced in younger specimens, fading as the animal got older.
+- [W14.68] One of the stripes extended down the outside of the rear thigh.
+- [W14.69] Its body hair was dense and soft, up to 15 mm (0.59 in) in length.
+- [W14.70] Colouration varied from light fawn to a dark brown; the belly was cream-coloured.
+- [W14.71] Its rounded, erect ears were about 8 cm (3.1 in) long and covered with short fur.
+- [W14.72] The early scientific studies suggested it possessed an acute sense of smell which enabled it to track prey, but analysis of its brain structure revealed that its olfactory bulbs were not well developed.
+- [W14.73] It is likely to have relied on sight and sound when hunting instead.
+- [W14.74] In 2017, Berns and Ashwell published comparative cortical maps of thylacine and Tasmanian devil brains, showing that the thylacine had a larger, more modularised basal ganglion.
+- [W14.75] The authors associated these differences with the thylacine's more predatory lifestyle.
+- [W14.76] Analysis of the forebrain published in 2023 suggested that it was similar in morphology to other dasyuromorph marsupials and dissimilar to that of canids.
+- [W14.77] The thylacine was able to open its jaws up to 80 degrees.
+- [W14.78] This capability can be seen in part in David Fleay's short black-and-white film sequence of a captive thylacine from 1933.
+- [W14.79] The jaws were muscular, and had 46 teeth, but studies show the thylacine jaw was too weak to kill sheep.
+- [W14.80] The tail vertebrae were fused to a degree, with resulting restriction of full tail movement.
+- [W14.81] Fusion may have occurred as the animal reached full maturity.
+- [W14.82] The tail tapered towards the tip.
+- [W14.83] In juveniles, the tip of the tail had a ridge.
+- [W14.84] The female thylacine had a pouch with four teats, but unlike many other marsupials, the pouch opened to the rear of its body.
+- [W14.85] Males had a scrotal pouch, unique amongst the Australian marsupials, into which they could withdraw their scrotal sac for protection.
+- [W14.86] Thylacine footprints could be distinguished from other native or introduced animals; unlike foxes, cats, dogs, wombats, or Tasmanian devils, thylacines had a very large rear pad and four obvious front pads, arranged in almost a straight line.
+- [W14.87] The hindfeet were similar to the forefeet but had four digits rather than five.
+- [W14.88] Their claws were non-retractable.
+- [W14.89] The plantar pad is tri-lobal in that it exhibits three distinctive lobes.
+- [W14.90] It is a single plantar pad divided by three deep grooves.
+- [W14.91] The distinctive plantar pad shape along with the asymmetrical nature of the foot makes it quite different from animals such as dogs or foxes.
+- [W14.92] The thylacine was noted as having a stiff and somewhat awkward gait, making it unable to run at high speed.
+- [W14.93] It could also perform a bipedal hop, in a fashion similar to a kangaroo—demonstrated at various times by captive specimens.
+- [W14.94] Guiler speculates that this was used as an accelerated form of motion when the animal became alarmed.
+- [W14.95] The animal was also able to balance on its hind legs and stand upright for brief periods.
+- [W14.96] Observers of the animal in the wild and in captivity noted that it would growl and hiss when agitated, often accompanied by a threat-yawn.
+- [W14.97] During hunting, it would emit a series of rapidly repeated guttural cough-like barks (described as "yip-yap", "cay-yip" or "hop-hop-hop"), probably for communication between the family pack members.
+- [W14.98] It also had a long whining cry, probably for identification at distance, and a low snuffling noise used for communication between family members.
+- [W14.99] Some observers described it as having a strong and distinctive smell, others described a faint, clean, animal odour, and some no odour at all.
+- [W14.100] It is possible that the thylacine, like its relative, the Tasmanian devil, gave off an odour when agitated.
+- [W14.101] The thylacine most likely preferred the dry eucalyptus forests, wetlands, and grasslands of mainland Australia.
+- [W14.102] Indigenous Australian rock paintings indicate that the thylacine lived throughout mainland Australia and New Guinea.
+- [W14.103] Proof of the animal's existence in mainland Australia came from a desiccated carcass that was discovered in a cave in the Nullarbor Plain in Western Australia in 1990; carbon dating revealed it to be around 3,300 years old.
+- [W14.104] Recently examined fossilised footprints also suggest historical distribution of the species on Kangaroo Island.
+- [W14.105] The northernmost record of the species is from the Kiowa rock shelter in Chimbu Province in the highlands of Papua New Guinea, dating to the Early Holocene, around 10,000–8,500 years BP.
+- [W14.106] In 2017, White, Mitchell and Austin published a large-scale analysis of thylacine mitochondrial genomes, showing that they had split into eastern and western populations on the mainland before the Last Glacial Maximum and that Tasmanian thylacines had a low genetic diversity by the time of European arrival.
+- [W14.107] During the 1800s thylacines may have inhabited the entirety of Tasmania, with larger numbers in drier, open regions and woodlands in the Midlands, East Coast, Central Highlands and the North West of the island, which was likely their preferred habitat.
+- [W14.108] Thylacines are also known from high-altitude, mountainous environments and rainforests, but were naturally less abundant here due to a lack of suitable prey.
+- [W14.109] Researchers such as Robert Paddle have suggested that the species was totally absent from the mountainous South West due to the lack of capture records from the area; this has alternatively explained by poor sampling of the region, as thylacines were periodically sighted in southwestern Tasmania.
+- [W14.110] The range of the species contracted during the early 1900s, and the species was likely already extirpated from the eastern Tasmania by the 1920s.
+- [W14.111] The striped pattern of the thylacine may have provided camouflage in woodland conditions, but it may have also served for identification purposes.
+- [W14.112] The species had a typical home range of between 40 and 80 km2 (15 and 31 sq mi).
+- [W14.113] It appears to have kept to its home range without being territorial; groups too large to be a family unit were sometimes observed together.
+- [W14.114] There is evidence for at least some year-round breeding (cull records show joeys discovered in the pouch at all times of the year), although the peak breeding season was in winter and spring.
+- [W14.115] They would produce up to four joeys per litter (typically two or three), carrying the young in a pouch for up to three months and protecting them until they were at least half adult size.
+- [W14.116] Early pouch young were hairless and blind, but they had their eyes open and were fully furred by the time they left the pouch.
+- [W14.117] The young also had their own pouches that were not visible until they were 9.5 weeks old.
+- [W14.118] After leaving the pouch, and until they were developed enough to assist, the juveniles would remain in the lair while their mother hunted.
+- [W14.119] Thylacines only once bred successfully in captivity, in Melbourne Zoo in 1899.
+- [W14.120] Their life expectancy in the wild is estimated to have been 5 to 7 years, although captive specimens survived up to 9 years.
+- [W14.121] In 2018, Newton et al. collected and CT-scanned all known preserved thylacine pouch young specimens to digitally reconstruct their development throughout their entire window of growth in their mother's pouch.
+- [W14.122] This study revealed new information on the biology of the thylacine, including the growth of its limbs and when it developed its 'dog-like' appearance.
+- [W14.123] It was found that two of the thylacine young in the Tasmanian Museum and Art Gallery (TMAG) were misidentified and of another species, reducing the number of known pouch young specimens to 11 worldwide.
+- [W14.124] One of four specimens kept at Museum Victoria has been serially sectioned, allowing an in-depth investigation of its internal tissues and providing some insights into thylacine pouch young development, biology, immunology and ecology.
+- [W14.125] The thylacine was an apex predator, though exactly how large its prey animals could be is disputed.
+- [W14.126] It was a nocturnal and crepuscular hunter, spending the daylight hours in small caves or hollow tree trunks in a nest of twigs, bark, or fern fronds.
+- [W14.127] It tended to retreat to the hills and forest for shelter during the day and hunted in the open heath at night.
+- [W14.128] Early observers noted that the animal was typically shy and secretive, with awareness of the presence of humans and generally avoiding contact, although it occasionally showed inquisitive traits.
+- [W14.129] At the time, much stigma existed in regard to its "fierce" nature; this is likely to be due to its perceived threat to agriculture.Historical accounts suggest that in the wild, the thylacine preyed on small mammals and birds, with waterbirds being the most commonly recorded bird prey, with historical accounts of thylacines predating on black ducks and teals with coots, Tasmanian nativehens, swamphens, herons (Ardea) and black swans also being likely items of prey.
+- [W14.130] The thylacine may also have preyed upon the now extinct Tasmanian emu.
+- [W14.131] The most commonly recorded mammalian prey was the red-necked wallaby, with other recorded prey including the Tasmanian pademelon and the short-beaked echidna.
+- [W14.132] Other probable native mammalian prey includes other marsupials like bandicoots and brushtail possums, as well as native rodents like water rats.
+- [W14.133] Following their introduction to Tasmania, European rabbits rapidly multiplied and became abundant across the island, with a number of accounts reporting the predation of rabbits by thylacines.
+- [W14.134] Some accounts also suggest that the thylacine may have preyed on lizards, frogs and fish.
+- [W14.135] European settlers believed the thylacine to prey regularly upon farmers' sheep and poultry.
+- [W14.136] However, analysis by Robert Paddle suggests that there is little evidence that thylacines were significant predators of sheep or poultry (though some accounts suggest that they may have attacked them on occasion), with many sheep deaths likely caused by feral dog attacks instead.
+- [W14.137] Throughout the 20th century, the thylacine was often characterised as primarily a blood drinker; according to Robert Paddle, the story's popularity seems to have originated from a single second-hand account heard by Geoffrey Smith (1881–1916) in a shepherd's hut.
+- [W14.138] Recent studies suggest that the thylacine was probably not suited for hunting large prey.
+- [W14.139] A 2007 study argued that, while it could open its jaws wide like modern mammalian predators that consume large prey, the canine of the thylacine was not suited for slashing bites like that of large canids, indicating, based on the assumption that the bite was largely derived by its skull, that it hunted small to medium-sized prey as a solitary hunter.
+- [W14.140] A 2011 study by the University of New South Wales using advanced computer modelling indicated that the thylacine had surprisingly feeble jaws; animals usually take prey close to their own body size, but an adult thylacine of around 30 kg (66 lb) was found to be incapable of handling prey much larger than 5 kg (11 lb), suggesting that the thylacine only ate smaller animals such as bandicoots, pademelons and possums, and that it may have directly competed with the Tasmanian devil and the tiger quoll.
+- [W14.141] The dental microwear of the thylacine, though containing larger pits and more of them, overlapped significantly wth that of the Tasmanian devil.
+- [W14.142] Another study in 2020 produced similar results, after estimating the average body mass of thylacine as about 16.7 kg (37 lb) rather than 30 kg (66 lb), suggesting that the animal did indeed hunt much smaller prey, although it was capable of taking down larger prey when necessary.
+- [W14.143] The cranial and facial morphology also indicate that the thylacine would have hunted prey less than 45% of its own body mass, consistent with modern carnivores weighing under 21 kg (46 lb) which is about the average size of a thylacine.
+- [W14.144] A 2005 study showed that the thylacine had a high bite force quotient of 166, which was similar to that of most quolls, indicating that it may have been able to hunt larger prey relative to its body size.
+- [W14.145] A 2007 study also suggested that it would have had a much stronger bite force than a dingo of similar size, though this particular study argued that the thylacine would have hunted smaller prey.
+- [W14.146] A biomechanical analysis of the 3D skull model suggested that the thylacine would have likely consumed smaller prey, with its skull displaying high levels of stress that are not suited to withstand forces, and with its bite forces being estimated at a smaller value than that of Tasmanian devils.
+- [W14.147] A 2014 study compared the skull of a thylacine with that of modern dasyurids and an earlier thylacinid taxon Nimbacinus based on biomechanical analysis of their 3D skull models; the authors suggested that while Nimbacinus was suited to hunt large prey with a maximum muscle force of 651 N (146 lbf) which are similar to that of large Tasmanian devils, the thylacine skull displayed a much higher stress in all areas compared to its relatives due to its longer snout.
+- [W14.148] If the thylacine was indeed specialised for small prey, this specialisation likely made it susceptible to small disturbances to the ecosystem.
+- [W14.149] It has been suggested on the basis of the canine teeth and limb bones that the thylacine was a solitary pounce-pursuit predator that hunted smaller prey with trophic niches similar to relatively smaller canids like the coyote, and that it was not as specialised as large canids, hyaenids and felids of today: its canine lacked the adaptation for producing slashing or deep penetrating bites, and its anatomy was not suited for running fast in high speed.
+- [W14.150] However, the trappers reported it as an ambush predator hunting alone or in pairs mainly at night.
+- [W14.151] The elbow joint morphology and the forelimb anatomy of the thylacine also suggest that the animal was most likely an ambush predator.
+- [W14.152] A 2026 analysis of archival footage found that the thylacine's walking locomotion was most consistent with that of opportunistic pouncing predators, although the authors cautioned that the available footage represented only a limited part of its locomotor repertoire.
+- [W14.153] The stomach of a thylacine was very muscular, capable of distending to allow the animal to eat large amounts of food at one time, probably an adaptation to compensate for long periods when hunting was unsuccessful and food scarce.
+- [W14.154] In captivity, thylacines were fed a wide variety of foods, including dead rabbits and wallabies as well as beef, mutton, horse and, occasionally, poultry.
+- [W14.155] There is a report of a captive thylacine that refused to eat dead wallaby flesh or to kill and eat a live wallaby offered to it, but "ultimately it was persuaded to eat by having the smell of blood from a freshly killed wallaby put before its nose." Thylacines kept at the London Zoo opportunistically caught and ate pigeons.
+- [W14.156] Extinction on the Australian mainland
+- [W14.157] Australia lost more than 90% of its megafauna around 50–40,000 years ago as part of the Quaternary extinction event, with the notable exceptions of several kangaroo and wombat species, emus, cassowaries, large goannas, and the thylacine.
+- [W14.158] The extinctions included the even larger carnivore Thylacoleo carnifex (sometimes called the marsupial lion) which was only distantly related to the thylacine.
+- [W14.159] A 2010 paper examining this issue showed that humans were likely to be one of the major factors in the extinction of many species in Australia although the authors of the research warned that one-factor explanations might be over-simplistic.
+- [W14.160] The youngest radiocarbon dates of the thylacine in mainland Australia are around 3,500 years old, with an estimated extinction date around 3,200 years ago, synchronous with that of Tasmanian devil, and closely co-inciding with the earliest records of the dingo, as well as an intensification of human activity.
+- [W14.161] Recent studies have documented additional thylacine depictions in Arnhem Land, including examples in rock art styles that may date to within the last 1,000 years, raising questions about whether the species may have persisted locally later than previously assumed, although this remains uncertain.
+- [W14.162] A study proposes that the dingo may have led to the extinction of the thylacine in mainland Australia because the dingo outcompeted the thylacine in preying on the Tasmanian nativehen.
+- [W14.163] The dingo is also more likely to hunt in packs than the more solitary thylacine.
+- [W14.164] Examinations of dingo and thylacine skulls show that although the dingo had a weaker bite, its skull could resist greater stresses, allowing it to pull down larger prey than the thylacine.
+- [W14.165] Because it was a hypercarnivore, the thylacine was less versatile in its diet than the omnivorous dingo.
+- [W14.166] Their ranges appear to have overlapped because thylacine subfossil remains have been discovered near those of dingoes.
+- [W14.167] Aside from wild dingoes, the adoption of the dingo as a hunting companion by the indigenous peoples would have put the thylacine under increased pressure.
+- [W14.168] A 2013 study suggested that, while dingoes were a contributing factor to the thylacine's demise on the mainland, larger factors were the intense human population growth, technological advances, and the abrupt change in the climate during the period.
+- [W14.169] A report published in the Journal of Biogeography detailed an investigation into the mitochondrial DNA and radio-carbon dating of thylacine bones.
+- [W14.170] It concluded that the thylacine died out on mainland Australia in a relatively short time span.
+- [W14.171] A study published in 2025 proposed that gene losses which accumulated throughout the thylacine's evolutionary history made the species vulnerable to extinction.
+- [W14.172] The authors of the study suggest that genetic traits which would have made the thylacine more capable of adapting to environmental changes were lost and that these losses may have contributed to their eventual demise.
+- [W14.173] Ken Mulvaney has suggested, based on the high number of rock carvings of the thylacine on the Burrup Peninsula, Aboriginal Australians were aware of, and concerned about the thylacine's dwindling numbers around that time.
+- [W14.174] Decline and extinction in Tasmania
+- [W14.175] Although the thylacine had died out on mainland Australia, it survived into the 1930s on the island of Tasmania.
+- [W14.176] The number of thylacines living at any given time prior to the arrival of Europeans is unclear, with a rough estimate of 2,000-4,000 or less given by Eric Guiler & Philippe Godard, and a higher estimate of 5,000 given by David Owen.
+- [W14.177] They were rarely sighted, but slowly began to be credited with numerous attacks on sheep.
+- [W14.178] This led to the establishment of bounty schemes in an attempt to control their numbers.
+- [W14.179] The Van Diemen's Land Company introduced bounties on the thylacine as early as 1830, and between 1888 and 1909, the Tasmanian government paid £1 per head for dead adult thylacines and ten shillings for pups.
+- [W14.180] In all, they paid out more than 2,200 bounties, but it is thought that many more thylacines were killed than bounties claimed.
+- [W14.181] Its extinction is popularly attributed to this hunting by farmers and bounty hunters.
+- [W14.182] In addition to persecution, it is likely that multiple factors rapidly compounded its decline and eventual extinction, including competition with wild dogs introduced by European settlers, destruction of habitat, already-low genetic diversity, the concurrent extinctions and declines of prey species, and a distemper-like disease.
+- [W14.183] A study from 2012 suggested that the disease, termed marsupi-carnivore disease, was likely introduced into the wild thylacine population by humans around 1896, and dramatically reduced the lifespan of the animal and greatly increased pup mortality, and spread across the island's thylacine population in an east-to-west pattern.
+- [W14.184] Contemporary reports from the 1930s credit disease as the greatest threat to the species, although some later researchers have questioned its impacts in comparison to hunting.
+- [W14.185] Research in 2012 indicated that the last of the thylacines in Tasmania had limited genetic diversity due to their complete geographic isolation from mainland Australia.
+- [W14.186] Further investigations in 2017 showed evidence that this decline in genetic diversity started long before the arrival of humans in Australia, possibly starting as early as 70–120 thousand years ago.
+- [W14.187] By the beginning of the 20th century, the increasing rarity of thylacines also led to increased demand for captive specimens by zoos around the world, placing yet more pressure on an already small, bottlenecked population.
+- [W14.188] Despite the export of breeding pairs, attempts at rearing thylacines in captivity during the 20th century were unsuccessful, and the last thylacine outside of Tasmania died at the London Zoo in 1931.
+- [W14.189] A 1921 photo by Henry Burrell of a thylacine holding a chicken in its mouth was widely distributed and may have helped secure the animal's reputation as a poultry thief.
+- [W14.190] The image had been cropped to hide the fact that the animal was in captivity, and analysis by one researcher has concluded that this thylacine was a dead specimen, posed for the camera.
+- [W14.191] The photograph may even have involved photo manipulation.Thylacines apparently experienced population crash after 1905, with the total population estimated to be less than 700-800 individuals by the end of the government's bounty campaign in 1909.
+- [W14.192] The species continued to decline, and had become vanishingly rare by the 1920s.
+- [W14.193] Despite the fact that the thylacine was believed by many to be responsible for attacks on sheep, in 1928 the Tasmanian Advisory Committee for Native Fauna recommended a reserve similar to the Savage River National Park to protect any remaining thylacines, with potential sites of suitable habitat including the Arthur-Pieman area of western Tasmania.
+- [W14.194] By the 1930s, only four small subpopulations of thylacines in western Tasmania likely survived, with the largest number of sightings in the Arthur-Pieman area.The last known thylacine to be killed in the wild was shot in 1930 by Wilf Batty, a farmer from Mawbanna in the state's northwest.
+- [W14.195] The animal, believed to have been a male, had been seen around Batty's house for several weeks or months.
+- [W14.196] The last reliably dated record of a wild thylacine was a young male individual captured in 1931 by James Millar Kaine and sold to exotic animal dealer James Harrison, who sold several other thylacines to various buyers during his career.
+- [W14.197] The animal was caught alive, but had a broken leg and had been beaten.
+- [W14.198] It was treated for its injuries by a local doctor, after which it claimed to have been returned to Harrison, although there is no surviving bill of sale to confirm its final destination.
+- [W14.199] Later captures of thylacines between 1933 and 1936 are widely suggested, but are probably misreported.
+- [W14.200] Although there had been a conservation movement pressing for the thylacine's protection since 1901, driven in part by the increasing difficulty in obtaining specimens for overseas collections, no protections came into force until 1936.
+- [W14.201] Official protection of the species by the Tasmanian government was introduced on 10 July 1936, 59 days before the last known specimen died in captivity.
+- [W14.202] The thylacine held the status of endangered species until the 1980s, because international standards at the time stated that an animal should not be declared extinct until 50 years had passed without a confirmed record.
+- [W14.203] Since no definitive proof of the thylacine's existence in the wild had been obtained for more than 50 years, it met that official criterion and was declared extinct by the International Union for Conservation of Nature in 1982 and by the Tasmanian government in 1986.
+- [W14.204] The species was removed from Appendix I of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 2013.
+- [W14.205] The last captive thylacine lived as an endling (the known last of its species) at Hobart Zoo (alternatively Beaumaris Zoo) until its death on the evening or night of 7 September 1936.
+- [W14.206] The circumstances of the endling's capture, its life history, death and sex are debated, and conflicting information has been reported.
+- [W14.207] It is occasionally claimed that it was the offspring of a female housed at the zoo during the 1920s, despite it having a distinctive scar on its leg from a snare trap that implies wild capture, and the zoo not having thylacines for a period between 1929 and 1930.
+- [W14.208] The date of the endling's apparent capture (and historically its date of death as well) is sometimes reported to have been 1933 or 1934, although there are no surviving records of any live thylacines being handled after 1931.
+- [W14.209] Author Stephen Sleightholme and coauthors proposed that the thylacine caught by James Kaine in 1931 may have been sold to the Hobart Zoo, but in a later work Sleightholme and Gareth Linnard considered this incorrect and suggested the last wild capture was ultimately sold to a buyer that was not a zoo or museum.
+- [W14.210] According to authors Linnard and Sleightholme, the endling was a male accidentally snared as a juvenile in 1930 near Mount Bischoff, and temporarily kept by a local family as a paid attraction along with an injured juvenile female.
+- [W14.211] The Hobart Zoo purchased the juvenile male from the family in late 1930 after the female had already died.
+- [W14.212] This male had a distinctive stripe pattern and snare scar around its leg, which are visible in all photos and videos of the zoo's thylacine during the 1930s.
+- [W14.213] It deteriorated in health throughout 1936, and according to Linnard and Sleightholme died of age-related complications in September of that year after being housed at the zoo for nearly six years.
+- [W14.214] After death its body was apparently lost, possibly having been sent to museum director Colin Mackenzie, who collected thylacine remains.
+- [W14.215] According to authors Robert Paddle and Kathryn Medlock, the male captured in 1930 died in May 1936 and was replaced shortly afterwards.
+- [W14.216] These authors propose the endling was instead an elderly female captured by Elias Churchill with a snare trap, and was sold to the zoo in May 1936.
+- [W14.217] This sale was not publicly announced because the use of traps was, according to these authors, illegal, and Churchill could have been fined.
+- [W14.218] After its death, the remains of the female endling would have been transferred to the Tasmanian Museum and Art Gallery, where they were not properly recorded by the museum because the animal had been caught illegally.
+- [W14.219] The remains would then lay undiscovered for decades until a taxidermist record dated from 1936 or 1937 mentioning the animal was noticed in 2022.
+- [W14.220] Linnard and Sleightholme have criticised this account, as May 1936 predated the species being protected and thus there would be no need for secrecy.
+- [W14.221] Churchill only recounted a single, separate instance of catching a thylacine alive during the 1920s, and a report from 1937 noted no reliable wild thylacine sightings for years.
+- [W14.222] An earlier work by Paddle claims the animal is believed to have died as the result of neglect after being locked out of its sheltered sleeping quarters and being exposed to extreme heat during the day and freezing temperatures at night.
+- [W14.223] This account of the animal's death has been widely publicised since, but has been questioned in favour of the animal dying of old age.
+- [W14.224] The sleeping quarters of the thylacine exhibit were apparently readily openable from outside, and it was considered a star attraction by the zoo.
+- [W14.225] Visitors near the end of the animal's life also described it as mangy, limping, and old, which is consistent with its appearance in the two last known photographs of it from 1936.
+- [W14.226] This implies the animal was near the end of its species' naturally short lifespan.
+- [W14.227] In May 1968, an individual named Frank Darby, claiming to be a curator at the Hobart Zoo, invented the myth that the endling was called Benjamin.
+- [W14.228] Darby discussed the matter with the Victorian naturalist Graham Pizzey, and the account entered the Melbourne press and exploded in popularity.
+- [W14.229] Despite being regularly debunked over the years due to Darby never working at the zoo and being unfamiliar with the species, the myth continues to circulate even in modern-day media, with Wikipedia itself formerly repeating the invention.A 45 second black-and-white motion picture showing the Hobart Zoo's presumed last thylacine in its enclosure was taken in 1933, by naturalist David Fleay.
+- [W14.230] In the film footage, the thylacine is seen seated, walking around the perimeter of its enclosure, yawning, sniffing the air, scratching itself, and lying down.
+- [W14.231] Fleay was bitten on the buttock whilst shooting the film.
+- [W14.232] In 2021, a digitally colourised clip of Fleay's footage of the thylacine was released by the National Film and Sound Archive of Australia, to mark National Threatened Species Day.
+- [W14.233] The digital colourisation process was based on historic primary and secondary descriptions to ensure an accurate colour match.
+- [W14.234] The last known footage of this individual, and of the species, was filmed in 1935 by Sidney Cook for the promotional film Tasmania the Wonderland.
+- [W14.235] Searches and unconfirmed sightings
+- [W14.236] Thylacines are regarded as extinct by the scientific community, but when the species became extinct is unclear.
+- [W14.237] Some researchers have hypothesised that the species had already become extinct in the wild prior to the death of the last captive individual.
+- [W14.238] Alternatively, it is possible that one or more small populations survived for several years afterwards in western Tasmania.
+- [W14.239] Modelling based on reliable records indicates extinction during the 1930s or 1940s, although unconfirmed sightings of the species have led a minority of researchers to suggest it survived for several decades longer than that.
+- [W14.240] A 2023 study published by Barry Brook and coauthors compiles many of the alleged sightings of thylacines in Tasmania throughout the 20th century and claims that the species may have had a window of extinction between the 1980s and the present day, with the likely extinction date being between the late 1990s and early 2000s.
+- [W14.241] This study has been criticised by conservationist Nick Mooney for using an unreliable dataset.
+- [W14.242] More money and search effort has been dedicated to rediscovering the thylacine than any other mammal.
+- [W14.243] Extensive surveys were carried out in 1937 and 1938 due to concerns about the species' increasing rarity, which did not directly observe any thylacines but found potential traces such as tracks in multiple locations.
+- [W14.244] Subsequent analysis based on plaster casts of some of these tracks indicates that they were most likely produced by thylacines, but that it is not possible to identify them definitively.
+- [W14.245] David Fleay, who had previously filmed the last captive thylacine, collected alleged thylacine hair in 1945.
+- [W14.246] Additional trackways were reported throughout the 1950s and 1960s.
+- [W14.247] Between 1967 and 1973, zoologist Jeremy Griffith and dairy farmer James Malley conducted what is regarded as the most intensive search for thylacines ever carried out, including exhaustive surveys along Tasmania's west coast, installation of automatic camera stations, prompt investigations of claimed sightings, and in 1972 the creation of the Thylacine Expeditionary Research Team with Dr.
+- [W14.248] Bob Brown, which concluded without finding any evidence of the thylacine's existence.
+- [W14.249] A 1982 sighting of a thylacine reported by Tasmanian park ranger Hans Naarding prompted an extensive two year-long search, which was kept confidential at the time, and which found no evidence of surviving thylacines.
+- [W14.250] In 1983, the American media mogul Ted Turner offered a $100,000 reward for proof of the continued existence of the thylacine.
+- [W14.251] In March 2005, Australian news magazine The Bulletin, as part of its 125th anniversary celebrations, offered a $1.25 million reward for the safe capture of a live thylacine.
+- [W14.252] When the offer closed at the end of June 2005, no one had produced any evidence of the animal's existence.
+- [W14.253] An offer of $1.75 million has subsequently been offered by a Tasmanian tour operator, Stewart Malcolm.Since the extinction of the thylacine, speculation and searches for a living population in Tasmania or the Australian mainland have become a topic of interest to some members of the pseudoscientific cryptozoology subculture.
+- [W14.254] The search for the animal has been the subject of books and articles, with many reported sightings that are largely regarded as dubious.
+- [W14.255] On the mainland, sightings are most frequently reported in southern Victoria.
+- [W14.256] According to the Department of Primary Industries, Parks, Water and Environment, there have been eight unconfirmed thylacine sighting reports between 2016 and 2019, with the latest unconfirmed visual sighting on 25 February 2018.
+- [W14.257] Research into thylacines relies heavily on specimens held in museums and other institutions across the world.
+- [W14.258] The number and distribution of these specimens has been recorded in the International Thylacine Specimen Database.
+- [W14.259] As of 2022, 756 specimens are held in 115 museums and university collections in 23 countries.
+- [W14.260] In 2017, a reference library of 159 micrographic images of thylacine hair was jointly produced by CSIRO and Where Light Meets Dark.
+- [W14.261] The Australian Museum in Sydney began a cloning project in 1999.
+- [W14.262] The goal was to use genetic material from specimens taken and preserved in the early 20th century to clone new individuals and restore the species from extinction.
+- [W14.263] Several molecular biologists dismissed the project as a public relations stunt.
+- [W14.264] In late 2002, the researchers had some success as they were able to extract replicable DNA from the specimens.
+- [W14.265] On 15 February 2005, the museum announced that it was stopping the project.
+- [W14.266] In May 2005, the project was restarted by a group of interested universities and a research institute.
+- [W14.267] In August 2022, it was announced that the University of Melbourne would partner with Texas-based biotechnology company Colossal Biosciences to attempt to re-create the thylacine using its closest living relative, the fat-tailed dunnart, and return it to Tasmania.
+- [W14.268] The university had recently sequenced the genome of a juvenile thylacine specimen and was establishing a thylacine genetic restoration laboratory.
+- [W14.269] The research from the University of Melbourne was led by Andrew Pask.
+- [W14.270] The project was regarded with scepticism by other, uninvolved scientists.
+- [W14.271] A draft whole genome sequencing of the thylacine was produced by Feigin et al.
+- [W14.272] (2017) using the DNA extracted from an ethanol-preserved pouch of a young specimen provided by Museums Victoria.
+- [W14.273] The neonatal development of the thylacine was also reconstructed from preserved pouch young specimens from several museum collections.
+- [W14.274] Researchers used the genome to study aspects of the thylacine's evolution and natural history, including the genetic basis of its convergence with canids, clarifying its evolutionary relationships with other marsupials and examining changes in its population size over time.
+- [W14.275] The genomic basis of the convergent evolution between the thylacine and grey wolf was further investigated in 2019, with researchers identifying many non-coding genomic regions displaying accelerated rates of evolution, a test for genetic regions evolving under positive selection.
+- [W14.276] In 2021, researchers further identified a link between the convergent skull shapes of the thylacine and wolf, and the previously identified genetic candidates.
+- [W14.277] It was reported that specific groups of skull bones, which develop from a common population of stem cells called neural crest cells, showed strong similarity between the thylacine and wolf and corresponded with the underlying convergent genetic candidates which influence these cells during development.
+- [W14.278] In 2023, RNA was extracted from a 130-year-old thylacine specimen in Sweden; this represented the first time RNA has been extracted from an extinct species.
+- [W14.279] In October 2024, a 99.9% thylacine genome was sequenced from a well-preserved skull that is estimated to be 110 years old.
+- [W14.280] The thylacine has been used extensively as a symbol of Tasmania.
+- [W14.281] The animal is featured on the official Tasmanian coat of arms.
+- [W14.282] It is used in the official logos for the Tasmanian government and the City of Launceston.
+- [W14.283] It is also used on the University of Tasmania's ceremonial mace and the badge of the submarine HMAS Dechaineux.
+- [W14.284] Since 1998, it has been prominently displayed on Tasmanian vehicle number plates.
+- [W14.285] The thylacine has appeared in postage stamps from Australia, Equatorial Guinea, and Micronesia.
+- [W14.286] Since 1996, National Threatened Species Day has been commemorated annually in Australia on 7 September, the date on which the last known thylacine died in 1936.
+- [W14.287] Thylacines used as a symbolic representation of Tasmania, or of anthropogenic extinction and humanity's relationship with nature.
+- [W14.288] The best known illustrations of Thylacinus cynocephalus were those in John Gould's The Mammals of Australia (1845–1863), often copied since its publication and reproduced and given further exposure by Cascade Brewery's appropriation for its label in 1987.
+- [W14.289] The government of Tasmania published a monochromatic reproduction of the same image in 1934.
+- [W14.290] The thylacine is the mascot for the Tasmanian cricket team, the Tasmanian Tigers.
+- [W14.291] The species is widely used in promotion and marketing within the Tasmanian ecotourism industry, which often capitalise on rumours of its survival.
+- [W14.292] Australian writer Julia Leigh's 1999 novel The Hunter and its 2011 film adaptation focus on conflict between a fictional biotechnology company, environmentalists and loggers involving the fate of the last living thylacine, which is to be killed to collect its genetic material.
+- [W14.293] The thylacine in the story has been described as representative of mankind's destructive and monetarily-driven relationship with the natural world, and of cultural views about extinction.
+- [W14.294] The film adaptation utilises stock footage of the last known real thylacine for visuals.
+- [W14.295] The Australian video game franchise Ty the Tasmanian Tiger features a stylised boomering-wielding thylacine as a protagonist.
+- [W14.296] Thylacines are otherwise rarely featured in games outside of background characters or side content, and writer Daisy Ahlstone has stated that Ty the Tasmanian Tiger is likely many younger non-Australian's introduction to the species.
+- [W14.297] Rock art featuring thylacine-like animals are found throughout Northern Australia, particularly in the Kimberley region.
+- [W14.298] One Nuenonne myth recorded by Jackson Cotton tells of a thylacine pup saving Palana, a spirit boy, from an attack by a giant kangaroo.
+- [W14.299] Palana marked the pup's back with ochre as a mark of its bravery, giving thylacines their stripes.
+- [W14.300] A constellation, "Wurrawana Corinna" (identified as within or near Gemini), was also created as a commemoration of this mythic act of bravery.
+- [W14.301] An early European record tells how Aboriginals believed bad weather was caused by a thylacine carcass being left exposed on the ground, instead of being covered by a small shelter.
+- [W14.302] List of extinct animals of Australia
+- [W14.303] Thylacine: the Tragic Tale of the Tasmanian Tiger.
+- [W14.304] The Last Tasmanian Tiger: the History and Extinction of the Thylacine.
+- [W14.305] Cambridge University Press.
+- [W14.306] Shadow of the Thylacine: One Man's Epic Search for the Tasmanian Tiger.
+- [W14.307] Scoresby, Vic.: Five Mile Press.
+- [W14.308] Paper Tiger: A Visual History of the Thylacine.
+- [W14.309] Thylacine: The Tragedy of the Tasmanian Tiger.
+- [W14.310] Melbourne: Oxford University Press.
+- [W14.311] ——; Godard, Philippe; Maguire, David (1998).
+- [W14.312] Tasmanian Tiger: A Lesson to be Learnt.
+- [W14.313] Perth, W.A: Abrolhos Publishing.
+- [W14.314] "Breeding Season of the Thylacine".
+- [W14.315] 42 (3): 396–397. doi:10.2307/1377040.
+- [W14.316] "The former distribution and decline of the Thylacine".
+- [W14.317] Australian Journal of Science.
+- [W14.318] Thylacine: Confirming Tasmanian Tigers Still Live.
+- [W14.319] Chicago: Vivid Publishing.
+- [W14.320] Thylacine: The History, Ecology and Loss of the Tasmanian Tiger.
+- [W14.321] Ringwood, Australia: Penguin Books Australia.
+- [W14.322] "Existing Tasmanian marsupials".
+- [W14.323] Papers and Proceedings of the Royal Society of Tasmania.
+- [W14.324] Royal Society of Tasmania: 17–24. doi:10.26749/GTOS1305.
+- [W14.325] Lowry, David C.; Lowry, Jacoba W.
+- [W14.326] "Discovery of a Thylacine (Tasmanian Tiger) Carcase In a Cave Near Eucla, Western Australia".
+- [W14.327] Westarp-Wissenschaften, Magdeburg 1997, ISBN 3-89432-869-X (Die Neue Brehm-Bücherei, Band 642).
+- [W14.328] Australian Mammal Society Bulletin.
+- [W14.329] S., Sleightholme; N., Ayliffe (2005).
+- [W14.330] International Thylacine Specimen Database (CD-ROM) (Master Copy ed.).
+- [W14.331] London: Zoological Society.
+- [W14.332] The Tasmanian Tiger – 1980.
+- [W14.333] A report on an investigation of the current status of thylacine Thylacinus cynocephalus, funded by the World Wildlife Fund Australia.
+- [W14.334] Wildlife Division technical report.
+- [W14.335] Hobart, Tasmania: National Parks and Wildlife Service.
+- [W14.336] The Thylacine Project Archived 26 February 2023 at the Wayback Machine at the University of New South Wales
+- [W14.337] The Thylacine at the Australian Museum
+- [W14.338] The Thylacine Museum at Natural Worlds
+- [W14.339] Tasmanian tiger: newly released footage.
+
+## [W15] Wikipedia: Pangolin
+https://en.wikipedia.org/w/index.php?title=Pangolin&oldid=1381338503 · CC BY-SA 4.0 · usage: ai_input
+
+- [W15.1] Pangolins, also called scaly anteaters, are mammals of the order Pholidota ().
+- [W15.2] The one extant family, the Manidae, has three genera: Manis, Phataginus, and Smutsia.
+- [W15.3] Manis comprises five species found in Asia, while Phataginus and Smutsia include two species each, all found in sub-Saharan Africa.
+- [W15.4] These species range in size from 30 to 100 cm (12 to 39 in).
+- [W15.5] Several extinct pangolin species are also known.
+- [W15.6] In September 2023, a ninth species was reported, although it is only known from confiscated scales and has never been observed in the wild.
+- [W15.7] Pangolins have large, protective keratin scales, covering their skin.
+- [W15.8] Depending on the species, they live in hollow trees or burrows.
+- [W15.9] Pangolins are nocturnal, and their diet consists of mainly ants and termites, which they capture using their long tongues.
+- [W15.10] They tend to be solitary animals, meeting only to mate and produce a litter of one to three offspring, which they raise for about two years.
+- [W15.11] Pangolins are threatened by poaching (for their meat and scales, which are used in traditional medicine) and heavy deforestation of their natural habitats, and are also the most trafficked mammals in the world.
+- [W15.12] As of January 2020, there are eight species of pangolin whose conservation status is listed in the threatened tier.
+- [W15.13] Three (Manis culionensis, M. pentadactyla and M. javanica) are critically endangered, three (Phataginus tricuspis, Manis crassicaudata and Smutsia gigantea) are endangered and two (Phataginus tetradactyla and Smutsia temminckii) are vulnerable on the Red List of Threatened Species of the International Union for Conservation of Nature.
+- [W15.14] The name of order Pholidota comes from Ancient Greek Φολιδωτός – "clad in scales" from φολίς pholís "scale".
+- [W15.15] The name "pangolin" comes from the Malay word pengguling meaning "one who rolls up" from guling or giling "to roll"; it was used for the Sunda pangolin (Manis javanica).
+- [W15.16] However, the modern name is tenggiling.
+- [W15.17] In Javanese,  it is terenggiling; and in the Philippine languages, it is goling, tanggiling, or balintong (with the same meaning).
+- [W15.18] In ancient India, according to Aelian, it was known as the phattáges (φαττάγης).
+- [W15.19] The physical appearance of a pangolin is marked by large, hardened, overlapping, plate-like scales, which are soft on newborn pangolins, but harden as the animal matures.
+- [W15.20] They are made of keratin, the same material from which human fingernails and tetrapod claws are made, and are structurally and compositionally very different from the scales of reptiles.
+- [W15.21] The pangolin's scaled body is comparable in appearance to a pine cone.
+- [W15.22] It can curl up into a ball when threatened, with its overlapping scales acting as armor, while it protects its face by tucking it under its tail.
+- [W15.23] The scales are sharp, providing extra defense from predators.
+- [W15.24] Despite their appearance, they are not closely related to armadillos, having both evolved scales by convergent evolution.
+- [W15.25] Pangolins can emit a noxious-smelling chemical from glands near the anus, similar to the spray of a skunk.
+- [W15.26] They have short legs, with sharp claws which they use for burrowing into ant and termite mounds and for climbing.
+- [W15.27] The tongues of pangolins are extremely long, and like those of the giant anteater and the tube-lipped nectar bat, the root of the tongue is not attached to the hyoid bone but is in the thorax between the sternum and the trachea.
+- [W15.28] Large pangolins can extend their tongues as much as 40 cm (16 in), with a diameter of only about 0.5 cm (1⁄5 in).
+- [W15.29] Most pangolins are nocturnal animals which use their well-developed sense of smell to find insects.
+- [W15.30] The long-tailed pangolin is also active by day, while other species of pangolins spend most of the daytime sleeping, curled up into a ball ("volvation").
+- [W15.31] Arboreal pangolins live in hollow trees, whereas the ground-dwelling species dig tunnels to a depth of 3.5 m (11 ft).
+- [W15.32] Some pangolins walk with their front claws bent under the foot pad, although they use the entire foot pad on their rear limbs.
+- [W15.33] Furthermore, some exhibit a bipedal stance for some behavior, and may walk a few steps bipedally.
+- [W15.34] Pangolins are also good swimmers.
+- [W15.35] Pangolins are insectivorous.
+- [W15.36] Most of their diet consists of various species of ants and termites and may be supplemented by other insects, especially larvae.
+- [W15.37] They are somewhat particular and tend to consume only one or two species of insects, even when many species are available.
+- [W15.38] A pangolin can consume 140–200 g (5–7 oz) of insects per day.
+- [W15.39] Pangolins are an important regulator of termite populations in their natural habitats.
+- [W15.40] Pangolins have very poor vision.
+- [W15.41] They rely heavily on smell and hearing, and they have other physical characteristics to help them eat ants and termites.
+- [W15.42] Their skeletal structure is sturdy and they have strong front legs used for tearing into termite mounds.
+- [W15.43] They use their powerful front claws to dig into trees, soil, and vegetation to find prey, then proceed to use their long tongues to probe inside the insect tunnels and to retrieve their prey.
+- [W15.44] The structure of their tongue and stomach is key to aiding pangolins in obtaining and digesting insects.
+- [W15.45] Their saliva is sticky, causing ants and termites to stick to their long tongues when they are hunting through insect tunnels.
+- [W15.46] However, without teeth, pangolins cannot chew; so while foraging, they ingest small stones (gastroliths), which accumulate in their stomachs to help to grind up ants.
+- [W15.47] This part of their stomach is called the gizzard, and it is also covered in keratinous spines.
+- [W15.48] These spines further aid in the grinding up and digestion of the pangolin's prey.
+- [W15.49] Some species, such as the tree pangolin, use their strong, prehensile tails to hang from tree branches and strip away bark from the trunk, exposing insect nests inside.
+- [W15.50] Pangolins are solitary and meet only to reproduce, with mating typically taking place at night after the male and female pangolin meet near a watering hole.
+- [W15.51] Males are larger than females, weighing up to 40% more.
+- [W15.52] While the mating season is not defined, they typically mate once each year, usually during the summer or autumn.
+- [W15.53] Rather than the males seeking out the females, males mark their location with urine or feces and the females find them.
+- [W15.54] If competition over a female occurs, the males use their tails as clubs to fight for the opportunity to mate with her.
+- [W15.55] Gestation periods differ by species, ranging from roughly 70 to 140 days.
+- [W15.56] African pangolin females usually give birth to a single offspring at a time, but the Asiatic species may give birth to from one to three.
+- [W15.57] Weight at birth is 80 to 450 g (2+3⁄4 to 15+3⁄4 oz), and the average length is 150 mm (6 in).
+- [W15.58] At the time of birth, the scales are soft and white.
+- [W15.59] After several days, they harden and darken to resemble those of an adult pangolin.
+- [W15.60] During the vulnerable stage, the mother stays with her offspring in the burrow, nursing it, and wraps her body around it if she senses danger.
+- [W15.61] The young cling to the mother's tail as she moves about, although, in burrowing species, they remain in the burrow for the first two to four weeks of life.
+- [W15.62] At one month, they first leave the burrow riding on the mother's back.
+- [W15.63] Weaning takes place around three months of age, when the young begin to eat insects in addition to nursing.
+- [W15.64] At two years of age, the offspring are sexually mature and are abandoned by the mother.
+- [W15.65] Classification and phylogeny
+- [W15.66] The order Pholidota was long considered to be the sister taxon to Xenarthra (neotropical anteaters, sloths, and armadillos), but recent genetic evidence indicates their closest living relatives are the carnivorans, with which they form a clade, the Ferae.
+- [W15.67] Palaeanodonts are even closer relatives to pangolins, being classified with pangolins in the clade Pholidotamorpha.
+- [W15.68] The split between carnivoran and pangolin lineages is estimated to have occurred 75.31 Ma (million years) ago.
+- [W15.69] The first dichotomy in the phylogeny of extant Manidae separates Asian pangolins (Manis) from African pangolins (Smutsia and Phataginus).
+- [W15.70] Within the former, Manis pentadactyla is the sister group to a clade comprising M. crassicaudata and M. javanica.
+- [W15.71] Within the latter, a split separates the large terrestrial African pangolins of the genus Smutsia from the small arboreal African pangolins of the genus Phataginus.
+- [W15.72] Asian and African pangolins are thought to have diverged about 38.05 Ma ago.
+- [W15.73] Moreover, the basal position of Manis within Pholidota suggests the group originated in Eurasia, consistent with their laurasiatherian phylogeny.
+- [W15.74] Pangolins are in high demand in southern China and Vietnam because their scales are believed to have medicinal properties in traditional Chinese and Vietnamese medicine.
+- [W15.75] Their meat is also considered a delicacy.
+- [W15.76] 100,000 are estimated to be trafficked a year to China and Vietnam, amounting to over one million over the past decade.
+- [W15.77] This makes them the most trafficked animal in the world.
+- [W15.78] This, coupled with deforestation, has led to a large decrease in the numbers of pangolins.
+- [W15.79] Some species, such as Manis pentadactyla have become commercially extinct in certain ranges as a result of overhunting.
+- [W15.80] In November 2010, pangolins were added to the Zoological Society of London's list of evolutionarily distinct and endangered mammals.
+- [W15.81] All eight species of pangolin are assessed as threatened by the IUCN, while three are classified as critically endangered.
+- [W15.82] All pangolin species are currently listed under Appendix I of CITES which prohibits international trade, except when the product is intended for non-commercial purposes and a permit has been granted.
+- [W15.83] China had been the main destination country for pangolins until 2018, where it was surpassed by Vietnam.
+- [W15.84] In 2019, Vietnam was reported to have seized the largest volumes of pangolin scales, surpassing Nigeria that year.
+- [W15.85] Pangolins are also hunted and eaten in Ghana and are one of the more popular types of bushmeat, while local healers use the pangolin as a source of traditional medicine.
+- [W15.86] A 2025 study in Nature Ecology & Evolution found that opportunistic hunting for meat, rather than hunting for scales used in traditional medicine, is the primary driver of pangolin population declines in Nigeria.
+- [W15.87] Though pangolins are protected by an international ban on their trade, populations have suffered from illegal trafficking due to beliefs in East Asia that their ground-up scales can stimulate lactation or cure cancer or asthma.
+- [W15.88] In the past decade, numerous seizures of illegally trafficked pangolin and pangolin meat have taken place in Asia.
+- [W15.89] In one such incident in April 2013, 10,000 kg (22,000 pounds) of pangolin meat were seized from a Chinese vessel that ran aground in the Philippines.
+- [W15.90] In another case in August 2016, an Indonesian man was arrested after police raided his home and found over 650 pangolins in freezers on his property.
+- [W15.91] The same threat is reported in Nigeria, where the animal is on the verge of extinction due to overexploitation.
+- [W15.92] The overexploitation comes from hunting pangolins for game meat and the reduction of their forest habitats due to deforestation caused by timber harvesting.
+- [W15.93] The pangolin are hunted as game meat for both medicinal purposes and food consumption.
+- [W15.94] The nucleic acid sequence of a specific receptor-binding domain of the spike protein belonging to coronaviruses taken from pangolins was found to be a 99% match with SARS coronavirus 2 (SARS-CoV-2), the virus which causes COVID-19 and is responsible for the COVID-19 pandemic.
+- [W15.95] Researchers in Guangzhou, China, hypothesized that SARS-CoV-2 had originated in bats, and prior to infecting humans, was circulating among pangolins.
+- [W15.96] The illicit Chinese trade of pangolins for use in traditional Chinese medicine was suggested as a vector for human transmission.
+- [W15.97] However, whole-genome comparison found that the pangolin and human coronaviruses share only up to 92% of their RNA.
+- [W15.98] Ecologists worried that the early speculation about pangolins being the source may have led to mass slaughters, endangering them further, which was similar to what happened to Asian palm civets during the SARS outbreak.
+- [W15.99] It was later proved that the testing which suggested that pangolins were a potential host for the virus was flawed, when genetic analysis showed that the spike protein and its binding to receptors in pangolins had minimal effect from the virus, and therefore were not likely mechanisms for COVID-19 infections in humans.
+- [W15.100] In 2020, two novel RNA viruses distantly related to pestiviruses and coltiviruses have been detected in the genomes of dead Manis javanica and Manis pentadactyla.
+- [W15.101] To refer to both sampling site and hosts, they were named Dongyang pangolin virus (DYPV) and Lishui pangolin virus (LSPV).
+- [W15.102] The DYPV pestivirus was also identified in Amblyomma javanense nymph ticks from a diseased pangolin.
+- [W15.103] In addition to pestiviruses and coltiviruses, genomic surveys of healthy pangolins have revealed the presence of multiple potentially zoonotic viruses, including coronaviruses, flaviviruses, and circoviruses, indicating that pangolins naturally harbor diverse viral communities without showing disease symptoms.
+- [W15.104] Pangolin scales and flesh are used as ingredients for various traditional Chinese medicine preparations.
+- [W15.105] While no scientific evidence exists for the efficacy of those practices, and they have no logical mechanism of action, their popularity still drives the black market for animal body parts, despite concerns about toxicity, transmission of diseases from animals to humans, and species extermination.
+- [W15.106] The ongoing demand for parts as ingredients continues to fuel pangolin poaching, hunting and trading.
+- [W15.107] The first record of pangolin scales occurs in Ben Cao Jinji Zhu ("Variorum of Shennong's Classic of Materia Medica", 500 CE), which recommends pangolin scales for protection against ant bites; burning the scales as a cure for people crying hysterically during the night.
+- [W15.108] During the Tang dynasty, a recipe for expelling evil spirits with a formulation of scales, herbs, and minerals appeared in 682, and in 752 CE the idea that pangolin scales could also stimulate milk secretion in lactating women, one of the main uses today, was recommended in the Wai Tai Mi Yao ("Arcane Essentials from the Imperial Library").
+- [W15.109] In the Song dynasty, the notion of penetrating and clearing blockages was emphasized in the Taiping sheng hui fan  ("Formulas from Benevolent Sages Compiled During the Era of Peace and Tranquility"), compiled by Wang Huaiyin in 992.
+- [W15.110] In the 21st century, the main uses of pangolin scales are quackery practices based on unproven claims the scales dissolve blood clots, promote blood circulation, or help lactating women secrete milk.
+- [W15.111] The supposed health effects of pangolin meat and scales claimed by folk medicine practitioners are based on their consumption of ants, long tongues, and protective scales.
+- [W15.112] The Pharmacopoeia of the People's Republic of China included Chinese pangolin scales as an ingredient in traditional Chinese medicine formulations.
+- [W15.113] Pangolins were removed from the Pharmacopoeia starting from the first half of 2020.
+- [W15.114] Although pangolin scales have been removed from the list of raw ingredients, the scales are still listed as a key ingredient in various medicines.
+- [W15.115] Pangolin parts are also used for medicinal purposes in other Asian countries such as India, Nepal and Pakistan.
+- [W15.116] In some parts of India and Nepal, locals believe that wearing the scales of a pangolin can help prevent pneumonia.
+- [W15.117] Pangolin scales have also been used for medicinal purposes in Malaysia, Indonesia and northern Myanmar.
+- [W15.118] Indigenous people in southern Palawan, Philippines, have held the belief that elders could avoid prostate illnesses by wearing belts made with the scales.
+- [W15.119] As a result of increasing threats to pangolins, mainly in the form of illegal, international trade in pangolin skin, scales, and meat, these species have received increasing conservation attention in recent years.
+- [W15.120] As of January 2020, the IUCN considered all eight species of pangolin on its Red List of Threatened Species as threatened.
+- [W15.121] The IUCN SSC Pangolin Specialist Group launched a global action plan to conserve pangolins, dubbed "Scaling up Pangolin Conservation", in July 2014.
+- [W15.122] This action plan aims to improve all aspects of pangolin conservation with an added emphasis on combating poaching and trafficking of the animal while educating communities on its importance.
+- [W15.123] Another suggested approach to fighting pangolin (and general wildlife) trafficking consists in "following the money" rather than "the animal", which aims to disrupt smugglers' profits by interrupting money flows.
+- [W15.124] Financial intelligence gathering could thus become a key tool in protecting these animals, although this opportunity is often overlooked.
+- [W15.125] In 2018, a Chinese NGO launched the Counting Pangolins movement, calling for joint efforts to save the mammals from trafficking.
+- [W15.126] Wildlife conservation group TRAFFIC has identified 159 smuggling routes used by pangolin traffickers and aims to shut these down.
+- [W15.127] Many attempts have been made to breed pangolins in captivity, but due to their reliance on wide-ranging habitats and very particular diets, these attempts are often unsuccessful.
+- [W15.128] Pangolins have significantly decreased immune responses due to a genetic dysfunction, making them extremely fragile.
+- [W15.129] They are susceptible to diseases such as pneumonia and the development of ulcers in captivity, complications that can lead to an early death.
+- [W15.130] In addition, pangolins rescued from illegal trade often have a higher chance of being infected with parasites such as intestinal worms, further lessening their chance for rehabilitation and reintroduction to the wild.
+- [W15.131] The idea of farming pangolins to reduce the number being illegally trafficked is being explored with little success.
+- [W15.132] The third Saturday in February is promoted as World Pangolin Day by the conservation NPO Annamiticus.
+- [W15.133] World Pangolin Day has been noted for its effectiveness in generating awareness about pangolins.
+- [W15.134] In 2017, Jackie Chan made a public service announcement called WildAid: Jackie Chan & Pangolins (Kung Fu Pangolin).
+- [W15.135] In December 2020, a study found that it is "not too late" to establish conservation efforts for Philippine pangolins (Manis culionensis), a species that is only found on the island province of Palawan.
+- [W15.136] Taiwan is one of the few conservation grounds for pangolins in the world after the country enacted the 1989 Wildlife Conservation Act.
+- [W15.137] The introduction of Wildlife Rehabilitation Centers in places like Luanshan (Yanping Township) in Taitung and Xiulin townships in Hualien became important communities for protecting pangolins and their habitats and has greatly improved the survival of pangolins.
+- [W15.138] These centers work with local aboriginal tribes and forest police in the National Police Agency to prevent poaching, trafficking, and smuggling of pangolins, especially to black markets in China.
+- [W15.139] These centers have also helped to reveal the causes of death and injury among Taiwan's pangolin population.
+- [W15.140] Today, Taiwan has the highest population density of pangolins in the world.
+- [W15.141] Pangolin: Wildlife summary from the African Wildlife Foundation
+- [W15.142] Tree of Life of Pholidota Archived 29 April 2021 at the Wayback Machine
+- [W15.143] National Geographic video of a pangolin Archived 23 October 2018 at the Wayback Machine
+- [W15.144] Proceedings of the Workshop on Trade and Conservation of Pangolins Native to South and Southeast Asia (PDF)
+- [W15.145] The Phylogeny of Living and Extinct Pangolins (Mammalia, Pholidota) and Associated Taxa: A Morphology Based Analysis Archived 25 September 2015 at the Wayback Machine (PDF)
+- [W15.146] Bromley, Victoria (Director/Producer), Young, Nora (Narrator/Host), Diekmann, Maria (2018).
+- [W15.147] Nature: The World's Most Wanted Animal.
+- [W15.148] Coronavirus: Revenge of the Pangolins?
+- [W15.149] The New York Times, 6 March 2020.
+
+## [W16] Wikipedia: African wildcat
+https://en.wikipedia.org/w/index.php?title=African_wildcat&oldid=1370904147 · CC BY-SA 4.0 · usage: ai_input
+
+- [W16.1] The African wildcat (Felis lybica) is a small wildcat species with sandy grey fur, pale vertical stripes on the sides and around the face.
+- [W16.2] It is native to Africa, West and Central Asia, and is distributed to Rajasthan in India and Xinjiang in China.
+- [W16.3] It inhabits a broad variety of landscapes ranging from deserts to savannas, shrublands and grasslands.
+- [W16.4] The African wildcat is the ancestor of the domestic cat (F. catus).
+- [W16.5] Some African wildcats were domesticated about 10,000 years ago in the Near East.
+- [W16.6] Interspecific hybrids between both species are common where their ranges overlap.
+- [W16.7] Felis lybica was the scientific name proposed in 1780 by Georg Forster who based his description on a specimen from Gafsa on the Barbary Coast that had the size of a domestic cat, but a reddish fur, short black tufts on the ears, and a ringed tail.
+- [W16.8] Between the late 18th and 20th centuries, several naturalists and curators of natural history museums described and proposed new names for wildcat holotypes from Africa and the Near East, including:
+- [W16.9] Felis ocreata by Johann Friedrich Gmelin in 1791 was based on a description of a wildcat encountered in northern Ethiopia by James Bruce.
+- [W16.10] Felis cafra by Anselme Gaëtan Desmarest in 1822 was based on two wildcat skins from South Africa's Eastern Cape.
+- [W16.11] Felis ocreata mellandi by Harold Schwann in 1904 was based on two wildcat skins from northeastern Rhodesia in the collection of the Natural History Museum, London.
+- [W16.12] Felis ocreata rubida also by Schwann in 1904 was a skull and a fulvous skin of a male wildcat from Belgian Congo.
+- [W16.13] Felis ocreata ugandae also by Schwann in 1904 was a skull and a yellowish-grey skin of a male wildcat from Uganda.
+- [W16.14] Felis ocreata mauritana by Ángel Cabrera in 1906 was a wildcat skin from the Mogador area in Morocco.
+- [W16.15] Felis ocreata taitae by Edmund Heller in 1913 was a skull and a light-coloured skin of a female wildcat from Voi in southeastern Kenya.
+- [W16.16] Felis ocreata iraki by Robert Ernest Cheesman in 1920 was a dove grey wildcat skin with salmon buff shading from Kuwait and another similar coloured specimen from the Tigris River.
+- [W16.17] Felis haussa by Oldfield Thomas and Martin Hinton in 1921 was a skull and a sandy-coloured skin of a male wildcat from the Aïr Mountains south of Zinder.
+- [W16.18] Felis ocreata griselda and F. o. namaquana by Oldfield Thomas in 1926 was a pale wildcat skin from south of Benguela in Angola and another pale wildcat skin from Namaqualand in Namibia.
+- [W16.19] Felis lybica pyrrhus by Reginald Innes Pocock in 1944 was a series of ten greyish brown wildcat skins from Benguela.
+- [W16.20] Felis lybica tristrami also by Pocock in 1944 was a pale buffy white skin of an adult female wildcat from the Palestinian Moab area.
+- [W16.21] Felis lybica lowei, F. l. lynesi, F. l. foxi and F. l. brockmani also by Pocock in 1944 was a pale skin of an adult female wildcat from Marrah Mountains in the Darfur desert, a very pale skin of a male wildcat from north of Al-Fashir in Darfur, a dark skin of a male wildcat from Bauchi State in northern Nigeria, and a pale brown skin of a young adult male wildcat from the Golis Mountains in northern Somalia, respectively.
+- [W16.22] Felis silvestris gordoni by David Harrison in 1968 was a skull and a very pale grey brown striped skin of a female wildcat from west of Sohar in Oman.
+- [W16.23] Since 2017, three African wildcat subspecies are recognised as valid taxa:
+- [W16.24] F. l. lybica, the nominate subspecies in North Africa and Sinai to Sudan
+- [W16.25] Southern African wildcat (F. l. cafra) in Southern Africa
+- [W16.26] Asiatic wildcat (F. l. ornata) in Asia
+- [W16.27] Phylogenetic analysis of the nuclear DNA in tissue samples from all Felidae species revealed that the evolutionary radiation of the Felidae began in Asia in the Miocene around 14.45 to 8.38 million years ago.
+- [W16.28] Analysis of mitochondrial DNA of all Felidae species indicates a radiation at around 16.76 to 6.46 million years ago.
+- [W16.29] The African wildcat is part of an evolutionary lineage that is estimated to have genetically diverged from the common ancestor of the Felis species around 2.16 to 0.89 million years ago, based on analysis of their nuclear DNA.
+- [W16.30] Analysis of their mitochondrial DNA indicates a genetic divergence from Felis at around 4.21 to 0.02 million years ago.
+- [W16.31] Both models agree in the jungle cat (F. chaus) having been the first Felis species that diverged, followed by the black-footed cat (F. nigripes), the sand cat (F. margarita) and then the African wildcat.
+- [W16.32] The Asian and European wildcats descend from Felis lunensis, which inhabited Europe during the Pliocene and Pleistocene.
+- [W16.33] Wildcat fossils are only found in Europe until the late Pleistocene, when an early form of the steppe-type wildcat appears to have diverged from the European population and quickly expanded into the Middle East, followed shortly after by secondary expansions into Southern Asia and the Middle East.
+- [W16.34] Based on a mitochondrial DNA study of 979 domestic and wildcats from Europe, Asia, and Africa, the African wildcat is thought to have split off from the European wildcat about 173,000 years ago, with the North African/Near Eastern wildcat splitting from the Asiatic wildcat and the Southern African wildcat about 131,000 years ago.
+- [W16.35] About 10,000 years ago, some African wildcats were tamed in the Fertile Crescent, becoming the ancestors of the domestic cat.
+- [W16.36] Domestic cats are derived from at least five "Mitochondrial Eves".
+- [W16.37] African wildcats were also domesticated in ancient Egypt.
+- [W16.38] The Egyptian domestic cat lineage started spreading in the Mediterranean Basin from the 8th century BCE onwards and arrived on the Baltic Sea coast by the 5th century CE.
+- [W16.39] In Cyprus, an African wildcat was found in a burial site next to a human skeleton in the Pre-Pottery Neolithic B settlement Shillourokambos.
+- [W16.40] The graves are estimated to have been established by Neolithic farmers about 9,500 years ago, and are the earliest known evidence for a close association between a cat and a human.
+- [W16.41] Their proximity indicates that the cat may have been tamed or domesticated.
+- [W16.42] Results of genetic research indicate that the African wildcat genetically diverged into three clades about 173,000 years ago, namely the Near Eastern wildcat, Southern African wildcat and Asiatic wildcat.
+- [W16.43] African wildcats were first domesticated about 10,000 years ago in the Near East, and are the ancestors of the domestic cat (F. catus).
+- [W16.44] Molecular analysis of 87 cat samples from southern Europe revealed that specimens from Sardinia form a genetic cluster with African wildcat samples from northwestern Africa; the oldest cat in this cluster is dated about 2200 years ago and was found at an archaeological site near Genoni.
+- [W16.45] Domestic cats and African wildcats remain closely related in the present day; interspecific hybrids between domestic cat and African wildcats are common, and occur where their ranges overlap.
+- [W16.46] The fur of the African wildcat is light sandy grey, and sometimes with a pale yellow or reddish hue, but almost whitish on the belly and on the throat.
+- [W16.47] The ears have small tufts, are reddish to grey, with long light yellow hairs around the pinna.
+- [W16.48] The stripes around the face are dark ochre to black: two run horizontally on the cheek from the outer corner of the eye to the jaw, a smaller one from the inner corner of the eye to the rhinarium, and four to six across the throat.
+- [W16.49] Two dark rings encircle the forelegs, and hind legs are striped.
+- [W16.50] A dark stripe runs along the back, the flanks are lighter.
+- [W16.51] Pale vertical stripes on the sides often dissolve into spots.
+- [W16.52] Its tail has two to three rings towards the end with a black tip.
+- [W16.53] Its feet are dark brown to black below.
+- [W16.54] Skins of male African wildcats from Northern Africa measure 47–59.7 cm (18.5–23.5 in) in head-to-body length with a 26.7–36.8 cm (10.5–14.5 in) long tail.
+- [W16.55] Skins of female wildcats measure 40.6–55.8 cm (16.0–22.0 in) with a 24.1–33.7 cm (9.5–13.3 in) long tail.
+- [W16.56] Male wildcats from Yemen measure 46–57 cm (18–22 in) in head-to-body length with a 25–32 cm (9.8–12.6 in) long tail; females were slightly smaller measuring 50–51 cm (20–20 in) in head-to-body length with a 25–28 cm (9.8–11.0 in) long tail.
+- [W16.57] Both females and males range in weight from 3.2–4.5 kg (7.1–9.9 lb).
+- [W16.58] The African wildcat differs from the European wildcat by inconspicuous stripes on the nape and shoulders, a less sharply defined stripe across the spine and by the slender tail, which is cylindrical, less bushy and more tapering.
+- [W16.59] Ears are normally tipped with a small tuft.
+- [W16.60] Its fur is shorter than of the European wildcat, and it is considerably smaller.
+- [W16.61] The African wildcat occurs throughout Africa, as well as in the Middle East including parts of the Arabian Peninsula and most of Iran.
+- [W16.62] Its range extends northeast into Central Asia, where it occurs along the eastern shores of the Caspian Sea, and through Kazakhstan to as far east as Xinjiang.
+- [W16.63] It is also present in parts of India.
+- [W16.64] It tolerates a wide variety of habitats.
+- [W16.65] In deserts such as the Sahara, it occurs at much lower densities and is most common in areas with rugged terrain such as the Hoggar Mountains.
+- [W16.66] It ranges across the area north of the Sahara from Morocco to Egypt and inhabits the tropical and subtropical grasslands, savannas, and shrublands south of the Sahara from Mauritania to the Horn of Africa, including Somalia, Eritrea, Ethiopia, Djibouti and Sudan.
+- [W16.67] It inhabits every country of East and Southern Africa, although it is absent from the dense tropical rainforests of the Congo Basin.
+- [W16.68] The wild cat in Sardinia and Corsica was long considered to be an African wildcat subspecies with the scientific name Felis lybica sarda.
+- [W16.69] Results of zooarchaeological research indicate that it descended from domestic cats that were introduced probably at the beginning of the first millennium and originated in the Near East.
+- [W16.70] These populations are  feral today.
+- [W16.71] The wildcat on the island of Sicily is a European wildcat.
+- [W16.72] African wildcats are active mainly by night and search for prey.
+- [W16.73] Their hearing is so fine that they can locate prey precisely.
+- [W16.74] They approach prey by patiently crawling forward and using vegetation to hide.
+- [W16.75] They hunt primarily mice, rats, birds, reptiles, and insects.
+- [W16.76] When confronted, the African wildcat raises its hair to make itself seem larger in order to intimidate its opponent.
+- [W16.77] In the daytime it usually hides in the bushes, although it is sometimes active on dark, cloudy days.
+- [W16.78] The territory of a male overlaps with that of up to three females.
+- [W16.79] In West Africa, the African wildcat preys on rats, mice, gerbils, hares, small to medium-sized birds, including francolins, and lizards.
+- [W16.80] In Southern Africa, it also attacks antelope fawns and domestic stock, such as lambs and goat kids.
+- [W16.81] In Kgalagadi Transfrontier Park, it preys foremost on murids, to a lesser extent also on birds, small reptiles and invertebrates.
+- [W16.82] In northern Namibia, it also hunts Kirk's dik-dik of similar body mass.
+- [W16.83] The female's gestation period lasts between 56 and 60 days.
+- [W16.84] In Botswana, she gives birth mostly during the warm wet season to one to three kittens.
+- [W16.85] Litters of up to five kittens were also observed.
+- [W16.86] Her birthing den is a sheltered place like dense grass, a burrow or hollow tree.
+- [W16.87] The kittens open their eyes after about 10–14 days and are mobile at the age of one month.
+- [W16.88] At around three months of age, they start learning hunting techniques from their mother.
+- [W16.89] They leave the family and become independent at the age of around six months.
+- [W16.90] The African wildcat is included in CITES Appendix II.
+- [W16.91] Due to their physical similarity, hybridization produces less visible effects in Asian steppe-type wildcats than among European forest wildcats.
+- [W16.92] It can thus be difficult to distinguish "pure" Asian wildcats from free-living domestic cats when these inhabit the same locations, and it is possible that some Asian populations derive primarily from feral cats.
+- [W16.93] It has been discovered that a domestic cat can serve as a surrogate mother for wildcat embryos.
+- [W16.94] The numerous similarities between the two species mean that an embryo of an African wildcat may be carried and borne by a domestic cat.
+- [W16.95] A documentary by the BBC describes the details of the experiments that led to this discovery, and also shows a mature wildcat that was born by a surrogate female.
+- [W16.96] The Libyan Posts issued a postage stamp dedicated to the African wildcat in November 1997 in cooperation with World Wide Fund for Nature.
+- [W16.97] This issue was also released as a set of four stamps printed on a minisheet.
+- [W16.98] IUCN/SSC Cat Specialist Group.
+- [W16.99] Archived from the original on 2018-10-30.
+- [W16.100] "African wildcat program".
+- [W16.101] "Ancient Egyptians may have given cats the personality to conquer the world".
+
+## [W17] Wikipedia: Tmesipteris truncata
+https://en.wikipedia.org/w/index.php?title=Tmesipteris_truncata&oldid=1368434570 · CC BY-SA 4.0 · usage: ai_input
+
+- [W17.1] Tmesipteris truncata (aka Tmesipteris oblanceolata) is a fern endemic to eastern Australia.
+- [W17.2] It is also known as a fork fern.
+- [W17.3] The habitat of this primitive plant is under waterfalls, or in sandstone gullies or rainforests.
+- [W17.4] It is often found growing on the base of the King Fern.
+- [W17.5] Usually seen as an epiphyte or lithophyte, but it may also appear as a terrestrial plant.
+- [W17.6] It is found as far south as Mount Dromedary.
+- [W17.7] The stems are 15 to 30 cm (5.9 to 11.8 in) long, mostly unbranched.
+- [W17.8] Three or four grooves are at the base.
+- [W17.9] The leaves grow shorter at the base, also shorter at the apex of the stems.
+- [W17.10] Leaves are narrow linear to oblong in shape; 15 to 25 mm long, 2 to 5 mm wide.
+- [W17.11] The midvein of the leaf ends in a thin point.
+- [W17.12] Synangia are 3 to 5 mm long.
+- [W17.13] The specific epithet truncata refers to the leaf tops, which appear abruptly cut off.
+- [W17.14] This plant first appeared in scientific literature in 1810 as Psilotum truncatum in the Prodromus Florae Novae Hollandiae, authored by the prolific Scottish botanist, Robert Brown.
+- [W17.15] On 31 May 2024, Tmesipteris oblanceolata was reported to have been found to contain the largest known eukaryotic genome, with 160 billion base pairs, by comparison more than 50 times larger than the human genome.
+
+## [W18] Wikipedia: Axolotl
+https://en.wikipedia.org/w/index.php?title=Axolotl&oldid=1379478357 · CC BY-SA 4.0 · usage: ai_input
+
+- [W18.1] The axolotl ( ; from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ] ; Ambystoma mexicanum) is a species of mole salamander.
+- [W18.2] It is neotenic, reaching sexual maturity without undergoing metamorphosis, and the adults remain fully aquatic with obvious external gills.
+- [W18.3] Axolotls may be difficult to distinguish from the larval stage of other neotenic adult mole salamanders, in particular the tiger salamander, or other species such as mudpuppies.
+- [W18.4] Axolotls originally inhabited a system of interconnected wetlands and lakes in the highlands of Mexico.
+- [W18.5] They were known to inhabit the smaller lakes of Xochimilco and Chalco and are presumed to have inhabited the larger lakes of Texcoco and Zumpango.
+- [W18.6] The desiccation of these lakes, initiated by the Aztecs and accelerated during the 20th century, has led to the destruction of much of the axolotl's natural habitat, an area now largely occupied by Mexico City.
+- [W18.7] Wild axolotls have been driven to near extinction by the introduction of invasive species such as tilapia and carp; with a decreasing population of around 50 to 1,000 adult individuals, the species has been assessed as critically endangered by the International Union for Conservation of Nature (IUCN) and is listed under Appendix II of the Convention on International Trade in Endangered Species (CITES).
+- [W18.8] There currently exists a large captive population of axolotls, with specimens used extensively in scientific research because of their unusual ability to regenerate body parts, including limbs, gills and parts of their eyes and brains.
+- [W18.9] The species is also used as a model organism.
+- [W18.10] As aquarium technology has developed, axolotls have become a common exhibit in zoos and public aquariums, as well as an occasional pet in home aquariums.
+- [W18.11] The axolotl is a popular subject in contemporary culture, inspiring a number of works and characters in the media.
+- [W18.12] The term "axolotl" is a Nahuatl word which has been translated variably as "water slave", "water servant", "water sprite", "water player", "water monstrosity", "water twin", or "water dog".
+- [W18.13] The word refers to Xolotl, the Aztec god who holds dominion over fire, lightning, the dead and the resurrected, dogs, games, grotesque or ugly beings, and twins (as he is the twin of Quetzalcōātl).
+- [W18.14] Some sources prefer the term "Mexican axolotl" to refer to this species unambiguously, as "axolotl" may be used for unmetamorphosed individuals of other Ambystoma species, although the word is most commonly used to refer to wild A. mexicanum and captive individuals.
+- [W18.15] A sexually mature adult axolotl, at age 18–27 months, ranges in length from 15 to 45 cm (6 to 18 in); a size close to 23 cm (9 in) is most common, and any greater than 30 cm (12 in) is rare.
+- [W18.16] Axolotls possess features typical of salamander larvae, including external gills and a caudal fin extending from behind the head to the vent.
+- [W18.17] Unlike most salamander species, axolotls retain their external gills when they mature into adulthood.
+- [W18.18] This is a type of neoteny.
+- [W18.19] Axolotls have wide heads and lidless eyes.
+- [W18.20] Their limbs are underdeveloped and possess long, thin digits.
+- [W18.21] Three pairs of external gill stalks (rami) originate from behind the head and are used to move oxygenated water.
+- [W18.22] These are lined with filaments (fimbriae) to increase the surface area for gas exchange.
+- [W18.23] Four gill slits lined with gill rakers are hidden underneath the external gills, which prevent food from entering and allow particles to filter through.
+- [W18.24] Males can be identified by their swollen cloacae lined with papillae, while females have noticeably wider bodies when gravid and full of eggs.
+- [W18.25] Axolotls have barely visible vestigial teeth; other salamanders only develop these during metamorphosis.
+- [W18.26] Their primary method of feeding is by suction, during which their rakers interlock to close the gill slits.
+- [W18.27] Axolotls use their external gills for respiration; buccal pumping (gulping air from the surface) may also be used to provide oxygen to their lungs.
+- [W18.28] Buccal pumping can occur in a two-stroke manner, pumping air from the mouth to the lungs, or a four-stroke manner, reversing this pathway using compression forces.
+- [W18.29] The wild type animal (the "natural" form) is brown or tan with gold speckles and an olive undertone.
+- [W18.30] They can subtly alter their color by changing the relative size and thickness of the melanophores, presumably for camouflage.
+- [W18.31] Axolotls have four pigmentation genes; when mutated, they create different color variants.
+- [W18.32] The four most common mutant colors are as follows:
+- [W18.33] Leucistic: pale pink body, black eyes
+- [W18.34] Xanthic: grey body, black eyes
+- [W18.35] Albinistic: pale pink or white body, red eyes
+- [W18.36] Melanistic: black or dark blue body with no gold speckling or olive tone
+- [W18.37] In addition, there is wide individual variability in the size, frequency, and intensity of the gold speckling, and at least one variant leads to the development of a black and white piebald appearance upon reaching maturity.
+- [W18.38] Pet breeders frequently cross the variant colors, and double homozygous mutants are common in the pet trade, especially white/pink animals with pink eyes that are double homozygous mutants for both the albino and leucistic genes.
+- [W18.39] The 32 billion base pair long sequence of the axolotl's genome was published in 2018; the largest animal genome completed at the time, it revealed species-specific genetic pathways that may be responsible for limb regeneration.
+- [W18.40] Although the axolotl genome is about ten times the size of the human genome, it encodes a similar number of proteins (23,251, compared with about 20,000 in the human genome).
+- [W18.41] The size difference is mostly explained by a large fraction of repetitive sequences; these also contribute to increased median intron sizes (22,759 bp), which are 13, 16 and 25 times that observed in human (1,750 bp), mouse (1,469 bp) and Tibetan frog (906 bp), respectively.
+- [W18.42] The characteristic of the axolotl that attracts the most attention is its unusual healing ability; axolotls do not heal by scarring but are instead capable of tissue regeneration.
+- [W18.43] Entire lost appendages, such as the limbs and tail, can regrow over a period of months.
+- [W18.44] In certain cases, more vital structures can be regrown, such as tissues of the eye and heart.
+- [W18.45] Axolotls can even restore parts of their central nervous system, including non-vital parts of their brains.
+- [W18.46] They can readily accept transplants from other individuals—including eyes and parts of the brain—restoring these "alien organs" to full functionality.
+- [W18.47] In special cases, axolotls have been able to repair a damaged limb while also generating an additional limb, resulting in an extra appendage that makes them attractive to pet owners as a novelty.
+- [W18.48] The three basic requirements for limb regeneration in an axolotl are: (1) the formation of a wound epithelium, (2) the presence of nerve signaling, and (3) the presence of cells from the different axes (lines of orientation) of the affected limb.
+- [W18.49] An epidermis quickly forms to seal the site of the wound.
+- [W18.50] Over the next few days, the cells of the wound epidermis divide and grow, forming a blastema, at which point the wound is ready to heal and undergo patterning to form the new limb.
+- [W18.51] It is believed that during limb generation, axolotls have a special system to regulate their internal macrophage level and suppress inflammation, as scarring would prevent proper healing and regeneration.
+- [W18.52] However, this belief has been questioned by other studies.
+- [W18.53] A fundamental growth structure credited for the axolotl's ability to regenerate whole limbs in early development is the apical ectodermal ridge (AER), with the apical ectodermal cap (AEC).
+- [W18.54] The AER initiates the growth of appendages in embryos by signaling how they are shaped and extended.
+- [W18.55] Ectodermal cells are needed to form limbs in most tetrapods, amphibians and humans, but unlike most other animals the AEC in the axolotl can send signals through growth hormones to activate blastema cells, which can rebuild whole amputated or damaged limbs or organs.
+- [W18.56] The axolotl has indeterminate growth, meaning it continues to grow throughout its life.
+- [W18.57] Some consider this trait to be a direct contributor to the axolotl's regenerative ability, which declines with age but does not completely disappear.
+- [W18.58] The ability to regenerate limbs is greatly diminished in metamorphosed individuals.
+- [W18.59] Most amphibians begin their lives as aquatic animals unable to live on dry land, often called tadpoles.
+- [W18.60] To reach adulthood, they go through a process called metamorphosis, in which they lose their gills and start living on land.
+- [W18.61] The axolotl is unusual in that it has a lack of the thyroid-stimulating hormone that triggers the thyroid to produce thyroxine, which is needed for metamorphosis to take place; instead, the axolotl keeps its gills and lives in water all its life, even after becoming an adult and able to reproduce.
+- [W18.62] The trait of reaching sexual maturity without undergoing metamorphosis is called neoteny.
+- [W18.63] The genes responsible for neoteny in laboratory axolotls may have been identified; they are not linked to the genes of wild populations, suggesting artificial selection is the cause of complete neoteny in laboratory and pet axolotls.
+- [W18.64] The genes responsible have been narrowed down to a small chromosomal region called met1, which contains several candidate genes.
+- [W18.65] Many other species within the axolotl's genus are also either entirely neotenic or have neotenic populations.
+- [W18.66] Sirens, Necturus mudpuppies, and the troglobitic olm are other examples of neotenic salamanders, although unlike axolotls they cannot be induced to metamorphose by an injection of iodine or thyroxine hormone.
+- [W18.67] Over evolutionary time, the axolotl has lost the ability to naturally undergo metamorphosis.
+- [W18.68] It has retained the capacity to undergo metamorphosis if provided with the necessary hormones through artificial administration.
+- [W18.69] Under modern laboratory conditions, metamorphosis is reliably induced by administering thyroid hormones, including thyroxine, triiodo-L-thyronine, or thyroid-stimulating hormones.
+- [W18.70] Depending on the hormone used for induction, different outcomes may occur.
+- [W18.71] Some hormones, such as triiodo-L-thyronine, can promote regenerative abilities while in some cases failing to produce complete metamorphosis.
+- [W18.72] In contrast, thyroxine can inhibit regenerative abilities and accelerate metamorphosis.
+- [W18.73] After an axolotl undergoes hormonally induced metamorphosis and begins living on land, it experiences a number of physiological changes that help it adapt to terrestrial life.
+- [W18.74] These include increased muscle tone in limbs, resorption of gills and fins into the body, the development of eyelids, and a reduction in the skin's permeability to water, allowing the axolotl to remain more effectively hydrated on land.
+- [W18.75] The lungs of an axolotl, though present alongside gills after reaching non-metamorphosed adulthood, develop further during metamorphosis.
+- [W18.76] Axolotls that complete metamorphosis are similar in appearance to the adult plateau tiger salamander, though axolotls have longer toes.
+- [W18.77] In the absence of induced metamorphosis, larval axolotls begin absorbing iodide into their thyroid glands at around 30 days post-fertilization.
+- [W18.78] Larval axolotls do produce thyroid hormones from iodide, but the amount appears highly variable.
+- [W18.79] In contrast, adult axolotls do not produce detectable levels of thyroid hormone unless metamorphosis is triggered.
+- [W18.80] Axolotls are within the same genus as the tiger salamander (Ambystoma tigrinum), being part of its species complex along with all other Mexican species of Ambystoma.
+- [W18.81] Within the family Ambystomatidae, the closest relative of the axolotl is the Eastern tiger salamander.
+- [W18.82] The axolotl's habitat is like that of most neotenic Ambystoma species: a high-altitude body of water surrounded by a risky terrestrial environment, or other conditions unsuitable for the terrestrial form, with these conditions thought to favor the development of neoteny.
+- [W18.83] However, a population of terrestrial Mexican tiger salamanders occupies and breeds in the axolotl's habitat (the two species being sympatric).
+- [W18.84] The axolotl is native to the freshwater lakes of Xochimilco and Chalco in the Valley of Mexico (though the species may have also once inhabited the larger Lakes of Texcoco and Zumpango).
+- [W18.85] Lake Chalco is an unstable ecosystem, often being drained as a flood control measure, and Lake Xochimilco is a remnant of its former self, now existing mainly as canals.
+- [W18.86] The water temperature in Xochimilco rarely rises above 20 °C (68 °F), and may fall to 6–7 °C (43–45 °F) or lower in the winter.
+- [W18.87] A population of Ambystoma inhabiting the artificial lake at Chapultepec was confirmed to contain axolotls; as of 23 October 2019, the extent of occurrence was 467 square kilometres (180 sq mi).
+- [W18.88] Overall, the wild axolotl prefers a system of water channels and deep-water lakes with abundant aquatic vegetation.
+- [W18.89] The axolotl is carnivorous; in the wild, it consumes small prey such as mollusks, worms, aquatic insects, other arthropods (such as crayfish), and small fish, as well as other salamanders (including conspecifics).
+- [W18.90] Axolotls locate food by smell and will "snap" at any potential meal, sucking the food into their stomachs with vacuum force.
+- [W18.91] The wild axolotl is thought to reach sexual maturity at 1.5 years of age, with a generation length of around 5.5 years.
+- [W18.92] The life expectancy of a wild axolotl is between 10 and 15 years.
+- [W18.93] Axolotls are native only to the Mexican Central Valley, and the population once extended through most of the lakes and wetlands in this region.
+- [W18.94] The axolotl's natural habitat is now limited to Lake Xochimilco as a result of the expansion of Mexico City and is under pressure from the city's growth.
+- [W18.95] The axolotl is on the IUCN Red List of threatened species.
+- [W18.96] Surveys conducted in 1998, 2003, and 2008 found populations of 6,000, 1,000, and 100 axolotls per square kilometer, respectively, in Lake Xochimilco.
+- [W18.97] A four-month-long search in 2013 found no surviving individuals in the wild, but one month later two were spotted in a network of canals leading from Xochimilco.
+- [W18.98] Lake Xochimilco has poor water quality; tests have revealed a low nitrogen-to-phosphorus ratio and a high concentration of chlorophyll a, indicative of an oxygen-poor environment not well-suited to axolotls.
+- [W18.99] This has been caused by the demands of local industries, such as aquaculture and agriculture, which maintain the lake's water levels through inputs of partially treated wastewater.
+- [W18.100] Intensively used agricultural pesticides eventually enter the lake through runoff, and these contain chemical compounds that sharply increase the mortality rate in axolotl embryos and larvae.
+- [W18.101] Of the surviving embryos and larvae, there is also an increase in morphological, behavioral, and activity abnormalities.
+- [W18.102] The dramatic reduction in the native population has led to a significant loss of genetic diversity.
+- [W18.103] This can be dangerous for the remaining population, as it causes increased inbreeding and reduced fitness and adaptive potential.
+- [W18.104] Studies have found indicators of low interpopulation gene flow and higher rates of genetic drift.
+- [W18.105] These are likely the result of multiple "bottleneck" incidents, where a sharp drop in the number of individuals in the population leads to decreased genetic diversity.
+- [W18.106] The offspring produced after bottleneck events have a greater risk of poor fitness and are often less able to adapt.
+- [W18.107] Several bottleneck events may even lead to extinction.
+- [W18.108] Studies have also found high rates of relatedness indicative of inbreeding, which can cause an increase in the presence of deleterious, or harmful, mutations in genes.
+- [W18.109] The detection of introgressed tiger salamander (A. tigrinum) DNA in the laboratory axolotl population raises concerns about the suitability of the captive population as an "ark" for potential reintroduction purposes.
+- [W18.110] Another factor that threatens the population is the introduction of invasive fish species, such as the Nile tilapia and the common carp.
+- [W18.111] These fish eat the axolotls' young and compete for their food.
+- [W18.112] The presence of these species has changed axolotl behavior, causing them to be less active in an effort to avoid predation.
+- [W18.113] This reduced activity greatly impacts the axolotl's foraging and mating opportunities.
+- [W18.114] The fungus Batrachochytrium dendrobatidis has been detected in axolotls; this fungus causes the disease chytridiomycosis in amphibians and is a major concern for amphibian conservation worldwide.
+- [W18.115] However, the axolotl displays resistance to both B. dendrobatidis and B. salamandrivorans, so chytridiomycosis is thought not to be a threat to this species.
+- [W18.116] The condition of the native axolotl population has improved little over the years.
+- [W18.117] Many scientists are focusing their conservation efforts on the translocation of captive-bred individuals into new habitats or their reintroduction into Lake Xochimilco.
+- [W18.118] Studies have shown that axolotls born in captivity and raised in a semi-natural environment are capable of surviving in the wild, catching prey and escaping predators with moderate success.
+- [W18.119] These captive-bred individuals may be introduced into unpolluted bodies of water or returned to Lake Xochimilco; however, with the amount of pollution in the lake, the presence of invasive species and the region's continuing urbanization, the translocated axolotls might eventually have the same fate as the wild population.
+- [W18.120] The Laboratorio de Restauracion Ecologica (transl.
+- [W18.121] Laboratory of Ecological Restoration) of the National Autonomous University of Mexico has built up a population of 100 captive-bred axolotls, as of 2021.
+- [W18.122] These are mostly used for research, but there are plans to establish a viable population in a semi-artificial wetland inside the university.
+- [W18.123] A 2025 study confirmed the viability of releasing captive-bred axolotls into the wild, with recaptured individuals having gained weight since their release.
+- [W18.124] However, this practice risks losing the axolotls through predation, as several of those released were preyed on by great egrets.
+- [W18.125] German naturalist and explorer Alexander von Humboldt noted in the 19th century that the Mexicans, having been vanquished by the Spanish Empire, lived "in great want, compelled to feed on roots of aquatic plants, insects and a problematical reptile called axolotl".
+- [W18.126] In 1863, a shipment of 34 adult axolotls was sent from Mexico City to the Jardin des Plantes in Paris, from which thousands of specimens were captive-bred and distributed around Europe for scientific research.
+- [W18.127] Unaware of their neoteny, French zoologist Auguste Duméril was surprised when, instead of the axolotl, he found in the vivarium a new species, similar to the salamander.
+- [W18.128] This discovery was the starting point of research about neoteny.
+- [W18.129] It is not certain that Ambystoma velasci specimens were not included in the original shipment.
+- [W18.130] In Prague, the Czech medical doctor Vilém Laufberger used thyroid hormone injections to induce an axolotl to grow into a terrestrial adult salamander.
+- [W18.131] Unaware that it had already been carried out, Englishman Julian Huxley repeated the experiment using ground animal thyroid glands.
+- [W18.132] Since then, experiments have often involved the injection of iodine or various thyroid hormones to induce metamorphosis.
+- [W18.133] Bred in captivity in large numbers, the axolotl is used extensively in research as a model organism.
+- [W18.134] They are especially easy to breed compared with other salamanders in the Ambystomatidae family, which are rarely captive-bred because of the husbandry demands of terrestrial life.
+- [W18.135] One attractive feature of the axolotl for research purposes is the large and easily manipulated embryo, which allows viewing of the full development of a vertebrate.
+- [W18.136] Axolotls are used in heart defect studies due to the presence of a mutant gene that causes heart failure in embryos.
+- [W18.137] Since the axolotl embryo survives almost to hatching with no heart function, the defect is very observable.
+- [W18.138] Further research has been conducted to examine the axolotl's heart as a model of a single human ventricle and excessive trabeculation.
+- [W18.139] The axolotl is also considered an ideal animal model for the study of neural tube closure due to the similarities between human and axolotl neural plate and tube formation; the axolotl's neural tube, unlike that of a frog, is not hidden under a layer of superficial epithelium.
+- [W18.140] There are additional mutations affecting other organ systems, some of which are not yet well characterized.
+- [W18.141] The regenerative abilities of the axolotl have led to its use as a model for the development of limbs in vertebrates, with the goal of understanding how humans can achieve better ways to heal from serious injuries.
+- [W18.142] This also makes the species an ideal model organism for studying the properties of stem cells and the process of neoteny.
+- [W18.143] Current research can record specific examples of the axolotl's regenerative properties through tracking cell fates and behaviors, lineage tracing from skin triploid cell grafts, pigmentation imaging, electroporation, tissue clearing and lineage tracing from dye labeling.
+- [W18.144] The newer technologies of germline modification and transgenesis are better suited for live imaging the regenerative processes that occur for axolotls.
+- [W18.145] In a 2025 study, scientists found a new method of inserting and activating the genes inside the axolotl's brain and nervous system using special, harmless viruses called adeno-associated viruses (AAVs).
+- [W18.146] It had previously been difficult for researchers to make specific genes work inside the axolotl, but this discovery allows them to explore how the axolotl's nervous system helps it regrow body parts such as the brain and spinal cord.
+- [W18.147] Additionally, they found that the axolotl's nervous system has a unique two-way communication between the brain and eye.
+- [W18.148] The genetics of the color variants of the axolotl have also been widely studied.
+- [W18.149] Online Model Organism Database
+- [W18.150] Axolotl is a partially supported species on Xenbase.
+- [W18.151] This includes genome download, BLAST, and JBrowse functionalities.
+- [W18.152] The axolotl is a popular exotic pet like its relative, the tiger salamander (Ambystoma tigrinum).
+- [W18.153] Most axolotls under human care descended from that single group of under 36 individuals, with notable genetic differences from the wild population.
+- [W18.154] Like all poikilothermic organisms, lower temperatures result in slower metabolism and reduced appetite.
+- [W18.155] Temperatures at approximately 16 °C (61 °F) to 18 °C (64 °F) are suggested for captive axolotls to ensure sufficient food intake; temperatures higher than 24 °C (75 °F) may lead to metabolic rate increase, also causing stress and eventually death.
+- [W18.156] Chlorine, commonly added to tap water, is harmful to axolotls.
+- [W18.157] A single axolotl typically requires a 150-litre (40-US-gallon) tank.
+- [W18.158] Axolotls spend the majority of the time at the bottom of their tanks.
+- [W18.159] In captivity, axolotls eat a variety of readily available foods, including trout and salmon pellets, frozen or live bloodworms, earthworms, and waxworms.
+- [W18.160] Axolotls can also eat feeder fish, but care should be taken as fish may contain parasites.
+- [W18.161] Substrates are another important consideration for captive axolotls, as axolotls (like other amphibians and reptiles) tend to ingest bedding material together with food and are commonly prone to gastrointestinal obstruction and foreign body ingestion.
+- [W18.162] Some common substrates used for animal enclosures can be harmful for amphibians and reptiles.
+- [W18.163] Gravel (common in aquarium use) should not be used, and is recommended that any sand consists of smooth particles with a grain size of under 1mm.
+- [W18.164] One guide to axolotl care for laboratories notes that bowel obstructions are a common cause of death, and recommends that no items with a diameter below 3 cm (or approximately the size of the animal's head) should be available to the animal.
+- [W18.165] There is some evidence that axolotls might seek out appropriately-sized gravel for use as gastroliths based on experiments conducted at the University of Manitoba axolotl colony.
+- [W18.166] As there is no conclusive evidence pointing to gastrolith use, gravel should be avoided due to the high risk of impaction.
+- [W18.167] Salts, such as Holtfreter's solution, are often added to the water to prevent infection.
+- [W18.168] Among hobbyists, the process of artificially inducing metamorphosis can often result in death during or even following a successful attempt, and so casual hobbyists are generally discouraged from attempting to induce metamorphosis in pet axolotls.
+- [W18.169] Morphed pet axolotls should be given solid footholds in their enclosure to satisfy their need for land.
+- [W18.170] They should not be given live animals as food.
+- [W18.171] The species is named after Xolotl, the Aztec god of fire and lightning, who transformed himself into an axolotl to avoid being sacrificed by fellow gods.
+- [W18.172] Axolotls continue to play a substantial cultural role in Mexico.
+- [W18.173] For example, they appear in Diego Rivera's 1951 mural Agua, el origen de la vida (Water, the Origin of Life) at the Cárcamo de Dolores in Chapultepec Park, as well as in a number of murals throughout Mexico City.
+- [W18.174] It became the official emoji of Mexico City in 2017.
+- [W18.175] In 2021, Mexico released a new design for the 50-peso banknote featuring an axolotl on its reverse.
+- [W18.176] It was recognized as "Bank Note of the Year" by the International Bank Note Society.
+- [W18.177] The banknote has become a collectable item because of its design; the Bank of Mexico reported in 2025 that up to 50 million were being kept out of circulation, as millions of people were choosing to hoard the notes rather than spend them.
+- [W18.178] In Japan, the creatures are commonly known as "wooper loopers" (ウーパールーパー) following a 1980s marketing campaign by Nissin Foods featuring an axolotl with that name.
+- [W18.179] In 1999, the video games Pokémon Gold and Silver, made by Japanese developer Game Freak, introduced a Pokémon named Wooper, which is directly based on an axolotl.
+- [W18.180] Additionally, in 2002, Pokémon Ruby and Sapphire introduced the Pokémon Mudkip and its evolutions, which take some visual inspiration from axolotls.
+- [W18.181] Starting in the late 20th and early 21st century, the axolotl became popularized as a cultural icon, with its likeness appearing in or inspiring various aspects of contemporary media, such as television shows, movies, or video games.
+- [W18.182] Axolotls were added to the video game Minecraft in 2020 (depicted as troglofauna in-game), following Mojang Studios' trend of incorporating endangered species to raise awareness, and they were included in its spin-offs Minecraft: Dungeons and Lego Minecraft.
+- [W18.183] In the How to Train Your Dragon movie franchise, the dragon Toothless was also modeled after axolotls.
+- [W18.184] They also feature prominently in the game Axie Infinity.
+- [W18.185] An axolotl doll can be obtained as an item in PewDiePie's Tuber Simulator.
+- [W18.186] Julio Cortázar wrote a short story titled "Axolotl", in which the narrator encounters axolotls in the aquarium at the Jardin des Plantes de Paris.
+- [W18.187] In 2019, a star in the equatorial constellation of Cetus was named Axólotl.
+- [W18.188] Amphibious fish – Fish that can leave water for periods of time
+- [W18.189] Barred tiger salamander – Species of amphibian
+- [W18.190] Eurycea neotenes – Species of amphibian
+- [W18.191] Handfish – Family of fishes
+- [W18.192] Lake Patzcuaro salamander – Species of amphibian
+- [W18.193] Regenerative medicine – Medical field involved in regenerating tissues
+- [W18.194] Texas blind salamander – Species of amphibian
+- [W18.195] Follow the Eggs, Hatchlings and Juveniles
+- [W18.196] Mating Dance and Laying Eggs
+- [W18.197] Follow the Eggs and Hatchlings (2nd Batch)
+- [W18.198] University of KY Axolotl Colony
+- [W18.199] Mystical amphibian venerated by Aztecs nears extinction
+- [W18.200] The animal that's everywhere and nowhere
+- [W18.201] Sánchez, Aminetth (31 May 2024).
+- [W18.202] "Scientists and farmers restore Aztec-era floating farms that house axolotls". news.mongabay.com.
+
+## [W19] Wikipedia: Neoaves
+https://en.wikipedia.org/w/index.php?title=Neoaves&oldid=1381294092 · CC BY-SA 4.0 · usage: ai_input
+
+- [W19.1] Neoaves is a clade that consists of all modern birds (Neornithes or Aves) with the exception of Palaeognathae (ratites and kin) and Galloanserae (ducks, chickens and kin).
+- [W19.2] This group is defined in the PhyloCode by George Sangster and colleagues in 2022 as "the most inclusive crown clade containing Passer domesticus, but not Gallus gallus".
+- [W19.3] Almost 95% of the roughly 10,000 known species of extant birds belong to the Neoaves.
+- [W19.4] The early diversification of the various neoavian groups occurred very rapidly around the Cretaceous–Paleogene extinction event, and attempts to resolve their relationships with each other have resulted initially in much controversy.
+- [W19.5] The early diversification of the various neoavian groups occurred very rapidly around the Cretaceous–Paleogene extinction event.
+- [W19.6] As a result of the rapid radiation, attempts to resolve their relationships have produced conflicting results, some quite controversial, especially in the earlier studies.
+- [W19.7] Nevertheless, some recent large phylogenomic studies of Neoaves have led to much progress on defining orders and supraordinal groups within Neoaves.
+- [W19.8] Still, the studies have failed to reach a consensus on an overall higher-order topology of these groups.
+- [W19.9] A genomic study of 48 taxa by Jarvis and colleagues in 2014 divided Neoaves into two main clades, Columbea and Passerea, but an analysis of 198 taxa by Prum and colleagues in 2015 recovered different groupings for the earliest split in Neoaves.
+- [W19.10] A reanalysis with an extended dataset by Reddy and colleagues in 2017 suggested this was due to the type of sequence data, with coding sequences favouring the Prum et al. topology.
+- [W19.11] The disagreement on topology even with large phylogenomic studies led Alexander Suh in 2016 to propose a hard polytomy of nine clades at the base of Neoaves.
+- [W19.12] An analysis by Houde and colleagues in 2019 recovered Columbea and a reduced hard polytomy of six clades within Passerea.
+- [W19.13] Despite other disagreements, these studies do agree on several supraordinal groups, which Reddy and colleagues in 2017 dubbed the "magnificent seven", which together with three "orphaned orders" make up Neoaves.
+- [W19.14] Significantly, they both include a large waterbird clade (Aequornithes) and a large landbird clade (Telluraves).
+- [W19.15] The groups defined by Reddy and colleagues (2017) are as follows:
+- [W19.16] The "magnificent seven" supraordinal clades:
+- [W19.17] Eurypygimorphae (sunbittern, kagu and tropicbirds)
+- [W19.18] Otidimorphae (turacos, bustards and cuckoos)
+- [W19.19] Strisores (nightjars, swifts, hummingbirds and allies)
+- [W19.20] Columbimorphae (mesites, sandgrouse and pigeons)
+- [W19.21] Mirandornithes (flamingos and grebes)
+- [W19.22] The three orphaned orders:
+- [W19.23] Opisthocomiformes (hoatzin)
+- [W19.24] Gruiformes (cranes and rails)
+- [W19.25] Charadriiformes (shorebirds, gulls and alcids)
+- [W19.26] As such, the exact true phylogeny of Neoaves is not fully understood and can be represented as a polytomy.
+- [W19.27] Here, following Sangster and colleagues (2022), two clades of the magnificent seven, the Aequornithes and the Eurypygimorphae, are grouped together as the Phaethoquornithes.
+- [W19.28] This grouping is supported by most studies, but not by Reddy (2017):
+- [W19.29] Comparison of different proposals for neoavian radiation
+- [W19.30] Taxa above the magnificent seven and three orphaned orders
+- [W19.31] These are controversial, and some contradict each other.
+- [W19.32] Phaethoquornithes seems to be the best-supported one.
+
+## [W20] Wikipedia: Horseshoe crab
+https://en.wikipedia.org/w/index.php?title=Horseshoe_crab&oldid=1381182209 · CC BY-SA 4.0 · usage: ai_input
+
+- [W20.1] Horseshoe crabs are arthropods of the family Limulidae and the only surviving xiphosurans.
+- [W20.2] Despite their name, they are not crabs or even crustaceans; they are chelicerates, more closely related to arachnids like spiders, ticks, and scorpions.
+- [W20.3] The body of a horseshoe crab is divided into three main parts: the cephalothorax, abdomen, and telson.
+- [W20.4] The largest of these, the cephalothorax, houses most of the animal's eyes, limbs, and internal organs.
+- [W20.5] It is also where the animal gets its name, as its shape somewhat resembles that of a horseshoe.
+- [W20.6] Horseshoe crabs have been described as "living fossils", having changed little since they first appeared in the Triassic around 250 million years ago, and similar-looking fossil xiphosurans extend back to the Ordovician around 445 million years ago.
+- [W20.7] Only four species of horseshoe crab are extant today, the Atlantic horseshoe crab (Limulus polyphemus), native to the eastern coasts of Mexico and the United States, as well as the mangrove horseshoe crab (Carcinoscorpius rotundicauda), tri-spine horseshoe crab (Tachypleus tridentatus) and Indo-Pacific horseshoe crab (Tachypleus gigas), which are native to South, South East, and East Asia.
+- [W20.8] Most horseshoe crabs are marine, though the mangrove horseshoe crab is often found in brackish water, and the Atlantic horseshoe crab is resident in brackish estuarine ecosystems, such as the Delaware and Chesapeake bays.
+- [W20.9] Additionally, certain extinct species transitioned to living solely in freshwater.
+- [W20.10] Horseshoe crabs primarily live at the water's bottom but they can swim if needed.
+- [W20.11] Horseshoe crabs are often caught for their blood, which contains Limulus amebocyte lysate, a chemical used to detect bacterial endotoxins.
+- [W20.12] Additionally, they are used as fishing bait in the United States and eaten as a delicacy in some parts of Asia.
+- [W20.13] In recent years, horseshoe crabs have experienced a population decline.
+- [W20.14] This is mainly due to coastal habitat destruction and overharvesting.
+- [W20.15] To ensure their continued existence, many areas have enacted regulations on harvesting and established captive breeding programs.
+- [W20.16] The fossil record of Xiphosura, the broader group that includes horseshoe crabs and their extinct relatives, extends back to the Early Ordovician, around 480 million years ago.
+- [W20.17] Ordovician xiphosurans, such as Lunataspis, already bear a close resemblance to living horseshoe crabs.
+- [W20.18] The earliest appearance of modern horseshoe crabs was approximately 250 million years ago during the Early Triassic.
+- [W20.19] Because they have seen little morphological change since then, extant (surviving) forms have been described as "living fossils".
+- [W20.20] Horseshoe crabs resemble crustaceans but belong to a separate subphylum of the arthropods, Chelicerata.
+- [W20.21] Horseshoe crabs are closely related to the extinct eurypterids (sea scorpions), which include some of the largest arthropods ever to have existed, and the two may be sister groups.
+- [W20.22] The difficult-to-classify chasmataspidids are also thought to be closely related to horseshoe crabs.
+- [W20.23] The radiation of horseshoe crabs resulted in 22 known species, of which only 4 remain.
+- [W20.24] The Atlantic species is sister to the three Asian species, the latter of which are likely the result of two divergences relatively close in time.
+- [W20.25] The last common ancestor of the four extant species is estimated to have lived about 135 million years ago in the Cretaceous.
+- [W20.26] Limulidae is the only extant family of the order Xiphosura, and contains all four living species of horseshoe crabs:
+- [W20.27] Carcinoscorpius rotundicauda, the mangrove horseshoe crab, found in South and Southeast Asia
+- [W20.28] Limulus polyphemus, the Atlantic or American horseshoe crab, found along the Atlantic coast of the United States and the Southeast Gulf of Mexico
+- [W20.29] Tachypleus gigas, the Indo-Pacific, Indonesian, Indian, or southern horseshoe crab, found in South and Southeast Asia
+- [W20.30] Tachypleus tridentatus, the Chinese, Japanese, or tri-spine horseshoe crab, found in Southeast and East Asia
+- [W20.31] Bicknell & Pates, 2019 Ballagan Formation, Scotland, Early Carboniferous (Tournaisian) (Considered Xiphosura incertae sedis by Lamsdell, 2020)
+- [W20.32] †Casterolimulus Holland, Erickson & O'Brien, 1975 Late Cretaceous (Maastrichtian) Fox Hills Formation, North Dakota, USA (Inconsistently placed in this family)
+- [W20.33] †Heterolimulus gadeai Vıa & Villalta, 1966 Alcover Limestone Formation, Spain, Middle Triassic (Ladinian)
+- [W20.34] Størmer, 1952 Middle-Upper Triassic, France, Germany, Tunisia, Russia
+- [W20.35] †Sloveniolimulus Bicknell et al., 2019 Strelovec Formation, Slovenia Middle Triassic (Anisian)
+- [W20.36] †Tarracolimulus Romero & Vıa Boada, 1977 Alcover Limestone Formation, Spain, Middle Triassic (Ladinian)
+- [W20.37] †Victalimulus Riek & Gill, 1971 Lower Cretaceous (Aptian) Korumburra Group, NSW, Australia
+- [W20.38] †Yunnanolimulus Zhang et al., 2009 Middle Triassic (Anisian), Guanling Formation, Yunnan, China
+- [W20.39] †Mesolimulus Middle Triassic-Late Cretaceous England, Spain, Siberia, Germany, Morocco
+- [W20.40] †Ostenolimulus Lamsdell et al.
+- [W20.41] 2021 Early Jurassic (Sinemurian) Moltrasio Limestone, Italy
+- [W20.42] †Volanalimulus Lamsdell, 2020 Early Triassic, Madagascar.
+- [W20.43] Subfamily Limulinae Leach, 1819
+- [W20.44] †Crenatolimulus Feldmann et al., 2011 Upper Jurassic (upper Tithonian) Kcynia Formation, Poland.
+- [W20.45] Lower Cretaceous (Albian) Glen Rose Formation, Texas, USA
+- [W20.46] Müller, 1785 Pierre Shale, United States, Late Cretaceous (Maastrichtian), Atlantic North America, Recent
+- [W20.47] Subfamily Tachypleinae Pocock, 1902
+- [W20.48] Carcinoscorpius Pocock, 1902, Asia, Recent
+- [W20.49] Tachypleus Leach, 1819 Upper Cretaceous (Cenomanian) Haqel and Hjoula Konservat-Lagerstatten, Lebanon, Upper Eocene Domsen Sands, Germany, Asia, Recent
+- [W20.50] The horseshoe crab's position within Chelicerata is complicated.
+- [W20.51] However, most morphological analyses have placed them outside the Arachnida.
+- [W20.52] This assumption was challenged when a genetics-based phylogeny found horseshoe crabs to be the sister group to the ricinuleids, thereby making them an arachnid.
+- [W20.53] In response, a more recent paper has again placed horseshoe crabs as separate from the arachnids.
+- [W20.54] This new study utilized both new and more complete sequencing data while also sampling a larger number of taxa.
+- [W20.55] Below is a cladogram showing the internal relationships of Limulidae (modern horseshoe crabs) based on morphology.
+- [W20.56] It contains both extant and extinct members.
+- [W20.57] The common ancestor of arachnids and xiphosurans (the group that includes horseshoe crabs) underwent a whole-genome duplication (WGD) event.
+- [W20.58] This was followed by at least two, possibly three, WGDs in a common ancestor of the living horseshoe crabs.
+- [W20.59] This gives them unusually large genomes for invertebrates (the genomes of C. rotundicauda and T. tridentatus being approximately 1.72 Gb each).
+- [W20.60] Evidence for the duplication events includes similarity in structure between chromosomes (synteny), and clustering of homeobox genes.
+- [W20.61] Over time, many of the duplicated genes have changed through processes of neofunctionalization or subfunctionalization, meaning their functions are different from what they originally were.
+- [W20.62] Evolution of sexual size dimorphism
+- [W20.63] Several hypotheses have been given as possible reasons why a size difference exists between male and female horseshoe crabs.
+- [W20.64] This phenomenon is known as sexual size dimorphism and results in the females having a larger average size than males.
+- [W20.65] The existence of this trend is likely due to a combination of two things:
+- [W20.66] First, females take a year longer to mature and undergo an additional molt, giving them a larger average body size.
+- [W20.67] Second, larger female horseshoe crabs can house more eggs within their bodies.
+- [W20.68] This lets them pass on more genetic material than smaller females during each mating cycle, making larger females more prevalent.
+- [W20.69] Like all arthropods, horseshoe crabs have segmented bodies with jointed limbs, which are covered by a protective cuticle made of chitin.
+- [W20.70] They have heads composed of several segments, which eventually fuse as an embryo.
+- [W20.71] Horseshoe crabs are chelicerates, meaning their bodies are composed of two main parts (tagmata): the cephalothorax and the opisthosoma.
+- [W20.72] The first tagma, the cephalothorax or prosoma, is a fusion of the head and thorax.
+- [W20.73] This tagma is also covered by a large, semicircular carapace that acts as a shield around the animal's body.
+- [W20.74] It is shaped like the hoof of a horse, giving this animal its common name.
+- [W20.75] In addition to the two main tagmata, the horseshoe crab also possesses a long tail-like section known as the telson.
+- [W20.76] In total, horseshoe crabs have 6 pairs of appendages on their cephalothorax.
+- [W20.77] The first of these are the chelicerae, which give chelicerates their name.
+- [W20.78] In horseshoe crabs, these look like tiny pincers in front of the mouth.
+- [W20.79] Behind the chelicerae are the pedipalps, which are primarily used as legs.
+- [W20.80] In the final molt of males, the ends of the pedipalps are modified into specialized, grasping claws used in mating.
+- [W20.81] Following the pedipalps are three pairs of walking legs and a set of pusher legs for moving through soft sediment.
+- [W20.82] Each of these pusher legs is biramous or divided into two separate branches.
+- [W20.83] The branch closest to the front bears a flat end that looks like a leaf.
+- [W20.84] This end is called the flabellum.
+- [W20.85] The branch towards the back is far longer and looks similar to a walking leg.
+- [W20.86] However, rather than ending in just a claw, the back branch has four leaf-like ends that are arranged like a petal.
+- [W20.87] The final segment of the cephalothorax was originally part of the abdomen but fused in the embryo.
+- [W20.88] On it are two flap-like appendages known as chilaria.
+- [W20.89] If severed from the body, lost legs or the telson may slowly regenerate, and cracks in the body shell can heal.
+- [W20.90] The opisthosoma or abdomen of a horseshoe crab is composed of several fused segments.
+- [W20.91] Similar to a trilobite, the abdomen is made up of three lobes: a medial lobe in the middle, and a pleural lobe on either side.
+- [W20.92] Attached to the perimeter of each pleural lobe is a flat, serrated structure known as the flange.
+- [W20.93] The flange on either side is connected by the telson embayment, which itself is attached to the medial lobe.
+- [W20.94] Along the line where these lobes meet are six sets of indentations known as apodeme.
+- [W20.95] Each of these serves as a muscle attachment point for the animal's twelve movable spines.
+- [W20.96] On the underside of the abdomen are several biramous limbs.
+- [W20.97] The branches closest to the outside are flat and broad, while the ones on the inside are more narrow.
+- [W20.98] Closest to the front is a plate-like structure made of two fused appendages.
+- [W20.99] This is the genital operculum and is where horseshoe crabs keep their reproductive organs.
+- [W20.100] Following the operculum are five pairs of book gills.
+- [W20.101] While mainly used for breathing, horseshoe crabs can also use their book gills to swim.
+- [W20.102] At the end of a horseshoe crab's abdomen is a long, tail-like spine known as a telson.
+- [W20.103] It is highly mobile and serves a variety of functions.
+- [W20.104] Horseshoe crabs have a variety of eyes that provide them with useful visual information.
+- [W20.105] The most obvious of these are two large compound eyes found on top of the carapace.
+- [W20.106] This feature is unusual, as all other living chelicerates have lost them in their evolution.
+- [W20.107] In adult horseshoe crabs, the compound eyes comprise around 1,000 individual units known as ommatidia.
+- [W20.108] Each ommatidium is made up of a ring of retinal and pigment cells that surround something known as the eccentric cell.
+- [W20.109] This secondary visual cell gets its name from the way it behaves.
+- [W20.110] The eccentric cell is coupled with the dendrites of normal retinal cells so that when a normal cell depolarizes in the presence of light, the eccentric cell does too.
+- [W20.111] A horseshoe crab's compound eyes are less complex and organized than those of most other arthropods.
+- [W20.112] Ommatidia are arranged messily in what's been deemed an "imperfect hexagonal array" and have a highly variable number of photoreceptors (between 4 and 20) in their retina.
+- [W20.113] Although each ommatidium typically has one eccentric cell, there are sometimes two, and occasionally more.
+- [W20.114] All the eye's photoreceptors, both rods and cones, have a single visual pigment with a peak absorption of around 525 nanometers.
+- [W20.115] This differs from insects or decapod crustaceans, as their photoreceptors are sensitive to different spectrums of light.
+- [W20.116] Horseshoe crabs have relatively poor vision, and to compensate for that, have the largest rods and cones of any known animal, about 100 times the size of humans'.
+- [W20.117] Furthermore, their eyes are a million times more sensitive to light at night than during the day.
+- [W20.118] At the front of the animal along the cardiac ridge are a pair of eyes known as median ocelli.
+- [W20.119] Their retina is even less organized than those of the compound eyes having between 5 and 11 photoreceptors paired with one or two secondary visual cells called arhabdomeric cells.
+- [W20.120] Arhabdomeric cells are equivalent to eccentric cells as they function identically.
+- [W20.121] The median ocelli are unique due to having two distinct visual pigments.
+- [W20.122] While the first functions similarly to the pigment in the compound eyes, the second has a peak absorption of around 360 nanometers, allowing the animal to see ultraviolet light.
+- [W20.123] Other, more rudimentary eyes in horseshoe crabs include the endoparietal ocelli, the two lateral ocelli, two ventral ocelli, and a cluster of photoreceptors on the abdomen and telson.
+- [W20.124] The endoparietal, lateral, and ventral ocelli are very similar to the median ocelli, except like the compound eyes, they only see in visual light with a peak absorbance of around 525 nanometers.
+- [W20.125] The endoparietal eye further differs due to being a fusion of two separate ocelli.
+- [W20.126] This eye is found not far behind the median eyes and sits directly on the cardiac ridge.
+- [W20.127] The two ventral ocelli are located on the underside of the cephalothorax near the mouth and likely help to orient the animal when walking around or swimming.
+- [W20.128] The lateral eyes can be found directly behind the compound eyes and become functional just before horseshoe crab larvae hatch.
+- [W20.129] The telson's photoreceptors are unique as they're spaced throughout the structure rather than located in a fixed spot.
+- [W20.130] Together with UV-seeing median ocelli, these photoreceptors have been found to influence the animal's circadian rhythm.
+- [W20.131] Circulation and respiration
+- [W20.132] Like all arthropods, horseshoe crabs have an open circulatory system.
+- [W20.133] This means that instead of using a system of closed-off veins and arteries, gasses are transported through a cavity called the hemocoel.
+- [W20.134] The hemocoel contains hemolymph, a fluid that fills all parts of the cavity and serves as the animal's blood.
+- [W20.135] Rather than using iron-based hemoglobin, horseshoe crabs transport oxygen with a copper-based protein called hemocyanin, giving its blood a bright blue color.
+- [W20.136] The blood also contains two types of cells: amebocytes that are utilized in clotting, and cyanocytes that create hemocyanin.
+- [W20.137] Horseshoe crabs pump blood with a long, tubular heart located in the middle of their body.
+- [W20.138] Like the hearts of vertebrates, the hearts of these animals have two separate states: a state of contraction known as systole, and a state of relaxation known as diastole.
+- [W20.139] At the beginning of systole, blood leaves the heart through a large artery known as the aorta and numerous arteries parallel to the heart.
+- [W20.140] Next, the arteries dump blood into large cavities of the hemocoel surrounding the animal's tissues.
+- [W20.141] Larger cavities lead to smaller cavities, allowing the hemocoel to oxygenate all the animal's tissues.
+- [W20.142] During diastole, blood flows from the hemocoel to a cavity known as the pericardial sinus.
+- [W20.143] From there, blood re-enters the heart and the cycle begins again.
+- [W20.144] Horseshoe crabs breathe through modified swimming appendages beneath their abdomen known as book gills.
+- [W20.145] While they appear smooth on the outside, the insides of these book gills are lined with several thin "pages" called lamellae.
+- [W20.146] Each lamella is hollow and contains an extension of hemocoel, allowing gasses to diffuse between a horseshoe crab's blood and external environment.
+- [W20.147] There are roughly 80–200 lamellae in each gill, with all ten gills giving the animal a total breathing surface area of about two square meters.
+- [W20.148] When underwater, the lamellae are routinely aerated by rhythmic movement of the book gills.
+- [W20.149] These movements create a current that enters through two gaps between the cephalothorax and abdomen and exits on either side of the telson.
+- [W20.150] Feeding, digestion, and excretion
+- [W20.151] Horseshoe crabs first break up their food using bristles known as gnathobases located at the coxa, or base, of their walking limbs.
+- [W20.152] Gnathobases on the right and left legs form a cavity known as the food groove that begins near the pusher legs and extends to the animal's mouth.
+- [W20.153] The end of the groove is closed off by the animal's chilaria.
+- [W20.154] To break up any food, each pair of coxa moves in the opposite direction parallel to the ones in front of and behind it.
+- [W20.155] This motion happens while feeding and walking, pushing food towards the mouth.
+- [W20.156] Horseshoe crabs catch soft prey with claws on their second to fifth legs and place them in the food groove to be ground up.
+- [W20.157] For harder prey, horseshoe crabs use a pair of stout, cuspid gnathobases (informally known as "nutcrackers") on the back of their sixth legs.
+- [W20.158] After the food is sufficiently torn up, it is moved by the chelicerae into the mouth for further digestion.
+- [W20.159] Horseshoe crabs are some of the only living chelicerates with guts that can process solid food.
+- [W20.160] Its digestive system is J-shaped, lined with a cuticle, and can be divided into three main sections: the foregut, midgut, and hindgut.
+- [W20.161] The foregut is contained in the animal's cephalothorax and comprises the esophagus, crop, and gizzard.
+- [W20.162] The esophagus moves food from the mouth to the crop where it is stored before entering the gizzard.
+- [W20.163] The gizzard is a muscular, toothed organ that serves to pulverize the food from the crop and regurgitate any indigestible particles.
+- [W20.164] The foregut terminates in the pyloric valve and sphincter, a muscular door of sorts that separates it from the midgut.
+- [W20.165] The midgut is composed of a short stomach, a long intestinal tube.
+- [W20.166] Connected to the stomach are a pair of large, sack-like digestive ceca known as hepatopancreases.
+- [W20.167] These ceca fill most of the cephalothoracic and abdominal hemocoel and are where most digestion and nutrient absorption takes place.
+- [W20.168] Before and following digestion, the midgut lining (epithelium) secretes a peritrophic membrane made of chitin and mucoproteins that surrounds the food and later the feces.
+- [W20.169] Horseshoe crabs excrete waste through both their book gills and hindgut.
+- [W20.170] Similar to many aquatic animals, horseshoe crabs have an ammonotelic metabolism and eliminate ammonia and other small toxins through diffusion with their gills.
+- [W20.171] After being processed in the midgut, waste is passed into a muscular tube known as the hindgut or rectum and then excreted from a sphincter known as the anus.
+- [W20.172] Externally, this opening is located on the bottom side of the animal right below its telson.
+- [W20.173] In the modern day, horseshoe crabs have a relatively limited distribution.
+- [W20.174] The three Asian species mainly occur in South and Southeast Asia along the Bay of Bengal and the coasts of Indonesia.
+- [W20.175] A notable exception is the tri-spine horseshoe crab, whose range extends northward to the coasts of China, Taiwan, and Southern Japan.
+- [W20.176] The American species lives from the coast of Nova Scotia to the northern Gulf of Mexico, with another population residing around the Yucatán Peninsula.
+- [W20.177] Extant horseshoe crabs generally live in saltwater, though one species, the mangrove horseshoe crab (Carcinoscorpius) is often found in more brackish environments.
+- [W20.178] As recently as the Early Pleistocene, 2 million years ago, Limulus polyphemus inhabited the Kap Kobenhavn Formation of northern Greenland, as demonstrated by environmental DNA.
+- [W20.179] Around this time, the sea surface temperature would have been 8 °C warmer than the present.
+- [W20.180] Past adaptation to freshwater
+- [W20.181] According to a phylogeny from 2015, now-extinct xiphosurans traveled to freshwater at least five times throughout history.
+- [W20.182] This same transition happened twice in the horseshoe crabs Victalimulus and Limulitella, with both inhabiting environments such as swamps and rivers.
+- [W20.183] Horseshoe crabs eat primarily worms and mollusks living on the ocean floor.
+- [W20.184] They may also feed on crustaceans and even small fish.
+- [W20.185] Foraging usually takes place at night.
+- [W20.186] Horseshoe crabs live a primarily benthic lifestyle, preferring to stay at the water's bottom.
+- [W20.187] However, they are also known to swim.
+- [W20.188] This behavior is widespread in young individuals or those traveling to the shore to breed.
+- [W20.189] Horseshoe crabs swim upside-down with their bodies pointed downwards at an angle.
+- [W20.190] They use their telson as a rudder, changing direction towards where it moved.
+- [W20.191] To swim, the animal's retracted legs move to the front of its cephalothorax, extend, and stroke towards the back.
+- [W20.192] This motion happens in unison with the genital operculum and the first three pairs of book gills.
+- [W20.193] While the front appendages reset, the back two book gills perform a smaller stroke.
+- [W20.194] Horseshoe crabs have a variety of ways to right or flip themselves over.
+- [W20.195] The most common method involves the animal arching its opisthosoma towards the carapace and balancing its telson on the substrate.
+- [W20.196] The animal then moves the telson while beating its legs and gills.
+- [W20.197] This causes the animal to tilt and eventually flip over.
+- [W20.198] Furthermore, horseshoe crabs can right themselves while swimming.
+- [W20.199] This method involves the animal swimming to the bottom, rolling on its side, and touching the bottom with its pusher legs while still in the water column.
+- [W20.200] Baby horseshoe crabs begin their lives as a "trilobite larvae", a name given due to their resemblance to the extinct trilobite.
+- [W20.201] Upon hatching, larva typically measure around 1 cm (1⁄2 in) long.
+- [W20.202] Their telson is small, and they lack three pairs of book gills.
+- [W20.203] In all other respects, the larvae appear like minuscule adults.
+- [W20.204] Baby horseshoe crabs can swim and burrow in sediment after emerging from their egg.
+- [W20.205] As the larvae molt into juveniles, their telson gets longer and they gain their missing book gills.
+- [W20.206] Juveniles can attain a carapace width of around 4 cm (1+1⁄2 in) in their first year.
+- [W20.207] For each molt, the juvenile will grow about 33% larger.
+- [W20.208] This process continues until the animal reaches its adult size.
+- [W20.209] When mature, female horseshoe crabs are typically 20–30% larger than males.
+- [W20.210] The smallest species is the mangrove horseshoe crab (C. rotundicauda) and the largest is the tri-spine horseshoe crab (T. tridentatus).
+- [W20.211] On average, males of C. rotundicauda are about 30 centimeters (12 inches) long, including a telson that is about 15 cm (6 in), and a carapace about 15 cm (6 in) wide.
+- [W20.212] Some southern populations (in the Yucatán Peninsula) of L. polyphemus are somewhat smaller, but otherwise, this species is larger.
+- [W20.213] In the largest species, T. tridentatus, females can reach as much as 79.5 cm (31+1⁄4 in) long, including their telson, and up to 4 kg (9 lb) in weight.
+- [W20.214] This is only about 10–20 cm (4–8 in) longer than the largest females of L. polyphemus and T. gigas, but roughly twice the weight.
+- [W20.215] During the breeding season (spring and summer in the Northeast US, year-round in warmer locations) horseshoe crabs migrate to shallow coastal waters.
+- [W20.216] Nesting typically happens at high tides around full or new moons.
+- [W20.217] When nesting, they spawn on beaches and salt marshes.
+- [W20.218] All four horseshoe crab species engage in amplexus, with the fully mature male utilizing its claspers to maintain prolonged grasp of the sexually dismorphically larger female.
+- [W20.219] When mating, the male clings to the back or opisthosoma of the female using specialized pedipalps.
+- [W20.220] This typically leaves scars, the absence of which allows younger females to be easily identified.
+- [W20.221] In the meantime, the female digs a hole in the sediment and lays between 2,000 and 30,000 large eggs.
+- [W20.222] Unusual for arthropods, fertilization is done externally.
+- [W20.223] In most species, procreation is done by both the main and additional "satellite males".
+- [W20.224] Satellite males surround the main pair and may have some success fertilizing eggs.
+- [W20.225] In L. polyphemus, the eggs take about two weeks to hatch with shore birds eating many of them in the process.
+- [W20.226] Natural breeding of horseshoe crabs in captivity has proven to be difficult.
+- [W20.227] Some evidence indicates that mating takes place only in the presence of the sand or mud in which horseshoe crab eggs have previously hatched.
+- [W20.228] However, it is not known with certainty what the animals sense in the sand, how they sense it, or why they mate only in its presence.
+- [W20.229] In contrast, artificial insemination and induced spawning have been done since the 1980s.
+- [W20.230] Additionally, eggs and juveniles collected from the wild can easily be raised to adulthood in a captive environment.
+- [W20.231] Though they have little meat, horseshoe crabs are valued as a delicacy in some parts of East and Southeast Asia.
+- [W20.232] The meat is white, has a rubbery texture similar to that of lobsters, and possesses a slightly salty aftertaste.
+- [W20.233] Horseshoe crab can be eaten both raw and cooked, but must be properly prepared to prevent food poisoning.
+- [W20.234] Furthermore, only certain species can be eaten.
+- [W20.235] There have been numerous reports of poisonings after consuming mangrove horseshoe crabs (Carcinoscorpius rotundicauda) as its meat contains tetrodotoxin.
+- [W20.236] While horseshoe crab meat is commonly prepared by grilling or stewing, it can also be pickled in vinegar or stir-fried with vegetables.
+- [W20.237] Many recipes involve the use of various spices, herbs, and chilies to give the dish more flavor.
+- [W20.238] In addition to their meat, horseshoe crabs are valued for their eggs.
+- [W20.239] Much like the meat, only the eggs of specific species can be eaten.
+- [W20.240] The eggs of mangrove horseshoe crabs contain tetrodotoxin and will result in food poisoning if consumed.
+- [W20.241] In the United States, horseshoe crabs are used as bait to fish for eels, whelk, or conch.
+- [W20.242] Nearly 1 million crabs are harvested yearly for bait in the United States, dwarfing the biomedical mortality.
+- [W20.243] However, fishing with horseshoe crab was banned indefinitely in New Jersey in 2008 with a moratorium on harvesting to protect the red knot, a shorebird that eats the crabs' eggs.
+- [W20.244] A ban on catching female crabs was put in place in Delaware, and a permanent moratorium is in effect in South Carolina.
+- [W20.245] The blood of a horseshoe crab contains cells known as amebocytes.
+- [W20.246] These play a similar role to the white blood cells of vertebrates in defending the organism against pathogens.
+- [W20.247] Amebocytes from the blood of Limulus polyphemus are used to make Limulus amebocyte lysate (LAL), which is used for the detection of bacterial endotoxins in medical applications.
+- [W20.248] There is a high demand for blood, the harvest of which involves collecting the animals, bleeding them, and then releasing them back into the sea.
+- [W20.249] Most of the animals survive the process; mortality is correlated with both the amount of blood extracted from an individual animal and the stress experienced during handling and transportation.
+- [W20.250] Estimates of mortality rates following blood harvesting vary from 3–15% to 10–30%.
+- [W20.251] Approximately 500,000 Limulus are harvested annually for this purpose.
+- [W20.252] According to the biomedical industry, up to 30% of an individual's blood is removed.
+- [W20.253] NPR disagrees with this claim, reporting that it "can deplete them of more than half their volume of blue blood".
+- [W20.254] Bleeding may prevent female horseshoe crabs from being able to spawn or may decrease the number of eggs they can lay.
+- [W20.255] It has been found that harvesting blood from horseshoe crabs drastically impacts their percent daily activity, decreasing their overall movement.
+- [W20.256] The horseshoe crabs spend between one and three days away from the ocean before being returned.
+- [W20.257] As long as the gills stay moist, they can survive on land for four days.
+- [W20.258] Some scientists are skeptical that certain companies return their horseshoe crabs to the ocean at all, instead suspecting them of selling the horseshoe crabs as fishing bait.
+- [W20.259] The use of horseshoe crab blood in pharmaceutical testing has begun to decline.
+- [W20.260] In 1986, Kyushu University researchers discovered that the same test could be achieved by using isolated Limulus clotting factor C (rFC), an enzyme found in LAL, as by using LAL itself.
+- [W20.261] Jeak Ling Ding, a National University of Singapore researcher, patented a process for manufacturing rFC; on 8 May 2003, synthetic isolated rFC made via her patented process became available for the first time.
+- [W20.262] Industry at first took little interest in the new product, however, as it was patent-encumbered, not yet approved by regulators, and sold by a single manufacturer, Lonza Group.
+- [W20.263] In 2013, however, Hyglos GmbH also began manufacturing its own rFC product.
+- [W20.264] This, combined with the acceptance of rFC by European regulators, the comparable cost between LAL and rFC, and support from Eli Lilly and Company, which committed to using rFC in lieu of LAL, is projected to all but end the practice of blood harvesting from horseshoe crabs.
+- [W20.265] Amgen and Abbott Laboratories announced in February 2026 that they were transitioning away from horseshoe crab blood for biomedical testing.
+- [W20.266] Vaccine research and development during the COVID-19 pandemic has added an additional "strain on the American horseshoe crab." In December 2019, a report of the US Senate which encouraged the Food and Drug Administration to "establish processes for evaluating alternative pyrogenicity tests and report back [to the Senate] on steps taken to increase their use" was released; PETA backed the report.
+- [W20.267] In June 2020, it was reported that U.S.
+- [W20.268] Pharmacopeia had declined to give rFC equal standing with horseshoe crab blood.
+- [W20.269] Without the approval for the classification as an industry standard testing material, U.S. companies will have to overcome the scrutiny of showing that rFC is safe and effective for their desired uses, which may serve as a deterrent for usage of the horseshoe crab blood substitute.
+- [W20.270] Development along shorelines is dangerous to horseshoe crab spawning, limiting available space and degrading habitat.
+- [W20.271] Bulkheads can block access to intertidal spawning regions as well.
+- [W20.272] The population of Indo-Pacific horseshoe crabs (Tachypleus gigas) in Malaysia and Indonesia has decreased dramatically since 2010.
+- [W20.273] This is primarily due to overharvesting, as horseshoe crabs are considered a delicacy in countries like Thailand.
+- [W20.274] The individuals most likely to be targeted are gravid females, as they can be sold for both their meat and eggs.
+- [W20.275] This method of harvesting has led to an unbalanced sex ratio in the wild, something that also contributes to the area's declining population.
+- [W20.276] Because of habitat destruction for shoreline development, use in fishing, plastic pollution, status as a culinary delicacy, and use in research and medicine, the horseshoe crab faces both endangered and extinct statuses.
+- [W20.277] One species, the tri-spine horseshoe crab (Tachypleus tridentatus), has already been declared locally extinct in Taiwan.
+- [W20.278] Facing a greater than 90% decrease in T. tridentatus juveniles, it is suspected that Hong Kong will be the next to declare tri-spine horseshoe crabs as extinct from the area.
+- [W20.279] This species is listed as endangered on the IUCN Red List, specifically because of the overexploitation and loss of critical habitat.
+- [W20.280] To preserve and ensure the continuous supply of horseshoe crabs, a breeding center was built in Johor, Malaysia, where animals are bred and released back into the ocean in the thousands once every two years.
+- [W20.281] It is estimated to take around 12 years before they are suitable for consumption.
+- [W20.282] A low horseshoe crab population in Delaware Bay is hypothesized to endanger the future of the red knot.
+- [W20.283] Red knots, long-distance migratory shorebirds, feed on the protein-rich eggs during their stopovers on the beaches of New Jersey and Delaware.
+- [W20.284] An effort is ongoing to develop adaptive-management plans to regulate horseshoe crab harvests in the bay in a way that protects migrating shorebirds.
+- [W20.285] In 2023, the US Fish and Wildlife Service halted the harvesting of horseshoe crabs in the Cape Romain National Wildlife Refuge, South Carolina, from March 15 to July 15 to aid their reproduction.
+- [W20.286] This decision was influenced by the importance of horseshoe crab eggs as a food source for migratory birds, the ongoing use of horseshoe crabs for bait, and the use of their blood in medical products.
+- [W20.287] The ban supports the conservation goals of the refuge, spanning 66,000 acres (26,700 hectares) of marshes, beaches, and islands near Charleston.
+- [W20.288] Pocock, Reginald Innes (1911).
+- [W20.289] Cambridge University Press. pp.
+- [W20.290] The Horseshoe Crab - Detailed information about horseshoe crabs
+- [W20.291] When the Horseshoe Crabs Are Gone, We'll Be in Trouble.
+- [W20.292] Science Friday Video: horseshoe crab season
+- [W20.293] Horseshoe crab at the Smithsonian Ocean Portal
+- [W20.294] The Horseshoe Crab – Medical Uses; The Ecological Research & Development Group (ERDG)
+- [W20.295] RedKnot.org Archived 2014-04-15 at the Wayback Machine links to shorebird recovery sites, movies, events & other info on Red Knot rufa & horseshoe crabs.
+- [W20.296] Crab Bleeders Article about the men who bleed horseshoe crabs for science.
+- [W20.297] Day time mating of horseshoe crabs in Maine
+- [W20.298] Sarah Zhang, The Last Days of the Blue-Blood Harvest, The Atlantic, May 9, 2018
+
+## [W21] Wikipedia: Auk
+https://en.wikipedia.org/w/index.php?title=Auk&oldid=1356220599 · CC BY-SA 4.0 · usage: ai_input
+
+- [W21.1] Auks or alcids are birds of the family Alcidae in the order Charadriiformes.
+- [W21.2] The alcid family includes the murres, guillemots, auklets, puffins, and murrelets.
+- [W21.3] The family contains 25 extant or recently extinct species that are classified into 11 genera.
+- [W21.4] Auks are found throughout the Northern Hemisphere.
+- [W21.5] Apart from the extinct great auk, all auks can fly, and are excellent swimmers and divers (appearing to "fly" in water), but their walking appears clumsy.
+- [W21.6] The English names of several species differ between Europe and North America.
+- [W21.7] The two species known as 'murres' in North America are called 'guillemots' in Europe, and the species called 'little auk' in Europe is known as 'dovekie' in North America.
+- [W21.8] The word 'auk'  is derived from Icelandic álka and Norwegian alka or alke, from Old Norse ālka, from Proto-Germanic *alkǭ (sea-bird, auk).
+- [W21.9] The family name Alcidae comes from the genus name Alca, which was given by Carl Linnaeus in 1758 for the razorbill (Alca torda), from the Norwegian word alke.
+- [W21.10] Auks are superficially similar to penguins, having black-and-white colours, upright posture, and some of their habits.
+- [W21.11] However, they are not closely related to penguins, but are believed to be an example of moderate convergent evolution.
+- [W21.12] Auks are monomorphic (males and females are similar in appearance).
+- [W21.13] Extant auks range in size from the least auklet, at 85 g (3 oz) and 15 cm (5.9 in), to the thick-billed murre, at 1 kg (2.2 lb) and 45 cm (18 in).
+- [W21.14] Due to their short wings, auks flap their wings very quickly to fly.
+- [W21.15] Auks have largely sacrificed flight, and mobility on land, for swimming ability, although not to the extent that penguins have.
+- [W21.16] Auk wings are a compromise between the best possible design for diving and the bare minimum needed for flying.
+- [W21.17] This varies by subfamily, with the Uria guillemots (including the razorbill) and  murrelets being the most efficient under the water, whereas the puffins and auklets are better adapted for flying and walking.
+- [W21.18] The feeding behaviour of auks is often compared to that of penguins;  both groups are wing-propelled, pursuit divers.
+- [W21.19] In the region where auks live, their only seabird competition are cormorants (which are dive-powered by their strong feet).
+- [W21.20] In areas where the two groups feed on the same prey, the auks tend to feed further offshore.
+- [W21.21] Strong-swimming murres hunt faster, schooling fish, whereas auklets take slower-moving krill.
+- [W21.22] Time depth recorders on auks have shown that they can dive as deep as 100 m (330 ft) in the case of Uria guillemots, 40 m (130 ft) for the Cepphus guillemots and 30 m (98 ft) for the auklets.
+- [W21.23] Auks are pelagic birds, spending the majority of their adult lives on the open sea and going ashore only for breeding, although some species, such as the common guillemot, spend a great part of the year defending their nesting spot from others.
+- [W21.24] Auks are monogamous, and tend to form lifelong pairs.
+- [W21.25] They typically lay a single egg, and they use the nesting site year after year.
+- [W21.26] Some species, such as the Uria guillemots (murres), nest in large colonies on cliff edges; others, such as the Cepphus guillemots, breed in small groups on rocky coasts; and the puffins, auklets, and some murrelets nest in burrows.
+- [W21.27] All species except the Brachyramphus murrelets are colonial.
+- [W21.28] Evolution and distribution
+- [W21.29] Historically, the auks were believed to be one of the earliest distinct charadriiform lineages due to their characteristic morphology, but genetic analyses have demonstrated that these peculiarities are the product of strong natural selection, instead; as opposed to, for example, plovers (a much older charadriiform lineage), auks radically changed from a wading shorebird to a diving seabird lifestyle.
+- [W21.30] Thus today, the auks are no longer separated in their own suborder (Alcae), but are considered part of the Lari suborder, which otherwise contains gulls and similar birds.
+- [W21.31] Judging from genetic data, their closest living relatives appear to be the skuas, with these two lineages separating about 30 million years ago (Mya).
+- [W21.32] Alternatively, auks may have split off far earlier from the rest of the Lari and undergone strong morphological, but slow genetic evolution, which would require a very high evolutionary pressure, coupled with a long lifespan and slow reproduction.
+- [W21.33] The earliest unequivocal fossils of auks are from the late Eocene, some 35 Mya.
+- [W21.34] The genus Miocepphus (from the Miocene, 15 Mya) is the earliest known from good specimens.
+- [W21.35] Two very fragmentary fossils are often assigned to the Alcidae, although this may not be correct: Hydrotherikornis (Late Eocene) and Petralca (Late Oligocene).
+- [W21.36] Most extant genera are known to exist since the Late Miocene or Early Pliocene (about 5 Mya).
+- [W21.37] Miocene fossils have been found in both California and Maryland, but the greater diversity of fossils and tribes in the Pacific leads most scientists to conclude they first evolved there, and in the Miocene Pacific, the first fossils of extant genera are found.
+- [W21.38] Early movement between the Pacific and the Atlantic probably happened to the south (since no northern opening to the Atlantic existed), with later movements across the Arctic Ocean.
+- [W21.39] The flightless subfamily Mancallinae, which was apparently restricted to the Pacific Coast of southern North America and became extinct in the Early Pleistocene, is sometimes included in the family Alcidae under some definitions.
+- [W21.40] One species, Miomancalla howardae, is the largest charadriiform of all time.
+- [W21.41] The family contains 25 extant or recently extinct species that are classified into 11 genera.
+- [W21.42] The extant auks (subfamily Alcinae) are broken up into two main groups - the usually high-billed puffins (tribe Fraterculini) and auklets (tribe Aethiini), as opposed to the more slender-billed murres and true auks (tribe Alcini), and the murrelets and guillemots (tribes Brachyramphini and Cepphini).
+- [W21.43] The tribal arrangement was originally based on analyses of morphology and ecology. mtDNA cytochrome b sequences, and allozyme studies confirm these findings except that the Synthliboramphus murrelets should be split into a distinct tribe, as they appear more closely related to the Alcini; in any case, assumption of a closer relationship between the former and the true guillemots was only weakly supported by earlier studies.
+- [W21.44] Of the genera, only a few species are placed in each.
+- [W21.45] This is probably a product of the rather small geographic range of the family (the most limited of any seabird family), and the periods of glacial advance and retreat that have kept the populations on the move in a narrow band of subarctic ocean.
+- [W21.46] Today, as in the past, the auks are restricted to cooler northern waters.
+- [W21.47] Their ability to spread further south is restricted as their prey hunting method, pursuit diving, becomes less efficient in warmer waters.
+- [W21.48] The speed at which small fish (which along with krill are the auk's principal prey) can swim doubles as the temperature increases from 5 to 15 °C (41 to 59 °F), with no corresponding increase in speed for the bird.
+- [W21.49] The southernmost auks, in California and Mexico, can survive there because of cold upwellings.
+- [W21.50] The current paucity of auks in the Atlantic (six species), compared to the Pacific (19–20 species) is considered to be because of extinctions to the Atlantic auks; the fossil record shows many more species were in the Atlantic during the Pliocene.
+- [W21.51] Auks also tend to be restricted to continental-shelf waters and breed on few oceanic islands.
+- [W21.52] Miocepphus (fossil: Middle Miocene of CE USA)
+- [W21.53] Miocepphus mcclungi Wetmore, 1940
+- [W21.54] Miocepphus bohaskai Wijnker and Olson, 2009
+- [W21.55] Miocepphus blowi Wijnker and Olson, 2009
+- [W21.56] Miocepphus mergulellus Wijnker and Olson, 2009
+- [W21.57] Tribe Alcini – typical auks and murres
+- [W21.58] Common murre or common guillemot, Uria aalge
+- [W21.59] Thick-billed murre or, Brünnich's guillemot, Uria lomvia
+- [W21.60] Little auk or dovekie, Alle alle
+- [W21.61] Great auk, Pinguinus impennis (extinct, c.1852)
+- [W21.62] Pinguinus alfrednewtoni Olson, 1977 (fossil: Pliocene)
+- [W21.63] Tribe Synthliboramphini – synthliboramphine murrelets
+- [W21.64] Scripps's murrelet, Synthliboramphus scrippsi – formerly in S. hypoleucus ("Xantus's murrelet")
+- [W21.65] Guadalupe murrelet, Synthliboramphus hypoleucus – sometimes separated in Endomychura
+- [W21.66] Craveri's murrelet, Synthliboramphus craveri – sometimes separated in Endomychura
+- [W21.67] Ancient murrelet, Synthliboramphus antiquus
+- [W21.68] Japanese murrelet, Synthliboramphus wumizusume
+- [W21.69] Tribe Cepphini – true guillemots
+- [W21.70] Black guillemot or tystie,  Cepphus grylle
+- [W21.71] Pigeon guillemot,  Cepphus columba
+- [W21.72] Kurile guillemot, Cepphus columba snowi
+- [W21.73] Spectacled guillemot,  Cepphus carbo
+- [W21.74] Tribe Brachyramphini – brachyramphine murrelets
+- [W21.75] Marbled murrelet,  Brachyramphus marmoratus
+- [W21.76] Long-billed murrelet, Brachyramphus perdix
+- [W21.77] Kittlitz's murrelet,  Brachyramphus brevirostris
+- [W21.78] Cassin's auklet,  Ptychoramphus aleuticus
+- [W21.79] Parakeet auklet,  Aethia psittacula
+- [W21.80] Crested auklet,  Aethia cristatella
+- [W21.81] Whiskered auklet,  Aethia pygmaea
+- [W21.82] Least auklet,  Aethia pusilla
+- [W21.83] Tribe Fraterculini – puffins
+- [W21.84] Rhinoceros auklet,  Cerorhinca monocerata
+- [W21.85] Atlantic puffin,  Fratercula arctica
+- [W21.86] Horned puffin,  Fratercula corniculata
+- [W21.87] Tufted puffin,  Fratercula cirrhata
+- [W21.88] Biodiversity of auks seems to have been markedly higher during the Pliocene.
+- [W21.89] See the genus accounts for prehistoric species.
+- [W21.90] Kiviak, a traditional Inuit food from Greenland that is made of auks preserved in seal skin
+- [W21.91] Tradeoffs for locomotion in air and water
+- [W21.92] Recent taxonomic changes affecting the British and Western Palaearctic lists".
+- [W21.93] Gaston, Anthony J.; Jones, Ian L.
+- [W21.94] Oxford: Oxford University Press.
+- [W21.95] Paton, T.A.; Baker, A.J.; Groth, J.G.; Barrowclough, G.F.
+- [W21.96] "RAG-1 sequences resolve phylogenetic relationships within charadriiform birds".
+- [W21.97] Molecular Phylogenetics and Evolution.
+- [W21.98] Bibcode:2003MolPE..29..268P. doi:10.1016/S1055-7903(03)00098-8.
+- [W21.99] Diving Birds of North America by Paul Johnsgard
+- [W21.100] Media related to Alcidae at Wikimedia Commons
+
+## [W22] Wikipedia: Peanut
+https://en.wikipedia.org/w/index.php?title=Peanut&oldid=1378922028 · CC BY-SA 4.0 · usage: ai_input
+
+- [W22.1] The peanut (Arachis hypogaea), also known as the groundnut, goober (US, via Kikongo), goober pea, pindar (US, via Kikongo) or monkey nut (UK), is a legume crop grown mainly for its edible seeds, contained in underground pods.
+- [W22.2] It is widely grown in the tropics and subtropics by small and large commercial producers, both as a grain legume and as an oil crop.
+- [W22.3] Underground fruiting (geocarpy) is atypical among legumes, which led botanist Carl Linnaeus to name the species hypogaea, from Greek 'under the earth'.
+- [W22.4] The peanut belongs to the flowering plant family Fabaceae (or Leguminosae), commonly known as the pea family, and is native to South America.
+- [W22.5] Like most other legumes, peanuts harbor symbiotic nitrogen-fixing bacteria in root nodules, which improve soil fertility, making them valuable in crop rotations.
+- [W22.6] Edible products include peanut oil and peanut butter.
+- [W22.7] Peanut sauces are used in Latin America, West Africa, and Southeast Asia, while in the Indian subcontinent, they are added to salads and stews.
+- [W22.8] In North America, peanuts are used in candies, cakes, and cookies, while peanut butter is widely eaten.
+- [W22.9] Some people are allergic to peanuts and can have a fatal reaction.
+- [W22.10] The plant tops are used for silage, while oilcake meal is used as animal feed and as a fertilizer.
+- [W22.11] Industrial uses include paint, varnish, and furniture polish made with peanut oil.
+- [W22.12] Arachis hypogaea was described by Carl Linnaeus in his Species Plantarum in 1753.
+- [W22.13] It is an annual herbaceous plant growing 30 to 50 centimetres (12 to 20 in) tall.
+- [W22.14] It belongs to the botanical family Fabaceae, also known as Leguminosae, and commonly known as the legume, bean, or pea family.
+- [W22.15] Like other legumes, peanuts harbor symbiotic nitrogen-fixing bacteria in their root nodules.
+- [W22.16] The leaves are opposite and pinnate with four leaflets (two opposite pairs; no terminal leaflet); each leaflet is 1 to 7 cm (1⁄2 to 2+3⁄4 in) long and 1 to 3 cm (1⁄2 to 1+1⁄4 in) across.
+- [W22.17] Like those of many other legumes, the leaves are nyctinastic; that is, they have "sleep" movements, closing at night.
+- [W22.18] The flowers are 1 to 1.5 cm (3⁄8 to 5⁄8 in) across, and yellowish orange with reddish veining.
+- [W22.19] They are borne in axillary clusters on the stems.
+- [W22.20] Peanut fruits develop underground, an unusual feature known as geocarpy.
+- [W22.21] After fertilization, a short stalk at the base of the ovary—often termed a gynophore, but which appears to be part of the ovary—elongates to form a thread-like structure known as a "peg".
+- [W22.22] This peg grows into the soil, allowing the fruit to develop underground.
+- [W22.23] These pods, technically called legumes, are 3 to 7 centimetres (1 to 3 in) long, normally containing one to four seeds.
+- [W22.24] The shell of the peanut fruit consists primarily of a mesocarp with several large veins traversing its length.
+- [W22.25] Botanically they are not nuts ("fruit whose ovary wall becomes hard at maturity").
+- [W22.26] Peanuts contain polyphenols, polyunsaturated and monounsaturated fats, phytosterols, and dietary fiber in amounts similar to several tree nuts.
+- [W22.27] Peanut skins contain resveratrol.
+- [W22.28] The Arachis genus is native to South America, east of the Andes, around Peru, Bolivia, Argentina, and Brazil.
+- [W22.29] Cultivated peanuts (A. hypogaea) arose from a hybrid between two wild species of peanut, thought to be A. duranensis and A. ipaensis.
+- [W22.30] The initial hybrid would have been sterile, but spontaneous chromosome doubling restored its fertility, forming what is termed an amphidiploid or allotetraploid.
+- [W22.31] Genetic analysis suggests the hybridization may have occurred only once and gave rise to A. monticola, a wild form of peanut that occurs in a few limited locations in northwestern Argentina, or in southeastern Bolivia, where the peanut landraces with the most wild-like features are grown today, and by artificial selection to A. hypogaea.
+- [W22.32] The process of domestication through artificial selection made A. hypogaea dramatically different from its wild relatives.
+- [W22.33] The domesticated plants are bushier, more compact, and have a different pod structure and larger seeds.
+- [W22.34] From this center of origin, cultivation spread and formed secondary and tertiary centers of diversity in Peru, Ecuador, Brazil, Paraguay, and Uruguay.
+- [W22.35] Over time, thousands of peanut landraces evolved; these are classified into six botanical varieties and two subspecies (as listed in the peanut scientific classification table).
+- [W22.36] Subspecies A. h. fastigiata types are more upright in their growth habit and have shorter crop cycles.
+- [W22.37] Subspecies A. h. hypogaea types spread more on the ground and have longer crop cycles.
+- [W22.38] The oldest known archeological remains of pods have been dated at about 7,600 years old, possibly a wild species that was in cultivation, or A. hypogaea in the early phase of domestication.
+- [W22.39] They were found in Peru, where dry climatic conditions are favorable for the preservation of organic material.
+- [W22.40] Almost certainly, peanut cultivation predated this at the center of origin where the climate is moister.
+- [W22.41] Many pre-Columbian cultures, such as the Moche, depicted peanuts in their art.
+- [W22.42] Cultivation was well-established in Mesoamerica before the Spanish arrived.
+- [W22.43] There, the conquistadors found the tlālcacahuatl (the plant's Nahuatl name, hence the name in Spanish cacahuate) offered for sale in the marketplace of Tenochtitlan.
+- [W22.44] Its cultivation was introduced in Europe in the 19th century through Spain, particularly Valencia, where it is still produced, albeit marginally.
+- [W22.45] European traders later spread the peanut worldwide, and cultivation is now widespread in tropical and subtropical regions.
+- [W22.46] In West Africa, it substantially replaced a crop plant from the same family, the Bambara groundnut, whose seed pods also develop underground.
+- [W22.47] Peanuts were introduced to the U.S. during the colonial period and grown as a garden crop.
+- [W22.48] Starting in 1870, they were used as an animal feedstock until human consumption grew in the 1930s.
+- [W22.49] George Washington Carver (1864–1943) championed the peanut as part of his efforts for agricultural extension in the American South, where soils were depleted after repeated plantings of cotton.
+- [W22.50] He invented and promulgated hundreds of peanut-based products, including cosmetics, paints, plastics, gasoline and nitroglycerin.
+- [W22.51] Peanut butter was first manufactured in Canada by a process patented in the U.S. in 1884 by Marcellus Gilmore Edson of Montreal.
+- [W22.52] Peanuts were sold in North America at fairs or by pushcart operators throughout the 19th century.
+- [W22.53] Peanut butter became well known in the United States after the Beech-Nut company began selling it at the St.
+- [W22.54] Louis World's Fair in 1904.
+- [W22.55] Department of Agriculture initiated a program to encourage agricultural production and human consumption of peanuts in the late 19th and early 20th centuries.
+- [W22.56] Peanuts grow best in light, sandy loam soil with a pH of 5.9–7.
+- [W22.57] Their capacity to fix nitrogen means that providing they nodulate properly, peanuts benefit little or not at all from nitrogen-containing fertilizer, and they improve soil fertility.
+- [W22.58] Therefore, they are valuable in crop rotations.
+- [W22.59] Also, the yield of the peanut crop itself is increased in rotations through reduced diseases, pests, and weeds.
+- [W22.60] For example, in Texas, peanuts in a three-year rotation with corn yield 50% more than non-rotated peanuts.
+- [W22.61] Adequate levels of phosphorus, potassium, calcium, magnesium, and micronutrients are also necessary for good yields.
+- [W22.62] Peanuts need warm weather throughout the growing season to develop well.
+- [W22.63] They can be grown with as little as 350 mm (14 in) of water, but for best yields need at least 500 mm (20 in).
+- [W22.64] Depending on growing conditions and the cultivar of peanut, harvest is usually 90 to 130  days after planting for subspecies A. h. fastigiata types, and 120 to 150 days after planting for subspecies A. h. hypogaea types.
+- [W22.65] Peanut plants continue to produce flowers when pods are developing; therefore, some pods are immature even when they are ready for harvest.
+- [W22.66] To maximize yield, the timing of harvest is important.
+- [W22.67] If it is too early, too many pods will be unripe; if too late, the pods will snap off at the stalk and remain in the soil.
+- [W22.68] For harvesting, the entire plant, including most of the roots, is removed from the soil.
+- [W22.69] The main yield-limiting factors in semi-arid regions are drought and high-temperature stress.
+- [W22.70] The stages of reproductive development before flowering, at flowering, and at early pod development are particularly sensitive to these constraints.
+- [W22.71] Apart from nitrogen, phosphorus and potassium, other nutrient deficiencies causing significant yield losses are calcium, iron and boron.
+- [W22.72] Biotic stresses mainly include pests, diseases, and weeds.
+- [W22.73] Among insects pests, pod borers, aphids, and mites are of importance.
+- [W22.74] The most important diseases are leaf spots, rusts, and the toxin-producing fungus Aspergillus.
+- [W22.75] In mechanized systems, a machine is used to cut off the main root of the peanut plant by cutting through the soil just below the level of the peanut pods.
+- [W22.76] The machine lifts the "bush" from the ground, shakes it, then inverts it, leaving the plant upside down to keep the peanuts out of the soil.
+- [W22.77] This allows the peanuts to dry slowly to a little less than a third of their original moisture level over three to four days.
+- [W22.78] Traditionally, peanuts were pulled and inverted by hand.
+- [W22.79] After the peanuts have dried sufficiently, they are threshed, removing the peanut pods from the rest of the bush.
+- [W22.80] There are many peanut cultivars grown around the world.
+- [W22.81] The market classes grown in the United States are Spanish, Runner, Virginia, and Valencia.
+- [W22.82] Peanuts are produced in three major areas of the U.S.: the southeastern region which includes Alabama, Georgia, and Florida; the southwestern region which includes New Mexico, Oklahoma, and Texas; and in the general eastern U.S. which includes Virginia, North Carolina, and South Carolina.
+- [W22.83] In Georgia, Naomi Chapman Woodroof is responsible for developing the breeding program of peanuts, resulting in a harvest almost five times greater.
+- [W22.84] The small Spanish types are grown in South Africa and the southwestern and southeastern United States.
+- [W22.85] Until 1940, 90% of the peanuts grown in the U.S. state of Georgia were Spanish types, but the trend since then has been larger-seeded, higher-yielding, more disease-resistant cultivars.
+- [W22.86] Spanish peanuts have a higher oil content than other types of peanuts.
+- [W22.87] In the U.S., the Spanish group is primarily grown in New Mexico, Oklahoma, and Texas.
+- [W22.88] If peanut plants are subjected to severe drought during pod formation, or if pods are not properly stored, they may become contaminated with the mold Aspergillus flavus which may produce carcinogenic aflatoxins.
+- [W22.89] Lower-quality and moldy peanuts are more likely to be contaminated.
+- [W22.90] The USDA tests every truckload of raw peanuts for aflatoxin; any containing more than 15 parts per billion are destroyed.
+- [W22.91] The industry has manufacturing steps to ensure all peanuts are inspected for aflatoxin.
+- [W22.92] Peanuts tested to have high aflatoxin are used to make peanut oil where the mold can be removed.
+- [W22.93] The plant leaves can be affected by a fungus, Alternaria arachidis.
+- [W22.94] In 2023, world production of peanuts (reported as groundnuts excluding shelled) was 54 million tonnes, led by China with 36% of the total and India with 19% (table).
+- [W22.95] Some people (1.4–2% in Europe and the United States) experience allergic reactions to peanut exposure; symptoms range from watery eyes to anaphylactic shock.
+- [W22.96] The hygiene hypothesis of allergy states that a lack of early childhood exposure to infectious agents like germs and parasites could be causing the increase in food allergies.
+- [W22.97] Delaying exposure to peanuts in childhood can greatly increase the risk of developing allergy.
+- [W22.98] Peanut allergy has been associated with the use of skin preparations containing peanut oil among children, but the evidence is inconclusive.
+- [W22.99] Peanut allergies are associated with family history and intake of soy products.
+- [W22.100] Refined peanut oil does not cause allergic reactions in most people with peanut allergies.
+- [W22.101] However, crude (unrefined) peanut oils contain protein, which may cause allergic reactions.
+- [W22.102] Some school districts in the U.S. and elsewhere have banned peanuts and products containing them.
+- [W22.103] However, a 2015 study in Canada found no difference in the percentage of accidental exposures occurring in schools prohibiting peanuts compared to schools allowing them.
+- [W22.104] Raw Valencia peanuts are 4% water, 48% fat, 25% protein, and 21% carbohydrates (table).
+- [W22.105] In a reference amount of 100 grams (3.5 oz), peanuts provide 2,385 kilojoules (570 kilocalories) of food energy, supply 9 g (0.32 oz) of dietary fiber, and are a rich source (defined as more than 20% of the Daily Value, DV) of several B vitamins, vitamin E, and various dietary minerals, such as manganese, magnesium, and phosphorus.
+- [W22.106] The fats are mainly polyunsaturated and monounsaturated (83% of total fats when combined; table source).
+- [W22.107] Some studies show that regular consumption of peanuts is associated with a lower specific risk of mortality from certain diseases.
+- [W22.108] However, the study designs do not allow cause and effect to be inferred.
+- [W22.109] According to the US Food and Drug Administration, "Scientific evidence suggests but does not prove that eating 1.5 ounces per day of most nuts (such as peanuts) as part of a diet low in saturated fat and cholesterol may reduce the risk of heart disease."
+- [W22.110] With their high protein concentration, peanuts are used to help reduce or prevent malnutrition.
+- [W22.111] Plumpy Nut, MANA Nutrition, and Medika Mamba are high-protein, high-energy, and high-nutrient peanut-based pastes developed to be used as a therapeutic food by agencies including USAID to help in famine relief in developing countries.
+- [W22.112] Peanuts can be used like other legumes and grains to make a lactose-free, milk-like beverage, peanut milk, developed as a way to reduce malnutrition among children.
+- [W22.113] Peanut plant tops and crop residues can be used for silage.
+- [W22.114] Industrial peanut processing removes the fiber-rich hulls in large amounts; these can feed livestock, particularly ruminants.
+- [W22.115] The oilcake residue from oil processing is used as animal feed and soil fertilizer, usually in meal (powdered) form.
+- [W22.116] It concentrates the non-oil components of peanut seeds and contains some residue oil.
+- [W22.117] Groundnut cake is a livestock feed, mostly used by cattle as protein supplements.
+- [W22.118] It is one of the most important and valuable feeds for all types of livestock and one of the most active ingredients for poultry rations.
+- [W22.119] Poor storage of the cake may sometimes result in its contamination by aflatoxin, a naturally occurring mycotoxin that is produced by Aspergillus flavus and Aspergillus parasiticus.
+- [W22.120] Some peanuts (seeds) can be fed whole to livestock, for example, those over the production quota (such as in the US) or those with a higher aflatoxin content than that permitted by the food regulations but still within the level permitted by animal feed regulations.
+- [W22.121] Dry roasting is a common method of preparation, though the roast flavor is lost more quickly than with oil roasting or blister frying (oil roasting after soaking in water).
+- [W22.122] Boiled peanuts are a popular snack in India, China, West Africa, and the southern United States.
+- [W22.123] South, boiled peanuts are often prepared in briny water and sold in streetside stands.
+- [W22.124] Fresh "green" peanuts (not dehydrated) are ready for boiling; raw dehydrated peanuts must be rehydrated before boiling (usually in a bowl full of water overnight).
+- [W22.125] Peanut oil is often used in cooking because it has a mild flavor and a relatively high smoke point.
+- [W22.126] Due to its high Monounsaturated fat content, it is considered more healthy than saturated oils and is resistant to rancidity.
+- [W22.127] The several types of peanut oil include aromatic roasted peanut oil, refined peanut oil, extra virgin or cold-pressed peanut oil, and peanut extract.
+- [W22.128] Refined peanut oil is exempt from allergen labeling laws in the U.S.
+- [W22.129] A common cooking and salad oil, peanut oil is 46% monounsaturated fats (primarily oleic acid), 32% polyunsaturated fats (primarily linoleic acid), and 17% saturated fats (primarily palmitic acid) (source in nutrition table).
+- [W22.130] Extractable from whole peanuts using a simple water and centrifugation method, the oil is being considered by NASA's Advanced Life Support program for future long-duration human space missions.
+- [W22.131] Peanut butter is a food paste or spread made from ground dry roasted peanuts.
+- [W22.132] It often contains additional ingredients that modify the taste or texture, such as salt, sweeteners, or emulsifiers.
+- [W22.133] Many companies have added twists on traditionally plain peanut butter by adding various flavor varieties, such as chocolate, birthday cake, and cinnamon raisin.
+- [W22.134] Peanut butter is served as a spread on bread, toast or crackers, and used to make sandwiches (notably the peanut butter and jelly sandwich).
+- [W22.135] It is also used in a number of confections, such as peanut-flavored granola bars or croissants and other pastries.
+- [W22.136] The United States is a leading exporter of peanut butter, and itself consumes $800 million of peanut butter annually.
+- [W22.137] Peanut flour is used in gluten-free cooking.
+- [W22.138] Peanut protein concentrates and isolates are commercially produced from defatted peanut flour using several methods.
+- [W22.139] Peanut flour concentrates (about 70% protein) are produced from dehulled kernels by removing most of the oil and the water-soluble, non-protein components.
+- [W22.140] Hydraulic pressing, screw pressing, solvent extraction, and pre-pressing followed by solvent extraction may be used for oil removal, after which protein isolation and purification are implemented.
+- [W22.141] Peanuts are particularly common in Peruvian and Mexican cuisine, both of which marry indigenous and European ingredients.
+- [W22.142] For instance, in Peru, a popular traditional dish is picante de cuy, a roasted guinea pig served in a sauce of ground peanuts (ingredients native to South America) with roasted onions and garlic (ingredients from European cuisine).
+- [W22.143] Also, in the Peruvian city of Arequipa, a dish called ocopa consists of a smooth sauce of roasted peanuts and hot peppers (both native to the region) with roasted onions, garlic, and oil, poured over meat or potatoes.
+- [W22.144] Another example is a fricassee combining a similar mixture with sautéed seafood or boiled and shredded chicken.
+- [W22.145] These dishes are generally known as ajíes, meaning "hot peppers", such as ají de pollo and ají de mariscos (seafood ajíes may omit peanuts).
+- [W22.146] In Mexico, it is also used to prepare different traditional dishes, such as chicken in peanut sauce (encacahuatado), and is used as the main ingredient for the preparation of other famous dishes such as red pipián, mole poblano and oaxacan mole negro.
+- [W22.147] Throughout the region, many candies and snacks are made using peanuts.
+- [W22.148] In Mexico, it is common to find them in different presentations as a snack or candy: salty, "Japanese" peanuts, praline, enchilados or in the form of a traditional sweet made with peanuts and honey called palanqueta, and even as peanut marzipan.
+- [W22.149] There is a similar form of peanut candy in Brazil, called pé-de-moleque, made with peanuts and molasses, which resembles the Indian chikki in form.
+- [W22.150] A Philippine dish using peanuts is kare-kare, with meat in a spicy peanut sauce.
+- [W22.151] Common Indonesian peanut-based dishes include gado-gado, pecel, karedok, and ketoprak, vegetable salads mixed with peanut sauce, and the peanut-based sauce, satay.
+- [W22.152] In the Indian subcontinent, peanuts are made into chikki, sweet peanut brittle, by processing with refined sugar and jaggery.
+- [W22.153] Indian cuisine uses roasted, crushed peanuts to give a crunchy body to salads; they are added whole to leafy vegetable stews and rice for the same reason.
+- [W22.154] In South India, peanut chutney is eaten with dosa and idli.
+- [W22.155] Peanuts are used as a flavor in pulihora tamarind rice.
+- [W22.156] Peanuts are used in the Malian meat stew maafe.
+- [W22.157] In Ghana, peanut butter is used for peanut butter soup nkate nkwan.
+- [W22.158] Crushed peanuts may also be used for nkatie cake and kuli-kuli, as well as other local foods such as oto.
+- [W22.159] Peanuts are a common ingredient of several relishes (dishes which accompany nshima) eaten in Malawi, and in the eastern part of Zambia, and these dishes are common throughout both countries.
+- [W22.160] Thick peanut sauces are made in Uganda to serve with rice and other starchy foods.
+- [W22.161] Groundnut stew, called ebinyebwa in Uganda, is made by boiling ground peanut flour with other ingredients, such as cabbage, mushrooms, dried fish, meat or vegetables.
+- [W22.162] The state of Georgia leads the U.S. in peanut production, with 49 percent of the nation's peanut acreage and output.
+- [W22.163] In 2014, farmers cultivated 591,000 acres of peanuts, yielding of 2.4 billion pounds.
+- [W22.164] The most famous peanut farmer was Jimmy Carter of Sumter County, Georgia, who became the U.S. president in 1977.
+- [W22.165] In the U.S. and Canada, peanuts are used in candies, cakes, and cookies.
+- [W22.166] They are eaten dry-roasted with or without salt.
+- [W22.167] Ninety-five percent of Canadians eat them, with the average consumption of 3 kilograms (6+1⁄2 lb) per person annually, while 79% of Canadians consume peanut butter weekly.
+- [W22.168] In the United States, peanut products are central in the diet, and are considered as comfort foods.
+- [W22.169] Peanut butter represents half the American consumption and $850 million in annual retail sales.
+- [W22.170] Peanut soup is found on restaurant menus in the southeastern states.
+- [W22.171] In the southern U.S., peanuts are boiled for several hours until soft.
+- [W22.172] Peanuts can be deep-fried, sometimes within the shell.
+- [W22.173] Per person, Americans eat 2.7 kg (6 lb) of peanut products annually, at a retail cost of $2 billion.
+- [W22.174] New Georgia Encyclopedia; 49% of the American peanut crop is grown in the state of Georgia.
+- [W22.175] Foods That Changed History: How Foods Shaped Civilization from the Ancient World to the Present.
+- [W22.176] "The origin and history of the groundnut" in The groundnut crop: a scientific basis for improvement.
+- [W22.177] Hughes, Meredith Sayles (1999).
+- [W22.178] Spill the Beans and Pass the Peanuts: Legumes.
+- [W22.179] Tomatoes, Potatoes, Corn, and Beans: How the Foods of the Americas Changed Eating around the World.
+- [W22.180] Creamy and Crunchy: An Informal History of Peanut Butter, the All-American Food.
+- [W22.181] Columbia University Press.
+- [W22.182] "Peanut as a Source of Protein for Human Foods".
+- [W22.183] Plant Foods for Human Nutrition 41:165–177.
+- [W22.184] Skolnick, Helen S., et al.
+- [W22.185] "The Natural History of Peanut Allergy".
+- [W22.186] Journal of Allergy and Clinical Immunology.
+- [W22.187] Peanuts: The Illustrious History of the Goober Pea.
+- [W22.188] University of Illinois Press.
+- [W22.189] The Groundnut Crop: A Scientific Basis for Improvement.
+- [W22.190] United States Bureau of Agricultural Economics (1947).
+- [W22.191] Peanuts in Southern Agriculture.
+- [W22.192] Variath, Murali T., and P.
+- [W22.193] "Economic and Academic Importance of Peanut".
+- [W22.194] Peanut at the Wikibooks Cookbook subproject
+
+## [W23] Wikipedia: Passerine
+https://en.wikipedia.org/w/index.php?title=Passerine&oldid=1380629135 · CC BY-SA 4.0 · usage: ai_input
+
+- [W23.1] A passerine () is any bird of the order Passeriformes (; from Latin passer 'sparrow' and formis '-shaped').
+- [W23.2] Sometimes known as perching birds, passerines generally have an anisodactyl arrangement of their toes (three pointing forward and one back), which facilitates perching.
+- [W23.3] With more than 140 families and some 6,500 identified species, Passeriformes is the largest order of birds and one of the most diverse clades of terrestrial vertebrates, representing 60% of birds.
+- [W23.4] Passerines are divided into three suborders: New Zealand wrens; Suboscines, primarily found in North and South America; and songbirds.
+- [W23.5] Passerines originated in the Southern Hemisphere around 60 million years ago.
+- [W23.6] Most passerines are insectivorous or omnivorous, and eat both fruit or seeds.
+- [W23.7] The terms "passerine" and "Passeriformes" are derived from the scientific name of the house sparrow, Passer domesticus, whose genus is the Latin word for sparrow.
+- [W23.8] Formerly this meant the songbirds of Europe; now it also includes perching, non-singing birds from the Americas.
+- [W23.9] The order is divided into three primary clades: the suborder Tyranni (non-singing, Americas), the suborder Passeri (songbirds or oscines), and the family Acanthisittidae (New Zealand wrens, sometimes considered to constitute a suborder, Acanthisitti).
+- [W23.10] Modern molecular evidence indicates that the New Zealand wrens are sister to the remaining two clades.
+- [W23.11] Oscines have the best control of their syrinx muscles among birds, producing a wide range of songs and other vocalizations, though some of them, such as the crows, do not sound musical to human beings.
+- [W23.12] Some, such as the lyrebird, are accomplished mimics.
+- [W23.13] The New Zealand wrens are tiny birds restricted to New Zealand, at least in modern times; they were long placed in Passeri.
+- [W23.14] Most passerines are smaller than typical members of other avian orders.
+- [W23.15] The heaviest and altogether largest passerines are the thick-billed raven and the larger races of common raven, each exceeding 1.5 kg (3.3 lb) and 70 cm (28 in).
+- [W23.16] The superb lyrebird and some birds-of-paradise, due to very long tails or tail coverts, are longer overall.
+- [W23.17] The smallest passerine is the short-tailed pygmy tyrant, at 6.5 cm (2.6 in) and 4.2 g (0.15 oz).
+- [W23.18] The foot of a passerine has three toes directed forward and one toe directed backward, called anisodactyl arrangement.
+- [W23.19] The hind toe (hallux) is long and joins the leg at approximately the same level as the front toes.
+- [W23.20] This arrangement enables passerine birds to easily perch upright on branches.
+- [W23.21] The toes have no webbing or joining, but in some cotingas, the second and third toes are united at their basal third.
+- [W23.22] The leg of passerine birds contains an additional special adaptation for perching.
+- [W23.23] A tendon in the rear of the leg running from the underside of the toes to the muscle behind the tibiotarsus will automatically be pulled and tighten when the leg bends, causing the foot to curl and become stiff when the bird lands on a branch.
+- [W23.24] This enables passerines to sleep while perching without falling off.
+- [W23.25] Most passerine birds have 12 tail feathers but the superb lyrebird has 16, and several spinetails in the family Furnariidae have 10, 8, or even 6, as is the case of Des Murs's wiretail.
+- [W23.26] Species adapted to tree trunk climbing such as treecreepers and woodcreeper have stiff tail feathers that are used as props during climbing.
+- [W23.27] Extremely long tails used as sexual ornaments are shown by species in different families.
+- [W23.28] A well-known example is the long-tailed widowbird.
+- [W23.29] The chicks of passerines are altricial: blind, featherless, and helpless when hatched from their eggs.
+- [W23.30] Hence, chicks require extensive parental care.
+- [W23.31] Most passerines lay colored eggs, in contrast with nonpasserines, most of whose eggs are white except in some ground-nesting groups such as Charadriiformes and nightjars, where camouflage is necessary, and in some parasitic cuckoos, which match the passerine host's egg.
+- [W23.32] The vinous-throated parrotbill has two egg colors, white and blue, to deter the brood parasitic common cuckoo.
+- [W23.33] Clutches vary greatly in size: some larger passerines of Australia such as lyrebirds and scrub-robins lay only a single egg, most smaller passerines in warmer climates lay between two and five, while in the higher latitudes of the Northern Hemisphere, hole-nesting species like tits can lay up to a dozen and other species around five or six.
+- [W23.34] The family Viduidae do not build their own nests, instead, they lay eggs in other birds' nests.
+- [W23.35] The Passeriformes contain several groups of brood parasites such as the viduas, cuckoo-finches, and the cowbirds.
+- [W23.36] Bird nest construction is complex and cognitively demanding, and has a very high degree of diversification amongst Passeriformes.
+- [W23.37] A study of brain size and nest construction across a large number of different passerine species indicated that building nests with different attachment modes requires different levels of cognitive abilities.
+- [W23.38] The evolutionary history of the passerine families and the relationships among them remained rather mysterious until the late 20th century.
+- [W23.39] In many cases, passerine families were grouped together on the basis of morphological similarities that, it is now believed, are the result of convergent evolution, not a close genetic relationship.
+- [W23.40] For example, the wrens of the Americas and Eurasia, those of Australia, and those of New Zealand look superficially similar and behave in similar ways, yet belong to three far-flung branches of the passerine family tree; they are as unrelated as it is possible to be while remaining Passeriformes.
+- [W23.41] Advances in molecular biology and improved paleobiogeographical data gradually are revealing a clearer picture of passerine origins and evolution that reconciles molecular affinities, the constraints of morphology, and the specifics of the fossil record.
+- [W23.42] The first passerines are now thought to have evolved in the Southern Hemisphere in the late Paleocene or early Eocene, around 50 million years ago.
+- [W23.43] The initial diversification of passerines coincides with the separation of the southern continents in the early Eocene.
+- [W23.44] The New Zealand wrens are the first to become isolated in Zealandia, and the second split involved the origin of the Tyranni in South America and the Passeri in the Australian continent.
+- [W23.45] The Passeri experienced a great radiation of forms in Australia.
+- [W23.46] A major branch of the Passeri, the parvorder Passerida, dispersed into Eurasia and Africa about 40 million years ago, where they experienced further radiation of new lineages.
+- [W23.47] This eventually led to three major Passerida lineages comprising about 4,000 species, which in addition to the Corvida and numerous minor lineages make up songbird diversity today.
+- [W23.48] Extensive biogeographical mixing happens, with northern forms returning to the south, southern forms moving north, and so on.
+- [W23.49] Perching bird osteology, especially of the limb bones, is rather diagnostic.
+- [W23.50] However, the early fossil record is poor because passerines are relatively small, and their delicate bones do not preserve well.
+- [W23.51] Queensland Museum specimens F20688 (carpometacarpus) and F24685 (tibiotarsus) from Murgon, Queensland, are fossil bone fragments initially assigned to Passeriformes.
+- [W23.52] However, the material is too fragmentary and their affinities have been questioned.
+- [W23.53] Several more recent fossils from the Oligocene of Europe, such as Wieslochia, Jamna, Resoviaornis, and Crosnoornis, are more complete and definitely represent early passeriforms, and have been found to belong to a variety of modern and extinct lineages.
+- [W23.54] From the Bathans Formation at the Manuherikia River in Otago, New Zealand, MNZ S42815 (a distal right tarsometatarsus of a tui-sized bird) and several bones of at least one species of saddleback-sized bird have recently been described.
+- [W23.55] These date from the Early to Middle Miocene (Awamoan to Lillburnian, 19–16 mya).
+- [W23.56] In Europe, perching birds are not too uncommon in the fossil record from the Oligocene onward, belonging to several lineages:
+- [W23.57] Wieslochia (Early Oligocene of Frauenweiler, Germany) – suboscine
+- [W23.58] Resoviaornis (Early Oligocene of Wola Rafałowska, Poland) – oscine
+- [W23.59] Jamna (Early Oligocene of Jamna Dolna, Poland) – basal
+- [W23.60] Winnicavis (Early Oligocene of Lower Silesian Voivodeship, Poland)
+- [W23.61] Crosnoornis (Early Oligocene of Poland) - suboscine
+- [W23.62] Passeriformes gen. et sp. indet.
+- [W23.63] (Early Oligocene of Luberon, France) – suboscine or basal
+- [W23.64] Passeriformes gen. et spp. indet.
+- [W23.65] (Late Oligocene of France) – several suboscine and oscine taxa
+- [W23.66] Passeriformes gen. et spp. indet.
+- [W23.67] (Middle Miocene of France and Germany) – basal?
+- [W23.68] Passeriformes gen. et spp. indet.
+- [W23.69] (Sajóvölgyi Middle Miocene of Mátraszőlős, Hungary) – at least 2 taxa, possibly 3; at least one probably Oscines.
+- [W23.70] Passeriformes gen. et sp. indet.
+- [W23.71] (Middle Miocene of Felsőtárkány, Hungary) – oscine?
+- [W23.72] Passeriformes gen. et sp. indet.
+- [W23.73] (Late Miocene of Polgárdi, Hungary) – Sylvioidea (Sylviidae?
+- [W23.74] That suboscines expanded much beyond their region of origin is proven by several fossils from Germany such as a presumed broadbill (Eurylaimidae) humerus fragment from the Early Miocene (roughly 20 mya) of Wintershof, Germany, the Late Oligocene carpometacarpus from France listed above, and Wieslochia, among others.
+- [W23.75] Extant Passeri super-families were quite distinct by that time and are known since about 12–13 mya when modern genera were present in the corvoidean and basal songbirds.
+- [W23.76] The modern diversity of Passerida genera is known mostly from the Late Miocene onward and into the Pliocene (about 10–2 mya).
+- [W23.77] Pleistocene and early Holocene lagerstätten (<1.8 mya) yield numerous extant species, and many yield almost nothing but extant species or their chronospecies and paleosubspecies.
+- [W23.78] In the Americas, the fossil record is more scant before the Pleistocene, from which several still-existing families are documented.
+- [W23.79] Apart from the indeterminable MACN-SC-1411 (Pinturas Early/Middle Miocene of Santa Cruz Province, Argentina), an extinct lineage of perching birds has been described from the Late Miocene of California, United States: the Palaeoscinidae with the single genus Palaeoscinis.
+- [W23.80] "Palaeostruthus" eurius (Pliocene of Florida) probably belongs to an extant family, most likely passeroidean.
+- [W23.81] The Passeriformes is currently divided into three suborders: Acanthisitti (New Zealand wrens), Tyranni, (suboscines) and Passeri (oscines or songbirds).
+- [W23.82] The Passeri is now subdivided into two major groups recognized now as Corvides and Passerida respectively containing the large superfamilies Corvoidea and Meliphagoidea, as well as minor lineages, and the superfamilies Sylvioidea, Muscicapoidea, and Passeroidea but this arrangement has been found to be oversimplified.
+- [W23.83] Since the mid-2000s, studies have investigated the phylogeny of the Passeriformes and found that many families from Australasia traditionally included in the Corvoidea actually represent more basal lineages within oscines.
+- [W23.84] Likewise, the traditional three-superfamily arrangement within the Passeri has turned out to be far more complex and will require changes in classification.
+- [W23.85] Major "wastebin" families such as the Old World warblers and Old World babblers have turned out to be paraphyletic and are being rearranged.
+- [W23.86] Several taxa turned out to represent highly distinct lineages, so new families had to be established, some of these – like the stitchbird of New Zealand and the Eurasian bearded reedling – monotypic with only one living species.
+- [W23.87] In the Passeri alone, a number of minor lineages will eventually be recognized as distinct superfamilies.
+- [W23.88] For example, the kinglets constitute a single genus with less than 10 species today but seem to have been among the first perching bird lineages to diverge as the group spread across Eurasia.
+- [W23.89] No particularly close relatives of theirs have been found among comprehensive studies of the living Passeri, though they might be fairly close to some little-studied tropical Asian groups.
+- [W23.90] Nuthatches, wrens, and their closest relatives are currently grouped in a distinct super-family Certhioidea.
+- [W23.91] Taxonomic list of Passeriformes families
+- [W23.92] This list is in taxonomic order, placing related families next to one another.
+- [W23.93] The families listed are those recognised by the International Ornithologists' Union (IOC).
+- [W23.94] The order and the division into infraorders, parvorders, and superfamilies follows the phylogenetic analysis published by Carl Oliveros and colleagues in 2019.
+- [W23.95] The relationships between the families in the suborder Tyranni (suboscines) were all well determined but some of the nodes in Passeri (oscines or songbirds) were unclear owing to the rapid splitting of the lineages.
+- [W23.96] Acanthisittidae: New Zealand wrens
+- [W23.97] Suborder Tyranni (suboscines)
+- [W23.98] Infraorder Eurylaimides: Old World suboscines and sapayoa
+- [W23.99] Eurylaimidae: typical broadbills
+- [W23.100] Calyptomenidae: African and green broadbills
+- [W23.101] Infraorder Tyrannides: New World suboscines
+- [W23.102] Melanopareiidae: crescentchests
+- [W23.103] Conopophagidae: gnateaters and gnatpittas
+- [W23.104] Rhinocryptidae: typical tapaculos
+- [W23.105] Formicariidae: antthrushes
+- [W23.106] Furnariidae: ovenbirds and woodcreepers
+- [W23.107] Tityridae: tityras, becards and allies
+- [W23.108] Onychorhynchidae: royal flycatchers and allies
+- [W23.109] Tyrannidae: tyrant flycatchers
+- [W23.110] Suborder Passeri (oscines or songbirds)
+- [W23.111] Atrichornithidae: scrub-birds
+- [W23.112] Climacteridae: Australian treecreepers
+- [W23.113] Ptilonorhynchidae: bowerbirds
+- [W23.114] Pomatostomidae: pseudo-babblers
+- [W23.115] Acanthizidae: scrubwrens, thornbills, and gerygones
+- [W23.116] Maluridae: australasian wrens
+- [W23.117] Dasyornithidae: bristlebirds
+- [W23.118] Infraorder Corvides – previously known as the parvorder Corvida
+- [W23.119] Cinclosomatidae: jewel-babblers, quail-thrushes
+- [W23.120] Campephagidae: cuckooshrikes and trillers
+- [W23.121] Eulacestomatidae: wattled ploughbill
+- [W23.122] Oreoicidae: Australo-Papuan bellbirds
+- [W23.123] Paramythiidae: painted berrypeckers
+- [W23.124] Vireonidae: vireos, shrike-babblers, and erpornis
+- [W23.125] Pachycephalidae: whistlers
+- [W23.126] Oriolidae: Old World orioles and figbirds
+- [W23.127] Superfamily Malaconotoidea
+- [W23.128] Machaerirhynchidae: boatbills
+- [W23.129] Artamidae: woodswallows, butcherbirds, currawongs, and Australian magpie
+- [W23.130] Rhagologidae: mottled berryhunter
+- [W23.131] Malaconotidae: puffbacks, bushshrikes, tchagras, and boubous
+- [W23.132] Pityriaseidae: Bornean bristlehead
+- [W23.133] Platysteiridae: wattle-eyes and batises
+- [W23.134] Vangidae: vangas, helmetshrikes, and woodshrikes
+- [W23.135] Monarchidae: monarch flycatchers
+- [W23.136] Ifritidae: blue-capped ifrit
+- [W23.137] Paradisaeidae: birds-of-paradise
+- [W23.138] Corcoracidae: white-winged chough and apostlebird
+- [W23.139] Melampittidae: melampittas
+- [W23.140] Platylophidae: crested jayshrike
+- [W23.141] Corvidae: crows, ravens, and jays
+- [W23.142] Infraorder Passerides – previously known as the parvorder Passerida
+- [W23.143] Melanocharitidae: berrypeckers and longbills
+- [W23.144] Callaeidae: New Zealand wattlebirds
+- [W23.145] Petroicidae: Australasian robins
+- [W23.146] Parvorder Sylviida – previously known as the superfamily Sylvioidea
+- [W23.147] Stenostiridae: fairy flycatchers
+- [W23.148] Paridae: tits, chickadees and titmice
+- [W23.149] Panuridae: bearded reedling
+- [W23.150] Macrosphenidae: crombecs and African warblers
+- [W23.151] Cisticolidae: cisticolas and allies
+- [W23.152] Superfamily Locustelloidea
+- [W23.153] Acrocephalidae: reed warblers, Grauer's warbler and allies
+- [W23.154] Locustellidae: grassbirds and allies
+- [W23.155] Donacobiidae: black-capped donacobius
+- [W23.156] Bernieridae: Malagasy warblers
+- [W23.157] Hirundinidae: swallows and martins
+- [W23.158] Sylviidae: sylviid warblers
+- [W23.159] Paradoxornithidae: parrotbills, fulvettas, wrentit, and myzornis
+- [W23.160] Zosteropidae: white-eyes and yuhinas
+- [W23.161] Leiothrichidae: laughingthrushes and allies
+- [W23.162] Pellorneidae: ground babblers
+- [W23.163] Phylloscopidae: leaf-warblers and allies
+- [W23.164] Aegithalidae: long-tailed tits or bushtits
+- [W23.165] Cettiidae: Cettia bush warblers and allies
+- [W23.166] Erythrocercidae: yellow flycatchers
+- [W23.167] Parvorder Muscicapida – previously treated as superfamily Muscicapoidea
+- [W23.168] Superfamily Bombycilloidea
+- [W23.169] Ptiliogonatidae: silky flycatchers
+- [W23.170] †Mohoidae: Hawaiian honeyeaters
+- [W23.171] Elachuridae: spotted elachura
+- [W23.172] Muscicapidae: Old World flycatchers and chats
+- [W23.173] Turdidae: thrushes and allies
+- [W23.174] Sturnidae: starlings, mynas, and rhabdornis
+- [W23.175] Mimidae: mockingbirds and thrashers
+- [W23.176] Regulidae: goldcrests and kinglets
+- [W23.177] Tichodromidae: wallcreeper
+- [W23.178] Salpornithidae: spotted creepers
+- [W23.179] Polioptilidae: gnatcatchers
+- [W23.180] Parvorder Passerida – previously known as the superfamily Passeroidea
+- [W23.181] Modulatricidae: dapple-throat and allies
+- [W23.182] Peucedramidae: olive warbler
+- [W23.183] Urocynchramidae: Przewalski's finch
+- [W23.184] Viduidae: indigobirds and whydahs
+- [W23.185] Estrildidae: waxbills, munias and allies
+- [W23.186] Passeridae: Old World sparrows, snowfinches, and ibon
+- [W23.187] Motacillidae: wagtails and pipits
+- [W23.188] Superfamily Fringilloidea – previously known as the nine-primaried oscines
+- [W23.189] Fringillidae: finches and euphonias
+- [W23.190] Rhodinocichlidae: rosy thrush-tanager
+- [W23.191] Calcariidae: longspurs and snow buntings
+- [W23.192] Mitrospingidae: mitrospingid tanagers
+- [W23.193] Thraupidae: tanagers and allies
+- [W23.194] Passerellidae: New World sparrows, bush tanagers
+- [W23.195] Parulidae: New World warblers
+- [W23.196] Icteriidae: yellow-breasted chat
+- [W23.197] Icteridae: grackles, New World blackbirds, and New World orioles
+- [W23.198] Calyptophilidae: chat-tanagers
+- [W23.199] Teretistridae: Cuban warblers
+- [W23.200] Nesospingidae: Puerto Rican tanager
+- [W23.201] Phaenicophilidae: Hispaniolan tanagers
+- [W23.202] Relationships between living Passeriformes families based on the phylogenetic analysis of Oliveros et al.
+- [W23.203] Some terminals have been renamed to reflect families recognised by the IOC but not in that study.
+- [W23.204] The IOC families Alcippeidae and Teretistridae were not sampled in this study.
+- [W23.205] The dictionary definition of passerine at Wiktionary
+- [W23.206] Media related to Passeriformes at Wikimedia Commons
+- [W23.207] Data related to Passeriformes at Wikispecies
+
+## [W24] Open Tree of Life, synthetic tree opentree16.1
+https://tree.opentreeoflife.org/about/synthesis-release/v16.1 · CC0 · usage: ai_input, display
+
+_(cited only; no cached text)_
+
+## [W25] Jarvis et al. 2014, Whole-genome analyses resolve early branches in the tree of life of modern birds, Science 346:1320
+https://doi.org/10.1126/science.1253451 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W26] Hackett et al. 2008, A phylogenomic study of birds reveals their evolutionary history, Science 320:1763
+https://doi.org/10.1126/science.1157704 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W27] Fernández et al. 2024, A 160 Gbp fork fern genome shatters size record for eukaryotes, iScience 27:109889
+https://doi.org/10.1016/j.isci.2024.109889 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W28] Wikipedia: Common kestrel
+https://en.wikipedia.org/w/index.php?title=Common_kestrel&oldid=1381452504 · CC BY-SA 4.0 · usage: ai_input
+
+- [W28.1] The common kestrel (Falco tinnunculus), also known as the European kestrel, Eurasian kestrel, Old World kestrel, is a species of predatory bird belonging to the kestrel group of the falcon family Falconidae.
+- [W28.2] In the United Kingdom, where no other kestrel species commonly occurs, it is generally just called the "kestrel".
+- [W28.3] This species occurs over a large native range.
+- [W28.4] It is widespread in Europe, Asia and Africa, as well as occasionally reaching the east coast of North America.
+- [W28.5] It has colonized a few oceanic islands, but vagrant individuals are generally rare; in the whole of Micronesia for example, the species was only recorded twice each on Guam and Saipan in the Marianas.
+- [W28.6] The common kestrel was formally described in 1758 by the Swedish naturalist Carl Linnaeus in the tenth edition of his Systema Naturae under the current binomial name Falco tinnunculus.
+- [W28.7] Linnaeus specified the type location as Europe but restricted this to Sweden in 1761.
+- [W28.8] The genus name is Late Latin from falx, falcis, a sickle, referencing the claws of the bird.
+- [W28.9] The species name tinnunculus is Latin for "kestrel" from "tinnulus", "shrill".
+- [W28.10] The Latin name tinnunculus had been used by the Swiss naturalist Conrad Gessner in 1555.
+- [W28.11] The word "kestrel" is derived from the French crécerelle which is diminutive for crécelle, which also referred to a bell used by lepers.
+- [W28.12] The word is earlier spelt 'c/kastrel', and is evidenced from the 15th century.
+- [W28.13] The kestrel was once used to drive and keep away pigeons.
+- [W28.14] Archaic names for the kestrel include windhover and windfucker, due to its habit of beating the wind (hovering in air).
+- [W28.15] This species is part of a clade that contains the kestrel species with black malar stripes, a feature which apparently was not present in the most ancestral kestrels.
+- [W28.16] They seem to have radiated in the Gelasian (Late Pliocene), roughly 2.5–2 mya, probably starting in tropical East Africa, as indicated by mtDNA cytochrome b sequence data analysis and considerations of biogeography.
+- [W28.17] A molecular phylogenetic study published in 2015 found that the common kestrel's closest relatives were the spotted kestrel Falco moluccensis and the nankeen kestrel Falco cenchroides.
+- [W28.18] The rock kestrel (F. rupicolus), previously considered a subspecies, is now treated as a distinct species.
+- [W28.19] The lesser kestrel (F. naumanni), which much resembles a small common kestrel with no black on the upperside except wing and tail tips, is probably not very closely related to the present species, and the American kestrel (F. sparverius) is apparently not a true kestrel at all.
+- [W28.20] Both species have much grey in their wings in males, which does not occur in the common kestrel or its close living relatives but does in almost all other falcons.
+- [W28.21] Eleven subspecies are recognised.
+- [W28.22] Most differ little, and mainly in accordance with Bergmann's and Gloger's rules.
+- [W28.23] Tropical African forms have less grey in the male plumage.
+- [W28.24] F. t. tinnunculus Linnaeus, 1758 – temperate areas of Europe, North Africa, the Middle East, and Asia north of the Hindu Kush-Himalaya mountain ranges to the NW Sea of Okhotsk region.
+- [W28.25] Northern Asian populations migrate south in winter, apparently not crossing the Himalayas but diverting to the west.
+- [W28.26] F. t. perpallidus (Clark, AH, 1907) – northeast Siberia to northeast China and Korea Peninsula
+- [W28.27] F. t. interstinctus McClelland, 1840 –  breeds East Asia from Tibet to Korea and Japan, south into Indochina.
+- [W28.28] Winters to the south of its breeding range, from northeastern India to the Philippines (where it is localized, e.g. from Mindanao only two records exist).
+- [W28.29] Has dark heavily marked birds and has a foxed red phase but not reliably identified in the field.
+- [W28.30] F. t. objurgatus (Baker, ECS, 1927) – Western, Nilgiris and Eastern Ghats of India; Sri Lanka.
+- [W28.31] Heavily marked, has rufous thighs with dark grey head in males.
+- [W28.32] F. t. canariensis (Koenig, 1890) – Madeira and western Canary Islands
+- [W28.33] F. t. dacotiae Hartert, EJO, 1913 – eastern Canary Islands: Fuerteventura, Lanzarote, Chinijo Archipelago.
+- [W28.34] F. t. neglectus Schlegel, 1873 – northern Cape Verde Islands
+- [W28.35] F. t. alexandri Bourne, 1955 – southwestern Cape Verde Islands.
+- [W28.36] F. t. rupicolaeformis (Brehm, CL, 1855) – Arabian Peninsula except in the desert and across the Red Sea into Africa
+- [W28.37] F. t. archerii Hartert, EJO & Neumann, 1932 – Somalia, coastal Kenya, and Socotra
+- [W28.38] F. t. rufescens Swainson, 1837 – Sahel east to Ethiopia, southwards around Congo Basin to south Tanzania and northeast Angola.
+- [W28.39] The common kestrels of Europe living during cold periods of the Quaternary glaciation differed slightly in size from the current population; they are sometimes referred to as the paleosubspecies F. t. atavus (see also Bergmann's rule).
+- [W28.40] The remains of these birds, which presumably were the direct ancestors of the living F. t. tinnunculus (and perhaps other subspecies), are found throughout the then-unglaciated parts of Europe, from the Late Pliocene (ELMA Villanyian/ICS Piacenzian, MN16) about 3 million years ago to the Middle Pleistocene Saalian glaciation which ended about 130,000 years ago, when they finally gave way to birds indistinguishable from those living today.
+- [W28.41] Some of the voles the Ice Age common kestrels ate—such as European pine voles (Microtus subterraneus)—were indistinguishable from those alive today.
+- [W28.42] Other prey species of that time evolved more rapidly (like M. malei, the presumed ancestor of today's tundra vole M. oeconomus), while yet again others seem to have gone entirely extinct without leaving any living descendants—for example Pliomys lenki, which apparently fell victim to the Weichselian glaciation about 100,000 years ago.
+- [W28.43] The common kestrel measures 32–39 cm (12+1⁄2–15+1⁄2 in) from head to tail, with a wingspan of 65–82 cm (25+1⁄2–32+1⁄2 in).
+- [W28.44] The female is noticeably larger, with the adult male weighing 136–252 g (4+3⁄4–8+7⁄8 oz), around 155 g (5+1⁄2 oz) on average; the adult female weighs 154–314 g (5+3⁄8–11+1⁄8 oz), around 184 g (6+1⁄2 oz) on average.
+- [W28.45] They are thus small compared with other birds of prey, but larger than most songbirds.
+- [W28.46] Like the other Falco species, they have long wings as well as a distinctive long tail.
+- [W28.47] The plumage is mainly light chestnut brown with blackish spots on the upperside and buff with narrow blackish streaks on the underside; the remiges are also blackish.
+- [W28.48] Unlike most raptors, they display sexual colour dimorphism with the male having fewer black spots and streaks, as well as a blue-grey cap and tail.
+- [W28.49] The tail is brown with black bars in females, and has a black tip with a narrow white rim in both sexes.
+- [W28.50] All common kestrels have a prominent black malar stripe like their closest relatives.
+- [W28.51] The cere, feet, and a narrow ring around the eye are bright yellow; the toenails, bill and iris are dark.
+- [W28.52] Juveniles look like adult females, but the underside streaks are wider; the yellow of their bare parts is paler.
+- [W28.53] Hatchlings are covered in white down feathers, changing to a buff-grey second down coat before they grow their first true plumage.
+- [W28.54] In the cool-temperate parts of its range, the common kestrel migrates south in winter; otherwise it is sedentary, though juveniles may wander around in search for a good place to settle down as they become mature.
+- [W28.55] It is a diurnal animal of the lowlands and prefers open habitat such as fields, heaths, shrubland and marshland.
+- [W28.56] It does not require woodland to be present as long as there are alternative perching and nesting sites like rocks or buildings.
+- [W28.57] It will thrive in treeless steppe where there are abundant herbaceous plants and shrubs to support a population of prey animals.
+- [W28.58] The common kestrel readily adapts to human settlement, as long as sufficient swathes of vegetation are available, and may even be found in wetlands, moorlands and arid savanna.
+- [W28.59] It is found from the sea to the lower mountain ranges, reaching elevations up to 4,500 m (14,800 ft) ASL in the hottest tropical parts of its range but only to about 1,750 m (5,740 ft) in the subtropical climate of the Himalayan foothills.
+- [W28.60] Globally, this species is not considered threatened by the IUCN.
+- [W28.61] Its stocks were affected by the indiscriminate use of organochlorines and other pesticides in the mid-20th century, but being something of an r-strategist able to multiply quickly under good conditions it was less affected than other birds of prey.
+- [W28.62] The global population has been fluctuating considerably over the years but remains generally stable; it is roughly estimated at 1–2 million pairs or so, about 20% of which are found in Europe.
+- [W28.63] There has been a recent decline in parts of Western Europe such as Ireland.
+- [W28.64] Subspecies dacotiae is quite rare, numbering less than 1000 adult birds in 1990, when the ancient western Canarian subspecies canariensis numbered about ten times as many birds.
+- [W28.65] When hunting, the common kestrel characteristically hovers about 10–20 m (35–65 ft) above the ground, searching for prey, either by flying into the wind or by soaring using ridge lift.
+- [W28.66] Like most birds of prey, common kestrels have keen eyesight enabling them to spot small prey from a distance.
+- [W28.67] Once prey is sighted, the bird makes a short, steep dive toward the target, unlike the peregrine which relies on longer, higher dives to reach full speed when targeting prey.
+- [W28.68] Kestrels can often be found hunting along the sides of roads and motorways, where the road verges support large numbers of prey.
+- [W28.69] This species is able to see near ultraviolet light, allowing the birds to detect the urine trails around rodent burrows as they shine in an ultraviolet colour in the sunlight.
+- [W28.70] Another favourite (but less conspicuous) hunting technique is to perch a bit above the ground cover, surveying the area.
+- [W28.71] When the bird spots prey animals moving by, it will pounce on them.
+- [W28.72] They also prowl a patch of hunting ground in a ground-hugging flight, ambushing prey as they happen across it.
+- [W28.73] They eat almost exclusively mouse-sized mammals.
+- [W28.74] Voles, shrews and true mice supply up to three-quarters or more of the biomass most individuals ingest.
+- [W28.75] On oceanic islands (where mammals are often scarce), small birds (mainly passerines) may make up the bulk of its diet.
+- [W28.76] Elsewhere, birds are only an important food during a few weeks each summer when inexperienced fledglings abound.
+- [W28.77] Other suitably sized vertebrates like bats, swifts, frogs and lizards are eaten only on rare occasions.
+- [W28.78] However, kestrels are more likely to prey on lizards in southern latitudes.
+- [W28.79] In northern latitudes, the kestrel is found more often to deliver lizards to their nestlings during midday and also with increasing ambient temperature.
+- [W28.80] Seasonally, arthropods may be a main prey item.
+- [W28.81] Generally, invertebrates like camel spiders and even earthworms, but mainly sizeable insects such as beetles, orthopterans and winged termites will be eaten.
+- [W28.82] The common kestrel requires the equivalent of 4–8 voles a day, depending on energy expenditure (time of the year, amount of hovering, etc.).
+- [W28.83] They have been known to catch several voles in succession and cache some for later consumption.
+- [W28.84] An individual nestling consumes on average 4.2 g/h, equivalent to 67.8 g/d (3–4 voles per day).
+- [W28.85] The common kestrel starts breeding in spring (or the start of the dry season in the tropics), i.e.
+- [W28.86] April or May in temperate Eurasia and some time between August and December in the tropics and southern Africa.
+- [W28.87] It is a cavity nester, preferring holes in cliffs, trees or buildings; in built-up areas, common kestrels will often nest on buildings, and will reuse the old nests of corvids.
+- [W28.88] The diminutive subspecies dacotiae, the sarnicolo of the eastern Canary Islands is peculiar for nesting occasionally in the dried fronds below the top of palm trees, apparently coexisting with small songbirds which also make their home there.
+- [W28.89] In general, common kestrels will usually tolerate conspecifics nesting nearby, and sometimes a few dozen pairs may be found nesting in a loose colony.
+- [W28.90] The clutch is normally 3–7 eggs; more eggs may be laid in total but some will be removed during the laying time.
+- [W28.91] This lasts about 2 days per egg laid.
+- [W28.92] The eggs are abundantly patterned with brown spots, from a wash that tinges the entire surface buffish white to large almost-black blotches.
+- [W28.93] Incubation lasts from 4 weeks to one month, both male and female will take shifts incubating the eggs.
+- [W28.94] After the eggs have hatched, the parents share brooding and hunting duties.
+- [W28.95] Only the female feeds the chicks, by tearing apart prey into manageable chunks.
+- [W28.96] The young fledge after 4–5 weeks.
+- [W28.97] The family stays close together for a few weeks, during which time the young learn how to fend for themselves and hunt prey.
+- [W28.98] The young become sexually mature the next breeding season.
+- [W28.99] Female kestrel chicks with blacker plumage have been found to have bolder personalities, indicating that even in juvenile birds plumage coloration can act as a status signal.
+- [W28.100] Data from Britain shows nesting pairs bringing up about 2–3 chicks on average, though this includes a considerable rate of total brood failures; actually, few pairs that do manage to fledge offspring raise less than 3 or 4.
+- [W28.101] Compared to their siblings, first-hatched chicks have greater survival and recruitment probability, thought to be due to the first-hatched chicks obtaining a higher body condition when in the nest.
+- [W28.102] Population cycles of prey, particularly voles, have a considerable influence on breeding success.
+- [W28.103] Most common kestrels die before they reach 2 years of age; mortality up until the first birthday may be as high as 70%.
+- [W28.104] At least females generally breed at one year of age; possibly, some males take a year longer to maturity as they do in related species.
+- [W28.105] The biological lifespan to death from senescence can be 16 years or more, however; one was recorded to have lived almost 24 years.
+- [W28.106] The kestrel was sometimes historically referred to as a windfucker.
+- [W28.107] The kestrel is sometimes seen, like other birds of prey, as a symbol of the power and vitality of nature.
+- [W28.108] In "Into Battle" (1915), the war poet Julian Grenfell invokes the superhuman characteristics of the kestrel among several birds, when hoping for prowess in battle:
+- [W28.109] Gerard Manley Hopkins (1844–1889) writes on the kestrel in his poem "The Windhover", exalting in their mastery of flight and their majesty in the sky.
+- [W28.110] A kestrel is also one of the main characters in The Animals of Farthing Wood.
+- [W28.111] Barry Hines' novel A Kestrel for a Knave - together with the 1969 film based on it, Ken Loach's Kes - is about a working-class boy in England who befriends a kestrel.
+- [W28.112] The Pathan name for the kestrel, Bād Khurak, means "wind hover" and in Punjab it is called Larzānak or "little hoverer".
+- [W28.113] It was once used as a decoy to capture other birds of prey in Persia and Arabia.
+- [W28.114] It was also used to train greyhounds meant for hunting gazelles in parts of Arabia.
+- [W28.115] Young greyhounds would be set after jerboa-rats which would also be distracted and forced to make twists and turns by the dives of a kestrel.
+- [W28.116] Rock kestrel species text in The Atlas of Southern African Birds
+- [W28.117] Common kestrel page at Israel Birding Portal
+- [W28.118] Kestrel Bird Guide at The Royal Society for the Protection of Birds
+- [W28.119] Text of the Hopkins poem mentioned in the article
+- [W28.120] Kestrel on-line 2013: Brest, Belarus
+- [W28.121] Kestrel on-line 2012: Groningen, The Netherlands Archived 2013-11-27 at the Wayback Machine
+- [W28.122] Live Streaming of common kestrel nest in Amadora, Portugal
+- [W28.123] Ageing and sexing (PDF; 5.5 MB) by Javier Blasco-Zumeta & Gerd-Michael Heinze
+- [W28.124] Feathers of common kestrel (Falco tinnunculus) Archived 2013-11-03 at the Wayback Machine
+- [W28.125] Eurasian kestrel photo gallery at VIREO (Drexel University)
+- [W28.126] Interactive range map of Falco tinnunculus at IUCN Red List
+
+## [W29] Wikipedia: Eurasian sparrowhawk
+https://en.wikipedia.org/w/index.php?title=Eurasian_sparrowhawk&oldid=1368764308 · CC BY-SA 4.0 · usage: ai_input
+
+- [W29.1] The Eurasian sparrowhawk (Accipiter nisus), also known as the northern sparrowhawk or simply the sparrowhawk, is a small bird of prey in the family Accipitridae.
+- [W29.2] Adult male Eurasian sparrowhawks have bluish grey upperparts and orange-barred underparts; females and juveniles are brown above with brown barring below.
+- [W29.3] The female is up to 25% larger than the male – one of the greatest size differences between the sexes in any bird species.
+- [W29.4] Though it is a predator which specialises in catching woodland birds, the Eurasian sparrowhawk can be found in any habitat and often hunts garden birds in towns and cities.
+- [W29.5] Males tend to take smaller birds, including tits, finches and sparrows; females catch primarily thrushes and starlings but are capable of killing birds weighing 500 g (18 oz) or more.
+- [W29.6] The Eurasian sparrowhawk is found throughout the temperate and subtropical parts of the Old World; whilst birds from the northern parts of the range migrate south for winter, their southern counterparts remain resident or make dispersive movements.
+- [W29.7] Eurasian sparrowhawks breed in suitable woodland of any type, with the nest, measuring up to 60 cm (24 in) across, built using twigs in a tree.
+- [W29.8] Four or five pale blue, brown-spotted eggs are laid; the success of the breeding attempt is dependent on the female maintaining a high weight while the male brings her food.
+- [W29.9] The chicks hatch after 33 days and fledge after 24 to 28 days.
+- [W29.10] The probability of a juvenile surviving its first year is 34%, with 69% of adults surviving from one year to the next.
+- [W29.11] Mortality in young males is greater than that of young females and the typical lifespan is four years.
+- [W29.12] This species is now one of the most common birds of prey in Europe, although the population crashed after the Second World War.
+- [W29.13] Organochlorine insecticides used to treat seeds before sowing built up in the bird population, and the concentrations in Eurasian sparrowhawks were enough to kill some outright and incapacitate others; affected birds laid eggs with fragile shells, which broke during incubation.
+- [W29.14] However, its population recovered after the chemicals were banned, and it is now relatively common, classified as being of least concern by BirdLife International.
+- [W29.15] The Eurasian sparrowhawk's hunting behaviour has brought it into conflict with humans for hundreds of years, particularly racing pigeon owners and people rearing poultry and gamebirds.
+- [W29.16] It has also been blamed for decreases in passerine populations.
+- [W29.17] Studies of racing-pigeon deaths found that Eurasian sparrowhawks were responsible for less than 1%.
+- [W29.18] Falconers have utilised the Eurasian sparrowhawk since at least the 16th century; although the species has a reputation for being difficult to train, it is also praised for its courage.
+- [W29.19] The species features in Teutonic mythology and is mentioned in works by writers including William Shakespeare, Alfred, Lord Tennyson and Ted Hughes.
+- [W29.20] Within the family Accipitridae, the Eurasian sparrowhawk is a member of the large genus Accipiter, which consists of small to medium-sized woodland hawks.
+- [W29.21] Most of the Old World members of the genus are called sparrowhawks or goshawks.
+- [W29.22] The species' name dates back to the Middle English word sperhauk and Old English spearhafoc, a hawk which hunts sparrows.
+- [W29.23] The Old Norse name for the Eurasian sparrowhawk, sparrhaukr, was thought to have been coined by Vikings who encountered falconry in England.
+- [W29.24] English folk names for the Eurasian sparrowhawk include blue hawk, referring to the adult male's colouration, as well as hedge hawk, spar hawk, spur hawk and stone falcon.
+- [W29.25] The Eurasian sparrowhawk was described by Carl Linnaeus in his 1758 landmark 10th edition of Systema Naturae as Falco nisus, but moved to its present genus by French zoologist Mathurin Jacques Brisson in 1760.
+- [W29.26] The current scientific name is derived from the Latin accipiter, meaning 'hawk', and nisus, the sparrowhawk.
+- [W29.27] According to Greek mythology Nisus, the king of Megara, was turned into a sparrowhawk after his daughter, Scylla, cut off his purple lock of hair to present to her lover (and Nisus' enemy), Minos.
+- [W29.28] The Eurasian sparrowhawk forms a superspecies with the rufous-chested sparrowhawk of eastern and southern Africa, and possibly the Madagascar sparrowhawk.
+- [W29.29] Geographic variation is clinal, with birds becoming larger and paler in the eastern part of the range compared to the western part.
+- [W29.30] Within the species itself, six subspecies are generally recognised:
+- [W29.31] A. n. nisus, the nominate subspecies, was described by Linnaeus in 1758.
+- [W29.32] It breeds from Europe and West Asia to western Siberia and Iran; northern populations winter south to the Mediterranean, Northeast Africa, Arabia and Pakistan.
+- [W29.33] A. n. nisosimilis was described by Samuel Tickell in 1833.
+- [W29.34] It breeds from central and eastern Siberia east to Kamchatka and Japan, and south to northern China.
+- [W29.35] This subspecies is wholly migratory, wintering from Pakistan and India eastwards through Southeast Asia and southern China to Korea and Japan; some even reach Africa.
+- [W29.36] It is very similar to, but slightly larger than, the nominate subspecies.
+- [W29.37] A. n. melaschistos was described by Allan Octavian Hume in 1869.
+- [W29.38] It breeds in mountains from Afghanistan through the Himalayas and southern Tibet to western China, and winters in the plains of South Asia.
+- [W29.39] Larger and longer-tailed than nisosimilis, it has dark slate-coloured upperparts, and more distinct rufous barring on the underparts.
+- [W29.40] A. n. wolterstorffi, described by Otto Kleinschmidt in 1900, is resident in Sardinia and Corsica.
+- [W29.41] It is the smallest of all the subspecies, darker on the upperparts and more barred below than the nominate subspecies.
+- [W29.42] A. n. granti, described by Richard Bowdler Sharpe in 1890, is confined to Madeira and the Canary Islands.
+- [W29.43] A. n. punicus, described by Erlanger in 1897, is resident in Northwest Africa north of the Sahara.
+- [W29.44] It is very similar to nisus, being large and pale.
+- [W29.45] The Eurasian sparrowhawk is a small bird of prey with short, broad wings and a long tail, both adaptations to manoeuvring through trees.
+- [W29.46] Females can be up to 25% larger than males and weigh up to twice as much.
+- [W29.47] Marked size difference in this direction is unusual in higher vertebrates but typical in birds of prey, and most marked in birds of prey which hunt other birds.
+- [W29.48] The adult male is 29–34 cm (11–13 in) long, with a wingspan of 59–64 cm (23–25 in) and a mass of 110–196 g (3.9–6.9 oz).
+- [W29.49] He has slate-grey upperparts (sometimes tending to bluish), with finely red-barred underparts, which can look plain orange from a distance; his irides are orange-yellow or orange-red.
+- [W29.50] The female is much larger at 35–41 cm (14–16 in) long, with a wingspan of 67–80 cm (26–31 in), and a mass of 185–342 g (6.5–12.1 oz).
+- [W29.51] She has dark brown or greyish-brown upperparts, brown-barred underparts and bright yellow to orange irides.
+- [W29.52] The juvenile is warm brown above, with rusty fringes to the upperparts, and coarsely barred or spotted brown below, with pale yellow eyes; its throat has dark streaks and lacks a mesial (midline) stripe.
+- [W29.53] The Eurasian sparrowhawk's pale underparts and darker upperparts are an example of countershading, which helps to break up the bird's outline.
+- [W29.54] Countershading is exhibited by birds of prey that hunt birds and other fast-moving animals.
+- [W29.55] The horizontal barring seen on adult Eurasian sparrowhawks is typical of woodland-dwelling predatory birds and the adult male's bluish colour is also seen in other bird-eating raptors, including the peregrine falcon, the merlin and other Accipiters.
+- [W29.56] A study using stuffed bird models found that small birds are less likely to approach common cuckoos (a brood parasite), which have barred underparts like the Eurasian sparrowhawk.
+- [W29.57] Eurasian reed warblers were found to be more aggressive to cuckoos which looked less hawk-like, meaning that the resemblance to the hawk (mimicry) helps the cuckoo to access the nests of potential hosts.
+- [W29.58] The Eurasian sparrowhawk's small bill is used for plucking feathers and pulling prey apart rather than killing or cutting.
+- [W29.59] Its long legs and toes are an adaptation for catching and eating birds.
+- [W29.60] The outer toe is fairly long and slender; the inner toe and back toe are relatively short and thick.
+- [W29.61] The middle toe is very long and can be used to grasp objects, and a protuberance on the underside of the toe means that the digit can be closed without leaving a gap, which helps with gripping.
+- [W29.62] The flight is a characteristic flap-flap-glide, with the glide creating an undulating pattern.
+- [W29.63] This species is similar in size to the Levant sparrowhawk, but larger than the shikra (the calls are however different); the male is only slightly larger than the merlin.
+- [W29.64] Because of the overlap in sizes, the female can be confused with the similarly sized male Eurasian Goshawk, but lacks the bulk of that species.
+- [W29.65] Eurasian sparrowhawks are smaller, more slender and have shorter wings, a square-ended tail and fly with faster wingbeats.
+- [W29.66] A confusion species in China is the besra, although A. n. melaschistos is considerably larger.
+- [W29.67] In Great Britain, Eurasian sparrowhawks living further north are bigger than their more southerly counterparts, with wing length (the most reliable indicator of body size) increasing by an average of 0.86 mm (0.034 in) in males, and 0.75 mm (0.030 in) in females, for each degree further north.
+- [W29.68] A widespread species throughout the temperate and subtropical parts of the Old World, the Eurasian sparrowhawk is resident or breeds in an estimated global range of 23,600,000 km2 (9,100,000 sq mi) and had an estimated population of 1.5 million birds in 2009.
+- [W29.69] Although global population trends have not been analysed, numbers seem to be stable, so it has been classified as being of least concern by IUCN.
+- [W29.70] The race granti, with 100 pairs resident on Madeira and 200 pairs on the Canary Islands, is threatened by loss of habitat, egg-collecting and illegal hunting, and is listed on Annex I of the European Commission Birds Directive.
+- [W29.71] It is one of the most common birds of prey in Europe, along with the common kestrel and common buzzard.
+- [W29.72] The Norwegian and Albanian populations are declining and, in many parts of Europe, Eurasian sparrowhawks are still shot.
+- [W29.73] However, this low-level persecution has not affected the populations badly.
+- [W29.74] In the UK, the population increased by 108% between 1970 and 2005, but saw a 1% decline over 1994–2006.
+- [W29.75] In Ireland it is the most common bird of prey, breeding even near the city centre of Dublin, where it frequents parks and large gardens.
+- [W29.76] This species is prevalent in most woodland types in its range, and also in more open country with scattered trees.
+- [W29.77] Eurasian sparrowhawks prefer to hunt the edges of wooded areas, but migrant birds can be seen in any habitat.
+- [W29.78] The increased proportion of medium-aged stands of trees created by modern forestry techniques have benefited Accipiter nisus, according to a Norwegian study.
+- [W29.79] Unlike its larger relative the Eurasian Goshawk, it can be seen in gardens and in urban areas and will even breed in city parks if they have a certain density of tall trees.
+- [W29.80] Eurasian sparrowhawks from colder regions of northern Europe and Asia migrate south for the winter, some to north Africa (some as far as equatorial east Africa) and India; members of the southern populations are resident or disperse.
+- [W29.81] Juveniles begin their migration earlier than adults and juvenile females move before juvenile males.
+- [W29.82] Analysis of ringing data collected at Heligoland, Germany, found that males move further and more often than females; of migrating birds ringed at Kaliningrad, Russia, the average distance moved before recovery (when the ring is read and the bird's whereabouts reported subsequently) was 1,328 km (825 mi) for males and 927 km (576 mi) for females.
+- [W29.83] A study of Eurasian sparrowhawks in southern Scotland found that ringed birds which had been raised on "high grade" territories were recovered in greater proportion than birds which came from "low grade" territories.
+- [W29.84] This suggested that the high grade territories produced young which survived better.
+- [W29.85] The recovery rate also declined with increased elevation of the ground.
+- [W29.86] After the post-fledging period, female birds dispersed greater distances than did males.
+- [W29.87] The Eurasian sparrowhawk is a major predator of smaller woodland birds, though only 10% of its hunting attacks are successful.
+- [W29.88] It hunts by surprise attack, using hedges, tree-belts, copses, orchards and other cover near woodland areas; its choice of habitat is dictated by these requirements.
+- [W29.89] It also makes use of gardens in built-up areas, taking advantage of the prey found there.
+- [W29.90] It waits, hidden, for birds to come near, then breaks cover and flies out fast and low.
+- [W29.91] A chase may follow, with the hawk even flipping upside-down to grab the victim from below or following it on foot through vegetation.
+- [W29.92] It can "stoop" onto prey from a great height.
+- [W29.93] Ian Newton describes seven modes of hunting used by Eurasian sparrowhawks:
+- [W29.94] The sparrowhawk bears numerous adaptations that allow it to fly at speed low to the ground and hunt in confined spaces; these include its blunted wings, which allow it to fly through narrow gaps in hedges and fences, and its long, square-edged tail, which the bird uses to aid itself in carrying out tight turns, such as those required to negotiate close stands of trees.
+- [W29.95] Male Eurasian sparrowhawks regularly kill birds weighing up to 40 g (1.4 oz) and sometimes up to 120 g (4.2 oz) or more; females can tackle prey up to 500 g (18 oz) or more.
+- [W29.96] A recent study found that on average, female sparrowhawk prey were two and a half times heavier than that of the male.
+- [W29.97] The weight of food consumed by adult birds daily is estimated to be 40–50 g (1.4–1.8 oz) for males and 50–70 g (1.8–2.5 oz) for females.
+- [W29.98] During one year, a pair of Eurasian sparrowhawks could take 2,200 house sparrows, 600 common blackbirds or 110 wood pigeons.
+- [W29.99] Species that feed in the open, far from cover, or are conspicuous by their behaviour or coloration, are taken more often by Eurasian sparrowhawks.
+- [W29.100] For example, great tits and house sparrows are vulnerable to attack.
+- [W29.101] Eurasian sparrowhawks may account for more than 50% of deaths in certain species, but the extent varies from area to area.
+- [W29.102] Males tend to take tits, finches, sparrows and buntings; females often take thrushes and starlings.
+- [W29.103] More than 120 bird species have been recorded as prey and individual Eurasian sparrowhawks may specialise in certain prey.
+- [W29.104] The birds taken are usually adults or fledglings, though chicks in the nest and carrion are sometimes eaten.
+- [W29.105] Small mammals, including mice, bats, voles, squirrels, shrews, and young rabbits, are sometimes caught but insects are eaten only very rarely.
+- [W29.106] Small birds are killed on impact or when squeezed by the Eurasian sparrowhawk's foot, especially the two long claws.
+- [W29.107] Larger quarry (such as doves and magpies) may not die immediately but succumb during feather plucking and eating.
+- [W29.108] Victims which struggle are "kneaded" by the hawk, using its talons to squeeze and stab.
+- [W29.109] When dealing with large prey species which peck and flap, the hawk's long legs help in restraining the prey.
+- [W29.110] It stands on top of its prey to pluck and pull it apart.
+- [W29.111] The feathers are plucked and usually the breast muscles are eaten first.
+- [W29.112] The bones are left, but can be broken using the notch in the bill.
+- [W29.113] Like other birds of prey, Eurasian sparrowhawks produce pellets containing indigestible parts of their prey.
+- [W29.114] These range from 25 to 35 mm (0.98 to 1.38 in) long and 10–18 mm (0.39–0.71 in) wide and are round at one end and more narrow and pointed at the other.
+- [W29.115] They are usually composed of small feathers, as the larger ones are plucked and not consumed.
+- [W29.116] During hunting, this species can fly 2–3 km (1.2–1.9 mi) per day.
+- [W29.117] It rises above tree level mostly to display, soar above territory and to make longer journeys.
+- [W29.118] A study in a forested area of Norway found that the mean size of the home ranges was 9.2 km2 (3.6 sq mi) for males, and 12.3 km2 (4.7 sq mi) for females, which was larger than studies in Great Britain had found, "probably due to lower land productivity and associated lower densities of prey species in the [Norwegian study area]".
+- [W29.119] A study looked at the effect on the population of blue tits in an area where a pair of Eurasian sparrowhawks began to breed in 1990.
+- [W29.120] It found that the annual adult survival rate for the tits in that area dropped from 0.485 to 0.376 (the rate in adjacent plots did not change).
+- [W29.121] The size of the breeding population was not changed, but there were fewer non-breeding blue tits in the population.
+- [W29.122] In woodland, Eurasian sparrowhawks account for the deaths of a third of all young great tits; the two alarm calls given by great tits when mobbing a predator, and when fleeing from a nearby hawk, are within the optimum hearing range of both prey and predator; however, the high-pitched alarm call given when a distant flying Eurasian sparrowhawk is seen "can only be heard well by the tit".
+- [W29.123] In Sussex, the impact of Eurasian sparrowhawk predation on grey partridges was highest when the partridge density was lowest.
+- [W29.124] A 10-year study in Scotland showed that Eurasian sparrowhawks did not select the common redshanks they predated according to the waders' size or condition, probably because of the hawks' surprise-attack hunting technique.
+- [W29.125] In Britain, the increase in population of the Eurasian sparrowhawk coincides with the decline of the house sparrow population.
+- [W29.126] Another study found that the risk of predation for a bird targeted by a Eurasian sparrowhawk or Eurasian Goshawk increased 25-fold if the prey was infected with the blood parasite Leucocytozoon, and birds with avian malaria were 16 times more likely to be killed.
+- [W29.127] Natural predators of the Eurasian sparrowhawk include the barn owl, the tawny owl, the Eurasian Goshawk, the peregrine falcon, the golden eagle, the bald eagle, the eagle owl, the red fox, the stone marten and the pine marten.
+- [W29.128] The eggs are pale blue with brown spots and each measure 35–46 mm (1.4–1.8 in) x 28–35 mm (1.1–1.4 in), and weigh about 22.5 g (0.79 oz) of which 8% is shell in a healthy egg.
+- [W29.129] Usually a clutch of four or five eggs is laid.
+- [W29.130] The eggs are generally laid in the morning with an interval of 2–3 days between each egg.
+- [W29.131] If a clutch is lost, up to two further eggs may be laid that are smaller than the earlier eggs.
+- [W29.132] The altricial, downy chicks hatch after 33 days of incubation.
+- [W29.133] After hatching, the female cares for and feeds the chicks for the first 8–14 days of life, and also during bad weather after that.
+- [W29.134] The male provides food, up to six kills per day in the first week increasing to eight per day in the third and 10 per day in the last week in the nest, by which time the female is also hunting.
+- [W29.135] By 24–28 days after hatching, the young birds start to perch on branches near the nest and take their first flight.
+- [W29.136] They are fed by their parents for a further 28–30 days, staying close to the nest while growing and practicing flying.
+- [W29.137] At this stage they are extremely vocal, and their cries to their parents can often be heard a considerable distance away.
+- [W29.138] The young hawks disperse after their parents stop provisioning them.
+- [W29.139] Though they receive the same amount of food, male chicks (roughly half the size of females) mature more quickly and seem to be ready to leave the nest sooner.
+- [W29.140] In a study in the Forest of Ae, south-west Scotland, it was found that 21% of nestlings over two days old died, with the causes of death being starvation, wet weather, predation and desertion by the parents.
+- [W29.141] The parasite Leucocytozoon toddi can be passed from parent to nestling at the nest, possibly because of the number of birds sharing a small space, thus allowing transmission.
+- [W29.142] The Eurasian sparrowhawk breeds in well-grown, extensive areas of woodland, often coniferous or mixed, preferring forest with a structure neither too dense nor too open, to allow a choice of flight paths.
+- [W29.143] The nest can be located in the fork of a tree, often near the trunk and where two or three branches begin, on a horizontal branch in the lower canopy, or near the top of a tall shrub.
+- [W29.144] If available, conifers are preferred.
+- [W29.145] A new nest is built every year, generally close to the nest of the previous year, and sometimes using an old wood pigeon (A. n. melaschistos frequently uses the old nests of jungle crows) nest as a base; the male does most of the work.
+- [W29.146] The structure, made of loose twigs up to 60 cm (2.0 ft) long, has an average diameter of 60 cm (24 in).
+- [W29.147] When the eggs are laid, a lining of fine twigs or bark chippings is added.
+- [W29.148] During the breeding season, the adult male Eurasian sparrowhawk loses a small amount of weight while feeding his mate before she lays eggs, and also when the young are large and require more food.
+- [W29.149] The weight of the adult female is highest in May, when laying eggs, and lowest in August after the breeding cycle is complete.
+- [W29.150] A study suggested that the number of eggs and subsequent breeding success are dependent on the female maintaining a high weight while the male is feeding her.
+- [W29.151] Sexual maturity is reached at between 1–3 years.
+- [W29.152] Most Eurasian sparrowhawks stay on the same territory for one breeding season, though others keep the same one for up to eight years.
+- [W29.153] A change of mate usually triggers the change in territory.
+- [W29.154] Older birds tend to stay in the same territory; failed breeding attempts make a move more likely.
+- [W29.155] The birds which kept the same territories had higher nest success, though it did not increase between years; females which moved experienced more success the year after changing territory.
+- [W29.156] The oldest known wild Eurasian sparrowhawk lived more than two decades; it was found dead in Denmark 20 years and 3 months after having been ringed.
+- [W29.157] The typical lifespan is four years.
+- [W29.158] Data analysis by the British Trust for Ornithology shows that the proportion of juveniles surviving their first year of life is 34%; adult survival from one year to the next is 69%.
+- [W29.159] Birds in their first year of life weigh less than adults, and are especially light in the first two months after reaching independence.
+- [W29.160] There is probably high mortality, especially for young males, during this time.
+- [W29.161] A study in southern Scotland suggested that the greater mortality in young male birds may be due to their smaller size and the smaller size of their prey, which means that they can "last less long between meals".
+- [W29.162] Their size also means that their range of prey is restricted.
+- [W29.163] It has been estimated that a female Eurasian sparrowhawk of average weight could survive for seven days without feeding – three days longer than a male of average weight.
+- [W29.164] A study of female Eurasian sparrowhawks found "strong evidence" that their rate of survival increased for the first three years of life, and declined for the last five to six years.
+- [W29.165] Senescence (ageing) was the cause of the decline as the birds became older.
+- [W29.166] The Eurasian sparrowhawk population in Europe crashed in the second half of the 20th century.
+- [W29.167] The decline coincided with the introduction of cyclodiene insecticides – aldrin, dieldrin and heptachlor – used as seed dressings in agriculture in 1956.
+- [W29.168] The chemicals accumulated in the bodies of grain-eating birds and had two effects on top predators like the Eurasian sparrowhawk and peregrine falcon: the shells of eggs they laid were too thin, causing them to break during incubation; and birds were poisoned by lethal concentrations of the insecticides.
+- [W29.169] Sub-lethal effects of these substances include irritability, convulsions and disorientation.
+- [W29.170] In west Germany, around 80% of nests before the 1950s produced young, but only 54% were successful in the 1960s and '70s.
+- [W29.171] In the United Kingdom, the species almost became extinct in East Anglia, where the chemicals were most widely used; in western and northern parts of the country, where the pesticides were not used, there were no declines.
+- [W29.172] The Royal Society for the Protection of Birds bought its Coombes Valley nature reserve in Staffordshire because it was the only Eurasian sparrowhawk breeding site left in the English Midlands.
+- [W29.173] In the UK, the use of cyclodienes as seed dressings for autumn-sown cereals was banned in 1975 and the levels of the chemicals present in the bird population began to fall.
+- [W29.174] The population has largely recovered to pre-decline levels, with an increase seen in many areas, for example northern Europe.
+- [W29.175] In Sweden, the population also decreased drastically from the 1950s, but recovered again once organochlorines were banned in the 1970s.
+- [W29.176] In the UK, the failure rate at the egg stage had decreased from 17% to 6% by the year 2000, and the population had stabilised after reaching a peak in the 1990s.
+- [W29.177] A study of the eggs of Dutch Eurasian sparrowhawks found that contamination with Dichlorodiphenyldichloroethylene (DDE) – a "very persistent compound" produced when DDT breaks down – continued into the 1980s, though a decline in the number of clutches with broken eggs during the 1970s suggested decreasing levels of the chemical.
+- [W29.178] Body tissue samples from Eurasian sparrowhawks are still analysed as part of the Predatory Bird Monitoring Scheme conducted by the UK government's Joint Nature Conservation Committee.
+- [W29.179] Although the average liver concentrations of polychlorinated biphenyls (PCBs) in Eurasian sparrowhawks were lower in birds that died in 2005 compared to those that died in 2004, there was not a significant or consistent decline in residues between 2000 and 2005.
+- [W29.180] The Eurasian sparrowhawk's adaptation for feeding on birds has brought it into conflict with humans; in the 19th century it was described as "the great enemy of small quadrupeds and birds, and often very destructive to young chicks in poultry-yards in the breeding season" and "very destructive to partridges".
+- [W29.181] Writing for gamekeepers in 1851, T.
+- [W29.182] Johnson recommended that: "The nest of this bird should be diligently sought ... and destroyed, shooting the parent birds first, if possible."
+- [W29.183] It was written in 1870 that "The sparrowhawk is perhaps only the true enemy of the game-preserver; though at the same time it is probable that if the good and evil it does were justly weighed, the balance would be in favour of the hawk, its favourite quarry being the wood pigeon, which is now increasing to an extent injurious to agriculture." Parish records of the 18th century for Aldworth, Berkshire, in southern England, show that payments were made for 106 Eurasian sparrowhawks' heads, at the same time as efforts were being made to control the numbers of sparrows.
+- [W29.184] The species suffered heavy persecution by 18th-century European landowners and gamekeepers, but withstood attempts to eradicate it.
+- [W29.185] For example, on the estate at Sandringham in Norfolk, 1,645 'hawks' were killed between 1938 and 1950, with 1,115 taken between 1919 and 1926 at Langwell and Sandside in Caithness, Scotland.
+- [W29.186] The population was able to quickly replace lost birds – there is a high proportion of non-breeding, non-territorial birds able to fill vacant territories.
+- [W29.187] The habitat conserved with gamebirds in mind also suited this species and its prey; gamekeepers' more successful efforts to wipe out the Eurasian Goshawk and pine marten – predators of the Eurasian sparrowhawk – may have benefited it.
+- [W29.188] The population increased markedly when this pressure was relaxed, for example during the First and Second World Wars.
+- [W29.189] In the United Kingdom, research into the effect of predators on bird populations has been "a contentious issue", with "perceived conflict between the interests of nature conservationists and those involved in game shooting".
+- [W29.190] Declines in the populations of some British songbirds since the 1960s have coincided with considerable changes in agricultural practices and also large increases in the numbers of Eurasian sparrowhawks and European magpies.
+- [W29.191] When the Eurasian sparrowhawk population declined because of organochlorine use, there was no great increase in the populations of songbirds.
+- [W29.192] In a 1949–1979 study of 13 passerine species breeding in a 40-acre (16-hectare) oakwood at Bookham Commons, Surrey, England, none was present in significantly greater numbers when Eurasian sparrowhawks were absent from the wood.
+- [W29.193] Many studies, mostly short-term, failed to find an effect on songbird populations caused by predatory birds such as Eurasian sparrowhawks.
+- [W29.194] But analysis of long-term, large-scale national data from the UK's Common Bird Census demonstrated that the declines in farmland songbird populations since the 1960s are unlikely to have been caused by increased predation by Eurasian sparrowhawks and magpies.
+- [W29.195] The results of the study indicated that patterns of year-to-year songbird population change were the same at different sites, whether the predators were present or not.
+- [W29.196] Another study, which examined the effects of predators – including the Eurasian sparrowhawk and introduced grey squirrel – on UK passerine populations, found that "whilst a small number of associations may suggest significant negative effects between predator and prey species, for the majority of the songbird species examined there is no evidence that increases in common avian predators or grey squirrels are associated with large-scale population declines."
+- [W29.197] Racing pigeon owners in Great Britain have said for many years that Eurasian sparrowhawks and peregrine falcons "cause serious and escalating losses" of pigeons and some have called for these birds of prey to be killed or removed from areas surrounding homing pigeon lofts.
+- [W29.198] In Scotland, a two-year study published in 2004, and funded by Scottish Natural Heritage and the Scottish Homing Union (SHU), found there was "no evidence that birds of prey cause major losses of racing pigeons at lofts or during races." It reported that 56% of racing pigeons were lost each year but that the proportion taken by Eurasian sparrowhawks – "often blamed for major losses" – was less than 1%, with at least 2% taken by peregrine falcons.
+- [W29.199] The study was carried out by the Central Science Laboratory; researchers worked with SHU members who provided data, information on pigeon rings found at peregrine falcon nests and pigeon carcasses.
+- [W29.200] From January to April 2009, the Scottish Government conducted a trial translocation of Eurasian sparrowhawks from around racing pigeon lofts in Glasgow, Edinburgh, Kilmarnock, Stirling and Dumfries.
+- [W29.201] The trial, which cost £25,000, was supported by the Scottish Homing Union, representing the country's 3,500 pigeon fanciers.
+- [W29.202] The experiment was originally scheduled for early in 2008 but was postponed because it would have impinged on the birds' breeding season.
+- [W29.203] It was criticised by the government's own ecological adviser, Dr Ian Bainbridge, the government body Scottish Natural Heritage and organisations including the Royal Society for the Protection of Birds and the Scottish Society for Prevention of Cruelty to Animals.
+- [W29.204] The findings, released in January 2010, showed that only seven Eurasian sparrowhawks had been removed from the area from five pigeon lofts.
+- [W29.205] One hawk returned twice to the area of the loft, while new birds began to visit two other lofts.
+- [W29.206] The report found that "The quantity and quality of the observational data collected meant that it was impossible to draw any firm conclusions" and the government stated that "no further research involving the trapping or translocation of raptors" would take place, while the SHU maintained that it was "very optimistic that licensed trapping and translocation could at last provide some protection."
+- [W29.207] Eurasian sparrowhawks are an effective urban adapter species in the UK and are thus non-threatened, however, recent search has suggested that they are prone to colliding with man-made structures such as buildings when hunting.
+- [W29.208] The Eurasian sparrowhawk has been used in falconry for centuries and was favoured by Emperor Akbar the Great (1542–1605) of the Mughal Empire.
+- [W29.209] There is a tradition of using migrant Eurasian sparrowhawks to catch common quail in Tunisia and Georgia, where there are 500 registered bazieri (sparrowhawkers) and a monument to bazieri in the city of Poti.
+- [W29.210] Eurasian sparrowhawks are also popular in Ireland.
+- [W29.211] At Cap Bon in Tunisia, and in Turkey, thousands are captured each year by falconers and used for hunting migrant common quails.
+- [W29.212] Although they were formerly released at the end of the season, many are now kept because of the scarcity of migrants.
+- [W29.213] In 17th century England, the Eurasian sparrowhawk was used by priests, reflecting their lowly status; whereas in the Middle Ages, they were favoured by ladies of noble and royal status because of their small size.
+- [W29.214] The falconer's name for a male Eurasian sparrowhawk is a "musket"; this is derived from the Latin word musca, meaning 'a fly', via the Old French word moschet.
+- [W29.215] "An austringer [falconer] undertaking to train a sparrowhawk should be in no doubt that he is taking on one of the most difficult hawks available." A female Eurasian sparrowhawk is considered a bad choice for a novice and the male is very difficult and demanding, even for an experienced handler.
+- [W29.216] They have been described as "hysterical little hawks" but are also praised as courageous and providing "sport of the highest quality".
+- [W29.217] Philip Glasier describes Eurasian sparrowhawks as "in many ways superior to hunting with a larger short-wing [hawk]" and "extremely hard to tame".
+- [W29.218] They are best suited for small quarry such as common starlings and common blackbirds but are also capable of taking common teal, Eurasian magpies, pheasants and partridges.
+- [W29.219] A 19th century author remarked that this species was "the best of all hawks for landrails", now known as corn crakes.
+- [W29.220] In 1735, the Sportsman's Dictionary noted that "... she will serve in the winter as well as in the summer, and will fly at all kind of game more than the falcon.
+- [W29.221] If a winter sparrowhawk prove good, she will kill the pye, the chough, the jay, woodcock, thrush, black-bird, fieldfare, and divers[e] other birds of the like nature."
+- [W29.222] In Slavic mythology, the sparrowhawk, known as krahui or krahug, is a sacred bird in Old Bohemian songs and lives in a grove of the gods.
+- [W29.223] Holy sparrowhawks perch on the branches of an oak tree that grows from the grave of a murdered man, and "publish the foul deed".
+- [W29.224] The South Slavic name for this bird, kobac or skobec, comes from Proto-Slavic kob (doom), indicating that omens were read from its flight.
+- [W29.225] It also features in Teutonic mythology.
+- [W29.226] In some areas of England, it was believed that the common cuckoo turned into a Eurasian sparrowhawk in winter.
+- [W29.227] The surname Spearhafoc, later Sparhawk, Sparrowhawk was in use as a personal name in England before the Norman Conquest of England in 1066.
+- [W29.228] In 1695, John Aubrey wrote in his Miscellanies:
+- [W29.229] Not long before the Death of King Charles II a sparrow-hawk escaped from the Perch, and pitched on one of the Iron Crowns of the White Tower, and entangling its string in the Crown, hung by the heels and died.
+- [W29.230] T'was considered very ominous, and so it proved.
+- [W29.231] The musket, or musquet, originally a kind of crossbow bolt, and later a small cannon, was named after the male Eurasian sparrowhawk because of its size.
+- [W29.232] The British Gloster Aircraft Company named one of their Mars series craft the Sparrowhawk.
+- [W29.233] In William Shakespeare's The Merry Wives of Windsor, Mrs Ford greets Robin, Falstaff's page, with the words "How now, my eyas musket", eyas musket meaning a lively young man (an eyas is a hawk nestling).
+- [W29.234] The British Poet Laureate Ted Hughes wrote a poem entitled "A Sparrow-Hawk" which refers to this species.
+- [W29.235] Hermann Hesse mentioned this bird in his book Demian and the bird is also referred to in One Thousand and One Nights by Richard Francis Burton:
+- [W29.236] Good sooth my bones, wheneas they hear thy name
+- [W29.237] Quail as birds quailed when Nisus o'er them flew
+- [W29.238] The Eurasian sparrowhawk was written about by Alfred, Lord Tennyson:
+- [W29.239] A sparhawk proud did hold in wicked jail
+- [W29.240] Music's sweet chorister, the Nightingale
+- [W29.241] To whom with sighs she said: 'O set me free,
+- [W29.242] And in my song I'll praise no bird but thee.'
+- [W29.243] The Hawk replied: 'I will not lose my diet
+- [W29.244] To let a thousand such enjoy their quiet.'
+- [W29.245] It also appears in Tennyson's Idylls of the King.
+- [W29.246] del Hoyo, Josep; Elliott, Andrew; Sargatal, Jordi, eds.
+- [W29.247] Handbook of the Birds of the World.
+- [W29.248] New World Vultures to Guineafowl.
+- [W29.249] BirdLife species factsheet for Accipiter nisus
+- [W29.250] Ageing and sexing (PDF; 5.8 MB) by Javier Blasco-Zumeta & Gerd-Michael Heinze
+- [W29.251] RSPB webpage with sound and video files.
+- [W29.252] Global Raptor Information Network species account Archived 20 November 2012 at the Wayback Machine.
+- [W29.253] "Eurasian sparrowhawk media".
+- [W29.254] Eurasian sparrowhawk photo gallery at VIREO (Drexel University)
+
+## [W30] Wikipedia: Numbat
+https://en.wikipedia.org/w/index.php?title=Numbat&oldid=1375745300 · CC BY-SA 4.0 · usage: ai_input
+
+- [W30.1] The numbat (; binomen: Myrmecobius fasciatus), also known as the noombat or walpurti, is an insectivorous marsupial.
+- [W30.2] It is diurnal and its diet consists almost exclusively of termites.
+- [W30.3] The species was once widespread across southern Australia, but is now restricted to several small colonies in Western Australia.
+- [W30.4] It is therefore considered an endangered species and protected by conservation programs.
+- [W30.5] Numbats were recently re-introduced to fenced reserves in South Australia and New South Wales.
+- [W30.6] The numbat is the faunal emblem of Western Australia.
+- [W30.7] The numbat genus Myrmecobius is the sole member of the family Myrmecobiidae, one of four families that make up the order Dasyuromorphia, the Australian marsupial carnivores.
+- [W30.8] The species is not closely related to other extant marsupials; the current arrangement in the order Dasyuromorphia places its monotypic family with the diverse and carnivorous species of Dasyuridae.
+- [W30.9] Genetic studies have shown that the ancestors of the numbat diverged from other marsupials between 32 and 42 million years ago, during the late Eocene.
+- [W30.10] Two subspecies have been described, but one of these—the rusty coloured Myrmecobius fasciatus rufus Finlayson, 1933,—has been extinct since at least the 1960s, and only the nominate subspecies (M. fasciatus fasciatus) is extant.
+- [W30.11] The population described by Finlayson occurred in the arid central regions of South Australia, and he thought they had once extended to the coast.
+- [W30.12] The separation into subspecies was not recognised in the national census of Australian mammals, following W.
+- [W30.13] As its name implies, M. fasciatus rufus had a more reddish coat than the surviving population.
+- [W30.14] Only a very small number of fossil specimens are known, the oldest dating back to the Pleistocene, and no other species from the same family have been identified.
+- [W30.15] The following is a phylogenetic tree based on mitochondrial genome sequences:
+- [W30.16] Placement of the family within the order of dasyuromorphs may be summarised as
+- [W30.17] Family Dasyuridae (72 species in 20 genera)
+- [W30.18] Species Myrmecobius fasciatus
+- [W30.19] The common names are adopted from the extant names at the time of English colonisation, numbat, from the Nyungar language of southwest Australia, and walpurti, the name in the Pitjantjatjara dialect.
+- [W30.20] The orthography and pronunciation of the Nyungar name is regularised, following a survey of published sources and contemporary consultation that resulted in the name noombat', pronounced noom'bat.
+- [W30.21] Other names include banded anteater and marsupial anteater.
+- [W30.22] The numbat is a small, distinctively-striped animal between 35 and 45 centimetres (14 and 18 in) long, including the tail, with a finely pointed muzzle and a prominent, bushy tail about the same length as its body.
+- [W30.23] They have five toes on the fore feet, and four on the hind feet.
+- [W30.24] Colour varies considerably, from soft grey to reddish-brown, often with an area of brick red on the upper back, and always with a conspicuous black stripe running from the tip of the muzzle through the eye to the base of the small, round-tipped ear.
+- [W30.25] Between four and eleven white stripes cross the animal's hindquarters, which gradually become fainter towards the midback.
+- [W30.26] The underside is cream or light grey, while the tail is covered with long, grey hair flecked with white.
+- [W30.27] Weight varies between 280 and 700 g (10 and 24+1⁄2 oz).
+- [W30.28] Numbats also possess a sternal scent gland, which may be used for marking their territories.
+- [W30.29] Unlike most other small marsupials, the numbat is diurnal, largely because of the constraints of having a specialised diet without having the usual physical equipment for it; most ecosystems with a generous supply of termites have a fairly large creature with powerful forelimbs bearing heavy claws, such as anteaters, aardvarks, and pangolins.
+- [W30.30] Like other mammals that eat termites or ants (myrmecophages), the numbat has a "degenerate" jaw with up to 50 tiny, nonfunctional teeth, and although it is able to chew, rarely does so because of the soft nature of its diet.
+- [W30.31] Uniquely among terrestrial mammals, an additional cheek tooth is located between the premolars and molars; whether this represents a supernumerary molar tooth or a deciduous tooth retained into adult life is unclear.
+- [W30.32] As a result, although not all individuals have the same dental formula, in general, it follows the unique pattern: 4.1.3.1.43.1.4.1.4
+- [W30.33] Akin to other myrmecophages, the numbat has a long and narrow tongue coated with sticky saliva produced by large submandibular glands.
+- [W30.34] A further adaptation to the diet is the presence of numerous ridges along the soft palate, which apparently help to scrape termites off the tongue so they can be swallowed.
+- [W30.35] The digestive system is relatively simple and lacks many of the adaptations found in other insectivorous animals, presumably because termites are easier to digest than ants, having a softer exoskeleton.
+- [W30.36] Numbats are apparently able to gain a considerable amount of water from their diets, since their kidneys lack the usual specialisations for retaining water found in other animals living in their arid environment.
+- [W30.37] Although the numbat finds termite mounds primarily using scent, it has the highest visual acuity of any marsupial, and, unusually for marsupials, has a high proportion of cone cells in the retina.
+- [W30.38] These are both likely adaptations for its diurnal habits, and vision does appear to be the primary sense used to detect potential predators.
+- [W30.39] Numbats were formerly widely distributed across southern Australia, from Western Australia to north-western New South Wales.
+- [W30.40] However, their range has significantly decreased since the arrival of Europeans, and the species has survived only in two small patches of land in the Dryandra Woodland and the Tone-Perup Nature Reserve, both in Western Australia.
+- [W30.41] Today, numbats are naturally found only in areas of eucalypt forest, but they were once more widespread in other types of semiarid woodland, spinifex grassland, and in terrain dominated by sand dune.
+- [W30.42] There are estimated to be fewer than 1,000 left in the wild.
+- [W30.43] After measures aimed at excluding feral cats, the number of numbats trapped during annual population surveys in the Dryandra Woodland had increased to 35 by November 2020, after recording just 10 in 2019 and 5 in 2018.
+- [W30.44] There had not been so many numbats recorded since 36 were recorded in the 1990s.
+- [W30.45] The species has been successfully reintroduced into three fenced, feral predator-proof reserves in more varied environments; Yookamurra Sanctuary in the mallee of South Australia, Scotia Sanctuary in semi-arid NSW, and Western Australia's Mount Gibson Sanctuary.
+- [W30.46] Reintroduction began at large fenced reserves in Mallee Cliffs National Park in NSW in December 2020, and on South Australia's Eyre Peninsula in 2022.
+- [W30.47] Attempted reintroductions of the species to fenced reserves in two other areas – one in the South Australian arid zone, near Roxby Downs, and the other in the northernmost part of its former range, at Newhaven Sanctuary in the Northern Territory – both failed.
+- [W30.48] There are plans to reintroduce the species to a managed and semi-fenced area of the southern Yorke Peninsula in South Australia, as part of the Marna Banggara (formerly Great Southern Ark) project.
+- [W30.49] Numbats are insectivores and subsist on a diet of termites (of the genera Heterotermes, Coptotermes, Amitermes, Microcerotermes, Termes, Paracapritermes, Nasutitermes, Tumulitermes, and Occasitermes).
+- [W30.50] An adult numbat requires up to 20,000 termites each day.
+- [W30.51] The only marsupial fully active by day, the numbat spends most of its time searching for termites.
+- [W30.52] It digs them up from loose earth with its front claws and captures them with its long, sticky tongue.
+- [W30.53] Because termites have a high water content Numbats obtain most of their water needs directly from their food, allowing them to survive in dry Australian habitats.
+- [W30.54] Despite its banded anteater name, it apparently does not intentionally eat ants; although the remains of ants have occasionally been found in numbat excreta, these belong to species that themselves prey on termites, so were presumably eaten accidentally, along with the main food.
+- [W30.55] Known native predators include various reptiles and raptors, such as the carpet python, sand goanna, wedge-tailed eagle, collared sparrowhawk, brown goshawk, and the little eagle.
+- [W30.56] They are also preyed upon by invasive red foxes and feral cats.
+- [W30.57] Adult numbats are solitary and territorial; an individual male or female establishes a territory of up to 1.5 square km (370 acres) early in life, and defends it from others of the same sex.
+- [W30.58] The animal generally remains within that territory from then on; male and female territories overlap, and in the breeding season, males will venture outside their normal home ranges to find mates.
+- [W30.59] While the numbat has relatively powerful claws for its size, it is not strong enough to get at termites inside their concrete-like mounds, and so must wait until the termites are active.
+- [W30.60] It uses a well-developed sense of smell to locate the shallow and unfortified underground galleries that termites construct between the nest and their feeding sites; these are usually only a short distance below the surface of the soil, and vulnerable to the numbat's digging claws.
+- [W30.61] The numbat synchronises its day with termite activity, which is temperature dependent: in winter, it feeds from midmorning to midafternoon; in summer, it rises earlier, takes shelter during the heat of the day, and feeds again in the late afternoon.
+- [W30.62] Numbats can enter a state of torpor, which may last up to fifteen hours a day during the winter months.
+- [W30.63] At night, the numbat retreats to a nest, which can be in a log or tree hollow, or in a burrow, typically a narrow shaft 1–2 m (3 ft 3 in – 6 ft 7 in) long which terminates in a spherical chamber lined with soft plant material: grass, leaves, flowers, and shredded bark.
+- [W30.64] The numbat is able to block the opening of its nest, with the thick hide of its rump to prevent a predator being able to accessing the burrow.
+- [W30.65] Numbats have relatively few vocalisations, but have been reported to hiss, growl, or make a repetitive 'tut' sound when disturbed.
+- [W30.66] Numbats breed in February and March (late austral summer), normally producing one litter a year.
+- [W30.67] They can produce a second if the first is lost.
+- [W30.68] Gestation lasts 15 days, and results in the birth of four young.
+- [W30.69] Unusual for marsupials, female numbats have no pouch, although the four teats are protected by a patch of crimped, golden hair and by the swelling of the surrounding abdomen and thighs during lactation.
+- [W30.70] The young are 2 cm (0.79 in) long at birth.
+- [W30.71] They crawl immediately to the teats and remain attached until late July or early August, by which time they have grown to 7.5 cm (3.0 in).
+- [W30.72] They are 3 cm (1.2 in) long when they first develop fur, and the patterning of the adult begins to appear once they reach 5.5 cm (2.2 in).
+- [W30.73] The young are left in a nest or carried on the mother's back after weaning, becoming fully independent by November.
+- [W30.74] Females are sexually mature by the following summer, but males do not reach maturity for another year.
+- [W30.75] The numbat first became known to Europeans in 1831.
+- [W30.76] It was discovered by an exploration party exploring the Avon Valley under the leadership of Robert Dale.
+- [W30.77] George Fletcher Moore, who was a member of the expedition, drew a picture in his diary on 22 September 1831, and recounted the discovery:
+- [W30.78] Saw a beautiful animal; but, as it escaped into the hollow of a tree, could not ascertain whether it was a species of squirrel, weasel, or wild cat...
+- [W30.79] chased another little animal, such as had escaped from us yesterday, into a hollow tree, where we captured it; from the length of its tongue, and other circumstances, we conjecture that it is an ant-eater—its colour yellowish, barred with black and white streaks across the hinder part of the back; its length about twelve inches.
+- [W30.80] The first classification of specimens was published by George Robert Waterhouse, describing the species in 1836 and the family in 1841.
+- [W30.81] Myrmecobius fasciatus was included in the first part of John Gould's The Mammals of Australia, issued in 1845, with a plate by H.
+- [W30.82] Richter illustrating the species.
+- [W30.83] At the time of European colonisation, the numbat was found across western, central, and southern regions of Australia, extending as far east as New South Wales and Victorian state borders and as far north as the southwest corner of the Northern Territory.
+- [W30.84] It was at home in a wide range of woodland and semiarid habitats.
+- [W30.85] The deliberate release of the European red fox in the 19th century, however, is presumed to have wiped out the entire numbat population in Victoria, NSW, South Australia and the Northern Territory, and almost all numbats in Western Australia.
+- [W30.86] By the late 1970s, the population was well under 1,000 individuals, concentrated in two small areas not far from Perth, at protected areas of the Dryandra forest and at Perup.
+- [W30.87] The population recognised and described as a subspecies by Finlayson, M. fasciatus rufus, is presumed to be extinct.
+- [W30.88] The first record of the species described it as beautiful, and its popular appeal led to its selection as the faunal emblem of the state of Western Australia and initiated efforts to conserve it from extinction.
+- [W30.89] The two small Western Australia populations apparently were able to survive because both areas have many hollow logs that may serve as refuge from predators.
+- [W30.90] Being diurnal, the numbat is much more vulnerable to predation than most other marsupials of a similar size: its natural predators include the little eagle, brown goshawk, collared sparrowhawk, and carpet python.
+- [W30.91] When the Western Australia government instituted an experimental program of fox baiting at Dryandra (one of the two remaining sites), numbat sightings increased by a factor of 40.
+- [W30.92] An intensive research and conservation program since 1980 has succeeded in increasing the numbat population substantially, and reintroductions to fox-free areas have begun.
+- [W30.93] Perth Zoo is very closely involved in breeding this native species in captivity for release into the wild.
+- [W30.94] Despite the encouraging degree of success so far, the numbat remains at considerable risk of extinction and is classified as an endangered species within Australia.
+- [W30.95] In 2026, the IUCN Red List status was moved to "near threatened" after populations have risen and stabilized.
+- [W30.96] Since 2006, Project Numbat volunteers have helped to save the numbat from extinction.
+- [W30.97] One of Project Numbat's main objectives is to raise funds that go towards conservation projects, and to raise awareness through presentations held by volunteers at schools, community groups and events.
+- [W30.98] Numbats can be successfully re-introduced into areas of their former range if protected from introduced predators.
+- [W30.99] Arkive – Numbat (Myrmecobius fasciatus)
+
+## [W31] Wikipedia: Hippopotamus
+https://en.wikipedia.org/w/index.php?title=Hippopotamus&oldid=1380577215 · CC BY-SA 4.0 · usage: ai_input
+
+- [W31.1] The hippopotamus (Hippopotamus amphibius; ; pl.: hippopotamuses or hippopotami), often shortened to hippo (pl.: hippos), further qualified as the common hippopotamus, Nile hippopotamus and river hippopotamus, is a large semiaquatic mammal native to sub-Saharan Africa.
+- [W31.2] It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus (Choeropsis liberiensis or Hexaprotodon liberiensis).
+- [W31.3] Its name comes from the Ancient Greek for "river horse" (ἱπποπόταμος).
+- [W31.4] After elephants and rhinoceroses, the hippopotamus is the next largest land mammal.
+- [W31.5] It is also the largest extant land artiodactyl.
+- [W31.6] Despite their physical resemblance to pigs and other terrestrial even-toed ungulates, the closest living relatives of the hippopotamids are cetaceans (whales, dolphins, porpoises, etc.), from which they diverged about 55 million years ago.
+- [W31.7] Hippos are recognisable for their barrel-shaped torsos, wide-opening mouths with large canine tusks, nearly hairless bodies, short legs, and large size: adults average 1.5 t (1.7 short tons) for bulls (males) and 1.3 t (1.4 short tons) for cows (females).
+- [W31.8] Hippos inhabit rivers, lakes, and mangrove swamps.
+- [W31.9] Territorial bulls each preside over a stretch of water and a group of five to thirty cows and calves.
+- [W31.10] Mating and birth both occur in the water.
+- [W31.11] During the day, hippos remain cool by staying in water or mud, emerging at dusk to graze on grasses.
+- [W31.12] While hippos rest near each other in the water, grazing is a solitary activity and hippos typically do not display territorial behaviour on land.
+- [W31.13] Hippos are among the most dangerous animals in the world due to their aggressive and unpredictable nature.
+- [W31.14] They are threatened by habitat loss and poaching for their meat and ivory (canine teeth).
+- [W31.15] The Latin word hippopotamus is derived from the Ancient Greek ἱπποπόταμος (hippopótamos), from ἵππος (híppos) 'horse' and ποταμός (potamós) 'river', together meaning 'horse of the river'.
+- [W31.16] In English, the usual plural is "hippopotamuses".
+- [W31.17] The common hippopotamus and the pygmy hippopotamus are the only living members of the family Hippopotamidae.
+- [W31.18] Some taxonomists place hippos and anthracotheres in the superfamily Anthracotheroidea.
+- [W31.19] Hippopotamidae are classified along with other even-toed ungulates in the order Artiodactyla.
+- [W31.20] Five subspecies of hippos have been described based on morphological differences in their skulls as well as differences in geographical range:
+- [W31.21] H. a. amphibius – (the nominate subspecies) ranges from Gambia east to Ethiopia and then south to Mozambique and historically ranged as far north as Egypt; its skull is distinguished by a moderately reduced preorbital region, a bulging dorsal surface, elongated mandibular symphysis and larger chewing teeth.
+- [W31.22] H. a. kiboko – found in Tanzania, Kenya and Somalia; was noted to be smaller and more lightly coloured than other hippos with wider nostrils, somewhat longer snout and more rounded and relatively raised orbits with the space between them being incurved.
+- [W31.23] H. a. capensis – found in Zambia and South Africa; distinguished by wider orbits.
+- [W31.24] H. a. tschadensis – ranges between Chad and Niger; featured a slightly shorter but broader face, and pronounced, forward-facing orbits.
+- [W31.25] H. a. constrictus – ranges from the southern Democratic Republic of Congo to Angola and Namibia; skull characterised by a thicker preorbital region, shorter snout, flatter dorsal surface, reduced mandibular symphysis and smaller chewing teeth.
+- [W31.26] The suggested subspecies above were never widely used or validated by field biologists; the described morphological differences were small enough that they could have resulted from simple variation in nonrepresentative samples.
+- [W31.27] A study examining mitochondrial DNA from skin biopsies taken from 13 sampling locations found "low, but significant, genetic differentiation" among H. a. amphibius, H. a. capensis, and H. a. kiboko.
+- [W31.28] Neither H. a. tschadensis nor H. a. constrictus have been tested.
+- [W31.29] Until 1909, naturalists classified hippos together with pigs based on molar patterns.
+- [W31.30] Several lines of evidence, first from blood proteins, then from molecular systematics, DNA and the fossil record, show their closest living relatives are cetaceans (whales, dolphins, and porpoises).
+- [W31.31] The common ancestor of hippos and whales branched off from Ruminantia and the rest of the even-toed ungulates; the cetacean and hippo lineages split soon afterwards.
+- [W31.32] The most recent theory of the origins of Hippopotamidae suggests hippos and whales shared a common semiaquatic ancestor that branched off from other artiodactyls around 60 million years ago.
+- [W31.33] This hypothesised ancestral group likely split into two branches again around 54 million years ago.
+- [W31.34] One branch would evolve into cetaceans, possibly beginning about 52 million years ago, with the protowhale Pakicetus and other early whale ancestors collectively known as Archaeoceti.
+- [W31.35] This group eventually underwent aquatic adaptation into the completely aquatic cetaceans.
+- [W31.36] The other branch became the anthracotheres, a large family of four-legged beasts, the earliest of which in the late Eocene would have resembled skinny hippos with comparatively smaller, narrower heads.
+- [W31.37] All branches of the anthracotheres, except that which evolved into Hippopotamidae, became extinct during the Pliocene, leaving no descendants.
+- [W31.38] A rough evolutionary lineage of the hippo can thus be traced from Eocene and Oligocene species: from Anthracotherium and Elomeryx to the Miocene species Merycopotamus and Libycosaurus and finally the very latest anthracotheres in the Pliocene.
+- [W31.39] These groups lived across Eurasia and Africa.
+- [W31.40] The discovery of Epirigenys in East Africa, which was likely a descent of Asian anthracotheres and a sister taxon to Hippopotamidae, suggests that hippo ancestors entered Africa from Asia around 35 million years ago.
+- [W31.41] An early hippopotamid is the genus Kenyapotamus, which lived in Africa from 15 to 9 million years ago.
+- [W31.42] Hippopotamid species would spread across Africa and Eurasia, including the modern pygmy hippo.
+- [W31.43] From 7.5 to 1.8 million years ago, a possible ancestor to the modern hippo, Archaeopotamus, lived in Africa and the Middle East.
+- [W31.44] The oldest records of the genus Hippopotamus date to the Pliocene (5.3–2.6 million years ago).
+- [W31.45] The oldest unambiguous records of the modern H. amphibius date to the Middle Pleistocene, though there are possible Early Pleistocene records.
+- [W31.46] Three species of Malagasy hippopotamus became extinct during the Holocene on Madagascar, the last of them within the past 1,000 years.
+- [W31.47] The Malagasy hippos were smaller than the modern hippo, likely a result of the process of insular dwarfism.
+- [W31.48] Fossil evidence indicates many Malagasy hippos were hunted by humans, a factor in their eventual extinction.
+- [W31.49] Isolated individual Malagasy hippos may have survived in remote pockets; in 1976, villagers described a living animal called the kilopilopitsofy, which may have been a Malagasy hippo.
+- [W31.50] Hippopotamus gorgops from the Early Pleistocene to the early Middle Pleistocene of Africa and West Asia grew considerably larger than the living hippopotamus, with an estimated body mass of over 4,000 kg (8,800 lb).
+- [W31.51] Hippopotamus antiquus ranged throughout Europe, extending as far north as Britain during the Early and Middle Pleistocene epochs, before being replaced by the modern H. amphibius in Europe during the latter part of the Middle Pleistocene.
+- [W31.52] The Pleistocene also saw a number of dwarf species evolve on several Mediterranean islands, including Crete (Hippopotamus creutzburgi), Cyprus (the Cyprus dwarf hippopotamus, Hippopotamus minor), Malta (Hippopotamus melitensis), and Sicily (Hippopotamus pentlandi).
+- [W31.53] Of these, the Cyprus dwarf hippo survived until the end of the Pleistocene or early Holocene.
+- [W31.54] Evidence from the archaeological site Aetokremnos continues to cause debate on whether or not the species was driven to extinction or even encountered by humans.
+- [W31.55] The hippopotamus is a megaherbivore and is the third-largest land mammal after elephants and some rhinoceros species.
+- [W31.56] The mean adult weight is around 1.48 t (1.63 short tons) for bulls and 1.365 t (1.505 short tons) for cows.
+- [W31.57] Exceptionally large males have been recorded reaching 2.66 t (2.93 short tons).
+- [W31.58] Male hippos appear to continue growing throughout their lives, while females reach maximum weight at around age 25.
+- [W31.59] It is 2.90 to 5.05 m (9 ft 6 in to 16 ft 7 in) long, including a tail of about 35 to 56 cm (1 ft 2 in to 1 ft 10 in) in length and 1.30 to 1.65 m (4 ft 3 in to 5 ft 5 in) tall at the shoulder, with males and females ranging 1.40 to 1.65 m (4 ft 7 in to 5 ft 5 in) and 1.30 to 1.45 m (4 ft 3 in to 4 ft 9 in) tall at the shoulder respectively.
+- [W31.60] The species has a typical head–body length of 3.3–3.45 m (10.8–11.3 ft) and an average standing height of 1.4 m (4 ft 7 in) at the shoulder.
+- [W31.61] Hippos have barrel-shaped bodies with short tails and legs, and an hourglass-shaped skull with a long snout.
+- [W31.62] Their skeletal structures are graviportal, adapted to carrying their enormous weight, and their dense bones and low centre of gravity allows them to sink and move along the bottom of the water.
+- [W31.63] Hippopotamuses have small legs (relative to other megafauna) because the water in which they live reduces the weight burden.
+- [W31.64] The toes are webbed and the pelvis rests at an angle of 45 degrees.
+- [W31.65] Though chubby-looking, hippos have little fat.
+- [W31.66] The eyes, ears, and nostrils of hippos are placed high on the roof of their skulls.
+- [W31.67] This allows these organs to remain above the surface while the rest of the body is submerged.
+- [W31.68] The nostrils and ears can close when underwater while nictitating membranes cover the eyes.
+- [W31.69] The vocal folds of the hippo are more horizontally positioned, much like baleen whales.
+- [W31.70] Underneath are throat tissues, where vibrations are transmitted to produce underwater calls.
+- [W31.71] The hippo's jaw is powered by huge masseter and digastric muscles, and the hinge is located far back enough so that they can open their mouths at 100–110 degrees.
+- [W31.72] Extensions at the back of the jaw create more surface area for muscle attachment, which gives them large, droopy cheeks This allows them to achieve their gape without tearing any tissue.
+- [W31.73] On the lower jaw, the incisors and canines grow continuously, the former reaching 40 cm (16 in), while the latter can grow to up to 50 cm (20 in).
+- [W31.74] The lower canines are sharpened through contact with the smaller upper canines.
+- [W31.75] The canines and incisors are used mainly for combat instead of feeding, and the jaws are too rigid for side to side motion, making them less efficient for chewing.
+- [W31.76] Hippos rely on their flattened, horny lips to grasp and pull grasses which are then passed to the molars, and ground on the complex enamel folds.
+- [W31.77] The hippo is considered to be a pseudoruminant; it has a complex three-chambered stomach, but does not "chew cud".
+- [W31.78] Hippo skin is 6 cm (2.4 in) thick across much of its body with little hair.
+- [W31.79] The animal is mostly purplish-grey or blue-black, but brownish-pink on the underside and around the eyes and ears.
+- [W31.80] Their skin secretes a natural, red-coloured sunscreen substance that is sometimes referred to as "blood sweat" but is neither blood nor sweat.
+- [W31.81] This secretion is initially colourless and turns red-orange within minutes, eventually becoming brown.
+- [W31.82] Two highly acidic pigments have been identified in the secretions; one red hipposudoric acid and one orange norhipposudoric acid, which inhibit the growth of disease-causing bacteria and their light-absorption profile peaks in the ultraviolet range, creating a sunscreen effect.
+- [W31.83] Regardless of diet, all hippos secrete these pigments so food does not appear to be their source; rather, they may be synthesised from precursors such as the amino acid tyrosine.
+- [W31.84] This natural sunscreen cannot prevent the animal's skin from cracking if it stays out of water too long.
+- [W31.85] The testes of the males do not fully descend and a scrotum is not present.
+- [W31.86] In addition, the penis retracts into the body when not erect.
+- [W31.87] The genitals of the female hippos are unusual in that the vagina is ridged and the vulval vestibule has two large, protruding diverticula.
+- [W31.88] Both of these have an unknown function.
+- [W31.89] A hippo's lifespan is typically 40 to 50 years.
+- [W31.90] Donna the Hippo was one of the oldest living hippos in captivity.
+- [W31.91] She lived at the Mesker Park Zoo in Evansville, Indiana, in the US until her death in 2012 at the age of 61.
+- [W31.92] Two hippos share the record for the oldest hippo ever recorded at 65 years.
+- [W31.93] Bertha, a female Hippo, who lived in the Manila Zoo in the Philippines since it first opened in 1959 until her death in July 2017, and  male Hippo Lu, from the Ellie Schiller Homosassa Springs Wildlife State Park, who was born at the San Diego Zoo on January 26th, 1960, and died at Homosassa in June 2025, also at the age of 65.
+- [W31.94] Hippopotamus amphibius arrived in Europe around 560–460,000 years ago, during the Middle Pleistocene.
+- [W31.95] The distribution of Hippopotamus amphibius in Europe during the Pleistocene was largely confined to Southern Europe, including the Iberian Peninsula, Italy (southwards to Sicily), Greece, and probably Herzegovina, but extended into northwestern Europe, including northern France, Great Britain (as far north as Stockton-on-Tees), Belgium, the Netherlands, and western Germany during interglacial periods, such as the Last Interglacial (130–115,000 years ago).
+- [W31.96] Analysis of ancient DNA indicates that Late Pleistocene European hippopotamuses are closely related to and nested within the genetic diversity of living African hippopotamuses.
+- [W31.97] The youngest records of the species in Europe are from the Late Pleistocene of Greece, and the Rhine Graben of southwest Germany, dating to around 40–30,000 years ago.
+- [W31.98] Fossil evidence suggests that during wet periods of the Middle-Late Pleistocene, H. amphibius was widespread across the Arabian Peninsula, with remains known from the Nafud desert in northern Saudi Arabia and probable remains from the Rub' al Khali desert in southern Saudi Arabia.
+- [W31.99] Remains are also known from Shanidar Cave in northern Iraq, suggested to be Late Pleistocene in age.
+- [W31.100] Archaeological evidence exists of its presence in the Levant, dating to less than 3,000 years ago.
+- [W31.101] H. amphibius was also formerly present in the Maghreb in northern Algeria and Morocco during the Middle-Late Pleistocene, with H. amphibius remains in the region historically assigned to the species "H. icosiensis".
+- [W31.102] In the African Humid Period during the early Holocene, around 10-4,000 years ago, the range of hippopotamuses extended across the Sahara (which at that time formed an extensive savannah crossed with rivers and lakes, leading it to be dubbed the "Green Sahara"), as indicated by finds of hippopotamus remains and rock art depicting them.
+- [W31.103] For much of the historical period, the hippopotamus was present in the Egyptian part of the Nile from the Sudan border to the Nile Delta, but their distribution appears to have fragmented from the Ptolemaic and Roman periods onwards, especially during the early modern period, due to persecution by humans, with hippos having becoming rare in the Egyptian Nile by 1600, by which time they were only found in the eastern delta near Damietta and the southern Nubian part of the Egyptian Nile near the Sudan border, where some records suggest they persisted into the early 19th century (though at least some of these animals may have been swept in from Sudan).
+- [W31.104] Hippos are still found in the rivers and lakes of the northern Democratic Republic of the Congo, Uganda, Tanzania, and Kenya, north through to Ethiopia, Somalia, and Sudan, west to The Gambia, and south to South Africa.
+- [W31.105] Genetic evidence suggests common hippos in Africa experienced a marked population expansion during or after the Pleistocene, attributed to an increase in water bodies at the end of the era.
+- [W31.106] These findings have important conservation implications, as hippo populations across the continent are currently threatened by loss of access to fresh water.
+- [W31.107] Hippos are also subject to unregulated hunting and poaching.
+- [W31.108] The species is included in Appendix II of the Convention on International Trade in Endangered Species (CITES) meaning international export/import (including in parts and derivatives) requires CITES documentation to be obtained and presented to border authorities.
+- [W31.109] As of 2017, the IUCN Red List drawn up by the International Union for Conservation of Nature (IUCN) lists the species as vulnerable, with a stable population estimated between 115,000 and 130,000 animals.
+- [W31.110] The hippo population has declined most dramatically in the Democratic Republic of the Congo.
+- [W31.111] By 2005, the population in Virunga National Park had dropped to 800 or 900 from around 29,000 in the mid-1970s.
+- [W31.112] This decline is attributed to the disruptions caused by the Second Congo War.
+- [W31.113] The poachers are believed to be Mai-Mai rebels, underpaid Congolese soldiers, and local militia groups.
+- [W31.114] Reasons for poaching include the belief hippos are harmful to society, as well as financial gain.
+- [W31.115] As of 2016, the Virunga hippo population appears to have increased again, possibly due to better protection from park rangers, who have worked with local fishermen.
+- [W31.116] The sale of hippo meat is illegal, but black-market sales are difficult for Virunga National Park officers to track.
+- [W31.117] Hippo meat is highly valued in some areas of central Africa and the teeth may be used as a replacement for elephant ivory.
+- [W31.118] A population of hippos exists in Colombia, descended from captive individuals that escaped from Pablo Escobar's estate after his death in 1993.
+- [W31.119] Their numbers grew to 100 by the 2020s and ecologists believe the population should be eradicated, as they are breeding rapidly and are an increasing menace to humans and the environment.
+- [W31.120] Attempts to control them include sterilisation and culling.
+- [W31.121] Hippos are semiaquatic and require enough water to immerse in, while being close to grass.
+- [W31.122] They mostly live in freshwater habitat, but can be found in estuaries.
+- [W31.123] They prefer relatively still waters with gently sloping shores, though male hippos may also be found in very small numbers in more rapid waters with rocky slopes.
+- [W31.124] Like most herbivores, hippos will consume a variety of plants if presented with them in captivity, but their diet in nature consists almost entirely of grass, with only minimal consumption of aquatic plants.
+- [W31.125] Hippos spend most of the day in water to stay cool and hydrated.
+- [W31.126] Just before night begins, they leave the water to forage on land.
+- [W31.127] A hippo will travel 3–5 km (1.9–3.1 mi) per night, eating around 40 kg (88 lb) of grass.
+- [W31.128] By dawn, they are back in the water.
+- [W31.129] Despite being semiaquatic, it is debated whether hippos can swim at all.
+- [W31.130] They move in the water by walking or bouncing off the bottom, rarely entering deep water.
+- [W31.131] An adult hippo needs to surface at least every six minutes, while young need to breathe every two to three minutes.
+- [W31.132] Hippos move on land by trotting, and limb movements do not change between speeds.
+- [W31.133] They can reach an airborne stage (a stage when all limb are off the ground) when they move fast enough.
+- [W31.134] Hippos are reported to reach 30 km/h (19 mph) but this has not been confirmed.
+- [W31.135] They are incapable of jumping but can walk up steep banks.
+- [W31.136] The hippopotamus sleeps with both hemispheres of the brain resting, as in all land mammals, and usually sleeps on land or in water with the nostrils exposed.
+- [W31.137] Despite this, it can sleep while submerged, intermittently surfacing to breathe seemingly without waking.
+- [W31.138] They appear to transition between different phases of sleep more quickly than other mammals.
+- [W31.139] Because of their size and their habit of taking the same paths to feed, hippos can have a significant impact on the land across which they walk, keeping the land clear of vegetation and depressing the ground.
+- [W31.140] Over prolonged periods, hippos can divert the paths of swamps and channels.
+- [W31.141] By defecating in the water, the animals also appear to pass on microbes from their gut, affecting the biogeochemical cycle.
+- [W31.142] On occasion, hippos have been filmed eating carrion, usually near the water.
+- [W31.143] There are other reports of meat-eating and even cannibalism and predation.
+- [W31.144] Hippos' stomach anatomy lacks adaptions to carnivory, and meat-eating is likely caused by lack of nutrients or represents an abnormal behaviour.
+- [W31.145] It is challenging to study the interaction of bulls and cows because hippos are not sexually dimorphic, so cows and young bulls are almost indistinguishable in the field.
+- [W31.146] Hippo pods fluctuate but can contain over 100 hippos.
+- [W31.147] Although they lie close together, adults develop almost no social bonds.
+- [W31.148] Males establish territories in water but not land, and these may range 250–500 m (820–1,640 ft) in lakes and 50–100 m (160–330 ft) in rivers.
+- [W31.149] Territories are abandoned when the water dries up.
+- [W31.150] The bull has breeding access to all the cows in his territory.
+- [W31.151] Younger bachelors are allowed to stay as long as they defer to him.
+- [W31.152] A younger male may challenge the old bull for control of the territory.
+- [W31.153] Within the pods, the hippos tend to segregate by sex and status.
+- [W31.154] Bachelor males lounge near other bachelors, females with other females, and the territorial male is on his own.
+- [W31.155] When hippos emerge from the water to graze, they do so individually.
+- [W31.156] Hippos engage in "muck-spreading" which involves defecating while spinning their tails to distribute the faeces over a greater area.
+- [W31.157] Muck-spreading occurs both on land and in water and its function is not well understood.
+- [W31.158] It is unlikely to serve a territorial function, as the animals only establish territories in the water.
+- [W31.159] They may be used as trails between the water and grazing areas.
+- [W31.160] "Yawning" serves as a threat display.
+- [W31.161] When fighting, bulls use their incisors to block each other's attacks and their large canines as offensive weapons.
+- [W31.162] When hippos become over-populated or a habitat shrinks, bulls sometimes attempt infanticide, but this behaviour is not common under normal conditions.
+- [W31.163] The most common hippo vocalisation is the "wheeze honk", which can travel over long distances in air.
+- [W31.164] This call starts as a high-pitched squeal followed by a deeper, resonant call.
+- [W31.165] The animals can recognise the calls of other individuals.
+- [W31.166] Hippos are more likely to react to the wheeze honks of strangers than to those they are more familiar with (dear enemy effect).
+- [W31.167] When threatened or alarmed, they produce exhalations, and fighting bulls will bellow loudly.
+- [W31.168] Hippos are recorded to produce clicks underwater which may have echolocative properties.
+- [W31.169] They have the unique ability to hold their heads partially above the water and send out a cry that travels through both water and air; individuals respond both above and below water.
+- [W31.170] Cows reach sexual maturity at five to six years of age and have a gestation period of eight months.
+- [W31.171] A study of endocrine systems revealed cows may begin puberty at as early as three or four years.
+- [W31.172] Bulls reach maturity at around 7.5 years.
+- [W31.173] Both conceptions and births are highest during the wet season.
+- [W31.174] Male hippos always have mobile spermatozoa and can breed year-round.
+- [W31.175] After becoming pregnant, a female hippo will typically not begin ovulation again for 17 months.
+- [W31.176] Hippos mate in the water, with the cow remaining under the surface, her head emerging periodically to draw breath.
+- [W31.177] Cows  give birth in seclusion and return within 10 to 14 days.
+- [W31.178] Calves are born on land or shallow water weighing on average 50 kg (110 lb) and at an average length of around 127 cm (50 in).
+- [W31.179] The female lies on her side when nursing, which can occur underwater or on land.
+- [W31.180] The young are carried on their mothers' backs in deep water.
+- [W31.181] Mother hippos are very protective of their young, not allowing others to get too close.
+- [W31.182] One cow was recorded protecting a calf's carcass after it had died.
+- [W31.183] Calves may be temporarily kept in nurseries, guarded by one or more adults, and will play amongst themselves.
+- [W31.184] Like many other large mammals, hippos are described as K-strategists, in this case typically producing just one large, well-developed infant every couple of years (rather than many small, poorly developed young several times per year, as is common among small mammals such as rodents).
+- [W31.185] Calves no longer need to suckle when they are a year old.
+- [W31.186] Hippos coexist alongside a variety of large predators in their habitats.
+- [W31.187] Nile crocodiles, lions, and spotted hyenas are known to prey on young hippos.
+- [W31.188] Beyond these, adult hippos are not usually preyed upon by other animals due to their aggression and size.
+- [W31.189] Cases where large lion prides have successfully preyed on adult hippos have been reported, but it is generally rare.
+- [W31.190] Lions occasionally prey on adults at Gorongosa National Park and calves are sometimes taken at Virunga.
+- [W31.191] Crocodiles are frequent targets of hippo aggression, probably because they often inhabit the same riparian habitats; crocodiles may be either aggressively displaced or killed by hippos, although they will avoid crocodiles larger than 3.5 m (11 ft).
+- [W31.192] In turn, very large Nile crocodiles have been observed preying occasionally on calves, "half-grown" hippos, and possibly also adult female hippos.
+- [W31.193] Groups of crocodiles have also been observed finishing off still-living male hippos that were previously injured in mating battles with other males.
+- [W31.194] Hippos occasionally visit cleaning stations in order to be cleaned of parasites by certain species of fishes.
+- [W31.195] They signal their readiness for this service by opening their mouths wide.
+- [W31.196] This is an example of mutualism, in which the hippo benefits from the cleaning while the fish receive food.
+- [W31.197] Hippo defecation creates allochthonous deposits of organic matter along the river beds.
+- [W31.198] These deposits have an unclear ecological function.
+- [W31.199] A 2015 study concluded hippo dung provides nutrients from terrestrial material for fish and aquatic invertebrates, while a 2018 study found that their dung can be toxic to aquatic life in large quantities, due to absorption of dissolved oxygen in water bodies.
+- [W31.200] The parasitic monogenean flatworm Oculotrema hippopotami infests hippopotamus eyes, mainly the nictitating membrane.
+- [W31.201] It is the only monogenean species (which normally live on fish) documented to live on a mammal.
+- [W31.202] Cut marks on bones of H. amphibius found at Bolomor Cave, a site in Spain preserving fossils dating from 230,000 to 120,000 years ago, provides evidence for Neanderthal butchery of hippopotamuses.
+- [W31.203] The earliest evidence of modern human interaction with hippos comes from butchery cut marks on hippo bones found at the Bouri Formation and dated to around 160,000 years ago.
+- [W31.204] 4,000–5,000 year old art showing hippos being hunted have been found in the Tassili n'Ajjer Mountains of the central Sahara near Djanet.
+- [W31.205] The ancient Egyptians recognised the hippo as ferocious, and representations on the tombs of nobles show humans hunting them.
+- [W31.206] The hippo was also known to the Greeks and Romans.
+- [W31.207] The Greek historian Herodotus described the hippo in The Histories (written circa 440 BC) and the Roman naturalist Pliny the Elder wrote about the hippo in his encyclopedia Naturalis Historia (written circa 77 AD).
+- [W31.208] The Yoruba people called the hippo erinmi, which means "elephant of the water".
+- [W31.209] Some individual hippos have achieved international fame.
+- [W31.210] Huberta became a celebrity during the Great Depression for trekking a great distance across South Africa.
+- [W31.211] The hippo is considered to be extremely aggressive and has frequently been reported charging and attacking boats.
+- [W31.212] Hippos can easily capsize small boats and injure or kill passengers.
+- [W31.213] A case in 2014 within Niger happened where a boat was capsized by a hippo and 13 people were killed.
+- [W31.214] Hippos will often raid farm crops if the opportunity arises, and humans may come into conflict with them on these occasions.
+- [W31.215] These encounters can be fatal to either humans or hippos.
+- [W31.216] According to the Ptolemaic historian Manetho, the pharaoh Menes was carried off and then killed by a hippopotamus.
+- [W31.217] Hippos have long been popular zoo animals.
+- [W31.218] The first record of hippos taken into captivity for display is dated to 3500 BC in Hierakonpolis, Egypt.
+- [W31.219] The first zoo hippo in modern history was Obaysch, who arrived at the London Zoo on 25 May 1850, where he attracted up to 10,000 visitors a day and inspired a popular song, the "Hippopotamus Polka".
+- [W31.220] Hippos generally breed well in captivity; birth rates are lower than in the wild, but this can be attributed to zoos' desire to limit births, since hippos are relatively expensive to maintain.
+- [W31.221] Starting in 2015, the Cincinnati Zoo built a US$73 million exhibit to house three adult hippos, featuring a 250,000 L (55,000 imp gal; 66,000 US gal) tank.
+- [W31.222] Modern hippo enclosures also have a complex filtration system for waste, an underwater viewing area for the visitors, and glass that may be up to 9 cm (3.5 in) thick and capable of holding water under pressures of 31 kPa (4.5 psi).
+- [W31.223] In Egyptian mythology, the god Set takes the form of a red hippopotamus and fights Horus for control of the land, but is defeated.
+- [W31.224] The goddess Tawaret is depicted as a pregnant woman with a hippo head, representing fierce maternal love.
+- [W31.225] The Ijaw people of the Niger Delta wore masks of aquatic animals like the hippo when practising their water spirit cults, and hippo ivory was used in the divination rituals of the Yoruba.
+- [W31.226] Hippo masks were also used in Nyau funerary rituals of the Chewa of Southern Africa.
+- [W31.227] According to Robert Baden-Powell, Zulu warriors referred to hippos in war chants.
+- [W31.228] The Behemoth from the Book of Job, 40:15–24 is thought to be based on the hippo.
+- [W31.229] Hippos have been the subjects of various African folktales.
+- [W31.230] According to a San story, when the Creator assigned each animal its place in nature, the hippos wanted to live in the water, but were refused out of fear they might eat all the fish.
+- [W31.231] After begging and pleading, the hippos were finally allowed to live in the water on the condition they would eat grass instead of fish, and fling their dung so it can be inspected for fish bones.
+- [W31.232] In a Ndebele tale, the hippo originally had long, beautiful hair, but it was set on fire by a jealous hare and the hippo had to jump into a nearby pool.
+- [W31.233] The hippo lost most of his hair and was too embarrassed to leave the water.
+- [W31.234] Hippopotamuses were rarely depicted in European art during the Renaissance and Baroque periods, due to less access to specimens by Europeans.
+- [W31.235] One notable exception is Peter Paul Rubens' The Hippopotamus and Crocodile Hunt (1615–1616).
+- [W31.236] Ever since Obaysch inspired the "Hippopotamus Polka", hippos have been popular animals in Western culture for their rotund appearance, which many consider comical.
+- [W31.237] The Disney film Fantasia featured a ballerina hippo dancing to the opera La Gioconda.
+- [W31.238] The film Hugo the Hippo is set in Tanzania and involves the title character trying to escape being slaughtered with the help of local children.
+- [W31.239] The Madagascar films feature a hippo named Gloria.
+- [W31.240] Hippos even inspired a popular board game, Hungry Hungry Hippos.
+- [W31.241] Among the most famous poems about the hippo is "The Hippopotamus" by T.
+- [W31.242] Eliot, where he uses a hippo to represent the Catholic Church.
+- [W31.243] Hippos are mentioned in the novelty Christmas song "I Want a Hippopotamus for Christmas" that became a hit for child star Gayla Peevey in 1953.
+- [W31.244] They also featured in the popular "The Hippopotamous Song" by Flanders and Swann.
+- [W31.245] American Hippo bill – 1910 bill that proposed the introduction of hippos into Louisiana
+- [W31.246] Hippo eats dwarf – hoax news article
+- [W31.247] "Hippos: Wildlife summary".
+- [W31.248] African Wildlife Foundation.
+- [W31.249] Archived from the original on 19 November 2010.
+- [W31.250] "Hippo Specialist Group of the World Conservation Union".
+- [W31.251] International Union for Conservation of Nature.
+- [W31.252] Archived from the original on 22 November 2014.
+- [W31.253] Retrieved 4 November 2008.
+- [W31.254] "11 Things You May Not Know About Ancient Egypt: King Tut may have been killed by a hippopotamus".
+- [W31.255] Archived from the original on 17 December 2014.
+
+## [W32] Wikipedia: Red panda
+https://en.wikipedia.org/w/index.php?title=Red_panda&oldid=1381236262 · CC BY-SA 4.0 · usage: ai_input
+
+- [W32.1] The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China.
+- [W32.2] It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail.
+- [W32.3] Its head-to-body length is 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail, and it weighs between 3.2 and 15 kg (7.1 and 33.1 lb).
+- [W32.4] It is well adapted to climbing due to its flexible joints and curved semi-retractile claws.
+- [W32.5] The red panda was formally described in 1825.
+- [W32.6] The two recognised subspecies, the Himalayan and the Chinese red panda, genetically diverged about 250,000 years ago.
+- [W32.7] The red panda's place on the evolutionary tree has been debated, but modern genetic evidence places it in close affinity with raccoons, weasels, and skunks.
+- [W32.8] It is not closely related to the giant panda, which is a bear, though both possess elongated wrist bones or "false thumbs" used for grasping bamboo.
+- [W32.9] The evolutionary lineage of the red panda (Ailuridae) stretches back around 25 to 18 million years ago, as indicated by extinct fossil relatives found in Eurasia and North America.
+- [W32.10] The red panda inhabits coniferous forests as well as temperate broadleaf and mixed forests, favouring steep slopes with dense bamboo cover close to water sources.
+- [W32.11] It is solitary and largely arboreal (tree-dwelling).
+- [W32.12] It feeds mainly on bamboo shoots and leaves, but also on fruits and blossoms.
+- [W32.13] Red pandas mate in early spring, with the females giving birth to litters of up to four cubs in summer.
+- [W32.14] It is threatened by poaching as well as destruction and fragmentation of habitat due to deforestation.
+- [W32.15] The species has been listed as Endangered on the IUCN Red List since 2015.
+- [W32.16] It is protected in all range countries.
+- [W32.17] Community-based conservation programmes have been initiated in Nepal, Bhutan and northeastern India; in China, it benefits from nature conservation projects.
+- [W32.18] Regional captive breeding programmes for the red panda have been established in zoos around the world.
+- [W32.19] It is featured in animated movies, video games, comic books and as the namesake of companies and music bands.
+- [W32.20] The origin of the name panda is uncertain, but one of the most likely theories is that it derived from the Nepali word "ponya".
+- [W32.21] The word पञ्जा pajā or पौँजा pañjā means "ball of the foot" and "claws".
+- [W32.22] The Nepali words "nigalya ponya" has been translated as "bamboo-footed" and is thought to be the red panda's Nepali name; in English, it was simply called panda, and was the only animal known under this name for more than 40 years; it became known as the red panda or lesser panda to distinguish it from the giant panda, which was formally described and named in 1869.
+- [W32.23] The genus name Ailurus is adopted from the Ancient Greek word αἴλουρος ailouros meaning 'cat'.
+- [W32.24] The specific epithet fulgens is Latin for 'shining, bright'.
+- [W32.25] The red panda was described and named in 1825 by Frederic Cuvier, who gave it its scientific name Ailurus fulgens.
+- [W32.26] Cuvier's description was based on zoological specimens, including skin, paws, jawbones and teeth "from the mountains north of India", as well as an account by Alfred Duvaucel.
+- [W32.27] The red panda was described earlier by Thomas Hardwicke in 1821, but his paper was only published in 1827.
+- [W32.28] In 1902, Oldfield Thomas described a skull of a male red panda specimen under the name Ailurus fulgens styani in honour of Frederick William Styan who had collected this specimen in Sichuan.
+- [W32.29] The modern red panda is the only recognised species in the genus Ailurus.
+- [W32.30] It is traditionally divided into two subspecies: the Himalayan red panda (A. f. fulgens) and the Chinese red panda (A. f. styani).
+- [W32.31] The Himalayan subspecies has a straighter profile, a lighter coloured forehead and ochre-tipped hairs on the lower back and rump.
+- [W32.32] The Chinese subspecies has a more curved forehead and sloping snout, a darker coat with a less white face and more contrast between the tail rings.
+- [W32.33] In 2020, results of a genetic analysis of red panda samples showed that the red panda populations in the Himalayas and China were separated about 250,000 years ago.
+- [W32.34] The researchers suggested that the two subspecies should be treated as distinct species.
+- [W32.35] Red pandas in southeastern Tibet and northern Myanmar were found to be part of A. f. styani, while those of southern Tibet were of A. f. fulgens in the strict sense.
+- [W32.36] DNA sequencing of 132 red panda faecal samples collected in Northeast India and China also showed two distinct clusters indicating that the Siang (Brahmaputra) River constitutes the boundary between the Himalayan and Chinese red pandas.
+- [W32.37] They probably diverged due to glaciation events on the southern Tibetan Plateau in the Pleistocene.
+- [W32.38] The placement of the red panda on the evolutionary tree has been debated.
+- [W32.39] In the early 20th century, various scientists placed it in the family Procyonidae with raccoons and their allies.
+- [W32.40] At the time, most prominent biologists also considered the red panda to be related to the giant panda, which would eventually be found to be a bear.
+- [W32.41] A 1982 study examined the similarities and differences in the skull between the red panda and the giant panda, other bears and procyonids, and placed the species in its own family Ailuridae.
+- [W32.42] The author of the study considered the red panda to be more closely related to bears.
+- [W32.43] A 1995 mitochondrial DNA analysis revealed that the red panda has close affinities with procyonids.
+- [W32.44] Further genetic studies in 2005, 2018 and 2021 have placed the red panda within the clade Musteloidea, which also includes Procyonidae, Mustelidae (weasels and relatives) and Mephitidae (skunks and relatives).
+- [W32.45] The family Ailuridae appears to have evolved in Europe in either the Late Oligocene or Early Miocene, about 25 to 18 million years ago.
+- [W32.46] The earliest member Amphictis is known from its 10 cm (4 in) skull and may have been around the same size as the modern species.
+- [W32.47] Its dentition consists of sharp premolars and carnassials (P4 and m1) and molars adapted for grinding (M1, M2 and m2), suggesting that it had a generalised carnivorous diet.
+- [W32.48] Its placement within Ailuridae is based on the grooves on the side of its canine teeth.
+- [W32.49] Other early or basal ailurids include Alopecocyon and Simocyon, whose fossils have been found throughout Eurasia and North America dating from the Middle Miocene, the latter of which survived into the Early Pliocene.
+- [W32.50] Both have similar teeth to Amphictis and thus had a similar diet.
+- [W32.51] The puma-sized Simocyon was likely a tree-climber and shared a "false thumb"—an extended wrist bone—with the modern species, suggesting the appendage was an adaptation to arboreal locomotion and not to feed on bamboo.
+- [W32.52] Later and more advanced ailurids are classified in the subfamily Ailurinae and are known as the "true" red pandas.
+- [W32.53] These animals were smaller and more adapted for an omnivorous or herbivorous diet.
+- [W32.54] The earliest known true panda is Magerictis from the Middle Miocene of Spain and known only from one tooth, a lower second molar.
+- [W32.55] The tooth shows both ancestral and new characteristics having a relatively low and simple crown but also a lengthened crushing surface with developed tooth cusps like later species.
+- [W32.56] Later ailurines include Pristinailurus bristoli which lived in eastern North America from the late Miocene to the Early Pliocene and species of the genus Parailurus which first appear in Early Pliocene Europe, spreading across Eurasia into North America.
+- [W32.57] These animals are classified as a sister taxon to the lineage of the modern red panda.
+- [W32.58] In contrast to the herbivorous modern species, these ancient pandas were likely omnivores, with highly cusped molars and sharp premolars.
+- [W32.59] The earliest fossil record of the modern genus Ailurus dates no earlier than the Pleistocene and appears to have been limited to Asia.
+- [W32.60] The modern red panda's lineage became adapted for a specialised bamboo diet, having molar-like premolars and more elevated cusps.
+- [W32.61] The false thumb would secondarily gain a function in feeding.
+- [W32.62] Analysis of 53 red panda samples from Sichuan and Yunnan showed a high level of genetic diversity.
+- [W32.63] The full genome of the red panda was sequenced in 2017.
+- [W32.64] Researchers have compared it to the genome of the giant panda to learn the genetics of convergent evolution, as both species have false thumbs and are adapted for a specialised bamboo diet despite having the digestive system of a carnivore.
+- [W32.65] Both pandas show modifications to certain limb development genes (DYNC2H1 and PCNT), which may play roles in the development of the thumbs.
+- [W32.66] In switching from a carnivorous to a herbivorous diet, both species have reactivated taste receptor genes used for detecting bitterness, though the specific genes are different.
+- [W32.67] The red panda's coat is mainly red or orange-brown with a black belly and legs.
+- [W32.68] The muzzle, cheeks, brows and inner ear margins are mostly white while the bushy tail has red and buff ring patterns and a dark brown tip.
+- [W32.69] The colouration appears to serve as camouflage in habitat with red moss and white lichen-covered trees.
+- [W32.70] The guard hairs are longer and rougher while the dense undercoat is fluffier with shorter hairs.
+- [W32.71] The guard hairs on the back have a circular cross-section and are 47–56 mm (1.9–2.2 in) long.
+- [W32.72] It has moderately long whiskers around the mouth, lower jaw and chin.
+- [W32.73] The hair on the soles of the paws allows the animal to walk in snow.
+- [W32.74] The red panda has a relatively small head, though proportionally larger than in similarly sized raccoons, with a reduced snout and triangular ears, and nearly evenly lengthed limbs.
+- [W32.75] It has a head-body length of 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail.
+- [W32.76] The Himalayan red panda is recorded to weigh 3.2–9.4 kg (7.1–20.7 lb), while the Chinese red panda weighs 4–15 kg (8.8–33.1 lb) for females and 4.2–13.4 kg (9.3–29.5 lb) for males.
+- [W32.77] It has five curved digits on each foot, each with curved semi-retractile claws that aid in climbing.
+- [W32.78] The pelvis and hindlimbs have flexible joints, adaptations for an arboreal quadrupedal lifestyle.
+- [W32.79] While not prehensile, the tail helps the animal balance while climbing.
+- [W32.80] The forepaws possess a "false thumb", which is an extension of a wrist bone, the radial sesamoid found in many carnivorans.
+- [W32.81] This thumb allows the animal to grip onto bamboo stalks and both the digits and wrist bones are highly flexible.
+- [W32.82] The red panda shares this feature with the giant panda, which has a larger sesamoid that is more compressed at the sides.
+- [W32.83] In addition, the red panda's sesamoid has a more sunken tip while the giant panda's curves in the middle.
+- [W32.84] These features give the giant panda more developed dexterity.
+- [W32.85] The red panda's skull is wide, and its lower jaw is robust.
+- [W32.86] However, because it eats leaves and stems, which are not as tough, it has smaller chewing muscles than the giant panda.
+- [W32.87] The digestive system of the red panda is only 4.2 times its body length, with a simple stomach, no noticeable divide between the ileum and colon, and no caecum.
+- [W32.88] Both sexes have paired anal glands that emit a secretion consisting of long-chain fatty acids, cholesterol, squalene and 2-Piperidinone; the latter is the most odoriferous compound and is perceived by humans as having an ammoniacal or pepper-like odour.
+- [W32.89] The red panda inhabits Nepal; the states of Sikkim, West Bengal, and Arunachal Pradesh in India; Bhutan; northern Myanmar; and southern Tibet, Sichuan, and Yunnan in China.
+- [W32.90] The global potential habitat of the red panda has been estimated to comprise 47,100 km2 (18,200 sq mi) at most; this habitat is located in the temperate climate zone of the Himalayas with a mean annual temperature range of 18–24 °C (64–75 °F).
+- [W32.91] Throughout this range, it has been recorded at elevations of 2,000–4,300 m (6,600–14,100 ft).
+- [W32.92] In Nepal, it lives in six protected area complexes within the Eastern Himalayan broadleaf forests ecoregion.
+- [W32.93] The westernmost records to date were obtained in three community forests in Kalikot District in 2019.
+- [W32.94] Panchthar and Ilam Districts represent its easternmost range in the country, where its habitat in forest patches is surrounded by villages, livestock pastures and roads.
+- [W32.95] The metapopulation in protected areas and wildlife corridors in the Kangchenjunga landscape of Sikkim and northern West Bengal is partly connected through old-growth forests outside protected areas.
+- [W32.96] Forests in this landscape are dominated by Himalayan oaks (Quercus lamellosa and Q. semecarpifolia), Himalayan birch, Himalayan fir, Himalayan maple with bamboo, Rhododendron and some black juniper shrub growing in the understoreys.
+- [W32.97] Records in Bhutan, Arunachal Pradesh's Pangchen Valley, West Kameng and Shi Yomi districts indicate that it frequents habitats with Yushania and Thamnocalamus bamboo, medium-sized Rhododendron, whitebeam and chinquapin trees.
+- [W32.98] In China, it inhabits the Hengduan Mountains subalpine conifer forests and Qionglai-Minshan conifer forests in the Hengduan, Qionglai, Xiaoxiang, Daxiangling and Liangshan Mountains in Sichuan.
+- [W32.99] In the adjacent Yunnan province, it was recorded only in the northwestern montane part.
+- [W32.100] The red panda prefers microhabitats within 70–240 m (230–790 ft) of water sources.
+- [W32.101] Fallen logs and tree stumps are important habitat features, as they facilitate access to bamboo leaves.
+- [W32.102] Red pandas have been recorded to use steep slopes of more than 20° and stumps exceeding a diameter of 30 cm (12 in).
+- [W32.103] Red pandas observed in Phrumsengla National Park used foremost easterly and southerly slopes with a mean slope of 34° and a canopy cover of 66 per cent that were overgrown with bamboo about 23 m (75 ft) in height.
+- [W32.104] In Dafengding Nature Reserve, it prefers steep south-facing slopes in winter and inhabits forests with bamboo 1.5–2.5 m (4 ft 11 in – 8 ft 2 in) tall.
+- [W32.105] In Gaoligongshan National Nature Reserve, it inhabits mixed coniferous forest with a dense canopy cover of more than 75 per cent, steep slopes and a density of at least 70 bamboo plants/m2 (6.5 bamboo plants/sq ft).
+- [W32.106] In some parts of China, the red panda coexists with the giant panda.
+- [W32.107] In Fengtongzhai and Yele National Nature Reserves, red panda microhabitat is characterised by steep slopes with lots of bamboo stems, shrubs, fallen logs and stumps, whereas the giant panda prefers gentler slopes with taller but lesser amounts of bamboo and less habitat features overall.
+- [W32.108] Such niche separation lessens competition between the two bamboo-eating species.
+- [W32.109] The red panda is difficult to observe in the wild, and most studies on its behaviour have taken place in captivity.
+- [W32.110] The red panda appears to be both nocturnal and crepuscular, sleeping intermittently at night.
+- [W32.111] It typically rests or sleeps in trees or other elevated spaces, stretched out prone on a branch with legs dangling when it is hot, and curled up with its hindlimb over the face when it is cold.
+- [W32.112] It is adapted for climbing and descends to the ground head-first with the hindfeet holding on to the middle of the tree trunk.
+- [W32.113] It moves quickly on the ground by trotting or bounding.
+- [W32.114] Adult pandas are generally solitary and territorial.
+- [W32.115] Individuals mark their home range or territorial boundaries with urine, faeces and secretions from the anal and surrounding glands.
+- [W32.116] Scent-marking is usually done on the ground, with males marking more often and for longer periods.
+- [W32.117] In China's Wolong National Nature Reserve, the home range of a radio-collared female was 0.94 km2 (0.36 sq mi), while that of a male was 1.11 km2 (0.43 sq mi).
+- [W32.118] A one-year-long monitoring study of ten red pandas in eastern Nepal showed that the four males had median home ranges of 1.73 km2 (0.67 sq mi) and the six females of 0.94 km2 (0.36 sq mi) within a forest cover of at least 19.2 ha (47 acres).
+- [W32.119] The females travelled 419–841 m (1,375–2,759 ft) per day and the males 660–1,473 m (2,165–4,833 ft).
+- [W32.120] In the mating season from January to March, adults travelled a mean of 795 m (2,608 ft) and subadults a mean of 861 m (2,825 ft).
+- [W32.121] They all had larger home ranges in areas with low forest cover and reduced their activity in areas that were disturbed by people, livestock and dogs.
+- [W32.122] The red panda is largely herbivorous and feeds primarily on bamboo, mainly the genera Phyllostachys, Sinarundinaria, Thamnocalamus and Chimonobambusa.
+- [W32.123] It also feeds on fruits, blossoms, acorns, eggs, birds and small mammals.
+- [W32.124] Bamboo leaves may be the most abundant food item year-round and the only food they can access during winter.
+- [W32.125] In Wolong National Nature Reserve, leaves of the bamboo species Bashania fangiana were found in nearly 94 per cent of analysed droppings, and its shoots were found in 59 per cent of the droppings found in June.
+- [W32.126] The diet of red pandas monitored at three sites in Singalila National Park for two years consisted of 40–83 per cent Yushania maling and 51–91.2 per cent Thamnocalamus spathiflorus bamboos supplemented by bamboo shoots, Actinidia strigosa fruits and seasonal berries.
+- [W32.127] In this national park, red panda droppings also contained remains of silky rose and bramble fruit species in the summer season, Actinidia callosa in the post-monsoon season, and Merrilliopanax alpinus, the whitebeam species Sorbus cuspidata and tree rhododendron in both seasons.
+- [W32.128] Droppings were found with 23 plant species including the stone oak species Lithocarpus pachyphyllus, Campbell's magnolia, the chinquapin species Castanopsis tribuloides, Himalayan birch, Litsea sericea and the holly species Ilex fragilis.
+- [W32.129] In Nepal's Rara National Park, Thamnocalamus was found in all the droppings sampled, both before and after the monsoon.
+- [W32.130] Its summer diet in Dhorpatan Hunting Reserve also includes some lichens and barberries.
+- [W32.131] In Bhutan's Jigme Dorji National Park, red panda faeces found in the fruiting season contained seeds of Himalayan ivy.
+- [W32.132] The red panda grabs food with one of its front paws and usually eats sitting down or standing.
+- [W32.133] When foraging for bamboo, it grabs the plant by the stem and pulls it down towards its jaws.
+- [W32.134] It bites the leaves with the side of the cheek teeth and then shears, chews and swallows.
+- [W32.135] Smaller food like blossoms, berries and small leaves are eaten differently, being clipped by the incisors.
+- [W32.136] Having the gastrointestinal tract of a carnivore, the red panda cannot properly digest bamboo, which passes through its gut in two to four hours.
+- [W32.137] Hence, it must consume large amounts of the most nutritious plant matter.
+- [W32.138] It eats over 1.5 kg (3 lb 5 oz) of fresh leaves or 4 kg (9 lb) of fresh shoots in a day with crude proteins and fats being the most easily digested.
+- [W32.139] Digestion is highest in summer and fall but lowest in winter, and is easier for shoots than leaves.
+- [W32.140] The red panda's metabolic rate is comparable to other mammals of its size, despite its poor diet.
+- [W32.141] The red panda digests almost a third of dry matter, which is more efficient than the giant panda digesting 17 per cent.
+- [W32.142] Microbes in the gut may aid in its processing of bamboo; the microbiota community in the red panda is less diverse than in other mammals.
+- [W32.143] At least seven different vocalisations have been recorded from the red panda, comprising growls, barks, squeals, hoots, bleats, grunts and twitters.
+- [W32.144] Growling, barking, grunting and squealing are produced during fights and aggressive chasing.
+- [W32.145] Hooting is made in response to being approached by another individual.
+- [W32.146] Bleating is associated with scent-marking and sniffing.
+- [W32.147] Males may bleat during mating, while females twitter.
+- [W32.148] During both play fighting and aggressive fighting, individuals curve their backs and tails while slowly moving their heads up and down.
+- [W32.149] They then turn their heads while jaw-clapping, move their heads laterally and lift a forepaw to strike.
+- [W32.150] They stand on their hind legs, raise the forelimbs above the head and then pounce.
+- [W32.151] Two red pandas may "stare" at each other from a distance.
+- [W32.152] Reproduction and parenting
+- [W32.153] Red pandas are long-day breeders, reproducing after the winter solstice as daylight grows longer.
+- [W32.154] Mating thus takes place from January to March, with births occurring from May to August.
+- [W32.155] Reproduction is delayed by six months for captive pandas in the southern hemisphere.
+- [W32.156] Oestrous lasts a day, and females can enter oestrous multiple times a season, but it is not known how long the intervals between each cycle last.
+- [W32.157] As the reproductive season begins, males and females interact more, and will rest, move, and feed near each other.
+- [W32.158] An oestrous female will spend more time marking and males will inspect her anogenital region.
+- [W32.159] Receptive females make tail-flicks and position themselves in a lordosis pose, with the front lowered to the ground and the spine curved.
+- [W32.160] Copulation involves the male mounting the female from behind and on top, though face-to-face matings as well as belly-to-back matings while lying on the sides also occur.
+- [W32.161] The male will grab the female by the sides with his front paws instead of biting her neck.
+- [W32.162] Intromission is 2–25 minutes long, and the couple groom each other between each bout.
+- [W32.163] Gestation lasts about 131 days.
+- [W32.164] Prior to giving birth, the female selects a denning site, such as a tree, log or stump hollow or rock crevice, and builds a nest using material from nearby, such as twigs, sticks, branches, bark bits, leaves, grass and moss.
+- [W32.165] Litters typically consist of one to four cubs that are born fully furred but blind.
+- [W32.166] They are entirely dependent on their mother for the first three to four months until they first leave the nest.
+- [W32.167] They nurse for their first five months.
+- [W32.168] The bond between mother and offspring lasts until the next mating season.
+- [W32.169] Cubs are fully grown at around 12 months and at around 18 months they reach sexual maturity.
+- [W32.170] Two radio-collared cubs in eastern Nepal separated from their mothers at the age of 7–8 months and left their birth areas three weeks later.
+- [W32.171] They reached new home ranges within 26–42 days and became residents after exploring them for 42–44 days.
+- [W32.172] The red panda's lifespan in captivity reaches 14 years.
+- [W32.173] They have been recorded falling prey to leopards in the wild.
+- [W32.174] Faecal samples of red panda collected in Nepal contained parasitic protozoa, amoebozoans, roundworms, trematodes and tapeworms.
+- [W32.175] Roundworms, tapeworms and coccidia were also found in red panda scat collected in Rara and Langtang National Parks.
+- [W32.176] Fourteen red pandas at the Knoxville Zoo suffered from severe ringworm, so the tails of two were amputated.
+- [W32.177] Chagas disease was reported as the cause of death of a red panda kept in a Kansas zoo.
+- [W32.178] Amdoparvovirus was detected in the scat of six red pandas in the Sacramento Zoo.
+- [W32.179] Eight captive red pandas in a Chinese zoo suffered from shortness of breath and fever shortly before they died of pneumonia; autopsy revealed that they had antibodies to the protozoans Toxoplasma gondii and Sarcocystis species indicating that they were intermediate hosts.
+- [W32.180] A captive red panda in the Chengdu Research Base of Giant Panda Breeding died of unknown reasons; an autopsy showed that its kidneys, liver and lungs were damaged by a bacterial infection caused by Escherichia coli.
+- [W32.181] The red panda is primarily threatened by the destruction and fragmentation of its habitat, the causes of which include increasing human population, deforestation, the unlawful taking of non-wood forest material and disturbances by herders and livestock.
+- [W32.182] Trampling by livestock inhibits bamboo growth, and clearcutting decreases the ability of some bamboo species to regenerate.
+- [W32.183] The cut timber stock in Sichuan alone reached 2,661,000 m3 (94,000,000 cu ft) in 1958–1960, and around 3,597.9 km2 (1,389.2 sq mi) of red panda habitat were logged between the mid-1970s and late 1990s.
+- [W32.184] Throughout Nepal, the red panda habitat outside protected areas is negatively affected by solid waste, livestock trails and herding stations, and people collecting firewood and medicinal plants.
+- [W32.185] Threats identified in Nepal's Lamjung District include grazing by livestock during seasonal transhumance, human-made forest fires and the collection of bamboo as cattle fodder in winter.
+- [W32.186] Vehicular traffic is a significant barrier to red panda movement between habitat patches.
+- [W32.187] Poaching is also a major threat.
+- [W32.188] In Nepal, 121 red panda skins were confiscated between 2008 and 2018.
+- [W32.189] Traps meant for other wildlife have been recorded killing red pandas.
+- [W32.190] In Myanmar, the red panda is threatened by hunting using guns and traps; since roads to the border with China were built starting in the early 2000s, red panda skins and live animals have been traded and smuggled across the border.
+- [W32.191] In southwestern China, the red panda is hunted for its fur, especially for the highly valued bushy tails, from which hats are produced.
+- [W32.192] The red panda population in China has been reported to have decreased by 40 per cent over the last 50 years, and the population in western Himalayan areas are considered to be smaller.
+- [W32.193] Between 2005 and 2017, 35 live and seven dead red pandas were confiscated in Sichuan, and several traders were sentenced to 3–12 years of imprisonment.
+- [W32.194] A month-long survey of 65 shops in nine Chinese counties in the spring of 2017 revealed only one in Yunnan offered hats made of red panda skins, and red panda tails were offered in an online forum.
+- [W32.195] The red panda is listed in CITES Appendix I and protected in all range countries; hunting is illegal.
+- [W32.196] It has been listed as Endangered on the IUCN Red List since 2008 because the global population is estimated at 10,000 individuals, with a decreasing population trend.
+- [W32.197] A large extent of its habitat is part of protected areas.
+- [W32.198] A red panda anti-poaching unit and community-based monitoring have been established in Langtang National Park.
+- [W32.199] Members of Community Forest User Groups also protect and monitor red panda habitats in other parts of Nepal.
+- [W32.200] Community outreach programs have been initiated in eastern Nepal using information boards, radio broadcasting and the annual International Red Panda Day in September; several schools endorsed a red panda conservation manual as part of their curricula.
+- [W32.201] Since 2010, community-based conservation programmes have been initiated in 10 districts in Nepal that aim to help villagers reduce their dependence on natural resources through improved herding and food processing practices and alternative income possibilities.
+- [W32.202] The Nepali government ratified a five-year Red Panda Conservation Action Plan in 2019.
+- [W32.203] From 2016 to 2019, 35 ha (86 acres) of high-elevation rangeland in Merak, Bhutan, was restored and fenced in cooperation with 120 herder families to protect the red panda forest habitat and improve communal land.
+- [W32.204] Villagers in Arunachal Pradesh established two community conservation areas to protect the red panda habitat from disturbance and exploitation of forest resources.
+- [W32.205] China has initiated several projects to protect its environment and wildlife, including Grain for Green, The Natural Forest Protection Project and the National Wildlife/Natural Reserve Construction Project.
+- [W32.206] For the last project, the red panda is not listed as a key species for protection but may benefit from the protection of the giant panda and golden snub-nosed monkey, with which it overlaps in range.
+- [W32.207] The London Zoo received two red pandas in 1869 and 1876, the first of which was caught in Darjeeling.
+- [W32.208] The Calcutta Zoo received a live red panda in 1877, the Philadelphia Zoo in 1906, and Artis and Cologne Zoos in 1908.
+- [W32.209] In 1908, the first captive red panda cubs were born in an Indian zoo.
+- [W32.210] In 1940, the San Diego Zoo imported four red pandas from India that had been caught in Nepal; their first litter was born in 1941.
+- [W32.211] Cubs that were born later were sent to other zoos; by 1969, about 250 red pandas had been exhibited in zoos.
+- [W32.212] The Taronga Conservation Society started keeping red pandas in 1977.
+- [W32.213] In 1978, a breed registry, the International Red Panda Studbook, was set up, followed by the Red Panda European Endangered Species Programme in 1985.
+- [W32.214] Members of international zoos ratified a global master plan for the captive breeding of the red panda in 1993.
+- [W32.215] By late 2015, 219 red pandas lived in 42 zoos in Japan.
+- [W32.216] The Padmaja Naidu Himalayan Zoological Park participates in the Red Panda Species Survival Plan and kept about 25 red pandas by 2016.
+- [W32.217] By the end of 2019, 182 European zoos kept 407 red pandas.
+- [W32.218] Regional captive breeding programmes have also been established in North American, Australasian and South African zoos.
+- [W32.219] The red panda's role in the culture and folklore of local people is limited.
+- [W32.220] A drawing of a red panda exists on a 13th-century Chinese scroll.
+- [W32.221] In Nepal's Taplejung District, red panda claws are used for treating epilepsy; its skin is used in rituals for treating sick people, making hats, scarecrows and decorating houses.
+- [W32.222] In western Nepal, Magar shamans use its skin and fur in their ritual dresses and believe that it protects against evil spirits.
+- [W32.223] People in central Bhutan consider red pandas to be reincarnations of Buddhist monks.
+- [W32.224] Some tribal people in northeast India and the Yi people believe that it brings good luck to wear red panda tails or hats made of its fur.
+- [W32.225] In China, the fur is used for local cultural ceremonies.
+- [W32.226] At weddings, the bridegroom traditionally carries the hide.
+- [W32.227] Hats made of red panda tails are also used by local newlyweds as a "good-luck charm".
+- [W32.228] The red panda was recognised as the state animal of Sikkim in the early 1990s and was the mascot of the Darjeeling Tea Festival.
+- [W32.229] It has been featured on stamps and coins issued by several red panda range states.
+- [W32.230] Anthropomorphic red pandas feature in animated movies and TV series such as The White Snake Enchantress, The Jungle Book: The Adventures of Mowgli, Bamboo Bears, Barbie as the Island Princess, DreamWorks' Kung Fu Panda franchise, Aggretsuko and Disney/Pixar's Turning Red, and in several video games and comic books.
+- [W32.231] It is the namesake of the Firefox browser and has been used as the namesake of music bands and of companies.
+- [W32.232] Its appearance has been used for plush toys, t-shirts, postcards and other items.
+- [W32.233] Red Panda Network – a non-profit organization committed to the conservation of wild red pandas
+
+## [W33] Wikipedia: Giant panda
+https://en.wikipedia.org/w/index.php?title=Giant_panda&oldid=1381023700 · CC BY-SA 4.0 · usage: ai_input
+
+- [W33.1] The giant panda (Ailuropoda melanoleuca), also known as the panda bear or simply panda, is a bear species endemic to China.
+- [W33.2] It is characterised by its white coat with black patches around the eyes, ears, legs and shoulders.
+- [W33.3] Its body is rotund; adult individuals weigh 100 to 115 kg (220 to 254 lb) and are typically 1.2 to 1.9 m (3 ft 11 in to 6 ft 3 in) long.
+- [W33.4] It is sexually dimorphic, with males being typically 10–20% larger than females.
+- [W33.5] A thumb is visible on its forepaw, which helps in holding bamboo in place for feeding.
+- [W33.6] It has large molar teeth and expanded temporal fossae to meet its dietary requirements.
+- [W33.7] It can digest starch and is mostly herbivorous with a diet consisting almost entirely of bamboo and bamboo shoots.
+- [W33.8] The giant panda lives exclusively in six montane regions in a few Chinese provinces at elevations of up to 3,000 m (9,800 ft).
+- [W33.9] It is solitary and gathers only in mating seasons.
+- [W33.10] It relies on olfactory communication and uses scent marks as chemical cues and on landmarks like rocks or trees.
+- [W33.11] Females rear cubs for an average of 18 to 24 months.
+- [W33.12] The oldest known giant panda was 38 years old.
+- [W33.13] As a result of farming, deforestation and infrastructural development, the giant panda has been driven out of the lowland areas where it once lived.
+- [W33.14] The Fourth National Survey (2011–2014), published in 2015, estimated that the wild giant panda population aged over 1.5 years, excluding dependent young, had increased to 1,864 individuals; based on this number, and using the available estimated percentage of cubs in the population (9.6%), the total population comprised approximately 2,060 adult individuals as of 2018.
+- [W33.15] Since 2016, it has been listed as Vulnerable on the IUCN Red List.
+- [W33.16] In July 2021, Chinese authorities also classified the giant panda as vulnerable.
+- [W33.17] It is a conservation-reliant species.
+- [W33.18] By 2007, the captive population comprised 239 giant pandas in China and another 27 outside the country.
+- [W33.19] It has often served as China's national symbol, appeared on Chinese Gold Panda coins since 1982 and Chinese Silver Panda coins since 1983, and was one of the five Fuwa mascots of the 2008 Summer Olympics.
+- [W33.20] The word panda in English was borrowed from French, but no conclusive explanation of the origin of the French word panda has been found.
+- [W33.21] The closest candidate is the Nepali word ponya, possibly referring to the adapted wrist bone of the red panda, which is native to Nepal.
+- [W33.22] In many older sources, the name "panda" or "common panda" refers to the red panda (Ailurus fulgens), which was described some 40 years earlier and over that period was the only animal known as a panda.
+- [W33.23] The binomial name Ailuropoda melanoleuca means black and white (melanoleuca) cat-foot (ailuropoda).
+- [W33.24] Since the earliest collection of Chinese writings, the Chinese language has given the bear many different names, including mò (貘, ancient Chinese name for giant panda), huāxióng (花熊; "spotted bear") and zhúxióng (竹熊; "bamboo bear").
+- [W33.25] The most popular names in China today are dàxióngmāo (大熊貓; lit. 'giant bear cat'), or simply xióngmāo (熊貓; lit. 'bear cat').
+- [W33.26] As with the word panda in English, xióngmāo (熊貓) was originally used to describe just the red panda, but dàxióngmāo (大熊貓) and xiǎoxióngmāo (小熊猫; lit. 'little bear cat') were coined to differentiate between the species.
+- [W33.27] In Taiwan, another popular name for panda is the inverted dàmāoxióng (大貓熊; lit. 'giant cat bear'), though many encyclopedias and dictionaries in Taiwan still use the "bear cat" form as the correct name.
+- [W33.28] Some linguists argue, in this construction, "bear" instead of "cat" is the base noun, making the name more grammatically and logically correct, which have led to the popular choice despite official writings.
+- [W33.29] This name did not gain its popularity until 1988, when a private zoo in Tainan painted a sun bear black and white and created the Tainan fake panda incident.
+- [W33.30] For many decades, the precise taxonomic classification of the giant panda was under debate because it shares characteristics with both bears and raccoons.
+- [W33.31] In 1985, molecular studies indicated that the giant panda is a true bear, part of the family Ursidae.
+- [W33.32] These studies show it diverged about 19 million years ago from the common ancestor of the Ursidae; it is the most basal member of this family and equidistant from all other extant bear species.
+- [W33.33] Two subspecies of giant panda have been recognized on the basis of distinct cranial measurements, colour patterns, and population genetics.
+- [W33.34] The nominate subspecies, A. m. melanoleuca, consists of most extant populations of the giant panda.
+- [W33.35] These animals are principally found in Sichuan and display the typical stark black and white contrasting colours.
+- [W33.36] The Qinling panda, A. m. qinlingensis, is restricted to the Qinling Mountains in Shaanxi at elevations of 1,300–3,000 m (4,300–9,800 ft).
+- [W33.37] The subspecies has a slightly higher tendency towards a brown and white coloring, rather than the usual black and white coloring, although most examples exhibit the normal coloration.
+- [W33.38] The skull of A. m. qinlingensis is smaller than its relatives, and it has larger molars.
+- [W33.39] A detailed study of the giant panda's genetic history from 2012 confirms that the separation of the Qinling population occurred about 300,000 years ago, and reveals that the non-Qinling population further diverged into two groups, named the Minshan and the Qionglai-Daxiangling-Xiaoxiangling-Liangshan group respectively, about 2,800 years ago.
+- [W33.40] Of the eight extant species in the bear family Ursidae, the giant panda's lineage branched off the earliest.
+- [W33.41] The giant panda is endemic to China.
+- [W33.42] It is found in small, fragmented populations in six mountainous regions in the country, mainly in Sichuan, and also in neighbouring Shaanxi and Gansu.
+- [W33.43] Successful habitat preservation has seen a rise in panda numbers, though loss of habitat due to human activities remains its biggest threat.
+- [W33.44] In areas with a high concentration of medium-to-large-sized mammals—such as domestic cattle, a species known to degrade the landscape—the giant panda population is generally low.
+- [W33.45] This is mainly attributed to the panda's avoidance of interspecific competition.
+- [W33.46] The species has been located at elevations of 2,400 to 3,000 m (7,900 to 9,800 ft) above sea level.
+- [W33.47] They frequent habitats with a healthy concentration of bamboos, typically old-growth forests, but may also venture into secondary forest habitats.
+- [W33.48] The Daxiangling Mountain population inhabits both coniferous and broadleaf forests.
+- [W33.49] Additionally, the Qinling population often selects evergreen broadleaf and conifer forests, while pandas in the Qionglai mountainous region exclusively select upland conifer forests.
+- [W33.50] The remaining two populations, namely those occurring in the Liangshan and Xiaoxiangling mountains, predominantly occur in broadleaf evergreen and conifer forests.
+- [W33.51] Giant pandas once roamed across Southeast Asia from Myanmar to northern Vietnam.
+- [W33.52] Their range in China spanned much of the southeast region.
+- [W33.53] By the Pleistocene, climate change affected panda populations, and the subsequent domination of modern humans led to large-scale habitat loss.
+- [W33.54] Subfossil remains from sinkholes suggest that they still inhabited the Gaoligong Mountains of Yunnan Province, on the border between China and Myanmar, as recently as 5,000 years ago.
+- [W33.55] This area suffered heavy deforestation around the time of the early Ming Dynasty, which may have been the event that extirpated pandas from the area.
+- [W33.56] In 2001, it was estimated that the range of the giant panda had declined by about 99% of its range in earlier millenniums.
+- [W33.57] The giant panda has a body shape typical of bears.
+- [W33.58] It has black fur on its ears, limbs, shoulders and around the eyes.
+- [W33.59] The rest of the animal's coat is white.
+- [W33.60] The giant panda's distinctive coloration appears to serve as camouflage in both winter and summer environments as they do not hibernate.
+- [W33.61] The white areas serve as camouflage in snow, while the black shoulders and legs conceal them in shade.
+- [W33.62] Studies in the wild have found that when viewed from a distance, the panda displays disruptive coloration, while up close, they rely more on blending in.
+- [W33.63] The black ears may be used to display aggression, while the eye patches might facilitate them identifying one another.
+- [W33.64] The giant panda's thick, woolly coat keeps it warm in the cool forests of its habitat.
+- [W33.65] The panda's skull shape is typical of durophagous carnivorans.
+- [W33.66] It has evolved from previous ancestors to exhibit larger molars with increased complexity and expanded temporal fossa.
+- [W33.67] A study revealed that a 117.5 kg (259 lb) giant panda had a bite force of 1298.9 Newton (BFQ 151.4) at canine teeth and 1815.9 Newton (BFQ 141.8) at carnassial teeth.
+- [W33.68] Finite element analysis has found that pandas have the highest bite force relative to their body size among ursids.
+- [W33.69] The giant panda has the largest masticatory muscles among bears, being at least twice heavier than those of an American black bear or a polar bear of the same brain mass; digastric muscle is equal to 30% of brain mass in giant panda compared to 10% in black bear.
+- [W33.70] Adults measure around 1.2 to 1.9 m (3 ft 11 in to 6 ft 3 in) long, including a tail of about 10–15 cm (3.9–5.9 in) and 60 to 90 cm (24 to 35 in) tall at the shoulder.
+- [W33.71] Males can weigh up to 160 kg (350 lb).
+- [W33.72] Females are generally 10–20% smaller than males.
+- [W33.73] They weigh between 70 kg (150 lb) and 125 kg (276 lb).
+- [W33.74] The average weight for adults is 100 to 115 kg (220 to 254 lb).
+- [W33.75] The giant panda's paw has a digit similar to a thumb and five fingers; the thumb-like digit is actually a modified sesamoid bone that helps it to hold bamboo while eating.
+- [W33.76] The evolution of the panda's pseudo-thumb may have occurred because the first digit of its forepaws, equivalent to the thumb in primates, is not opposable and is aligned with the rest of the digits.
+- [W33.77] The giant panda's tail, measuring 10 to 15 cm (3.9 to 5.9 in), is the second-longest in the bear family after the sloth bear.
+- [W33.78] Despite its taxonomic classification as a carnivoran, the giant panda's diet is primarily herbivorous, with approximately 99% of its diet consisting of bamboo.
+- [W33.79] However, the giant panda still has the digestive system of a carnivore, as well as carnivore-specific genes, and thus derives little energy and little protein from the consumption of bamboo.
+- [W33.80] The ability to break down cellulose and lignin is very weak, and their main source of nutrients comes from starch and hemicelluloses.
+- [W33.81] The most important part of their bamboo diet is the shoots, that are rich in starch and have up to 32% protein content.
+- [W33.82] Accordingly, pandas have evolved a higher capability to digest starches than strict carnivores.
+- [W33.83] Raw bamboo is toxic, containing cyanide compounds.
+- [W33.84] Pandas' body tissues are less able than herbivores to detoxify cyanide, but their gut microbiomes are significantly enriched in putative genes coding for enzymes related to cyanide degradation, suggesting that they have cyanide-digesting gut microbes.
+- [W33.85] It has been estimated that an adult panda absorbs 54.8–66.1 mg (0.846–1.020 gr) of cyanide a day through its diet.
+- [W33.86] To prevent poisoning, they have evolved anti-toxic mechanisms to protect themselves.
+- [W33.87] About 80% of the cyanide is metabolized to less toxic thiocyanate and discharged in urine, while the remaining 20% is detoxified by other minor pathways.
+- [W33.88] During the shoot season from April to August, the giant panda stores a large amount of food in preparation for the months succeeding this seasonal period, in which it lives off a diet of bamboo leaves.
+- [W33.89] The average giant panda eats 9 to 14 kg (20 to 31 lb) of bamboo shoots per day to compensate for the limited energy content of its diet.
+- [W33.90] Ingestion of such a large quantity of material is possible and necessary because of the rapid passage of large amounts of indigestible plant material through the short, straight digestive tract.
+- [W33.91] Such rapid passage of digesta limits the potential of microbial digestion in the gastrointestinal tract, limiting alternative forms of digestion.
+- [W33.92] Given this voluminous diet, the giant panda defecates up to 40 times a day.
+- [W33.93] The limited energy input imposed on it by its diet has affected the giant panda's behaviour.
+- [W33.94] It tends to limit its social interactions and avoids steeply sloping terrain to limit its energy expenditures.
+- [W33.95] Their field metabolic rate, the amount of energy used by an animal in its daily life, is one of the lowest reported among mammals, comparable to that of sloths.
+- [W33.96] The bamboo eater giant panda and the insectivorous sloth bear have resting or basal metabolic rates that are 18% and 41% lower, respectively, than predicted for a placental mammal of their same body mass, whereas the omnivorous American black bear and the carnivorous polar bear have basal metabolic rates that are 23% and 62%, respectively, higher than predicted for their body masses.
+- [W33.97] Two of the panda's most distinctive features, its large size and round face, are adaptations to its bamboo diet.
+- [W33.98] Anthropologist Russell Ciochon observed: "[much] like the vegetarian gorilla, the low body surface area to body volume [of the giant panda] is indicative of a lower metabolic rate.
+- [W33.99] This lower metabolic rate and a more sedentary lifestyle allows the giant panda to subsist on nutrient poor resources such as bamboo." The giant panda's round face is the result of powerful jaw muscles, which attach from the top of the head to the jaw.
+- [W33.100] Large molars crush and grind fibrous plant material.
+- [W33.101] The enzyme alanine—glyoxylate transaminase is also expressed in the peroxisome of giant panda cells instead of only in the mitochondria like carnivorous mammals, which would enable glyoxylate to be metabolised from glycolate in plant matter.
+- [W33.102] Proteins make up 50% of the macronutrients absorbed, similar to proportion of carnivorous mammals at 52–54%; the nutritional contribution of protein from bamboo is 61% when only the leaves and shoots are considered, and 48% when the digestible parts of cellulose and hemicellulose are included.
+- [W33.103] This indicates that the transition to herbivory was not as extreme in this species as it might appear.
+- [W33.104] The morphological characteristics of extinct relatives of the giant panda suggest that while the ancient giant panda was omnivorous 7 million years ago (mya), it only became herbivorous some 2–2.4 mya with the emergence of A. microta.
+- [W33.105] Genome sequencing of the giant panda suggests that the dietary switch could have initiated from the loss of the sole umami taste receptor, encoded by the genes TAS1R1 and TAS1R3 (also known as T1R1 and T1R3), resulting from two frameshift mutations within the T1R1 exons.
+- [W33.106] Umami taste corresponds to high levels of glutamate as found in meat and may have thus altered the food choice of the giant panda.
+- [W33.107] Although the pseudogenisation (conversion into a pseudogene) of the umami taste receptor in Ailuropoda coincides with the dietary switch to herbivory, it is likely a result of, and not the reason for, the dietary change.
+- [W33.108] The mutation time for the T1R1 gene in the giant panda is estimated to 4.2 mya while fossil evidence indicates bamboo consumption in the giant panda species at least 7 mya, signifying that although complete herbivory occurred around 2 mya, the dietary switch was initiated prior to T1R1 loss-of-function.
+- [W33.109] Giant pandas eat any of 25 bamboo species in the wild, with the most common including Fargesia dracocephala and Fargesia rufa.
+- [W33.110] Only a few bamboo species are widespread at the high altitudes pandas now inhabit.
+- [W33.111] Bamboo leaves contain the highest protein levels; stems have less.
+- [W33.112] Because of the synchronous flowering, death, and regeneration of all bamboo within a species, the giant panda must have at least two different species available in its range to avoid starvation.
+- [W33.113] While primarily herbivorous, the giant panda still retains decidedly ursine teeth and will eat meat, fish, and eggs when available.
+- [W33.114] In captivity, zoos typically maintain the giant panda's bamboo diet, though some will provide specially formulated biscuits or other dietary supplements.
+- [W33.115] Giant pandas will travel between different habitats if they need to, so they can get the nutrients that they need and to balance their diet for reproduction.
+- [W33.116] Interspecific interactions
+- [W33.117] Although adult giant pandas have few natural predators, young cubs are vulnerable to attacks by snow leopards, yellow-throated martens, eagles, feral dogs, and the Asian black bear.
+- [W33.118] Sub-adults weighing up to 50 kg (110 lb) may be vulnerable to predation by leopards.
+- [W33.119] Giant pandas are sympatric with other large mammals and bamboo feeders, such as the takin (Budorcas taxicolor).
+- [W33.120] The takin and giant panda share a similar ecological niche, and they consume the same resources.
+- [W33.121] When competition for food is fierce, pandas disperse to the outskirts of takin distribution.
+- [W33.122] Other possible competitors include but is not limited to, the wild boar (Sus scrofa), Chinese goral (Naemorhedus griseus) and the Asian black bear (Ursus thibetanus).
+- [W33.123] Giant pandas avoid areas with a mid-to-high density of livestock, as they depress the vegetation.
+- [W33.124] The Tibetan Plateau is the only known area where both giant and red pandas occur.
+- [W33.125] Although sharing near-identical ecological niches, competition between the two species has rarely been observed.
+- [W33.126] Nearly 50% of their respective distribution overlaps, and successful coexistence is achieved through distinct habitat selection.
+- [W33.127] A captive female died from toxoplasmosis, a disease caused by Toxoplasma gondii that infects most warm-blooded animals.
+- [W33.128] They are likely susceptible to diseases from Baylisascaris schroederi, a parasitic nematode known to infect giant panda intestines.
+- [W33.129] This nematode species is known to cause baylisascariasis, a deadly disease that kills more wild giant pandas than any other cause.
+- [W33.130] Additionally, the giant panda is susceptible to canine distemper virus, canine parvovirus, rotavirus, canine adenovirus, and canine coronavirus.
+- [W33.131] Bacteria, such as Clostridium welchii, Proteus mirabilis, Klebsiella pneumoniae, and Escherichia coli, may also be lethal.
+- [W33.132] The giant panda is a terrestrial animal and primarily spends its life roaming and feeding in the bamboo forests of the Qinling Mountains and in the hilly province of Sichuan.
+- [W33.133] Giant pandas are generally solitary.
+- [W33.134] Each adult has a defined territory and a female is not tolerant of other females in her range.
+- [W33.135] Social encounters occur primarily during the brief breeding season in which pandas in proximity to one another will gather.
+- [W33.136] After mating, the male leaves the female alone to raise the cub.
+- [W33.137] Pandas were thought to fall into the crepuscular category, those who are active twice a day, at dawn and dusk; however, pandas may belong to a category all of their own, with activity peaks in the morning, afternoon and midnight.
+- [W33.138] The low nutrition quality of bamboo means pandas need to eat more frequently, and due to their lack of major predators they can be active at any time of the day.
+- [W33.139] Activity is highest in June and decreases in late summer to autumn with an increase from November through the following March.
+- [W33.140] Activity is also directly related to the amount of sunlight during colder days.
+- [W33.141] There is a significant interaction of solar radiation, such that solar radiation has a stronger positive effect on activity levels of panda bears.
+- [W33.142] Pandas communicate through vocalisation and scent marking such as clawing trees or spraying urine.
+- [W33.143] They are able to climb and take shelter in hollow trees or rock crevices, but do not establish permanent dens.
+- [W33.144] For this reason, pandas do not hibernate, which is similar to other subtropical mammals, and will instead move to elevations with warmer temperatures.
+- [W33.145] Pandas rely primarily on spatial memory rather than visual memory.
+- [W33.146] Though the panda is often assumed to be docile, it has been known to attack humans on rare occasions.
+- [W33.147] Pandas have been known to cover themselves in horse manure to protect themselves against cold temperatures.
+- [W33.148] The species communicates foremost through a blatting sound; they achieve peaceful interactions through the emission of this sound.
+- [W33.149] When in oestrus, a female emits a chirp.
+- [W33.150] In hostile confrontations or during fights, the giant panda emits vocalizations such as a roar or growl.
+- [W33.151] On the other hand, squeals typically indicate inferiority and submission in a dispute.
+- [W33.152] Other vocalizations include honks and moans.
+- [W33.153] Giant pandas heavily rely on olfactory communication to communicate with one another.
+- [W33.154] Scent marks are used to spread these chemical cues and are placed on landmarks like rocks or trees.
+- [W33.155] Chemical communication in giant pandas plays many roles in their social situations.
+- [W33.156] Scent marks and odors are used to spread information about sexual status, whether a female is in estrus or not, age, gender, individuality, dominance over territory, and choice of settlement.
+- [W33.157] Giant pandas communicate by excreting volatile compounds, or scent marks, through the anogenital gland.
+- [W33.158] Giant pandas have unique positions in which they will scent mark.
+- [W33.159] Males deposit scent marks or urine by lifting their hind leg, rubbing their backside, or standing in order to rub the anogenital gland onto a landmark.
+- [W33.160] Females, however, exercise squatting or simply rubbing their genitals onto a landmark.
+- [W33.161] The season plays a major role in mediating chemical communication.
+- [W33.162] Depending on the season, mainly whether it is breeding season or not, may influence which odors are prioritized.
+- [W33.163] Chemical signals can have different functions in different seasons.
+- [W33.164] During the non-breeding season, females prefer the odors of other females because reproduction is not their primary motivation.
+- [W33.165] However, during breeding season, odors from the opposite sex will be more attractive.
+- [W33.166] Because they are solitary mammals and their breeding season is so brief, female pandas secrete chemical cues in order to let males know their sexual status.
+- [W33.167] The chemical cues female pandas secrete can be considered to be pheromones for sexual reproduction.
+- [W33.168] Females deposit scent marks through their urine which induces an increase in androgen levels in males.
+- [W33.169] Androgen is a sex hormone found in both males and females; testosterone is the major androgen produced by males.
+- [W33.170] Civetone and decanoic acid are chemicals found in female urine which promote behavioral responses in males; both chemicals are considered giant panda pheromones.
+- [W33.171] Male pandas also secrete chemical signals that include information about their sexual reproductivity and age, which is beneficial for a female when choosing a mate.
+- [W33.172] For example, age can be useful for a female to determine sexual maturity and sperm quality.
+- [W33.173] Pandas are also able to determine when the signal was placed, further aiding in the quest to find a potential mate.
+- [W33.174] However, chemical cues are not just used for communication between males and females, pandas can determine individuality from chemical signals.
+- [W33.175] This allows them to be able to differentiate between a potential partner or someone of the same sex, which could be a potential competitor.
+- [W33.176] Chemical cues, or odors, play an important role in how a panda chooses their habitat.
+- [W33.177] Pandas look for odors that tell them not only the identity of another panda, but if they should avoid them or not.
+- [W33.178] Pandas tend to avoid their species for most of the year, breeding season being the brief time of major interaction.
+- [W33.179] Chemical signaling allows for avoidance and competition.
+- [W33.180] Pandas whose habitats are in similar locations will collectively leave scent marks in a unique location which is termed "scent stations".
+- [W33.181] When pandas come across these scent stations, they are able to identify a specific panda and the scope of their habitat.
+- [W33.182] This allows pandas to be able to pursue a potential mate or avoid a potential competitor.
+- [W33.183] Pandas can assess an individual's dominance status, including their age and size, via odor cues and may choose to avoid a scent mark if the signaler's competitive ability outweighs their own.
+- [W33.184] A panda's size can be conveyed through the height of the scent mark.
+- [W33.185] Since larger animals can place higher scent marks, an elevated scent mark advertises a higher competitive ability.
+- [W33.186] Age must also be taken into consideration when assessing a competitor's fighting ability.
+- [W33.187] For example, a mature panda will be larger than a younger, immature panda and possess an advantage during a fight.
+- [W33.188] Giant pandas reach sexual maturity between the ages of four and eight, and may be reproductive until age 20.
+- [W33.189] The mating season is between March and May, when a female goes into estrus, which lasts for two or three days and only occurs once a year.
+- [W33.190] When mating, the female is in a crouching, head-down position as the male mounts her from behind.
+- [W33.191] Copulation time ranges from 30 seconds to five minutes, but the male may mount her repeatedly to ensure successful fertilisation.
+- [W33.192] The gestation period is somewhere between 95 and 160 days - the variability is due to the fact that the fertilized egg may linger in the reproductive system for a while before implanting on the uterine wall.
+- [W33.193] Giant pandas give birth to twins in about half of pregnancies.
+- [W33.194] If twins are born, usually only one survives in the wild.
+- [W33.195] The mother will select the stronger of the cubs, and the weaker cub will die due to starvation.
+- [W33.196] The mother is thought to be unable to produce enough milk for two cubs since she does not store fat.
+- [W33.197] The father has no part in helping raise the cub.
+- [W33.198] When the cub is first born, it is pink, blind, and toothless, weighing only 90 to 130 g (3.2 to 4.6 oz), or about ⁠1/800⁠ of the mother's weight, proportionally the smallest baby of any placental mammal.
+- [W33.199] It nurses from its mother's breast six to 14 times a day for up to 30 minutes at a time.
+- [W33.200] For three to four hours, the mother may leave the den to feed, which leaves the cub defenseless.
+- [W33.201] One to two weeks after birth, the cub's skin turns grey where its hair will eventually become black.
+- [W33.202] A slight pink colour may appear on the cub's fur, as a result of a chemical reaction between the fur and its mother's saliva.
+- [W33.203] A month after birth, the colour pattern of the cub's fur is fully developed.
+- [W33.204] Its fur is very soft and coarsens with age.
+- [W33.205] The cub begins to crawl at 75 to 80 days; mothers play with their cubs by rolling and wrestling with them.
+- [W33.206] The cubs can eat small quantities of bamboo after six months, though mother's milk remains the primary food source for most of the first year.
+- [W33.207] Giant panda cubs weigh 45 kg (99 lb) at one year and live with their mothers until they are 18 months to two years old.
+- [W33.208] The interval between births in the wild is generally two years.
+- [W33.209] Initially, the primary method of breeding giant pandas in captivity was by artificial insemination, as they seemed to lose their interest in mating once they were captured.
+- [W33.210] This led some scientists to trying methods such as showing them videos of giant pandas mating and giving the males sildenafil (commonly known as Viagra).
+- [W33.211] In the 2000s, researchers started having success with captive breeding programs, and they have now determined giant pandas have comparable breeding to some populations of the American black bear, a thriving bear species.
+- [W33.212] In July 2009, Chinese scientists confirmed the birth of the first cub to be successfully conceived through artificial insemination using frozen sperm.
+- [W33.213] The technique for freezing the sperm in liquid nitrogen was first developed in 1980 and the first birth was hailed as a solution to the dwindling availability of giant panda semen, which had led to inbreeding.
+- [W33.214] Panda semen, which can be frozen for decades, could be shared between different zoos to save the species.
+- [W33.215] As of 2009, it is expected that zoos in destinations such as San Diego in the United States and Mexico City will be able to provide their own semen to inseminate more giant pandas.
+- [W33.216] Attempts have also been made to reproduce giant pandas by interspecific pregnancy where cloned panda embryos were implanted into the uterus of an animal of another species.
+- [W33.217] This has resulted in panda fetuses, but no live births.
+- [W33.218] In Ancient China, people thought pandas to be rare and noble creatures – the Empress Dowager Bo was buried with a panda skull in her vault.
+- [W33.219] The grandson of Emperor Taizong of Tang is said to have given Japan two pandas and a sheet of panda skin as a sign of goodwill.
+- [W33.220] Unlike many other animals in Ancient China, pandas were rarely thought to have medical uses.
+- [W33.221] The few known uses include the Sichuan tribal peoples' use of panda urine to melt accidentally swallowed needles, and the use of panda pelts to control menstruation as described in the Qin dynasty encyclopedia Erya.
+- [W33.222] The creature named mo (貘) mentioned in some ancient books has been interpreted as giant panda.
+- [W33.223] The dictionary Shuowen Jiezi (Eastern Han Dynasty) says that the mo, from Shu (Sichuan), is bear-like, but yellow-and-black, although the older Erya describes mo simply as a "white leopard".
+- [W33.224] The interpretation of the legendary fierce creature pixiu (貔貅) as referring to the giant panda is also common.
+- [W33.225] During the reign of the Yongle Emperor (early 15th century), his relative from Kaifeng sent him a captured zouyu (騶虞), and another zouyu was sighted in Shandong.
+- [W33.226] Zouyu is a legendary "righteous" animal, which, similarly to a qilin, only appears during the rule of a benevolent and sincere monarch.
+- [W33.227] Giant pandas have been kept in zoos as early as the Western Han Dynasty in China, where the writer Sima Xiangru noted that the panda was the most treasured animal in the emperor's garden of exotic animals in the capital Chang'an (present Xi'an).
+- [W33.228] Not until the 1950s were pandas again recorded to have been exhibited in China's zoos.
+- [W33.229] Chi Chi at London Zoo became very popular.
+- [W33.230] This influenced the World Wildlife Fund to use a panda as its symbol.
+- [W33.231] A 2006 New York Times article outlined the economics of keeping pandas, which costs five times more than keeping the next most expensive animal, an elephant.
+- [W33.232] American zoos generally pay the Chinese government $1 million a year in fees, as part of a typical ten-year contract.
+- [W33.233] San Diego's contract with China was to expire in 2008, but got a five-year extension at about half of the previous yearly cost.
+- [W33.234] The last contract, with the Memphis Zoo in Memphis, Tennessee, ended in 2013.
+- [W33.235] In the 1970s, gifts of giant pandas to American and Japanese zoos formed an important part of the diplomacy of the People's Republic of China, as it marked some of the first cultural exchanges between China and the West.
+- [W33.236] This practice has been termed "panda diplomacy".
+- [W33.237] By 1984, however, giant pandas were no longer given as gifts.
+- [W33.238] Instead, China began to offer giant pandas to other nations only on 10-year loans for a fee of up to US$1,000,000 per year and with the provision that any cubs born during the loan are the property of China.
+- [W33.239] As a result of this change in policy, nearly all the giant pandas in the world are owned by China, and individuals and all cubs leased to foreign zoos are eventually returned to China.
+- [W33.240] As of 2022, Xin Xin at the Chapultepec Zoo in Mexico City, was the last living descendant of the gifted giant pandas.
+- [W33.241] Since 1998, because of a WWF lawsuit, the United States Fish and Wildlife Service only allows US zoos to import a giant panda if the zoo can ensure China channels more than half of its loan fee into conservation movement efforts for giant pandas and their habitat.
+- [W33.242] In May 2005, China offered a breeding pair to Taiwan; this issue became embroiled in cross-Strait relations – due to both the underlying symbolism and technical issues such as whether the transfer would be considered "domestic" or "international" or whether any true conservation purpose would be served by the exchange.
+- [W33.243] A contest in 2006 to name the pandas was held in the mainland, resulting in the politically charged names Tuan Tuan and Yuan Yuan, from simplified Chinese: 团圆; traditional Chinese: 團圓; pinyin: tuanyuan; lit. 'reunion', implying reunification.
+- [W33.244] China's offer was initially rejected by Chen Shui-bian, then President of Taiwan.
+- [W33.245] However, when Ma Ying-jeou assumed the presidency in 2008, the offer was accepted and the giant pandas arrived in December 2006.
+- [W33.246] In the 2020s, certain "celebrity pandas" have gained a cult following amongst internet users, with dedicated fan accounts existing to keep tabs on the animals.
+- [W33.247] Known as "giant panda fever" or "panda-monium", individual giant pandas get billions of views and engagements on social media, as well as product lines specifically emulating them.
+- [W33.248] At Chengdu Research Base of Giant Panda Breeding, certain of these "celebrity pandas" garner hours-long lines specifically to see them.
+- [W33.249] The giant panda is a vulnerable species, threatened by continued habitat destruction and habitat fragmentation, and by a very low birthrate, both in the wild and in captivity.
+- [W33.250] Its range is confined to a small portion on the western edge of its historical range, which stretched through southern and eastern China, northern Myanmar, and northern Vietnam.
+- [W33.251] The giant panda is scattered into more than 30 subpopulations of relatively few inidviduals.
+- [W33.252] The building of roads and settlements near giant panda habitats causes declines in population.
+- [W33.253] Diseases from domesticated pets and livestock is another threat.
+- [W33.254] It is estimated that by 2100, the giant panda's range will shrink by up to 100%, mainly due to the effects of climate change.
+- [W33.255] The giant panda is listed on CITES Appendix I, meaning trade of its parts is prohibited and that it requires this protection to avoid extinction.
+- [W33.256] It has been protected by China's 1988 Wildlife Conservation Law.
+- [W33.257] The giant panda has been a target of poaching by locals since ancient times and by foreigners since it was introduced to the West.
+- [W33.258] Starting in the 1930s, foreigners were unable to poach giant pandas in China because of the Second Sino-Japanese War and the Chinese Civil War, but pandas remained a source of soft furs for the locals.
+- [W33.259] The population boom in China after 1949 created stress on the pandas' habitat and the subsequent famines led to the increased hunting of wildlife, including pandas.
+- [W33.260] After the reform and opening up, demand for panda skins from Hong Kong and Japan led to illegal poaching for the black market, acts generally ignored by the local officials at the time.
+- [W33.261] In 1963, the PRC government set up Wolong National Nature Reserve to save the declining panda population.
+- [W33.262] The giant panda is among the world's most adored and protected rare animals, and is one of the few in the world whose natural inhabitant status was able to gain a UNESCO World Heritage Site designation.
+- [W33.263] The Sichuan Giant Panda Sanctuaries, located in the southwest province of Sichuan and covering seven natural reserves, were inscribed onto the World Heritage List in 2006.
+- [W33.264] A 2015 paper found that the giant panda can serve as an umbrella species as the preservation of their habitat also helps other endemic species in China, including 70% of the country's forest birds, 70% of mammals and 31% of amphibians.
+- [W33.265] In 2012, Earthwatch Institute, a global nonprofit that teams volunteers with scientists to conduct important environmental research, launched a program called "On the Trail of Giant Panda".
+- [W33.266] This program, based in the Wolong National Nature Reserve, allows volunteers to work up close with pandas cared for in captivity, and help them adapt to life in the wild, so that they may breed, and live longer and healthier lives.
+- [W33.267] Efforts to preserve the panda bear populations in China have come at the expense of other animals in the region, including snow leopards, wolves, and dholes.
+- [W33.268] In order to improve living and mating conditions for the fragmented populations of pandas, nearly 70 natural reserves have been combined to form the Giant Panda National Park in 2020.
+- [W33.269] With a size of 10,500 square miles, the park is roughly three times as large as Yellowstone National Park and incorporates the Wolong National Nature Reserve.
+- [W33.270] Small, isolated populations run the risk of inbreeding and smaller genetic variety makes the individuals more vulnerable to various defects and genetic mutation.
+- [W33.271] In 2006, scientists reported that the number of giant pandas living in the wild may have been underestimated at about 1,000.
+- [W33.272] Previous population surveys had used conventional methods to estimate the size of the wild giant panda population, but using a new method that analyzes DNA from giant panda droppings, scientists believed the wild population were as large as 3,000.
+- [W33.273] In 2006, there were 40 panda reserves in China, but just 13 reserves in 1998.
+- [W33.274] As the species has been reclassified from "endangered" to "vulnerable" in 2016, the conservation efforts are thought to be working.
+- [W33.275] Furthermore, in response to this reclassification, the State Forestry Administration of the People's Republic of China announced that they would not accordingly lower the conservation level of the giant panda, and would instead reinforce the conservation efforts.
+- [W33.276] In 2020, the giant panda population of the new national park was already above 1,800 individuals, which is roughly 80 percent of the entire panda population in China.
+- [W33.277] Establishing the new protected area in the Sichuan Province also gives various other endangered or threatened species, like the Siberian tiger, the possibility to improve their living conditions by offering them a habitat.
+- [W33.278] Other species who benefit from the protection of its habitat include the snow leopard, the golden snub-nosed monkey, the red panda and the complex-toothed flying squirrel.
+- [W33.279] In July 2021, Chinese conservation authorities announced that giant pandas are no longer endangered in the wild following years of conservation efforts, with a population in the wild exceeding 1,800.
+- [W33.280] China has received international praise for its conservation of the species, which has also helped the country establish itself as a leader in endangered species conservation.
+- [W33.281] As of November 26, 2024, the global captive giant panda population had reached 757 individuals, while about 1,900 were estimated to live in the wild, bringing the total to approximately 2,657.
+- [W33.282] Giant pandas around the world
+- [W33.283] List of endangered and protected species of China
+- [W33.284] "Panda Numbers Exceed Expectations".
+- [W33.285] Archived from the original on 25 March 2007.
+- [W33.286] "Taiwan cool to China panda-plomacy".
+- [W33.287] Archived from the original on 11 January 2006.
+- [W33.288] Friends of the National Zoo (U.S.), ed.
+- [W33.289] Panda Cam: A Nation Watches Tai Shan the Panda Cub Grow.
+- [W33.290] Goodman, Brenda (12 February 2006).
+- [W33.291] "Eats Shoots, Leaves and Much of Zoos' Budgets".
+- [W33.292] Lumpkin, Susan; Seidensticker, John (2007).
+- [W33.293] (An earlier edition is available as The Smithsonian Book of Giant Pandas, Smithsonian Institution Press, 2002, ISBN 1-58834-013-9.)
+- [W33.294] Panda Facts At a Glance (N.d.). www.wwfchina.org.
+- [W33.295] Little Panda: The World Welcomes Hua Mei at the San Diego Zoo.
+- [W33.296] New York: Aladdin Paperbacks.
+- [W33.297] Chicago: University of Chicago Press.
+- [W33.298] (There are also several later reprints)
+- [W33.299] Wan, Qiu-Hong; Wu, Hua; Fang, Sheng-Guo (2005).
+- [W33.300] "A New Subspecies of Giant Panda (Ailuropoda melanoleuca) from Shaanxi, China".
+- [W33.301] Bibcode:2005JMamm..86..397W. doi:10.1644/BRB-226.1.
+- [W33.302] Warren, Lynne (July 2006).
+- [W33.303] (About Mei Xiang, Tai Shan and the Wolong Panda Research Facility in Chengdu China).
+- [W33.304] Zhang, Jindong; Hull, Vanessa; Huang, Jinyan; Zhou, Shiqiang; Xu, Weihua; Yang, Hongbo; McConnell, William J.; Li, Rengui; Liu, Dian; Huang, Yan; Ouyang, Zhiyun; Zhang, Hemin; Liu, Jianguo (2015).
+- [W33.305] "Activity patterns of the giant panda ( Ailuropoda melanoleuca )".
+- [W33.306] 96 (6): 1116–1127. doi:10.1093/jmammal/gyv118.
+- [W33.307] BBC Nature: Giant panda news, and video clips from BBC programmes past and present.
+- [W33.308] Panda Pioneer: the release of the first captive-bred panda 'Xiang Xiang' in 2006
+- [W33.309] WWF – environmental conservation organization
+- [W33.310] National Zoo Live Panda Cams – Baby Panda Tai Shan and mother Mei Xiang
+- [W33.311] Information from Animal Diversity
+- [W33.312] NPR News 2007/08/20 – Panda Romance Stems From Bamboo
+- [W33.313] View the panda genome on Ensembl.
+- [W33.314] Texts and pictures of the Panda exhibition at the Museum für Naturkunde Berlin Archived 14 June 2015 at the Wayback Machine
+- [W33.315] iPanda-50: annotated image dataset for fine-grained panda identification on Github
+
+## [W34] NCBI RefSeq NC_000878.1: peregrine falcon mitochondrial COX3 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_000878.1 · Public domain · usage: ai_input, display
+
+- [W34.1] LOCUS       NC_000878                784 bp    DNA     linear   VRT 03-APR-2023
+- [W34.2] DEFINITION  Falco peregrinus mitochondrion, complete genome.
+- [W34.3] ACCESSION   NC_000878 REGION: 8741..9524
+- [W34.4] DBLINK      BioProject: PRJNA927338
+- [W34.5] SOURCE      mitochondrion Falco peregrinus (peregrine falcon)
+- [W34.6] ORGANISM  Falco peregrinus
+- [W34.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W34.8] Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+- [W34.9] Coelurosauria; Aves; Neognathae; Neoaves; Telluraves; Australaves;
+- [W34.10] Falconiformes; Falconidae; Falco.
+- [W34.11] REFERENCE   1  (bases 1 to 784)
+- [W34.12] AUTHORS   Mindell,D.P., Sorenson,M.D., Dimcheff,D.E., Hasegawa,M., Ast,J.C.
+- [W34.13] TITLE     Interordinal relationships of birds and other reptiles based on
+- [W34.14] whole mitochondrial genomes
+- [W34.15] REFERENCE   2  (bases 1 to 784)
+- [W34.16] AUTHORS   Mindell,D.P., Sorenson,M.D. and Dimcheff,D.E.
+- [W34.17] TITLE     Multiple independent origins of mitochondrial gene order in birds
+- [W34.18] 95 (18), 10693-10697 (1998)
+- [W34.19] REFERENCE   3  (bases 1 to 784)
+- [W34.20] AUTHORS   Mindell,D.P., Sorenson,M.D., Huddleston,C.J., Miranda,H.C.
+- [W34.21] Knight,A., Sawchuk,S.J. and Yuri,T.
+- [W34.22] TITLE     Phylogenetic relationships among and within select avian orders
+- [W34.23] based on mitochondrial DNA
+- [W34.24] JOURNAL   (in) Mindell,D.F.
+- [W34.25] AVIAN MOLECULAR EVOLUTION AND SYSTEMATICS: 211-245;
+- [W34.26] REFERENCE   4  (bases 1 to 784)
+- [W34.27] CONSRTM   NCBI Genome Project
+- [W34.28] TITLE     Direct Submission
+- [W34.29] JOURNAL   Submitted (08-SEP-1999) National Center for Biotechnology
+- [W34.30] Information, NIH, Bethesda, MD 20894, USA
+- [W34.31] REFERENCE   5  (bases 1 to 784)
+- [W34.32] AUTHORS   Sorenson,M.D., Dimcheff,D.E., Ast,J.C., Yuri,T. and Mindell,D.P.
+- [W34.33] TITLE     Direct Submission
+- [W34.34] JOURNAL   Submitted (04-SEP-1998) Museum of Zoology and Department of
+- [W34.35] Biology, University of Michigan, 1109 Geddes Ave., Ann Arbor, MI
+- [W34.36] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W34.37] The reference sequence was derived from AF090338.
+- [W34.38] COMPLETENESS: full length.
+- [W34.39] FEATURES             Location/Qualifiers
+- [W34.40] /organism="Falco peregrinus"
+- [W34.41] /organelle="mitochondrion"
+- [W34.42] /common="peregrine falcon"
+- [W34.43] /product="ATP synthase F0 subunit 6"
+- [W34.44] /translation="MNLSFFDQFSSPYLMGMPLALLSILFPALLFPSPSTRWINNRLI
+- [W34.45] TLQSWLIHLITKQLMTPLDKKGHKWALILTSLMMLLLMINLLGLLPYTFTPTTQLSMN
+- [W34.46] MALAFPLWLATLLTGLRNQPTTSLGHLLPEGTPTPLIPALIMIETTSLLIRPLALGVR
+- [W34.47] LTANLTAGHLLIQLISTATATLLPIMPAISTLTMLVLLLLTILEVAVAMIQAYVFVLL
+- [W34.48] /note="TAA stop codon is completed by the addition of 3' A
+- [W34.49] /transl_except=(pos:9524,aa:TERM)
+- [W34.50] /product="cytochrome c oxidase subunit III"
+- [W34.51] /translation="MAHQAHPFHMVDPSPWPISGAAAALLTTSGLAMWFHHKSPQLLT
+- [W34.52] LGLISMILVMLQWWRDIIREGTFQGHHTPPVQKGLRYGMILFITSEVFFFLGFFWAFF
+- [W34.53] HSSLAPTPELGGQWPPTGIKPMNPMEVPLLNTAILLASGVTVTWAHHSITEGNRKQAI
+- [W34.54] QALSLTILLGAYFTILQAMEYYEAPFSIADSVYGSTFFVATGFHGLHVIIGSSFLSIC
+- [W34.55] LLRLINFHFTPSHHFGFEAAAWYWHFVDVIWLFLYMTIYWWGS"
+- [W34.56] 1 atggcccacc aagcacaccc cttccacata gtagacccca gcccatgacc aatctccgga
+- [W34.57] 61 gctgctgccg ccctcctcac cacctcagga ttggctatat gatttcacca caaatccccc
+- [W34.58] 121 caactcctaa ccttaggctt aatctccata atcctagtaa tactccaatg atgacgagac
+- [W34.59] 181 attattcgag aaggtacatt ccaaggccac cacacacccc cagtacaaaa aggccttcga
+- [W34.60] 241 tacggaataa ttctattcat cacatcagaa gtattcttct tcctaggttt cttttgagcc
+- [W34.61] 301 ttcttccact caagcctagc ccctacacca gaactaggag gacaatgacc cccaacagga
+- [W34.62] 361 atcaaaccca taaaccccat agaagtaccc ctactcaaca cagccattct actagcatca
+- [W34.63] 421 ggagttaccg tcacatgagc ccatcacagc atcactgaag gaaaccgcaa acaagcaatc
+- [W34.64] 481 caagctctca gcctaactat cctcttagga gcctacttta caatcctaca agccatagaa
+- [W34.65] 541 tactacgaag ccccattctc aattgccgac agcgtatacg gctcaacctt cttcgtcgct
+- [W34.66] 601 acaggattcc atggcctaca cgtaatcatc ggatcctcct tcctctcaat ctgcctacta
+- [W34.67] 661 cgactaatca acttccactt tacaccaagc caccactttg gattcgaagc cgcagcctga
+- [W34.68] 721 tactggcact ttgtagatgt catctgatta ttcctataca taactatcta ctgatgagga
+
+## [W35] NCBI RefSeq NC_011307.1: common kestrel mitochondrial COX3 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_011307.1 · Public domain · usage: ai_input, display
+
+- [W35.1] LOCUS       NC_011307                784 bp    DNA     linear   VRT 03-APR-2023
+- [W35.2] DEFINITION  Falco tinnunculus mitochondrion, complete genome.
+- [W35.3] ACCESSION   NC_011307 REGION: 8733..9516
+- [W35.4] DBLINK      BioProject: PRJNA927338
+- [W35.5] SOURCE      mitochondrion Falco tinnunculus (common kestrel)
+- [W35.6] ORGANISM  Falco tinnunculus
+- [W35.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W35.8] Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+- [W35.9] Coelurosauria; Aves; Neognathae; Neoaves; Telluraves; Australaves;
+- [W35.10] Falconiformes; Falconidae; Falco.
+- [W35.11] REFERENCE   1  (bases 1 to 784)
+- [W35.12] AUTHORS   Wu,J.-W., Chen,S.-F., Chen,I.-C., Tsai,C.-L. and Chou,Y.C.
+- [W35.13] TITLE     Structure of Falco tinnunculus mitochondrial genome
+- [W35.14] REFERENCE   2  (bases 1 to 784)
+- [W35.15] CONSRTM   NCBI Genome Project
+- [W35.16] TITLE     Direct Submission
+- [W35.17] JOURNAL   Submitted (30-SEP-2008) National Center for Biotechnology
+- [W35.18] Information, NIH, Bethesda, MD 20894, USA
+- [W35.19] REFERENCE   3  (bases 1 to 784)
+- [W35.20] AUTHORS   Wu,J.-W., Chen,S.-F., Chen,I.-C., Tsai,C.-L. and Chou,Y.C.
+- [W35.21] TITLE     Direct Submission
+- [W35.22] JOURNAL   Submitted (08-OCT-2007) Dept. of Medical Technology, Chung Hwa
+- [W35.23] University of Medical Technology, Wen Hwa 1st St., Jente, Tainan
+- [W35.24] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W35.25] The reference sequence was derived from EU196361.
+- [W35.26] COMPLETENESS: full length.
+- [W35.27] FEATURES             Location/Qualifiers
+- [W35.28] /organism="Falco tinnunculus"
+- [W35.29] /organelle="mitochondrion"
+- [W35.30] /isolation_source="Taiwan"
+- [W35.31] /product="ATP synthase F0 subunit 6"
+- [W35.32] /protein_id="YP_002261409.1"
+- [W35.33] /translation="MNLSFFDQFSSPYLMGMPLALLSILFPTLLFPSPNTRWINNRLT
+- [W35.34] TLQSWLIHLVTKQLMTPLNKNGHKWALILTSLMMLLLTINLLGLLPYTFTPTTQLSMN
+- [W35.35] MALAFPLWLATLLTGLQNQPTTSLGHLLPEGTPTPLIPALIMIETTSLFIRPLALGVR
+- [W35.36] LTANLTAGHLLIQLISTATAVLLPIMPAISIMTMLVLLLLTILEVAVAMIQAYVFVLL
+- [W35.37] /note="TAA stop codon is completed by the addition of 3' A
+- [W35.38] /transl_except=(pos:9516,aa:TERM)
+- [W35.39] /product="cytochrome c oxidase subunit III"
+- [W35.40] /protein_id="YP_002261410.1"
+- [W35.41] /translation="MAHQAHPFCMLNPNPWPISGAVAALLTTSGLAMWFHYNTLQPLA
+- [W35.42] LGLISMILVMLQWWRDIIRESTFQGHHTLPVQKGLRYGMILFITSEVFFFLGFFWAFF
+- [W35.43] HSSLAPTPELGGQWPPTGIKPMNPMEVPLLNTAILLASGVTVTWAHHSITEGARKQAI
+- [W35.44] QALSLTVLLGAYFKALQAMEYYEAPFSIADSVYGSTFFIATGFHGLHVIIGSSFLLIC
+- [W35.45] LLRLINFHFTPNHHFGFEAAAWYWHFVDVIWLFLYMTIYWWGS"
+- [W35.46] 1 atggcccacc aagcacaccc cttctgcata ttaaacccta acccctgacc aatttctgga
+- [W35.47] 61 gccgtcgccg ccctcctcac cacatcagga ctggctatgt gatttcacta caacaccctt
+- [W35.48] 121 caacccctag ccctaggcct aatctccata atcctcgtca tactccaatg atgacgagac
+- [W35.49] 181 attatccgag aaagcacatt ccaaggccac cacacactcc cagtacaaaa aggcctccga
+- [W35.50] 241 tatggaataa tcctatttat cacatcagaa gtgttcttct tcctaggctt cttctgggcc
+- [W35.51] 301 ttcttccact caagcctagc ccccacacca gaactaggag gacaatgacc cccaacagga
+- [W35.52] 361 atcaaaccca taaatcccat agaagtgccc ctacttaaca ccgccattct actagcatca
+- [W35.53] 421 ggagtcaccg tcacatgagc tcaccatagc attaccgaag gggcccgcaa acaagcaatc
+- [W35.54] 481 caagccctta gcttaaccgt cctcctagga gcctacttca aagccctcca agccatagaa
+- [W35.55] 541 tactacgaag ccccattctc aatcgccgat agcgtatatg gctcaacctt cttcatcgct
+- [W35.56] 601 acgggattcc acggtctaca cgtaatcatt ggatcctcct tcctcttaat ctgcctacta
+- [W35.57] 661 cgactaatca acttccactt cacaccaaac caccactttg gattcgaagc cgcagcctga
+- [W35.58] 721 tactgacact tcgtagatgt catttgacta ttcctatata taactatcta ctgatgagga
+
+## [W36] NCBI RefSeq NC_025580.1: Eurasian sparrowhawk mitochondrial COX3 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_025580.1 · Public domain · usage: ai_input, display
+
+- [W36.1] LOCUS       NC_025580                784 bp    DNA     linear   VRT 03-APR-2023
+- [W36.2] DEFINITION  Accipiter nisus mitochondrion, complete genome.
+- [W36.3] ACCESSION   NC_025580 REGION: 8683..9466
+- [W36.4] DBLINK      BioProject: PRJNA927338
+- [W36.5] SOURCE      mitochondrion Accipiter nisus (Eurasian sparrowhawk)
+- [W36.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W36.7] Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+- [W36.8] Coelurosauria; Aves; Neognathae; Neoaves; Telluraves;
+- [W36.9] Accipitrimorphae; Accipitriformes; Accipitridae; Accipitrinae;
+- [W36.10] REFERENCE   1  (bases 1 to 784)
+- [W36.11] AUTHORS   Zhang,H., Dou,H., Yang,X., Zhao,C., Liu,G. and Zhang,J.
+- [W36.12] TITLE     The complete mitochondrial genome sequence of the Sparrowhawk
+- [W36.13] JOURNAL   Mitochondrial DNA, 1-2 (2014) In press
+- [W36.14] REMARK    Publication Status: Available-Online prior to print
+- [W36.15] REFERENCE   2  (bases 1 to 784)
+- [W36.16] CONSRTM   NCBI Genome Project
+- [W36.17] TITLE     Direct Submission
+- [W36.18] JOURNAL   Submitted (14-NOV-2014) National Center for Biotechnology
+- [W36.19] Information, NIH, Bethesda, MD 20894, USA
+- [W36.20] REFERENCE   3  (bases 1 to 784)
+- [W36.21] AUTHORS   Zhao,C., Dou,H.S., Yang,X.F., Liu,G.S. and Zhang,H.H.
+- [W36.22] TITLE     Direct Submission
+- [W36.23] JOURNAL   Submitted (14-AUG-2014) Qufu Normal University, College of Life
+- [W36.24] Science, Jingxuan Street No.
+- [W36.25] 57, Qufu, Shandong 273165, China
+- [W36.26] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W36.27] reference sequence is identical to KM360148.
+- [W36.28] COMPLETENESS: full length.
+- [W36.29] FEATURES             Location/Qualifiers
+- [W36.30] /organism="Accipiter nisus"
+- [W36.31] /organelle="mitochondrion"
+- [W36.32] /db_xref="GeneID:22162070"
+- [W36.33] /product="ATP synthase F0 subunit 6"
+- [W36.34] /protein_id="YP_009107378.1"
+- [W36.35] /db_xref="GeneID:22162070"
+- [W36.36] /translation="MNLSFFDQFMSPQLLGIPLIMLAMMFPTLLLPFPTTRWITNRLS
+- [W36.37] TLQLWFIHLTTKQLMLPLNKGGHKWALILTSLMMLLLMINLLGLLPYTFTPTTQLSMN
+- [W36.38] MALAFPLWLATLLTGLRNQPTTSLGHLLPEGTPTPLIPALILIETTSLLIRPLALGVR
+- [W36.39] LTANLTAGHLLIQLISTATITLLPILPTVSILTSLILLLLTILEIAVAMIQAYVFVLL
+- [W36.40] /db_xref="GeneID:22162071"
+- [W36.41] /note="TAA stop codon is completed by the addition of 3' A
+- [W36.42] /transl_except=(pos:9466,aa:TERM)
+- [W36.43] /product="cytochrome c oxidase subunit III"
+- [W36.44] /protein_id="YP_009107379.1"
+- [W36.45] /db_xref="GeneID:22162071"
+- [W36.46] /translation="MAHQAHSYHMVDPSPWPIFGAAAALLTTSGLIMWFHYNSFQLLL
+- [W36.47] LGTLSMLLVMLQWWRDIVRESTFQGHHTPTVQKGLRYGMVLFITSEAFFFLGFFWAFF
+- [W36.48] HSSLAPTPELGGQWPPTGISPLNPLEVPLLNTAILLASGVTVTWAHHSIMEGNRKQAI
+- [W36.49] HALTTTILLGFYFTALQATEYYEAPFSIADGVYGSTFFIATGFHGLHVIIGSSFLLVC
+- [W36.50] LLRLINFHFTSNHHFGFEAAAWYWHFVDVIWLFLYMTIYWWGS"
+- [W36.51] 1 atggcccacc aagcacactc ctatcacata gtagacccca gcccctgacc catctttggc
+- [W36.52] 61 gcagcagccg ccctactcac tacctcagga cttattatat gattccatta caattccttc
+- [W36.53] 121 caacttctcc tcctaggtac actctctata cttctagtta tactacaatg atgacgagat
+- [W36.54] 181 atcgtacgag agagcacatt ccaaggccac cataccccca ccgtccaaaa aggcctacgg
+- [W36.55] 241 tacggaatag tcttatttat tacatccgaa gcgttcttct tcctaggatt cttttgagca
+- [W36.56] 301 ttcttccact ctagcttagc tcctacccca gaactaggtg gacaatgacc cccaacagga
+- [W36.57] 361 attagtccac ttaaccccct agaagtaccc ctactaaaca cagcaatcct actagcctca
+- [W36.58] 421 ggcgtcaccg taacatgagc acaccacagc atcatagaag gcaaccgaaa acaagcaatc
+- [W36.59] 481 catgcactca ctacaaccat cctgctaggc ttctatttta cagcactaca agcaacagaa
+- [W36.60] 541 tactatgaag ctcccttttc aatcgccgac ggcgtgtacg gttcaacttt tttcattgcc
+- [W36.61] 601 acaggcttcc acggattaca cgtaatcatc ggatcctcct tcctactcgt ttgtctccta
+- [W36.62] 661 cgcctaatca acttccactt cacatctaac caccacttcg gattcgaagc agctgcatga
+- [W36.63] 721 tactggcact tcgtagatgt catctgacta ttcctctaca taactatcta ttgatgagga
+
+## [W37] NCBI RefSeq NC_024087.1: golden eagle mitochondrial COX3 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_024087.1 · Public domain · usage: ai_input, display
+
+- [W37.1] LOCUS       NC_024087                784 bp    DNA     linear   VRT 03-APR-2023
+- [W37.2] DEFINITION  Aquila chrysaetos mitochondrion, complete genome.
+- [W37.3] ACCESSION   NC_024087 REGION: 12353..13136
+- [W37.4] DBLINK      BioProject: PRJNA927338
+- [W37.5] SOURCE      mitochondrion Aquila chrysaetos (golden eagle)
+- [W37.6] ORGANISM  Aquila chrysaetos
+- [W37.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W37.8] Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+- [W37.9] Coelurosauria; Aves; Neognathae; Neoaves; Telluraves;
+- [W37.10] Accipitrimorphae; Accipitriformes; Accipitridae; Accipitrinae;
+- [W37.11] REFERENCE   1  (bases 1 to 784)
+- [W37.12] AUTHORS   Doyle,J.M., Katzner,T.E., Bloom,P.H., Ji,Y., Wijayawardena,B.K. and
+- [W37.13] TITLE     The Genome Sequence of a Widespread Apex Predator, the Golden Eagle
+- [W37.14] JOURNAL   PLoS ONE 9 (4), E95599 (2014)
+- [W37.15] REFERENCE   2  (bases 1 to 784)
+- [W37.16] CONSRTM   NCBI Genome Project
+- [W37.17] TITLE     Direct Submission
+- [W37.18] JOURNAL   Submitted (14-MAY-2014) National Center for Biotechnology
+- [W37.19] Information, NIH, Bethesda, MD 20894, USA
+- [W37.20] REFERENCE   3  (bases 1 to 784)
+- [W37.21] AUTHORS   Doyle,J.M., Katzner,T.E., Bloom,P.H., Ji,Y., Wijayawardena,B.K. and
+- [W37.22] TITLE     Direct Submission
+- [W37.23] JOURNAL   Submitted (25-NOV-2013) Department of Forestry and Natural
+- [W37.24] Resources, Purdue University, 715 W.
+- [W37.25] State Street, West Lafayette,
+- [W37.26] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W37.27] reference sequence is identical to KF905228.
+- [W37.28] Assembly Method       :: MITObim v.
+- [W37.29] Coverage              :: 39
+- [W37.30] Sequencing Technology :: Illumina
+- [W37.31] COMPLETENESS: full length.
+- [W37.32] FEATURES             Location/Qualifiers
+- [W37.33] /organism="Aquila chrysaetos"
+- [W37.34] /organelle="mitochondrion"
+- [W37.35] /db_xref="GeneID:19350846"
+- [W37.36] /product="ATP synthase F0 subunit 6"
+- [W37.37] /protein_id="YP_009029575.1"
+- [W37.38] /db_xref="GeneID:19350846"
+- [W37.39] /translation="MILNFFDQFTSPCLLGIPLILISMLFPTLLLPSPTNRWITNRLS
+- [W37.40] ALQLWFIHLVTKQLMLPLNKGGHKWALILVSLMTLLLTINLLGLLPYTFTPTTQLSMN
+- [W37.41] MALAFPLWLATLLTGLRNQPTASLGHLLPEGTPTPLVPALILIETISLLIRPLALGVR
+- [W37.42] LTANLTAGHLLIQLISTATTTLLPILPTVSALTALILLLLTILEIAVAMIQAYVFVLL
+- [W37.43] /db_xref="GeneID:19350847"
+- [W37.44] /note="TAA stop codon is completed by the addition of 3' A
+- [W37.45] /transl_except=(pos:13136,aa:TERM)
+- [W37.46] /product="cytochrome c oxidase subunit III"
+- [W37.47] /protein_id="YP_009029576.1"
+- [W37.48] /db_xref="GeneID:19350847"
+- [W37.49] /translation="MAHQAHSYHMVDPSPWPIFGAAAALLTTSGLIMWFHHNSSQLLS
+- [W37.50] MGILSMLLVMLQWWRDIVRESTFQGHHTPTVQKGLRYGMILFITSEAFFFLGFFWAFF
+- [W37.51] HSSLAPTPELGGQWPPAGINPLNPLEVPLLNTAILLASGVTVTWTHHSIMEGNRKQAT
+- [W37.52] HALSLTILLGFYFTALQAMEYYDAPFSIADSVYGSTFFVATGFHGLHVIIGSSFLSVC
+- [W37.53] LLRLINFHFTSNHHFGFEAAAWYWHFVDVIWLFLYMTIYWWGS"
+- [W37.54] 1 atggcccacc aagcacattc ctaccacata gtagacccta gcccctgacc tatcttcggc
+- [W37.55] 61 gctgcagctg ccctgctcac tacatccgga ctcatcatat gattccatca caactcctct
+- [W37.56] 121 caactcctgt ccataggcat tctctccata cttttagtca tactacaatg atgacgagac
+- [W37.57] 181 attgtacgag aaagcacatt ccaaggccac cacaccccca ctgtccaaaa aggcctgcga
+- [W37.58] 241 tatggaataa tcctattcat cacatccgaa gcattcttct tccttggctt cttttgagca
+- [W37.59] 301 ttctttcact ccagcctagc ccctacccca gaactaggcg gacagtggcc cccagcagga
+- [W37.60] 361 attaaccccc ttaatcccct agaagtccca ctactaaaca cggcaatcct cctcgcctca
+- [W37.61] 421 ggcgtcactg taacatgaac ccaccacagc atcatagaag gtaaccgaaa acaagcaacc
+- [W37.62] 481 cacgcactct ccctaactat cctcctcggt ttttatttca cagcactaca ggcaatagag
+- [W37.63] 541 tactacgatg cgccattttc aatcgccgat agcgtgtatg gttcaacctt cttcgtcgct
+- [W37.64] 601 acaggcttcc acggactcca cgtaatcatc ggatcctcct tcctatctgt ctgccttcta
+- [W37.65] 661 cgcctaatta atttccattt cacatctaac caccacttcg gattcgaagc agccgcctga
+- [W37.66] 721 tactggcact tcgttgatgt catctgatta ttcctctaca taacaatcta ctgatgagga
+
+## [W38] NCBI RefSeq NC_011944.1: thylacine mitochondrial 16S rRNA gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_011944.1 · Public domain · usage: ai_input, display
+
+- [W38.1] LOCUS       NC_011944               1567 bp    DNA     linear   MAM 03-APR-2023
+- [W38.2] DEFINITION  Thylacinus cynocephalus mitochondrion, complete genome.
+- [W38.3] ACCESSION   NC_011944 REGION: 2031..3597
+- [W38.4] DBLINK      BioProject: PRJNA927338
+- [W38.5] SOURCE      mitochondrion Thylacinus cynocephalus (Tasmanian wolf)
+- [W38.6] ORGANISM  Thylacinus cynocephalus
+- [W38.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W38.8] Mammalia; Metatheria; Dasyuromorphia; Thylacinidae; Thylacinus.
+- [W38.9] REFERENCE   1  (bases 1 to 1567)
+- [W38.10] AUTHORS   Miller,W., Drautz,D.I., Janecka,J.E., Lesk,A.M., Ratan,A.,
+- [W38.11] Tomsho,L.P., Packard,M., Zhang,Y., McClellan,L.R., Qi,J., Zhao,F.,
+- [W38.12] Gilbert,M.T., Dalen,L., Arsuaga,J.L., Ericson,P.G., Huson,D.H.,
+- [W38.13] Helgen,K.M., Murphy,W.J., Gotherstrom,A. and Schuster,S.C.
+- [W38.14] TITLE     The mitochondrial genome sequence of the Tasmanian tiger
+- [W38.15] REFERENCE   2  (bases 1 to 1567)
+- [W38.16] CONSRTM   NCBI Genome Project
+- [W38.17] TITLE     Direct Submission
+- [W38.18] JOURNAL   Submitted (22-JAN-2009) National Center for Biotechnology
+- [W38.19] Information, NIH, Bethesda, MD 20894, USA
+- [W38.20] REFERENCE   3  (bases 1 to 1567)
+- [W38.21] AUTHORS   Schuster,S.C. and Miller,W.
+- [W38.22] TITLE     Direct Submission
+- [W38.23] JOURNAL   Submitted (03-DEC-2008) Center for Comparative Genomics and
+- [W38.24] Bioinformatics, Penn State University, 310 Wartik Building,
+- [W38.25] University Park, PA 16803, USA
+- [W38.26] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W38.27] reference sequence was derived from FJ515780.
+- [W38.28] COMPLETENESS: full length.
+- [W38.29] FEATURES             Location/Qualifiers
+- [W38.30] /organism="Thylacinus cynocephalus"
+- [W38.31] /organelle="mitochondrion"
+- [W38.32] /specimen_voucher="USNM number 125345 (skin)/49724(skull)"
+- [W38.33] /tissue_type="0.01 gram of hair from the right side of the
+- [W38.34] skin and from the hair tufts between the toes on the right
+- [W38.35] hindfoot, without appreciable damage to the skin"
+- [W38.36] 1 gctaaaccta gtcctaccat taaacaactt aactatatcc aataatactc caaatcattt
+- [W38.37] 61 aatagactaa gtataggtga tagaacagaa ttataaggaa cgataacgac agtaccgcaa
+- [W38.38] 121 gggaaatttg aaatattatt attttcaagc aatagaaagc aaagattcag ccttgtacct
+- [W38.39] 181 tttgtataat gatttagcta gtcaacacgg acaaaaagaa tttaagcccg tcttcccgaa
+- [W38.40] 241 attaagtgag ctattatagg actgttggca gaactaactc gtctatgtgg caaaatagtg
+- [W38.41] 301 agatgatctt ataatagagg tgataagcct atcgaactta aggatagctg gttgtccaaa
+- [W38.42] 361 acacgaattt aagttcgaat ttaaatttaa ctaaagtata tgcaaacaca acttaaattt
+- [W38.43] 421 aaattataat caaaaggggg acaacccttt tgacatgaag acaaacttta acagagggta
+- [W38.44] 481 atgaaaacct aacaaagcat agtaggccta gaagcagcca tcaattaaga tagcgttaaa
+- [W38.45] 541 gctcaaatta aactaatatt aaatacctat aatttatcaa aacccctaat ctaatattgg
+- [W38.46] 601 acaattctat aattttatag aagatataat gctaatatta gtaacatgaa ctaatttctc
+- [W38.47] 661 ctagcataga cttaaactca gttcggaagc accactagta attaacaaac aaaataatta
+- [W38.48] 721 aacccataat caagttttat atttattcta ttgttaaccc aacacaggca tgcataaatg
+- [W38.49] 781 gaaagattaa aaggaataaa aggaactcgg caaacaaaaa ccccgcctgt ttaccaaaaa
+- [W38.50] 841 catcacctct agcattacca gtattagagg cactgcctgc ccggtgagtt ataactttaa
+- [W38.51] 901 cggccgcggt atcctgaccg tgcaaaggta gcataatcac ttgtctttta aatagagact
+- [W38.52] 961 agtatgaatg gcatgacgag ggtttatctg tctcttattt ctaatcagtg aaattgacct
+- [W38.53] 1021 tcccgtgaag aggcgggaat atctatacaa gacgagaaga ccctgcggag cttaagacac
+- [W38.54] 1081 ctaactcaac tattaccctt ataccctaaa ggaacaaaag gtaaaccaac tgagttaaag
+- [W38.55] 1141 tctttggttg gggtgacctc ggagcataaa agaacctccg aatgattaat aaccaagatt
+- [W38.56] 1201 tacttttcta agtgtataac taccagtaat tgacccatca attgatcaac gaaataagtt
+- [W38.57] 1261 accccaggga taacagcgct atcctattca agagcccata tcgaaaatta gggtttacga
+- [W38.58] 1321 cctcgatgtt ggatcaggac tcccaaatgg tgcagaagct attaacggtt cgtttgttca
+- [W38.59] 1381 acgattaaag tcctacgtga tctgagttca gaccggagaa atccaggtcg gtttctatct
+- [W38.60] 1441 gtaatttact cctcccagta cgaaaggaca agagaagtag ggcctacact gcaagcaagc
+- [W38.61] 1501 cctagagcca aaatatgaac taatctaaat attataactt tatttattcc aacctaagaa
+
+## [W39] NCBI RefSeq NC_011949.1: numbat mitochondrial 16S rRNA gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_011949.1 · Public domain · usage: ai_input, display
+
+- [W39.1] LOCUS       NC_011949               1576 bp    DNA     linear   MAM 03-APR-2023
+- [W39.2] DEFINITION  Myrmecobius fasciatus mitochondrion, complete genome.
+- [W39.3] ACCESSION   NC_011949 REGION: 1260..2835
+- [W39.4] DBLINK      BioProject: PRJNA927338
+- [W39.5] SOURCE      mitochondrion Myrmecobius fasciatus (numbat)
+- [W39.6] ORGANISM  Myrmecobius fasciatus
+- [W39.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W39.8] Mammalia; Metatheria; Dasyuromorphia; Myrmecobiidae; Myrmecobius.
+- [W39.9] REFERENCE   1  (bases 1 to 1576)
+- [W39.10] AUTHORS   Miller,W., Drautz,D.I., Janecka,J.E., Lesk,A.M., Ratan,A.,
+- [W39.11] Tomsho,L.P., Packard,M., Zhang,Y., McClellan,L.R., Qi,J., Zhao,F.,
+- [W39.12] Gilbert,M.T., Dalen,L., Arsuaga,J.L., Ericson,P.G., Huson,D.H.,
+- [W39.13] Helgen,K.M., Murphy,W.J., Gotherstrom,A. and Schuster,S.C.
+- [W39.14] TITLE     The mitochondrial genome sequence of the Tasmanian tiger
+- [W39.15] REFERENCE   2  (bases 1 to 1576)
+- [W39.16] CONSRTM   NCBI Genome Project
+- [W39.17] TITLE     Direct Submission
+- [W39.18] JOURNAL   Submitted (22-JAN-2009) National Center for Biotechnology
+- [W39.19] Information, NIH, Bethesda, MD 20894, USA
+- [W39.20] REFERENCE   3  (bases 1 to 1576)
+- [W39.21] AUTHORS   Schuster,S.C. and Miller,W.
+- [W39.22] TITLE     Direct Submission
+- [W39.23] JOURNAL   Submitted (03-DEC-2008) Center for Comparative Genomics and
+- [W39.24] Bioinformatics, Penn State University, 310 Wartik Building,
+- [W39.25] University Park, PA 16803, USA
+- [W39.26] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W39.27] reference sequence was derived from FJ515782.
+- [W39.28] COMPLETENESS: full length.
+- [W39.29] FEATURES             Location/Qualifiers
+- [W39.30] /organism="Myrmecobius fasciatus"
+- [W39.31] /organelle="mitochondrion"
+- [W39.32] /specimen_voucher="DEC Donnelly District specimen number
+- [W39.33] /geo_loc_name="Australia: Western Australia, 30 km
+- [W39.34] northeast of Manjimup, 700 meters north of Eclipse Road on
+- [W39.35] Corbalup Road, within the Corbal forest block in the
+- [W39.36] Greater Kingston National Park"
+- [W39.37] /lat_lon="34.1375 S 116.4583 E"
+- [W39.38] /collection_date="28-Nov-2004"
+- [W39.39] 1 gccatatcat agtcctaaaa ttaaatatct aactaaacta tattaaataa tctccaaaac
+- [W39.40] 61 atttaattat cacagtatag gcgatagaac agaaaacctt aaggcactat agcgacagta
+- [W39.41] 121 ccgcaaggga acattgaaat actcttattt aagcaataaa aagcaaagac taaacctcgt
+- [W39.42] 181 accttttgca taatgattta gctagtcatt ccggacaaaa agaatttaag cccgtttccc
+- [W39.43] 241 cgaaattaag tgagctatta taaaacagtt atcagaacga actcgtctat gtggcaaaat
+- [W39.44] 301 agtgagatga ttttataata gcggtgaaaa gcctaccgaa cttaaggata gctggttgtc
+- [W39.45] 361 caaaaaatga atttaagttc aactttaaat ctaatcaaag taccatcaaa cataacttaa
+- [W39.46] 421 atttaaaaga tactcataag ggggacaact cttatgatac gtaaacaaac tttcttagag
+- [W39.47] 481 ggtaatgaat tactacaaat aaaacattgt gggcctaaaa gcagccatca attaagaaag
+- [W39.48] 541 cgttaaagct caaatctaac acacacttaa taccaataag ctaacaaaac ccctaaacca
+- [W39.49] 601 atattggaca attctattat tatatagaag atataatgct aatatgagta acatgatata
+- [W39.50] 661 catatctcct tgcataagct cataacagac aggaaacacc cgctcaactc taacaaacaa
+- [W39.51] 721 atagtaaaac ccacacacta gaagtctatc acacctattg ttaacccgac acaggcatgc
+- [W39.52] 781 attaaggaaa gattaaaagg aataaaagga actcggcaaa caaaaacccc gcctgtttac
+- [W39.53] 841 caaaaacatc acctctagca ctgactagta ttagaggcac tgcctgcccg gtgagttatt
+- [W39.54] 901 actttaacgg ccgcggtatc ctgaccgtgc aaaggtagca taatcacttg tcttttaaat
+- [W39.55] 961 agagactagt atgaatggca taacgagggt ttaactgtct cttattcccc atcagtgaaa
+- [W39.56] 1021 ttgaccttcc cgtgcagagg cgggaataat gatacaagac gagaagaccc tgtggagctt
+- [W39.57] 1081 aaggcacata tctcaacaca tacgctacta cacacctaag ggaccaaaca gtatattaac
+- [W39.58] 1141 tgagatatag cctttggttg gggtgacctc ggagcacaaa aaaacctccg aatgatataa
+- [W39.59] 1201 cctagattca accaatctaa gtgtattact accagtaatt gacccatatt ttgatcaacg
+- [W39.60] 1261 gaacaagtta ccccagggat aacagcgcaa tcctatttga gagcccatat cgaaaatcag
+- [W39.61] 1321 ggtttacgac ctcgatgttg gatcaggaca tcccaatggt gtagaagcta ttaatggttc
+- [W39.62] 1381 gtttgttcaa cgattaaagt cctacgtgat ctgagttcag accggagaaa tccaggtcgg
+- [W39.63] 1441 tttctatctg taacttaatt tctcccagta cgaaaggaca agagaaatgg ggtcaatatt
+- [W39.64] 1501 ataaacaaac cctagaatca acatatgaac ccatcttaat attttaattc aatacgttac
+
+## [W40] NCBI RefSeq NC_067757.1: golden jackal mitochondrial 16S rRNA gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_067757.1 · Public domain · usage: ai_input, display
+
+- [W40.1] LOCUS       NC_067757               1578 bp    DNA     linear   MAM 03-APR-2023
+- [W40.2] DEFINITION  Canis aureus isolate 1886-Antalya voucher 1886_CaAu mitochondrion,
+- [W40.3] ACCESSION   NC_067757 REGION: 1091..2668
+- [W40.4] DBLINK      BioProject: PRJNA927338
+- [W40.5] SOURCE      mitochondrion Canis aureus (golden jackal)
+- [W40.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W40.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+- [W40.8] REFERENCE   1  (bases 1 to 1578)
+- [W40.9] AUTHORS   Sosale,M.S., Songsasen,N., Ibis,O., Edwards,C., Koepfli,K.-P. and
+- [W40.10] TITLE     The complete mitochondrial genome of the Indochinese jackal (Canis
+- [W40.11] aureus cruesemanni) and its relationship to other subspecies of
+- [W40.12] REFERENCE   2  (bases 1 to 1578)
+- [W40.13] CONSRTM   NCBI Genome Project
+- [W40.14] TITLE     Direct Submission
+- [W40.15] JOURNAL   Submitted (12-NOV-2022) National Center for Biotechnology
+- [W40.16] Information, NIH, Bethesda, MD 20894, USA
+- [W40.17] REFERENCE   3  (bases 1 to 1578)
+- [W40.18] AUTHORS   Sosale,M.S., Songsasen,N., Ibis,O., Edwards,C., Koepfli,K.-P. and
+- [W40.19] TITLE     Direct Submission
+- [W40.20] JOURNAL   Submitted (30-AUG-2022) Erciyes University, Talas, Kayseri, Kayseri
+- [W40.21] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W40.22] The reference sequence is identical to OP345200.
+- [W40.23] COMPLETENESS: full length.
+- [W40.24] FEATURES             Location/Qualifiers
+- [W40.25] /organelle="mitochondrion"
+- [W40.26] /specimen_voucher="1886_CaAu"
+- [W40.27] /collection_date="26-Jul-2021"
+- [W40.28] /collected_by="Osman IBIS"
+- [W40.29] /identified_by="Osman IBIS"
+- [W40.30] /db_xref="GeneID:76332354"
+- [W40.31] /product="16S ribosomal RNA"
+- [W40.32] /db_xref="GeneID:76332354"
+- [W40.33] 1 acaaaagcta gcccaactaa ccccaaactt aagtatcaca gacatataaa gtaaaacatt
+- [W40.34] 61 tagttaaata ataaaagtat aggagataga aattttaatt ggagcgatag agatagtacc
+- [W40.35] 121 gtaagggaat gatgaaagac atcttaacag tattaaacag caaagattac cccttttacc
+- [W40.36] 181 ttttgcataa tgaactagcc agaaacgact taacaaagag aacttaagct aagctccccg
+- [W40.37] 241 aaaccagacg agctacccat aaacaatcta aaaggatcaa ctcatctatg tagcaaaata
+- [W40.38] 301 gtgagaagat ttgtgggtag aggtgaaaag cctaacgagc ctggtgatag ctggttgccc
+- [W40.39] 361 acaaacagaa ttttagttca actttaaatt tacctaaaaa aaacaaaatt ttaatgtaaa
+- [W40.40] 421 tttaaaatat agtctaagaa ggtacagctt cttagaatca ggatacaacc tttattagag
+- [W40.41] 481 agtatatact aacatcacca tagttggctt aaaagcagcc accaattgag aaagcgttcc
+- [W40.42] 541 agctcaacaa acaatataac ttaatcccaa tcatattaca tcaactccta attatacctc
+- [W40.43] 601 ctgggccatt ctatttaaat atagaagcaa caatgctagt atgagtaaca agaactattt
+- [W40.44] 661 tctccccgca taagcttata tcagaaacgg atagaccact gatagttaac aatctgataa
+- [W40.45] 721 tatcaaccca aaaatgaaat acttatctac cctattgtta acccaacaca ggcatgcatt
+- [W40.46] 781 taaggaaaga ttaaaaggag taaaaggaac tcggcaaaca caaaccccgc ctgtttacca
+- [W40.47] 841 aaaacatcac ctccagcatt tctagtattg gaggcactgc ctgcccagtg acacttgttt
+- [W40.48] 901 aacggccgcg gtatcctgac cgtgcaaagg tagcataatc atttgttctc taaataagga
+- [W40.49] 961 cttgtatgaa tggccacacg agggtttaac tgtctcttac tcccaatcag tgaaattgac
+- [W40.50] 1021 cttcccgtga agaggcggga atgccacaat aagacgagaa gaccctatgg agctttaatt
+- [W40.51] 1081 aactaaccca aacttatgga tactaaatac ctacaaggca taacattaca ccattattgt
+- [W40.52] 1141 gggttagcaa tttaggttgg ggtgacctcg gaatataaaa aaactcccga gtgattaaaa
+- [W40.53] 1201 tttagaccca caagtcaaaa tataacatca cttattgatc caataatttt tgatcaacgg
+- [W40.54] 1261 aacaagttac cctagggata acagcgcaat cctattcaag agtccatatc gacaataggg
+- [W40.55] 1321 tttacgacct cgatgttgga tcaggacatc ctaatggtgc agcagctatt aagggttcgt
+- [W40.56] 1381 ttgttcaacg attaaagtcc tacgtgatct gagttcagac cggagtaatc caggtcggtt
+- [W40.57] 1441 tctatctatt atataacctc ccccagtacg aaaggacaag ggatgtaagg cctacctcac
+- [W40.58] 1501 aaaggcgcct taaaactaat agatgaagtc aactcaatct aaccagttta tctcctcata
+
+## [W41] NCBI RefSeq NC_008133.1: koala mitochondrial 16S rRNA gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_008133.1 · Public domain · usage: ai_input, display
+
+- [W41.1] LOCUS       NC_008133               1573 bp    DNA     linear   MAM 03-APR-2023
+- [W41.2] DEFINITION  Phascolarctos cinereus mitochondrion, complete genome.
+- [W41.3] ACCESSION   NC_008133 REGION: 1091..2663
+- [W41.4] DBLINK      BioProject: PRJNA927338
+- [W41.5] SOURCE      mitochondrion Phascolarctos cinereus (koala)
+- [W41.6] ORGANISM  Phascolarctos cinereus
+- [W41.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W41.8] Mammalia; Metatheria; Diprotodontia; Phascolarctidae;
+- [W41.9] REFERENCE   1  (bases 1 to 1573)
+- [W41.10] AUTHORS   Munemasa,M., Nikaido,M., Donnellan,S., Austin,C.C., Okada,N. and
+- [W41.11] TITLE     Phylogenetic analysis of diprotodontian marsupials based on
+- [W41.12] complete mitochondrial genomes
+- [W41.13] REFERENCE   2  (bases 1 to 1573)
+- [W41.14] CONSRTM   NCBI Genome Project
+- [W41.15] TITLE     Direct Submission
+- [W41.16] JOURNAL   Submitted (12-JUN-2006) National Center for Biotechnology
+- [W41.17] Information, NIH, Bethesda, MD 20894, USA
+- [W41.18] REFERENCE   3  (bases 1 to 1573)
+- [W41.19] AUTHORS   Munemasa,M., Nikaido,M., Donnellan,S., Austin,C.C., Okada,N. and
+- [W41.20] TITLE     Direct Submission
+- [W41.21] JOURNAL   Submitted (08-NOV-2005) Tokyo Institute of Technology, Graduate
+- [W41.22] School of Bioscience and Biotechnology; Nagatsuta-cho 4259-B-21,
+- [W41.23] Midori-ku, Kanagawa 226-8501, Japan
+- [W41.24] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W41.25] reference sequence was derived from AB241053.
+- [W41.26] COMPLETENESS: full length.
+- [W41.27] FEATURES             Location/Qualifiers
+- [W41.28] /organism="Phascolarctos cinereus"
+- [W41.29] /organelle="mitochondrion"
+- [W41.30] /db_xref="GeneID:64987218"
+- [W41.31] /db_xref="GeneID:64987218"
+- [W41.32] 1 gccaatataa gcccatccac taactaatac aactatatta aatttctacc aaaacattca
+- [W41.33] 61 attcatccta gtataggaga tagaacagat aaaaaggcgc attaatgata gtaccgcaag
+- [W41.34] 121 ggaaacctga aagataagat tataagcacc acaaagcaaa gattcaacct tctacctttt
+- [W41.35] 181 gcataatggt ttagctagtc aactcggaca aaaagaacta tgcccgtcct cccgaaatca
+- [W41.36] 241 agtgagctac tacaagacag caactagagc caactcgtct atgtagcaaa atagtgagaa
+- [W41.37] 301 gatcttatag tagaggtgaa aagcctatcg aacttgagga tagctggtta tccaaaacac
+- [W41.38] 361 gaatataagt tcaactttaa atttaaccaa agtaatcata aacataattt aaatttaaaa
+- [W41.39] 421 gctaatctaa agggggacaa ctctttagat ccagtaaaca aacttccata gaggataatg
+- [W41.40] 481 aaccatatac aactcatagt tggcttaaaa gcagccacca attaagaaag cgttaaagct
+- [W41.41] 541 caaatacaca atatcatttt aatccctaaa atataatcaa aatccctatc tctaaattgg
+- [W41.42] 601 ataattctat aaatatatag aagctataat gctaaaatta gtaacaagaa acatttctcc
+- [W41.43] 661 ctgcacaagc ctacattaga aacggaacaa ccactaacaa ttaacaaact aataaacata
+- [W41.44] 721 actaaacgac tagaaagcta ttaaccatat tgtcaaccca acacaggagt gcaacccaag
+- [W41.45] 781 ggaaagatta aaaggaataa aaggaactcg gcaagtacat ataaccccgc ctgtttacca
+- [W41.46] 841 aaaacatcac ctctagcata acaaatatta gaggcaacgc ctgcccagtg agttaaactt
+- [W41.47] 901 taacggccgc ggtatactga ccgtgcaaag gtagcataat cacctgtcct ctaaataggg
+- [W41.48] 961 acttgtatga atggcatcac gagggcctaa ctgtctccta ttcccaatca gtgaaattga
+- [W41.49] 1021 ccttcccgtg cagaggcggg aataatacta caagacgaga agaccctgtg gagcttaaga
+- [W41.50] 1081 ttaataactt aacccaatct taatactacc ctaatggcat aacaacacta tatactaagt
+- [W41.51] 1141 tataatcttt ggttggggtg acctcggaga acaaaataac ctccgaatga ctaaacccag
+- [W41.52] 1201 attaacatac ctaagtatga caacatcagt aattgaccca tattttgatc aacggaacaa
+- [W41.53] 1261 gttaccccag ggataacagc gcaatcctat taaagagacc atatcgacaa tcagggttta
+- [W41.54] 1321 cgacctcgat gttggatcag gacatccaaa tggtgcagcc gctattaatg gttcgtttgt
+- [W41.55] 1381 tcaacgatta aagtcctacg tgatctgagt tcagaccgga gcaatccagg tcggtttcta
+- [W41.56] 1441 tctgtatatt cattactccc agtacgaaag gacaagagaa ataaggctaa tattaacaga
+- [W41.57] 1501 caagcctcag agataaggta tgaaaccatc tcaataccat aactcaataa ctttattctc
+
+## [W42] NCBI RefSeq NC_012059.1: bottlenose dolphin mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_012059.1 · Public domain · usage: ai_input, display
+
+- [W42.1] LOCUS       NC_012059               1042 bp    DNA     linear   MAM 07-JUL-2023
+- [W42.2] DEFINITION  Tursiops truncatus mitochondrion, complete genome.
+- [W42.3] ACCESSION   NC_012059 REGION: 3937..4978
+- [W42.4] DBLINK      BioProject: PRJNA927338
+- [W42.5] SOURCE      mitochondrion Tursiops truncatus (common bottlenose dolphin)
+- [W42.6] ORGANISM  Tursiops truncatus
+- [W42.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W42.8] Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha;
+- [W42.9] Cetacea; Odontoceti; Delphinidae; Tursiops.
+- [W42.10] REFERENCE   1  (bases 1 to 1042)
+- [W42.11] AUTHORS   Xiong,Y., Brandley,M.C., Xu,S., Zhou,K. and Yang,G.
+- [W42.12] TITLE     Seven new dolphin mitochondrial genomes and a time-calibrated
+- [W42.13] REFERENCE   2  (bases 1 to 1042)
+- [W42.14] CONSRTM   NCBI Genome Project
+- [W42.15] TITLE     Direct Submission
+- [W42.16] JOURNAL   Submitted (06-FEB-2009) National Center for Biotechnology
+- [W42.17] Information, NIH, Bethesda, MD 20894, USA
+- [W42.18] REFERENCE   3  (bases 1 to 1042)
+- [W42.19] AUTHORS   Yang,G., Xiong,Y. and Xu,S.
+- [W42.20] TITLE     Direct Submission
+- [W42.21] JOURNAL   Submitted (10-MAR-2008) College of Life Sciences, Nanjing Normal
+- [W42.22] University, 1 Wenyuan Road, Nanjing, Jiangsu 210046, The People's
+- [W42.23] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W42.24] reference sequence was derived from EU557093.
+- [W42.25] COMPLETENESS: full length.
+- [W42.26] FEATURES             Location/Qualifiers
+- [W42.27] /organism="Tursiops truncatus"
+- [W42.28] /organelle="mitochondrion"
+- [W42.29] /note="TAA stop codon is completed by the addition of 3' A
+- [W42.30] /transl_except=(pos:4978,aa:TERM)
+- [W42.31] /product="NADH dehydrogenase subunit 2"
+- [W42.32] /protein_id="YP_002587061.1"
+- [W42.33] /translation="MNPFVSITLLTTLILSTTIVTISSHWLFAWIGLEMNMMAIIPIM
+- [W42.34] MKKPNPRATEASAKYFLTQATASSLLMLAIIINLMHSSQWTIMKLFDPTASILMTMAL
+- [W42.35] AIKLGLSPFHFWVPEVTQGVPLSTGLILLTWQKLAPISILYQISPSINLPLMITMSFL
+- [W42.36] SILIGGWGGLNQTQLRKIMAYSSIAHMGWMTAILLYNPALTLLNLLIYIVMTFTMFML
+- [W42.37] LIQNSTTTTLLLSQTWNTTPVMTTFTMLTLLSMGGLPPLTGFMPKWMIIQELTKNDTL
+- [W42.38] ILPTLMAITALLNLYFYMRLTYSTALTLFPSTNNMKMKWQFYPTKRMTLLPTAIVLST
+- [W42.39] 1 attaacccat tcgtctctat caccctacta acaaccctca tcctaagcac aacaattgtc
+- [W42.40] 61 actattagct cccattgatt gttcgcctga atcggactag aaataaacat aatagctatt
+- [W42.41] 121 atccccatca taataaaaaa gcctaacccc cgagccacag aagcctcagc caaatacttt
+- [W42.42] 181 ctaacacaag ccacagcatc ctcattactc atactagcaa ttattattaa cctaatacac
+- [W42.43] 241 tccagccaat gaaccatcat aaaattattc gacccaacag catccatcct aataacaata
+- [W42.44] 301 gctttagcca ttaaactagg attatcccct tttcactttt gagtaccaga agttacacaa
+- [W42.45] 361 ggtgttcccc taagcacagg actaattcta cttacgtgac aaaaactcgc acccatctca
+- [W42.46] 421 atcctttatc aaatttcacc atcaatcaat ctacccctaa taattactat atcctttcta
+- [W42.47] 481 tcgattctaa tcggaggctg aggtggacta aaccaaacgc aactccgaaa aatcatagcc
+- [W42.48] 541 tactcatcaa ttgctcacat aggatgaata accgctattt tattatacaa cccagccctc
+- [W42.49] 601 accctactaa atctattaat ttacattgta ataaccttca ccatatttat gctacttatc
+- [W42.50] 661 caaaactcca ctaccaccac actactacta tcccaaacat gaaatacaac acctgttata
+- [W42.51] 721 acaaccttta ctatactcac cctactctcc ataggaggac ttcctccact cacaggcttt
+- [W42.52] 781 atacccaaat gaataattat tcaagaacta acaaaaaacg ataccctcat cctacccacc
+- [W42.53] 841 ctcatagcca tcacagctct actcaaccta tacttttata tacgccttac ctactctaca
+- [W42.54] 901 gcactaaccc tatttccctc caccaataac ataaaaataa aatgacaatt ctaccctaca
+- [W42.55] 961 aaacgaataa ccctcctacc aacagcaatc gtactatcca caatactcct acccctcaca
+- [W42.56] 1021 ccagcattct ttatcctact at
+
+## [W43] NCBI RefSeq NC_000889.1: common hippopotamus mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_000889.1 · Public domain · usage: ai_input, display
+
+- [W43.1] LOCUS       NC_000889               1044 bp    DNA     linear   MAM 03-APR-2023
+- [W43.2] DEFINITION  Hippopotamus amphibius mitochondrion, complete genome.
+- [W43.3] ACCESSION   NC_000889 REGION: 3914..4957
+- [W43.4] DBLINK      BioProject: PRJNA927338
+- [W43.5] SOURCE      mitochondrion Hippopotamus amphibius (hippopotamus)
+- [W43.6] ORGANISM  Hippopotamus amphibius
+- [W43.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W43.8] Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha;
+- [W43.9] Ancodonta; Hippopotamidae; Hippopotamus.
+- [W43.10] REFERENCE   1  (bases 1 to 1044)
+- [W43.11] AUTHORS   Ursing,B.M. and Arnason,U.
+- [W43.12] TITLE     Analyses of mitochondrial genomes strongly support a
+- [W43.13] 265 (1412), 2251-2255 (1998)
+- [W43.14] REFERENCE   2  (bases 1 to 1044)
+- [W43.15] CONSRTM   NCBI Genome Project
+- [W43.16] TITLE     Direct Submission
+- [W43.17] JOURNAL   Submitted (08-SEP-1999) National Center for Biotechnology
+- [W43.18] Information, NIH, Bethesda, MD 20894, USA
+- [W43.19] REFERENCE   3  (bases 1 to 1044)
+- [W43.20] TITLE     Direct Submission
+- [W43.21] JOURNAL   Submitted (04-SEP-1998) Ursing B.M., Division of Evolutionary
+- [W43.22] Molecular Systematics, Department of Genetics, Solvegatan 29, S-223
+- [W43.23] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W43.24] The reference sequence was derived from AJ010957.
+- [W43.25] COMPLETENESS: full length.
+- [W43.26] FEATURES             Location/Qualifiers
+- [W43.27] /organism="Hippopotamus amphibius"
+- [W43.28] /organelle="mitochondrion"
+- [W43.29] /product="NADH dehydrogenase subunit 2"
+- [W43.30] /translation="MNPFVSVIIYTTIILGTMIVMTSSHWLLTWTGFEMNMLAIIPIM
+- [W43.31] MKSPNPRATEASVKYFMTQATASMLLMLAVIINLLYSGQWTVMKMLNPTASMIMTMAL
+- [W43.32] AMKLGLSPFHFWVPEVTQGVPLTAGLILLTWQKLAPLSILYQISPSINPNLILTMSML
+- [W43.33] SILVGGWGGLNQTQLRKIMAYSSIAHMGWMAAILIYNPTMTILNLTIYLMTTFTMFTM
+- [W43.34] FALNSTTTTLSLSHTWNKTPIITTLMLTILLSMGGLPPLTGFVPKWMIIQEMTKNDSI
+- [W43.35] ILPTLMAIMALLNLYFYMRLTYSTTLTMFPSSNNMKMKWQFEASKHKTLLPTMIILST
+- [W43.36] tRNA            1043..>1044
+- [W43.37] 1 ataaatccct tcgtctctgt cattatctac acaaccatca tcctggggac cataattgta
+- [W43.38] 61 ataactagct ctcactgact attaacttga accgggttcg aaataaacat gctagctatt
+- [W43.39] 121 atccccatca taatgaaatc acccaaccca cgagccacag aagcctccgt taaatacttc
+- [W43.40] 181 ataacccaag ccaccgcctc catgctactc atactagcag tcattatcaa cctactatac
+- [W43.41] 241 tccggacaat gaacagtcat aaaaatactt aatccaacag catctataat tataacgata
+- [W43.42] 301 gctcttgcca taaaattagg actatccccc ttccacttct gagtccctga agtaacacaa
+- [W43.43] 361 ggcgtcccct taacagcagg cttaatctta ctgacatgac aaaaactcgc acccctatcc
+- [W43.44] 421 attctctacc aaatctcccc atcaatcaat ccaaacctaa tcctaactat atcaatgcta
+- [W43.45] 481 tccatcctag tcggcggatg aggcgggcta aaccaaactc aattacgaaa aatcatagcg
+- [W43.46] 541 tactcatcta ttgcccatat ggggtggata gcagccatcc taatctacaa cccaaccata
+- [W43.47] 601 accatcctaa acctaacaat ctacctcata acaaccttca caatatttac aatattcgca
+- [W43.48] 661 ctcaactcaa ccaccactac cctttcccta tcacacacat gaaacaaaac ccccattatt
+- [W43.49] 721 acaaccctta tactcactat tctactatca ataggaggac tacccccact aacaggcttc
+- [W43.50] 781 gtgccaaaat gaataatcat ccaagaaata acaaaaaacg atagcattat cctacccaca
+- [W43.51] 841 ctaatagcca tcatagcact cctcaaccta tatttctaca tacgactcac ctactctaca
+- [W43.52] 901 acactaacca tatttccttc ctcaaacaac ataaaaataa aatgacaatt tgaagcctca
+- [W43.53] 961 aaacacaaaa cactcctgcc aacaataatc atcctctcca ccatactcct tcccctcaca
+- [W43.54] 1021 ccaatactag tagtactaga ctag
+
+## [W44] NCBI RefSeq NC_022415.1: great white shark mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_022415.1 · Public domain · usage: ai_input, display
+
+- [W44.1] LOCUS       NC_022415               1044 bp    DNA     linear   VRT 03-APR-2023
+- [W44.2] DEFINITION  Carcharodon carcharias mitochondrion, complete genome.
+- [W44.3] ACCESSION   NC_022415 REGION: 4028..5071
+- [W44.4] DBLINK      BioProject: PRJNA927338
+- [W44.5] SOURCE      mitochondrion Carcharodon carcharias (great white shark)
+- [W44.6] ORGANISM  Carcharodon carcharias
+- [W44.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Chondrichthyes;
+- [W44.8] Elasmobranchii; Galeomorphii; Galeoidea; Lamniformes; Lamnidae;
+- [W44.9] REFERENCE   1  (bases 1 to 1044)
+- [W44.10] AUTHORS   Chang,C.H., Shao,K.T., Lin,Y.S., Fang,Y.C. and Ho,H.C.
+- [W44.11] TITLE     The complete mitochondrial genome of the great white shark,
+- [W44.12] Carcharodon carcharias (Chondrichthyes, Lamnidae)
+- [W44.13] JOURNAL   Mitochondrial DNA 25 (5), 357-358 (2014)
+- [W44.14] REFERENCE   2  (bases 1 to 1044)
+- [W44.15] CONSRTM   NCBI Genome Project
+- [W44.16] TITLE     Direct Submission
+- [W44.17] JOURNAL   Submitted (26-JUN-2017) National Center for Biotechnology
+- [W44.18] Information, NIH, Bethesda, MD 20894, USA
+- [W44.19] REFERENCE   3  (bases 1 to 1044)
+- [W44.20] TITLE     Direct Submission
+- [W44.21] JOURNAL   Submitted (17-APR-2013) Biodiversity Research Center, Academia
+- [W44.22] Sinica, 128 Academia Road Sec.
+- [W44.23] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W44.24] The reference sequence is identical to KC914387.
+- [W44.25] Sequencing Technology :: Sanger dideoxy sequencing
+- [W44.26] COMPLETENESS: full length.
+- [W44.27] FEATURES             Location/Qualifiers
+- [W44.28] /organism="Carcharodon carcharias"
+- [W44.29] /organelle="mitochondrion"
+- [W44.30] /db_xref="GeneID:17046286"
+- [W44.31] /product="NADH dehydrogenase subunit 2"
+- [W44.32] /protein_id="YP_008578239.1"
+- [W44.33] /db_xref="GeneID:17046286"
+- [W44.34] /translation="MNPLVLTIIISSLGLGTILTFISSHWLLVWMGLEINTLAILPLM
+- [W44.35] IHQHHPRAVEASTKYFITQATASALLLFASATNAWTSGEWSLIEMINPGSATLATIAL
+- [W44.36] ALKIGLAPLHFWLPEVLQGLNLTTGLILSTWQKLAPFAVLLQLYPSLNPNLLIFLGML
+- [W44.37] STMVGGWGGLNQTQLRKILAYSSIAHLGWMVSILPYSYNLTQLNLILYIIMTSTTFLL
+- [W44.38] FKTLNSTKINSISSSSSKSPLLSIIALMTLLSLGGLPPLSGFMPKWLILQELTKQNLI
+- [W44.39] IPATVMAMTALLSLFFYLRLCYATTLTMSPAPINMLTSWRTKLSHNLILTTTASLSIF
+- [W44.40] 1 atgaatcccc ttgtattaac cattattatc tcaagcctag gtctaggaac tattctcaca
+- [W44.41] 61 ttcatcagct ctcactgact actagtctga ataggccttg aaatcaacac tctggccatc
+- [W44.42] 121 cttcctctaa taattcacca gcaccatcct cgcgcagtag aagcctcaac aaaatatttt
+- [W44.43] 181 attacacaag caaccgcctc agccctactt ctattcgcta gcgctacaaa cgcctgaacc
+- [W44.44] 241 tcaggcgaat gaagcctaat cgaaataatt aatccaggct ctgccacact ggccacaatc
+- [W44.45] 301 gcattagcat taaaaatcgg cttagctccc ctccatttct gactccccga agttcttcaa
+- [W44.46] 361 ggcctaaatc ttactacagg cctcatcctt tccacctgac aaaaacttgc accatttgcc
+- [W44.47] 421 gtcctcctac aactctatcc ctccttaaac cccaacctat taatttttct tgggatgctc
+- [W44.48] 481 tccaccatag tgggaggatg aggcggatta aatcaaaccc aactacgaaa aatcctagcc
+- [W44.49] 541 tactcctcaa ttgcccatct aggctgaata gtctccattc tcccctattc ctataattta
+- [W44.50] 601 acccaactta acttaattct ctatattatt ataacttcaa caaccttcct tctattcaaa
+- [W44.51] 661 acacttaact caaccaaaat taactctatc tcctcatctt catcaaaatc ccccttactt
+- [W44.52] 721 tccattattg ccctcataac cctcctctct cttggaggcc ttcctccctt atcaggcttt
+- [W44.53] 781 ataccaaagt gacttatctt acaagaacta accaaacaaa atttaattat ccccgctact
+- [W44.54] 841 gtcatggcca taacggccct cctcagtcta tttttttacc tacgtttatg ttatgctaca
+- [W44.55] 901 acactaacca tatcccccgc cccaattaat atattaacat catgacgaac caaattatcc
+- [W44.56] 961 cataacctga ttttaacaac cactgcctcc ctatctattt tcctcctccc aatcacccca
+- [W44.57] 1021 gccatcctca tactaatatc ctaa
+
+## [W45] NCBI RefSeq NC_001325.1: harbour seal mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001325.1 · Public domain · usage: ai_input, display
+
+- [W45.1] LOCUS       NC_001325               1044 bp    DNA     linear   MAM 03-APR-2023
+- [W45.2] DEFINITION  Phoca vitulina mitochondrion, complete genome.
+- [W45.3] ACCESSION   NC_001325 REGION: 4845..5888
+- [W45.4] DBLINK      BioProject: PRJNA927338
+- [W45.5] SOURCE      mitochondrion Phoca vitulina (harbor seal)
+- [W45.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W45.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+- [W45.8] Pinnipedia; Phocidae; Phocinae; Phoca.
+- [W45.9] REFERENCE   1  (bases 1 to 1044)
+- [W45.10] AUTHORS   Arnason,U. and Johnsson,E.
+- [W45.11] TITLE     The complete mitochondrial DNA sequence of the harbor seal, Phoca
+- [W45.12] REFERENCE   2  (bases 1 to 1044)
+- [W45.13] CONSRTM   NCBI Genome Project
+- [W45.14] TITLE     Direct Submission
+- [W45.15] JOURNAL   Submitted (15-MAR-2007) National Center for Biotechnology
+- [W45.16] Information, NIH, Bethesda, MD 20894, USA
+- [W45.17] REFERENCE   3  (bases 1 to 1044)
+- [W45.18] TITLE     Direct Submission
+- [W45.19] JOURNAL   Submitted (17-FEB-1992) Dept of Mol Genetics, Univ of Lund, Box
+- [W45.20] 7031, S-220 07 Lund, Sweden
+- [W45.21] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W45.22] The reference sequence was derived from X63726.
+- [W45.23] Users are requested to refer to the citation of this entry as well
+- [W45.24] as the accession number in their publications.
+- [W45.25] COMPLETENESS: full length.
+- [W45.26] FEATURES             Location/Qualifiers
+- [W45.27] /organism="Phoca vitulina"
+- [W45.28] /organelle="mitochondrion"
+- [W45.29] /product="NADH dehydrogenase subunit 2"
+- [W45.30] /db_xref="UniProtKB/Swiss-Prot:Q00540"
+- [W45.31] /translation="MKPPILIIIMSTVMSGTMIVLTSSHWLLTWIGFEMNMLAIIPIL
+- [W45.32] MKNHTPRATEASTKYFLTQATASMLLMMGIIINLMFSGEWTISKIPNPIASGLVTIAL
+- [W45.33] TMKLGMAPFHFWVPEVTQGISLSSGMILLTWQKIAPLSVLYQISPSINPKLLITMAIA
+- [W45.34] SVLIGGWGGLNQTQLRKILAYSSIAHMGWMTVILTYNPTLMVLNLTIYITMTLSTFML
+- [W45.35] FMHNSSTTTLSLSNTWNKLPLMTSLILMLMMSLGGLPPLSGFAPKWMIIQELTKNDMI
+- [W45.36] ILPTFMAITALLNLYFYMRLSYSTALTMFPSVNNMKMKWQFESAKKIILLPPLIIIST
+- [W45.37] gene            1043..>1044
+- [W45.38] /db_xref="GeneID:64984823"
+- [W45.39] tRNA            1043..>1044
+- [W45.40] /db_xref="GeneID:64984823"
+- [W45.41] 1 ataaaacccc ctattctcat catcattata tcaaccgtta tatcagggac cataatcgtc
+- [W45.42] 61 ctcacgagct cccattggct actgacctga attggctttg aaataaacat actagcgatt
+- [W45.43] 121 atcccaatcc tgataaaaaa ccatacccca cgagctacag aagcatccac aaaatatttc
+- [W45.44] 181 ctaacacagg ctaccgcatc tatactccta ataataggca ttattatcaa cctaatattc
+- [W45.45] 241 tcaggagaat gaacaatctc aaaaatcccc aaccctatcg catcaggcct agtaaccatt
+- [W45.46] 301 gctctaacaa taaaactcgg catagctcct ttccacttct gagtgcccga agtgacacaa
+- [W45.47] 361 ggaatctcac tatcttcagg cataattcta ctcacatgac aaaaaattgc accactatcc
+- [W45.48] 421 gttctctatc aaatttcacc atccattaac cccaaactat taattaccat agcaatcgca
+- [W45.49] 481 tccgtactga tcggaggctg aggaggacta aatcaaaccc aactccgaaa aatcctagcc
+- [W45.50] 541 tactcatcaa tcgcccatat aggatgaata actgtcatcc taacatacaa ccctacccta
+- [W45.51] 601 atagtcctaa acctcacaat ctacattaca ataaccctaa gcacattcat actatttatg
+- [W45.52] 661 cacaactcat ccacaacgac actatcacta tcgaacacat gaaataaact accgctcatg
+- [W45.53] 721 acatcgctga tcctaatact aataatatcg ctaggaggcc tcccacccct atcaggcttt
+- [W45.54] 781 gcacccaaat gaataatcat tcaagaacta acaaaaaacg atataattat tctaccaaca
+- [W45.55] 841 ttcatggcca tcacagcact attgaaccta tacttctaca tacgcttatc ctacagcaca
+- [W45.56] 901 gcactaacca tattcccctc agtaaacaac ataaaaataa aatgacagtt cgaaagtgca
+- [W45.57] 961 aaaaaaatca tcctcctacc accactaatc atcatctcaa ccatactact ccccataacc
+- [W45.58] 1021 ccaataatat ccatcttaga atag
+
+## [W46] NCBI RefSeq NC_009492.1: giant panda mitochondrial CYTB gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_009492.1 · Public domain · usage: ai_input, display
+
+- [W46.1] LOCUS       NC_009492               1140 bp    DNA     linear   MAM 03-APR-2023
+- [W46.2] DEFINITION  Ailuropoda melanoleuca mitochondrion, complete genome.
+- [W46.3] ACCESSION   NC_009492 REGION: 15529..16668
+- [W46.4] DBLINK      BioProject: PRJNA927338
+- [W46.5] SOURCE      mitochondrion Ailuropoda melanoleuca (giant panda)
+- [W46.6] ORGANISM  Ailuropoda melanoleuca
+- [W46.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W46.8] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Ursidae;
+- [W46.9] REFERENCE   1  (bases 1 to 1140)
+- [W46.10] AUTHORS   Peng,R., Zeng,B., Meng,X., Yue,B., Zhang,Z. and Zou,F.
+- [W46.11] TITLE     The complete mitochondrial genome and phylogenetic analysis of the
+- [W46.12] giant panda (Ailuropoda melanoleuca)
+- [W46.13] JOURNAL   Gene 397 (1-2), 76-83 (2007)
+- [W46.14] REFERENCE   2  (bases 1 to 1140)
+- [W46.15] CONSRTM   NCBI Genome Project
+- [W46.16] TITLE     Direct Submission
+- [W46.17] JOURNAL   Submitted (25-MAY-2007) National Center for Biotechnology
+- [W46.18] Information, NIH, Bethesda, MD 20894, USA
+- [W46.19] REFERENCE   3  (bases 1 to 1140)
+- [W46.20] AUTHORS   Peng,R., Zou,F., Zeng,B., Yue,B. and Zhang,Z.
+- [W46.21] TITLE     Direct Submission
+- [W46.22] JOURNAL   Submitted (09-JAN-2007) Chengdu Research Base of Giant Panda
+- [W46.23] Breeding, College of Life Sciences, Sichuan University, 29
+- [W46.24] Wangjiang Road, Chengdu, Sichuan 610064, P.R China
+- [W46.25] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W46.26] reference sequence was derived from EF212882.
+- [W46.27] COMPLETENESS: full length.
+- [W46.28] FEATURES             Location/Qualifiers
+- [W46.29] /organism="Ailuropoda melanoleuca"
+- [W46.30] /organelle="mitochondrion"
+- [W46.31] /protein_id="YP_001249296.1"
+- [W46.32] /translation="MINIRKTHPLVKIINNSFIDLPTPSNISTWWNFGSLLGVCLILQ
+- [W46.33] ILTGLFLAMHYTSDTATAFSSVAHICRDVNYGWFIRYMHANGASMFFICLFMHVGRGL
+- [W46.34] YYGSYLFPETWNIGIILLLTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTNL
+- [W46.35] VEWVWGGFSVDKATLTRFFAFHFILPFIISALAMVHLLFLHETGSNNPSGIPSDPDKI
+- [W46.36] PFYPYHTIKDILGVLFLVLALMTLALFSPDLLGDPDNYTPANPLSAPPHIKPEWYFLF
+- [W46.37] AYAILRSIPNKLGGVLALIFSILILTIIPLLHTSKQRSMMFRPLSQCLFWLLVADLLT
+- [W46.38] LTWIGGQPVEHPFIIIGQLASILYFTILLVLMPITSIIENSLSKW"
+- [W46.39] 1 atgatcaaca tccgaaaaac tcatccatta gttaaaatta tcaacaactc attcattgac
+- [W46.40] 61 cttccaacac catcaaacat ttcaacatga tggaactttg ggtccctgtt aggagtgtgt
+- [W46.41] 121 ctgatcttgc aaatcttaac aggcttattt ctagccatac actatacatc agatacagct
+- [W46.42] 181 acagcctttt catcagtcgc acacatttgt cgagacgtca actatggttg atttatccga
+- [W46.43] 241 tatatacatg ccaatggggc ctctatattt tttatctgcc tatttataca cgtagggcga
+- [W46.44] 301 ggcttatact atggatcata cctatttcca gagacatgga atatcggaat tattctccta
+- [W46.45] 361 cttacagtta tagccacagc attcataggg tatgtactac cttgaggaca aatatccttc
+- [W46.46] 421 tgaggagcaa ccgtcattac taacctacta tcagcaattc cttacattgg cactaatcta
+- [W46.47] 481 gtggagtgag tctgaggggg tttctccgta gataaagcaa cactaacccg attttttgct
+- [W46.48] 541 tttcacttta tccttccatt tatcatctca gcactagcaa tagtccatct attattcctt
+- [W46.49] 601 cacgaaacag gatctaataa cccctccgga attccatctg acccagataa aatcccattt
+- [W46.50] 661 tacccctatc atacaattaa agacatccta ggcgtcctat ttcttgtcct cgccttaata
+- [W46.51] 721 accctggctt tattctcacc agacctgtta ggagaccctg ataactatac ccctgcaaat
+- [W46.52] 781 ccactaagtg ccccgccaca tattaagcct gaatggtact ttctatttgc ctacgctatc
+- [W46.53] 841 ctgcgatcta ttcctaataa actaggaggg gtgctagctc taatcttctc tattctaatt
+- [W46.54] 901 ctaactatta ttccactatt acatacatcc aaacaacgaa gcatgatatt ccgacctcta
+- [W46.55] 961 agtcaatgct tattctgact cctagtagca gacctactca cactaacatg aattggagga
+- [W46.56] 1021 cagccagtag aacacccctt cattattatt gggcaattgg cctctattct ctactttaca
+- [W46.57] 1081 attcttctag tacttatacc tatcactagc attattgaga atagcctctc aaaatgaaga
+
+## [W47] NCBI RefSeq NC_003427.1: brown bear mitochondrial CYTB gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_003427.1 · Public domain · usage: ai_input, display
+
+- [W47.1] LOCUS       NC_003427               1140 bp    DNA     linear   MAM 03-APR-2023
+- [W47.2] DEFINITION  Ursus arctos mitochondrion, complete genome.
+- [W47.3] ACCESSION   NC_003427 REGION: 15306..16445
+- [W47.4] DBLINK      BioProject: PRJNA927338
+- [W47.5] SOURCE      mitochondrion Ursus arctos (brown bear)
+- [W47.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W47.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Ursidae;
+- [W47.8] REFERENCE   1  (bases 1 to 1140)
+- [W47.9] AUTHORS   Delisle,I. and Strobeck,C.
+- [W47.10] TITLE     Conserved primers for rapid sequencing of the complete
+- [W47.11] mitochondrial genome from carnivores, applied to three species of
+- [W47.12] REFERENCE   2  (bases 1 to 1140)
+- [W47.13] CONSRTM   NCBI Genome Project
+- [W47.14] TITLE     Direct Submission
+- [W47.15] JOURNAL   Submitted (11-MAR-2002) National Center for Biotechnology
+- [W47.16] Information, NIH, Bethesda, MD 20894, USA
+- [W47.17] REFERENCE   3  (bases 1 to 1140)
+- [W47.18] AUTHORS   Delisle,I. and Strobeck,C.
+- [W47.19] TITLE     Direct Submission
+- [W47.20] JOURNAL   Submitted (07-SEP-2000) Biological Sciences, University of Alberta,
+- [W47.21] CW-405, Biological Sciences Building, Edmonton, Alberta T6G 2E9,
+- [W47.22] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W47.23] reference sequence was derived from AF303110.
+- [W47.24] COMPLETENESS: full length.
+- [W47.25] FEATURES             Location/Qualifiers
+- [W47.26] /organelle="mitochondrion"
+- [W47.27] /translation="MTNIRKTHPLAKIINNSFIDLPTPSNISAWWNFGSLLGVCLILQ
+- [W47.28] ILTGLFLAMHYTSDTTTAFSSVTHICRDVHYGWVIRYVHANGASIFFICLFMHVGRGL
+- [W47.29] YYGSYLFSETWNIGIILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTDL
+- [W47.30] VEWIWGGFSVDKATLTRFFAFHFILPFIILALAAVHLLFLHETGSNNPSGIPSDSDKI
+- [W47.31] PFHPYYTIKDILGALLLALTLATLVLFSPDLLGDPDNYTPANPLSTPPHIKPEWYFLF
+- [W47.32] AYAILRSIPNKLGGVLALIFSILILAIIPLLHTSKQRGMMFRPLSQCLFWLLVADLLT
+- [W47.33] LTWIGGQPVEHPFIIIGQLASILYFTILLVLMPVAGIIENNLLKW"
+- [W47.34] 1 atgaccaaca tccgaaaaac ccacccatta gctaaaatca tcaacaactc atttattgac
+- [W47.35] 61 cttccaacac catcaaacat ctcagcatga tgaaactttg gatccctcct cggagtatgt
+- [W47.36] 121 ttaatcctac agattctaac aggcctgttc ctagccatac actatacatc agacacaacc
+- [W47.37] 181 acagcttttt catcagtcac ccacatttgc cgagacgttc actacggatg agttatccga
+- [W47.38] 241 tatgtacatg caaatggagc ctccatcttc tttatctgcc tatttatgca cgtaggacgg
+- [W47.39] 301 ggcctgtact atggctcata cctattctca gaaacatgaa acatcggcat cattctccta
+- [W47.40] 361 tttacagtta tagccaccgc atttatagga tacgtcctac cctgaggcca aatgtccttc
+- [W47.41] 421 tgaggagcga ctgtcatcac caatctacta tcagccattc cctacatcgg aacggacctg
+- [W47.42] 481 gtagaatgaa tctgaggggg cttttccgta gataaggcga ctctaacacg attctttgct
+- [W47.43] 541 ttccacttta ttctcccgtt catcatccta gcactagcag cagtccatct attgttccta
+- [W47.44] 601 cacgaaacag gatccaacaa cccctctgga atcccatctg actcagacaa aatcccattc
+- [W47.45] 661 catccatact atacaattaa ggatatctta ggcgccctac ttctcgccct aaccttagca
+- [W47.46] 721 accctagtcc tattctcgcc cgacttacta ggagaccctg ataactatac ccccgcaaat
+- [W47.47] 781 ccactgagca ctccacccca catcaaaccc gagtggtact ttctatttgc ctacgctatc
+- [W47.48] 841 ctacgatcca tccctaataa actaggagga gtactagcac taattttctc cattctaatc
+- [W47.49] 901 ctagccatca ttcctctcct acacacgtcc aaacaacgag gaatgatatt ccgaccccta
+- [W47.50] 961 agccaatgcc tattttgact tctagtagca gacctactaa cactaacatg aattggagga
+- [W47.51] 1021 caaccagtag aacatccctt cattattatc ggacaactag cctccattct ctactttaca
+- [W47.52] 1081 atcctcctag tacttatacc cgtcgctgga attattgaaa acaacctctt aaagtggaga
+
+## [W48] NCBI RefSeq NC_011124.1: red panda mitochondrial CYTB gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_011124.1 · Public domain · usage: ai_input, display
+
+- [W48.1] LOCUS       NC_011124               1140 bp    DNA     linear   MAM 03-APR-2023
+- [W48.2] DEFINITION  Ailurus fulgens mitochondrion, complete genome.
+- [W48.3] ACCESSION   NC_011124 REGION: 14171..15310
+- [W48.4] DBLINK      BioProject: PRJNA927338
+- [W48.5] SOURCE      mitochondrion Ailurus fulgens (lesser panda)
+- [W48.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W48.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+- [W48.8] Musteloidea; Ailuridae; Ailurus.
+- [W48.9] AUTHORS   Arnason,U., Gullberg,A., Janke,A. and Kullberg,M.
+- [W48.10] TITLE     Mitogenomic analyses of caniform relationships
+- [W48.11] REFERENCE   2  (bases 1 to 1140)
+- [W48.12] CONSRTM   NCBI Genome Project
+- [W48.13] TITLE     Direct Submission
+- [W48.14] JOURNAL   Submitted (06-AUG-2008) National Center for Biotechnology
+- [W48.15] Information, NIH, Bethesda, MD 20894, USA
+- [W48.16] REFERENCE   3  (bases 1 to 1140)
+- [W48.17] TITLE     Direct Submission
+- [W48.18] JOURNAL   Submitted (10-MAY-2007) Cell And Organism Biology, Evolutionary
+- [W48.19] Molecular Systematics, Solvegatan 29, S-22362 Lund, Sweden
+- [W48.20] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W48.21] reference sequence was derived from AM711897.
+- [W48.22] COMPLETENESS: full length.
+- [W48.23] FEATURES             Location/Qualifiers
+- [W48.24] /organism="Ailurus fulgens"
+- [W48.25] /organelle="mitochondrion"
+- [W48.26] /protein_id="YP_002120645.1"
+- [W48.27] /db_xref="InterPro:IPR005797"
+- [W48.28] /db_xref="InterPro:IPR005798"
+- [W48.29] /db_xref="UniProtKB/TrEMBL:A7DXX2"
+- [W48.30] /translation="MTNIRKTHPLMKVINNSFIDLPTPSNISTWWNFGSLLGICLILQ
+- [W48.31] ILTGLFLAMHYTSDTATAFSSITHICRDVNYGWIIRYMHANGASLFFICLYMHVGRGL
+- [W48.32] YYGSYMFLETWNIGIILLFATMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTNL
+- [W48.33] VEWIWGGFSVDKATLTRFFAFHFILPFIIATLATIHLLFLHETGSNNPSGIPSNSDKI
+- [W48.34] PFHPYYTIKDILGALLLILILMTLVLFLPDLLGDPDNYIPANPLSTPPHIKPEWYFLF
+- [W48.35] AYAILRSIPNKLGGVLALILSILILAIIPLLHTSKQRGMMFRPLSQCLFWLLVADLLI
+- [W48.36] LTWIGGQPVEHPFIIIGQLASITYFTILLILMPITSIIENNLLKW"
+- [W48.37] 1 atgaccaaca ttcgaaaaac tcacccacta ataaaagtta tcaacaactc attcatcgac
+- [W48.38] 61 ctaccaacac catccaacat ctcaacatga tgaaactttg gctctctcct cggaatttgc
+- [W48.39] 121 ttaattctac aaatcctgac aggccttttc ctagctatac attatacatc tgataccgcc
+- [W48.40] 181 acagccttct catcaatcac acatatctgt cgagatgtaa actacggctg aatcattcgc
+- [W48.41] 241 tacatacatg ctaatggagc ctccctattc tttatctgcc tatacatgca tgtaggacga
+- [W48.42] 301 ggcctgtact atggttctta tatattcctg gaaacatgaa acattggaat catcttatta
+- [W48.43] 361 ttcgcaacta tagctacagc attcatagga tatgtcctgc cctgaggaca gatatcattc
+- [W48.44] 421 tgaggagcaa ccgttatcac caacctacta tcagccattc cctatattgg aactaacctt
+- [W48.45] 481 gtagagtgaa tctgaggagg tttctcagtc gacaaagcaa ctctaactcg attcttcgcc
+- [W48.46] 541 ttccacttca ttcttccatt tatcattgca acactagcaa ctatccatct cttattccta
+- [W48.47] 601 catgaaacag gatctaataa cccctcaggc atcccatcca actcagacaa aattccattc
+- [W48.48] 661 catccctatt atacaattaa agatatcttg ggcgctctac tccttatcct aattctcatg
+- [W48.49] 721 acattagtac tattcttacc tgacttgctt ggtgatcctg ataactatat tcccgctaac
+- [W48.50] 781 ccattaagca caccacccca tattaaacct gagtggtatt tcctattcgc atatgcaatt
+- [W48.51] 841 ctacgatcca tcccaaacaa actaggaggg gtgctagccc taattctttc catcttaatc
+- [W48.52] 901 ctagcgatca tccctcttct ccatacctca aaacaacgag gaatgatatt ccgaccacta
+- [W48.53] 961 agccaatgcc tcttctgact gctagtagcc gatctactaa tcctaacatg aattggagga
+- [W48.54] 1021 caaccagtgg aacacccctt tatcattatc ggtcaactgg cctccattac ctactttaca
+- [W48.55] 1081 atcctcttaa tcctaatacc tatcaccagc attatcgaaa ataacctcct aaaatgaaga
+
+## [W49] NCBI RefSeq NC_009126.1: raccoon mitochondrial CYTB gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_009126.1 · Public domain · usage: ai_input, display
+
+- [W49.1] LOCUS       NC_009126               1140 bp    DNA     linear   MAM 03-APR-2023
+- [W49.2] DEFINITION  Procyon lotor mitochondrion, complete genome.
+- [W49.3] ACCESSION   NC_009126 REGION: 1..1140
+- [W49.4] DBLINK      BioProject: PRJNA927338
+- [W49.5] SOURCE      mitochondrion Procyon lotor (raccoon)
+- [W49.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W49.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+- [W49.8] Musteloidea; Procyonidae; Procyon.
+- [W49.9] REFERENCE   1  (bases 1 to 1140)
+- [W49.10] CONSRTM   NCBI Genome Project
+- [W49.11] TITLE     Direct Submission
+- [W49.12] JOURNAL   Submitted (15-MAR-2007) National Center for Biotechnology
+- [W49.13] Information, NIH, Bethesda, MD 20894, USA
+- [W49.14] REFERENCE   2  (bases 1 to 1140)
+- [W49.15] AUTHORS   Takada,Y., Mukaida,M. and Imai,T.
+- [W49.16] TITLE     Direct Submission
+- [W49.17] JOURNAL   Submitted (12-MAR-2007) National Defense Medical College,
+- [W49.18] Department of Forensic Medicine; Namiki 3-2, Tokorozawa 359-8513,
+- [W49.19] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W49.20] reference sequence was derived from AB297804.
+- [W49.21] COMPLETENESS: full length.
+- [W49.22] FEATURES             Location/Qualifiers
+- [W49.23] /organelle="mitochondrion"
+- [W49.24] /geo_loc_name="Japan: Kanagawa, Kamakura"
+- [W49.25] /protein_id="YP_001096027.1"
+- [W49.26] /translation="MTNIRKTHPLAKIVNNSFIDLPTPSNISAWWNFGSLLGICLLLQ
+- [W49.27] IATGLFLAMHYTPDTTTAFSSVTHICRDVNYGWIIRYMHANGASMFFMCLFLHVGRGL
+- [W49.28] YYGSYTFSETWNIGVILLLTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGSNL
+- [W49.29] VEWIWGGFSVDKATLTRFFAFHFILPFIITTLAMIHLLFLHETGSNNPAGITSESDKI
+- [W49.30] PFHPYYTIKDILGILFLIFMLMGLVLFTPDLLGDPDNYTPANPLNTPPHIKPEWYFLF
+- [W49.31] AYAILRSIPNKLGGVLALVLSILILIIIPLLHTSKQRSMMFRPLSQCLFWFLVADLLV
+- [W49.32] LTWIGGQPVEYPFIIIGQLASIFYFMILLVLMPTMNIIENNLLKW"
+- [W49.33] 1 atgaccaaca tccgaaaaac tcacccatta gctaaaatcg tcaacaactc attcattgat
+- [W49.34] 61 ttacccaccc cttcaaacat ctcagcatga tgaaatttcg gctccctcct cggaatttgt
+- [W49.35] 121 ttgcttctac agatcgcaac aggtttattc ttagccatac actatacacc agatacaacc
+- [W49.36] 181 acagctttct catcagtgac ccacatttgc cgagatgtaa attatggctg aattatccga
+- [W49.37] 241 tatatacacg ctaacggagc ttctatattc tttatatgcc tattcttaca cgtaggacga
+- [W49.38] 301 ggcttatact atggctccta tacattctct gaaacatgaa atattggtgt tattttacta
+- [W49.39] 361 ctcacagtaa tagcaaccgc tttcataggt tacgtcctcc catgaggaca aatatcattc
+- [W49.40] 421 tgaggagcaa cagtaattac aaatctcctg tcagctatcc cctatatcgg atctaacctt
+- [W49.41] 481 gtagaatgaa tttgaggagg gttttcagta gacaaagcca ccctaacacg attcttcgca
+- [W49.42] 541 ttccacttca ttctaccatt tattatcaca acgctagcaa taattcacct gctattccta
+- [W49.43] 601 cacgaaacag gatccaataa tcctgctgga attacatcag aatctgacaa aattccattt
+- [W49.44] 661 cacccatact acaccattaa agacattctg ggaatcctat tccttatttt tatacttata
+- [W49.45] 721 ggtttagtgc tatttacgcc agacctacta ggagacccag ataactacac acccgccaac
+- [W49.46] 781 cccttaaaca ccccacctca catcaaacct gaatgatatt ttctattcgc ctacgcaatt
+- [W49.47] 841 ctacgttcca ttcccaacaa actaggagga gtcctagccc tagtcctctc catcttaatc
+- [W49.48] 901 ctaatcatca tcccactcct acatacctca aaacaacgaa gcataatatt tcggccactt
+- [W49.49] 961 agccaatgtt tattctgatt cctagtagca gacctcctcg tcctaacatg aattggaggt
+- [W49.50] 1021 caaccagtag aatatccctt catcatcatc ggccaactag cctccatctt ctactttata
+- [W49.51] 1081 atcctcctgg tcctaatacc aacaataaac atcatcgaaa acaatctgtt aaaatgaaga
+
+## [W50] Wikipedia: Cougar
+https://en.wikipedia.org/w/index.php?title=Cougar&oldid=1381812438 · CC BY-SA 4.0 · usage: ai_input
+
+- [W50.1] The cougar ( KOO-gər; Puma concolor), also called puma, mountain lion, catamount, and panther, is a large small cat native to the Americas.
+- [W50.2] It inhabits North, Central and South America, making it the most widely distributed wild, terrestrial mammal in the Western Hemisphere, and one of the most widespread in the world.
+- [W50.3] Its range spans Yukon, British Columbia and Alberta in Canada, the Rocky Mountains and areas in the western United States.
+- [W50.4] Further south, its range extends through Mexico to the Amazon rainforest and the southern Andes Mountains in Patagonia.
+- [W50.5] It is an adaptable generalist species, occurring in most American habitat types.
+- [W50.6] It prefers habitats with dense underbrush and rocky areas for stalking but also lives in open areas.
+- [W50.7] The cougar is largely solitary.
+- [W50.8] Its activity pattern varies from diurnality and cathemerality to crepuscularity and nocturnality between protected and non-protected areas, and is apparently correlated with the presence of other predators, prey species, livestock and humans.
+- [W50.9] It is an ambush predator that pursues a wide variety of prey.
+- [W50.10] Ungulates, particularly deer, are its primary prey, but it also hunts rodents.
+- [W50.11] It is territorial and lives at low population densities.
+- [W50.12] Individual home ranges depend on terrain, vegetation and abundance of prey.
+- [W50.13] While large, it is not always the dominant apex predator in its range, yielding prey to other predators.
+- [W50.14] It is reclusive and mostly avoids people.
+- [W50.15] Fatal attacks on humans are rare but increased in North America as more people entered cougar habitat and built farms.
+- [W50.16] The cougar is listed as Least Concern on the IUCN Red List.
+- [W50.17] Intensive hunting following European colonization of the Americas and ongoing human development into cougar habitat has caused populations to decline in most parts of its historical range.
+- [W50.18] In particular, the eastern cougar population is considered to be mostly locally extinct in eastern North America since the early 20th century, with the exception of the isolated Florida panther subpopulation.
+- [W50.19] The cougar holds the Guinness record for the animal with the greatest number of names, with over 40 in English alone.
+- [W50.20] The word cougar is borrowed from the Portuguese çuçuarana, via French, derived from the Tupi language.
+- [W50.21] A form in Brazil is suçuarana.
+- [W50.22] In the 17th century, Georg Marcgrave named it cuguacu ara.
+- [W50.23] Marcgrave's rendering was reproduced in 1648 by his associate Willem Piso.
+- [W50.24] Cuguacu ara was then adopted by John Ray in 1693.
+- [W50.25] In 1774, Georges-Louis Leclerc, Comte de Buffon converted cuguacu ara to cuguar, which was later modified to "cougar" in English.
+- [W50.26] Gaelic, or Erse, has similar (likely unrelated) words, including Scottish Gaelic cugar and cugarbhad (a wild or domesticated male cat; also signifying a hero, gallant, or champion).
+- [W50.27] The usual Gaelic for cat is "cat" (with Cú or Coin signifying a canid).
+- [W50.28] The name puma is the most common name used in the global scientific literature.
+- [W50.29] Puma is the common name used in Latin America and most parts of Europe and is occasionally used in the United States.
+- [W50.30] The first use of puma in English dates to 1777, introduced from Spanish from the Quechua language.
+- [W50.31] In the United States, the name mountain lion is commonly used, and in Canada, the name cougar is most commonly used.
+- [W50.32] The earliest English reference to them is from 1505, when explorers from Bristol brought back 'catts of the mountayne' / 'wylde catts' to Henry VII from North America.
+- [W50.33] The former term mirrors the name used by the earliest Spanish explorers: 'gato monte' (cat of the mountain).
+- [W50.34] The name catamount, a shortening of name "cat of the mountain", has also been in English use for Puma concolor and other wild cats since at least 1664.
+- [W50.35] The term mountain lion was first seen in writing in 1858.
+- [W50.36] Puma concolor is not a true lion of the genus Panthera and cannot roar, nor is its habitat restricted to mountainous regions.
+- [W50.37] Panther is often used synonymously with cougar, puma or mountain lion.
+- [W50.38] The name painter is also sometimes used instead of panther, mostly in the southern United States.
+- [W50.39] Felis concolor was the scientific name proposed by Carl Linnaeus in 1771 for a cat with a long tail from Brazil.
+- [W50.40] It was placed in the genus Puma by William Jardine in 1834.
+- [W50.41] This genus is part of the Felinae.
+- [W50.42] The cougar is most closely related to the jaguarundi and the cheetah.
+- [W50.43] Following Linnaeus's first scientific description of the cougar, 32 cougar zoological specimens were described and proposed as subspecies until the late 1980s.
+- [W50.44] Genetic analysis of cougar mitochondrial DNA indicates that many of these are too similar to be recognized as distinct at a molecular level but that only six phylogeographic groups exist.
+- [W50.45] The Florida panther samples showed a low microsatellite variation, possibly due to inbreeding.
+- [W50.46] Following this research, the authors of Mammal Species of the World recognized the following six subspecies in 2005:
+- [W50.47] P. c. concolor (Linnaeus, 1771) includes the synonyms bangsi, incarum, osgoodi, soasoaranna, sussuarana, soderstromii, suçuaçuara, and wavula
+- [W50.48] P. c. puma (Molina, 1782) includes the synonyms araucanus, concolor, patagonica, pearsoni, and puma (Trouessart, 1904)
+- [W50.49] P. c. couguar (Kerr, 1792) includes arundivaga, aztecus, browni, californica, floridana, hippolestes, improcera, kaibabensis, mayensis, missoulensis, olympus, oregonensis, schorgeri, stanleyana, vancouverensis, and youngi
+- [W50.50] P. c. costaricensis (Merriam, 1901)
+- [W50.51] P. c. anthonyi (Nelson and Goldman, 1931) includes acrocodia, borbensis, capricornensis, concolor, greeni, and nigra
+- [W50.52] P. c. cabrerae Pocock, 1940 includes hudsonii and puma proposed by Marcelli in 1922
+- [W50.53] In 2006, the Florida panther was still referred to as a distinct subspecies P. c. coryi in research works.
+- [W50.54] As of 2017, the Cat Classification Taskforce of the Cat Specialist Group recognizes only two subspecies as valid:
+- [W50.55] P. c. concolor in South America, possibly excluding the region northwest of the Andes
+- [W50.56] P. c. couguar in North and Central America and possibly northwestern South America
+- [W50.57] The family Felidae is thought to have originated in Asia about 11 million years ago; taxonomic research on felids remains partial, and much of what is known about their evolutionary history is based on mitochondrial DNA analysis.
+- [W50.58] Significant confidence intervals exist with suggested dates.
+- [W50.59] In the latest genomic study of the Felidae, the common ancestor of today's Leopardus, Lynx, Puma, Prionailurus, and Felis lineages migrated across the Bering land bridge into the Americas 8 to 8.5 million years ago.
+- [W50.60] The lineages subsequently diverged in that order.
+- [W50.61] North American felids then invaded South America 2 to 4 million years ago as part of the Great American Interchange, following the formation of the Isthmus of Panama.
+- [W50.62] The cheetah lineage is suggested by some studies to have diverged from the Puma lineage in the Americas and migrated back to Asia and Africa, while other research suggests the cheetah diverged in the Old World itself.
+- [W50.63] A high level of genetic similarity has been found among North American cougar populations, suggesting they are all fairly recent descendants of a small ancestral group.
+- [W50.64] Culver et al. propose the original North American cougar population was locally extinct during the Pleistocene extinctions some 10,000 years ago, when other large mammals, such as Smilodon, also disappeared.
+- [W50.65] North America was then repopulated by South American cougars.
+- [W50.66] Cougars in North America might have survived the Late Pleistocene megafaunal extinction due to their greater dietary flexibility as evidenced by dental microwear texture analysis.
+- [W50.67] A coprolite identified as from a cougar was excavated in Argentina's Catamarca Province and dated to 17,002–16,573 years old.
+- [W50.68] It contained Toxascaris leonina eggs.
+- [W50.69] This finding indicates that the cougar and the parasite have existed in South America since at least the Late Pleistocene.
+- [W50.70] The oldest fossil record of a cougar (Puma concolor) in South America (Argentina) is a partial skull from the late Calabrian age.
+- [W50.71] The head of the cougar is round, and the ears are erect.
+- [W50.72] Its powerful forequarters, neck, and jaw serve to grasp and hold large prey.
+- [W50.73] It has four retractile claws on its hind paws and five on its forepaws, of which one is a dewclaw.
+- [W50.74] The larger front feet and claws are adaptations for clutching prey.
+- [W50.75] The cougar is slender and agile.
+- [W50.76] It is the fourth largest cat species; adults stand about 60 to 90 cm (24 to 35 in) tall at the shoulders.
+- [W50.77] Adult males are around 2.4 m (7 ft 10 in) long from nose to tail tip, and females average 2.05 m (6 ft 9 in), with overall ranges between 1.50 to 2.75 m (4 ft 11 in to 9 ft 0 in) nose to tail suggested for the species in general.
+- [W50.78] Of this length, the tail typically accounts for 63 to 95 cm (25 to 37 in).
+- [W50.79] Males generally weigh 53–72 kg (117–159 lb) but up to 120 kg (260 lb), and females weigh 34–48 kg (75–106 lb); the cougar's size is smaller close to the equator and larger towards the poles.
+- [W50.80] The largest recorded cougar, shot in 1901, weighed 105.2 kg (232 lb); claims of 125.2 kg (276 lb) and 118 kg (260 lb) have been reported, though they were probably exaggerated.
+- [W50.81] Male cougars in North America average 62 kg (137 lb), while the average female in the same region averages about 42 kg (93 lb).
+- [W50.82] On average, adult male cougars in British Columbia weigh 56.7 kg (125 lb) and adult females 45.4 kg (100 lb), though several male cougars in British Columbia weighed between 86.4 and 95.5 kg (190 and 211 lb).
+- [W50.83] Depending on the locality, cougars can be smaller or bigger than jaguars but are less muscular and not as powerfully built, so on average, their weight is less.
+- [W50.84] Whereas the size of cougars tends to increase as much as distance from the equator increases, which crosses the northern portion of South America, jaguars are generally smaller north of the Amazon River in South America and larger south of it.
+- [W50.85] For example, while South American jaguars are comparatively large, and may exceed 90 kg (200 lb), North American jaguars in Mexico's Chamela-Cuixmala Biosphere Reserve weigh approximately 50 kg (110 lb), about the same as female cougars.
+- [W50.86] Cougar coloring is plain tawny, ranging from silvery-grey to reddish with lighter patches on the underbody, including the jaws, chin, and throat.
+- [W50.87] Kittens are spotted and born with blue eyes and rings on their tails; juveniles are pale, and dark spots remain on their flanks.
+- [W50.88] A leucistic individual was seen in Serra dos Órgãos National Park in Rio de Janeiro in 2013 when it was recorded by a camera trap, indicating that pure white individuals do exist within the species, though they are extremely rare.
+- [W50.89] The cougar has large paws and proportionally the largest hind legs in Felidae, allowing for great leaping and powerful short sprints.
+- [W50.90] It can leap from the ground up to 5.5 m (18 ft) high into a tree.
+- [W50.91] It is the largest of the Felinae that is capable of purring.
+- [W50.92] The cougar has the most extensive range of any wild land animal in the Americas, spanning 110 degrees of latitude from the Yukon in Canada to the southern Andes in Chile.
+- [W50.93] It is recolonizing its former range in both the midwestern US and Canada, and isolated populations have been documented east of the contemporary ranges.
+- [W50.94] A small breeding population has been re-established in the Great Lakes region around Voyageurs National Park and the Upper Peninsula of Michigan; juveniles were observed in 2025 and 2026.
+- [W50.95] The cougar lives in all forest types, lowland and mountainous deserts, and in open areas with little vegetation up to an elevation of 5,800 m (19,000 ft).
+- [W50.96] In the Santa Ana Mountains, it prefers steep canyons, escarpments, rim rocks and dense brush.
+- [W50.97] In Mexico, it was recorded in the Sierra de San Carlos.
+- [W50.98] In the Yucatán Peninsula, it inhabits secondary and semi-deciduous forests in El Eden Ecological Reserve.
+- [W50.99] In El Salvador, it was recorded in the lower montane forest in Montecristo National Park and in a river basin in the Morazán Department above 700 m (2,300 ft) in 2019.
+- [W50.100] In Colombia, it was recorded in a palm oil plantation close to a riparian forest in the Llanos Basin, and close to water bodies in the Magdalena River Valley.
+- [W50.101] In the human-modified landscape of central Argentina, it inhabits bushland with abundant vegetation cover and prey species.
+- [W50.102] The cougar is a keystone species in Western Hemisphere ecosystems as it links numerous species at many trophic levels, interacting with 485 other species as food source and prey, carcass remains left behind, and competitive effects on other predators in shared habitat.
+- [W50.103] The cougar is a generalist hypercarnivore.
+- [W50.104] It prefers large mammals such as mule deer, white-tailed deer, elk, moose, mountain goat and bighorn sheep.
+- [W50.105] It opportunistically takes smaller prey such as rodents, lagomorphs, smaller carnivores, birds, and even domestic animals, including pets.
+- [W50.106] The mean weight of cougar vertebrate prey increases with its body weight and is lower in areas closer to the equator.
+- [W50.107] A survey of North America research found 68% of prey items were ungulates, especially deer.
+- [W50.108] Only the Florida panther showed variation, often preferring feral hogs and armadillos.
+- [W50.109] Cougars have been known to prey on introduced gemsbok populations in New Mexico.
+- [W50.110] One individual cougar was recorded as hunting 29 gemsbok, which made up 58% of its recorded kills.
+- [W50.111] Most gemsbok kills were neonates, but some adults were also known to have been taken.
+- [W50.112] Elsewhere in the southwestern United States, they have been recorded to also prey on feral horses in the Great Basin, as well as feral donkeys in the Sonoran and Mojave Deserts.
+- [W50.113] Investigations at Yellowstone National Park showed that elk and mule deer were the cougar's primary prey; the prey base is shared with the park's wolves, with which the cougar competes for resources.
+- [W50.114] A study on winter kills from November to April in Alberta showed that ungulates accounted for greater than 99% of the cougar diet.
+- [W50.115] Learned, individual prey recognition was observed, as some cougars rarely killed bighorn sheep, while others relied heavily on the species.
+- [W50.116] In the Central and South American cougar range area, the ratio of deer in the diet declines.
+- [W50.117] Small to mid-sized mammals, including large rodents such as the capybara, are preferred.
+- [W50.118] Ungulates accounted for only 35% of prey items in one survey, about half that of North America.
+- [W50.119] Competition with the larger jaguar in South America has been suggested for the decline in the size of prey items.
+- [W50.120] In Central or North America, the cougar and jaguar share the same prey, depending on its abundance.
+- [W50.121] Other listed prey species of the cougar include mice, porcupines, American beavers, raccoons, hares, guanacoes, peccaries, vicuñas, rheas and wild turkeys.
+- [W50.122] Birds and small reptiles are sometimes preyed upon in the south, but this is rarely recorded in North America.
+- [W50.123] Magellanic penguins (Spheniscus magellanicus) constitute the majority of prey items in cougar diet in Patagonia's Bosques Petrificados de Jaramillo National Park and Monte León National Park.
+- [W50.124] Although capable of sprinting, the cougar is typically an ambush predator.
+- [W50.125] It stalks through brush and trees, across ledges, or other covered spots, before delivering a powerful leap onto the back of its prey and a suffocating neck bite.
+- [W50.126] The cougar can break the neck of some of its smaller prey with a strong bite and momentum bearing the animal to the ground.
+- [W50.127] Kills are generally estimated around one large ungulate every two weeks.
+- [W50.128] The period shrinks for females raising young, and may be as short as one kill every three days when cubs are nearly mature around 15 months.
+- [W50.129] The cat drags a kill to a preferred spot, covers it with brush, and returns to feed over a period of days.
+- [W50.130] The cougar is generally reported to not be a scavenger, but deer carcasses left exposed for study were scavenged by cougars in California, suggesting more opportunistic behavior.
+- [W50.131] The cougar's hunting success rate in central Idaho was estimated at 82% hunting elk and mule deer in the snow during winter.
+- [W50.132] In central Argentina, its success rate was estimated at 10% hunting Plains viscacha in semi-arid scrub areas.
+- [W50.133] Interactions with other predators
+- [W50.134] Aside from humans, no species preys upon mature cougars in the wild, although conflicts with other predators or scavengers occur.
+- [W50.135] Of the large predators in Yellowstone National Park – the grizzly and black bears, gray wolf and cougar – the massive grizzly bear appears dominant, often (though not always) able to drive a gray wolf pack, black bear or cougar off their kills.
+- [W50.136] One study found that grizzlies and American black bears visited 24% of cougar kills in Yellowstone and Glacier National Parks, usurping 10% of carcasses.
+- [W50.137] Bears gained up to 113%, and cougars lost up to 26% of their daily energy requirements from these encounters.
+- [W50.138] In Colorado and California, black bears were found to visit 48% and 77% of kills, respectively.
+- [W50.139] In general, cougars are subordinate to black bears when it comes to kills, and when bears are most active, the cats take prey more frequently and spend less time feeding on each kill.
+- [W50.140] Unlike several subordinate predators from other ecosystems, cougars do not appear to exploit spatial or temporal refuges to avoid competitors.
+- [W50.141] The gray wolf and the cougar compete more directly for prey, mostly in winter.
+- [W50.142] Packs of wolves can steal cougars' kills, and there are some documented cases of cougars being killed by them.
+- [W50.143] One report describes a large pack of seven to 11 wolves killing a female cougar and her kittens, while in nearby Sun Valley, Idaho, a 2-year-old male cougar was found dead, apparently killed by a wolf pack.
+- [W50.144] Conversely, one-to-one confrontations tend to be dominated by the cat, and there are various documented accounts where wolves have been ambushed and killed, including adult male specimens.
+- [W50.145] Wolves more broadly affect cougar population dynamics and distribution by dominating territory and prey opportunities, and disrupting the feline's behavior.
+- [W50.146] Preliminary research in Yellowstone, for instance, has shown displacement of the cougar by wolves.
+- [W50.147] One researcher in Oregon noted: "When there is a pack around, cougars are not comfortable around their kills or raising kittens ...
+- [W50.148] A lot of times a big cougar will kill a wolf, but the pack phenomenon changes the table." Both species are capable of killing mid-sized predators, such as bobcats, Canada lynxes, wolverines and coyotes, and tend to suppress their numbers.
+- [W50.149] Although cougars can kill coyotes, the latter have been documented attempting to prey on cougar cubs.
+- [W50.150] The cougar and jaguar share overlapping territory in the southern portion of its range.
+- [W50.151] The jaguar tends to take the larger prey where ranges overlap, reducing both the cougar's potential size and the likelihood of direct competition between the two cats.
+- [W50.152] Cougars appear better than jaguars at exploiting a broader prey niche and smaller prey.
+- [W50.153] Social spacing and interactions
+- [W50.154] The cougar is a mostly solitary animal.
+- [W50.155] Only mothers and kittens live in groups, with adults meeting rarely.
+- [W50.156] Subadult cougars of same sexes have been known to temporarily form sibling groups.
+- [W50.157] While generally loners, cougars will reciprocally share kills and seem to organize themselves into small communities defined by the territories of dominant males.
+- [W50.158] Cats within these areas socialize more frequently with each other than with outsiders.
+- [W50.159] In the vicinity of a cattle ranch in northern Mexico, cougars exhibited nocturnal activity that overlapped foremost with the activity of calves.
+- [W50.160] In a nature reserve in central Mexico, the activity of cougars was crepuscular and nocturnal, overlapping largely with the activity of the nine-banded armadillo (Dasypus novemcinctus).
+- [W50.161] Cougars in the montane Abra-Tanchipa Biosphere Reserve in southeastern Mexico displayed a cathemeral activity pattern.
+- [W50.162] Data from 12 years of camera trapping in the Pacific slope and Talamanca Cordillera of Costa Rica showed cougars as cathemeral.
+- [W50.163] Both cougars and jaguars in the Cockscomb Basin of Belize were nocturnal but avoided each other.
+- [W50.164] In a protected cloud forest in the central Andes of Colombia, cougars were active from late afternoon to shortly before sunrise and sometimes during noon and early afternoon.
+- [W50.165] In protected areas of the Madidi-Tambopata Landscape in Bolivia and Peru, cougars were active throughout the day but with a tendency to nocturnal activity that overlapped with the activity of main prey species.
+- [W50.166] During an 8-year-long study in a modified landscape in southeastern Brazil, male cougars were primarily nocturnal, but females were active at night and day.
+- [W50.167] Cougars were diurnal in the Brazilian Pantanal, but crepuscular and nocturnal in protected areas in the Cerrado, Caatinga and ecotone biomes.
+- [W50.168] Cougars in the Atlantic Forest were active throughout the day but displayed peak activity during early mornings in protected areas and crepuscular and nocturnal activity in less protected areas.
+- [W50.169] In central Argentina, cougars were active day and night in protected areas but were active immediately after sunset and before sunrise outside protected areas.
+- [W50.170] Cougars displayed a foremost crepuscular and nocturnal activity pattern in a ranching area in southern Argentina.
+- [W50.171] Home range sizes and overall cougar abundance depend on terrain, vegetation, and prey abundance.
+- [W50.172] Research suggests a lower limit of 25 km2 (9.7 sq mi) and upper limit of 1,300 km2 (500 sq mi) of home range for males.
+- [W50.173] Large male home ranges of 150 to 1,000 km2 (58 to 386 sq mi) with female ranges half that size.
+- [W50.174] One female adjacent to the San Andres Mountains was found with a big range of 215 km2 (83 sq mi), necessitated by poor prey abundance.
+- [W50.175] Research has shown cougar abundances from 0.5 animals to as many as seven per 100 km2 (39 sq mi).
+- [W50.176] Male home ranges include or overlap with females but, at least where studied, not with those of other males.
+- [W50.177] The home ranges of females overlap slightly.
+- [W50.178] Males create scrapes composed of leaves and duff with their hind feet, and mark them with urine and sometimes feces.
+- [W50.179] When males encounter each other, they vocalize and may engage in violent conflict if neither backs down.
+- [W50.180] Cougars communicate with various vocalizations.
+- [W50.181] Aggressive sounds include growls, spits, snarls and hisses.
+- [W50.182] During the mating season, estrus females produce caterwauls or yowls to attract mates, and males respond with similar vocals.
+- [W50.183] Mothers and offspring keep in contact with whistles, chirps, and mews.
+- [W50.184] Reproduction and life cycle
+- [W50.185] Females reach sexual maturity at the age of 18 months to three years and are in estrus for about eight days of a 23-day cycle; the gestation period is approximately 91 days.
+- [W50.186] Both adult males and females may mate with multiple partners, and a female's litter can have multiple paternities.
+- [W50.187] Copulation is brief but frequent.
+- [W50.188] Chronic stress can result in low reproductive rates in captivity as well as in the field.
+- [W50.189] Gestation is 82–103 days long.
+- [W50.190] Only females are involved in parenting.
+- [W50.191] Litter size is between one and six cubs, typically two.
+- [W50.192] Caves and other alcoves that offer protection are used as litter dens.
+- [W50.193] Born blind, cubs are completely dependent on their mother at first and begin to be weaned at around three months of age.
+- [W50.194] As they grow, they go out on forays with their mother, first visiting kill sites and, after six months, beginning to hunt small prey on their own.
+- [W50.195] Kitten survival rates are just over one per litter.
+- [W50.196] Juveniles remain with their mothers for one to two years.
+- [W50.197] When a female reaches estrous again, her offspring must disperse or the male will kill them.
+- [W50.198] Males tend to disperse further than females.
+- [W50.199] One study has shown a high mortality rate among cougars that travel farthest from their maternal range, often due to conflicts with other cougars.
+- [W50.200] In a study area in New Mexico, males dispersed farther than females, traversed large expanses of non-cougar habitat and were probably most responsible for nuclear gene flow between habitat patches.
+- [W50.201] Life expectancy in the wild is reported at 8 to 13 years and probably averages 8 to 10; a female of at least 18 years was reported killed by hunters on Vancouver Island.
+- [W50.202] Cougars may live as long as 20 years in captivity.
+- [W50.203] Causes of death in the wild include disability and disease, competition with other cougars, starvation, accidents, and, where allowed, hunting.
+- [W50.204] The feline immunodeficiency virus is well-adapted to the cougar.
+- [W50.205] The cougar has been listed as Least Concern on the IUCN Red List since 2008.
+- [W50.206] It is threatened by habitat loss, habitat fragmentation, and depletion of its prey base due to poaching.
+- [W50.207] Hunting is legal in the western United States.
+- [W50.208] In Florida, heavy traffic causes frequent accidents involving cougars.
+- [W50.209] Highways are a major barrier to the dispersal of cougars.
+- [W50.210] The cougar populations in California are becoming fragmented with the increase in human population and infrastructure growth in the state.
+- [W50.211] Human–wildlife conflict in proximity of 5 km2 (1.9 sq mi) of cougar habitat is pronounced in areas with a median human density of 32.48 inhabitants/km2 (84.1 inhabitants/sq mi) and a median livestock population density of 5.3 heads/km2 (14 heads/sq mi).
+- [W50.212] Conflict is generally lower in areas more than 16.1 km (10.0 mi) away from roads and 27.8 km (17.3 mi) away from settlements.
+- [W50.213] The cougar is listed on CITES Appendix II, but the Central American population is on Appendix I.
+- [W50.214] Hunting it is prohibited in Costa Rica, Honduras, Nicaragua, Guatemala, Panama, Venezuela, Colombia, French Guiana, Suriname, Bolivia, Brazil, Chile, Paraguay, Uruguay and most of Argentina.
+- [W50.215] Hunting is regulated in Canada, Mexico, Peru, and the United States.
+- [W50.216] Establishing wildlife corridors and protecting sufficient range areas are critical for the sustainability of cougar populations.
+- [W50.217] Research simulations showed that it faces a low extinction risk in areas larger than 2,200 km2 (850 sq mi).
+- [W50.218] Between one and four new individuals entering a population per decade markedly increases persistence, thus highlighting the importance of habitat corridors.
+- [W50.219] The Florida panther population is afforded protection under the Endangered Species Act.
+- [W50.220] In California, the cougar is protected under the California Wildlife Protection Act of 1990.
+- [W50.221] The Texas Mountain Lion Conservation Project was launched in 2009 and aimed at raising local people's awareness of the status and ecological role of the cougar and mitigating conflict between landowners and cougars.
+- [W50.222] Due to the human population growth, cougar ranges increasingly overlap with areas inhabited by humans.
+- [W50.223] Attacks on humans are very rare, as cougar prey recognition is a learned behavior, and it does not generally recognize humans as prey.
+- [W50.224] In a 10-year study in New Mexico of wild cougars who were not habituated to humans, they did not exhibit threatening behavior to researchers who approached closely with a median distance of 18.5 m (61 ft) except in 6% of cases; 14⁄16 of those were females with cubs.
+- [W50.225] Attacks on people, livestock, and pets occur when a cougar habituates to humans or is in a condition of severe starvation.
+- [W50.226] Attacks are most frequent during late spring and summer when juvenile cougars leave their mothers and search for new territory.
+- [W50.227] Between 1890 and 1990 in North America, there were 53 reported, confirmed attacks on humans, resulting in 48 nonfatal injuries and 10 deaths of humans (the total is greater than 53 because some attacks had more than one victim).
+- [W50.228] By 2004, the count had climbed to 88 attacks and 20 deaths.
+- [W50.229] Within North America, the distribution of attacks is not uniform.
+- [W50.230] The heavily populated state of California saw a dozen attacks from 1986 to 2004 (after just three from 1890 to 1985), including three fatalities.
+- [W50.231] In March 2024, two brothers in California were attacked by a male cougar, with one being fatally wounded; it was the state's first fatal attack in 20 years.
+- [W50.232] Washington state was the site of a fatal attack in 2018, its first since 1924.
+- [W50.233] Lightly populated New Mexico reported an attack in 2008, the first there since 1974.
+- [W50.234] As with many predators, a cougar may attack if cornered, if a fleeing human stimulates their instinct to chase, or if a person "plays dead".
+- [W50.235] Standing still may cause the cougar to consider a person easy prey.
+- [W50.236] Exaggerating the threat to the animal through intense eye contact, loud shouting, and any other action to appear larger and more menacing, may make the animal retreat.
+- [W50.237] Fighting back with sticks and rocks, or even bare hands, is often effective in persuading an attacking cougar to disengage.
+- [W50.238] When cougars do attack, they usually employ their characteristic neck bite, attempting to position their teeth between the vertebrae and into the spinal cord.
+- [W50.239] Neck, head, and spinal injuries are common and sometimes fatal.
+- [W50.240] Children are at greatest risk of attack and least likely to survive an encounter.
+- [W50.241] Detailed research into attacks before 1991 showed that 64% of all victims – and almost all fatalities – were children.
+- [W50.242] The same study showed the highest proportion of attacks to have occurred in British Columbia, particularly on Vancouver Island, where cougar populations are especially dense.
+- [W50.243] Preceding attacks on humans, cougars display aberrant behavior, such as activity during daylight hours, a lack of fear of humans, and stalking humans.
+- [W50.244] There have sometimes been incidents of pet cougars mauling people.
+- [W50.245] Research on new wildlife collars may reduce human-animal conflicts by predicting when and where predatory animals hunt.
+- [W50.246] This may save the lives of humans, pets, and livestock, as well as the lives of these large predatory mammals that are important to the balance of ecosystems.
+- [W50.247] Cougars in the Southern Cone of South America are reputed to be extremely reluctant to attack people; in legend, they defended people against jaguars.
+- [W50.248] In the 19th century, Félix de Azara and William Henry Hudson thought that attacks on people, even children or sleeping adults, did not happen.
+- [W50.249] Hudson, citing anecdots from hunters, claimed that cougars were positively inhibited from attacking people, even in self-defense.
+- [W50.250] However, a few attacks on humans have occurred.
+- [W50.251] An early, authenticated, non-fatal case occurred near Lake Viedma in 1877 when a female mauled the Argentine scientist Francisco P.
+- [W50.252] Moreno; Moreno afterward showed the scars to Theodore Roosevelt.
+- [W50.253] In this instance, however, Moreno had been wearing a guanaco-hide poncho round his neck and head as protection against the cold; in Patagonia the guanaco is the puma's chief prey species.
+- [W50.254] Another authenticated case occurred in 1997 in Iguazú National Park in northeastern Argentina, when the 20-month-old son of a ranger was killed by a female puma.
+- [W50.255] Forensic analysis found specimens of the child's hair and clothing fibers in the animal's stomach.
+- [W50.256] The coatí is the puma's chief prey in this area.
+- [W50.257] Despite prohibitory signs, coatis are hand-fed by tourists in the park, causing unnatural approximation between cougars and humans.
+- [W50.258] This particular puma had been raised in captivity and released into the wild.
+- [W50.259] On March 13, 2012, Erica Cruz, a 23-year-old shepherdess was found dead in a mountainous area near Rosario de Lerma, Salta Province, in northwestern Argentina.
+- [W50.260] Claw incisions, which severed a jugular vein, indicated that the attacker was a felid; differential diagnosis ruled out other possible perpetrators.
+- [W50.261] There were no bite marks on the victim, who had been herding goats.
+- [W50.262] In 2019 in Córdoba Province, Argentina, an elderly man was badly injured by a cougar after he attempted to defend his dog from it, while in neighboring Chile a 28-year-old woman was attacked and killed in Corral, in Los Ríos Region, on October 20, 2020.
+- [W50.263] Fatal attacks by other carnivores, such as feral dogs, can be misattributed to cougars without appropriate forensic knowledge.
+- [W50.264] Predation on domestic animals
+- [W50.265] During the early years of ranching, cougars were considered on par with wolves in destructiveness.
+- [W50.266] According to figures in Texas in 1990, 86 calves (0.0006% of Texas's 13.4 million cattle and calves), 253 mohair goats, 302 mohair kids, 445 sheep (0.02% of Texas's 2 million sheep and lambs) and 562 lambs (0.04% of Texas's 1.2 million lambs) were confirmed to have been killed by cougars that year.
+- [W50.267] Some instances of surplus killing have resulted in the deaths of 20 sheep in one attack.
+- [W50.268] A cougar's killing bite is applied to the back of the neck, head, or throat and the cat inflicts puncture marks with its claws usually seen on the sides and underside of the prey, sometimes also shredding the prey as it holds on.
+- [W50.269] Coyotes also typically bite the throat, but the work of a cougar is generally clean, while bites inflicted by coyotes and dogs leave ragged edges.
+- [W50.270] The size of the tooth puncture marks also helps distinguish kills made by cougars from those made by smaller predators.
+- [W50.271] Remedial hunting appears to have the paradoxical effect of increased livestock predation and complaints of human-cougar conflicts.
+- [W50.272] In a 2013 study, the most important predictor of cougar problems was the remedial hunting of cougars the previous year.
+- [W50.273] Each additional cougar on the landscape increased predation and human-cougar complaints by 5%, but each animal killed during the previous year increased complaints by 50%.
+- [W50.274] The effect had a dose-response relationship with very heavy (100% removal of adult cougars) remedial hunting, leading to a 150–340% increase in livestock and human conflicts.
+- [W50.275] This effect is attributed to the removal of older cougars that have learned to avoid people and their replacement by younger males that react differently to humans.
+- [W50.276] Remedial hunting enables younger males to enter the former territories of the older animals.
+- [W50.277] Predation by cougars on dogs "is widespread, but occurs at low frequencies".
+- [W50.278] The grace and power of the cougar have been widely admired in the cultures of the indigenous peoples of the Americas.
+- [W50.279] The Inca city of Cusco is reported to have been designed in the shape of a cougar, and the animal also gave its name to both Inca regions and people.
+- [W50.280] The Moche people often represented the cougar in their ceramics.
+- [W50.281] The sky and thunder god of the Inca, Viracocha, has been associated with the animal.
+- [W50.282] In North America, mythological descriptions of the cougar have appeared in the stories of the Hoocąk ("Ho-Chunk" or "Winnebago") of Wisconsin and Illinois and the Cheyenne, among others.
+- [W50.283] To the Apache and Walapai of the Southwestern United States, the wail of the cougar was a harbinger of death.
+- [W50.284] The Algonquins and Ojibwe believe that the cougar lived in the underworld and was wicked, whereas it was a sacred animal among the Cherokee.
+- [W50.285] Mountain lions in the Santa Monica Mountains
+- [W50.286] IUCN/SSC Cat Specialist Group.
+- [W50.287] Archived from the original on July 31, 2018.
+- [W50.288] Retrieved December 15, 2014.
+- [W50.289] Cougar Tracks: How to identify cougar tracks in the wild
+- [W50.290] National Geographic Society.
+- [W50.291] Archived from the original on November 3, 2013.
+- [W50.292] Eastern Puma Research Network
+- [W50.293] Cougar Rewilding Foundation, formerly the "Eastern Cougar Foundation"
+- [W50.294] The Cougar Network --Using Science to Understand Cougar Ecology; Archived July 31, 2018, at the Wayback Machine
+- [W50.295] Archived from the original on July 31, 2018.
+- [W50.296] Retrieved December 11, 2010.
+- [W50.297] SaveTheCougar.org: Sightings of cougars in Michigan
+- [W50.298] The Cougar Fund – Protecting America's Greatest Cat.
+- [W50.299] A Definitive Resource About Cougars: Comprehensive, non-profit 501(c)(3) site with extensive information about cougars, from how to live safely in cougar country, to science abstracts, hunting regulations, state-by-state cougar management/policy info, and rare photos and videos of wild cougars.
+- [W50.300] Living with California Mountain Lions; Archived December 26, 2013, at the Wayback Machine
+- [W50.301] Oregon's first fatal cougar attack in the wild claims hiker near Mount Hood
+
+## [W51] Wikipedia: Jaguarundi
+https://en.wikipedia.org/w/index.php?title=Jaguarundi&oldid=1379697926 · CC BY-SA 4.0 · usage: ai_input
+
+- [W51.1] The jaguarundi (Herpailurus yagouaroundi;  or ) is a wild cat native to the Americas.
+- [W51.2] Its range extends from central Argentina in the south and much of South America east of the Andes, through Central America, and into northern Mexico.
+- [W51.3] It occurred in the Lower Rio Grande Valley in south Texas as recently as the early 1990s but is now believed to be extirpated from the US.
+- [W51.4] The jaguarundi is a medium-sized cat of slender build.
+- [W51.5] Its coloration is uniform with two color morphs, gray and red.
+- [W51.6] It has an elongated body, with relatively short legs, a small, narrow head, small, round ears, a short snout, and a long tail, resembling mustelids in these respects.
+- [W51.7] It is about twice as large as a domestic cat (Felis catus), reaching nearly 360 mm (14 in) at the shoulder, and weighs 3.5–7 kg (7.7–15.4 lb).
+- [W51.8] Secretive and alert, the jaguarundi is typically solitary or forms pairs in the wild; however, captive individuals are more gregarious.
+- [W51.9] Unlike other sympatric cats such as the ocelot, the jaguarundi is more active during the day and hunts mainly during daytime and evening hours.
+- [W51.10] Individuals live in large home ranges, and are sparsely distributed within a region.
+- [W51.11] The jaguarundi is an efficient climber, but typically prefers hunting on ground.
+- [W51.12] It feeds on various kinds of prey, especially ground-feeding birds, reptiles, rodents and small mammals.
+- [W51.13] Mating occurs throughout the year, with peaks at different times of the year across the range.
+- [W51.14] After a gestation period of 70 to 75 days, a litter of one to four kittens is born.
+- [W51.15] Lifespans of up to 15 years have been recorded in captivity.
+- [W51.16] The jaguarundi inhabits a broad array of both closed and open habitats ranging from tropical rainforests and deciduous forests to deserts and thorn scrubs.
+- [W51.17] It is fairly common in Brazil, Peru, and Venezuela, but may be extirpated from the United States.
+- [W51.18] It is listed as near threatened on the IUCN Red List, with populations in decline in many parts of its range due to loss and fragmentation of habitat, as well as persecution for killing poultry.
+- [W51.19] The common name "jaguarundi" comes from the Old Guarani word yaguarundi, similar to the Old Tupi word yawaum'di, meaning "dark jaguar".
+- [W51.20] The name is pronounced  or .
+- [W51.21] In some Spanish-speaking countries, the jaguarundi is also called gato colorado, gato moro, león breñero, leoncillo and tigrillo.
+- [W51.22] It is also called eyra, gato-mourisco, gato-preto, gato-vermelho and maracajá-preto in Brazilian Portuguese.
+- [W51.23] In 1803 Étienne Geoffroy Saint-Hilaire described two jaguarundi skins and skulls from unknown locations in Central America and proposed the scientific name Felis yagouarundi.
+- [W51.24] In the 19th and 20th centuries, several more zoological specimens were described:
+- [W51.25] Felis eyra proposed by Gotthelf Fischer von Waldheim in 1814 was a ferruginous skin from Paraguay.
+- [W51.26] F. cacomitli proposed by Jean-Louis Berlandier in 1859 was a skull and a grayish skin of a female jaguarundi from the Rio Grande area in Mexico.
+- [W51.27] F. yagouaroundi tolteca proposed by Oldfield Thomas in 1898 was a skull and a reddish skin from Sinaloa in Mexico.
+- [W51.28] Ameghinoi proposed by Eduardo Ladislao Holmberg in 1898 for fossil cat bones, presumably of a jaguarundi, that were excavated near San Luis, Argentina.
+- [W51.29] F. fossata by Edgar Alexander Mearns in 1901 was a large jaguarundi skull from Yucatán.
+- [W51.30] F. panamensis by Joel Asaph Allen in 1904 was a dusky gray skin of a young adult female jaguarundi collected in Panama's Chiriquí Province.
+- [W51.31] F. yagouaroundi melantho by Oldfield Thomas in 1914 were skulls and blackish brown skins of a male and a female from Pozuzo District in Peru.
+- [W51.32] The generic name Herpailurus was proposed by Nikolai Severtzov in 1858 for the jaguarundi.
+- [W51.33] Later authors classified the jaguarundi in the genus Puma along with the cougar (P. concolor).
+- [W51.34] Phylogeographical analysis of jaguarundi samples from across its range found no genetic evidence for subspecies.
+- [W51.35] In 2017, the IUCN Cat Specialist Group revised felid taxonomy and recognises the jaguarundi as a monotypic taxon of the genus Herpailurus.
+- [W51.36] The jaguarundi is most closely related to the cougar; the jaguarundi-cougar clade is sister to the cheetah.
+- [W51.37] These three species comprise the Puma lineage, one of the eight lineages of Felidae; the Puma lineage diverged from the rest 6.7 million years ago.
+- [W51.38] The sister group of the Puma lineage is a clade of smaller Old World cats that includes the genera Felis, Otocolobus and Prionailurus.
+- [W51.39] The three species of the Puma lineage may have had a common ancestor during the Miocene, about 8.25 million years ago.
+- [W51.40] Acinonyx possibly diverged from the lineage in the Americas; some authors alternatively suggest that the cheetah diverged in the Old World.
+- [W51.41] The Puma lineage appears to have migrated from Asia to North America after crossing the Bering Strait, arriving in South America via the Isthmus of Panama by the Late Pliocene or Early Pleistocene.
+- [W51.42] This was possibly followed by the bifurcation of the lineage into the cougar and Herpailurus (represented by H. pumoides) in South America around 4 to 3 million years ago between the Late Pliocene and Early Pleistocene.
+- [W51.43] H. pumoides went extinct around Middle Pleistocene, around the time the modern jaguarundi came into existence; the oldest fossils of the modern jaguarundi date back to the Late Pleistocene in Brazil around 0.5 million years ago.
+- [W51.44] The original North American cougars were extirpated during the Pleistocene extinctions around 10,000 years ago; North America was then recolonized by South American cougars and jaguarundis 10,000–8,000 years ago.
+- [W51.45] The extinct North American genus Miracinonyx is another member of this clade.
+- [W51.46] The jaguarundi is a medium-sized cat of slender build and uniform coloration that differs significantly from other neotropical cats—such as the small, spotted cats in the genus Leopardus—in its external appearance.
+- [W51.47] This has been attributed to variations in its karyotype—the jaguarundi has 38 chromosomes, unlike the 36 in other small South American cats, and the chromosomal features resemble those of Old World cats such as the leopard cat (Prionailurus bengalensis).
+- [W51.48] The jaguarundi has an elongated body with relatively short legs, a small, narrow head, small, round ears, a short snout and a long tail.
+- [W51.49] The head-and-body length is between 53 and 77 cm (21 and 30 in); the strong, muscular tail is 31–52 cm (12–20 in) long.
+- [W51.50] Around twice as large as the domestic cat, the jaguarundi reaches nearly 36 cm (14 in) at the shoulder and weighs 3.5–7 kg (7.7–15.4 lb), though larger individuals weighing around 9 kg (20 lb) have been reported.
+- [W51.51] Males are slightly larger than females.
+- [W51.52] The coat is uniformly colored with at most a few faint markings on the face and the belly, though kittens are spotted for a short duration.
+- [W51.53] Black and white marks on the lips and the snout, similar to those of the cougar, can be clearly seen in juveniles and some adults.
+- [W51.54] Two color morphs are known, viz gray ranging from blackish to brownish-gray fur with a grizzled look due to bright and dark rings on individual hairs, and red ranging from foxy red to chestnut; but intermediate shades have also been reported, and individuals of both colors can be born in the same litter.
+- [W51.55] Blackish brown individuals superficially resemble the tayra (Eira barbara), but the latter can be told apart by the clear, yellowish patch on the throat.
+- [W51.56] The red morph is seen more often in dry, open areas.
+- [W51.57] Melanistic individuals have been reported, but the coat is not completely black; the head and the throat are clearly paler than the rest of the body.
+- [W51.58] The widely spaced ears are 2.5–4 cm (0.98–1.57 in) long without any spots on the back.
+- [W51.59] The jaguarundi has 30 teeth with a dental formula of 3.1.3.13.1.2.1.
+- [W51.60] Among felids, the jaguarundi is closely similar to the flat-headed cat (Prionailurus planiceps), but has a longer body and proportionately longer legs, is heavier and lacks the dark markings on the cheeks of the flat-headed cat.
+- [W51.61] Tawny jaguarundis bear a similar coloration to the larger cougar.
+- [W51.62] The diploid number of chromosomes in jaguarundi is 2n=38.
+- [W51.63] The jaguarundi inhabits a wide variety of habitats, from tropical rainforests and deciduous forests to deserts and thorn scrubs.
+- [W51.64] It can also be found in cloud forests, mangroves and savannas.
+- [W51.65] Unlike the sympatric margay, ocelot and oncilla, the jaguarundi can live in open areas as well.
+- [W51.66] In open habitats the jaguarundi prefers areas with vegetative cover such as cacti, which would generally be difficult for potential predators to penetrate; there may be a few clearings at the periphery of such areas.
+- [W51.67] Jaguarundis tend to stay close to a source of running water.
+- [W51.68] The jaguarundi is noted for its resistance to environmental disturbances in its habitat; it can thrive in reforested areas.
+- [W51.69] While commonly inhabiting elevations from lowlands up to 2,000 m (6,600 ft), this cat has been reported at elevations as high as 3,200 m (10,500 ft) in Colombia.
+- [W51.70] The range extends from central Argentina in the south to northern Mexico, through Central and South America east of the Andes, second only to the cougar among cats in the latitudinal extent of its distribution.
+- [W51.71] However, not all parts of its range have been studied well.
+- [W51.72] The jaguarundi is fairly common in Brazil, Peru, and Venezuela.
+- [W51.73] It is possibly extirpated in the United States; a 1999 study refuted claims of sightings in Arizona, in the Huachuca Mountains in Santa Cruz County.
+- [W51.74] The last specimen collected in the U.S. was a roadkill near Brownsville, Texas, in 1986.
+- [W51.75] In 1994, the jaguarundi was thought to be represented in the lower Rio Grande Valley by no more than 15 individuals, and its survival there was doubtful.
+- [W51.76] It was declared extinct in Texas in 2025, but is thought to still be present in Santa Ana National Wildlife Refuge.
+- [W51.77] Jaguarundis have been sighted in Florida since the early 20th century.
+- [W51.78] Their presence there is attributed to a writer from Chiefland who at some point imported the animals from their native habitat and released them near his hometown and in other locations across the state.
+- [W51.79] While no physical evidence is known, numerous credible sightings have been reported beginning in 1907.
+- [W51.80] Neill noted that reliable sightings had decreased and concluded that the population had declined.
+- [W51.81] Jaguarundis have also been reported in the coastal area of Alabama since the 1980s, which may be evidence of the Florida population migrating northward.
+- [W51.82] The jaguarundi has also been recorded in Cerro Largo in Uruguay, where its presence was doubted.
+- [W51.83] The jaguarundi is shy and reclusive, and apparently very cautious of traps.
+- [W51.84] There have been only a few radio telemetry studies of jaguarundis in Belize, Brazil and Mexico.
+- [W51.85] Though activity has been observed throughout the day and at night, jaguarundis seem to prefer hunting during daytime and evening hours; for instance, a study in Belize reported that jaguarundis started moving before dawn and remained active through most of the day till sunset with a peak in hunting from late morning to noon.
+- [W51.86] The cat appears to be more diurnal than most other cats, especially spotted cats that tend to be more active at night.
+- [W51.87] The jaguarundi can swim across medium-sized rivers; one in Bolivia was recorded swimming across the Tuichi River.
+- [W51.88] Jaguarundis are efficient climbers as well, but hunt mainly on ground; the coat color works as a good camouflage for terrestrial activity.
+- [W51.89] They can leap up to 2 m (6 ft 7 in) into the air to catch birds.
+- [W51.90] Predators recorded for jaguarundis include Mexican west coast boa constrictors, cougars and domestic dogs.
+- [W51.91] Parasites such as hookworms (Ancylostoma species), tapeworms (such as Spirometra and Toxocara species) and the lung fluke have been found in jaguarundis.
+- [W51.92] Studies have mostly observed jaguarundis alone or in pairs; pairs could probably be formed between mothers and older kittens or between individuals of opposite sexes during the mating season.
+- [W51.93] Individuals in captivity have been found to be more gregarious.
+- [W51.94] Home ranges tend to be large; a study in Brazil recorded home ranges 1.4–18 km2 (0.54–6.95 sq mi) in size for females, while those of males measured 8.5–25.3 km2 (3.3–9.8 sq mi) in area.
+- [W51.95] Two males in Belize were recorded to have exceptionally large home ranges spanning an area of 88 km2 (34 sq mi) and 100 km2 (39 sq mi), while the home range of a female in the same region measured 13–20 km2 (5.0–7.7 sq mi) in size.
+- [W51.96] Population densities are typically low, around 0.01 to 0.05/km2 (0.026 to 0.129/sq mi) in Brazil, though Tamaulipas (Mexico) and the Llanos in Costa Rica and Venezuela have recorded figures as high as 0.2/km2 (0.52/sq mi).
+- [W51.97] Marking behavior could serve as a means of olfactory or visual communication among jaguarundis; individuals in captivity have been observed scraping areas with their hind feet (sometimes with urination), clawing on logs, rubbing objects with their heads and leaving feces uncovered.
+- [W51.98] Social behavior such as grooming, growling and sniffing has been recorded.
+- [W51.99] The jaguarundi has a broad vocal repertoire; 13 different calls have been recorded including chattering, purring, screaming, a 'wah-wah' call, whistling, yapping and a peculiar bird-like chirp.
+- [W51.100] In captivity, females in estrus have been observed making faint sounds as they scent mark the area around their enclosures.
+- [W51.101] The jaguarundi typically feeds on small-sized prey weighing less than 1 kg (2.2 lb), including ground-feeding birds, reptiles, frogs, arthropods, rodents and small mammals.
+- [W51.102] Jaguarundis will also take larger prey such as domestic poultry, fish, marmosets, rabbits and opossums; a study recorded small deer (possibly carrion) in the diet.
+- [W51.103] Vegetation such as grasses have also been recorded in their diet.
+- [W51.104] A study showed jaguarundis take 400 g (14 oz) of vertebrate prey on an average every day.
+- [W51.105] The jaguarundi seems to have a strong preference for mammals, as evidenced by an analysis of 14 papers, where it was found that nearly two thirds of its diet comprised small mammals.
+- [W51.106] In particular, rodents of the genus Oryzomys, Sigmodon and Zygodontomys were found to be the most targeted prey items in several range countries.
+- [W51.107] These rodents made up the bulk of the jaguarundi's diet in Venezuela, the Atlantic forests, the Cockscomb Basin and the southern Pacific dry forests.
+- [W51.108] The second most targeted mammalian prey were mice belonging to the genera Reithrodontomys, Peromyscus and Liomys.
+- [W51.109] On rare occasions, jaguarundis have been recorded consuming larger mammals such as the common opossum and common tapeti.
+- [W51.110] The broad array of prey recorded for the jaguarundi across its range and varying proportions of different prey in its diet could indicate that the cat tends to feed on the most abundant and easily catchable prey in the area.
+- [W51.111] Jaguarundis have been observed mating all year round, with peaks at different times of the year across the range; for instance, in Mexico breeding peaks in January and March.
+- [W51.112] Estrus lasts three to five days, marked by the female regularly rolling onto her back and spraying urine.
+- [W51.113] Sexually mature males will pursue the female, not reacting to any aggressive behavior from her side.
+- [W51.114] As in many other felids, the male bites the fur on the female's neck on mounting; the female lets out a loud scream on penetration.
+- [W51.115] After a gestation period of 70 to 75 days, a litter of one to four kittens is born in a den constructed in a dense thicket, hollow tree, or similar cover.
+- [W51.116] The kittens are covered well with fur and the underside is marked with spots, which disappear as they age; the coat color gradually changes as the kittens grow older.
+- [W51.117] The mother starts bringing solid food for the kittens when they are around three weeks old, but they simply play with it until the mother ultimately ingests it.
+- [W51.118] Kittens are capable of taking solid food like birds and guinea pigs at around six weeks.
+- [W51.119] Jaguarundis become sexually mature at one to three years of age.
+- [W51.120] Lifespan up to 15 years has been recorded in captivity.
+- [W51.121] The jaguarundi has been listed as near threatened on the IUCN Red List since 2026.
+- [W51.122] Mexican populations, except those in the northeast, appear to be stable.
+- [W51.123] The huge protected areas in the Amazon Basin are probably the only conservation units that can sustain long-term viable populations.
+- [W51.124] IUCN Red List assessors noted that it should be listed as Near Threatened, but the data were not sufficient to extend this classification throughout the jaguarundi's range.
+- [W51.125] The jaguarundi is not particularly sought after for its fur due to its poor quality and low value, but it is suffering decline due to habitat loss.
+- [W51.126] Other threats include risks of habitat fragmentation and persecution for killing poultry.
+- [W51.127] The North and Central American jaguarundi populations are listed in CITES Appendix I and all the other populations are listed in CITES Appendix II.
+- [W51.128] Populations in the US are protected under the Endangered Species Act; the Texas Parks and Wildlife Department has expressed concern that its presence in South Texas may be imperiled due to loss of the cat's native habitat.
+- [W51.129] Populations in Mexico are listed under the Mexican Official Norm NOM-059-SEMARNAT-2010.
+- [W51.130] Hunting jaguarundi is restricted in Peru and banned in Argentina, Belize, Brazil, Bolivia, Colombia, Costa Rica, French Guiana, Guatemala, Honduras, Mexico, Panama, Paraguay, Suriname, Uruguay, United States, and Venezuela.
+- [W51.131] "Jaguarundi Herpailurus yagouaroundi".
+- [W51.132] IUCN/SSC Cat Specialist Group.
+- [W51.133] Archived from the original on 2018-09-21.
+- [W51.134] Wild Cat Species and Distribution – South America.
+- [W51.135] Archived from the original on 7 November 2003.
+
+## [W52] Wikipedia: Jaguar
+https://en.wikipedia.org/w/index.php?title=Jaguar&oldid=1381544792 · CC BY-SA 4.0 · usage: ai_input
+
+- [W52.1] The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas.
+- [W52.2] Its coat features pale yellow to tan colored fur covered with spots that transition to rosettes on the sides; some individuals have a melanistic spotted coat.
+- [W52.3] With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat species in the Americas and the third largest in the world.
+- [W52.4] The jaguar's powerful bite allows it to pierce the carapaces of turtles and tortoises, and to employ an unusual killing method: it bites directly through the skull of mammalian prey between the ears to deliver a fatal blow to the brain.
+- [W52.5] The modern jaguar's ancestors probably entered the Americas from Eurasia during the Early Pleistocene via the land bridge that once spanned the Bering Strait.
+- [W52.6] The oldest jaguar fossils found in North America date to between 0.85 to 0.82 million years ago.
+- [W52.7] Today, the jaguar's range extends from the Southwestern United States across Mexico and much of Central America, the Amazon rainforest and south to Paraguay and northern Argentina.
+- [W52.8] It inhabits a variety of forested and open terrains, but its preferred habitat is tropical and subtropical moist broadleaf forest, wetlands and wooded regions.
+- [W52.9] It is adept at swimming and is largely a solitary, opportunistic, stalk-and-ambush apex predator.
+- [W52.10] As a keystone species, it plays an important role in stabilizing ecosystems and in regulating prey populations.
+- [W52.11] The jaguar is threatened by habitat loss, habitat fragmentation, poaching for trade with its body parts and killings in human–wildlife conflict situations, particularly with ranchers in Central and South America.
+- [W52.12] It has been listed as Near Threatened on the IUCN Red List since 2002.
+- [W52.13] The wild population is thought to have declined since the late 1990s.
+- [W52.14] Priority areas for jaguar conservation comprise 51 large areas inhabited by at least 50 breeding individuals, called Jaguar Conservation Units.
+- [W52.15] They are located in 36 geographic regions from Mexico to Argentina.
+- [W52.16] The jaguar has featured prominently in the mythology of indigenous peoples of the Americas, including those of the Aztec and Maya civilizations.
+- [W52.17] The word "jaguar" is possibly derived from the Tupi-Guarani word yaguara meaning 'wild beast that overcomes its prey at a bound'.
+- [W52.18] Because jaguar also applies to other animals, indigenous peoples in Guyana call it jaguareté, with the added sufix eté, meaning "true beast".
+- [W52.19] "Onca" is derived from the Portuguese name onça for a spotted cat that is larger than a lynx; cf. ounce.
+- [W52.20] The word "panther" is derived from classical Latin panthēra, itself from the ancient Greek πάνθηρ (pánthēr).
+- [W52.21] In North America, the word is pronounced with two syllables, as , while in British English, it is pronounced with three, as .
+- [W52.22] In 1758, Carl Linnaeus described the jaguar in his work Systema Naturae and gave it the scientific name Felis onca.
+- [W52.23] In the 19th and 20th centuries, several jaguar type specimens formed the basis for descriptions of subspecies.
+- [W52.24] In 1939, Reginald Innes Pocock recognized eight subspecies based on the geographic origins and skull morphology of these specimens.
+- [W52.25] Pocock did not have access to sufficient zoological specimens to critically evaluate their subspecific status but expressed doubt about the status of several.
+- [W52.26] Later consideration of his work suggested only three subspecies should be recognized.
+- [W52.27] The description of P. o. palustris was based on a fossil skull.
+- [W52.28] By 2005, nine subspecies were considered to be valid taxa:
+- [W52.29] P. o. onca (Linnaeus, 1758) the type specimen was a jaguar from Brazil.
+- [W52.30] P. o. peruviana (De Blainville, 1843) the type specimen was a jaguar skull from Peru.
+- [W52.31] P. o. hernandesii (Gray, 1857) the type specimen was a jaguar from Mazatlán in Mexico.
+- [W52.32] P. o. palustris (Ameghino, 1888) the type specimen was a fossil jaguar mandible excavated in the Sierras Pampeanas of Córdova District, Argentina.
+- [W52.33] P. o. centralis (Mearns, 1901) the type specimen was a skull of a male jaguar from Talamanca, Costa Rica.
+- [W52.34] P. o. goldmani (Mearns, 1901) the type specimen was a jaguar skin from Yohatlan in Campeche, Mexico.
+- [W52.35] P. o. paraguensis (Hollister, 1914) the type specimen was a skull of a male jaguar from Paraguay.
+- [W52.36] P. o. arizonensis (Goldman, 1932) the type specimen was a skin and skull of a male jaguar from the vicinity of Cibecue, Arizona.
+- [W52.37] P. o. veraecrucis (Nelson and Goldman, 1933) the type specimen was a skull of a male jaguar from San Andrés Tuxtla in Mexico.
+- [W52.38] Reginald Innes Pocock placed the jaguar in the genus Panthera and observed that it shares several morphological features with the leopard (P. pardus).
+- [W52.39] He, therefore, concluded that they are most closely related to each other.
+- [W52.40] Results of morphological and genetic research indicate a clinal north–south variation between populations, but no evidence for subspecific differentiation.
+- [W52.41] DNA analysis of 84 jaguar samples from South America revealed that the gene flow between jaguar populations in Colombia was high in the past.
+- [W52.42] Since 2017, the jaguar is considered to be a monotypic taxon, though the modern Panthera onca onca is still distinguished from two fossil subspecies, Panthera onca augusta and Panthera onca mesembrina.
+- [W52.43] However, the 2024 study suggested that the validity of subspecific assignments on both P. o. augusta and P. o. mesembrina remains unresolved, since both fossil and living jaguars show a considerable variation in morphometry.
+- [W52.44] The Panthera lineage is estimated to have genetically diverged from the common ancestor of the Felidae around 9.32 to 4.47 million years ago to 11.75 to 0.97 million years ago.
+- [W52.45] Some genetic analyses place the jaguar as a sister species to the lion with which it diverged 3.46 to 1.22 million years ago, but other studies place the lion closer to the leopard.
+- [W52.46] The lineage of the jaguar appears to have originated in Africa and spread to Eurasia 1.95–1.77 mya.
+- [W52.47] The living jaguar species is often suggested to have descended from the Eurasian Panthera gombaszogensis.
+- [W52.48] The ancestor of the jaguar entered the American continent via Beringia, the land bridge that once spanned the Bering Strait, Some authors have disputed the close relationship between P. gombaszogensis (which is primarily known from Eurasia) and the modern jaguar.
+- [W52.49] The oldest fossils of modern jaguars (P. onca) have been found in North America dating between 850,000-820,000 years ago.
+- [W52.50] Results of mitochondrial DNA analysis of 37 jaguars indicate that current populations evolved between 510,000 and 280,000 years ago in northern South America and subsequently recolonized North and Central America after the extinction of jaguars there during the Late Pleistocene.
+- [W52.51] Two extinct subspecies of jaguar are recognized in the fossil record: the North American P. o. augusta and South American P. o. mesembrina.
+- [W52.52] The oldest jaguar fossil from the rancholabrean age has been estimated to be 38,600 years old and was excavated at Oregon Caves National Monument and Preserve.
+- [W52.53] The jaguar is a compact and muscular animal.
+- [W52.54] It is the largest cat native to the Americas and the third largest in the world, exceeded in size only by the tiger and the lion.
+- [W52.55] It stands 57 to 81 cm (22.4 to 31.9 in) tall at the shoulders.
+- [W52.56] Its size and weight vary considerably depending on sex and region: weights in most regions are normally in the range of 56–96 kg (123–212 lb).
+- [W52.57] Exceptionally big males have been recorded to weigh as much as 158 kg (348 lb).
+- [W52.58] The smallest females from Middle America weigh about 36 kg (79 lb).
+- [W52.59] It is sexually dimorphic, with females typically being 10–20% smaller than males.
+- [W52.60] The length from the nose to the base of the tail varies from 1.12 to 1.85 m (3.7 to 6.1 ft).
+- [W52.61] The tail is 45 to 75 cm (17.7 to 29.5 in) long and the shortest of any big cat.
+- [W52.62] Its muscular legs are shorter than the legs of other Panthera species with similar body weight.
+- [W52.63] Size tends to increase from north to south.
+- [W52.64] Jaguars in the Chamela-Cuixmala Biosphere Reserve on the Pacific coast of central Mexico weighed around 50 kg (110 lb).
+- [W52.65] Jaguars in Venezuela and Brazil are much larger, with average weights of about 95 kg (209 lb) in males and of about 56–78 kg (123–172 lb) in females.
+- [W52.66] The jaguar's coat ranges from pale yellow to tan or reddish-yellow, with a whitish underside and covered in black spots.
+- [W52.67] The spots and their shapes vary: on the sides, they become rosettes which may include one or several dots.
+- [W52.68] The spots on the head and neck are generally solid, as are those on the tail where they may merge to form bands near the end and create a black tip.
+- [W52.69] They are elongated on the middle of the back, often connecting to create a median stripe, and blotchy on the belly.
+- [W52.70] These patterns serve as camouflage in areas with dense vegetation and patchy shadows.
+- [W52.71] Jaguars living in forests are often darker and considerably smaller than those living in open areas, possibly due to the smaller numbers of large, herbivorous prey in forest areas.
+- [W52.72] The jaguar closely resembles the leopard but is generally more robust, with stockier limbs and a more square head.
+- [W52.73] The rosettes on a jaguar's coat are larger, darker, fewer in number and have thicker lines, with a small spot in the middle.
+- [W52.74] It has powerful jaws with the third-highest bite force of all felids, after the tiger and the lion.
+- [W52.75] It has an average bite force at the canine tip of 887.0 Newton and a bite force quotient at the canine tip of 118.6.
+- [W52.76] A 100 kg (220 lb) jaguar can bite with a force of 4.939 kN (1,110 lbf) with the canine teeth and 6.922 kN (1,556 lbf) at the carnassial notch.
+- [W52.77] Melanistic jaguars are also known as black panthers.
+- [W52.78] The black morph is less common than the spotted one.
+- [W52.79] Black jaguars have been documented in Central and South America.
+- [W52.80] Melanism in the jaguar is caused by deletions in the melanocortin 1 receptor gene and inherited through a dominant allele.
+- [W52.81] Black jaguars occur at higher densities in tropical rainforest and are more active during the daytime.
+- [W52.82] This suggests that melanism provides camouflage in the deep shadows of dense vegetation with high illumination.
+- [W52.83] In 2004, a camera trap in the Sierra Madre Occidental mountains photographed the first documented black jaguar in Northern Mexico.
+- [W52.84] Black jaguars were also photographed in Costa Rica's Alberto Manuel Brenes Biological Reserve, in the mountains of the Cordillera de Talamanca, in Barbilla National Park and in eastern Panama.
+- [W52.85] In 1999, the jaguar's historic range at the turn of the 20th century was estimated at 19,000,000 km2 (7,300,000 sq mi), stretching from the southern United States through Central America to southern Argentina.
+- [W52.86] By the turn of the 21st century, its global range had decreased to about 8,750,000 km2 (3,380,000 sq mi), with most declines occurring in the southern United States, northern Mexico, northern Brazil, and southern Argentina.
+- [W52.87] Its present range extends from the United States, Mexico, through Central America to South America comprising Belize, Guatemala, Honduras, Nicaragua, Costa Rica, particularly on the Osa Peninsula, Panama, Colombia, Venezuela, Guyana, Suriname, French Guiana, Ecuador, Peru, Bolivia, Brazil, Paraguay and Argentina.
+- [W52.88] It is considered to be locally extinct in El Salvador and Uruguay.
+- [W52.89] Jaguars have been occasionally sighted in Arizona, New Mexico and Texas, with 62 accounts reported in the 20th century.
+- [W52.90] Between 2012 and 2015, a male vagrant jaguar was recorded in 23 locations in the Santa Rita Mountains.
+- [W52.91] Eight jaguars were photographed in the southwestern US between 1996 and 2024.
+- [W52.92] The jaguar prefers dense forest and typically inhabits dry deciduous forests, tropical and subtropical moist broadleaf forests, rainforests and cloud forests in Central and South America; open, seasonally flooded wetlands, dry grassland and historically also oak forests in the United States.
+- [W52.93] It has been recorded at elevations up to 3,800 m (12,500 ft) but avoids montane forests.
+- [W52.94] It favors riverine habitat and swamps with dense vegetation cover.
+- [W52.95] In the Mayan forests of Mexico and Guatemala, 11 GPS-collared jaguars preferred undisturbed dense habitat away from roads; females avoided even areas with low levels of human activity, whereas males appeared less disturbed by human population density.
+- [W52.96] A young male jaguar was also recorded in the semi-arid Sierra de San Carlos at a waterhole.
+- [W52.97] In the 19th century, the jaguar was still sighted at the North Platte River 48–80 km (30–50 miles) north of Longs Peak in Colorado, in coastal Louisiana, northern Arizona and New Mexico.
+- [W52.98] Multiple verified zoological reports of the jaguar are known in California, two as far north as Monterey in 1814 and 1826.
+- [W52.99] The only record of an active jaguar den with breeding adults and kittens in the United States was in the Tehachapi Mountains of California prior to 1860.
+- [W52.100] The jaguar persisted in California until about 1860.
+- [W52.101] The last confirmed jaguar in Texas was shot in 1948, 4.8 km (3 miles) southeast of Kingsville, Texas.
+- [W52.102] In Arizona, a female was shot in the White Mountains in 1963.
+- [W52.103] By the late 1960s, the jaguar was thought to have been extirpated in the United States.
+- [W52.104] Arizona outlawed jaguar hunting in 1969, but by then no females remained, and over the next 25 years only two males were sighted and killed in the state.
+- [W52.105] In 1996, a rancher and hunting guide from Douglas, Arizona came across a jaguar in the Peloncillo Mountains and became a researcher on jaguars, placing trail cameras, which recorded four more jaguars.
+- [W52.106] Historical photographs indicate that the jaguar occurred in the Brazilian state of Santa Catarina until at least 1984.
+- [W52.107] The jaguar is mostly active at night and during twilight.
+- [W52.108] However, jaguars living in densely forested regions of the Amazon rainforest and the Pantanal are largely active by day, whereas jaguars in the Atlantic Forest are primarily active by night.
+- [W52.109] The activity pattern of the jaguar coincides with the activity of its main prey species.
+- [W52.110] Jaguars are good swimmers and play and hunt in the water, possibly more than tigers.
+- [W52.111] They have been recorded moving between islands and the shore, swimming distances of at least 1.3km.
+- [W52.112] Jaguars are also good at climbing trees but do so less often than cougars.
+- [W52.113] The adult jaguar is an apex predator, meaning it is at the top of the food chain and is not preyed upon in the wild.
+- [W52.114] The jaguar has also been termed a keystone species, as it is assumed that it controls the population levels of prey such as herbivorous and seed-eating mammals and thus maintains the structural integrity of forest systems.
+- [W52.115] However, field work has shown this may be natural variability, and the population increases may not be sustained.
+- [W52.116] Thus, the keystone predator hypothesis is not accepted by all scientists.
+- [W52.117] The jaguar is sympatric with the cougar.
+- [W52.118] In central Mexico, both prey on white-tailed deer, which makes up 54% and 66% of jaguar and cougar's prey, respectively.
+- [W52.119] In northern Mexico, the jaguar and the cougar share the same habitat, and their diet overlaps dependent on prey availability.
+- [W52.120] Jaguars seemed to prefer deer and calves.
+- [W52.121] In Mexico and Central America, neither of the two cats are considered to be the dominant predator.
+- [W52.122] In South America, the jaguar is larger than the cougar and tends to take larger prey, usually over 22 kg (49 lb).
+- [W52.123] The cougar's prey usually weighs between 2 and 22 kg (4 and 49 lb), which is thought to be the reason for its smaller size.
+- [W52.124] This situation may be advantageous to the cougar.
+- [W52.125] Its broader prey niche, including its ability to take smaller prey, may give it an advantage over the jaguar in human-altered landscapes.
+- [W52.126] The jaguar is an obligate carnivore and depends solely on flesh for its nutrient requirements.
+- [W52.127] The daily food requirement of a captive jaguar weighing 34 kg (75 lb) was estimated at 1.4 kg (3.1 lb) of meat.
+- [W52.128] An analysis of 53 studies documenting the diet of the jaguar revealed that its prey ranges in weight from 1 to 130 kg (2.2 to 286.6 lb); it prefers prey weighing 45–85 kg (99–187 lb), with the capybara and the giant anteater being the most selected.
+- [W52.129] When available, it also preys on marsh deer, southern tamandua, collared peccary and black agouti.
+- [W52.130] In floodplains, it opportunistically takes reptiles such as green anaconda, caiman and turtle species.
+- [W52.131] In the Brazilian Pantanal, it primarily feeds on aquatic reptiles and fish including thorny catfish, small-scaled pacu, red-bellied piranha and barred catfish.
+- [W52.132] It also preys on livestock in cattle ranching areas where wild prey is scarce.
+- [W52.133] The jaguar's bite force allows it to pierce the carapaces of the yellow-spotted Amazon river turtle and the yellow-footed tortoise.
+- [W52.134] It employs an unusual killing method: it bites mammalian prey directly through the skull between the ears to deliver a fatal bite to the brain.
+- [W52.135] It kills capybara by piercing its canine teeth through the temporal bones of its skull, breaking its zygomatic arch and mandible and penetrating its brain, often through the ears.
+- [W52.136] It has been hypothesized to be an adaptation to cracking open turtle shells; armored reptiles may have formed an abundant prey base for the jaguar following the late Pleistocene extinctions.
+- [W52.137] However, this is disputed, as even in areas where the jaguar preys on reptiles, it more frequently takes mammals in spite of the greater reptile abundance.
+- [W52.138] Between October 2001 and April 2004, 10 jaguars were monitored in the southern Pantanal.
+- [W52.139] In the dry season from April to September, they killed prey at intervals ranging from one to seven days; and ranging from one to 16 days in the wet season from October to March.
+- [W52.140] The jaguar uses a stalk-and-ambush strategy when hunting rather than chasing prey.
+- [W52.141] The cat will slowly walk down forest paths, listening for and stalking prey before rushing or ambushing.
+- [W52.142] The jaguar attacks from cover and usually from a target's blind spot with a quick pounce; the species' ambushing abilities are considered nearly peerless in the animal kingdom by both indigenous people and field researchers and are probably a product of its role as an apex predator in several different environments.
+- [W52.143] The ambush may include leaping into water after prey, as a jaguar is capable of carrying a large kill while swimming; it is strong enough to haul carcasses as large as a heifer up a tree to avoid flood levels.
+- [W52.144] After killing the prey, it drags the carcass to a thicket or other secluded spot.
+- [W52.145] It begins eating at the neck and chest, consumes heart and lungs, followed by the shoulders.
+- [W52.146] The jaguar is generally solitary except for females with cubs.
+- [W52.147] In 1977, groups consisting of a male, female and cubs, and two females with two males were sighted several times in a study area in the Paraguay River valley; a radio-collared female moved in a home range of 25–38 km2 (9.7–14.7 sq mi), which partly overlapped with another female.
+- [W52.148] The home range of the male in this study area overlapped with several females.
+- [W52.149] In the Venezuelan Llanos and Brazilian Pantanal, male coalitions were detected, which marked, defended and invaded territories together, hunted together and mated with several females.
+- [W52.150] The jaguar uses scrape marks, urine, and feces to mark its territory.
+- [W52.151] The size of home ranges depends on the level of deforestation and human population density.
+- [W52.152] The home ranges of females vary from 15.3 km2 (5.9 sq mi) in the Pantanal to 53.6 km2 (20.7 sq mi) in the Amazon to 233.5 km2 (90.2 sq mi) in the Atlantic Forest.
+- [W52.153] Male jaguar home ranges vary from 25 km2 (9.7 sq mi) in the Pantanal to 180.3 km2 (69.6 sq mi) in the Amazon to 591.4 km2 (228.3 sq mi) in the Atlantic Forest and 807.4 km2 (311.7 sq mi) in the Cerrado.
+- [W52.154] Studies employing GPS telemetry in 2003 and 2004 found densities of only six to seven jaguars per 100 km (62 mi) in the Pantanal region, compared with 10 to 11 using traditional methods; this suggests the widely used sampling methods may inflate the actual numbers of individuals in a sampling area.
+- [W52.155] Fights between males occur but are rare, and avoidance behavior has been observed in the wild.
+- [W52.156] In one wetland population with degraded territorial boundaries and more social proximity, adults of the same sex are more tolerant of each other and engage in more friendly and co-operative interactions.
+- [W52.157] The jaguar roars or grunts for long-distance communication; intensive bouts of counter-calling between individuals have been observed in the wild.
+- [W52.158] This vocalization is described as "hoarse" with five or six guttural notes.
+- [W52.159] Prusten is produced by individuals when greeting, during courtship display, or by a mother comforting her cubs.
+- [W52.160] This sound is described as low intensity snorts, possibly intended to signal tranquility and passivity.
+- [W52.161] Adults also growl during courtship and mating, while cubs bleat, gurgle and meow.
+- [W52.162] Female jaguars also meow to keep in contact with their offspring.
+- [W52.163] Reproduction and life cycle
+- [W52.164] In captivity, the female jaguar is recorded to reach sexual maturity at the age of about 2.5 years.
+- [W52.165] Estrus lasts 7–15 days with an estrus cycle of 41.8 to 52.6 days.
+- [W52.166] During estrus, she exhibits increased restlessness with rolling and prolonged vocalizations.
+- [W52.167] She is an induced ovulator but can also ovulate spontaneously.
+- [W52.168] Gestation lasts 91 to 111 days.
+- [W52.169] The male is sexually mature at the age of three to four years.
+- [W52.170] His mean ejaculate volume is 8.6±1.3 ml.
+- [W52.171] Generation length of the jaguar is 9.8 years.
+- [W52.172] In the Pantanal, breeding pairs were observed to stay together for up to five days.
+- [W52.173] Females had one to two cubs.
+- [W52.174] The young are born with closed eyes but open them after two weeks.
+- [W52.175] Cubs are weaned at the age of three months but remain in the birth den for six months before leaving to accompany their mother on hunts.
+- [W52.176] Jaguars remain with their mothers for up to two years.
+- [W52.177] They appear to rarely live beyond 11 years, but captive individuals may live 22 years.
+- [W52.178] In 2001, a male jaguar killed and partially consumed two cubs in Emas National Park.
+- [W52.179] DNA paternity testing of blood samples revealed that the male was the father of the cubs.
+- [W52.180] Two more cases of infanticide were documented in the northern Pantanal in 2013.
+- [W52.181] To defend against infanticide, the female hides her cubs and distracts the male with courtship behavior.
+- [W52.182] The Spanish conquistadors feared the jaguar.
+- [W52.183] According to Charles Darwin, the indigenous peoples of South America stated that people did not need to fear the jaguar as long as capybaras were abundant.
+- [W52.184] The first official record of a jaguar killing a human in Brazil dates to June 2008.
+- [W52.185] Two children were attacked by jaguars in Guyana.
+- [W52.186] The majority of known attacks on people happened when it had been cornered or wounded.
+- [W52.187] The jaguar is threatened by loss and fragmentation of habitat, illegal killing in retaliation for livestock depredation and for illegal trade in jaguar body parts.
+- [W52.188] It is listed as Near Threatened on the IUCN Red List since 2002, as the jaguar population has probably declined by 20–25% since the mid-1990s.
+- [W52.189] Deforestation is a major threat to the jaguar across its range.
+- [W52.190] Habitat loss was most rapid in drier regions such as the Argentine pampas, the arid grasslands of Mexico and the southwestern United States.
+- [W52.191] In 2002, it was estimated that the range of the jaguar had declined to about 46% of its range in the early 20th century.
+- [W52.192] In 2018, it was estimated that its range had declined by 55% in the last century.
+- [W52.193] The only remaining stronghold is the Amazon rainforest, a region that is rapidly being fragmented by deforestation.
+- [W52.194] Between 2000 and 2012, forest loss in the jaguar range amounted to 83.759 km2 (32.340 sq mi), with fragmentation increasing in particular in corridors between Jaguar Conservation Units (JCUs).
+- [W52.195] By 2014, direct linkages between two JCUs in Bolivia were lost, and two JCUs in northern Argentina became completely isolated due to deforestation.
+- [W52.196] In Mexico, the jaguar is primarily threatened by poaching.
+- [W52.197] Its habitat is fragmented in northern Mexico, in the Gulf of Mexico and the Yucatán Peninsula, caused by changes in land use, construction of roads and tourism infrastructure.
+- [W52.198] In Panama, 220 of 230 jaguars were killed in retaliation for predation on livestock between 1998 and 2014.
+- [W52.199] In Venezuela, the jaguar was extirpated in about 26% of its range in the country since 1940, mostly in dry savannas and unproductive scrubland in the northeastern region of Anzoátegui.
+- [W52.200] In Ecuador, the jaguar is threatened by reduced prey availability in areas where the expansion of the road network facilitated access of human hunters to forests.
+- [W52.201] In the Alto Paraná Atlantic forests, at least 117 jaguars were killed in Iguaçu National Park and the adjacent Misiones Province between 1995 and 2008.
+- [W52.202] Some Afro-Colombians in the Colombian Chocó Department hunt jaguars for consumption and sale of meat.
+- [W52.203] Between 2008 and 2012, at least 15 jaguars were killed by livestock farmers in central Belize.
+- [W52.204] The international trade of jaguar skins boomed between the end of the Second World War and the early 1970s.
+- [W52.205] Significant declines occurred in the 1960s, as more than 15,000 jaguars were yearly killed for their skins in the Brazilian Amazon alone; the trade in jaguar skins decreased since 1973 when the Convention on International Trade in Endangered Species was enacted.
+- [W52.206] Interview surveys with 533 people in the northwestern Bolivian Amazon revealed that local people killed jaguars out of fear, in retaliation, and for trade.
+- [W52.207] Between August 2016 and August 2019, jaguar skins and body parts were seen for sale in tourist markets in the Peruvian cities of Lima, Iquitos and Pucallpa.
+- [W52.208] Human-wildlife conflict, opportunistic hunting and hunting for trade in domestic markets are key drivers for killing jaguars in Belize and Guatemala.
+- [W52.209] Seizure reports indicate that at least 857 jaguars were involved in trade between 2012 and 2018, including 482 individuals in Bolivia alone; 31 jaguars were seized in China.
+- [W52.210] Between 2014 and early 2019, 760 jaguar fangs were seized that originated in Bolivia and were destined for China.
+- [W52.211] Undercover investigations revealed that the smuggling of jaguar body parts is run by Chinese residents in Bolivia.
+- [W52.212] The jaguar is listed on CITES Appendix I, which means that all international commercial trade in jaguars or their body parts is prohibited.
+- [W52.213] Hunting jaguars is prohibited in Argentina, Brazil, Colombia, French Guiana, Honduras, Nicaragua, Panama, Paraguay, Suriname, the United States, and Venezuela.
+- [W52.214] Hunting jaguars is restricted in Guatemala and Peru.
+- [W52.215] In Ecuador, hunting jaguars is prohibited, and it is classified as threatened with extinction.
+- [W52.216] In Guyana, it is protected as an endangered species, and hunting it is illegal.
+- [W52.217] In 1986, the Cockscomb Basin Wildlife Sanctuary was established in Belize as the world's first protected area for jaguar conservation.
+- [W52.218] In 1999, field scientists from 18 jaguar range countries determined the most important areas for long-term jaguar conservation based on the status of jaguar population units, stability of prey base and quality of habitat.
+- [W52.219] These areas, called "Jaguar Conservation Units" (JCUs), are large enough for at least 50 breeding individuals and range in size from 566 to 67,598 km2 (219 to 26,100 sq mi); 51 JCUs were designated in 36 geographic regions including:
+- [W52.220] the Sierra Madre Occidental and Sierra de Tamaulipas in Mexico
+- [W52.221] the Selva Maya tropical forests extending over Mexico, Belize and Guatemala
+- [W52.222] the Chocó–Darién moist forests from Honduras and Panama to Colombia
+- [W52.223] northern Cerrado and Amazon basin in Brazil
+- [W52.224] Tropical Andes in Bolivia and Peru
+- [W52.225] Misiones Province in Argentina
+- [W52.226] Optimal routes of travel between core jaguar population units were identified across its range in 2010 to implement wildlife corridors that connect JCUs.
+- [W52.227] These corridors represent areas with the shortest distance between jaguar breeding populations, require the least possible energy input of dispersing individuals and pose a low mortality risk.
+- [W52.228] They cover an area of 2,600,000 km2 (1,000,000 sq mi) and range in length from 3 to 1,102 km (1.9 to 684.8 mi) in Mexico and Central America and from 489.14 to 1,607 km (303.94 to 998.54 mi) in South America.
+- [W52.229] Cooperation with local landowners and municipal, state, or federal agencies is essential to maintain connected populations and prevent fragmentation in both JCUs and corridors.
+- [W52.230] Seven of 13 corridors in Mexico are functioning with a width of at least 14.25 km (8.85 mi) and a length of no more than 320 km (200 mi).
+- [W52.231] The other corridors may hamper passage, as they are narrower and longer.
+- [W52.232] In August 2012, the United States Fish and Wildlife Service set aside 3,392.20 km2 (838,232 acres) in Arizona and New Mexico for the protection of the jaguar.
+- [W52.233] The Jaguar Recovery Plan was published in April 2019, in which Interstate 10 is considered to form the northern boundary of the Jaguar Recovery Unit in Arizona and New Mexico.
+- [W52.234] In Mexico, a national conservation strategy was developed from 2005 on and published in 2016.
+- [W52.235] The Mexican jaguar population increased from an estimated 4,000 individuals in 2010 to about 4,800 individuals in 2018.
+- [W52.236] This increase is seen as a positive effect of conservation measures that were implemented in cooperation with governmental and non-governmental institutions and landowners.
+- [W52.237] An evaluation of JCUs from Mexico to Argentina revealed that they overlap with high-quality habitats of about 1,500 mammals to varying degrees.
+- [W52.238] Since co-occurring mammals benefit from the JCU approach, the jaguar has been called an umbrella species.
+- [W52.239] Central American JCUs overlap with the habitat of 187 of 304 regional endemic amphibian and reptile species, of which 19 amphibians occur only in the jaguar range.
+- [W52.240] In setting up protected reserves, efforts generally also have to be focused on the surrounding areas, as jaguars are unlikely to confine themselves to the bounds of a reservation, especially if the population is increasing in size.
+- [W52.241] Human attitudes in the areas surrounding reserves and laws and regulations to prevent poaching are essential to make conservation areas effective.
+- [W52.242] To estimate population sizes within specific areas and to keep track of individual jaguars, camera trapping and wildlife tracking telemetry are widely used, and feces are sought out with the help of detection dogs to study jaguar health and diet.
+- [W52.243] Current conservation efforts often focus on educating ranch owners and promoting ecotourism.
+- [W52.244] Conservationists and professionals in Mexico and the United States have established the 56,000 acres (23,000 ha) Northern Jaguar Reserve in northern Mexico.
+- [W52.245] Advocacy for reintroduction of the jaguar to its former range in Arizona and New Mexico have been supported by documentation of natural migrations by individual jaguars into the southern reaches of both states, the recency of extirpation from those regions by human action, and supportive arguments pertaining to biodiversity, ecological, human, and practical considerations.
+- [W52.246] In the pre-Columbian Americas, the jaguar was a symbol of power and strength.
+- [W52.247] In the Andes, a jaguar cult disseminated by the early Chavín culture became accepted over most of today's Peru by 900 BC.
+- [W52.248] The later Moche culture in northern Peru used the jaguar as a symbol of power in many of their ceramics.
+- [W52.249] In the Muisca religion in Altiplano Cundiboyacense, the jaguar was considered a sacred animal, and people dressed in jaguar skins during religious rituals.
+- [W52.250] The skins were traded with peoples in the nearby Orinoquía Region.
+- [W52.251] The name of the Muisca ruler Nemequene was derived from the Chibcha words nymy and quyne, meaning "force of the jaguar".
+- [W52.252] Sculptures with "Olmec were-jaguar" motifs were found on the Yucatán Peninsula in Veracruz and Tabasco; they show stylized jaguars with half-human faces.
+- [W52.253] In the later Maya civilization, the jaguar was known as balam or bolom in many of the Mayan languages, and was used to symbolize warriors and the elite class for being brave, fierce and strong.
+- [W52.254] It was associated with the underworld and its image was used to decorate tombs and grave-good vessels.
+- [W52.255] The Aztec civilization called the jaguar ocelotl and considered it to be the king of the animals.
+- [W52.256] It was believed to be fierce and courageous, but also wise, dignified and careful.
+- [W52.257] The military had two classes of warriors, the ocelotl or jaguar warriors and the cuauhtli or eagle warriors and each dressed like their representative animal.
+- [W52.258] In addition, members of the royal class would decorate in jaguar skins.
+- [W52.259] The jaguar was considered to be the totem animal of the powerful deities Tezcatlipoca and Tepeyollotl.
+- [W52.260] A conch shell gorget depicting a jaguar was found in a burial mound in Benton County, Missouri.
+- [W52.261] The gorget shows evenly-engraved lines and measures 104 mm × 98 mm (4.1 in × 3.9 in).
+- [W52.262] Rock drawings made by the Hopi, Anasazi and Pueblo all over the desert and chaparral regions of the American Southwest show an explicitly spotted cat, presumably a jaguar, as it is drawn much larger than an ocelot.
+- [W52.263] IUCN Cat Specialist Group.
+- [W52.264] Archived from the original on 7 March 2015.
+- [W52.265] Retrieved 15 December 2014.
+- [W52.266] People and Jaguars a Guide for Coexistence
+
+## [W53] Wikipedia: Wolverine
+https://en.wikipedia.org/w/index.php?title=Wolverine&oldid=1380748405 · CC BY-SA 4.0 · usage: ai_input
+
+- [W53.1] The wolverine ( WUUL-və-reen, US also  WUUL-və-REEN; Gulo gulo), also called the carcajou or quickhatch (from East Cree, kwiihkwahaacheew), is the largest land-dwelling member of the family Mustelidae.
+- [W53.2] It is a muscular carnivore and a solitary animal.
+- [W53.3] The wolverine has a reputation for ferocity and strength out of proportion to its size, with the documented ability to kill prey many times larger than itself.
+- [W53.4] The wolverine is found primarily in remote reaches of the northern boreal forests and subarctic and alpine tundra of the Northern Hemisphere, with the greatest numbers in Northern Canada, the U.S. state of Alaska, the mainland Nordic countries of Europe, and throughout western Russia and Siberia.
+- [W53.5] Its population has steadily declined since the 19th century owing to trapping, range reduction and habitat fragmentation.
+- [W53.6] The wolverine has become essentially absent from the southern end of its range in both Europe and North America.
+- [W53.7] The wolverine's questionable reputation as an insatiable glutton (reflected in its Latin genus name Gulo, meaning "glutton") may be in part due to a false etymology.
+- [W53.8] The less common name for the animal in Norwegian, fjellfross, meaning "mountain cat", is thought to have worked its way into German as Vielfraß, which means "glutton" (literally "devours much").
+- [W53.9] Its name in other West Germanic languages is similar (e.g.
+- [W53.10] The Finnish name is ahma, derived from ahmatti, which is translated as "glutton".
+- [W53.11] Similarly, the Estonian name is ahm, with the equivalent meaning to the Finnish name.
+- [W53.12] In Lithuanian, it is ernis; in Latvian, tinis or āmrija.
+- [W53.13] The Eastern Slavic росомаха (rosomakha) and the Polish and Czech name rosomák seem to be borrowed from the Finnish rasva-maha (fat belly).
+- [W53.14] Similarly, the Hungarian name is rozsomák or torkosborz which means "gluttonous badger".
+- [W53.15] In French-speaking parts of Canada, the wolverine is referred to as carcajou, borrowed from the Innu-aimun or Montagnais kuàkuàtsheu.
+- [W53.16] However, in France, the wolverine's name is glouton (glutton).
+- [W53.17] Purported gluttony is reflected neither in the English name wolverine nor in the names used in North Germanic languages.
+- [W53.18] The English word wolverine (alteration of the earlier form, wolvering, of uncertain origin) probably implies "a little wolf".
+- [W53.19] The name in Proto-Norse, erafaz and Old Norse, jarfr, lives on in the regular Icelandic name jarfi, regular Norwegian name jerv, regular Swedish name järv and regular Danish name jærv.
+- [W53.20] Taxonomy and evolutionary history
+- [W53.21] Genetic evidence suggests that the wolverine is most closely related to the tayra and martens, all of which shared a Eurasian ancestor.
+- [W53.22] There are two subspecies: the Old World form, Gulo gulo gulo, and the New World form, G. g. luscus.
+- [W53.23] Some authors had described as many as four additional North American subspecies, including ones limited to Vancouver Island (G. g. vancouverensis) and the Kenai Peninsula in Alaska (G. g. katschemakensis).
+- [W53.24] However, the most accepted taxonomy recognizes either the two continental subspecies or G. gulo as a single Holarctic taxon.
+- [W53.25] Recently compiled genetic evidence suggests most of North America's wolverines are descended from a single source, likely originating from Beringia during the last glaciation and rapidly expanding thereafter, though considerable uncertainty to this conclusion is due to the difficulty of collecting samples in the extremely depleted southern extent of the range.
+- [W53.26] Anatomically, the wolverine is an elongated animal that is low to the ground.
+- [W53.27] With strong limbs, broad and rounded head, small eyes and short rounded ears, it most closely resembles a large fisher.
+- [W53.28] Though its legs are short, its large, five-toed paws with crampon-like claws and plantigrade posture enable it to climb up and over steep cliffs, trees and snow-covered peaks with relative ease.
+- [W53.29] The adult wolverine is about the size of a medium dog, with a body length ranging from 65–109 cm (26–43 in); standing 36–45 cm (14–18 in) at the shoulder; and a tail length of 17–26 cm (6+1⁄2–10 in).
+- [W53.30] Weight is usually 11–18 kg (24–40 lb) in males, and in females 8–12 kg (18–26 lb).
+- [W53.31] Exceptionally large males of as much as 32 kg (71 lb) are referenced in Soviet literature, though such weights are deemed in Mammals of the Soviet Union to be improbable.
+- [W53.32] The males are often 10–15% larger than the females in linear measurements and can be 30–40% greater in weight.
+- [W53.33] According to some sources, Eurasian wolverines are claimed to be larger and heavier than those in North America, with weights of up to 20 kg (44 lb).
+- [W53.34] However, this may refer more specifically to areas such as Siberia, as data from Fennoscandian wolverines shows they are typically around the same size as their American counterparts.
+- [W53.35] It is the largest of terrestrial mustelids; only the marine-dwelling sea otter, the giant otter of the Amazon basin and the semi-aquatic African clawless otter are larger—while the European badger may reach a similar body mass, especially in autumn.
+- [W53.36] Wolverines have thick, dark, oily fur which is highly hydrophobic, making it resistant to frost.
+- [W53.37] This has led to its traditional popularity among hunters and trappers as a lining in jackets and parkas in Arctic conditions.
+- [W53.38] A light-silvery facial mask is distinct in some individuals, and a pale buff stripe runs laterally from the shoulders along the side and crossing the rump just above a 25–35 cm (10–14 in) bushy tail.
+- [W53.39] Some individuals display prominent white hair patches on their throats or chests.
+- [W53.40] Like many other mustelids, it has potent anal scent glands used for marking territory and sexual signaling.
+- [W53.41] The pungent odor has given rise to the nicknames "skunk bear" and "nasty cat." The anal gland secretion for the samples obtained from six animal's secretion was complex and variable: 123 compounds were detected in total, with the number per animal ranging from 45 to 71 compounds.
+- [W53.42] Only six compounds were common to all extracts: 3-methylbutanoic acid, 2-methylbutanoic acid, phenylacetic acid, alpha-tocopherol, cholesterol, and a compound tentatively identified as 2-methyldecanoic acid.
+- [W53.43] The highly odoriferous thietanes and dithiolanes found in anal gland secretions of some members of the Mustelinae [ferrets, mink, stoats, and weasels (Mustela spp.) and zorillas (Ictonyx spp.)] were not observed.
+- [W53.44] The composition of the wolverine's anal gland secretion is similar to that of two other members of the Mustelinae, the pine and beech marten (Martes spp.)
+- [W53.45] Wolverines, like other mustelids, possess a special upper molar in the back of the mouth that is rotated 90 degrees, towards the inside of the mouth.
+- [W53.46] This special characteristic allows wolverines to tear off meat from prey or carrion that has been frozen solid.
+- [W53.47] Wolverines have the highest compressive strength per trabecular bone volumetric fraction (A 10mm high × 5mm diameter cylinder) at the mandibular condyle among all carnivore mammals at 940.8 Newtons, followed by the cheetah at 784.4 Newtons, the Malagasy civet at 714.4 Newtons, the honey badger at 710.8 Newtons and the kinkajou at 693.2 Newtons.
+- [W53.48] Wolverines live primarily in isolated arctic, boreal, and alpine regions of northern Canada, Alaska, Siberia, and Fennoscandia; they are also native to European Russia, the Russian Far East, northeast China and Mongolia.
+- [W53.49] Wolverine remains have been found in Ukraine, but they were extirpated and it is unclear whether the wolverines would have formed sustainable populations.
+- [W53.50] The species was present in Scotland until 6,000 BC.
+- [W53.51] Unique records of encounters with wolverines have been noted in Latvia, the most recent one being in late July 2022 (although it can be disputed because of the unclear footage); the population was widespread in the 16th and 17th centuries, but it is no longer native to the area.
+- [W53.52] Most New World wolverines live in Canada and Alaska.
+- [W53.53] However, wolverines were once recorded as also being present in Colorado, areas of the southwestern United States (Arizona and New Mexico); the Midwest (Indiana, Nebraska, North and South Dakota, Ohio, Minnesota, and Wisconsin); New England (Maine, New Hampshire, Vermont, and Massachusetts); and in New York and Pennsylvania.
+- [W53.54] In the Sierra Nevada, wolverines were sighted near Winnemucca Lake in spring 1995 and at Toe Jam Lake north of the Yosemite border in 1996; and later photographed by baited cameras, including in 2008 and 2009, near Lake Tahoe.
+- [W53.55] Fish and Wildlife Service publication, "wolverines are found in the North Cascades in Washington and the Northern Rocky Mountains in Idaho, Montana, Oregon (Wallowa Range), and Wyoming.
+- [W53.56] Individual wolverines have also moved into historic range in the Sierra Nevada Mountains of California and the Southern Rocky Mountains of Colorado, but have not established breeding populations in these areas".
+- [W53.57] In 2022, Colorado Parks and Wildlife considered plans to reintroduce the wolverine to the state.
+- [W53.58] Wolverines are also found in Utah but are very rarely seen, with only six confirmed sightings since the first confirmed sighting in 1979.
+- [W53.59] Three of these six confirmed Utah sightings have been caught on video.
+- [W53.60] A wolverine, a male, was finally captured and tagged in Utah in 2022 before being released back into the wild to better understand the animal's range.
+- [W53.61] In August 2020, the National Park Service reported that wolverines had been sighted at Mount Rainier, Washington, for the first time in more than a century.
+- [W53.62] The sighting was of a reproductive female and her two offspring.
+- [W53.63] In 2004, the first confirmed sighting of a wolverine in Michigan since the early 19th century took place when a Michigan Department of Natural Resources wildlife biologist photographed a wolverine in Ubly, Michigan.
+- [W53.64] The specimen was found dead at the Minden City State Game Area in Sanilac County, Michigan, in 2010.
+- [W53.65] Wolverines are primarily scavengers.
+- [W53.66] Most of their food is carrion, especially in winter and early spring.
+- [W53.67] They may find carrion themselves, feed on it after the predator (often, a wolf pack) has finished, or simply take it from another predator.
+- [W53.68] Wolverines are known to follow wolf and lynx trails to scavenge the remains of their kills.
+- [W53.69] Whether eating live prey or carrion, the wolverine's feeding style appears voracious, leading to the nickname of "glutton" (also the basis of the scientific name).
+- [W53.70] However, this feeding style is believed to be an adaptation to food scarcity, especially in winter.
+- [W53.71] The wolverine is also a powerful and versatile predator.
+- [W53.72] Its prey mainly consists of small to medium-sized mammals, but wolverines have been recorded killing prey many times larger than themselves, such as adult deer.
+- [W53.73] Prey species include porcupines, squirrels, chipmunks, beavers, marmots, moles, gophers, rabbits, voles, mice, rats, shrews, lemmings, caribou, roe deer, white-tailed deer, mule deer, sheep, goats, cattle, bison, moose, and elk.
+- [W53.74] Smaller predators are occasionally preyed on, including martens, mink, foxes, Eurasian lynx, weasels, coyote, and wolf pups.
+- [W53.75] Wolverines have also been known to kill Canada lynx in the Yukon of Canada.
+- [W53.76] Wolverines often pursue live prey that are relatively easy to obtain, including animals caught in traps, newborn mammals, and deer (including adult moose and elk) when they are weakened by winter or immobilized by heavy snow.
+- [W53.77] Their diets are sometimes supplemented by birds' eggs, birds (especially geese), roots, seeds, insect larvae, and berries.
+- [W53.78] Adult wolverines appear to be one of the few mammalian carnivores to pose an active threat to golden eagles.
+- [W53.79] Wolverines were observed to prey on nestling golden eagles in Denali National Park.
+- [W53.80] During incubation in Northern Sweden, an incubating adult golden eagle was killed in its nest by a wolverine.
+- [W53.81] Wolverines inhabiting the Old World (specifically, Fennoscandia) hunt more actively than their North American relatives.
+- [W53.82] This may be because competing predator populations in Eurasia are less dense, making it more practical for the wolverine to hunt for itself than to wait for another animal to make a kill and then try to snatch it.
+- [W53.83] They often feed on carrion left by wolves, so changes in wolf populations may affect the population of wolverines.
+- [W53.84] They are also known on occasion to eat plant material.
+- [W53.85] Wolverines often cache their food during times of plenty.
+- [W53.86] This is of particular importance to lactating females in the winter and early spring, a time when food is scarce.
+- [W53.87] Wolverines are induced ovulators.
+- [W53.88] Successful males will form lifetime relationships with two or three females, which they will visit occasionally, while other males are left without a mate.
+- [W53.89] Mating season is in the summer, but the actual implantation of the embryo (blastocyst) in the uterus is stayed until early winter, delaying the development of the fetus.
+- [W53.90] Females will often not produce young if food is scarce.
+- [W53.91] The gestation period is 30–50 days, and litters of typically two or three young ("kits") are born in the spring.
+- [W53.92] Kits develop rapidly, reaching adult size within the first year.
+- [W53.93] The typical longevity of a wolverine in captivity is around 15 to 17 years, but in the wild the average lifespan is more likely between 8 and 10 years.
+- [W53.94] Fathers make visits to their offspring until they are weaned at 10 weeks of age; also, once the young are about six months old, some reconnect with their fathers and travel together for a time.
+- [W53.95] Wolves, American black bears, brown bears and cougars are capable of killing adult wolverines, while smaller predators (like golden eagles) can kill young and inexperienced individuals.
+- [W53.96] Wolves are thought to be the wolverine's most important natural predator, with the arrival of wolves to a wolverine's territory presumably leading the latter to abandon the area.
+- [W53.97] Armed with powerful jaws, sharp claws, and a thick hide, wolverines, like most mustelids, are remarkably strong for their size.
+- [W53.98] They may defend against larger or more numerous predators such as wolves or bears.
+- [W53.99] By far, their most serious predator is the grey wolf, with an extensive record of wolverine fatalities attributed to wolves in both North America and Eurasia.
+- [W53.100] It has been reported that packs of grey wolves occasionally kill wolverines, either to defend their kills or to protect dens containing their own pups.
+- [W53.101] In North America, another (less frequent) predator is the cougar.
+- [W53.102] At least one account reported a wolverine's apparent attempt to steal a kill from a black bear, although the bear won what was ultimately a fatal contest for the wolverine.
+- [W53.103] There are a few accounts of brown bears killing and consuming wolverines as well and, although also reported at times to be chased off prey, in some areas such as Denali National Park, wolverines seemed to try to actively avoid encounters with grizzly bears as they have been reported in areas where wolves start hunting them.
+- [W53.104] Wolverines have been observed to use urine as a scent-marking behavior.
+- [W53.105] Headspace analysis of the volatiles emanating from urine samples identified 19 potential semiochemicals.
+- [W53.106] The major classes of identified chemicals are the ketones: 2-heptanone, 4-heptanone and 4-nonanone and the monoterpenes: alpha-pinene, beta-pinene, limonene, linalool and geraniol.
+- [W53.107] In other mammals, the excretion of these terpenes is unusual.
+- [W53.108] The conifer needles that are found in wolverine scat are likely the source of these monoterpenes.
+- [W53.109] The world's total wolverine population is not known.
+- [W53.110] The animal exhibits a low population density and requires a very large home range.
+- [W53.111] The wolverine is listed by the IUCN as Least Concern because of its "wide distribution, remaining large populations, and the unlikelihood that it is in decline at a rate fast enough to trigger even Near Threatened".
+- [W53.112] The range of a male wolverine can be more than 620 km2 (240 sq mi), encompassing the ranges of several females which have smaller home ranges of roughly 130–260 km2 (50–100 mi2).
+- [W53.113] Adult wolverines try for the most part to keep nonoverlapping ranges with adults of the same sex.
+- [W53.114] Radio tracking suggests an animal can range hundreds of miles in a few months.
+- [W53.115] Female wolverines burrow into snow in February to create a den, which is used until weaning in mid-May.
+- [W53.116] Areas inhabited nonseasonally by wolverines are thus restricted to zones with late-spring snowmelts.
+- [W53.117] This fact has led to concern that global warming will shrink the ranges of wolverine populations.
+- [W53.118] This requirement for large territories brings wolverines into conflict with human development, and hunting and trapping further reduce their numbers, causing them to disappear from large parts of their former range; attempts to have them declared an endangered species have met with little success.
+- [W53.119] In February 2013, the United States Fish and Wildlife Service proposed giving Endangered Species Act protections to the wolverine due to its winter habitat in the northern Rockies diminishing.
+- [W53.120] This was as a result of a lawsuit brought by the Center for Biological Diversity and Defenders of Wildlife.
+- [W53.121] In November 2023, the United States Fish and Wildlife Service announced that it was adding the wolverine in the United States Lower 48 states to the threatened list.
+- [W53.122] The Wildlife Conservation Society reported in June 2009 that a wolverine researchers had been tracking for almost three months had crossed into northern Colorado.
+- [W53.123] Society officials had tagged the young male wolverine in Wyoming near Grand Teton National Park, and it had traveled southward for about 500 miles (800 km).
+- [W53.124] It was the first wolverine seen in Colorado since 1919, and its appearance was also confirmed by the Colorado Division of Wildlife.
+- [W53.125] In May 2016 the same wolverine was killed by a cattle ranch-hand in North Dakota, ending a greater-than-800-mile (1,300 km) trip by this lone male wolverine, dubbed M-56.
+- [W53.126] This was the first verified sighting of a wolverine in North Dakota in 150 years.
+- [W53.127] In February 2014, a wolverine was seen in Utah, the first confirmed sighting in that state in 30 years.
+- [W53.128] In 2024, Colorado's state government passed a bill authorizing the reintroduction of wolverines into the state.
+- [W53.129] As of February 2026, Colorado Parks and Wildlife plans to release 15 wolverines annually over the course of three years.
+- [W53.130] This will be the first attempt to reintroduce wolverines to a region where they have been extirpated.
+- [W53.131] Around a hundred wolverines are held in zoos across North America and Europe, and they have been bred in captivity, but only with difficulty and high infant mortality.
+- [W53.132] Many North American cities, sports teams, and organizations use the wolverine as a mascot.
+- [W53.133] For example, the US state of Michigan is, by tradition, known as "the Wolverine State", and the University of Michigan takes the animal as its mascot.
+- [W53.134] There have also been professional baseball and football clubs called the "Wolverines".
+- [W53.135] The association is well and long established: for example, many Detroiters volunteered to fight during the American Civil War and George Armstrong Custer, who led the Michigan Brigade, called them the "Wolverines".
+- [W53.136] The origins of this association are obscure; it may derive from a busy trade in wolverine furs in Sault Ste.
+- [W53.137] Marie in the 18th century or may recall a disparagement intended to compare early settlers in Michigan with the vicious mammal.
+- [W53.138] Wolverines are, however, extremely rare in Michigan.
+- [W53.139] A sighting in February 2004 near Ubly was the first confirmed sighting in Michigan in 200 years.
+- [W53.140] The animal was found dead in 2010.
+- [W53.141] The Marvel Comics superhero James "Logan" Howlett was given the nickname "Wolverine" while cage fighting because of his skill, short stature, keen animal senses, ferocity, and most notably, claws that retract from both sets of knuckles.
+- [W53.142] The wolverine is prevalent in stories and oral history from various Algonquian tribes and figures prominently in the mythology of the Innu people of eastern Quebec and Labrador.
+- [W53.143] The wolverine is known as Kuekuatsheu, a conniving trickster who created the world.
+- [W53.144] The story of the formation of the Innu world begins long ago when Kuekuatsheu built a big boat similar to Noah's Ark and put all the various animal species in it.
+- [W53.145] There was a great deal of rain, and the land was flooded.
+- [W53.146] Kuekuatsheu told a mink to dive into the water to retrieve some mud and rocks which he mixed together to create an island, which is the world that is presently inhabited along with all the animals.
+- [W53.147] Many tales of Kuekuatsheu are often humorous and irreverent and include crude references to bodily functions.
+- [W53.148] Some Northeastern tribes, such as the Miꞌkmaq and Passamaquoddy, refer to the wolverine as Lox, who usually appears in tales as a trickster and thief (although generally more dangerous than its Innu counterpart) and is often depicted as a companion to the wolf.
+- [W53.149] Similarly, the Dené, a group of the Athabaskan-speaking natives of northwestern Canada, have many stories of the wolverine as a trickster and cultural transformer much like the coyote in the Navajo tradition or raven in Northwest Coast traditions.
+- [W53.150] Large Carnivore Initiative for Europe: Wolverine: scientific articles about wolverines
+- [W53.151] Forest Service Wolverine research
+- [W53.152] Gulo gulo Animal Diversity Web, University of Michigan Museum of Zoology.
+- [W53.153] Accessed 8 September 2012.
+
+## [W54] Wikipedia: European pine marten
+https://en.wikipedia.org/w/index.php?title=European_pine_marten&oldid=1381131359 · CC BY-SA 4.0 · usage: ai_input
+
+- [W54.1] The European pine marten (Martes martes), also known as the pine marten, is a mustelid native to and widespread in most of Europe, Asia Minor, the Caucasus, and parts of Iran, Iraq, and Syria.
+- [W54.2] It is listed as Least Concern on the IUCN Red List.
+- [W54.3] It is less commonly known as baum marten or sweet marten.
+- [W54.4] The European pine marten's fur is usually light to dark brown.
+- [W54.5] It is short and coarse in the summer, growing longer and silkier during the winter.
+- [W54.6] It has a cream- to yellow-coloured "bib" marking on its throat.
+- [W54.7] Its body is up to 53 cm (21 in) long, with a bushy tail of about 25 cm (9.8 in).
+- [W54.8] It weighs around 1.5–1.7 kg (3.3–3.7 lb); males are slightly larger than females.
+- [W54.9] It has excellent senses of sight, smell, and hearing.
+- [W54.10] The European pine marten was for many years common only in northwestern Scotland.
+- [W54.11] A study in 2012 found that it has spread from the Scottish Highlands north into Sutherland and Caithness and southeastwards from the Great Glen into Moray, Aberdeenshire, Perthshire, Tayside, and Stirlingshire, with some in the Central Belt, on the Kintyre and Cowal peninsulas, and on the islands of Skye and Mull.
+- [W54.12] The expansion in the Galloway Forest has been limited compared with that in the core marten range.
+- [W54.13] Martens were reintroduced to the Glen Trool Forest in the early 1980s and only restricted spread has occurred from there.
+- [W54.14] In England, the European pine marten was considered to be extinct.
+- [W54.15] Analysis of a scat found at Kidland Forest in Northumberland in June 2010 may represent either a recolonisation from Scotland, or a relict population that has escaped notice previously.
+- [W54.16] There have been numerous reported sightings of European pine martens in Cumbria over the years; however, only in 2011 was scat found and DNA-tested, followed in October 2022 by images of a European pine marten in Grizedale Forest.
+- [W54.17] In July 2015, the first confirmed sighting of a European pine marten in England for over a century was recorded by an amateur photographer in the woodlands of Shropshire.
+- [W54.18] Sightings have continued in the area and juveniles were recorded in 2019, indicating a breeding population.
+- [W54.19] In July 2017, footage of a live European pine marten was captured by a camera trap in the North York Moors in Yorkshire; in March 2018, the first ever footage of a European pine marten in Northumberland was captured by the Back from the Brink pine marten project.
+- [W54.20] The European pine marten's presence in Southern England's New Forest was confirmed in 2021, and they are now breeding there.
+- [W54.21] In September 2022, the first European pine marten to be seen in London in a century was spotted by the Zoological Society of London's wildlife cameras as part of a hedgehog monitoring program.
+- [W54.22] The Kent Wildlife Trust in collaboration with the Sussex Wildlife Trust announced a project in February 2024 to assess the feasibility of reintroducing European pine martens to South East England.
+- [W54.23] There is a small population of the European pine marten in Wales.
+- [W54.24] Scat found in Cwm Rheidol forest in 2007 was confirmed by DNA testing to be from a European pine marten.
+- [W54.25] A male was found in 2012 as road kill near Newtown, Powys.
+- [W54.26] This was the first confirmation in Wales of the species, living or dead, since 1971.
+- [W54.27] The Vincent Wildlife Trust (VWT) has begun a reinforcement of these mammals in the mid-Wales area.
+- [W54.28] During autumn 2015, 20 European pine martens were captured in Scotland, in areas where a healthy European pine marten population occurs, under licence from Scottish Natural Heritage.
+- [W54.29] These individuals were translocated and released in an area of mid-Wales.
+- [W54.30] All of the martens were fitted with radio collars and are being tracked daily to monitor their movements and find out where they have set up territories.
+- [W54.31] During autumn 2016, the VWT planned to capture and release another 20 European pine martens in the hope of creating a self-sustaining population.
+- [W54.32] Following the success of these projects, 35 European pine martens were reintroduced between 2019 and 2021 to the Forest of Dean in South West England where they were last seen in 1860, with the hope that in time they will merge with the growing population in Wales to form a contiguous presence.
+- [W54.33] After successful breeding every year, by 2023 their numbers were estimated to be approaching 60.
+- [W54.34] In 2024, Devon Wildlife Trust began reintroducing European pine martens onto Dartmoor and Exmoor after centuries of absence.
+- [W54.35] The European pine marten is still quite rare on the island of Ireland, but the population is recovering and spreading.
+- [W54.36] Its traditional strongholds are in the west and south, especially the Burren and Killarney National Park, but the population in the Midlands has significantly increased in recent years.
+- [W54.37] The predation of eastern grey squirrels by European pine martens has been beneficial for the population of the native red squirrel.
+- [W54.38] The European pine marten is the only mustelid with semiretractable claws.
+- [W54.39] This enables them to lead more arboreal lifestyles, such as climbing or running on tree branches, although they are also relatively quick runners on the ground.
+- [W54.40] They are mainly active at night and dusk.
+- [W54.41] They have small, rounded, highly sensitive ears and sharp teeth adapted for eating small mammals, birds, insects, frogs, and carrion.
+- [W54.42] They have also been known to eat berries, fruits, birds' eggs, nuts, and honey.
+- [W54.43] The European pine marten is territorial and marks its home range by depositing feces.
+- [W54.44] Its scat is black and twisted.
+- [W54.45] The recovery of the European pine marten in Ireland has been credited with reducing the population of invasive grey squirrels.
+- [W54.46] Where the range of the expanding European pine marten population meets that of the grey squirrel, the population of the grey squirrels quickly retreats and the red squirrel population recovers.
+- [W54.47] Because the grey squirrel spends more time on the ground than the red squirrel, which co-evolved with the pine marten, they are thought to be far more likely to come in contact with this predator.
+- [W54.48] The European pine marten has lived to 18 years in captivity, but the maximum age recorded in the wild is only 11 years, with 3–4 years being more typical.
+- [W54.49] They reach sexual maturity at 2–3 years of age.
+- [W54.50] Copulation usually occurs on the ground and can last more than an hour.
+- [W54.51] Mating occurs in July and August, but the fertilized egg does not enter the uterus for about 7 months.
+- [W54.52] The young are usually born in late March or early April, in litters of one to five, after a month-long gestation period that happens after the implantation of the fertilized egg.
+- [W54.53] Young European pine martens weigh around 30 g (1.1 oz) at birth.
+- [W54.54] The young begin to emerge from their dens around 7–8 weeks after birth and are able to disperse from the den around 12–16 weeks after their birth.
+- [W54.55] Larger mammalian predators and birds of prey, such as Eurasian lynx, wolverine, red fox, golden eagle, Eurasian eagle-owl, Eurasian goshawk and white-tailed eagle, prey on European pine martens, especially young individuals.
+- [W54.56] Humans are the greatest threat to the European pine marten.
+- [W54.57] They are vulnerable to conflict with humans arising from predator control for other species, or following predation of livestock and the use of inhabited buildings for denning.
+- [W54.58] Martens may also be affected by woodland loss, which results in habitat loss for the animal.
+- [W54.59] Persecution (illegal poisoning and shooting), loss of habitat leading to fragmentation, and other human disturbances have caused a considerable decline in the European pine marten population.
+- [W54.60] In some areas, they are also prized for their very fine fur.
+- [W54.61] In the UK, European pine martens and their dens are offered full protection under the Wildlife and Countryside Act 1981 and the Environmental Protection Act 1990.
+- [W54.62] The European pine marten is one of the national symbols of Croatia and appears on the Croatian euro coins.
+- [W54.63] Previously, the European pine marten appeared on the obverse side of the 1-, 2-, 5-, and 25-Croatian kuna, the word "kuna" meaning "marten" in Croatian.
+- [W54.64] Princeton University Press.
+
+## [W55] Wikipedia: European badger
+https://en.wikipedia.org/w/index.php?title=European_badger&oldid=1379706027 · CC BY-SA 4.0 · usage: ai_input
+
+- [W55.1] The European badger (Meles meles), also known as the Eurasian badger, is a species of badger in the family Mustelidae native to Europe and West Asia and parts of Central Asia.
+- [W55.2] It is classified as least concern on the IUCN Red List due to its wide range and large, stable population size which is thought to be increasing in some regions.
+- [W55.3] Several subspecies are recognised, with the nominate subspecies (M. m. meles) predominating in most of Europe.
+- [W55.4] In the UK it is the only extant species, and is simply known as the "badger".
+- [W55.5] The European badger is a powerfully built animal with a small head, stocky body, small black eyes and short tail, and a coat of black, white, brown, and grey fur.
+- [W55.6] Its weight varies, ranging from 7–13 kg (15–29 lb) in spring to 15–17 kg (33–37 lb) in autumn before the winter sleep period.
+- [W55.7] It is nocturnal and social, living in burrows and sleeping during the day in one of several setts within its territory.
+- [W55.8] These burrows have multiple chambers and entrances and comprise extensive systems of underground passages measuring 35–81 m (115–266 ft) in length.
+- [W55.9] Several badger families use these setts for decades.
+- [W55.10] Badgers are particular about the cleanliness of their burrows, carrying in fresh bedding and removing soiled material.
+- [W55.11] They defecate in latrines situated strategically outside their setts or en route to others.
+- [W55.12] Although the European badger is taxonomically classified as a carnivoran, it is actually an omnivore that feeds on a  variety of plant and animal foods, including earthworms, large insects, small mammals, carrion, cereals, and tubers.
+- [W55.13] Litters of up to five cubs are born in spring.
+- [W55.14] The young are weaned after a few months, but they usually remain within the family group.
+- [W55.15] European badgers have been known to share their burrows with other species, such as rabbits, red foxes, and raccoon dogs.
+- [W55.16] However, they can be ferocious when provoked, a trait that was exploited in the now illegal blood sport of badger-baiting.
+- [W55.17] Like many wild and domesticated mammals, badgers can carry bovine tuberculosis, which can spread between species and be particularly detrimental to cattle.
+- [W55.18] In England, badger populations are culled in an attempt to reduce the incidence of bovine tuberculosis in cattle, although the efficacy of this practice is sometimes disputed, and badger culls are considered cruel and inhumane by some people.
+- [W55.19] The source of the word "badger" is uncertain.
+- [W55.20] The Oxford English Dictionary states that it probably derives from "badge" + -ard, in reference to the white mark on its forehead that resembles a badge.
+- [W55.21] This etymology may date to the early 16th century.
+- [W55.22] The French word bêcheur ('digger') has also been suggested as a source.
+- [W55.23] A male badger is a boar, a female is a sow, and a young badger is a cub.
+- [W55.24] A badger's home is called a sett.
+- [W55.25] Badger colonies are often called clans.
+- [W55.26] The far older name "brock" (Old English: brocc, Scots: brock) is a Celtic loanword (cf.
+- [W55.27] Gaelic broc and Welsh broch, from Proto-Celtic *brokko) meaning 'grey'.
+- [W55.28] The Proto-Germanic term was *þahsu- (cf.
+- [W55.29] German Dachs, Dutch das, Norwegian svin-toks; Early Modern English dasse), probably from the PIE root *tek'- 'to construct', which suggests that the badger was named after its digging of setts (tunnels); the Germanic term *þahsu- became taxus or taxō, -ōnis in Latin glosses, replacing mēlēs ('marten' or 'badger'), and from these words the common Romance terms for the animal evolved (Italian tasso, French tesson/taisson/tasson—now blaireau is more common—, Catalan toixó, Spanish tejón, Portuguese texugo) except Asturian melandru.
+- [W55.30] Until the mid-18th century, the European badger was known by various names in English, including brock, pate, grey, and bawson.
+- [W55.31] The name "bawson" is derived from "bawsened", meaning striped with white.
+- [W55.32] "Pate" is a local name that was once popular in northern England.
+- [W55.33] The name "badget" was once common, but only used in Norfolk, while "earth dog" was used in southern Ireland.
+- [W55.34] The badger is commonly referred to in Welsh as a mochyn daear ('earth pig').
+- [W55.35] Ursus meles was the scientific name used by Carl Linnaeus in 1758, who described the badger in his work Systema Naturae.
+- [W55.36] The species probably evolved from the Chinese Meles thorali of the early Pleistocene.
+- [W55.37] The modern species originated in the early Middle Pleistocene, as evidenced by fossil sites in Episcopia, Grombasek, Süssenborn, Hundsheim, Erpfingen, Koněprusy, Mosbach 2, and Stránská Skála.
+- [W55.38] Comparisons between fossil and living specimens demonstrate a progressive adaptation to omnivory, particularly evident in the increased surface area of the molars and the modification of the carnassials.
+- [W55.39] Badger bones are occasionally discovered in earlier strata due to the burrowing habits of the species.
+- [W55.40] In the 19th and 20th centuries, several badger type specimens were described and proposed as subspecies.
+- [W55.41] As of 2005, eight subspecies were recognized as valid taxa, but four (canescens, arcalus, rhodius, severzovi) are now considered to belong to a distinct species, the Caucasian badger (M. canescens).
+- [W55.42] In 2009, a cranial study was conducted comparing the skulls of European badgers from different regions.
+- [W55.43] The results of the study suggested that the European badgers could be divided into three subspecies: M. m. millerei (Baryshnikov et al., 2003) for the south-western Norwegian badgers, M. m. meles (Linnaeus, 1758) for the main Fennoscandian badgers and the name M. m. europaeus (Desmarest, 1816) was proposed for the non-Fennoscandian badgers.
+- [W55.44] In 2016, the system of three Meles meles subspecies was appointed again, but the name for the non-Fennoscandian badgers was corrected to M. m. taxus (Boddaert, 1785).
+- [W55.45] The new taxonomic system of Meles meles subspecies can be summarized as follows:
+- [W55.46] European badgers are powerfully built animals with small heads, thick, short necks, stocky, wedge-shaped bodies and short tails.
+- [W55.47] Their feet are either plantigrade or semi-digitigrade and short, with five toes on each foot.
+- [W55.48] The limbs are short and massive, with bare lower surfaces on the feet.
+- [W55.49] The claws are strong and elongated with an obtuse end to facilitate digging.
+- [W55.50] The claws are not retractable, and the hind claws wear with age.
+- [W55.51] Old badgers sometimes have their hind claws almost completely worn away from constant use.
+- [W55.52] Their snouts, which are used for digging and probing, are muscular and flexible.
+- [W55.53] Their eyes are small, and their ears are short and tipped with white.
+- [W55.54] Whiskers are present on the snout and above the eyes.
+- [W55.55] Boars typically have broader heads, thicker necks and narrower tails than sows.
+- [W55.56] Sows have sleeker bodies, narrower, less domed heads and fluffier tails.
+- [W55.57] Badgers have longer guts than red foxes, reflecting their omnivorous diet.
+- [W55.58] The small intestine has an average length of 5.36 m (17.6 ft) and lacks a cecum.
+- [W55.59] Both sexes have three pairs of nipples, though these are more developed in females.
+- [W55.60] European badgers cannot flex their backs like martens, polecats and wolverines, nor can they stand fully erect like honey badgers.
+- [W55.61] However, they can move quickly at full gallop.
+- [W55.62] Adults measure 25–30 cm (9.8–11.8 in) at the shoulder, 60–90 cm (24–35 in) in body length, 12–24 cm (4.7–9.4 in) in tail length, 7.5–13 cm (3.0–5.1 in) in hind foot length and 3.5–7 cm (1.4–2.8 in) in ear height.
+- [W55.63] Males (or boars) exceed females (or sows) slightly in these measurements, but can weigh considerably more.
+- [W55.64] Their weight varies seasonally, growing from spring to autumn and peaking just before winter.
+- [W55.65] During the summer, European badgers commonly weigh 7–13 kg (15–29 lb) and 15–17 kg (33–37 lb) in autumn.
+- [W55.66] The average weight of adults in the Białowieża Forest was 10.2 kg (22 lb) in spring but up to 19 kg (42 lb) in autumn, 46% higher than the spring low mass.
+- [W55.67] In Woodchester Park, England, adults in spring weighed on average 7.9 kg (17 lb) and in fall average 9.5 kg (21 lb).
+- [W55.68] In Doñana National Park, average weight of adult badgers is reported as 6 to 7.95 kg (13.2 to 17.5 lb), perhaps in accordance with Bergmann's rule, that its size decreases in relatively warmer climates.
+- [W55.69] Sows can attain a top autumn weight of around 17.2 kg (38 lb), while exceptionally large boars have been reported in autumn.
+- [W55.70] The heaviest verified specimen was 27.2 kg (60 lb), though unverified reports have suggested weights of up to 30.8 kg (68 lb) and even 34 kg (75 lb) (if so, the heaviest weight for any terrestrial mustelid).
+- [W55.71] If average weights are used, the European badger ranks as the second largest terrestrial mustelid, behind only the wolverine.
+- [W55.72] Although they have an acute sense of smell, their eyesight is monochromatic, as has been demonstrasted by their lack of reaction to red lanterns.
+- [W55.73] Only moving objects attract their attention.
+- [W55.74] Their hearing is no better than that of humans.
+- [W55.75] The skulls of European badgers are quite massive and heavy, with an elongated shape.
+- [W55.76] Their braincases are oval in shape, while the front part of their skulls is elongated and narrow.
+- [W55.77] Adults have prominent sagittal crests which can reach 15 mm in height in older males, and these are more strongly developed than those of honey badgers.
+- [W55.78] Aside from anchoring the jaw muscles, the thickness of the crests protect their skulls from physical impact.
+- [W55.79] Similar to martens, the dentition of European badgers is well-suited for their omnivorous diets.
+- [W55.80] Their incisors are small and chisel-shaped, their canine teeth are prominent and their carnassials are not overly specialised.
+- [W55.81] Their molars are flattened and adapted for grinding.
+- [W55.82] Their jaws are powerful enough to crush most bones, and a provoked badger once bit down so heavily on a man's wrist that his hand had to be amputated.
+- [W55.83] The dental formula is 3.1.3.13.1.4.2.
+- [W55.84] Scent glands are present below the base of the tail and around the anus.
+- [W55.85] The subcaudal gland produces a cream-coloured, musky-smelling fatty substance, while the anal glands secrete a stronger-smelling, yellowish-brown fluid.
+- [W55.86] In winter, the fur on the back and flanks is long and coarse, consisting of bristly guard hairs with a sparse, soft undercoat.
+- [W55.87] The belly fur consists of short, sparse hairs, with skin being visible in the inguinal region.
+- [W55.88] Guard hair length on the middle of the back is 75–80 mm (3.0–3.1 in) in winter.
+- [W55.89] Prior to the winter, the throat, lower neck, chest and legs are black.
+- [W55.90] The belly is of a lighter, brownish tint, while the inguinal region is brownish-grey.
+- [W55.91] The general colour of the back and sides is light silvery-grey, with straw-coloured highlights on the sides.
+- [W55.92] The tail has long and coarse hairs, and is generally the same colour as the back.
+- [W55.93] Two black bands pass along the head, starting from the upper lip and passing upwards to the whole base of the ears.
+- [W55.94] The bands sometimes extend along the neck and merge with the colour of the upper body.
+- [W55.95] The front parts of the bands are 15 mm (0.59 in), and widen to 45–55 mm (1.8–2.2 in) in the ear region.
+- [W55.96] A wide, white band extends from the nose tip through the forehead and crown.
+- [W55.97] White markings occur on the lower part of the head, and extend backwards to a great part of the neck's length.
+- [W55.98] The summer fur is much coarser, shorter and sparser.
+- [W55.99] It is also deeper in colour, with black tones becoming brownish and sometimes yellowish.
+- [W55.100] Partial melanism is known to occur in badgers, and albinos and leucistic individuals are not uncommon.
+- [W55.101] Albino badgers are either pure white or yellowish with pink eyes, while leucistic badgers are similar but have normal eyes.
+- [W55.102] Erythristic badgers are more common than albinos, and are characterised by a sandy-red colour on the parts of the body that are usually black.
+- [W55.103] Yellow badgers are also known.
+- [W55.104] The European badger is native to most of Europe.
+- [W55.105] It is found in Albania, Armenia, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Crete, Croatia, Czechia, Denmark, Estonia, Finland, France, Georgia, Germany, Great Britain, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Macedonia, Moldova, Montenegro, the Netherlands, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine.
+- [W55.106] The distributional boundary between the ranges of European and Asian badgers is the Volga River; the European species inhabits the western bank.
+- [W55.107] The boundary between the ranges of the European and Caucasian badgers is in the North Caucasus.
+- [W55.108] However, a clear boundary has not been defined, and the two species are sympatric in some regions, potentially forming a hybrid zone.
+- [W55.109] They are common in European Russia, where 30,000 individuals were recorded in 1990.
+- [W55.110] They are abundant and increasing throughout their range, partly due to a reduction in rabies in Central Europe.
+- [W55.111] In the UK, the badger population increased by 77% during the 1980s and 1990s.
+- [W55.112] The badger population in Great Britain in 2012 was estimated to be 300,000.
+- [W55.113] The European badger inhabits deciduous and mixed woodlands, clearings, spinneys, pastureland and scrub, including Mediterranean maquis shrubland.
+- [W55.114] It has adapted to living in suburban areas and urban parks, though not to the same extent as red foxes.
+- [W55.115] In mountainous regions, it can be found at altitudes of up to 2,000 m (6,600 ft).
+- [W55.116] Social and territorial behaviour
+- [W55.117] European badgers are the most sociable of all badger species, forming groups of six adults on average, though larger groups of up to 23 individuals have been recorded.
+- [W55.118] Group size may be related to habitat composition.
+- [W55.119] Under optimal conditions, badger territories can be as small as 30 ha (74 acres), but may be as large as 150 ha (370 acres) in marginal areas.
+- [W55.120] Badger territories can be identified by the presence of communal latrines and well-worn paths.
+- [W55.121] It is mainly males that are involved in territorial aggression.
+- [W55.122] A hierarchical social system is thought to exist among badgers and large powerful boars seem to assert dominance over smaller males.
+- [W55.123] Large boars sometimes intrude into neighbouring territories during the main mating season in early spring.
+- [W55.124] Sparring and more vicious fights generally result from territorial defence during the breeding season.
+- [W55.125] However, animals within and outside a group generally show considerable tolerance towards each other.
+- [W55.126] Boars tend to mark their territories more actively than sows, with their territorial activity increasing during the mating season in early spring.
+- [W55.127] Badgers groom each other thoroughly using their claws and teeth.
+- [W55.128] This grooming may have a social function.
+- [W55.129] They are crepuscular and nocturnal by nature.
+- [W55.130] Aggression among badgers is largely associated with territorial defence and mating.
+- [W55.131] When fighting, they bite each other on the neck and rump while running and chasing each other, and the resulting injuries can sometimes be fatal.
+- [W55.132] When attacked by dogs or when sexually excited, badgers may raise their tails and fluff up their fur.
+- [W55.133] European badgers have an extensive vocal repertoire.
+- [W55.134] When threatened, they emit deep growls and, when fighting, make low kekkering noises.
+- [W55.135] They bark when surprised, whicker when playing or in distress, and emit a piercing scream when alarmed or frightened.
+- [W55.136] Like other badger species, European badgers are burrowing animals.
+- [W55.137] However, the dens they construct, known as 'setts', are the most complex and are passed on from generation to generation.
+- [W55.138] The number of exits in one sett can range from a few to fifty.
+- [W55.139] These setts can be vast and can sometimes accommodate multiple families.
+- [W55.140] Insuch cases, each family occupies its own passages and nesting chambers.
+- [W55.141] Some setts may have exits which are only used in times of danger or play.
+- [W55.142] A typical passage has a 22–63 cm (8.7–24.8 in) wide base and a 14–32 cm (5.5–12.6 in) height.
+- [W55.143] Three sleeping chambers occur in a family unit, some of which are open at both ends.
+- [W55.144] The nesting chamber is located 5–10 m (16–33 ft) from the opening, and is situated more than a 1 m (3 ft 3 in) underground, in some cases 2.3 m (7 ft 7 in).
+- [W55.145] Generally, the passages are 35–81 m (115–266 ft) long.
+- [W55.146] The nesting chamber is on average 74 cm × 76 cm (29 in × 30 in), and are 38 cm (15 in) high.
+- [W55.147] Badgers collect and dig bedding throughout the year, particularly in spring and autumn.
+- [W55.148] Sett maintenance is usually carried out by subordinate sows and dominant boars.
+- [W55.149] The chambers are frequently lined with bedding, brought in on dry nights.
+- [W55.150] This bedding consists of grass, bracken, straw, leaves and moss.
+- [W55.151] Up to 30 bundles can be carried to the sett in a single night.
+- [W55.152] European badgers are fastidiously clean animals that regularly clear out and discard old bedding.
+- [W55.153] During the winter, they may take their bedding outside on sunny mornings and retrieve it later in the day.
+- [W55.154] Spring cleaning is associated with the birth of cubs and may occur several times during the summer in order to prevent accumulation of parasites.
+- [W55.155] If a badger dies within the sett, its conspecifics will seal off the chamber and dig a new one.
+- [W55.156] Some badgers drag their dead out of the sett and bury them outside.
+- [W55.157] A sett is almost invariably located near a tree, which the badgers use for stretching or claw scraping.
+- [W55.158] Badgers defecate in latrines located near the sett, as well as at strategic locations on territorial boundaries or near places with abundant food supplies.
+- [W55.159] In extreme cases, when suitable burrowing grounds are lacking, badgers may move into haystacks in winter.
+- [W55.160] They may share their setts with red foxes or European rabbits.
+- [W55.161] In turn, the badgers may protect the rabbits from other predators.
+- [W55.162] The rabbits usually avoid predation by the badgers by inhabiting smaller, harder-to-reach chambers.
+- [W55.163] Reproduction and development
+- [W55.164] The estrus cycle in European badgers lasts four to six days and can occur throughout the year, although there is a peak in spring.
+- [W55.165] Sexual maturity in boars is usually attained at the age of twelve to fifteen months but this can range from nine months to two years.
+- [W55.166] Males are normally fecund during January–May, with spermatogenesis declining in summer.
+- [W55.167] Sows usually begin ovulating in their second year, though some exceptionally begin at nine months.
+- [W55.168] They can mate at any time of the year, though the main peak occurs in February–May, when mature sows are in postpartal estrus and young animals experience their first estrus.
+- [W55.169] Matings occurring outside this period typically occur in sows which either failed to mate earlier in the year or matured slowly.
+- [W55.170] Badgers are usually monogamous; boars typically mate with one female for life, whereas sows have been known to mate with more than one male.
+- [W55.171] Mating lasts for fifteen to sixty minutes, though the pair may briefly copulate for a minute or two when the sow is not in estrus.
+- [W55.172] A delay of two to nine months precedes the fertilized eggs implanting into the wall of the uterus, though matings in December can result in immediate implantation.
+- [W55.173] Ordinarily, implantation happens in December, with a gestation period lasting seven weeks.
+- [W55.174] Cubs are usually born in mid-January to mid-March within underground chambers containing bedding.
+- [W55.175] In areas where the countryside is waterlogged, cubs may be born above ground in buildings.
+- [W55.176] Typically, only dominant sows can breed, as they suppress the reproduction of subordinate females.
+- [W55.177] The average litter consists of one to five cubs.
+- [W55.178] Although many cubs are sired by resident males, up to 54% can be fathered by boars from different colonies.
+- [W55.179] Dominant sows may kill the cubs of subordinates.
+- [W55.180] Cubs are born pink, with greyish, silvery fur and fused eyelids.
+- [W55.181] Neonatal badgers are 12 cm (4.7 in) in body length on average and weigh 75 to 132 g (2.6 to 4.7 oz), with cubs from large litters being smaller.
+- [W55.182] By three to five days, their claws become pigmented, and individual dark hairs begin to appear.
+- [W55.183] Their eyes open at four to five weeks and their milk teeth erupt about the same time.
+- [W55.184] They emerge from their setts at eight weeks of age, and begin to be weaned at twelve weeks, though they may still suckle until they are four to five months old.
+- [W55.185] Subordinate females assist the mother in guarding, feeding and grooming the cubs.
+- [W55.186] Cubs fully develop their adult coats at six to nine weeks.
+- [W55.187] In areas with medium to high badger populations, dispersal from the natal group is uncommon, though badgers may temporarily visit other colonies.
+- [W55.188] Badgers can live for up to about fifteen years in the wild.
+- [W55.189] Badgers begin to prepare for winter sleep during late summer by accumulating fat reserves, which reach a peak in October.
+- [W55.190] During this period, the sett is cleaned and the nesting chamber is filled with bedding.
+- [W55.191] Upon retiring to sleep, badgers block their sett entrances with dry leaves and earth.
+- [W55.192] They typically stop leaving their setts once snow has fallen.
+- [W55.193] In Russia and the Nordic countries, European badgers retire for winter sleep from late October to mid-November and emerge from their setts in March and early April.
+- [W55.194] In areas such as England and Transcaucasia, where winters are less harsh, badgers either forgo winter sleep entirely or spend long periods underground, emerging in mild spells.
+- [W55.195] European badgers are among some of the least carnivorous members of the order Carnivora.
+- [W55.196] They are highly adaptable and opportunistic omnivores whose diet encompasses a wide range of animals and plants.
+- [W55.197] Their most important food source is earthworms, followed by large insects, carrion, cereals, fruit and small mammals, including rabbits, mice, rats, voles, shrews, moles and hedgehogs.
+- [W55.198] Their insect prey includes chafers, dung and ground beetles, caterpillars, leatherjackets, and the nests of wasps and bumblebees.
+- [W55.199] Badgers can destroy wasp nests, consuming the occupants, combs, and envelope, such as those of Vespula rufa, as their thick skin and pelt protect them from stings.
+- [W55.200] Cereal food includes wheat, oats, maize and occasionally barley.
+- [W55.201] Fruits taken include windfall apples, pears, plums, blackberries, bilberries, raspberries, cherries, strawberries, acorns, beechmast, pignuts and wild arum corms.
+- [W55.202] Occasionally, badgers feed on medium to large birds, amphibians, fish, small reptiles including tortoises and lizards, snails, slugs, fungi, tubers and green food such as clover and grass, particularly in winter and during droughts.
+- [W55.203] Badgers typically capture large quantities of a single food type in each hunt.
+- [W55.204] They generally do not consume more than 0.5 kg (1.1 lb) of food per day, although young badgers under one year of age eat more than adults.
+- [W55.205] An adult badger weighing 15 kg (33 lb) eats a quantity of food equal to 3.4% of its body weight.
+- [W55.206] Badgers typically eat prey on the spot, and rarely transport it to their setts.
+- [W55.207] Surplus killing has been observed in chicken coops.
+- [W55.208] Badgers prey on rabbits all year round, particularly when their young are available.
+- [W55.209] They locate the young rabbits in their nests using their sense of smell, then dig downwards to reach them.
+- [W55.210] In mountainous or hilly areas where plant food is scarce, badgers rely on young rabbits as their main food source.
+- [W55.211] Adult rabbits are usually avoided, unless they are wounded or caught in traps.
+- [W55.212] They consume them by turning them inside out and eating the meat, leaving the inverted skin uneaten.
+- [W55.213] Hedgehogs are eaten in a similar manner.
+- [W55.214] In areas where badgers are common, hedgehogs are scarce.
+- [W55.215] Some rogue badgers may kill lambs, though this is very rare.
+- [W55.216] They may be wrongly implicated in lamb killings when discarded wool and bones are found near their setts.
+- [W55.217] However, foxes, which sometimes live alongside badgers, are often the real culprits, as badgers do not transport food to their setts.
+- [W55.218] They typically kill lambs by biting them behind the shoulder.
+- [W55.219] Poultry and game birds are also taken only rarely.
+- [W55.220] Some badgers may build their setts in proximity to poultry or game farms without ever causing damage.
+- [W55.221] In the rare instances in which badgers kill reared birds, this usually occurs in February–March when food is scarce due to harsh weather and increased badger populations.
+- [W55.222] Badgers can easily breach bee hives with their jaws and are mostly indifferent to bee stings, even when set upon by swarms.
+- [W55.223] Relationships with other non-human predators
+- [W55.224] European badgers have few natural enemies.
+- [W55.225] Although they are normally docile, badgers can become extremely aggressive and ferocious when cornered, which makes them dangerous for predators to target.
+- [W55.226] Grey wolves (Canis lupus), Eurasian lynxes (Lynx lynx) and brown bears (Ursus arctos), Europe's three largest remaining land predators, and large domestic dogs (C. familiaris) can pose a threat to adult badgers.
+- [W55.227] However, deaths caused by them are rare as these predators are often limited in population due to human persecution and usually prefer larger, easier prey such as ungulates.
+- [W55.228] Badgers, on the other hand, may fight viciously if they are aware of a predator and are cornered without an escape route.
+- [W55.229] They may live alongside red foxes (Vulpes vulpes) in isolated sections of large burrows.
+- [W55.230] The two species possibly tolerate each other out of commensalism; foxes provide badgers with food scraps, while badgers maintain the shared burrow's cleanliness.
+- [W55.231] However, cases are known of badgers driving vixens from their dens and destroying their litters without eating them.
+- [W55.232] In turn, red foxes are known to have killed badger cubs in spring.
+- [W55.233] Golden eagles (Aquila chrysaetos) are known predators of European badgers and attacks by them on badger cubs are not infrequent, including cases where they have been pulled out directly from below the legs of their mothers, and even adult badgers may be attacked by this eagle species when emerging weak and hungry from hibernation.
+- [W55.234] Eurasian eagle owls (Bubo bubo) may also take an occasional cub and other large raptors such as white-tailed eagles (Haliaeetus albicilla) and greater spotted eagle (Clanga clanga) are considered potential badger cub predators.
+- [W55.235] Raccoon dogs may extensively use badger setts for shelter.
+- [W55.236] There are many known cases of badgers and raccoon dogs wintering in the same hole, possibly because badgers enter hibernation two weeks earlier than the latter, and leave two weeks later.
+- [W55.237] In exceptional cases, badger and raccoon dog cubs may coexist in the same burrow.
+- [W55.238] Badgers may drive out or kill raccoon dogs if they overstay their welcome.
+- [W55.239] Bovine tuberculosis (bovine TB) caused by Mycobacterium bovis is a significant factor in badger mortality, although infected badgers can survive and breed successfully for years before succumbing to the disease.
+- [W55.240] The disease was first observed in badgers in Switzerland in 1951 in Switzerland where they were believed to have contracted it from chamois (Rupicapra rupicapra) or roe deer (Capreolus capreolus).
+- [W55.241] It was detected in the United Kingdom in 1971 where it was linked to an outbreak of bovine TB in cows.
+- [W55.242] Evidence suggests that badgers are the primary reservoir of infection for cattle in the southwest of England, Wales and Ireland.
+- [W55.243] Since then there has been considerable controversy as to whether culling badgers will effectively reduce or eliminate bovine TB in cattle.
+- [W55.244] Badgers are vulnerable to the mustelid herpesvirus-1, as well as rabies and canine distemper, though the latter two are absent in Great Britain.
+- [W55.245] Other diseases found in European badgers include arteriosclerosis, pneumonia, pleurisy, nephritis, enteritis, polyarthritis and lymphosarcoma.
+- [W55.246] Internal parasites of badgers include trematodes, nematodes and several species of tapeworm.
+- [W55.247] Ectoparasites carried by them include the fleas Paraceras melis (the badger flea), Chaetopsylla trichosa and Pulex irritans (the human flea), the lice Trichodectes melis and the ticks Ixodes ricinus, I. canisuga, I. hexagonus, I. reduvius and I. melicula.
+- [W55.248] They also suffer from mange and spend much time grooming, with individuals concentrating on their own ventral areas and alternating between sides, while social grooming involves one badger grooming another on its dorsal surface.
+- [W55.249] Fleas try to avoid scratching by retreating rapidly downwards and backwards through the fur.
+- [W55.250] This was in contrast to fleas away from their host, which ran upwards and jumped when disturbed.
+- [W55.251] Grooming seems to disadvantage fleas rather than merely having a social function.
+- [W55.252] The International Union for Conservation of Nature rates the European badger as being of least concern.
+- [W55.253] This is because it is a relatively common species with a wide distribution, and its populations are generally stable.
+- [W55.254] In Central Europe, badgers have become more abundant in recent decades due to a reduction in the incidence of rabies.
+- [W55.255] In other areas it has also fared well, with increases in numbers in Western Europe including Great Britain.
+- [W55.256] However, in some areas of intensive agriculture, it has declined due to loss of habitat, and in others it is hunted as a pest.
+- [W55.257] Badgers play a part in European folklore and are featured in modern literature.
+- [W55.258] In Irish mythology, badgers are portrayed as shape-shifters and kinsmen to Tadg, the king of Tara and foster father of Cormac mac Airt.
+- [W55.259] In one story, Tadg berates his adopted son for having killed and prepared some badgers for dinner.
+- [W55.260] In German folklore, the badger is portrayed as a cautious, peace-loving Philistine, who loves more than anything his home, family and comfort, though he can become aggressive if surprised.
+- [W55.261] He is a cousin of Reynard the Fox, whom he uselessly tries to convince to return to the path of righteousness.
+- [W55.262] In Kenneth Grahame's The Wind in the Willows, Mr.
+- [W55.263] Badger is depicted as a gruff, solitary figure who "simply hates society", yet he is a good friend to Mole and Ratty.
+- [W55.264] As a friend of Toad's late father, he is often firm and serious with Toad, yet generally patient and well-meaning towards him.
+- [W55.265] He can be seen as a wise hermit and a good leader, embodying common sense and gentlemanly behaviour.
+- [W55.266] He is also brave and a skilled fighter, and helps rid Toad Hall of invaders from the wild wood.
+- [W55.267] The "Frances" series of children's books by Russell and Lillian Hoban depicts an anthropomorphic badger family.
+- [W55.268] White's Arthurian series The Once and Future King, the young King Arthur is transformed into a badger by Merlin as part of his education.
+- [W55.269] He meets with an elderly badger who tells him "I can only teach you two things – to dig, and love your home."
+- [W55.270] A villainous badger named Tommy Brock appears in Beatrix Potter's 1912 book The Tale of Mr.
+- [W55.271] He kidnaps the children of Benjamin Bunny and his wife Flopsy, and hides them in an oven at the home of Mr.
+- [W55.272] Tod the fox, whom he fights at the end of the book.
+- [W55.273] The portrayal of the badger as a filthy animal which appropriates fox dens was criticised from a naturalistic viewpoint.
+- [W55.274] However, the inconsistencies are few and are used to create individual characters rather than to depict archetypical foxes and badgers.
+- [W55.275] A wise old badger named Trufflehunter appears in C.
+- [W55.276] Lewis' Prince Caspian, where he aids Caspian X in his struggle against King Miraz.
+- [W55.277] A badger takes a prominent role in Colin Dann's The Animals of Farthing Wood series as second in command to Fox.
+- [W55.278] The badger is also the house symbol for Hufflepuff in the Harry Potter book series.
+- [W55.279] The Redwall series also features the Badger Lords, who rule the extinct volcano fortress of Salamandastron and are renowned as fierce warriors.
+- [W55.280] The children's television series Bodger & Badger was popular on CBBC during the 1990s and was set around the mishaps of a mashed potato-loving badger and his human companion.
+- [W55.281] The satirical theatre in Zagreb founded in 1964 by Fadil Hadžić was named "Jazavac" after the badger's reputation for cunning as well as Petar Kočić's 1904 satirical play Badger before the Court (Jazavac pred sudom).
+- [W55.282] In the play, an unnamed badger is sued by a local farmer for eating his crops.
+- [W55.283] The play by the Bosnian Serb writer is highly critical towards Austro-Hungarian rule in Bosnia and Herzegovina at the beginning of the 20th century.
+- [W55.284] In honour of Kočić and his badger, the satirical theatre in Banja Luka founded in 2006 is named City Theatre Jazavac.
+- [W55.285] European badger appears on the coat of arms of the municipality of Luhanka in Central Finland, referring to the former importance of the fur trade in the locality.
+- [W55.286] The badger is also the title animal of the Nurmijärvi municipality in Uusimaa, Finland, where it is a very common mammal.
+- [W55.287] European badgers are of little significance to the hunting economy, although they may be hunted locally.
+- [W55.288] Methods used to hunt badgers include setting jaw traps, ambushing them at their setts with guns, smoking them out of their burrows, and using specially bred dogs such as Fox Terriers and Dachshunds to dig them out.
+- [W55.289] However, badgers are notoriously durable animals.
+- [W55.290] Their thick, loose skin is covered in long hair for protection, and their heavily ossified skulls allow them to shrug off most blunt traumas and shotgun pellets.
+- [W55.291] Badger-baiting was once a popular blood sport, in which badgers were captured alive, placed in boxes, and attacked with dogs.
+- [W55.292] In the UK, this was outlawed by the Cruelty to Animals Act 1835 and again by the Protection of Animals Act 1911.
+- [W55.293] Moreover, the cruelty towards badgers and the killing of badgers constitute offences under the Protection of Badgers Act 1992 (c.
+- [W55.294] Further offences under this Act are inevitably committed to facilitate badger-baiting, such as interfering with a sett or taking or possessing a badger for purposes other than nursing an injured animal back to health.
+- [W55.295] If convicted, badger baiting offenders may face a prison sentence of up to six months, a fine of up to £5,000, and other punitive measures, such as community service or a ban on owning dogs.
+- [W55.296] Many badgers in Europe were gassed during the 1960s and 1970s to control rabies.
+- [W55.297] Until the 1980s, badger culling in the United Kingdom was carried out by gassing to control the spread of bovine tuberculosis (bTB).
+- [W55.298] Limited culling resumed in 1998 as part of a 10-year randomized trial cull which was considered by John Krebs and others to show that culling was ineffective.
+- [W55.299] Some groups called for a selective cull, while others favoured a programme of vaccination.
+- [W55.300] Some vets support the cull on compassionate grounds, as they say that the illness causes badgers much suffering.
+- [W55.301] In 2012, the government authorized a limited cull led by the Department for Environment, Food and Rural Affairs (Defra), however, this was later deferred with a wide range of reasons given.
+- [W55.302] In August 2013, a full culling programme began, during which around 5,000 badgers were killed over a period of six weeks in West Somerset and Gloucestershire.
+- [W55.303] Marksmen used high-velocity rifles for the cull, employing a combination of controlled shooting and free shooting techniques (some badgers were first trapped in cages).
+- [W55.304] The cull sparked widespread protests, with people citing emotional, economic and scientific reasons against it.
+- [W55.305] Although the badger is not an endangered species, it is considered an iconic symbol of the British countryside.
+- [W55.306] It was claimed by shadow ministers that "The government's own figures show it will cost more than it saves...", and Lord Krebs, who led the Randomised Badger Culling Trial in the 1990s, said the two pilots "will not yield any useful information".
+- [W55.307] A scientific study of culling from 2013 to 2017 has shown a reduction of 36–55% incidence of bovine tuberculosis in cattle.
+- [W55.308] There are several accounts of European badgers being tamed.
+- [W55.309] Tame badgers can make affectionate pets, and can be trained to come to their owners when their names are called.
+- [W55.310] They are easy to feed as they are not fussy eaters, and will instinctively unearth rats, moles and young rabbits without training.
+- [W55.311] However, they also have a fondness for pork.
+- [W55.312] While there is one record of a tame badger befriending a fox, badgers do not generally tolerate the presence of cats and dogs and will chase them.
+- [W55.313] Badger meat is eaten in some districts of the former Soviet Union, though in most cases it is discarded.
+- [W55.314] Smoked hams made from badgers were once highly esteemed in England, Wales and Ireland.
+- [W55.315] Some badger products have been used for medical purposes; badger expert Ernest Neal, quoting from an 1810 edition of The Sporting Magazine, wrote;
+- [W55.316] The flesh, blood and grease of the badger are very useful for oils, ointments, salves and powders, for shortness of breath, the cough of the lungs, for the stone, sprained sinews, collachs etc.
+- [W55.317] The skin being well dressed is very warm and comfortable for ancient people who are troubled with paralytic disorders.
+- [W55.318] The hair of the European badger has been used for centuries for making sporrans and shaving brushes.
+- [W55.319] Sporrans are traditionally worn as part of male Scottish highland dress.
+- [W55.320] They form a bag or pocket made from a pelt and a badger or other animal's mask may be used as a flap.
+- [W55.321] The pelt was also formerly used for pistol furniture.
+- [W55.322] (1878), "Badger" , Encyclopædia Britannica, vol.
+- [W55.323] 3 (9th ed.), New York: Charles Scribner's Sons, p.
+- [W55.324] (1911), "Badger" , Encyclopædia Britannica, vol.
+- [W55.325] 3 (11th ed.), Cambridge University Press, p.
+- [W55.326] Mammals of the British Isles (Fourth Revised ed.).
+- [W55.327] "The Badger Meles meles Linné".
+- [W55.328] Pleistocene mammals of Europe (Reprint 2017 ed.).
+- [W55.329] London and New York: Routledge. pp.
+- [W55.330] "Badger Meles meles Linnaeus, 1758".
+- [W55.331] Mammals of the Soviet Union.
+- [W55.332] II, Part 1b, Carnivores (Mustelidae and Procyonidae).
+- [W55.333] Washington, D.C.: Smithsonian Institution Libraries and National Science Foundation. pp.
+- [W55.334] The New Encyclopedia of Mammals.
+- [W55.335] New Naturalist (Fifth ed.).
+- [W55.336] London: Lawrence and Bullen.
+- [W55.337] Spagnesi, M.; De Marinis, M.
+- [W55.338] "Mammiferi d'Italia" (PDF).
+- [W55.339] Quaderni di Conservazione della Natura (in Italian).
+- [W55.340] The Badger Trust – representing over 80 British badger groups
+- [W55.341] Badgerland – The Definitive On-Line Guide to Badgers (Meles meles) in the UK
+- [W55.342] Wildlife Online – Natural History of the European Badger
+- [W55.343] Science & Nature: Animals, BBC.
+- [W55.344] Badger Survey in the Netherlands 2000–2001, The Census Foundation.
+- [W55.345] Waarneming.nl Originally a Dutch site, but you can change language at the top of the page.
+- [W55.346] Sightings, pictures and distribution maps of European badgers in the Netherlands.
+- [W55.347] DEFRA (UK government department) position on badgers and TB
+- [W55.348] Executive summary of the Krebs Report Bovine Tuberculosis in Cattle and Badgers 1997
+- [W55.349] The Randomised Badger Culling Trial
+- [W55.350] Godfray Report, Independent Scientific Review of the Randomised Badger Culling Trial and Associated Epidemiological Research, March 2004.
+
+## [W56] NCBI RefSeq NC_016470.1: puma mitochondrial ND1 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_016470.1 · Public domain · usage: ai_input, display
+
+- [W56.1] LOCUS       NC_016470                956 bp    DNA     linear   MAM 03-APR-2023
+- [W56.2] DEFINITION  Puma concolor mitochondrion, complete genome.
+- [W56.3] ACCESSION   NC_016470 REGION: 3660..4615
+- [W56.4] DBLINK      BioProject: PRJNA927338
+- [W56.5] SOURCE      mitochondrion Puma concolor (puma)
+- [W56.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W56.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+- [W56.8] REFERENCE   1  (bases 1 to 956)
+- [W56.9] TITLE     Molecular identification of north Texas urban predators
+- [W56.10] REFERENCE   2  (bases 1 to 956)
+- [W56.11] CONSRTM   NCBI Genome Project
+- [W56.12] TITLE     Direct Submission
+- [W56.13] JOURNAL   Submitted (20-DEC-2011) National Center for Biotechnology
+- [W56.14] Information, NIH, Bethesda, MD 20894, USA
+- [W56.15] REFERENCE   3  (bases 1 to 956)
+- [W56.16] TITLE     Direct Submission
+- [W56.17] JOURNAL   Submitted (06-NOV-2011) Biology, Collin College, 2800 E.
+- [W56.18] Creek Pkwy., Plano, TX 75074, USA
+- [W56.19] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W56.20] reference sequence is identical to JN999997.
+- [W56.21] COMPLETENESS: full length.
+- [W56.22] FEATURES             Location/Qualifiers
+- [W56.23] /organelle="mitochondrion"
+- [W56.24] /cell_type="epithelial from scat"
+- [W56.25] /db_xref="GeneID:11473378"
+- [W56.26] /note="TAA stop codon is completed by the addition of 3' A
+- [W56.27] /transl_except=(pos:4614..4615,aa:TERM)
+- [W56.28] /product="NADH dehydrogenase subunit 1"
+- [W56.29] /protein_id="YP_004940588.1"
+- [W56.30] /db_xref="GeneID:11473378"
+- [W56.31] /translation="MFMINILSLIIPILLAVAFLTLVERKVLGYMQLRKGPNVVGPYG
+- [W56.32] LLQPIADAVKLFTKEPLRPLTSSMFMFIMAPILALTLALTMWIPLPMPYPLINMNLGV
+- [W56.33] LFMLAMSSLAVYSILWSGWASNSKYALIGALRAVAQTISYEVTLAIILLSVLLMNGSF
+- [W56.34] TLATLIITQEHMWLIIPAWPLAMMWFISTLAETNRAPFDLTEGESELVSGFNVEYAAG
+- [W56.35] PFALFFLAEYANIIMMNILTTILFLGAFHNPYMPELYTINFTVKTLFLTTTFLWIRAS
+- [W56.36] YPRFRYDQLMHLLWKNFLPLTLALCMWHVSMPITMASIPPQT"
+- [W56.37] 1 atgttcataa tcaatatcct ctcactaatt atccccattc tcctcgctgt agccttcctc
+- [W56.38] 61 accttagttg aacgaaaagt actaggctac atacaactcc gcaaaggacc aaatgtcgta
+- [W56.39] 121 ggaccatacg gcctactcca acctatcgca gacgccgtaa aactcttcac caaagaaccc
+- [W56.40] 181 ctccgacccc tcacatcctc catattcata ttcattatag caccaattct agccctcaca
+- [W56.41] 241 ctagccctaa ccatgtgaat tccactaccc ataccatacc cacttatcaa cataaacctg
+- [W56.42] 301 ggagtgctat ttatgttagc tatgtcaagc ctagccgttt actccatcct atgatcagga
+- [W56.43] 361 tgagcctcaa attcaaaata cgccctaatc ggagccctac gagccgtagc ccaaacaatc
+- [W56.44] 421 tcatatgaag tcaccctagc catcatcctc ttatcagtat tgctgataaa tggatccttc
+- [W56.45] 481 acactagcta cactaatcat tacccaagaa catatatgat taattatccc cgcatggccc
+- [W56.46] 541 ctagccataa tatgatttat ctcaacacta gcagaaacca accgggcccc atttgaccta
+- [W56.47] 601 acagaaggag aatcagaact agtctcaggg ttcaacgtag aatacgcagc aggccccttc
+- [W56.48] 661 gccctattct ttctagcaga gtacgctaac atcattataa taaatatcct tacaacaatc
+- [W56.49] 721 ttattcctcg gagcattcca caacccctac ataccagaac tatataccat caacttcaca
+- [W56.50] 781 gtaaaaaccc tatttctaac aaccactttc ttatgaatcc gagcatccta tccacgattc
+- [W56.51] 841 cgatatgacc aactaataca ccttctatga aaaaacttcc tacctcttac cctagcccta
+- [W56.52] 901 tgcatatgac acgtatcaat gcccattacc atagcaagca tcccgcctca aacata
+
+## [W57] NCBI RefSeq NC_022842.1: jaguar mitochondrial ND1 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_022842.1 · Public domain · usage: ai_input, display
+
+- [W57.1] LOCUS       NC_022842                956 bp    DNA     linear   MAM 03-APR-2023
+- [W57.2] DEFINITION  Panthera onca mitochondrion, complete genome.
+- [W57.3] ACCESSION   NC_022842 REGION: 3614..4569
+- [W57.4] DBLINK      BioProject: PRJNA927338
+- [W57.5] SOURCE      mitochondrion Panthera onca (jaguar)
+- [W57.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W57.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+- [W57.8] REFERENCE   1  (bases 1 to 956)
+- [W57.9] AUTHORS   Caragiulo,A., Dougherty,E., Rabinowitz,S. and Amato,G.
+- [W57.10] TITLE     Complete mitochondrial genome sequence of the jaguar (Panthera
+- [W57.11] REFERENCE   2  (bases 1 to 956)
+- [W57.12] CONSRTM   NCBI Genome Project
+- [W57.13] TITLE     Direct Submission
+- [W57.14] JOURNAL   Submitted (18-NOV-2013) National Center for Biotechnology
+- [W57.15] Information, NIH, Bethesda, MD 20894, USA
+- [W57.16] REFERENCE   3  (bases 1 to 956)
+- [W57.17] AUTHORS   Caragiulo,A., Dougherty,E., Rabinowitz,S. and Amato,G.
+- [W57.18] TITLE     Direct Submission
+- [W57.19] JOURNAL   Submitted (31-JUL-2013) Sackler Institute for Comparative Genomics,
+- [W57.20] American Museum of Natural History, 200 Central Park West, New
+- [W57.21] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W57.22] reference sequence is identical to KF483864.
+- [W57.23] Assembly Method       :: Geneious v.
+- [W57.24] Sequencing Technology :: Sanger dideoxy sequencing
+- [W57.25] COMPLETENESS: full length.
+- [W57.26] FEATURES             Location/Qualifiers
+- [W57.27] /organelle="mitochondrion"
+- [W57.28] /db_xref="GeneID:17674824"
+- [W57.29] /note="TAA stop codon is completed by the addition of 3' A
+- [W57.30] /transl_except=(pos:4568..4569,aa:TERM)
+- [W57.31] /product="NADH dehydrogenase subunit 1"
+- [W57.32] /protein_id="YP_008815625.1"
+- [W57.33] /db_xref="GeneID:17674824"
+- [W57.34] /translation="MFMVNILSLTIPILLAVAFLTLVERKVLGYMQLRKGPNVVGPYG
+- [W57.35] LLQPIADAMKLFTKEPLRPLTSSMFMFIMAPILALTLALTMWIPLPMPYPLINMNLGV
+- [W57.36] LFMLAMSSLAVYSILWSGWASNSKYALIGALRAVAQTISYEVTLAIILLSVLLMNGSF
+- [W57.37] TLATLITTQEFIWLVIPAWPLAMMWFISTLAETNRAPFDLTEGESELVSGFNVEYAAG
+- [W57.38] PFALFFLAEYANIIMMNILTTILFFGAFHSPYMPELYTTNFTMKTLILTTTFLWIRAS
+- [W57.39] YPRFRYDQLMHLLWKSFLPLTLALCMWHVSLPIITASIPPQT"
+- [W57.40] 1 atgttcatag tcaacatcct ctcactaact atccctattc tcctcgccgt agccttccta
+- [W57.41] 61 accctagttg aacgtaaagt actgggttac atacaactcc gcaaaggacc aaacgtcgta
+- [W57.42] 121 ggaccatacg gcctactcca acccattgca gacgccatga aactcttcac taaagagccc
+- [W57.43] 181 ctccgacccc tcacatcttc catattcata ttcattatag cacccatcct agcccttaca
+- [W57.44] 241 ctagccctaa ctatatgaat tccgctgccc ataccatacc cactcattaa cataaaccta
+- [W57.45] 301 ggagtactat ttatactagc catatccagc ctggccgtct actccattct atgatccgga
+- [W57.46] 361 tgggcctcaa actcaaaata cgccctaatt ggagccctac gagctgtagc ccaaacaatc
+- [W57.47] 421 tcatatgaag tcacactagc catcatcctc ttatcagtac tactaataaa cggatccttc
+- [W57.48] 481 acattagcca cactaattac cactcaagaa tttatctgac ttgttatccc tgcatgaccc
+- [W57.49] 541 ctggccataa tatgattcat ttctacacta gcagaaacca accgagcccc gtttgacctc
+- [W57.50] 601 acagaggggg aatcagagct cgtttccgga tttaacgtag agtacgcagc aggtcccttt
+- [W57.51] 661 gccctgtttt ttctagcaga atacgccaac atcatcataa taaatatcct cacaacaatc
+- [W57.52] 721 ctattcttcg gagcatttca cagcccctat ataccagaac tatataccac caacttcact
+- [W57.53] 781 ataaaaaccc tgattctaac aaccaccttc ctatgaatcc gagcatctta cccacgattc
+- [W57.54] 841 cgatacgacc aattaataca cctcctatga aaaagctttc taccccttac cctagcctta
+- [W57.55] 901 tgcatatgac acgtctccct gcccatcatc acagcaagca ttccgcctca aacata
+
+## [W58] NCBI RefSeq NC_028311.1: jaguarundi mitochondrial ND1 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_028311.1 · Public domain · usage: ai_input, display
+
+- [W58.1] LOCUS       NC_028311                956 bp    DNA     linear   MAM 03-APR-2023
+- [W58.2] DEFINITION  Puma yagouaroundi isolate HJA mitochondrion, complete genome.
+- [W58.3] ACCESSION   NC_028311 REGION: 3448..4403
+- [W58.4] DBLINK      BioProject: PRJNA927338
+- [W58.5] SOURCE      mitochondrion Herpailurus yagouaroundi (jaguarundi)
+- [W58.6] ORGANISM  Herpailurus yagouaroundi
+- [W58.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W58.8] Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+- [W58.9] REFERENCE   1  (bases 1 to 956)
+- [W58.10] AUTHORS   Li,G., Davis,B.W., Eizirik,E. and Murphy,W.J.
+- [W58.11] TITLE     Pervasive signals of ancient hybridization in the genomes of living
+- [W58.12] REFERENCE   2  (bases 1 to 956)
+- [W58.13] CONSRTM   NCBI Genome Project
+- [W58.14] TITLE     Direct Submission
+- [W58.15] JOURNAL   Submitted (05-NOV-2015) National Center for Biotechnology
+- [W58.16] Information, NIH, Bethesda, MD 20894, USA
+- [W58.17] REFERENCE   3  (bases 1 to 956)
+- [W58.18] AUTHORS   Li,G., Davis,B.W., Eizirik,E. and Murphy,W.J.
+- [W58.19] TITLE     Direct Submission
+- [W58.20] JOURNAL   Submitted (25-NOV-2014) Department of Veterinary Integrative
+- [W58.21] Biosciences, TAMU, College Station, TX 77840, USA
+- [W58.22] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W58.23] reference sequence is identical to KP202279.
+- [W58.24] Assembly Method       :: SOAPdenovo v.
+- [W58.25] Sequencing Technology :: Illumina
+- [W58.26] COMPLETENESS: full length.
+- [W58.27] FEATURES             Location/Qualifiers
+- [W58.28] /organism="Herpailurus yagouaroundi"
+- [W58.29] /organelle="mitochondrion"
+- [W58.30] /db_xref="GeneID:26129864"
+- [W58.31] /note="TAA stop codon is completed by the addition of 3' A
+- [W58.32] /transl_except=(pos:4402..4403,aa:TERM)
+- [W58.33] /product="NADH dehydrogenase subunit 1"
+- [W58.34] /protein_id="YP_009178424.1"
+- [W58.35] /db_xref="GeneID:26129864"
+- [W58.36] /translation="MFMINILSLIIPILLAVAFLTLVERKVLGYMQLRKGPNVVGPYG
+- [W58.37] LLQPIADAVKLFTKEPLRPLTSSMFMFIMAPILALTLALTMWIPLPMPYPLINMNLGV
+- [W58.38] LFMLAMSSLAVYSILWSGWASNSKYALIGALRAVAQTISYEVTLAIILLSVLLMNGSF
+- [W58.39] TLATLIITQEHMWLIIPAWPLAMMWFISTLAETNRAPFDLTEGESELVSGFNVEYAAG
+- [W58.40] PFALFFLAEYANIIMMNILTTILFFGAFHSPYMPELYTINFTVKTLFLTTTFLWIRAS
+- [W58.41] YPRFRYDQLMHLLWKNFLPLTLALCMWHVSMPIIMASIPPQT"
+- [W58.42] 1 atgtttataa ttaatatcct ctcactaatt atccccatcc tcctcgctgt agctttccta
+- [W58.43] 61 accttagttg aacgaaaagt cctaggttac atacaactcc gcaaaggacc aaatgtcgta
+- [W58.44] 121 ggaccatacg gcctactcca acctatcgca gacgccgtaa aactcttcac caaagaaccc
+- [W58.45] 181 ctccgacccc taacatcctc catatttata ttcattatag caccaattct agccctcaca
+- [W58.46] 241 ctagccctaa ccatgtggat cccactaccc ataccatacc cactcatcaa tataaaccta
+- [W58.47] 301 ggagtactat tcatactagc catatcaagc ctagccgtct actccatcct atgatcagga
+- [W58.48] 361 tgagcctcaa attcaaaata cgccctaatt ggagccttac gagcagtagc ccaaacaatc
+- [W58.49] 421 tcatacgaag tcacactagc cattatcctt ttatcagtat tactaataaa tgggtccttc
+- [W58.50] 481 acactagcca cactaatcat cacccaagaa cacatatgat taattatccc cgcatgacct
+- [W58.51] 541 ttggccatga tatgatttat ctcaacacta gcagaaacca accgggcccc atttgaccta
+- [W58.52] 601 acagaaggag aatcagaatt agtatccgga ttcaatgtag aatatgcagc aggtcccttt
+- [W58.53] 661 gccctattct tcctagcaga atacgctaat atcattataa taaatatcct cacaacaatc
+- [W58.54] 721 ctattcttcg gagcattcca cagcccctat ataccagaac tatatactat caatttcaca
+- [W58.55] 781 gtaaaaaccc tattcctaac aactactttc ctatgaattc gagcatccta cccacgattc
+- [W58.56] 841 cgatatgacc aactaataca cctcttatga aaaaacttcc tacccctaac cctagcccta
+- [W58.57] 901 tgcatatgac atgtatcaat acccattatc atagcaagta tcccacctca aacata
+
+## [W59] NCBI RefSeq NC_028313.1: Canada lynx mitochondrial ND1 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_028313.1 · Public domain · usage: ai_input, display
+
+- [W59.1] LOCUS       NC_028313                956 bp    DNA     linear   MAM 03-APR-2023
+- [W59.2] DEFINITION  Lynx canadensis isolate LCA mitochondrion, complete genome.
+- [W59.3] ACCESSION   NC_028313 REGION: 3419..4374
+- [W59.4] DBLINK      BioProject: PRJNA927338
+- [W59.5] SOURCE      mitochondrion Lynx canadensis (Canada lynx)
+- [W59.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W59.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+- [W59.8] REFERENCE   1  (bases 1 to 956)
+- [W59.9] AUTHORS   Li,G., Davis,B.W., Eizirik,E. and Murphy,W.J.
+- [W59.10] TITLE     Pervasive signals of ancient hybridization in the genomes of living
+- [W59.11] REFERENCE   2  (bases 1 to 956)
+- [W59.12] CONSRTM   NCBI Genome Project
+- [W59.13] TITLE     Direct Submission
+- [W59.14] JOURNAL   Submitted (05-NOV-2015) National Center for Biotechnology
+- [W59.15] Information, NIH, Bethesda, MD 20894, USA
+- [W59.16] REFERENCE   3  (bases 1 to 956)
+- [W59.17] AUTHORS   Li,G., Davis,B.W., Eizirik,E. and Murphy,W.J.
+- [W59.18] TITLE     Direct Submission
+- [W59.19] JOURNAL   Submitted (25-NOV-2014) Department of Veterinary Integrative
+- [W59.20] Biosciences, TAMU, College Station, TX 77840, USA
+- [W59.21] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W59.22] reference sequence is identical to KP202281.
+- [W59.23] Assembly Method       :: SOAPdenovo v.
+- [W59.24] Sequencing Technology :: Illumina
+- [W59.25] COMPLETENESS: full length.
+- [W59.26] FEATURES             Location/Qualifiers
+- [W59.27] /organism="Lynx canadensis"
+- [W59.28] /organelle="mitochondrion"
+- [W59.29] /db_xref="GeneID:26129940"
+- [W59.30] /note="TAA stop codon is completed by the addition of 3' A
+- [W59.31] /transl_except=(pos:4373..4374,aa:TERM)
+- [W59.32] /product="NADH dehydrogenase subunit 1"
+- [W59.33] /protein_id="YP_009178450.1"
+- [W59.34] /db_xref="GeneID:26129940"
+- [W59.35] /translation="MFMINILSLIIPILLAVAFLTLVERKVLGYMQLRKGPNVVGPYG
+- [W59.36] LLQPIADAMKLFTKEPLRPLTSSMLMFIMAPILALTLALTMWVPLPMPYPLINMNLGV
+- [W59.37] LFMLAMSSLAVYSILWSGWASNSKYALIGALRAVAQTISYEVTLAIILLSVLLMNGSF
+- [W59.38] TLATLITTQEYMWLIIPAWPLAMMWFISTLAETNRAPFDLTEGESELVSGFNVEYAAG
+- [W59.39] PFALFFLAEYANIIMMNILTTILFFGAYHNPYIPELHTVNFTVKTLLLTTTFLWIRAS
+- [W59.40] YPRFRYDQLMHLLWKNFLPLTLALCMWHVSLPIITASIPPQT"
+- [W59.41] 1 atgttcataa ttaacatcct ctcactaatt atccctatcc ttctcgctgt agccttccta
+- [W59.42] 61 accctagttg aacgaaaagt actgggctac atacaactcc gtaaaggacc aaatgtcgta
+- [W59.43] 121 gggccatacg gtctactcca acccattgca gacgccataa aattattcac caaagaaccc
+- [W59.44] 181 ctgcgacccc tcacatcctc catactcata ttcattatag caccaattct agccctcaca
+- [W59.45] 241 ctagccctaa ccatatgagt cccactaccc ataccatacc cactcattaa cataaaccta
+- [W59.46] 301 ggagtactat tcatactagc catgtcaagc ctagctgtct actccattct atggtcaggg
+- [W59.47] 361 tgagcctcaa actcaaaata cgccctaatt ggagccctgc gagccgtggc ccaaacaatc
+- [W59.48] 421 tcgtatgaag ttacattagc catcatcctc ctatcagtac tactaataaa tggatccttc
+- [W59.49] 481 acactagcca cactaatcac cacccaagag tacatgtgac taattattcc tgcatgaccc
+- [W59.50] 541 ctagccataa tatgatttat ctcaacacta gcagaaacca accgagcccc attcgaccta
+- [W59.51] 601 acagagggag aatcagaact agtgtccggg ttcaacgtag aatatgcagc aggccccttc
+- [W59.52] 661 gctctattct tcctagcaga atacgctaac atcatcataa taaatatcct cacaacaatt
+- [W59.53] 721 ctattcttcg gagcatacca caacccctat attccagaac tacacactgt caactttaca
+- [W59.54] 781 gtaaaaaccc tgctcctaac caccaccttc ctatgaatcc gggcatctta cccacgattc
+- [W59.55] 841 cgatacgacc aactaatgca cctcctatga aaaaactttc tacctctcac cctggcccta
+- [W59.56] 901 tgcatatgac acgtatcact acctatcatc acagcaagca tcccacctca aacata
+
+## [W60] NCBI RefSeq NC_009685.1: wolverine mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_009685.1 · Public domain · usage: ai_input, display
+
+- [W60.1] LOCUS       NC_009685               1042 bp    DNA     linear   MAM 03-APR-2023
+- [W60.2] DEFINITION  Gulo gulo mitochondrion, complete genome.
+- [W60.3] ACCESSION   NC_009685 REGION: 3910..4951
+- [W60.4] DBLINK      BioProject: PRJNA927338
+- [W60.5] SOURCE      mitochondrion Gulo gulo (wolverine)
+- [W60.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W60.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+- [W60.8] Musteloidea; Mustelidae; Guloninae; Gulo.
+- [W60.9] REFERENCE   1  (bases 1 to 1042)
+- [W60.10] AUTHORS   Arnason,U., Gullberg,A., Janke,A. and Kullberg,M.
+- [W60.11] TITLE     Mitogenomic analyses of caniform relationships
+- [W60.12] REFERENCE   2  (bases 1 to 1042)
+- [W60.13] CONSRTM   NCBI Genome Project
+- [W60.14] TITLE     Direct Submission
+- [W60.15] JOURNAL   Submitted (24-JUL-2007) National Center for Biotechnology
+- [W60.16] Information, NIH, Bethesda, MD 20894, USA
+- [W60.17] REFERENCE   3  (bases 1 to 1042)
+- [W60.18] TITLE     Direct Submission
+- [W60.19] JOURNAL   Submitted (11-MAY-2007) Cell And Organism Biology, Evolutionary
+- [W60.20] Molecular Systematics, Solvegatan 29, S-22362, Lund, Sweden
+- [W60.21] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W60.22] reference sequence was derived from AM711901.
+- [W60.23] COMPLETENESS: full length.
+- [W60.24] FEATURES             Location/Qualifiers
+- [W60.25] /organelle="mitochondrion"
+- [W60.26] /note="TAA stop codon is completed by the addition of 3' A
+- [W60.27] /transl_except=(pos:4951,aa:TERM)
+- [W60.28] /product="NADH dehydrogenase subunit 2"
+- [W60.29] /protein_id="YP_001382260.1"
+- [W60.30] /translation="MKPPILTIIMSTVISGTIMVLISSHWLTIWIGFEMNMLAIIPIL
+- [W60.31] MKKFNPRAMEASTKYFLTQATASMLLMLGITINLLLTGQWAVLNMPDPIASNMMTVAL
+- [W60.32] AMKLGLSPFHFWVPEVTQGIPLSSGMILLTWQKIAPLSILYQISPSTNPNLLMAMATM
+- [W60.33] SVLMGGWGGLNQTQLRKILAYSSIAHMGWMIAVTTYNPTLMLLNLVIYIMMTLGAFML
+- [W60.34] FMLNSSTTTLSLSHMWNKFPLITSLILTIMLSLGGLPPLSGFIPKWMIIHELTKNNMI
+- [W60.35] IMATFMAITALLNLYFYMRLTYATTLTLFPSMNIMKMKWQFENTKNTTLLPLLIVIST
+- [W60.36] 1 attaaacccc ccatcctcac catcattata tcaaccgtta tctcaggaac cattatagta
+- [W60.37] 61 ctaatcagct cccactgatt aacaatctga atcggatttg aaataaatat actagccatt
+- [W60.38] 121 atccccattc taataaaaaa atttaatcca cgagccatgg aggcctcaac aaaatatttt
+- [W60.39] 181 ctcacccaag ccaccgcatc catactcctc atgctaggaa tcaccatcaa cctactgcta
+- [W60.40] 241 acaggacaat gagcagtact aaacataccc gatccaatcg catcaaacat aataacagtg
+- [W60.41] 301 gccctagcaa taaaactagg actatctccc ttccacttct gagtaccaga agtaacccaa
+- [W60.42] 361 ggaatcccat tatcatcagg aatgattcta ctcacctgac aaaaaatcgc tcccctatcc
+- [W60.43] 421 atcttatatc aaatctcccc atccacaaat ccaaacctat taatagctat agccactata
+- [W60.44] 481 tctgttctaa tagggggctg aggaggcctt aaccaaacac aactacgaaa aatcctagca
+- [W60.45] 541 tactcatcaa tcgcccatat aggatgaatg atcgccgtaa caacatataa ccctactcta
+- [W60.46] 601 atgttactaa accttgtaat ttatattatg ataacactcg gagcctttat actatttata
+- [W60.47] 661 ctcaattcat ccacgactac cctatcacta tcccacatgt gaaacaaatt cccactaatc
+- [W60.48] 721 acctcactaa tcctaacaat tatattatca ctaggaggcc tccctcccct ttcaggcttc
+- [W60.49] 781 atccccaaat gaataatcat ccatgaactc acaaaaaaca acataatcat catagcaaca
+- [W60.50] 841 tttatggcaa tcactgccct actaaatctt tacttctata tgcgactaac atacgcaaca
+- [W60.51] 901 acactaactt tattcccctc aataaatatt ataaaaataa aatgacaatt cgaaaataca
+- [W60.52] 961 aaaaacacaa ccctacttcc cttactaatt gtaatctcaa ccatactact cccactatcc
+- [W60.53] 1021 ccaataatac ttacactact ct
+
+## [W61] NCBI RefSeq NC_003426.1: American black bear mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_003426.1 · Public domain · usage: ai_input, display
+
+- [W61.1] LOCUS       NC_003426               1044 bp    DNA     linear   MAM 03-APR-2023
+- [W61.2] DEFINITION  Ursus americanus mitochondrion, complete genome.
+- [W61.3] ACCESSION   NC_003426 REGION: 4864..5907
+- [W61.4] DBLINK      BioProject: PRJNA927338
+- [W61.5] SOURCE      mitochondrion Ursus americanus (American black bear)
+- [W61.6] ORGANISM  Ursus americanus
+- [W61.7] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W61.8] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Ursidae;
+- [W61.9] REFERENCE   1  (bases 1 to 1044)
+- [W61.10] AUTHORS   Delisle,I. and Strobeck,C.
+- [W61.11] TITLE     Conserved primers for rapid sequencing of the complete
+- [W61.12] mitochondrial genome from carnivores, applied to three species of
+- [W61.13] REFERENCE   2  (bases 1 to 1044)
+- [W61.14] CONSRTM   NCBI Genome Project
+- [W61.15] TITLE     Direct Submission
+- [W61.16] JOURNAL   Submitted (11-MAR-2002) National Center for Biotechnology
+- [W61.17] Information, NIH, Bethesda, MD 20894, USA
+- [W61.18] REFERENCE   3  (bases 1 to 1044)
+- [W61.19] AUTHORS   Delisle,I. and Strobeck,C.
+- [W61.20] TITLE     Direct Submission
+- [W61.21] JOURNAL   Submitted (07-SEP-2000) Biological Sciences, University of Alberta,
+- [W61.22] CW-405, Biological Sciences Building, Edmonton, Alberta T6G 2E9,
+- [W61.23] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W61.24] reference sequence was derived from AF303109.
+- [W61.25] COMPLETENESS: full length.
+- [W61.26] FEATURES             Location/Qualifiers
+- [W61.27] /organism="Ursus americanus"
+- [W61.28] /organelle="mitochondrion"
+- [W61.29] /product="NADH dehydrogenase subunit 2"
+- [W61.30] /translation="MKPPILIIITSTIVLGTMIVLFSSHWLMIWIGFEMNMLAIIPVL
+- [W61.31] MKKFNPRAMEASTKYFLTQATASMLLMLGIIINLLYSGHWTVSMIPNPVASTVITIAL
+- [W61.32] AMKLGLSPFHFWVPEVTQGVSLSSGMILLTWQKIAPLSVLYQISPSINPNLLVTMAAT
+- [W61.33] SVLVGGWGGLNQTQLRKILAYSSIAHMGWMAAIMVYNPTLMILNLAIYIMMTLGTFML
+- [W61.34] FMYNLSTTTLSLSHTWNKSPLIASLILALMLSLGGLPPLSGFIPKWMIIQELTKNDMI
+- [W61.35] IMPMFMAITALLNLYFYMRLTYATALTMFPSANNMKMKWQFESTKKMILLPPLIVAST
+- [W61.36] tRNA            1043..>1044
+- [W61.37] 1 ataaaacctc ccattcttat cattatcaca tccactattg tcctaggaac cataatcgtt
+- [W61.38] 61 ttatttagct cccattgact cataatctga attggctttg aaataaacat actagctatt
+- [W61.39] 121 atcccagtcc taatgaaaaa atttaatcca cgagccatag aagcctctac aaaatatttc
+- [W61.40] 181 ctcacacaag ccactgcatc catgcttcta atactaggca ttattatcaa cctactatac
+- [W61.41] 241 tcaggacact gaacagtctc aataatcccc aacccagtcg catcaaccgt aatcaccatt
+- [W61.42] 301 gccctagcaa tgaaactcgg tctatccccc tttcatttct gagtcccaga agtcacacaa
+- [W61.43] 361 ggcgtctctt tatcctcagg aatgatccta ctaacatgac aaaaaatcgc acctctatcc
+- [W61.44] 421 gtcctatatc aaatctcacc atccatcaac ccaaacctac tggtaacaat agctgctaca
+- [W61.45] 481 tccgtattag taggaggctg aggaggacta aaccaaactc aacttcgaaa aatcctagca
+- [W61.46] 541 tactcttcaa tcgcccacat gggttgaatg gctgccatta tagtatataa ccccacccta
+- [W61.47] 601 ataatcctta accttgcaat ttatatcata ataactctag ggacatttat actattcatg
+- [W61.48] 661 tacaacctat ctacaacaac cctgtcactg tcccatacat gaaataaatc accactaatt
+- [W61.49] 721 gcctcactaa tcctagcact tatactatca ctaggcggcc tccctcccct ctcaggcttt
+- [W61.50] 781 attcccaaat gaataattat tcaggagcta acaaaaaatg atataattat tatacccata
+- [W61.51] 841 ttcatagcca tcacagccct actaaacctt tacttctaca tgcgtctaac atatgccacg
+- [W61.52] 901 gcgctaacaa tgtttccctc agcaaataat ataaaaataa aatgacagtt tgaaagcaca
+- [W61.53] 961 aaaaaaataa ttctcttacc ccctctaatc gtagcatcga ccatactcct cccactaact
+- [W61.54] 1021 ccaatactat caatcatgga ctag
+
+## [W62] NCBI RefSeq NC_021749.1: European pine marten mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_021749.1 · Public domain · usage: ai_input, display
+
+- [W62.1] LOCUS       NC_021749               1042 bp    DNA     linear   MAM 03-APR-2023
+- [W62.2] DEFINITION  Martes martes mitochondrion, complete genome.
+- [W62.3] ACCESSION   NC_021749 REGION: 3912..4953
+- [W62.4] DBLINK      BioProject: PRJNA927338
+- [W62.5] SOURCE      mitochondrion Martes martes (European pine marten)
+- [W62.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W62.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+- [W62.8] Musteloidea; Mustelidae; Guloninae; Martes.
+- [W62.9] REFERENCE   1  (bases 1 to 1042)
+- [W62.10] AUTHORS   Li,B., Wu,D. and Malyarchuk,B.
+- [W62.11] TITLE     Complete mitochondrial genome of European pine marten, Martes
+- [W62.12] JOURNAL   Mitochondrial DNA 25 (5), 372-373 (2014)
+- [W62.13] REFERENCE   2  (bases 1 to 1042)
+- [W62.14] CONSRTM   NCBI Genome Project
+- [W62.15] TITLE     Direct Submission
+- [W62.16] JOURNAL   Submitted (18-JUL-2013) National Center for Biotechnology
+- [W62.17] Information, NIH, Bethesda, MD 20894, USA
+- [W62.18] REFERENCE   3  (bases 1 to 1042)
+- [W62.19] TITLE     Direct Submission
+- [W62.20] JOURNAL   Submitted (19-FEB-2013) College of Wildlife Resources, Northeast
+- [W62.21] 26, Hexing Road, Xiangfang District,
+- [W62.22] Harbin, Heilongjiang 150040, China
+- [W62.23] COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+- [W62.24] The reference sequence is identical to KC660129.
+- [W62.25] Assembly Method       :: SOAPdenovo v.
+- [W62.26] Sequencing Technology :: Illumina
+- [W62.27] COMPLETENESS: full length.
+- [W62.28] FEATURES             Location/Qualifiers
+- [W62.29] /organelle="mitochondrion"
+- [W62.30] /db_xref="GeneID:16216540"
+- [W62.31] /note="TAA stop codon is completed by the addition of 3' A
+- [W62.32] /transl_except=(pos:4953,aa:TERM)
+- [W62.33] /product="NADH dehydrogenase subunit 2"
+- [W62.34] /protein_id="YP_008238921.1"
+- [W62.35] /db_xref="GeneID:16216540"
+- [W62.36] /translation="MKPPILAVIMSTVISGTIMVLISSHWLTIWIGFEMNMLAIIPIL
+- [W62.37] MKKFNPRAMEASTKYFLTQATASMLLMLGIIINLLLTGQWAVLNMPSPIASNMMTVAL
+- [W62.38] AMKLGLSPFHFWVPEVTQGVPMSSGMILLTWQKIAPLSILYQIAPSMNPNLLMAMAIM
+- [W62.39] SVLVGGWGGLNQTQLRKILAYSSIAHMGWMIVVTTYNPTLMLLNLTIYIMMTLGTFML
+- [W62.40] FMLNSSTTTLSLSHTWNKLPLIASLILMTMLSLGGLPPLSGFIPKWMIIHELTKNDMA
+- [W62.41] IMATFMAMTALLNLYFYMRLTYATALTMFPSTNIMKMKWQFESTKNTTLLPPLIMIST
+- [W62.42] 1 attaaacccc ctatcctcgc tgtcatcata tcgaccgtta tctcgggcac tatcatagta
+- [W62.43] 61 ttaatcagtt cccactgatt aacaatctga atcgggtttg aaatgaacat actagccatc
+- [W62.44] 121 atccccattc taataaaaaa atttaaccca cgagccatgg aggcctcaac aaaatacttt
+- [W62.45] 181 cttacccaag ccaccgcatc catgctcctt atgctaggaa ttatcatcaa cctactgcta
+- [W62.46] 241 acagggcaat gagcagtact aaacataccc agtccaatcg catcaaacat aataacagta
+- [W62.47] 301 gccctagcaa taaaactagg attatccccc ttccatttct gagtacccga agtaacccaa
+- [W62.48] 361 ggagtcccaa tatcatcagg aataatccta ctcacctgac aaaaaatcgc ccccttatct
+- [W62.49] 421 atcttatacc aaatcgcccc atccataaat ccgaacctac taatagccat agccatcata
+- [W62.50] 481 tccgttctag taggaggctg aggaggcctt aaccaaacac aactgcgaaa aatcctagca
+- [W62.51] 541 tactcatcaa tcgcccatat agggtgaata atcgtggtaa caacgtacaa cccgacccta
+- [W62.52] 601 atattactaa accttacaat ttacatcatg ataacactcg gaaccttcat gttatttata
+- [W62.53] 661 cttaactcat ccacaaccac cctgtcacta tcccacacat ggaataaact cccactaatc
+- [W62.54] 721 gcttcactaa tcttaataac catactatcg ctaggaggcc tacctcccct ctcaggcttt
+- [W62.55] 781 atccccaagt ggataatcat ccatgaactc acgaaaaatg acatagccat catagcaaca
+- [W62.56] 841 ttcatagcaa taacagctct actgaacctg tacttttaca tacgactaac gtacgcaaca
+- [W62.57] 901 gcactgacga tattcccctc aactaacatt ataaaaataa aatgacaatt cgaaagcaca
+- [W62.58] 961 aaaaacacaa ccctactccc cccgctaatc ataatctcaa ccatactgct cccactaacc
+- [W62.59] 1021 ccaataatac taacgctatt ct
+
+## [W63] NCBI RefSeq NC_011125.1: European badger mitochondrial ND2 gene
+https://www.ncbi.nlm.nih.gov/nuccore/NC_011125.1 · Public domain · usage: ai_input, display
+
+- [W63.1] LOCUS       NC_011125               1044 bp    DNA     linear   MAM 03-APR-2023
+- [W63.2] DEFINITION  Meles meles mitochondrion, complete genome.
+- [W63.3] ACCESSION   NC_011125 REGION: 3915..4958
+- [W63.4] DBLINK      BioProject: PRJNA927338
+- [W63.5] SOURCE      mitochondrion Meles meles (Eurasian badger)
+- [W63.6] Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+- [W63.7] Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+- [W63.8] Musteloidea; Mustelidae; Melinae; Meles.
+- [W63.9] REFERENCE   1  (bases 1 to 1044)
+- [W63.10] AUTHORS   Arnason,U., Gullberg,A., Janke,A. and Kullberg,M.
+- [W63.11] TITLE     Mitogenomic analyses of caniform relationships
+- [W63.12] REFERENCE   2  (bases 1 to 1044)
+- [W63.13] CONSRTM   NCBI Genome Project
+- [W63.14] TITLE     Direct Submission
+- [W63.15] JOURNAL   Submitted (06-AUG-2008) National Center for Biotechnology
+- [W63.16] Information, NIH, Bethesda, MD 20894, USA
+- [W63.17] REFERENCE   3  (bases 1 to 1044)
+- [W63.18] TITLE     Direct Submission
+- [W63.19] JOURNAL   Submitted (10-MAY-2007) Cell And Organism Biology, Evolutionary
+- [W63.20] Molecular Systematics, Solvegatan 29, S-22362 Lund, Sweden
+- [W63.21] COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff.
+- [W63.22] reference sequence was derived from AM711900.
+- [W63.23] COMPLETENESS: full length.
+- [W63.24] FEATURES             Location/Qualifiers
+- [W63.25] /organelle="mitochondrion"
+- [W63.26] /product="NADH dehydrogenase subunit 2"
+- [W63.27] /protein_id="YP_002120647.1"
+- [W63.28] /db_xref="InterPro:IPR001750"
+- [W63.29] /db_xref="InterPro:IPR010933"
+- [W63.30] /db_xref="UniProtKB/TrEMBL:A7DY00"
+- [W63.31] /translation="MKPPIFIIIMSTVILGTIMVLTSSHWLMIWIGFEMNMLAIIPIL
+- [W63.32] MKKFNPRAMEASTKYFLTQATASMLLMLGIITNLLLSGQWTMLNTPNLITSNMMTIAL
+- [W63.33] AMKLGLSPFHFWVPEVTQGIPLSSGMVLLTWQKIAPLSVLYQISPSINPNLLTIMAMT
+- [W63.34] SVLVGGWGGLNQTQLRKILAYSSIAHMGWMIAVTAYSPTLMALNLAIYITMTLGTFML
+- [W63.35] FMLSTSTTTLSLSHTWNKFPLITSLILMVMLSLGGLPPLSGFIPKWMIIHELTKNNMI
+- [W63.36] IAPMFMAMTALLNLYFYMRLTYATALTMFPSTNIMKMKWQFENTKNMTFLPPLIVIST
+- [W63.37] gene            1043..>1044
+- [W63.38] tRNA            1043..>1044
+- [W63.39] 1 attaaacccc ccatcttcat catcatcata tcaactgtca tcctaggaac aatcatagta
+- [W63.40] 61 ctaacaagct cccactgatt aataatctga atcggattcg aaataaacat actagctatt
+- [W63.41] 121 attcctatcc taataaaaaa gttcaatcca cgagccatag aagcatcaac aaaatatttc
+- [W63.42] 181 ctaacccaag ccaccgcatc tatactcctt atattaggta ttatcaccaa tttactacta
+- [W63.43] 241 tcaggacaat gaacaatact gaataccccc aatttaatca catcaaacat gataacaatc
+- [W63.44] 301 gccctagcaa taaaactagg actatctcct tttcacttct gagtacctga agtgacccaa
+- [W63.45] 361 ggaattccat tatcatcagg aatagtccta ttaacatgac agaaaatcgc tcccctatcc
+- [W63.46] 421 gtcctatacc aaatctctcc ctccattaac ccaaacctat taacaatcat agctataaca
+- [W63.47] 481 tctgtcctag taggaggctg aggaggcctt aatcagaccc aactacgaaa aatcctagca
+- [W63.48] 541 tactcatcaa ttgcccatat aggatgaata atcgctgtaa cagcatatag cccaacccta
+- [W63.49] 601 atagccctaa acctagcaat ttatattaca ataactctcg ggacatttat attatttata
+- [W63.50] 661 ctcagcacat ccacaactac actatcacta tcccatacat gaaataaatt cccactaatt
+- [W63.51] 721 acatcactca tcctaatagt catactatca ctaggaggcc tccctcccct ctcaggcttc
+- [W63.52] 781 atccccaaat gaataatcat ccatgaactc acaaaaaata atataatcat cgcaccaata
+- [W63.53] 841 ttcatagcaa taacagccct attaaaccta tacttctaca tacgactgac ctatgcgacc
+- [W63.54] 901 gcactcacca tattcccctc aacaaatatc ataaaaataa aatgacaatt tgagaataca
+- [W63.55] 961 aaaaatataa ccttcttacc accactaatt gtaatctcaa ctatactttt acccctcacc
+- [W63.56] 1021 ccaatagcac tagcactatt atag

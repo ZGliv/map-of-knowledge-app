@@ -1,0 +1,59 @@
+{
+ "paragraphs": [
+  {
+   "heading": "A function that keeps the rules",
+   "text": "A linear map is a kind of function that takes vectors from one vector space to another. What makes it special is that it plays fair with the two basic moves you can make with vectors: adding them and stretching them by a number, called a scalar. People also call it a linear mapping or a linear operator. When the starting space and the target space are the same one, it often goes by linear transformation or linear endomorphism.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "heading": "Before or after, same answer",
+   "text": "In symbols, a linear map T from V to W obeys T(ax + by) = aTx + bTy for any scalars a, b and any vectors x, y in V. In plain terms, you can add and scale first and then apply the map, or apply the map first and then add and scale. Both routes land in the same place. Since a linear combination is just a sum of scaled vectors, this means a linear map preserves linear combinations.",
+   "cites": [
+    5,
+    9,
+    11
+   ]
+  },
+  {
+   "heading": "What happens to the origin",
+   "text": "A linear map always sends the origin of one space to the origin of the other. You can see why by scaling any vector by zero: the map of zero times a vector must be zero times the mapped vector, which is the zero vector. It also sends each linear subspace of the first space to a linear subspace of the second, possibly of lower dimension. A plane through the origin may land as a plane, squash down to a line through the origin, or collapse to the origin itself.",
+   "cites": [
+    6,
+    12,
+    13
+   ]
+  },
+  {
+   "heading": "Matrices do the work",
+   "text": "The standard example is a matrix with m rows and n columns. It takes a column vector with n entries, multiplies, and hands back a column vector with m entries, all in a way that respects adding and scaling. The reverse is also true: any linear map between spaces of finite dimension can be written as a matrix. Rotations and reflections are simple examples you can picture.",
+   "cites": [
+    2,
+    7,
+    20,
+    21
+   ]
+  },
+  {
+   "heading": "Where the name comes from",
+   "text": "The map that multiplies every real number by a fixed number c is the model case. Its graph is a straight line through the origin, which is where the word linear comes from. The map that sends everything to zero counts as linear too. But adding one to every real number does not: it is called an affine transformation instead.",
+   "cites": [
+    16,
+    18,
+    19
+   ]
+  },
+  {
+   "heading": "Beyond geometry",
+   "text": "Linear maps turn up well beyond arrows on paper. Taking a derivative is one: the derivative of af(x) + bg(x) is a times the derivative of f plus b times the derivative of g. Expected value in probability behaves the same way: the expected value of a sum is the sum of the expected values, and E[aX] = aE[X]. Variance does not, because Var(aX) = a²Var(X), so scaling the input does not simply scale the output.",
+   "cites": [
+    24,
+    26,
+    30,
+    32
+   ]
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "title": "What Holds Clusters Together?",
+ "question": "What are galaxy clusters made of, and why is most of their mass unseen?",
+ "hook": "The part of a galaxy cluster we can see in a photograph is only a small slice of it.",
+ "idea": "A galaxy cluster is mostly dark matter, with hot gas and a small share of galaxies.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You add up the mass of the galaxies in a cluster, the only part visible in ordinary light. How does that compare with the cluster's total mass?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Galaxies make up nearly all of it",
+     "feedback": "Tempting because galaxies are the only part we see in visible light, but they are only a small fraction."
+    },
+    {
+     "id": "b",
+     "label": "Galaxies are a small fraction, and dark matter is most of it"
+    },
+    {
+     "id": "c",
+     "label": "Hot gas makes up most of it",
+     "feedback": "Gas is a main component, but dark matter makes up the majority of the mass."
+    }
+   ],
+   "answer": "b",
+   "explain": "Galaxies make up a small fraction of a cluster, while dark matter makes up the majority of its mass.",
+   "cites": [
+    2,
+    11,
+    12,
+    14
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each part of a cluster to what is true of it.",
+   "pairs": [
+    [
+     "Galaxies",
+     "The only part we can detect in visible light"
+    ],
+    [
+     "Heated gas",
+     "Reaches 30 to 100 million degrees Celsius at its peak"
+    ],
+    [
+     "Dark matter",
+     "Most of the mass, yet undetectable optically"
+    ]
+   ],
+   "explain": "A cluster has three main components, and only the galaxies show up in visible light.",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A cluster lies between us and a very distant, faint galaxy. What does the cluster do to that galaxy's light?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Its gravity bends the light's path, magnifying the view"
+    },
+    {
+     "id": "b",
+     "label": "It blocks the light so the galaxy vanishes",
+     "feedback": "Tempting because the cluster is huge, but its gravity bends the path of photons rather than stopping them."
+    },
+    {
+     "id": "c",
+     "label": "It leaves the light untouched",
+     "feedback": "Near massive clusters, gravity distorts space-time and bends the path of photons."
+    }
+   ],
+   "answer": "a",
+   "explain": "Clusters act as gravitational lenses, bending photons into a cosmic magnifying glass that lets telescopes see distant galaxies.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A galaxy cluster holds hundreds to thousands of galaxies bound by gravity.",
+    "Galaxies are the only part of a cluster we can see in visible light.",
+    "So the galaxies must make up most of a cluster's mass.",
+    "Therefore a cluster needs nothing we cannot see."
+   ],
+   "wrong": 2,
+   "explain": "Being the only visible part does not make galaxies the main mass; dark matter makes up most of it.",
+   "cites": [
+    1,
+    12,
+    14
+   ]
+  }
+ ]
+}

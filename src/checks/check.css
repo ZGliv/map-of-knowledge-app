@@ -1,0 +1,125 @@
+/* Prove it: one calm screen above the atlas, in its night. Colors come from the atlas
+   tokens (cartographic-theme.css shares them with .check-shell) plus the node's own
+   territory color, --check-color. No boxes around answers: hairline-divided rows. */
+.check-shell{position:fixed;inset:0;z-index:60;overflow-y:auto;overscroll-behavior:contain;outline:none;color-scheme:dark;color:var(--atlas-text);-webkit-text-size-adjust:100%;
+ background:radial-gradient(820px 460px at 50% -160px,color-mix(in srgb,var(--check-color) 15%,transparent),transparent 72%),var(--atlas-shade)}
+.check-shell *{box-sizing:border-box}
+.check-shell :focus-visible{outline:2px solid var(--atlas-pale);outline-offset:3px}
+.check-sky{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
+
+/* Bar */
+.check-bar{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:72px minmax(0,1fr) 72px;align-items:center;gap:8px;height:56px;padding:0 12px;background:linear-gradient(var(--atlas-shade) 55%,transparent)}
+.check-close{width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:none;color:var(--atlas-muted)}
+.check-close:hover{background:var(--atlas-raised);color:var(--atlas-bright)}
+.check-close svg{width:16px;height:16px}
+.check-bar__place{margin:0;text-align:center;font-family:var(--atlas-serif);font-size:15px;color:var(--atlas-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.check-ticks{justify-self:end;list-style:none;display:flex;gap:5px;width:60px;margin:0;padding:0}
+.check-ticks li{flex:1;height:2px;border-radius:2px;background:var(--atlas-border);transition:background .3s}
+.check-ticks li.is-done{background:var(--check-color)}
+.check-ticks li.is-now{background:var(--atlas-pale)}
+
+.check-main{position:relative;z-index:1;max-width:620px;margin:0 auto;padding:8px 16px 96px}
+.check-stage{animation:check-in .35s ease-out both}
+@keyframes check-in{from{opacity:0;transform:translateY(8px)}}
+
+/* The patch, as on the payoff: dashed until proved, filled when colored, a white core when Lasting. */
+.check-patch{display:block;width:min(220px,64%);margin:0 auto 20px;overflow:visible}
+.check-patch__cell{fill:color-mix(in srgb,var(--atlas-raised) 80%,transparent);stroke:var(--atlas-shade);stroke-width:3}
+.check-patch__home{fill:var(--check-color);fill-opacity:0;stroke:var(--check-color);stroke-width:1.6;stroke-dasharray:3 3;transition:fill-opacity 1.6s ease}
+.check-patch:is(.is-lit,.is-lasting) .check-patch__home{stroke-dasharray:none}
+.check-patch:is(.is-lit,.is-lasting).is-on .check-patch__home{fill-opacity:.88}
+.check-patch__core{fill:var(--atlas-bright);opacity:0;transition:opacity 1.2s ease 1s}
+.check-patch.is-on .check-patch__core{opacity:.95}
+
+/* Opening, unavailable and result screens */
+.check-intro,.check-result{text-align:center;padding-top:5vh}
+.check-intro h1,.check-result h1{font:400 clamp(36px,7vw,52px)/1.05 var(--atlas-serif);letter-spacing:-.8px;color:var(--atlas-bright);margin:0 0 14px;text-wrap:balance}
+.check-claim{font:italic 400 clamp(18px,2.4vw,21px)/1.5 var(--atlas-serif);color:var(--atlas-highlight);max-width:34ch;margin:0 auto;text-wrap:pretty}
+.check-meta{margin:18px 0 0;font-size:13.5px;color:var(--atlas-muted)}
+.check-line{margin:0 auto 12px;max-width:40ch;font-size:16px;line-height:1.55;color:var(--atlas-secondary);text-wrap:pretty}
+.check-reason{margin:0 auto 18px;max-width:40ch;font-size:14px;line-height:1.5;color:var(--atlas-muted)}
+.check-result .check-claim{margin-top:6px}
+.check-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 18px;margin-top:32px}
+.check-primary{min-height:46px;padding:0 26px;border-radius:3px;background:var(--atlas-button);color:var(--atlas-button-ink);font-weight:600;font-size:15px;transition:background .2s}
+.check-primary:hover{background:var(--atlas-highlight)}
+.check-secondary{min-height:46px;padding:0 20px;border:1px solid var(--atlas-border-strong);border-radius:3px;background:none;color:var(--atlas-text);font-size:15px}
+.check-secondary:hover{background:var(--atlas-raised)}
+
+/* A question */
+.check-question{padding-top:3vh}
+.check-prompt{font:400 clamp(21px,2.6vw,24px)/1.42 var(--atlas-serif);letter-spacing:-.2px;color:var(--atlas-bright);margin:0 0 24px;text-wrap:pretty}
+.check-options,.check-order__placed,.check-order__pool,.check-match{list-style:none;margin:0;padding:0;border-top:1px solid var(--atlas-rule)}
+.check-options li,.check-order__placed li,.check-order__pool li,.check-match li{border-bottom:1px solid var(--atlas-rule)}
+.check-options button,.check-order__pool button,.check-order__placed button{width:100%;display:grid;grid-template-columns:22px minmax(0,1fr);gap:14px;align-items:start;padding:15px 4px;background:none;text-align:left;font-size:16.5px;line-height:1.45;color:var(--atlas-secondary);transition:color .15s,background .15s}
+.check-options button:hover,.check-order__pool button:hover{color:var(--atlas-bright);background:color-mix(in srgb,var(--atlas-raised) 45%,transparent)}
+.check-options i{width:16px;height:16px;margin-top:3px;border-radius:50%;border:1.5px solid var(--atlas-border-strong);font-style:normal}
+.check-options.is-letter i{width:auto;height:auto;margin-top:2px;border:0;color:var(--atlas-muted);font-size:14px;text-align:center}
+.check-options.is-letter span{font-family:var(--atlas-serif);font-size:17.5px}
+.check-options button.is-picked{color:var(--atlas-bright);background:color-mix(in srgb,var(--check-color) 9%,transparent)}
+.check-options.is-ring button.is-picked i{border-color:var(--check-color);background:radial-gradient(circle,var(--check-color) 0 3.5px,transparent 4.5px)}
+.check-options.is-letter button.is-picked i{color:var(--check-color)}
+
+.check-order__end{margin:0 0 8px;font-size:12.5px;color:var(--atlas-muted)}
+.check-order__placed{margin-bottom:8px}
+.check-order__placed li{min-height:54px;display:flex;align-items:stretch}
+.check-order__placed button{align-items:center;padding:12px 4px;color:var(--atlas-bright)}
+.check-order__placed b{font:400 18px var(--atlas-serif);color:var(--check-color);text-align:center}
+.check-order__placed li.is-empty{align-items:center;padding:0 4px}
+.check-order__placed li.is-empty b{width:22px;font:400 18px var(--atlas-serif);color:var(--atlas-border-strong);text-align:center}
+.check-order__pool{margin-top:26px}
+.check-order__pool button{grid-template-columns:minmax(0,1fr);padding:14px 4px 14px 36px;position:relative}
+.check-order__pool button::before{content:'';position:absolute;left:7px;top:19px;width:14px;height:14px;border-radius:50%;border:1.5px dashed var(--atlas-border-strong)}
+
+.check-match li{padding:15px 2px}
+.check-match p{margin:0 0 10px;font-size:16px;line-height:1.45;color:var(--atlas-text)}
+.check-match div{display:flex;flex-wrap:wrap;gap:6px}
+.check-match button{min-height:36px;padding:6px 12px;border:1px solid var(--atlas-border);border-radius:999px;background:none;font-size:14px;color:var(--atlas-secondary);transition:background .15s,border-color .15s,color .15s}
+.check-match button:hover{border-color:var(--atlas-border-strong);color:var(--atlas-bright)}
+.check-match button.is-picked{border-color:var(--check-color);background:color-mix(in srgb,var(--check-color) 20%,transparent);color:var(--atlas-bright)}
+
+.check-number{display:flex;align-items:baseline;gap:12px;max-width:300px;padding:4px 2px 8px;border-bottom:1px solid var(--atlas-border-strong);transition:border-color .2s}
+.check-number:focus-within{border-color:var(--check-color)}
+.check-number input{flex:1;min-width:0;padding:0;background:none;border:0;outline:0;font:400 40px/1.15 var(--atlas-serif);color:var(--atlas-bright);font-variant-numeric:tabular-nums}
+.check-number input:focus-visible{outline:none}
+.check-number input::placeholder{color:var(--atlas-border-strong)}
+.check-number__unit{font-size:16px;color:var(--atlas-muted)}
+
+/* The confidence tap commits the answer. It waits, dimmed, until there is an answer. */
+.check-sure{margin-top:30px;opacity:.3;transition:opacity .25s}
+.check-sure.is-ready{opacity:1}
+.check-sure p{margin:0 0 10px;font:italic 17px var(--atlas-serif);color:var(--atlas-secondary)}
+.check-sure div{display:flex;gap:8px}
+.check-sure button{flex:1 1 0;min-height:48px;padding:0 10px;border:1px solid var(--atlas-border-strong);border-radius:3px;background:color-mix(in srgb,var(--atlas-raised) 70%,transparent);color:var(--atlas-text);font-size:15px}
+.check-sure button:disabled{opacity:1}
+.check-sure button:hover:not(:disabled){border-color:var(--check-color);color:var(--atlas-bright)}
+
+/* The review */
+.check-review__title{font:400 22px var(--atlas-serif);color:var(--atlas-bright);text-align:left;margin:46px 0 10px}
+.check-review{list-style:none;margin:0;padding:0;text-align:left;border-top:1px solid var(--atlas-rule)}
+.check-review>li{border-bottom:1px solid var(--atlas-rule)}
+.check-review summary{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:15px 2px;cursor:pointer;list-style:none}
+.check-review summary::-webkit-details-marker{display:none}
+.check-review__mark{padding-top:2px;font-size:13px;color:var(--check-color)}
+.check-review li.is-wrong .check-review__mark{color:var(--atlas-muted)}
+.check-review__claim{font:400 17px/1.4 var(--atlas-serif);color:var(--atlas-text)}
+.check-review__body{padding:0 2px 18px 110px;font-size:14.5px;line-height:1.55;color:var(--atlas-secondary)}
+.check-review__body p{margin:0 0 8px}
+.check-review__body b{margin-right:6px;font-weight:600;color:var(--atlas-muted)}
+.check-review__prompt{color:var(--atlas-muted)}
+.check-review__list{margin:0 0 10px;padding-left:20px;color:var(--atlas-text)}
+.check-review__list li{margin:0 0 4px}
+.check-review__list b{font-weight:600;color:var(--atlas-bright);margin:0}
+.check-review summary:hover .check-review__claim{color:var(--atlas-bright)}
+.check-review__working{font-variant-numeric:tabular-nums;color:var(--atlas-text)}
+.check-calibration{margin:22px 0 0;text-align:left;font:italic 16px/1.5 var(--atlas-serif);color:var(--atlas-secondary)}
+
+@media(max-width:560px){
+ .check-review summary{grid-template-columns:minmax(0,1fr);gap:3px}
+ .check-review__body{padding-left:2px}
+ .check-sure button{font-size:14px;padding:0 6px}
+}
+@media(prefers-reduced-motion:reduce){.check-stage{animation:none}.check-patch__home,.check-patch__core,.check-sure{transition:none}}
+/* Safe areas (index.html sets viewport-fit=cover): the bar clears the status bar, the content the notch and the home indicator. */
+.check-shell{padding-left:var(--safe-left);padding-right:var(--safe-right)}
+.check-bar{height:calc(56px + var(--safe-top));padding-top:var(--safe-top)}
+.check-main{padding-bottom:calc(96px + var(--safe-bottom))}

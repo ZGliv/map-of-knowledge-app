@@ -1,0 +1,26 @@
+{
+ "readHash": "695fece4bee05c9752d4384218bf2f52ffdd0944",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Name, cofactor expansion, weighted sum of minors of (n-1)x(n-1) submatrices all in [1]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Coefficient (-1)^(i+j) m_(i,j) called cofactor of b_(i,j) in [2]; m as minor from [1]; sign depending on i,j is read off the expression."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Proofs/recursion [3], didactic simplicity [4], inefficient vs Gaussian elimination [5], one-size-smaller minors [1]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Columns 1+3 = twice column 2, so singular and determinant zero, verifying result: [6]/[12]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Expansion along first two rows [11], general k form coincides at k=1 [13], same for k columns [14]."
+  }
+ }
+}

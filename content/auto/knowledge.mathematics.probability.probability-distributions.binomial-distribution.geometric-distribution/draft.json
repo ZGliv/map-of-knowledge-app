@@ -1,0 +1,229 @@
+{
+ "summary": [
+  {
+   "text": "The geometric distribution describes when the first success occurs in an endless sequence of independent, identically distributed Bernoulli trials.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It can count the trials up to and including the first success, or the failures before it, and the probability formula changes with the choice.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "text": "It is the only memoryless discrete distribution: earlier failed trials do not affect how many more trials are needed for a success.",
+   "cites": [
+    14,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name",
+   "value": "Its probabilities follow a geometric sequence",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Die example",
+   "value": "Rolling until a 1 appears has success chance 1/6 each roll",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Average wait",
+   "value": "About 6 rolls to see a 1 on a fair die",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Memoryless",
+   "value": "The only memoryless discrete distribution",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Other name",
+   "value": "Sometimes called the Furry distribution",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You roll a die again and again until a 1 appears and note how many rolls it took. Which distribution describes that number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric"
+    },
+    {
+     "id": "b",
+     "label": "Binomial"
+    },
+    {
+     "id": "c",
+     "label": "Geometric"
+    },
+    {
+     "id": "d",
+     "label": "A distribution with no parameter"
+    }
+   ],
+   "answer": "c",
+   "explain": "Waiting for the first success in a sequence of independent trials, each with the same success chance of 1/6, is the geometric distribution.",
+   "cites": [
+    5,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "You have rolled a die ten times without getting a 1. What does that do to the number of further rolls you will need?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes a 1 more due, so fewer rolls are needed"
+    },
+    {
+     "id": "b",
+     "label": "It makes a 1 less likely, so more rolls are needed"
+    },
+    {
+     "id": "c",
+     "label": "Nothing: past failures do not change what is needed"
+    },
+    {
+     "id": "d",
+     "label": "It resets the die to a new set of faces"
+    }
+   ],
+   "answer": "c",
+   "explain": "The geometric distribution is memoryless: the number of previously failed trials does not affect the number of future trials needed for a success.",
+   "cites": [
+    14,
+    16
+   ]
+  },
+  {
+   "prompt": "On average, about how many rolls of a fair die does it take to see your first 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "3"
+    },
+    {
+     "id": "c",
+     "label": "12"
+    },
+    {
+     "id": "d",
+     "label": "36"
+    }
+   ],
+   "answer": "a",
+   "explain": "With a success chance of 1/6 on each roll, the average number of rolls needed is 1/(1/6) = 6.",
+   "cites": [
+    12,
+    21
+   ]
+  },
+  {
+   "prompt": "Your first 1 appears on the fifth roll. How many failures came before the first success?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5"
+    },
+    {
+     "id": "b",
+     "label": "6"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "4"
+    }
+   ],
+   "answer": "d",
+   "explain": "The number of failures before the first success is one less than the number of trials, so four rolls failed before the fifth succeeded.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "Which question is a waiting-time question of the geometric kind?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How many heads appear in 10 tosses?"
+    },
+    {
+     "id": "b",
+     "label": "What share of tosses in a year land heads?"
+    },
+    {
+     "id": "c",
+     "label": "Which toss brings the first head?"
+    },
+    {
+     "id": "d",
+     "label": "How many tosses repeat the previous result?"
+    }
+   ],
+   "answer": "c",
+   "explain": "The geometric distribution is about when the first success occurs in a sequence of independent trials.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "A game is changed so that winning becomes rarer. How does the uncertainty about when the first win comes change in the geometric distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It decreases, since wins are rarer"
+    },
+    {
+     "id": "b",
+     "label": "It disappears"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same"
+    },
+    {
+     "id": "d",
+     "label": "It increases"
+    }
+   ],
+   "answer": "d",
+   "explain": "The entropy increases as the probability of success falls, reflecting greater uncertainty as success becomes rarer.",
+   "cites": [
+    37
+   ]
+  }
+ ]
+}

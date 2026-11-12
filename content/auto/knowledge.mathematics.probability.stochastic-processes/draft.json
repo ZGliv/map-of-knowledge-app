@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A stochastic process is a family of random variables in a probability space, where the index of the family often has the interpretation of time.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Stochastic processes model systems that appear to vary randomly, such as a bacterial population growing, an electrical current fluctuating, or a gas molecule moving.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Two classic examples are the Wiener process, used by Bachelier for price changes, and the Poisson process, used by Erlang for counts of phone calls.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Index set",
+   "value": "Historically a subset of the real line, read as time",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "State space",
+   "value": "The shared space of values each random variable takes",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "One outcome",
+   "value": "A single outcome is called a sample function or realization",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Time types",
+   "value": "Countable index sets give discrete time; intervals give continuous time",
+   "cites": [
+    28,
+    29
+   ]
+  },
+  {
+   "label": "Name in English",
+   "value": "The term stochastic process first appeared in a 1934 paper by Doob",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A phone company counts how many calls arrive in each period. Which classic process did Erlang use for this kind of count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Wiener process"
+    },
+    {
+     "id": "b",
+     "label": "The Poisson process"
+    },
+    {
+     "id": "c",
+     "label": "A random field"
+    },
+    {
+     "id": "d",
+     "label": "A martingale"
+    }
+   ],
+   "answer": "b",
+   "explain": "Erlang used the Poisson process to model the number of phone calls in a given period of time. Bachelier used the Wiener process for price changes.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "A shop records its stock level once at the close of each day, so the index is day 1, day 2, day 3 and so on. Which kind of process is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Continuous-time, since days pass without a break"
+    },
+    {
+     "id": "b",
+     "label": "A random field, since there are many days"
+    },
+    {
+     "id": "c",
+     "label": "A process with no index set"
+    },
+    {
+     "id": "d",
+     "label": "Discrete-time, since the index set is countable"
+    }
+   ],
+   "answer": "d",
+   "explain": "When the index set has a finite or countable number of elements, such as the natural numbers, time is discrete. An interval of the real line gives continuous time.",
+   "cites": [
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "prompt": "A process counts the customers in a queue at each moment, taking the values 0, 1, 2 and so on. What is its state space like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real-valued, taking any number on the line"
+    },
+    {
+     "id": "b",
+     "label": "Integer-valued, taking whole-number values"
+    },
+    {
+     "id": "c",
+     "label": "A vector process in several dimensions"
+    },
+    {
+     "id": "d",
+     "label": "Not defined, since counts are not numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the state space is the integers or natural numbers, the process is called a discrete or integer-valued stochastic process.",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "prompt": "You simulate a random process once and keep the one particular path that came out. What is that single outcome called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An increment"
+    },
+    {
+     "id": "b",
+     "label": "The index set"
+    },
+    {
+     "id": "c",
+     "label": "The state space"
+    },
+    {
+     "id": "d",
+     "label": "A realization"
+    }
+   ],
+   "answer": "d",
+   "explain": "A single outcome of a stochastic process is called a sample function or realization, among other names.",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "prompt": "A scientist assigns a random temperature to every point on a flat map, indexing the random variables by the plane. What is this collection usually called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A random field"
+    },
+    {
+     "id": "b",
+     "label": "A random sequence"
+    },
+    {
+     "id": "c",
+     "label": "A discrete-time process"
+    },
+    {
+     "id": "d",
+     "label": "An integer-valued process"
+    }
+   ],
+   "answer": "a",
+   "explain": "When random variables are indexed by the plane or a higher-dimensional Euclidean space, the collection is usually called a random field.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "Why are discrete-time processes considered easier to study than continuous-time ones?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Continuous time has no random variables in it"
+    },
+    {
+     "id": "b",
+     "label": "Discrete time never involves any randomness at all"
+    },
+    {
+     "id": "c",
+     "label": "Continuous time needs harder mathematics, as its index set is uncountable"
+    },
+    {
+     "id": "d",
+     "label": "Discrete time can only describe systems with finite states"
+    }
+   ],
+   "answer": "c",
+   "explain": "Continuous-time processes require more advanced techniques and knowledge, particularly because the index set is uncountable.",
+   "cites": [
+    31
+   ]
+  }
+ ]
+}

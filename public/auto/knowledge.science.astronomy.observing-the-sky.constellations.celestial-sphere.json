@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere",
+ "name": "Celestial sphere",
+ "summary": [
+  {
+   "text": "The celestial sphere is an abstract sphere of arbitrarily large radius, concentric to Earth, onto which all objects in the sky can be imagined as projected.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Astronomers use it to specify an object's position in the sky without considering how far away the object is.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Remote objects reveal nothing about their real distances, so they all seem equally far away, as if fixed to a sphere that appears to rotate westward overhead.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Equator",
+   "value": "The celestial equator divides it into northern and southern hemispheres",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Infinite radius",
+   "value": "It can be treated as infinite, so any point can be the center",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Parallax effect",
+   "value": "Nearby objects like the Moon appear to shift as the observer moves",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Sphere counts",
+   "value": "Eudoxus modelled 27 spheres in the heavens; Aristotle modelled 55",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You look up at a clear night sky. Why do the stars all seem equally far away?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They really are all fixed at the same distance"
+    },
+    {
+     "id": "b",
+     "label": "Earth's air makes distant stars appear nearer"
+    },
+    {
+     "id": "c",
+     "label": "Their distances are so great that looking gives no sign of them"
+    },
+    {
+     "id": "d",
+     "label": "Brighter stars are always closer than dim ones"
+    }
+   ],
+   "answer": "c",
+   "explain": "Because astronomical objects are at such remote distances, casual observation offers no information on their actual distances.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere:q1"
+  },
+  {
+   "prompt": "Two observers on opposite sides of Earth see the Moon at slightly different spots against the distant stars. What is this effect called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Parallax"
+    },
+    {
+     "id": "b",
+     "label": "Precession"
+    },
+    {
+     "id": "c",
+     "label": "Retrogression"
+    },
+    {
+     "id": "d",
+     "label": "Refraction"
+    }
+   ],
+   "answer": "a",
+   "explain": "Relatively near objects such as the Moon seem to change position against the distant celestial sphere if the observer moves far enough; this is parallax.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere:q2"
+  },
+  {
+   "prompt": "Astronomers want to split the sky's imaginary sphere into northern and southern halves. What do they use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The celestial pole"
+    },
+    {
+     "id": "b",
+     "label": "The sublunary line"
+    },
+    {
+     "id": "c",
+     "label": "The vanishing circle"
+    },
+    {
+     "id": "d",
+     "label": "The celestial equator"
+    }
+   ],
+   "answer": "d",
+   "explain": "The celestial equator divides the celestial sphere into northern and southern hemispheres.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere:q3"
+  },
+  {
+   "prompt": "An astronomer wants positions as they would look from the Sun's center, not Earth's. Is that allowed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it must always be centered on the observer"
+    },
+    {
+     "id": "b",
+     "label": "Yes, the sphere can be centered anywhere convenient"
+    },
+    {
+     "id": "c",
+     "label": "No, it must always be centered on Earth's center"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only for objects closer than the Moon"
+    }
+   ],
+   "answer": "b",
+   "explain": "The celestial sphere can be considered to be centered at the Earth's center, the Sun's center, or any other convenient location.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere:q4"
+  },
+  {
+   "prompt": "Does it matter for spherical astronomy whether the sky really turns or Earth turns beneath it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, since it deals only with directions to objects"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since the sphere's radius depends on it"
+    },
+    {
+     "id": "c",
+     "label": "Yes, since distances must be known first"
+    },
+    {
+     "id": "d",
+     "label": "No, since the sphere is known to be still"
+    }
+   ],
+   "answer": "a",
+   "explain": "Spherical astronomy is concerned only with the directions to celestial objects, so it makes no difference which one rotates.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere:q5"
+  },
+  {
+   "prompt": "In Aristotle's geocentric model, where did the perfect, incorruptible bodies lie?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In the sublunary region, below the Moon's sphere"
+    },
+    {
+     "id": "b",
+     "label": "In the same region as fire, water, air and earth"
+    },
+    {
+     "id": "c",
+     "label": "In the superlunary region, above the sublunary sphere"
+    },
+    {
+     "id": "d",
+     "label": "In a region that was spread evenly throughout"
+    }
+   ],
+   "answer": "c",
+   "explain": "Corruptible elements were contained only in the sublunary region, and incorruptible elements were in the superlunary region.",
+   "cites": [
+    32,
+    34
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.constellations.celestial-sphere:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Celestial_Sphere_-_Eq_w_Label_figures.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Celestial sphere",
+  "credit": "ChristianReady",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Celestial_Sphere_-_Eq_w_Label_figures.png"
+ },
+ "source": {
+  "title": "Celestial sphere",
+  "url": "https://en.wikipedia.org/wiki/Celestial_sphere",
+  "revision": 1376247100
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "An imagined dome",
+    "text": "The celestial sphere is an imagined ball with Earth at its middle and a radius as large as you like. Astronomers and navigators picture every object in the sky as projected onto its inside surface. The sphere can be centered on Earth or on the person looking up. Centered on the observer, the half above them looks like a dome-shaped screen over the spot where they stand.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Direction without distance",
+    "text": "The point of the tool is to say where something sits in the sky while ignoring how far away it is. Objects in space are so remote that simply looking up tells you nothing about their true distances. Everything seems equally far, as if stuck to the inside of a huge ball that turns westward overhead while the ground feels still. For work that only cares about directions, it makes no difference whether the sky turns or Earth does.",
+    "cites": [
+     4,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "An infinitely large sphere",
+    "text": "It helps to treat the sphere as infinitely large. Then any point inside it, including where you stand, can count as its center. Parallel lines, whether a millimetre apart or across the Solar System, appear to meet the sphere at a single point, much like the vanishing point in a perspective drawing. As a result, on such a sphere every observer sees the same things in the same direction.",
+    "cites": [
+     9,
+     10,
+     11,
+     14
+    ]
+   },
+   {
+    "heading": "When nearby objects shift",
+    "text": "This picture is too simple for some objects. The Moon, for example, seems to move against the far background if you travel from one side of Earth to the other. This shift is called parallax, and it can be written as a small offset from an average position. Astronomers can center the sphere on Earth's center, the Sun's center or another handy spot, and each observer can work out their own small correction when needed.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     20
+    ]
+   },
+   {
+    "heading": "A shorthand in practice",
+    "text": "Astronomers use the sphere very often as a kind of shorthand. The Astronomical Almanac for 2010 gave the Moon's apparent position for January 1, as seen from Earth's center, with a declination of +23° 30' 05.5\" and a right ascension of 6ʰ 57ᵐ 48.86ˢ. That figure is good enough for rough jobs such as estimating the Moon's phase. For precise work, like tracing the shadow path of an eclipse, the almanac gives methods to convert it to the view from one place on Earth's surface.",
+    "cites": [
+     22,
+     23,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Spheres of the ancient Greeks",
+    "text": "Greek astronomers such as Aristotle saw the celestial spheres as perfect and divine. Aristotle placed the Sun, Moon, planets and fixed stars on spheres sharing one center, in an upper region he called superlunary. He held that the bodies up there were perfect and could not be corrupted by fire, water, air or earth. He and Eudoxus disagreed on how many spheres there were: 27 for Eudoxus and 55 for Aristotle.",
+    "cites": [
+     28,
+     32,
+     33,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-2-1",
+   "kind": "book",
+   "title": "2.1 The Sky Above",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
+   "note": "A free college textbook section on the celestial sphere, its poles and equator, and how the sky seems to turn.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-4-1",
+   "kind": "book",
+   "title": "4.1 Earth and Sky",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky",
+   "note": "A free textbook section showing how right ascension and declination pin down positions on the celestial sphere.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

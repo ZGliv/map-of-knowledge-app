@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group",
+ "name": "Abelian group",
+ "summary": [
+  {
+   "text": "An abelian group is a group in which the result of the operation on two elements does not depend on the order in which they are written.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The integers and the real numbers under addition are abelian groups, and the idea underlies fields, rings, vector spaces and algebras.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "The concepts of abelian group and ℤ-module agree: every abelian group is a module over the ring of integers ℤ in a unique way.",
+   "cites": [
+    28,
+    29
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "The Norwegian mathematician Niels Henrik Abel",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Notation",
+   "value": "Additive notation is the usual one for modules and rings",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Cayley table test",
+   "value": "A finite group is abelian if its table is symmetric about the diagonal",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Every ring",
+   "value": "It is an abelian group under its addition",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Finite ones",
+   "value": "They are very well understood and fully classified",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You write out the multiplication table of a finite group, with each product in the row and column of its two factors. How do you tell whether the group is abelian?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every row repeats the same entries"
+    },
+    {
+     "id": "b",
+     "label": "The first row equals the first column only"
+    },
+    {
+     "id": "c",
+     "label": "The table has the identity on the diagonal"
+    },
+    {
+     "id": "d",
+     "label": "The table is symmetric about the main diagonal"
+    }
+   ],
+   "answer": "d",
+   "explain": "The group is abelian if and only if the table is symmetric about the main diagonal, since that says each product equals the product in the other order.",
+   "cites": [
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group:q1"
+  },
+  {
+   "prompt": "Matrix multiplication is generally not commutative. Which matrices still form an abelian group under multiplication?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The 2 × 2 rotation matrices"
+    },
+    {
+     "id": "b",
+     "label": "All invertible matrices"
+    },
+    {
+     "id": "c",
+     "label": "All square matrices of any size"
+    },
+    {
+     "id": "d",
+     "label": "All matrices with a zero entry"
+    }
+   ],
+   "answer": "a",
+   "explain": "Matrices, even invertible ones, do not generally form an abelian group, but some groups of matrices do, such as the 2 × 2 rotation matrices.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group:q2"
+  },
+  {
+   "prompt": "You take any ring and ignore its multiplication, keeping only addition. What structure is left?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A field"
+    },
+    {
+     "id": "b",
+     "label": "A non-abelian group"
+    },
+    {
+     "id": "c",
+     "label": "An abelian group"
+    },
+    {
+     "id": "d",
+     "label": "A vector space"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every ring is an abelian group with respect to its addition operation.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group:q3"
+  },
+  {
+   "prompt": "You pick a subgroup of an abelian group and want to form a quotient group from it. Which subgroups allow this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the trivial subgroup"
+    },
+    {
+     "id": "b",
+     "label": "Only the subgroups containing the identity alone"
+    },
+    {
+     "id": "c",
+     "label": "Only cyclic subgroups"
+    },
+    {
+     "id": "d",
+     "label": "Every subgroup"
+    }
+   ],
+   "answer": "d",
+   "explain": "Every subgroup of an abelian group is normal, so each subgroup gives rise to a quotient group.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group:q4"
+  },
+  {
+   "prompt": "In an abelian group written additively, you define nx as x + x + ⋯ + x (n summands). What structure does this give the group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A module over the ring of integers ℤ"
+    },
+    {
+     "id": "b",
+     "label": "A field"
+    },
+    {
+     "id": "c",
+     "label": "A ring with identity"
+    },
+    {
+     "id": "d",
+     "label": "A module over the real numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Defining nx this way makes the group a module over the ring ℤ of integers, and the modules over ℤ can be identified with abelian groups.",
+   "cites": [
+    33,
+    34,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group:q5"
+  },
+  {
+   "prompt": "A finitely generated abelian group is taken apart into the simplest possible pieces. What two kinds of piece does it split into?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A cyclic part and a non-abelian part"
+    },
+    {
+     "id": "b",
+     "label": "A torsion group and a free abelian group"
+    },
+    {
+     "id": "c",
+     "label": "A field and a ring"
+    },
+    {
+     "id": "d",
+     "label": "A finite part and an infinite non-abelian part"
+    }
+   ],
+   "answer": "b",
+   "explain": "For finitely generated abelian groups, the structure theorem says the group splits as a direct sum of a torsion group and a free abelian group.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.abelian-group:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cyclic_group.svg/960px-Cyclic_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Abelian group",
+  "credit": "Original: Jakob.scholbach Vector: Pbroks13",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cyclic_group.svg"
+ },
+ "source": {
+  "title": "Abelian group",
+  "url": "https://en.wikipedia.org/wiki/Abelian_group",
+  "revision": 1377868708
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Order does not matter",
+    "text": "An abelian group, also known as a commutative group, is a group where combining two elements gives the same answer whichever one you write first. Put another way, its operation is commutative. A group whose operation fails this test is called non-abelian, or non-commutative. Camille Jordan chose the name to honour Niels Henrik Abel, a mathematician from Norway, who had found that when the group of a polynomial is commutative, the roots of that polynomial can be calculated using radicals.",
+    "cites": [
+     1,
+     2,
+     4,
+     11,
+     32
+    ]
+   },
+   {
+    "heading": "The other rules",
+    "text": "Commutativity sits on top of the usual group rules. Grouping does not matter, so (a⋅b)⋅c always equals a⋅(b⋅c). There is an identity element e that leaves everything alone: e⋅a = a⋅e = a. And each element a has a partner b that brings it back to the identity, with a⋅b = b⋅a = e.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Familiar examples",
+    "text": "The integers under addition are the model case. Adding two integers gives another integer, addition is associative, zero is the identity, each n has the inverse −n, and n + m = m + n. The real numbers under addition form one too, and so do the nonzero reals under multiplication. Every cyclic group is abelian, which covers the integers modulo n, written ℤ/nℤ. Even the group holding nothing but its identity element counts.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     24
+    ]
+   },
+   {
+    "heading": "Where it fails",
+    "text": "Matrices show how the rule can break. Multiplying two matrices usually gives a different result in the other order, so matrices, even invertible ones, generally fail to be an abelian group under multiplication. Some special collections do pass, though: the 2 × 2 rotation matrices form an abelian group under matrix multiplication.",
+    "cites": [
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "A test with a table",
+    "text": "For a finite group there is a quick check. Build its Cayley table, a grid set up the way a multiplication table is. The group is abelian exactly when the grid mirrors itself across its main diagonal, so that the entry in row i, column j equals the entry in row j, column i. That match is just the statement gᵢ⋅g_j = g_j⋅gᵢ.",
+    "cites": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Abelian groups as ℤ-modules",
+    "text": "Abelian groups lie underneath fields, rings, vector spaces and algebras; every ring, for instance, is an abelian group under its addition. Written additively, a whole number n times an element x means x added to itself n times, and (−n)x means −(nx). This lets the integers scale the elements, which makes every abelian group a module over ℤ in exactly one way. Going the other direction, every ℤ-module is an abelian group under its addition, so the two ideas agree.",
+    "cites": [
+     5,
+     22,
+     28,
+     29,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Well understood",
+    "text": "Abelian groups are generally easier to handle in theory than non-abelian ones, and the finite abelian groups are completely classified. A finitely generated abelian group splits into two pieces. One is built from finitely many groups ℤ/p^kℤ, with p prime, joined in a direct sum, and the other is finitely many copies of ℤ, again joined in a direct sum. Among finite abelian groups, the simple ones are just the cyclic groups whose order is a prime.",
+    "cites": [
+     6,
+     27,
+     37,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-13",
+   "kind": "book",
+   "title": "13: The Structure of Groups",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/13%3A_The_Structure_of_Groups",
+   "note": "A free textbook chapter that classifies all finite abelian groups, then introduces solvable groups.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

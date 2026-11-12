@@ -1,0 +1,30 @@
+{
+ "readHash": "e7f415b24f19a1aa1da9817443d638c2106f963d",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Statement, congruence form, 2^7 example and Fermat test/fundamental result all match [1][2][3][6]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Coprime form a^(p-1) = 1 (mod p) and the 2^6 = 64 example match [4][5]."
+  },
+  "r2": {
+   "supported": false,
+   "why": "'Euler published the first proof in 1736' changes [15]'s 'first published proof' into 'first proof' (contradicted by Leibniz's earlier proof in [16]); also [13][14] never say Fermat was the one offering to send a demonstration."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Hypothesis, true 'if' part, 341 = 11 x 31 pseudoprime to base 2, and Sarrus 1820 as first one all match [21][22][23][44]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Corollary of Euler's theorem, totient definition, and phi(p) = p - 1 special case match [25][26][27]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "RSA use with non-prime n, encryption y = x^e, inverse f via extended Euclid, x = y^f, and no decryption without p and q match [32][33][34][38]."
+  }
+ }
+}

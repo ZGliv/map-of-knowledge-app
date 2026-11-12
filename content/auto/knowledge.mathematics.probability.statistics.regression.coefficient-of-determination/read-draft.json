@@ -1,0 +1,63 @@
+{
+ "paragraphs": [
+  {
+   "heading": "A score for how well a model fits",
+   "text": "The coefficient of determination, written R² and read as R squared, tells you what share of the variation in an outcome can be predicted from the variables used to explain it. It measures how closely a model reproduces the outcomes that were actually observed. In short, it is a measure of goodness of fit. It is used both for models built to predict and for models built to test hypotheses.",
+   "cites": [
+    1,
+    2,
+    3,
+    27
+   ]
+  },
+  {
+   "heading": "The ends of the scale",
+   "text": "If the model's values match every observed value exactly, R² equals 1. A baseline model that always predicts the mean of the observed data scores R² of 0. Because R² can be stated as a percentage, it can be easier to read than error measures such as MSE or RMSE, whose ranges are arbitrary.",
+   "cites": [
+    11,
+    16,
+    17,
+    29,
+    30
+   ]
+  },
+  {
+   "heading": "Link to correlation",
+   "text": "In simple linear regression with an intercept, r² is just the square of the sample correlation coefficient r. When further predictors are added, R² becomes the squared coefficient of multiple correlation. In both of these cases it is always below 1 and usually above 0. Several different definitions of R² exist, and they only sometimes agree.",
+   "cites": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "heading": "When R² goes negative",
+   "text": "R² can drop below zero. This can happen when the predictions were not produced by fitting a model to those same data. It can also happen after fitting, for example in a linear regression with no intercept or when a nonlinear function is fitted. A negative value means that simply using the mean of the data would fit the outcomes better than the model does.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "heading": "Why more variables mislead",
+   "text": "When a model is fitted by ordinary least squares, R² never falls as you add variables; it can only stay level or rise. That invites a bad habit of piling in variables just to push R² up. Suppose you predict a car's sales from its mileage, price and engine power. You could add the first letter of its name or the height of its lead engineer, and R² would not drop and would likely creep up by chance alone.",
+   "cites": [
+    34,
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "heading": "The adjusted version",
+   "text": "This problem leads to a second measure, adjusted R². It is read in nearly the same way as R², but it is penalized as extra variables enter the model. R² values can be worked out for any kind of predictive model, even one with no statistical basis.",
+   "cites": [
+    38,
+    39,
+    42
+   ]
+  }
+ ]
+}

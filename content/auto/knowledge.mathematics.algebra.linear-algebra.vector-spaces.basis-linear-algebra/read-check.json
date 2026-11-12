@@ -1,0 +1,30 @@
+{
+ "readHash": "7f860f9f89c75bfba65a95a78df7a43db0f7f649",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Ordered basis, unique representation by n scalars called coordinates, coordinate vector: all in [1]."
+  },
+  "r1": {
+   "supported": false,
+   "why": "'The simplest case is F^n' adds an evaluative qualifier ('simplest') that [21]-[22] do not give; rest matches."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Different coordinate vectors per basis [2], rewriting assertions [3], transition matrix with new basis coordinates on old basis as columns [5]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Basis iff A invertible / nonzero determinant [12]; then called change-of-basis matrix from old to new [13]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "x = Ay gives old in terms of new, may seem unnatural, f(Ay) with no matrix inversion: [29],[30]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Orthonormal basis as rotation in physics/mechanics [7]; symmetric bilinear forms in quadrics, rigid body inertia [44]; preference for orthogonal P [45]."
+  }
+ }
+}

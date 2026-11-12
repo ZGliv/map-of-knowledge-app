@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution",
+ "name": "Buffer solution",
+ "summary": [
+  {
+   "text": "A buffer solution keeps its pH from changing much when it is diluted or when a little strong acid or base is added.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Buffer capacity measures how much strong acid or base a given volume can take before its pH changes by a given amount.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "text": "Living systems use buffering too: the bicarbonate buffering system regulates the pH of blood.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Blood buffer",
+   "value": "The bicarbonate buffering system",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Strength measure",
+   "value": "Buffer capacity, the resistance to pH change",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Best working range",
+   "value": "About pKₐ ± 1",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "label": "Capacity peak",
+   "value": "A local maximum where pH equals pKₐ",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Capacity introduced",
+   "value": "By Donald Dexter Van Slyke in 1922",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The pH of your blood is regulated even though acids and bases keep entering it. What system helps with this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Constant dilution of the blood with water"
+    },
+    {
+     "id": "b",
+     "label": "Small doses of strong base added as needed"
+    },
+    {
+     "id": "c",
+     "label": "A bicarbonate buffering system"
+    },
+    {
+     "id": "d",
+     "label": "Sodium chloride that cancels any acid"
+    }
+   ],
+   "answer": "c",
+   "explain": "Many living systems use buffering to regulate pH. The bicarbonate buffering system regulates blood pH.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution:q1"
+  },
+  {
+   "prompt": "A lab needs a buffer that holds a pH of 4.8. Which candidate, listed by its pKₐ, should it pick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "pKₐ 4.7"
+    },
+    {
+     "id": "b",
+     "label": "pKₐ 3.0"
+    },
+    {
+     "id": "c",
+     "label": "pKₐ 6.5"
+    },
+    {
+     "id": "d",
+     "label": "pKₐ 8.9"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a specific pH, the buffer should have a pKₐ as close as possible to that pH. The most useful range is about pKₐ ± 1.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution:q2"
+  },
+  {
+   "prompt": "A chemist dilutes a buffer solution with more solvent. What happens to its pH?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It drops sharply as the solution thins"
+    },
+    {
+     "id": "b",
+     "label": "It does not change significantly"
+    },
+    {
+     "id": "c",
+     "label": "It climbs sharply as the solution thins"
+    },
+    {
+     "id": "d",
+     "label": "It falls to exactly 7 at once"
+    }
+   ],
+   "answer": "b",
+   "explain": "A buffer is defined as a solution whose pH does not change significantly on dilution.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution:q3"
+  },
+  {
+   "prompt": "Two buffers each get the same large dose of strong acid. Buffer A's pH barely moves, while buffer B's pH shifts a lot. Which has the higher buffer capacity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Buffer B, since its pH responded more"
+    },
+    {
+     "id": "b",
+     "label": "They match, since the dose was the same"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since capacity only applies to bases"
+    },
+    {
+     "id": "d",
+     "label": "Buffer A, since the large dose caused only a small pH change"
+    }
+   ],
+   "answer": "d",
+   "explain": "Buffer capacity is highest when adding a large amount of acid or base produces only a small pH change.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution:q4"
+  },
+  {
+   "prompt": "A chemist nudges a buffer's pH up and down. Where does it resist change best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Where the pH is far below the pKₐ"
+    },
+    {
+     "id": "b",
+     "label": "Where the pH is far above the pKₐ"
+    },
+    {
+     "id": "c",
+     "label": "Where the pH equals the pKₐ"
+    },
+    {
+     "id": "d",
+     "label": "Where the buffering agent is almost absent"
+    }
+   ],
+   "answer": "c",
+   "explain": "Buffer capacity rises to a local maximum at pH = pKₐ. It is negligible when the concentration of the buffering agent is very small.",
+   "cites": [
+    19,
+    21
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution:q5"
+  },
+  {
+   "prompt": "A chemist reads that an acid has constants Kₐ₁ and Kₐ₂. What does that tell them about the acid?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is two separate acids that were mixed together"
+    },
+    {
+     "id": "b",
+     "label": "It can lose more than one proton, with a constant for each step"
+    },
+    {
+     "id": "c",
+     "label": "It loses both protons at once, so the constants are equal"
+    },
+    {
+     "id": "d",
+     "label": "It has a single proton to give, which was measured twice"
+    }
+   ],
+   "answer": "b",
+   "explain": "Polyprotic acids can lose more than one proton. The constant for the first proton may be denoted Kₐ₁, and for successive protons Kₐ₂, etc.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.acids-and-bases.buffer-solution:q6"
+  }
+ ],
+ "source": {
+  "title": "Buffer solution",
+  "url": "https://en.wikipedia.org/wiki/Buffer_solution",
+  "revision": 1379841406
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A solution that holds its pH",
+    "text": "A buffer solution is one whose pH barely moves when you dilute it or add a small amount of strong acid or base, as long as the temperature stays the same. That steadiness makes buffers useful across a wide range of chemistry, wherever pH has to be held nearly constant.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Buffers in nature",
+    "text": "Many living systems rely on buffering to control their pH. In blood, the bicarbonate buffering system keeps pH in check. Bicarbonate also acts as a buffer in the ocean.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Measuring a buffer's strength",
+    "text": "Buffer capacity, written β, measures how well a buffer resists a change in pH. It is the amount of strong acid or base you must add to a given volume to shift the pH by a set amount. The more you can add for only a small change in pH, the higher the capacity. A close cousin, the buffer index, looks at an infinitesimal pH change for calculations, while buffer capacity looks at a change of 1 pH unit, as in titrations. The Dutch-American biochemist Donald Dexter Van Slyke introduced the idea of buffer capacity in 1922.",
+    "cites": [
+     2,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Where buffers work best",
+    "text": "Buffer capacity reaches a peak where the pH equals the buffer's pKₐ, a value tied to how its acid dissociates. It drops to 33% of that peak one pH unit either side, to 10% at 1.5 units and to just 1% at 2 units. So a buffer is most useful within about one unit of its pKₐ, and when you pick a buffer for a particular pH, its pKₐ should be as close to that pH as possible. Using more of the buffering agent also raises the capacity.",
+    "cites": [
+     11,
+     19,
+     21,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "The extremes",
+    "text": "At very low and very high pH, something else takes over. Below a pH of about 2, buffer capacity rises exponentially as pH falls. Above a pH of about 12, it rises exponentially as pH climbs. In both cases this has nothing to do with whether a buffering agent is present.",
+    "cites": [
+     26,
+     28,
+     29,
+     31
+    ]
+   },
+   {
+    "heading": "Working out the pH",
+    "text": "The pH of a buffer can be calculated with an ICE table, short for initial, change, equilibrium. You start with a concentration C₀ of acid, none of it yet dissociated, plus an amount y of added strong acid. As the acid dissociates, its concentration falls by x while A⁻ and H⁺ each rise by x. Putting these values into Kₐ = ([ H⁺ ] [ A⁻ ])/([ HA ]) gives Kₐ = (x (x + y))/(C₀ − x). Solve for x, and the pH is −log₁₀(x + y).",
+    "cites": [
+     33,
+     34,
+     36,
+     37,
+     40,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-chem-14-6",
+   "kind": "book",
+   "title": "14.6 Buffers",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+   "note": "A free textbook section on how buffers resist pH change, buffer capacity and the Henderson-Hasselbalch equation.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-buffer-systems",
+   "kind": "book",
+   "title": "General Chemistry/Buffer Systems",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Buffer_Systems",
+   "note": "An open textbook page on making buffers, their link to pKa, and blood as a buffered system."
+  },
+  {
+   "id": "crashcourse-buffers",
+   "kind": "video",
+   "title": "Buffers, the Acid Rain Slayer: Crash Course Chemistry #31",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=8Fdt5WnYn1k",
+   "note": "A Crash Course Chemistry episode on buffer solutions and how they hold pH steady."
+  }
+ ]
+}

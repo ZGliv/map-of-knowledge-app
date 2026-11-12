@@ -1,0 +1,107 @@
+{
+ "title": "How clouds collapse into stars",
+ "question": "What makes a gas cloud collapse into stars?",
+ "hook": "A cloud of gas stays in balance until one thing tips it into collapse.",
+ "idea": "A cloud collapses when its gas pressure can no longer support its mass, then it breaks into smaller pieces until they reach stellar mass.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A cloud's gas pressure balances its gravity. Then enough mass builds up that the pressure can no longer support it. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It settles into a calmer balance",
+     "feedback": "Balance is exactly what is lost once the gas pressure is insufficient to support the cloud."
+    },
+    {
+     "id": "b",
+     "label": "It spreads out and thins away",
+     "feedback": "Thinning away would need pressure to win, but here gravity is the stronger side."
+    },
+    {
+     "id": "c",
+     "label": "It undergoes gravitational collapse"
+    }
+   ],
+   "answer": "c",
+   "explain": "If a cloud is massive enough that the gas pressure is insufficient to support it, it undergoes gravitational collapse.",
+   "cites": [
+    28,
+    30
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each black-hole effect by what it can do to star formation.",
+   "groups": [
+    "Can limit star formation",
+    "Can trigger star formation"
+   ],
+   "items": [
+    [
+     "An active black hole's strong wind and jet",
+     "Can limit star formation"
+    ],
+    [
+     "Near-light-speed particles blocking new stars in aging galaxies",
+     "Can limit star formation"
+    ],
+    [
+     "A weaker jet colliding with a cloud",
+     "Can trigger star formation"
+    ],
+    [
+     "Radio emissions around the jets",
+     "Can trigger star formation"
+    ]
+   ],
+   "explain": "Strong output from an accreting black hole can limit star formation, while weaker jets and radio emissions may trigger it.",
+   "cites": [
+    37,
+    38,
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps of a collapsing cloud in order.",
+   "items": [
+    "The cloud breaks into smaller and smaller pieces",
+    "The collapsing gas radiates away the energy gained",
+    "As density increases, the fragments become opaque",
+    "The cloud warms and further splitting is inhibited"
+   ],
+   "ends": [
+    "Start",
+    "End"
+   ],
+   "explain": "As density rises the fragments turn opaque and radiate less efficiently, which raises the temperature and inhibits further fragmentation.",
+   "cites": [
+    42,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A cloud stays in balance while its gas pressure matches its gravity.",
+    "Above the Jeans mass, pressure cannot support the cloud, so it collapses.",
+    "The Jeans mass is one fixed number for every cloud, whatever its temperature or density.",
+    "A collapsing cloud can form many stars at once, seen in embedded clusters."
+   ],
+   "wrong": 2,
+   "explain": "The Jeans mass depends on the temperature and density of the cloud.",
+   "cites": [
+    30,
+    31,
+    32,
+    33
+   ]
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.variance.standard-deviation",
+ "name": "Standard deviation",
+ "summary": [
+  {
+   "text": "The standard deviation measures how much the values of a variable vary around their average, and is usually written with the Greek letter σ.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "A low standard deviation means values sit close to their average, while a high one means they are spread over a wider range.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It is the square root of the variance and, unlike the variance, is expressed in the same unit as the data.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Symbol",
+   "value": "The lowercase Greek letter σ (sigma)",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Bell-curve rule",
+   "value": "68.3% within one, 95.4% within two, 99.7% within three",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Height example",
+   "value": "US men average about 69 inches, with a deviation near 3",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Zero deviation",
+   "value": "In the height example, every man would be 69 inches",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "May not exist",
+   "value": "Fat tails can leave a distribution without one",
+   "cites": [
+    30,
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two archers each fire many arrows at a target. Archer A's arrows land tightly clumped. Archer B's are scattered widely. Which has the lower standard deviation of distance from their own average landing spot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Archer B, whose arrows cover more ground"
+    },
+    {
+     "id": "b",
+     "label": "Archer A, whose arrows stay near their average"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because both have the same average"
+    },
+    {
+     "id": "d",
+     "label": "Both do, since arrows rarely hit exactly"
+    }
+   ],
+   "answer": "b",
+   "explain": "A low standard deviation means values stay close to their average, and a high one means they spread over a wider range.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.standard-deviation:q1"
+  },
+  {
+   "prompt": "Heights in a bell-shaped population are measured. How does the share of people captured change as you widen the band around the average from one deviation to three?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows, from about two thirds to nearly everyone"
+    },
+    {
+     "id": "b",
+     "label": "It stays about the same at every width"
+    },
+    {
+     "id": "c",
+     "label": "It shrinks, as the band holds fewer people"
+    },
+    {
+     "id": "d",
+     "label": "It jumps to exactly half of the people"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a normal distribution, about 68.3% lie within one standard deviation, 95.4% within two and 99.7% within three.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.standard-deviation:q2"
+  },
+  {
+   "prompt": "A scientist records the weights of lab mice in grams. Which of these is also in grams?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The variance of the weights"
+    },
+    {
+     "id": "b",
+     "label": "The square of the average weight"
+    },
+    {
+     "id": "c",
+     "label": "The number of mice weighed"
+    },
+    {
+     "id": "d",
+     "label": "The standard deviation of the weights"
+    }
+   ],
+   "answer": "d",
+   "explain": "The standard deviation is expressed in the same unit as the data, unlike the variance.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.standard-deviation:q3"
+  },
+  {
+   "prompt": "Every student in a class scores exactly the same on a quiz. What is the standard deviation of the scores?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero"
+    },
+    {
+     "id": "b",
+     "label": "Equal to the shared score"
+    },
+    {
+     "id": "c",
+     "label": "As large as possible"
+    },
+    {
+     "id": "d",
+     "label": "Undefined, as nothing varies"
+    }
+   ],
+   "answer": "a",
+   "explain": "With no variation around the average there is no spread, so the standard deviation is zero, as in the case where all men share one height.",
+   "cites": [
+    1,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.standard-deviation:q4"
+  },
+  {
+   "prompt": "A group's variance is 16. What is the standard deviation of the group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "256"
+    },
+    {
+     "id": "b",
+     "label": "8"
+    },
+    {
+     "id": "c",
+     "label": "16"
+    },
+    {
+     "id": "d",
+     "label": "4"
+    }
+   ],
+   "answer": "d",
+   "explain": "The standard deviation is the square root of the variance, and the square root of 16 is 4.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.standard-deviation:q5"
+  },
+  {
+   "prompt": "A distribution has tails stretching out to infinity, and they fade only slowly. What may be true of its standard deviation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It always exists and is large"
+    },
+    {
+     "id": "b",
+     "label": "It might not exist at all"
+    },
+    {
+     "id": "c",
+     "label": "It must equal the average"
+    },
+    {
+     "id": "d",
+     "label": "It is always exactly zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "With fat tails the integral defining the standard deviation might not converge, so not all random variables have one.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.standard-deviation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/960px-Standard_deviation_diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Standard deviation",
+  "credit": "M. W. Toews",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram.svg"
+ },
+ "source": {
+  "title": "Standard deviation",
+  "url": "https://en.wikipedia.org/wiki/Standard_deviation",
+  "revision": 1383106258
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it measures",
+    "text": "The standard deviation tells you how much the values of a variable vary around their arithmetic average. A low one means the values tend to cluster near the average; a high one means they are scattered over a wider range. It is often shortened to SD or std dev, and in equations it is usually written with the lowercase Greek letter σ, called sigma.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Built from the variance",
+    "text": "You get the standard deviation by taking the square root of the variance, which is the average of the squared deviations from the mean. One handy feature is that, unlike the variance, the standard deviation is expressed in the same unit as the data. Take a class of eight students as the whole population, with marks 2, 4, 4, 4, 5, 5, 7 and 9. Their mean is 40/8 = 5, and the population standard deviation comes out as σ = √4 = 2.",
+    "cites": [
+     5,
+     6,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "The bell curve rule",
+    "text": "For a normal distribution, the symmetrical bell-shaped curve, roughly 68.3% of all values lie no more than one standard deviation from the average, 95.4% no more than two, and 99.7% no more than three. Adult men in the United States, for example, average about 5 feet 9 inches (175 cm) tall, with a standard deviation of around 3 inches. Assuming a normal distribution, about 68% of them are between 66 and 72 inches tall, and about 95% between 63 and 75 inches. If the standard deviation were zero, every man would be exactly 69 inches tall.",
+    "cites": [
+     4,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Estimating from a sample",
+    "text": "Sometimes every member of a population can be measured, as in standardized testing. When that cannot be done, σ is estimated from a random sample, and the result is called the sample standard deviation, written s. The most common version uses N − 1 and is known as the corrected sample standard deviation. No single choice is best in every way: using N gives a lower mean squared error, while N − 1.5 almost eliminates bias for the normal distribution.",
+    "cites": [
+     39,
+     40,
+     41,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Standard error",
+    "text": "A related but different quantity is the standard error. The standard error of the sample mean is the spread you would find among the means of endlessly repeated samples from the population. To get it, divide the population standard deviation by the square root of the sample size. A poll's reported margin of error is a standard error of this kind. Scientists commonly give both numbers: the standard deviation to summarize the data, and the standard error to show possible error in the findings.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     14
+    ]
+   },
+   {
+    "heading": "When it does not exist",
+    "text": "Not every random variable has a standard deviation. If a distribution has fat tails reaching out to infinity, the integral behind it might not converge. The normal distribution also has endless tails, but they shrink quickly enough for its mean and standard deviation to exist. With its parameter α ∈ (1, 2], the Pareto distribution has a mean but lacks a standard deviation, and the Cauchy distribution has neither.",
+    "cites": [
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-2-7",
+   "kind": "book",
+   "title": "2.7 Measures of the Spread of the Data",
+   "by": "Barbara Illowsky and Susan Dean, OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data",
+   "note": "A free college textbook section that walks through computing the standard deviation of a sample and a population.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-sd",
+   "kind": "article",
+   "title": "Standard Deviation",
+   "by": "Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/StandardDeviation.html",
+   "note": "A reference entry with the formal definitions of population and sample standard deviation."
+  },
+  {
+   "id": "crashcourse-spread",
+   "kind": "video",
+   "title": "Measures of Spread: Crash Course Statistics #4",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=R4yfNi_8Kqw",
+   "note": "A Crash Course Statistics episode on measures of spread, building up to the standard deviation."
+  }
+ ]
+}

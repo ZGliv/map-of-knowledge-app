@@ -1,0 +1,362 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy",
+ "name": "Entropy",
+ "summary": [
+  {
+   "text": "Entropy is a state variable that measures how many microscopic arrangements of a system's atoms and molecules fit the large-scale condition we observe.",
+   "cites": [
+    1,
+    10
+   ]
+  },
+  {
+   "text": "The second law says the entropy of an isolated system cannot decrease, so such systems drift toward equilibrium, where energy is spread out most evenly.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Clausius named it in 1865 and Boltzmann gave it a statistical meaning in 1877, and it now appears in physics, chemistry, biology, cosmology and information theory.",
+   "cites": [
+    2,
+    3,
+    25,
+    29
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named by",
+   "value": "Rudolf Clausius, in 1865",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Word origin",
+   "value": "From a Greek word for transformation",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Boltzmann's idea",
+   "value": "Proportional to the log of the number of microstates",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Boltzmann constant",
+   "value": "Now a defining constant of the SI system",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Clausius's definition",
+   "value": "A tiny amount of heat divided by temperature",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A hot cup of coffee sits alone in a sealed room until coffee and room are the same temperature. What has happened to the entropy of the pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has risen to its highest value"
+    },
+    {
+     "id": "b",
+     "label": "It has fallen as the heat got organised"
+    },
+    {
+     "id": "c",
+     "label": "It stayed the same throughout"
+    },
+    {
+     "id": "d",
+     "label": "It was used up like fuel"
+    }
+   ],
+   "answer": "a",
+   "explain": "Isolated systems evolve toward equilibrium, where entropy is highest and energy is most evenly spread out.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy:q1"
+  },
+  {
+   "prompt": "Cream stirred into coffee never separates back into a white layer on its own. What does this reflect about nature?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since stirring can always be undone by stirring again"
+    },
+    {
+     "id": "b",
+     "label": "A consequence of the second law, which makes some processes irreversible"
+    },
+    {
+     "id": "c",
+     "label": "A rule that liquids cannot move once mixed"
+    },
+    {
+     "id": "d",
+     "label": "A rule that cream is heavier than coffee"
+    }
+   ],
+   "answer": "b",
+   "explain": "A consequence of the second law of thermodynamics is that certain processes are irreversible.",
+   "cites": [
+    4,
+    6
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy:q2"
+  },
+  {
+   "prompt": "Two boxes of gas look identical to a thermometer and a pressure gauge, but box A can be arranged microscopically in far more ways than box B. Which has the higher entropy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Box B, because it is more orderly"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since the gauges read the same"
+    },
+    {
+     "id": "c",
+     "label": "Box A, with the larger number of arrangements"
+    },
+    {
+     "id": "d",
+     "label": "Box B, because it has fewer particles"
+    }
+   ],
+   "answer": "c",
+   "explain": "Boltzmann explained entropy as the measure of the number of microscopic arrangements that match the observed condition; more arrangements means more entropy.",
+   "cites": [
+    10,
+    25
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy:q3"
+  },
+  {
+   "prompt": "Clausius followed steam through an engine from inlet to exhaust. What did he find about the energy in it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its total amount grew along the way"
+    },
+    {
+     "id": "b",
+     "label": "All of it stayed usable for work"
+    },
+    {
+     "id": "c",
+     "label": "It vanished completely at the exhaust"
+    },
+    {
+     "id": "d",
+     "label": "The part that cannot be used grew"
+    }
+   ],
+   "answer": "d",
+   "explain": "Clausius found that the non-usable energy increases as steam proceeds from inlet to exhaust in a steam engine.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy:q4"
+  },
+  {
+   "prompt": "Sadi Carnot assumed that after a full engine cycle, the steam is back where it began and nothing has changed. How did Clausius respond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He objected, saying the working body does change when usable heat is lost"
+    },
+    {
+     "id": "b",
+     "label": "He agreed and added a rule about friction"
+    },
+    {
+     "id": "c",
+     "label": "He argued that heat is an indestructible particle"
+    },
+    {
+     "id": "d",
+     "label": "He said the engine's cycle cannot be repeated"
+    }
+   ],
+   "answer": "a",
+   "explain": "Clausius objected to the idea that no change occurs in the working body and gave that change a mathematical interpretation, which became entropy.",
+   "cites": [
+    16,
+    18
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy:q5"
+  },
+  {
+   "prompt": "A telecom engineer asks whether entropy only matters for steam engines and heat. What is the best answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, it only applies to engines"
+    },
+    {
+     "id": "b",
+     "label": "Only to engines and chemical reactions"
+    },
+    {
+     "id": "c",
+     "label": "Only to stars and galaxies"
+    },
+    {
+     "id": "d",
+     "label": "No, it also applies to information transmission"
+    }
+   ],
+   "answer": "d",
+   "explain": "The concept is used in thermodynamics, statistical physics and information theory, including the transmission of information in telecommunication.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.entropy:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Carnot_heat_engine_2.svg/960px-Carnot_heat_engine_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Entropy",
+  "credit": "Eric Gaba (Sting - fr:Sting)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Carnot_heat_engine_2.svg"
+ },
+ "source": {
+  "title": "Entropy",
+  "url": "https://en.wikipedia.org/wiki/Entropy",
+  "revision": 1384089979
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What entropy measures",
+    "text": "Entropy is a property of a system's state that describes how its possible microstates are spread out. A microstate is one particular arrangement of the system's atoms and molecules. Ludwig Boltzmann explained entropy as a measure of how many such arrangements fit the large-scale condition we observe. The idea began in classical thermodynamics and now reaches into statistical physics and information theory. It is used in chemistry, biology, cosmology, economics and telecommunication.",
+    "cites": [
+     1,
+     2,
+     3,
+     10
+    ]
+   },
+   {
+    "heading": "The second law",
+    "text": "Entropy sits at the heart of the second law of thermodynamics. That law says an isolated system left to change on its own can never lose entropy as time passes. So such systems drift toward equilibrium, where entropy is highest. High entropy means energy is spread evenly through a system, while low entropy means it is bunched in one or a few spots. One result is that some processes cannot be undone.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Falling heat",
+    "text": "Early hints came from machines. In 1803 Lazare Carnot argued that in any machine the jolts of moving parts waste activity, and that natural processes tend to dissipate useful energy. His son Sadi Carnot wrote in 1824 that heat engines make work as heat falls from a hot body to a cold one, much as water falls through a water wheel. That was an early insight into the second law.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Clausius names it",
+    "text": "The first law, which is about energy being conserved, could not separately measure the effects of friction and waste. In the 1850s and 1860s Rudolf Clausius looked closely at the usable heat lost when work is done, such as heat made by friction. He found that unusable energy grows as steam moves from inlet to exhaust in a steam engine. In 1865 he defined the quantity as a tiny amount of heat divided by the temperature at that moment, and named it entropy, from a Greek word meaning turning or change. English took up the word in 1868.",
+    "cites": [
+     8,
+     17,
+     18,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "A word like energy",
+    "text": "Clausius built the new word by swapping the root of the Greek ergon, meaning work, for that of tropē, meaning transformation. He shaped it on purpose to sound like energy, because he found the two quantities nearly analogous in their physical meaning. Leon Cooper later remarked that Clausius had made a word meaning the same thing to everyone: nothing.",
+    "cites": [
+     30,
+     31,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Counting arrangements",
+    "text": "Later, Boltzmann, Josiah Willard Gibbs and James Clerk Maxwell put entropy on a statistical footing. In 1877 Boltzmann found a way to measure the entropy of an ideal gas using probability. In his definition, entropy rises in proportion to the natural logarithm of how many microstates the gas could occupy. The constant in that rule, the Boltzmann constant, is now one of the defining constants of the International System of Units, or SI.",
+    "cites": [
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Two views, one idea",
+    "text": "There are two main ways to describe entropy. The classical view uses quantities you can measure in bulk, such as mass, volume, pressure and temperature. The statistical view uses the motions of a system's tiny parts, first treated as Newtonian particles of a gas and later in quantum terms. Together they give one consistent picture of the second law, which applies to physical processes everywhere.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-4-6",
+   "kind": "book",
+   "title": "4.6 Entropy",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/4-6-entropy",
+   "note": "A free textbook section defining entropy, computing its changes, and stating the second law in terms of entropy.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-4-7",
+   "kind": "book",
+   "title": "4.7 Entropy on a Microscopic Scale",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/4-7-entropy-on-a-microscopic-scale",
+   "note": "The follow-on section reading entropy as disorder, linking it to irreversible processes and the third law.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "teded-entropy",
+   "kind": "video",
+   "title": "What is entropy?",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=YM-uykVfq_E",
+   "minutes": 5,
+   "note": "A five-minute animated lesson on what entropy measures and why it tends to increase."
+  },
+  {
+   "id": "pbs-entropy",
+   "kind": "video",
+   "title": "The Misunderstood Nature of Entropy",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=kfffy12uQ7g",
+   "minutes": 12,
+   "note": "A video unpacking what entropy really is, beyond the loose idea of disorder."
+  }
+ ]
+}

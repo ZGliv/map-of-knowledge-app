@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms",
+ "name": "Probability axioms",
+ "summary": [
+  {
+   "text": "The probability axioms are the foundations of probability theory, introduced by the Russian mathematician Andrey Kolmogorov in 1933.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They set out the basic assumptions behind applying probability in fields such as pure mathematics and the physical sciences, while avoiding logical paradoxes.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "One assumption is unit measure, that the chance one of the elementary events in the whole sample space occurs is 1; the third axiom, σ-additivity, comes from Lebesgue's measure theory.",
+   "cites": [
+    5,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Introduced by",
+   "value": "Andrey Kolmogorov, in 1933",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Third axiom",
+   "value": "σ-additivity, which originates with Lebesgue's measure theory",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Unit measure",
+   "value": "The chance that some elementary event occurs is 1",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Weaker substitute",
+   "value": "Some authors use finite additivity in its place",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Empty set",
+   "value": "The event that no outcome occurs, which is impossible",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A coin lands heads or tails but never both, and nothing is assumed about whether it is fair. Its chance of heads is 0.7. What is its chance of tails?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.5, since a coin has two sides"
+    },
+    {
+     "id": "b",
+     "label": "0.7, since the sides must match"
+    },
+    {
+     "id": "c",
+     "label": "0.3, since the two chances add to 1"
+    },
+    {
+     "id": "d",
+     "label": "1, since tails is the only other result"
+    }
+   ],
+   "answer": "c",
+   "explain": "The probabilities of heads and tails sum to 1, whether or not the coin is fair.",
+   "cites": [
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms:q1"
+  },
+  {
+   "prompt": "You roll a die. Some result from the whole list of possible results is certain to occur. What does unit measure say about the chance of that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is 1"
+    },
+    {
+     "id": "b",
+     "label": "It is one half"
+    },
+    {
+     "id": "c",
+     "label": "It depends on how fair the die is"
+    },
+    {
+     "id": "d",
+     "label": "It is the number of faces"
+    }
+   ],
+   "answer": "a",
+   "explain": "Unit measure is the assumption that the probability of one of the elementary events in the entire sample space occurring is 1.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms:q2"
+  },
+  {
+   "prompt": "In a coin toss, someone describes an event that contains no outcomes at all. What does that event mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The coin lands on its edge"
+    },
+    {
+     "id": "b",
+     "label": "Either side may come up"
+    },
+    {
+     "id": "c",
+     "label": "No outcome occurs, which is impossible"
+    },
+    {
+     "id": "d",
+     "label": "The toss happens twice"
+    }
+   ],
+   "answer": "c",
+   "explain": "The empty set is interpreted as the event that no outcome occurs, which is impossible.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms:q3"
+  },
+  {
+   "prompt": "Modern probability theory rests on axioms laid down in 1933. Whose work is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lebesgue"
+    },
+    {
+     "id": "b",
+     "label": "Cox"
+    },
+    {
+     "id": "c",
+     "label": "Bayes"
+    },
+    {
+     "id": "d",
+     "label": "Kolmogorov"
+    }
+   ],
+   "answer": "d",
+   "explain": "The standard probability axioms were introduced by the Russian mathematician Andrey Kolmogorov in 1933.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms:q4"
+  },
+  {
+   "prompt": "A textbook swaps the third axiom for a weaker one that it says is enough for some applications. Which axiom was swapped out, and for what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first axiom, replaced by unit measure"
+    },
+    {
+     "id": "b",
+     "label": "σ-additivity, replaced by finite additivity"
+    },
+    {
+     "id": "c",
+     "label": "Unit measure, replaced by σ-additivity"
+    },
+    {
+     "id": "d",
+     "label": "Finite additivity, replaced by the first axiom"
+    }
+   ],
+   "answer": "b",
+   "explain": "Some authors replace σ-additivity with the strictly weaker axiom of finite additivity, which suffices for some applications.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms:q5"
+  },
+  {
+   "prompt": "According to Dutch book arguments, how should a rational bettor set the stakes on different events?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Equally on every event, whatever its chance"
+    },
+    {
+     "id": "b",
+     "label": "In proportion to a subjective measure of each event's probability"
+    },
+    {
+     "id": "c",
+     "label": "Only on events that are certain to occur"
+    },
+    {
+     "id": "d",
+     "label": "Against the events they believe are most likely"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Dutch book arguments show that rational agents must make bets in proportion to a subjective measure of the probability of events.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Probability axioms",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Probability axioms",
+  "url": "https://en.wikipedia.org/wiki/Probability_axioms",
+  "revision": 1374928479
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The ground rules",
+    "text": "The probability axioms are the ground rules on which the whole of probability theory is built. The Russian mathematician Andrey Kolmogorov set them out in 1933. Like any set of axioms, they spell out the basic assumptions you accept before using probability in pure mathematics or in the physical sciences. They do this while steering clear of logical paradoxes.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Three ingredients",
+    "text": "The setup has three parts. The sample space, written Ω, is the set of every possible outcome. An event is a set of outcomes, so a subset of Ω, and the collection of all events, written F, has to form a structure called a σ-algebra on Ω. Last comes the probability measure P, which hands each event E in F a number P(E), its probability.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "No negatives, and a total of one",
+    "text": "One axiom says that the probability of any event is a real number that is never negative. Theories that allow negative probabilities work by loosening this first axiom. Another, called unit measure, says that the chance that some elementary event in the whole sample space happens is 1, written P(Ω) = 1. A result of this rule is that P(E) is always finite, which is not true in more general measure theory.",
+    "cites": [
+     13,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Adding up",
+    "text": "The third axiom, σ-additivity, is fairly modern and grew out of Lebesgue's measure theory. Some authors trade it for finite additivity, a strictly weaker rule that is enough for some uses; then the events only need to form an algebra of sets rather than a σ-algebra. Quasiprobability distributions in general loosen this third axiom. With all the parts in place, the triple (Ω, F, P) is a measure space, and the extra demand that P(Ω) = 1 turns it into a probability space.",
+    "cites": [
+     5,
+     6,
+     11,
+     12,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Other ways in",
+    "text": "Kolmogorov's route is not the only one. Cox's theorem reaches the laws of probability from a logical view, where probability measures how likely or believable any logical statement is. Dutch book arguments show that a rational agent has to bet in proportion to a personal, subjective measure of how probable events are.",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "What follows from them",
+    "text": "To check that Kolmogorov's rules agree with classical probability, people usually work out a few simple results. Since an event A and its complement A^c together make up Ω, their probabilities sum to 1, so P(A^c) = 1 − P(A). It follows that the empty set, the impossible event where no outcome happens, has probability 0. If A lies inside B then P(A) ≤ P(B), which means P is monotone, and so every event has a probability between 0 and 1. Splitting A ∪ B into three pieces that do not overlap gives the inclusion-exclusion rule for probabilities: P(A ∪ B) equals P(A) + P(B) − P(A ∩ B).",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "A single coin toss",
+    "text": "Picture one toss of a coin that lands heads (H) or tails (T), but not both. Nothing is assumed about whether the coin is fair. Even so, the probability of heads and the probability of tails add up to 1.",
+    "cites": [
+     30,
+     31,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "pfeiffer-probability-systems",
+   "kind": "book",
+   "title": "1: Probability Systems - Applied Probability (Pfeiffer)",
+   "by": "Paul Pfeiffer",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Applied_Probability_(Pfeiffer)/01%3A_Probability_Systems",
+   "note": "A free textbook chapter setting up the Kolmogorov model of probability, with nonnegativity and countable additivity.",
+   "license": "CC BY 3.0"
+  }
+ ]
+}

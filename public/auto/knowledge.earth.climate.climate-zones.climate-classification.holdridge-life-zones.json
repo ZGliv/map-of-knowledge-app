@@ -1,0 +1,293 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones",
+ "name": "Holdridge life zones",
+ "summary": [
+  {
+   "text": "The Holdridge life zones system is a global bioclimatic scheme for classifying land areas, first published by Leslie Holdridge in 1947 and updated in 1967.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It assumes that once an area's climate is known, its soil and climax vegetation can be mapped, and it starts from a measure called biotemperature.",
+   "cites": [
+    4,
+    11
+   ]
+  },
+  {
+   "text": "A major use is judging how natural vegetation may shift with global warming, and fast life zone shifts bring unstable weather that poorer regions are less able to handle.",
+   "cites": [
+    7,
+    22,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Creator",
+   "value": "Leslie Holdridge, 1947; updated 1967",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Original focus",
+   "value": "Tropical and subtropical areas, now applied globally",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Biotemperature rule",
+   "value": "Temperatures below freezing or above 30 °C count as 0 °C",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "High-emissions outlook",
+   "value": "31% of crops, 34% of livestock outside safe space",
+   "cites": [
+    24,
+    26
+   ]
+  },
+  {
+   "label": "Low-emissions outlook",
+   "value": "5% of crops, 8% of livestock outside safe space",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Holdridge's biotemperature tries to capture the warmth plants can use. How does it count a stretch of days averaging 35 °C, when most plants sit dormant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As 35 °C, its real value"
+    },
+    {
+     "id": "b",
+     "label": "As 0 °C"
+    },
+    {
+     "id": "c",
+     "label": "As double its real value"
+    },
+    {
+     "id": "d",
+     "label": "As the yearly average"
+    }
+   ],
+   "answer": "b",
+   "explain": "Temperatures below freezing and above 30 °C are set to 0 °C because most plants are dormant at those temperatures.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones:q1"
+  },
+  {
+   "prompt": "A wealthy region and a region with few resources both face the same rapid shift in life zones. What does research suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wealthy region is likelier to adapt"
+    },
+    {
+     "id": "b",
+     "label": "Both regions will adapt equally well"
+    },
+    {
+     "id": "c",
+     "label": "The poorer region is likelier to adapt"
+    },
+    {
+     "id": "d",
+     "label": "Neither region's farming will be affected"
+    }
+   ],
+   "answer": "a",
+   "explain": "Developed regions may be able to adjust, while those with fewer resources are less likely to.",
+   "cites": [
+    23,
+    25
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones:q2"
+  },
+  {
+   "prompt": "The coldest places on Earth are deserts. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Winds carry all the snow out to sea"
+    },
+    {
+     "id": "b",
+     "label": "Thick ice absorbs any rain that falls"
+    },
+    {
+     "id": "c",
+     "label": "Snow is too heavy to fall from clouds there"
+    },
+    {
+     "id": "d",
+     "label": "Too little heat to evaporate much water"
+    }
+   ],
+   "answer": "d",
+   "explain": "With not enough heat to evaporate much water, the coldest regions get little evapotranspiration or precipitation, making polar deserts.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones:q3"
+  },
+  {
+   "prompt": "With unlimited water, a field would lose 800 mm a year to evaporation and plant transpiration. What is true of how much it actually loses?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is always exactly 800 mm"
+    },
+    {
+     "id": "b",
+     "label": "It can top 800 mm on hot days"
+    },
+    {
+     "id": "c",
+     "label": "It can never be more than 800 mm"
+    },
+    {
+     "id": "d",
+     "label": "It equals the rainfall plus 800 mm"
+    }
+   ],
+   "answer": "c",
+   "explain": "The 800 mm is the potential evapotranspiration, and actual evapotranspiration can never be greater than that potential.",
+   "cites": [
+    13,
+    15,
+    16
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones:q4"
+  },
+  {
+   "prompt": "Holdridge's system leans heavily on temperature. In which kind of place would you expect it to work least well?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A hot tropical lowland"
+    },
+    {
+     "id": "b",
+     "label": "A Mediterranean coast"
+    },
+    {
+     "id": "c",
+     "label": "A boreal forest"
+    },
+    {
+     "id": "d",
+     "label": "A cold, arid region"
+    }
+   ],
+   "answer": "d",
+   "explain": "The system fits tropical, Mediterranean and boreal zones but is less applicable to cold oceanic or cold arid climates where moisture dominates.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones:q5"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Lifezones_Pengo.svg/960px-Lifezones_Pengo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Holdridge life zones",
+  "credit": "Peter Halasz",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lifezones_Pengo.svg"
+ },
+ "source": {
+  "title": "Holdridge life zones",
+  "url": "https://en.wikipedia.org/wiki/Holdridge_life_zones",
+  "revision": 1346779546
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A map of life from climate",
+    "text": "The Holdridge life zones system is a bioclimatic scheme for sorting land areas, and it covers the whole world. Leslie Holdridge first published it in 1947 and updated it in 1967. It is fairly simple, rests on only a few pieces of measured data, and gives objective rules. Its core assumption is that once you know an area's climate, you can map both its soil and its climax vegetation.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "From the tropics to the globe",
+    "text": "Holdridge first built the system for tropical and subtropical regions, but it is now used everywhere. It has been shown to fit Mediterranean and boreal zones as well as tropical ones. It suits cold arid and cold oceanic regions less well, because there moisture takes over as the main factor. It is judged a better fit for tropical vegetation than Merriam's life zones, which lean toward temperate latitudes.",
+    "cites": [
+     5,
+     6,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Biotemperature",
+    "text": "The system puts biotemperature first and does not mainly look at elevation directly. Biotemperature depends on how long the growing season is and how warm it is. To work it out, any temperature below freezing or above 30 °C is set to 0 °C before taking the yearly mean. The reason is that most plants are dormant at those temperatures.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Water in and water out",
+    "text": "Potential evapotranspiration, or PET, is how much water would evaporate and be given off by plants if water were never in short supply. The hotter it is, the higher PET climbs. Evapotranspiration itself, the water that really evaporates from land and is given off by plants, can never exceed it. Dividing precipitation by PET gives the aridity index: below 0.2 means arid or hyperarid, and below 0.5 means dry.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Deserts hot and cold",
+    "text": "Both cold and warm places can end up dry. In the coldest regions there is too little heat to evaporate much water, so there is little evapotranspiration and little rain, giving polar deserts. In warm regions, hot deserts pair the highest PET with little rain, which dries the soil further. Rain forests, by contrast, combine low PET with the most rain, so rivers carry the surplus water to the sea.",
+    "cites": [
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Life zones on the move",
+    "text": "A major use of the system is to judge how natural vegetation may change as the world warms. Many areas are expected to change life zone type, and more severe change brings bigger shifts over a span that is short by geological standards, leaving people and biomes less time to adjust. Species that cannot adapt would eventually die out. For farming, shifts over just decades mean weather less stable than anything that area has known in human history, and poorer regions are less likely to cope than richer ones.",
+    "cites": [
+     7,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "What it could mean for food",
+    "text": "One line of research looked at SSP5-8.5, a scenario where greenhouse gas emissions keep rising. Under it, areas producing over half of today's crops and livestock would see very fast life zone shifts. Worldwide, 31% of crop and 34% of livestock production would end up outside a \"safe climatic space\". Under the low-emissions scenario SSP1-2.6, those shares fall to 5% and 8%.",
+    "cites": [
+     24,
+     26,
+     27
+    ]
+   }
+  ]
+ }
+}

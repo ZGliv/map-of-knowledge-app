@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography",
+ "name": "Public-key cryptography",
+ "summary": [
+  {
+   "text": "Public-key cryptography, also called asymmetric cryptography, uses pairs of related keys: a public key that can be shared openly and a private key kept secret.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Anyone can encrypt with the public key, but only the holder of the private key can decrypt, so no secret key has to be exchanged in advance.",
+   "cites": [
+    13,
+    18,
+    28
+   ]
+  },
+  {
+   "text": "Because it can be slow, protocols such as TLS, SSH and PGP combine it with faster symmetric cryptography in hybrid systems.",
+   "cites": [
+    7,
+    8,
+    26,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Also called",
+   "value": "Asymmetric cryptography",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Key pair",
+   "value": "One public key and one matching private key",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Digital signature",
+   "value": "Sign with the private key, verify with the public key",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "label": "Before mid-1970s",
+   "value": "Every cipher system used one shared key for both sides",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Hybrid users",
+   "value": "PGP, SSH and the SSL/TLS family",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A computer receives a software update. How can it confirm the update really comes from the publisher?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Decrypt the update using the publisher's private key"
+    },
+    {
+     "id": "b",
+     "label": "Trust any update that arrives over the internet"
+    },
+    {
+     "id": "c",
+     "label": "Ask the publisher to email the private key"
+    },
+    {
+     "id": "d",
+     "label": "Verify its signature using the publisher's public key"
+    }
+   ],
+   "answer": "d",
+   "explain": "The publisher signs updates with the private key, and any computer can verify the signature with the public key. A forger without the private key cannot pass verification.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography:q1"
+  },
+  {
+   "prompt": "Sources email secret messages to a journalist who posted a key on a website, and an eavesdropper reads the email in transit. Who can read the messages?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the journalist, who holds the matching private key"
+    },
+    {
+     "id": "b",
+     "label": "Anyone who has seen the posted key"
+    },
+    {
+     "id": "c",
+     "label": "The eavesdropper, since the email passes through them"
+    },
+    {
+     "id": "d",
+     "label": "Nobody, not even the journalist"
+    }
+   ],
+   "answer": "a",
+   "explain": "Anyone with the public key can encrypt, but only those who know the corresponding private key can decrypt the ciphertexts.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography:q2"
+  },
+  {
+   "prompt": "A company with many employees wants every pair to talk privately using one shared secret key per conversation. What problem does it run into?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each secret key can only be used once per day"
+    },
+    {
+     "id": "b",
+     "label": "Every pair needs a separate key, which becomes unmanageable as people join"
+    },
+    {
+     "id": "c",
+     "label": "Secret keys cannot be written down or stored anywhere"
+    },
+    {
+     "id": "d",
+     "label": "Employees would all end up able to read each other's mail"
+    }
+   ],
+   "answer": "b",
+   "explain": "With only shared-key systems, a separate key is required for each possible pair of users, which quickly becomes unmanageable as participants increase.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography:q3"
+  },
+  {
+   "prompt": "Why do systems like TLS and SSH use public-key methods only to set up a shared key, then switch to another kind of encryption?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Public-key methods cannot be used to hide a message at all"
+    },
+    {
+     "id": "b",
+     "label": "Shared-key methods are always more secure in every respect"
+    },
+    {
+     "id": "c",
+     "label": "Public-key methods are much more computationally intensive than shared-key ones"
+    },
+    {
+     "id": "d",
+     "label": "Public keys expire after a single use"
+    }
+   ],
+   "answer": "c",
+   "explain": "Asymmetric algorithms are nearly always much more computationally intensive than symmetric ones, so they are used to exchange a symmetric key that does the bulk of the work.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography:q4"
+  },
+  {
+   "prompt": "Bob receives a message encrypted with his public key. What does the encryption by itself tell him about who sent it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It proves the sender is a trusted friend"
+    },
+    {
+     "id": "b",
+     "label": "It reveals the sender's private key"
+    },
+    {
+     "id": "c",
+     "label": "It shows the sender is the key's owner"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since it only conceals the content"
+    }
+   ],
+   "answer": "d",
+   "explain": "Anyone can use a public key, so encryption alone conceals the content but says nothing about who sent the message.",
+   "cites": [
+    18,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography:q5"
+  },
+  {
+   "prompt": "Mia generates a key pair and wants her messages to stay safe. Which way of handling the two keys keeps security intact?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Share the public key widely and keep the private key to herself"
+    },
+    {
+     "id": "b",
+     "label": "Keep both keys secret from everyone, including friends"
+    },
+    {
+     "id": "c",
+     "label": "Share the private key and keep the public key hidden"
+    },
+    {
+     "id": "d",
+     "label": "Post both keys so anyone can check them"
+    }
+   ],
+   "answer": "a",
+   "explain": "Security depends on keeping the private key secret, while the public key can be openly distributed without compromising security.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.public-key-cryptography:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Public-key-crypto-1.svg/960px-Public-key-crypto-1.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Public-key cryptography",
+  "credit": "KohanX (talk)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Public-key-crypto-1.svg"
+ },
+ "source": {
+  "title": "Public-key cryptography",
+  "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+  "revision": 1382093227
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two keys instead of one",
+    "text": "Public-key cryptography, also called asymmetric cryptography, uses pairs of related keys. Each pair has a public key and a matching private key. The pairs are made by algorithms built on mathematical problems known as one-way functions. The whole system stays safe as long as the private key is kept secret, while the public key can be handed out to anyone.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "The problem it solves",
+    "text": "Until the mid-1970s, every cipher was symmetric: sender and receiver used the same key and both had to keep it secret. That key had to travel between them safely before any message could be sent, for example over a secure channel. This gets out of hand quickly as more people join, when no secure channel exists, or when keys are changed often. Keeping messages private from other users even needs a separate key for every possible pair of people. With public keys, only the private halves must stay hidden, and the public halves can be spread widely.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Signing with a private key",
+    "text": "In a digital signature system, a sender combines a private key with a message to make a signature. Anyone holding the matching public key can check whether the signature fits the message, but a forger without the private key cannot produce a message and signature that pass. A software maker, for instance, can build its public key into its programs. Later updates signed with the private key can then be checked by every computer, and fake updates from a forger will not be accepted.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Locking with a public key",
+    "text": "In a public-key encryption system, anyone with the public key can lock a message, but only the holder of the private key can open it again. A journalist could post a public key on a website so that sources can send scrambled messages that only the journalist can read, even if someone intercepts the email. This does not hide the surrounding details, such as which computer sent a message, when, or how long it is. Nor does it tell the receiver who the sender was; it only hides the content.",
+    "cites": [
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Mixing fast and slow",
+    "text": "Asymmetric methods nearly always take much more computing than symmetric ones, and can be too slow for many tasks. So a common pattern is to use the public-key method only to pass along a symmetric key, then send the actual data with that shared key. PGP, SSH and the SSL/TLS family work this way and are called hybrid cryptosystems. Nobody has to deliver a key by hand beforehand, on paper or by courier, yet the bulk of the traffic gets the speed of symmetric encryption.",
+    "cites": [
+     7,
+     8,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Where it can fail",
+    "text": "The chief danger is that a private key becomes known, at which point all the security that relied on it is gone. Recent TLS schemes reduce this risk with forward secrecy, which creates short-lived keys during a conversation that an attacker would also need. Any public-key scheme can in theory be cracked by trying every key, but not if the computing required, which Claude Shannon called the work factor, is beyond every attacker; often a longer key raises it. Quantum computing makes many of these algorithms vulnerable, and quantum-resistant replacements are being developed.",
+    "cites": [
+     30,
+     31,
+     32,
+     33,
+     37,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-encryption",
+   "kind": "video",
+   "title": "Encryption and HUGE numbers",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=M7kEpw1tn50",
+   "note": "A short video on how encryption relies on huge numbers, explained by mathematician James Grime."
+  }
+ ]
+}

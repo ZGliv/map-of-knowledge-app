@@ -1,0 +1,119 @@
+{
+ "title": "One Number for Many",
+ "question": "How can one number stand for a whole pile of data?",
+ "hook": "A shooting percentage squeezes a season of shots into a single figure.",
+ "idea": "Descriptive statistics squeeze a sample into a few summary numbers or graphs that show its typical value and its spread.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A player shoots 33%. Out of 30 shots, roughly how many went in?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "About 3",
+     "feedback": "This reads 33% as 3.3%, but 33% is about one in every three."
+    },
+    {
+     "id": "b",
+     "label": "About 10"
+    },
+    {
+     "id": "c",
+     "label": "About 20",
+     "feedback": "That would be two in every three, which is around 67%."
+    },
+    {
+     "id": "d",
+     "label": "About 33",
+     "feedback": "It copies the percentage as a count, but 33 would be more than 30 shots."
+    }
+   ],
+   "answer": "b",
+   "explain": "A player who shoots 33% is making approximately one shot in every three, so about 10 of 30.",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each measure into the kind of property it describes.",
+   "groups": [
+    "central tendency",
+    "variability"
+   ],
+   "items": [
+    [
+     "Mean",
+     "central tendency"
+    ],
+    [
+     "Median",
+     "central tendency"
+    ],
+    [
+     "Mode",
+     "central tendency"
+    ],
+    [
+     "Standard deviation",
+     "variability"
+    ],
+    [
+     "Minimum and maximum values",
+     "variability"
+    ]
+   ],
+   "explain": "Mean, median and mode are measures of central tendency; standard deviation and the minimum and maximum values are measures of variability.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each summary to what it does.",
+   "pairs": [
+    [
+     "Shooting percentage",
+     "Shots made divided by shots taken"
+    ],
+    [
+     "Grade point average",
+     "One number for a student's general performance"
+    ],
+    [
+     "Histogram",
+     "A graph of a variable's distribution"
+    ],
+    [
+     "Correlation",
+     "A measure of dependence between two variables"
+    ]
+   ],
+   "explain": "Each one boils down many observations into a summary number or graph.",
+   "cites": [
+    12,
+    16,
+    23,
+    25
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A study draws its main conclusions with inferential statistics.",
+    "Its first table lists the overall sample size and subgroup sizes.",
+    "That table is a set of descriptive statistics.",
+    "So descriptive statistics never appear alongside inferential ones."
+   ],
+   "wrong": 3,
+   "explain": "Even when a data analysis draws its main conclusions using inferential statistics, descriptive statistics are generally also presented.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "Impulse is the change in an object's momentum, most often used for forces that act for a short time, as in impacts and collisions.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Like momentum it has a size and a direction, and its SI unit is the newton-second, dimensionally equal to kilogram metre per second.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "text": "A constant force acting for a time gives an impulse equal to force times time, and in rocketry impulse per unit of propellant gives a performance number called specific impulse.",
+   "cites": [
+    12,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Definition",
+   "value": "The change in an object's momentum",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "SI unit",
+   "value": "Newton-second (N⋅s)",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Vector?",
+   "value": "Yes, it has size and direction",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Rocketry term",
+   "value": "Total impulse means the same thing",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Specific impulse",
+   "value": "Impulse per unit mass of propellant",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A kick changes a ball's momentum by 4 kg⋅m/s toward the goal. What is the impulse of the kick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8 N⋅s, double the change"
+    },
+    {
+     "id": "b",
+     "label": "4 N⋅s, pointing the way the momentum changed"
+    },
+    {
+     "id": "c",
+     "label": "4 N⋅s, with no direction"
+    },
+    {
+     "id": "d",
+     "label": "4 N⋅s, pointing back at the kicker"
+    }
+   ],
+   "answer": "b",
+   "explain": "Impulse is the momentum change, a vector, and N⋅s is equivalent to kg⋅m/s.",
+   "cites": [
+    1,
+    3,
+    9
+   ]
+  },
+  {
+   "prompt": "Why do game physics engines treat a collision's push as instant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real collisions take exactly zero time"
+    },
+    {
+     "id": "b",
+     "label": "Impulse exists only for one-second pushes"
+    },
+    {
+     "id": "c",
+     "label": "Instant changes need no force at all"
+    },
+    {
+     "id": "d",
+     "label": "It is not literally possible but simplifies ideal collisions"
+    }
+   ],
+   "answer": "d",
+   "explain": "The step change is not physically possible, yet it is a useful model for ideal collisions.",
+   "cites": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Two rocket engines give the same total push over a burn, but engine X burns half as much propellant. Which has the higher specific impulse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Engine X, the one using less propellant"
+    },
+    {
+     "id": "b",
+     "label": "The one burning more propellant"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since propellant is ignored"
+    },
+    {
+     "id": "d",
+     "label": "They match, since the totals are equal"
+    }
+   ],
+   "answer": "a",
+   "explain": "Specific impulse is impulse per unit of propellant, so the same impulse from less propellant scores higher.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "A physicist says impulse and momentum share the same basic dimensions. Which pair of units shows it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Joule and kilogram-metre"
+    },
+    {
+     "id": "b",
+     "label": "Newton-metre and kilogram-second"
+    },
+    {
+     "id": "c",
+     "label": "Newton-second and kilogram metre per second"
+    },
+    {
+     "id": "d",
+     "label": "Watt and kilogram metre per second"
+    }
+   ],
+   "answer": "c",
+   "explain": "The newton-second is the SI unit of impulse and is dimensionally equivalent to momentum's kg⋅m/s.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "A puck slides into the rink edge and bounces straight back. Which way does the impulse on the puck point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Toward the edge, the way it first travelled"
+    },
+    {
+     "id": "b",
+     "label": "Along the edge, sideways to both"
+    },
+    {
+     "id": "c",
+     "label": "It has no direction at all"
+    },
+    {
+     "id": "d",
+     "label": "Away from the edge, the way its motion changed"
+    }
+   ],
+   "answer": "d",
+   "explain": "Impulse is a vector pointing the way the momentum changed, here back out from the edge.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "For which kind of force is it most natural to talk about impulse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A push that lasts only a moment, like a hit"
+    },
+    {
+     "id": "b",
+     "label": "A steady pull that lasts for hours"
+    },
+    {
+     "id": "c",
+     "label": "A force that never changes direction"
+    },
+    {
+     "id": "d",
+     "label": "A force on an object that is not moving"
+    }
+   ],
+   "answer": "a",
+   "explain": "The term is most often used for forces acting over short time periods, as in impacts and collisions.",
+   "cites": [
+    2
+   ]
+  }
+ ]
+}

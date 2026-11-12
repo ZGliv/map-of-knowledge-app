@@ -1,0 +1,32 @@
+/* Tree sim (TreeSpin.tsx). Scoped under .expedition-shell like the rest of the player. */
+.expedition-shell .treespin { border: 1px solid var(--rule); border-radius: 4px; background: radial-gradient(120% 90% at 50% 0%, var(--panel), var(--deep)); padding: 6px 4px 2px; }
+.expedition-shell .treespin svg { display: block; width: 100%; height: auto; touch-action: manipulation; user-select: none; -webkit-user-select: none; }
+.expedition-shell .treespin__line { fill: none; stroke: var(--line); stroke-width: 3; stroke-linecap: round; }
+.expedition-shell .treespin__node { cursor: pointer; outline: none; }
+.expedition-shell .treespin__node circle { fill: var(--raised); stroke: var(--pale); stroke-width: 2.5; transition: fill .2s, stroke .2s; }
+.expedition-shell .treespin__node:hover circle, .expedition-shell .treespin__node:focus-visible circle { fill: var(--accent-soft); stroke: var(--accent); }
+.expedition-shell .treespin__node:focus-visible circle { stroke-width: 4; }
+.expedition-shell .treespin__node.is-key circle { fill: var(--accent); stroke: var(--bright); }
+.expedition-shell .treespin__node.is-soft circle { fill: var(--raised); stroke: var(--accent); stroke-dasharray: 3 3; }
+.expedition-shell .treespin__node.is-picked circle { fill: var(--accent-soft); stroke: var(--bright); stroke-width: 4; }
+.expedition-shell .treespin__node.is-miss circle { stroke: var(--wrong); stroke-width: 4; }
+.expedition-shell .treespin__dot { fill: var(--pale); }
+.expedition-shell .treespin__row { fill: transparent; stroke: none; }
+.expedition-shell .treespin__tip text { fill: var(--text); font: 25px var(--sans); }
+.expedition-shell .treespin__tip.is-focus text { fill: var(--bright); font-weight: 600; }
+.expedition-shell .treespin__tip.is-focus .treespin__dot { fill: var(--accent); }
+.expedition-shell .is-selecting .treespin__tip[role="button"] { cursor: pointer; }
+.expedition-shell .is-selecting .treespin__tip[role="button"]:hover .treespin__row,
+.expedition-shell .is-selecting .treespin__tip[role="button"]:focus-visible .treespin__row { fill: var(--accent-soft); }
+.expedition-shell .treespin__tip[role="button"] { outline: none; }
+.expedition-shell .treespin__tip.is-picked .treespin__row { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+.expedition-shell .treespin__axis { fill: var(--faint); font: 20px var(--sans); }
+.expedition-shell .treespin__task { margin-top: 4px; }
+.expedition-shell .treespin__count { color: var(--accent); font-family: var(--sans); font-size: 15px; white-space: nowrap; }
+.expedition-shell .treespin__list { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
+.expedition-shell .treespin__list summary { cursor: pointer; color: var(--secondary); }
+.expedition-shell .treespin__outline, .expedition-shell .treespin__outline ul { list-style: none; margin: 6px 0 0; padding-left: 16px; border-left: 1px solid var(--rule); }
+.expedition-shell .treespin__outline { padding-left: 0; border-left: 0; }
+.expedition-shell .treespin__outline li { margin: 3px 0; color: var(--text); }
+.expedition-shell .treespin__group > span { color: var(--faint); font-size: 13px; }
+.expedition-shell .treespin__figure { margin: 0 0 14px; }

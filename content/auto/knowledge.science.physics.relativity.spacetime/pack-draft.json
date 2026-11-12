@@ -1,0 +1,112 @@
+{
+ "title": "Time Is a Direction Too",
+ "question": "Why do physicists treat time as a fourth dimension?",
+ "hook": "Your clock, it turns out, is only one observer's opinion.",
+ "idea": "Space and time combine into one four-dimensional spacetime, and an object's passage through it depends on how it moves.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A traveler flies past you at very high speed. According to special relativity, how does time pass for her as you measure it?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Exactly as fast as for you, since time is universal",
+     "feedback": "This is the older classical view, where time is the same for everyone, but special relativity replaces it."
+    },
+    {
+     "id": "b",
+     "label": "At a rate that depends on her velocity relative to you"
+    },
+    {
+     "id": "c",
+     "label": "It stops entirely whenever she moves at all",
+     "feedback": "Motion changes the observed rate, but nothing in the sentences says it halts."
+    }
+   ],
+   "answer": "b",
+   "explain": "The observed rate at which time passes depends on the object's velocity relative to the observer.",
+   "cites": [
+    7,
+    8,
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each term to its meaning",
+   "pairs": [
+    [
+     "Event",
+     "A single point in spacetime, set by x, y, z and t"
+    ],
+    [
+     "World line",
+     "A particle's path as a sequence of events"
+    ],
+    [
+     "Minkowski space",
+     "The 1908 four-dimensional fusion of space and time"
+    ]
+   ],
+   "explain": "Each term describes a piece of the four-dimensional picture: points, paths and the whole arena.",
+   "cites": [
+    5,
+    17,
+    18,
+    24
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each idea into its group",
+   "groups": [
+    "Classical mechanics",
+    "Relativity"
+   ],
+   "items": [
+    [
+     "Time passes at the same rate for every observer",
+     "Classical mechanics"
+    ],
+    [
+     "Space follows common-sense Euclidean geometry",
+     "Classical mechanics"
+    ],
+    [
+     "Observed time depends on velocity",
+     "Relativity"
+    ],
+    [
+     "Gravity can slow time as seen from outside",
+     "Relativity"
+    ]
+   ],
+   "explain": "Classical mechanics keeps time universal and separate; relativity ties time to motion and gravity.",
+   "cites": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "An event is a single point in spacetime, set by x, y, z and t.",
+    "Mathematical events have zero duration, unlike a firecracker's pop.",
+    "So an observer can be in motion relative to an event, just as to a firecracker.",
+    "Spacetime is therefore four-dimensional."
+   ],
+   "wrong": 2,
+   "explain": "You can move relative to a firecracker, but not relative to a mathematical event, which is just a point.",
+   "cites": [
+    17,
+    19,
+    20,
+    21
+   ]
+  }
+ ]
+}

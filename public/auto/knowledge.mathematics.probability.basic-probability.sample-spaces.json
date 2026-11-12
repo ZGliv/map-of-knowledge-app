@@ -1,0 +1,556 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.sample-spaces",
+ "name": "Sample spaces",
+ "summary": [
+  {
+   "text": "A sample space is the set of all possible outcomes or results of an experiment or random trial.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A subset of the sample space is an event, and the outcomes must be mutually exclusive: if one occurs, no other one does.",
+   "cites": [
+    6,
+    12
+   ]
+  },
+  {
+   "text": "It is one of three components of a probability model, alongside a set of possible events and a probability assigned to each event.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Sample description space, possibility space, outcome space",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Common labels",
+   "value": "S, Ω, or U for universal set",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Two dice",
+   "value": "36 equally likely ordered pairs of outcomes",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Sum of five",
+   "value": "Four of the 36 pairs add to five",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Infinite example",
+   "value": "A light bulb's lifetime, with sample space from 0 to infinity",
+   "cites": [
+    33,
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You flip a coin and only care whether it lands heads or tails. Should today's weather be part of your list of possible results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because every detail of the trial is a result"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because the weather could change the flip"
+    },
+    {
+     "id": "c",
+     "label": "No, because irrelevant information is removed"
+    },
+    {
+     "id": "d",
+     "label": "No, because weather cannot ever be recorded"
+    }
+   ],
+   "answer": "c",
+   "explain": "The sample space needs the right granularity for what the experimenter cares about, so irrelevant information such as the weather is left out.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces:q1"
+  },
+  {
+   "prompt": "You draw one card from a standard deck and want a sample space that describes each individual card. Which description works?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Just the ranks, from Ace through King"
+    },
+    {
+     "id": "b",
+     "label": "Just the four suits of the deck"
+    },
+    {
+     "id": "c",
+     "label": "Only whether the card is right-side up"
+    },
+    {
+     "id": "d",
+     "label": "Pairs combining a rank with a suit"
+    }
+   ],
+   "answer": "d",
+   "explain": "Ranks alone or suits alone are possible sample spaces, but describing each individual card takes both, giving fifty-two equally likely outcomes.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces:q2"
+  },
+  {
+   "prompt": "Two fair six-sided dice are rolled in a board game. What is the chance that the two numbers add up to five?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1 in 11, since there are 11 possible sums"
+    },
+    {
+     "id": "b",
+     "label": "1 in 6, since each die has six faces"
+    },
+    {
+     "id": "c",
+     "label": "5 in 36, one for each unit of the sum"
+    },
+    {
+     "id": "d",
+     "label": "4 in 36, since four of the pairs work"
+    }
+   ],
+   "answer": "d",
+   "explain": "The 36 ordered pairs are equally likely, and four of them sum to five, so the probability is 4/36. The 11 possible sums are not equally likely, so counting sums alone misleads.",
+   "cites": [
+    23,
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces:q3"
+  },
+  {
+   "prompt": "For one die roll, a student lists the possible results as 'the roll is even' and 'the roll is greater than 3'. What is wrong with this list?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both can occur at once, so they are not mutually exclusive"
+    },
+    {
+     "id": "b",
+     "label": "There are too few results to make a proper list"
+    },
+    {
+     "id": "c",
+     "label": "The results are not equally likely to occur"
+    },
+    {
+     "id": "d",
+     "label": "Dice results cannot be written as words"
+    }
+   ],
+   "answer": "a",
+   "explain": "Outcomes must be mutually exclusive, but a roll of 4 makes both listed results occur at the same time.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces:q4"
+  },
+  {
+   "prompt": "A thumb tack is tossed many times and lands either point up or point down. Why is it a poor idea to just give each of the two results a chance of one half?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because a tack can land in only one way"
+    },
+    {
+     "id": "b",
+     "label": "Nothing physical suggests the two results are equally likely"
+    },
+    {
+     "id": "c",
+     "label": "Because a tack has a different weight than a coin"
+    },
+    {
+     "id": "d",
+     "label": "Because two results must always be equally likely"
+    }
+   ],
+   "answer": "b",
+   "explain": "Equal likelihood suits cases like fair dice, but a thumb tack has no physical symmetry to suggest the two results are equally likely.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces:q5"
+  },
+  {
+   "prompt": "One die roll has six possible results. The group of results 'two, four, or six' is picked out. How does it relate to the full list of possible results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a larger list that includes the full one"
+    },
+    {
+     "id": "b",
+     "label": "It is a single result of its own"
+    },
+    {
+     "id": "c",
+     "label": "It is a subset of the full list, called an event"
+    },
+    {
+     "id": "d",
+     "label": "It is a separate list with no shared results"
+    }
+   ],
+   "answer": "c",
+   "explain": "A subset of the sample space is an event, and the event occurs if the outcome of the experiment is included in it.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.sample-spaces:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sample_space.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Sample spaces",
+  "credit": "BadEnding",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sample_space.png"
+ },
+ "source": {
+  "title": "Sample space",
+  "url": "https://en.wikipedia.org/wiki/Sample_space",
+  "revision": 1361460384
+ },
+ "pack": {
+  "id": "auto-basic-probability-sample-spaces",
+  "title": "Everything that could happen",
+  "question": "What do we call the list of everything that could happen in a random trial?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Basic probability",
+   "Sample spaces"
+  ],
+  "hue": 44,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sample_space.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Sample spaces",
+    "credit": "BadEnding · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sample_space.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Everything that could happen",
+    "hook": "Before you can ask how likely something is, you have to say what the possibilities even are."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-sample-spaces:1",
+    "transfer": false,
+    "prompt": "Match each part of a probability model to its job.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Sample space"
+     },
+     {
+      "id": "l1",
+      "label": "Event"
+     },
+     {
+      "id": "l2",
+      "label": "Event space"
+     },
+     {
+      "id": "l3",
+      "label": "Probability measure"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "The set of possible events"
+     },
+     {
+      "id": "r3",
+      "label": "Assigns a probability to each event"
+     },
+     {
+      "id": "r0",
+      "label": "The set of all possible outcomes"
+     },
+     {
+      "id": "r1",
+      "label": "A subset of the sample space"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "A probability model has three components: a sample space, a set of possible events, and a probability assigned to each event."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-basic-probability-sample-spaces:2",
+    "transfer": false,
+    "prompt": "Two fair six-sided dice are thrown. The 36 ordered pairs are equally likely. What is the chance that the pair adds up to five?",
+    "explain": "Four of the 36 equally likely ordered pairs add up to five, so the probability is 4/36.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "1 in 11",
+        "feedback": "There are 11 possible sums, but those sums are not equally likely, so this ignores how many pairs make each one."
+       },
+       {
+        "id": "d",
+        "label": "1 in 6",
+        "feedback": "This would be 6 pairs out of 36, which is more than the four that add to five."
+       },
+       {
+        "id": "b",
+        "label": "4 in 36"
+       },
+       {
+        "id": "c",
+        "label": "5 in 36",
+        "feedback": "The number five is the target sum, not the number of pairs that reach it."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-sample-spaces:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each experiment by whether its outcomes are naturally equally likely.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Ordered pairs from two fair six-sided dice"
+     },
+     {
+      "id": "i1",
+      "label": "Each individual card from a standard 52-card deck"
+     },
+     {
+      "id": "i2",
+      "label": "Every possible simple random sample of a given size"
+     },
+     {
+      "id": "i3",
+      "label": "A thumb tack landing point up or point down"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Equally likely outcomes"
+     },
+     {
+      "id": "g1",
+      "label": "Not easily equally likely"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "Dice pairs, individual cards and simple random samples are described as equally likely outcomes, while the thumb tack has no symmetry to suggest it."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-basic-probability-sample-spaces:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about drawing a card is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A person drawing a card only cares about the suit."
+     },
+     {
+      "id": "b",
+      "text": "So the four suits are a possible sample space for them."
+     },
+     {
+      "id": "c",
+      "text": "So the only valid sample space is all 52 individual cards."
+     },
+     {
+      "id": "d",
+      "text": "Which sample space fits depends on the result being studied."
+     }
+    ],
+    "answer": "c",
+    "explain": "There can be more than one plausible sample space, such as ranks, suits or individual cards, depending on what result interests the experimenter."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A sample space is the set of all possible outcomes, and choosing it well depends on what you care about.",
+    "connections": [
+     {
+      "title": "Event (probability theory)",
+      "place": "Sample spaces",
+      "node": "knowledge.mathematics.probability.basic-probability.sample-spaces.event-probability-theory"
+     },
+     {
+      "title": "Outcome (probability)",
+      "place": "Sample spaces",
+      "node": "knowledge.mathematics.probability.basic-probability.sample-spaces.outcome-probability"
+     },
+     {
+      "title": "Probability axioms",
+      "place": "Sample spaces",
+      "node": "knowledge.mathematics.probability.basic-probability.sample-spaces.probability-axioms"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A probability model has three components: a sample space, a set of possible events, and a probability assigned to each event.",
+    "source": "Wikipedia sentences 1, 6, 8, 9"
+   },
+   {
+    "claim": "Four of the 36 equally likely ordered pairs add up to five, so the probability is 4/36.",
+    "source": "Wikipedia sentences 23, 24, 25"
+   },
+   {
+    "claim": "Dice pairs, individual cards and simple random samples are described as equally likely outcomes, while the thumb tack has no symmetry to suggest it.",
+    "source": "Wikipedia sentences 18, 22, 23, 29"
+   },
+   {
+    "claim": "There can be more than one plausible sample space, such as ranks, suits or individual cards, depending on what result interests the experimenter.",
+    "source": "Wikipedia sentences 16, 17, 18"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A sample space is the set of every possible outcome of an experiment or random trial. It goes by other names too, such as possibility space or outcome space. It is usually written in set notation, with the possible outcomes, called sample points, listed as its elements. It is often labelled S, Ω, or U, where U stands for \"universal set\".",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "What goes inside",
+    "text": "The elements can be numbers, words, letters, or symbols, and there can be finitely many, countably infinitely many, or uncountably infinitely many of them. The outcomes must be mutually exclusive: if one happens, no other one does. A subset of the sample space is called an event, written E. If the experiment's outcome lies in E, then E has occurred.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     12
+    ]
+   },
+   {
+    "heading": "One part of a probability model",
+    "text": "A well-defined, non-empty sample space is one of three parts of a probability model, also called a probability space. The second part is the event space, a well-defined set of possible events. The third is a probability measure, which gives each event a probability. You can draw a sample space as a rectangle with its outcomes as points inside, and events as ovals around the points that belong to them.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Choosing the right one",
+    "text": "A sample space needs the right level of detail for what the experimenter cares about, with irrelevant information stripped out. Often more than one sample space is reasonable. When you pull one card from an ordinary fifty-two card deck, you could list the ranks, Ace through King, or the four suits. Or you could combine rank and suit, giving a space with one outcome per card, fifty-two equally likely outcomes in all.",
+    "cites": [
+     13,
+     14,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Equally likely outcomes",
+    "text": "When a sample space has N equally likely outcomes, each one gets probability 1/N. Throw two fair six-sided dice and record the ordered pair of numbers: there are 36 equally likely pairs. Four of those pairs add up to five, so the probability of a sum of five is 4/36. Not every experiment fits this mold, though. When a thumb tack is tossed, no physical symmetry suggests that landing point-up and point-down are equally likely.",
+    "cites": [
+     21,
+     22,
+     23,
+     25
+    ]
+   },
+   {
+    "heading": "Infinite sample spaces",
+    "text": "Some sample spaces are infinitely large. Measuring how long a light bulb lasts, for instance, gives the sample space [0, ∞). In an elementary approach any subset is called an event, but continuous sample spaces cause problems with that rule. So there, only measurable subsets, which together form a σ-algebra over the sample space, count as events.",
+    "cites": [
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-terminology",
+   "kind": "book",
+   "title": "3.1 Terminology - Introductory Statistics 2e",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+   "note": "A free textbook section defining experiments, outcomes, the sample space S and events.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-tree-diagrams-outcomes",
+   "kind": "book",
+   "title": "7.4 Tree Diagrams, Tables, and Outcomes - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-4-tree-diagrams-tables-and-outcomes",
+   "note": "A free textbook section on listing a sample space systematically with tables and tree diagrams.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

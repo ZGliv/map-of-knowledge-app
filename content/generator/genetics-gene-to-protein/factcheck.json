@@ -1,0 +1,1266 @@
+{
+  "checker": "independent adversarial subagent (Claude), drafted nothing in this pack",
+  "independent": true,
+  "checkedAt": "2026-10-26T17:17:51Z",
+  "scope": "factcheck-input.md (18:51, 23 Oct) is the sheet from before commit b68684e, so 30 of its 117 units show wording that has since been fixed. The same 117 unit IDs were rebuilt from the current place bundle (in scratch, no repo writes), and every verdict below is on the CURRENT text. All three case sequences were checked letter by letter against the cached RefSeq records (NM_020469.3 CDS, NM_000518.5 CDS, NM_000517.6 from CDS start to record end). Every codon, chain, variant number and case answer was recomputed with an independent standard codon table.",
+  "resolution": "All 4 imprecise units (C1.line, C2.setup, C2.claim, I.i_58bxcex1da) were fixed on 2026-10-26 by a separate fixing agent, which also acted on the media note on B4.frame3. Nothing was cut. Each fix was checked against the cached sources (sources/*.json, factsheet.md), and the new HBB decoy was confirmed in dbSNP (rs34716011) before use and re-pinned. Units marked resolved on a supported verdict (C2.model, C2.line, C2.reveal) changed text with the C2.setup fix and were rechecked by the fixer, not by this checker. Verdicts, evidence, notes and suggested fixes are the checker’s, unchanged; only “resolved” was added. factcheck-input.md was regenerated from commit b68684e, the text these verdicts are on, so it now matches what was checked. A second fixing pass on 2026-10-26 acted on an independent design review (not a fact-check): case 1 (ABO) was replaced by HBB c.27dup, and the copy step, the chain-length step and bank item i_9jvjhwgxmz were redrawn. Units whose text changed carry \"resolved\" with the fixer’s recheck; the verdicts are still this checker’s, on the old text.",
+  "units": [
+    {
+      "id": "P1",
+      "verdict": "supported",
+      "evidence": "[W12.14] \"George Gamow suggested that the genetic code was made of three nucleotides per amino acid\"; [W12.15]-[W12.16] 4 single, 16 pairs, 64 triplets.",
+      "note": "Matches. The source adds that Gamow thought the triplets overlapped [W12.17]; leaving that out does not make the claim false.",
+      "fix": ""
+    },
+    {
+      "id": "P2",
+      "verdict": "supported",
+      "evidence": "[W2.12]-[W2.14] \"Only one of the two DNA strands serves as a template… read… 3' → 5'… RNA… 5' → 3' direction, matching the sequence of the sense strand except switching uracil for thymine.\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P3",
+      "verdict": "supported",
+      "evidence": "[W4.2] ribosome \"links proteinogenic amino acids in an order specified by messenger RNA… using transfer RNA… to read the mRNA three nucleotides at a time\"; [W4.3] \"a simple table with 64 entries\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P4",
+      "verdict": "supported",
+      "evidence": "[W4.58] \"Protein-coding frames are defined by a start codon, usually the first AUG codon\"; [W4.63] AUG \"read as methionine or as formylmethionine (in bacteria…)\"; [W4.67] \"no cognate tRNA… allowing a release factor to bind\".",
+      "note": "Leaves out formylmethionine in bacteria [W4.63]; fMet is a modified methionine, so \"read as methionine\" stays true.",
+      "fix": ""
+    },
+    {
+      "id": "P5",
+      "verdict": "supported",
+      "evidence": "[W4.53] \"A reading frame is defined by the initial triplet of nucleotides from which translation starts\"; [W4.54] \"a run of successive, non-overlapping codons\".",
+      "note": "Now cites Genetic code, where this wording is.",
+      "fix": ""
+    },
+    {
+      "id": "P6",
+      "verdict": "supported",
+      "evidence": "[W4.86]-[W4.87] \"redundancy but no ambiguity… GAA and GAG both specify glutamic acid\"; [W4.139] \"synonymous changes generally happen at the third nucleotide\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P7",
+      "verdict": "supported",
+      "evidence": "[W4.73] indels \"of a non-multiple of 3 nucleotide bases are known as frameshift mutations\"; [W4.72] \"nonsense mutations result in a stop codon\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P8",
+      "verdict": "supported",
+      "evidence": "[W12.1] May 1961, NIH, \"post-doctoral fellow, J. Heinrich Matthaei\"; [W12.26]-[W12.27] \"rupturing E. coli… synthesize protein, but only when the correct kind of RNA was added\"; [W12.29]-[W12.30] all 20, one hot per experiment; [W12.35] polyphenylalanine.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P9",
+      "verdict": "supported",
+      "evidence": "[W12.33]-[W12.34] \"At 3 am on May 27, 1961… background level of 70 counts… 38,000 counts per milligram of protein\"; [W12.36] \"consistent with the triplet codon UUU coding for phenylalanine\".",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "P10",
+      "verdict": "supported",
+      "evidence": "[W4.29]-[W4.32] \"Nirenberg and Philip Leder… determine the sequences of 54 out of 64 codons\"; [W4.26] \"Subsequent work by Har Gobind Khorana identified the rest of the genetic code.\"",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. Matches W4. Ochoa's copolymer work [W4.23]-[W4.25] also counts, but leaving it out is not wrong.",
+      "fix": ""
+    },
+    {
+      "id": "P11",
+      "verdict": "supported",
+      "evidence": "General knowledge (no cached text): Nirenberg MW & Matthaei JH, \"The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides\", PNAS 47(10):1588-1602, 1961. This is the first published report of the poly-U result.",
+      "note": "Judged from general knowledge, not a cached text.",
+      "fix": ""
+    },
+    {
+      "id": "P12",
+      "verdict": "supported",
+      "evidence": "[W1.24] transcription makes mRNA from DNA; [W1.31] \"The mature mRNA finds its way to a ribosome, where it gets translated.\"",
+      "note": "This labels the two steps. It does not call DNA→RNA→protein \"the central dogma\", which the source calls a popular but incorrect version [W1.9]-[W1.12]. Keep it that way.",
+      "fix": ""
+    },
+    {
+      "id": "P13",
+      "verdict": "supported",
+      "evidence": "[W13.1] \"demonstrated that the genetic code is read in non-overlapping triplets\"; [W13.7] proflavin \"typically resulting in insertion or deletion of a single base pair\"; [W13.9]-[W13.10] single changes \"often\" nonfunctional, \"if three base pairs were added or deleted, the gene would remain functional\".",
+      "note": "The source hedges single changes with \"often\". \"Three of the same kind\" (+++ or ---) comes from the 1961 paper itself (general knowledge) and is right. The names are listed in a different order from the paper's byline (Crick, Barnett, Brenner, Watts-Tobin), but all four are correct.",
+      "fix": ""
+    },
+    {
+      "id": "P14",
+      "verdict": "supported",
+      "evidence": "General knowledge (no cached text): Crick FHC, Barnett L, Brenner S, Watts-Tobin RJ, \"General nature of the genetic code for proteins\", Nature 192:1227-1232, 1961.",
+      "note": "Judged from general knowledge. The paper itself hedged: \"triplet, or a multiple of three\".",
+      "fix": ""
+    },
+    {
+      "id": "P15",
+      "verdict": "supported",
+      "evidence": "[W4.65] \"UAG is amber\"; [W9.24] amber named after Harris Bernstein; [W9.2] stop codons bind release factors, \"releasing the amino acid chain\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P16",
+      "verdict": "supported",
+      "evidence": "[W4.52] \"In 2025, researchers reported a new 'Syn57' strain, which removes the use of 7 out of 64 codons completely.\"",
+      "note": "W4.52 does not say E. coli, but it follows Syn61 [W4.49], which it does say is E. coli. Syn57 is an E. coli strain (general knowledge: Robertson et al., Science 2025).",
+      "fix": ""
+    },
+    {
+      "id": "P17",
+      "verdict": "supported",
+      "evidence": "[W20.15] \"The natural protein has 238 amino acids.\"; [W20.22] Prasher sent cDNA; [W20.23] Chalfie \"expressed the coding sequence of wtGFP… in… E. coli\"; [W20.25] \"folded and was fluorescent\".",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The source adds that Chalfie's first construct had \"the first few amino acids deleted\" [W20.23]. The claim never says full length, so it stays true.",
+      "fix": ""
+    },
+    {
+      "id": "P18",
+      "verdict": "supported",
+      "evidence": "[W21.67] \"a 110 amino acid-long protein called preproinsulin\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P19",
+      "verdict": "supported",
+      "evidence": "[W19.26] \"its human variant consists of 34,350 amino acids… mature 'canonical' isoform\"; [W19.11] \"largest known protein\"; [W19.83] PKZILLA-1 is larger.",
+      "note": "\"Among the largest\" correctly gets round the source contradicting itself (largest in W19.11, second largest in W19.26).",
+      "fix": ""
+    },
+    {
+      "id": "P20",
+      "verdict": "supported",
+      "evidence": "[W7.3] \"Each three-nucleotide codon in mRNA is complemented by a three-nucleotide anticodon in tRNA\"; [W7.7].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P21",
+      "verdict": "supported",
+      "evidence": "[W6.2] the ribosome \"decodes successive codons in an mRNA molecule\"; [W6.3] \"one or more ribosomal RNA (rRNA) molecules and many ribosomal proteins\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B1.hook",
+      "verdict": "supported",
+      "evidence": "[W12.1] May 1961; [W12.26] ruptured E. coli; [W12.32] poly-U; [W12.35] polyphenylalanine; [W1.20] human mitochondria use a different table.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. \"Nearly every\" leaves room for the mitochondrial code and selenocysteine. Strictly, the 27 May run showed radioactive phenylalanine going into protein, and later runs showed the product was polyphenylalanine [W12.35]. The hook compresses the two, which is fine.",
+      "fix": ""
+    },
+    {
+      "id": "B2.prompt",
+      "verdict": "supported",
+      "evidence": "[W12.13]-[W12.15] four bases, 20 amino acids, words of equal length.",
+      "note": "The logic holds: 4^1 = 4 and 4^2 = 16 are under 20, and 4^3 = 64. Even 21 meanings (adding stop) still need 3.",
+      "fix": ""
+    },
+    {
+      "id": "B2.explain",
+      "verdict": "supported",
+      "evidence": "[W12.14]-[W12.16] Gamow's 4 / 16 / 64 argument; [W4.10] \"physicist George Gamow\"; [W4.19] \"first demonstrated that codons consist of three DNA bases\"; [W13.1].",
+      "note": "The 1961 paper itself hedged (\"or a multiple of three\"), but both pinned sources say the experiment demonstrated triplets. That is the standard teaching line.",
+      "fix": ""
+    },
+    {
+      "id": "B2.letters.one",
+      "verdict": "supported",
+      "evidence": "[W12.15] \"single (4 combinations)\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.letters.two",
+      "verdict": "supported",
+      "evidence": "[W12.15] \"pairs (only 16 combinations)\".",
+      "note": "20 - 16 = 4 amino acids left over, which is right.",
+      "fix": ""
+    },
+    {
+      "id": "B2.letters.three",
+      "verdict": "supported",
+      "evidence": "[W12.16] \"triplets (64 possible combinations)\".",
+      "note": "This is the only minimal answer.",
+      "fix": ""
+    },
+    {
+      "id": "B2.letters.four",
+      "verdict": "supported",
+      "evidence": "Arithmetic: 4^4 = 256.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.goal",
+      "verdict": "supported",
+      "evidence": "[W2.5] RNA polymerase makes a complementary RNA; [W2.12] “Only one of the two DNA strands serves as a template”; [W10.3] “A single strand of a nucleic acid molecule has a phosphoryl end, called the 5′-end, and a hydroxyl or 3′-end”; [W4.58] “a start codon, usually the first AUG codon in the RNA”; [W1.19] codons are read in groups of three; [W4.67] a stop releases the chain.",
+      "note": "Checked as rendered (expedition playthrough at 375 px on :5252). “Every strand has two ends, called 5′ and 3′” is the source’s own generalisation [W10.3]. Circular DNA (plasmids, most bacterial chromosomes) has no free ends, so the sentence holds for the strands this lesson shows, not for every strand there is. That is not blocking. Wikipedia: Reading frame is a pinned, cached source of this place, but it is not in the provenance list the beat cites. [W10.3] is the only sentence that states the definition.",
+      "fix": "Optional, if the definition should not be universal: “A strand’s two ends are called 5′ and 3′.”",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.goal",
+        "verdict": "supported",
+        "evidence": "[W2.2] RNA polymerase makes mRNA; [W4.58] \"a start codon, usually the first AUG\"; [W4.67].",
+        "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. \"Usually the first AUG\" is the source's own hedge. In bacteria the start is chosen by the Shine-Dalgarno site [W4.62], not by being first, and the hedge covers that.",
+        "fix": "",
+        "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the goal now names the template strand where it first appears: “building it against one of the gene’s two DNA strands, the template strand” (Transcription: “Only one of the two DNA strands serves as a template”). Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the definition of a strand’s ends moved here from the copy step’s prompt, so it comes before the strand’s label (“Template strand, written from its 3′ end to its 5′ end”): “Every strand has two ends, called 5′ and 3′.” [W2.13] [W2.14] name the 3′ and 5′ ends. Nothing else changed."
+      }
+    },
+    {
+      "id": "B3.copy.ask",
+      "verdict": "supported",
+      "evidence": "[W2.11] RNA has U “in all instances where thymine (T) would have occurred”; [W1.17] “When DNA is transcribed to RNA, its complement is paired to it”; [W2.13] the template strand is read 3′ → 5′; [W2.14] the RNA is “created in the opposite direction, in the 5' → 3' direction”. The strand above the prompt is labelled “Template strand, written from its 3′ end to its 5′ end” (rendered), so the RNA’s 5′ end sits under its left end.",
+      "note": "Rendered: before the run, the RNA row shows only empty slots, so nothing leaks the key.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.copy.ask",
+        "verdict": "supported",
+        "evidence": "[W2.11] U \"in all instances where thymine (T) would have occurred\"; [W2.14] the RNA is complementary.",
+        "note": "The strand TACCGTAAGTTC, labelled 3′→5′, gives the RNA 5′-AUGGCAUUCAAG-3′ (checked letter by letter).",
+        "fix": "",
+        "resolved": "Text changed after the check (design review: the key was the only RNA option starting with AUG). The template is now GGAGACTTGCCA and the prompt asks for the RNA read 5′ to 3′. Rechecked by the fixer, not the checker: its RNA is 5′-CCUCUGAACGGU-3′, letter by letter and by the engine’s transcribe. Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): 3′ and 5′ were used without a definition. The prompt now says “Every strand has two ends, called 5′ and 3′, and the RNA runs the opposite way to the strand it is built against” and asks for the RNA “written from its 5′ end” (Transcription: the RNA is created “in the opposite direction”, “5′ → 3′”, while the polymerase traverses the template “from 3′ → 5′”). The step label is now “Template strand, written from its 3′ end to its 5′ end”. Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “Every strand has two ends, called 5′ and 3′” moved to the beat’s goal, above the strand. The prompt keeps “The RNA runs the opposite way to the strand it is built against” [W2.13] [W2.14]; the options and key are unchanged."
+      }
+    },
+    {
+      "id": "B3.copy.UACCGUAAGUUC",
+      "verdict": "supported",
+      "evidence": "Derived: this is the template with T→U, not its complement.",
+      "note": "The feedback is right.",
+      "fix": "",
+      "resolved": "Retired after the check: this option no longer exists (design review). Its replacement has no verdict yet; see \"pending\"."
+    },
+    {
+      "id": "B3.copy.AUGGCAUUCAAG",
+      "verdict": "supported",
+      "evidence": "Computed: the complement of TACCGTAAGTTC with U for T is AUGGCAUUCAAG.",
+      "note": "This is the single correct option.",
+      "fix": "",
+      "resolved": "Retired after the check: this option no longer exists (design review). Its replacement has no verdict yet; see \"pending\"."
+    },
+    {
+      "id": "B3.copy.ATGGCATTCAAG",
+      "verdict": "supported",
+      "evidence": "[W2.11]; [W2.18] the coding strand has the same sequence as the RNA except for U/T.",
+      "note": "The feedback is right.",
+      "fix": "",
+      "resolved": "Retired after the check: this option no longer exists (design review). Its replacement has no verdict yet; see \"pending\"."
+    },
+    {
+      "id": "B3.copy.explain",
+      "verdict": "supported",
+      "evidence": "The coding strand is the template’s partner, 5′-CCTCTGAACGGT-3′; with U for T it is the RNA CCUCUGAACGGU [W2.14] (“matching the sequence of the sense strand except switching uracil for thymine”). [W2.18]: the non-template strand is the coding strand. [W2.13]–[W2.14] give the directions.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.copy.explain",
+        "verdict": "supported",
+        "evidence": "[W2.14] \"matching the sequence of the sense strand except switching uracil for thymine\"; [W2.18].",
+        "note": "",
+        "fix": "",
+        "resolved": "Text changed after the check: new letters, and the direction is now stated. Rechecked by the fixer, not the checker, against [W2.13]-[W2.14] (template read 3′ → 5′, RNA made 5′ → 3′, matching the sense strand with U for T). Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): reworded to the defined terms (“runs the opposite way to the template strand, so its 5′ end starts under the strand’s 3′ end”); the RNA, CCU CUG AAC GGU, and the coding-strand point are unchanged."
+      }
+    },
+    {
+      "id": "B3.read.ask",
+      "verdict": "supported",
+      "evidence": "[W4.65]-[W4.67] the three stop codons.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. \"Here\" limits the rule to this RNA. RNA GCAUCAUGGCUAGCAAAGGUUGGUAGCC: its first AUG is at letters 6-8.",
+      "fix": ""
+    },
+    {
+      "id": "B3.read.7",
+      "verdict": "supported",
+      "evidence": "[W4.67] stop codons have no cognate tRNA; [W9.2].",
+      "note": "The 6 sense codons plus the stop make 7, so the feedback is right.",
+      "fix": ""
+    },
+    {
+      "id": "B3.read.9",
+      "verdict": "supported",
+      "evidence": "Computed: read from letter 1, the frame gives GCA UCA UGG CUA GCA AAG GUU GGU AGC, 9 codons with no stop.",
+      "note": "The feedback's diagnosis is right.",
+      "fix": ""
+    },
+    {
+      "id": "B3.read.6",
+      "verdict": "supported",
+      "evidence": "Computed: AUG GCU AGC AAA GGU UGG | UAG gives Met-Ala-Ser-Lys-Gly-Trp, 6. The UAG at letters 11-13 is out of step and does not end the chain.",
+      "note": "This is the single correct option.",
+      "fix": ""
+    },
+    {
+      "id": "B3.read.5",
+      "verdict": "supported",
+      "evidence": "[W8.1]-[W8.2] the start codon codes for methionine (fMet in bacteria).",
+      "note": "",
+      "fix": "",
+      "resolved": "Retired after the check: this option no longer exists (design review). Its replacement has no verdict yet; see \"pending\"."
+    },
+    {
+      "id": "B3.read.explain",
+      "verdict": "supported",
+      "evidence": "AUG Met, GCU Ala, AGC Ser, AAA Lys, GGU Gly, UGG Trp, then UAG stop (by my own codon table; the engine also gives chain MASKGW, length 6). [W4.58]: the start codon sets the frame. [W4.67]: a stop adds no amino acid.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.read.explain",
+        "verdict": "supported",
+        "evidence": "Computed (standard table): GCU Ala, AGC Ser, AAA Lys, GGU Gly, UGG Trp, UAG stop.",
+        "note": "",
+        "fix": "",
+        "resolved": "Text changed after the check: it now names the out-of-step UAG. Rechecked by the fixer, not the checker: UAG at letters 11-13 straddles GCU|AGC, as this checker’s own B3.read.6 evidence says."
+      }
+    },
+    {
+      "id": "B4.frame1",
+      "verdict": "supported",
+      "evidence": "[W12.1] May 1961, NIH, \"post-doctoral fellow, J. Heinrich Matthaei\"; [W12.26]-[W12.27] \"rupturing E. coli… but only when the correct kind of RNA was added\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame2",
+      "verdict": "supported",
+      "evidence": "[W12.29] \"mixtures with all 20 amino acids\"; [W12.30] \"19 amino acids were 'cold'… and one was 'hot'\"; [W12.32] poly-U.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame3",
+      "verdict": "supported",
+      "evidence": "[W12.33] \"At 3 am on May 27, 1961, Matthaei used phenylalanine as the 'hot' amino acid.\"; [W12.34] \"background level of 70 counts… 38,000 counts per milligram of protein\".",
+      "note": "The text is right. Media note, not a text error: this frame uses the \"pipette\" photo, which shows Nirenberg around 1962, while the line names Matthaei at 3 a.m. Viewers may take the man in the photo for Matthaei. A matching crop of the pair photo (MEDIA.pair) would avoid that.",
+      "fix": "",
+      "resolved": "Media note acted on: the frame now shows the pair photo (MEDIA.pair, Matthaei and Nirenberg, 1961), framed wide so both men are in view, instead of the photo of Nirenberg alone. The Commons description does not say which man is which, so the frame is not cropped to one of them. Text unchanged."
+    },
+    {
+      "id": "B4.frame4",
+      "verdict": "supported",
+      "evidence": "[W12.35] polyphenylalanine; [W4.22] \"the codon UUU specified the amino acid phenylalanine\"; [W12.40] all amino-acid codons decoded by 1966; [W4.26] Khorana \"identified the rest\"; media-candidates: File:06 chart lg.jpg is \"One of Nirenberg's laboratory notebooks\".",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. Leaving out Ochoa's lab [W4.23]-[W4.25] is not wrong.",
+      "fix": ""
+    },
+    {
+      "id": "B5.goal",
+      "verdict": "supported",
+      "evidence": "Computed: AUG GCC UUU GAA AAC CUA GCU AAA UGG UAA gives M A F E N L A K W, 9 amino acids, then stop.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.stop.ask",
+      "verdict": "supported",
+      "evidence": "Rendered at 375 px: the stage prints “Messenger RNA, 5′ to 3′, as it was” with its codons, then “Letter 10: G becomes U” (changeWords in SequenceLab.tsx), directly above “What happens to the chain?”. Letter 10 of AUGGCCUUUGAAAACCUAGCUAAAUGGUAA is G (codon 4, GAA). The engine’s effect is nonsense, chain MAF (3), which matches the key and B5.stop.explain.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B5.stop.ask",
+        "verdict": "supported",
+        "evidence": "Computed: letter 10 is G (the first letter of codon 4, GAA).",
+        "note": "",
+        "fix": "",
+        "resolved": "Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the prompt no longer repeats the change, which the sim prints just above it (“Letter 10: G becomes U”). It now reads “What happens to the chain?” Options, key and explanation are unchanged."
+      }
+    },
+    {
+      "id": "B5.stop.nonsense",
+      "verdict": "supported",
+      "evidence": "Computed: GAA→UAA (stop) at codon 4 gives Met-Ala-Phe, 3 amino acids. [W4.72] \"nonsense mutations result in a stop codon\".",
+      "note": "This is the single correct option.",
+      "fix": ""
+    },
+    {
+      "id": "B5.stop.missense",
+      "verdict": "supported",
+      "evidence": "[W4.66]-[W4.67]; computed GAA→UAA.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "B5.stop.silent",
+      "verdict": "supported",
+      "evidence": "Computed GAA→UAA.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.stop.frameshift",
+      "verdict": "supported",
+      "evidence": "[W4.73] only indels shift the frame.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.stop.explain",
+      "verdict": "supported",
+      "evidence": "Computed: GAA (Glu) → UAA (stop), so the chain is 3 instead of 9.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.gap.ask",
+      "verdict": "supported",
+      "evidence": "Rendered: the gap step shows the unchanged RNA (“as it was”, the same letters as the first step) and “Letter 8, U, is lost” above the prompt, so “Back to the original RNA, with this change instead” is accurate. Letter 8 is U (codon 3, UUU). Engine: frameshift, AUG GCC UUG AAA ACC UAG, chain MALKT (5), which matches the key and B5.gap.explain.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B5.gap.ask",
+        "verdict": "supported",
+        "evidence": "Computed: letter 8 is U (the middle letter of codon 3, UUU).",
+        "note": "",
+        "fix": "",
+        "resolved": "Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the prompt no longer repeats the change printed above it (“Letter 8, U, is lost”). It now reads “Back to the original RNA, with this change instead. What happens to the chain?” Options, key and explanation are unchanged."
+      }
+    },
+    {
+      "id": "B5.gap.in-frame",
+      "verdict": "supported",
+      "evidence": "[W4.73]; [W13.10].",
+      "note": "Strictly, 3 lost letters that straddle two codons can also change the neighbouring amino acid. \"One whole codon\" names the clean case and is fine.",
+      "fix": ""
+    },
+    {
+      "id": "B5.gap.silent",
+      "verdict": "supported",
+      "evidence": "[W4.73]-[W4.74].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "B5.gap.nonsense",
+      "verdict": "supported",
+      "evidence": "Computed: after the deletion the RNA reads AUG GCC UUG AAA ACC UAG. UUG is Leu at codon 3, and the stop UAG is at codon 6, three codons later.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.gap.frameshift",
+      "verdict": "supported",
+      "evidence": "[W4.73]-[W4.74]; computed above.",
+      "note": "This is the single correct option.",
+      "fix": ""
+    },
+    {
+      "id": "B5.gap.explain",
+      "verdict": "supported",
+      "evidence": "Computed: UUG (Leu), AAA (Lys), ACC (Thr), UAG stop. That is 5 amino acids, and the last three (L K T vs F E N) are wrong. [W13.14]-[W13.15] an insertion nearby restores the frame.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "B6.prompt",
+      "verdict": "supported",
+      "evidence": "n/a (instruction)",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.explain",
+      "verdict": "supported",
+      "evidence": "[W4.87] GAA and GAG are both glutamic acid; [W4.86] redundancy; [W4.139] \"synonymous changes generally happen at the third nucleotide\"; [W4.93].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.a",
+      "verdict": "supported",
+      "evidence": "Single letter A→G at the third position of GAA.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.b",
+      "verdict": "supported",
+      "evidence": "GAG ≠ GAA as a codon.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.c",
+      "verdict": "supported",
+      "evidence": "[W4.87] GAA and GAG both specify glutamic acid, so \"always a different amino acid\" is false.",
+      "note": "The broken step is marked correctly. Step d is false too, but it follows validly from c, so c is the single break.",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.d",
+      "verdict": "supported",
+      "evidence": "Follows from c; false only because c is.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.prompt",
+      "verdict": "supported",
+      "evidence": "[W4.73] frameshift; [W9.41] nonsense.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. \"Cut short right at that codon\" now separates the nonsense rows from the frameshift rows.",
+      "fix": ""
+    },
+    {
+      "id": "B7.explain",
+      "verdict": "supported",
+      "evidence": "Standard table: AAA/AAG Lys; UCA Ser→UUA Leu; GAA Glu→AAA Lys; UGA and UAG are stops; 1 and 4 are not multiples of 3 [W4.73].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.aag",
+      "verdict": "supported",
+      "evidence": "Standard table: AAA and AAG are both Lys.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.uga",
+      "verdict": "supported",
+      "evidence": "Standard table: UGG is Trp and UGA is a stop [W4.65].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.lose1",
+      "verdict": "supported",
+      "evidence": "[W4.73].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.uua",
+      "verdict": "supported",
+      "evidence": "Standard table: UCA is Ser and UUA is Leu [W4.89].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.add4",
+      "verdict": "supported",
+      "evidence": "[W4.73]: 4 is not a multiple of 3.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.uag",
+      "verdict": "supported",
+      "evidence": "Standard table: UAC is Tyr and UAG is a stop.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.pair.aaa",
+      "verdict": "supported",
+      "evidence": "Standard table: GAA is Glu and AAA is Lys.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.number",
+      "verdict": "supported",
+      "evidence": "Computed: 1,053/3 = 351 codons, minus the stop, gives 350. The other variants also check: 1,500 gives 499 and 912 gives 303. [W4.67] the stop adds no amino acid.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B9.idea",
+      "verdict": "supported",
+      "evidence": "[W2.2]; [W4.2]; [W4.58]; [W4.67]; [W4.72]-[W4.74]; [W4.87].",
+      "note": "\"Can\" keeps the list open, so stop-loss (case 3) is not excluded.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f1",
+      "verdict": "supported",
+      "evidence": "[W12.1].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f2",
+      "verdict": "supported",
+      "evidence": "[W12.26]-[W12.27] \"…but only when the correct kind of RNA was added\".",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f3",
+      "verdict": "supported",
+      "evidence": "[W12.29] all 20 amino acids; [W12.32] poly-U.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f4",
+      "verdict": "supported",
+      "evidence": "[W12.35] polyphenylalanine; [W4.22] UUU specified phenylalanine.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f5",
+      "verdict": "supported",
+      "evidence": "[W12.40] all amino-acid codons decoded by 1966; [W4.26] Khorana identified the rest.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. 1961 to 1966 is five years.",
+      "fix": ""
+    },
+    {
+      "id": "R1.prediction",
+      "verdict": "supported",
+      "evidence": "[W12.35].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The key is the single best answer. The distractors (nothing; all twenty) are clearly wrong.",
+      "fix": ""
+    },
+    {
+      "id": "R1.takeaway",
+      "verdict": "supported",
+      "evidence": "[W12.2] \"deciphered the first of the 64 triplet codons\"; [W12.35].",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f1",
+      "verdict": "supported",
+      "evidence": "[W4.2]; [W4.5]; [W9.2] most codons add an amino acid and stop codons signal termination.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "R2.f2",
+      "verdict": "supported",
+      "evidence": "[W7.3]; [W7.7] the tRNA \"docks to it along a three-nucleotide anticodon\".",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f3",
+      "verdict": "supported",
+      "evidence": "[W4.3] 64 entries; [W9.4] three termination codons; [W4.86] redundancy.",
+      "note": "61 sense codons for 20 amino acids. Only Met and Trp have one codon each, so \"most amino acids have several\" is right.",
+      "fix": ""
+    },
+    {
+      "id": "R2.f4",
+      "verdict": "supported",
+      "evidence": "[W4.63] \"The most common start codon is AUG\"; [W4.114] GUG/UUG in bacteria.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "R2.f5",
+      "verdict": "supported",
+      "evidence": "[W4.73]-[W4.74].",
+      "note": "Frame 4 sets the context, so this means the read stretch.",
+      "fix": ""
+    },
+    {
+      "id": "R2.prediction",
+      "verdict": "supported",
+      "evidence": "[W4.73]-[W4.74].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The key is the single best answer. \"It loses one amino acid\" would need three letters; \"Nothing changes\" is wrong in the coding stretch.",
+      "fix": ""
+    },
+    {
+      "id": "R2.takeaway",
+      "verdict": "supported",
+      "evidence": "[W4.53]; [W4.73]-[W4.74].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "C1.setup",
+      "verdict": "supported",
+      "evidence": "[W16.70]-[W16.72] \"The two common O alleles, O01 and O02… a guanosine base is subsequently deleted… A premature stop codon results\"; [W16.44]; RefSeq NM_020469.3 CDS 13..1077 [W24]. Recomputed: CDS letters 259-262 are G T G A, so letter 261 is G. This is HGVS c.261delG.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. Recomputed from the RefSeq letters: the deletion gives 117 amino acids, and calls within 1 win, so the answer is right. Guessing cannot win: the learner has to regroup the letters in the window [241,360], which holds the new stop at A letters 353-355. Note: W16.70's \"share their first 261 nucleotides\" is an off-by-one in the source (an O allele shares 260 letters, then lacks G261). The case's own wording is the correct one.",
+      "fix": "",
+      "resolved": "Text changed after the check: case 1 is now HBB c.27dup (new case c_mxk8a0bma9). The ABO c.261delG case is gone, because a design review showed a frame-blind scan for the next TAA/TAG/TGA wins it. Rechecked by the fixer, not the checker: dbSNP [W27.1] rs35699606 is NM_000518.5:c.27dup, p.Ser10fs, frameshift, pathogenic, with gnomAD alleles (found in people); [W18.2] β-globin is 147 amino acids; [W18.1] and [W18.3] the two chain kinds of HbA. The engine gives 22; the frame-blind scan gives 18-19, regrouping as a loss gives 18, the old frame 147; none is within 1.",
+      "supersededBy": "C.c_mxk8a0bma9 (independent, round 3)"
+    },
+    {
+      "id": "C1.model",
+      "verdict": "supported",
+      "evidence": "Checked: the ABO_A string equals NM_020469.3 13..1077 exactly (1,065 letters), and its translation equals the RefSeq /translation (354 aa) [W24.106]. del at 261, count 1.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The label \"ABO coding sequence, A version\" is accurate: RefSeq transcript variant A1.01 [W24.3].",
+      "fix": "",
+      "resolved": "Text changed after the check: the model is now the HBB string (as checked in C2.model, NM_000518.5 51..494) with ins at 28 = an extra G after letter 27 = c.27dup, window [1,120], measure length. Rechecked by the fixer, not the checker.",
+      "supersededBy": "C.c_mxk8a0bma9 (independent, round 3)"
+    },
+    {
+      "id": "C1.line",
+      "verdict": "imprecise",
+      "evidence": "Recomputed: CDS letters 259-261 are GTG (codon 87, Val). Losing G261 makes codon 87 GTA (still Val), and codon 88 changes from ACC (Thr) to CCC (Pro). The first changed amino acid is 88. 28 of the 30 residues from 88 to 117 differ, and the chain ends at 117 instead of 354. All of that matches.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The numbers are right. But \"From position 88 on, the letters are cut into different codons\" is off by one codon: the lost letter sits in codon 87, so the regrouping starts at codon 87. That codon happens to still read valine. A learner who works out that letter 261 is in codon 87 will see a contradiction. The wording comes from the engine's generic line template, so it will recur in any frameshift whose first regrouped codon is synonymous.",
+      "fix": "Change the engine line to \"From amino acid 88 on, the chain reads differently: 28 of the next 30 amino acids differ, and the chain ends after 117 amino acids instead of 354.\" Alternatively, count the codons from the one that contains the change.",
+      "resolved": "Text changed after the check: the computed line is now \"From amino acid 10 on, the chain reads differently: 12 of the next 13 amino acids differ, and the chain ends after 22 amino acids instead of 147.\" This matches this checker’s own C2.line evidence for c.27dupG (frameshift at Ser10, stop after 22 aa). Rechecked by the fixer, not the checker.",
+      "supersededBy": "C.c_mxk8a0bma9 (independent, round 3)"
+    },
+    {
+      "id": "C1.reveal",
+      "verdict": "supported",
+      "evidence": "Recomputed: 87 identical residues, 30 changed codons (88-117), a stop (TAA) at codon 118, giving 117 vs 354 [W24.106]. [W16.72] premature stop; [W16.46] \"only ii people have type O\"; [W16.1] neither antigen. Yamamoto et al. 1990 (general knowledge): the O allele's single-base deletion gives a truncated, inactive protein.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. Codon 87 is regrouped as well (GTG→GTA), but it still gives valine, so \"matches… for 87 amino acids\" holds.",
+      "fix": "",
+      "resolved": "Text changed after the check: the reveal is now about c.27dup. Rechecked by the fixer, not the checker: codons 10-22 are read in the new threes, then UGA (codon 23); an out-of-step TGA at letters 57-59 of the new letters straddles GGT|GAA. The last sentence reuses C2.reveal’s checked wording ([W18.17] β0).",
+      "supersededBy": "C.c_mxk8a0bma9 (independent, round 3)"
+    },
+    {
+      "id": "C1.claim",
+      "verdict": "supported",
+      "evidence": "[W4.73]-[W4.74] \"usually result in a completely different translation… and likely cause a stop codon to be read\".",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": "",
+      "resolved": "Text changed after the check: the claim is now about one added letter. Rechecked by the fixer, not the checker, against [W4.73]-[W4.74].",
+      "supersededBy": "C.c_mxk8a0bma9 (independent, round 3)"
+    },
+    {
+      "id": "C3.setup",
+      "verdict": "supported",
+      "evidence": "[W17.1] \"a mutation in the alpha globin gene produces an alpha globin chain that is abnormally long\"; NM_000517.6 CDS 38..466 gives 142 codons + TAA, so 141 after Met is trimmed [W26.118]. Recomputed: letter 427 is the T of TAA, and c.427T>C gives 172 trimmed residues. Clegg, Weatherall & Milner 1971 (general knowledge): the Hb Constant Spring α chain has 172 residues, 31 extra.",
+      "note": "You cannot guess within 1 on a 120-200 slider. The answer needs the next in-step stop in the 3′ UTR, which sits inside the window [397,539].",
+      "fix": "",
+      "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “α-globin” is written “alpha-globin”: in the sans face α read as a Latin a. Same gene, same numbers.",
+      "supersededBy": "C.c_n0n8mkp3k9 (independent, round 3)"
+    },
+    {
+      "id": "C3.model",
+      "verdict": "supported",
+      "evidence": "Checked: the HBA2 string equals NM_000517.6 from 38 to the record's end at 576 (539 letters). Its CDS translation equals the RefSeq /translation (142 aa) [W26.118].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The label \"from the start codon to the end of its messenger RNA\" is accurate for this record.",
+      "fix": "",
+      "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): the string label said “to the end of its messenger RNA” over DNA letters; it now reads “alpha-globin gene, from the start codon to where its RNA copy ends”. The letters are unchanged.",
+      "supersededBy": "C.c_n0n8mkp3k9 (independent, round 3)"
+    },
+    {
+      "id": "C3.line",
+      "verdict": "supported",
+      "evidence": "Recomputed: the extension QAGASVAVPPARWASQRALLPSLHRPFLVFE is 31 aa, ending at TAA, mRNA 557-559 (inside the AATAAA signal) [W26.267]. Trimmed length is 172.",
+      "note": "",
+      "fix": "",
+      "supersededBy": "C.c_n0n8mkp3k9 (independent, round 3)"
+    },
+    {
+      "id": "C3.reveal",
+      "verdict": "supported",
+      "evidence": "[W17.1] abnormally long; [W17.3]-[W17.4] \"the messenger RNA is unstable… the Constant Spring alpha chain protein is itself unstable\"; [W17.5] \"thalassemic phenotype\"; [W17.6] \"Constant Spring district in Jamaica\"; [W9.45] nonstop translation runs into \"what should be an untranslated region\". Recomputed: CAA is Gln; the next stop in step is 31 codons on; +31 aa.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The source says \"renamed after\", the reveal says \"named after\"; same meaning. \"Little of it is made\" fits the mRNA instability in W17.3.",
+      "fix": "",
+      "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “α-thalassaemia” is written “alpha-thalassaemia”. Nothing else changed.",
+      "supersededBy": "C.c_n0n8mkp3k9 (independent, round 3)"
+    },
+    {
+      "id": "C3.claim",
+      "verdict": "supported",
+      "evidence": "[W9.45]; [W4.67].",
+      "note": "",
+      "fix": "",
+      "supersededBy": "C.c_n0n8mkp3k9 (independent, round 3)"
+    },
+    {
+      "id": "I.i_vjykhmdk6x",
+      "verdict": "supported",
+      "evidence": "[W12.32]-[W12.35]; [W4.22] \"the codon UUU specified the amino acid phenylalanine\".",
+      "note": "The key is the single best answer. Poly-U holds only UUU in every frame. All 20 amino acids were present [W12.29], so the \"only amino acid in the soup\" distractor is false.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_9jvjhwgxmz",
+      "verdict": "supported",
+      "evidence": "3′-TCAAGCA-5′ pairs to 5′-AGUUCGU-3′ (by hand and by the engine’s transcribe). The distractors: UCAAGCA is the template with U for T (copy), UGCUUGA is the key reversed, ACGAACU is the copy reversed. The explanation’s pairs (T–A, A–U, C–G, G–C) are right; [W2.13]–[W2.14] give the directions; [W2.18] the coding strand AGTTCGT with U for T is AGUUCGU. The claim rests on [W2.11]–[W2.14].",
+      "note": "All options are 7 letters. The key is third of four and does not start with AUG.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "I.i_9jvjhwgxmz",
+        "verdict": "supported",
+        "evidence": "[W2.13]-[W2.14]; [W2.18]. Computed: 3′-TACGGAT-5′ pairs with 5′-AUGCCUA-3′.",
+        "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The direction is now given. The key is the single correct option; the distractors are the template with U, the coding strand as DNA, and the template itself.",
+        "fix": "",
+        "resolved": "Text changed after the check (design review: the key was the only option starting with AUG, and the DNA option was the key with T for U). The template is now 3′-TCAAGCA-5′, giving 5′-AGUUCGU-3′. The DNA option and the exact copy are replaced by the RNA written backwards and the copy written backwards. Rechecked by the fixer, not the checker, against [W2.13]-[W2.14]."
+      }
+    },
+    {
+      "id": "I.i_58bxcex1da",
+      "verdict": "imprecise",
+      "evidence": "[W4.63] \"The most common start codon is AUG\"; [W4.64] and [W4.114] GUG/UUG are also start codons; [W8.1]-[W8.2].",
+      "note": "The order is right. But \"A ribosome finds the start codon, AUG\" and the explanation's \"A ribosome then starts at AUG\" present AUG as the only start codon. The last fix pass hedged the same claim elsewhere (R2.f4 \"usually AUG\", B3.goal \"usually the first AUG\"), and this item was left behind. Low severity.",
+      "fix": "Make the step \"A ribosome finds the start codon, usually AUG\" and the explanation \"A ribosome then starts at the start codon, usually AUG, and adds…\".",
+      "resolved": "Hedged as suggested: the step reads “A ribosome finds the start codon, usually AUG”, and the explanation “A ribosome then starts at the start codon, usually AUG, and adds…” [W4.63]."
+    },
+    {
+      "id": "I.i_1rzv7y3qg7",
+      "verdict": "supported",
+      "evidence": "[W4.66]-[W4.67]; [W9.2]. Computed: AUG GGC UUU CCA gives 4 amino acids, and UAA is a stop.",
+      "note": "The broken step is marked correctly. Step d follows from c.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_1wheb6dz18",
+      "verdict": "supported",
+      "evidence": "[W12.14]-[W12.16].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The key is the single best answer, and the explanation now says \"at least three\".",
+      "fix": ""
+    },
+    {
+      "id": "I.i_vdve1ny19c",
+      "verdict": "supported",
+      "evidence": "Computed for all 3 variants: GG|AUG UUU GGC AAA UGG|UAG gives 5. C|AUG CCA GAA GGU|UAA gives 4. UC|AUG AAA GCG UGG UUU CCC|UGA gives 6; there the out-of-step UGA at letters 4-6 overlaps the start, and the item's \"straddles\" sentence handles it. [W4.58]; [W4.67].",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_adjj00q1z2",
+      "verdict": "supported",
+      "evidence": "[W10.5] \"three reading frames… each beginning from a different nucleotide in a triplet\"; [W10.14] \"only one is translated\"; [W4.56].",
+      "note": "The key is the single best answer, and all three distractors are false. The explanation's \"each cut gives a different chain\" slightly overstates the source's \"possibly distinct\" [W4.56], but it is true for any real run of letters.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_dbssxgdvcr",
+      "verdict": "supported",
+      "evidence": "[W4.52] Syn57 removes 7 of 64 codons; [W4.49]-[W4.50] Syn61, the E. coli predecessor, recoded its genome by synonymous replacement; [W4.86] redundancy.",
+      "note": "Syn57 is E. coli (general knowledge). The key is the single best answer.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_j5d67sq2gp",
+      "verdict": "supported",
+      "evidence": "[W13.7] proflavin adds or removes single base pairs; [W13.9] \"often be nonfunctional\"; [W13.10] \"if three base pairs were added… the gene would remain functional\"; [W13.14]-[W13.15] \"shifted back into the correct reading frame\".",
+      "note": "The key is the single best answer. Historical aside: Crick's group did not know whether a given mutant was an insertion or a deletion; they used arbitrary + and - signs. The modern framing is fine.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_8qhgezztrm",
+      "verdict": "supported",
+      "evidence": "[W4.65] \"UAG is amber\"; [W4.67] no cognate tRNA, so a release factor binds. Standard table: UGG→UAG is one G→A change at the second letter.",
+      "note": "The key is the single best answer. Amber-suppressor strains [W9.25]-[W9.27] are an exception that does not apply to an ordinary bacterial gene.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_5v8z59x331",
+      "verdict": "supported",
+      "evidence": "[W4.3] \"highly similar among all organisms\"; [W20.22]-[W20.25] cDNA expressed in E. coli, which \"folded and was fluorescent… without… exogenous cofactors\".",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The key is the single best answer, and the prompt now says coding sequence, not gene.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_snhdvdbgvt",
+      "verdict": "supported",
+      "evidence": "[W19.26] 34,350 amino acids (canonical isoform). Computed: 3 × 34,351 = 103,053.",
+      "note": "The rule n codons + 1 stop is right, because the 34,350 count includes the initiator Met.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_jkd6c3rfe7",
+      "verdict": "supported",
+      "evidence": "[W20.15] 238 amino acids. Computed: 717/3 = 239, minus the stop, gives 238.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_nqjaexzr9p",
+      "verdict": "supported",
+      "evidence": "[W21.67] preproinsulin is 110 amino acids. Computed: 3 × 111 = 333.",
+      "note": "The 110 includes Met1, so the rule is right.",
+      "fix": ""
+    },
+    {
+      "id": "C.c_7bvz6ey7v1",
+      "verdict": "unsupported",
+      "evidence": "In the NM_000518.5 CDS, letters 7–9 are CAT, 19–21 GAG and 46–48 TGG [W25]. I recomputed each change: c.9T>C turns CAT into CAC, His to His, so the chain is identical (147); c.19G>A turns GAG into AAG (Glu7Lys); c.20A>T turns GAG into GTG (Glu7Val); c.48G>A turns TGG into TGA, a stop after 15 aa; c.27dup is a frameshift, 22 aa. The effects the picture lists after the run are missense, silent, frameshift, nonsense and missense, all correct. dbSNP [W27.1]: rs713040 c.9T>C is benign. Its CAT allele (+ strand A) is 0.286 in 1000 Genomes, 0.185 in gnomAD and 0.180 in TOPMed, so CAC is the majority; East Asian cohorts are near even (KOREAN CAC 0.47, TOMMO 0.494, Vietnamese 0.54). rs33930165 c.19G>A is p.Glu7Lys, rs334 c.20A>T is p.Glu7Val, rs35699606 is c.27dup, and rs34716011 c.48G>A is p.Trp16Ter, pathogenic, with 1 allele each in gnomAD genomes and TOPMed, so all five are found in people. [W18.28]: HbS is GAG → GTG. [W18.34]: HbC is Glu → Lys at the same position. The HBB summary [W25] says absence of the beta chain gives β0-thalassaemia; see also [W18.17]. The claim rests on [W4.88]–[W4.89], [W4.139] and [W4.73]. The computed line, “Letter 9: T becomes C leaves the chain exactly as it was.”, is right. caseProblems is empty, guessP is 0.20, and the winner is the same under 6 other seeds.",
+      "note": "Two problems. (1) The case falls to a listed reflex. The winner, “Letter 9: T becomes C”, is the shortest label (21 characters; the other single-letter labels are 22, the extra G is 26) and the only one-digit letter. So “pick the shortest label” and “pick the change nearest the start” both win without reading a codon. judgeCase: the shortest label WINS and the smallest letter number WINS; the first (c19), last (c20), middle (c27) and longest label (c27) all lose. The drafting side’s own note admits it (“still the one label with a one-digit letter number (the shortest label)”), and round 2 fixed the same defect in Reading genomes (c_rm4hwtrek5). (2) The scenario repeats case 1’s untraced clause, “the protein that carries oxygen in red blood cells”, which none of the cited sources contains. The letters, effects, frequencies and reveal are otherwise right. “Most of the world” holds on the dbSNP cohorts, with East Asian cohorts near half.",
+      "fix": "(1) Give the winner company at its length and position. Either swap one decoy for a real chain-altering change at a one-digit letter (start-codon changes such as c.1A>G or c.2T>C are reported β0 changes; confirm one in dbSNP and re-pin before use), or relabel the frameshift option shorter than the winner, for example “Letter 27 doubled” (17 characters, true of c.27dup), so the winner is no longer the shortest. Then recheck the order for first, last and middle. (2) As for case 1: pin a source for the oxygen clause, or cut it.",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "caseHash": "b73a379b8157",
+      "previous": {
+        "id": "C.c_7bvz6ey7v1",
+        "verdict": "supported",
+        "independent": false,
+        "caseHash": "b73a379b8157",
+        "by": "round-2 fix agent (drafting side), learner review round 2, 2026-10-26; awaiting an independent check",
+        "checkedAt": "2026-10-26T21:00:00Z",
+        "evidence": "Same five changes, string, window, reveal and claim as c_vvx7hwydtk, whose independent verdicts (now under “retired”) checked the letters against NM_000518.5, the dbSNP records and the reveal. Only the order changed: c19, c9, c27, c48, c20, so the winner c9 is 2nd of 5, not the middle. Recomputed with the engine: c9 (CAT → CAC, histidine both) is the one change that leaves the chain as it was; c19 missense (GAG → AAG, lysine), c20 missense (GAG → GTG, valine), c48 nonsense (TGG → TGA), c27 frameshift. The computed line now names only the winner: “Letter 9: T becomes C leaves the chain exactly as it was.” The picture still lists every change with what it did.",
+        "note": "Drafting-side check only; an independent checker must still read it. The winner is still the one label with a one-digit letter number (the shortest label); evening that out would describe the extra G differently from case 1.",
+        "fix": ""
+      },
+      "resolved": "Round 4 (drafting side): replaced by C.c_4t4m1yeb17 (was: c_vvx7hwydtk, c_7bvz6ey7v1). (1) A sixth change found in people joins the five: “Letter 9: T becomes A” (c.9T>A, CAT → CAA, p.His3Gln; listed under rs713040 [W27.1], and ClinVar VCV000015296, pinned as [W28]: “reported in the heterozygous state in individuals with … no hematological abnormalities” [W28.108]). It shares the winner’s letter and its 21-character length, and the extra G is now “Letter 27 doubled” (c.27dup, 17 characters), the shortest label. Options: c19, c9, c27, c48, c9a, c20; the winner stays 2nd of 6. judgeCase: first, last, both middles (c27, c48), shortest (c27), longest (c19, c48, c20) and largest letter (48) all lose; “smallest letter number” is now a tie between the two letter-9 changes, one of which wins. (2) The oxygen clause is cut, as in case 1. The reveal keeps to the codons (CAT/CAC histidine, CAA glutamine, TGG to TGA, GAG to lysine or valine) and drops the β-thalassaemia sentence, since the line now names every effect and the lit cell must stay in view on a phone. The engine line now quotes labels and says what each other change did.",
+      "supersededBy": "C.c_4t4m1yeb17"
+    },
+    {
+      "id": "B3.copy.GGAGACUUGCCA",
+      "verdict": "supported",
+      "evidence": "GGAGACTTGCCA with U for T is GGAGACUUGCCA: the strand copied letter for letter, as the feedback says. It is wrong, as it should be [W1.17], [W2.14].",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.copy.GGAGACUUGCCA",
+        "verdict": "supported",
+        "independent": false,
+        "by": "round-2 fix agent: drafted none of these five units, but edited this place in the same round, so not independent; recomputed letter by letter; awaiting an independent check",
+        "checkedAt": "2026-10-26T21:00:00Z",
+        "evidence": "Template 3′-GGAGACTTGCCA-5′. This option copies the strand letter for letter with U for T, which the feedback names: “That copies the strand letter for letter.” Wrong, as it should be: the RNA pairs with the strand [W2.13] [W2.14].",
+        "note": "",
+        "fix": ""
+      }
+    },
+    {
+      "id": "B3.copy.UGGCAAGUCUCC",
+      "verdict": "supported",
+      "evidence": "The partners of GGAGACTTGCCA are CCUCUGAACGGU (by hand and by the engine’s transcribe). Reversed, they read UGGCAAGUCUCC, which is this option, so “the partners are right, but back to front” is exact. The RNA’s 5′ end belongs under the template’s 3′ end, the left end as written [W2.13], [W2.14].",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.copy.UGGCAAGUCUCC",
+        "verdict": "supported",
+        "independent": false,
+        "by": "round-2 fix agent: drafted none of these five units, but edited this place in the same round, so not independent; recomputed letter by letter; awaiting an independent check",
+        "checkedAt": "2026-10-26T21:00:00Z",
+        "evidence": "The partners of GGAGACTTGCCA are CCUCUGAACGGU; written back to front they are UGGCAAGUCUCC, which the feedback names (“The partners are right, but back to front”). Wrong, as it should be: the RNA’s 5′ end starts under the template’s 3′ end [W2.13] [W2.14].",
+        "note": "",
+        "fix": ""
+      }
+    },
+    {
+      "id": "B3.copy.CCUCUGAACGGU",
+      "verdict": "supported",
+      "evidence": "3′-GGAGACTTGCCA-5′ pairs letter by letter (G–C, A–U, C–G, T–A) to 5′-CCUCUGAACGGU-3′. labOutcome(copy) and transcribe(…, “template”) both return CCUCUGAACGGU, and labProblems is empty [W2.11], [W2.14].",
+      "note": "Lazy check: all four options are 12 letters in groups of three, none starts with AUG, and the key is third of four. Only pairing plus direction separates it from the reversed partners.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.copy.CCUCUGAACGGU",
+        "verdict": "supported",
+        "independent": false,
+        "by": "round-2 fix agent: drafted none of these five units, but edited this place in the same round, so not independent; recomputed letter by letter; awaiting an independent check",
+        "checkedAt": "2026-10-26T21:00:00Z",
+        "evidence": "The key. Each letter pairs with the template letter opposite (G–C, A–U, C–G, T–A), read from the RNA’s 5′ end, which sits under the template’s 3′ end: CCU CUG AAC GGU [W2.13] [W2.14]. It matches the coding strand with U for T, as the explanation says.",
+        "note": "",
+        "fix": ""
+      }
+    },
+    {
+      "id": "B3.copy.ACCGUUCAGAGG",
+      "verdict": "supported",
+      "evidence": "GGAGACTTGCCA reversed, with U for T, is ACCGUUCAGAGG, so “copies the strand, back to front” is exact. It is wrong, as it should be.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.copy.ACCGUUCAGAGG",
+        "verdict": "supported",
+        "independent": false,
+        "by": "round-2 fix agent: drafted none of these five units, but edited this place in the same round, so not independent; recomputed letter by letter; awaiting an independent check",
+        "checkedAt": "2026-10-26T21:00:00Z",
+        "evidence": "GGAGACUUGCCA written back to front: the strand copied in reverse, which the feedback names (“That copies the strand, back to front”). Wrong, as it should be.",
+        "note": "",
+        "fix": ""
+      }
+    },
+    {
+      "id": "B3.read.1",
+      "verdict": "supported",
+      "evidence": "In the RNA GCAUCAUGGCUAGCAAAGGUUGGUAGCC, the first AUG is letters 6–8. Read in threes from there: AUG GCU AGC AAA GGU UGG UAG (engine: chain MASKGW, stop UAG at letters 24–26). The UAG at letters 11–13 straddles GCU|AGC, two letters after the AUG, so “turns up just after AUG, but across two codons, GCU and AGC” is exact. “One” is what a frame-blind scan for the first stop gives (AUG, then UAG), and it loses.",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "previous": {
+        "id": "B3.read.1",
+        "verdict": "supported",
+        "independent": false,
+        "by": "round-2 fix agent: drafted none of these five units, but edited this place in the same round, so not independent; recomputed letter by letter; awaiting an independent check",
+        "checkedAt": "2026-10-26T21:00:00Z",
+        "evidence": "RNA GCAUCAUGGCUAGCAAAGGUUGGUAGCC: the first AUG is letters 6–8; reading in threes gives AUG GCU AGC AAA GGU UGG UAG, six amino acids then a stop. UAG at letters 11–13 straddles GCU|AGC, as the feedback says, so it is never read as a codon. “One” is wrong, as it should be.",
+        "note": "",
+        "fix": ""
+      }
+    },
+    {
+      "id": "C.c_mxk8a0bma9",
+      "verdict": "supported",
+      "caseHash": "26f8d1497671",
+      "evidence": "Current text (hash 26f8d1497671), read in the bundle, on the regenerated sheet (unchanged) and as rendered at 375 px (:5256, mission and payoff). The oxygen clause is gone. “One of the two kinds of chain in adult haemoglobin” rests on the RefSeq HBB summary (“the 2 types of polypeptide chains in adult hemoglobin, Hb A … two alpha chains and two beta chains”) [W25] and Wikipedia HBB (“along with alpha globin (HBA), makes up the most common form of haemoglobin in adult humans”) [W18.1]. 147 amino acids: [W18.2] and the RefSeq /translation; the HBB string equals NM_000518.5 ORIGIN 51..494 letter for letter, and my own standard codon table gives exactly the RefSeq /translation (147, TAA at 442). dbSNP rs35699606: NM_000518.5:c.27dup, NP_000509.1:p.Ser10fs, gnomAD genomes C=16 and exomes C=186 alleles, so found in people [W27.1]. Letter 27 is G (AAG, letters 25–27), so “an extra G after letter 27” is c.27dup. Recomputed: codons 10–22 GTC TGC CGT TAC TGC CCT GTG GGG CAA GGT GAA CGT GGA, then TGA at 67–69: 22 amino acids, 12 of the 13 new ones differ (Gly 17 by chance). TGA also at 11–13, 18–20 and 57–59, each across two codons (“Earlier letters spell TGA too, but across two codons”). [W25] “Absence of beta chain causes beta-zero-thalassemia”. The computed line equals the rendered line. judgeCase: 22 wins (band 21–23); slider start 147, ends 1 and 160, middle 80.5, quarters 40.75 and 120.25, 147/4, 147/2, 3×147/4, the old frame (147), stop at the change (9, 10), frame-blind or lost-letter regrouping (18, 19), first TGA in view (3), the window over 3 (40), 146 and 148 all lose. caseProblems empty, guessP 0.013.",
+      "note": "The round-3 finding is closed: no untraced clause remains. Model, call, line, reveal and claim are unchanged from the text the round-3 checker passed; only the scenario lost its clause and the entity “blood”.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "id": "C.c_mxk8a0bma9",
+          "verdict": "unsupported",
+          "evidence": "The HBB string equals NM_000518.5 CDS 51..494 exactly and translates to the RefSeq /translation, 147 aa [W25]; [W18.2] says 147 amino acids. dbSNP rs35699606 is NM_000518.5:c.27dup, p.Ser10fs, pathogenic, with 16 alleles in gnomAD genomes and 186 in gnomAD exomes, so it is found in people [W27.1]. Letter 27 is G (AAG, codon 9). I recomputed it with my own codon table: with a G inserted after letter 27, codons 10–22 read GTC TGC CGT TAC TGC CCT GTG GGG CAA GGT GAA CGT GGA, then TGA at letters 67–69 (codon 23), giving 22 aa, and 12 of those 13 differ (aa 17 is Gly in both). The new letters hold out-of-step TGAs at 11–13 (CTG|ACT), 18–20 (CCT|GAG) and 57–59 (GGT|GAA), so “Earlier letters spell TGA too, but across two codons” is exact. The reveal’s last sentence: the RefSeq HBB summary says “Absence of beta chain causes beta-zero-thalassemia” [W25], [W18.17]. The claim rests on [W4.73]–[W4.74]. “One of the two kinds of chain in adult haemoglobin” rests on the HBB summary (“the 2 types of polypeptide chains in adult hemoglobin”) [W25], [W18.1], [W18.3]. The line and reveal were checked as rendered (playthrough at 375 px, :5252). judgeCase: 22 wins (band 21–23). caseProblems is empty, guessP is 0.013, and the truth is the same under 6 other seeds.",
+          "note": "One clause has no cached source: “the protein that carries oxygen in red blood cells”. None of the cited texts (Wikipedia: Hemoglobin subunit beta, the dbSNP summary, RefSeq NM_000518.5) says haemoglobin carries oxygen, and the word “oxygen” appears in none of them. The fact is true general knowledge; only its trace is missing, the same class as genetics-dna R2.f4. Everything else checks. Every reflex loses: slider start 147, ends 1 and 160, middle 80.5, slider quarters 40.75 and 120.25, a quarter, half or three quarters of 147 (36.75, 73.5, 110.25), the old frame (147), a frame-blind scan from the extra G (TGA at 57: 18 or 19), regrouping as a lost letter (18), a stop at the change (9 or 10), the first TGA in view (3), the lab’s “a stop three codons later” (12), and the window over 3 (40).",
+          "fix": "Either pin a source that says it and cite it on both β-globin cases (Wikipedia: Hemoglobin is CC BY-SA and should do; confirm the wording when pinning), or cut the clause: “The β-globin gene makes one of the two kinds of chain in adult haemoglobin.”",
+          "independent": true,
+          "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+          "checkedAt": "2026-10-27T01:37:06Z",
+          "caseHash": "1d4d18e889a5",
+          "resolved": "Round 4 (drafting side): the untraced clause is cut. The scenario now reads “The β-globin gene makes one of the two kinds of chain in adult haemoglobin. Read from its start codon, it gives a chain of 147 amino acids. …”, which rests on the HBB summary [W25] (“the 2 types of polypeptide chains in adult hemoglobin”); the entity “blood” went with it (cases.transfer). Model, call, line, reveal and claim are unchanged. The case hash is now 26f8d1497671, so this verdict (on 1d4d18e889a5) needs an independent re-read of the new text."
+        }
+      ]
+    },
+    {
+      "id": "C.c_n0n8mkp3k9",
+      "verdict": "imprecise",
+      "evidence": "The HBA2 string equals NM_000517.6 from the CDS start (38) to the record’s end (576), 539 letters, and its CDS translates to the RefSeq /translation, 142 aa including Met [W26]. Letters 427–429 are TAA. I recomputed c.427T>C: codon 143 becomes CAA (Gln) and reading runs on, adding QAGASVAVPPARWASQRALLPSLHRPFLVFE (31 aa), to the next in-step stop, TAA at letters 520–522 (codon 174, 31 codons on). That is 173 with Met and 172 trimmed, so the computed line “172 amino acids instead of 141” is right. Sources: [W17.1] abnormally long α chain; [W17.2] and [W17.5] alpha-thalassaemia; [W17.3]–[W17.4] unstable mRNA and an unstable chain (“little of it is made”, “unstable”); [W17.6] named after the Constant Spring district of Jamaica; [W9.45] nonstop translation runs into what should be untranslated; [W2.10] the 3′ UTR is untranslated; the HBA2 summary names alpha-2 and alpha-1 genes with identical coding sequences (“one of the two alpha-globin genes”) [W26]. Three facts rest on Clegg, Weatherall & Milner 1971, which has no cached text: the 141 after trimming, the T to C at the stop’s first letter and the 31 extra residues. I judged them from general knowledge (the Hb CS α chain has 172 residues, with Gln at 142), and they agree with the RefSeq recomputation. caseProblems is empty, guessP is 0.025, and the answer is stable under 6 seeds.",
+      "note": "The strand label is wrong about what the letters are. “alpha-globin gene, from the start codon to where its RNA copy ends” sits over the spliced message, not the gene. NM_000517.6 has three exons (1..132, 133..337, 338..576), so the gene’s own letters from the start codon run through two introns, and letter 427 of the gene is not its stop. The letters and their numbering are right for the coding sequence (HGVS c.427). The β-globin cases call theirs “β-globin coding sequence”, and the bundle’s own HBB comment warns that “counting along the gene itself would land in introns”. Advisory, not the reason for this verdict: a learner who scans the tail for the lost stop’s own spelling, TAA, ignoring the frame, lands in step at letters 520–522 and wins (172). A scan for any stop meets the out-of-step TAG at 443 first and loses (146). Slider start 141, ends 120 and 200, middle 160, quarters 140 and 180, and reading to the RNA’s end (178) all lose. The drafting side records the TAA-only route in the bundle comment. It is real data and cannot be moved.",
+      "fix": "Relabel the string as what it is, for example “alpha-globin coding sequence and the tail of its RNA copy” (DNA letters with the introns already out). Optionally, record the TAA-only route beside the held reflexes so it is on the record for Zack.",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "caseHash": "1bcd3a3b2e76",
+      "resolved": "Round 4 (drafting side): relabelled as suggested, so replaced by C.c_3wxpawnkxs (was: c_n0n8mkp3k9): the strand is “alpha-globin coding sequence and the tail of its RNA copy”. Letters, change, window, line (“The stop codon is gone, so reading runs on: 172 amino acids instead of 141.”), reveal and claim are unchanged. The TAA-only route is now on the record beside the held reflexes (src/cases/lazy.test.ts) and in the bundle comment.",
+      "supersededBy": "C.c_3wxpawnkxs"
+    },
+    {
+      "id": "X.hub-claim",
+      "verdict": "supported",
+      "evidence": "src/core/places.ts:24, plan.json, brief.md and the bank claim all read the same: “A gene is copied into RNA, and the RNA is read three letters at a time into the chain of amino acids that makes a protein.” Sources: [W2.5] and [W5.19] RNA polymerase copies DNA into RNA; [W1.19] encoding in groups of three (codons); [W4.58] start to [W4.67] stop. A grep of src and this place’s content folder finds no copy of the old “translated” wording left.",
+      "note": "This is not a sheet unit. It is recorded so the hub wording carries an independent verdict. “The chain … that makes a protein” simplifies proteins of several chains (haemoglobin has four, as the cases themselves say). It is true as a teaching line.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+      "checkedAt": "2026-10-27T01:37:06Z",
+      "where": "hub claim: src/core/places.ts, plan.json, brief.md, bank.claim"
+    },
+    {
+      "id": "C.c_4t4m1yeb17",
+      "verdict": "imprecise",
+      "caseHash": "6bcbb1b59943",
+      "evidence": "Every fact holds. NM_000518.5 CDS letters 7–9 CAT (His), 19–21 GAG (Glu), 25–27 AAG, 46–48 TGG (Trp) [W25]. Recomputed each change with my own codon table: c19 GAG→AAG Glu7Lys (147); c9 CAT→CAC His, chain identical (147); c27 (“Letter 27 doubled”: letter 27 is G, so this is c.27dup) frameshift, 22; c48 TGG→TGA, stop, 15; c9a CAT→CAA His3Gln (147); c20 GAG→GTG Glu7Val (147). Only c9 leaves the chain as it was, as the engine computes. Found in people: dbSNP rs713040 lists NM_000518.5:c.9T>C and c.9T>A (p.His3Gln) [W27.1]; ClinVar VCV000015296 names “NM_000518.5(HBB):c.9T>A (p.His3Gln)”, Hb Okayama, “reported in the heterozygous state in individuals with with no hematological abnormalities”, seen on one gnomAD allele [W28]; rs33930165 c.19G>A (gnomAD genomes T=568), rs334 c.20A>T (1000G A=0.027), rs35699606 c.27dup (16 + 186 gnomAD alleles), rs34716011 c.48G>A p.Trp16Ter (1 allele each in gnomAD genomes and TOPMed) [W27.1]. Reveal: CAT and CAC histidine, CAA glutamine, TGG tryptophan, TGA stop, GAG glutamic acid, AAG lysine, GTG valine all match the standard code; [W18] “HbS is produced by a point mutation in HBB in which the codon GAG is replaced by GTG” and “HbC … glutamic acid is replaced by lysine (β6Glu→Lys)”. “CAC is in fact the more common version in most of the world”: on the + strand A is CAT (c.9T); A=0.286 (1000G), 0.185 (gnomAD), 0.180 (TOPMed), 0.157 (ALFA), so CAC is the majority there; KOREAN G=0.470, TOMMO G=0.494 and Vietnamese A=0.461 are near even, so “most of the world” is the right hedge. The computed line (“… each swap one amino acid; “Letter 27 doubled” makes everything after it read wrong; “Letter 48: G becomes A” stops the chain early”) is right and is what renders at 375 px (:5256, mission screen), with the per-change list after the run. caseProblems empty, guessP 1/6, the winner is the same under the case seed and 30 others. judgeCase: first (c19), last (c20), both middles (c27, c48), shortest label (c27, 17 characters), the three longest (22 characters), the largest letter (48), the third-letter transversion c9a and the look-alike c9a all lose.",
+      "note": "Design only, not fact: the round-3 reflex “pick the change nearest the start” is halved, not closed. The two letter-9 options tie, and the winner is the first of them in the list (2nd of 6, top right on the phone’s two-column grid), the decoy the later one (5th). So anyone who scans for the smallest letter number and takes the first match, or who takes the first of the two near-identical options, wins every time without reading CAC against the codon table (judgeCase: “smallest letter number, first listed” WINS; “smallest, last listed” loses). A test-wise “one of the near-identical pair” guess still wins 1 time in 2 whatever the order; that part cannot be removed without a third pinned letter-9 change.",
+      "fix": "Swap the two letter-9 options so the decoy comes first: c19, c9a, c27, c48, c9, c20. Played through judgeCase on a copy: the winner is 5th of 6 (neither first, last nor middle); first, last, both middles, shortest, longest, largest letter number and “smallest letter number, first listed” (now c9a) all lose; caseProblems stays empty. Under this pipeline’s convention a reorder takes a new case ID (was: c_vvx7hwydtk, c_7bvz6ey7v1, c_4t4m1yeb17).",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "id": "C.c_4t4m1yeb17",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "6bcbb1b59943",
+          "by": "round-4 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T02:32:54Z",
+          "evidence": "Engine and NM_000518.5 CDS [W25]: letters 7–9 CAT (His), 19–21 GAG (Glu), 25–27 AAG, 46–48 TGG (Trp). c19 missense (Glu7Lys, 147 aa), c9 silent (CAC, His; 147, chain identical), c27 frameshift (22 aa), c48 nonsense (15 aa), c9a missense (CAA, Gln at 3: MVQL…, 147), c20 missense (Glu7Val). Only c9 wins. dbSNP [W27.1]: rs713040 lists NM_000518.5:c.9T>C, c.9T>G and c.9T>A, “p.His3Gln”; rs33930165 c.19G>A p.Glu7Lys; rs334 c.20A>T p.Glu7Val; rs35699606 c.27dup; rs34716011 c.48G>A p.Trp16Ter. ClinVar VCV000015296 [W28.16] “NM_000518.5(HBB):c.9T>A (p.His3Gln)”, [W28.108] the Hb Okayama variant “is reported in the heterozygous state in individuals with with no hematological abnormalities”, so all six are found in people. Computed line: ““Letter 9: T becomes C” leaves the chain exactly as it was. “Letter 19: G becomes A”, “Letter 9: T becomes A” and “Letter 20: A becomes T” each swap one amino acid; “Letter 27 doubled” makes everything after it read wrong; “Letter 48: G becomes A” stops the chain early.” caseProblems empty, guessP 1/6. Reflexes through judgeCase: first (c19), last (c20), middles (c27, c48), shortest (c27), longest (c19, c48, c20), largest letter (c48) lose; smallest letter is a tie, c9 wins and c9a loses. Reveal (shortened so the lit cell stays in view on a phone, since the line now names every effect): “CAT and CAC both spell histidine, so a C at letter 9 changes nothing; CAC is in fact the more common version in most of the world. An A there gives CAA, glutamine. Letter 48 is a third letter too, but it turns TGG, tryptophan, into TGA, a stop. Letters 19 and 20 share one codon, GAG, glutamic acid: G to A gives lysine (haemoglobin C), A to T valine (haemoglobin S, the sickle-cell change).” [W18.28] HbS GAG → GTG; [W18.34] HbC Glu → Lys; frequencies as in the round-3 verdict on c_7bvz6ey7v1. The β-thalassaemia sentence is gone, and the entity with it.",
+          "note": "Drafting-side check only; an independent checker must read it. Open for judgement: “pick a letter-9 change” wins 1 time in 2 (the two letter-9 options are the winner and its new decoy, and only the new codon tells them apart). No one-digit decoy other than rs713040’s alleles is in a pinned source.",
+          "fix": ""
+        }
+      ],
+      "resolved": "Round 5 (drafting side): replaced by C.c_b03vbe8y08 (was: c_vvx7hwydtk, c_7bvz6ey7v1, c_4t4m1yeb17), the checker’s fix as written. The two letter-9 options are swapped in both the picture and the call, so the order is c19, c9a, c27, c48, c9, c20 and the winner is 5th of 6. Nothing else changed: the scenario, ask, labels, letters, window, reveal, claim and sources are word for word as checked, and the engine’s computed line is unchanged (c9a still sits between c19 and c20). judgeCase on the new case: first (c19), last (c20), both middles (c27, c48), shortest (c27), the three longest (c19, c48, c20), largest letter (c48), “smallest letter number, first listed” (now c9a) and “first of the near-identical pair” (c9a) all lose; caseProblems empty; guessP 1/6; the winner is the same under 30 other seeds. The mirror tie-break, “smallest letter number, last listed”, now wins: with two options at the smallest letter, one fixed tie-break or the other always lands on the winner, the 1-in-2 the checker named.",
+      "supersededBy": "C.c_b03vbe8y08"
+    },
+    {
+      "id": "C.c_b03vbe8y08",
+      "verdict": "supported",
+      "caseHash": "1c0d991d32f4",
+      "evidence": "Sequence: the case’s HBB string equals NM_000518.5 CDS 51..494 from the cached ORIGIN, letter for letter (444 letters), and my own standard codon table translates it to the RefSeq /translation exactly (147 aa, then TAA) [W25]. Letters 7–9 CAT (His3), 19–21 GAG (Glu7), 25–27 AAG (Lys9), 28–30 TCT (Ser10), 46–48 TGG (Trp16). Each change recomputed by hand: c19 GAG→AAG, Glu7Lys, 147 aa; c9a CAT→CAA, His3Gln, 147 aa; c27 inserts G before letter 28 and letter 27 is G, so it is c.27dup, frameshift from residue 10, chain ends after 22 aa (12 of the 13 new residues differ, every codon after it read out of frame); c48 TGG→TGA, stop, 15 aa; c9 CAT→CAC, His, chain identical with the same stop; c20 GAG→GTG, Glu7Val, 147 aa. Only c9 leaves the chain as it was, which is what the engine computes (truth win [c9]). The engine line, “Letter 9: T becomes C” leaves the chain exactly as it was. “Letter 19: G becomes A”, “Letter 9: T becomes A” and “Letter 20: A becomes T” each swap one amino acid; “Letter 27 doubled” makes everything after it read wrong; “Letter 48: G becomes A” stops the chain early., matches each effect. Found in people: dbSNP [W27.1] rs713040 (c.9T>C; + strand A is CAT: 1000G 0.286, gnomAD 0.185, TOPMed 0.180), rs33930165 c.19G>A p.Glu7Lys (gnomAD genomes 568 alleles), rs334 c.20A>T p.Glu7Val (1000G 0.027), rs35699606 c.27dup p.Ser10fs (16 gnomAD genome and 186 exome alleles), rs34716011 c.48G>A p.Trp16Ter (1 allele each in gnomAD genomes and TOPMed); ClinVar VCV000015296 [W28.16] c.9T>A p.His3Gln with germline observations, [W28.108] “reported in the heterozygous state in individuals”. All six hold. Reveal: CAT/CAC histidine, CAA glutamine, TGG tryptophan, TGA stop, GAG glutamic acid, AAG lysine, GTG valine all match the standard code; [W18.28] HbS is GAG replaced by GTG; [W18.34] HbC is Glu→Lys at the same position. “CAC is in fact the more common version in most of the world”: CAC is the majority in 1000G (0.71), gnomAD, TOPMed, ALFA, Estonian, FINRISK, GoNL, Qatari, Vietnamese (0.54) and others, and narrowly the minority only in the Korean (0.47) and Japanese TOMMO (0.494) cohorts, so “most”, not “all”, is right. Letter 48 is a third letter (48 = 3 × 16), as is letter 9. Scenario: [W18.1] β-globin with alpha globin makes HbA, the most common adult haemoglobin, of two alpha and two beta chains. Claim: [W4.139] “synonymous changes generally happen at the third nucleotide”, [W4.72] nonsense mutations result in a stop codon, [W4.73] frameshifts. Engine (scratch rolldown bundle of src/cases/engines.ts and the places): caseProblems empty; validatePlace returns no problems for the place; guessP 1/6; caseHash recomputed 1c0d991d32f4; the winner is the same under the case seed and 200 other seeds; the call’s options equal the model’s changes in IDs, labels and order. judgeCase, lazy strategies: first (c19), last (c20), both middles (c27, c48), shortest label (c27, 17 characters) and longest (c19, c48, c20, 22 characters, either tie-break), largest letter (c48), smallest letter first listed (c9a), the look-alikes (c9a, same letter and length; c48, the other third-letter transition), the alphabetically first label and the phone grid’s top-right cell all lose. No option is preselected, and the picture before the run shows only the unchanged reading and the codon table. Rendered at 375 px (dev server :5256, field mission with case 1 seeded as played): options in screen order c19 | c9a, c27 | c48, c9 | c20 (winner bottom left); picking c9 recorded success true, picking c9a recorded false; the engine line and reveal on the page match the bundle word for word; no page errors.",
+      "note": "Every fact holds and the round-4 fix is applied exactly as written (only the two letter-9 options swapped, in the picture and the call; hash and text otherwise as checked in round 4). Design only, as the round-4 checker and the fixer both said: three tie-breaks with no reasoning behind them land on the winner, “smallest letter number, last listed”, “last of the near-identical pair” and “alphabetically last label”, and a test-wise guess between the two letter-9 options wins 1 time in 2 in any order. None is on the listed reflexes: the natural scan for the change nearest the start, top to bottom, meets c9a first (top right on the phone) and loses. Telling CAC from CAA is the reasoning the case asks for. Closing the 1-in-2 fully needs a third pinned letter-9 change found in people, which no cached source shows (rs713040 lists c.9T>G but with no frequency or observation); that is a design call, not a fact problem.",
+      "fix": "",
+      "resolved": "Round 6 (drafting side): argued down, no change to the case; the verdict, caseHash 1c0d991d32f4 and every word stay as checked. Played through judgeCase on the shipped order (c19, c9a, c27, c48, c9, c20) and on the round-4 order (c9 before c9a): in either order exactly one of “smallest letter number, first listed” and “smallest letter number, last listed” lands on c9, because two options share letter 9 and any fixed order puts one of them first. No reorder closes it. Round 4 chose the order in which the natural scan, top to bottom for the change nearest the start, meets c9a first and loses, and that order stays. “Alphabetically last label” wins in both orders, since a string sort puts “Letter 9” after “Letter 48” and C after A; that is a sort, not something a learner does, and it is not a listed reflex. First, last, both middles, shortest, largest letter and alphabetically first all lose in the shipped order; caseProblems is empty and a blind guess wins 1 in 6 (the policy allows 1 in 5). The 1-in-2 between the two letter-9 options is the look-alike the case is built on: only reading CAC against CAA on the codon table tells them apart, which is the reasoning asked for. The one full close is a third letter-9 change found in people, and the pinned sources do not support one: the cached dbSNP record for rs713040 lists NM_000518.5:c.9T>G only as an HGVS name, with no frequency or observation, and it would spell CAG, glutamine, the same effect as c9a. Adding it, or a pinned chain-altering change below letter 9, is a design call left to Zack, on record in src/cases/lazy.test.ts under “Known routes this test cannot see”.",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 5: a fresh subagent that drafted and fixed nothing in this place; network not used",
+      "checkedAt": "2026-10-27T03:47:17Z",
+      "history": [
+        {
+          "id": "C.c_b03vbe8y08",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "1c0d991d32f4",
+          "by": "round-5 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T03:21:16Z",
+          "evidence": "Same six changes, string, window, scenario, ask, reveal, claim and sources as C.c_4t4m1yeb17, whose independent round-4 verdict found every fact supported ([W25] NM_000518.5 CDS letters 7–9 CAT, 19–21 GAG, 46–48 TGG; [W27.1] rs713040 c.9T>C and c.9T>A, rs33930165, rs334, rs35699606, rs34716011; [W28] ClinVar VCV000015296 Hb Okayama; [W18] HbS and HbC). Only the order of the two letter-9 options changed, in the picture and the call: c19, c9a, c27, c48, c9, c20. Engine: c9 (CAT → CAC, histidine) is the one change that leaves the chain as it was; computed line unchanged: “Letter 9: T becomes C” leaves the chain exactly as it was. “Letter 19: G becomes A”, “Letter 9: T becomes A” and “Letter 20: A becomes T” each swap one amino acid; “Letter 27 doubled” makes everything after it read wrong; “Letter 48: G becomes A” stops the chain early. caseProblems empty, guessP 1/6, same winner under 30 extra seeds. judgeCase: first (c19), last (c20), middles (c27, c48), shortest (c27), longest (c19, c48, c20), largest letter (c48), smallest letter first listed (c9a), first of the near-identical pair (c9a) all lose.",
+          "note": "Drafting-side check only; an independent checker must read it. Still open for judgement, as the round-4 checker said: “smallest letter number, last listed” now wins (the mirror of the reflex this fixes), and a guess between the two letter-9 options wins 1 time in 2 whatever the order. Closing that fully needs a third pinned letter-9 change found in people, or a pinned chain-altering change at a letter below 9; rs713040 also lists c.9T>G, but no pinned source shows it observed.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "id": "C.c_3wxpawnkxs",
+      "verdict": "supported",
+      "caseHash": "72c961e4e239",
+      "evidence": "The HBA2 string equals NM_000517.6 from the CDS start (38) to the record end (576), 539 letters [W26]; its CDS (38..466) translates with my own table to the RefSeq /translation, 142 with Met, 141 trimmed; letters 427–429 are TAA. The new strand label is accurate: the record’s exons are 1..132, 133..337 and 338..576, so these letters are the spliced message with the introns out: the coding sequence (1–429 here) and the 3′ untranslated tail (430–539, 110 letters) [W2.10]. The label no longer says where the RNA copy ends, and the record holds no poly(A). Recomputed c.427T>C: TAA→CAA (Gln), reading runs on through QAGASVAVPPARWASQRALLPSLHRPFLVFE (31) to TAA at 520–522, in step, 31 codons on: 173 with Met, 172 trimmed, exactly the line. HBA2 summary: “The alpha-2 (HBA2) and alpha-1 (HBA1) coding sequences are identical” (“one of the two alpha-globin genes”) [W26]. [W17.1] abnormally long chain; [W17.3]–[W17.4] unstable mRNA and an unstable chain (“little of it is made”, “unstable”); [W17.2], [W17.5] alpha-thalassaemia; [W17.6] the Constant Spring district of Jamaica; [W9.45] nonstop translation runs into what should be untranslated. The T→C at the stop’s first letter and the 172 residues rest on Clegg, Weatherall & Milner 1971 (no cached text); judged from general knowledge (Hb CS is HBA2 c.427T>C, Gln at α142, 172 residues), agreeing with the RefSeq recomputation. Rendered at 375 px (:5256): scenario, strand label, line and reveal as in the bundle. judgeCase: 172 wins (171–173); slider start 141, ends 120 and 200, middle 160, quarters 140 and 180, 142, the first stop in any frame (TAG at 443, out of step: 146), reading to the record end (178), 176 and 176.25 lose. caseProblems empty, guessP 0.025.",
+      "note": "Advisory, as in round 3, not a reason for this verdict: a frame-blind scan for TAA alone lands on the in-step TAA at 520 and wins (172); a scan for any stop meets TAG at 443 (146) or TGA at 516 first and loses. It is the real gene’s letters and is now on the record in src/cases/lazy.test.ts.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "id": "C.c_3wxpawnkxs",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "72c961e4e239",
+          "by": "round-4 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T02:32:54Z",
+          "evidence": "Same letters (NM_000517.6 from the CDS start to the record end [W26]), change (c.427T>C), window, computed line, reveal and claim as C.c_n0n8mkp3k9, whose independent round-3 verdict checked them all (172 after trimming; TAA at 520–522; sources [W17], [W9.45], [W2.10]). Only the strand label changed, to “alpha-globin coding sequence and the tail of its RNA copy”, as the round-3 fix proposed. caseProblems empty, guessP 0.025; slider start 141, ends 120 and 200, middle 160 lose.",
+          "note": "Drafting-side check only; an independent checker must read it. The TAA-only scan still wins (172); it is real data and is recorded in src/cases/lazy.test.ts for Zack.",
+          "fix": ""
+        }
+      ],
+      "resolved": "Round 7 (drafting side, ship verification): the strand label “alpha-globin coding sequence and the tail of its RNA copy” sat over letters written with T, just after the pack taught that RNA has U where DNA has T, so a beginner could wonder why the RNA has Ts. Replaced by C.c_5hvvxdp841 (was: c_n0n8mkp3k9, c_3wxpawnkxs): the strand is “alpha-globin’s coding letters, then the tail copied into its RNA”. Letters, change, window, call, scenario, reveal, claim and sources are unchanged; this verdict is kept as written.",
+      "supersededBy": "C.c_5hvvxdp841"
+    },
+    {
+      "id": "C.c_5hvvxdp841",
+      "verdict": "supported",
+      "caseHash": "a9a854c8155f",
+      "evidence": "Letters: the case’s HBA2 string (539 letters) equals the cached NM_000517.6 ORIGIN from the CDS start (38) to the record’s end (576), letter for letter [W26]. My own standard codon table translates it to the RefSeq /translation exactly: 142 with Met, 141 trimmed, then TAA at letters 427–429; letter 427 is T. With T→C at 427 the codon is CAA (Gln, α142) and reading runs on through QAGASVAVPPARWASQRALLPSLHRPFLVFE to TAA at letters 520–522, in step, (520 − 427) / 3 = 31 codons on: 173 with Met, 172 trimmed, 31 more than 141. So the computed line “The stop codon is gone, so reading runs on: 172 amino acids instead of 141.” and the reveal’s “31 codons on” and “31 amino acids too long” are right. Strand label, “alpha-globin’s coding letters, then the tail copied into its RNA”: the record’s CDS is 38..466 (coding letters 1–429 here) and its exons 1..132, 133..337, 338..576 are the spliced message, so letters 430–539 are the 3′ untranslated region, letters copied from the gene into the RNA and not translated [W5.94], [W2.10]; the window shown (397–539) is all coding letters and 3′ UTR, ending before the record’s polyA signal (555–560) and major polyA site (573). The label does not call the strand the gene (introns are out), which was the round-3 finding. Scenario: [W26] “The alpha-2 (HBA2) and alpha-1 (HBA1) coding sequences are identical” (“one of the two alpha-globin genes”); with the β chain it makes adult haemoglobin, “the other kind of chain” ([W26.84] “Two alpha chains plus two beta chains constitute HbA”). Reveal: TAA stop and CAA glutamine are the standard code; [W9.45] nonstop mutations cause translation into what should be untranslated; [W17.1] an abnormally long alpha chain; [W17.3]–[W17.4] the mRNA is unstable and the chain itself unstable (“little of it is made”, “unstable”); [W17.2] the most common nondeletional alpha-thalassaemia mutation (“can have a form of alpha-thalassaemia”); [W17.6] renamed after the Constant Spring district in Jamaica. The T→C at the stop’s first letter and the 172-residue chain rest on Clegg, Weatherall & Milner 1971 [W23], which has no cached text; judged from general knowledge (Hb Constant Spring is HBA2 c.427T>C, Gln at α142, 172 residues), and it agrees with the RefSeq recomputation. HBA1 and HBA2 differ over their 3′ UTRs [W26], so the run-on tail is HBA2’s, the gene the case’s letters come from. Claim: a stop codon signals the end of translation [W9.1]–[W9.2], so a lost stop runs on to the next stop in step, as computed. Engine: caseHash a9a854c8155f, caseProblems empty, guessP 0.025; judgeCase: 171, 172 and 173 win; the slider start (141), ends (120, 200), middle (160), 142, 143, 146, 170 and 174 lose. Rendered at 375 px and 1440 px: the label shows as “Alpha-globin’s coding letters, then the tail copied into its RNA”, and the line and reveal match the bundle word for word. The case claim is not rendered (used for the transfer check).",
+      "note": "Every fact holds; the relabel is accurate and nothing else changed from C.c_3wxpawnkxs. Design points, not facts, already with Zack: the ±1 tolerance lets 171 (counts the trimmed methionine the other way) and 173 win, and the frame-blind TAA-only scan recorded in src/cases/lazy.test.ts lands on 172.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 7 check: a fresh agent that drafted and fixed nothing in either genetics place; network not used",
+      "checkedAt": "2026-10-27T11:39:10Z",
+      "history": [
+        {
+          "id": "C.c_5hvvxdp841",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "a9a854c8155f",
+          "by": "round-7 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T06:00:00Z",
+          "evidence": "Same letters (NM_000517.6, 539 letters), change (letter 427 T→C), window, call, scenario, ask, reveal, claim and sources as C.c_3wxpawnkxs, whose independent round-4 verdict (caseHash 72c961e4e239) checked them. Only the strand label changed, from “alpha-globin coding sequence and the tail of its RNA copy” to “alpha-globin’s coding letters, then the tail copied into its RNA” (shown as “Alpha-globin’s …”). The letters are the coding sequence and the 3′ untranslated tail as the RefSeq record writes them, in DNA letters; the new label calls the tail the letters copied into the RNA, which is what they are, and matches the reveal’s “letters copied from the gene but normally never read”. It still does not call the strand the gene (the round-3 finding: introns are out). Engine: 172, unchanged; caseProblems empty; the slider start 141, middle 160, min 120 and max 200 lose.",
+          "note": "Drafting-side check only; an independent checker must read it. The TAA-only scan route recorded in src/cases/lazy.test.ts is unchanged by this relabel.",
+          "fix": ""
+        }
+      ]
+    }
+  ],
+  "pending": {
+    "note": "None open. Round 7’s C.c_5hvvxdp841 now has an independent verdict (round7Check).",
+    "new": [],
+    "changed": []
+  },
+  "round1": "2026-10-26, round-1 learner review, drafting side. Changed units: B3.goal, B3.copy.ask, B3.copy.explain, C3.setup, C3.model, C3.reveal (added to pending.changed), and the feedback of B3.copy.UGGCAAGUCUCC, which is still in pending.new with no verdict. Changed text that is not a unit: the bank claim on the hub and the mission screen (“translated” is now “read”, and “read into RNA” is now “copied into RNA”, the lesson’s own words). The five units in pending.new still have no verdict.",
+  "retired": [
+    {
+      "id": "C2.setup",
+      "verdict": "imprecise",
+      "evidence": "dbSNP [W27.1]: rs713040 c.9T>C (His3=), rs33930165 c.19G>A (Glu7Lys), rs11549407 c.118C>T (Gln40Ter), rs35699606 c.27dup (Ser10fs), rs334 c.20A>T (Glu7Val). Recomputed on NM_000518.5 CDS: only c.9T>C leaves all 147 residues unchanged.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The facts and the computed winner are right. The design weakness is that the winner can be found without reading a single codon. \"Letter 9\" is the only option whose number is a multiple of 3, so it is the only third-letter change. A learner who applies \"third-letter changes are often silent\" picks it from the labels alone. The case then tests position arithmetic, not reading the codon against the code.",
+      "fix": "Replace one decoy with a real third-letter change in HBB that does alter the chain, so that position alone no longer wins. One candidate is c.48G>A (codon 16, TGG→TGA, Trp→stop, a reported β0-thalassaemia change); confirm it in dbSNP before using it. Alternatively, ask what the change does to the chain, not which one is silent.",
+      "resolved": "Decoy swapped: “Letter 118: C becomes T” (rs11549407, Gln40Ter) is out, and “Letter 48: G becomes A” (rs34716011, NM_000518.5:c.48G>A, NP_000509.1:p.Trp16Ter, clinical significance pathogenic, seen once each in gnomAD genomes and TOPMed [W27.1]) is in. dbSNP was re-pinned with rs34716011 in place of rs11549407. Letters 46-48 of the HBB coding sequence are TGG [W25]; TGG to TGA turns tryptophan [W4.44] into the opal stop [W4.65], so the chain stops after 15 amino acids. Letters 9 and 48 are now both third letters, so position alone no longer picks the answer: only reading CAT→CAC (histidine both ways) against TGG→TGA does. The computed winner is still letter 9 alone. The window shrinks from [1,120] to [1,60] now that no change sits past letter 48.",
+      "retired": "2026-10-26 round 2: these verdicts are on c_vvx7hwydtk, renamed c_7bvz6ey7v1 when its options were reordered (same five changes, letters and reveal). C.c_7bvz6ey7v1 carries the drafting side’s check of the new order and line."
+    },
+    {
+      "id": "C2.model",
+      "verdict": "supported",
+      "evidence": "Checked: the HBB string equals NM_000518.5 51..494 exactly (444 letters), and its translation equals the RefSeq /translation (147 aa) [W25.100]. ins at 28 = an extra G after letter 27 = c.27dup (rs35699606, SPDI C>CC on the + strand).",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. The changes are correctly placed: letters 9 (T), 19 (G), 20 (A) and 118 (C) all check.",
+      "fix": "",
+      "resolved": "Text changed after the check with the C2.setup fix (c118 → c48, window [1,120] → [1,60]). Rechecked by the fixer, not the checker: letter 48 of the HBB string is G, and c.48G>A matches rs34716011 [W27.1].",
+      "retired": "2026-10-26 round 2: these verdicts are on c_vvx7hwydtk, renamed c_7bvz6ey7v1 when its options were reordered (same five changes, letters and reveal). C.c_7bvz6ey7v1 carries the drafting side’s check of the new order and line."
+    },
+    {
+      "id": "C2.line",
+      "verdict": "supported",
+      "evidence": "Recomputed: c.9T>C gives 0 changed residues; c.19G>A gives Glu7Lys; c.20A>T gives Glu7Val; c.118C>T gives a stop at codon 40 (39 aa); c.27dupG gives a frameshift at Ser10 and a stop after 22 aa.",
+      "note": "",
+      "fix": "",
+      "resolved": "Text changed after the check with the C2.setup fix. Rechecked by the fixer, not the checker, with a standard codon table: letter 48 G→A gives TGA at codon 16, so the chain stops early; the other four effects are unchanged.",
+      "retired": "2026-10-26 round 2: these verdicts are on c_vvx7hwydtk, renamed c_7bvz6ey7v1 when its options were reordered (same five changes, letters and reveal). C.c_7bvz6ey7v1 carries the drafting side’s check of the new order and line."
+    },
+    {
+      "id": "C2.reveal",
+      "verdict": "supported",
+      "evidence": "Codons: c.7-9 CAT→CAC (His), c.19-21 GAG, c.118-120 CAG→TAG. [W18.28] HbS is GAG→GTG; [W18.34] HbC is Glu→Lys at the same position; [W18.17] β0 means no functional β-globin; dbSNP [W27.1] global MAFs for rs713040: the CAT allele (+ strand A) is 0.29 in 1000 Genomes and 0.18 in gnomAD, so CAC is the majority. In the Korean cohorts CAC is 0.47.",
+      "note": "factcheck-input.md shows the wording before b68684e. This checks the current text in src/places/generated/genetics-gene-to-protein.ts. \"Most of the world\" is supported. East Asia (Korean cohorts, about 47% CAC) is the exception, and \"most\" allows it.",
+      "fix": "",
+      "resolved": "Text changed after the check with the C2.setup fix: the letter-118 sentence is replaced by “Letter 48 is a third letter too, but it turns TGG, tryptophan, into TGA, a stop codon” [W25], [W4.44], [W4.65], and the closing sentence now names the early stop and the shifted frame. Rechecked by the fixer, not the checker.",
+      "retired": "2026-10-26 round 2: these verdicts are on c_vvx7hwydtk, renamed c_7bvz6ey7v1 when its options were reordered (same five changes, letters and reveal). C.c_7bvz6ey7v1 carries the drafting side’s check of the new order and line."
+    },
+    {
+      "id": "C2.claim",
+      "verdict": "imprecise",
+      "evidence": "[W4.139] synonymous changes \"generally\" at the third position; [W4.88] \"may differ in any of their three positions\"; [W4.89] leucine is \"YUR or CUN… (difference in the first or third position)\"; serine is \"UCN or AGY\".",
+      "note": "The second half reads as a rule that every non-third-letter single change alters the chain. First-letter changes can be silent: UUA↔CUA and UUG↔CUG are both Leu, and AGA↔CGA and AGG↔CGG are both Arg. A second-letter change can turn one stop into another (UAA↔UGA). The first half hedges with \"often\"; the second half needs the same hedge.",
+      "fix": "\"…while other single-letter changes can swap an amino acid, stop the chain or shift the frame.\"",
+      "resolved": "Now “A change in a codon’s third letter often leaves the amino acid the same, but only the new codon tells: a single-letter change can also swap an amino acid, stop the chain or shift the frame.” Both halves are hedged (“often”, “can”) [W4.88]-[W4.89], [W4.139], and the claim now fits the case's third-letter stop at letter 48.",
+      "retired": "2026-10-26 round 2: these verdicts are on c_vvx7hwydtk, renamed c_7bvz6ey7v1 when its options were reordered (same five changes, letters and reveal). C.c_7bvz6ey7v1 carries the drafting side’s check of the new order and line."
+    }
+  ],
+  "round2": "2026-10-26, round-2 learner review, drafting side. Renamed: c_vvx7hwydtk → c_7bvz6ey7v1 (options reordered; was: c_vvx7hwydtk), \"independent\": false. Changed units: B3.goal, B3.copy.ask (the 5′/3′ definition moved before the strand label), B5.stop.ask and B5.gap.ask (the change printed above is no longer repeated). The five units that had no verdict now carry the fix agent’s recomputation, \"independent\": false. Changed text that is not a unit: the engine’s line for “which change leaves the chain as it was” names only the winner; the hub claim in src/core/places.ts now matches the bank claim. None of this has been seen by the independent checker.",
+  "round3": {
+    "checker": "independent adversarial fact-checker (Claude), round 3: drafted and fixed nothing in this place; no network",
+    "checkedAt": "2026-10-27T01:37:06Z",
+    "scope": "Every unit that had no independent verdict after round 1 (3f84b8a) and round 2 (f8a9cb9): the five B3 units in pending.new; the renamed case c_7bvz6ey7v1; the changed units B3.goal, B3.copy.ask, B3.copy.explain, B3.read.explain, B5.stop.ask, B5.gap.ask and I.i_9jvjhwgxmz; all three cases as now rendered (c_mxk8a0bma9 and c_n0n8mkp3k9 replace the position-keyed C1.* and C3.* verdicts); and the hub claim (X.hub-claim). The sheet was regenerated first and was unchanged.",
+    "method": "Text read from src/places/generated/genetics-gene-to-protein.ts at 0da135a and from the regenerated sheet. HBB and HBA2 strings compared letter by letter with the cached RefSeq ORIGIN, CDS and /translation. Every RNA, codon, chain and count recomputed with an independent standard codon table, then compared with the engine (rolldown bundle in scratch: runCase, judgeCase, caseProblems, labOutcome, labProblems). Lazy strategies played through judgeCase: slider start, ends, middle and quarters; quarters and halves of the stated count; old frame; frame-blind scans; first, last and middle option; shortest and longest label; smallest and largest letter number. Rendering checked with tests/expedition-playthrough.mjs (phone, :5252, clean): the copy step, both change steps and case 1’s line and reveal. CaseView prints outcome.line and c.reveal verbatim, with options in declared order.",
+    "result": "12 sheet units supported, plus the hub claim. Open: C.c_mxk8a0bma9 is unsupported (the oxygen clause has no cached source). C.c_7bvz6ey7v1 is unsupported (the winner is the shortest label and the smallest letter number, and it has the same oxygen clause). C.c_n0n8mkp3k9 is imprecise (the strand label calls the spliced message “gene”; advisory: a TAA-only scan wins). pending.new and pending.changed are now covered by these verdicts."
+  },
+  "round4": {
+    "by": "round-4 fix agent (drafting side; fixed, did not check independently), 2026-10-27",
+    "summary": "Acted on all three open round-3 units. C.c_mxk8a0bma9: oxygen clause cut. C.c_7bvz6ey7v1 → C.c_4t4m1yeb17: a sixth change at the winner’s letter (c.9T>A, ClinVar VCV000015296, newly pinned as [W28] from NCBI E-utilities, cached text in sources/), the extra G relabelled “Letter 27 doubled”, oxygen clause cut. C.c_n0n8mkp3k9 → C.c_3wxpawnkxs: strand relabelled. Shared code changed text these units show: the sequence engine’s “same” line now quotes the labels and names what each other change did, and the codon table lost its “·T·” header row. Verdicts, evidence, notes and fixes above are the round-3 checker’s; only “resolved” and “supersededBy” were added, plus two drafting-side entries marked independent: false. factcheck-input.md was regenerated from the round-4 text for the next independent checker."
+  },
+  "round4Check": {
+    "checker": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place; network not used",
+    "checkedAt": "2026-10-27T03:16:42Z",
+    "scope": "Every unit round 4 (f396be9) changed or created in this place: C.c_mxk8a0bma9 (scenario cut), C.c_4t4m1yeb17 (replaces C.c_7bvz6ey7v1), C.c_3wxpawnkxs (replaces C.c_n0n8mkp3k9). factcheck-input.md was regenerated first and was unchanged.",
+    "method": "Text read from src/places/generated/genetics-gene-to-protein.ts at f396be9, from the regenerated sheet and as rendered at 375 px (dev server :5256: expedition-playthrough phone and desktop, clean; every case opened as a field mission with earlier cases seeded as played, the engine’s winning call made, outcome line and reveal read off the page). HBB and HBA2 strings compared letter by letter with the cached RefSeq ORIGIN and CDS; every codon, chain and count recomputed with an independent standard codon table and compared with the engine (rolldown bundle of src/cases/engines.ts and the places, in scratch). The new source [W28] (ClinVar VCV000015296) and the dbSNP record read in full. Lazy strategies played through judgeCase, with caseProblems and guessP: slider start, ends, middle and quarters; quarters and halves of the stated count; the old frame; frame-blind and any-stop scans; first, last and both middle options; shortest and longest label; smallest and largest letter number (with either tie-break); third-letter and transition rules; 30 extra seeds.",
+    "result": "C.c_mxk8a0bma9 supported; C.c_3wxpawnkxs supported (TAA-only route advisory, on record); C.c_4t4m1yeb17 imprecise on design only (every fact holds): swap the two letter-9 options so the decoy is listed first."
+  },
+  "round5": {
+    "by": "round-5 fix agent (drafting side; fixed, did not check independently), 2026-10-27T03:21:16Z",
+    "summary": "Acted on the one open round-4 unit. C.c_4t4m1yeb17 → C.c_b03vbe8y08: the two letter-9 options swapped (c19, c9a, c27, c48, c9, c20), the winner 5th of 6, as the checker’s fix said; no wording, letters or sources changed. Verdicts, evidence, notes and fixes above are the round-4 checker’s; only “resolved” and “supersededBy” were added on C.c_4t4m1yeb17, plus one drafting-side entry marked independent: false. factcheck-input.md was regenerated from the round-5 text for the next independent checker."
+  },
+  "round5Check": {
+    "checker": "independent adversarial fact-checker (Claude), round 5: a fresh subagent that drafted and fixed nothing in this place; network not used",
+    "checkedAt": "2026-10-27T03:47:17Z",
+    "scope": "Every unit round 5 (6b5d679) changed or created in this place: C.c_b03vbe8y08 (new, replaces C.c_4t4m1yeb17) and the resolution on C.c_4t4m1yeb17. factcheck-input.md was regenerated first for both genetics places and was unchanged.",
+    "method": "Text read from src/places/generated/genetics-gene-to-protein.ts at 6b5d679, from the regenerated sheet and as rendered at 375 px (dev server :5256, field mission with case 1 seeded as played; the winner and the first letter-9 decoy played in separate sessions). HBB string compared with the cached RefSeq ORIGIN and CDS; every codon and chain recomputed with an independent standard codon table; dbSNP, ClinVar and the HBB Wikipedia extract read for each claim. Lazy strategies played through judgeCase, with caseProblems, guessP, validatePlace and 200 extra seeds.",
+    "result": "C.c_b03vbe8y08 supported (design note on the 1-in-2 letter-9 pair, on record). C.c_4t4m1yeb17: the resolution matches its fix as written: in the case’s diff from f396be9, only the case ID, the was list, a comment and the order of the two letter-9 options changed."
+  },
+  "round6": {
+    "by": "round-6 fix agent (drafting side; changed no case), 2026-10-27",
+    "summary": "Acted on the one note the round-5 independent check left: the design note on C.c_b03vbe8y08 (verdict supported, not blocking). Argued down with judgeCase plays on both possible orders of the two letter-9 options and the cached dbSNP record; no case, wording or source changed, so no unit needs a new independent verdict. Only “resolved” was added on C.c_b03vbe8y08; the verdict, evidence, note and fix are the round-5 checker’s. The known route is on the record for Zack in src/cases/lazy.test.ts."
+  },
+  "round7": {
+    "by": "round-7 fix agent (drafting side; fixed, did not check independently), 2026-10-27",
+    "summary": "Acted on the ship verifier’s wording nit on the Constant Spring case: C.c_3wxpawnkxs → C.c_5hvvxdp841, the strand relabelled “alpha-globin’s coding letters, then the tail copied into its RNA” (no letter, change, call, scenario, reveal, claim or source changed). The new entry is a drafting-side check (independent: false), so merge keeps it open until an independent checker reads it. C.c_b03vbe8y08 is unchanged: its winner is still the label an A–Z sort puts last, the known route already on record for Zack (round 6). factcheck-input.md was regenerated from the round-7 text."
+  },
+  "round7Check": {
+    "checker": "independent adversarial fact-checker (Claude), round 7 check: a fresh agent that drafted and fixed nothing in either genetics place; network not used",
+    "checkedAt": "2026-10-27T11:39:10Z",
+    "scope": "Every unit round 7 (68bdab3) changed or created in this place: C.c_5hvvxdp841 (replaces C.c_3wxpawnkxs; strand relabelled). C.c_b03vbe8y08 is unchanged since its round-5 independent verdict (same hash).",
+    "method": "Text read from the bundle at 68bdab3, from factcheck-input.md (each caseHash recomputed from the bundle and equal to the sheet), and as rendered on the dev server at :5259 in WebKit at 375×812 (59/34 px insets) and Chromium at 1440×900: each case opened as a field mission with the earlier cases seeded as played and missed, the engine’s winning call made, and the title, scenario, ask, option labels or strand label, outcome line and reveal read off the page and compared with the bundle word for word (all equal, no page or console errors; the win lit the patch and moved the place into earnedIds). Engine: a scratch rolldown bundle of src/cases/engines.ts and the places; runCase, judgeCase, caseProblems and guessP called directly.",
+    "result": "C.c_5hvvxdp841 supported. Design points with Zack (±1 tolerance, the TAA-only scan on record) are unchanged."
+  }
+}

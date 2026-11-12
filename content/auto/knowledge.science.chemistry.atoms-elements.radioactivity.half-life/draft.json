@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "Half-life is the time required for a quantity to reduce to half of its initial value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In nuclear physics it describes how quickly unstable atoms decay, and a single radioactive atom has a 50% probability of decaying within its half-life.",
+   "cites": [
+    2,
+    14
+   ]
+  },
+  {
+   "text": "When many identical atoms decay, it is a very good approximation to say that half of them remain after one half-life.",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Origin",
+   "value": "Rutherford discovered the principle in 1907",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Its opposite",
+   "value": "Doubling time, which grows by a factor of 2",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Constant over time",
+   "value": "The half-life stays the same as an exponentially decaying quantity shrinks",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Rock dating",
+   "value": "Rutherford timed radium's decay to lead-206 to age rocks",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Water in a person",
+   "value": "A biological half-life of about 9 to 10 days",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "One radioactive atom has a half-life of one second. One second goes by. What is true of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Half of the atom has decayed and half remains"
+    },
+    {
+     "id": "b",
+     "label": "It has certainly decayed by now"
+    },
+    {
+     "id": "c",
+     "label": "It had a 50% probability of decaying in that time"
+    },
+    {
+     "id": "d",
+     "label": "It will decay in exactly one more second"
+    }
+   ],
+   "answer": "c",
+   "explain": "There is no 'half an atom' left; half-life is defined in terms of probability, and the chance of an atom decaying within its half-life is 50%.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "In a simulation with a few identical atoms, the count left after one half-life is not exactly half. What makes 'half remain' a better approximation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Starting with a far larger number of atoms"
+    },
+    {
+     "id": "b",
+     "label": "Waiting twice as long before counting"
+    },
+    {
+     "id": "c",
+     "label": "Cooling the atoms before the test begins"
+    },
+    {
+     "id": "d",
+     "label": "Using atoms that are heavier than the first ones"
+    }
+   ],
+   "answer": "a",
+   "explain": "Decay has random variation, but with many identical atoms the law of large numbers makes half remaining a very good approximation.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "A decaying isotope sample takes a certain time to fall from its full amount to half. How long will the fall from half to a quarter take?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Half as long, because there is less left to decay"
+    },
+    {
+     "id": "b",
+     "label": "Twice as long, because the decay is slowing down"
+    },
+    {
+     "id": "c",
+     "label": "Four times as long, since the amount has been halved twice"
+    },
+    {
+     "id": "d",
+     "label": "The same time, because the half-life is constant"
+    }
+   ],
+   "answer": "d",
+   "explain": "Half-life is constant over the lifetime of an exponentially decaying quantity, so each halving takes the same time.",
+   "cites": [
+    8,
+    35
+   ]
+  },
+  {
+   "prompt": "A pharmacist says a drug has a biological half-life. What does that measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How long the drug takes before it starts to work"
+    },
+    {
+     "id": "b",
+     "label": "How long the body takes to lose half of its activity"
+    },
+    {
+     "id": "c",
+     "label": "How long the body takes to clear the whole dose"
+    },
+    {
+     "id": "d",
+     "label": "How long the drug takes to double its effect"
+    }
+   ],
+   "answer": "b",
+   "explain": "A biological half-life is the time it takes for a substance to lose one-half of its pharmacologic, physiologic or radiological activity.",
+   "cites": [
+    4,
+    38
+   ]
+  },
+  {
+   "prompt": "Why is a body's elimination of a substance usually less tidy than a radioactive isotope's decay?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Isotopes are far larger than the substances a body clears"
+    },
+    {
+     "id": "b",
+     "label": "A living body works on a fixed schedule that isotopes lack"
+    },
+    {
+     "id": "c",
+     "label": "A living organism usually follows more complex kinetics than an isotope does"
+    },
+    {
+     "id": "d",
+     "label": "Isotopes decay only when no living thing is nearby"
+    }
+   ],
+   "answer": "c",
+   "explain": "A radioactive isotope decays almost perfectly according to first-order kinetics with a fixed rate constant, while elimination from a living organism usually follows more complex chemical kinetics.",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "prompt": "Rutherford used a radioactive element's half-life to answer what question about rocks?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How old they are"
+    },
+    {
+     "id": "b",
+     "label": "How hot they were when they formed"
+    },
+    {
+     "id": "c",
+     "label": "How much they weigh in total"
+    },
+    {
+     "id": "d",
+     "label": "Which minerals they contain most of"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rutherford applied the half-life principle to age determination of rocks, measuring the decay period of radium to lead-206.",
+   "cites": [
+    7
+   ]
+  }
+ ]
+}

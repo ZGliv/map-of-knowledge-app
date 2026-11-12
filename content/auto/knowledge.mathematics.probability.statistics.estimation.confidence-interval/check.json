@@ -1,0 +1,68 @@
+{
+ "draftHash": "7a6efd14068bdbc2f85a654141267addb0143df0",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "c",
+  "q2": "a",
+  "q3": "b",
+  "q4": "d",
+  "q5": "c",
+  "q6": "a"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "Sentence 1 gives bounds likely to contain the parameter; 2 contrasts with a single point estimate."
+  },
+  "s1": {
+   "supported": true,
+   "why": "Sentence 3 gives typical 95% level; 5 says it reflects long-run performance of the method."
+  },
+  "s2": {
+   "supported": true,
+   "why": "Sentence 4 says 95% level does not imply 95% probability for a particular interval."
+  },
+  "f0": {
+   "supported": true,
+   "why": "Sentence 3 says typically 95%."
+  },
+  "f1": {
+   "supported": true,
+   "why": "Sentence 6 says about 95 of 100 repeated intervals would contain the true mean."
+  },
+  "f2": {
+   "supported": true,
+   "why": "Sentence 7 says the true mean is a fixed unknown constant."
+  },
+  "f3": {
+   "supported": true,
+   "why": "Sentence 8 says endpoints are random variables because the sample is random."
+  },
+  "q1": {
+   "supported": true,
+   "why": "Sentences 25-26 say the true mean is fixed and whether it is inside is a matter of fact not probability."
+  },
+  "q2": {
+   "supported": true,
+   "why": "Sentences 5-6 give long-run behavior: approximately 95 of 100 intervals contain the mean."
+  },
+  "q3": {
+   "supported": true,
+   "why": "Sentences 7-8: mean fixed, endpoints random because the sample is random."
+  },
+  "q4": {
+   "supported": true,
+   "why": "Sentence 28 says it cannot be true because 95% of 25 is not an integer; 27 says it is not necessarily true."
+  },
+  "q5": {
+   "supported": true,
+   "why": "Sentences 4-5 say the level reflects long-run method performance, not one interval's probability."
+  },
+  "q6": {
+   "supported": true,
+   "why": "Sentences 1-2 say an interval gives bounds likely to contain the value instead of one point estimate."
+  }
+ },
+ "renumberedFrom": "extractor 1",
+ "notation": "tidy-1"
+}

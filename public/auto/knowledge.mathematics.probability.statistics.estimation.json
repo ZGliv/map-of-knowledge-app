@@ -1,0 +1,532 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.estimation",
+ "name": "Estimation",
+ "summary": [
+  {
+   "text": "Estimation is finding a usable approximation when the input data may be incomplete, uncertain, or unstable.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Often it means using a statistic from a sample to estimate a population value, such as counting the candies you can see in a jar to judge the whole jar.",
+   "cites": [
+    3,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "text": "A good estimate is precise enough to be useful but not so precise that it is likely to be wrong.",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Point estimate",
+   "value": "A single value believed to be closest to the actual one",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Interval estimate",
+   "value": "A wide range of possibilities that can be too broad to help",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Estimator",
+   "value": "The rule by which an estimate is calculated from data",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Human bias",
+   "value": "Human estimators systematically suffer from overconfidence",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Asked how many candies to buy for a party of 100, someone says \"between zero and a hundred percent of guests will want candy.\" Why is that unhelpful?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is certainly true, but far too broad to guide the decision"
+    },
+    {
+     "id": "b",
+     "label": "It is probably false, since guests rarely like candy"
+    },
+    {
+     "id": "c",
+     "label": "It is too precise to be trusted at all"
+    },
+    {
+     "id": "d",
+     "label": "It is a point estimate with no range"
+    }
+   ],
+   "answer": "a",
+   "explain": "Such a range is clearly correct but gives no guidance for choosing how many candies to buy.",
+   "cites": [
+    16,
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation:q1"
+  },
+  {
+   "prompt": "You can see 50 candies, and the jar looks about 20 times larger than the part holding them, so you guess 1,000. Why might that single guess still be off?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Candies in a jar can never be counted at all"
+    },
+    {
+     "id": "b",
+     "label": "The few visible candies may differ from the hidden majority"
+    },
+    {
+     "id": "c",
+     "label": "Multiplying by 20 is not allowed in estimating"
+    },
+    {
+     "id": "d",
+     "label": "A single guess is always exactly right"
+    }
+   ],
+   "answer": "b",
+   "explain": "A point estimate is likely to be incorrect because the visible sample is too small to be sure it has no anomalies that differ from the whole jar.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation:q2"
+  },
+  {
+   "prompt": "A contractor says a job will take 40 hours, but it takes 50. How is the original estimate described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An overestimate, since the job ran over"
+    },
+    {
+     "id": "b",
+     "label": "An interval estimate, because it is a range"
+    },
+    {
+     "id": "c",
+     "label": "An underestimate, since it fell short of the actual result"
+    },
+    {
+     "id": "d",
+     "label": "Accurate, because estimates are only approximate"
+    }
+   ],
+   "answer": "c",
+   "explain": "An estimate that falls short of the actual result is an underestimate, and one that exceeds it is an overestimate.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation:q3"
+  },
+  {
+   "prompt": "Why must a project plan avoid guessing its needs far too high as well as too low?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guessing high is always safer, so no limit is needed"
+    },
+    {
+     "id": "b",
+     "label": "Guessing low always saves money in the end"
+    },
+    {
+     "id": "c",
+     "label": "Both kinds of error are equally harmless in practice"
+    },
+    {
+     "id": "d",
+     "label": "Too low causes delays, while too high wastes resources"
+    }
+   ],
+   "answer": "d",
+   "explain": "Underestimating needs can delay a project while unmet needs are fulfilled, and greatly overestimating them leaves unneeded resources to go to waste.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation:q4"
+  },
+  {
+   "prompt": "In statistics, how does an estimator relate to an estimate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the final number that gets reported"
+    },
+    {
+     "id": "b",
+     "label": "It is the rule that turns data into the estimate"
+    },
+    {
+     "id": "c",
+     "label": "It is the person who gathers the data"
+    },
+    {
+     "id": "d",
+     "label": "It is the error left over after estimating"
+    }
+   ],
+   "answer": "b",
+   "explain": "An estimator is the formal name for the rule by which an estimate is calculated from data.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation:q5"
+  },
+  {
+   "prompt": "People are asked to guess a quantity and say how accurate they think they are. What tends to happen?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They believe their guesses are more accurate than they are"
+    },
+    {
+     "id": "b",
+     "label": "They believe their guesses are less accurate than they are"
+    },
+    {
+     "id": "c",
+     "label": "They judge their accuracy correctly on average"
+    },
+    {
+     "id": "d",
+     "label": "They refuse to give any guess at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Human estimators systematically suffer from overconfidence.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Candy_corn_contest_jar.jpg/960px-Candy_corn_contest_jar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Estimation",
+  "credit": "Apneet Jolly",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Candy_corn_contest_jar.jpg"
+ },
+ "source": {
+  "title": "Estimation",
+  "url": "https://en.wikipedia.org/wiki/Estimation",
+  "revision": 1272181431
+ },
+ "pack": {
+  "id": "auto-statistics-estimation",
+  "title": "Guessing Candies in a Jar",
+  "question": "How can you estimate something you cannot fully count?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Statistics",
+   "Estimation"
+  ],
+  "hue": 44,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Candy_corn_contest_jar.jpg/960px-Candy_corn_contest_jar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Estimation",
+    "credit": "Apneet Jolly · CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Candy_corn_contest_jar.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Guessing Candies in a Jar",
+    "hook": "A glass jar, a quick look, and a number you can defend."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-statistics-estimation:1",
+    "transfer": false,
+    "prompt": "You can see 50 candies through the glass, and the jar looks about 20 times larger than the part holding them. What single guess for the total makes sense?",
+    "explain": "Projecting 50 visible candies across a volume about 20 times larger suggests about a thousand. That single best guess is called a point estimate.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "About 50, only the ones you can see",
+        "feedback": "The visible candies are only part of the jar, so the total must be larger."
+       },
+       {
+        "id": "c",
+        "label": "About 70, a little more than visible",
+        "feedback": "A jar 20 times larger than the visible part should hold far more than that."
+       },
+       {
+        "id": "b",
+        "label": "About 1,000"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-statistics-estimation:2",
+    "transfer": false,
+    "prompt": "match each to its partner",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Point estimate"
+     },
+     {
+      "id": "l1",
+      "label": "Interval estimate"
+     },
+     {
+      "id": "l2",
+      "label": "Estimator"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "A wide range that can be too broad to help"
+     },
+     {
+      "id": "r2",
+      "label": "The rule that turns data into an estimate"
+     },
+     {
+      "id": "r0",
+      "label": "A single value believed closest to the actual one"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "These are three words for the pieces of estimating: a single best guess, a range, and the rule that produces them."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-statistics-estimation:3",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "I can see 50 candies through the glass."
+     },
+     {
+      "id": "b",
+      "text": "The jar looks about 20 times larger than the part I counted."
+     },
+     {
+      "id": "c",
+      "text": "So my best single guess is about 1,000 candies."
+     },
+     {
+      "id": "d",
+      "text": "So there are certainly exactly 1,000 candies."
+     }
+    ],
+    "answer": "d",
+    "explain": "A point estimate is likely to be incorrect, because the number of visible candies is too small to be sure it has no anomalies that differ from the rest of the jar."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-statistics-estimation:4",
+    "transfer": true,
+    "prompt": "You predict 300 guests will come to a party, but only 250 do. What was your estimate?",
+    "explain": "An estimate that exceeds the actual result is an overestimate; one that falls short is an underestimate.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Neither, because estimates are never compared with results",
+        "feedback": "An estimate is called over or under by comparing it with the actual result."
+       },
+       {
+        "id": "a",
+        "label": "An overestimate"
+       },
+       {
+        "id": "b",
+        "label": "An underestimate",
+        "feedback": "An underestimate falls short of the actual result; yours was higher."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "A good estimate projects from what you can see, and balances being precise enough to use against being so precise it is likely wrong.",
+    "connections": [
+     {
+      "title": "Confidence interval",
+      "place": "Estimation",
+      "node": "knowledge.mathematics.probability.statistics.estimation.confidence-interval"
+     },
+     {
+      "title": "Maximum likelihood",
+      "place": "Estimation",
+      "node": "knowledge.mathematics.probability.statistics.estimation.maximum-likelihood"
+     },
+     {
+      "title": "Bias of an estimator",
+      "place": "Estimation",
+      "node": "knowledge.mathematics.probability.statistics.estimation.bias-of-an-estimator"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Projecting 50 visible candies across a volume about 20 times larger suggests about a thousand. That single best guess is called a point estimate.",
+    "source": "Wikipedia sentences 13, 14"
+   },
+   {
+    "claim": "These are three words for the pieces of estimating: a single best guess, a range, and the rule that produces them.",
+    "source": "Wikipedia sentences 14, 16, 20"
+   },
+   {
+    "claim": "A point estimate is likely to be incorrect, because the number of visible candies is too small to be sure it has no anomalies that differ from the rest of the jar.",
+    "source": "Wikipedia sentences 13, 15"
+   },
+   {
+    "claim": "An estimate that exceeds the actual result is an overestimate; one that falls short is an underestimate.",
+    "source": "Wikipedia sentences 5"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A usable approximation",
+    "text": "Estimation means finding an approximate value that is good enough to use, even when the data behind it may be incomplete, uncertain or unstable. The result is still worth using because it rests on the best information on hand. In statistics, it usually means taking a number worked out from a sample and using it to estimate the matching value for the whole population.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The candy jar",
+    "text": "Think of guessing how many candies fill a glass jar. You count the candies you can see through the glass, look at the size of the jar, and assume the hidden parts are filled the same way. If fifty candies are visible and the whole jar seems about twenty times as big as the part holding them, you would project a thousand candies.",
+    "cites": [
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "heading": "Point and interval estimates",
+    "text": "That single best guess is called a point estimate. It is likely to be off, because a handful of visible candies is too small a sample to rule out quirks that differ from the whole jar. An interval estimate covers a much larger range of possibilities instead, but it can be too broad to help. Saying that between zero and one hundred percent of people like candy is surely correct, yet it tells you nothing about how many candies to buy for a party of a hundred.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Getting the range right",
+    "text": "So the aim is often a range narrow enough to be useful, yet not so narrow that it is likely to be wrong. How confident we are in an estimate is expressed as a confidence interval, the likelihood that the estimate falls within a certain range. People judge this badly: they are systematically overconfident, thinking their estimates are more accurate than they really are.",
+    "cites": [
+     6,
+     7,
+     12
+    ]
+   },
+   {
+    "heading": "Estimators and relatives",
+    "text": "A wrong estimate is an overestimate if it is too high and an underestimate if it is too low. In statistics, the rule that turns data into an estimate is called an estimator, and estimation theory looks for estimators with good properties. Estimating quantities that have not been observed yet is the job of forecasting and prediction. In physics, a Fermi problem asks for justified guesses about quantities that seem impossible to compute from the little information available.",
+    "cites": [
+     5,
+     20,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Planning with estimates",
+    "text": "Estimation matters in business and economics, where too many variables exist to work out how large-scale activities will develop. Project plans must decide on labor and raw materials before every possible problem is known. They should not underestimate needs, which causes delays, nor greatly overestimate them, which wastes resources. When there is very little information, an informal estimate is called a guesstimate, because it comes close to pure guessing.",
+    "cites": [
+     24,
+     25,
+     28,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ch8",
+   "kind": "book",
+   "title": "Ch. 8 Introduction",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/8-introduction",
+   "note": "A free textbook introduction to estimating population values from samples, with point and interval estimates.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "mathworld-estimator",
+   "kind": "article",
+   "title": "Estimator",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Estimator.html",
+   "note": "A reference entry on estimators, the rules that turn sample data into estimates, with links to related ideas."
+  },
+  {
+   "id": "cc-confidence-intervals",
+   "kind": "video",
+   "title": "Confidence Intervals: Crash Course Statistics #20",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=yDEvXB6ApWc",
+   "note": "A Crash Course video on estimating a population value with a range, the confidence interval."
+  },
+  {
+   "id": "lane-ch10",
+   "kind": "book",
+   "title": "10: Estimation - Introductory Statistics (Lane)",
+   "by": "David Lane",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/10%3A_Estimation",
+   "note": "A free textbook chapter on point and interval estimation, including bias and variability of estimators.",
+   "license": "Public Domain"
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "summary": [
+  {
+   "text": "A twin prime is a prime that is 2 less or 2 more than another prime, such as either member of the pair (17, 19) or (41, 43).",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Whether there are infinitely many twin primes is one of the great open questions in number theory, and it is called the twin prime conjecture.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "text": "In 2013 Yitang Zhang proved there are infinitely many prime pairs differing by some number below 70 million, and that bound has since been cut to 246.",
+   "cites": [
+    19,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Example pairs",
+   "value": "(11, 13), (17, 19), (29, 31), (41, 43)",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Between the twins",
+   "value": "Beyond (3, 5), the number between them is a multiple of 6",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Only prime in two pairs",
+   "value": "Five, which sits in (3, 5) and (5, 7)",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Pair sums",
+   "value": "Any pair other than (3, 5) adds to a multiple of 12",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A classmate says 7 and 11 are twin primes, since both are prime. What is missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Twin primes must both be even"
+    },
+    {
+     "id": "b",
+     "label": "Twin primes must differ by two, and these differ by four"
+    },
+    {
+     "id": "c",
+     "label": "Twin primes must add up to a prime"
+    },
+    {
+     "id": "d",
+     "label": "Twin primes must be next to a multiple of ten"
+    }
+   ],
+   "answer": "b",
+   "explain": "A twin prime has a prime gap of two: it is 2 less or 2 more than another prime.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "The prime 5 sits in two twin pairs, (3, 5) and (5, 7). Can any larger prime sit in two twin pairs?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, five is the only prime that does"
+    },
+    {
+     "id": "b",
+     "label": "Yes, every twin prime does"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only primes ending in 3"
+    },
+    {
+     "id": "d",
+     "label": "Only if it is larger than a million"
+    }
+   ],
+   "answer": "a",
+   "explain": "Five is the only prime in two pairs, because every twin pair beyond (3, 5) has a multiple of 6 between its two primes.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A friend says mathematicians proved after Zhang's 2013 work that infinitely many twin primes exist. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, Zhang proved it outright"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it was shown by computer search"
+    },
+    {
+     "id": "c",
+     "label": "No, substantial progress has been made but it remains unsolved"
+    },
+    {
+     "id": "d",
+     "label": "No, it was shown that only finitely many exist"
+    }
+   ],
+   "answer": "c",
+   "explain": "Zhang, Maynard, Tao and others made substantial progress, but the twin prime conjecture is unsolved.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "What exactly did Zhang's 2013 announcement show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There are infinitely many pairs of primes differing by two"
+    },
+    {
+     "id": "b",
+     "label": "There are no pairs of primes differing by two beyond a point"
+    },
+    {
+     "id": "c",
+     "label": "Every pair of consecutive primes differs by under 70 million"
+    },
+    {
+     "id": "d",
+     "label": "Some gap below 70 million occurs between infinitely many prime pairs"
+    }
+   ],
+   "answer": "d",
+   "explain": "He proved there is some integer N under 70 million for which infinitely many pairs of primes differ by N, without saying N is 2.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "prompt": "Researchers have shown that infinitely many prime pairs lie within some fixed distance. What would turn that into the twin prime conjecture?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cutting the allowed distance down to 2"
+    },
+    {
+     "id": "b",
+     "label": "Finding one more twin prime pair"
+    },
+    {
+     "id": "c",
+     "label": "Doubling the allowed distance"
+    },
+    {
+     "id": "d",
+     "label": "Proving that 5 is the only repeated prime"
+    }
+   ],
+   "answer": "a",
+   "explain": "The bound stands at 246 at most, and improving it to 2 would prove the twin prime conjecture.",
+   "cites": [
+    36,
+    37,
+    38
+   ]
+  },
+  {
+   "prompt": "What do you know about the number sitting exactly between two twin primes, other than between 3 and 5?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a multiple of 6"
+    },
+    {
+     "id": "b",
+     "label": "It is an odd number"
+    },
+    {
+     "id": "c",
+     "label": "It is a multiple of 4"
+    },
+    {
+     "id": "d",
+     "label": "It is itself a prime"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every twin prime pair beyond (3, 5) has the form (6n − 1, 6n + 1) for some natural number n.",
+   "cites": [
+    10
+   ]
+  }
+ ]
+}

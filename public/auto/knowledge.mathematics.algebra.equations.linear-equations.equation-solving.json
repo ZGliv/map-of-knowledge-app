@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving",
+ "name": "Equation solving",
+ "summary": [
+  {
+   "text": "Solving an equation means finding the values of the unknowns that make the equality true; such a value is a solution, often called a root.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It can be done numerically, admitting only numbers, or symbolically, using expressions to represent the solutions.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "text": "The solutions may be none, one, finitely many or infinitely many, and for some classes of equations no general method is known.",
+   "cites": [
+    22,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "A solution is often called a root",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Solution set",
+   "value": "The set of all solutions of an equation",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "How many",
+   "value": "None, one, finitely many or infinitely many",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Few equations",
+   "value": "More unknowns than equations often means infinitely many solutions",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Hilbert's tenth",
+   "value": "Proved unsolvable by any algorithm in 1970",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A Diophantine equation seeks only whole-number solutions. What if it asks for a whole number whose square is exactly 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There is one solution, the nearest whole number"
+    },
+    {
+     "id": "b",
+     "label": "The solution set is empty"
+    },
+    {
+     "id": "c",
+     "label": "There are two solutions, one positive and one negative"
+    },
+    {
+     "id": "d",
+     "label": "There are infinitely many solutions"
+    }
+   ],
+   "answer": "b",
+   "explain": "2 is not the square of an integer, so the solution set is the empty set.",
+   "cites": [
+    22,
+    28,
+    29
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving:q2"
+  },
+  {
+   "prompt": "A puzzle has 3 unknowns but only 1 equation. What is the solution set often like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one solution"
+    },
+    {
+     "id": "b",
+     "label": "Always empty"
+    },
+    {
+     "id": "c",
+     "label": "Infinite"
+    },
+    {
+     "id": "d",
+     "label": "Exactly three solutions"
+    }
+   ],
+   "answer": "c",
+   "explain": "With more unknowns than equations the solution set is often infinite.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving:q3"
+  },
+  {
+   "prompt": "Why is finding the best solution under some criterion usually not called equation solving?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Best solutions never satisfy the equality"
+    },
+    {
+     "id": "b",
+     "label": "It only works for equations with one unknown"
+    },
+    {
+     "id": "c",
+     "label": "It needs a computer rather than pencil and paper"
+    },
+    {
+     "id": "d",
+     "label": "Its methods start from one solution and keep improving it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Optimization methods start from a particular solution and repeat the process to find a better one.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving:q4"
+  },
+  {
+   "prompt": "A symbolic solution for x and y is x = a + 1, y = a, where a can be any value. What pair does a = 5 give?",
+   "options": [
+    {
+     "id": "a",
+     "label": "(6, 5)"
+    },
+    {
+     "id": "b",
+     "label": "(5, 6)"
+    },
+    {
+     "id": "c",
+     "label": "(5, 5)"
+    },
+    {
+     "id": "d",
+     "label": "(6, 6)"
+    }
+   ],
+   "answer": "a",
+   "explain": "Putting a specific number into a symbolic solution gives a numerical solution.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving:q5"
+  },
+  {
+   "prompt": "Someone claims every class of equations has a step-by-step method, we just have not found it yet. What is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Methods exist only for polynomial equations"
+    },
+    {
+     "id": "b",
+     "label": "Some classes are proved to have no such method"
+    },
+    {
+     "id": "c",
+     "label": "Every class has one, but it is too slow"
+    },
+    {
+     "id": "d",
+     "label": "Methods exist only for equations with one unknown"
+    }
+   ],
+   "answer": "b",
+   "explain": "In general no such method need exist; some problems are proved unsolvable by an algorithm.",
+   "cites": [
+    39,
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.equations.linear-equations.equation-solving:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/NewtonIteration_Ani.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Equation solving",
+  "credit": "Ralf Pfeifer",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:NewtonIteration_Ani.gif"
+ },
+ "source": {
+  "title": "Equation solving",
+  "url": "https://en.wikipedia.org/wiki/Equation_solving",
+  "revision": 1325039164
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "What it means to solve",
+    "text": "An equation usually sets two expressions equal to each other, and solving it means finding the values that make that claim hold. Those values can be numbers, but also things like functions or sets. Before you begin, you choose one or more variables to treat as unknowns. A solution gives each unknown a value, and when those values are put in their place, the two sides really are equal. A solution is often called a root, especially for polynomial equations, and all the solutions together make up the solution set.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Numbers or expressions",
+    "text": "There are two styles of answer. Solving numerically accepts only numbers as solutions, while solving symbolically lets expressions stand for them. Take x + y = 2x – 1. If x is the unknown, the answer is the expression x = y + 1: put y + 1 where x was and the equation turns into a true statement. If y is picked as the unknown instead, the answer becomes y = x – 1.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Many answers at once",
+    "text": "If both x and y count as unknowns, that same equation has many solutions. One symbolic way to write them all is (x, y) = (a + 1, a), where a can be any value. Choosing a number for a turns this into a numerical solution: a = 0 gives x = 1 and y = 0, while a = 1 gives x = 2 and y = 1. Which letters are unknown is normally stated in the problem, with phrases like \"solve for x and y\". It is also common to keep x, y, z for unknowns and a, b, c for known quantities, called parameters, though in some problems any letter can play either part.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     17
+    ]
+   },
+   {
+    "heading": "How many solutions",
+    "text": "A solution set can be empty, hold exactly one solution, hold finitely many, or be infinite. Depending on the task, you may need just one solution, all of them, or one with an extra property, such as lying inside a given interval. Looking for the best solution by some rule is an optimization problem, and that is usually not called equation solving. With more unknowns than equations, there are often infinitely many solutions, too many to list. They are then described by a parametrization, which expresses the solutions through some of the unknowns or helper variables; this can always be done when every equation is linear.",
+    "cites": [
+     18,
+     19,
+     20,
+     22,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Shapes and empty sets",
+    "text": "An infinite solution set can be pictured as a shape, such as a line, a curve or a plane. In fact, algebraic geometry can be seen as the study of the solution sets of algebraic equations. A Diophantine equation is one where only integer answers are wanted. For one such equation the solution set turns out to be empty, because 2 is not the square of any integer.",
+    "cites": [
+     28,
+     29,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "No method fits all",
+    "text": "How you solve an equation depends on its type: what kinds of expressions it contains and what kinds of values the unknowns may take. For some classes of equations there are systematic methods guaranteed to work, called algorithms; some live inside computer algebra systems, yet many need only pencil and paper. For other classes no such method is known, sometimes simply for lack of knowledge, since some problems took centuries to crack. And sometimes no such method can exist: Hilbert's tenth problem was proved unsolvable by any algorithm in 1970. In still other cases there are heuristic methods, which often succeed but are not guaranteed to.",
+    "cites": [
+     36,
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Trying every option",
+    "text": "When the possible answers are limited to a finite set, as in modular arithmetic, the solution set can be found by brute force: test every candidate in turn. But the number of candidates, though finite, may be so large that checking them all is not practical. Strong encryption actually relies on this, since it requires such an exhaustive search to be out of reach.",
+    "cites": [
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-add-sub",
+   "kind": "book",
+   "title": "2.3 Solving Equations Using the Subtraction and Addition Properties of Equality - Prealgebra 2e",
+   "by": "OpenStax (Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis)",
+   "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality",
+   "note": "A free textbook section on checking whether a number is a solution and solving equations by adding or subtracting.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-mul-div",
+   "kind": "book",
+   "title": "8.2 Solve Equations Using the Division and Multiplication Properties of Equality - Prealgebra 2e",
+   "by": "OpenStax (Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis)",
+   "url": "https://openstax.org/books/prealgebra-2e/pages/8-2-solve-equations-using-the-division-and-multiplication-properties-of-equality",
+   "note": "A free textbook section on solving equations by dividing or multiplying both sides by the same number.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

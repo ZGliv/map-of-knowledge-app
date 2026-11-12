@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "The exponential distribution has a rate parameter λ > 0, takes values on the interval [0, ∞), and is used to analyze Poisson point processes among other contexts.",
+   "cites": [
+    1,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "A person who receives an average of two phone calls per hour can expect about 0.5 hours, or 30 minutes, between consecutive calls.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "text": "It is memoryless: after a wait with no event, the remaining wait has the same distribution as at the start, and it is the only continuous distribution with a constant failure rate.",
+   "cites": [
+    12,
+    14,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Rate parameter",
+   "value": "λ > 0, written X ~ Exp(λ)",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "label": "Possible values",
+   "value": "The interval [0, ∞)",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Memoryless pair",
+   "value": "Only the exponential and geometric distributions are memoryless",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Failure rate",
+   "value": "The only continuous distribution with a constant failure rate",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Sums",
+   "value": "The sum of n independent Exp(λ) variables is Gamma(n, λ)",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A person gets an average of two phone calls per hour. What is the typical time between consecutive calls?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2 hours"
+    },
+    {
+     "id": "b",
+     "label": "1 hour"
+    },
+    {
+     "id": "c",
+     "label": "15 minutes"
+    },
+    {
+     "id": "d",
+     "label": "30 minutes"
+    }
+   ],
+   "answer": "d",
+   "explain": "With an average of two calls per hour, the expected time between consecutive calls is 0.5 hour, or 30 minutes.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "An event has not happened after 30 seconds of waiting. The waiting time is exponential. How does the chance of at least 10 more seconds compare with the chance of waiting over 10 seconds from the start?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is equal"
+    },
+    {
+     "id": "b",
+     "label": "It is smaller, because the event is now due"
+    },
+    {
+     "id": "c",
+     "label": "It is larger, because the event keeps delaying"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be compared at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "The conditional probability of waiting at least 10 more seconds equals the unconditional probability of more than 10 seconds.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "A shopper has waited a long time for an event with an exponential waiting time and says it must be due. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Long waits make the event even less likely"
+    },
+    {
+     "id": "b",
+     "label": "The remaining wait has the same distribution as when she began"
+    },
+    {
+     "id": "c",
+     "label": "The event only happens right at the start"
+    },
+    {
+     "id": "d",
+     "label": "Waiting times cannot be measured once started"
+    }
+   ],
+   "answer": "b",
+   "explain": "Given no event over an initial period, the distribution of the remaining wait is the same as the original distribution.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "Waiting times can never be negative. Which range of values does the exponential distribution use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All real numbers, positive and negative"
+    },
+    {
+     "id": "b",
+     "label": "Only the numbers between 0 and 1"
+    },
+    {
+     "id": "c",
+     "label": "From 0 upward, with no upper limit"
+    },
+    {
+     "id": "d",
+     "label": "Only the whole numbers 1, 2, 3 and so on"
+    }
+   ],
+   "answer": "c",
+   "explain": "The distribution is supported on the interval [0, ∞).",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "A machine part is equally likely to fail in any next moment, however long it has already run. Which continuous distribution matches this constant failure rate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A normal distribution"
+    },
+    {
+     "id": "b",
+     "label": "A uniform distribution"
+    },
+    {
+     "id": "c",
+     "label": "A Poisson distribution"
+    },
+    {
+     "id": "d",
+     "label": "An exponential distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "The exponential distribution is the only continuous probability distribution with a constant failure rate.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "A job needs three separate waits one after another, each independent and exponential with the same rate. What describes the total time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A gamma distribution"
+    },
+    {
+     "id": "b",
+     "label": "Another exponential with the same rate"
+    },
+    {
+     "id": "c",
+     "label": "A normal distribution with mean zero"
+    },
+    {
+     "id": "d",
+     "label": "A fixed number with no spread"
+    }
+   ],
+   "answer": "a",
+   "explain": "The sum of n independent exponential variables with rate λ follows a Gamma(n, λ) distribution.",
+   "cites": [
+    25
+   ]
+  }
+ ]
+}

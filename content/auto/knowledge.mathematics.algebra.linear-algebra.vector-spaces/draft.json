@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A vector space is a set of vectors that can be added together and scaled by numbers, following rules called axioms.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A basis is a group of independent vectors that spans the space, and the number of vectors in any basis is the dimension.",
+   "cites": [
+    42,
+    44
+   ]
+  },
+  {
+   "text": "Vector spaces generalize Euclidean vectors such as forces and velocities, and they underlie matrices and systems of linear equations.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Scalars",
+   "value": "Real numbers, complex numbers, or elements of any field",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Axioms",
+   "value": "Addition and scaling must satisfy eight rules",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Dimension",
+   "value": "The number of vectors in any basis",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "label": "Polynomial rings",
+   "value": "Countably infinite-dimensional vector spaces",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Subspace",
+   "value": "A non-empty subset closed under addition and scaling",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A collection of arrows in the plane has a flaw: adding two of them sometimes gives an arrow outside the collection. Can it be a linear subspace?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, as long as scaling works"
+    },
+    {
+     "id": "b",
+     "label": "No, a subspace must contain every sum of its members"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as it has at least one arrow"
+    },
+    {
+     "id": "d",
+     "label": "No, a subspace may never contain nonzero arrows"
+    }
+   ],
+   "answer": "b",
+   "explain": "A subspace is closed under vector addition and scalar multiplication, so sums and scaled versions of its members must stay inside.",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "prompt": "Three arrows are such that the third is exactly the first plus the second. Are the three arrows linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because all three are different"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because each one has a direction"
+    },
+    {
+     "id": "c",
+     "label": "No, one is a combination of the others"
+    },
+    {
+     "id": "d",
+     "label": "No, because there are exactly three"
+    }
+   ],
+   "answer": "c",
+   "explain": "Vectors are independent only if none can be written as a linear combination of the others.",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "prompt": "Two people pick different sets of basic building-block vectors (bases) for the same finite vector space. What must be true of the two sets?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They contain the same number of vectors"
+    },
+    {
+     "id": "b",
+     "label": "They share at least one vector"
+    },
+    {
+     "id": "c",
+     "label": "One is always larger than the other"
+    },
+    {
+     "id": "d",
+     "label": "They must differ by exactly one vector"
+    }
+   ],
+   "answer": "a",
+   "explain": "All bases of a vector space have the same cardinality, and that number is the dimension.",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "prompt": "Take all polynomials, add them and scale them by numbers. How large is this vector space in dimension?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two, since only constants and x matter"
+    },
+    {
+     "id": "b",
+     "label": "Finite, but larger than any chosen number"
+    },
+    {
+     "id": "c",
+     "label": "Zero, since polynomials are not arrows"
+    },
+    {
+     "id": "d",
+     "label": "Infinite"
+    }
+   ],
+   "answer": "d",
+   "explain": "Polynomial rings are countably infinite-dimensional vector spaces.",
+   "cites": [
+    11,
+    14
+   ]
+  },
+  {
+   "prompt": "You list every vector you can build by scaling and adding vectors from a chosen group G. What have you built?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The span of G, the smallest subspace holding G"
+    },
+    {
+     "id": "b",
+     "label": "A basis of the whole space that G lives in"
+    },
+    {
+     "id": "c",
+     "label": "The scalars that every vector of G uses"
+    },
+    {
+     "id": "d",
+     "label": "The dimension number belonging to the group G"
+    }
+   ],
+   "answer": "a",
+   "explain": "The span of G is the set of all linear combinations of G, and it is the smallest subspace containing G.",
+   "cites": [
+    39,
+    40
+   ]
+  },
+  {
+   "prompt": "Which measurement is best modeled by a Euclidean vector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The temperature in a room"
+    },
+    {
+     "id": "b",
+     "label": "The number of seats in a room"
+    },
+    {
+     "id": "c",
+     "label": "The age of a person in a room"
+    },
+    {
+     "id": "d",
+     "label": "The velocity of a ball rolling across a room"
+    }
+   ],
+   "answer": "d",
+   "explain": "Euclidean vectors model quantities such as forces and velocity that have a direction as well as a magnitude.",
+   "cites": [
+    5
+   ]
+  }
+ ]
+}

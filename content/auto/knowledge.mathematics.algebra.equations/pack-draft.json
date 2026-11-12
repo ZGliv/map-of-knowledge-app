@@ -1,0 +1,120 @@
+{
+ "title": "Do the same to both sides",
+ "question": "What can you do to an equation without breaking it?",
+ "hook": "A scale that tips the moment you cheat is a surprisingly good way to learn algebra.",
+ "idea": "An equation stays true when you treat both sides alike, but some moves can slip in extra answers.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A scale holds equal grain in both pans and balances. You scoop some grain out of the left pan. What puts it back in balance?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Scoop the same amount out of the right pan"
+    },
+    {
+     "id": "b",
+     "label": "Add more grain to the right pan",
+     "feedback": "It sounds like evening things up, but that makes the right side heavier, not equal."
+    },
+    {
+     "id": "c",
+     "label": "Do nothing, since equal pans stay equal",
+     "feedback": "They were equal only before one pan lost grain."
+    },
+    {
+     "id": "d",
+     "label": "Empty the right pan completely",
+     "feedback": "That removes far more than was taken from the left."
+    }
+   ],
+   "answer": "a",
+   "explain": "An equation stays balanced when the same operation is done on each side, just as removing equal grain from both pans does.",
+   "cites": [
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each word to what it means.",
+   "pairs": [
+    [
+     "Identity",
+     "True for all values of the variables"
+    ],
+    [
+     "Conditional equation",
+     "True only for particular values"
+    ],
+    [
+     "Solution",
+     "A value of the unknown that makes the equality true"
+    ],
+    [
+     "Unknown",
+     "A variable the equation is to be solved for"
+    ]
+   ],
+   "explain": "Unknowns are what you solve for, solutions satisfy the equality, and equations are identities or conditional depending on how many values work.",
+   "cites": [
+    4,
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each move by how safe it is.",
+   "groups": [
+    "Plain balanced move",
+    "Needs caution"
+   ],
+   "items": [
+    [
+     "Add the same amount to both sides",
+     "Plain balanced move"
+    ],
+    [
+     "Multiply both sides by a non-zero number",
+     "Plain balanced move"
+    ],
+    [
+     "Square both sides",
+     "Needs caution"
+    ],
+    [
+     "Apply 1/x to both sides",
+     "Needs caution"
+    ]
+   ],
+   "explain": "Adding or multiplying by a non-zero quantity keeps balance, but applying a function can add extra solutions, or lose solutions where it is undefined, as 1/x is for x = 0.",
+   "cites": [
+    19,
+    21,
+    25,
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Start with x = 1, which is solved by x = 1.",
+    "Square both sides to get x² = 1.",
+    "Since the new equation came from the old one, it has no new solutions.",
+    "So we can square both sides freely when solving."
+   ],
+   "wrong": 2,
+   "explain": "Squaring brings in the extraneous solution x = −1, so the new equation has solutions the old one did not.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  }
+ ]
+}

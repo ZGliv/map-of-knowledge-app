@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass",
+ "name": "Conservation of mass",
+ "summary": [
+  {
+   "text": "The law of conservation of mass says that in a system closed to matter moving in or out, the total mass stays constant over time.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In a chemical reaction, the mass of the starting materials equals the mass of the products, since mass may be rearranged or changed in form but not created or destroyed.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Accepting it helped chemistry progress from alchemy, though the law holds only in the classical limit.",
+   "cites": [
+    7,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Closed systems",
+   "value": "No matter moves in or out, so mass stays constant",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Early demonstrators",
+   "value": "Jean Rey in 1630, confirmed by Lavoisier in the late 1700s",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Theory it disproved",
+   "value": "Phlogiston, which said mass could be gained or lost in burning",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Stas's precision",
+   "value": "Loss or gain in certain reactions was at most 2 to 4 parts in 100,000",
+   "cites": [
+    38,
+    39
+   ]
+  },
+  {
+   "label": "Why it stayed hidden",
+   "value": "The atmosphere's buoyancy affects the weight of gases",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An iron nail rusts inside a sealed glass tube. How does the weight of the tube and its contents compare before and after?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heavier, since rust is bulkier than iron"
+    },
+    {
+     "id": "b",
+     "label": "Lighter, since the nail wears away"
+    },
+    {
+     "id": "c",
+     "label": "Heavier at first, then lighter again"
+    },
+    {
+     "id": "d",
+     "label": "The same, since nothing enters or leaves"
+    }
+   ],
+   "answer": "d",
+   "explain": "Rusting in a sealed glass tube did not change the weight of the container and its contents, because the system is closed to matter moving in or out.",
+   "cites": [
+    1,
+    33
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass:q1"
+  },
+  {
+   "prompt": "For thousands of years people saw that a burned log weighs less than the log did. Why did that mislead them about mass?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Air's buoyancy distorted the weight of gases"
+    },
+    {
+     "id": "b",
+     "label": "Wood truly loses mass whenever it burns"
+    },
+    {
+     "id": "c",
+     "label": "Scales could not weigh any solid at all"
+    },
+    {
+     "id": "d",
+     "label": "Heat carries mass away as invisible light"
+    }
+   ],
+   "answer": "a",
+   "explain": "The conservation of mass was obscure because of the buoyancy effect of the atmosphere on the weight of gases, so burned wood seemed to lose mass.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass:q2"
+  },
+  {
+   "prompt": "A gas burner burns methane with oxygen. The mixture starts with 1 carbon atom, 4 hydrogen atoms and 4 oxygen atoms and ends with 1 carbon dioxide molecule plus water. How many water molecules must form?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Four"
+    },
+    {
+     "id": "b",
+     "label": "Three"
+    },
+    {
+     "id": "c",
+     "label": "Two"
+    },
+    {
+     "id": "d",
+     "label": "One"
+    }
+   ],
+   "answer": "c",
+   "explain": "Since the same atoms must be present at the end, the water molecules produced must be exactly two per molecule of carbon dioxide.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass:q3"
+  },
+  {
+   "prompt": "To show by weighing that mass stays constant during a reaction, what must you do with the reacting material?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Leave it open so gases can drift in and out"
+    },
+    {
+     "id": "b",
+     "label": "Keep it closed off so no matter enters or leaves"
+    },
+    {
+     "id": "c",
+     "label": "Heat it long enough to finish the reaction"
+    },
+    {
+     "id": "d",
+     "label": "Weigh only the starting materials twice"
+    }
+   ],
+   "answer": "b",
+   "explain": "The law applies to a system closed to incoming and outgoing transfers of matter; mass is not generally conserved in open systems.",
+   "cites": [
+    1,
+    12,
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass:q4"
+  },
+  {
+   "prompt": "In the 1700s a popular theory held that burning and heating could add or remove mass. How did the careful tests of mass conservation affect it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They backed it up, showing mass is gained in heating"
+    },
+    {
+     "id": "b",
+     "label": "They narrowed it to apply only to metals"
+    },
+    {
+     "id": "c",
+     "label": "They left it untouched, as it covered burning only"
+    },
+    {
+     "id": "d",
+     "label": "They disproved it, showing mass is not gained or lost"
+    }
+   ],
+   "answer": "d",
+   "explain": "The demonstrations of the principle disproved the phlogiston theory, which said mass could be gained or lost in combustion and heat processes.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass:q5"
+  },
+  {
+   "prompt": "A PET scan relies on an electron and a positron, nearly at rest, annihilating into two photons. What does that say about the law of conservation of mass?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It holds only in the classical limit, so mass is not always conserved"
+    },
+    {
+     "id": "b",
+     "label": "It holds everywhere, so the photons must be hiding the mass"
+    },
+    {
+     "id": "c",
+     "label": "It applies only to systems that contain photons"
+    },
+    {
+     "id": "d",
+     "label": "It fails only in open systems, and this one must have been open"
+    }
+   ],
+   "answer": "a",
+   "explain": "In general mass is not conserved; the law holds only in the classical limit, and electron-positron annihilation is an example.",
+   "cites": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equations.conservation-of-mass:q6"
+  }
+ ],
+ "source": {
+  "title": "Conservation of mass",
+  "url": "https://en.wikipedia.org/wiki/Conservation_of_mass",
+  "revision": 1374111824
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Nothing made, nothing lost",
+    "text": "The law of conservation of mass says that if no matter can get into or out of a system, the system's mass stays the same as time passes. Put another way, mass is never created or destroyed. It can be moved around, and the things that carry it can change form, but the total holds steady.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "What it means for reactions",
+    "text": "In a chemical reaction, the starting materials, called reactants, have the same total mass as the products they turn into. That lets chemists count atoms to predict results. If a reaction begins with one carbon atom, four hydrogen atoms and four oxygen atoms, the same atoms must be there at the end, so it must make exactly two water molecules for each molecule of carbon dioxide. The same idea is used across chemistry, mechanics and fluid dynamics, and engineers solve many problems by following where a system's mass goes over time, a method called mass balance.",
+    "cites": [
+     3,
+     4,
+     5,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Why it stayed hidden",
+    "text": "For thousands of years the law was hard to see, because the air's buoyancy distorts the weight of gases. Burnt wood, for example, weighs less than it did, which looked as though some mass had vanished. Scales could not weigh gases at all until the vacuum pump was invented in the 17th century. The answer came from careful tests in sealed glass ampoules, where reactions such as rusting left the weight of the container and its contents unchanged.",
+    "cites": [
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Old ideas, new proof",
+    "text": "The thought is ancient: Jain philosophy held as early as 520 BCE that matter cannot be made or destroyed, and Greek thinkers such as Empedocles argued that nothing comes from nothing. In chemistry, Jean Rey demonstrated the principle in 1630. Antoine Lavoisier's more refined experiments settled it in the late 18th century, and he made it widely known. These results overturned the popular phlogiston theory, which claimed burning could add or remove mass.",
+    "cites": [
+     6,
+     23,
+     25,
+     26,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "How it built modern chemistry",
+    "text": "Accepting the law was a crucial step from alchemy toward modern chemistry. Once chemists saw that substances never vanish but only change into others of the same weight, they could study chemical changes by measuring amounts for the first time. Together with the guess that some elemental substances cannot be turned into others, this led to the idea of chemical elements. Later, the thorough experiments of Jean Stas found that in some reactions any loss or gain was at most 2 to 4 parts in 100,000.",
+    "cites": [
+     7,
+     35,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Where the law breaks down",
+    "text": "Strictly, mass is not always conserved, and the law only holds in the classical limit. In 1905 Albert Einstein proposed that mass and energy are equivalent, which meant mass could even turn into electromagnetic radiation. When an electron and a positron meet nearly at rest, they annihilate and leave two photons, the process behind PET scans. Yet, as Max Planck noted, the mass change from adding or removing chemical energy is far too small for the instruments of his day to detect.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "crashcourse-fundamental-laws",
+   "kind": "video",
+   "title": "The Creation of Chemistry - The Fundamental Laws: Crash Course Chemistry #3",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=QiiyvzZBKT8",
+   "note": "A Crash Course Chemistry episode on the founding laws of chemistry and the history behind them."
+  }
+ ]
+}

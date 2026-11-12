@@ -1,0 +1,308 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.combinations.stars-and-bars",
+ "name": "Stars and bars",
+ "summary": [
+  {
+   "text": "Stars and bars is a graphical aid for deriving combinatorial theorems, also called sticks and stones or balls and bars.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It solves counting problems such as how many ways n indistinguishable balls can be put into k distinguishable bins.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "With two balls and three bins, each string holds two stars and two bars, since two bars separate three bins.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Sticks and stones, balls and bars, dots and dividers",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Bars needed",
+   "value": "Separating k bins takes k − 1 bars placed between stars",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Slots per layout",
+   "value": "n + k − 1 slots, with k − 1 of them holding bars",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Gaps between stars",
+   "value": "With n stars there are n − 1 gaps where a bar may go",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Physics use",
+   "value": "Ehrenfest and Kamerlingh Onnes used it to derive Planck's count of complexions",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You lay 10 marbles in a row and want to drop them into 4 labelled boxes with no box left empty, using dividers placed between marbles. How many different gaps could hold a divider?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8 gaps"
+    },
+    {
+     "id": "b",
+     "label": "10 gaps"
+    },
+    {
+     "id": "c",
+     "label": "11 gaps"
+    },
+    {
+     "id": "d",
+     "label": "9 gaps"
+    }
+   ],
+   "answer": "d",
+   "explain": "With n objects in a row there are n − 1 gaps between them, so 10 marbles leave 9 places for a bar, and no gap takes more than one bar.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.stars-and-bars:q1"
+  },
+  {
+   "prompt": "You want to split a row of marbles into 4 labelled boxes by laying dividers between them. How many dividers do you need?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Four, one for each box"
+    },
+    {
+     "id": "b",
+     "label": "Three, one fewer than the boxes"
+    },
+    {
+     "id": "c",
+     "label": "Five, to also mark both ends"
+    },
+    {
+     "id": "d",
+     "label": "Two, one for each pair of boxes"
+    }
+   ],
+   "answer": "b",
+   "explain": "Separating k bins takes k − 1 bars, just as two bars separate three bins.",
+   "cites": [
+    3,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.stars-and-bars:q2"
+  },
+  {
+   "prompt": "Each of 3 boxes must hold at least one marble. Could two dividers sit side by side with no marble between them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because that would leave a box empty"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as the marbles are identical"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if the dividers are at the far ends"
+    },
+    {
+     "id": "d",
+     "label": "No, because dividers must always alternate with boxes"
+    }
+   ],
+   "answer": "a",
+   "explain": "When no bin may be empty, there is at most one bar between any two stars, so bars never touch.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.stars-and-bars:q3"
+  },
+  {
+   "prompt": "Three identical coins go into two numbered pockets. What tells two arrangements apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which particular coins are in which pocket"
+    },
+    {
+     "id": "b",
+     "label": "The order in which the coins were dropped in"
+    },
+    {
+     "id": "c",
+     "label": "Only the number of coins in each pocket"
+    },
+    {
+     "id": "d",
+     "label": "Only which pocket holds the most coins"
+    }
+   ],
+   "answer": "c",
+   "explain": "The objects cannot be told apart but the bins can, so configurations differ only by how many objects each bin holds.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.stars-and-bars:q4"
+  },
+  {
+   "prompt": "Every jar must get at least one of 7 marbles. How can you turn this into a problem where jars may also be empty?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add one extra marble to every jar before counting"
+    },
+    {
+     "id": "b",
+     "label": "Lower each jar's count by one and let jars be empty"
+    },
+    {
+     "id": "c",
+     "label": "Remove the labels so the jars cannot be told apart"
+    },
+    {
+     "id": "d",
+     "label": "Count the layouts twice, once for each jar order"
+    }
+   ],
+   "answer": "b",
+   "explain": "Requiring positive amounts is the same as shifting each amount down by one and then only requiring them to be non-negative.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.stars-and-bars:q5"
+  },
+  {
+   "prompt": "Four balls go into three bins, drawn as a row of 6 symbols: 4 stars and 2 bars. What do you choose to fix one layout?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which 2 of the 6 slots hold the bars"
+    },
+    {
+     "id": "b",
+     "label": "Which 4 balls go into the first bin"
+    },
+    {
+     "id": "c",
+     "label": "Which of the 3 bins gets the first star"
+    },
+    {
+     "id": "d",
+     "label": "Which 6 symbols are placed first"
+    }
+   ],
+   "answer": "a",
+   "explain": "Lay out n + k − 1 slots and choose k − 1 of them for the bars, or equivalently choose n for the stars.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.mathematics.probability.counting.combinations.stars-and-bars:q6"
+  }
+ ],
+ "source": {
+  "title": "Stars and bars (combinatorics)",
+  "url": "https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)",
+  "revision": 1383764551
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A picture for counting",
+    "text": "Stars and bars is a picture-based aid for deriving certain results in combinatorics. Other names for it include dots and dividers, balls and bars, and sticks and stones. It answers counting questions like this one: in how many ways can n identical balls be put into k bins that can be told apart? The method is often introduced to prove two basic theorems about how many solutions an equation has.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "Drawing the bins",
+    "text": "Because the objects are all alike, an arrangement is fixed only by how many objects land in each numbered bin. Draw the n objects as a row of stars, and mark the boundary between neighbouring bins with a bar. Separating k bins takes k − 1 bars. With two balls and three bins, for example, every picture has two stars and two bars.",
+    "cites": [
+     3,
+     11,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "No empty bins",
+    "text": "In the first theorem, every bin must hold at least one object. Then at most one bar can sit between any two stars. A row of n stars has n − 1 gaps, so the task is to choose k − 1 of those gaps for bars. That makes the number of lists of k positive integers adding up to n equal to the count of subsets of size k − 1 taken from a set with n − 1 elements.",
+    "cites": [
+     6,
+     10,
+     12,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Empty bins allowed",
+    "text": "In the second theorem, bins may be empty, so each count only has to be non-negative. Bars can now sit side by side, and they can also go before the first star or after the last. Set out n + k − 1 places in a row; picking which k − 1 of them hold bars, or equally which n hold stars, fixes the arrangement. Here the picture can even have more bars than stars, which cannot happen when no bin is empty.",
+    "cites": [
+     19,
+     20,
+     23,
+     25
+    ]
+   },
+   {
+    "heading": "One theorem from the other",
+    "text": "The first theorem can be recast as the second. Shift each variable down by 1, and the demand that each be positive becomes the demand that each be non-negative. For a fixed k, the counts for n = 0, 1, 2, 3 and onward run along the (k − 1)st diagonal of Pascal's triangle. With k = 3 they are the triangular numbers 1, 3, 6, 10, found on the second diagonal.",
+    "cites": [
+     8,
+     9,
+     24
+    ]
+   },
+   {
+    "heading": "A use in physics",
+    "text": "The same picture turned up in physics. Paul Ehrenfest and Heike Kamerlingh Onnes used it, writing ε where a star would go and 0 where a bar would go, to derive Max Planck's count of complexions for resonators of a single frequency. Their example had N = 4 and P = 7, giving R = 120 combinations. They wrote the 4-tuple (4, 2, 0, 1) as εεεε0εε00ε.",
+    "cites": [
+     26,
+     27,
+     28,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-stars-bars",
+   "kind": "video",
+   "title": "Stars and Bars (and bagels)",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=UTCScjoPymA",
+   "note": "Ken Ribet explains the stars-and-bars counting trick on Numberphile, using a bagel-buying problem."
+  }
+ ]
+}

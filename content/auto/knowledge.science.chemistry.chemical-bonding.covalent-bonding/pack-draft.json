@@ -1,0 +1,118 @@
+{
+ "title": "Sharing, not stealing",
+ "question": "What happens to electrons when atoms join without either one giving them up?",
+ "hook": "Some atoms bond with neither one winning the electrons.",
+ "idea": "Covalent bonds are shared electron pairs, and unequal pulls make the sharing lopsided.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two atoms with exactly equal electronegativity bond, as in H–H. How is the bonding pair shared?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Equally, giving a nonpolar covalent bond"
+    },
+    {
+     "id": "b",
+     "label": "Mostly held by one atom, giving a polar bond",
+     "feedback": "It tempts because bonds often look lopsided, but an unequal relationship only arises when the atoms differ in electronegativity."
+    },
+    {
+     "id": "c",
+     "label": "It is given entirely to one atom",
+     "feedback": "That would be an ionic picture. Here both atoms pull equally, so the pair is shared."
+    }
+   ],
+   "answer": "a",
+   "explain": "Two atoms with equal electronegativity make nonpolar covalent bonds such as H–H; an unequal relationship creates a polar bond such as H−Cl.",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each bond to how it is built.",
+   "pairs": [
+    [
+     "Sigma bond",
+     "Head-on overlap of orbitals"
+    ],
+    [
+     "Pi bond",
+     "Lateral overlap of p orbitals"
+    ],
+    [
+     "Double bond",
+     "One sigma and one pi"
+    ],
+    [
+     "Triple bond",
+     "One sigma and two pi"
+    ]
+   ],
+   "explain": "Sigma bonds come from head-on overlap and pi bonds from lateral overlap, and multiple bonds stack pi bonds onto one sigma bond.",
+   "cites": [
+    29,
+    31,
+    32
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each covalent substance by how its atoms are arranged.",
+   "groups": [
+    "Individual molecules",
+    "Network covalent structure"
+   ],
+   "items": [
+    [
+     "HCl",
+     "Individual molecules"
+    ],
+    [
+     "CH₄",
+     "Individual molecules"
+    ],
+    [
+     "CO₂",
+     "Individual molecules"
+    ],
+    [
+     "Diamond",
+     "Network covalent structure"
+    ],
+    [
+     "Quartz",
+     "Network covalent structure"
+    ],
+    [
+     "Graphite",
+     "Network covalent structure"
+    ]
+   ],
+   "explain": "Individual molecules such as HCl, CO₂ and CH₄ are usually gases, while network structures link huge numbers of atoms in sheets or 3-dimensional arrangements, as in graphite, diamond and quartz.",
+   "cites": [
+    39,
+    43
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about methane is wrong. Which?",
+   "steps": [
+    "Carbon in methane has a valence of four.",
+    "Each of the four bonded hydrogens adds one electron to the carbon's count.",
+    "With carbon's own four, that puts eight electrons around carbon.",
+    "Each hydrogen likewise ends up surrounded by eight electrons."
+   ],
+   "wrong": 3,
+   "explain": "Each hydrogen is surrounded by two electrons (its own plus one from carbon), following the duet rule, because its only shell holds just two.",
+   "cites": [
+    22,
+    23,
+    24
+   ]
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating",
+ "name": "Radiometric dating",
+ "summary": [
+  {
+   "text": "Radiometric dating compares the amount of a radioactive isotope in a material with the amount of its decay products, which form at a known constant rate.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It is now the principal source of information about the absolute age of rocks and other geological features, including fossils and the Earth itself.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "For most nuclides the half-life is essentially constant and unaffected by temperature or pressure, so the ratio of original nuclide to decay products acts as a clock.",
+   "cites": [
+    23,
+    25,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Pioneers",
+   "value": "Ernest Rutherford in 1906 and Bertram Boltwood in 1907",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Best-known methods",
+   "value": "Radiocarbon, potassium-argon and uranium-lead dating",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Half-life range",
+   "value": "From about 10 years to over 100 billion years",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "What it dates",
+   "value": "Rocks, fossils, artifacts, meteorites and asteroids",
+   "cites": [
+    4,
+    8,
+    9
+   ]
+  },
+  {
+   "label": "Greenland check",
+   "value": "Two methods dated gneisses at 3.60 and 3.56 billion years",
+   "cites": [
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sample holds a million atoms of a radioactive nuclide. After exactly one half-life, how many will have turned into the daughter nuclide?",
+   "options": [
+    {
+     "id": "a",
+     "label": "None yet, since decay begins after two"
+    },
+    {
+     "id": "b",
+     "label": "About 500,000 of them"
+    },
+    {
+     "id": "c",
+     "label": "All of them, since time is up"
+    },
+    {
+     "id": "d",
+     "label": "About 250,000 of them"
+    }
+   ],
+   "answer": "b",
+   "explain": "After one half-life has elapsed, one half of the atoms will have decayed into a daughter nuclide.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating:q1"
+  },
+  {
+   "prompt": "A geologist worries that burying a rock deep under heat and pressure speeds up its radioactive clock. What is the situation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, heat doubles the decay rate"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for the lightest nuclides"
+    },
+    {
+     "id": "c",
+     "label": "No, but pressure alone does change the rate"
+    },
+    {
+     "id": "d",
+     "label": "No, for most nuclides the half-life is essentially constant"
+    }
+   ],
+   "answer": "d",
+   "explain": "For most radioactive nuclides, half-life depends solely on nuclear properties and is unaffected by temperature, pressure, or chemical environment.",
+   "cites": [
+    23,
+    25,
+    26
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating:q2"
+  },
+  {
+   "prompt": "Some of the decay products leaked out of a mineral after it formed. How does that affect its calculated age?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It skews the age, since nothing is supposed to leave"
+    },
+    {
+     "id": "b",
+     "label": "It makes the age more precise"
+    },
+    {
+     "id": "c",
+     "label": "It has no effect since half-lives are fixed"
+    },
+    {
+     "id": "d",
+     "label": "It automatically doubles the age"
+    }
+   ],
+   "answer": "a",
+   "explain": "The basic equation requires that neither parent nor daughter can enter or leave the material, so loss or gain of such isotopes must be considered.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating:q3"
+  },
+  {
+   "prompt": "Two different dating methods give 3.60 and 3.56 billion years for the same Greenland rock. What does that tell geologists?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One method must be broken"
+    },
+    {
+     "id": "b",
+     "label": "The rock formed twice"
+    },
+    {
+     "id": "c",
+     "label": "The two results are consistent with each other"
+    },
+    {
+     "id": "d",
+     "label": "Half-lives differ between methods"
+    }
+   ],
+   "answer": "c",
+   "explain": "The results are consistent with each other, and correlating different methods can confirm the age of a sample.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating:q4"
+  },
+  {
+   "prompt": "A nuclide decays through several radioactive steps, each with its own half-life, before reaching a stable daughter. For dating, which step usually matters?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The shortest, since it happens before the others"
+    },
+    {
+     "id": "b",
+     "label": "The longest, since it limits the pace"
+    },
+    {
+     "id": "c",
+     "label": "The middle one, since it balances the chain"
+    },
+    {
+     "id": "d",
+     "label": "All steps count about equally in the end"
+    }
+   ],
+   "answer": "b",
+   "explain": "The half-life of interest is usually the longest in the chain, the rate-limiting factor in the transformation.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating:q5"
+  },
+  {
+   "prompt": "No one can predict when a single atom will decay. Why can a rock still be dated?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each atom waits out exactly one half-life first"
+    },
+    {
+     "id": "b",
+     "label": "Rocks only contain atoms that decay very slowly"
+    },
+    {
+     "id": "c",
+     "label": "A big group of atoms decays at a steady rate"
+    },
+    {
+     "id": "d",
+     "label": "Chemical tests reveal each atom's decay moment"
+    }
+   ],
+   "answer": "c",
+   "explain": "Although the moment a particular nucleus decays is unpredictable, a collection of atoms decays exponentially at a rate described by the half-life.",
+   "cites": [
+    18,
+    28
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating:q6"
+  }
+ ],
+ "source": {
+  "title": "Radiometric dating",
+  "url": "https://en.wikipedia.org/wiki/Radiometric_dating",
+  "revision": 1380701740
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Telling time by decay",
+    "text": "Radiometric dating finds the age of materials such as rocks or carbon that took in traces of radioactive impurities when they formed. It compares how much of a naturally occurring radioactive isotope remains in the material with how much of its decay products is present. Those products form at a known, constant rate.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Ernest Rutherford in 1906 and Bertram Boltwood in 1907 led the way in dating minerals and rocks like this. Today it is our main way of learning the absolute age of rocks and other geological features, from fossils to Earth itself. Combined with stratigraphic principles, it is used to set up the geologic time scale, which tells us the ages of fossils and the inferred rates of evolutionary change. It also dates archaeological materials such as ancient artifacts, and helps investigate where meteorites and asteroids came from.",
+    "cites": [
+     3,
+     4,
+     5,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "The decay clock",
+    "text": "A nuclide is one particular isotope of one particular element. Some nuclides are unstable: at some point, each atom will decay on its own and turn into a different nuclide. Nobody can predict when a single nucleus will decay, but a collection of them decays exponentially at a rate described by its half-life. After one half-life, half the atoms have turned into a daughter nuclide, also called a decay product.",
+    "cites": [
+     13,
+     14,
+     15,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "A steady rate",
+    "text": "For most radioactive nuclides the half-life depends only on nuclear properties and is essentially constant. Temperature, pressure, the chemical surroundings and magnetic or electric fields do not change it. The only exceptions are nuclides that decay by electron capture, such as beryllium-7, whose rate can be affected by the local electron density. This predictability lets the amounts of parent and daughter act as a clock, measuring the time since the parent was built into the material.",
+    "cites": [
+     23,
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Many clocks",
+    "text": "Among the best-known methods are radiocarbon, potassium–argon and uranium–lead dating. Each works accurately over its own timescale and on its own range of materials. The half-lives used run from only about 10 years, for tritium, to more than 100 billion years, for samarium-147. Often the daughter is itself radioactive, making a decay chain, and the longest half-life in that chain is usually the one that matters for dating.",
+    "cites": [
+     6,
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Keeping the clock honest",
+    "text": "The basic equation assumes that neither parent nor daughter has entered or left the material since it formed. So it is essential to learn as much as possible about the material and look for signs of alteration. If several minerals from one sample formed in the same event and were in equilibrium with their reservoir, they should form an isochron, which can reduce the problem of contamination. Different methods can also check each other: the Amitsoq gneisses of western Greenland came out at 3.60 ± 0.05 billion years by uranium–lead dating and 3.56 ± 0.10 billion years by lead–lead dating, and the two results agree.",
+    "cites": [
+     37,
+     39,
+     41,
+     42,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "earle-8-4",
+   "kind": "book",
+   "title": "8.4: Isotopic Dating Methods",
+   "by": "Steven Earle, Physical Geology (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Geology/Physical_Geology_(Earle)/08%3A_Measuring_Geological_Time/8.04%3A_Isotopic_Dating_Methods",
+   "note": "A free geology textbook section on half-life, potassium-argon, uranium-lead and radiocarbon dating of rocks.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "openstax-chem-21-3",
+   "kind": "book",
+   "title": "21.3 Radioactive Decay",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/21-3-radioactive-decay",
+   "note": "A free textbook section on decay types, half-life, and dating with carbon-14 and other nuclides.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nps-radiometric",
+   "kind": "article",
+   "title": "Radiometric Age Dating",
+   "by": "National Park Service",
+   "url": "https://www.nps.gov/subjects/geology/radiometric-age-dating.htm",
+   "note": "A National Park Service geology page explaining how radioactive decay is used to date rocks."
+  },
+  {
+   "id": "wikibooks-planet-earth-3d",
+   "kind": "book",
+   "title": "Planet Earth/3d. Radiometric dating: Using chemistry to tell time",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Planet_Earth/3d._Radiometric_dating:_Using_chemistry_to_tell_time",
+   "note": "An open textbook chapter on radiometric dating as a way of using chemistry to tell geological time.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

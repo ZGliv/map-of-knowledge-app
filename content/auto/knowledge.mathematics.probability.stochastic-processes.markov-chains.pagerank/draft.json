@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "PageRank is an algorithm Google Search uses to rank web pages, measuring a page's importance by counting the number and quality of links to it.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "A hyperlink to a page counts as a vote of support, and a page linked to by many pages with high PageRank receives a high rank itself.",
+   "cites": [
+    10,
+    12
+   ]
+  },
+  {
+   "text": "The algorithm outputs a probability distribution representing the likelihood that a person randomly clicking on links will arrive at a particular page.",
+   "cites": [
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "The term web page and co-founder Larry Page",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Developed",
+   "value": "By Larry Page and Sergey Brin at Stanford in 1996",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "First paper",
+   "value": "Published in 1998, describing PageRank and the first Google prototype",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Patent payoff",
+   "value": "Stanford sold its Google shares in 2005 for $336 million",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Patents",
+   "value": "All PageRank patents expired as of September 24, 2019",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Page A is linked to by many pages that are themselves well regarded. How is A likely to rank under PageRank?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Low, since many links look like spam"
+    },
+    {
+     "id": "b",
+     "label": "The same as any other page"
+    },
+    {
+     "id": "c",
+     "label": "Low, because only content counts"
+    },
+    {
+     "id": "d",
+     "label": "High"
+    }
+   ],
+   "answer": "d",
+   "explain": "A page linked to by many pages with high PageRank receives a high rank itself.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "In PageRank's way of thinking, what does a link from one page to another amount to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A vote of support"
+    },
+    {
+     "id": "b",
+     "label": "A warning of low quality"
+    },
+    {
+     "id": "c",
+     "label": "A copy of the other page's text"
+    },
+    {
+     "id": "d",
+     "label": "A payment between site owners"
+    }
+   ],
+   "answer": "a",
+   "explain": "A hyperlink to a page counts as a vote of support.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "The numbers PageRank produces can be read as the chance that a certain kind of visitor lands on a page. Who is that visitor?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Someone who types the address directly"
+    },
+    {
+     "id": "b",
+     "label": "Someone who always picks the newest page"
+    },
+    {
+     "id": "c",
+     "label": "Someone who searches for the page by name"
+    },
+    {
+     "id": "d",
+     "label": "Someone randomly clicking on links"
+    }
+   ],
+   "answer": "d",
+   "explain": "The output is a probability distribution representing the likelihood that a person randomly clicking on links will arrive at a particular page.",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "prompt": "Someone builds many dummy pages that all link to their own site to climb the rankings. What do the sentences say about this kind of trick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "PageRank is immune to it by its design"
+    },
+    {
+     "id": "b",
+     "label": "It may work; researchers study ignoring such links"
+    },
+    {
+     "id": "c",
+     "label": "It only works on very small web collections"
+    },
+    {
+     "id": "d",
+     "label": "Google bans it through its patent rules"
+    }
+   ],
+   "answer": "b",
+   "explain": "PageRank may be vulnerable to manipulation, and research aims at ignoring links from documents with falsely influenced rankings.",
+   "cites": [
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "The math behind PageRank, an eigenvalue problem, was rediscovered for other jobs. What was it suggested for in 1895?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ranking scientific journals"
+    },
+    {
+     "id": "b",
+     "label": "Ranking search results"
+    },
+    {
+     "id": "c",
+     "label": "Finding the winner of a chess tournament"
+    },
+    {
+     "id": "d",
+     "label": "Counting links between sites"
+    }
+   ],
+   "answer": "c",
+   "explain": "Edmund Landau suggested using the eigenvalue problem for determining the winner of a chess tournament; journal ranking came in 1976.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "PageRank treats the web as a network. In that picture, what are the nodes and what are the edges?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nodes are hyperlinks; edges are pages"
+    },
+    {
+     "id": "b",
+     "label": "Nodes are searches; edges are users"
+    },
+    {
+     "id": "c",
+     "label": "Nodes are pages; edges are hyperlinks"
+    },
+    {
+     "id": "d",
+     "label": "Nodes are authors; edges are patents"
+    }
+   ],
+   "answer": "c",
+   "explain": "The Webgraph has all World Wide Web pages as nodes and hyperlinks as edges.",
+   "cites": [
+    8
+   ]
+  }
+ ]
+}

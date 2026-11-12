@@ -1,0 +1,316 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function",
+ "name": "Probability mass function",
+ "summary": [
+  {
+   "text": "A probability mass function gives the probability that a discrete random variable is exactly equal to some value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is often the main way of defining a discrete probability distribution, for single variables or several at once.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Thinking of probability as mass helps avoid mistakes, since the total probability over all outcomes is conserved just as physical mass is.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What it gives",
+   "value": "Probability that a variable equals a value exactly",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Mode",
+   "value": "The value with the largest probability mass",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Binomial example",
+   "value": "Chance of exactly one 6 in three die rolls",
+   "cites": [
+    22,
+    24
+   ]
+  },
+  {
+   "label": "Geometric example",
+   "value": "Tossing a coin until the first heads appears",
+   "cites": [
+    25,
+    26
+   ]
+  },
+  {
+   "label": "Where it is zero",
+   "value": "Zero for all but a countable number of values",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A variable records the number shown on a die roll. What does its mass function tell you when you put in the number 4?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance that the roll is 4 or lower"
+    },
+    {
+     "id": "b",
+     "label": "The chance that the roll is exactly 4"
+    },
+    {
+     "id": "c",
+     "label": "The average of all the possible rolls"
+    },
+    {
+     "id": "d",
+     "label": "How likely a roll is to land near 4 per unit length"
+    }
+   ],
+   "answer": "b",
+   "explain": "A probability mass function gives the probability that a discrete variable is exactly equal to the value you put in.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function:q1"
+  },
+  {
+   "prompt": "In a quiz, the mass function for scores is largest at a score of 7. What is 7 called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mode"
+    },
+    {
+     "id": "b",
+     "label": "The density"
+    },
+    {
+     "id": "c",
+     "label": "The cumulative total"
+    },
+    {
+     "id": "d",
+     "label": "The mean"
+    }
+   ],
+   "answer": "a",
+   "explain": "The value of the random variable with the largest probability mass is called the mode.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function:q2"
+  },
+  {
+   "prompt": "You flip a coin over and over until the first heads shows up, and record how many flips it took. Which distribution models that number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bernoulli"
+    },
+    {
+     "id": "b",
+     "label": "Binomial"
+    },
+    {
+     "id": "c",
+     "label": "Geometric"
+    },
+    {
+     "id": "d",
+     "label": "Categorical"
+    }
+   ],
+   "answer": "c",
+   "explain": "The geometric distribution describes the number of trials needed to get one success, such as tossing a coin until the first heads.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function:q3"
+  },
+  {
+   "prompt": "You pull one marble from a bag of red, green and blue marbles and record its colour. Which distribution models a single draw like this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Geometric"
+    },
+    {
+     "id": "b",
+     "label": "Binomial"
+    },
+    {
+     "id": "c",
+     "label": "Multinomial"
+    },
+    {
+     "id": "d",
+     "label": "Categorical"
+    }
+   ],
+   "answer": "d",
+   "explain": "When a discrete distribution has two or more categories, one of which may occur in a single trial (draw), it is a categorical distribution.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function:q4"
+  },
+  {
+   "prompt": "You roll a fair die three times and count how many sixes appear. Which distribution models that count of successes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Binomial"
+    },
+    {
+     "id": "b",
+     "label": "Geometric"
+    },
+    {
+     "id": "c",
+     "label": "Bernoulli"
+    },
+    {
+     "id": "d",
+     "label": "Categorical"
+    }
+   ],
+   "answer": "a",
+   "explain": "The binomial distribution models the number of successes in n independent draws that each have two possible outcomes, such as getting exactly one 6 in three rolls.",
+   "cites": [
+    22,
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function:q5"
+  },
+  {
+   "prompt": "A smooth measurement, such as a scale reading that can be any value in a range, is a continuous variable. What is the chance it equals exactly one given value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A small but positive chance"
+    },
+    {
+     "id": "b",
+     "label": "Equal to the mass function at that value"
+    },
+    {
+     "id": "c",
+     "label": "Zero"
+    },
+    {
+     "id": "d",
+     "label": "It depends on how common the value is"
+    }
+   ],
+   "answer": "c",
+   "explain": "For a continuous random variable the probability of any single exact value is zero. That is why a mass function is used only for discrete variables.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.discrete-variables.probability-mass-function:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Discrete_probability_distrib.svg/960px-Discrete_probability_distrib.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Probability mass function",
+  "credit": "Oleg Alexandrov",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Discrete_probability_distrib.svg"
+ },
+ "source": {
+  "title": "Probability mass function",
+  "url": "https://en.wikipedia.org/wiki/Probability_mass_function",
+  "revision": 1379066223
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Probability at a point",
+    "text": "A probability mass function, or PMF, gives the probability that a discrete random variable lands exactly on a given value. It also goes by discrete probability density function, probability function or frequency function. A PMF is often the main way to define a discrete probability distribution. It works for a single random variable or for several considered together.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Mass, not density",
+    "text": "A PMF differs from a probability density function, or PDF, which belongs to continuous random variables. With a PDF, you have to integrate over an interval to get a probability. For a discrete variable, P(X = x) = 1 means that event is certain, and P(X = x) = 0 means it can never happen. That reading fails for a continuous variable, where the chance of any one exact value is 0.",
+    "cites": [
+     3,
+     4,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Why call it mass",
+    "text": "The mass picture helps prevent mistakes. Just as physical mass is conserved, so is the total probability spread over all possible outcomes. A PMF is zero everywhere except at a countable number of values of x. The value carrying the most probability mass is called the mode.",
+    "cites": [
+     5,
+     7,
+     16
+    ]
+   },
+   {
+    "heading": "Standard examples",
+    "text": "Three major distributions go with PMFs: the Bernoulli, binomial and geometric distributions. The binomial counts successes over n draws made with replacement, each independent and with two possible outcomes. One case is the chance of getting exactly one 6 in three rolls of a fair die. The geometric counts the trials needed for one success, with PMF p_X(k) = (1 − p)ᵏ⁻¹p, as when you toss a coin until the first heads.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Infinitely many outcomes",
+    "text": "A PMF can cover endlessly many outcomes. Give every positive integer i the probability 1/2ⁱ. The masses still add up to 1/2 + 1/4 + 1/8 + ⋯ = 1. So the rule that total probability must be one still holds.",
+    "cites": [
+     31
+    ]
+   },
+   {
+    "heading": "Several variables",
+    "text": "Two or more discrete random variables share a joint PMF, giving the probability of each combination of their values. The multinomial distribution is one example. Its random variables are the numbers of successes in each category after a set number of trials. The categorical distribution covers the case of a single trial in which one of two or more categories occurs.",
+    "cites": [
+     28,
+     29,
+     30,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-discrete-pdf",
+   "kind": "book",
+   "title": "4.1 Probability Distribution Function (PDF) for a Discrete Random Variable - Introductory Statistics 2e",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-1-probability-distribution-function-pdf-for-a-discrete-random-variable",
+   "note": "A free textbook section on the function giving the probability of each value of a discrete random variable.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

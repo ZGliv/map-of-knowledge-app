@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A reaction rate is how fast a chemical reaction happens, measured by how quickly a product's concentration rises or a reactant's falls.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Rates vary enormously: iron rusting in air can take many years, while cellulose burning in a fire takes a fraction of a second.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Concentration, pressure, temperature, a catalyst and surface area are among the factors that change how fast a reaction goes.",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Usual units",
+   "value": "Moles per litre per second",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "How it is measured",
+   "value": "Changes in concentration over time",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Rust versus fire",
+   "value": "Many years versus a fraction of a second",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Trend over time",
+   "value": "Slows as the reaction proceeds, for most reactions",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Preferred time unit",
+   "value": "The second, per IUPAC",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A pile of coal sits in a room full of air and nothing happens. Someone holds a lit match to it, and it catches and keeps itself hot. What did the match do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It added fresh oxygen to the coal, which had been missing from the room before"
+    },
+    {
+     "id": "b",
+     "label": "It raised the temperature enough to get the reaction going, and the reaction then kept heating itself"
+    },
+    {
+     "id": "c",
+     "label": "It turned the coal into a different substance that burns more easily"
+    },
+    {
+     "id": "d",
+     "label": "It switched off the rate, so the coal could finally start to react"
+    }
+   ],
+   "answer": "b",
+   "explain": "At room temperature the rate is negligible. The match's heat lets the reaction start, and because it gives off heat it then heats itself.",
+   "cites": [
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "prompt": "You double the amount of a reactant crammed into the same flask. Why does the reaction tend to go faster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The extra reactant makes the flask hotter, and the heat alone does all the work"
+    },
+    {
+     "id": "b",
+     "label": "Each particle becomes more reactive when it has more neighbours"
+    },
+    {
+     "id": "c",
+     "label": "The extra reactant gets used up first, which clears the way for the rest"
+    },
+    {
+     "id": "d",
+     "label": "The reactant particles meet each other more often, so more collisions happen"
+    }
+   ],
+   "answer": "d",
+   "explain": "More concentration means a higher frequency of collisions, which raises the rate.",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "prompt": "A cook pours water into a pot of salty water. The salt concentration drops. Has a chemical reaction taken place?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, the concentration fell through dilution, with no reaction involved"
+    },
+    {
+     "id": "b",
+     "label": "Yes, any fall in concentration means the salt was used up in a reaction"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because adding a liquid always starts a reaction"
+    },
+    {
+     "id": "d",
+     "label": "Only if the pot is heated, since reactions need heat to show up"
+    }
+   ],
+   "answer": "a",
+   "explain": "A concentration can fall with no chemical reaction at all, so the rate definition only applies to a single reaction in a closed system of constant volume.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "A reactant's concentration is steadily falling, yet the reaction's rate is always quoted as a positive number. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rate measures only the products, which never fall in concentration"
+    },
+    {
+     "id": "b",
+     "label": "Chemists ignore any reactant whose concentration decreases"
+    },
+    {
+     "id": "c",
+     "label": "A minus sign is built into the definition to cancel the fall, leaving a positive rate"
+    },
+    {
+     "id": "d",
+     "label": "The rate is the same as the concentration, so it cannot go down"
+    }
+   ],
+   "answer": "c",
+   "explain": "The rate of a reaction is always positive. The negative sign in the formula is there to show the reactant concentration is decreasing.",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "In a reaction, reactant B is used up three times faster than reactant A. Does the defined reaction rate change depending on whether you track A or B?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, tracking B always gives a rate three times higher"
+    },
+    {
+     "id": "b",
+     "label": "No, dividing by each substance's stoichiometric number gives the same rate either way"
+    },
+    {
+     "id": "c",
+     "label": "Yes, you must always track the slowest-consumed substance to be correct"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if the reaction takes place in a gas rather than a solution"
+    }
+   ],
+   "answer": "b",
+   "explain": "The stoichiometric numbers are included so the defined rate does not depend on which species is measured.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "A reaction has no activation barrier at all, like some radical reactions. You heat the mixture. What tends to happen to its rate constant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It decreases as the temperature rises"
+    },
+    {
+     "id": "b",
+     "label": "It rises, as it does for most reactions"
+    },
+    {
+     "id": "c",
+     "label": "It rises only if a catalyst is also present"
+    },
+    {
+     "id": "d",
+     "label": "It stays the same at every temperature, whatever the mixture"
+    }
+   ],
+   "answer": "a",
+   "explain": "Reactions without an activation barrier tend to show anti-Arrhenius behaviour: the rate constant falls as temperature rises.",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ]
+}

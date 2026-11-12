@@ -1,0 +1,102 @@
+/* Discoveries: a full page in the shell, like a hub. Colors come only from the atlas tokens
+   (cartographic-theme.css) and each item's own territory color. */
+.discoveries-workspace{position:absolute;inset:0;overflow:auto;overscroll-behavior:contain;color-scheme:dark;color:var(--atlas-text);background:radial-gradient(1100px 520px at 12% -14%,color-mix(in srgb,var(--starlight) 7%,transparent),transparent 70%),var(--atlas-chrome);scrollbar-color:var(--atlas-rule) transparent;animation:discoveries-arrive .28s ease-out}
+@keyframes discoveries-arrive{from{opacity:0;transform:translateY(6px)}}
+.studio-shell .discoveries-workspace :focus-visible{outline:2px solid var(--atlas-pale);outline-offset:3px}
+.discoveries-workspace h1:focus{outline:none}
+.discoveries-page{max-width:1060px;margin:0 auto;padding:clamp(28px,5vw,64px) clamp(18px,5vw,56px) 96px}
+
+/* Hero: the title, what is understood so far, and one mark per thing to learn. */
+.discoveries-hero h1{font:400 clamp(40px,5.4vw,64px)/1 var(--atlas-serif);letter-spacing:-1px;color:var(--atlas-bright);margin:0}
+.discoveries-stats{display:flex;flex-wrap:wrap;gap:12px 44px;margin:30px 0 0}
+.discoveries-stats div{display:grid;gap:4px}
+.discoveries-stats dt{font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--atlas-muted)}
+.discoveries-stats dd{margin:0;font:400 34px/1 var(--atlas-serif);color:var(--atlas-bright);font-variant-numeric:tabular-nums}
+.discoveries-stats dd small{font-size:17px;color:var(--atlas-muted)}
+.discoveries-strip{list-style:none;padding:0;margin:24px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(10px,1fr));gap:5px;max-width:560px}
+.discoveries-strip li{height:4px;border-radius:2px;background:var(--atlas-rule)}
+.discoveries-strip li:is(.is-in-progress,.is-glimpsed,.is-familiar){background:color-mix(in srgb,var(--item-color) 38%,var(--atlas-rule))}
+.discoveries-strip li.is-understood{background:var(--item-color);box-shadow:0 0 10px color-mix(in srgb,var(--item-color) 45%,transparent)}
+
+/* Sections */
+.discoveries-section{margin-top:clamp(48px,7vw,80px)}
+.discoveries-section--lead{margin-top:clamp(40px,6vw,60px)}
+.discoveries-section-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:14px;margin-bottom:20px;border-bottom:1px solid var(--atlas-rule)}
+.discoveries-section-head h2{font:400 clamp(24px,2.5vw,30px)/1.2 var(--atlas-serif);letter-spacing:-.3px;color:var(--atlas-bright);margin:0}
+.discoveries-section-head span{font-size:11px;letter-spacing:1.4px;color:var(--atlas-muted);font-variant-numeric:tabular-nums}
+
+/* Lead: the one to pick up, or the one to begin with. */
+.discoveries-lead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border:1px solid var(--atlas-rule);border-radius:6px;overflow:hidden;background:linear-gradient(120deg,var(--atlas-panel),color-mix(in srgb,var(--atlas-panel) 84%,var(--item-color)))}
+.discoveries-lead-media{min-height:300px;cursor:pointer}
+.discoveries-lead-body{display:flex;flex-direction:column;justify-content:center;gap:12px;padding:clamp(24px,3.4vw,44px)}
+.discoveries-lead h3{font:400 clamp(27px,3vw,36px)/1.12 var(--atlas-serif);letter-spacing:-.5px;color:var(--atlas-bright);margin:0;text-wrap:balance}
+.discoveries-lead-question{font:italic 400 18px/1.45 var(--atlas-serif);color:var(--atlas-highlight);margin:0}
+.discoveries-lead .learnable-meta{margin:2px 0 10px;padding:0}
+.discoveries-primary{align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-height:46px;min-width:150px;padding:0 26px;border-radius:999px;background:linear-gradient(180deg,color-mix(in oklab,var(--item-color) 14%,#f7f9ff),color-mix(in oklab,var(--item-color) 34%,#d3dbf7));color:var(--atlas-button-ink);font-weight:600;font-size:15px;letter-spacing:.1px;box-shadow:inset 0 1px 0 rgb(255 255 255/.75),0 0 0 4px color-mix(in srgb,var(--item-color) 14%,transparent),0 10px 26px -12px color-mix(in srgb,var(--item-color) 70%,transparent);transition:transform .16s ease,filter .16s}
+.discoveries-primary:hover{filter:brightness(1.05)}
+.discoveries-primary:active{transform:translateY(1px)}
+.discoveries-section--lead .learnable-list{margin-top:8px}
+
+/* Covers: an expedition's still, or a discovery's emblem on its territory's light. */
+.learnable-cover,.learnable-art{position:relative;overflow:hidden;background:var(--atlas-shade)}
+.learnable-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.learnable-art{display:grid;place-items:center;color:color-mix(in oklab,var(--art-c) 72%,#fff);background:radial-gradient(circle at 50% 50%,color-mix(in srgb,var(--art-c) 20%,transparent),transparent 58%),radial-gradient(circle at 18% 14%,color-mix(in srgb,var(--art-a) 30%,transparent),transparent 55%),radial-gradient(circle at 86% 90%,color-mix(in srgb,var(--art-b) 26%,transparent),transparent 55%),var(--atlas-shade)}
+.learnable-art svg{width:62%;height:62%;filter:drop-shadow(0 0 6px color-mix(in srgb,var(--art-c) 55%,transparent))}
+.discoveries-lead-media.learnable-art svg{width:min(46%,180px);height:auto;stroke-width:1.1}
+
+/* Territories */
+.discoveries-territory+.discoveries-territory{margin-top:40px}
+.discoveries-territory h3{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 4px}
+.discoveries-territory h3 button{display:inline-flex;align-items:center;gap:10px;padding:6px 0;background:none;font:400 21px/1.2 var(--atlas-serif);color:var(--atlas-bright)}
+.discoveries-territory h3 button:hover{text-decoration:underline;text-underline-offset:5px;text-decoration-color:var(--atlas-border-strong)}
+.discoveries-territory h3 i{width:8px;height:8px;border-radius:50%;background:var(--item-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--item-color) 14%,transparent),0 0 10px color-mix(in srgb,var(--item-color) 45%,transparent)}
+.discoveries-territory h3>span{font-size:13px;color:var(--atlas-secondary);font-variant-numeric:tabular-nums}
+.discoveries-territory h3>span small{font-size:13px;color:var(--atlas-faint)}
+
+/* Rows */
+.learnable-list{list-style:none;margin:0;padding:0}
+@media(min-width:861px){.learnable-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:44px}}
+.learnable{display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:18px;padding:18px 0;border-bottom:1px solid color-mix(in srgb,var(--atlas-rule) 70%,transparent)}
+.learnable-thumb{grid-row:span 2;width:72px;height:72px;border-radius:4px;cursor:pointer;transition:filter .15s}
+.learnable-thumb::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgb(255 255 255/.06);pointer-events:none}
+.learnable-thumb:hover,.learnable:has(.learnable-open:hover) .learnable-thumb{filter:brightness(1.14)}
+.learnable-open{display:grid;gap:4px;min-width:0;align-self:start;padding:0;background:none;text-align:left;color:inherit}
+.learnable-open strong{font:400 18px/1.3 var(--atlas-serif);color:var(--atlas-text)}
+.learnable-open>span{font-size:13.5px;line-height:1.5;color:var(--atlas-muted)}
+.learnable-open:hover strong,.learnable:has(.learnable-thumb:hover) .learnable-open strong{color:var(--atlas-bright);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--atlas-border-strong)}
+.learnable-meta{display:flex;align-items:center;gap:6px 14px;min-width:0;margin:8px 0 0;font-size:12.5px;color:var(--atlas-muted);font-variant-numeric:tabular-nums}
+.learnable-meta>span:first-child{flex-shrink:0}
+.learnable-place{display:inline-flex;align-items:center;gap:5px;min-width:0;min-height:28px;padding:0;background:none;color:var(--atlas-secondary);font-size:12.5px}
+.learnable-place svg{color:var(--item-color);flex-shrink:0}
+.learnable-place>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.learnable-place:hover{color:var(--atlas-bright)}
+.learnable-place:hover span{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--atlas-border-strong)}
+.learnable-status{flex-shrink:0;margin-left:auto;padding:3px 8px;border:1px solid var(--atlas-rule);border-radius:2px;font-size:10px;line-height:1.4;letter-spacing:1.1px;text-transform:uppercase;color:var(--atlas-muted);white-space:nowrap}
+.learnable-status.is-understood{border-color:var(--item-color);background:color-mix(in srgb,var(--item-color) 24%,transparent);color:var(--atlas-bright)}
+.learnable-status:is(.is-familiar,.is-in-progress){border-color:color-mix(in srgb,var(--item-color) 70%,transparent);color:var(--atlas-text)}
+
+@media(max-width:800px){
+ .discoveries-page{padding:28px 20px 40px}
+ .discoveries-hero h1{font-size:40px}
+ .discoveries-stats{gap:10px 32px;margin-top:22px}
+ .discoveries-stats dd{font-size:28px}
+ .discoveries-stats dd small{font-size:15px}
+ .discoveries-strip{margin-top:20px}
+ .discoveries-section{margin-top:44px}
+ .discoveries-section--lead{margin-top:36px}
+ .discoveries-section-head{margin-bottom:12px}
+ .discoveries-lead{grid-template-columns:1fr}
+ .discoveries-lead-media{min-height:0;aspect-ratio:16/9}
+ .discoveries-lead-body{padding:20px 20px 22px;gap:10px}
+ .discoveries-lead h3{font-size:26px}
+ .discoveries-lead-question{font-size:16.5px}
+ .discoveries-primary{align-self:stretch}
+ .learnable{grid-template-columns:60px minmax(0,1fr);column-gap:14px;padding:16px 0}
+ .learnable-thumb{width:60px;height:60px}
+ .learnable-open strong{font-size:17px}
+ .learnable-open>span{font-size:13px}
+ .discoveries-territory+.discoveries-territory{margin-top:32px}
+ /* The piece's own name is enough on a phone; the group already says the territory. */
+ .learnable-place-parent{display:none}
+}
+@media(prefers-reduced-motion:reduce){.discoveries-workspace{animation:none}.discoveries-primary{transition:none}}

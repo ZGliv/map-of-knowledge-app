@@ -1,0 +1,341 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.general-relativity.gravitational-lens",
+ "name": "Gravitational lens",
+ "summary": [
+  {
+   "text": "A gravitational lens is matter, such as a galaxy cluster, in enough quantity and density to bend light noticeably from a distant source on its way to an observer.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "General relativity describes the amount of bending, which is twice what Newtonian physics predicts if light is treated as tiny particles.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "A lens can turn one source into a ring, arcs or multiple images, and it acts on all kinds of radiation, even gravitational waves.",
+   "cites": [
+    10,
+    16,
+    33
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Einstein ring",
+   "value": "Source, lens and observer in a line give a ring",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "1919 eclipse test",
+   "value": "Eddington and Dyson saw starlight bent near the Sun",
+   "cites": [
+    42,
+    45
+   ]
+  },
+  {
+   "label": "Focal behavior",
+   "value": "A point-like lens has a focal line, not one focal point",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Zwicky's idea",
+   "value": "Galaxy clusters as lenses, confirmed by observation in 1979",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A distant galaxy, a massive foreground galaxy and Earth line up perfectly with a circular lens. What does an observer see?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The source appears as a ring around the lens"
+    },
+    {
+     "id": "b",
+     "label": "Two identical copies of the source side by side"
+    },
+    {
+     "id": "c",
+     "label": "The source vanishes behind the lens"
+    },
+    {
+     "id": "d",
+     "label": "A single brighter dot at the center"
+    }
+   ],
+   "answer": "a",
+   "explain": "With a straight-line alignment and circular symmetry the source appears as a ring; any misalignment gives arc segments.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity.gravitational-lens:q1"
+  },
+  {
+   "prompt": "A whole galaxy cluster sits in front of a distant galaxy, and the cluster is lumpy rather than round. What may an observer see?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A perfect ring every time"
+    },
+    {
+     "id": "b",
+     "label": "No change in the source whatsoever"
+    },
+    {
+     "id": "c",
+     "label": "Only a dimmer copy of the source"
+    },
+    {
+     "id": "d",
+     "label": "Partial arcs and several distorted images of it"
+    }
+   ],
+   "answer": "d",
+   "explain": "A complex lensing mass does not cause a spherical distortion, so the source resembles partial arcs and may show multiple distorted images.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity.gravitational-lens:q2"
+  },
+  {
+   "prompt": "Astronomers measure the shapes of huge numbers of faint galaxies and average their orientations. What can they reconstruct this way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mass spread there, dark matter included"
+    },
+    {
+     "id": "b",
+     "label": "The ages of each of the galaxies measured"
+    },
+    {
+     "id": "c",
+     "label": "The chemical makeup of the lensing mass"
+    },
+    {
+     "id": "d",
+     "label": "The exact distance to every galaxy seen"
+    }
+   ],
+   "answer": "a",
+   "explain": "Averaging the stretching of many background galaxies measures the shear of the lensing field, and from that the mass distribution can be reconstructed.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity.gravitational-lens:q3"
+  },
+  {
+   "prompt": "A glass lens brings light to a single focus. Why does a point-like gravitational lens not do this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity only bends the red part of light"
+    },
+    {
+     "id": "b",
+     "label": "Light nearest its center bends most, farther less"
+    },
+    {
+     "id": "c",
+     "label": "Gravity squeezes all light into one narrow beam"
+    },
+    {
+     "id": "d",
+     "label": "The lens is too small to bend any light at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "Deflection is greatest for light passing nearest the center and smallest for light farthest out, so there is a focal line instead of a point.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity.gravitational-lens:q4"
+  },
+  {
+   "prompt": "A distant star brightens for a while and then fades back, with no change in its shape. A star in a galaxy in front is moving across the line of sight. What is likely happening?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The distant star is exploding and cooling"
+    },
+    {
+     "id": "b",
+     "label": "A dust cloud is shielding the star"
+    },
+    {
+     "id": "c",
+     "label": "The nearer star is acting as a microlens that magnifies it"
+    },
+    {
+     "id": "d",
+     "label": "The telescope lens is being distorted"
+    }
+   ],
+   "answer": "c",
+   "explain": "When no shape distortion is seen but the amount of light changes over time, a star can act as a microlens and boost a more distant star's brightness.",
+   "cites": [
+    29,
+    31
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity.gravitational-lens:q5"
+  },
+  {
+   "prompt": "A strong lens shows two images of the same flaring quasar, and the flare appears in one image before the other. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One image is just a mirror copy of the other"
+    },
+    {
+     "id": "b",
+     "label": "The quasar happened to flare twice on its own"
+    },
+    {
+     "id": "c",
+     "label": "The images were taken by two different telescopes"
+    },
+    {
+     "id": "d",
+     "label": "Each image took a different path and travel time"
+    }
+   ],
+   "answer": "d",
+   "explain": "A strong lens with multiple images creates a relative time delay between the two paths, so one image shows the event before the other.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity.gravitational-lens:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/A_Horseshoe_Einstein_Ring_from_Hubble.JPG/960px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Gravitational lens",
+  "credit": "Lensshoe_hubble.jpg: ESA/Hubble &amp; NASA derivative work: Bulwersator (talk)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Horseshoe_Einstein_Ring_from_Hubble.JPG"
+ },
+ "source": {
+  "title": "Gravitational lens",
+  "url": "https://en.wikipedia.org/wiki/Gravitational_lens",
+  "revision": 1380947259
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Gravity that bends light",
+    "text": "A gravitational lens is any matter, for example a galaxy cluster, that is plentiful and dense enough to bend light from a distant source on its way to an observer. Einstein's general theory of relativity describes how much the light bends. Newton's physics also predicts some bending if light is pictured as tiny particles moving at light speed, but only half as much.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Not like a glass lens",
+    "text": "A gravitational lens does not behave like an ordinary optical lens. A point-like gravitational lens bends light most when it passes closest to the center and least when it passes farthest away. As a result it has no single focal point, only a focal line. Lodge, who first used the word lens for this effect, remarked that the Sun's gravity could not strictly be called a lens, since it has no focal length.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Rings, arcs and copies",
+    "text": "What an observer sees depends on how things line up. If the source, the lens and the observer sit in a straight line and the lens is circular, the source appears as a ring around the lens, known as an Einstein ring. Any misalignment turns the ring into an arc. When the lens is complex, like a group or cluster of galaxies, the source can show up as scattered partial arcs or as several distorted copies, depending on the positions involved and the shape of the lens's gravity well.",
+    "cites": [
+     10,
+     11,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Strong and weak lensing",
+    "text": "In strong lensing the distortions are easy to see: rings, arcs and multiple images. Even so, a galaxy with over 100 billion times the Sun's mass splits images by only a few arcseconds, while galaxy clusters can reach several arcminutes. In weak lensing the distortions are only a few percent, so they appear only when huge numbers of background galaxies are studied together. Averaging their shapes and orientations reveals how mass, including dark matter, is spread through a region.",
+    "cites": [
+     17,
+     18,
+     19,
+     21,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Changing brightness",
+    "text": "In a third case no change of shape is visible, but the amount of light from the background object changes over time. The lens might be a star in the Milky Way and the source a star in a remote galaxy or a quasar even farther off. At the extreme, one star in a faraway galaxy can work as a microlens, magnifying another star that lies much farther away. The first example was MACS J1149 Lensed Star 1, also called Icarus.",
+    "cites": [
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "More than visible light",
+    "text": "Lenses act the same on every kind of electromagnetic radiation, not just visible light, and even on gravitational waves. Strong lenses have also been seen in radio waves and X-rays. When a strong lens makes several images, the light along one path takes longer than along another, so the lensed object is seen in one image before the other.",
+    "cites": [
+     33,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "From Newton to the 1919 eclipse",
+    "text": "Henry Cavendish in 1784 and Johann Georg von Soldner in 1801 pointed out that Newton's gravity predicts starlight bending around a massive object. Einstein reached Soldner's value in 1911, then saw in 1915 that it was only half the right answer, and became the first to calculate the correct amount. In 1919 Arthur Eddington, Frank Watson Dyson and colleagues watched stars near the Sun during the total eclipse of May 29, from Brazil and from São Tomé and Príncipe. The stars appeared slightly out of position, showing that their light had been bent.",
+    "cites": [
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "nasa-hubble-lenses",
+   "kind": "article",
+   "title": "Hubble Gravitational Lenses",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-gravitational-lenses/",
+   "note": "NASA's Hubble images of lensing by galaxy clusters and stars, and how lensing maps dark matter."
+  },
+  {
+   "id": "pbs-lensing",
+   "kind": "video",
+   "title": "The Strange Universe of Gravitational Lensing",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=Dgv2WWpm7_s",
+   "minutes": 14,
+   "note": "A PBS Space Time video on how gravity bends light and what lensing lets astronomers see."
+  }
+ ]
+}

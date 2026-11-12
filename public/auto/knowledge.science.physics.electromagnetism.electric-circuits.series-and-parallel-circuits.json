@@ -1,0 +1,352 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits",
+ "name": "Series and parallel circuits",
+ "summary": [
+  {
+   "text": "Two-terminal parts such as resistors or bulbs can be wired in series, one after another along a single path, or in parallel, side by side along several paths.",
+   "cites": [
+    1,
+    5,
+    7
+   ]
+  },
+  {
+   "text": "In a series circuit every part carries the same current, while the voltages across the parts add up to the voltage across the whole.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "In a parallel circuit every part has the same voltage across it, while the currents through the parts add up to the total current.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Series bulbs",
+   "value": "Four bulbs on a 12-volt battery get 3 volts each",
+   "cites": [
+    14,
+    17
+   ]
+  },
+  {
+   "label": "Parallel bulbs",
+   "value": "The same four bulbs would each get the full 12 volts",
+   "cites": [
+    14,
+    18
+   ]
+  },
+  {
+   "label": "Car battery",
+   "value": "Six 2-volt cells in series make 12 volts",
+   "cites": [
+    44,
+    45
+   ]
+  },
+  {
+   "label": "Two switches in series",
+   "value": "They act as a logical AND",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "label": "Christmas lights",
+   "value": "One dead bulb stops an older series string",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An older string of Christmas lights goes completely dark when one bulb is removed. How are the bulbs wired?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In series, so breaking the single path stops everything"
+    },
+    {
+     "id": "b",
+     "label": "In parallel, so each bulb needs the others lit"
+    },
+    {
+     "id": "c",
+     "label": "In parallel, so the battery runs down at once"
+    },
+    {
+     "id": "d",
+     "label": "In series, so the voltage drops to zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "A series circuit has one path, so opening it anywhere stops the whole circuit.",
+   "cites": [
+    25,
+    26,
+    27
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits:q1"
+  },
+  {
+   "prompt": "Three lamps are each wired to a battery in their own separate loop. One lamp burns out. What happens to the other two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both go dark, since the circuit is broken"
+    },
+    {
+     "id": "b",
+     "label": "They stay lit, since each has its own circuit"
+    },
+    {
+     "id": "c",
+     "label": "They dim, because they must share the current"
+    },
+    {
+     "id": "d",
+     "label": "They flare brighter, taking over the lost lamp's share"
+    }
+   ],
+   "answer": "b",
+   "explain": "In parallel each lamp has its own circuit, so the others still work when one fails.",
+   "cites": [
+    16,
+    21
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits:q2"
+  },
+  {
+   "prompt": "Four identical bulbs are wired one after another in a single loop to a 12-volt battery, and they barely glow. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each bulb gets the whole 12 volts, which is too much"
+    },
+    {
+     "id": "b",
+     "label": "The current is used up by the first bulb in the loop"
+    },
+    {
+     "id": "c",
+     "label": "The battery voltage is split among the bulbs"
+    },
+    {
+     "id": "d",
+     "label": "The bulbs push the current backwards against each other"
+    }
+   ],
+   "answer": "c",
+   "explain": "In series the voltage is shared out, leaving about 3 volts per bulb, which may not be enough to make them glow.",
+   "cites": [
+    15,
+    17
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits:q3"
+  },
+  {
+   "prompt": "Several devices are wired in parallel to one battery. How does the battery's current compare with the current in one device?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the same as in each single device"
+    },
+    {
+     "id": "b",
+     "label": "It is smaller, as the devices share the voltage"
+    },
+    {
+     "id": "c",
+     "label": "It is zero, since the devices cancel each other"
+    },
+    {
+     "id": "d",
+     "label": "It is the sum of the currents through all the devices"
+    }
+   ],
+   "answer": "d",
+   "explain": "In a parallel circuit the total current is the sum of the currents through each component.",
+   "cites": [
+    8,
+    13,
+    18
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits:q4"
+  },
+  {
+   "prompt": "A circuit has two switches wired in series with a lamp. When does the lamp light?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When at least one switch is closed"
+    },
+    {
+     "id": "b",
+     "label": "When both switches are closed"
+    },
+    {
+     "id": "c",
+     "label": "When both switches are open"
+    },
+    {
+     "id": "d",
+     "label": "Only when the switches are alternately closed"
+    }
+   ],
+   "answer": "b",
+   "explain": "Switches in series act as a logical AND: current flows only if every switch is closed.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits:q5"
+  },
+  {
+   "prompt": "A battery pack must reach 12 volts but is built from 2-volt cells. How should the six cells be joined?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In parallel, so the voltages add up"
+    },
+    {
+     "id": "b",
+     "label": "In parallel, so the currents match"
+    },
+    {
+     "id": "c",
+     "label": "In series, so the voltages add up"
+    },
+    {
+     "id": "d",
+     "label": "In series, so each keeps its own 2 volts"
+    }
+   ],
+   "answer": "c",
+   "explain": "Cells connected in series add their voltages, as in a 12 volt car battery made of six 2-volt cells.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.series-and-parallel-circuits:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Series_circuit.svg/960px-Series_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Series and parallel circuits",
+  "credit": "Mets501",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Series_circuit.svg"
+ },
+ "source": {
+  "title": "Series and parallel circuits",
+  "url": "https://en.wikipedia.org/wiki/Series_and_parallel_circuits",
+  "revision": 1371301706
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two ways to connect",
+    "text": "Components with two terminals, such as resistors, can be joined in series or in parallel. In series they sit one after another along a single electrical path. In parallel they sit side by side across several paths. A circuit wired entirely one way is called a series circuit or a parallel circuit. The group that results also has two terminals, so it can itself be joined in series or in parallel with other parts.",
+    "cites": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "heading": "The series rules",
+    "text": "A series circuit has only one path for its current. So the same current passes through every component, equal to the current through the whole network. The voltage across the whole chain is the sum of the voltage drops across the separate components. Series circuits are sometimes called current-coupled.",
+    "cites": [
+     5,
+     6,
+     12,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "The parallel rules",
+    "text": "In a parallel circuit, all the components share one voltage, which matches the voltage across the whole network. The total current is the sum of the currents through the separate components. These rules mirror the series ones, with the roles of voltage and current swapped.",
+    "cites": [
+     7,
+     8,
+     9,
+     13
+    ]
+   },
+   {
+    "heading": "Four bulbs and a battery",
+    "text": "Picture four light bulbs and a 12-volt battery. Wire them in one continuous loop, from the battery through each bulb in turn and back, and they are in series. Then the same current runs through all four, each bulb gets a 3-volt drop, and that may not be enough to make them glow. Give each bulb its own separate loop to the battery and they are in parallel. Then each bulb gets the full 12 volts and they all glow, while their currents combine into the battery's current.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "When one part fails",
+    "text": "In a series circuit every device must work for the circuit to be complete. Open or break it at any point and the whole circuit stops. For example, in an older string of Christmas tree lights, one burnt-out or removed bulb leaves the entire string dead until it is replaced. In a parallel circuit each bulb has its own circuit, so even if all but one burn out, the last one still works.",
+    "cites": [
+     19,
+     20,
+     21,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Switches and batteries",
+    "text": "The same ideas appear in other places. Two or more switches in series act as a logical AND: current flows only when every switch is closed. A battery is a collection of electrochemical cells, and when the cells are wired in series, the battery's voltage is the sum of the cell voltages. A 12-volt car battery, for instance, holds six 2-volt cells in series.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cp-series-parallel",
+   "kind": "book",
+   "title": "21.1 Resistors in Series and Parallel - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+   "note": "A free textbook section on combining resistors in series and in parallel, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-series-parallel",
+   "kind": "book",
+   "title": "FHSST Physics/Electricity/Series and Parallel",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/FHSST_Physics/Electricity/Series_and_Parallel",
+   "note": "A short free textbook page on series and parallel circuit connections.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "crash-course-dc-resistors",
+   "kind": "video",
+   "title": "DC Resistors & Batteries: Crash Course Physics #29",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=g-wjP1otQWI",
+   "note": "A Crash Course Physics episode on resistors and batteries in DC circuits, including series and parallel combinations."
+  }
+ ]
+}

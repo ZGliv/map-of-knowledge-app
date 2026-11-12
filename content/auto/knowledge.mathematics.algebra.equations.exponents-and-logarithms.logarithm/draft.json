@@ -1,0 +1,224 @@
+{
+  "summary": [
+    {
+      "text": "The logarithm of a number is the exponent to which a fixed value, the base, must be raised to produce that number.",
+      "cites": [
+        1
+      ]
+    },
+    {
+      "text": "For example, the logarithm of 1000 to base 10 is 3, because 1000 = 10³ = 10 × 10 × 10.",
+      "cites": [
+        2
+      ]
+    },
+    {
+      "text": "The logarithm is the inverse of exponentiation, and it turns multiplication into addition, which let tables of logarithms speed up calculation before computers.",
+      "cites": [
+        4,
+        23,
+        32
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Common logarithm",
+      "value": "Base 10, commonly used in science and engineering",
+      "cites": [
+        5
+      ]
+    },
+    {
+      "label": "Natural logarithm",
+      "value": "Its base is e ≈ 2.718",
+      "cites": [
+        6
+      ]
+    },
+    {
+      "label": "Binary logarithm",
+      "value": "Base 2, used in computer science and photography",
+      "cites": [
+        7
+      ]
+    },
+    {
+      "label": "Counting digits",
+      "value": "log₁₀(5986) is about 3.78, and the number has 4 digits",
+      "cites": [
+        39,
+        40
+      ]
+    },
+    {
+      "label": "Euler's role",
+      "value": "Connected logarithms to the exponential function in the 18th century",
+      "cites": [
+        11
+      ]
+    }
+  ],
+  "items": [
+    {
+      "prompt": "Ten times ten gives 100. What is the logarithm of 100 to base 10?",
+      "options": [
+        {
+          "id": "a",
+          "label": "100"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "answer": "d",
+      "explain": "The logarithm is the exponent the base must be raised to in order to make the number. Using 10 twice in a product gives 100, so the exponent is 2.",
+      "cites": [
+        1,
+        2
+      ]
+    },
+    {
+      "prompt": "Sound strength varies over a very wide range. Why do engineers report it on a logarithmic scale such as decibels?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Because loud sounds are always exactly ten times a quiet one"
+        },
+        {
+          "id": "b",
+          "label": "Because logarithms make the louder sounds easier to hear"
+        },
+        {
+          "id": "c",
+          "label": "Because it squeezes a huge range of values into small, manageable numbers"
+        },
+        {
+          "id": "d",
+          "label": "Because quiet sounds cannot be measured any other way"
+        }
+      ],
+      "answer": "c",
+      "explain": "Logarithmic scales reduce wide-ranging quantities to smaller scopes, and the decibel expresses ratios as logarithms.",
+      "cites": [
+        12,
+        13
+      ]
+    },
+    {
+      "prompt": "Before computers, a clerk had to multiply two huge numbers. How did a table of logarithms help?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It turned the multiplication into an addition"
+        },
+        {
+          "id": "b",
+          "label": "It turned the multiplication into a subtraction"
+        },
+        {
+          "id": "c",
+          "label": "It listed the final product of every pair of numbers"
+        },
+        {
+          "id": "d",
+          "label": "It replaced the multiplication with a division by the base"
+        }
+      ],
+      "answer": "a",
+      "explain": "The logarithm of a product is the sum of the logarithms, so tables let multiplication be reduced to addition.",
+      "cites": [
+        23,
+        32
+      ]
+    },
+    {
+      "prompt": "A whole number has a base-10 logarithm of about 6.4. How many digits does the number have?",
+      "options": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        },
+        {
+          "id": "d",
+          "label": "64"
+        }
+      ],
+      "answer": "b",
+      "explain": "The number of digits is the smallest integer strictly bigger than the base-10 logarithm, and the next integer above 6.4 is 7.",
+      "cites": [
+        38
+      ]
+    },
+    {
+      "prompt": "A computer science paper writes log with no base shown. Which base is it most likely to mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Base 10"
+        },
+        {
+          "id": "b",
+          "label": "Base e"
+        },
+        {
+          "id": "c",
+          "label": "Base 2"
+        },
+        {
+          "id": "d",
+          "label": "Base 1"
+        }
+      ],
+      "answer": "c",
+      "explain": "In computer science and information theory, log often refers to the base 2 logarithm.",
+      "cites": [
+        45
+      ]
+    },
+    {
+      "prompt": "Raising 5 to some power gives 125. Which statement says the same fact in logarithm language?",
+      "options": [
+        {
+          "id": "a",
+          "label": "That power is the logarithm of 125 to base 5"
+        },
+        {
+          "id": "b",
+          "label": "That power is the logarithm of 5 to base 125"
+        },
+        {
+          "id": "c",
+          "label": "The number 125 is the logarithm of that power to base 5"
+        },
+        {
+          "id": "d",
+          "label": "The number 5 is the logarithm of 125 to that base"
+        }
+      ],
+      "answer": "a",
+      "explain": "The logarithm of a number to a base is the exponent that base must be raised to in order to produce the number.",
+      "cites": [
+        1,
+        24
+      ]
+    }
+  ]
+}

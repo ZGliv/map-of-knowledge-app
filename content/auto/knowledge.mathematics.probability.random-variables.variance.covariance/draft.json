@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "Covariance is a measure of how two random variables vary together, a joint variability.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is positive when the variables tend to show similar behavior and negative when they tend to show opposite behavior.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Changing the units changes its value, so the correlation coefficient rescales it to a number between -1 and 1.",
+   "cites": [
+    6,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Positive sign",
+   "value": "The variables tend to show similar behavior",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Negative sign",
+   "value": "The variables tend to show opposite behavior",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "Units of X times units of Y",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Zero covariance",
+   "value": "Such variables are called uncorrelated",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Correlation range",
+   "value": "The normalized version lies between -1 and 1",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On hot days a shop sells more ice cream, and on cold days it sells less. What is the sign of the covariance between temperature and sales?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Negative, as the two don't match"
+    },
+    {
+     "id": "b",
+     "label": "Zero, as temperature isn't a number"
+    },
+    {
+     "id": "c",
+     "label": "It has no sign at all"
+    },
+    {
+     "id": "d",
+     "label": "Positive, as they move in the same way"
+    }
+   ],
+   "answer": "d",
+   "explain": "Covariance is positive when two variables tend to show similar behavior.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A researcher measures the heights of some people in meters and then recomputes the covariance with weight after switching heights to millimeters. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The covariance value changes in proportion"
+    },
+    {
+     "id": "b",
+     "label": "The covariance is exactly the same"
+    },
+    {
+     "id": "c",
+     "label": "The covariance turns negative"
+    },
+    {
+     "id": "d",
+     "label": "The covariance always becomes zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "Changing units changes the covariance value proportionally, which is why it is hard to judge the strength of a relationship from covariance alone.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Two variables have a covariance of exactly zero. Does it follow that they are independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, zero means no link of any kind"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it only happens when they are unrelated"
+    },
+    {
+     "id": "c",
+     "label": "No, they could be linked in a non-linear way"
+    },
+    {
+     "id": "d",
+     "label": "No, it means one is constant"
+    }
+   ],
+   "answer": "c",
+   "explain": "Covariance measures linear dependence, so uncorrelated variables need not be independent.",
+   "cites": [
+    21,
+    22
+   ]
+  },
+  {
+   "prompt": "You want to compare how strongly two pairs of variables go together, but one pair is in dollars and the other in kilograms. What should you use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The correlation coefficient"
+    },
+    {
+     "id": "b",
+     "label": "Whichever covariance is larger"
+    },
+    {
+     "id": "c",
+     "label": "The sum of the two covariances"
+    },
+    {
+     "id": "d",
+     "label": "The sample size of each pair"
+    }
+   ],
+   "answer": "a",
+   "explain": "The correlation coefficient normalizes covariance to a value between -1 and 1, so pairs with different units can be compared.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "Two variables have negative covariance. Today X is over its average. What is likely true of Y?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Y is probably over its average"
+    },
+    {
+     "id": "b",
+     "label": "Y is probably below its average"
+    },
+    {
+     "id": "c",
+     "label": "Y is exactly at its average"
+    },
+    {
+     "id": "d",
+     "label": "Its position cannot be predicted"
+    }
+   ],
+   "answer": "b",
+   "explain": "With negative covariance, if X is above its expected value then Y is likely below its expected value.",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "prompt": "Height is measured in meters and weight in kilograms. What units does their covariance have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Meters divided by kilograms"
+    },
+    {
+     "id": "b",
+     "label": "No units, as it is a pure ratio"
+    },
+    {
+     "id": "c",
+     "label": "Meters times kilograms"
+    },
+    {
+     "id": "d",
+     "label": "Kilograms squared only"
+    }
+   ],
+   "answer": "c",
+   "explain": "The covariance of X and Y has the units of X times the units of Y.",
+   "cites": [
+    13
+   ]
+  }
+ ]
+}

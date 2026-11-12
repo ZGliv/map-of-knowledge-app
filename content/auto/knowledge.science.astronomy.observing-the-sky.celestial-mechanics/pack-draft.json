@@ -1,0 +1,102 @@
+{
+ "title": "The trouble with three bodies",
+ "question": "Why can we predict two bodies pulling on each other but not three?",
+ "hook": "Add one more body to a pair of orbiting objects, and mathematicians lose their exact answer.",
+ "idea": "Two bodies can be handled with Newtonian mechanics, but a third makes the problem unsolvable exactly, so approximate methods take over.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A third body is added to a pair of objects pulling on each other with gravity. What happens to the search for an exact answer?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A formula still gives the exact answer; it only takes more arithmetic",
+     "feedback": "It tempts because more bodies sounds like more work, but the three-body problem cannot be solved exactly at all."
+    },
+    {
+     "id": "b",
+     "label": "No exact solution exists, so approximate methods are used"
+    },
+    {
+     "id": "c",
+     "label": "The third body cancels out and the two-body answer stays exact",
+     "feedback": "It tempts because a small extra pull seems ignorable, but the third body makes the problem more complicated."
+    }
+   ],
+   "answer": "b",
+   "explain": "A three-body problem cannot be solved exactly, so perturbation theory is used to find an approximate solution.",
+   "cites": [
+    5,
+    8,
+    9
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps in the order they happened",
+   "items": [
+    "Kepler's New Astronomy (1609)",
+    "Newton's Principia (1687)",
+    "Euler's three equilibrium points (1762)",
+    "Lagrange's two more stable orbits (1772)"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Kepler published in 1609, Newton in 1687, Euler found equilibrium points in 1762 and Lagrange added two more in 1772.",
+   "cites": [
+    15,
+    20,
+    22,
+    24
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each person to what they did",
+   "pairs": [
+    [
+     "Euler",
+     "Showed three equilibrium points on a straight line"
+    ],
+    [
+     "Lagrange",
+     "Found two more stable orbits at triangle corners"
+    ],
+    [
+     "Poincaré",
+     "Showed the three-body problem is not integrable"
+    ],
+    [
+     "Laplace",
+     "Introduced the term celestial mechanics"
+    ]
+   ],
+   "explain": "Each worked on the motion of bodies pulling on each other, and each left a distinct result.",
+   "cites": [
+    13,
+    22,
+    24,
+    31
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about Mercury is wrong; which?",
+   "steps": [
+    "Le Verrier reported in 1849 that Mercury's perihelion advanced 43″ per century.",
+    "Known gravitational perturbations using Newton's law were checked against it.",
+    "Those perturbations fully accounted for the advance, so nothing was left to explain.",
+    "Le Verrier instead proposed a planet orbiting inside Mercury's orbit."
+   ],
+   "wrong": 2,
+   "explain": "The advance could not be accounted for by known perturbations under Newton's law, which is why Le Verrier proposed an extra planet.",
+   "cites": [
+    43,
+    44,
+    45
+   ]
+  }
+ ]
+}

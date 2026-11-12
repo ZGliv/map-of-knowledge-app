@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force",
+ "name": "Coriolis force",
+ "summary": [
+  {
+   "text": "The Coriolis force is a pseudo-force that acts on objects moving within a rotating frame of reference, and in everyday use that frame is almost always the Earth.",
+   "cites": [
+    1,
+    10
+   ]
+  },
+  {
+   "text": "On Earth it deflects moving objects to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "text": "It is imperceptible for everyday motions, but it strongly shapes large-scale winds and ocean currents and is responsible for the rotation of cyclones.",
+   "cites": [
+    9,
+    12,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Gaspard-Gustave de Coriolis, in an 1835 paper",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Original context",
+   "value": "The theory of water wheels",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Strongest deflection",
+   "value": "Near the poles, falling to zero at the equator",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Name in use by",
+   "value": "1920, as \"Coriolis force\"",
+   "cites": [
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You roll a ball across your kitchen floor. Why doesn't Earth's spin visibly curve its path?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Floor friction cancels the effect"
+    },
+    {
+     "id": "b",
+     "label": "Buildings shield objects from Earth's spin"
+    },
+    {
+     "id": "c",
+     "label": "The effect is too tiny for short motions"
+    },
+    {
+     "id": "d",
+     "label": "It acts only on air and water"
+    }
+   ],
+   "answer": "c",
+   "explain": "For everyday motions the Coriolis force is imperceptible; it shows up only over large distances and long times.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force:q1"
+  },
+  {
+   "prompt": "A long-distance wind is deflected by the Coriolis effect. Where on Earth is that sideways push weakest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At the North Pole"
+    },
+    {
+     "id": "b",
+     "label": "At the equator"
+    },
+    {
+     "id": "c",
+     "label": "At 45° north"
+    },
+    {
+     "id": "d",
+     "label": "At the South Pole"
+    }
+   ],
+   "answer": "b",
+   "explain": "The horizontal deflection is greatest near the poles and decreases to zero at the equator.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force:q2"
+  },
+  {
+   "prompt": "North of the equator, air starts moving from high pressure toward low pressure. Which way does it tend to veer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Straight up into the sky"
+    },
+    {
+     "id": "b",
+     "label": "To the left of its path"
+    },
+    {
+     "id": "c",
+     "label": "Nowhere; it flows straight"
+    },
+    {
+     "id": "d",
+     "label": "To the right of its path"
+    }
+   ],
+   "answer": "d",
+   "explain": "Rather than flowing directly from high to low pressure, winds north of the equator tend to flow to the right of that direction.",
+   "cites": [
+    14,
+    16
+   ],
+   "id": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force:q3"
+  },
+  {
+   "prompt": "Riccioli and Grimaldi reasoned that a spinning Earth should push a north-fired cannonball off course, and no such effect was detected. What did they conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Earth must be standing still"
+    },
+    {
+     "id": "b",
+     "label": "Cannonballs are too heavy to push"
+    },
+    {
+     "id": "c",
+     "label": "Earth spins west, not east"
+    },
+    {
+     "id": "d",
+     "label": "Air resistance cancels the push"
+    }
+   ],
+   "answer": "a",
+   "explain": "They argued that rotation should create the effect, so failing to detect it was evidence for an immobile Earth.",
+   "cites": [
+    18,
+    20,
+    21
+   ],
+   "id": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force:q4"
+  },
+  {
+   "prompt": "The Coriolis effect was predicted in the 1600s. Why did nobody measure it until the 1800s?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cannons were banned for experiments"
+    },
+    {
+     "id": "b",
+     "label": "It appears only near the poles"
+    },
+    {
+     "id": "c",
+     "label": "It is extremely small"
+    },
+    {
+     "id": "d",
+     "label": "Earth spun faster back then"
+    }
+   ],
+   "answer": "c",
+   "explain": "Their reasoning was correct, but the effect is so small it was not measured until the 19th century.",
+   "cites": [
+    18,
+    22
+   ],
+   "id": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force:q5"
+  },
+  {
+   "prompt": "Imagine a frame of reference that is not rotating at all. What happens to the Coriolis force there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It doubles in strength"
+    },
+    {
+     "id": "b",
+     "label": "It disappears entirely"
+    },
+    {
+     "id": "c",
+     "label": "It points straight down"
+    },
+    {
+     "id": "d",
+     "label": "It reverses direction"
+    }
+   ],
+   "answer": "b",
+   "explain": "In a non-rotating inertial frame the Coriolis force and the other fictitious forces disappear; they are only correction factors for rotating frames.",
+   "cites": [
+    40,
+    43
+   ],
+   "id": "knowledge.earth.climate.atmosphere.atmospheric-circulation.coriolis-force:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Corioliskraftanimation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Coriolis force",
+  "credit": "Hubi",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Corioliskraftanimation.gif"
+ },
+ "source": {
+  "title": "Coriolis force",
+  "url": "https://en.wikipedia.org/wiki/Coriolis_force",
+  "revision": 1380363764
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A force from turning",
+    "text": "The Coriolis force is a pseudo-force: it appears when you describe motion from inside a frame of reference that rotates relative to an inertial one, meaning a frame that is not accelerating. If the frame turns clockwise, the force pushes to the left of a moving object; if it turns anticlockwise, it pushes to the right. The sideways bending it produces is called the Coriolis effect. When people use that phrase in everyday talk, the rotating frame they mean is nearly always the Earth.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     10,
+     33
+    ]
+   },
+   {
+    "heading": "Why it matters on Earth",
+    "text": "Because Earth spins, something moving across its surface traces a curved path rather than a straight line relative to the ground. Earth turns once each sidereal day, so for everyday objects the force cannot be noticed. It shows up only over large distances and long times, as in big movements of air and ocean water, or where great precision counts, as with artillery and missiles. The resulting bending, clockwise north of the equator and counterclockwise south of it, strongly shapes the large-scale patterns of winds and ocean currents.",
+    "cites": [
+     7,
+     8,
+     9,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Right in the north, left in the south",
+    "text": "Since these motions are held to Earth's surface, usually only the horizontal part of the force matters. North of the equator it turns moving objects to the right of the way they are heading; south of the equator it turns them to the left. The deflection is strongest near the poles, where the local rate of spin around a vertical axis is greatest, and it falls to zero at the equator. So winds and currents do not run straight from high pressure to low pressure, as they would without rotation; they veer off to one side. This effect is what sets cyclones spinning and so lets them form.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "How the physics works",
+    "text": "Newton's laws of motion describe objects in an inertial frame. When those laws are rewritten for a rotating frame, two extra accelerations appear: the Coriolis and the centrifugal. The Coriolis force grows with the rotation rate and with the object's speed within the rotating frame, and it points at right angles both to the frame's spin and to the object's velocity. Such extra forces are called fictitious or pseudo forces, and adding them lets Newton's laws work in the rotating system as if it were inertial. In a frame that does not rotate, they vanish.",
+    "cites": [
+     33,
+     34,
+     36,
+     37,
+     39,
+     40,
+     43
+    ]
+   },
+   {
+    "heading": "An argument about a moving Earth",
+    "text": "In 1651, Giovanni Battista Riccioli and his assistant Francesco Maria Grimaldi wrote that Earth's rotation should push a cannonball fired northward off to the east. In 1674, Claude François Milliet Dechales described a similar deflection for falling bodies and for projectiles aimed at a pole. All three used it to argue against Copernicus's Sun-centred system: if Earth turned, the effect should appear, and failing to see it meant Earth stood still. Their reasoning was correct, but the effect is so small that nobody measured it until the 19th century.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "How it got its name",
+    "text": "Euler worked out the equation for the Coriolis acceleration in 1749, and Laplace included the effect in his tidal equations in 1778. Gaspard-Gustave de Coriolis wrote an 1835 paper on the energy output of machines with rotating parts, such as water wheels, which examined the extra forces seen in a rotating frame. He called this one the \"compound centrifugal force\". Meteorologists began using the term Coriolis force early in the 20th century, and by 1920 that was its name. Back in 1856, William Ferrel had already proposed a mid-latitude circulation cell in which this deflection creates the prevailing westerly winds.",
+    "cites": [
+     5,
+     6,
+     23,
+     24,
+     25,
+     28,
+     29,
+     30
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-coriolis",
+   "kind": "book",
+   "title": "Planet Earth/1g. Coriolis Effect: How Earth’s Spin Affects Motion Across its Surface",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Planet_Earth/1g._Coriolis_Effect:_How_Earth%E2%80%99s_Spin_Affects_Motion_Across_its_Surface",
+   "note": "A free textbook section on how Earth's spin deflects things moving across its surface.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "openstax-coriolis",
+   "kind": "book",
+   "title": "6.4 Fictitious Forces and Non-inertial Frames: The Coriolis Force - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/6-4-fictitious-forces-and-non-inertial-frames-the-coriolis-force",
+   "note": "A physics textbook section explaining the Coriolis force as a fictitious force seen from a rotating frame.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "noaa-coriolis-currents",
+   "kind": "article",
+   "title": "The Coriolis Effect - Currents",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents1.html",
+   "note": "A NOAA tutorial page on how the Coriolis effect turns winds and ocean currents."
+  }
+ ]
+}

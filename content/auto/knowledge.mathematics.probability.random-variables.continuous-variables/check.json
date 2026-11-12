@@ -1,0 +1,87 @@
+{
+ "draftHash": "47fe8df8f969ccc650dbe55386f28fb9a405b096",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "a",
+  "q2": "b",
+  "q3": "c",
+  "q4": "d",
+  "q5": "a",
+  "q6": "c"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "6 and 7 state both parts"
+  },
+  "s1": {
+   "supported": true,
+   "why": "8 states it"
+  },
+  "s2": {
+   "supported": true,
+   "why": "9 states it"
+  },
+  "f0": {
+   "supported": true,
+   "why": "6"
+  },
+  "f1": {
+   "supported": true,
+   "why": "10"
+  },
+  "f2": {
+   "supported": true,
+   "why": "9"
+  },
+  "f3": {
+   "supported": true,
+   "why": "4 and 27 say a variable can be discrete over some range and continuous over another"
+  },
+  "f4": {
+   "supported": true,
+   "why": "8"
+  },
+  "q1": {
+   "supported": true,
+   "why": "6-7 values between any two values in a real range"
+  },
+  "q2": {
+   "supported": true,
+   "why": "10 continuous time gives differential equation"
+  },
+  "q3": {
+   "supported": true,
+   "why": "9 density functions for continuous; 18 mass for discrete"
+  },
+  "q4": {
+   "supported": true,
+   "why": "6 needs values between any two; 1,2,3 have none between; 2-3 contrast"
+  },
+  "q5": {
+   "supported": true,
+   "why": "8 calculus for continuous; 15 and 17 not for discrete such as integer programming"
+  },
+  "q6": {
+   "supported": true,
+   "why": "26 states this exact example as a mixed model"
+  },
+  "b0": {
+   "supported": true,
+   "why": "6 (and 2) state values exist between any two"
+  },
+  "b1": {
+   "supported": true,
+   "why": "9, 18, 10, 19 give each pairing"
+  },
+  "b2": {
+   "supported": true,
+   "why": "7, 10 continuous; 14, 17, 19 discrete"
+  },
+  "b3": {
+   "supported": true,
+   "why": "9 density for continuous, 18 mass for discrete, so step 4 is wrong; 6-7 back steps 1-3"
+  }
+ },
+ "renumberedFrom": "extractor 1"
+}

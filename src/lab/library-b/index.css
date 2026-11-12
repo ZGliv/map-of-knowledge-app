@@ -1,0 +1,303 @@
+/* Prototype B, "The Index": the Library as a typeset book. Warm ink on the night, a serif for the
+   book and its marks, hairlines and dot leaders for structure, small covers as the only pictures.
+   Color appears only as each place's own hue: its map mark, its state word, a hairline under each
+   thing kept there. Nothing glows: the glow belongs to the Atlas. */
+
+.studio-main>.notebook-workspace.lbx-workspace{background:var(--atlas-shade,#05060c)}
+.lbx{
+ --ink:#ece5d6;
+ --ink-2:#bdb6a6;
+ --ink-3:#8e887b;
+ --ink-4:#5f5b52;
+ --rule:rgb(236 229 214/.09);
+ --rule-2:rgb(236 229 214/.16);
+ --serif:var(--atlas-serif,Georgia,'Times New Roman',serif);
+ --gutter:20px;
+ --face:64px;
+ --hue:#9aa3b5;
+ position:relative;max-width:1180px;margin:0 auto;padding:6px var(--gutter) 56px;color:var(--ink);
+ -webkit-font-smoothing:antialiased;
+}
+:where(.lbx) button{background:none;border:0;padding:0;color:inherit;font:inherit;text-align:left;cursor:pointer}
+:where(.lbx) :where(h1,h2,h3,p,ol,ul,li,blockquote){margin:0;padding:0;list-style:none}
+.lbx :focus-visible{outline:1.5px solid color-mix(in srgb,var(--hue) 80%,white);outline-offset:3px;border-radius:2px}
+
+/* ---- The masthead -------------------------------------------------------------------------- */
+.lbx-mast{padding:20px 0 6px}
+.lbx-mast h1{font:400 42px/1 var(--serif);letter-spacing:-1px;color:var(--ink)}
+.lbx-search{display:flex;align-items:center;gap:10px;height:46px;margin-top:20px;border-bottom:1px solid var(--rule-2);color:var(--ink-3);transition:border-color .2s}
+.lbx-search:focus-within{border-color:color-mix(in srgb,var(--ink) 55%,transparent);color:var(--ink-2)}
+.lbx-search input{flex:1;min-width:0;height:100%;background:none;border:0;outline:0!important;color:var(--ink);font-family:inherit;font-size:16px;line-height:1.2;-webkit-appearance:none;appearance:none}
+.lbx-search input::placeholder{color:var(--ink-3);font:italic 400 17px/1 var(--serif)}
+.lbx-search input::-webkit-search-cancel-button{display:none}
+.lbx-search button{display:grid;place-items:center;width:32px;height:32px;margin-right:-6px;color:var(--ink-3)}
+.lbx-found{margin:18px 0 0;font:italic 400 16px/1.4 var(--serif);color:var(--ink-2)}
+
+/* ---- Recent: the newest things, beginning with + ----------------------------------------- */
+.lbx-recent{margin-top:30px}
+.lbx-recent h2,.lbx-contents h2,.lbx-part>h2{font:400 22px/1.15 var(--serif);letter-spacing:-.3px;color:var(--ink)}
+.lbx-recent-row{display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scroll-padding-inline:var(--gutter);margin:14px calc(-1 * var(--gutter)) 0;padding:0 var(--gutter) 6px;scrollbar-width:none}
+.lbx-recent-row::-webkit-scrollbar{display:none}
+.lbx-recent-row>.lbx-tile{--face:116px;scroll-snap-align:start}
+.lbx-recent-row>.lbx-tile .lbx-face.is-note{width:calc(var(--face) * .8);justify-content:center;align-items:center}
+.lbx-recent-row>.lbx-tile .lbx-face.is-note b{font-size:48px;height:auto;line-height:.8;padding-top:14px}
+.lbx-recent-row>.lbx-tile .lbx-face.is-note.is-question b{font-size:40px;padding-top:0}
+.lbx-recent-row>.lbx-tile .lbx-face.is-note span{display:none}
+.lbx-sheets{display:contents}
+
+/* ---- Tiles ---------------------------------------------------------------------------------- */
+.lbx-tile{position:relative;flex:0 0 auto;display:flex;flex-direction:column;gap:9px;width:min-content}
+.lbx-face{position:relative;display:block;height:var(--face);overflow:hidden;border-radius:3px;background:hsl(230 18% 10%);box-shadow:inset 0 0 0 1px rgb(255 255 255/.05)}
+.lbx-tile:not(.lbx-add,.lbx-more,.lbx-proof,.lbx-ref)>.lbx-face::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--hue);opacity:.75}
+.lbx-face img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .35s ease}
+.lbx-face img.is-shown{opacity:1}
+.lbx-face.is-cover{width:calc(var(--face) * .667)}
+.lbx-face.is-cover:is(.is-film,.is-documentary,.is-series,.is-podcast,.is-course){width:calc(var(--face) * 1.5)}
+.lbx-face.is-cover:is(.is-film,.is-documentary,.is-series,.is-podcast,.is-course) .lbx-typeface{justify-content:flex-end;padding:8px 10px 10px;background:linear-gradient(180deg,color-mix(in srgb,var(--tone) 70%,black),var(--tone))}
+.lbx-face.is-cover:is(.is-film,.is-documentary,.is-series,.is-podcast,.is-course) .lbx-typeface b{font-size:12px;line-height:1.15;-webkit-line-clamp:3}
+.lbx-face.is-video{width:calc(var(--face) * 1.78)}
+.lbx-face.is-reel{width:calc(var(--face) * .75)}
+.lbx-face.is-reel.is-ink img{object-fit:contain;background:#efe9dc}
+.lbx-face.is-link{width:calc(var(--face) * 1.34)}
+.lbx-face.is-note{width:calc(var(--face) * 1.5);display:flex;flex-direction:column;justify-content:space-between;padding:7px 8px 9px;background:hsl(36 10% 11%)}
+.lbx-face.is-note b{font:400 26px/1 var(--serif);color:var(--hue);height:16px}
+.lbx-face.is-note.is-question b{font-size:21px;line-height:.9}
+.lbx-face.is-note span{font:italic 400 11px/1.3 var(--serif);color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-typeface{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:7px 6px 8px;background:linear-gradient(160deg,color-mix(in srgb,var(--tone) 100%,white 6%),var(--tone));color:#efe8d8;container-type:size}
+.lbx-typeface b{font:400 9.5px/1.2 var(--serif);display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:break-word}
+/* A narrow cover (a row's book or reel, inside its padding) sets its title down its length, as a spine
+   does, sized so a long word stays whole; a title too long for it loses whole lines, never part of one. */
+@container (max-width:56px){
+ .lbx-typeface b{display:block;writing-mode:vertical-rl;height:100%;max-width:100%;max-width:round(down,100%,1.15em);font-size:clamp(7.5px,100cqh / 5.9,9.5px);line-height:1.15}
+ /* A reel's spine stops above its button (the button's top sits 27px above the face's foot). */
+ .lbx-face.is-reel .lbx-typeface b{height:calc(100% - 22px)}
+}
+.lbx-typeface small{display:none!important;font-size:7.5px;line-height:1.2;opacity:.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-site{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:8px 9px 9px;background:hsl(36 9% 12%);color:var(--hue);container-type:size}
+.lbx-site b{font:400 11.5px/1.2 var(--serif);color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-site small{flex:none;display:flex;align-items:center;gap:4px;font-size:9.5px;line-height:1.4;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* A short face (a place page's kept link) has room for one line of title above its site. */
+@container (height < 40.9px){.lbx-site b{-webkit-line-clamp:1}}
+.lbx-site small svg{flex:none;color:var(--hue)}
+.lbx-site small>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.lbx-play{position:absolute;left:6px;bottom:7px;display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:rgb(6 7 12/.62);color:#fff;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.lbx-play.is-reel{border-radius:5px}
+/* A video's stand-in title keeps to the lines above its play button (each line 11.4px, the button's top 20px above the box's foot). */
+@container (height < 42.8px){.lbx-face.is-video .lbx-typeface b{-webkit-line-clamp:1}}
+@container (42.8px <= height < 54.2px){.lbx-face.is-video .lbx-typeface b{-webkit-line-clamp:2}}
+@container (54.2px <= height < 65.6px){.lbx-face.is-video .lbx-typeface b{-webkit-line-clamp:3}}
+@container (65.6px <= height < 77px){.lbx-face.is-video .lbx-typeface b{-webkit-line-clamp:4}}
+.lbx-caption{display:flex;flex-direction:column;gap:3px;width:0;min-width:100%}
+.lbx-caption b{font-weight:500;font-size:12.5px;line-height:1.3;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-caption small{font-size:11.5px;line-height:1.25;color:color-mix(in srgb,var(--hue) 85%,var(--ink));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lbx-tile:hover .lbx-face{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--hue) 55%,transparent)}
+.lbx-tile:active .lbx-face{transform:scale(.98)}
+
+.lbx-add .lbx-face{width:calc(var(--face) * .667);display:grid;place-items:center;background:none;box-shadow:inset 0 0 0 1px var(--rule-2);color:var(--ink-2)}
+.lbx-add:hover .lbx-face{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--ink) 45%,transparent);color:var(--ink)}
+
+.lbx-more .lbx-face{width:var(--face);display:grid;place-items:center;background:none;box-shadow:inset 0 0 0 1px var(--rule-2)}
+.lbx-more em{font:italic 400 13px/1.2 var(--serif);color:var(--ink-2)}
+.lbx-proof .lbx-face{width:calc(var(--face) * 1.3);display:flex;flex-direction:column;justify-content:space-between;padding:8px 9px 9px;background:color-mix(in srgb,var(--hue) 9%,transparent);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--hue) 42%,transparent);color:var(--hue)}
+.lbx-proof em{font:italic 400 14px/1.1 var(--serif);color:var(--ink)}
+.lbx-proof small{display:block;margin-top:2px;font-size:10.5px;line-height:1.2;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lbx-proof .lbx-face>svg{flex:none}
+.lbx-proof.is-proved .lbx-face{background:none;box-shadow:inset 0 0 0 1px var(--rule-2)}
+.lbx-proof.is-proved em{color:var(--ink-2)}
+.lbx-proof:not(.is-none):hover .lbx-face{background:color-mix(in srgb,var(--hue) 15%,transparent)}
+.lbx-proof.is-none{cursor:default}
+.lbx-proof.is-none .lbx-face{width:calc(var(--face) * 1.5);padding-left:2px;background:none;box-shadow:none;color:var(--ink-4)}
+.lbx-proof.is-none em{font-size:13px;color:var(--ink-3)}
+
+/* A thing whose cover sits at another place: its title in type and where to find it, as an index says "see". */
+.lbx-ref .lbx-face{width:auto;min-width:calc(var(--face) * 1.4);max-width:calc(var(--face) * 2.5);display:flex;flex-direction:column;justify-content:flex-end;gap:5px;padding:0 4px 8px 0;background:none;box-shadow:none;border-radius:0}
+.lbx-ref .lbx-face::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--rule-2)}
+.lbx-ref b{font:italic 400 13px/1.25 var(--serif);color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-ref small{font-size:11px;line-height:1.2;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lbx-ref small i{font:italic 400 12px/1 var(--serif)}
+.lbx-ref:hover b{color:var(--ink)}
+.lbx-ref:hover .lbx-face{box-shadow:none}
+
+/* ---- Contents ------------------------------------------------------------------------------- */
+.lbx-body{display:flex;flex-direction:column}
+.lbx-contents{margin-top:40px}
+.lbx-contents ol{margin-top:10px;border-top:1px solid var(--rule)}
+.lbx-contents li>button{display:flex;align-items:baseline;gap:12px;width:100%;padding:13px 0 12px;border-bottom:1px solid var(--rule)}
+.lbx-contents .lbx-num{flex:none;width:18px;font:400 16px/1 var(--serif);color:var(--hue)}
+.lbx-contents-name{display:flex;flex-direction:column;gap:4px;min-width:0}
+.lbx-contents-name b{font:400 18px/1.15 var(--serif);color:var(--ink)}
+.lbx-contents-name small{font-size:12.5px;line-height:1.3;color:var(--ink-3)}
+.lbx-contents .lbx-leader{align-self:center}
+.lbx-contents .lbx-mapmark{align-self:center}
+.lbx-contents li.is-blank b{color:var(--ink-4);font-style:italic}
+.lbx-contents li.is-blank .lbx-num{color:color-mix(in srgb,var(--hue) 45%,transparent)}
+.lbx-contents li.is-blank .lbx-mapmark{opacity:.45}
+.lbx-contents li.is-blank .lbx-leader{opacity:.4}
+.lbx-contents li>button:hover b{color:var(--ink)}
+
+/* ---- Leaders and marks ---------------------------------------------------------------------- */
+.lbx-leader{flex:1 1 12px;min-width:12px;height:2px;align-self:center;margin-top:3px;opacity:.9;container-type:inline-size}
+.lbx-leader>i{display:block;height:100%;background:radial-gradient(circle,var(--ink-4) .75px,transparent 1.1px) left center/6px 2px repeat-x}
+/* Squeezed by a long name and its state word, a leader of two or three dots reads as a stray mark: it steps aside. */
+@container (max-width:27.9px){.lbx-leader>i{display:none}}
+.lbx-mapmark{flex:none;display:block;overflow:visible}
+.lbx-mapmark.is-dot{border-radius:50%;box-shadow:inset 0 0 0 1px var(--hue)}
+.lbx-mark{flex:none;font:italic 400 14px/1 var(--serif);color:var(--ink-3);white-space:nowrap}
+.lbx-mark:is(.is-proved,.is-lasting){color:color-mix(in srgb,var(--hue) 82%,white 8%)}
+.lbx-mark.is-refresh{color:var(--ink)}
+
+/* ---- Chapters, sections, entries ------------------------------------------------------------- */
+/* No content-visibility on chapters: WebKit measures a skipped chapter at its placeholder height, so
+   Contents taps and returns landed in the wrong chapter on the iPhone. LazyRow keeps the page light. */
+.lbx-chapter{margin-top:52px}
+.lbx-chapter-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding-bottom:14px;border-bottom:1px solid color-mix(in srgb,var(--hue) 38%,transparent)}
+.lbx-chapter-title{display:flex;align-items:baseline;gap:14px;min-width:0}
+.lbx-chapter-title .lbx-num{font:400 34px/1 var(--serif);color:var(--hue)}
+.lbx-chapter-title h2{font:400 34px/1.02 var(--serif);letter-spacing:-.7px;color:var(--ink)}
+.lbx-chapter-title:hover h2{color:#fff}
+.lbx-fold{flex:none;display:grid;place-items:center;width:36px;height:36px;margin:0 -8px -6px 0;border-radius:50%;color:var(--ink-3);transition:transform .25s ease,color .2s}
+.lbx-fold:hover{color:var(--ink)}
+.lbx-chapter.is-folded .lbx-fold{transform:rotate(-90deg)}
+.lbx-folded{margin-top:12px;font:italic 400 16px/1.4 var(--serif);color:var(--ink-3)}
+.lbx-chapter.is-unplaced .lbx-chapter-head{border-color:var(--rule-2)}
+.lbx-chapter.is-unplaced h2{font:italic 400 26px/1.1 var(--serif);color:var(--ink-2)}
+
+.lbx-section{margin-top:28px}
+.lbx-section>h3{font:italic 400 25px/1.15 var(--serif);letter-spacing:-.2px;color:var(--ink)}
+.lbx-section>h3 button:hover{color:#fff}
+.lbx-entries{margin-top:8px}
+.lbx-entry{display:block}
+.lbx-line{display:flex;align-items:center;gap:10px;width:100%;min-height:44px;padding:8px 0 4px}
+.lbx-name{flex:0 1 auto;min-width:0;font:400 18px/1.25 var(--serif);color:var(--ink);overflow-wrap:anywhere}
+.lbx-name small{font:inherit;font-size:15px;color:var(--ink-3)}
+.lbx-line.is-sub .lbx-name{font-size:16.5px;color:var(--ink)}
+.lbx-line:hover .lbx-name{color:#fff}
+.lbx-sub{padding-left:18px}
+
+/* A row of things: a strip that scrolls on a phone, reserved at its height before it is drawn. */
+.lbx-row{display:flex;gap:8px;min-height:var(--face);margin:6px calc(-1 * var(--gutter)) 12px;padding:0 var(--gutter) 2px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none}
+.lbx-row::-webkit-scrollbar{display:none}
+.lbx-sub .lbx-row{margin-left:calc(-1 * var(--gutter) - 18px);padding-left:calc(var(--gutter) + 18px)}
+.lbx-chapter>div>.lbx-row,.lbx-section>.lbx-row,.lbx-chapter.is-unplaced .lbx-row{margin-top:14px}
+
+/* ---- A place's page -------------------------------------------------------------------------- */
+.lbx-crumbs{display:flex;align-items:center;gap:4px;margin:10px 0 0;overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+.lbx-crumbs::-webkit-scrollbar{display:none}
+.lbx-crumbs button{flex:none;font-size:14px;color:var(--ink-3);padding:8px 0}
+.lbx-crumbs button+button::before{content:'·';margin:0 9px 0 5px;color:var(--ink-4)}
+.lbx-crumbs button:hover{color:var(--ink)}
+.lbx-back{display:inline-flex;align-items:center;gap:3px;margin-left:-4px;color:var(--ink-2)!important}
+.lbx-place-head h1{margin-top:14px;font:400 42px/1.04 var(--serif);letter-spacing:-1px;color:var(--ink);overflow-wrap:anywhere}
+.lbx-status{margin-top:12px;font:italic 400 16.5px/1.4 var(--serif);color:var(--ink-3)}
+.lbx-status:is(.is-proved,.is-lasting){color:color-mix(in srgb,var(--hue) 82%,white 8%)}
+.lbx-status.is-refresh{color:var(--ink)}
+.lbx-locator{display:block;width:100%;margin-top:22px;border-radius:6px;overflow:hidden;background:#070a14;box-shadow:inset 0 0 0 1px var(--rule)}
+.lbx-locator-map{position:relative;display:block;width:100%}
+.lbx-locator-map svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.lbx-locator-map>span{position:absolute;transform:translate(-50%,-50%);max-width:34%;text-align:center;font:italic 400 12.5px/1.15 var(--serif);color:var(--ink-3);text-shadow:0 0 6px #070a14,0 0 2px #070a14;pointer-events:none}
+.lbx-locator-map>span.is-here{font-style:normal;font-size:14px;color:#fff;text-shadow:0 0 8px rgb(5 6 12/.7),0 1px 2px rgb(5 6 12/.8)}
+.lbx-locator-map.is-whole>span{font-size:11.5px}
+.lbx-locator-map.is-whole>span.is-here{font-size:13px}
+.lbx-onmap{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:6px 0;font-size:15px;color:color-mix(in srgb,var(--hue) 75%,var(--ink))}
+.lbx-onmap:hover{color:var(--ink)}
+.lbx-claim{margin-top:20px;font:400 19px/1.5 var(--serif);color:var(--ink-2)}
+.lbx-part{margin-top:42px}
+.lbx-part.is-proof{margin-top:36px}
+.lbx-blank{margin-top:36px;font:italic 400 17px/1.4 var(--serif);color:var(--ink-3)}
+
+.lbx-proofs{margin-top:10px;border-top:1px solid var(--rule)}
+.lbx-proofs button{display:flex;align-items:center;gap:14px;width:100%;padding:13px 0;border-bottom:1px solid var(--rule)}
+.lbx-proofs button>span{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.lbx-proofs b{font:400 17px/1.25 var(--serif);color:var(--ink)}
+.lbx-proofs small{font-size:12.5px;color:var(--ink-3)}
+.lbx-proofs em{flex:none;font:italic 400 15px/1 var(--serif);color:color-mix(in srgb,var(--hue) 80%,white 10%)}
+.lbx-proofs em.is-proved{color:var(--ink-3)}
+.lbx-proofs button:hover b{color:#fff}
+.lbx-proofs.is-none{display:flex;align-items:center;gap:14px;padding:13px 0;border-bottom:1px solid var(--rule);color:var(--ink-4)}
+.lbx-proofs.is-none span{font:italic 400 16px/1.25 var(--serif);color:var(--ink-3)}
+.lbx-case-note{margin-top:12px;font-size:13px;line-height:1.45;color:var(--ink-3)}
+.lbx-case-note i{font:italic 400 15px/1.3 var(--serif);color:var(--ink-2)}
+
+.lbx-things{margin-top:10px;border-top:1px solid var(--rule)}
+.lbx-thing{display:flex;align-items:flex-start;gap:16px;width:100%;padding:16px 0;border-bottom:1px solid var(--rule)}
+.lbx-thing-face{flex:none;width:84px;display:flex;justify-content:flex-start;--face:72px}
+.lbx-thing.is-video .lbx-thing-face,.lbx-thing.is-link .lbx-thing-face{--face:47px}
+.lbx-thing.is-video .lbx-face,.lbx-thing.is-link .lbx-face{width:84px}
+.lbx-thing .lbx-face::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--hue);opacity:.75}
+.lbx-thing-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.lbx-thing-text b{font:400 17px/1.28 var(--serif);color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-thing-text small{font-size:13px;line-height:1.3;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lbx-thing:hover b{color:#fff}
+.lbx-path{display:flex;flex-wrap:wrap;gap:2px 0;margin-top:3px;font-size:12px;line-height:1.35;color:var(--ink-4)}
+.lbx-path li+li::before{content:'—';margin:0 6px;color:var(--ink-4)}
+.lbx-path li.is-reached{color:var(--ink-2)}
+.lbx-path li[data-step=proved].is-reached{color:color-mix(in srgb,var(--hue) 82%,white 10%)}
+.lbx-path time{color:inherit}
+
+.lbx-notes{margin-top:6px}
+.lbx-notes li{border-bottom:1px solid var(--rule)}
+.lbx-notes button{display:block;width:100%;padding:18px 0 16px}
+.lbx-notes blockquote{font:italic 400 19px/1.45 var(--serif);color:var(--ink)}
+.lbx-notes blockquote::before{content:'“'}
+.lbx-notes blockquote::after{content:'”'}
+.lbx-notes blockquote.is-question::before,.lbx-notes blockquote.is-question::after{content:none}
+.lbx-notes p{margin-top:8px;font-size:14px;line-height:1.5;color:var(--ink-2)}
+.lbx-notes small{display:block;margin-top:10px;font-size:12.5px;color:var(--ink-3)}
+
+.lbx-changes li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.lbx-changes .lbx-prompt{font:400 16px/1.4 var(--serif);color:var(--ink-2)}
+.lbx-changes p+p{margin-top:8px;font-size:14.5px;line-height:1.45;display:flex;flex-direction:column;gap:4px}
+.lbx-changes s{color:var(--ink-3);text-decoration-color:color-mix(in srgb,var(--ink-3) 70%,transparent)}
+.lbx-changes span{color:var(--ink)}
+.lbx-changes small{display:block;margin-top:8px;font-size:12px;color:var(--ink-4)}
+
+.lbx-part.is-inside .lbx-entries,.lbx-part.is-inside>.lbx-section:first-of-type{margin-top:10px}
+.lbx-strip{display:flex;gap:14px;margin:14px calc(-1 * var(--gutter)) 0;padding:0 var(--gutter) 4px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none}
+.lbx-strip::-webkit-scrollbar{display:none}
+.lbx-still{flex:0 0 auto;width:200px;display:flex;flex-direction:column;gap:8px;--face:112px}
+.lbx-still .lbx-face.is-video{width:200px}
+.lbx-still b{font-weight:500;font-size:13px;line-height:1.32;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbx-still small{font-size:12px;color:var(--ink-3)}
+.lbx-still.is-reel{width:104px;--face:150px}
+.lbx-still.is-reel .lbx-face{width:104px}
+.lbx-still:hover b{color:#fff}
+.lbx-place-foot{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:40px;padding-top:16px;border-top:1px solid var(--rule)}
+.lbx-quiet{display:inline-flex;align-items:center;gap:6px;min-height:40px;font-size:14.5px;color:var(--ink-2)}
+.lbx-quiet:hover{color:var(--ink)}
+
+/* ---- An empty library: the whole book, its chapters unwritten ------------------------------- */
+.lbx.is-empty .lbx-recent h2{display:none}
+.lbx.is-empty .lbx-contents li.is-blank b{color:var(--ink-3)}
+.lbx.is-empty .lbx-contents li.is-blank .lbx-mapmark{opacity:.85}
+.lbx.is-empty .lbx-contents li.is-blank .lbx-num{color:color-mix(in srgb,var(--hue) 70%,transparent)}
+@media(min-width:1000px){.lbx.is-empty .lbx-body{display:block;max-width:620px}.lbx.is-empty .lbx-contents{position:static;max-height:none}}
+.lbx.is-empty .lbx-recent{margin-top:34px}
+.lbx-empty-add{display:flex;align-items:center;gap:16px}
+.lbx-empty-add>span{font:italic 400 18px/1.35 var(--serif);color:var(--ink-2)}
+
+/* ---- Desktop: the index on the left, its contents in the margin ------------------------------ */
+@media(min-width:1000px){
+ .lbx{--gutter:0px;--face:72px;padding:28px clamp(40px,4.5vw,64px) 96px}
+ .lbx-mast{display:flex;align-items:flex-end;justify-content:space-between;gap:40px;padding-top:28px}
+ .lbx-mast h1{font-size:64px;letter-spacing:-1.6px}
+ .lbx-search{width:340px;margin:0 0 6px}
+ .lbx-recent{margin-top:44px}
+ .lbx-recent-row{margin:18px 0 0;padding:0 0 8px;gap:16px;-webkit-mask-image:linear-gradient(90deg,black calc(100% - 96px),transparent);mask-image:linear-gradient(90deg,black calc(100% - 96px),transparent)}
+ .lbx-recent-row>.lbx-tile{--face:150px}
+ .lbx-body{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:72px;align-items:start;margin-top:8px}
+ .lbx-contents{order:2;position:sticky;top:calc(var(--chrome-top,48px) + 28px);margin-top:52px;max-height:calc(100dvh - var(--chrome-top,48px) - 56px);overflow:auto;scrollbar-width:none}
+ .lbx-chapters{order:1;min-width:0}
+ .lbx-row,.lbx-sub .lbx-row{margin-left:0;margin-right:0;padding:0;flex-wrap:wrap;overflow:visible;gap:10px;row-gap:14px}
+ .lbx-chapter-title .lbx-num,.lbx-chapter-title h2{font-size:40px}
+ .lbx-sub{padding-left:22px}
+ .lbx-name{font-size:19px}
+ .lbx-line.is-sub .lbx-name{font-size:17px}
+ .lbx-place-grid{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:72px;align-items:start}
+ .lbx-place-head{position:sticky;top:calc(var(--chrome-top,48px) + 20px)}
+ .lbx-place-head h1{font-size:54px;letter-spacing:-1.4px}
+ .lbx-place-body>.lbx-part:first-child,.lbx-place-body>.lbx-blank:first-child{margin-top:20px}
+ .lbx-strip{margin:16px 0 0;padding:0 0 6px}
+ .lbx-thing-face{width:112px;--face:96px}
+ .lbx-thing.is-video .lbx-thing-face,.lbx-thing.is-link .lbx-thing-face{--face:63px}
+ .lbx-thing.is-video .lbx-face,.lbx-thing.is-link .lbx-face{width:112px}
+}

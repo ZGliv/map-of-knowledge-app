@@ -1,0 +1,311 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module",
+ "name": "Free module",
+ "summary": [
+  {
+   "text": "A free module is a module that has a basis, meaning a generating set that is linearly independent.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Every vector space is a free module, but when the coefficient ring is not a division ring, non-free modules exist.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Given any set S and ring R, there is a free R-module with basis S, called the module of formal R-linear combinations of the elements of S.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "A ring over itself",
+   "value": "It is a free module of rank one",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Basis of the ring",
+   "value": "Any unit element works as a basis",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Direct sums",
+   "value": "A direct sum of free modules is free",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Whitehead problem",
+   "value": "Whether a Whitehead group is free is independent of ZFC",
+   "cites": [
+    22,
+    23
+   ]
+  },
+  {
+   "label": "Over the integers",
+   "value": "For finitely generated modules, free, projective, flat and torsion-free coincide",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You are working with vector spaces over a field, and someone asks what they are in the language of modules. What is the answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every vector space is a free module"
+    },
+    {
+     "id": "b",
+     "label": "Every vector space is a non-free module"
+    },
+    {
+     "id": "c",
+     "label": "Only some vector spaces are modules at all"
+    },
+    {
+     "id": "d",
+     "label": "A vector space is a module only over the integers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every vector space is a free module, since it has a basis.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module:q1"
+  },
+  {
+   "prompt": "The coefficients now come from a ring that is not a division ring. What can happen to a module over it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every module still has a basis"
+    },
+    {
+     "id": "b",
+     "label": "No modules exist at all"
+    },
+    {
+     "id": "c",
+     "label": "Some modules can fail to be free"
+    },
+    {
+     "id": "d",
+     "label": "Bases become unique for every module"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the coefficient ring is not a division ring, there exist non-free modules; over a field this cannot happen.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module:q2"
+  },
+  {
+   "prompt": "Treat a ring R as a module over itself. Which element can serve as a basis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only the multiplicative identity"
+    },
+    {
+     "id": "b",
+     "label": "The zero element"
+    },
+    {
+     "id": "c",
+     "label": "Any element at all"
+    },
+    {
+     "id": "d",
+     "label": "Any unit element"
+    }
+   ],
+   "answer": "d",
+   "explain": "A ring is a free module of rank one over itself, and any unit element is a basis.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module:q3"
+  },
+  {
+   "prompt": "You combine free modules in two ways: by a direct sum, or by an infinite product. Which combination is guaranteed to stay free?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The infinite product, but not the direct sum"
+    },
+    {
+     "id": "b",
+     "label": "The direct sum, but not generally the infinite product"
+    },
+    {
+     "id": "c",
+     "label": "Both always stay free"
+    },
+    {
+     "id": "d",
+     "label": "Neither ever stays free"
+    }
+   ],
+   "answer": "b",
+   "explain": "A direct sum of free modules is free, while an infinite cartesian product of free modules is generally not free.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module:q4"
+  },
+  {
+   "prompt": "A finitely generated module over the integers is known to be torsion-free. What follows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is free as well"
+    },
+    {
+     "id": "b",
+     "label": "It has no basis"
+    },
+    {
+     "id": "c",
+     "label": "It must be zero"
+    },
+    {
+     "id": "d",
+     "label": "It could still fail to be free"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a finitely generated module over a principal ideal domain such as the integers, free, projective, flat and torsion-free are equivalent.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module:q5"
+  },
+  {
+   "prompt": "A famous question asks whether a certain kind of group, a Whitehead group, is free. What is its status?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was proved free"
+    },
+    {
+     "id": "b",
+     "label": "It was proved not free"
+    },
+    {
+     "id": "c",
+     "label": "The standard axioms of set theory cannot settle it"
+    },
+    {
+     "id": "d",
+     "label": "Nobody has formulated it precisely"
+    }
+   ],
+   "answer": "c",
+   "explain": "Whether a module is free is sometimes undecidable in the set-theoretic sense; the Whitehead problem turned out to be independent of ZFC.",
+   "cites": [
+    21,
+    22,
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.modules.free-module:q6"
+  }
+ ],
+ "source": {
+  "title": "Free module",
+  "url": "https://en.wikipedia.org/wiki/Free_module",
+  "revision": 1350308631
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A module with a basis",
+    "text": "A free module is one that has a basis: a set of elements that generates the module and is linearly independent. As a direct result, each element of the module has only one set of coefficients in terms of that basis. Every vector space is free in this sense. But when the ring the coefficients come from is not a division ring (in the commutative case, not a field), some modules fail to be free.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "Building one from any set",
+    "text": "Take any set S and any ring R, and there is a free R-module whose basis is S. It is known as the free module on S; another name is the module of formal R-linear combinations from S. An element is a formal linear combination of members of the set, in which only finitely many coefficients are nonzero. Any R-linear map out of this module is fixed completely by what it does on the set itself, so a map given on the set can be extended by linearity.",
+    "cites": [
+     3,
+     24,
+     25,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Rank",
+    "text": "If R has invariant basis number, any two bases of a free R-module have the same size; nonzero commutative rings are examples of such rings. The size of a basis is then called the rank of the free module. When that size is a finite number n, the module is said to be free of rank n. For any non-negative integer n, Rⁿ, made of n copies of R, is free, and its rank is n when R has invariant basis number.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Examples",
+    "text": "A ring R is itself a free module of rank one, and any unit element works as a basis. When R is commutative, the polynomial ring R[X] is free, with 1, X, X², ... as one possible basis. A free abelian group is exactly a free module over the integers Z. Over a principal ideal domain such as Z, each submodule of a free module is again free.",
+    "cites": [
+     4,
+     10,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Sums and products",
+    "text": "A direct sum of free modules is free. In fact, every free left module over R is, up to isomorphism, a direct sum of copies of R. An infinite cartesian product of free modules, on the other hand, is generally not free.",
+    "cites": [
+     18,
+     26
+    ]
+   },
+   {
+    "heading": "Wider families",
+    "text": "Many facts about free modules carry over to larger classes. Projective modules are the direct summands of free modules, and Kaplansky's theorem says a projective module over a local ring is free. Flat modules are those for which tensoring with them preserves exact sequences. Torsion-free modules form a broader class still. For a module over a PID such as Z that is finitely generated, being free, projective, flat and torsion-free all come to the same thing.",
+    "cites": [
+     20,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Sometimes undecidable",
+    "text": "Whether a module is free can even be undecidable in the sense of set theory. A famous case is the Whitehead problem: is a Whitehead group free? That problem turned out to be independent of ZFC.",
+    "cites": [
+     21,
+     22,
+     23
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,566 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.hydrocarbons",
+ "name": "Hydrocarbons",
+ "summary": [
+  {
+   "text": "A hydrocarbon is an organic compound made entirely of hydrogen and carbon.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Burning hydrocarbons is the main source of the world's energy, and petroleum is the dominant raw material for solvents and polymers.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "They come as gases, liquids, low melting solids or polymers, and are grouped as saturated, unsaturated or aromatic.",
+   "cites": [
+    4,
+    9,
+    22,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Gas examples",
+   "value": "Methane and propane",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Saturated formula",
+   "value": "CₙH₂ₙ₊₂ for acyclic saturated types",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "One double bond",
+   "value": "Formula CₙH₂ₙ for non-cyclic alkenes",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "One triple bond",
+   "value": "Formula CₙH₂ₙ₋₂",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A chemist swaps hydrogen atoms on methane for chlorine in a chlorination reaction and gets chloroform. Is the product still a hydrocarbon?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because it began as a hydrocarbon and kept its carbon atom"
+    },
+    {
+     "id": "b",
+     "label": "No, because it now contains an atom other than hydrogen and carbon"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because swapping atoms never changes what kind of compound it is"
+    },
+    {
+     "id": "d",
+     "label": "No, because chlorination removes every bond to the carbon atom"
+    }
+   ],
+   "answer": "b",
+   "explain": "A hydrocarbon consists entirely of hydrogen and carbon, so halogenating one gives something that is not a hydrocarbon.",
+   "cites": [
+    1,
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.hydrocarbons:q1"
+  },
+  {
+   "prompt": "A chain-shaped hydrocarbon has only single bonds and 5 carbon atoms. Using its general formula, how many hydrogen atoms does it have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "10"
+    },
+    {
+     "id": "b",
+     "label": "11"
+    },
+    {
+     "id": "c",
+     "label": "12"
+    },
+    {
+     "id": "d",
+     "label": "14"
+    }
+   ],
+   "answer": "c",
+   "explain": "Acyclic saturated hydrocarbons follow CₙH₂ₙ₊₂, so n = 5 gives 2 × 5 + 2 = 12.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.hydrocarbons:q2"
+  },
+  {
+   "prompt": "Two hydrocarbons have no rings and the same number of carbons. One has a single double bond and the other has only single bonds. How do their hydrogen counts compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with the double bond has two fewer hydrogens"
+    },
+    {
+     "id": "b",
+     "label": "The one with the double bond has two more hydrogens"
+    },
+    {
+     "id": "c",
+     "label": "They have the same number, since only carbons form bonds"
+    },
+    {
+     "id": "d",
+     "label": "The one with the double bond has four fewer hydrogens"
+    }
+   ],
+   "answer": "a",
+   "explain": "Single-bond-only types follow CₙH₂ₙ₊₂, while those with one double bond follow CₙH₂ₙ, which is two fewer hydrogens.",
+   "cites": [
+    11,
+    23,
+    24
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.hydrocarbons:q3"
+  },
+  {
+   "prompt": "Polyethylene is a plastic made of very long molecules. Can it count as a hydrocarbon?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, since hydrocarbons are only ever gases or thin liquids"
+    },
+    {
+     "id": "b",
+     "label": "No, since any material that big must contain oxygen atoms"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only when it is burned as a fuel source"
+    },
+    {
+     "id": "d",
+     "label": "Yes, since hydrocarbons can take polymer form and polyethylene is one"
+    }
+   ],
+   "answer": "d",
+   "explain": "Hydrocarbons occur as gases, liquids, low melting solids or polymers, and polyethylene is named as a polymer example.",
+   "cites": [
+    1,
+    4
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.hydrocarbons:q4"
+  },
+  {
+   "prompt": "A chemist uses a word for hydrocarbons that have no aromatic ring. Which term is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Arene"
+    },
+    {
+     "id": "b",
+     "label": "Aliphatic"
+    },
+    {
+     "id": "c",
+     "label": "Paraffin"
+    },
+    {
+     "id": "d",
+     "label": "Olefin"
+    }
+   ],
+   "answer": "b",
+   "explain": "Aliphatic refers to non-aromatic hydrocarbons; paraffin and olefin name only the saturated and double-bond subsets, and arene is another word for aromatic.",
+   "cites": [
+    27,
+    28,
+    29,
+    30
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.hydrocarbons:q5"
+  },
+  {
+   "prompt": "A refinery compares a short chain of carbon atoms with a much longer simple chain. Which one will be thicker and boil at a higher temperature?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The shorter chain, because lighter molecules cling together more"
+    },
+    {
+     "id": "b",
+     "label": "Neither, because chain length leaves these properties unchanged"
+    },
+    {
+     "id": "c",
+     "label": "The longer chain, because adding carbon units raises both"
+    },
+    {
+     "id": "d",
+     "label": "The shorter chain, because it holds more hydrogen per carbon"
+    }
+   ],
+   "answer": "c",
+   "explain": "As carbon units are added, simple non-ring hydrocarbons gain higher viscosities and boiling points, ending in heavy tars.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.hydrocarbons:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Methane-3D-balls.png/960px-Methane-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Hydrocarbons",
+  "credit": "Wikimedia Commons",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Methane-3D-balls.png"
+ },
+ "source": {
+  "title": "Hydrocarbon",
+  "url": "https://en.wikipedia.org/wiki/Hydrocarbon",
+  "revision": 1378930949
+ },
+ "pack": {
+  "id": "auto-organic-chemistry-hydrocarbons",
+  "title": "Hydrogen Plus Carbon, Endless Forms",
+  "question": "What can compounds made of only hydrogen and carbon look like?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Organic chemistry",
+   "Hydrocarbons"
+  ],
+  "hue": 174,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Methane-3D-balls.png/960px-Methane-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Hydrocarbons",
+    "credit": "Wikimedia Commons · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Methane-3D-balls.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Hydrogen Plus Carbon, Endless Forms",
+    "hook": "Natural gas, paraffin wax and polyethylene are all built from just two kinds of atom."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-organic-chemistry-hydrocarbons:1",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "sort each into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Alkane"
+     },
+     {
+      "id": "i1",
+      "label": "Cycloalkane"
+     },
+     {
+      "id": "i2",
+      "label": "Alkene"
+     },
+     {
+      "id": "i3",
+      "label": "Alkyne"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Saturated"
+     },
+     {
+      "id": "g1",
+      "label": "Unsaturated"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Saturated hydrocarbons have only single bonds; unsaturated ones have one or more double or triple bonds between carbon atoms."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-organic-chemistry-hydrocarbons:2",
+    "transfer": false,
+    "prompt": "A chlorination reaction turns methane into chloroform by replacing hydrogen atoms with chlorine. Is chloroform a hydrocarbon?",
+    "explain": "Halogenating a hydrocarbon produces something that is not a hydrocarbon, because chlorine is neither hydrogen nor carbon.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Yes, it still contains carbon and hydrogen",
+        "feedback": "It keeps both, which is tempting, but a hydrocarbon must contain nothing except hydrogen and carbon."
+       },
+       {
+        "id": "c",
+        "label": "Yes, because substituting atoms never changes the compound's class",
+        "feedback": "Substitution can change the class: a halogenated hydrocarbon is no longer a hydrocarbon."
+       },
+       {
+        "id": "b",
+        "label": "No, it now contains a halogen"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-organic-chemistry-hydrocarbons:3",
+    "transfer": true,
+    "prompt": "match each to its form at room conditions",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Propane"
+     },
+     {
+      "id": "l1",
+      "label": "Hexane"
+     },
+     {
+      "id": "l2",
+      "label": "Paraffin wax"
+     },
+     {
+      "id": "l3",
+      "label": "Polystyrene"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Low melting solid"
+     },
+     {
+      "id": "r1",
+      "label": "Liquid"
+     },
+     {
+      "id": "r0",
+      "label": "Gas"
+     },
+     {
+      "id": "r3",
+      "label": "Polymer"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Hydrocarbons occur in a diverse range of phases, from gases to polymers."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-organic-chemistry-hydrocarbons:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A non-cyclic hydrocarbon with only single bonds and 4 carbons follows CₙH₂ₙ₊₂, so it has 10 hydrogens."
+     },
+     {
+      "id": "b",
+      "text": "A non-cyclic hydrocarbon with one double bond follows CₙH₂ₙ, so with 4 carbons it has 8 hydrogens."
+     },
+     {
+      "id": "c",
+      "text": "Going from single bonds to one double bond therefore leaves two fewer hydrogens."
+     },
+     {
+      "id": "d",
+      "text": "A non-cyclic hydrocarbon with one triple bond also follows CₙH₂ₙ₊₂, so it keeps 10 hydrogens."
+     }
+    ],
+    "answer": "d",
+    "explain": "One triple bond gives the formula CₙH₂ₙ₋₂, so the 4-carbon version has 6 hydrogens, not 10."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Hydrocarbons are sorted into saturated, unsaturated and aromatic types, and the bonds between carbon atoms decide which type a molecule is.",
+    "connections": [
+     {
+      "title": "Alkane",
+      "place": "Hydrocarbons",
+      "node": "knowledge.science.chemistry.organic-chemistry.hydrocarbons.alkane"
+     },
+     {
+      "title": "Alkene",
+      "place": "Hydrocarbons",
+      "node": "knowledge.science.chemistry.organic-chemistry.hydrocarbons.alkene"
+     },
+     {
+      "title": "Alkyne",
+      "place": "Hydrocarbons",
+      "node": "knowledge.science.chemistry.organic-chemistry.hydrocarbons.alkyne"
+     },
+     {
+      "title": "Aromatic hydrocarbon",
+      "place": "Hydrocarbons",
+      "node": "knowledge.science.chemistry.organic-chemistry.hydrocarbons.aromatic-hydrocarbon"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Saturated hydrocarbons have only single bonds; unsaturated ones have one or more double or triple bonds between carbon atoms.",
+    "source": "Wikipedia sentences 10, 11, 13, 22, 23, 25"
+   },
+   {
+    "claim": "Halogenating a hydrocarbon produces something that is not a hydrocarbon, because chlorine is neither hydrogen nor carbon.",
+    "source": "Wikipedia sentences 1, 15, 16, 17"
+   },
+   {
+    "claim": "Hydrocarbons occur in a diverse range of phases, from gases to polymers.",
+    "source": "Wikipedia sentences 4"
+   },
+   {
+    "claim": "One triple bond gives the formula CₙH₂ₙ₋₂, so the 4-carbon version has 6 hydrogens, not 10.",
+    "source": "Wikipedia sentences 11, 24, 26"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Only hydrogen and carbon",
+    "text": "A hydrocarbon is an organic compound made of nothing but hydrogen and carbon. Hydrocarbons are generally colourless and hydrophobic, and any smell they have is usually faint, sometimes like gasoline or lighter fluid. They come in many forms. Methane and propane are gases, hexane and benzene are liquids, paraffin wax and naphthalene are solids that melt easily, and polyethylene and polystyrene are polymers.",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Why they matter",
+    "text": "Burning hydrocarbons is the world's main source of energy, and fuel is their chief use. Methane is the main ingredient of natural gas. Petroleum is also the leading raw material for organic commodity chemicals such as solvents and polymers. Most greenhouse gas emissions from human activity are either carbon dioxide from burning fossil fuels or methane from handling natural gas or from farming.",
+    "cites": [
+     6,
+     7,
+     8,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Saturated hydrocarbons",
+    "text": "Saturated hydrocarbons are the simplest type. All their bonds are single bonds, and they are saturated with hydrogen. Those without rings, called alkanes, follow the formula CₙH₂ₙ₊₂, and those with exactly one ring are called cycloalkanes. Saturated hydrocarbons can be straight or branched, they are the basis of petroleum fuels, and they stand out for being inert.",
+    "cites": [
+     9,
+     10,
+     11,
+     13,
+     14,
+     45
+    ]
+   },
+   {
+    "heading": "Double bonds, triple bonds, rings",
+    "text": "Unsaturated hydrocarbons have at least one double or triple bond between carbon atoms. Those with double bonds are alkenes, and an alkene with one double bond and no ring has the formula CₙH₂ₙ. Those with triple bonds are alkynes, and with one triple bond the formula is CₙH₂ₙ₋₂. Aromatic hydrocarbons, also called arenes, contain at least one aromatic ring, and hydrocarbons that are not aromatic are called aliphatic.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "From gasoline to tar",
+    "text": "As carbon units are added, chain hydrocarbons grow more viscous, boil at higher temperatures and solidify at higher temperatures. Hydrocarbons with 6 to 10 carbons are the main components of gasoline, naphtha and jet fuel. At the far end from methane are heavy tars, the lowest fraction left behind when crude oil is refined. These tars are used for roofing, as bitumen for pavements, and as creosote to preserve wood.",
+    "cites": [
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Swapping out hydrogen",
+    "text": "One or more hydrogen atoms in a hydrocarbon can be replaced with another atom, such as chlorine or another halogen, in what is called a substitution reaction. Turning methane into chloroform by chlorination is one example. The product of adding a halogen is no longer a hydrocarbon, and this kind of change is very common and useful.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Hydrocarbons in nature",
+    "text": "Hydrocarbons are common in nature as well. A Brazilian stingless bee, Schwarziana quadripunctata, uses its own hydrocarbon scents to tell kin from non-kin, and the mix varies with a bee's age, sex, nest location and rank. Plants such as Euphorbia lathyris and E. tirucalli could be harvested for hydrocarbons as a renewable energy source for diesel vehicles.",
+    "cites": [
+     40,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "chem2e-20-1",
+   "kind": "book",
+   "title": "20.1: Hydrocarbons",
+   "by": "OpenStax, Chemistry 2e (LibreTexts)",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/20%3A_Organic_Chemistry/20.02%3A_Hydrocarbons",
+   "note": "A free textbook section on alkanes, alkenes, alkynes and aromatic hydrocarbons, with naming and typical reactions.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cc-chem-40",
+   "kind": "video",
+   "title": "Hydrocarbon Power!: Crash Course Chemistry #40",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=UloIw7dhnlQ",
+   "note": "A Crash Course Chemistry video introducing hydrocarbons and why they matter as fuels."
+  }
+ ]
+}

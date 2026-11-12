@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The law of total probability is a basic rule that links the overall chance of an outcome to its chances under several separate events.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "In one example two factories supply bulbs: X makes 60% and Y makes 40%, and their bulbs last over 5000 hours in 99% and 95% of cases.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Putting these together gives every purchased bulb a 97.4% chance of working for more than 5000 hours.",
+   "cites": [
+    6,
+    7,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What it relates",
+   "value": "Marginal probabilities to conditional probabilities",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "Sometimes called average probability or overall probability",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Bulb market shares",
+   "value": "Factory X supplies 60% of bulbs and Y supplies 40%",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Bulb result",
+   "value": "A purchased bulb has a 97.4% chance of lasting past 5000 hours",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Discrete special case",
+   "value": "The law of alternatives, for discrete random variables",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Factory X's bulbs last over 5000 hours 99% of the time, and factory Y's do so 95% of the time. You buy a bulb without knowing who made it. Roughly where does its chance of lasting fall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Below 95%, because mixing makers adds extra risk"
+    },
+    {
+     "id": "b",
+     "label": "Over 99%, because having two makers adds safety"
+    },
+    {
+     "id": "c",
+     "label": "Between 95% and 99%, since it came from one of the two"
+    },
+    {
+     "id": "d",
+     "label": "Exactly 97%, since the two rates are shared evenly"
+    }
+   ],
+   "answer": "c",
+   "explain": "The bulb comes from X or from Y, so its overall chance sits between the two factory rates; the example gives 97.4%.",
+   "cites": [
+    6,
+    10
+   ]
+  },
+  {
+   "prompt": "To work out the overall chance that a purchased bulb lasts, which two pieces of information do you need about the factories?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each factory's share of the bulbs and each factory's own chance of a lasting bulb"
+    },
+    {
+     "id": "b",
+     "label": "Only the two lasting-bulb rates, since shares do not matter"
+    },
+    {
+     "id": "c",
+     "label": "Only each factory's share, since all bulbs last about equally long"
+    },
+    {
+     "id": "d",
+     "label": "Just the larger factory's rate, since the other is rarely met"
+    }
+   ],
+   "answer": "a",
+   "explain": "The example uses how much of the market each factory supplies together with how often each factory's bulbs last.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "A parcel can arrive late through a storm, a strike or a breakdown, three separate events. Why is the law of total probability suited to finding the overall chance of a late parcel?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It picks the single likeliest cause and ignores the others"
+    },
+    {
+     "id": "b",
+     "label": "It assumes the three causes are exactly equally likely"
+    },
+    {
+     "id": "c",
+     "label": "It reverses a chance from one direction to the other"
+    },
+    {
+     "id": "d",
+     "label": "It covers an outcome that can happen through several distinct events"
+    }
+   ],
+   "answer": "d",
+   "explain": "The law gives the total probability of an outcome that can be realized through several distinct events, hence its name.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "The law of total probability is described as a fundamental rule. Which two kinds of probability does it connect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Chances before and chances after a coin has been flipped"
+    },
+    {
+     "id": "b",
+     "label": "Marginal probabilities and conditional probabilities"
+    },
+    {
+     "id": "c",
+     "label": "Chances for single events and chances for infinite series"
+    },
+    {
+     "id": "d",
+     "label": "Theoretical chances and chances found by experiment"
+    }
+   ],
+   "answer": "b",
+   "explain": "It relates marginal probabilities to conditional probabilities.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "The law of alternatives is called a special case of the law of total probability. To which kind of random variables does it apply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Discrete random variables"
+    },
+    {
+     "id": "b",
+     "label": "Only variables with no possible outcomes"
+    },
+    {
+     "id": "c",
+     "label": "Variables that always give the same outcome"
+    },
+    {
+     "id": "d",
+     "label": "Only variables measured in whole hours"
+    }
+   ],
+   "answer": "a",
+   "explain": "The law of alternatives is the special case for discrete random variables.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "A writer refers to the 'overall probability' of an outcome in an informal piece. Which result is most likely meant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of the outcome within one chosen subgroup only"
+    },
+    {
+     "id": "b",
+     "label": "The chance of the outcome once the first event is known"
+    },
+    {
+     "id": "c",
+     "label": "The total chance, as found by the law of total probability"
+    },
+    {
+     "id": "d",
+     "label": "The chance that no event in the list will occur"
+    }
+   ],
+   "answer": "c",
+   "explain": "The result of the law of total probability is sometimes called average probability, or overall probability in less formal writings.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

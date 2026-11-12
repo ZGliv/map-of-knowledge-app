@@ -1,0 +1,346 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration",
+ "name": "Cellular respiration",
+ "summary": [
+  {
+   "text": "Cellular respiration oxidizes biological fuels, using an inorganic electron acceptor such as oxygen, to drive production of ATP.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "ATP stores chemical energy in a form cells can use for biosynthesis, locomotion and moving molecules across cell membranes.",
+   "cites": [
+    1,
+    11
+   ]
+  },
+  {
+   "text": "When oxygen is the electron acceptor the process is aerobic cellular respiration, and when another molecule is used it is anaerobic cellular respiration.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Common fuels",
+   "value": "Sugar, amino acids and fatty acids",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Aerobic yield",
+   "value": "Current estimates range around 29 to 30 ATP per glucose",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Anaerobic yield",
+   "value": "Anaerobic metabolism yields 2 ATP per glucose molecule",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Eukaryote location",
+   "value": "Post-glycolytic reactions take place in the mitochondria",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Plant respiration",
+   "value": "Accounts for about half of land ecosystems' yearly CO₂",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A process passes electrons to organic molecules and uses no oxygen. How should it be classified?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Aerobic respiration, because electrons are moving"
+    },
+    {
+     "id": "b",
+     "label": "Anaerobic respiration, because no oxygen is used"
+    },
+    {
+     "id": "c",
+     "label": "Fermentation, which is anaerobic but is not respiration"
+    },
+    {
+     "id": "d",
+     "label": "Combustion, because energy is released by burning"
+    }
+   ],
+   "answer": "c",
+   "explain": "Processes that transfer electrons to organic molecules are called fermentation, which is anaerobic but is not respiration.",
+   "cites": [
+    3,
+    4,
+    5
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration:q1"
+  },
+  {
+   "prompt": "Aerobic and anaerobic organisms share the first pathway, glycolysis. What happens next in aerobic metabolism?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It continues with the Krebs cycle and oxidative phosphorylation"
+    },
+    {
+     "id": "b",
+     "label": "It runs glycolysis backwards to rebuild the glucose again"
+    },
+    {
+     "id": "c",
+     "label": "It stops, and the cell relies on glycolysis alone for ATP"
+    },
+    {
+     "id": "d",
+     "label": "It sends pyruvate straight out of the cell as waste"
+    }
+   ],
+   "answer": "a",
+   "explain": "Both share the initial pathway of glycolysis, but aerobic metabolism continues with the Krebs cycle and oxidative phosphorylation.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration:q2"
+  },
+  {
+   "prompt": "A textbook says one glucose can yield 38 ATP, yet measured yields come in lower, around 29 to 30. Why is the maximum never reached?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some of the glucose is lost as heat before it reaches the cell"
+    },
+    {
+     "id": "b",
+     "label": "Half of the electrons escape before the transport chain starts"
+    },
+    {
+     "id": "c",
+     "label": "Oxygen is used up before the process has time to finish"
+    },
+    {
+     "id": "d",
+     "label": "Leaky membranes and the cost of moving pyruvate and ADP in"
+    }
+   ],
+   "answer": "d",
+   "explain": "The maximum is never reached because of losses from leaky membranes and the cost of moving pyruvate and ADP into the mitochondrial matrix.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration:q3"
+  },
+  {
+   "prompt": "A cell needs energy to move molecules across its membrane, and ATP supplies it. What happens in ATP to free that energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its third phosphate bond is strengthened, pushing energy out"
+    },
+    {
+     "id": "b",
+     "label": "Its third phosphate bond breaks, letting more stable products form"
+    },
+    {
+     "id": "c",
+     "label": "It is oxidized by oxygen in a rapid burst of combustion"
+    },
+    {
+     "id": "d",
+     "label": "It gives up its sugar group, which burns to release energy"
+    }
+   ],
+   "answer": "b",
+   "explain": "Breaking the bond of ATP's third phosphate group lets more stable products form, releasing energy the cell can use.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration:q4"
+  },
+  {
+   "prompt": "Cellular respiration is technically a combustion reaction. What makes it an unusual one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It happens without any fuel, using only oxygen"
+    },
+    {
+     "id": "b",
+     "label": "It releases all of its energy at once, as one burst"
+    },
+    {
+     "id": "c",
+     "label": "It releases its energy slowly, in a controlled way"
+    },
+    {
+     "id": "d",
+     "label": "It takes in energy instead of giving any off at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is unusual because the energy is released slowly and in a controlled way across a series of reactions.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration:q5"
+  },
+  {
+   "prompt": "In a prokaryotic cell, where do the reactions that follow glycolysis take place?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In the cytoplasm"
+    },
+    {
+     "id": "b",
+     "label": "In the mitochondria"
+    },
+    {
+     "id": "c",
+     "label": "In the cell nucleus"
+    },
+    {
+     "id": "d",
+     "label": "In the chloroplasts"
+    }
+   ],
+   "answer": "a",
+   "explain": "The post-glycolytic reactions take place in the mitochondria in eukaryotic cells and in the cytoplasm in prokaryotic cells.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.cellular-respiration:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/CellRespiration.svg/960px-CellRespiration.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Cellular respiration",
+  "credit": "RegisFrey",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:CellRespiration.svg"
+ },
+ "source": {
+  "title": "Cellular respiration",
+  "url": "https://en.wikipedia.org/wiki/Cellular_respiration",
+  "revision": 1382176743
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Burning fuel to make ATP",
+    "text": "Cellular respiration is how cells oxidize fuel to make ATP, the molecule that holds chemical energy in a form living things can use. As the fuel is oxidized, electrons flow from it to an inorganic electron acceptor, such as oxygen. Animal and plant cells commonly use sugar, amino acids and fatty acids as fuel. The usual oxidizing agent is oxygen gas (O₂).",
+    "cites": [
+     1,
+     2,
+     10
+    ]
+   },
+   {
+    "heading": "Aerobic, anaerobic and fermentation",
+    "text": "When oxygen accepts the electrons, the process is called aerobic respiration. When some other molecule does, it is anaerobic respiration. Fermentation passes electrons to organic molecules instead; it is also anaerobic, but it does not count as respiration. Some anaerobic organisms, such as methanogens, use inorganic molecules other than oxygen as their final electron acceptor, and this gives them more ATP.",
+    "cites": [
+     3,
+     4,
+     5,
+     23
+    ]
+   },
+   {
+    "heading": "A slow, controlled burn",
+    "text": "The reactions of respiration are catabolic, meaning they break large molecules into smaller ones. They run as a series of separate steps. Strictly speaking, respiration is a combustion reaction, but an unusual one, because the energy comes out slowly and under control. The energy is used to attach a third phosphate to ADP, forming ATP. Cells then spend that ATP on building molecules, on moving, and on carrying molecules across their membranes.",
+    "cites": [
+     6,
+     8,
+     9,
+     11,
+     14
+    ]
+   },
+   {
+    "heading": "From glucose to the Krebs cycle",
+    "text": "Aerobic and anaerobic metabolism share a first stage, glycolysis. It begins by spending one ATP to add a phosphate to glucose and a second ATP to add another phosphate later on. The sugar then splits into two pieces with three-carbon chains, which become pyruvate. With oxygen present, pyruvate is turned into acetyl-CoA and CO₂. Acetyl-CoA then enters the citric acid cycle, also called the Krebs cycle, inside the mitochondria, where it is oxidized to CO₂ while NAD is turned into NADH. Without oxygen, the pyruvate is fermented instead.",
+    "cites": [
+     24,
+     27,
+     30,
+     31,
+     32,
+     35,
+     36,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Where most ATP is made",
+    "text": "Most of the ATP from aerobic respiration is made by oxidative phosphorylation. The energy held in NADH and FADH₂ feeds an electron transport chain, with oxygen and protons as the final electron acceptors. The energy released pumps protons across a membrane, building up what is called a chemiosmotic potential. That potential then drives ATP synthase, which makes ATP from ADP and a phosphate group.",
+    "cites": [
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "How much ATP per glucose",
+    "text": "Biology textbooks often say one glucose molecule can yield 38 ATP. Of these, glycolysis gives 2, the Krebs cycle gives 2, and the electron transport system gives about 34. That maximum is never quite reached, because membranes leak and moving pyruvate and ADP into the mitochondria has a cost. Current estimates are around 29 to 30 ATP per glucose. Even so, the aerobic route can be as much as 15 times as efficient as the anaerobic one, which gives 2 ATP per glucose. The products left over are carbon dioxide and water.",
+    "cites": [
+     14,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Plants respire too",
+    "text": "Through photosynthesis, plants take in more carbon dioxide than they give off, and they produce oxygen. Yet they respire as well. Plant respiration accounts for about half of the CO₂ that land ecosystems release each year.",
+    "cites": [
+     26
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-7-2",
+   "kind": "book",
+   "title": "7.2 Glycolysis",
+   "by": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+   "note": "A free textbook section on the first stage of respiration, splitting glucose into two pyruvates."
+  },
+  {
+   "id": "openstax-bio-7-4",
+   "kind": "book",
+   "title": "7.4 Oxidative Phosphorylation",
+   "by": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+   "note": "A free textbook section on the electron transport chain and ATP synthase, where most ATP is made."
+  },
+  {
+   "id": "crashcourse-respiration",
+   "kind": "video",
+   "title": "Cellular Respiration: Do Cells Breathe?: Crash Course Biology #27",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=HeO3yagexTw",
+   "note": "A Crash Course Biology episode on cellular respiration and the role of mitochondria."
+  }
+ ]
+}

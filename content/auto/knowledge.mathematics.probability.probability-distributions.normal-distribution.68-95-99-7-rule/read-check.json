@@ -1,0 +1,30 @@
+{
+ "readHash": "7eca54f3110912e82d5237820590b9db2d17283b",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Empirical rule name, 68/95/99.7 within 1/2/3 SD, values from normal CDF in 1 and 9."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Usefulness depends on question/collection and true normality, thin tails, fatter tails lower significance in 2-3."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Three-sigma rule, 99.7% near certainty, social science 2-sigma 95%, particle physics 5-sigma 99.99994% in 4-5."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Chebyshev 88.8%, Vysochanskij-Petunin 95% for unimodal, 98% under assumptions in 6-8."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Rough probability estimate, outlier test, normality test, deviation then standardizing/studentizing, compare frequencies in 12-16."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Multiple 4-SD moves in 1,000, 6-sigma two parts per billion, 1.4 million years daily, normality test in 17-20."
+  }
+ }
+}

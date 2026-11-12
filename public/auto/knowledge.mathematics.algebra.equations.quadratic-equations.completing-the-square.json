@@ -1,0 +1,326 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square",
+ "name": "Completing the square",
+ "summary": [
+  {
+   "text": "Completing the square converts a quadratic into the form a (x − h)² + k, so that taking a square root reduces a quadratic problem to a linear one.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "It is the oldest method of solving general quadratic equations, used on Old Babylonian clay tablets dating from 1800 to 1600 BCE.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "Al-Khwarizmi formalised it in Al-Jabr; it is still taught and used for graphing quadratics and deriving the quadratic formula.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Oldest method",
+   "value": "Old Babylonian clay tablets, 1800 to 1600 BCE",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Al-Khwarizmi",
+   "value": "Formalised and popularised it in his work Al-Jabr",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Vertex",
+   "value": "h and k are the parabola's vertex coordinates",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Name origin",
+   "value": "An added square completes a larger square",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Other uses",
+   "value": "Graphing quadratics, deriving the formula, finding Laplace transforms",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A builder has a square tile of side x and two matching rectangular tiles. To make one larger square, what must be added?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One more matching rectangle"
+    },
+    {
+     "id": "b",
+     "label": "A triangle that fits the gap"
+    },
+    {
+     "id": "c",
+     "label": "One more small square"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, they already fit"
+    }
+   ],
+   "answer": "c",
+   "explain": "One more square is added to the square and the pair of rectangles, which completes a larger square; that is where the name comes from.",
+   "cites": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square:q1"
+  },
+  {
+   "prompt": "A quadratic with a positive leading coefficient is written as a (x − h)² + k. What does k tell you about its parabola?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its minimum value"
+    },
+    {
+     "id": "b",
+     "label": "Where it crosses the x-axis"
+    },
+    {
+     "id": "c",
+     "label": "How wide it opens"
+    },
+    {
+     "id": "d",
+     "label": "Its highest height"
+    }
+   ],
+   "answer": "a",
+   "explain": "k is the minimum value, or the maximum value if a < 0.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square:q2"
+  },
+  {
+   "prompt": "The graph of x² has its vertex at the origin. If you slide it right by h and up by k, where is the vertex?",
+   "options": [
+    {
+     "id": "a",
+     "label": "(k, h)"
+    },
+    {
+     "id": "b",
+     "label": "(h, k)"
+    },
+    {
+     "id": "c",
+     "label": "(−h, k)"
+    },
+    {
+     "id": "d",
+     "label": "(h, −k)"
+    }
+   ],
+   "answer": "b",
+   "explain": "Shifting right by h and upward by k moves the vertex to (h, k).",
+   "cites": [
+    31,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square:q3"
+  },
+  {
+   "prompt": "Factoring is reliable only when roots are rational, and your quadratic's roots are irrational. What can you use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing; irrational roots cannot be found"
+    },
+    {
+     "id": "b",
+     "label": "Factoring anyway, since it adapts"
+    },
+    {
+     "id": "c",
+     "label": "Completing the square, but only for rational roots"
+    },
+    {
+     "id": "d",
+     "label": "Completing the square, which still finds them"
+    }
+   ],
+   "answer": "d",
+   "explain": "Completing the square finds the roots even when they are irrational or complex, unlike factoring, which is reliable only for rational roots.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square:q4"
+  },
+  {
+   "prompt": "You add the square of half the coefficient of x to both sides of a quadratic equation. What does the left side become?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A product of three factors"
+    },
+    {
+     "id": "b",
+     "label": "A perfect square"
+    },
+    {
+     "id": "c",
+     "label": "A constant with no x"
+    },
+    {
+     "id": "d",
+     "label": "A linear expression"
+    }
+   ],
+   "answer": "b",
+   "explain": "Adding that amount completes the square, converting the left side into a perfect square.",
+   "cites": [
+    6,
+    7,
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square:q5"
+  },
+  {
+   "prompt": "A student who has learned completing the square asks what else it is good for. Which is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It solves every cubic equation in a single step"
+    },
+    {
+     "id": "b",
+     "label": "It works only when the equation has no x term"
+    },
+    {
+     "id": "c",
+     "label": "It helps graph quadratics and derive the formula"
+    },
+    {
+     "id": "d",
+     "label": "It turns a parabola into a straight line"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is used for graphing quadratic functions and deriving the quadratic formula.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.completing-the-square:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Completing_the_square.ogv/500px--Completing_the_square.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+  "alt": "Completing the square",
+  "credit": "Lucas V. Barbosa",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Completing_the_square.ogv"
+ },
+ "source": {
+  "title": "Completing the square",
+  "url": "https://en.wikipedia.org/wiki/Completing_the_square",
+  "revision": 1381409695
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it does",
+    "text": "Completing the square is a technique from elementary algebra. It rewrites a quadratic polynomial a x² + b x + c in the form a (x − h)² + k, for suitable numbers h and k. Seen in terms of the new quantity x − h, the expression is a quadratic with no linear term. Once (x − h)² is isolated and a square root is taken, a quadratic problem shrinks to a linear one.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why the name",
+    "text": "The name comes from a picture. Let x be an unknown length, so x² is the area of a square with side x. The term b/a x is then the area of two identical rectangles, each with sides x and b/(2 a). Add one more square, with side b/(2 a), and the pieces fill out a bigger square whose side is x + b/(2 a).",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "An old method",
+    "text": "It is the oldest way of solving general quadratic equations, found on Old Babylonian clay tablets from 1800–1600 BCE. Al-Khwarizmi, a polymath who wrote the early algebra treatise Al-Jabr, used it, formalised it and made it widely known. It is still taught in elementary algebra courses. It is also used to graph quadratic functions, to derive the quadratic formula, and in calculus, for example when evaluating Gaussian integrals or finding Laplace transforms.",
+    "cites": [
+     8,
+     9,
+     10,
+     12
+    ]
+   },
+   {
+    "heading": "How it works",
+    "text": "It rests on the rule for squaring a sum: (x + p)² = x² + 2 p x + p². In any perfect square of this kind, the coefficient of x is twice p and the constant is p². Take x² + 10 x + 28. It is not a perfect square, because (x + 5)² = x² + 10 x + 25, and 28 is not the square of 5. Still, it can be written as (x + 5)² + 3.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The general recipe",
+    "text": "For any quadratic x² + b x + c, the square (x + 1/2 b)² has the same first two terms. If the x² term has a coefficient a, you first factor a out and then complete the square on what is left. This lets any quadratic be written as a (x − h)² + k. In general, h = −b/(2 a) and k = c − b²/(4 a).",
+    "cites": [
+     18,
+     19,
+     21,
+     23
+    ]
+   },
+   {
+    "heading": "Reading the graph",
+    "text": "Every quadratic function draws a parabola as its graph. In the form a (x − h)² + k, the point (h, k) is the vertex: the line x = h is the axis of symmetry, and k is the smallest value of the function, or the largest if a < 0. The reason is a pair of shifts. The parabola for x² has its vertex at the origin; replacing x with x − h moves it right by h, and adding k lifts it up by k.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Solving equations",
+    "text": "Completing the square can solve any quadratic equation. Take x² + 6 x + 5 = 0: the method leads to x + 3 = −2 or x + 3 = 2, so x = −5 or x = −1. Factoring is reliable only when the roots are rational. Completing the square, by contrast, finds the roots even when they are irrational or complex.",
+    "cites": [
+     35,
+     36,
+     37,
+     44
+    ]
+   }
+  ]
+ }
+}

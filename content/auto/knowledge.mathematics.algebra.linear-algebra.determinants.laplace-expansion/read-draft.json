@@ -1,0 +1,46 @@
+{
+ "paragraphs": [
+  {
+   "heading": "A determinant built from smaller ones",
+   "text": "Laplace expansion, also called cofactor expansion, is a way of writing the determinant of an n × n matrix as a weighted sum of smaller determinants. Those smaller determinants are called minors. Each minor is the determinant of an (n − 1) × (n − 1) submatrix taken from the original matrix B. The method carries the name of Pierre-Simon Laplace.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "heading": "Cofactors",
+   "text": "In this sum, the entry b_(i,j) carries the coefficient (−1)ⁱ⁺ʲ m_(i,j), where m_(i,j) is one of the minors. The sign in front, (−1)ⁱ⁺ʲ, depends on the row i and the column j of that entry. This signed minor has its own name: the cofactor of the entry b_(i,j) within B.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "heading": "Why people use it",
+   "text": "Laplace expansion is often handy in proofs, for example by allowing recursion on the size of matrices. Each minor in the sum is a determinant one size smaller than the one being computed. It also has teaching value: it is simple, and it gives another way, among several, to look at and calculate a determinant. For large matrices, though, it quickly becomes inefficient next to Gaussian elimination.",
+   "cites": [
+    1,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "heading": "Checking a worked example",
+   "text": "A worked example of the expansion is easy to verify just by looking at the columns of the matrix. In one example matrix, adding the first and third columns gives exactly twice the second column. That relation among the columns makes the matrix singular, and so its determinant is zero, which confirms the result of the expansion.",
+   "cites": [
+    6,
+    12
+   ]
+  },
+  {
+   "heading": "Expanding along several rows",
+   "text": "The idea does not have to stop at a single row. A determinant can also be expanded along the first two rows together, using a more general form of the theorem that works with k rows at a time. When k = 1, that general form matches the ordinary expansion. The same holds for any fixed choice of k columns.",
+   "cites": [
+    11,
+    13,
+    14
+   ]
+  }
+ ]
+}

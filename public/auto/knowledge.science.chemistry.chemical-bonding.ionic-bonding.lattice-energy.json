@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy",
+ "name": "Lattice energy",
+ "summary": [
+  {
+   "text": "Lattice energy is the energy released when one mole of a crystalline compound forms from its separated gaseous constituents.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It measures the cohesive forces that bind crystalline solids and is linked to properties such as solubility, hardness and volatility.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It generally cannot be measured directly, so it is usually deduced from experimental data using the Born-Haber cycle.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Linked properties",
+   "value": "Solubility, hardness and volatility",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "How it's found",
+   "value": "Usually deduced from experiments via the Born-Haber cycle",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Opposite sign convention",
+   "value": "Some books define it as energy needed, making NaCl +786 kJ/mol",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "label": "BaO versus NaCl",
+   "value": "BaO's lattice energy is -3054 kJ/mol, much larger in size than NaCl's",
+   "cites": [
+    21,
+    22
+   ]
+  },
+  {
+   "label": "Kapustinskii equation",
+   "value": "Developed in 1956 as a quick estimate for many ionic compounds",
+   "cites": [
+    24,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two ionic crystals have ions of nearly the same size, but one has ions with double the charge. Which has the stronger lattice energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with doubly charged ions"
+    },
+    {
+     "id": "b",
+     "label": "The one with singly charged ions"
+    },
+    {
+     "id": "c",
+     "label": "They match, since the sizes are similar"
+    },
+    {
+     "id": "d",
+     "label": "Neither, as charge has no effect on lattice energy"
+    }
+   ],
+   "answer": "a",
+   "explain": "Lattice energy depends strongly on ion charges, and the difference in charge numbers is the principal reason BaO's is so much larger than NaCl's despite similar bond radii.",
+   "cites": [
+    13,
+    21,
+    22
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy:q1"
+  },
+  {
+   "prompt": "A chemist wants to know the lattice energy of a new salt but cannot weigh it on any instrument. What is her usual route?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Read it straight off a thermometer"
+    },
+    {
+     "id": "b",
+     "label": "Deduce it from experimental data using a Born-Haber cycle"
+    },
+    {
+     "id": "c",
+     "label": "Count the atoms in one formula unit and multiply"
+    },
+    {
+     "id": "d",
+     "label": "Dissolve it and measure the solution's colour"
+    }
+   ],
+   "answer": "b",
+   "explain": "Lattice energy generally cannot be measured directly, so it is usually deduced from experimental data via the Born-Haber cycle.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy:q2"
+  },
+  {
+   "prompt": "Two ions of the same charge are packed with different spacing. Which crystal has the lower lattice energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with ions closer together"
+    },
+    {
+     "id": "b",
+     "label": "The one whose ions are mostly neutral"
+    },
+    {
+     "id": "c",
+     "label": "The one with ions farther apart"
+    },
+    {
+     "id": "d",
+     "label": "Neither, as spacing has no effect"
+    }
+   ],
+   "answer": "c",
+   "explain": "Large values of the ion distance r₀ result in low lattice energies, whereas high ionic charges give high lattice energies.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy:q3"
+  },
+  {
+   "prompt": "One textbook lists the lattice energy of NaCl as -786 kJ/mol and another as +786. How can both be right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One of the books measured a different compound"
+    },
+    {
+     "id": "b",
+     "label": "The crystal changes sign when it is heated"
+    },
+    {
+     "id": "c",
+     "label": "The two books use opposite sign conventions"
+    },
+    {
+     "id": "d",
+     "label": "Lattice energy has no fixed size"
+    }
+   ],
+   "answer": "c",
+   "explain": "Some books define lattice energy as the energy required to separate the crystal into ions, with the opposite sign, and both conventions are widely used.",
+   "cites": [
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy:q4"
+  },
+  {
+   "prompt": "Forming a lattice from separate ions drops the internal energy. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The net attractive forces between the ions"
+    },
+    {
+     "id": "b",
+     "label": "The loss of all charge on the ions"
+    },
+    {
+     "id": "c",
+     "label": "The increase in volume as the solid forms"
+    },
+    {
+     "id": "d",
+     "label": "The melting of the gaseous ions into a liquid"
+    }
+   ],
+   "answer": "a",
+   "explain": "Forming a crystal lattice from ions in vacuum lowers the internal energy because of the net attractive forces involved.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy:q5"
+  },
+  {
+   "prompt": "When is the Kapustinskii equation a sensible choice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When the exact lattice energy of a pure ion must be found to many digits"
+    },
+    {
+     "id": "b",
+     "label": "When only compounds without any charge are involved"
+    },
+    {
+     "id": "c",
+     "label": "When a quick estimate is wanted and high precision is not required"
+    },
+    {
+     "id": "d",
+     "label": "When the crystal has been heated above its melting point"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is an approximation that makes calculations easier than the Born-Lande equation, suited to quick estimates where high precision is not required.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.ionic-bonding.lattice-energy:q6"
+  }
+ ],
+ "source": {
+  "title": "Lattice energy",
+  "url": "https://en.wikipedia.org/wiki/Lattice_energy",
+  "revision": 1378823144
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What lattice energy is",
+    "text": "Lattice energy is the energy released when one mole of a crystalline compound forms from its parts. The starting point is imagined as those parts spread infinitely far apart, as a gas, at 0 K (−273.15 °C). In effect, it measures the cohesive forces that hold a crystalline solid together.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "The size of the lattice energy is tied to many other physical properties of a solid, including its solubility, hardness and volatility. In general it cannot be measured directly. Instead it is usually worked out from experimental data, using a method called the Born–Haber cycle.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Two ways to write the sign",
+    "text": "When a crystal forms from ions in a vacuum, the net attraction between them must lower the internal energy, so on this view the lattice energy is negative. Some textbooks, and the widely used CRC Handbook of Chemistry and Physics, flip the sign. They define it as the energy needed to break the crystal apart into separated gaseous ions, a process that takes in energy. By that convention the lattice energy of NaCl is +786 kJ/mol, and both conventions are in wide use.",
+    "cites": [
+     5,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "heading": "Charge and size",
+    "text": "The lattice energy of an ionic compound depends strongly on the charges of its ions, which attract or repel each other according to Coulomb's law. The sizes of the ions matter too, in a subtler way. A larger distance to the closest ion gives a lower lattice energy, while higher ionic charges give a higher one. London dispersion forces between the ions also contribute, through polarization effects.",
+    "cites": [
+     13,
+     14,
+     15,
+     23,
+     27
+    ]
+   },
+   {
+    "heading": "Equations to estimate it",
+    "text": "In 1918 Max Born and Alfred Landé proposed working it out from the electric potential of the ionic lattice plus a repulsive term. Their equation combines electrostatic interactions with a repulsion that follows a power law, set by a number called the Born exponent, n. In 1956 Anatolii Kapustinskii developed a general empirical equation that works for many kinds of ionic compound, complex ions included. It is simpler to use than the Born–Landé equation and suits quick estimates where high precision is not needed.",
+    "cites": [
+     18,
+     19,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Barium oxide versus sodium chloride",
+    "text": "Barium oxide (BaO) has the same crystal structure as sodium chloride (NaCl), and their bond radii are close: 275 picometers against 283. Yet the lattice energy of BaO is −3054 kJ/mol, while that of NaCl is only −786 kJ/mol. The difference lies in the charges, since BaO's ions carry +2 and −2 and NaCl's carry +1 and −1. The Born–Landé equation points to these charges as the main reason for the large gap.",
+    "cites": [
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "When polarization counts",
+    "text": "For some ionic compounds, polarization effects have to be included in the calculation explicitly. Iron pyrite, FeS₂, is one example. Leaving polarization out produced a 15% difference between theory and experiment for FeS₂, while including it brought the error down to 2%.",
+    "cites": [
+     28,
+     30,
+     31
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-5",
+   "kind": "book",
+   "title": "7.5 Strengths of Ionic and Covalent Bonds",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+   "note": "A free textbook section on lattice energy, how ion charge and size affect it, and the Born-Haber cycle."
+  },
+  {
+   "id": "libretexts-averill-8-3",
+   "kind": "book",
+   "title": "8.3: Lattice Energies in Ionic Solids",
+   "by": "LibreTexts (Averill, General Chemistry)",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Book%3A_General_Chemistry%3A_Principles_Patterns_and_Applications_(Averill)/08%3A_Ionic_versus_Covalent_Bonding/8.03%3A_Lattice_Energies_in_Ionic_Solids",
+   "note": "Works through why lattice energy rises with ion charge and falls with ion size, with tables and practice problems.",
+   "license": "CC BY-NC-SA 3.0"
+  }
+ ]
+}

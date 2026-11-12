@@ -1,0 +1,568 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions",
+ "name": "Probability distributions",
+ "summary": [
+  {
+   "text": "A probability distribution describes how probabilities are assigned to the possible results of a random phenomenon.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is closely linked to random variables: a random variable assigns a value to each outcome and so induces a distribution on the values it can take.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Discrete distributions are described by probability mass functions, while many continuous distributions use probability density functions.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Fair coin",
+   "value": "Heads (1) and tails (0) each get probability 1/2",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Discrete tool",
+   "value": "Described with a probability mass function",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Continuous tool",
+   "value": "Many are described with a probability density function",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Continuous outcomes",
+   "value": "Only events with infinitely many outcomes, like intervals, can exceed zero",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Univariate versus multivariate",
+   "value": "One random variable, or two or more together",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A supermarket scale can show as many digits as you like. What is the chance that a piece of ham weighs exactly 500 g?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A small but positive chance"
+    },
+    {
+     "id": "b",
+     "label": "About one half"
+    },
+    {
+     "id": "c",
+     "label": "Zero"
+    },
+    {
+     "id": "d",
+     "label": "It depends on the scale's brand"
+    }
+   ],
+   "answer": "c",
+   "explain": "No matter how many digits are shown, there could always be further non-zero digits, so an exact weight has probability zero.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions:q1"
+  },
+  {
+   "prompt": "A pack of ham labelled \"500 g\" must weigh between 490 g and 510 g. Why can that requirement have a real chance of being met when an exact weight cannot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The scale rounds every weight to the nearest gram"
+    },
+    {
+     "id": "b",
+     "label": "An interval covers many outcomes, so it can have positive probability"
+    },
+    {
+     "id": "c",
+     "label": "Weights are always whole numbers of grams"
+    },
+    {
+     "id": "d",
+     "label": "Exact weights are likelier than intervals"
+    }
+   ],
+   "answer": "b",
+   "explain": "For a continuous variable only events with infinitely many outcomes, such as intervals, can have probability above zero. The requirement allows some tolerance.",
+   "cites": [
+    16,
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions:q2"
+  },
+  {
+   "prompt": "Which of these would be described with a probability mass function rather than a density function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The temperature at noon tomorrow"
+    },
+    {
+     "id": "b",
+     "label": "The weight of a pack of ham"
+    },
+    {
+     "id": "c",
+     "label": "The height of the next person to walk in"
+    },
+    {
+     "id": "d",
+     "label": "The number showing on a rolled die"
+    }
+   ],
+   "answer": "d",
+   "explain": "A die roll has a discrete set of outcomes, so it uses a mass function. Temperature and weight vary over a continuous range.",
+   "cites": [
+    9,
+    38,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions:q3"
+  },
+  {
+   "prompt": "A study records each person's height and weight together as a pair. What kind of distribution describes the pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A multivariate distribution"
+    },
+    {
+     "id": "b",
+     "label": "A univariate distribution"
+    },
+    {
+     "id": "c",
+     "label": "A discrete list of one number"
+    },
+    {
+     "id": "d",
+     "label": "A distribution with no sample space"
+    }
+   ],
+   "answer": "a",
+   "explain": "A multivariate distribution gives probabilities for a list of two or more random variables; a univariate one covers a single variable.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions:q4"
+  },
+  {
+   "prompt": "A delivery company wants the chance a parcel arrives in no more than a chosen number of hours, for any limit it picks. Which function gives that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The probability mass function"
+    },
+    {
+     "id": "b",
+     "label": "The sample space"
+    },
+    {
+     "id": "c",
+     "label": "The cumulative distribution function"
+    },
+    {
+     "id": "d",
+     "label": "The univariate distribution"
+    }
+   ],
+   "answer": "c",
+   "explain": "The cumulative distribution function gives the probability that the variable is no larger than a given value.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions:q5"
+  },
+  {
+   "prompt": "A coin toss is recorded as 1 for heads and 0 for tails. What has been set up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A sample space with no outcomes"
+    },
+    {
+     "id": "b",
+     "label": "A way of making the coin biased"
+    },
+    {
+     "id": "c",
+     "label": "A continuous distribution"
+    },
+    {
+     "id": "d",
+     "label": "A function that gives each outcome a value"
+    }
+   ],
+   "answer": "d",
+   "explain": "That is a random variable: a function that assigns a value to each outcome, which in turn gives a distribution on those values.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Probability distributions",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Probability distribution",
+  "url": "https://en.wikipedia.org/wiki/Probability_distribution",
+  "revision": 1380135500
+ },
+ "pack": {
+  "id": "auto-probability-probability-distributions",
+  "title": "The ham that never weighs 500 g",
+  "question": "How is probability shared out over possible results?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Probability distributions"
+  ],
+  "hue": 44,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Probability distributions",
+    "credit": "Ainali · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The ham that never weighs 500 g",
+    "hook": "A scale with endless precision will never read exactly 500 g, yet a pack can still pass inspection."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-probability-distributions:1",
+    "transfer": false,
+    "prompt": "A scale can show arbitrarily many digits. What is the probability that a piece of ham weighs exactly 500 g?",
+    "explain": "Whatever precision you pick, you cannot rule out non-zero digits beyond it, so an exact value has probability zero.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Zero",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "Small but above zero",
+        "feedback": "It tempts because some packs surely land near 500 g, but however many digits you read, further non-zero digits could follow."
+       },
+       {
+        "id": "c",
+        "label": "One half",
+        "feedback": "Exactly 500 g is one value among endlessly many, so it cannot be this likely."
+       },
+       {
+        "id": "d",
+        "label": "It depends on the scale",
+        "feedback": "More precision does not rescue it: it stays zero at any chosen level of precision."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-probability-distributions:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each situation by the kind of distribution that describes it.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "A coin toss"
+     },
+     {
+      "id": "i1",
+      "label": "A roll of a die"
+     },
+     {
+      "id": "i2",
+      "label": "The temperature on a given day"
+     },
+     {
+      "id": "i3",
+      "label": "A weight read to arbitrarily many digits"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Discrete outcomes"
+     },
+     {
+      "id": "g1",
+      "label": "Continuous range"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Coin tosses and die rolls have a discrete set of outcomes; temperature and exact weight take values in a continuous range."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-probability-distributions:3",
+    "transfer": true,
+    "prompt": "Match each term to what it does.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Probability mass function"
+     },
+     {
+      "id": "l1",
+      "label": "Probability density function"
+     },
+     {
+      "id": "l2",
+      "label": "Cumulative distribution function"
+     },
+     {
+      "id": "l3",
+      "label": "Univariate distribution"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Gives the probability of being no larger than a value"
+     },
+     {
+      "id": "r3",
+      "label": "Gives probabilities for a single random variable"
+     },
+     {
+      "id": "r0",
+      "label": "Used for discrete distributions"
+     },
+     {
+      "id": "r1",
+      "label": "Used for many continuous distributions"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each is a way of describing a distribution, chosen by the kind of variable and the question asked."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-probability-distributions:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A scale shows a ham's weight to as many digits as you like."
+     },
+     {
+      "id": "b",
+      "text": "Further non-zero digits could always follow, so exactly 500 g has probability zero."
+     },
+     {
+      "id": "c",
+      "text": "But a pack must weigh between 490 g and 510 g to pass inspection."
+     },
+     {
+      "id": "d",
+      "text": "So passing inspection must also have probability zero."
+     }
+    ],
+    "answer": "d",
+    "explain": "A range covers infinitely many outcomes and needs no infinite precision, so it can have positive probability."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A distribution shares probability across outcomes: discrete ones give each value a probability, while continuous ones give probability to ranges.",
+    "connections": [
+     {
+      "title": "Binomial distribution",
+      "place": "Probability distributions",
+      "node": "knowledge.mathematics.probability.probability-distributions.binomial-distribution"
+     },
+     {
+      "title": "Normal distribution",
+      "place": "Probability distributions",
+      "node": "knowledge.mathematics.probability.probability-distributions.normal-distribution"
+     },
+     {
+      "title": "Poisson distribution",
+      "place": "Probability distributions",
+      "node": "knowledge.mathematics.probability.probability-distributions.poisson-distribution"
+     },
+     {
+      "title": "Exponential distribution",
+      "place": "Probability distributions",
+      "node": "knowledge.mathematics.probability.probability-distributions.exponential-distribution"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Whatever precision you pick, you cannot rule out non-zero digits beyond it, so an exact value has probability zero.",
+    "source": "Wikipedia sentences 17, 18"
+   },
+   {
+    "claim": "Coin tosses and die rolls have a discrete set of outcomes; temperature and exact weight take values in a continuous range.",
+    "source": "Wikipedia sentences 17, 18, 38, 39"
+   },
+   {
+    "claim": "Each is a way of describing a distribution, chosen by the kind of variable and the question asked.",
+    "source": "Wikipedia sentences 9, 21, 44"
+   },
+   {
+    "claim": "A range covers infinitely many outcomes and needs no infinite precision, so it can have positive probability.",
+    "source": "Wikipedia sentences 16, 17, 18, 19"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "How likely each result is",
+    "text": "A probability distribution describes how probabilities are shared out among the possible results of something random. Put informally, it tells you how likely each result is. More exactly, the probabilities go to events, and an event is a set of possible outcomes of an experiment whose result is left to chance. The set of every possible outcome is called the sample space, often written Ω, and it can hold numbers, vectors, labels or anything else.",
+    "cites": [
+     1,
+     2,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Random variables",
+    "text": "Distributions are closely tied to random variables. A random variable is a function that gives a value to every outcome of an experiment, and in doing so it produces a distribution over the values it can take. A coin toss, for instance, can be turned into a random variable X that is 1 for heads and 0 for tails. If the coin is fair, X = 1 and X = 0 are each given a probability of 1/2.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Discrete distributions",
+    "text": "Most distributions fall into one of two classes. A discrete distribution suits cases where the set of possible outcomes is discrete, such as a coin toss or a roll of a die. Its probabilities are given by a probability mass function, a rule that assigns a probability to each outcome. When a fair die is thrown, each face from 1 to 6 gets probability 1/6 of landing on top.",
+    "cites": [
+     15,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Continuous distributions",
+    "text": "An absolutely continuous distribution suits outcomes that can take any value in a continuous range, such as the temperature on a given day. Here the probabilities come from a probability density function, and the chance that the value lands in some interval is found by integrating that function over the interval. Only events made of infinitely many outcomes, like intervals, can have a probability above zero. The normal distribution is a common example of this kind.",
+    "cites": [
+     16,
+     26,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "The ham on the scale",
+    "text": "Imagine weighing a piece of ham on a supermarket scale that could show as many digits as you like. The chance that the ham weighs exactly 500 g has to be zero, since however precise the reading, you can never rule out more non-zero digits after the ones shown. Yet a rule such as a \"500 g\" pack having to weigh between 490 g and 510 g can be met. That works because a range does not ask the scale for infinite precision, and it leaves some room for natural variation.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "One variable or several",
+    "text": "A distribution whose sample space is one-dimensional is called univariate; one whose sample space is a vector space of two or more dimensions is called multivariate. A univariate distribution gives the chances of a single random variable taking different values. A multivariate one, also called a joint distribution, covers a list of two or more random variables taking values together. Well-known univariate examples include the binomial, hypergeometric and normal distributions.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-stats-4-1",
+   "kind": "book",
+   "title": "4.1 Probability Distribution Function (PDF) for a Discrete Random Variable",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-1-probability-distribution-function-pdf-for-a-discrete-random-variable",
+   "note": "A free textbook section on building and checking a distribution table for a discrete random variable.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-stats-5-1",
+   "kind": "book",
+   "title": "5.1 Continuous Probability Functions",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions",
+   "note": "A free textbook section showing probability as area under a density curve, and why a single point has probability 0.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "siegrist-special-distributions",
+   "kind": "book",
+   "title": "5: Special Distributions - Probability, Mathematical Statistics, and Stochastic Processes",
+   "by": "Kyle Siegrist",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/05%3A_Special_Distributions",
+   "note": "A free probability textbook chapter surveying the standard named distributions and how they relate.",
+   "license": "CC BY 2.0"
+  }
+ ]
+}

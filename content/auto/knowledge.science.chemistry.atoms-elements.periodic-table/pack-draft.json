@@ -1,0 +1,102 @@
+{
+ "title": "Why Elements Sit Where They Do",
+ "question": "What decides where an element goes in the periodic table?",
+ "hook": "Chemists once predicted traits of elements nobody had found yet, just by reading gaps in a chart.",
+ "idea": "Elements are ordered by atomic number and grouped by electron arrangement, so their neighbours help predict how they behave.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A chemist's chart puts elements with similar behaviour in the same column, and one box in a column is blank. What can she do with that blank?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Predict some properties of the missing element from the ones around it"
+    },
+    {
+     "id": "b",
+     "label": "Decide the chart is broken and throw it out",
+     "feedback": "It tempts because gaps look like mistakes, but Mendeleev's gaps were useful instead."
+    },
+    {
+     "id": "c",
+     "label": "Fill it with a copy of the element above",
+     "feedback": "It tempts because neighbours look alike, but each element has its own atomic number."
+    }
+   ],
+   "answer": "a",
+   "explain": "Mendeleev used the periodic law to predict properties of missing elements, and neighbours make an element's properties relatively easy to predict.",
+   "cites": [
+    10,
+    38
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these moments in the table's history in order.",
+   "items": [
+    "Mendeleev's table becomes generally accepted",
+    "Atomic numbers help explain the periodic law",
+    "Seaborg shows the actinides are f-block, giving a modern-looking table",
+    "The first 118 elements are all known"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Mendeleev's table dates to 1869, the explanation came early in the 20th century, the modern form in 1945, and 118 known elements by 2010.",
+   "cites": [
+    9,
+    12,
+    13,
+    18
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means.",
+   "pairs": [
+    [
+     "Atomic number",
+     "Number of protons in the nucleus"
+    ],
+    [
+     "Isotopes",
+     "Same protons, different neutrons"
+    ],
+    [
+     "Period (row)",
+     "Starts when a new electron shell gets its first electron"
+    ],
+    [
+     "Group (column)",
+     "Set by electron configuration"
+    ]
+   ],
+   "explain": "Atomic number fixes the element, isotopes vary in neutrons, rows follow electron shells and columns follow electron configuration.",
+   "cites": [
+    22,
+    28,
+    35,
+    36
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Neutrons add weight to an atom.",
+    "Some carbon atoms carry seven neutrons instead of six.",
+    "So the extra neutron changes which element they are.",
+    "So the table must give them their own box."
+   ],
+   "wrong": 2,
+   "explain": "Neutrons do not affect chemical identity. Atoms with different neutron numbers are isotopes of the same element and share one place in the table.",
+   "cites": [
+    27,
+    28,
+    31,
+    32
+   ]
+  }
+ ]
+}

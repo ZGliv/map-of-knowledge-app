@@ -1,0 +1,71 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Solving by tidying rows",
+   "text": "Gaussian elimination, also called row reduction, is a step-by-step method for solving systems of linear equations. It works by applying a series of operations to the rows of the matrix of coefficients. The same method can also work out a matrix's rank, a square matrix's determinant, and an invertible matrix's inverse. It is named after Carl Friedrich Gauss (1777–1855).",
+   "cites": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "heading": "Two stages",
+   "text": "The work splits into two parts, both using elementary row operations. Forward elimination brings the system into row echelon form, which already reveals whether there are no solutions, one solution, or infinitely many. Back substitution then keeps going until the solution appears, leaving the matrix in reduced row echelon form. None of these operations changes the solution set. In practice people work on the augmented matrix rather than the written equations, since it suits computers better.",
+   "cites": [
+    8,
+    9,
+    10,
+    15,
+    26
+   ]
+  },
+  {
+   "heading": "The staircase shape",
+   "text": "In each row that is not all zeros, the leftmost nonzero number is called the leading entry, or pivot. A matrix is in row echelon form when each pivot sits to the right of the pivot in the row above, and in that form the lower left holds only zeros and any all-zero rows are at the bottom. The word echelon hints at rows ranked by size, largest on top. Reduced row echelon form goes further: every pivot is 1, and every other entry in a pivot's column is zero.",
+   "cites": [
+    17,
+    19,
+    20,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "heading": "A worked run",
+   "text": "With three unknowns, you first remove x from every equation below the first, then remove y from every equation below the second. That leaves the system in triangular form. You then solve for the variables in reverse order, which is quicker, a step called back-substitution. In the standard example this gives z = −1, y = 3 and x = 2, a unique solution.",
+   "cites": [
+    27,
+    28,
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "heading": "Seen as matrix multiplication",
+   "text": "Each elementary row operation can be seen as multiplying the original matrix on the left by an elementary matrix. From this angle, the first part of the method computes what is called an LU decomposition of the matrix. Continuing all the way to reduced form is sometimes named Gauss–Jordan elimination, to set it apart from stopping at echelon form.",
+   "cites": [
+    12,
+    14,
+    35
+   ]
+  },
+  {
+   "heading": "Roots in China and Europe",
+   "text": "The method appears, without proof, in Chapter Eight of the Chinese text The Nine Chapters on the Mathematical Art, used in eighteen problems with two to five equations. Parts of that book date back to around 150 BC. In Europe the method stems from notes by Isaac Newton, who wrote in 1669–1670 that the algebra books he knew lacked a lesson on simultaneous equations. Cambridge published his notes in 1707 as Arithmetica Universalis, and they were copied so widely that the method was a standard textbook lesson by the end of the 18th century.",
+   "cites": [
+    36,
+    37,
+    38,
+    42,
+    43,
+    44,
+    45
+   ]
+  }
+ ]
+}

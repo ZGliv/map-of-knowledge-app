@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics",
+ "name": "Second law of thermodynamics",
+ "summary": [
+  {
+   "text": "The second law of thermodynamics says heat flows spontaneously from hotter to colder regions, and that the entropy of an isolated system left alone cannot decrease.",
+   "cites": [
+    2,
+    7
+   ]
+  },
+  {
+   "text": "It sets the direction of natural processes: a broken cup does not reassemble itself, though the first law alone would allow that.",
+   "cites": [
+    6,
+    18
+   ]
+  },
+  {
+   "text": "It also limits engines, since not all heat can be converted into work in a cycle; Carnot showed in 1824 that conversion efficiency has an upper limit.",
+   "cites": [
+    3,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Carnot's result",
+   "value": "In 1824, engine efficiency was shown to have an upper limit",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Clausius statement",
+   "value": "Heat never passes cold to warm without some other change",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Prominent statements",
+   "value": "Clausius in 1854, Kelvin in 1851, Carathéodory in 1909",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Arrow of time",
+   "value": "Rising entropy accounts for irreversible natural processes",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Microscopic basis",
+   "value": "Statistical mechanics explains it through probabilities of states",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The pieces of a broken cup on the floor leap back together onto the table. Which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Energy conservation allows it, but the second law denies it"
+    },
+    {
+     "id": "b",
+     "label": "Energy conservation denies it, but the second law allows it"
+    },
+    {
+     "id": "c",
+     "label": "Both energy conservation and the second law allow it"
+    },
+    {
+     "id": "d",
+     "label": "Neither energy conservation nor the second law cares"
+    }
+   ],
+   "answer": "a",
+   "explain": "The first law permits the reverse process as well as the fall, but the second law denies the reversal.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics:q1"
+  },
+  {
+   "prompt": "A heat pump moves heat from cold outdoor air into a warm house. Does this break the second law?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because heat can never move from cold to warm"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because pumps always create energy"
+    },
+    {
+     "id": "c",
+     "label": "No, because heat pumps are exempt from entropy"
+    },
+    {
+     "id": "d",
+     "label": "No, because the reversal still produces entropy in the surroundings"
+    }
+   ],
+   "answer": "d",
+   "explain": "A heat pump can reverse the flow, but the reversal process and the original one both produce entropy, raising the entropy of the surroundings.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics:q2"
+  },
+  {
+   "prompt": "An ice cube is dropped into a warm drink with nothing else going on. Which way does heat move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From the ice into the drink"
+    },
+    {
+     "id": "b",
+     "label": "Back and forth with no net direction"
+    },
+    {
+     "id": "c",
+     "label": "From the drink into the ice"
+    },
+    {
+     "id": "d",
+     "label": "It stays put until the ice is stirred"
+    }
+   ],
+   "answer": "c",
+   "explain": "Heat flows spontaneously from a hotter body to a colder one whenever a path for conduction is available.",
+   "cites": [
+    2,
+    21
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics:q3"
+  },
+  {
+   "prompt": "A sealed, insulated container is left alone to evolve on its own. Which way does its entropy move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can only fall"
+    },
+    {
+     "id": "b",
+     "label": "It stays exactly fixed"
+    },
+    {
+     "id": "c",
+     "label": "It rises and then falls back"
+    },
+    {
+     "id": "d",
+     "label": "It cannot fall and tends toward a maximum"
+    }
+   ],
+   "answer": "d",
+   "explain": "An isolated system left to spontaneous evolution cannot decrease its entropy and tends toward equilibrium, where entropy is highest.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics:q4"
+  },
+  {
+   "prompt": "An engineer proposes an engine that turns every bit of the heat it takes in each cycle into work. Why will it not exist?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Not all heat can be converted to work in a cycle"
+    },
+    {
+     "id": "b",
+     "label": "Engines can only run on electrical energy"
+    },
+    {
+     "id": "c",
+     "label": "Heat cannot be measured accurately enough"
+    },
+    {
+     "id": "d",
+     "label": "Work always destroys more energy than it uses"
+    }
+   ],
+   "answer": "a",
+   "explain": "One statement of the second law is that not all heat can be converted into work in a cyclic process, and Carnot showed efficiency has an upper limit.",
+   "cites": [
+    3,
+    12
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics:q5"
+  },
+  {
+   "prompt": "A video of milk swirling into coffee looks wrong when played backward. What does thermodynamics offer as the reason?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The milk gains energy when it is un-mixed"
+    },
+    {
+     "id": "b",
+     "label": "Coffee cannot move without a spoon"
+    },
+    {
+     "id": "c",
+     "label": "Reversing would need the combined entropy to fall"
+    },
+    {
+     "id": "d",
+     "label": "Liquids can never change direction"
+    }
+   ],
+   "answer": "c",
+   "explain": "An increase in the combined entropy of system and surroundings accounts for the irreversibility of natural processes, the arrow of time.",
+   "cites": [
+    8,
+    20
+   ],
+   "id": "knowledge.science.physics.thermodynamics.laws-of-thermodynamics.second-law-of-thermodynamics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Carnot_heat_engine_2.svg/960px-Carnot_heat_engine_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Second law of thermodynamics",
+  "credit": "Eric Gaba (Sting - fr:Sting)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Carnot_heat_engine_2.svg"
+ },
+ "source": {
+  "title": "Second law of thermodynamics",
+  "url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+  "revision": 1379178978
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the law says",
+    "text": "The second law of thermodynamics is a rule drawn from what people have always observed when heat and energy change into one another. In its simplest form, heat left to itself moves from hotter matter to colder matter, downhill along the temperature difference. A second informal version says that a machine running in a cycle can never turn all of the heat it takes in into work.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Which way things can go",
+    "text": "The law gives physics the idea of entropy, a property that every thermodynamic system has. It tells us whether a process is forbidden, even when that process keeps energy balanced as the first law demands. Picture a cup sliding off a table and shattering on the floor. Energy accounting alone would equally permit the pieces to gather and leap back onto the table, but the second law allows only the fall. In short, it is about the direction natural processes take.",
+    "cites": [
+     4,
+     5,
+     6,
+     18
+    ]
+   },
+   {
+    "heading": "Entropy only grows",
+    "text": "One way to state the law: when an isolated system is left to change by itself, its entropy never goes down. Such a system keeps heading toward thermodynamic equilibrium, the state with the most entropy for its amount of internal energy. Take a sealed-off system split by walls into parts, each settled; make the walls leakier and the whole thing drifts to a new balance with a higher total entropy, S. The rise in entropy of a system plus its surroundings is why natural processes cannot be undone, an idea often called the arrow of time.",
+    "cites": [
+     7,
+     8,
+     24
+    ]
+   },
+   {
+    "heading": "Fridges and heat pumps",
+    "text": "Whenever heat has a path, by conduction or radiation, it travels from the hotter body to the colder one on its own. It will not go the other way unless outside work is done, as any refrigerator shows: it moves heat from cold to hot only because its refrigeration system forces it to. A heat pump can likewise reverse the flow. Yet both the natural flow and the forced reversal produce entropy, raising the entropy of the surroundings.",
+    "cites": [
+     21,
+     23,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Carnot, Clausius and Kelvin",
+    "text": "The law has been put into words in many ways. Its earliest form came from the French scientist Sadi Carnot, who showed in 1824 that a heat engine's efficiency at turning heat into work has a ceiling, before entropy had been properly defined. In the 1850s the German scientist Rudolf Clausius gave the first rigorous version built on entropy. It included the claim that heat never moves from a colder body to a warmer one unless some other linked change happens at the same moment. Lord Kelvin gave another classic statement in 1851, and his and Clausius's statements have been shown to be equivalent.",
+    "cites": [
+     11,
+     12,
+     13,
+     30,
+     32
+    ]
+   },
+   {
+    "heading": "The best possible engine",
+    "text": "Another statement says that no system running in a cycle can take in heat from just one reservoir and hand out a net amount of work to its surroundings. An idealized, reversible Carnot cycle has an efficiency set only by the temperatures of its two heat reservoirs, whatever substance it uses. Run that way, it is the most efficient heat engine possible between those two temperatures.",
+    "cites": [
+     36,
+     37,
+     45
+    ]
+   },
+   {
+    "heading": "Atoms and absolute temperature",
+    "text": "Statistical mechanics explains the law at the level of atoms, using the probabilities of the states of huge numbers of atoms or molecules. The second law also makes possible a special absolute temperature scale, called thermodynamic temperature. That scale does not depend on the properties of any particular thermometer.",
+    "cites": [
+     10,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-second-law-statements",
+   "kind": "book",
+   "title": "4.4 Statements of the Second Law of Thermodynamics - University Physics Volume 2",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/4-4-statements-of-the-second-law-of-thermodynamics",
+   "note": "A free textbook section on the statements of the second law of thermodynamics.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "ted-ed-what-is-entropy",
+   "kind": "video",
+   "title": "What is entropy?",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=YM-uykVfq_E",
+   "minutes": 5,
+   "note": "A short animated TED-Ed lesson on entropy, the quantity at the heart of the second law."
+  },
+  {
+   "id": "iot-second-law",
+   "kind": "documentary",
+   "title": "The Second Law of Thermodynamics",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/p004y2bm",
+   "minutes": 45,
+   "note": "An In Our Time discussion of the second law of thermodynamics, Kelvin and its wider meaning."
+  }
+ ]
+}

@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication",
+ "name": "Matrix multiplication",
+ "summary": [
+  {
+   "text": "Matrix multiplication turns two matrices into a new matrix, and it works only when the first has as many columns as the second has rows.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Each entry of the product is the dot product of a row of the first matrix with a column of the second.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "text": "Binet first described it in 1812 to represent the composition of linear maps, and the order of the factors matters because it is non-commutative.",
+   "cites": [
+    5,
+    40
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Shape of the product",
+   "value": "Rows of the first matrix, columns of the second",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "First described",
+   "value": "Jacques Philippe Marie Binet, in 1812",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Each entry",
+   "value": "A row of the first dotted with a column of the second",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Order matters",
+   "value": "It is non-commutative, even when both orders are defined",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Where it is used",
+   "value": "Statistics, physics, economics, engineering and more",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Matrix A has 2 rows and 3 columns, and matrix B has 3 rows and 4 columns. What shape is the product AB?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3 rows and 3 columns"
+    },
+    {
+     "id": "b",
+     "label": "4 rows and 2 columns"
+    },
+    {
+     "id": "c",
+     "label": "2 rows and 4 columns"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be formed at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "The columns of A match the rows of B, so the product exists, with the rows of the first matrix and the columns of the second.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication:q1"
+  },
+  {
+   "prompt": "The first matrix has more columns than the second matrix has rows. Can the two be multiplied in that order?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, the columns of the first must equal the rows of the second"
+    },
+    {
+     "id": "b",
+     "label": "Yes, the extra columns are simply ignored"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if both matrices are square"
+    },
+    {
+     "id": "d",
+     "label": "No, because the first matrix must be square"
+    }
+   ],
+   "answer": "a",
+   "explain": "The product is defined if and only if the number of columns in the first matrix equals the number of rows in the second.",
+   "cites": [
+    2,
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication:q2"
+  },
+  {
+   "prompt": "To fill one cell of a product matrix, you pair one row of the first matrix with one column of the second. What do you do with the pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add matching entries, then multiply the sums"
+    },
+    {
+     "id": "b",
+     "label": "Multiply all the entries together"
+    },
+    {
+     "id": "c",
+     "label": "Pick the larger entry from each pair"
+    },
+    {
+     "id": "d",
+     "label": "Multiply matching entries and add the results"
+    }
+   ],
+   "answer": "d",
+   "explain": "The entry is obtained by multiplying term by term the entries of the row and the column and summing those products, which is a dot product.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication:q3"
+  },
+  {
+   "prompt": "A friend says that for matrices A and B, AB always equals BA, just like 3 times 5 equals 5 times 3. What is the best reply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Correct, matrix multiplication always commutes"
+    },
+    {
+     "id": "b",
+     "label": "No, the order matters even when both products exist"
+    },
+    {
+     "id": "c",
+     "label": "Correct, but only when the matrices are square"
+    },
+    {
+     "id": "d",
+     "label": "No, BA is never defined when AB is"
+    }
+   ],
+   "answer": "b",
+   "explain": "Matrix multiplication is non-commutative, even when the product remains defined after changing the order of the factors.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication:q4"
+  },
+  {
+   "prompt": "A robot arm turns a point using one matrix, then turns the result again using a second matrix. What does multiplying the two matrices give?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average of the two movements"
+    },
+    {
+     "id": "b",
+     "label": "Only the second movement, undone"
+    },
+    {
+     "id": "c",
+     "label": "One matrix for both movements in a row"
+    },
+    {
+     "id": "d",
+     "label": "The difference between the movements"
+    }
+   ],
+   "answer": "c",
+   "explain": "Matrix multiplication represents the composition of linear maps, so the product stands for applying one map and then the other.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication:q5"
+  },
+  {
+   "prompt": "A row of numbers is multiplied by a column of numbers of the same length. What kind of result do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single number, the dot product"
+    },
+    {
+     "id": "b",
+     "label": "Another row of numbers"
+    },
+    {
+     "id": "c",
+     "label": "A square table of numbers"
+    },
+    {
+     "id": "d",
+     "label": "A column of the same length"
+    }
+   ],
+   "answer": "a",
+   "explain": "A row times a column gives a 1 × 1 matrix, whose single entry is the dot product. A column times a row gives an n × n matrix instead.",
+   "cites": [
+    20,
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.matrix-multiplication:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Matrix_multiplication_qtl1.svg/960px-Matrix_multiplication_qtl1.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Matrix multiplication",
+  "credit": "Quartl",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Matrix_multiplication_qtl1.svg"
+ },
+ "source": {
+  "title": "Matrix multiplication",
+  "url": "https://en.wikipedia.org/wiki/Matrix_multiplication",
+  "revision": 1384073170
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Matrix multiplication takes two matrices and builds a third matrix out of them. It only works when the first matrix has exactly as many columns as the second one has rows. The answer, called the matrix product, has as many rows as the first matrix and as many columns as the second. The product of A and B is written simply as AB.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "How each entry is found",
+    "text": "To fill in the entry in row i and column j of the product, take row i of A and column j of B. Multiply their entries in matching pairs, then add all of those products together. In other words, that entry is the dot product of the row with the column. This is why AB exists only when A has as many columns as B has rows.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Order matters",
+    "text": "Matrix multiplication behaves like ordinary multiplication in some ways, but not in all of them. An operation is called commutative when swapping the two factors always gives the same result. Matrix multiplication is not commutative: AB and BA can differ even when both of them make sense. One case where the order stops mattering is when D and E are square diagonal matrices of the same size, so that DE = ED.",
+    "cites": [
+     39,
+     40,
+     41,
+     44
+    ]
+   },
+   {
+    "heading": "Where it came from",
+    "text": "The French mathematician Jacques Philippe Marie Binet first described the operation in 1812. He used it to stand for the composition of linear maps that are written as matrices. It was brought in to make the calculations of linear algebra easier and clearer. Today, computing matrix products sits at the centre of every computer application of linear algebra, and the tool turns up in statistics, physics, economics and engineering.",
+    "cites": [
+     5,
+     6,
+     7,
+     23
+    ]
+   },
+   {
+    "heading": "A factory example",
+    "text": "Picture a factory. One matrix, A, records how many units of each basic commodity go into each intermediate good. A second matrix, B, records how many intermediate goods go into each final product. Their product AB tells you directly how much of each basic commodity a final product needs. Its bottom left entry works out as 1⋅1 + 1⋅2 + 2⋅4 = 11, so 11 units of the commodity b₄ go into one unit of the final good f₁.",
+    "cites": [
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Vectors as thin matrices",
+    "text": "A vector with n components can be treated as a matrix with a single row or a single column. Seen this way, the dot product of two column vectors a and b is the lone entry of the 1 × 1 matrix 𝐚^T𝐛, a row times a column. Multiplying the other way round, a column times a row, gives the outer product 𝐚𝐛^T, which is a full n × n matrix.",
+    "cites": [
+     20,
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-matrix-multiplication",
+   "kind": "book",
+   "title": "Linear Algebra/Matrix Multiplication",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Matrix_Multiplication",
+   "note": "A free textbook section defining matrix multiplication and why it matches composing linear maps.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "3b1b-multiplication-composition",
+   "kind": "video",
+   "title": "Matrix multiplication as composition",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=XkY2DOUCWMU",
+   "note": "An animated explanation of multiplying matrices as applying one transformation after another."
+  },
+  {
+   "id": "wikibooks-mechanics",
+   "kind": "book",
+   "title": "Linear Algebra/Mechanics of Matrix Multiplication",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Mechanics_of_Matrix_Multiplication",
+   "note": "A textbook section on the row-by-column mechanics of matrix multiplication, with special matrices like the identity.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

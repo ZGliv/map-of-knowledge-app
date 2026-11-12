@@ -1,0 +1,565 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.animals.birds",
+ "name": "Birds",
+ "summary": [
+  {
+   "text": "Birds are warm-blooded vertebrates of the class Aves, set apart by feathers, toothless beaked jaws, hard-shelled eggs and a strong yet lightweight skeleton.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "There are over 11,000 living species, ranging from the 5.5-centimetre bee hummingbird to the 2.8-metre common ostrich.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Birds evolved from earlier theropods, which makes them the only living dinosaurs, and their closest living relatives are the crocodilians.",
+   "cites": [
+    12,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Living species",
+   "value": "Over 11,000, grouped into 44 orders",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Biggest group",
+   "value": "More than half are passerines, or perching birds",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Size range",
+   "value": "Bee hummingbird at 5.5 centimetres, ostrich at 2.8 metres",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Study of birds",
+   "value": "Ornithology",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Closest relatives",
+   "value": "Crocodilians, together forming the archosaurs",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A child at a museum asks whether any dinosaurs are still alive. What is the best answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No: only their crocodile cousins survive today"
+    },
+    {
+     "id": "b",
+     "label": "Yes: birds evolved from theropods and are living dinosaurs"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only birds that have lost flight count"
+    },
+    {
+     "id": "d",
+     "label": "No: they all died out when the pterosaurs did"
+    }
+   ],
+   "answer": "b",
+   "explain": "Birds evolved from earlier theropods and are the only extant members of Dinosauria; crocodilians are their closest living relatives, not dinosaurs themselves.",
+   "cites": [
+    8,
+    12,
+    14,
+    16
+   ],
+   "id": "knowledge.science.biology.animals.birds:q1"
+  },
+  {
+   "prompt": "Penguins cannot fly, yet they have wings. What is the best explanation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Penguin wings are a different organ that never came from forelimbs"
+    },
+    {
+     "id": "b",
+     "label": "Penguins are not true birds, so the rule about wings fails"
+    },
+    {
+     "id": "c",
+     "label": "Penguin wings are too small to count as proper wings"
+    },
+    {
+     "id": "d",
+     "label": "Wings gave birds flight, but later evolution led some groups to lose it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Wings are modified forelimbs that gave birds the ability to fly, though further evolution has led to the loss of flight in some birds, including penguins.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.biology.animals.birds:q2"
+  },
+  {
+   "prompt": "If you pick one of the world's bird species at random, which kind is it most likely to be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A perching bird"
+    },
+    {
+     "id": "b",
+     "label": "A flightless bird"
+    },
+    {
+     "id": "c",
+     "label": "A seabird"
+    },
+    {
+     "id": "d",
+     "label": "A swimming waterbird"
+    }
+   ],
+   "answer": "a",
+   "explain": "More than half of the world's bird species are passerine, or perching, birds.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.biology.animals.birds:q3"
+  },
+  {
+   "prompt": "Two birds of a typical species raise chicks together this season. How long is their partnership most likely to last?",
+   "options": [
+    {
+     "id": "a",
+     "label": "For life, as in nearly all species"
+    },
+    {
+     "id": "b",
+     "label": "Only until the eggs are laid"
+    },
+    {
+     "id": "c",
+     "label": "Just this breeding season, perhaps a few more"
+    },
+    {
+     "id": "d",
+     "label": "Only until the chicks hatch"
+    }
+   ],
+   "answer": "c",
+   "explain": "Most bird species are socially monogamous, usually for one breeding season at a time, sometimes for years, and rarely for life.",
+   "cites": [
+    19,
+    23
+   ],
+   "id": "knowledge.science.biology.animals.birds:q4"
+  },
+  {
+   "prompt": "A biologist says birds are reptiles. Under which kind of classification is that correct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Modern cladistic classification"
+    },
+    {
+     "id": "b",
+     "label": "The traditional Linnaean system, with birds in their own class"
+    },
+    {
+     "id": "c",
+     "label": "Both systems, since birds lay hard-shelled eggs"
+    },
+    {
+     "id": "d",
+     "label": "Neither system, since birds are warm-blooded"
+    }
+   ],
+   "answer": "a",
+   "explain": "Traditional Linnaean taxonomy gave birds their own class, but in the modern cladistic sense of the term birds are considered reptiles.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.biology.animals.birds:q5"
+  },
+  {
+   "prompt": "Many birds cannot fly, but nearly all still have wings. Which known groups have none at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Penguins and other swimming birds"
+    },
+    {
+     "id": "b",
+     "label": "Ostriches and the other ratites"
+    },
+    {
+     "id": "c",
+     "label": "Island birds that lost flight"
+    },
+    {
+     "id": "d",
+     "label": "The extinct moa and elephant birds"
+    }
+   ],
+   "answer": "d",
+   "explain": "The only known groups without wings are the extinct moa and elephant birds; ratites and penguins still have wings.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.biology.animals.birds:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kleiber_Flug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Birds",
+  "credit": "C. Robiller / naturlichter.de (Hyla meridionalis)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kleiber_Flug.jpg"
+ },
+ "source": {
+  "title": "Bird",
+  "url": "https://en.wikipedia.org/wiki/Bird",
+  "revision": 1382763839
+ },
+ "pack": {
+  "id": "auto-animals-birds",
+  "title": "The dinosaur at the feeder",
+  "question": "Why do biologists call birds living dinosaurs?",
+  "path": [
+   "Science",
+   "Biology",
+   "Animals",
+   "Birds"
+  ],
+  "hue": 187,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kleiber_Flug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Birds",
+    "credit": "C. Robiller / naturlichter.de (Hyla meridionalis) · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kleiber_Flug.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The dinosaur at the feeder",
+    "hook": "Every bird you see outside is a dinosaur, and the evidence sits in its family tree."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-animals-birds:1",
+    "transfer": false,
+    "prompt": "A friend asks which living animals are a bird's closest relatives. What do you tell them?",
+    "explain": "Birds and crocodilians are each other's closest living relatives and form a clade known as archosaurs.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Crocodilians, with which birds form the archosaurs"
+       },
+       {
+        "id": "a",
+        "label": "Lizards, because they are the obvious reptile cousin",
+        "feedback": "Lizards seem the natural pick among reptiles, but they are not the birds' closest living relatives."
+       },
+       {
+        "id": "b",
+        "label": "Mammals, because both groups are warm-blooded",
+        "feedback": "Warm blood is shared with mammals, but that does not make them close kin to birds."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-animals-birds:2",
+    "transfer": false,
+    "prompt": "Put these events in order, earliest first (the first one is an estimate).",
+    "items": [
+     {
+      "id": "a",
+      "label": "Modern birds evolve, about 100 million years ago"
+     },
+     {
+      "id": "b",
+      "label": "An extinction event kills off the pterosaurs and non-ornithuran dinosaurs, 66 million years ago"
+     },
+     {
+      "id": "c",
+      "label": "Willughby and Ray publish the first classification of birds, in 1676"
+     },
+     {
+      "id": "d",
+      "label": "Linnaeus modifies that work, in 1758"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Earliest",
+     "Latest"
+    ],
+    "explain": "Modern birds evolved about 100 million years ago, the extinction event came 66 million years ago, and the classification work followed in 1676 and 1758."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-animals-birds:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Ornithology"
+     },
+     {
+      "id": "l1",
+      "label": "Passerines"
+     },
+     {
+      "id": "l2",
+      "label": "Ratites"
+     },
+     {
+      "id": "l3",
+      "label": "Archosaurs"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "The study of birds"
+     },
+     {
+      "id": "r2",
+      "label": "A group in which flight has been lost"
+     },
+     {
+      "id": "r3",
+      "label": "The clade formed by birds and crocodilians"
+     },
+     {
+      "id": "r1",
+      "label": "The \"perching\" birds, over half of all species"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each term names a part of the bird story, from the science itself to the relatives they share a clade with."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-animals-birds:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Birds evolved from earlier theropods."
+     },
+     {
+      "id": "b",
+      "text": "So birds are the only living dinosaurs."
+     },
+     {
+      "id": "c",
+      "text": "Their closest living relatives are the crocodilians."
+     },
+     {
+      "id": "d",
+      "text": "Because birds are warm-blooded, they cannot be reptiles in any modern classification."
+     }
+    ],
+    "answer": "d",
+    "explain": "In the modern cladistic sense of the term, birds are considered reptiles; their unique morphology and warm-bloodedness are why the older Linnaean system gave them their own class."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Birds evolved from earlier theropods, so they are the only living dinosaurs, and crocodilians are their closest living relatives.",
+    "connections": [
+     {
+      "title": "Bird flight",
+      "place": "Birds",
+      "node": "knowledge.science.biology.animals.birds.bird-flight"
+     },
+     {
+      "title": "Feather",
+      "place": "Birds",
+      "node": "knowledge.science.biology.animals.birds.feather"
+     },
+     {
+      "title": "Bird migration",
+      "place": "Birds",
+      "node": "knowledge.science.biology.animals.birds.bird-migration"
+     },
+     {
+      "title": "Birdsong",
+      "place": "Birds",
+      "node": "knowledge.science.biology.animals.birds.birdsong"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Birds and crocodilians are each other's closest living relatives and form a clade known as archosaurs.",
+    "source": "Wikipedia sentences 13, 14"
+   },
+   {
+    "claim": "Modern birds evolved about 100 million years ago, the extinction event came 66 million years ago, and the classification work followed in 1676 and 1758.",
+    "source": "Wikipedia sentences 16, 31, 32"
+   },
+   {
+    "claim": "Each term names a part of the bird story, from the science itself to the relatives they share a clade with.",
+    "source": "Wikipedia sentences 4, 6, 11, 14"
+   },
+   {
+    "claim": "In the modern cladistic sense of the term, birds are considered reptiles; their unique morphology and warm-bloodedness are why the older Linnaean system gave them their own class.",
+    "source": "Wikipedia sentences 12, 13, 14"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What makes a bird",
+    "text": "Birds are vertebrate animals belonging to the class Aves. They are marked by feathers, beaked jaws without teeth, hard-shelled eggs, a high metabolic rate, a heart with four chambers and a skeleton that is strong but light. They are warm-blooded and live all over the world. More than 11,000 living species exist, sorted into 44 orders, and over half of them are passerines, the perching birds.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Size and wings",
+    "text": "Sizes run from the 5.5 cm bee hummingbird to the 2.8 m common ostrich. Nearly every bird has wings, which are modified forelimbs, and how they develop varies with the way each species lives. Wings gave birds flight, but some later lost it, including ratites, penguins and many species found only on particular islands. The extinct moa and elephant birds are the only known groups with no wings at all. Bird digestive and breathing systems are adapted for flight, and some seabirds and waterbirds have also evolved for swimming.",
+    "cites": [
+     2,
+     5,
+     6,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Living dinosaurs",
+    "text": "Birds evolved from earlier theropods, so they are the only dinosaurs still alive. Their closest living relatives are the crocodilians, and together the two form a group called the archosaurs. Birds descend from early avialans, a group that includes Archaeopteryx and first appeared in the Late Jurassic. Some estimates place the rise of modern birds in the Cretaceous, with a burst of new forms around the extinction event 66 million years ago that wiped out the pterosaurs and all non-ornithuran dinosaurs.",
+    "cites": [
+     12,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Reptiles or a class of their own",
+    "text": "Traditional Linnaean classification gave birds a class of their own, owing to their unusual body plan and because, apart from mammals, they are the only animal group in which every species is warm-blooded. In the modern cladistic sense, though, birds count as reptiles. Modern phylogenetic taxonomy places Aves inside the theropods, sometimes at a rank below class. Birds and crocodilians are the only living members of the reptile group Archosauria.",
+    "cites": [
+     13,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Social lives",
+    "text": "Birds are social. They communicate with visual signals, calls and songs, and they breed and hunt together, flock, and mob predators; many social species pass knowledge down the generations, which is a form of culture. Most species are socially monogamous, though not necessarily sexually so, usually for one breeding season, sometimes for years and rarely for life. Others have one male with many females or, rarely, one female with many males. Eggs are fertilised by sexual reproduction and usually laid in a nest, where the parents incubate them. Most chicks get a long period of parental care after hatching.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Birds and people",
+    "text": "The study of birds is called ornithology. Francis Willughby and John Ray produced the first bird classification in their 1676 book Ornithologiae, and Carl Linnaeus reworked it in 1758 into the system still in use. Birds supply people with eggs, meat and feathers; songbirds and parrots are kept as pets; and guano, which is bird droppings, is gathered as fertiliser. Birdwatching is an important part of ecotourism. Yet human activity has driven about 120 to 130 species extinct since the 17th century and threatens about 1,200 bird species with extinction.",
+    "cites": [
+     11,
+     24,
+     25,
+     26,
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-birds",
+   "kind": "book",
+   "title": "29.5 Birds - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/29-5-birds",
+   "note": "A free textbook section on what makes a bird, how birds evolved and how their bodies are built for flight.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "iot-feathered-dinosaurs",
+   "kind": "documentary",
+   "title": "Feathered Dinosaurs",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b099v33p",
+   "minutes": 48,
+   "note": "A radio discussion of the feathered dinosaur fossils that show birds descend from dinosaurs."
+  },
+  {
+   "id": "eons-birds-teeth",
+   "kind": "video",
+   "title": "When Birds Had Teeth",
+   "by": "PBS Eons",
+   "url": "https://www.youtube.com/watch?v=QGR5yOrChMA",
+   "minutes": 12,
+   "note": "A PBS Eons video on ancient toothed birds and what they reveal about how birds evolved."
+  }
+ ]
+}

@@ -1,0 +1,580 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.organic-reactions",
+ "name": "Organic reactions",
+ "summary": [
+  {
+   "text": "Organic reactions are chemical reactions that involve organic compounds.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They are used to build new organic molecules, and drugs, plastics, food additives and fabrics depend on them.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Most of them are polar reactions, where electron pairs move from a clear source to a clear sink.",
+   "cites": [
+    16,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Oldest reactions",
+   "value": "Burning organic fuels and turning fats into soap",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Modern start",
+   "value": "Modern organic chemistry starts with the Wöhler synthesis in 1828",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Named reactions",
+   "value": "Conservatively estimated at about 1000",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Mechanistic classes",
+   "value": "Polar, radical and pericyclic",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Largest class",
+   "value": "Polar reactions make up the vast majority",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A chemist watches pairs of electrons move from a clear electron-rich spot to a clear electron-poor spot, and atoms change charge on the way. Which mechanistic class is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A radical reaction"
+    },
+    {
+     "id": "b",
+     "label": "A pericyclic reaction"
+    },
+    {
+     "id": "c",
+     "label": "A polar reaction"
+    },
+    {
+     "id": "d",
+     "label": "A redox reaction"
+    }
+   ],
+   "answer": "c",
+   "explain": "Polar reactions move electron pairs from a defined source to a defined sink, and the atoms involved change charge.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions:q1"
+  },
+  {
+   "prompt": "In another reaction, the key players carry single unpaired electrons that move one at a time. Which mechanistic class fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A polar reaction"
+    },
+    {
+     "id": "b",
+     "label": "A radical reaction"
+    },
+    {
+     "id": "c",
+     "label": "A pericyclic reaction"
+    },
+    {
+     "id": "d",
+     "label": "A redox reaction"
+    }
+   ],
+   "answer": "b",
+   "explain": "Radical reactions involve species with unpaired electrons and the movement of single electrons.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions:q2"
+  },
+  {
+   "prompt": "A student says that a list of the starting chemicals is enough to tell you every step of how a reaction happens. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mechanism always has exactly three steps"
+    },
+    {
+     "id": "b",
+     "label": "Only the products can reveal the mechanism"
+    },
+    {
+     "id": "c",
+     "label": "A mechanism can never be worked out at all"
+    },
+    {
+     "id": "d",
+     "label": "The list alone does not always make the stepwise mechanism clear"
+    }
+   ],
+   "answer": "d",
+   "explain": "Each reaction has a stepwise mechanism, but those steps are not always clear from a list of reactants alone.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions:q3"
+  },
+  {
+   "prompt": "A reaction starts as a substitution, but it goes by first adding a group and then removing one. What does this show about sorting reactions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some reactions fit more than one category"
+    },
+    {
+     "id": "b",
+     "label": "Substitutions are really a type of redox"
+    },
+    {
+     "id": "c",
+     "label": "Each reaction must be filed under one type"
+    },
+    {
+     "id": "d",
+     "label": "Addition and elimination cannot happen together"
+    }
+   ],
+   "answer": "a",
+   "explain": "Some reactions fit into more than one category, for example substitution reactions that follow an addition-elimination pathway.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions:q4"
+  },
+  {
+   "prompt": "A reaction named after four inventors is a mouthful to say, so chemists write it as the CBS reduction. What is this an example of?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Naming a reaction after its reagent type"
+    },
+    {
+     "id": "b",
+     "label": "Naming a reaction after its mechanism"
+    },
+    {
+     "id": "c",
+     "label": "Shortening a long named reaction to an abbreviation"
+    },
+    {
+     "id": "d",
+     "label": "Replacing a name with its Nobel Prize year"
+    }
+   ],
+   "answer": "c",
+   "explain": "When a named reaction is difficult to pronounce or very long, it helps to use an abbreviation.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions:q5"
+  },
+  {
+   "prompt": "In one kind of reaction, water is consumed. What is the name for the opposite of a reaction that splits water off as two reactants combine?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Condensation"
+    },
+    {
+     "id": "b",
+     "label": "Hydrolysis"
+    },
+    {
+     "id": "c",
+     "label": "Polymerization"
+    },
+    {
+     "id": "d",
+     "label": "Saponification"
+    }
+   ],
+   "answer": "b",
+   "explain": "In condensation reactions a small molecule, usually water, is split off; the opposite, where water is consumed, is hydrolysis.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Claisen_rearrangement_scheme.svg/960px-Claisen_rearrangement_scheme.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Organic reactions",
+  "credit": "User:Innerstream",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Claisen_rearrangement_scheme.svg"
+ },
+ "source": {
+  "title": "Organic reaction",
+  "url": "https://en.wikipedia.org/wiki/Organic_reaction",
+  "revision": 1298173933
+ },
+ "pack": {
+  "id": "auto-organic-chemistry-organic-reactions",
+  "title": "Three ways electrons move",
+  "question": "How can the huge number of organic reactions be sorted by how their electrons move?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Organic chemistry",
+   "Organic reactions"
+  ],
+  "hue": 183,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Claisen_rearrangement_scheme.svg/960px-Claisen_rearrangement_scheme.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Organic reactions",
+    "credit": "User:Innerstream · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Claisen_rearrangement_scheme.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Three ways electrons move",
+    "hook": "There are about a thousand named reactions, but only a few ways for electrons to move."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-organic-chemistry-organic-reactions:1",
+    "transfer": false,
+    "prompt": "Match each class of reaction to how its electrons behave.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Polar"
+     },
+     {
+      "id": "l1",
+      "label": "Radical"
+     },
+     {
+      "id": "l2",
+      "label": "Pericyclic"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Single unpaired electrons move"
+     },
+     {
+      "id": "r0",
+      "label": "Electron pairs move from a clear source to a clear sink"
+     },
+     {
+      "id": "r2",
+      "label": "Bonds shift around a cyclic transition state"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Polar, radical and pericyclic reactions are the mechanistic classes, told apart by how electrons move."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-organic-chemistry-organic-reactions:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each item into reaction types or reagent examples.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Addition reactions"
+     },
+     {
+      "id": "i1",
+      "label": "Substitution reactions"
+     },
+     {
+      "id": "i2",
+      "label": "Redox reactions"
+     },
+     {
+      "id": "i3",
+      "label": "Lithium aluminium hydride"
+     },
+     {
+      "id": "i4",
+      "label": "Sulfuric acid"
+     },
+     {
+      "id": "i5",
+      "label": "Osmium tetroxide"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Reaction types"
+     },
+     {
+      "id": "g1",
+      "label": "Reagent examples"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "Reaction types describe what happens to the molecule, while reagents are the substances, often inorganic, that a transformation requires."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-organic-chemistry-organic-reactions:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Chemists often sort reactions by mechanistic class: polar, radical or pericyclic."
+     },
+     {
+      "id": "b",
+      "text": "Every reaction therefore fits neatly into exactly one of the classes."
+     },
+     {
+      "id": "c",
+      "text": "Polar reactions are the largest group, making up the vast majority."
+     },
+     {
+      "id": "d",
+      "text": "Polar reactions move electron pairs from a source to a sink."
+     }
+    ],
+    "answer": "b",
+    "explain": "Some chemical processes involve steps from two or even all three classes, so the scheme is not always clear."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-organic-chemistry-organic-reactions:4",
+    "transfer": true,
+    "prompt": "In one reaction, bonds are redistributed around a cyclic transition state and electron pairs circle around without a true source or sink. What must hold for this to work?",
+    "explain": "Pericyclic reactions need continuous overlap of the participating orbitals and are governed by orbital symmetry.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "A small molecule such as water must be split off",
+        "feedback": "Splitting off water describes condensation reactions, not this class."
+       },
+       {
+        "id": "b",
+        "label": "A strong acid must pass protons along throughout",
+        "feedback": "Acids are one type of reagent, but this reaction is defined by its cyclic electron movement."
+       },
+       {
+        "id": "c",
+        "label": "Free radicals must carry single electrons",
+        "feedback": "Single electrons moving belongs to radical reactions, not this one."
+       },
+       {
+        "id": "a",
+        "label": "The orbitals of the participating atoms must overlap continuously"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "Most organic reactions fall into polar, radical or pericyclic classes, depending on how their electrons move.",
+    "connections": [
+     {
+      "title": "Substitution reaction",
+      "place": "Organic reactions",
+      "node": "knowledge.science.chemistry.organic-chemistry.organic-reactions.substitution-reaction"
+     },
+     {
+      "title": "Addition reaction",
+      "place": "Organic reactions",
+      "node": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction"
+     },
+     {
+      "title": "Elimination reaction",
+      "place": "Organic reactions",
+      "node": "knowledge.science.chemistry.organic-chemistry.organic-reactions.elimination-reaction"
+     },
+     {
+      "title": "Grignard reaction",
+      "place": "Organic reactions",
+      "node": "knowledge.science.chemistry.organic-chemistry.organic-reactions.grignard-reaction"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Polar, radical and pericyclic reactions are the mechanistic classes, told apart by how electrons move.",
+    "source": "Wikipedia sentences 15, 16, 19, 21"
+   },
+   {
+    "claim": "Reaction types describe what happens to the molecule, while reagents are the substances, often inorganic, that a transformation requires.",
+    "source": "Wikipedia sentences 2, 12, 13"
+   },
+   {
+    "claim": "Some chemical processes involve steps from two or even all three classes, so the scheme is not always clear.",
+    "source": "Wikipedia sentences 15, 16, 18, 24"
+   },
+   {
+    "claim": "Pericyclic reactions need continuous overlap of the participating orbitals and are governed by orbital symmetry.",
+    "source": "Wikipedia sentences 21, 22, 23"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What organic reactions are",
+    "text": "Organic reactions are chemical reactions that involve organic compounds. Chemists use them to build new organic molecules, and the making of drugs, plastics, food additives and fabrics relies on them. Some are very old, such as burning organic fuels and turning fats into soap, which is called saponification. Modern organic chemistry begins with the Wöhler synthesis of 1828.",
+    "cites": [
+     1,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Sorting by what happens",
+    "text": "The basic types are addition, elimination, substitution, pericyclic, rearrangement, photochemical and redox reactions. Some reactions fit more than one type; certain substitutions, for example, go by way of an addition followed by an elimination. Another way to sort them is by the reagent a change needs. The main kinds are oxidizing agents like osmium tetroxide, reducing agents like lithium aluminium hydride, bases like lithium diisopropylamide and acids like sulfuric acid.",
+    "cites": [
+     2,
+     37,
+     38,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Reactions with names",
+    "text": "Organic chemists like to name a reaction after the person or people who invented it, and a cautious count of these named reactions comes to 1000. The Claisen rearrangement of 1912 is an old one, and the Bingel reaction of 1993 a recent one. Several have earned the Nobel Prize in Chemistry, among them the Grignard reaction (1912), the Diels–Alder reaction (1950), the Wittig reaction (1979) and olefin metathesis (2005).",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Three classes of mechanism",
+    "text": "Each reaction has a mechanism, the series of steps that explains how it happens, and reactions are also grouped by it into three common classes. In polar reactions, which are the vast majority, a pair of electrons moves from a clear source, such as a lone pair, to a clear sink, an electrophilic center. In radical reactions, species with unpaired electrons, called radicals, move single electrons, in chain or nonchain processes. Pericyclic reactions shuffle bonds around a cyclic transition state, with electron pairs moving in a loop that has no true source or sink. Some processes mix steps from two or even all three classes.",
+    "cites": [
+     35,
+     14,
+     15,
+     16,
+     18,
+     19,
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "What steers a reaction",
+    "text": "Organic reactions are governed by much the same factors as any chemical reaction. Particular to them are things that set how stable reactants and products are, such as conjugation and aromaticity, and reactive intermediates such as free radicals, carbocations and carbanions. Because one organic compound can come as many isomers, selectivity matters a great deal: regioselectivity, diastereoselectivity and enantioselectivity. The Woodward–Hoffmann rules govern the stereochemistry of pericyclic reactions, and Zaitsev's rule that of many eliminations.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Making medicines",
+    "text": "Organic reactions are important in making pharmaceuticals. A 2006 review estimated that 20% of the chemical conversions were alkylations on nitrogen and oxygen atoms. Another 20% put on or took off protective groups, 11% made new carbon–carbon bonds, and 10% turned one functional group into another.",
+    "cites": [
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Water, chains and arrows",
+    "text": "In a condensation reaction two reactants combine and give off a small molecule, usually water. The opposite, where a reaction uses up water, is hydrolysis. Many polymerizations come from organic reactions, and they split into addition polymerizations and step-growth polymerizations. To show a mechanism step by step, chemists use arrow pushing: curved arrows that track how electrons move as starting materials turn into intermediates and products.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-1",
+   "kind": "book",
+   "title": "6.1 Kinds of Organic Reactions",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/6-1-kinds-of-organic-reactions",
+   "note": "A free textbook section surveying the main kinds of organic reactions: addition, elimination, substitution and rearrangement.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-6-2",
+   "kind": "book",
+   "title": "6.2 How Organic Reactions Occur: Mechanisms",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/6-2-how-organic-reactions-occur-mechanisms",
+   "note": "A free textbook section on reaction mechanisms, introducing polar and radical reactions.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-reaction-mechanisms",
+   "kind": "video",
+   "title": "Intro to Reaction Mechanisms: Crash Course Organic Chemistry #13",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ORMUTUhYjvg",
+   "note": "A Crash Course video introducing how organic reaction mechanisms are described."
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "A Gaussian function is a symmetric bell-shaped curve, named after the mathematician Carl Friedrich Gauss.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Three constants shape it: a is the height of the peak, b is where the peak sits horizontally, and c controls how wide the bell is.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Gaussians describe normal distributions, define Gaussian filters in signal processing and Gaussian blurs in images, and help solve heat and diffusion equations.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named for",
+   "value": "The mathematician Carl Friedrich Gauss",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Peak height",
+   "value": "Set by the constant a",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Peak position",
+   "value": "Set by the constant b",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Width",
+   "value": "Inflection points sit at x = b ± c",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Far from center",
+   "value": "The function approaches 0 as x goes to ±∞",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You sketch a Gaussian function. What outline should the graph have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight line sloping upward"
+    },
+    {
+     "id": "b",
+     "label": "A symmetric bell with one peak"
+    },
+    {
+     "id": "c",
+     "label": "A staircase with sudden jumps"
+    },
+    {
+     "id": "d",
+     "label": "A zigzag that repeats forever"
+    }
+   ],
+   "answer": "b",
+   "explain": "The graph of a Gaussian is a characteristic symmetric bell curve.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Two Gaussians have the same peak height and the same peak position, but the second looks wider and flatter. Which constant differs?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The height constant a"
+    },
+    {
+     "id": "b",
+     "label": "The position constant b"
+    },
+    {
+     "id": "c",
+     "label": "The sign of the whole function"
+    },
+    {
+     "id": "d",
+     "label": "The width constant c"
+    }
+   ],
+   "answer": "d",
+   "explain": "The constant c controls the width of the bell, while a is the height and b is the position of the peak.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "Walk far out to the right of a Gaussian's peak and keep going. What happens to the function's value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rises again into a second bump"
+    },
+    {
+     "id": "b",
+     "label": "It levels off at the height of the peak"
+    },
+    {
+     "id": "c",
+     "label": "It gets closer and closer to zero"
+    },
+    {
+     "id": "d",
+     "label": "It flips sign and turns negative"
+    }
+   ],
+   "answer": "c",
+   "explain": "The limit of a Gaussian as x goes to ±∞ is 0.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "You take two functions of Gaussian form and combine them by convolution. What can you say about the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gaussian again, with the two variances added"
+    },
+    {
+     "id": "b",
+     "label": "Gaussian again, with the two variances multiplied"
+    },
+    {
+     "id": "c",
+     "label": "Not Gaussian, since convolution breaks the bell"
+    },
+    {
+     "id": "d",
+     "label": "Gaussian again, keeping only the larger variance"
+    }
+   ],
+   "answer": "a",
+   "explain": "The convolution of two Gaussian functions is also a Gaussian, with variance being the sum of the original variances: c² = c₁² + c₂².",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "prompt": "A student multiplies two Gaussian probability density functions and assumes the product is always a Gaussian density. Is that safe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because Gaussians are closed under multiplication"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because a Gaussian is always positive"
+    },
+    {
+     "id": "c",
+     "label": "No, because a product is always flat"
+    },
+    {
+     "id": "d",
+     "label": "No, it is not generally a Gaussian density"
+    }
+   ],
+   "answer": "d",
+   "explain": "The product of two Gaussian PDFs is not in general a Gaussian PDF.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "A bell curve has its peak at x = 5 and its width constant c = 2. Where are its two inflection points?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At x = 3 and x = 7"
+    },
+    {
+     "id": "b",
+     "label": "At x = 2 and x = 5"
+    },
+    {
+     "id": "c",
+     "label": "At x = 5 and x = 10"
+    },
+    {
+     "id": "d",
+     "label": "At x = 4 and x = 6"
+    }
+   ],
+   "answer": "a",
+   "explain": "The inflection points occur at x = b ± c, so at 5 − 2 = 3 and 5 + 2 = 7.",
+   "cites": [
+    4,
+    9
+   ]
+  }
+ ]
+}

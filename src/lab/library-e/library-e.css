@@ -1,0 +1,265 @@
+/* Prototype E, "Your Library": a music app's library in MoK's catalogue look. Warm ink and paper, a
+   book face for every title, hairlines, no glow. Colour comes only from the things themselves and,
+   in small touches, from the Atlas: a place's ring once it is proved, and the dot beside the place
+   every thing lives in, filled once that land is lit. */
+
+/* The room: while this page shows, the shell's chrome takes its warm ink. */
+.studio-shell:has(.le){
+ --atlas-shade:#100f0d;--atlas-deep:#13110f;--atlas-chrome:#171512;--atlas-panel:#171512;--atlas-paper:#1a1815;--atlas-raised:#1f1d19;
+ --atlas-rule:rgb(238 232 220/.1);--atlas-border:rgb(238 232 220/.19);--atlas-border-strong:rgb(238 232 220/.32);--atlas-hover:#24221d;--atlas-selected:#2a2722;--atlas-margin:#12110e;
+ --atlas-sidebar:#12110e;--atlas-input:#13110f;
+ --atlas-text:#eee8dc;--atlas-bright:#f8f3ea;--atlas-highlight:#f8f3ea;--atlas-pale:#e4ddd0;--atlas-secondary:#cdc6b9;--atlas-muted:#9b9387;--atlas-faint:#6f685f;--atlas-line:#5f5952;
+}
+.studio-shell:has(.le) .shell-bar::before{background:linear-gradient(180deg,rgb(16 15 13/.95),rgb(16 15 13/.88) calc(100% - 18px),rgb(16 15 13/0))!important}
+
+.le{
+ --le-ground:#100f0d;--le-panel:#171512;--le-raised:#1f1d19;--le-raised-2:#272420;
+ --le-ink:#eee8dc;--le-ink-2:#cdc6b9;--le-muted:#9b9387;--le-faint:#6f685f;
+ --le-rule:rgb(238 232 220/.1);--le-rule-2:rgb(238 232 220/.19);--le-rule-3:rgb(238 232 220/.32);
+ --le-serif:'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;
+ --le-sans:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+ /* The Library's own sheets read the atlas tokens: they take this page's colours. */
+ --atlas-shade:var(--le-ground);--atlas-panel:var(--le-panel);--atlas-raised:var(--le-raised);--atlas-rule:var(--le-rule);--atlas-border:var(--le-rule-2);--atlas-line:var(--le-rule-3);
+ --atlas-faint:var(--le-faint);--atlas-muted:var(--le-muted);--atlas-secondary:var(--le-ink-2);--atlas-text:var(--le-ink);--atlas-button:var(--le-ink);--atlas-button-ink:#15130f;--atlas-serif:var(--le-serif);
+ position:absolute;inset:0;background:var(--le-ground);color:var(--le-ink);font:400 15px/1.4 var(--le-sans);-webkit-font-smoothing:antialiased;color-scheme:dark;
+}
+:where(.le) button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;text-align:inherit;-webkit-tap-highlight-color:transparent}
+.le :focus-visible{outline:2px solid var(--le-ink-2);outline-offset:2px}
+.le :is(input,textarea):focus-visible{outline:none}
+.le h1,.le h2,.le h3,.le p{margin:0;font-weight:400}
+.le ol,.le ul{list-style:none;margin:0;padding:0}
+.le img{display:block}
+.le .le-scroll{position:absolute;inset:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;background:var(--le-ground);padding:var(--chrome-top) 0 0;scrollbar-width:thin;scrollbar-color:var(--le-rule-2) transparent}
+.le-page{max-width:1240px;margin:0 auto;padding:4px 16px calc(var(--chrome-bottom) + 28px)}
+
+/* ---- heads and controls ---- */
+.le-head{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;margin-top:2px}
+.le-head h1{font:400 34px/1.05 var(--le-serif);letter-spacing:-.5px;color:var(--le-ink)}
+.le-head.is-search{gap:14px}
+.le-ring{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--le-rule-2);color:var(--le-ink-2)}
+.le-ring:active{background:var(--le-raised)}
+.le-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;color:var(--le-ink-2)}
+.le-icon.is-small{width:30px;height:30px}
+.le-text{color:var(--le-ink-2);font:400 15px/1 var(--le-sans);min-height:42px}
+.le-text.is-danger{color:hsl(14 70% 72%)}
+.le-cancel{flex:none}
+.le-pill{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 15px;border-radius:19px;box-shadow:inset 0 0 0 1px var(--le-rule-2);color:var(--le-ink);font:500 13.5px/1 var(--le-sans);white-space:nowrap;transition:background .15s}
+.le-pill svg{color:var(--le-ink-2)}
+.le-pill.is-solid{background:var(--le-ink);box-shadow:none;color:#15130f}
+.le-pill.is-solid svg{color:#15130f}
+.le-pill.is-small{flex:none;height:32px;padding:0 13px;font-size:13px}
+.le-pill:disabled{opacity:.4;cursor:default}
+.le-field{flex:1;min-width:0;display:flex;align-items:center;gap:8px;height:42px;padding:0 6px 0 12px;border-radius:10px;background:var(--le-raised);color:var(--le-muted)}
+.le-field input{flex:1;min-width:0;height:100%;background:none;border:0;outline:0;color:var(--le-ink);font:400 17px/1 var(--le-sans)}
+.le-field input::placeholder{color:var(--le-faint)}
+.le-none{padding:22px 0;font:italic 400 16px/1.5 var(--le-serif);color:var(--le-muted)}
+.le-none.is-empty{padding-top:28px}
+.le-faint{color:var(--le-faint)}
+.le-problem{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 12px;padding:10px 12px;border-radius:8px;background:#2a1d17;color:#f2c9b6;font-size:13px}
+.le-back{display:inline-flex;align-items:center;gap:2px;height:40px;margin:0 0 0 -8px;padding-right:8px;color:var(--le-ink-2);font:400 15px/1 var(--le-sans)}
+
+/* Kind chips: filled, one solid when chosen; the row scrolls sideways inside itself when the kinds outrun it. */
+.le-chips{display:flex;gap:7px;margin:10px -16px 0;padding:0 16px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain}
+.le-chips::-webkit-scrollbar{display:none}
+.le-chip{flex:none;height:32px;padding:0 13px;border-radius:16px;background:var(--le-raised);color:var(--le-ink-2);font:500 13.5px/32px var(--le-sans);white-space:nowrap}
+.le-chip.is-on{background:var(--le-ink);color:#15130f}
+.le-chip.is-clear{display:grid;place-items:center;width:32px;padding:0}
+
+.le-sec{margin-top:22px;font:400 20px/1.2 var(--le-serif);color:var(--le-ink)}
+.le-shelf-section>.le-sec{margin-top:14px}
+.le-sec>button{display:inline-flex;align-items:center;gap:3px;min-height:32px}
+.le-sec svg{color:var(--le-muted);margin-top:2px}
+
+/* ---- covers ---- */
+.le-shelf{display:flex;gap:12px;margin:4px -16px 0;padding:6px 16px 2px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain}
+.le-shelf::-webkit-scrollbar{display:none}
+.le-shelf>li{flex:none}
+.le-cover{display:flex;flex-direction:column;align-items:flex-start;width:96px}
+.le-cover.is-place{align-items:center;text-align:center}
+.le-cover-title{margin-top:8px;max-width:100%;font:400 14px/1.22 var(--le-serif);color:var(--le-ink);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.le-cover-meta{margin-top:3px;max-width:100%;font:400 12px/1.3 var(--le-sans);color:var(--le-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.le-cover.is-due .le-cover-meta{color:var(--le-ink)}
+
+/* A place in a circle. Proved: a ring in its own colour, set off by a gap of ground. Ready to refresh:
+   the ring broken in the page's ink, and a refresh mark sitting on it. */
+.le-disc{--d:56px;position:relative;flex:none;display:block;width:var(--d);height:var(--d)}
+.le-disc.is-shelf{--d:72px;margin:5px}
+.le-disc.is-hero{--d:176px}
+.le-disc.is-small{--d:28px}
+.le-disc-face{display:block;width:100%;height:100%;border-radius:50%;overflow:hidden;background:var(--le-raised)}
+.le-disc-face img{width:100%;height:100%;object-fit:cover}
+.le-disc.is-proved::after,.le-disc.is-ready::after{content:'';position:absolute;inset:-5px;border-radius:50%;border:2px solid var(--hue);pointer-events:none}
+.le-disc.is-ready::after{border:2px dashed var(--le-ink-2)}
+.le-disc.is-hero.is-proved::after,.le-disc.is-hero.is-ready::after{inset:-9px;border-width:2.5px}
+.le-disc.is-row.is-proved::after,.le-disc.is-row.is-ready::after{inset:-4px;border-width:1.75px}
+.le-disc.is-small.is-proved::after,.le-disc.is-small.is-ready::after{inset:-3px;border-width:1.5px}
+.le-badge{position:absolute;right:-6px;bottom:-4px;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--le-ink);color:#15130f;box-shadow:0 0 0 3px var(--le-ground)}
+.le-disc.is-row .le-badge{width:20px;height:20px;right:-6px;bottom:-5px}
+.le-disc.is-hero .le-badge{width:40px;height:40px;right:4px;bottom:4px;box-shadow:0 0 0 4px var(--le-ground)}
+.le-disc-type{display:grid;place-items:center;width:100%;height:100%;padding:16%;background:color-mix(in oklab,var(--hue) 13%,#1f1d19);container-type:inline-size;text-align:center}
+.le-disc-type b{font:400 clamp(9px,15cqi,26px)/1.12 var(--le-serif);color:color-mix(in oklab,var(--hue) 22%,#efe9dd);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;-webkit-hyphens:auto;hyphens:auto}
+
+/* A collection's cover: four of its things, two by two. */
+.le-four{display:grid;grid-template:1fr 1fr/1fr 1fr;flex:none;width:56px;height:56px;border-radius:3px;overflow:hidden;background:var(--le-panel)}
+.le-four.is-shelf{width:82px;height:82px;border-radius:4px}
+.le-four.is-hero{width:196px;height:196px;border-radius:6px;box-shadow:0 22px 40px -22px #000}
+.le-four.is-empty{box-shadow:inset 0 0 0 1px var(--le-rule)}
+.le-four-cell{position:relative;overflow:hidden;background:var(--le-panel);container-type:inline-size}
+.le-four-cell img{width:100%;height:100%;object-fit:cover}
+.le-four-cell .le-type{width:100%;height:100%;padding:10%}
+.le-four-cell .le-type b{font-size:clamp(5px,13cqi,17px)}
+.le-four-cell .le-type small{display:none}
+.le-four-cell:is(.is-idea,.is-question) .le-type{justify-content:center;background:color-mix(in oklab,var(--hue) 9%,#211f1a)}
+.le-four-cell.is-question .le-type b{font-style:italic}
+
+/* A cover set in type. */
+.le-type{display:flex;flex-direction:column;justify-content:space-between;width:100%;height:100%;padding:9% 9% 8%;background:color-mix(in oklab,var(--hue) 16%,#22201b);container-type:inline-size;overflow:hidden}
+.le-type b{font:400 clamp(6px,15cqi,22px)/1.14 var(--le-serif);color:#f1ebdf;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;-webkit-hyphens:auto;hyphens:auto}
+.le-type small{font:400 clamp(4.5px,9cqi,12px)/1.2 var(--le-sans);color:#f1ebdf;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---- sort and list ---- */
+.le-sortbar{display:flex;align-items:center;gap:8px;min-height:34px;margin:8px 0 0}
+.le-sort{display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 2px;color:var(--le-ink-2);font:500 13.5px/1 var(--le-sans)}
+.le-sort svg{color:var(--le-muted)}
+.le-list>li{content-visibility:auto;contain-intrinsic-size:auto 68px}
+.le-row>button,.le-row>.le-record{display:flex;align-items:center;gap:14px;width:100%;min-height:68px;padding:6px 0}
+.le-row.is-place,.le-row.is-record{display:flex;align-items:center;gap:10px}
+.le-row.is-place>button{min-height:72px;padding:8px 0 8px 4px}
+.le-list.is-proved{margin-top:6px}
+.le-row-action{flex:none;display:flex;align-items:center}
+.le-row.is-place>button,.le-row.is-record>button,.le-row.is-record>.le-record{flex:1;min-width:0}
+.le-row-text{flex:1;min-width:0;display:flex;flex-direction:column}
+.le-title{font:400 16.5px/1.25 var(--le-serif);color:var(--le-ink);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.le-title b,.le-words b{font-weight:600;color:#fff}
+.le-meta{display:block;margin-top:3px;font:400 12.5px/1.35 var(--le-sans);color:var(--le-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.le-meta.is-due{color:var(--le-ink)}
+
+/* A note or a question is its own words, set in the book face: no picture stands in for them. */
+.le-row.is-idea>button,.le-row.is-question>button{padding:12px 0 10px}
+.le-words{font:400 18px/1.3 var(--le-serif);letter-spacing:-.1px;color:var(--le-ink);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.le-words.is-question{font-style:italic}
+
+/* Where a thing lives: the place's own colour, its dot filled once that land is lit on the Atlas. */
+.le-where{display:flex;align-items:center;gap:7px;min-width:0;margin-top:3px;font:400 12.5px/1.35 var(--le-sans);color:var(--le-ink-2)}
+.le-where-name{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.le-where em{flex:none;margin-left:-3px;font-style:normal;color:var(--le-ink)}
+.le-where em::before{content:'·\00a0';color:var(--le-muted)}
+.le-land{flex:none;display:block;width:7px;height:7px;border-radius:50%;box-shadow:inset 0 0 0 1.25px var(--hue)}
+.le-land.is-lit{background:var(--hue);box-shadow:none}
+
+/* Artwork, shaped by what a thing is. */
+.le-art{position:relative;flex:none;display:grid;place-items:center;width:56px;height:56px}
+.le-art.is-cover>img,.le-art.is-cover>.le-type{width:38px;height:56px;border-radius:1.5px;object-fit:cover;box-shadow:0 6px 12px -6px #000,0 0 0 .5px rgb(0 0 0/.35)}
+.le-art.is-reel>img,.le-art.is-reel>.le-type{width:42px;height:56px;border-radius:6px;object-fit:cover}
+.le-art.is-frame>img,.le-art.is-frame>.le-type{width:56px;height:56px;border-radius:3px;object-fit:cover}
+.le-art.is-link>img{background:#ebe5d8}
+.le-play{position:absolute;left:4px;bottom:4px;display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:rgb(16 15 13/.72);color:#f1ebdf}
+.le-letter{margin:22px 0 0;font:400 20px/1 var(--le-serif);color:var(--le-muted)}
+.le-letter-group:first-child .le-letter{margin-top:10px}
+.le-more{height:1px}
+
+/* ---- one level down: a place, a collection, the index ---- */
+.le-page-title{margin-top:6px;font:400 30px/1.1 var(--le-serif);letter-spacing:-.4px;color:var(--le-ink)}
+.le-hero{display:flex;flex-direction:column;margin-top:8px}
+.le-hero>.le-disc,.le-hero>.le-four{align-self:center;margin-top:14px}
+.le-hero-text{min-width:0}
+.le-hero h1{margin-top:26px;font:400 32px/1.1 var(--le-serif);letter-spacing:-.5px;color:var(--le-ink);overflow-wrap:anywhere}
+.le-path{margin-top:8px;font:400 13.5px/1.4 var(--le-sans);color:var(--le-muted)}
+.le-path+.le-path{margin-top:2px}
+.le-proofline{margin-top:3px;font:400 13.5px/1.4 var(--le-sans);color:var(--le-ink-2)}
+.le-proofline.is-due{color:var(--le-ink)}
+.le-reach{margin-top:4px;font:400 13.5px/1.5 var(--le-sans);color:var(--le-muted)}
+.le-reach button{color:var(--le-ink-2)}
+.le-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0 6px}
+.le-actions>.le-ring{margin-left:auto}
+.le-section{margin-top:10px}
+.le-section>.le-sec{margin-bottom:2px}
+.le-proof{margin-top:22px}
+.le-mark{flex:none;display:grid;place-items:center;width:44px;height:44px;margin:0 6px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--le-rule-2);color:var(--le-muted)}
+.le-mark.is-passed{box-shadow:inset 0 0 0 1.5px var(--hue);color:var(--hue)}
+
+.le-index-section{margin-top:14px}
+.le-new-art{flex:none;display:grid;place-items:center;width:56px;height:56px;border-radius:3px;box-shadow:inset 0 0 0 1px var(--le-rule-2);color:var(--le-ink-2)}
+.le-row.is-new .le-title{color:var(--le-ink-2)}
+.le-subject{margin-top:12px}
+.le-sec.is-subject{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-bottom:6px;border-bottom:1px solid var(--le-rule);font-size:22px}
+.le-count{flex:none;font:400 12.5px/1.2 var(--le-sans);color:var(--le-muted)}
+.le-field-entry{content-visibility:visible}
+.le-inside{margin:-4px 0 8px 70px}
+.le-inside>li>button{display:flex;align-items:center;gap:10px;width:100%;min-height:40px;border-top:1px solid var(--le-rule)}
+.le-inside>li:first-child>button{border-top:0}
+.le-inside-name{min-width:0;flex:0 1 auto;font:400 15px/1.25 var(--le-serif);color:var(--le-ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.le-inside em{flex:none;font:400 12px/1 var(--le-sans);font-style:normal;color:var(--le-ink)}
+.le-inside .le-count{margin-left:auto}
+.le-inside .le-all{color:var(--le-muted);font:400 13px/1 var(--le-sans)}
+
+/* ---- sheets in the lab: warm like the page ---- */
+.le .lib-sheet{background:#191714;box-shadow:0 -1px 0 rgb(238 232 220/.07),0 -24px 48px -12px #000}
+.le .lib-sheet-foot{background:linear-gradient(0deg,#191714 70%,transparent)}
+.le .lib-sheet-backdrop{background:rgb(6 5 4/.6)}
+.le .le-sheets{position:absolute;top:0;left:0;width:0;height:0;padding:0;margin:0;max-width:none}
+.le-sheet-head{display:flex;align-items:center;gap:10px;margin:6px 0 12px}
+.le-name-field{flex:1;min-width:0;height:46px;background:none;border:0;border-bottom:1px solid var(--le-rule-2);outline:0;color:var(--le-ink);font:400 24px/1.1 var(--le-serif)}
+.le-name-field::placeholder{color:var(--le-faint)}
+.le-field.is-sheet{flex:none;margin-bottom:6px}
+.le-pick>li>button{display:flex;align-items:center;gap:12px;width:100%;min-height:64px;padding:4px 0;border-bottom:1px solid var(--le-rule);text-align:left}
+.le-pick .le-words{font-size:15.5px;-webkit-line-clamp:2}
+.le-pick .le-title{font-size:15.5px;-webkit-line-clamp:1}
+.le-pick-note{flex:none;width:56px}
+.le-tick{flex:none;display:grid;place-items:center;width:22px;height:22px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--le-rule-2);color:#15130f}
+.le-tick.is-on{background:var(--le-ink);box-shadow:none}
+.le-sheet-foot{justify-content:space-between}
+.le-sheet-foot .le-pill{margin-left:auto}
+
+/* ---- a desktop: the same library, its list as a table ---- */
+@media(min-width:801px){
+ .le-page{padding:30px clamp(28px,4vw,56px) 80px}
+ .le-head h1{font-size:44px;letter-spacing:-.8px}
+ .le-chips{margin:16px 0 0;padding:0;flex-wrap:wrap;overflow:visible}
+ /* One row of covers, as many as fit; the rest are a tap away behind "Places and collections". */
+ .le-shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(144px,1fr));grid-template-rows:auto;grid-auto-rows:0;row-gap:0;column-gap:22px;margin:12px -8px 0;padding:8px 8px 4px;overflow:hidden}
+ .le-shelf>li{min-width:0}
+ .le-shelf>li:nth-child(n+9){display:none}
+ .le-cover{width:144px}
+ .le-disc.is-shelf{--d:136px}
+ .le-four.is-shelf{width:144px;height:144px}
+ .le-cover-title{font-size:15px}
+ .le-cover-meta{font-size:12.5px}
+ .le-sortbar{margin-top:24px;gap:10px}
+ .le-sortbar .le-field{flex:none;width:320px;height:38px}
+ .le-sortbar .le-field input{font-size:14px}
+ .le-sortbar .le-sort{margin-left:auto}
+ .le-thead,.le-row>button:has(.le-cell-art){display:grid;grid-template-columns:56px minmax(0,2.3fr) minmax(0,1.3fr) 104px 84px;gap:18px;align-items:center}
+ .le-thead.is-here,.le-list.is-here .le-row>button:has(.le-cell-art){grid-template-columns:56px minmax(0,3.6fr) 104px 84px}
+ .le-thead{margin-top:10px;padding:0 12px 10px;border-bottom:1px solid var(--le-rule);font:400 12.5px/1 var(--le-sans);color:var(--le-muted)}
+ .le-list{margin-top:4px}
+ .le-row>button,.le-row>.le-record{padding:6px 12px;border-radius:6px;gap:18px}
+ .le-row>button:hover{background:rgb(238 232 220/.04)}
+ .le-cell-title{display:flex;flex-direction:column;min-width:0}
+ .le-cell-title .le-title{font-size:16px;-webkit-line-clamp:1}
+ .le-cell-title .le-words{font-size:16px;-webkit-line-clamp:2}
+ .le-cell-place{min-width:0}
+ .le-cell-place .le-where{margin:0;font-size:13.5px}
+ .le-cell-kind,.le-cell-added{font:400 13.5px/1.2 var(--le-sans);color:var(--le-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .le-row.is-idea>button,.le-row.is-question>button{padding:10px 12px}
+ .le-letter{margin-left:12px}
+ .le-row.is-place,.le-row.is-record{padding-right:12px}
+ .le-row.is-place>button{padding:8px 12px}
+
+ .le-hero{flex-direction:row;align-items:center;gap:40px;margin-top:14px}
+ /* The proof record in the column beside the picture, where the page was empty. */
+ .le-place-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,380px);column-gap:56px;align-items:start}
+ .le-place-top>.le-hero{min-width:0}
+ .le-place-top>.le-proof{margin-top:30px}
+ .le-place-top>.le-proof>.le-sec{margin-top:0}
+ .le-place-top>.le-proof .le-row.is-place,.le-place-top>.le-proof .le-row.is-record{padding-right:0}
+ .le-place .le-section{margin-top:28px}
+ .le-hero>.le-disc,.le-hero>.le-four{align-self:center;margin:10px 0 10px 10px}
+ .le-disc.is-hero{--d:196px}
+ .le-hero h1{margin-top:0;font-size:44px;letter-spacing:-.8px}
+ .le-page-title{font-size:40px;letter-spacing:-.7px}
+ .le-index,.le-place,.le-collection{max-width:1080px}
+ .le-subject>.le-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));column-gap:36px}
+ .le-inside{margin-left:82px}
+}
+@media(prefers-reduced-motion:reduce){.le-pill{transition:none}}

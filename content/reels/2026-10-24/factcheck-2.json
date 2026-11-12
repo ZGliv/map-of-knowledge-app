@@ -1,0 +1,309 @@
+{
+ "checker": "Claude (Opus 5.5), independent adversarial fact-checker, round 2",
+ "checkedAt": "2026-10-23T19:14:29Z",
+ "units": [
+  {
+   "id": "2026-10-24-the-crash-that-paused/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"succeeded in halting the slide\" ... \"On October 28, ... the slide continued with a record loss\"",
+   "note": "The halt on Black Thursday and the resumed slide on Monday 28 October make \"paused\" accurate. The title no longer carries the unsupported \"for a day\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: Crowd_outside_nyse.jpg] \"A solemn crowd gathers outside the Stock Exchange after the crash. 1929.\"",
+   "note": "Caption matches the file description; Commons dates the photo \"Taken on 29 October 1929\". Spoken line reads \"nineteen twenty-nine\" for 1929 and adds nothing.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f2",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"On October 24, \\\"Black Thursday\\\", the market lost 11% of its value at the opening bell.\" Outside: teachinghistory.org (Black Days in the Market) gives the market \"opening on October 24 ... at 306\", i.e. level with the 305.85 prior close; crossingwallstreet.com (\"Black Thursday: Eighty Years Ago\") has the Dow falling \"nearly 11% to 272.32\" on Thursday morning.",
+   "note": "The caption follows its pinned sentence, and the spoken line matches it exactly (\"the twenty-fourth of October\" for 24 October). But the pinned sentence overstates the timing: the market opened roughly level, and the 11% loss (to about 272) built up over the first hours of the morning, before the bankers stepped in around midday. \"As trading opened\" reads as an instant gap down at the bell. The prediction prompt (\"plunge at the opening bell\") has the same wording but is outside this round.",
+   "fix": "Caption: \"On Black Thursday, 24 October, prices fell 11 percent soon after trading opened.\" Spoken: \"On Black Thursday, the twenty-fourth of October, prices fell 11 percent soon after trading opened.\"",
+   "resolved": "Now \"prices fell 11 percent soon after trading opened\"; the prediction prompt now says \"soon after trading opens\"."
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"They chose Richard Whitney, vice president of the Exchange, to act on their behalf.\" / \"With the bankers' financial resources behind him, Whitney placed a bid to purchase 25,000 shares of U.S. Steel at $205 per share, a price well above the current market.\"",
+   "note": "Supported. Spoken \"two hundred and five dollars a share for U S Steel\" equals \"$205 a share for US Steel\"; no added claim.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"July 8, 1932, when it closed at 41.22 ... concluding an 89.2% loss\" / \"did not return to its peak close of September 3, 1929, for 25 years, until November 23, 1954.\"",
+   "note": "Arithmetic checks: (381.17 - 41.22) / 381.17 = 89.19%, measured from the 3 September 1929 peak. Spoken years (nineteen thirty-two, nineteen twenty-nine, nineteen fifty-four) match the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"succeeded in halting the slide\" / \"the slide continued\" (28 Oct) / \"an 89.2% loss\" by 8 July 1932",
+   "note": "\"Briefly\" fits: the slide stopped on Thursday, the market held Friday and the Saturday half-session, and the fall resumed on Monday 28 October. The 89 percent figure is from the 1929 peak.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.black",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] the quote is verbatim and names both days.",
+   "note": "Now names both days, as the quote does. The weekday names it adds are right: 24 October 1929 was a Thursday and 29 October 1929 a Tuesday (calendar check).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons file page, wikitext] Author \"US-gov\"; Source \"From an SSA poster: http://www.ssa.gov/history/wallst.html (dead link)\"; Date \"taken on 1929-10-29\"; licence {{PD-USGov}}. Viewed the image: a high view down a street crowded with people, cars standing in the roadway, columned stone buildings on both sides.",
+   "note": "Alt matches the image. The credit is a source line, not an authorship claim, and it matches the file page: the only provenance Commons gives is a Social Security Administration history-site poster (the archived page shows only \"wallstposter.jpg\"), and no photographer is named anywhere. \"Archive\" is slightly loose for \"poster on the SSA history site\", but not a misattribution. Licence matches media.json. Side note: a 1929 crowd shot is more likely a press photo than a federal work (Iowa's State Historical Society credits a copy to the Library of Congress), so the PD-USGov tag is shaky; a 1929 publication is public domain in the US anyway.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/media.m5",
+   "verdict": "supported",
+   "evidence": "[Commons file page] author \"Work for hire of The New York Times\"; date 1929-10-30; {{PD-US-expired}}. Viewed the image: a collage on a tan ground with the masthead turned sideways (dated Wednesday, October 30, 1929), part of the front page under \"STOCKS COLLAPSE IN 16,410,030-SHARE DAY, BUT RALLY AT CLOSE CHEERS BROKERS; BANKERS OPTIMISTIC, TO CONTINUE AID\", and a trading-volume table labelled \"p. 31\".",
+   "note": "Alt, credit and licence all match. The alt quotes the first two lines of the three-line banner, which is fine as a description.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] \"lined up as if they were marching in a parade\" / \"a linear presentation ... all in the direct line of human ancestors, would not be a correct interpretation\"",
+   "note": "Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] \"created for the Early Man volume of the Life Nature Library, published in 1965, and drawn by the artist Rudolph Zallinger\" / \"The 15 human evolutionary forebears are lined up as if they were marching in a parade\"",
+   "note": "\"as if each became the next\" describes the look that the source itself says is misleading (\"Contrary to appearances\"). Spoken \"nineteen sixty-five\" matches 1965.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] \"the anthropologist and author of the section, F. Clark Howell, remarked\" / \"The artist didn't intend to reduce the evolution of man to a linear sequence, but it was read that way by viewers. The graphic overwhelmed the text.\"",
+   "note": "Supported. \"Its author\" follows from frame 3 (\"the book's own text\") and means Howell, who wrote the section (Early Man is credited to Howell and the Life editors). The frame plays over the Donatiello parody, so naming him would remove any chance a viewer takes \"its author\" to be the picture's maker. Optional.",
+   "fix": "Optional: \"The artist never meant a single line, the book's author, F. Clark Howell, said. The picture overpowered the words.\""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] \"Thomas Henry Huxley added a frontispiece to his 1863 book ... comparing the skeletons of apes and humans, but historian Jennifer Tucker argues that its left-to-right progressionist sequence unintentionally became \\\"an iconic and instantly recognizable visual shorthand for evolution\\\".\"",
+   "note": "Supported, attributed as an argument. Spoken \"eighteen sixty-three\" matches 1863.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] \"It has also been criticized as \\\"unintentionally and wrongly\\\" implying that \\\"evolution is progressive\\\".\"",
+   "note": "Now aimed at \"the march\", the image actually criticised. (The pinned text has a double space after \"criticized as\"; the quote matches word for word.)",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] fourth figure (Oreopithecus) \"a likely side branch on man's family tree\"; seventh (Paranthropus) \"an evolutionary dead end\"; \"The artist didn't intend to reduce the evolution of man to a linear sequence\"",
+   "note": "\"likely\" is restored. Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.howell",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] quote is verbatim and begins \"With regard to the way the illustration has been interpreted\"",
+   "note": "The quote now includes the words that support \"commented on how it was read\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/media.m5",
+   "verdict": "supported",
+   "evidence": "[Commons file page] licence {{cc-by-4.0}}, credit line {{Wellcome Images}}, category \"Benjamin Waterhouse Hawkins\". Viewed the image: five skeletons labelled GIBBON, ORANG, CHIMPANZEE, GORILLA, MAN, printed caption below: \"Photographically reduced from Diagrams of the natural size ... drawn by Mr. Waterhouse Hawkins from specimens in the Museum of the Royal College of Surgeons.\"",
+   "note": "Alt is accurate, and the plate is an engraving (signed \"W. H. WESLEY. Sc.\" at lower right). The credit is right: the plate itself names Hawkins as the draughtsman, it is the frontispiece of Huxley's 1863 book, and Wellcome Collection is the CC BY licensor. \"cropped\" is the CC BY change notice the pipeline requires because this frame fills the screen without fit \"contain\" (assemble.mjs, validate.ts). Optional completeness: the engraver W. H. Wesley is not named.",
+   "fix": "Optional: \"Benjamin Waterhouse Hawkins (drawing) and W. H. Wesley (engraving) for T. H. Huxley, 1863 · Wellcome Collection, cropped\""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: Annotated_Moons_of_Uranus.png] \"An updated near infrared (NIR) image of Uranus (September 4, 2023) from the James Webb Telescope\" / [Wikipedia: Umbriel] \"It was discovered on October 24, 1851, by William Lassell at the same time as neighboring moon Ariel.\"",
+   "note": "Supported. Spoken \"twenty twenty-three\" and \"the twenty-fourth of October, eighteen fifty-one\" match the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Moons of Uranus] \"William Herschel discovered the first two moons, Titania and Oberon, in 1787.\" / [Wikipedia: Umbriel] \"claimed at the end of the 18th century that he had observed four additional moons\"",
+   "note": "Supported. Spoken \"seventeen eighty-seven\" matches 1787.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: 016_Ocelot_in_Encontro_das_Águas...] \"Ocelot in Parque Estadual Encontro das Águas, Brazil\"",
+   "note": "Supported. The spoken respelling \"Encontro dahs Ah-gwahs\" is a fair guide to Portuguese \"das Águas\" and changes nothing in the claim.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ocelot] \"weighs between 7 and 15.5 kg (15 and 34 lb) on average\"",
+   "note": "\"usually\" is a fair reading of \"on average\". Spoken \"seven and fifteen and a half kilograms\" matches 7 to 15.5.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f6",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Ocelot] \"the Nahuatl word ōcēlōtl (pronounced [oːˈseːloːt͡ɬ]), which generally refers to the jaguar\" / \"Another possible origin for the name is the Latin ocellatus\"",
+   "note": "The caption is supported and properly hedged (\"may come from\"). The spoken line is not quite the caption's word: \"oh-say-loht\" drops the final \"tl\" sound (t͡ɬ) that the pinned source's own transcription shows, so the voice says a different, shorter word than the caption prints. Without a stress mark the voice may also stress the first syllable, where the source stresses the second (ˈseː).",
+   "fix": "Spoken: \"Its name may come from oh-SAY-lohtl, a Nah-wah-tul word that generally meant the jaguar.\" (or \"oh-say-loht-l\"; keep the final tl)",
+   "resolved": "Spoken line now \"oh-SAY-lohtl, a Nah-wah-tul word\"."
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] \"It was previously considered extinct.\"",
+   "note": "Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] \"Prior to the 1902 eruption, there were no historical records of activity on the volcano.\" / \"It was previously considered extinct.\"",
+   "note": "Supported. Spoken \"nineteen oh-two\" matches 1902.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] \"At 18:15, ash particles were reported in Finca Helvetia\" / \"By 20:00, the volcano produced a large eruption column accompanied by lightning flashes.\" / \"The captain of the S.S. Newport used her sextant to estimate the height of the eruption column at 27–29 km\"",
+   "note": "\"later\" now keeps the sextant estimate apart from the evening of 24 October; the source gives no time for it and puts it after the climax (25 October). Spoken \"the twenty-fourth of October\" and \"twenty-seven to twenty-nine kilometres\" match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] \"President Manuel Estrada Cabrera attempted to downplay the impact of the eruption. As the eruption occurred just before Fiestas Minervalias, a propaganda fair, commenced, the 26 October issue of Diario de Centro América heavily focused on the fair instead. No issues were published on 27 and 28 October due to the festival, and the first report about the eruption was published on 3 November.\" Outside: Prensa Libre (\"Aniversario del decano de la prensa escrita\") says the paper was acquired by Estrada Cabrera's government in 1901 and became its official organ.",
+   "note": "\"The official paper's first report\" now matches the source's scope (Diario de Centro América's first report, not the first report anywhere). The word \"official\" is not in the pinned text, but it is true for October 1902 (government-owned since 1901, per Prensa Libre). Pin that if every word must rest on a pinned source. Spoken \"the third of November\" matches.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] \"no historical records of activity\" / \"lasted no more than 20 hours\" / \"continued for 18 to 20 hours\" / \"one of the largest eruptions of the 20th century\"",
+   "note": "\"some 20 hours\" sits within the source's 18 to 20 hours.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.ash",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] \"On 24 October ... As the evening progressed ... At 18:15, ash particles were reported in Finca Helvetia, about 14 km (8.7 mi) west of the volcano. By 20:00 ...\"",
+   "note": "\"about\" is restored. The context dates the 18:15 report to the evening of 24 October, before the 20:00 column, so \"already\" and \"that evening\" hold.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.report",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: 1902 eruption of Santa María] the quote is verbatim; the sentence just before it names \"the 26 October issue of Diario de Centro América\"",
+   "note": "Now scoped to Diario de Centro America, as the source is. The quote does not name the paper, but the sentence before it does.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/media.m3",
+   "verdict": "supported",
+   "evidence": "[Commons file page] author \"Aufnahme von Winterton\" (German: \"photograph by Winterton\"); date \"1903 (photo), 1904 (this publication)\"; licence {{PD-old-75-1923}}. Viewed the image: a steep crater with a large white vapour cloud rising from its floor, bare gullied slopes and a distant mountain, the German caption printed below ending \"Aufnahme von WINTERTON.\"",
+   "note": "Credit \"Winterton, 1903\" correctly renders the author field and the photo date. Licence matches media.json. Alt fits the picture: \"filled with\" slightly overstates a cloud that takes up the lower middle of the crater, and \"steam\" is an inference (the same plume the description leaves unnamed), but neither is misleading.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Carl Correns] \"if green pollen fertilized a white stigma, the progeny were white ... (white pollen on a green stigma), the progeny were green\" / \"the chloroplasts come exclusively from the mother in most angiosperms\"",
+   "note": "Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Carl Correns] \"He rediscovered and independently verified the work of Mendel\" / \"Correns published his first paper on 25 January 1900\"",
+   "note": "Supported; his Mendel paper is from 1900 (Ber. Dtsch. Bot. Ges. 18) whichever 1900 paper the source means. Spoken \"nineteen hundred\" matches 1900.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Carl Correns] \"In his 1909 paper, he established variegated leaf color as the first conclusive example of cytoplasmic inheritance.\" / \"demonstrated the existence of extrachromosomal factors\"",
+   "note": "Supported. Spoken \"nineteen oh-nine\" matches 1909.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Carl Correns] reciprocal crosses (green pollen on white gave white; white on green gave green); \"leaf color depended greatly on which parent had which trait\"",
+   "note": "\"can come from the mother alone\" is properly limited.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.paper",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Carl Correns] Section \"Rediscovery of Mendel\": \"In 1892, while at the University of Tübingen, Correns began to experiment with trait inheritance in plants. Correns published his first paper on 25 January 1900, which cited both Charles Darwin and Mendel\"",
+   "note": "In context the source's \"first paper\" is his first paper from the heredity experiments begun in 1892 (he had published botany before 1900), so \"first paper on heredity\" is the right reading, not an addition.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/place",
+   "verdict": "supported",
+   "evidence": "src/core/places.ts and scripts/reels/placeTable.mjs: knowledge.science.biology.genetics-genomes (\"Genetics & Genomes\", mapped to genetics, gene, DNA, genome) has one child, Dominance.",
+   "note": "The reel is about maternal, cytoplasmic inheritance, which belongs under Genetics & Genomes, not under Dominance (it never touches dominant or recessive). packId \"\" matches a node with no expedition, and validation.json reports no errors. The reel's internal story and subject ids still read \"genetics-dominance:7\", which records where the story was drafted from and does not change the tag.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Heritability] \"it is incorrect to say that since the heritability of personality traits is about 0.6, that means that 60% of your personality is inherited\"",
+   "note": "Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Heritability] \"Heritability is a statistic ... that estimates the degree of variation in a phenotypic trait in a population\" / \"the heritability of personality traits is about 0.6\" / \"It is the source of much confusion\"",
+   "note": "\"has been put as high as 0.6\" hedges the source's example figure without stating it as the typical value (round 1 found meta-analyses near 0.40 to 0.47, which keeps 0.6 at the top of the range). Spoken \"zero point six\" and \"sixty percent\" match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Heritability] \"Heritability measures the fraction of phenotype variability that can be attributed to genetic variation.\"",
+   "note": "Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Heritability] \"Heritability measures the fraction of phenotype variability that can be attributed to genetic variation. This is not the same as saying that this fraction of an individual phenotype is caused by genetics.\"",
+   "note": "The prompt now says \"Suppose\". The key is right. \"60% of your personality comes from your genes\" is the reading the source calls incorrect. \"60 in 100 people inherit their parents' personality\" is clearly wrong. No wrong choice can be argued right.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Heritability] \"This is not the same as saying that this fraction of an individual phenotype is caused by genetics.\"",
+   "note": "Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.personality",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Heritability] quote is verbatim",
+   "note": "The claim now keeps 0.6 as the example's premise (\"Even if\").",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons file page] Author Thomas Hunt Morgan; Date 1916; source Gutenberg no. 30701; description ends \"(After Blakeslee.)\"; {{PD-Gutenberg}}. Morgan's text (Gutenberg 30701) credits Fig. 75, \"Students arranged according to size\", and Figs. 76 and 77 to Blakeslee, i.e. A. F. Blakeslee's 1914 \"Corn and Men\" (Journal of Heredity 5: 511–518). Viewed the image: two young men by a pole numbered 1 to 9; the shorter beside a short \"Tom Thumb Pop Corn\" plant with his hand on it, the taller holding a \"Leaming Corn\" stalk that rises above the pole.",
+   "note": "Credit is now correct: Blakeslee's photograph, reproduced in Morgan's 1916 book. Alt matches (the shorter man rests his hand on a planted stalk, which \"holds\" covers). Licence matches media.json.",
+   "fix": ""
+  }
+ ]
+}

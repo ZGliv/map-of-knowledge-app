@@ -1,0 +1,111 @@
+{
+ "title": "Where Is All the Mass?",
+ "question": "What is the Solar System made of, and how is it laid out?",
+ "hook": "Almost everything in our corner of space is one object, and the rest sorts into neat neighbourhoods.",
+ "idea": "The Sun holds nearly all the mass, and the planets and smaller bodies fall into groups by type and distance from it.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Put the star at the centre on one side of a scale and every planet, moon and asteroid on the other. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The planets and moons win, since there are so many of them",
+     "feedback": "Eight planets and many moons sound like a lot, but together they are tiny beside the central star."
+    },
+    {
+     "id": "b",
+     "label": "The two sides balance almost evenly",
+     "feedback": "It looks fair to compare one object with a crowd, but the single object is far heavier than the whole crowd."
+    },
+    {
+     "id": "c",
+     "label": "The Sun's side wins by a huge margin"
+    }
+   ],
+   "answer": "c",
+   "explain": "The Sun accounts for 99.86% of the Solar System's total mass; the planets are the next most massive objects.",
+   "cites": [
+    4,
+    7
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each planet into its part of the Solar System.",
+   "groups": [
+    "Inner Solar System",
+    "Outer Solar System"
+   ],
+   "items": [
+    [
+     "Mercury",
+     "Inner Solar System"
+    ],
+    [
+     "Venus",
+     "Inner Solar System"
+    ],
+    [
+     "Saturn",
+     "Outer Solar System"
+    ],
+    [
+     "Neptune",
+     "Outer Solar System"
+    ]
+   ],
+   "explain": "Mercury, Venus, Earth and Mars are the terrestrial planets of the inner Solar System; Jupiter, Saturn, Uranus and Neptune lie beyond the frost line.",
+   "cites": [
+    8,
+    9,
+    11
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each region or boundary to what defines it.",
+   "pairs": [
+    [
+     "Asteroid belt",
+     "Between Mars's and Jupiter's orbit"
+    ],
+    [
+     "Kuiper belt",
+     "Just outside Neptune"
+    ],
+    [
+     "Heliopause",
+     "Where the solar wind is halted"
+    ],
+    [
+     "Oort cloud",
+     "Source of long-period comets"
+    ]
+   ],
+   "explain": "Each of these is a place or boundary in the Solar System, described by where it sits or what it does.",
+   "cites": [
+    17,
+    22,
+    23
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "The Sun holds 99.86% of the system's mass.",
+    "The eight planets are the next most massive objects.",
+    "Jupiter and Saturn hold nearly 90% of the mass that is not the Sun's.",
+    "So Earth must hold the second largest share after the Sun."
+   ],
+   "wrong": 3,
+   "explain": "If Jupiter and Saturn together hold nearly 90% of the non-stellar mass, Earth's share is far smaller, so it cannot be second.",
+   "cites": [
+    4,
+    7,
+    12
+   ]
+  }
+ ]
+}

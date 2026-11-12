@@ -1,0 +1,93 @@
+{
+ "title": "Same atoms, different shapes",
+ "question": "How can two molecules built from the same atoms in the same sequence still differ?",
+ "hook": "A drug can be hurt or helped by nothing more than which way its atoms point in space.",
+ "idea": "Stereoisomers share a formula and bonded sequence but differ in how atoms sit in space, and that difference can matter in medicine.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A drug comes as two enantiomers, but a patient is given only one of them. What does the body do?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It produces the other enantiomer too"
+    },
+    {
+     "id": "b",
+     "label": "It keeps only the form that was given",
+     "feedback": "It sounds tidy, but in the body thalidomide undergoes racemization, so the other form appears anyway."
+    },
+    {
+     "id": "c",
+     "label": "It destroys the form that was given",
+     "feedback": "Nothing in the facts suggests the given form vanishes; the other form is made instead."
+    }
+   ],
+   "answer": "a",
+   "explain": "Thalidomide undergoes racemization, so even a single administered enantiomer leads to the other being produced by metabolism.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each way of drawing a bond to what it shows",
+   "pairs": [
+    [
+     "Solid wedge",
+     "Bond projecting toward the viewer"
+    ],
+    [
+     "Dashed bond",
+     "Bond receding away from the viewer"
+    ],
+    [
+     "Plain line",
+     "Bond in the plane of the molecule"
+    ]
+   ],
+   "explain": "These simplified conventions show 3D positions of atoms around a stereocenter.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "put these milestones in order",
+   "items": [
+    "Biot observes optical activity",
+    "Pasteur studies tartaric acid salts",
+    "Van 't Hoff and Le Bel explain optical activity",
+    "Lord Kelvin introduces the term chiral"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "The dates are 1815, 1842, 1874 and 1904.",
+   "cites": [
+    28,
+    30,
+    32,
+    34
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Ibuprofen can exist as (R)- and (S)-isomers.",
+    "Only (S)-ibuprofen is active in reducing inflammation and pain.",
+    "So the (R) and (S) forms must act the same way in the body.",
+    "So a drug's spatial arrangement can matter for how it works."
+   ],
+   "wrong": 2,
+   "explain": "Only the (S) form is active, so the two isomers do not act the same way.",
+   "cites": [
+    12,
+    22,
+    23
+   ]
+  }
+ ]
+}

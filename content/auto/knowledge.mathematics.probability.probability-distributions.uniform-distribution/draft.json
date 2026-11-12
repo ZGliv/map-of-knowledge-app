@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "A discrete uniform distribution has a known, finite number of outcomes that are all equally likely to happen.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "With n outcomes, each one has probability 1/n, so a fair six-sided die gives every face a chance of 1/6.",
+   "cites": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Not everything built from dice is uniform: adding the values of two thrown dice gives sums that are not equally likely.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Chance of each outcome",
+   "value": "1/n when there are n outcomes",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Classic example",
+   "value": "Throwing a fair six-sided die",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Not just numbers",
+   "value": "Works over any finite set, even symbols on die faces",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "label": "Two-dice sums",
+   "value": "Not uniform, since sums differ in probability",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A raffle has 20 tickets and each is equally likely to be drawn. What is the chance that one particular ticket wins?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1/10"
+    },
+    {
+     "id": "b",
+     "label": "1/20"
+    },
+    {
+     "id": "c",
+     "label": "1/2"
+    },
+    {
+     "id": "d",
+     "label": "20"
+    }
+   ],
+   "answer": "b",
+   "explain": "With n equally likely outcomes, each has probability 1/n, so one of 20 tickets has 1/20.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "You roll two fair dice and add the spots. Is each possible total equally likely?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because each die is fair, every total shares the same chance"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because there are only a few totals to land on"
+    },
+    {
+     "id": "c",
+     "label": "No, the totals do not all have the same probability"
+    },
+    {
+     "id": "d",
+     "label": "No, because one die always affects the total more"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each die alone is uniform, but the sums of two dice would not have equal probability, so the distribution of totals is not uniform.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "prompt": "A game uses a fair die with six different animal pictures instead of numbers. How likely is each picture on a throw?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It depends on how common the animal is"
+    },
+    {
+     "id": "b",
+     "label": "Pictures cannot be uniform since they are not numbers"
+    },
+    {
+     "id": "c",
+     "label": "Each has chance 1 out of 2"
+    },
+    {
+     "id": "d",
+     "label": "Each has chance 1/6, just like numbered faces"
+    }
+   ],
+   "answer": "d",
+   "explain": "A uniform distribution can be defined over any finite set, and six equally likely faces each have probability 1/6.",
+   "cites": [
+    2,
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "A friend says a setup is a discrete uniform distribution. What must be true of its outcomes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There is a known, finite number of them, all equally likely"
+    },
+    {
+     "id": "b",
+     "label": "There are infinitely many, all equally likely"
+    },
+    {
+     "id": "c",
+     "label": "There are a few, with the first one most likely"
+    },
+    {
+     "id": "d",
+     "label": "There are a finite number, and they pair up symmetrically"
+    }
+   ],
+   "answer": "a",
+   "explain": "The idea is a known, finite number of outcomes that are all equally likely.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "prompt": "A fair 6-sided die is swapped for a fair 12-sided die. What happens to the chance of landing on any one particular face?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It doubles"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same"
+    },
+    {
+     "id": "c",
+     "label": "It halves, from 1/6 to 1/12"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each face has probability 1/n for n equally likely faces, so going from 6 faces to 12 halves the chance.",
+   "cites": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "A teacher says a uniform draw must use consecutive whole numbers like 1 through 6. Is she right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, any finite set of outcomes can be used"
+    },
+    {
+     "id": "b",
+     "label": "Yes, only whole numbers in a row can be equally likely"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if there are exactly six"
+    },
+    {
+     "id": "d",
+     "label": "No, but it must at least use numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Consecutive integers are common, but discrete uniform distributions can be defined over any finite set, even abstract symbols.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ]
+}

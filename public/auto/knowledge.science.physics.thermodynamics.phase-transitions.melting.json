@@ -1,0 +1,333 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.phase-transitions.melting",
+ "name": "Melting",
+ "summary": [
+  {
+   "text": "Melting, also called fusion, is the phase transition in which a substance changes from a solid to a liquid.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It happens when the solid's internal energy rises, usually from heat or pressure, until the ordered arrangement of its ions or molecules breaks down at the melting point.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Melting is a first-order transition: free energy does not change at the melting point, but enthalpy and entropy do, which is where latent heat comes from.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Fusion",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Order of transition",
+   "value": "A first-order phase transition",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Supercooling record",
+   "value": "Fine water droplets cooled to -38 °C without freezing",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Odd viscosity",
+   "value": "Molten sulfur gets thicker between 130 and 190 °C",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Pre-melting",
+   "value": "Thin liquid-like films form on crystal surfaces below the melting point",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A crystal is warmed until it reaches its melting point. What happens to its internal arrangement there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The atoms stop vibrating and lock in place"
+    },
+    {
+     "id": "b",
+     "label": "The ordered pattern breaks down to a looser state"
+    },
+    {
+     "id": "c",
+     "label": "The atoms pack into an even tighter pattern"
+    },
+    {
+     "id": "d",
+     "label": "The atoms split apart into separate particles"
+    }
+   ],
+   "answer": "b",
+   "explain": "At the melting point the ordering of ions or molecules breaks down to a less ordered state.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.melting:q1"
+  },
+  {
+   "prompt": "Water sits on a very clean glass surface several degrees below freezing and has not frozen. Why can it stay that way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No disturbance sets off the change in the still water"
+    },
+    {
+     "id": "b",
+     "label": "Glass permanently lowers the temperature water freezes at"
+    },
+    {
+     "id": "c",
+     "label": "Glass quietly warms the water back to its freezing point"
+    },
+    {
+     "id": "d",
+     "label": "Cold water is simply more stable as a liquid"
+    }
+   ],
+   "answer": "a",
+   "explain": "Freezing needs a trigger from fluctuations or disturbances; if the material is kept still, supercooling can persist.",
+   "cites": [
+    26,
+    28,
+    29
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.melting:q2"
+  },
+  {
+   "prompt": "Two labs melt the same solid, one at sea level and one at much higher pressure. What should they expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The same temperature, since melting depends only on the material"
+    },
+    {
+     "id": "b",
+     "label": "The same temperature, since only boiling responds to pressure"
+    },
+    {
+     "id": "c",
+     "label": "Possibly different melting temperatures, set partly by pressure"
+    },
+    {
+     "id": "d",
+     "label": "Different results only if heating speeds differ"
+    }
+   ],
+   "answer": "c",
+   "explain": "The temperature at which melting occurs depends on the ambient pressure.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.melting:q3"
+  },
+  {
+   "prompt": "By the Lindemann idea, what pushes a crystal over the edge into melting as it heats up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its atoms run out of room to vibrate at all"
+    },
+    {
+     "id": "b",
+     "label": "Its bonds suddenly become much stronger"
+    },
+    {
+     "id": "c",
+     "label": "Its atoms start to bunch closer together"
+    },
+    {
+     "id": "d",
+     "label": "Its atoms' vibrations grow large next to their spacing"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Lindemann criterion says melting is a vibrational instability when thermal vibration amplitude is large relative to the distances between atoms.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.melting:q4"
+  },
+  {
+   "prompt": "Why is melting counted as a first-order transition?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Free energy stays put, yet enthalpy and entropy change"
+    },
+    {
+     "id": "b",
+     "label": "It is the first change any solid goes through"
+    },
+    {
+     "id": "c",
+     "label": "Enthalpy stays put, yet free energy changes sharply"
+    },
+    {
+     "id": "d",
+     "label": "It only occurs at exactly one atmosphere"
+    }
+   ],
+   "answer": "a",
+   "explain": "At the melting point the free energy change is zero but enthalpy and entropy change, giving latent heat, which makes it first-order.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.melting:q5"
+  },
+  {
+   "prompt": "Helium-3 below 0.3 K is a rare exception to how melting usually works. What is needed to melt it at a suitable constant pressure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A great deal more energy than usual"
+    },
+    {
+     "id": "b",
+     "label": "Its pressure dropped to nearly zero"
+    },
+    {
+     "id": "c",
+     "label": "It must first be turned into a gas"
+    },
+    {
+     "id": "d",
+     "label": "Energy must be withdrawn from it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Helium-3 has a negative enthalpy of fusion at those temperatures, so heat must be removed to melt it.",
+   "cites": [
+    12,
+    14
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.melting:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Melting_icecubes.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Melting",
+  "credit": "Moussa",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Melting_icecubes.gif"
+ },
+ "source": {
+  "title": "Melting",
+  "url": "https://en.wikipedia.org/wiki/Melting",
+  "revision": 1378391931
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "From solid to liquid",
+    "text": "Melting, also known as fusion, is the change of a substance from a solid into a liquid. It happens when the energy stored inside the solid goes up, most often because heat or pressure is applied, and this lifts its temperature to the melting point. At that temperature, the neat arrangement of ions or molecules in the solid gives way to a looser, less ordered state, and the solid turns into a liquid.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "What changes at the melting point",
+    "text": "In thermodynamics, melting is described using a quantity called Gibbs free energy. A solid melts once the liquid form of the material has a lower Gibbs free energy than the solid form. At the melting point itself, the change in Gibbs free energy is zero, yet the enthalpy (H) and the entropy (S) both change. These changes are named the enthalpy of fusion, also called the latent heat of fusion, and the entropy of fusion. That is why melting is classed as a first-order phase transition, and the temperature where it happens depends on the surrounding pressure.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Helium melts the other way",
+    "text": "Usually a solid melts when heat is added to it. Helium at very low temperatures is the only known exception. Helium-3 has a negative enthalpy of fusion below 0.3 K, and helium-4 has a very slightly negative one below 0.8 K. In practice, at suitable constant pressures, heat has to be taken away from these substances to make them melt.",
+    "cites": [
+     2,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Why crystals give way",
+    "text": "Two theoretical criteria are used most often to analyse when melting happens: the Lindemann criterion and the Born criterion. The Lindemann criterion blames vibrational instability, so a crystal melts once its atoms shake with an average amplitude that is large next to the distances between them. Experimental data back this idea for crystals and also for the glass-liquid transition in amorphous materials. The Born criterion looks at rigidity instead. When the elastic shear modulus vanishes, the crystal can no longer stand up to a mechanical load, and it becomes a liquid.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Colder than freezing, still liquid",
+    "text": "Under a standard set of conditions, each substance has its own characteristic melting point, which is often the same as its freezing point. With careful preparation, though, a substance can be supercooled or superheated past that point. Water on a very clean glass surface often stays liquid several degrees below its freezing point, and fine emulsions of pure water have been taken to −38 °C without ice forming. The change starts with nucleation, which comes from fluctuations in the material's properties, and a material kept still may have nothing, such as a vibration, to set it off. In thermodynamic terms, a supercooled liquid is in a metastable state compared with the crystal, and it tends to crystallize all at once.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Melting before the melting point",
+    "text": "Even below the melting point, liquid-like films, called quasi-liquid films, can be seen on the surfaces of crystals. How thick they are depends on the temperature, and the effect is common to all crystalline materials. This pre-melting shows up in frost heave and in the growth of snowflakes. Once the boundaries between crystal grains are taken into account, it may even play a part in how glaciers move.",
+    "cites": [
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Melting without heating the atoms",
+    "text": "In the physics of ultrashort laser pulses, a material can undergo what is called nonthermal melting. Here the cause is not faster-moving atoms but a change in the interatomic potential brought on by exciting the electrons. Electrons behave like a glue that holds atoms together. Heating the electrons with a femtosecond laser alters that glue, which can break the bonds between atoms and melt the material even though the atoms themselves have not got hotter.",
+    "cites": [
+     37,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "latent-heat",
+   "kind": "book",
+   "title": "14.3 Phase Change and Latent Heat - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+   "note": "A free physics textbook section on melting at constant temperature and the latent heat of fusion, with a worked example.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

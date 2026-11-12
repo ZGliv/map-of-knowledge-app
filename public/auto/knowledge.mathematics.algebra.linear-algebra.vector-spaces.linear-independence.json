@@ -1,0 +1,319 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence",
+ "name": "Linear independence",
+ "summary": [
+  {
+   "text": "A group of vectors is linearly independent when none of them equals a linear combination of the others.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equivalently, the only way to combine them into the zero vector 𝟎 is aᵢ = 0 for every coefficient.",
+   "cites": [
+    10,
+    12
+   ]
+  },
+  {
+   "text": "Independence is part of the definition of a basis and is central to finding the dimension of a vector space.",
+   "cites": [
+    3,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dependence test",
+   "value": "One vector is zero or a combination of the others",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Single vector",
+   "value": "Dependent only if it is the zero vector",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Repeated vector",
+   "value": "Listing the same vector twice makes a sequence dependent",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Order",
+   "value": "Dependence does not depend on the order of the terms",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Locations",
+   "value": "n independent vectors are needed for n-dimensional space",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A hiker is told: 3 miles north, 4 miles east, and also 5 miles northeast. How do these three directions relate as a group of vectors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Independent, since they point different ways"
+    },
+    {
+     "id": "b",
+     "label": "Independent, since each has a different length"
+    },
+    {
+     "id": "c",
+     "label": "Dependent, since one is a combination of the others"
+    },
+    {
+     "id": "d",
+     "label": "Dependent, since two of them are perpendicular"
+    }
+   ],
+   "answer": "c",
+   "explain": "The northeast vector is a linear combination of the other two, so one of the three is unnecessary.",
+   "cites": [
+    33,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence:q1"
+  },
+  {
+   "prompt": "A list of arrows includes one arrow of length zero. Could the whole list be linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, a zero vector forces the list to be dependent"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the other arrows are independent"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if the list is long enough"
+    },
+    {
+     "id": "d",
+     "label": "No, but only when the list has two arrows"
+    }
+   ],
+   "answer": "a",
+   "explain": "A collection containing the zero vector is necessarily linearly dependent.",
+   "cites": [
+    38,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence:q2"
+  },
+  {
+   "prompt": "You have a linearly independent list of arrows and you shuffle the order of the list. What happens to its independence?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is lost whenever the first arrow moves"
+    },
+    {
+     "id": "b",
+     "label": "It is lost for lists longer than two"
+    },
+    {
+     "id": "c",
+     "label": "It depends on which arrow ends up last"
+    },
+    {
+     "id": "d",
+     "label": "It is unchanged by the reordering"
+    }
+   ],
+   "answer": "d",
+   "explain": "Linear dependence of a sequence does not depend on the order of its terms.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence:q3"
+  },
+  {
+   "prompt": "Two arrows point the same way, and one is twice as long as the other. Are they linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because their lengths are different"
+    },
+    {
+     "id": "b",
+     "label": "No, because they are parallel"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because there are only two"
+    },
+    {
+     "id": "d",
+     "label": "No, because both are nonzero"
+    }
+   ],
+   "answer": "b",
+   "explain": "Parallel vectors are dependent: one can be written as a multiple of the other.",
+   "cites": [
+    1,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence:q4"
+  },
+  {
+   "prompt": "Three arrows from one corner of a room all lie flat on the floor. Are they linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since three arrows fill a room"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since none of them is zero"
+    },
+    {
+     "id": "c",
+     "label": "No, since they all lie in one plane"
+    },
+    {
+     "id": "d",
+     "label": "No, since they start at the same point"
+    }
+   ],
+   "answer": "c",
+   "explain": "Three vectors in the same plane are dependent; independent ones in 3D must not share a common plane.",
+   "cites": [
+    26,
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence:q5"
+  },
+  {
+   "prompt": "On a flat map, two independent directions locate any place. What is needed if altitude also matters?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A third independent vector"
+    },
+    {
+     "id": "b",
+     "label": "A longer second vector"
+    },
+    {
+     "id": "c",
+     "label": "A repeat of the first vector"
+    },
+    {
+     "id": "d",
+     "label": "Nothing more, since two always suffice"
+    }
+   ],
+   "answer": "a",
+   "explain": "If altitude is not ignored, a third vector must be added to the independent set; n independent vectors describe n-dimensional space.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Vec-indep.png/960px-Vec-indep.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Linear independence",
+  "credit": "Schnelliboy",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vec-indep.png"
+ },
+ "source": {
+  "title": "Linear independence",
+  "url": "https://en.wikipedia.org/wiki/Linear_independence",
+  "revision": 1380995624
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it means",
+    "text": "A set of vectors is linearly independent when none of them equals a linear combination of the others, that is, none can be made by scaling the rest and adding them up. If one of them can be made that way, the set is called linearly dependent. Independence is part of what defines a basis of a vector space.",
+    "cites": [
+     1,
+     2,
+     3,
+     6
+    ]
+   },
+   {
+    "heading": "The zero test",
+    "text": "There is a tidy way to check. Look for scalars a₁, a₂, …, aₖ, not all zero, that make a₁𝐯₁ + a₂𝐯₂ + ⋯ + aₖ𝐯ₖ equal 𝟎, the zero vector. If such scalars exist, the vectors are dependent. If the only way to reach 𝟎 is to set every scalar to zero, they are independent.",
+    "cites": [
+     6,
+     10,
+     12
+    ]
+   },
+   {
+    "heading": "Cases you can spot at once",
+    "text": "Some lists can be judged at a glance. A list that contains the same vector twice is always dependent. So is any list that includes the zero vector, which means the zero vector never belongs to an independent collection. A single vector on its own is independent exactly when it is not the zero vector.",
+    "cites": [
+     14,
+     38,
+     40,
+     42
+    ]
+   },
+   {
+    "heading": "Giving directions",
+    "text": "Suppose someone tells you a place lies 3 miles to the north and 4 miles to the east. That is enough to find it, if you treat the map as a two-dimensional vector space and ignore altitude and the curve of the Earth. The north vector and the east vector are independent, because neither can be described using the other. Adding that the place is 5 miles northeast is true but unneeded: that vector is a combination of the other two, so the three together are dependent.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Independence and dimension",
+    "text": "If altitude matters too, a third independent vector has to be added. In general, describing every location in n-dimensional space takes n linearly independent vectors. Independence is also central to working out the dimension of a vector space. Whether that dimension is finite or infinite depends on the largest number of independent vectors the space holds.",
+    "cites": [
+     4,
+     5,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Infinite sets and bases",
+    "text": "For an infinite set of vectors, independence means that every finite subset of it is independent. A set that is linearly independent and also spans some vector space forms a basis for that space.",
+    "cites": [
+     19,
+     24
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-linear-independence",
+   "kind": "book",
+   "title": "Linear Algebra/Definition and Examples of Linear Independence",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Definition_and_Examples_of_Linear_Independence",
+   "note": "A free textbook section defining linear independence, with worked examples.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

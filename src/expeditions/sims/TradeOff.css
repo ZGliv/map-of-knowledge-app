@@ -1,0 +1,49 @@
+/* Trade-off sim. Scoped under .expedition-shell like the rest of the player. */
+.expedition-shell .tradeoff { max-width: 780px; border: 1px solid var(--rule); border-radius: 4px; padding: 14px 16px 16px; background: radial-gradient(120% 90% at 50% 0%, var(--panel), var(--deep)); }
+.expedition-shell .tradeoff__top { display: grid; grid-template-columns: minmax(150px, 230px) 1fr; gap: 18px; align-items: center; margin-bottom: 8px; }
+.expedition-shell .tradeoff__place { display: grid; gap: 8px; align-content: center; }
+.expedition-shell .tradeoff__setting { margin: 0; font: 400 19px var(--serif); color: var(--bright); }
+.expedition-shell .tradeoff__status { margin: 0; font: italic 17px/1.4 var(--serif); color: var(--secondary); min-height: 2.8em; }
+.expedition-shell .tradeoff__status.is-best { color: var(--accent); }
+.expedition-shell .tradeoff__chart { display: block; width: 100%; max-width: 720px; margin: 0 auto; height: auto; overflow: visible; }
+.expedition-shell .tradeoff__place .segmented { justify-self: start; }
+.expedition-shell .tradeoff__axis { stroke: var(--border); stroke-width: 2; }
+.expedition-shell .tradeoff__curve { fill: none; stroke-linecap: round; stroke-linejoin: round; transition: d .5s ease; }
+.expedition-shell .tradeoff__curve.is-survival { stroke: var(--pale); stroke-width: 2.5; stroke-dasharray: 9 7; }
+.expedition-shell .tradeoff__curve.is-mating { stroke: var(--line); stroke-width: 2.5; stroke-dasharray: 2 6; }
+.expedition-shell .tradeoff__curve.is-offspring { stroke: var(--accent); stroke-width: 4.5; }
+.expedition-shell .tradeoff__area { fill: var(--accent); fill-opacity: .12; transition: d .5s ease; }
+.expedition-shell .tradeoff__label { fill: var(--secondary); font: 21px var(--sans); paint-order: stroke; stroke: var(--deep); stroke-width: 5px; stroke-linejoin: round; }
+.expedition-shell .tradeoff__tick { fill: var(--muted); font: 21px var(--sans); }
+.expedition-shell .tradeoff__cursor { stroke: var(--bright); stroke-width: 1.5; stroke-dasharray: 3 5; opacity: .6; }
+.expedition-shell .tradeoff__dot { fill: var(--accent); stroke: var(--shade); stroke-width: 3; }
+.expedition-shell .tradeoff__dot.is-minor { fill: var(--pale); }
+.expedition-shell .tradeoff__peak line { stroke: var(--accent); stroke-width: 2; }
+.expedition-shell .tradeoff__peak text { fill: var(--accent); font: 600 21px var(--sans); paint-order: stroke; stroke: var(--deep); stroke-width: 5px; stroke-linejoin: round; }
+.expedition-shell .tradeoff__slider { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: center; margin: 10px 2px 4px; font-size: 14px; color: var(--secondary); }
+.expedition-shell .tradeoff__slider input { width: 100%; accent-color: var(--accent); min-height: 44px; }
+.expedition-shell .tradeoff__values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0 0; }
+.expedition-shell .tradeoff__values div { border-top: 2px solid var(--rule); padding-top: 6px; }
+.expedition-shell .tradeoff__values div.is-main { border-top-color: var(--accent); }
+.expedition-shell .tradeoff__values dt { font-size: 12.5px; color: var(--muted); }
+.expedition-shell .tradeoff__values dd { margin: 0; font: 24px var(--serif); color: var(--bright); font-variant-numeric: tabular-nums; }
+.expedition-shell .tradeoff__values dd small { font: 13px var(--sans); color: var(--muted); }
+
+.expedition-shell .guppy { display: block; width: 100%; height: auto; }
+.expedition-shell .guppy__body { fill: hsl(70 10% 58%); }
+.expedition-shell .guppy__tail { fill: hsl(70 10% 52%); }
+.expedition-shell .guppy__tailspot { fill: hsl(205 70% 55%); }
+.expedition-shell .guppy__fin { fill: none; stroke: hsl(70 10% 48%); stroke-width: 6; stroke-linecap: round; }
+.expedition-shell .guppy__eye { fill: var(--shade); stroke: hsl(60 20% 88%); stroke-width: 2; }
+.expedition-shell .guppy__spot { transition: r .25s ease; }
+.expedition-shell .guppy__spot.is-o { fill: hsl(24 92% 58%); }
+.expedition-shell .guppy__spot.is-k { fill: hsl(220 15% 10%); }
+.expedition-shell .guppy__spot.is-b { fill: hsl(200 80% 58%); }
+
+@media (max-width: 720px) {
+  .expedition-shell .tradeoff { padding: 10px 10px 14px; }
+  .expedition-shell .tradeoff__top { grid-template-columns: 120px 1fr; gap: 10px; }
+  .expedition-shell .tradeoff__status { font-size: 15.5px; }
+  .expedition-shell .tradeoff__label, .expedition-shell .tradeoff__tick, .expedition-shell .tradeoff__peak text { font-size: 26px; }
+  .expedition-shell .tradeoff__values dd { font-size: 20px; }
+}

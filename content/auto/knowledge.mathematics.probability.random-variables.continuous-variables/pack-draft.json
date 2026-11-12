@@ -1,0 +1,119 @@
+{
+ "title": "Between any two values",
+ "question": "What makes a variable continuous?",
+ "hook": "If you can always fit another possible value between two others, the usual counting tools stop working.",
+ "idea": "A continuous variable has possible values between any two of its values, which is why calculus and density functions suit it.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Pick any two values that a continuous variable can take, however close together. What must be true?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "There are possible values between them"
+    },
+    {
+     "id": "b",
+     "label": "There is a gap with no possible values between them",
+     "feedback": "That describes a discrete variable, which has a gap around each permitted value."
+    },
+    {
+     "id": "c",
+     "label": "Only one of the two can actually occur",
+     "feedback": "Nothing in the idea of continuity limits which values can occur."
+    }
+   ],
+   "answer": "a",
+   "explain": "A continuous variable has possible values between any two values.",
+   "cites": [
+    2,
+    6
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each situation to the tool that goes with it",
+   "pairs": [
+    [
+     "Distribution of a continuous variable",
+     "Probability density function"
+    ],
+    [
+     "Distribution of a discrete variable",
+     "Probability mass function"
+    ],
+    [
+     "Time treated as continuous",
+     "Differential equation"
+    ],
+    [
+     "Time treated as discrete",
+     "Difference equation"
+    ]
+   ],
+   "explain": "Each kind of variable, and each treatment of time, has its own matching description.",
+   "cites": [
+    9,
+    10,
+    19,
+    20
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each into its group",
+   "groups": [
+    "continuous",
+    "discrete"
+   ],
+   "items": [
+    [
+     "Any value in a range of the real numbers",
+     "continuous"
+    ],
+    [
+     "Time in continuous-time dynamics",
+     "continuous"
+    ],
+    [
+     "Only the integers 0 and 1",
+     "discrete"
+    ],
+    [
+     "Integer programming variables",
+     "discrete"
+    ],
+    [
+     "Time in discrete-time dynamics",
+     "discrete"
+    ]
+   ],
+   "explain": "Continuous variables fill a range with no gaps; discrete ones have separated permitted values such as integers.",
+   "cites": [
+    7,
+    10,
+    15,
+    18,
+    20
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A dial can be set to any value between 0 and 1.",
+    "Between any two settings there are other possible settings.",
+    "So the variable is continuous.",
+    "So its distribution is expressed with a probability mass function."
+   ],
+   "wrong": 3,
+   "explain": "Probability density functions express the distributions of continuous variables; mass functions are for discrete ones.",
+   "cites": [
+    6,
+    7,
+    9,
+    19
+   ]
+  }
+ ]
+}

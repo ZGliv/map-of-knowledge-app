@@ -1,0 +1,319 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis",
+ "name": "Survival analysis",
+ "summary": [
+  {
+   "text": "Survival analysis is a branch of statistics for analyzing the expected time until one event occurs, such as death in organisms or failure in mechanical systems.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It asks what proportion survive past a certain time, at what rate survivors fail, and how circumstances or characteristics raise or lower the chance of survival.",
+   "cites": [
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "text": "It copes with censoring, where a subject's exact survival time is unknown, and uses the survival function S(t), the probability of surviving longer than time t.",
+   "cites": [
+    15,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Reliability engineering, duration analysis, event history analysis",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Survival function",
+   "value": "S(t) is the probability of surviving longer than t",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Censoring",
+   "value": "Some information is known, but not the exact survival time",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "At time zero",
+   "value": "100% of subjects are alive without an event",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Reading the plot",
+   "value": "A vertical drop is an event; a tick is a censored subject",
+   "cites": [
+    35,
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A patient in a drug study is followed for 13 weeks with no relapse, then moves away and cannot be reached. How is this patient recorded?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As having had an event at 13 weeks"
+    },
+    {
+     "id": "b",
+     "label": "As a censored observation"
+    },
+    {
+     "id": "c",
+     "label": "As having survived forever"
+    },
+    {
+     "id": "d",
+     "label": "As a mistake to be removed"
+    }
+   ],
+   "answer": "b",
+   "explain": "Censoring means some information about survival time is known but not the exact time, such as a subject lost to follow up.",
+   "cites": [
+    15,
+    16,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis:q1"
+  },
+  {
+   "prompt": "In a study, the survival function at 10 weeks reads 0.8. What does that mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "80% of subjects had an event at exactly week 10"
+    },
+    {
+     "id": "b",
+     "label": "The study lasted 80 weeks"
+    },
+    {
+     "id": "c",
+     "label": "The chance of surviving longer than 10 weeks is 0.8"
+    },
+    {
+     "id": "d",
+     "label": "Eight subjects were censored by week 10"
+    }
+   ],
+   "answer": "c",
+   "explain": "S(t) is the probability that a subject survives longer than time t.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis:q2"
+  },
+  {
+   "prompt": "You draw a survival curve. At the very start of observation, what proportion of subjects is still alive without an event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "None of them"
+    },
+    {
+     "id": "b",
+     "label": "Half of them"
+    },
+    {
+     "id": "c",
+     "label": "Only the censored ones"
+    },
+    {
+     "id": "d",
+     "label": "All of them"
+    }
+   ],
+   "answer": "d",
+   "explain": "At time zero, 100% of the subjects are alive without an event.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis:q3"
+  },
+  {
+   "prompt": "An engineer studies how long machines run before failing, using the same mathematics as a medical study of patients. What is her field called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Reliability engineering"
+    },
+    {
+     "id": "b",
+     "label": "Event history analysis in sociology"
+    },
+    {
+     "id": "c",
+     "label": "Duration modelling in economics"
+    },
+    {
+     "id": "d",
+     "label": "Clinical trial design"
+    }
+   ],
+   "answer": "a",
+   "explain": "Survival analysis is called reliability theory, analysis or engineering in engineering.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis:q4"
+  },
+  {
+   "prompt": "On a survival plot, you see a sudden vertical drop at 8 weeks and a small tick mark at 45 weeks. What do they show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A censored subject at 8 weeks and an event at 45 weeks"
+    },
+    {
+     "id": "b",
+     "label": "Two events, one at each time point"
+    },
+    {
+     "id": "c",
+     "label": "An event at 8 weeks and a censored subject at 45 weeks"
+    },
+    {
+     "id": "d",
+     "label": "Two censored subjects at those weeks"
+    }
+   ],
+   "answer": "c",
+   "explain": "A vertical drop indicates an event, and a vertical tick mark indicates that a subject was censored at that time.",
+   "cites": [
+    35,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis:q5"
+  },
+  {
+   "prompt": "Why can it be harder to define the 'event' for a mechanical system than for a living organism?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Machines cannot be observed over time at all"
+    },
+    {
+     "id": "b",
+     "label": "Machines never fail in any real sense"
+    },
+    {
+     "id": "c",
+     "label": "Machine failure may be partial or a matter of degree"
+    },
+    {
+     "id": "d",
+     "label": "Organisms never die at a specific time"
+    }
+   ],
+   "answer": "c",
+   "explain": "Biological death is unambiguous, but mechanical failure may be partial, a matter of degree, or not localized in time.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.survival-analysis:q6"
+  }
+ ],
+ "source": {
+  "title": "Survival analysis",
+  "url": "https://en.wikipedia.org/wiki/Survival_analysis",
+  "revision": 1382714791
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Waiting for one event",
+    "text": "Survival analysis is the part of statistics that studies how long it takes until a single event happens. In living things that event might be death; in machines it might be a breakdown. Different fields know it under other names. Engineers speak of reliability theory or reliability engineering, economists of duration analysis, and sociologists of event history analysis.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "The questions it asks",
+    "text": "The method sets out to answer a handful of practical questions. What share of a group will still be going after a given time? Among those still going, how quickly do they die or fail? Can several different causes of death or failure be handled together? And which conditions or traits make survival more or less likely?",
+    "cites": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Deciding what counts as the event",
+    "text": "Before any of this, you have to say what a lifetime is. Death in biology is clear cut, but a machine may fail only partly, by degrees, or without a clear moment, and some medical events such as a heart attack can be just as hard to pin down. The basic theory assumes clearly defined events at definite times. Traditionally each subject has just one event, after which it is dead or broken, while models for repeated events drop that assumption.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Censoring",
+    "text": "Time is counted from the start of observation, such as surgery, until an event, the end of the study, or the point where contact is lost or the subject withdraws. Censoring is the name for having some information about a subject's survival time without knowing it exactly. After the moment of censoring, nothing more is seen of that subject. A censored subject might go on to have the event later, or might not.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "A leukemia example",
+    "text": "The survival function S(t) is the probability that a subject lasts longer than time t. A data set called aml, from the survival package in the R software, follows patients with acute myelogenous leukemia and asks whether the usual chemotherapy should be continued for extra cycles. The real question is whether the cancer comes back later in patients who kept up treatment than in those who did not. Here a censored patient is one who did not have an event, meaning the cancer did not come back.",
+    "cites": [
+     18,
+     19,
+     20,
+     23,
+     30
+    ]
+   },
+   {
+    "heading": "Reading the staircase plot",
+    "text": "The results are drawn as a KM plot, with time along the bottom and the share of subjects still event-free up the side. It starts at 100% at time zero and steps down like a staircase, each drop marking an event. In the aml data, two patients had events at five weeks and two at eight weeks, and those show up as drops. Five patients were censored, the last of them at 161 weeks, and each appears as a small tick mark on the line.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "The life table",
+    "text": "The same results can be set out as a life table, which lists the number of events and the share still surviving at each event time. One of its columns counts the subjects at risk just before each time point. A subject is at risk if they have not yet had an event and have not been censored up to that time.",
+    "cites": [
+     42,
+     44,
+     45
+    ]
+   }
+  ]
+ }
+}

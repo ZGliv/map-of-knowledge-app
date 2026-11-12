@@ -1,0 +1,350 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point",
+ "name": "Lagrange point",
+ "summary": [
+  {
+   "text": "Lagrange points are five spots, L1 to L5, near two massive orbiting bodies where a small-mass object can stay in equilibrium.",
+   "cites": [
+    1,
+    6
+   ]
+  },
+  {
+   "text": "There the gravity of the two large bodies and the centrifugal pseudo-force balance, so a satellite needs little fuel for orbit corrections.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "The James Webb Space Telescope sits at the Sun–Earth L2, where its sunshield blocks light and heat from the Sun, Earth and Moon at once.",
+   "cites": [
+    12,
+    14,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Number of points",
+   "value": "Five, L1 to L5, for any two orbiting bodies",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Straight-line points",
+   "value": "L1, L2 and L3 lie on the line through the two bodies",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Triangle points",
+   "value": "L4 and L5 each form an equilateral triangle with the two bodies",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "L1 and L2 distance",
+   "value": "About 1.5 million kilometers from Earth",
+   "cites": [
+    31,
+    36
+   ]
+  },
+  {
+   "label": "Jupiter's trojans",
+   "value": "More than one million trojan asteroids near its L4 and L5",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Mission designers want a satellite to spend as little propellant as possible holding its position. Why choose a Lagrange point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No gravity from either large body reaches that spot"
+    },
+    {
+     "id": "b",
+     "label": "The balanced forces there keep the needed orbit corrections to a minimum"
+    },
+    {
+     "id": "c",
+     "label": "It lies in the shadow of both bodies, which switches off their pull"
+    },
+    {
+     "id": "d",
+     "label": "Objects there are pulled in so hard that they stop moving"
+    }
+   ],
+   "answer": "b",
+   "explain": "At Lagrange points the gravitational forces and the centrifugal pseudo-force balance, keeping orbit corrections and fuel needs minimal.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point:q1"
+  },
+  {
+   "prompt": "A space telescope sits at L2 and never turns its sunshield. How can one fixed shield be enough?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sunlight cannot reach L2 because it sits in Earth's shadow"
+    },
+    {
+     "id": "b",
+     "label": "The telescope spins to spread heat evenly"
+    },
+    {
+     "id": "c",
+     "label": "Gravity from the Moon replaces the need for a shield"
+    },
+    {
+     "id": "d",
+     "label": "One shield protects it from the light and heat of the Sun, Earth and Moon at once"
+    }
+   ],
+   "answer": "d",
+   "explain": "At L2 the sunshield protects the telescope from the Sun, Earth and Moon simultaneously with no need to rotate it.",
+   "cites": [
+    14,
+    15,
+    20
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point:q2"
+  },
+  {
+   "prompt": "An object between Sun and Earth would normally circle faster than Earth, but Earth's pull cancels some of the Sun's. What is special about L1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The object's orbital period becomes exactly equal to Earth's"
+    },
+    {
+     "id": "b",
+     "label": "The object's orbital period becomes shorter than Earth's"
+    },
+    {
+     "id": "c",
+     "label": "The object stops moving relative to the Sun"
+    },
+    {
+     "id": "d",
+     "label": "The object's orbital period doubles"
+    }
+   ],
+   "answer": "a",
+   "explain": "Moving closer to Earth increases the effect, and at L1 the object's orbital period becomes exactly equal to Earth's.",
+   "cites": [
+    27,
+    28,
+    30
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point:q3"
+  },
+  {
+   "prompt": "Jupiter has asteroids near points that form an equilateral triangle with it and the Sun. What makes those points special when the mass ratio is large enough?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They lie on the straight line through the two large bodies"
+    },
+    {
+     "id": "b",
+     "label": "They sit inside the Sun"
+    },
+    {
+     "id": "c",
+     "label": "They are stable, so objects can orbit them and tend to be pulled in"
+    },
+    {
+     "id": "d",
+     "label": "They are unstable and push objects away"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the mass ratio is large enough, L4 and L5 are stable, and Jupiter has more than one million trojans there.",
+   "cites": [
+    8,
+    9,
+    10
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point:q4"
+  },
+  {
+   "prompt": "In a thought experiment, an object sits on the far side of the Sun from Earth, in line with both, and has the same period as Earth. Where must it orbit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly as far from the Earth–Sun barycenter as Earth is"
+    },
+    {
+     "id": "b",
+     "label": "A little farther from the Earth–Sun barycenter than Earth is"
+    },
+    {
+     "id": "c",
+     "label": "A little nearer the Earth–Sun barycenter than Earth is"
+    },
+    {
+     "id": "d",
+     "label": "At the center of the Sun"
+    }
+   ],
+   "answer": "b",
+   "explain": "Earth's gravity adds to the Sun's, so the object must orbit a little farther from the barycenter to keep the same one-year period. This is the L3 point.",
+   "cites": [
+    40,
+    43
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point:q5"
+  },
+  {
+   "prompt": "Two mathematicians found the five Lagrange points about a decade apart. Who found the three that lie on a straight line?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Euler, before Lagrange found the other two"
+    },
+    {
+     "id": "b",
+     "label": "Lagrange, before Euler found the other two"
+    },
+    {
+     "id": "c",
+     "label": "Newton, before Lagrange found all five"
+    },
+    {
+     "id": "d",
+     "label": "Lagrange and Euler together, in 1772"
+    }
+   ],
+   "answer": "a",
+   "explain": "Euler discovered the three collinear points around 1750, a decade before Lagrange discovered L4 and L5.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Lagrange_points_simple.svg/960px-Lagrange_points_simple.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Lagrange point",
+  "credit": "Xander89",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lagrange_points_simple.svg"
+ },
+ "source": {
+  "title": "Lagrange point",
+  "url": "https://en.wikipedia.org/wiki/Lagrange_point",
+  "revision": 1382863843
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Balance points in space",
+    "text": "Lagrange points, also called libration points, are places where a small object can stay in balance near two massive bodies that orbit each other. Usually the two big bodies pull unevenly on anything at a given spot, and that changes its orbit. At a Lagrange point, the pull of both big bodies and the centrifugal pseudo-force cancel each other out. Finding them means solving what is called the restricted three-body problem.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Five points for every pair",
+    "text": "Any two orbiting bodies have five of these points, named L₁ to L₅, all lying in the plane of the two large bodies' orbits. The Sun and Earth have their own five, and Earth and the Moon have a different five. L₁, L₂ and L₃ sit on the line running through the centers of the two big bodies. L₄ and L₅ each form the third corner of an equilateral triangle with those two centers.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "The stable corners",
+    "text": "If one body outweighs the other by a large enough ratio, L₄ and L₅ are stable. That means objects can orbit around them and tend to be drawn into them. Several planets have trojan asteroids clustered close to their L₄ and L₅ points, measured relative to the Sun. Jupiter alone has over a million of them.",
+    "cites": [
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "How L₁ works",
+    "text": "An object circling the Sun inside Earth's orbit would usually take less time to go around than Earth does. But if it sits directly between Earth and the Sun, Earth's gravity cancels part of the Sun's pull, and its trip around the Sun takes longer. At L₁ that period stretches until it is exactly equal to Earth's. L₁ lies roughly 1.5 million kilometers from Earth, toward the Sun.",
+    "cites": [
+     27,
+     28,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "L₂ and L₃",
+    "text": "L₂ lies on the same line but beyond Earth, again about 1.5 million kilometers away. Out there an object would normally take longer than Earth to go around the Sun, but Earth's extra pull shortens its period until the two match. L₃ lies on the opposite side of the Sun from Earth, slightly beyond Earth's orbit.",
+    "cites": [
+     32,
+     34,
+     35,
+     36,
+     40
+    ]
+   },
+   {
+    "heading": "Parking spots for spacecraft",
+    "text": "Since keeping an orbit there needs only small corrections and little fuel, Lagrange points make good homes for satellites. DSCOVR sits at L₁, studying the solar wind heading toward Earth and taking pictures of Earth to track its climate. The James Webb Space Telescope works at L₂, where its sunshield can keep the Sun's, Earth's and Moon's light and heat off it at the same time, without being turned. The European Space Agency's Gaia and Euclid telescopes also orbit around L₂.",
+    "cites": [
+     5,
+     13,
+     14,
+     15,
+     18
+    ]
+   },
+   {
+    "heading": "Who found them",
+    "text": "Leonhard Euler found the three points on the line around 1750. About ten years later, Joseph-Louis Lagrange found L₄ and L₅. Lagrange's essay on the three-body problem came out in 1772. In it he showed two special solutions with unchanging patterns, one in a straight line and one in an equilateral triangle, for any three masses moving in circular orbits.",
+    "cites": [
+     21,
+     22,
+     24
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "nasa-what-is-lagrange",
+   "kind": "article",
+   "title": "What is a Lagrange Point?",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/resource/what-is-a-lagrange-point/",
+   "note": "NASA's explainer on the five points, which ones are stable, and why spacecraft at L1 and L2 need regular corrections."
+  },
+  {
+   "id": "esa-lagrange",
+   "kind": "article",
+   "title": "What are Lagrange points?",
+   "by": "European Space Agency",
+   "url": "https://www.esa.int/Science_Exploration/Space_Science/What_are_Lagrange_points",
+   "note": "ESA's short guide to each point and the missions that have used them, from SOHO at L1 to Gaia and Webb at L2."
+  },
+  {
+   "id": "nasa-video-lagrange",
+   "kind": "video",
+   "title": "What are Lagrange Points? We Asked a NASA Scientist",
+   "by": "NASA",
+   "url": "https://www.youtube.com/watch?v=fTVN19h4nMg",
+   "note": "A short video in which a NASA scientist explains where Lagrange points are and why missions go there."
+  }
+ ]
+}

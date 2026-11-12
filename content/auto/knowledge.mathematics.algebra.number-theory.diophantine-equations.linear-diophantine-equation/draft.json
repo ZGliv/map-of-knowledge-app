@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "A linear Diophantine equation sets a sum of unknowns, each with a coefficient, equal to a constant, and only whole-number answers count.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "With two unknowns, ax + by = c has a solution exactly when d∣c, where d = gcd (a, b).",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "text": "Once one solution is found there are infinitely many, and systems of these equations are basic in integer linear programming.",
+   "cites": [
+    12,
+    22,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Solvable when",
+   "value": "d∣c, where d = gcd (a, b)",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "How many solutions",
+   "value": "Infinitely many once one exists, for two unknowns",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Used in",
+   "value": "Integer linear programming",
+   "cites": [
+    22,
+    23
+   ]
+  },
+  {
+   "label": "Solving tool",
+   "value": "Hermite normal form can solve systems of them",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You have only 4-cent and 6-cent stamps and need to make exactly 9 cents of postage. What does the solvability rule say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It works, as long as you have enough stamps of each kind"
+    },
+    {
+     "id": "b",
+     "label": "It fails, because the shared factor of 4 and 6 does not divide 9"
+    },
+    {
+     "id": "c",
+     "label": "It works, because 4 and 6 add up to more than 9"
+    },
+    {
+     "id": "d",
+     "label": "It fails, because 9 is larger than both stamp values"
+    }
+   ],
+   "answer": "b",
+   "explain": "A solution exists only if d∣c, where d = gcd (a, b). Here d is 2, and 2 does not divide 9.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "You find one pair of whole numbers that solves a two-unknown linear Diophantine equation. How many other solutions are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "None, the pair is the only one"
+    },
+    {
+     "id": "b",
+     "label": "Exactly one more, with the unknowns swapped"
+    },
+    {
+     "id": "c",
+     "label": "Infinitely many more, all generated from the first pair"
+    },
+    {
+     "id": "d",
+     "label": "A finite number that depends on the constant"
+    }
+   ],
+   "answer": "c",
+   "explain": "If one solution exists, all the others are given by a formula using an arbitrary integer, and there are infinitely many.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "Which description matches a linear Diophantine equation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Unknowns with whole-number coefficients are added to equal a constant, and only whole-number answers count"
+    },
+    {
+     "id": "b",
+     "label": "An unknown sits in an exponent, and any real number is an acceptable answer"
+    },
+    {
+     "id": "c",
+     "label": "Unknowns are multiplied by each other and the answer may be a fraction"
+    },
+    {
+     "id": "d",
+     "label": "A single unknown is set equal to a constant, with no whole-number requirement"
+    }
+   ],
+   "answer": "a",
+   "explain": "A linear Diophantine equation equates the sum of unknowns with coefficients to a constant, and only integer solutions are of interest.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "A delivery planner wants the best whole-number split of trucks across routes under several limits. Why do integer-programming textbooks cover systems of linear Diophantine equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Integer programming only ever deals with one equation at a time"
+    },
+    {
+     "id": "b",
+     "label": "They let the planner ignore the limits and still get an answer"
+    },
+    {
+     "id": "c",
+     "label": "They guarantee the best answer is always a fraction of a truck"
+    },
+    {
+     "id": "d",
+     "label": "Integer programming seeks best whole-number answers to linear systems"
+    }
+   ],
+   "answer": "d",
+   "explain": "Integer linear programming finds integer solutions of linear systems that also include inequalities, so systems of linear Diophantine equations are basic in that setting.",
+   "cites": [
+    22,
+    23
+   ]
+  },
+  {
+   "prompt": "A programmer must solve a system of linear Diophantine equations and wants the reduction that is cheaper to compute. According to Richard Zippel, which should she pick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hermite normal form, which only needs a triangular shape"
+    },
+    {
+     "id": "b",
+     "label": "Smith normal form, which reduces to a diagonal shape"
+    },
+    {
+     "id": "c",
+     "label": "Both cost the same, so either one will do"
+    },
+    {
+     "id": "d",
+     "label": "Neither, because no normal form helps with these systems"
+    }
+   ],
+   "answer": "a",
+   "explain": "Zippel wrote that only a triangular form is needed, which is the Hermite normal form, and that it is substantially easier to compute than the Smith normal form.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "Boxes hold 6 or 9 items and you want a total of exactly 12. Does a whole-number combination exist?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because 12 is not a multiple of 9"
+    },
+    {
+     "id": "b",
+     "label": "No, because 6 and 9 are different sizes"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if you use the same number of each box"
+    },
+    {
+     "id": "d",
+     "label": "Yes, because the largest shared factor of 6 and 9 divides 12"
+    }
+   ],
+   "answer": "d",
+   "explain": "Here d is 3, and 3 divides 12, so the rule says a solution exists (two boxes of 6).",
+   "cites": [
+    11
+   ]
+  }
+ ]
+}

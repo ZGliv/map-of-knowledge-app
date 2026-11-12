@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Factorization of polynomials expresses a polynomial with coefficients in a given field or in the integers as the product of irreducible factors with coefficients in the same domain.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is one of the fundamental components of computer algebra systems, and modern algorithms can quickly factor univariate polynomials of degree more than 1000.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Factorization depends on the base field: over the reals the irreducible factors have degree at most two, and over the complex field a polynomial splits into linear factors.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Uniqueness",
+   "value": "Unique up to multiplying factors by invertible constants",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Over the reals",
+   "value": "Irreducible factors have degree at most two",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Over the rationals",
+   "value": "Irreducible polynomials of any degree exist",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Gauss's lemma",
+   "value": "The product of two primitive polynomials is also primitive",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "First algorithm step",
+   "value": "Square-free factorization comes first in most algorithms",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A polynomial has integer coefficients. Over which number system can it be broken all the way down into linear factors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The complex numbers"
+    },
+    {
+     "id": "b",
+     "label": "The real numbers"
+    },
+    {
+     "id": "c",
+     "label": "The rational numbers"
+    },
+    {
+     "id": "d",
+     "label": "None, linear pieces are impossible"
+    }
+   ],
+   "answer": "a",
+   "explain": "By the fundamental theorem of algebra, a polynomial with integer coefficients can be factored into linear factors over the complex field.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Someone claims that over the reals, a polynomial can have an irreducible factor of degree 5. What is wrong with this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real polynomials cannot be factored at all"
+    },
+    {
+     "id": "b",
+     "label": "Real irreducible factors have degree at most two"
+    },
+    {
+     "id": "c",
+     "label": "Only degree 3 is allowed there"
+    },
+    {
+     "id": "d",
+     "label": "Real factors must all be linear"
+    }
+   ],
+   "answer": "b",
+   "explain": "Over the field of reals, the irreducible factors have degree at most two.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A polynomial has two identical factors. What else is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a multiple of that factor squared"
+    },
+    {
+     "id": "b",
+     "label": "Its derivative must be exactly zero"
+    },
+    {
+     "id": "c",
+     "label": "It must be irreducible itself"
+    },
+    {
+     "id": "d",
+     "label": "It cannot have any roots at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "If two or more factors are identical, the polynomial is a multiple of the factor's square, and the factor also divides the derivative.",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "prompt": "You are designing a procedure to factor a large polynomial over the rationals. What should the first step be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply it by its own derivative"
+    },
+    {
+     "id": "b",
+     "label": "Find every root by hand"
+    },
+    {
+     "id": "c",
+     "label": "Factor each coefficient first"
+    },
+    {
+     "id": "d",
+     "label": "Split it into square-free factors"
+    }
+   ],
+   "answer": "d",
+   "explain": "Square-free factorization is the first step in most polynomial factorization algorithms.",
+   "cites": [
+    36,
+    37,
+    38
+   ]
+  },
+  {
+   "prompt": "You divide every coefficient of an integer polynomial by their greatest common divisor and set that divisor aside. What do you now hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A square-free factor of it"
+    },
+    {
+     "id": "b",
+     "label": "The derivative of the polynomial"
+    },
+    {
+     "id": "c",
+     "label": "The primitive part of the polynomial"
+    },
+    {
+     "id": "d",
+     "label": "An irreducible factor of degree two"
+    }
+   ],
+   "answer": "c",
+   "explain": "The primitive part is the polynomial divided by its content, which is a primitive polynomial with integer coefficients.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "A primitive polynomial is known to be irreducible over the rationals. What follows about it over the integers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must split over the integers"
+    },
+    {
+     "id": "b",
+     "label": "It is irreducible over the integers too"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be primitive"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, the two cases are unrelated"
+    }
+   ],
+   "answer": "b",
+   "explain": "A primitive polynomial is irreducible over the rationals if and only if it is irreducible over the integers.",
+   "cites": [
+    27
+   ]
+  }
+ ]
+}

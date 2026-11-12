@@ -1,0 +1,109 @@
+{
+ "title": "Five Ways to Visit a World",
+ "question": "What kinds of robotic explorers do we send beyond Earth, and what does each one do?",
+ "hook": "Some craft zip past a world, some circle it, some touch down, and some sink through its air.",
+ "idea": "Probes are grouped by what they do at their target: pass by, orbit, land or roam, or descend through an atmosphere.",
+ "beats": [
+  {
+   "kind": "match",
+   "prompt": "match each probe type to what it does",
+   "pairs": [
+    [
+     "Flyby probe",
+     "Passes near a body without entering orbit"
+    ],
+    [
+     "Orbiter",
+     "Enters orbit for long-term observation"
+    ],
+    [
+     "Lander",
+     "Reaches the surface of a planet or moon"
+    ],
+    [
+     "Atmospheric probe",
+     "Descends through an atmosphere to study it"
+    ]
+   ],
+   "explain": "Each type is defined by what the probe does at its target.",
+   "cites": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A team wants a craft to reach a moon's surface and then travel across it to visit several spots. Which type should they send?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A lander",
+     "feedback": "It reaches the surface, but it is the rover that is capable of moving across it."
+    },
+    {
+     "id": "b",
+     "label": "A flyby probe",
+     "feedback": "It only passes near a body and never reaches the surface."
+    },
+    {
+     "id": "c",
+     "label": "An orbiter",
+     "feedback": "It circles its target for observation instead of reaching the ground."
+    },
+    {
+     "id": "d",
+     "label": "A rover"
+    }
+   ],
+   "answer": "d",
+   "explain": "A rover is capable of moving across the surface of a planet or moon.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "put these probe milestones in order, earliest first",
+   "items": [
+    "Early Luna and Pioneer probes are developed",
+    "Mariner 2 passes Venus",
+    "Huygens lands on Titan",
+    "Voyager 1 enters interstellar space"
+   ],
+   "ends": [
+    "Earliest",
+    "Latest"
+   ],
+   "explain": "The first probes came in the late 1950s, Mariner 2 flew by Venus in 1962, Huygens landed in 2005 and Voyager 1 entered interstellar space in 2012.",
+   "cites": [
+    4,
+    5,
+    13,
+    15,
+    17
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A probe is an uncrewed robotic spacecraft that sends data home.",
+    "Probes are sent beyond Earth orbit toward other bodies or deep space.",
+    "So a probe must carry astronauts to run its experiments.",
+    "Probes are divided into types, such as flyby, orbiter, lander and rover, by their mission profile."
+   ],
+   "wrong": 2,
+   "explain": "A probe is uncrewed, so it carries no astronauts.",
+   "cites": [
+    1,
+    3,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "title": "Shape decides what molecules do",
+ "question": "How does the three-dimensional arrangement of atoms affect a molecule?",
+ "hook": "Two substances built from the same atoms can behave in very different ways.",
+ "idea": "The three-dimensional arrangement of a molecule's atoms influences its reactivity, polarity, phase of matter, color, magnetism and biological activity.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two compounds have the same chemical formula, but their atoms are not bonded together in the same order. What do you expect?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Identical properties, since the formula is the same",
+     "feedback": "The formula lists the atoms, which tempts people to expect the same behaviour, but the arrangement matters."
+    },
+    {
+     "id": "b",
+     "label": "Often different geometries and very different properties"
+    },
+    {
+     "id": "c",
+     "label": "The same molecule drawn in two ways",
+     "feedback": "A different bonding order makes a different molecule, not a different drawing."
+    }
+   ],
+   "answer": "b",
+   "explain": "Structural isomers share a formula but bond their atoms in a different order, often giving alternate geometries with very different properties.",
+   "cites": [
+    41,
+    42
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it describes.",
+   "pairs": [
+    [
+     "Bond length",
+     "Average distance between two bonded nuclei"
+    ],
+    [
+     "Bond angle",
+     "Angle formed between three atoms across at least two bonds"
+    ],
+    [
+     "Torsional angle",
+     "Angle between the planes of the first and last three atoms in a four-atom chain"
+    ],
+    [
+     "Orbital hybridisation",
+     "Atomic orbitals of bonding atoms combining"
+    ]
+   ],
+   "explain": "Geometry is specified by lengths and angles, and bonding itself involves orbitals combining.",
+   "cites": [
+    31,
+    32,
+    33,
+    38
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each type of isomer by how its atoms are connected.",
+   "groups": [
+    "Atoms bonded in a different order",
+    "Same order, different 3D orientation"
+   ],
+   "items": [
+    [
+     "Structural isomers",
+     "Atoms bonded in a different order"
+    ],
+    [
+     "Constitutional isomers",
+     "Atoms bonded in a different order"
+    ],
+    [
+     "Enantiomers",
+     "Same order, different 3D orientation"
+    ],
+    [
+     "Diastereomers",
+     "Same order, different 3D orientation"
+    ]
+   ],
+   "explain": "Structural (constitutional) isomers change the connection order; stereoisomers, which divide into enantiomers and diastereomers, keep it and change the orientation in space.",
+   "cites": [
+    41,
+    42,
+    43,
+    45
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about measuring geometry is wrong. Which?",
+   "steps": [
+    "Many spectroscopic results are averaged over rotational states.",
+    "A higher temperature means more rotational states are populated and averaged.",
+    "More averaging makes the geometry easier to extract from the spectrum.",
+    "So reliable geometries are best expected at temperatures close to absolute zero."
+   ],
+   "wrong": 2,
+   "explain": "More averaging makes geometries harder to extract, which is why reliable results come from temperatures close to absolute zero.",
+   "cites": [
+    26,
+    27,
+    28
+   ]
+  }
+ ]
+}

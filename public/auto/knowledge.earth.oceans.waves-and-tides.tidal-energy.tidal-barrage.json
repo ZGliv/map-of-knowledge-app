@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage",
+ "name": "Tidal barrage",
+ "summary": [
+  {
+   "text": "A tidal barrage is a dam-like wall built across a bay or river that captures energy from water moving in and out with the tides.",
+   "cites": [
+    1,
+    10
+   ]
+  },
+  {
+   "text": "Sluice gates let water into the basin at high tide and release it at low tide, and turbines in the wall make power when the water level differs on each side.",
+   "cites": [
+    2,
+    3,
+    4,
+    13
+   ]
+  },
+  {
+   "text": "Barrages carry high building costs and face opposition for changing large habitats, and few exist worldwide.",
+   "cites": [
+    9,
+    22,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Largest plant",
+   "value": "Sihwa Lake, South Korea, 254 MW, since 2011",
+   "cites": [
+    8,
+    19
+   ]
+  },
+  {
+   "label": "Long-running pioneer",
+   "value": "La Rance, France, 240 MW, operating since 1966",
+   "cites": [
+    7,
+    18
+   ]
+  },
+  {
+   "label": "Ancient roots",
+   "value": "Tide mills as early as the sixth century",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Basic parts",
+   "value": "Caissons, embankments, sluices, turbines and ship locks",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An operator has filled the basin at high tide and closed the sluice gates. When should the turbines start generating?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Right away, while the tide is still high"
+    },
+    {
+     "id": "b",
+     "label": "After the sea falls enough to make a big level difference"
+    },
+    {
+     "id": "c",
+     "label": "Only once the next high tide arrives"
+    },
+    {
+     "id": "d",
+     "label": "While the basin is still being filled"
+    }
+   ],
+   "answer": "b",
+   "explain": "The turbine gates stay shut until the sea level falls and creates enough head across the barrage, then open to generate.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage:q1"
+  },
+  {
+   "prompt": "Why does generating power while the basin fills usually yield less than generating while it empties?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Incoming seawater is colder and slower"
+    },
+    {
+     "id": "b",
+     "label": "Turbines only spin in one direction"
+    },
+    {
+     "id": "c",
+     "label": "Ships must pass through during the flood tide"
+    },
+    {
+     "id": "d",
+     "label": "The basin's upper half holds more water than its lower half"
+    }
+   ],
+   "answer": "d",
+   "explain": "Ebb generation works on the upper half of the basin, which holds more water, so the level difference drops faster when generating on the flood.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage:q2"
+  },
+  {
+   "prompt": "A barrage uses electricity from the grid to pump extra water into its basin at high tide. Why would that pay off?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It cleans silt out of the basin"
+    },
+    {
+     "id": "b",
+     "label": "It keeps ships afloat at low tide"
+    },
+    {
+     "id": "c",
+     "label": "Raising the head returns much of that energy later"
+    },
+    {
+     "id": "d",
+     "label": "Pumping cools the turbines down"
+    }
+   ],
+   "answer": "c",
+   "explain": "Power output depends strongly on head, and water raised at high tide ends up much higher above the sea at low tide, so much of the pumping energy comes back.",
+   "cites": [
+    36,
+    37,
+    38
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage:q3"
+  },
+  {
+   "prompt": "A grid operator wants tidal power available at almost any hour, with flexible timing. Which design fits best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A two-basin barrage"
+    },
+    {
+     "id": "b",
+     "label": "A single basin generating on the flood"
+    },
+    {
+     "id": "c",
+     "label": "A conventional river dam"
+    },
+    {
+     "id": "d",
+     "label": "A single basin with no turbines"
+    }
+   ],
+   "answer": "a",
+   "explain": "With two basins, one filled at high tide and one emptied at low tide, generation time is flexible and almost continuous, though the extra barrage length is costly.",
+   "cites": [
+    40,
+    42,
+    43
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage:q4"
+  },
+  {
+   "prompt": "A plan to build a barrage across an estuary promises clean power, yet local groups oppose it. What is their most likely objection?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It would make the estuary water saltier"
+    },
+    {
+     "id": "b",
+     "label": "Its turbines would be too loud for residents"
+    },
+    {
+     "id": "c",
+     "label": "It would raise local electricity prices"
+    },
+    {
+     "id": "d",
+     "label": "It would change a large ecosystem many species use"
+    }
+   ],
+   "answer": "d",
+   "explain": "People have opposed barrages because changing a large estuary ecosystem harms habitat for many species.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage:q5"
+  },
+  {
+   "prompt": "How does a tidal barrage handle water differently from a river dam that holds water back on one side?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stores water for months before release"
+    },
+    {
+     "id": "b",
+     "label": "It lets water in at high tide and out at low tide"
+    },
+    {
+     "id": "c",
+     "label": "It pumps water uphill to a reservoir"
+    },
+    {
+     "id": "d",
+     "label": "It only lets water flow out to sea"
+    }
+   ],
+   "answer": "b",
+   "explain": "Instead of damming water on one side, a barrage lets water flow into the bay or river at high tide and releases it at low tide.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tidal-energy.tidal-barrage:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Rance_tidal_power_plant.JPG/960px-Rance_tidal_power_plant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tidal barrage",
+  "credit": "User:Dani 7C3",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Rance_tidal_power_plant.JPG"
+ },
+ "source": {
+  "title": "Tidal barrage",
+  "url": "https://en.wikipedia.org/wiki/Tidal_barrage",
+  "revision": 1373381541
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A dam for the tides",
+    "text": "A tidal barrage is a structure like a dam, built across a bay or river, that captures energy from water flowing in and out with the tides. Unlike an ordinary dam, which holds water back on one side, it lets the sea in at high tide and lets it out at low tide. Operators track the tidal flow and open or close sluice gates at key moments in the tidal cycle. Turbines sit at these sluices and make power as the water moves through.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "The parts of a barrage",
+    "text": "It works much like a hydro dam that produces head, a height difference in water that creates pressure. Whenever the water level outside the basin differs from the level inside, the turbines can generate. The main parts are caissons, sluices, turbines, ship locks and embankments. Caissons are very large concrete blocks that house the sluices, turbines and ship locks, and embankments seal the basin wherever caissons do not.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "One cycle, step by step",
+    "text": "The basin fills through the sluices until high tide, and then the sluice gates shut; at this point extra water may be pumped in. The turbine gates stay shut until the sea falls enough to build a large head across the barrage. Then they open and the turbines run until the head is small again. The sluices reopen, the turbines are disconnected, the basin refills, and the cycle repeats with the tides.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Filling, emptying and pumping",
+    "text": "Ebb generation is also known as outflow generation. Making power while the basin fills, through the turbines on the rising tide, is generally much less efficient than ebb generation. The upper half of the basin holds more water than the lower half, so the level difference between basin and sea shrinks faster. Rivers flowing into the basin can cut the energy further, though a lagoon with no river inflow avoids that. Turbines can also run in reverse on spare grid power to pump the basin higher at high tide, and much of that energy comes back because output depends strongly on head: water raised 2 ft on a 10 ft tide stands 12 ft higher at low tide.",
+    "cites": [
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Two basins",
+    "text": "Some designs use two basins: one fills at high tide, the other empties at low tide, and turbines sit between them. This lets operators shift the timing of generation freely and produce power almost without a break. In ordinary estuaries, though, the extra length of barrage makes two-basin schemes very expensive. Some places do have a shape that suits them well.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Barrages around the world",
+    "text": "Tide mills were developed as early as the sixth century, making barrages one of the oldest ways to draw power from the tides. France's 240 MW Rance Tidal Power Station opened in November 1966 and was the world's largest tidal barrage for 45 years, until South Korea's 254 MW Sihwa Lake plant was commissioned in 2011. Smaller plants include Annapolis Royal on the Bay of Fundy and the 1.7 megawatt station at Kislaya Guba in Russia. There are few other examples. Barrages need costly civil works, and as awareness of the environment has grown, people have opposed them for changing large ecosystems that are home to many species.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     18,
+     19,
+     20,
+     22,
+     23
+    ]
+   }
+  ]
+ }
+}

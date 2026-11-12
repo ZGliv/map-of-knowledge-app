@@ -1,0 +1,107 @@
+{
+ "title": "Cells Build and Break",
+ "question": "How does a cell get both energy and building blocks from its chemistry?",
+ "hook": "Inside every living thing, chemical reactions pull molecules apart for energy and build new ones for growth.",
+ "idea": "Metabolism splits into catabolic reactions that usually release energy and anabolic reactions that usually consume it, run through enzyme-helped pathways.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A cell breaks glucose down to pyruvate through cellular respiration. What usually happens to energy in this kind of reaction?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Energy is released"
+    },
+    {
+     "id": "b",
+     "label": "Energy is consumed",
+     "feedback": "That is the pattern for building compounds up, not for breaking them down."
+    },
+    {
+     "id": "c",
+     "label": "Energy is left unchanged",
+     "feedback": "Metabolic reactions usually either release or consume energy."
+    }
+   ],
+   "answer": "a",
+   "explain": "Breaking compounds down is catabolism, and catabolism usually releases energy.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means.",
+   "pairs": [
+    [
+     "Catabolic reaction",
+     "Breaking compounds down"
+    ],
+    [
+     "Anabolic reaction",
+     "Building compounds up"
+    ],
+    [
+     "Metabolic pathway",
+     "A series of steps, each helped by an enzyme"
+    ],
+    [
+     "Basal metabolic rate",
+     "Energy consumed by all these reactions"
+    ]
+   ],
+   "explain": "Metabolism is made of catabolic and anabolic reactions, organized into enzyme-helped pathways, and its total energy use is the basal metabolic rate.",
+   "cites": [
+    6,
+    8,
+    14
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each reaction into its group.",
+   "groups": [
+    "Catabolic",
+    "Anabolic"
+   ],
+   "items": [
+    [
+     "Glucose broken down to pyruvate",
+     "Catabolic"
+    ],
+    [
+     "Building proteins",
+     "Anabolic"
+    ],
+    [
+     "Building lipids",
+     "Anabolic"
+    ],
+    [
+     "Building nucleic acids",
+     "Anabolic"
+    ]
+   ],
+   "explain": "Breaking compounds down is catabolic, while the biosynthesis of proteins, lipids and nucleic acids is anabolic.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "Metabolic reactions are organized into pathways.",
+    "In a pathway, one chemical is transformed through a series of steps.",
+    "Each step is carried out by whatever molecule happens to be nearby, with no specific helper.",
+    "So the pathway as a whole turns one chemical into another."
+   ],
+   "wrong": 2,
+   "explain": "Each step in a metabolic pathway is facilitated by a specific enzyme.",
+   "cites": [
+    8
+   ]
+  }
+ ]
+}

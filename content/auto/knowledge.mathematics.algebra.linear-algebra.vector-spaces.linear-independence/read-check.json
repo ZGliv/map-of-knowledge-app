@@ -1,0 +1,30 @@
+{
+ "readHash": "413f117f06826188f8a4d23c96b0735c29ae77c3",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Definition (1), dependent (2), part of basis definition (3); combination paraphrase from 6."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Nonzero scalars giving 0 means dependent (6); only trivial solution means independent (10,12)."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Repeated vector dependent (14), zero vector forces dependence (38,40), single vector iff nonzero (42)."
+  },
+  "r3": {
+   "supported": true,
+   "why": "3 north / 4 east suffices in a 2D space ignoring altitude and curvature (31), independent (33,34), 5 northeast true but unneeded and makes set dependent (32,35)."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Altitude needs a third vector (36), n vectors for n-dim (37), central to dimension (5), finite/infinite by max independent count (4)."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Infinite set via finite subsets (19), independent spanning set is a basis (24)."
+  }
+ }
+}

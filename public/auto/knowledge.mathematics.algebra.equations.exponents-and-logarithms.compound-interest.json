@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest",
+ "name": "Compound interest",
+ "summary": [
+  {
+   "text": "Compound interest is interest accumulated from a principal sum and from previously accumulated interest.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It differs from simple interest, where earlier interest is not added to the principal, and it depends on the rate and on how often interest is compounded.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "For example, $1,000 at 5% a year is worth $1,050 after one year and $1,102.50 after two, because the second year's interest is figured on the new value.",
+   "cites": [
+    21,
+    22
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Rule of 72",
+   "value": "Divide the interest rate into 72 to find years to double",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Early trace",
+   "value": "A Babylonian clay tablet from about 2000–1700 B.C. might show it",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Bernoulli's find",
+   "value": "He discovered the constant e in 1683 studying it",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Compounding frequencies",
+   "value": "Yearly, half-yearly, quarterly, monthly, weekly, daily or continuously",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Witt's book",
+   "value": "A 1613 book devoted to the subject, with 124 worked examples",
+   "cites": [
+    29,
+    30,
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Account A pays interest each year on the original deposit only. Account B pays each year on the deposit plus all interest earned so far. Which account uses compound interest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Account A, since it pays out interest every single year"
+    },
+    {
+     "id": "b",
+     "label": "Both, since both accounts pay some interest each year"
+    },
+    {
+     "id": "c",
+     "label": "Account B, since earlier interest earns more interest"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since compound interest only applies to loans"
+    }
+   ],
+   "answer": "c",
+   "explain": "Compound interest is accumulated from the principal and from previously accumulated interest, unlike simple interest.",
+   "cites": [
+    1,
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest:q1"
+  },
+  {
+   "prompt": "You put $1,000 in an account at 5% a year, with interest added to the balance each year. After two years, what is the balance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "$1,102.50"
+    },
+    {
+     "id": "b",
+     "label": "$1,100.00"
+    },
+    {
+     "id": "c",
+     "label": "$1,050.00"
+    },
+    {
+     "id": "d",
+     "label": "$1,150.00"
+    }
+   ],
+   "answer": "a",
+   "explain": "After one year the balance is $1,050, and the second year's interest is calculated on that new value, giving $1,102.50 rather than $1,100.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest:q2"
+  },
+  {
+   "prompt": "Using the old rule for years to double, one investment pays 4% and another pays 8%, both compounded. How do their doubling times compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The 8% one takes twice as long"
+    },
+    {
+     "id": "b",
+     "label": "They take the same time"
+    },
+    {
+     "id": "c",
+     "label": "The 4% one takes half as long"
+    },
+    {
+     "id": "d",
+     "label": "The 8% one takes about half as long"
+    }
+   ],
+   "answer": "d",
+   "explain": "The rule says to divide the interest rate into 72, so doubling the rate halves the number of years.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest:q3"
+  },
+  {
+   "prompt": "A bond pays interest every six months, each payment being half the disclosed yearly rate times the principal. Compared with the disclosed rate, what is the yearly compounded rate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Higher"
+    },
+    {
+     "id": "b",
+     "label": "Lower"
+    },
+    {
+     "id": "c",
+     "label": "Exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "Impossible to compare"
+    }
+   ],
+   "answer": "a",
+   "explain": "For bonds paying interest twice a year, the yearly compounded rate is higher than the disclosed rate.",
+   "cites": [
+    12,
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest:q4"
+  },
+  {
+   "prompt": "A U.S. home loan uses an amortization schedule. How is the interest on such a loan handled?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is added onto the principal at the end of every month"
+    },
+    {
+     "id": "b",
+     "label": "It is paid off monthly, not added to the principal"
+    },
+    {
+     "id": "c",
+     "label": "It is saved up and charged all at once at the end"
+    },
+    {
+     "id": "d",
+     "label": "It is compounded daily until the loan is cleared"
+    }
+   ],
+   "answer": "b",
+   "explain": "U.S. mortgages use an amortizing loan, not compound interest; interest is not added to the principal but paid off as the payments are applied.",
+   "cites": [
+    16,
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest:q5"
+  },
+  {
+   "prompt": "In 1683, Jacob Bernoulli was studying a question about money earning interest on interest. Which famous constant did he discover?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The golden ratio"
+    },
+    {
+     "id": "b",
+     "label": "The square root of 2"
+    },
+    {
+     "id": "c",
+     "label": "The constant e"
+    },
+    {
+     "id": "d",
+     "label": "The constant pi"
+    }
+   ],
+   "answer": "c",
+   "explain": "Bernoulli discovered the constant e in 1683 by studying a question about compound interest.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Compound_interest_%28English%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Compound interest",
+  "credit": "Kazov",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Compound_interest_(English).gif"
+ },
+ "source": {
+  "title": "Compound interest",
+  "url": "https://en.wikipedia.org/wiki/Compound_interest",
+  "revision": 1377563152
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Compound interest, previously also called anatocism, is interest that builds up on the original sum, called the principal, and also on interest already added. It comes from reinvesting or holding on to interest that could have been paid out, or from a borrower's debts piling up. Simple interest works differently: there, interest from earlier periods is not added to the principal for the current period.",
+    "cites": [
+     1,
+     2,
+     3,
+     30
+    ]
+   },
+   {
+    "heading": "A worked example",
+    "text": "Say $1,000 earns 5% a year. After one year it has grown to $1,050. After two years the total is $1,102.50. The reason is that interest in year two is worked out on the new value rather than on the starting principal.",
+    "cites": [
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "How often interest is added",
+    "text": "How much interest builds up depends on the rate and on the compounding frequency. That frequency is the number of times in a given span of time that the built-up interest is turned into principal, on a regular schedule. Compounding might happen once a year, twice a year, every quarter, month, week or day, continuously, or not at all until maturity. For example, an annual rate with monthly compounding has a frequency of 12, with time measured in months.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Comparing rates fairly",
+    "text": "To help customers compare products, many countries require financial institutions to state an annual compound rate on a comparable basis. This figure goes by names such as annual equivalent rate (AER), effective annual rate and annual percentage yield. The effective annual rate is all the interest that would build up by the end of one year, divided by the principal. Bonds show the effect: they usually pay interest twice a year, each payment being half the stated rate times the principal, and the yearly compounded rate ends up higher than the stated one.",
+    "cites": [
+     8,
+     9,
+     10,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Different loans, different rules",
+    "text": "Loans do not all work the same way. Canadian mortgages are generally compounded twice a year, even though payments come monthly or more often. U.S. mortgages are amortizing loans instead of using compound interest. A schedule decides how each payment is split between principal and interest, and the interest is paid off monthly rather than added to the principal.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "A long history",
+    "text": "Compound interest was known in ancient times, but the first signs of mathematicians studying it come from the medieval era. A Babylonian clay tablet from about 2000–1700 B.C. might be the earliest display of a compound interest problem. It was once seen as the worst kind of usury when lenders charged it, and Roman law condemned it severely. Around 1340 the Florentine merchant Francesco Balducci Pegolotti gave a table of it, and in 1494 Luca Pacioli gave the Rule of 72: divide the interest rate into 72 to find how many years an investment takes to double. In 1683 Jacob Bernoulli discovered the constant e while studying a compound interest question.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     28,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-1",
+   "kind": "book",
+   "title": "6.1 Exponential Functions",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/6-1-exponential-functions",
+   "note": "A free textbook section with the compound interest formula, a table of compounding frequencies, and continuous compounding.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-compound",
+   "kind": "article",
+   "title": "Compound Interest",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/CompoundInterest.html",
+   "note": "A short reference giving the compound interest formulas, the link to e, doubling time and the rule of 72."
+  }
+ ]
+}

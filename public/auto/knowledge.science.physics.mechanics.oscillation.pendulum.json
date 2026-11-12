@@ -1,0 +1,362 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.oscillation.pendulum",
+ "name": "Pendulum",
+ "summary": [
+  {
+   "text": "A pendulum is a weight hanging from a pivot so that it can swing freely back and forth.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Gravity pulls a displaced pendulum back toward its resting position, and the time for one full left-and-right swing is its period.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "For small swings the period barely depends on how wide the swing is, which made pendulum clocks the world's standard for timekeeping for centuries.",
+   "cites": [
+    19,
+    20,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Clock inventor",
+   "value": "Christiaan Huygens built the pendulum clock in 1656",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Isochronism",
+   "value": "Small swings of any width take about the same time",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "label": "Early use",
+   "value": "A 1st-century earthquake sensor built by Zhang Heng",
+   "cites": [
+    44,
+    45
+   ]
+  },
+  {
+   "label": "Double pendulum",
+   "value": "A pendulum hung from another one moves chaotically",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "label": "Other uses",
+   "value": "Seismometers, accelerometers and gravity measurement",
+   "cites": [
+    11,
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A child on a playground swing is pulled back and released. What pulls the swing back toward the middle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The pivot pushing outward"
+    },
+    {
+     "id": "b",
+     "label": "A restoring force from gravity"
+    },
+    {
+     "id": "c",
+     "label": "The air pushing on the seat"
+    },
+    {
+     "id": "d",
+     "label": "The weight of the chains alone"
+    }
+   ],
+   "answer": "b",
+   "explain": "A displaced pendulum feels a restoring force due to gravity that accelerates it back toward equilibrium.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.pendulum:q1"
+  },
+  {
+   "prompt": "A grandfather clock's pendulum slowly swings a bit narrower as the day goes on, yet the clock stays on time. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Narrower swings are timed faster by the clock"
+    },
+    {
+     "id": "b",
+     "label": "The weight of the bob corrects the time"
+    },
+    {
+     "id": "c",
+     "label": "Swings of different widths take about the same time"
+    },
+    {
+     "id": "d",
+     "label": "Friction speeds up the pendulum to match"
+    }
+   ],
+   "answer": "c",
+   "explain": "For small swings the period is nearly independent of amplitude, a property called isochronism that makes pendulums useful for timekeeping.",
+   "cites": [
+    17,
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.pendulum:q2"
+  },
+  {
+   "prompt": "A clockmaker wants to change how long one swing of a pendulum takes. Which part should she adjust?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The length of the pendulum"
+    },
+    {
+     "id": "b",
+     "label": "The person who started the swing"
+    },
+    {
+     "id": "c",
+     "label": "The side it was first pushed toward"
+    },
+    {
+     "id": "d",
+     "label": "The colour of the hanging weight"
+    }
+   ],
+   "answer": "a",
+   "explain": "The period depends on the length of the pendulum.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.pendulum:q3"
+  },
+  {
+   "prompt": "An ideal pendulum model swings at the same width forever. Why does a real clock pendulum die down without pushes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity weakens the longer it keeps swinging"
+    },
+    {
+     "id": "b",
+     "label": "Its restoring force reverses direction over time"
+    },
+    {
+     "id": "c",
+     "label": "The cord slowly shrinks as the pendulum swings"
+    },
+    {
+     "id": "d",
+     "label": "Friction and air drag act on a real pendulum"
+    }
+   ],
+   "answer": "d",
+   "explain": "An ideal pendulum has no friction and keeps a constant amplitude, but real pendulums feel friction and air drag, so their swings decline.",
+   "cites": [
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.pendulum:q4"
+  },
+  {
+   "prompt": "A pendulum made of one rod swings with another rod hanging from its end. How does its motion differ from a single pendulum's?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes chaotic and hard to predict"
+    },
+    {
+     "id": "b",
+     "label": "It swings in a perfectly regular pattern"
+    },
+    {
+     "id": "c",
+     "label": "It cannot swing at all"
+    },
+    {
+     "id": "d",
+     "label": "It always keeps time better"
+    }
+   ],
+   "answer": "a",
+   "explain": "A double pendulum, with a second pendulum attached to its end, has chaotic motion.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.pendulum:q5"
+  },
+  {
+   "prompt": "A scientist wants a physical device that reacts when a distant earthquake strikes. Which old idea relied on a swaying weight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A pendulum-based seismometer"
+    },
+    {
+     "id": "b",
+     "label": "A spring-powered clock"
+    },
+    {
+     "id": "c",
+     "label": "A quartz oscillator"
+    },
+    {
+     "id": "d",
+     "label": "A Kater gravity scale"
+    }
+   ],
+   "answer": "a",
+   "explain": "One of the earliest known uses of a pendulum was Zhang Heng's seismometer, which swayed to activate a lever when disturbed by an earthquake's tremor.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.pendulum:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Simple_gravity_pendulum.svg/960px-Simple_gravity_pendulum.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Pendulum",
+  "credit": "Chetvorno",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Simple_gravity_pendulum.svg"
+ },
+ "source": {
+  "title": "Pendulum",
+  "url": "https://en.wikipedia.org/wiki/Pendulum",
+  "revision": 1382159769
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A weight that swings",
+    "text": "A pendulum is a weight hung from a pivot so that it is free to swing. Push it to one side and gravity pulls it back toward its resting position, called equilibrium. Let it go and it swings to and fro around that point. The name comes from the Latin pendulus, which means 'hanging'.",
+    "cites": [
+     1,
+     2,
+     3,
+     13
+    ]
+   },
+   {
+    "heading": "The period",
+    "text": "The time a pendulum needs for one full cycle, one swing left and one swing right, is called its period, and it is measured in seconds. The period depends on the pendulum's length and, to a smaller degree, on its amplitude, meaning how wide it swings. For small swings, though, the period comes out almost the same whether the swing is wide or narrow. This property, called isochronism, is what makes pendulums so handy for keeping time.",
+    "cites": [
+     4,
+     5,
+     6,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "The ideal and the real",
+    "text": "The simplest model is the simple gravity pendulum: a bob on a cord with no mass, hanging from a pivot with no friction. Given a push, it swings back and forth with an amplitude that never changes. Real pendulums suffer friction and air drag, so their swings get smaller over time. Even so, each swing still takes the same time as the one before.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     21
+    ]
+   },
+   {
+    "heading": "When swings get wide",
+    "text": "For wider swings the period slowly grows. At an amplitude of 0.4 radians (23°) it is 1% longer than the small-swing formula predicts, and it climbs toward infinity as the swing approaches 180°, a position of unstable balance. The gap between the true period and the small-swing value is called circular error. In a typical grandfather clock, swinging 3° each way, it comes to about 15 seconds a day.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Keeping time",
+    "text": "Because its motion is so regular, the pendulum suits timekeeping. Christiaan Huygens invented the pendulum clock in 1656, and for several centuries such clocks were how the world kept time. The Shortt-Synchronome clock reached an accuracy of roughly one second a year. In the 1930s the quartz clock took over as the time standard.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Beyond clocks",
+    "text": "Pendulums also sit inside scientific instruments such as accelerometers and seismometers. In the past they served as gravimeters, measuring the pull of gravity during geophysical surveys, and even as a standard of length. One of the earliest known uses was a seismometer made in the 1st century by the Han dynasty scientist Zhang Heng. When a far-off earthquake shook it, its pendulum swayed and set off one of a row of levers.",
+    "cites": [
+     11,
+     12,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Solid pendulums",
+    "text": "Any rigid object that swings freely about a fixed horizontal axis is called a compound, or physical, pendulum. It has the same period as a simple pendulum of a certain equivalent length, measured from the pivot down to a point called the center of oscillation. A uniform rod pivoted at one end, for example, keeps the same time as a simple pendulum two-thirds its length. Huygens proved in 1673 that the pivot and the center of oscillation can trade places, and in 1817 Henry Kater used this to build a reversible pendulum for better measurements of gravity.",
+    "cites": [
+     30,
+     31,
+     36,
+     37,
+     38,
+     39,
+     41
+    ]
+   },
+   {
+    "heading": "The double pendulum",
+    "text": "Hang a second pendulum from the end of the first and you get a double pendulum. This simple setup shows rich behaviour: its motion is chaotic and depends strongly on exactly how it is started.",
+    "cites": [
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-15-4",
+   "kind": "book",
+   "title": "15.4 Pendulums",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/15-4-pendulums",
+   "note": "A free textbook section on simple, physical and torsional pendulums, with the period formula for each."
+  },
+  {
+   "id": "cp-16-4",
+   "kind": "book",
+   "title": "16.4 The Simple Pendulum",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/16-4-the-simple-pendulum",
+   "note": "A gentler textbook section on small-angle swings, the period from length and gravity, and measuring g."
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.factoring",
+ "name": "Factoring",
+ "summary": [
+  {
+   "text": "Factorization of polynomials expresses a polynomial with coefficients in a given field or in the integers as the product of irreducible factors with coefficients in the same domain.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is one of the fundamental components of computer algebra systems, and modern algorithms can quickly factor univariate polynomials of degree more than 1000.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Factorization depends on the base field: over the reals the irreducible factors have degree at most two, and over the complex field a polynomial splits into linear factors.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Uniqueness",
+   "value": "Unique up to multiplying factors by invertible constants",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Over the reals",
+   "value": "Irreducible factors have degree at most two",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Over the rationals",
+   "value": "Irreducible polynomials of any degree exist",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Gauss's lemma",
+   "value": "The product of two primitive polynomials is also primitive",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "First algorithm step",
+   "value": "Square-free factorization comes first in most algorithms",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A polynomial has integer coefficients. Over which number system can it be broken all the way down into linear factors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The complex numbers"
+    },
+    {
+     "id": "b",
+     "label": "The real numbers"
+    },
+    {
+     "id": "c",
+     "label": "The rational numbers"
+    },
+    {
+     "id": "d",
+     "label": "None, linear pieces are impossible"
+    }
+   ],
+   "answer": "a",
+   "explain": "By the fundamental theorem of algebra, a polynomial with integer coefficients can be factored into linear factors over the complex field.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring:q1"
+  },
+  {
+   "prompt": "Someone claims that over the reals, a polynomial can have an irreducible factor of degree 5. What is wrong with this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real polynomials cannot be factored at all"
+    },
+    {
+     "id": "b",
+     "label": "Real irreducible factors have degree at most two"
+    },
+    {
+     "id": "c",
+     "label": "Only degree 3 is allowed there"
+    },
+    {
+     "id": "d",
+     "label": "Real factors must all be linear"
+    }
+   ],
+   "answer": "b",
+   "explain": "Over the field of reals, the irreducible factors have degree at most two.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring:q2"
+  },
+  {
+   "prompt": "A polynomial has two identical factors. What else is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a multiple of that factor squared"
+    },
+    {
+     "id": "b",
+     "label": "Its derivative must be exactly zero"
+    },
+    {
+     "id": "c",
+     "label": "It must be irreducible itself"
+    },
+    {
+     "id": "d",
+     "label": "It cannot have any roots at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "If two or more factors are identical, the polynomial is a multiple of the factor's square, and the factor also divides the derivative.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring:q3"
+  },
+  {
+   "prompt": "You are designing a procedure to factor a large polynomial over the rationals. What should the first step be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply it by its own derivative"
+    },
+    {
+     "id": "b",
+     "label": "Find every root by hand"
+    },
+    {
+     "id": "c",
+     "label": "Factor each coefficient first"
+    },
+    {
+     "id": "d",
+     "label": "Split it into square-free factors"
+    }
+   ],
+   "answer": "d",
+   "explain": "Square-free factorization is the first step in most polynomial factorization algorithms.",
+   "cites": [
+    36,
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring:q4"
+  },
+  {
+   "prompt": "You divide every coefficient of an integer polynomial by their greatest common divisor and set that divisor aside. What do you now hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A square-free factor of it"
+    },
+    {
+     "id": "b",
+     "label": "The derivative of the polynomial"
+    },
+    {
+     "id": "c",
+     "label": "The primitive part of the polynomial"
+    },
+    {
+     "id": "d",
+     "label": "An irreducible factor of degree two"
+    }
+   ],
+   "answer": "c",
+   "explain": "The primitive part is the polynomial divided by its content, which is a primitive polynomial with integer coefficients.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring:q5"
+  },
+  {
+   "prompt": "A primitive polynomial is known to be irreducible over the rationals. What follows about it over the integers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must split over the integers"
+    },
+    {
+     "id": "b",
+     "label": "It is irreducible over the integers too"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be primitive"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, the two cases are unrelated"
+    }
+   ],
+   "answer": "b",
+   "explain": "A primitive polynomial is irreducible over the rationals if and only if it is irreducible over the integers.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring:q6"
+  }
+ ],
+ "source": {
+  "title": "Factorization of polynomials",
+  "url": "https://en.wikipedia.org/wiki/Factorization_of_polynomials",
+  "revision": 1376826990
+ },
+ "pack": {
+  "id": "auto-polynomials-factoring",
+  "title": "Pieces that cannot split",
+  "question": "How do you break a polynomial into pieces that can't be split further?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Polynomials",
+   "Factoring"
+  ],
+  "hue": 55,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Factorisatie.svg/960px-Factorisatie.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Factorization",
+    "credit": "Silver Spoon · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Factorisatie.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Pieces that cannot split",
+    "hook": "Whether a polynomial splits depends on which numbers you are allowed to use."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-polynomials-factoring:1",
+    "transfer": false,
+    "prompt": "A polynomial with integer coefficients is factored over the complex numbers. What kind of factors do you end up with?",
+    "explain": "Over the complex field a polynomial with integer coefficients can be factored into linear factors.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Only linear factors"
+       },
+       {
+        "id": "b",
+        "label": "Factors of degree up to two",
+        "feedback": "That limit belongs to the real numbers, not the complex numbers."
+       },
+       {
+        "id": "c",
+        "label": "Factors of every degree",
+        "feedback": "Every-degree irreducibles show up over the rationals, not over the complex numbers."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-factoring:2",
+    "transfer": false,
+    "prompt": "match each field to what happens there",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Complex numbers"
+     },
+     {
+      "id": "l1",
+      "label": "Real numbers"
+     },
+     {
+      "id": "l2",
+      "label": "Rational numbers"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Irreducible factors of degree at most two"
+     },
+     {
+      "id": "r2",
+      "label": "Irreducible polynomials of any degree exist"
+     },
+     {
+      "id": "r0",
+      "label": "Factors into linear pieces"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Factorization depends on the base field."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-polynomials-factoring:3",
+    "transfer": true,
+    "prompt": "A primitive polynomial is irreducible over the integers. What follows over the rationals?",
+    "explain": "Gauss showed that the product of two primitive polynomials is primitive, which implies that irreducibility over the rationals and over the integers are the same for a primitive polynomial.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "It is irreducible there as well"
+       },
+       {
+        "id": "c",
+        "label": "Nothing can be said",
+        "feedback": "Gauss's lemma settles it."
+       },
+       {
+        "id": "a",
+        "label": "It must be reducible",
+        "feedback": "The two cases agree, so it cannot flip."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-polynomials-factoring:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Two identical factors make the polynomial a multiple of that factor's square."
+     },
+     {
+      "id": "b",
+      "text": "The repeated factor is then also a factor of the derivative."
+     },
+     {
+      "id": "c",
+      "text": "So a GCD with the derivative can expose the repeated part."
+     },
+     {
+      "id": "d",
+      "text": "That is why square-free factorization comes last in most algorithms."
+     }
+    ],
+    "answer": "d",
+    "explain": "Square-free factorization is the first step in most polynomial factorization algorithms."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Factoring writes a polynomial as a product of irreducible factors, and which factors exist depends on the field of coefficients.",
+    "connections": [
+     {
+      "title": "Factorization",
+      "place": "Factoring",
+      "node": "knowledge.mathematics.algebra.polynomials.factoring.factorization"
+     },
+     {
+      "title": "Difference of two squares",
+      "place": "Factoring",
+      "node": "knowledge.mathematics.algebra.polynomials.factoring.difference-of-two-squares"
+     },
+     {
+      "title": "Rational root theorem",
+      "place": "Factoring",
+      "node": "knowledge.mathematics.algebra.polynomials.factoring.rational-root-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Over the complex field a polynomial with integer coefficients can be factored into linear factors.",
+    "source": "Wikipedia sentences 9, 10"
+   },
+   {
+    "claim": "Factorization depends on the base field.",
+    "source": "Wikipedia sentences 8, 9, 10"
+   },
+   {
+    "claim": "Gauss showed that the product of two primitive polynomials is primitive, which implies that irreducibility over the rationals and over the integers are the same for a primitive polynomial.",
+    "source": "Wikipedia sentences 26, 27"
+   },
+   {
+    "claim": "Square-free factorization is the first step in most polynomial factorization algorithms.",
+    "source": "Wikipedia sentences 33, 34, 36, 38"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Breaking a polynomial into pieces",
+    "text": "Factoring a polynomial means writing it as a product of irreducible factors, keeping the coefficients in the same number system the polynomial started in. That system may be the integers or a field, such as the rational, real or complex numbers. A polynomial is irreducible when it is not the product of two non-constant polynomials.",
+    "cites": [
+     1,
+     6,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Always possible, always the same",
+    "text": "For polynomials over the integers or over a field, such a breakdown always exists: each one is a constant times a product of irreducible polynomials. The breakdown is also unique, apart from multiplying the factors by invertible constants. In technical terms, such polynomial rings are called unique factorization domains.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "It depends on the numbers allowed",
+    "text": "What counts as fully factored depends on the base field. Over the complex numbers, the fundamental theorem of algebra says every polynomial with complex coefficients has complex roots. So a polynomial with integer coefficients splits completely into linear, or first-degree, factors there. Over the real numbers, no irreducible factor has degree higher than two, but over the rationals there are irreducible polynomials of every degree.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "A job for computers",
+    "text": "Polynomial factorization is a core part of computer algebra systems. Modern algorithms can quickly factor one-variable polynomials of degree above 1000 whose coefficients run to thousands of digits. A basic step, even for rational coefficients, is factoring over a finite field. The question only makes sense when every coefficient can be stored in a computer and there are algorithms for arithmetic on them, and even then Fröhlich and Shepherdson found fields where no factoring algorithm can exist.",
+    "cites": [
+     2,
+     3,
+     4,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Integers and fractions",
+    "text": "Factoring over the rationals and over the integers is essentially the same problem. The content of a polynomial with integer coefficients is, up to sign, the greatest common divisor of its coefficients, and dividing by it leaves the primitive part. Gauss showed that multiplying two primitive polynomials always gives a primitive one, a result called Gauss's lemma. It follows that a primitive polynomial is irreducible over the rationals exactly when it is irreducible over the integers.",
+    "cites": [
+     17,
+     18,
+     19,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Clearing out repeated factors",
+    "text": "If a factor appears twice, the polynomial is a multiple of that factor's square, and the factor also divides the polynomial's derivative. For one-variable polynomials over the rationals, Yun's algorithm uses this to split a polynomial into square-free factors, ones that are not a multiple of a square. It does so with a chain of greatest common divisor steps, starting with gcd(f(x), f '(x)). After that it is enough to factor each square-free piece, which is why this is the first step in most factoring algorithms.",
+    "cites": [
+     33,
+     34,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Methods for pencil and paper",
+    "text": "Textbooks teach some methods that are handy when working by hand. Computers skip them because they rely on factoring integers, which is currently slower than factoring polynomials. One example is the rational root test, which finds every linear factor with rational coefficients.",
+    "cites": [
+     42,
+     43,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-factoring-polynomials",
+   "kind": "book",
+   "title": "1.5 Factoring Polynomials - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/1-5-factoring-polynomials",
+   "note": "A free textbook section on factoring polynomials: common factors, trinomials, and special products.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "arnold-factoring",
+   "kind": "book",
+   "title": "6: Factoring - Elementary Algebra (Arnold)",
+   "by": "David Arnold",
+   "url": "https://math.libretexts.org/Bookshelves/Algebra/Elementary_Algebra_(Arnold)/06%3A_Factoring",
+   "note": "A free textbook chapter on factoring polynomials and solving equations by factoring.",
+   "license": "CC BY-NC-ND 3.0"
+  }
+ ]
+}

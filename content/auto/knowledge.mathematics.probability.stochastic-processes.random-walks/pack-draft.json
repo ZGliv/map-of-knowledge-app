@@ -1,0 +1,100 @@
+{
+ "title": "The Coin-Flip Staggerer",
+ "question": "What can you say about a path made only of random steps?",
+ "hook": "Flip a coin to decide each step, and you can still say surprising things about where you end up.",
+ "idea": "A path built from random steps is still bound by counting: some places are reached by far more routes than others, and over enough time it keeps returning.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A marker starts at zero. Heads moves it one step right, tails one step left. After exactly five fair flips, where could it be?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Any whole number from −5 to 5",
+     "feedback": "It sounds natural, but each flip changes the position by one, so the parity is forced and half those spots are impossible."
+    },
+    {
+     "id": "b",
+     "label": "Only −5, −3, −1, 1, 3 or 5"
+    },
+    {
+     "id": "c",
+     "label": "Only zero, since heads and tails cancel",
+     "feedback": "They would cancel only on average; with five flips you cannot have equal heads and tails."
+    }
+   ],
+   "answer": "b",
+   "explain": "After five flips the marker can only be on −5, −3, −1, 1, 3 or 5.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each to the thing whose path is a random walk",
+   "pairs": [
+    [
+     "Foraging animal",
+     "Its search path"
+    ],
+    [
+     "Stock",
+     "Its fluctuating price"
+    ],
+    [
+     "Gambler",
+     "Their financial status"
+    ],
+    [
+     "Molecule in a gas",
+     "The path it traces"
+    ]
+   ],
+   "explain": "All are given as examples of things that can be modeled as random walks.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A simple random walk on the number line is allowed to go on forever. How many times does it cross any given point?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Once, then it wanders away for good",
+     "feedback": "Wandering away feels likely, but the walk keeps coming back."
+    },
+    {
+     "id": "b",
+     "label": "Infinitely many times"
+    },
+    {
+     "id": "c",
+     "label": "A few times, depending on luck",
+     "feedback": "Luck changes when it crosses, not whether it keeps crossing."
+    }
+   ],
+   "answer": "b",
+   "explain": "A simple random walk on the integers crosses every point an infinite number of times.",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about a gambler is wrong; which?",
+   "steps": [
+    "A gambler has a finite amount of money.",
+    "The gambler plays a fair game against a bank with infinite money.",
+    "The gambler's money performs a random walk.",
+    "So the walk will never reach zero and the gambler is safe."
+   ],
+   "wrong": 3,
+   "explain": "The walk will reach zero at some point, and then the gambler's game is over.",
+   "cites": [
+    24,
+    25
+   ]
+  }
+ ]
+}

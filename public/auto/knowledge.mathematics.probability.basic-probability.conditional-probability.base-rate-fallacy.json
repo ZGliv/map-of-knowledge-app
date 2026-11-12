@@ -1,0 +1,355 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy",
+ "name": "Base rate fallacy",
+ "summary": [
+  {
+   "text": "The base rate fallacy is the mistake of ignoring how common something is overall in favour of details about one specific case.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A test that seems highly accurate can still flag more innocent people than real cases when the thing it looks for is rare in the group tested.",
+   "cites": [
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "text": "In a breathalyzer example, one driver in a thousand is drunk and sober drivers test drunk 5% of the time, so a positive driver is drunk only about 2% of the time, not 95%.",
+   "cites": [
+    19,
+    21,
+    25
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Prosecutor's fallacy or defense attorney's fallacy, in law proceedings",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "False positive paradox",
+   "value": "More false positive results than true positives",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Breathalyzer case",
+   "value": "A positive reading means about a 2% chance of drunkenness",
+   "cites": [
+    21,
+    25
+   ]
+  },
+  {
+   "label": "Same test, two groups",
+   "value": "A positive is over 93% reliable in one group, 29% in another",
+   "cites": [
+    14,
+    16
+   ]
+  },
+  {
+   "label": "Alarm system",
+   "value": "Despite a 99% hit rate, a ring means a terrorist only near 1%",
+   "cites": [
+    33,
+    36,
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A rare allergy affects 1 in 1,000 people. A test wrongly flags 5% of people who lack it and never misses real cases. At a random screening, you test positive. Roughly how likely is it that you have the allergy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 95%, because the test is almost always right"
+    },
+    {
+     "id": "b",
+     "label": "About 50%, because you either have it or you do not"
+    },
+    {
+     "id": "c",
+     "label": "About 5%, because that is the test's false alarm rate"
+    },
+    {
+     "id": "d",
+     "label": "About 2%, because false alarms far outnumber real cases"
+    }
+   ],
+   "answer": "d",
+   "explain": "Among 1,000 people, 1 real case is flagged along with about 50 false alarms, so only about 1 in 51 positives is real.",
+   "cites": [
+    19,
+    20,
+    21,
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy:q1"
+  },
+  {
+   "prompt": "A camera flags wanted criminals 99% accurately, but it scans 10,000 people a day and almost none are wanted. Why is its list of flagged people likely to be mostly innocent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A small error rate applied to a huge innocent crowd gives more mistakes than real hits"
+    },
+    {
+     "id": "b",
+     "label": "The camera is secretly less accurate on innocent people than it claims"
+    },
+    {
+     "id": "c",
+     "label": "Wanted people usually avoid cameras, so they rarely show up on the list"
+    },
+    {
+     "id": "d",
+     "label": "Large crowds always make the camera's results random"
+    }
+   ],
+   "answer": "a",
+   "explain": "Even a small fraction of the much larger innocent group produces more positives than a large fraction of the tiny wanted group.",
+   "cites": [
+    8,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy:q2"
+  },
+  {
+   "prompt": "A tester who has only worked with a group where infection is common starts using the same test on a group where it is rare. What should the tester expect about positive results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They stay equally reliable, since the test is the same"
+    },
+    {
+     "id": "b",
+     "label": "They become more reliable, since the rare group has fewer cases"
+    },
+    {
+     "id": "c",
+     "label": "They are less reliable, since who is tested matters as well as accuracy"
+    },
+    {
+     "id": "d",
+     "label": "They no longer carry any information, since the groups differ"
+    }
+   ],
+   "answer": "c",
+   "explain": "The chance that a positive is real depends on the characteristics of the group tested, so a result that usually meant infection can mostly be false positives in a low-prevalence group.",
+   "cites": [
+    9,
+    13,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy:q3"
+  },
+  {
+   "prompt": "A town's alarm rings 99% of the time when it scans a wanted person. Someone says: it rang, so there is a 99% chance this person is wanted. What is the error?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The alarm cannot be trusted at all when it rings"
+    },
+    {
+     "id": "b",
+     "label": "The chance of ringing for a wanted person was confused with the chance of being wanted after a ring"
+    },
+    {
+     "id": "c",
+     "label": "The 99% should be changed to 100%, since the alarm rarely misses"
+    },
+    {
+     "id": "d",
+     "label": "Rings that sound in a crowd should be counted twice"
+    }
+   ],
+   "answer": "b",
+   "explain": "The chance that the bell rings given a terrorist and the chance of a terrorist given the bell are different, unrelated quantities. In the example the second is near 1%, not near 99%.",
+   "cites": [
+    36,
+    37,
+    38,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy:q4"
+  },
+  {
+   "prompt": "The 2% drunk-driver figure assumes the driver was stopped truly at random. Suppose the driver was stopped for weaving. What changes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since the breathalyzer reading alone decides the answer"
+    },
+    {
+     "id": "b",
+     "label": "The answer becomes exactly 95%, since the reading is a positive"
+    },
+    {
+     "id": "c",
+     "label": "The calculation must also weigh how likely drunk and sober drivers are to weave"
+    },
+    {
+     "id": "d",
+     "label": "The answer drops to zero, since the stop was not random"
+    }
+   ],
+   "answer": "c",
+   "explain": "The result depends on the stop being random. With another reason for stopping, the calculation also involves how likely drunk and non-drunk drivers are to drive badly.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy:q5"
+  },
+  {
+   "prompt": "An identical alarm is installed in a second city that has no wanted people at all. It still rings for 1 in 100 innocent people. When it rings there, what is the chance the person is wanted?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1%, matching the alarm's false positive rate"
+    },
+    {
+     "id": "b",
+     "label": "99%, matching the alarm's accuracy"
+    },
+    {
+     "id": "c",
+     "label": "Zero, since there is no one wanted to detect"
+    },
+    {
+     "id": "d",
+     "label": "50%, since the alarm is as likely wrong as right"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every ring in that city is for an innocent person, so the chance of a wanted person given a ring is 0%.",
+   "cites": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.conditional-probability.base-rate-fallacy:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Base_rate_fallacy_with_vaccines.svg/960px-Base_rate_fallacy_with_vaccines.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Base rate fallacy",
+  "credit": "Marc Rumilly Vectorization: Mrmw",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Base_rate_fallacy_with_vaccines.svg"
+ },
+ "source": {
+  "title": "Base rate fallacy",
+  "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy",
+  "revision": 1381427058
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Forgetting how common things are",
+    "text": "The base rate fallacy is the error of ignoring the base rate, meaning how common something is in general, and focusing only on details about one specific case. It also goes by the names base rate neglect and base rate bias. It is a particular form of a broader error known as extension neglect.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "In the courtroom",
+    "text": "When the mistake is made with statistical test results in a legal case, such as DNA tests, it is called the prosecutor's fallacy or the defense attorney's fallacy. William C. Thompson and Edward Schumann introduced these terms in 1987. Some have argued that their idea of the prosecutor's fallacy covers further wrong conclusions about guilt that are not really errors about base rates or Bayes's theorem.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Too many false alarms",
+    "text": "One example is the false positive paradox, where a test produces more false positives than true positives. Picture a face-recognition camera that spots wanted criminals with 99% accuracy but scans 10,000 people a day. Because innocent people vastly outnumber criminals, its list of suspects will likely hold far more innocents than criminals. How often a test comes back positive depends on the people being tested as well as on how accurate the test is.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Why rarity matters",
+    "text": "When a condition is rarer than the test's false positive rate, even a test that seldom errs on any single person gives more false positives than true ones overall. A tiny slice of the huge healthy group simply outnumbers a large slice of the small sick group. In one illustration, a person in population A who tests positive can be over 93% confident the result is right. In population B, only 20 of the 69 positives were truly infected, about 29%, for a test that seems \"95% accurate\". Someone used to group A may find it a paradox that in group B a positive result is now usually false.",
+    "cites": [
+     10,
+     11,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The breathalyzer test",
+    "text": "Suppose police breathalyzers wrongly show drunkenness for 5% of sober drivers but never miss a drunk one, and one driver in a thousand is drunk. Officers stop a driver at random, and the test says drunk. Many people would put the chance that the driver is drunk at 95%, but the right answer is about 2%. Among the 1 + 49.95 = 50.95 positive results, only 1 belongs to a drunk driver, giving 1/50.95 ≈ 1.9627%. This holds only if the driver really was stopped at random, not for driving badly.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "The alarm bell",
+    "text": "Picture a city of 1 million people with 100 terrorists, so the base rate is 0.0001. A camera rings a bell for 99% of terrorists it scans and also for 1% of everyone else. If someone sets off the bell, a person making the base rate fallacy would say there is a 99% chance they are a terrorist. In fact the chance is close to 1%. The mistake mixes up two different rates: how often the bell stays silent for a terrorist, and how often a ringing bell points at an innocent person.",
+    "cites": [
+     29,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "3b1b-medical-test-paradox",
+   "kind": "video",
+   "title": "The medical test paradox: Can redesigning Bayes rule help?",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=lG4VkPoG3ko",
+   "note": "A 3Blue1Brown video on why an accurate medical test can still mostly flag healthy people when a disease is rare."
+  },
+  {
+   "id": "ted-ed-false-positive",
+   "kind": "video",
+   "title": "Can you solve the false positive riddle?",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=1csFTDXXULY",
+   "minutes": 5,
+   "note": "A short animated TED-Ed riddle about false positives in testing for a rare condition."
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics",
+ "name": "Statistical mechanics",
+ "summary": [
+  {
+   "text": "Statistical mechanics applies probability and statistics to huge numbers of microscopic particles to explain the properties of matter in bulk.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "It explains temperature, pressure and heat capacity from microscopic behaviour, and it bridges exact mechanics and our incomplete knowledge by using an ensemble of possible states.",
+   "cites": [
+    4,
+    26,
+    27
+   ]
+  },
+  {
+   "text": "Maxwell's 1859 velocity distribution was the first statistical law in physics, Boltzmann built the field from the 1870s, and Gibbs formalized it in 1902.",
+   "cites": [
+    10,
+    11,
+    14,
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First statistical law",
+   "value": "Maxwell's distribution of molecular velocities, 1859",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Boltzmann's start",
+   "value": "The field began in the 1870s with his work",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Gibbs's book",
+   "value": "Elementary Principles in Statistical Mechanics, 1902",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Statistical ensemble",
+   "value": "Many virtual copies of a system in various states",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Bernoulli's insight",
+   "value": "Gas pressure comes from molecules hitting a surface",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A scientist wants the pressure of a room's air, which holds countless molecules. Why does she not simply track each one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Air molecules hold perfectly still"
+    },
+    {
+     "id": "b",
+     "label": "Each one is unneeded, and cannot be known exactly"
+    },
+    {
+     "id": "c",
+     "label": "Pressure has nothing to do with molecules"
+    },
+    {
+     "id": "d",
+     "label": "Molecules exist only as a mathematical idea"
+    }
+   ],
+   "answer": "b",
+   "explain": "Everyday life does not require, and quantum mechanics does not allow, knowing every particle's exact position and momentum, so uncertainty about the state is added.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics:q1"
+  },
+  {
+   "prompt": "A physicist imagines a huge number of imaginary copies of one box of gas, each in a different microscopic state. What does this collection represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A probability distribution over the possible states"
+    },
+    {
+     "id": "b",
+     "label": "A list of every real gas box in the world"
+    },
+    {
+     "id": "c",
+     "label": "The one exact state the gas is in"
+    },
+    {
+     "id": "d",
+     "label": "A record of how the gas changed over time"
+    }
+   ],
+   "answer": "a",
+   "explain": "The statistical ensemble is a large collection of virtual copies in various states, serving as a probability distribution over all possible states.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics:q2"
+  },
+  {
+   "prompt": "Why does a balloon feel firm when you squeeze it, according to Bernoulli's picture of gases?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The gas is a solid jelly"
+    },
+    {
+     "id": "b",
+     "label": "The gas particles stick to the walls"
+    },
+    {
+     "id": "c",
+     "label": "Heat flows out through the rubber"
+    },
+    {
+     "id": "d",
+     "label": "Countless molecules keep hitting the surface"
+    }
+   ],
+   "answer": "d",
+   "explain": "Bernoulli argued that gases are great numbers of molecules moving in all directions, and their impacts on a surface cause the pressure we feel.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics:q3"
+  },
+  {
+   "prompt": "A chemist wants to model how fast a reaction proceeds, not only the final balance it reaches. Which part of the field helps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Classical thermodynamics of equilibrium alone"
+    },
+    {
+     "id": "b",
+     "label": "Counting molecules by hand"
+    },
+    {
+     "id": "c",
+     "label": "Non-equilibrium statistical mechanics"
+    },
+    {
+     "id": "d",
+     "label": "The ensemble of a single particle"
+    }
+   ],
+   "answer": "c",
+   "explain": "Classical thermodynamics deals mainly with equilibrium, while non-equilibrium statistical mechanics models the speed of irreversible processes such as chemical reactions.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics:q4"
+  },
+  {
+   "prompt": "Gibbs's methods were worked out in classical mechanics. Why did they keep working when quantum mechanics arrived?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Quantum mechanics copied them exactly"
+    },
+    {
+     "id": "b",
+     "label": "They were so general that they adapted easily"
+    },
+    {
+     "id": "c",
+     "label": "They ignored the quantum state entirely"
+    },
+    {
+     "id": "d",
+     "label": "They were rewritten from scratch"
+    }
+   ],
+   "answer": "b",
+   "explain": "Gibbs's methods were of such generality that they adapted easily to quantum mechanics and still form the foundation of the field.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics:q5"
+  },
+  {
+   "prompt": "Maxwell studied what happens when gas molecules collide again and again. What did he argue about temperature?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Collisions equalize temperatures, so gases tend toward equilibrium"
+    },
+    {
+     "id": "b",
+     "label": "Collisions create hot and cold regions"
+    },
+    {
+     "id": "c",
+     "label": "Collisions stop once gas is at rest"
+    },
+    {
+     "id": "d",
+     "label": "Collisions make all molecules the same speed"
+    }
+   ],
+   "answer": "a",
+   "explain": "Maxwell gave the first mechanical argument that molecular collisions equalize temperatures, leading to a tendency toward equilibrium.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.physics.thermodynamics.entropy-and-disorder.statistical-mechanics:q6"
+  }
+ ],
+ "source": {
+  "title": "Statistical mechanics",
+  "url": "https://en.wikipedia.org/wiki/Statistical_mechanics",
+  "revision": 1382848818
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Statistical mechanics is a mathematical toolkit that uses probability and statistics to study huge collections of tiny particles. Its aim is to explain how matter behaves in bulk, starting from the physical laws that govern how atoms move. It also goes by the names statistical physics and statistical thermodynamics. Its methods have spread well beyond physics, into biology, neuroscience, computer science, information theory and even sociology.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why it is needed",
+    "text": "Ordinary mechanics needs two things: the complete state of a system at one moment, and an equation of motion that carries that state forward in time. With both, any past or future state can in principle be worked out. But when we do something at the human scale, such as running a chemical reaction, we do not need the exact position and speed of every molecule, and in quantum mechanics knowing them is not even possible in theory. Statistical mechanics bridges this gap by accepting some uncertainty about which state the system is in.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "The ensemble",
+    "text": "The key tool is the statistical ensemble: a large collection of imagined, independent copies of the system, each in a different state. Put another way, the ensemble is a probability distribution over all the states the system could be in. Each copy changes over time by the equation of motion, so the ensemble as a whole changes too. An ensemble that does not change over time is called an equilibrium ensemble, and its condition is called statistical equilibrium. That does not mean the particles have stopped moving; only the ensemble itself stays fixed.",
+    "cites": [
+     27,
+     28,
+     33,
+     34,
+     37,
+     38,
+     44
+    ]
+   },
+   {
+    "heading": "From particles to temperature",
+    "text": "Statistical mechanics grew out of classical thermodynamics. There it accounted for large-scale properties, like heat capacity, pressure and temperature, using microscopic quantities that wobble around average values and follow probability distributions. Its equilibrium branch, statistical thermodynamics, tries to derive how materials behave thermally from their particles and the interactions between them. The non-equilibrium branch deals with ensembles that change over time, and it is used to model how fast processes driven by imbalances run, such as chemical reactions and flows of particles and heat.",
+    "cites": [
+     4,
+     5,
+     6,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Roots in the study of gases",
+    "text": "In 1738 the Swiss physicist and mathematician Daniel Bernoulli brought out Hydrodynamica, the groundwork for the kinetic theory of gases. He argued that a gas is a great many molecules moving in every direction, that their impacts on a surface make the pressure we feel, and that heat is just the kinetic energy of their motion. In 1859 the Scottish physicist Maxwell worked out how molecular velocities are spread, giving the share of molecules whose velocity falls in any given range. This was the first statistical law in physics.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Boltzmann and Gibbs",
+    "text": "In 1864 Boltzmann, then a young student in Vienna, read the paper Maxwell had written and spent much of his life building on it. His work in the 1870s started statistical mechanics, and he introduced the idea of an equilibrium ensemble. In 1902, shortly before his death, Gibbs published Elementary Principles in Statistical Mechanics, which set the subject out as a general approach for every mechanical system, large or small. Gibbs worked within classical mechanics, but his methods carried over easily to quantum mechanics and still underpin the field.",
+    "cites": [
+     13,
+     14,
+     16,
+     19,
+     20,
+     21
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-15-7",
+   "kind": "book",
+   "title": "15.7 Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation",
+   "note": "A free textbook section on microstates and macrostates, using coin tosses and gas molecules to show why disorder is more likely.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up2-2-4",
+   "kind": "book",
+   "title": "2.4 Distribution of Molecular Speeds",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/2-4-distribution-of-molecular-speeds",
+   "note": "A free textbook section on the Maxwell-Boltzmann spread of molecular speeds in a gas, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "sep-statmech",
+   "kind": "article",
+   "title": "Philosophy of Statistical Mechanics",
+   "by": "Stanford Encyclopedia of Philosophy",
+   "url": "https://plato.stanford.edu/entries/statphys-statmech/",
+   "note": "A long scholarly overview of Boltzmann's and Gibbs's approaches and the open questions about equilibrium and probability."
+  },
+  {
+   "id": "mit-8-333",
+   "kind": "course",
+   "title": "Statistical Mechanics I: Statistical Mechanics of Particles",
+   "by": "Prof. Mehran Kardar",
+   "url": "https://ocw.mit.edu/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/",
+   "note": "A free MIT graduate course with video lectures on the statistical mechanics of particles, from probability to ensembles.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

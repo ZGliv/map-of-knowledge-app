@@ -1,0 +1,314 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system",
+ "name": "Nonlinear system",
+ "summary": [
+  {
+   "text": "A nonlinear system is one in which the change in the output is not proportional to the change in the input.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In a nonlinear system of equations, at least one equation is not linear, so it cannot be written as a linear combination of the unknowns.",
+   "cites": [
+    5,
+    19
+   ]
+  },
+  {
+   "text": "Because such equations are hard to solve, they are often approximated by linear ones, which hides effects such as chaos.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Defining trait",
+   "value": "Output change is not proportional to input change",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Equation test",
+   "value": "At least one equation in the set is not linear",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Usual shortcut",
+   "value": "Approximating with linear equations, called linearization",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Chaos example",
+   "value": "Some aspects of the weather are chaotic",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Main solving method",
+   "value": "Newton's method and its variants, for differentiable functions",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Machine A always gives 2 extra units out for each extra unit in. Machine B gives 2 extra out for the first extra unit in, then 5 extra out for the next one. Which one is a nonlinear system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Machine B, since equal input steps give different output changes"
+    },
+    {
+     "id": "b",
+     "label": "Machine A, since its output keeps growing as input rises"
+    },
+    {
+     "id": "c",
+     "label": "Both, since any machine that produces more output qualifies"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since both give more output for more input"
+    }
+   ],
+   "answer": "a",
+   "explain": "A nonlinear system is one where the change in output is not proportional to the change in input. Machine B breaks that pattern.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system:q1"
+  },
+  {
+   "prompt": "A scientist faces equations that are very hard to solve exactly. Why might she swap in simpler straight-line equations anyway?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Straight-line versions are always exactly equal to the originals"
+    },
+    {
+     "id": "b",
+     "label": "Straight-line versions reveal more hidden behaviour than the originals"
+    },
+    {
+     "id": "c",
+     "label": "Straight-line versions are easier to solve and work well within a limited range"
+    },
+    {
+     "id": "d",
+     "label": "Straight-line versions are the only ones that have solutions at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Hard nonlinear equations are commonly approximated by linear ones, which works well up to some accuracy and some range of inputs.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system:q2"
+  },
+  {
+   "prompt": "A forecaster replaces a swirling weather model with a simple straight-line one. What is she most likely to lose?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Behaviour such as chaos, where small changes ripple into big effects"
+    },
+    {
+     "id": "b",
+     "label": "The ability to add up the numbers in the model"
+    },
+    {
+     "id": "c",
+     "label": "Any chance of the model matching its inputs at all"
+    },
+    {
+     "id": "d",
+     "label": "The units used to measure temperature and wind"
+    }
+   ],
+   "answer": "a",
+   "explain": "Linearization hides interesting phenomena such as chaos, and some aspects of the weather are chaotic.",
+   "cites": [
+    9,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system:q3"
+  },
+  {
+   "prompt": "A shuffled-looking pattern in a nonlinear system turns out to follow fixed rules. Does the jumpy behaviour count as random?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, anything that looks unpredictable must be random"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because nothing in a nonlinear system can follow rules"
+    },
+    {
+     "id": "c",
+     "label": "Only when the system is approximated by a linear one"
+    },
+    {
+     "id": "d",
+     "label": "No, chaotic behaviour can resemble random behaviour but is not random"
+    }
+   ],
+   "answer": "d",
+   "explain": "Chaotic behaviour may look like random behaviour, but it is in fact not random.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system:q4"
+  },
+  {
+   "prompt": "Three equations in several unknowns: two are straight-line, and one has an unknown multiplied by itself. Is the set of equations linear?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since most of its equations are straight-line"
+    },
+    {
+     "id": "b",
+     "label": "No, a single equation that is not linear is enough to spoil it"
+    },
+    {
+     "id": "c",
+     "label": "Yes, since the two straight-line ones cancel out the third"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if every equation in the set is not linear"
+    }
+   ],
+   "answer": "b",
+   "explain": "A nonlinear system of equations has at least one equation that is not linear.",
+   "cites": [
+    4,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system:q5"
+  },
+  {
+   "prompt": "You found two different solutions to a nonlinear equation. Can you add them together to build a new, third solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any two solutions can always be combined this way"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when both solutions are positive"
+    },
+    {
+     "id": "c",
+     "label": "Generally no, because known solutions cannot usually be combined into new ones"
+    },
+    {
+     "id": "d",
+     "label": "Generally yes, since combining is the main tool for these equations"
+    }
+   ],
+   "answer": "c",
+   "explain": "One of the greatest difficulties of nonlinear problems is that known solutions generally cannot be combined into new ones, unlike in linear problems.",
+   "cites": [
+    34,
+    37
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.nonlinear-system:q6"
+  }
+ ],
+ "source": {
+  "title": "Nonlinear system",
+  "url": "https://en.wikipedia.org/wiki/Nonlinear_system",
+  "revision": 1369635063
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Not proportional",
+    "text": "A nonlinear system is one where the output does not change in proportion to the input. Engineers, biologists, physicists and mathematicians care about them, since most systems are nonlinear by nature. One quip puts it well: calling a subject nonlinear science is like describing most of zoology as the study of animals that are not elephants.",
+    "cites": [
+     1,
+     2,
+     14
+    ]
+   },
+   {
+    "heading": "Nonlinear equations",
+    "text": "Such systems are usually described by a nonlinear system of equations, a set of equations in several variables where at least one equation is not linear. In those equations the unknowns appear raised to powers above one, or inside a function that is not a degree-one polynomial. Put another way, the equations cannot be written as a linear combination of the unknowns. A simple polynomial example is x² + x − 1 = 0.",
+    "cites": [
+     4,
+     5,
+     19,
+     21
+    ]
+   },
+   {
+    "heading": "How people solve them",
+    "text": "For a single equation f(x) = 0 there are many root-finding algorithms. General ones may miss roots, and failing to find one does not prove there is none. Solving several polynomial equations together is hard, and elaborate tools such as Gröbner base algorithms were built for it. For systems of differentiable functions set to zero, the main tool is Newton's method and its variants, which can find a solution but say nothing about how many there are.",
+    "cites": [
+     20,
+     22,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Straightening the curve",
+    "text": "Because nonlinear equations are hard to solve, they are often approximated by linear ones, a step called linearization. This works up to some accuracy and over some range of inputs, but it hides effects such as solitons, chaos and singularities. Linear problems also allow superposition: independent solutions can be combined to build general ones. Nonlinear problems lack that, so even when a few specific solutions are known, new ones cannot be built from them.",
+    "cites": [
+     8,
+     9,
+     34,
+     35,
+     37
+    ]
+   },
+   {
+    "heading": "Chaos without chance",
+    "text": "Nonlinear systems can behave in ways that seem counterintuitive, unpredictable or even chaotic. Chaotic behavior may look random, yet it is not. Weather is an example: simple changes in one part produce complex effects everywhere. This nonlinearity is one reason accurate long-term forecasts are impossible with current technology.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Famous examples",
+    "text": "The Navier–Stokes equations of fluid dynamics and the Lotka–Volterra equations of biology are nonlinear differential equations. The logistic map is a nonlinear recurrence relation, a rule that builds each term of a sequence from earlier terms. Sometimes a hard case can be tamed: scale analysis reduces Navier–Stokes to one linear equation for transient, laminar, one-dimensional flow in a circular pipe.",
+    "cites": [
+     27,
+     28,
+     33,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-3",
+   "kind": "book",
+   "title": "7.3 Systems of Nonlinear Equations and Inequalities: Two Variables",
+   "by": "OpenStax (Jay Abramson et al.)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+   "note": "A free textbook section on solving pairs of nonlinear equations, such as a line meeting a parabola or circle."
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel",
+ "name": "Steel",
+ "summary": [
+  {
+   "text": "Steel is an alloy of iron and carbon, often with other elements, that has improved mechanical properties compared with pure iron.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "Carbon in the iron lattice inhibits deformation under stress, though this comes at the expense of the ductility and elongation of pure iron.",
+   "cites": [
+    9,
+    11
+   ]
+  },
+  {
+   "text": "Steel is one of the most commonly manufactured materials in the world, used in structures, bridges, tools, ships, trains and cars.",
+   "cites": [
+    2,
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Carbon content",
+   "value": "Up to 2.14% in the definition of steel",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Stainless steel",
+   "value": "Typically contains 18% chromium",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Recycling rate",
+   "value": "Over 60% globally",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Continuous casting",
+   "value": "About 96% of steel is cast this way today",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Share of emissions",
+   "value": "The steel industry contributes 8% of global emissions",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Pure iron deforms easily. What makes alloyed iron resist deformation under stress?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A coating of zinc applied to its surface"
+    },
+    {
+     "id": "b",
+     "label": "Removing every trace of other elements"
+    },
+    {
+     "id": "c",
+     "label": "Carbon introduced into the iron lattice"
+    },
+    {
+     "id": "d",
+     "label": "Heating the iron until it becomes liquid"
+    }
+   ],
+   "answer": "c",
+   "explain": "In alloyed iron the strengthening is primarily due to the introduction of carbon in the primarily-iron lattice, inhibiting deformation under mechanical stress.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel:q1"
+  },
+  {
+   "prompt": "An engineer adds more carbon to make iron stronger. What gets worse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its ductility and elongation decrease"
+    },
+    {
+     "id": "b",
+     "label": "Its raw material cost rises sharply"
+    },
+    {
+     "id": "c",
+     "label": "Its ability to take any alloying element is lost"
+    },
+    {
+     "id": "d",
+     "label": "Its crystalline structure disappears"
+    }
+   ],
+   "answer": "a",
+   "explain": "The engineered mechanical properties come at the expense of the ductility and elongation of the pure iron state, which decrease upon the addition of carbon.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel:q2"
+  },
+  {
+   "prompt": "A maker wants steel that resists corrosion. How do stainless and galvanized steel each get there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stainless is coated in zinc; galvanized has chromium in it"
+    },
+    {
+     "id": "b",
+     "label": "Both are coated in a layer of chromium"
+    },
+    {
+     "id": "c",
+     "label": "Both have all of their carbon removed"
+    },
+    {
+     "id": "d",
+     "label": "Stainless has chromium in it; galvanized is coated in zinc"
+    }
+   ],
+   "answer": "d",
+   "explain": "Stainless steels typically contain 18% chromium, while galvanized steel is coated in a layer of zinc to achieve a similar effect.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel:q3"
+  },
+  {
+   "prompt": "Smelted iron comes out with too much carbon (pig iron). How is it turned into steel?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Extra carbon is added until the iron has hardened"
+    },
+    {
+     "id": "b",
+     "label": "Oxygen injected into it reacts with carbon and leaves as gas"
+    },
+    {
+     "id": "c",
+     "label": "It is cooled slowly until the carbon sinks to the bottom"
+    },
+    {
+     "id": "d",
+     "label": "A layer of zinc is applied to cover the extra carbon"
+    }
+   ],
+   "answer": "b",
+   "explain": "Pig iron has a high amount of carbon and must be reprocessed to reduce it: oxygen injected into the molten iron reacts with the carbon to create carbon dioxide gas.",
+   "cites": [
+    34,
+    35,
+    36
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel:q4"
+  },
+  {
+   "prompt": "A foundry wants to pour metal into a mould. Why might it pick cast iron rather than steel?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays malleable and easy to shape even when hot"
+    },
+    {
+     "id": "b",
+     "label": "It contains less carbon than steel does"
+    },
+    {
+     "id": "c",
+     "label": "It is made without any smelting at all"
+    },
+    {
+     "id": "d",
+     "label": "It melts at a lower temperature and casts well"
+    }
+   ],
+   "answer": "d",
+   "explain": "Cast iron is not malleable even when hot but can be formed by casting, since it has a lower melting point than steel and good castability properties.",
+   "cites": [
+    29,
+    31
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel:q5"
+  },
+  {
+   "prompt": "In the mid-19th century, mild steel began to replace wrought iron. What opened the way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A new process that let steel be mass-produced"
+    },
+    {
+     "id": "b",
+     "label": "A fall in the amount of carbon that iron contains"
+    },
+    {
+     "id": "c",
+     "label": "A move of steelmaking from Europe to America"
+    },
+    {
+     "id": "d",
+     "label": "The discovery of how to make steel by accident"
+    }
+   ],
+   "answer": "a",
+   "explain": "The Bessemer process began a new era of mass-produced steel, and mild steel replaced wrought iron.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.metallic-bonding.steel:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%D0%90%D1%80%D0%BC%D0%B0%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%BA%D0%B0%D1%82.jpg/960px-%D0%90%D1%80%D0%BC%D0%B0%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%BA%D0%B0%D1%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Steel",
+  "credit": "ArcelorMittal Kryvyi Rih",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%80%D0%BC%D0%B0%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%BA%D0%B0%D1%82.jpg"
+ },
+ "source": {
+  "title": "Steel",
+  "url": "https://en.wikipedia.org/wiki/Steel",
+  "revision": 1383537987
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What steel is",
+    "text": "Steel is iron combined with carbon, and often with other elements too. It has better mechanical properties than pure iron. By definition its carbon content goes up to 2.14%, and plain carbon steels hold between 0.02% and 2.14% carbon by weight. A plain iron–carbon alloy with more than 2.1% carbon is called cast iron instead.",
+    "cites": [
+     1,
+     4,
+     25,
+     29
+    ]
+   },
+   {
+    "heading": "Why carbon makes it strong",
+    "text": "Carbon slipped into the iron lattice hinders deformation when the metal is under stress, and that is the main source of steel's added strength. The price is paid in ductility: as carbon is added, the metal loses some of pure iron's ability to stretch. Cast iron, with even more carbon, is not malleable even when hot. It is shaped by casting instead, since it melts at a lower temperature than steel and casts well.",
+    "cites": [
+     9,
+     11,
+     29,
+     31
+    ]
+   },
+   {
+    "heading": "Many grades",
+    "text": "Iron and carbon are always the main ingredients, but other elements produce grades with altered properties. Common additions include manganese, nickel, chromium, molybdenum and vanadium. Stainless steels typically contain 18% chromium and resist corrosion and oxidation better than plain carbon steel. Galvanized steel gets a similar benefit from a coating of zinc. Today the grades are set by various standards organizations.",
+    "cites": [
+     5,
+     6,
+     7,
+     21,
+     27
+    ]
+   },
+   {
+    "heading": "From pig iron to steel",
+    "text": "Iron smelted from its ore with coke or charcoal comes out high in carbon and is known as pig iron. To become steel, its carbon must be brought down to the right level, after which other elements may be added. In this refining step, oxygen is injected into the molten iron, where it reacts with carbon to form carbon dioxide gas. In the past, makers tested the cooled metal by trial and error; now chemical analysis can reveal the exact makeup.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "A long history",
+    "text": "Steel was made in bloomery furnaces for thousands of years. Large-scale industrial use began only in the 17th century, with the blast furnace and crucible steel. The Bessemer process, developed in England in the middle of the 19th century, opened an era of mass-produced steel, and mild steel took the place of wrought iron. Later, basic oxygen steelmaking cut costs further and raised quality.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     19
+    ]
+   },
+   {
+    "heading": "Steel today",
+    "text": "More than 1.6 billion tons of steel are now made each year, and China produced 54% of the world's supply in 2023. It goes into structures, bridges, ships, trains, cars, tools and appliances. The industry is among the most energy- and emissions-heavy, accounting for 8% of global emissions. On the other hand, steel is one of the most recycled materials, with a global recycling rate above 60%.",
+    "cites": [
+     3,
+     18,
+     20,
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-alloys-mech",
+   "kind": "book",
+   "title": "Introduction to Inorganic Chemistry/Metals and Alloys: Mechanical Properties",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry/Metals_and_Alloys:_Mechanical_Properties",
+   "note": "An open-textbook chapter with a section on iron and steel, including the iron-carbon phase diagram and cementite.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid",
+ "name": "Nucleic acid",
+ "summary": [
+  {
+   "text": "Nucleic acids are large biomolecules, crucial in all cells and viruses, composed of nucleotides.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The two main classes are DNA and RNA, which differ in whether the sugar is deoxyribose or ribose.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "They carry information in cells, make up genetic material, and both play a crucial role in directing protein synthesis.",
+   "cites": [
+    6,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Building block",
+   "value": "A nucleotide: a sugar, a phosphate and a base",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Thymine and uracil",
+   "value": "Thymine only in DNA, uracil only in RNA",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Biggest molecule",
+   "value": "Human chromosome 1: 247 million base pairs in one molecule",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Name",
+   "value": "Richard Altmann created the term in 1889",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "1944 experiment",
+   "value": "Showed that DNA carries genetic information",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A chain of nucleotides has deoxyribose as its sugar and contains thymine. Which nucleic acid is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "RNA"
+    },
+    {
+     "id": "b",
+     "label": "DNA"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since nucleic acids use no sugar"
+    },
+    {
+     "id": "d",
+     "label": "A nucleoside"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the sugar is deoxyribose the polymer is DNA, and thymine occurs in DNA.",
+   "cites": [
+    4,
+    15
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid:q1"
+  },
+  {
+   "prompt": "A researcher checks a bacterial cell and a typical virus for DNA and RNA. What should she expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The cell holds both, while the virus usually holds just one"
+    },
+    {
+     "id": "b",
+     "label": "Both hold both kinds in equal amounts"
+    },
+    {
+     "id": "c",
+     "label": "The cell holds only DNA, and the virus holds only RNA"
+    },
+    {
+     "id": "d",
+     "label": "Neither holds RNA, since RNA is found only in the nucleus"
+    }
+   ],
+   "answer": "a",
+   "explain": "All living cells contain both DNA and RNA, while viruses contain either DNA or RNA, but usually not both.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid:q2"
+  },
+  {
+   "prompt": "Why do the two ends of a nucleic acid strand differ from each other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One end of the strand carries a base while the other end carries none at all"
+    },
+    {
+     "id": "b",
+     "label": "One end of the strand is made of DNA while the other end is made of RNA"
+    },
+    {
+     "id": "c",
+     "label": "Phosphates attach at the 3' and 5' carbons of the sugar, giving the strand a direction"
+    },
+    {
+     "id": "d",
+     "label": "The sugars and the bases alternate in turn all the way along the chain"
+    }
+   ],
+   "answer": "c",
+   "explain": "The phosphate groups attach to the 3'-end and 5'-end carbons of the sugar, which gives nucleic acids directionality.",
+   "cites": [
+    43,
+    44,
+    45
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid:q3"
+  },
+  {
+   "prompt": "A scientist finds a virus whose genome is double-stranded RNA. Is that impossible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, RNA is always single-stranded"
+    },
+    {
+     "id": "b",
+     "label": "Yes, only DNA can form a genome in a virus"
+    },
+    {
+     "id": "c",
+     "label": "No, but only because the virus has stolen DNA from a cell"
+    },
+    {
+     "id": "d",
+     "label": "No, some viruses do have double-stranded RNA genomes"
+    }
+   ],
+   "answer": "d",
+   "explain": "Most natural DNA is double-stranded and RNA single-stranded, but some viruses have double-stranded RNA genomes.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid:q4"
+  },
+  {
+   "prompt": "What two things led to the name 'nucleic acid'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They were first found in the nucleus, and they contain phosphate groups"
+    },
+    {
+     "id": "b",
+     "label": "They were first found in pus, and they contain amino acids"
+    },
+    {
+     "id": "c",
+     "label": "They are found only in the nucleus, and they dissolve in acid"
+    },
+    {
+     "id": "d",
+     "label": "They are found in viruses, and they contain no sugar"
+    }
+   ],
+   "answer": "a",
+   "explain": "Nucleic acids were named for their discovery within the nucleus and for the presence of phosphate groups.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid:q5"
+  },
+  {
+   "prompt": "Which part of a nucleotide makes the whole molecule acidic?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The nitrogenous base"
+    },
+    {
+     "id": "b",
+     "label": "The phosphate group"
+    },
+    {
+     "id": "c",
+     "label": "The pentose sugar"
+    },
+    {
+     "id": "d",
+     "label": "The sugar's missing hydroxyl group"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each nucleotide has a nucleobase, a pentose sugar, and a phosphate group which makes the molecule acidic.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Difference_DNA_RNA-EN.svg/960px-Difference_DNA_RNA-EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Nucleic acid",
+  "credit": "File:Difference DNA RNA-DE.svg: Sponk / *translation: Sponk",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-EN.svg"
+ },
+ "source": {
+  "title": "Nucleic acid",
+  "url": "https://en.wikipedia.org/wiki/Nucleic_acid",
+  "revision": 1381480491
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What nucleic acids are",
+    "text": "Nucleic acids are large biological molecules found in every cell and every virus. They are linear polymers: chains built from small units called nucleotides. The name covers the two main kinds, DNA (deoxyribonucleic acid) and RNA (ribonucleic acid). Which kind you get depends on the sugar in the chain: ribose gives RNA, and deoxyribose, a variant of ribose, gives DNA.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     27,
+     38
+    ]
+   },
+   {
+    "heading": "What they do",
+    "text": "Their job is information. They make up genetic material, and in every living cell they create, encode and store information, which they then send and express inside and outside the cell nucleus. DNA and RNA both play a central part in directing how proteins are made. In DNA, the order of base pairs keeps coded instructions in the form of genes. In RNA, base-pair sequences help produce new proteins, which determine most of the chemistry of life.",
+    "cites": [
+     6,
+     7,
+     8,
+     11,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The building block",
+    "text": "Each nucleotide has three parts: a five-carbon sugar (ribose or deoxyribose), a phosphate group, and a nitrogenous base. The phosphate is what makes the molecule acidic. A base joined to a sugar, without the phosphate, is called a nucleoside. Along the chain, sugars and phosphates alternate to form a backbone held together by phosphodiester links. The phosphates attach at the sugar's 3' and 5' carbons, which gives each strand a direction, with a 5' end and a 3' end.",
+    "cites": [
+     2,
+     31,
+     39,
+     40,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "DNA and RNA side by side",
+    "text": "The sugar differs: DNA has 2'-deoxyribose and RNA has ribose, and the only gap between them is one hydroxyl group. Adenine, cytosine and guanine occur in both, but thymine is found only in DNA and uracil only in RNA. In most natural cases DNA is double-stranded, a chain of base pairs, while RNA is single-stranded, a chain of single bases. There are plenty of exceptions: some viruses carry double-stranded RNA or single-stranded DNA, and structures with three or four strands can sometimes form.",
+    "cites": [
+     13,
+     14,
+     15,
+     36,
+     37,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Everywhere, and enormous",
+    "text": "They take their name from being found first in the nucleus and from their phosphate groups, which relate to phosphoric acid. They are now known in all life forms, including bacteria, archaea, mitochondria, chloroplasts and viruses. Living cells hold both DNA and RNA, apart from some cells such as mature red blood cells, while a virus usually has one or the other. DNA molecules are probably the largest single molecules known. Well-studied examples range from small interfering RNA, 21 nucleotides long, up to human chromosome 1, one molecule with 247 million base pairs.",
+    "cites": [
+     28,
+     29,
+     30,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "How they were found",
+    "text": "Friedrich Miescher partly discovered nucleic acid in 1869 at the University of Tübingen, calling his new substance nuclein. In the early 1880s Albrecht Kossel purified it further, found it to be highly acidic, and later identified the bases. Richard Altmann coined the term nucleic acid in 1889, when DNA and RNA were not yet told apart. Astbury and Bell put out DNA's first X-ray diffraction pattern in 1938. In 1944 the Avery–MacLeod–McCarty experiment showed DNA carries genetic information, and in 1953 Watson and Crick proposed its double helix.",
+    "cites": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-3-5",
+   "kind": "book",
+   "title": "3.5 Nucleic Acids",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+   "note": "A free textbook section on nucleotides, how DNA and RNA differ, the double helix, base pairing and the types of RNA.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-bio-10-dna",
+   "kind": "video",
+   "title": "DNA Structure and Replication: Crash Course Biology #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=8kK2zwjRV0M",
+   "note": "A Crash Course Biology episode on how DNA is built from nucleotides and how it copies itself."
+  },
+  {
+   "id": "openstax-ochem-28-1",
+   "kind": "book",
+   "title": "28.1 Nucleotides and Nucleic Acids",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/28-1-nucleotides-and-nucleic-acids",
+   "note": "A free organic chemistry textbook section on the chemical structure of nucleotides, DNA and RNA.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

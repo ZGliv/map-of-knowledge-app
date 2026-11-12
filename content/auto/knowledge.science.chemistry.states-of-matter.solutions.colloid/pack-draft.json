@@ -1,0 +1,109 @@
+{
+ "title": "Why milk is not a solution",
+ "question": "How is a colloid different from a solution?",
+ "hook": "Both salt water and milk are mixtures, but their insides differ in a way you can name.",
+ "idea": "A colloid keeps bigger particles suspended in a separate phase, while a solution mixes at the level of single molecules or ions.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A colloid has particles denser than the liquid around them. You leave it undisturbed for a long time. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The particles tend to sink to the bottom"
+    },
+    {
+     "id": "b",
+     "label": "The particles tend to float to the top",
+     "feedback": "Floating, called creaming, happens to particles less dense than the medium."
+    },
+    {
+     "id": "c",
+     "label": "The particles dissolve into single molecules",
+     "feedback": "Colloidal particles are bigger than individual molecules and are not dissolved."
+    }
+   ],
+   "answer": "a",
+   "explain": "If the colloidal particles are denser than the medium of suspension, they will sediment, falling to the bottom.",
+   "cites": [
+    27,
+    42
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Dispersed phase",
+     "The suspended particles"
+    ],
+    [
+     "Continuous phase",
+     "The medium of suspension"
+    ],
+    [
+     "Hydrocolloid",
+     "Chemicals, mostly polysaccharides and proteins, dispersible in water"
+    ],
+    [
+     "Tyndall effect",
+     "Scattering of light by particles in a colloid"
+    ]
+   ],
+   "explain": "A colloid has particles spread through a medium, and each of these terms names a part or an effect of that arrangement.",
+   "cites": [
+    3,
+    5,
+    16
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each description into solution or colloid.",
+   "groups": [
+    "Solution",
+    "Colloid"
+   ],
+   "items": [
+    [
+     "Solute and solvent make up one phase",
+     "Solution"
+    ],
+    [
+     "Particles are individual molecules or ions",
+     "Solution"
+    ],
+    [
+     "Has a dispersed and a continuous phase",
+     "Colloid"
+    ],
+    [
+     "Particles are bigger than single molecules",
+     "Colloid"
+    ]
+   ],
+   "explain": "A solution is a single phase of individual molecules or ions, while a colloid has separate phases and larger particles.",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "In salt water, the salt crystal dissolves into ions surrounded by water molecules.",
+    "Milk is a colloid containing fat.",
+    "So its fat must also be split into individual molecules, like the ions.",
+    "Therefore milk should count as a solution."
+   ],
+   "wrong": 2,
+   "explain": "In milk the colloidal particles are globules of fat, not individual fat molecules, so milk is a colloid.",
+   "cites": [
+    28,
+    29
+   ]
+  }
+ ]
+}

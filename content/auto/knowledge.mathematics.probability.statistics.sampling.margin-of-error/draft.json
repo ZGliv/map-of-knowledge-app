@@ -1,0 +1,211 @@
+{
+ "summary": [
+  {
+   "text": "The margin of error is a statistic that expresses how much random sampling error there is in a survey's results.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The larger it is, the less confident you should be that a poll's result matches what a simultaneous census of the whole population would show.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "As long as the sampling fraction is small, it is essentially the same whether the population is a school, a city, a state or a country.",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Meaning",
+   "value": "The amount of random sampling error in a survey's results",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Default level",
+   "value": "95% when no confidence level is given",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Near the extremes",
+   "value": "Approaches ±0% as a percentage nears 0% or 100%",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Population size",
+   "value": "Essentially unchanged from a school to a country if the sampling fraction is small",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two polls use the same method and the same small sampling fraction, one of a school and one of a whole country. How do their margins of error compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The country's is far larger because it has more people"
+    },
+    {
+     "id": "b",
+     "label": "The school's is far larger because it is closer-knit"
+    },
+    {
+     "id": "c",
+     "label": "They are essentially the same"
+    },
+    {
+     "id": "d",
+     "label": "Neither poll can have a margin of error"
+    }
+   ],
+   "answer": "c",
+   "explain": "For a given sampling method the margin of error is essentially the same whatever the population size, as long as the sampling fraction is small.",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "prompt": "Poll A reports a larger margin of error than Poll B. What should you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Less confidence that A's result matches a census of everyone"
+    },
+    {
+     "id": "b",
+     "label": "A's result is certainly wrong and should be thrown out"
+    },
+    {
+     "id": "c",
+     "label": "A must have surveyed more people than B did"
+    },
+    {
+     "id": "d",
+     "label": "A was surely run with a clearly biased method"
+    }
+   ],
+   "answer": "a",
+   "explain": "The larger the margin of error, the less confidence one should have that the poll result would reflect a census of the whole population.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "As a poll's reported percentage gets very close to 0% or 100%, what happens to its margin of error?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows, because small shares are noisier"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same for every percentage"
+    },
+    {
+     "id": "c",
+     "label": "It stops existing once the share is tiny"
+    },
+    {
+     "id": "d",
+     "label": "It shrinks toward zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "A given percentage's margin of error approaches ±0% as the percentage approaches the extremes of 0% or 100%.",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "prompt": "A poll report states a margin of error of 3 points but never mentions a confidence level. Which level should you assume?",
+   "options": [
+    {
+     "id": "a",
+     "label": "50%"
+    },
+    {
+     "id": "b",
+     "label": "95%"
+    },
+    {
+     "id": "c",
+     "label": "100%"
+    },
+    {
+     "id": "d",
+     "label": "68%"
+    }
+   ],
+   "answer": "b",
+   "explain": "If no explicit confidence level is given, the most commonly used level is 95%.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "A survey asks about a trait that differs from person to person, and it covers only part of the population. Can its margin of error be zero?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, if the sample is chosen carefully enough"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the sample is large enough"
+    },
+    {
+     "id": "c",
+     "label": "No, it is positive when part is left out and the measure varies"
+    },
+    {
+     "id": "d",
+     "label": "Only if every person is asked twice"
+    }
+   ],
+   "answer": "c",
+   "explain": "The margin of error is positive whenever a population is incompletely sampled and the outcome measure varies.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A lab report gives a measured length with a margin of error. Outside of surveys, what might that margin describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Observational error in the measured quantity"
+    },
+    {
+     "id": "b",
+     "label": "How many people were surveyed for the report"
+    },
+    {
+     "id": "c",
+     "label": "The share of respondents who said yes"
+    },
+    {
+     "id": "d",
+     "label": "The size of the full population"
+    }
+   ],
+   "answer": "a",
+   "explain": "The term is often used outside surveys to indicate observational error in reporting measured quantities.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

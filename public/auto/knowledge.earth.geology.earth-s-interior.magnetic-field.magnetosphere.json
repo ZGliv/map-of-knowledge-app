@@ -1,0 +1,247 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere",
+ "name": "Magnetosphere",
+ "summary": [
+  {
+   "text": "A magnetosphere is the region of space around a planet or other body where charged particles are affected by that body's magnetic field.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is created by an active dynamo inside the body, and planets with one, like Earth, can soften or block solar and cosmic radiation.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "At the magnetopause the planet's field pressure balances the solar wind's, and on the opposite side the magnetosphere stretches far out into a magnetotail.",
+   "cites": [
+    34,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name coined",
+   "value": "By Thomas Gold in 1959",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Radiation belt found",
+   "value": "Van Allen belt, observed by Explorer 1 in 1958",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Outermost layer",
+   "value": "The bow shock",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Planets with their own",
+   "value": "Mercury, Earth, Jupiter, Saturn, Uranus, Neptune",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Venus",
+   "value": "Only an induced field, with no inner dynamo",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A planet has no working dynamo inside it, but the solar wind still flows past. What sort of magnetic bubble can it have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One as strong as Earth's, from its own field"
+    },
+    {
+     "id": "b",
+     "label": "An induced one from the solar wind wrapping around it"
+    },
+    {
+     "id": "c",
+     "label": "None, because the solar wind cannot reach it"
+    },
+    {
+     "id": "d",
+     "label": "A long tail with nothing on the sunward side"
+    }
+   ],
+   "answer": "b",
+   "explain": "Without its own field opposing the solar wind, a body gets an induced magnetosphere, formed as the solar wind wraps around it, as at Venus.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere:q1"
+  },
+  {
+   "prompt": "Two pushes meet at the magnetopause, one from the Sun's wind and one from the planet. What is true about them there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The planet's field pressure balances the solar wind's"
+    },
+    {
+     "id": "b",
+     "label": "The solar wind always wins and reaches the ground"
+    },
+    {
+     "id": "c",
+     "label": "The planet's field pushes the solar wind back to the Sun"
+    },
+    {
+     "id": "d",
+     "label": "Neither push exists at that boundary"
+    }
+   ],
+   "answer": "a",
+   "explain": "The magnetopause is defined as the place where the pressure of the planet's field is balanced by the pressure of the solar wind.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere:q2"
+  },
+  {
+   "prompt": "A burst of solar wind suddenly pushes much harder on Earth. What happens to the magnetopause?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays fixed in exactly the same place"
+    },
+    {
+     "id": "b",
+     "label": "It disappears completely for a while"
+    },
+    {
+     "id": "c",
+     "label": "It changes its size and shape"
+    },
+    {
+     "id": "d",
+     "label": "It jumps to Earth's night side"
+    }
+   ],
+   "answer": "c",
+   "explain": "Because the boundary sits where the pressures balance, it changes size and shape as the solar wind's pressure rises and falls.",
+   "cites": [
+    34,
+    38
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere:q3"
+  },
+  {
+   "prompt": "In 1958 the first Explorer satellite was sent up to measure cosmic rays above the atmosphere. What did it find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That Earth has no magnetic field in space"
+    },
+    {
+     "id": "b",
+     "label": "A second moon orbiting inside the field"
+    },
+    {
+     "id": "c",
+     "label": "That cosmic rays never reach near Earth"
+    },
+    {
+     "id": "d",
+     "label": "A belt of radiation trapped around Earth"
+    }
+   ],
+   "answer": "d",
+   "explain": "Explorer 1 observed the Van Allen radiation belt in the inner magnetosphere, and Explorer 3 confirmed it later that year.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere:q4"
+  },
+  {
+   "prompt": "Which of these planets has no field of its own, so its only magnetic field comes from the solar wind wrapping around it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Jupiter"
+    },
+    {
+     "id": "b",
+     "label": "Saturn"
+    },
+    {
+     "id": "c",
+     "label": "Venus"
+    },
+    {
+     "id": "d",
+     "label": "Neptune"
+    }
+   ],
+   "answer": "c",
+   "explain": "Venus appears to have no internal dynamo, while Jupiter, Saturn and Neptune all have intrinsic magnetospheres.",
+   "cites": [
+    18,
+    21
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere:q5"
+  },
+  {
+   "prompt": "Close to Earth the field lines look like a simple bar magnet's. Why do they look very different far out in space?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Moon's gravity bends them out of shape"
+    },
+    {
+     "id": "b",
+     "label": "They fade away just above the atmosphere"
+    },
+    {
+     "id": "c",
+     "label": "Earth's spin ties them into knots"
+    },
+    {
+     "id": "d",
+     "label": "Flowing plasma from the Sun distorts them"
+    }
+   ],
+   "answer": "d",
+   "explain": "Farther out, field lines are strongly distorted by the flow of electrically conducting plasma from the Sun, the solar wind.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cusp-animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Magnetosphere",
+  "credit": "NASA/CILab/Josh Masters",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Cusp-animation.gif"
+ },
+ "source": {
+  "title": "Magnetosphere",
+  "url": "https://en.wikipedia.org/wiki/Magnetosphere",
+  "revision": 1375772454
+ }
+}

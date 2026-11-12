@@ -1,0 +1,220 @@
+{
+ "summary": [
+  {
+   "text": "The rational root theorem is used to find all the rational roots of a polynomial, if it has any.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It gives a finite number of possible fractions, and each can be checked to see whether it is a root.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "text": "When a rational root r is found, the linear factor (x − r) can be divided out by polynomial long division, leaving a polynomial of lower degree.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Parent result",
+   "value": "A special case of Gauss's lemma on factoring polynomials",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Integral root theorem",
+   "value": "The special case where the leading coefficient is 1",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Candidate list",
+   "value": "A finite number of possible fractions to check",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "After one root",
+   "value": "Dividing out its linear factor leaves a lower-degree polynomial",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Cubic bonus",
+   "value": "A found root leaves a quadratic, avoiding cube roots",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "There are infinitely many fractions that could be roots of a polynomial. How does the theorem make the hunt manageable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It proves every fraction is a root"
+    },
+    {
+     "id": "b",
+     "label": "It narrows the search to a finite list of candidate fractions"
+    },
+    {
+     "id": "c",
+     "label": "It shows that no fraction can ever be a root"
+    },
+    {
+     "id": "d",
+     "label": "It finds the roots without any checking at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "The theorem gives a finite number of possible fractions, which can be checked to see whether they are roots.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "You find one rational root of a cubic polynomial and divide out its linear factor. What is left to solve?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Another cubic with one fewer root"
+    },
+    {
+     "id": "b",
+     "label": "A linear polynomial with one root"
+    },
+    {
+     "id": "c",
+     "label": "A quartic that is harder than the original"
+    },
+    {
+     "id": "d",
+     "label": "A quadratic whose two roots are the remaining roots"
+    }
+   ],
+   "answer": "d",
+   "explain": "Factoring out the linear factor leaves a quadratic whose two roots, found with the quadratic formula, are the remaining two roots of the cubic.",
+   "cites": [
+    7,
+    10
+   ]
+  },
+  {
+   "prompt": "You test every candidate on a cubic with integer coefficients and none is a root. What is the only way left to express its solutions algebraically?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Using cube roots"
+    },
+    {
+     "id": "b",
+     "label": "Using only the quadratic formula"
+    },
+    {
+     "id": "c",
+     "label": "Using only whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "They cannot be expressed at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the test finds no rational solutions, the only way to express the solutions algebraically uses cube roots. A found rational root avoids them.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "For a certain polynomial, any rational root must have a numerator that divides 6 and a denominator that divides 1. Which of these cannot be a root?",
+   "options": [
+    {
+     "id": "a",
+     "label": "-3"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "5"
+    },
+    {
+     "id": "d",
+     "label": "-6"
+    }
+   ],
+   "answer": "c",
+   "explain": "The candidates are limited to ±1, ±2, ±3 and ±6, and 5 does not divide 6.",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "prompt": "After finding a rational root, you divide the polynomial by its linear factor using long division. What do you know about the quotient?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its degree is higher and it shares no roots with the original"
+    },
+    {
+     "id": "b",
+     "label": "Its degree is the same and it has new roots"
+    },
+    {
+     "id": "c",
+     "label": "Its degree is lower and its roots are also roots of the original"
+    },
+    {
+     "id": "d",
+     "label": "It is always a constant with no roots"
+    }
+   ],
+   "answer": "c",
+   "explain": "Dividing out the linear factor gives a polynomial of lower degree whose roots are also roots of the original polynomial.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "Every coefficient of a polynomial shares a common whole-number factor. If you divide the whole polynomial by it, does the set of rational roots change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, some roots disappear"
+    },
+    {
+     "id": "b",
+     "label": "No, the set of rational roots stays the same"
+    },
+    {
+     "id": "c",
+     "label": "Yes, new roots appear"
+    },
+    {
+     "id": "d",
+     "label": "Yes, all roots become whole numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Dividing by the greatest common divisor of the coefficients does not alter the set of rational roots.",
+   "cites": [
+    16
+   ]
+  }
+ ]
+}

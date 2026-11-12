@@ -1,0 +1,106 @@
+{
+ "title": "The wait that forgets",
+ "question": "Why does waiting longer not make an event 'due'?",
+ "hook": "For some random waits, the time you have already spent tells you nothing about the time left.",
+ "idea": "An exponential waiting time is memoryless: the remaining wait has the same distribution however long you have waited.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "An exponential waiting time has gone 30 seconds with no event. How does the chance of waiting at least 10 more seconds compare with the chance, from the start, of waiting more than 10 seconds?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Smaller, because the event is overdue",
+     "feedback": "It feels like the event must be near, but elapsed time does not raise the chance."
+    },
+    {
+     "id": "b",
+     "label": "Larger, because long waits tend to continue",
+     "feedback": "It feels like a long wait signals a longer one, but elapsed time does not change the odds."
+    },
+    {
+     "id": "c",
+     "label": "Exactly the same",
+     "feedback": ""
+    }
+   ],
+   "answer": "c",
+   "explain": "Conditioned on no event so far, the remaining wait has the same distribution as the original.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each item to its partner.",
+   "pairs": [
+    [
+     "Rate parameter λ",
+     "Must satisfy λ > 0"
+    ],
+    [
+     "Values it can take",
+     "The interval [0, ∞)"
+    ],
+    [
+     "Two calls per hour on average",
+     "Typical gap of 30 minutes"
+    ],
+    [
+     "Other memoryless distribution",
+     "The geometric distribution"
+    ]
+   ],
+   "explain": "These are the basic facts of the exponential distribution, which shares memorylessness only with the geometric distribution.",
+   "cites": [
+    4,
+    5,
+    9,
+    14
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A device's time to failure is modelled as exponential.",
+    "It has run for a long time without failing.",
+    "So it is now more likely to fail soon than a brand-new one.",
+    "So replacing it early is the wise move."
+   ],
+   "wrong": 2,
+   "explain": "An exponential distribution is memoryless with a constant failure rate, so past running time does not raise the chance of failing soon.",
+   "cites": [
+    12,
+    15
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Calls arrive at an average of 2 per hour, and the gaps between calls are exponential. What is the expected gap between consecutive calls?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "30 minutes",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "2 hours",
+     "feedback": "That mixes up the number of calls per hour with the time per call."
+    },
+    {
+     "id": "c",
+     "label": "1 hour",
+     "feedback": "That would mean one call per hour on average, not two."
+    }
+   ],
+   "answer": "a",
+   "explain": "An average of two calls per hour gives an expected gap of 0.5 hour.",
+   "cites": [
+    9
+   ]
+  }
+ ]
+}

@@ -1,0 +1,547 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.permutations",
+ "name": "Permutations",
+ "summary": [
+  {
+   "text": "A permutation is a rearrangement of a finite set, a function that moves each member to a new place.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The number of permutations of n distinct objects is n factorial, the product of the first n positive integers.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "text": "Anagrams are permutations of letters, and studying permutations as substitutions led to the notion of a group in algebra.",
+   "cites": [
+    5,
+    21
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "How many",
+   "value": "n distinct objects can be permuted in n factorial ways",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Partial permutations",
+   "value": "Ordered sequences of k distinct elements of a set",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Derangement",
+   "value": "A permutation with no fixed points",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Enigma",
+   "value": "Rejewski used cycle types to break the cipher in 1932-1933",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Old traces",
+   "value": "Permutation-like hexagrams appear in the I Ching by 1000 BC",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A puzzle asks you to rearrange the letters of the word \"listen\" to spell \"silent\". What kind of thing have you made?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A fixed point of the word"
+    },
+    {
+     "id": "b",
+     "label": "A permutation of the letters"
+    },
+    {
+     "id": "c",
+     "label": "A single cycle with one letter"
+    },
+    {
+     "id": "d",
+     "label": "A group of unrelated letters"
+    }
+   ],
+   "answer": "b",
+   "explain": "Anagrams are examples of permutations of sequences of letters.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations:q1"
+  },
+  {
+   "prompt": "After shuffling a row of numbered cards, card 4 is still sitting in position 4. What is such an element called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A transposition"
+    },
+    {
+     "id": "b",
+     "label": "A derangement"
+    },
+    {
+     "id": "c",
+     "label": "A cycle of three"
+    },
+    {
+     "id": "d",
+     "label": "A fixed point"
+    }
+   ],
+   "answer": "d",
+   "explain": "An element taken to itself is a fixed point. A derangement is a whole permutation with no fixed points, not a single element.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations:q2"
+  },
+  {
+   "prompt": "You swap exactly two cards in a row and leave every other card where it was. What is this kind of shuffle called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A transposition"
+    },
+    {
+     "id": "b",
+     "label": "A derangement"
+    },
+    {
+     "id": "c",
+     "label": "An identity"
+    },
+    {
+     "id": "d",
+     "label": "A passive permutation"
+    }
+   ],
+   "answer": "a",
+   "explain": "A permutation exchanging two elements and leaving the rest fixed is a transposition. A derangement would move every element.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations:q3"
+  },
+  {
+   "prompt": "A coach picks 2 players from a squad of 5 and lists them in order. What are such ordered lists of distinct members called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fixed points"
+    },
+    {
+     "id": "b",
+     "label": "Anagrams"
+    },
+    {
+     "id": "c",
+     "label": "Partial permutations"
+    },
+    {
+     "id": "d",
+     "label": "Derangements"
+    }
+   ],
+   "answer": "c",
+   "explain": "The ordered sequences of k distinct elements of a set are called k-permutations, or partial permutations.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations:q4"
+  },
+  {
+   "prompt": "You apply one shuffle to a deck, then a second shuffle. Another time you apply the second shuffle first. In general, what do you find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two results are always identical"
+    },
+    {
+     "id": "b",
+     "label": "The first result is always the reverse of the second"
+    },
+    {
+     "id": "c",
+     "label": "The results match only if the deck is small"
+    },
+    {
+     "id": "d",
+     "label": "The two results are typically different"
+    }
+   ],
+   "answer": "d",
+   "explain": "Composition of permutations is in general not commutative, so applying them in a different order typically gives a different result.",
+   "cites": [
+    7,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations:q5"
+  },
+  {
+   "prompt": "A librarian has n different books and wants to know how many orders they can stand in on a shelf. Which expression gives it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2n"
+    },
+    {
+     "id": "b",
+     "label": "n factorial"
+    },
+    {
+     "id": "c",
+     "label": "n squared"
+    },
+    {
+     "id": "d",
+     "label": "n plus one"
+    }
+   ],
+   "answer": "b",
+   "explain": "The number of permutations of n distinct objects is the product of the first n positive integers, called n factorial.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/960px-Rubik%27s_cube.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Permutations",
+  "credit": "This image was created by me, Booyabazooka",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rubik%27s_cube.svg"
+ },
+ "source": {
+  "title": "Permutation",
+  "url": "https://en.wikipedia.org/wiki/Permutation",
+  "revision": 1384190504
+ },
+ "pack": {
+  "id": "auto-counting-permutations",
+  "title": "The many ways to reorder",
+  "question": "How do we describe and count the ways to rearrange a set of things?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Counting",
+   "Permutations"
+  ],
+  "hue": 40,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/960px-Rubik%27s_cube.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Permutations",
+    "credit": "This image was created by me, Booyabazooka · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubik%27s_cube.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The many ways to reorder",
+    "hook": "Anagrams, shuffled lists and codebreaking all rest on one idea of rearranging."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-counting-permutations:1",
+    "transfer": false,
+    "prompt": "You apply shuffle A to a deck and then shuffle B. A friend applies B first and then A. Do you end up with the same order?",
+    "explain": "Composition of two permutations is in general not commutative, so applying them in opposite orders typically gives different results.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Same unless the deck is large",
+        "feedback": "Deck size is not what decides it; composition is not commutative in general."
+       },
+       {
+        "id": "a",
+        "label": "Always the same",
+        "feedback": "Tempting because both use the same two shuffles, but order of application matters in general."
+       },
+       {
+        "id": "b",
+        "label": "Typically different"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-counting-permutations:2",
+    "transfer": false,
+    "prompt": "match each term to its meaning",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Fixed point"
+     },
+     {
+      "id": "l1",
+      "label": "Derangement"
+     },
+     {
+      "id": "l2",
+      "label": "Transposition"
+     },
+     {
+      "id": "l3",
+      "label": "k-permutation"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "An ordered sequence of k distinct elements"
+     },
+     {
+      "id": "r1",
+      "label": "A permutation with no fixed points"
+     },
+     {
+      "id": "r2",
+      "label": "Exchanges two elements, leaves the rest fixed"
+     },
+     {
+      "id": "r0",
+      "label": "An element taken to itself"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each term describes a different feature of a rearrangement: single elements, the whole shuffle, a two-element swap, or an ordered selection."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-counting-permutations:3",
+    "transfer": true,
+    "prompt": "put these events in order, earliest first",
+    "items": [
+     {
+      "id": "a",
+      "label": "Xenocrates counts possible Greek syllables (396-314 BC)"
+     },
+     {
+      "id": "b",
+      "label": "Al-Khalil lists Arabic words with permutations and combinations (717-786)"
+     },
+     {
+      "id": "c",
+      "label": "Lagrange studies permutations of polynomial roots (around 1770)"
+     },
+     {
+      "id": "d",
+      "label": "Rejewski uses cycle types against Enigma (1932-1933)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The dates run from the 4th century BC through the 8th century and the 1770s to the 1930s."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-counting-permutations:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Start with three cards in positions 1, 2 and 3."
+     },
+     {
+      "id": "b",
+      "text": "Swap the first two cards and leave the third card where it is."
+     },
+     {
+      "id": "c",
+      "text": "Card 3 stays in its position, so the shuffle has a fixed point."
+     },
+     {
+      "id": "d",
+      "text": "A shuffle with a fixed point is a derangement."
+     }
+    ],
+    "answer": "d",
+    "explain": "A derangement is a permutation with no fixed points, so a shuffle that leaves card 3 in place is not one."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A permutation rearranges a set, and n distinct objects can be ordered in n factorial ways.",
+    "connections": [
+     {
+      "title": "Cyclic permutation",
+      "place": "Permutations",
+      "node": "knowledge.mathematics.probability.counting.permutations.cyclic-permutation"
+     },
+     {
+      "title": "Derangement",
+      "place": "Permutations",
+      "node": "knowledge.mathematics.probability.counting.permutations.derangement"
+     },
+     {
+      "title": "Permutation pattern",
+      "place": "Permutations",
+      "node": "knowledge.mathematics.probability.counting.permutations.permutation-pattern"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Composition of two permutations is in general not commutative, so applying them in opposite orders typically gives different results.",
+    "source": "Wikipedia sentences 7, 28"
+   },
+   {
+    "claim": "Each term describes a different feature of a rearrangement: single elements, the whole shuffle, a two-element swap, or an ordered selection.",
+    "source": "Wikipedia sentences 9, 35, 36, 37"
+   },
+   {
+    "claim": "The dates run from the 4th century BC through the 8th century and the 1770s to the 1930s.",
+    "source": "Wikipedia sentences 12, 14, 15, 18, 23"
+   },
+   {
+    "claim": "A derangement is a permutation with no fixed points, so a shuffle that leaves card 3 in place is not one.",
+    "source": "Wikipedia sentences 35, 36, 37"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A rearrangement",
+    "text": "In mathematics, a permutation is a bijective function that takes a finite set onto itself. If the set is laid out as an ordered sequence, a permutation moves its members to new places: for a permutation f, f(i) is where the ith member ends up. For example, the permutation sending 1, 2, 3, 4 to 1, 3, 2, 4 can be written simply as the sequence (1, 3, 2, 4).",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Counting them",
+    "text": "Anagrams are a familiar case: they are permutations of a sequence of letters. For n distinct objects, the number of permutations is the product of the first n positive integers, called n factorial and written n!. A related idea is the k-permutation, or partial permutation, an ordered sequence of k distinct elements taken from a set. When k is the size of the whole set, these are just its permutations.",
+    "cites": [
+     5,
+     6,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Combining permutations",
+    "text": "Doing one permutation after another is called permutation composition. All the permutations of a set with n elements form a group under composition, the symmetric group Sₙ. For σ and τ in Sₙ, the product π = στ is given by π(i) = σ(τ(i)). Order usually matters: τσ and στ are typically not equal.",
+    "cites": [
+     7,
+     8,
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Cycles and fixed points",
+    "text": "Applying a permutation over and over to one element traces out a cycle, and a cycle with k elements is a k-cycle. An element the permutation leaves where it is, so that σ(x) = x, is a fixed point. A permutation with no fixed points at all is a derangement. One that swaps two elements and fixes the rest is a transposition.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Ancient beginnings",
+    "text": "Objects like permutations, the hexagrams of the I Ching, were used in China as early as 1000 BC. Plutarch reported that Xenocrates of Chalcedon (396–314 BC) worked out how many syllables the Greek language allows, which would be the first recorded attempt at a hard problem in permutations and combinations. Later the Arab mathematician and cryptographer Al-Khalil (717–786) wrote the Book of Cryptographic Messages. The book makes the first use of permutations and combinations, listing every possible Arabic word with and without vowels.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Into algebra",
+    "text": "Around 1770 Joseph Louis Lagrange noticed that how the roots of a polynomial equation can be permuted is tied to whether the equation can be solved. Through the work of Évariste Galois this led to Galois theory, which fully describes which polynomial equations in one unknown can be solved by radicals. Studying permutations as substitutions on n elements, notably in Cauchy's 1815 memoir, also gave rise to the idea of a group.",
+    "cites": [
+     18,
+     19,
+     21
+    ]
+   },
+   {
+    "heading": "Breaking Enigma",
+    "text": "Permutations helped crack the Enigma machine, the cipher device Nazi Germany used in World War II. The cryptologist Marian Rejewski used the fact that two permutations are conjugate exactly when they share the same cycle type. With it he broke the German cipher around 1932–1933.",
+    "cites": [
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-2",
+   "kind": "book",
+   "title": "7.2 Permutations - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-2-permutations",
+   "note": "A free textbook section on counting arrangements with factorials and permutation formulas, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "sylvestre-21",
+   "kind": "book",
+   "title": "21: Permutations - Elementary Foundations: An Introduction to Topics in Discrete Mathematics (Sylvestre)",
+   "by": "Jeremy Sylvestre",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Foundations%3A_An_Introduction_to_Topics_in_Discrete_Mathematics_(Sylvestre)/21%3A_Permutations",
+   "note": "A free discrete-maths chapter defining permutations, counting them, and counting arrangements of subsets.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

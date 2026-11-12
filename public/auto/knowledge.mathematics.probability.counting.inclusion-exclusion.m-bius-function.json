@@ -1,0 +1,320 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function",
+ "name": "Möbius function",
+ "summary": [
+  {
+   "text": "The Möbius function is used in the Möbius inversion formula and matters in the theory of multiplicative and arithmetic functions.",
+   "cites": [
+    7,
+    18
+   ]
+  },
+  {
+   "text": "Its mean value, in the sense of average orders, is zero, and that statement is equivalent to the prime number theorem.",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "text": "In combinatorics every locally finite poset gets an incidence algebra with its own Möbius function, and the classical one matches the positive integers ordered by divisibility.",
+   "cites": [
+    40,
+    41,
+    42
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Used in",
+   "value": "The Möbius inversion formula",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Average value",
+   "value": "Zero, in the sense of average orders",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Equivalent statement",
+   "value": "The prime number theorem",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Classical setting",
+   "value": "Positive integers partially ordered by divisibility",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "label": "Subset fact behind it",
+   "value": "A non-empty finite set has equally many odd and even subsets",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You can choose any of 4 pizza toppings, including none at all or all four. How many of the possible choices use an odd number of toppings?",
+   "options": [
+    {
+     "id": "a",
+     "label": "4, one for each single topping"
+    },
+    {
+     "id": "b",
+     "label": "10, most of the combinations"
+    },
+    {
+     "id": "c",
+     "label": "16, every possible choice"
+    },
+    {
+     "id": "d",
+     "label": "8, exactly half of the choices"
+    }
+   ],
+   "answer": "d",
+   "explain": "Every non-empty finite set has equally many odd-sized and even-sized subsets, so the 16 choices split evenly into 8 and 8.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function:q1"
+  },
+  {
+   "prompt": "Suppose you average the Möbius function over larger and larger ranges of numbers. Where does that average settle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero"
+    },
+    {
+     "id": "b",
+     "label": "One"
+    },
+    {
+     "id": "c",
+     "label": "One half"
+    },
+    {
+     "id": "d",
+     "label": "It grows without limit"
+    }
+   ],
+   "answer": "a",
+   "explain": "The mean value of the Möbius function, in the sense of average orders, is zero.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function:q2"
+  },
+  {
+   "prompt": "A mathematician shows that the Möbius function averages out to zero. What else has she effectively shown?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Riemann gas has no partition function"
+    },
+    {
+     "id": "b",
+     "label": "Every positive integer is a prime number"
+    },
+    {
+     "id": "c",
+     "label": "The prime number theorem holds"
+    },
+    {
+     "id": "d",
+     "label": "All odd and even subsets are the same"
+    }
+   ],
+   "answer": "c",
+   "explain": "The statement that the average of the Möbius function is zero is equivalent to the prime number theorem.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function:q3"
+  },
+  {
+   "prompt": "In combinatorics, a partially ordered set that is locally finite gets a special collection of functions attached to it. Which member of it is singled out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its Möbius function"
+    },
+    {
+     "id": "b",
+     "label": "Its Mertens function"
+    },
+    {
+     "id": "c",
+     "label": "Its Euler product"
+    },
+    {
+     "id": "d",
+     "label": "Its Riemann zeta function"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every locally finite poset is assigned an incidence algebra, and one distinguished member of it is the poset's Möbius function.",
+   "cites": [
+    40,
+    41
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function:q4"
+  },
+  {
+   "prompt": "The classical Möbius function can be seen as living on a set of numbers with a particular ordering. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Positive integers ordered by their size"
+    },
+    {
+     "id": "b",
+     "label": "Positive integers ordered by divisibility"
+    },
+    {
+     "id": "c",
+     "label": "Only the primes ordered by their size"
+    },
+    {
+     "id": "d",
+     "label": "All integers ordered by their size"
+    }
+   ],
+   "answer": "b",
+   "explain": "The classical Möbius function is essentially the Möbius function of the positive integers partially ordered by divisibility.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function:q5"
+  },
+  {
+   "prompt": "A club of 3 people can form committees of any size, even an empty committee. Two friends argue about how the counts of even-sized and odd-sized committees compare. Who is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The counts are the same"
+    },
+    {
+     "id": "b",
+     "label": "There are more even-sized committees"
+    },
+    {
+     "id": "c",
+     "label": "There are more odd-sized committees"
+    },
+    {
+     "id": "d",
+     "label": "It depends on who is in the club"
+    }
+   ],
+   "answer": "a",
+   "explain": "A non-empty finite set always has an equal number of odd-sized and even-sized subsets; here there are 4 of each.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function:q6"
+  }
+ ],
+ "source": {
+  "title": "Möbius function",
+  "url": "https://en.wikipedia.org/wiki/M%C3%B6bius_function",
+  "revision": 1379889473
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The Möbius function, written μ(n), is a multiplicative function from number theory. The German mathematician August Ferdinand Möbius introduced it in 1832. It turns up all over elementary and analytic number theory, most often inside the Möbius inversion formula that bears the same name. In the 1960s, after work by Gian-Carlo Rota, more general versions entered combinatorics, also written μ(x).",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Multiplicative here means that for coprime a and b, μ(ab) = μ(a)μ(b). This equation leads to the Möbius inversion formula. It is also the main reason μ is important in the study of multiplicative and arithmetic functions.",
+    "cites": [
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "A sum that vanishes",
+    "text": "Using Dirichlet convolution, an identity reads 1 ∗ μ = ε, where ε is the identity for that convolution. One proof uses roots of unity: the nth roots of unity add up to 0, and each one counts as a primitive dth root of unity for just one divisor d of n. A proof from first principles also works. It is trivially true for n = 1, and otherwise the divisors d of n with μ(d) ≠ 0 pair up exactly with the subsets of the set of prime factors of n. The result then follows because every non-empty finite set has as many subsets of odd size as of even size.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Gauss and primitive roots",
+    "text": "Carl Friedrich Gauss gave another description of the function through primitive roots. He proved that if p is prime, adding up all its primitive roots gives a number congruent to μ(p − 1) mod p. In a similar spirit, adding up the primitive n-th roots of unity gives μ(n).",
+    "cites": [
+     5,
+     6,
+     20
+    ]
+   },
+   {
+    "heading": "On average, zero",
+    "text": "Averaged in the sense of average orders, the Möbius function comes out to zero. That statement turns out to be equivalent to the prime number theorem.",
+    "cites": [
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "A gas made of primes",
+    "text": "The function also appears in physics, in the primon gas, or free Riemann gas, a model of supersymmetry. Its basic particles, called primons, have energies log(p), and groups of particles have energies log(n) for any natural number n. If primons are treated as bosons, any natural number can occur; if they are fermions, the Pauli exclusion principle rules out squares. The operator (−1)^F that tells fermions from bosons is then exactly μ(n), and the partition function of this gas is the Riemann zeta function.",
+    "cites": [
+     8,
+     9,
+     10,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Beyond whole numbers",
+    "text": "In combinatorics, every locally finite partially ordered set, or poset, is given an incidence algebra. One special member of that algebra is called the poset's Möbius function. The classical μ is essentially this function for the positive integers ordered by divisibility.",
+    "cites": [
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-mertens",
+   "kind": "video",
+   "title": "Mertens Conjecture",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=uvMGZb0Suyc",
+   "note": "Holly Krieger on Numberphile on the Mertens conjecture about running sums of the Möbius function, and how it failed."
+  }
+ ]
+}

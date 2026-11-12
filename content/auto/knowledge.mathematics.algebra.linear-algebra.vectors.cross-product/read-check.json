@@ -1,0 +1,30 @@
+{
+ "readHash": "b0c6d119ae22949fd3b48f9df2bcbcba1ecb5b46",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "3D binary operation, vector product [1],[17]; perpendicular to both, normal to plane [2]; not the dot product [4]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Applications [3]; magnitude = parallelogram area, perpendicular case [5]; formula [45]; theta is angle [20]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Direction depends on orientation, right-hand rule [19],[21]-[23]; reversed fingers flip sign [25]; anticommutative [24]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Parallel/anti-parallel or zero length gives zero [7],[20]; i x i = 0 from anticommutativity [37]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Gibbs and Heaviside 1881 notation [30]; Clifford 1877 names and reason [31]; still widely used [32]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Depends on orientation [10], pseudovector [12],[26]; generalizations [14]; binary only in 3 and 7 dims [15]."
+  }
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose",
+ "name": "Transpose",
+ "summary": [
+  {
+   "text": "Transposing a matrix flips it over its diagonal, so the row positions and column positions trade places.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Transposing twice brings back the original matrix, and a square matrix has the same determinant as its transpose.",
+   "cites": [
+    3,
+    6
+   ]
+  },
+  {
+   "text": "On a computer, software often skips moving the data and just reads the same numbers in a different order.",
+   "cites": [
+    26,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Introduced",
+   "value": "By the mathematician Arthur Cayley in 1858",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Double flip",
+   "value": "Taking the transpose twice returns the original matrix",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Determinant",
+   "value": "Same as the determinant of the transposed square matrix",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Matrix times transpose",
+   "value": "Gives a square, symmetric matrix",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A table of numbers has 2 rows and 3 columns. You flip it over its diagonal so rows and columns trade places. What shape results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2 rows and 3 columns again"
+    },
+    {
+     "id": "b",
+     "label": "3 rows and 2 columns"
+    },
+    {
+     "id": "c",
+     "label": "2 rows and 2 columns"
+    },
+    {
+     "id": "d",
+     "label": "3 rows and 3 columns"
+    }
+   ],
+   "answer": "b",
+   "explain": "Transposing switches the row and column indices, so an m × n matrix becomes n × m.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose:q1"
+  },
+  {
+   "prompt": "You flip a matrix over its diagonal, then flip the result over its diagonal again. What do you end up with?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The original matrix, exactly as it began"
+    },
+    {
+     "id": "b",
+     "label": "The matrix turned upside down"
+    },
+    {
+     "id": "c",
+     "label": "The matrix with every entry negated"
+    },
+    {
+     "id": "d",
+     "label": "A matrix with doubled entries"
+    }
+   ],
+   "answer": "a",
+   "explain": "Transposition is an involution, meaning it undoes itself when repeated.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose:q2"
+  },
+  {
+   "prompt": "A student computes the determinant of a square matrix, then wonders whether flipping the matrix over its diagonal would change that number. What is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sign of the number always flips"
+    },
+    {
+     "id": "b",
+     "label": "The number becomes its reciprocal"
+    },
+    {
+     "id": "c",
+     "label": "The number stays exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "The number always becomes zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "A square matrix and its transpose have equal determinants.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose:q3"
+  },
+  {
+   "prompt": "A matrix A has 3 rows and 5 columns. You multiply A by its transpose. How big is the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5 rows and 5 columns"
+    },
+    {
+     "id": "b",
+     "label": "3 rows and 5 columns"
+    },
+    {
+     "id": "c",
+     "label": "5 rows and 3 columns"
+    },
+    {
+     "id": "d",
+     "label": "3 rows and 3 columns"
+    }
+   ],
+   "answer": "d",
+   "explain": "For an m by n matrix, A times its transpose is m × m, so here it is a 3 by 3 square.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose:q4"
+  },
+  {
+   "prompt": "A program needs to use the transpose of a huge matrix once. How do linear algebra libraries typically avoid the cost of moving all the data?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They copy the matrix twice to be safe"
+    },
+    {
+     "id": "b",
+     "label": "They store only half of the entries"
+    },
+    {
+     "id": "c",
+     "label": "They read the same data in a different order"
+    },
+    {
+     "id": "d",
+     "label": "They round the entries to save space"
+    }
+   ],
+   "answer": "c",
+   "explain": "Libraries let you mark a matrix as transposed, so the same data is accessed in a different order and nothing has to move.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose:q5"
+  },
+  {
+   "prompt": "A matrix is stored so that each row sits together in memory. A program must repeatedly work down its columns. What may speed it up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Transposing it in memory so columns sit together"
+    },
+    {
+     "id": "b",
+     "label": "Storing a second copy with identical layout"
+    },
+    {
+     "id": "c",
+     "label": "Transposing it only after every operation"
+    },
+    {
+     "id": "d",
+     "label": "Making the rows longer than the columns"
+    }
+   ],
+   "answer": "a",
+   "explain": "With rows contiguous, columns are scattered. Physically transposing makes the columns contiguous, which can improve performance.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.matrices.transpose:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Matrix_transpose.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Transpose",
+  "credit": "Lucas Vieira",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Matrix_transpose.gif"
+ },
+ "source": {
+  "title": "Transpose",
+  "url": "https://en.wikipedia.org/wiki/Transpose",
+  "revision": 1374772291
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Transposing a matrix flips it over its diagonal. The row number and the column number of every entry trade places, so rows become columns and columns become rows. The new matrix is called the transpose of A and is often written A^T. The British mathematician Arthur Cayley introduced the idea in 1858.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Simple rules it follows",
+    "text": "Flipping twice brings you back where you started, so the transpose undoes itself; an operation like this is called an involution. The transpose of a single number, or scalar, is just that same number. A square matrix and its transpose share the same determinant. If a matrix is invertible, its transpose is too, and the inverse of the transpose equals the transpose of the inverse.",
+    "cites": [
+     3,
+     4,
+     6,
+     9
+    ]
+   },
+   {
+    "heading": "Multiplying a matrix by its flip",
+    "text": "If A has m rows and n columns, multiplying it by its own transpose always gives a square matrix: A A^T is m × m, while A^T A is n × n. Both products are symmetric, meaning the entry in row i, column j equals the entry in row j, column i. Each entry of A A^T comes from pairing two rows of A. The entries in positions i, j and j, i come from the same two rows, so they are equal.",
+    "cites": [
+     19,
+     20,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "A link to the dot product",
+    "text": "The transpose ties matrices to the dot product. For two column vectors a and b, the dot product is the single entry of the matrix product a^T b. A related rule lets a matrix move across a dot product by turning into its transpose: (A a) ⋅ b = a ⋅ (A^T b).",
+    "cites": [
+     7,
+     11
+    ]
+   },
+   {
+    "heading": "Transposing on a computer",
+    "text": "On a computer, a program often never moves the numbers at all and simply reads the same data in a different order. Linear algebra libraries such as BLAS let you mark a matrix as one to be read in transposed order, which saves shuffling data around. Sometimes, though, physically rearranging the matrix in memory is worth it. When a matrix is stored row by row, each row sits together in memory but its columns are scattered. If an algorithm such as a fast Fourier transform works on the columns again and again, transposing the stored matrix first may make it run faster.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Beyond grids of numbers",
+    "text": "The main job of matrices is to stand for linear maps between finite-dimensional vector spaces, so the transpose can also be seen as an operation on those maps. That view leads to a broader definition that works for every linear map, including cases, such as infinite-dimensional spaces, where matrices cannot represent the map. In the finite-dimensional case the two pictures agree. The matrix of the transposed map is the transpose of the original map's matrix, whichever basis is chosen.",
+    "cites": [
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ }
+}

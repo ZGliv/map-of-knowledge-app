@@ -1,0 +1,346 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.forecasting.weather-radar",
+ "name": "Weather radar",
+ "summary": [
+  {
+   "text": "A weather radar locates precipitation, works out how it is moving and estimates whether it is rain, snow, hail or something else.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It grew out of World War II, when radar operators found weather echoes masking enemy targets, and surplus radars were turned on precipitation soon after the war.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "text": "Modern Doppler radars track how fast particles move as well as where and how intense precipitation is, which helps show the structure of storms and their potential for severe weather.",
+   "cites": [
+    2,
+    3,
+    38
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Wartime origin",
+   "value": "Weather echoes masked enemy targets in World War II",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "First hook echo",
+   "value": "Recorded by Donald Staggs in 1953",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "First US TV use",
+   "value": "September 1961, during Hurricane Carla",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "Carla evacuation",
+   "value": "An estimated 350,000 people moved",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "US Doppler network",
+   "value": "NEXRAD, construction started in 1988",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Radar wasn't built to watch the weather. How did meteorologists come to use it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Astronomers adapted it to track planets"
+    },
+    {
+     "id": "b",
+     "label": "Wartime operators saw storms cluttering screens"
+    },
+    {
+     "id": "c",
+     "label": "TV stations designed it for weather shows"
+    },
+    {
+     "id": "d",
+     "label": "Airlines built it to locate runways"
+    }
+   ],
+   "answer": "b",
+   "explain": "In World War II, weather caused echoes that masked targets; scientists studied the effect, and surplus radars were used for precipitation after the war.",
+   "cites": [
+    4,
+    5,
+    6
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-radar:q1"
+  },
+  {
+   "prompt": "An older radar shows where rain is falling and how heavy it is. What can a Doppler radar add?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The colour of the clouds"
+    },
+    {
+     "id": "b",
+     "label": "The temperature of each raindrop"
+    },
+    {
+     "id": "c",
+     "label": "How fast the particles are moving"
+    },
+    {
+     "id": "d",
+     "label": "The exact count of hailstones"
+    }
+   ],
+   "answer": "c",
+   "explain": "Doppler radars track the relative velocity of particles in the air, in addition to position and intensity.",
+   "cites": [
+    2,
+    38
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-radar:q2"
+  },
+  {
+   "prompt": "As Hurricane Carla neared Texas in 1961, how did a TV reporter help get people to accept a huge evacuation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He showed the live radar image of the storm"
+    },
+    {
+     "id": "b",
+     "label": "He flew a plane right into the storm's eye"
+    },
+    {
+     "id": "c",
+     "label": "He read out a list of past hurricane deaths"
+    },
+    {
+     "id": "d",
+     "label": "He filmed the waves rising along the coast"
+    }
+   ],
+   "answer": "a",
+   "explain": "Dan Rather broadcast live from a radar site, laying a traced map over the radar display to show Carla's size and eye, which helped people accept evacuating.",
+   "cites": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-radar:q3"
+  },
+  {
+   "prompt": "In 1973 a Doppler radar followed a tornado through its whole life. What did it pick up before the tornado touched the ground?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A burst of hail at ground level"
+    },
+    {
+     "id": "b",
+     "label": "A sudden gap in the rain"
+    },
+    {
+     "id": "c",
+     "label": "A sharp drop in air temperature"
+    },
+    {
+     "id": "d",
+     "label": "Rotation high up in the cloud"
+    }
+   ],
+   "answer": "d",
+   "explain": "Researchers found a mesoscale rotation in the cloud aloft before touchdown, now called the tornadic vortex signature.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-radar:q4"
+  },
+  {
+   "prompt": "A radar sends out microwaves polarized both horizontally and vertically. What does this mainly add?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A longer range for spotting storms"
+    },
+    {
+     "id": "b",
+     "label": "Better clues to whether it's rain or snow"
+    },
+    {
+     "id": "c",
+     "label": "A clearer picture of the ground"
+    },
+    {
+     "id": "d",
+     "label": "Protection from wartime jamming"
+    }
+   ],
+   "answer": "b",
+   "explain": "Dual polarization increases the information on precipitation type, such as rain versus snow.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-radar:q5"
+  },
+  {
+   "prompt": "A radar only measures how strongly falling water reflects its signal. What lets it turn that into how hard it's raining?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A relation tying reflectivity to rainfall rate"
+    },
+    {
+     "id": "b",
+     "label": "A count of the drops passing the dish"
+    },
+    {
+     "id": "c",
+     "label": "A thermometer mounted on the dish"
+    },
+    {
+     "id": "d",
+     "label": "The colour of the returned echo"
+    }
+   ],
+   "answer": "a",
+   "explain": "Marshall and Palmer's work on drop sizes led to the Z-R relation, which links a given radar reflectivity to the rate rainwater is falling.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-radar:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NSSL_Doppler_with_rainshaft_-_NOAA.jpg/960px-NSSL_Doppler_with_rainshaft_-_NOAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Weather radar",
+  "credit": "OAR/ERL/National Severe Storms Laboratory (NSSL)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:NSSL_Doppler_with_rainshaft_-_NOAA.jpg"
+ },
+ "source": {
+  "title": "Weather radar",
+  "url": "https://en.wikipedia.org/wiki/Weather_radar",
+  "revision": 1379927984
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a weather radar does",
+    "text": "A weather radar finds precipitation, works out how it moves and estimates what kind it is: rain, snow, hail and so on. Most modern ones are pulse-Doppler radars, which sense how raindrops are moving as well as how intense the precipitation is. Together these two kinds of reading reveal a storm's structure and how likely it is to turn severe.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Born in wartime",
+    "text": "In World War II, radar operators found that weather produced echoes on their screens that hid possible enemy targets. Ways were found to filter these echoes out, but scientists also started to study them. Soon after the war, surplus radars were turned on precipitation, and some military scientists kept working on uses for the echoes.",
+    "cites": [
+     4,
+     5,
+     6,
+     11
+    ]
+   },
+   {
+    "heading": "Early pioneers",
+    "text": "In the United States, David Atlas, first with the Air Force and later at MIT, developed the first operational weather radars. Marshall and his doctoral student Walter Palmer studied the sizes of raindrops, work that led to the Z-R relation, which ties a radar reflectivity to how fast rain is falling. Between 1950 and 1980, weather services around the world took up reflectivity radars, which measure where precipitation is and how intense it is. In 1953 Donald Staggs made the first recorded radar sighting of a hook echo linked to a tornadic thunderstorm.",
+    "cites": [
+     12,
+     14,
+     17,
+     19
+    ]
+   },
+   {
+    "heading": "A hurricane on live TV",
+    "text": "Weather radar first appeared on US television in September 1961. As Hurricane Carla neared Texas, reporter Dan Rather went to the Weather Bureau radar site in Galveston and broadcast live. He held a clear plastic sheet with a rough outline of the Gulf of Mexico over the radar display to show the storm's size and where its eye was. His report helped people accept an evacuation of about 350,000, the largest in US history at the time. Only 46 people died, and the evacuation was estimated to have saved several thousand lives.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Doppler and tornadoes",
+    "text": "The National Severe Storms Laboratory (NSSL), created in 1964, began experimenting with the Doppler effect. In May 1973 a tornado struck Union City, Oklahoma, and for the first time an NSSL Doppler radar with a 10 cm wavelength followed a tornado's whole life cycle. Researchers saw rotation in the cloud high up before the tornado touched down, now called the tornadic vortex signature. This work persuaded the National Weather Service that Doppler radar mattered greatly for forecasting, and Doppler radars, which also track how fast particles move, went on to replace conventional ones.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     35,
+     38
+    ]
+   },
+   {
+    "heading": "Radar networks today",
+    "text": "Between 1980 and 2000, networks of weather radars became standard across North America, Europe, Japan and other developed countries. In 1988 the United States began building NEXRAD, a network of 10 cm radars also called WSR-88D. After 2000, dual polarization, which sends out microwaves polarized both horizontally and vertically, moved into everyday use and gave more detail on whether precipitation is rain or snow. Radar output is even fed into numerical weather prediction models to improve forecasts.",
+    "cites": [
+     9,
+     37,
+     39,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "jetstream-doppler",
+   "kind": "article",
+   "title": "Doppler Radar",
+   "by": "NOAA JetStream",
+   "url": "https://www.noaa.gov/jetstream/doppler",
+   "note": "An introduction to the US NEXRAD network of Doppler radars and its dual-polarization upgrade."
+  },
+  {
+   "id": "jetstream-how-radar",
+   "kind": "article",
+   "title": "How radar works",
+   "by": "NOAA JetStream",
+   "url": "https://www.noaa.gov/jetstream/doppler/how-radar-works",
+   "note": "How pulses, echoes and Doppler shifts let a radar find rain, measure its speed and scan many heights."
+  },
+  {
+   "id": "stull-radar",
+   "kind": "book",
+   "title": "8.2: Weather Radars",
+   "by": "Roland Stull, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/08%3A_Satellites_and_Radar/8.02%3A_Weather_Radars",
+   "note": "Free textbook section on reflectivity, Z-R relations, Doppler velocity and dual-polarization radar.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

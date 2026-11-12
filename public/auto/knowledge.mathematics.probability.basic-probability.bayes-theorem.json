@@ -1,0 +1,544 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.bayes-theorem",
+ "name": "Bayes' theorem",
+ "summary": [
+  {
+   "text": "Bayes' theorem is a rule for inverting conditional probabilities, so the probability of a cause can be found from its effect.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "For example, it finds the chance a patient has a disease given a positive test, using the chance that the test is positive when the disease is present.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "One of its applications is Bayesian inference, where it turns the probability of observations given a model into the probability of the model given the observations.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Thomas Bayes, a minister, statistician and philosopher",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "First published",
+   "value": "1763, in An Essay Towards Solving a Problem in the Doctrine of Chances",
+   "cites": [
+    7,
+    11
+   ]
+  },
+  {
+   "label": "Independent developer",
+   "value": "Pierre-Simon Laplace, working apart from Bayes",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Editor of the essay",
+   "value": "Richard Price, who edited the manuscript for two years",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You know how often the pavement is wet on days when it rained. You want to know how likely it is that it rained, given that you see a wet pavement. What kind of rule does that job?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A rule that inverts a conditional probability"
+    },
+    {
+     "id": "b",
+     "label": "A rule that averages many wet days together"
+    },
+    {
+     "id": "c",
+     "label": "A rule that adds the two chances up directly"
+    },
+    {
+     "id": "d",
+     "label": "A rule that ignores the wet pavement entirely"
+    }
+   ],
+   "answer": "a",
+   "explain": "Bayes' theorem inverts conditional probabilities, letting you find the probability of a cause given its effect.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem:q1"
+  },
+  {
+   "prompt": "Besides Thomas Bayes, who developed this theorem on their own in the 18th century?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Richard Price, who edited Bayes's papers"
+    },
+    {
+     "id": "b",
+     "label": "Harold Jeffreys, who wrote a 1973 book"
+    },
+    {
+     "id": "c",
+     "label": "Pierre-Simon Laplace, working independently"
+    },
+    {
+     "id": "d",
+     "label": "Alan Turing, in the early 1940s"
+    }
+   ],
+   "answer": "c",
+   "explain": "Laplace developed it independently of Bayes. Price edited Bayes's manuscript, and Jeffreys and Turing came much later.",
+   "cites": [
+    3,
+    9,
+    18,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem:q2"
+  },
+  {
+   "prompt": "Thomas Bayes died leaving an unpublished manuscript. What happened to it next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was lost until Laplace rediscovered it"
+    },
+    {
+     "id": "b",
+     "label": "Bayes's family published it as it stood"
+    },
+    {
+     "id": "c",
+     "label": "A friend returned it to the Royal Society unread"
+    },
+    {
+     "id": "d",
+     "label": "Richard Price edited it for two years and sent it on"
+    }
+   ],
+   "answer": "d",
+   "explain": "Bayes's family gave his papers to Richard Price, who edited the manuscript for two years before sending it to John Canton, who read it aloud at the Royal Society.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem:q3"
+  },
+  {
+   "prompt": "Some writers say the result should really be called the Bayes-Price rule. What is their reasoning?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Price had the idea years before Bayes did"
+    },
+    {
+     "id": "b",
+     "label": "Price found Bayes's work, corrected it and found a use for it"
+    },
+    {
+     "id": "c",
+     "label": "Price proved Bayes's version wrong and replaced it"
+    },
+    {
+     "id": "d",
+     "label": "Price was the first to apply it to roulette wheels"
+    }
+   ],
+   "answer": "b",
+   "explain": "The argument is that Price discovered Bayes's work, recognized its importance, corrected it, contributed to the article and found a use for it.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem:q4"
+  },
+  {
+   "prompt": "Working apart from Bayes, Laplace used conditional probability to connect two quantities, given some evidence. Which two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A prior probability and an updated posterior probability"
+    },
+    {
+     "id": "b",
+     "label": "A sample mean and a population mean"
+    },
+    {
+     "id": "c",
+     "label": "A binomial distribution and a normal one"
+    },
+    {
+     "id": "d",
+     "label": "A winning streak and a losing streak"
+    }
+   ],
+   "answer": "a",
+   "explain": "Laplace formulated the relation of an updated posterior probability to a prior probability, given evidence.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem:q5"
+  },
+  {
+   "prompt": "In the notation P(A | B), what does the vertical bar tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A is divided by B"
+    },
+    {
+     "id": "b",
+     "label": "The chance of A occurring given that B is true"
+    },
+    {
+     "id": "c",
+     "label": "The chance of A and B happening together"
+    },
+    {
+     "id": "d",
+     "label": "The chance of A or B happening"
+    }
+   ],
+   "answer": "b",
+   "explain": "P(A | B) is a conditional probability: the probability of event A occurring given that B is true.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem:q6"
+  }
+ ],
+ "source": {
+  "title": "Bayes' theorem",
+  "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
+  "revision": 1381079899
+ },
+ "pack": {
+  "id": "auto-basic-probability-bayes-theorem",
+  "title": "Flipping a probability around",
+  "question": "How can you get from the chance of a result given a cause to the chance of a cause given a result?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Basic probability",
+   "Bayes' theorem"
+  ],
+  "hue": 45,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Naive_corral.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Naive Bayes classifier",
+    "credit": "gruberaviv · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Naive_corral.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Flipping a probability around",
+    "hook": "A test can be positive for nearly everyone who is sick, yet that alone does not say how likely a positive person is to be sick."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-basic-probability-bayes-theorem:1",
+    "transfer": false,
+    "prompt": "You know how often a test comes out positive when the disease is present. You want the chance that a patient who tested positive has the disease. What does Bayes' theorem do for you?",
+    "explain": "Bayes' theorem gives a rule for inverting conditional probabilities, so the probability of a cause given its effect can be found.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "It inverts the conditional probability, giving disease given positive"
+       },
+       {
+        "id": "b",
+        "label": "It makes the test come out positive more often",
+        "feedback": "The theorem is a calculation rule. It does not change how the test behaves."
+       },
+       {
+        "id": "c",
+        "label": "It shows the two probabilities are always the same number",
+        "feedback": "The chance of a positive given the disease and the chance of the disease given a positive are different questions, which is why a rule is needed to convert one into the other."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-basic-probability-bayes-theorem:2",
+    "transfer": false,
+    "prompt": "Put these events in the order they happened.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Bayes's essay is published"
+     },
+     {
+      "id": "b",
+      "label": "Richard Price is elected a Fellow of the Royal Society"
+     },
+     {
+      "id": "c",
+      "label": "Laplace reproduces and extends Bayes's results"
+     },
+     {
+      "id": "d",
+      "label": "Jeffreys writes a book comparing the theorem to the Pythagorean theorem"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The essay appeared in 1763, Price became a Fellow in 1765, Laplace extended the results in 1774, and Jeffreys wrote in 1973."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-bayes-theorem:3",
+    "transfer": true,
+    "prompt": "Match each piece of notation to what it stands for.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "P(A | B)"
+     },
+     {
+      "id": "l1",
+      "label": "P(B | A)"
+     },
+     {
+      "id": "l2",
+      "label": "P(A)"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Probability of A given that B is true"
+     },
+     {
+      "id": "r1",
+      "label": "Probability of B given that A is true"
+     },
+     {
+      "id": "r2",
+      "label": "Probability of A before new evidence"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "The bar means given. P(A | B) is also called the posterior, and P(A) on its own is often called the prior, before new evidence."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-basic-probability-bayes-theorem:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A test comes out positive for most people who have the disease."
+     },
+     {
+      "id": "b",
+      "text": "So the probability of a positive given the disease is high."
+     },
+     {
+      "id": "c",
+      "text": "So the probability of the disease given a positive must be that same high number."
+     },
+     {
+      "id": "d",
+      "text": "Moving from one to the other takes a rule for inverting conditional probabilities."
+     }
+    ],
+    "answer": "c",
+    "explain": "The two conditional probabilities answer different questions, so one cannot simply be copied to the other. Bayes' theorem is the rule for inverting them."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Bayes' theorem inverts a conditional probability, turning the probability of an effect given a cause into the probability of the cause given the effect.",
+    "connections": [
+     {
+      "title": "Prior probability",
+      "place": "Bayes' theorem",
+      "node": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability"
+     },
+     {
+      "title": "Posterior probability",
+      "place": "Bayes' theorem",
+      "node": "knowledge.mathematics.probability.basic-probability.bayes-theorem.posterior-probability"
+     },
+     {
+      "title": "Bayesian inference",
+      "place": "Bayes' theorem",
+      "node": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference"
+     },
+     {
+      "title": "Naive Bayes classifier",
+      "place": "Bayes' theorem",
+      "node": "knowledge.mathematics.probability.basic-probability.bayes-theorem.naive-bayes-classifier"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Bayes' theorem gives a rule for inverting conditional probabilities, so the probability of a cause given its effect can be found.",
+    "source": "Wikipedia sentences 1, 2"
+   },
+   {
+    "claim": "The essay appeared in 1763, Price became a Fellow in 1765, Laplace extended the results in 1774, and Jeffreys wrote in 1973.",
+    "source": "Wikipedia sentences 7, 13, 16, 18"
+   },
+   {
+    "claim": "The bar means given. P(A | B) is also called the posterior, and P(A) on its own is often called the prior, before new evidence.",
+    "source": "Wikipedia sentences 29, 30, 31, 34"
+   },
+   {
+    "claim": "The two conditional probabilities answer different questions, so one cannot simply be copied to the other. Bayes' theorem is the rule for inverting them.",
+    "source": "Wikipedia sentences 1, 2"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Turning a probability around",
+    "text": "Bayes' theorem, also called Bayes' rule or Bayes' law, is a rule for flipping a conditional probability around. A conditional probability is the chance of one thing given that another is true. The theorem lets you go from the chance of an effect given its cause to the chance of the cause given the effect. Thomas Bayes worked it out in the 18th century, and Pierre-Simon Laplace found it independently.",
+    "cites": [
+     1,
+     2,
+     3,
+     29
+    ]
+   },
+   {
+    "heading": "A medical test",
+    "text": "Picture a doctor testing a patient for a disease. The patient has it or not, and the test comes back positive or negative. A positive result for someone who is sick is a true positive; a positive result for someone who is healthy is a false positive. Bayes' theorem uses how often the test is positive when the disease is present to find how likely a patient with a positive test is to have the disease.",
+    "cites": [
+     2,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "The pieces of the formula",
+    "text": "In words, the theorem says: the chance of A given B equals the chance of B given A, times the chance of A, divided by the chance of B. It only works when P(B) is not zero. P(A | B), the chance of A given that B is true, is called the posterior probability. P(B | A) is the reverse, the chance of B given A, and can be read as a likelihood. P(A) and P(B) are the plain chances of A and B with no conditions, and P(A) is often called the prior, meaning before the new evidence.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     39
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "The rule follows from how joint and conditional probabilities fit together. The chance that A and B both happen, written P(A ∩ B), equals the chance of A given B times the chance of B. By the same logic it also equals the chance of B given A times the chance of A. Setting those two products equal and dividing by P(B) gives Bayes' theorem. When the possibilities are split into A and not-A, written ¬A, the bottom of the fraction becomes a sum of just two terms, one for each case.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Bayes and Price",
+    "text": "Thomas Bayes was a minister, statistician and philosopher. After he died, his family passed his papers to his friend Richard Price. Price edited the manuscript for two years, then sent it to John Canton, who presented it to the Royal Society in December 1763. His essay, which contains the theorem, was published in Philosophical Transactions in 1763. Price wrote its introduction and chose one of the two solutions Bayes gave. Some argue it should really be called the Bayes–Price rule, but using Bayes's name alone is now too settled to change.",
+    "cites": [
+     5,
+     7,
+     9,
+     10,
+     11,
+     12,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Laplace and later",
+    "text": "Working separately from Bayes, Laplace used conditional probability to connect an updated posterior with a prior, given evidence. He repeated and extended Bayes's results in 1774, seemingly unaware of them. Much later, Sir Harold Jeffreys put the theorem on a formal footing of axioms. He wrote that it is to probability theory what the Pythagorean theorem is to geometry.",
+    "cites": [
+     15,
+     16,
+     18
+    ]
+   },
+   {
+    "heading": "Learning from data",
+    "text": "One of the theorem's many uses is Bayesian inference, a way of doing statistics. It takes the probability of what you observed given a model of the world and turns it into the probability of that model given what you observed. When the theorem is written in terms of odds, a quantity called the Bayes factor appears. It shows up in Alan Turing's work of the early 1940s, where he called it the factor in favour of a proposition.",
+    "cites": [
+     4,
+     27
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "3b1b-bayes",
+   "kind": "video",
+   "title": "Bayes' theorem",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=HZGCoVF3YvM",
+   "note": "A visual explanation of Bayes' theorem and the intuition behind it."
+  },
+  {
+   "id": "sep-bayes-theorem",
+   "kind": "article",
+   "title": "Bayes' Theorem",
+   "by": "James Joyce",
+   "url": "https://plato.stanford.edu/entries/bayes-theorem/",
+   "note": "An encyclopedia article on Bayes' theorem, its special forms and its role in reasoning about evidence."
+  },
+  {
+   "id": "cc-stats-bayes",
+   "kind": "video",
+   "title": "You Know I'm All About that Bayes: Crash Course Statistics #24",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=9TDjifpGj-k",
+   "note": "A short video introducing Bayes' theorem with everyday examples."
+  }
+ ]
+}

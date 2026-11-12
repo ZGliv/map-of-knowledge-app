@@ -1,0 +1,360 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm",
+ "name": "Logarithm",
+ "summary": [
+  {
+   "text": "The logarithm of a number is the exponent to which a fixed value, the base, must be raised to produce that number.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "For example, the logarithm of 1000 to base 10 is 3, because 1000 = 10³ = 10 × 10 × 10.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "The logarithm is the inverse of exponentiation, and it turns multiplication into addition, which let tables of logarithms speed up calculation before computers.",
+   "cites": [
+    4,
+    23,
+    32
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Common logarithm",
+   "value": "Base 10, commonly used in science and engineering",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Natural logarithm",
+   "value": "Its base is e ≈ 2.718",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Binary logarithm",
+   "value": "Base 2, used in computer science and photography",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Counting digits",
+   "value": "log₁₀(5986) is about 3.78, and the number has 4 digits",
+   "cites": [
+    39,
+    40
+   ]
+  },
+  {
+   "label": "Euler's role",
+   "value": "Connected logarithms to the exponential function in the 18th century",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Ten times ten gives 100. What is the logarithm of 100 to base 10?",
+   "options": [
+    {
+     "id": "a",
+     "label": "100"
+    },
+    {
+     "id": "b",
+     "label": "10"
+    },
+    {
+     "id": "c",
+     "label": "1"
+    },
+    {
+     "id": "d",
+     "label": "2"
+    }
+   ],
+   "answer": "d",
+   "explain": "The logarithm is the exponent the base must be raised to in order to make the number. Using 10 twice in a product gives 100, so the exponent is 2.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm:q1"
+  },
+  {
+   "prompt": "Sound strength varies over a very wide range. Why do engineers report it on a logarithmic scale such as decibels?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because loud sounds are always exactly ten times a quiet one"
+    },
+    {
+     "id": "b",
+     "label": "Because logarithms make the louder sounds easier to hear"
+    },
+    {
+     "id": "c",
+     "label": "Because it squeezes a huge range of values into small, manageable numbers"
+    },
+    {
+     "id": "d",
+     "label": "Because quiet sounds cannot be measured any other way"
+    }
+   ],
+   "answer": "c",
+   "explain": "Logarithmic scales reduce wide-ranging quantities to smaller scopes, and the decibel expresses ratios as logarithms.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm:q2"
+  },
+  {
+   "prompt": "Before computers, a clerk had to multiply two huge numbers. How did a table of logarithms help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It turned the multiplication into an addition"
+    },
+    {
+     "id": "b",
+     "label": "It turned the multiplication into a subtraction"
+    },
+    {
+     "id": "c",
+     "label": "It listed the final product of every pair of numbers"
+    },
+    {
+     "id": "d",
+     "label": "It replaced the multiplication with a division by the base"
+    }
+   ],
+   "answer": "a",
+   "explain": "The logarithm of a product is the sum of the logarithms, so tables let multiplication be reduced to addition.",
+   "cites": [
+    23,
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm:q3"
+  },
+  {
+   "prompt": "A whole number has a base-10 logarithm of about 6.4. How many digits does the number have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "7"
+    },
+    {
+     "id": "c",
+     "label": "8"
+    },
+    {
+     "id": "d",
+     "label": "64"
+    }
+   ],
+   "answer": "b",
+   "explain": "The number of digits is the smallest integer strictly bigger than the base-10 logarithm, and the next integer above 6.4 is 7.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm:q4"
+  },
+  {
+   "prompt": "A computer science paper writes log with no base shown. Which base is it most likely to mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Base 10"
+    },
+    {
+     "id": "b",
+     "label": "Base e"
+    },
+    {
+     "id": "c",
+     "label": "Base 2"
+    },
+    {
+     "id": "d",
+     "label": "Base 1"
+    }
+   ],
+   "answer": "c",
+   "explain": "In computer science and information theory, log often refers to the base 2 logarithm.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm:q5"
+  },
+  {
+   "prompt": "Raising 5 to some power gives 125. Which statement says the same fact in logarithm language?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That power is the logarithm of 125 to base 5"
+    },
+    {
+     "id": "b",
+     "label": "That power is the logarithm of 5 to base 125"
+    },
+    {
+     "id": "c",
+     "label": "The number 125 is the logarithm of that power to base 5"
+    },
+    {
+     "id": "d",
+     "label": "The number 5 is the logarithm of 125 to that base"
+    }
+   ],
+   "answer": "a",
+   "explain": "The logarithm of a number to a base is the exponent that base must be raised to in order to produce the number.",
+   "cites": [
+    1,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Logarithm_plots_-_vector_reconstruction.svg/960px-Logarithm_plots_-_vector_reconstruction.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Logarithm",
+  "credit": "Richard F. Lyon; 2021 raster redraw by Jacobolus; SVG reconstruction: PJ Geest (",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Logarithm_plots_-_vector_reconstruction.svg"
+ },
+ "source": {
+  "title": "Logarithm",
+  "url": "https://en.wikipedia.org/wiki/Logarithm",
+  "revision": 1384076849
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What power do you need",
+    "text": "A logarithm answers one question: what power do you need? Pick a fixed number called the base. The logarithm of another number is the exponent you have to put on the base to get that number. Ten to the third power is 1000, since 10 × 10 × 10 = 1000, so the base-10 logarithm of 1000 is 3. In symbols, if x = bʸ then log_b x = y, which gives log₁₀ 1000 = 3.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The undo button for powers",
+    "text": "The logarithm with base b undoes raising b to a power: each is the inverse of the other. The base b should be a positive real number other than 1, and x should be positive too. Then there is just one real number y with bʸ = x, and that number is log_b x. It is most commonly read aloud as \"the log, base b, of x\".",
+    "cites": [
+     4,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "A few values to know",
+    "text": "Some values are worth knowing by heart. For any base, log_b b = 1 and log_b 1 = 0, because b¹ = b and b⁰ = 1. Negative answers are possible as well: 2⁻¹ = 1/2, so log₂ 1/2 = −1. The base-10 logarithm even counts digits. log₁₀(5986) is about 3.78, and the next whole number above that, 4, is how many digits 5986 has.",
+    "cites": [
+     28,
+     30,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Turning products into sums",
+    "text": "A handful of rules, called logarithmic identities, tie logarithms together. The log of a product equals the sum of the logs of its factors, and the log of a ratio is the difference of the two logs. For a p-th power you multiply the log by p, and for a p-th root you divide it by p. These rules let printed tables of logarithms swap multiplication and division for addition and subtraction, a great help to anyone calculating before computers existed. The slide rule rests on logarithms too and gives quick answers without tables, though less precise ones.",
+    "cites": [
+     10,
+     23,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Three favourite bases",
+    "text": "Three bases come up most often. Base 10 gives the common logarithm, a standard tool in science and engineering. The natural logarithm uses the number e ≈ 2.718 as its base and is popular in mathematics and physics because it has a very simple derivative. Base 2 gives the binary logarithm, common in computer science and information theory, and also in music theory and photography. When the base is clear from context people just write log x, which in mathematics usually means base e and in computer science usually means base 2.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Taming huge ranges",
+    "text": "Logarithmic scales squeeze quantities that spread over a huge range into a smaller one. The decibel expresses ratios as logarithms, mostly for signal power and amplitude, with sound pressure a common case. In chemistry, pH gives the acidity of a water-based solution on a logarithmic scale. Logarithms also turn up when measuring how complex algorithms and fractals are, in the frequency ratios of musical intervals, and in formulas that count prime numbers.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Where the idea came from",
+    "text": "Our present idea of the logarithm comes from Leonhard Euler, who linked it to the exponential function in the 18th century. He also brought in the letter e for the base of natural logarithms. Thinking of a logarithm as the inverse of exponentiation carries over to other mathematical structures, where it often has several values at once. One example, the discrete logarithm in finite groups, is used in public-key cryptography.",
+    "cites": [
+     11,
+     17,
+     18,
+     20
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-logarithmic-functions",
+   "kind": "book",
+   "title": "6.4: Logarithmic Functions",
+   "by": "OpenStax, College Algebra (on LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Algebra/College_Algebra_1e_(OpenStax)/06%3A_Exponential_and_Logarithmic_Functions/6.04%3A_Logarithmic_Functions",
+   "note": "A free textbook section on logs as the inverse of exponents, with worked examples of common and natural logs.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "openstax-log-properties",
+   "kind": "book",
+   "title": "6.6: Logarithmic Properties",
+   "by": "OpenStax, College Algebra (on LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Algebra/College_Algebra_1e_(OpenStax)/06%3A_Exponential_and_Logarithmic_Functions/6.06%3A_Logarithmic_Properties",
+   "note": "The product, quotient and power rules for logs, plus change of base, with practice problems.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "mathworld-logarithm",
+   "kind": "article",
+   "title": "Logarithm",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Logarithm.html",
+   "note": "A compact reference entry with the main log identities, base-change rules and notation conventions."
+  },
+  {
+   "id": "3b1b-log-fundamentals",
+   "kind": "video",
+   "title": "Logarithm Fundamentals",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=cEvgcoyZvB4",
+   "note": "A 3Blue1Brown lesson on what logarithms are and why their rules work."
+  }
+ ]
+}

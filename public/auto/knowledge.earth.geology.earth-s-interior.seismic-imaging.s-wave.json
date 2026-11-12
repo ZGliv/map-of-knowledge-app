@@ -1,0 +1,245 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave",
+ "name": "S-wave",
+ "summary": [
+  {
+   "text": "An S wave, or shear wave, is one of the two main kinds of elastic body wave, moving through the body of an object rather than along its surface.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is transverse: particles move at right angles to the wave's direction under shear stress, so it cannot cross gases or liquids of very low viscosity.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Because S waves cannot pass through Earth's molten outer core, they leave a shadow zone on the side opposite their origin.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "Second wave type a seismograph detects",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Early theory",
+   "value": "Siméon Denis Poisson, in 1830",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Speed formula",
+   "value": "β = √(μ/ρ)",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Medical use",
+   "value": "Magnetic resonance elastography of living tissue",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Tissues studied",
+   "value": "Liver, brain and bone",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In one kind of seismic wave, the ground moves at right angles to the direction the wave travels. Which wave is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A P wave"
+    },
+    {
+     "id": "b",
+     "label": "A sound wave in air"
+    },
+    {
+     "id": "c",
+     "label": "An S wave"
+    },
+    {
+     "id": "d",
+     "label": "A compression wave"
+    }
+   ],
+   "answer": "c",
+   "explain": "S waves are transverse: particle movement is perpendicular to the direction of propagation.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave:q1"
+  },
+  {
+   "prompt": "Why can an S wave not travel across a still pond of water?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Water is too dense for waves"
+    },
+    {
+     "id": "b",
+     "label": "Runny water cannot resist being sheared"
+    },
+    {
+     "id": "c",
+     "label": "Water soaks up all vibration"
+    },
+    {
+     "id": "d",
+     "label": "The pond is too shallow"
+    }
+   ],
+   "answer": "b",
+   "explain": "An S wave's restoring force comes from shear stress, so it cannot propagate in liquids of zero or very low viscosity.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave:q2"
+  },
+  {
+   "prompt": "S waves cannot cross Earth's molten outer core, yet S waves do travel through the solid inner core. How do they get there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They slip through cracks in the outer core"
+    },
+    {
+     "id": "b",
+     "label": "The inner core makes its own quakes"
+    },
+    {
+     "id": "c",
+     "label": "They curve around the core through the mantle"
+    },
+    {
+     "id": "d",
+     "label": "P waves turn into S waves at the inner core's edge"
+    }
+   ],
+   "answer": "d",
+   "explain": "When a P wave strikes the boundary between the molten and solid cores at an angle, S waves form and travel through the solid inner core.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave:q3"
+  },
+  {
+   "prompt": "A seismograph records a P wave and then, a little later, an S wave from the same quake. Why does the S wave show up later?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It travels more slowly through solid rock"
+    },
+    {
+     "id": "b",
+     "label": "It starts some time after the quake"
+    },
+    {
+     "id": "c",
+     "label": "It must loop around the core"
+    },
+    {
+     "id": "d",
+     "label": "It is only made near the surface"
+    }
+   ],
+   "answer": "a",
+   "explain": "S waves are the second type of wave detected because they travel more slowly in solids than P waves.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave:q4"
+  },
+  {
+   "prompt": "Doctors want to know how stiff a patient's liver is without cutting into it. How does magnetic resonance elastography do this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It passes X-rays through the organ"
+    },
+    {
+     "id": "b",
+     "label": "It sends shear waves in and images them by MRI"
+    },
+    {
+     "id": "c",
+     "label": "It heats the tissue and tracks warming"
+    },
+    {
+     "id": "d",
+     "label": "It tests a blood sample for stiffness"
+    }
+   ],
+   "answer": "b",
+   "explain": "A vibrator sends shear waves into the tissue, MRI views the response, and the measured wave speed and wavelength give properties such as the shear modulus.",
+   "cites": [
+    22,
+    23,
+    24
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave:q5"
+  },
+  {
+   "prompt": "A material's shear stiffness rises while its density stays the same. What happens to the speed of S waves through it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It drops to zero"
+    },
+    {
+     "id": "b",
+     "label": "It falls"
+    },
+    {
+     "id": "c",
+     "label": "It rises"
+    },
+    {
+     "id": "d",
+     "label": "It stays exactly the same"
+    }
+   ],
+   "answer": "c",
+   "explain": "S-wave speed is β = √(μ/ρ), so a larger shear modulus μ with the same density ρ gives a faster wave.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.seismic-imaging.s-wave:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Onde_cisaillement_impulsion_1d_30_petit.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "S-wave",
+  "credit": "Christophe Dang Ngoc Chan (cdang)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Onde_cisaillement_impulsion_1d_30_petit.gif"
+ },
+ "source": {
+  "title": "S wave",
+  "url": "https://en.wikipedia.org/wiki/S_wave",
+  "revision": 1384116006
+ }
+}

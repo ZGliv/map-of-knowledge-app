@@ -1,0 +1,555 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.exponents-and-logarithms",
+ "name": "Exponents and logarithms",
+ "summary": [
+  {
+   "text": "The exponential function is the unique real function that maps zero to one and has a derivative everywhere equal to its value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its argument works as an exponent on the constant e ≈ 2.718, and the function converts sums to products: exp (x + y) = exp x⋅exp y.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "Its inverse function, the natural logarithm, converts products to sums: ln (x⋅y) = ln x + ln y.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "The base",
+   "value": "e ≈ 2.718, raised to the power x",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Inverse function",
+   "value": "The natural logarithm, written ln or log",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Graph shape",
+   "value": "Upward-sloping, and always above the x-axis",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Slope rule",
+   "value": "The tangent's slope at each point equals its height there",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "General form",
+   "value": "Functions of the form f(x) = abˣ are also called exponential",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A curve is drawn so that, at every point, the slope of its tangent is exactly as large as its height above the x-axis. Which graph is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "y = ln x"
+    },
+    {
+     "id": "b",
+     "label": "y = x²"
+    },
+    {
+     "id": "c",
+     "label": "y = eˣ"
+    },
+    {
+     "id": "d",
+     "label": "y = 1/x"
+    }
+   ],
+   "answer": "c",
+   "explain": "For y = eˣ the slope of the tangent at each point equals its height (its y-coordinate) at that point.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms:q1"
+  },
+  {
+   "prompt": "You know the values of exp 2 and exp 3 and want exp 5. What do you do with them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply them together"
+    },
+    {
+     "id": "b",
+     "label": "Add them together"
+    },
+    {
+     "id": "c",
+     "label": "Divide one by the other"
+    },
+    {
+     "id": "d",
+     "label": "Multiply 2 by 3 first"
+    }
+   ],
+   "answer": "a",
+   "explain": "The exponential function converts sums to products: exp (x + y) = exp x⋅exp y, and 5 = 2 + 3.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms:q2"
+  },
+  {
+   "prompt": "You know the natural logarithms of 4 and of 5 and need the natural logarithm of 20. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply them together"
+    },
+    {
+     "id": "b",
+     "label": "Subtract one from the other"
+    },
+    {
+     "id": "c",
+     "label": "Divide one by the other"
+    },
+    {
+     "id": "d",
+     "label": "Add them together"
+    }
+   ],
+   "answer": "d",
+   "explain": "The natural logarithm converts products to sums: ln (x⋅y) = ln x + ln y, and 20 = 4⋅5.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms:q3"
+  },
+  {
+   "prompt": "A savings pile grows so that its speed of growth at any moment is proportional to how much is already in it. What kind of function describes this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A function that adds the same amount each step"
+    },
+    {
+     "id": "b",
+     "label": "An exponential function, such as f(x) = abˣ"
+    },
+    {
+     "id": "c",
+     "label": "A function that equals its own square"
+    },
+    {
+     "id": "d",
+     "label": "A function that stays below the x-axis"
+    }
+   ],
+   "answer": "b",
+   "explain": "Exponential functions grow or decay so that the rate of change is proportional to the current value of f(x).",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms:q4"
+  },
+  {
+   "prompt": "Far to the left on the graph of y = eˣ, where x is a large negative number, what does the curve do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gets arbitrarily close to the x-axis"
+    },
+    {
+     "id": "b",
+     "label": "Crosses the x-axis and goes negative"
+    },
+    {
+     "id": "c",
+     "label": "Levels off at a height of 1"
+    },
+    {
+     "id": "d",
+     "label": "Drops steeply downward"
+    }
+   ],
+   "answer": "a",
+   "explain": "The graph always lies above the x-axis but becomes arbitrarily close to it for large negative x, so the x-axis is a horizontal asymptote.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms:q5"
+  },
+  {
+   "prompt": "A lab measures a quantity that follows f(x) = abˣ. The lab switches to a different measurement unit. Which constant changes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The base b alone"
+    },
+    {
+     "id": "b",
+     "label": "The variable x"
+    },
+    {
+     "id": "c",
+     "label": "The value of a"
+    },
+    {
+     "id": "d",
+     "label": "Nothing at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "A change of measurement unit changes the value of a, which is why it makes no sense to insist that a = 1.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Exp.svg/960px-Exp.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Exponents and logarithms",
+  "credit": "Peter John Acklam",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Exp.svg"
+ },
+ "source": {
+  "title": "Exponential function",
+  "url": "https://en.wikipedia.org/wiki/Exponential_function",
+  "revision": 1370424026
+ },
+ "pack": {
+  "id": "auto-equations-exponents-and-logarithms",
+  "title": "A curve that feeds itself",
+  "question": "What makes a function exponential?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Equations",
+   "Exponents and logarithms"
+  ],
+  "hue": 55,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Exp.svg/960px-Exp.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Exponents and logarithms",
+    "credit": "Peter John Acklam · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Exp.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "A curve that feeds itself",
+    "hook": "Some curves climb at a speed that depends on how high they already are."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-exponents-and-logarithms:1",
+    "transfer": false,
+    "prompt": "A quantity follows f(x) = abˣ, so its rate of change is proportional to its current value. If the value doubles, what happens to the rate?",
+    "explain": "Proportional means the rate moves in step with the value, so a doubled value gives a doubled rate.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "It doubles too"
+       },
+       {
+        "id": "a",
+        "label": "It stays the same",
+        "feedback": "It would only stay put if the rate ignored the current value, but here the rate is tied to it."
+       },
+       {
+        "id": "c",
+        "label": "It is cut in half",
+        "feedback": "The rate grows with the value rather than shrinking against it."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-equations-exponents-and-logarithms:2",
+    "transfer": false,
+    "prompt": "match each expression to its partner",
+    "left": [
+     {
+      "id": "l0",
+      "label": "exp (x + y)"
+     },
+     {
+      "id": "l1",
+      "label": "ln (x⋅y)"
+     },
+     {
+      "id": "l2",
+      "label": "eˣ⋅e⁻ˣ"
+     },
+     {
+      "id": "l3",
+      "label": "1/eˣ"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "1"
+     },
+     {
+      "id": "r0",
+      "label": "exp x⋅exp y"
+     },
+     {
+      "id": "r3",
+      "label": "e⁻ˣ"
+     },
+     {
+      "id": "r1",
+      "label": "ln x + ln y"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The exponential turns sums into products, the natural logarithm turns products into sums, and the functional equation gives the reciprocal rules."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-exponents-and-logarithms:3",
+    "transfer": true,
+    "prompt": "On the graph of y = eˣ you stand at a point whose height is 5. How steep is the tangent there?",
+    "explain": "The slope of the tangent at each point is equal to the height at that point.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Slope 5"
+       },
+       {
+        "id": "c",
+        "label": "Slope 0.5",
+        "feedback": "Nothing in the rule shrinks the slope below the height."
+       },
+       {
+        "id": "a",
+        "label": "Slope 1",
+        "feedback": "A slope of 1 appears at x = 0, not at every point; the slope changes along the curve."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-equations-exponents-and-logarithms:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The exponential function satisfies e⁰ = 1, so it starts above zero."
+     },
+     {
+      "id": "b",
+      "text": "If eˣ < 0 for some x, the function would have to hit zero between 0 and x."
+     },
+     {
+      "id": "c",
+      "text": "But eˣ ≠ 0 for every x, so eˣ > 0 for every real number x."
+     },
+     {
+      "id": "d",
+      "text": "Since eˣ equals its derivative and is positive, it is monotonically decreasing."
+     }
+    ],
+    "answer": "d",
+    "explain": "A function that is positive and equals its derivative has a positive slope everywhere, so it is monotonically increasing, not decreasing."
+   },
+   {
+    "kind": "payoff",
+    "idea": "An exponential function changes at a rate proportional to its current value, and its inverse, the natural logarithm, turns products into sums.",
+    "connections": [
+     {
+      "title": "Exponentiation",
+      "place": "Exponents and logarithms",
+      "node": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation"
+     },
+     {
+      "title": "Logarithm",
+      "place": "Exponents and logarithms",
+      "node": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.logarithm"
+     },
+     {
+      "title": "Exponential growth",
+      "place": "Exponents and logarithms",
+      "node": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth"
+     },
+     {
+      "title": "Compound interest",
+      "place": "Exponents and logarithms",
+      "node": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.compound-interest"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Proportional means the rate moves in step with the value, so a doubled value gives a doubled rate.",
+    "source": "Wikipedia sentences 10"
+   },
+   {
+    "claim": "The exponential turns sums into products, the natural logarithm turns products into sums, and the functional equation gives the reciprocal rules.",
+    "source": "Wikipedia sentences 5, 6, 25, 26"
+   },
+   {
+    "claim": "The slope of the tangent at each point is equal to the height at that point.",
+    "source": "Wikipedia sentences 17"
+   },
+   {
+    "claim": "A function that is positive and equals its derivative has a positive slope everywhere, so it is monotonically increasing, not decreasing.",
+    "source": "Wikipedia sentences 27, 28, 29"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The exponential function",
+    "text": "The exponential function is the one real function that sends zero to one and whose derivative is equal to its own value everywhere. It is written eˣ, or exp x when the input is a long expression. The name comes from treating the input x as an exponent on a fixed number, e ≈ 2.718, which is called the base.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Turning sums into products",
+    "text": "Its key rule turns addition into multiplication: exp (x + y) = exp x⋅exp y. It also sends 0, the identity for addition, to 1, the identity for multiplication. Running the function backwards gives its inverse, the natural logarithm, written ln or log. The logarithm does the opposite job and turns products into sums: ln (x⋅y) = ln x + ln y.",
+    "cites": [
+     5,
+     6,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "The shape of the graph",
+    "text": "The graph of y = eˣ slopes upward, and it rises faster than any power of x. It always stays above the x-axis, since eˣ > 0 for every real number x. For large negative x it comes as close to the axis as you like, so the x-axis is a horizontal asymptote. The rule that the function equals its own derivative has a picture too: at every point, the slope of the tangent to the graph equals the height of the graph there.",
+    "cites": [
+     15,
+     16,
+     17,
+     27
+    ]
+   },
+   {
+    "heading": "Other bases",
+    "text": "Fixing some other base b and letting the exponent vary gives functions of the form f(x) = bˣ, and these are also called exponential functions. For a positive base b, one has b = exp (ln b), and this lets you define bˣ = exp (xln b) for every real number x. In applications the name stretches further, to functions of the form f(x) = abˣ. These grow or decay exponentially: the rate at which f(x) changes as x increases is proportional to the current value of f(x).",
+    "cites": [
+     8,
+     9,
+     10,
+     30,
+     31,
+     32,
+     33,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "A test for exponential behaviour",
+    "text": "There is a simple check for whether measured values follow an exponential function. For any fixed step d, the ratio f(x + d)/f(x) must come out the same whatever x you start from. This matters in the empirical sciences, because it allows a direct experimental test. The constant a in abˣ has a practical role as well: switching the unit of measurement changes a, so it makes no sense to insist that a = 1.",
+    "cites": [
+     38,
+     42,
+     45
+    ]
+   },
+   {
+    "heading": "Beyond real numbers",
+    "text": "The function can also accept complex numbers as inputs. Doing so ties together multiplying complex numbers, rotating in the complex plane, and trigonometry. Euler's formula, e^iθ = cos θ + isin θ, sums up these ties in one line. The idea stretches further still, to inputs such as matrices.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-2",
+   "kind": "book",
+   "title": "6.2 Graphs of Exponential Functions",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/6-2-graphs-of-exponential-functions",
+   "note": "A free textbook section on graphing exponential functions, their horizontal asymptote, domain and range.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-6-3",
+   "kind": "book",
+   "title": "6.3 Logarithmic Functions",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/6-3-logarithmic-functions",
+   "note": "Introduces logarithms as inverses of exponential functions, including the natural logarithm ln x.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-exp",
+   "kind": "article",
+   "title": "Exponential Function",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/ExponentialFunction.html",
+   "note": "A compact reference on eˣ: its derivative, series and limit definitions, and its extension to complex numbers."
+  },
+  {
+   "id": "3b1b-triangle-of-power",
+   "kind": "video",
+   "title": "Triangle of Power",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=sULa9Lc4pck",
+   "note": "A short video proposing one notation that ties together exponents, roots and logarithms."
+  }
+ ]
+}

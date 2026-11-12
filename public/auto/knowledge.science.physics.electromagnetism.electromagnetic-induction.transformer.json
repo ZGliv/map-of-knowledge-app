@@ -1,0 +1,336 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer",
+ "name": "Transformer",
+ "summary": [
+  {
+   "text": "A transformer is a passive component that passes electrical energy from one circuit to another through coils wound on a shared core.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A varying current in one coil makes a varying magnetic flux in the core, which induces a voltage in the other coils with no wire connecting them.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Step-up and step-down transformers change AC voltage levels, and they are essential to sending power over the grid.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Voltage ratio",
+   "value": "Equals the ratio of turns in the windings",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Size range",
+   "value": "From under a cubic centimetre to hundreds of tons",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Based on",
+   "value": "Faraday's law of induction, discovered in 1831",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Grid milestone",
+   "value": "First constant-potential transformer, 1885",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Other job",
+   "value": "Galvanic isolation between circuits",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A transformer's two coils are not electrically connected, yet power moves between them. How?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Through a hidden wire in the casing"
+    },
+    {
+     "id": "b",
+     "label": "Through a changing magnetic flux in the shared core"
+    },
+    {
+     "id": "c",
+     "label": "Through heat travelling along the core"
+    },
+    {
+     "id": "d",
+     "label": "Through static sparks between coils"
+    }
+   ],
+   "answer": "b",
+   "explain": "A varying current in one coil makes varying flux in the core, inducing an emf in the other coil without a conductive link.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer:q1"
+  },
+  {
+   "prompt": "A power company needs to lower the grid's AC voltage for houses. Which device does it use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A step-down transformer"
+    },
+    {
+     "id": "b",
+     "label": "A step-up transformer"
+    },
+    {
+     "id": "c",
+     "label": "A DC battery"
+    },
+    {
+     "id": "d",
+     "label": "A magnet on a string"
+    }
+   ],
+   "answer": "a",
+   "explain": "Step-down transformers decrease voltage level and step-up ones increase it.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer:q2"
+  },
+  {
+   "prompt": "In an ideal transformer the secondary has twice as many turns as the primary. What does the secondary voltage do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Halves"
+    },
+    {
+     "id": "b",
+     "label": "Stays equal"
+    },
+    {
+     "id": "c",
+     "label": "Doubles"
+    },
+    {
+     "id": "d",
+     "label": "Drops to zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "The voltage ratio equals the turns ratio, since each winding sees the same flux.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer:q3"
+  },
+  {
+   "prompt": "A transformer is plugged into steady DC and no voltage appears at the output. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The core is too heavy for DC"
+    },
+    {
+     "id": "b",
+     "label": "The wire is too thick for DC"
+    },
+    {
+     "id": "c",
+     "label": "The output coil is too hot for DC"
+    },
+    {
+     "id": "d",
+     "label": "The flux is steady, so nothing is induced"
+    }
+   ],
+   "answer": "d",
+   "explain": "Only a varying current makes varying flux that induces a voltage; transformers change AC voltage levels.",
+   "cites": [
+    2,
+    5
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer:q4"
+  },
+  {
+   "prompt": "Some flux escapes the core and links only one winding. What is this called, and what does it cause?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Leakage flux, which worsens voltage regulation"
+    },
+    {
+     "id": "b",
+     "label": "Eddy flux, which melts the whole core"
+    },
+    {
+     "id": "c",
+     "label": "Ideal flux, which gives perfect coupling"
+    },
+    {
+     "id": "d",
+     "label": "Static flux, which has no effect on anything"
+    }
+   ],
+   "answer": "a",
+   "explain": "Flux that goes outside the windings is leakage flux, giving leakage inductance and inferior voltage regulation under heavy load.",
+   "cites": [
+    27,
+    28,
+    30
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer:q5"
+  },
+  {
+   "prompt": "Which feature is true of a real transformer but not an ideal one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Voltage that follows the turns ratio"
+    },
+    {
+     "id": "b",
+     "label": "It loses energy to eddy currents in the core"
+    },
+    {
+     "id": "c",
+     "label": "It has two coils sharing one core"
+    },
+    {
+     "id": "d",
+     "label": "It works through changing flux"
+    }
+   ],
+   "answer": "b",
+   "explain": "The ideal model is lossless; real ones have unavoidable losses such as eddy current heating and leakage.",
+   "cites": [
+    10,
+    21,
+    22
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.transformer:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Philips_N4422_without_background.png/960px-Philips_N4422_without_background.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Transformer",
+  "credit": "Raimond Spekking",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Philips_N4422_without_background.png"
+ },
+ "source": {
+  "title": "Transformer",
+  "url": "https://en.wikipedia.org/wiki/Transformer",
+  "revision": 1383699631
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A transformer is a passive component that moves electrical energy from one circuit to one or more others. It does this with coils of wire wound on a shared core. A varying current in any coil makes a varying magnetic flux in the core, and that flux induces a varying electromotive force (EMF) in the other coils. So energy passes between the coils with no metal connection between the circuits.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "What it is used for",
+    "text": "Transformers change AC voltage levels: a step-up transformer raises the voltage and a step-down transformer lowers it. They can also provide galvanic isolation between circuits and link stages of signal-processing circuits. Since the first constant-potential transformer in 1885, they have become essential for sending, distributing and using AC power. They range from radio-frequency transformers smaller than a cubic centimetre to grid units weighing hundreds of tons.",
+    "cites": [
+     5,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "heading": "How it works",
+    "text": "The voltage source is connected to the primary winding, and the load to the secondary winding. A varying current in the primary makes a varying flux in the core, and the secondary winding wraps around that same core. The changing flux induces a changing voltage in the secondary. This is electromagnetic induction, described by Faraday's law, and in line with Lenz's law the current in the secondary makes a flux equal and opposite to the primary's.",
+    "cites": [
+     4,
+     12,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Counting turns",
+    "text": "An ideal transformer is linear, loses no energy and is perfectly coupled. Because the same flux passes through both windings, each winding gets a voltage in proportion to its number of turns. So the ratio of the winding voltages equals the ratio of their turns. The current ratio goes the other way: the voltage ratio and turns ratio are both inversely proportional to it. The ideal model is a reasonable stand-in for a typical commercial transformer.",
+    "cites": [
+     10,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Real-world losses",
+    "text": "Real transformers have losses and inefficiencies the ideal model ignores. Core losses come mostly from hysteresis and eddy currents in the core, and eddy current losses are Joule heating of the core. Some flux, called leakage flux, escapes the core and passes through only one winding. It is not directly a power loss, but it makes the secondary voltage drift from strict proportion to the primary, especially under heavy load. So transformers are normally designed with very low leakage inductance.",
+    "cites": [
+     21,
+     22,
+     23,
+     27,
+     28,
+     30,
+     31,
+     43
+    ]
+   },
+   {
+    "heading": "Leaky on purpose",
+    "text": "Sometimes more leakage is wanted. Designers add long magnetic paths, air gaps or magnetic bypass shunts to limit the current the transformer will supply in a short circuit. Such leaky transformers can feed electric arcs, neon signs and mercury- and sodium-vapour lamps, and can safely handle arc welders that are short-circuited again and again. Air gaps also keep a transformer from saturating, especially audio transformers with a DC current in their windings.",
+    "cites": [
+     32,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp2e-23-7",
+   "kind": "book",
+   "title": "23.7 Transformers",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/23-7-transformers",
+   "note": "An introductory textbook section on how transformers step AC voltage up and down.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up2-15-6",
+   "kind": "book",
+   "title": "15.6 Transformers",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers",
+   "note": "A free college textbook section on transformer coils, turns ratios and power transmission.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

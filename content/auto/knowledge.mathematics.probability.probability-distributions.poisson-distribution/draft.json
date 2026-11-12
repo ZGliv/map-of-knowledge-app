@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "The Poisson distribution gives the probability of a given number of events in a fixed interval when they occur at a known constant mean rate, independently of the time since the last event.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its parameter λ equals both the expected value and the variance, and it can describe counts in an area or volume as well as in time.",
+   "cites": [
+    2,
+    17
+   ]
+  },
+  {
+   "text": "It suits many possible events that are each rare, but fails when the rate changes or events are not independent, such as students arriving in groups.",
+   "cites": [
+    18,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named for",
+   "value": "French mathematician Siméon Denis Poisson",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Parameter λ",
+   "value": "λ = E (X) = Var (X)",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Classic example",
+   "value": "Radioactive decay events during a fixed observation period",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Horse kicks",
+   "value": "In 1898 Bortkiewicz modelled Prussian soldiers killed by horse kicks",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Earlier result",
+   "value": "Abraham de Moivre gave similar results in 1711",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A count follows a Poisson distribution with an average of 4. What is its variance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "16"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "8"
+    }
+   ],
+   "answer": "c",
+   "explain": "The parameter λ is equal to both the expected value and the variance: λ = E (X) = Var (X).",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "A student union counts arrivals each minute. The rate is low during class and high between classes, and friends tend to walk in together. Why is a plain Poisson model a poor fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The count is too large for any distribution"
+    },
+    {
+     "id": "b",
+     "label": "The rate is not constant and arrivals are not independent"
+    },
+    {
+     "id": "c",
+     "label": "Poisson models only apply to radioactive decay"
+    },
+    {
+     "id": "d",
+     "label": "Students never arrive in a fixed interval of time"
+    }
+   ],
+   "answer": "b",
+   "explain": "The rate is not constant and arrivals of individual students are not independent, since students tend to come in groups.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "prompt": "The number of magnitude 5 earthquakes in a country per year may not be Poisson distributed. What could break the assumptions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Earthquakes can only be counted once a decade"
+    },
+    {
+     "id": "b",
+     "label": "Earthquakes are far too rare to count at all"
+    },
+    {
+     "id": "c",
+     "label": "A large quake can raise the chance of aftershocks"
+    },
+    {
+     "id": "d",
+     "label": "A year is too short to be an interval"
+    }
+   ],
+   "answer": "c",
+   "explain": "If one large earthquake increases the probability of aftershocks, events are not independent of each other.",
+   "cites": [
+    24,
+    29
+   ]
+  },
+  {
+   "prompt": "A forest is divided into equal square plots, and an ecologist counts trees in each plot. Can a Poisson distribution be considered?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since it can describe counts in an area, not only time"
+    },
+    {
+     "id": "b",
+     "label": "No, because Poisson counts only work over time intervals"
+    },
+    {
+     "id": "c",
+     "label": "No, because trees are too numerous to count"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if every plot has exactly one tree"
+    }
+   ],
+   "answer": "a",
+   "explain": "The distribution can be used for events in other kinds of intervals, such as a given area, and tree locations are an example.",
+   "cites": [
+    2,
+    22
+   ]
+  },
+  {
+   "prompt": "A system has a huge number of possible events, each of them rare, and you count how many happen in a fixed time. Which distribution can fit under the right circumstances?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A distribution where all counts are equally likely"
+    },
+    {
+     "id": "b",
+     "label": "A distribution with a single certain count"
+    },
+    {
+     "id": "c",
+     "label": "A distribution that always peaks at zero"
+    },
+    {
+     "id": "d",
+     "label": "A Poisson distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Poisson distribution can be applied to systems with a large number of possible events, each of which is rare.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "You only ever record visits where at least one event is guaranteed to happen. Is a plain Poisson distribution right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since a guaranteed event is a rare event"
+    },
+    {
+     "id": "b",
+     "label": "No, such counts may be modelled by a zero-truncated Poisson"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as the rate is at least one"
+    },
+    {
+     "id": "d",
+     "label": "No, since such counts can never be modelled"
+    }
+   ],
+   "answer": "b",
+   "explain": "Examples where at least one event is guaranteed are not Poisson distributed, but can be modelled with a zero-truncated Poisson.",
+   "cites": [
+    30
+   ]
+  }
+ ]
+}

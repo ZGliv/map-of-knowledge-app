@@ -1,0 +1,338 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant",
+ "name": "Equilibrium constant",
+ "summary": [
+  {
+   "text": "The equilibrium constant of a reaction is the value of its reaction quotient at chemical equilibrium.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "For given conditions it does not depend on the starting concentrations, so known values can be used to find the composition of a system at equilibrium.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Parameters like temperature, solvent and ionic strength may all affect its value.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Biological uses",
+   "value": "Oxygen transport by hemoglobin and acid–base homeostasis",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Related constants",
+   "value": "Stability, formation, binding, association and dissociation constants",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "For gases",
+   "value": "Partial pressure in bar replaces concentration",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Acid equilibria",
+   "value": "pKₐ values are customary in organic chemistry and biochemistry",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Computer programs",
+   "value": "Use cumulative constants rather than stepwise ones",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two chemists run the same reaction at the same temperature, one starting with far more reactant than the other. What about their equilibrium constants?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with more reactant gets the larger constant"
+    },
+    {
+     "id": "b",
+     "label": "They are the same, since the constant does not depend on the starting amounts"
+    },
+    {
+     "id": "c",
+     "label": "The one with less reactant gets the larger constant"
+    },
+    {
+     "id": "d",
+     "label": "They differ, since each started from a different composition"
+    }
+   ],
+   "answer": "b",
+   "explain": "For a given set of conditions the equilibrium constant is independent of the initial concentrations.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant:q1"
+  },
+  {
+   "prompt": "A lab repeats a reaction at a higher temperature. What can happen to its equilibrium constant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its value may change, since temperature can affect it"
+    },
+    {
+     "id": "b",
+     "label": "It cannot change, because the constant is fixed for a reaction"
+    },
+    {
+     "id": "c",
+     "label": "It changes only if the starting amounts also change"
+    },
+    {
+     "id": "d",
+     "label": "It becomes zero until the mixture cools down"
+    }
+   ],
+   "answer": "a",
+   "explain": "Reaction parameters like temperature, solvent and ionic strength may all affect the value of the equilibrium constant.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant:q2"
+  },
+  {
+   "prompt": "You know a reaction's starting composition and its equilibrium constant. What can you work out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How long the reaction will take to finish"
+    },
+    {
+     "id": "b",
+     "label": "Whether a catalyst will be needed"
+    },
+    {
+     "id": "c",
+     "label": "The colour of the final mixture"
+    },
+    {
+     "id": "d",
+     "label": "The composition of the system once it reaches equilibrium"
+    }
+   ],
+   "answer": "d",
+   "explain": "Given the initial composition, known equilibrium constant values can be used to determine the composition at equilibrium.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant:q3"
+  },
+  {
+   "prompt": "A reaction involves a gas. In the equilibrium expression, what stands in for the gas?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its partial pressure in bar"
+    },
+    {
+     "id": "b",
+     "label": "Its volume in litres"
+    },
+    {
+     "id": "c",
+     "label": "Its molar mass"
+    },
+    {
+     "id": "d",
+     "label": "Its temperature in kelvins"
+    }
+   ],
+   "answer": "a",
+   "explain": "If X is a gas, the numerical value of its partial pressure in bar is used instead of its concentration.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant:q4"
+  },
+  {
+   "prompt": "A program must handle equilibrium constants for many metal complexes at once. Which kind of constant does general practice favour for it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stepwise constants, one for each binding step"
+    },
+    {
+     "id": "b",
+     "label": "Micro-constants for each individual binding site"
+    },
+    {
+     "id": "c",
+     "label": "Overall constants built up across all the steps"
+    },
+    {
+     "id": "d",
+     "label": "Conditional constants fixed at a single pH"
+    }
+   ],
+   "answer": "c",
+   "explain": "In generalized computer programs it is general practice to use cumulative constants rather than stepwise constants.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant:q5"
+  },
+  {
+   "prompt": "A biochemist measures an equilibrium constant and adds a buffer solution to the mixture. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To speed up the reaction until it reaches equilibrium"
+    },
+    {
+     "id": "b",
+     "label": "To hold the pH at a fixed value during the measurement"
+    },
+    {
+     "id": "c",
+     "label": "To remove the solvent from the mixture"
+    },
+    {
+     "id": "d",
+     "label": "To make the starting concentrations equal"
+    }
+   ],
+   "answer": "b",
+   "explain": "In biochemistry equilibrium constants are often measured at a pH fixed by means of a buffer solution.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.equilibrium-constant:q6"
+  }
+ ],
+ "source": {
+  "title": "Equilibrium constant",
+  "url": "https://en.wikipedia.org/wiki/Equilibrium_constant",
+  "revision": 1341677526
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The equilibrium constant of a reaction is the value its reaction quotient takes once the reaction reaches chemical equilibrium. Equilibrium is the state a changing chemical system approaches after enough time, when its make-up shows no measurable tendency to change further.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "heading": "Why it is useful",
+    "text": "Under a fixed set of conditions, the constant does not depend on how much of each reactant and product you started with. That makes it a tool for prediction. Know the starting mix and the constant, and you can work out what the mix will be at equilibrium. The value is not fixed for every setting, though: temperature, the solvent and ionic strength can all change it.",
+    "cites": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Many names, one idea",
+    "text": "Equilibrium constants help explain many chemical systems. They matter in the body too, in processes such as hemoglobin carrying oxygen in the blood and the steady control of acid and base levels. Several familiar terms are really kinds of equilibrium constant: stability, formation, binding, association and dissociation constants.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Gases and pressure",
+    "text": "For a gas, the expression uses the partial pressure of that gas in bar in place of its concentration. A mixture of gases at equilibrium can have its constant written in terms of partial pressure or of fugacity. Written that way, gas-phase expressions look much like the ones for solutions, with partial pressure standing where concentration would be.",
+    "cites": [
+     7,
+     11,
+     45
+    ]
+   },
+   {
+    "heading": "Acids and pKa",
+    "text": "In organic chemistry and biochemistry, acid dissociation is normally described with pKₐ values, built using the base-10 logarithm of the acid dissociation constant. Bases are described instead with pK_b, the base association constant. For any acid or base the two are tied together by pKₐ + pK_b = pK_w. So pKₐ alone is always enough for calculations.",
+    "cites": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Values that shift with pH",
+    "text": "Some equilibrium constants are conditional. In biochemistry, constants are often measured at a pH held steady by a buffer solution, and different buffers can give different values. A conditional constant for a metal and a ligand varies with pH and peaks at one particular pH. That peak marks the pH where the ligand holds on to the metal most effectively.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Hidden constants",
+    "text": "Sometimes one chemical formula covers two different forms of a molecule, called micro-species. The constants for each form, called micro-constants, cannot be pinned down from experimental data. Yet how much each site is occupied can matter a great deal for biological activity, so chemists have developed ways to estimate them. For L-DOPA, the isomerization constant has been estimated at 0.9, so its two micro-species are present in almost equal amounts at every pH.",
+    "cites": [
+     26,
+     32,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-13-2",
+   "kind": "book",
+   "title": "13.2 Equilibrium Constants",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+   "note": "A free textbook section on writing Q, Kc and Kp, and comparing Q with K to predict the direction of a reaction.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-13-4",
+   "kind": "book",
+   "title": "13.4 Equilibrium Calculations",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations",
+   "note": "Worked examples that use a known equilibrium constant to find the amounts present at equilibrium, with ICE tables.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-k",
+   "kind": "book",
+   "title": "The Equilibrium Constant",
+   "by": "Heather Voigt and Tom Neils, Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/The_Equilibrium_Constant",
+   "note": "A short open module on K expressions for solutions and gases, converting Kc to Kp, with practice problems and answers.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-eq-equations",
+   "kind": "video",
+   "title": "Equilibrium Equations: Crash Course Chemistry #29",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=DP-vWN1yXrY",
+   "note": "A Crash Course Chemistry episode on writing and using equilibrium equations and constants."
+  }
+ ]
+}

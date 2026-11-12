@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A binomial coefficient, read as \"n choose k\", is the number of ways to choose an unordered subset of k elements from a fixed set of n elements.",
+   "cites": [
+    4,
+    8
+   ]
+  },
+  {
+   "text": "Binomial coefficients occur in many areas of mathematics, especially combinatorics, and the C in C_(n,k) stands for combinations or choices.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "They can be computed without listing choices: the top counts ordered selections of k objects and the bottom removes the orderings that give the same group.",
+   "cites": [
+    11,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Expansion link",
+   "value": "The coefficient of Xᵏ in (1 + X)ⁿ counts k-element subsets",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "On calculators",
+   "value": "Calculators use variants of the C notation for single-line displays",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Row sums",
+   "value": "Row n of Pascal's triangle adds up to 2 raised to the n-th power",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Recursive rule",
+   "value": "C_(n,k) = C_(n,k−1)⋅(n − k + 1)/k, where C_(n,0) = 1",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Outside the triangle",
+   "value": "Entries beyond either edge of Pascal's triangle are all zero",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A coach picks which 3 of 8 players will start, and where each one stands does not matter. Which count gives the number of possible choices?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8 times 7 times 6, the ordered picks"
+    },
+    {
+     "id": "b",
+     "label": "3 choose 8, with the numbers swapped"
+    },
+    {
+     "id": "c",
+     "label": "8 choose 3, the unordered subsets"
+    },
+    {
+     "id": "d",
+     "label": "8 times 3, one for each pairing"
+    }
+   ],
+   "answer": "c",
+   "explain": "There are (n k) ways to choose an unordered subset of k elements from n, so here it is 8 choose 3.",
+   "cites": [
+    4,
+    8
+   ]
+  },
+  {
+   "prompt": "In the product formula for a binomial coefficient, what does the top number count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ways to pick k distinct objects while keeping the order of picking"
+    },
+    {
+     "id": "b",
+     "label": "The ways to arrange the k chosen objects among themselves"
+    },
+    {
+     "id": "c",
+     "label": "The ways to split the n objects into two equal groups"
+    },
+    {
+     "id": "d",
+     "label": "The number of subsets of every possible size"
+    }
+   ],
+   "answer": "a",
+   "explain": "The numerator counts sequences of k distinct objects chosen in order; the denominator counts the sequences that give the same group.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "Choosing which 3 of 10 books to take on a trip, versus choosing which 7 to leave behind: how do the counts compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same, by the symmetry between k and n − k"
+    },
+    {
+     "id": "b",
+     "label": "They differ, because 7 is more than 3"
+    },
+    {
+     "id": "c",
+     "label": "They are the same only when the books are identical"
+    },
+    {
+     "id": "d",
+     "label": "They differ, because leaving out is not choosing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Binomial coefficients are symmetric in k and n − k, so choosing 3 to take and 7 to leave give the same count.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "How many ways are there to choose 5 elements from a set that has only 3?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One, taking every element"
+    },
+    {
+     "id": "b",
+     "label": "Zero, since there are not enough"
+    },
+    {
+     "id": "c",
+     "label": "Three, one per element"
+    },
+    {
+     "id": "d",
+     "label": "Ten, as in 5 choose 3"
+    }
+   ],
+   "answer": "b",
+   "explain": "Entries of Pascal's triangle past its edges are all zero, and terms with k > n are zero.",
+   "cites": [
+    17,
+    19
+   ]
+  },
+  {
+   "prompt": "A mathematician adds up every entry in row n of Pascal's triangle. What total does she get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "n times 2"
+    },
+    {
+     "id": "b",
+     "label": "n squared"
+    },
+    {
+     "id": "c",
+     "label": "n factorial"
+    },
+    {
+     "id": "d",
+     "label": "2 raised to the n-th power"
+    }
+   ],
+   "answer": "d",
+   "explain": "The elements in the n-th row of Pascal's triangle always add up to 2 raised to the n-th power.",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "prompt": "You know the first entry of row n of Pascal's triangle and want the k-th one using the recursive rule. Where do you begin and which way do you go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Begin at the right edge and work leftward"
+    },
+    {
+     "id": "b",
+     "label": "Begin at the middle and work outward both ways"
+    },
+    {
+     "id": "c",
+     "label": "Begin at 1 on the left and work rightward"
+    },
+    {
+     "id": "d",
+     "label": "Begin at the row total and divide it down"
+    }
+   ],
+   "answer": "c",
+   "explain": "Start at the leftmost coefficient, always 1, and recursively compute the next coefficient to its right until the k-th is reached.",
+   "cites": [
+    14,
+    15
+   ]
+  }
+ ]
+}

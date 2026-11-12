@@ -1,0 +1,97 @@
+{
+  "title": "Salt: a crystal of swapped electrons",
+  "question": "What holds an ionic compound like table salt together, and what does that bond make it do?",
+  "hook": "Dissolve salt in water and it conducts electricity, yet the dry crystal does not.",
+  "idea": "Ionic bonds come from electrons moving from one atom to another, and the resulting charged ions stack into a crystal that behaves in its own way.",
+  "beats": [
+    {
+      "kind": "predict",
+      "prompt": "You dissolve table salt in water and connect a battery. What happens to the water's ability to carry current?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It conducts, because the lattice breaks into free ions"
+        },
+        {
+          "id": "b",
+          "label": "It does not, because salt has no charged parts",
+          "feedback": "Salt is made of charged ions; they are just locked in place when solid."
+        },
+        {
+          "id": "c",
+          "label": "It does not, because water stops ions from moving",
+          "feedback": "Water is what frees the ions, by breaking the lattice apart."
+        }
+      ],
+      "answer": "a",
+      "explain": "Ionic compounds break up into ions when dissolved in water, and the free ions make the solution a good conductor.",
+      "cites": [
+        19,
+        21
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "put these steps of forming sodium chloride in order",
+      "items": [
+        "Sodium atoms lose an electron",
+        "Chlorine atoms gain an electron",
+        "Sodium cations and chloride anions attract each other",
+        "The ions stack in a crystal lattice"
+      ],
+      "ends": [
+        "Start",
+        "End"
+      ],
+      "explain": "Ionic bonding begins with electron transfer, and the electrostatic attraction between the resulting ions leads to the formation of a lattice.",
+      "cites": [
+        37,
+        39,
+        27
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "match each term to its meaning",
+      "pairs": [
+        [
+          "Cation",
+          "Atom that lost electrons, positive"
+        ],
+        [
+          "Anion",
+          "Atom that gained electrons, negative"
+        ],
+        [
+          "Ionic lattice",
+          "Alternating stack of ions in a crystal"
+        ]
+      ],
+      "explain": "Losing electrons makes a positive cation, gaining them makes a negative anion, and the ions pack together as a lattice.",
+      "cites": [
+        18,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "kind": "flaw",
+      "prompt": "One step in this reasoning about ionic compounds is wrong; which?",
+      "steps": [
+        "Sodium gives an electron to chlorine.",
+        "The two charged ions attract each other.",
+        "So salt is made of separate NaCl molecules.",
+        "So the ratio of ions in the crystal stays fixed."
+      ],
+      "wrong": 2,
+      "explain": "In an ionic lattice it is usually not possible to distinguish discrete molecular units, so ionic compounds are not molecular.",
+      "cites": [
+        28,
+        31,
+        32,
+        33
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.metabolism.enzyme",
+ "name": "Enzyme",
+ "summary": [
+  {
+   "text": "An enzyme is a biological macromolecule, usually a protein, that speeds up chemical reactions without being consumed.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Enzymes work by lowering a reaction's activation energy, often by factors of millions.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "text": "Nearly all metabolic processes in a cell depend on enzyme catalysis to run at biologically relevant rates.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Reactions catalyzed",
+   "value": "Over 5,000 types of biochemical reactions",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "First discovery",
+   "value": "Anselme Payen found the enzyme diastase in 1833",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Naming habit",
+   "value": "Names usually end in -ase, as in lactase",
+   "cites": [
+    30,
+    39
+   ]
+  },
+  {
+   "label": "Substrates",
+   "value": "The molecules enzymes act on, converted into products",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "RNA catalysts",
+   "value": "Ribozymes are sometimes classified as enzymes despite being RNA",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cook sprinkles papain onto a tough cut of meat. What does it do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It adds fat so that the meat feels softer once cooked"
+    },
+    {
+     "id": "b",
+     "label": "It heats the meat from within, so it cooks more quickly"
+    },
+    {
+     "id": "c",
+     "label": "It breaks down proteins in the meat, improving the texture"
+    },
+    {
+     "id": "d",
+     "label": "It coats the meat so that water cannot escape the surface"
+    }
+   ],
+   "answer": "c",
+   "explain": "Papain is a proteolytic enzyme used in meat tenderizers to hydrolyze proteins and improve texture.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.enzyme:q1"
+  },
+  {
+   "prompt": "One enzyme molecule helps convert a substrate, then goes on to convert another, and another. Why can it keep working?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It speeds the reaction up without being consumed by it"
+    },
+    {
+     "id": "b",
+     "label": "It is slowly consumed, but the cell makes more each cycle"
+    },
+    {
+     "id": "c",
+     "label": "It changes the final balance of the reaction toward product"
+    },
+    {
+     "id": "d",
+     "label": "It joins permanently to the product and travels on with it"
+    }
+   ],
+   "answer": "a",
+   "explain": "Enzymes accelerate reactions without being consumed, and they are regenerated at the end of each cycle.",
+   "cites": [
+    1,
+    11
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.enzyme:q2"
+  },
+  {
+   "prompt": "Without help, a reaction would take millions of years, but with an enzyme it finishes in milliseconds. How does the enzyme manage this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It pushes the final balance of the reaction toward more product"
+    },
+    {
+     "id": "b",
+     "label": "It supplies extra reactant so that the reaction has more to use"
+    },
+    {
+     "id": "c",
+     "label": "It heats the cell so that molecules collide far more often"
+    },
+    {
+     "id": "d",
+     "label": "It lowers the activation energy that the reaction must overcome"
+    }
+   ],
+   "answer": "d",
+   "explain": "Enzymes raise the reaction rate by lowering its activation energy, and they do not change the overall equilibrium.",
+   "cites": [
+    9,
+    10,
+    11
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.enzyme:q3"
+  },
+  {
+   "prompt": "A lab heats an enzyme solution far beyond its best temperature, and the reaction it drives stops. What is the likeliest reason?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The substrate runs out because heat uses it up faster"
+    },
+    {
+     "id": "b",
+     "label": "The enzyme loses its structure, which ends its function"
+    },
+    {
+     "id": "c",
+     "label": "The enzyme speeds up so much that it burns itself out"
+    },
+    {
+     "id": "d",
+     "label": "The warmer solution makes every reaction in it stop at once"
+    }
+   ],
+   "answer": "b",
+   "explain": "Outside optimal conditions enzymes can lose their structure through denaturation, which means a loss of function.",
+   "cites": [
+    12,
+    14
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.enzyme:q4"
+  },
+  {
+   "prompt": "A mixture holds yeast extract but no living yeast cells, and it still ferments sugar. What does this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fermentation can happen without living cells, through enzymes"
+    },
+    {
+     "id": "b",
+     "label": "Fermentation needs a vital force found only in living yeast"
+    },
+    {
+     "id": "c",
+     "label": "The extract must hide a few living yeast cells doing the work"
+    },
+    {
+     "id": "d",
+     "label": "Sugar ferments by itself when left to stand, with no help at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Buchner found that sugar was fermented by yeast extract with no living cells present, which showed cell-free fermentation by an enzyme he named zymase.",
+   "cites": [
+    22,
+    27,
+    28,
+    29
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.enzyme:q5"
+  },
+  {
+   "prompt": "A drug lowers the activity of a harmful enzyme without removing it. What kind of molecule is the drug acting as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An activator, which enhances the enzyme's activity"
+    },
+    {
+     "id": "b",
+     "label": "A substrate, which the enzyme turns into a product"
+    },
+    {
+     "id": "c",
+     "label": "An isozyme, a different enzyme doing the same reaction"
+    },
+    {
+     "id": "d",
+     "label": "An inhibitor, which diminishes the enzyme's activity"
+    }
+   ],
+   "answer": "d",
+   "explain": "Enzyme activity can be enhanced by activators or diminished by inhibitors, and many inhibitors serve as drugs or poisons.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.biology.molecules-cells.metabolism.enzyme:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Glucosidase_enzyme.png/960px-Glucosidase_enzyme.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Enzyme",
+  "credit": "Thomas Shafee",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Glucosidase_enzyme.png"
+ },
+ "source": {
+  "title": "Enzyme",
+  "url": "https://en.wikipedia.org/wiki/Enzyme",
+  "revision": 1376216228
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an enzyme is",
+    "text": "An enzyme is a large biological molecule, usually a protein, that works as a catalyst: it speeds up a chemical reaction without being used up. The molecules it acts on are called substrates, and it turns them into products. Almost every metabolic process in a cell needs enzymes to run fast enough to be useful to life. A metabolic pathway is usually a chain of steps, each one handled by an enzyme. Enzymes are known to drive more than 5,000 types of biochemical reaction.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "How they speed things up",
+    "text": "Enzymes speed up reactions by lowering what is called the activation energy, often by factors of millions. One enzyme, orotidine 5′-phosphate decarboxylase, makes a reaction that would otherwise take millions of years happen in milliseconds. Like any catalyst, an enzyme does not change the overall equilibrium of a reaction. It comes out restored at the end of each cycle, ready to work again.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Picky and sensitive",
+    "text": "What sets enzymes apart is how specific they are, which comes from each one's unique three-dimensional structure. They are also sensitive to conditions such as temperature and pH. Activators can raise their activity and inhibitors can lower it, and many of these substances serve as drugs or poisons. Outside the conditions that suit them, enzymes can lose their structure, a change called denaturation, and stop working.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Enzymes at work for people",
+    "text": "Enzymes have many practical uses. Industry uses them to help make antibiotics and other complex molecules. Biological washing powders contain enzymes that break down stains made of protein, starch and fat. Meat tenderizers use papain and similar protein-cutting enzymes to break down proteins, improving the texture of meat and making it easier to digest.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "From ferments to enzymes",
+    "text": "By the late 1600s and early 1700s, people knew that stomach juices digest meat and that saliva and plant extracts turn starch into sugar, but not how. In 1833 the French chemist Anselme Payen discovered the first enzyme, diastase. Decades later Louis Pasteur studied how yeast ferments sugar into alcohol. He concluded that a vital force inside living yeast cells, called ferments, was responsible. In 1877 Wilhelm Kühne first used the word enzyme, from an Ancient Greek word meaning leavened, or in yeast.",
+    "cites": [
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "No living cells needed",
+    "text": "In 1897 Eduard Buchner submitted his first paper on yeast extracts. In experiments at the University of Berlin he showed that sugar still fermented when no living yeast cells were present, and he named the enzyme responsible zymase. This discovery of cell-free fermentation won him the 1907 Nobel Prize in Chemistry. Following his lead, enzymes are usually named by adding -ase to the substrate or the type of reaction, so lactase is the enzyme that cleaves lactose.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Proteins after all",
+    "text": "In the early 1900s nobody yet knew what enzymes were chemically. Many scientists linked their activity to proteins, while others, such as Richard Willstätter, argued that proteins only carried the true enzymes. John Howard Northrop and Wendell Meredith Stanley settled it through work on the digestive enzymes pepsin, trypsin and chymotrypsin, showing that pure proteins can be enzymes. They were among three scientists given the 1946 Nobel Prize in Chemistry. Later, crystallized enzymes let researchers solve their structures by x-ray crystallography, first for lysozyme in 1965, which began the field of structural biology.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-6-5",
+   "kind": "book",
+   "title": "6.5 Enzymes",
+   "by": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+   "note": "A free textbook section on how enzymes lower activation energy and how temperature, pH and inhibitors affect them."
+  },
+  {
+   "id": "in-our-time-enzymes",
+   "kind": "documentary",
+   "title": "Enzymes",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b08rp369",
+   "minutes": 49,
+   "note": "An In Our Time discussion of enzymes and how they control the reactions in living organisms."
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine",
+ "name": "Internal combustion engine",
+ "summary": [
+  {
+   "text": "An internal combustion engine is a heat engine that burns fuel with air in a combustion chamber that is part of the working fluid's flow path.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The hot, high-pressure gas from combustion pushes directly on parts such as pistons, turbine blades, a rotor or a nozzle, turning chemical energy into motion.",
+   "cites": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "German engineer Nicolaus Otto designed the first modern one in 1876, and today most are used in mobile roles such as cars, aircraft and boats.",
+   "cites": [
+    7,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First modern design",
+   "value": "Nicolaus Otto's engine, 1876",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Typical fuels",
+   "value": "Natural gas, gasoline, diesel fuel or ethanol",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Main use",
+   "value": "Mostly mobile: cars, aircraft and boats",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Diesel's early fuel",
+   "value": "Rudolf Diesel ran engines on peanut oil by 1900",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Compression ignition",
+   "value": "First developed by Rudolf Diesel in 1892",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An old boiler heats water, and the steam it makes never touches the flames' exhaust gases before pushing a piston. How does this engine differ from a car engine?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its fuel burns far away, so it is not a heat engine"
+    },
+    {
+     "id": "b",
+     "label": "Its working fluid is the burnt fuel gas, like a car's"
+    },
+    {
+     "id": "c",
+     "label": "It burns fuel outside, keeping the working fluid separate"
+    },
+    {
+     "id": "d",
+     "label": "It has no combustion, so no fuel is needed"
+    }
+   ],
+   "answer": "c",
+   "explain": "Steam engines are external combustion engines: energy goes to a working fluid not mixed with combustion products, unlike an internal combustion engine.",
+   "cites": [
+    1,
+    10
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine:q1"
+  },
+  {
+   "prompt": "In one engine design, the expanding burnt gas pushes on a spinning rotor instead of a piston. Which engine is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Wankel engine"
+    },
+    {
+     "id": "b",
+     "label": "A Stirling engine"
+    },
+    {
+     "id": "c",
+     "label": "A steam piston engine"
+    },
+    {
+     "id": "d",
+     "label": "A two-stroke engine"
+    }
+   ],
+   "answer": "a",
+   "explain": "The force can be applied to pistons, turbine blades, a rotor (Wankel engine) or a nozzle.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine:q2"
+  },
+  {
+   "prompt": "What energy change takes place when fuel burns in an internal combustion engine and the car moves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Motion energy is stored back as fuel"
+    },
+    {
+     "id": "b",
+     "label": "Electrical energy turns into heat"
+    },
+    {
+     "id": "c",
+     "label": "Light from the spark is turned into motion"
+    },
+    {
+     "id": "d",
+     "label": "Chemical energy becomes kinetic energy"
+    }
+   ],
+   "answer": "d",
+   "explain": "The process transforms chemical energy into kinetic energy that moves or powers whatever the engine is attached to.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine:q3"
+  },
+  {
+   "prompt": "A car's four-stroke engine fires in separate bursts, while a jet or gas turbine burns fuel without stopping. How are these two classes described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The car engine is external combustion; the jet is internal"
+    },
+    {
+     "id": "b",
+     "label": "The car has intermittent combustion; the jet has continuous"
+    },
+    {
+     "id": "c",
+     "label": "Both use intermittent combustion, just at different speeds"
+    },
+    {
+     "id": "d",
+     "label": "Neither one counts as an internal combustion engine"
+    }
+   ],
+   "answer": "b",
+   "explain": "Piston engines have intermittent combustion, while gas turbines, jet engines and most rocket engines use continuous combustion; all are internal combustion engines.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine:q4"
+  },
+  {
+   "prompt": "A farmer wants a renewable fuel for a compression ignition engine, the kind Rudolf Diesel invented. Which fuel fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bioethanol"
+    },
+    {
+     "id": "b",
+     "label": "Ethyl tert-butyl ether"
+    },
+    {
+     "id": "c",
+     "label": "Biodiesel"
+    },
+    {
+     "id": "d",
+     "label": "Natural gas"
+    }
+   ],
+   "answer": "c",
+   "explain": "Biodiesel is a renewable fuel used in compression ignition engines, while bioethanol and ETBE are used in spark ignition engines.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine:q5"
+  },
+  {
+   "prompt": "A planner says hydrogen can only come from oil and gas wells. Where can it really come from, for an engine that uses it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only from renewable energy"
+    },
+    {
+     "id": "b",
+     "label": "Only from the air in the combustion chamber"
+    },
+    {
+     "id": "c",
+     "label": "Only from ethanol blended with fossil fuels"
+    },
+    {
+     "id": "d",
+     "label": "Either fossil fuels or renewable energy"
+    }
+   ],
+   "answer": "d",
+   "explain": "Hydrogen, though rarely used in these engines, can be obtained from either fossil fuels or renewable energy.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Four_stroke_engine_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Internal combustion engine",
+  "credit": "User:Wapcaplet",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Four_stroke_engine_diagram.jpg"
+ },
+ "source": {
+  "title": "Internal combustion engine",
+  "url": "https://en.wikipedia.org/wiki/Internal_combustion_engine",
+  "revision": 1377075087
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Burning fuel inside the engine",
+    "text": "An internal combustion engine is a heat engine that burns its fuel inside itself. The fuel burns with an oxidizer, most often air, inside a chamber that is built into the route the working fluid takes. The burning makes gases that are very hot and under high pressure. As those gases expand, they push directly on parts of the engine.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "From push to motion",
+    "text": "What gets pushed depends on the design: pistons in a piston engine, blades in a gas turbine, a rotor in a Wankel engine, or a nozzle in a jet engine. The push moves that part through a distance. In this way chemical energy stored in the fuel becomes energy of motion. That motion drives, propels or powers whatever the engine is connected to.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Two families",
+    "text": "Most often the name means an engine where burning happens in separate bursts, like the familiar two-stroke and four-stroke piston engines and the Wankel rotary engine. A second group burns fuel without stopping: gas turbines, jet engines and most rocket engines work this way on the same basic idea. Compare this with an external combustion engine, such as a steam or Stirling engine. There the energy reaches a working fluid that never mixes with the products of burning.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Where they are used",
+    "text": "Some of these engines sit still, but most are built to move, and they are the main power source for cars, aircraft and boats. Piston engines that move back and forth are by far the most common power for vehicles on land and water, including motorcycles and ships. Most run on fuels made of hydrocarbons, such as natural gas, gasoline, diesel or ethanol. Renewable fuels such as biodiesel are used as well, and renewable fuels are often mixed in with fossil ones.",
+    "cites": [
+     12,
+     13,
+     14,
+     16,
+     44
+    ]
+   },
+   {
+    "heading": "A long line of inventors",
+    "text": "Many scientists and engineers had a hand in these engines. John Barber developed the gas turbine in 1791, and in 1807 the French engineers Nicéphore and Claude Niépce ran an early engine on controlled dust explosions that drove a boat on the Saône river. Belgian engineer Jean Joseph Etienne Lenoir made a gas-fired engine in 1860. The first engines to succeed commercially appeared in the middle of the 19th century.",
+    "cites": [
+     6,
+     18,
+     19,
+     23,
+     24,
+     31
+    ]
+   },
+   {
+    "heading": "Otto, Benz and Diesel",
+    "text": "The German engineer Nicolaus Otto designed the first modern internal combustion engine in 1876. Working with Gottlieb Daimler and Wilhelm Maybach, he patented the four-cycle engine with a compressed charge. In 1886 Benz started the first commercial production of motor vehicles powered this way. Rudolf Diesel developed the first compression ignition engine with a compressed charge in 1892, and by 1900 he was running his engines on peanut oil.",
+    "cites": [
+     7,
+     15,
+     34,
+     36,
+     37
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "readHash": "187c9c9e16467cf498016d4b31c4388118286b23",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Fundamental rule relating marginal to conditional (1), total over several events hence the name (2), summation (4)"
+  },
+  "r1": {
+   "supported": true,
+   "why": "Summation as weighted average, 'average'/'overall probability' (4), zero-probability terms omitted since finite (3)"
+  },
+  "r2": {
+   "supported": true,
+   "why": "Two factories (5), 99%/95% (6), 60%/40% (7), question (8), P(A|B_Y)=95/100 (9)"
+  },
+  "r3": {
+   "supported": true,
+   "why": "Weighting 99% by 60% and 95% by 40% (6, 7) gives 97.4% (10), which follows arithmetically"
+  },
+  "r4": {
+   "supported": true,
+   "why": "Law of alternatives for discrete case (11), other authors' names (12), Grimmett and Welsh partition theorem and total expectation (13)"
+  }
+ }
+}

@@ -1,0 +1,336 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field",
+ "name": "Magnetic field",
+ "summary": [
+  {
+   "text": "A magnetic field is a property of space that tells you how strong the magnetic influence is at each location.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Because strength and direction both change from place to place, it is described by assigning an arrow-like vector to every point in space.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Motors, generators, transformers, electromagnets and inductors are all designed around magnetic fields.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit of field strength",
+   "value": "The tesla, with 1 tesla equal to 10,000 gauss",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "label": "Measuring instrument",
+   "value": "A magnetometer measures the local magnetic field",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Finest precision reached",
+   "value": "Gravity Probe B reached 5 aT (5×10⁻¹⁸ T)",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Field line rule",
+   "value": "Closer lines mean a stronger field",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "label": "Compass behaviour",
+   "value": "A small compass points along the field line",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On a weather-style map of a magnet's surroundings, why must each point carry an arrow and not only a number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the field has a direction as well as a strength"
+    },
+    {
+     "id": "b",
+     "label": "Because the strength is always the same everywhere"
+    },
+    {
+     "id": "c",
+     "label": "Because the arrow shows the temperature of the magnet"
+    },
+    {
+     "id": "d",
+     "label": "Because numbers cannot be measured in space"
+    }
+   ],
+   "answer": "a",
+   "explain": "Both the strength and the direction of a magnetic field can change with location, so it is a vector field.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field:q1"
+  },
+  {
+   "prompt": "In a picture of field lines around a magnet, you see the lines crowded together near one end and spread out far away. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The field is weaker where the lines crowd together"
+    },
+    {
+     "id": "b",
+     "label": "The field is the same, only the drawing differs"
+    },
+    {
+     "id": "c",
+     "label": "The field is stronger where the lines are closer"
+    },
+    {
+     "id": "d",
+     "label": "The field is zero where the lines are spread out"
+    }
+   ],
+   "answer": "c",
+   "explain": "The strength of the field is proportional to how close the lines are. A different drawing resolution would show more or fewer lines, though.",
+   "cites": [
+    40,
+    43
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field:q2"
+  },
+  {
+   "prompt": "You place a tiny compass at one point near a magnet. Which description of its needle is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It points along the field line passing through that spot"
+    },
+    {
+     "id": "b",
+     "label": "It points straight at the nearest edge of the magnet"
+    },
+    {
+     "id": "c",
+     "label": "It points across the field line at a right angle"
+    },
+    {
+     "id": "d",
+     "label": "It spins freely because there is no preferred direction"
+    }
+   ],
+   "answer": "a",
+   "explain": "A small compass points in the direction of the field line, which is tangent to the field there.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field:q3"
+  },
+  {
+   "prompt": "An engineer wants to detect a magnetic field that is rising and falling, not constant. Which kind of magnetometer would work for that job only?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Hall effect magnetometer"
+    },
+    {
+     "id": "b",
+     "label": "A SQUID magnetometer"
+    },
+    {
+     "id": "c",
+     "label": "A fluxgate magnetometer"
+    },
+    {
+     "id": "d",
+     "label": "An induction (search-coil) magnetometer"
+    }
+   ],
+   "answer": "d",
+   "explain": "Induction or search-coil magnetometers measure only varying fields, while the other kinds listed can measure other cases too.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field:q4"
+  },
+  {
+   "prompt": "A power company explains why it needs to understand magnetic fields. Which reason fits what the field is used for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fields are used to make wires colder and thinner"
+    },
+    {
+     "id": "b",
+     "label": "Fields are central to how generators and transformers are designed"
+    },
+    {
+     "id": "c",
+     "label": "Fields decide how much gas each plant burns"
+    },
+    {
+     "id": "d",
+     "label": "Fields are used to store electric charge in batteries"
+    }
+   ],
+   "answer": "b",
+   "explain": "Magnetic fields matter in the design and use of electric motors, generators, transformers, electromagnets and inductors.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field:q5"
+  },
+  {
+   "prompt": "Astronomers cannot send a probe to a distant star's field. How can they still detect it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By watching how it changes the colour of starlight only"
+    },
+    {
+     "id": "b",
+     "label": "By bouncing a compass needle off the star"
+    },
+    {
+     "id": "c",
+     "label": "By weighing the star to find its magnetism"
+    },
+    {
+     "id": "d",
+     "label": "By seeing its effect on nearby charged particles, such as radio emission"
+    }
+   ],
+   "answer": "d",
+   "explain": "Distant fields are measured through their effects on local charged particles, for example electrons spiralling around a field line give off detectable synchrotron radiation.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.magnetic-field:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/VFPt_Solenoid_correct2.svg/960px-VFPt_Solenoid_correct2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Magnetic field",
+  "credit": "Geek3",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:VFPt_Solenoid_correct2.svg"
+ },
+ "source": {
+  "title": "Magnetic field",
+  "url": "https://en.wikipedia.org/wiki/Magnetic_field",
+  "revision": 1383453877
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A magnetic field is a property of space that measures the magnetic influence at each location. Both its strength and its direction can change from place to place. So mathematically it is described by giving every point in space a vector, which makes it a vector field. When the field comes from steady currents, the Biot–Savart law gives it; when things change in time, Jefimenko's equations do.",
+    "cites": [
+     1,
+     3,
+     6
+    ]
+   },
+   {
+    "heading": "Two fields, B and H",
+    "text": "Two closely related vector fields both go by the name magnetic field. People have long argued over what to call them, but nobody disputes the physics. The international standard ISO 80000-6 describes them as the magnetic flux density B and the magnetic field strength H. B is the one that causes magnetic forces, magnetic torques and electromagnetic induction, and its SI unit is the tesla (T). H is measured in amperes per metre (A/m). In a vacuum the two are equivalent, since B = μ₀H, but inside a material they differ.",
+    "cites": [
+     4,
+     5,
+     13,
+     15,
+     23,
+     26,
+     27,
+     30
+    ]
+   },
+   {
+    "heading": "Finding B with a test charge",
+    "text": "One way to pin down B at a spot is to use a test particle with a known charge q. First measure the force on it while it sits still, which gives the electric field E. Then measure the force while it moves with some velocity v, and repeat with v pointing another way. The B that makes the Lorentz force law agree with all of these readings is the magnetic field at that spot.",
+    "cites": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Field lines",
+    "text": "A magnetic field can be pictured with field lines that follow its direction at every point. A small compass lines up along them, and where the lines crowd closer together the field is stronger. The lines run from the north pole to the south pole. Drawing them pays off because many laws of magnetism can be stated simply in terms of the number of lines passing through a surface.",
+    "cites": [
+     38,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Measuring it",
+    "text": "Instruments that measure B are called magnetometers. They come in many kinds, including search-coil, Hall effect, SQUID and fluxgate magnetometers. Far-off astronomical objects have their fields measured by what those fields do to nearby charged particles: electrons spiraling around a field line give off synchrotron radiation that can be picked up in radio waves. Gravity Probe B holds the record for the finest precision in measuring a magnetic field: 5 aT, or 5×10⁻¹⁸ T. H, by contrast, cannot be measured directly and has to be worked out from the currents that make it.",
+    "cites": [
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Magnetic fields turn up all over science and technology. They are central to designing electric motors, generators, transformers, electromagnets and inductors. In materials science, the Hall effect uses magnetic forces to learn about a material's charge carriers. Earth's own field tells geophysicists about the planet's interior and helps in mineral exploration, and it forms a magnetosphere that shields the ozone layer from the solar wind. In physics, the relationship between magnetic and electric fields makes up electrodynamics, which is key to understanding light, antennas and transmission lines.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up2-11-2",
+   "kind": "book",
+   "title": "11.2 Magnetic Fields and Lines",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/11-2-magnetic-fields-and-lines",
+   "note": "A free college textbook section defining the magnetic field through the force on a moving charge, plus field lines.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-cp2e-22-3",
+   "kind": "book",
+   "title": "22.3 Magnetic Fields and Magnetic Field Lines",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/22-3-magnetic-fields-and-magnetic-field-lines",
+   "note": "An introductory textbook section on drawing field lines for magnets, wires and loops, and the rules they follow.",
+   "license": "CC BY-NC-SA"
+  }
+ ]
+}

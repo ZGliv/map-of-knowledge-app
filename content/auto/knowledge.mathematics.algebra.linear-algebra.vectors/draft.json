@@ -1,0 +1,214 @@
+{
+ "summary": [
+  {
+   "text": "A vector space is a set whose elements, called vectors, can be added together and scaled by numbers called scalars, following rules known as the vector axioms.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Vector spaces generalize Euclidean vectors, which model physical quantities such as forces and velocity that have both a magnitude and a direction.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "Every vector space has a dimension, roughly the number of independent directions, and all bases of the space have that same size.",
+   "cites": [
+    8,
+    44
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core operations",
+   "value": "Adding vectors and scaling them by numbers called scalars",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Meaning of dimension",
+   "value": "Roughly, the number of independent directions in the space",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Infinite example",
+   "value": "Polynomial rings are countably infinite-dimensional vector spaces",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "What a basis is",
+   "value": "Linearly independent elements that span the whole space",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You take a few vectors, scale each one, and add the scaled copies together in every possible way. What do all those results form?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The dimension of the space"
+    },
+    {
+     "id": "b",
+     "label": "The span of those vectors"
+    },
+    {
+     "id": "c",
+     "label": "A new set of scalars"
+    },
+    {
+     "id": "d",
+     "label": "A single vector, their sum"
+    }
+   ],
+   "answer": "b",
+   "explain": "The span of a set is the set of all linear combinations of its elements, and it is the smallest linear subspace containing them.",
+   "cites": [
+    39,
+    40
+   ]
+  },
+  {
+   "prompt": "In a set of vectors, one turns out to be a mix of scaled copies of the others added together. What does that tell you about the set?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a basis for the space"
+    },
+    {
+     "id": "b",
+     "label": "It spans nothing at all"
+    },
+    {
+     "id": "c",
+     "label": "Its dimension is zero"
+    },
+    {
+     "id": "d",
+     "label": "It is not linearly independent"
+    }
+   ],
+   "answer": "d",
+   "explain": "Linear independence means no element can be written as a linear combination of the others, so this set fails it.",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "prompt": "Which collection of vectors both spans the space and has no member that is a combination of the others?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A basis"
+    },
+    {
+     "id": "b",
+     "label": "A field of scalars"
+    },
+    {
+     "id": "c",
+     "label": "A subspace"
+    },
+    {
+     "id": "d",
+     "label": "An axiom"
+    }
+   ],
+   "answer": "a",
+   "explain": "A basis is a subset whose elements are linearly independent and span the vector space.",
+   "cites": [
+    32,
+    42
+   ]
+  },
+  {
+   "prompt": "Two students choose different bases for the same vector space and count the vectors in theirs. What do they find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The counts can differ by any amount"
+    },
+    {
+     "id": "b",
+     "label": "The larger basis is always the better one"
+    },
+    {
+     "id": "c",
+     "label": "Both counts are the same number, the dimension"
+    },
+    {
+     "id": "d",
+     "label": "Only one of them can have a valid basis"
+    }
+   ],
+   "answer": "c",
+   "explain": "All bases of a vector space have the same cardinality, which is called the dimension.",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "prompt": "A non-empty subset W of a vector space has this property: adding two elements of W, or scaling one, always stays in W. What is W called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A linear subspace"
+    },
+    {
+     "id": "b",
+     "label": "A basis"
+    },
+    {
+     "id": "c",
+     "label": "A field of scalars"
+    },
+    {
+     "id": "d",
+     "label": "A dimension"
+    }
+   ],
+   "answer": "a",
+   "explain": "A subset closed under vector addition and scalar multiplication is a linear subspace.",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "prompt": "Why do physicists describe a force with a vector rather than a single number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single number cannot be negative"
+    },
+    {
+     "id": "b",
+     "label": "Forces are always measured in whole numbers"
+    },
+    {
+     "id": "c",
+     "label": "Vectors are quicker to write down"
+    },
+    {
+     "id": "d",
+     "label": "A force has a direction as well as a size"
+    }
+   ],
+   "answer": "d",
+   "explain": "Euclidean vectors model quantities such as forces and velocity, which have not only a magnitude but also a direction.",
+   "cites": [
+    5
+   ]
+  }
+ ]
+}

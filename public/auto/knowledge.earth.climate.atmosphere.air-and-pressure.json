@@ -1,0 +1,237 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.air-and-pressure",
+ "name": "Air and pressure",
+ "summary": [
+  {
+   "text": "Atmospheric thermodynamics studies how heat is turned into work, and work back into heat, in Earth's air, showing up as weather and climate.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Warmer, less dense air rises and denser air sinks, while pressure differences and the Coriolis force shape how that air moves.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Its equations of air motion form a basis for numerical weather and climate predictions, and today it is an integral part of weather forecasting.",
+   "cites": [
+    13,
+    14,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First thermodynamic diagram",
+   "value": "The emagram, devised by Heinrich Hertz in 1884",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Hurricane heat source",
+   "value": "Sea surface at about 300K (27 °C)",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Hurricane heat sink",
+   "value": "Tropopause at about 200K (−72 °C)",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Hadley cell efficiency",
+   "value": "Averaged 2.6% over 1979–2010",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Name traced to",
+   "value": "Frank W. Very's 1919 publication",
+   "cites": [
+    23,
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On a sunny morning, a pocket of air over a parking lot becomes warmer than the air around it. What does that pocket of air tend to do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sink toward the ground"
+    },
+    {
+     "id": "b",
+     "label": "Rise, because it is less dense"
+    },
+    {
+     "id": "c",
+     "label": "Stay exactly where it is"
+    },
+    {
+     "id": "d",
+     "label": "Sink, because it is heavier"
+    }
+   ],
+   "answer": "b",
+   "explain": "Warmer air is less dense, so buoyant forces push it upward while denser air descends.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure:q1"
+  },
+  {
+   "prompt": "Treating a hurricane as a heat engine, which change would raise the maximum winds it can reach?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A warmer upper troposphere"
+    },
+    {
+     "id": "b",
+     "label": "Cooler air near the sea surface"
+    },
+    {
+     "id": "c",
+     "label": "A colder upper troposphere"
+    },
+    {
+     "id": "d",
+     "label": "A smaller sea-to-tropopause gap"
+    }
+   ],
+   "answer": "c",
+   "explain": "Either a cooler upper troposphere or warmer air near the surface will increase the maximum winds observed in hurricanes.",
+   "cites": [
+    31,
+    34
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure:q2"
+  },
+  {
+   "prompt": "Where does a hurricane, seen as a heat engine, draw the heat that it turns into the energy of its winds?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The warm sea beneath it"
+    },
+    {
+     "id": "b",
+     "label": "Lightning inside its clouds"
+    },
+    {
+     "id": "c",
+     "label": "The cold tropopause above it"
+    },
+    {
+     "id": "d",
+     "label": "Friction with the land"
+    }
+   ],
+   "answer": "a",
+   "explain": "The sea, at about 27 °C, is the heat reservoir; the cold tropopause is where heat is dumped, not where it comes from.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure:q3"
+  },
+  {
+   "prompt": "Air warms up while its relative humidity stays the same. What happens to the actual amount of water vapor it holds?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays exactly the same"
+    },
+    {
+     "id": "b",
+     "label": "It falls as the air dries"
+    },
+    {
+     "id": "c",
+     "label": "It rises, then quickly falls"
+    },
+    {
+     "id": "d",
+     "label": "It climbs steeply, exponentially"
+    }
+   ],
+   "answer": "d",
+   "explain": "With constant relative humidity, absolute humidity should rise exponentially as temperature goes up.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure:q4"
+  },
+  {
+   "prompt": "In the early 1800s, Carnot, Clausius and Clapeyron built the math that later fed into atmospheric thermodynamics. What machines were they studying?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Weather balloons"
+    },
+    {
+     "id": "b",
+     "label": "Steam engines"
+    },
+    {
+     "id": "c",
+     "label": "Windmills"
+    },
+    {
+     "id": "d",
+     "label": "Barometers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Their models of fluids and vapors came from the combustion and pressure cycles of steam engines, and these foundations were later applied to the atmosphere.",
+   "cites": [
+    15,
+    17
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure:q5"
+  },
+  {
+   "prompt": "Warm, moist air just above the sea heats up and starts to rise, expanding as it climbs. What happens to it next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It warms further and dries out"
+    },
+    {
+     "id": "b",
+     "label": "It sinks back to the sea at once"
+    },
+    {
+     "id": "c",
+     "label": "It cools and its water condenses"
+    },
+    {
+     "id": "d",
+     "label": "It stops and spreads out sideways"
+    }
+   ],
+   "answer": "c",
+   "explain": "Rising air expands and cools, which causes condensation and precipitation.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure:q6"
+  }
+ ],
+ "source": {
+  "title": "Atmospheric thermodynamics",
+  "url": "https://en.wikipedia.org/wiki/Atmospheric_thermodynamics",
+  "revision": 1385117508
+ }
+}

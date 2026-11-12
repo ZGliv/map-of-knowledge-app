@@ -1,0 +1,87 @@
+{
+ "draftHash": "502d71d2ad5dac8dd53ba1313e951d7a9f296560",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "c",
+  "q2": "b",
+  "q3": "d",
+  "q4": "a",
+  "q5": "b",
+  "q6": "a"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "S1 says scalar function of square matrix, fundamental for matrices and transformations"
+  },
+  "s1": {
+   "supported": true,
+   "why": "S6 states it directly"
+  },
+  "s2": {
+   "supported": true,
+   "why": "S9 volume scale factor; S31 signed area"
+  },
+  "f0": {
+   "supported": true,
+   "why": "S4"
+  },
+  "f1": {
+   "supported": true,
+   "why": "S6"
+  },
+  "f2": {
+   "supported": true,
+   "why": "S9"
+  },
+  "f3": {
+   "supported": true,
+   "why": "S23-24 empty matrix determinant is 1"
+  },
+  "f4": {
+   "supported": true,
+   "why": "S14"
+  },
+  "q1": {
+   "supported": true,
+   "why": "S6 nonzero iff invertible"
+  },
+  "q2": {
+   "supported": true,
+   "why": "S4, 2*5=10"
+  },
+  "q3": {
+   "supported": true,
+   "why": "S9 scale 3, orientation reversed negative"
+  },
+  "q4": {
+   "supported": true,
+   "why": "S14 efficient, S15 others inefficient"
+  },
+  "q5": {
+   "supported": true,
+   "why": "S28-29 area is absolute value of determinant"
+  },
+  "q6": {
+   "supported": true,
+   "why": "S30 aligned gives zero; S29 area is |det|"
+  },
+  "b0": {
+   "supported": true,
+   "why": "S30 aligned zero, S31 signed area"
+  },
+  "b1": {
+   "supported": true,
+   "why": "S17,18,20,21 match each pairing"
+  },
+  "b2": {
+   "supported": true,
+   "why": "S4 multiplies, so adding step is wrong; S6 for invertibility"
+  },
+  "b3": {
+   "supported": true,
+   "why": "S29 area same; S30 sign tracks rotation direction so swap flips it"
+  }
+ },
+ "notation": "tidy-1"
+}

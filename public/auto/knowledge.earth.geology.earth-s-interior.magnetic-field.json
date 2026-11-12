@@ -1,0 +1,469 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.geology.earth-s-interior.magnetic-field",
+ "name": "Magnetic field",
+ "summary": [
+  {
+   "text": "Earth's magnetic field reaches from deep inside the planet out into space, where it meets the solar wind, a stream of charged particles from the Sun.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is made by electric currents in churning molten iron and nickel in the outer core, stirred by heat escaping from the core in a process called a geodynamo.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "The field shields Earth from charged particles that would otherwise strip away the upper atmosphere, including the ozone layer that blocks harmful ultraviolet radiation.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Surface strength",
+   "value": "About 30,000 to 60,000 nT in a 2019 survey",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Tilt from spin axis",
+   "value": "About 11°",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Strongest and weakest",
+   "value": "About 60,000 nT over Siberia, 30,000 nT over Brazil",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Pole swaps",
+   "value": "At irregular intervals averaging several hundred thousand years",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Animal navigators",
+   "value": "Some bacteria and pigeons use it to orient",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The north end of a compass needle swings toward the Arctic. Since opposite magnetic poles attract, what kind of pole of Earth's own field must lie up there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The south pole of Earth's field"
+    },
+    {
+     "id": "b",
+     "label": "The north pole of Earth's field"
+    },
+    {
+     "id": "c",
+     "label": "No pole, just flat field lines"
+    },
+    {
+     "id": "d",
+     "label": "A pole that switches every day"
+    }
+   ],
+   "answer": "a",
+   "explain": "A needle's north end is pulled toward an opposite pole, so the geomagnetic pole in the Arctic is really the south pole of Earth's field.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field:q1"
+  },
+  {
+   "prompt": "Calculations suggest Mars once lost its magnetic field while the solar wind kept scavenging ions from it. What happened to the planet's air?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grew thicker over time"
+    },
+    {
+     "id": "b",
+     "label": "Almost all of it was lost"
+    },
+    {
+     "id": "c",
+     "label": "It froze onto the ground"
+    },
+    {
+     "id": "d",
+     "label": "Nothing changed at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "Without a field to deflect the solar wind, ions were carried away, and the loss of the field led to a near total loss of the Martian atmosphere.",
+   "cites": [
+    13,
+    15
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field:q2"
+  },
+  {
+   "prompt": "A friend says Earth is magnetic because its centre is one giant solid bar magnet. What actually produces the field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Magnetized rocks in the crust"
+    },
+    {
+     "id": "b",
+     "label": "The solar wind charging the air"
+    },
+    {
+     "id": "c",
+     "label": "Currents in moving molten metal in the core"
+    },
+    {
+     "id": "d",
+     "label": "A frozen iron magnet at the centre"
+    }
+   ],
+   "answer": "c",
+   "explain": "The bar magnet is only an approximation; the field comes from electric currents in convecting molten iron and nickel in the outer core.",
+   "cites": [
+    2,
+    5
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field:q3"
+  },
+  {
+   "prompt": "You carry a needle that shows the field's angle with the horizontal, walking from the North Magnetic Pole to the magnetic equator. How does the needle behave?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays level the whole way"
+    },
+    {
+     "id": "b",
+     "label": "It starts level and tilts down more"
+    },
+    {
+     "id": "c",
+     "label": "It points straight up the whole way"
+    },
+    {
+     "id": "d",
+     "label": "It starts straight down and slowly levels out"
+    }
+   ],
+   "answer": "d",
+   "explain": "The field points straight down at the North Magnetic Pole and rotates upward as latitude drops, until it is horizontal at the magnetic equator.",
+   "cites": [
+    26,
+    41
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field:q4"
+  },
+  {
+   "prompt": "Rocks on the sea floor form stripes with alternating magnetic directions, centred on mid-ocean ridges where the floor is spreading. What do the stripes record?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Flips of the field as new sea floor formed"
+    },
+    {
+     "id": "b",
+     "label": "Lightning strikes on the ocean surface"
+    },
+    {
+     "id": "c",
+     "label": "Iron washed out to sea by rivers"
+    },
+    {
+     "id": "d",
+     "label": "The daily swing of tides over the ridge"
+    }
+   ],
+   "answer": "a",
+   "explain": "Igneous rock records the field's polarity, so reversals show up as stripes around ridges where sea floor is spreading.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field:q5"
+  },
+  {
+   "prompt": "A strong refrigerator magnet clings to a steel door. How does the strength of Earth's field at the surface compare with that magnet's field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Earth's is about the same strength"
+    },
+    {
+     "id": "b",
+     "label": "Earth's is hundreds of times weaker"
+    },
+    {
+     "id": "c",
+     "label": "Earth's is hundreds of times stronger"
+    },
+    {
+     "id": "d",
+     "label": "Earth's is millions of times stronger"
+    }
+   ],
+   "answer": "b",
+   "explain": "Earth's field ranges from about 0.30 G to 0.60 G, while a strong refrigerator magnet has about 100 G, hundreds of times more.",
+   "cites": [
+    4,
+    31
+   ],
+   "id": "knowledge.earth.geology.earth-s-interior.magnetic-field:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Geodynamo_Between_Reversals.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Magnetic field",
+  "credit": "Wikimedia Commons",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Geodynamo_Between_Reversals.gif"
+ },
+ "source": {
+  "title": "Earth's magnetic field",
+  "url": "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field",
+  "revision": 1383463119
+ },
+ "pack": {
+  "id": "auto-earth-s-interior-magnetic-field",
+  "title": "A Magnet Made of Molten Metal",
+  "question": "Where does Earth's magnetic field come from, and what does it do for us?",
+  "path": [
+   "Earth",
+   "Geology",
+   "Earth's interior",
+   "Magnetic field"
+  ],
+  "hue": 122,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Geodynamo_Between_Reversals.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Magnetic field",
+    "credit": "Wikimedia Commons · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Geodynamo_Between_Reversals.gif",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "A Magnet Made of Molten Metal",
+    "hook": "Every compass needle is being steered by molten metal churning deep inside the planet."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-earth-s-interior-magnetic-field:1",
+    "transfer": false,
+    "prompt": "A planet's magnetic field dies out, but the Sun keeps blasting it with charged particles. What happens to its atmosphere over time?",
+    "explain": "Without a field, the solar wind's charged particles strip away the atmosphere; calculations for Mars show losing its field led to a near total loss of its air.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "It freezes into a solid shell",
+        "feedback": "Nothing here involves freezing; the loss comes from the solar wind carrying gas away."
+       },
+       {
+        "id": "a",
+        "label": "It grows thicker as particles pile up",
+        "feedback": "The particles do not collect; they scavenge gas and carry it off."
+       },
+       {
+        "id": "b",
+        "label": "Nothing, since fields have no effect on gas",
+        "feedback": "The field matters because it deflects the charged solar wind that would strip the air."
+       },
+       {
+        "id": "c",
+        "label": "Most of it gets stripped away"
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-earth-s-interior-magnetic-field:2",
+    "transfer": false,
+    "prompt": "Match each way of describing the field to what it measures",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Declination"
+     },
+     {
+      "id": "l1",
+      "label": "Inclination"
+     },
+     {
+      "id": "l2",
+      "label": "Intensity"
+     },
+     {
+      "id": "l3",
+      "label": "Geodynamo"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Angle the field makes with the horizontal"
+     },
+     {
+      "id": "r3",
+      "label": "Heat-driven churning that creates the field"
+     },
+     {
+      "id": "r0",
+      "label": "Angle between magnetic north and true north"
+     },
+     {
+      "id": "r2",
+      "label": "Proportional to the force on a magnet"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Direction is described by two angles, declination and inclination, strength by intensity, and the geodynamo is the process that makes the field in the first place."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-earth-s-interior-magnetic-field:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Heat escaping the core stirs molten iron and nickel."
+     },
+     {
+      "id": "b",
+      "text": "The moving metal carries electric currents that create the field."
+     },
+     {
+      "id": "c",
+      "text": "So the magnetic poles stay fixed in one place forever."
+     },
+     {
+      "id": "d",
+      "text": "Compasses still work for navigation because the poles drift slowly."
+     }
+    ],
+    "answer": "c",
+    "explain": "The poles move slowly and continuously, and at irregular intervals the field even reverses so the poles switch places."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-earth-s-interior-magnetic-field:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each into where it happens",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Convection of molten iron and nickel"
+     },
+     {
+      "id": "i1",
+      "label": "Meeting the solar wind"
+     },
+     {
+      "id": "i2",
+      "label": "The magnetosphere"
+     },
+     {
+      "id": "i3",
+      "label": "The geodynamo"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Inside Earth"
+     },
+     {
+      "id": "g1",
+      "label": "Out in space"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g1",
+     "i3": "g0"
+    },
+    "explain": "The field is generated by convection in the outer core, then reaches out into space, where its extent forms the magnetosphere and it meets the solar wind."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Heat escaping the core stirs molten iron and nickel into currents that make a field, which deflects the solar wind and keeps the atmosphere from being stripped away.",
+    "connections": [
+     {
+      "title": "Magnetosphere",
+      "place": "Magnetic field",
+      "node": "knowledge.earth.geology.earth-s-interior.magnetic-field.magnetosphere"
+     },
+     {
+      "title": "Geomagnetic reversal",
+      "place": "Magnetic field",
+      "node": "knowledge.earth.geology.earth-s-interior.magnetic-field.geomagnetic-reversal"
+     },
+     {
+      "title": "Aurora",
+      "place": "Magnetic field",
+      "node": "knowledge.earth.geology.earth-s-interior.magnetic-field.aurora"
+     },
+     {
+      "title": "Paleomagnetism",
+      "place": "Magnetic field",
+      "node": "knowledge.earth.geology.earth-s-interior.magnetic-field.paleomagnetism"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Without a field, the solar wind's charged particles strip away the atmosphere; calculations for Mars show losing its field led to a near total loss of its air.",
+    "source": "Wikipedia sentences 13, 14, 15"
+   },
+   {
+    "claim": "Direction is described by two angles, declination and inclination, strength by intensity, and the geodynamo is the process that makes the field in the first place.",
+    "source": "Wikipedia sentences 2, 26, 27, 45"
+   },
+   {
+    "claim": "The poles move slowly and continuously, and at irregular intervals the field even reverses so the poles switch places.",
+    "source": "Wikipedia sentences 2, 7, 8"
+   },
+   {
+    "claim": "The field is generated by convection in the outer core, then reaches out into space, where its extent forms the magnetosphere and it meets the solar wind.",
+    "source": "Wikipedia sentences 1, 2, 11"
+   }
+  ]
+ }
+}

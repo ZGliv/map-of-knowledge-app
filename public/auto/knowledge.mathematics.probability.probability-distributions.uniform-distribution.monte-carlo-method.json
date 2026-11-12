@@ -1,0 +1,316 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method",
+ "name": "Monte Carlo method",
+ "summary": [
+  {
+   "text": "Monte Carlo methods are computer algorithms that get numerical results by repeated random sampling.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "The underlying idea is to use randomness to solve deterministic problems, giving approximate answers when the problem is too complex for mathematical analysis.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "To estimate pi, scatter random points over a square, find the share inside the quarter circle, which estimates π/4, then multiply by 4.",
+   "cites": [
+    10,
+    11,
+    12,
+    13,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "The Monte Carlo Casino in Monaco",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Primary developer",
+   "value": "Mathematician Stanisław Ulam",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Main problem types",
+   "value": "Optimization, numerical integration, and drawing from distributions",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Pi estimate",
+   "value": "Inside share estimates π/4; multiply by 4",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "label": "More points",
+   "value": "The approximation improves as more points are placed",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A method based on random sampling is named after a place in Monaco. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its inventor was inspired by his uncle's gambling habits"
+    },
+    {
+     "id": "b",
+     "label": "It was first run at a casino table"
+    },
+    {
+     "id": "c",
+     "label": "It needs a casino's dice to work"
+    },
+    {
+     "id": "d",
+     "label": "The place is where pi was first estimated"
+    }
+   ],
+   "answer": "a",
+   "explain": "The name comes from the Monte Carlo Casino, where its primary developer, Stanisław Ulam, was inspired by his uncle's gambling habits.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method:q1"
+  },
+  {
+   "prompt": "You scatter 1,000 random points over a square holding a quarter circle, and 785 land inside the quarter circle. What is the estimate for pi?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.785"
+    },
+    {
+     "id": "b",
+     "label": "1.57"
+    },
+    {
+     "id": "c",
+     "label": "About 3.14"
+    },
+    {
+     "id": "d",
+     "label": "7.85"
+    }
+   ],
+   "answer": "c",
+   "explain": "The inside share estimates π/4, which is about 0.785, and multiplying by 4 gives about 3.14.",
+   "cites": [
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method:q2"
+  },
+  {
+   "prompt": "In the point-scattering estimate, your random points all bunch up near one corner of the square. What happens to the estimate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes exact"
+    },
+    {
+     "id": "b",
+     "label": "It is poor, since the points should be spread uniformly"
+    },
+    {
+     "id": "c",
+     "label": "It only matters for large samples"
+    },
+    {
+     "id": "d",
+     "label": "It gets better because corners are important"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the points are not uniformly distributed, the approximation will be poor.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method:q3"
+  },
+  {
+   "prompt": "Your estimate from 100 random points looks rough. What is the best way to improve it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Place all the points in the middle"
+    },
+    {
+     "id": "b",
+     "label": "Use fewer points but measure them more carefully"
+    },
+    {
+     "id": "c",
+     "label": "Multiply the result by 4 again"
+    },
+    {
+     "id": "d",
+     "label": "Place many more random points"
+    }
+   ],
+   "answer": "d",
+   "explain": "The approximation improves as more points are randomly placed.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method:q4"
+  },
+  {
+   "prompt": "Engineers face a failure-risk problem too complex to solve with pen-and-paper mathematics. What can a Monte Carlo approach offer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An exact formula that settles it"
+    },
+    {
+     "id": "b",
+     "label": "An approximate answer from computer simulation"
+    },
+    {
+     "id": "c",
+     "label": "A guarantee that no part will ever fail"
+    },
+    {
+     "id": "d",
+     "label": "A way to avoid needing any randomness"
+    }
+   ],
+   "answer": "b",
+   "explain": "Monte Carlo methods are often implemented as computer simulations and can give approximate solutions to problems too complex for mathematical analysis.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method:q5"
+  },
+  {
+   "prompt": "Pi has one fixed value, with nothing random about it. Why can scattering random points still help find it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because pi is secretly random"
+    },
+    {
+     "id": "b",
+     "label": "Because the points must all land on the circle"
+    },
+    {
+     "id": "c",
+     "label": "Because the method applies randomness to solve a deterministic problem"
+    },
+    {
+     "id": "d",
+     "label": "Because the method works only on random problems"
+    }
+   ],
+   "answer": "c",
+   "explain": "The underlying concept is to use randomness to solve deterministic problems.",
+   "cites": [
+    2,
+    10,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.monte-carlo-method:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Approximation_d%27une_distribution_normale.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Monte Carlo method",
+  "credit": "Titouan Christophe",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Approximation_d%27une_distribution_normale.gif"
+ },
+ "source": {
+  "title": "Monte Carlo method",
+  "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+  "revision": 1383468536
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Solving problems with chance",
+    "text": "Monte Carlo methods are a broad family of computational algorithms that reach numerical answers by sampling at random again and again. They were conceived by the Polish mathematician Stanisław Ulam. The core idea is to use randomness to solve problems that are deterministic. They are often run as computer simulations, and they can give approximate answers to problems too complex to work out by mathematical analysis.",
+    "cites": [
+     1,
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Named after a casino",
+    "text": "The method is named after the Monte Carlo Casino in Monaco. Ulam, the method's main developer, took inspiration from his uncle's gambling habits. The approach is now counted among the 20th century's most important and influential ideas, and it has enabled many breakthroughs in science and technology.",
+    "cites": [
+     6,
+     9
+    ]
+   },
+   {
+    "heading": "Estimating pi with random dots",
+    "text": "One example estimates π. Scatter random points across a square and count how many fall inside the quadrant, meaning they lie less than 1 away from the origin. The share of points that land inside estimates the ratio of the two areas, which is π/4, so multiplying by 4 gives an estimate of π. The points must be spread uniformly, or the estimate will be poor. The more points you place, the better the estimate gets.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Where it is used",
+    "text": "Monte Carlo methods mainly tackle three kinds of problem: optimization, numerical integration, and drawing samples from a probability distribution. They are used across physics, chemistry, biology, statistics, artificial intelligence, finance and cryptography, and also in sociology, psychology and political science. In physics they help simulate systems with many coupled degrees of freedom, for example fluids and disordered materials. In systems engineering for space, oil exploration or aircraft design, their predictions of failures and cost or schedule overruns are routinely better than human intuition.",
+    "cites": [
+     7,
+     8,
+     18,
+     19,
+     21
+    ]
+   },
+   {
+    "heading": "The price of simplicity",
+    "text": "The method is simple in concept, but the computing cost can be extremely high. A good approximation usually needs many samples, so the total run time can grow without limit when each sample is slow to process. But the algorithm is embarrassingly parallel, so running it in parallel on clusters, cloud computing or GPUs can bring the cost down, perhaps to a feasible level.",
+    "cites": [
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-mc-integration",
+   "kind": "book",
+   "title": "12: Monte Carlo- General Integration Procedures - Math, Numerics, and Programming (for Mechanical Engineers)",
+   "by": "Masayuki Yano, James Douglass Penn, George Konidaris, & Anthony T Patera",
+   "url": "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Math_Numerics_and_Programming_(for_Mechanical_Engineers)/02%3A_Unit_II_-_Monte_Carlo_Methods/12%3A_Monte_Carlo-_General_Integration_Procedures",
+   "note": "A free textbook chapter on using random sampling to calculate areas and volumes, the core Monte Carlo idea.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

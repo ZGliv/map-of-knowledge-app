@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Kirchhoff's circuit laws are two rules about current and voltage in circuits, first described in 1845 by German physicist Gustav Kirchhoff.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The current law says the currents meeting at a point sum to zero, and the voltage law says the voltages around any closed loop sum to zero.",
+   "cites": [
+    8,
+    16
+   ]
+  },
+  {
+   "text": "They hold for DC circuits and for AC circuits at low enough frequencies, and they form the basis for network analysis.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Year",
+   "value": "First described in 1845",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Current law",
+   "value": "Currents meeting at a point add up to zero",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Voltage law",
+   "value": "Voltage changes around any closed loop sum to zero",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Software",
+   "value": "Its matrix form underlies circuit simulators such as SPICE",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "Kirchhoff's rules, or simply Kirchhoff's laws",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Three wires meet at a junction. A current of 5 amperes flows in through one and 2 amperes flows out through another. What does the third wire carry?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3 amperes flowing out"
+    },
+    {
+     "id": "b",
+     "label": "3 amperes flowing in"
+    },
+    {
+     "id": "c",
+     "label": "7 amperes flowing out"
+    },
+    {
+     "id": "d",
+     "label": "Zero, since the junction stores the rest"
+    }
+   ],
+   "answer": "a",
+   "explain": "The currents at a junction must sum to zero, so the third wire must carry away the remaining 3 amperes.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "Why can't current simply pile up at a junction in an ordinary circuit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wires push charge back against the flow"
+    },
+    {
+     "id": "b",
+     "label": "The charge in the wires and parts stays constant"
+    },
+    {
+     "id": "c",
+     "label": "Junctions are cooler than the rest of the wire"
+    },
+    {
+     "id": "d",
+     "label": "Current is a force, and forces cannot add"
+    }
+   ],
+   "answer": "b",
+   "explain": "The current law extends the conservation of charge: it relies on the net charge in the wires and components staying constant.",
+   "cites": [
+    10,
+    12
+   ]
+  },
+  {
+   "prompt": "You trace a closed loop around a circuit, adding each voltage rise and subtracting each drop. What should the total be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The battery voltage"
+    },
+    {
+     "id": "b",
+     "label": "Twice the battery voltage"
+    },
+    {
+     "id": "c",
+     "label": "Whatever the largest drop is"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "The directed sum of the potential differences around any closed loop is zero.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "After solving a circuit you find one current has a negative sign. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The current actually flows opposite to the arrow you assumed"
+    },
+    {
+     "id": "b",
+     "label": "The component is broken and passes no current"
+    },
+    {
+     "id": "c",
+     "label": "The circuit breaks the conservation of charge"
+    },
+    {
+     "id": "d",
+     "label": "The battery has been connected the wrong way round"
+    }
+   ],
+   "answer": "a",
+   "explain": "A negative result means the assumed direction was wrong, and the current flows the other way.",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "prompt": "An engineer sends a very high-frequency signal along a long transmission line. Why might the simple laws stop working?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wires stop conducting current at high frequency"
+    },
+    {
+     "id": "b",
+     "label": "Voltage cannot be measured at any high frequency"
+    },
+    {
+     "id": "c",
+     "label": "The lumped-element model fails as charge keeps shifting"
+    },
+    {
+     "id": "d",
+     "label": "The laws only apply to circuits using batteries"
+    }
+   ],
+   "answer": "c",
+   "explain": "Both laws depend on the lumped-element model, which breaks down at high frequencies where charge density in conductors changes constantly.",
+   "cites": [
+    21,
+    22,
+    25,
+    26
+   ]
+  },
+  {
+   "prompt": "In nodal analysis, the current law is paired with another rule to solve circuits. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Coulomb's law"
+    },
+    {
+     "id": "b",
+     "label": "Faraday's law of induction"
+    },
+    {
+     "id": "c",
+     "label": "Gauss's law"
+    },
+    {
+     "id": "d",
+     "label": "Ohm's law"
+    }
+   ],
+   "answer": "d",
+   "explain": "The current law is used together with Ohm's law to perform nodal analysis.",
+   "cites": [
+    14
+   ]
+  }
+ ]
+}

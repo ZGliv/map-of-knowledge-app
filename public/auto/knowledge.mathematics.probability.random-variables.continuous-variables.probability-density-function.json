@@ -1,0 +1,339 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function",
+ "name": "Probability density function",
+ "summary": [
+  {
+   "text": "A probability density function describes a continuous random variable, and its density is probability per unit length.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The probability of the variable taking any one exact value is zero, so probabilities come from the area under the curve over a range of values.",
+   "cites": [
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "The density is never negative and the area under the whole curve equals one, though unlike a probability it can exceed one.",
+   "cites": [
+    7,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Density meaning",
+   "value": "Probability per unit length",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Total area",
+   "value": "The area under the whole curve equals one",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Can exceed one",
+   "value": "Density can be above one, unlike a probability",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Bacteria example",
+   "value": "Density of 2 per hour for dying around 5 hours",
+   "cites": [
+    21,
+    23
+   ]
+  },
+  {
+   "label": "No density",
+   "value": "Discrete random variables do not have one",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lot of bacteria die around 5 hours. What is the chance that one dies at exactly 5 hours, measured with infinite precision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 2 percent"
+    },
+    {
+     "id": "b",
+     "label": "Two per hour"
+    },
+    {
+     "id": "c",
+     "label": "It is high, since so many die near then"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a continuous variable the probability of any particular exact value is zero. Only ranges of time have a quantifiable probability.",
+   "cites": [
+    3,
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function:q1"
+  },
+  {
+   "prompt": "Suppose a 0.01-hour window starting at 5 hours holds a 0.02 chance of death. About how much chance is in a window one-tenth as long, starting at 5 hours?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 0.2"
+    },
+    {
+     "id": "b",
+     "label": "About 0.02"
+    },
+    {
+     "id": "c",
+     "label": "About 0.002"
+    },
+    {
+     "id": "d",
+     "label": "About 0.0002"
+    }
+   ],
+   "answer": "c",
+   "explain": "A window one-tenth as long holds about one-tenth of the probability, so about 0.002. The ratio of probability to duration stays near 2 per hour.",
+   "cites": [
+    17,
+    18,
+    19,
+    21
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function:q2"
+  },
+  {
+   "prompt": "You want the chance that a continuous measurement lands between 10 and 12, and you have its density curve. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Measure the area under the curve between 10 and 12"
+    },
+    {
+     "id": "b",
+     "label": "Read the height of the curve at 11"
+    },
+    {
+     "id": "c",
+     "label": "Add the heights of the curve at 10 and 12"
+    },
+    {
+     "id": "d",
+     "label": "Find the highest point of the curve"
+    }
+   ],
+   "answer": "a",
+   "explain": "The probability of a range is the integral of the density over that range, which is the area under the curve between its ends.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function:q3"
+  },
+  {
+   "prompt": "A friend sees a density curve that peaks at 2 and says it must be wrong, since probabilities cannot exceed one. Who is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The friend: a density must stay below 1 everywhere"
+    },
+    {
+     "id": "b",
+     "label": "The friend: the area under the curve would exceed one"
+    },
+    {
+     "id": "c",
+     "label": "Nobody: the peak means the curve covers more than 100%"
+    },
+    {
+     "id": "d",
+     "label": "Not the friend: density is per unit length and can exceed one"
+    }
+   ],
+   "answer": "d",
+   "explain": "Unlike a probability, a density can take values above one. The uniform distribution on [0, 1/2] has density 2 there.",
+   "cites": [
+    2,
+    36
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function:q4"
+  },
+  {
+   "prompt": "A variable records the number shown on a die roll. Can it be given a probability density function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No: the distributions of discrete variables do not have one"
+    },
+    {
+     "id": "b",
+     "label": "Yes: every variable has a density"
+    },
+    {
+     "id": "c",
+     "label": "Yes: but only if the die is fair"
+    },
+    {
+     "id": "d",
+     "label": "No: the density would have to be negative"
+    }
+   ],
+   "answer": "a",
+   "explain": "Discrete random variables do not have a density function in this sense; mass functions are used for them instead.",
+   "cites": [
+    12,
+    38
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function:q5"
+  },
+  {
+   "prompt": "A curve is never negative and the total area under it is 0.5. Can it be a probability density function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes: any non-negative curve works"
+    },
+    {
+     "id": "b",
+     "label": "No: the total area must equal one"
+    },
+    {
+     "id": "c",
+     "label": "Yes: if it has a single peak"
+    },
+    {
+     "id": "d",
+     "label": "No: it would have to dip below zero somewhere"
+    }
+   ],
+   "answer": "b",
+   "explain": "A density is nonnegative and the area under the entire curve equals one, so the total probability is 100 percent.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.continuous-variables.probability-density-function:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Boxplot_vs_PDF.svg/960px-Boxplot_vs_PDF.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Probability density function",
+  "credit": "Original uploader was Jhguch at en.wikipedia; Derivative work: Chen-Pan Liao (ta",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Boxplot_vs_PDF.svg"
+ },
+ "source": {
+  "title": "Probability density function",
+  "url": "https://en.wikipedia.org/wiki/Probability_density_function",
+  "revision": 1362592168
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Probability spread along a line",
+    "text": "A probability density function, or PDF, describes an absolutely continuous random variable. Its value at a point gives a relative sense of how likely the variable is to come out at that point. Put simply, density is probability per unit length. Comparing the PDF at two points tells you how much more likely a draw is to land near one than near the other.",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "heading": "Exact values have zero chance",
+    "text": "For a continuous random variable, the chance of hitting any one exact value is zero. So a PDF is used for ranges instead: the probability of landing in a range is the area under the curve between the two ends of that range. The curve never dips below zero, and the total area under it is one, which means the variable is certain to land somewhere among its possible values.",
+    "cites": [
+     3,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "A worked example with bacteria",
+    "text": "Picture a species of bacteria, and ask when one of them dies. The chance it dies at exactly 5 hours, measured with endless precision, is zero, but the chance it dies between 5 and 5.01 hours can be measured; suppose it is 0.02. Then the chance for the window from 5 to 5.001 hours, one-tenth as long, should be about 0.002. The ratio of chance to window length stays near 2 per hour, and that figure, 2 hour⁻¹, is the probability density for dying at around 5 hours.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     21,
+     23
+    ]
+   },
+   {
+    "heading": "From density back to probability",
+    "text": "Multiplying the density by a tiny width of time gives the chance of dying inside that tiny window. Dying between 5 hours and 5 hours plus one nanosecond, for instance, has probability (2 hour⁻¹)×(1 nanosecond) ≈ 6×10⁻¹³. Integrating the density over any window, short or long, gives the chance the bacterium dies in that window.",
+    "cites": [
+     24,
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Density can exceed one",
+    "text": "Unlike a probability, a density can be bigger than one. On the interval [0, 1/2], the continuous uniform distribution has f(x) = 2 for every x in that interval, and f(x) = 0 outside it. The standard normal distribution has density f(x) = 1/√2π e^(−x²/2).",
+    "cites": [
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Mass functions and other names",
+    "text": "For discrete random variables, which take values from a countable set, the matching idea is the probability mass function, or PMF; both the PMF and the PDF are basic tools in statistical inference. Names can be confusing, since probability distribution function and probability function are sometimes used for the PDF, though that usage is not standard among probabilists and statisticians. Not every distribution has a density: discrete ones do not, and neither does the Cantor distribution. A distribution has a density when its cumulative distribution function F(x) is absolutely continuous, and then the derivative of F serves as the density.",
+    "cites": [
+     8,
+     9,
+     12,
+     13,
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-continuous-functions",
+   "kind": "book",
+   "title": "5.1 Continuous Probability Functions - Introductory Statistics 2e",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions",
+   "note": "A free textbook section on probability density functions, where probability is the area under the curve.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-probability-zero",
+   "kind": "video",
+   "title": "Why \"probability of 0\" does not mean \"impossible\" | Probabilities of probabilities, part 2",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=ZA4JkHKZM50",
+   "note": "An animated explanation of why single values have probability zero in continuous settings, and how density fixes that."
+  }
+ ]
+}

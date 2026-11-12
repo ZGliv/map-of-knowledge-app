@@ -1,0 +1,30 @@
+{
+ "readHash": "176e35bc63a43a2856bf93226f602dfa7ac9ff11",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "real-valued continuous-time, named after Wiener, Brownian motion name, best-known Levy process per [1],[2],[43],[44]"
+  },
+  "r1": {
+   "supported": true,
+   "why": "Gaussian increments, independent increments, independence from past, continuous paths per [15]-[19]"
+  },
+  "r2": {
+   "supported": true,
+   "why": "Var=t, cov=s, only uncorrelatedness used per [41],[42],[45]; 'larger variance' follows from Var=t"
+  },
+  "r3": {
+   "supported": true,
+   "why": "Donsker scaling limit, CLT, ubiquity, recurrence in 1-2 dims per [33]-[40]"
+  },
+  "r4": {
+   "supported": true,
+   "why": "martingales, key process, stochastic calculus/diffusion/potential theory, SLE per [4]-[8]"
+  },
+  "r5": {
+   "supported": true,
+   "why": "white noise, physics, Feynman-Kac, eternal inflation, Black-Scholes per [9]-[14]"
+  }
+ }
+}

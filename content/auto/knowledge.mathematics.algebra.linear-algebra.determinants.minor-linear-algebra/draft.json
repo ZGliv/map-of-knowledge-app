@@ -1,0 +1,213 @@
+{
+ "summary": [
+  {
+   "text": "A minor of a matrix is the determinant of a smaller square matrix made by deleting some of its rows and columns.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Deleting one row and one column of a square matrix and taking the determinant gives a first minor, and multiplying it by (−1)ⁱ⁺ʲ gives the matching cofactor.",
+   "cites": [
+    2,
+    4,
+    6
+   ]
+  },
+  {
+   "text": "Cofactors are useful for computing both the determinant and the inverse of a square matrix.",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First minor",
+   "value": "Determinant left after deleting one row and one column",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Adjugate",
+   "value": "The transpose of the cofactor matrix",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Rank link",
+   "value": "A matrix of rank r has a nonzero r × r minor",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Positivity test",
+   "value": "Leading principal minors test positive definiteness of Hermitian matrices",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You delete row 2 and column 3 of a square matrix, then take the determinant of what remains. What is this number called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The (2, 3) minor"
+    },
+    {
+     "id": "b",
+     "label": "The (3, 2) cofactor sign"
+    },
+    {
+     "id": "c",
+     "label": "The adjugate of the matrix"
+    },
+    {
+     "id": "d",
+     "label": "The rank of the matrix"
+    }
+   ],
+   "answer": "a",
+   "explain": "The minor of the entry in row i, column j is the determinant of the submatrix with that row and column deleted.",
+   "cites": [
+    4,
+    7
+   ]
+  },
+  {
+   "prompt": "You have found a minor and now want the matching cofactor. What do you do with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Transpose it and divide by the determinant"
+    },
+    {
+     "id": "b",
+     "label": "Delete one more row and column from it"
+    },
+    {
+     "id": "c",
+     "label": "Multiply it by a power of negative one set by its row and column"
+    },
+    {
+     "id": "d",
+     "label": "Add the row number and column number to it"
+    }
+   ],
+   "answer": "c",
+   "explain": "The cofactor is the minor multiplied by (−1)ⁱ⁺ʲ, negative one raised to the row number plus the column number.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "Someone deletes one row and one column from a square matrix, takes determinants, and keeps the results. Which two jobs can this feed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Finding the matrix's transpose and its rank"
+    },
+    {
+     "id": "b",
+     "label": "Finding the matrix's determinant and its inverse"
+    },
+    {
+     "id": "c",
+     "label": "Finding the matrix's size and its trace"
+    },
+    {
+     "id": "d",
+     "label": "Finding the matrix's rows and its columns"
+    }
+   ],
+   "answer": "b",
+   "explain": "First minors lead to cofactors, which are useful for computing both the determinant and the inverse.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "You build a matrix out of all the cofactors of a square matrix, then flip it over its diagonal. What is the result called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The minor matrix"
+    },
+    {
+     "id": "b",
+     "label": "The complement matrix"
+    },
+    {
+     "id": "c",
+     "label": "The principal matrix"
+    },
+    {
+     "id": "d",
+     "label": "The adjugate matrix"
+    }
+   ],
+   "answer": "d",
+   "explain": "The transpose of the cofactor matrix is the adjugate, also called the classical adjoint.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "A real matrix has rank 3. What can be said about its square submatrices?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every 3 by 3 minor is nonzero and every larger one is zero"
+    },
+    {
+     "id": "b",
+     "label": "Some 3 by 3 minor is nonzero and every larger minor is zero"
+    },
+    {
+     "id": "c",
+     "label": "Some 4 by 4 minor is nonzero and every 3 by 3 minor is zero"
+    },
+    {
+     "id": "d",
+     "label": "Minors of every size are nonzero"
+    }
+   ],
+   "answer": "b",
+   "explain": "For rank r there is at least one nonzero r × r minor, while all larger minors are zero.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "A mathematician wants to use minors to check whether a Hermitian matrix is positive definite. Which minors does the test use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Minors of order zero"
+    },
+    {
+     "id": "b",
+     "label": "Only the minor from the top corner entry"
+    },
+    {
+     "id": "c",
+     "label": "The leading principal minors"
+    },
+    {
+     "id": "d",
+     "label": "Minors with unrelated rows and columns removed"
+    }
+   ],
+   "answer": "c",
+   "explain": "For Hermitian matrices, leading principal minors can test positive definiteness, and principal minors can test positive semidefiniteness.",
+   "cites": [
+    21
+   ]
+  }
+ ]
+}

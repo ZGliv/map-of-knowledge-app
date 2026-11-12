@@ -1,0 +1,581 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.climate-classification",
+ "name": "Climate classification",
+ "summary": [
+  {
+   "text": "Climate classification sorts the world's climates into similar groups, an idea that began with climes defined in Ancient Greece by a location's latitude.",
+   "cites": [
+    1,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Modern methods are either genetic, built on the causes of climate, or empiric, built on its effects, such as plant hardiness or links to certain biomes.",
+   "cites": [
+    6,
+    8
+   ]
+  },
+  {
+   "text": "The simplest approach labels air masses with letters for moisture, source-region temperature and stability, and all schemes draw sharper borders than nature has.",
+   "cites": [
+    9,
+    10,
+    12,
+    13,
+    14,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Oldest roots",
+   "value": "Ancient Greek climes, defined by latitude",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Most used scheme",
+   "value": "Köppen, first developed in 1884",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Leading air mass scheme",
+   "value": "The Bergeron classification",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Air mass label",
+   "value": "Three letters: moisture, source temperature, stability",
+   "cites": [
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "label": "SSC categories",
+   "value": "Six, from Dry Polar to Moist Tropical",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A climatologist groups places by how often different kinds of air masses pass over them. What kind of method is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Empiric, based on climate's effects"
+    },
+    {
+     "id": "b",
+     "label": "Genetic, based on climate's causes"
+    },
+    {
+     "id": "c",
+     "label": "A clime system based on latitude"
+    },
+    {
+     "id": "d",
+     "label": "A biome map based on vegetation"
+    }
+   ],
+   "answer": "b",
+   "explain": "Methods built on the frequency of air mass types look at what causes a climate, which makes them genetic.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification:q1"
+  },
+  {
+   "prompt": "A gardener's map splits a country into zones by which plants can survive its winters. What kind of climate method is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Genetic, based on climate's causes"
+    },
+    {
+     "id": "b",
+     "label": "An air mass method"
+    },
+    {
+     "id": "c",
+     "label": "Empiric, based on climate's effects"
+    },
+    {
+     "id": "d",
+     "label": "A weather forecast method"
+    }
+   ],
+   "answer": "c",
+   "explain": "Zones defined by plant hardiness describe what climate does, so they are empiric.",
+   "cites": [
+    6,
+    8
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification:q2"
+  },
+  {
+   "prompt": "In the Bergeron system, how would you label an air mass that formed over a large, dry land area in the tropics?",
+   "options": [
+    {
+     "id": "a",
+     "label": "mT"
+    },
+    {
+     "id": "b",
+     "label": "cP"
+    },
+    {
+     "id": "c",
+     "label": "mP"
+    },
+    {
+     "id": "d",
+     "label": "cT"
+    }
+   ],
+   "answer": "d",
+   "explain": "The first letter c marks dry continental air and the second letter T marks a tropical source region.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification:q3"
+  },
+  {
+   "prompt": "The ancient Greek idea of 'climes' described the weather of a place according to what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its latitude"
+    },
+    {
+     "id": "b",
+     "label": "Its altitude"
+    },
+    {
+     "id": "c",
+     "label": "Its distance from the sea"
+    },
+    {
+     "id": "d",
+     "label": "Its yearly rainfall"
+    }
+   ],
+   "answer": "a",
+   "explain": "Climes were first defined in Ancient Greece to describe the weather depending on a location's latitude.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification:q4"
+  },
+  {
+   "prompt": "Two neighbouring towns sit just either side of a line on a climate map. What does that line wrongly suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That both towns share one climate"
+    },
+    {
+     "id": "b",
+     "label": "That climate changes abruptly at that spot"
+    },
+    {
+     "id": "c",
+     "label": "That the towns have no climate data"
+    },
+    {
+     "id": "d",
+     "label": "That the line follows a mountain ridge"
+    }
+   ],
+   "answer": "b",
+   "explain": "Classification schemes draw distinct boundaries, while in nature climate usually shifts gradually.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification:q5"
+  },
+  {
+   "prompt": "Climatologists began using air mass labels to describe climates in 1973. What had the labels first been used for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Weather forecasting"
+    },
+    {
+     "id": "b",
+     "label": "Mapping farm soils"
+    },
+    {
+     "id": "c",
+     "label": "Planning ship routes"
+    },
+    {
+     "id": "d",
+     "label": "Ranking crop insurance"
+    }
+   ],
+   "answer": "a",
+   "explain": "Air mass identification was originally used in weather forecasting in the 1950s before climatologists built synoptic climatologies on it.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Koppen_classification_world_map_1991-2020_-3C_borderless.png/960px-Koppen_classification_world_map_1991-2020_-3C_borderless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Climate classification",
+  "credit": "Monthly temperature and precipitation gridded data are sourced from: Beck, H.E.,",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Koppen_classification_world_map_1991-2020_-3C_borderless.png"
+ },
+ "source": {
+  "title": "Climate classification",
+  "url": "https://en.wikipedia.org/wiki/Climate_classification",
+  "revision": 1384975805
+ },
+ "pack": {
+  "id": "auto-climate-zones-climate-classification",
+  "title": "Causes or effects?",
+  "question": "What different ways are there to sort climates into groups?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Climate zones",
+   "Climate classification"
+  ],
+  "hue": 107,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Koppen_classification_world_map_1991-2020_-3C_borderless.png/960px-Koppen_classification_world_map_1991-2020_-3C_borderless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Climate classification",
+    "credit": "Monthly temperature and precipitation gridded data are sourced from: Beck, H.E., · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Koppen_classification_world_map_1991-2020_-3C_borderless.png",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Causes or effects?",
+    "hook": "Two scientists can map the same planet's climates and draw very different lines, depending on whether they look at causes or effects."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-zones-climate-classification:1",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each way of defining climate zones into its group.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "How often different air mass types occur"
+     },
+     {
+      "id": "i1",
+      "label": "Position within synoptic weather disturbances"
+     },
+     {
+      "id": "i2",
+      "label": "Plant hardiness"
+     },
+     {
+      "id": "i3",
+      "label": "Evapotranspiration"
+     },
+     {
+      "id": "i4",
+      "label": "Links to certain biomes"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Genetic (causes)"
+     },
+     {
+      "id": "g1",
+      "label": "Empiric (effects)"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Genetic methods look at what causes a climate, while empiric methods look at what the climate does."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-climate-zones-climate-classification:2",
+    "transfer": false,
+    "prompt": "Put these steps in the history of classifying climate in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Climes defined in Ancient Greece by latitude"
+     },
+     {
+      "id": "b",
+      "label": "Köppen scheme first developed"
+     },
+     {
+      "id": "c",
+      "label": "Air masses used in weather forecasting"
+     },
+     {
+      "id": "d",
+      "label": "Climatologists build climates on air masses"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Earliest",
+     "Latest"
+    ],
+    "explain": "Greek climes came first, Köppen's scheme dates from 1884, air mass identification served forecasting in the 1950s, and climatologists adopted it in 1973."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-zones-climate-classification:3",
+    "transfer": true,
+    "prompt": "Match each Bergeron air mass letter to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "c"
+     },
+     {
+      "id": "l1",
+      "label": "m"
+     },
+     {
+      "id": "l2",
+      "label": "T"
+     },
+     {
+      "id": "l3",
+      "label": "P"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Maritime, moist"
+     },
+     {
+      "id": "r0",
+      "label": "Continental, dry"
+     },
+     {
+      "id": "r2",
+      "label": "Tropical source region"
+     },
+     {
+      "id": "r3",
+      "label": "Polar source region"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The first letter gives the air mass's moisture and the second gives the temperature of the region where it formed."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-climate-zones-climate-classification:4",
+    "transfer": true,
+    "prompt": "An air mass moves over ground that is warmer than the air itself. What third letter does Bergeron's system give it?",
+    "explain": "The third letter shows stability: an air mass colder than the ground below it is labeled k.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "m",
+        "feedback": "m is a first letter for moist maritime air, not a stability label."
+       },
+       {
+        "id": "a",
+        "label": "k"
+       },
+       {
+        "id": "b",
+        "label": "w",
+        "feedback": "w is used the other way round: when the air mass is warmer than the ground below it."
+       },
+       {
+        "id": "d",
+        "label": "S",
+        "feedback": "S is a second letter for superior air, describing the source region, not stability."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "Climate classifications either group places by what causes their climate, such as air masses, or by its effects, such as plants and biomes.",
+    "connections": [
+     {
+      "title": "Köppen climate classification",
+      "place": "Climate classification",
+      "node": "knowledge.earth.climate.climate-zones.climate-classification.k-ppen-climate-classification"
+     },
+     {
+      "title": "Trewartha climate classification",
+      "place": "Climate classification",
+      "node": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification"
+     },
+     {
+      "title": "Holdridge life zones",
+      "place": "Climate classification",
+      "node": "knowledge.earth.climate.climate-zones.climate-classification.holdridge-life-zones"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Genetic methods look at what causes a climate, while empiric methods look at what the climate does.",
+    "source": "Wikipedia sentences 6, 7, 8"
+   },
+   {
+    "claim": "Greek climes came first, Köppen's scheme dates from 1884, air mass identification served forecasting in the 1950s, and climatologists adopted it in 1973.",
+    "source": "Wikipedia sentences 3, 5, 18"
+   },
+   {
+    "claim": "The first letter gives the air mass's moisture and the second gives the temperature of the region where it formed.",
+    "source": "Wikipedia sentences 13, 14"
+   },
+   {
+    "claim": "The third letter shows stability: an air mass colder than the ground below it is labeled k.",
+    "source": "Wikipedia sentences 13, 14, 15, 16, 17"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What climate classification does",
+    "text": "Climate classification groups the world's climates into a set of zones. There is more than one way to sort climates into similar types. The idea is old: in Ancient Greece, climes described the weather a place had according to its latitude. Since climate strongly shapes the life in a region, a climate scheme can line up closely with a scheme of biomes.",
+    "cites": [
+     1,
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Causes or effects",
+    "text": "Modern methods fall into two broad families. Genetic methods look at what causes a climate, while empiric methods look at what a climate does. A genetic scheme might count how often different types of air mass pass over a place, or note where it sits within passing weather systems. An empiric scheme might draw zones from plant hardiness, from evapotranspiration, or from links to particular biomes, as the Köppen scheme does.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Labelling air masses",
+    "text": "The simplest approach classifies air masses, and the Bergeron system is the most widely accepted version. It gives each air mass three letters. The first tells moisture: c for continental, dry air, and m for maritime, moist air. The second tells the temperature of the air's source region, such as T for tropical or P for polar. The third describes stability: k if the air is colder than the ground beneath it, and w if it is warmer.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "From forecasts to climates",
+    "text": "Air mass identification was first used for weather forecasting in the 1950s. In 1973 climatologists began building synoptic climatologies on the same idea. The Spatial Synoptic Classification, or SSC, grew out of Bergeron's scheme. It has six types: Dry Polar, Dry Moderate, Dry Tropical, Moist Polar, Moist Moderate and Moist Tropical, each roughly matching one or more of the older air mass labels.",
+    "cites": [
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "The Köppen scheme",
+    "text": "The most used scheme of all, first developed in 1884, is Köppen's, an empiric one. It relies on monthly averages of temperature and precipitation. Its common form has five main types, A to E: tropical, dry, mild mid-latitude, cold mid-latitude and polar. A tropical place, for example, is one where even the coolest month averages above 18 °C (64.4 °F).",
+    "cites": [
+     3,
+     8,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "A built-in limitation",
+    "text": "A weakness these schemes often share is that they draw clear lines between zones. Real climates more often change gradually from one place to the next.",
+    "cites": [
+     9
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-climate-classification",
+   "kind": "book",
+   "title": "9.3: Climate Classification",
+   "by": "Michael E. Ritter (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.03%3A_Climate_Classification",
+   "note": "A free textbook section on how climates are classified, walking through the Köppen system and its letter codes.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "crashcourse-classify-climates",
+   "kind": "video",
+   "title": "How do we Classify Climates? Crash Course Geography #13",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=xiGhLGFkJjo",
+   "note": "A Crash Course Geography episode on why and how geographers sort the world's climates into types."
+  },
+  {
+   "id": "noaa-climate-zones",
+   "kind": "article",
+   "title": "Climate Zones",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/global/climate-zones",
+   "note": "A NOAA explainer on climate zones using the Köppen-Geiger groups A to E, with where each occurs."
+  }
+ ]
+}

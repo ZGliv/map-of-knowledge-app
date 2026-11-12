@@ -1,0 +1,346 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover",
+ "name": "Mars rover",
+ "summary": [
+  {
+   "text": "A Mars rover is a remote-controlled motor vehicle designed to travel on the surface of Mars.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Rovers examine more territory than stationary landers and can be directed to interesting features.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "As of May 2021, six robotic rovers had succeeded on Mars: five managed by NASA's Jet Propulsion Laboratory and Zhurong, managed by China's space agency.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Earliest NASA rover",
+   "value": "Sojourner, landed July 4, 1997",
+   "cites": [
+    5,
+    19
+   ]
+  },
+  {
+   "label": "Curiosity",
+   "value": "Landed in Gale Crater on August 6, 2012",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Opportunity",
+   "value": "Covered 45.16 km over 5,352 sols",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Zhurong",
+   "value": "First non-American rover to operate on Mars",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Perseverance",
+   "value": "Landed February 18, 2021, carrying Ingenuity",
+   "cites": [
+    16,
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A scientist spots an interesting feature far from where the craft touched down. Why does a rover help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can circle overhead and photograph the feature"
+    },
+    {
+     "id": "b",
+     "label": "It can be directed to the feature and cover more territory"
+    },
+    {
+     "id": "c",
+     "label": "It stays tethered to a base so it never gets lost"
+    },
+    {
+     "id": "d",
+     "label": "It can stay put and wait for the feature to come near"
+    }
+   ],
+   "answer": "b",
+   "explain": "Rovers examine more territory than stationary landers and can be directed to interesting features.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover:q1"
+  },
+  {
+   "prompt": "Dark, cold months are approaching on Mars. What can a rover do about it that a fixed lander cannot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Place itself in a sunny position"
+    },
+    {
+     "id": "b",
+     "label": "Fly above the clouds until spring"
+    },
+    {
+     "id": "c",
+     "label": "Dig a shelter and switch itself off"
+    },
+    {
+     "id": "d",
+     "label": "Send the winter weather data to Earth first"
+    }
+   ],
+   "answer": "a",
+   "explain": "Unlike stationary landers, rovers can place themselves in sunny positions to weather winter months.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover:q2"
+  },
+  {
+   "prompt": "Which rover relied on the Mars Pathfinder base station to talk to Earth, rather than working on its own?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sojourner"
+    },
+    {
+     "id": "b",
+     "label": "Spirit"
+    },
+    {
+     "id": "c",
+     "label": "Opportunity"
+    },
+    {
+     "id": "d",
+     "label": "Curiosity"
+    }
+   ],
+   "answer": "a",
+   "explain": "Sojourner depended on the Mars Pathfinder base station for communication, while Opportunity, Spirit and Curiosity were on their own.",
+   "cites": [
+    9,
+    19
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover:q3"
+  },
+  {
+   "prompt": "Opportunity sent its last status after something stopped it from recharging its batteries. What was it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its wheels became trapped in sand"
+    },
+    {
+     "id": "b",
+     "label": "The Pathfinder base station went silent"
+    },
+    {
+     "id": "c",
+     "label": "A global dust storm blocked the sunlight"
+    },
+    {
+     "id": "d",
+     "label": "It ran past its planned mission length"
+    }
+   ],
+   "answer": "c",
+   "explain": "A global Mars dust storm blocked the sunlight needed to recharge its batteries. Trapped wheels were Spirit's problem.",
+   "cites": [
+    23,
+    27
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover:q4"
+  },
+  {
+   "prompt": "Zhurong was switched off ahead of sandstorms and Martian winter. Why did it never restart by itself?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its batteries had been removed to save weight"
+    },
+    {
+     "id": "b",
+     "label": "Its landing site was buried under a sandstorm"
+    },
+    {
+     "id": "c",
+     "label": "Its camera had been dropped on the ground"
+    },
+    {
+     "id": "d",
+     "label": "More dust than expected covered its solar panels"
+    }
+   ],
+   "answer": "d",
+   "explain": "A larger-than-expected build-up of dust covering its solar panels prevented it from self-reactivation.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover:q5"
+  },
+  {
+   "prompt": "Perseverance is NASA's rover built on the design of an earlier success. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Curiosity"
+    },
+    {
+     "id": "b",
+     "label": "Sojourner"
+    },
+    {
+     "id": "c",
+     "label": "Spirit"
+    },
+    {
+     "id": "d",
+     "label": "Opportunity"
+    }
+   ],
+   "answer": "a",
+   "explain": "Perseverance is NASA's rover based on the successful Curiosity design.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.space-probes.mars-rover:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/960px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Mars rover",
+  "credit": "NASA",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg"
+ },
+ "source": {
+  "title": "Mars rover",
+  "url": "https://en.wikipedia.org/wiki/Mars_rover",
+  "revision": 1383923835
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a Mars rover is",
+    "text": "A Mars rover is a motor vehicle, driven by remote control, that travels across the surface of Mars. Rovers have clear advantages over landers that stay in one place. They can cover more ground, be sent toward interesting features, and move into sunny spots to get through the winter months. They also do a different job from spacecraft that orbit Mars, such as Mars Reconnaissance Orbiter.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Six that worked",
+    "text": "As of May 2021, six robotic rovers had worked successfully on Mars. NASA's Jet Propulsion Laboratory ran the first five. Sojourner landed in 1997, Spirit and Opportunity in 2004, Curiosity in 2012 and Perseverance in 2021. The sixth was Zhurong, run by the China National Space Administration. When it began operating on May 14, 2021, it became the first rover from outside the United States to work on Mars.",
+    "cites": [
+     5,
+     6,
+     12
+    ]
+   },
+   {
+    "heading": "Sojourner and Spirit",
+    "text": "Sojourner, part of Mars Pathfinder, landed on July 4, 1997. It drove a little over 100 meters before contact was lost on September 27 that year. Spirit landed on January 4, 2004. By nearly six years after its original mission limit it had covered 7.73 km, but then its wheels got stuck in sand. Its last signal came on March 22, 2010.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Opportunity's record",
+    "text": "Opportunity landed on January 25, 2004. It beat the earlier records for how long a rover lasted, working for 5,352 sols, or 5,498 Earth days from landing to the end of its mission, and it drove 45.16 km. In June 2018 a global dust storm on Mars blocked the sunlight it needed to recharge its batteries, and it sent its last status on 10 June. After hundreds of tries to wake it, NASA declared the mission complete on February 13, 2019.",
+    "cites": [
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Curiosity and Perseverance",
+    "text": "Curiosity launched on November 26, 2011 and landed in Gale Crater on August 6, 2012, near the mountain informally called Mount Sharp. It is still working as of November 2026. Perseverance is built on Curiosity's successful design. It landed on February 18, 2021, carrying the Mars helicopter Ingenuity attached to its belly. Ingenuity's mission has ended, but Perseverance is still working as of November 2026.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Zhurong",
+    "text": "Zhurong landed on May 14, 2021, in the southern part of Utopia Planitia. It was designed to last 90 sols, yet stayed active for 347 sols and drove 1,921 m. In May 2022 it was switched off ahead of sandstorms and the Martian winter. More dust than expected then piled onto its solar panels, so it could not switch itself back on.",
+    "cites": [
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Looking for signs of life",
+    "text": "NASA has made the search for evidence of habitability, of fossils and of organic carbon on Mars a primary goal. In 2016 the agency said Opportunity and Curiosity would look for traces of ancient life. They would also look for signs of ancient water, including old river and lake settings that may once have been habitable.",
+    "cites": [
+     7,
+     8
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "perseverance",
+   "kind": "primary",
+   "title": "Mars 2020: Perseverance Rover",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+   "note": "NASA's mission page for the Perseverance rover, which searches Jezero Crater for signs of ancient life."
+  },
+  {
+   "id": "curiosity",
+   "kind": "primary",
+   "title": "Mars Science Laboratory: Curiosity Rover",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/mission/msl-curiosity/",
+   "note": "NASA's mission page for the Curiosity rover and its exploration of Gale Crater."
+  },
+  {
+   "id": "spirit-opportunity",
+   "kind": "primary",
+   "title": "Mars Exploration Rovers: Spirit and Opportunity",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+   "note": "NASA's mission page for the twin rovers Spirit and Opportunity."
+  }
+ ]
+}

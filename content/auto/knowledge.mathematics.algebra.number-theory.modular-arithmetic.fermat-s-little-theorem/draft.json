@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "Fermat's little theorem says that if p is a prime and a is a whole number that p does not divide, then aᵖ⁻¹ − 1 is divisible by p.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "text": "For example, with a = 2 and p = 7, 2⁶ = 64, and 64 − 1 = 63 = 7 × 9.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It is the basis for the Fermat primality test and one of the fundamental results of elementary number theory.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Pierre de Fermat, who stated it in 1640",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "First published proof",
+   "value": "Euler gave it in 1736",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Why 'little'",
+   "value": "To distinguish it from Fermat's Last Theorem",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Counterexample",
+   "value": "341 = 11 × 31 passes a check for base 2",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "First pseudoprime found",
+   "value": "341, found in 1820 by Pierre Frédéric Sarrus",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Take p = 7 and a = 2. Work out 2⁶ − 1. What do you find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The result is 63, a multiple of 7"
+    },
+    {
+     "id": "b",
+     "label": "The result is 64, a multiple of 7"
+    },
+    {
+     "id": "c",
+     "label": "The result is 63, which 7 does not divide"
+    },
+    {
+     "id": "d",
+     "label": "The result is 127, a multiple of 7"
+    }
+   ],
+   "answer": "a",
+   "explain": "2⁶ = 64, and 64 − 1 = 63 = 7 × 9.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "For the prime 7, which choice of a is ruled out by the theorem's condition?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any even number"
+    },
+    {
+     "id": "b",
+     "label": "Any multiple of 7"
+    },
+    {
+     "id": "c",
+     "label": "Any number smaller than 7"
+    },
+    {
+     "id": "d",
+     "label": "Any odd number"
+    }
+   ],
+   "answer": "b",
+   "explain": "The theorem requires that p does not divide a, so multiples of 7 are excluded.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A number passes a Fermat-style check for the base 2. A student declares it must be prime. Why is that wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The check only works for even numbers"
+    },
+    {
+     "id": "b",
+     "label": "The check never works for large numbers"
+    },
+    {
+     "id": "c",
+     "label": "Some composite numbers pass, such as 341 = 11 × 31"
+    },
+    {
+     "id": "d",
+     "label": "Passing proves it is a multiple of 2"
+    }
+   ],
+   "answer": "c",
+   "explain": "The 'only if' direction fails: 341 passes for base 2 but is composite, so it is called a pseudoprime.",
+   "cites": [
+    21,
+    23,
+    42,
+    43
+   ]
+  },
+  {
+   "prompt": "Fermat has another famous theorem. Why is this one called 'little'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is simpler to state than every other theorem"
+    },
+    {
+     "id": "b",
+     "label": "It was found when Fermat was young"
+    },
+    {
+     "id": "c",
+     "label": "It only works for small numbers"
+    },
+    {
+     "id": "d",
+     "label": "To tell it apart from Fermat's Last Theorem"
+    }
+   ],
+   "answer": "d",
+   "explain": "The name distinguishes it from Fermat's Last Theorem.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "Euler's theorem uses a count of the whole numbers from 1 to n that share no factor with n. Why does Fermat's little theorem fit inside it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When n is prime, that count equals n − 1"
+    },
+    {
+     "id": "b",
+     "label": "When n is prime, that count equals n"
+    },
+    {
+     "id": "c",
+     "label": "When n is even, that count equals 1"
+    },
+    {
+     "id": "d",
+     "label": "Fermat's theorem works for every n"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a prime n, every smaller positive number shares no factor with it, so the count is n − 1, and Euler's theorem becomes Fermat's.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "What practical use does the theorem have when checking whether a number is prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lists every prime below the number"
+    },
+    {
+     "id": "b",
+     "label": "It splits the number into its factors"
+    },
+    {
+     "id": "c",
+     "label": "It is the basis for the Fermat primality test"
+    },
+    {
+     "id": "d",
+     "label": "It tells you the number's digits"
+    }
+   ],
+   "answer": "c",
+   "explain": "Fermat's little theorem is the basis for the Fermat primality test.",
+   "cites": [
+    6
+   ]
+  }
+ ]
+}

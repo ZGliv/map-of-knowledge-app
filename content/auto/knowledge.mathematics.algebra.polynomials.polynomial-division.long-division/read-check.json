@@ -1,0 +1,34 @@
+{
+ "readHash": "d9661b5ca9e9a59d04d605227edc6455216412a7",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "By-hand multi-digit algorithm [1], easier steps [2], terms [3], large numbers [4], short division for one-digit divisors [5]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Left-most digit, rounded-down quotient digit, subtraction, bring down, finish condition all in [23]-[26]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Every step and the 125 result match [27]-[38]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Remainder fraction [40], decimal extension [41],[42], skipping zero steps and 12/127 starts [43]-[45]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "No slash/division sign, tableau, parenthesis/bar and overbar, names, 18th-century origin in [18]-[21]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "12th century [6], al-Samawal without formalizing [7], Caldrini 1491 Danda method [8], Briggs c.1600 [9]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Calculators most common tools in education/work [10]; North America reform [13]; Japan and Germany primary school [15]."
+  }
+ }
+}

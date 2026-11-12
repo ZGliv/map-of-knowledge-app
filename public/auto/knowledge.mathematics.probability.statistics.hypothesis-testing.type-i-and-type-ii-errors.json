@@ -1,0 +1,326 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors",
+ "name": "Type I and type II errors",
+ "summary": [
+  {
+   "text": "A type I error is the incorrect rejection of a true null hypothesis, a false positive; a type II error is the failure to reject a false one, a false negative.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "In the courtroom comparison, a type I error is convicting an innocent defendant and a type II error is acquitting a criminal.",
+   "cites": [
+    25,
+    28
+   ]
+  },
+  {
+   "text": "The risk of these errors cannot be entirely eliminated, only traded off, since reducing one type of error generally increases the other.",
+   "cites": [
+    7,
+    42
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Type I error rate",
+   "value": "Called alpha, usually set to 0.05",
+   "cites": [
+    39,
+    40
+   ]
+  },
+  {
+   "label": "Type II error rate",
+   "value": "Called beta; the power of a test equals 1−β",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "Type I is a false positive, type II a false negative",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Crossover error rate",
+   "value": "The point where type I and type II errors are equal",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Where it is used",
+   "value": "Medical science, biometrics and computer science",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A test starts from the assumption that a patient is healthy. It says the patient is ill, but the patient is in fact healthy. Which error is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Type II, a false negative"
+    },
+    {
+     "id": "b",
+     "label": "Type I, a false positive"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because the test followed its rule"
+    },
+    {
+     "id": "d",
+     "label": "Type II, because the alternative was chosen"
+    }
+   ],
+   "answer": "b",
+   "explain": "Saying the disease is present when it is not is the incorrect rejection of a true null hypothesis, a type I error.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors:q1"
+  },
+  {
+   "prompt": "A jury lets someone go free who actually committed the crime. In hypothesis-testing terms, what is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A correct decision, since the proof was not enough"
+    },
+    {
+     "id": "b",
+     "label": "A type I error"
+    },
+    {
+     "id": "c",
+     "label": "A type II error"
+    },
+    {
+     "id": "d",
+     "label": "Neither; error types apply only to laboratory tests"
+    }
+   ],
+   "answer": "c",
+   "explain": "Acquitting a criminal corresponds to failing to reject a false null hypothesis, which is a type II error.",
+   "cites": [
+    26,
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors:q2"
+  },
+  {
+   "prompt": "A lab makes its rule for flagging results much stricter, using 0.01 instead of 0.05, with the same data. What generally happens to the other kind of error?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It generally becomes more likely"
+    },
+    {
+     "id": "b",
+     "label": "It disappears completely"
+    },
+    {
+     "id": "c",
+     "label": "Both kinds of error fall together"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, because the two are unrelated"
+    }
+   ],
+   "answer": "a",
+   "explain": "Making α more stringent reduces type I errors, but the two error rates trade off, so effort to reduce one generally increases the other.",
+   "cites": [
+    42,
+    44,
+    45
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors:q3"
+  },
+  {
+   "prompt": "In the courtroom comparison for hypothesis testing, which part plays the role of the null hypothesis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The position taken against the defendant"
+    },
+    {
+     "id": "b",
+     "label": "The verdict delivered by the jury"
+    },
+    {
+     "id": "c",
+     "label": "The evidence brought before the court"
+    },
+    {
+     "id": "d",
+     "label": "The defendant, presumed innocent until proven guilty"
+    }
+   ],
+   "answer": "d",
+   "explain": "The null hypothesis is presumed true until the data provide convincing evidence against it, like a defendant presumed innocent.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors:q4"
+  },
+  {
+   "prompt": "A test uses a significance level of 0.05. If the null hypothesis is actually true, how often is it acceptable for the test to wrongly reject it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 95% of the time"
+    },
+    {
+     "id": "b",
+     "label": "At most about 5% of the time"
+    },
+    {
+     "id": "c",
+     "label": "Never, since a true null cannot be rejected"
+    },
+    {
+     "id": "d",
+     "label": "Exactly half the time"
+    }
+   ],
+   "answer": "b",
+   "explain": "The significance level bounds the type I error rate. Setting it at 0.05 means a 5% probability of incorrectly rejecting a true null is acceptable.",
+   "cites": [
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors:q5"
+  },
+  {
+   "prompt": "A researcher says her test has a type II error rate of 0.2. What is the power of her test?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.2, since power equals the error rate"
+    },
+    {
+     "id": "b",
+     "label": "0.05, the usual significance level"
+    },
+    {
+     "id": "c",
+     "label": "0.8, which is 1 minus 0.2"
+    },
+    {
+     "id": "d",
+     "label": "0.4, twice the error rate"
+    }
+   ],
+   "answer": "c",
+   "explain": "The type II error rate is β, and the power of a test equals 1−β.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors:q6"
+  }
+ ],
+ "source": {
+  "title": "Type I and type II errors",
+  "url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors",
+  "revision": 1379880622
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The courtroom picture",
+    "text": "A hypothesis test works much like a trial. The null hypothesis plays the defendant: it is presumed true until the data give convincing evidence against it, just as a defendant is presumed innocent until proven guilty. The alternative hypothesis plays the case against the defendant. In this picture, a type I error is convicting an innocent person, and a type II error is letting a criminal go free.",
+    "cites": [
+     12,
+     13,
+     14,
+     25,
+     28
+    ]
+   },
+   {
+    "heading": "A medical example",
+    "text": "Take the null hypothesis that a patient does not have a disease. Diagnosing the disease when it is absent is a type I error, and saying the patient is healthy when the disease is present is a type II error. Knowing about these two errors is put to wide use in medical science, biometrics and computer science.",
+    "cites": [
+     5,
+     8
+    ]
+   },
+   {
+    "heading": "Putting numbers on the risk",
+    "text": "The type I error rate is the chance that a test rejects the null hypothesis when that hypothesis is true. Tests are designed to keep that rate under a bound set in advance, the significance level, written with the Greek letter α. It is usually set at 0.05, meaning a 5% chance of wrongly rejecting a true null hypothesis is accepted. The type II error rate is written β, and the power of the test equals 1−β.",
+    "cites": [
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "A trade-off you cannot escape",
+    "text": "Statistical methods deal in probabilities, so we can never know for sure that a conclusion is right, and every test carries some chance of both errors. For a given sample set, pushing one error rate down generally pushes the other up. The risk can only be traded between the two, for example by moving the significance threshold. A stricter alpha, such as 0.01 instead of 0.05, is a simple and efficient way to cut type I errors.",
+    "cites": [
+     7,
+     35,
+     37,
+     42,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Where the two rates meet",
+    "text": "The point where the type I and type II error rates are equal is called the crossover error rate, or CER. A system with a lower CER is more accurate than one with a higher CER. All else being equal, setting the two rates equal at the CER gives the lowest overall error rate.",
+    "cites": [
+     29,
+     30,
+     31
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-9-3",
+   "kind": "book",
+   "title": "9.3: Outcomes and the Type I and Type II Errors",
+   "by": "OpenStax",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_2e_(OpenStax)/09%3A_Hypothesis_Testing_with_One_Sample/9.03%3A_Outcomes_and_the_Type_I_and_Type_II_Errors",
+   "note": "A free textbook section on the four outcomes of a test, alpha, beta and power, with practice problems.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "lane-11-3",
+   "kind": "book",
+   "title": "11.3: Type I and II Errors",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/11%3A_Logic_of_Hypothesis_Testing/11.03%3A_Type_I_and_II_Errors",
+   "note": "A short, clear page on the two kinds of mistake in significance testing and their probabilities.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "cc-stats-23",
+   "kind": "video",
+   "title": "Playing with Power: P-Values Pt 3: Crash Course Statistics #23",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=WWagtGT1zH4",
+   "note": "A Crash Course Statistics episode on how significance tests go wrong, the two error types, and statistical power."
+  }
+ ]
+}

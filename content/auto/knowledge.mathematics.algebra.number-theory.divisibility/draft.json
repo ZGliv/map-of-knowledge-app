@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "A divisibility rule is a shortcut for telling whether a whole number divides evenly by a fixed number without doing the division, usually by looking at its digits.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Each rule turns the number into a smaller one that keeps the same divisibility, so the trick can often be repeated until the answer is obvious.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "text": "For example, a number is divisible by 3 exactly when its digits add up to something divisible by 3, and by 4 when its last two digits are.",
+   "cites": [
+    13,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Test for 2",
+   "value": "Check whether the last digit is divisible by 2",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Test for 5",
+   "value": "The last digit is 0 or 5",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "label": "Test for 3 or 9",
+   "value": "The digits add up to a multiple of 3 (or 9)",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Test for 6",
+   "value": "The number is both even and divisible by 3",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Popularized by",
+   "value": "Martin Gardner, in a September 1962 column",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You need to know whether a long number of raffle tickets splits evenly into 3 teams, without dividing. Which shortcut is reliable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add up its digits and see if that total divides by 3"
+    },
+    {
+     "id": "b",
+     "label": "Look only at the last digit and see if it divides by 3"
+    },
+    {
+     "id": "c",
+     "label": "Look at the last two digits and see if they divide by 3"
+    },
+    {
+     "id": "d",
+     "label": "Check whether the first digit divides by 3"
+    }
+   ],
+   "answer": "a",
+   "explain": "A number is divisible by 3 if and only if the sum of its digits is divisible by 3.",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "You have 475 stickers and want to pack them in bundles of 5 with none left over. What does the number's ending tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It works if the last digit is even"
+    },
+    {
+     "id": "b",
+     "label": "It works if the last digit is 0 or 5"
+    },
+    {
+     "id": "c",
+     "label": "It works if the digits add up to 5"
+    },
+    {
+     "id": "d",
+     "label": "It works if the last two digits divide by 4"
+    }
+   ],
+   "answer": "b",
+   "explain": "Divisibility by 5 is settled by the last digit alone: if it is 0 or 5, the whole number is divisible by 5.",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "When testing a big number for 4, why can you ignore everything except its last two digits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because every other digit is always even"
+    },
+    {
+     "id": "b",
+     "label": "Because 10 splits evenly by 4, so tens never matter"
+    },
+    {
+     "id": "c",
+     "label": "Because 100 splits evenly by 4, so higher places add multiples of 4"
+    },
+    {
+     "id": "d",
+     "label": "Because the last digit alone always decides every divisor"
+    }
+   ],
+   "answer": "c",
+   "explain": "Since 100 is divisible by 4, adding hundreds, thousands and so on only adds more numbers divisible by 4.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "A number is even and its digits add up to 9. Can it be shared out evenly among 6 people?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, the digits would have to add up to a multiple of 6"
+    },
+    {
+     "id": "b",
+     "label": "Only if its last digit is exactly 6"
+    },
+    {
+     "id": "c",
+     "label": "No one can tell without carrying out the division"
+    },
+    {
+     "id": "d",
+     "label": "Yes, being a multiple of both 2 and 3 makes it a multiple of 6"
+    }
+   ],
+   "answer": "d",
+   "explain": "Even means divisible by 2, and a digit sum of 9 means divisible by 3. Any number divisible by both is divisible by 6.",
+   "cites": [
+    13,
+    32,
+    35
+   ]
+  },
+  {
+   "prompt": "Add the digits of 5,678 (5+6+7+8 = 26), then add the digits of that result (2+6 = 8). What does the final 8 reveal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dividing 5,678 by nine leaves a remainder of 8"
+    },
+    {
+     "id": "b",
+     "label": "5,678 divides evenly by nine"
+    },
+    {
+     "id": "c",
+     "label": "5,678 divides evenly by 8"
+    },
+    {
+     "id": "d",
+     "label": "Dividing 5,678 by ten leaves a remainder of 8"
+    }
+   ],
+   "answer": "a",
+   "explain": "Repeating the digit sum until one digit remains gives the remainder when dividing by nine, unless the digit is nine itself.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "To test 371 for 7, you compute 37 − (2×1) = 37 − 2 = 35. What do you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is not divisible, because 35 is smaller than 371"
+    },
+    {
+     "id": "b",
+     "label": "It is divisible, because 35 is divisible by 7"
+    },
+    {
+     "id": "c",
+     "label": "You must now test whether 371 divides 35"
+    },
+    {
+     "id": "d",
+     "label": "The result only says something about the last digit"
+    }
+   ],
+   "answer": "b",
+   "explain": "The original number is divisible by 7 exactly when the number produced by this procedure is. 35 is divisible by 7, so 371 is too.",
+   "cites": [
+    40,
+    41,
+    43,
+    44
+   ]
+  }
+ ]
+}

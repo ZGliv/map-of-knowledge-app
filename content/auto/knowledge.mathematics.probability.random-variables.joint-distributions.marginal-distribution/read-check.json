@@ -1,0 +1,30 @@
+{
+ "readHash": "9b4f2a30c0da347ed7828555dca3ba0e29cc9b2f",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Marginal of a subset, no reference to others, contrast with conditional match 1-3."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Summing rows/columns into margins, retained marginal variables, marginalized out match 4-6."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Narrowing attention, extending by a sum then reducing, and differing subsets match 7-9."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Sum joint over Y, converse for Y, and averaging conditionals match 10-13."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Pedestrian setup, H depends on L, green vs red, unknown light, weighted sum match 19-22, 24, 26."
+  },
+  "r5": {
+   "supported": true,
+   "why": "0.2/0.1/0.7, column multiplication to 2x3 block summing to 1, and 0.572 match 29-31."
+  }
+ }
+}

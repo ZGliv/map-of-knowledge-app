@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-charge.electric-field",
+ "name": "Electric field",
+ "summary": [
+  {
+   "text": "An electric field is a physical field surrounding charged particles such as electrons, describing their ability to push or pull on other charges.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "At any point it is defined as the force a small positive test charge would feel there, divided by that charge, so it has a direction as well as a size.",
+   "cites": [
+    12,
+    17,
+    18
+   ]
+  },
+  {
+   "text": "A bigger charge makes a stronger field, and the field of a single charge weakens the farther you move from it.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit",
+   "value": "Volts per metre, equal to newtons per coulomb",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Where it comes from",
+   "value": "Electric charges and time-varying electric currents",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Field lines",
+   "value": "A drawing idea introduced by Michael Faraday",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Distance rule",
+   "value": "Twice as far away means a quarter of the strength",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Line density",
+   "value": "Closer-packed lines show a stronger field",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You stand near a charged balloon and then step back until you are twice as far away. How strong is its field where you stand now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One quarter of what it was"
+    },
+    {
+     "id": "b",
+     "label": "Half of what it was"
+    },
+    {
+     "id": "c",
+     "label": "The same, since the balloon is unchanged"
+    },
+    {
+     "id": "d",
+     "label": "Twice what it was"
+    }
+   ],
+   "answer": "a",
+   "explain": "The field of a point charge falls with the square of the distance, so twice as far gives a quarter.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-field:q1"
+  },
+  {
+   "prompt": "You charge a balloon more heavily by rubbing it for longer. What happens to the field close to it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It weakens, as the extra charge spreads out"
+    },
+    {
+     "id": "b",
+     "label": "It gets stronger as the charge grows"
+    },
+    {
+     "id": "c",
+     "label": "It stays put, because the field depends on distance only"
+    },
+    {
+     "id": "d",
+     "label": "It disappears once the balloon holds too much"
+    }
+   ],
+   "answer": "b",
+   "explain": "The greater the charge of an object, the stronger its electric field.",
+   "cites": [
+    6,
+    21
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-field:q2"
+  },
+  {
+   "prompt": "In a drawing of field lines, one region has lines packed tightly and another has them spread far apart. What does that show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The field is weak where lines are packed tight"
+    },
+    {
+     "id": "b",
+     "label": "The field is zero where lines are far apart"
+    },
+    {
+     "id": "c",
+     "label": "The field is strong where lines are packed tight"
+    },
+    {
+     "id": "d",
+     "label": "The two regions hold opposite kinds of charge"
+    }
+   ],
+   "answer": "c",
+   "explain": "Lines are drawn so that their density is proportional to the strength of the field.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-field:q3"
+  },
+  {
+   "prompt": "Following a field line drawn around fixed charges, where does it start and where does it end?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It starts on negative charges and ends on positive ones"
+    },
+    {
+     "id": "b",
+     "label": "It starts and ends on the same charge"
+    },
+    {
+     "id": "c",
+     "label": "It starts and ends on neutral objects"
+    },
+    {
+     "id": "d",
+     "label": "It starts on positive charges and ends on negative ones"
+    }
+   ],
+   "answer": "d",
+   "explain": "Field lines of stationary charges begin at positive charges (or infinity) and end at negative charges (or infinity).",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-field:q4"
+  },
+  {
+   "prompt": "A field is measured with a tiny probe charge. Why do we divide the probe's force by its charge?",
+   "options": [
+    {
+     "id": "a",
+     "label": "So the result describes the field, not the probe used"
+    },
+    {
+     "id": "b",
+     "label": "So the probe's own charge can be ignored for safety"
+    },
+    {
+     "id": "c",
+     "label": "So that the answer always comes out as a whole number"
+    },
+    {
+     "id": "d",
+     "label": "So the force no longer needs a direction attached"
+    }
+   ],
+   "answer": "a",
+   "explain": "The field is defined as force per unit of charge on a small positive test charge, which makes it a property of the surroundings.",
+   "cites": [
+    12,
+    17
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-field:q5"
+  },
+  {
+   "prompt": "A diagram shows field lines around a charge with empty gaps between the lines. What is in those gaps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, so a charge placed there feels no force"
+    },
+    {
+     "id": "b",
+     "label": "A weaker field that is only half the line value"
+    },
+    {
+     "id": "c",
+     "label": "A field of the opposite sign to the lines"
+    },
+    {
+     "id": "d",
+     "label": "The field too, since it fills all the space"
+    }
+   ],
+   "answer": "d",
+   "explain": "The lines are a way of drawing the field; the field itself fills all the space between them.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-charge.electric-field:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/VFPt_image_charge_plane_horizontal.svg/960px-VFPt_image_charge_plane_horizontal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Electric field",
+  "credit": "Geek3",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:VFPt_image_charge_plane_horizontal.svg"
+ },
+ "source": {
+  "title": "Electric field",
+  "url": "https://en.wikipedia.org/wiki/Electric_field",
+  "revision": 1383609313
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an electric field is",
+    "text": "An electric field is a physical field that surrounds charged particles, such as electrons. It describes how strongly a charge, or a group of charges, can push or pull on another charged object. The more charge an object carries, the stronger its field. Around a single charge that is not moving, the field is strong close by and weaker farther out.",
+    "cites": [
+     1,
+     2,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Defined by a test charge",
+    "text": "To define the field at a point, imagine a vanishingly small positive charge, called a test charge, held still at that spot. The field there is the force this test charge would feel, divided by its charge. Force has both a size and a direction, so the field has both too, and it is described as a vector field that gives a value at every point in space. Turned around, the force on any charge q is that charge times the field: 𝐅 = q𝐄. The field is measured in newtons per coulomb (N/C), which is the same as volts per meter (V/m).",
+    "cites": [
+     12,
+     13,
+     17,
+     18,
+     44
+    ]
+   },
+   {
+    "heading": "Attraction, repulsion and distance",
+    "text": "Two charges at rest pull toward each other if their signs are opposite and push apart if their signs match. Coulomb's law describes these forces: larger charges give a larger force, and a greater distance gives a weaker one. The electric field between two charges behaves much like the gravitational field between two masses, since both follow an inverse-square law with distance. Double the source charge and the field doubles; move twice as far away and only a quarter of the strength is left.",
+    "cites": [
+     3,
+     5,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Drawing the field",
+    "text": "One way to picture the field is with lines that point the same way the field does at each spot, an idea from Michael Faraday, who called them lines of force. Drawn carefully, the lines crowd closer together where the field is stronger. Lines from charges at rest begin on positive charges or at infinity and end on negative charges or at infinity. They never cross and never loop back on themselves. The lines are only a picture, though: the field fills all the space between them.",
+    "cites": [
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Holding matter together",
+    "text": "Electric fields matter across many areas of physics and are put to work in electrical technology. Inside an atom, the pull through the electric field between the nucleus and the electrons is what keeps those particles together. Between atoms, the same kind of interaction produces the chemical bonds that join atoms into molecules.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "When fields change",
+    "text": "Electric fields come from electric charges and from electric currents that change over time. The study of fields made by charges at rest is called electrostatics, and the study of fields that change over time is called electrodynamics. Once things change, Coulomb's law no longer gives the right field; Jefimenko's equations take its place, and they allow for the field spreading out at the speed of light. Faraday's law connects a changing magnetic field to the electric field. Electric and magnetic fields are both expressions of a single electromagnetic field, and electromagnetism ranks among nature's four fundamental interactions.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     27,
+     28,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up2-5-4",
+   "kind": "book",
+   "title": "5.4 Electric Field",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-electric-field",
+   "note": "A free university textbook section defining the electric field as force per unit charge, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "up2-5-6",
+   "kind": "book",
+   "title": "5.6 Electric Field Lines",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/5-6-electric-field-lines",
+   "note": "How to draw and read electric field lines around single and multiple charges.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-phys-26-fields",
+   "kind": "video",
+   "title": "Electric Fields: Crash Course Physics #26",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=mdulzEfQXDE",
+   "note": "A Crash Course Physics episode explaining electric fields and how they push and pull on charges."
+  }
+ ]
+}

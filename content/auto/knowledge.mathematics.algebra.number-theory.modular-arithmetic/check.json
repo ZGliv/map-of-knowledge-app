@@ -1,0 +1,87 @@
+{
+ "draftHash": "262f8be7e620d512f8dd4a068abe80622e998bb6",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "a",
+  "q2": "b",
+  "q3": "c",
+  "q4": "d",
+  "q5": "a",
+  "q6": "c"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "s1 states wrap-around and modulus"
+  },
+  "s1": {
+   "supported": true,
+   "why": "s6-8 give 7+8=15 reads 3"
+  },
+  "s2": {
+   "supported": true,
+   "why": "s2 states Gauss 1801 modern approach"
+  },
+  "f0": {
+   "supported": true,
+   "why": "s1"
+  },
+  "f1": {
+   "supported": true,
+   "why": "s3 remainder"
+  },
+  "f2": {
+   "supported": true,
+   "why": "s7"
+  },
+  "f3": {
+   "supported": true,
+   "why": "s2"
+  },
+  "f4": {
+   "supported": true,
+   "why": "s4"
+  },
+  "q1": {
+   "supported": true,
+   "why": "9+5=14 wraps after 12 per s8, reads 2"
+  },
+  "q2": {
+   "supported": true,
+   "why": "s12"
+  },
+  "q3": {
+   "supported": true,
+   "why": "s10 says same as 4 hours"
+  },
+  "q4": {
+   "supported": true,
+   "why": "s4"
+  },
+  "q5": {
+   "supported": true,
+   "why": "s20-21"
+  },
+  "q6": {
+   "supported": true,
+   "why": "s28,33 inverse iff coprime, prime gives all nonzero"
+  },
+  "b0": {
+   "supported": true,
+   "why": "s6-8"
+  },
+  "b1": {
+   "supported": true,
+   "why": "s10"
+  },
+  "b2": {
+   "supported": true,
+   "why": "pairs match s7,s10,s12"
+  },
+  "b3": {
+   "supported": true,
+   "why": "15 reads 3; step 4 says 5 so wrong"
+  }
+ },
+ "notation": "tidy-1"
+}

@@ -1,0 +1,309 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem",
+ "name": "Abel-Ruffini theorem",
+ "summary": [
+  {
+   "text": "The Abel–Ruffini theorem says that general polynomial equations of degree five or higher with arbitrary coefficients have no solution in radicals.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equations of degree two, three and four do have formulas, the quadratic, cubic and quartic formulas, so degree five is where this stops.",
+   "cites": [
+    1,
+    8
+   ]
+  },
+  {
+   "text": "From the 16th century to the beginning of the 19th, searching for such a formula was the main problem of algebra.",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Ruffini (incomplete proof, 1799) and Abel (proof, 1824)",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Solution in radicals",
+   "value": "Coefficients, the four operations and nth roots only",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Solvable degrees",
+   "value": "Quadratic, cubic and quartic formulas cover degrees two to four",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Galois theory",
+   "value": "Decides, for any given equation, whether radicals can solve it",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Size of answers",
+   "value": "Even for degree five, solution expressions are huge and impractical",
+   "cites": [
+    24,
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student says that since formulas exist for degrees two, three and four, one will surely turn up for a general equation of degree five if people keep looking. What does the theorem say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No such formula can exist for general equations of degree five or higher"
+    },
+    {
+     "id": "b",
+     "label": "A formula exists but is too long for anyone to write"
+    },
+    {
+     "id": "c",
+     "label": "A formula exists, but only for some degree-five equations"
+    },
+    {
+     "id": "d",
+     "label": "Nobody has found one yet, and the question stays open"
+    }
+   ],
+   "answer": "a",
+   "explain": "The theorem states there is no solution in radicals to general polynomial equations of degree five or higher.",
+   "cites": [
+    1,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem:q1"
+  },
+  {
+   "prompt": "Someone runs a program that approximates all roots of a fifth-degree equation to twenty decimal places. Does that contradict the theorem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since approximating the roots would require a formula"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because the computer must have used radicals underneath"
+    },
+    {
+     "id": "c",
+     "label": "No, the theorem is about exact expressions in radicals, and approximation methods exist"
+    },
+    {
+     "id": "d",
+     "label": "No, but only because the equation must have been a special one"
+    }
+   ],
+   "answer": "c",
+   "explain": "Radicals mean an expression using only the coefficients, the four operations and nth roots. Several methods approximate all solutions to any desired accuracy, and they do not contradict the theorem.",
+   "cites": [
+    1,
+    13,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem:q2"
+  },
+  {
+   "prompt": "Abel's proof covered general equations. How can you decide, for one particular equation of high degree, whether radicals can solve it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Abel's proof already lists the unsolvable equations"
+    },
+    {
+     "id": "b",
+     "label": "Galois theory, introduced soon after, decides this for any given equation"
+    },
+    {
+     "id": "c",
+     "label": "Apply the quadratic formula and see if it works"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be decided for any particular equation"
+    }
+   ],
+   "answer": "b",
+   "explain": "Abel's proof does not explicitly say that specific equations are unsolvable. Soon after, Galois introduced a theory that decides this for any given equation.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem:q3"
+  },
+  {
+   "prompt": "A teacher says the theorem means no equation of degree five or higher can ever be solved with roots and arithmetic. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing is wrong, since the theorem rules out every such equation"
+    },
+    {
+     "id": "b",
+     "label": "It holds only for equations whose coefficients are all whole numbers"
+    },
+    {
+     "id": "c",
+     "label": "Some specific equations of any degree can be solved that way, as xⁿ − 1 = 0 can"
+    },
+    {
+     "id": "d",
+     "label": "It holds only for degree five, and higher degrees are solvable"
+    }
+   ],
+   "answer": "c",
+   "explain": "The impossibility concerns general equations. There are specific equations of any degree that can be solved in radicals, such as xⁿ − 1 = 0 for any n.",
+   "cites": [
+    1,
+    17,
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem:q4"
+  },
+  {
+   "prompt": "A learner argues that because every polynomial equation is guaranteed to have solutions, a formula for them must exist. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The guarantee only holds for equations of even degree"
+    },
+    {
+     "id": "b",
+     "label": "The guarantee gives no tool for computing the solutions"
+    },
+    {
+     "id": "c",
+     "label": "The guarantee covers only real solutions"
+    },
+    {
+     "id": "d",
+     "label": "Nothing is wrong; the formula is just very long"
+    }
+   ],
+   "answer": "b",
+   "explain": "The fundamental theorem of algebra says solutions exist, but does not provide any tool for computing them.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem:q5"
+  },
+  {
+   "prompt": "Two names are attached to this theorem. How do their contributions differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ruffini gave a complete proof, and Abel only restated it"
+    },
+    {
+     "id": "b",
+     "label": "Both published identical proofs in the same year"
+    },
+    {
+     "id": "c",
+     "label": "Abel found the formula, and Ruffini showed it was too long"
+    },
+    {
+     "id": "d",
+     "label": "Ruffini's 1799 proof was incomplete, and Abel provided a proof in 1824"
+    }
+   ],
+   "answer": "d",
+   "explain": "The theorem is named after Ruffini, who made an incomplete proof in 1799, and Abel, who provided a proof in 1824.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem:q6"
+  }
+ ],
+ "source": {
+  "title": "Abel–Ruffini theorem",
+  "url": "https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem",
+  "revision": 1382407802
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "No formula past degree four",
+    "text": "The Abel–Ruffini theorem says there is no solution in radicals for general polynomial equations of degree five or more with arbitrary coefficients. A solution in radicals is an expression built only from the equation's coefficients using addition, subtraction, multiplication, division and nth roots. Here \"general\" means the coefficients are viewed and handled as indeterminates.",
+    "cites": [
+     1,
+     2,
+     15
+    ]
+   },
+   {
+    "heading": "A centuries-long search",
+    "text": "The quadratic formula for degree two has been known since antiquity. Formulas for degree three and degree four, the cubic and the quartic, were found in the 16th century. That raised the question of whether higher degrees could be solved the same way. From the 16th century to the early 19th, hunting for a formula for degree five and above was the main problem of algebra, and the Abel–Ruffini theorem shows the hunt cannot succeed.",
+    "cites": [
+     9,
+     10,
+     11,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Two names, two proofs",
+    "text": "The theorem honours Paolo Ruffini, who gave an incomplete proof in 1799 which was later finished and refined in 1813 and won Cauchy's acceptance. It also honours Niels Henrik Abel, who gave a proof in 1824. These proofs came before Galois theory. Modern proofs are generally built on Galois theory, which gives a better understanding, and the original ones are still taught for their history.",
+    "cites": [
+     3,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "What it does not say",
+    "text": "The theorem does not mean that a particular equation of high degree can never be solved in radicals. Equations of every degree can be, such as xⁿ − 1 = 0 for any n. A stronger statement is also true: some specific equations of degree five and up cannot be solved in radicals. Galois theory shows that x⁵ − x − 1 = 0 is the simplest such equation, and that almost all polynomials of degree five or more are like it.",
+    "cites": [
+     4,
+     6,
+     7,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Galois and the computer",
+    "text": "Soon after Abel published, Évariste Galois created what is now known as Galois theory, a way to decide for any given equation whether radicals can solve it. Before electronic computers this was only a theoretical test. Today programs can make the decision for polynomials of degree above 100. Even when an answer in radicals exists, writing it out takes huge computations, and already at degree five the result is too large to be of practical use.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Why five is the breaking point",
+    "text": "In the Galois approach, the proof comes down to two facts: the symmetric group S₅ is not solvable, and some polynomials have symmetric Galois groups. Once n is 5 or more, the alternating group A _n is simple and not abelian, which means neither A _n nor S _n is solvable. For n ≤ 4, by contrast, the symmetric group and every one of its subgroups are solvable. Compare the equations themselves: the quadratic, cubic and quartic formulas solve degrees two, three and four.",
+    "cites": [
+     8,
+     40,
+     42,
+     43,
+     45
+    ]
+   }
+  ]
+ }
+}

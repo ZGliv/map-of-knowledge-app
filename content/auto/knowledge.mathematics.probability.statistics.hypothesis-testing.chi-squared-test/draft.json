@@ -1,0 +1,229 @@
+{
+ "summary": [
+  {
+   "text": "A chi-squared test is a hypothesis test used on contingency tables when sample sizes are large, mainly to examine whether two categorical variables are independent.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Pearson's version asks whether there is a statistically significant difference between the expected frequencies and the observed frequencies in one or more categories.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Pearson published his paper on the test in 1900, a foundation of modern statistics, and Fisher's exact test is used instead for smaller samples.",
+   "cites": [
+    5,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Pearson's paper",
+   "value": "1900, investigating a test of goodness of fit",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "label": "Small samples",
+   "value": "Fisher's exact test is used for smaller sample sizes",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Yates's correction",
+   "value": "Lowers the chi-squared value and so raises the p-value",
+   "cites": [
+    27,
+    28
+   ]
+  },
+  {
+   "label": "Classes",
+   "value": "Observations are sorted into mutually exclusive classes",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Variance example",
+   "value": "With 21 items, the 5% acceptance region runs from 9.59 to 34.17",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A survey tallies how many people live in each of several neighborhoods and hold each of several job types. What can a chi-squared test of that table tell us?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whether average income differs between neighborhoods"
+    },
+    {
+     "id": "b",
+     "label": "Whether job type and neighborhood are independent of each other"
+    },
+    {
+     "id": "c",
+     "label": "Which neighborhood has the most people"
+    },
+    {
+     "id": "d",
+     "label": "The exact chance that the null hypothesis is true"
+    }
+   ],
+   "answer": "b",
+   "explain": "The test is primarily used to examine whether two categorical variables, the two dimensions of a contingency table, are independent.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "A table of counts has only a handful of observations in total. What is the recommended alternative to the chi-squared test?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pearson's chi-squared test, since size makes no difference"
+    },
+    {
+     "id": "b",
+     "label": "Dropping the null hypothesis"
+    },
+    {
+     "id": "c",
+     "label": "Fisher's exact test, used for smaller samples"
+    },
+    {
+     "id": "d",
+     "label": "Splitting categories to build a bigger table"
+    }
+   ],
+   "answer": "c",
+   "explain": "The chi-squared test is for contingency tables with large samples; for smaller sample sizes Fisher's exact test is used instead.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "prompt": "An analyst applies Yates's continuity correction to a chi-squared calculation. What happens to the p-value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It falls, because a correction strengthens the evidence"
+    },
+    {
+     "id": "b",
+     "label": "It is unchanged; only the look of the formula changes"
+    },
+    {
+     "id": "c",
+     "label": "It falls to exactly zero"
+    },
+    {
+     "id": "d",
+     "label": "It rises, because the chi-squared value shrinks"
+    }
+   ],
+   "answer": "d",
+   "explain": "The correction subtracts 0.5 from each absolute difference, which reduces the chi-squared value and thus increases its p-value.",
+   "cites": [
+    27,
+    28
+   ]
+  },
+  {
+   "prompt": "In 1900 Pearson published a paper on the χ² test, now seen as a foundation of modern statistics. What did he investigate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A test of goodness of fit"
+    },
+    {
+     "id": "b",
+     "label": "A test of whether two means are equal"
+    },
+    {
+     "id": "c",
+     "label": "A way to avoid contingency tables"
+    },
+    {
+     "id": "d",
+     "label": "An exact test for tiny samples"
+    }
+   ],
+   "answer": "a",
+   "explain": "Pearson's paper investigated a test of goodness of fit.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "Planners decide in advance how many residents to sample in each of four neighborhoods, then compare the shares of blue-collar, white-collar and no-collar workers across them. What question are they testing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Independence, since residents are picked at random"
+    },
+    {
+     "id": "b",
+     "label": "Homogeneity: whether the proportions are the same in each neighborhood"
+    },
+    {
+     "id": "c",
+     "label": "Goodness of fit to a normal distribution"
+    },
+    {
+     "id": "d",
+     "label": "Whether the variance equals a preset value"
+    }
+   ],
+   "answer": "b",
+   "explain": "When sample sizes are fixed in advance per neighborhood, the test addresses homogeneity rather than independence: are the proportions the same?",
+   "cites": [
+    37,
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "prompt": "In a standard chi-squared test, the classes truly do not differ in the population. What distribution does the computed statistic follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A normal bell curve centered on zero"
+    },
+    {
+     "id": "b",
+     "label": "A uniform spread over all possible values"
+    },
+    {
+     "id": "c",
+     "label": "A χ² distribution"
+    },
+    {
+     "id": "d",
+     "label": "A distribution chosen by the researcher's alpha"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the null hypothesis of no differences between the classes is true, the test statistic computed from the observations follows a χ² frequency distribution.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ]
+}

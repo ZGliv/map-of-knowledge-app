@@ -1,0 +1,66 @@
+{
+ "draftHash": "2f095d6bf27867f4097146758e09a9ecc26896a2",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "a",
+  "q2": "c",
+  "q3": "d",
+  "q4": "b",
+  "q5": "c",
+  "q6": "b"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "Sentence 1 defines SRS as random choice with the same probability for all."
+  },
+  "s1": {
+   "supported": true,
+   "why": "Sentences 3 and 5 state every same-size subset is equally likely."
+  },
+  "s2": {
+   "supported": true,
+   "why": "21 gives the complete frame need, 23 minimal prior knowledge, 24 ease of interpretation."
+  },
+  "f0": {
+   "supported": true,
+   "why": "Sentence 3 says each k-subset has the same probability."
+  },
+  "f1": {
+   "supported": true,
+   "why": "Sentence 10 says typically done without replacement, avoiding repeats."
+  },
+  "f2": {
+   "supported": true,
+   "why": "Sentence 21 says it requires a complete frame hard to build for large populations."
+  },
+  "f3": {
+   "supported": true,
+   "why": "Sentence 14 says textbooks use SRS without replacement as benchmark for efficiency of other approaches."
+  },
+  "q1": {
+   "supported": true,
+   "why": "Sentence 5 gives equal probability for every same-size set; 6-9 describe the ticket draw."
+  },
+  "q2": {
+   "supported": true,
+   "why": "Sentence 30 says only single-column subsets are eligible, so not all subsets equally likely."
+  },
+  "q3": {
+   "supported": true,
+   "why": "Sentence 13 says for a small sample from a large population, without and with replacement are about the same."
+  },
+  "q4": {
+   "supported": true,
+   "why": "Sentence 32 says systematic sampling gives equal inclusion but different sets different probabilities; 38 says first unit fixes the rest."
+  },
+  "q5": {
+   "supported": true,
+   "why": "Sentences 23, 25, 26 say SRS suits little information and cheap collection."
+  },
+  "q6": {
+   "supported": true,
+   "why": "Sentences 15 and 16 say a particular sample is not guaranteed to be perfect."
+  }
+ }
+}

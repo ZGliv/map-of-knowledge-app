@@ -1,0 +1,30 @@
+{
+ "readHash": "32c695294c766c7416fdff4d24aa9a3509f91c40",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Definition, binning and counting, consecutive non-overlapping adjacent bins typically equal size in [1]-[4]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Bar chart confusion, ranges vs categories, gaps recommendation in [8]-[11]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Width/area/height-as-frequency-density [30], area = people count [23], unit area fractions summing to 1 [27],[29]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "No best bin count, wide/narrow bin trade-off, variable width, equal-width common, try several widths in [20],[39],[41]-[43]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Pattern words [19], density estimation [5], KDE smoother and more accurate [33],[34], histograms preferred since bins vary independently [36],[37]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Pearson 1892 UCL, histos/mast etymology, Playfair 1786 atlas in [12],[15],[18]."
+  }
+ }
+}

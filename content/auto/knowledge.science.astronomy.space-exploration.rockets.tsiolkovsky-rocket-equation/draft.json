@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The Tsiolkovsky rocket equation describes how a vehicle moves when it speeds itself up by throwing part of its own mass out at high velocity.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It ties the change in speed to the exhaust velocity and to the ratio of the rocket's starting mass to its final mass.",
+   "cites": [
+    13,
+    24
+   ]
+  },
+  {
+   "text": "The mass needed with propellant grows exponentially with the desired delta-v, so a rocket can only carry so much payload.",
+   "cites": [
+    6,
+    44
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Published by",
+   "value": "Konstantin Tsiolkovsky, in 1903",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Earlier outline",
+   "value": "William Moore outlined it as early as 1810",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Found independently",
+   "value": "Goddard in 1912 and Oberth about 1920",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Mass growth",
+   "value": "Needed wet mass grows exponentially with delta-v",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Famous consequence",
+   "value": "Called the tyranny of the rocket equation",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A team wants to carry twice the cargo, so they simply load far more propellant. Why does this not solve the problem neatly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Propellant cannot be added once a design is fixed"
+    },
+    {
+     "id": "b",
+     "label": "The extra propellant adds weight, which raises fuel use further"
+    },
+    {
+     "id": "c",
+     "label": "More propellant slows the exhaust, wasting the gain"
+    },
+    {
+     "id": "d",
+     "label": "Heavier loads make the engine's thrust fall to nothing"
+    }
+   ],
+   "answer": "b",
+   "explain": "Higher amounts of propellant add to the overall weight and so increase fuel consumption, which limits the payload a rocket can carry.",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "prompt": "A designer wants to size a craft driven by a light sail using Tsiolkovsky's equation. What is the problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing; it works for any craft moving in space"
+    },
+    {
+     "id": "b",
+     "label": "It works only if the sail is small enough"
+    },
+    {
+     "id": "c",
+     "label": "It counts reflected light as double the exhaust"
+    },
+    {
+     "id": "d",
+     "label": "It does not cover systems that are not rockets"
+    }
+   ],
+   "answer": "d",
+   "explain": "The equation does not apply to non-rocket systems such as light sails, space elevators or gun launches.",
+   "cites": [
+    45
+   ]
+  },
+  {
+   "prompt": "An engineer uses only the bare equation to size the propellant for launching from a planet with an atmosphere, and the figure does not match what the launch needs. What did she leave out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity and air drag, which must be added to the delta-v requirement"
+    },
+    {
+     "id": "b",
+     "label": "The exhaust velocity, which the equation does not use"
+    },
+    {
+     "id": "c",
+     "label": "The final mass, which the equation never includes"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, because the equation already counts air and gravity"
+    }
+   ],
+   "answer": "a",
+   "explain": "The equation accounts only for the reaction force from the engine, so aerodynamic and gravitational effects must be included in the delta-v requirement.",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "prompt": "Moore, Goddard, Oberth and Tsiolkovsky each reached the same formula on their own. What is Tsiolkovsky honored for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Being the very first person to work the formula out, ahead of everyone else"
+    },
+    {
+     "id": "b",
+     "label": "Showing that Moore's earlier version of the formula was mistaken"
+    },
+    {
+     "id": "c",
+     "label": "Being first to apply it to whether rockets could reach space-travel speeds"
+    },
+    {
+     "id": "d",
+     "label": "Building the first working rocket that was designed with the formula"
+    }
+   ],
+   "answer": "c",
+   "explain": "Moore had derived it earlier, but Tsiolkovsky is honored as the first to apply it to whether rockets could achieve the speeds needed for space travel.",
+   "cites": [
+    8,
+    11
+   ]
+  },
+  {
+   "prompt": "Mission planners ask for a much bigger change in speed from the same engine. What happens to the starting mass needed, propellant included?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows in step with the speed target"
+    },
+    {
+     "id": "b",
+     "label": "It grows exponentially, far faster than the speed target"
+    },
+    {
+     "id": "c",
+     "label": "It stays put, since only exhaust speed matters"
+    },
+    {
+     "id": "d",
+     "label": "It shrinks, because faster rockets are lighter"
+    }
+   ],
+   "answer": "b",
+   "explain": "The necessary wet mass grows exponentially with the desired delta-v.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "A rocket fires its engine while fighting gravity and drag. Is its delta-v the same as how much its speed actually changed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Not always, since gravity and drag also change its speed"
+    },
+    {
+     "id": "b",
+     "label": "Always, since delta-v literally means change in velocity"
+    },
+    {
+     "id": "c",
+     "label": "Always, since gravity and drag cancel each other out"
+    },
+    {
+     "id": "d",
+     "label": "Never, since delta-v only describes the exhaust"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gravity and drag also accelerate the vehicle and can add to or subtract from its velocity change, so delta-v may not be the actual change in speed.",
+   "cites": [
+    20,
+    21,
+    30
+   ]
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle",
+ "name": "Cell cycle",
+ "summary": [
+  {
+   "text": "The cell cycle is the sequence of events in a cell that leads to its division into two daughter cells.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In eukaryotic cells it has two main stages: interphase, when the cell grows and replicates its DNA, and the M phase, which includes mitosis and cytokinesis.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Checkpoints follow each key stage of the cycle and control whether the cell moves on to the next.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Interphase share",
+   "value": "Typically at least 91% of the total cycle time",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Interphase stages",
+   "value": "G₁, S and G₂",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "DNA copying",
+   "value": "Nuclear DNA is duplicated during S phase",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Resting state",
+   "value": "G₀ is where a cell has stopped dividing",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "label": "Prokaryote periods",
+   "value": "Bacteria and archaea use B, C and D periods",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "If you looked at a growing population of eukaryotic cells at random, which stage would most of them be in?",
+   "options": [
+    {
+     "id": "a",
+     "label": "M phase, since that is when everything happens"
+    },
+    {
+     "id": "b",
+     "label": "Mitosis, since it is the longest part of the cycle"
+    },
+    {
+     "id": "c",
+     "label": "Cytokinesis, since cells wait a long time to split"
+    },
+    {
+     "id": "d",
+     "label": "Interphase, which takes most of the total cycle time"
+    }
+   ],
+   "answer": "d",
+   "explain": "Interphase typically lasts for at least 91% of the total time required for the cell cycle.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle:q1"
+  },
+  {
+   "prompt": "A neuron may stop dividing for years, or even permanently. What is this resting state called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "S phase, the stage of DNA synthesis"
+    },
+    {
+     "id": "b",
+     "label": "G₀ phase, a quiescent state entered from G₁"
+    },
+    {
+     "id": "c",
+     "label": "M phase, the stage of nuclear division"
+    },
+    {
+     "id": "d",
+     "label": "G₂ phase, the second gap before division"
+    }
+   ],
+   "answer": "b",
+   "explain": "Non-dividing cells in multicellular eukaryotes generally enter the quiescent G₀ state from G₁ and may stay there indefinitely, as is often the case for neurons.",
+   "cites": [
+    18,
+    21
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle:q2"
+  },
+  {
+   "prompt": "A scrape on the skin heals over. What role does the cell cycle play in that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Repeated rounds of cell division regenerate and heal the skin"
+    },
+    {
+     "id": "b",
+     "label": "Cells enter G₀ so that they can grow into replacement skin"
+    },
+    {
+     "id": "c",
+     "label": "Skin cells repair themselves without ever dividing again"
+    },
+    {
+     "id": "d",
+     "label": "Skin cells skip interphase and divide immediately"
+    }
+   ],
+   "answer": "a",
+   "explain": "In multicellular organisms a series of cell-division cycles is the process by which skin, hair and blood cells are regenerated and healed.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle:q3"
+  },
+  {
+   "prompt": "A cell has just finished DNA synthesis. How does each of its chromosomes look now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single chromatid, just as before"
+    },
+    {
+     "id": "b",
+     "label": "Half a chromosome, split down the middle"
+    },
+    {
+     "id": "c",
+     "label": "Two sister chromatids joined together"
+    },
+    {
+     "id": "d",
+     "label": "Two separate chromosomes in different nuclei"
+    }
+   ],
+   "answer": "c",
+   "explain": "When S phase is complete, all of the chromosomes have been replicated, so each one consists of two sister chromatids.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle:q4"
+  },
+  {
+   "prompt": "A cell passes the G₁ checkpoint known as the restriction point. What does passing it mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The cell stops dividing and starts to rest in G₀"
+    },
+    {
+     "id": "b",
+     "label": "The cell is now committed to dividing"
+    },
+    {
+     "id": "c",
+     "label": "The cell must start over from the M phase"
+    },
+    {
+     "id": "d",
+     "label": "The cell can no longer grow in size at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "Passage through the G₁ checkpoint commits the cell to division.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle:q5"
+  },
+  {
+   "prompt": "Suppose a cell does not properly complete one phase of the cycle. What does that mean for the phase that follows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The next phase starts anyway, one step behind"
+    },
+    {
+     "id": "b",
+     "label": "The next phase starts early to make up the time"
+    },
+    {
+     "id": "c",
+     "label": "The next phase is skipped, and the cycle moves on"
+    },
+    {
+     "id": "d",
+     "label": "The next phase cannot be properly activated"
+    }
+   ],
+   "answer": "d",
+   "explain": "Activation of each phase depends on the proper progression and completion of the previous one.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.cell-cycle:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Normal_Cell_Life_Cycle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Cell cycle",
+  "credit": "BruceBlaus",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Normal_Cell_Life_Cycle.png"
+ },
+ "source": {
+  "title": "Cell cycle",
+  "url": "https://en.wikipedia.org/wiki/Cell_cycle",
+  "revision": 1371110776
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the cell cycle is",
+    "text": "The cell cycle is the chain of events in a cell that ends with it dividing into two daughter cells. The cell grows, copies its DNA and some of its organelles, and then shares out its cytoplasm, chromosomes and other parts between two new cells, a step called cell division. Each daughter cell then begins a fresh cycle. In single-celled organisms, one turn of the cycle is how the organism reproduces.",
+    "cites": [
+     1,
+     2,
+     12,
+     14
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "In plants and animals, many rounds of the cycle take an organism from a single fertilized egg to its mature form. The same process regenerates and heals hair, skin, blood cells and some internal organs, with nerves a possible exception. To keep copying and division accurate, checkpoints follow each key stage and decide whether the cell may move on.",
+    "cites": [
+     7,
+     13
+    ]
+   },
+   {
+    "heading": "Four phases",
+    "text": "In eukaryotic cells, the ones with a nucleus, the cycle has four phases: G₁, S (synthesis), G₂ and M. The first three together make up interphase, which typically fills at least 91% of the cycle's time. M phase joins two tightly linked processes: mitosis, in which the nucleus divides, and cytokinesis, in which the cytoplasm and cell membrane split to form two daughter cells. Each phase can begin only after the one before it has properly run its course.",
+    "cites": [
+     3,
+     15,
+     16,
+     17,
+     31
+    ]
+   },
+   {
+    "heading": "Inside interphase",
+    "text": "G₁, where G stands for gap, runs from the end of the last M phase to the start of DNA synthesis and is also called the growth phase. The cell's building work, much slowed during M phase, picks up again at a high rate: it makes more proteins, adds organelles such as mitochondria and ribosomes, and gets bigger. How long G₁ lasts varies a lot, even among cells of one species. A checkpoint called the restriction point, or START, is regulated by G₁/S cyclins, and passing it commits the cell to dividing. In the S phase that follows, the nuclear DNA is copied, so every chromosome ends up as two sister chromatids.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Resting cells",
+    "text": "Cells that have stopped dividing, temporarily or reversibly, are in a resting state called G₀. In multicellular eukaryotes, non-dividing cells usually enter G₀ from G₁ and may stay there for a long time, perhaps for good, as neurons often do. This is very common in fully differentiated cells, and some liver, kidney and stomach cells enter G₀ semi-permanently. Many other cells, epithelial cells for example, do not enter it and keep dividing throughout life. A separate kind of stop, cellular senescence, follows DNA damage or outside stress, usually as an arrest in G₁, and is often an alternative to the damaged cell destroying itself by apoptosis.",
+    "cites": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "The bacterial version",
+    "text": "Prokaryotes, cells without nuclei such as bacteria and archaea, divide their cycle into B, C and D periods. B runs from the end of one division to the start of DNA replication. The DNA is replicated in the C period. D covers the time between the end of replication and the moment the cell splits into two daughter cells.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-10-2",
+   "kind": "book",
+   "title": "10.2 The Cell Cycle",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+   "note": "A free textbook section on interphase (G1, S, G2), the stages of mitosis, cytokinesis in animals and plants, and G0.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-10-3",
+   "kind": "book",
+   "title": "10.3 Control of the Cell Cycle",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+   "note": "A free textbook section on the G1, G2 and M checkpoints and the cyclins, Cdks and other proteins that drive or halt the cycle.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-ap-3-5",
+   "kind": "book",
+   "title": "3.5 Cell Growth and Division",
+   "by": "OpenStax Anatomy and Physiology 2e",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-5-cell-growth-and-division",
+   "note": "A free anatomy textbook section on the cell cycle in human cells, its checkpoints, and what happens when control fails.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-mitosis-cell-cycle",
+   "kind": "video",
+   "title": "Mitosis & the Cell Cycle: How Cells Clone Themselves: Crash Course Biology #29",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=skPOXcVvS5c",
+   "note": "A Crash Course video on the stages of the cell cycle, from interphase through mitosis."
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.cosmology.expanding-universe",
+ "name": "Expanding universe",
+ "summary": [
+  {
+   "text": "The expansion of the universe is the increase in distance between gravitationally unbound parts of the observable universe with time.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is an intrinsic expansion, so it does not mean that the universe expands into anything or that space exists outside it.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "To any observer, all but the nearest galaxies move away at speeds that are, on average, proportional to their distance from the observer.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discovery",
+   "value": "Theoretical and observational work in the 1920s",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Inflation",
+   "value": "Expanded by at least 10²⁶ in every direction",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Speeding up again",
+   "value": "Began about 9.8 billion years after the Big Bang",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Hubble constant range",
+   "value": "Estimated at 50 to 90 km⋅s⁻¹⋅Mpc⁻¹ late last century",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Proposed cause",
+   "value": "Dark energy, a cosmological constant in simple models",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Very distant galaxies are receding faster than light travels, yet relativity is not broken. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The speed limit applies to local reference frames, not to distant recession"
+    },
+    {
+     "id": "b",
+     "label": "Light speeds up in empty space to stay ahead of them"
+    },
+    {
+     "id": "c",
+     "label": "Their speed is measured wrongly and is really lower"
+    },
+    {
+     "id": "d",
+     "label": "Relativity applies only to objects inside our galaxy"
+    }
+   ],
+   "answer": "a",
+   "explain": "Objects cannot move faster than light with respect to local reference frames, but that limit does not restrict the recession rates of cosmologically distant objects.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.astronomy.cosmology.expanding-universe:q1"
+  },
+  {
+   "prompt": "A child asks what the universe is expanding into. What is the best answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Into a huge empty space that surrounds the universe"
+    },
+    {
+     "id": "b",
+     "label": "Into a wall of matter that sits at the universe's edge"
+    },
+    {
+     "id": "c",
+     "label": "Nothing: the expansion is intrinsic and needs no space outside"
+    },
+    {
+     "id": "d",
+     "label": "Into a second universe that is slowly being pushed back"
+    }
+   ],
+   "answer": "c",
+   "explain": "The expansion is intrinsic, so it does not mean the universe expands into anything or that space exists outside it.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.astronomy.cosmology.expanding-universe:q2"
+  },
+  {
+   "prompt": "Matter in the universe attracts other matter by gravity. Why has the expansion not been stopped by it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity only works on objects that are close together"
+    },
+    {
+     "id": "b",
+     "label": "The density is too low for gravity to prevent continued expansion"
+    },
+    {
+     "id": "c",
+     "label": "Gravity pushes outward on matter at great distances"
+    },
+    {
+     "id": "d",
+     "label": "The expansion is much too fast for gravity to matter at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "The universe's contents are flying apart, and their gravity slows the expansion but their density is too low to prevent it.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.astronomy.cosmology.expanding-universe:q3"
+  },
+  {
+   "prompt": "The scale factor tracks the average separation between galaxies and is set to a = 1 today. What value did it have long ago?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A value below 1, because separations were smaller"
+    },
+    {
+     "id": "b",
+     "label": "A value above 1, because the universe was larger"
+    },
+    {
+     "id": "c",
+     "label": "Exactly 1, since it is a fixed constant"
+    },
+    {
+     "id": "d",
+     "label": "A value of zero, because there were no galaxies yet"
+    }
+   ],
+   "answer": "a",
+   "explain": "The scale factor is proportional to average separation and is smaller in the past and larger in the future.",
+   "cites": [
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.science.astronomy.cosmology.expanding-universe:q4"
+  },
+  {
+   "prompt": "Expansion began with a sudden burst and then slowed. What happened about 4 billion years ago?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stopped and began to contract"
+    },
+    {
+     "id": "b",
+     "label": "It sped up suddenly by a huge factor"
+    },
+    {
+     "id": "c",
+     "label": "It slowed to a crawl and then held steady"
+    },
+    {
+     "id": "d",
+     "label": "It began to gradually speed up again, and still is"
+    }
+   ],
+   "answer": "d",
+   "explain": "After slowing, expansion began to gradually expand more quickly around 9.8 billion years after the Big Bang (4 billion years ago) and is still doing so.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.astronomy.cosmology.expanding-universe:q5"
+  },
+  {
+   "prompt": "Why don't the very nearest galaxies follow the pattern of moving away in proportion to distance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are too small to feel any expansion at all"
+    },
+    {
+     "id": "b",
+     "label": "They sit at the center of the universe"
+    },
+    {
+     "id": "c",
+     "label": "Gravity binds them to each other"
+    },
+    {
+     "id": "d",
+     "label": "They are carried along by the galaxies behind them"
+    }
+   ],
+   "answer": "c",
+   "explain": "All but the nearest galaxies move away; the nearest ones are bound to each other by gravity.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.astronomy.cosmology.expanding-universe:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/960px-CMB_Timeline300_no_WMAP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Expanding universe",
+  "credit": "NASA/WMAP Science Team",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg"
+ },
+ "source": {
+  "title": "Expansion of the universe",
+  "url": "https://en.wikipedia.org/wiki/Expansion_of_the_universe",
+  "revision": 1377167396
+ },
+ "pack": {
+  "id": "auto-cosmology-expanding-universe",
+  "title": "Everything Moving Apart",
+  "question": "What does it mean that the universe is expanding?",
+  "path": [
+   "Science",
+   "Astronomy",
+   "Cosmology",
+   "Expanding universe"
+  ],
+  "hue": 195,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/960px-CMB_Timeline300_no_WMAP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Expanding universe",
+    "credit": "NASA/WMAP Science Team · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Everything Moving Apart",
+    "hook": "From any galaxy, nearly everything else seems to run away."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-cosmology-expanding-universe:1",
+    "transfer": false,
+    "prompt": "You measure two distant galaxies. One is twice as far from you as the other. How do their speeds of moving away compare, on average?",
+    "explain": "To any observer, galaxies move away at speeds proportional to their distance, on average.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "The farther one moves away about twice as fast"
+       },
+       {
+        "id": "c",
+        "label": "The nearer one moves away faster",
+        "feedback": "That has it backwards: speeds are proportional to distance, so farther means faster."
+       },
+       {
+        "id": "b",
+        "label": "Both move away at the same speed",
+        "feedback": "It is tempting to think speed is a property of each galaxy, but speed grows in proportion to distance."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-cosmology-expanding-universe:2",
+    "transfer": false,
+    "prompt": "Put these steps in discovering the expansion in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Slipher finds light from remote galaxies redshifted"
+     },
+     {
+      "id": "b",
+      "label": "Friedmann gives theoretical evidence that the universe expands"
+     },
+     {
+      "id": "c",
+      "label": "Lemaître proposes a linear distance and velocity relationship"
+     },
+     {
+      "id": "d",
+      "label": "Hubble firmly establishes the relationship"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Slipher's work came in 1912 to 1914, Friedmann's in 1922, Lemaître's in 1927 and Hubble's in 1929."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-cosmology-expanding-universe:3",
+    "transfer": true,
+    "prompt": "Match each scientist to their contribution.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Slipher"
+     },
+     {
+      "id": "l1",
+      "label": "Friedmann"
+     },
+     {
+      "id": "l2",
+      "label": "Lemaître"
+     },
+     {
+      "id": "l3",
+      "label": "Baade"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Found remote galaxies' light redshifted"
+     },
+     {
+      "id": "r1",
+      "label": "Used Einstein's equations to show expansion"
+     },
+     {
+      "id": "r2",
+      "label": "Proposed a linear distance and velocity link"
+     },
+     {
+      "id": "r3",
+      "label": "Recalculated the universe's size, doubling it"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each contribution added a piece to the picture of an expanding universe."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-cosmology-expanding-universe:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The speed-of-light limit applies to local reference frames."
+     },
+     {
+      "id": "b",
+      "text": "Distant galaxies can recede at rates that limit does not cover."
+     },
+     {
+      "id": "c",
+      "text": "So a galaxy receding faster than light breaks relativity."
+     },
+     {
+      "id": "d",
+      "text": "So the limit and the expansion can both hold."
+     }
+    ],
+    "answer": "c",
+    "explain": "The limit does not restrict the recession rates of cosmologically distant objects, so nothing is broken."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Distances between unbound parts of the universe grow, and there is no outside to expand into.",
+    "connections": [
+     {
+      "title": "Redshift",
+      "place": "Expanding universe",
+      "node": "knowledge.science.astronomy.cosmology.expanding-universe.redshift"
+     },
+     {
+      "title": "Hubble's law",
+      "place": "Expanding universe",
+      "node": "knowledge.science.astronomy.cosmology.expanding-universe.hubble-s-law"
+     },
+     {
+      "title": "Standard candle",
+      "place": "Expanding universe",
+      "node": "knowledge.science.astronomy.cosmology.expanding-universe.standard-candle"
+     },
+     {
+      "title": "Metric expansion of space",
+      "place": "Expanding universe",
+      "node": "knowledge.science.astronomy.cosmology.expanding-universe.metric-expansion-of-space"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "To any observer, galaxies move away at speeds proportional to their distance, on average.",
+    "source": "Wikipedia sentences 3"
+   },
+   {
+    "claim": "Slipher's work came in 1912 to 1914, Friedmann's in 1922, Lemaître's in 1927 and Hubble's in 1929.",
+    "source": "Wikipedia sentences 15, 16, 21, 22"
+   },
+   {
+    "claim": "Each contribution added a piece to the picture of an expanding universe.",
+    "source": "Wikipedia sentences 15, 16, 21, 24"
+   },
+   {
+    "claim": "The limit does not restrict the recession rates of cosmologically distant objects, so nothing is broken.",
+    "source": "Wikipedia sentences 4"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Distances that grow",
+    "text": "The expansion of the universe means that, as time passes, the distances between parts of the observable universe that are not held together by gravity get larger. The expansion is built into space itself. It does not mean the universe is spreading into something, or that there is space outside it. The idea is hard to explain, and it has led to several misconceptions.",
+    "cites": [
+     1,
+     2,
+     14
+    ]
+   },
+   {
+    "heading": "What any observer sees",
+    "text": "Wherever you stand in the universe, all but the closest galaxies seem to be moving away from you. On average, the farther away a galaxy is, the faster it recedes, in proportion to its distance. The nearest galaxies are the exception because gravity binds them together. Nothing can travel faster than light, but that limit only applies locally, so it does not cap how fast very distant objects can recede.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Found in the 1920s",
+    "text": "Both theory and observation uncovered the expansion in the 1920s. Between 1912 and 1914 Vesto Slipher found that light from remote galaxies was redshifted, which was later read as a sign they are moving away from Earth. In 1922 Alexander Friedmann used Einstein's equations to show in theory that the universe is expanding. In 1927 Georges Lemaître used data from Slipher and Hubble to propose a straight-line link between a galaxy's distance and its speed of recession, and Edwin Hubble firmly established that link in 1929.",
+    "cites": [
+     5,
+     15,
+     16,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Fast, slow, then fast again",
+    "text": "The standard Lambda-CDM model says the expansion rate has changed over time, depending on what the universe contains. In the earliest stage, called inflation, the universe suddenly stretched at least 10²⁶ times over along each direction. After that the expansion slowed a great deal. Then, about 4 billion years ago, it began to speed up gradually, and it is still doing so. To explain this recent speed-up, physicists have proposed dark energy.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Measuring the size of it",
+    "text": "Cosmologists track the expansion with a number called the scale factor, written a, which grows in step with the average spacing between objects such as galaxies. By convention a = 1 today, so it was smaller in the past and will be larger in the future. Running the clock backward in some models reaches a moment when the scale factor was zero, which current cosmology places 13.787 ± 0.020 billion years ago.",
+    "cites": [
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "A tug of war",
+    "text": "One way to picture the expansion is that the universe's contents started out flying apart. The gravity of all the matter and radiation slowly holds the expansion back, but it is too thinly spread to stop it. On top of that, recent evidence suggests dark energy is now making the expansion speed up. If the expansion goes on forever, the scale factor will grow without limit, though in principle the universe could also stop and begin to shrink.",
+    "cites": [
+     35,
+     36,
+     37,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-26-5",
+   "kind": "book",
+   "title": "26.5 The Expanding Universe",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/26-5-the-expanding-universe",
+   "note": "A free textbook section on Slipher's redshifts, Hubble's law and early models of an expanding universe.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-29-2",
+   "kind": "book",
+   "title": "29.2 A Model of the Universe",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe",
+   "note": "A textbook section explaining that space itself stretches, the scale factor, and the tug of war with gravity.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nasa-goddard-hubble-constant",
+   "kind": "video",
+   "title": "Hubble Constant: An Expanding Universe",
+   "by": "NASA Goddard",
+   "url": "https://www.youtube.com/watch?v=G03N5_13Os0",
+   "note": "A short NASA Goddard video on how astronomers measure how fast the universe is expanding."
+  }
+ ]
+}

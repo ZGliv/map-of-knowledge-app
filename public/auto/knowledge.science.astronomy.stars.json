@@ -1,0 +1,563 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.stars",
+ "name": "Stars",
+ "summary": [
+  {
+   "text": "A star is a luminous ball of plasma held together by its own gravity, and the one nearest to Earth is the Sun.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A star's life begins when a gas cloud of mostly hydrogen and helium collapses under gravity, and its total mass mainly decides how it evolves and ends.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "text": "For most of its active life a star shines by fusing hydrogen into helium in its core, and when fusion stops the core becomes a white dwarf, a neutron star or a black hole.",
+   "cites": [
+    10,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Nearest star",
+   "value": "The Sun",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Visible by eye",
+   "value": "About 4,000 stars, all in the Milky Way",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "What powers it",
+   "value": "Fusion of hydrogen into helium in its core",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Heavy elements",
+   "value": "Stars create almost all elements heavier than lithium",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Possible remnants",
+   "value": "White dwarf, neutron star or black hole",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On a clear night, nearly every star you can see looks like a tiny, steady dot, never a visible disc. What best explains that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stars are much smaller than the planets beside them"
+    },
+    {
+     "id": "b",
+     "label": "They are so far from Earth that they shrink to points of light"
+    },
+    {
+     "id": "c",
+     "label": "They only reflect light, so each shows as a faint dot"
+    },
+    {
+     "id": "d",
+     "label": "They are fixed to a sphere that hides their true size"
+    }
+   ],
+   "answer": "b",
+   "explain": "The immense distances of stars from Earth make them appear as fixed points of light.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.astronomy.stars:q1"
+  },
+  {
+   "prompt": "Two newborn stars form from similar clouds of gas, but one ends up with much more total mass. What does that difference mainly settle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How each star evolves and how it eventually ends"
+    },
+    {
+     "id": "b",
+     "label": "Which constellation each star is grouped into"
+    },
+    {
+     "id": "c",
+     "label": "How many planets will orbit each star"
+    },
+    {
+     "id": "d",
+     "label": "What name astronomers will give each star"
+    }
+   ],
+   "answer": "a",
+   "explain": "A star's total mass mainly determines its evolution and eventual fate.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.astronomy.stars:q2"
+  },
+  {
+   "prompt": "A friend says the Sun shines because it burns, like a giant bonfire. What actually powers a star through most of its active life?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Chemical burning of gas in its outer layers"
+    },
+    {
+     "id": "b",
+     "label": "Light reflected from other stars nearby"
+    },
+    {
+     "id": "c",
+     "label": "Fusion of hydrogen into helium in its core"
+    },
+    {
+     "id": "d",
+     "label": "Friction from planets moving through it"
+    }
+   ],
+   "answer": "c",
+   "explain": "A star shines for most of its active life because hydrogen fuses into helium in its core, releasing energy that radiates into space.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.astronomy.stars:q3"
+  },
+  {
+   "prompt": "A very heavy star's core stops fusing for good. Which fate can await it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes a planet circling a younger star"
+    },
+    {
+     "id": "b",
+     "label": "It restarts as a fresh cloud of hydrogen gas"
+    },
+    {
+     "id": "c",
+     "label": "It turns into a brighter star with new fuel"
+    },
+    {
+     "id": "d",
+     "label": "It can become a black hole"
+    }
+   ],
+   "answer": "d",
+   "explain": "When fusion ceases, the core becomes a stellar remnant, and a sufficiently massive star leaves a black hole.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.astronomy.stars:q4"
+  },
+  {
+   "prompt": "A dying star throws off material rich in heavy elements. How can that material end up in a later star?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It returns to the space between stars and is recycled into new stars"
+    },
+    {
+     "id": "b",
+     "label": "It sinks back into the old core, where it stays locked away"
+    },
+    {
+     "id": "c",
+     "label": "It is destroyed, so later stars hold only hydrogen and helium"
+    },
+    {
+     "id": "d",
+     "label": "It escapes as pure light, so nothing is ever reused"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mass loss or supernova explosions return enriched material to the interstellar medium, and those elements are then recycled into new stars.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.astronomy.stars:q5"
+  },
+  {
+   "prompt": "Ancient sky-watchers sorted the lights above into two kinds by how they moved. Which description fits the \"wandering stars\"?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lights that blink on and off from one night to the next"
+    },
+    {
+     "id": "b",
+     "label": "Lights that shift noticeably against the rest over days or weeks"
+    },
+    {
+     "id": "c",
+     "label": "Lights that appear only during a lunar eclipse"
+    },
+    {
+     "id": "d",
+     "label": "Lights that brighten and fade on a yearly cycle"
+    }
+   ],
+   "answer": "b",
+   "explain": "Wandering stars moved noticeably relative to the fixed stars over days or weeks.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.science.astronomy.stars:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_Sun_in_white_light.jpg/960px-The_Sun_in_white_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Stars",
+  "credit": "Matúš Motlo",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg"
+ },
+ "source": {
+  "title": "Star",
+  "url": "https://en.wikipedia.org/wiki/Star",
+  "revision": 1382096914
+ },
+ "pack": {
+  "id": "auto-astronomy-stars",
+  "title": "Gas cloud to stellar remnant",
+  "question": "What decides how a star lives and ends?",
+  "path": [
+   "Science",
+   "Astronomy",
+   "Stars"
+  ],
+  "hue": 204,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_Sun_in_white_light.jpg/960px-The_Sun_in_white_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Stars",
+    "credit": "Matúš Motlo · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Gas cloud to stellar remnant",
+    "hook": "Every star starts as a collapsing cloud of gas, yet they do not all end the same way."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-astronomy-stars:1",
+    "transfer": false,
+    "prompt": "Two stars form from similar gas clouds, but one has far more total mass. What should you expect about their lives?",
+    "explain": "A star's total mass mainly determines its evolution and eventual fate.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "They will follow the same path and end the same way",
+        "feedback": "Similar clouds sound like similar outcomes, but a star's total mass mainly determines its evolution and eventual fate."
+       },
+       {
+        "id": "b",
+        "label": "Their evolution and fate will differ, since mass mainly sets them"
+       },
+       {
+        "id": "c",
+        "label": "Only the lighter one will ever fuse hydrogen into helium",
+        "feedback": "Fusing hydrogen into helium is how a star shines for most of its active life, so it is not limited to one of them."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-astronomy-stars:2",
+    "transfer": false,
+    "prompt": "Put these star-watching records in order, oldest first.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Aristillus makes the first Greek star catalogue (about 300 BC)"
+     },
+     {
+      "id": "b",
+      "label": "Hipparchus's catalogue lists 1,020 stars (2nd century BC)"
+     },
+     {
+      "id": "c",
+      "label": "Chinese astronomers record a supernova (185 AD)"
+     },
+     {
+      "id": "d",
+      "label": "The brightest recorded stellar event, SN 1006, is seen (1006)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Oldest",
+     "Newest"
+    ],
+    "explain": "Aristillus worked around 300 BC, Hipparchus in the 2nd century BC, then came the supernova of 185 AD and SN 1006."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-astronomy-stars:3",
+    "transfer": true,
+    "prompt": "Match each process to what it does.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Fusion of hydrogen into helium"
+     },
+     {
+      "id": "l1",
+      "label": "Stellar nucleosynthesis"
+     },
+     {
+      "id": "l2",
+      "label": "Mass loss or supernova"
+     },
+     {
+      "id": "l3",
+      "label": "Total mass"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Creates almost all elements heavier than lithium"
+     },
+     {
+      "id": "r3",
+      "label": "Mainly determines a star's evolution and fate"
+     },
+     {
+      "id": "r0",
+      "label": "Powers a star for most of its active life"
+     },
+     {
+      "id": "r2",
+      "label": "Returns enriched material to the interstellar medium"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each process plays a part in a star's life, from shining to feeding new generations of stars."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-astronomy-stars:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A star begins as a collapsing gaseous nebula."
+     },
+     {
+      "id": "b",
+      "text": "In its core, hydrogen fuses into helium and releases energy."
+     },
+     {
+      "id": "c",
+      "text": "So when fusion ceases, every star's core becomes a white dwarf."
+     },
+     {
+      "id": "d",
+      "text": "Material returned to space can be recycled into new stars."
+     }
+    ],
+    "answer": "c",
+    "explain": "The core may become a white dwarf, a neutron star, or, if the star is massive enough, a black hole."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A star is born from a collapsing gas cloud, shines by fusing hydrogen, and its total mass mainly decides how it ends.",
+    "connections": [
+     {
+      "title": "Stellar formation",
+      "place": "Stars",
+      "node": "knowledge.science.astronomy.stars.stellar-formation"
+     },
+     {
+      "title": "Stellar classification",
+      "place": "Stars",
+      "node": "knowledge.science.astronomy.stars.stellar-classification"
+     },
+     {
+      "title": "Stellar evolution",
+      "place": "Stars",
+      "node": "knowledge.science.astronomy.stars.stellar-evolution"
+     },
+     {
+      "title": "Stellar remnants",
+      "place": "Stars",
+      "node": "knowledge.science.astronomy.stars.stellar-remnants"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A star's total mass mainly determines its evolution and eventual fate.",
+    "source": "Wikipedia sentences 8, 9, 10"
+   },
+   {
+    "claim": "Aristillus worked around 300 BC, Hipparchus in the 2nd century BC, then came the supernova of 185 AD and SN 1006.",
+    "source": "Wikipedia sentences 31, 32, 36, 37"
+   },
+   {
+    "claim": "Each process plays a part in a star's life, from shining to feeding new generations of stars.",
+    "source": "Wikipedia sentences 9, 10, 13, 14"
+   },
+   {
+    "claim": "The core may become a white dwarf, a neutron star, or, if the star is massive enough, a black hole.",
+    "source": "Wikipedia sentences 8, 10, 12, 15"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a star is",
+    "text": "A star is a glowing, roughly round ball of plasma held together by its own gravity. The Sun is the star nearest to Earth. Many other stars show up in the night sky, but they are so far away that they look like fixed points of light. The observable universe holds an estimated 10²² to 10²⁴ stars, yet only about 4,000 can be seen with the naked eye, and all of those lie in the Milky Way.",
+    "cites": [
+     1,
+     2,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "How a star lives",
+    "text": "A star begins when a cloud of gas, mostly hydrogen and helium with traces of heavier elements, collapses under gravity. For most of its active life it shines by fusing hydrogen into helium in its core. That fusion gives off energy, which travels out through the star and radiates into space. A star's total mass mainly decides how it changes over time and how it ends.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "How a star ends",
+    "text": "When fusion stops at the end of a star's life, what is left of its core is a stellar remnant, which can be a white dwarf, a neutron star or, for a massive enough star, a black hole. Stars and their remnants make almost all the natural chemical elements heavier than lithium, a process called stellar nucleosynthesis. Stars lose mass, or blow it out in supernova explosions, returning chemically enriched material to the interstellar medium. Those elements are then recycled into new stars.",
+    "cites": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Reading starlight",
+    "text": "Astronomers work out a star's mass, age, chemical makeup, variability, distance and motion by observing how bright it looks, studying its spectrum and tracking how its position in the sky shifts over time. Stars can form systems with other objects: some have planets, and some orbit one or more other stars. When two stars orbit close together, their gravity can greatly change how each one evolves. Stars also often belong to much larger groups held together by gravity, such as star clusters and galaxies.",
+    "cites": [
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Stars in human history",
+    "text": "Stars have mattered to civilizations all over the world. People have used them in religion, divination and mythology, to navigate, to mark the seasons and to set calendars. Early astronomers told apart 'fixed stars', which keep their places on the celestial sphere, and 'wandering stars', the planets, which shift against them over days or weeks. They grouped bright stars into constellations to follow the planets and the Sun, and the Sun's motion against the stars gave calendars that could guide farming.",
+    "cites": [
+     22,
+     23,
+     24,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "The first star catalogues",
+    "text": "The oldest accurately dated star chart comes from ancient Egypt in 1534 BC. Babylonian astronomers in Mesopotamia compiled the earliest known star catalogues in the late 2nd millennium BC. In Greece, Aristillus made the first catalogue around 300 BC with help from Timocharis. In the 2nd century BC Hipparchus listed 1,020 stars, a catalogue later used to build Ptolemy's. Hipparchus is also known for the first recorded nova, or new star.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "New stars and other suns",
+    "text": "Even though the sky seemed unchanging, Chinese astronomers knew new stars could appear, and in 185 AD they became the first people known to see and describe a supernova, now known as SN 185. The brightest star event in recorded history, the SN 1006 supernova, was described by the Egyptian astronomer Ali ibn Ridwan and by several Chinese astronomers. In Europe, Tycho Brahe spotted new stars, which hinted that the heavens could change. In 1584 Giordano Bruno suggested that stars were like the Sun and might have planets of their own, an idea raised earlier by Democritus and Epicurus.",
+    "cites": [
+     35,
+     36,
+     37,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "nasa-star-basics",
+   "kind": "article",
+   "title": "Star Basics",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/universe/stars/",
+   "note": "NASA's overview of what stars are, how they form and how they evolve."
+  },
+  {
+   "id": "crashcourse-stars",
+   "kind": "video",
+   "title": "Stars: Crash Course Astronomy #26",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ld75W1dz-h0",
+   "note": "A Crash Course Astronomy episode introducing stars: their colors, temperatures, spectra and brightness."
+  },
+  {
+   "id": "iot-life-of-stars",
+   "kind": "documentary",
+   "title": "The Life of Stars",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/p00548w8",
+   "minutes": 45,
+   "note": "An In Our Time radio discussion of how stars are born, shine and die."
+  }
+ ]
+}

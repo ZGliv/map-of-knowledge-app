@@ -1,0 +1,109 @@
+{
+ "title": "Electrons that jump",
+ "question": "What happens inside an atom when it absorbs energy?",
+ "hook": "An atom never glides smoothly between energies; its electrons leap, and each leap pays out an exact photon.",
+ "idea": "Electrons sit in bound states, and absorbing or releasing energy moves them between states or frees them entirely.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "An electron in an atom absorbs a little less energy than its binding energy. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It moves to an excited state",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "It is ejected with leftover energy",
+     "feedback": "Ejection needs more than the binding energy; this electron fell short."
+    },
+    {
+     "id": "c",
+     "label": "It absorbs nothing at all",
+     "feedback": "The electron does take the energy up, just not enough to escape."
+    }
+   ],
+   "answer": "a",
+   "explain": "With less than the binding energy the electron goes to an excited state; only more than that ionizes the atom.",
+   "cites": [
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these in order for an atom that gets excited and then relaxes.",
+   "items": [
+    "Electron sits in its ground state",
+    "Electron absorbs energy from a photon or collision",
+    "Electron jumps up to an excited state",
+    "Electron drops down and the atom emits a photon"
+   ],
+   "ends": [
+    "start",
+    "finish"
+   ],
+   "explain": "Absorbed energy lifts an electron, and when it jumps down the atom emits a photon with the energy difference.",
+   "cites": [
+    17,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each into its group",
+   "groups": [
+    "Atomic physics",
+    "Nuclear physics"
+   ],
+   "items": [
+    [
+     "Electron shells around a nucleus",
+     "Atomic physics"
+    ],
+    [
+     "Ionization by a photon",
+     "Atomic physics"
+    ],
+    [
+     "Excitation by a collision",
+     "Atomic physics"
+    ],
+    [
+     "Nuclear reactions",
+     "Nuclear physics"
+    ],
+    [
+     "Special properties of atomic nuclei",
+     "Nuclear physics"
+    ]
+   ],
+   "explain": "Atomic physics treats nucleus plus electrons; nuclear physics studies reactions and properties of the nuclei themselves.",
+   "cites": [
+    6,
+    12
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "A gas contains a huge number of atoms.",
+    "Atoms in a gas rarely interact compared with the speed of atomic processes.",
+    "So atomic physics cannot say anything about gases.",
+    "Therefore treating each atom alone is a fair model."
+   ],
+   "wrong": 2,
+   "explain": "Because atoms are alone nearly all the time, atomic physics does give the underlying theory for gases and plasmas.",
+   "cites": [
+    13,
+    14,
+    15
+   ]
+  }
+ ]
+}

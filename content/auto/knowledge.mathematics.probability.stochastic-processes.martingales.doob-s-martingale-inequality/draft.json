@@ -1,0 +1,220 @@
+{
+ "summary": [
+  {
+   "text": "Doob's martingale inequality, also known as Kolmogorov's submartingale inequality, is a fundamental result in the study of stochastic processes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It bounds the probability that a submartingale exceeds a given value over an interval of time.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Informally, the expected value of the process at a final time controls the chance that a sample path reaches above a given value beforehand.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Kolmogorov's submartingale inequality",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Setting",
+   "value": "A submartingale relative to a filtration",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Follow-up result",
+   "value": "Doob's maximal inequality",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Role in convergence",
+   "value": "A stepping stone in Doob's martingale convergence theorems",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Index sets",
+   "value": "Holds beyond intervals or natural numbers",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You want to know how likely a fair-game process is to spike above some high level at any point before a final time. What does the inequality use to bound that chance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The expected value of the process at the final time"
+    },
+    {
+     "id": "b",
+     "label": "The value at the very first moment only"
+    },
+    {
+     "id": "c",
+     "label": "The number of times the path changes direction"
+    },
+    {
+     "id": "d",
+     "label": "The average of the path over its first half"
+    }
+   ],
+   "answer": "a",
+   "explain": "By bounding the running maximum using only its terminal expectation, the inequality lets the final expected value control the chance of reaching above a value beforehand.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "prompt": "The inequality is usually stated for martingales. Which wider class of processes does the core mathematics cover?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Processes with no randomness"
+    },
+    {
+     "id": "b",
+     "label": "Only processes that never move"
+    },
+    {
+     "id": "c",
+     "label": "Any process whatsoever"
+    },
+    {
+     "id": "d",
+     "label": "Submartingales"
+    }
+   ],
+   "answer": "d",
+   "explain": "The result is usually given for martingales, but the core mathematics applies to submartingales.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A martingale has bounded expectations. By bounding extreme excursions of its paths, what does the inequality help show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The martingale does not oscillate infinitely"
+    },
+    {
+     "id": "b",
+     "label": "The martingale must stay at its starting value"
+    },
+    {
+     "id": "c",
+     "label": "The martingale must rise forever"
+    },
+    {
+     "id": "d",
+     "label": "The martingale must fall to zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "By bounding the probability of extreme excursions, it ensures such martingales do not oscillate infinitely, which supports convergence to a limit.",
+   "cites": [
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "prompt": "Compared with many other theorems about stochastic processes, what is notable about the assumptions needed for the proof?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It needs the process to be very smooth"
+    },
+    {
+     "id": "b",
+     "label": "It needs no restrictive assumptions on the filtration or process"
+    },
+    {
+     "id": "c",
+     "label": "It needs a special filtration chosen with care"
+    },
+    {
+     "id": "d",
+     "label": "It needs the process to take only integer values"
+    }
+   ],
+   "answer": "b",
+   "explain": "The proof uses very direct reasoning, so it requires no restrictive assumptions on the filtration or the process itself.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A probability textbook cites Kolmogorov's submartingale inequality. Which result is this the same as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The optional stopping theorem"
+    },
+    {
+     "id": "b",
+     "label": "The Black-Scholes formula"
+    },
+    {
+     "id": "c",
+     "label": "Doob's martingale inequality"
+    },
+    {
+     "id": "d",
+     "label": "The Itô isometry"
+    }
+   ],
+   "answer": "c",
+   "explain": "Doob's martingale inequality is also known as Kolmogorov's submartingale inequality.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "Must the times at which the process is observed form an interval or the natural numbers for the inequality to hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, only whole-number times are allowed"
+    },
+    {
+     "id": "b",
+     "label": "Yes, only a single continuous interval works"
+    },
+    {
+     "id": "c",
+     "label": "Yes, only a finite list of times works"
+    },
+    {
+     "id": "d",
+     "label": "No, it holds for more general index sets"
+    }
+   ],
+   "answer": "d",
+   "explain": "The submartingale inequality holds even for more general index sets, which are not required to be intervals or natural numbers.",
+   "cites": [
+    21
+   ]
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number",
+ "name": "Catalan number",
+ "summary": [
+  {
+   "text": "The Catalan numbers are a sequence of natural numbers that occur in various counting problems, often involving recursively defined objects.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They are named after Eugene Catalan, though Minggatu discovered them earlier, in the 1730s.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Many counting problems have Catalan answers; a book by Richard Stanley has exercises describing 66 different interpretations.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Prime ones",
+   "value": "Only C₂ = 2 and C₃ = 5 are prime",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Odd ones",
+   "value": "The only odd Catalan numbers are those with n = 2ᵏ − 1",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Trees",
+   "value": "Cₙ counts ordered trees with n + 1 vertices",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Grid paths",
+   "value": "Cₙ counts grid paths that never pass above the diagonal",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Interpretations",
+   "value": "One book describes 66 ways to read them",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A language program counts the ways to build a sentence's parse tree when every branching splits in two. Which numbers give that count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Catalan numbers"
+    },
+    {
+     "id": "b",
+     "label": "The prime numbers"
+    },
+    {
+     "id": "c",
+     "label": "The powers of two"
+    },
+    {
+     "id": "d",
+     "label": "The triangular numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Cₙ is the number of possible parse trees for a sentence, assuming binary branching.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number:q1"
+  },
+  {
+   "prompt": "You walk from the lower left to the upper right corner of a 2-by-2 grid of squares, moving only right or up, never crossing over the diagonal. How many paths are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2"
+    },
+    {
+     "id": "b",
+     "label": "3"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "6"
+    }
+   ],
+   "answer": "a",
+   "explain": "Such paths are counted by Cₙ, and C₂ = 2.",
+   "cites": [
+    6,
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number:q2"
+  },
+  {
+   "prompt": "Grid paths are written as strings of the letters X and Y. What do the two letters stand for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "X means move up, Y means move right"
+    },
+    {
+     "id": "b",
+     "label": "X means move right, Y means move up"
+    },
+    {
+     "id": "c",
+     "label": "X means stay put, Y means move"
+    },
+    {
+     "id": "d",
+     "label": "X means start, Y means finish"
+    }
+   ],
+   "answer": "b",
+   "explain": "Counting such paths is the same as counting Dyck words, where X is a move right and Y is a move up.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number:q3"
+  },
+  {
+   "prompt": "The numbers 1 to 2n are placed into a 2-by-n rectangle, and the count is a Catalan number. What rule must the arrangement follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each row and each column must be increasing"
+    },
+    {
+     "id": "b",
+     "label": "Each row must add up to the same total"
+    },
+    {
+     "id": "c",
+     "label": "Odd numbers must sit over the even numbers"
+    },
+    {
+     "id": "d",
+     "label": "No two neighbouring numbers may differ by one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Cₙ counts the ways of arranging 1, 2, ..., 2n in a 2-by-n rectangle so that each row and each column is increasing.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number:q4"
+  },
+  {
+   "prompt": "To count good grid paths indirectly, you first count the bad ones. What makes a path bad?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It goes up before it goes right"
+    },
+    {
+     "id": "b",
+     "label": "It touches the diagonal at any point"
+    },
+    {
+     "id": "c",
+     "label": "It contains a point higher than the line y = x"
+    },
+    {
+     "id": "d",
+     "label": "It ends anywhere but the far corner"
+    }
+   ],
+   "answer": "c",
+   "explain": "A bad path is monotonic from (0, 0) to (n, n) and contains a point above the line y = x.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number:q5"
+  },
+  {
+   "prompt": "Catalan numbers keep turning up in unrelated puzzles. Which kind of problem tends to produce them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Counting problems about recursively defined objects, such as trees"
+    },
+    {
+     "id": "b",
+     "label": "Counting the ways to shuffle a deck of cards"
+    },
+    {
+     "id": "c",
+     "label": "Problems about the sums of digits of a number"
+    },
+    {
+     "id": "d",
+     "label": "Problems that can only be solved on a grid"
+    }
+   ],
+   "answer": "a",
+   "explain": "They occur in various counting problems, often involving recursively defined objects, with ordered trees as one example.",
+   "cites": [
+    1,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Noncrossing_partitions_5.svg/960px-Noncrossing_partitions_5.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Catalan number",
+  "credit": "WatchduckYou can name the author as \"T. Piesk\", \"Tilman Piesk\" or \"Watchduck\".",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Noncrossing_partitions_5.svg"
+ },
+ "source": {
+  "title": "Catalan number",
+  "url": "https://en.wikipedia.org/wiki/Catalan_number",
+  "revision": 1380170448
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A sequence that keeps appearing",
+    "text": "The Catalan numbers form a list of natural numbers that answer many different counting questions, often about recursively defined objects. They carry the name of Eugène Catalan, but Minggatu had already found them in the 1730s. Many problems in combinatorics have Catalan numbers as their answer. The book Enumerative Combinatorics: Volume 2 by Richard P. Stanley has exercises giving 66 different interpretations of them.",
+    "cites": [
+     1,
+     2,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Paths on a grid",
+    "text": "One example uses a grid of n × n square cells. A monotonic path starts at the lower left corner, ends at the upper right, and moves only right or up along the edges. Cₙ is the number of these paths that never pass above the diagonal. Counting them is the same as counting Dyck words, where X stands for a step right and Y for a step up.",
+    "cites": [
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Trees and tables",
+    "text": "Cₙ also counts plane trees, also called ordered trees, that have n + 1 vertices and are non-isomorphic. For example, it gives the number of possible parse trees for a sentence in natural language processing, assuming every branching is binary. It also counts the ways to arrange the numbers 1, 2, ..., 2n in a rectangle two rows high and n columns wide so that each row and each column increases.",
+    "cites": [
+     16,
+     18,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Sorting and sequences",
+    "text": "Certain permutations, called stack-sortable, are counted by Cₙ as well. For n = 3 they are 132, 213, 231, 312 and 321, which matches C₃ = 5. Cₙ also counts sequences of length n that start at 1 and at each step either stay level, go up by 1, or drop by any amount while staying at least 1. For n = 4 there are 14 of them, running from 1234 to 1111, which matches C₄ = 14.",
+    "cites": [
+     15,
+     22,
+     23,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Odd, even and prime",
+    "text": "Cₙ is odd only when n = 2ᵏ − 1, and every other Catalan number is even. Just two of them are prime: C₂ = 2 and C₃ = 5. As n grows, Cₙ grows like 4ⁿ/(n^(3/2)√π), meaning the ratio between Cₙ and that expression gets closer and closer to 1.",
+    "cites": [
+     3,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "The reflection trick",
+    "text": "Several proofs are bijective proofs: they reach the formula by literally counting a collection of objects. One of them counts bad paths, which are monotonic paths from (0, 0) to (n, n) that include a point above the line y = x. Find the first point P where a bad path meets the line y = x + 1, keep the path up to P, and mirror the rest across that line. The result is a path from (0, 0) to (n − 1, n + 1) that is still monotonic, and every such path comes from exactly one bad path, so the two groups are the same size.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-catalan-numbers",
+   "kind": "video",
+   "title": "Catalan Numbers",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=fczN0BCx0xs",
+   "note": "A Numberphile video with Sophie Maclean on the Catalan numbers."
+  }
+ ]
+}

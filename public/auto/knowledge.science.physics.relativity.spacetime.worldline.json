@@ -1,0 +1,291 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.spacetime.worldline",
+ "name": "Worldline",
+ "summary": [
+  {
+   "text": "A world line is the path an object traces through four-dimensional spacetime, made of the sequence of events in its history.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "text": "Each point on it is an event labeled by a time and a position, so Earth's yearly circle around the sun becomes a helix that never closes.",
+   "cites": [
+    8,
+    9,
+    11
+   ]
+  },
+  {
+   "text": "Hermann Minkowski pioneered the idea, and on a diagram the tilt of a line shows speed: vertical means at rest and more tilt means faster.",
+   "cites": [
+    3,
+    35,
+    36,
+    37
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Pioneered by",
+   "value": "Hermann Minkowski",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Usual parameter",
+   "value": "Proper time, written τ",
+   "cites": [
+    18,
+    32
+   ]
+  },
+  {
+   "label": "Two lines crossing",
+   "value": "Signifies a collision or encounter",
+   "cites": [
+    38
+   ]
+  },
+  {
+   "label": "Earth's world line",
+   "value": "A helix that never returns to the same point",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Extended objects",
+   "value": "Trace a world tube, not a world line",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Earth returns each year to the same place relative to the sun. Why doesn't its world line close into a loop?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its orbit is not really a circle"
+    },
+    {
+     "id": "b",
+     "label": "It arrives at that place at a later time"
+    },
+    {
+     "id": "c",
+     "label": "The sun's position never repeats"
+    },
+    {
+     "id": "d",
+     "label": "Orbits cannot be drawn in spacetime"
+    }
+   ],
+   "answer": "b",
+   "explain": "The place repeats but the time does not, so the world line spirals as a helix.",
+   "cites": [
+    9,
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.worldline:q1"
+  },
+  {
+   "prompt": "On a spacetime diagram with time running upward, what does a perfectly vertical line represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A particle at maximum speed"
+    },
+    {
+     "id": "b",
+     "label": "A rod lying across space"
+    },
+    {
+     "id": "c",
+     "label": "A particle at rest"
+    },
+    {
+     "id": "d",
+     "label": "A particle that is speeding up"
+    }
+   ],
+   "answer": "c",
+   "explain": "A line at constant space coordinate may represent a particle at rest or a stationary observer.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.worldline:q2"
+  },
+  {
+   "prompt": "Two particles are drawn on one diagram. One line leans slightly from vertical and the other leans far more. Which particle is faster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one that leans more"
+    },
+    {
+     "id": "b",
+     "label": "The one that leans less"
+    },
+    {
+     "id": "c",
+     "label": "They are equally fast"
+    },
+    {
+     "id": "d",
+     "label": "It depends on the line's length"
+    }
+   ],
+   "answer": "a",
+   "explain": "The more a line is tilted from the vertical, the larger the speed.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.worldline:q3"
+  },
+  {
+   "prompt": "Two world lines begin apart, then meet at a single event. What does that usually depict?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two particles speeding up together"
+    },
+    {
+     "id": "b",
+     "label": "A particle decaying into two others"
+    },
+    {
+     "id": "c",
+     "label": "One particle at rest watching another"
+    },
+    {
+     "id": "d",
+     "label": "A collision or encounter"
+    }
+   ],
+   "answer": "d",
+   "explain": "Two world lines that start separately and intersect signify a collision or encounter.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.worldline:q4"
+  },
+  {
+   "prompt": "A planet is treated as having real volume rather than as a point. What does it trace through spacetime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A world sheet, like a string"
+    },
+    {
+     "id": "b",
+     "label": "A world tube"
+    },
+    {
+     "id": "c",
+     "label": "A single point"
+    },
+    {
+     "id": "d",
+     "label": "A straight null curve"
+    }
+   ],
+   "answer": "b",
+   "explain": "Once an object has extended volume it traces a world tube instead of a world line.",
+   "cites": [
+    21,
+    22,
+    24
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.worldline:q5"
+  }
+ ],
+ "source": {
+  "title": "World line",
+  "url": "https://en.wikipedia.org/wiki/World_line",
+  "revision": 1376891225
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A path through spacetime",
+    "text": "A world line is the path an object traces through spacetime, where each event is labelled by four numbers: one for time and three for position. Usually the object is treated as a point, like a particle or an observer, and its world line is the string of events that make up its history. Each point on the line is an event, marked by a time and by where the object was at that time. Hermann Minkowski pioneered the idea, and today the term turns up mostly in special and general relativity.",
+    "cites": [
+     1,
+     3,
+     4,
+     5,
+     8,
+     13
+    ]
+   },
+   {
+    "heading": "Earth's helix",
+    "text": "Earth's yearly orbit shows why time matters. In space alone the orbit is close to a circle: every year Earth comes back to the same spot relative to the Sun. But it gets there at a later time. So in spacetime its world line is a helix, a coil that never returns to the same point.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Reading a spacetime diagram",
+    "text": "On a spacetime diagram, a vertical line, with the space coordinate held constant, is a particle at rest or an observer standing still. A tilted line is a particle moving at a steady speed, and the more it leans away from vertical, the faster it goes. A flat horizontal segment, by contrast, can stand for a rod at one moment of coordinate time; it is not a world line in the proper sense.",
+    "cites": [
+     33,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Stories told by lines",
+    "text": "Where two separate world lines meet, the diagram shows a collision or an encounter. Two lines that begin at the same event and then go their own ways can show one particle decaying into two, or one particle giving off another. A photon's world line, the path of light, can join a particle's line to an observer's line, picturing light sent out by the particle and later seen by the observer.",
+    "cites": [
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Proper time",
+    "text": "In more exact terms, a curve counts as a particle's world line if its tangent, its direction at each point, is future timelike everywhere. Measuring along the line gives a quantity called proper time, usually written τ, and the length of the whole line is called the particle's proper time. Proper time is the usual way to mark positions along a world line. If the world line is a straight segment, the particle is said to be in free fall.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     32
+    ]
+   },
+   {
+    "heading": "Strings and tubes",
+    "text": "A world line follows a single point. A one-dimensional object such as a string sweeps out a two-dimensional surface instead, called a world sheet. For an open string with loose ends the sheet is a strip, and for a closed loop it looks like a tube. An object with real volume, not shrunk to a point, traces a world tube.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "A word of caution",
+    "text": "People sometimes call any curve in spacetime a world line, and this loose use causes confusion. Properly, the term means a curve that records the history through time of a particle, an observer or a small object.",
+    "cites": [
+     29,
+     30,
+     31
+    ]
+   }
+  ]
+ }
+}

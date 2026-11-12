@@ -1,0 +1,321 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.biomolecules.lipid",
+ "name": "Lipid",
+ "summary": [
+  {
+   "text": "Lipids are a broad group of organic compounds that includes fats, waxes, sterols, fat-soluble vitamins and phospholipids.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They store energy, carry signals, and act as structural components of cell membranes.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Lipids are broadly defined as hydrophobic or amphiphilic small molecules, and the amphiphilic ones can form structures such as membranes in water.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Fats",
+   "value": "A subgroup of lipids called triglycerides",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Categories",
+   "value": "Eight, from ketoacyl and isoprene building blocks",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "label": "Chain length",
+   "value": "Fatty acid carbon chains run four to 24 carbons",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Diet",
+   "value": "Some essential lipids must be obtained from food",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "The word",
+   "value": "Gabriel Bertrand introduced 'lipide' in 1923",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend says fat and lipid mean the same thing. What is the correction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fats are one subgroup of lipids, called triglycerides"
+    },
+    {
+     "id": "b",
+     "label": "Lipids are a subgroup of fats, called triglycerides"
+    },
+    {
+     "id": "c",
+     "label": "Fat means the fat-soluble vitamins, and lipid means all oils"
+    },
+    {
+     "id": "d",
+     "label": "Lipids are only waxes and sterols, not fats"
+    }
+   ],
+   "answer": "a",
+   "explain": "Lipid is sometimes used as a synonym for fats, but fats are a subgroup of lipids called triglycerides.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.lipid:q1"
+  },
+  {
+   "prompt": "A lipid has one water-loving end and one water-hating end. What can lipids like this form in water?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A solution where every molecule dissolves on its own"
+    },
+    {
+     "id": "b",
+     "label": "Droplets that only form once the lipid is heated"
+    },
+    {
+     "id": "c",
+     "label": "Rigid crystals made only of sterols"
+    },
+    {
+     "id": "d",
+     "label": "Structures such as vesicles and membranes"
+    }
+   ],
+   "answer": "d",
+   "explain": "The amphiphilic nature of some lipids allows them to form vesicles, liposomes or membranes in an aqueous environment.",
+   "cites": [
+    4,
+    28
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.lipid:q2"
+  },
+  {
+   "prompt": "A person eats a diet with none of a certain essential lipid. Why can't the body make up for it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mammals have no pathways to build or break down any lipids at all"
+    },
+    {
+     "id": "b",
+     "label": "Some essential lipids cannot be made by its pathways and must come from the diet"
+    },
+    {
+     "id": "c",
+     "label": "All lipids are destroyed during digestion before the body can use them"
+    },
+    {
+     "id": "d",
+     "label": "Only plants can break lipids down so animals cannot use them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Humans and other mammals can synthesize and break down many lipids, but some essential ones must be obtained from the diet.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.lipid:q3"
+  },
+  {
+   "prompt": "A fatty acid chain has several cis double bonds. How does its shape change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It straightens, so the chains can stack tightly"
+    },
+    {
+     "id": "b",
+     "label": "It stays straight, since only reactivity changes"
+    },
+    {
+     "id": "c",
+     "label": "It bends, and the bend grows with more double bonds"
+    },
+    {
+     "id": "d",
+     "label": "It closes into a ring around its double bonds"
+    }
+   ],
+   "answer": "c",
+   "explain": "Cis double bonds cause the fatty acid chain to bend, an effect compounded with more double bonds.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.lipid:q4"
+  },
+  {
+   "prompt": "Adipose tissue holds most of an animal's stored fat. Which lipids make up the bulk of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Triglycerides, which function as an energy store"
+    },
+    {
+     "id": "b",
+     "label": "Phospholipids, which build the cell membranes"
+    },
+    {
+     "id": "c",
+     "label": "Sterols, which carry signals between cells"
+    },
+    {
+     "id": "d",
+     "label": "Fat-soluble vitamins, which are kept in reserve"
+    }
+   ],
+   "answer": "a",
+   "explain": "Triglycerides function as an energy store and comprise the bulk of storage fat in animal tissues.",
+   "cites": [
+    41,
+    44
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.lipid:q5"
+  },
+  {
+   "prompt": "A fatty acid is a hydrocarbon chain ending in a carboxylic acid group. How does it behave with water?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The whole molecule dissolves in water easily"
+    },
+    {
+     "id": "b",
+     "label": "The whole molecule repels water equally"
+    },
+    {
+     "id": "c",
+     "label": "Only its double bonds attract water"
+    },
+    {
+     "id": "d",
+     "label": "One end attracts water, while the long chain end is insoluble in it"
+    }
+   ],
+   "answer": "d",
+   "explain": "The arrangement gives a polar, hydrophilic end and a nonpolar, hydrophobic end that is insoluble in water.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules.lipid:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Common_lipid_types.svg/960px-Common_lipid_types.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Lipid",
+  "credit": "User:Innerstream",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Common_lipid_types.svg"
+ },
+ "source": {
+  "title": "Lipid",
+  "url": "https://en.wikipedia.org/wiki/Lipid",
+  "revision": 1383530663
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What lipids are",
+    "text": "Lipids are a wide family of organic compounds. The family takes in fats, waxes, sterols and phospholipids, the fat-soluble vitamins A, D, E and K, and mono- and diglycerides. Chemists describe them broadly as small molecules that are hydrophobic or amphiphilic. People often use the word lipid to mean fat, but fats are really one subgroup of lipids, called triglycerides.",
+    "cites": [
+     1,
+     4,
+     7
+    ]
+   },
+   {
+    "heading": "What they do",
+    "text": "Lipids store energy, carry signals and form part of the membranes around cells. Amphiphilic lipids can arrange themselves in water into membranes, liposomes and vesicles. They also have uses in cosmetics, in food and in nanotechnology. Mammals can both build and break down many lipids, yet some essential ones cannot be made that way and have to come from the diet.",
+    "cites": [
+     2,
+     3,
+     4,
+     9
+    ]
+   },
+   {
+    "heading": "Two building blocks, eight families",
+    "text": "Biological lipids are made wholly or partly from two kinds of chemical subunit: ketoacyl groups and isoprene groups. Sorting them by these subunits gives eight categories. Six come from ketoacyl subunits joining together: fatty acyls, glycerolipids, glycerophospholipids, sphingolipids, saccharolipids and polyketides. The remaining two, sterol lipids and prenol lipids, come from isoprene subunits.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Fatty acids",
+    "text": "A fatty acid is a chain of carbon and hydrogen that ends in a carboxylic acid group. That end is polar and drawn to water, while the other end is nonpolar, hydrophobic and will not dissolve in water. The carbon chain usually has four to 24 carbons and can be saturated or unsaturated. Fatty acids are among the most basic lipids and often serve as parts of bigger, more complex ones. A double bond in the chain allows a cis or trans shape, and cis bonds bend the chain, more so with each extra double bond. Most natural fatty acids are cis, though trans forms appear in some natural and partially hydrogenated fats and oils.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     35
+    ]
+   },
+   {
+    "heading": "Fat as an energy store",
+    "text": "Glycerolipids are built on glycerol carrying one, two or three substituents. The best known are triglycerides, also called triacylglycerols, where each of glycerol's three hydroxyl groups is joined by an ester bond to a fatty acid, usually a different one each time. Since they act as an energy store, they make up most of the stored fat in animal tissue. Using that fat begins with breaking the ester bonds and releasing glycerol and fatty acids from adipose tissue.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Naming the family",
+    "text": "In 1815 Henri Braconnot split lipids into solid tallows and fluid oils. Michel Eugène Chevreul refined this in 1823 with groups such as waxes, resins and essential oils, and in 1827 William Prout listed fat beside protein and carbohydrate as a key nutrient. In 1844 Théophile-Jules Pelouze reported the first synthetic triglyceride, tributyrin, made from butyric acid and glycerin. The word itself, from the Greek lipos for fat, was introduced as lipide by the French pharmacologist Gabriel Bertrand in 1923. An international commission approved it that July, and English later turned it into lipid.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     21,
+     23,
+     24
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-3-3",
+   "kind": "book",
+   "title": "3.3 Lipids",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+   "note": "A free textbook section on fats and oils, saturated, unsaturated and trans fats, waxes, phospholipids and steroids.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

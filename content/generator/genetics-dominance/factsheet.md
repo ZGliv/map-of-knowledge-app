@@ -1,0 +1,5374 @@
+# Fact sheet: genetics-dominance
+
+Numbered sentences from each pinned source. Draft from these facts in your own words: never copy a run of 8 words (the validator checks). Cite the source ID exactly as written in the heading.
+
+## [W1] Wikipedia: Dominance (genetics)
+https://en.wikipedia.org/w/index.php?title=Dominance_(genetics)&oldid=1380420266 · CC BY-SA 4.0 · usage: ai_input
+
+- [W1.1] In genetics, dominance is the phenomenon of one variant (allele) of a gene on a chromosome masking or overriding the effect of a different variant of the same gene on the other copy of the chromosome.
+- [W1.2] The masking or overriding variant is said to be dominant and the other recessive.
+- [W1.3] This state of having two different variants of the same gene, one on each copy of the chromosome, is originally caused by a mutation in one of the genes, either new (de novo) or inherited.
+- [W1.4] The terms autosomal dominant and autosomal recessive are used to describe gene variants on non-sex chromosomes (autosomes) and their associated traits, while those on sex chromosomes (allosomes) are termed X-linked dominant, X-linked recessive or Y-linked; these have an inheritance and presentation pattern that depends on the sex of both the parent and the child (see Sex linkage).
+- [W1.5] Since there is only one Y chromosome, Y-linked traits cannot be dominant or recessive.
+- [W1.6] Additionally, there are other forms of dominance, such as incomplete dominance, in which a gene variant has a partial effect compared to when it is present on both chromosomes, and co-dominance, in which different variants on each chromosome both show their associated traits.
+- [W1.7] Dominance is a key concept studied by Gregor Mendel in Mendelian inheritance and classical genetics.
+- [W1.8] Letters and Punnett squares are used to demonstrate the principles of dominance in teaching, and the upper-case letters are used to denote dominant alleles and lower-case letters are used for recessive alleles.
+- [W1.9] An often quoted example of dominance is the inheritance of seed shape in peas.
+- [W1.10] Peas may be round, associated with allele R, or wrinkled, associated with allele r.
+- [W1.11] In this case, three combinations of alleles (genotypes) are possible: RR, Rr, and rr.
+- [W1.12] The RR (homozygous) individuals have round peas, and the rr (homozygous) individuals have wrinkled peas.
+- [W1.13] In Rr (heterozygous) individuals, the R allele masks the presence of the r allele, so these individuals also have round peas.
+- [W1.14] Thus, allele R is dominant over allele r, and allele r is recessive to allele R.
+- [W1.15] Dominance is not inherent to an allele or its traits (phenotype).
+- [W1.16] It is a strictly relative effect between two alleles of a given gene of any function; one allele can be dominant over a second allele of the same gene, recessive to a third, and co-dominant with a fourth.
+- [W1.17] Additionally, one allele may be dominant for one trait but not others.
+- [W1.18] Dominance differs from epistasis, the phenomenon of an allele of one gene masking the effect of alleles of a different gene.
+- [W1.19] Gregor Johann Mendel, "The Father of Genetics", promulgated the idea of dominance in the 1860s.
+- [W1.20] However, it was not widely known until the early twentieth century.
+- [W1.21] Mendel observed that, for a variety of traits of garden peas having to do with the appearance of seeds, seed pods, and plants, there were two discrete phenotypes, such as round versus wrinkled seeds, yellow versus green seeds, red versus white flowers or tall versus short plants.
+- [W1.22] When bred separately, the plants always produced the same phenotypes, generation after generation.
+- [W1.23] However, when lines with different phenotypes were crossed (interbred), one and only one of the parental phenotypes showed up in the offspring (green, round, red, or tall).
+- [W1.24] However, when these hybrid plants were crossed, the offspring plants showed the two original phenotypes, in a characteristic 3:1 ratio, the more common phenotype being that of the parental hybrid plants.
+- [W1.25] Mendel reasoned that each parent in the first cross was a homozygote for different alleles (one parent AA and the other parent aa), that each contributed one allele to the offspring, with the result that all of these hybrids were heterozygotes (Aa), and that one of the two alleles in the hybrid cross dominated expression of the other: A masked a.
+- [W1.26] The final cross between two heterozygotes (Aa X Aa) would produce AA, Aa, and aa offspring in a 1:2:1 genotype ratio with the first two classes showing the (A) phenotype, and the last showing the (a) phenotype, thereby producing the 3:1 phenotype ratio.
+- [W1.27] Mendel did not use the terms gene, allele, phenotype, genotype, homozygote, and heterozygote, all of which were introduced later.
+- [W1.28] He did introduce the notation of capital and lowercase letters for dominant and recessive alleles, respectively, still in use today.
+- [W1.29] In 1928, British population geneticist Ronald Fisher proposed that dominance acted based on natural selection through the contribution of modifier genes.
+- [W1.30] In 1929, American geneticist Sewall Wright responded by stating that dominance is simply a physiological consequence of metabolic pathways and the relative necessity of the gene involved.
+- [W1.31] Complete dominance (Mendelian)
+- [W1.32] In complete dominance, the effect of one allele in a heterozygous genotype completely masks the effect of the other.
+- [W1.33] The allele that masks are considered dominant to the other allele, and the masked allele is considered recessive.
+- [W1.34] When we only look at one trait determined by one pair of genes, we call it monohybrid inheritance.
+- [W1.35] If the crossing is done between parents (P-generation, F0-generation) who are homozygote dominant and homozygote recessive, the offspring (F1-generation) will always have the heterozygote genotype and always present the phenotype associated with the dominant gene.
+- [W1.36] However, if the F1-generation is further crossed with the F1-generation (heterozygote crossed with heterozygote) the offspring (F2-generation) will present the phenotype associated with the dominant gene ¾ times.
+- [W1.37] Although heterozygote monohybrid crossing can result in two phenotype variants, it can result in three genotype variants -  homozygote dominant, heterozygote and homozygote recessive, respectively.In dihybrid inheritance we look at the inheritance of two pairs of genes simultaneously.
+- [W1.38] Assuming here that the two pairs of genes are located at non-homologous chromosomes, such that they are not coupled genes (see genetic linkage) but instead inherited independently.
+- [W1.39] Consider now the cross between parents (P-generation) of genotypes homozygote dominant and recessive, respectively.
+- [W1.40] The offspring (F1-generation) will always heterozygous and present the phenotype associated with the dominant allele variant.
+- [W1.41] However, when crossing the F1-generation there are four possible phenotypic possibilities and the phenotypical ratio for the F2-generation will always be 9:3:3:1.
+- [W1.42] Incomplete dominance (non-Mendelian)
+- [W1.43] Incomplete dominance (also called partial dominance, semi-dominance, intermediate inheritance, or occasionally incorrectly co-dominance in reptile genetics) occurs when the phenotype of the heterozygous genotype is distinct from and often intermediate to the phenotypes of the homozygous genotypes.
+- [W1.44] The phenotypic result often appears as a blended form of characteristics in the heterozygous state.
+- [W1.45] For example, the snapdragon flower color is homozygous for either red or white.
+- [W1.46] When the red homozygous flower is paired with the white homozygous flower, the result yields a pink snapdragon flower.
+- [W1.47] The pink snapdragon is the result of incomplete dominance.
+- [W1.48] A similar type of incomplete dominance is found in the four o'clock plant wherein pink color is produced when true-bred parents of white and red flowers are crossed.
+- [W1.49] In quantitative genetics, where phenotypes are measured and treated numerically, if a heterozygote's phenotype is exactly between (numerically) that of the two homozygotes, the phenotype is said to exhibit no dominance at all, i.e. dominance exists only when the heterozygote's phenotype measure lies closer to one homozygote than the other.
+- [W1.50] When plants of the F1 generation are self-pollinated, the phenotypic and genotypic ratio of the F2 generation will be 1:2:1 (Red:Pink:White).
+- [W1.51] Co-dominance (non-Mendelian)
+- [W1.52] Co-dominance occurs when the contributions of both alleles are visible in the phenotype and neither allele masks another.
+- [W1.53] For example, in the ABO blood group system, chemical modifications to a glycoprotein (the H antigen) on the surfaces of blood cells are controlled by three alleles, two of which are co-dominant to each other (IA, IB) and dominant over the recessive i at the ABO locus.
+- [W1.54] The IA and IB alleles produce different modifications.
+- [W1.55] The enzyme coded for by IA adds an N-acetylgalactosamine to a membrane-bound H antigen.
+- [W1.56] The IB enzyme adds a galactose.
+- [W1.57] The i allele produces no modification.
+- [W1.58] Thus the IA and IB alleles are each dominant to i (IAIA and IAi individuals both have type A blood, and IBIB and IBi individuals both have type B blood), but IAIB individuals have both modifications on their blood cells and thus have type AB blood, so the IA and IB alleles are said to be co-dominant.
+- [W1.59] Another example occurs at the locus for the beta-globin component of hemoglobin, where the three molecular phenotypes of HbA/HbA, HbA/HbS, and HbS/HbS are all distinguishable by protein electrophoresis.
+- [W1.60] (The medical condition produced by the heterozygous genotype is called sickle-cell trait and is a milder condition distinguishable from sickle-cell anemia, thus the alleles show incomplete dominance concerning anemia, see above).
+- [W1.61] For most gene loci at the molecular level, both alleles are expressed co-dominantly, because both are transcribed into RNA.
+- [W1.62] Co-dominance, where allelic products co-exist in the phenotype, is different from incomplete dominance, where the quantitative interaction of allele products produces an intermediate phenotype.
+- [W1.63] For example, in co-dominance, a red homozygous flower and a white homozygous flower will produce offspring that have red and white spots.
+- [W1.64] When plants of the F1 generation are self-pollinated, the phenotypic and genotypic ratio of the F2 generation will be 1:2:1 (Red:Spotted:White).
+- [W1.65] These ratios are the same as those for incomplete dominance.
+- [W1.66] Again, this classical terminology is inappropriate – in reality, such cases should not be said to exhibit dominance at all.
+- [W1.67] Relationship to other genetic concepts
+- [W1.68] Dominance can be influenced by various genetic interactions and it is essential to evaluate them when determining phenotypic outcomes.
+- [W1.69] Multiple alleles, epistasis, pleiotropic genes, and polygenic characteristics are some factors that might influence the phenotypic outcome.
+- [W1.70] Although any individual of a diploid organism has at most two different alleles at a given locus, most genes exist in a large number of allelic versions in the population as a whole.
+- [W1.71] This is called polymorphism, and is caused by mutations.
+- [W1.72] Polymorphism can have an effect on the dominance relationship and phenotype, which is observed in the ABO blood group system.
+- [W1.73] The gene responsible for human blood type have three alleles; A, B, and O, and their interactions result in different blood types based on the level of dominance the alleles expresses towards each other.
+- [W1.74] Epistasis is interactions between multiple alleles at different loci.
+- [W1.75] More specifically, epistasis is when one gene can mask the phenotype of a gene at a completely different locus.
+- [W1.76] Therefore, several genes can influence the phenotype expressed.
+- [W1.77] Epistasis is slightly different from dominance in the fact that dominance is an allele-to-allele interaction at one locus while epistasis is a gene-to-gene interaction at different loci.
+- [W1.78] The dominance relationship between alleles involved in epistatic interactions can influence the observed phenotypic ratios in offspring.
+- [W1.79] An example of epistasis can be seen in Labrador retriever coat colors.
+- [W1.80] One gene at one locus codes for the color of hair but another gene at a different locus determines if the color is even deposited in the hair.
+- [W1.81] Recessive epistasis is seen in this example due to recessive alleles for color desposition masking both the dominant black (B) allele and recessive brown (b) allele at the first locus to express a yellow coat in the Labrador retriever.
+- [W1.82] The yellow color comes from no pigment being deposited in the hair shaft.
+- [W1.83] Other examples of epistasis interactions are dominant epistasis and duplicate recessive epistasis.
+- [W1.84] Each type of epistasis is a modification of the dihyrbid ratio of 9:3:3:1.
+- [W1.85] Pleiotropic genes are genes where one single gene affects two or more characteristics.
+- [W1.86] An example of this concept is Marfan Syndrome which is a mutation of the FBN1 gene.
+- [W1.87] The effects this causes are a person's appearance being tall and long limbed.
+- [W1.88] They can also have Scoliosis, Ectopia Lentis, and larger than normal aortas.
+- [W1.89] Pleiotropy shares a relationship with Epistasis.
+- [W1.90] While pleiotropy represents one single gene, epistasis is multiple genes interacting with one another to cause different traits to arise.  it is helpful to recognize how Epistasis could affect viewing pleiotropic genes if different traits arise or mask themselves to varying degrees.
+- [W1.91] Polygenic characteristics are those affected by multiple genes at different loci.
+- [W1.92] These different genes interact in a way to produce a quantitative characteristic, which is a characteristic that presents a wide variety phenotypes, such as height in humans.
+- [W1.93] The greater the number of genes that interact to influence this characteristic, the greater the number of different phenotypes possible due to more possible genotypes.
+- [W1.94] Many more characteristics also appear to be affected by more than one gene located on different loci, including diabetes and some autoimmune diseases.
+- [W1.95] List of Mendelian traits in humans
+- [W1.96] Summation theorems (biochemistry)
+- [W1.97] "On-line notes for Biology 2250 – Principles of Genetics".
+- [W1.98] Memorial University of Newfoundland.
+- [W1.99] Online Mendelian Inheritance in Man (OMIM): Hemoglobin—Beta Locus; HBB - 141900 — Sickle-Cell Anemia
+- [W1.100] Online Mendelian Inheritance in Man (OMIM): ABO Glycosyltransferase - 110300 — ABO blood groups
+- [W1.101] "Online Mendelian Inheritance in Man" (OMIM)
+- [W1.102] "Autosomal dominance of Huntington's Disease".
+- [W1.103] Huntington's Disease Outreach Project for Education at Stanford
+
+## [W2] Wikipedia: Mirabilis jalapa
+https://en.wikipedia.org/w/index.php?title=Mirabilis_jalapa&oldid=1376309656 · CC BY-SA 4.0 · usage: ai_input
+
+- [W2.1] Mirabilis jalapa, the marvel of Peru or four o'clock flower, is the most commonly grown ornamental species of Mirabilis plant, and is available in a range of colors.
+- [W2.2] Mirabilis in Latin means wonderful and Jalapa (or Xalapa) is the state capital of Veracruz in Mexico.
+- [W2.3] Mirabilis jalapa is believed to have been cultivated by the Aztecs for medicinal and ornamental purposes.
+- [W2.4] The flowers usually open from late afternoon or at dusk (namely between 4 and 8 o'clock), giving rise to one of its common names.
+- [W2.5] The flowers then produce a strong, sweet fragrance throughout the night, then close in the morning.
+- [W2.6] New flowers open the following day.
+- [W2.7] It arrived in Europe in 1525.
+- [W2.8] Today, it is common in many tropical regions and is also valued in Europe as an ornamental plant, although not necessarily hardy.
+- [W2.9] It is the children's state flower of Connecticut under the name of Michaela Petit's Four O'Clocks.
+- [W2.10] The name of Mirabilis jalapa given by Carl Von Linné in 1753 is formed from the scientific Latin Mirabilis meaning "admirable" by allusion to the remarkable colors of its flowers and the specific name jalapa that would refer to its origin in the Jalapa in Guatemala.
+- [W2.11] But the epithet of jalapa could also refer to the city of Xalapa (Jalapa) in Mexico from which came a former purgative drug, named jalap, taken from the tubers of the tuberous jalap.
+- [W2.12] Xalapa also gives its name to the Jalapeño pepper.
+- [W2.13] Linnaeus refers to all species of Jalapa described by Joseph Pitton de Tournefort who in 1694 wrote: "The Jalap, or Belle de Nuit is a kind of plant whose flower is a funnel-shaped flared pipe with a crenellated pavilion ...
+- [W2.14] Father Plumier assured me that the Jalap, which is brought to us with the root of America, was a true species of Belle de nuit.
+- [W2.15] We have also received the seed, which has produced in the Jardin Royal de Paris a plant quite like the common Belle de nuit; but this seed is more wrinkled, and the leaves of the plant are less smooth."
+- [W2.16] It is a perennial, herbaceous, bushy plant that reaches stature heights of mostly 1 meter, rarely up to 2 meters, in height.
+- [W2.17] It may also be grown as an annual, especially in the temperate zone.
+- [W2.18] The single-seeded fruits are spherical, wrinkled and black upon maturity, having started out greenish-yellow.
+- [W2.19] The stems are thick, full, quadrangular with many ramifications and rooting at the nodes.
+- [W2.20] The posture is often prostrate.
+- [W2.21] A curious aspect of M. jalapa is that flowers with different colors grow simultaneously on the same plant.
+- [W2.22] Additionally, an individual flower can be splashed with different colors.
+- [W2.23] Flower patterns are referred to as sectors (whole sections of flower), flakes (stripes of varying length), and spots.
+- [W2.24] A single flower can be plain yellow, red, magenta, pink, or white, or have a combination of sectors, flakes, and spots.
+- [W2.25] Furthermore, different combinations of flowers and patterns can occur on different flowers of the same plant.
+- [W2.26] Usually, the flowers are yellow, pink and white, but a different combination of flowers growing on the same single four o’clock plant can be found.
+- [W2.27] Another interesting point is a color-changing phenomenon.
+- [W2.28] For example, in the yellow variety, as the plant matures, it can display flowers that gradually change to a dark pink colour.
+- [W2.29] Similarly, white flowers can change to light violet.
+- [W2.30] Despite their appearance, the flowers are not formed from petals – rather they are a pigmented modification of the calyx.
+- [W2.31] Similarly, the 'calyx' is an involucre of bracts.
+- [W2.32] The flowers are funnel-shaped and pentalobed, they have no cup (replaced by bracteal leaves) but are made of a corolla.
+- [W2.33] The inflorescences contain three to seven unpopped flowers.
+- [W2.34] Earning the name "four o'clock flower", the fragrant flowers open in the late afternoon or early evening, and also in overcast weather, and exhale a scent reminiscent of the tobacco flower, and attract moths for pollination.
+- [W2.35] The anthesis lasts from 16 to 20 hours and thus remains visible part of the day.
+- [W2.36] The flowers are pollinated by long-tongued moths of the family Sphingidae, such as the sphinx moths or hawk moths and other nocturnal pollinators attracted by the fragrance.
+- [W2.37] The plant does best in full sun.
+- [W2.38] Often in the sun the leaves wither, then return vigorously in the evening, when temperatures start to fall and the sun sets.
+- [W2.39] It cannot stand the cold as the aerial part, with the first frosts, deteriorates and can die, but the underground part that can return to vegetate in spring remains vital.
+- [W2.40] The plant will self-seed, often spreading rapidly if left unchecked in a garden.
+- [W2.41] Some gardeners recommend that the seeds should be soaked before planting, but this is not totally necessary.
+- [W2.42] In North America, the plant perennializes in warm, coastal environments, particularly in USDA zones 7–10.
+- [W2.43] The plant is easy to grow, as long as it is sunny or partially shaded.
+- [W2.44] Under these conditions, it grows very quickly.
+- [W2.45] It grows preferably in light soil, rich in humus and well draining, it is neutral side acidity (pH).
+- [W2.46] Pot cultivation is always possible with a mixture of 80% soil and 20% garden soil and a very deep container with the tubers being put at a depth of 10 cm.
+- [W2.47] It is usually sown from mid-February to May.
+- [W2.48] The seeds germinate rapidly at a temperature of 18 °C.
+- [W2.49] Mirabilis jalapa is native to the dry tropical regions of North, Central and South America: Mexico, Guatemala, Chile and Peru.
+- [W2.50] This plant has been introduced for ornamental purposes and has become naturalized throughout tropical, subtropical and temperate regions of the world.
+- [W2.51] It is currently present in many countries in Asia, Africa, United States, Middle East and Europe.
+- [W2.52] In Réunion, Mirabilis jalapa was initially an ornamental species; however it became naturalized on the west coast, between 400 and 700 m altitude, and on the south coast between 0 and 700 m.
+- [W2.53] It occurs in a ruderal debris area, and is relatively common in weedy sugarcane fields on the west and south coasts.
+- [W2.54] Its high seed production and rapid growth allow it to cover up to 30% to 50% in cane plots.
+- [W2.55] In cooler subtropical and temperate regions, it will die back with the first frosts or as the weather starts to cool down (especially after it fully matures and finished self-seeding), regrowing in the following spring from the tuberous roots.
+- [W2.56] Around 1900, Carl Correns used Mirabilis as a model organism for his studies on cytoplasmic inheritance.
+- [W2.57] He used the plant's variegated leaves to prove that certain factors outside the nucleus affected phenotype in a way not explained by Mendel's theories.
+- [W2.58] Correns proposed that leaf colour in Mirabilis was passed on via a uni-parental mode of inheritance.
+- [W2.59] Also when plants with dark-pink flowers are crossed with white-flowered plants, light-pink-flowered offspring are produced.
+- [W2.60] This is seen as an exception to Mendel's Law of Dominance because in this case, the dark-pink and white genes seem to be of equal strength, so neither completely dominates the other.
+- [W2.61] The phenomenon is known as incomplete dominance.
+- [W2.62] However the Mendelian principle of uniformity in the F1-generation and the principle of segregation in the F2-generation of genes do apply, which confirms the importance of Mendel's discoveries.
+- [W2.63] Eight betaxanthins (indicaxanthin, vulgaxanthin-I, miraxanthin-I, II, III, IV, V and VI) can be isolated from M. jalapa flowers.
+- [W2.64] Rotenoids (mirabijalone A, B, C and D, 9-O-methyl-4-hydroxyboeravinone B, boeravinone C and boeravinone F, and 1,2,3,4-tetrahydro-1-methylisoquinoline-7,8-diol) can be isolated from the roots.
+- [W2.65] A fatty acid (8-hydroxyoctadeca-cis-11,14-dienoic acid) is found as a minor component in the seed oil.
+- [W2.66] Analysis of the methanolic extract of the aerial parts yields β-sitosterol, stigmasterol, ursolic acid, oleanolic acid and brassicasterol.
+- [W2.67] Bioassay-guided fractionation of an organic extract of the cell mass from a manipulated plant cell culture of M. jalapa led to the isolation and subsequent identification of an isoflavone, a roteinoid and a dehydrorotenoid.
+- [W2.68] Two of these compounds are responsible for the antimicrobial activity against Candida albicans.
+- [W2.69] Bioassay-guided fractionation of the methanolic extract of M. jalapa also led to the isolation of an active polyphenolic amide: N-trans-feruloyl 4′-O-methyldopamine.
+- [W2.70] This compound shows moderate activity as an efflux pump inhibitor against multidrug-resistant Staphylococcus aureus.
+- [W2.71] The flowers are used in food colouring.
+- [W2.72] The leaves may be eaten cooked as well, but only as an emergency food.
+- [W2.73] An edible crimson dye is obtained from the flowers to color cakes and jellies.
+- [W2.74] In herbal medicine, parts of the plant may be used as a diuretic, purgative, and for vulnerary (wound healing) purposes.
+- [W2.75] The root is believed to be an aphrodisiac as well as having diuretic and purgative properties.
+- [W2.76] It is also used in the treatment of dropsy.
+- [W2.77] The leaves are used to reduce inflammation.
+- [W2.78] A decoction of them (by mashing and boiling) is used to treat abscesses.
+- [W2.79] Leaf juice may be used to treat wounds.
+- [W2.80] The bulbous roots of the flower have a laxative effect.
+- [W2.81] Powdered, the seed of some varieties is used as a cosmetic and a dye.
+- [W2.82] The seeds are considered poisonous.
+- [W2.83] The plant has a potential for the bioremediation of soils polluted with moderate concentrations of heavy metals such as cadmium.
+- [W2.84] In Brazil, the Kayapo sniff the powder of dried flowers to cure headaches and use the root decoction to wash wounds and treat skin conditions such as leprosy.
+- [W2.85] In Peru, juice extracted from flowers is used for herpes lesions and earache.
+- [W2.86] The juice extracted from the root is also used to treat earache, as well as diarrhea, dysentery, syphilis and liver infections.
+- [W2.87] In Mexico, decoctions of the whole plant are used for dysentery, infected wounds, and bee and scorpion stings.
+- [W2.88] Flower extract can be used as a natural pH indicator in acid–base titration.
+- [W2.89] This was found and demonstrated to be both economical and accurate by Shishir et al.
+- [W2.90] Some studies suggest that M. jalapa is an ancient introduction to the Himalayan region.
+- [W2.91] In Greece it is called "Nychtolouloudo" (Νυχτολούλουδο) meaning “night flower” and "Deilina" (Δειλινά) meaning “sunsets”.
+- [W2.92] In Maldives it is called "asurumaa"، meaning flower blooming at "Asr" - the third daily and obligatory prayer of Muslims performed between 3:00 to 4:00pm in Maldives, thus supporting the claim of 4 o'clock flower.
+- [W2.93] In Bangladesh it is called sandhyamalati (Bengali: সন্ধ্যামালতী), meaning "evening flower".
+- [W2.94] In Pakistan it is called gul adnan (Urdu: گل عدنان) or gul-e-abbas (Urdu: گل عباس).
+- [W2.95] In West Bengal it is called sandhyamoni (Bengali: সন্ধ্যামণি), meaning "evening gem ".
+- [W2.96] In Sri Lanka it is called hendirikka (Sinhala: හෙන්දිරික්කා).
+- [W2.97] In Karnataka it is called sanje mallige (Kannada: ಸಂಜೆ ಮಲ್ಲಿಗೆ).
+- [W2.98] In Tamil Nadu it is called andhi mandhaarai (Tamil: அந்தி மந்தாரை).
+- [W2.99] In Thailand it is called bānyĕn (Thai: บานเย็น), meaning "evening blossom".
+- [W2.100] In Andhra Pradesh it is called "chandrakantha"(Telugu: చంద్రకాంత), meaning "moon light".
+- [W2.101] Signifying it's bloom with moon rise.
+- [W2.102] In Bulgaria it is called noshtna krasavica (Bulgarian: нощна красавица), which means "night beauty", "night belle".
+- [W2.103] In Germany it is called Wunderblume, which means "flower of miracle".
+- [W2.104] In Kerala it is called naalumani poovu (Malayalam: നാലുമണിപ്പൂ, പതിറ്റടിമുല്ല, which means "four o'clock flower"
+- [W2.105] In Maharashtra it is called gulabakshi (Marathi: गुलबक्षी).
+- [W2.106] In Assam it is called godhuli gopal (Assamese: গধূলিগোপাল), godhuli meaning "evening".
+- [W2.107] In Maithili it is called sanjhaa phool as it blooms in evening.
+- [W2.108] In Odisha it is called rangani (Odia: ରଂଗଣୀ).
+- [W2.109] In Punjabi it is called sham di sohnap, which means "evening beauty".
+- [W2.110] In Indonesia it is called bunga pukul empat.
+- [W2.111] In Malaysia it is called seroja
+- [W2.112] In China it is called the "shower flower" (Chinese: 洗澡花; pinyin: xǐzǎo huā) or "rice boiling flower" (simplified Chinese: 煮饭花; traditional Chinese: 煮飯花; pinyin: zhǔfàn huā) because it is in bloom at the time of these activities.
+- [W2.113] In Hong Kong it is known as "purple jasmine" (Chinese: 紫茉莉; pinyin: zǐ mòlì).
+- [W2.114] The Turkish name is akşam sefası, which means "evening pleasure".
+- [W2.115] In the Netherlands and in France the name of the plant is nachtschone and belle de nuit respectively meaning "beauty of the night".
+- [W2.116] In Italy it is called bella di notte, which means "beautiful during night".
+- [W2.117] In Iran it is called laleh abbasi (Persian: لاله عباسی).
+- [W2.118] In Japan it is called oshiroi-bana (Japanese: オシロイバナ), as the white, powdery endosperm inside of mature seeds looks like oshiroi, the powder foundation used by geishas.
+- [W2.119] In Israel it is named lilanit rav-gonit (Hebrew: לילנית רב-גונית; "multicolored nocturnal"), and more commonly called malkat halayla (Hebrew: מלכת הלילה), meaning "queen of the night".
+- [W2.120] In Namibia it is called vieruurtjie ("four o'clock") as it starts to open at 16:00 until the morning.
+- [W2.121] In Poland it is called dziwaczek, meaning "a little weirdo, a little oddity" that denotes its flowering time.
+- [W2.122] In Slovenia it is called nočna frajlica, meaning "night missy".
+- [W2.123] In Croatia and Serbia it is called noćurak (Serbian: ноћурак).
+- [W2.124] In Romania it is called frumoasa nopții, meaning "the beauty of the night", or also noptiță.
+- [W2.125] In the Philippines it is called prinsesa ng gabi, meaning "princess of the night" or sometimes alas quatro, "at four o'clock".
+- [W2.126] In Chile it is called putita, meaning "little hooker", because she is prettiest when her flowers come out at night.
+- [W2.127] In Mexico and Cuba it is called maravilla, meaning "marvel".
+- [W2.128] In Malta it is called ħummejr.
+- [W2.129] In Russia it is called zor'ka (Russian: зорька), meaning "dawning".
+- [W2.130] In Syria it is called alshab alzarif (Arabic: الشاب الظريف) meaning "the charming young man".
+- [W2.131] In Ukraine it is called nichna krasunya (Ukrainian: нічна красуня), meaning "night beauty".
+- [W2.132] In Colombia it is called Don Diego de noche, meaning "Mr.
+- [W2.133] In Puerto Rico it is called Ceciliana.
+- [W2.134] In Lebanon it is called shab el layl (Arabic: شاب الليل), meaning "young man of the night".
+- [W2.135] In Uttarakhand it is called "गुल बांक" Gul baank
+- [W2.136] In North Macedonia it is called "вампирче" or "ноќна убавица" meaning "vampire" or "Nightly beauty"
+- [W2.137] Vererbungsversuche mit blass (gelb) grünen und buntblättrigen Sippen bei Mirabilis, Urtica und Lunaria (in German).
+- [W2.138] ZIAV 1.{{cite book}}:  CS1 maint: location (link) CS1 maint: location missing publisher (link)
+- [W2.139] Genetics: A Conceptual Approach (2nd ed.).
+- [W2.140] ISBN 9780716788812.{{cite book}}:  CS1 maint: location missing publisher (link)
+
+## [W3] Wikipedia: Carl Correns
+https://en.wikipedia.org/w/index.php?title=Carl_Correns&oldid=1371977748 · CC BY-SA 4.0 · usage: ai_input
+
+- [W3.1] Carl Erich Correns  (19 September 1864  – 14 February 1933) was a German botanist and geneticist notable primarily for his independent discovery of the principles of heredity, which he achieved simultaneously but independently of the botanist Hugo de Vries, and for his acknowledgment of Gregor Mendel's earlier paper on that subject.
+- [W3.2] Correns was a student of Karl Nägeli, a renowned botanist with whom Mendel corresponded about his work with peas, and who subsequently engaged in a brief exchange of letters concerning reproducibility of the results in another species (Hieracium).
+- [W3.3] Because of the special properties of Hieracium, those experiments failed and Mendel dropped his studies on the subject.
+- [W3.4] Carl Correns was born on 19 September 1864 in Munich.
+- [W3.5] Orphaned at an early age, he was raised by an aunt in Switzerland.
+- [W3.6] He entered the Ludwig-Maximilians-Universität München in 1885.
+- [W3.7] While there, he was encouraged to study botany by Carl Nägeli.
+- [W3.8] After completing his thesis, Correns became a tutor at the University of Tübingen and in 1913, he became the first director of the newly founded Kaiser Wilhelm Institute for Biology in Berlin-Dahlem.
+- [W3.9] He married a niece of Karl Nägeli, Elisabeth Widmer.
+- [W3.10] Key experiments and findings
+- [W3.11] Carl Correns conducted much of the foundational work for the field of genetics at the turn of the 20th century.
+- [W3.12] He rediscovered and independently verified the work of Mendel in a separate model organism.
+- [W3.13] He also discovered cytoplasmic inheritance, an important extension of Mendel's theories, which demonstrated the existence of extrachromosomal factors on phenotype.
+- [W3.14] Some of his unpublished work and most of his lab books were destroyed in the Berlin bombings of 1945.
+- [W3.15] In 1892, while at the University of Tübingen, Correns began to experiment with trait inheritance in plants.
+- [W3.16] Correns published his first paper on 25 January 1900, which cited both Charles Darwin and Mendel, recognising the relevance of genetics to Darwin's ideas.
+- [W3.17] Mendel's Law Concerning the Behavior of the Progeny of Racial Hybrids", he restated Mendel's results as the' law of segregation' and introduced a new 'law of independent assortment'.
+- [W3.18] After rediscovering Mendel's laws of heredity, which can be explained with chromosomal inheritance, he undertook experiments with the four o'clock plant Mirabilis jalapa to investigate apparent counterexamples to Mendel's laws in the heredity of variegated (green and white mottled) leaf color.
+- [W3.19] Correns found that, while Mendelian traits behave independently of the sex of the source parent, leaf color depended greatly on which parent had which trait.
+- [W3.20] For instance, pollinating an ovule from a white branch with pollen from another white area resulted in white progeny, the predicted result for a recessive gene.
+- [W3.21] Green pollen used on a green stigma resulted in all green progeny, the expected result for a dominant gene.
+- [W3.22] However, if green pollen fertilized a white stigma, the progeny were white, but if the sexes of the donors were reversed (white pollen on a green stigma), the progeny were green.
+- [W3.23] This non-Mendelian inheritance pattern was later traced to a gene named iojap which codes for a small protein required for proper assembly of the chloroplast ribosome.
+- [W3.24] Even though iojap assorts according to Mendel's rules, if the mother is homozygous recessive, then the protein is not produced, the chloroplast ribosomes fail to form, and the plasmid becomes non-functional because the ribosomes cannot be imported into the organelle.
+- [W3.25] The progeny could have functional copies of iojap, but since the chloroplasts come exclusively from the mother in most angiosperms, they would have been inactivated in the previous generation, and so will give white plants.
+- [W3.26] Conversely, if a white father is paired with a green mother with functional chloroplasts, the progeny will only inherit functional chloroplasts, and will thus be green.
+- [W3.27] In his 1909 paper, he established variegated leaf color as the first conclusive example of cytoplasmic inheritance.
+- [W3.28] His son Carl Wilhelm became a geologist, his second son Erich a chemist, his daughter, Anna-Eva, a medical doctor.
+- [W3.29] Article relating the work of Gregor Mendel
+
+## [W4] Wikipedia: Blue Andalusian
+https://en.wikipedia.org/w/index.php?title=Blue_Andalusian&oldid=1365126811 · CC BY-SA 4.0 · usage: ai_input
+
+- [W4.1] The Blue Andalusian, Spanish: Andaluza Azul, is a Spanish breed of domestic chicken indigenous to the autonomous community of Andalusia in south-western Spain.
+- [W4.2] It is distributed through much of the countryside of Córdoba and Seville, and is concentrated particularly in the area of Utrera, which is considered the heartland of the breed.
+- [W4.3] In 2009 the total number of the birds in Spain was estimated at 10000.
+- [W4.4] A very different type of Andalusian, more intensely blue and with blue-laced plumage, was created in England from birds imported from Andalusia through selective breeding and cross-breeding with birds of other breeds.
+- [W4.5] There is little information on the early history of the Andalusian.
+- [W4.6] Blue chickens from Andalusia were imported to England no later than 1851.
+- [W4.7] The creation of the "international" type of Andalusian, with blue-laced plumage, is attributed to the English, whether in Andalusia or in Britain.
+- [W4.8] Two breeders in particular are thought to have started this process, which took many years: one named Coles, from Fareham in Hampshire, and a certain John Taylor of Shepherd's Bush in west London.
+- [W4.9] Andalusians were shown at Baker Street in January 1853; the breed was not included in the original Standard of Excellence of William Bernhard Tegetmeier in 1865.
+- [W4.10] The birds reached the United States in the 1850s, and were included in the first edition of the Standard of Perfection of the American Poultry Association in 1874.
+- [W4.11] The breed arrived in South America in 1870, and reached Germany in 1872.
+- [W4.12] A bantam was created in the 1880s by Augusta Legge, countess of Dartmouth.
+- [W4.13] The Andaluza Azul was officially recognised by the Ministerio de Agricultura, Pesca y Alimentación, the Spanish ministry of agriculture, in 2007.
+- [W4.14] A breed association – the Asociación Española de Criadores de Gallinas de Raza Andaluza Azul – was recognised by the Junta de Andalucía in 2015 as the official representative of the breed, and a breed standard and breeding programme were approved in the following year.
+- [W4.15] The conservation status of the Andalusian was listed by the Food and Agriculture Organization of the United Nations in 2007 as "at risk".
+- [W4.16] In 2009 the total number of the birds in Spain was estimated at 10000.
+- [W4.17] In 2025 the world-wide population was estimated to consist of 623 birds in six countries, of which only three reported population data; its conservation status in those countries was "at risk", while in Germany it was in category 1, extrem gefährdet ('extremely endangered'), on the Rote Liste of the Gesellschaft zur Erhaltung alter und gefährdeter Haustierrassen and in the United Kingdom was listed by the Rare Breeds Survival Trust as "priority".
+- [W4.18] The slate-blue plumage of the Andalusian is caused by a dilution gene, which, in combination with the E gene for black plumage, produces partial dilution of the melanin which gives the black colour.
+- [W4.19] Not all Andalusians are blue: birds with two copies of the gene have near-total dilution, and are off-white; birds with no copies have no dilution, and are black; those with one copy have partial dilution, and are blue.
+- [W4.20] Blue birds occur, in Mendelian proportion, twice as often as each of the other colours.
+- [W4.21] All are present in the population.
+- [W4.22] The earlobes of the Andalusian are smooth, white, and almond-shaped; the crest is single and of medium size, with five well-defined points.
+- [W4.23] The skin is white and the legs and feet are black.
+- [W4.24] Andaluza Azul hens lay about 165 white eggs per year; eggs weigh 70–80 g.
+- [W4.25] Blue-bred white hens lay the largest eggs.
+
+## [W5] Wikipedia: Huntington's disease
+https://en.wikipedia.org/w/index.php?title=Huntington's_disease&oldid=1380617788 · CC BY-SA 4.0 · usage: ai_input
+
+- [W5.1] Huntington's or Huntington disease (HD), also known as Huntington's chorea, is a fatal neurodegenerative disease that is usually inherited.
+- [W5.2] It typically presents as a triad of progressive psychiatric, cognitive, and motor symptoms.
+- [W5.3] The symptoms are often subtle problems with mood or mental/psychiatric abilities, which precede the motor symptoms for many people.
+- [W5.4] The definitive physical symptoms, including a general lack of coordination and an unsteady gait, eventually follow.
+- [W5.5] Over time, the basal ganglia region of the brain gradually becomes damaged.
+- [W5.6] The disease is primarily characterized by a distinctive hyperkinetic movement disorder known as chorea.
+- [W5.7] Chorea classically presents as uncoordinated, involuntary, "dance-like" body movements that become more apparent as the disease advances.
+- [W5.8] Physical abilities gradually worsen until coordinated movement becomes difficult and the person is unable to talk.
+- [W5.9] Mental abilities generally decline into dementia, depression, apathy, and impulsivity at times.
+- [W5.10] The specific symptoms vary somewhat among cases.
+- [W5.11] Symptoms can start at any age, but are usually first seen around the age of 40.
+- [W5.12] The disease may develop earlier in each successive generation.
+- [W5.13] About eight percent of cases start before the age of 20 years, and are known as juvenile HD, which typically present with the slow movement symptoms of Parkinson's disease rather than those of chorea.
+- [W5.14] HD is typically inherited from an affected parent, who carries a mutation in the huntingtin gene (HTT), which encodes the  huntingtin protein.
+- [W5.15] However, up to 10% of cases are due to a new mutation.
+- [W5.16] Expansion of CAG repeats (known as a trinucleotide repeat expansion) in the gene coding for the huntingtin protein results in an abnormal mutant protein (mHTT), which gradually damages brain cells through a number of possible mechanisms.
+- [W5.17] The mutant protein is dominant, so having one parent who is a carrier of the trait is sufficient to trigger the disease in their children.
+- [W5.18] Diagnosis is by genetic testing, which can be carried out at any time, regardless of whether or not symptoms are present.
+- [W5.19] This fact raises several ethical debates: the age at which an individual is considered mature enough to choose testing; whether parents have the right to have their children tested; and managing confidentiality and disclosure of test results.
+- [W5.20] No cure for HD is known, and full-time care is required in the later stages.
+- [W5.21] Treatments can relieve some symptoms and possibly improve quality of life.
+- [W5.22] The best evidence for treatment of the movement problems is with tetrabenazine.
+- [W5.23] HD affects about 4 to 15 in 100,000 people of European descent.
+- [W5.24] It is rare among the Finnish and the Japanese, while the incidence in Africa is unknown.
+- [W5.25] The disease affects males and females equally.
+- [W5.26] Complications such as pneumonia, heart disease, and physical injury from falls reduce life expectancy; fatal aspiration pneumonia is commonly cited as the ultimate cause of death for those with the condition.
+- [W5.27] Suicide is the cause of death in about 9% of cases.
+- [W5.28] Death typically occurs 15–20 years from when the disease was first detected.
+- [W5.29] The earliest known description of the disease was in 1841 by the American physician Charles Oscar Waters.
+- [W5.30] The condition was described in further detail in 1872 by the American physician George Huntington.
+- [W5.31] The genetic basis was discovered in 1993 by an international collaborative effort led by the Hereditary Disease Foundation.
+- [W5.32] Research and support organizations began forming in the late 1960s to increase public awareness, provide support for the afflicted and their families, and promote research.
+- [W5.33] Research directions include determining the exact mechanism of the disease, improving animal models to aid with research, testing of medications and their delivery to treat symptoms or slow the progression of the disease, and studying procedures such as stem-cell therapy with the goal of replacing damaged or lost neurons.
+- [W5.34] Signs and symptoms of Huntington's disease most commonly become noticeable between the ages of 30 and 50 years, but they can begin at any age and present as a triad of motor, cognitive, and psychiatric symptoms.
+- [W5.35] When developed in an early stage, it is known as juvenile Huntington's disease.
+- [W5.36] In 50% of cases, the psychiatric symptoms appear first.
+- [W5.37] These can precede the motor symptoms by many years.
+- [W5.38] Disease progression is often described in early stages, middle stages and late stages with an earlier prodromal phase.
+- [W5.39] In the early stages, subtle personality changes, problems in cognition and physical skills, irritability and mood swings occur, all of which may go unnoticed.
+- [W5.40] Almost everyone with HD eventually exhibits similar physical symptoms, but the onset, progression, and extent of cognitive and behavioral symptoms vary significantly between individuals.
+- [W5.41] The most characteristic initial physical symptoms are jerky, random and uncontrollable movements called chorea.
+- [W5.42] Many people are not aware of their involuntary movements, or impeded by them.
+- [W5.43] Chorea may be initially exhibited as general restlessness, small unintentionally initiated or uncompleted motions, lack of coordination, or slowed saccadic eye movements.
+- [W5.44] These minor motor abnormalities usually precede more obvious signs of motor dysfunction by at least three years.
+- [W5.45] The clear appearance of symptoms such as rigidity, writhing motions, or abnormal posturing appear as the disorder progresses.
+- [W5.46] These are signs that the system in the brain that is responsible for movement has been affected.
+- [W5.47] Psychomotor functions become increasingly impaired, such that any action that requires muscle control is affected.
+- [W5.48] When muscle control is affected, such as with rigidity or muscle contractures, it is known as dystonia.
+- [W5.49] Dystonia is a neurological hyperkinetic movement disorder that results in twisting or repetitive movements that may resemble a tremor.
+- [W5.50] Common consequences are physical instability, abnormal facial expression, and difficulties chewing, swallowing and speaking.
+- [W5.51] Sleep disturbances and weight loss are also associated symptoms, and difficulty eating may cause weight loss and malnutrition.
+- [W5.52] Juvenile HD generally progresses at a faster rate with greater cognitive decline, and chorea is exhibited briefly, if at all.
+- [W5.53] The Westphal variant of slowness of movement, rigidity, and tremors is more typical in juvenile HD, as are seizures.
+- [W5.54] Cognitive abilities are progressively impaired and tend to generally decline into dementia.
+- [W5.55] Especially affected are executive functions, which include planning, cognitive flexibility, abstract thinking, rule acquisition, initiation of appropriate actions, and inhibition of inappropriate actions.
+- [W5.56] Different cognitive impairments include difficulty focusing on tasks, lack of flexibility, a lack of impulse, a lack of awareness of one's own behaviors and abilities and difficulty learning or processing new information.
+- [W5.57] As the disease progresses, memory deficits tend to appear.
+- [W5.58] Reported impairments range from short-term memory deficits to long-term memory difficulties, including deficits in episodic (memory of one's life), procedural (memory of the body of how to perform an activity), and working memory.
+- [W5.59] Reported neuropsychiatric signs are anxiety, depression, a reduced display of emotions, egocentrism, aggression, and compulsive behavior and hallucination and delusion.
+- [W5.60] Other common psychiatric disorders could include obsessive–compulsive disorder, mania, insomnia and bipolar disorder.
+- [W5.61] Difficulties in recognizing other people's negative expressions have also been observed.
+- [W5.62] The prevalence of these symptoms is highly variable between studies, with estimated rates for lifetime prevalence of psychiatric disorders between 33 and 76%.
+- [W5.63] For many with the disease and their families, these symptoms are among the most distressing aspects of the disease, often affecting daily functioning and constituting reason for institutionalization.
+- [W5.64] Early behavioral changes in HD result in an increased risk of suicide.
+- [W5.65] Often, individuals have reduced awareness of chorea, cognitive, and emotional impairments.
+- [W5.66] Huntington's disease is a trinucleotide repeat disorder caused by trinucleotide repeat expansion in the first exon of the huntingtin gene (HTT), which encodes the huntingtin protein (HTT).
+- [W5.67] HTT may also be referred to as the HD gene or, historically, IT15 (interesting transcript 15).
+- [W5.68] It is located on the short arm of chromosome 4 at 4p16.3.
+- [W5.69] The trinucleotide repeat region of HTT is primarily composed of CAG, which encodes the amino acid glutamine; thus, the resulting protein contains a polyglutamine tract (polyQ tract).
+- [W5.70] The number of repeats varies in length between individuals and may change length between generations.
+- [W5.71] When the length of this repeated section exceeds a certain threshold, it produces mutant huntingtin protein (mHTT).
+- [W5.72] In turn, mHTT has toxic gains and losses of function which negatively impact cell function and lead to disease.
+- [W5.73] The Huntington's disease mutation is genetically dominant and almost fully penetrant; a single mutant HTT allele from either parent is sufficient to cause the disease.
+- [W5.74] Because the rate of mutation is higher in sperm cells, males are more likely to transmit expanded HTT alleles to their offspring.
+- [W5.75] Typically, people have fewer than 36 repeats in the polyQ region, which results in the normal production and cytoplasmic localization of the huntingtin.
+- [W5.76] However, 36 or more repeats result in the production of a mutant huntingtin (mHTT), which causes degeneration of medium spiny neurons.
+- [W5.77] Regions of the brain have differing amounts and reliance on these types of neurons and are affected accordingly.
+- [W5.78] Generally, the number of CAG repeats is related to how much this process is affected, and accounts for about 60% of the variation of the age of the onset of symptoms.
+- [W5.79] The remaining variation is attributed to the environment and other genes that modify the mechanism of HD.
+- [W5.80] About 36 to 39 repeats result in a reduced-penetrance form of the disease, with a much later onset and slower progression of symptoms.
+- [W5.81] In some cases, the onset may be so late that symptoms are never noticed.
+- [W5.82] With very large repeat counts (more than 60), HD onset can occur below the age of 20, known as juvenile HD.
+- [W5.83] Juvenile HD is typically of the Westphal variant that is characterized by slowness of movement, rigidity, and tremors.
+- [W5.84] This accounts for about 7% of HD carriers.
+- [W5.85] Huntington's disease has autosomal dominant inheritance, meaning that an affected individual typically inherits one copy of the gene with an expanded trinucleotide repeat (the mutant allele) from an affected parent.
+- [W5.86] Since the penetrance of the mutation is very high, those who have a mutated copy of the gene will have the disease.
+- [W5.87] In this type of inheritance pattern, each offspring of an affected individual has a 50% risk of inheriting the mutant allele and developing the disease (see figure).
+- [W5.88] This probability is sex-independent since the huntingtin gene is not located on the X or Y chromosomes.
+- [W5.89] Trinucleotide CAG repeats numbering over 28 are unstable during replication, and this instability increases with the number of repeats present.
+- [W5.90] This usually leads to new expansions as generations pass (dynamic mutations) instead of reproducing an exact copy of the trinucleotide repeat.
+- [W5.91] This causes the number of repeats to change in successive generations, such that an unaffected parent with an "intermediate" number of repeats (28–35), or "reduced penetrance" (36–40), may pass on a copy of the gene with an increase in the number of repeats that produces fully penetrant HD.
+- [W5.92] The earlier age of onset and greater severity of disease in successive generations due to increases in the number of repeats is known as genetic anticipation.
+- [W5.93] Instability is greater in spermatogenesis than oogenesis; maternally inherited alleles are usually of a similar repeat length, whereas paternally inherited ones have a higher chance of increasing in length.
+- [W5.94] Rarely is Huntington's disease caused by a new mutation, where neither parent has over 36 CAG repeats.
+- [W5.95] In the rare situations where both parents have an expanded HD gene, the risk increases to 75%, and when either parent has two expanded copies, the risk is 100%.
+- [W5.96] Individuals with both genes affected are rare.
+- [W5.97] For some time, HD was thought to be the only disease for which possession of a second mutated gene did not affect symptoms and progression, but it has since been found that it can affect the phenotype and the rate of progression.
+- [W5.98] Huntingtin protein (HTT) interacts with over 100 other proteins, and appears to have multiple functions.
+- [W5.99] The behavior of the mutated protein (mHTT) is not completely understood, but it is toxic to certain cell types, particularly brain cells.
+- [W5.100] Early damage is most evident in the subcortical basal ganglia, initially in the striatum, but as the disease progresses, other areas of the brain are also affected, including regions of the cerebral cortex.
+- [W5.101] Early symptoms are attributable to functions of the striatum and its cortical connections—namely control over movement, mood, and higher cognitive function.
+- [W5.102] DNA methylation also appears to be changed in HD.
+- [W5.103] In 2025, scientists affiliated with Harvard and MIT published a study examining the mechanism behind the onset of symptoms.
+- [W5.104] They found that the length of the repeated trinucleotide sequence increases with age due to accumulated errors in DNA mismatch repair processes after transcription, and that this becomes toxic once the sequence expands beyond 150 repeats.
+- [W5.105] HTT is expressed in all cells, with the highest concentrations found in the brain and testes, and moderate amounts in the liver, heart, and lungs.
+- [W5.106] Although its full range of functions is not yet understood, HTT interacts with proteins involved in transcription, cell signaling, and intracellular transport.
+- [W5.107] Studies in genetically modified animals have shown that wild-type HTT is essential for embryonic development, as complete absence of the gene results in embryonic death.
+- [W5.108] HTT also plays a protective role in mature neurons: it regulates the production of brain-derived neurotrophic factor, supports synaptic vesicular transport and synaptic transmission, controls neuronal gene transcription, and prevents programmed cell death by inhibiting apoptotic enzymes such as caspases.
+- [W5.109] In contrast to these protective roles, the mutant form of the protein (mHTT) interferes with the ubiquitin-proteasome system, which promotes caspase activation, contributing to neurodegeneration.
+- [W5.110] Increasing the expression of HTT can promote brain cell survival and ameliorate the effects of mHTT, whereas reducing it can exacerbate those effects.
+- [W5.111] Accordingly, the disease is thought not to be caused by inadequate expression of HTT, but by a toxic gain-of-function of mHTT in the body.
+- [W5.112] The mutant protein is expressed throughout the body and associated with abnormalities in peripheral tissues outside of the brain, which can include muscle atrophy, cardiac failure, impaired glucose tolerance, weight loss, osteoporosis, and testicular atrophy.
+- [W5.113] The toxic action of mHTT may manifest and produce the HD pathology through multiple cellular changes.
+- [W5.114] In its mutant (polyglutamine expanded) form, the protein is more prone to cleavage that creates shorter fragments containing the polyglutamine expansion.
+- [W5.115] These protein fragments have a propensity to undergo misfolding and aggregation, yielding fibrillar aggregates in which non-native polyglutamine β-strands from multiple proteins are bonded together by hydrogen bonds.
+- [W5.116] These aggregates share the same fundamental cross-beta amyloid architecture seen in other protein deposition diseases.
+- [W5.117] The aggregates are covered on their surface with a 'fuzzy coat' that contains non-polyglutamine parts of the protein, as illustrated in a published structural model shown above.
+- [W5.118] Over time, the aggregates accumulate to form inclusion bodies within cells, ultimately interfering with neuronal function.
+- [W5.119] Inclusion bodies have been found in both the cell nucleus and cytoplasm.
+- [W5.120] Inclusion bodies in cells of the brain are one of the earliest pathological changes, and some experiments have found that they can be toxic for the cell, but other experiments have shown that they may form as part of the body's defense mechanism and help protect cells.
+- [W5.121] Several pathways by which mHTT may cause cell death have been identified.
+- [W5.122] These include effects on chaperone proteins, which help fold proteins and remove misfolded ones; interactions with caspases, which play a role in the process of removing cells; the toxic effects of glutamine on nerve cells; impairment of energy production within cells; and effects on the expression of genes.
+- [W5.123] Mutant huntingtin protein has been found to play a key role in mitochondrial dysfunction.
+- [W5.124] The impairment of mitochondrial electron transport can result in higher levels of oxidative stress and release of reactive oxygen species.
+- [W5.125] Glutamine is known to be excitotoxic when present in large amounts, that can cause damage to numerous cellular structures.
+- [W5.126] Excessive glutamine is not found in HD, but the interactions of the altered huntingtin protein with numerous proteins in neurons lead to an increased vulnerability to glutamine.
+- [W5.127] The increased vulnerability is thought to result in excitotoxic effects from normal glutamine levels.
+- [W5.128] A somatic expansion of CAG repeats is involved in the progression of the disease.
+- [W5.129] Over decades, the HTT gene first sees its CAG repeats expand to about 80 copies: the 35+ CAG locus causes additional slippage errors that expand the repeat.
+- [W5.130] Then the process accelerates, reaching 150 copies within years.
+- [W5.131] There is no significant toxic effect on the cell until 150 copies, at which point a large number of genes become progressively dysregulated.
+- [W5.132] Over months, the medium spiny neuron slowly loses its cell identity until cell death pathways are activated.
+- [W5.133] Initially, damage to the brain is regionally specific with the dorsal striatum in the subcortical basal ganglia being primarily affected, followed later by cortical involvement in all areas.
+- [W5.134] Other areas of the basal ganglia affected include the substantia nigra; cortical involvement includes cortical layers 3, 5, and 6; also evident is involvement of the hippocampus, Purkinje cells in the cerebellum, lateral tuberal nuclei of the hypothalamus and parts of the thalamus.
+- [W5.135] These areas are affected according to their structure and the types of neurons they contain, reducing in size as they lose cells.
+- [W5.136] Striatal medium spiny neurons are the most vulnerable, particularly ones with projections towards the external globus pallidus, with interneurons and spiny cells projecting to the internal globus pallidus being less affected.
+- [W5.137] HD also causes an abnormal increase in astrocytes and activation of the brain's immune cells, microglia.
+- [W5.138] The basal ganglia play a key role in movement and behavior control.
+- [W5.139] Their functions are not fully understood, but theories propose that they are part of the cognitive executive system and the motor circuit.
+- [W5.140] The basal ganglia ordinarily inhibit a large number of circuits that generate specific movements.
+- [W5.141] To initiate a particular movement, the cerebral cortex sends a signal to the basal ganglia that causes the inhibition to be released.
+- [W5.142] Damage to the basal ganglia can cause the release or reinstatement of the inhibitions to be erratic and uncontrolled, which results in an awkward start to the motion or motions to be unintentionally initiated or in a motion to be halted before or beyond its intended completion.
+- [W5.143] The accumulating damage to this area causes the characteristic erratic movements associated with HD, known as chorea, a dyskinesia.
+- [W5.144] Because of the basal ganglia's inability to inhibit movements, individuals affected by it inevitably experience a reduced ability to produce speech and swallow foods and liquids (dysphagia).
+- [W5.145] Transcriptional dysregulation
+- [W5.146] CREB-binding protein (CBP), a transcriptional coregulator, is essential for cell function because as a coactivator at a significant number of promoters, it activates the transcription of genes for survival pathways.
+- [W5.147] CBP contains an acetyltransferase domain to which HTT binds through its polyglutamine-containing domain.
+- [W5.148] Autopsied brains of those who had Huntington's disease also have been found to have incredibly reduced amounts of CBP.
+- [W5.149] In addition, when CBP is overexpressed, polyglutamine-induced death is diminished, further demonstrating that CBP plays an important role in Huntington's disease and neurons in general.
+- [W5.150] Diagnosis of the onset of HD can be made following the appearance of physical symptoms specific to the disease.
+- [W5.151] Genetic testing can be used to confirm a physical diagnosis if no family history of HD exists.
+- [W5.152] Even before the onset of symptoms, genetic testing can confirm if an individual or embryo carries an expanded copy of the trinucleotide repeat (CAG) in the HTT gene that causes the disease.
+- [W5.153] Genetic counseling is available to provide advice and guidance throughout the testing procedure and on the implications of a confirmed diagnosis.
+- [W5.154] These implications include the impact on an individual's psychology, career, family-planning decisions, relatives, and relationships.
+- [W5.155] As of 2007 one study showed that despite the availability of pre-symptomatic testing, only 5% of those at risk of inheriting HD choose to do so.
+- [W5.156] A physical examination, sometimes combined with a psychological examination, can determine whether the onset of the disease has begun.
+- [W5.157] Excessive unintentional movements of any part of the body are often the reason for seeking medical consultation.
+- [W5.158] If these are abrupt and have random timing and distribution, they suggest a diagnosis of HD.
+- [W5.159] Cognitive or behavioral symptoms are rarely the first symptoms diagnosed; they are usually only recognized in hindsight or when they develop further.
+- [W5.160] How far the disease has progressed can be measured using the unified Huntington's disease rating scale, which provides an overall rating system based on motor, behavioral, cognitive, and functional assessments.
+- [W5.161] Medical imaging, such as a CT scan or MRI scan, can show atrophy of the caudate nuclei early in the disease, as seen in the illustration to the right, but these changes are not, by themselves, diagnostic of HD.
+- [W5.162] Cerebral atrophy can be seen in the advanced stages of the disease.
+- [W5.163] Functional neuroimaging techniques, such as functional magnetic resonance imaging (fMRI) and positron emission tomography (PET), can show changes in brain activity before the onset of physical symptoms, but they are experimental tools and are not used clinically.
+- [W5.164] Predictive genetic testing
+- [W5.165] Because HD follows an autosomal dominant pattern of inheritance, a strong motivation exists for individuals who are at risk of inheriting it to seek a diagnosis.
+- [W5.166] The genetic test for HD consists of a blood test, which counts the numbers of CAG repeats in each of the HTT alleles.
+- [W5.167] Cutoffs are given as follows:
+- [W5.168] At 40 or more CAG repeats, full penetrance allele (FPA) exists.
+- [W5.169] A "positive test" or "positive result" generally refers to this case.
+- [W5.170] A positive result is not considered a diagnosis, since it may be obtained decades before the symptoms begin.
+- [W5.171] However, a negative test means that the individual does not carry the expanded copy of the gene and will not develop HD.
+- [W5.172] The test will tell a person who originally had a 50% chance of inheriting the disease if their risk goes up to 100% or is eliminated.
+- [W5.173] Persons who test positive for the disease will develop HD sometime within their lifetimes, provided they live long enough for the symptoms to appear.
+- [W5.174] At 36 to 39 repeats, incomplete or reduced penetrance allele (RPA) may cause symptoms, usually later in the adult life.
+- [W5.175] The maximum risk is 60% that a person with an RPA will be symptomatic at age 65, and 70% at 75.
+- [W5.176] At 27 to 35 repeats, intermediate allele (IA), or large normal allele, is not associated with symptomatic disease in the tested individual, but may expand upon further inheritance to give symptoms in offspring.
+- [W5.177] With 26 or fewer repeats, the result is not associated with HD.
+- [W5.178] Testing before the onset of symptoms is a life-changing event and a very personal decision.
+- [W5.179] The main reason given for choosing to test for HD is to aid in career and family decisions.
+- [W5.180] Predictive testing for Huntington's disease has been available via linkage analysis (which requires testing multiple family members) since 1986 and via direct mutation analysis since 1993.
+- [W5.181] At that time, surveys indicated that 50–70% of at-risk individuals would have been interested in receiving testing, but since predictive testing has been offered far fewer choose to be tested.
+- [W5.182] Over 95% of individuals at risk of inheriting HD do not proceed with testing, mostly because it has no treatment.
+- [W5.183] A key issue is the anxiety an individual experiences about not knowing whether they will eventually develop HD, compared to the impact of a positive result.
+- [W5.184] Irrespective of the result, stress levels are lower two years after being tested, but the risk of suicide is increased after a positive test result.
+- [W5.185] Individuals found to have not inherited the disorder may experience survivor guilt about family members who are affected.
+- [W5.186] Other factors taken into account when considering testing include the possibility of discrimination and the implications of a positive result, which usually means a parent has an affected gene and that the individual's siblings will be at risk of inheriting it.
+- [W5.187] In one study, genetic discrimination was found in 46% of individuals at risk for Huntington's disease.
+- [W5.188] It occurred at higher rates within personal relationships than health insurance or employment relations.
+- [W5.189] Genetic counseling in HD can provide information, advice and support for initial decision-making, and then, if chosen, throughout all stages of the testing process.
+- [W5.190] Because of the implications of this test, patients who wish to undergo testing must complete three counseling sessions which provide information about Huntington's.
+- [W5.191] Counseling and guidelines on the use of genetic testing for HD have become models for other genetic disorders, such as autosomal dominant cerebellar ataxia.
+- [W5.192] Presymptomatic testing for HD has also influenced testing for other illnesses with genetic variants such as polycystic kidney disease, familial Alzheimer's disease and breast cancer.
+- [W5.193] The European Molecular Genetics Quality Network have published yearly external quality assessment scheme for molecular genetic testing for this disease and have developed best practice guidelines for genetic testing for HD to assist in testing and reporting of results.
+- [W5.194] Preimplantation genetic diagnosis
+- [W5.195] Embryos produced using in vitro fertilization may be genetically tested for HD using preimplantation genetic diagnosis.
+- [W5.196] This technique, where one or two cells are extracted from a typically 4- to 8-cell embryo and then tested for the genetic abnormality, can then be used to ensure embryos affected with HD genes are not implanted, so any offspring will not inherit the disease.
+- [W5.197] Some forms of preimplantation genetic diagnosis—non-disclosure or exclusion testing—allow at-risk people to have HD-free offspring without revealing their own parental genotype, giving no information about whether they themselves are destined to develop HD.
+- [W5.198] In exclusion testing, the embryo's DNA is compared with that of the parents and grandparents to avoid inheritance of the chromosomal region containing the HD gene from the affected grandparent.
+- [W5.199] In nondisclosure testing, only disease-free embryos are replaced in the uterus while the parental genotype and hence parental risk for HD are never disclosed.
+- [W5.200] Obtaining a prenatal diagnosis for an embryo or fetus in the womb is also possible, using fetal genetic material acquired through chorionic villus sampling.
+- [W5.201] An amniocentesis can be performed if the pregnancy is further along, within 14–18 weeks.
+- [W5.202] This procedure looks at the amniotic fluid surrounding the baby for indicators of the HD mutation.
+- [W5.203] This, too, can be paired with exclusion testing to avoid disclosure of parental genotype.
+- [W5.204] Prenatal testing can be done when parents have been diagnosed with HD, when they have had genetic testing showing the expansion of the HTT gene, or when they have a 50% chance of inheriting the disease.
+- [W5.205] The parents can be counseled on their options, which include termination of pregnancy, and on the difficulties of a child with the identified gene.
+- [W5.206] In addition, in at-risk pregnancies due to an affected male partner, noninvasive prenatal diagnosis can be performed by analyzing cell-free fetal DNA in a blood sample taken from the mother (via venipuncture) between six and 12 weeks of pregnancy.
+- [W5.207] It has no procedure-related risk of miscarriage.
+- [W5.208] About 99% of HD diagnoses based on the typical symptoms and a family history of the disease are confirmed by genetic testing to have the expanded trinucleotide repeat that causes HD.
+- [W5.209] Most of the remaining are called HD-like (HDL) syndromes.
+- [W5.210] The cause of most HDL diseases is unknown, but those with known causes are due to mutations in the prion protein gene (HDL1), the junctophilin 3 gene (HDL2), a recessively inherited unknown gene (HDL3—only found in two families and poorly understood), and the gene encoding the TATA box-binding protein (SCA17, sometimes called HDL4).
+- [W5.211] Other autosomal dominant diseases that can be misdiagnosed as HD are dentatorubral-pallidoluysian atrophy and neuroferritinopathy.
+- [W5.212] Also, some autosomal recessive disorders resemble sporadic cases of HD.
+- [W5.213] These include chorea acanthocytosis and pantothenate kinase-associated neurodegeneration.
+- [W5.214] One X-linked disorder of this type is McLeod syndrome.
+- [W5.215] Treatments are available to reduce the severity of some HD symptoms.
+- [W5.216] For many of these treatments, evidence to confirm their effectiveness in treating symptoms of HD specifically are incomplete.
+- [W5.217] As the disease progresses, the ability to care for oneself declines, and carefully managed multidisciplinary caregiving becomes increasingly necessary.
+- [W5.218] Although relatively few studies of exercises and therapies have shown to be helpful to rehabilitate cognitive symptoms of HD,  some evidence shows the usefulness of physical therapy, occupational therapy, and speech therapy.
+- [W5.219] Weight loss and problems in eating due to dysphagia and other muscle discoordination are common, making nutrition management increasingly important as the disease advances.
+- [W5.220] Thickening agents can be added to liquids, as thicker fluids are easier and safer to swallow.
+- [W5.221] Reminding the affected person to eat slowly and to take smaller pieces of food into the mouth may also be of use to prevent choking.
+- [W5.222] If eating becomes too hazardous or uncomfortable, the option of using a percutaneous endoscopic gastrostomy is available.
+- [W5.223] This feeding tube, permanently attached through the abdomen into the stomach, reduces the risk of aspirating food and provides better nutritional management.
+- [W5.224] Assessment and management by speech-language pathologists with experience in Huntington's disease is recommended.
+- [W5.225] People with Huntington's disease may see a physical therapist for noninvasive and nonmedication-based ways of managing the physical symptoms.
+- [W5.226] Physical therapists may implement fall risk assessment and prevention, as well as strengthening, stretching, and cardiovascular exercises.
+- [W5.227] Walking aids may be prescribed as appropriate.
+- [W5.228] Physical therapists also prescribe breathing exercises and airway clearance techniques with the development of respiratory problems.
+- [W5.229] Consensus guidelines on physiotherapy in Huntington's disease have been produced by the European HD Network.
+- [W5.230] Goals of early rehabilitation interventions are prevention of loss of function.
+- [W5.231] Participation in rehabilitation programs during the early to middle stage of the disease may be beneficial as it translates into long-term maintenance of motor and functional performance.
+- [W5.232] Rehabilitation during the late stage aims to compensate for motor and functional losses.
+- [W5.233] For long-term independent management, the therapist may develop home exercise programs for appropriate people.
+- [W5.234] Palliative care may also improve quality of life for people with HD by treating the symptoms and psychological stress of having a progressive degenerative disease.
+- [W5.235] Tetrabenazine was approved in 2000 for treatment of chorea in Huntington's disease in the EU, and in 2008 in the US.
+- [W5.236] Although other drugs had been used "off label", tetrabenazine was the first approved treatment for Huntington's disease in the US.
+- [W5.237] The compound has been known since the 1950s.
+- [W5.238] In 2017, deutetrabenazine, a heavier form of tetrabenazine medication for the treatment of chorea in HD, was approved by the FDA.
+- [W5.239] This is marketed as Austedo.
+- [W5.240] Valbenazine (Ingrezza) was also approved by the FDA for the treatment of Huntington's disease chorea in 2023.
+- [W5.241] Tetrabenazine, deutetrabenazine, and valbenazine are all vesicular monoamine transporter 2 (VMAT2) inhibitors, which work by depleting dopamine in the brain, lessening involuntary movements.
+- [W5.242] These are the only drugs that have been approved specifically for Huntington's disease (namely the chorea associated with it).
+- [W5.243] Other drugs that help to reduce chorea include antipsychotics and benzodiazepines.
+- [W5.244] Hypokinesia and rigidity, especially in juvenile cases, can be treated with antiparkinsonian drugs, and myoclonic hyperkinesia can be treated with valproic acid.
+- [W5.245] Tentative evidence has found ethyl eicosapentaenoic acid to improve motor symptoms at one year.
+- [W5.246] Amantadine has also been used to treat chorea, but there is limited evidence for its safety and efficacy.
+- [W5.247] Psychiatric symptoms can be treated with medications similar to those used in the general population.
+- [W5.248] Selective serotonin reuptake inhibitors and mirtazapine have been recommended for depression, while atypical antipsychotics are recommended for psychosis and behavioral problems.
+- [W5.249] Specialist neuropsychiatric input is recommended since people may require long-term treatment with multiple medications in combination.
+- [W5.250] There has been a number of alternative therapies experimented in ayurvedic medicine with plant-based products, although none have provided good evidence of efficacy.
+- [W5.251] A recent study showed that the stromal processing peptidase (SPP), a synthetic enzyme found in plant chloroplasts, prevented the aggregation of proteins associated with Huntington's disease.
+- [W5.252] However, repeat studies and clinical validation are needed to confirm its true therapeutic potential.
+- [W5.253] The families of individuals, and society at large, who have inherited or are at risk of inheriting HD have generations of experience of HD but may be unaware of recent breakthroughs in understanding the disease, and of the availability of genetic testing.
+- [W5.254] Genetic counseling benefits these individuals by updating their knowledge, seeking to dispel any unfounded beliefs that they may have, and helping them consider their future options and plans.
+- [W5.255] The Patient Education Program for Huntington's Disease has been created to help educate family members, caretakers, and those diagnosed with Huntington's disease.
+- [W5.256] Also covered is information concerning family planning choices, care management, and other considerations.
+- [W5.257] The length of the trinucleotide repeat accounts for 60% of the variation of the age of symptoms onset and their rate of progress.
+- [W5.258] A longer repeat results in an earlier age of onset and a faster progression of symptoms.
+- [W5.259] Individuals with more than sixty repeats often develop the disease before age 20, while those with fewer than 40 repeats may remain asymptomatic.
+- [W5.260] The remaining variation is due to environmental factors and other genes that influence the mechanism of the disease.
+- [W5.261] Life expectancy in HD is generally around 15 to 20 years following the onset of visible symptoms.
+- [W5.262] Juvenile Huntington's disease has a life expectancy rate of 10 years after onset of visible symptoms.
+- [W5.263] People with Huntington's disease usually have a reduced lifespan of around 58–63 years (mean), although it varies considerably, and different studies give slightly different ages.
+- [W5.264] Most life-threatening complications result from muscle coordination, and to a lesser extent, behavioral changes induced by declining cognitive function.
+- [W5.265] The largest risk is pneumonia, which causes death in one third of those with HD.
+- [W5.266] As the ability to synchronize movements deteriorates, difficulty clearing the lungs, and an increased risk of aspirating food or drink both increase the risk of contracting pneumonia.
+- [W5.267] The second-greatest risk is heart disease, which causes almost a quarter of fatalities of those with HD.
+- [W5.268] Suicide is the third greatest cause of fatalities, with 7.3% of those with HD taking their own lives and up to 27% attempting to do so.
+- [W5.269] To what extent suicidal thoughts are influenced by behavioral symptoms is unclear, as they signify a desire to avoid the later stages of the disease.
+- [W5.270] Suicide is the greatest risk of this disease before the diagnosis is made and in the middle stages of development throughout the disease.
+- [W5.271] Other associated risks include choking due to the inability to swallow, physical injury from falls, and malnutrition.
+- [W5.272] The late onset of Huntington's disease means it does not usually affect reproduction.
+- [W5.273] The worldwide prevalence of HD is 5–10 cases per 100,000 persons, but varies greatly geographically as a result of ethnicity, local migration and past immigration patterns.
+- [W5.274] Prevalence is similar for men and women.
+- [W5.275] The rate of occurrence is highest in peoples of Western European descent, averaging around seven per 100,000 people, and is lower in the rest of the world; e.g., one per million people of Asian and African descent.
+- [W5.276] A 2013 epidemiological study of the prevalence of HD in the UK between 1990 and 2010 found that the average prevalence for the UK was 12.3 per 100,000.
+- [W5.277] Additionally, some localized areas have a much higher prevalence than their regional average.
+- [W5.278] One of the highest incidences is in the isolated populations of the Lake Maracaibo region of Venezuela, where HD affects up to 700 per 100,000 persons.
+- [W5.279] Other areas of high localization have been found in Tasmania and specific regions of Scotland, Wales and Sweden.
+- [W5.280] Increased prevalence in some cases occurs due to a local founder effect, a historical migration of carriers into an area of geographic isolation.
+- [W5.281] Some of these carriers have been traced back hundreds of years using genealogical studies.
+- [W5.282] Genetic haplotypes can also give clues for the geographic variations of prevalence.
+- [W5.283] Iceland, on the contrary, has a rather low prevalence of 1 per 100,000, despite the fact that Icelanders as a people are descended from the early Germanic tribes of Scandinavia which also gave rise to the Swedes; all cases with the exception of one going back nearly two centuries having derived from the offspring of a couple living early in the 19th century.
+- [W5.284] Finland, as well, has a low incidence of only 2.2 per 100,000 people.
+- [W5.285] Until the discovery of a genetic test, statistics could only include clinical diagnosis based on physical symptoms and a family history of HD, excluding those who died of other causes before diagnosis.
+- [W5.286] These cases can now be included in statistics; and, as the test becomes more widely available, estimates of the prevalence and incidence of the disorder are likely to increase.
+- [W5.287] In centuries past, various kinds of chorea were at times called by names such as Saint Vitus' dance, with little or no understanding of their cause or type in each case.
+- [W5.288] The first definite mention of HD was in a letter by Charles Oscar Waters (1816–1892), published in the first edition of Robley Dunglison's Practice of Medicine in 1842.
+- [W5.289] Waters described "a form of chorea, vulgarly called magrums", including accurate descriptions of the chorea, its progression, and the strong heredity of the disease.
+- [W5.290] In 1846 Charles Rollin Gorman (1817–1879) observed how higher prevalence seemed to occur in localized regions.
+- [W5.291] Independently of Gorman and Waters, both students of Dunglison at Jefferson Medical College in Philadelphia, Johan Christian Lund (1830–1906) also produced an early description in 1860.
+- [W5.292] He specifically noted that in Setesdalen, a secluded mountain valley in Norway, the high prevalence of dementia was associated with a pattern of jerking movement disorders that ran in families.
+- [W5.293] The first thorough description of the disease was by George Huntington in 1872.
+- [W5.294] Examining the combined medical history of several generations of a family exhibiting similar symptoms, he realized their conditions must be linked; he presented his detailed and accurate definition of the disease as his first paper.
+- [W5.295] Huntington described the exact pattern of inheritance of autosomal dominant disease years before the rediscovery by scientists of Mendelian inheritance.
+- [W5.296] When either or both the parents have shown manifestations of the disease ... one or more of the offspring almost invariably suffer from the disease ...
+- [W5.297] But if by any chance these children go through life without it, the thread is broken and the grandchildren and great-grandchildren of the original shakers may rest assured that they are free from the disease.
+- [W5.298] Sir William Osler was interested in the disorder and chorea in general, and was impressed with Huntington's paper, stating, "In the history of medicine, there are few instances in which a disease has been more accurately, more graphically or more briefly described." Osler's continued interest in HD, combined with his influence in the field of medicine, helped to rapidly spread awareness and knowledge of the disorder throughout the medical community.
+- [W5.299] Great interest was shown by scientists in Europe, including Louis Théophile Joseph Landouzy, Désiré-Magloire Bourneville, Camillo Golgi, and Joseph Jules Dejerine, and until the end of the century, much of the research into HD was European in origin.
+- [W5.300] By the end of the 19th century, research and reports on HD had been published in many countries and the disease was recognized as a worldwide condition.
+- [W5.301] During the rediscovery of Mendelian inheritance at the turn of the 20th century, HD was used tentatively as an example of autosomal dominant inheritance.
+- [W5.302] English biologist William Bateson used the pedigrees of affected families to establish that HD had an autosomal dominant inheritance pattern.
+- [W5.303] The strong inheritance pattern prompted several researchers, including Smith Ely Jelliffe, to attempt to trace and connect family members of previous studies.
+- [W5.304] Jelliffe collected information from across New York and published several articles regarding the genealogy of HD in New England.
+- [W5.305] Jelliffe's research roused the interest of his college friend, Charles Davenport, who commissioned Elizabeth Muncey to produce the first field study on the East Coast of the United States of families with HD and to construct their pedigrees.
+- [W5.306] Davenport used this information to document the variable age of onset and range of symptoms of HD; he claimed that most cases of HD in the US could be traced back to a handful of individuals.
+- [W5.307] This research was further embellished in 1932 by P.
+- [W5.308] Vessie, who popularized the idea that three brothers who left England in 1630 bound for Boston were the progenitors of HD in the US.
+- [W5.309] The claim that the earliest progenitors had been established and eugenic bias of Muncey's, Davenport's, and Vessie's work contributed to misunderstandings and prejudice about HD.
+- [W5.310] Muncey and Davenport also popularized the idea that in the past, some with HD may have been thought to be possessed by spirits or victims of witchcraft, and were sometimes shunned or exiled by society.
+- [W5.311] This idea has not been proven through scientific research.
+- [W5.312] Researchers have found contrary evidence; for instance, the community of the family studied by George Huntington openly accommodated those who exhibited symptoms of HD.
+- [W5.313] The search for the cause of this condition was enhanced considerably in 1968, when the Hereditary Disease Foundation (HDF) was created by Milton Wexler, a psychoanalyst based in Los Angeles, California, whose wife Leonore Sabin had been diagnosed earlier that year with Huntington's disease.
+- [W5.314] Sabin's three brothers also had this disease.
+- [W5.315] The foundation was involved in the recruitment of more than 100 scientists in the US-Venezuela Huntington's Disease Collaborative Project, which over a 10-year period from 1979, worked to locate the genetic cause.
+- [W5.316] This was achieved in 1983 when a causal gene was approximately located, and in 1993, the gene was precisely located at chromosome 4 (4p16.3).
+- [W5.317] The study had focused on the populations of two isolated Venezuelan villages, Barranquitas and Lagunetas, where there was an unusually high prevalence of HD, and involved over 18,000 people, mostly from a single extended family, and resulted in making HD the first autosomal disease locus found using genetic linkage analysis.
+- [W5.318] Among other innovations, the project developed DNA-marking methods which were an important step in making the Human Genome Project possible.
+- [W5.319] In the same time, key discoveries concerning the mechanisms of the disorder were being made, including the findings by Anita Harding's research group on the effects of the gene's length.
+- [W5.320] Modeling the disease in various types of animals, such as the transgenic mouse developed in 1996, enabled larger-scale experiments.
+- [W5.321] As these animals have faster metabolisms and much shorter lifespans than humans results from experiments are received sooner, speeding research.
+- [W5.322] The 1997 discovery that mHTT fragments misfold led to the discovery of the nuclear inclusions they cause.
+- [W5.323] These advances have led to increasingly extensive research into the proteins involved with the disease, potential drug treatments, care methods, and the gene itself.
+- [W5.324] The networks of care and support that had developed in Venezuela and Colombia during the research projects there in the 1970s through 2000s were eventually eroded by various forces, such as the ongoing crisis in Venezuela and the death of a lead researcher in Colombia (Jorge Daza Barriga).
+- [W5.325] Doctors are working toward rekindling these networks because the people who have contributed to the science of HD by participating in these studies deserve adequate follow-up care; societies elsewhere in the world who benefit from the scientific advances thus achieved owe at least that much to those who participated in the research.
+- [W5.326] The condition was formerly called Huntington's chorea.
+- [W5.327] The term was superseded by Huntington's disease because not all patients develop chorea; furthermore, cognitive and behavioral problems constitute a significant portion of HD symptomatology.
+- [W5.328] Genetic testing for Huntington's disease has raised several ethical issues, which include defining how mature an individual should be before being considered eligible for testing, ensuring the confidentiality of results, and deciding whether companies should be allowed to use test results for decisions on employment, life insurance or other financial matters.
+- [W5.329] There was controversy when Charles Davenport proposed in 1910 that compulsory sterilization and immigration control be used for people with certain diseases, including HD, as part of the eugenics movement.
+- [W5.330] In vitro fertilization has some issues regarding its use of embryos.
+- [W5.331] Some HD research has ethical issues due to its use of animal testing and embryonic stem cells.
+- [W5.332] The development of an accurate diagnostic test for HD has caused social, legal, and ethical concerns over access to and use of a person's results.
+- [W5.333] Many guidelines and testing procedures have strict procedures for disclosure and confidentiality to allow individuals to decide when and how to receive their results and also to whom the results are made available.
+- [W5.334] Insurance companies and businesses are faced with the question of whether to use genetic test results when assessing an individual, such as for life insurance or employment.
+- [W5.335] The United Kingdom's insurance companies agreed with the Department of Health and Social Care that until 2017 customers would not need to disclose predictive genetics tests to them, but this agreement explicitly excluded the government-approved test for Huntington's when writing policies with a value over £500,000.
+- [W5.336] As with other untreatable genetic conditions with a later onset, it is ethically questionable to perform presymptomatic testing on a child or adolescent since there would be no medical benefit for that individual.
+- [W5.337] There is consensus for testing only individuals who are considered cognitively mature, although there is a counter-argument that parents have a right to make the decision on their child's behalf.
+- [W5.338] With the lack of effective treatment, testing a person under legal age who is not judged to be competent is considered unethical in most cases.
+- [W5.339] There are ethical concerns related to prenatal genetic testing or preimplantation genetic diagnosis to ensure a child is not born with a given disease.
+- [W5.340] For example, prenatal testing raises the issue of selective abortion, a choice considered unacceptable by some.
+- [W5.341] As it is a dominant disease, there are difficulties in situations in which a parent does not want to know his or her own diagnosis.
+- [W5.342] This would require parts of the process to be kept secret from the parent.
+- [W5.343] In 1968, after experiencing HD in his wife's family, Dr.
+- [W5.344] Milton Wexler was inspired to start the Hereditary Disease Foundation (HDF), with the aim of curing genetic illnesses by coordinating and supporting research.
+- [W5.345] The foundation and Wexler's daughter, Nancy Wexler, were key parts of the research team in Venezuela which discovered the HD gene.
+- [W5.346] At roughly the same time as the HDF formed, Marjorie Guthrie helped to found the committee to Combat Huntington's Disease (now the Huntington's Disease Society of America), after her husband, folk singer-songwriter Woody Guthrie died from complications of HD.
+- [W5.347] Since then, support and research organizations have formed in many countries around the world and have helped to increase public awareness of HD.
+- [W5.348] A number of these collaborate in umbrella organizations, like the International Huntington Association and the European HD network.
+- [W5.349] Many support organizations hold an annual HD awareness event, some of which have been endorsed by their respective governments.
+- [W5.350] For example, 6 June is designated "National Huntington's Disease Awareness Day" by the US Senate.
+- [W5.351] Many organizations exist to support and inform those affected by HD, including the Huntington's Disease Association in the UK.
+- [W5.352] The largest funder of research is provided by the Cure Huntington's Disease Initiative Foundation (CHDI).
+- [W5.353] Research into the mechanism of HD is focused on identifying the functioning of Htt, how mHtt differs or interferes with it, and the brain pathology that the disease produces.
+- [W5.354] Research is conducted using in vitro methods, genetically modified animals, (also called transgenic animal models), and human volunteers.
+- [W5.355] Animal models are critical for understanding the fundamental mechanisms causing the disease, and for supporting the early stages of drug development.
+- [W5.356] The identification of the causative gene has enabled the development of many genetically modified organisms including nematodes (roundworms), Drosophila fruit flies, and genetically modified mammals including mice, rats, sheep, pigs and monkeys that express mutant huntingtin and develop progressive neurodegeneration and HD-like symptoms.
+- [W5.357] Research is being conducted using many approaches to either prevent HD or slow its progression.
+- [W5.358] Disease-modifying strategies can be broadly grouped into three categories: reducing the level of the mutant huntingtin protein (including gene splicing and gene silencing); approaches aimed at improving neuronal survival by reducing the harm caused by the protein to specific cellular pathways and mechanisms (including protein homeostasis and histone deacetylase inhibition); and strategies to replace lost neurons.
+- [W5.359] In addition, novel therapies to improve brain functioning are under development; these seek to produce symptomatic rather than disease-modifying therapies, and include phosphodiesterase inhibitors.
+- [W5.360] The CHDI Foundation funds research initiatives providing many publications.
+- [W5.361] The CHDI foundation is the largest funder of Huntington's disease research globally and aims to find and develop drugs that will slow the progression of HD.
+- [W5.362] CHDI was formerly known as the High Q Foundation.
+- [W5.363] In 2006, it spent $50 million on Huntington's disease research.
+- [W5.364] CHDI collaborates with many academic and commercial laboratories globally and engages in oversight and management of research projects as well as funding.
+- [W5.365] A study found higher intelligence scores in children and young adults at risk for HD.
+- [W5.366] Reducing huntingtin production
+- [W5.367] Gene silencing aims to reduce the production of the mutant protein, since HD is caused by a single dominant gene encoding a toxic protein.
+- [W5.368] Gene silencing experiments in mouse models have shown that when the expression of mHtt is reduced, symptoms improve.
+- [W5.369] The safety of RNA interference and allele-specific oligonucleotide (ASO) methods of gene silencing have been demonstrated in mice and macaques.
+- [W5.370] Allele-specific silencing approaches attempt to target mHTT while leaving wild-type HTT untouched by leveraging polymorphisms present on only the mutant allele.
+- [W5.371] The first gene silencing trial in humans with HD began in 2015, testing the safety of IONIS-HTTRx, produced by Ionis Pharmaceuticals and led by UCL Institute of Neurology.
+- [W5.372] Mutant huntingtin was detected and quantified for the first time in cerebrospinal fluid from HD mutation-carriers in 2015 using a novel "single-molecule counting" immunoassay, providing a direct way to assess whether huntingtin-lowering treatments are achieving the desired effect.
+- [W5.373] A phase 3 trial of this compound, renamed tominersen and sponsored by Roche Pharmaceuticals, began in 2019 but was halted in 2021 after the safety monitoring board concluded that the risk-benefit balance was unfavourable.
+- [W5.374] A huntingtin-lowering gene therapy trial run by Dutch pharmaceutical company uniQure Biopharma began in 2019, and several trials of orally administered huntingtin-lowering splicing modulator compounds have been announced; of these, votoplam is through Phase 2 trial in 2025.
+- [W5.375] Gene splicing techniques are being looked at to try to repair a genome with the erroneous gene that causes HD, using tools such as CRISPR/Cas9.
+- [W5.376] PTC Therapeutics is evaluating small molecules that induce poison exon inclusion in HTT transcript as a therapeutic strategy to lower HTT expression.
+- [W5.377] In 2025, researchers at University College London reported preliminary results from AMT-130, a phase 1/2 uniQure huntingtin-lowering gene therapy clinical trial, that showed a 75% slowing of disease progression over three years; the full study data has not yet been released peer-reviewed nor published.
+- [W5.378] AMT-130 is a gene therapy utilising adeno-associated virus serotype 5 (AAV5) vector carrying an artificial micro-RNA to silence the gene leading to a lowering of huntingtin protein expression.
+- [W5.379] The therapy is delivered directly into the deep brain structures of the caudate nucleus and putamen via an MRI guided neurosurgical procedure.
+- [W5.380] Increasing huntingtin clearance
+- [W5.381] Another strategy to reduce the level of mutant huntingtin is to increase the rate at which cells are able to clear it.
+- [W5.382] As mHTT (and many other protein aggregates) may be degraded by autophagy, increasing the rate of autophagy has the potential to reduce levels of mHTT and thereby ameliorate disease.
+- [W5.383] Pharmacological and genetic inducers of autophagy have been tested in a variety of HD models; many have been shown to reduce mHtt levels and decrease toxicity in mice.
+- [W5.384] Among the approaches aimed at improving cell survival in the presence of mutant huntingtin are correction of transcriptional regulation using histone deacetylase inhibitors, modulating aggregation of huntingtin, improving metabolism and mitochondrial function and restoring function of synapses.
+- [W5.385] Stem-cell therapy is used to replace damaged neurons by transplantation of stem cells into affected regions of the brain.
+- [W5.386] Experiments in rat and mouse models of HD have yielded positive results.
+- [W5.387] Stem cells are also used to study HD in the laboratory.
+- [W5.388] Ferroptosis is a form of regulated cell death characterized by the iron-dependent accumulation of lipid hydroperoxides to lethal levels.
+- [W5.389] ALOX5-mediated ferroptosis acts as a cell death pathway upon oxidative stress in HD.
+- [W5.390] Inhibitors of ferroptosis are protective in models of degenerative brain disorders, including Parkinson's, Huntington's, and Alzheimer's diseases.
+- [W5.391] In 2020, there were 197 clinical trials related to varied therapies and biomarkers for HD listed as either underway, recruiting or newly completed.
+- [W5.392] Compounds trialed that have failed to prevent or slow the progression of HD include remacemide, coenzyme Q10, riluzole, creatine, minocycline, ethyl-EPA, phenylbutyrate and dimebon.
+- [W5.393] HOPES project Archived 27 August 2020 at the Wayback Machine – Stanford University's HD information project
+- [W5.394] HDBuzz – HD research news written by scientists in plain language
+
+## [W6] Wikipedia: Sickle cell disease
+https://en.wikipedia.org/w/index.php?title=Sickle_cell_disease&oldid=1380369992 · CC BY-SA 4.0 · usage: ai_input
+
+- [W6.1] Sickle cell disease (SCD), also simply called sickle cell, is a group of inherited hemoglobin-related blood disorders.
+- [W6.2] Sickle cell disease is caused by an abnormality in the oxygen-carrying protein haemoglobin found in red blood cells.
+- [W6.3] This leads to the red blood cells adopting an abnormal sickle-like shape under certain circumstances.
+- [W6.4] With this shape, they cannot deform as they pass through capillaries, causing blockages.
+- [W6.5] Problems in sickle cell disease typically begin around 5 to 6 months of age.
+- [W6.6] Several health problems may develop, such as attacks of pain (known as a sickle cell crisis) in joints, anaemia, swelling in the hands and feet, bacterial infections, dizziness and stroke.
+- [W6.7] The probability of severe symptoms, including long-term pain, increases with age.
+- [W6.8] Without treatment, people with sickle cell disease rarely reach adulthood, but with good healthcare, median life expectancy is between 58 and 66 years.
+- [W6.9] All of the major organs are affected by sickle cell disease.
+- [W6.10] The liver, heart, kidneys, lungs, gallbladder, eyes, bones, and joints can be damaged by abnormal sickle cells and their inability to flow through the small blood vessels.
+- [W6.11] Sickle cell disease occurs when a person inherits two abnormal copies of the β-globin gene that make haemoglobin, one from each parent.
+- [W6.12] The abnormal gene generates haemoglobin S (HbS) which changes the properties of red blood cells.
+- [W6.13] A sickle cell crisis occurs when red blood cells switch from the normal saucer-like shape to a sickle-like shape, which can obstruct small blood vessels; an attack can be set off by temperature changes, stress, dehydration, and high altitude.
+- [W6.14] A person with a single abnormal gene does not usually have symptoms and is said to have sickle cell trait; these people are also referred to as carriers.
+- [W6.15] Diagnosis is by a blood test.
+- [W6.16] Some countries test all babies at birth for the disease.
+- [W6.17] Diagnosis of the unborn foetus is also possible during pregnancy.
+- [W6.18] The care of people with sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, and pain medication.
+- [W6.19] Other measures may include blood transfusion and the medication hydroxycarbamide (hydroxyurea).
+- [W6.20] In 2023, new gene therapies were approved involving the genetic modification and replacement of blood forming stem cells in the bone marrow.
+- [W6.21] As of 2021, sickle cell disease is estimated to affect about 7.7 million people worldwide, directly causing an estimated 34,000 annual deaths and a contributory factor to a further 376,000 deaths.
+- [W6.22] About 80% of sickle cell disease cases are believed to occur in sub-Saharan Africa.
+- [W6.23] It also occurs to a lesser degree among people in parts of India, Southern Europe, West Asia, North Africa and among people of African origin (sub-Saharan) living in other parts of the world.
+- [W6.24] The condition was first described in the medical literature by American physician James B.
+- [W6.25] In 1949, its genetic transmission was determined by E.
+- [W6.26] In 1954, it was established that carriers of the abnormal gene are protected to some degree against malaria, which accounts for its persistence in populations threatened by malaria.
+- [W6.27] Signs of sickle cell disease usually begin in early childhood.
+- [W6.28] The severity of symptoms can vary from person to person, as can the frequency of crisis events.
+- [W6.29] Sickle cell disease may lead to various acute and chronic complications, several of which have a high mortality rate.
+- [W6.30] When sickle cell disease presents within the first year of life, the most common problem is an episode of pain and swelling in the child's hands and feet, known as dactylitis or "hand-foot syndrome".
+- [W6.31] Pallor, jaundice, and fatigue can also be early signs due to anaemia resulting from sickle cell disease.
+- [W6.32] In children older than 2 years, the most common initial presentation is a painful episode of a generalised or variable nature, while a slightly less common presentation involves acute chest pain.
+- [W6.33] Dactylitis is rare or almost never occurs in children over the age of 2.
+- [W6.34] Also termed "sickle cell crisis" or "sickling crisis", the vaso-occlusive crisis (VOC) manifests principally as extreme pain, most often affecting the chest, back, legs, and/or arms.
+- [W6.35] The underlying cause is sickle-shaped red blood cells that obstruct capillaries and restrict blood flow to an organ, resulting in ischaemia, pain, necrosis, and often organ damage.
+- [W6.36] The frequency, severity, and duration of these crises vary considerably.
+- [W6.37] Milder crises can be managed with nonsteroidal anti-inflammatory drugs.
+- [W6.38] For more severe crises, patients may require inpatient management for intravenous opioids.
+- [W6.39] Vaso-occlusive crisis involving organs such as the lungs or the penis are considered an emergency and treated with red blood cell transfusions.
+- [W6.40] A VOC can be triggered by anything which causes blood vessels to constrict; this includes physical or mental stress, cold, and dehydration.
+- [W6.41] "After Haemoglobin S (HbS) deoxygenates in the capillaries, it takes some time (seconds) for HbS polymerization and the subsequent flexible-to-rigid transformation.
+- [W6.42] If the transit time of RBC through the microvasculature is longer than the polymerization time, sickled RBC will lodge in the microvasculature."
+- [W6.43] Splenic sequestration crisis
+- [W6.44] The spleen is prone to damage in sickle cell disease due to its role as a blood filter.
+- [W6.45] A splenic sequestration crisis, also known as a spleen crisis, is a medical emergency that occurs when sickled red blood cells block the spleen's filter mechanism, causing the spleen to swell and fill with blood.
+- [W6.46] The accumulation of red blood cells in the spleen results in a sudden drop in circulating haemoglobin and potentially life-threatening anaemia.
+- [W6.47] Symptoms include left-sided pain, swollen spleen (which can be detected by palpation), fatigue, dizziness, irritability, rapid heartbeat, or pale skin.
+- [W6.48] It most commonly affects young children; the median age of first occurrence is 1.4 years.
+- [W6.49] By the age of 5 years, repeated instances of sequestration cause scarring and eventual atrophy of the spleen.
+- [W6.50] Treatment is supportive, with blood transfusion if haemoglobin levels fall too low.
+- [W6.51] Full or partial splenectomy may be necessary.
+- [W6.52] Long-term consequences of a loss of spleen function are increased susceptibility to bacterial infections.
+- [W6.53] Acute chest syndrome is caused by a VOC which affects the lungs, possibly triggered by infection or by emboli which have circulated from other organs.
+- [W6.54] Symptoms include wheezing, chest pain, fever, pulmonary infiltrate (visible on x-ray), and hypoxemia.
+- [W6.55] After a sickling crisis (see above), it is the second-most common cause of hospitalisation, and it accounts for about 25% of deaths in patients with sickle cell disease.
+- [W6.56] Most cases present with vaso-occlusive crises and then develop acute chest syndrome.
+- [W6.57] Aplastic crises are instances of an acute worsening of the patient's baseline anaemia, producing pale appearance, fast heart rate, and fatigue.
+- [W6.58] This crisis is normally triggered by parvovirus B19, which directly affects production of red blood cells by invading the red cell precursors and multiplying in and destroying them.
+- [W6.59] Parvovirus infection  almost completely prevents red blood cell production for two to three days (red cell aplasia).
+- [W6.60] In normal individuals, this is of little consequence, but the shortened red cell life of people with sickle cell disease results in an abrupt, life-threatening situation.
+- [W6.61] Reticulocyte count drops dramatically during the disease (causing reticulocytopenia), red cell production lapses, and the rapid destruction of existing red cells leads to acute and severe anaemia.
+- [W6.62] This crisis takes four to seven days to resolve.
+- [W6.63] Most patients can be managed supportively; some need a blood transfusion.
+- [W6.64] Sickle cell anaemia can lead to various complications, including:
+- [W6.65] An increased risk of severe bacterial infections is due to the loss of functioning spleen tissue.
+- [W6.66] These infections are typically caused by bacteria such as Streptococcus pneumoniae and Haemophilus influenzae.
+- [W6.67] Daily penicillin prophylaxis is the most commonly used treatment during childhood, with some haematologists continuing treatment indefinitely.
+- [W6.68] Patients benefit from routine vaccination for S. pneumoniae.
+- [W6.69] Stroke can result from blockage of blood vessels in the brain, causing numbness, confusion, or weakness, which may be long-lasting.
+- [W6.70] Silent stroke causes no immediate symptoms, but is associated with damage to the brain.
+- [W6.71] Silent stroke is probably five times as common as symptomatic stroke.
+- [W6.72] About 10–15% of children with sickle cell disease have strokes, with silent strokes predominating in the younger patients.
+- [W6.73] Cholelithiasis (gallstones) and cholecystitis may result from excessive bilirubin production and precipitation due to prolonged haemolysis.
+- [W6.74] Avascular necrosis (aseptic bone necrosis) of the hip and other major joints may occur as a result of ischaemia.
+- [W6.75] Priapism and infarction of the penis.
+- [W6.76] Osteomyelitis (bacterial bone infection) as a result of damage to the spleen, commonly caused by either Staphylococcus aureus or species of Salmonella.
+- [W6.77] Chronic kidney failure due to sickle-cell nephropathy manifests itself with hypertension, protein loss in the urine, loss of red blood cells in urine, and worsened anaemia.
+- [W6.78] If it progresses to end-stage kidney failure, it carries a poor prognosis.
+- [W6.79] Leg ulcers are relatively common in sickle cell disease and can be disabling.
+- [W6.80] In the eyes, background retinopathy, proliferative retinopathy, vitreous haemorrhages, and retinal detachments can result in blindness.
+- [W6.81] During pregnancy, intrauterine growth restriction, spontaneous abortion, and pre-eclampsia
+- [W6.82] Chronic pain: Even in the absence of acute vaso-occlusive pain, many patients have unreported chronic pain.
+- [W6.83] Pulmonary hypertension (increased pressure on the pulmonary artery) can lead to strain on the right ventricle and a risk of heart failure; typical symptoms are shortness of breath, decreased exercise tolerance, and episodes of syncope.
+- [W6.84] Evidence of pulmonary hypertension is found in 21% of children and 30% of adults when tested; this is associated with reduced walking distance and increased mortality.
+- [W6.85] Diastolic dysfunction in the left ventricle and cardiomyopathy, caused by fibrosis or scarring of cardiac tissues.
+- [W6.86] This also contributes to pulmonary hypertension, decreased exercise capacity, and arrhythmias.
+- [W6.87] Haemoglobin is an oxygen-binding protein, found in erythrocytes, which transports oxygen from the lungs (or in the foetus, from the placenta) to the tissues.
+- [W6.88] Each molecule of haemoglobin comprises 4 protein subunits, referred to as globins.
+- [W6.89] haemoglobin F (foetal haemoglobin, HbF), consisting of two alpha (α-globin) and two gamma (γ-globin) chains.
+- [W6.90] This dominates during foetal development and until about 6 weeks of age.
+- [W6.91] Afterwards, haemoglobin A remains dominant throughout life.
+- [W6.92] haemoglobin A (adult haemoglobin, HbA), which consists of two alpha and two beta (β-globin) chains.
+- [W6.93] This is the most common human haemoglobin tetramer, accounting for over 97% of the total red blood cell haemoglobin in normal adults.
+- [W6.94] Haemoglobin B2 (HbA2) is a second form of adult haemoglobin and is composed of two alpha and two delta (δ-globin) chains.
+- [W6.95] This haemoglobin typically comprises 1–3% of haemoglobin in adults.
+- [W6.96] β-globin is encoded by the HBB gene on human chromosome 11; mutations in this gene produce variants of the protein which are implicated with abnormal hemoglobins.
+- [W6.97] The mutation that causes sickle cell disease results in an abnormal haemoglobin known as haemoglobin S (HbS), which replaces HbA in adults.
+- [W6.98] The human genome contains a pair of genes for β-globin; in people with sickle cell disease, both genes are affected, and the erythropoietic cells in the bone marrow will only create HbS.
+- [W6.99] In people with sickle cell trait, only one gene is abnormal; erythropoiesis generates a mixture of normal HbA and sickle HbS.
+- [W6.100] The person has very few, if any, symptoms of sickle cell disease but carries the gene and can pass it on to their children.
+- [W6.101] Sickle cell disease has an autosomal recessive pattern of inheritance.
+- [W6.102] Both copies of the affected gene must carry the same mutation (homozygous condition) for a person to be affected by an autosomal recessive disorder.
+- [W6.103] An affected person usually has unaffected parents, each of whom carries one mutated gene and one normal gene (heterozygous condition) and is referred to as a genetic carrier; they may not have any symptoms.
+- [W6.104] When both parents have the sickle cell trait, any given child has a 25% chance of sickle cell disease; a 25% chance of no sickle cell alleles, and a 50% chance of the heterozygous condition (see diagram).
+- [W6.105] There are several different haplotypes of the sickle cell gene mutation, indicating that it may have arisen spontaneously in different geographic areas.
+- [W6.106] The variants are known as Cameroon, Senegal, Benin, Bantu, and Saudi-Asian.
+- [W6.107] These are clinically important because some are associated with higher HbF levels, e.g., Senegal and Saudi-Asian variants, and tend to have milder disease.
+- [W6.108] The gene defect is a single nucleotide mutation of the β-globin gene, which results in the amino acid glutamic acid being substituted by valine at position 6 of the β-globin chain.
+- [W6.109] Haemoglobin S with this mutation is referred to as HbS, as opposed to the normal adult HbA.
+- [W6.110] Under conditions of normal oxygen concentration, this causes no apparent effects on the structure of haemoglobin or its ability to transport oxygen around the body.
+- [W6.111] However, the deoxy form of HbS has an exposed hydrophobic patch, which causes HbS molecules to form long, inflexible chains.
+- [W6.112] Under conditions of low oxygen concentration in the bloodstream, such as exercise, stress, altitude, or dehydration, HbS polymerisation forms fibrous precipitates within the red blood cell.
+- [W6.113] In people homozygous for the sickle cell mutation, the presence of long-chain polymers of HbS distort the shape of the red blood cell from a smooth, doughnut-like shape to the sickle shape, making it fragile and susceptible to blocking or breaking within capillaries.
+- [W6.114] In people heterozygous for HbS (carriers of sickle cell disease), the polymerisation problems are minor because the normal allele can produce half of the haemoglobin.
+- [W6.115] Sickle cell carriers have symptoms only if they are deprived of oxygen (for example, at altitude) or while severely dehydrated.
+- [W6.116] SCD is most prevalent in areas in which malaria has historically been endemic.
+- [W6.117] The sickle cell trait gives carriers a survival advantage against malaria fatality over people with normal haemoglobin in regions where malaria is endemic.
+- [W6.118] Infection with the malaria parasite affects asymptomatic carriers of the abnormal haemoglobin gene differently from people with full sickle cell disease.
+- [W6.119] Carriers (heterozygous for the gene) who catch malaria are less likely to suffer from severe symptoms than people with normal haemoglobin.
+- [W6.120] People with sickle cell disease (homozygous for the gene) are similarly less likely to become infected with malaria; however, once infected, they are more likely to develop severe and life-threatening anaemia.
+- [W6.121] The impact of sickle cell anaemia on malaria immunity illustrates some evolutionary trade-offs that have occurred because of endemic malaria.
+- [W6.122] Although the shorter life expectancy for those with the homozygous condition would tend to disfavour the trait's survival, the trait is preserved in malaria-prone regions because of the benefits provided by the heterozygous form; an example of natural selection.
+- [W6.123] Due to the adaptive advantage of the heterozygote, the disease is still prevalent, especially among people with recent ancestry in malaria-stricken areas, such as Africa, the Mediterranean, India, and the Middle East.
+- [W6.124] Malaria was historically endemic to southern Europe, but it was declared eradicated in the mid-20th century, except rare sporadic cases.
+- [W6.125] The malaria parasite has a complex lifecycle and spends part of it in red blood cells.
+- [W6.126] There are two mechanisms that protect sickle cell carriers from malaria.
+- [W6.127] One is that the parasite is hindered from growing and reproducing in a carrier's red blood cells; another is that a carrier's red cells show signs of damage when infected, and are detected and destroyed as they pass through the spleen.
+- [W6.128] When exposed to low oxygen concentrations, haemoglobin S polymerises into long strands within red blood cells (RBCs).
+- [W6.129] These strands distort the shape of the cell and, after a few seconds, cause it to adopt an abnormal, inflexible, sickle-like shape.
+- [W6.130] This process reverses when oxygen concentration is raised, and the cells resume their normal biconcave disc shape.
+- [W6.131] If sickling takes place in the venous system, after blood has passed through the capillaries, it does not affect the organs, and the RBCs can unsickle when they become oxygenated in the lungs.
+- [W6.132] Repeated switching between sickle and normal shapes damages the membrane of the RBC so that it eventually becomes permanently sickled.
+- [W6.133] Normal red blood cells are quite elastic and have a biconcave disc shape, which allows the cells to deform to pass through capillaries.
+- [W6.134] In sickle cell disease, low oxygen tension promotes red blood cell sickling and repeated sickling episodes damage the cell membrane and decrease the cell's elasticity.
+- [W6.135] These cells fail to return to normal shape when oxygen tension is restored.
+- [W6.136] As a consequence, these rigid blood cells are unable to deform as they pass through narrow capillaries, leading to vessel occlusion and ischaemia.
+- [W6.137] Sickled cells are detected as they pass through the spleen and are destroyed.
+- [W6.138] In young children with sickle cell disease, the accumulation of sickled cells in the spleen can result in splenic sequestration crisis.
+- [W6.139] In this, the spleen becomes engorged with blood, depriving the general circulation of blood cells and leading to severe anaemia.
+- [W6.140] The spleen initially becomes noticeably swollen, but the lack of a healthy blood flow through the organ culminates in scarring of the spleen tissues and eventually death of the organ, generally before the age of 5 years.
+- [W6.141] The actual anaemia of the illness is caused by haemolysis, the destruction of the red cells, because of their shape.
+- [W6.142] Although the bone marrow attempts to compensate by releasing new red cells, the rate of destruction exceeds this.
+- [W6.143] Healthy red blood cells typically function for 90–120 days; however, sickled cells only last 10–20 days.
+- [W6.144] The rapid breakdown of RBCs in sickle cell disease results in the release of free heme into the bloodstream, exceeding the body's protective mechanisms.
+- [W6.145] Although heme is an essential component of haemoglobin, it is also a potent oxidative molecule.
+- [W6.146] Free heme is also an alarmin – a signal of tissue damage or infection, which triggers defensive responses in the body and increases the risk of inflammation and vaso-occlusive events.
+- [W6.147] Prenatal and newborn screening
+- [W6.148] Checking for sickle cell disease begins during pregnancy, with a prenatal screening questionnaire that includes, among other things, a consideration of health issues in the child's parents and close relatives.
+- [W6.149] During pregnancy, genetic testing can be done on either a blood sample from the foetus or a sample of amniotic fluid.
+- [W6.150] During the first trimester of pregnancy, chorionic villus sampling (CVS) is a technique used for prenatal diagnosis of sickle cell disease.
+- [W6.151] A routine heel prick test, in which a small sample of blood is collected a few days after birth, is used to check conclusively for sickle cell disease as well as other inherited conditions.
+- [W6.152] Where sickle cell disease is suspected, several tests can be used.
+- [W6.153] Often, a simpler, cheaper test is applied first, with a more complex test, such as DNA analysis, used to confirm a positive result.
+- [W6.154] Two tests that are specific to sickle cell disease:
+- [W6.155] A blood smear is a thin layer of blood smeared on a glass microscope slide and then stained in such a way as to allow the various blood cells to be examined microscopically.
+- [W6.156] This technique can be used to detect sickled cells visually; however, it does not detect sickle cell carriers.
+- [W6.157] A solubility test relies on the fact that HbS is less soluble than normal haemoglobin (HbA); it is highly reliable but does not distinguish between full sickle cell disease and carrier status.
+- [W6.158] Tests which can be used for sickle cell disease as well as for other hemoglobinopathies:
+- [W6.159] Haemoglobin electrophoresis is a test that can detect different types of haemoglobin.
+- [W6.160] Haemoglobin is extracted from the red cells, then introduced into a porous gel and subjected to an electrical field.
+- [W6.161] This separates normal and abnormal haemoglobin, which can then be identified and quantified.
+- [W6.162] Isoelectric focusing (IEF) is a technique that can be used to diagnose sickle cell disease and other hemoglobinopathies.
+- [W6.163] The technique separates molecules based on their isoelectric point, or the pH at which they have no net electrical charge.
+- [W6.164] IEF uses an electric charge to separate and identify different types of haemoglobin, which become focused into sharp, stationary bands.
+- [W6.165] The technique can distinguish many types of abnormal haemoglobin.
+- [W6.166] High-performance liquid chromatography (HPLC) is reliable, fully automated, and able to distinguish most types of sickle cell disease, including heterozygous.
+- [W6.167] The method separates and quantifies haemoglobin fractions by measuring their flow rate through a column of absorbent material.
+- [W6.168] DNA analysis using polymerase chain reaction (PCR), to amplify small samples of DNA.
+- [W6.169] Variants of PCR used to diagnose sickle cell disease include amplification-refractory mutation system (ARMS) and allele-specific recombinase polymerase amplification.
+- [W6.170] These tests can identify subtypes of sickle cell disease as well as combination hemoglobinopathies.
+- [W6.171] Genetic counselling is the process by which people with a hereditary disorder are advised of the probability of transmitting it and how this may be prevented or ameliorated.
+- [W6.172] People who are known carriers of the disease or at risk of having a child with sickle cell anaemia may undergo genetic counselling.
+- [W6.173] Genetic counsellors work with families to discuss the benefits, limitations, and logistics of genetic testing options as well as the potential impact of testing and test results on the individual.
+- [W6.174] Counselling is best given before a child is conceived, and several possible courses could be suggested.
+- [W6.175] These include adoption, the use of eggs or sperm from a healthy donor, and in-vitro fertilisation (IVF) when combined with pre-implantation genetic diagnosis of the embryos.
+- [W6.176] Several precautions can help reduce the risk of developing a sickling crisis.
+- [W6.177] Lifestyle behaviours include maintaining good hydration and avoiding physical stress or exhaustion.
+- [W6.178] Since low oxygen levels can trigger sickling, people with sickle cell disease should avoid high altitudes, such as high mountains or flying in unpressurised aircraft.
+- [W6.179] People with sickle cell disease should avoid alcohol and smoking, as alcohol can cause dehydration and smoking can trigger acute chest syndrome.
+- [W6.180] Stress can also trigger a sickle cell crisis, so relaxation techniques like breathing exercises can help.
+- [W6.181] Pneumococcal infection is a leading cause of death among children with sickle cell disease; penicillin is recommended daily during the first 5 years of life to minimise the risk of infection.
+- [W6.182] Dietary supplementation of folic acid is sometimes recommended, on the basis that it facilitates the creation of new red blood cells and may reduce anaemia.
+- [W6.183] A Cochrane review of its use in 2016 found "the effect of supplementation on anaemia and any symptoms of anaemia remains unclear" due to a lack of medical evidence.
+- [W6.184] People with sickle cell disease are recommended to receive all vaccinations recommended by health authorities to avoid serious infection, which might trigger a sickling crisis.
+- [W6.185] Hydroxyurea was the first approved drug for the treatment of sickle cell disease.
+- [W6.186] It has been shown to decrease the number and severity of attacks and possibly increase survival time.
+- [W6.187] This is achieved, in part, by reactivating foetal haemoglobin production in place of the haemoglobin S that causes sickling.
+- [W6.188] Hydroxyurea lowers the expression of adhesion molecules on endothelial and red blood cells, which lowers the chance of small vessel blockages.
+- [W6.189] Additionally, it encourages the release of nitric oxide, which enhances blood flow and inhibits clot formation.
+- [W6.190] Hydroxyurea had previously been used as a chemotherapy agent.
+- [W6.191] Some concern exists that long-term use may be harmful.
+- [W6.192] A Cochrane review in 2022 found a weak evidence base for its use in sickle cell disease.
+- [W6.193] Despite expanding progress in gene therapy for SCD treatment, hydroxyurea remains a cornerstone first line therapy.
+- [W6.194] However, it is severely underutilized despite the reduction of vaso-occlusive crises by approximately 44% and reduced hospitalizations.
+- [W6.195] In 2019, the United States granted accelerated approval to the medication Voxelotor to treat sickle cell disease.
+- [W6.196] It was approved by the European Medicines Agency (EMA) in 2021.
+- [W6.197] In trials, it had been shown to have disease-modifying potential by increasing haemoglobin levels and decreasing hemolysis indicators However, following an increased risk of vaso-occlusive seizures and death observed in registries and clinical trials, the manufacturer, Pfizer, withdrew it from the market worldwide.
+- [W6.198] The simple, or top-up transfusion, is a procedure in which healthy blood cells from a donor are infused into the patient's bloodstream.
+- [W6.199] This benefits by alleviating anaemia, increasing tissue oxygen levels, reducing the risk of sickling, and relieving sickling symptoms.
+- [W6.200] A simple transfusion can be used to treat sickle cell disease when haemoglobin levels drop too low, or to prepare for an operation or pregnancy.
+- [W6.201] It can also be used to protect against long-term complications or to reduce the risk of stroke.
+- [W6.202] An exchange transfusion is a procedure in which blood is removed from the body, then processed to extract sickled cells, which are replaced by healthy red blood cells from a donor.
+- [W6.203] The treated blood, including white cells and plasma, is then returned to the patient.
+- [W6.204] Exchange transfusions are likely to be needed in an emergency, in severe cases of sickle cell disease, or to support a mother during pregnancy.
+- [W6.205] Transcranial Doppler ultrasound (TCD) can detect children with sickle cell who have a high risk for stroke.
+- [W6.206] The ultrasound test detects partially obstructed blood vessels by measuring blood flow into the brain, as blood flow velocity is inversely related to arterial diameter.
+- [W6.207] Consequently, high blood flow velocity correlates with narrowed arteries.
+- [W6.208] In children, preventive RBC transfusion therapy has been shown to reduce the risk of first stroke or silent stroke when transcranial Doppler ultrasonography shows abnormal cerebral blood flow.
+- [W6.209] In those who have sustained a prior stroke event, it also reduces the risk of recurrent stroke and additional silent strokes.
+- [W6.210] Most people with sickle cell disease have intensely painful episodes called vaso-occlusive crises (VOC).
+- [W6.211] However, the frequency, severity, and duration of these crises vary tremendously.
+- [W6.212] In a VOC, the circulation of blood vessels is obstructed by sickled red blood cells, causing ischemic injuries to the tissues, inflammation, and pain.
+- [W6.213] Recurrent episodes may cause irreversible organ damage.
+- [W6.214] The most common and obvious symptom of a VOC is pain, which may be felt anywhere in the body but most commonly in the limbs and back.
+- [W6.215] The degree of pain varies from mild to severe.
+- [W6.216] Home treatment options include bed rest and hydration, and pain control using over-the-counter medication such as paracetamol or ibuprofen.
+- [W6.217] More severe cases may require prescription opioids such as codeine or morphine for pain control.
+- [W6.218] In 2019, crizanlizumab, a monoclonal antibody targeting P-selectin, was approved in the United States to reduce the frequency of vaso-occlusive crisis in those 16 years and older.
+- [W6.219] It had also been approved in the UK and the European Union.
+- [W6.220] In both cases, authorisation was subsequently withdrawn because of poor evidence of its effectiveness.
+- [W6.221] Acute chest syndrome is caused by vaso-occlusion occurring in the lungs.
+- [W6.222] As with a VOC, treatment includes pain control and hydration.
+- [W6.223] Antibiotics are required because there is a severe risk of pulmonary infection, and oxygen supplementation for hypoxia.
+- [W6.224] Blood transfusion may also be required, or exchange transfusion in severe cases.
+- [W6.225] Treating avascular necrosis
+- [W6.226] When treating avascular necrosis of the bone in people with sickle cell disease, treatment aims to reduce or stop the pain and maintain joint mobility.
+- [W6.227] Treatment options include resting the joint, physical therapy, pain-relief medicine, joint-replacement surgery, or bone grafting.
+- [W6.228] Psychological therapies such as patient education, cognitive therapy, behavioural therapy, and psychodynamic psychotherapy, that aim to complement current medical treatments, require further research to determine their effectiveness.
+- [W6.229] Haematopoietic stem cells (HSC) are cells in the bone marrow that can develop into all types of blood cells, including red blood cells, white blood cells, and platelets.
+- [W6.230] There are two possible ways to treat sickle cell disease and some other hemoglobinopathies by targeting HSCs.
+- [W6.231] Since 1991, a small number of patients have received bone marrow transplants from healthy matched donors.
+- [W6.232] This procedure is high-risk.
+- [W6.233] More recently, it has become possible to use CRISPR gene editing technology to modify the patient's own HSCs in a way that reduces or eliminates the production of sickle haemoglobin HbS and replaces it with a non-sickling form of haemoglobin.
+- [W6.234] All stem cell treatments must involve myeloablation of the patients' bone marrow to remove HSCs containing the faulty gene.
+- [W6.235] This requires high doses of chemotherapy agents with side effects such as sickness and fatigue.
+- [W6.236] A long hospital stay is necessary after infusion of the replacement HSCs, while the cells take up residence in the bone marrow and make red blood cells with the stable form of haemoglobin.
+- [W6.237] Gene therapy was first trialled in 2014 on a single patient, and followed by clinical trials in which several patients were successfully treated.
+- [W6.238] In 2023, both exagamglogene autotemcel (Casgevy) and lovotibeglogene autotemcel (Lyfgenia) were approved for the treatment of sickle cell disease.
+- [W6.239] Kendric Cromer in October 2024 became the first commercial case in the US to receive gene therapy and was discharged from Children's National Hospital.
+- [W6.240] The one-off gene-editing therapy, Casgevy, also known as Exa-cel, is to be offered to patients on the National Health Service (NHS) in England as from 2025.
+- [W6.241] Both Casgevy and Lyfgenia work by first harvesting the patient's HSCs, then using CRISPR gene editing to modify their DNA in the laboratory.
+- [W6.242] In parallel, the person with sickle cell disease's bone marrow undergoes a myeloablation procedure to destroy the remaining HSCs.
+- [W6.243] The treated cells are then infused back into the patient, where they colonise the bone marrow and eventually resume production of blood cells.
+- [W6.244] Casgevy works by editing the BCL11A gene, which normally inhibits haemoglobin F (foetal haemoglobin) production in adults.
+- [W6.245] The edit increases HbF production, which is not prone to sickling.
+- [W6.246] Lyfgenia introduces a new gene for T87Q-globin, which coexists with the sickling beta-globin but reduces the incidence of sickling.
+- [W6.247] A study published in the New England Journal of Medicine in April 2026 showed a new CRISPR gene therapy labeled renizgamglogene autogedtemcel (abbreviated to reni-cel) that increased total hemoglobin from 9.8 to 13.8g/dL.
+- [W6.248] However, the study was terminated due to the sponsor's decision.
+- [W6.249] Hematopoietic stem cell transplantation
+- [W6.250] Hematopoietic stem cell transplantation (HSCT) involves replacing the dysfunctional stem cells from a person with sickle cell disease with healthy cells from a well-matched donor.
+- [W6.251] Finding a well matched donor is essential to the process' success.
+- [W6.252] Different types of donors may be suitable, including umbilical cord blood, human leukocyte antigen (HLA) matched relatives, or HLA-matched donors who are not related to the person being treated.
+- [W6.253] Risks associated with HSCT can include graft-versus-host disease, failure of the graft, and other toxicity related to the transplant.
+- [W6.254] Sickle cell disease is most prevalent in sub-saharan Africa.
+- [W6.255] In areas without healthcare infrastructure, it is estimated that between 50% and 90% of children born with the disease die before the age of 5 years.
+- [W6.256] In contrast, life expectancy in the United States in 2010–2020 was 43 years and in the UK 67 years.
+- [W6.257] The HbS gene can be found in every ethnic group.
+- [W6.258] The highest frequency of sickle cell disease is found in tropical regions, particularly sub-Saharan Africa, tribal regions of India, and the Middle East.
+- [W6.259] About 80% of sickle cell disease cases are believed to occur in Sub-Saharan Africa.
+- [W6.260] Migration of substantial populations from these high-prevalence areas to low-prevalence countries in Europe has dramatically increased in recent decades and in some European countries, sickle cell disease has now overtaken more familiar genetic conditions such as haemophilia and cystic fibrosis.
+- [W6.261] In 2015, it resulted in about 114,800 deaths.
+- [W6.262] Sickle cell disease occurs more commonly among people whose ancestors lived in tropical and subtropical sub-Saharan regions where malaria is or was common.
+- [W6.263] Where malaria is common, carrying a single sickle cell allele (trait) confers a heterozygote advantage; humans with one of the two alleles of sickle cell disease show less severe symptoms when infected with malaria.
+- [W6.264] This condition is inherited in an autosomal recessive pattern, meaning both copies of the gene in each cell have mutations.
+- [W6.265] The parents each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition.
+- [W6.266] Three-quarters of sickle cell cases occur in Africa.
+- [W6.267] A World Health Organization report dated 2006 estimated that around 2% of newborns in Nigeria are affected by sickle cell anaemia, giving a total of 150,000 affected children born every year in Nigeria alone.
+- [W6.268] The carrier frequency ranges between 10 and 40% across equatorial Africa, decreasing to 1–2% on the North African coast and <1% in South Africa.
+- [W6.269] In the West African countries of Ghana and Nigeria, the frequencies can vary from 15 to 30%.
+- [W6.270] In Nigeria, 24% of the population carries the gene, and 20 per 1,000 newborns are born with the disease, or 150,000 annually.
+- [W6.271] Uganda has the fifth-highest sickle cell disease burden in Africa.
+- [W6.272] One study indicates that 20,000 babies per year, or 0.7% of the total, are born with sickle cell disease, and 13.3% carry the trait.
+- [W6.273] In Uganda, carrier frequency of the trait varies strongly across tribal lines: among the Baamba, it reaches 45%.
+- [W6.274] The number of people with the disease in the United States is about 100,000 (one in 3,300), mostly affecting Americans of sub-Saharan African descent.
+- [W6.275] In the United States, about one out of 365 African-American children and one in every 16,300 Hispanic-American children have sickle cell anaemia.
+- [W6.276] The life expectancy for men with sickle cell disease is approximately 42 years of age while women live approximately six years longer.
+- [W6.277] An additional 2 million are carriers of the sickle cell trait.
+- [W6.278] Most infants with sickle cell disease born in the United States are identified by routine neonatal screening.
+- [W6.279] As of 2016, all 50 states include screening for sickle cell disease as part of their newborn screening.
+- [W6.280] The newborn's blood is sampled through a heel-prick and is sent to a lab for testing.
+- [W6.281] The baby must have been eating for at least 24 hours before the heel-prick test can be done.
+- [W6.282] Some states also require a second blood test to be done when the baby is two weeks old to confirm the results.
+- [W6.283] Sickle cell disease is the most common genetic disorder among African Americans.
+- [W6.284] Approximately 8% are carriers, and 1 in 375 are born with the disease.
+- [W6.285] Patient advocates for sickle cell disease have complained that it gets less government and private research funding than similar rare diseases such as cystic fibrosis, with researcher Elliott Vichinsky saying this shows racial discrimination or the role of wealth in health care advocacy.
+- [W6.286] Overall, without considering race, approximately 1.5% of infants born in the United States are carriers of at least one copy of the mutant (disease-causing) gene.
+- [W6.287] In June 2026 it was reported that Daniel Cressy, an African American from Louisiana was cured from the disease after going through curative gene therapy.
+- [W6.288] As a result of population growth in African-Caribbean regions of overseas France and immigration from North and sub-Saharan Africa to mainland France, sickle cell disease has become a major health problem in France.
+- [W6.289] Sickle cell disease has become the most common genetic disease in the country, with an overall birth prevalence of one in 2,415 in mainland France, ahead of phenylketonuria (one in 10,862), congenital hypothyroidism (one in 3,132), congenital adrenal hyperplasia (one in 19,008) and cystic fibrosis (one in 5,014) for the same reference period.
+- [W6.290] Since 2000, neonatal screening of sickle cell disease has been performed at the national level for all newborns defined as being "at-risk" for sickle cell disease based on ethnic origin (defined as those born to parents originating from sub-Saharan Africa, North Africa, the Mediterranean area (South Italy, Greece, and Turkey), the Arabic peninsula, the French overseas islands, and the Indian subcontinent).
+- [W6.291] Since 3 August 2024, this screening is systematically applied to all newborns in France.
+- [W6.292] In the United Kingdom, between 12,000 and 15,000 people are thought to have sickle cell disease  with an estimated 250,000 carriers of the condition in England alone.
+- [W6.293] As the number of carriers is only estimated, all newborn babies in the UK receive a routine blood test to screen for the condition.
+- [W6.294] Due to many adults in high-risk groups not knowing if they are carriers, pregnant women and both partners in a couple are offered screening so they can get counselling if they have the sickle cell trait.
+- [W6.295] In addition, blood donors from those in high-risk groups are also screened to confirm whether they are carriers and whether their blood filters properly.
+- [W6.296] Donors who are found to be carriers are informed, and their blood, while often used for those of the same ethnic group, is not used for those with sickle cell disease who require a blood transfusion.
+- [W6.297] In Saudi Arabia, about 4.2% of the population carries the sickle cell trait, and 0.26% have sickle cell disease.
+- [W6.298] The highest prevalence is in the Eastern province, where approximately 17% of the population carries the gene and 1.2% have sickle cell disease.
+- [W6.299] In 2005, Saudi Arabia introduced a mandatory premarital test including HB electrophoresis, which aimed to decrease the incidence of sickle cell disease and thalassemia.
+- [W6.300] In Bahrain, a study published in 1998 that covered about 56,000 people in hospitals in Bahrain found that 2% of newborns have sickle cell disease, 18% of the surveyed people have the sickle cell trait, and 24% were carriers of the gene mutation causing the disease.
+- [W6.301] The country began screening of all pregnant women in 1992, and newborns started being tested if the mother was a carrier.
+- [W6.302] In 2004, a law was passed requiring couples planning to marry to undergo free premarital counselling.
+- [W6.303] These programmes were accompanied by public education campaigns.
+- [W6.304] Sickle cell disease is common in some ethnic groups of central India, where the prevalence has ranged from 9.4 to 22.2% in endemic areas of Madhya Pradesh, Rajasthan, and Chhattisgarh.
+- [W6.305] It is also endemic among Tharu people of Nepal and India; however, they have a sevenfold lower rate of malaria despite living in a malaria infested zone.
+- [W6.306] In Jamaica, 10% of the population carries the sickle cell gene, making it the most prevalent genetic disorder in the country.
+- [W6.307] The first modern report of sickle cell disease may have been in 1846, where the autopsy of an executed runaway slave was discussed; the key finding was the absence of the spleen.
+- [W6.308] Reportedly, African slaves in the United States exhibited resistance to malaria, but were prone to leg ulcers.
+- [W6.309] The abnormal characteristics of the red blood cells, which later lent their name to the condition, were first described by Ernest E.
+- [W6.310] Irons (1877–1959), intern to Chicago cardiologist and professor of medicine James B.
+- [W6.311] Herrick (1861–1954), in 1910.
+- [W6.312] Irons saw "peculiar elongated and sickle-shaped" cells in the blood of a man named Walter Clement Noel, a 20-year-old first-year dental student from Grenada.
+- [W6.313] Noel had been admitted to the Chicago Presbyterian Hospital in December 1904 with anaemia.
+- [W6.314] Noel was readmitted several times over the next three years for "muscular rheumatism" and "bilious attacks" but completed his studies and returned to the capital of Grenada (St.
+- [W6.315] George's) to practice dentistry.
+- [W6.316] He died of pneumonia in 1916 and is buried in the Catholic cemetery at Sauteurs in the north of Grenada.
+- [W6.317] Shortly after the report by Herrick, another case appeared in the Virginia Medical Semi-Monthly with the same title, "Peculiar Elongated and Sickle-Shaped Red Blood Corpuscles in a Case of Severe Anemia." This article is based on a patient admitted to the University of Virginia Hospital on 15 November 1910.
+- [W6.318] In the later description by Verne Mason in 1922, the name "sickle cell anemia" is first used.
+- [W6.319] Childhood problems related to sickle cells disease were not reported until the 1930s, even though this could not have been uncommon in African-American populations.
+- [W6.320] Memphis physician Lemuel Diggs, a prolific researcher into sickle cell disease, first introduced the distinction between sickle cell disease and trait in 1933.
+- [W6.321] Until 1949, the genetic characteristics had not been elucidated by James V.
+- [W6.322] 1949 was the year when Linus Pauling described the unusual chemical behaviour of haemoglobin S, and attributed this to an abnormality in the molecule itself.
+- [W6.323] The molecular change in HbS was described in 1956 by Vernon Ingram.
+- [W6.324] The late 1940s and early 1950s saw further understanding in the link between malaria and sickle cell disease.
+- [W6.325] In 1954, the introduction of haemoglobin electrophoresis allowed the discovery of particular subtypes, such as HbSC disease.
+- [W6.326] Large-scale natural history studies and further intervention studies were introduced in the 1970s and 1980s, leading to widespread use of prophylaxis against pneumococcal infections among other interventions.
+- [W6.327] Bill Cosby's Emmy-winning 1972 TV movie, To All My Friends on Shore, depicted the story of the parents of a child with sickle cell disease.
+- [W6.328] The 1990s had the development of hydroxycarbamide, and reports of cure through bone marrow transplantation appeared in 2007.
+- [W6.329] Some texts refer to it as drepanocytosis.
+- [W6.330] In the US, there can be stigma that hinders people with sickle cell disease from receiving necessary care; one element of this is attributed to racism as the majority of people with sickle cell disease are black.
+- [W6.331] Due to this, in 1970, the Black Panther Party (also known as the Black Panther Party for Self Defense) opened dozens of free clinics across the U.S. where free Sickle Cell Disease tests were offered.
+- [W6.332] Over the course of the 1970s, thousands of people, largely African-Americans, received testing at one of these clinics.
+- [W6.333] In September 2017, the US Social Security Administration issued a policy interpretation ruling providing background information on sickle cell disease and a description of how Social Security evaluates the disease during its adjudication process for disability claims.
+- [W6.334] Uganda has the fifth-highest sickle cell disease (SCD) burden in the world.
+- [W6.335] In Uganda, social stigma exists for those with sickle cell disease because of the lack of general knowledge of the disease, notably among adolescents and young adults due to the culturally sanctioned secrecy about the disease.
+- [W6.336] While most people have heard generally about the disease, a large portion of the population is relatively misinformed about how sickle cell disease is diagnosed or inherited.
+- [W6.337] Those who are informed about the disease learned about it from family or friends and not from health professionals.
+- [W6.338] Failure to provide the public with information about sickle cell disease results in a population with a poor understanding of the causes of the disease, symptoms, and prevention techniques.
+- [W6.339] The differences, physically and socially, that arise in those with sickle cell disease, such as jaundice, stunted physical growth, and delayed sexual maturity, can also lead them to become targets of bullying, rejection, and stigma.
+- [W6.340] Rate of sickle cell disease in Uganda
+- [W6.341] The data compiled on sickle cell disease in Uganda has not been updated since the early 1970s.
+- [W6.342] The deficiency of data is due to a lack of government research funds, even though Ugandans die daily from sickle cell disease.
+- [W6.343] Data shows that the trait frequency of sickle cell disease is 20% of the population in Uganda.
+- [W6.344] It is also estimated that about 25,000 Ugandans are born each year with sickle cell disease and 80% of those people do not live past five years old.
+- [W6.345] Sickle cell disease also contributes 25% to the child mortality rate in Uganda.
+- [W6.346] The Bamba people of Uganda, located in the southwest of the country, carry 45% of the gene, which is the highest trait frequency recorded in the world.
+- [W6.347] The Sickle Cell Clinic in Mulago is the only sickle cell disease clinic in the country and, on average, sees 200 patients a day.
+- [W6.348] Misconceptions about sickle cell disease
+- [W6.349] The stigma around the disease is particularly bad in regions of the country that are not as affected.
+- [W6.350] For example, Eastern Ugandans tend to be more knowledgeable of the disease than Western Ugandans, who are more likely to believe that sickle cell disease resulted as a punishment from God or witchcraft.
+- [W6.351] Other misconceptions about sickle cell disease include the belief that it is caused by environmental factors but, in reality, sickle cell disease is a genetic disease.
+- [W6.352] There have been efforts throughout Uganda to address the social misconceptions about the disease.
+- [W6.353] In 2013, the Uganda Sickle Cell Rescue Foundation was established to spread awareness of sickle cell disease and combat the social stigma attached to the disease.
+- [W6.354] In addition to this organisation's efforts, there is a need for the inclusion of sickle cell disease education in preexisting community health education programmes to reduce the stigmatisation of sickle cell disease in Uganda.
+- [W6.355] Social isolation of people with sickle cell disease
+- [W6.356] The deeply rooted stigma of sickle cell disease in society causes families to often hide their family members' sick status for fear of being labelled, cursed, or left out of social events.
+- [W6.357] Sometimes in Uganda, when it is confirmed that a family member has sickle cell disease, intimate relationships with all members of the family are avoided.
+- [W6.358] The stigmatisation and social isolation that people with sickle cell disease tend to experience are often the consequence of popular misconceptions that people with sickle cell disease should not socialise with those free from the disease.
+- [W6.359] This mentality robs people with sickle cell disease of the right to participate in community activities freely like everyone else.
+- [W6.360] SCD-related stigma and social isolation in schools, especially, can make life for young people living with sickle cell disease challenging.
+- [W6.361] For school-aged children living with sickle cell disease, the stigma they face can lead to peer rejection.
+- [W6.362] Peer rejection involves the exclusion from social groups or gatherings.
+- [W6.363] It often leads the excluded individual to experience emotional distress and may result in their academic underperformance, avoidance of school, and occupational failure later in life.
+- [W6.364] This social isolation is also likely to negatively impact people with sickle cell disease's self-esteem and overall quality of life.
+- [W6.365] Mothers of children with sickle cell disease tend to receive disproportionate amounts of stigma from their peers and family members.
+- [W6.366] These women will often be blamed for their child's diagnosis of sickle cell disease, especially if sickle cell disease is not present in earlier generations, due to the suspicion that the child's poor health may have been caused by the mother's failure to implement preventative health measures or promote a healthy environment for her child to thrive.
+- [W6.367] The reliance on theories related to environmental factors to place blame on the mother reflects many Ugandans' poor knowledge of how the disease is acquired as it is determined by genetics, not environment.
+- [W6.368] Mothers of children with sickle cell disease are also often left with very limited resources to safeguard their futures against the stigma of having sickle cell disease.
+- [W6.369] This lack of access to resources results from their subordinating roles within familial structures as well as the class disparities that hinder many mothers' ability to satisfy additional childcare costs and responsibilities.
+- [W6.370] Women living with sickle cell disease who become pregnant often face extreme discrimination and discouragement in Uganda.
+- [W6.371] These women are frequently branded by their peers as irresponsible for having a baby while living with sickle cell disease or even engaging in sex while living with sickle cell disease.
+- [W6.372] The criticism and judgement these women receive, not only from healthcare professionals but also from their families, often leaves them feeling alone, depressed, anxious, ashamed, and with very little social support.
+- [W6.373] Most pregnant women with sickle cell disease also go on to be single mothers as it is common for them to be left by their male partners who claim they were unaware of their partner's sickle cell disease status.
+- [W6.374] Not only does the abandonment experienced by these women cause emotional distress for them, but this low level of parental support can be linked to depressive symptoms and overall lower quality of life for the child once they are born.
+- [W6.375] The National Health Service (NHS) makes several treatments available for people with sickle cell disease.
+- [W6.376] These include pain management, antibiotics, and vaccinations to reduce the risk of infection, and blood transfusions where appropriate.
+- [W6.377] Other treatments include Voxelotor which reduces the need for blood transfusions, and the gene therapy Casgevy.
+- [W6.378] In England, a number of regional centres coordinate treatment for sickle cell disease and other haemoglobinopathies.
+- [W6.379] Media and arts representation of sickle cell disease
+- [W6.380] Popular media and art have been important educational tools about sickle cell disease.
+- [W6.381] Hertz Nazaire was a Haitian-American visual artist, writer, and advocate who lived with sickle cell disease and used his art to raise awareness, combat stigma, and champion better access to care.
+- [W6.382] Representations of sickle cell disease in television shows include in the longrunning American medical drama ER (season 4 "Obstruction of Justice" and season 15 "Separation Anxiety" and "Dream Runner"), the 2024 British superhero series Supacell, in the 2024 period drama Lady in the Lake, and in the 2025 medical procedural drama The Pitt (episode "8:00 am").
+- [W6.383] Michael "Robby" Robinavitch on The Pitt, has spoken about the importance of popular media representation of sickle cell and the impacts of racism on the quality of care patients receive.
+- [W6.384] Sickle cell disease has also been featured in several movies including the 1973 Sydney Poitier classic, A Warm December, 1996 Nigerian drama Mortal Inheritance, Genie Award- winning 2008 Canadian drama Nurse.Fighter.Boy, the 2017 animated documentary Spilled Milk, the 2020 Nigerian drama Strain, the 2022 animated short The Park Bench, and the 2023 American sci-fi action film Transformers: Rise of the Beasts.
+
+## [W7] Wikipedia: Roan (color)
+https://en.wikipedia.org/w/index.php?title=Roan_(color)&oldid=1363022789 · CC BY-SA 4.0 · usage: ai_input
+
+- [W7.1] Roan is a coat color found in many animals, including horses, cattle, antelope, cats and dogs.
+- [W7.2] It is defined generally as an even mixture of white and pigmented hairs that do not "gray out" or fade as the animal ages.
+- [W7.3] There are a variety of genetic conditions which produce the colors described as "roan" in various species.
+- [W7.4] A horse with intermixed white and colored hairs of any color is usually called a roan.
+- [W7.5] However, such mixtures, which can appear superficially similar, are caused by a number of separate genetic factors.
+- [W7.6] Identifiable types of roans include true or classic roan, varnish roan, and rabicano, though other currently unknown factors may be responsible for ambiguous "roaning".
+- [W7.7] Gray horses, which become lighter as they age until their hair coat is nearly completely white, may be confused with roans when they are young.
+- [W7.8] Duns, which are solid-colored horses affected by the dun dilution factor on their bodies but with darker points, are also sometimes confused with roans, but they do not have the intermixed white and colored hairs of a roan.
+- [W7.9] Horses with the classic or true roan pattern may be any base color which is intermingled with unpigmented white hairs on the body.
+- [W7.10] Except for white markings under the control of other genes, the head, mane, tail, and lower legs are dark.
+- [W7.11] Roan is a simple dominant trait symbolized by the Rn allele.
+- [W7.12] The University of California, Davis School of Veterinary Medicine's genetics services have developed a DNA test that uses genetic markers to indirectly determine the number of Rn or rn alleles a horse has.
+- [W7.13] The mutation responsible for true roan has not yet been identified exactly, but been assigned to equine chromosome 21 (ECA21) in the KIT sequence.
+- [W7.14] The overall effect is that of a silver or lightened appearance to the affected part of the coat.
+- [W7.15] Descriptions of roan coat colors are as follows:
+- [W7.16] Strawberry roan describes true or classic roan on a chestnut base coat.
+- [W7.17] The mane and tail remain red or have only a few white hairs, while the body ranges from nearly chestnut to pinkish.
+- [W7.18] Geneticists prefer the term "chestnut roan," but this term is not in common use.
+- [W7.19] Bay Roan is true roan on a bay coat.
+- [W7.20] The particular shade depends on the underlying shade of bay; but the mane, tail, and lower legs are black, and the reddish body is intermingled with white hairs.
+- [W7.21] Formerly, bay roans were lumped together with chestnut roans and both called "red roans."
+- [W7.22] Blue Roan is true roan on a black coat.
+- [W7.23] The mane, tail, head, and legs remain black, while the body takes on a grayish or bluish appearance.
+- [W7.24] Blue roans are sometimes mistaken for grays or grullos.
+- [W7.25] However, Grays fade with age, while roans do not; and grullos are blue duns and possess dun markings but not intermingled white hairs.
+- [W7.26] Note 'red roan' is ambiguous and could mean either bay roan or strawberry roan.
+- [W7.27] Any other coat color may also be affected by roaning.
+- [W7.28] Few combinations have the same unique terminology applied to the common roan colors, although palomino roans are sometimes called honey roans.
+- [W7.29] A varnish roan is not a true roan; it is actually one of the leopard complex coat patterns associated with Appaloosa, Knabstrupper, Noriker horse and related breeds.
+- [W7.30] Rabicano is a white pattern that falls into the category of roaning or scattered white hairs, the genetics of which are not yet fully understood.
+- [W7.31] Sometimes called ticking, rabicano is common even in breeds that do not have true or classic roan, including Arabians and Thoroughbreds.
+- [W7.32] This pattern usually takes the form of scattered white hairs around the junction of the stifle and flank, and peculiar rings of white hairs near the base of the tail.
+- [W7.33] This trait is called a coon tail or skunk tail.
+- [W7.34] Some forms of sabino, which is a pinto pattern, have roaning along the edges of other white spots or markings  A roan horse may not fit into any of the traditional categories as there is much still to be learned about the genetics of roan.
+- [W7.35] The existence of other types of roaning conditions not covered by those mentioned here is possible and likely.
+- [W7.36] The genetics behind roan dogs are still unclear, and at present candidate genes have been ruled out.
+- [W7.37] There remains a great deal of ambiguity in terminology regarding mottled dogs, which are called roan, ticked, mottled and belton depending on the context.
+- [W7.38] The roan or ticked color is described in many breeds of gundogs such as English Cocker Spaniels, American Cocker Spaniels, English Springer Spaniels, Field Spaniels and Brittanys, German Longhaired Pointers, German Shorthaired Pointers, Bracchi Italiani, Spinoni Italiani, Lagotti Romagnoli, English Setters, Small Münsterländer as well as Border Collies and many other breeds.
+- [W7.39] In dogs, roan manifests itself only in unpigmented areas, the presence and shape of which are determined by other genes.
+- [W7.40] This is in stark contrast to true roan horses and roan cattle, which are roan only in pigmented regions of their coat and may have white markings.
+- [W7.41] Instead, dogs with roaning or ticking are born with clear, open white markings which begin to fill in with flecking in the subsequent weeks and continue to darken with age.
+- [W7.42] Most breed standards use the terms "ticked" and "roan" interchangeably, with the former referring to clearly defined flecks on a white background and the latter to flecks so closely spaced that the mixture appears even.
+- [W7.43] The terminology that relates the underlying coat color with the roan modifier is often breed-specific, but most standards call a black dog with roaning blue.
+- [W7.44] In breeds that are characterized by roaning and ticking such as the Large Munsterlander, clear white-marked individuals may be called plated.
+- [W7.45] The term belton is reserved for English Setters.
+- [W7.46] In 1957, Little suggested that roan and ticking were controlled separately, and postulated that roan may have been homologous to "silvered" coat in mice.
+- [W7.47] This condition in mice is actually homologous to merle, which might be described by some as "roan." In 2007, the gene responsible for roan cattle (KITLG) was refuted as a possible cause of roan in dogs.
+- [W7.48] Neither roan nor ticking, if they are independently caused, appear to be recessive.
+- [W7.49] Breeds of cattle known for roans are the Belgian Blue and Shorthorn.
+- [W7.50] Among the former, coat color may be solid black, solid white, or blue roan; the latter may be solid red, solid white, or red roan.
+- [W7.51] Belgian Blues also typically exhibit spotting patterns, which are genetically separate from roan.
+- [W7.52] As a result, most roan cows exhibit blotches of clearly colored and clearly white hair, with roan patches.
+- [W7.53] Some "cryptic" roan cattle appear solid, but upon close inspection reveal a small roan patch.
+- [W7.54] Roan cattle cannot "breed true" but breeding white cattle to a solid mate will always yield a roan calf.
+- [W7.55] The white color typical of Charolais and White Park breeds is not related to roan.
+- [W7.56] Roan in Shorthorns and Belgian Blues is controlled by the mast cell growth factor (MGF) gene, also called the steel locus, on bovine chromosome 5.
+- [W7.57] Part of the KIT ligand, this region is involved in many cell differentiation processes.
+- [W7.58] Mast cell growth factor promotes pigment production by pigment cells, and without it, skin and hair cells lack pigment.
+- [W7.59] With two functional MGF genes (homozygous dominant), cattle are fully pigmented; without any functional MGF genes (homozygous recessive), they are white.
+- [W7.60] MGF-controlled roan occurs when cattle possess one functional and one non-functional MGF gene (heterozygous), resulting in a roughly even mixture of white regions and colored regions.
+- [W7.61] The reproductive condition "White Heifer Disease," associated with the MGF gene, is characterized by homozygous MGF-white heifers with incomplete reproductive tracts.
+- [W7.62] The roan coloration of guinea pigs is linked to microphthalmia.
+- [W7.63] The allele that controls roaning in guinea pigs is incompletely dominant: an animal with one copy of the allele will have varying amounts of white hair scattered through its coat, particularly on the back and sides.
+- [W7.64] About 25% of guinea pigs born to two roans are completely white, having two copies of the "roan" allele, and may have a constellation of deformities associated with "lethal white syndrome", although this condition has no relation to overo lethal white syndrome in horses or double merle syndrome in dogs.
+- [W7.65] Lethal white guinea pigs ("lethals") often die shortly after birth or at weaning age, but with hand-feeding and regular dental care, lethals may live 2 to 3 years.
+- [W7.66] Some lethals have reportedly lived to 6 or 7 years.
+- [W7.67] It is worth noting that, unlike anophthalmic hamsters, guinea pigs with the condition are not sterile, but females may be unable to deliver live young.
+- [W7.68] Lethal white syndrome symptoms include:
+- [W7.69] Partial or complete blindness
+- [W7.70] Partial or complete deafness
+- [W7.71] Microphthalmia or anophthalmia
+- [W7.72] Missing or deformed incisors
+- [W7.73] Malabsorption in the small intestine, due in some cases to lack of intestinal villi
+- [W7.74] Increased susceptibility to illness
+- [W7.75] Roan coloration is not to be confused with the "magpie" coloration of guinea pigs, which is a brindle color lacking red pigment due to the "chinchilla" allele, an allele also responsible for self white and silver agouti coloration.
+- [W7.76] Equine coat color genetics
+- [W7.77] Photos of roan English Cockers
+
+## [W8] Wikipedia: Polydactyly
+https://en.wikipedia.org/w/index.php?title=Polydactyly&oldid=1379019890 · CC BY-SA 4.0 · usage: ai_input
+
+- [W8.1] Polydactyly (commonly known as sixth finger and extra finger) is a birth defect that results in extra fingers or toes.
+- [W8.2] The hands are more commonly involved than the feet.
+- [W8.3] Extra fingers may be painful, affect self-esteem, or result in clumsiness.
+- [W8.4] Polydactyly is associated with at least 39  genetic mutations.
+- [W8.5] It may either present alone or with other defects.
+- [W8.6] Cases may run in families.
+- [W8.7] The underlying mechanism involves an error in limb bud formation during early development.
+- [W8.8] Diagnosis may occur before birth via prenatal ultrasound as early as nine weeks.
+- [W8.9] X-rays may be useful after a child is a year old.
+- [W8.10] The opposite is oligodactyly (fewer fingers or toes).
+- [W8.11] Treatment varies from removal by cautery to more involved surgery.
+- [W8.12] While putting a tight band around the base has been carried out, this is not typically recommended.
+- [W8.13] If surgery is required, this is often done around two years of age.
+- [W8.14] Occasionally multiple surgeries are required.
+- [W8.15] Polydactyly is present in about 4 to 12 per 10,000 newborns.
+- [W8.16] It is the most common defect of the hands and feet.
+- [W8.17] In the United States, Black people are more commonly affected than white people.
+- [W8.18] The term is from Greek  πολύς (polys) 'many' and  δάκτυλος (daktylos) 'finger'.
+- [W8.19] In humans/animals this condition can present itself on one or both hands or feet.
+- [W8.20] The extra digit is usually a small piece of soft tissue that can be removed.
+- [W8.21] Occasionally it contains bone without joints; rarely it may be a complete functioning digit.
+- [W8.22] The extra digit is most common on the ulnar (little finger) side of the hand, less common on the radial (thumb) side, and very rarely within the middle three digits.
+- [W8.23] These are respectively known as postaxial (little finger), preaxial (thumb), and central (ring, middle, index fingers) polydactyly.
+- [W8.24] The extra digit is most commonly an abnormal fork in an existing digit, or it may rarely originate at the wrist as a normal digit does.
+- [W8.25] Polydactyly can be divided into three major types, which are discussed below, which depend on the location of  the additional digit.
+- [W8.26] In 2019 it was found that in cases of polydactyly with a fully functional additional      digit, muscles to control the extra digit may be duplicated, resulting in increased motor control that allows the patient to carry out certain tasks with one hand that would normally require two.
+- [W8.27] This is the most common situation, in which the extra digit is on the ulnar side of the hand, thus the side of the little finger.
+- [W8.28] This can also be called postaxial polydactyly.
+- [W8.29] It can manifest itself very subtly, for instance only as a nubbin on the ulnar side of the little finger, or very distinctly, as a fully developed finger.
+- [W8.30] Most commonly, the extra finger is rudimentary, consisting of an end phalanx with a nail, and connected to the hand with a small skin pedicle.
+- [W8.31] Mostly one neurovascular bundle can be identified, with no tendons present in the extra digit.
+- [W8.32] In case of a fully developed extra finger, the duplication usually presents itself at the level of the metacarpo­phalangeal joint.
+- [W8.33] A triplication of the little finger is very rare.
+- [W8.34] Ulnar polydactyly occurs ten times more often in African populations.
+- [W8.35] The incidence in Caucasians is reported as 1 in 1,339 live births, compared with 1 in 143 live births in Africans.
+- [W8.36] Ulnar polydactyly is also often part of a syndrome.
+- [W8.37] In patients with African ancestry ulnar polydactyly mostly occurs isolated, whereas the presentation in Caucasians is often associated with a syndrome, though in a retrospective review, only 4 of 37 cases of ulnar polydactyly in Caucasians were syndromic.
+- [W8.38] This is a less common situation, in which the affectation is on the side of the hand towards the thumb.
+- [W8.39] Radial polydactyly refers to the presence of an extra digit (or extra digits) on the radial side of the hand.
+- [W8.40] It is most frequent in Indian populations and it is the second most common congenital hand disorder.
+- [W8.41] The incidence of radial polydactyly is reported as 1 in every 3,000 live births.
+- [W8.42] The clinical features of radial polydactyly will depend upon the extent of duplication.
+- [W8.43] Radial polydactyly varies from a barely visible radial skin tag to complete duplication.
+- [W8.44] Thumb polydactyly varies from barely visible broadening of the distal phalanx to full duplication of the thumb including the first metacarpal.
+- [W8.45] Radial polydactyly is frequently associated with several syndromes.
+- [W8.46] This is a rare condition, in which the extra digit is on the ring, middle or index finger.
+- [W8.47] Of these fingers, the index finger is most often affected, whereas the ring finger is rarely affected.
+- [W8.48] This type of polydactyly can be associated with syndactyly, cleft hand, and several other syndromes.
+- [W8.49] Polysyndactyly presents various degrees of syndactyly affecting fingers three and four.
+- [W8.50] Polydactyly is associated with different mutations, either mutations in a gene itself or in a cis-regulatory element responsible for the expression of a specific gene.
+- [W8.51] Mutations in Hoxa- or Hoxd clusters are reported leading to polydactyly.
+- [W8.52] Interactions of Hoxd13 and GLI3 induce synpolydactyly, a combination of extra and consolidated digits.
+- [W8.53] Other signal transduction pathways in this context are the Wnt signaling pathway or Notch.
+- [W8.54] In the specific case of preaxial polydactyly (Hemingway mutant), a cis-acting mutation approximately 1Mb upstream of SHH gene has been implicated.
+- [W8.55] Normally SHH is expressed in an organiser region, called the zone of polarizing activity (ZPA) on the posterior limb side.
+- [W8.56] From there it diffuses anteriorly, laterally to the growth direction of the limb.
+- [W8.57] In the mutant, smaller ectopic expression in a new organiser region is seen on the anterior side of the limb.
+- [W8.58] This ectopic expression causes cell proliferation delivering the raw material for one or more new digits.
+- [W8.59] Polydactyly can occur by itself, or more commonly, as one feature of a syndrome of congenital anomalies.
+- [W8.60] When it occurs by itself, it is associated with autosomal dominant mutations in single genes, i.e. it is not a multifactorial trait.
+- [W8.61] But mutation in a variety of genes can give rise to polydactyly.
+- [W8.62] Typically the mutated gene is involved in developmental patterning, and a syndrome of congenital anomalies results, of which polydactyly is one feature or two.
+- [W8.63] Polydactyly has been linked to the prenatal environment in a 2020 study showing a relationship to maternal PM10 pollution exposure in China.
+- [W8.64] Because polydactyly can be part of a syndrome (known genetic defect) or association (genetic defect not known), children with a congenital upper extremity deformity should be examined by a geneticist for other congenital anomalies.
+- [W8.65] This should also be done if a syndrome is suspected, or if more than two or three generations of the family are affected.
+- [W8.66] As of 2009, 97 genetic syndromes have been associated with different kinds of polydactyly.
+- [W8.67] Examples of syndromes include  Diamond–Blackfan anemia, and the VACTERL association, acrocallosal syndrome, basal cell nevus syndrome, Biemond syndrome, ectrodactyly-ectodermal dysplasias-cleft lip/palate syndrome, mirror hand deformity, Mohr syndrome, oral-facial-digital syndrome, Rubinstein–Taybi syndrome, short rib polydactyly.
+- [W8.68] Ulnar polydactyly is often bilateral and associated with syndactyly and polydactyly of the feet.
+- [W8.69] This can be a simple or complex polydactyly.
+- [W8.70] Ulnar polydactyly occurs as an isolated congenital condition, but can also be part of a syndrome, such as: trisomy 13, Greig cephalopolysyndactyly syndrome, Meckel syndrome, Ellis–van Creveld syndrome, McKusick–Kaufman syndrome, Down syndrome, Bardet–Biedl syndrome, Smith–Lemli–Opitz syndrome.
+- [W8.71] Type VII of radial polydactyly is associated with several syndromes:
+- [W8.72] Holt–Oram syndrome, Fanconi anemia (aplastic anemia by the age of 6), Townes–Brocks syndrome, and Greig cephalopolysyndactyly (also known to occur with ulnar polydactyly).
+- [W8.73] The syndromes associated with central polydactyly are:
+- [W8.74] Bardet–Biedl syndrome, Meckel syndrome, Pallister–Hall syndrome, Legius syndrome, Holt–Oram syndrome.
+- [W8.75] Central polydactyly can also be associated with syndactyly and cleft hand.
+- [W8.76] From an evo-devo point of view, polydactyly is a phenotypic variation or innovation, as the fingers and toes arise in places where nothing is phenotypically present in the wild type.
+- [W8.77] Although it is initiated by a point mutation, it occurs as a polyphenism with different numbers of toes.
+- [W8.78] The analysis of the additional toe numbers of Maine Coon cats revealed that the number of toes follows a developmental bias: 2 additional toes occur much more frequently than 4, these more frequently than 6 or 8 additional ones.
+- [W8.79] Also, for the evo-devo theory, polydactyly cannot be adequately explained by genetic mutation alone, but only by constructive development, i.e. the ability of development to produce a complex phenotypic output.
+- [W8.80] The corresponding symbolic generation of toes can now be shown in computer models.
+- [W8.81] Classification is performed by using x-ray imaging to see the bone structures.
+- [W8.82] In 1961, Frantz and O'Rahilly proposed that congenital anomalies of the limb could be classified in seven categories,  based on the embryonic failure causing the clinical presentation.
+- [W8.83] These categories are failure of formation of parts, failure of differentiation, duplication, overgrowth, undergrowth, congenital constriction band syndrome, and generalized skeletal abnormalities.
+- [W8.84] In 1976 this was modified by Swanson.
+- [W8.85] Polydactyly belongs to the category of duplication.
+- [W8.86] As of 2009, research has shown that the majority of congenital anomalies occur during the 4-week embryologic period of rapid limb development.
+- [W8.87] The classification of ulnar polydactyly exists of either two or three types.
+- [W8.88] The two-stage classification, according to Temtamy and McKusick, involves type A and B.
+- [W8.89] In type A there is an extra little finger at the metacarpophalangeal joint, or more proximal including the carpometacarpal joint.
+- [W8.90] The little finger can be hypoplastic or fully developed.
+- [W8.91] Type B varies from a nubbin to an extra, non-functional little finger part on a pedicle.
+- [W8.92] According to the three-type classification, type I includes nubbins or floating little fingers, type II includes duplications at the MCPJ, and type III includes duplications of the entire ray.
+- [W8.93] The Wassel classification is the most widely used classification of radial polydactyly, based upon the most proximal level of skeletal duplication.
+- [W8.94] The most common type is Wassel 4 (about 50% of such duplications) followed by Wassel 2 (20%) and Wassel 6 (12%).
+- [W8.95] The classification of central polydactyly is based on the extent of duplication and involves the following three types:
+- [W8.96] Type I is a central duplication, not attached to the adjacent finger by osseous or ligamentous attachments; it frequently does not include bones, joints, cartilage, or tendons.
+- [W8.97] Type IIA is a nonsyndactylous duplication of a digit or part of a digit with normal components, and articulates with a broad or bifid metacarpal or phalanx.
+- [W8.98] Type IIB is a syndactylous duplication of a digit or part of a digit with normal components, and articulates with a broad or bifid metacarpal or phalanx.
+- [W8.99] Type III is a complete digital duplication, which has a well-formed duplicated metacarpal.
+- [W8.100] Ulnar polydactyly usually does not interfere with hand function, but for social reasons it can be treated operatively.
+- [W8.101] The treatment of Type A ulnar polydactyly is complex as its goal is to remove the accessory digit while maintaining a stable, functional small finger.
+- [W8.102] When the duplicated proximal phalanx articulates with a common, broad metacarpal head, the ulnar collateral ligament must be considered.
+- [W8.103] In those cases with a common articulation or with a sixth metacarpal the muscle executing the abduction of the little finger (abductor digiti minimi) must be preserved.
+- [W8.104] In patients with a common metacarpal articulation an elliptical incision at the base of the post-axial digit is made.
+- [W8.105] This incision may be extended proximally in order to adequately expose the abductor digiti minimi.
+- [W8.106] The ulnar collateral ligament and the insertions of the abductor digiti minimi are then elevated with a periosteal sleeve.
+- [W8.107] The duplicated extensor and flexor tendons to the ulnar digit are transected and after that the digit is amputated at its articulation with the metacarpal.
+- [W8.108] If the articular surface is wide the metacarpal may be shaved.
+- [W8.109] At last the collateral ligament and abductor digiti minimi are reinserted at the base of the preserved proximal phalanx and a wire is then placed across the reconstructed joint.
+- [W8.110] In patients with a duplicated metacarpal, the accessory digit is amputated in a standard ray fashion with transfer of the abductor digiti minimi to the retained small finger.
+- [W8.111] In this situation there is an absence of osseous and ligamentous structures.
+- [W8.112] The surgical technique is analogous to radial polydactyly, in which the level of duplication and anatomical components should guide operative treatment.
+- [W8.113] The pedicled ulnar extra digit can be removed by  suture ligation to devise the skin bridge of the newborn child.
+- [W8.114] This might be easier than an excision of the extra digit when the child is 6 to 12 months old.
+- [W8.115] Ligation occludes the vascular supply to the duplicated digit, resulting in dry gangrene and subsequent autoamputation.
+- [W8.116] This must be done with consideration of the presence of a neurovascular bundle, even in very small skin bridges.
+- [W8.117] When the ligation is done inappropriately it can give a residual nubbin.
+- [W8.118] Also, a neuroma can develop in the area of the scar.
+- [W8.119] An excision can prevent the development of a residual nubbin and the sensitivity due to a neuroma.
+- [W8.120] For infants with ulnar type B polydactyly the recommended treatment is ligation in the neonatal nursery.
+- [W8.121] A 2011 study opined that excision of an extra digit in the neonatal nursery was a safe and simple procedure with a good clinical and cosmetic outcome.
+- [W8.122] As of 2022, for infants with ulnar type B polydactyly the recommended treatment is surgical excision or suture ligation, when no bony structures exist.
+- [W8.123] Complications of ligation include infection, neuroma or cyst formation.
+- [W8.124] Because neither of the two thumb components is normal, a decision should be taken on combining which elements to create the best possible composite digit.
+- [W8.125] Instead of amputating the most hypoplastic thumb, preservation of skin, nail, collateral ligaments and tendons is needed to augment the residual thumb.
+- [W8.126] Surgery is recommended in the first year of life, generally between 9 and 15 months of age.
+- [W8.127] Surgical options depend on type of polydactyly.
+- [W8.128] This type of procedure is recommended for Wassel types 1 and 2 (in which both thumbs are severely hypoplastic) by some congenital hand surgeons.
+- [W8.129] The technique contains a composite wedge resection of the central bone and soft-tissue.
+- [W8.130] This will be achieved with approach of the lateral tissue of each thumb.
+- [W8.131] The goal is to achieve a normal thumb, what concerns the size, which is possible.
+- [W8.132] If the width of the nail bed is greater than 70% of the contralateral thumb, it may be split.
+- [W8.133] Ablation with collateral ligament reconstruction
+- [W8.134] This type of procedure is used for all Wassel types of polydactyly and is the most commonly used technique.
+- [W8.135] It is recommended in all cases of thumb duplication with a hypoplastic, less-functional thumb.
+- [W8.136] Otherwise, one could consider the Bilhaut-Cloquet.
+- [W8.137] The ulnar thumb is preferably preserved as it is the more developed one in most cases.
+- [W8.138] By detaching the radial collateral ligament from distal to proximal, a periosteal sleeve can be preserved.
+- [W8.139] In this way, the radial collateral band of the radial digit will function as the absent radial collateral ligament of the preserved ulnar thumb.
+- [W8.140] Elevation of the APB and FPB is performed in Wassel type 4 duplication; this can be accomplished via the periosteum or separately.
+- [W8.141] As the tendons insert proximally, the elevation is performed proximally too to potentially rebalance the ulnar thumb.
+- [W8.142] After the radial thumb is amputated, the ulnar elements are centralized and fixed with a Kirschner wire.
+- [W8.143] In most cases, a longitudinal and sagittal osteotomy is needed to centralize the bony parts of the ulnar thumb.
+- [W8.144] While the soft-tissue of the radial thumb was preserved, it is now attached to the radial side of the ulnar thumb together with the periosteal sleeve.
+- [W8.145] The APB and FPB of the ablated radial thumb are attached to the distal phalanx for more stability.
+- [W8.146] If necessary, the extensor pollicis longus and the flexor pollicis longus are reattached to centralize their course.
+- [W8.147] In Wassel type 5 and 6 the opponens pollicis muscle must be transferred to the ulnar metacarpal.
+- [W8.148] Soft tissue with collateral ligament reconstruction is used to avoid any angular deformity in the preserved thumb.
+- [W8.149] Tendon centralization is also often used for correction.
+- [W8.150] Still, cases with osseous deformities may happen.
+- [W8.151] To provide alignment, osteotomies are necessary to be done.
+- [W8.152] This operation may need bone grafting, which is obtained from the amputated thumb.
+- [W8.153] This type is indicated when one thumb is larger proximally and the other thumb has a larger distal component.
+- [W8.154] (The procedure is initially described as a way to lengthen amputated digits.) The goal is to create a functional thumb by combining less-hypoplastic components.
+- [W8.155] On top plasty procedure is rarely employed in the treatment of congenital thumb duplication.
+- [W8.156] It might be necessary for Wassel types 4, 5, 6.
+- [W8.157] At the level of the mid-proximal phalanx or mid-metacarpal, the distal component is transferred to the proximal component.
+- [W8.158] The tendons of the distal component are preserved as the rest of the distal component is amputated.
+- [W8.159] The neurovascular bundle which supplies the distal component is reserved and transferred proximally.
+- [W8.160] Early osteotomy and ligament reconstructions should be done to prevent deformities, such as angular growth deformities.
+- [W8.161] The surgical treatment of central polydactyly is highly variable.
+- [W8.162] After the surgery the hand must be functional and stable, but also aesthetically pleasing.
+- [W8.163] This requires intraoperative creativity and flexibility.
+- [W8.164] The surgeon must also consider whether retention of a fully functional supranumerary digit is preferable to surgical intervention.
+- [W8.165] In contrast, a functional, four-fingered hand achieved via ray amputation may be preferable to a five-fingered hand with a deformed or stiff reconstructed finger.
+- [W8.166] Cases of polysyndactyly are approached through a standard opposing zig-zag incision.
+- [W8.167] The incision is favored toward the accessory digit, preserving extra skin for subsequent closure.
+- [W8.168] Depending on the level and extent of duplication, the flexor and extensor tendons may require centralization or rebalancing.
+- [W8.169] Also, the collateral ligaments must be preserved or reconstructed.
+- [W8.170] Wide articular surfaces should be narrowed and phalangeal wedge osteotomies may be required to provide an axial alignment.
+- [W8.171] Attention must also be given to reconstruct the intermetacarpal ligament.
+- [W8.172] Furthermore, one should take in mind the provision for adequate web-space soft tissue.
+- [W8.173] Complications include: painful scarring, infection, joint instability, residual deformity, angulated growth, growth arrest, joint stiffness, and nail bed deformities.
+- [W8.174] A 2014 study reported a 19% revision rate for preaxial polydactyly for pain or instability.
+- [W8.175] There are no substantive outcome studies regarding the function of these hands following surgical intervention.
+- [W8.176] This is mainly caused by the fact that there is a generally normal function of these patients' hands following ablation with collateral ligament reconstruction.
+- [W8.177] In a study on 27 patients undergoing surgical excision for Type A ulnar polydactyly, only one complication was noted in the form of an infection.
+- [W8.178] However, no investigators have objectively reviewed functional range of motion or articular stability.
+- [W8.179] In a study on 21 patients with Type B ulnar polydactyly treated with suture ligation it was found that the duplicated digit was typically amputated at an average of 10 days and no complications of infection or bleeding were reported.
+- [W8.180] In a large study on 105 patients treated with suture ligation an overall complication rate of 23.5% was reported, citing a residual tender or unacceptable bump in 16%, infection in 6%, and bleeding in 1% of patients.
+- [W8.181] In general, suture ligation is safe and effective when applied to appropriate cases of Type B polydactyly in which no substantial ligamentous or osseous structures are present within the pedicle.
+- [W8.182] Parents should be educated as to the progression of necrosis, and that revision of residual tissue or scar may be necessary when the child is six months of age or older.
+- [W8.183] By combining two hypoplastic thumbs a sufficient thumb size is acquired.
+- [W8.184] Furthermore, the IP and MCP joints are very stable as the collateral ligaments are not violated during reconstruction.
+- [W8.185] Violation during reconstruction can lead to growth arrest or asymmetric growth.
+- [W8.186] Nail deformity could also occur after reconstruction.
+- [W8.187] Although the joints are stable, restriction of flexion may be possible.
+- [W8.188] The average IP flexion in a reconstructed thumb is 55 degrees less than the contralateral thumb.
+- [W8.189] MCP flexion averaged 55 degrees in reconstructed thumbs, compared to 75 degrees in the contralateral thumb.
+- [W8.190] Ablation with collateral ligament reconstruction
+- [W8.191] The reconstructed joints tend to remain flexible.
+- [W8.192] Also, it preserves the nail bed and physis, this increases the prevention of nail deformities over time.
+- [W8.193] Although surgeons try to obtain a stable thumb of appropriate size, instability of the IP and MCP joint may occur, as well as a size mismatch.
+- [W8.194] Thumbs are defined as unacceptable if IP joint deviation exceeds 15 degrees, MCP joint deviation exceeds 30 degrees, and thumb size is inappropriate based on the examiner's assessment.
+- [W8.195] Also, thumb size one-third greater or less than the contralateral thumb is defined as unacceptable.
+- [W8.196] No surgical outcomes studies exist for evaluating the function of the thumbs after an on-top plasty reconstruction.
+- [W8.197] Few clinical outcome studies exist regarding the treatment of central polydactyly.
+- [W8.198] Tada and colleagues note that satisfactory surgical correction of central polydactyly is difficult to achieve and that outcomes are generally poor.
+- [W8.199] In Tada's study, 12 patients were reviewed.
+- [W8.200] All patients required secondary surgical procedures to address flexion contractures and angular deviation at the IP joint level.
+- [W8.201] However, several primary factors contribute to the complexity of central polydactyly reconstruction.
+- [W8.202] Hypoplastic joints and soft tissues that predispose the reconstructed finger to joint contracture, and angular deformities as well as complex tendon anomalies, are often difficult to address.
+- [W8.203] Therefore, treatment is wholly dependent on the anatomic components present, the degree of syndactyly, and the function of the duplicated finger.
+- [W8.204] The condition has an estimated occurrence of 0.3–3.6 per 1000 live births.
+- [W8.205] Postaxial hand polydactyly is most frequent in the United States in Black males.
+- [W8.206] Preaxial polydactyly occurs in 0.08 to 1.4 in 1,000 live births.
+- [W8.207] In the United States, it is more common in White people and also relatively frequent in Native American and Asian people.
+- [W8.208] A 1994 study by Finley et al. combined data from Jefferson County, Alabama, United States, and Uppsala County, Sweden.
+- [W8.209] This study found incidence of all types of polydactyly at rates of 2.3 per 1000 live births of White males, 0.6 per 1000 live births of White females, 13.5 per 1000 live births of Black males, and 11.1 per 1000 live births of Black females.
+- [W8.210] Antonio Alfonseca, retired MLB professional baseball pitcher known as El Pulpo (Spanish for "the Octopus") for his extra digit on each extremity.
+- [W8.211] Endre Ady, Hungarian poet born with six fingers, but one was removed as a child.
+- [W8.212] The poet later interpreted it as a sign of his selection (according to the ancient Hungarian belief, the táltos are born with more bones, such as six fingers).
+- [W8.213] Brites de Almeida, a legendary Portuguese woman who killed seven hiding Castilian soldiers in her oven after the Battle of Aljubarrota, had six fingers on each hand.
+- [W8.214] The actress Gemma Arterton was born with six fingers on each hand, the boneless additional fingers being removed after birth.
+- [W8.215] The actor David Tennant has an extra toe on his right foot.
+- [W8.216] Robert Chambers, purported author of Vestiges of the Natural History of Creation, and his brother William had six digits on each limb.
+- [W8.217] Lucille Clifton, an African-American poet and civil rights advocate.
+- [W8.218] Zerah Colburn, American prodigious math calculating savant.
+- [W8.219] Calvin Choy, a Hong Konger singer and actor nicknamed "Sir One One" (Sir11) as he has six digits on his right hand.
+- [W8.220] Fourteen members of a Da Silva family in São Paulo, Brazil, have six functional fingers on each hand (the thumb is doubled) and six toes on each foot.
+- [W8.221] Danny Garcia, boxing champion, has six toes on his right foot.
+- [W8.222] Yoandri Hernández Garrido, nicknamed Veinticuatro ("twenty four" in Spanish), has six fully formed fingers on both hands and six perfect toes on each foot.
+- [W8.223] Hampton Hawes, jazz pianist, was born with six fingers on each hand (the extra fingers were surgically removed shortly after birth).
+- [W8.224] Henry II the Pious, High Duke of Poland 1238–1241, had six toes on his left foot.
+- [W8.225] A boy named Hong Hong born in Pingjiang County, Hunan province, China, has 31 fingers and toes.
+- [W8.226] Kamani Hubbard, a boy in California, was born in 2009 with a rare case of polydactyly, with 12 fingers and 12 toes, all fully functional.
+- [W8.227] Johann Jacob Freiherr von Moscon (1621–1661), Lower Styrian baron, is depicted with six fingers at his left hand on a portrait from Brežice, Slovenia.
+- [W8.228] Rankin Mansfield, American stage and screen character actor and stage director, had, as per two separate eyewitnesses (one, an erstwhile fellow stage performer; the other, a writer in whose childhood home he had sometimes dined), an extra thumb on one hand, which, according to the aforementioned fellow diner, "grew sideways out of the other, simple as that".
+- [W8.229] Nayanthara, an Indian actress, has a rudimentary finger on her left hand.
+- [W8.230] Jiang Qing, Mao Zedong's fourth wife, reportedly had six toes on her right foot.
+- [W8.231] Hrithik Roshan, a Bollywood actor born with a supernumerary thumb on his right hand.
+- [W8.232] Weaver, an American college football outside linebacker, has six fingers on his right hand.
+- [W8.233] Akshat Saxena from Uttar Pradesh, India, is the world record holder for highest number of digits.
+- [W8.234] He was born in 2010 with seven digits on each hand and 10 digits on each foot, for a total of 34 digits.
+- [W8.235] Garfield Sobers, West Indian cricketer, had an extra finger on each hand which he removed himself during childhood "with the aid of catgut and a sharp knife".
+- [W8.236] Theodore Roosevelt "Hound Dog" Taylor, Chicago-based American blues guitarist, was born with polydactyly on both hands, although around age 41, he removed the extra finger on his right hand.
+- [W8.237] Varalakshmi V, a girl from Bangalore with eight fingers on each hand and about four to five extra toes on each foot.
+- [W8.238] Volcacius Sedigitus, a Roman poet of the 1st century, probably received his epithet, signifying "Sixfinger", because he was born with six fingers on each hand, according to Pliny.
+- [W8.239] Zhu Yunming, a Chinese calligrapher, had six fingers on his right hand.
+- [W8.240] Reggy B, a drag queen and contestant on the second season of Drag Race Holland, revealed on the show that he was born with an extra thumb on his left hand, three extra toes on one foot, and two extra toes on his other foot.
+- [W8.241] His extra fingers and toes were surgically removed at a young age.
+- [W8.242] In The Silence of the Lambs, Hannibal Lecter is described as having mid-ray duplication polydactyly (a duplicated middle finger) on his left hand, which he later removes in Hannibal as part of his cosmetic surgery to disguise himself.
+- [W8.243] In the Disney XD 2012 cartoon series Gravity Falls, Stanford Pines ("Grunkle Ford") has six fingers on both of his hands, a trait which also identifies him in the show's mythology.
+- [W8.244] He uses a tracing of his left hand to create the iconic gold detail on the covers of each of his journals.
+- [W8.245] In The Chrysalids, the character Sophie has six toes on one of her feet and this is a major plot point of the novel, and features on the cover art for the earliest editions of the book.
+- [W8.246] Tyrone Rugen, a Count in The Princess Bride, is described many times as "the six-fingered man".
+- [W8.247] Void, an antagonist of the manga series Berserk, has six fingers on each hand.
+- [W8.248] Zigzag, an antagonist from The Thief and the Cobbler, has six fingers on each hand.
+- [W8.249] Billy, a character from Adventure Time, has six fingers on each hand.
+- [W8.250] Kinzo Ushiromiya, the head of the Ushiromiya household from the visual novel Umineko When They Cry, has six toes on each foot.
+- [W8.251] Among the many previous Ushiromiya family heads, those with polydactyly are known for their wisdom.
+- [W8.252] In For Better or For Worse, Leah Nichols was born with 6 fingers on each hand.
+- [W8.253] In Gattaca, Ryan Dorin plays a pianist with six fingers on each hand who throws his gloves to the audience at the concert's end.
+- [W8.254] Fringe episode introductions and breaks sometimes display a six-fingered palm print, as well as on a wall in the episode An Enemy of Fate.
+- [W8.255] Frank Nunn, Trudy Monk's assassin in the series Monk, is also known as the "six-fingered man".
+- [W8.256] Polydactyly occurs in numerous types of animals.
+- [W8.257] The condition is sporadically seen in livestock, where it affects cattle, sheep, pigs, and occasionally horses.
+- [W8.258] Conversely, it is a common trait in several heritage chicken breeds.
+- [W8.259] Chickens normally have 4 toes on each foot.
+- [W8.260] The chicken breeds known for being polydactyl are the Dorking, Faverolle, Houdan, Lincolnshire Buff, Meusienne, Sultan, and non-bearded Silkie Bantams.
+- [W8.261] The breed standard of these varieties of chickens calls for five toes on each foot, although sometimes more than five toes will occur.
+- [W8.262] The extra digit in these breeds presents as an extra "thumb" that does not touch the ground.
+- [W8.263] Mixed-breed chickens may also have extra digits if the aforementioned breeds are part of their genetic makeup.
+- [W8.264] Polydactyly also occurs in dogs, cats, and small mammals such as guinea pigs and mice.
+- [W8.265] Cats normally have five digits on the front paws and four on the rear.
+- [W8.266] Polydactyl cats have more, and this is a moderately common condition, especially in certain cat populations.
+- [W8.267] Dogs, like other canids, normally have four claws on their rear paws; a fifth is often called a dewclaw and is especially found in certain dog breeds, including the Norwegian Lundehund and Great Pyrenees.
+- [W8.268] A number of mutations of the LMBR1 gene, in dogs, humans, and mice, can cause polydactyly.
+- [W8.269] A 2014 report indicated that mice could also exhibit polydactyly arising from mutation in the VPS25 gene.
+- [W8.270] In cattle, it appears to be polygenic with a dominant gene at one locus and a homozygous recessive at another.
+- [W8.271] Polydactyly is believed to have been common in early tetrapods, particularly the extinct amphibians that represented the earliest landliving vertebrates.
+- [W8.272] Their number of toes fluctuated until the early Carboniferous period when they finally began developing a uniform number of toes.
+- [W8.273] Amniotes settled on five toes per limb, while amphibians developed four toes on each front limb and five toes on each back limb.
+- [W8.274] (For more information, see Polydactyly in early tetrapods.) Polydactyly also occurs in modern extant reptiles
+- [W8.275] Polydactyly was a non-pathological, reacquired condition in extinct marine reptiles such as ichthyosaurs and hupehsuchians, some of which containing upwards of ten digits within their flippers.
+- [W8.276] Mirror polydactyly-vertebral segmentation-limb defects syndrome
+- [W8.277] see also: Living Textbook of Hand Surgery, https://books.publisso.de/en/publisso_gold/publishing/books/overview/49/526
+
+## [W9] Wikipedia: Achondroplasia
+https://en.wikipedia.org/w/index.php?title=Achondroplasia&oldid=1379134417 · CC BY-SA 4.0 · usage: ai_input
+
+- [W9.1] Achondroplasia is a genetic disorder whose primary feature is dwarfism.
+- [W9.2] It is the most common cause of dwarfism and affects about 1 in 27,500 people.
+- [W9.3] In those with the condition, the arms and legs are short, while the torso is typically of normal length.
+- [W9.4] Those affected have an average adult height of 131 centimetres (4 ft 4 in) for males and 123 centimetres (4 ft) for females.
+- [W9.5] Other features can include an enlarged head with prominent forehead (frontal bossing) and underdevelopment of the midface (midface hypoplasia).
+- [W9.6] Complications can include sleep apnea or recurrent ear infections.
+- [W9.7] Achondroplasia includes the extremely rare short-limb skeletal dysplasia with severe combined immunodeficiency.
+- [W9.8] Achondroplasia is caused by a mutation in the fibroblast growth factor receptor 3 (FGFR3) gene (located in chromosome 4) that results in its protein being overactive.
+- [W9.9] Achondroplasia results in impaired endochondral bone growth (bone growth within cartilage).
+- [W9.10] The disorder has an autosomal dominant mode of inheritance, meaning only one mutated copy of the gene is required for the condition to occur.
+- [W9.11] About 80% of cases occur in children of parents without the disease, and result from a new (de novo, or sporadic) mutation, which most commonly originates as a spontaneous change during spermatogenesis.
+- [W9.12] The rest are inherited from a parent with the condition.
+- [W9.13] The risk of a new mutation increases with the age of the father.
+- [W9.14] In families with two affected parents, children who inherit both affected genes (for which there is a 25% chance) typically die before birth or in early infancy from breathing difficulties.
+- [W9.15] The condition is generally diagnosed based on the clinical features but may be confirmed by genetic testing.
+- [W9.16] Mutations in FGFR3 also cause achondroplasia-related conditions including hypochondroplasia and SADDAN (severe achondroplasia with developmental delay and acanthosis nigricans), a rare disorder of bone growth characterized by skeletal, brain, and skin abnormalities resulting in severe short-limb skeletal dysplasia with severe combined immunodeficiency.
+- [W9.17] Treatments include small molecule therapy with a C-natriuretic peptide analog (vosoritide), approved to improve growth velocity in children with achondroplasia based on results in Phase 3 human trials, although its long-term effects are unknown.
+- [W9.18] Growth hormone therapy may also be used.
+- [W9.19] Efforts to treat or prevent complications such as obesity, hydrocephalus, obstructive sleep apnea, middle ear infections or spinal stenosis may be required.
+- [W9.20] Support groups exist for those with the condition, such as Little People of America (LPA).
+- [W9.21] Nonprofit physician organizations also exist to disseminate information about treatment and management options, including development of patient resources.
+- [W9.22] Shortening of the proximal limbs (called rhizomelic shortening)
+- [W9.23] Short fingers and toes, with "trident hands" (short hands with stubby fingers, and a separation between the middle and ring fingers – reminiscent of a trident on fetal ultrasound)
+- [W9.24] Large head with prominent forehead frontal bossing
+- [W9.25] Small midface with a flattened nasal bridge
+- [W9.26] Spinal kyphosis (convex curvature) or lordosis (concave curvature)
+- [W9.27] Varus (bowleg) or valgus (knock knee) deformities
+- [W9.28] Frequent ear infections (due to Eustachian tube blockages), sleep apnea (which can be central or obstructive), and hydrocephalus
+- [W9.29] Children with achondroplasia often have less muscle tone; because of this it is common for them to have delayed walking and motor skills.
+- [W9.30] It is also common for children to have bowed legs, scoliosis, lordosis, arthritis, issues with joint flexibility, breathing problems, ear infections, and crowded teeth.
+- [W9.31] These issues can be treated with surgery, braces, or physical therapy.
+- [W9.32] Hydrocephalus is a severe effect associated with achondroplasia in children.
+- [W9.33] This condition occurs when cerebrospinal fluid is not able to flow in and out of the skull because of how the spine narrows.
+- [W9.34] This fluid build up is associated with an enlarged head, vomiting, lethargy, headaches, and irritability.
+- [W9.35] A shunt surgery is commonly performed to treat this condition, but an endoscopic third ventriculostomy can also be done.
+- [W9.36] Adults with achondroplasia often face issues with obesity and sleep apnea.
+- [W9.37] It is also typical for adults to experience numbness or tingling in their legs because of nerve compression.
+- [W9.38] Some research has found that adults with achondroplasia may also experience psychosocial complications, usually associated with short stature.
+- [W9.39] Pregnancy in women with achondroplasia is considered higher risk.
+- [W9.40] Women with achondroplasia generally have their babies delivered through C-sections to prevent complications that could occur with a natural birth.
+- [W9.41] Intelligence and life span are usually near normal, although craniocervical junction compression increases the risk of death in infancy.
+- [W9.42] Achondroplasia is caused by a mutation in fibroblast growth factor receptor 3 (FGFR3) gene.
+- [W9.43] This gene encodes a protein called fibroblast growth factor receptor 3, which contributes to the production of collagen and other structural components in tissues and bones.
+- [W9.44] When the FGFR3 gene is mutated it interferes with how this protein interacts with growth factors leading to complications with bone production.
+- [W9.45] Cartilage is not able to fully develop into bone, causing the individual to be disproportionately shorter in height.
+- [W9.46] In normal development, FGFR3 has a negative regulatory effect on bone growth.
+- [W9.47] In achondroplasia, the mutated form of the receptor is constitutively active, and this leads to severely shortened bones.
+- [W9.48] This is an example of a gain of function mutation.
+- [W9.49] The effect is genetically dominant, with one variant of the FGFR3 gene being sufficient to cause achondroplasia, while two copies of the mutant gene are invariably fatal (recessive lethal) before or shortly after birth.
+- [W9.50] This occurs due to respiratory failure from an underdeveloped ribcage.
+- [W9.51] People with achondroplasia are often born to parents that do not have the condition due to spontaneous mutation.
+- [W9.52] Where achondroplasia is inherited, its pattern is autosomal dominant.
+- [W9.53] In couples where one partner has achondroplasia there is a 50% chance of passing the disorder on to their child every pregnancy.
+- [W9.54] In situations where both parents have achondroplasia there is a 50% chance the child will have achondroplasia, 25% chance the child will not, and a 25% chance that the child will inherit the gene from both parents resulting in double dominance and leading to lethal bone dysplasia.
+- [W9.55] Studies have demonstrated that new gene mutations for achondroplasia are exclusively inherited from the father and occur during spermatogenesis; it has been theorized that sperm carrying the mutation in FGFR3 have a selective advantage over sperm with normal FGFR3.
+- [W9.56] The frequency of mutations in sperm leading to achondroplasia increases in proportion to paternal age, as well as in proportion to exposure to ionizing radiation.
+- [W9.57] The occurrence rate of achondroplasia in the children of fathers over 50 years of age is 1 in 1,875, compared to 1 in 15,000 in the general population.
+- [W9.58] Research by urologist Harry Fisch of the Male Reproductive Center at Columbia Presbyterian Hospital in 2013 indicated that in humans this defect may be exclusively inherited from the father and becomes increasingly probable with paternal age, specifically males reproducing after 35.
+- [W9.59] There are two other syndromes with a genetic basis similar to achondroplasia: hypochondroplasia and thanatophoric dysplasia.
+- [W9.60] Achondroplasia can be detected before birth by prenatal ultrasound, although signs are often subtle and not apparent before the 24th week of pregnancy.
+- [W9.61] A DNA test can be performed before birth to detect homozygosity, wherein two copies of the mutant gene are inherited, a lethal condition leading to stillbirths.
+- [W9.62] Postnatal diagnosis of achondroplasia is typically uncomplicated, involving an assessment of physical and radiographic features.
+- [W9.63] Clinical features include megalocephaly, short limbs, prominent forehead, thoracolumbar kyphosis and mid-face hypoplasia.
+- [W9.64] Complications like dental malocclusion, hydrocephalus and repeated otitis media can be observed.
+- [W9.65] The risk of death in infancy is increased due to the likelihood of compression of the spinal cord with or without upper airway obstruction.
+- [W9.66] A skeletal survey is useful to confirm the diagnosis of achondroplasia.
+- [W9.67] The skull is large, with a narrow foramen magnum, and relatively small skull base.
+- [W9.68] The vertebral bodies are short and flattened with relatively large intervertebral disk height, and there is congenitally narrowed spinal canal.
+- [W9.69] The iliac wings are small and squared, with a narrow sciatic notch and horizontal acetabular roof.
+- [W9.70] The tubular bones are short and thick with metaphyseal cupping and flaring and irregular growth plates.
+- [W9.71] Fibular overgrowth is present.
+- [W9.72] The hand is broad with short metacarpals and phalanges, and a trident configuration.
+- [W9.73] The ribs are short with cupped anterior ends.
+- [W9.74] If the radiographic features are not classic, a search for a different diagnosis should be entertained.
+- [W9.75] Because of the extremely deformed bone structure, people with achondroplasia are often "double jointed".
+- [W9.76] The diagnosis can be made by fetal ultrasound by progressive discordance between the short femur length and biparietal diameter by age.
+- [W9.77] The trident hand configuration can be seen if the fingers are fully extended.
+- [W9.78] Another common characteristic of the syndrome is thoracolumbar gibbus in infancy.
+- [W9.79] There is no known cure for achondroplasia even though the cause of the mutation in the growth factor receptor has been found.
+- [W9.80] Although used by those without achondroplasia to aid in growth, human growth hormone does not help people with achondroplasia, which involves a different hormonal pathway.
+- [W9.81] Usually, the best results appear within the first and second year of therapy.
+- [W9.82] After the second year of growth hormone therapy, beneficial bone growth decreases, so the therapy is not a satisfactory long-term treatment.
+- [W9.83] As of December 2020, the treatment of achondroplasia with human growth hormone was approved only in Japan.
+- [W9.84] A small-molecule drug vosoritide is used to improve growth velocity in children with achondroplasia,.
+- [W9.85] Treatment with vosoritide has  shown improved spinal sagittal balance, decreased leg bowing [Savarirayan et al 2025b]., and improvement in physical aspects of health-related quality of life after three years.
+- [W9.86] Final adult height after treatment with vosoritide is still to be determined.
+- [W9.87] Vosoritide inhibits the activity of FGFR3.
+- [W9.88] It has been gradually made available in different countries starting from 2021.
+- [W9.89] Limb-lengthening will increase the length of the legs and arms of someone with achondroplasia,  but little medical consensus exists regarding this practice.
+- [W9.90] The age of surgery can vary from early childhood to adulthood.
+- [W9.91] Research has also shown that introducing parents of children with achondroplasia to support and advocacy groups at the time of diagnosis can improve outcomes.
+- [W9.92] Several patient advocacy groups exist to support people with achondroplasia and their families.
+- [W9.93] Resources are available to support patients and their caregivers with information that they can distribute to their physicians, who may not be familiar with the unique medical requirements of managing achondroplasia.
+- [W9.94] Physician-oriented best practice guidelines are also available to guide physicians managing the spinal disorders, foramen magnum stenosis, craniofacial implications, pregnancy, and peri-operative needs of people with achondroplasia.
+- [W9.95] Navepegritide (Yuviwel) was approved for medical use in the United States in March 2026.
+- [W9.96] Achondroplasia is one of several congenital conditions with similar presentations, such as osteogenesis imperfecta, multiple epiphyseal dysplasia tarda, achondrogenesis, osteopetrosis, and thanatophoric dysplasia.
+- [W9.97] This makes estimates of prevalence difficult, with changing and subjective diagnostic criteria over time.
+- [W9.98] One detailed and long-running study in the Netherlands found that the prevalence determined at birth was only 1.3 per 100,000 live births.
+- [W9.99] Another study at the same time found a rate of 1 per 10,000.
+- [W9.100] A 2020 review and meta-analysis estimated a worldwide prevalence of 4.6 per 100,000.
+- [W9.101] Psychological and social aspects
+- [W9.102] In addition to physical challenges, individuals with achondroplasia may also experience psychological challenges such as fear or negative perception of individuals with achondroplasia.
+- [W9.103] Gollust et al. have indicated that adults with achondroplasia tend to have lower self-esteem, annual income, educational attainment, and overall quality of life (QOL) when compared to their unaffected siblings.
+- [W9.104] Interestingly, the Golust study revealed that the subjects were as likely to cite disadvantages relating to social barriers as those relating to health issues and functioning.
+- [W9.105] On the other hand, other investigators, such as Ancona, state that for many individuals in immediate environments that have natural acceptance of the condition from the beginning, their main challenge lies in adapting to a world designed for those without the condition.
+- [W9.106] However, when society rejects the condition from the start and associates it with destructive anxiety, it significantly damages the individual's self-image and leads to their social exclusion.
+- [W9.107] Thus, the author hypothesizes, an accepting environment is crucial to prevent significant suffering for individuals with achondroplasia and to ensure the best outcomes for corrective interventions, rather than perpetuating rejection.
+- [W9.108] Similarly, a study conducted in Japan by Nishimura and Hanaki found that children with achondroplasia faced challenges related to their short stature, but there was no indication of psychosocial maladjustment.
+- [W9.109] They hypothesized that focusing on coping strategies and self-efficacy may play a crucial role in promoting psychological well-being among children with achondroplasia.
+- [W9.110] Social support and peer connections can be important for individuals with achondroplasia.
+- [W9.111] Support groups, online communities, and advocacy organizations can provide a sense of belonging and can help individuals with achondroplasia connect with others who understand their experiences.
+- [W9.112] Additionally, these communities can serve as a resource for information and support for both individuals with achondroplasia and their families.
+- [W9.113] In the United States, The Little People of America (LPA) is a national organization that provides support, resources, and advocacy for individuals with dwarfism, including achondroplasia.
+- [W9.114] Based on their disproportionate dwarfism, some dog breeds traditionally have been classified as "achondroplastic".
+- [W9.115] This is the case for the dachshund, Basset Hound, Welsh Corgi and bulldog breeds.
+- [W9.116] Data from whole genome association studies in short-limbed dogs reveal a strong association of this trait with a retro-gene coding for fibroblast growth factor 4 (FGF4).
+- [W9.117] Therefore, it seems unlikely that dogs and humans are achondroplastic for the same reasons.
+- [W9.118] However, histological studies in some achondroplastic dog breeds have shown altered cell patterns in cartilage that are very similar to those observed in humans exhibiting achondroplasia.
+- [W9.119] A similar form of achondroplasia was found in a litter of piglets from a phenotypically normal Danish sow.
+- [W9.120] The dwarfism was inherited dominant in the offspring from this litter.
+- [W9.121] The piglets were born phenotypically normal but became more and more symptomatic as they reached maturity.
+- [W9.122] This involved a mutation of the protein collagen, type X, alpha 1, encoded by the COL10A1 gene.
+- [W9.123] In humans a mutation (G595E) to the COL10A1 gene has been associated with Schmid metaphyseal chondrodysplasia (SMCD), a relatively mild skeletal disorder.
+- [W9.124] The now extinct Ancon sheep was created by humans through the selective breeding of common domestic sheep with achondroplasia.
+- [W9.125] The average-sized torso combined with the relatively smaller legs produced by achondroplasia was valued for making affected sheep less likely to escape without affecting the amount of wool or meat each sheep produced.
+- [W9.126] Famous people with achondroplasia
+- [W9.127] Ucok Baba - Indonesian actor, presenter, comedian and singer
+- [W9.128] Josh Ryan Evans - American actor
+- [W9.129] David Rappaport - English actor
+- [W9.130] Jason Acuña - American stunt performer
+- [W9.131] Mimie Mathy - French actress, comedian, and singer
+- [W9.132] Eric Cullen - Scottish actor
+- [W9.133] Peter Dinklage - American actor
+- [W9.134] Mike Edmonds -  English actor
+- [W9.135] Ellie Simmonds - British Paralympic swimmer
+- [W9.136] Kate Wilson - Australian Paralympic swimmer
+- [W9.137] Rico Abreu - American racing driver
+- [W9.138] Kyron Duke - Welsh powerlifter and Paralympic track and field athlete
+- [W9.139] Sarah Bowen - Australian Paralympic swimmer
+- [W9.140] Claire Keefer - Bronze medalist in the 2016 Rio Paralympics
+- [W9.141] Brad Williams - American comedian and actor
+- [W9.142] Alan Eggleston - Australian politician
+- [W9.143] Michael Ain - American orthopedic surgeon
+- [W9.144] List of radiographic findings associated with cutaneous conditions
+- [W9.145] In Pagon RA, Bird TD, Dolan CR, et al.
+- [W9.146] Seattle WA: University of Washington, Seattle.
+
+## [W10] Wikipedia: Antirrhinum majus
+https://en.wikipedia.org/w/index.php?title=Antirrhinum_majus&oldid=1342296978 · CC BY-SA 4.0 · usage: ai_input
+
+- [W10.1] Antirrhinum majus, the common snapdragon (often – especially in horticulture – simply "snapdragon"), is a species of flowering plant belonging to the genus Antirrhinum.
+- [W10.2] The plant was placed in the family Plantaginaceae following a revision of its prior classical family, Scrophulariaceae.
+- [W10.3] The common name "snapdragon", originates from the flowers' reaction to having their throats squeezed, which causes the "mouth" of the flower to snap open like a dragon's mouth.
+- [W10.4] It is widely used as an ornamental plant in borders and as a cut flower.
+- [W10.5] It is perennial but usually cultivated as an annual plant.
+- [W10.6] The species has been in culture since the 15th century.
+- [W10.7] It is an herbaceous perennial plant, growing to 0.5–1 m tall, rarely up to 2 m.
+- [W10.8] The leaves are spirally arranged, broadly lanceolate, 1–7 cm long and 2–2.5 cm broad.
+- [W10.9] The upper glandular stalk is stalk-round, sometimes woody to the middle.
+- [W10.10] The opposite leaves are simple, elliptic or ovate to broad-lanceolate, sometimes linear and usually bleak.
+- [W10.11] The flowers are produced on a tall spike, each flower is 3.5-4.5 cm long, zygomorphic, with two 'lips' closing the corolla tube lobed divided into three parts and is purple red, almost 5 cm long.
+- [W10.12] Wild plants have pink to purple flowers, often with yellow lips.
+- [W10.13] Most 8 to 30 short stalked flowers are in an inflorescence together; the inflorescence axis is glandular hairy.
+- [W10.14] The crown is 25 to 45 (rarely to 70) millimeters long and in different colors (red, pink, orange, yellow, white).
+- [W10.15] The "maw" of the crown is closed by protuberance of the lower lip, one speaks here of "masked", and everted baggy at the bottom.
+- [W10.16] There is a circle with four stamens.
+- [W10.17] The plants are pollinated by bumblebees, who are strong enough to gently and briefly open male flowers to enter and exit them without difficulty, collecting pollen in the process.
+- [W10.18] A snapdragon's calyx is up to 8 mm long, with sepals of equal length, oblong to space.
+- [W10.19] The ovary is hypogynous, or superior.
+- [W10.20] The fruit is an ovoid capsule 10–14 mm diameter shaped like a skull, containing numerous small seeds.
+- [W10.21] Its native range extends from south-central France and the eastern Pyrenees to north-eastern Spain and the Balearic Islands.
+- [W10.22] They often grow in crevices and walls.
+- [W10.23] The species is now found, cultivated or naturalized, on every continent except Antarctica.
+- [W10.24] Four former subspecies are now considered as separate species:
+- [W10.25] Antirrhinum majus subsp. cirrhigerum (Ficalho) Franco: now classified as Antirrhinum cirrhigerum (Welw. ex Ficalho)
+- [W10.26] Antirrhinum majus subsp. linkianum (Boiss. & Reut.) Rothm: now classified as Antirrhinum linkianum Boiss. & Reut.
+- [W10.27] Antirrhinum majus subsp. litigiosum (Pau) Rothm.: now synonymised with Antirrhinum barrelieri Boreau
+- [W10.28] Antirrhinum majus subsp. tortuosum (Bosc) Rouy: now classified as Antirrhinum tortuosum Bosc ex Lam.
+- [W10.29] Antirrhinum majus may suffer from some pests and diseases.
+- [W10.30] Insects are the primary pests that affect A. majus.
+- [W10.31] Aphids: They target and consume the terminal growth and underside of leaves.
+- [W10.32] Aphids consume the liquids in the plant and may cause a darkened or spotted appearance on the leaves.
+- [W10.33] Frankliniella occidentalis: These insects affect even strong growing and healthy Antirrhinum; they are commonly seen in newly opened flowers.
+- [W10.34] They will cause small lesions in the shoots and flower buds of A. majus as well as remove pollen from the anther.
+- [W10.35] This case is difficult to treat, but may be kept manageable with the predatory mite Neoseiulus.
+- [W10.36] Antirrhinum majus suffers mostly from fungal infections.
+- [W10.37] Anthracnose: A disease caused by fungi of the genus Colletotrichum.
+- [W10.38] This disease targets the leaves and stem causing them a yellow with a brownish border to the infected spot.
+- [W10.39] It is recommended to destroy infected plants and space existing ones farther apart.
+- [W10.40] Botrytis: This infection occurs under the flower of A. majus.
+- [W10.41] Botrytis causes wilting of the flower's spikes and causes a light browning of the stem below the cluster of flowers.
+- [W10.42] Botrytis causes quick and localized drying and browning in the flower, leaves, and shoots of A. majus.
+- [W10.43] In warmer weather, Botrytis becomes more severe.
+- [W10.44] Treatment of Botrytis involves cutting off the infected stock and clearing the surrounding area of A. majus from any of this debris.
+- [W10.45] Pythium: Wilting in the plant may be caused by a Pythium species fungal infection if the plant is receiving adequate water.
+- [W10.46] Rust: Another fungal disease that A. majus is susceptible to is rust.
+- [W10.47] It can first be seen on the plant as light-green circles, on the stem or underside of its leaves, that eventually turn brown and form pustules.
+- [W10.48] Rust may cause A. majus to bloom prematurely, sprout smaller flowers, and begin decomposition earlier.
+- [W10.49] Stem rot: A fungal infection, it can be seen as a cottony growth on the stem, low, near the soil.
+- [W10.50] If infected, it is suggested the plant be destroyed.
+- [W10.51] Antirrhinum majus can survive a certain amount of frost, as well as higher temperatures, but does best at 17–25 °C (63–77 °F).
+- [W10.52] Nighttime temperatures around 15–17 °C (59–63 °F) encourage growth in both the apical meristem and stem.
+- [W10.53] The species is able to grow well from seeds, flowering quickly in 3 to 4 months.
+- [W10.54] It can also be grown from cuttings.
+- [W10.55] Though perennial, the species is often cultivated as a biennial or annual plant, particularly in colder areas where it may not survive the winter.
+- [W10.56] Numerous cultivars are available, including plants with lavender, orange, pink, yellow, or white flowers, and also plants with peloric flowers, where the normal flowering spike is topped with a single large, symmetrical flower.
+- [W10.57] The cultivars 'Floral Showers Deep Bronze'
+- [W10.58] have gained the Royal Horticultural Society's Award of Garden Merit.
+- [W10.59] The trailing (creeping) variety is often referred to as A. majus pendula (syn.
+- [W10.60] It often escapes from cultivation, and naturalised populations occur widely in Europe north of the native range, and elsewhere in temperate regions of the world.
+- [W10.61] Past common names for Antirrhinum majus include: great snapdragon, lion's-mouth, rabbit's mouth, bonny rabbits, calf-snout, toad's mouth, bulldogs, and lion's-snap.
+- [W10.62] Antirrhinin is an anthocyanin found in A. majus.
+- [W10.63] It is the 3-rutinoside of cyanidin.
+- [W10.64] Its active ingredients include mucilages, gallic acid, resins, pectin and bitters.
+- [W10.65] It is a topical emollient, antiphlogistic, astringent, antiscorbutic, hepatic and diuretic.
+- [W10.66] It is effective against inflammations, it is used for haemorrhoids.
+- [W10.67] It has been used in gargles against ulcerations of the oral cavity.
+- [W10.68] Internally, it can be used for colitis and heartburn.
+- [W10.69] Externally, as poultices, on erythemas.
+- [W10.70] In the laboratory it is a model organism, for example containing the gene DEFICIENS which provides the letter "D" in the acronym MADS-box for a family of genes which are important in plant development.
+- [W10.71] Antirrhinum majus has been used as a model organism in biochemical and developmental genetics for nearly a century.
+- [W10.72] Many of the characteristics of A. majus made it desirable as a model organism; these include its diploid inheritance, ease of cultivation (having a relatively short generation time of around 4 months), its ease of both self-pollination and cross-pollination, and A. majus's variation in morphology and flowering color.
+- [W10.73] It also benefits from its divergence from Arabidopsis thaliana, with A. thaliana's use as a common eudicot model, it has been used to compare against A. majus in developmental studies.
+- [W10.74] Studies in A. majus have also been used to suggest that, at high temperatures, DNA methylation is not vital in suppressing the Tam3 transposon.
+- [W10.75] Previously, it was suggested that DNA methylation was important in this process, this theory coming from comparisons of the degrees of methylation when transposition is active and inactive.
+- [W10.76] However, A. majus's Tam3 transposon process did not completely support this.
+- [W10.77] Its permission of transposition at 15 °C and strong suppression of transposition at temperatures around 25 °C showed that suppression of the transposition state was unlikely to be caused by the methylation state.
+- [W10.78] It was shown that low temperature-dependent transposition was the cause of the methylation/demethylation of Tam3, not the other way around as previously believed.
+- [W10.79] It was shown in a study that decreases in the methylation of Tam3 were found in tissue that was still developing at cooler temperatures, but not in tissue that was developed or grown in hotter temperatures.
+- [W10.80] Antirrhinum majus has also been used to examine the relationship between pollinators and plants.
+- [W10.81] With debate as to the evolutionary advantages the conical-papillate shape of flower petals, with arguments suggesting the shape either enhanced and intensified the color of the flower or aided in orienting pollinators through sight or touch.
+- [W10.82] The benefit that A. majus brought was through an identification of a mutation at the MIXTA locus that prevented this conical petal shape from forming.
+- [W10.83] This allowed testing of the pollination plants with and without conical petals as well as comparisons of the absorption of light between these two groups.
+- [W10.84] With the MIXTA gene being necessary in the formation of conical cells, the use of the gene in breeding of Antirrhinum was crucial, and allowed for the tests which showed why many plants produced conical-papillate epidermal cells.
+- [W10.85] Another role A. majus played in examining the relationship between pollinator and plant were in the studies of floral scents.
+- [W10.86] Two of A. majus's enzymes, phenylpropanoids and isoprenoids, were used in the study of its floral scent production and the scent's effect on attracting pollinators.
+
+## [W11] Morgan, A Critique of the Theory of Evolution (1916), Project Gutenberg #30701
+https://www.gutenberg.org/ebooks/30701 · Public domain · usage: ai_input, display
+
+- [W11.1] The Project Gutenberg eBook of A Critique of the Theory of Evolution
+- [W11.2] This eBook is for the use of anyone anywhere in the United States and
+- [W11.3] most other parts of the world at no cost and with almost no restrictions
+- [W11.4] You may copy it, give it away or re-use it under the terms
+- [W11.5] of the Project Gutenberg License included with this eBook or online
+- [W11.6] If you are not located in the United States,
+- [W11.7] you will have to check the laws of the country where you are located
+- [W11.8] Title: A Critique of the Theory of Evolution
+- [W11.9] Author: Thomas Hunt Morgan
+- [W11.10] Release date: December 17, 2009 [eBook #30701]
+- [W11.11] Most recently updated: January 5, 2021
+- [W11.12] Other information and formats: www.gutenberg.org/ebooks/30701
+- [W11.13] Credits: Produced by Bryan Ness, Keith Edkins, and the Online
+- [W11.14] Distributed Proofreading Team at https://www.pgdp.net.
+- [W11.15] *** START OF THE PROJECT GUTENBERG EBOOK A CRITIQUE OF THE THEORY OF EVOLUTION ***
+- [W11.16] Produced by Bryan Ness, Keith Edkins, and the Online
+- [W11.17] Distributed Proofreading Team at https://www.pgdp.net.
+- [W11.18] Transcriber's note: A few typographical errors have been corrected: they
+- [W11.19] are listed at the end of the text.
+- [W11.20] *       *       *       *       *
+- [W11.21] THE LOUIS CLARK VANUXEM FOUNDATION
+- [W11.22] *       *       *       *       *
+- [W11.23] The Louis Clark Vanuxem Foundation of Princeton University
+- [W11.24] was established in 1912 with a bequest of $25,000 under the will of Louis
+- [W11.25] Clark Vanuxem, of the Class of 1879.
+- [W11.26] By direction of the executors of Mr.
+- [W11.27] Vanuxem's estate, the income of the foundation is to be used for a series
+- [W11.28] of public lectures delivered in Princeton annually, at least one half of
+- [W11.29] which shall be on subjects of current scientific interest.
+- [W11.30] to be published and distributed among schools and libraries generally.
+- [W11.31] The following lectures have already been published or are in press:
+- [W11.32] 1912-13 The Theory of Permutable Functions, by Vito Volterra
+- [W11.33] 1913-14 Lectures delivered in connection with the dedication of the
+- [W11.34] Graduate College of Princeton University by Emile Boutroux, Alois
+- [W11.35] Godley, and Arthur Shipley
+- [W11.36] 1914-15 Romance, by Sir Walter Raleigh
+- [W11.37] 1915-16 A Critique of the Theory of Evolution, by Thomas Hunt Morgan
+- [W11.38] *       *       *       *       *
+- [W11.39] LOUIS CLARK VANUXEM FOUNDATION
+- [W11.40] PROFESSOR OF EXPERIMENTAL ZOOLOGY IN
+- [W11.41] LECTURES DELIVERED AT PRINCETON UNIVERSITY
+- [W11.42] FEBRUARY 24, MARCH 1, 8, 15, 1916
+- [W11.43] PRINCETON UNIVERSITY PRESS
+- [W11.44] *       *       *       *       *
+- [W11.45] PRINCETON UNIVERSITY PRESS
+- [W11.46] *       *       *       *       *
+- [W11.47] Occasionally one hears today the statement that we have come to realize
+- [W11.48] that we know nothing about evolution.
+- [W11.49] This point of view is a healthy
+- [W11.50] reaction to the over-confident belief that we knew everything about
+- [W11.51] There are even those rash enough to think that in the last few
+- [W11.52] years we have learned more about evolution than we might have hoped to know
+- [W11.53] A _critique_ therefore not only becomes a criticism of the
+- [W11.54] older evidence but an appreciation of the new evidence.
+- [W11.55] In the first lecture an attempt is made to put a new valuation on the
+- [W11.56] traditional evidence for evolution.
+- [W11.57] In the second lecture the most recent
+- [W11.58] work on heredity is dealt with, for only characters that are inherited can
+- [W11.59] become a part of the evolutionary process.
+- [W11.60] physical basis of heredity and the composition of the germ plasm stream are
+- [W11.61] examined in the light of new observations; while in the fourth lecture the
+- [W11.62] thesis is developed that chance variation combined with a property of
+- [W11.63] living things to manifold themselves is the key note of modern evolutionary
+- [W11.64] *       *       *       *       *
+- [W11.65] A REVALUATION OF THE EVIDENCE ON
+- [W11.66] WHICH THE THEORY OF EVOLUTION WAS BASED
+- [W11.67] PREFACE                                                v
+- [W11.68] THREE KINDS OF EVOLUTION                          1-7
+- [W11.69] THE EVIDENCE FOR ORGANIC EVOLUTION               7-27
+- [W11.70] The Evidence from Comparative Anatomy         7-14
+- [W11.71] The Evidence from Embryology                 14-23
+- [W11.72] The Evidence from Paleontology               24-27
+- [W11.73] THE FOUR GREAT HISTORICAL SPECULATIONS          27-39
+- [W11.74] The Environment                              27-31
+- [W11.75] Use and Disuse                               31-34
+- [W11.76] The Unfolding Principle                      34-36
+- [W11.77] Natural Selection                            36-39
+- [W11.78] THE BEARING OF MENDEL'S DISCOVERY ON
+- [W11.79] THE ORIGIN OF HEREDITY CHARACTERS
+- [W11.80] Mendel's First Discovery--Segregation           41-52
+- [W11.81] Mendel's Second Discovery--Independent
+- [W11.82] Assortment                                      52-59
+- [W11.83] The Characters of Wild Animals and Plants
+- [W11.84] Follow the Same Laws of Inheritance as do
+- [W11.85] the Characters of Domesticated Animals and
+- [W11.86] Plants                                          59-84
+- [W11.87] Sexual Dimorphism                            61-64
+- [W11.88] Eosin eye color of Drosophila                61-62
+- [W11.89] Color of the Clover Butterfly, Colias
+- [W11.90] philodice                                    62-63
+- [W11.91] Color of Papilio turnus                      63
+- [W11.92] Color pattern of Papilio polytes             63-64
+- [W11.93] Duplication of parts                         65-66
+- [W11.94] Thorax of Drosophila                         65
+- [W11.95] Legs of Drosophila                           65-66
+- [W11.96] Loss of characters                           66-68
+- [W11.97] "Eyeless" of Drosophila                      66-67
+- [W11.98] Vestigial wings of Drosophila                67
+- [W11.99] Bar eye of Drosophila                        67-68
+- [W11.100] Small changes of characters                  68-70
+- [W11.101] "Speck"                                      68
+- [W11.102] Bristles of "club"                           70
+- [W11.103] Manifold effects of same factor              71
+- [W11.104] Constant but trivial effects may be the
+- [W11.105] product of factors having other vital
+- [W11.106] aspect                                       73
+- [W11.107] Sex-linked inheritance                       75-80
+- [W11.108] in Drosophila ampelophila                    75-76
+- [W11.109] in the wild species D. repleta               76
+- [W11.110] in man                                       77
+- [W11.111] in domesticated Fowls                        77-78
+- [W11.112] in the wild moth, Abraxas                    78-80
+- [W11.113] Multiple allelomorphs                         81-84
+- [W11.114] in the wild Grouse Locust                    81-83
+- [W11.115] in domesticated mice and rabbits             83
+- [W11.116] in Drosophila ampelophila                    84
+- [W11.117] MUTATION AND EVOLUTION                          84-88
+- [W11.118] THE FACTORIAL THEORY OF HEREDITY
+- [W11.119] AND THE COMPOSITION OF THE GERM PLASM
+- [W11.120] THE CELLULAR BASIS OF ORGANIC EVOLUTION
+- [W11.121] AND HEREDITY                                    89-98
+- [W11.122] THE MECHANISM OF MENDELIAN HEREDITY
+- [W11.123] DISCOVERED IN THE BEHAVIOR OF THE
+- [W11.124] CHROMOSOMES                                    98-102
+- [W11.125] THE FOUR GREAT LINKAGE GROUPS OF DROSOPHILA
+- [W11.126] AMPELOPHILA                                   103-118
+- [W11.127] LOCALIZATION OF FACTORS IN THE CHROMOSOMES    118-142
+- [W11.128] The Evidence from Sex Linked Inheritance   118-137
+- [W11.129] The Evidence from Interference             137-138
+- [W11.130] The Evidence from Non-Disjunction          139-142
+- [W11.131] HOW MANY GENETIC FACTORS ARE THERE IN
+- [W11.132] THE GERM-PLASM OF A SINGLE INDIVIDUAL?
+- [W11.133] CONCLUSIONS                                   144
+- [W11.134] THE THEORY OF NATURAL SELECTION               145-161
+- [W11.135] HOW HAS SELECTION IN DOMESTICATED ANIMALS
+- [W11.136] AND PLANTS BROUGHT ABOUT ITS RESULTS?
+- [W11.137] ARE FACTORS CHANGED THROUGH SELECTION?
+- [W11.138] HOW DOES NATURAL SELECTION INFLUENCE
+- [W11.139] CONCLUSIONS                                   193-194
+- [W11.140] INDEX                                            195-197
+- [W11.141] *       *       *       *       *
+- [W11.142] A REVALUATION OF THE EVIDENCE ON WHICH THE THEORY OF EVOLUTION WAS BASED
+- [W11.143] We use the word evolution in many ways--to include many different kinds of
+- [W11.144] There is hardly any other scientific term that is used so
+- [W11.145] carelessly--to imply so much, to mean so little.
+- [W11.146] We speak of the evolution of the stars, of the evolution of the horse, of
+- [W11.147] the evolution of the steam engine, as though they were all part of the same
+- [W11.148] Only this, that each concerns itself
+- [W11.149] with the _history_ of something.
+- [W11.150] When the astronomer thinks of the
+- [W11.151] _evolution_ of the earth, the moon, the sun and the stars, he has a picture
+- [W11.152] of diffuse matter that has slowly condensed.
+- [W11.153] With condensation came heat;
+- [W11.154] with heat, action and reaction within the mass until the chemical
+- [W11.155] substances that we know today were produced.
+- [W11.156] This is the nebular hypothesis
+- [W11.157] The astronomer explains, or tries to explain, how this
+- [W11.158] evolution took place, by an appeal to the physical processes that have been
+- [W11.159] worked out in the laboratory, processes which he thinks have existed
+- [W11.160] through all the eons during which this evolution was going on and which
+- [W11.161] were its immediate causes.
+- [W11.162] When the biologist thinks of the evolution of animals and plants, a
+- [W11.163] different picture presents itself.
+- [W11.164] He thinks of series of animals that have
+- [W11.165] lived in the past, whose bones (fig.
+- [W11.166] 1) and shells have been preserved in
+- [W11.167] He thinks of these animals as having in the past given birth,
+- [W11.168] through an unbroken succession of individuals, to the living inhabitants of
+- [W11.169] He thinks that the old, simpler types of the past have in
+- [W11.170] part changed over into the more complex forms of today.
+- [W11.171] He is thinking as the historian thinks, but he sometimes gets confused and
+- [W11.172] thinks that he is explaining evolution when he is only describing it.
+- [W11.173] A series of skulls and feet.
+- [W11.174] Meryhippus, Hipparion and Equus.
+- [W11.175] (American Museum of Natural History.
+- [W11.176] A third kind of evolution is one for which man himself is responsible, in
+- [W11.177] the sense that he has brought it about, often with a definite end in view.
+- [W11.178] His mind has worked slowly from stage to stage.
+- [W11.179] history of the stages through which his psychic processes have passed.
+- [W11.180] evolution of the steam-boat, the steam engine, paintings, clothing,
+- [W11.181] instruments of agriculture, of manufacture, or of warfare (fig.
+- [W11.182] illustrates the history of human progress.
+- [W11.183] There is an obvious and striking
+- [W11.184] similarity between the evolution of man's inventions and the evolution of
+- [W11.185] the shells of molluscs and of the bones of mammals, yet in neither case
+- [W11.186] does a knowledge of the order in which these things arose explain them.
+- [W11.187] we appeal to the psychologist he will probably tell us that human
+- [W11.188] inventions are either the result of happy accidents, that have led to an
+- [W11.189] unforeseen, but discovered use; or else the use of the invention was
+- [W11.190] It is to the latter process more especially that the idea of
+- [W11.191] When we come to review the four great lines of
+- [W11.192] evolutionary thought we shall see that this human idea of purpose recurs in
+- [W11.193] many forms, suggesting that man has often tried to explain how organic
+- [W11.194] evolution has taken place by an appeal to the method which he believes he
+- [W11.195] makes use of himself in the inorganic world.
+- [W11.196] What has the evolution of the stars, of the horse and of human inventions
+- [W11.197] Only this, that in each case from a simple beginning through a
+- [W11.198] series of changes something more complex, or at least different, has come
+- [W11.199] To lump all these kinds of changes into one and call them
+- [W11.200] evolution is no more than asserting that you believe in consecutive series
+- [W11.201] of events (which is history) causally connected (which is science); that
+- [W11.202] is, that you believe in history and that you believe in science.
+- [W11.203] not forget that we may have complete faith in both without thereby offering
+- [W11.204] any explanation of either.
+- [W11.205] It is the business of science to find out
+- [W11.206] _specifically_ what kinds of events were involved when the stars evolved in
+- [W11.207] the sky, when the horse evolved on the earth, and the steam engine was
+- [W11.208] evolved from the mind of man.
+- [W11.209] Is it not rather an empty generalization to say that any kind of change is
+- [W11.210] At most it means little more than that you want to
+- [W11.211] intimate that miraculous intervention is not necessary to account for such
+- [W11.212] We are concerned here more particularly with the biologists' ideas of
+- [W11.213] My intention is to review the evidence on which the old theory
+- [W11.214] rested its case, in the light of some of the newer evidence of recent
+- [W11.215] Four great branches of study have furnished the evidence of organic
+- [W11.216] Experimental Breeding or Genetics.
+- [W11.217] _The Evidence from Comparative Anatomy_
+- [W11.218] When we study animals and plants we find that they can be arranged in
+- [W11.219] groups according to their resemblances.
+- [W11.220] This is the basis of comparative
+- [W11.221] anatomy, which is only an accurate study of facts that are superficially
+- [W11.222] The groups are based not on a single difference, but on a very large number
+- [W11.223] Let us take for example the group of vertebrates.
+- [W11.224] Limb skeletons of extinct and living animals,
+- [W11.225] showing the homologous bones: 1, salamander; 2, frog; 3, turtle; 4,
+- [W11.226] Aetosaurus; 5, Pleisiosaurus; 6, Ichthyosaurus; 7, Mesosaurus; 8, duck.
+- [W11.227] (After Jordan and Kellogg.)]
+- [W11.228] The hand and the arm of man are similar to the hand and arm of the ape.
+- [W11.229] find the same plan in the forefoot of the rat, the elephant, the horse and
+- [W11.230] We can identify the same parts in the forefoot of the lizard,
+- [W11.231] 3), and even, though less certainly, in the pectoral fins of
+- [W11.232] Comparison does not end here.
+- [W11.233] We find similarities in the skull and
+- [W11.234] back bones of these same animals; in the brain; in the digestive system; in
+- [W11.235] the heart and blood vessels; in the muscles.
+- [W11.236] Each of these systems is very complex, but the same general arrangement is
+- [W11.237] Anyone familiar with the evidence will, I think, probably
+- [W11.238] reach the conclusion either that these animals have been created on some
+- [W11.239] preconceived plan, or else that they have some other bond that unites them;
+- [W11.240] for we find it difficult to believe that such complex, yet similar things
+- [W11.241] could have arisen independently.
+- [W11.242] But we try to convince our students of the
+- [W11.243] truth of the theory of evolution not so much by calling their attention to
+- [W11.244] this relation as by tracing each organ from a simple to a complex
+- [W11.245] I have never known such a course to fail in its intention.
+- [W11.246] that the student often becomes so thoroughly convinced that he resents any
+- [W11.247] such attempt as that which I am about to make to point out that the
+- [W11.248] evidence for his conviction is not above criticism.
+- [W11.249] Drosophila ampelophila. a, Female and b, male.]
+- [W11.250] Because we can often arrange the series of structures in a line extending
+- [W11.251] from the very simple to the more complex, we are apt to become unduly
+- [W11.252] impressed by this fact and conclude that if we found the complete series we
+- [W11.253] should find all the intermediate steps and that they have arisen in the
+- [W11.254] order of their complexity.
+- [W11.255] This conclusion is not necessarily correct.
+- [W11.256] me give some examples that have come under my own observation.
+- [W11.257] for five years the wild fruit fly Drosophila ampelophila (fig.
+- [W11.258] have found over a hundred and twenty-five new types that breed true.
+- [W11.259] has arisen independently and suddenly.
+- [W11.260] Every part of the body has been
+- [W11.261] affected by one or another of these mutations.
+- [W11.262] For instance many different
+- [W11.263] kinds of changes have taken place in the wings and several of these involve
+- [W11.264] If we arrange the latter arbitrarily in the order of
+- [W11.265] their size there will be an almost complete series beginning with the
+- [W11.266] normal wings and ending with those of apterous flies.
+- [W11.267] types are represented in figure 5.
+- [W11.268] The order in which these mutations
+- [W11.269] occurred bears no relation to their size; each originated independently
+- [W11.270] Mutants of Drosophila ampelophila arranged in order
+- [W11.271] of size of wings: (a) cut; (b) beaded; (c) stumpy; (d) another individual
+- [W11.272] of stumpy; (f) vestigial (g) apterous.]
+- [W11.273] The wings of the wild fly are straight (fig.
+- [W11.274] in which the wings are bent upwards and in the most extreme type the wings
+- [W11.275] are curled over the back, as seen in figure 54 (g), yet there is no
+- [W11.276] historical connection between these stages.
+- [W11.277] Mutations have occurred involving the pigmentation of the body and wings.
+- [W11.278] The head and thorax of the wild Drosophila ampelophila are grayish yellow,
+- [W11.279] the abdomen is banded with yellow and black, and the wings are gray.
+- [W11.280] have appeared in our cultures several kinds of darker types ranging to
+- [W11.281] 20) and to lighter types that are quite yellow.
+- [W11.282] put in line a series may be made from the darkest flies at one end to the
+- [W11.283] light yellow flies at the other.
+- [W11.284] These types, with the fluctuations that
+- [W11.285] occur within each type, furnish a complete series of gradations; yet
+- [W11.286] historically they have arisen independently of each other.
+- [W11.287] Many changes in eye color have appeared.
+- [W11.288] As many as thirty or more races
+- [W11.289] differing in eye color are now maintained in our cultures.
+- [W11.290] so similar that they can scarcely be separated from each other.
+- [W11.291] easily possible beginning with the darkest eye color, sepia, which is deep
+- [W11.292] brown, to pick out a perfectly graded series ending with pure white eyes.
+- [W11.293] But such a serial arrangement would give a totally false idea of the way
+- [W11.294] the different types have arisen; and any conclusion based on the existence
+- [W11.295] of such a series might very well be entirely erroneous, for the fact that
+- [W11.296] such a series exists bears no relation to the order in which its members
+- [W11.297] Suppose that evolution "in the open" had taken place in the same way, by
+- [W11.298] means of _discontinuous_ variation.
+- [W11.299] What value then would the evidence from
+- [W11.300] comparative anatomy have in so far as it is based on a continuous series of
+- [W11.301] No one familiar with the entire evidence will doubt for a moment that these
+- [W11.302] 125 races of Drosophila ampelophila belong to the same species and have had
+- [W11.303] a common origin, for while they may differ mainly in one thing they are
+- [W11.304] extremely alike in a hundred other things, and in the general relation of
+- [W11.305] It is in this sense that the evidence from comparative anatomy can be used
+- [W11.306] I think as an argument for evolution.
+- [W11.307] It is the resemblances that the
+- [W11.308] animals or plants in any group have in common that is the basis for such a
+- [W11.309] conclusion; it is not because we can arrange in a continuous series any
+- [W11.310] In other words, our inference concerning the common
+- [W11.311] descent of two or more species is based on the totality of such
+- [W11.312] resemblances that still remain in large part after each change has taken
+- [W11.313] In this sense the argument from comparative anatomy, while not a
+- [W11.314] demonstration, carries with it, I think, a high degree of probability.
+- [W11.315] _The Evidence from Embryology_
+- [W11.316] In passing from the egg to the adult the individual goes through a series
+- [W11.317] In the course of this development we see not only the
+- [W11.318] beginnings of the organs that gradually enlarge and change into those of
+- [W11.319] the adult animal, but also see that organs appear and later disappear
+- [W11.320] before the adult stage is reached.
+- [W11.321] We find, moreover, that the young
+- [W11.322] sometimes resemble in a most striking way the adult stage of groups that we
+- [W11.323] place lower in the scale of evolution.
+- [W11.324] Many years before Darwin advanced his theory of evolution through natural
+- [W11.325] selection, the resemblance of the young of higher animals to the adults of
+- [W11.326] lower animals had attracted the attention of zoölogists and various views,
+- [W11.327] often very naïve, had been advanced to account for the resemblance.
+- [W11.328] these speculations there was one practically identical with that adopted by
+- [W11.329] Darwin and the post-Darwinians, namely that the higher animals repeat in
+- [W11.330] their development the _adult stages_ of lower animals.
+- [W11.331] became one of the cornerstones of the theory of organic evolution.
+- [W11.332] reached its climax in the writings of Haeckel, and I think I may add
+- [W11.333] without exaggeration that for twenty-five years it furnished the chief
+- [W11.334] inspiration of the school of descriptive embryology.
+- [W11.335] practically all textbooks of biology.
+- [W11.336] Haeckel called this interpretation
+- [W11.337] Young trout (Trutta fario) six days after hatching.
+- [W11.338] It was recognized, of course, that many embryonic stages could not possibly
+- [W11.339] represent ancestral animals.
+- [W11.340] A young fish with a huge yolk sac attached
+- [W11.341] 6) could scarcely ever have led a happy, free life as an adult
+- [W11.342] Such stages were interpreted, however, as _embryonic_ additions
+- [W11.343] to the original ancestral type.
+- [W11.344] The embryo had done something on its own
+- [W11.345] In some animals the young have structures that attach them to the mother,
+- [W11.346] as does the placenta of the mammals.
+- [W11.347] In other cases the young develop
+- [W11.348] membranes about themselves--like the amnion of the chick (fig.
+- [W11.349] mammal--that would have shut off an adult animal from all intercourse with
+- [W11.350] Hundreds of such embryonic adaptations are known to
+- [W11.351] These were explained as adaptations and as falsifications of
+- [W11.352] Diagram of chick showing relations of amnion,
+- [W11.353] At the end of the last century Weismann injected a new idea into our views
+- [W11.354] concerning the origin of variations.
+- [W11.355] He urged that variations are germinal,
+- [W11.356] i.e. they first appear in the egg and the sperm as changes that later bring
+- [W11.357] about modifications in the individual.
+- [W11.358] The idea has been fruitful and is
+- [W11.359] generally accepted by most biologists today.
+- [W11.360] It means that the offspring of
+- [W11.361] a pair of animals are not affected by the structure or the activities of
+- [W11.362] their parents, but the germ plasm is the unmodified stream from which both
+- [W11.363] the parent and the young have arisen.
+- [W11.364] been found that a variation arising in the germ plasm, no matter what its
+- [W11.365] cause, may affect any stage in the development of the next individuals that
+- [W11.366] There is no reason to suppose that such a change produces a
+- [W11.367] new character that always sticks itself, as it were, on to the end of the
+- [W11.368] This idea of germinal variation therefore carried with it the
+- [W11.369] death of the older conception of evolution by superposition.
+- [W11.370] In more recent times another idea has become current, mainly due to the
+- [W11.371] work of Bateson and of de Vries--the idea that variations are
+- [W11.372] Such a conception does not fall easily into line with the
+- [W11.373] statement of the biogenetic "law"; for actual experience with discontinuous
+- [W11.374] variation has taught us that new characters that arise do not add
+- [W11.375] themselves to the end of the line of already existing characters but if
+- [W11.376] they affect the adult characters they change them without, as it were,
+- [W11.377] passing through and beyond them.
+- [W11.378] Diagram of head of chick A and B, showing gill
+- [W11.379] slits, and aortic arches; and head of fish C showing aortic arches.
+- [W11.380] Human embryo showing gill slits and aortic arches.
+- [W11.381] (After His; from Marshall.)]
+- [W11.382] I venture to think that these new ideas and this new evidence have played
+- [W11.383] havoc with the biogenetic "law".
+- [W11.384] Nevertheless, there is an interpretation
+- [W11.385] of the facts that is entirely compatible with the theory of evolution.
+- [W11.386] me illustrate this by an example.
+- [W11.387] Young fish, dorsal view, and side view, showing
+- [W11.388] The embryos of the chick (fig.
+- [W11.389] stage in their development gill-slits on the sides of the neck like those
+- [W11.390] No one familiar with the relations of the parts will for a
+- [W11.391] moment doubt that the gill slits of these embryos and of the fish represent
+- [W11.392] When we look further into the matter we find that
+- [W11.393] young fish also possess gill slits (fig.
+- [W11.394] 10 and 11)--even in young stages
+- [W11.395] Is it not then more probable that the mammal and bird
+- [W11.396] possess this stage in their development simply because it has never been
+- [W11.397] Is not this a more reasonable view than to suppose that the gill
+- [W11.398] slits of the embryos of the higher forms represent the adult gill slits of
+- [W11.399] the fish that in some mysterious way have been pushed back into the embryo
+- [W11.400] Side views of head of embryo sharks, showing gill
+- [W11.401] I could give many similar examples.
+- [W11.402] All can be interpreted as embryonic
+- [W11.403] survivals rather than as phyletic contractions.
+- [W11.404] the latter interpretation.
+- [W11.405] The study of the cleavage pattern of the segmenting egg furnishes the most
+- [W11.406] convincing evidence that a different explanation from the one stated in the
+- [W11.407] biogenetic law is the more probable explanation.
+- [W11.408] Cleavage stages of four types of eggs, showing the
+- [W11.409] origin of the mesenchyme cells (stippled) and mesoderm cells (darker); a,
+- [W11.410] Planarian; b, Annelid (Podarke); c, Mollusc (Crepidula), d, Mollusc
+- [W11.411] It has been found that the cleavage pattern has the same general
+- [W11.412] arrangement in the early stages of flat worms, annelids and molluscs (fig.
+- [W11.413] Obviously these stages have never been adult ancestors, and obviously
+- [W11.414] if their resemblance has any meaning at all, it is that each group has
+- [W11.415] retained the same general plan of cleavage, possessed by their common
+- [W11.416] Accepting this view, let us ask, does the evidence from embryology favor
+- [W11.417] I think that it does very strongly.
+- [W11.418] the mammal, bird, and lizard have gill slits today because gill slits were
+- [W11.419] present in the embryos of their ancestors.
+- [W11.420] There is no other view that
+- [W11.421] explains so well their presence in the higher forms.
+- [W11.422] Perhaps someone will say, Well! is not this all that we have contended for!
+- [W11.423] Have you not reached the old conclusion in a roundabout way?
+- [W11.424] To my mind there is a wide difference between the old statement that the
+- [W11.425] higher animals living today have the original adult stages telescoped into
+- [W11.426] their embryos, and the statement that the resemblance between certain
+- [W11.427] characters in the embryos of higher animals and corresponding stages in the
+- [W11.428] embryos of lower animals is most plausibly explained by the assumption that
+- [W11.429] they have descended from the same ancestors, and that their common
+- [W11.430] structures are embryonic survivals.
+- [W11.431] _The Evidence from Paleontology_
+- [W11.432] The direct evidence furnished by fossil remains is by all odds the
+- [W11.433] strongest evidence that we have in favor of organic evolution.
+- [W11.434] holds the incomparable position of being able to point directly to the
+- [W11.435] evidence showing that the animals and plants living in past times are
+- [W11.436] connected with those living at the present time, often through an unbroken
+- [W11.437] Paleontology has triumphed over the weakness of the
+- [W11.438] evidence, which Darwin admitted was serious, by filling in many of the
+- [W11.439] Paleontology has been criticised on the ground that she cannot pretend to
+- [W11.440] show the actual ancestors of living forms because, if in the past genera
+- [W11.441] and species were as abundant and as diverse as we find them at present, it
+- [W11.442] is very improbable that the bones of any individual that happened to be
+- [W11.443] preserved are the bones of just that species that took part in the
+- [W11.444] Paleontologists will freely admit that in many cases this is
+- [W11.445] probably true, but even then the evidence is, I think, still just as
+- [W11.446] valuable and in exactly the same sense as is the evidence from comparative
+- [W11.447] It suffices to know that there lived in the past a particular
+- [W11.448] "group" of animals that had many points in common with those that preceded
+- [W11.449] them and with those that came later.
+- [W11.450] Whether these are the actual ancestors
+- [W11.451] or not does not so much matter, for the view that from such a group of
+- [W11.452] species the later species have been derived is far more probable than any
+- [W11.453] other view that has been proposed.
+- [W11.454] With this unrivalled material and splendid series of gradations,
+- [W11.455] paleontology has constructed many stages in the past history of the globe.
+- [W11.456] But paleontologists have sometimes gone beyond this descriptive phase of
+- [W11.457] the subject and have attempted to formulate the "causes", "laws" and
+- [W11.458] "principles" that have led to the development of their series.
+- [W11.459] been claimed that paleontologists are in an incomparably better position
+- [W11.460] than zoölogists to discover such principles, because they know both the
+- [W11.461] beginning and the end of the evolutionary series.
+- [W11.462] his sweeping and poetic vision the paleontologist may fail completely to
+- [W11.463] find out the nature of the pigments that have gone into the painting of his
+- [W11.464] picture, and he may confuse a familiarity with the different views he has
+- [W11.465] enjoyed of the canvas with a knowledge of how the painting is being done.
+- [W11.466] My good friend the paleontologist is in greater danger than he realizes,
+- [W11.467] when he leaves descriptions and attempts explanation.
+- [W11.468] check up his speculations and it is notorious that the human mind without
+- [W11.469] control has a bad habit of wandering.
+- [W11.470] When the modern student of variation and heredity--the geneticist--looks
+- [W11.471] over the different "continuous" series, from which certain "laws" and
+- [W11.472] "principles" have been deduced, he is struck by two facts: that the gaps,
+- [W11.473] in some cases, are enormous as compared with the single changes with which
+- [W11.474] he is familiar, and (what is more important) that they involve numerous
+- [W11.475] The geneticist says to the paleontologist, since you do
+- [W11.476] not know, and from the nature of your case can never know, whether your
+- [W11.477] differences are due to one change or to a thousand, you can not with
+- [W11.478] certainty tell us anything about the hereditary units which have made the
+- [W11.479] process of evolution possible.
+- [W11.480] And without this knowledge there can be no
+- [W11.481] understanding of the causes of evolution.
+- [W11.482] THE FOUR GREAT HISTORICAL SPECULATIONS
+- [W11.483] Looking backward over the history of the evolution theory we recognize that
+- [W11.484] during the hundred and odd years that have elapsed since Buffon, there have
+- [W11.485] been four main lines of _speculation_ concerning evolution.
+- [W11.486] them the four great cosmogonies or the four modern epics of evolution.
+- [W11.487] About the beginning of the last century Geoffroy St.
+- [W11.488] in some respects a disciple of Buffon, was interested as to how living
+- [W11.489] species are related to the animals and plants that had preceded them.
+- [W11.490] was familiar with the kind of change that takes place in the embryo if it
+- [W11.491] is put into new or changed surroundings, and from this knowledge he
+- [W11.492] concluded that as the surface of the earth slowly changed--as the carbon
+- [W11.493] dioxide contents in the air altered--as land appeared--and as marine
+- [W11.494] animals left the water to inhabit it, they or their embryos responded to
+- [W11.495] the new conditions and those that responded favorably gave rise to new
+- [W11.496] As the environment changed the fauna and flora changed--change
+- [W11.497] Here we have a picture of progressive evolution that carries
+- [W11.498] with it an idea of mechanical necessity.
+- [W11.499] If there is anything mystical or
+- [W11.500] Hilaire's argument it does not appear on the
+- [W11.501] surface; for he did not assume that the response to the new environment was
+- [W11.502] always a favorable one or, as we say, an adaptation.
+- [W11.503] that _if_ the response was unfavorable the individual or the race died out.
+- [W11.504] He assumed that _sometimes_ the change might be favorable, i.e., that
+- [W11.505] certain species, entire groups, would respond in a direction favorable to
+- [W11.506] their existence in a new environment and these would come to inherit the
+- [W11.507] In this sense he anticipated certain phases of the natural selection
+- [W11.508] theory of Darwin, but only in part; for his picture is not one of strife
+- [W11.509] within and without the species, but rather the escape of the species from
+- [W11.510] If then we recognize the intimate bond in chemical constitution of living
+- [W11.511] things and of the world in which they develop, what is there improbable in
+- [W11.512] Why, in a word is not more credit given to St.
+- [W11.513] Hilaire in modern evolutionary thought?
+- [W11.514] The reasons are to be found, I
+- [W11.515] think, first, in that the evidence to which he appealed was meagre and
+- [W11.516] inconclusive; and, second, in that much of his special evidence does not
+- [W11.517] seem to us to be applicable.
+- [W11.518] For example the monstrous forms that
+- [W11.519] development often assumes in a strange environment, and with which every
+- [W11.520] embryologist is only too familiar, rarely if ever furnish combinations, as
+- [W11.521] he supposed, that are capable of living.
+- [W11.522] On the contrary, they lead rather
+- [W11.523] to the final catastrophe of the organism.
+- [W11.524] to sudden and great transformations, such as a crocodile's egg hatching
+- [W11.525] into a bird, has exposed his view to too easy ridicule.
+- [W11.526] Hilaire's conception of evolution contains
+- [W11.527] elements that form the background of our thinking to-day, for taken
+- [W11.528] broadly, the interaction between the organism and its environment was a
+- [W11.529] mechanistic conception of evolution even though the details of the theory
+- [W11.530] were inadequate to establish his contention.
+- [W11.531] In our own time the French metaphysician Bergson in his _Evolution
+- [W11.532] Creatrice_ has proposed in mystical form a thought that has at least a
+- [W11.533] superficial resemblance to St.
+- [W11.534] things is no longer hit in one species and miss in another; it is precise,
+- [W11.535] exact; yet not mechanical in the sense at least in which we usually employ
+- [W11.536] For Bergson claims that the one chief feature of
+- [W11.537] living material is that it responds favorably to the situation in which it
+- [W11.538] finds itself; at least so far as lies within the possible physical
+- [W11.539] limitations of its organization.
+- [W11.540] Evolution has followed no preordained
+- [W11.541] plan; it has had no creator; it has brought about its own creation by
+- [W11.542] responding adaptively to each situation as it arose.
+- [W11.543] But note: the man of science believes that the organism responds today as
+- [W11.544] it does, because at present it has a chemical and physical constitution
+- [W11.545] We find a specific chemical composition and
+- [W11.546] generally a specific physical structure already existing.
+- [W11.547] to suppose that such particular reactions would take place until a specific
+- [W11.548] chemical configuration had been acquired.
+- [W11.549] Where did this constitution come
+- [W11.550] This is the question that the scientist asks himself.
+- [W11.551] Bergson would have to reply that it came into existence at the moment that
+- [W11.552] the first specific stimulus was applied.
+- [W11.553] But if this is the answer we have
+- [W11.554] passed at once from the realm of observation to the realm of fancy--to a
+- [W11.555] realm that is foreign to our experience; for such a view assumes that
+- [W11.556] chemical and physical reactions are guided by the needs of the organism
+- [W11.557] when the reactions take place inside living beings.
+- [W11.558] _From Lamarck to Weismann_
+- [W11.559] The second of the four great historical explanations appeals to a change
+- [W11.560] not immediately connected with the outer world, but to one within the
+- [W11.561] Practice makes perfect is a familiar adage.
+- [W11.562] Not only in human affairs do we
+- [W11.563] find that a part through use becomes a better tool for performing its task,
+- [W11.564] and through disuse degenerates; but in the field of animal behavior we find
+- [W11.565] that many of the most essential types of behavior have been learned through
+- [W11.566] repeated associations formed by contact with the outside.
+- [W11.567] It was not so long ago that we were taught that the instincts of animals
+- [W11.568] are the inherited experience of their ancestors--lapsed intelligence was
+- [W11.569] Lamarck's name is always associated with the application of the theory of
+- [W11.570] the inheritance of acquired characters.
+- [W11.571] Darwin fully endorsed this view and
+- [W11.572] made use of it as an explanation in all of his writings about animals.
+- [W11.573] Today the theory has few followers amongst trained investigators, but it
+- [W11.574] still has a popular vogue that is widespread and vociferous.
+- [W11.575] To Weismann more than to any other single individual should be ascribed the
+- [W11.576] disfavor into which this view has fallen.
+- [W11.577] In a series of brilliant essays
+- [W11.578] he laid bare the inadequacy of the supposed evidence on which the
+- [W11.579] inheritance of acquired characters rested.
+- [W11.580] instance, has a short tail, and it is said that it had its tail pinched off
+- [W11.581] In its litter of kittens one or more is found without a
+- [W11.582] Your neighbor believes that here is a case of cause and effect.
+- [W11.583] may even have known that the mother and grandmother of the cat had natural
+- [W11.584] But it has been found that short tail is a dominant character;
+- [W11.585] therefore, until we know who was the father of the short-tailed kittens the
+- [W11.586] accident to its mother and the normal condition of her maternal ancestry is
+- [W11.587] Weismann appealed to common sense.
+- [W11.588] He made few experiments to disprove
+- [W11.589] True, he cut off the tails of some mice for a few
+- [W11.590] generations but got no tailless offspring and while he gives no exact
+- [W11.591] measurements with coefficients of error he did not observe that the tails
+- [W11.592] of the descendants had shortened one whit.
+- [W11.593] The combs of fighting cocks and
+- [W11.594] the tails of certain breeds of sheep have been cropped for many generations
+- [W11.595] and the practice continues today, because their tails are still long.
+- [W11.596] in Lamarck's time there was no evidence opposed to his ingenious theory,
+- [W11.597] based as it was on an appeal to the acknowledged facts of improvement that
+- [W11.598] take place in the organs of an individual through their own functioning (a
+- [W11.599] fact that is as obvious and remarkable today as in the time of Lamarck),
+- [W11.600] yet now there is evidence as to whether the effects of use and disuse are
+- [W11.601] inherited, and this evidence is not in accord with Lamarck's doctrine.
+- [W11.602] I have ventured to put down as one of the four great historical
+- [W11.603] explanations, under the heading of the unfolding principle, a conception
+- [W11.604] that has taken protean forms.
+- [W11.605] At one extreme it is little more than a
+- [W11.606] mystic sentiment to the effect that evolution is the result of an inner
+- [W11.607] driving force or principle which goes under many names such as
+- [W11.608] Bildungstrieb, nisus formativus, vital force, and orthogenesis.
+- [W11.609] Evolutionary thought is replete with variants of this idea, often naïvely
+- [W11.610] expressed, sometimes unconsciously implied.
+- [W11.611] Evolution once meant, in fact,
+- [W11.612] an unfolding of what pre-existed in the egg, and the term still carries
+- [W11.613] with it something of its original significance.
+- [W11.614] Nägeli's speculation written several years after Darwin's "Origin of
+- [W11.615] Species" may be taken as a typical case.
+- [W11.616] Nägeli thought that there exists
+- [W11.617] in living material an innate power to grow and expand.
+- [W11.618] protested that he meant only a mechanical principle but as he failed to
+- [W11.619] refer such a principle to any properties of matter known to physicists and
+- [W11.620] chemists his view seems still a mysterious affirmation, as difficult to
+- [W11.621] understand as the facts themselves which it purports to explain.
+- [W11.622] Nägeli compared the process of evolution to the growth of a tree, whose
+- [W11.623] ultimate twigs represent the living world of species.
+- [W11.624] plays only the rôle of the gardener who prunes the tree into this or that
+- [W11.625] shape but who has himself _produced_ nothing.
+- [W11.626] As an imaginative figure of
+- [W11.627] speech Nägeli's comparison of the tree might even today seem to hold if we
+- [W11.628] substituted "mutations" for "growth", but although we know so little about
+- [W11.629] what causes mutations there is no reason for supposing them to be due to an
+- [W11.630] inner impulse, and hence they furnish no justification for such a
+- [W11.631] In his recent presidential address before the British Association Bateson
+- [W11.632] I suspect that his effort was intended as little
+- [W11.633] more than a _tour de force_.
+- [W11.634] He claims for it no more than that it is a
+- [W11.635] possible line of speculation.
+- [W11.636] Perhaps he thought the time had come to give
+- [W11.637] a shock to our too confident views concerning evolution.
+- [W11.638] he has invented a striking paradox.
+- [W11.639] Evolution has taken place through the
+- [W11.640] steady loss of inhibiting factors.
+- [W11.641] Living matter was stopped down, so to
+- [W11.642] speak, at the beginning of the world.
+- [W11.643] As the stops are lost, new things
+- [W11.644] Living matter has changed only in that it has become simpler.
+- [W11.645] Of the four great historical speculations about evolution, the doctrine of
+- [W11.646] Natural Selection of Darwin and Wallace has met with the most widespread
+- [W11.647] In the last lecture I intend to examine this theory critically.
+- [W11.648] Here we are concerned only with its broadest aspects.
+- [W11.649] Darwin appealed to _chance variations_ as supplying evolution with the
+- [W11.650] material on which natural selection works.
+- [W11.651] If we accept, for the moment,
+- [W11.652] this statement as the cardinal doctrine of natural selection it may appear
+- [W11.653] that evolution is due, (1) _not_ to an _orderly_ response of the organism
+- [W11.654] to its environment, (2) _not_ in the main to the activities of the animal
+- [W11.655] through the use or disuse of its parts, (3) _not_ to any innate principle
+- [W11.656] of living material itself, and (4) above all _not_ to purpose either from
+- [W11.657] Darwin made quite clear what he meant by chance.
+- [W11.658] chance he did not mean that the variations were not causal.
+- [W11.659] he taught that in Science we mean by chance only that the particular
+- [W11.660] combination of causes that bring about a variation are not known.
+- [W11.661] accidents, it is true, but they are causal accidents.
+- [W11.662] In his famous book on "Animals and Plants under Domestication", Darwin
+- [W11.663] dwells at great length on the nature of the conditions that bring about
+- [W11.664] If his views seem to us today at times vague, at times
+- [W11.665] problematical, and often without a secure basis, nevertheless we find in
+- [W11.666] every instance, that Darwin was searching for the _physical causes of
+- [W11.667] He brought, in consequence, conviction to many minds that there
+- [W11.668] are abundant indications, even if certain proof is lacking, that the causes
+- [W11.669] of variation are to be found in natural processes.
+- [W11.670] Today the belief that evolution takes place by means of natural processes
+- [W11.671] It does not seem probable that we shall ever again
+- [W11.672] have to renew the old contest between evolution and special creation.
+- [W11.673] We can never remain satisfied with a negative
+- [W11.674] We must find out what natural causes bring about
+- [W11.675] variations in animals and plants; and we must also find out what kinds of
+- [W11.676] variations are inherited, and how they are inherited.
+- [W11.677] evidence for organic evolution, furnished by comparative anatomy,
+- [W11.678] embryology and paleontology is cogent, we should be able to observe
+- [W11.679] evolution going on at the present time, i.e. we should be able to observe
+- [W11.680] the occurrence of variations and their transmission.
+- [W11.681] done by the geneticist in the study of mutations and Mendelian heredity, as
+- [W11.682] the succeeding lectures will show.
+- [W11.683] *       *       *       *       *
+- [W11.684] THE BEARING OF MENDEL'S DISCOVERY ON THE ORIGIN OF HEREDITARY CHARACTERS
+- [W11.685] Between the years 1857 and 1868 Gregor Mendel, Augustinian monk, studied
+- [W11.686] the heredity of certain characters of the common edible pea, in the garden
+- [W11.687] of the monastery at Brünn.
+- [W11.688] In his account of his work written in 1868, he said:
+- [W11.689] "It requires indeed some courage to undertake a labor of such a
+- [W11.690] far-reaching extent; it appears, however, to be the only right way by
+- [W11.691] which we can finally reach the solution of a question the importance of
+- [W11.692] which cannot be over-estimated in connection with the history of the
+- [W11.693] evolution of organic forms."
+- [W11.694] He tells us also why he selected peas for his work:
+- [W11.695] "The selection of the plant group which shall serve for experiments of
+- [W11.696] this kind must be made with all possible care if it be desired to avoid
+- [W11.697] from the outset every risk of questionable results."
+- [W11.698] "The experimental plants must necessarily
+- [W11.699] Possess constant differentiating characters.
+- [W11.700] The hybrids of such plants must, during the flowering period, be
+- [W11.701] protected from the influence of all foreign pollen, or be easily
+- [W11.702] capable of such protection."
+- [W11.703] Why do biologists throughout the world to-day agree that Mendel's discovery
+- [W11.704] A great deal might be said in this connection.
+- [W11.705] Biology had been, and is still, largely a descriptive
+- [W11.706] and speculative science. _Mendel showed by experimental proof that heredity
+- [W11.707] could be explained by a simple mechanism.
+- [W11.708] Science begins with naïve, often mystic conceptions of its problems.
+- [W11.709] reaches its goal whenever it can replace its early guessing by verifiable
+- [W11.710] hypotheses and predictable results.
+- [W11.711] This is what Mendel's law did for
+- [W11.712] MENDEL'S FIRST DISCOVERY--SEGREGATION
+- [W11.713] Diagram illustrating a cross between a red (dark)
+- [W11.714] and a white variety of four o'clock (Mirabilis jalapa).]
+- [W11.715] Let us turn to the demonstration of his first law--the law of segregation.
+- [W11.716] The first case I choose is not the one given by Mendel but one worked out
+- [W11.717] If the common garden plant called four o'clock (Mirabilis
+- [W11.718] jalapa) with red flowers is crossed to one having white flowers, the
+- [W11.719] The hybrid, then, is intermediate in the
+- [W11.720] color of its flowers between the two parents.
+- [W11.721] If these hybrids are inbred
+- [W11.722] the offspring are white, pink and red, in the proportion of 1:2:1.
+- [W11.723] these had the same ancestry, yet they are of three different kinds.
+- [W11.724] did not know their history it would be quite impossible to state what the
+- [W11.725] ancestry of the white or of the red had been, for they might just as well
+- [W11.726] have come from pure white and pure red ancestors respectively as to have
+- [W11.727] emerged from the pink hybrids.
+- [W11.728] Moreover, when we test them we find that
+- [W11.729] they are as pure as are white or red flowering plants that have had all
+- [W11.730] white or all red flowering ancestors.
+- [W11.731] Mendel's Law explains the results of this cross as shown in figure 14.
+- [W11.732] The egg cell from the white parent carries the factor for white, the pollen
+- [W11.733] cell from the red parent carries the factor for red.
+- [W11.734] their union carries both factors.
+- [W11.735] The result of their combined action is to
+- [W11.736] produce flowers intermediate in color.
+- [W11.737] When the hybrids mature and their germ cells (eggs or pollen) ripen, each
+- [W11.738] carries only one of these factors, either the red or the white, but not
+- [W11.739] In other words, the two factors that have been brought together in
+- [W11.740] the hybrid separate in its germ cells.
+- [W11.741] Half of the egg cells are white
+- [W11.742] bearing, half red bearing.
+- [W11.743] Half of the pollen cells are white bearing, half
+- [W11.744] Chance combinations at fertilization give the three classes of
+- [W11.745] individuals of the second generation.
+- [W11.746] Diagram illustrating the history of the factors in
+- [W11.747] the germ cells of the cross shown in Fig.
+- [W11.748] The white flowering plants should forever breed true, as in fact they do.
+- [W11.749] The red flowering plants also breed true.
+- [W11.750] The pink flowering plants, having
+- [W11.751] the same composition as the hybrids of the first generation, should give
+- [W11.752] They do, indeed, give this result i.e. one white
+- [W11.753] to two pink to one red flowered offspring.
+- [W11.754] Diagram illustrating a cross between special races
+- [W11.755] of white and black fowls, producing the blue (here gray) Andalusian.]
+- [W11.756] Another case of the same kind is known to breeders of poultry.
+- [W11.757] most beautiful of the domesticated breeds is known as the Andalusian.
+- [W11.758] a slate blue bird shading into blue-black on the neck and back.
+- [W11.759] know that these blue birds do not breed true but produce white, black, and
+- [W11.760] Diagram showing history of germ cells of cross of
+- [W11.761] The larger circles indicate the color of the birds; their enclosed
+- [W11.762] small circles the nature of the factors in the germ cells of such birds.]
+- [W11.763] The explanation of the failure to produce a pure race of Andalusians is
+- [W11.764] that they are like the pink flowers of the four o'clock, i.e., they are a
+- [W11.765] hybrid type formed by the meeting of the white and the black germ cells.
+- [W11.766] the whites produced by the Andalusians are bred to the blacks (both being
+- [W11.767] pure strains), all the offspring will be blue (fig.
+- [W11.768] inbred they will give 1 white, to 2 blues, to 1 black.
+- [W11.769] factor for white and the factor for black separate in the germ cells of the
+- [W11.770] hybrid Andalusian birds (fig.
+- [W11.771] Diagram of Mendel's cross between yellow (dominant)
+- [W11.772] and green (recessive) peas.]
+- [W11.773] The third case is Mendel's classical case of yellow and green peas (fig.
+- [W11.774] He crossed a plant belonging to a race having yellow peas with one
+- [W11.775] The hybrid plants had yellow seeds.
+- [W11.776] gave three yellows to one green.
+- [W11.777] principle as in the preceding cases.
+- [W11.778] The only difference between them is
+- [W11.779] that the hybrid which contains both the yellow and the green factors is in
+- [W11.780] appearance not intermediate, but like the yellow parent stock.
+- [W11.781] said therefore to be dominant and green to be recessive.
+- [W11.782] Diagram illustrating the history of the factors in
+- [W11.783] Another example where one of the contrasted characters is dominant is shown
+- [W11.784] by the cross of Drosophila with vestigial wings to the wild type with long
+- [W11.785] The F_1 flies have long wings not differing from those of
+- [W11.786] the wild fly, so far as can be observed.
+- [W11.787] When two such flies are inbred
+- [W11.788] there result three long to one vestigial.
+- [W11.789] Diagram illustrating a cross between a fly
+- [W11.790] (Drosophila ampelophila) with long wings and a mutant fly with vestigial
+- [W11.791] The question as to whether a given character is dominant or recessive is a
+- [W11.792] matter of no theoretical importance for the principle of segregation,
+- [W11.793] although from the notoriety given to it one might easily be misled into the
+- [W11.794] erroneous supposition that it was the discovery of this relation that is
+- [W11.795] Mendel's crowning achievement.
+- [W11.796] Let me illustrate by an example in which the hybrid standing between two
+- [W11.797] There are two mutant races in our cultures of the
+- [W11.798] fruit fly Drosophila that have dark body color, one called sooty, another
+- [W11.799] which is even blacker, called ebony (fig.
+- [W11.800] Sooty crossed to ebony gives
+- [W11.801] offspring that are intermediate in color.
+- [W11.802] Some of them are so much like
+- [W11.803] sooty that they cannot be distinguished from sooty.
+- [W11.804] some of the hybrids are as dark as the lightest of the ebony flies.
+- [W11.805] these hybrids are inbred there is a continuous series of individuals,
+- [W11.806] sooties, intermediates and ebonies.
+- [W11.807] Which color here shall we call the
+- [W11.808] If the ebony, then in the second generation we count three
+- [W11.809] ebonies to one sooty, putting the hybrids with the ebonies.
+- [W11.810] is the sooty then we count three sooties to one ebony, putting the hybrids
+- [W11.811] The important fact to find out is whether there actually
+- [W11.812] exist three classes in the second generation.
+- [W11.813] This can be ascertained even
+- [W11.814] when, as in this case, there is a perfectly graded series from one end to
+- [W11.815] the other, by testing out individually enough of the flies to show that
+- [W11.816] one-fourth of them never produce any descendants but ebonies, one-fourth
+- [W11.817] never any but sooties, and one-half of them give rise to both ebony and
+- [W11.818] Cross between two allelomorphic races of
+- [W11.819] Drosophila, sooty and ebony, that give a completely graded series in F_2.]
+- [W11.820] MENDEL'S SECOND DISCOVERY--INDEPENDENT ASSORTMENT
+- [W11.821] Besides his discovery that there are pairs of characters that disjoin, as
+- [W11.822] it were, in the germ cells of the hybrid (law of segregation) Mendel made a
+- [W11.823] second discovery which also has far-reaching consequences.
+- [W11.824] case illustrates Mendel's second law.
+- [W11.825] If a pea that is yellow and round is crossed to one that is green and
+- [W11.826] 21), all of the offspring are yellow and round.
+- [W11.827] these give 9 yellow round, 3 green round, 3 yellow wrinkled, 1 green
+- [W11.828] All the yellows taken together are to the green as 3:1.
+- [W11.829] round taken together are to the wrinkled as three to one; but some of the
+- [W11.830] yellows are now wrinkled and some of the green are now round.
+- [W11.831] been a recombination of characters, while at the same time the results, for
+- [W11.832] each pair of characters taken separately, are in accord with Mendel's Law
+- [W11.833] The second law of Mendel may be called the law
+- [W11.834] of independent assortment of different character pairs.
+- [W11.835] Cross between yellow-round and green-wrinkled peas,
+- [W11.836] giving the 9: 3: 3: 1 ratio in F_2.]
+- [W11.837] We can, as it were, take the characters of one organism and recombine them
+- [W11.838] with those of a different organism.
+- [W11.839] We can explain this result as due to
+- [W11.840] the assortment of factors for these characters in the germ cells according
+- [W11.841] Diagram to show the history of the factor pairs
+- [W11.842] yellow-green and round-wrinkled of the cross in Fig.
+- [W11.843] As a second illustration let me take the classic case of the combs of
+- [W11.844] If a bird with a rose comb is bred to one with a pea comb (fig.
+- [W11.845] the offspring have a comb different from either.
+- [W11.846] If two such individuals are bred they give 9 walnut, 3 rose, 3 pea, 1
+- [W11.847] This proportion shows that the grandparental types differed in
+- [W11.848] respect to two pairs of characters.
+- [W11.849] Cross between pea and rose combed fowls.
+- [W11.850] A fourth case is shown in the fruit fly, where an ebony fly with long wings
+- [W11.851] is mated to a grey fly with vestigial wings (fig.
+- [W11.852] If these are inbred they give 9 gray long, 3 gray
+- [W11.853] vestigial, 3 ebony long, 1 ebony vestigial (figs.
+- [W11.854] Cross between long ebony and gray vestigial flies.]
+- [W11.855] The possibility of interchanging characters might be illustrated over and
+- [W11.856] It is true not only when two pairs of characters are involved,
+- [W11.857] but when three, four, or more enter the cross.
+- [W11.858] Diagram to show the history of the factors in the
+- [W11.859] It is as though we took individuals apart and put together parts of two,
+- [W11.860] three or more individuals by substituting one part for another.
+- [W11.861] Not only has this power to make whatever combinations we choose great
+- [W11.862] practical importance, it has even greater theoretical significance; for, it
+- [W11.863] follows that the individual is not in itself the unit in heredity, but that
+- [W11.864] within the germ-cells there exist smaller units concerned with the
+- [W11.865] transmission of characters.
+- [W11.866] The older mystical statement of the individual as a unit in heredity has no
+- [W11.867] longer any interest in the light of these discoveries, except as a past
+- [W11.868] phase of biological history.
+- [W11.869] We see, too, more clearly that the sorting out
+- [W11.870] of factors in the germ plasm is a very different process from the influence
+- [W11.871] of these factors on the development of the organism.
+- [W11.872] excuse for confusing these two problems.
+- [W11.873] If mechanistic principles apply also to embryonic development then the
+- [W11.874] course of development is capable of being stated as a series of
+- [W11.875] chemico-physical reactions and the "_individual_" is merely a term to
+- [W11.876] express the sum total of such reactions and should not be interpreted as
+- [W11.877] something different from or more than these reactions.
+- [W11.878] is known of the actual processes involved in development the use of the
+- [W11.879] term "individuality", while giving the appearance of profundity, in reality
+- [W11.880] often serves merely to cover ignorance and to make a mystery out of a
+- [W11.881] THE CHARACTERS OF WILD ANIMALS AND PLANTS FOLLOW THE SAME LAWS OF
+- [W11.882] INHERITANCE AS DO THE CHARACTERS OF DOMESTICATED ANIMALS AND PLANTS.
+- [W11.883] Darwin based many of his conclusions concerning variation and heredity on
+- [W11.884] the evidence derived from the garden and from the stock farm.
+- [W11.885] handicapped to some extent, for he had at times to rely on information much
+- [W11.886] of which was uncritical, and some of which was worthless.
+- [W11.887] Today we are at least better informed on _two_ important points; one
+- [W11.888] concerning the _kinds_ of variations that furnish to the cultivator the
+- [W11.889] materials for his selection; the other concerning the modes of inheritance
+- [W11.890] We know now that new characters are continually
+- [W11.891] appearing in domesticated as well as in wild animals and plants, that these
+- [W11.892] characters are often sharply marked off from the original characters, and
+- [W11.893] whether the differences are great or whether they are small they are
+- [W11.894] transmitted alike according to Mendel's law.
+- [W11.895] Many of the characteristics of our domesticated animals and cultivated
+- [W11.896] plants originated long ago, and only here and there have the records of
+- [W11.897] their first appearance been preserved.
+- [W11.898] In only a few instances are these
+- [W11.899] records clear and definite, while the complete history of any large group
+- [W11.900] of our domesticated products is unknown to us.
+- [W11.901] Within the last five or six years, however, from a common wild species of
+- [W11.902] fly, the fruit fly, Drosophila ampelophila, which we have brought into the
+- [W11.903] laboratory, have arisen over a hundred and twenty-five new types whose
+- [W11.904] origin is completely known.
+- [W11.905] Let me call attention to a few of the more
+- [W11.906] interesting of these types and their modes of inheritance, comparing them
+- [W11.907] with wild types in order to show that the kinds of inheritance found in
+- [W11.908] domesticated races occur also in wild types.
+- [W11.909] The results will show beyond
+- [W11.910] dispute that the characters of wild types are inherited in precisely the
+- [W11.911] same way as are the characters of the mutant types--a fact that is not
+- [W11.912] generally appreciated except by students of genetics, although it is of the
+- [W11.913] most far-reaching significance for the theory of evolution.
+- [W11.914] A mutant appeared in which the eye color of the female was different from
+- [W11.915] The eye color of the mutant female is a dark eosin color,
+- [W11.916] that of the male yellowish eosin.
+- [W11.917] From the beginning this difference was as
+- [W11.918] Breeding experiments show that eosin eye color
+- [W11.919] differs from the red color of the eye of the wild fly by a single mutant
+- [W11.920] Here then at a single step a type appeared that was sexually
+- [W11.921] Zoölogists know that sexual dimorphism is not uncommon in wild species of
+- [W11.922] animals, and Darwin proposed the theory of sexual selection to account for
+- [W11.923] the difference between the sexes.
+- [W11.924] He assumed that the male preferred
+- [W11.925] certain kinds of females differing from himself in a particular character,
+- [W11.926] and thus in time through sexual selection, the sexes came to differ from
+- [W11.927] Clover butterfly (Colias philodice) with two types
+- [W11.928] of females, above; and one type of male, below.]
+- [W11.929] In the case of eosin eye color no such process as that postulated by Darwin
+- [W11.930] to account for the differences between the sexes was involved; for the
+- [W11.931] single mutation that brought about the change also brought in the
+- [W11.932] In recent years zoölogists have carefully studied several cases in which
+- [W11.933] two types of female are found in the same species.
+- [W11.934] butterfly, there is a yellow and a white type of female, while the male is
+- [W11.935] It has been shown that a single factor difference
+- [W11.936] determines whether the female is yellow or white.
+- [W11.937] according to Gerould, strictly Mendelian.
+- [W11.938] Papilio turnus with two types of females above and
+- [W11.939] In Papilio turnus there exist, in the southern states, two kinds of
+- [W11.940] females, one yellow like the male, one black (fig.
+- [W11.941] is not so certain, but it seems probable that a single factor difference
+- [W11.942] determines whether the female shall be yellow or black.
+- [W11.943] Finally in Papilio polytes of Ceylon and India three different types of
+- [W11.944] 28 to right) only one of which is like the male.
+- [W11.945] the analysis of the breeding data shows the possibility of explaining this
+- [W11.946] case as due to two pairs Mendelian factors which give in combination the
+- [W11.947] Papilio polytes, with three types of female to
+- [W11.948] right and one type of male above to left.]
+- [W11.949] Taking these cases together, they furnish a much simpler explanation than
+- [W11.950] the one proposed by Darwin.
+- [W11.951] They show also that characters like these shown
+- [W11.952] by wild species may follow Mendel's law.
+- [W11.953] Mutant race of fruit fly with intercalated
+- [W11.954] duplicate mesothorax on dorsal side.]
+- [W11.955] There has appeared in our cultures a fly in which the third division of the
+- [W11.956] thorax with its appendages has changed into a segment like the second (fig.
+- [W11.957] It is smaller than the normal mesothorax and its wings are imperfectly
+- [W11.958] developed, but the bristles on the upper surface may have the typical
+- [W11.959] arrangement of the normal mesothorax.
+- [W11.960] The mutant shows how great a change
+- [W11.961] may result from a single factor difference.
+- [W11.962] A factor that causes duplication in the legs has also been found.
+- [W11.963] interesting fact was discovered (Hoge) that duplication takes place only in
+- [W11.964] At ordinary temperatures the legs are normal.
+- [W11.965] Mutant race of fruit fly, called eyeless; a, a'
+- [W11.966] In contrast to the last case, where a character is doubled, is the next one
+- [W11.967] in which the eyes are lost (fig.
+- [W11.968] This change also took place at a
+- [W11.969] All the flies of this stock however, cannot be said to be
+- [W11.970] eyeless, since many of them show pieces of the eye--indeed the variation is
+- [W11.971] so wide that the eye may even appear like a normal eye unless carefully
+- [W11.972] Formerly we were taught that eyeless animals arose in caves.
+- [W11.973] case shows that they may also arise suddenly in glass milk bottles, by a
+- [W11.974] change in a single factor.
+- [W11.975] I may recall in this connection that wingless flies (fig.
+- [W11.976] in our cultures by a single mutation.
+- [W11.977] We used to be told that wingless
+- [W11.978] insects occurred on desert islands because those insects that had the best
+- [W11.979] developed wings had been blown out to sea.
+- [W11.980] Whether this is true or not, I
+- [W11.981] will not pretend to say, but at any rate wingless insects may also arise,
+- [W11.982] not through a slow process of elimination, but at a single step.
+- [W11.983] The preceding examples have all related to recessive characters.
+- [W11.984] Mutant race of fruit fly called bar to the right
+- [W11.985] The eye is a narrow vertical bar, the outline of the
+- [W11.986] original eye is indicated.]
+- [W11.987] A single male appeared with a narrow vertical red bar (fig.
+- [W11.988] Bred to wild females the new character was found to
+- [W11.989] dominate, at least to the extent that the eyes of all its offspring were
+- [W11.990] narrower than the normal eye, although not so narrow as the eye of the pure
+- [W11.991] Around the bar there is a wide border that corresponds to the region
+- [W11.992] occupied by the rest of the eye of the wild fly.
+- [W11.993] It is therefore to be looked upon as a rudimentary
+- [W11.994] organ, which is, so to speak, a by-product of the dominant mutation.
+- [W11.995] The preceding cases have all involved rather great changes in some one
+- [W11.996] The following three cases involve slight changes, and
+- [W11.997] yet follow the same laws of inheritance as do the larger changes.
+- [W11.998] Mutant race of fruit fly, called speck.
+- [W11.999] minute black speck at base of wing.]
+- [W11.1000] At the base of the wings a minute black speck appeared (fig.
+- [W11.1001] found to be a Mendelian character.
+- [W11.1002] In another case the spines on the thorax
+- [W11.1003] became forked or kinky (fig.
+- [W11.1004] This stock breeds true, and the
+- [W11.1005] character is inherited in strictly Mendelian fashion.
+- [W11.1006] Mutant race of fruit fly called club.
+- [W11.1007] often remain unexpanded and two bristles present in wild fly (b) are absent
+- [W11.1008] In a certain stock a number of flies appeared in which the wing pads did
+- [W11.1009] It was found that this peculiarity is shown in only
+- [W11.1010] about twenty per cent of the individuals supposed to inherit it.
+- [W11.1011] was found that this stock lacked two bristles on the sides of the thorax.
+- [W11.1012] By means of this knowledge the heredity of the character was easily
+- [W11.1013] It appears that while the expansion of the wing pads fails to
+- [W11.1014] occur once in five times--probably because it is an environmental effect
+- [W11.1015] peculiar to this stock,--yet the minute difference of the presence or
+- [W11.1016] absence of the two lateral bristles is a constant feature of the flies that
+- [W11.1017] carry this particular factor.
+- [W11.1018] In the preceding cases I have spoken as though a factor influenced only one
+- [W11.1019] It would have been more accurate to have stated that the
+- [W11.1020] _chief_ effect of the factor was observed in a particular part of the body.
+- [W11.1021] Most students of genetics realize that a factor difference usually affects
+- [W11.1022] more than a single character.
+- [W11.1023] For example, a mutant stock called
+- [W11.1024] rudimentary wings has as its principle characteristic very short wings
+- [W11.1025] But the factor for rudimentary wings also produces other effects
+- [W11.1026] The females are almost completely sterile, while the males are
+- [W11.1027] The viability of the stock is poor.
+- [W11.1028] When flies with rudimentary
+- [W11.1029] wings are put into competition with wild flies relatively few of the
+- [W11.1030] rudimentary flies come through, especially if the culture is crowded.
+- [W11.1031] hind legs are also shortened.
+- [W11.1032] All of these effects are the results of a
+- [W11.1033] Mutant race of fruit fly, called rudimentary.]
+- [W11.1034] One may venture the guess that some of the specific and varietal
+- [W11.1035] differences that are characteristic of wild types and which at the same
+- [W11.1036] time appear to have no survival value, are only by-products of factors
+- [W11.1037] whose most important effect is on another part of the organism where their
+- [W11.1038] influence is of vital importance.
+- [W11.1039] It is well known that systematists make use of characters that are constant
+- [W11.1040] for groups of species, but which do not appear in themselves to have an
+- [W11.1041] If we may suppose that the constancy of such
+- [W11.1042] characters may be only an index of the presence of a factor whose _chief_
+- [W11.1043] influence is in some other direction or directions, some physiological
+- [W11.1044] influence, for example, we can give at least a reasonable explanation of
+- [W11.1045] the constancy of such characters.
+- [W11.1046] I am inclined to think that an overstatement to the effect that each factor
+- [W11.1047] may affect the entire body, is less likely to do harm than to state that
+- [W11.1048] each factor affects only a particular character.
+- [W11.1049] phrase "unit character" has done much to mislead the uninitiated as to the
+- [W11.1050] effects that a single change in the germ plasm may produce on the organism.
+- [W11.1051] Fortunately, the expression "unit character" is being less used by those
+- [W11.1052] students of genetics who are more careful in regard to the implications of
+- [W11.1053] There is a class of cases of inheritance, due to the XY chromosomes, that
+- [W11.1054] is called sex linked inheritance.
+- [W11.1055] It is shown both by mutant characters and
+- [W11.1056] characters of wild species.
+- [W11.1057] For instance, white eye color in Drosophila shows sex linked inheritance.
+- [W11.1058] If a white eyed male is mated to a wild red eyed female (fig.
+- [W11.1059] If these are inbred, there are three red to one
+- [W11.1060] white eyed offspring, but white eyes occur only in the males.
+- [W11.1061] grandfather has transmitted his peculiarity to half of his grandsons, but
+- [W11.1062] to none of his granddaughters.
+- [W11.1063] Diagram showing a cross between a white eyed male
+- [W11.1064] and a red eyed female of the fruit fly.
+- [W11.1065] The reciprocal cross (fig.
+- [W11.1066] is bred to a red eyed male, all of the daughters have red eyes and all of
+- [W11.1067] We call this criss-cross inheritance.
+- [W11.1068] offspring are inbred, they produce equal numbers of red eyed and white eyed
+- [W11.1069] females and equal numbers of red eyed and white eyed males.
+- [W11.1070] 1: 1: 1, or ignoring sex, 2 reds to 2 whites, and not the usual 3:1
+- [W11.1071] Yet, as will be shown later, the result is in entire
+- [W11.1072] accord with Mendel's principle of segregation.
+- [W11.1073] Diagram illustrating a cross between a red eyed
+- [W11.1074] male and white eyed female of the fruit fly (reciprocal cross of that shown
+- [W11.1075] It has been shown by Sturtevant that in a wild species of Drosophila, viz.,
+- [W11.1076] D. repleta, two varieties of individuals exist, in one of which the thorax
+- [W11.1077] has large splotches and in the other type smaller splotches (fig.
+- [W11.1078] factors that differentiate these varieties are sex linked.
+- [W11.1079] Two types of markings on thorax of Drosophila
+- [W11.1080] repleta, both found "wild".
+- [W11.1081] They show sex linked inheritance.]
+- [W11.1082] Certain types of color blindness (fig.
+- [W11.1083] 38) and certain other abnormal
+- [W11.1084] conditions in man such as haemophilia, are transmitted as sex linked
+- [W11.1085] Diagram illustrating inheritance of color
+- [W11.1086] blindness in man; the iris of the color-blind eye is here black.]
+- [W11.1087] Reciprocal of cross in Fig.
+- [W11.1088] In domestic fowls sex linked inheritance has been found as the
+- [W11.1089] characteristic method of transmission for at least as many as six
+- [W11.1090] characters, but here the relation of the sexes is in a sense reversed.
+- [W11.1091] instance, if a black Langshan hen is crossed to a barred Plymouth Rock cock
+- [W11.1092] 39), the offspring are all barred.
+- [W11.1093] If these are inbred half of the
+- [W11.1094] daughters are black and half are barred; all of the sons are barred.
+- [W11.1095] grandmother has transmitted her color to half of her granddaughters but to
+- [W11.1096] Sex-linked inheritance in domesticated birds shown
+- [W11.1097] here in a cross between barred Plymouth Rock male and black Langshan
+- [W11.1098] In the reciprocal cross (fig.
+- [W11.1099] 40) black cock by barred hen, the daughters
+- [W11.1100] are black and the sons barred--criss-cross inheritance.
+- [W11.1101] black hens and black cocks, barred hens and barred cocks.
+- [W11.1102] There is a case comparable to this found in a wild species of moth, Abraxas
+- [W11.1103] A wild variation of this type is lighter in color and is
+- [W11.1104] When these two types are crossed they exhibit
+- [W11.1105] exactly the same type of heredity as does the black-barred combination in
+- [W11.1106] As shown in figure 41, lacticolor female bred to
+- [W11.1107] grossulariata male gives grossulariata sons and daughters.
+- [W11.1108] give grossulariata males and females and lacticolor females.
+- [W11.1109] lacticolor male by grossulariata female, (fig.
+- [W11.1110] daughters and grossulariata sons and these inbred give grossulariata males
+- [W11.1111] and females and lacticolor males and females.
+- [W11.1112] Sex-linked inheritance in the wild moth, Abraxas
+- [W11.1113] grossulariata (darker) and A. lacticolor.]
+- [W11.1114] Four wild types of Paratettix in upper line with
+- [W11.1115] It has been found that there may be even more than two factors that show
+- [W11.1116] Mendelian segregation when brought together in pairs.
+- [W11.1117] southern States there are several races of the grouse locust (Paratettix)
+- [W11.1118] that differ from each other markedly in color patterns (fig.
+- [W11.1119] two individuals of these races are crossed they give, as Nabours has shown,
+- [W11.1120] in F_2 a Mendelian ratio of 1: 2: 1.
+- [W11.1121] It is obvious, therefore, that there
+- [W11.1122] are here at least nine characters, any two of which behave as a Mendelian
+- [W11.1123] These races have arisen in nature and differ definitely and
+- [W11.1124] strikingly from each other, yet any two differ by only one factor
+- [W11.1125] Diagram illustrating four allelomorphs in mice,
+- [W11.1126] viz. gray bellied gray (wild type) (above, to left); white bellied gray
+- [W11.1127] (above, to right); yellow (below, to right); and black (below, to left).]
+- [W11.1128] Similar relations have been found in a number of domesticated races.
+- [W11.1129] mice there is a quadruple system represented by the gray house mouse, the
+- [W11.1130] white bellied, the yellow and the black mouse (fig.
+- [W11.1131] is probably a triple system, that includes the albino, the Himalayan, and
+- [W11.1132] In the silkworm moth there have been described four types
+- [W11.1133] of larvae, distinguished by different color markings, that form a system of
+- [W11.1134] In Drosophila there is a quintuple system of
+- [W11.1135] factors in the sex chromosome represented by eye colors, a triple system of
+- [W11.1136] body colors, and a triple system of factors for eye colors in the third
+- [W11.1137] What bearing has the appearance of these new types of Drosophila on the
+- [W11.1138] theory of evolution may be asked.
+- [W11.1139] The objection has been raised in fact
+- [W11.1140] that in the breeding work with Drosophila we are dealing with artificial
+- [W11.1141] It has been more than implied that results
+- [W11.1142] obtained from the breeding pen, the seed pan, the flower pot and the milk
+- [W11.1143] bottle do not apply to evolution in the "open", nature "at large" or to
+- [W11.1144] To be consistent, this same objection should be extended to
+- [W11.1145] the use of the spectroscope in the study of the evolution of the stars, to
+- [W11.1146] the use of the test tube and the balance by the chemist, of the
+- [W11.1147] galvanometer by the physicist.
+- [W11.1148] All these are unnatural instruments used to
+- [W11.1149] torture Nature's secrets from her.
+- [W11.1150] I venture to think that the real
+- [W11.1151] antithesis is not between unnatural and natural treatment of Nature, but
+- [W11.1152] rather between controlled or verifiable data on the one hand, and
+- [W11.1153] unrestrained generalization on the other.
+- [W11.1154] If a systematist were asked whether these new races of Drosophila are
+- [W11.1155] comparable to wild species, he would not hesitate for a moment.
+- [W11.1156] call them all one species.
+- [W11.1157] If he were asked why, he would say, I think,
+- [W11.1158] "These races differ only in one or two striking points, while in a hundred
+- [W11.1159] other respects they are identical even to the minutest details." He would
+- [W11.1160] add, that as large a group of wild species of flies would show on the whole
+- [W11.1161] the reverse relations, _viz._, they would differ in nearly every detail and
+- [W11.1162] be identical in only a few points.
+- [W11.1163] In all this I entirely agree with the
+- [W11.1164] systematist, for I do not think such a group of types differing by one
+- [W11.1165] character each, is comparable to most wild groups of species because the
+- [W11.1166] difference between wild species is due to a large number of such single
+- [W11.1167] The characters that have been accumulated in wild species are
+- [W11.1168] of significance in the maintenance of the species, or at least we are led
+- [W11.1169] to infer that even though the visible character that we attend to may not
+- [W11.1170] itself be important, one at least of the other effects of the factors that
+- [W11.1171] represent these characters is significant.
+- [W11.1172] It is, of course, hardly to be
+- [W11.1173] expected that _any_ random change in as complex a mechanism as an insect
+- [W11.1174] would improve the mechanism, and as a matter of fact it is doubtful whether
+- [W11.1175] any of the mutant types so far discovered are better adapted to those
+- [W11.1176] conditions to which a fly of this structure and habits is already adjusted.
+- [W11.1177] But this is beside the mark, for modern genetics shows very positively that
+- [W11.1178] adaptive characters are inherited in exactly the same way as are those that
+- [W11.1179] are not adaptive; and I have already pointed out that we cannot study a
+- [W11.1180] single mutant factor without at the same time studying one of the factors
+- [W11.1181] responsible for normal characters, for the two together constitute the
+- [W11.1182] And, finally, I want to urge on your attention a question that we are to
+- [W11.1183] consider in more detail in the last lecture.
+- [W11.1184] appears to have taken place by modifying and improving bit by bit the
+- [W11.1185] structures and habits that the animal or plant already possessed.
+- [W11.1186] seen that there are thirty mutant factors at least that have an influence
+- [W11.1187] on eye color, and it is probable that there are at least as many normal
+- [W11.1188] factors that are involved in the production of the red eye of the wild fly.
+- [W11.1189] Evolution from this point of view has consisted largely in introducing new
+- [W11.1190] factors that influence characters already present in the animal or plant.
+- [W11.1191] Such a view gives us a somewhat different picture of the process of
+- [W11.1192] evolution from the old idea of a ferocious struggle between the individuals
+- [W11.1193] of a species with the survival of the fittest and the annihilation of the
+- [W11.1194] Evolution assumes a more peaceful aspect.
+- [W11.1195] characters survive by incorporating themselves into the race, improving it
+- [W11.1196] and opening to it new opportunities.
+- [W11.1197] In other words, the emphasis may be
+- [W11.1198] placed less on the competition between the individuals of a species
+- [W11.1199] (because the destruction of the less fit does not _in itself_ lead to
+- [W11.1200] anything that is new) than on the appearance of new characters and
+- [W11.1201] modifications of old characters that become incorporated in the species,
+- [W11.1202] for on these depends the evolution of the race.
+- [W11.1203] *       *       *       *       *
+- [W11.1204] THE FACTORIAL THEORY OF HEREDITY AND THE COMPOSITION OF THE GERM PLASM
+- [W11.1205] The discovery that Mendel made with edible peas concerning heredity has
+- [W11.1206] been found to apply everywhere throughout the plant and animal kingdoms--to
+- [W11.1207] flowering plants, to insects, snails, crustacea, fishes, amphibians, birds,
+- [W11.1208] and mammals (including man).
+- [W11.1209] There must be something that these widely separated groups of plants and
+- [W11.1210] animals have in common--some simple mechanism perhaps--to give such
+- [W11.1211] definite and orderly series of results.
+- [W11.1212] There is, in fact, a mechanism,
+- [W11.1213] possessed alike by animals and plants, that fulfills every requirement of
+- [W11.1214] THE CELLULAR BASIS OF ORGANIC EVOLUTION AND HEREDITY
+- [W11.1215] In order to appreciate the full force of the evidence, let me first pass
+- [W11.1216] rapidly in review a few familiar, historical facts, that preceded the
+- [W11.1217] discovery of the mechanism in question.
+- [W11.1218] Typical cell showing the cell wall, the protoplasm
+- [W11.1219] (with its contained materials); the nucleus with its contained chromatin
+- [W11.1220] Throughout the greater part of the last century, while students of
+- [W11.1221] evolution and of heredity were engaged in what I may call the more general,
+- [W11.1222] or, shall I say, the _grosser_ aspects of the subject, there existed
+- [W11.1223] another group of students who were engaged in working out the minute
+- [W11.1224] structure of the material basis of the living organism.
+- [W11.1225] organs such as the brain, the heart, the liver, the lungs, the kidneys,
+- [W11.1226] etc., are not themselves the units of structure, but that all these organs
+- [W11.1227] can be reduced to a simpler unit that repeats itself a thousand-fold in
+- [W11.1228] We call this unit a cell (fig.
+- [W11.1229] The egg is a cell, and the spermatozoon is a cell.
+- [W11.1230] is the union of two cells (fig.
+- [W11.1231] fertilization appears to us today, its discovery swept aside a vast amount
+- [W11.1232] of mystical speculation concerning the rôle of the male and of the female
+- [W11.1233] in the act of procreation.
+- [W11.1234] Within the cell a new microcosm was revealed.
+- [W11.1235] contain a spherical body called the nucleus (fig.
+- [W11.1236] is a network of fibres, a sap fills the interstices of the network.
+- [W11.1237] network resolves itself into a definite number of threads at each division
+- [W11.1238] These threads we call chromosomes.
+- [W11.1239] of animals and plants possesses a characteristic number of these threads
+- [W11.1240] which have a definite size and sometimes a specific shape and even
+- [W11.1241] characteristic granules at different levels.
+- [W11.1242] strongest microscopes fail to penetrate.
+- [W11.1243] Observation has reached, for the
+- [W11.1244] A series of cells in process of cell division.
+- [W11.1245] chromosomes are the black threads and rods.
+- [W11.1246] The story is taken up at this point by a new set of students who have
+- [W11.1247] worked in an entirely different field.
+- [W11.1248] Certain observations and experiments
+- [W11.1249] that we have not time to consider now, led a number of biologists to
+- [W11.1250] conclude that the chromosomes are the bearers of the hereditary units.
+- [W11.1251] so, there should be many such units carried by _each_ chromosome, for the
+- [W11.1252] number of chromosomes is limited while the number of independently
+- [W11.1253] inherited characters is large.
+- [W11.1254] In Drosophila it has been demonstrated not
+- [W11.1255] only that there are exactly as many groups of characters that are inherited
+- [W11.1256] together as there are pairs of chromosomes, but even that it is possible to
+- [W11.1257] locate one of these groups in a particular chromosome and to state the
+- [W11.1258] _relative position_ there of the factors for the characters.
+- [W11.1259] validity of this evidence is accepted, the study of the cell leads us
+- [W11.1260] finally in a mechanical, but not in a chemical sense, to the ultimate units
+- [W11.1261] about which the whole process of the transmission of the hereditary factors
+- [W11.1262] But before plunging into this somewhat technical matter (that is difficult
+- [W11.1263] only because it is unfamiliar), certain facts which are familiar for the
+- [W11.1264] most part should be recalled, because on these turns the whole of the
+- [W11.1265] An egg, and the division of the egg--the so-called
+- [W11.1266] The thousands of cells that make up the cell-state that we call an animal
+- [W11.1267] or plant come from the fertilized egg.
+- [W11.1268] An hour or two after fertilization
+- [W11.1269] the egg divides into two cells (fig.
+- [W11.1270] Then each half divides again.
+- [W11.1271] Each quarter next divides.
+- [W11.1272] The process continues until a large number of
+- [W11.1273] cells is formed and out of these organs mould themselves.
+- [W11.1274] Section of the egg of the beetle, Calligrapha,
+- [W11.1275] showing the pigment at one end where the germ cells will later develop as
+- [W11.1276] shown in the other two figures.
+- [W11.1277] At every division of the cell the chromosomes also divide.
+- [W11.1278] have come from the mother, half from the father.
+- [W11.1279] therefore, the sum total of all the chromosomes, and if these are the
+- [W11.1280] bearers of the hereditary qualities, every cell in the body, whatever its
+- [W11.1281] function, has a common inheritance.
+- [W11.1282] At an early stage in the development of the animal certain cells are set
+- [W11.1283] apart to form the organs of reproduction.
+- [W11.1284] In some animals these cells can
+- [W11.1285] be identified early in the cleavage (fig.
+- [W11.1286] The reproductive cells are at first like all the other cells in the body in
+- [W11.1287] that they contain a full complement of chromosomes, half paternal and half
+- [W11.1288] They divide as do the other cells of the body
+- [W11.1289] At each division each chromosome
+- [W11.1290] splits lengthwise and its halves migrate to opposite poles of the spindle
+- [W11.1291] But there comes a time when a new process appears in the germ cells (fig 49
+- [W11.1292] It is essentially the same in the egg and in the sperm cells.
+- [W11.1293] discovery of this process we owe to the laborious researches of many
+- [W11.1294] workers in many countries.
+- [W11.1295] The list of their names is long, and I shall not
+- [W11.1296] even attempt to repeat it.
+- [W11.1297] The chromosomes come together in pairs (fig.
+- [W11.1298] Each maternal chromosome mates with a paternal chromosome of the same
+- [W11.1299] In the upper row of the diagram a typical process
+- [W11.1300] of nuclear division, such as takes place in the early germ cells or in the
+- [W11.1301] In the lower row the separation of the chromosomes that have
+- [W11.1302] This sort of separation takes place at one of the two reduction
+- [W11.1303] Then follow two rapid divisions (fig.
+- [W11.1304] divisions the double chromosomes separate so that each resulting cell comes
+- [W11.1305] to contain some maternal and some paternal chromosomes, i.e. one or the
+- [W11.1306] other member of each pair.
+- [W11.1307] At the other division each chromosome simply
+- [W11.1308] splits as in ordinary cell division.
+- [W11.1309] The two maturation divisions of the sperm cell.
+- [W11.1310] Four sperms result, each with half (haploid) the full number (diploid) of
+- [W11.1311] The upshot of the process is that the ripe eggs (fig.
+- [W11.1312] 50) come to contain only half the total number of
+- [W11.1313] The two maturation divisions of the egg.
+- [W11.1314] divisions are unequal, so that two small polar bodies are formed one of
+- [W11.1315] these subsequently divides.
+- [W11.1316] The three polar bodies and the egg are
+- [W11.1317] comparable to the four sperms.]
+- [W11.1318] When the eggs are fertilized the whole number of chromosomes is restored
+- [W11.1319] THE MECHANISM OF MENDELIAN HEREDITY DISCOVERED IN THE BEHAVIOR OF THE
+- [W11.1320] If the factors in heredity are carried in the chromosomes and if the
+- [W11.1321] chromosomes are definite structures, we should anticipate that there should
+- [W11.1322] be as many _groups_ of characters as there are kinds of chromosomes.
+- [W11.1323] only one case has a sufficient number of characters been studied to show
+- [W11.1324] whether there is any correspondence between the number of hereditary groups
+- [W11.1325] of characters and the number of chromosomes.
+- [W11.1326] In the fruit fly, Drosophila
+- [W11.1327] ampelophila, we have found about 125 characters that are inherited in a
+- [W11.1328] On the opposite page is a list of some of them.
+- [W11.1329] It will be observed in this list that the characters are arranged in four
+- [W11.1330] groups, Groups I, II, III and IV.
+- [W11.1331] Three of these groups are equally large
+- [W11.1332] or nearly so; Group IV contains only two characters.
+- [W11.1333] into these groups because in heredity the members of each group tend to be
+- [W11.1334] inherited together, i.e., if two or more enter the cross together they tend
+- [W11.1335] to remain together through subsequent generations.
+- [W11.1336] member of one group is inherited entirely independently of any member of
+- [W11.1337] the other groups; in the same way as Mendel's yellow-green pair of
+- [W11.1338] characters is inherited independently of the round-wrinkled pair.
+- [W11.1339] _Group I_       _Group II_        _Group III_        _Group IV_
+- [W11.1340] Abnormal        Antlered          Band               Bent
+- [W11.1341] Bar             Apterous          Beaded             Eyeless
+- [W11.1342] Bifid           Arc               Cream III
+- [W11.1343] Bow             Balloon           Deformed
+- [W11.1344] Cherry          Black             Dwarf
+- [W11.1345] Chrome          Blistered         Ebony
+- [W11.1346] Cleft           Comma             Giant
+- [W11.1347] Club            Confluent         Kidney
+- [W11.1348] Depressed       Cream II          Low crossing over
+- [W11.1349] Dot             Curved            Maroon
+- [W11.1350] Eosin           Dachs             Peach
+- [W11.1351] Facet           Extra vein        Pink
+- [W11.1352] Forked          Fringed           Rough
+- [W11.1353] Furrowed        Jaunty            Safranin
+- [W11.1354] Fused           Limited           Sepia
+- [W11.1355] Green           Little crossover  Sooty
+- [W11.1356] Jaunty          Morula            Spineless
+- [W11.1357] Lemon           Olive             Spread
+- [W11.1358] Lethals, 13     Plexus            Trident
+- [W11.1359] Miniature       Purple            Truncate intensifier
+- [W11.1360] Notch           Speck             Whitehead
+- [W11.1361] Reduplicated    Strap             White ocelli
+- [W11.1362] If the factors for these characters are carried by the chromosomes, then we
+- [W11.1363] should expect that those factors that are carried by the same chromosome
+- [W11.1364] would be inherited together, provided the chromosomes are definite
+- [W11.1365] Chromosomes (diploid) of D. ampelophila.
+- [W11.1366] chromosomes are XX in the female and XY in the male.
+- [W11.1367] In the chromosome group of Drosophila, (fig.
+- [W11.1368] 52) there are _four_ pairs of
+- [W11.1369] chromosomes, three of nearly the same size and one much smaller.
+- [W11.1370] is there agreement between the number of hereditary groups and the number
+- [W11.1371] of the chromosomes, but even the size relations are the same, for there are
+- [W11.1372] three great groups of characters and three pairs of large chromosomes, and
+- [W11.1373] one small group of characters and one pair of small chromosomes.
+- [W11.1374] THE FOUR GREAT LINKAGE GROUPS OF DROSOPHILA AMPELOPHILA
+- [W11.1375] The following description of the characters of the wild fly may be useful
+- [W11.1376] in connection with the account of the modifications of these characters
+- [W11.1377] that appear in the mutants.
+- [W11.1378] The head and thorax of the wild fly are grayish-yellow, the abdomen is
+- [W11.1379] banded with alternate stripes of yellow and black.
+- [W11.1380] right), there are three narrow bands and a black tip.
+- [W11.1381] are five black bands (fig.
+- [W11.1382] The wings are gray with a surface
+- [W11.1383] texture of such a kind that at certain angles they are iridescent.
+- [W11.1384] are a deep, solid, brick-red.
+- [W11.1385] The minute hairs that cover the body have a
+- [W11.1386] very definite arrangement that is most obvious on the head and thorax.
+- [W11.1387] There is a definite number of larger hairs called bristles or chaetae which
+- [W11.1388] have a characteristic position and are used for diagnostic purposes in
+- [W11.1389] On the foreleg of the male there is a comb-like
+- [W11.1390] organ formed by a row of bristles; it is absent in the female.
+- [W11.1391] a secondary sexual character, and it is, so far as known, functionless.
+- [W11.1392] Some of the characters of the mutant types are shown in figures 53, 54, 55,
+- [W11.1393] The drawing of a single fly is often used here to illustrate more than
+- [W11.1394] This is done to economize space, but of course there would
+- [W11.1395] be no difficulty in actually bringing together in the same individual any
+- [W11.1396] two or more characters belonging to the same group (or to different
+- [W11.1397] Without colored figures it is not possible to show many of the
+- [W11.1398] most striking differences of these mutant races; at most dark and light
+- [W11.1399] coloring can be indicated by the shading of the body, wings, or eyes.
+- [W11.1400] In the six flies drawn in figure 53 there are shown five different wing
+- [W11.1401] The first of these types (a) is called cut, because the ends of
+- [W11.1402] the wings look as though they had been cut to a point.
+- [W11.1403] displaced downward and appressed and their bristle-like aristae are
+- [W11.1404] The second figure (b) represents a fly with a notch in the ends of the
+- [W11.1405] This character is dominant, but the same factor that produces the
+- [W11.1406] notch in the wings is also a recessive lethal factor; because of this
+- [W11.1407] latter effect of the character no males of this race exist, and the females
+- [W11.1408] of the race are never pure but hybrid.
+- [W11.1409] Every female with notch wings bred
+- [W11.1410] to a wild male, will produce in equal numbers notch winged daughters and
+- [W11.1411] daughters with normal wings.
+- [W11.1412] There will be half as many sons as daughters.
+- [W11.1413] The explanation of this peculiar result is quite simple.
+- [W11.1414] female has one X chromosome that carries the factor for notch and one X
+- [W11.1415] chromosome that is "normal".
+- [W11.1416] Daughters receiving the former chromosomes are
+- [W11.1417] notched because the factor for notch is dominant, but they are not killed
+- [W11.1418] since the lethal effect of the notch factor is recessive to the normal
+- [W11.1419] allelomorph carried by the other chromosome that the daughters get from
+- [W11.1420] This normal factor is recessive for notch but dominant for
+- [W11.1421] This same figure (b) is used here to show three other sex linked
+- [W11.1422] The spines on the thorax are twisted or kinky, which is due to
+- [W11.1423] The effect is best seen on the thorax, but all
+- [W11.1424] spines on the body are similarly modified; even the minute hairs are also
+- [W11.1425] Ruby eye color might be here represented--if the eyes in the
+- [W11.1426] The lighter color of the body and antennae is intended
+- [W11.1427] to indicate that the character tan is also present.
+- [W11.1428] antennae is the most certain way of identifying tan.
+- [W11.1429] interesting because they have lost the positive heliotropism that is so
+- [W11.1430] marked a feature in the behavior of D. ampelophila.
+- [W11.1431] the tan flies is inherited like all the other sex linked characters, it
+- [W11.1432] follows that when a tan female is bred to a wild male all the sons inherit
+- [W11.1433] the recessive tan color and indifference to light, while the daughters show
+- [W11.1434] the dominant sex linked character of their father, i.e., they are "gray",
+- [W11.1435] Hence when such a brood is disturbed the females fly
+- [W11.1436] to the light, but the males remain behind.
+- [W11.1437] One of the first mutants that appeared in D. ampelophila was called
+- [W11.1438] rudimentary on account of the condition of the wings (c).
+- [W11.1439] has appeared independently several times.
+- [W11.1440] In the drawing (c) the dark body
+- [W11.1441] color is intended to indicate "sable" and the lighter color of the eyes is
+- [W11.1442] intended to indicate eosin.
+- [W11.1443] This eye color, which is an allelomorph of
+- [W11.1444] white, is also interesting because in the female the color is deeper than
+- [W11.1445] In other cases of sex linked factors the character is the same
+- [W11.1446] In the fourth figure (d) the third and fourth longitudinal veins of the
+- [W11.1447] wing are _fused_ into one vein from the base of the wing to the level of
+- [W11.1448] the first cross-vein and in addition converge and meet near their outer
+- [W11.1449] The shape of the eye is represented in the figure as different from
+- [W11.1450] the normal, due to another factor called "bar".
+- [W11.1451] character, the hybrid condition being also narrow, but not so narrow as the
+- [W11.1452] Vermilion eye color might also be here represented--due to a
+- [W11.1453] factor that has appeared independently on several occasions.
+- [W11.1454] In the fifth figure (e) the wings are shorter and more pointed than in the
+- [W11.1455] This character is called miniature.
+- [W11.1456] drawing may be taken to represent yellow body color, and the light color of
+- [W11.1457] In the last figure (f) the wings are represented as pads, essentially in
+- [W11.1458] the same condition that they are in when the fly emerges from the pupa
+- [W11.1459] Not all the flies of this stock have the wings in this condition;
+- [W11.1460] some have fully expanded wings that appear normal in all respects.
+- [W11.1461] Nevertheless, about the same percentage of offspring show the pads
+- [W11.1462] irrespective of whether the parents had pads or expanded wings.
+- [W11.1463] The flies of this stock show, however, another character, which is a
+- [W11.1464] product of the same factor, and which is constant, i.e., repeated in all
+- [W11.1465] The two bristles on the sides of the thorax are constantly
+- [W11.1466] The lighter color of the eye in the figure may be
+- [W11.1467] taken to indicate buff--a faint yellowish color.
+- [W11.1468] color is another allelomorph of white.
+- [W11.1469] There are many other interesting characters that belong to the first group,
+- [W11.1470] such as abnormal abdomen, short legs, duplication of the legs, etc.
+- [W11.1471] fact, any part of the body may be affected by a sex-linked factor.
+- [W11.1472] In the first figure (a) of figure 54 that contains members of Group II the
+- [W11.1473] wings are almost entirely absent or "vestigial".
+- [W11.1474] single step and breeds true, although it appears to be influenced to some
+- [W11.1475] extent by temperature, also by modifiers that sometimes appear in the
+- [W11.1476] Purple eye color belongs in Group II; it resembles the color of the
+- [W11.1477] eye of the wild fly but is darker and more translucent.
+- [W11.1478] In the second figure (b) the wing is again long and narrow and sometimes
+- [W11.1479] bent back on itself, as shown here.
+- [W11.1480] In several respects the wing resembles
+- [W11.1481] strap (d) but seems to be due to another factor, called antler,
+- [W11.1482] insufficiently studied as yet.
+- [W11.1483] In the third figure (c) the wings turn up at the end.
+- [W11.1484] by the presence of the factor called jaunty.
+- [W11.1485] In the fourth figure the wings are long and narrow and several of the veins
+- [W11.1486] This character, "strap", is very variable and has not
+- [W11.1487] yet been thoroughly studied.
+- [W11.1488] On the thorax there is a deep black mark
+- [W11.1489] Even in the wild fly there is a three pronged mark on the
+- [W11.1490] thorax present in many individuals.
+- [W11.1491] Trefoil is a further development and
+- [W11.1492] modification of this mark and is due to a special factor.
+- [W11.1493] In the fifth figure (e) the wings are arched.
+- [W11.1494] dark color of the body, and especially of the wings, indicates the factor
+- [W11.1495] The sixth figure (f) shows the wings "curved" downwards.
+- [W11.1496] is present a minute black speck at the base of each wing, due to another
+- [W11.1497] In the seventh figure (g) the wing is truncate.
+- [W11.1498] squared instead of rounded; it may be longer than the body, or shorter when
+- [W11.1499] other modifying factors are present.
+- [W11.1500] The mutation that produces this type
+- [W11.1501] of wing is of not infrequent occurrence.
+- [W11.1502] It has been shown by Muller and
+- [W11.1503] Altenburg that there are at least two factors that modify this
+- [W11.1504] character--the chief factor is present in the second chromosome; alone it
+- [W11.1505] produces the truncate wing in only a certain percentage of cases, but when
+- [W11.1506] the modifiers are also present about ninety percent of the individuals may
+- [W11.1507] show the truncate condition of the wing.
+- [W11.1508] But the presence of these factors
+- [W11.1509] makes the stock very infertile, so that it is difficult to maintain.
+- [W11.1510] In the eighth figure (h) the legs are shortened owing to the absence of a
+- [W11.1511] The stock is called dachs--a nickname given to it
+- [W11.1512] because the short legs suggested the dachshund.
+- [W11.1513] In figure 55, (a), a mutant type called bithorax is shown.
+- [W11.1514] metathorax is replaced by another mesothorax thrust in between the normal
+- [W11.1515] mesothorax and the abdomen.
+- [W11.1516] It carries a pair of wings that do not
+- [W11.1517] On this new mesothorax the characteristic arrangement of
+- [W11.1518] Thus at a single step a typical region of the body
+- [W11.1519] The character is recessive.
+- [W11.1520] The size of the adult fly of D. ampelophila varies greatly according to the
+- [W11.1521] amount of nourishment obtained by the larva.
+- [W11.1522] After the fly emerges its size
+- [W11.1523] remains nearly constant, as in many insects.
+- [W11.1524] Two races have, however, been
+- [W11.1525] separated by Bridges that are different in size as a result of a genetic
+- [W11.1526] The first of these, called dwarf, is represented by figure 55, (b).
+- [W11.1527] The race is minute, although of course its size is variable, depending on
+- [W11.1528] food and other conditions.
+- [W11.1529] The same figure shows the presence of another
+- [W11.1530] factor, "sooty", that makes the fly very dark.
+- [W11.1531] here represented, due to still another factor.
+- [W11.1532] In the third figure (c) the other mutation in size is shown.
+- [W11.1533] The flies are twice the size of wild flies.
+- [W11.1534] peach, might here be represented.
+- [W11.1535] It is an allelomorph of pink.
+- [W11.1536] In the fourth figure (d) the mutant called dichaete is shown.
+- [W11.1537] characterized by the absence of two of the bristles on the thorax.
+- [W11.1538] bristles may also be absent, but not so constantly as the two just
+- [W11.1539] Another effect of the same factor is the spread-out condition of
+- [W11.1540] The very dark eye color in this figure may be taken to indicate
+- [W11.1541] the presence of another factor, "sepia", which causes the eyes to assume a
+- [W11.1542] brown color that becomes black with age.
+- [W11.1543] Most of the other mutations in eye
+- [W11.1544] color that have occurred tend to give a lighter color: this one, which is
+- [W11.1545] also recessive, makes the eye darker.
+- [W11.1546] In the fifth figure (e) the color of the darkest fly is due to a factor
+- [W11.1547] called ebony, which is an allelomorph of sooty.
+- [W11.1548] In the sixth figure (f) the wings are beaded, i.e., the margin is defective
+- [W11.1549] at intervals, giving a beaded-like outline to the wings.
+- [W11.1550] very variable and much affected by other factors that influence the shape
+- [W11.1551] The lighter eye color of the drawing may be taken to
+- [W11.1552] In the seventh figure (g) the wings are curled up over the back.
+- [W11.1553] Only two mutants have been obtained that do not belong to any of the
+- [W11.1554] preceding groups; these are put together in Group IV.
+- [W11.1555] that they are linked to each other and the linkage is so close that it has
+- [W11.1556] thus far been impossible to obtain the dominant recessive.
+- [W11.1557] mutants, called "eyeless" (fig.
+- [W11.1558] 56, a, a^1), is variable--the eyes are
+- [W11.1559] often entirely absent or represented by one or more groups of ommatidia.
+- [W11.1560] The outline of the original eye, so to speak, is strongly marked out and
+- [W11.1561] its area might be called a rudimentary organ, if such a statement has any
+- [W11.1562] The other figure (b) represents "bent", so called from the shape of the
+- [W11.1563] This mutant is likewise very variable, often indistinguishable from
+- [W11.1564] the wild type, yet when well developed strikingly different from any other
+- [W11.1565] This brief account of a few of the mutant races that can be most easily
+- [W11.1566] represented by uncolored figures will serve to show how all parts of the
+- [W11.1567] body may change, some of the changes being so slight that they would be
+- [W11.1568] overlooked except by an expert, others so great that in the character
+- [W11.1569] affected the flies depart far from the original species.
+- [W11.1570] _It is important to note that mutations in the first chromosome are not
+- [W11.1571] limited to any part of the body nor do they affect more frequently a
+- [W11.1572] The same statement holds equally for all of the other
+- [W11.1573] In fact, since each factor may affect visibly several parts of
+- [W11.1574] the body at the same time there are no grounds for expecting any special
+- [W11.1575] relation between a given chromosome and special regions of the body.
+- [W11.1576] not too insistently be urged that when we say a character is the product of
+- [W11.1577] a particular factor we mean no more than that it is the most conspicuous
+- [W11.1578] If, then, as these and other results to be described point to the
+- [W11.1579] chromosomes as the bearers of the Mendelian factors, and if, as will be
+- [W11.1580] shown presently, these factors have a definite location in the chromosomes
+- [W11.1581] it is clear that the location of the factors in the chromosomes bears no
+- [W11.1582] spatial relation to the location of the parts of the body to each other.
+- [W11.1583] LOCALIZATION OF FACTORS IN THE CHROMOSOMES
+- [W11.1584] _The Evidence from Sex Linked Inheritance_
+- [W11.1585] When we follow the history of pairs of chromosomes we find that their
+- [W11.1586] distribution in successive generations is paralleled by the inheritance of
+- [W11.1587] This is best shown in the sex chromosomes (fig.
+- [W11.1588] In the female there are two of these chromosomes that we call the X
+- [W11.1589] chromosomes; in the male there are also two but one differs from those of
+- [W11.1590] the female in its shape, and in the fact that it carries none of the normal
+- [W11.1591] allelomorphs of the mutant factors.
+- [W11.1592] It is called the Y chromosome.
+- [W11.1593] The course followed by the sex chromosomes and that by the characters in
+- [W11.1594] the case of sex linked inheritance are shown in the next diagram of
+- [W11.1595] Drosophila illustrating a cross between a white eyed male and a red eyed
+- [W11.1596] Scheme of sex determination in Drosophila type.
+- [W11.1597] Each _mature_ egg contains one X, each mature sperm contains one X, or a Y
+- [W11.1598] Chance union of any egg with any sperm will give either XX
+- [W11.1599] Cross between white eyed male of D. ampelophila and
+- [W11.1600] The sex chromosomes are indicated by the rods.
+- [W11.1601] indicates that the chromosome carries the factor for red; the open
+- [W11.1602] chromosome the factor for white eye color.]
+- [W11.1603] The first of these represents a cross between a white eyed male and a red
+- [W11.1604] The X chromosome in the male is represented
+- [W11.1605] by an open bar, the Y chromosome is bent.
+- [W11.1606] Each egg of such a female will contain one "black" X
+- [W11.1607] after the polar bodies have been thrown off.
+- [W11.1608] In the male there will be two
+- [W11.1609] classes of sperm--the female-producing, carrying the (open) X, and the
+- [W11.1610] male-producing, carrying the Y chromosome.
+- [W11.1611] Any egg fertilized by an X
+- [W11.1612] bearing sperm will produce a female that will have red eyes because the X
+- [W11.1613] (black) chromosome it gets from the mother carries the dominant factor for
+- [W11.1614] Any egg fertilized by a Y-bearing sperm will produce a male that will
+- [W11.1615] also have red eyes because he gets his (black) X chromosome from his
+- [W11.1616] When, then, these two F_1 flies (second row) are inbred the following
+- [W11.1617] combinations are expected.
+- [W11.1618] Each egg will contain a black X (red eye
+- [W11.1619] producing) or a white X (white eye producing) after the polar bodies have
+- [W11.1620] The male will produce two kinds of sperms, of which the
+- [W11.1621] female producing will contain a black X (red eye producing).
+- [W11.1622] may by chance be fertilized by any sperm there will result the four classes
+- [W11.1623] of individuals shown on the bottom row of the diagram.
+- [W11.1624] have red eyes, because irrespective of the two kinds of eggs involved all
+- [W11.1625] the female-producing sperm carry a black X.
+- [W11.1626] Half of the males have red eyes
+- [W11.1627] because half of the eggs have had each a red-producing X chromosome.
+- [W11.1628] other half of the males have white eyes, because the other half of the eggs
+- [W11.1629] had each a white-producing X chromosome.
+- [W11.1630] Other evidence has shown that the
+- [W11.1631] Y chromosome of the male is indifferent, so far as these Mendelian factors
+- [W11.1632] Cross between red eyed male and white eyed female;
+- [W11.1633] The reciprocal experiment is illustrated in figure 59.
+- [W11.1634] is mated to a red eyed male (top row).
+- [W11.1635] All the mature eggs of such a female
+- [W11.1636] contain one white-producing X chromosome represented by the open bar in the
+- [W11.1637] The red eyed male contains female-producing X-bearing sperm that
+- [W11.1638] carry the factor for red eye color, and male-producing Y chromosomes.
+- [W11.1639] egg fertilized by an X-bearing sperm will become a red eyed female because
+- [W11.1640] the X chromosome that comes from the father carries the dominant factor for
+- [W11.1641] Any egg fertilized by a Y-bearing sperm will become a male
+- [W11.1642] with white eyes because the only X chromosome that the male contains comes
+- [W11.1643] from his mother and is white producing.
+- [W11.1644] When these two F_1 flies are inbred (middle row) the following combinations
+- [W11.1645] Half the eggs will contain each a white producing X
+- [W11.1646] chromosome and half red producing.
+- [W11.1647] The female-producing sperms will each
+- [W11.1648] contain a white X and the male-producing sperms will each contain an
+- [W11.1649] Chance meetings of egg and sperm will give the
+- [W11.1650] four F_2 classes (bottom row).
+- [W11.1651] These consist of white eyed and red eyed
+- [W11.1652] females and white eyed and red eyed males.
+- [W11.1653] The ratio here is 1:1 and not
+- [W11.1654] three to one (3:1) as in other Mendelian cases.
+- [W11.1655] segregation is not transgressed, as the preceding analysis has shown; for,
+- [W11.1656] the chromosomes have followed strictly the course laid down on Mendel's
+- [W11.1657] principle for the distribution of factors.
+- [W11.1658] The peculiar result in this case
+- [W11.1659] is due to the fact that the F_1 male gets his single factor for eye color
+- [W11.1660] from his mother only and it is linked to or contained in a body (the X
+- [W11.1661] chromosome) that is involved in producing the females, while the mate of
+- [W11.1662] this body--the Y chromosome--is indifferent with regard to these factors,
+- [W11.1663] yet active as a mate to X in synapsis.
+- [W11.1664] Diagram of sex determination in type with XX female
+- [W11.1665] and XO male (after Wilson).]
+- [W11.1666] In man there are several characters that show exactly this same kind of
+- [W11.1667] Color blindness, or at least certain kinds of color blindness,
+- [W11.1668] appear to follow the same scheme.
+- [W11.1669] A color blind father transmits through
+- [W11.1670] his daughters his peculiarity to half of his grandsons, but to none of his
+- [W11.1671] The result is the same as in the case of the
+- [W11.1672] white eyed male of Drosophila.
+- [W11.1673] Color blind women are rather unusual, which
+- [W11.1674] is expected from the method of inheritance of this character, but in the
+- [W11.1675] few known cases where such color blind women have married normal husbands
+- [W11.1676] the sons have inherited the peculiarity from the mother (fig.
+- [W11.1677] again the result is the same as for the similar combination in Drosophila.
+- [W11.1678] After reduction half of the sperm carry 24
+- [W11.1679] chromosomes (one of which is X) and half carry 23 chromosomes (no X).]
+- [W11.1680] In man the sex formula appears to be XX for the female and XO for the male
+- [W11.1681] 60), and since the relation is essentially the same as that in
+- [W11.1682] Drosophila the chromosome explanation is the same.
+- [W11.1683] Winiwarter there are 48 chromosomes in the female and 47 in the male (fig.
+- [W11.1684] After the extrusion of the polar bodies there are 24 chromosomes in
+- [W11.1685] In the male at one of the two maturation divisions the X
+- [W11.1686] chromosome passes to one pole undivided (fig.
+- [W11.1687] are two classes of sperms in man; female producing containing 24
+- [W11.1688] chromosomes, and male producing containing 23 chromosomes.
+- [W11.1689] for color blindness is carried by the X chromosome its inheritance in man
+- [W11.1690] works out on the same chromosome scheme and in the same way as does white
+- [W11.1691] eye color (or any other sex linked character) in the fly, for the O sperm
+- [W11.1692] in man is equivalent to the Y sperm in the fly.
+- [W11.1693] In these cases we have been dealing with a single pair of characters.
+- [W11.1694] us now take a case where two pairs of sex linked characters enter the cross
+- [W11.1695] at the same time, and preferably a case where the two recessives enter the
+- [W11.1696] cross from the same parent.
+- [W11.1697] If a female with white eyes and yellow wings is crossed to a wild male with
+- [W11.1698] red eyes and gray wings (fig.
+- [W11.1699] 62), the sons are yellow and have white eyes
+- [W11.1700] and the daughters are gray and have red eyes.
+- [W11.1701] If two F_1 flies are mated
+- [W11.1702] they will produce the following classes.
+- [W11.1703] Cross between a white eyed, yellow winged female of
+- [W11.1704] D. ampelophila and a red eyed, gray winged male.
+- [W11.1705] characters, viz., white-red and yellow-gray are involved.
+- [W11.1706] Yellow  Gray  Yellow  Gray
+- [W11.1707] White   Red   Red     White
+- [W11.1708] ------------  -------------
+- [W11.1709] Not only have the two grandparental combinations reappeared, but in
+- [W11.1710] addition two new combinations, viz., grey white and yellow red.
+- [W11.1711] original combinations far exceed in numbers the new or exchange
+- [W11.1712] If we follow the history of the X chromosomes we discover
+- [W11.1713] that the _larger classes_ of grandchildren appear in accord with the way in
+- [W11.1714] which the X chromosomes are transmitted from one generation to the next.
+- [W11.1715] The _smaller classes_ of grandchildren, the exchange combinations or
+- [W11.1716] cross-overs, as we call them, can be explained by the assumption that at
+- [W11.1717] some stage in their history an interchange of parts has taken place between
+- [W11.1718] This is indicated in the diagrams.
+- [W11.1719] The most important fact brought out by the experiment is that the factors
+- [W11.1720] that went in together tend to stick together.
+- [W11.1721] what combination the members of the two pairs of characters enter, they
+- [W11.1722] tend to remain in that combination.
+- [W11.1723] If one admits that the sex chromosomes carry these factors for the
+- [W11.1724] sex-linked characters--and the evidence is certainly very strong in favor
+- [W11.1725] of this view--it follows necessarily from these facts that at some time in
+- [W11.1726] their history there has been an interchange between the two sex chromosomes
+- [W11.1727] There are several stages in the conjugation of the chromosomes at which
+- [W11.1728] such an interchange between the members of a pair might occur.
+- [W11.1729] further a small amount of direct evidence, unfortunately very meagre at
+- [W11.1730] present, showing that an interchange does actually occur.
+- [W11.1731] At the ripening period of the germ cell the members of each pair of
+- [W11.1732] chromosomes come together (fig.
+- [W11.1733] In several forms they have been
+- [W11.1734] described as meeting at one end and then progressively coming to lie side
+- [W11.1735] At the end of the process they
+- [W11.1736] appear to have completely united along their length (fig.
+- [W11.1737] is always a maternal and a paternal chromosome that meet in this way and
+- [W11.1738] always two of the same kind.
+- [W11.1739] It has been observed that as the members of a
+- [W11.1740] pair come together they occasionally twist around each other (fig.
+- [W11.1741] In consequence a part of one chromosome comes to be now
+- [W11.1742] on one side and now on the other side of its mate.
+- [W11.1743] Conjugation of chromosomes (side to side union) in
+- [W11.1744] the spermatogenesis of Batracoseps.
+- [W11.1745] When the chromosomes separate at the next division of the germ cell the
+- [W11.1746] part on one side passes to one pole, the part on the other to the opposite
+- [W11.1747] Whenever the chromosomes do not untwist at this
+- [W11.1748] time there must result an interchange of pieces where they were crossed
+- [W11.1749] Scheme to illustrate a method of crossing over of
+- [W11.1750] Janssens has found at the time of separation evidence in favor of the view
+- [W11.1751] that some such interchange probably takes place.
+- [W11.1752] We find this same process of interchange of characters taking place in each
+- [W11.1753] of the other three groups of Drosophila.
+- [W11.1754] An example will show this for the
+- [W11.1755] Scheme to illustrate double crossing over.]
+- [W11.1756] If a black vestigial male is crossed to a gray long-winged female (fig.
+- [W11.1757] the offspring are gray long.
+- [W11.1758] If an F_1 female is back-crossed to a black
+- [W11.1759] vestigial male the following kinds of flies are produced:
+- [W11.1760] Black        Gray       Black   Gray
+- [W11.1761] vestigial    long       long    vestigial
+- [W11.1762] -----------------       -----------------
+- [W11.1763] 83%                    17%
+- [W11.1764] The combinations that entered are more common in the F_2 generations than
+- [W11.1765] the cross-over classes, showing that there is linkage of the factors that
+- [W11.1766] Another curious fact is brought out if instead of back-crossing the F_1
+- [W11.1767] female we back-cross the F_1 male to a black vestigial female.
+- [W11.1768] offspring are now of only two kinds, black vestigial and gray long.
+- [W11.1769] means that in the male there is no crossing-over or interchange of pieces.
+- [W11.1770] This relation holds not only for the Group II but for all the other groups
+- [W11.1771] Why interchange takes place in the female of Drosophila and not in the male
+- [W11.1772] we do not know at present.
+- [W11.1773] We might surmise that when in the male the
+- [W11.1774] members of a pair come together they do not twist around each other, hence
+- [W11.1775] Cross between black vestigial and gray long flies.
+- [W11.1776] Two pairs of factors involved in the second group.
+- [W11.1777] crossed (to right) to black vestigial male; and the F_1 male is back
+- [W11.1778] crossed to black vestigial female (to left).
+- [W11.1779] Crossing over takes place in
+- [W11.1780] the F_1 female but not in the F_1 male.]
+- [W11.1781] Crossing-over took place between white and yellow only once in a hundred
+- [W11.1782] Other characters show different values, but the same value under the
+- [W11.1783] same conditions is obtained from the same pair of characters.
+- [W11.1784] Map of four chromosomes of D. ampelophila locating
+- [W11.1785] those factors in each group that have been most fully studied.]
+- [W11.1786] If we assume that the nearer together the factors lie in the chromosome the
+- [W11.1787] less likely is a twist to occur between them, and conversely the farther
+- [W11.1788] apart they lie the more likely is a twist to occur between them, we can
+- [W11.1789] understand how the linkage is different for different pairs of factors.
+- [W11.1790] On this basis we have made out chromosomal maps for each chromosome (fig.
+- [W11.1791] The diagram indicates those loci that have been most accurately
+- [W11.1792] _The Evidence from Interference_
+- [W11.1793] There is a considerable body of information that we have obtained that
+- [W11.1794] corroborates the location of the factors in the chromosome.
+- [W11.1795] is too technical to take up in any detail, but there is one result that is
+- [W11.1796] so important that I must attempt to explain it.
+- [W11.1797] over is brought about by twisting of the chromosomes, and if owing to the
+- [W11.1798] material of the chromosomes there is a most frequent distance of internode,
+- [W11.1799] then, when crossing over between nodes takes place at same level at a-b in
+- [W11.1800] figure 68, the region on each side of that point, a to A and b to B, should
+- [W11.1801] be protected, so to speak, from further crossing over.
+- [W11.1802] No other explanation so far proposed will account for
+- [W11.1803] this extraordinary relation.
+- [W11.1804] Scheme to indicate that when the members of a pair
+- [W11.1805] of chromosomes cross (at a-b) the region on each side is protected
+- [W11.1806] inversely to the distance from a-b.]
+- [W11.1807] What advantage, may be asked, is there in obtaining numerical data of this
+- [W11.1808] It is this:--whenever a new character appears we need only determine
+- [W11.1809] in which of the four groups it lies and its distance from two members
+- [W11.1810] With this information we can predict with a high degree
+- [W11.1811] of probability what results it will give with any other member of any
+- [W11.1812] Thus we can do on paper what would require many months of labor by
+- [W11.1813] making the actual experiment.
+- [W11.1814] In a word we can predict what will happen in
+- [W11.1815] a situation where prediction is impossible without this numerical
+- [W11.1816] _The Evidence from Non-Disjunction_
+- [W11.1817] In the course of the work on Drosophila exceptions appeared in one strain
+- [W11.1818] where certain individuals did not conform to the scheme of sex linked
+- [W11.1819] For a moment the hypothesis seemed to fail, but a careful
+- [W11.1820] examination led to the suspicion that in this strain something had happened
+- [W11.1821] It was seen that if in some way the X chromosomes
+- [W11.1822] failed to disjoin in certain eggs, the exceptions could be explained.
+- [W11.1823] analysis led to the suggestion that if the Y chromosome had got into the
+- [W11.1824] female line the results would be accounted for, since its presence there
+- [W11.1825] would be expected to cause this peculiar non-disjunction of the X
+- [W11.1826] That this was the explanation was shown when the material was examined.
+- [W11.1827] females that gave these results were found by Bridges to have two X's and a
+- [W11.1828] The normal chromosome group of the female is shown in figure 52 and the
+- [W11.1829] chromosome group of one of the exceptional females is shown in figure 69.
+- [W11.1830] In a female of this kind there are three sex chromosomes X X Y which are
+- [W11.1831] homologous in the sense that in normal individuals the two present are
+- [W11.1832] mates and separate at the reduction division.
+- [W11.1833] If in the X X Y individual X
+- [W11.1834] and X conjugate and separate at reduction and the unmated Y is free to move
+- [W11.1835] to either pole of the spindle, two kinds of mature eggs will result, viz.,
+- [W11.1836] If, on the other hand, X and Y conjugate and separate at
+- [W11.1837] reduction and the remaining X is free to go to either pole, four kinds of
+- [W11.1838] eggs will result--XY--X--XX--Y.
+- [W11.1839] As a total result four kinds of eggs are
+- [W11.1840] expected: viz. many XY and X eggs and a few XX and Y eggs.
+- [W11.1841] Figure of the chromosome group of an XXY female,
+- [W11.1842] that gives non-disjunction.]
+- [W11.1843] These four kinds of eggs may be fertilized either by female-producing
+- [W11.1844] sperms or male-producing sperms, as indicated in the diagram (fig.
+- [W11.1845] Scheme showing the results of fertilizing white
+- [W11.1846] bearing eggs (4 kinds) resulting from non-disjunction.
+- [W11.1847] the diagram gives the results when these eggs are fertilized by normal red
+- [W11.1848] bearing, female producing sperm, the lower half by normal, male producing
+- [W11.1849] If such an XXY female carried white bearing Xs (open X in the figures), and
+- [W11.1850] the male carried a red bearing X (black X in the figures) it will be seen
+- [W11.1851] that there should result an exceptional class of sons that are red, and an
+- [W11.1852] exceptional class of daughters that are white.
+- [W11.1853] show that they behave subsequently in heredity as their composition
+- [W11.1854] Other tests may also be made of the other classes of offspring.
+- [W11.1855] Bridges has shown that they fulfill all the requirements predicted.
+- [W11.1856] result that seemed in contradiction with the chromosome hypothesis has
+- [W11.1857] turned out to give a brilliant confirmation of that theory both genetically
+- [W11.1858] HOW MANY GENETIC FACTORS ARE THERE IN THE GERM-PLASM OF A SINGLE INDIVIDUAL
+- [W11.1859] In passing I invite your attention to a speculation based on our maps of
+- [W11.1860] the chromosomes--a speculation which I must insist does not pretend to be
+- [W11.1861] more than a guess but has at least the interest of being the first guess
+- [W11.1862] that we have ever been in position to make as to how many factors go
+- [W11.1863] towards the makeup of the germ plasm.
+- [W11.1864] We have found practically no factors less than .04 of a unit apart.
+- [W11.1865] map includes the entire length of the chromosomes and if we assume factors
+- [W11.1866] are uniformly distributed along the chromosome at distances equal to the
+- [W11.1867] shortest distance yet observed, viz. .04, then we can calculate roughly how
+- [W11.1868] many hereditary factors there are in Drosophila.
+- [W11.1869] The reader should be cautioned against accepting the
+- [W11.1870] above assumptions as strictly true, for crossing-over values are known to
+- [W11.1871] differ according to different environmental conditions (as shown by Bridges
+- [W11.1872] for age), and to differ even in different parts of the chromosome as a
+- [W11.1873] result of the presence of specific genetic factors (as shown by
+- [W11.1874] Since all the chromosomes except the X chromosomes are double
+- [W11.1875] we must double our estimate to give the _total_ number of factors, but the
+- [W11.1876] half number is the number of the different kinds of factors of Drosophila.
+- [W11.1877] I have passed in review a long series of researches as to the nature of the
+- [W11.1878] We have in consequence of this work arrived within
+- [W11.1879] sight of a result that seemed a few years ago far beyond our reach.
+- [W11.1880] mechanism of heredity has, I think, been discovered--discovered not by a
+- [W11.1881] flash of intuition but as the result of patient and careful study of the
+- [W11.1882] With the discovery of this mechanism I venture the opinion that the problem
+- [W11.1883] of heredity has been solved.
+- [W11.1884] We know how the factors carried by the parents
+- [W11.1885] are sorted out to the germ cells.
+- [W11.1886] The explanation does not pretend to state
+- [W11.1887] how factors arise or how they influence the development of the embryo.
+- [W11.1888] these have never been an integral part of the doctrine of heredity.
+- [W11.1889] problems which they present must be worked out in their own field.
+- [W11.1890] repeat, the mechanism of the chromosomes offers a satisfactory solution of
+- [W11.1891] the traditional problem of heredity.
+- [W11.1892] *       *       *       *       *
+- [W11.1893] Darwin's Theory of Natural Selection still holds today first place in every
+- [W11.1894] discussion of evolution, and for this very reason the theory calls for
+- [W11.1895] careful scrutiny; for it is not difficult to show that the expression
+- [W11.1896] "natural selection" is to many men a metaphor that carries many meanings,
+- [W11.1897] and sometimes different meanings to different men.
+- [W11.1898] with my fellow biologists in ascribing to Darwin himself, and to his work,
+- [W11.1899] the first place in biological philosophy, yet recognition of this claim
+- [W11.1900] should not deter us from a careful analysis of the situation in the light
+- [W11.1901] of work that has been done since Darwin's time.
+- [W11.1902] THE THEORY OF NATURAL SELECTION
+- [W11.1903] In his great book on the _Origin of Species_, Darwin tried to do two
+- [W11.1904] things: first, to show that the evidence bearing on evolution makes that
+- [W11.1905] No such great body of evidence had ever been brought
+- [W11.1906] together before, and it wrought, as we all know, a revolution in our modes
+- [W11.1907] Darwin also set himself the task of showing _how_ evolution might have
+- [W11.1908] He pointed to the influence of the environment, to the effects
+- [W11.1909] of use and disuse, and to natural selection.
+- [W11.1910] It is to the last theory that
+- [W11.1911] his name is especially attached.
+- [W11.1912] He appealed to a fact familiar to
+- [W11.1913] everyone, that no two individuals are identical and that some of the
+- [W11.1914] differences that they show are inherited.
+- [W11.1915] He argued that those individuals
+- [W11.1916] that are best suited to their environment are the most probable ones to
+- [W11.1917] survive and to leave most offspring.
+- [W11.1918] In consequence their descendants
+- [W11.1919] should in time replace through competition the less well-adapted
+- [W11.1920] individuals of the species.
+- [W11.1921] This is the process Darwin called natural
+- [W11.1922] selection, and Spencer the survival of the fittest.
+- [W11.1923] Stated in these general terms there is nothing in the theory to which
+- [W11.1924] anyone is likely to take exception.
+- [W11.1925] But let us examine the argument more
+- [W11.1926] Series of leaves of a tree arranged according to
+- [W11.1927] If we measure, or weigh, or classify any character shown by the individuals
+- [W11.1928] of a population, we find differences.
+- [W11.1929] We recognize that some of the
+- [W11.1930] differences are due to the varied experiences that the individuals have
+- [W11.1931] encountered in the course of their lives, i.e. to their environment, but we
+- [W11.1932] also recognize that some of the differences may be due to individuals
+- [W11.1933] having different inheritances--different germ plasms.
+- [W11.1934] examples will help to bring home this relation.
+- [W11.1935] If the leaves of a tree are arranged according to size (fig.
+- [W11.1936] continuous series, but there are more leaves of medium size than extremes.
+- [W11.1937] If a lot of beans be sorted out according to their weights, and those
+- [W11.1938] between certain weights put into cylinders, the cylinders, when arranged
+- [W11.1939] according to the size of the beans, will appear as shown in figure 72.
+- [W11.1940] imaginary line running over the tops of the piles will give a curve (fig.
+- [W11.1941] 73) that corresponds to the curve of probability (fig.
+- [W11.1942] Beans put into cylindrical jars according to the
+- [W11.1943] The jars arranged according to size of contained beans.
+- [W11.1944] A curve resulting from arrangement of beans
+- [W11.1945] If we stand men in lines according to their height (fig.
+- [W11.1946] Students arranged according to size.
+- [W11.1947] The differences in size shown by the individual beans or by the individual
+- [W11.1948] men are due in part to heredity, in part to the environment in which they
+- [W11.1949] This is a familiar fact of almost every-day observation.
+- [W11.1950] is well shown in the following example.
+- [W11.1951] In figure 76 the two boys and the
+- [W11.1952] two varieties of corn, which they are holding, differ in height.
+- [W11.1953] pedigrees of the boys (fig.
+- [W11.1954] 77) make it probable that their height is
+- [W11.1955] largely inherited and the two races of corn are known to belong to a tall
+- [W11.1956] and a short race respectively.
+- [W11.1957] Here, then, the chief effect or difference
+- [W11.1958] On the other hand, if individuals of the same race
+- [W11.1959] develop in a favorable environment the result is different from the
+- [W11.1960] development in an unfavorable environment, as shown in figure 78.
+- [W11.1961] the right the corn is crowded and in consequence dwarfed, while to the left
+- [W11.1962] the same kind of corn has had more room to develop and is taller.
+- [W11.1963] A short and a tall boy each holding a stalk of
+- [W11.1964] corn--one stalk of a race of short corn, the other of tall corn.
+- [W11.1965] Pedigree of boys shown in Fig.
+- [W11.1966] Darwin knew that if selection of particular kinds of individuals of a
+- [W11.1967] population takes place the next generation is affected.
+- [W11.1968] of a community are selected _the average_ of their offspring will be taller
+- [W11.1969] than the average of the former population.
+- [W11.1970] If selection for tallness again
+- [W11.1971] takes place, still taller men will _on the average_ arise.
+- [W11.1972] these, selection again makes a choice the process would, he thought,
+- [W11.1973] A race of corn reared under different conditions.]
+- [W11.1974] We now recognize that this statement contains an important truth, but we
+- [W11.1975] have found that it contains only a part of the truth.
+- [W11.1976] for himself this kind of selection experiment will find that while his
+- [W11.1977] average class will often change in the direction of his selection, the
+- [W11.1978] process slows down as a rule rather suddenly (fig.
+- [W11.1979] that the limits of variability are not necessarily transcended as the
+- [W11.1980] process continues even although the average may for a while be increased.
+- [W11.1981] More tall men may be produced by selection of this kind, but the tallest
+- [W11.1982] men are not necessarily any taller than the tallest in the original
+- [W11.1983] Curves showing how (hypothetically) selection might
+- [W11.1984] be supposed to bring about progress in direction of selection.
+- [W11.1985] Selection, then, has not produced anything new, but only more of certain
+- [W11.1986] Evolution, however, means producing more new things,
+- [W11.1987] not more of what already exists.
+- [W11.1988] Darwin seems to have thought that the range of variation shown by the
+- [W11.1989] offspring of a given individual about that type of individual would be as
+- [W11.1990] wide as the range shown by the original population (fig.
+- [W11.1991] work has made it clear that this is not the case in a general or mixed
+- [W11.1992] If the offspring of individuals continued to show, as Darwin
+- [W11.1993] seems to have thought, as wide a range on each side of their parents' size,
+- [W11.1994] so to speak, as did the original population, then it would follow that
+- [W11.1995] selection could slide successive generations along in the direction of
+- [W11.1996] Diagram illustrating the results of selection for
+- [W11.1997] extra bristles in D. ampelophila.
+- [W11.1998] Selection at first produces decided
+- [W11.1999] effects which soon slow down and then cease.
+- [W11.2000] Darwin himself was extraordinarily careful, however, in the statements he
+- [W11.2001] made in this connection and it is rather by implication than by actual
+- [W11.2002] reference that one can ascribe this meaning to his views.
+- [W11.2003] contemporaries and many of his followers, however, appear to have accepted
+- [W11.2004] this _sliding scale_ interpretation as the cardinal doctrine of evolution.
+- [W11.2005] If this is doubted or my statement is challenged then one must explain why
+- [W11.2006] de Vries' mutation theory met with so little enthusiasm amongst the older
+- [W11.2007] group of zoölogists and botanists; and one must explain why Johannsen's
+- [W11.2008] splendid work met with such bitter opposition from the English school--the
+- [W11.2009] biometricians--who amongst the post-Darwinian school are assumed to be the
+- [W11.2010] lineal descendants of Darwin.
+- [W11.2011] And in this connection we should not forget that just this sort of process
+- [W11.2012] was supposed to take place in the inheritance of use and disuse.
+- [W11.2013] gained in one generation forms the basis for further gains in the next
+- [W11.2014] Now, Darwin not only believed that acquired characters are
+- [W11.2015] inherited but turned more and more to this explanation in his later
+- [W11.2016] Let us, however, not make too much of the matter; for it is much
+- [W11.2017] less important to find out whether Darwin's ideas were vague, than it is to
+- [W11.2018] make sure that our own ideas are clear.
+- [W11.2019] If I have made several statements here that appear dogmatic let me now
+- [W11.2020] attempt to justify them, or at least give the evidence which seems to me to
+- [W11.2021] The work of the Danish botanist, Johannsen, has given us the most carefully
+- [W11.2022] analyzed case of selection that has ever been obtained.
+- [W11.2023] moreover, special reasons why the material that he used is better suited to
+- [W11.2024] give definite information than any other so far studied.
+- [W11.2025] with the common bean, weighing the seeds or else measuring them.
+- [W11.2026] beans if taken from many plants at random give the typical curve of
+- [W11.2027] The plant multiplies by self-fertilization.
+- [W11.2028] advantage of this fact Johannsen kept the seeds of each plant separate from
+- [W11.2029] the others, and raised from them a new generation.
+- [W11.2030] from these new groups it was found that some of them had different modes
+- [W11.2031] from that of the original general population (fig.
+- [W11.2032] They are shown in the upper groups (A, B, C, D, E).
+- [W11.2033] me to say that the offspring of each bean gave a different mode.
+- [W11.2034] The lower figure gives the
+- [W11.2035] general population, the other figures give the pure lines within the
+- [W11.2036] On the contrary, some of the lines would be the same.
+- [W11.2037] The result means that the general population is made up of definite kinds
+- [W11.2038] of individuals that may have been sorted out.
+- [W11.2039] That his conclusion is correct is shown by rearing a new generation from
+- [W11.2040] any plant or indeed from several plants of any one of these lines.
+- [W11.2041] line repeats the same modal class.
+- [W11.2042] There is no further breaking up into
+- [W11.2043] Within the line it does not matter at all whether one chooses a big
+- [W11.2044] bean or a little one--they will give the same result.
+- [W11.2045] plasm in each of these lines is pure, or homozygous, as we say.
+- [W11.2046] differences that we find between the weights (or sizes) of the individual
+- [W11.2047] beans are due to external conditions to which they have been subjected.
+- [W11.2048] In a word, Johannsen's work shows that the frequency distribution of a pure
+- [W11.2049] line is due to factors that are extrinsic to the germ plasm.
+- [W11.2050] matter then which individuals in a pure line are used to breed from, for
+- [W11.2051] they all carry the same germ plasm.
+- [W11.2052] We can now understand more clearly how selection acting on a general
+- [W11.2053] population brings about results in the direction of selection.
+- [W11.2054] An individual is picked out from the population in order to get a
+- [W11.2055] particular kind of germ plasm.
+- [W11.2056] Although the different classes of
+- [W11.2057] individuals may overlap, so that one can not always judge an individual
+- [W11.2058] from its appearance, nevertheless on the whole chance favors the picking
+- [W11.2059] out of the kind of germ plasm sought.
+- [W11.2060] In species with separate sexes there is the further difficulty that two
+- [W11.2061] individuals must be chosen for each mating, and superficial examination of
+- [W11.2062] them does not insure that they belong to the same group--their germ plasm
+- [W11.2063] Hence selection of biparental forms is a precarious
+- [W11.2064] process, now going forward, now backwards, now standing still.
+- [W11.2065] however, the process forward is almost certain to take place if the
+- [W11.2066] selection is from a heterogeneous population.
+- [W11.2067] simplified because he started with pure lines.
+- [W11.2068] In fact, had he not done so
+- [W11.2069] his work would not have been essentially different from that of any
+- [W11.2070] selection experiment of a pure race of animals or plants.
+- [W11.2071] realized the importance of the condition or not is uncertain--curiously he
+- [W11.2072] laid no emphasis on it in the first edition of his "Elemente der exakten
+- [W11.2073] It has since been pointed out by Jennings and by Pearl that a race that
+- [W11.2074] reproduces by self-fertilization as does this bean, automatically becomes
+- [W11.2075] pure in all of the factors that make up its germ plasm.
+- [W11.2076] self-fertilization is the normal process in this bean the purity of the
+- [W11.2077] germ plasm already existed when Johannsen began to experiment.
+- [W11.2078] HOW HAS SELECTION IN DOMESTICATED ANIMALS AND PLANTS BROUGHT ABOUT ITS
+- [W11.2079] If then selection does not bring about transgressive variation in a general
+- [W11.2080] population, how can selection produce anything new?
+- [W11.2081] anything new, is there any other way in which selection becomes an agent in
+- [W11.2082] We can get some light on this question if we turn to what man has done with
+- [W11.2083] his domesticated animals and plants.
+- [W11.2084] Through selection, i.e., artificial
+- [W11.2085] selection, man has undoubtedly brought about changes as remarkable as any
+- [W11.2086] shown by wild animals and plants.
+- [W11.2087] We know, moreover, a good deal about how
+- [W11.2088] these changes have been wrought.
+- [W11.2089] (1) By crossing different wild species or by crossing wild with races
+- [W11.2090] already domesticated new combinations have been made.
+- [W11.2091] individual have been combined with parts of others, creating new
+- [W11.2092] It is possible even that characters that are entirely new may
+- [W11.2093] be produced by the interaction of factors brought into recombination.
+- [W11.2094] (2) New characters appear from time to time in domesticated and in wild
+- [W11.2095] These, like the mutants in Drosophila, are fully equipped at the
+- [W11.2096] Since they breed true and follow Mendel's laws it is possible to
+- [W11.2097] combine them with characters of the wild type or with those of other mutant
+- [W11.2098] Amongst the new mutant factors there may be some whose chief effect is on
+- [W11.2099] the character that the breeder is already selecting.
+- [W11.2100] will be likely to attract attention.
+- [W11.2101] Superficially it may appear that the
+- [W11.2102] factor for the original character has varied, while the truth may be that
+- [W11.2103] another factor has appeared that has modified a character already present.
+- [W11.2104] In fact, many or all Mendelian factors that affect the same organ may be
+- [W11.2105] said to be modifiers of each other's effects.
+- [W11.2106] Thus the factor for vermilion
+- [W11.2107] causes the eye to be one color, and the factor for eosin another color,
+- [W11.2108] while eosin vermilion is different from both.
+- [W11.2109] modifier of vermilion or vermilion of eosin.
+- [W11.2110] In general, however, it is
+- [W11.2111] convenient to use the term "modifier" for cases in which the factor causes
+- [W11.2112] a detectable change in a character already present or conspicuous.
+- [W11.2113] Scheme to indicate influence of the modifying
+- [W11.2114] factors, cream and whiting.
+- [W11.2115] Neither produces any effect alone but they
+- [W11.2116] modify other eye colors such as eosin.]
+- [W11.2117] One of the most interesting, and at the same time most treacherous, kinds
+- [W11.2118] of modifying factors is that which produces an effect _only_ when some
+- [W11.2119] Thus Bridges has shown that there is a factor
+- [W11.2120] called "cream" that does not affect the red color of the eye of the wild
+- [W11.2121] fly, yet makes "eosin" much paler (fig.
+- [W11.2122] Another factor "whiting" which
+- [W11.2123] produces no effect on red makes eosin entirely white.
+- [W11.2124] whiting may be carried by red eyed flies without their presence being seen
+- [W11.2125] until eosin is used, the experimenter must be continually on the lookout
+- [W11.2126] for such factors which may lead to erroneous conclusions unless detected.
+- [W11.2127] As yet breeders have not realized the important rôle that modifiers have
+- [W11.2128] played in their results, but there are indications at least that the
+- [W11.2129] heaping up of modifying factors has been one of the ways in which highly
+- [W11.2130] specialized domesticated animals have been produced.
+- [W11.2131] accomplished this result not by changing factors, but by picking up
+- [W11.2132] The demonstration of the presence of these factors has
+- [W11.2133] already been made in some cases.
+- [W11.2134] Their study promises to be one of the most
+- [W11.2135] instructive fields for further work bearing on the selection hypothesis.
+- [W11.2136] In addition to these well recognized methods by which artificial selection
+- [W11.2137] has produced new things we come now to a question that is the very crux of
+- [W11.2138] the selection theory today.
+- [W11.2139] Our whole conception of selection turns on the
+- [W11.2140] answer that we give to this matter and if I appear insistent and go into
+- [W11.2141] some detail it is because I think that the matter is worth very careful
+- [W11.2142] ARE FACTORS CHANGED THROUGH SELECTION?
+- [W11.2143] As we have seen, the variation that we find from individual to individual
+- [W11.2144] is due in part to the environment; this can generally be demonstrated.
+- [W11.2145] Other differences in an ordinary population are recognized as due to
+- [W11.2146] different genetic (hereditary) combinations.
+- [W11.2147] But is all the variability accounted for in these two ways?
+- [W11.2148] not a factor itself fluctuate?
+- [W11.2149] Is it not _a priori_ probable that factors
+- [W11.2150] Why, in a word, should we regard factors as inviolate when we
+- [W11.2151] see that everything else in organisms is more or less in amount?
+- [W11.2152] know of any _a priori_ reason why a factor may not fluctuate, unless it is,
+- [W11.2153] as I like to think, a chemical molecule.
+- [W11.2154] We are, however, dealing here not
+- [W11.2155] with generalities but with evidence, and there are three known methods by
+- [W11.2156] means of which it has been shown that variability, other than environmental
+- [W11.2157] or recombinational, is not due to variability in a factor, nor to various
+- [W11.2158] "potencies" possessed by the same factors.
+- [W11.2159] (1) By making the stock uniform for all of its factors--chief factors and
+- [W11.2160] Any change in such a stock produced by selection would
+- [W11.2161] then be due to a change in one or more of the factors themselves.
+- [W11.2162] Johannsen's experiment is an example of this sort.
+- [W11.2163] Drosophila ampelophila with truncate wings.]
+- [W11.2164] (2) The second method is one that is capable of _demonstrating_ that the
+- [W11.2165] effects of selection are actually due to modifiers.
+- [W11.2166] in our laboratory, chiefly by Muller, and used in a particular case to
+- [W11.2167] demonstrate that selection produced its effect by isolating modifying
+- [W11.2168] For example, a mutant type called truncate appeared, characterized
+- [W11.2169] by shorter wings, usually square at the end, (fig.
+- [W11.2170] from those of normal length to wings much shorter (fig.
+- [W11.2171] years the mutant stock was bred from individuals having the shorter wings
+- [W11.2172] until at last a stock was obtained in which some of the individuals had
+- [W11.2173] wings much shorter than the body.
+- [W11.2174] By means of linkage experiments it was
+- [W11.2175] shown that at least three factors were present that modified the wings.
+- [W11.2176] These were isolated by means of their linkage relations, and their mutual
+- [W11.2177] influence on the production of truncate wings was shown.
+- [W11.2178] Series of wings of different length shown by
+- [W11.2179] truncate stock of D. ampelophila.]
+- [W11.2180] An experiment of this kind can only be carried out in a case where the
+- [W11.2181] groups of linked gens are known.
+- [W11.2182] At present Drosophila is the only animal
+- [W11.2183] (or plant) sufficiently well known to make this test possible, but this
+- [W11.2184] does not prove that the method is of no value.
+- [W11.2185] that any claim that factors can themselves be changed can have no finality
+- [W11.2186] until the claim can be tested out by means of the linkage test.
+- [W11.2187] descended from a single original mutant.
+- [W11.2188] selection within our stock will make the bar eye narrower or broader
+- [W11.2189] according to the direction of selection.
+- [W11.2190] It remains to be shown in this
+- [W11.2191] case how selection has produced its effects, and this can be done by
+- [W11.2192] utilizing the same process that was used in the case of truncate.
+- [W11.2193] Another mutant stock called beaded (fig.
+- [W11.2194] 84), has been bred for five years
+- [W11.2195] and selected for wings showing more beading.
+- [W11.2196] In extreme cases the wings
+- [W11.2197] have been reduced to mere stumps (see stumpy, fig.
+- [W11.2198] It is probable here as Dexter has shown, that a number
+- [W11.2199] of mutant factors that act as modifiers have been picked up in the course
+- [W11.2200] of the selection, and when it is recalled that during those five years over
+- [W11.2201] 125 new characters have appeared elsewhere it does not seem improbable that
+- [W11.2202] factors also have appeared that modify the wings of this stock.
+- [W11.2203] Two flies showing beaded wings.]
+- [W11.2204] (3) The third method is one that has been developed principally by East for
+- [W11.2205] plants; also by MacDowell for rabbits and flies.
+- [W11.2206] to prove that modifiers are present, but it shows why certain results are
+- [W11.2207] in harmony with that expectation and can not be accounted for on the basis
+- [W11.2208] that a factor has changed.
+- [W11.2209] large body was crossed to a common rabbit with a small body the hybrid was
+- [W11.2210] When the hybrid was crossed back to the smaller type
+- [W11.2211] it produced rabbits of various sizes in apparently a continuous series.
+- [W11.2212] MacDowell made measurements of the range of variability in the first and in
+- [W11.2213] _Classification in relation to parents based on skull lengths and ulna
+- [W11.2214] lengths, to show the relative variability of two measurements and of
+- [W11.2215] the first generation (F_1) and the back cross (B.
+- [W11.2216] CHARACTER|GENERATION|-13|-12|-11|-10| -9| -8| -7| -6| -5| -4| -3| -2| -1|
+- [W11.2217] ---------+----------+---+---+---+---+---+---+---+---+---+---+---+---+---+
+- [W11.2218] Length of{   F_1    |   |   |   |   |   |   |   |   |   |   |   |   |   |
+- [W11.2219] skull  {   B.C.   |   |   |   |   |   |   |   |   |   |   |   |   |  3|
+- [W11.2220] Length of{   F_1    |   |   |   |   |   |   |   |   |   |   |   |   |   |
+- [W11.2221] ulna   {   B.C.   |  1|   |   |   |   |  1|   |  2|  3|  1|  2|  4|  4|
+- [W11.2222] CHARACTER|GENERATION|  0|  1|  2|  3|  4|  5|  6|  7|  8|  9| 10| 11| 12|
+- [W11.2223] ---------+----------+---+---+---+---+---+---+---+---+---+---+---+---+---+
+- [W11.2224] Length of{   F_1    |   |   |   |   |   |   |   |  2|  2|  8|  5| 10|  7|
+- [W11.2225] skull  {   B.C.   |  6|  4| 13| 18| 42| 32| 38| 34| 16| 16|  8|  4|  3|
+- [W11.2226] Length of{   F_1    |   |  1|   |   |  2|   |  1|  1|  1|  2|  2|  5|  3|
+- [W11.2227] ulna   {   B.C.   | 12| 11| 20| 26| 17| 19| 18| 15| 12| 13| 15| 11|  5|
+- [W11.2228] CHARACTER|GENERATION| 13| 14| 15| 16| 17| 18| 19| 20| 21| 22| 23| 24| 25|
+- [W11.2229] ---------+----------+---+---+---+---+---+---+---+---+---+---+---+---+---+
+- [W11.2230] Length of{   F_1    |  3|  2|  2|   |   |   |   |   |   |   |   |   |   |
+- [W11.2231] skull  {   B.C.   |  1|   |   |   |   |   |   |   |   |   |   |   |   |
+- [W11.2232] Length of{   F_1    |  1|  7|  3|  2|  1|   |   |   |  2|   |  1|   |  1|
+- [W11.2233] ulna   {   B.C.   |  2|  4|  2|  2|   |   |  1|  1|   |   |   |   |   |
+- [W11.2234] He found that the variability was smaller in the first generation than in
+- [W11.2235] the second generation (back cross).
+- [W11.2236] This is what is expected if several
+- [W11.2237] factor-differences were involved, because the hybrids of the first
+- [W11.2238] generation are expected to be more uniform in factorial composition than
+- [W11.2239] are those in the second generation which are produced by recombination of
+- [W11.2240] the factors introduced through their grandparents.
+- [W11.2241] of the same kinds of results have been found in Indian corn.
+- [W11.2242] figure 85 the length of the cob in F_1 is intermediate between the parent
+- [W11.2243] types while in F_2 the range is wider and both of the original types are
+- [W11.2244] East states that similar relations have been found for 18
+- [W11.2245] Emerson has recently furnished further illustrations of
+- [W11.2246] the same relations in the length of stalks in beans.
+- [W11.2247] Cross between two races of Indian corn, one with
+- [W11.2248] short cobs and one with long cobs.
+- [W11.2249] The range of variability in F_1 is less
+- [W11.2250] A similar case is shown by a cross between fantail and common pigeons (fig.
+- [W11.2251] The latter have twelve feathers in the tail, while the selected race
+- [W11.2252] from which the fantails came had between 28 and 38 feathers in the tail.
+- [W11.2253] The F_1 offspring (forty-one individuals) showed (fig.
+- [W11.2254] 20 tail feathers, while in F_2 the numbers varied between 12 and 25.
+- [W11.2255] one of the grand-parental types reappears in large numbers, while the
+- [W11.2256] extreme of the other grand-parental type did not reappear (in the counts
+- [W11.2257] obtained), although the F_2 number would probably overlap the lower limits
+- [W11.2258] of the race of fantail grandparents had not a selected (surviving) lot been
+- [W11.2259] taken for the figures given in the table.
+- [W11.2260] Cross of pigeon with normal tail P_1 and fantail
+- [W11.2261] Cross of normal and fantail pigeons.
+- [W11.2262] The F_2 range is wider than that of F_1.
+- [W11.2263] The normal grand-parental type of
+- [W11.2264] 12 feathers was recovered in F_2 but the higher numbers characteristic of
+- [W11.2265] fantails were not recovered.]
+- [W11.2266] The preceding account attempts to point out how I should prefer to
+- [W11.2267] interpret the problem of selection in the light of the most recent work on
+- [W11.2268] But I would give a very incomplete account of the whole situation
+- [W11.2269] if I neglected to include some important work which has led some of my
+- [W11.2270] fellow-workers to a very different conclusion.
+- [W11.2271] Scheme to show classes of hooded rats used by
+- [W11.2272] Castle in particular is the champion of a view based on his results with
+- [W11.2273] Starting with individuals which have a narrow black stripe
+- [W11.2274] down the back he selected for a narrower stripe in one direction and for a
+- [W11.2275] broader stripe in the other.
+- [W11.2276] As the diagram shows (fig.
+- [W11.2277] succeeded in producing in one direction a race in which the dorsal stripe
+- [W11.2278] has disappeared and in the other direction a race in which the black has
+- [W11.2279] extended over the back and sides, leaving only a white mark on the belly.
+- [W11.2280] Neither of these extremes occurs, he believes, in the ordinary hooded race
+- [W11.2281] In other words no matter how many of them came under
+- [W11.2282] observation the extreme types of his experiment would not be found.
+- [W11.2283] Castle claims that the factor for hoodedness must be a single Mendelian
+- [W11.2284] unit, because if hooded rats are crossed to wild gray rats with uniform
+- [W11.2285] coat and their offspring are inbred there are produced in F_2 three uniform
+- [W11.2286] Castle advances the hypothesis that factors--by
+- [W11.2287] which he means Mendelian factors--may themselves vary in much the same way
+- [W11.2288] as do the characters that they stand for.
+- [W11.2289] He argues, in so many words, that
+- [W11.2290] since we judge a factor by the kind of character it produces, when the
+- [W11.2291] character varies the factor that stands for it may have changed.
+- [W11.2292] As early as 1903 Cuénot had carried out experiments with spotted mice
+- [W11.2293] similar to those of Castle with rats.
+- [W11.2294] Cuénot found that spotted crossed to
+- [W11.2295] uniform coat color gave in F_2 a ratio of three uniform to one spotted, yet
+- [W11.2296] selection of those spotted mice with more white in their coat produced mice
+- [W11.2297] in successive generations that had more and more white.
+- [W11.2298] showed that selection of those spotted mice that had more color in their
+- [W11.2299] coat produced mice with more and more color and less white.
+- [W11.2300] however bring up in this connection the question as to how selection in
+- [W11.2301] these spotted mice brings about its results.
+- [W11.2302] Without attempting to discuss these results at the length that they deserve
+- [W11.2303] let me briefly state why I think Castle's evidence fails to establish his
+- [W11.2304] In the first place one of the premises may be wrong.
+- [W11.2305] in F_2 by no means proves that all conditions of hoodedness are due to one
+- [W11.2306] The result shows at most that one factor that gives the hooded
+- [W11.2307] types is a simple Mendelian factor.
+- [W11.2308] The changes in this type may be caused
+- [W11.2309] by modifying factors that can show an effect only when hoodedness is itself
+- [W11.2310] That this is not an imaginary objection but a real one is shown by
+- [W11.2311] an experiment that Castle himself made which furnishes the ground for the
+- [W11.2312] If the factor has really changed its potency, then if a very dark
+- [W11.2313] individual from one end of the series is crossed to a wild rat and the
+- [W11.2314] second generation raised we should expect that the hooded F_2 rats would
+- [W11.2315] all be dark like their dark grandparent.
+- [W11.2316] When Castle made this test he
+- [W11.2317] found that there were many grades of hooded rats in the F_2 progeny.
+- [W11.2318] were darker, it is true, as a group than were the original hooded group at
+- [W11.2319] the beginning of the selection experiment, but they gave many intermediate
+- [W11.2320] Castle attempts to explain this by the assumption that the factor
+- [W11.2321] made pure by selection became contaminated by its normal allelomorph in the
+- [W11.2322] F_1 parent, but not only does this assumption appear to beg the whole
+- [W11.2323] question, but it is in flat contradiction with what we have observed in
+- [W11.2324] hundreds of Mendelian cases where no evidence for such a contamination
+- [W11.2325] Later Castle crossed some of the extracted rats of average grade (3.01)
+- [W11.2326] from the plus series to the same wild race and got F_2 hooded rats from
+- [W11.2327] These F_2 hooded rats did not further approach the ordinary
+- [W11.2328] range but were nearer the extreme selected plus hooded rats (3.33) than
+- [W11.2329] were the F_2's extracted from the first cross (2.59).
+- [W11.2330] this that multiple factors can not account for the result.
+- [W11.2331] fact, Castle's evidence _as published_ does not establish his conclusion
+- [W11.2332] because the wild rats used in the second experiment may have carried plus
+- [W11.2333] This could only be determined by suitable tests which Castle
+- [W11.2334] This is the crucial point, without which the evidence
+- [W11.2335] Furthermore, from Castle's point of view, these latest results would seem
+- [W11.2336] to increase the difficulty of interpretation of his first F_2 extracted
+- [W11.2337] cross, and it is now the first result that calls for explanation if one
+- [W11.2338] accepts his later conclusion.
+- [W11.2339] These and other objections that might be taken up show, I think, that
+- [W11.2340] Castle's experiment with hooded rats fails entirely to establish his
+- [W11.2341] contention of change in potency of the germ or of contamination of factors,
+- [W11.2342] while on the contrary they are in entire accord with the view that he is
+- [W11.2343] dealing with a case of modifying factors.
+- [W11.2344] Equally important are the results that Jennings has obtained with certain
+- [W11.2345] Paramecium multiplies by dividing across in the middle, each half
+- [W11.2346] replacing its lacking part.
+- [W11.2347] Both the small nucleus (micronucleus) and the
+- [W11.2348] large nucleus (macronucleus) divide at each division of the body.
+- [W11.2349] found that while individuals descended from a single paramecium vary in
+- [W11.2350] 89), yet the population from a large individual is the same as
+- [W11.2351] the population derived from a small individual.
+- [W11.2352] produces no result and the probable explanation is, of course, that the
+- [W11.2353] different sizes of individuals are due to the environment, while the
+- [W11.2354] constancy of the type is genetic.
+- [W11.2355] Jennings found a number of races of
+- [W11.2356] paramecium of different sizes living under natural conditions.
+- [W11.2357] individual of a small race might overlap the smallest individual of other
+- [W11.2358] 89); nevertheless each kind reproduced its particular
+- [W11.2359] The results are like those of Johannsen in a general way, but differ
+- [W11.2360] in that reproduction takes place in paramecium by direct division instead
+- [W11.2361] of through self-fertilization as in beans, and also in that the paramecia
+- [W11.2362] were probably not homozygous.
+- [W11.2363] Since, however, so far as known no
+- [W11.2364] "reduction" takes place in paramecium at each division, the genetic
+- [W11.2365] composition of parent and offspring should be the same.
+- [W11.2366] pseudo-parthenogenesis that Woodruff and Erdmann have found occurring in
+- [W11.2367] paramecium at intervals involves a redistribution of the hereditary factors
+- [W11.2368] Jennings's evidence seems incompatible with such a view.
+- [W11.2369] Stylonychia showing division into two.
+- [W11.2370] More recently one of Jennings's students, Middleton, has made a careful
+- [W11.2371] series of selection experiments with Stylonychia (fig.
+- [W11.2372] selected for lines showing more rapid or slower rates of division.
+- [W11.2373] observations seem to show that his selection separated two such lines that
+- [W11.2374] came from the same original stock.
+- [W11.2375] The rapidity of the effects of selection
+- [W11.2376] seems to preclude the explanation that pseudo-parthenogenesis has
+- [W11.2377] Nevertheless, the results are of such a kind as to
+- [W11.2378] suggest that they were due to selection of vegetative (somatic) differences
+- [W11.2379] and that no genetic change of factors was involved, for his conclusion that
+- [W11.2380] the rapidity with which the effects gained by long selection might be
+- [W11.2381] suddenly reversed when selection was reversed is hardly consistent with an
+- [W11.2382] interpretation of the results based on changes in the "potencies" of the
+- [W11.2383] Equally striking are the interesting experiments that Jennings has recently
+- [W11.2384] carried out with Difflugia (fig.
+- [W11.2385] This protozoon secretes a shell about
+- [W11.2386] itself which has a characteristic shape, and often carries spines.
+- [W11.2387] opening at one end of the shell through which the protoplasm protrudes to
+- [W11.2388] make the pseudopodia is surrounded by a rim having a characteristic
+- [W11.2389] The protoplasm contains several nuclei and in addition there is
+- [W11.2390] scattered material or particles called chromidia that are supposed to be
+- [W11.2391] chromatic in nature and related to the material of the nuclei, possibly by
+- [W11.2392] When Difflugia divides, part of the protoplasm protrudes from the opening
+- [W11.2393] and a new shell is secreted about this mass which becomes a daughter
+- [W11.2394] The behavior of the nucleus and of the chromidia at this time
+- [W11.2395] is obscure, but there is some evidence that their materials may be
+- [W11.2396] irregularly distributed between parent and offspring.
+- [W11.2397] and if in the protozoa the chromatin has the same influence that it seems
+- [W11.2398] to have in higher animals, the mode of reproduction in Difflugia would be
+- [W11.2399] expected to give little more than random sampling of the germ plasm.
+- [W11.2400] Jennings was able by means of selection to get from the descendants of one
+- [W11.2401] original individual a number of different types that themselves bred true,
+- [W11.2402] except in so far as selection could affect another change in them.
+- [W11.2403] connection it is interesting to note that Leidy has published figures of
+- [W11.2404] 92) that show that a great many "types" exist.
+- [W11.2405] sexual union (a process that occurs in Difflugia) the germ plasm
+- [W11.2406] (chromatin) of these wild types has in times past been recombined, then
+- [W11.2407] selection would be expected to separate certain types again, if, at
+- [W11.2408] division, irregular sampling of the germ plasm takes place.
+- [W11.2409] points are settled the bearing of these important experiments of Jennings
+- [W11.2410] on the general problem of selection is uncertain.
+- [W11.2411] HOW DOES NATURAL SELECTION INFLUENCE THE COURSE OF EVOLUTION?
+- [W11.2412] The question still remains: Does selection play any rôle in evolution, and,
+- [W11.2413] Does the elimination of the unfit influence the
+- [W11.2414] course of evolution, except in the negative sense of leaving more room for
+- [W11.2415] There is something further to be said in this connection, although
+- [W11.2416] opinions may differ as to whether the following interpretation of the term
+- [W11.2417] "natural selection" is the only possible one.
+- [W11.2418] Evolution of elephant's skulls.
+- [W11.2419] If through a mutation a character appears that is neither advantageous nor
+- [W11.2420] disadvantageous, but indifferent, the chance that it may become established
+- [W11.2421] in the race is extremely small, although by good luck such a thing may
+- [W11.2422] It makes no difference whether the character in question is a
+- [W11.2423] dominant or a recessive one, the chance of its becoming established is
+- [W11.2424] If through a mutation a character appears that has an
+- [W11.2425] _injurious_ effect, however slight this may be, it has practically no
+- [W11.2426] chance of becoming established.
+- [W11.2427] Evolution of elephant's trunk.
+- [W11.2428] If through a mutation a character appears that has a _beneficial_ influence
+- [W11.2429] on the individual, the chance that the individual will survive is
+- [W11.2430] increased, not only for itself, but for all of its descendants that come to
+- [W11.2431] It is this increase in the number of individuals
+- [W11.2432] possessing a particular character, that might have an influence on the
+- [W11.2433] This gives a better chance for improvement by several
+- [W11.2434] successive steps; but not because the species is more likely to mutate
+- [W11.2435] again in the same direction.
+- [W11.2436] An imaginary example will illustrate how this
+- [W11.2437] happens: When elephants had trunks less than a foot long, the chance of
+- [W11.2438] getting trunks more than one foot long was in proportion to the length of
+- [W11.2439] trunks already present and to the number of individuals; but increment in
+- [W11.2440] trunk length is no more likely to occur from an animal having a trunk more
+- [W11.2441] than one foot long than from an animal with a shorter trunk.
+- [W11.2442] The case is analogous to tossing pennies.
+- [W11.2443] At any stage in the game the
+- [W11.2444] chance of accumulating a hundred heads is in proportion to the number of
+- [W11.2445] heads already obtained, and to the number of throws still to be made.
+- [W11.2446] the number of heads obtained has no influence on the number of heads that
+- [W11.2447] will appear in the next throw.
+- [W11.2448] Evolution of elephant's trunk: above Maeritherium,
+- [W11.2449] in the middle Tetrabelodon (After Lancaster); below African elephants
+- [W11.2450] Owing then to this property of the germ plasm to duplicate itself in a
+- [W11.2451] large number of samples not only is an opportunity furnished to an
+- [W11.2452] advantageous variation to become extensively multiplied, but the presence
+- [W11.2453] of a large number of individuals of a given sort prejudices the probable
+- [W11.2454] The question may be raised as to whether it is desirable to call selection
+- [W11.2455] There are so many supernatural and mystical
+- [W11.2456] implications that hang around the term creative that one can not be too
+- [W11.2457] careful in stating in what sense the term is to be used.
+- [W11.2458] meant that something is made out of nothing, then of course there is no
+- [W11.2459] need for the scientist to try to answer such a question.
+- [W11.2460] creative process is meant that something is made out of something else,
+- [W11.2461] then there are two alternatives to be reckoned with.
+- [W11.2462] First, if it were true that selection of an individual of a certain kind
+- [W11.2463] determines that new variations in the same direction occur as a consequence
+- [W11.2464] of the selection, then selection would certainly be creative.
+- [W11.2465] could occur might be quite unintelligible, but of course it might be
+- [W11.2466] claimed that the point is not whether we can explain how creation takes
+- [W11.2467] place, but whether we can get verifiable evidence that such a kind of thing
+- [W11.2468] This possibility is disposed of by the fact that there is no
+- [W11.2469] evidence that selection determines the direction in which variation occurs.
+- [W11.2470] Second, if you mean by a creative process that by picking out a certain
+- [W11.2471] kind of individual and multiplying its numbers a better chance is furnished
+- [W11.2472] that a certain end result will be obtained, such a process may be said to
+- [W11.2473] This is, I think, the proper use of the term creative in a
+- [W11.2474] In reviewing the evidence relating to selection I have tried to handle the
+- [W11.2475] problem as objectively as I could.
+- [W11.2476] The evidence shows clearly that the characters of wild animals and plants,
+- [W11.2477] as well as those of domesticated races, are inherited both in the wild and
+- [W11.2478] in the domesticated forms according to Mendel's Law.
+- [W11.2479] The causes of the mutations that give rise to new characters we do not
+- [W11.2480] know, although we have no reason for supposing that they are due to other
+- [W11.2481] Evolution has taken place by the incorporation into the race of those
+- [W11.2482] mutations that are beneficial to the life and reproduction of the organism.
+- [W11.2483] Natural selection as here defined means both the increase in the number of
+- [W11.2484] individuals that results after a beneficial mutation has occurred (owing to
+- [W11.2485] the ability of living matter to propagate) and also that this preponderance
+- [W11.2486] of certain kinds of individuals in a population makes some further results
+- [W11.2487] more probable than others.
+- [W11.2488] More than this, natural selection can not mean,
+- [W11.2489] if factors are fixed and are not changed by selection.
+- [W11.2490] *       *       *       *       *
+- [W11.2491] Biogenetic law 15, 18, 19, 21
+- [W11.2492] Chromosome group of Drosophila 102
+- [W11.2493] Chromosomes 91, 95, 96, 98, 130, 131, 132
+- [W11.2494] Comparative anatomy 7, 8, 9, 14
+- [W11.2495] Criss-cross inheritance 78
+- [W11.2496] Darwin 15, 24, 28, 32, 35-37, 64, 145, 146, 152, 154-156
+- [W11.2497] Discontinuous variation 13
+- [W11.2498] Drosophila ampelophila 10, 12, 13, 48-50, 60, 75, 84, 85, 93, 100, 103,
+- [W11.2499] Eosin eye color 61, 107, 163
+- [W11.2500] Evolution--three kinds of 1, 2, 4
+- [W11.2501] Groups I, II, III, IV 100-118
+- [W11.2502] Jennings 161, 181-184, 186
+- [W11.2503] Johannsen 156, 157, 159-161, 166, 182
+- [W11.2504] Localization of factors 118
+- [W11.2505] Mendel's law 41-59, 64, 124
+- [W11.2506] Modifiers 163, 164, 170, 171
+- [W11.2507] Natural Selection 36, 145, 146, 187-194
+- [W11.2508] Pseudo-parthenogenesis 183
+- [W11.2509] Rudimentary wing 70, 71, 107
+- [W11.2510] Sex linked inheritance 75, 118-130
+- [W11.2511] Sooty body color 50, 114, 115
+- [W11.2512] Survival of the fittest 146
+- [W11.2513] Truncate wing 111, 112, 167, 168
+- [W11.2514] Variation discontinuous 13
+- [W11.2515] Vermilion eye color 108, 163
+- [W11.2516] Vestigial wing 11, 55, 56, 109, 133
+- [W11.2517] White eye color 13, 75, 119-130
+- [W11.2518] Whiting eye color 163, 164
+- [W11.2519] Yellow body color 108, 133
+- [W11.2520] *       *       *       *       *
+- [W11.2521] Corrections made to printed original.
+- [W11.2522] page 104, "shown in figures 53, 54, 55, 56": '52, 53, 54, 55' in original.
+- [W11.2523] *** END OF THE PROJECT GUTENBERG EBOOK A CRITIQUE OF THE THEORY OF EVOLUTION ***
+- [W11.2524] Updated editions will replace the previous one—the old editions will
+- [W11.2525] Creating the works from print editions not protected by U.S. copyright
+- [W11.2526] law means that no one owns a United States copyright in these works,
+- [W11.2527] so the Foundation (and you!) can copy and distribute it in the United
+- [W11.2528] States without permission and without paying copyright
+- [W11.2529] Special rules, set forth in the General Terms of Use part
+- [W11.2530] of this license, apply to copying and distributing Project
+- [W11.2531] Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+- [W11.2532] Project Gutenberg is a registered trademark,
+- [W11.2533] and may not be used if you charge for an eBook, except by following
+- [W11.2534] the terms of the trademark license, including paying royalties for use
+- [W11.2535] of the Project Gutenberg trademark.
+- [W11.2536] If you do not charge anything for
+- [W11.2537] copies of this eBook, complying with the trademark license is very
+- [W11.2538] You may use this eBook for nearly any purpose such as creation
+- [W11.2539] of derivative works, reports, performances and research.
+- [W11.2540] Gutenberg eBooks may be modified and printed and given away—you may
+- [W11.2541] do practically ANYTHING in the United States with eBooks not protected
+- [W11.2542] Redistribution is subject to the trademark
+- [W11.2543] license, especially commercial redistribution.
+- [W11.2544] THE FULL PROJECT GUTENBERG™ LICENSE
+- [W11.2545] PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+- [W11.2546] To protect the Project Gutenberg™ mission of promoting the free
+- [W11.2547] distribution of electronic works, by using or distributing this work
+- [W11.2548] (or any other work associated in any way with the phrase “Project
+- [W11.2549] Gutenberg”), you agree to comply with all the terms of the Full
+- [W11.2550] Project Gutenberg License available with this file or online at
+- [W11.2551] www.gutenberg.org/license.
+- [W11.2552] General Terms of Use and Redistributing Project Gutenberg
+- [W11.2553] By reading or using any part of this Project Gutenberg
+- [W11.2554] electronic work, you indicate that you have read, understand, agree to
+- [W11.2555] and accept all the terms of this license and intellectual property
+- [W11.2556] (trademark/copyright) agreement.
+- [W11.2557] If you do not agree to abide by all
+- [W11.2558] the terms of this agreement, you must cease using and return or
+- [W11.2559] destroy all copies of Project Gutenberg electronic works in your
+- [W11.2560] If you paid a fee for obtaining a copy of or access to a
+- [W11.2561] Project Gutenberg electronic work and you do not agree to be bound
+- [W11.2562] by the terms of this agreement, you may obtain a refund from the person
+- [W11.2563] or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+- [W11.2564] “Project Gutenberg” is a registered trademark.
+- [W11.2565] used on or associated in any way with an electronic work by people who
+- [W11.2566] agree to be bound by the terms of this agreement.
+- [W11.2567] things that you can do with most Project Gutenberg electronic works
+- [W11.2568] even without complying with the full terms of this agreement.
+- [W11.2569] There are a lot of things you can do with Project
+- [W11.2570] Gutenberg electronic works if you follow the terms of this
+- [W11.2571] agreement and help preserve free future access to Project Gutenberg
+- [W11.2572] The Project Gutenberg Literary Archive Foundation (“the
+- [W11.2573] Foundation” or PGLAF), owns a compilation copyright in the collection
+- [W11.2574] of Project Gutenberg electronic works.
+- [W11.2575] works in the collection are in the public domain in the United
+- [W11.2576] If an individual work is unprotected by copyright law in the
+- [W11.2577] United States and you are located in the United States, we do not
+- [W11.2578] claim a right to prevent you from copying, distributing, performing,
+- [W11.2579] displaying or creating derivative works based on the work as long as
+- [W11.2580] all references to Project Gutenberg are removed.
+- [W11.2581] that you will support the Project Gutenberg mission of promoting
+- [W11.2582] free access to electronic works by freely sharing Project Gutenberg
+- [W11.2583] works in compliance with the terms of this agreement for keeping the
+- [W11.2584] Project Gutenberg name associated with the work.
+- [W11.2585] comply with the terms of this agreement by keeping this work in the
+- [W11.2586] same format with its attached full Project Gutenberg License when
+- [W11.2587] you share it without charge with others.
+- [W11.2588] The copyright laws of the place where you are located also govern
+- [W11.2589] what you can do with this work.
+- [W11.2590] Copyright laws in most countries are
+- [W11.2591] in a constant state of change.
+- [W11.2592] If you are outside the United States,
+- [W11.2593] check the laws of your country in addition to the terms of this
+- [W11.2594] agreement before downloading, copying, displaying, performing,
+- [W11.2595] distributing or creating derivative works based on this work or any
+- [W11.2596] other Project Gutenberg work.
+- [W11.2597] representations concerning the copyright status of any work in any
+- [W11.2598] country other than the United States.
+- [W11.2599] Unless you have removed all references to Project Gutenberg:
+- [W11.2600] The following sentence, with active links to, or other
+- [W11.2601] immediate access to, the full Project Gutenberg License must appear
+- [W11.2602] prominently whenever any copy of a Project Gutenberg work (any work
+- [W11.2603] on which the phrase “Project Gutenberg” appears, or with which the
+- [W11.2604] phrase “Project Gutenberg” is associated) is accessed, displayed,
+- [W11.2605] performed, viewed, copied or distributed:
+- [W11.2606] This eBook is for the use of anyone anywhere in the United States and most
+- [W11.2607] other parts of the world at no cost and with almost no restrictions
+- [W11.2608] You may copy it, give it away or re-use it under the terms
+- [W11.2609] of the Project Gutenberg™ License included with this eBook or online
+- [W11.2610] are not located in the United States, you will have to check the laws
+- [W11.2611] of the country where you are located before using this eBook.
+- [W11.2612] If an individual Project Gutenberg electronic work is
+- [W11.2613] derived from texts not protected by U.S. copyright law (does not
+- [W11.2614] contain a notice indicating that it is posted with permission of the
+- [W11.2615] copyright holder), the work can be copied and distributed to anyone in
+- [W11.2616] the United States without paying any fees or charges.
+- [W11.2617] redistributing or providing access to a work with the phrase “Project
+- [W11.2618] Gutenberg” associated with or appearing on the work, you must comply
+- [W11.2619] either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+- [W11.2620] obtain permission for the use of the work and the Project Gutenberg
+- [W11.2621] trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+- [W11.2622] If an individual Project Gutenberg electronic work is posted
+- [W11.2623] with the permission of the copyright holder, your use and distribution
+- [W11.2624] must comply with both paragraphs 1.E.1 through 1.E.7 and any
+- [W11.2625] additional terms imposed by the copyright holder.
+- [W11.2626] will be linked to the Project Gutenberg License for all works
+- [W11.2627] posted with the permission of the copyright holder found at the
+- [W11.2628] Do not unlink or detach or remove the full Project Gutenberg
+- [W11.2629] License terms from this work, or any files containing a part of this
+- [W11.2630] work or any other work associated with Project Gutenberg.
+- [W11.2631] Do not copy, display, perform, distribute or redistribute this
+- [W11.2632] electronic work, or any part of this electronic work, without
+- [W11.2633] prominently displaying the sentence set forth in paragraph 1.E.1 with
+- [W11.2634] active links or immediate access to the full terms of the Project
+- [W11.2635] You may convert to and distribute this work in any binary,
+- [W11.2636] compressed, marked up, nonproprietary or proprietary form, including
+- [W11.2637] any word processing or hypertext form.
+- [W11.2638] However, if you provide access
+- [W11.2639] to or distribute copies of a Project Gutenberg work in a format
+- [W11.2640] other than “Plain Vanilla ASCII” or other format used in the official
+- [W11.2641] version posted on the official Project Gutenberg website
+- [W11.2642] (www.gutenberg.org), you must, at no additional cost, fee or expense
+- [W11.2643] to the user, provide a copy, a means of exporting a copy, or a means
+- [W11.2644] of obtaining a copy upon request, of the work in its original “Plain
+- [W11.2645] Vanilla ASCII” or other form.
+- [W11.2646] Any alternate format must include the
+- [W11.2647] full Project Gutenberg License as specified in paragraph 1.E.1.
+- [W11.2648] Do not charge a fee for access to, viewing, displaying,
+- [W11.2649] performing, copying or distributing any Project Gutenberg works
+- [W11.2650] unless you comply with paragraph 1.E.8 or 1.E.9.
+- [W11.2651] You may charge a reasonable fee for copies of or providing
+- [W11.2652] access to or distributing Project Gutenberg electronic works
+- [W11.2653] • You pay a royalty fee of 20% of the gross profits you derive from
+- [W11.2654] the use of Project Gutenberg works calculated using the method
+- [W11.2655] you already use to calculate your applicable taxes.
+- [W11.2656] to the owner of the Project Gutenberg trademark, but he has
+- [W11.2657] agreed to donate royalties under this paragraph to the Project
+- [W11.2658] Gutenberg Literary Archive Foundation.
+- [W11.2659] Royalty payments must be paid
+- [W11.2660] within 60 days following each date on which you prepare (or are
+- [W11.2661] legally required to prepare) your periodic tax returns.
+- [W11.2662] payments should be clearly marked as such and sent to the Project
+- [W11.2663] Gutenberg Literary Archive Foundation at the address specified in
+- [W11.2664] Section 4, “Information about donations to the Project Gutenberg
+- [W11.2665] Literary Archive Foundation.”
+- [W11.2666] • You provide a full refund of any money paid by a user who notifies
+- [W11.2667] you in writing (or by e-mail) within 30 days of receipt that s/he
+- [W11.2668] does not agree to the terms of the full Project Gutenberg™
+- [W11.2669] You must require such a user to return or destroy all
+- [W11.2670] copies of the works possessed in a physical medium and discontinue
+- [W11.2671] all use of and all access to other copies of Project Gutenberg™
+- [W11.2672] • You provide, in accordance with paragraph 1.F.3, a full refund of
+- [W11.2673] any money paid for a work or a replacement copy, if a defect in the
+- [W11.2674] electronic work is discovered and reported to you within 90 days of
+- [W11.2675] • You comply with all other terms of this agreement for free
+- [W11.2676] distribution of Project Gutenberg™ works.
+- [W11.2677] If you wish to charge a fee or distribute a Project
+- [W11.2678] Gutenberg™ electronic work or group of works on different terms than
+- [W11.2679] are set forth in this agreement, you must obtain permission in writing
+- [W11.2680] from the Project Gutenberg Literary Archive Foundation, the manager of
+- [W11.2681] the Project Gutenberg™ trademark.
+- [W11.2682] Contact the Foundation as set
+- [W11.2683] Project Gutenberg volunteers and employees expend considerable
+- [W11.2684] effort to identify, do copyright research on, transcribe and proofread
+- [W11.2685] works not protected by U.S. copyright law in creating the Project
+- [W11.2686] Despite these efforts, Project Gutenberg™
+- [W11.2687] electronic works, and the medium on which they may be stored, may
+- [W11.2688] contain “Defects,” such as, but not limited to, incomplete, inaccurate
+- [W11.2689] or corrupt data, transcription errors, a copyright or other
+- [W11.2690] intellectual property infringement, a defective or damaged disk or
+- [W11.2691] other medium, a computer virus, or computer codes that damage or
+- [W11.2692] cannot be read by your equipment.
+- [W11.2693] LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+- [W11.2694] of Replacement or Refund” described in paragraph 1.F.3, the Project
+- [W11.2695] Gutenberg Literary Archive Foundation, the owner of the Project
+- [W11.2696] Gutenberg™ trademark, and any other party distributing a Project
+- [W11.2697] Gutenberg™ electronic work under this agreement, disclaim all
+- [W11.2698] liability to you for damages, costs and expenses, including legal
+- [W11.2699] YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+- [W11.2700] LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+- [W11.2701] PROVIDED IN PARAGRAPH 1.F.3.
+- [W11.2702] YOU AGREE THAT THE FOUNDATION, THE
+- [W11.2703] TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+- [W11.2704] LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+- [W11.2705] INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+- [W11.2706] LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+- [W11.2707] defect in this electronic work within 90 days of receiving it, you can
+- [W11.2708] receive a refund of the money (if any) you paid for it by sending a
+- [W11.2709] written explanation to the person you received the work from.
+- [W11.2710] received the work on a physical medium, you must return the medium
+- [W11.2711] with your written explanation.
+- [W11.2712] The person or entity that provided you
+- [W11.2713] with the defective work may elect to provide a replacement copy in
+- [W11.2714] If you received the work electronically, the person
+- [W11.2715] or entity providing it to you may choose to give you a second
+- [W11.2716] opportunity to receive the work electronically in lieu of a refund.
+- [W11.2717] the second copy is also defective, you may demand a refund in writing
+- [W11.2718] without further opportunities to fix the problem.
+- [W11.2719] Except for the limited right of replacement or refund set forth
+- [W11.2720] in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+- [W11.2721] OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+- [W11.2722] LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+- [W11.2723] Some states do not allow disclaimers of certain implied
+- [W11.2724] warranties or the exclusion or limitation of certain types of
+- [W11.2725] If any disclaimer or limitation set forth in this agreement
+- [W11.2726] violates the law of the state applicable to this agreement, the
+- [W11.2727] agreement shall be interpreted to make the maximum disclaimer or
+- [W11.2728] limitation permitted by the applicable state law.
+- [W11.2729] unenforceability of any provision of this agreement shall not void the
+- [W11.2730] INDEMNITY - You agree to indemnify and hold the Foundation, the
+- [W11.2731] trademark owner, any agent or employee of the Foundation, anyone
+- [W11.2732] providing copies of Project Gutenberg™ electronic works in
+- [W11.2733] accordance with this agreement, and any volunteers associated with the
+- [W11.2734] production, promotion and distribution of Project Gutenberg™
+- [W11.2735] electronic works, harmless from all liability, costs and expenses,
+- [W11.2736] including legal fees, that arise directly or indirectly from any of
+- [W11.2737] the following which you do or cause to occur: (a) distribution of this
+- [W11.2738] or any Project Gutenberg work, (b) alteration, modification, or
+- [W11.2739] additions or deletions to any Project Gutenberg work, and (c) any
+- [W11.2740] Information about the Mission of Project Gutenberg
+- [W11.2741] Project Gutenberg is synonymous with the free distribution of
+- [W11.2742] electronic works in formats readable by the widest variety of
+- [W11.2743] computers including obsolete, old, middle-aged and new computers.
+- [W11.2744] exists because of the efforts of hundreds of volunteers and donations
+- [W11.2745] from people in all walks of life.
+- [W11.2746] Volunteers and financial support to provide volunteers with the
+- [W11.2747] assistance they need are critical to reaching Project Gutenberg’s
+- [W11.2748] goals and ensuring that the Project Gutenberg collection will
+- [W11.2749] remain freely available for generations to come.
+- [W11.2750] Gutenberg Literary Archive Foundation was created to provide a secure
+- [W11.2751] and permanent future for Project Gutenberg and future
+- [W11.2752] To learn more about the Project Gutenberg Literary
+- [W11.2753] Archive Foundation and how your efforts and donations can help, see
+- [W11.2754] Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+- [W11.2755] Information about the Project Gutenberg Literary Archive Foundation
+- [W11.2756] The Project Gutenberg Literary Archive Foundation is a non-profit
+- [W11.2757] 501(c)(3) educational corporation organized under the laws of the
+- [W11.2758] state of Mississippi and granted tax exempt status by the Internal
+- [W11.2759] The Foundation’s EIN or federal tax identification
+- [W11.2760] Contributions to the Project Gutenberg Literary
+- [W11.2761] Archive Foundation are tax deductible to the full extent permitted by
+- [W11.2762] U.S. federal laws and your state’s laws.
+- [W11.2763] The Foundation’s business office is located at 41 Watchung Plaza #516,
+- [W11.2764] Montclair NJ 07042, USA, +1 (862) 621-9288.
+- [W11.2765] Email contact links and up
+- [W11.2766] to date contact information can be found at the Foundation’s website
+- [W11.2767] and official page at www.gutenberg.org/contact
+- [W11.2768] Information about Donations to the Project Gutenberg
+- [W11.2769] Literary Archive Foundation
+- [W11.2770] Project Gutenberg™ depends upon and cannot survive without widespread
+- [W11.2771] public support and donations to carry out its mission of
+- [W11.2772] increasing the number of public domain and licensed works that can be
+- [W11.2773] freely distributed in machine-readable form accessible by the widest
+- [W11.2774] array of equipment including outdated equipment.
+- [W11.2775] ($1 to $5,000) are particularly important to maintaining tax exempt
+- [W11.2776] The Foundation is committed to complying with the laws regulating
+- [W11.2777] charities and charitable donations in all 50 states of the United
+- [W11.2778] Compliance requirements are not uniform and it takes a
+- [W11.2779] considerable effort, much paperwork and many fees to meet and keep up
+- [W11.2780] We do not solicit donations in locations
+- [W11.2781] where we have not received written confirmation of compliance.
+- [W11.2782] DONATIONS or determine the status of compliance for any particular state
+- [W11.2783] visit www.gutenberg.org/donate.
+- [W11.2784] While we cannot and do not solicit contributions from states where we
+- [W11.2785] have not met the solicitation requirements, we know of no prohibition
+- [W11.2786] against accepting unsolicited donations from donors in such states who
+- [W11.2787] approach us with offers to donate.
+- [W11.2788] International donations are gratefully accepted, but we cannot make
+- [W11.2789] any statements concerning tax treatment of donations received from
+- [W11.2790] outside the United States.
+- [W11.2791] U.S. laws alone swamp our small staff.
+- [W11.2792] Please check the Project Gutenberg web pages for current donation
+- [W11.2793] Donations are accepted in a number of other
+- [W11.2794] ways including checks, online payments and credit card donations.
+- [W11.2795] donate, please visit: www.gutenberg.org/donate.
+- [W11.2796] General Information About Project Gutenberg electronic works
+- [W11.2797] Hart was the originator of the Project
+- [W11.2798] Gutenberg concept of a library of electronic works that could be
+- [W11.2799] freely shared with anyone.
+- [W11.2800] For forty years, he produced and
+- [W11.2801] distributed Project Gutenberg eBooks with only a loose network of
+- [W11.2802] Project Gutenberg eBooks are often created from several printed
+- [W11.2803] editions, all of which are confirmed as not protected by copyright in
+- [W11.2804] the U.S. unless a copyright notice is included.
+- [W11.2805] necessarily keep eBooks in compliance with any particular paper
+- [W11.2806] Most people start at our website which has the main PG search
+- [W11.2807] facility: www.gutenberg.org.
+- [W11.2808] This website includes information about Project Gutenberg,
+- [W11.2809] including how to make donations to the Project Gutenberg Literary
+- [W11.2810] Archive Foundation, how to help produce our new eBooks, and how to
+- [W11.2811] subscribe to our email newsletter to hear about new eBooks.
+
+## [W12] Wikipedia: Cream gene
+https://en.wikipedia.org/w/index.php?title=Cream_gene&oldid=1345474412 · CC BY-SA 4.0 · usage: ai_input
+
+- [W12.1] The cream gene is responsible for a number of horse coat colors.
+- [W12.2] Horses that have the cream gene in addition to a base coat color that is chestnut will become palomino if they are heterozygous, having one copy of the cream gene, or cremello, if they are homozygous.
+- [W12.3] Similarly, horses with a bay base coat and the cream gene will be buckskin or perlino.
+- [W12.4] A black base coat with the cream gene becomes the not-always-recognized smoky black or a smoky cream.
+- [W12.5] Cream horses, even those with blue eyes, are not white horses.
+- [W12.6] Dilution coloring is also not related to any of the white spotting patterns.
+- [W12.7] The cream gene (CCr) is an incomplete dominant allele with a distinct dosage effect.
+- [W12.8] The DNA sequence responsible for the cream colors is the cream allele, which is at a specific locus on the solute carrier family 45 member 2 (SLC45A2) gene (previously known as MATP and OCA4, among others).
+- [W12.9] Its general effect is to lighten the coat, skin and eye colors.
+- [W12.10] When one copy of the allele is present, it dilutes "red" pigment to yellow or gold, with a stronger effect on the mane and tail, but does not dilute black color to any significant degree.
+- [W12.11] When two copies of the allele are present, both red and black pigments are affected; red hairs still become cream, and black hairs become reddish.
+- [W12.12] A single copy of the allele has minimal impact on eye color, but when two copies are present, a horse will be blue-eyed in addition to a light coat color.
+- [W12.13] The cream gene is one of several hypomelanism or dilution genes identified in horses.
+- [W12.14] Therefore, it is not always possible to tell by color alone whether the CCr allele is present without a DNA test.
+- [W12.15] Other dilution genes that may mimic some of the effects of the cream gene in either single or double copies include the pearl gene, silver dapple gene, and the champagne gene.
+- [W12.16] Horses with the dun gene also may mimic a single copy of the cream gene.
+- [W12.17] To complicate matters further, it is possible for a horse to carry more than one type of dilution gene, sometimes giving rise to coloring that researchers call a pseudo double dilute.
+- [W12.18] The discovery of the cream gene had a significant effect on breeding, allowing homozygous blue-eyed creams to be recognized by many breed registries that had previously registered palominos but banned cremellos, under the mistaken notion that homozygous cream was a form of albinism.
+- [W12.19] Cream coat colors are described by their relationship to the three "base" coat colors: chestnut, bay, and black.
+- [W12.20] All horses obtain two copies of the SLC45A2 gene; one from the sire, and one from the dam.
+- [W12.21] A horse may have the cream allele or the non-cream allele on each gene.
+- [W12.22] Those with two non-cream alleles will not exhibit true cream traits.
+- [W12.23] Horses with one cream allele and one non-cream allele, popularly called "single dilutes," exhibit specific traits: all red pigment in the coat is gold, while the black pigment is either unaffected or only subtly affected.
+- [W12.24] These horses are usually palomino, buckskin, or smoky black.
+- [W12.25] These horses often have light brown eyes.
+- [W12.26] Horses with two copies of the cream allele also exhibit specific traits: cream-colored coats, pale blue eyes, and rosy-pink skin.
+- [W12.27] These horses are usually called cremello, perlino, or smoky cream.
+- [W12.28] Heterozygous creams ("single dilutes")
+- [W12.29] Horses that are heterozygous creams, that is, have only one copy of the cream gene, have a lightened hair coat.
+- [W12.30] The precise cream dilute coat color produced depends on the underlying base coat color.
+- [W12.31] Unless also affected by other, unrelated genes, they maintain dark skin and brown eyes, though some heterozygous dilutes may be born with pink skin that darkens with age.
+- [W12.32] Some have slightly lighter, amber eyes.
+- [W12.33] However, the heterozygous cream dilute (CR) must not be confused with a horse carrying champagne dilution.
+- [W12.34] Champagne (CH) dilutes are born with pumpkin-pink skin and blue eyes, which darken within days to amber, green or light brown, and their skin acquires a darker mottled complexion around the eyes, muzzle, and genitalia as the animal matures.
+- [W12.35] It is also possible for a heterozygous cream horse to carry more than one of the other dilution alleles.
+- [W12.36] (see "Cream mimics" below) In such cases, they may exhibit some characteristics more typical of a homozygous dilute.
+- [W12.37] Palomino is the best known cream-based coat color, and is produced by the action of one cream allele on a chestnut coat.
+- [W12.38] It is characterized by a cream or white mane and tail and yellow or gold coat.
+- [W12.39] The classic golden shade akin to that of a newly minted gold coin is common, but there are other variations: the darkest shades are called sooty palominos, unusual but most often seen in Morgans, can include a mane and tail with darker hairs and heavy dappling in the coat.
+- [W12.40] The palest varieties can be nearly white, retaining darker skin and eyes, are sometimes mistakenly confused with cremello, and are called isabellas in some places.
+- [W12.41] Buckskin is also a well-known color, produced by the action of one cream gene on a bay coat.
+- [W12.42] All red hairs in the base coat are diluted to gold.
+- [W12.43] The black areas, such as the mane, tail and legs, are generally unaffected.
+- [W12.44] The cream gene acting on a "blood bay" coat, the reddest shade, are pale gold with black points.
+- [W12.45] They are sometimes called buttermilk buckskins.
+- [W12.46] The cream gene acting on the darkest bays (sometimes mistaken for seal browns) may dilute to a sooty buckskin.
+- [W12.47] True seal brown buckskins can be very difficult to identify owing to their almost all-black coats.
+- [W12.48] It is only the reddish markings around the eyes, muzzle, elbow and groin, which are turned gold, that may give them away.
+- [W12.49] Smoky black, a horse with a black base coat and one copy of the cream allele, is less well-known than the two golden shades.
+- [W12.50] Since a single copy of the cream gene primarily affects red pigment, with only a subtle effect on black, smoky blacks can be quite difficult to identify.
+- [W12.51] Smoky blacks may have reddish guard hairs inside their ears, and experienced horse persons may detect something "off" about the coat of a smoky black, though the slightly burnished look is often chalked up to sun bleaching, which can also be seen in true blacks.
+- [W12.52] The palest can be mistaken for bays or liver chestnuts, especially if exposed to the elements.
+- [W12.53] Smoky black coats tend to react strongly to sun and sweat, and many smoky blacks turn a chocolate color with particularly reddish manes and tails.
+- [W12.54] Bleaching due to the elements means that the legs retain their color better, and can take on an appearance of having dark points like a bay horse.
+- [W12.55] Smoky blacks, however, will lack rich red tones in the coat, instead favoring chocolate and orange tones.
+- [W12.56] Because smoky blacks are often not recognized as such, breeders sometimes think that the cream gene "skipped" generations.
+- [W12.57] While there are "color breed" registries for palomino and buckskin horses, which generally record horses based on apparent phenotype and do not require a DNA color test, it is impossible for these colors to breed "true" due to the action of a single copy of the cream allele.
+- [W12.58] Crossing two heterozygous dilutes will statistically result in offspring which are 25% the base color, 25% homozygous dilute, and 50% heterozygous dilute.
+- [W12.59] When a horse is homozygous, meaning it has two copies of the cream allele, the strongest color dilution occurs.
+- [W12.60] Cremellos are homozygous cream chestnuts, and have a cream colored body with a cream or white mane and tail.
+- [W12.61] Perlinos are homozygous cream bays, which also have a cream-colored body but a mane and tail that may be somewhat more reddish in color than a cremello.
+- [W12.62] Smoky creams are homozygous cream blacks, and very difficult to visually distinguish from cremellos or perlinos.
+- [W12.63] All three shades can be difficult to distinguish from one another, and are often only firmly identified after a DNA test.
+- [W12.64] While both red and black pigments are turned cream, the black pigment retains a little more color and tends to have a reddish or rusty tint.
+- [W12.65] Thus all-red coats are turned all-ivory, all-black coats are turned all-rusty cream, and bay coats have ivory bodies with slightly darker points.
+- [W12.66] Horses with two copies of the cream allele can be collectively called double-dilutes, homozygous creams, or blue-eyed creams, and they share a number of characteristics.
+- [W12.67] The eyes are pale blue, paler than the unpigmented blue eyes associated with white color or white markings, and the skin is rosy-pink.
+- [W12.68] The true, unpigmented pink skin associated with white markings is clearly visible against the rosy-pink skin of a double-dilute, especially when their coat is wetted down.
+- [W12.69] The palest shades of double-dilute coats are just off-white, while the darkest are distinctly rust-tinged.
+- [W12.70] Their coats may be described as nearly white or ivory in addition to cream.
+- [W12.71] The off-white coat, pale blue eyes, and rosy pink skin distinguish the coats of double-dilutes from those of true white horses.
+- [W12.72] True white horses have unpigmented skin and hair due to the incomplete migration of melanocytes from the neural crest during development.
+- [W12.73] No health defects are associated with the cream gene.
+- [W12.74] This is also true of the normal variations in skin, hair and eye color encoded on the human SLC45A2 gene.
+- [W12.75] True white coat coloring can be produced by at least half a dozen known genes, and some are associated with health defects.
+- [W12.76] Some genes which encode a white or near-white coat when heterozygous, popularly called "dominant white," may be lethal in homozygote embryos.
+- [W12.77] Another specific mutation on the endothelin receptor type B (EDNRB) gene is associated with the frame overo pattern produces Lethal white syndrome if homozygous, but carriers can be identified with a DNA test.
+- [W12.78] The cream gene is found in many breeds.
+- [W12.79] It is common in American breeds including the American Quarter Horse, Morgan, American Saddlebred, Tennessee Walking Horse, and Missouri Fox Trotter.
+- [W12.80] It is also seen in the Miniature horse, Akhal-Teke, Icelandic horse, Connemara pony, and Welsh pony.
+- [W12.81] It is even found in certain lines of Thoroughbreds, warmbloods, and the Lusitano.
+- [W12.82] The Andalusian horse has conflicting standards, with the cream gene being recognized by some registries, but not explicitly mentioned by others.
+- [W12.83] The cream gene is completely absent from the Arabian horse gene pool, and is also not found in breeds with stringent color requirements, such as the Friesian horse.
+- [W12.84] Other coat colors may mimic the appearance of a cream coat color.
+- [W12.85] The presence or absence of the cream gene can always be verified by the use of a DNA test.
+- [W12.86] Also, as explained in "Mixed dilutes" below, horses may simultaneously carry more than one dilution gene.
+- [W12.87] Dilution genes which, by themselves, may be confused with cream dilutions include the following:
+- [W12.88] Bay dun vs. buckskin: the action of the dun gene on bay produces a buckskin-like coat.
+- [W12.89] Additional confusion occurs because in some countries, it is still customary to refer to buckskins as "dun", particularly in the British pony breeds.
+- [W12.90] Bay duns tend to have a flatter coat color, more tan or peanut butter-colored than bronze, and also exhibit primitive markings.
+- [W12.91] Amber champagne vs. buckskin: the action of the Champagne gene on bay can also produce a buckskin-like coat.
+- [W12.92] Champagnes can be identified by their freckled skin, hazel eyes, and chocolate (rather than black) points.
+- [W12.93] Flaxen chestnut vs. palomino: Horses having light chestnut coats with flaxen manes and tails, such as those found in the Haflinger breed, can be confused with palominos.
+- [W12.94] However, unlike chestnuts, palomino is inherently a heterozygous condition and thus cannot be true-breeding.
+- [W12.95] Furthermore, even the lightest chestnut will retain "red" character in the hair, rather than gold.
+- [W12.96] Gold champagne vs. palomino: the action of the Champagne gene on chestnut was for many years called pumpkin-skinned palomino.
+- [W12.97] However, lighter, freckled skin and hazel eyes identify a gold champagne, which can otherwise look much like a palomino.
+- [W12.98] Pearl vs. palomino: the action of the pearl gene only occurs when the pearl allele is homozygous.
+- [W12.99] In such cases, the red hairs are lightened to an apricot color.
+- [W12.100] Pseudo-double-dilute vs. cremello: A horse that has one cream allele and one pearl allele may resemble a homozygous cream, including pinkish skin and blue eyes.
+- [W12.101] A combination of one cream and one Champagne allele may also produce a similar phenotype, though may be distinguishable by lighter yellowish or blue eyes and pale, faintly freckled skin.
+- [W12.102] White vs. double dilute: White horses with blue or dark eyes and pink skin are born white and remain so throughout life.
+- [W12.103] Cremello and isabelline horses that bleach out in the sun may approach a near-white shade, but have some skin pigment, exhibited by a slightly more peach skin tone and blue-eyed creams have a less vivid shade of blue when compared to that of an unpigmented blue-eye.
+- [W12.104] Gray vs. double dilute: Gray horses are born a normal color and grow progressively lighter in their coat, while double-dilute creams do not.
+- [W12.105] Grays that are not affected by a dilution gene do not have blue eyes or pink skin unless they are due to white markings.
+- [W12.106] There are, however, records of palominos, buckskins, smoky blacks, and double-dilute creams that also carry the gray gene.
+- [W12.107] If a horse carries more than one type of dilution gene, additional cream mimics and other unique colors may occur.
+- [W12.108] The combined effects of champagne and a single cream gene can be hard to distinguish from a double-dilute cream.
+- [W12.109] Freckled skin and greenish eyes, or pedigree knowledge can yield clues, though the mystery can also be solved with a DNA test.
+- [W12.110] The pearl gene or "barlink factor" is a recessive gene that affects only red pigment.
+- [W12.111] When a single copy each of pearl and cream are present, the effect is quite similar to cremello.
+- [W12.112] Dilutes combining the pearl gene with one copy of the cream gene are known as "pseudo-double dilutes" and produce a cream dilute phenotype that includes pale skin and blue/green eyes.
+- [W12.113] DNA tests and patience are effective in determining which is the case.
+- [W12.114] Some of the terms used to describe these combinations include:
+- [W12.115] Dunalino, yellow dun or palomino dun: a chestnut-based coat with one cream allele and at least one dun allele.
+- [W12.116] The points are reddish, but the body coat is a paler, flatter shade of gold and primitive markings are visible.
+- [W12.117] Dunskin, buckskin dun, or buttermilk dun: a bay-based coat with one cream allele and at least one dun allele.
+- [W12.118] These are quite difficult to tell apart from ordinary duns.
+- [W12.119] They are a slightly paler shade, and retain their dark points and primitive markings.
+- [W12.120] Cream dun, cremello dun or linebacked cremello: a blue-eyed cream horse also carrying the dun gene.
+- [W12.121] The primitive markings associated with the dun color are usually quite visible, especially on horses with a bay or black base coat.
+- [W12.122] Smoky grulla, silver grulla or smoky black dun: a black-based coat with one cream allele and at least one dun allele.
+- [W12.123] The effect is of an extra-pale grulla.
+- [W12.124] Double-cream champagne: any blue-eyed cream horse that also carries the champagne gene.
+- [W12.125] The champagne traits are, in the few known individuals, not visible.
+- [W12.126] Amber cream or buckskin champagne: a bay-based coat with one cream allele and at least one champagne allele.
+- [W12.127] The skin and eyes have champagne traits such as skin mottling, while the coat is a pale buff color.
+- [W12.128] The points are a soft, pale grayish-chocolate.
+- [W12.129] Classic cream or smoky black champagne: a black-based coat with one cream allele and at least one champagne allele. is also an acceptable term.
+- [W12.130] Like an amber cream, they retain champagne traits in the skin and eyes, and range from pale buff to pale chocolatey-gray.
+- [W12.131] Even though the coat is black-based, the mane and tail tend to be darker.
+- [W12.132] Gold cream: chestnut-based coat with one cream allele and at least one champagne allele.
+- [W12.133] Formerly referred to as "ivory champagne." The champagne traits remain in the skin and eyes, and the coat is an all-over ivory color.
+- [W12.134] Sable cream or brown buckskin champagne: brown-based coat with one cream allele and at least one champagne allele.
+- [W12.135] The coat color falls between amber and classic cream.
+- [W12.136] Silver buckskin: bay-based coat with one cream allele and at least one silver dapple allele.
+- [W12.137] The effect varies, as silver dapple does not act on red coats, but the buckskin's golden tone is somewhat lost.
+- [W12.138] Silver smoky black: black-based coat with one cream allele and at least one silver allele.
+- [W12.139] The effect varies from chestnut-like to silver black-like.
+- [W12.140] Lighter eyes can help with identification.
+- [W12.141] Inheritance and expression
+- [W12.142] The cream locus is on exon 2 of the SLC45A2 gene; a single nucleotide polymorphism results in an aspartic acid-to-asparagine substitution (N153D).
+- [W12.143] The DNA test offered by various laboratories detects this mutation.
+- [W12.144] The SLC45A2 gene encodes a protein illustrated to have roles in melanogenesis in humans, mice, and medaka.
+- [W12.145] Mice affected by a condition homologous to cream exhibit irregularly shaped melanosomes, which are the organelles within melanocytes that directly produce pigment.
+- [W12.146] Genes in horses such as Frame and Sabino1 produce white spotting by interrupting or limiting the migration of melanocytes from the neural crest, while the cream mutation affects the nature of the pigments produced by melanocytes.
+- [W12.147] Therefore, the skin, eyes, and hair of horses with the cream mutation do not lack melanocytes, melanosomes, or melanins, but rather exhibit hypomelanism.
+- [W12.148] Prior to the mapping of the cream gene, this locus was titled C for "color".
+- [W12.149] There are two alleles in the series: the recessive, wildtype allele C and the incomplete dominant CCr.
+- [W12.150] The CCr allele represents the N153D SLC45A2 mutation.
+- [W12.151] C/C recessive homozygotes are not affected by cream and have no true cream traits.
+- [W12.152] C/CCr heterozygotes have one cream allele, and one wildtype non-cream allele.
+- [W12.153] Only red pigment in the hair is diluted, as seen in buckskins and palominos.
+- [W12.154] CCr/CCr homozygotes (homozygous creams) have no wildtype non-cream alleles.
+- [W12.155] The red and black pigment in the hair are diluted to cream, the eyes are light blue and the skin is rosy pink.
+- [W12.156] Cream was first formally studied by Adalsteinsson in 1974, who reported that the inheritance of palomino and buckskin coat colors in Icelandic horses followed a "semi-dominant" or incomplete dominant model.
+- [W12.157] Adalsteinsson also noted that in heterozygotes, only the red pigment (pheomelanin) was diluted.
+- [W12.158] The discovery that the palomino coat color was inextricably linked to the cream coat color was very significant.
+- [W12.159] At one time, double dilutes, particularly cremellos, were barred from registration by many breed organizations.
+- [W12.160] Cremello was thought by some to be a lethal white or albino coloring and a potential genetic defect.
+- [W12.161] There also were known health implications of albinism in humans, and cultural prejudices; while a heroic figure such as Roy Rogers rode a golden palomino, the "Albino" in Mary O'Hara's Thunderhead portrayed a horse with a freakish defect.
+- [W12.162] These coat colors carried vastly different cultural significance.
+- [W12.163] Because the experience of breeders of palomino and buckskin horses indicated that blue-eyed cream offspring of these animals were not genetically defective, some of the research that took place nearly thirty years after Adalsteinsson's studies that identified the nature of cream dilution was directly supported by breed registries that had historically barred blue eyed creams.
+- [W12.164] The cream gene's preferential effect on red pigment has not yet been explained.
+- [W12.165] The champagne dilution affects both black and red pigments equally, the silver dapple gene affects only black pigment, and pearl exhibits a recessive mode of inheritance and only affects red pigment.
+- [W12.166] Unlike the cream gene, pearl does not seem to affect the mane and tail to a greater extent than the body coat, a feature of cream that is most vividly illustrated in the palomino coat color.
+- [W12.167] This characteristic of the cream gene is also unexplained.
+- [W12.168] The disparity in effects on red and black pigments is easy to identify in buckskins, with their black points, but it is also visible in CCr/CCr homozygotes: perlinos (homozygous cream on a bay coat) often retain points that are a darker shade of cream.
+- [W12.169] This unusual feature enables what are called cryptic creams.
+- [W12.170] A certain percentage of dark bay, seal brown, and black horses exhibit such subtle dilution of their coats as to be misregistered.
+- [W12.171] In the study that mapped the cream gene, three horses registered as seal brown, dark bay or bay were actually smoky black and buckskin.
+- [W12.172] This is one way by which the cream gene is transmitted through generations without being identified.
+- [W12.173] Horses born palomino, buckskin, and smoky black, but also carry the gray gene, have a hair coat that turns white as they age and are usually registered as "gray" rather than as their birth color.
+- [W12.174] This is particularly a common occurrence in the Connemara breed.
+- [W12.175] Horses sold after turning fully gray may surprise breeders by producing golden or cream offspring.
+- [W12.176] This effect - stronger expression on red pigment - is also seen in coat pattern genes in horses.
+- [W12.177] In general, white markings are more pervasive in chestnuts than in non-chestnuts, to the extent that homozygous non-chestnuts (which carry the "Extension" (E) gene and may also carry the Agouti gene) were more modestly marked than non-chestnuts heterozygous for the E allele.
+- [W12.178] This effect has also been identified and studied in the Leopard complex patterns.
+- [W12.179] Analogous conditions in other animals
+- [W12.180] The SLC45A2 gene is best known in humans as being the location of a mutation that results in human type IV oculocutaneous albinism (OCA4).
+- [W12.181] Type IV oculocutaneous albinism, like other types of human albinism, results in hypopigmentation of the skin and eyes, with increased rates of skin cancer and reduced visual acuity.
+- [W12.182] None of these effects are associated with the equine cream gene.
+- [W12.183] Other human SLC45A2 polymorphisms result in normal pigment variations, specifically fair skin, light eyes, and light hair in Caucasian populations.
+- [W12.184] A presumed knockout mutation in the same gene causes the phenotype of white tigers, which retain black striping though they lack the typical orange background pigmentation.
+- [W12.185] A polymorphism on the mouse SLC45A2 gene is known to be the cause of the underwhite coat color phenotype.
+- [W12.186] The phenotype was first identified in the 1960s, and since then has been mapped successfully.
+- [W12.187] Affected individuals have a reduction in eye and coat pigmentation, and irregularly shaped melanosomes.
+
+## [W13] Wikipedia: Polydactyl cat
+https://en.wikipedia.org/w/index.php?title=Polydactyl_cat&oldid=1375883890 · CC BY-SA 4.0 · usage: ai_input
+
+- [W13.1] A polydactyl cat is a cat with a congenital physical anomaly called feline polydactyly (also known as polydactylism or hyperdactyly), which causes the cat to be born with more than the usual number of toes on one or more of its paws.
+- [W13.2] A point mutation in the noncoding region of the ZRS regulatory sequence causes abnormal SHH expression during limb development, causing variable polydactyly through following developmental processes rather than the mutation alone, explaining why the phenotypic expression of polydactyly varies.
+- [W13.3] Cats with this genetically inherited trait are most commonly found along the East Coast of North America (in the United States and Canada) and in South West England and Wales.
+- [W13.4] The breed, American polydactyl cats, are bred with normal-toed cats by breeders, since the trait is inherited dominantly and can be passed on to offspring reliably.
+- [W13.5] These cats spread through maritime trade, notably from Boston, since sailors valued polydactyl cats and saw them as lucky.
+- [W13.6] They became known as "Hemingway cats" after Ernest Hemingway's love for his own collection of polydactyl cats.
+- [W13.7] Embryologists distinguish two principal forms of feline polydactyly: preaxial and postaxial.
+- [W13.8] Preaxial polydactyly involves supernumerary digits on the medial (inner) side of the paw, corresponding to the thumb side in humans, whereas postaxial polydactyly affects the lateral (outer) side, corresponding to the little finger.
+- [W13.9] Postaxial polydactyly is comparatively rare in cats, and the additional digits in such cases are often incompletely formed.
+- [W13.10] By contrast, preaxial extra digits are typically well developed.
+- [W13.11] Polydactyly is a congenital malformation that is most commonly inherited in an autosomal dominant pattern.
+- [W13.12] In several cases, the condition is associated with mutations affecting regulatory elements that control expression of the sonic hedgehog (SHH) gene during limb development.
+- [W13.13] SHH encodes a signalling protein that plays a central role in embryonic pattern formation, including the specification and growth of limbs and digits.
+- [W13.14] Genetic work studying the DNA basis of the condition indicates that many different mutations in the same ZRS area can all lead to polydactyly.
+- [W13.15] In the case of preaxial polydactyly of the Maine Coon cat (Hemingway mutant; Hw) a mutation of the cis-regulatory element ZRS (ZPA regulator sequence) is associated.
+- [W13.16] ZRS is a noncoding element, 800 kilobase pairs (kb) remote to the target gene SHH.
+- [W13.17] An ectopic expression of SHH is seen on the anterior side of the limb.
+- [W13.18] Normally SHH is expressed in an organizer region, called the zone of polarising activity (ZPA) on the posterior limb side.
+- [W13.19] From there it diffuses anteriorly, laterally to the growth direction of the limb.
+- [W13.20] In the mutant mirroring smaller ectopic expression in a new organizer region is seen on the posterior side of the limb.
+- [W13.21] This ectopic expression causes cell proliferation delivering the raw material for one or more new digits.
+- [W13.22] An identical sequence at this position serves the same function in human and mice and cause similar symptoms when mutated.
+- [W13.23] Different mutations have different specific effects: for example, while the Hw mutant tends to mostly induce extra fingers in the fore limbs, many other mutations affect the posterior limbs too.
+- [W13.24] Polydactyly is a spontaneous complex phenotypic variation, developed in one generation.
+- [W13.25] In the concrete preaxial form of the Hw mutant the variation is induced by a single point mutation in a noncoding cis-regulatory element for SHH.
+- [W13.26] In an extensive phenotypic variation like this, one or more complete digits at each single limb are developed including nerves, blood vessels, muscles and ligaments.
+- [W13.27] The physiology of the digits can be perfect.
+- [W13.28] This complex phenotypic result cannot be explained by the mutation alone.
+- [W13.29] The mutation can only induce the variation.
+- [W13.30] In the consequence of the mutation, thousands of events, each different from the wild type, occur on different organisation layers, such as expression changes of other genes, cell-cell signal exchange, cell differentiation, cell and tissue growth.
+- [W13.31] The summarized small random changes on all layers build the raw material and the process steps for the generation of the plastic variation.
+- [W13.32] The mentioned form of polydactyly of the Hw mutant shows a biased variation.
+- [W13.33] In a recent empirical study first the number of extra toes of 375 mutant Maine Coon cats were variable (polyphenism) and second, the number of extra toes followed a discontinuous statistical distribution.
+- [W13.34] They were not equally distributed as one might expect of an identical single point mutation.
+- [W13.35] The example demonstrates that the variation is not explained completely by the mutation alone.
+- [W13.36] Occurrence and heritability
+- [W13.37] Normal cats have a total of 18 toes, with five toes on each fore paw, and four toes on each hind paw; polydactyl cats may have as many as nine digits on their front or hind paws.
+- [W13.38] Various combinations of anywhere from four to seven toes per paw are common.
+- [W13.39] Polydactyly is most commonly found on the front paws only; it is rare for a cat to have polydactyl hind paws only, and polydactyly of all four paws is even less common.
+- [W13.40] Polydactyly is a congenital abnormality that can be inherited in an autosomal dominant manner, meaning only one mutated gene needs to be passed on from the parent for the offspring to express the mutated phenotype.
+- [W13.41] Below shows the probabilities of offspring inheriting polydactyly depending on the parent cats' genotypes (determined via a simple punnett square):
+- [W13.42] Affected (homozygous dominant) x Affected (homozygous dominant): 100%
+- [W13.43] Affected (homozygous dominant) x Not Affected (homozygous recessive): 100%
+- [W13.44] Affected (heterozygous) x Affected (heterozygous): 75%
+- [W13.45] Affected (heterozygous) x Not Affected (homozygous recessive): 50%
+- [W13.46] Not Affected (homozygous recessive) x Not Affected (homozygous recessive): 0%
+- [W13.47] Erebus, a polydactyl cat born in Wisconsin, USA, was recognized by Guinness World Records as having the highest number of toes on a cat at 29.
+- [W13.48] The previous record holders since 2002 were Jake, a Canadian polydactyl cat, and Paws from the USA, both with 28.
+- [W13.49] Various combinations of anywhere from four to seven toes per paw are common.
+- [W13.50] Polydactyly does not affect the lifespan of the cat, nor does it cause any health issues.
+- [W13.51] One suggestion for caring for cats with polydactyly is to ensure that their nails are trimmed frequently so that their claws do not become overgrown and curl into their paws.
+- [W13.52] It is also imperative to make sure that polydactyl cats, especially when they are young, do not get their claws stuck, since that can be more common for cats with extra toes.
+- [W13.53] Polydactylism is found in random-bred cat populations, and not an indication of purebred ancestry.
+- [W13.54] Polydactylism is considered a disqualifying fault in most breeds, and makes kittens of any breeding line inadmissible for registration with some of the major cat registries.
+- [W13.55] The registries argue that polydactylism is a congenital abnormality, which confers no welfare benefit upon cats, and in some cases the additional toes may be prone to injury; furthermore, claws on the extra toes may fail to wear down naturally, potentially causing harm to the animal.
+- [W13.56] Due to these welfare concerns, polydactyl cats are barred from registry and showing in for example the FIFe, GCCF, CFA and WCF.
+- [W13.57] This also holds true for oligodactylism (less toes) in some registries.
+- [W13.58] The feature is permitted by some of the other major cat fancier clubs, for example with  TICA; however only in specific cat breeds, including the Highlander, Maine Coon, and Pixie-bob.
+- [W13.59] In TICA the polydactyl Maine Coons are categorised as a sister breed called the Maine Coon Polydactyl, and allowed polydactylism in their cats is limited to no more than 7 toes on any foot.
+- [W13.60] The American polydactyl is recognized as a cat breed with the Rare and Exotic Feline Registry, however not by any of the major registries.
+- [W13.61] The cats are selectively bred in compliance with a breed standard in order to maintain a standardized breed with specific physical and behavioral characteristics, in addition to extra digits.
+- [W13.62] However, in non-pedigree breeding, polydactyly is commonly selected for because humans believe that the mutation is valuable aesthetically, meaning this is an example of artificial selection, though there is no significant advantage to the mutation.
+- [W13.63] Breeders typically breed a polydactyl cat with a normal-toed cat since the trait is passed on dominantly and reliable to the offspring, meaning breeders can breed a litter of polydactyl kittens only requiring one polydactyl parent.
+- [W13.64] The condition seems to be most commonly found in cats along the East Coast of North America (in the United States and Canada) and in Western England and Wales.
+- [W13.65] Polydactyl cats have been extremely popular as ship's cats in this region.
+- [W13.66] Although there is some controversy over whether the most common variant of the trait originated in the US as a mutation in New England, or was brought there from Britain, there seems to be agreement that it spread widely as a result of cats carried on ships originating in Boston, and the prevalence of polydactyly among the cat population of various ports in North America correlates with the dates when they first established trade with Boston.
+- [W13.67] Contributing to the spread of polydactyl cats by this means, sailors in the region were long known to value polydactyl cats especially for their extraordinary climbing and hunting abilities as an aid in controlling shipboard rodents.
+- [W13.68] Some sailors thought they bring good luck at sea.
+- [W13.69] The rarity of polydactyl cats in Europe may be because they were hunted and killed based on superstitions about witchcraft.
+- [W13.70] Author Ernest Hemingway became a famous aficionado of polydactyl cats after a ship captain gave him a six-toed cat that he named Snow White.
+- [W13.71] Upon Hemingway's death in 1961, his former home in Key West, US, became a museum and a home for his cats, and it currently houses approximately 50 descendants of his cats (about half of which are polydactyl).
+- [W13.72] Hemingway is an important figure in the history of polydactyl cats because he brought light to the extra-toe mutation via his love for his own collection of polydactyl cats in his life, making them popular and giving them one of their commonly known nicknames (Hemingway cats).
+- [W13.73] Other nicknames for polydactyl cats include mitten cats, conch cats, boxing cats, mitten-foot cats, snowshoe cats, boston-toed cats, "providence cats", thumb cats, six-fingered cats, and Cardi-cats.
+- [W13.74] Polydactyly in early tetrapods
+- [W13.75] List of cat body-type mutations
+- [W13.76] "The anatomy of polydactylism in cats with observations on genetic control".
+- [W13.77] 141 (3): 205–17. doi:10.1002/ar.1091410305.
+- [W13.78] "Heredity of polydactyly in the cat".
+- [W13.79] 38 (4): 107–12. doi:10.1093/oxfordjournals.jhered.a105701.
+- [W13.80] "Morphology of the feet in polydactyl cats".
+- [W13.81] American Journal of Anatomy.
+- [W13.82] 80 (2): 143–71. doi:10.1002/aja.1000800202.
+- [W13.83] Fond du Lac: All-Pets Books.
+- [W13.84] The Popular Science Monthly.
+- [W13.85] Genetics for Cat Breeders (2nd ed.).
+- [W13.86] Veterinary Medicine, Small Animal Clinician.
+- [W13.87] "The independent assortment of dominant white and polydactyly in the cat".
+- [W13.88] 57 (1): 17–8. doi:10.1093/oxfordjournals.jhered.a107451.
+- [W13.89] Vella, Carolyn M.; Shelton, Lorraine M.; McGonagle, John J.; Stanglein, Terry W.
+- [W13.90] Robinson's Genetics for Cat Breeders and Veterinarians (4th ed.).
+- [W13.91] Oxford: Butterworth-Heinemann.
+- [W13.92] Wenthe, M; Lazarz, B (1995).
+- [W13.93] "Ein Fall von atavistischer Polydaktylie an der Hinterextremität des Hauskatze" [A case of atavistic polydactyly at the hind limb of a cat].
+- [W13.94] Kleintierpraxis (in German).
+- [W13.95] Owner's appeal over cat's 26 toes
+
+## [W14] Wikipedia: Familial hypercholesterolemia
+https://en.wikipedia.org/w/index.php?title=Familial_hypercholesterolemia&oldid=1354857074 · CC BY-SA 4.0 · usage: ai_input
+
+- [W14.1] Familial hypercholesterolemia (FH) is a genetic disorder characterized by high cholesterol levels, specifically very high levels of low-density lipoprotein cholesterol (LDL cholesterol), in the blood and early cardiovascular diseases.
+- [W14.2] The most common mutations diminish the number of functional LDL receptors in the liver or produce abnormal LDL receptors that never go to the cell surface to function properly (abnormal trafficking).
+- [W14.3] Since the underlying body biochemistry is slightly different in individuals with FH, their high cholesterol levels are less responsive to the kinds of cholesterol control methods which are usually more effective in people without FH (such as dietary modification and statin tablets).
+- [W14.4] Nevertheless, treatment (including higher statin doses and PCSK9 inhibitors) is usually effective.
+- [W14.5] FH is classified as a type 2 familial dyslipidemia.
+- [W14.6] There are five types of familial dyslipidemia (not including subtypes), and each are classified from both the altered lipid profile and by the genetic abnormality.
+- [W14.7] For example, high LDL (often due to LDL receptor defect) is type 2.
+- [W14.8] Others include defects in chylomicron metabolism, triglyceride metabolism, and the metabolism of other cholesterol-containing particles, such as VLDL and IDL.
+- [W14.9] About 1 in 100 to 200 people have mutations in the LDLR gene that encodes the LDL receptor protein, which normally removes LDL from circulation, or the APOB gene that encodes apolipoprotein B (ApoB), the part of LDL particles that binds with LDL receptors.
+- [W14.10] Mutations in other genes are rare but important to know, including gain-of-function mutations in the PCSK9 gene coding for the PCSK9 enzyme (which degrades LDL receptors), resulting in less LDL receptors available.
+- [W14.11] PCSK9 mutations cause less than 5% of cases of FH according to most epidemiologic studies.
+- [W14.12] People who have one abnormal copy (are heterozygous) of the LDLR gene may develop cardiovascular disease prematurely at the age of 30 to 40.
+- [W14.13] Having two abnormal copies (being homozygous) may cause severe cardiovascular disease in childhood.
+- [W14.14] Heterozygous FH is a common genetic disorder, inherited in an autosomal dominant pattern, occurring in 1:250 people in most countries; homozygous FH is much rarer, occurring in 1 in 300,000 people.
+- [W14.15] Heterozygous FH is normally treated with statins, bile acid sequestrants, or other lipid-lowering agents that lower cholesterol levels.
+- [W14.16] New cases are generally offered genetic counseling.
+- [W14.17] Homozygous FH often does not respond to medical therapy and may require other treatments, including LDL apheresis (removal of LDL in a method similar to dialysis) and occasionally liver transplantation.
+- [W14.18] High cholesterol levels normally do not cause any symptoms.
+- [W14.19] Yellow deposits of cholesterol-rich fat may be seen in various places on the body such as around the eyelids (known as xanthelasma palpebrarum), the outer margin of the iris (known as arcus senilis corneae), and in the tendons of the hands, elbows, knees, and feet, particularly the Achilles tendon (known as a tendon xanthoma).
+- [W14.20] Accelerated deposition of cholesterol in the walls of arteries leads to atherosclerosis, the underlying cause of cardiovascular disease.
+- [W14.21] The most common problem in FH is the development of coronary artery disease (atherosclerosis of the coronary arteries that supply the heart) at a much younger age than would be expected in the general population.
+- [W14.22] This may lead to angina pectoris (chest pain or tightness on exertion) or heart attacks.
+- [W14.23] Less commonly, arteries of the brain are affected; this may lead to transient ischemic attacks (brief episodes of weakness on one side of the body or inability to talk) or occasionally stroke.
+- [W14.24] Peripheral artery occlusive disease (obstruction of the arteries of the legs) occurs mainly in people with FH who smoke; this can cause pain in the calf muscles during walking that resolves with rest (intermittent claudication) and problems due to a decreased blood supply to the feet (such as gangrene).
+- [W14.25] Atherosclerosis risk is increased further with age and in those who smoke, have diabetes, high blood pressure and a family history of cardiovascular disease.
+- [W14.26] Approximately 85% of individuals with this disorder have not been diagnosed and consequently are not receiving lipid-lowering treatments.
+- [W14.27] Physical examination findings can help a physician make the diagnosis of FH.
+- [W14.28] Tendon xanthomas are seen in 20-40% of individuals with FH and are pathognomonic for the condition.
+- [W14.29] A xanthelasma or corneal arcus may also be seen.
+- [W14.30] These common signs are supportive of the diagnosis but are non-specific findings.
+- [W14.31] Cholesterol levels may be determined as part of health screening for health insurance or occupational health, when the external physical signs such as xanthelasma, xanthoma, arcus are noticed, symptoms of cardiovascular disease develop, or a family member has been found to have FH.
+- [W14.32] A pattern compatible with hyperlipoproteinemia type IIa on the Fredrickson classification is typically found: raised level of total cholesterol, markedly raised level of low-density lipoprotein (LDL), normal level of high-density lipoprotein (HDL), and normal level of triglycerides.
+- [W14.33] Total cholesterol levels of 350–550 mg/dL are typical of heterozygous FH while total cholesterol levels of 650–1000 mg/dL are typical of homozygous FH.
+- [W14.34] The LDL is typically above the 75th percentile, that is, 75% of the healthy population would have a lower LDL level.
+- [W14.35] Cholesterol levels can be drastically higher in people with FH who are also obese.
+- [W14.36] On the basis of the isolated high LDL and clinical criteria (which differ by country), genetic testing for LDL receptor mutations, ApoB mutations, and PCSK9 can be performed.
+- [W14.37] Mutations are detected in between 50 and 80% of cases; those without a mutation often have higher triglyceride levels and may in fact have other causes for their high cholesterol, such as combined hyperlipidemia due to metabolic syndrome.
+- [W14.38] FH needs to be distinguished from familial combined hyperlipidemia and polygenic hypercholesterolemia.
+- [W14.39] Lipid levels and the presence of xanthomata can confirm the diagnosis.
+- [W14.40] Sitosterolemia and cerebrotendineous xanthomatosis are two rare conditions that can also present with premature atherosclerosis and xanthomas.
+- [W14.41] Generally, cholesterol measurement will not differentiate patients with FH and sitosterolemia, in which the plant stanol is accumulated instead of animal-source cholesterol.
+- [W14.42] The treatment of the condition is highly effective with a class of lipid-lowering agents: Ezetimibe.
+- [W14.43] Polygenic hypercholesterolemia can also involve neurological or psychiatric manifestations, cataracts, diarrhea and skeletal abnormalities.
+- [W14.44] This condition does not have increased blood cholesterol but the accumulation of cholesterol derivative in the tendon can mimic FH.
+- [W14.45] The most common genetic defects in FH are LDLR loss of function mutations (prevalence 1 in 250, depending on the population), ApoB loss of function mutations (prevalence 1 in 1000), PCSK9 gain of function mutations (less than 1 in 2500) and LDLRAP1.
+- [W14.46] The related disease sitosterolemia, which has many similarities with FH and also features cholesterol accumulation in tissues, is due to ABCG5 and ABCG8 mutations.
+- [W14.47] The LDL receptor gene is located on the short arm of chromosome 19 (19p13.1-13.3).
+- [W14.48] It comprises 18 exons and spans 45 kb, and the protein gene product contains 839 amino acids in mature form.
+- [W14.49] A single abnormal copy (heterozygote) of FH causes cardiovascular disease by the age of 50 in about 40% of cases.
+- [W14.50] Having two abnormal copies (homozygote) causes accelerated atherosclerosis in childhood, including its complications.
+- [W14.51] The plasma LDL levels are inversely related to the activity of the LDL receptor (LDLR).
+- [W14.52] Homozygotes have LDLR activity of less than 2%, while heterozygotes have defective LDL processing with receptor activity being 2–25%, depending on the nature of the mutation.
+- [W14.53] Over 1000 different mutations are known.
+- [W14.54] There are five major classes of FH due to LDLR mutations:
+- [W14.55] Class I: LDLR is not synthesized at all.
+- [W14.56] Class II: LDLR is not properly transported from the endoplasmic reticulum to the Golgi apparatus for expression on the cell surface.
+- [W14.57] Class III: LDLR does not properly bind LDL on the cell surface because of a defect in either apolipoprotein B100 (R3500Q) or in LDL-R.
+- [W14.58] Class IV: LDLR bound to LDL does not properly cluster in clathrin-coated pits for receptor-mediated endocytosis (pathway step 2).
+- [W14.59] Class V: LDLR is not recycled back to the cell surface (pathway step 5).
+- [W14.60] Apolipoprotein B, in its ApoB100 form, is the main apolipoprotein, or protein part of the lipoprotein particle.
+- [W14.61] Its gene is located on the second chromosome (2p24-p23) and is 46.2 kb long.
+- [W14.62] FH is often associated with the mutation of R3500Q, which causes the replacement of arginine by glutamine at position 3500.
+- [W14.63] The mutation is located on a part of the protein that normally binds with the LDL receptor, and binding is reduced as a result of the mutation.
+- [W14.64] Like LDLR, the number of abnormal copies determines the severity of the hypercholesterolemia.
+- [W14.65] Mutations in the proprotein convertase subtilisin/kexin type 9 (PCSK9) gene were linked to autosomal dominant (i.e. requiring only one abnormal copy) FH in a 2003 report.
+- [W14.66] The gene is located on the first chromosome (1p34.1-p32) and encodes a 666 amino acid protein that is expressed in the liver.
+- [W14.67] It has been suggested that PCSK9 causes FH mainly by reducing the number of LDL receptors on liver cells.
+- [W14.68] Abnormalities in the ARH gene, also known as LDLRAP1, were first reported in a family in 1973.
+- [W14.69] In contrast to the other causes, two abnormal copies of the gene are required for FH to develop (autosomal recessive).
+- [W14.70] The mutations in the protein tend to cause the production of a shortened protein.
+- [W14.71] Its real function is unclear, but it seems to play a role in the relationship between the LDL receptor and clathrin-coated pits.
+- [W14.72] People with autosomal recessive hypercholesterolemia tend to have more severe disease than LDLR-heterozygotes but less severe than LDLR-homozygotes.
+- [W14.73] LDL cholesterol normally circulates in the body for 2.5 days, and subsequently, the apolipoprotein B portion of LDL cholesterol binds to the LDL receptor on the liver cells, triggering its uptake and digestion.
+- [W14.74] This process results in the removal of LDL from the circulatory system.
+- [W14.75] Synthesis of cholesterol by the liver is suppressed in the HMG-CoA reductase pathway.
+- [W14.76] In FH, LDL receptor function is reduced or absent, and LDL circulates for an average duration of 4.5 days, resulting in a significantly increased level of LDL cholesterol in the blood with normal levels of other lipoproteins.
+- [W14.77] In mutations of ApoB, reduced binding of LDL particles to the receptor causes the increased level of LDL cholesterol.
+- [W14.78] It is not known how the mutation causes LDL receptor dysfunction in mutations of PCSK9 and ARH.
+- [W14.79] Although atherosclerosis occurs to a certain degree in all people, people with FH may develop accelerated atherosclerosis due to the excess level of LDL.
+- [W14.80] The degree of atherosclerosis approximately depends on the number of LDL receptors still expressed and the functionality of these receptors.
+- [W14.81] In many heterozygous forms of FH, the receptor function is only mildly impaired, and LDL levels will remain relatively low.
+- [W14.82] In the more serious homozygous forms, the receptor is not expressed at all.
+- [W14.83] Some studies of FH cohorts suggest that additional risk factors are generally at play when a person develops atherosclerosis.
+- [W14.84] In addition to the classic risk factors such as smoking, high blood pressure, and diabetes, genetic studies have shown that a common abnormality in the prothrombin gene (G20210A) increases the risk of cardiovascular events in people with FH.
+- [W14.85] Several studies found that a high level of lipoprotein(a) was an additional risk factor for ischemic heart disease.
+- [W14.86] The risk was also found to be higher in people with a specific genotype of the angiotensin-converting enzyme (ACE).
+- [W14.87] Cholesterol screening and genetic testing among family members of people with known FH is cost-effective.
+- [W14.88] Other strategies such as universal screening at the age of 16 were suggested in 2001.
+- [W14.89] The latter approach may, however, be less cost-effective in the short term.
+- [W14.90] Screening at an age lower than 16 was thought likely to lead to an unacceptably high rate of false positives.
+- [W14.91] A 2007 meta-analysis found that "the proposed strategy of screening children and parents for familial hypercholesterolaemia could have considerable impact in preventing the medical consequences of this disorder in two generations simultaneously." "The use of total cholesterol alone may best discriminate between people with and without FH between the ages of 1 to 9 years."
+- [W14.92] Screening of toddlers has been suggested, and results of a trial on 10,000 one-year-olds were published in 2016.
+- [W14.93] Work was needed to find whether screening was cost-effective and acceptable to families.
+- [W14.94] Genetic counseling can help assist in genetic testing following a positive cholesterol screen for FH.
+- [W14.95] Heterozygous familial hypercholesterolemia (HeFH) is usually treated with statins.
+- [W14.96] Statins act by inhibiting the enzyme hydroxymethylglutaryl CoA reductase (HMG-CoA-reductase) in the liver.
+- [W14.97] In response, the liver produces more LDL receptors, which remove circulating LDL from the blood.
+- [W14.98] Statins effectively lower cholesterol and LDL levels, although sometimes add-on therapy with other drugs is required, such as bile acid sequestrants (cholestyramine or colestipol), nicotinic acid preparations or fibrates.
+- [W14.99] Control of other risk factors for cardiovascular disease is required, as risk remains somewhat elevated even when cholesterol levels are controlled.
+- [W14.100] Professional guidelines recommend that the decision to treat a person with FH with statins should not be based on the usual risk prediction tools (such as those derived from the Framingham Heart Study), as they are likely to underestimate the risk of cardiovascular disease; unlike the rest of the population, people with FH have high levels of cholesterol since birth, probably increasing their relative risk.
+- [W14.101] Prior to the introduction of the statins, clofibrate (an older fibrate that often caused gallstones), probucol (especially in large xanthomas) and thyroxine were used to reduce LDL cholesterol levels.
+- [W14.102] More controversial is the addition of ezetimibe, which inhibits cholesterol absorption in the gut.
+- [W14.103] While it reduces LDL cholesterol, it does not appear to improve a marker of atherosclerosis called the intima-media thickness.
+- [W14.104] Whether this means that ezetimibe is of no overall benefit in FH is unknown.
+- [W14.105] There are no interventional studies that directly show the mortality benefit of cholesterol lowering in FH.
+- [W14.106] Rather, evidence of benefit is derived from several trials conducted in people who have polygenic hypercholesterolemia (in which heredity plays a smaller role).
+- [W14.107] Still, a 1999 observational study of a large British registry showed that mortality in people with FH had started to improve in the early 1990s when statins were introduced.
+- [W14.108] A cohort study suggested that treatment of FH with statins leads to a 48% reduction in death from coronary heart disease to a point where people are no more likely to die of coronary heart disease than the general population.
+- [W14.109] However, if the person already had coronary heart disease the reduction was 25%.
+- [W14.110] The results emphasize the importance of early identification of FH and treatment with statins.
+- [W14.111] Alirocumab and evolocumab, both monoclonal antibodies against PCSK9, are specifically indicated as an adjunct to diet and maximally tolerated statin therapy for the treatment of adults with heterozygous familial hypercholesterolemia, who require additional lowering of LDL cholesterol.
+- [W14.112] More recently Inclisiran has been approved for the treatment of HeFH.
+- [W14.113] Although monoclonal antibodies against PCSK9 are highly effective for patients with FH, the parenteral administration makes it less acceptable to the patient.
+- [W14.114] There are many oral PCSK9 studies in the clinical trials (phase 2 and phase 3) and will be soon adopted as the treatment of hypercholesterolemia.
+- [W14.115] Homozygous familial hypercholesterolemia (HoFH) is harder to treat.
+- [W14.116] The LDL (Low-Density Lipoprotein) receptors are minimally functional, if at all.
+- [W14.117] Only high doses of statins, often in combination with other medications, are modestly effective in improving lipid levels.
+- [W14.118] Probucol, which enhances LDL removal independently of the LDL receptor, is currently used in Japan too, though clinical trials on this indication are old (1988).
+- [W14.119] If medical therapy is not successful at reducing cholesterol levels, LDL apheresis may be used; this filters LDL from the bloodstream in a process reminiscent of dialysis.
+- [W14.120] Very severe cases may be considered for a liver transplant; this provides a liver with normally functional LDL receptors, and leads to rapid improvement of the cholesterol levels, but at the risk of complications from any solid organ transplant (such as rejection, infections, or side-effects of the medication required to suppress rejection).
+- [W14.121] Other surgical techniques include partial ileal bypass surgery, in which part of the small bowel is bypassed to decrease the absorption of nutrients and hence cholesterol, and portacaval shunt surgery, in which the portal vein is connected to the vena cava to allow blood with nutrients from the intestine to bypass the liver.
+- [W14.122] Lomitapide, an inhibitor of the microsomal triglyceride transfer protein, was approved by the US FDA in December 2012 as an orphan drug for the treatment of homozygous familial hypercholesterolemia.
+- [W14.123] In January 2013, The US FDA also approved mipomersen, which inhibits the action of the gene apolipoprotein B, for the treatment of homozygous familial hypercholesterolemia.
+- [W14.124] Gene therapy is a possible future alternative.
+- [W14.125] Evinacumab, a monoclonal antibody inhibiting angiopoietin-like protein 3, was approved in 2021 for adjunct therapy.
+- [W14.126] Given that FH is present from birth and atherosclerotic changes may begin early in life, it is sometimes necessary to treat adolescents or even teenagers with agents that were originally developed for adults.
+- [W14.127] Due to safety concerns, many physicians prefer to use bile acid sequestrants and fenofibrate as these are licensed for children.
+- [W14.128] Nevertheless, statins seem safe and effective, and in older children may be used as in adults.
+- [W14.129] An expert panel in 2006 advised early combination therapy with LDL apheresis, statins, and cholesterol absorption inhibitors in children with homozygous FH at the highest risk.
+- [W14.130] The global prevalence of FH is approximately 10 million people.
+- [W14.131] In most populations studied, heterozygous FH occurs in about 1:250 people, but not all develop symptoms.
+- [W14.132] Homozygous FH occurs in about 1:1,000,000.
+- [W14.133] LDLR mutations are more common in certain populations, presumably because of a genetic phenomenon known as the founder effect—they were founded by a small group of individuals, one or several of whom was a carrier of the mutation.
+- [W14.134] The Afrikaner, French Canadians, Lebanese Christians, and Finns have high rates of specific mutations that make FH particularly common in these groups.
+- [W14.135] APOB mutations are more common in Central Europe.
+- [W14.136] The Norwegian physician Dr Carl Müller first associated the physical signs, high cholesterol levels, and autosomal dominant inheritance in 1938.
+- [W14.137] In the early 1970s and 1980s, the genetic cause for FH was described by Dr Joseph L.
+- [W14.138] Goldstein and Dr Michael S.
+- [W14.139] Initially, they found increased activity of HMG-CoA reductase, but studies showed that this did not explain the very abnormal cholesterol levels in people with FH.
+- [W14.140] The focus shifted to the binding of LDL to its receptor, and effects of impaired binding on metabolism; this proved to be the underlying mechanism for FH.
+- [W14.141] Subsequently, numerous mutations in the protein were directly identified by sequencing.
+- [W14.142] They later won the 1985 Nobel Prize in Medicine for their discovery of the LDL receptor and its impact on lipoprotein metabolism.
+- [W14.143] An important tool in the research of FH is the Watanabe heritable hyperlipidemic (WHHL) rabbit, named after its discoverer Yoshio Watanabe.
+- [W14.144] The original mutant was found in 1973.
+- [W14.145] The strain was established in 1976.
+- [W14.146] Subsequent selection and breeding produced forms with heightened susceptibility of coronary atherosclerosis and myocardial infarction, as hypercholesterolemia alone in rabbits was not sufficient to cause this issues frequently enough.
+- [W14.147] Primary hyperlipoproteinemia
+- [W14.148] Familial hypertriglyceridemia
+- [W14.149] Lipoprotein lipase deficiency
+- [W14.150] Familial apoprotein CII deficiency
+- [W14.151] Akira Endo, discoverer of the first statin
+- [W14.152] MedicinePlus: Familial Hypercholesterolemia
+
+## [W15] Wikipedia: MNS antigen system
+https://en.wikipedia.org/w/index.php?title=MNS_antigen_system&oldid=1379199133 · CC BY-SA 4.0 · usage: ai_input
+
+- [W15.1] The MNS antigen system is a human blood group system based upon two genes (glycophorin A and glycophorin B) on chromosome 4.
+- [W15.2] There are currently 50 antigens in the system, but the five most important are called M, N, S, s, and U.
+- [W15.3] The system can be thought of as two separate groups: the M and N antigens are at one location on the ECM and S, s, and U are on a closely related location.
+- [W15.4] The two groups are very closely located together on chromosome 4 and are inherited as a haplotype.
+- [W15.5] The MN blood group in humans is under the control of a pair of co-dominant alleles, LM and LN.
+- [W15.6] Most people in the Inuit population are M/M, while this genotype is rare among Indigenous Australians.
+- [W15.7] In fact, they tend to possess the opposite genotype (N/N).
+- [W15.8] The MN blood group system is under the control of an autosomal locus found on chromosome 4, with two alleles designated LM and LN.
+- [W15.9] The blood type is due to a glycoprotein present on the surface of a red blood cell (RBC), which behaves as a native antigen.
+- [W15.10] Phenotypic expression at this locus is codominant because an individual may exhibit either one or both antigenic substances.
+- [W15.11] Frequencies of the two alleles vary widely among human populations.
+- [W15.12] M+ and N+ RBCs are common (75% of population) and M+N+ cells are the most common genotype (50% of population).
+- [W15.13] These antigens were an early discovery and are some of the oldest blood antigens known after the ABO system.
+- [W15.14] They were first described by Karl Landsteiner and Philip Levine in 1927.
+- [W15.15] Anti-M and anti-N antibodies are usually IgM and are rarely associated with transfusion reactions.
+- [W15.16] Anti-N is sometimes seen in dialysis patients due to cross-reactions with the residual formaldehyde from sterilizing the equipment.
+- [W15.17] This is usually irrelevant for transfusion since this variant of the antibody does not react at body temperature.
+- [W15.18] The S antigen is relatively common (~55% of the population) and the s antigen is very common (~89% of the population).
+- [W15.19] Anti-S and anti-s can cause hemolytic transfusion reactions and hemolytic disease of the newborn.The U antigen is a high incidence antigen, occurring in more than 99.9% of the population.
+- [W15.20] The U was originally short for "Universal", though this is not the case.
+- [W15.21] U negative RBCs can be found in people of African descent.
+- [W15.22] This mutation in red cell surface structure also makes the RBCs S- and s-.
+- [W15.23] Anti-U has been associated with both hemolytic transfusion reactions and hemolytic disease of the newborn.
+- [W15.24] The other 41 identified antigens in the MNS group are low incidence, such as He (0.8% of the population) or  high incidence, such as ENa (>99.9% of the population).
+- [W15.25] MNS glycoproteins and genes
+- [W15.26] Antigens of the MNS system are located on one of two glycoproteins: glycophorin A (GPA, CD235A) and glycophorin B (GPB, CD235B).
+- [W15.27] Each glycoprotein crosses the membrane once and has an external N-terminal domain (varying in length from 44 amino acids for GPB to 72 amino acids in length for GPA) as well as a C-terminal cytosolic domain (GPB, 8 amino acids in length; GPA, 36 amino acids in length).
+- [W15.28] Clinical testing in patient care for MNS antigens follows published minimum quality and operational requirements, similar to red cell genotyping for any of the other recognized blood group systems.
+- [W15.29] Molecular analysis can identify gene variants (alleles) that may affect MNS antigens expression on the red cell membrane.
+- [W15.30] MNS antibodies display dosage (they react stronger against cells which are homozygous vs heterozygous for the antigen in question).
+- [W15.31] Anti-M and anti-N antibodies are naturally occurring, cold-reacting IgM-class antibodies.
+- [W15.32] Anti-M and anti-N are generally clinically insignificant.
+- [W15.33] Anti-S, anti-s and anti-U antibodies are acquired following exposure (via pregnancy or past transfusion with blood products) and are warm-reacting IgG-class antibodies.
+- [W15.34] Anti-S, anti-s and anti-U are usually clinically significant.
+- [W15.35] Brecher, Editor (2005), AABB Technical Manual, 15th edition, Bethesda, MD: AABB, ISBN 1-56395-196-7, p.
+- [W15.36] Harmening (1999), Modern Blood Banking and Transfusion Practices, Philadelphia, PA: F.A.
+- [W15.37] MNS system at BGMUT Blood Group Antigen Gene Mutation Database, NCBI, NIH
+
+## [W16] Wikipedia: Tonkinese cat
+https://en.wikipedia.org/w/index.php?title=Tonkinese_cat&oldid=1350433398 · CC BY-SA 4.0 · usage: ai_input
+
+- [W16.1] Tonkinese is a domestic cat breed produced by crossbreeding between the Siamese and Burmese.
+- [W16.2] Members of the breed are distinguished by a pointed coat pattern in a variety of colors.
+- [W16.3] In addition to the modified coat colors of the "mink" pattern, which is a dilution of the point color, the breed is now being shown in the foundation-like Siamese and Burmese colors: pointed with white and solid overall (sepia).
+- [W16.4] The best known variety is the short-haired Tonkinese, but there is a semi-longhaired (sometimes called Tibetan) which tends to be more popular in Europe, mainly in the Netherlands, Germany, Belgium, Luxembourg, and France.
+- [W16.5] The modern Tonkinese breed is a reconstruction of a breed brought to the West in the 19th century.
+- [W16.6] These cats were originally known as 'chocolate Siamese'.
+- [W16.7] Breeders working with imported cats from Malaysia noticed some cats have aquamarine eyes and darker coats than the Siamese.
+- [W16.8] In 1901, the Siamese Cat Club recognised them as a Siamese of the 'chocolate' type.
+- [W16.9] Many of the cats used to found the Siamese and Burmese in the West are believed to be Tonkinese, including Wong Mau.
+- [W16.10] Tonkinese would be bred still but registered as either Burmese or Siamese, it was not until the 1950s that breeders would take interest in the cat.
+- [W16.11] These breeders worked together on developing breeding lines with these cats and by 1965 the Tonkinese was recognised in Canada as a distinct breed — whence the name originated.
+- [W16.12] More modern Tonkinese cats are the result of the crossbreeding programs of two breeders working independently of each other.
+- [W16.13] Margaret Conroy, of Canada, and Jane Barletta, of the United States, crossed the Siamese and Burmese breeds, with the aim of creating the ideal combination of both parent breeds' distinctive appearance and lively personalities.
+- [W16.14] The cats thus produced were moved from crossbreed classification to an established breed in 2001.
+- [W16.15] The name is a reference to the Tonkin region of Indochina, though it is suggestive only, as the cats have no connection with the area.
+- [W16.16] In the West, Tonkinese cats under the age of sixth months have historically been referred to as "small-cats" rather than "kittens" to reflect a more direct translation from Burmese, although this term has become almost obsolete since the mid-20th century.
+- [W16.17] The breed received championship status with the Cat Fanciers' Association in 1984.
+- [W16.18] The Governing Council of the Cat Fancy (GCCF) recognised the breed in 1991.
+- [W16.19] Today the breed is recognised in most of Europe, Australia, New Zealand, Hong Kong, Japan, and South Africa.
+- [W16.20] Over 30 countries have Tonkinese cats featured on postage stamps.
+- [W16.21] Tonkinese are a medium-sized cat, considered an intermediate type between the slender, long-bodied modern Siamese and European Burmese and the more "cobby", or substantially-built American Burmese.
+- [W16.22] Like their Burmese ancestors, they are deceptively muscular and typically seem much heavier than expected when picked up.
+- [W16.23] Tail and legs are slim but proportionate to the body, with distinctive oval paws.
+- [W16.24] They have a gently rounded, slightly wedge-shaped head and blunted muzzle, with moderately almond-shaped eyes and ears set towards the outside of their head.
+- [W16.25] The American style is a rounder but sculpted head with a shorter body and sturdier appearance to reflect the old-fashioned Siamese and rounded Burmese from which it was originally bred in the United States.
+- [W16.26] While many American breeders avoided using the extreme "contemporary" Burmese in favor of the more moderate "traditional" Burmese, the original Tonkinese breed standard was based on the extreme spherical style of the Burmese descended from Wong Mau.
+- [W16.27] The Tonkinese comes in the several colours listed below.
+- [W16.28] Black (also referred to as “brown”, “seal”, or “natural” by different fanciers or organizations)
+- [W16.29] Chocolate (also called “champagne”)
+- [W16.30] Lilac (also called “platinum”)
+- [W16.31] Additional dilute modifiers (including “caramel”, “apricot”)
+- [W16.32] Each color also has three variations of colorpoint coat pattern:
+- [W16.33] "point", the classic Siamese-style dark face, ears, legs and tail on a contrasting white or cream base, and blue eyes;
+- [W16.34] "solid" or "sepia", similar to the Burmese, in which the color is essentially uniform over the body with only faintly visible points and golden-amber or green eyes; and
+- [W16.35] "mink", a unique intermediate between the other two, in which the base is a lighter shade but still harmonious with the point color, and the eyes are a lighter blue-green, called aquamarine.
+- [W16.36] They can be anywhere on the entire blue-green to green-blue spectrum.
+- [W16.37] Additionally, all colors can present in the tortoiseshell or tabby patterns.
+- [W16.38] Color and pattern recognition
+- [W16.39] Depending on the cat registry, not all colors and patterns are allowed for the Tonkinese cat breed.
+- [W16.40] Tonkinese are currently officially recognized by the Cat Fanciers' Association (CFA) and World Cat Federation (WCF) in only four base colors: black (brown, seal, natural), blue, chocolate (champagne), and lilac (platinum).
+- [W16.41] All four base colors are allowed in the three colorpoint patterns.
+- [W16.42] The GCCF accepts brown, blue, chocolate, lilac, cinnamon, and fawn, red, cream, plus caramel and apricot.
+- [W16.43] These colors are allowed in the tortoiseshell and tabby patterns, and additionally the three colorpoint patterns.
+- [W16.44] Similar to the GCCF, The International Cat Association (TICA) accepts all of the genetically possible colors and patterns.
+- [W16.45] Like both parent breeds, Tonkinese are active, vocal and generally people-oriented cats, playful and interested in everything going on around them; however, this also means they are easily susceptible to becoming lonesome or bored.
+- [W16.46] Their voice is similar in tone to the Burmese, persistent but softer and sweeter than the Siamese, similar to the gentle quacking of a duck.
+- [W16.47] Like Burmese, Tonkinese are reputed to sometimes engage in such dog-like behaviors as fetching, and to enjoy jumping to great heights.
+- [W16.48] In a 2012 review of over 5,000 cases of urate urolithiasis, the Tonkinese was significantly under-represented with only one of the recorded cases belonging to the breed against a population of 365.
+- [W16.49] Tonkin is a crossbreed type, with coat color and pattern wholly dependent on whether individuals carry the Siamese or Burmese gene.
+- [W16.50] Breeding two mink Tonkinese cats does not usually yield a full litter of mink kittens, as this intermediate pattern is the result of having one gene for the Burmese solid pattern and one for the Siamese pointed pattern.
+- [W16.51] Colors and patterns in any litter depend both on statistical chance and the color genetics and patterns of the parents.
+- [W16.52] Breeding between two mink-patterned cats will, on average, produce half mink kittens and one quarter each pointed and sepia kittens.
+- [W16.53] A pointed and a sepia bred together will always produce all mink patterned kittens.
+- [W16.54] A pointed bred to a mink will produce half pointed and half mink kittens, and a sepia bred to a mink will produce half sepia and half mink kittens.
+- [W16.55] Susie Page; The Complete Cat Owner's Manual; Fog City Press; ISBN 1-875137-84-X (hardback, 1997)
+- [W16.56] Linda Vousden; Tonkinese Cats; TFH/Kingdom; ISBN 1-85279-087-3 (hardback, 1998)
+- [W16.57] Linda Vousden; Tonkinese Cats A History; Grosvenor House Publishing; ISBN 978-1-907652-68-4 (softback, 2010)
+- [W16.58] Allevamento Argento Vivo Tonkinesi
+- [W16.59] Canadian Cat Association: Breed Profile: Tonkinese
+
+## [W17] Wikipedia: Merle (dog coat)
+https://en.wikipedia.org/w/index.php?title=Merle_(dog_coat)&oldid=1380290968 · CC BY-SA 4.0 · usage: ai_input
+
+- [W17.1] Merle is a genetic pattern in a dog's coat and alleles of the PMEL gene.
+- [W17.2] It results in different colors and patterns and can affect any coats.
+- [W17.3] The allele creates mottled patches of color in a solid or piebald coat, blue or odd-colored eyes, and can affect skin pigment as well.
+- [W17.4] Two types of colored patches generally appear in a merle coat: brown/liver (red merle) and black (blue merle).
+- [W17.5] Associated breeds include Carea Leonés, Australian Shepherds and Catahoula Leopard Dogs.
+- [W17.6] Health issues are more typical and more severe when two merle-patterned dogs are bred together.
+- [W17.7] Merle can affect all coat colors.
+- [W17.8] The merle forms of brown are usually called "red" (though this is not correct; red and brown are genetically different), and black is called "blue" as lighter patches of black are formed throughout the coat and look slightly blue in color.
+- [W17.9] Dogs who are recessive red can still be affected by merle, but the patches are either hardly seen or, if the dog is a clear recessive red, are not visible at all.
+- [W17.10] Combinations such as brindle and sable merle exist, but are not typically accepted in breed standards.
+- [W17.11] In addition to altering the base coat color, merle also modifies eye color and coloring on the nose and paw pads.
+- [W17.12] The merle allele modifies the dark pigment, resulting in eyes or parts of eyes turning blue.
+- [W17.13] Since merle causes random modifications, dark-eyed, blue-eyed and odd-colored eyes are possible.
+- [W17.14] Pigmentation on paw pads and nose may be mottled by pink.
+- [W17.15] Merle is a distinguishing marking of several breeds, particularly the Australian Shepherd, Australian Cattle Dog, and Catahoula Leopard Dog, and appears in others, including the Miniature American Shepherd, the Koolie in Australia, the Shetland Sheepdog, various collie breeds, the Cardigan Welsh Corgi, the Pyrenean Shepherd and the Bergamasco Shepherd.
+- [W17.16] In Dachshunds, the merle pattern is known as "dapple".
+- [W17.17] In Beaucerons the merle pattern is known as "harlequin".
+- [W17.18] The merle allele also plays a part in producing harlequin Great Danes.
+- [W17.19] Depending on the breed, registry or country, the pattern may be register-able with a registry but not allowed in conformation, and the pattern may not be recognized by the breed standard, disqualifying it from showing.
+- [W17.20] There may also be additional requirements for the pattern such as the dog being allowed to have the pattern but must have completely dark eyes with no blue in them.
+- [W17.21] Merle is sometimes introduced to other purebred dog breeds through crossbreeding such as French Bulldogs, poodles and even American Bullies, but these dogs are not purebred.
+- [W17.22] In 2020 the UK Kennel Club (the oldest in the world) banned the registration of merle poodles as it is not and never has been a colour pattern recognised in pure poodles by the club..
+- [W17.23] The Pembroke Welsh Corgi Club of America states that the only accepted Pembroke colors are red, sable, fawn, and black and tan, with or without white markings, and that “brindle and merle in either red or blue are NOT naturally occurring or accepted colors for Pembroke Welsh Corgis.”
+- [W17.24] The merle allele is actually an incompletely dominant allele, and all dogs with standard merle coats are heterozygous, having only one copy of the merle allele.
+- [W17.25] In normal breeding of a merle (Mm) and a non-merle (mm) dog, approximately half of puppies are expected to be merle.
+- [W17.26] Merle can be tested for and identified through genetic testing.
+- [W17.27] In 2006, scientists announced the discovery of a mobile genetic unit called a retrotransposon responsible for the various merle mutations in dogs.
+- [W17.28] In 2018, a published paper identified six general categories of merle alleles that affect (or do not affect) the final coat color depending on the length of the SINE insertion within them.
+- [W17.29] If two heterozygote merle dogs (Mm) are mated, on average one quarter of the puppies will be born with two merle alleles (MM).
+- [W17.30] These homozygous dogs are often called "double merles", or more rarely "lethal whites".
+- [W17.31] These dogs may be entirely white, or present with predominantly white coats with some small patches of other colors.
+- [W17.32] A high percentage of double merle dogs have eye defects or are deaf.
+- [W17.33] Because of these health issues, merle to merle mating is avoided by breeders.
+- [W17.34] A cryptic merle is one with such small patches of merling, or none at all, that it appears to be a non-merle.
+- [W17.35] This is commonly seen in dogs who are recessive red, clear recessive reds in particular, though patches can still be seen in certain red dogs.
+- [W17.36] In America, a dog with the phantom merle coloring is sometimes described as being "cryptic for merle".
+- [W17.37] A cryptic merle bred to a merle may produce merles, cryptic merles, double merles or non-merles, depending on whether the parents were heterozygous or homozygous for the merle alleles.
+- [W17.38] Another mutation for cryptic merle has been identified by Dr.
+- [W17.39] Helena Synková, and has been given the working name of "atypical merle".
+- [W17.40] It is recommended that if a breeder is unsure if their dog is merle or not, that they be tested for the merle allele lengths.
+- [W17.41] Certain modifying genes work in tandem (co-dominant expressive) with the merle alleles to create a completely different look to the pattern.
+- [W17.42] Often mistaken for a "double merle", a harlequin merle (or just harlequin), is a Great Dane that carries both the merle pattern allele and the co-dominant modifying gene for harlequin, PSMB7 (also known as H).
+- [W17.43] This causes most or all of the diluted "blue" color to be replaced with white, resulting in a dog that is mostly white with black patches.
+- [W17.44] All dogs exhibiting the harlequin pattern also have the merle allele.
+- [W17.45] This pattern is found only in Great Danes, and is registered as harlequin.
+- [W17.46] Studies have shown that dogs with merle genotypes are disproportionately predisposed to health issues, and especially with their hearing and eyesight.
+- [W17.47] This relationship is likely due to the inherent suppression of melanin-producing cells (melanocytes), and their role in the development of the iris and of the inner ear (see Melanin § Genetic disorders and disease states and Albinism § Consequences).
+- [W17.48] Dogs with two copies of the merle allele (homozygous "double merles") have a higher probability of having hearing or vision impairments.
+- [W17.49] The UK Royal Kennel Club acknowledged the health risks associated with homozygous merles and stopped registering puppies produced from merle to merle matings in 2013.
+- [W17.50] An auditory-pigmentation disorder in humans, Waardenburg syndrome, reflects some of the problems associated with homozygous merle dogs and genetic research in dogs has been undertaken with the goal of better understanding the genetic basis of this human condition.
+- [W17.51] A 1977 study in dachshunds found that 36.8% of merle (Mm) and 54.6% of double merle (MM) dogs had mild to severe deafness, while a comparison non-merle group had no similar defects.
+- [W17.52] One out of the eleven double merles (9.1%) was fully deaf in both ears, while none of the single merles were.
+- [W17.53] This study has been criticized for its outsized impact on considerations of all merle dogs while relying on data from inbred animals of a single breed.
+- [W17.54] A later unpublished study of 70 Shetland sheepdogs, Australian shepherds, collies, Great Danes and Catahoula leopard dogs found that of 22 double merles, eight were completely deaf (36%) and two were deaf in one ear (9%).
+- [W17.55] Of 48 single merles, one was deaf in one ear and none were completely deaf.
+- [W17.56] Of those double merle dogs, the Catahoulas showed lower rates of deafness than other breeds (27% to 86%).
+- [W17.57] A 2006 study of deafness in border collies predicted deafness in 7.9% of merle coated border collies (with a potential prevalence of 13.3%; 95% confidence limit).
+- [W17.58] The authors also noted that blue eyes and excess white on the head were strong indicators for deafness in the breed (9.3% prevalence for one blue eye and 23.9% for two blue eyes;   36.3% prevalence for excess white).
+- [W17.59] Finally a 2009 study in 153 merle and double merle dogs of various breeds demonstrated unilateral deafness in 2.7% and bilateral deafness in 0.9% of single merles (Mm), and unilateral deafness in 10% and bilateral deafness in 15% of double merles (MM).
+- [W17.60] Dogs who are homozygous for certain merle alleles often have visual and auditory deficits.
+- [W17.61] Ocular defects include microphthalmia, conditions causing increased ocular pressure and colobomas, among others.
+- [W17.62] Double merle dogs may be deaf or blind or both, and can carry ocular defects in blue or colored eyes.
+- [W17.63] Currently no studies have been done to prove whether or not the merle gene affects the eyes, causing blindness.
+- [W17.64] Merle dog coat color genetics
+- [W17.65] "Basic Body Colors of the Australian Shepherd".
+- [W17.66] Archived from the original on 2007-04-08.
+- [W17.67] Retrieved 2007-05-15.: Basic, simple-language explanation of Australian Shepherd merle colorings
+- [W17.68] Homozygous "Lethal White" Merles
+- [W17.69] Border Wars - Double Merle Articles
+- [W17.70] Banning of Merle 'pattern' Chihuahua in Canada
+- [W17.71] Catahoula Coat Color Genetics - Introduction and History of Merle
+- [W17.72] Merle Color In Cocker Spaniels—The American Spaniel Club
+
+## [W18] Wikipedia: Duffy antigen system
+https://en.wikipedia.org/w/index.php?title=Duffy_antigen_system&oldid=1377962476 · CC BY-SA 4.0 · usage: ai_input
+
+- [W18.1] Duffy antigen/chemokine receptor (DARC), also known as Fy glycoprotein (FY) or  CD234 (Cluster of Differentiation 234), is a protein that in humans is encoded by the ACKR1 gene.
+- [W18.2] The Duffy antigen is located on the surface of red blood cells, and is named after the patient in whom it was discovered.
+- [W18.3] The protein encoded by this gene is a glycosylated membrane protein and a non-specific receptor for several chemokines.
+- [W18.4] The protein is also the receptor for the human malarial parasites Plasmodium vivax, Plasmodium knowlesi and simian malarial parasite Plasmodium cynomolgi.
+- [W18.5] Polymorphisms in this gene are the basis of the Duffy blood group system.
+- [W18.6] It was noted in the 1920s that black Africans had some intrinsic resistance to malaria, but the basis for this remained unknown.
+- [W18.7] The Duffy antigen gene was the fourth gene associated with the resistance after the genes responsible for sickle cell anaemia, thalassemia and glucose-6-phosphate dehydrogenase.
+- [W18.8] In 1950, the Duffy antigen was discovered in a multiply-transfused hemophiliac named Richard Duffy, whose serum contained the first example of anti-Fya antibody.
+- [W18.9] In 1951, the antibody to a second antigen, Fyb, was discovered in serum.
+- [W18.10] Using these two antibodies, three common phenotypes were defined: Fy(a+b+), Fy(a+b-), and Fy(a-b+).
+- [W18.11] Several other types were later discovered bringing the current total up to 5: Fya, Fyb, Fy3, Fy5 and Fy6.
+- [W18.12] Only Fya, Fyb and Fy3 are considered clinically important.
+- [W18.13] Reactions to Fy5 and Fy6 have only rarely been reported.
+- [W18.14] The Fy4 antigen, originally described on Fy (a–b–) RBCs, was obsoleted in 2010 because of scant evidence.
+- [W18.15] The Duffy antigen/chemokine receptor gene (gp-Fy; CD234) is located on the long arm of chromosome 1 (1.q22-1.q23) and was cloned in 1993.
+- [W18.16] The gene was first localised to chromosome 1 in 1968, and was the first blood system antigen to be localised.
+- [W18.17] It is a single copy gene spanning over 1500 bases and is in two exons.
+- [W18.18] The gene encodes a 336 amino acid acidic glycoprotein.
+- [W18.19] It carries the antigenic determinants of the Duffy blood group system which consist of four codominant alleles—FY*A and FY*B—coding for the Fy-a and Fy-b antigens respectively, FY*X and FY*Fy, five phenotypes (Fy-a, Fy-b, Fy-o, Fy-x and Fy-y) and five antigens.
+- [W18.20] Fy-x is a form of Fy-b where the Fy-b gene is poorly expressed.
+- [W18.21] Fy-x is also known as Fy-bweak or Fy-bWk.
+- [W18.22] This gene has been redesignated ACKR1.
+- [W18.23] Fy-a and Fy-b differ by in a single amino acid at position 42: glycine in Fy-a and aspartic acid in Fy-b (guanine in Fy-a and adenosine in Fy-b at position 125).
+- [W18.24] A second mutation causing a Duffy negative phenotype is known: the responsible mutation is G -> A at position 298.
+- [W18.25] The genetic basis for the Fy(a-b-) phenotype is a point mutation in the erythroid specific promoter (a T -> C mutation at position -33 in the GATA box).
+- [W18.26] This mutation occurs in the Fy-b allele and has been designated Fy-bEs (erythroid silent).
+- [W18.27] Two isotypes have been identified.
+- [W18.28] The Fy-x allele is characterized by a weak anti-Fy-b reaction and appears to be the result of two separate transitions: Cytosine265Threonine (Arginine89Cysteine) and Guanine298Adenosine (Alanine100Threonine).
+- [W18.29] A third mutation (a transversion) in this gene has also been described - G145T (Alanine49Serine) - that has been associated with the Fy-x phenotype.
+- [W18.30] Most Duffy negative black people carry a silent Fy-b allele with a single T to C substitution at nucleotide -33, impairing the promoter activity in erythroid cells by disrupting a binding site for the GATA1 erythroid transcription factor.
+- [W18.31] The gene is still transcribed in non erythroid cells in the presence of this mutation.
+- [W18.32] The Duffy negative phenotype occurs at low frequency among whites (~3.5%) and is due to a third mutation that results in an unstable protein (Arg89Cys: cytosine -> thymidine at position 265).
+- [W18.33] The silent allele has evolved at least twice in the black population of Africa and evidence for selection for this allele has been found.
+- [W18.34] The selection pressure involved here appears to be more complex than many text books might suggest.
+- [W18.35] An independent evolution of this phenotype that occurred in Papua New Guinea has also been documented.
+- [W18.36] A comparative study of this gene in seven mammalian species revealed significant differences between species.
+- [W18.37] The species examined included Pan troglodytes (chimpanzee), Macaca mulatta (rhesus monkey), Pongo pygmaeus (orangutan), Rattus norvegicus (brown rat), Mus musculus (mouse), Monodelphis domestica (opossum), Bos taurus (cow) and Canis familiaris (dog).
+- [W18.38] Three exons are present in humans and chimpanzees, whereas only two exons occur in the other species.
+- [W18.39] This additional exon is located at the 5' end and is entirely non coding.
+- [W18.40] Both intron and exon size vary considerably between the species examined.
+- [W18.41] Between the chimpanzee and the human, 24 differences in the nucleotide sequence were noted.
+- [W18.42] Of these 18 occurred in non coding regions.
+- [W18.43] Of the remaining 6, 3 were synonymous and 3 non synonymous mutations.
+- [W18.44] The significance of these mutations if any is not known.
+- [W18.45] The mouse ortholog has been cloned and exhibits 63% homology to the human gene at the amino acid level.
+- [W18.46] The mouse gene is located on chromosome 1 between the genetic markers Xmv41 and D1Mit166.
+- [W18.47] The mouse gene has two exons (100 and 1064 nucleotides in length), separated by a 461 base pair intron.
+- [W18.48] In the mouse DARC is expressed during embryonic development between days 9.5 and 12.
+- [W18.49] In yellow baboons (Papio cynocephalus) mutations in this gene have been associated with protection from infection with species of the genus Hepatocystis.
+- [W18.50] The ancestral form of extant DARC alleles in humans appears to be the FY*B allele.
+- [W18.51] The gene appears to be under strong purifying selection.
+- [W18.52] The cause of this selective pressure has not yet been identified.
+- [W18.53] Biochemical analysis of the Duffy antigen has shown that it has a high content of α-helical secondary structure - typical of chemokine receptors.
+- [W18.54] Its N-glycans are mostly of the triantennary complex type terminated with α2-3- and α2-6-linked sialic acid residues with bisecting GlcNAc and α1-6-linked fucose at the core.
+- [W18.55] The Duffy antigen is expressed in greater quantities on reticulocytes than on mature erythrocytes.
+- [W18.56] While the Duffy antigen is expressed on bone marrow erythroblasts and circulating erythrocytes it is also found on Purkinje cells of the cerebellum, endothelial cells of thyroid capillaries, the post-capillary venules of some organs including the spleen, liver and kidney and the large pulmonary venules.
+- [W18.57] Duffy antigen has then a unique cell expression profile in cerebellar neurons, venular endothelial cells and erythroid cells.
+- [W18.58] In some people who lack the Duffy antigen on their erythrocytes it is still expressed in the other cell types.
+- [W18.59] It has two potential N-linked glycosylation sites at asparagine (Asn) 16 and Asn27.
+- [W18.60] The Duffy antigen has been found to act as a multispecific receptor for chemokines of both the C-C and C-X-C families, including:
+- [W18.61] monocyte chemotactic protein-1 (MCP-1) - CCL2
+- [W18.62] regulated upon activation normal T expressed and secreted (RANTES) - CCL5
+- [W18.63] melanoma growth stimulatory activity (MSGA-α), KC, neutrophil-activating protein 3 (NAP-3) - CXCL1/CXCL2
+- [W18.64] and the angiogenic CXC chemokines:
+- [W18.65] Growth related gene alpha (GRO-α) - CXCL1
+- [W18.66] Neutrophil activating peptide-2 (NAP-2) - CXCL7
+- [W18.67] Interleukin-8 (IL-8) - CXCL8
+- [W18.68] Consequently, the Fy protein is also known as DARC (Duffy Antigen Receptor for Chemokines).
+- [W18.69] The chemokine binding site on the receptor appears to be localised to the amino terminus.
+- [W18.70] The antigen is predicted to have 7 transmembrane domains, an exocellular N-terminal domain and an endocellular C-terminal domain.
+- [W18.71] Alignment with other seven transmembrane G-protein-coupled receptors shows that DARC lacks the highly conserved DRY motif in the second intracellular loop of the protein that is known to be associated with G-protein signaling.
+- [W18.72] Consistent with this finding ligand binding by DARC does not induce G-protein coupled signal transduction nor a Ca2+ flux unlike other chemokine receptors.
+- [W18.73] Based on these alignments the Duffy antigen is considered to be most similar to the interleukin-8B receptors.
+- [W18.74] Scatchard analysis of competition binding studies has shown high affinity binding to the Duffy antigen with dissociation constants (KD) binding values of 24 ± 4.9, 20 ± 4.7, 41.9 ± 12.8, and 33.9 ± 7 nanoMoles for MGSA, interleukin-8, RANTES and monocyte chemotactic peptide-1 respectively.
+- [W18.75] In DARC-transfected cells, DARC is internalized following ligand binding and this led to the hypothesis that expression of DARC on the surface of erythrocytes, endothelial, neuronal cells and epithelial cells may act as a sponge and provide a mechanism by which inflammatory chemokines may be removed from circulation as well as their concentration modified in the local environment.
+- [W18.76] This hypothesis has also been questioned after knock out mice were created.
+- [W18.77] These animals appeared healthy and had normal responses to infection.
+- [W18.78] While the function of the Duffy antigen remains presently (2006) unknown, evidence is accumulating that suggests a role in neutrophil migration from the blood into the tissues and in modulating the inflammatory response.
+- [W18.79] The protein is also known to interact with the protein KAI1 (CD82) a surface glycoprotein of leukocytes and may have a role in the control of cancer.
+- [W18.80] The Duffy antigen has been shown to exist as a constitutive homo-oligomer and that it hetero-oligomerizes with the CC chemokine receptor CCR5 (CD195).
+- [W18.81] The formation of this heterodimer impairs chemotaxis and calcium flux through CCR5, whereas internalization of CCR5 in response to ligand binding remains unchanged.
+- [W18.82] DARC has been shown to internalise chemokines but does not scavenge them.
+- [W18.83] It mediates chemokine transcytosis, which leads to apical retention of intact chemokines and more leukocyte migration.
+- [W18.84] Binding melanoma growth-stimulating activity inhibits the binding of P. knowlesi to DARC.
+- [W18.85] Differences in the racial distribution of the Duffy antigens were discovered in 1954, when it was found that the overwhelming majority of people of African descent had the erythrocyte phenotype Fy(a-b-): 68% in African Americans and 88-100% in African people (including more than 90% of West African people).
+- [W18.86] This phenotype is exceedingly rare in Whites.
+- [W18.87] Because the Duffy antigen is uncommon in those of Black African descent, the presence of this antigen has been used to detect genetic admixture.
+- [W18.88] In a sample of unrelated African Americans (n = 235), Afro-Caribbeans (n = 90) and Colombians (n = 93), the frequency of the -46T (Duffy positive) allele was 21.7%, 12.2% and 74.7% respectively.
+- [W18.89] Overall the frequencies of Fya and Fyb antigens in Whites are 66% and 83% respectively, in Asians 99% and 18.5% respectively and in blacks 10% and 23% respectively.
+- [W18.90] The frequency of Fy3 is 100% Whites, 99.9% Asians and 32% Blacks.
+- [W18.91] Phenotype frequencies are:
+- [W18.92] Fy(a+b+): 49% Whites, 1% Blacks, 9% Chinese
+- [W18.93] Fy(a-b+): 34% Whites, 22% Blacks, <1% Chinese
+- [W18.94] Fy(a+b-): 17% Whites, 9% Blacks, 91% Chinese
+- [W18.95] While a possible role in the protection of humans from malaria was suggested, this was only confirmed clinically in 1976.
+- [W18.96] Since then many surveys have been carried out to elucidate the prevalence of Duffy antigen alleles in different populations including:
+- [W18.97] The mutation Ala100Thr (G -> A in the first codon position—base number 298) within the FY*B allele was thought to be purely a White genotype, but has since been described in Brazilians.
+- [W18.98] However, the study's authors point out that the Brazilian population has arisen from intermarriage between Portuguese, Black Africans, and Indians, which accounts for the presence of this mutation in a few members of Brazil's non-White groups.
+- [W18.99] Two of the three Afro-Brazilian test subjects that were found to have the mutation (out of a total of 25 Afro-Brazilians tested) were also related to one another, as one was a mother and the other her daughter.
+- [W18.100] This antigen along with other blood group antigens was used to identify the Basque people as a genetically separate group.
+- [W18.101] Its use in forensic science is under consideration.
+- [W18.102] The Andaman and Nicobar Islands, part of India, were originally inhabited by 14 aboriginal tribes.
+- [W18.103] Several of these have gone extinct.
+- [W18.104] One surviving tribe—the Jarawas—live in three jungle areas of South Andaman and one jungle area in Middle Andaman.
+- [W18.105] The area is endemic for malaria.
+- [W18.106] The causative species is Plasmodium falciparum: there is no evidence for the presence of Plasmodium vivax.
+- [W18.107] Blood grouping revealed an absence of both Fy(a) and Fy(b) antigens in two areas and a low prevalence in two others.
+- [W18.108] Among Yemenite Jews the frequency of the Fy allele is 0.5879.
+- [W18.109] The frequency of this allele varies from 0.1083 to 0.2191 among Jews from the Middle East, North Africa and Southern Europe.
+- [W18.110] The incidence of Fya among Ashkenazi Jews is 0.44 and among the non-Ashkenazi Jews it is 0.33.
+- [W18.111] The incidence of Fyb is higher in both groups with frequencies of 0.53 and 0.64 respectively.
+- [W18.112] In  Chinese ethnic populations—the Han and the She people—the frequencies of Fya and Fyb alleles were 0.94 and 0.06 and 0.98 and 0.02 respectively.
+- [W18.113] The frequency of the Fya allele in most Asian populations is ~95%.
+- [W18.114] In Grande Comore (also known as Ngazidja) the frequency of the Fy(a- b-) phenotype is 0.86.
+- [W18.115] The incidence of Fy(a+b-) in northern India among blood donors is 43.85%.
+- [W18.116] In the Maghreb, Horn of Africa and the Nile Valley, the Afroasiatic (Hamitic-Semitic) speaking populations are largely Duffy-positive.
+- [W18.117] Between 70%-98% of Hamito-Semitic groups in Ethiopia were found to be Duffy-positive.
+- [W18.118] Serological and DNA based analysis of 115 unrelated Tunisians also found an FY*X frequency of 0.0174; FY*1 = 0.291 (expressed 0.260, silent 0.031); FY*2 = 0.709 (expressed 0.427; silent 0.282).
+- [W18.119] Since the FY*2 silent is the most common allele in West Africa, its minor occurrence in the sample probably represents recent diffusion from the latter region.
+- [W18.120] In Nouakchott, Mauritania overall 27% of the population are Duffy-positive.
+- [W18.121] 54% of Moors are Duffy antigen positive, while only 2% of black ethnic groups (mainly Poular, Soninke and Wolof) are Duffy positive.
+- [W18.122] A map of the Duffy antigen distribution has been produced.
+- [W18.123] The most prevalent allele globally is FY*A.
+- [W18.124] Across sub-Saharan Africa the predominant allele is the silent FY*BES variant.
+- [W18.125] In Iran the Fy (a-b-) phenotype was found in 3.4%.
+- [W18.126] There appears to have been a selective sweep in Africa which reduced the incidence of this antigen there.
+- [W18.127] This sweep appears to have occurred between 6,500 and 97,200 years ago (95% confidence interval)
+- [W18.128] The distribution within India has been studied in some detail.
+- [W18.129] Historically the role of this antigen other than its importance as a receptor for Plasmodium protozoa has not been appreciated.
+- [W18.130] Recent work has identified a number of additional roles for this protein.
+- [W18.131] On erythrocytes, the Duffy antigen acts as a receptor for invasion by the human malarial parasites P. vivax and P. knowlesi.
+- [W18.132] This was first shown in 1980.
+- [W18.133] Duffy negative individuals whose erythrocytes do not express the receptor are believed to be resistant to merozoite invasion although P. vivax infection has been reported in Duffy negative children in Kenya, suggesting a role in resistance to disease, not infection.
+- [W18.134] This antigen may also play a role in erythrocyte invasion in the rodent malarial parasite P. yoelii.
+- [W18.135] The epitope Fy6 is required for P. vivax invasion.
+- [W18.136] The protection to P. vivax malaria conferred by the absence of the Duffy antigen appears to be very limited at best in Madagascar.
+- [W18.137] Although 72% of the population are Duffy antigen negative, 8.8% of the Duffy antigen negative individuals were asymptomatic carriers of P. vivax.
+- [W18.138] Malaria has also been found in Angola and Equatorial Guinea in Duffy negative individuals.
+- [W18.139] P. vivax malaria in a Duffy antigen negative individual in Mauritania has also been reported.
+- [W18.140] Similar infections have been reported in Brazil and Kenya.
+- [W18.141] Additional cases of infection in Duffy antigen negative individuals have been reported from the Congo and Uganda.
+- [W18.142] A study in Brazil of the protection against P. vivax offered by the lack of the Duffy antigen found no differential resistance to malaria vivax between Duffy antigen positive and negative individuals.
+- [W18.143] Nancy Ma's night monkey (A. nancymaae) is used as an animal model of P. vivax infection.
+- [W18.144] This species' erythrocytes possess the Duffy antigen and this antigen is used as the receptor for P. vivax on the erythrocytes in this species.
+- [W18.145] Examination of this gene in 497 patients in the Amazonas State, Brazil, made by the doctor Sérgio Albuquerque, suggests that the genotypes FY*A/FY*B-33 and FY*B/FY*B-33 (where -33 refers to the null mutation at position -33 in the GATA box) may have an advantage over the genotypes FY*A/FY*B and FY*A/FY*A, FY*A/FY*B, FY*A/FY*X and FY*B/FY*X.
+- [W18.146] FY*A/FY*B and FY*A/FY*A genotypes showed to be associated with increased rates of P. vivax infection and FY*B/FY*X and FY*A/FY*X were shown to be associated with the low levels of parasitism.
+- [W18.147] A difference between the susceptibility to Plasmodium vivax malaria has been reported.
+- [W18.148] Erythrocytes expressing Fya had 41-50% lower binding of P. vivax compared with Fyb cells.
+- [W18.149] Individuals with the Fy(a+b-) phenotype have a 30-80% reduced risk of clinical vivax but not falciparum malaria.
+- [W18.150] The binding of platelet factor 4 (CXCL4) appears to be critical for the platelet induced killing of P. falciparum.
+- [W18.151] The Duffy antigen binding protein in P. vivax  is composed of three subdomains and is thought to function as a dimer.
+- [W18.152] The critical DARC binding residues are concentrated at the dimer interface and along a relatively flat surface spanning portions of two subdomains.
+- [W18.153] A study in Brazil confirmed the protective effect of FY*A/FY*O against malaria.
+- [W18.154] In contrast the genotype FY*B/FY*O was associated with a greater risk.
+- [W18.155] Asthma is more common and tends to be more severe in those of African descent.
+- [W18.156] There appears to be a correlation with both total IgE levels and asthma and mutations in the Duffy antigen.
+- [W18.157] Duffy antigen plays a fundamental role on hematopoiesis.
+- [W18.158] Indeed, nucleated red blood cells present in the bone marrow have high expression of DARC, which facilitates their direct contact with hematopoietic stem cells.
+- [W18.159] The absence of erythroid DARC alters hematopoiesis including stem and progenitor cells, which ultimately gives rise to phenotypically distinct neutrophils.
+- [W18.160] As a result, mature neutrophils of Duffy-negative individuals carry more molecular "weapons" against infectious pathogens.
+- [W18.161] Therefore, alternative physiological patterns of hematopoiesis and bone marrow cell outputs depend on the expression of DARC in the erythroid lineage.
+- [W18.162] Individuals with the Duffy-null genotype have a persistently lower neutrophil count than the typical laboratory normal range, but the lower amount of circulating neutrophils associated with this genotype does not seem to confer an increased risk of infection.
+- [W18.163] Clinical use of the term "benign ethnic neutropenic" to describe this phenomenon remains widespread, but the term is problematic as the Duffy-null genotype is common in individuals with African and certain Middle Eastern ancestries, and the term implies that individuals with European ancestry have the normal reference neutrophil count.
+- [W18.164] The term "Duffy-null associated neutrophil count" (DANC) has been proposed as a replacement.
+- [W18.165] The distinctive neutrophils that are formed in the absence of DARC on erythroid lineage (see above - role of DARC on hematopoiesis) readily leave the blood stream, which explains the apparent lower numbers of neutrophils in the blood of Duffy-null individuals.
+- [W18.166] Failure to recognize that individuals with African ancestry often have healthy Duffy-null antigen-associated neutrophil counts instead of neutropenia has historically contributed to inequity in access to medications that require blood monitoring due to risk of neutropenia, including chemotherapy and the antipsychotic medication clozapine.
+- [W18.167] The lower number of circulating neutrophils can cause individuals with the Duffy-null genotype to fall below what typically would be considered safe to continue these treatments, despite new data showing that neutrophil functioning is preserved in these individuals.
+- [W18.168] Interactions between the metastasis suppressor KAI1 on tumor cells and the cytokine receptor DARC on adjacent vascular cells suppresses tumor metastasis.
+- [W18.169] In human breast cancer samples low expression of the DARC protein is significantly associated with estrogen receptor status, both lymph node and distant metastasis and poor survival.
+- [W18.170] The procoagulant response to lipopolysaccharide (bacterial endotoxin) is reduced in Duffy antigen negative Africans compared with Duffy positive Whites.
+- [W18.171] This difference is likely to involve additional genes.
+- [W18.172] A connection has been found between HIV susceptibility and the expression of the Duffy antigen.
+- [W18.173] The absence of the DARC receptor appears to increase the susceptibility to infection by HIV.
+- [W18.174] However once established, the absence of the DARC receptor appears to slow down the progression of the disease.
+- [W18.175] HIV-1 appears to be able to attach to erythrocytes via DARC.
+- [W18.176] The association between the Duffy antigen and HIV infection appears to be complex.
+- [W18.177] Leukopenia (a low total white cell count) is associated with relatively poor survival in HIV infection and this association is more marked in whites than in people of Black African descent, despite the (on average) lower white cell counts found in black Africans.
+- [W18.178] This difference appears to correlate with a particular genotype (-46C/C) associated with the absence of the Duffy antigen.
+- [W18.179] This genotype has only been found in black Africans and their descendants.
+- [W18.180] The strength of this association increases inversely with the total white cell count.
+- [W18.181] The basis for this association is probably related to the role of the Duffy antigen in cytokine binding but this has yet to be verified.
+- [W18.182] A study of 142 black South African high-risk female sex workers over 2 years revealed a seroconversion rate of 19.0%.
+- [W18.183] Risk of seroconversion appeared to be correlated with Duffy-null-associated low neutrophil counts.
+- [W18.184] An association with the levels monocyte chemoattractant protein-1 has been reported.
+- [W18.185] In the Sardinian population, an association of several variants in the DARC gene (coding and non-coding) correlates with increased serum levels of monocyte chemoattractant protein (MCP -1).
+- [W18.186] A new variant in this population, consisting of the amino acid substitution of arginine for a cysteine at position 89 of the protein diminishes the ability to bind chemokines.
+- [W18.187] DARC has also been linked to rheumatoid arthritis (RA), possibly displaying chemokines such as CXCL5 on the surface of endothelial cells within the synovium, increasing the recruitment of neutrophils in the disease state.
+- [W18.188] The Duffy antigen has been implicated in lung transplantation rejection.
+- [W18.189] An increased incidence of Duffy antigen has been reported in patients with multiple myeloma compared with healthy controls.
+- [W18.190] The Duffy antigen is present in the normal pulmonary vascular bed.
+- [W18.191] Its expression is increased in the vascular beds and alveolar septa of the lung parenchyma during suppurative pneumonia.
+- [W18.192] Duffy antigen has been implicated in haemolytic disease of the newborn.
+- [W18.193] Experimental work has suggested that DARC expression inhibits prostate tumor growth.
+- [W18.194] Men of black African descent are at greater risk of prostate cancer than men of either European or Asian descent (60% greater incidence and double the mortality compared to Whites).
+- [W18.195] However, the contribution of DARC to this increased risk has been tested in Jamaican males of black African descent.
+- [W18.196] It was found that none of the increased risk could be attributed to the DARC gene.
+- [W18.197] The reason for this increased risk is as yet unknown.
+- [W18.198] Antibodies and a cellular response to the Duffy antigen have been associated with renal transplant rejection.
+- [W18.199] Duffy antigen-negative individuals with sickle cell anaemia tend to sustain more severe organ damage than do those with the Duffy antigen.
+- [W18.200] Duffy-positive patients exhibit higher counts of white blood cells, polynuclear neutrophils, higher plasma levels of IL-8 and RANTES than Duffy-negative patients.
+- [W18.201] Southeast Asian ovalocytosis
+- [W18.202] There is a ~10% increase in Fy expression in Southeast Asian ovalocytosis erythrocytes.
+- [W18.203] A Duffy negative blood recipient may have a transfusion reaction if the donor is Duffy positive.
+- [W18.204] Since most Duffy-negative people are of African descent, blood donations from people of black African origin are important to transfusion banks.
+- [W18.205] Clinical testing in patient care for Duffy antigens follows published minimum quality and operational requirements, similar to red cell genotyping for any of the other recognized blood group systems.
+- [W18.206] Molecular analysis can identify gene variants (alleles) that may affect Duffy antigens expression on the red cell membrane.
+- [W18.207] International Society for Blood Transfusion (ISBT) symbol: FY
+- [W18.208] Gene name: Duffy blood group
+- [W18.209] Number of Duffy antigens: 6
+- [W18.210] IgG1 usually predominates.
+- [W18.211] IgM does occur but is rare.
+- [W18.212] Anti-Fya is a common antibody while anti-Fyb is approximately 20 times less common., They are reactive at body temperature and are therefore clinically significant, although they do not typically bind complement.
+- [W18.213] Antibodies are acquired through exposure (pregnancy or history of blood transfusion) and subsequent alloimmunization.
+- [W18.214] They display dosage (react more strongly to homozygous cells versus heterozygous cells).
+- [W18.215] Typically mild but may be serious, even fatal.
+- [W18.216] Although these usually occur immediately they may occur after a delay (up to 24 hours).
+- [W18.217] These reactions are usually caused by anti-Fya or anti-Fyb. anti-Fy3 may cause acute or delayed hemolytic transfusion reactions, but only rarely.
+- [W18.218] Anti-Fy5 may also cause delayed hemolytic transfusion reactions.
+- [W18.219] Hemolytic disease of the fetus and newborn
+- [W18.220] Hemolytic disease of the fetus and newborn is typically mild but rarely may be serious.
+- [W18.221] Almost always due to anti-Fya and rarely anti-Fyb or Fy3.
+- [W18.222] DARC+protein,+human at the U.S.
+- [W18.223] National Library of Medicine Medical Subject Headings (MeSH)
+- [W18.224] Duffy at BGMUT Blood Group Antigen Gene Mutation Database at NCBI, NIH
+- [W18.225] Overview of all the structural information available in the PDB for UniProt: Q16570 (Atypical chemokine receptor 1) at the PDBe-KB.

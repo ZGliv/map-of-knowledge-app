@@ -1,0 +1,342 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-change.impacts.ocean-acidification",
+ "name": "Ocean acidification",
+ "summary": [
+  {
+   "text": "Ocean acidification is the ongoing drop in the pH of Earth's ocean, mainly caused by carbon dioxide from human activities.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "When seawater takes up CO₂, the reaction makes carbonic acid, which splits and releases hydrogen ions that push the pH down.",
+   "cites": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "Shell- and skeleton-builders such as corals and mollusks are especially at risk, and about a billion people depend on coral reef services.",
+   "cites": [
+    7,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Surface pH change",
+   "value": "About 8.15 down to 8.05, from 1950 to 2026",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Still alkaline",
+   "value": "Seawater pH remains above 8",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "A 0.1 pH drop",
+   "value": "Means 26% more hydrogen ions",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Ocean's share",
+   "value": "Absorbed 26% of human emissions, 1850 to 2022",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Root-cause fix",
+   "value": "Cutting carbon dioxide emissions",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A diver hears the ocean is 'acidifying' and assumes seawater has become an acid. What is actually true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its pH is falling, but it is still alkaline"
+    },
+    {
+     "id": "b",
+     "label": "It has dropped below pH 7 in most places"
+    },
+    {
+     "id": "c",
+     "label": "Its pH is rising toward a more basic state"
+    },
+    {
+     "id": "d",
+     "label": "Only deep water has turned acidic so far"
+    }
+   ],
+   "answer": "a",
+   "explain": "Acidification means the pH is going down, yet seawater still sits above pH 8, which is alkaline.",
+   "cites": [
+    1,
+    6
+   ],
+   "id": "knowledge.earth.climate.climate-change.impacts.ocean-acidification:q1"
+  },
+  {
+   "prompt": "Why does extra carbon dioxide in the air end up lowering the ocean's pH?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes the water warmer, and heat lowers pH"
+    },
+    {
+     "id": "b",
+     "label": "It kills plankton, whose decay sours the water"
+    },
+    {
+     "id": "c",
+     "label": "Dissolved CO₂ forms carbonic acid, freeing hydrogen ions"
+    },
+    {
+     "id": "d",
+     "label": "It pushes salt out of the water, raising acidity"
+    }
+   ],
+   "answer": "c",
+   "explain": "Absorbed CO₂ reacts to form carbonic acid, which splits into bicarbonate and hydrogen ions; the free hydrogen ions lower the pH.",
+   "cites": [
+    4,
+    5,
+    6
+   ],
+   "id": "knowledge.earth.climate.climate-change.impacts.ocean-acidification:q2"
+  },
+  {
+   "prompt": "An oyster farmer and a coral reef manager both worry about falling ocean pH. What do oysters and corals share that puts them at special risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They both need sunlight to make their food"
+    },
+    {
+     "id": "b",
+     "label": "They build shells or skeletons from calcium carbonate"
+    },
+    {
+     "id": "c",
+     "label": "They both live only in cold polar waters"
+    },
+    {
+     "id": "d",
+     "label": "They breathe air at the surface each day"
+    }
+   ],
+   "answer": "b",
+   "explain": "Mollusks and corals rely on calcium carbonate for their hard parts, which makes them especially vulnerable.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.earth.climate.climate-change.impacts.ocean-acidification:q3"
+  },
+  {
+   "prompt": "Ocean pH falls by just 0.1. Roughly how much does the concentration of hydrogen ions change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rises by about 1%"
+    },
+    {
+     "id": "b",
+     "label": "It rises by about 10%"
+    },
+    {
+     "id": "c",
+     "label": "It doubles"
+    },
+    {
+     "id": "d",
+     "label": "It rises by about 26%"
+    }
+   ],
+   "answer": "d",
+   "explain": "Because the pH scale is logarithmic, a 0.1 drop means about 26% more hydrogen ions.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.earth.climate.climate-change.impacts.ocean-acidification:q4"
+  },
+  {
+   "prompt": "Two patches of sea get the same air above them: one cold and far north, one warm and tropical. Which would tend to take up more CO₂?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The cold northern water"
+    },
+    {
+     "id": "b",
+     "label": "The warm tropical water"
+    },
+    {
+     "id": "c",
+     "label": "Both take up the same amount"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since CO₂ cannot dissolve in salt water"
+    }
+   ],
+   "answer": "a",
+   "explain": "Colder, higher-latitude waters can absorb more CO₂, which can push their acidity up.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.earth.climate.climate-change.impacts.ocean-acidification:q5"
+  },
+  {
+   "prompt": "A town wants to tackle ocean acidification at its root rather than treat local symptoms. What would do that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Adding lime to nearby bays every summer"
+    },
+    {
+     "id": "b",
+     "label": "Banning fishing on local coral reefs"
+    },
+    {
+     "id": "c",
+     "label": "Cutting emissions of carbon dioxide"
+    },
+    {
+     "id": "d",
+     "label": "Building seawalls along the coastline"
+    }
+   ],
+   "answer": "c",
+   "explain": "Reducing carbon dioxide emissions is one of the only solutions that addresses the root cause.",
+   "cites": [
+    3,
+    19
+   ],
+   "id": "knowledge.earth.climate.climate-change.impacts.ocean-acidification:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Mean-seawater-ph.png/960px-Mean-seawater-ph.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Ocean acidification",
+  "credit": "University of Hawaii, included in Ritchie, Roser, Mispy, Ortiz-Ospina. \"Measurin",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mean-seawater-ph.png"
+ },
+ "source": {
+  "title": "Ocean acidification",
+  "url": "https://en.wikipedia.org/wiki/Ocean_acidification",
+  "revision": 1384741689
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Ocean acidification means the pH of the ocean keeps going down. At the surface, the average pH slipped from roughly 8.15 in 1950 to about 8.05 by 2026. The main driver is carbon dioxide released by people, and the amount of CO₂ in the air passed 422 ppm in 2024.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "How the chemistry works",
+    "text": "The sea soaks up CO₂ from the air. In the water this forms carbonic acid (H₂CO₃), which splits into a bicarbonate ion (HCO−3) and a free hydrogen ion (H⁺). Those loose hydrogen ions are what pull the pH down. The pH scale is logarithmic, so one whole unit stands for a tenfold change in hydrogen ions, and even a drop of 0.1 means about 26% more of them. Seawater has not turned acidic, though: with a pH above 8 it is still alkaline.",
+    "cites": [
+     4,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "heading": "A sink with a cost",
+    "text": "The ocean acts as a carbon sink, taking up roughly a quarter of the CO₂ people emit. Between 1850 and 2022 it absorbed 26% of all human emissions. Of the carbon released from 1850 to 2021, about 41% stayed in the air, 26% went into the sea and 31% into the land. That uptake has a price: the extra CO₂ shifts seawater toward lower pH and leaves less of the carbonate minerals many sea creatures use for shells and skeletons.",
+    "cites": [
+     32,
+     33,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Not the same everywhere",
+    "text": "Surface pH and carbonate saturation differ with depth and location. Colder water at high latitudes can take in more CO₂, which can raise its acidity further. Many other things shape the local picture too, including ocean currents and upwelling zones, nearness to large rivers, sea ice cover, and nitrogen and sulfur from burning fossil fuels and from farming.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Who is at risk",
+    "text": "Creatures that build shells or skeletons from calcium carbonate, such as corals and mollusks, are especially exposed. Scientists have seen lower-pH water reduce calcification, weaken immune responses and leave animals less energy for basics like reproduction. The effects reach people as well: around one billion depend wholly or partly on the fishing, tourism and coastal management services that coral reefs provide. Food chains tied to the sea could be put at risk.",
+    "cites": [
+     7,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "What can be done",
+    "text": "Cutting carbon dioxide emissions is one of the few fixes that tackles the root cause, and it is a central aim of climate change mitigation. Taking CO₂ back out of the air would also help reverse the acidification. Some ocean-based methods, such as ocean alkalinity enhancement and enhanced weathering, are being studied. For now they sit at a low level of technical readiness and carry many risks.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "It has happened before",
+    "text": "Earth's oceans have acidified before in the deep past. When that happened, ocean ecosystems collapsed, with lasting effects on the global carbon cycle and climate. Today's CO₂ levels, and how fast they are climbing, have no match in the last 55 million years of the geological record.",
+    "cites": [
+     24,
+     25,
+     28
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-what-is-oa",
+   "kind": "article",
+   "title": "What is Ocean Acidification?",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/acidification.html",
+   "note": "A short NOAA explainer on how seawater absorbing CO2 lowers ocean pH and what that means for shell-builders."
+  },
+  {
+   "id": "noaa-oa-collection",
+   "kind": "article",
+   "title": "Ocean acidification",
+   "by": "NOAA Office of Education",
+   "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification",
+   "note": "NOAA education resources on ocean acidification: the chemistry, its effects on marine life, and classroom materials."
+  }
+ ]
+}

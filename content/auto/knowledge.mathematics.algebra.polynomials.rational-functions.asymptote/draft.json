@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "An asymptote of a curve is a straight line that the curve approaches, in the sense that the distance between them goes to zero as x or y tends to infinity.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "There are three kinds of asymptotes: horizontal, vertical and oblique.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "Asymptotes show how a curve behaves in the large, and finding them is an important step in sketching a function's graph.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "Greek for \"not falling together\"",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Three kinds",
+   "value": "Horizontal, vertical and oblique",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Introduced by",
+   "value": "Apollonius of Perga, in his work on conic sections",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Rational function case",
+   "value": "Vertical asymptote where the denominator is zero and the numerator is not",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Graph of 1/x",
+   "value": "Both axes are asymptotes of its curve",
+   "cites": [
+    19,
+    24,
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On a screen, a line and a curve seem to merge far out, yet mathematicians say they only approach each other. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real curves eventually bend away from lines"
+    },
+    {
+     "id": "b",
+     "label": "Screens round values, so the picture is simply too coarse"
+    },
+    {
+     "id": "c",
+     "label": "Marks on a screen have width, but ideal lines and curves have width 0"
+    },
+    {
+     "id": "d",
+     "label": "The merging is an optical effect of drawing it on paper"
+    }
+   ],
+   "answer": "c",
+   "explain": "Marks on paper or pixels have positive width, but the line and the curve are idealized concepts whose width is 0. So grasping an asymptote takes reason rather than experience.",
+   "cites": [
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "On the curve of 1/x, x grows through 100, 1,000, 10,000 and the height shrinks toward the axis. Does the curve ever land on the x-axis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, once x is huge enough, the height rounds to 0"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only at infinity itself"
+    },
+    {
+     "id": "c",
+     "label": "No, 1/x is never 0, however large x becomes"
+    },
+    {
+     "id": "d",
+     "label": "No, but only because the curve is drawn too thin to reach"
+    }
+   ],
+   "answer": "c",
+   "explain": "No matter how large x becomes, its reciprocal 1/x is never 0, so the curve never actually touches the x-axis.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "A rational function has a denominator equal to zero at some input, while the numerator does not. What does its graph show there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A vertical asymptote"
+    },
+    {
+     "id": "b",
+     "label": "A horizontal asymptote"
+    },
+    {
+     "id": "c",
+     "label": "An oblique asymptote"
+    },
+    {
+     "id": "d",
+     "label": "A point where the graph meets the axis"
+    }
+   ],
+   "answer": "a",
+   "explain": "A common example of a vertical asymptote is a rational function at a point where the denominator is zero and the numerator is non-zero.",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "prompt": "A function's graph is drawn with a vertical asymptote. At most how many times can the graph meet that asymptote?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At most once"
+    },
+    {
+     "id": "b",
+     "label": "Twice, once from each side"
+    },
+    {
+     "id": "c",
+     "label": "Any number of times, if the curve wiggles"
+    },
+    {
+     "id": "d",
+     "label": "Exactly once for every function"
+    }
+   ],
+   "answer": "a",
+   "explain": "It is impossible for the graph of a function to intersect a vertical line in more than one point.",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "prompt": "As x grows very large, a graph keeps getting closer to a slanted line whose slope is not zero. What kind of asymptote is that line?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Horizontal"
+    },
+    {
+     "id": "b",
+     "label": "Vertical"
+    },
+    {
+     "id": "c",
+     "label": "Curvilinear"
+    },
+    {
+     "id": "d",
+     "label": "Oblique"
+    }
+   ],
+   "answer": "d",
+   "explain": "An oblique asymptote has a slope that is non-zero but finite, and the graph approaches it as x tends to +∞ or −∞.",
+   "cites": [
+    8,
+    31
+   ]
+  },
+  {
+   "prompt": "A graph levels off at one height far to the right and at a different height far to the left. How many horizontal asymptotes does it have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One, since a graph has a single end behaviour"
+    },
+    {
+     "id": "b",
+     "label": "Two, one for each end"
+    },
+    {
+     "id": "c",
+     "label": "None, since it levels off at two heights"
+    },
+    {
+     "id": "d",
+     "label": "As many as there are heights it passes through"
+    }
+   ],
+   "answer": "b",
+   "explain": "The arctangent has y = π/2 as a horizontal asymptote as x tends to +∞ and y = –π/2 as x tends to –∞.",
+   "cites": [
+    40,
+    41
+   ]
+  }
+ ]
+}

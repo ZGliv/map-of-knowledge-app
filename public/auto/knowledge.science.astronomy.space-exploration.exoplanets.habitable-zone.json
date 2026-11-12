@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone",
+ "name": "Habitable zone",
+ "summary": [
+  {
+   "text": "The habitable zone is the range of orbits around a star within which a planetary surface could potentially support liquid water.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The range depends on the star's brightness: at the inner edge a planet's water boils off, and at the outer edge it freezes.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "The zone is a key tool in the search for habitable planets because discoveries of exoplanets yield approximate orbital radii.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Goldilocks zone, circumstellar habitable zone",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Nearest zone planet",
+   "value": "Proxima Centauri b, about 4.2 light-years away",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Kepler launch",
+   "value": "2009, to detect exoplanets in habitable zones",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Kepler-based estimate",
+   "value": "Up to 40 billion Earth-sized planets in the Milky Way",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Goldilocks term",
+   "value": "Emerged in the 1970s",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A planet orbits so close that its star's light, trapped by its atmosphere, boils off its oceans. Where is it relative to the zone?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Past the outer edge, where light is too weak"
+    },
+    {
+     "id": "b",
+     "label": "Inside the inner edge, where light is too strong"
+    },
+    {
+     "id": "c",
+     "label": "Right in the middle, where the balance is best"
+    },
+    {
+     "id": "d",
+     "label": "Anywhere, since distance does not matter"
+    }
+   ],
+   "answer": "b",
+   "explain": "At the inner edge the star's light, trapped by greenhouse gases, boils off the planet's water.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone:q1"
+  },
+  {
+   "prompt": "Most habitable-zone planets found so far are heavier than Earth. Does that mean heavy planets dominate the zone?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, light planets cannot hold an atmosphere there"
+    },
+    {
+     "id": "b",
+     "label": "Yes, the zone only forms around giant stars"
+    },
+    {
+     "id": "c",
+     "label": "No, the zone is mostly home to gas giants"
+    },
+    {
+     "id": "d",
+     "label": "No, heavier planets are simply easier to detect"
+    }
+   ],
+   "answer": "d",
+   "explain": "Most such planets are more massive than Earth because massive planets are easier to detect.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone:q2"
+  },
+  {
+   "prompt": "Life is known to live deep underground on Earth. Why doesn't the classical zone count it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was defined for surfaces that depend on starlight"
+    },
+    {
+     "id": "b",
+     "label": "It was defined only for planets without water"
+    },
+    {
+     "id": "c",
+     "label": "It was defined before deep life was known on Earth"
+    },
+    {
+     "id": "d",
+     "label": "It was defined for planets bigger than Jupiter"
+    }
+   ],
+   "answer": "a",
+   "explain": "The classical concept covers planetary surfaces where habitat depends on stellar energy, and deep biospheres would not be detectable on exoplanets.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone:q3"
+  },
+  {
+   "prompt": "At the cold outer edge of the conservative zone, what stops a planet from keeping its water liquid?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The star's light is too strong for any water"
+    },
+    {
+     "id": "b",
+     "label": "Even the greatest greenhouse effect cannot stop freezing"
+    },
+    {
+     "id": "c",
+     "label": "The planet's atmosphere traps all heat inside"
+    },
+    {
+     "id": "d",
+     "label": "The planet's mass is too small to hold water"
+    }
+   ],
+   "answer": "b",
+   "explain": "The outer edge is the maximum greenhouse effect limit, where atmospheric absorption is inadequate to keep water from freezing.",
+   "cites": [
+    5,
+    43
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone:q4"
+  },
+  {
+   "prompt": "Why do some researchers study moons when thinking about the zone?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Moons are always warmer than planets"
+    },
+    {
+     "id": "b",
+     "label": "Planet-sized moons there might outnumber planets"
+    },
+    {
+     "id": "c",
+     "label": "Moons are easier to detect than planets"
+    },
+    {
+     "id": "d",
+     "label": "Moons orbit closer to stars than planets do"
+    }
+   ],
+   "answer": "b",
+   "explain": "Planetary mass moons in the zone might outnumber planets, which interests the field of moon habitability.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone:q5"
+  },
+  {
+   "prompt": "A researcher imagines life using methane instead of water. How would the zone idea change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It would stay exactly as it is today"
+    },
+    {
+     "id": "b",
+     "label": "It would shrink to a narrower ring"
+    },
+    {
+     "id": "c",
+     "label": "It would be extended to other solvents at the surface"
+    },
+    {
+     "id": "d",
+     "label": "It would move to the planet's deep interior"
+    }
+   ],
+   "answer": "c",
+   "explain": "Other zones have been proposed where non-water solvents could be liquid at the surface, and some astrobiologists suggest extending the concept to solvents such as methane.",
+   "cites": [
+    17,
+    39
+   ],
+   "id": "knowledge.science.astronomy.space-exploration.exoplanets.habitable-zone:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/MarsCuriosityRover-Drilling-Sol170%2B%2B-2.jpg/960px-MarsCuriosityRover-Drilling-Sol170%2B%2B-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Habitable zone",
+  "credit": "NASA / JPL-Caltech / Olivier de Goursac",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:MarsCuriosityRover-Drilling-Sol170%2B%2B-2.jpg"
+ },
+ "source": {
+  "title": "Habitable zone",
+  "url": "https://en.wikipedia.org/wiki/Habitable_zone",
+  "revision": 1382053105
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Not too hot, not too cold",
+    "text": "The habitable zone is the band of orbits around a star where a planet's surface might hold liquid water. It is also called the circumstellar habitable zone, or the Goldilocks zone, after the fairy tale in which a girl turns down choices that are too extreme and settles on the one that is just right. Many scientists see liquid water as a must for a planet to be habitable.",
+    "cites": [
+     1,
+     2,
+     8
+    ]
+   },
+   {
+    "heading": "Inner and outer edges",
+    "text": "Where the zone sits depends on how bright the star is and how its light acts on a planet's atmosphere. Near the inner edge, starlight trapped by greenhouse gases boils the planet's water away. Past the outer edge, there is too little starlight even with the atmosphere's help, so the water freezes. Many models add other factors on top.",
+    "cites": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Cautious and hopeful limits",
+    "text": "Two different cut-offs can be used. In the conservative zone, the inner edge marks where an overheating planet loses its water, and the outer edge is where the greenhouse effect can no longer stop water from freezing. The optimistic zone is wider, allowing for a star's brightness to change as it ages. Its inner edge is called \"recent Venus\" and its outer edge \"early Mars\", based on studies of possible past water on those planets.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Where the idea came from",
+    "text": "The concept first arose in geography in the late 19th century. Edward Maunder may have been the first to use the term habitable zone, in 1913. Su-Shu Huang developed the modern version in papers in the 1950s and 60s, and the name Goldilocks zone appeared in the 1970s. In 1993 James Kasting and colleagues used a simple climate model to work out zones for stars of different brightness.",
+    "cites": [
+     18,
+     20,
+     24,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "A tool for planet hunters",
+    "text": "The zone is useful in the hunt for habitable planets because discovering an exoplanet gives a rough size for its orbit. The Kepler space telescope, launched in 2009, was built specifically to find planets in habitable zones. Its data suggest that at least 20%, and maybe 50%, of the stars we can see at night host Earth-sized planets within their own zones. The Transiting Exoplanet Survey Satellite carried on the search in 2018. Most habitable-zone planets found so far are heavier than Earth, because massive planets are easier to detect.",
+    "cites": [
+     7,
+     10,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Close to home and beyond",
+    "text": "Proxima Centauri b, about 4.2 light-years from Earth, is the nearest known exoplanet and orbits in its star's habitable zone. In 2013 astronomers used Kepler data to estimate that up to 40 billion Earth-sized planets in the Milky Way may orbit within the habitable zones of red dwarfs and Sun-like stars. About 11 billion of those may circle Sun-like stars. Moons as big as planets in these zones might even outnumber the planets.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Stretching the idea",
+    "text": "Some researchers have widened the concept. A galactic habitable zone is the part of a galaxy near enough to the centre for stars to be rich in heavier elements, but far enough away to escape the fierce radiation and gravity found at the centre. Some astrobiologists also suggest zones for other liquids, such as methane or sulfuric acid, that could support life built on a different biochemistry.",
+    "cites": [
+     36,
+     37,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "nasa-habitable-zone",
+   "kind": "article",
+   "title": "The Habitable Zone",
+   "by": "NASA",
+   "url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+   "note": "NASA on how the zone shifts with the kind of star, why red dwarfs are tricky and why orange dwarfs look promising."
+  },
+  {
+   "id": "spacetime-end-habitable-zone",
+   "kind": "video",
+   "title": "The End of the Habitable Zone",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=wwGeCfWc100",
+   "minutes": 14,
+   "note": "A PBS Space Time episode on the habitable zone and how it will eventually leave Earth behind."
+  }
+ ]
+}

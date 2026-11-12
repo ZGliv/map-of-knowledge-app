@@ -1,0 +1,104 @@
+{
+ "title": "A curve that feeds itself",
+ "question": "What makes a function exponential?",
+ "hook": "Some curves climb at a speed that depends on how high they already are.",
+ "idea": "An exponential function changes at a rate proportional to its current value, and its inverse, the natural logarithm, turns products into sums.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A quantity follows f(x) = abˣ, so its rate of change is proportional to its current value. If the value doubles, what happens to the rate?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It stays the same",
+     "feedback": "It would only stay put if the rate ignored the current value, but here the rate is tied to it."
+    },
+    {
+     "id": "b",
+     "label": "It doubles too"
+    },
+    {
+     "id": "c",
+     "label": "It is cut in half",
+     "feedback": "The rate grows with the value rather than shrinking against it."
+    }
+   ],
+   "answer": "b",
+   "explain": "Proportional means the rate moves in step with the value, so a doubled value gives a doubled rate.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each expression to its partner",
+   "pairs": [
+    [
+     "exp (x + y)",
+     "exp x⋅exp y"
+    ],
+    [
+     "ln (x⋅y)",
+     "ln x + ln y"
+    ],
+    [
+     "eˣ⋅e⁻ˣ",
+     "1"
+    ],
+    [
+     "1/eˣ",
+     "e⁻ˣ"
+    ]
+   ],
+   "explain": "The exponential turns sums into products, the natural logarithm turns products into sums, and the functional equation gives the reciprocal rules.",
+   "cites": [
+    5,
+    6,
+    25,
+    26
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "On the graph of y = eˣ you stand at a point whose height is 5. How steep is the tangent there?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Slope 1",
+     "feedback": "A slope of 1 appears at x = 0, not at every point; the slope changes along the curve."
+    },
+    {
+     "id": "b",
+     "label": "Slope 5"
+    },
+    {
+     "id": "c",
+     "label": "Slope 0.5",
+     "feedback": "Nothing in the rule shrinks the slope below the height."
+    }
+   ],
+   "answer": "b",
+   "explain": "The slope of the tangent at each point is equal to the height at that point.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "The exponential function satisfies e⁰ = 1, so it starts above zero.",
+    "If eˣ < 0 for some x, the function would have to hit zero between 0 and x.",
+    "But eˣ ≠ 0 for every x, so eˣ > 0 for every real number x.",
+    "Since eˣ equals its derivative and is positive, it is monotonically decreasing."
+   ],
+   "wrong": 3,
+   "explain": "A function that is positive and equals its derivative has a positive slope everywhere, so it is monotonically increasing, not decreasing.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  }
+ ]
+}

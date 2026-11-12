@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics",
+ "name": "Adaptive optics",
+ "summary": [
+  {
+   "text": "Adaptive optics is a technique of precisely deforming a mirror in order to compensate for light distortion.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In astronomical telescopes it removes the effects of atmospheric distortion by measuring the distortions in a wavefront and correcting them with a deformable mirror.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The technique did not come into common usage until advances in computer technology during the 1990s made it practical.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First envisioned",
+   "value": "By Horace W. Babcock in 1953",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Early development",
+   "value": "The US military, to track Soviet satellites during the Cold War",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Blur threshold",
+   "value": "Images from telescopes over about 20 cm are blurred by air",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Resolution gain",
+   "value": "From about 1 arcsecond to 30-60 milliarcseconds, in the infrared",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Sodium guide star",
+   "value": "A laser at 589 nanometers makes sodium atoms glow",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Starlight crosses air layers with different temperatures and wind speeds before it reaches a big telescope. What does that do to the view?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It dims the star but keeps the image sharp"
+    },
+    {
+     "id": "b",
+     "label": "It only affects telescopes smaller than 20 centimetres"
+    },
+    {
+     "id": "c",
+     "label": "It distorts and moves the image, blurring it"
+    },
+    {
+     "id": "d",
+     "label": "It makes the star's colors change"
+    }
+   ],
+   "answer": "c",
+   "explain": "Atmospheric turbulence can distort and move the image, and the pictures from any telescope larger than about 20 centimetres are blurred.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics:q1"
+  },
+  {
+   "prompt": "An adaptive optics system has a wavefront sensor, a deformable mirror and a computer. What does the computer do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Works out the best mirror shape from the measured distortions"
+    },
+    {
+     "id": "b",
+     "label": "Collects the starlight and focuses it"
+    },
+    {
+     "id": "c",
+     "label": "Measures the air temperature and wind speed"
+    },
+    {
+     "id": "d",
+     "label": "Moves the whole telescope to follow the star"
+    }
+   ],
+   "answer": "a",
+   "explain": "The sensor measures the distortion over a few milliseconds, the computer calculates the optimal mirror shape, and the mirror is reshaped to match.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics:q2"
+  },
+  {
+   "prompt": "An astronomer's target is too faint to measure the distortion in its own light. What can be done?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wait for the air to turn perfectly still"
+    },
+    {
+     "id": "b",
+     "label": "Switch to a much smaller mirror"
+    },
+    {
+     "id": "c",
+     "label": "Fix just the left half of the image"
+    },
+    {
+     "id": "d",
+     "label": "Use a nearby brighter star seen through similar air"
+    }
+   ],
+   "answer": "d",
+   "explain": "A nearby brighter guide star passes through about the same turbulence, so correcting for it also corrects the target, though usually less accurately.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics:q3"
+  },
+  {
+   "prompt": "A telescope team corrects its image using a guide star, then turns to a target far across the sky from that star. What happens to the correction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It improves with the distance"
+    },
+    {
+     "id": "b",
+     "label": "It gets worse as the angle from the guide star grows"
+    },
+    {
+     "id": "c",
+     "label": "It stays exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "It only works for planets and not stars"
+    }
+   ],
+   "answer": "b",
+   "explain": "The corrected field of view is small, and image quality degrades as the angular distance from the guide star increases.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics:q4"
+  },
+  {
+   "prompt": "A laser makes an artificial guide star high in the air. What do astronomers still need to find in the sky?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Very faint natural stars, to track the image position"
+    },
+    {
+     "id": "b",
+     "label": "A second laser at another wavelength"
+    },
+    {
+     "id": "c",
+     "label": "A bright natural star, to measure all the distortion"
+    },
+    {
+     "id": "d",
+     "label": "A cloud layer to bounce the beam from"
+    }
+   ],
+   "answer": "a",
+   "explain": "The laser star works as a wavefront reference like a natural one, but much fainter natural reference stars are still needed for the tip/tilt position information.",
+   "cites": [
+    34,
+    38
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics:q5"
+  },
+  {
+   "prompt": "Most adaptive optics systems first use a simple mirror that only rotates in two directions. Why start with that one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It corrects the finest higher-order errors best"
+    },
+    {
+     "id": "b",
+     "label": "It reshapes the main mirror over a longer timescale"
+    },
+    {
+     "id": "c",
+     "label": "It is simple and has large correcting power for low-order errors"
+    },
+    {
+     "id": "d",
+     "label": "It is the part that measures the wavefront"
+    }
+   ],
+   "answer": "c",
+   "explain": "Such mirrors are relatively simple and have a large stroke, so they handle low-order aberrations first and deformable mirrors then correct the higher-order ones.",
+   "cites": [
+    10,
+    11,
+    14,
+    15
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.adaptive-optics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adaptive_optics.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Adaptive optics",
+  "credit": "Jacopo Bertolotti",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Adaptive_optics.gif"
+ },
+ "source": {
+  "title": "Adaptive optics",
+  "url": "https://en.wikipedia.org/wiki/Adaptive_optics",
+  "revision": 1377836593
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "A mirror that changes shape",
+    "text": "Adaptive optics, or AO, is a technique that bends a mirror very precisely to cancel out distortion in light. Astronomical telescopes and laser communication systems use it to remove the effects of the atmosphere. It is also used in microscopes, in optical manufacturing and in imaging the retina, to reduce optical flaws. It should not be mixed up with active optics, which corrects the shape of a telescope's primary mirror over longer timescales.",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "heading": "Why starlight gets blurred",
+    "text": "When starlight enters Earth's atmosphere, turbulence, caused for example by layers of different temperature and wind speed mixing, can distort and move the image. Any telescope wider than about 20 centimetres produces visual images blurred by this. Without correction, even an 8–10-metre telescope such as the VLT or Keck resolves detail only to about 1 arcsecond, but with AO it can reach 30–60 milliarcseconds in infrared light. Other ways around the problem include speckle imaging, aperture synthesis, lucky imaging, or going above the atmosphere with a space telescope such as Hubble.",
+    "cites": [
+     5,
+     16,
+     17,
+     20
+    ]
+   },
+   {
+    "heading": "Sense, compute, correct",
+    "text": "An AO system has three main parts: a wavefront sensor that takes some of the incoming starlight, a deformable mirror in the light path, and a computer. The sensor measures the shape of the incoming wavefronts across the telescope's opening, splitting it into many small patches using either a grid of tiny lenses, called a Shack–Hartmann sensor, or a curvature or pyramid sensor. The average distortion in each patch is worked out. On a timescale of a few milliseconds, the computer finds the best mirror shape and the deformable mirror's surface is reshaped to match, so the image looks sharp.",
+    "cites": [
+     3,
+     18,
+     19,
+     21,
+     22,
+     23,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Tip and tilt first",
+    "text": "The simplest form of AO is tip–tilt correction, which fixes the tilt of the wavefront in two directions, in effect correcting where the image sits. A fast-moving mirror does this by making small rotations around two of its axes, and a significant share of the atmosphere's distortion can be removed this way. Because these mirrors are simple and have a large stroke, meaning large correcting power, most AO systems use them first for low-order aberrations. Higher-order aberrations can then be handled by deformable mirrors.",
+    "cites": [
+     10,
+     11,
+     12,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Borrowing a guide star",
+    "text": "Measuring the distortion needs a reference star. If the target is too faint, a nearby brighter guide star can stand in, since its light crossed roughly the same turbulence; the target is then corrected too, though usually less accurately. This means AO works only where a bright enough guide star, about magnitude 12–15 for current systems, lies very near the target, which severely limits its use. The well-corrected field of view is also small, and image quality drops farther from the guide star. A method called multiconjugate adaptive optics uses several deformable mirrors to widen the field.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Stars made by lasers",
+    "text": "Another answer is to create a reference light in the sky with a laser, called a laser guide star. Rayleigh guide stars send out a laser beam, usually near-ultraviolet, and detect light scattered back by air 15 to 25 km up. Sodium guide stars use laser light at 589 nanometres to excite sodium atoms high in the mesosphere and thermosphere, which then seem to glow. A laser guide star serves as a reference just like a natural one, except that a much fainter natural star is still needed for tip–tilt information.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "From the Cold War to the eye",
+    "text": "Horace W. Babcock first imagined adaptive optics in 1953, but it did not become common until advances in computing in the 1990s made it practical. Part of the early work came from the US military in the Cold War, which wanted it for tracking Soviet satellites. The technique also helps in eye care. Distortions in light passing through the pupil reduce the quality of the image on the retina, and the same distortions in light leaving the eye make it impossible to resolve retinal cells and capillaries.",
+    "cites": [
+     6,
+     7,
+     8,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "keck-ao-video",
+   "kind": "video",
+   "title": "MKO@Home Ep. 48: Adaptive Optics on Keck Observatory",
+   "by": "Maunakea Observatories",
+   "url": "https://www.youtube.com/watch?v=dDKMobBVXJo",
+   "note": "A Keck Observatory engineer explains what adaptive optics does and how it sharpens the telescope's images."
+  }
+ ]
+}

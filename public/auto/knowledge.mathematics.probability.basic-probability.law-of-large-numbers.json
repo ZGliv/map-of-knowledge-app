@@ -1,0 +1,552 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers",
+ "name": "Law of large numbers",
+ "summary": [
+  {
+   "text": "The law of large numbers says the average of results from a large number of independent random samples converges to the true value, if one exists.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It guarantees stable long-term averages for some random events: a casino may lose on a single spin, but its earnings tend towards a predictable percentage over many spins.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "It applies only when many observations are considered, and a small number of observations need not match the expected value.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dice example",
+   "value": "The average of many rolls approaches 3.5",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Coin example",
+   "value": "The proportion of heads approaches 1⁄2",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Where it is used",
+   "value": "Statistics, economics, insurance and other fields",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "When it fails",
+   "value": "Averages from a Cauchy distribution do not converge",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend rolls an ordinary six-sided die thousands of times and works out the average of all the rolls. About what value should it be near?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6, the highest face"
+    },
+    {
+     "id": "b",
+     "label": "3, the middle face"
+    },
+    {
+     "id": "c",
+     "label": "3.5"
+    },
+    {
+     "id": "d",
+     "label": "4.5"
+    }
+   ],
+   "answer": "c",
+   "explain": "With many dice rolled, the average of their values approaches 3.5, with the precision increasing as more dice are rolled.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers:q1"
+  },
+  {
+   "prompt": "A fair coin lands heads five times in a row. A friend says tails is now due to balance things out. What does the law say about that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing guarantees that a streak is balanced right away"
+    },
+    {
+     "id": "b",
+     "label": "Tails becomes more likely until the streak is balanced"
+    },
+    {
+     "id": "c",
+     "label": "Heads becomes more likely because it is on a run"
+    },
+    {
+     "id": "d",
+     "label": "The coin must be unfair after such a streak"
+    }
+   ],
+   "answer": "a",
+   "explain": "There is no principle that a small number of observations will coincide with the expected value, or that a streak of one value will immediately be balanced by the others.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers:q2"
+  },
+  {
+   "prompt": "A gambler wins big on one spin of a roulette wheel. Why can the casino still count on a predictable result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wheel is adjusted after every big win"
+    },
+    {
+     "id": "b",
+     "label": "Over very many spins, earnings tend toward a set percentage"
+    },
+    {
+     "id": "c",
+     "label": "Players always lose their very next spin"
+    },
+    {
+     "id": "d",
+     "label": "Winning streaks are banned by the casino"
+    }
+   ],
+   "answer": "b",
+   "explain": "A casino may lose on a single spin, but over a large number of spins its earnings tend towards a predictable percentage.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers:q3"
+  },
+  {
+   "prompt": "You keep flipping a fair coin for a very long time. What happens to the gap between the number of heads and the number of tails?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It shrinks steadily toward zero for good"
+    },
+    {
+     "id": "b",
+     "label": "It stays about the same size throughout"
+    },
+    {
+     "id": "c",
+     "label": "It tends to grow, though the share stays near 1⁄2"
+    },
+    {
+     "id": "d",
+     "label": "It flips from positive to negative each flip"
+    }
+   ],
+   "answer": "c",
+   "explain": "The share of heads approaches 1⁄2, yet the absolute difference between heads and tails almost surely becomes large, growing at a slower rate than the number of flips.",
+   "cites": [
+    16,
+    17,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers:q4"
+  },
+  {
+   "prompt": "A computer estimates a quantity by repeating random sampling many times. What should happen to the estimate as the repetitions increase?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gets worse as noise piles up"
+    },
+    {
+     "id": "b",
+     "label": "It tends to get better"
+    },
+    {
+     "id": "c",
+     "label": "It stays exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "It jumps between two fixed values"
+    }
+   ],
+   "answer": "b",
+   "explain": "Monte Carlo methods rely on repeated random sampling, and the larger the number of repetitions, the better the approximation tends to be.",
+   "cites": [
+    21,
+    22,
+    23
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers:q5"
+  },
+  {
+   "prompt": "Does the average of more and more results always settle down to one value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any random process settles eventually"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only after a million trials"
+    },
+    {
+     "id": "c",
+     "label": "No, never, not even for dice"
+    },
+    {
+     "id": "d",
+     "label": "No, heavy-tailed cases like the Cauchy distribution do not converge"
+    }
+   ],
+   "answer": "d",
+   "explain": "The average of results may fail to converge in some cases. Averages from the Cauchy distribution, for example, do not converge because of heavy tails.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Lawoflargenumbers.svg/960px-Lawoflargenumbers.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Law of large numbers",
+  "credit": "Pred",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lawoflargenumbers.svg"
+ },
+ "source": {
+  "title": "Law of large numbers",
+  "url": "https://en.wikipedia.org/wiki/Law_of_large_numbers",
+  "revision": 1381282046
+ },
+ "pack": {
+  "id": "auto-basic-probability-law-of-large-numbers",
+  "title": "Streaks fade, averages hold",
+  "question": "Why do averages settle down when single results never do?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Basic probability",
+   "Law of large numbers"
+  ],
+  "hue": 43,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Lawoflargenumbers.svg/960px-Lawoflargenumbers.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Law of large numbers",
+    "credit": "Pred · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lawoflargenumbers.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Streaks fade, averages hold",
+    "hook": "A casino can lose on one spin and still count on a predictable profit."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-basic-probability-law-of-large-numbers:1",
+    "transfer": false,
+    "prompt": "A fair coin lands heads 7 times in its first 10 flips. You keep flipping thousands more. Where should the share of heads head?",
+    "explain": "The proportion of heads converges to one half as the number of flips grows, and early flips are not corrected later.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Stay near seven tenths, since this coin looks biased",
+        "feedback": "A fair coin has a theoretical chance of one half, and the proportion follows that over many flips, not the first few."
+       },
+       {
+        "id": "b",
+        "label": "Below one half, so tails can make up for the early heads",
+        "feedback": "A streak is not immediately balanced by the other outcomes, so tails do not get extra chances."
+       },
+       {
+        "id": "a",
+        "label": "Toward about one half, since the law applies over many flips"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-law-of-large-numbers:2",
+    "transfer": false,
+    "prompt": "Match each situation to what the law of large numbers predicts.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Rolling many dice"
+     },
+     {
+      "id": "l1",
+      "label": "Flipping a fair coin many times"
+     },
+     {
+      "id": "l2",
+      "label": "Repeated random sampling by computer"
+     },
+     {
+      "id": "l3",
+      "label": "Averaging Cauchy-distributed results"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "The average approaches 3.5"
+     },
+     {
+      "id": "r3",
+      "label": "The average fails to converge"
+     },
+     {
+      "id": "r1",
+      "label": "The share of heads approaches one half"
+     },
+     {
+      "id": "r2",
+      "label": "The approximation tends to improve"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The law ties averages to true values over many trials, and it can fail for heavy-tailed cases such as the Cauchy distribution."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-basic-probability-law-of-large-numbers:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each claim into whether the law supports it.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Average of many dice rolls nears 3.5"
+     },
+     {
+      "id": "i1",
+      "label": "Casino earnings tend toward a set percentage over many spins"
+     },
+     {
+      "id": "i2",
+      "label": "Share of heads approaches one half over many flips"
+     },
+     {
+      "id": "i3",
+      "label": "A streak of heads is immediately balanced by tails"
+     },
+     {
+      "id": "i4",
+      "label": "Ten flips must come out exactly five and five"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Law supports"
+     },
+     {
+      "id": "g1",
+      "label": "Law does not support"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "The law concerns large numbers of observations. A small number need not match the expected value, and streaks are not immediately balanced."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-basic-probability-law-of-large-numbers:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A fair coin has a one half chance of heads on each flip."
+     },
+     {
+      "id": "b",
+      "text": "Over a huge number of flips, the share of heads should settle near one half."
+     },
+     {
+      "id": "c",
+      "text": "So after a long run of heads, tails must come up more often to even things out."
+     },
+     {
+      "id": "d",
+      "text": "So the more flips there are, the closer the share of heads gets to one half."
+     }
+    ],
+    "answer": "c",
+    "explain": "There is no principle that a streak will immediately be balanced. The share settles through sheer numbers of flips, not because tails are owed."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Averages from many independent trials head toward the true value, but a small number of trials promises nothing.",
+    "connections": [
+     {
+      "title": "Empirical probability",
+      "place": "Law of large numbers",
+      "node": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.empirical-probability"
+     },
+     {
+      "title": "Regression toward the mean",
+      "place": "Law of large numbers",
+      "node": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.regression-toward-the-mean"
+     },
+     {
+      "title": "Central limit theorem",
+      "place": "Law of large numbers",
+      "node": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The proportion of heads converges to one half as the number of flips grows, and early flips are not corrected later.",
+    "source": "Wikipedia sentences 7, 15, 16"
+   },
+   {
+    "claim": "The law ties averages to true values over many trials, and it can fail for heavy-tailed cases such as the Cauchy distribution.",
+    "source": "Wikipedia sentences 10, 15, 23, 26"
+   },
+   {
+    "claim": "The law concerns large numbers of observations. A small number need not match the expected value, and streaks are not immediately balanced.",
+    "source": "Wikipedia sentences 4, 7, 10, 15"
+   },
+   {
+    "claim": "There is no principle that a streak will immediately be balanced. The share settles through sheer numbers of flips, not because tails are owed.",
+    "source": "Wikipedia sentences 7, 15, 16"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it says",
+    "text": "The law of large numbers says that if you take many independent random samples, the average of the results settles toward the true value, provided one exists. Stated more formally, for values that are independent and identically distributed, the sample mean converges to the true mean. It guarantees stable long-run results for the averages of some random events. Today it is used in statistics, probability theory, economics, insurance and other fields.",
+    "cites": [
+     1,
+     2,
+     3,
+     9
+    ]
+   },
+   {
+    "heading": "Dice and coins",
+    "text": "Roll a large number of six-sided dice and the average of their values, called the sample mean, gets close to 3.5, and closer still as more dice are rolled. A fair coin works the same way. One flip comes up heads with probability 1⁄2, so over a large number of flips the share of heads should be roughly 1⁄2. As the number of flips heads toward infinity, that share almost surely converges to 1⁄2.",
+    "cites": [
+     10,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "The gap still grows",
+    "text": "There is a twist. The share of heads approaches 1⁄2, yet the plain difference between the number of heads and the number of tails almost surely becomes large as the flips pile up. That difference grows, but more slowly than the number of flips. So the difference divided by the number of flips still shrinks toward zero.",
+    "cites": [
+     17,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Only for large numbers",
+    "text": "The law applies only when many observations are considered. A handful of results need not match the expected value, and a streak of one outcome is not promptly balanced out by the others; expecting that is the gambler's fallacy. A casino may lose money on one spin of roulette, but over many spins its earnings move toward a predictable percentage, and any winning streak a player has is eventually overcome by the game. More trials also cannot cure a selection bias built into the trials: the bias stays.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     31
+    ]
+   },
+   {
+    "heading": "Computing by chance",
+    "text": "Monte Carlo methods are another example of the law at work. They are a broad family of computer algorithms that reach numerical results through repeated random sampling. The more repetitions, the better the approximation tends to be. They matter mainly because other approaches are sometimes hard or impossible to use.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "When averages do not settle",
+    "text": "In some cases the average does not converge at all. Take results drawn from a Cauchy distribution, or from certain Pareto distributions (α<1): the average of n results does not settle down as n grows, because their tails are heavy. The Cauchy distribution has no expected value, while the Pareto one (α<1) has an infinite expected value. For the Cauchy case, the average of n results has the same distribution as a single result.",
+    "cites": [
+     25,
+     26,
+     27,
+     29
+    ]
+   },
+   {
+    "heading": "From Cardano to Khinchin",
+    "text": "Gerolamo Cardano (1501–1576) stated, without proof, that empirical statistics grow more accurate as trials increase. Jacob Bernoulli first proved a special form, for a binary random variable, after more than 20 years of work, and published it in his Ars Conjectandi in 1713. He called it his golden theorem, but it became known as Bernoulli's theorem, and Poisson later described it as the law of large numbers. Chebyshev, Markov, Borel, Cantelli, Kolmogorov and Khinchin refined it further, leading to a weak law and a strong law, where the strong form implies the weak.",
+    "cites": [
+     32,
+     34,
+     35,
+     36,
+     38,
+     40,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "grinstead-lln",
+   "kind": "book",
+   "title": "8: Law of Large Numbers - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/08%3A_Law_of_Large_Numbers",
+   "note": "A free textbook chapter on the law of large numbers for discrete and continuous random variables.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

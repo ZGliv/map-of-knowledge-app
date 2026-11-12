@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "The mode is the value that appears most often in a set of data values.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Like the mean and median it summarizes central tendency, but unlike them it also makes sense for non-numeric data such as names.",
+   "cites": [
+    4,
+    25
+   ]
+  },
+  {
+   "text": "A data set can have more than one mode: two modes make it bimodal, and more than two make it multimodal.",
+   "cites": [
+    15,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Worked example",
+   "value": "The sample 1, 3, 6, 6, 6, 6, 7, 7, 12, 12, 17 has mode 6",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Not unique",
+   "value": "The list 1, 1, 2, 4, 4 has two modes",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Names count",
+   "value": "In a sample of Korean family names, Kim could be the mode",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "label": "Symmetric peak",
+   "value": "In a normal distribution mode, mean and median coincide",
+   "cites": [
+    5,
+    11
+   ]
+  },
+  {
+   "label": "On a histogram",
+   "value": "The mode is where the histogram reaches its peak",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A shoe shop sold these sizes today: 6, 7, 7, 8, 8, 8, 9. What is the mode?",
+   "options": [
+    {
+     "id": "a",
+     "label": "7"
+    },
+    {
+     "id": "b",
+     "label": "7.5"
+    },
+    {
+     "id": "c",
+     "label": "9"
+    },
+    {
+     "id": "d",
+     "label": "8"
+    }
+   ],
+   "answer": "d",
+   "explain": "The mode is the value that appears most often, and 8 appears three times.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A poll asks people for their favourite ice-cream flavour. Which summary can name the typical answer when answers are names, not numbers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mean"
+    },
+    {
+     "id": "b",
+     "label": "The median"
+    },
+    {
+     "id": "c",
+     "label": "The mode"
+    },
+    {
+     "id": "d",
+     "label": "The range"
+    }
+   ],
+   "answer": "c",
+   "explain": "Unlike the mean and median, the mode makes sense for nominal data that is not numerical.",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "prompt": "In the list 1, 1, 2, 4, 4, how many modes are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two, so the data is bimodal"
+    },
+    {
+     "id": "b",
+     "label": "One, the number 1"
+    },
+    {
+     "id": "c",
+     "label": "One, the number 4"
+    },
+    {
+     "id": "d",
+     "label": "None, since nothing stands out"
+    }
+   ],
+   "answer": "a",
+   "explain": "The mode is not unique here: 1 and 4 each appear twice, and a data set with two modes is bimodal.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "Two candidates tie for the most votes in a vote where the most votes wins. Why does this cause trouble?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Votes can only be counted once"
+    },
+    {
+     "id": "b",
+     "label": "A tie-breaking procedure is needed for a multi-modal outcome"
+    },
+    {
+     "id": "c",
+     "label": "The mean of the votes becomes undefined"
+    },
+    {
+     "id": "d",
+     "label": "The median candidate wins instead"
+    }
+   ],
+   "answer": "b",
+   "explain": "In a plurality system a single modal value decides the winner, while a multi-modal outcome would require a tie-breaking procedure.",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "prompt": "A data set follows a perfectly symmetric, single-peaked pattern such as the normal distribution. How do its mean, median and mode compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They all coincide"
+    },
+    {
+     "id": "b",
+     "label": "The mode is largest"
+    },
+    {
+     "id": "c",
+     "label": "The mean is smallest"
+    },
+    {
+     "id": "d",
+     "label": "They have no relationship"
+    }
+   ],
+   "answer": "a",
+   "explain": "In symmetric unimodal distributions such as the normal distribution, the mean, median and mode all coincide.",
+   "cites": [
+    5,
+    11
+   ]
+  },
+  {
+   "prompt": "Someone reads the mode off a histogram but draws the bars far too narrow or too wide. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, it always gives the same mode"
+    },
+    {
+     "id": "b",
+     "label": "The mode becomes a mean"
+    },
+    {
+     "id": "c",
+     "label": "The estimated mode can change with the bar width"
+    },
+    {
+     "id": "d",
+     "label": "The histogram gains extra peaks that are real"
+    }
+   ],
+   "answer": "c",
+   "explain": "The mode is where the histogram peaks, but the outcome is sensitive to interval width if chosen too narrow or too wide.",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ]
+}

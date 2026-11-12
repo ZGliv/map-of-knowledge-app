@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "A root of a polynomial is an input value that makes its output equal 0, and it is also called a zero.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Solving an equation is the same as finding zeros: regroup every term on the left so it reads f(x) = 0, and the solutions are the zeros of f.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "text": "Counting complex roots with their multiplicities, a polynomial has as many roots as its degree.",
+   "cites": [
+    5,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Graph meaning",
+   "value": "Real zeros are x-coordinates where the graph meets the x-axis",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Example roots",
+   "value": "f(x) = x² − 5 x + 6 has roots 2 and 3",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Root count",
+   "value": "At most the degree; equal when complex roots are counted",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Conjugate pairs",
+   "value": "Non-real roots of real-coefficient polynomials come in conjugate pairs",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Degree four or less",
+   "value": "All roots can be written algebraically in the coefficients",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Why must a real polynomial of odd degree cross the x-axis at least once?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its graph is continuous and changes sign, so it must pass through 0"
+    },
+    {
+     "id": "b",
+     "label": "Its graph always has a sharp corner at the axis"
+    },
+    {
+     "id": "c",
+     "label": "Odd numbers always have a value of 0 somewhere"
+    },
+    {
+     "id": "d",
+     "label": "Its coefficients must add up to zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "Polynomials are continuous, so a graph changing from negative to positive, which always happens with odd degree, must cross zero.",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "A function’s graph meets the x-axis at x = 2 and at x = 5. What do those two x-values have in common?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The graph is at its highest there"
+    },
+    {
+     "id": "b",
+     "label": "The function’s output is 0 at each"
+    },
+    {
+     "id": "c",
+     "label": "They are the coefficients of the function"
+    },
+    {
+     "id": "d",
+     "label": "The function is not continuous there"
+    }
+   ],
+   "answer": "b",
+   "explain": "Where a real function’s graph meets the x-axis, the function attains the value 0.",
+   "cites": [
+    1,
+    7
+   ]
+  },
+  {
+   "prompt": "You want to solve x² = 9 − 2x. How can you turn it into a root question?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Square both sides until x disappears"
+    },
+    {
+     "id": "b",
+     "label": "Replace x with 0 and compare the sides"
+    },
+    {
+     "id": "c",
+     "label": "Move every term to one side so it reads (something) = 0"
+    },
+    {
+     "id": "d",
+     "label": "Divide both sides by x and drop what is left"
+    }
+   ],
+   "answer": "c",
+   "explain": "Any equation can be rewritten as f(x) = 0 by regrouping all terms on the left, and its solutions are then the zeros of f.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "A polynomial with real coefficients has a root that is not real. What must be true of its other roots?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every other root is real"
+    },
+    {
+     "id": "b",
+     "label": "Its conjugate is also a root, since non-real roots pair up"
+    },
+    {
+     "id": "c",
+     "label": "The root must be repeated an even number of times"
+    },
+    {
+     "id": "d",
+     "label": "The polynomial has degree 1"
+    }
+   ],
+   "answer": "b",
+   "explain": "The non-real roots of polynomials with real coefficients come in conjugate pairs.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "A polynomial of degree n shows fewer than n real roots on its graph. Where can the rest be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They do not exist"
+    },
+    {
+     "id": "b",
+     "label": "They are hidden in the coefficients"
+    },
+    {
+     "id": "c",
+     "label": "Some may be non-real complex roots or repeated roots"
+    },
+    {
+     "id": "d",
+     "label": "The polynomial must have been written wrong"
+    }
+   ],
+   "answer": "c",
+   "explain": "A degree-n polynomial has n complex roots counted with multiplicities, so missing ones are complex or repeated.",
+   "cites": [
+    5,
+    15
+   ]
+  },
+  {
+   "prompt": "A friend claims every real polynomial of even degree must cross the x-axis. Why is that wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Even degree forces exactly two crossings"
+    },
+    {
+     "id": "b",
+     "label": "Even-degree graphs always sit above the axis"
+    },
+    {
+     "id": "c",
+     "label": "Only a degree of 1 can cross"
+    },
+    {
+     "id": "d",
+     "label": "Even-degree ones may have no real roots at all"
+    }
+   ],
+   "answer": "d",
+   "explain": "Real polynomials of odd degree must have a real root, whereas even ones may have none.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ]
+}

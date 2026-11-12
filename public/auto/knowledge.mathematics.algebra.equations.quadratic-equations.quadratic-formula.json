@@ -1,0 +1,338 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula",
+ "name": "Quadratic formula",
+ "summary": [
+  {
+   "text": "The quadratic formula is a closed-form expression that describes the solutions of a quadratic equation.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A quantity called the discriminant, Δ = b² − 4ac, decides whether there are two distinct real roots, one repeated real root, or none.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "The roots are where the parabola crosses the x-axis, and the standard derivation uses completing the square.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discriminant sign",
+   "value": "Δ > 0: two real roots; Δ = 0: one; Δ < 0: none",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Graph meaning",
+   "value": "Roots are the parabola's x-intercepts",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Extra use",
+   "value": "Can also identify the parabola's axis of symmetry",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Standard derivation",
+   "value": "Completing the square on the general equation",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Pitfall",
+   "value": "Subtracting nearly equal numbers loses precision",
+   "cites": [
+    34,
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A parabola dips below the x-axis and crosses it at two points. What do the x-values at the crossings tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the two solutions of the equation"
+    },
+    {
+     "id": "b",
+     "label": "They are the coefficients a and b"
+    },
+    {
+     "id": "c",
+     "label": "They mark the axis of symmetry"
+    },
+    {
+     "id": "d",
+     "label": "They give the discriminant"
+    }
+   ],
+   "answer": "a",
+   "explain": "The roots are the x values where the graph crosses the x-axis.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula:q1"
+  },
+  {
+   "prompt": "For a quadratic with real coefficients, Δ < 0. Does its graph cross the x-axis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, there are no real roots to cross at"
+    },
+    {
+     "id": "b",
+     "label": "Yes, twice"
+    },
+    {
+     "id": "c",
+     "label": "Yes, once"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only on the y-axis"
+    }
+   ],
+   "answer": "a",
+   "explain": "Δ < 0 means no real roots, and the roots are the x-intercepts.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula:q2"
+  },
+  {
+   "prompt": "For a real quadratic, Δ = 0. How many distinct real roots are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two distinct roots"
+    },
+    {
+     "id": "b",
+     "label": "One repeated root"
+    },
+    {
+     "id": "c",
+     "label": "None"
+    },
+    {
+     "id": "d",
+     "label": "Infinitely many"
+    }
+   ],
+   "answer": "b",
+   "explain": "Δ = 0 gives one repeated real root.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula:q3"
+  },
+  {
+   "prompt": "A teacher shows where the formula comes from by turning the general equation into the form (x + k)² = s. Which method is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guessing factor pairs"
+    },
+    {
+     "id": "b",
+     "label": "Plotting the graph"
+    },
+    {
+     "id": "c",
+     "label": "Completing the square"
+    },
+    {
+     "id": "d",
+     "label": "Dividing both sides by x"
+    }
+   ],
+   "answer": "c",
+   "explain": "The standard derivation applies completing the square to the general equation.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula:q4"
+  },
+  {
+   "prompt": "A calculator with 10 digits subtracts two nearly equal numbers. Why is the result less accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The calculator rounds both numbers upward"
+    },
+    {
+     "id": "b",
+     "label": "Subtraction always doubles the error in them"
+    },
+    {
+     "id": "c",
+     "label": "The numbers turn negative before subtracting"
+    },
+    {
+     "id": "d",
+     "label": "Matching leading digits cancel, leaving fewer correct ones"
+    }
+   ],
+   "answer": "d",
+   "explain": "Catastrophic cancellation leaves a difference of lower relative precision.",
+   "cites": [
+    34,
+    35,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula:q5"
+  },
+  {
+   "prompt": "One student uses the quadratic formula and another completes the square on the same equation. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They get the same solutions"
+    },
+    {
+     "id": "b",
+     "label": "Only the formula can give complex roots"
+    },
+    {
+     "id": "c",
+     "label": "Their answers differ by a sign"
+    },
+    {
+     "id": "d",
+     "label": "Only completing the square gives real roots"
+    }
+   ],
+   "answer": "a",
+   "explain": "Other ways of solving, such as completing the square, yield the same solutions.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.equations.quadratic-equations.quadratic-formula:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Roots_of_a_quadratic_function_via_the_quadratic_formula.png/960px-Roots_of_a_quadratic_function_via_the_quadratic_formula.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Quadratic formula",
+  "credit": "Jacob Rus",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Roots_of_a_quadratic_function_via_the_quadratic_formula.png"
+ },
+ "source": {
+  "title": "Quadratic formula",
+  "url": "https://en.wikipedia.org/wiki/Quadratic_formula",
+  "revision": 1382357522
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A formula that hands you the answer",
+    "text": "A quadratic equation has the shape ax² + bx + c = 0, and the quadratic formula writes its solutions out directly as one expression: x = (−b ± √(b² − 4ac))/2a. Other routes, such as completing the square, land on exactly the same solutions.",
+    "cites": [
+     1,
+     2,
+     7,
+     23
+    ]
+   },
+   {
+    "heading": "The discriminant",
+    "text": "The piece under the square root, Δ = b² − 4ac, has its own name: the discriminant. When a, b and c are real numbers, it tells you what kind of answers to expect before you finish. If Δ > 0 there are two different real roots. If Δ = 0 there is a single real root that counts twice. If Δ < 0 there are no real roots at all, but there are two complex roots that are conjugates of each other.",
+    "cites": [
+     3,
+     4,
+     23
+    ]
+   },
+   {
+    "heading": "What the roots look like",
+    "text": "The graph of y = ax² + bx + c is a curve called a parabola. The roots are the x values where that curve crosses the x-axis, its x-intercepts. The same formula can also be used to find the parabola's axis of symmetry.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Where the formula comes from",
+    "text": "The usual way to get the formula is to complete the square on the general equation ax² + bx + c = 0. You reshape it into (x + k)² = s, where k and s are built from the coefficients, take the square root of each side, and then get x on its own. One version of completing the square is very old: the Indian mathematician Śrīdhara, of the 8th to 9th century, knew it. Another route changes the variable so the middle term disappears, leaving u² = s, whose roots are u = ± √s.",
+    "cites": [
+     7,
+     8,
+     19,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "A door to Galois theory",
+    "text": "The formula can also be reached through Lagrange resolvents, an early piece of Galois theory. That approach studies the ways the roots can be rearranged. With two roots there are only two choices, leave them alone or swap them, so the quadratic case is easy. The same idea extends to cubic and quartic equations, but for the quintic it produces a polynomial of degree 24 and does not help, and general quintic solutions cannot be written using roots alone.",
+    "cites": [
+     24,
+     25,
+     29,
+     30,
+     33
+    ]
+   },
+   {
+    "heading": "When a calculator gets it wrong",
+    "text": "Subtracting two numbers that are almost equal causes catastrophic cancellation: their matching leading digits cancel, and the difference keeps less relative precision. With the standard formula, one root comes from an addition and the other from a subtraction, so one result is often less precise than expected. In one worked case, a calculator carrying ten digits gave the second root with only four correct digits. A fix is to use x₁x₂ = c/a to get the second root from the first, and computer programs commonly pick which formula to use for each root from the sign of b.",
+    "cites": [
+     34,
+     35,
+     37,
+     38,
+     40,
+     41,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-2-5",
+   "kind": "book",
+   "title": "2.5 Quadratic Equations",
+   "by": "OpenStax (Jay Abramson et al.)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/2-5-quadratic-equations",
+   "note": "A free textbook section: factoring, completing the square, the quadratic formula and the discriminant, with worked examples."
+  },
+  {
+   "id": "mathworld-quadratic-formula",
+   "kind": "article",
+   "title": "Quadratic Formula",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/QuadraticFormula.html",
+   "note": "A compact reference giving the formula, its alternate form with the square root below, and links onward."
+  },
+  {
+   "id": "3b1b-simpler-quadratic",
+   "kind": "video",
+   "title": "The simpler quadratic formula",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=MHXO86wKeDY",
+   "note": "A 3Blue1Brown lesson on a simpler way to think about and remember the quadratic formula."
+  }
+ ]
+}

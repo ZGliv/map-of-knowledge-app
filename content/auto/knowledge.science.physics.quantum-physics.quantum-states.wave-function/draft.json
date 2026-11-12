@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "A wave function is a mathematical description of the quantum state of an isolated quantum system, usually written with the Greek letters ψ and Ψ.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It assigns a complex number to each point, and the Born rule turns its squared size into the probability of finding a particle at a given place.",
+   "cites": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "text": "The Schrödinger equation sets how wave functions change over time, and its wave-like math explains the name and gives rise to wave-particle duality.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Usual symbol",
+   "value": "The Greek letters ψ and Ψ, lower-case or capital",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Normalization",
+   "value": "The total squared size over all possibilities must equal 1",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Complex-valued",
+   "value": "Each point gets a complex number, not a plain one",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "label": "Position or momentum",
+   "value": "A Fourier transform converts between the two versions",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Spin included",
+   "value": "For electrons and photons it carries spin as a discrete variable",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A wave function assigns a complex number to each point in space. How do you get the chance of finding the particle near a point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Square the size of the complex number at that point"
+    },
+    {
+     "id": "b",
+     "label": "Take the number's real part and add one"
+    },
+    {
+     "id": "c",
+     "label": "Add up the numbers at every nearby point"
+    },
+    {
+     "id": "d",
+     "label": "Read off the number directly as a percentage"
+    }
+   ],
+   "answer": "a",
+   "explain": "The Born rule says the squared modulus of a position wave function is the probability density of finding the particle there.",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "A friend normalizes a wave function and checks that all the squared values over every possibility add up to 2. What went wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since totals can be any size"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, because probabilities may exceed one"
+    },
+    {
+     "id": "c",
+     "label": "The total should be exactly 1, so it is not normalized"
+    },
+    {
+     "id": "d",
+     "label": "The total should be 0, so the function vanishes"
+    }
+   ],
+   "answer": "c",
+   "explain": "The integral of the squared modulus over all degrees of freedom must equal 1, a condition called normalization.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "Why is a wave function called a 'wave' function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It always describes a literal water wave"
+    },
+    {
+     "id": "b",
+     "label": "Its evolution follows an equation mathematically like other wave equations"
+    },
+    {
+     "id": "c",
+     "label": "It measures the height of the sea around particles"
+    },
+    {
+     "id": "d",
+     "label": "It was named after its inventor, a man called Wave"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Schrödinger equation is mathematically akin to those for water waves or waves on a string, which explains the name.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Does the wave function description settle that it is a physical thing, like a water wave?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, it is just a real physical wave in space"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for photons, not electrons"
+    },
+    {
+     "id": "c",
+     "label": "No, it is only a stand-in for temperature"
+    },
+    {
+     "id": "d",
+     "label": "It is still open to different interpretations"
+    }
+   ],
+   "answer": "d",
+   "explain": "Whether the wave function describes a kind of physical phenomenon is still open to different interpretations, unlike classical mechanical waves.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "You have a wave function in terms of position and want one in terms of momentum. What do you use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Fourier transform"
+    },
+    {
+     "id": "b",
+     "label": "A simple unit conversion"
+    },
+    {
+     "id": "c",
+     "label": "A new experiment each time"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, only position is possible"
+    }
+   ],
+   "answer": "a",
+   "explain": "Information in a position wave function can be converted to a momentum one, and vice versa, by a Fourier transform.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "Schrödinger first thought a wave function showed a particle smeared out in space. Why did this fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Particles cannot be found anywhere in space"
+    },
+    {
+     "id": "b",
+     "label": "A wave packet off a target spreads in all directions, unlike a particle"
+    },
+    {
+     "id": "c",
+     "label": "The wave function was too small to measure"
+    },
+    {
+     "id": "d",
+     "label": "It contradicted the speed of light in a vacuum"
+    }
+   ],
+   "answer": "b",
+   "explain": "This view was incompatible with elastic scattering of a wave packet, which spreads out in all directions.",
+   "cites": [
+    30,
+    31
+   ]
+  }
+ ]
+}

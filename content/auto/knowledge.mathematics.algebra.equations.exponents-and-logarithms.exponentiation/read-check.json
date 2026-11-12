@@ -1,0 +1,30 @@
+{
+ "readHash": "6a86b96d89f7979db8481411e16cf7e409827a78",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Base/exponent (1), repeated multiplication (2), superscript (8), power/index (11), result a power (12), readings (13)."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Square area and cube volume naming from 14-15."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Add/multiply exponent rules (17), b^0=1 keeps rule (18-19), b^-n=1/b^n for nonzero b and only such definition (22-23)."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Not commutative 2^3 vs 3^2 (26), not associative 64 vs 512 (27), top-down convention (28-29)."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Decimal powers of 10 with examples (34-35), scientific notation and speed of light (36-37), metric prefixes and kilo (38-39)."
+  },
+  "r5": {
+   "supported": false,
+   "why": "'Even negative powers of 2 have everyday names' drops the source's qualifier: 40 says only the FIRST negative powers of 2 have special names."
+  }
+ }
+}

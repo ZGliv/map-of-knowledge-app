@@ -1,0 +1,117 @@
+{
+ "title": "When one parent is enough",
+ "question": "How can a plant reproduce with only one parent, and what does that cost?",
+ "hook": "A clipping from a spider plant can grow into a whole new plant with no partner needed.",
+ "idea": "Asexual reproduction makes clones of a single parent, while sexual reproduction mixes gametes into genetically different offspring.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You root a cutting from a spider plant. How will the new plant compare with its parent?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It will be genetically identical to the parent"
+    },
+    {
+     "id": "b",
+     "label": "It will be a mix of the parent and a second plant",
+     "feedback": "Mixing happens when gametes fuse, but a cutting involves only one parent and no gamete fusion."
+    },
+    {
+     "id": "c",
+     "label": "It will differ from the parent in many traits",
+     "feedback": "Different offspring come from sexual reproduction; a cutting is a clone of its one parent."
+    }
+   ],
+   "answer": "a",
+   "explain": "A cutting produces a new individual without gametes fusing, so it is a clone, genetically identical to the parent.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each plant to the part it uses to reproduce vegetatively",
+   "pairs": [
+    [
+     "Strawberry",
+     "Runner (stolon)"
+    ],
+    [
+     "Onion",
+     "Underground bulb"
+    ],
+    [
+     "Potato",
+     "Tuber"
+    ],
+    [
+     "Crocus",
+     "Corm"
+    ]
+   ],
+   "explain": "Each of these plants makes new individuals from a modified underground or trailing part of the parent.",
+   "cites": [
+    28,
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each statement into the kind of reproduction it describes",
+   "groups": [
+    "Sexual",
+    "Asexual"
+   ],
+   "items": [
+    [
+     "Offspring differ genetically from either parent",
+     "Sexual"
+    ],
+    [
+     "Gametes fuse to make the offspring",
+     "Sexual"
+    ],
+    [
+     "Only one parent is involved",
+     "Asexual"
+    ],
+    [
+     "Male and female gametes are not made and joined",
+     "Asexual"
+    ],
+    [
+     "Offspring inherit the parent's characteristics",
+     "Asexual"
+    ]
+   ],
+   "explain": "Sexual reproduction fuses gametes and gives different offspring; asexual reproduction uses one parent and passes its characteristics on.",
+   "cites": [
+    2,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A gardener roots cuttings from one prized plant.",
+    "A cutting is vegetative reproduction, so no gametes fuse.",
+    "So each new plant will differ genetically from the parent.",
+    "If the parent carried a disease, the new plants may inherit it."
+   ],
+   "wrong": 2,
+   "explain": "With no gametes fusing, the new plants are clones, genetically identical to the parent, which is also why a disease can pass on.",
+   "cites": [
+    3,
+    21
+   ]
+  }
+ ]
+}

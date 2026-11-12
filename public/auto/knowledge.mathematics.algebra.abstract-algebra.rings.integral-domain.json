@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain",
+ "name": "Integral domain",
+ "summary": [
+  {
+   "text": "An integral domain is a nonzero commutative ring in which the product of any two nonzero elements is nonzero.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In one, if a ≠ 0, then ab = ac implies b = c, so a nonzero factor can be cancelled.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Integral domains generalize the ring of integers and give a setting that is useful for studying divisibility.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Same idea, other words",
+   "value": "A nonzero commutative ring with no nonzero zero divisors",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Lives inside a field",
+   "value": "Every integral domain is a subring of some field",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Polynomial example",
+   "value": "The ring ℤ[x] of polynomials with integer coefficients is one",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Another name",
+   "value": "Some sources, notably Lang, call it an entire ring",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Domain versus integral domain",
+   "value": "\"Domain\" also allows noncommutative rings",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a ring of pairs multiplied entry by entry, (1, 0)⋅(0, 1) = (0, 0). Both factors are nonzero. What does this show about the ring?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is an integral domain, since the pairs commute"
+    },
+    {
+     "id": "b",
+     "label": "It is a field, since both entries are invertible"
+    },
+    {
+     "id": "c",
+     "label": "It is an integral domain, since the product is zero"
+    },
+    {
+     "id": "d",
+     "label": "It is not an integral domain, since nonzero factors gave zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "In an integral domain the product of two nonzero elements is nonzero. A product of two nonzero commutative rings breaks this, as the pair example shows.",
+   "cites": [
+    1,
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain:q1"
+  },
+  {
+   "prompt": "In an integral domain you know that a ≠ 0 and that ab = ac. What can you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "b = c"
+    },
+    {
+     "id": "b",
+     "label": "a is 1"
+    },
+    {
+     "id": "c",
+     "label": "b and c are both zero"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since cancelling is never allowed"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every nonzero element of an integral domain has the cancellation property: ab = ac forces b = c.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain:q2"
+  },
+  {
+   "prompt": "Two nonzero matrices M and N are chosen so that everything N produces is sent to zero by M. What is the product MN, and what does it say about rings of n × n matrices with n ≥ 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "MN is nonzero, so matrix rings are integral domains"
+    },
+    {
+     "id": "b",
+     "label": "MN is zero, so nonzero elements can multiply to zero"
+    },
+    {
+     "id": "c",
+     "label": "MN is nonzero, so matrix rings are fields"
+    },
+    {
+     "id": "d",
+     "label": "MN is zero, so M and N must both be zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "When the image of N sits inside the kernel of M, MN = 0, so such matrix rings have nonzero elements whose product is zero and are not integral domains.",
+   "cites": [
+    1,
+    34,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain:q3"
+  },
+  {
+   "prompt": "You build polynomials whose coefficients come from an integral domain. What can you say about the ring of those polynomials?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is an integral domain too"
+    },
+    {
+     "id": "b",
+     "label": "It is never commutative"
+    },
+    {
+     "id": "c",
+     "label": "It is an integral domain only for one variable"
+    },
+    {
+     "id": "d",
+     "label": "It is always a field"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rings of polynomials are integral domains if the coefficients come from an integral domain; this covers integer coefficients and complex coefficients in several variables.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain:q4"
+  },
+  {
+   "prompt": "You are handed an integral domain and want to place it inside a larger, friendlier structure. What can always hold a copy of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A matrix ring"
+    },
+    {
+     "id": "b",
+     "label": "A zero ring"
+    },
+    {
+     "id": "c",
+     "label": "A field"
+    },
+    {
+     "id": "d",
+     "label": "A ring with zero divisors"
+    }
+   ],
+   "answer": "c",
+   "explain": "An integral domain is a ring isomorphic to a subring of a field, and it can be embedded in its field of fractions.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain:q5"
+  },
+  {
+   "prompt": "A writer studies a ring where multiplication is not commutative, yet two nonzero elements never multiply to zero. Under the usual convention, what name fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An integral domain"
+    },
+    {
+     "id": "b",
+     "label": "An entire field"
+    },
+    {
+     "id": "c",
+     "label": "A zero ring"
+    },
+    {
+     "id": "d",
+     "label": "A domain"
+    }
+   ],
+   "answer": "d",
+   "explain": "The term integral domain is reserved for the commutative case, while domain covers the general case including noncommutative rings.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.rings.integral-domain:q6"
+  }
+ ],
+ "source": {
+  "title": "Integral domain",
+  "url": "https://en.wikipedia.org/wiki/Integral_domain",
+  "revision": 1364151664
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "No zero from nonzero",
+    "text": "An integral domain is a commutative ring, other than the zero ring, in which multiplying two nonzero elements never gives zero. Integral domains generalize the ring of integers and give a useful setting for studying divisibility. In a ring R, a divides b when ax = b for some x in R. The units are the elements that divide 1, and these are exactly the invertible elements.",
+    "cites": [
+     1,
+     3,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Several equal definitions",
+    "text": "There are several ways to say the same thing. An integral domain is a commutative ring, not the zero ring, without nonzero zero divisors. Equivalently, every nonzero element can be cancelled: if a ≠ 0 and ab = ac, then b = c. Another version asks that for each nonzero r, the map sending x to xr be injective; elements with this property are called regular. Finally, an integral domain is a ring isomorphic to a subring of a field, and each one can be embedded in its field of fractions.",
+    "cites": [
+     2,
+     9,
+     10,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Some variation in words",
+    "text": "The definition is almost the same everywhere, but not quite. Some authors do not require an integral domain to have a multiplicative identity. Noncommutative versions are sometimes allowed, though the much more usual habit keeps \"integral domain\" for the commutative case and says \"domain\" when noncommutative rings are included. Some sources, Lang in particular, say entire ring instead.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Examples",
+    "text": "Polynomial rings are integral domains when their coefficients come from one. So ℤ[x], the polynomials in one variable with integer coefficients, qualifies, as does ℂ[x₁, …, xₙ]. Formal power series over an integral domain form one too. So do the holomorphic functions on a connected open subset of the complex plane, and every regular local ring. For any integer n that is not a square, the ring ℤ[√n] is an integral domain.",
+    "cites": [
+     15,
+     16,
+     20,
+     22,
+     23,
+     25
+    ]
+   },
+   {
+    "heading": "Rings that fail",
+    "text": "Several familiar rings are not integral domains. In ℤ/mℤ with m composite, write m = xy with neither factor equal to 1 or m; then x and y are nonzero, yet xy is 0. In a product of two nonzero commutative rings, (1, 0)⋅(0, 1) = (0, 0). Square matrices of size 2 or more fail as well: if the image of N lies inside the kernel of M, then MN = 0.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     31,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "A link to geometry",
+    "text": "Taking quotients by prime ideals gives more examples. The quotient ℂ[x, y]/(y² − x(x − 1)(x − 2)), which corresponds to a plane elliptic curve, is an integral domain, and this can be checked by showing that y² − x(x − 1)(x − 2) is irreducible. By contrast, for a field k and non-constant polynomials f and g, the quotient by (fg) is not one, because the images of f and g are nonzero but multiply to 0. Geometrically, this means the zeros of fg generally form an algebraic set that is not irreducible.",
+    "cites": [
+     17,
+     18,
+     19,
+     36,
+     37,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-18",
+   "kind": "book",
+   "title": "18: Integral Domains",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/18%3A_Integral_Domains",
+   "note": "A free textbook chapter on integral domains: fields of fractions and factorization into irreducibles.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

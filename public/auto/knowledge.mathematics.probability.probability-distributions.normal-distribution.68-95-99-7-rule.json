@@ -1,0 +1,293 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule",
+ "name": "68-95-99.7 rule",
+ "summary": [
+  {
+   "text": "The 68–95–99.7 rule says that in a normal distribution about 68%, 95% and 99.7% of values lie within one, two and three standard deviations of the mean.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It depends on the data genuinely being normal: distributions with fatter tails would give lower percentages at all three distances.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It is used for quick rough probability estimates, as a simple test for outliers, and as a normality test.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Also called the empirical rule or the 3-sigma rule",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "label": "Physics standard",
+   "value": "Particle physics requires a five-sigma effect for a discovery",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Social sciences",
+   "value": "A two-sigma effect (95%) may count as significant",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Six sigma",
+   "value": "A 6σ event has a chance of about two parts per billion",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Weaker guarantee",
+   "value": "Even non-normal variables: at least 88.8% within three sigma",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A school's test scores are normally distributed. Roughly what share of the 1,000 students should land within two standard deviations of the average?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 680"
+    },
+    {
+     "id": "b",
+     "label": "About 950"
+    },
+    {
+     "id": "c",
+     "label": "About 997"
+    },
+    {
+     "id": "d",
+     "label": "About 500"
+    }
+   ],
+   "answer": "b",
+   "explain": "About 95% of values lie within two standard deviations of the mean.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule:q1"
+  },
+  {
+   "prompt": "In a sample of 1,000 values assumed normal, you spot several that sit four standard deviations from the mean. What is the sensible reaction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Treat it as ordinary, since four sigma happens often"
+    },
+    {
+     "id": "b",
+     "label": "Question the normality assumption or suspect outliers"
+    },
+    {
+     "id": "c",
+     "label": "Conclude the mean was computed with the wrong sign"
+    },
+    {
+     "id": "d",
+     "label": "Delete the whole sample and begin a new one"
+    }
+   ],
+   "answer": "b",
+   "explain": "Multiple 4 standard deviation moves in a sample of 1,000 are strong reason to consider outliers or question normality.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule:q3"
+  },
+  {
+   "prompt": "An analyst applies the 68–95–99.7 rule to a column of numbers without checking their shape. What is the main danger?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rule only works when the numbers are whole"
+    },
+    {
+     "id": "b",
+     "label": "The rule only works for samples smaller than 100"
+    },
+    {
+     "id": "c",
+     "label": "The rule depends on the data truly being normal"
+    },
+    {
+     "id": "d",
+     "label": "The rule only works for data centered on zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "The heuristic depends especially on the data genuinely being normally distributed.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule:q4"
+  },
+  {
+   "prompt": "One field treats a two-sigma result as clear enough to examine closely, while another demands five sigma before calling something a discovery. Which is stricter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Social sciences, which demand five sigma"
+    },
+    {
+     "id": "b",
+     "label": "Both are equally strict, as sigma levels match"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since sigma levels do not measure strictness"
+    },
+    {
+     "id": "d",
+     "label": "Particle physics, which demands five sigma"
+    }
+   ],
+   "answer": "d",
+   "explain": "Particle physics requires a five-sigma effect for a discovery, while the social sciences may accept about two sigma.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule:q5"
+  },
+  {
+   "prompt": "Under a normal model, a 6σ move in daily data is expected about once in 1.4 million years. You see one after only a few years of data. What does that suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The normal model probably fits the large deviations poorly"
+    },
+    {
+     "id": "b",
+     "label": "The normal model is confirmed beyond doubt"
+    },
+    {
+     "id": "c",
+     "label": "The data must contain a typing error in every case"
+    },
+    {
+     "id": "d",
+     "label": "Days are not long enough to measure sigma"
+    }
+   ],
+   "answer": "a",
+   "explain": "Seeing a 6σ event in significantly fewer than a million years of daily data suggests a normal distribution is a poor model for large deviations.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.68-95-99-7-rule:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Empirical_rule_histogram.svg/960px-Empirical_rule_histogram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "68-95-99.7 rule",
+  "credit": "Melikamp",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Empirical_rule_histogram.svg"
+ },
+ "source": {
+  "title": "68–95–99.7 rule",
+  "url": "https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule",
+  "revision": 1368634618
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Three numbers to remember",
+    "text": "The 68–95–99.7 rule, also called the empirical rule, is a memory aid for the normal distribution. It says that roughly 68% of values sit within one standard deviation of the mean, about 95% within two, and about 99.7% within three. The three percentages come straight from the cumulative distribution function of the normal distribution.",
+    "cites": [
+     1,
+     9
+    ]
+   },
+   {
+    "heading": "It only fits truly normal data",
+    "text": "How useful the rule is depends on the question being asked and on how the data were gathered. Above all, the data must really be normally distributed. Many bell-shaped distributions turn up in real data, and the normal one has unusually thin tails, with its probability packed near the centre. If the data instead follow a look-alike distribution with fatter tails, where probability is more spread out, a deviation of one, two or three standard deviations from the mean would carry less significance in every case.",
+    "cites": [
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Sigma levels in science",
+    "text": "Across the empirical sciences there is a rule of thumb, the three-sigma rule, that treats almost every value as lying within three standard deviations of the mean, so 99.7% is treated as near certainty. Standards differ by field. In the social sciences, a result at about the two-sigma level, or 95%, may count as statistically significant, meaning clear enough to look into further. In particle physics, a discovery by convention needs a five-sigma effect, or 99.99994% confidence.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Guarantees for other shapes",
+    "text": "Even when data are not normal, weaker promises still hold. Chebyshev's inequality guarantees that at least 88.8% of cases fall inside properly calculated three-sigma intervals. For distributions with a single peak, the Vysochanskij–Petunin inequality raises that floor to 95%. Certain extra assumptions about a distribution can push it to at least 98%.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Putting it to work",
+    "text": "The rule gives a quick, rough estimate of a probability from a standard deviation, assuming the population is normal. It also serves as a simple check for outliers when normality is assumed, and as a test of normality when it is in doubt. To use it, you first find how far a data point is from the mean, then divide by the standard deviation, a step called standardizing when the true values are known and studentizing when they are only estimated. You then compare how often deviations of each size occur with how often the rule expects them.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "When a six-sigma day happens",
+    "text": "Seeing several moves of 4 standard deviations in a sample of 1,000 is strong reason to call them outliers or to doubt that the data are normal. A 6σ event has a chance of about two parts per billion; for something measured once a day, you would expect one every 1.4 million years. So if a daily series shows a 6σ move after far fewer than a million years, a normal model is probably wrong about the size or frequency of its big swings.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-1",
+   "kind": "book",
+   "title": "6.1 The Standard Normal Distribution",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-1-the-standard-normal-distribution",
+   "note": "Free textbook section on z-scores that states the empirical rule with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-689599",
+   "kind": "article",
+   "title": "68-95-99.7 Rule",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/68-95-997Rule.html",
+   "note": "A short reference entry giving the rule and the exact percentages behind it."
+  }
+ ]
+}

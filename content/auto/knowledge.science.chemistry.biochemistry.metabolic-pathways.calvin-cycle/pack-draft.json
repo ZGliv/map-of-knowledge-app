@@ -1,0 +1,109 @@
+{
+ "title": "Dark reactions that need light",
+ "question": "Why does the Calvin cycle, nicknamed the dark reaction, depend on light?",
+ "hook": "A reaction nicknamed dark still waits on products made in the light.",
+ "idea": "The Calvin cycle uses ATP and NADPH from the light-dependent reactions to turn carbon dioxide into sugars, so it runs when light is available.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Three carbon dioxide molecules go through the cycle and make six G3P molecules. How much does the cell keep as a net gain?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "All six G3P",
+     "feedback": "Most of the six are needed to rebuild the starting compound."
+    },
+    {
+     "id": "b",
+     "label": "One G3P",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "Three G3P, one for each carbon dioxide",
+     "feedback": "Each carbon dioxide yields two G3P, and most are recycled."
+    }
+   ],
+   "answer": "b",
+   "explain": "Five of the six G3P regenerate RuBP, leaving a net gain of one G3P per three CO₂.",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps of RuBP regeneration in order.",
+   "items": [
+    "Triose phosphate isomerase turns one G3P into DHAP",
+    "Aldolase and fructose-1,6-bisphosphatase join G3P and DHAP into fructose 6-phosphate",
+    "Transketolase removes two carbons from F6P, giving E4P",
+    "Phosphoribulokinase turns RuP into RuBP, completing the cycle"
+   ],
+   "ends": [
+    "Start",
+    "End"
+   ],
+   "explain": "Regeneration starts with G3P becoming DHAP, then F6P forms and loses two carbons as E4P, and finally RuP is phosphorylated into RuBP.",
+   "cites": [
+    32,
+    33,
+    34,
+    36,
+    43
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Which stage does each description belong to?",
+   "groups": [
+    "Light-dependent reactions",
+    "Calvin cycle"
+   ],
+   "items": [
+    [
+     "Captures the energy of light",
+     "Light-dependent reactions"
+    ],
+    [
+     "Makes ATP and NADPH",
+     "Light-dependent reactions"
+    ],
+    [
+     "Uses ATP and NADPH",
+     "Calvin cycle"
+    ],
+    [
+     "Carbon fixation",
+     "Calvin cycle"
+    ],
+    [
+     "Converts carbon dioxide into organic compounds",
+     "Calvin cycle"
+    ]
+   ],
+   "explain": "The first stage captures light to make ATP and NADPH; the Calvin cycle uses those compounds to convert carbon dioxide into organic compounds.",
+   "cites": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "In the first stage, light-dependent reactions make ATP and NADPH.",
+    "The Calvin cycle uses those compounds to turn carbon dioxide into sugars.",
+    "Because of the name dark reaction, the cycle can run all night on leftover NADPH.",
+    "In the dark, plants instead release sucrose into the phloem from starch reserves."
+   ],
+   "wrong": 2,
+   "explain": "NADPH is short-lived and comes from the light-dependent reactions, so the cycle does not occur in the dark.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  }
+ ]
+}

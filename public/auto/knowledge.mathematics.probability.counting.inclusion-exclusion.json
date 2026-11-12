@@ -1,0 +1,546 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.inclusion-exclusion",
+ "name": "Inclusion-exclusion",
+ "summary": [
+  {
+   "text": "Inclusion–exclusion is a way to count the elements in a union of finite sets so that no element is counted twice.",
+   "cites": [
+    1,
+    2,
+    14
+   ]
+  },
+  {
+   "text": "You add the sizes of the individual sets, subtract the elements that appear in at least two, add back those in at least three, and keep alternating.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "text": "Because finite probabilities are counts relative to the size of the probability space, the same formulas work with probabilities in place of counts.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Credited to",
+   "value": "Abraham de Moivre in 1718, first appearing in da Silva's 1854 paper",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "The formula of Da Silva or Sylvester, and the sieve formula",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "label": "Why the name",
+   "value": "Over-generous inclusion followed by compensating exclusion",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Shuffled deck result",
+   "value": "Getting every card wrong has chance about 37%",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Works with probabilities",
+   "value": "Finite probabilities can replace set sizes in the formulas",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A school has 10 players on the soccer team and 7 in the chess club, and 4 students do both. How many different students are in at least one of the two?",
+   "options": [
+    {
+     "id": "a",
+     "label": "17, by adding the two group sizes"
+    },
+    {
+     "id": "b",
+     "label": "6, by subtracting the overlap from the smaller group"
+    },
+    {
+     "id": "c",
+     "label": "13, by adding then removing the double count"
+    },
+    {
+     "id": "d",
+     "label": "3, by subtracting the two group sizes"
+    }
+   ],
+   "answer": "c",
+   "explain": "Adding the sizes counts the 4 students in both groups twice, so the size of the overlap is subtracted once: 10 + 7 - 4.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion:q1"
+  },
+  {
+   "prompt": "Two book clubs each report their member count. When does adding those two counts give a total that is too large?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When some people belong to both clubs"
+    },
+    {
+     "id": "b",
+     "label": "When the two clubs have different sizes"
+    },
+    {
+     "id": "c",
+     "label": "When nobody belongs to both clubs"
+    },
+    {
+     "id": "d",
+     "label": "When one club has just a few members"
+    }
+   ],
+   "answer": "a",
+   "explain": "People in both clubs are counted twice in the sum, so the count is corrected by subtracting the size of the overlap.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion:q2"
+  },
+  {
+   "prompt": "With three clubs, you add the three club sizes, then subtract every two-club overlap. A student who is in all three clubs is now handled how?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Counted exactly right, so nothing more is needed"
+    },
+    {
+     "id": "b",
+     "label": "Not yet counted enough, so the count must go up further"
+    },
+    {
+     "id": "c",
+     "label": "Counted too many times, so they must be removed again"
+    },
+    {
+     "id": "d",
+     "label": "Taken out too often, so they must be added back in"
+    }
+   ],
+   "answer": "d",
+   "explain": "The three-way overlap has been subtracted too often, so it has to be added back to get the correct total.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion:q3"
+  },
+  {
+   "prompt": "Someone guesses the full order of a shuffled deck of cards. About how likely is it that every single guess is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 63%"
+    },
+    {
+     "id": "b",
+     "label": "About 37%"
+    },
+    {
+     "id": "c",
+     "label": "About 50%"
+    },
+    {
+     "id": "d",
+     "label": "About 1%"
+    }
+   ],
+   "answer": "b",
+   "explain": "Inclusion–exclusion gives a probability of being wrong about every card of approximately e⁻¹, or 37%.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion:q4"
+  },
+  {
+   "prompt": "On a weekend, rain has a 0.3 chance on Saturday, a 0.4 chance on Sunday, and a 0.1 chance of falling on both days. What is the chance of rain on at least one of the days?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.7, by adding the two chances"
+    },
+    {
+     "id": "b",
+     "label": "0.12, by multiplying the two chances"
+    },
+    {
+     "id": "c",
+     "label": "0.6, by correcting for the double count"
+    },
+    {
+     "id": "d",
+     "label": "0.1, the chance of both days"
+    }
+   ],
+   "answer": "c",
+   "explain": "The formulas stay valid with finite probabilities in place of sizes, so you add 0.3 and 0.4 and subtract the 0.1 that was counted twice.",
+   "cites": [
+    1,
+    2,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion:q5"
+  },
+  {
+   "prompt": "A jar holds 30 coins and you want to know how many have neither a scratch nor a dent. How does inclusion–exclusion help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add the scratched and dented counts to get the answer"
+    },
+    {
+     "id": "b",
+     "label": "It only works if no coin has both a scratch and a dent"
+    },
+    {
+     "id": "c",
+     "label": "Multiply the scratched count by the dented count"
+    },
+    {
+     "id": "d",
+     "label": "Start with all 30, subtract each count, add back coins with both"
+    }
+   ],
+   "answer": "d",
+   "explain": "The complementary form counts elements with none of the properties: take the whole set, subtract the sizes of the property subsets, add back overlaps, and so on.",
+   "cites": [
+    14,
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.counting.inclusion-exclusion:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg/960px-%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Inclusion-exclusion",
+  "credit": "SilverStar at English Wikipedia",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg"
+ },
+ "source": {
+  "title": "Inclusion–exclusion principle",
+  "url": "https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle",
+  "revision": 1382313055
+ },
+ "pack": {
+  "id": "auto-counting-inclusion-exclusion",
+  "title": "Count it once, not twice",
+  "question": "How can you count a union of sets without counting anyone twice?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Counting",
+   "Inclusion-exclusion"
+  ],
+  "hue": 43,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg/960px-%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Inclusion-exclusion",
+    "credit": "SilverStar at English Wikipedia · CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B5%D0%BD%D0%BE%D0%B2_%D0%B4%D0%B8%D1%98%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.svg",
+    "license": "CC BY 2.5"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Count it once, not twice",
+    "hook": "Two clubs share some members, so adding their rosters gives a number that is too big."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-counting-inclusion-exclusion:1",
+    "transfer": false,
+    "prompt": "A class has 12 students in choir and 9 in band, and 5 are in both. How many students are in at least one of the two?",
+    "explain": "The sum of the sizes is too large because those in both groups are counted twice, so you subtract the overlap once: 12 + 9 - 5 = 16.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "7",
+        "feedback": "This is only the choir members not also in band (12 - 5); it leaves out everyone who is in band."
+       },
+       {
+        "id": "b",
+        "label": "16"
+       },
+       {
+        "id": "a",
+        "label": "21",
+        "feedback": "This just adds the two headcounts, which counts the 5 students in both groups twice."
+       },
+       {
+        "id": "c",
+        "label": "14",
+        "feedback": "This does not come from correcting the double count: the fix is to subtract the overlap once from the sum of the two sizes, which gives 16."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-counting-inclusion-exclusion:2",
+    "transfer": false,
+    "prompt": "Put the steps of the counting recipe in order for a union of many sets.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Add up the sizes of the individual sets"
+     },
+     {
+      "id": "b",
+      "label": "Subtract the number of elements in at least two sets"
+     },
+     {
+      "id": "c",
+      "label": "Add back the number in at least three sets"
+     },
+     {
+      "id": "d",
+      "label": "Subtract the number in at least four sets"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "First step",
+     "Later step"
+    ],
+    "explain": "The recipe starts with the sum of the sizes, then alternately subtracts and adds back elements that appear in more and more sets."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-counting-inclusion-exclusion:3",
+    "transfer": true,
+    "prompt": "Match each overlap to what you do with it.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Elements in two sets"
+     },
+     {
+      "id": "l1",
+      "label": "Elements in all three of three sets"
+     },
+     {
+      "id": "l2",
+      "label": "Quadruple-wise intersections"
+     },
+     {
+      "id": "l3",
+      "label": "Quintuple-wise intersections"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Include them"
+     },
+     {
+      "id": "r2",
+      "label": "Exclude them"
+     },
+     {
+      "id": "r1",
+      "label": "Add back, since they were subtracted too often"
+     },
+     {
+      "id": "r0",
+      "label": "Subtract the size of the intersection"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The overlaps are handled in alternating fashion: excluded, then included, and so on, as the intersections involve more sets."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-counting-inclusion-exclusion:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about two overlapping sets is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Add the size of set A to the size of set B."
+     },
+     {
+      "id": "b",
+      "text": "Elements in both sets were counted twice in that sum."
+     },
+     {
+      "id": "c",
+      "text": "So fix this by subtracting the size of the combined union."
+     },
+     {
+      "id": "d",
+      "text": "The corrected total counts each element exactly once."
+     }
+    ],
+    "answer": "c",
+    "explain": "The double-counted elements are those in the intersection, so the correction is to subtract the size of the intersection, not the union."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Add the set sizes, then alternately subtract and add back the overlaps until the biggest overlap has been handled.",
+    "connections": [
+     {
+      "title": "Möbius function",
+      "place": "Inclusion-exclusion",
+      "node": "knowledge.mathematics.probability.counting.inclusion-exclusion.m-bius-function"
+     },
+     {
+      "title": "Bonferroni inequalities",
+      "place": "Inclusion-exclusion",
+      "node": "knowledge.mathematics.probability.counting.inclusion-exclusion.bonferroni-inequalities"
+     },
+     {
+      "title": "Boole's inequality",
+      "place": "Inclusion-exclusion",
+      "node": "knowledge.mathematics.probability.counting.inclusion-exclusion.boole-s-inequality"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The sum of the sizes is too large because those in both groups are counted twice, so you subtract the overlap once: 12 + 9 - 5 = 16.",
+    "source": "Wikipedia sentences 1, 2"
+   },
+   {
+    "claim": "The recipe starts with the sum of the sizes, then alternately subtracts and adds back elements that appear in more and more sets.",
+    "source": "Wikipedia sentences 14"
+   },
+   {
+    "claim": "The overlaps are handled in alternating fashion: excluded, then included, and so on, as the intersections involve more sets.",
+    "source": "Wikipedia sentences 2, 3, 4, 5, 14"
+   },
+   {
+    "claim": "The double-counted elements are those in the intersection, so the correction is to subtract the size of the intersection, not the union.",
+    "source": "Wikipedia sentences 2"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Fixing a double count",
+    "text": "Inclusion–exclusion is a way to count the elements in a union of finite sets. If you just add the sizes of two sets, the total may be too big, because some elements get counted twice. Those are the elements in the intersection, the part the two sets share, so you correct the count by subtracting the size of the intersection. The name describes the method: include generously first, then exclude to make up for it.",
+    "cites": [
+     1,
+     2,
+     6,
+     14
+    ]
+   },
+   {
+    "heading": "Many sets at once",
+    "text": "With more sets, the steps take turns. Add the sizes of the single sets, take away the elements in at least two sets, add back those in at least three, take away those in at least four, and keep going. The process always ends, because no element can lie in more sets than there are. With 4 sets, for example, nothing can be in 5 of them.",
+    "cites": [
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Other ways to use it",
+    "text": "Finite probabilities are counts measured against the size of the probability space, so the formulas still hold with probabilities in place of set sizes. A variant answers a different question: given a list of properties that elements may or may not have, how many elements have none of them? You let each set hold the elements with one property and apply the principle in its complementary form. Seen this way, it is an example of the sieve method from number theory and is sometimes called the sieve formula.",
+    "cites": [
+     9,
+     10,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Stopping early",
+    "text": "You do not always need every step. If you keep only the first m sums, with m smaller than n, you get an overestimate when m is odd and an underestimate when m is even. These alternating upper and lower bounds are the Bonferroni inequalities. They help when the full formula is too cumbersome.",
+    "cites": [
+     18,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "The shuffled deck",
+    "text": "One example uses a deck of n cards numbered 1 to n, where card m counts as correctly placed when it sits mth in the deck. How many shuffles leave at least one card correctly placed? The number of shuffles with at least p cards in place depends only on p, not on which cards they are. A shuffle with no card correctly placed is called a derangement. The chance of guessing the order of a shuffled deck and being wrong about every card works out to about e⁻¹, or 37%.",
+    "cites": [
+     19,
+     20,
+     21,
+     23,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Derangements and history",
+    "text": "Counting all derangements of a finite set is a well-known use of the principle. For a set of n elements, it shows the number of derangements is [n! / e], where [x] means the nearest integer to x. The principle is credited to Abraham de Moivre in 1718, though it first appears in a paper by Daniel da Silva in 1854. Because of such papers it is sometimes called the formula of Da Silva or Sylvester.",
+    "cites": [
+     7,
+     8,
+     43,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "guichard-inclusion-exclusion",
+   "kind": "book",
+   "title": "2: Inclusion-Exclusion - Combinatorics and Graph Theory (Guichard)",
+   "by": "David Guichard",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_and_Graph_Theory_(Guichard)/02%3A_Inclusion-Exclusion",
+   "note": "A free combinatorics chapter on the inclusion-exclusion principle and its uses.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "bogart-inclusion-exclusion",
+   "kind": "book",
+   "title": "5: The Principle of Inclusion and Exclusion - Combinatorics Through Guided Discovery (Bogart)",
+   "by": "Kenneth Bogart",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_Through_Guided_Discovery_(Bogart)/05%3A_The_Principle_of_Inclusion_and_Exclusion",
+   "note": "A free guided-discovery chapter that builds up inclusion-exclusion through problems you work yourself.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

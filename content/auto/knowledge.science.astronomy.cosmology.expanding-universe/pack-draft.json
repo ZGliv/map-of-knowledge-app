@@ -1,0 +1,98 @@
+{
+ "title": "Everything Moving Apart",
+ "question": "What does it mean that the universe is expanding?",
+ "hook": "From any galaxy, nearly everything else seems to run away.",
+ "idea": "Distances between unbound parts of the universe grow, and there is no outside to expand into.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You measure two distant galaxies. One is twice as far from you as the other. How do their speeds of moving away compare, on average?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The farther one moves away about twice as fast"
+    },
+    {
+     "id": "b",
+     "label": "Both move away at the same speed",
+     "feedback": "It is tempting to think speed is a property of each galaxy, but speed grows in proportion to distance."
+    },
+    {
+     "id": "c",
+     "label": "The nearer one moves away faster",
+     "feedback": "That has it backwards: speeds are proportional to distance, so farther means faster."
+    }
+   ],
+   "answer": "a",
+   "explain": "To any observer, galaxies move away at speeds proportional to their distance, on average.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps in discovering the expansion in order.",
+   "items": [
+    "Slipher finds light from remote galaxies redshifted",
+    "Friedmann gives theoretical evidence that the universe expands",
+    "Lemaître proposes a linear distance and velocity relationship",
+    "Hubble firmly establishes the relationship"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Slipher's work came in 1912 to 1914, Friedmann's in 1922, Lemaître's in 1927 and Hubble's in 1929.",
+   "cites": [
+    15,
+    16,
+    21,
+    22
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each scientist to their contribution.",
+   "pairs": [
+    [
+     "Slipher",
+     "Found remote galaxies' light redshifted"
+    ],
+    [
+     "Friedmann",
+     "Used Einstein's equations to show expansion"
+    ],
+    [
+     "Lemaître",
+     "Proposed a linear distance and velocity link"
+    ],
+    [
+     "Baade",
+     "Recalculated the universe's size, doubling it"
+    ]
+   ],
+   "explain": "Each contribution added a piece to the picture of an expanding universe.",
+   "cites": [
+    15,
+    16,
+    21,
+    24
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "The speed-of-light limit applies to local reference frames.",
+    "Distant galaxies can recede at rates that limit does not cover.",
+    "So a galaxy receding faster than light breaks relativity.",
+    "So the limit and the expansion can both hold."
+   ],
+   "wrong": 2,
+   "explain": "The limit does not restrict the recession rates of cosmologically distant objects, so nothing is broken.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

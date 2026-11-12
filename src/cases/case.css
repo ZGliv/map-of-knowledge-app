@@ -1,0 +1,202 @@
+/* A new case, inside the expedition player or a field mission. Scoped to .expedition-shell. */
+.expedition-shell .case { text-align: left; max-width: 560px; margin: 0 auto; }
+.expedition-shell .case__setting { margin: 0 0 6px; font-size: 13.5px; color: var(--accent); }
+.expedition-shell .case__title { margin: 4px 0 10px; font: 400 32px/1.15 var(--serif); color: var(--bright); letter-spacing: -.3px; }
+.expedition-shell .case--mission .case__scenario { font: 400 16.5px/1.55 var(--sans); color: var(--secondary); }
+.expedition-shell .case--mission .case__ask { font: 400 18px/1.4 var(--serif); color: var(--text); }
+.expedition-shell .case__scenario { margin: 0 0 18px; font: 400 21px/1.42 var(--serif); color: var(--text); text-wrap: pretty; }
+.expedition-shell .case__ask { margin: 0 0 14px; font-size: 16px; color: var(--secondary); }
+.expedition-shell .case__picture { margin: 0 0 16px; }
+.expedition-shell .case__picture svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+.expedition-shell .case__options { display: flex; border-bottom: 1px solid var(--rule); gap: 0; margin: 0 0 22px; }
+.expedition-shell .case__options button { flex: 1; padding: 10px 6px 11px; border: 0; background: none; color: var(--muted); font-size: 15px; box-shadow: inset 0 -2px transparent; }
+.expedition-shell .case__options button[aria-checked="true"] { color: var(--bright); box-shadow: inset 0 -2px var(--accent); }
+.expedition-shell .case__options button:disabled:not([aria-checked="true"]) { opacity: .45; }
+.expedition-shell .case__options.is-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); border: 0; gap: 6px; }
+.expedition-shell .case__options.is-grid button { text-align: left; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 3px; box-shadow: none; line-height: 1.3; text-wrap: balance; }
+.expedition-shell .case__options.is-grid button[aria-checked="true"] { border-color: var(--accent); background: var(--accent-soft); }
+
+.expedition-shell .case__set { display: block; margin: 0 0 22px; }
+.expedition-shell .case__set-head { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--muted); }
+.expedition-shell .case__set-head b { color: var(--bright); font-weight: 600; font-variant-numeric: tabular-nums; }
+.expedition-shell .case__set input { width: 100%; margin: 10px 0 4px; accent-color: var(--pale); height: 28px; }
+.expedition-shell .case__set-row { display: flex; align-items: center; gap: 8px; }
+.expedition-shell .case__set-row input { flex: 1 1 auto; width: auto; min-width: 0; }
+.expedition-shell .case__step { flex: none; width: 38px; height: 38px; padding: 0; border: 1px solid var(--rule); border-radius: 50%; background: none; color: var(--secondary); font: 400 20px/1 var(--sans); font-variant-numeric: tabular-nums; }
+.expedition-shell .case__step:hover:not(:disabled) { border-color: var(--line); color: var(--bright); }
+.expedition-shell .case__step:disabled { opacity: .3; }
+.expedition-shell .case__ends { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--faint); }
+.expedition-shell .case__set-row + .case__ends { padding: 0 46px; }
+
+.expedition-shell .case__go { display: flex; justify-content: flex-end; margin: 6px 0 4px; }
+.expedition-shell .case__run { padding: 12px 22px; border: 0; border-radius: 999px; background: var(--pale); color: var(--panel); font-weight: 600; font-size: 15px; }
+.expedition-shell .case__run:disabled { opacity: .3; }
+
+.expedition-shell .case__after { margin: 4px 0 0; scroll-margin-top: calc(68px + var(--safe-top, 0px)); }
+.expedition-shell .case__yours { margin: 0 0 12px; font: italic 400 17px/1.4 var(--serif); color: var(--secondary); }
+.expedition-shell .case__line { margin: 0 0 10px; font-size: 15.5px; color: var(--text); }
+.expedition-shell .case__reveal { margin: 0; font: 400 19px/1.45 var(--serif); color: var(--bright); text-wrap: pretty; }
+
+/* population */
+.expedition-shell .case-gen { display: flex; align-items: baseline; gap: 8px; margin: 0 0 8px; }
+.expedition-shell .case-gen b { font: 400 34px/1 var(--serif); color: var(--bright); font-variant-numeric: tabular-nums; }
+.expedition-shell .case-gen span { font-size: 14px; color: var(--muted); }
+.expedition-shell .case-demes { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 12px; margin: 0 0 12px; }
+.expedition-shell .case-demes figure { margin: 0; }
+.expedition-shell .case-demes figcaption { margin-top: 6px; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.expedition-shell .case-dots { display: flex; flex-wrap: wrap; gap: 3px; }
+.expedition-shell .case-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--rule); transition: background .25s; }
+.expedition-shell .case-chart .case-run { fill: none; stroke-width: 2; stroke-linejoin: round; }
+.expedition-shell .case-chart .case-run.is-thin { stroke-width: 1.2; opacity: .7; }
+.expedition-shell .case-grid { stroke: var(--rule); stroke-width: 1; }
+.expedition-shell .case-tick { fill: var(--faint); font: 11.5px var(--sans); paint-order: stroke; stroke: var(--chrome); stroke-width: 4px; stroke-linejoin: round; }
+.expedition-shell .case-tick.is-label { fill: var(--secondary); font-size: 12.5px; }
+.expedition-shell .case-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 8px 0 0; font-size: 12.5px; color: var(--muted); }
+.expedition-shell .case-legend i, .expedition-shell .case-parents i, .expedition-shell .case-tally i, .expedition-shell .case-square i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+
+/* trade-off */
+.expedition-shell .case-curve { fill: none; stroke-width: 1.6; }
+.expedition-shell .case-curve.is-benefit { stroke: hsl(330 40% 70%); }
+.expedition-shell .case-curve.is-cost { stroke: hsl(40 45% 66%); }
+.expedition-shell .case-curve.is-young { stroke: var(--accent); stroke-width: 2.4; }
+.expedition-shell .case-fill { fill: var(--accent-soft); }
+.expedition-shell .case-best { stroke: var(--accent); stroke-dasharray: 3 4; }
+.expedition-shell .case-mark { stroke: var(--bright); stroke-width: 1.4; }
+.expedition-shell .case-pop-dot { fill: var(--accent); stroke: var(--chrome); stroke-width: 2; }
+
+/* cross */
+.expedition-shell .case-parents, .expedition-shell .case-tally { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 12px; font-size: 14px; color: var(--secondary); }
+/* The × ends the first parent, so two long labels wrap whole and no line starts with it. */
+.expedition-shell .case-parents span:not(:last-child)::after { content: '×'; margin-left: 14px; color: var(--faint); }
+.expedition-shell .case-parents.is-spots span:not(:last-child)::after { content: '·'; }
+.expedition-shell .case-tally b { color: var(--bright); font-variant-numeric: tabular-nums; }
+.expedition-shell .case-brood { display: flex; flex-wrap: wrap; gap: 2px; margin: 0 0 10px; min-height: 12px; }
+.expedition-shell .case-brood i { width: 6px; height: 6px; border-radius: 1px; }
+.expedition-shell .case-square { border-collapse: collapse; font-size: 13px; color: var(--secondary); }
+.expedition-shell .case-square td { border: 1px solid var(--rule); padding: 8px 12px; }
+/* Two genes: four spots sit in a 2 × 2, and each grid box is one toned dot, ringed when counted. */
+.expedition-shell .case-parents.is-four { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; }
+.expedition-shell .case-parents.is-spots.is-four span:not(:last-child)::after { content: none; }
+.expedition-shell .case-cross.is-two .case-tally { gap: 6px 14px; font-size: 13.5px; }
+.expedition-shell .case-cell { display: block; width: 12px; height: 12px; border-radius: 50%; }
+.expedition-shell .cross-grid td.is-marked .case-cell { box-shadow: 0 0 0 2px var(--raised), 0 0 0 3.5px var(--bright); }
+
+/* tree */
+.expedition-shell .case-branch { stroke: var(--line); stroke-width: 1.4; }
+.expedition-shell .case-branch.is-lit { stroke: var(--accent); stroke-width: 2.4; }
+.expedition-shell .case-tip { fill: var(--secondary); font: 13px var(--sans); }
+.expedition-shell .case-tip.is-of, .expedition-shell .case-tip.is-than { fill: var(--bright); font-weight: 600; }
+.expedition-shell .case-tip.is-than { font-style: italic; }
+.expedition-shell .case-tip.is-picked { fill: var(--bright); text-decoration: underline; }
+.expedition-shell .case-tip.is-closest { fill: var(--accent); font-weight: 600; }
+
+/* clock */
+.expedition-shell .case-dial { fill: var(--panel); stroke: var(--rule); }
+.expedition-shell .case-hand { stroke-width: 2.4; stroke-linecap: round; }
+.expedition-shell .case-hand.is-yours { stroke: var(--bright); stroke-dasharray: 4 4; }
+.expedition-shell .case-hand.is-true { stroke: var(--accent); }
+.expedition-shell .case-pin { fill: var(--bright); }
+.expedition-shell .case-landmark { fill: var(--muted); }
+.expedition-shell .case-clock-time { fill: var(--accent); font: 600 15px var(--sans); }
+.expedition-shell .case-landmarks { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 2px; font-size: 13px; color: var(--muted); }
+.expedition-shell .case-landmarks b { display: inline-block; min-width: 48px; color: var(--secondary); font-weight: 500; font-variant-numeric: tabular-nums; }
+
+/* nest */
+.expedition-shell .case-outline { list-style: none; margin: 0; padding: 0; font-size: 14px; color: var(--secondary); }
+.expedition-shell .case-outline li { padding: 3px 0; border-left: 1px solid var(--rule); }
+.expedition-shell .case-outline li.is-group { color: var(--accent); font-size: 13px; }
+.expedition-shell .case-finds { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 4px; font-size: 14px; }
+.expedition-shell .case-finds li { display: grid; grid-template-columns: minmax(96px, auto) 1fr; gap: 12px; color: var(--muted); }
+.expedition-shell .case-finds li span { text-align: right; }
+.expedition-shell .case-finds li.is-homeless { color: var(--bright); }
+.expedition-shell .case-finds li.is-homeless span { color: var(--accent); }
+
+/* chart */
+.expedition-shell .case-bars { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 8px; align-items: end; }
+.expedition-shell .case-bars figure { margin: 0; display: grid; gap: 6px; }
+.expedition-shell .case-bars span { position: relative; height: 150px; display: flex; align-items: flex-end; border-bottom: 1px solid var(--rule); }
+.expedition-shell .case-bars span i { display: block; width: 100%; background: var(--raised); border-radius: 2px 2px 0 0; transition: height .1s linear; }
+.expedition-shell .case-bars span b { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-size: 12px; font-weight: 500; color: var(--secondary); font-variant-numeric: tabular-nums; }
+.expedition-shell .case-bars figure.is-picked figcaption { color: var(--bright); text-decoration: underline; }
+.expedition-shell .case-bars figure.is-top span i { background: var(--accent); }
+.expedition-shell .case-bars figcaption { font-size: 12px; line-height: 1.25; color: var(--muted); }
+.expedition-shell .case-unit { margin: 6px 0 0; font-size: 12px; color: var(--faint); }
+
+/* sequence (the strands themselves are styled in sims/SequenceLab.css) */
+.expedition-shell .case-seq { display: grid; gap: 14px; min-width: 0; }
+.expedition-shell .case-seq__change { margin: 0; font-size: 14px; color: var(--secondary); }
+.expedition-shell .case-seq__changes { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+.expedition-shell .case-seq__changes li { display: grid; gap: 1px; padding: 4px 0 4px 10px; border-left: 2px solid transparent; }
+.expedition-shell .case-seq__changes li.is-picked { border-left-color: var(--accent); color: var(--bright); }
+.expedition-shell .case-seq__changes b { font-weight: 500; color: var(--accent); }
+
+@media (max-width: 560px) {
+  .expedition-shell .case__scenario { font-size: 19px; }
+  .expedition-shell .case__options button { font-size: 14px; }
+}
+
+/* field mission */
+.expedition-shell .mission__body { padding-bottom: 60px; }
+.expedition-shell .mission__end { text-align: center; margin-top: 36px; padding-top: 8px; scroll-margin-top: 60px; }
+.expedition-shell .mission__body > .mission__end:first-child { margin-top: 10vh; }
+.expedition-shell .case + .mission__end { border-top: 1px solid var(--rule); }
+.expedition-shell .mission__name { margin: 2px 0 8px; font: 400 30px/1.2 var(--serif); color: var(--bright); }
+.expedition-shell .mission__claim { margin: 0 auto 18px; max-width: 520px; font-size: 16px; color: var(--secondary); }
+.expedition-shell .mission__foot { display: flex; justify-content: space-between; gap: 16px; margin: 28px auto 0; max-width: 560px; }
+.expedition-shell .patch__core { fill: var(--bright); stroke: var(--shade); stroke-width: 3; transition: opacity 1.2s; }
+
+/* Until the case has run, its Run button is the only call to act: the player's way on waits. */
+.expedition-shell .player--payoff:has(.case:not(.is-done)) .player__foot .continue { display: none; }
+
+.expedition-shell .case__options.is-multi button { position: relative; padding-left: 34px; }
+.expedition-shell .case__options.is-multi button::before { content: ''; position: absolute; left: 12px; top: 50%; width: 12px; height: 12px; margin-top: -7px; border: 1.5px solid var(--line); border-radius: 2px; }
+.expedition-shell .case__options.is-multi button[aria-checked="true"]::before { background: var(--accent); border-color: var(--accent); }
+
+/* motion */
+.expedition-shell .case-motion > svg { display: block; width: 100%; height: auto; }
+.expedition-shell .case-shaft { fill: none; stroke: var(--line); stroke-width: 1.2; }
+.expedition-shell .case-body { fill: var(--bright); }
+.expedition-shell .case-flash { fill: var(--accent); opacity: .45; }
+.expedition-shell .case-final { fill: var(--accent-soft); }
+.expedition-shell .case-fallmark line { stroke-width: 1.4; }
+.expedition-shell .case-fallmark.is-yours line { stroke: var(--bright); stroke-dasharray: 3 3; }
+.expedition-shell .case-fallmark.is-true line { stroke: var(--accent); }
+.expedition-shell .case-fallmark.is-target line { stroke: var(--secondary); stroke-dasharray: 4 3; }
+.expedition-shell .case-tick.is-true { fill: var(--accent); font-size: 12.5px; font-weight: 600; }
+
+/* ratio */
+.expedition-shell .case-string { fill: none; stroke: var(--pale); stroke-width: 1.4; }
+.expedition-shell .case-string.is-dead { stroke: var(--line); stroke-dasharray: 2 3; }
+.expedition-shell .case-string.is-moving { stroke: var(--accent); stroke-width: 1.8; }
+.expedition-shell .case-nut { stroke: var(--secondary); stroke-width: 3; }
+.expedition-shell .case-finger { fill: var(--bright); }
+.expedition-shell .case-measure { stroke: var(--accent); stroke-width: 1.4; }
+.expedition-shell .case-pulley { fill: none; stroke: var(--line); stroke-width: 1.4; }
+.expedition-shell .case-weight { fill: var(--raised); stroke: var(--line); }
+.expedition-shell .case-weight.is-true { fill: var(--accent); stroke: none; }
+.expedition-shell .case-weight.is-yours { fill: none; stroke: var(--bright); stroke-dasharray: 3 3; }
+.expedition-shell .case-wave { fill: none; stroke: var(--pale); stroke-width: 1.3; }
+.expedition-shell .case-repeat { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 3; }
+.expedition-shell .case-ratio .is-picked .case-tick.is-label { fill: var(--bright); text-decoration: underline; }
+.expedition-shell .case-ratio .is-win .case-wave { stroke: var(--accent); stroke-width: 1.8; }
+.expedition-shell .case-ratio .is-win .case-tick.is-label { fill: var(--accent); }
+
+/* spread */
+.expedition-shell .case-spread > svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+.expedition-shell .case-sea { fill: color-mix(in srgb, var(--chrome) 70%, black); }
+.expedition-shell .case-land { fill: var(--raised); stroke: var(--rule); stroke-width: .6; }
+.expedition-shell .case-route { fill: none; stroke: var(--line); stroke-width: 1.5; stroke-linecap: round; }
+.expedition-shell .case-route.is-sea { stroke-dasharray: 5 4; }
+.expedition-shell .case-route.is-river { stroke-dasharray: 1.5 3; }
+.expedition-shell .case-route.is-lit { stroke: var(--accent); stroke-width: 2.6; stroke-dasharray: none; }
+.expedition-shell .case-place circle { fill: var(--faint); }
+.expedition-shell .case-place text { fill: var(--secondary); font: 12px var(--sans); paint-order: stroke; stroke: var(--raised); stroke-width: 3px; stroke-linejoin: round; }
+.expedition-shell .case-place.is-candidate text { fill: var(--text); font-size: 12.5px; }
+.expedition-shell .case-place.is-origin circle:not(.case-place-ring), .expedition-shell .case-place.is-reached circle:not(.case-place-ring) { fill: var(--accent); }
+.expedition-shell .case-place-ring { fill: none !important; stroke: var(--accent); stroke-width: 1.4; }
+.expedition-shell .case-place.is-picked text { fill: var(--bright); text-decoration: underline; }
+.expedition-shell .case-place.is-win text { fill: var(--accent); font-weight: 600; }
+.expedition-shell .case-scale line { stroke: var(--secondary); stroke-width: 1.2; }
+.expedition-shell .case-scale text { fill: var(--secondary); font: 11px var(--sans); }
+.expedition-shell .case__picture .case-legend svg { display: inline-block; width: 22px; height: 6px; vertical-align: middle; margin-right: 6px; overflow: visible; }

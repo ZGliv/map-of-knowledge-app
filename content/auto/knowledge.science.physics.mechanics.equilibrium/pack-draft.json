@@ -1,0 +1,118 @@
+{
+ "title": "Balanced, Yet Moving",
+ "question": "Does being in balance mean standing still?",
+ "hook": "A child zooming down a slide is perfectly balanced.",
+ "idea": "A system is in mechanical equilibrium when the net force on every part is zero, which allows steady motion as well as rest, and a small nudge decides whether it is stable.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A marble sits at the very top of a smooth upside-down bowl and gets a tiny nudge. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It rolls back to the top",
+     "feedback": "Restoring forces belong to a low point, not a hilltop."
+    },
+    {
+     "id": "b",
+     "label": "Forces carry it farther away"
+    },
+    {
+     "id": "c",
+     "label": "It stays wherever it was nudged",
+     "feedback": "That describes a flat, neutral spot; the top of a bowl is not flat."
+    }
+   ],
+   "answer": "b",
+   "explain": "At a local maximum of potential energy, a small displacement makes forces push the system even farther away, an unstable equilibrium.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each case: is it in mechanical equilibrium?",
+   "groups": [
+    "Equilibrium",
+    "Not equilibrium"
+   ],
+   "items": [
+    [
+     "Paperweight on a desk",
+     "Equilibrium"
+    ],
+    [
+     "Child sliding at constant speed",
+     "Equilibrium"
+    ],
+    [
+     "Jenga stack standing steady",
+     "Equilibrium"
+    ],
+    [
+     "Jenga stack collapsing",
+     "Not equilibrium"
+    ],
+    [
+     "Stone speeding up as it falls",
+     "Not equilibrium"
+    ]
+   ],
+   "explain": "Equilibrium needs zero net force, so constant velocity counts, while collapsing or speeding up does not.",
+   "cites": [
+    1,
+    5,
+    30,
+    32,
+    34
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each situation to its type of equilibrium.",
+   "pairs": [
+    [
+     "Potential energy at a local minimum",
+     "Stable equilibrium"
+    ],
+    [
+     "Potential energy at a local maximum",
+     "Unstable equilibrium"
+    ],
+    [
+     "Zero velocity",
+     "Static equilibrium"
+    ],
+    [
+     "Stable one way, not another",
+     "Saddle point"
+    ]
+   ],
+   "explain": "The shape of the potential energy around a point tells you how it responds to a small nudge.",
+   "cites": [
+    8,
+    11,
+    13,
+    25
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "A particle is in mechanical equilibrium when the net force on it is zero.",
+    "So a book resting on a table is in equilibrium.",
+    "A child sliding at constant speed also has a constant velocity.",
+    "So the child cannot be in equilibrium, because she is moving."
+   ],
+   "wrong": 3,
+   "explain": "Constant velocity means zero net force, so a moving child is in mechanical equilibrium but not in static equilibrium.",
+   "cites": [
+    1,
+    5,
+    34
+   ]
+  }
+ ]
+}

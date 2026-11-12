@@ -1,0 +1,558 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.functional-groups",
+ "name": "Functional groups",
+ "summary": [
+  {
+   "text": "A functional group is a substituent or moiety in a molecule that causes the molecule's characteristic chemical reactions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The same functional group undergoes the same or similar reactions regardless of the rest of the molecule, which lets chemists predict reactions and design syntheses.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Functional groups also shape solubility: under the rule 'like dissolves like', sugar dissolves in water because both share the hydroxyl group.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sugar and water",
+   "value": "Both share the hydroxyl group (−OH)",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Charged example",
+   "value": "Carboxylate salts carry a −COO⁻ group",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Haloalkanes",
+   "value": "Defined by a carbon–halogen bond",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Ligands",
+   "value": "Groups binding a central atom in a coordination complex",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Alpha carbon",
+   "value": "First carbon after the one bearing the group",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Sugar stirs into a glass of water and disappears. Which idea about molecules best explains it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sugar is a solid, so it can only break apart where water is a gas"
+    },
+    {
+     "id": "b",
+     "label": "Water molecules are smaller, so sugar fits between them without bonding"
+    },
+    {
+     "id": "c",
+     "label": "Both carry the same kind of group, and those groups attract each other strongly"
+    },
+    {
+     "id": "d",
+     "label": "Both are nonpolar molecules, and nonpolar molecules mix with everything"
+    }
+   ],
+   "answer": "c",
+   "explain": "'Like dissolves like': sugar and water share the hydroxyl group, and hydroxyls interact strongly with each other.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.functional-groups:q1"
+  },
+  {
+   "prompt": "A chemist meets a huge, unfamiliar molecule that contains a group she knows well. What should she expect from that group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Similar reactions to those it undergoes elsewhere, though nearby groups can shift it"
+    },
+    {
+     "id": "b",
+     "label": "Exactly the same reactions, with nothing nearby able to change them"
+    },
+    {
+     "id": "c",
+     "label": "Reactions she cannot predict until the whole molecule is studied"
+    },
+    {
+     "id": "d",
+     "label": "No reactions at all, because the rest of the molecule is too large"
+    }
+   ],
+   "answer": "a",
+   "explain": "A functional group reacts the same or similarly regardless of the rest of the molecule, but nearby functional groups can modify its reactivity.",
+   "cites": [
+    2,
+    3,
+    4
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.functional-groups:q2"
+  },
+  {
+   "prompt": "A chemist calls the left half of a molecule a moiety. How does a moiety relate to a functional group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A moiety is always exactly one functional group"
+    },
+    {
+     "id": "b",
+     "label": "A moiety can be one functional group or a larger unit made of several"
+    },
+    {
+     "id": "c",
+     "label": "A moiety is the part of a molecule that has no functional groups"
+    },
+    {
+     "id": "d",
+     "label": "A moiety is any charged group, like a carboxylate salt's group"
+    }
+   ],
+   "answer": "b",
+   "explain": "A moiety is an entire 'half' of a molecule, which can be a single functional group or a larger unit of several.",
+   "cites": [
+    20,
+    21,
+    22
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.functional-groups:q3"
+  },
+  {
+   "prompt": "A molecule that barely mixes with water gains a group more electronegative than the atoms it attaches to. What happens to the molecule?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays unable to mix with water"
+    },
+    {
+     "id": "b",
+     "label": "It turns charged and so splits into two separate molecules"
+    },
+    {
+     "id": "c",
+     "label": "It becomes a ligand and so binds to a central atom"
+    },
+    {
+     "id": "d",
+     "label": "It becomes polar and so soluble in some aqueous environment"
+    }
+   ],
+   "answer": "d",
+   "explain": "Groups more electronegative than their attachment atoms become polar, which makes otherwise nonpolar molecules polar and soluble in some aqueous environment.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.functional-groups:q4"
+  },
+  {
+   "prompt": "Sulfur sits just below oxygen on the periodic table, yet sulfur compounds behave in their own way. What ability explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sulfur is lighter than oxygen, so it moves more freely"
+    },
+    {
+     "id": "b",
+     "label": "Sulfur can form more bonds than oxygen"
+    },
+    {
+     "id": "c",
+     "label": "Sulfur cannot bond to carbon at all, unlike oxygen"
+    },
+    {
+     "id": "d",
+     "label": "Sulfur carries a partially filled octet, so it acts as an acid"
+    }
+   ],
+   "answer": "b",
+   "explain": "Compounds containing sulfur show unique chemistry due to sulfur's ability to form more bonds than oxygen, its lighter analogue.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.functional-groups:q5"
+  },
+  {
+   "prompt": "A chemist compares an iodoalkane with a fluoroalkane. Which has the more stable carbon–halogen bond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The iodoalkane"
+    },
+    {
+     "id": "b",
+     "label": "Neither; haloalkane bonds are all equally stable"
+    },
+    {
+     "id": "c",
+     "label": "The fluoroalkane"
+    },
+    {
+     "id": "d",
+     "label": "Neither; haloalkanes have no carbon–halogen bond"
+    }
+   ],
+   "answer": "c",
+   "explain": "The carbon–halogen bond can be relatively weak, as in an iodoalkane, or quite stable, as in a fluoroalkane.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.functional-groups:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Benzyl_acetate_-_functional_groups_and_moieties.svg/960px-Benzyl_acetate_-_functional_groups_and_moieties.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Functional groups",
+  "credit": "Jonatan Svensson Glad",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Benzyl_acetate_-_functional_groups_and_moieties.svg"
+ },
+ "source": {
+  "title": "Functional group",
+  "url": "https://en.wikipedia.org/wiki/Functional_group",
+  "revision": 1380368598
+ },
+ "pack": {
+  "id": "auto-organic-chemistry-functional-groups",
+  "title": "Small Groups, Big Predictions",
+  "question": "Why can chemists predict how huge molecules will react?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Organic chemistry",
+   "Functional groups"
+  ],
+  "hue": 176,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Benzyl_acetate_-_functional_groups_and_moieties.svg/960px-Benzyl_acetate_-_functional_groups_and_moieties.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Functional groups",
+    "credit": "Jonatan Svensson Glad · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Benzyl_acetate_-_functional_groups_and_moieties.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Small Groups, Big Predictions",
+    "hook": "A tiny cluster of atoms can decide how an enormous molecule behaves."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-organic-chemistry-functional-groups:1",
+    "transfer": false,
+    "prompt": "Sugar and water both carry hydroxyl groups. Following 'like dissolves like', what happens when sugar meets water?",
+    "explain": "Sugar dissolves in water because both share the hydroxyl functional group, and hydroxyls interact strongly with each other.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "It stays as grains, because solids rarely mix with liquids",
+        "feedback": "Everyday solids often stay put, but matching groups that interact strongly are what drive dissolving."
+       },
+       {
+        "id": "c",
+        "label": "It floats on top, because hydroxyl groups repel each other",
+        "feedback": "Hydroxyl groups interact strongly with each other, which pulls sugar and water together."
+       },
+       {
+        "id": "b",
+        "label": "It dissolves, because the shared hydroxyl groups interact strongly"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-organic-chemistry-functional-groups:2",
+    "transfer": false,
+    "prompt": "match each to its defining feature",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Haloalkane"
+     },
+     {
+      "id": "l1",
+      "label": "Hydroxyl group"
+     },
+     {
+      "id": "l2",
+      "label": "Carboxylate salt"
+     },
+     {
+      "id": "l3",
+      "label": "Ligand"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "The −OH shared by sugar and water"
+     },
+     {
+      "id": "r2",
+      "label": "A charged −COO⁻ group"
+     },
+     {
+      "id": "r3",
+      "label": "A group binding to a central atom in a coordination complex"
+     },
+     {
+      "id": "r0",
+      "label": "A carbon–halogen bond"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each term names a group or class by the atoms that define it."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-organic-chemistry-functional-groups:3",
+    "transfer": true,
+    "prompt": "Compounds containing boron have partially filled octets. How do they behave?",
+    "explain": "Having partially filled octets, boron compounds act as Lewis acids.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "As inert gases that react with nothing",
+        "feedback": "Partially filled octets make boron compounds eager to react, not inert."
+       },
+       {
+        "id": "c",
+        "label": "As Lewis bases",
+        "feedback": "A filled octet would point that way; boron's partly empty one points the opposite way."
+       },
+       {
+        "id": "a",
+        "label": "As Lewis acids"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-organic-chemistry-functional-groups:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A functional group causes a molecule's characteristic chemical reactions."
+     },
+     {
+      "id": "b",
+      "text": "The same group reacts the same or similar way in any molecule."
+     },
+     {
+      "id": "c",
+      "text": "So other groups nearby can never change how a group reacts."
+     },
+     {
+      "id": "d",
+      "text": "So chemists can use groups to predict reactions and plan syntheses."
+     }
+    ],
+    "answer": "c",
+    "explain": "The reactivity of a functional group can be modified by other functional groups nearby, so predictions are good guides, not guarantees."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A functional group reacts the same or similar way wherever it sits, so spotting the group lets chemists predict a molecule's reactions and plan syntheses.",
+    "connections": [
+     {
+      "title": "Alcohol",
+      "place": "Functional groups",
+      "node": "knowledge.science.chemistry.organic-chemistry.functional-groups.alcohol"
+     },
+     {
+      "title": "Carboxylic acid",
+      "place": "Functional groups",
+      "node": "knowledge.science.chemistry.organic-chemistry.functional-groups.carboxylic-acid"
+     },
+     {
+      "title": "Amine",
+      "place": "Functional groups",
+      "node": "knowledge.science.chemistry.organic-chemistry.functional-groups.amine"
+     },
+     {
+      "title": "Ester",
+      "place": "Functional groups",
+      "node": "knowledge.science.chemistry.organic-chemistry.functional-groups.ester"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Sugar dissolves in water because both share the hydroxyl functional group, and hydroxyls interact strongly with each other.",
+    "source": "Wikipedia sentences 12, 13"
+   },
+   {
+    "claim": "Each term names a group or class by the atoms that define it.",
+    "source": "Wikipedia sentences 9, 10, 13, 32"
+   },
+   {
+    "claim": "Having partially filled octets, boron compounds act as Lewis acids.",
+    "source": "Wikipedia sentences 41"
+   },
+   {
+    "claim": "The reactivity of a functional group can be modified by other functional groups nearby, so predictions are good guides, not guarantees.",
+    "source": "Wikipedia sentences 1, 2, 3, 4"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a functional group is",
+    "text": "A functional group is a set of atoms within a molecule that causes the molecule's typical chemical reactions. Its chemical properties are distinctive whatever the other atoms in the molecule happen to be. Covalent bonds hold the group's atoms together and tie them to the rest of the molecule.",
+    "cites": [
+     1,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Why chemists care",
+    "text": "A given functional group undergoes the same or similar reactions no matter what the rest of the molecule is made of. That lets chemists predict how compounds will react and behave, and design ways to make them. Other functional groups nearby can change a group's reactivity, though. In retrosynthetic analysis, a way of planning organic synthesis, converting one functional group into another is a useful tool.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Like dissolves like",
+    "text": "Specific interactions between functional groups also cause complexation and solvation. In the rule of thumb like dissolves like, it is groups that are shared or that interact well with each other that make one substance dissolve in another. Sugar dissolves in water because both carry the hydroxyl group, −OH, and hydroxyls interact strongly with each other. When a group is more electronegative than the atom it is attached to, it becomes polar, and an otherwise nonpolar molecule carrying it becomes polar and can dissolve in some watery settings.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Charges, ligands and polymers",
+    "text": "Functional groups can carry a charge, as in carboxylate salts (−COO⁻); the molecule then becomes a polyatomic or complex ion. When groups bind to the central atom of a coordination complex, they are called ligands. In the repeating units of polymers, functional groups attach to a nonpolar core of carbon atoms and so give carbon chains chemical character.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Naming by group",
+    "text": "Systematic names for organic compounds come from combining functional group names with the names of the parent alkanes. In traditional naming, the first carbon after the one attached to the group is the alpha carbon, then come beta, gamma and so on. So in gamma-aminobutyric acid, the amine sits on the third carbon of the chain attached to the carboxylic acid group. IUPAC conventions use numbers for positions instead, giving 4-aminobutanoic acid. Traditional names also label isomers with qualifiers: isopropanol, or propan-2-ol, is an isomer of n-propanol, or propan-1-ol.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Families of groups",
+    "text": "In written formulas, R and R' usually stand for an attached hydrogen or for a hydrocarbon side chain, which can be any length. Hydrocarbons are defined by groups called hydrocarbyls that contain only carbon and hydrogen and differ in the number and order of double bonds, and each kind reacts differently. Haloalkanes are defined by a carbon–halogen bond, which is fairly weak in an iodoalkane and quite stable in a fluoroalkane. Apart from fluorinated compounds, haloalkanes readily undergo substitution or elimination reactions.",
+    "cites": [
+     24,
+     25,
+     26,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Oxygen, sulfur, phosphorus, boron",
+    "text": "Compounds with C–O bonds react differently depending on where the bond is and its hybridization: the oxygen in carbonyl groups withdraws electrons, while the oxygen in alcohol groups donates them. Sulfur can form more bonds than oxygen, its lighter relative on the periodic table, and phosphorus can form more than nitrogen, which gives both their own chemistry. Boron compounds have partly filled octets, so they act as Lewis acids.",
+    "cites": [
+     36,
+     38,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Groups and moieties",
+    "text": "The word moiety partly overlaps with functional group. A moiety, though, is a whole half of a molecule, which can be one functional group or a larger unit made of several. An aryl moiety, for example, can be any group that contains an aromatic ring, however many functional groups it has.",
+    "cites": [
+     20,
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-oc-3-1",
+   "kind": "book",
+   "title": "3.1 Functional Groups",
+   "by": "OpenStax, Organic Chemistry",
+   "url": "https://openstax.org/books/organic-chemistry/pages/3-1-functional-groups",
+   "note": "A free textbook section defining functional groups and surveying the common ones, with structure tables."
+  },
+  {
+   "id": "cc-chem-43",
+   "kind": "video",
+   "title": "Hydrocarbon Derivatives: Crash Course Chemistry #43",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=hlXc_eEtBHA",
+   "note": "A Crash Course video on functional groups: how swapping in other atoms turns hydrocarbons into new families of compounds."
+  }
+ ]
+}

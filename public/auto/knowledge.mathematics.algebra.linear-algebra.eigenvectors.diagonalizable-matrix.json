@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix",
+ "name": "Diagonalizable matrix",
+ "summary": [
+  {
+   "text": "A square matrix is called diagonalizable, or non-defective, if it is similar to a diagonal matrix.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equivalently, there is a basis made of the matrix's eigenvectors, and the diagonal entries are the matching eigenvalues.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Such a matrix scales space by a different amount in different directions, and diagonalizing it makes later computations easier.",
+   "cites": [
+    5,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Non-diagonalizable name",
+   "value": "A square matrix that cannot be diagonalized is called defective",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Why it helps",
+   "value": "A diagonal matrix's power just raises each diagonal entry to that power",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "label": "Rotation example",
+   "value": "A generic real rotation matrix is defective over the real numbers",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "label": "Complex numbers",
+   "value": "Almost every complex square matrix is diagonalizable",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Quick test",
+   "value": "Having n distinct eigenvalues is enough, though not necessary",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A 3 × 3 matrix has three different eigenvalues, all in its number field. What can you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is diagonalizable"
+    },
+    {
+     "id": "b",
+     "label": "It is defective"
+    },
+    {
+     "id": "c",
+     "label": "It is a rotation"
+    },
+    {
+     "id": "d",
+     "label": "Nothing at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Having n distinct eigenvalues for an n × n matrix is a sufficient condition for being diagonalizable.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix:q1"
+  },
+  {
+   "prompt": "A 3 × 3 matrix has a repeated eigenvalue. A friend says a matrix can be diagonalized only if its eigenvalues are all different. Is the friend right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a repeated eigenvalue always rules it out"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only over the real numbers"
+    },
+    {
+     "id": "c",
+     "label": "No, but only if the matrix is symmetric"
+    },
+    {
+     "id": "d",
+     "label": "No, distinct eigenvalues are enough but not required"
+    }
+   ],
+   "answer": "d",
+   "explain": "Having n distinct eigenvalues is a sufficient condition for diagonalizability, but not a necessary one; the converse may be false.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix:q2"
+  },
+  {
+   "prompt": "A matrix with real entries turns the plane by a generic rotation. What can be said about diagonalizing it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It cannot be done with real entries, but can with complex ones"
+    },
+    {
+     "id": "b",
+     "label": "It can always be done with real entries"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be done even with complex entries"
+    },
+    {
+     "id": "d",
+     "label": "It can be done only if it has distinct eigenvalues"
+    }
+   ],
+   "answer": "a",
+   "explain": "A generic rotation matrix is defective over the reals but diagonalizable over the complex numbers.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix:q3"
+  },
+  {
+   "prompt": "What does a diagonalizable matrix do to space, geometrically?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It scales every direction by the same amount"
+    },
+    {
+     "id": "b",
+     "label": "It shifts every point by the same distance"
+    },
+    {
+     "id": "c",
+     "label": "It scales space by different amounts in different directions"
+    },
+    {
+     "id": "d",
+     "label": "It rotates every vector by the same angle"
+    }
+   ],
+   "answer": "c",
+   "explain": "It is an anisotropic scaling: each eigenvector direction is scaled by its own eigenvalue.",
+   "cites": [
+    9,
+    10,
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix:q4"
+  },
+  {
+   "prompt": "You need a very high power of a diagonal matrix. Which shortcut works?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Raise the sum of the entries to that power"
+    },
+    {
+     "id": "b",
+     "label": "Raise each diagonal entry to that power"
+    },
+    {
+     "id": "c",
+     "label": "Raise only the largest entry to that power"
+    },
+    {
+     "id": "d",
+     "label": "Multiply the diagonal entries by that power"
+    }
+   ],
+   "answer": "b",
+   "explain": "A diagonal matrix is raised to a power by raising its diagonal entries to that power, and this extends to diagonalizable matrices.",
+   "cites": [
+    6,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix:q5"
+  },
+  {
+   "prompt": "What do we call a square matrix that fails to be diagonalizable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Non-defective"
+    },
+    {
+     "id": "b",
+     "label": "Semi-simple"
+    },
+    {
+     "id": "c",
+     "label": "Modal"
+    },
+    {
+     "id": "d",
+     "label": "Defective"
+    }
+   ],
+   "answer": "d",
+   "explain": "A square matrix that is not diagonalizable is called defective; diagonalizable ones are non-defective.",
+   "cites": [
+    1,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix:q6"
+  }
+ ],
+ "source": {
+  "title": "Diagonalizable matrix",
+  "url": "https://en.wikipedia.org/wiki/Diagonalizable_matrix",
+  "revision": 1378610409
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it means",
+    "text": "We call a square matrix A diagonalizable, or non-defective, when it is similar to a diagonal matrix. Put concretely, there is an invertible matrix P and a diagonal matrix D with P⁻¹AP = D. Rearranged, the same fact reads A = PDP⁻¹. The pair P and D is not unique, so more than one choice can work.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Eigenvectors do the work",
+    "text": "The same idea applies to any linear map T that sends a finite-dimensional vector space V back into itself. Such a map is diagonalizable when V has an ordered basis made entirely of eigenvectors of T. The two views agree: when A = PDP⁻¹, the columns of P are those eigenvectors, and the diagonal entries of D are their matching eigenvalues. An n × n matrix passes this test exactly when the dimensions of its eigenspaces add up to n. A matrix P built from such a basis is called a modal matrix for A.",
+    "cites": [
+     3,
+     4,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Why it helps",
+    "text": "Finding P and D is called diagonalization, and it makes many later calculations simpler. To raise a diagonal matrix to a power, you raise each diagonal entry to that power. Its determinant is just the product of its diagonal entries. These shortcuts carry over easily to a matrix written as PDP⁻¹.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "The picture",
+    "text": "Geometrically, a diagonalizable matrix performs an uneven stretch of space, known as an inhomogeneous dilation or anisotropic scaling. It may scale space by one amount in one direction and by another amount in a different direction. Along the direction of each eigenvector, the scale factor is the matching eigenvalue.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "When it fails",
+    "text": "A square matrix that cannot be diagonalized is called defective. A matrix with real entries can be defective over the real numbers and still become diagonalizable once P and D are allowed complex entries. A generic rotation matrix is an example of this.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "A quick test",
+    "text": "One handy test is sufficient but not necessary. If an n × n matrix has n distinct eigenvalues, it is diagonalizable, but a diagonalizable matrix need not have them. Also, if A is diagonalizable, so is every power of A.",
+    "cites": [
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Almost every matrix",
+    "text": "Over the complex numbers, almost every matrix is diagonalizable. Stated precisely, the complex n × n matrices that are not diagonalizable form a set of Lebesgue measure zero. Over the complex numbers, any defective matrix can also be turned into a diagonalizable one by a small change.",
+    "cites": [
+     15,
+     16,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Especially tidy cases",
+    "text": "Some matrices behave especially well. For a complex Hermitian matrix, or more generally a normal one, the eigenvectors can be chosen to form an orthonormal basis, and P can be a unitary matrix. For a real symmetric matrix, the eigenvectors can form an orthonormal basis of ℝⁿ, and P can be an orthogonal matrix.",
+    "cites": [
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-diagonalizability",
+   "kind": "book",
+   "title": "Linear Algebra/Diagonalizability",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Diagonalizability",
+   "note": "A free textbook section defining diagonalizable matrices, with examples, a non-diagonalizable case and exercises.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

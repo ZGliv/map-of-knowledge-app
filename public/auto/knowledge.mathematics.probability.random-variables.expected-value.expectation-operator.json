@@ -1,0 +1,315 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator",
+ "name": "Expectation operator",
+ "summary": [
+  {
+   "text": "The expectation operator is the E that stands for the expected value of a random variable X, written E(X), E[X] or EX.",
+   "cites": [
+    5,
+    32
+   ]
+  },
+  {
+   "text": "Authors style the E in different ways, as upright, italic or blackboard bold, and use several kinds of brackets.",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "text": "Other notations exist too: μ_X is popular, ⟨X⟩ is common in physics, and M(X) is used in Russian-language literature.",
+   "cites": [
+    33,
+    34
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Common notations",
+   "value": "E(X), E[X] and EX",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "In German",
+   "value": "E stands for Erwartungswert",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "In French",
+   "value": "E stands for espérance mathématique",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Physics notation",
+   "value": "⟨X⟩ and ⟨X⟩_av",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Random vectors",
+   "value": "Taken component by component: E[X]_i = E[Xᵢ]",
+   "cites": [
+    40,
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "One textbook writes E[X], another writes EX, and a third writes E(X) for the same random variable. What is going on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are three different quantities"
+    },
+    {
+     "id": "b",
+     "label": "The brackets show how many outcomes there are"
+    },
+    {
+     "id": "c",
+     "label": "Each form is for a different kind of variable"
+    },
+    {
+     "id": "d",
+     "label": "They are different spellings of the same idea"
+    }
+   ],
+   "answer": "d",
+   "explain": "The bracket forms are all used for the same thing, the expected value of X.",
+   "cites": [
+    5,
+    32
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator:q1"
+  },
+  {
+   "prompt": "A physics paper writes ⟨X⟩ for a measured quantity X. What is it most likely taking?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its average, the expected value"
+    },
+    {
+     "id": "b",
+     "label": "Its largest possible value"
+    },
+    {
+     "id": "c",
+     "label": "Its smallest possible value"
+    },
+    {
+     "id": "d",
+     "label": "Its chance of occurring"
+    }
+   ],
+   "answer": "a",
+   "explain": "Physicists commonly use ⟨X⟩ for the expected value.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator:q2"
+  },
+  {
+   "prompt": "A German student sees the word Erwartungswert next to a letter E in a probability lecture. What does it name?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The spread of a random variable"
+    },
+    {
+     "id": "b",
+     "label": "The most likely single outcome"
+    },
+    {
+     "id": "c",
+     "label": "The expected value"
+    },
+    {
+     "id": "d",
+     "label": "The chance an event happens"
+    }
+   ],
+   "answer": "c",
+   "explain": "In German, E stands for Erwartungswert, meaning expected value.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator:q3"
+  },
+  {
+   "prompt": "A random vector holds two numbers, such as a person's height and weight. How is its expected value defined?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each part gets its own expected value, one by one"
+    },
+    {
+     "id": "b",
+     "label": "The two numbers are added first, then averaged"
+    },
+    {
+     "id": "c",
+     "label": "Only the first number is ever averaged"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be defined for more than one number"
+    }
+   ],
+   "answer": "a",
+   "explain": "The expected value of a random vector is taken component by component.",
+   "cites": [
+    40,
+    41
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator:q4"
+  },
+  {
+   "prompt": "A random table of numbers is grid-shaped, with a random entry in each cell. How would you define its expected value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add every cell into a single total"
+    },
+    {
+     "id": "b",
+     "label": "Average only the cells along the top row"
+    },
+    {
+     "id": "c",
+     "label": "Keep the largest cell and drop the rest"
+    },
+    {
+     "id": "d",
+     "label": "Take the expected value of each cell on its own"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a random matrix, each entry's expected value is taken separately to form a new matrix.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator:q5"
+  },
+  {
+   "prompt": "A Russian-language paper writes M(X). What does that most likely mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The most common value of X"
+    },
+    {
+     "id": "b",
+     "label": "The expected value of X"
+    },
+    {
+     "id": "c",
+     "label": "The maximum value of X"
+    },
+    {
+     "id": "d",
+     "label": "The middle value of X when sorted"
+    }
+   ],
+   "answer": "b",
+   "explain": "M(X) is the notation for expected value in Russian-language literature.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.expected-value.expectation-operator:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Standard_deviation_diagram_micro.svg/960px-Standard_deviation_diagram_micro.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Expectation operator",
+  "credit": "Ainali",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram_micro.svg"
+ },
+ "source": {
+  "title": "Expected value",
+  "url": "https://en.wikipedia.org/wiki/Expected_value",
+  "revision": 1377260319
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The letter E",
+    "text": "The expected value of a random variable, also called its expectation or mean, is a generalization of the weighted average. The expectation operator is the letter E placed in front of a random variable X to stand for that value. It is usually written E(X), E[X] or EX.",
+    "cites": [
+     1,
+     5,
+     32
+    ]
+   },
+   {
+    "heading": "Styles and brackets",
+    "text": "Writers style the letter in several ways: an upright E, an italic E, or a blackboard bold 𝔼, and ℰ also turns up. The brackets vary as well. E(X), E[X] and EX are all in common use.",
+    "cites": [
+     5,
+     32
+    ]
+   },
+   {
+    "heading": "Other notations",
+    "text": "The letter E is not the only choice. μ_X is another popular way to write the expected value. In physics, ⟨X⟩, ⟨X⟩_av and X̄ are common. Russian-language writing uses M(X) instead.",
+    "cites": [
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Where the E fits",
+    "text": "The idea has also been called mathematical hope, described as the sum hoped for multiplied by the chance of getting it. The E symbol later became popular with English writers. In other languages the letter has its own meaning: German readers take E for Erwartungswert, Spanish ones for esperanza matemática, and French ones for espérance mathématique.",
+    "cites": [
+     26,
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "What the operator computes",
+    "text": "Suppose X has possible outcomes x₁,..., xₖ with probabilities p₁,..., pₖ. Then the operator gives E [X] = x₁p₁ + x₂p₂ + ⋯ + xₖpₖ. Because the probabilities add up to 1, this reads as a weighted average of the outcomes. When it is finite, the result can be read as the long-run average of independent repeats of the same random experiment. In the most general setting, the operator is a Lebesgue integral of the variable, taken with respect to the underlying probability measure.",
+    "cites": [
+     2,
+     4,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Vectors and matrices",
+    "text": "The operator also works on a random vector, which is a random variable with several dimensions. It acts one component at a time, so E[X]_i = E[Xᵢ]. A random matrix is treated in the same way, with E[X]_ij = E[X_ij].",
+    "cites": [
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "pfeiffer-expectation",
+   "kind": "book",
+   "title": "11: Mathematical Expectation - Applied Probability (Pfeiffer)",
+   "by": "Paul Pfeiffer",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Applied_Probability_(Pfeiffer)/11%3A_Mathematical_Expectation",
+   "note": "An open textbook chapter defining mathematical expectation E[X] for simple and general random variables.",
+   "license": "CC BY 3.0"
+  }
+ ]
+}

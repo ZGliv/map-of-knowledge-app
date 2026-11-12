@@ -1,0 +1,348 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.genetics-genomes.sex-linked",
+ "name": "Sex-linked traits",
+ "summary": [
+  {
+   "text": "Sex linkage describes the sex-specific patterns of inheritance that appear when a gene variant sits on a sex chromosome instead of a non-sex chromosome.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In humans these are called X-linked recessive, X-linked dominant and Y-linked, and each pattern depends on the sex of both the parent and the child.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "There are many more X-linked conditions than Y-linked ones, since humans have several times as many genes on the X chromosome as on the Y.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Human chromosomes",
+   "value": "22 of 23 pairs are autosomes; the 23rd pair is the sex chromosomes",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Genes on X",
+   "value": "An estimated 1400, mostly about tissue development and disorders",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Key Y gene",
+   "value": "SRY, involved in developing several male sex characteristics",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Carriers",
+   "value": "Only females can be carriers of X-linked conditions",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Y-linked path",
+   "value": "Passed only from father to son, in every generation",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A father has an X-linked recessive condition. Why can he not pass it to his son?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sons always take their mother's genes only"
+    },
+    {
+     "id": "b",
+     "label": "The condition skips every second generation"
+    },
+    {
+     "id": "c",
+     "label": "He gives his son a Y chromosome, not an X"
+    },
+    {
+     "id": "d",
+     "label": "Sons can only be carriers, never affected"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each parent gives one sex chromosome, and an affected father provides only a Y-chromosome to his sons, so they cannot receive the X-linked trait from him.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.sex-linked:q1"
+  },
+  {
+   "prompt": "A father has an X-linked recessive condition, and the mother is healthy and not a carrier. What is true of their daughters?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All of them will be carriers"
+    },
+    {
+     "id": "b",
+     "label": "All of them will be affected"
+    },
+    {
+     "id": "c",
+     "label": "Half of them will be affected"
+    },
+    {
+     "id": "d",
+     "label": "None of them will be affected or carriers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Every daughter receives her father's only X chromosome, which carries the allele, while her mother's X is healthy, so all of the daughters are carriers.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.sex-linked:q2"
+  },
+  {
+   "prompt": "Red-green colour blindness is a classic X-linked recessive condition. Why do X-linked recessive conditions affect males much more often than females?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Male cells make more of the faulty protein"
+    },
+    {
+     "id": "b",
+     "label": "Males have more X chromosomes than females"
+    },
+    {
+     "id": "c",
+     "label": "Females always have two affected X chromosomes"
+    },
+    {
+     "id": "d",
+     "label": "Males have no second X with a healthy copy"
+    }
+   ],
+   "answer": "d",
+   "explain": "Males have only one X chromosome, so they have no second X with a healthy copy of the gene, while females usually need two copies of the allele to be affected.",
+   "cites": [
+    6,
+    7,
+    35
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.sex-linked:q3"
+  },
+  {
+   "prompt": "A condition is Y-linked and a father has it. Which of his children will inherit it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All of his children"
+    },
+    {
+     "id": "b",
+     "label": "Only his sons"
+    },
+    {
+     "id": "c",
+     "label": "Only his daughters"
+    },
+    {
+     "id": "d",
+     "label": "Only children whose mother is a carrier"
+    }
+   ],
+   "answer": "b",
+   "explain": "A Y-linked condition is inherited only from father to son and affects every generation.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.sex-linked:q4"
+  },
+  {
+   "prompt": "A man has an X-linked dominant trait and his partner does not. What do you expect for their children?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All sons affected, no daughters affected"
+    },
+    {
+     "id": "b",
+     "label": "Half of the sons and half of the daughters affected"
+    },
+    {
+     "id": "c",
+     "label": "All daughters affected, no sons affected"
+    },
+    {
+     "id": "d",
+     "label": "No children affected"
+    }
+   ],
+   "answer": "c",
+   "explain": "All daughters inherit their father's only affected X chromosome, while sons receive his Y chromosome and are not affected.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.sex-linked:q5"
+  },
+  {
+   "prompt": "In birds the mammalian pattern is reversed. Which pair of sex chromosomes does a male bird have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "ZZ"
+    },
+    {
+     "id": "b",
+     "label": "ZW"
+    },
+    {
+     "id": "c",
+     "label": "XX"
+    },
+    {
+     "id": "d",
+     "label": "XY"
+    }
+   ],
+   "answer": "a",
+   "explain": "In the ZW system used by birds, the male is the homogametic sex (ZZ) and the female is heterogametic (ZW).",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.sex-linked:q6"
+  }
+ ],
+ "source": {
+  "title": "Sex linkage",
+  "url": "https://en.wikipedia.org/wiki/Sex_linkage",
+  "revision": 1378648073
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "Genes on the sex chromosomes",
+    "text": "Humans carry 23 pairs of chromosomes. Twenty-two pairs are autosomes, which play no part in deciding sex, and the last pair are the sex chromosomes. Two X chromosomes define a biological female, while one X and one Y define a biological male. The X and Y differ in size and in the genes they hold, and unlike the autosome pairs they are not matching partners. Sex linkage is the name for the way a trait, and how it shows up, follows sex when the gene version behind it, called an allele, sits on one of these sex chromosomes.",
+    "cites": [
+     1,
+     16,
+     17,
+     18,
+     21
+    ]
+   },
+   {
+    "heading": "Why the X matters more",
+    "text": "The X chromosome holds an estimated 1400 genes, most of them tied to tissue development and to human disorders. The Y carries the SRY gene, which helps build several male sex characteristics, plus roughly 200 other genes, many of whose known jobs are linked to disease. Since the X is bigger and holds several times as many genes, X-linked conditions far outnumber Y-linked ones.",
+    "cites": [
+     5,
+     19,
+     20,
+     22
+    ]
+   },
+   {
+    "heading": "Three patterns in humans",
+    "text": "In humans, sex-linked traits follow three patterns: X-linked recessive, X-linked dominant and Y-linked. In all three, what happens depends on the sex of the parent and on the sex of the child. That sets them apart from ordinary dominant and recessive traits carried on autosomes. Classical genetics tests whether an animal's trait is sex-linked with a mating experiment known as a reciprocal cross.",
+    "cites": [
+     2,
+     3,
+     4,
+     23
+    ]
+   },
+   {
+    "heading": "X-linked recessive",
+    "text": "In X-linked recessive inheritance, a female (XX) shows the trait only with two copies of the allele, while a male (XY) needs just one. So these conditions turn up in males far more often. A female with a single copy is called a carrier, and only females can be carriers, since a male has no second X with a working copy of the gene. Fathers hand only a Y to their sons, so an affected son must get the allele from his mother. A son of a healthy carrier has a 50% chance of being affected, and every daughter of an affected father and a non-carrier mother will be a carrier.",
+    "cites": [
+     6,
+     7,
+     34,
+     35,
+     36,
+     37,
+     41,
+     42,
+     43,
+     45
+    ]
+   },
+   {
+    "heading": "X-linked dominant",
+    "text": "In X-linked dominant inheritance, a single copy of the allele is enough to cause the trait. Here females are affected more often than males, because they have two X chromosomes. When the mother is affected and the father is not, each child, son or daughter, has a 50% chance of being affected. When the father is affected and the mother is not, every daughter is affected and no son is, because daughters receive his X and sons his Y. A few of these conditions, such as Aicardi syndrome, kill males before birth or as newborns, so they seem to strike only females.",
+    "cites": [
+     8,
+     27,
+     28,
+     29,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Carriers who show the trait",
+    "text": "A carrier female usually does not show the trait. In rare cases, though, the normal switching off of half her X chromosomes is skewed, so it mostly silences the X chromosomes from one parent. The X chromosomes from the other parent are then expressed out of proportion, and the trait can show to varying degrees. Because effects like this make X-linked traits so variable in females, some scholars now suggest dropping the words dominant and recessive for X-linked inheritance.",
+    "cites": [
+     26,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Y-linked and other systems",
+    "text": "A Y-linked condition passes only from father to son and shows up in every generation. Animals that settle sex in other ways follow other rules. Birds use the ZW system, which flips the mammal pattern: males are ZZ and females are ZW. In humans and other mammals genes decide sex, but not in every organism; in some reptiles the environment decides, and in some worms it depends on where they are.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-12-2",
+   "kind": "book",
+   "title": "12.2 Characteristics and Traits",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+   "note": "A free textbook section with parts on X-linked traits, hemizygous males and human sex-linked disorders.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-concepts-8-3",
+   "kind": "book",
+   "title": "8.3 Extensions of the Laws of Inheritance",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/concepts-biology/pages/8-3-extensions-of-the-laws-of-inheritance",
+   "note": "A shorter free textbook section explaining sex-linked traits through fruit fly eye color.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "teded-x-chromosome",
+   "kind": "video",
+   "title": "Secrets of the X chromosome",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=veB31XmUQm8",
+   "minutes": 5,
+   "note": "A short TED-Ed animation on the X chromosome and how traits carried on it are inherited."
+  }
+ ]
+}

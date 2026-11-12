@@ -1,0 +1,123 @@
+{
+ "title": "Counting the rare and random",
+ "question": "When does a count of random events follow a Poisson pattern?",
+ "hook": "Radioactive atoms, phone calls and even horse kicks all share one counting rule, as long as certain conditions hold.",
+ "idea": "The Poisson distribution fits counts of events that come at a constant average rate and independently of one another.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A call center averages 3 calls per minute all day, and calls in separate minutes are independent. How likely is a minute with between 1 and 4 calls?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "About 0.23",
+     "feedback": "That is the chance of 0 calls or at least 5, the opposite outcome."
+    },
+    {
+     "id": "b",
+     "label": "About 0.50",
+     "feedback": "It is tempting to split evenly, but the average of 3 puts most minutes in that range."
+    },
+    {
+     "id": "c",
+     "label": "About 0.77",
+     "feedback": ""
+    }
+   ],
+   "answer": "c",
+   "explain": "With an average of 3 calls a minute, 1 to 4 calls has probability of about 0.77, and 0 or at least 5 calls about 0.23.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each situation by whether a Poisson model fits it.",
+   "groups": [
+    "Fits Poisson",
+    "Does not fit"
+   ],
+   "items": [
+    [
+     "Radioactive decay events in a fixed observation period",
+     "Fits Poisson"
+    ],
+    [
+     "Calls at a constant average rate, independent of each other",
+     "Fits Poisson"
+    ],
+    [
+     "Students arriving in groups at changing rates",
+     "Does not fit"
+    ],
+    [
+     "Earthquakes where one large quake raises the chance of aftershocks",
+     "Does not fit"
+    ],
+    [
+     "Counts where at least one event is guaranteed",
+     "Does not fit"
+    ]
+   ],
+   "explain": "Poisson needs a constant average rate and events independent of one another, and zero counts must be possible.",
+   "cites": [
+    1,
+    6,
+    7,
+    9,
+    24,
+    27,
+    29,
+    30
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each person to what they did with the distribution.",
+   "pairs": [
+    [
+     "Siméon Denis Poisson",
+     "Published it with his probability theory in 1837"
+    ],
+    [
+     "Abraham de Moivre",
+     "Gave similar results in 1711"
+    ],
+    [
+     "Simon Newcomb",
+     "Fitted it to stars per unit of space in 1860"
+    ],
+    [
+     "Ladislaus Bortkiewicz",
+     "Modelled soldiers killed by horse kicks"
+    ]
+   ],
+   "explain": "The distribution is named for Poisson, but similar results came earlier, and later users fitted it to real counts.",
+   "cites": [
+    10,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A student union counts arrivals each minute.",
+    "The arrival rate is low during class and high between classes.",
+    "Counts in fixed intervals are always Poisson, so the changing rate does not matter.",
+    "So Poisson predictions will be reliable."
+   ],
+   "wrong": 2,
+   "explain": "Poisson needs a constant rate and independent arrivals. A changing rate breaks that.",
+   "cites": [
+    1,
+    27
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "readHash": "b60115ce29bede32d7605449c0a775d849c4328a",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "definition, intractability basis, smaller keys and 256 vs 3072-bit comparison in 1, 2, 27, 33, 34"
+  },
+  "r1": {
+   "supported": true,
+   "why": "point multiplication, ECDLP, ECDH assumption and group structure in 29-32"
+  },
+  "r2": {
+   "supported": true,
+   "why": "domain parameters, fields, base point, prime order, cofactor and validation in 35-42, 45"
+  },
+  "r3": {
+   "supported": true,
+   "why": "uses, indirect encryption, Lenstra factorization, TLS and Bitcoin in 3-5, 16"
+  },
+  "r4": {
+   "supported": true,
+   "why": "independent suggestion incl. Koblitz, 2004, fifteen NIST curves, Suite B 2005 in 6-8, 12"
+  },
+  "r5": {
+   "supported": true,
+   "why": "Dual_EC_DRBG report, RSA advisory, expert concern, 2015 NSA plan and CNSA 2.0 in 17-21"
+  }
+ }
+}

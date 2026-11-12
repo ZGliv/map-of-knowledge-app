@@ -1,0 +1,355 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse",
+ "name": "Solar eclipse",
+ "summary": [
+  {
+   "text": "A solar eclipse occurs when the Moon passes between Earth and the Sun, hiding the Sun from a small part of Earth, totally or partially.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The alignment occurs about every six months, during eclipse season, at new moon, when the Moon's orbital plane is closest to the plane of Earth's orbit.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "In a total eclipse the Sun's disk is fully obscured, while in partial and annular eclipses only part of the Sun is obscured.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Total eclipses worldwide",
+   "value": "Somewhere on Earth every 18 months on average",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Same place again",
+   "value": "Once every 360 to 410 years",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Moon's orbit tilt",
+   "value": "About 5 degrees to Earth's orbit",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Eclipses per year",
+   "value": "At least two, up to five",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Safe to watch bare-eyed",
+   "value": "Only the total phase",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Every month the Moon sits between Earth and the Sun at new moon, yet most months nothing is blocked. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its orbit is tilted, so its shadow usually misses Earth"
+    },
+    {
+     "id": "b",
+     "label": "It is too small to ever cover the Sun"
+    },
+    {
+     "id": "c",
+     "label": "Earth's shadow hides it from the Sun"
+    },
+    {
+     "id": "d",
+     "label": "The Sun's glare outshines it each month"
+    }
+   ],
+   "answer": "a",
+   "explain": "Because the Moon's orbit is tilted about 5 degrees to Earth's orbit, its shadow usually misses Earth, so eclipses happen only in eclipse seasons.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse:q1"
+  },
+  {
+   "prompt": "You watch a total eclipse from start to finish. When is it safe to look with no eye protection?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whenever any part of the Sun is hidden"
+    },
+    {
+     "id": "b",
+     "label": "Only while the Sun's disk is fully hidden"
+    },
+    {
+     "id": "c",
+     "label": "Any time the sky is a little dimmer"
+    },
+    {
+     "id": "d",
+     "label": "Never; protection is needed throughout"
+    }
+   ],
+   "answer": "b",
+   "explain": "Looking directly at the Sun can cause permanent eye damage, but the total phase is safe to view without protection.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse:q2"
+  },
+  {
+   "prompt": "The Moon is farther than usual from Earth at the moment it lines up with the Sun, so it looks smaller. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It still fully covers the Sun, with a thinner shadow"
+    },
+    {
+     "id": "b",
+     "label": "No eclipse can happen at all"
+    },
+    {
+     "id": "c",
+     "label": "It cannot fully cover the Sun, so the eclipse is annular"
+    },
+    {
+     "id": "d",
+     "label": "A lunar eclipse happens instead"
+    }
+   ],
+   "answer": "c",
+   "explain": "Differences in the Moon's distance change its apparent size, which leads to the difference between total and annular eclipses. A total eclipse needs the Moon closer than average.",
+   "cites": [
+    26,
+    28,
+    29
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse:q3"
+  },
+  {
+   "prompt": "Millions of people can watch a lunar eclipse from home. Who can see a particular solar eclipse?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Everyone on the day side of Earth, equally"
+    },
+    {
+     "id": "b",
+     "label": "Everyone on the night side of Earth"
+    },
+    {
+     "id": "c",
+     "label": "Only people living at the equator"
+    },
+    {
+     "id": "d",
+     "label": "People in a relatively small area of the world"
+    }
+   ],
+   "answer": "d",
+   "explain": "A solar eclipse can only be viewed from a relatively small area of the world, unlike a lunar eclipse.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse:q4"
+  },
+  {
+   "prompt": "You stand in the larger, lighter part of the Moon's shadow rather than the small dark core. What do you see?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A partial eclipse"
+    },
+    {
+     "id": "b",
+     "label": "A total eclipse"
+    },
+    {
+     "id": "c",
+     "label": "An annular eclipse"
+    },
+    {
+     "id": "d",
+     "label": "No eclipse at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "The penumbra is the larger light gray area where a partial eclipse can be seen; the umbra gives a total eclipse and the antumbra an annular one.",
+   "cites": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse:q5"
+  },
+  {
+   "prompt": "Can astronomers say when an eclipse will happen hundreds of years from now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No; eclipses are random events"
+    },
+    {
+     "id": "b",
+     "label": "Only a few years ahead, as the Moon's orbit shifts too fast"
+    },
+    {
+     "id": "c",
+     "label": "Yes, with high accuracy"
+    },
+    {
+     "id": "d",
+     "label": "Only for total eclipses"
+    }
+   ],
+   "answer": "c",
+   "explain": "Eclipses hundreds of years into the future may now be predicted with high accuracy.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.solar-eclipse:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/960px-Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Solar eclipse",
+  "credit": "Luc Viatour",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg"
+ },
+ "source": {
+  "title": "Solar eclipse",
+  "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+  "revision": 1383567264
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The Moon in the way",
+    "text": "A solar eclipse happens when the Moon moves between Earth and the Sun and blocks the Sun, fully or in part, from a small patch of Earth. In a total eclipse the Moon covers the whole disk of the Sun. Partial and annular eclipses hide just a portion of the Sun. A lunar eclipse can be seen from anywhere on Earth's night side, but a solar eclipse is visible only from a fairly small area.",
+    "cites": [
+     1,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Three kinds of shadow",
+    "text": "The Moon casts a shadow with distinct parts. The umbra is the dark core, where the Moon blocks the Sun completely; where it touches Earth's surface, a total eclipse can be seen. The penumbra is the wider, lighter shadow around it, where people see a partial eclipse. The antumbra is the shadow lying beyond the umbra, and anyone standing in it sees an annular eclipse.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Why not every month",
+    "text": "If the Moon circled Earth on a perfect circle in the same plane as Earth's orbit, every new moon would bring a total solar eclipse. In fact the Moon's orbit is tilted by just over 5 degrees to the ecliptic, the plane of Earth's orbit around the Sun. So at new moon the Moon usually slips past to the north or south of the Sun, and its shadow misses Earth. An eclipse can happen only when a new moon falls near a node, one of the two points where the Moon's path crosses the ecliptic.",
+    "cites": [
+     7,
+     8,
+     21,
+     22,
+     23,
+     40
+    ]
+   },
+   {
+    "heading": "Eclipse seasons",
+    "text": "The two nodes sit 180 degrees apart, so new moons line up near them in two stretches of the year, about 173.3 days apart, called eclipse seasons. Each season brings at least one solar eclipse. Sometimes a new moon falls close enough to a node in two months running, giving two partial eclipses in a row. As a result, every year has at least two solar eclipses and as many as five, but no more than two of them can be total.",
+    "cites": [
+     9,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Total or annular",
+    "text": "The Moon's orbit is an oval, and its distance from Earth swings by up to about 5.9% from the average. That changes how big it looks in our sky, and this is what decides between a total and an annular eclipse. On average the Moon looks 2.1% smaller than the Sun, so about 60% of central eclipses are annular. A total eclipse happens only when the Moon is nearer than average, close to its perigee.",
+    "cites": [
+     24,
+     25,
+     26,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Rare in any one place",
+    "text": "Somewhere on Earth, a total solar eclipse comes along every 18 months on average. Yet any given spot sees one only once every 360 to 410 years. Keen fans known as eclipse chasers, or umbraphiles, travel to remote places to see them. Looking straight at the Sun can permanently damage the eyes, so viewers need special eye protection or indirect methods, except during the total phase, which is safe to watch directly.",
+    "cites": [
+     6,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Predicting eclipses",
+    "text": "In some cultures, past and present, solar eclipses were blamed on supernatural forces or seen as bad omens. Astronomers in China were predicting eclipses as early as the 4th century BC. Today, eclipses hundreds of years ahead can be forecast with high accuracy.",
+    "cites": [
+     12,
+     13
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-4-7",
+   "kind": "book",
+   "title": "4.7 Eclipses of the Sun and Moon",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/4-7-eclipses-of-the-sun-and-moon",
+   "note": "A free textbook section explaining solar and lunar eclipses, the umbra, and total, partial and annular eclipses.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nasa-eclipse-types",
+   "kind": "primary",
+   "title": "Types of Solar Eclipses",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/eclipses/types/",
+   "note": "NASA's guide to total, annular, partial and hybrid solar eclipses, with diagrams."
+  },
+  {
+   "id": "nasa-eclipse-safety",
+   "kind": "article",
+   "title": "Eclipse Viewing Safety",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/eclipses/safety/",
+   "note": "NASA's advice on watching a solar eclipse without hurting your eyes, including indirect viewing methods."
+  },
+  {
+   "id": "crashcourse-eclipses",
+   "kind": "video",
+   "title": "Eclipses: Crash Course Astronomy #5",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=PRgua7xceDA",
+   "note": "A Crash Course Astronomy episode on how solar and lunar eclipses happen."
+  }
+ ]
+}

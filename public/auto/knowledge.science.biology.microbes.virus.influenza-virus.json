@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.virus.influenza-virus",
+ "name": "Influenza virus",
+ "summary": [
+  {
+   "text": "Influenza A virus, or IAV, is a pathogen whose strains cause seasonal flu in humans and can also infect birds and some mammals.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its subtypes are defined by the combination of two surface proteins, hemagglutinin (H) and neuraminidase (N), as in H1N1.",
+   "cites": [
+    4,
+    18,
+    20
+   ]
+  },
+  {
+   "text": "The virus changes through mutation and genetic reassortment, which lets it evade immunity and sometimes jump between species.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Notable pandemic",
+   "value": "The Spanish Flu pandemic of 1918 to 1920",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Known protein types",
+   "value": "18 types of hemagglutinin and 11 of neuraminidase",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Genome layout",
+   "value": "Eight separate RNA segments",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Virion size",
+   "value": "80 to 120 nanometers in diameter",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Global monitoring",
+   "value": "GISRS tests specimens through labs in 127 countries",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A flu sample is labeled H5N1. What do those characters tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Five hosts it has infected, and one of them human"
+    },
+    {
+     "id": "b",
+     "label": "A type-5 hemagglutinin and a type-1 neuraminidase on its surface"
+    },
+    {
+     "id": "c",
+     "label": "The fifth of eight genome segments and the first of eleven"
+    },
+    {
+     "id": "d",
+     "label": "Five years since its first sighting and one since the last"
+    }
+   ],
+   "answer": "b",
+   "explain": "H5N1 designates a subtype with a type-5 hemagglutinin protein and a type-1 neuraminidase protein.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.biology.microbes.virus.influenza-virus:q1"
+  },
+  {
+   "prompt": "Why can't one flu vaccine recipe be used year after year?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The virus keeps changing, so vaccines must be reformulated to keep up"
+    },
+    {
+     "id": "b",
+     "label": "A new species of influenza A appears each year"
+    },
+    {
+     "id": "c",
+     "label": "Vaccines wear out in storage over a few months"
+    },
+    {
+     "id": "d",
+     "label": "The immune system forgets a vaccine every winter"
+    }
+   ],
+   "answer": "a",
+   "explain": "IAV vaccines need to be reformulated regularly to keep up with changes in the virus, which changes through mutation and reassortment.",
+   "cites": [
+    6,
+    15,
+    16
+   ],
+   "id": "knowledge.science.biology.microbes.virus.influenza-virus:q2"
+  },
+  {
+   "prompt": "A sample is named A/Rio de Janeiro/62434/2021, with no animal field. From what was it collected by default?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A pig"
+    },
+    {
+     "id": "b",
+     "label": "A wild bird"
+    },
+    {
+     "id": "c",
+     "label": "A bat"
+    },
+    {
+     "id": "d",
+     "label": "A human"
+    }
+   ],
+   "answer": "d",
+   "explain": "When no species is mentioned in the name, the sample was by default collected from a human.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.science.biology.microbes.virus.influenza-virus:q3"
+  },
+  {
+   "prompt": "Some aquatic birds show no symptoms from a bird-adapted strain. What could happen if it reaches a chicken farm?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It would stay harmless, as it is in the ducks"
+    },
+    {
+     "id": "b",
+     "label": "It would be unable to infect chickens"
+    },
+    {
+     "id": "c",
+     "label": "It could be lethal to the chickens"
+    },
+    {
+     "id": "d",
+     "label": "It would turn into seasonal human flu"
+    }
+   ],
+   "answer": "c",
+   "explain": "Bird-adapted strains can be asymptomatic in some aquatic birds but lethal if they spread to other species, such as chickens.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.biology.microbes.virus.influenza-virus:q4"
+  },
+  {
+   "prompt": "On a poultry farm, what do experts prefer to vaccination for controlling IAV disease?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Biosecurity measures such as quarantine, segregation and good hygiene"
+    },
+    {
+     "id": "b",
+     "label": "Treating birds early with antiviral medicines"
+    },
+    {
+     "id": "c",
+     "label": "Letting the flock mix with wild birds"
+    },
+    {
+     "id": "d",
+     "label": "Housing the poultry beside pigs"
+    }
+   ],
+   "answer": "a",
+   "explain": "Vaccination can prevent IAV disease in poultry, but biosecurity control measures such as quarantine, segregation and good hygiene are preferred.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.biology.microbes.virus.influenza-virus:q5"
+  },
+  {
+   "prompt": "Which two proteins stick out like spikes from the influenza envelope and can trigger antibodies?",
+   "options": [
+    {
+     "id": "a",
+     "label": "PB1 and PB2"
+    },
+    {
+     "id": "b",
+     "label": "Hemagglutinin and neuraminidase"
+    },
+    {
+     "id": "c",
+     "label": "The nucleoprotein and M1"
+    },
+    {
+     "id": "d",
+     "label": "M2 and PA"
+    }
+   ],
+   "answer": "b",
+   "explain": "Hemagglutinin and neuraminidase are inserted into the envelope as spikes, and both are antigenic.",
+   "cites": [
+    40,
+    41
+   ],
+   "id": "knowledge.science.biology.microbes.virus.influenza-virus:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Viruses-12-00504-g001.webp/960px-Viruses-12-00504-g001.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Influenza virus",
+  "credit": "Hi Eun Jung and Heung Kyu Lee",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Viruses-12-00504-g001.webp"
+ },
+ "source": {
+  "title": "Influenza A virus",
+  "url": "https://en.wikipedia.org/wiki/Influenza_A_virus",
+  "revision": 1382773909
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A virus of people, birds and beasts",
+    "text": "Influenza A virus, often shortened to IAV, is the germ behind the flu that comes round every season in people. It does not stay with humans alone. Some strains live in birds, and others keep circulating among bats, pigs, horses and dogs, while further mammals catch it now and then. IAV has also set off several pandemics, the best known being the Spanish Flu of 1918 to 1920.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Names built from two proteins",
+    "text": "Two proteins stick out from the virus's outer coat: hemagglutinin, written H, and neuraminidase, written N. Both are antigenic, meaning a host's immune system can recognise them and make antibodies against them. Each subtype of the virus is named after the pair it carries, so H5N1 has hemagglutinin of type 5 and neuraminidase of type 1. There are 18 known kinds of H and 11 kinds of N. Wild birds have yielded almost every pairing of H1 to H16 with N1 to N11, while H17 and H18 have turned up only in bats.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24,
+     41
+    ]
+   },
+   {
+    "heading": "Inside the particle",
+    "text": "A single virus particle, called a virion, measures 80 to 120 nanometres across; the smaller ones are oval and the larger ones are long threads. Its genes are written in RNA, split into eight separate pieces called segments. A protein named NP wraps each piece into a spiral, and three larger proteins, PB1, PB2 and PA, sit on every segment to copy and read the RNA. A layer of the M1 protein surrounds this core, and outside that lies an envelope of fatty membrane taken from the host cell.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     45
+    ]
+   },
+   {
+    "heading": "Why the flu keeps changing",
+    "text": "The virus keeps changing, through mutation and through what is called genetic reassortment. These changes help it slip past immunity and sometimes leap from one species to another. Small differences inside a subtype can change how readily it spreads, how ill it makes people, and which hosts it can infect. That is why flu vaccines have to be reworked again and again to keep pace with the virus.",
+    "cites": [
+     6,
+     5,
+     15,
+     25
+    ]
+   },
+   {
+    "heading": "Illness in people and poultry",
+    "text": "Seasonal flu in people usually brings fever, cough, sore throat, aching muscles and headache, and in bad cases breathing trouble and a pneumonia that can kill. Now and then a person catches a bird or pig strain, most often after close contact with sick animals, and the illness can range from mild to deadly. In some water birds a bird strain causes no signs at all, yet the same strain can be lethal once it reaches chickens. Poultry can be vaccinated against it, though quarantine, keeping flocks apart and good hygiene are the favoured defences.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Keeping watch worldwide",
+    "text": "In people, a vaccine can prevent seasonal flu, and antiviral medicines can treat it if given early. A worldwide network called the Global Influenza Surveillance and Response System, or GISRS, tracks how flu spreads and guides the making of vaccines for both ordinary seasons and pandemics. Its laboratories in 127 countries test several million samples every year. They watch not only human viruses but also bird, pig and other flu viruses that might one day infect people.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cdc-flu-types",
+   "kind": "article",
+   "title": "Types of Influenza Viruses",
+   "by": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/flu/about/viruses-types.html",
+   "note": "The CDC's plain guide to flu types, H and N subtypes, and how flu viruses are named, including A(H1N1)pdm09."
+  },
+  {
+   "id": "teded-flu-shot",
+   "kind": "video",
+   "title": "How often should you get a flu shot?",
+   "by": "TED-Ed",
+   "url": "https://www.youtube.com/watch?v=FZ_jNGKCIWs",
+   "minutes": 5,
+   "note": "A TED-Ed lesson on how flu viruses change so fast that a new vaccine is designed every season."
+  },
+  {
+   "id": "scishow-bird-flu",
+   "kind": "video",
+   "title": "Bird Flu is Here",
+   "by": "SciShow",
+   "url": "https://www.youtube.com/watch?v=5CyVi4UzKxE",
+   "minutes": 39,
+   "note": "A SciShow deep dive into the history of avian influenza and its spread to cows in North America."
+  }
+ ]
+}

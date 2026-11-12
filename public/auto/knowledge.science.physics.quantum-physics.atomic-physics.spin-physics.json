@@ -1,0 +1,333 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics",
+ "name": "Spin (physics)",
+ "summary": [
+  {
+   "text": "Spin is an intrinsic form of angular momentum carried by elementary particles, and so by composite particles like nuclei and atoms.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is quantized, taking only discrete values, and it is usually quoted as a dimensionless spin quantum number.",
+   "cites": [
+    2,
+    10,
+    11
+   ]
+  },
+  {
+   "text": "Despite the name, a particle is not literally spinning, because a rotating-ball model would need the electron to turn faster than light.",
+   "cites": [
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Kind of quantity",
+   "value": "Intrinsic angular momentum of particles",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Key experiment",
+   "value": "Stern–Gerlach: silver atoms showed two discrete angular momenta",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Link to exclusion",
+   "value": "Observed exclusion implies half-integer spin, and vice versa",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "Same as classical angular momentum, such as J·s",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Rotating-ball flaw",
+   "value": "Required rotation speed exceeds the speed of light",
+   "cites": [
+    13,
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Someone says an electron's spin means a tiny ball turning on its axis. Why does that picture fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Balls cannot be charged"
+    },
+    {
+     "id": "b",
+     "label": "The spin would have to be too slow to detect"
+    },
+    {
+     "id": "c",
+     "label": "The needed rotation speed would exceed light speed"
+    },
+    {
+     "id": "d",
+     "label": "Electrons are much bigger than atoms"
+    }
+   ],
+   "answer": "c",
+   "explain": "A rotating charged mass does not match limits on the electron radius, and the required rotation speed exceeds the speed of light.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics:q1"
+  },
+  {
+   "prompt": "In the Stern–Gerlach experiment, silver atoms showed two possible discrete angular momenta. What did that suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The atoms were just spinning in orbit"
+    },
+    {
+     "id": "b",
+     "label": "They carry angular momentum beyond orbiting"
+    },
+    {
+     "id": "c",
+     "label": "The magnet was probably faulty"
+    },
+    {
+     "id": "d",
+     "label": "Silver atoms each have two nuclei"
+    }
+   ],
+   "answer": "b",
+   "explain": "The atoms showed two discrete angular momenta despite having no orbital angular momentum, which is how electron spin is inferred.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics:q2"
+  },
+  {
+   "prompt": "Energy is transferred to or from an electron's spin. How does the spin take it up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In fixed quantum steps"
+    },
+    {
+     "id": "b",
+     "label": "In smooth, continuous amounts"
+    },
+    {
+     "id": "c",
+     "label": "Only in negative amounts"
+    },
+    {
+     "id": "d",
+     "label": "Not at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Quantum wavefields allow only discrete values, so energy transfer to or from spin states occurs in fixed quantum steps.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics:q3"
+  },
+  {
+   "prompt": "Two identical electrons share an orbital in an atom. What does the connection between spin and exclusion tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any number of particles may share the state"
+    },
+    {
+     "id": "b",
+     "label": "Spin never affects where particles sit"
+    },
+    {
+     "id": "c",
+     "label": "Only heavy particles obey exclusion"
+    },
+    {
+     "id": "d",
+     "label": "Half-integer spin goes together with exclusion"
+    }
+   ],
+   "answer": "d",
+   "explain": "The spin–statistics theorem connects electron spin quantization to the Pauli exclusion principle: half-integer spin and exclusion imply each other.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics:q4"
+  },
+  {
+   "prompt": "Wolfgang Pauli first resisted calling his new two-valued property a rotation. How did he treat it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As an abstract property, not a literal rotation"
+    },
+    {
+     "id": "b",
+     "label": "As a proven tiny spinning ball"
+    },
+    {
+     "id": "c",
+     "label": "As a measurement mistake"
+    },
+    {
+     "id": "d",
+     "label": "As the electron's mass"
+    }
+   ],
+   "answer": "a",
+   "explain": "He called it classically non-describable two-valuedness and later accepted a link to angular momentum while still treating spin as abstract.",
+   "cites": [
+    17,
+    18,
+    19
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics:q5"
+  },
+  {
+   "prompt": "Spin is often just called a number such as 1/2. What is that number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The particle's speed in metres per second"
+    },
+    {
+     "id": "b",
+     "label": "The count of electrons in the atom"
+    },
+    {
+     "id": "c",
+     "label": "The spin angular momentum divided by the reduced Planck constant"
+    },
+    {
+     "id": "d",
+     "label": "The particle's electric charge"
+    }
+   ],
+   "answer": "c",
+   "explain": "In practice spin is given as a dimensionless spin quantum number by dividing spin angular momentum by the reduced Planck constant ħ.",
+   "cites": [
+    10,
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.spin-physics:q6"
+  }
+ ],
+ "source": {
+  "title": "Spin (physics)",
+  "url": "https://en.wikipedia.org/wiki/Spin_(physics)",
+  "revision": 1383393253
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A particle's own angular momentum",
+    "text": "Spin is a form of angular momentum that belongs to a particle itself. Elementary particles carry it, and so do particles built from them, such as hadrons, atomic nuclei and atoms. Spin is quantized, meaning it takes only certain separate values, and describing its interactions accurately needs relativistic quantum mechanics or quantum field theory. It is measured in the same units as ordinary angular momentum, such as J·s.",
+    "cites": [
+     1,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "How we know it is there",
+    "text": "We know electron spin exists because of experiments like the one by Stern and Gerlach. There, silver atoms showed two distinct angular momenta, even though they had no orbital angular momentum. The spin–statistics theorem ties spin to the Pauli exclusion principle: seeing exclusion implies half-integer spin, and seeing half-integer spin implies exclusion.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Counting spin",
+    "text": "Every elementary particle of a given kind has the same size of spin, though its direction can change. That size is given by a spin quantum number. In practice, the spin angular momentum is divided by the reduced Planck constant ħ to give a plain number with no units, and this number is often just called \"spin\". For some particles, such as photons, spin is described as a vector. For others, such as electrons, it is a spinor, which has a size and changes under rotation like a vector but uses an unusual kind of direction.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Not a spinning ball",
+    "text": "The first models pictured the electron as a charged ball rotating on an axis, as the everyday word suggests. That picture breaks down when examined closely. The charge would have to be spread in a way that does not fit limits on the electron's radius, and it would have to turn faster than light. In the Standard Model, basic particles are treated as points that act through the field around them, so turning on their own axis is not well-defined. The names from these mechanical pictures have stayed, but the explanation has not.",
+    "cites": [
+     13,
+     14,
+     15,
+     23,
+     37,
+     39
+    ]
+   },
+   {
+    "heading": "Pauli's abstract view",
+    "text": "Wolfgang Pauli at first refused to link the new quantity he introduced with rotation, calling it a two-valuedness that classical physics cannot describe. Later he accepted a link to angular momentum but still treated spin as an abstract property. That stance let him prove his exclusion principle, in what is now called the spin-statistics theorem. Looking back, it helped open the modern era of particle physics, where abstract properties drawn from symmetry lead and concrete pictures are secondary.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Steps, not slopes",
+    "text": "Spin can also be seen as a property of waves. Hans Ohanian argued that it comes from charge flowing in circles within the electron's wave field, and a similar idea applies to water waves, where water particles move in circles smaller than a wavelength. Classical waves allow any amount of angular momentum, but quantum wave fields allow only separate values. So energy moves into or out of spin states in fixed steps. For many purposes, physicists can simply talk of integer or half-integer spin.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-8-3",
+   "kind": "book",
+   "title": "8.3 Electron Spin",
+   "by": "OpenStax (Samuel J. Ling, Jeff Sanny, William Moebs)",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/8-3-electron-spin",
+   "note": "A free textbook section on electron spin, its quantum numbers and its magnetic moment.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "fitzpatrick-ch9",
+   "kind": "book",
+   "title": "9: Spin Angular Momentum",
+   "by": "Richard Fitzpatrick",
+   "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/09%3A_Spin_Angular_Momentum",
+   "note": "A more mathematical textbook chapter treating spin as quantum angular momentum.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

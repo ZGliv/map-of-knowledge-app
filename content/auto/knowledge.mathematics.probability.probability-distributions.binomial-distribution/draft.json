@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "The binomial distribution gives the probability of each possible number of successes in n independent yes-no experiments, each with success probability p.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A single success-or-failure experiment is a Bernoulli trial, and with just one trial the binomial distribution becomes a Bernoulli distribution.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It models successes in a sample drawn with replacement; without replacement the draws are not independent and the result is hypergeometric instead.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Parameters",
+   "value": "The number of trials n and the success probability p",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "One trial",
+   "value": "With n = 1 it is a Bernoulli distribution",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Same-probability sequences",
+   "value": "Any sequence with k successes is equally probable, wherever they fall",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Large populations",
+   "value": "Stays a good approximation when N is much larger than n",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Used in testing",
+   "value": "It is the basis for the binomial test of significance",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You flip the same coin 5 times, with each flip unaffected by the others, and count how many land heads. Which distribution fits that count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric"
+    },
+    {
+     "id": "b",
+     "label": "Normal, because coins are everyday objects"
+    },
+    {
+     "id": "c",
+     "label": "Binomial"
+    },
+    {
+     "id": "d",
+     "label": "Bernoulli, because a coin has two sides"
+    }
+   ],
+   "answer": "c",
+   "explain": "Counting successes over a fixed number of independent yes-no experiments is the binomial distribution. A Bernoulli distribution covers just one trial.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "prompt": "Three independent shots each have the same chance of going in. Sequence one: in, in, miss. Sequence two: miss, in, in. How do their probabilities compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are equal"
+    },
+    {
+     "id": "b",
+     "label": "Sequence one is likelier, since it starts well"
+    },
+    {
+     "id": "c",
+     "label": "Sequence two is likelier, since it ends well"
+    },
+    {
+     "id": "d",
+     "label": "They cannot be compared"
+    }
+   ],
+   "answer": "a",
+   "explain": "With independent trials and a constant chance, any sequence with the same number of successes is equally probable, wherever they fall.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "You take 4 independent shots and score exactly once. In how many different orders could that one success have come?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "16"
+    },
+    {
+     "id": "d",
+     "label": "4"
+    }
+   ],
+   "answer": "d",
+   "explain": "Counting the sequences means choosing which trial holds the success. With 4 trials there are 4 places for it.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A bag holds a few marbles and you pull out three, keeping each one out. Why is the binomial distribution not exactly right for the count of one colour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Marbles have more than two colours"
+    },
+    {
+     "id": "b",
+     "label": "Three draws is too few for any distribution"
+    },
+    {
+     "id": "c",
+     "label": "Each draw is a certain success"
+    },
+    {
+     "id": "d",
+     "label": "Taking one out changes the next draw, so they are not independent"
+    }
+   ],
+   "answer": "d",
+   "explain": "Sampling without replacement makes the draws dependent, so the result is hypergeometric rather than binomial.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "A pollster picks 100 people from a country of millions, never asking anyone twice, and counts the yes answers. Is the binomial distribution reasonable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because picking without replacement rules it out"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as a good approximation, since the population is far larger than the sample"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if the pollster picks the same person twice"
+    },
+    {
+     "id": "d",
+     "label": "No, because the answers must be exactly independent"
+    }
+   ],
+   "answer": "b",
+   "explain": "Without replacement the draws are not independent, but when the population is much larger than the sample the binomial remains a good approximation.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "You run one yes-no experiment and count its successes, which can only be 0 or 1. Which distribution is the binomial in this case?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric"
+    },
+    {
+     "id": "b",
+     "label": "Bernoulli"
+    },
+    {
+     "id": "c",
+     "label": "A distribution with n = 0"
+    },
+    {
+     "id": "d",
+     "label": "Binomial with no parameters"
+    }
+   ],
+   "answer": "b",
+   "explain": "With a single trial (n = 1) the binomial distribution is a Bernoulli distribution.",
+   "cites": [
+    3
+   ]
+  }
+ ]
+}

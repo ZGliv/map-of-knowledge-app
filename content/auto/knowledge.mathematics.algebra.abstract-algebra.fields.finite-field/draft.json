@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A finite field, also called a Galois field after Évariste Galois, is a field that has a finite number of elements.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The most common examples are the integers mod p for a prime number p, and the number of elements is always a prime number or a prime power.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Finite fields are fundamental in number theory, algebraic geometry, Galois theory, finite geometry, cryptography and coding theory.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Évariste Galois, so they are also called Galois fields",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Order",
+   "value": "The number of elements, which is a prime or a prime power",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Uniqueness",
+   "value": "All finite fields of a given order are isomorphic",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Nonzero elements",
+   "value": "They form a cyclic multiplicative group",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Simplest examples",
+   "value": "The integers mod a prime, with elements written 0, …, p − 1",
+   "cites": [
+    18,
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You work in the finite field made from the integers mod a prime p, and add two elements as ordinary integers. How do you get the answer in the field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Keep the ordinary sum unchanged"
+    },
+    {
+     "id": "b",
+     "label": "Take the remainder of the sum after dividing by p"
+    },
+    {
+     "id": "c",
+     "label": "Multiply the sum by p"
+    },
+    {
+     "id": "d",
+     "label": "Subtract p from the sum exactly once"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the prime field, sums, differences and products are the remainder of the division by p of the corresponding integer result.",
+   "cites": [
+    18,
+    20
+   ]
+  },
+  {
+   "prompt": "Someone searches for a finite field with exactly 4, 6, 10 or 12 elements. Which size is the one that works?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "10"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "12"
+    }
+   ],
+   "answer": "c",
+   "explain": "A finite field of order q exists if and only if q is a prime power pᵏ, with p a prime and k a positive integer; 4 is 2², while 6, 10 and 12 are not prime powers.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "Two researchers each build a finite field of the same order, using different constructions. How do their fields compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are isomorphic, so effectively the same field"
+    },
+    {
+     "id": "b",
+     "label": "They must differ, as each construction gives its own field"
+    },
+    {
+     "id": "c",
+     "label": "They match only when the order is prime"
+    },
+    {
+     "id": "d",
+     "label": "They match only when both are built from integers"
+    }
+   ],
+   "answer": "a",
+   "explain": "All finite fields of a given order are isomorphic, so they can be identified and written with the single name GF(q).",
+   "cites": [
+    6,
+    12,
+    14
+   ]
+  },
+  {
+   "prompt": "A finite field has an order that is a power of the prime p. You add p copies of the same element together. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The element itself"
+    },
+    {
+     "id": "b",
+     "label": "The number p"
+    },
+    {
+     "id": "c",
+     "label": "The element multiplied by itself"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "In a field of prime-power order, summing p copies of any element always gives zero; this means the field has characteristic p.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "Can every nonzero element of a finite field be written as repeated multiplication of one single element?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, each element needs its own generator"
+    },
+    {
+     "id": "b",
+     "label": "Yes, powers of one primitive element reach them all"
+    },
+    {
+     "id": "c",
+     "label": "No, only half of them can be reached"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only when the order is even"
+    }
+   ],
+   "answer": "b",
+   "explain": "The nonzero elements form a cyclic multiplicative group, so all of them are powers of a single primitive element.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "In the finite field of integers mod a prime, you need the multiplicative inverse of some element. Which method can compute it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dividing 1 by the element as ordinary numbers"
+    },
+    {
+     "id": "b",
+     "label": "Taking the element's negative"
+    },
+    {
+     "id": "c",
+     "label": "Squaring the element repeatedly"
+    },
+    {
+     "id": "d",
+     "label": "The extended Euclidean algorithm"
+    }
+   ],
+   "answer": "d",
+   "explain": "The multiplicative inverse of an element of the prime field may be computed with the extended Euclidean algorithm.",
+   "cites": [
+    18,
+    21
+   ]
+  }
+ ]
+}

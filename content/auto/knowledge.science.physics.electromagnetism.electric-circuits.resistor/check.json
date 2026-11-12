@@ -1,0 +1,70 @@
+{
+ "draftHash": "4fe5ed8ab34d5cad7f03bf8a33fbc21cc50e59fa",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "a",
+  "q2": "b",
+  "q3": "c",
+  "q4": "d",
+  "q5": "a",
+  "q6": "b"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "S1 says this nearly verbatim"
+  },
+  "s1": {
+   "supported": true,
+   "why": "S2 lists reduce current, adjust signal levels, divide voltages, bias; S18 gives proportionality"
+  },
+  "s2": {
+   "supported": true,
+   "why": "S31 heat, S32 max power rating, S37 exceeding it causes damage"
+  },
+  "f0": {
+   "supported": true,
+   "why": "S20-21 ohm = volt per ampere"
+  },
+  "f1": {
+   "supported": true,
+   "why": "S23 series sum"
+  },
+  "f2": {
+   "supported": true,
+   "why": "S24 reciprocal of sum of reciprocals; reciprocals add is the same idea"
+  },
+  "f3": {
+   "supported": true,
+   "why": "S14 8K2 = 8.2 kilohm"
+  },
+  "f4": {
+   "supported": true,
+   "why": "S33 states 1/10, 1/8, 1/4 W"
+  },
+  "q1": {
+   "supported": true,
+   "why": "S19 gives the exact example"
+  },
+  "q2": {
+   "supported": true,
+   "why": "S24 rule and S25 example result 2.727 below the smallest"
+  },
+  "q3": {
+   "supported": true,
+   "why": "S23"
+  },
+  "q4": {
+   "supported": true,
+   "why": "S37 permanent damage, S38 burn board or fire"
+  },
+  "q5": {
+   "supported": true,
+   "why": "S5 lamp dimmer"
+  },
+  "q6": {
+   "supported": true,
+   "why": "S31 converted to heat to be dissipated"
+  }
+ }
+}

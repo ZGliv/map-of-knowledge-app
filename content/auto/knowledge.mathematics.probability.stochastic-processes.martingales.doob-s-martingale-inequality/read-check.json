@@ -1,0 +1,34 @@
+{
+ "readHash": "ce4e2a2775e1702c33eb2d9dbbb044799926c5cf",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Names, bound on exceeding a value over time, martingale/submartingale scope and attribution all from 1,2,4,5 (Doob from the inequality's name in 1)."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Final expectation controls chance of exceeding earlier (9); running maximum bounded by terminal expectation, tool for extreme path behavior (3)."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Direct proof without restrictive assumptions (10), property used once with conditional expectation (14), stopped-submartingale reading and minimal index as stopping time (15,16)."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Right/left continuity needed only for countable dense subset sup (11), flexibility via increasing finite sets (20), general index sets (21)."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Further Doob inequalities (22), martingale or positive submartingale with right-continuous paths (23), Jensen for |X|^p (24), layer cake + Holder gives maximal inequality (25,26)."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Partial sums martingale (27), |S_n| nonnegative submartingale by Jensen (28), which is precisely Kolmogorov's inequality (29)."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Precursor to BDG two-sided bounds via quadratic variation (30), p=2 foundational to Ito integral (31), step to convergence theorems and no infinite oscillation enabling a.s. convergence (34-36)."
+  }
+ }
+}

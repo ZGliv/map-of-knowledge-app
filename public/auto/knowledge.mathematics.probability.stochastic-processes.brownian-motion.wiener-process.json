@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process",
+ "name": "Wiener process",
+ "summary": [
+  {
+   "text": "The Wiener process, also called Brownian motion, is a real-valued continuous-time stochastic process named after Norbert Wiener.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A time step u gives an increment that is normally distributed with mean 0 and variance u, its paths are almost surely continuous, and increments over separate periods are independent.",
+   "cites": [
+    16,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "text": "It appears in pure and applied mathematics, economics, quantitative finance, evolutionary biology and physics, and it gave rise to the study of continuous time martingales.",
+   "cites": [
+    3,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Norbert Wiener",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Step size rule",
+   "value": "A time step u gives an increment with mean 0, variance u",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Built from",
+   "value": "Scaling limit of a random walk (Donsker's theorem)",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "label": "Path shape",
+   "value": "Unbounded variation, so not absolutely continuous",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Coming back",
+   "value": "Recurrent in one or two dimensions, not in three or more",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A Wiener process is watched for a short step, and then for a step four times as long. How does the variance of its change compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The longer step has the same variance"
+    },
+    {
+     "id": "b",
+     "label": "The longer step has twice the variance"
+    },
+    {
+     "id": "c",
+     "label": "The longer step has four times the variance"
+    },
+    {
+     "id": "d",
+     "label": "The longer step has sixteen times the variance"
+    }
+   ],
+   "answer": "c",
+   "explain": "A time step u gives an increment with variance u, so the variance grows in proportion to the length of the step.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process:q1"
+  },
+  {
+   "prompt": "You watch a Wiener process climb sharply during the first hour. What does that say about its change in a separate, later hour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It tells you nothing, because changes over separate periods are independent"
+    },
+    {
+     "id": "b",
+     "label": "It must fall back, to make up for the climb"
+    },
+    {
+     "id": "c",
+     "label": "It must keep climbing at the same pace"
+    },
+    {
+     "id": "d",
+     "label": "It must stay still, as the process has used up its motion"
+    }
+   ],
+   "answer": "a",
+   "explain": "The process has independent increments: changes over non-overlapping time periods are independent random variables.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process:q2"
+  },
+  {
+   "prompt": "A walker flips a coin for each step. If the steps are made smaller and faster in the right way, what does the walk approach?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight line"
+    },
+    {
+     "id": "b",
+     "label": "A fixed point it never leaves"
+    },
+    {
+     "id": "c",
+     "label": "A process that always moves one way"
+    },
+    {
+     "id": "d",
+     "label": "The Wiener process"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Wiener process can be built as the scaling limit of a random walk, a result known as Donsker's theorem.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process:q3"
+  },
+  {
+   "prompt": "Two random wanderers follow Wiener processes, one moving on a flat floor and one flying through a room. Which one keeps returning near its start?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wanderer on the floor"
+    },
+    {
+     "id": "b",
+     "label": "The flying wanderer"
+    },
+    {
+     "id": "c",
+     "label": "Both of them equally"
+    },
+    {
+     "id": "d",
+     "label": "Neither of them ever does"
+    }
+   ],
+   "answer": "a",
+   "explain": "The Wiener process is recurrent in one or two dimensions, but not in three or higher.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process:q4"
+  },
+  {
+   "prompt": "An electronics engineer wants to model random noise as the running total of white Gaussian noise. Which process fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight-line trend"
+    },
+    {
+     "id": "b",
+     "label": "A Wiener process"
+    },
+    {
+     "id": "c",
+     "label": "A coin that always lands heads"
+    },
+    {
+     "id": "d",
+     "label": "A fixed repeating wave"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Wiener process is used to represent the integral of a white noise Gaussian process, so it is useful as a model of noise in electronics engineering.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process:q5"
+  },
+  {
+   "prompt": "Could the path of a Wiener process be recorded as an ordinary running total of some fixed function ξ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any continuous path can be written that way"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only over very short time spans"
+    },
+    {
+     "id": "c",
+     "label": "No, its paths have unbounded variation"
+    },
+    {
+     "id": "d",
+     "label": "No, because its paths are never continuous"
+    }
+   ],
+   "answer": "c",
+   "explain": "Its paths have unbounded variation and are not absolutely continuous, so Wₜ cannot be represented as an integral over a function ξ.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.wiener-process:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Wiener_process_with_sigma.svg/960px-Wiener_process_with_sigma.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Wiener process",
+  "credit": "Wikimedia Commons",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Wiener_process_with_sigma.svg"
+ },
+ "source": {
+  "title": "Wiener process",
+  "url": "https://en.wikipedia.org/wiki/Wiener_process",
+  "revision": 1383450388
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The Wiener process is a random process that runs in continuous time and takes real-number values. It is named after Norbert Wiener, and it is also called Brownian motion because of its historical link with the physical process of that name. It belongs to the Lévy processes, a family whose increments are stationary and independent, and it is one of the best known members of that family.",
+    "cites": [
+     1,
+     2,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Its basic properties",
+    "text": "Write Wₜ for the value of the process at time t. Over a time step of length u, the change, or increment, is normally distributed with mean 0 and variance u, written W_(t+u) − Wₜ ∼ N (0, u). Changes over time periods that do not overlap are independent random variables, and each future change is independent of everything the process did up to now. Its path is also almost surely continuous in time.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Simple numbers",
+    "text": "These rules lead to simple formulas. The variance of Wₜ is t, so the longer the process runs, the larger its variance. For two times s ≤ t, the covariance of Wₛ and Wₜ is s. Working this out uses only one consequence of the independence of non-overlapping changes: that they are uncorrelated.",
+    "cites": [
+     41,
+     42,
+     45
+    ]
+   },
+   {
+    "heading": "The limit of a random walk",
+    "text": "One way to build the Wiener process is as the scaling limit of a random walk, or of other step-by-step random processes with stationary independent increments; this is Donsker's theorem. For a large number of steps n, the change in the scaled walk between times s and t is, by the central limit theorem, close to N (0, t − s). As n grows without end, the walk approaches a Wiener process. This gives a mathematical explanation for why Brownian motion turns up so often in nature. Like a random walk, the process keeps returning to any neighbourhood of its starting point in one or two dimensions, but not in three or more.",
+    "cites": [
+     33,
+     34,
+     35,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "In pure mathematics",
+    "text": "Within pure mathematics, the study of continuous-time martingales grew out of the Wiener process. It serves as a basic process in terms of which more complicated random processes can be described. That makes it vital to stochastic calculus and to diffusion processes, and it matters even in potential theory. It is also the driving process of Schramm–Loewner evolution.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Across the sciences",
+    "text": "The process has applications throughout the mathematical sciences. In applied mathematics it represents the integral of Gaussian white noise, so it models noise in electronics, errors of instruments in filtering theory and disturbances in control. Physicists use it to model Brownian motion and other diffusion, often through the Fokker–Planck and Langevin equations, and the Feynman–Kac formula links it to solutions of the Schrödinger equation. It also appears in cosmological models of eternal inflation, and it is prominent in finance, in particular in the Black–Scholes option pricing model.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "siegrist-brownian-motion",
+   "kind": "book",
+   "title": "18: Brownian Motion - Probability, Mathematical Statistics, and Stochastic Processes (Siegrist)",
+   "by": "Kyle Siegrist",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/18%3A_Brownian_Motion",
+   "note": "A free textbook chapter opening with standard Brownian motion (the Wiener process): its definition and properties.",
+   "license": "CC BY 2.0"
+  }
+ ]
+}

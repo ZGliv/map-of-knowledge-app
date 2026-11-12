@@ -1,0 +1,320 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference",
+ "name": "Bayesian inference",
+ "summary": [
+  {
+   "text": "Bayesian inference is a method of statistical inference that uses Bayes' theorem to calculate the probability of a hypothesis and update it as more information arrives.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Fundamentally, it uses a prior distribution to estimate posterior probabilities.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It has been applied in science, engineering, philosophy, medicine, sport, psychology and law.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Hypothesis",
+   "value": "Any claim whose probability may be affected by evidence",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Likelihood",
+   "value": "The probability of seeing the evidence if the hypothesis holds",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Posterior",
+   "value": "The probability of the hypothesis after the evidence is observed",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Where it is used",
+   "value": "Science, medicine, sport, psychology, law and more",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two explanations compete for why your lawn is wet. What job does Bayesian inference do here?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It picks whichever explanation was proposed first"
+    },
+    {
+     "id": "b",
+     "label": "It removes the competing explanation from consideration"
+    },
+    {
+     "id": "c",
+     "label": "It counts how many people believe each explanation"
+    },
+    {
+     "id": "d",
+     "label": "It helps decide which explanation is most probable"
+    }
+   ],
+   "answer": "d",
+   "explain": "Often there are competing hypotheses, and the task is to determine which is the most probable.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference:q1"
+  },
+  {
+   "prompt": "Before looking at any new data, you estimate how likely your hypothesis is. What is that estimate called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The posterior probability"
+    },
+    {
+     "id": "b",
+     "label": "The prior probability"
+    },
+    {
+     "id": "c",
+     "label": "The marginal likelihood"
+    },
+    {
+     "id": "d",
+     "label": "The likelihood function"
+    }
+   ],
+   "answer": "b",
+   "explain": "The prior probability is the estimate of the probability of the hypothesis before the current evidence is observed.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference:q2"
+  },
+  {
+   "prompt": "A hypothesis predicts the evidence you actually saw very well. Which quantity measures how well the evidence fits the hypothesis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The likelihood"
+    },
+    {
+     "id": "b",
+     "label": "The prior"
+    },
+    {
+     "id": "c",
+     "label": "The posterior"
+    },
+    {
+     "id": "d",
+     "label": "The marginal"
+    }
+   ],
+   "answer": "a",
+   "explain": "The likelihood is the probability of observing the evidence given the hypothesis, and it indicates the compatibility of the evidence with that hypothesis.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference:q3"
+  },
+  {
+   "prompt": "Two hypotheses are judged against the same evidence. Which two things decide how their posterior probabilities compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The size of the data set and the date"
+    },
+    {
+     "id": "b",
+     "label": "Only the evidence, which differs between them"
+    },
+    {
+     "id": "c",
+     "label": "Each one's prior and its likelihood"
+    },
+    {
+     "id": "d",
+     "label": "Only the hypothesis names"
+    }
+   ],
+   "answer": "c",
+   "explain": "The term for the evidence is the same for every hypothesis, so only the prior and the likelihood affect the posterior.",
+   "cites": [
+    17,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference:q4"
+  },
+  {
+   "prompt": "Data keeps arriving day after day and your belief must keep adjusting. Where is Bayesian updating especially important?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In analysing a sequence of data over time"
+    },
+    {
+     "id": "b",
+     "label": "In data that can never change"
+    },
+    {
+     "id": "c",
+     "label": "In choosing which numbers to ignore"
+    },
+    {
+     "id": "d",
+     "label": "In problems with a single observation only"
+    }
+   ],
+   "answer": "a",
+   "explain": "Bayesian updating is particularly important in the dynamic analysis of a sequence of data.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference:q5"
+  },
+  {
+   "prompt": "A friend says Bayesian updating is the only updating rule anyone could consider rational. How does that hold up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It holds, since no other rule exists at all"
+    },
+    {
+     "id": "b",
+     "label": "It holds, since other rules always break down"
+    },
+    {
+     "id": "c",
+     "label": "It fails, since the method is rarely used today"
+    },
+    {
+     "id": "d",
+     "label": "It fails: others are considered, though this one is common"
+    }
+   ],
+   "answer": "d",
+   "explain": "Bayesian updating is widely used and computationally convenient, but it is not the only updating rule that might be considered rational.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.bayesian-inference:q6"
+  }
+ ],
+ "source": {
+  "title": "Bayesian inference",
+  "url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+  "revision": 1379760658
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Updating a belief",
+    "text": "Bayesian inference is a way of doing statistics that uses Bayes' theorem to put a probability on a hypothesis and then revise it as new information comes in. At its heart, it starts from a prior distribution, what you believed before, and uses it to estimate posterior probabilities, what you believe after. It is an important technique in statistics, above all in mathematical statistics.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Where it is used",
+    "text": "This kind of updating is especially important when a sequence of data is analysed as it unfolds. It has been used in science, engineering, philosophy, medicine, sport, psychology and law. In decision theory it is closely tied to subjective probability, which is often called Bayesian probability.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Hypothesis and evidence",
+    "text": "H stands for a hypothesis, any claim whose probability the data might change, and E stands for the evidence, the new data. Often several hypotheses compete, and the job is to find which one is most probable. P(H), the prior probability, is your estimate for H before you see E. P(H∣E), the posterior probability, is the chance of H once E has been seen, and that is the number you are after.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Likelihood and model evidence",
+    "text": "P(E∣H) is the likelihood: the chance of seeing E if H is true. With H held fixed, it shows how well the evidence fits that hypothesis. P(E), sometimes called the marginal likelihood or model evidence, must be above zero, or Bayes' theorem would divide by zero. It is the same for every hypothesis being weighed, so it does not change which hypothesis comes out ahead.",
+    "cites": [
+     13,
+     14,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "What decides the answer",
+    "text": "When comparing hypotheses, only two things move the posterior: the prior and the likelihood. A hypothesis ends up more probable in proportion to how plausible it was to begin with. It also gains in proportion to how well it fits the new evidence.",
+    "cites": [
+     19
+    ]
+   },
+   {
+    "heading": "Again and again",
+    "text": "After more evidence arrives, the same steps can simply be run again. When many possible models are in play, each one gets a degree of belief. If the models are described by parameters, the belief in all of them can be updated at once. Belief over the models then becomes belief over the values of the parameters.",
+    "cites": [
+     36,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Is it the only sensible rule",
+    "text": "Bayesian updating is widely used and easy to compute with. Even so, it is not the only rule for updating that might count as rational. Ian Hacking pointed out that the classic \"Dutch book\" arguments do not force Bayesian updating, and other rules that also avoid Dutch books exist. Such rules have been discussed since Richard C. Jeffrey published his rule, which applies Bayes' rule when the evidence itself is given a probability.",
+    "cites": [
+     24,
+     25,
+     26,
+     30,
+     31
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cc-stats-updating-beliefs",
+   "kind": "video",
+   "title": "Probability Part 2: Updating Your Beliefs with Bayes: Crash Course Statistics #14",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=oZCskBpHWyk",
+   "note": "A video on using Bayes' rule to update beliefs as new evidence arrives."
+  },
+  {
+   "id": "cc-stats-bayes-science",
+   "kind": "video",
+   "title": "Bayes in Science and Everyday Life: Crash Course Statistics #25",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=51bLRF02b4w",
+   "note": "A video on how Bayesian reasoning is applied in science and daily decisions."
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+import { catalog } from '../../core/catalog';
+import { music } from '../../expeditions/content/music';
+import { getExpedition } from '../../expeditions/registry';
+import type { CheckBank } from '../types';
+
+const WP = (page: string, label = page.replace(/_/g, ' ')) => ({ label: `Wikipedia: ${label}`, url: `https://en.wikipedia.org/wiki/${page}` });
+const RATIOS = { label: 'Interval ratios (just intonation): octave 2:1, fifth 3:2, fourth 4:3, major third 5:4, minor third 6:5', url: 'https://en.wikipedia.org/wiki/Just_intonation' };
+const MERSENNE = WP('Mersenne%27s_laws', 'Mersenne’s laws');
+const node = getExpedition(music.id)!.nodeId;
+const payoff = music.beats.find(beat => beat.kind === 'payoff');
+
+/** The music pack's node (harmony: consonance and ratios). Ratios and string physics are the
+ * pack's own sources; organ pipes checked 2026-10-16. */
+export const musicBank: CheckBank = {
+  node,
+  title: catalog.get(node)!.name,
+  claim: payoff && payoff.kind === 'payoff' ? payoff.idea : '',
+  pack: music.id,
+  expeditionFamilies: {
+    'ear-rank': 'f_9mmb58tdtj',
+    'pattern-repeat': 'f_cn352hn7h1',
+    'ear-match': 'f_catnff0t8m',
+    'string-length': 'f_mvcgcyyg2f',
+  },
+  items: [
+    {
+      id: 'i_pb88307h0h', family: 'f_zt5jwpj8bx', kind: 'number', generator: 'ratio', logic: 'interval-frequency',
+      claim: 'An interval is a frequency ratio: a fifth above is 3/2 of the frequency, a fourth 4/3, an octave 2.',
+      entities: ['tuning fork'],
+      params: {
+        template: 'A tuning fork rings at {base} Hz. What frequency is {name} above it?',
+        cases: [
+          { base: 256, name: 'a fifth', num: 3, den: 2 },
+          { base: 300, name: 'a fourth', num: 4, den: 3 },
+          { base: 330, name: 'an octave', num: 2, den: 1 },
+        ],
+        unit: 'Hz', tolerance: 0.01,
+      },
+      explain: 'The higher note vibrates faster by the interval’s ratio: 3:2 for a fifth, 4:3 for a fourth, 2:1 for an octave.',
+      sources: [RATIOS],
+    },
+    {
+      id: 'i_ndzwbsshz5', family: 'f_gxgf4x4e2v', kind: 'number', generator: 'ratio', logic: 'length-pitch',
+      claim: 'A shorter string vibrates faster in exact proportion: two-thirds the length, three-halves the frequency.',
+      entities: ['harp'],
+      params: {
+        template: 'A harp string {num} mm long sounds at {base} Hz. Another string of the same kind and tension is {den} mm long. What frequency does it sound?',
+        cases: [
+          { base: 200, num: 600, den: 400, note: 'Two-thirds the length: a fifth higher.' },
+          { base: 150, num: 900, den: 600, note: 'Two-thirds the length: a fifth higher.' },
+          { base: 220, num: 800, den: 400, note: 'Half the length: an octave higher.' },
+        ],
+        unit: 'Hz', tolerance: 0.01,
+      },
+      explain: 'With the same kind of string at the same tension, frequency goes up exactly as length goes down: multiply by the old length over the new one.',
+      sources: [MERSENNE],
+    },
+    {
+      id: 'i_23022dem19', family: 'f_y6xc5vqh3m', kind: 'order', logic: 'interval-lengths',
+      claim: 'For a higher interval the vibrating length shrinks by the ratio flipped: 4/5, 3/4, 2/3, 1/2.',
+      entities: ['cellist'],
+      prompt: 'A cellist stops one string at different points. Put these notes in order of how long the vibrating part must be, longest first.',
+      items: [
+        { id: 'open', label: 'The open string' },
+        { id: 'third', label: 'A major third up (5:4)' },
+        { id: 'fourth', label: 'A fourth up (4:3)' },
+        { id: 'fifth', label: 'A fifth up (3:2)' },
+        { id: 'octave', label: 'An octave up (2:1)' },
+      ],
+      answer: ['open', 'third', 'fourth', 'fifth', 'octave'],
+      ends: ['Longest', 'Shortest'],
+      explain: 'Flip each ratio to get the length: 4/5 (0.8), 3/4 (0.75), 2/3 (about 0.67), 1/2. The higher the note, the shorter the string.',
+      sources: [RATIOS, MERSENNE],
+    },
+    {
+      id: 'i_5jpns2555r', family: 'f_9ybxx7rt9e', kind: 'choice', logic: 'name-the-interval',
+      claim: 'You can name an interval from two frequencies by their ratio.',
+      entities: ['choir', 'sopranos', 'altos'],
+      prompt: 'In a choir, the sopranos sing at 880 Hz while the altos sing at 660 Hz. What interval do they make?',
+      options: [
+        { id: 'octave', label: 'An octave (2:1)' },
+        { id: 'fifth', label: 'A fifth (3:2)' },
+        { id: 'fourth', label: 'A fourth (4:3)' },
+        { id: 'third', label: 'A major third (5:4)' },
+      ],
+      answer: 'fourth',
+      explain: '880 ÷ 660 = 4/3, since both are 220 times a whole number: 4 × 220 and 3 × 220. That is a fourth.',
+      sources: [RATIOS],
+    },
+    {
+      id: 'i_7qyyq0wfpf', family: 'f_mrpf2d559v', kind: 'choice', logic: 'length-pitch',
+      claim: 'Air columns follow the string rule: half the length, an octave higher.',
+      entities: ['organ pipe'],
+      prompt: 'An open organ pipe’s pitch depends on its length the way a string’s does. An open pipe 2.4 m long sounds a low C. How long is the open organ pipe that sounds the C an octave higher?',
+      options: [
+        { id: 'half', label: '1.2 m' },
+        { id: 'double', label: '4.8 m', misconception: 'music:longer-is-higher' },
+        { id: 'twothirds', label: '1.6 m' },
+        { id: 'quarter', label: '0.6 m' },
+      ],
+      answer: 'half',
+      explain: 'A pipe half the length of another sounds an octave higher, just like a string. An 8-foot pipe (2.4 m) and a 4-foot pipe (1.2 m) are an octave apart. 1.6 m, two-thirds of the length, would give a fifth.',
+      sources: [WP('Organ_pipe')],
+    },
+    {
+      id: 'i_xn1rj1972f', family: 'f_hsyprkarm4', kind: 'flaw', logic: 'length-pitch-direction',
+      claim: 'Longer strings sound lower: double the length and the frequency halves.',
+      entities: ['harp'],
+      prompt: 'A student reasons about a harp. Which step breaks?',
+      steps: [
+        { id: 'a', text: 'An octave is two notes whose frequencies are in the ratio 2:1.' },
+        { id: 'b', text: 'Doubling a string’s vibrating length doubles its frequency.' },
+        { id: 'c', text: 'So a string twice as long sounds an octave higher.' },
+        { id: 'd', text: 'So a harp’s longest strings play its highest notes.' },
+      ],
+      answer: 'b',
+      explain: 'It runs the other way. Double the length and the frequency halves, so a string twice as long sounds an octave lower. A harp’s longest strings play its lowest notes.',
+      sources: [MERSENNE],
+    },
+    {
+      id: 'i_f5tnwf8229', family: 'f_cn352hn7h1', kind: 'choice', logic: 'repeat-length',
+      claim: 'For a p:q pair, the combined wave repeats every q waves of the lower note.',
+      entities: ['tuning forks'],
+      prompt: 'Two tuning forks ring together at 300 Hz and 400 Hz. How many waves of the lower fork pass before their combined wave repeats?',
+      options: [
+        { id: 'one', label: '1' },
+        { id: 'three', label: '3' },
+        { id: 'four', label: '4' },
+        { id: 'seven', label: '7' },
+      ],
+      answer: 'three',
+      explain: '400 : 300 is 4 : 3. The lower fork makes 3 waves while the higher makes 4, then they line up and the pattern starts again.',
+      sources: [RATIOS],
+    },
+    {
+      id: 'i_gwkm2qmda8', family: 'f_dkts68axh5', kind: 'match', logic: 'name-the-interval',
+      claim: 'Each simple ratio has its own interval: 2:1, 3:2, 4:3, 5:4, 6:5.',
+      entities: [],
+      prompt: 'Match each pair of frequencies to the interval it makes.',
+      left: [
+        { id: 'a', label: '100 Hz and 200 Hz' },
+        { id: 'b', label: '200 Hz and 300 Hz' },
+        { id: 'c', label: '300 Hz and 400 Hz' },
+        { id: 'd', label: '400 Hz and 500 Hz' },
+        { id: 'e', label: '500 Hz and 600 Hz' },
+      ],
+      right: [
+        { id: 'octave', label: 'Octave' },
+        { id: 'fifth', label: 'Fifth' },
+        { id: 'fourth', label: 'Fourth' },
+        { id: 'major', label: 'Major third' },
+        { id: 'minor', label: 'Minor third' },
+      ],
+      pairs: { a: 'octave', b: 'fifth', c: 'fourth', d: 'major', e: 'minor' },
+      explain: 'Divide the higher by the lower: 2:1 octave, 3:2 fifth, 4:3 fourth, 5:4 major third, 6:5 minor third. Same step of 100 Hz each time, five different intervals: it’s the ratio that counts, not the difference.',
+      sources: [RATIOS],
+    },
+    {
+      id: 'i_hf9g0kav7f', family: 'f_geyydhw3ph', kind: 'choice', logic: 'tension-square',
+      claim: 'Pitch rises with the square root of tension: an octave takes four times the pull.',
+      entities: ['Vincenzo Galilei'],
+      prompt: 'Vincenzo Galilei found that to raise a string by an octave, he had to hang four times the weight on it. To raise it by two octaves, how much weight would he need?',
+      options: [
+        { id: 'sixteen', label: '16 times the weight' },
+        { id: 'eight', label: '8 times the weight' },
+        { id: 'four', label: '4 times the weight' },
+        { id: 'two', label: '2 times the weight' },
+      ],
+      answer: 'sixteen',
+      explain: 'Each octave doubles the frequency, and each doubling takes four times the weight. Two octaves: 4 × 4 = 16 times. Frequency grows with the square root of tension.',
+      sources: [WP('Vincenzo_Galilei'), MERSENNE],
+    },
+    {
+      id: 'i_6pfqa59626', family: 'f_66jpckessx', kind: 'choice', logic: 'interval-lengths',
+      claim: 'Three-quarters of the length sounds a fourth higher.',
+      entities: ['violin'],
+      prompt: 'A violin string vibrates along 328 mm. A player presses it down so that 246 mm vibrates. What interval above the open string does that sound?',
+      options: [
+        { id: 'octave', label: 'An octave' },
+        { id: 'fifth', label: 'A fifth' },
+        { id: 'fourth', label: 'A fourth' },
+        { id: 'third', label: 'A major third' },
+      ],
+      answer: 'fourth',
+      explain: '246 ÷ 328 = 3/4. Three-quarters of the length vibrates 4/3 as fast: a fourth.',
+      sources: [RATIOS, MERSENNE],
+    },
+    {
+      id: 'i_063mg4g70p', family: 'f_cngc6bzwaz', kind: 'number', generator: 'ratio', logic: 'stack-intervals',
+      claim: 'Intervals stack by multiplying their ratios: two octaves is 4:1, an octave and a fifth 3:1.',
+      entities: ['tuba', 'trumpet'],
+      params: {
+        template: 'A tuba plays a note at {base} Hz. A trumpet plays the note {interval} above it. What frequency does the trumpet play?',
+        cases: [
+          { base: 110, interval: 'an octave, and then another octave,', num: 4, den: 1, note: 'Two octaves: 2 × 2.' },
+          { base: 100, interval: 'an octave, and then a fifth,', num: 3, den: 1, note: 'An octave and a fifth: 2 × 3/2.' },
+          { base: 90, interval: 'an octave, and then a fourth,', num: 8, den: 3, note: 'An octave and a fourth: 2 × 4/3.' },
+        ],
+        unit: 'Hz', tolerance: 0.01,
+      },
+      explain: 'Stacking intervals multiplies their ratios. An octave doubles the frequency, so two octaves multiply it by 4, and an octave plus a fifth by 2 × 3/2 = 3.',
+      sources: [RATIOS],
+    },
+    {
+      id: 'i_pxd8b8dpzp', family: 'f_cjee03xpf4', kind: 'match', logic: 'interval-lengths',
+      claim: 'A string’s length tells you its interval: 1/2 an octave, 2/3 a fifth, 3/4 a fourth, 4/5 a major third, 5/6 a minor third.',
+      entities: ['zither'],
+      prompt: 'A zither maker fits strings of the same kind and tension. The longest, 900 mm, sounds the lowest note. Match each shorter string to the interval it sounds above that note.',
+      left: [
+        { id: 'l450', label: '450 mm' },
+        { id: 'l600', label: '600 mm' },
+        { id: 'l675', label: '675 mm' },
+        { id: 'l720', label: '720 mm' },
+        { id: 'l750', label: '750 mm' },
+      ],
+      right: [
+        { id: 'octave', label: 'Octave' },
+        { id: 'fifth', label: 'Fifth' },
+        { id: 'fourth', label: 'Fourth' },
+        { id: 'major', label: 'Major third' },
+        { id: 'minor', label: 'Minor third' },
+      ],
+      pairs: { l450: 'octave', l600: 'fifth', l675: 'fourth', l720: 'major', l750: 'minor' },
+      explain: 'Divide each length by 900: 1/2 sounds an octave up, 2/3 a fifth, 3/4 a fourth, 4/5 a major third and 5/6 a minor third. Each is the frequency ratio turned upside down.',
+      sources: [RATIOS, MERSENNE],
+    },
+    {
+      id: 'i_9vr6tnzchy', family: 'f_6ejm6xamxa', kind: 'choice', logic: 'simple-ratio-calm',
+      claim: 'Closeness doesn’t make notes agree; a simple ratio does.',
+      entities: ['recorder'],
+      prompt: 'Two recorder players hold notes together, one at 300 Hz and the other at 450 Hz. Then the second player slides to 320 Hz. Which pair sounds calmer, and why?',
+      options: [
+        { id: 'ratio', label: '300 and 450 Hz: their ratio is a simple 3:2' },
+        { id: 'close', label: '300 and 320 Hz: notes that sit close together blend into one smoother sound', misconception: 'music:closer-is-calmer' },
+        { id: 'same', label: 'Both pairs sound equally calm, because any two notes agree' },
+        { id: 'small', label: '300 and 320 Hz: both frequencies are smaller numbers' },
+      ],
+      answer: 'ratio',
+      explain: '450 : 300 is 3 : 2, a fifth, which repeats quickly. 320 : 300 is 16 : 15, a semitone: its combined wave takes 15 waves of the lower note to repeat, and the ear hears that long, restless pattern as harsh.',
+      sources: [RATIOS],
+    },
+    {
+      id: 'i_6zcb6gkb5b', family: 'f_mvcgcyyg2f', kind: 'number', generator: 'expedition:stringLength', logic: 'interval-lengths',
+      claim: 'For a higher interval the vibrating length shrinks by the ratio flipped.',
+      entities: ['guitar'],
+      params: {
+        instruments: [
+          { name: 'classical guitar', mm: 650, frets: true },
+          { name: 'bass guitar', mm: 864, frets: true },
+          { name: 'violin', mm: 328 },
+        ],
+        intervals: [{ name: 'a fourth', n: 3, d: 4 }, { name: 'a fifth', n: 2, d: 3 }, { name: 'an octave', n: 1, d: 2 }],
+        unit: 'mm', tolerance: 0.015,
+        hint: '',
+      },
+      explain: 'A fourth needs 3/4 of the length, a fifth 2/3, an octave 1/2.',
+      sources: [RATIOS, MERSENNE],
+    },
+  ],
+};

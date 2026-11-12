@@ -1,0 +1,561 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.animals",
+ "name": "Animals",
+ "summary": [
+  {
+   "text": "Animals are multicellular, eukaryotic organisms of the kingdom Animalia, and with few exceptions they are able to move.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "They eat organic material, breathe oxygen, have muscle cells, and grow from a hollow sphere of cells called a blastula during embryonic development.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "More than 1.5 million living species have been described, and around 1.05 million of them are insects.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Described species",
+   "value": "Over 1.5 million living species",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Body length range",
+   "value": "From 8.5 micrometres to 33.6 metres",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Study of behaviour",
+   "value": "Known as ethology",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Major clades",
+   "value": "Porifera, Ctenophora, Placozoa, Cnidaria and Bilateria",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Earliest fossils",
+   "value": "Found in the Ediacaran period",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A mushroom and a deer are both multicellular and both rely on oxygen. What about how their cells are held in place sets the deer apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its cells are locked in rigid walls, so its body grows only by adding more"
+    },
+    {
+     "id": "b",
+     "label": "Its cells sit in a flexible framework, so they can move and reorganise into tissues"
+    },
+    {
+     "id": "c",
+     "label": "Its cells float freely in fluid with nothing holding them together"
+    },
+    {
+     "id": "d",
+     "label": "Its cells are fused into one single large cell with many nuclei"
+    }
+   ],
+   "answer": "b",
+   "explain": "Animal cells are surrounded by an extracellular matrix that lets them move and form tissues and organs. Algae, plants and fungi hold their cells in place with cell walls.",
+   "cites": [
+    27,
+    33,
+    35
+   ],
+   "id": "knowledge.science.biology.animals:q1"
+  },
+  {
+   "prompt": "A houseplant makes its own food from light, but a cat cannot. How does the cat get its food?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It takes in organic material and digests it inside its body"
+    },
+    {
+     "id": "b",
+     "label": "It makes food from sunlight, only more slowly than the plant"
+    },
+    {
+     "id": "c",
+     "label": "It draws nutrients in through rigid walls around each cell"
+    },
+    {
+     "id": "d",
+     "label": "It stores food made by its parents and lives off that for life"
+    }
+   ],
+   "answer": "a",
+   "explain": "Plants and algae produce their own food. Animals cannot, so they ingest organic material and digest it internally.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.science.biology.animals:q2"
+  },
+  {
+   "prompt": "An 1870s book lists a single-celled pond organism among the animals, under the name Protozoa. How do biologists treat such organisms now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As animals, because many of them can move around on their own"
+    },
+    {
+     "id": "b",
+     "label": "As animals, but only the simplest members of the whole kingdom"
+    },
+    {
+     "id": "c",
+     "label": "As non-animals, since single-celled life is no longer counted in the kingdom"
+    },
+    {
+     "id": "d",
+     "label": "As the one group that can still be called animals today"
+    }
+   ],
+   "answer": "c",
+   "explain": "Haeckel split the kingdom in 1874 into multicellular Metazoa and single-celled Protozoa, which are no longer considered animals.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.biology.animals:q3"
+  },
+  {
+   "prompt": "A small isolated group of animals keeps mating only with close relatives, generation after generation. What is the likely result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Useful traits are concentrated, so the group grows stronger"
+    },
+    {
+     "id": "b",
+     "label": "Nothing changes, since mating partners make no difference"
+    },
+    {
+     "id": "c",
+     "label": "Offspring become sterile in a single generation"
+    },
+    {
+     "id": "d",
+     "label": "Harmful recessive traits become more common, which weakens the population"
+    }
+   ],
+   "answer": "d",
+   "explain": "Repeated mating with a close relative generally causes inbreeding depression because harmful recessive traits become more common. Animals have evolved many ways to avoid it.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.biology.animals:q4"
+  },
+  {
+   "prompt": "In most animals, a hollow ball of cells forms after fertilisation and then folds inward. What does the folding produce?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A gastrula with a digestive chamber and two separate germ layers"
+    },
+    {
+     "id": "b",
+     "label": "A second hollow ball sitting inside the first"
+    },
+    {
+     "id": "c",
+     "label": "A skeleton of bone surrounding the early embryo"
+    },
+    {
+     "id": "d",
+     "label": "A wall of rigid cells that holds the embryo in place"
+    }
+   ],
+   "answer": "a",
+   "explain": "In most groups the blastula invaginates to form a gastrula with a digestive chamber and two germ layers, an outer ectoderm and an inner endoderm.",
+   "cites": [
+    38,
+    40,
+    41
+   ],
+   "id": "knowledge.science.biology.animals:q5"
+  },
+  {
+   "prompt": "Biologists say that animals form a clade. What does that tell you about the animals alive today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They all have the same body shape and size"
+    },
+    {
+     "id": "b",
+     "label": "They all live in the same kinds of places"
+    },
+    {
+     "id": "c",
+     "label": "They all arose from a single common ancestor"
+    },
+    {
+     "id": "d",
+     "label": "They all descend from several unrelated ancestors"
+    }
+   ],
+   "answer": "c",
+   "explain": "A clade is a group that arose from a single common ancestor, and animals form one.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.biology.animals:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Animal_diversity_b.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Animals",
+  "credit": "Chiswick Chap",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Animal_diversity_b.png"
+ },
+ "source": {
+  "title": "Animal",
+  "url": "https://en.wikipedia.org/wiki/Animal",
+  "revision": 1376545571
+ },
+ "pack": {
+  "id": "auto-biology-animals",
+  "title": "Animal, fungus, or neither?",
+  "question": "What sets an animal apart from plants and fungi?",
+  "path": [
+   "Science",
+   "Biology",
+   "Animals"
+  ],
+  "hue": 185,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Animal_diversity_b.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Animals",
+    "credit": "Chiswick Chap · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Animal_diversity_b.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Animal, fungus, or neither?",
+    "hook": "Plants, fungi and animals all have many cells and all use oxygen, so what really marks a creature as an animal?"
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-biology-animals:1",
+    "transfer": false,
+    "prompt": "You find a new multicellular organism that uses oxygen and cannot make its own food. Which extra clue would best tell you it is an animal and not a fungus?",
+    "explain": "Animals, plants and fungi are all eukaryotic, multicellular and aerobic, and fungi cannot make their own food either. Animal cells sit in an extracellular matrix, while the cells of plants, algae and fungi are held by cell walls.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "It breathes oxygen",
+        "feedback": "It tempts because animals do breathe oxygen, but plants and fungi are aerobic too."
+       },
+       {
+        "id": "c",
+        "label": "It is made of many cells",
+        "feedback": "Animals are multicellular, but so are plants and fungi."
+       },
+       {
+        "id": "a",
+        "label": "Its cells are held in a flexible framework rather than in cell walls"
+       },
+       {
+        "id": "d",
+        "label": "It cannot produce its own food",
+        "feedback": "Animals share this with fungi, so it cannot separate the two."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-biology-animals:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each feature by whether animals share it with plants and fungi or whether it sets animals apart.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Eukaryotic cells"
+     },
+     {
+      "id": "i1",
+      "label": "Many cells in one body"
+     },
+     {
+      "id": "i2",
+      "label": "Use of oxygen"
+     },
+     {
+      "id": "i3",
+      "label": "A hollow ball of cells in early development"
+     },
+     {
+      "id": "i4",
+      "label": "Spontaneous body movement at some life stage"
+     },
+     {
+      "id": "i5",
+      "label": "Cells surrounded by an extracellular matrix"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Shared with plants and fungi"
+     },
+     {
+      "id": "g1",
+      "label": "Sets animals apart"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "Being eukaryotic, multicellular and aerobic is common to animals, plants and fungi. Motility, a blastula stage and cells in an extracellular matrix set animals apart."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-biology-animals:3",
+    "transfer": true,
+    "prompt": "Put the early steps of animal sexual reproduction and development in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Sperm and egg fuse into a zygote"
+     },
+     {
+      "id": "b",
+      "label": "The zygote divides into a hollow blastula"
+     },
+     {
+      "id": "c",
+      "label": "The blastula folds in to form a gastrula"
+     },
+     {
+      "id": "d",
+      "label": "The germ layers differentiate into tissues and organs"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Fertilisation",
+     "Organs"
+    ],
+    "explain": "Gametes fuse to form zygotes, which develop into a blastula. In most groups that folds into a gastrula, and its germ layers then differentiate into tissues and organs."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-biology-animals:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Animals cannot produce their own food."
+     },
+     {
+      "id": "b",
+      "text": "Fungi cannot produce their own food either."
+     },
+     {
+      "id": "c",
+      "text": "So any organism that cannot make its own food must be an animal."
+     },
+     {
+      "id": "d",
+      "text": "So fungi must be animals."
+     }
+    ],
+    "answer": "c",
+    "explain": "Animals share that trait with fungi, so it cannot define an animal. Animals differ in other ways, such as holding their cells in an extracellular matrix instead of cell walls."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Animals take in and digest food inside their bodies, and their cells sit in a flexible framework instead of rigid walls.",
+    "connections": [
+     {
+      "title": "Invertebrates",
+      "place": "Animals",
+      "node": "knowledge.science.biology.animals.invertebrates"
+     },
+     {
+      "title": "Fish",
+      "place": "Animals",
+      "node": "knowledge.science.biology.animals.fish"
+     },
+     {
+      "title": "Birds",
+      "place": "Animals",
+      "node": "knowledge.science.biology.animals.birds"
+     },
+     {
+      "title": "Mammals",
+      "place": "Animals",
+      "node": "knowledge.science.biology.animals.mammals"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Animals, plants and fungi are all eukaryotic, multicellular and aerobic, and fungi cannot make their own food either. Animal cells sit in an extracellular matrix, while the cells of plants, algae and fungi are held by cell walls.",
+    "source": "Wikipedia sentences 27, 28, 30, 35"
+   },
+   {
+    "claim": "Being eukaryotic, multicellular and aerobic is common to animals, plants and fungi. Motility, a blastula stage and cells in an extracellular matrix set animals apart.",
+    "source": "Wikipedia sentences 27, 30"
+   },
+   {
+    "claim": "Gametes fuse to form zygotes, which develop into a blastula. In most groups that folds into a gastrula, and its germ layers then differentiate into tissues and organs.",
+    "source": "Wikipedia sentences 37, 38, 41, 43"
+   },
+   {
+    "claim": "Animals share that trait with fungi, so it cannot define an animal. Animals differ in other ways, such as holding their cells in an extracellular matrix instead of cell walls.",
+    "source": "Wikipedia sentences 28, 35"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What makes an animal",
+    "text": "Animals are many-celled, eukaryotic living things that belong to the kingdom Animalia. They eat organic material, breathe oxygen, have muscle cells and can reproduce sexually. Early in development each one grows from a hollow ball of cells called a blastula. Nearly all of them can move, and together they form a clade, meaning they all descend from one common ancestor.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "How many and how big",
+    "text": "Scientists have described more than 1.5 million living animal species. Insects make up about 1.05 million of those, molluscs more than 85,000, and vertebrates around 65,000. One estimate puts the true number of animal species on Earth at up to 7.77 million. In size they run from 8.5 μm to 33.6 m long.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Set apart from plants and fungi",
+    "text": "Like plants and fungi, animals are eukaryotic, many-celled and aerobic. Unlike plants and algae, they cannot make their own food, which they have in common with fungi. They take in organic material and digest it inside the body. Animal cells sit in an extracellular matrix made of collagen and elastic glycoproteins. In plants, fungi and algae, cell walls hold cells in place instead, so they develop by steady growth.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     35
+    ]
+   },
+   {
+    "heading": "From egg to body plan",
+    "text": "Animals make haploid sex cells, or gametes, through meiosis: small, mobile sperm and large, still eggs. A sperm and egg fuse into a zygote, which divides by mitosis into a blastula. In most groups the blastula then folds inward into a gastrula, which has a digestive chamber and two separate germ layers, the ectoderm outside and the endoderm inside. Usually a third layer, the mesoderm, forms between them, and these layers go on to make tissues and organs.",
+    "cites": [
+     37,
+     38,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Deep history",
+    "text": "Animals first show up in the fossil record in the Ediacaran period. Most modern animal phyla appeared as sea creatures in the Cambrian explosion, which started about 539 million years ago. Researchers have identified 6,331 groups of genes shared by all living animals that may come from a single common ancestor living about 650 million years ago, in the Cryogenian period.",
+    "cites": [
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Sorting the animal kingdom",
+    "text": "The scientific study of animals is zoology, and the study of their behaviour is ethology. Aristotle split animals into those with blood and those without. In 1758 Carl Linnaeus produced the first hierarchical classification of animals, and in 1874 Ernst Haeckel separated the many-celled Metazoa from the single-celled Protozoa, which no longer count as animals. Today, methods such as molecular phylogenetics reveal how groups are related, and the kingdom is split into five major clades: Porifera, Ctenophora, Placozoa, Cnidaria and Bilateria.",
+    "cites": [
+     9,
+     10,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Animals and people",
+    "text": "People rely on other animals for food such as meat, eggs and dairy, for materials such as leather, fur and wool, and as pets and working animals. Dogs were the first animal to be domesticated, and they have helped in hunting, security and war. Animals have also been part of human culture since the earliest times, from cave art and totems to myths, religion and sport.",
+    "cites": [
+     18,
+     19,
+     20
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-27-1",
+   "kind": "book",
+   "title": "27.1 Features of the Animal Kingdom - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+   "note": "A free textbook section on what defines an animal: body plans, germ layers and early development.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-zoology-1",
+   "kind": "video",
+   "title": "What is an Animal? Crash Course Zoology #1",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=zgM0F6UmC70",
+   "note": "The opening Crash Course Zoology episode on what makes an animal an animal."
+  }
+ ]
+}

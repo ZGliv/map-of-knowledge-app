@@ -1,0 +1,296 @@
+/* Explore: MoK's reels and the expeditions list. Surfaces come from the atlas tokens
+   (cartographic-theme.css); each reel's accent is its territory's color (--reel-color). */
+.explore-workspace{position:absolute;inset:0;overflow:hidden;color-scheme:dark;color:var(--atlas-text);background:var(--atlas-shade);
+ /* One overlay for Reels and Watch (see "One overlay" below): where the caption and the rail sit. */
+ --ov-side:16px;--ov-rail-right:6px;--ov-rail-width:72px;--ov-lift:24px;--ov-caption-right:calc(var(--ov-rail-right) + var(--ov-rail-width) + 10px)}
+.explore-workspace.is-hidden{visibility:hidden;pointer-events:none}
+.explore-workspace :focus-visible{outline:2px solid var(--atlas-pale);outline-offset:3px}
+
+/* The switch: centred on the top bar's row (search alone at its end), like a short-video app's
+   Following · For You: white words over the picture, muted ones over the Lessons list. */
+.explore-switch{position:absolute;z-index:7;top:6px;left:50%;transform:translateX(-50%);display:flex;gap:26px;pointer-events:none}
+/* A tight shadow edges each letter and a soft one lifts the word, so a label reads over a bright frame. */
+.explore-switch button{pointer-events:auto;position:relative;min-width:44px;min-height:44px;padding:0 2px;background:none;font:600 15.5px/1 'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.1px;color:rgb(255 255 255/.9);text-shadow:0 1px 2px color-mix(in srgb,var(--atlas-shade) 85%,transparent),0 0 2px color-mix(in srgb,var(--atlas-shade) 65%,transparent),0 0 10px color-mix(in srgb,var(--atlas-shade) 65%,transparent);transition:color .15s}
+.explore-switch button:hover{color:#fff}
+.explore-switch button[aria-selected=true]{color:#fff}
+.explore-switch button[aria-selected=true]::after{content:'';position:absolute;left:26%;right:26%;bottom:7px;height:2px;border-radius:2px;background:currentColor}
+.explore-workspace.is-list .explore-switch button{color:var(--atlas-muted);text-shadow:none}
+.explore-workspace.is-list .explore-switch button:hover{color:var(--atlas-text)}
+.explore-workspace.is-list .explore-switch button[aria-selected=true]{color:var(--atlas-bright)}
+/* What the feed shows: the map's place (zoom is the filter), one level up, or the whole map. Floats
+   just under the switch, over the picture, like the switch itself. */
+.explore-scope{position:absolute;z-index:7;top:calc(var(--chrome-top,48px) + 8px);left:50%;transform:translateX(-50%);max-width:calc(100% - 32px);display:flex;align-items:center;gap:2px;min-height:36px;padding:0 4px;border-radius:999px;background:rgb(8 10 20/.56);border:1px solid rgb(255 255 255/.12);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:#fff;font:600 13px/1 'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;white-space:nowrap}
+.explore-scope:not(.is-scoped){padding:0 14px;color:rgb(255 255 255/.72)}
+.explore-scope button{position:relative;display:inline-grid;place-items:center;min-height:30px;border-radius:999px;background:none;color:rgb(255 255 255/.72);transition:color .15s,background .15s}
+.explore-scope button::before{content:'';position:absolute;inset:-7px 0}
+.explore-scope button:hover{color:#fff;background:rgb(255 255 255/.08)}
+.explore-scope-up{width:30px}
+.explore-scope-all{padding:0 10px;font-size:12.5px;font-weight:600}
+.explore-scope-name{display:inline-flex;align-items:center;gap:8px;min-width:0;padding:0 6px}
+.explore-scope-name span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.explore-scope-name i{width:7px;height:7px;flex-shrink:0;border-radius:50%;background:var(--place-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--place-color) 22%,transparent),0 0 10px var(--place-color)}
+.explore-scope.is-scoped .explore-scope-all{border-left:1px solid rgb(255 255 255/.12);border-radius:0 999px 999px 0}
+@media(min-width:801px){.explore-scope{top:calc(var(--chrome-top,0px) + 30px)}}
+/* In Watch the bar has a row of its own and the feed starts under it, so it never covers a video or
+   a card (Reels keep it floating, with their guess lowered below). */
+.explore-workspace.is-feed.has-scope .explore-feed{top:calc(var(--chrome-top,48px) + 52px)}
+.explore-workspace.is-feed.has-scope .feed{--feed-top:0px}
+@media(min-width:801px){
+ .explore-workspace.is-feed.has-scope .explore-scope{top:calc(var(--chrome-top,0px) + 6px)}
+ .explore-workspace.is-feed.has-scope .explore-feed{top:calc(var(--chrome-top,0px) + 46px)}
+ .explore-workspace.is-feed.has-scope .feed{height:calc(100% - 18px)}
+}
+/* Under the bar, a reel's guess sits a little lower. */
+.explore-workspace.has-scope .reel{--reel-guess-top:calc(var(--chrome-top,48px) + 56px)}
+@media(min-width:801px){.explore-workspace.has-scope .reel{--reel-guess-top:60px}}
+.explore-list{position:absolute;inset:0}
+.explore-list .discoveries-workspace{animation:none}
+/* The switch already names this list; its heading stays for screen readers only. */
+.explore-list .discoveries-hero h1{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.explore-list .discoveries-stats{margin-top:0}
+
+/* The feed: full bleed on a phone; a 9:16 column over the starfield on a desktop. */
+.explore-reels{position:absolute;inset:0}
+.reel-feed{position:absolute;inset:0}
+.reel-pager{position:absolute;inset:0;overflow-y:scroll;overscroll-behavior:contain;scroll-snap-type:y mandatory;scrollbar-width:none;outline:none;background:#04050a}
+.reel-pager::-webkit-scrollbar{display:none}
+.reel-page{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden;contain:strict}
+.reel-steps{display:none}
+@media(min-width:801px){
+ .explore-reels{display:grid;place-items:center}
+ .reel-feed{position:relative;inset:auto;height:calc(100% - 36px);max-height:980px;aspect-ratio:9/16;max-width:calc(100% - 150px)}
+ .reel-pager{border-radius:16px;box-shadow:0 0 0 1px rgb(214 224 255/.08),0 30px 90px -30px rgb(0 0 0/.95),0 0 120px -40px color-mix(in srgb,var(--starlight) 30%,transparent)}
+ .reel-steps{display:grid;gap:12px;position:absolute;left:calc(100% + 22px);top:50%;transform:translateY(-50%)}
+ .reel-steps button{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgb(255 255 255/.06);border:1px solid rgb(214 224 255/.14);color:var(--atlas-pale);transition:background .15s,color .15s,border-color .15s}
+ .reel-steps button:hover:not(:disabled){background:rgb(255 255 255/.12);color:#fff;border-color:rgb(214 224 255/.3)}
+ .reel-steps button:disabled{opacity:.3}
+}
+
+/* One reel. --reel-safe-bottom keeps everything above the tab bar that floats over it on a phone. */
+.reel{position:absolute;inset:0;overflow:hidden;background:#04050a;--reel-safe-bottom:0px;font-family:'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-tap-highlight-color:transparent;user-select:none}
+@media(max-width:800px){.reel{--reel-safe-bottom:calc(54px + var(--safe-bottom))}}
+.reel-stage{position:absolute;inset:0}
+.reel-layer{position:absolute;inset:0;overflow:hidden;opacity:0;transition:opacity .9s ease}
+.reel-layer.is-active{opacity:1}
+.reel-layer img{position:absolute;max-width:none;transform-origin:center;will-change:transform;pointer-events:none;-webkit-user-drag:none}
+.reel-layer img.reel-poster,.reel-layer.is-contain img{inset:auto;left:0;top:0;width:100%;height:100%;object-fit:cover;will-change:auto}
+/* Shown whole and unmoved: ShareAlike files and anything marked contain. The full width, between the
+   top and the caption, over the reel's own night in its territory's light; a public-domain or CC0
+   file (the only ones that may be altered, as validate.ts has it for ink) over a blurred copy of
+   itself instead, as Watch does behind a wide video: Commons' 60 px copy blurred and enlarged once in
+   script (media.ts softCopy), stretched to the page and darkened, fading in once it is made. No CSS
+   filter: the full-size file under a heavy blur cost a phone a dropped frame each time such a picture
+   came up, and WebKit paints a filtered layer here as a square at the screen's top-left corner. */
+.reel-layer.is-contain{background:radial-gradient(90% 55% at 50% 34%,color-mix(in srgb,var(--reel-color) 14%,transparent),transparent 72%),#05060c}
+.reel-layer.is-contain.has-backdrop::before{content:'';position:absolute;inset:0;background:linear-gradient(rgb(2 3 8/.52),rgb(2 3 8/.52)),var(--reel-backdrop) center/cover no-repeat;animation:reel-fade .6s ease-out both}
+.reel-layer.is-contain img{left:0;width:100%;top:var(--reel-media-top,6%);height:calc(100% - var(--reel-media-top,6%) - var(--reel-safe-bottom) - 30%);object-fit:contain}
+.reel-layer.is-ink{isolation:isolate}
+.reel-layer.is-ink img{filter:invert(1) brightness(.92) contrast(1.15)}
+.reel-layer.is-ink::after{content:'';position:absolute;inset:0;background:var(--reel-color);mix-blend-mode:multiply;pointer-events:none}
+.reel-diagram{background:radial-gradient(90% 55% at 50% 34%,color-mix(in srgb,var(--reel-color) 14%,transparent),transparent 72%),#05060c}
+.reel-diagram-svg{position:absolute;left:0;top:8%;width:100%;height:calc(92% - var(--reel-safe-bottom) - 30%)}
+/* One overlay: Reels and Watch (feed.css, with its overlay on) lay their words and controls over the
+   picture the same way, so the two tabs read as one app: a shade under the caption, the caption at the
+   bottom left, one rail of controls at the right with the same icons and type. --reel-safe-bottom (each
+   sets its own) keeps all of it above the tab capsule and the home indicator on a phone.
+   The shade is as tall as the words over it. Watch's caption is a chip line and two title lines, so its
+   shade is dense behind them and gone a little above them, leaving a bright Short bright. A reel's is
+   its spoken lines, three to five of them, so its shade reaches about halfway up. */
+.reel-shade,.feed.is-overlay .feed-shade{position:absolute;inset:0;pointer-events:none;transition:background .5s}
+.reel-shade{background:linear-gradient(to top,rgb(2 3 8/.84),rgb(2 3 8/.74) calc(var(--reel-safe-bottom) + 20%),rgb(2 3 8/.32) calc(var(--reel-safe-bottom) + 36%),transparent calc(var(--reel-safe-bottom) + 50%))}
+.feed.is-overlay .feed-shade{background:linear-gradient(to top,rgb(2 3 8/.8),rgb(2 3 8/.72) calc(var(--reel-safe-bottom) + 50px),rgb(2 3 8/.64) calc(var(--reel-safe-bottom) + 100px),rgb(2 3 8/.5) calc(var(--reel-safe-bottom) + 130px),rgb(2 3 8/.26) calc(var(--reel-safe-bottom) + 160px),rgb(2 3 8/.08) calc(var(--reel-safe-bottom) + 185px),transparent calc(var(--reel-safe-bottom) + 205px))}
+.reel.is-end .reel-layer.is-active{opacity:.2;transition:opacity 1s ease}
+
+.reel-tap{position:absolute;inset:0;z-index:2;background:none;cursor:pointer}
+.reel-paused{position:absolute;z-index:3;left:50%;top:44%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;display:grid;place-items:center;background:rgb(8 10 20/.5);color:#fff;pointer-events:none;animation:reel-pop .25s ease-out}
+.reel-paused svg{width:34px;height:34px;margin-left:4px}
+
+/* The guess: light, under the switch, for the opening seconds while the story already plays. A tap
+   on a choice keeps it (lit for a moment); ignored, it simply goes. */
+/* The guess floats over the reel and lets taps through to it (a tap on the question pauses, like any
+   tap on the picture): only its choices are controls. */
+.reel-predict{position:absolute;z-index:4;left:var(--ov-side);right:var(--ov-side);top:var(--reel-guess-top,58px);display:grid;gap:10px;justify-items:start;pointer-events:none;animation:reel-fade .45s ease-out both}
+.reel-predict.is-chosen{animation:reel-fade-out .3s ease-in .35s both}
+/* A soft night behind it, so it reads over a bright picture without a box. */
+.reel-predict::before{content:'';position:absolute;z-index:-1;inset:-34px -16px -28px;background:radial-gradient(80% 75% at 35% 45%,rgb(2 3 8/.55),rgb(2 3 8/.25) 60%,transparent 80%);pointer-events:none}
+.reel-predict-prompt{margin:0;max-width:34em;font:400 16.5px/1.38 var(--atlas-serif);color:#fff;text-wrap:pretty;text-shadow:0 1px 3px rgb(0 0 0/.7),0 1px 16px rgb(0 0 0/.75);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.reel-choices{display:flex;flex-wrap:wrap;gap:8px}
+.reel-choice{pointer-events:auto;position:relative;min-height:36px;max-width:100%;padding:7px 14px;border-radius:999px;text-align:left;background:rgb(8 10 20/.5);border:1px solid rgb(255 255 255/.22);color:#fff;font-size:13.5px;font-weight:600;line-height:1.25;text-shadow:0 1px 6px rgb(0 0 0/.5);transition:border-color .15s,background .15s,color .15s,transform .12s}
+/* Drawn 36 px tall, touched 44 px tall (4 px past its border each way; the choices sit 8 px apart, so
+   stacked ones meet and never overlap). */
+.reel-choice::before{content:'';position:absolute;inset:-5px 0}
+.reel-choice:hover{border-color:color-mix(in srgb,var(--reel-color) 75%,#fff);background:rgb(18 20 38/.66)}
+.reel-choice:active{transform:scale(.97)}
+.reel-choice.is-on{background:color-mix(in oklab,var(--reel-color) 45%,#f2f5ff);border-color:transparent;color:var(--atlas-button-ink);text-shadow:none}
+
+/* The story's words: the spoken line bright, the rest of the frame's caption dim. */
+.reel-story{position:absolute;z-index:3;display:grid;justify-items:start;pointer-events:none}
+.reel-story,.feed.is-overlay .feed-meta{left:var(--ov-side);right:var(--ov-caption-right);bottom:calc(var(--reel-safe-bottom) + var(--ov-lift));gap:10px}
+.reel-story button{pointer-events:auto}
+.reel-caption{margin:0;animation:reel-rise .5s ease-out both}
+.reel-caption,.feed.is-overlay .feed-title{font:400 21px/1.4 var(--atlas-serif);color:#fff;text-wrap:pretty;text-shadow:0 1px 14px rgb(0 0 0/.75)}
+.reel-caption span{transition:opacity .45s ease}
+.reel-caption .is-coming{opacity:.5}
+.reel-caption .is-said{opacity:.66}
+/* The place chip and the rail's faces: the night, unblurred, so a moving picture never costs a
+   fresh blur on every frame (as the tab capsule over it). */
+.reel-tag{position:relative;display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:0 13px 0 11px;border-radius:999px;color:#fff;font-size:13px;font-weight:600;letter-spacing:.1px;transition:background .15s}
+.reel-tag::before{content:'';position:absolute;inset:-7px 0}
+.reel-tag,.feed.is-overlay .feed-meta .feed-chip{background:rgb(8 10 20/.46);border:1px solid rgb(255 255 255/.18);text-shadow:0 1px 6px rgb(0 0 0/.5)}
+.reel-tag:hover,.feed.is-overlay .feed-meta .feed-chip:hover{background:rgb(20 22 40/.66)}
+.reel-tag i,.reel-place i{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:var(--reel-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--reel-color) 22%,transparent),0 0 12px var(--reel-color)}
+.reel-guess{margin:0;max-width:100%;padding:6px 13px;border-radius:16px;background:rgb(4 5 12/.6);font-size:13.5px;font-weight:600;line-height:1.35;color:#fff;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:reel-pop .45s ease-out both}
+.reel-guess span{font-weight:500;color:rgb(255 255 255/.62);margin-right:5px}
+.reel-guess svg{vertical-align:-3px;margin-right:5px;color:color-mix(in oklab,var(--reel-color) 70%,#fff)}
+.reel-credit{margin:0;font-size:10.5px;letter-spacing:.1px;color:rgb(255 255 255/.48)}
+
+/* The rail, at the right edge: Save and Sound on both tabs, icons only (when the browser refuses sound,
+   Sound's ring pulses until it gets a tap). Sound sits at the foot, Save just above it, on either tab. */
+.reel-rail,.feed.is-overlay .feed-actions{position:absolute;z-index:4;right:var(--ov-rail-right);bottom:calc(var(--reel-safe-bottom) + var(--ov-lift));width:var(--ov-rail-width);display:flex;flex-direction:column;align-items:center;gap:14px}
+.reel-rail [data-action=reel-sound]{order:1}
+.reel.is-end .reel-rail [data-action=reel-sound]{display:none}
+.reel-rail-button,.feed.is-overlay .feed-action{flex:none;display:grid;justify-items:center;gap:5px;min-height:0;padding:0;border-radius:0;background:none;color:#fff;font-size:11px;font-weight:600;letter-spacing:.1px;line-height:1.2;white-space:nowrap;text-shadow:0 1px 8px rgb(0 0 0/.8)}
+.reel-rail-button svg,.feed.is-overlay .feed-action svg{width:46px;height:46px;padding:11px;border-radius:50%;background:rgb(8 10 20/.5);border:1px solid rgb(255 255 255/.18);transition:background .15s,color .15s}
+.reel-rail-button:hover svg,.feed.is-overlay .feed-action:hover svg{background:rgb(20 22 40/.7)}
+.feed.is-overlay .feed-action:is(:hover,.is-on,.is-asking){color:#fff;background:none}
+.reel-rail-button.is-on svg,.feed.is-overlay .feed-action.is-on svg{color:color-mix(in oklab,var(--reel-color,var(--place-color)) 75%,#fff)}
+/* Sound refused until a tap: the button asks, gently, until it gets one. */
+.reel-rail-button.is-asking svg,.feed.is-overlay .feed-action.is-asking svg{border-color:rgb(255 255 255/.42);animation:reel-nudge 1.6s ease-out .3s infinite}
+
+.reel-progress{position:absolute;z-index:4;left:14px;right:14px;bottom:calc(var(--reel-safe-bottom) + 9px);display:flex;gap:4px;pointer-events:none;transition:opacity .3s}
+.reel-progress i{flex:1;height:2px;border-radius:2px;overflow:hidden;background:rgb(255 255 255/.22)}
+.reel-progress b{display:block;height:100%;background:rgb(255 255 255/.86);transform:scaleX(0);transform-origin:left}
+.reel.is-end .reel-progress{opacity:0}
+
+/* End card: the idea, where it lives on the map, and the way to prove it. */
+.reel-end{position:absolute;z-index:3;inset:0;display:flex;flex-direction:column;justify-content:center;gap:20px;padding:76px 26px calc(var(--reel-safe-bottom) + 30px);background:radial-gradient(110% 60% at 50% 30%,color-mix(in srgb,var(--reel-color) 18%,transparent),transparent 72%),rgb(4 5 12/.8);animation:reel-fade .6s ease-out both}
+.reel-end-idea{margin:0;font:400 25px/1.34 var(--atlas-serif);color:#fff;text-wrap:balance}
+.reel-place{display:flex;align-items:center;gap:12px;width:100%;padding:12px 16px;border-radius:14px;background:rgb(255 255 255/.06);border:1px solid rgb(255 255 255/.13);color:#fff;text-align:left;transition:background .15s,border-color .15s}
+.reel-place:hover{background:rgb(255 255 255/.1);border-color:color-mix(in srgb,var(--reel-color) 50%,transparent)}
+.reel-place span{display:grid;gap:2px;flex:1;min-width:0}
+.reel-place strong{font:400 19px/1.25 var(--atlas-serif)}
+.reel-place small{font-size:12px;color:rgb(255 255 255/.58);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.reel-place svg{color:rgb(255 255 255/.7);flex-shrink:0}
+.reel-end-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.reel-prove{min-height:48px;padding:0 30px;border-radius:999px;background:linear-gradient(180deg,color-mix(in oklab,var(--reel-color,var(--starlight)) 14%,#f7f9ff),color-mix(in oklab,var(--reel-color,var(--starlight)) 36%,#d3dbf7));border:1px solid color-mix(in oklab,var(--reel-color,var(--starlight)) 22%,#fff);color:var(--atlas-button-ink);font-size:16px;font-weight:650;letter-spacing:.1px;box-shadow:inset 0 1px 0 rgb(255 255 255/.8),0 10px 28px -12px color-mix(in srgb,var(--reel-color,var(--starlight)) 70%,transparent);transition:transform .14s,filter .15s}
+.reel-prove:hover{filter:brightness(1.05)}
+.reel-prove:active{transform:translateY(1px)}
+.reel-again{display:inline-flex;align-items:center;gap:8px;min-height:44px;background:none;color:rgb(255 255 255/.74);font-size:14.5px;font-weight:500}
+.reel-again:hover{color:#fff}
+.reel-credits{list-style:none;margin:6px 0 0;padding:0 64px 0 0;display:grid;gap:4px;font-size:11px;line-height:1.4;color:rgb(255 255 255/.48)}
+.reel-credits a{color:inherit;text-decoration:none}
+.reel-credits a:hover{color:rgb(255 255 255/.8);text-decoration:underline;text-underline-offset:3px}
+
+/* After the last reel. */
+.reel-page--end{background:radial-gradient(80% 50% at 50% 40%,color-mix(in srgb,var(--starlight) 10%,transparent),transparent 70%),#04050a}
+.reel-finale{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;padding:24px 24px calc(var(--reel-safe-bottom,0px) + 24px);text-align:center}
+@media(max-width:800px){.reel-finale{padding-bottom:calc(54px + var(--safe-bottom) + 24px)}}
+.reel-finale h2{margin:0;font:400 34px/1.2 var(--atlas-serif);color:var(--atlas-bright)}
+.reel-finale-actions{display:flex;flex-direction:column;align-items:center;gap:8px}
+
+/* Code-drawn diagrams. */
+.dg-band{fill:var(--reel-color)}
+.dg-label{fill:rgb(255 255 255/.9);font:600 15px 'Avenir Next',-apple-system,sans-serif}
+.dg-outline{fill:none;stroke:rgb(255 255 255/.6);stroke-width:1.6}
+.dg-cells{fill:#eef3ff;fill-opacity:.86}
+.dg-wash{fill:color-mix(in srgb,var(--reel-color) 26%,transparent)}
+.dg-cell{fill:rgb(236 240 255/.82);transition:fill .35s ease,stroke .35s ease}
+.dg-cell.is-changed{fill:#8f9cc4}
+.dg-cell.is-lucky{fill:var(--reel-color)}
+.dg-cell.is-dead{fill:rgb(255 255 255/.04);stroke:rgb(255 255 255/.16);stroke-width:1}
+.dg-rock{stroke:rgb(0 0 0/.35);stroke-width:1}
+.dg-rock-a{fill:#2b2723}.dg-rock-b{fill:#3b322a}.dg-rock-c{fill:#332f2a}
+.dg-seam{stroke:rgb(255 255 255/.07);stroke-width:1}
+.dg-target{fill:var(--reel-color);mix-blend-mode:screen}
+.dg-glyph{fill:none;stroke:#efe5d1;stroke-width:2;stroke-linejoin:round}
+.dg-glyph-line{fill:none;stroke:#efe5d1;stroke-width:2;stroke-linecap:round}
+.dg-glyph-eye{fill:#efe5d1}
+.dg-question{fill:rgb(255 255 255/.75);font:400 46px var(--atlas-serif)}
+.dg-age{fill:#fff;font:600 15px 'Avenir Next',-apple-system,sans-serif}
+.dg-note{fill:rgb(255 255 255/.62);font:500 13.5px 'Avenir Next',-apple-system,sans-serif}
+.dg-dig{stroke:var(--reel-color);stroke-width:2.5;stroke-dasharray:6 6;stroke-linecap:round}
+.dg-site{fill:var(--reel-color)}
+.dg-ground{stroke:rgb(255 255 255/.42);stroke-width:2}
+.dg-start{stroke:rgb(255 255 255/.16);stroke-width:1.4;stroke-dasharray:4 7;fill:none}
+.dg-handle{fill:#b4865a}.dg-head{fill:#cdd5e4}
+.dg-vane{fill:#f3eee4}.dg-quill{stroke:#f3eee4;stroke-width:1.5}
+.dg-dust{fill:rgb(220 214 204/.7)}
+.dg-string{fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round}
+.dg-string.is-dim{stroke:rgb(255 255 255/.24)}
+.dg-bridge{fill:rgb(255 255 255/.78)}
+.dg-bridge.is-moving{fill:var(--reel-color)}
+.dg-wave{fill:none;stroke:rgb(255 255 255/.82);stroke-width:2}
+.dg-wave.is-high{stroke:var(--reel-color)}
+.dg-tick{stroke:rgb(255 255 255/.45);stroke-width:1.4;stroke-dasharray:3 5}
+
+/* Reel cards: a hub's row of its reels, and pinned reels in the notebook. */
+.reel-cards{list-style:none;margin:0;padding:2px 2px 6px;display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-width:none}
+.reel-cards::-webkit-scrollbar{display:none}
+.reel-cards li{flex:0 0 auto;scroll-snap-align:start}
+.reel-card{position:relative;display:block;width:132px;aspect-ratio:9/16;padding:0;border-radius:12px;overflow:hidden;background:#05060c;text-align:left;box-shadow:0 0 0 1px rgb(214 224 255/.08);transition:transform .18s ease,box-shadow .18s}
+.reel-card:hover{transform:translateY(-2px);box-shadow:0 0 0 1px color-mix(in srgb,var(--reel-color) 55%,transparent),0 12px 30px -14px color-mix(in srgb,var(--reel-color) 60%,transparent)}
+.reel-card-media{position:absolute;inset:0;isolation:isolate}
+.reel-card-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.reel-card-media.is-contain img{object-fit:contain;height:62%}
+.reel-card-media.is-ink img{filter:invert(1) brightness(.92) contrast(1.15)}
+.reel-card-media.is-ink::after{content:'';position:absolute;inset:0;background:var(--reel-color);mix-blend-mode:multiply}
+.reel-card::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgb(2 3 8/.92),rgb(2 3 8/.3) 46%,transparent 64%);pointer-events:none}
+.reel-card-title{position:absolute;z-index:1;left:11px;right:11px;bottom:11px;font:400 15px/1.26 var(--atlas-serif);color:#fff;text-wrap:balance}
+.reel-card-pin{position:absolute;z-index:1;top:9px;right:9px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:rgb(4 5 12/.6);color:color-mix(in oklab,var(--reel-color) 75%,#fff)}
+/* With room to spare (and no swipe), the row wraps instead of scrolling sideways. */
+@media(min-width:801px){.reel-cards{flex-wrap:wrap;overflow:visible;row-gap:16px}.reel-card{width:148px}}
+.notebook-pinned{margin:0 0 30px}
+.notebook-pinned h2{margin:0 0 12px;font:400 20px/1.2 var(--atlas-serif);color:var(--atlas-bright)}
+
+/* The tab capsule floats over a playing reel, the way a short-video app's does: darker glass and no
+   blur, so a moving picture never costs a fresh blur on every frame. The reel keeps its words, rail
+   and progress above the capsule. The capsule's own shape and place belong to the shell. */
+@media(max-width:800px){
+ .studio-shell .studio-mobile-nav.is-over-reel{z-index:8;--chrome-face:rgb(2 3 8/.6);--chrome-blur:none}
+ .studio-shell .reel{--reel-safe-bottom:calc(var(--chrome-bottom) - 8px)}
+ .studio-shell .studio-mobile-nav.is-over-reel button{color:rgb(255 255 255/.66);text-shadow:0 1px 8px rgb(0 0 0/.7)}
+ .studio-shell .studio-mobile-nav.is-over-reel button[aria-current=page]{color:#fff}
+ /* No glow filter on the current icon (its pool of light below stays): WebKit paints a filtered icon
+    over a video as a dark square at the screen's top-left corner. */
+ .studio-shell .studio-mobile-nav.is-over-reel button[aria-current=page] svg{color:#fff;filter:none}
+ .studio-shell .studio-mobile-nav.is-over-reel button[aria-current=page]::before{background:radial-gradient(closest-side,rgb(255 255 255/.16),transparent);box-shadow:none}
+}
+
+@keyframes reel-rise{from{opacity:0;transform:translateY(10px)}}
+@keyframes reel-fade{from{opacity:0}}
+@keyframes reel-fade-out{to{opacity:0}}
+@keyframes reel-pop{from{opacity:0;transform:scale(.9)}}
+@keyframes reel-nudge{0%{box-shadow:0 0 0 0 rgb(255 255 255/.45)}70%{box-shadow:0 0 0 14px rgb(255 255 255/0)}100%{box-shadow:0 0 0 0 rgb(255 255 255/0)}}
+@media(prefers-reduced-motion:reduce){
+ .reel-layer,.reel-caption span{transition:none}
+ .reel-layer.is-contain.has-backdrop::before{animation:none}
+ .reel-predict,.reel-caption,.reel-guess,.reel-end,.reel-paused{animation:none}
+ .reel-rail-button.is-asking svg{animation:none}
+ .reel-card{transition:none}
+}
+
+/* The switch shares the top bar's row with search (the bar is search alone on Explore), its 44 px
+   centred in the row, under the status bar on a phone. A reel or a video runs full bleed beneath it;
+   the Lessons list scrolls beneath the bar's fade like any page of words (chrome.css). */
+.studio-shell .explore-switch{top:calc(var(--safe-top) + (var(--chrome-bar) - 44px) / 2)}
+@media(max-width:800px){
+ .studio-shell .reel-diagram-svg{top:calc(var(--chrome-top) + 8px);bottom:calc(var(--reel-safe-bottom) + 30%);height:auto}
+ .studio-shell .reel{--reel-media-top:var(--chrome-top)}
+ /* The guess floats just under the switch. */
+ .studio-shell .reel{--reel-guess-top:calc(var(--chrome-top) + 14px)}
+ /* Under the switch the list needs less air above it, and the first card a wider crop, so its
+    button sits above the tab capsule on a 375 x 812 phone, iPhone insets included. */
+ .studio-shell .explore-list .discoveries-page{padding-top:18px}
+ .studio-shell .explore-list .discoveries-strip{margin-top:14px}
+ .studio-shell .explore-list .discoveries-section--lead{margin-top:24px}
+ .studio-shell .explore-list .discoveries-section--lead .discoveries-section-head{margin-bottom:10px}
+ .studio-shell .explore-list .discoveries-lead-media{aspect-ratio:5/2}
+ /* Over a full-bleed reel or video, the one top fade: from the status bar to just below the switch
+    and search, as faint as their white words allow (each carries its own shadow too). */
+ .studio-shell .explore-workspace:not(.is-list)::after{content:'';position:absolute;z-index:6;left:0;right:0;top:0;height:calc(var(--safe-top) + 92px);pointer-events:none;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--atlas-shade) 50%,transparent),color-mix(in srgb,var(--atlas-shade) 30%,transparent) calc(var(--safe-top) + 46px),transparent)}
+}
+@media(min-width:801px){
+ .studio-shell .explore-reels{inset:var(--chrome-top) 0 0}
+ .studio-shell .reel{--reel-guess-top:24px}
+}

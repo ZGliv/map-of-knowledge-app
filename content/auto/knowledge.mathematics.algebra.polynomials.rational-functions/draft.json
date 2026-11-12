@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "A rational function is a function defined by a fraction whose numerator and denominator are both polynomials.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its domain is the set of values for which the denominator is not zero.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "Every polynomial is itself a rational function, and the sum, product or quotient of two rational functions is again rational, unless you divide by the zero polynomial.",
+   "cites": [
+    27,
+    32
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Domain rule",
+   "value": "All values of x for which the denominator is not zero",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Constants count",
+   "value": "f(x) = π is rational, since constants are polynomials",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Not rational",
+   "value": "f(x) = sin (x) cannot be written as such a fraction",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Removable singularity",
+   "value": "x/x is equal to 1 for all x except 0",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Proper rational function",
+   "value": "The numerator's degree is less than the denominator's",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A function simply adds 5 to its input, with no fraction anywhere. Is it a rational function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, a rational function must visibly contain a fraction"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when the input is not zero"
+    },
+    {
+     "id": "c",
+     "label": "Yes, since it is a polynomial and every polynomial is rational"
+    },
+    {
+     "id": "d",
+     "label": "No, because adding 5 can give irrational values"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every polynomial function is a rational function, with Q(x) = 1.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "prompt": "What decides which inputs a rational function cannot accept?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The inputs that make the denominator zero"
+    },
+    {
+     "id": "b",
+     "label": "The inputs that make the numerator zero"
+    },
+    {
+     "id": "c",
+     "label": "Every negative input, as with square roots"
+    },
+    {
+     "id": "d",
+     "label": "The inputs where the fraction equals 1"
+    }
+   ],
+   "answer": "a",
+   "explain": "The domain is the set of values for which the denominator is not zero.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "A friend says the sine function is rational because its curve is smooth like many fractions. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any smooth curve can be written as a polynomial fraction"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as the input is limited to whole numbers"
+    },
+    {
+     "id": "c",
+     "label": "No, a function must be periodic to be rational"
+    },
+    {
+     "id": "d",
+     "label": "No, it cannot be written as one polynomial over another"
+    }
+   ],
+   "answer": "d",
+   "explain": "A rational function is one polynomial over another. A function that cannot be written in this form, such as f(x) = sin (x), is not a rational function.",
+   "cites": [
+    1,
+    28
+   ]
+  },
+  {
+   "prompt": "A function is x/x. What can you say about its values?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It equals 1 at every input without exception"
+    },
+    {
+     "id": "b",
+     "label": "It equals 1 for all x except 0, where it has a removable singularity"
+    },
+    {
+     "id": "c",
+     "label": "It equals 0 at the input 0 and 1 elsewhere"
+    },
+    {
+     "id": "d",
+     "label": "It equals x at every input but 0"
+    }
+   ],
+   "answer": "b",
+   "explain": "The function x/x is equal to 1 for all x except 0, where there is a removable singularity.",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "prompt": "A fraction of two real polynomials has a top of degree 2 and a bottom of degree 3. What is such a rational function called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Proper"
+    },
+    {
+     "id": "b",
+     "label": "Improper"
+    },
+    {
+     "id": "c",
+     "label": "Reduced"
+    },
+    {
+     "id": "d",
+     "label": "Removable"
+    }
+   ],
+   "answer": "a",
+   "explain": "A proper rational function has a numerator of smaller degree than its denominator, by analogy to a proper fraction.",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "prompt": "You add two rational functions together. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A polynomial, since the fractions cancel"
+    },
+    {
+     "id": "b",
+     "label": "Something that may fail to be rational"
+    },
+    {
+     "id": "c",
+     "label": "Another rational function"
+    },
+    {
+     "id": "d",
+     "label": "A constant"
+    }
+   ],
+   "answer": "c",
+   "explain": "The sum, product or quotient (excepting division by the zero polynomial) of two rational functions is itself a rational function.",
+   "cites": [
+    32
+   ]
+  }
+ ]
+}

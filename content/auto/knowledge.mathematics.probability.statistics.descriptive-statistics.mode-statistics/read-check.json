@@ -1,0 +1,30 @@
+{
+ "readHash": "e4438f9980650af71ae1bf6763eb3470c722b97b",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Most frequent value, central tendency summary like mean/median, sample example with mode 6: 1,4,13,14."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Mode not unique, [1,1,2,4,4] bimodal, multimodal for more, uniform as extreme case: 6,7,15,16."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Works for nominal data unlike mean/median, Kim example, plurality voting and tie-breaking: 25-28."
+  },
+  "r3": {
+   "supported": true,
+   "why": "PMF maximum, most likely sampled, local maxima of PDF, multimodal vs unimodal: 2,3,8,9,10."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Continuous values never repeat so raw mode unusable, equal-width intervals as in histogram, histogram peak, kernel density estimation: 17,18,19,21."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Coincide in symmetric unimodal/normal, differ in skewed, insensitive to outliers except tiny samples, median robust/mean sensitive, one-third rule: 5,11,43,44,45."
+  }
+ }
+}

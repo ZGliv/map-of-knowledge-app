@@ -1,0 +1,543 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra",
+ "name": "Abstract algebra",
+ "summary": [
+  {
+   "text": "Abstract algebra is the study of algebraic structures, which are sets with specific operations acting on their elements.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Algebraic structures include groups, rings, fields, modules, vector spaces, lattices and algebras over a field.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It grew during the nineteenth century from scattered facts in several branches of mathematics and was unified in the early 20th century into formal definitions.",
+   "cites": [
+    10,
+    11,
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name coined",
+   "value": "In the early 20th century, to set it apart from elementary algebra",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Before the 1800s",
+   "value": "Algebra was defined as the study of polynomials",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Unification",
+   "value": "Early 20th century formal definitions of groups, rings and fields",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Today's usage",
+   "value": "Simply called algebra; the longer name is mostly used in teaching",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Inverse requirement",
+   "value": "Von Dyck in 1882 first required inverse elements in a group",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A mathematician takes a set together with a rule for combining its elements and studies that pair as an object in itself. What is such a thing called in abstract algebra?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A rhetorical equation"
+    },
+    {
+     "id": "b",
+     "label": "A symbolic polynomial"
+    },
+    {
+     "id": "c",
+     "label": "A mathematical category"
+    },
+    {
+     "id": "d",
+     "label": "An algebraic structure"
+    }
+   ],
+   "answer": "d",
+   "explain": "Abstract algebra studies algebraic structures, which are sets with specific operations acting on their elements.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra:q1"
+  },
+  {
+   "prompt": "The name abstract algebra was coined to set it apart from an older kind of algebra. What does that older kind do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Uses variables to stand for numbers in computation"
+    },
+    {
+     "id": "b",
+     "label": "Studies only sets with one operation"
+    },
+    {
+     "id": "c",
+     "label": "Avoids all symbols and uses words"
+    },
+    {
+     "id": "d",
+     "label": "Classifies structures by their homomorphisms"
+    }
+   ],
+   "answer": "a",
+   "explain": "Elementary algebra is the use of variables to represent numbers in computation and reasoning.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra:q2"
+  },
+  {
+   "prompt": "A textbook opens each chapter with a formal definition of a structure and then gives examples. Is that how the subject developed historically?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, definitions came first and examples followed"
+    },
+    {
+     "id": "b",
+     "label": "Nearly the opposite: concrete problems came first"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only for groups"
+    },
+    {
+     "id": "d",
+     "label": "No, because examples were never used"
+    }
+   ],
+   "answer": "b",
+   "explain": "Theories started as scattered facts from concrete problems and were unified into formal definitions only in the early 20th century.",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra:q3"
+  },
+  {
+   "prompt": "In 1854 Cayley defined a group as a set with an associative operation and an identity, without asking for inverses. What is that called today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A field"
+    },
+    {
+     "id": "b",
+     "label": "A ring"
+    },
+    {
+     "id": "c",
+     "label": "A monoid"
+    },
+    {
+     "id": "d",
+     "label": "An abelian group"
+    }
+   ],
+   "answer": "c",
+   "explain": "That definition describes what is today called a monoid; inverses were first required later.",
+   "cites": [
+    36,
+    39
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra:q4"
+  },
+  {
+   "prompt": "What marks Peacock's symbolical algebra as different from the older arithmetical algebra?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its rules of operation hold with no restrictions"
+    },
+    {
+     "id": "b",
+     "label": "It only allowed positive numbers"
+    },
+    {
+     "id": "c",
+     "label": "It was written entirely in words"
+    },
+    {
+     "id": "d",
+     "label": "It required one number to exceed another"
+    }
+   ],
+   "answer": "a",
+   "explain": "In arithmetical algebra a − b is restricted to a ≥ b, while in symbolical algebra all rules hold with no restrictions.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra:q5"
+  },
+  {
+   "prompt": "In 1832 the word group was first used for a certain collection of permutations. What property of the collection did it signify?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It could be written in words only"
+    },
+    {
+     "id": "b",
+     "label": "It was closed under composition"
+    },
+    {
+     "id": "c",
+     "label": "It contained only even permutations"
+    },
+    {
+     "id": "d",
+     "label": "It had exactly one element"
+    }
+   ],
+   "answer": "b",
+   "explain": "Galois used the term for a collection of permutations closed under composition.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rubik%27s_cube_v2.svg/960px-Rubik%27s_cube_v2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Abstract algebra",
+  "credit": "User:Booyabazooka modified by User:Meph666",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rubik%27s_cube_v2.svg"
+ },
+ "source": {
+  "title": "Abstract algebra",
+  "url": "https://en.wikipedia.org/wiki/Abstract_algebra",
+  "revision": 1382810077
+ },
+ "pack": {
+  "id": "auto-algebra-abstract-algebra",
+  "title": "Algebra Without the Numbers",
+  "question": "What changed when algebra stopped being only about solving for x?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Abstract algebra"
+  ],
+  "hue": 51,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rubik%27s_cube_v2.svg/960px-Rubik%27s_cube_v2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Abstract algebra",
+    "credit": "User:Booyabazooka modified by User:Meph666 · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubik%27s_cube_v2.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Algebra Without the Numbers",
+    "hook": "Mathematicians found that very different problems shared one hidden shape: a set and a rule for combining its elements."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-algebra-abstract-algebra:1",
+    "transfer": false,
+    "prompt": "Put these steps in the story of algebra in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Babylonians solve quadratic word problems (about 1700 BC)"
+     },
+     {
+      "id": "b",
+      "label": "Al-Khwarizmi originates the word algebra (830 AD)"
+     },
+     {
+      "id": "c",
+      "label": "Viete's New Algebra brings fully symbolic algebra (1591)"
+     },
+     {
+      "id": "d",
+      "label": "Peacock's Treatise puts algebra on a strictly symbolic basis (1830)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Algebra moved from word problems to symbols, and only in 1830 was a strictly symbolic basis attempted."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-algebra-abstract-algebra:2",
+    "transfer": false,
+    "prompt": "In the 1800s, mathematicians had separate piles of results from number theory, geometry and solving equations. What happened to those piles over time?",
+    "explain": "Disparate facts acquired a common theme, and were unified on a common set of concepts in the early decades of the 20th century.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "They were dropped as the problems proved unrelated",
+        "feedback": "It is tempting to think unrelated fields stay separate, but these results turned out to share a common core."
+       },
+       {
+        "id": "c",
+        "label": "One textbook merged them all at once, with no history",
+        "feedback": "Unification came gradually and was only finished in the early decades of the 20th century."
+       },
+       {
+        "id": "a",
+        "label": "They gained a common theme and were unified under shared concepts"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-algebra-abstract-algebra:3",
+    "transfer": true,
+    "prompt": "Match each source of group ideas to what it led to.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Lagrange's study of the quintic equation"
+     },
+     {
+      "id": "l1",
+      "label": "Gauss's study of Fermat's little theorem"
+     },
+     {
+      "id": "l2",
+      "label": "Klein's Erlangen program"
+     },
+     {
+      "id": "l3",
+      "label": "Lie's theory of 1874"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Symmetry groups such as the Euclidean group"
+     },
+     {
+      "id": "r1",
+      "label": "Cyclic groups and abelian groups"
+     },
+     {
+      "id": "r0",
+      "label": "The Galois group of a polynomial"
+     },
+     {
+      "id": "r3",
+      "label": "Lie groups"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Several areas of mathematics each led to groups in their own way."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-algebra-abstract-algebra:4",
+    "transfer": true,
+    "prompt": "One step in this account is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Abstract algebra studies sets with operations, called algebraic structures."
+     },
+     {
+      "id": "b",
+      "text": "Groups, rings and fields are examples of such structures."
+     },
+     {
+      "id": "c",
+      "text": "The formal definitions came first, and the concrete examples from number theory and geometry were found afterwards."
+     },
+     {
+      "id": "d",
+      "text": "The scattered results were unified in the early decades of the 20th century."
+     }
+    ],
+    "answer": "c",
+    "explain": "Historically it was almost the opposite: concrete problems came first, and formal definitions came after the unification."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Abstract algebra studies structures made of sets and operations, a view that unified scattered results from number theory, geometry and equation solving.",
+    "connections": [
+     {
+      "title": "Groups",
+      "place": "Abstract algebra",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.groups"
+     },
+     {
+      "title": "Rings",
+      "place": "Abstract algebra",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.rings"
+     },
+     {
+      "title": "Fields",
+      "place": "Abstract algebra",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.fields"
+     },
+     {
+      "title": "Modules",
+      "place": "Abstract algebra",
+      "node": "knowledge.mathematics.algebra.abstract-algebra.modules"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Algebra moved from word problems to symbols, and only in 1830 was a strictly symbolic basis attempted.",
+    "source": "Wikipedia sentences 16, 18, 19, 22"
+   },
+   {
+    "claim": "Disparate facts acquired a common theme, and were unified on a common set of concepts in the early decades of the 20th century.",
+    "source": "Wikipedia sentences 11, 12, 13"
+   },
+   {
+    "claim": "Several areas of mathematics each led to groups in their own way.",
+    "source": "Wikipedia sentences 29, 30, 31, 32"
+   },
+   {
+    "claim": "Historically it was almost the opposite: concrete problems came first, and formal definitions came after the unification.",
+    "source": "Wikipedia sentences 11, 12, 13, 14"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Sets with operations",
+    "text": "Abstract algebra, also called modern algebra, studies algebraic structures: sets together with particular operations that act on their members. Groups, rings, fields, vector spaces, modules, lattices and algebras over a field are all examples. The name was invented early in the 20th century to set this subject apart from older algebra, especially elementary algebra, where letters stand for numbers in calculations and arguments. In advanced mathematics this outlook is now so basic that people just call it algebra, and the longer name turns up mostly in teaching.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Seeing structures from above",
+    "text": "Category theory offers one shared framework for studying properties and constructions that look alike across many different structures. Universal algebra, a related field, treats a whole type of structure as a single object. For instance, the structure of groups counts as one object there, known as the variety of groups.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Equations in words",
+    "text": "Before the 19th century, algebra meant the study of polynomials. Around 1700 BC the Babylonians could solve quadratic equations posed as word problems. Solving in words like this is called rhetorical algebra, and it was the main approach up to the 16th century. Al-Khwarizmi gave us the word algebra in 830 AD, yet his own work was written entirely in words. Algebra written fully in symbols came only with François Viète's New Algebra of 1591, and even that still spelled out some terms that Descartes later turned into symbols in La Géométrie in 1637.",
+    "cites": [
+     9,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Rules without restrictions",
+    "text": "Working with symbolic equations led Leonhard Euler, in the late 18th century, to accept roots then dismissed as nonsense, such as negative and imaginary numbers. Most European mathematicians pushed back against these ideas until the middle of the 19th century. George Peacock's Treatise of Algebra of 1830 was the first try at resting algebra purely on symbols. In his older arithmetical algebra, a − b only made sense when a ≥ b, but in his new symbolical algebra every rule held without limits, which let him prove laws like (−a)(−b) = ab. His argument had a weak spot, the problem of induction: √a√b = √ab is true for nonnegative real numbers but fails for complex numbers in general.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Where groups came from",
+    "text": "Several parts of mathematics fed into the idea of a group. Lagrange's 1770 work on the solutions of the quintic equation gave rise to the Galois group of a polynomial, and Klein's 1872 Erlangen program in geometry led to symmetry groups. In 1832 Galois became the first to use the word group, for a collection of permutations closed under composition. The general idea took shape slowly through the mid-19th century: Arthur Cayley in 1854 described a group as a set with an associative operation and an identity, and in 1882 Walther von Dyck was the first to demand inverse elements as part of the definition.",
+    "cites": [
+     28,
+     29,
+     31,
+     34,
+     35,
+     36,
+     39
+    ]
+   },
+   {
+    "heading": "From scattered facts to axioms",
+    "text": "Abstract algebra arose in the 19th century as harder problems and new ways of solving them appeared, with examples drawn from number theory, geometry, analysis and the solving of equations. Most of its theories began as loose collections of facts from different branches, gathered around a shared theme, and were finally unified by a common set of ideas. That unification happened in the first decades of the 20th century and produced formal axiomatic definitions of groups, rings and fields. Well-known textbooks, van der Waerden's Moderne Algebra among them, run almost the other way: each chapter opens with a formal definition and only then gives concrete examples.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mit-modern-algebra",
+   "kind": "course",
+   "title": "Modern Algebra",
+   "by": "Prof. James McKernan",
+   "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
+   "note": "An MIT course in modern (abstract) algebra: groups, rings and fields.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

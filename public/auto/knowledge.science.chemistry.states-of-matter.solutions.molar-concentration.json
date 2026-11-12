@@ -1,0 +1,314 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration",
+ "name": "Molar concentration",
+ "summary": [
+  {
+   "text": "Molar concentration, also called molarity, is the number of moles of solute per liter of solution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its most common unit is moles per liter, written mol/L, and it is often shown with square brackets around the substance, as in [H₃O⁺].",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Because most solutions slightly change volume with temperature, chemists correct for it or use a temperature-independent measure such as molality.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Common unit",
+   "value": "Moles per liter, written mol/L",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Bracket notation",
+   "value": "Square brackets around a substance, as in [H₃O⁺]",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Avogadro constant",
+   "value": "Defined as exactly 6.02214076×10²³ mol⁻¹ since 2019",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "Amount-of-substance concentration, or molarity",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Common symbols",
+   "value": "M, mM and μM: molar, millimolar, micromolar",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sodium carbonate solution has a formal concentration of 1 mol/L. What is the sodium ion concentration?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2 mol/L, since each unit of the salt releases two"
+    },
+    {
+     "id": "b",
+     "label": "1 mol/L, since every ion matches the formula"
+    },
+    {
+     "id": "c",
+     "label": "0.5 mol/L, since the ions share the salt"
+    },
+    {
+     "id": "d",
+     "label": "3 mol/L, since three particles form in total"
+    }
+   ],
+   "answer": "a",
+   "explain": "The salt dissociates, so a 1 mol/L solution of Na₂CO₃ has 2 mol/L of sodium ions and 1 mol/L of carbonate ions.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration:q1"
+  },
+  {
+   "prompt": "A lab warms a solution and its molar concentration shifts, though nothing was added. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The moles of solute shrink as heat rises"
+    },
+    {
+     "id": "b",
+     "label": "Molar concentration counts only the solvent"
+    },
+    {
+     "id": "c",
+     "label": "Warm liquids always lose some of their solute"
+    },
+    {
+     "id": "d",
+     "label": "The solution's volume changes slightly with temperature"
+    }
+   ],
+   "answer": "d",
+   "explain": "Molar concentration is per volume of solution, and the volume of most solutions slightly depends on temperature because of thermal expansion.",
+   "cites": [
+    2,
+    7
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration:q2"
+  },
+  {
+   "prompt": "A chemist wants concentration figures that do not drift when the room warms up. What can she use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Molarity measured in cubic metres"
+    },
+    {
+     "id": "b",
+     "label": "Molality, which does not depend on temperature"
+    },
+    {
+     "id": "c",
+     "label": "Moles per liter at a fixed pressure"
+    },
+    {
+     "id": "d",
+     "label": "The mega prefix instead of the M symbol"
+    }
+   ],
+   "answer": "b",
+   "explain": "This problem is usually resolved by temperature correction factors or by a temperature-independent measure such as molality.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration:q3"
+  },
+  {
+   "prompt": "Why do some guidelines tell chemists to avoid the older word 'molarity'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It measured mass instead of moles"
+    },
+    {
+     "id": "b",
+     "label": "It referred only to gases in solution"
+    },
+    {
+     "id": "c",
+     "label": "It can be confused with the quantity molality"
+    },
+    {
+     "id": "d",
+     "label": "It already meant the SI prefix mega"
+    }
+   ],
+   "answer": "c",
+   "explain": "The older name molarity should be avoided due to the risk of confusion with the quantity molality.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration:q4"
+  },
+  {
+   "prompt": "An older bottle is labelled '0.1 M'. What was that label saying about the solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The whole bottle holds 0.1 mol of solute in total"
+    },
+    {
+     "id": "b",
+     "label": "Each kilogram of its solvent holds 0.1 mol of solute"
+    },
+    {
+     "id": "c",
+     "label": "One tenth of its volume is made up of solute"
+    },
+    {
+     "id": "d",
+     "label": "Each cubic decimetre of it holds 0.1 mol of solute"
+    }
+   ],
+   "answer": "d",
+   "explain": "A solution of 0.1 mol/dm³ was often called a 0.1 molar solution, denoted 0.1 M.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration:q5"
+  },
+  {
+   "prompt": "More salt is dissolved in an ionic solution. What happens to its ionic strength?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It goes down, since salts cancel each other out"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same, since only volume matters"
+    },
+    {
+     "id": "c",
+     "label": "It goes up, since it is proportional to the salts' molar concentrations"
+    },
+    {
+     "id": "d",
+     "label": "It goes up and then drops back automatically"
+    }
+   ],
+   "answer": "c",
+   "explain": "In an ionic solution, ionic strength is proportional to the sum of the molar concentration of salts.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration:q6"
+  }
+ ],
+ "source": {
+  "title": "Molar concentration",
+  "url": "https://en.wikipedia.org/wiki/Molar_concentration",
+  "revision": 1358151686
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Moles per litre",
+    "text": "Molar concentration, also called molarity, is the number of moles of a solute in each litre of solution. Put more generally, it measures how much of a chemical species is present per unit volume of solution. Chemists most often give it in moles per litre, written mol/L or mol/dm³, which is 1000 mol/m³ in SI units.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Writing it down",
+    "text": "Molar concentration is often shown by putting square brackets around the substance, so the molarity of the hydronium ion is written [H₃O⁺]. Its units are often shortened to M, mM and μM, spoken as molar, millimolar and micromolar. A solution of 0.1 mol/dm³ was commonly called a 0.1 molar solution, written 0.1 M.",
+    "cites": [
+     4,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Counting particles",
+    "text": "Formulas for molar concentration use n, the amount of solute in moles, and N, the number of particles in a volume V of solution in litres. They also use N_A, the Avogadro constant, which since 2019 has been defined as exactly 6.02214076×10²³ mol⁻¹. The ratio N/V is called the number density C. Adding up the molar concentrations of every component gives the total molar concentration, which equals the density of the mixture divided by its molar mass.",
+    "cites": [
+     5,
+     6,
+     20
+    ]
+   },
+   {
+    "heading": "The trouble with temperature",
+    "text": "In thermodynamics, molar concentration is often awkward to use, because the volume of most solutions shifts slightly with temperature through thermal expansion. This is usually handled by applying temperature correction factors, or by switching to a measure of concentration that does not depend on temperature, such as molality.",
+    "cites": [
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Salts that split apart",
+    "text": "When a molecule or salt breaks apart in solution, the concentration may refer to the original chemical formula, and it is then called formal concentration or analytical concentration. Take sodium carbonate, Na₂CO₃, at a formal concentration of 1 mol/L. Because the salt splits into ions, the solution holds sodium ions at 2 mol/L and carbonate ions at 1 mol/L. In an ionic solution, the ionic strength is proportional to the sum of the salts' molar concentrations.",
+    "cites": [
+     10,
+     11,
+     21
+    ]
+   },
+   {
+    "heading": "An old name on its way out",
+    "text": "The same quantity also goes by amount concentration, amount-of-substance concentration, and, in clinical chemistry, substance concentration. The older name molarity should be avoided, since it is easily confused with molality, and both the term and the symbol M are now considered obsolete. The recommended units instead are ones like mol/dm³, kmol/m³ or mol/L.",
+    "cites": [
+     12,
+     13,
+     15,
+     16
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-3-3",
+   "kind": "book",
+   "title": "3.3 Molarity",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity",
+   "note": "A free textbook section defining molarity, with worked examples of calculating concentrations and diluting solutions.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-aqueous-solutions",
+   "kind": "book",
+   "title": "Introductory Chemistry Online/Aqueous Solutions",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Introductory_Chemistry_Online/Aqueous_Solutions",
+   "note": "An open textbook chapter whose molarity section works through several mol/L calculations step by step.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

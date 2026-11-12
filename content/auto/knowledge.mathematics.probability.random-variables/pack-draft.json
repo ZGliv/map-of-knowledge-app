@@ -1,0 +1,114 @@
+{
+ "title": "Chance, turned into numbers",
+ "question": "How do mathematicians turn a chancy outcome into something they can measure?",
+ "hook": "Pick someone at random, and their height becomes a number that depends on the draw.",
+ "idea": "A random variable is a function that assigns a value to each possible outcome, and its distribution says how likely the values are.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A random variable is absolutely continuous. What is the chance it takes one exact value, taken as a single point?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Zero, since probabilities go to intervals"
+    },
+    {
+     "id": "b",
+     "label": "A small positive amount that shrinks with more values",
+     "feedback": "It is tempting to spread chance over points, but for an absolutely continuous variable each single point must have probability zero."
+    },
+    {
+     "id": "c",
+     "label": "One divided by the number of possible values",
+     "feedback": "A continuous variable has uncountably many values, so there is no count to divide by. Probability is assigned to intervals instead."
+    }
+   ],
+   "answer": "a",
+   "explain": "An absolutely continuous variable has a density that assigns probabilities to intervals, and each individual point must have probability zero.",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each description into the kind of random variable it fits.",
+   "groups": [
+    "Discrete",
+    "Continuous"
+   ],
+   "items": [
+    [
+     "Has a finite set of values",
+     "Discrete"
+    ],
+    [
+     "Image is countably infinite",
+     "Discrete"
+    ],
+    [
+     "Described by a probability mass function",
+     "Discrete"
+    ],
+    [
+     "Image is uncountably infinite",
+     "Continuous"
+    ],
+    [
+     "Takes values across an interval",
+     "Continuous"
+    ]
+   ],
+   "explain": "A finite or countably infinite range makes a variable discrete. An uncountably infinite range, usually an interval, makes it continuous.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means.",
+   "pairs": [
+    [
+     "Random variate",
+     "A particular outcome of a random variable"
+    ],
+    [
+     "Cumulative distribution function",
+     "Chance of being at or below a value"
+    ],
+    [
+     "Probability mass function",
+     "Assigns a probability to each value of a discrete variable"
+    ],
+    [
+     "Probability density function",
+     "Assigns probabilities to intervals"
+    ]
+   ],
+   "explain": "These terms describe outcomes and distributions of random variables, with mass functions for discrete variables and densities for absolutely continuous ones.",
+   "cites": [
+    11,
+    18,
+    20,
+    22
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "An absolutely continuous variable can land anywhere in an interval.",
+    "Its distribution is described by a density that assigns probabilities to intervals.",
+    "So a single exact value must have a solid chance, like one divided by the number of values.",
+    "So we ask about the chance of landing in an interval instead."
+   ],
+   "wrong": 2,
+   "explain": "Each individual point has probability zero for an absolutely continuous variable. That is why probabilities are assigned to intervals.",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ]
+}

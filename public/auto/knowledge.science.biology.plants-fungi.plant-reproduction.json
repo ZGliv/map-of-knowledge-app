@@ -1,0 +1,575 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.plants-fungi.plant-reproduction",
+ "name": "Plant reproduction",
+ "summary": [
+  {
+   "text": "Plants can reproduce sexually, by the fusion of gametes, or asexually, with only one parent involved.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Sexual reproduction gives offspring that differ genetically from both parents, while vegetative reproduction gives clones identical to the parent.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Many plants spread vegetatively through parts such as rhizomes, runners, bulbs and tubers.",
+   "cites": [
+    27,
+    28,
+    33,
+    34
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sexual offspring",
+   "value": "Genetically different from either parent",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Vegetative offspring",
+   "value": "Clones, identical to the parent unless mutations occur",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Main drawback",
+   "value": "Pathogens can pass from parent to offspring",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Dandelions",
+   "value": "Make seeds without fertilization, called apomixis",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "label": "Strawberries",
+   "value": "Spread by runners, also called stolons",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You snip a stem from a spider plant and root it, and it grows into a new plant. How does the new plant compare with the original?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a blend of two parents, like a plant grown from seed"
+    },
+    {
+     "id": "b",
+     "label": "It differs from the original because gametes had to fuse"
+    },
+    {
+     "id": "c",
+     "label": "It is genetically identical, since only one parent is involved"
+    },
+    {
+     "id": "d",
+     "label": "It matches the original only if it is later pollinated"
+    }
+   ],
+   "answer": "c",
+   "explain": "A clipping grows into a clone: no gametes fuse and only one parent is involved, so the offspring is genetically identical to the parent.",
+   "cites": [
+    3,
+    4,
+    5
+   ],
+   "id": "knowledge.science.biology.plants-fungi.plant-reproduction:q1"
+  },
+  {
+   "prompt": "A gardener buries a potato tuber and a new potato plant grows, with no flowers or pollen involved. What kind of reproduction is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Vegetative reproduction, a form of asexual reproduction"
+    },
+    {
+     "id": "b",
+     "label": "Sexual reproduction, because a new individual forms"
+    },
+    {
+     "id": "c",
+     "label": "Apomixis, because a seed is made without fertilization"
+    },
+    {
+     "id": "d",
+     "label": "Pseudogamy, because pollen starts the new plant"
+    }
+   ],
+   "answer": "a",
+   "explain": "Potatoes reproduce vegetatively from underground tubers, which is asexual: new individuals form without the fusion of gametes.",
+   "cites": [
+    3,
+    9,
+    34
+   ],
+   "id": "knowledge.science.biology.plants-fungi.plant-reproduction:q2"
+  },
+  {
+   "prompt": "A grower raises a whole orchard from cuttings of one plant that carries an infection. What risk does this method create?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every cutting will differ genetically from the parent"
+    },
+    {
+     "id": "b",
+     "label": "The cuttings cannot root without gametes fusing"
+    },
+    {
+     "id": "c",
+     "label": "Each plant will fight off the infection better"
+    },
+    {
+     "id": "d",
+     "label": "The infection can pass from the parent to the new plants"
+    }
+   ],
+   "answer": "d",
+   "explain": "A major disadvantage of vegetative reproduction is that pathogens are passed from parent to offspring; this is uncommon with seeds.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.science.biology.plants-fungi.plant-reproduction:q3"
+  },
+  {
+   "prompt": "A nursery wants every tree to bear the same prized fruit, but seeds from that tree do not give the same fruit. What does it do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Plant seeds from the best tree and hope they match"
+    },
+    {
+     "id": "b",
+     "label": "Bud or graft the prized variety onto rootstock"
+    },
+    {
+     "id": "c",
+     "label": "Hand-pollinate the tree again each spring"
+    },
+    {
+     "id": "d",
+     "label": "Wait for the tree to make clones by itself"
+    }
+   ],
+   "answer": "b",
+   "explain": "Asexual methods are most often used for varieties that do not come true from seed, and fruit trees are propagated by budding or grafting onto rootstocks.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.biology.plants-fungi.plant-reproduction:q4"
+  },
+  {
+   "prompt": "Over a few growing seasons, one plant spreads across a lawn by underground stems, so the lawn holds many apparent individuals. How are they related?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are genetically identical members of one clonal colony"
+    },
+    {
+     "id": "b",
+     "label": "They are siblings, each with a different mix of traits"
+    },
+    {
+     "id": "c",
+     "label": "They grew from separate seeds, so each is unique"
+    },
+    {
+     "id": "d",
+     "label": "They match only the neighbours they touch directly"
+    }
+   ],
+   "answer": "a",
+   "explain": "Plants that persist through vegetative reproduction form a clonal colony, and every apparent individual in it is genetically identical to the others.",
+   "cites": [
+    15,
+    16,
+    17,
+    27
+   ],
+   "id": "knowledge.science.biology.plants-fungi.plant-reproduction:q5"
+  },
+  {
+   "prompt": "A dandelion produces seeds even though no embryo was fertilized. How is this best described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sexual reproduction, since seeds always come from fused gametes"
+    },
+    {
+     "id": "b",
+     "label": "Self-pollination, which always joins gametes from one flower"
+    },
+    {
+     "id": "c",
+     "label": "Asexual reproduction by seed, called apomixis"
+    },
+    {
+     "id": "d",
+     "label": "Vegetative reproduction, since no gametes fuse"
+    }
+   ],
+   "answer": "c",
+   "explain": "Seeds made by apomixis are a form of asexual reproduction that does not involve fertilization, and dandelions use it. It is distinguished from vegetative reproduction.",
+   "cites": [
+    10,
+    11,
+    23,
+    24
+   ],
+   "id": "knowledge.science.biology.plants-fungi.plant-reproduction:q6"
+  }
+ ],
+ "source": {
+  "title": "Plant reproduction",
+  "url": "https://en.wikipedia.org/wiki/Plant_reproduction",
+  "revision": 1381131698
+ },
+ "pack": {
+  "id": "auto-plants-fungi-plant-reproduction",
+  "title": "When one parent is enough",
+  "question": "How can a plant reproduce with only one parent, and what does that cost?",
+  "path": [
+   "Science",
+   "Biology",
+   "Plants & Fungi",
+   "Plant reproduction"
+  ],
+  "hue": 169,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Magnolia_grandiflora_-_flower_1.jpg/960px-Magnolia_grandiflora_-_flower_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Flower",
+    "credit": "Ianaré Sévi · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Magnolia_grandiflora_-_flower_1.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When one parent is enough",
+    "hook": "A clipping from a spider plant can grow into a whole new plant with no partner needed."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-plants-fungi-plant-reproduction:1",
+    "transfer": false,
+    "prompt": "You root a cutting from a spider plant. How will the new plant compare with its parent?",
+    "explain": "A cutting produces a new individual without gametes fusing, so it is a clone, genetically identical to the parent.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "It will be a mix of the parent and a second plant",
+        "feedback": "Mixing happens when gametes fuse, but a cutting involves only one parent and no gamete fusion."
+       },
+       {
+        "id": "c",
+        "label": "It will differ from the parent in many traits",
+        "feedback": "Different offspring come from sexual reproduction; a cutting is a clone of its one parent."
+       },
+       {
+        "id": "a",
+        "label": "It will be genetically identical to the parent"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-plants-fungi-plant-reproduction:2",
+    "transfer": false,
+    "prompt": "match each plant to the part it uses to reproduce vegetatively",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Strawberry"
+     },
+     {
+      "id": "l1",
+      "label": "Onion"
+     },
+     {
+      "id": "l2",
+      "label": "Potato"
+     },
+     {
+      "id": "l3",
+      "label": "Crocus"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Underground bulb"
+     },
+     {
+      "id": "r2",
+      "label": "Tuber"
+     },
+     {
+      "id": "r3",
+      "label": "Corm"
+     },
+     {
+      "id": "r0",
+      "label": "Runner (stolon)"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each of these plants makes new individuals from a modified underground or trailing part of the parent."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-plants-fungi-plant-reproduction:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each statement into the kind of reproduction it describes",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Offspring differ genetically from either parent"
+     },
+     {
+      "id": "i1",
+      "label": "Gametes fuse to make the offspring"
+     },
+     {
+      "id": "i2",
+      "label": "Only one parent is involved"
+     },
+     {
+      "id": "i3",
+      "label": "Male and female gametes are not made and joined"
+     },
+     {
+      "id": "i4",
+      "label": "Offspring inherit the parent's characteristics"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Sexual"
+     },
+     {
+      "id": "g1",
+      "label": "Asexual"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Sexual reproduction fuses gametes and gives different offspring; asexual reproduction uses one parent and passes its characteristics on."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-plants-fungi-plant-reproduction:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A gardener roots cuttings from one prized plant."
+     },
+     {
+      "id": "b",
+      "text": "A cutting is vegetative reproduction, so no gametes fuse."
+     },
+     {
+      "id": "c",
+      "text": "So each new plant will differ genetically from the parent."
+     },
+     {
+      "id": "d",
+      "text": "If the parent carried a disease, the new plants may inherit it."
+     }
+    ],
+    "answer": "c",
+    "explain": "With no gametes fusing, the new plants are clones, genetically identical to the parent, which is also why a disease can pass on."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Asexual reproduction makes clones of a single parent, while sexual reproduction mixes gametes into genetically different offspring.",
+    "connections": [
+     {
+      "title": "Flower",
+      "place": "Plant reproduction",
+      "node": "knowledge.science.biology.plants-fungi.plant-reproduction.flower"
+     },
+     {
+      "title": "Pollination",
+      "place": "Plant reproduction",
+      "node": "knowledge.science.biology.plants-fungi.plant-reproduction.pollination"
+     },
+     {
+      "title": "Seed",
+      "place": "Plant reproduction",
+      "node": "knowledge.science.biology.plants-fungi.plant-reproduction.seed"
+     },
+     {
+      "title": "Fruit",
+      "place": "Plant reproduction",
+      "node": "knowledge.science.biology.plants-fungi.plant-reproduction.fruit"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A cutting produces a new individual without gametes fusing, so it is a clone, genetically identical to the parent.",
+    "source": "Wikipedia sentences 3, 4, 5"
+   },
+   {
+    "claim": "Each of these plants makes new individuals from a modified underground or trailing part of the parent.",
+    "source": "Wikipedia sentences 28, 33, 34, 35"
+   },
+   {
+    "claim": "Sexual reproduction fuses gametes and gives different offspring; asexual reproduction uses one parent and passes its characteristics on.",
+    "source": "Wikipedia sentences 2, 4, 6, 8"
+   },
+   {
+    "claim": "With no gametes fusing, the new plants are clones, genetically identical to the parent, which is also why a disease can pass on.",
+    "source": "Wikipedia sentences 3, 21"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two ways to make new plants",
+    "text": "Plants can reproduce in two broad ways, sexually or asexually. In sexual reproduction, gametes fuse, and the offspring are genetically different from either parent. In asexual reproduction only one parent is involved. One asexual route, vegetative reproduction, makes new plants without any fusion of gametes, so they are clones: genetically identical to the parent and to each other, unless mutations occur.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Clones and seeds without sex",
+    "text": "Asexual reproduction in plants comes in two basic forms, vegetative reproduction and agamospermy. In vegetative reproduction, a piece of the original plant grows into new individuals, for example by budding or tillering. Apomixis is different: it replaces sexual reproduction and in some cases involves seeds. Some plants form and spread seeds whose embryos never came from fertilization. Dandelions, hawkweeds, some Citrus species and Kentucky blue grass all reproduce this way.",
+    "cites": [
+     9,
+     10,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Lasting and spreading",
+    "text": "Natural vegetative reproduction is found mostly in perennial plants and usually relies on modified stems or roots, and in a few species leaves. Most species that use it do so to carry the plant through from season to season, and often to let it grow larger. A plant that persists this way forms a clonal colony, in which every apparent individual, called a ramet, has the same genes as the rest. Ramets cannot travel far, though branching rhizomes or stolons can cover a wide area within a few growing seasons. One major drawback is that pathogens can pass from parent to offspring, while it is uncommon for them to get into seeds.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Stems, bulbs and tubers",
+    "text": "Plants use many structures to spread this way. A rhizome is a modified underground stem whose growing tips can separate as new plants, as in iris, couch grass and nettles. Runners, or stolons, are stems that lie flat above ground, used by strawberries and many grasses. Elms and many members of the rose family send up suckers, shoots from an existing root system. Onions, tulips and narcissi split their underground bulbs into more bulbs, potatoes and dahlias grow from tubers, and gladioli and crocuses use corms.",
+    "cites": [
+     27,
+     28,
+     31,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Gemmae",
+    "text": "Some plants shed gemmae: single cells or masses of cells that break away and grow into clones. They are common in liverworts and mosses, and also appear in the gametophyte generation of some filmy ferns. Some club mosses have them too, as do some higher plants such as species of Drosera.",
+    "cites": [
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "How gardeners copy plants",
+    "text": "People mostly grow plants from seed, but they also use asexual methods that build on natural ones, such as cuttings, grafting, layering, division and laboratory tissue cloning. These are chosen above all for cultivars with desirable traits that do not come true from seed. Fruit trees, for example, are often budded or grafted onto rootstocks that are themselves clones. A cutting is a branch cut below an internode from a parent plant and then made to grow roots, often helped by a hormone powder or liquid. Once it has roots and fresh leaves, it is a self-sufficient, genetically identical plant, and blackberries, African violets and verbenas are all grown this way.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-32-3",
+   "kind": "book",
+   "title": "Asexual Reproduction",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/biology-2e/pages/32-3-asexual-reproduction",
+   "note": "A free college textbook section on natural and artificial asexual reproduction: rhizomes, bulbs, tubers, cuttings, grafting."
+  },
+  {
+   "id": "openstax-32-1",
+   "kind": "book",
+   "title": "Reproductive Development and Structure",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure",
+   "note": "A free college textbook section on sexual reproduction in flowering plants and gymnosperms."
+  },
+  {
+   "id": "crashcourse-plants-bees",
+   "kind": "video",
+   "title": "The Plants & The Bees: Plant Reproduction - CrashCourse Biology #38",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ExaQ8shhkw8",
+   "note": "A Crash Course Biology video on how plants reproduce, from pollen and flowers to seeds."
+  }
+ ]
+}

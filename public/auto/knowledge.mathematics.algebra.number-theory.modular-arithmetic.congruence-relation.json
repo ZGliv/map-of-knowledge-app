@@ -1,0 +1,304 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation",
+ "name": "Congruence relation",
+ "summary": [
+  {
+   "text": "A congruence relation is a way of treating some elements of an algebraic structure as equivalent while staying compatible with the structure's operations.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "text": "Each congruence has a matching quotient structure, whose elements are the equivalence classes, and the operations carry over to those classes.",
+   "cites": [
+    2,
+    5,
+    29
+   ]
+  },
+  {
+   "text": "For groups, the class holding the identity is a normal subgroup; for rings, the class holding 0 is a two-sided ideal.",
+   "cites": [
+    13,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Kernels",
+   "value": "The kernel of a homomorphism is always a congruence",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Converse",
+   "value": "Every congruence arises as a kernel",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "In a group",
+   "value": "One class, the one with the identity, determines the congruence",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "In a ring",
+   "value": "The class containing zero determines the congruence",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Quotient elements",
+   "value": "The equivalence classes of the relation",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Someone declares some elements of a structure to be 'the same', but then finds that adding equivalent elements gives results that are not equivalent. What is missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Compatibility with the structure's operations"
+    },
+    {
+     "id": "b",
+     "label": "A larger number of equivalence classes"
+    },
+    {
+     "id": "c",
+     "label": "A ring instead of a group"
+    },
+    {
+     "id": "d",
+     "label": "A smaller structure to start from"
+    }
+   ],
+   "answer": "a",
+   "explain": "A congruence is an equivalence relation that is also compatible with the operations, so the operations work on the classes.",
+   "cites": [
+    5,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation:q1"
+  },
+  {
+   "prompt": "For a congruence on a ring, one equivalence class forms a two-sided ideal. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The class with the most elements"
+    },
+    {
+     "id": "b",
+     "label": "The class containing 1"
+    },
+    {
+     "id": "c",
+     "label": "The class containing 0"
+    },
+    {
+     "id": "d",
+     "label": "The class containing no elements"
+    }
+   ],
+   "answer": "c",
+   "explain": "The class containing 0 is always a two-sided ideal.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation:q2"
+  },
+  {
+   "prompt": "Why do people often talk about normal subgroups of a group instead of congruences on it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every group has only one congruence"
+    },
+    {
+     "id": "b",
+     "label": "Normal subgroups are always larger than congruences"
+    },
+    {
+     "id": "c",
+     "label": "Congruences on groups are not equivalence relations"
+    },
+    {
+     "id": "d",
+     "label": "Each congruence corresponds uniquely to a normal subgroup"
+    }
+   ],
+   "answer": "d",
+   "explain": "A congruence on a group is determined by the class of the identity, which is a normal subgroup, so the two carry the same information.",
+   "cites": [
+    22,
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation:q3"
+  },
+  {
+   "prompt": "Take the kernel of a homomorphism between two algebraic structures. What kind of relation is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only an order relation"
+    },
+    {
+     "id": "b",
+     "label": "A congruence"
+    },
+    {
+     "id": "c",
+     "label": "A relation that is never compatible"
+    },
+    {
+     "id": "d",
+     "label": "A quotient"
+    }
+   ],
+   "answer": "b",
+   "explain": "The kernel of a homomorphism is always a congruence, and every congruence arises this way.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation:q4"
+  },
+  {
+   "prompt": "For groups, one equivalence class pins down the whole congruence. What is the situation in semigroups?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The same: the class holding the identity decides it"
+    },
+    {
+     "id": "b",
+     "label": "Congruences cannot exist there"
+    },
+    {
+     "id": "c",
+     "label": "No single class does that, so congruences are studied as such"
+    },
+    {
+     "id": "d",
+     "label": "A single class decides it, but only in rings"
+    }
+   ],
+   "answer": "c",
+   "explain": "Semigroups lack that convenience, so their congruences have to be studied directly.",
+   "cites": [
+    32,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation:q5"
+  },
+  {
+   "prompt": "A congruence sorts the elements of a structure into groups of equivalent elements. What are the elements of the quotient structure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The original elements, unchanged"
+    },
+    {
+     "id": "b",
+     "label": "The operations of the original structure"
+    },
+    {
+     "id": "c",
+     "label": "Only the identity element"
+    },
+    {
+     "id": "d",
+     "label": "The equivalence classes"
+    }
+   ],
+   "answer": "d",
+   "explain": "The quotient structure's elements are the equivalence classes, also called congruence classes.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.congruence-relation:q6"
+  }
+ ],
+ "source": {
+  "title": "Congruence relation",
+  "url": "https://en.wikipedia.org/wiki/Congruence_relation",
+  "revision": 1363371098
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "In abstract algebra, a congruence relation, or just a congruence, is a rule for treating certain elements of a structure as equivalent. The structure might be a group, a ring or a vector space. The rule has to fit the structure: if you apply the structure's operations to equivalent elements, the results are equivalent too. The exact definition changes with the kind of structure, and there are versions for groups, rings, vector spaces, modules, semigroups, lattices and more.",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Classes and quotients",
+    "text": "Each congruence sorts the elements into bundles called equivalence classes, or congruence classes. These classes form a new structure of their own, the quotient structure. Because the congruence respects the operations, those operations still make sense when applied to whole classes rather than single elements.",
+    "cites": [
+     2,
+     5,
+     29
+    ]
+   },
+   {
+    "heading": "The model case",
+    "text": "The standard example comes from whole numbers. Two integers a and b count as congruent modulo n when a − b is divisible by n, or, saying the same thing another way, when both leave the same remainder after division by n. So 37 and 57 are congruent modulo 10: their difference, −20, is a multiple of 10, and each leaves remainder 7. Adding and multiplying the resulting classes is modular arithmetic. Seen through abstract algebra, this is a congruence on the ring of integers, and arithmetic modulo n happens in the matching quotient ring.",
+    "cites": [
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Groups and rings",
+    "text": "In a group, the class holding the identity element is a normal subgroup every time, and the remaining classes are its cosets; together the classes make up a quotient group. In a ring, the class holding 0 is always a two-sided ideal. Since each group congruence matches exactly one normal subgroup, people usually talk about normal subgroups instead of congruences. In the same way, ring theory speaks of ideals and module theory of submodules, rather than congruences.",
+    "cites": [
+     13,
+     14,
+     15,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Why semigroups are different",
+    "text": "This shortcut does not work everywhere. In a group or a ring, knowing one class, the one containing the identity or zero, settles the whole congruence. Semigroups have no such luck, so their congruences must be studied directly, and that need gives semigroup theory much of its own character. The same trick also fails for monoids, which is why congruences play a more central role in monoid theory.",
+    "cites": [
+     25,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Kernels and homomorphisms",
+    "text": "Congruences are closely tied to homomorphisms. The kernel of any homomorphism is a congruence, and every congruence arises as the kernel of one. Sending each element to its own class gives such a homomorphism, and its kernel is the congruence you started with. So for any algebraic structure there is a natural match between its congruences and its homomorphisms.",
+    "cites": [
+     18,
+     27,
+     28,
+     30
+    ]
+   }
+  ]
+ }
+}

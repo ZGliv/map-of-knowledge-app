@@ -1,0 +1,307 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas",
+ "name": "Vieta's formulas",
+ "summary": [
+  {
+   "text": "Vieta's formulas relate the coefficients of a polynomial to sums and products of its roots.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They provide relations between the roots without having to compute the roots themselves.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "They are named after the 16th-century French mathematician François Viète, who derived them for the case of positive roots.",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "François Viète (1540-1603), also called Franciscus Vieta",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Derived for",
+   "value": "The case of positive roots",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Main benefit",
+   "value": "Relations between roots without computing them",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Earlier closeness",
+   "value": "The 12th-century methods of al-Tusi were very close to Viète's",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Girard's credit",
+   "value": "Described as first to understand how coefficients come from the roots",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A mathematician wants to say something about how a polynomial's roots relate to each other, but she has not solved for a single root. Is that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, every relation needs the roots to be computed first"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for polynomials with positive coefficients"
+    },
+    {
+     "id": "c",
+     "label": "No, roots can only be studied one at a time"
+    },
+    {
+     "id": "d",
+     "label": "Yes, the coefficients give relations between the roots directly"
+    }
+   ],
+   "answer": "d",
+   "explain": "Vieta's formulas provide relations between the roots without having to compute them.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas:q1"
+  },
+  {
+   "prompt": "The coefficients of a polynomial are tied to which combinations of its roots?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sums and products of the roots"
+    },
+    {
+     "id": "b",
+     "label": "Only the largest root"
+    },
+    {
+     "id": "c",
+     "label": "Only the number of roots"
+    },
+    {
+     "id": "d",
+     "label": "Only the differences between roots"
+    }
+   ],
+   "answer": "a",
+   "explain": "Vieta's formulas relate the coefficients of a polynomial to sums and products of its roots.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas:q2"
+  },
+  {
+   "prompt": "A historian traces the name of these formulas. Which account fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Greek geometer of antiquity, who found them for all roots"
+    },
+    {
+     "id": "b",
+     "label": "A 16th-century French mathematician, who derived them for positive roots"
+    },
+    {
+     "id": "c",
+     "label": "A 19th-century German algebraist, who proved them for complex roots"
+    },
+    {
+     "id": "d",
+     "label": "A 12th-century Islamic mathematician, who named them after himself"
+    }
+   ],
+   "answer": "b",
+   "explain": "They are named after François Viète, a 16th-century French mathematician who derived them for the case of positive roots.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas:q3"
+  },
+  {
+   "prompt": "A 12th-century Islamic mathematician, Sharaf al-Din al-Tusi, worked on roots of equations. How did his methods compare with Viète's?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They were very close to each other"
+    },
+    {
+     "id": "b",
+     "label": "They were unrelated to roots altogether"
+    },
+    {
+     "id": "c",
+     "label": "They contradicted Viète's methods"
+    },
+    {
+     "id": "d",
+     "label": "They came after Viète's methods by centuries"
+    }
+   ],
+   "answer": "a",
+   "explain": "The methods of Viète and those of al-Tusi were very close to each other.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas:q4"
+  },
+  {
+   "prompt": "For which case did Viète himself derive the formulas?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Roots that are complex numbers"
+    },
+    {
+     "id": "b",
+     "label": "Roots that are all negative"
+    },
+    {
+     "id": "c",
+     "label": "Roots that are positive"
+    },
+    {
+     "id": "d",
+     "label": "Roots that are fractions only"
+    }
+   ],
+   "answer": "c",
+   "explain": "Viète derived the formulas for the case of positive roots.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas:q5"
+  },
+  {
+   "prompt": "Who is described as the first person to understand how a polynomial's coefficients are formed from the sum of its roots and their products?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Omar Khayyam"
+    },
+    {
+     "id": "b",
+     "label": "Girard"
+    },
+    {
+     "id": "c",
+     "label": "Al-Kashi"
+    },
+    {
+     "id": "d",
+     "label": "Viète"
+    }
+   ],
+   "answer": "b",
+   "explain": "Girard is described as the first person who understood the general doctrine of how the coefficients are formed from the sum of the roots and their products.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Francois_Viete.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Vieta's formulas",
+  "credit": "The original uploader was Dr. Manuel at German Wikipedia.",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Francois_Viete.jpeg"
+ },
+ "source": {
+  "title": "Vieta's formulas",
+  "url": "https://en.wikipedia.org/wiki/Vieta%27s_formulas",
+  "revision": 1380881949
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What the formulas say",
+    "text": "Vieta's formulas connect a polynomial's coefficients with what you get by adding and multiplying its roots. They are useful because they tell you how the roots relate to each other without your having to work out the roots first. So you can learn about the roots of an equation you have not solved.",
+    "cites": [
+     1,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "The quadratic case",
+    "text": "Take a quadratic, P(x) = ax² + bx + c, with roots r₁ and r₂. Vieta's formulas say that r₁ + r₂ = −b/a and r₁r₂ = c/a. The first rule also helps locate the lowest or highest point of P.",
+    "cites": [
+     3,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Where they come from",
+    "text": "Any polynomial a₀xⁿ + a₁xⁿ⁻¹ + ⋯ + aₙ of degree n can be split into factors as a₀(x − r₁)⋯(x − rₙ), where the r's are its roots. If you multiply those factors back out and match up equal powers of x, each coefficient turns out to be built from the roots. For a quadratic written a₂x² + a₁x + a₀, the matching gives r₁ + r₂ = −a₁/a₂ and r₁r₂ = a₀/a₂.",
+    "cites": [
+     3,
+     4,
+     10
+    ]
+   },
+   {
+    "heading": "The general pattern",
+    "text": "For a polynomial of any degree, the rule is aᵢ = (−1)ⁱ a₀ Eᵢ⁽ⁿ⁾(r₁, …, rₙ). Here Eᵢ⁽ⁿ⁾ is the ith elementary symmetric polynomial: add up every product you can make from i of the roots, each using different roots. So the second coefficient involves the sum of the roots, the next involves the sum of products of pairs, and so on, with the sign switching each step.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "heading": "A warning case",
+    "text": "Some care is needed when the number system, or ring, you work in is not an integral domain. In the integers modulo 8, the polynomial x² − 1 has four different roots, namely 1, 3, 5 and 7. It factors both as (x − 1)(x − 7) and as (x − 3)(x − 5). Because it does not equal (x − 1)(x − 3), the formulas cannot be used with the roots 1 and 3 together.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Who found them",
+    "text": "The formulas carry the name of François Viète, a 16th-century French mathematician also known by the Latin form Franciscus Vieta. He worked them out for the case where the roots are positive. His methods were very close to those of the 12th-century mathematician Sharaf al-Din al-Tusi. Girard has been described as the first to grasp in general how the coefficients come from sums of the roots and their products.",
+    "cites": [
+     2,
+     11,
+     12,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "3b1b-simpler-quadratic",
+   "kind": "video",
+   "title": "The simpler quadratic formula",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=MHXO86wKeDY",
+   "note": "Finds a quadratic's roots from their mean and product, read straight off the coefficients: Vieta's relations in action."
+  }
+ ]
+}

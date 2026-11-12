@@ -1,0 +1,234 @@
+{
+ "summary": [
+  {
+   "text": "The Euclidean algorithm is an efficient method for finding the greatest common divisor of two integers, the largest number that divides both without a remainder.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It rests on the fact that the greatest common divisor stays the same when the larger number is replaced by its difference with the smaller, repeated until the two numbers are equal.",
+   "cites": [
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "One of the oldest algorithms in common use, it reduces fractions to simplest form and sits inside the cryptography that secures internet communications.",
+   "cites": [
+    3,
+    4,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Euclid, who described it around 300 BC",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Worked example",
+   "value": "21 is the GCD of 252 and 105, as 252 = 21 × 12",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Remainder shortcut",
+   "value": "Steps never exceed five times the smaller number's digits",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Lamé's proof",
+   "value": "Gabriel Lamé proved that step limit in 1844",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "label": "Bézout link",
+   "value": "The GCD can be written as a combination, e.g. 21 = 5 × 105 + (−2) × 252",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You are hunting for the biggest number dividing both 252 and 105, and you replace 252 with 252 − 105 = 147. What happens to the answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same, since 105 and 147 share the same biggest divisor"
+    },
+    {
+     "id": "b",
+     "label": "It doubles, because the larger number got smaller"
+    },
+    {
+     "id": "c",
+     "label": "It becomes 147, the new larger number"
+    },
+    {
+     "id": "d",
+     "label": "It must be started again from the beginning"
+    }
+   ],
+   "answer": "a",
+   "explain": "The greatest common divisor does not change when the larger number is replaced by its difference with the smaller one.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "You keep replacing the larger of two numbers by its difference with the smaller until both numbers are the same. What is that final number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The product of the original two"
+    },
+    {
+     "id": "b",
+     "label": "The greatest common divisor of the original two"
+    },
+    {
+     "id": "c",
+     "label": "The smaller of the original two"
+    },
+    {
+     "id": "d",
+     "label": "The sum of the original two"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each replacement keeps the GCD unchanged, so when the numbers match, that number is the GCD.",
+   "cites": [
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "One number is huge and the other is tiny, so repeated subtraction would take thousands of steps. What shortcut does the improved version use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add the two numbers together instead of subtracting"
+    },
+    {
+     "id": "b",
+     "label": "Halve the huge number again and again each time"
+    },
+    {
+     "id": "c",
+     "label": "Swap the larger for its remainder after dividing by the smaller"
+    },
+    {
+     "id": "d",
+     "label": "Break both numbers into primes before doing anything"
+    }
+   ],
+   "answer": "c",
+   "explain": "Replacing the larger number by its remainder after division by the smaller bundles many subtractions into one step.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "You need the common divisor of two enormous numbers. What is the main advantage of Euclid's method over factoring each number first?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It hands you both numbers' prime factors as a bonus"
+    },
+    {
+     "id": "b",
+     "label": "It only works when each number is itself a prime"
+    },
+    {
+     "id": "c",
+     "label": "It guesses an answer and then checks it much later"
+    },
+    {
+     "id": "d",
+     "label": "It skips prime factors, which are very hard to find when large"
+    }
+   ],
+   "answer": "d",
+   "explain": "Factoring large integers is believed to be very difficult, and the Euclidean algorithm avoids it.",
+   "cites": [
+    43,
+    44
+   ]
+  },
+  {
+   "prompt": "Neither 6 nor 35 is a prime number. Can they still be coprime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, their only shared factor is 1"
+    },
+    {
+     "id": "b",
+     "label": "No, coprime numbers must each be prime"
+    },
+    {
+     "id": "c",
+     "label": "No, any two numbers share a factor larger than 1"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only because one of them is odd"
+    }
+   ],
+   "answer": "a",
+   "explain": "Coprime means the GCD is 1. With 6 = 2 × 3 and 35 = 5 × 7, they have no common prime factors.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "prompt": "You want to cover a 24×60 floor with identical square tiles, with no cutting. What is the largest tile side that works?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "12"
+    },
+    {
+     "id": "c",
+     "label": "10"
+    },
+    {
+     "id": "d",
+     "label": "24"
+    }
+   ],
+   "answer": "b",
+   "explain": "The largest square side that fits both edges exactly is the GCD of 24 and 60, which is 12 (24/12 = 2 and 60/12 = 5).",
+   "cites": [
+    34,
+    36,
+    37,
+    38
+   ]
+  }
+ ]
+}

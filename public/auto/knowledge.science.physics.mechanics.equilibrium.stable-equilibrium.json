@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium",
+ "name": "Stable equilibrium",
+ "summary": [
+  {
+   "text": "A stable equilibrium is a balanced state where the system's potential energy sits at a local minimum.",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "text": "If it is nudged slightly, the forces that result tend to restore the balance rather than push the system farther away.",
+   "cites": [
+    14,
+    12
+   ]
+  },
+  {
+   "text": "Stability is an important property of mechanical equilibrium, and a balance is usually called stable only if it holds in all directions.",
+   "cites": [
+    10,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Energy signature",
+   "value": "Potential energy at a local minimum",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Opposite case",
+   "value": "Unstable equilibrium sits at a local maximum of energy",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Higher dips",
+   "value": "Equilibria above the lowest energy are metastable states",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Gömböc",
+   "value": "A shape with just one stable and one unstable balance point",
+   "cites": [
+    40,
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A marble rests at the bottom of a bowl. You nudge it slightly. What happens, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rolls away because it sits at an energy maximum"
+    },
+    {
+     "id": "b",
+     "label": "It stays wherever you put it, with no restoring force"
+    },
+    {
+     "id": "c",
+     "label": "It rolls back, because forces tend to restore the balance"
+    },
+    {
+     "id": "d",
+     "label": "It speeds off the bowl because nudges always grow"
+    }
+   ],
+   "answer": "c",
+   "explain": "At a local minimum of potential energy, a small disturbance produces forces that restore equilibrium.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium:q1"
+  },
+  {
+   "prompt": "A pencil is balanced on its sharp tip and then disturbed by the smallest nudge. Which equilibrium is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stable, because it was balanced at first"
+    },
+    {
+     "id": "b",
+     "label": "Unstable, because forces push it farther away"
+    },
+    {
+     "id": "c",
+     "label": "Metastable, because it sits in a shallow dip"
+    },
+    {
+     "id": "d",
+     "label": "Neutral, because energy never changes"
+    }
+   ],
+   "answer": "b",
+   "explain": "At a local maximum of potential energy, a small displacement leads forces to move the system even farther from equilibrium.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium:q2"
+  },
+  {
+   "prompt": "A ball sits in a small dip on a hillside, with a deeper valley farther down. How is this equilibrium described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Unstable, because it is on a hill"
+    },
+    {
+     "id": "b",
+     "label": "Neutral, because it is not the deepest point"
+    },
+    {
+     "id": "c",
+     "label": "Statically indeterminate, because the valley is deeper"
+    },
+    {
+     "id": "d",
+     "label": "Metastable, because its energy exceeds the lowest possible"
+    }
+   ],
+   "answer": "d",
+   "explain": "When several stable states exist, those with potential energy above the absolute minimum are metastable.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium:q3"
+  },
+  {
+   "prompt": "A ball in a saddle-shaped surface rolls back if pushed one way but rolls off if pushed another. Is its equilibrium called stable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, stable is used only when stable in all directions"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because one direction is enough"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because the average of the directions is zero"
+    },
+    {
+     "id": "d",
+     "label": "No, because saddles have no equilibrium at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Stability can differ by direction, and an equilibrium is generally called stable only if stable in all directions.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium:q4"
+  },
+  {
+   "prompt": "A paperweight sits on a desk. What kind of equilibrium is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Static equilibrium, a special case of mechanical equilibrium"
+    },
+    {
+     "id": "b",
+     "label": "Not in equilibrium, since it is touching the desk"
+    },
+    {
+     "id": "c",
+     "label": "Only equilibrium when it is moving at a constant speed"
+    },
+    {
+     "id": "d",
+     "label": "Unstable equilibrium by definition"
+    }
+   ],
+   "answer": "a",
+   "explain": "A stationary object is in static equilibrium, a special case of mechanical equilibrium; a paperweight on a desk is an example.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium:q5"
+  },
+  {
+   "prompt": "What marks a system as in mechanical equilibrium in terms of force?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The net force on each part is zero"
+    },
+    {
+     "id": "b",
+     "label": "The system must be completely motionless"
+    },
+    {
+     "id": "c",
+     "label": "The strongest force must point upward"
+    },
+    {
+     "id": "d",
+     "label": "The potential energy must be zero everywhere"
+    }
+   ],
+   "answer": "a",
+   "explain": "A particle is in mechanical equilibrium if the net force on it is zero, and a many-part system if the net force on each part is zero. Motion at constant velocity also counts.",
+   "cites": [
+    1,
+    2,
+    5
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.stable-equilibrium:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/WeightNormal.svg/960px-WeightNormal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Equilibrium",
+  "credit": "Mog_peso.jpg: Algarabia derivative work: kismalac",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:WeightNormal.svg"
+ },
+ "source": {
+  "title": "Mechanical equilibrium",
+  "url": "https://en.wikipedia.org/wiki/Mechanical_equilibrium",
+  "revision": 1383639153
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Balance and how steady it is",
+    "text": "A particle is in mechanical equilibrium when the forces acting on it cancel out, leaving a net force of zero. A bigger system built from many pieces counts as balanced when each piece has zero net force on it. Once something is balanced, an important question is how steady that balance is. That property is called stability, and balanced states can be stable, unstable or neutral.",
+    "cites": [
+     1,
+     2,
+     10,
+     11,
+     16,
+     21
+    ]
+   },
+   {
+    "heading": "The low point of a dip",
+    "text": "In a stable equilibrium, the potential energy of the system sits at a local minimum, like the low point of a dip. Give the system a small push and the forces that arise tend to bring the balance back. A local minimum of this kind marks a stable equilibrium.",
+    "cites": [
+     13,
+     14,
+     21
+    ]
+   },
+   {
+    "heading": "Unstable and neutral cases",
+    "text": "The reverse happens when the potential energy is at a local maximum. That balance is unstable: shift the system even a tiny distance and its own forces carry it farther off. A third kind is neutral, where a small shift leaves the system nearly in balance. In a truly neutral state the energy does not change, and the balance holds over a finite width. People also call this marginal stability, a state of indifference, or astable equilibrium.",
+    "cites": [
+     11,
+     12,
+     16,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Metastable states and directions",
+    "text": "Some systems have more than one stable resting state. Any of those whose potential energy is above the lowest possible value is called metastable. Direction matters too: a system can hold steady against shifts along one axis yet tip away along another, an arrangement known as a saddle point. So a balance is normally called stable only when it is stable in every direction.",
+    "cites": [
+     15,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Testing with derivatives",
+    "text": "To judge stability precisely, higher order derivatives can be checked. If the lowest derivative that is not zero has even order and a positive value, the balance is stable; if it has odd order or a negative value, it is unstable. When every derivative is zero, the derivatives alone settle nothing. The function e^(−1/x²), set to 0 at x=0, is an example: all its derivatives vanish, yet it has a local minimum at x=0 and so is a stable equilibrium. Multiply it by the Sign function and the derivatives stay zero, but the balance turns unstable.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "A shape with one way to rest",
+    "text": "Stability also raises a puzzle about solid shapes resting under gravity on a flat surface. For uniform, convex bodies, the smallest possible number of balanced resting positions is of special interest. A flat, two-dimensional shape needs at least 4. In three dimensions, though, an object can be made with only one stable and one unstable balance point, and such an object is called a gömböc.",
+    "cites": [
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-8-4",
+   "kind": "book",
+   "title": "8.4 Potential Energy Diagrams and Stability",
+   "by": "OpenStax (William Moebs, Samuel J. Ling, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/8-4-potential-energy-diagrams-and-stability",
+   "note": "A free textbook section showing stable equilibrium as a minimum on a potential energy diagram.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-9-3",
+   "kind": "book",
+   "title": "9.3 Stability",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+   "note": "An introductory textbook section contrasting stable, unstable and neutral equilibrium with everyday examples.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

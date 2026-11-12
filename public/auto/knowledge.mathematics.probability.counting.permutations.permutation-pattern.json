@@ -1,0 +1,312 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.permutations.permutation-pattern",
+ "name": "Permutation pattern",
+ "summary": [
+  {
+   "text": "A permutation pattern is a smaller permutation found inside a longer one, in entries that appear in the same relative order.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "The entries need not be consecutive, so 32415 contains the pattern 213 in several different ways.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "A permutation that has no copy of a pattern is said to avoid it, and Knuth showed a stack can sort exactly the permutations avoiding 231.",
+   "cites": [
+    9,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Containment",
+   "value": "π contains σ when some entries share σ's relative order",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Example",
+   "value": "32415 contains 213 in several different ways",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Avoiding",
+   "value": "51342 avoids 213 despite having ten triples of entries",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Stack sorting",
+   "value": "A stack sorts a permutation exactly when it avoids 231",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Conference",
+   "value": "Permutation Patterns has met annually since 2003",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In the sequence 3 2 4 1 5, look at the entries 3, 2 and 4 in that order: the first is in the middle in size, the second is smallest, the third is largest. Which pattern do they follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "123"
+    },
+    {
+     "id": "b",
+     "label": "132"
+    },
+    {
+     "id": "c",
+     "label": "213"
+    },
+    {
+     "id": "d",
+     "label": "321"
+    }
+   ],
+   "answer": "c",
+   "explain": "Entries ordered middle, lowest, highest have the same relative order as 213, and 3, 2, 4 is one copy of that pattern in 32415.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations.permutation-pattern:q1"
+  },
+  {
+   "prompt": "In 3 2 4 1 5, the entries 3, 1 and 5 have other entries between them. Can they still form a copy of a pattern?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, entries do not need to be consecutive"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if they are next to each other"
+    },
+    {
+     "id": "c",
+     "label": "No, a copy needs neighbouring entries"
+    },
+    {
+     "id": "d",
+     "label": "No, a copy needs the entries to be increasing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Entries of a copy do not have to be consecutive, and the subsequence 315 is listed as an occurrence of 213 in 32415.",
+   "cites": [
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations.permutation-pattern:q2"
+  },
+  {
+   "prompt": "You check every group of three entries in a permutation and none of them is ordered like 213. What do we say about that permutation and 213?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It contains 213"
+    },
+    {
+     "id": "b",
+     "label": "It avoids 213"
+    },
+    {
+     "id": "c",
+     "label": "It equals 213"
+    },
+    {
+     "id": "d",
+     "label": "It is a copy of 213"
+    }
+   ],
+   "answer": "b",
+   "explain": "A permutation with no subsequence ordered like a pattern avoids that pattern, as 51342 avoids 213.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations.permutation-pattern:q3"
+  },
+  {
+   "prompt": "Researchers fix one short permutation and then study the permutations that avoid it. What do they often try to work out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which of the entries are fixed points"
+    },
+    {
+     "id": "b",
+     "label": "How long each permutation takes to read aloud"
+    },
+    {
+     "id": "c",
+     "label": "Which pattern is the shortest possible one"
+    },
+    {
+     "id": "d",
+     "label": "How many avoiding permutations there are of each length"
+    }
+   ],
+   "answer": "d",
+   "explain": "A prominent goal in the study of patterns is the enumeration of permutations avoiding a fixed, typically short, permutation or set of them.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations.permutation-pattern:q4"
+  },
+  {
+   "prompt": "In the pattern matching problem you are given a long permutation and a short one. What question does it ask?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whether the short one is contained in the long one as a pattern"
+    },
+    {
+     "id": "b",
+     "label": "Whether the two are exactly equal"
+    },
+    {
+     "id": "c",
+     "label": "Whether the long one can be shortened to fit"
+    },
+    {
+     "id": "d",
+     "label": "Whether the short one has more fixed points"
+    }
+   ],
+   "answer": "a",
+   "explain": "Given a text permutation and a pattern permutation, the matching problem asks whether the pattern is contained in the text.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations.permutation-pattern:q5"
+  },
+  {
+   "prompt": "A permutation has three entries somewhere in it ordered like 231. Based on Knuth's result, can a stack sort it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a stack can sort any permutation"
+    },
+    {
+     "id": "b",
+     "label": "No, a stack sorts only permutations avoiding 231"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if the 231 entries are next to each other"
+    },
+    {
+     "id": "d",
+     "label": "No, a stack sorts only permutations containing 231"
+    }
+   ],
+   "answer": "b",
+   "explain": "A permutation can be sorted by a stack if and only if it avoids 231, so any permutation containing a copy of 231 cannot be.",
+   "cites": [
+    9,
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.counting.permutations.permutation-pattern:q6"
+  }
+ ],
+ "source": {
+  "title": "Permutation pattern",
+  "url": "https://en.wikipedia.org/wiki/Permutation_pattern",
+  "revision": 1383754283
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A small order inside a big one",
+    "text": "A permutation pattern is a smaller permutation that sits inside a longer one. The idea belongs both to combinatorial mathematics and to theoretical computer science. To talk about patterns, we write a permutation in one-line notation: a string of entries showing where each of 1, 2, 3 and so on ends up. So 213 is the arrangement of three items in which the first two have traded places.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "What it means to contain a pattern",
+    "text": "Take two permutations, conventionally called π and σ; here π is just a name and has nothing to do with the number pi. We say π contains σ when we can pick some entries of π whose sizes rise and fall in the same relative order as all of σ. For the pattern 213, that means finding three entries x, y and z, read left to right, where y is the smallest, x is in the middle and z is the largest. The chosen entries may sit anywhere in π; they do not have to be next to each other. Mathematicians write this containment briefly as σ ≤ π.",
+    "cites": [
+     3,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "heading": "Copies, and avoiding a pattern",
+    "text": "The permutation 32415 holds the pattern 213 in five separate ways, using the entries 315, 415, 325, 324 and 215. Each of these picks is called a copy, an instance or an occurrence of the pattern. When no choice of entries works, π is said to avoid σ. For example, 51342 has ten different groups of three entries, and not a single one of them is ordered like 213, so 51342 avoids 213.",
+    "cites": [
+     5,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Where the subject came from",
+    "text": "Percy MacMahon, writing in 1915, may have proved the first result in the area. He showed that permutations which split into two decreasing subsequences, which are the ones avoiding 123, are counted by the Catalan numbers. Serious study began in 1968, when Donald Knuth looked at sorting with a stack. He proved that a stack can sort a permutation exactly when it avoids 231, and that these stack-sortable permutations are also counted by the Catalan numbers.",
+    "cites": [
+     12,
+     13,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Counting what avoids a pattern",
+    "text": "A central aim of the field is to count the permutations that avoid one fixed pattern, usually a short one, or a fixed set of patterns. In the late 1980s, Richard Stanley and Herbert Wilf guessed that every pattern β comes with some constant K for which |Avₙ(β)| < Kⁿ. This guess was called the Stanley–Wilf conjecture until Adam Marcus and Gábor Tardos proved it.",
+    "cites": [
+     23,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Finding a pattern by computer",
+    "text": "The matching problem asks whether a pattern of length k shows up in a given permutation of length n, which here is called the text. If both lengths are allowed to grow, the problem is NP-complete, and counting all the matches is #P-complete. Yet when k is held fixed, the question can be answered in time that grows only in step with n. Since 2003, researchers in the area have gathered each year at a conference called Permutation Patterns.",
+    "cites": [
+     11,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mathworld-permutation-pattern",
+   "kind": "article",
+   "title": "Permutation Pattern",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/PermutationPattern.html",
+   "note": "A reference entry defining pattern containment and avoidance, with tables counting pattern-avoiding permutations."
+  }
+ ]
+}

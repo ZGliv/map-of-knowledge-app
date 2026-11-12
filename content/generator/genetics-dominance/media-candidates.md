@@ -1,0 +1,412 @@
+# Media candidates: genetics-dominance
+
+All on the licence allowlist with no restrictions. ShareAlike files can only be shown whole (no cover, no documentary pan, no ink tone). CC BY files that are cropped must say "cropped" in the credit.
+
+- **File:Mirabilis jalapa (Belle-de-nuit) - 470.jpg** · CC BY-SA 4.0 · Another one of my pictures: This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · 2015-07-31 17:08:45 · 1601×2401
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mirabilis_jalapa_%28Belle-de-nuit%29_-_470.jpg/1280px-Mirabilis_jalapa_%28Belle-de-nuit%29_-_470.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_(Belle-de-nuit)_-_470.jpg
+  - Mirabilis jalapa (Four o'clock flower) in Saint-Aignan-sur-Cher, France.
+- **File:Mirabilis jalapa, Burdwan, West Bengal, India 02 01 2013 (2).jpg** · CC BY-SA 3.0 · Joydeep · 2013-01-02 · 2541×1811
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mirabilis_jalapa%2C_Burdwan%2C_West_Bengal%2C_India_02_01_2013_%282%29.jpg/1280px-Mirabilis_jalapa%2C_Burdwan%2C_West_Bengal%2C_India_02_01_2013_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa,_Burdwan,_West_Bengal,_India_02_01_2013_(2).jpg
+  - Mirabilis jalapa flower.
+- **File:Mirabilis jalapa 01.JPG** · CC BY-SA 3.0 · Prenn · 2012-10-13 15:57:26 · 4912×3264
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Mirabilis_jalapa_01.JPG/1280px-Mirabilis_jalapa_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_01.JPG
+  - Four o'clock flower
+- **File:Mirabilis jalapa 06072014 (1).jpg** · CC BY-SA 3.0 · Joydeep · 2014-07-06 · 2360×3049
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Mirabilis_jalapa_06072014_%281%29.jpg/1280px-Mirabilis_jalapa_06072014_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_06072014_(1).jpg
+  - Mirabilis jalapa flower. Photographed at Burdwan, West Bengal, India.
+- **File:Mirabilis jalapa 06072014 (2).jpg** · CC BY-SA 3.0 · Joydeep · 2014-07-06 · 2460×2541
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mirabilis_jalapa_06072014_%282%29.jpg/1280px-Mirabilis_jalapa_06072014_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_06072014_(2).jpg
+  - Mirabilis jalapa flower. Photographed at Burdwan, West Bengal, India.
+- **File:Mirabilis jalapa, Burdwan, West Bengal, India 02 01 2013 (3).jpg** · CC BY-SA 3.0 · JDP90 (Joydeep) · 2013-01-02 · 2716×1852
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mirabilis_jalapa%2C_Burdwan%2C_West_Bengal%2C_India_02_01_2013_%283%29.jpg/1280px-Mirabilis_jalapa%2C_Burdwan%2C_West_Bengal%2C_India_02_01_2013_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa,_Burdwan,_West_Bengal,_India_02_01_2013_(3).jpg
+  - Mirabilis jalapa different colored flower in the same plant.
+- **File:Mirabilis jalapa, Burdwan, West Bengal, India 02 01 2013 (1).jpg** · CC BY-SA 3.0 · JDP90 (Joydeep) · 2013-01-02 · 2251×1701
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Mirabilis_jalapa%2C_Burdwan%2C_West_Bengal%2C_India_02_01_2013_%281%29.jpg/1280px-Mirabilis_jalapa%2C_Burdwan%2C_West_Bengal%2C_India_02_01_2013_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa,_Burdwan,_West_Bengal,_India_02_01_2013_(1).jpg
+  - Mirabilis jalapa flower.
+- **File:Mirabilis jalapa 3.jpg** · CC BY-SA 4.0 · Nativeplants garden · 29 June 2022 (according to Exif data) · 2250×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mirabilis_jalapa_3.jpg/1280px-Mirabilis_jalapa_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_3.jpg
+  - Mirabilis jalapa
+- **File:Mirabilis jalapa 4.jpg** · CC BY-SA 4.0 · Dolon Prova · 2018-03-18 07:25:59 · 5000×3333
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Mirabilis_jalapa_4.jpg/1280px-Mirabilis_jalapa_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_4.jpg
+  - Mirabilis jalapa
+- **File:Mirabilis jalapa (1).jpg** · CC BY 4.0 · Luigi936 · 2024-06-23 20:23:45 · 1864×2486
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mirabilis_jalapa_%281%29.jpg/1280px-Mirabilis_jalapa_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_(1).jpg
+  - Blooming of Mirabilis jalapa (beautiful at night)
+- **File:Mirabilis jalapa 5.jpg** · CC BY-SA 4.0 · Nativeplants garden · 2000×1500
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Mirabilis_jalapa_5.jpg/1280px-Mirabilis_jalapa_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_5.jpg
+  - Mirabilis jalapa
+- **File:Mirabilis jalapa4.jpg** · CC BY-SA 3.0 · Kurt Stüber [1] · 2004 · 640×480
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/57/Mirabilis_jalapa4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa4.jpg
+  - Species: Mirabilis jalapa Family: Nyctaginaceae Image No. 5
+- **File:Mirabilis Jalapa 02.jpg** · CC BY 4.0 · Zaheed Sarwer Khan · 2025-01-30 · 4000×1844
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mirabilis_Jalapa_02.jpg/1280px-Mirabilis_Jalapa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_Jalapa_02.jpg
+  - Flowers of Mirabilis Jalapa are very beautiful.
+- **File:Marvel of Peru (Mirabilis jalapa) in Athens on 10 December 2023.jpg** · CC BY-SA 2.0 · George E. Koronaios · 2023-12-10 16:13:49 · 4001×6001
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Marvel_of_Peru_%28Mirabilis_jalapa%29_in_Athens_on_10_December_2023.jpg/1280px-Marvel_of_Peru_%28Mirabilis_jalapa%29_in_Athens_on_10_December_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Marvel_of_Peru_(Mirabilis_jalapa)_in_Athens_on_10_December_2023.jpg
+  - Marvel of Peru (Mirabilis jalapa) in Athens.
+- **File:Mirabilis Jalapa 03.jpg** · CC BY 4.0 · Zaheed Sarwer Khan · 2025-01-30 · 4000×1844
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Mirabilis_Jalapa_03.jpg/1280px-Mirabilis_Jalapa_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_Jalapa_03.jpg
+  - Flowers of Mirabilis Jalapa are very beautiful.
+- **File:Mirabilis Jalapa 01.jpg** · CC BY 4.0 · Zaheed Sarwer Khan · 2025-01-30 · 4000×1844
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Mirabilis_Jalapa_01.jpg/1280px-Mirabilis_Jalapa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_Jalapa_01.jpg
+  - Flowers of Mirabilis Jalapa are very beautiful.
+- **File:Mirabilis jalapa at Nativeplants Botanical Garden.jpg** · CC BY-SA 4.0 · Nativeplants garden · 1 November 2024 (according to Exif data) · 4080×3060
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Mirabilis_jalapa_at_Nativeplants_Botanical_Garden.jpg/1280px-Mirabilis_jalapa_at_Nativeplants_Botanical_Garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_at_Nativeplants_Botanical_Garden.jpg
+  - Nativeplants Botanical Garden (botanical garden in Kerala, India)
+- **File:Marvel of Peru (Mirabilis jalapa) in Athens on 12-10-2023.jpg** · CC BY-SA 2.0 · George E. Koronaios · 2023-12-10 16:14:15 · 4000×5999
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Marvel_of_Peru_%28Mirabilis_jalapa%29_in_Athens_on_12-10-2023.jpg/1280px-Marvel_of_Peru_%28Mirabilis_jalapa%29_in_Athens_on_12-10-2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Marvel_of_Peru_(Mirabilis_jalapa)_in_Athens_on_12-10-2023.jpg
+  - Marvel of Peru (Mirabilis jalapa) in Athens.
+- **File:Mirabilis jalapa (Nyctaginaceae) - stamens.jpg** · CC BY-SA 4.0 · Juan Carlos Fonseca Mata · 2020-06-12 09:03:24 · 2898×2898
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Mirabilis_jalapa_%28Nyctaginaceae%29_-_stamens.jpg/1280px-Mirabilis_jalapa_%28Nyctaginaceae%29_-_stamens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_(Nyctaginaceae)_-_stamens.jpg
+  - Flor maravilla o Mirabilis jalapa (Familia: Nyctaginaceae).
+- **File:Interacción planta-insecto - Flor maravilla (Mirabilis jalapa).jpg** · CC BY-SA 4.0 · Juan Carlos Fonseca Mata · 2020-06-06 10:01:50 · 3425×4567
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Interacci%C3%B3n_planta-insecto_-_Flor_maravilla_%28Mirabilis_jalapa%29.jpg/1280px-Interacci%C3%B3n_planta-insecto_-_Flor_maravilla_%28Mirabilis_jalapa%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Interacci%C3%B3n_planta-insecto_-_Flor_maravilla_(Mirabilis_jalapa).jpg
+  - Interacciones biológicas de Mirabilis jalapa (Familiaː Nyctaginaceae) con insectos.
+- **File:Mirabilis jalapa Dziwaczek Jalapa 2018-08-12 02.jpg** · CC BY-SA 4.0 · Agnieszka Kwiecień, Nova · 2018-08-12 · 3321×2491
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Mirabilis_jalapa_Dziwaczek_Jalapa_2018-08-12_02.jpg/1280px-Mirabilis_jalapa_Dziwaczek_Jalapa_2018-08-12_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_Dziwaczek_Jalapa_2018-08-12_02.jpg
+  - Mirabilis jalapa, fruit and flowers, plant cultivated in Wrocław University Botanical Garden, Wrocław, Poland.
+- **File:Mirabilis jalapa 00483.jpg** · CC BY-SA 4.0 · Juan Carlos Fonseca Mata · 2025-10-30 09:36:44 · 3926×3726
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Mirabilis_jalapa_00483.jpg/1280px-Mirabilis_jalapa_00483.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_00483.jpg
+  - Maravilla o Mirabilis jalapa (Familia: Nyctaginaceae).
+- **File:Mirabilis jalapa at Nativeplants Botanical Garden 2.jpg** · CC BY-SA 4.0 · Nativeplants garden · 1 November 2024 (according to Exif data) · 4080×3060
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Mirabilis_jalapa_at_Nativeplants_Botanical_Garden_2.jpg/1280px-Mirabilis_jalapa_at_Nativeplants_Botanical_Garden_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_at_Nativeplants_Botanical_Garden_2.jpg
+  - Nativeplants Botanical Garden (botanical garden in Kerala, India)
+- **File:Mirabilis jalapa in China.jpg** · CC BY-SA 4.0 · Dinkun Chen · 2026-03-29 15:34:07 · 6960×3164
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Mirabilis_jalapa_in_China.jpg/1280px-Mirabilis_jalapa_in_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_in_China.jpg
+  - Mirabilis jalapa in China
+- **File:Mirabilis jalapa 04.JPG** · CC BY-SA 4.0 · AfroBrazilian: Aleksandrs Balodis · 2016-05-28 · 5184×3456
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Mirabilis_jalapa_04.JPG/1280px-Mirabilis_jalapa_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa_04.JPG
+  - Mirabilis jalapa. The Botanical Garden of the University of Latvia
+- **File:Carl Correns.jpg** · Public domain · unknown · 1234×1755
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/09/Carl_Correns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Carl_Correns.jpg
+  - 
+- **File:Carl Correns 1910s.jpg** · Public domain · Unknown (Mondadori Publishers) · 1910sdate QS:P,+1910-00-00T00:00:00Z/8 · 765×1024
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/8e/Carl_Correns_1910s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Carl_Correns_1910s.jpg
+  - كارل كورنز
+- **File:Carl Correns Memorial Münster.JPG** · CC BY-SA 3.0 · NordhornerII · 27 March 2014, 01:48:20 · 4288×3216
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Carl_Correns_Memorial_M%C3%BCnster.JPG/1280px-Carl_Correns_Memorial_M%C3%BCnster.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Carl_Correns_Memorial_M%C3%BCnster.JPG
+  - Carl Correns Memorial, Botanical Garden Münster
+- **File:Ehrengrab Hüttenweg 47 (Dahl) Carl Erich Correns.jpg** · CC BY-SA 3.0 · OTFW, Berlin · 2010-10-25 · 3227×2419
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ehrengrab_H%C3%BCttenweg_47_%28Dahl%29_Carl_Erich_Correns.jpg/1280px-Ehrengrab_H%C3%BCttenweg_47_%28Dahl%29_Carl_Erich_Correns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Ehrengrab_H%C3%BCttenweg_47_(Dahl)_Carl_Erich_Correns.jpg
+  - "Ehrengrab" (grave of honor), Carl Erich Correns, Hüttenweg 47, Berlin-Dahlem, Germany
+- **File:Intermediate inheritance - incomplete dominance.png** · CC0 · Sciencia58 · 2019-10-02 · 1936×886
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Intermediate_inheritance_-_incomplete_dominance.png/1280px-Intermediate_inheritance_-_incomplete_dominance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Intermediate_inheritance_-_incomplete_dominance.png
+  - Mirabilis jalapa: intermediate inheritance of flower colour by incomplete dominance.
+- **File:Erich Correns as painted by Carl Theodor von Piloty 1846.jpg** · Public domain · Unknown authorUnknown author · 1846 · 1666×1659
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Erich_Correns_as_painted_by_Carl_Theodor_von_Piloty_1846.jpg/1280px-Erich_Correns_as_painted_by_Carl_Theodor_von_Piloty_1846.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Erich_Correns_as_painted_by_Carl_Theodor_von_Piloty_1846.jpg
+  - Foto of an original oil painting by Piloty
+- **File:Intermediate inheritance P - F1 - F2.png** · CC0 · Sciencia58 · 2019-09-30 · 1100×1100
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/8e/Intermediate_inheritance_P_-_F1_-_F2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Intermediate_inheritance_P_-_F1_-_F2.png
+  - Crossing of two different homozygous individuals and their first and second progeny generation in incomplete dominant inheritance
+- **File:83045-Correns-Hydro.jpeg** · CC BY-SA 4.0 · Roland45 · 2024-02-17 · 5846×4133
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/83045-Correns-Hydro.jpeg/1280px-83045-Correns-Hydro.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:83045-Correns-Hydro.jpeg
+  - Carte du réseau hydrographique de la commune de fr:Correns (France).
+- **File:83045-Correns-Sols.png** · CC BY-SA 4.0 · Roland45 · 2021-05-18 · 3270×2598
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/83045-Correns-Sols.png/1280px-83045-Correns-Sols.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:83045-Correns-Sols.png
+  - Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Correns (France).
+- **File:Stolperstein für Margot Sara Correns Zürich.jpg** · CC BY-SA 4.0 · Albinfo · 2022-09-03 17:22:37 · 3024×3024
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Stolperstein_f%C3%BCr_Margot_Sara_Correns_Z%C3%BCrich.jpg/1280px-Stolperstein_f%C3%BCr_Margot_Sara_Correns_Z%C3%BCrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Stolperstein_f%C3%BCr_Margot_Sara_Correns_Z%C3%BCrich.jpg
+  - Stolperstein für Margot Sara Correns an ihrem letzten Wohnort in Zürich an der Stockerstrasse 25, Schweiz, September 2022
+- **File:Erich Correns Tristan.JPG** · Public domain · Erich Correns · 1867 · 609×418
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fd/Erich_Correns_Tristan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Erich_Correns_Tristan.JPG
+  - Ludwig II vor seinem Dampfer Tristan und dem Schloss Berg
+- **File:Correns-Monumorts.jpg** · CC0 · Dlouit · 2023-11-06 17:32:07 · 2112×2816
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Correns-Monumorts.jpg/1280px-Correns-Monumorts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Correns-Monumorts.jpg
+  - Monument aux morts de Correns (Var, France)
+- **File:Joseph Correns - Lachende edeldame.JPG** · CC BY 3.0 · JoJan · 2011-11-13 16:26:55 · 1467×1936
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Joseph_Correns_-_Lachende_edeldame.JPG/1280px-Joseph_Correns_-_Lachende_edeldame.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Joseph_Correns_-_Lachende_edeldame.JPG
+  - "Lachende edeldame", pastel (62 x 46 cm) door de Belgische kunstschilder Joseph Correns (1814-1907); privébezit
+- **File:Joseph Correns - Lachend meisje.JPG** · CC BY 3.0 · JoJan · 2015-03-23 15:31:13 · 1308×1516
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Joseph_Correns_-_Lachend_meisje.JPG/1280px-Joseph_Correns_-_Lachend_meisje.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Joseph_Correns_-_Lachend_meisje.JPG
+  - "Lachend meisje" ,olieverf op paneel (21 x 17 cm) door de Belgische kunstchilder Joseph Correns (1814-1907)
+- **File:Correns Apier.jpg** · CC BY-SA 3.0 · This illustration was made by (User:Royonx) and released under the license(s) stated above. You are free to use it for any purpose as long as you credit me and follow the terms of the license. Example : © Michel Royon / Wikimedia Commons If you use this image outside of the Wikimedia projects, I would be happy to hear from you par courriel ( royonx gmail.com). Thanks ! Ce message en français · 2008 · 2048×1536
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Correns_Apier.jpg/1280px-Correns_Apier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Correns_Apier.jpg
+  - Apiary-enclosure in Correns, Var
+- **File:Jozef Cornelius Correns - Artist's studio.jpg** · Public domain · Jozef Cornelius Correns (1814-1907) · before 1907date QS:P,+1907-00-00T00:00:00Z/7,P1326,+1907-00-00T00:00:00Z/9 · 956×779
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6a/Jozef_Cornelius_Correns_-_Artist%27s_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Jozef_Cornelius_Correns_-_Artist's_studio.jpg
+  - Artist's studio
+- **File:Correns hus 2018 a.jpg** · CC BY-SA 4.0 · Väsk · 2018-06-15 04:37:33 · 6016×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Correns_hus_2018_a.jpg/1280px-Correns_hus_2018_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Correns_hus_2018_a.jpg
+  - Correns hus i Linköping.
+- **File:Correns hus 2018 b.jpg** · CC BY-SA 4.0 · Väsk · 2018-06-15 04:38:10 · 6016×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Correns_hus_2018_b.jpg/1280px-Correns_hus_2018_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Correns_hus_2018_b.jpg
+  - Correns hus i Linköping.
+- **File:Jozef Cornelius Correns - Standing Virgin Mary.Jpeg** · Public domain · Jozef Cornelius Correns (1814-1907) · before 1907date QS:P,+1907-00-00T00:00:00Z/7,P1326,+1907-00-00T00:00:00Z/9 · 507×600
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/7b/Jozef_Cornelius_Correns_-_Standing_Virgin_Mary.Jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Jozef_Cornelius_Correns_-_Standing_Virgin_Mary.Jpeg
+  - Standing Virgin Mary
+- **File:Huerth-Gleuel-Correns-Muehle-Info.jpg** · Public domain · Willy Horsch · 2006-09-19 · 1536×2048
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Huerth-Gleuel-Correns-Muehle-Info.jpg/1280px-Huerth-Gleuel-Correns-Muehle-Info.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Huerth-Gleuel-Correns-Muehle-Info.jpg
+  - Hürth-Gleuel, Correns-Mühle
+- **File:Correns hus 2018 c.jpg** · CC BY-SA 4.0 · Väsk · 2018-06-15 04:39:18 · 6016×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Correns_hus_2018_c.jpg/1280px-Correns_hus_2018_c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Correns_hus_2018_c.jpg
+  - Correns hus i Linköping.
+- **File:Jozef Cornelius Correns - The Artist's Studio.jpg** · Public domain · Jozef Cornelius Correns (1814-1907) · before 1907date QS:P,+1907-00-00T00:00:00Z/7,P1326,+1907-00-00T00:00:00Z/9 · 800×629
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/e8/Jozef_Cornelius_Correns_-_The_Artist%27s_Studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Jozef_Cornelius_Correns_-_The_Artist's_Studio.jpg
+  - The Artist's Studio
+- **File:Correns hus 2018 d.jpg** · CC BY-SA 4.0 · Väsk · 2018-06-15 04:39:24 · 6016×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Correns_hus_2018_d.jpg/1280px-Correns_hus_2018_d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Correns_hus_2018_d.jpg
+  - Correns hus i Linköping.
+- **File:Jozef Cornelius Correns - In the artist's studio.png** · Public domain · Jozef Cornelius Correns (1814-1907) · before 1907date QS:P,+1907-00-00T00:00:00Z/7,P1326,+1907-00-00T00:00:00Z/9 · 959×699
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/dc/Jozef_Cornelius_Correns_-_In_the_artist%27s_studio.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Jozef_Cornelius_Correns_-_In_the_artist's_studio.png
+  - In the artist's studio
+- **File:Andalusian Blue chicken (male).jpg** · CC BY-SA 3.0 · Костюшко · 2012-08-21 · 3880×2608
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Andalusian_Blue_chicken_%28male%29.jpg/1280px-Andalusian_Blue_chicken_%28male%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Andalusian_Blue_chicken_(male).jpg
+  - Andalusian breed of chicken, male.
+- **File:Andalusian gallus (hen).jpg** · CC BY-SA 3.0 · Костюшко · 2012-08-21 · 3880×2608
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Andalusian_gallus_%28hen%29.jpg/1280px-Andalusian_gallus_%28hen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Andalusian_gallus_(hen).jpg
+  - Hen (female) of Andalusian Gallus (chicken).
+- **File:Blue andalusian Hens.jpg** · CC0 · France01100 · 2024-06-11 · 2048×1252
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Blue_andalusian_Hens.jpg/1280px-Blue_andalusian_Hens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Blue_andalusian_Hens.jpg
+  - Blue andalusian Hens
+- **File:Andalusian rooster head.jpg** · CC BY-SA 3.0 · Konstantin Nikiforov · 2012-08-20 13:53:00 · 3880×2608
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Andalusian_rooster_head.jpg/1280px-Andalusian_rooster_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Andalusian_rooster_head.jpg
+  - Andalusian blue rooster's head.
+- **File:Andalusian rooster in henyard near lohmann brown hens.jpg** · CC BY-SA 3.0 · Konstantin Nikiforov · 2012-08-20 13:51:14 · 3880×2608
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Andalusian_rooster_in_henyard_near_lohmann_brown_hens.jpg/1280px-Andalusian_rooster_in_henyard_near_lohmann_brown_hens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Andalusian_rooster_in_henyard_near_lohmann_brown_hens.jpg
+  - Andalusian blue rooster in chickenyard with Lohmann Brown hens and other home-birds.
+- **File:Poule andalouse.jpg** · CC BY-SA 4.0 · Thomon · 2019-02-23 14:29:17 · 5152×3864
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Poule_andalouse.jpg/1280px-Poule_andalouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Poule_andalouse.jpg
+  - Poule andalouse variété ː bleu liséré. Salon international de l'agriculture de Paris 2019.
+- **File:Gallinas andaluzas Azules de España.jpg** · CC0 · France01100 · 2025-07-16 · 1933×1758
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Gallinas_andaluzas_Azules_de_Espa%C3%B1a.jpg/1280px-Gallinas_andaluzas_Azules_de_Espa%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Gallinas_andaluzas_Azules_de_Espa%C3%B1a.jpg
+  - Gallinas andaluzas Azules de España
+- **File:Hembra Andaluza Azul.jpg** · CC0 · France01100 · 2025-07-16 · 1635×2048
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hembra_Andaluza_Azul.jpg/1280px-Hembra_Andaluza_Azul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Hembra_Andaluza_Azul.jpg
+  - Blue Andalusian Hen
+- **File:Tab22 Hühner (Geflügel-Album, Jean Bungartz, 1885).jpg** · Public domain · Jean Bungartz · by 1885date QS:P,+1885-00-00T00:00:00Z/7,P1326,+1885-00-00T00:00:00Z/9 · 840×653
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/17/Tab22_H%C3%BChner_%28Gefl%C3%BCgel-Album%2C_Jean_Bungartz%2C_1885%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Tab22_H%C3%BChner_(Gefl%C3%BCgel-Album,_Jean_Bungartz,_1885).jpg
+  - Andalusier-Huhn.Gallus dom. andalusianus.Andalusianus.Andalousien.
+- **File:Single-Comb Blue Andolusians (21836680088).jpg** · Public domain · Community Archives · 1920-01-01 00:00 · 1823×1864
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Single-Comb_Blue_Andolusians_%2821836680088%29.jpg/1280px-Single-Comb_Blue_Andolusians_%2821836680088%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Single-Comb_Blue_Andolusians_(21836680088).jpg
+  - Slide produced by the Province of Ontario Picture Bureau, probably in the 1920s, for use in Ontario schools. Original slide reference: YPP-43 Donated to the Community Archives of Belleville and Hastings County by Mike and Sue Mills in October 2015.
+- **File:Andalusian rooster head big (portrait).jpg** · CC BY-SA 3.0 · Костюшко · 2012-08-21 · 3880×2608
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Andalusian_rooster_head_big_%28portrait%29.jpg/1280px-Andalusian_rooster_head_big_%28portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Andalusian_rooster_head_big_(portrait).jpg
+  - Голова андалузского петуха крупным планом.
+- **File:Gallus Gallus.jpg** · CC BY-SA 3.0 · Raul Volkov · 10/10/08 · 3888×2592
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Gallus_Gallus.jpg/1280px-Gallus_Gallus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Gallus_Gallus.jpg
+  - Pareja de Gallus Gallus, un gallo Andaluz Azul joven y una gallina Andaluza Barrada de 2 años de edad. Macarena y Vitorino. Especimenes de la Reserva de la Biosfera de la Fundacion PhoenixArts.
+- **File:Andalusian black adult hen hiding from sun heat in sand and buildings' shadows.jpg** · CC BY-SA 3.0 · Konstantin Nikiforov · 2013-07-26 16:12:31 · 3880×2612
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Andalusian_black_adult_hen_hiding_from_sun_heat_in_sand_and_buildings%27_shadows.jpg/1280px-Andalusian_black_adult_hen_hiding_from_sun_heat_in_sand_and_buildings%27_shadows.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Andalusian_black_adult_hen_hiding_from_sun_heat_in_sand_and_buildings'_shadows.jpg
+  - Андалузская черная курица прячется от палящего солнца в тенях зданий и холодной земле.
+- **File:Critique of the Theory of Evolution Fig 015.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 660×584
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6d/Critique_of_the_Theory_of_Evolution_Fig_015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_015.jpg
+  - Fig. 15. Diagram illustrating a cross between special races of white and black fowls, producing the blue (here gray) Andalusian.
+- **File:Gallo y Gallina Andaluza Enana.jpg** · CC0 · France01100 · 2025-07-18 · 457×387
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/74/Gallo_y_Gallina_Andaluza_Enana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Gallo_y_Gallina_Andaluza_Enana.jpg
+  - Rooster and Hen of Blue Andalusian Dwarf breed
+- **File:Gallo y Gallina Andaluza Enana 02.jpg** · CC0 · France01100 · 2025-07-18 · 440×387
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/e0/Gallo_y_Gallina_Andaluza_Enana_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Gallo_y_Gallina_Andaluza_Enana_02.jpg
+  - Rooster and Hen of Blue Andalusian Dwarf breed
+- **File:Light Roan Shorthorn Heifer DSCN1872b.jpg** · CC BY-SA 2.0 · unknown · 2103×1503
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Light_Roan_Shorthorn_Heifer_DSCN1872b.jpg/1280px-Light_Roan_Shorthorn_Heifer_DSCN1872b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Light_Roan_Shorthorn_Heifer_DSCN1872b.jpg
+  - 
+- **File:Shorthorn (PSF).png** · Public domain · Pearson Scott Foresman · 2020-03-12 · 2062×1455
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Shorthorn_%28PSF%29.png/1280px-Shorthorn_%28PSF%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Shorthorn_(PSF).png
+  - any of a breed of red, roan, white, or red and white short-horned beef cattle originating in northern England and including good milk-producing strains
+- **File:1ChShorthornBLJS 9628 (30226861597).jpg** · CC BY 2.0 · Keystone International · 2018-10-06 09:24 · 2100×1500
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/1ChShorthornBLJS_9628_%2830226861597%29.jpg/1280px-1ChShorthornBLJS_9628_%2830226861597%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:1ChShorthornBLJS_9628_(30226861597).jpg
+  - 2018 Keystone International Livestock Exposition
+- **File:Cavans Pole Star Z914.jpg** · CC BY-SA 2.0 · Robert Scarth · 2007-08-06 14:13:31 · 3285×2219
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Cavans_Pole_Star_Z914.jpg/1280px-Cavans_Pole_Star_Z914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Cavans_Pole_Star_Z914.jpg
+  - Beef Shorthorn Cavans Pole Star Z914 by Dunsyre North Star, out of Cavans Princess Winnie.
+- **File:Antirrhinum majus, Sète 03.jpg** · CC BY-SA 4.0 · Christian Ferrer · 5 April 2015, 10:16:24 · 4692×4692
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Antirrhinum_majus%2C_S%C3%A8te_03.jpg/1280px-Antirrhinum_majus%2C_S%C3%A8te_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus,_S%C3%A8te_03.jpg
+  - Antirrhinum majus (Snapdragon).
+- **File:Antirrhinum majus, Sète 02.jpg** · CC BY-SA 4.0 · Christian Ferrer · 5 April 2015, 10:14:44 · 4352×7086
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Antirrhinum_majus%2C_S%C3%A8te_02.jpg/1280px-Antirrhinum_majus%2C_S%C3%A8te_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus,_S%C3%A8te_02.jpg
+  - Antirrhinum majus (Snapdragon).
+- **File:Antirrhinum majus, Sète 01.jpg** · CC BY-SA 4.0 · Christian Ferrer · 5 April 2015, 10:13:43 · 4064×6832
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Antirrhinum_majus%2C_S%C3%A8te_01.jpg/1280px-Antirrhinum_majus%2C_S%C3%A8te_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus,_S%C3%A8te_01.jpg
+  - Antirrhinum majus (Snapdragon).
+- **File:Antirrhinum majus, Sète 04.jpg** · CC BY-SA 4.0 · Christian Ferrer · 5 April 2015, 10:15:01 · 4505×6194
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Antirrhinum_majus%2C_S%C3%A8te_04.jpg/1280px-Antirrhinum_majus%2C_S%C3%A8te_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus,_S%C3%A8te_04.jpg
+  - Antirrhinum majus (Snapdragon).
+- **File:Antirrhinum majus full MichaD.jpg** · CC BY-SA 2.5 · Michael Apel · Taken on 18 July 2007 · 1416×3504
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Antirrhinum_majus_full_MichaD.jpg/1280px-Antirrhinum_majus_full_MichaD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_full_MichaD.jpg
+  - Antirrhinum majus
+- **File:Antirrhinum majus San Antonio.jpg** · CC BY-SA 3.0 · Ianaré Sévi · 2008-03-21 · 2000×3008
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Antirrhinum_majus_San_Antonio.jpg/1280px-Antirrhinum_majus_San_Antonio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_San_Antonio.jpg
+  - Antirrhinum majus growing in San Antonio, Texas.
+- **File:Leeuwenbek (Antirrhinum).JPG** · CC BY-SA 3.0 · Dominicus Johannes Bergsma · 2014-06-01 07:54:53 · 1985×2977
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Leeuwenbek_%28Antirrhinum%29.JPG/1280px-Leeuwenbek_%28Antirrhinum%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Leeuwenbek_(Antirrhinum).JPG
+  - Bud of a Snapdragon (Antirrhinum).
+- **File:Antirrhinum-majus-Sitia-Crete-Greece-2.jpg** · CC BY-SA 4.0 · Petro Stelte · 2026-04-09 07:40:39 · 5472×3648
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Antirrhinum-majus-Sitia-Crete-Greece-2.jpg/1280px-Antirrhinum-majus-Sitia-Crete-Greece-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum-majus-Sitia-Crete-Greece-2.jpg
+  - Antirrhinum majus. Sitia, Crete, Greece.
+- **File:Antirrhinum-majus-Sitia-Crete-Greece-1.jpg** · CC BY-SA 4.0 · Petro Stelte · 2026-04-09 07:37:42 · 5472×3648
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Antirrhinum-majus-Sitia-Crete-Greece-1.jpg/1280px-Antirrhinum-majus-Sitia-Crete-Greece-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum-majus-Sitia-Crete-Greece-1.jpg
+  - Antirrhinum majus. Sitia, Crete, Greece.
+- **File:Antirrhinum majus F1 'Rocket Orchid'.jpg** · CC BY-SA 3.0 · H. Zell · 2017-07-03 · 2344×4503
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Antirrhinum_majus_F1_%27Rocket_Orchid%27.jpg/1280px-Antirrhinum_majus_F1_%27Rocket_Orchid%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_F1_'Rocket_Orchid'.jpg
+  - Antirrhinum majus F1 'Rocket Orchid' L., 1753, Snapdragon; Spa park, Bad Herrenalb, Baden-Württemberg, Germany.
+- **File:Antirrhinum majus F1 'Rocket Orchid' - Begonia ×semperflorens-cultorum.jpg** · CC BY-SA 3.0 · H. Zell · 2017-07-03 · 4326×2868
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Antirrhinum_majus_F1_%27Rocket_Orchid%27_-_Begonia_%C3%97semperflorens-cultorum.jpg/1280px-Antirrhinum_majus_F1_%27Rocket_Orchid%27_-_Begonia_%C3%97semperflorens-cultorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_F1_'Rocket_Orchid'_-_Begonia_%C3%97semperflorens-cultorum.jpg
+  - Antirrhinum majus F1 'Rocket Orchid' L., 1753, Snapdragon, and Begonia × semperflorens-cultorum hort.; Spa park, Bad Herrenalb, Baden-Württemberg, Germany.
+- **File:Antirrhinum majus from Thasos.JPG** · CC BY 2.5 · User:Haplochromis · 2007-05 · 1000×1500
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/66/Antirrhinum_majus_from_Thasos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_from_Thasos.JPG
+  - Antirrhinum majus, from Thasos, Greece
+- **File:Muflier FR 2012.jpg** · CC BY-SA 3.0 · JLPC · 2012-07-01 15:49:42 · 3300×2200
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Muflier_FR_2012.jpg/1280px-Muflier_FR_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Muflier_FR_2012.jpg
+  - Snapdragon (Antirrhinum majus), in a garden, France.
+- **File:Yellow-Snapdragon-Flower(Antirrhinum majus) 03.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-03-27 07:12:20 · 1906×3791
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_03.jpg/1280px-Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Yellow-Snapdragon-Flower(Antirrhinum_majus)_03.jpg
+  - Antirrhinum is a genus of plants commonly known as dragon flowers or snapdragons because of the flowers' fancied resemblance to the face of a dragon that opens and closes its mouth when laterally squeezed.
+- **File:Yellow-Snapdragon-Flower(Antirrhinum majus) 06.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:57:44 · 2126×3781
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_06.jpg/1280px-Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Yellow-Snapdragon-Flower(Antirrhinum_majus)_06.jpg
+  - Antirrhinum is a genus of plants commonly known as dragon flowers or snapdragons because of the flowers' fancied resemblance to the face of a dragon that opens and closes its mouth when laterally squeezed.
+- **File:Antirrhinum majus-Flower 04.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 10:41:17 · 1904×2384
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Antirrhinum_majus-Flower_04.jpg/1280px-Antirrhinum_majus-Flower_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus-Flower_04.jpg
+  - It is an herbaceous perennial plant, growing to 0.5–1 m tall, rarely up to 2 m. The leaves are spirally arranged, broadly lanceolate, 1–7 cm long and 2-2.5 cm broad.
+- **File:Antirrhinum majus-Flower 02.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 10:40:33 · 2128×3006
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Antirrhinum_majus-Flower_02.jpg/1280px-Antirrhinum_majus-Flower_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus-Flower_02.jpg
+  - It is an herbaceous perennial plant, growing to 0.5–1 m tall, rarely up to 2 m. The leaves are spirally arranged, broadly lanceolate, 1–7 cm long and 2-2.5 cm broad.
+- **File:White-Snapdragon-Flower(Antirrhinum majus) 04.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:56:56 · 1868×1868
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/White-Snapdragon-Flower%28Antirrhinum_majus%29_04.jpg/1280px-White-Snapdragon-Flower%28Antirrhinum_majus%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:White-Snapdragon-Flower(Antirrhinum_majus)_04.jpg
+  - Snapdragon is an annual flower that children love because they can snap open the flowers like puppets. Snapdragons endure cool weather and are widely planted for winter flower colors in mild-winter areas.
+- **File:White-Snapdragon-Flower(Antirrhinum majus) 03.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:55:01 · 2097×3913
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/White-Snapdragon-Flower%28Antirrhinum_majus%29_03.jpg/1280px-White-Snapdragon-Flower%28Antirrhinum_majus%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:White-Snapdragon-Flower(Antirrhinum_majus)_03.jpg
+  - Snapdragon is an annual flower that children love because they can snap open the flowers like puppets. Snapdragons endure cool weather and are widely planted for winter flower colors in mild-winter areas.
+- **File:Antirrhinum majus-Flower 01.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 10:40:56 · 1888×2517
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Antirrhinum_majus-Flower_01.jpg/1280px-Antirrhinum_majus-Flower_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Antirrhinum_majus-Flower_01.jpg
+  - It is an herbaceous perennial plant, growing to 0.5–1 m tall, rarely up to 2 m. The leaves are spirally arranged, broadly lanceolate, 1–7 cm long and 2-2.5 cm broad.
+- **File:Pink Snapdragon Flower-Antirrhinum majus 02.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:54:04 · 1737×1736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Pink_Snapdragon_Flower-Antirrhinum_majus_02.jpg/1280px-Pink_Snapdragon_Flower-Antirrhinum_majus_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Pink_Snapdragon_Flower-Antirrhinum_majus_02.jpg
+  - Pink Snapdragon Flower-Antirrhinum majus
+- **File:Yellow-Snapdragon-Flower(Antirrhinum majus) 08.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:54:37 · 1935×2580
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_08.jpg/1280px-Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Yellow-Snapdragon-Flower(Antirrhinum_majus)_08.jpg
+  - Antirrhinum is a genus of plants commonly known as dragon flowers or snapdragons because of the flowers' fancied resemblance to the face of a dragon that opens and closes its mouth when laterally squeezed.
+- **File:Pink Snapdragon Flower-Antirrhinum majus 03.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:53:57 · 2008×2677
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pink_Snapdragon_Flower-Antirrhinum_majus_03.jpg/1280px-Pink_Snapdragon_Flower-Antirrhinum_majus_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Pink_Snapdragon_Flower-Antirrhinum_majus_03.jpg
+  - Pink Snapdragon Flower-Antirrhinum majus
+- **File:Yellow-Snapdragon-Flower(Antirrhinum majus) 01.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-03-27 07:11:24 · 1900×3624
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_01.jpg/1280px-Yellow-Snapdragon-Flower%28Antirrhinum_majus%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Yellow-Snapdragon-Flower(Antirrhinum_majus)_01.jpg
+  - Antirrhinum is a genus of plants commonly known as dragon flowers or snapdragons because of the flowers' fancied resemblance to the face of a dragon that opens and closes its mouth when laterally squeezed.
+- **File:White-Snapdragon-Flower(Antirrhinum majus) 02.jpg** · CC BY-SA 4.0 · Sabina Bajracharya · 2020-04-05 14:55:00 · 1885×1885
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/White-Snapdragon-Flower%28Antirrhinum_majus%29_02.jpg/1280px-White-Snapdragon-Flower%28Antirrhinum_majus%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:White-Snapdragon-Flower(Antirrhinum_majus)_02.jpg
+  - Snapdragon is an annual flower that children love because they can snap open the flowers like puppets. Snapdragons endure cool weather and are widely planted for winter flower colors in mild-winter areas.
+- **File:Portrait of George Huntington Wellcome L0029545.jpg** · CC BY 4.0 · unknown · 2900×3992
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Portrait_of_George_Huntington_Wellcome_L0029545.jpg/1280px-Portrait_of_George_Huntington_Wellcome_L0029545.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Portrait_of_George_Huntington_Wellcome_L0029545.jpg
+  - Portrait of George Huntington General Collections Keywords: gc; surgeons; Physicians
+- **File:Huntington-portrait-report.jpg** · Public domain · Georgehuntington.jpg: Unknown Georgehuntingtonpaper.jpg: George Huntington derivative work: Garrondo (talk) · 2009-03-27 15:53 · 508×240
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bc/Huntington-portrait-report.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Huntington-portrait-report.jpg
+  - George Huntington (1850-1916), American physician.
+- **File:George S. Huntington (verso) - DPLA - 83b803550889e567bd73a3de90436987.jpg** · Public domain · unknown · 1918 · 6800×9239
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/George_S._Huntington_%28verso%29_-_DPLA_-_83b803550889e567bd73a3de90436987.jpg/1280px-George_S._Huntington_%28verso%29_-_DPLA_-_83b803550889e567bd73a3de90436987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:George_S._Huntington_(verso)_-_DPLA_-_83b803550889e567bd73a3de90436987.jpg
+  - Photograph from the Doris Ulmann collection
+- **File:George S. Huntington (recto) - DPLA - 783b4c35f9c5b677f90508c3974933c9.jpg** · Public domain · unknown · 1918 · 6820×9223
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/George_S._Huntington_%28recto%29_-_DPLA_-_783b4c35f9c5b677f90508c3974933c9.jpg/1280px-George_S._Huntington_%28recto%29_-_DPLA_-_783b4c35f9c5b677f90508c3974933c9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:George_S._Huntington_(recto)_-_DPLA_-_783b4c35f9c5b677f90508c3974933c9.jpg
+  - Photograph from the Doris Ulmann collection
+- **File:Georgehuntington.jpg** · Public domain · Unknown authorUnknown author · circa 1908date QS:P,+1908-00-00T00:00:00Z/9,P1480,Q5727902 · 212×300
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9f/Georgehuntington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Georgehuntington.jpg
+  - George Huntington (1850-1916), American physician.
+- **File:Declaration independenceFXD.jpg** · Public domain · John Trumbull · 1810 · 2976×1969
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Declaration_independenceFXD.jpg/1280px-Declaration_independenceFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  - page: https://commons.wikimedia.org/wiki/File:Declaration_independenceFXD.jpg
+  - John Trumbull's painting, Declaration of Independence, depicting the five-man drafting committee of the Declaration of Independence presenting their work to the Congress. The painting can be found on the back of the U.S. $2 bill. The original hangs in the US Capitol rotunda.
+- **File:Critique of the Theory of Evolution Fig 013.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 610×521
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/33/Critique_of_the_Theory_of_Evolution_Fig_013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_013.jpg
+  - Fig. 13. Diagram illustrating a cross between a red (dark) and a white variety of four o'clock (Mirabilis jalapa).
+- **File:Critique of the Theory of Evolution Fig 016.jpg** · Public domain · Thomas Hunt Morgan · 1916 · 605×452
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/0c/Critique_of_the_Theory_of_Evolution_Fig_016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  - page: https://commons.wikimedia.org/wiki/File:Critique_of_the_Theory_of_Evolution_Fig_016.jpg
+  - Fig. 16. Diagram showing history of germ cells of cross of Fig. 15. The larger circles indicate the color of the birds; their enclosed small circles the nature of the factors in the germ cells of such birds.

@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electric-circuits.resistor",
+ "name": "Resistor",
+ "summary": [
+  {
+   "text": "A resistor is a passive two-terminal electronic component that provides electrical resistance in a circuit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Resistors reduce current, set signal levels, divide voltages, and bias other parts, and by Ohm's law the voltage across one is proportional to the current through it.",
+   "cites": [
+    2,
+    18
+   ]
+  },
+  {
+   "text": "The electrical power a resistor absorbs turns into heat, so each one carries a maximum power rating it should not exceed.",
+   "cites": [
+    31,
+    32,
+    37
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit",
+   "value": "The ohm, equal to one volt per ampere",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "In series",
+   "value": "Resistances simply add together",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "In parallel",
+   "value": "Reciprocals of the resistances add together",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Part code 8K2",
+   "value": "Marks a resistor of 8.2 kilohms",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Common ratings",
+   "value": "Typically 1/10, 1/8, or 1/4 watt in electronics",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A 300-ohm resistor is connected across a 12-volt battery. About how much current flows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.04 amperes"
+    },
+    {
+     "id": "b",
+     "label": "25 amperes"
+    },
+    {
+     "id": "c",
+     "label": "3600 amperes"
+    },
+    {
+     "id": "d",
+     "label": "288 amperes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Current equals voltage divided by resistance: 12 / 300 = 0.04 amperes.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.resistor:q1"
+  },
+  {
+   "prompt": "You add a second resistor in parallel with a 10-ohm resistor. How does the total resistance compare with 10 ohms?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is higher, as there is more material in the way"
+    },
+    {
+     "id": "b",
+     "label": "It is lower, since parallel reciprocals add"
+    },
+    {
+     "id": "c",
+     "label": "It is exactly the same, as the 10 ohms sets the limit"
+    },
+    {
+     "id": "d",
+     "label": "It is double, as two parts are now involved"
+    }
+   ],
+   "answer": "b",
+   "explain": "For parallel resistors the reciprocals add, so the total is below the smallest one, as in the 10, 5 and 15 ohm example that gave about 2.7 ohms.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.resistor:q2"
+  },
+  {
+   "prompt": "Three resistors are wired one after another in a single path. How do you find their combined resistance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the smallest of the three values"
+    },
+    {
+     "id": "b",
+     "label": "Add the reciprocals, then flip the result"
+    },
+    {
+     "id": "c",
+     "label": "Add their resistance values together"
+    },
+    {
+     "id": "d",
+     "label": "Multiply the three values together"
+    }
+   ],
+   "answer": "c",
+   "explain": "The total resistance of resistors in series is the sum of their individual values.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.resistor:q3"
+  },
+  {
+   "prompt": "A small resistor is used in a circuit well above its power rating for a long time. What can result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, ratings are only a rough hint"
+    },
+    {
+     "id": "b",
+     "label": "Only a brief dip in resistance that fades"
+    },
+    {
+     "id": "c",
+     "label": "The current simply falls to zero, safely"
+    },
+    {
+     "id": "d",
+     "label": "Permanent damage, even scorched boards or fire"
+    }
+   ],
+   "answer": "d",
+   "explain": "Dissipating more than the rating can permanently change the resistance and may overheat the board or nearby parts.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.resistor:q4"
+  },
+  {
+   "prompt": "You want a knob that smoothly adjusts the brightness of a lamp. Which kind of resistor suits this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A variable resistor"
+    },
+    {
+     "id": "b",
+     "label": "A fixed resistor"
+    },
+    {
+     "id": "c",
+     "label": "A flameproof resistor"
+    },
+    {
+     "id": "d",
+     "label": "A high-power resistor"
+    }
+   ],
+   "answer": "a",
+   "explain": "Variable resistors are used to adjust circuit elements, such as a volume control or a lamp dimmer.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.resistor:q5"
+  },
+  {
+   "prompt": "Current is flowing through a resistor in a circuit. Where does the electrical power it absorbs end up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stored in the resistor as charge"
+    },
+    {
+     "id": "b",
+     "label": "Turned into heat that must be shed"
+    },
+    {
+     "id": "c",
+     "label": "Sent back to the battery unchanged"
+    },
+    {
+     "id": "d",
+     "label": "Turned into extra voltage on the wires"
+    }
+   ],
+   "answer": "b",
+   "explain": "The power is converted into heat, which the resistor's package must dissipate before the temperature climbs too high.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electric-circuits.resistor:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Electronic-Axial-Lead-Resistors-Array.png/960px-Electronic-Axial-Lead-Resistors-Array.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Resistor",
+  "credit": "User:Evan-Amos",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Electronic-Axial-Lead-Resistors-Array.png"
+ },
+ "source": {
+  "title": "Resistor",
+  "url": "https://en.wikipedia.org/wiki/Resistor",
+  "revision": 1383278432
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a resistor is",
+    "text": "A resistor is a passive electronic component with two terminals whose role is to provide electrical resistance in a circuit. Resistors are common parts of electrical networks and electronic circuits, and they turn up everywhere in electronic equipment. Separate resistors can be made from various compounds and in various forms. Resistors are also built inside integrated circuits.",
+    "cites": [
+     1,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "What they are used for",
+    "text": "In electronic circuits, resistors cut down current, set signal levels, split voltages, bias active elements and terminate transmission lines, and they do other jobs too. High-power resistors that can shed many watts as heat appear in motor controls and power distribution systems, and serve as test loads for generators. Fixed resistors change their resistance only slightly with temperature, time or operating voltage. Variable resistors can adjust a circuit, as in a lamp dimmer or a volume control, or act as sensors for heat, light, humidity, force or chemical activity.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Ohm's law at work",
+    "text": "Ohm's law says that the current I passing through a resistor and the voltage V across it are proportional, and the resistance R is the constant linking them. Resistance is measured in ohms, symbol Ω, named after Georg Simon Ohm. One ohm equals one volt per ampere. For example, connect a 300-ohm resistor across a 12-volt battery and 12 / 300 = 0.04 amperes flows through it.",
+    "cites": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Reading the value",
+    "text": "Commercial resistors are made across more than nine orders of magnitude of resistance. Because the range is so wide, the kilohm (1 kΩ = 10³ Ω) and the megohm (1 MΩ = 10⁶ Ω) are in common use too. The stated value is accurate only to within a manufacturing tolerance marked on the part. One common way to write values is the RKM code, which puts a letter where the decimal point would go. So 8K2 means 8.2 kΩ, and 1R2 means 1.2 Ω.",
+    "cites": [
+     9,
+     10,
+     12,
+     13,
+     14,
+     17,
+     22
+    ]
+   },
+   {
+    "heading": "Combining resistors",
+    "text": "Resistors joined in series simply add: the total is the sum of their values. Joined in parallel, the total is the reciprocal of the sum of the reciprocals. A 10-ohm, a 5-ohm and a 15-ohm resistor in parallel, for example, give 30/11 ohms, or about 2.727 ohms. A mixed network can usually be broken into parts that are purely series or purely parallel. Some complex networks cannot be split this way and need tools such as the Y-Δ transform or matrix methods.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Heat and power ratings",
+    "text": "A resistor consumes power P = IV = I²R = V²/R, where I is the current through it and V the voltage across it. That power turns into heat, which the resistor's package has to shed before its temperature climbs too high. Resistors are rated by the most power they can dissipate; separate resistors in solid-state electronics are typically rated at 1⁄10, 1⁄8 or 1⁄4 watt. Running more average power through one than its rating can damage it and permanently change its resistance. Too much heat can even burn the circuit board or nearby parts, or start a fire. Flameproof resistors are made that will not produce flames under any overload, however long it lasts.",
+    "cites": [
+     29,
+     31,
+     32,
+     33,
+     37,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-resistors",
+   "kind": "book",
+   "title": "FHSST Physics/Electricity/Resistors",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/FHSST_Physics/Electricity/Resistors",
+   "note": "A free textbook page on resistors as components: schematic symbols, variable resistors and power ratings.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "crash-course-dc-resistors",
+   "kind": "video",
+   "title": "DC Resistors & Batteries: Crash Course Physics #29",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=g-wjP1otQWI",
+   "note": "A Crash Course Physics episode on resistors and batteries in DC circuits."
+  }
+ ]
+}

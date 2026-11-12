@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "The Bonferroni inequalities are upper and lower bounds on the probability of a finite union of events.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "They generalize Boole's inequality for a finite number of events, and are named after Carlo Emilio Bonferroni, with a reference dated 1936.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "The Bonferroni Method of simultaneous inference uses the same idea: to make five estimates all good with 95% chance, each one is made good to 99%.",
+   "cites": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Carlo Emilio Bonferroni",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "What they bound",
+   "value": "The probability of finite unions of events",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Kind of bounds",
+   "value": "Certain upper and lower bounds",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Five-estimate example",
+   "value": "Each estimate gets 0.05/5 = 0.01, that is 1%",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Practical use",
+   "value": "Bonferroni Method of simultaneous inference",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab estimates five quantities from one random sample and controls each separately. It wants all five to be good with 95% chance. How much chance of being wrong can it allow for each one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5% each, the same as the total"
+    },
+    {
+     "id": "b",
+     "label": "10% each, since errors may cancel"
+    },
+    {
+     "id": "c",
+     "label": "0.25% each, to be extra safe"
+    },
+    {
+     "id": "d",
+     "label": "1% each, an equal share of the 5%"
+    }
+   ],
+   "answer": "d",
+   "explain": "The allowed 5% chance of failure is split over the five estimates, giving 0.05/5 = 0.01 each.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "Each of five estimates is built with a 99% confidence interval, yet the lab only promises 95% for all five together. Why is 99% used for each?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the total error budget has to be shared among the five"
+    },
+    {
+     "id": "b",
+     "label": "Because five estimates always lose 4% of confidence in total"
+    },
+    {
+     "id": "c",
+     "label": "Because 99% intervals are always wider than 95% ones"
+    },
+    {
+     "id": "d",
+     "label": "Because the sample must be five times larger"
+    }
+   ],
+   "answer": "a",
+   "explain": "To make the whole set good with 95% chance, each estimate is guaranteed good to 99%, so the 5% failure allowance is split five ways.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "Boole's inequality for a finite number of events can be generalized. What does the generalization tell you about the chance that at least one of the events happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single exact value for that chance"
+    },
+    {
+     "id": "b",
+     "label": "One fixed upper bound and no floor"
+    },
+    {
+     "id": "c",
+     "label": "A lower bound with no matching ceiling"
+    },
+    {
+     "id": "d",
+     "label": "Certain upper and lower bounds on that chance"
+    }
+   ],
+   "answer": "d",
+   "explain": "The generalization gives upper and lower bounds on the probability of finite unions of events, called the Bonferroni inequalities.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "A statistician controls five estimates one at a time and wants a joint guarantee. What is the name of the approach of splitting the allowed error among them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Boole method of countable limits"
+    },
+    {
+     "id": "b",
+     "label": "The Bonferroni Method of simultaneous inference"
+    },
+    {
+     "id": "c",
+     "label": "The Kolmogorov method of unit measure"
+    },
+    {
+     "id": "d",
+     "label": "The Lebesgue method of measurable sets"
+    }
+   ],
+   "answer": "b",
+   "explain": "Making each estimate good enough that the total is good with the chosen chance is called the Bonferroni Method of simultaneous inference.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "Someone hands you a family of bounds on the chance that one of several events occurs, and says they are all upper bounds. What do the Bonferroni inequalities say about this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some are upper bounds and others are lower bounds"
+    },
+    {
+     "id": "b",
+     "label": "All of them are upper bounds, as claimed"
+    },
+    {
+     "id": "c",
+     "label": "All of them are lower bounds, so the claim is reversed"
+    },
+    {
+     "id": "d",
+     "label": "They give exact values rather than bounds"
+    }
+   ],
+   "answer": "a",
+   "explain": "The Bonferroni inequalities are upper and lower bounds on the probability of finite unions of events.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "The Bonferroni inequalities carry a person's name. Who is it, and how many events do the bounds cover?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Boole; infinitely many events"
+    },
+    {
+     "id": "b",
+     "label": "Bonferroni; infinitely many events"
+    },
+    {
+     "id": "c",
+     "label": "Bonferroni; a finite number of events"
+    },
+    {
+     "id": "d",
+     "label": "Boole; a finite number of events"
+    }
+   ],
+   "answer": "c",
+   "explain": "They are named after Carlo Emilio Bonferroni and give bounds on the probability of finite unions of events.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ]
+}

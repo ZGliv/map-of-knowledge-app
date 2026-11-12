@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity",
+ "name": "Relative velocity",
+ "summary": [
+  {
+   "text": "In classical physics where movement is far slower than light, relative velocity is calculated by adding the individual speeds together.",
+   "cites": [
+    3,
+    10
+   ]
+  },
+  {
+   "text": "Phrases referring to relative velocity describe an object's motion within a frame of reference where another object remains stationary.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "text": "Using classical velocity addition breaks special relativity because it wrongly claims observers measure varying speeds for light.",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Classical calculation method",
+   "value": "Add the individual velocities together",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Classical speed condition",
+   "value": "Much less than the speed of light",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Associated limit transform",
+   "value": "Galilean transformation",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Vector rotation impact",
+   "value": "No effect on relative speed magnitude",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "If a person walks forward at 10 km/h on top of a train moving at 40 km/h, what is their total speed relative to the ground under classical rules?",
+   "options": [
+    {
+     "id": "a",
+     "label": "50 km/h"
+    },
+    {
+     "id": "b",
+     "label": "30 km/h"
+    },
+    {
+     "id": "c",
+     "label": "40 km/h"
+    },
+    {
+     "id": "d",
+     "label": "10 km/h"
+    }
+   ],
+   "answer": "a",
+   "explain": "Classical relative velocity dictates adding the walking speed of 10 km/h to the train's speed of 40 km/h, giving 50 km/h after one hour.",
+   "cites": [
+    6,
+    7,
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity:q1"
+  },
+  {
+   "prompt": "Which of the following is a standard way to express 'the velocity of A relative to B'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The speed of B measured when A has completely stopped moving"
+    },
+    {
+     "id": "b",
+     "label": "The velocity of A in a coordinate system where B is always at rest"
+    },
+    {
+     "id": "c",
+     "label": "The velocity of A multiplied by the speed of B"
+    },
+    {
+     "id": "d",
+     "label": "The distance between A and B divided by two hours"
+    }
+   ],
+   "answer": "b",
+   "explain": "A legitimate expression for the velocity of A relative to B is its velocity inside a system where B is held at rest.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity:q2"
+  },
+  {
+   "prompt": "Why does simple classical velocity addition fail under special relativity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It causes moving objects to lose all forward momentum over time."
+    },
+    {
+     "id": "b",
+     "label": "It assumes light travels much slower than physical objects like trains."
+    },
+    {
+     "id": "c",
+     "label": "It falsely predicts that different observers measure different light speeds."
+    },
+    {
+     "id": "d",
+     "label": "It makes walking on moving platforms mathematically impossible."
+    }
+   ],
+   "answer": "c",
+   "explain": "The classical addition formula violates special relativity because it incorrectly claims observers measure different light speeds.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity:q3"
+  },
+  {
+   "prompt": "Classical or Newtonian approximations of relative motion only apply under which physical constraint?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The motion occurs strictly over a one-hour period."
+    },
+    {
+     "id": "b",
+     "label": "The speeds are much faster than the speed of light."
+    },
+    {
+     "id": "c",
+     "label": "The movement occurs strictly along parallel paths."
+    },
+    {
+     "id": "d",
+     "label": "All involved speeds are much less than the speed of light."
+    }
+   ],
+   "answer": "d",
+   "explain": "Newtonian relative motion starts with the approximation that all speeds are far below the speed of light.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity:q4"
+  },
+  {
+   "prompt": "What happens to a coordinate system when it undergoes two Lorentz transformations in succession?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The coordinate system rotates."
+    },
+    {
+     "id": "b",
+     "label": "It expands into extra spatial dimensions."
+    },
+    {
+     "id": "c",
+     "label": "Its overall velocity drops to zero."
+    },
+    {
+     "id": "d",
+     "label": "It reverses the direction of relative speeds."
+    }
+   ],
+   "answer": "a",
+   "explain": "Two successive Lorentz transformations result in a rotation of the coordinate system.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity:q5"
+  },
+  {
+   "prompt": "How does coordinate rotation from successive Lorentz transformations affect relative speed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It doubles the relative speed between parallel objects."
+    },
+    {
+     "id": "b",
+     "label": "It does not affect vector magnitude, keeping relative speed symmetrical."
+    },
+    {
+     "id": "c",
+     "label": "It makes relative speed completely asymmetrical and unpredictable."
+    },
+    {
+     "id": "d",
+     "label": "It reduces the vector magnitude to zero."
+    }
+   ],
+   "answer": "b",
+   "explain": "Rotation has no effect on a vector's magnitude, which maintains the symmetry of relative speed.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.relative-velocity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Relative_motion_man_on_train.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Relative velocity",
+  "credit": "Guy vandegrift",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Relative_motion_man_on_train.gif"
+ },
+ "source": {
+  "title": "Relative velocity",
+  "url": "https://en.wikipedia.org/wiki/Relative_velocity",
+  "revision": 1352650583
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Velocity from a viewpoint",
+    "text": "Relative velocity is the velocity of an object B as measured in the rest frame of an observer A, the frame in which A stays still. It is written v _(B∣A). Its size is called the relative speed. You can also say \"the velocity of B with respect to A\", or speak of the coordinate system where A is always at rest.",
+    "cites": [
+     1,
+     2,
+     11
+    ]
+   },
+   {
+    "heading": "The everyday case",
+    "text": "When all speeds are far below the speed of light, the classical, or Newtonian, picture works well. This limit goes with what is called the Galilean transformation.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "A walk on a train",
+    "text": "Picture a man on top of a train, at its back edge. At 1:00 pm he starts walking forward at 10 km/h while the train moves at 40 km/h. One hour later, at 2:00 pm, he is 50 km from where he began, which by definition means 50 km/h. So in the classical picture, working out a relative velocity like this simply means adding the two velocities together: his walking speed plus the speed of the train.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Chaining viewpoints",
+    "text": "The difference between two position vectors, r _B − r _A, gives where B sits as seen from A. Velocities chain in a similar way through a third observer, C. The velocity of B as seen by C equals the velocity of B as seen by A, plus the velocity of A as seen by C. Written this way, the rule has a tidy symmetry that makes it easy to learn and remember.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Where simple adding fails",
+    "text": "This classical rule clashes with special relativity. It wrongly predicts that different observers would measure different speeds for light. The relativistic formula shows an odd lack of symmetry, linked to Thomas precession and to the fact that two Lorentz transformations in a row rotate the coordinate system. That rotation leaves a vector's size unchanged, so the relative speed is still symmetrical. For two objects moving in parallel directions, the relativistic formula looks much like the one for adding relativistic velocities.",
+    "cites": [
+     12,
+     17,
+     18,
+     19
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-4-5",
+   "kind": "book",
+   "title": "4.5 Relative Motion in One and Two Dimensions",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/4-5-relative-motion-in-one-and-two-dimensions",
+   "note": "A free textbook section on combining velocities between reference frames, from a walk on a train to a plane in a crosswind."
+  },
+  {
+   "id": "cp-3-5",
+   "kind": "book",
+   "title": "3.5 Addition of Velocities",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/3-5-addition-of-velocities",
+   "note": "A free textbook section on adding velocities across frames, with boats in rivers and planes in wind."
+  },
+  {
+   "id": "up3-5-6",
+   "kind": "book",
+   "title": "5.6 Relativistic Velocity Transformation",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/5-6-relativistic-velocity-transformation",
+   "note": "A free textbook section on how velocities combine in special relativity, and why light keeps the same speed."
+  },
+  {
+   "id": "mp-relativistic-addition",
+   "kind": "video",
+   "title": "Relativistic Addition of Velocity | Special Relativity Ch. 6",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=R5oCXHWEL9A",
+   "minutes": 5,
+   "note": "A short animated video on how velocities add in special relativity, unlike simple everyday addition."
+  }
+ ]
+}

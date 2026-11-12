@@ -1,0 +1,325 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map",
+ "name": "Linear map",
+ "summary": [
+  {
+   "text": "A linear map is a function between vector spaces that respects vector addition and scalar multiplication.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It does not matter whether you apply the map before or after adding and scaling, so it preserves linear combinations.",
+   "cites": [
+    9,
+    11
+   ]
+  },
+  {
+   "text": "A matrix is the standard example, and rotations and reflections are simple cases.",
+   "cites": [
+    2,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Origin",
+   "value": "A linear map always sends the origin to the origin",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Matrices",
+   "value": "Maps between finite-dimensional spaces can be written as matrices",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Same space",
+   "value": "Called a linear transformation or linear endomorphism",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Calculus",
+   "value": "Differentiation is a linear map",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Not linear",
+   "value": "Adding one to every real number",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The function that adds one to every real number fails to be linear. What goes wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every number negative"
+    },
+    {
+     "id": "b",
+     "label": "It leaves every number unchanged"
+    },
+    {
+     "id": "c",
+     "label": "It moves zero to a different point"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be drawn as a graph"
+    }
+   ],
+   "answer": "c",
+   "explain": "A linear map always sends the origin to the origin, and adding one sends zero to one.",
+   "cites": [
+    6,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map:q1"
+  },
+  {
+   "prompt": "T is a linear map. You add two vectors and then apply T. A friend applies T to each vector and then adds. How do the results compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same"
+    },
+    {
+     "id": "b",
+     "label": "They differ by a factor of two"
+    },
+    {
+     "id": "c",
+     "label": "They agree only for the zero vector"
+    },
+    {
+     "id": "d",
+     "label": "They are opposite in sign"
+    }
+   ],
+   "answer": "a",
+   "explain": "It does not matter whether the map is applied before or after addition and scalar multiplication.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map:q2"
+  },
+  {
+   "prompt": "A linear map squashes space, and you feed it a flat sheet that passes through the origin. What can come out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any flat sheet or line anywhere"
+    },
+    {
+     "id": "b",
+     "label": "A sheet, a line, or the origin, all through the origin"
+    },
+    {
+     "id": "c",
+     "label": "Only a sheet that misses the origin"
+    },
+    {
+     "id": "d",
+     "label": "Only another sheet, never a line"
+    }
+   ],
+   "answer": "b",
+   "explain": "A plane through the origin maps to a plane through the origin, a line through the origin, or just the origin.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map:q3"
+  },
+  {
+   "prompt": "A real matrix with 3 rows and 2 columns multiplies column vectors. Which spaces does it connect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three-dimensional vectors to two-dimensional ones"
+    },
+    {
+     "id": "b",
+     "label": "Two-dimensional vectors to two-dimensional ones"
+    },
+    {
+     "id": "c",
+     "label": "Two-dimensional vectors to three-dimensional ones"
+    },
+    {
+     "id": "d",
+     "label": "Three-dimensional vectors to three-dimensional ones"
+    }
+   ],
+   "answer": "c",
+   "explain": "An m × n real matrix defines a linear map from ℝⁿ to ℝᵐ.",
+   "cites": [
+    2,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map:q4"
+  },
+  {
+   "prompt": "Which of these behaves as a linear function of a random variable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its variance"
+    },
+    {
+     "id": "b",
+     "label": "Its expected value"
+    },
+    {
+     "id": "c",
+     "label": "Both of them"
+    },
+    {
+     "id": "d",
+     "label": "Neither of them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Expected value is linear, since E[X + Y] = E[X] + E[Y], but variance is not, since Var(aX) = a²Var(X).",
+   "cites": [
+    30,
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map:q5"
+  },
+  {
+   "prompt": "A student differentiates a sum of two scaled functions by differentiating each one separately and then combining. Which property allows this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Differentiation is a linear map"
+    },
+    {
+     "id": "b",
+     "label": "Differentiation is a basis change"
+    },
+    {
+     "id": "c",
+     "label": "Differentiation is a transposition"
+    },
+    {
+     "id": "d",
+     "label": "Differentiation is a zero map"
+    }
+   ],
+   "answer": "a",
+   "explain": "Differentiation is a linear map: d/dx(af(x) + bg(x)) = adf(x)/dx + bdg(x)/dx.",
+   "cites": [
+    24,
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map:q6"
+  }
+ ],
+ "source": {
+  "title": "Linear map",
+  "url": "https://en.wikipedia.org/wiki/Linear_map",
+  "revision": 1375283907
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A function that keeps the rules",
+    "text": "A linear map is a kind of function that takes vectors from one vector space to another. What makes it special is that it plays fair with the two basic moves you can make with vectors: adding them and stretching them by a number, called a scalar. People also call it a linear mapping or a linear operator. When the starting space and the target space are the same one, it often goes by linear transformation or linear endomorphism.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Before or after, same answer",
+    "text": "In symbols, a linear map T from V to W obeys T(ax + by) = aTx + bTy for any scalars a, b and any vectors x, y in V. In plain terms, you can add and scale first and then apply the map, or apply the map first and then add and scale. Both routes land in the same place. Since a linear combination is just a sum of scaled vectors, this means a linear map preserves linear combinations.",
+    "cites": [
+     5,
+     9,
+     11
+    ]
+   },
+   {
+    "heading": "What happens to the origin",
+    "text": "A linear map always sends the origin of one space to the origin of the other. You can see why by scaling any vector by zero: the map of zero times a vector must be zero times the mapped vector, which is the zero vector. It also sends each linear subspace of the first space to a linear subspace of the second, possibly of lower dimension. A plane through the origin may land as a plane, squash down to a line through the origin, or collapse to the origin itself.",
+    "cites": [
+     6,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Matrices do the work",
+    "text": "The standard example is a matrix with m rows and n columns. It takes a column vector with n entries, multiplies, and hands back a column vector with m entries, all in a way that respects adding and scaling. The reverse is also true: any linear map between spaces of finite dimension can be written as a matrix. Rotations and reflections are simple examples you can picture.",
+    "cites": [
+     2,
+     7,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Where the name comes from",
+    "text": "The map that multiplies every real number by a fixed number c is the model case. Its graph is a straight line through the origin, which is where the word linear comes from. The map that sends everything to zero counts as linear too. But adding one to every real number does not: it is called an affine transformation instead.",
+    "cites": [
+     16,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Beyond geometry",
+    "text": "Linear maps turn up well beyond arrows on paper. Taking a derivative is one: the derivative of af(x) + bg(x) is a times the derivative of f plus b times the derivative of g. Expected value in probability behaves the same way: the expected value of a sum is the sum of the expected values, and E[aX] = aE[X]. Variance does not, because Var(aX) = a²Var(X), so scaling the input does not simply scale the output.",
+    "cites": [
+     24,
+     26,
+     30,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-homomorphism",
+   "kind": "book",
+   "title": "Linear Algebra/Definition of Homomorphism",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Definition_of_Homomorphism",
+   "note": "A free textbook section defining linear maps (homomorphisms) between vector spaces, with examples.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "kuttler-linear-transformations",
+   "kind": "book",
+   "title": "5: Linear Transformations - A First Course in Linear Algebra (Kuttler)",
+   "by": "Ken Kuttler",
+   "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/A_First_Course_in_Linear_Algebra_(Kuttler)/05%3A_Linear_Transformations",
+   "note": "A free textbook chapter on linear transformations and the matrices that represent them.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "3b1b-linear-transformations",
+   "kind": "video",
+   "title": "Linear transformations and matrices",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=kYB8IZa5AuE",
+   "note": "An animated explainer of linear transformations and how a matrix records one."
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "The Wiener process, also called Brownian motion, is a real-valued continuous-time stochastic process named after Norbert Wiener.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A time step u gives an increment that is normally distributed with mean 0 and variance u, its paths are almost surely continuous, and increments over separate periods are independent.",
+   "cites": [
+    16,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "text": "It appears in pure and applied mathematics, economics, quantitative finance, evolutionary biology and physics, and it gave rise to the study of continuous time martingales.",
+   "cites": [
+    3,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Norbert Wiener",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Step size rule",
+   "value": "A time step u gives an increment with mean 0, variance u",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Built from",
+   "value": "Scaling limit of a random walk (Donsker's theorem)",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "label": "Path shape",
+   "value": "Unbounded variation, so not absolutely continuous",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Coming back",
+   "value": "Recurrent in one or two dimensions, not in three or more",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A Wiener process is watched for a short step, and then for a step four times as long. How does the variance of its change compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The longer step has the same variance"
+    },
+    {
+     "id": "b",
+     "label": "The longer step has twice the variance"
+    },
+    {
+     "id": "c",
+     "label": "The longer step has four times the variance"
+    },
+    {
+     "id": "d",
+     "label": "The longer step has sixteen times the variance"
+    }
+   ],
+   "answer": "c",
+   "explain": "A time step u gives an increment with variance u, so the variance grows in proportion to the length of the step.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "You watch a Wiener process climb sharply during the first hour. What does that say about its change in a separate, later hour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It tells you nothing, because changes over separate periods are independent"
+    },
+    {
+     "id": "b",
+     "label": "It must fall back, to make up for the climb"
+    },
+    {
+     "id": "c",
+     "label": "It must keep climbing at the same pace"
+    },
+    {
+     "id": "d",
+     "label": "It must stay still, as the process has used up its motion"
+    }
+   ],
+   "answer": "a",
+   "explain": "The process has independent increments: changes over non-overlapping time periods are independent random variables.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "prompt": "A walker flips a coin for each step. If the steps are made smaller and faster in the right way, what does the walk approach?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight line"
+    },
+    {
+     "id": "b",
+     "label": "A fixed point it never leaves"
+    },
+    {
+     "id": "c",
+     "label": "A process that always moves one way"
+    },
+    {
+     "id": "d",
+     "label": "The Wiener process"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Wiener process can be built as the scaling limit of a random walk, a result known as Donsker's theorem.",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "prompt": "Two random wanderers follow Wiener processes, one moving on a flat floor and one flying through a room. Which one keeps returning near its start?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wanderer on the floor"
+    },
+    {
+     "id": "b",
+     "label": "The flying wanderer"
+    },
+    {
+     "id": "c",
+     "label": "Both of them equally"
+    },
+    {
+     "id": "d",
+     "label": "Neither of them ever does"
+    }
+   ],
+   "answer": "a",
+   "explain": "The Wiener process is recurrent in one or two dimensions, but not in three or higher.",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "prompt": "An electronics engineer wants to model random noise as the running total of white Gaussian noise. Which process fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight-line trend"
+    },
+    {
+     "id": "b",
+     "label": "A Wiener process"
+    },
+    {
+     "id": "c",
+     "label": "A coin that always lands heads"
+    },
+    {
+     "id": "d",
+     "label": "A fixed repeating wave"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Wiener process is used to represent the integral of a white noise Gaussian process, so it is useful as a model of noise in electronics engineering.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Could the path of a Wiener process be recorded as an ordinary running total of some fixed function ξ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any continuous path can be written that way"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only over very short time spans"
+    },
+    {
+     "id": "c",
+     "label": "No, its paths have unbounded variation"
+    },
+    {
+     "id": "d",
+     "label": "No, because its paths are never continuous"
+    }
+   ],
+   "answer": "c",
+   "explain": "Its paths have unbounded variation and are not absolutely continuous, so Wₜ cannot be represented as an integral over a function ξ.",
+   "cites": [
+    27
+   ]
+  }
+ ]
+}

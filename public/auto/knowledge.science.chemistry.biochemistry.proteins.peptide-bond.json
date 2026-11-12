@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond",
+ "name": "Peptide bond",
+ "summary": [
+  {
+   "text": "A peptide bond is a covalent bond of the amide type that links two consecutive alpha-amino acids along a peptide or protein chain.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It forms in a condensation reaction in which the two joined amino acids give off one molecule of water.",
+   "cites": [
+    3,
+    6
+   ]
+  },
+  {
+   "text": "Forming it consumes energy, which in organisms comes from ATP, and once formed it is extremely slow to break by water alone.",
+   "cites": [
+    9,
+    14,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Half-life in water",
+   "value": "350 to 600 years per bond at 25 °C",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Byproduct of joining",
+   "value": "One molecule of water per bond",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Energy source",
+   "value": "ATP supplies the energy to form it",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Bond shape",
+   "value": "Planar, from partial double-bond character",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "Usual form",
+   "value": "Trans, roughly 1000 to 1 over cis",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two amino acids join into a dipeptide. The reaction also gives off a small molecule. Which one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Carbon dioxide"
+    },
+    {
+     "id": "b",
+     "label": "Water"
+    },
+    {
+     "id": "c",
+     "label": "Ammonia"
+    },
+    {
+     "id": "d",
+     "label": "Oxygen gas"
+    }
+   ],
+   "answer": "b",
+   "explain": "The reaction produces one molecule of water as well as two amino acids joined by a peptide bond.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond:q1"
+  },
+  {
+   "prompt": "Joining amino acids into a chain uses up energy. In living things, what supplies it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "ATP"
+    },
+    {
+     "id": "b",
+     "label": "The water given off"
+    },
+    {
+     "id": "c",
+     "label": "Sunlight on the bond"
+    },
+    {
+     "id": "d",
+     "label": "Heat from the surroundings"
+    }
+   ],
+   "answer": "a",
+   "explain": "Forming the peptide bond consumes energy, which in organisms is derived from ATP.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond:q2"
+  },
+  {
+   "prompt": "A peptide bond has partial double-bond character. What does that do to the group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lets the group spin freely like a hinge"
+    },
+    {
+     "id": "b",
+     "label": "It bends the group into a pyramid"
+    },
+    {
+     "id": "c",
+     "label": "It splits the group into two charged halves"
+    },
+    {
+     "id": "d",
+     "label": "It holds the group flat in one plane"
+    }
+   ],
+   "answer": "d",
+   "explain": "The partial double bond renders the amide group planar.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond:q3"
+  },
+  {
+   "prompt": "Digestion has to split peptide bonds quickly, yet water alone barely does it. What do living things normally use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ribosomes, the same machines that make proteins"
+    },
+    {
+     "id": "b",
+     "label": "More ATP, the same fuel that builds the bond"
+    },
+    {
+     "id": "c",
+     "label": "Enzymes called peptidases or proteases"
+    },
+    {
+     "id": "d",
+     "label": "Ultraviolet light from the sun"
+    }
+   ],
+   "answer": "c",
+   "explain": "Breaking the bond by water is extremely slow, and in living organisms it is normally catalyzed by peptidases or proteases.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond:q4"
+  },
+  {
+   "prompt": "Most peptide bonds overwhelmingly prefer one of two shapes, but those next to proline are far less lopsided. What is thought to explain this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Proline bonds are broken by water far faster"
+    },
+    {
+     "id": "b",
+     "label": "Symmetry makes the two shapes nearly equal in energy"
+    },
+    {
+     "id": "c",
+     "label": "Proline bonds cannot rotate even slowly"
+    },
+    {
+     "id": "d",
+     "label": "Proline carries extra ATP energy"
+    }
+   ],
+   "answer": "b",
+   "explain": "The symmetry between two of proline’s atoms is thought to make the cis and trans forms nearly equal in energy.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond:q5"
+  },
+  {
+   "prompt": "Proteins usually fold in milliseconds, yet one folds far more slowly. What about its peptide groups could explain the delay?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some sit in the nonnative form until they flip"
+    },
+    {
+     "id": "b",
+     "label": "They have all been split by hydrolysis"
+    },
+    {
+     "id": "c",
+     "label": "They have all gained a charge"
+    },
+    {
+     "id": "d",
+     "label": "They are too symmetric to ever isomerize"
+    }
+   ],
+   "answer": "a",
+   "explain": "A nonnative isomer of some peptide groups can disrupt folding, slowing or preventing it until the native isomer is reached.",
+   "cites": [
+    26,
+    30,
+    31
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.proteins.peptide-bond:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Peptide_bond.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Peptide bond",
+  "credit": "webridge",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Peptide_bond.png"
+ },
+ "source": {
+  "title": "Peptide bond",
+  "url": "https://en.wikipedia.org/wiki/Peptide_bond",
+  "revision": 1361926644
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a peptide bond is",
+    "text": "A peptide bond is the link that joins one amino acid to the next along a peptide or protein chain. Chemists class it as an amide bond, a kind of covalent bond. It runs from carbon number one of one alpha-amino acid to nitrogen number two of the next. These bonds hold the amino acids of peptides and proteins in a chain, at times alongside a few isopeptide bonds, which are a different kind of amide link.",
+    "cites": [
+     1,
+     2,
+     10
+    ]
+   },
+   {
+    "heading": "How two amino acids join",
+    "text": "Joining two amino acids this way is a condensation reaction. The carboxylic acid end of one comes close to the amino end of the other. One amino acid gives up a hydrogen and an oxygen from its COOH group, and the other gives up a hydrogen from its NH₂ group. Those pieces leave together as one molecule of H₂O, and the two amino acids are left joined by a −CO−NH− link. The pair is called a dipeptide, and because water is released the process counts as dehydration synthesis.",
+    "cites": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Who builds them",
+    "text": "Making a peptide bond takes energy, and in living things that energy comes from ATP. Cells build proteins on ribosomes, and build some other peptides with dedicated enzymes, using reactions whose details differ from plain dehydration synthesis. The small peptide glutathione, for example, is put together from free amino acids in two steps by two enzymes. One enzyme forms an isopeptide bond and the other forms a true peptide bond.",
+    "cites": [
+     9,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Breaking it",
+    "text": "Adding water can split a peptide bond, a reaction called hydrolysis. It releases 8–16 kJ/mol of Gibbs energy, yet on its own it is extremely slow. At 25 °C, each bond has a half-life of 350 to 600 years. In living things, enzymes called peptidases or proteases normally speed the job up.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "A flat, stiff link",
+    "text": "The nitrogen's lone pair of electrons spreads out across the bond, giving it partly the character of a double bond. This keeps the amide group flat, and it can sit in one of two arrangements, cis or trans. The trans form wins by a wide margin, at roughly 1000 to 1 in most peptide bonds. For X-Pro peptide groups, which involve the amino acid proline, the split is closer, at roughly 30 to 1.",
+    "cites": [
+     20,
+     21,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Flipping slows folding",
+    "text": "Switching a peptide bond between cis and trans is slow, taking about 20 seconds at room temperature. Protein folding is usually far quicker, typically 10–100 ms, compared with 10–100 s for the switch. If a bond is stuck in the wrong form, it can slow folding badly or stop it until the right form is reached. Living things have enzymes called peptidyl prolyl isomerases that speed up this switch at X-Pro bonds.",
+    "cites": [
+     26,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Tough but not untouchable",
+    "text": "Because of its resonance stabilization, the peptide bond reacts little under the conditions inside the body, even less than related compounds such as esters. It can still react when an electronegative atom attacks its carbonyl carbon and forms a tetrahedral intermediate, the route taken when proteins are cut apart. The bond also absorbs light at wavelengths of 190–230 nm, which leaves it especially open to damage from UV radiation.",
+    "cites": [
+     19,
+     33,
+     34,
+     35
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ochem-26-4",
+   "kind": "book",
+   "title": "26.4 Peptides and Proteins",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/26-4-peptides-and-proteins",
+   "note": "A free textbook section on the amide bond linking amino acids, and why it is planar and rigid.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "biofundamentals-8",
+   "kind": "book",
+   "title": "8: Peptide Bonds, Polypeptides and Proteins",
+   "by": "Michael Klymkowsky & Melanie Cooper",
+   "url": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Biofundamentals_2e_(Klymkowsky_and_Cooper)/08%3A_Peptide_Bonds_Polypeptides_and_Proteins",
+   "note": "An open textbook chapter on peptide bonds and how they join amino acids into polypeptides and proteins.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

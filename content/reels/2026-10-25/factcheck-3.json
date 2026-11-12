@@ -1,0 +1,171 @@
+{
+ "checker": "Claude (Opus 5.5), independent adversarial checker, round 3; did not write or edit these reels. Quotes machine-matched against pinned sources, whole reels read, images viewed, Commons metadata fetched via the API, prediction rendering checked in src/explore/ReelPlayer.tsx and ReelCards.tsx",
+ "checkedAt": "2026-10-23T19:24:38Z",
+ "units": [
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"Before departing, Hartog left behind a pewter dinner plate, nailed to a post\"; \"On 25 October 1616, he landed at Cape Inscription\"",
+   "note": "The source itself calls it a 'pewter dinner plate', and gives the 1616 date. The title does not give away the prediction (where the plate is now).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"He removed it and replaced it with another plate which was attached to a new post. ... The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\"",
+   "note": "'Went back to the Netherlands' does not claim a direct voyage, so the Batavia route raised in round 1 does not make it false. The caption sits on m1, which Commons files under 'Rijksmuseum Amsterdam in 2004' and 'Plaques in the Netherlands'. I viewed it: the plate in a display case in a gallery. So the picture fits the sentence.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/prediction",
+   "verdict": "wrong",
+   "evidence": "src/explore/ReelPlayer.tsx: during the 'predict' phase the layer shown is frame 0 ('const on = phase === 'predict' ? i === 0 : i === frame'), and types.ts says 'the prediction behind its question' shows the hero. Frame 0 and the hero are m1 (Ac_dirkhartogplate.jpg). Viewed: the plate lies under glass in a slanted museum display case with a printed label, and a gallery with framed paintings and visitors is behind it.",
+   "note": "The facts are right: the plate is in the Rijksmuseum, and the two wrong choices are wrong. But the picture behind the question answers it. A viewer sees the plate in a museum case in a picture gallery, which rules out 'Still on the island' and 'Lost at sea'. 'In a museum in Amsterdam' is the only museum choice. Frame 1's caption over the same photo ('This is the pewter plate he left there') does not help, and frame 3 (index 2, before the reveal at index 3) shows m1 again at zoom 1.7. The prediction is broken for every viewer, which is why this is 'wrong' and not 'imprecise'.",
+   "fix": "Smallest fix: keep the frames and ask something the photo cannot answer. For example: prompt \"In 1616 Dirk Hartog left this pewter plate on an island off western Australia. When did the next European find it?\" with choices \"About 8 years later\" | \"About 80 years later\" | \"About 800 years later\". Key: about 80 years later. reveal 2 (frame 3, 'In 1697 ... found it'). claims [\"landing\", \"vlamingh\"]. The 'vlamingh' quote already contains \"Eighty-one years later, in 1697\". The other fix: make the hero and frame 1 the Shark Bay map or satellite image (m2/m3), move frame 3 off m1, and show the museum photo first at the reveal frame.",
+   "resolved": "Now asks \"When did the next European find it?\" (about 8 / about 80 / about 800 years later). The key is about 80, revealed at frame 3 (index 2), resting on the landing and Vlamingh quotes. The museum photo no longer gives the answer away."
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"Eighty-one years later, in 1697, the Dutch sea captain Willem de Vlamingh also reached the island and discovered Hartog's pewter dish\"; \"He removed it and replaced it with another plate\"; \"The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\"",
+   "note": "Every element is in the pinned source: landing in 1616 marked by the scratched plate, removed by Vlamingh in 1697, now in the Rijksmuseum. It no longer says Vlamingh took the plate to Amsterdam himself.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.rijks",
+   "verdict": "supported",
+   "evidence": "Quote verbatim and contiguous in Wikipedia_Hartog_Plate.json: \"He removed it and replaced it with another plate ... De Vlamingh's replacement dish contains all of the text of Hartog's original plate\"",
+   "note": "The quote now covers every part of the claim: the replacement ('replaced it with another plate'), the copied inscription ('contains all of the text of Hartog's original plate'), the return to the Netherlands, and the Rijksmuseum. Round 2's gap is closed.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/title",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: George III] \"...and never visited Hanover.\" Reel prediction: \"How many times did he go there?\" KEY \"Never\". src/explore/ReelCards.tsx prints reel.title on hub and notebook cards that open the reel at its prediction; ReelFeed/ReelPlayer use the title as the aria-label read to screen-reader users before the question.",
+   "note": "The title is true. The problem is that it gives away this reel's prediction: the key is 'Never', and the title says 'never saw Hanover'. Anyone who opens the reel from a place hub card, and every screen-reader user in the feed, gets the answer before choosing. The prediction unit did not change this round, so the defect is carried here.",
+   "fix": "Retitle without the answer, using a supported fact. For example \"The Hanoverian who gloried in Britain\" (speech claim) or \"The first Hanoverian king born in Britain\" (first claim). Alternatively, keep the title and change the prediction to something the title does not answer.",
+   "resolved": "Retitled \"The Hanoverian who gloried in Britain\". A new validator rule now rejects titles that give the prediction away."
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George II of Great Britain] \"Born and brought up in northern Germany, George is the most recent British monarch born outside Great Britain.\"; pinned Commons text for m2: \"George, Prince of Wales (1738-1820) pastel on vellum 40.6 x 29.8 cm 1754\"",
+   "note": "'No British monarch since has been born abroad' is the source's 'most recent British monarch born outside Great Britain'. The 1754 date is in the pinned Commons text (though not in the quote: see claim.portrait). I viewed m2: a young man in a powdered wig and a white coat embroidered with silver. That fits 'still a prince' (Prince of Wales from 1751). The spoken line matches the caption, with the year in words.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"He was the first monarch of the House of Hanover who was born in Great Britain, spoke English as his first language, and never visited Hanover.\"",
+   "note": "'Hanoverian' fixes round 2's 'family' problem. Each 'first' is true on its own: George I and George II were born in Hanover, with German as their first language. 'King' for 'monarch' is fine, since both earlier Hanoverian monarchs were kings. The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"George, in his accession speech to Parliament, proclaimed: \\\"Born and educated in this country, I glory in the name of Britain.\\\"\"",
+   "note": "The quotation marks are gone, so the Britain/Briton spelling problem from round 2 no longer applies. 'Gloried in being British' paraphrases either reading correctly. 'First speech to Parliament as king' matches 'accession speech to Parliament'. The image is the Ramsay coronation portrait, a fair fit.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"George succeeded to the throne when his grandfather George II died suddenly on 25 October 1760\"; \"He was the first monarch of the House of Hanover who was born in Great Britain ... and never visited Hanover.\"",
+   "note": "Both sentences are in the pinned source.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/claim.portrait",
+   "verdict": "unsupported",
+   "evidence": "Pinned Commons text in full: \"George, Prince of Wales (1738-1820) pastel on vellum 40.6 x 29.8 cm 1754\". Quote used: \"George, Prince of Wales\".",
+   "note": "The claim says it is a pastel and dates it to 1754. The quote supports only the sitter's name. 'Pastel' and '1754' are in the pinned text, a few words further on, but were left out of the quote. Frame 2's 'in 1754' rests on this claim. (Liotard is named only in the file title and URL. Commons gives him as Artist, which is fine for the credit.)",
+   "fix": "Quote the whole pinned line: \"George, Prince of Wales (1738-1820) pastel on vellum 40.6 x 29.8 cm 1754\" (verified verbatim).",
+   "resolved": "Quote now the whole pinned line, \"George, Prince of Wales (1738-1820) pastel on vellum 40.6 x 29.8 cm 1754\"."
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"Under favourable conditions, it takes as little as 20 minutes to reproduce.\"; \"Although E. coli reproduces by binary fission\"",
+   "note": "'Split in two in as little as 20 minutes' joins the two quotes correctly. The image m1 shows a rod cell dividing in two, which fits. The spoken line matches the caption. 'E. coli' does not trigger a line split: splitLines breaks only before a capital or a digit.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f2",
+   "verdict": "supported",
+   "evidence": "[Commons File:E_coli_at_10000x,_original.jpg] \"Low-temperature electron micrograph of a cluster of E. coli bacteria, magnified 10,000 times. Each individual bacterium is oblong shaped.\"",
+   "note": "Matches the file description. 'Enlarged 10,000 times' is the micrograph's own magnification, which is what the description gives. The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"The long-term evolution experiments using E. coli, begun by Richard Lenski in 1988, have allowed direct observation of genome evolution\"",
+   "note": "Supported. Nit, no fix required: read alone, 'began growing E. coli in the lab' could suggest Lenski first grew E. coli in 1988. He had worked with it before. The purpose clause ('to watch evolution happen') makes clear it means the experiment. The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"...over more than 65,000 generations in the laboratory.\"",
+   "note": "With 'now' gone, the statement is true and not presented as current (the count has since passed 80,000). It is still called Lenski's experiment, though Jeffrey Barrick's lab has run it since 2022. The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"On the Origin of Species was first published on Thursday 24 November 1859, priced at fifteen shillings with a first printing of 1250 copies.\"",
+   "note": "Exact. It sits on the 1859 Murray title page (m1), which fits. The spoken line ('twelve hundred and fifty') matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f2",
+   "verdict": "supported",
+   "evidence": "[Commons File:Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species\"; \"Descent A has 3 existent species after 10000 generations. Descent I has 2. Descents E, F have 1 each. The other descents have gone extinct.\"",
+   "note": "I viewed m5. The letters A to L sit in a row. B, C, D, G, H, K and L send up single dotted lines that stop short, and A and I fork repeatedly. E and F run straight up, which 'some ... others' does not deny. The caption describes the picture accurately. It is the reveal frame (index 1) and settles the prediction.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f3",
+   "verdict": "supported",
+   "evidence": "[Commons File:Origin_of_Species.svg] \"The letters A–L represent distinct descents. Each horizontal line represents 1000 generations.\"",
+   "note": "'In Darwin's example' now appears in both the caption and the voice, so round 2's stale-voice problem is fixed. The spoken line ('a thousand generations') matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"During Darwin's lifetime the book went through six editions, with cumulative changes and revisions to deal with counter-arguments raised.\"; \"(this was the first edition in which he used the word \\\"evolution\\\"\"; \"The sixth edition was published by Murray on 19 February 1872\"",
+   "note": "There were six editions, and the sixth was the first to use the word, so 'only the sixth' follows. The spoken line matches the caption. Minor: the caption about the 1872 edition sits on the 1859 title page (m1, zoom 1.4). It does not say the picture is the sixth edition, so it is acceptable.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"though all editions concluded with the word \\\"evolved\\\"\"; [Commons File:Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species\"",
+   "note": "'Ends on the word evolved' is exact. 'The tree' is a fair gloss for the branching diagram of descent shown in frames 2 and 3, which was in the 1859 first edition. m3 (Darwin seated) is a neutral fit.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/prediction",
+   "verdict": "imprecise",
+   "evidence": "[Commons File:Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species\". Reel title: \"The only picture in the Origin\". src/explore/ReelCards.tsx prints reel.title on hub/notebook cards that open the reel at its prediction; the feed uses the title as the reel's aria-label.",
+   "note": "The key ('Just one') is right, and both wrong choices are clearly wrong. Frame 0 (the title page, shown behind the question) gives nothing away. But the reel's title states the answer: 'The only picture in the Origin'. Viewers who open it from a hub card, and screen-reader users in the feed, read or hear 'only picture' just before being asked how many illustrations it has.",
+   "fix": "Retitle the reel so it does not state the count, for example \"The tree in Darwin's Origin\" (it fits f5's 'The tree was there from the start'), and keep the prediction as it is.",
+   "resolved": "Retitled \"The tree in Darwin's Origin\"."
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/media.m3",
+   "verdict": "supported",
+   "evidence": "Commons API: Public domain, 2448×3456; Commons Artist \"Henry Maull ... and John Fox ... (Maull & Fox)\", Date \"ca 1854\". Darwin Correspondence Project portrait catalogue no. 33 (Maull and Polyblank photograph 2, Darwin in 'a rather startling array of checked fabrics - necktie, waistcoat and trousers'): photographers Henry Maull and George Henry Polyblank, date \"undocumented; probably c.1860\".",
+   "note": "I viewed the file. Darwin is seated in three-quarter view, in a dark coat with a checked necktie, waistcoat and trousers, with the signature 'Charles Darwin' below, so the alt text is accurate. The licence and size match Commons. The credit deliberately differs from the Commons page ('Maull & Fox, ca 1854'). It follows the Darwin Correspondence Project catalogue, which is the better authority. Maull & Fox was the later firm name, and c. 1860 is the catalogue's date. Be aware that the end-card link opens a Commons page with the older attribution.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/place",
+   "verdict": "supported",
+   "evidence": "src/core/evolution.ts E01 tree-thinking: \"All life is one family tree; relatedness means a more recent shared ancestor.\"",
+   "note": "The heart of the reel is the Origin's one illustration: Darwin's branching diagram of descent (frames 2 and 3, the takeaway's 'a branching tree of descent', and f5's 'The tree was there from the start'). That is the founding image of tree thinking, so the tag fits better than round 1's how-we-know or evidence. Small inconsistency, not part of this unit: the reel's 'story' field still reads 'place:evolution-e07:11-...' while its packId is evolution-e01.",
+   "fix": ""
+  }
+ ]
+}

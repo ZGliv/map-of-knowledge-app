@@ -1,0 +1,572 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.virus",
+ "name": "Virus",
+ "summary": [
+  {
+   "text": "A virus is a submicroscopic infectious agent that makes copies of itself only inside the living cells of an organism.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Viruses infect all life forms, from animals and plants to bacteria and archaea, and they are the most numerous type of biological entity.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Away from a cell, a virus is a particle of DNA or RNA inside a protein coat, and in some cases an outer envelope of lipids.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Field of study",
+   "value": "Virology, a subspeciality of microbiology",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "First one found",
+   "value": "The tobacco mosaic virus, in the 1890s",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Size of virions",
+   "value": "Most are one-hundredth the size of most bacteria",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "How they spread",
+   "value": "Insect vectors, coughs and sneezes, food, water, sexual contact",
+   "cites": [
+    16,
+    17,
+    18,
+    20
+   ]
+  },
+  {
+   "label": "Species described",
+   "value": "More than 16,000 described in detail",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A virus particle sits on a kitchen counter, far from any living cell. What can it do there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply slowly using moisture from the counter"
+    },
+    {
+     "id": "b",
+     "label": "Feed on crumbs and grow into a larger particle"
+    },
+    {
+     "id": "c",
+     "label": "Stay intact but make no copies, since copying needs a living cell"
+    },
+    {
+     "id": "d",
+     "label": "Split in two the way a bacterium does"
+    }
+   ],
+   "answer": "c",
+   "explain": "A virus replicates only inside living cells. Outside them it exists as an independent particle.",
+   "cites": [
+    1,
+    7
+   ],
+   "id": "knowledge.science.biology.microbes.virus:q1"
+  },
+  {
+   "prompt": "In a virion, what directly wraps around the genetic material to protect it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A protein coat"
+    },
+    {
+     "id": "b",
+     "label": "An outer envelope of lipids"
+    },
+    {
+     "id": "c",
+     "label": "A cell wall made of sugars"
+    },
+    {
+     "id": "d",
+     "label": "A second set of spare RNA copies"
+    }
+   ],
+   "answer": "a",
+   "explain": "The protein coat, the capsid, surrounds and protects the genetic material. A lipid envelope, when present, lies outside.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.biology.microbes.virus:q2"
+  },
+  {
+   "prompt": "One virus infects only two or three species. Another infects dozens. How are the two described by the variety of cells they can infect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first has a broad range and the second a narrow one"
+    },
+    {
+     "id": "b",
+     "label": "Both are the same, since both infect animals"
+    },
+    {
+     "id": "c",
+     "label": "Viruses have no measure of this kind"
+    },
+    {
+     "id": "d",
+     "label": "The first has a narrow range and the second a broad one"
+    }
+   ],
+   "answer": "d",
+   "explain": "The variety of host cells a virus can infect is its host range: narrow for a few species, broad for many.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.biology.microbes.virus:q3"
+  },
+  {
+   "prompt": "A person is vaccinated against one specific virus. What does the vaccine do for them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gives lasting protection against every virus at once"
+    },
+    {
+     "id": "b",
+     "label": "It triggers an immune response that gives artificial immunity to that infection"
+    },
+    {
+     "id": "c",
+     "label": "It destroys virus particles directly, like an antiviral drug"
+    },
+    {
+     "id": "d",
+     "label": "It swaps their immune system for an artificial one"
+    }
+   ],
+   "answer": "b",
+   "explain": "Immune responses can be produced by vaccines, which confer artificially acquired immunity to the specific viral infection.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.biology.microbes.virus:q4"
+  },
+  {
+   "prompt": "The immune system usually clears a viral infection in animals. Why do some, such as HIV, linger for years?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their particles are too big for immune cells to reach"
+    },
+    {
+     "id": "b",
+     "label": "The immune system never responds to any virus at all"
+    },
+    {
+     "id": "c",
+     "label": "These viruses evade the immune response and cause chronic infections"
+    },
+    {
+     "id": "d",
+     "label": "Antiviral drugs keep them from ever leaving the body"
+    }
+   ],
+   "answer": "c",
+   "explain": "Viral infections usually provoke an immune response that eliminates the virus, but some viruses evade it.",
+   "cites": [
+    22,
+    24
+   ],
+   "id": "knowledge.science.biology.microbes.virus:q5"
+  },
+  {
+   "prompt": "Bones and shells fossilise, yet viruses leave nothing in rock. How can researchers still trace ancient viruses?",
+   "options": [
+    {
+     "id": "a",
+     "label": "With molecular techniques and viral genes that joined hosts' germlines"
+    },
+    {
+     "id": "b",
+     "label": "By digging up virus fossils in very old rock layers"
+    },
+    {
+     "id": "c",
+     "label": "By counting the virions that survive in old ice"
+    },
+    {
+     "id": "d",
+     "label": "By measuring how large virions are today"
+    }
+   ],
+   "answer": "a",
+   "explain": "Viruses do not form fossils, so molecular techniques infer their origins. Viral genetic material integrated into host germlines is passed down and lets paleovirologists trace ancient viruses.",
+   "cites": [
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.science.biology.microbes.virus:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Coronavirus._SARS-CoV-2.png/960px-Coronavirus._SARS-CoV-2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Virus",
+  "credit": "Alexey Solodovnikov (Idea, Producer, CG, Editor), Valeria Arkhipova (Scientific ",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Coronavirus._SARS-CoV-2.png"
+ },
+ "source": {
+  "title": "Virus",
+  "url": "https://en.wikipedia.org/wiki/Virus",
+  "revision": 1379186090
+ },
+ "pack": {
+  "id": "auto-microbes-virus",
+  "title": "Alive, or not quite?",
+  "question": "Is a virus a living thing?",
+  "path": [
+   "Science",
+   "Biology",
+   "Microbes",
+   "Virus"
+  ],
+  "hue": 183,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Coronavirus._SARS-CoV-2.png/960px-Coronavirus._SARS-CoV-2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Virus",
+    "credit": "Alexey Solodovnikov (Idea, Producer, CG, Editor), Valeria Arkhipova (Scientific  · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coronavirus._SARS-CoV-2.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Alive, or not quite?",
+    "hook": "It carries genes, reproduces and evolves, yet many biologists hesitate to call it alive."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-microbes-virus:1",
+    "transfer": false,
+    "prompt": "A single virus gets into a living cell. What often happens to that cell?",
+    "explain": "When infected, a host cell is often forced to rapidly produce thousands of copies of the original virus.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It destroys the virus and keeps the remains",
+        "feedback": "Cells do not usually win this way; the host cell is often forced to produce thousands of copies."
+       },
+       {
+        "id": "b",
+        "label": "It is forced to rapidly make thousands of copies of the virus"
+       },
+       {
+        "id": "a",
+        "label": "It stays unchanged while the virus rests inside it",
+        "feedback": "A virus inside a cell is not resting; the cell is usually forced to make copies of it."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-microbes-virus:2",
+    "transfer": false,
+    "prompt": "Match each part of a virion to what it is.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Genetic material"
+     },
+     {
+      "id": "l1",
+      "label": "Capsid"
+     },
+     {
+      "id": "l2",
+      "label": "Envelope"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "A protein coat around the genes"
+     },
+     {
+      "id": "r0",
+      "label": "Long molecules of DNA or RNA"
+     },
+     {
+      "id": "r2",
+      "label": "An outside layer of lipids, present in some"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "A virion has genetic material, a protective capsid, and in some cases an outer lipid envelope."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-microbes-virus:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each virus by how it spreads.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Influenza"
+     },
+     {
+      "id": "i1",
+      "label": "Measles"
+     },
+     {
+      "id": "i2",
+      "label": "Chickenpox"
+     },
+     {
+      "id": "i3",
+      "label": "Norovirus"
+     },
+     {
+      "id": "i4",
+      "label": "Rotavirus"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Air by coughing and sneezing"
+     },
+     {
+      "id": "g1",
+      "label": "Faecal-oral route"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Influenza, measles and chickenpox spread in the air; norovirus and rotavirus pass by hand-to-mouth contact or in food or water."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-microbes-virus:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Viruses are the most numerous type of biological entity."
+     },
+     {
+      "id": "b",
+      "text": "They infect all life forms."
+     },
+     {
+      "id": "c",
+      "text": "A virus replicates only inside living cells."
+     },
+     {
+      "id": "d",
+      "text": "So a virus left alone in pond water will keep multiplying."
+     }
+    ],
+    "answer": "d",
+    "explain": "Because a virus replicates only inside living cells, it cannot multiply on its own in water, however numerous viruses are."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Viruses have some qualities of life but lack key ones, such as cell structure, so they have been called organisms at the edge of life.",
+    "connections": [
+     {
+      "title": "Capsid",
+      "place": "Virus",
+      "node": "knowledge.science.biology.microbes.virus.capsid"
+     },
+     {
+      "title": "Viral replication",
+      "place": "Virus",
+      "node": "knowledge.science.biology.microbes.virus.viral-replication"
+     },
+     {
+      "title": "Retrovirus",
+      "place": "Virus",
+      "node": "knowledge.science.biology.microbes.virus.retrovirus"
+     },
+     {
+      "title": "Influenza virus",
+      "place": "Virus",
+      "node": "knowledge.science.biology.microbes.virus.influenza-virus"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "When infected, a host cell is often forced to rapidly produce thousands of copies of the original virus.",
+    "source": "Wikipedia sentences 6"
+   },
+   {
+    "claim": "A virion has genetic material, a protective capsid, and in some cases an outer lipid envelope.",
+    "source": "Wikipedia sentences 7"
+   },
+   {
+    "claim": "Influenza, measles and chickenpox spread in the air; norovirus and rotavirus pass by hand-to-mouth contact or in food or water.",
+    "source": "Wikipedia sentences 17, 18"
+   },
+   {
+    "claim": "Because a virus replicates only inside living cells, it cannot multiply on its own in water, however numerous viruses are.",
+    "source": "Wikipedia sentences 1, 2, 3"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a virus is",
+    "text": "A virus is an infectious agent too small to see with an ordinary light microscope, and it can make copies of itself only inside living cells. Viruses infect every kind of life, from animals and plants to bacteria and archaea. They turn up in nearly every ecosystem and are the most numerous type of biological entity. Their study is called virology, a branch of microbiology.",
+    "cites": [
+     1,
+     2,
+     3,
+     5,
+     9
+    ]
+   },
+   {
+    "heading": "The virus particle",
+    "text": "Outside a cell, a virus exists as a separate particle called a virion. It is made of genetic material, long molecules of DNA or RNA; a protein coat called the capsid that protects it; and in some cases an outer envelope of lipids. Shapes range from simple helices and icosahedrons to more complex forms. Most are about a hundredth the size of most bacteria. Once a virus gets into a host cell, the cell is often forced to make thousands of copies of it quickly.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Alive or not",
+    "text": "Some biologists treat viruses as living, because they hold genetic material, multiply, and evolve by natural selection. But they lack features usually seen as necessary for life, such as a cell structure. Because they have some of these qualities but not all, viruses have been called organisms at the edge of life.",
+    "cites": [
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "How viruses spread",
+    "text": "Viruses travel in several ways. Some ride in vectors, organisms that carry disease: aphids feeding on sap move viruses from plant to plant, and blood-sucking insects can carry viruses of animals. Influenza, SARS-CoV-2, chickenpox, smallpox and measles spread through the air in coughs and sneezes. Norovirus and rotavirus pass by the faecal–oral route, through hands, food or water, and fewer than 100 norovirus particles can infect a person. HIV spreads through sexual contact and infected blood.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Fighting back",
+    "text": "The range of host cells a virus can infect is its host range, which may be narrow or broad. In animals, infection sets off an immune response that usually clears the virus. Vaccines can produce such a response artificially, giving immunity to one specific viral infection. Some viruses, such as those behind HIV/AIDS, HPV infection and viral hepatitis, escape the immune response and cause chronic infections. Around 100 antiviral drugs or drug combinations are used worldwide.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Where viruses came from",
+    "text": "How viruses began is still unclear, and because they leave no fossils, scientists use molecular methods to look back. One idea is that viruses were once small cells living as parasites in larger cells, which lost the genes their way of life did not need. The bacteria rickettsia and chlamydia, which also reproduce only inside host cells, support this idea. Another is that some viruses began as bits of DNA or RNA that escaped from a larger organism's genes, such as plasmids or transposons, once called jumping genes.",
+    "cites": [
+     10,
+     35,
+     38,
+     39,
+     40,
+     41,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "The name and the first virus",
+    "text": "The word virus comes from Latin for poison and other harmful liquids. It came to mean an agent of infectious disease in 1728, long before Martinus Beijerinck and Dmitri Ivanovsky discovered viruses in the late 19th century. The first virus found was the tobacco mosaic virus, in the 1890s. There are millions of virus species, and more than 16,000 have since been described in detail.",
+    "cites": [
+     4,
+     26,
+     30
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-micro-viruses",
+   "kind": "book",
+   "title": "6.1 Viruses - Microbiology",
+   "by": "Nina Parker, Mark Schneegurt, Anh-Hue Thi Tu, Philip Lister, Brian M. Forster (OpenStax)",
+   "url": "https://openstax.org/books/microbiology/pages/6-1-viruses",
+   "note": "A free textbook section on what viruses are, how they were discovered, and their basic traits.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-viruses-vaccines",
+   "kind": "video",
+   "title": "Viruses & Vaccines: How Do Vaccines Work?: Crash Course Biology 39",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=xSbMX0MFJCY",
+   "note": "Crash Course Biology on viruses as genes in a box: how they infect cells and spread, and how vaccines fight back."
+  },
+  {
+   "id": "eons-where-viruses-came-from",
+   "kind": "video",
+   "title": "Where Did Viruses Come From?",
+   "by": "PBS Eons",
+   "url": "https://www.youtube.com/watch?v=X31g5TB-MRo",
+   "minutes": 8,
+   "note": "PBS Eons on viral fossils in host DNA, the origins of viruses, and whether they are alive."
+  }
+ ]
+}

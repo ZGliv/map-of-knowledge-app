@@ -1,0 +1,563 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.spacetime",
+ "name": "Spacetime",
+ "summary": [
+  {
+   "text": "Spacetime is a mathematical model that merges the three dimensions of space and the one dimension of time into a single four-dimensional whole.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Until the early 1900s space and time were treated as separate, until Hermann Minkowski's 1908 geometric view of special relativity fused them.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "In general relativity, mass and energy curve spacetime, and diagrams of it help show how different observers perceive where and when events happen.",
+   "cites": [
+    2,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dimensions",
+   "value": "Three of space plus one of time",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "A single point",
+   "value": "An event, given by x, y, z and t",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "label": "Fused in",
+   "value": "1908, by Hermann Minkowski",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "A particle's path",
+   "value": "Called its world line",
+   "cites": [
+    22,
+    24
+   ]
+  },
+  {
+   "label": "Speed-of-light scale",
+   "value": "Nearly 300,000 km of space equals one second",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A balloon bursts at one exact spot and one exact instant. How many numbers does it take to pin down that single event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three, because time simply follows from the place"
+    },
+    {
+     "id": "b",
+     "label": "Four: three for the place and one for the moment"
+    },
+    {
+     "id": "c",
+     "label": "Two: one place coordinate and one time stamp"
+    },
+    {
+     "id": "d",
+     "label": "One: a single clock reading is enough"
+    }
+   ],
+   "answer": "b",
+   "explain": "A point in spacetime needs three space coordinates plus a time coordinate, which is why spacetime is four-dimensional.",
+   "cites": [
+    17,
+    19
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime:q1"
+  },
+  {
+   "prompt": "Two astronauts fly past an observer at very different speeds. In special relativity, how does the observer see their clocks run?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both tick at one universal rate everyone agrees on"
+    },
+    {
+     "id": "b",
+     "label": "They tick faster the faster the astronauts move"
+    },
+    {
+     "id": "c",
+     "label": "Rates differ only because of the signal's travel time"
+    },
+    {
+     "id": "d",
+     "label": "The rate depends on each astronaut's velocity relative to the observer"
+    }
+   ],
+   "answer": "d",
+   "explain": "In special relativity the observed rate at which time passes depends on the object's velocity relative to the observer.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime:q2"
+  },
+  {
+   "prompt": "Near a very heavy star, what does general relativity say happens to the geometry of spacetime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It bends, because of the star's mass and energy"
+    },
+    {
+     "id": "b",
+     "label": "It stays flat, and a separate force does the pulling"
+    },
+    {
+     "id": "c",
+     "label": "It shrinks to a single dimension near the star"
+    },
+    {
+     "id": "d",
+     "label": "It is unchanged, but clocks near the star run oddly"
+    }
+   ],
+   "answer": "a",
+   "explain": "In general relativity, spacetime is curved by mass and energy.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime:q3"
+  },
+  {
+   "prompt": "A Newtonian physicist says two observers moving at very different speeds still agree on how long something took. What assumption backs that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Time depends on each observer's state of motion"
+    },
+    {
+     "id": "b",
+     "label": "Time and space blend into one four-dimensional continuum"
+    },
+    {
+     "id": "c",
+     "label": "Time passes at a constant rate no matter how anyone moves"
+    },
+    {
+     "id": "d",
+     "label": "Time slows only inside strong gravitational fields"
+    }
+   ],
+   "answer": "c",
+   "explain": "Classical mechanics treats time as universal, uniform, separate from space and agreed on by all observers.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime:q4"
+  },
+  {
+   "prompt": "A physics paper says 'the observer measured the event at 3 seconds'. In special relativity, what usually stands for the observer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A person at one fixed spot holding a stopwatch"
+    },
+    {
+     "id": "b",
+     "label": "A whole frame of reference with a lattice of synchronized clocks"
+    },
+    {
+     "id": "c",
+     "label": "A telescope recording light as it arrives"
+    },
+    {
+     "id": "d",
+     "label": "A detector sitting at the origin of the coordinates"
+    }
+   ],
+   "answer": "b",
+   "explain": "The term observer usually means the whole set of clocks tied to one inertial frame, so it has no single location.",
+   "cites": [
+    29,
+    31,
+    35
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime:q5"
+  },
+  {
+   "prompt": "A student says what physicists measure is just what a telescope visually shows. Why is that mistaken?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Telescopes cannot capture events in all three space dimensions"
+    },
+    {
+     "id": "b",
+     "label": "Measurements ignore time and only record positions"
+    },
+    {
+     "id": "c",
+     "label": "Seeing adds delays from light's travel that measuring corrects for"
+    },
+    {
+     "id": "d",
+     "label": "Telescopes show events before they actually happen"
+    }
+   ],
+   "answer": "c",
+   "explain": "Real sightings are delayed by the speed of light, while a measurement factors those delays out.",
+   "cites": [
+    37,
+    41
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/GPB_circling_earth.jpg/960px-GPB_circling_earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Spacetime",
+  "credit": "NASA",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:GPB_circling_earth.jpg"
+ },
+ "source": {
+  "title": "Spacetime",
+  "url": "https://en.wikipedia.org/wiki/Spacetime",
+  "revision": 1383645899
+ },
+ "pack": {
+  "id": "auto-relativity-spacetime",
+  "title": "Time Is a Direction Too",
+  "question": "Why do physicists treat time as a fourth dimension?",
+  "path": [
+   "Science",
+   "Physics",
+   "Relativity",
+   "Spacetime"
+  ],
+  "hue": 190,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/GPB_circling_earth.jpg/960px-GPB_circling_earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Spacetime",
+    "credit": "NASA · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:GPB_circling_earth.jpg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Time Is a Direction Too",
+    "hook": "Your clock, it turns out, is only one observer's opinion."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-relativity-spacetime:1",
+    "transfer": false,
+    "prompt": "A traveler flies past you at very high speed. According to special relativity, how does time pass for her as you measure it?",
+    "explain": "The observed rate at which time passes depends on the object's velocity relative to the observer.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "At a rate that depends on her velocity relative to you"
+       },
+       {
+        "id": "a",
+        "label": "Exactly as fast as for you, since time is universal",
+        "feedback": "This is the older classical view, where time is the same for everyone, but special relativity replaces it."
+       },
+       {
+        "id": "c",
+        "label": "It stops entirely whenever she moves at all",
+        "feedback": "Motion changes the observed rate, but nothing in the sentences says it halts."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-relativity-spacetime:2",
+    "transfer": false,
+    "prompt": "match each term to its meaning",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Event"
+     },
+     {
+      "id": "l1",
+      "label": "World line"
+     },
+     {
+      "id": "l2",
+      "label": "Minkowski space"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "A single point in spacetime, set by x, y, z and t"
+     },
+     {
+      "id": "r1",
+      "label": "A particle's path as a sequence of events"
+     },
+     {
+      "id": "r2",
+      "label": "The 1908 four-dimensional fusion of space and time"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each term describes a piece of the four-dimensional picture: points, paths and the whole arena."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-relativity-spacetime:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each idea into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Time passes at the same rate for every observer"
+     },
+     {
+      "id": "i1",
+      "label": "Space follows common-sense Euclidean geometry"
+     },
+     {
+      "id": "i2",
+      "label": "Observed time depends on velocity"
+     },
+     {
+      "id": "i3",
+      "label": "Gravity can slow time as seen from outside"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Classical mechanics"
+     },
+     {
+      "id": "g1",
+      "label": "Relativity"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Classical mechanics keeps time universal and separate; relativity ties time to motion and gravity."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-relativity-spacetime:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "An event is a single point in spacetime, set by x, y, z and t."
+     },
+     {
+      "id": "b",
+      "text": "Mathematical events have zero duration, unlike a firecracker's pop."
+     },
+     {
+      "id": "c",
+      "text": "So an observer can be in motion relative to an event, just as to a firecracker."
+     },
+     {
+      "id": "d",
+      "text": "Spacetime is therefore four-dimensional."
+     }
+    ],
+    "answer": "c",
+    "explain": "You can move relative to a firecracker, but not relative to a mathematical event, which is just a point."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Space and time combine into one four-dimensional spacetime, and an object's passage through it depends on how it moves.",
+    "connections": [
+     {
+      "title": "Minkowski space",
+      "place": "Spacetime",
+      "node": "knowledge.science.physics.relativity.spacetime.minkowski-space"
+     },
+     {
+      "title": "Light cone",
+      "place": "Spacetime",
+      "node": "knowledge.science.physics.relativity.spacetime.light-cone"
+     },
+     {
+      "title": "Worldline",
+      "place": "Spacetime",
+      "node": "knowledge.science.physics.relativity.spacetime.worldline"
+     },
+     {
+      "title": "Curved spacetime",
+      "place": "Spacetime",
+      "node": "knowledge.science.physics.relativity.spacetime.curved-spacetime"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The observed rate at which time passes depends on the object's velocity relative to the observer.",
+    "source": "Wikipedia sentences 7, 8, 10"
+   },
+   {
+    "claim": "Each term describes a piece of the four-dimensional picture: points, paths and the whole arena.",
+    "source": "Wikipedia sentences 5, 17, 18, 24"
+   },
+   {
+    "claim": "Classical mechanics keeps time universal and separate; relativity ties time to motion and gravity.",
+    "source": "Wikipedia sentences 7, 8, 9, 10, 11"
+   },
+   {
+    "claim": "You can move relative to a firecracker, but not relative to a mathematical event, which is just a point.",
+    "source": "Wikipedia sentences 17, 19, 20, 21"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Space and time as one",
+    "text": "Spacetime is a mathematical model that treats space, with its three dimensions, and time, with its one, as a single combined four-dimensional continuum. In ordinary space, three numbers pin down a position, often called x, y and z. A point in spacetime is called an event, and it needs a fourth number as well: its place in time, t. That is why spacetime counts as four-dimensional.",
+    "cites": [
+     1,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "The old view",
+    "text": "Until the turn of the 20th century, people assumed that the geometry of the universe, meaning its locations, shapes, distances and directions, was a separate thing from time. Classical mechanics treated time as uniform, passing at a constant rate that every observer agrees on, whatever their motion. It also took space to be Euclidean, following the geometry of common sense. The Lorentz transformation and special relativity changed this, and in 1908 Hermann Minkowski recast special relativity as geometry, fusing time and space into what is now called Minkowski space. That view became vital to general relativity, in which mass and energy curve spacetime.",
+    "cites": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Why time cannot be pulled apart",
+    "text": "In special relativity, time cannot be split off from space, because how fast time passes for an object depends on how fast it moves relative to the observer. General relativity adds that gravity can slow time for an object, as seen by someone outside the gravitational field. In the maths, time carries the opposite sign to space. So separation along time counts against the interval, which is spacetime's version of distance, instead of adding to it.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Events and world lines",
+    "text": "An event here is not like a spark or a firecracker: it lasts no time at all and is a single point in spacetime. You can move relative to a firecracker, but no observer can move relative to an event. A particle's path through spacetime is a series of events. Linked together they make a curve called the particle's world line.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Why daily life feels ordinary",
+    "text": "Spacetime is a manifold, which means it looks flat close up around each point, much as a globe's surface looks flat at a small enough scale. A scale factor, c, usually called the speed of light, links distances in space to distances in time, with nearly 300,000 kilometres of space matching one second of time. Because that factor is so large, and because spacetime is a manifold, everyday speeds and distances look almost exactly as they would in plain Euclidean space. Only with precise measurements in the mid-1800s, such as the Fizeau and Michelson–Morley experiments, did puzzling mismatches start to appear.",
+    "cites": [
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "What an observer means",
+    "text": "In special relativity an observer usually means a frame of reference, not a person standing in one spot. Picture the frame filled with a dense grid of synchronised clocks reaching through all of space. The observer is that whole set of clocks, and since every point has a clock, each event is recorded the instant it happens. A real person sees a delay because light takes time to arrive, so physicists separate what is measured, after removing such delays, from what is simply seen. Mixing up the two causes much confusion for students of relativity.",
+    "cites": [
+     29,
+     31,
+     32,
+     35,
+     36,
+     37,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-spacetime",
+   "kind": "book",
+   "title": "Special Relativity/Spacetime",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Special_Relativity/Spacetime",
+   "note": "An open textbook chapter on spacetime diagrams, world lines, the light cone and the spacetime interval.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "crowell-spacetime",
+   "kind": "book",
+   "title": "1: Spacetime - Special Relativity (Crowell)",
+   "by": "Ben Crowell",
+   "url": "https://phys.libretexts.org/Bookshelves/Relativity/Special_Relativity_(Crowell)/01%3A_Spacetime",
+   "note": "A free textbook chapter introducing spacetime as the setting of special relativity.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "minutephysics-spacetime-diagrams",
+   "kind": "video",
+   "title": "Spacetime Diagrams | Special Relativity Ch. 2",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=hTxWAQGgeQw",
+   "minutes": 15,
+   "note": "A minutephysics lesson on drawing space and time together on one spacetime diagram."
+  }
+ ]
+}

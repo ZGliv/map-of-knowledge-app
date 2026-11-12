@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "A joint distribution gives the probability that two or more random variables land in particular ranges or sets of values together.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "With exactly two variables it is called bivariate, and from it you can work out each variable's marginal distribution and the conditional distributions.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "In a table for two draws, each inner cell holds the probability of one combination of results, and all the cells together sum to 1.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two variables",
+   "value": "With only two random variables it is called bivariate",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Discrete case",
+   "value": "Described by a joint probability mass function",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Continuous case",
+   "value": "Described by a joint probability density function",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Table total",
+   "value": "The probabilities in all the cells sum to 1",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Independent draws",
+   "value": "A cell's probability is the product of each result's probability",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two independent draws are made, A and B. How do you get the probability of one particular combination of results, such as a specific result for each?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add the probability of A's result to B's result"
+    },
+    {
+     "id": "b",
+     "label": "Multiply the probability of A's result by B's result"
+    },
+    {
+     "id": "c",
+     "label": "Take the larger of the two probabilities"
+    },
+    {
+     "id": "d",
+     "label": "Average the two probabilities together"
+    }
+   ],
+   "answer": "b",
+   "explain": "Because the draws are independent, the chance of a combination in one cell is the product of the chances of each result.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "You list every possible combination of results from two draws and write the probability of each one. What should all those probabilities add up to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number of combinations listed"
+    },
+    {
+     "id": "b",
+     "label": "One half, since there are two draws"
+    },
+    {
+     "id": "c",
+     "label": "Exactly 1"
+    },
+    {
+     "id": "d",
+     "label": "It changes with how many draws there are"
+    }
+   ],
+   "answer": "c",
+   "explain": "Some combination is certain to occur, so the cell probabilities sum to 1, as with every probability distribution.",
+   "cites": [
+    7,
+    14
+   ]
+  },
+  {
+   "prompt": "You roll a fair die. A is 1 when the roll is even, and B is 1 when the roll is prime (2, 3 or 5). Which roll makes both A and B equal 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3"
+    },
+    {
+     "id": "b",
+     "label": "4"
+    },
+    {
+     "id": "c",
+     "label": "5"
+    },
+    {
+     "id": "d",
+     "label": "2"
+    }
+   ],
+   "answer": "d",
+   "explain": "Even rolls are 2, 4 and 6; prime rolls are 2, 3 and 5. Only 2 is on both lists.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "A teacher records each student's study time and test score together. She then asks only about scores, ignoring study time. What is the score distribution on its own called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A conditional distribution"
+    },
+    {
+     "id": "b",
+     "label": "A marginal distribution"
+    },
+    {
+     "id": "c",
+     "label": "A bivariate distribution"
+    },
+    {
+     "id": "d",
+     "label": "A cumulative distribution"
+    }
+   ],
+   "answer": "b",
+   "explain": "A marginal distribution gives the probabilities for one variable with no reference to the values of the others.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "Height and weight can each take any value in a range. Which tool describes their joint distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A joint probability mass function"
+    },
+    {
+     "id": "b",
+     "label": "A table of counts of whole numbers only"
+    },
+    {
+     "id": "c",
+     "label": "A joint probability density function"
+    },
+    {
+     "id": "d",
+     "label": "A single marginal distribution"
+    }
+   ],
+   "answer": "c",
+   "explain": "For continuous variables the joint distribution is expressed with a joint probability density function; the mass function is for discrete variables.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A weather study records both temperature and rainfall for every day, treating them together. What is the name for a joint distribution of exactly two variables?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multivariate only, never anything shorter"
+    },
+    {
+     "id": "b",
+     "label": "Marginal"
+    },
+    {
+     "id": "c",
+     "label": "Conditional"
+    },
+    {
+     "id": "d",
+     "label": "Bivariate"
+    }
+   ],
+   "answer": "d",
+   "explain": "With only two random variables the joint distribution is called bivariate, though the idea extends to any number.",
+   "cites": [
+    2
+   ]
+  }
+ ]
+}

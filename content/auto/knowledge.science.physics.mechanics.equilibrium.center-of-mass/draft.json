@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "The center of mass is the balance point of an object or a group of objects: the one point where the weighted positions of all the mass add up to zero.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It can sit outside the body, as with a horseshoe or a donut, and for separate bodies it may not match any single member.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Pushing a rigid body through it speeds the body up without spinning it, so mechanics calculations are often simpler measured from this point.",
+   "cites": [
+    2,
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Barycenter or balance point",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Uniform density",
+   "value": "It sits at the centroid",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Can be located",
+   "value": "Outside the physical body",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Statistical analogy",
+   "value": "The mean location of the mass",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Center of mass frame",
+   "value": "The system's center of mass is at rest",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A donut has the same density throughout. Where is its balance point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Inside the dough, near the edge"
+    },
+    {
+     "id": "b",
+     "label": "At the center, within the hole"
+    },
+    {
+     "id": "c",
+     "label": "On its top surface"
+    },
+    {
+     "id": "d",
+     "label": "It has none, being hollow"
+    }
+   ],
+   "answer": "b",
+   "explain": "For uniform density it is at the centroid, and for open shapes like a donut that point can lie outside the material.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "You push a rigid crate with a force aimed exactly at its balance point. What does it do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It starts spinning without speeding up"
+    },
+    {
+     "id": "b",
+     "label": "It rotates about its heaviest corner"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since the force cancels"
+    },
+    {
+     "id": "d",
+     "label": "It accelerates straight with no turning"
+    }
+   ],
+   "answer": "d",
+   "explain": "A force through the center of mass causes linear acceleration without angular acceleration.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Astronomers find the balance point of all the planets together. Must it lie at one of the planets?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it may match none of them"
+    },
+    {
+     "id": "b",
+     "label": "Yes, at the heaviest planet"
+    },
+    {
+     "id": "c",
+     "label": "Yes, at the planet nearest the middle"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if masses are equal"
+    }
+   ],
+   "answer": "a",
+   "explain": "For separate bodies such as the Solar System's planets, the center of mass may not correspond to any individual member.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "A uniform wooden ruler is balanced on one finger. Where is your finger?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One third from an end"
+    },
+    {
+     "id": "b",
+     "label": "At the heavier end"
+    },
+    {
+     "id": "c",
+     "label": "At the geometric middle"
+    },
+    {
+     "id": "d",
+     "label": "Anywhere along it"
+    }
+   ],
+   "answer": "c",
+   "explain": "Balance point is the center of mass, which for uniform density is the centroid, the middle of the ruler.",
+   "cites": [
+    1,
+    6
+   ]
+  },
+  {
+   "prompt": "Archimedes found that several weights at different spots on a lever give the same torque as if gathered at one point. Which point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The fulcrum"
+    },
+    {
+     "id": "b",
+     "label": "The center of mass"
+    },
+    {
+     "id": "c",
+     "label": "The heaviest weight's spot"
+    },
+    {
+     "id": "d",
+     "label": "The end of the lever"
+    }
+   ],
+   "answer": "b",
+   "explain": "He showed the torque equals what it would be if all the weights were moved to their center of mass.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "Why do engineers separate center of mass from center of gravity for a satellite near a planet?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity varies across it and can twist it"
+    },
+    {
+     "id": "b",
+     "label": "A satellite has no spread-out mass at all"
+    },
+    {
+     "id": "c",
+     "label": "Gravity does not act on things in orbit"
+    },
+    {
+     "id": "d",
+     "label": "The two always differ by a fixed amount"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gravity varies across the satellite, so a horizontal offset between the two points produces a torque.",
+   "cites": [
+    34,
+    35,
+    36
+   ]
+  }
+ ]
+}

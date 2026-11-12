@@ -1,0 +1,290 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem",
+ "name": "Multinomial theorem",
+ "summary": [
+  {
+   "text": "The multinomial theorem describes how to expand a power of a sum in terms of powers of the terms in that sum.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It generalises the binomial theorem from two terms to many, and with just two terms it reduces to the binomial theorem.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Each term of the expansion uses non-negative whole-number exponents that add up to n, the power of the whole sum.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two-term case",
+   "value": "With m = 2 it becomes the binomial theorem",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Exponent rule",
+   "value": "The exponents in each term must add up to n",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Counting meaning",
+   "value": "Ways to put n distinct objects into m bins with set sizes",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Counting method",
+   "value": "Stars and bars gives an easy count",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Bigger triangle",
+   "value": "It extends Pascal's triangle to Pascal's simplex",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sum of three terms a + b + c is raised to the power 4 and expanded. Can a term such as a² b² c appear?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because each letter may take any power"
+    },
+    {
+     "id": "b",
+     "label": "No, because its exponents add up to 5, not 4"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as c has the smallest power"
+    },
+    {
+     "id": "d",
+     "label": "No, because all three exponents must be equal"
+    }
+   ],
+   "answer": "b",
+   "explain": "In every term the exponents must add up to n, which is 4 here, and 2 + 2 + 1 is 5.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem:q1"
+  },
+  {
+   "prompt": "You apply the multinomial rule to a sum with only two terms. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A rule that only works for three terms"
+    },
+    {
+     "id": "b",
+     "label": "The binomial theorem"
+    },
+    {
+     "id": "c",
+     "label": "A rule with no exponents at all"
+    },
+    {
+     "id": "d",
+     "label": "The rule for adding two powers"
+    }
+   ],
+   "answer": "b",
+   "explain": "When there are just two terms, the statement reduces to the binomial theorem.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem:q2"
+  },
+  {
+   "prompt": "Six different toys go into three labelled boxes, with a fixed number of toys in each box. What does a multinomial coefficient count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ways to deposit the toys with those numbers in each box"
+    },
+    {
+     "id": "b",
+     "label": "The ways to line the boxes up in a row"
+    },
+    {
+     "id": "c",
+     "label": "The ways to split the toys into equal piles"
+    },
+    {
+     "id": "d",
+     "label": "The number of toys in the biggest box"
+    }
+   ],
+   "answer": "a",
+   "explain": "A multinomial coefficient is the number of ways to deposit n distinct objects into m distinct bins with k₁ in the first, k₂ in the second, and so on.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem:q3"
+  },
+  {
+   "prompt": "Pascal's triangle lists binomial coefficients. Which structure extends it to multinomial coefficients?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A longer row of the same triangle"
+    },
+    {
+     "id": "b",
+     "label": "Pascal's simplex"
+    },
+    {
+     "id": "c",
+     "label": "A mirror image of the triangle"
+    },
+    {
+     "id": "d",
+     "label": "A circle of binomial coefficients"
+    }
+   ],
+   "answer": "b",
+   "explain": "The multinomial theorem generalises Pascal's triangle to Pascal's simplex, giving a quick lookup table for multinomial coefficients.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem:q4"
+  },
+  {
+   "prompt": "How can the three-term case be proved if you already trust the two-term case?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Treat two of the three terms as one term, then repeat"
+    },
+    {
+     "id": "b",
+     "label": "Test it on a few numbers and stop"
+    },
+    {
+     "id": "c",
+     "label": "Replace the third term with zero"
+    },
+    {
+     "id": "d",
+     "label": "Multiply the two-term result by three"
+    }
+   ],
+   "answer": "a",
+   "explain": "The proof uses the binomial theorem together with induction on m, the number of terms.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem:q5"
+  },
+  {
+   "prompt": "In every term of the expansion, which quantity stays fixed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The size of each exponent"
+    },
+    {
+     "id": "b",
+     "label": "The number of letters in the term"
+    },
+    {
+     "id": "c",
+     "label": "The sum of all the exponents"
+    },
+    {
+     "id": "d",
+     "label": "The coefficient in front"
+    }
+   ],
+   "answer": "c",
+   "explain": "For each term in the expansion the exponents of the terms add up to n.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem:q6"
+  }
+ ],
+ "source": {
+  "title": "Multinomial theorem",
+  "url": "https://en.wikipedia.org/wiki/Multinomial_theorem",
+  "revision": 1370488787
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it does",
+    "text": "The multinomial theorem tells you how to expand a power of a sum, writing the answer using powers of each term of the sum. It takes the binomial theorem, which works for binomials, and extends it to multinomials. When the sum has just two terms, that is the case m = 2, the multinomial theorem shrinks back to the binomial theorem it grew out of.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "The shape of the expansion",
+    "text": "The expansion is a big sum. It runs over every possible choice of nonnegative whole-number indices k₁ through kₘ whose total is n. Put another way, in every term of the expansion, the exponents on the xᵢ have to add up to n. So the power n of the whole sum is shared out among the terms in each piece of the answer.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "What the coefficients count",
+    "text": "The numbers in front of each term, the multinomial coefficients, have a direct meaning in counting. Each one is the number of ways to drop n distinct objects into m distinct bins so that the first bin gets k₁ objects, the second gets k₂, and so on. In statistical mechanics and in combinatorics, these coefficients come straight out of binomial coefficients whenever items carry a spread of labels. From N items, first choose n₁ of them to get label 1. Then from the N − n₁ left, choose n₂ to get label 2, and from the N − n₁ − n₂ still left, choose n₃ to get label 3.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Proof and patterns",
+    "text": "One proof uses the binomial theorem together with induction on m, the number of indices. To find the largest power of a prime p dividing a multinomial coefficient, you can use a generalization of Kummer's theorem. The theorem also lets you extend Pascal's triangle, or Pascal's pyramid, to a shape called Pascal's simplex. That gives a quick way to build a lookup table of multinomial coefficients.",
+    "cites": [
+     3,
+     6,
+     8,
+     14,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "sylvestre-multinomial",
+   "kind": "book",
+   "title": "23: Binomial and multinomial coefficients - Elementary Foundations: An Introduction to Topics in Discrete Mathematics (Sylvestre)",
+   "by": "Jeremy Sylvestre",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Foundations%3A_An_Introduction_to_Topics_in_Discrete_Mathematics_(Sylvestre)/23%3A_Binomial_and_multinomial_coefficients",
+   "note": "A free textbook chapter with a section on multinomial coefficients and expanding powers of sums of several terms.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

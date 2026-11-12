@@ -1,0 +1,34 @@
+{
+ "readHash": "f93365ffe551a828a089f479da82e49c98b64fa8",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Base form, parametric form with real a,b and nonzero c, named after Gauss, symmetric bell curve in 1-3."
+  },
+  "r1": {
+   "supported": true,
+   "why": "a height, b centre, c width/standard deviation, inflection points at b +/- c, FWHM w in 4,8,9."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Statistics, Gaussian filters, 2D Gaussian blurs, heat/diffusion equations, Weierstrass transform, quantum chemistry basis sets in 5-6."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Analytic, limit 0 at +/-infinity, integral 1 iff a = 1/(c sqrt 2pi), then normal density with mean b, variance c^2 in 11-12."
+  },
+  "r4": {
+   "supported": false,
+   "why": "'The Fourier transform of a Gaussian centred at zero is another Gaussian' generalizes sentence 16, which states it only for a = 1, b = 0; arbitrary amplitude relies on linearity not in cited sentences."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Negative-definite quadratic form, ellipse level sets, amplitude A, centre, x/y spreads, image processing and visual models in 19-25."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Fields estimating height/position/width, log-parabola method, small-value bias, weighted LS partial fix, IRLS removes bias in 30-35."
+  }
+ }
+}

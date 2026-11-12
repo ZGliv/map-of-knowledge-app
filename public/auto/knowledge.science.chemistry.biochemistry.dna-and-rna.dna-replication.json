@@ -1,0 +1,366 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication",
+ "name": "DNA replication",
+ "summary": [
+  {
+   "text": "In DNA replication, a cell produces exact copies of its own DNA.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is essential to inheritance, cell division and repair of damaged tissues, and gives each daughter cell its own copy of each DNA molecule.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "The two strands separate and each one serves as a template for a new partner strand, so every new molecule keeps one original strand.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Copy style",
+   "value": "Semiconservative: one old strand, one new strand",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Starting points",
+   "value": "Origins of replication, scattered across the genome",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Builder enzyme",
+   "value": "DNA polymerase adds nucleotides matching the template",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Cell cycle stage",
+   "value": "The S (synthesis) stage of interphase",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Accuracy",
+   "value": "Cellular proofreading ensures near-perfect fidelity",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cell copies a double-stranded DNA molecule once. What does each resulting molecule contain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two original strands, with the copy built apart"
+    },
+    {
+     "id": "b",
+     "label": "One original strand and one newly made strand"
+    },
+    {
+     "id": "c",
+     "label": "Two newly made strands and no original strand"
+    },
+    {
+     "id": "d",
+     "label": "Half of each strand fused into one"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each original strand serves as a template for a new partner, so every new molecule has one old and one new strand.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication:q1"
+  },
+  {
+   "prompt": "A lab wants a polymerase to start copying a template. Why can it not simply begin on bare DNA?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can only extend an existing strand, so a short RNA primer goes first"
+    },
+    {
+     "id": "b",
+     "label": "It can only read RNA, so the DNA must be converted first"
+    },
+    {
+     "id": "c",
+     "label": "It works only on single nucleotides, so the DNA must be cut up first"
+    },
+    {
+     "id": "d",
+     "label": "It can only add to the 5' end, so a primer must be flipped around"
+    }
+   ],
+   "answer": "a",
+   "explain": "DNA polymerases cannot start new strands, only extend one, so a short RNA primer is paired with the template first.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication:q2"
+  },
+  {
+   "prompt": "Replication begins at one spot on the DNA. How do the replication forks grow from there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In one direction only, toward the next origin"
+    },
+    {
+     "id": "b",
+     "label": "Only once the whole genome has been unwound"
+    },
+    {
+     "id": "c",
+     "label": "Inward, from the genome's ends toward the origin"
+    },
+    {
+     "id": "d",
+     "label": "In both directions away from the origin"
+    }
+   ],
+   "answer": "d",
+   "explain": "Unwinding at the origin makes replication forks that grow bi-directionally.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication:q3"
+  },
+  {
+   "prompt": "Why can the two strands be pulled apart for copying without breaking either strand?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bonds along each strand are weaker than the bonds linking the two"
+    },
+    {
+     "id": "b",
+     "label": "The strands are held together only by the polymerase enzyme"
+    },
+    {
+     "id": "c",
+     "label": "Bonds linking the strands are weaker than the bonds along each strand"
+    },
+    {
+     "id": "d",
+     "label": "The nucleobases face outward, so the strands barely touch"
+    }
+   ],
+   "answer": "c",
+   "explain": "Phosphodiester bonds within a strand are stronger than the hydrogen bonds between strands, so the strands can separate.",
+   "cites": [
+    23,
+    32,
+    34
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication:q4"
+  },
+  {
+   "prompt": "A cell is in the S (synthesis) stage of interphase. What is its main job then?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Making a copy of its DNA"
+    },
+    {
+     "id": "b",
+     "label": "Splitting into two daughter cells"
+    },
+    {
+     "id": "c",
+     "label": "Reading mRNA to build proteins"
+    },
+    {
+     "id": "d",
+     "label": "Destroying its damaged DNA"
+    }
+   ],
+   "answer": "a",
+   "explain": "DNA replication occurs during the S stage of interphase.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication:q5"
+  },
+  {
+   "prompt": "A polymerase is building a new strand. Where does it attach each new nucleotide?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To the 5' end of the growing chain"
+    },
+    {
+     "id": "b",
+     "label": "To the 3' end of the growing chain"
+    },
+    {
+     "id": "c",
+     "label": "To the middle of the growing chain"
+    },
+    {
+     "id": "d",
+     "label": "Only at the origin of replication"
+    }
+   ],
+   "answer": "b",
+   "explain": "DNA polymerase can only synthesize by adding nucleotides to the 3' end of a strand.",
+   "cites": [
+    30,
+    39
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.dna-replication:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/DNA_replication_split.svg/960px-DNA_replication_split.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "DNA replication",
+  "credit": "Madprime",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DNA_replication_split.svg"
+ },
+ "source": {
+  "title": "DNA replication",
+  "url": "https://en.wikipedia.org/wiki/DNA_replication",
+  "revision": 1382472971
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "DNA replication is how a cell makes exact copies of its DNA. It happens in every living thing. Inheritance, cell division and the repair of damaged tissue all rely on it. When a cell divides, replication makes sure each newly formed daughter cell gets its own copy of every DNA molecule.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Two strands that match",
+    "text": "Most DNA has two strands that twist around each other into a double helix. Each strand is a chain of four kinds of nucleotides, the small units of DNA, and each nucleotide holds a sugar called deoxyribose, a phosphate and a base. The bases are adenine, cytosine, guanine and thymine, written A, C, G and T. Across the two strands, bases pair up through hydrogen bonds: A with T, and G with C. Because the strands match, the information in one is repeated in its partner.",
+    "cites": [
+     4,
+     5,
+     18,
+     19,
+     20,
+     21,
+     24,
+     25,
+     31
+    ]
+   },
+   {
+    "heading": "Copying by halves",
+    "text": "To copy the molecule, the cell separates the two strands. Each old strand then acts as a template, a pattern for building a new matching strand. This is called semiconservative replication, since every finished molecule keeps one old strand and gains one new one. The strands can come apart because the hydrogen bonds between them are weaker than the phosphodiester bonds that hold each strand together along its length.",
+    "cites": [
+     6,
+     7,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Where and when it starts",
+    "text": "Copying usually starts at particular spots called origins of replication, spread across the genome. There, enzymes called helicases unwind the DNA, opening replication forks that grow in both directions away from the origin. Many proteins gather at each fork to start the work and keep it going. In cells, all this takes place during the S, or synthesis, stage of interphase.",
+    "cites": [
+     9,
+     10,
+     11,
+     13
+    ]
+   },
+   {
+    "heading": "The builder enzyme",
+    "text": "The main builder is DNA polymerase, a family of enzymes that carry out every form of DNA replication. It adds nucleotides that match those on the template strand. It cannot start a new strand from nothing, though; it can only lengthen a strand already paired with the template. So a short piece of RNA called a primer has to be made first. Polymerase also works in one direction only, adding each new nucleotide to the 3′ end of the strand.",
+    "cites": [
+     12,
+     30,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Energy and accuracy",
+    "text": "Each free nucleotide arrives with three phosphate groups attached. When it joins the chain, two of them break off together as pyrophosphate, and breaking that high-energy bond supplies the energy for the step. Splitting the pyrophosphate afterwards uses up a second such bond and makes the reaction effectively one-way. Polymerases are also very accurate, making fewer than one mistake per 10⁷ nucleotides added, and some can remove a wrongly matched nucleotide from the end of the growing strand.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Copying in a test tube",
+    "text": "Replication can also be done outside a cell. Scientists take DNA polymerases from cells and add artificial primers to begin copying at known sequences of a DNA template. The polymerase chain reaction, or PCR, is a common example of this technique.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-14-3",
+   "kind": "book",
+   "title": "14.3 Basics of DNA Replication",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+   "note": "A free textbook section on why each strand is a template, and the Meselson-Stahl experiment that showed copying is semiconservative."
+  },
+  {
+   "id": "openstax-14-4",
+   "kind": "book",
+   "title": "14.4 DNA Replication in Prokaryotes",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/14-4-dna-replication-in-prokaryotes",
+   "note": "Step by step through origins, helicase, primers, DNA polymerase and Okazaki fragments, with clear diagrams."
+  },
+  {
+   "id": "mit-replication",
+   "kind": "video",
+   "title": "7. Replication",
+   "by": "MIT OpenCourseWare",
+   "url": "https://www.youtube.com/watch?v=8jLy33vbtYM",
+   "note": "A full MIT introductory biology lecture on how cells copy their DNA."
+  },
+  {
+   "id": "libretexts-replication",
+   "kind": "book",
+   "title": "7.3: DNA Replication",
+   "by": "Kevin Ahern, Indira Rajagopal and Taralyn Tan (LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Biochemistry/Book%3A_Biochemistry_Free_For_All_(Ahern_Rajagopal_and_Tan)/07%3A_Information_Processing/7.03%3A_DNA_Replication",
+   "note": "A deeper biochemistry chapter on polymerases, primers, origins, helicase and proofreading.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

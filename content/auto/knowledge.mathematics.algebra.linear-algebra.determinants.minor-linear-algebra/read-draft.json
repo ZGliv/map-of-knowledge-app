@@ -1,0 +1,69 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What a minor is",
+   "text": "A minor of a matrix is the determinant of a smaller square matrix, made by deleting one or more rows and columns of the original. Many definitions drop the requirement that this square matrix be smaller than the original. The word minor is sometimes used for the cut-down matrix itself. That matrix is better called a square submatrix, leaving the word minor for its determinant.",
+   "cites": [
+    1,
+    3,
+    10
+   ]
+  },
+  {
+   "heading": "First minors and cofactors",
+   "text": "Start with a square matrix and delete exactly one row and one column. Strike out row i and column j, take the determinant of what remains, and you have the (i, j) minor, also called a first minor and often written M_(i,j). Multiply it by (−1)ⁱ⁺ʲ and you get the (i, j) cofactor, often written C_(i,j). For example, to find M₂,3 and C₂,3 you remove row 2 and column 3 and take the determinant of the rest.",
+   "cites": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "heading": "Why they are useful",
+   "text": "First minors are useful for calculating cofactors, and cofactors in turn help compute both the determinant and the inverse of a square matrix. Collect the cofactors into a cofactor matrix and transpose it, and you get the adjugate matrix, also called the classical adjoint. At the other end of the scale, the zeroth minor of a square matrix is simply its own determinant.",
+   "cites": [
+    2,
+    12,
+    16
+   ]
+  },
+  {
+   "heading": "Minors of any size",
+   "text": "Minors are defined for any m × n matrix, not only square ones. Choose a whole number k with 0 < k ≤ m and k ≤ n. Delete m − k rows and n − k columns, and the determinant of the k × k matrix left over is a k × k minor, also called a minor of order k. By convention, the order-zero minor is usually taken to equal 1.",
+   "cites": [
+    8,
+    9,
+    11
+   ]
+  },
+  {
+   "heading": "Minors and rank",
+   "text": "Minors reveal the rank of a matrix. If a matrix has rank r and its entries are real, or come from any other field, then at least one of its r × r minors is not zero, while every larger minor is zero. An r × r minor with a nonzero value is called a basic minor.",
+   "cites": [
+    17,
+    20
+   ]
+  },
+  {
+   "heading": "Principal minors",
+   "text": "Some minors get special names. When A is square and the same index set I = J picks out its rows and columns, the result is called a principal minor. An i × i square matrix has i leading principal minors. For Hermitian matrices, the leading principal minors give a test for positive definiteness, and the principal minors give a test for positive semidefiniteness; the details go under the name Sylvester's criterion.",
+   "cites": [
+    18,
+    19,
+    21,
+    22
+   ]
+  },
+  {
+   "heading": "An algebraic view",
+   "text": "Multilinear algebra treats minors more systematically, using the wedge product. Wedge the columns of a matrix together k at a time, and the k × k minors show up as the components of the resulting k-vectors. In one worked case, wedging two columns gives the coefficients −13, −7 and 5, which agree with the minors found by direct calculation.",
+   "cites": [
+    24,
+    25,
+    26,
+    27
+   ]
+  }
+ ]
+}

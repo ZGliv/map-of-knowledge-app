@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.equilibrium.center-of-mass",
+ "name": "Center of mass",
+ "summary": [
+  {
+   "text": "The center of mass is the balance point of an object or a group of objects: the one point where the weighted positions of all the mass add up to zero.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It can sit outside the body, as with a horseshoe or a donut, and for separate bodies it may not match any single member.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Pushing a rigid body through it speeds the body up without spinning it, so mechanics calculations are often simpler measured from this point.",
+   "cites": [
+    2,
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Barycenter or balance point",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Uniform density",
+   "value": "It sits at the centroid",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Can be located",
+   "value": "Outside the physical body",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Statistical analogy",
+   "value": "The mean location of the mass",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Center of mass frame",
+   "value": "The system's center of mass is at rest",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A donut has the same density throughout. Where is its balance point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Inside the dough, near the edge"
+    },
+    {
+     "id": "b",
+     "label": "At the center, within the hole"
+    },
+    {
+     "id": "c",
+     "label": "On its top surface"
+    },
+    {
+     "id": "d",
+     "label": "It has none, being hollow"
+    }
+   ],
+   "answer": "b",
+   "explain": "For uniform density it is at the centroid, and for open shapes like a donut that point can lie outside the material.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.center-of-mass:q1"
+  },
+  {
+   "prompt": "You push a rigid crate with a force aimed exactly at its balance point. What does it do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It starts spinning without speeding up"
+    },
+    {
+     "id": "b",
+     "label": "It rotates about its heaviest corner"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since the force cancels"
+    },
+    {
+     "id": "d",
+     "label": "It accelerates straight with no turning"
+    }
+   ],
+   "answer": "d",
+   "explain": "A force through the center of mass causes linear acceleration without angular acceleration.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.center-of-mass:q2"
+  },
+  {
+   "prompt": "Astronomers find the balance point of all the planets together. Must it lie at one of the planets?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it may match none of them"
+    },
+    {
+     "id": "b",
+     "label": "Yes, at the heaviest planet"
+    },
+    {
+     "id": "c",
+     "label": "Yes, at the planet nearest the middle"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if masses are equal"
+    }
+   ],
+   "answer": "a",
+   "explain": "For separate bodies such as the Solar System's planets, the center of mass may not correspond to any individual member.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.center-of-mass:q3"
+  },
+  {
+   "prompt": "A uniform wooden ruler is balanced on one finger. Where is your finger?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One third from an end"
+    },
+    {
+     "id": "b",
+     "label": "At the heavier end"
+    },
+    {
+     "id": "c",
+     "label": "At the geometric middle"
+    },
+    {
+     "id": "d",
+     "label": "Anywhere along it"
+    }
+   ],
+   "answer": "c",
+   "explain": "Balance point is the center of mass, which for uniform density is the centroid, the middle of the ruler.",
+   "cites": [
+    1,
+    6
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.center-of-mass:q4"
+  },
+  {
+   "prompt": "Archimedes found that several weights at different spots on a lever give the same torque as if gathered at one point. Which point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The fulcrum"
+    },
+    {
+     "id": "b",
+     "label": "The center of mass"
+    },
+    {
+     "id": "c",
+     "label": "The heaviest weight's spot"
+    },
+    {
+     "id": "d",
+     "label": "The end of the lever"
+    }
+   ],
+   "answer": "b",
+   "explain": "He showed the torque equals what it would be if all the weights were moved to their center of mass.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.center-of-mass:q5"
+  },
+  {
+   "prompt": "Why do engineers separate center of mass from center of gravity for a satellite near a planet?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity varies across it and can twist it"
+    },
+    {
+     "id": "b",
+     "label": "A satellite has no spread-out mass at all"
+    },
+    {
+     "id": "c",
+     "label": "Gravity does not act on things in orbit"
+    },
+    {
+     "id": "d",
+     "label": "The two always differ by a fixed amount"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gravity varies across the satellite, so a horizontal offset between the two points produces a torque.",
+   "cites": [
+    34,
+    35,
+    36
+   ],
+   "id": "knowledge.science.physics.mechanics.equilibrium.center-of-mass:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Bird_toy_showing_center_of_gravity.jpg/960px-Bird_toy_showing_center_of_gravity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Center of mass",
+  "credit": "APN MJM",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bird_toy_showing_center_of_gravity.jpg"
+ },
+ "source": {
+  "title": "Center of mass",
+  "url": "https://en.wikipedia.org/wiki/Center_of_mass",
+  "revision": 1380729036
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The balance point",
+    "text": "The center of mass, also called the barycenter or balance point, is the one point where the weighted positions of all the mass in a distribution add up to zero. Borrowing a word from statistics, it is the mean location of the mass. For a system of just two particles it is 𝐑 = (m₁𝐫₁ + m₂𝐫₂)/(m₁ + m₂).",
+    "cites": [
+     1,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Why it helps",
+    "text": "For a rigid body, a force applied at the center of mass gives it a linear acceleration with no angular acceleration, so it speeds up without starting to turn. To picture how an object moves, you can imagine all of its mass packed into this single point. Put another way, when you apply Newton's laws of motion, this point acts as a single particle standing in for the whole object. Calculations in mechanics are often simpler when set up around it.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Where it sits",
+    "text": "In a single rigid body the center of mass stays fixed relative to the body, and if the density is uniform it lies at the centroid. It can even lie outside the body, as it sometimes does for hollow or open shapes such as a horseshoe or a donut. When the mass is split among separate bodies, as with the Solar System's planets, the point may not match the position of any one member.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Planets and frames",
+    "text": "The center of mass is a handy reference point for the linear and angular momentum of planets and for the motion of rigid bodies. In orbital mechanics, the motion of planets is worked out as if each were a point mass sitting at its center of mass. In what is called the center of mass frame, an inertial frame is chosen so that the system's center of mass stays at rest relative to the origin.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Archimedes and after",
+    "text": "Nobody knows where the idea came from, but its first known appearance is in the writings of Archimedes of Syracuse in the 3rd century BCE. He showed that weights resting at various points on a lever give the same torque as they would if all of them were moved to one point, their center of mass. In On Floating Bodies he showed that a floating object settles so that its center of mass is as low as it can be. About 50 years after Newton's laws of motion, Leonhard Euler restated Newton's second law in terms of the center of mass.",
+    "cites": [
+     12,
+     13,
+     15,
+     16,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Mass versus gravity",
+    "text": "Where gravity can be treated as uniform, the center of mass and the center of gravity are in exactly the same place. A satellite in orbit is different: gravity is slightly stronger on its side nearer the planet, and that difference can create a torque that turns the satellite until its long axis is vertical. In such a case the two centers have to be told apart. Calling the center of mass the center of gravity is a loose habit, but it is common, and when gravity gradient effects are negligible the two are the same.",
+    "cites": [
+     33,
+     34,
+     35,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-9-6",
+   "kind": "book",
+   "title": "9.6 Center of Mass",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass",
+   "note": "A free textbook section defining the center of mass, with examples such as the Earth-Moon system and a hoop.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mit-ocw-17-1",
+   "kind": "video",
+   "title": "17.1 Definition of the Center of Mass",
+   "by": "MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/pages/week-5-momentum-and-impulse/17-1-definition-of-the-center-of-mass/",
+   "note": "An MIT introductory physics lecture video defining the center of mass of a system.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

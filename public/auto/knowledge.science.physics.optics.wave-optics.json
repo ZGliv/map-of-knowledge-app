@@ -1,0 +1,575 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.wave-optics",
+ "name": "Wave optics",
+ "summary": [
+  {
+   "text": "Wave optics, also called physical optics, studies interference, diffraction and polarization, which the simple straight-ray picture of light cannot explain.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The name also covers an approximation that uses rays to estimate the field at a surface, then adds up that field across the surface to find the transmitted or scattered light.",
+   "cites": [
+    3,
+    6
+   ]
+  },
+  {
+   "text": "It sits between ray optics, which ignores waves, and full wave electromagnetism, and it is a standard way to estimate diffraction effects.",
+   "cites": [
+    4,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What it studies",
+   "value": "Interference, diffraction and polarization",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Middle ground",
+   "value": "Between geometric optics and full wave electromagnetism",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Weak spot",
+   "value": "Inaccurate near edges and shadow boundaries",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Works best on",
+   "value": "Large smooth convex shapes and low-reflection surfaces",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Improved theory",
+   "value": "A 2004 version gives exact answers for diffraction by conducting scatterers",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An engineer uses the same approximation for a light beam and a radio signal. Why does it usually fit the light beam better?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Light has a much higher frequency, and the method suits high frequencies"
+    },
+    {
+     "id": "b",
+     "label": "Light waves are longer, so they bend around objects more gently"
+    },
+    {
+     "id": "c",
+     "label": "Radio waves get absorbed by air before anyone can measure them"
+    },
+    {
+     "id": "d",
+     "label": "Light has no wave behavior, so rays fit it exactly every time"
+    }
+   ],
+   "answer": "a",
+   "explain": "Physical optics is a high-frequency approximation, so it tends to be more accurate for optical light than for radio.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics:q1"
+  },
+  {
+   "prompt": "A photographer sees faint fringes around a tiny hole that straight-line rays would not predict. Which branch deals with this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Geometric optics, since straight lines describe it fully"
+    },
+    {
+     "id": "b",
+     "label": "Coherence theory, which is about quantum noise in communication"
+    },
+    {
+     "id": "c",
+     "label": "Wave optics, because rays fail for effects like this"
+    },
+    {
+     "id": "d",
+     "label": "Ray optics with a stronger lens fitted to the camera"
+    }
+   ],
+   "answer": "c",
+   "explain": "Wave optics covers phenomena where the ray approximation of geometric optics is not valid, such as diffraction.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics:q2"
+  },
+  {
+   "prompt": "You trust ray-based estimates across a big smooth mirror, then try the same trick right at a sharp shadow edge. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It works equally well at the edge as in the middle"
+    },
+    {
+     "id": "b",
+     "label": "It loses accuracy unless diffraction corrections are added"
+    },
+    {
+     "id": "c",
+     "label": "It fails everywhere because rays never apply to mirrors"
+    },
+    {
+     "id": "d",
+     "label": "It gets more accurate because the light is concentrated"
+    }
+   ],
+   "answer": "b",
+   "explain": "The ray-based field is generally not accurate near edges or shadow boundaries unless supplemented with diffraction calculations.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics:q3"
+  },
+  {
+   "prompt": "How does the approximation find the light that comes through a lens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It solves the full electromagnetic equations at every point inside the glass"
+    },
+    {
+     "id": "b",
+     "label": "It adds up the colors of the rays reaching the focus"
+    },
+    {
+     "id": "c",
+     "label": "It ignores the lens and treats the light as one straight ray"
+    },
+    {
+     "id": "d",
+     "label": "It estimates the field with rays, then integrates that field over the lens"
+    }
+   ],
+   "answer": "d",
+   "explain": "In optics it typically integrates a ray-estimated field over a lens, mirror or aperture to get the transmitted or scattered field.",
+   "cites": [
+    6,
+    12
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics:q4"
+  },
+  {
+   "prompt": "A radar wave hits a ship. When the approximation is applied, how is the hidden far side of the ship treated?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It carries the same current as the lit front"
+    },
+    {
+     "id": "b",
+     "label": "It is assumed to carry no current"
+    },
+    {
+     "id": "c",
+     "label": "It carries half the current of the front"
+    },
+    {
+     "id": "d",
+     "label": "It is solved exactly with a separate full theory"
+    }
+   ],
+   "answer": "b",
+   "explain": "Current on the shadowed parts is taken as zero, and only the geometrically illuminated front is used.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics:q5"
+  },
+  {
+   "prompt": "A student says the first word in 'physical optics' means it is the exact true theory of light. What is the correction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It only means the method models more wave effects than ray optics; it is not exact"
+    },
+    {
+     "id": "b",
+     "label": "It means the method applies only to solid physical objects"
+    },
+    {
+     "id": "c",
+     "label": "It means the method was proven by experiment to be exact"
+    },
+    {
+     "id": "d",
+     "label": "It means the method measures physical forces on light"
+    }
+   ],
+   "answer": "a",
+   "explain": "The word means it is more physical than ray optics, not that it is an exact physical theory.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Laser_Interference.JPG/960px-Laser_Interference.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Wave optics",
+  "credit": "Wisky",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Laser_Interference.JPG"
+ },
+ "source": {
+  "title": "Physical optics",
+  "url": "https://en.wikipedia.org/wiki/Physical_optics",
+  "revision": 1364474569
+ },
+ "pack": {
+  "id": "auto-optics-wave-optics",
+  "title": "When rays stop working",
+  "question": "Why does the simple straight-ray picture of light fail, and what takes over?",
+  "path": [
+   "Science",
+   "Physics",
+   "Optics",
+   "Wave optics"
+  ],
+  "hue": 186,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Laser_Interference.JPG/960px-Laser_Interference.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Wave optics",
+    "credit": "Wisky · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laser_Interference.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When rays stop working",
+    "hook": "Light travelling in straight lines explains a mirror, but not what happens right at the edge of a shadow."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-optics-wave-optics:1",
+    "transfer": false,
+    "prompt": "You trust ray-based estimates of light across a large smooth mirror. Where will those estimates be least trustworthy?",
+    "explain": "The ray-optics field is generally not accurate near edges or shadow boundaries unless diffraction calculations are added, while large smooth shapes suit it well.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Near edges and shadow boundaries"
+       },
+       {
+        "id": "c",
+        "label": "Everywhere equally",
+        "feedback": "The estimate is good for large smooth shapes; its trouble is at particular places."
+       },
+       {
+        "id": "b",
+        "label": "In the middle of the mirror",
+        "feedback": "Away from edges the smooth surface is where the ray estimate works well."
+       },
+       {
+        "id": "d",
+        "label": "Only on surfaces that absorb light",
+        "feedback": "Low-reflection surfaces are actually a good fit for the method."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-optics-wave-optics:2",
+    "transfer": false,
+    "prompt": "match each approach to what it does",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Geometric optics"
+     },
+     {
+      "id": "l1",
+      "label": "Physical optics"
+     },
+     {
+      "id": "l2",
+      "label": "Full wave electromagnetism"
+     },
+     {
+      "id": "l3",
+      "label": "Coherence theory"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Studies quantum noise in optical communication"
+     },
+     {
+      "id": "r1",
+      "label": "Estimates a field with rays, then integrates it"
+     },
+     {
+      "id": "r0",
+      "label": "Ignores wave effects"
+     },
+     {
+      "id": "r2",
+      "label": "A precise theory"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Physical optics sits between ray optics and full electromagnetism; coherence theory covers effects like quantum noise that it tends to leave out."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-optics-wave-optics:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each case by how well the physical optics approximation suits it",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Large smooth convex shapes"
+     },
+     {
+      "id": "i1",
+      "label": "Low-reflection surfaces"
+     },
+     {
+      "id": "i2",
+      "label": "High-frequency visible light"
+     },
+     {
+      "id": "i3",
+      "label": "Right at an edge"
+     },
+     {
+      "id": "i4",
+      "label": "Along a shadow boundary"
+     },
+     {
+      "id": "i5",
+      "label": "Directions away from the mirror-like direction"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Good fit"
+     },
+     {
+      "id": "g1",
+      "label": "Poor fit"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "The approximation likes big smooth shapes and high frequencies, and loses accuracy at edges, shadow boundaries and far from the specular direction."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-optics-wave-optics:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Physical optics estimates the field on a surface using rays."
+     },
+     {
+      "id": "b",
+      "text": "It then integrates that field over the surface."
+     },
+     {
+      "id": "c",
+      "text": "Because it integrates, it must be an exact theory of light."
+     },
+     {
+      "id": "d",
+      "text": "Even so, it is a standard way to estimate diffraction effects."
+     }
+    ],
+    "answer": "c",
+    "explain": "It is an approximation. The word physical only means it is more physical than ray optics, not that it is exact."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Wave optics handles interference, diffraction and polarization, the effects that straight rays cannot describe.",
+    "connections": [
+     {
+      "title": "Diffraction",
+      "place": "Wave optics",
+      "node": "knowledge.science.physics.optics.wave-optics.diffraction"
+     },
+     {
+      "title": "Interference (wave propagation)",
+      "place": "Wave optics",
+      "node": "knowledge.science.physics.optics.wave-optics.interference-wave-propagation"
+     },
+     {
+      "title": "Polarization (waves)",
+      "place": "Wave optics",
+      "node": "knowledge.science.physics.optics.wave-optics.polarization-waves"
+     },
+     {
+      "title": "Double-slit experiment",
+      "place": "Wave optics",
+      "node": "knowledge.science.physics.optics.wave-optics.double-slit-experiment"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The ray-optics field is generally not accurate near edges or shadow boundaries unless diffraction calculations are added, while large smooth shapes suit it well.",
+    "source": "Wikipedia sentences 16, 17"
+   },
+   {
+    "claim": "Physical optics sits between ray optics and full electromagnetism; coherence theory covers effects like quantum noise that it tends to leave out.",
+    "source": "Wikipedia sentences 2, 4, 6"
+   },
+   {
+    "claim": "The approximation likes big smooth shapes and high frequencies, and loses accuracy at edges, shadow boundaries and far from the specular direction.",
+    "source": "Wikipedia sentences 11, 16, 17, 18"
+   },
+   {
+    "claim": "It is an approximation. The word physical only means it is more physical than ray optics, not that it is exact.",
+    "source": "Wikipedia sentences 5, 6, 8"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What wave optics covers",
+    "text": "Wave optics, also called physical optics, is the part of optics that deals with interference, diffraction, polarization and related effects. These are the cases where the ray picture used in geometric optics stops working. Some effects are usually left out of it, such as quantum noise in optical communication. That topic belongs to a separate sub-branch called coherence theory.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "An approximation with the same name",
+    "text": "The phrase physical optics also names a working approximation used in optics, electrical engineering and applied physics. It sits between two other approaches. Geometric optics ignores wave effects altogether, while full wave electromagnetism is the precise theory. The word \"physical\" only means the method is more physical than ray optics; it does not mean the method is an exact theory.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "How the approximation works",
+    "text": "The method has two steps. First, ray optics gives an estimate of the field arriving at a surface. Then that field is added up, or integrated, across the whole surface to find the field that is transmitted or scattered. In optics the surface is usually a lens, a mirror or an aperture, which is an opening that light passes through. This is a standard way of estimating diffraction effects.",
+    "cites": [
+     6,
+     8,
+     12
+    ]
+   },
+   {
+    "heading": "What it captures and misses",
+    "text": "The approximation reproduces several interference, diffraction and polarization effects. What it does not capture is the way diffraction depends on polarization. It is a high-frequency approximation, and it is often more accurate for light than for radio. In radio it is still used to estimate some effects that resemble optical ones.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Radar and the lit side",
+    "text": "In radar scattering, the method looks at the front of an object, the part that the incoming wave lights up directly. At each point there, it borrows the current that would be found on a flat tangent plane made of similar material. Current on the shadowed parts is set to zero. The scattered field is then found by integrating over these estimated currents. This works well for large, smooth, convex bodies and for lossy surfaces, which reflect little.",
+    "cites": [
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Weak spots and a fix",
+    "text": "The ray-based estimate is generally poor near edges and near the boundaries of shadows. It can be improved there by adding calculations for diffraction and for creeping waves. The standard theory also has defects for scattered fields, and its accuracy drops away from the specular direction. An improved theory introduced in 2004 gives exact solutions for wave diffraction by conducting scatterers.",
+    "cites": [
+     17,
+     18,
+     19
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-ch3",
+   "kind": "book",
+   "title": "Ch. 3 Introduction",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/3-introduction",
+   "note": "A free college textbook opening to wave optics, using soap-bubble colours to show what ray optics cannot explain.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-ch27",
+   "kind": "book",
+   "title": "Ch. 27 Introduction to Wave Optics",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/27-introduction-to-wave-optics",
+   "note": "A gentler textbook chapter start on wave optics, with a map of its sections from interference to polarization.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-27-1",
+   "kind": "book",
+   "title": "27.1 The Wave Aspect of Light: Interference",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
+   "note": "Explains when light acts like a ray and when its wave nature shows, with worked numbers for wavelength.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-light-is-waves",
+   "kind": "video",
+   "title": "Light Is Waves: Crash Course Physics #39",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=IRBfpBPELmE",
+   "note": "A Crash Course Physics episode on the evidence that light behaves as a wave."
+  }
+ ]
+}

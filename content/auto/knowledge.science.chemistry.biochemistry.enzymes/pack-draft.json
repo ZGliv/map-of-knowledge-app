@@ -1,0 +1,99 @@
+{
+ "title": "Catalysts that skip the wait",
+ "question": "How can a cell run reactions in milliseconds that would otherwise take forever?",
+ "hook": "One reaction in your cells would take millions of years on its own, yet it finishes in a blink.",
+ "idea": "Enzymes lower the activation energy of a reaction, so it runs fast, and they come out of each cycle ready to go again.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A reaction would otherwise take millions of years. The cell adds its enzyme, orotidine 5′-phosphate decarboxylase. About how long does it take now?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Still thousands of years",
+     "feedback": "Enzymes speed reactions up by factors of millions, so thousands of years is far too slow."
+    },
+    {
+     "id": "b",
+     "label": "A few days",
+     "feedback": "That is a big speed-up, but this enzyme does far better than days."
+    },
+    {
+     "id": "c",
+     "label": "Milliseconds"
+    }
+   ],
+   "answer": "c",
+   "explain": "This enzyme accelerates a reaction that would otherwise take millions of years so that it occurs in milliseconds.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these moments in the story of enzymes in order.",
+   "items": [
+    "Payen discovers diastase",
+    "Kühne first uses the word enzyme",
+    "Buchner submits his first paper on yeast extracts",
+    "The structure of lysozyme is published"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Diastase was found in 1833, the word enzyme was first used in 1877, Buchner’s first paper came in 1897, and the lysozyme structure appeared in 1965.",
+   "cites": [
+    21,
+    24,
+    26,
+    36
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each enzyme to what it does.",
+   "pairs": [
+    [
+     "Lactase",
+     "Cleaves lactose"
+    ],
+    [
+     "DNA polymerase",
+     "Forms DNA polymers"
+    ],
+    [
+     "Papain",
+     "Hydrolyzes proteins to tenderize meat"
+    ],
+    [
+     "Lysozyme",
+     "Digests the coating of some bacteria"
+    ]
+   ],
+   "explain": "Enzymes are specific: each is named for, and suited to, the substrate or reaction it handles.",
+   "cites": [
+    18,
+    30,
+    36
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "An enzyme speeds up a reaction by lowering its activation energy.",
+    "The enzyme is regenerated at the end of each cycle, so it is not used up.",
+    "Because it pushes the reaction forward, it also moves the final balance toward more product.",
+    "So adding more enzyme would bring the reaction to its end point sooner, with the same balance."
+   ],
+   "wrong": 2,
+   "explain": "Like all catalysts, enzymes do not affect the overall equilibrium of a reaction.",
+   "cites": [
+    9,
+    11
+   ]
+  }
+ ]
+}

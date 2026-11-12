@@ -1,0 +1,226 @@
+{
+ "summary": [
+  {
+   "text": "A derangement is a permutation of a set in which no element appears in its original position.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The number of derangements of n items is the subfactorial of n, which for n > 0 equals the nearest integer to n!/e.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "Counting them is the hat-check problem: returning n hats to n people so that nobody receives their own hat.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Subfactorial, or de Montmort number",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Origin",
+   "value": "Montmort first considered counting them in 1708",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Small case",
+   "value": "A set of four members has only 9 derangements",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "label": "Formula",
+   "value": "The nearest integer to n!/e, for n > 0",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Hardness",
+   "value": "Deciding whether a permutation group has one is NP-complete",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A teacher hands four graded tests back to four students at random. For which outcome would the handing back count as a derangement?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one student gets their own test"
+    },
+    {
+     "id": "b",
+     "label": "No student gets their own test"
+    },
+    {
+     "id": "c",
+     "label": "Every student gets their own test"
+    },
+    {
+     "id": "d",
+     "label": "At least one student gets their own test"
+    }
+   ],
+   "answer": "b",
+   "explain": "In a derangement no element is in its original position. Every other permutation of the four lets at least one student get their own test back.",
+   "cites": [
+    1,
+    8
+   ]
+  },
+  {
+   "prompt": "In a shuffle, card 2 stays in slot 2 while every other card moves to a new slot. Is this shuffle a derangement?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because most of the cards moved"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because one card staying is allowed"
+    },
+    {
+     "id": "c",
+     "label": "No, because a card stayed in its original place"
+    },
+    {
+     "id": "d",
+     "label": "No, because derangements must reverse the order"
+    }
+   ],
+   "answer": "c",
+   "explain": "A derangement has no fixed points, so a single card remaining in its original position rules it out.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "With 50 people getting hats back at random, what happens to the chance that nobody gets their own hat if you grow the party to 100 people?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It barely changes, since it settles to a limit very quickly"
+    },
+    {
+     "id": "b",
+     "label": "It roughly halves, since there are twice as many people"
+    },
+    {
+     "id": "c",
+     "label": "It falls to nearly zero, since more people means more matches"
+    },
+    {
+     "id": "d",
+     "label": "It rises to nearly one, since more hats means fewer matches"
+    }
+   ],
+   "answer": "a",
+   "explain": "The probability converges to its limit extremely quickly as n increases, which is why Dₙ is the nearest integer to n!/e.",
+   "cites": [
+    5,
+    18
+   ]
+  },
+  {
+   "prompt": "For a set of 4, the factorial is 24. Dividing 24 by e, about 2.718, gives roughly 8.83. Using the nearest-integer rule, how many derangements does a set of 4 have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8"
+    },
+    {
+     "id": "b",
+     "label": "10"
+    },
+    {
+     "id": "c",
+     "label": "24"
+    },
+    {
+     "id": "d",
+     "label": "9"
+    }
+   ],
+   "answer": "d",
+   "explain": "The number of derangements is the nearest integer to n!/e, which rounds 8.83 to 9, matching the 9 derangements of a four-member set.",
+   "cites": [
+    5,
+    7
+   ]
+  },
+  {
+   "prompt": "In the ménage problem, couples sit around a table alternating man and woman. What condition turns it into a constrained permutation problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nobody may sit next to their partner"
+    },
+    {
+     "id": "b",
+     "label": "Everyone must sit next to their partner"
+    },
+    {
+     "id": "c",
+     "label": "No two men may know each other"
+    },
+    {
+     "id": "d",
+     "label": "Each couple must sit in alphabetical order"
+    }
+   ],
+   "answer": "a",
+   "explain": "The ménage problem asks how many ways couples can be seated so that nobody is seated next to his or her partner, an example of the wider field of constrained permutations.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "A mathematician writes !n for the number of ways n hats can be returned so that nobody gets their own. What is this number called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A binomial coefficient"
+    },
+    {
+     "id": "b",
+     "label": "Euler's number"
+    },
+    {
+     "id": "c",
+     "label": "The subfactorial"
+    },
+    {
+     "id": "d",
+     "label": "A fixed-point count"
+    }
+   ],
+   "answer": "c",
+   "explain": "The number of derangements of a set of size n is also called the subfactorial of n, and !n is one common notation.",
+   "cites": [
+    3,
+    4,
+    10
+   ]
+  }
+ ]
+}

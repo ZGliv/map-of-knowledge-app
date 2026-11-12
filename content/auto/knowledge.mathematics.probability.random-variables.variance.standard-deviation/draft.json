@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "The standard deviation measures how much the values of a variable vary around their average, and is usually written with the Greek letter σ.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "A low standard deviation means values sit close to their average, while a high one means they are spread over a wider range.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It is the square root of the variance and, unlike the variance, is expressed in the same unit as the data.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Symbol",
+   "value": "The lowercase Greek letter σ (sigma)",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Bell-curve rule",
+   "value": "68.3% within one, 95.4% within two, 99.7% within three",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Height example",
+   "value": "US men average about 69 inches, with a deviation near 3",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Zero deviation",
+   "value": "In the height example, every man would be 69 inches",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "May not exist",
+   "value": "Fat tails can leave a distribution without one",
+   "cites": [
+    30,
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two archers each fire many arrows at a target. Archer A's arrows land tightly clumped. Archer B's are scattered widely. Which has the lower standard deviation of distance from their own average landing spot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Archer B, whose arrows cover more ground"
+    },
+    {
+     "id": "b",
+     "label": "Archer A, whose arrows stay near their average"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because both have the same average"
+    },
+    {
+     "id": "d",
+     "label": "Both do, since arrows rarely hit exactly"
+    }
+   ],
+   "answer": "b",
+   "explain": "A low standard deviation means values stay close to their average, and a high one means they spread over a wider range.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Heights in a bell-shaped population are measured. How does the share of people captured change as you widen the band around the average from one deviation to three?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows, from about two thirds to nearly everyone"
+    },
+    {
+     "id": "b",
+     "label": "It stays about the same at every width"
+    },
+    {
+     "id": "c",
+     "label": "It shrinks, as the band holds fewer people"
+    },
+    {
+     "id": "d",
+     "label": "It jumps to exactly half of the people"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a normal distribution, about 68.3% lie within one standard deviation, 95.4% within two and 99.7% within three.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A scientist records the weights of lab mice in grams. Which of these is also in grams?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The variance of the weights"
+    },
+    {
+     "id": "b",
+     "label": "The square of the average weight"
+    },
+    {
+     "id": "c",
+     "label": "The number of mice weighed"
+    },
+    {
+     "id": "d",
+     "label": "The standard deviation of the weights"
+    }
+   ],
+   "answer": "d",
+   "explain": "The standard deviation is expressed in the same unit as the data, unlike the variance.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "Every student in a class scores exactly the same on a quiz. What is the standard deviation of the scores?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero"
+    },
+    {
+     "id": "b",
+     "label": "Equal to the shared score"
+    },
+    {
+     "id": "c",
+     "label": "As large as possible"
+    },
+    {
+     "id": "d",
+     "label": "Undefined, as nothing varies"
+    }
+   ],
+   "answer": "a",
+   "explain": "With no variation around the average there is no spread, so the standard deviation is zero, as in the case where all men share one height.",
+   "cites": [
+    1,
+    26
+   ]
+  },
+  {
+   "prompt": "A group's variance is 16. What is the standard deviation of the group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "256"
+    },
+    {
+     "id": "b",
+     "label": "8"
+    },
+    {
+     "id": "c",
+     "label": "16"
+    },
+    {
+     "id": "d",
+     "label": "4"
+    }
+   ],
+   "answer": "d",
+   "explain": "The standard deviation is the square root of the variance, and the square root of 16 is 4.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "A distribution has tails stretching out to infinity, and they fade only slowly. What may be true of its standard deviation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It always exists and is large"
+    },
+    {
+     "id": "b",
+     "label": "It might not exist at all"
+    },
+    {
+     "id": "c",
+     "label": "It must equal the average"
+    },
+    {
+     "id": "d",
+     "label": "It is always exactly zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "With fat tails the integral defining the standard deviation might not converge, so not all random variables have one.",
+   "cites": [
+    30,
+    31
+   ]
+  }
+ ]
+}

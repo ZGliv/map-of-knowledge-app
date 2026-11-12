@@ -1,0 +1,250 @@
+/* Watch: the video feed in Explore, and a hub's Watch row. Deep space and the atlas tokens;
+   each card's accent is its place's territory color (--place-color). With Watch's overlay on
+   (WATCH_OVERLAY in youtube.ts, everything under .feed.is-overlay at the end) the video fills the
+   screen with our words over it; with it off, the player's frame holds YouTube's iframe alone and
+   everything of ours sits beneath it, as below. */
+
+.explore-feed{position:absolute;inset:0}
+.explore-feed[hidden]{display:none}
+.feed{position:absolute;inset:0;--feed-top:var(--chrome-top,48px);--feed-bottom:var(--chrome-bottom,0px)}
+.feed-pager{position:absolute;inset:0;overflow-y:scroll;overscroll-behavior:contain;scroll-snap-type:y mandatory;scrollbar-width:none;outline:none;background:#04050a}
+.feed-pager::-webkit-scrollbar{display:none}
+.feed-page{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden;contain:strict}
+@media(min-width:801px){
+ .explore-feed{display:grid;place-items:center;inset:var(--chrome-top,0px) 0 0}
+ .feed{position:relative;inset:auto;height:calc(100% - 36px);max-height:980px;aspect-ratio:9/16;max-width:calc(100% - 150px);--feed-top:24px;--feed-bottom:0px}
+ .feed-pager{border-radius:16px;box-shadow:0 0 0 1px rgb(214 224 255/.08),0 30px 90px -30px rgb(0 0 0/.95),0 0 120px -40px color-mix(in srgb,var(--starlight) 30%,transparent)}
+ .feed .reel-steps{display:grid;gap:12px;position:absolute;left:calc(100% + 22px);top:50%;transform:translateY(-50%)}
+}
+
+/* A card: the player's stage above, our words and controls beneath. */
+.feed-card{position:absolute;inset:0;display:flex;flex-direction:column;padding:var(--feed-top) 0 var(--feed-bottom);font-family:'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--atlas-text);
+ background:radial-gradient(120% 70% at 50% 18%,color-mix(in srgb,var(--place-color,var(--starlight)) 13%,transparent),transparent 66%),#04050a}
+.feed-stage{flex:1;min-height:0;display:grid;place-items:center;padding:0 12px}
+.feed-video.is-wide{justify-content:center}
+.feed-video.is-wide .feed-stage{flex:none;padding:0}
+.feed-frame{position:relative;overflow:hidden;background:#000;aspect-ratio:var(--frame-aspect);border-radius:14px;box-shadow:0 0 0 1px rgb(214 224 255/.07),0 24px 60px -30px rgb(0 0 0/.9)}
+.feed-video.is-tall .feed-frame{height:100%;max-width:100%}
+.feed-video.is-wide .feed-frame{width:100%;border-radius:0}
+@media(min-width:801px){.feed-video.is-wide .feed-frame{width:calc(100% - 24px);border-radius:12px}}
+.feed-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;-webkit-user-drag:none;user-select:none}
+/* The one player: inside the pager over the frame of the card on screen, so it scrolls with it. */
+.feed-player-layer{position:absolute;z-index:2;overflow:hidden;border-radius:14px;pointer-events:auto}
+.feed-player-layer.is-wide{border-radius:0}
+@media(min-width:801px){.feed-player-layer.is-wide{border-radius:12px}}
+.feed-player{position:absolute;inset:0;width:100%;height:100%;border:0;opacity:0}
+/* It fades in once its video shows, and goes at once when it is handed the next one: moved onto the
+   new card while still fading out, it would dim that card's poster with YouTube's loading screen. */
+.feed-player.is-shown{opacity:1;transition:opacity .35s ease}
+
+.feed-meta{flex:none;display:grid;gap:7px;padding:12px 16px 12px;max-width:560px;width:100%;margin:0 auto}
+.feed-video.is-wide .feed-meta{padding-top:16px}
+.feed-line{display:flex;align-items:center;gap:10px;min-width:0}
+.feed-chip{position:relative;display:inline-flex;align-items:center;gap:8px;min-height:32px;max-width:62%;padding:0 13px 0 11px;border-radius:999px;background:rgb(255 255 255/.08);border:1px solid rgb(255 255 255/.14);color:#fff;font-size:13px;font-weight:600;letter-spacing:.1px;white-space:nowrap;transition:background .15s,border-color .15s}
+.feed-chip span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+/* Drawn 32 px tall, touched 44 px tall. */
+.feed-chip::before{content:'';position:absolute;inset:-7px 0}
+.feed-chip i{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:var(--place-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--place-color) 22%,transparent),0 0 12px var(--place-color)}
+.feed-channel{font-size:12.5px;color:rgb(255 255 255/.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.feed-title{margin:0;font:400 18px/1.28 var(--atlas-serif);color:#fff;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-wrap:pretty}
+.feed-actions{flex:none;display:flex;justify-content:space-between;gap:4px;max-width:560px;width:100%;margin:-3px auto 0;padding:0 16px 12px}
+.feed-action{flex:1;display:grid;justify-items:center;gap:3px;min-height:48px;padding:4px 0 0;background:none;color:rgb(255 255 255/.72);font-size:10.5px;font-weight:600;letter-spacing:.15px;border-radius:12px;transition:color .15s,background .15s}
+.feed-action.is-on{color:color-mix(in oklab,var(--place-color) 72%,#fff)}
+/* Sound refused until a tap: "Tap for sound", asking gently until it gets one. */
+.feed-action.is-asking{color:#fff}
+.feed-action.is-asking svg{border-radius:50%;animation:reel-nudge 1.6s ease-out .3s infinite}
+@media(max-height:700px){.feed-title{font-size:16.5px}}
+
+/* The checkpoint: the session on the map, then one offer. */
+/* A little more room above it than a video's card, so the map never sits against the switch. */
+.feed-checkpoint{justify-content:center;gap:16px;padding-top:calc(var(--feed-top) + 14px);padding-left:20px;padding-right:20px;
+ background:radial-gradient(90% 55% at 50% 34%,color-mix(in srgb,var(--starlight) 9%,transparent),transparent 72%),#04050a}
+.feed-checkpoint-map{width:100%;max-width:520px;margin:0 auto;aspect-ratio:6/5;border-radius:16px;overflow:hidden;box-shadow:0 0 0 1px rgb(214 224 255/.08);animation:reel-fade .6s ease-out both}
+.feed-map{display:block;width:100%;height:100%}
+.feed-map-label{fill:rgb(218 226 255/.34);font:600 9.5px 'Avenir Next',-apple-system,sans-serif;letter-spacing:.6px;text-transform:uppercase}
+.feed-map-label.is-touched{fill:rgb(236 241 255/.82)}
+.feed-map-point{animation:feed-point .7s ease-out both}
+.feed-map-point circle:first-child{animation:feed-glow 2.8s ease-in-out infinite}
+/* Rows 12 px apart: each chip is touched 44 px tall (feed-chip's ::before), its row's and no other's. */
+.feed-checkpoint-places{list-style:none;margin:0 auto;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:12px 8px;max-width:520px}
+.feed-checkpoint-places .feed-chip{max-width:none}
+.feed-offer{display:grid;justify-items:center;gap:12px;max-width:520px;width:100%;margin:0 auto}
+.feed-offer-place{margin:0;font:400 22px/1.25 var(--atlas-serif);color:#fff;text-align:center}
+.feed-offer .reel-prove{--reel-color:var(--place-color)}
+.feed-stuck{display:flex;gap:8px;width:100%;flex-wrap:wrap}
+.feed-stuck input{flex:1;min-width:0;min-height:48px;padding:0 16px;border-radius:999px;background:rgb(255 255 255/.06);border:1px solid rgb(255 255 255/.16);color:#fff;font:400 16px var(--atlas-serif)}
+.feed-stuck input::placeholder{color:rgb(255 255 255/.45)}
+.feed-stuck input:focus{outline:none;border-color:color-mix(in srgb,var(--place-color) 60%,transparent);background:rgb(255 255 255/.09)}
+.feed-stuck button{min-height:48px;padding:0 20px;border-radius:999px;background:rgb(255 255 255/.12);border:1px solid rgb(255 255 255/.18);color:#fff;font-weight:600}
+.feed-stuck button:disabled{opacity:.4}
+.feed-stuck-error{flex-basis:100%;margin:0;font-size:12.5px;color:#ffb4a8}
+.feed-kept{margin:0;display:grid;gap:4px;text-align:center;font:400 19px/1.35 var(--atlas-serif);color:#fff}
+.feed-kept small{font:600 12px 'Avenir Next',-apple-system,sans-serif;color:rgb(255 255 255/.55)}
+.feed-continue{min-height:44px;background:none;color:rgb(255 255 255/.66);font-size:14.5px;font-weight:500}
+
+/* ---- Full screen: Watch's overlay (WATCH_OVERLAY, youtube.ts) ------------------------------------
+   YouTube's developer policies forbid overlays on its embedded player in public apps; MoK is
+   personal-use only. All of it hangs off .feed.is-overlay (set from WATCH_OVERLAY in youtube.ts,
+   which also hides YouTube's own controls), so turning the flag off brings back the frame above,
+   with everything of ours beneath it.
+   The video fills the page, edge to edge and under the floating chrome: a Short covers it (sized to
+   the screen's height and centred, its sides cropped a little, never letterboxed); a wide video runs
+   the full width across the middle, over its own poster blurred. The caption (bottom left,
+   over a shade) and the rail of controls (right) are Reels' own (explore.css, "One overlay").
+   A clear tap layer over the player pauses and plays it through the player's API; the iframe takes
+   no touches at all, so a swipe that starts on the video still moves the pager and snaps (iOS hands
+   a touch inside a cross-origin frame to the frame).
+   YouTube draws its own things at the edges of its player whatever controls=0 says: a title bar, or
+   the Shorts logo and a mute button, along the top; captions, the channel, a copy of the title, like
+   and share buttons and a progress bar along the bottom (up to about 135 px up on a phone). So the
+   iframe is taller than the video by --yt-band at the top and at the bottom: YouTube fits the video
+   to the iframe's width, centred, and leaves its own things in those two bands, which lie past the
+   page's edges for a Short and are clipped away (clip-path) for a wide video. */
+.feed.is-overlay{--reel-safe-bottom:max(0px,var(--feed-bottom) - 8px);--wide-at:50%;--yt-band:160px}
+/* A page keeps no stacking context of its own (paint and layout containment would make one), so its
+   shade, caption and rail can sit over the player, which lives in the pager beside the pages. */
+.feed.is-overlay .feed-page{contain:size style}
+.feed.is-overlay .feed-video{padding:0}
+.feed.is-overlay .feed-stage{position:absolute;inset:0;display:block;padding:0}
+.feed.is-overlay .feed-frame{position:absolute;inset:0;width:auto;height:auto;max-width:none;aspect-ratio:auto;border-radius:0;box-shadow:none;background:#04050a}
+.feed.is-overlay .feed-video.is-wide .feed-poster{inset:auto;left:0;top:var(--wide-at);width:100%;height:auto;aspect-ratio:var(--frame-aspect);transform:translateY(-50%)}
+/* The poster (hqdefault) is 4:3 with black bands above and below the 16:9 picture: drawn a third taller
+   than the page, the bands fall outside it, so the backdrop is picture to its bottom edge. */
+.feed.is-overlay .feed-video.is-wide .feed-frame::before{content:'';position:absolute;inset:-48px;background:var(--backdrop) center/auto 134% no-repeat;filter:blur(30px) saturate(1.25) brightness(.5);transform:scale(1.08)}
+.feed.is-overlay .feed-player-layer{border-radius:0;container-type:size}
+.feed.is-overlay .feed-player{inset:auto;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:none}
+/* A Short covers the page (4 px over, so a video a hair off its listed shape still reaches both edges). */
+.feed.is-overlay .feed-player-layer.is-tall .feed-player{width:calc(max(100cqw,100cqh * var(--player-aspect)) + 4px);height:calc(max(100cqh,100cqw / var(--player-aspect)) + 4px / var(--player-aspect) + 2 * var(--yt-band))}
+.feed.is-overlay .feed-player-layer.is-wide .feed-player{top:var(--wide-at);width:100cqw;height:calc(100cqw / var(--player-aspect) + 2 * var(--yt-band));clip-path:inset(var(--yt-band) 0)}
+/* A desktop's column puts the video's edges between pixels, where the row YouTube leaves black at each
+   edge of its video showed as a line: one pixel more is clipped there. */
+@media(min-width:801px){.feed.is-overlay .feed-player-layer.is-wide .feed-player{clip-path:inset(calc(var(--yt-band) + 1px) 0)}}
+.feed.is-overlay .feed-tap{position:absolute;inset:0;z-index:1;width:100%;height:100%;padding:0;border:0;border-radius:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.feed.is-overlay .feed-tap:focus-visible{outline-offset:-4px}
+/* Paused: Reels' mark, centred on the player, where YouTube's own pause flash lands. */
+.feed.is-overlay .feed-player-layer .reel-paused{top:50%;z-index:2}
+.feed.is-overlay .feed-player-layer.is-wide .reel-paused{top:var(--wide-at)}
+.feed-shade{display:none}
+.feed.is-overlay .feed-shade{display:block;z-index:3} /* the shade itself is Reels' (explore.css) */
+/* The caption lets taps through to the tap layer under it, as Reels' does: only its place chip is a control. */
+.feed.is-overlay .feed-meta{position:absolute;z-index:4;width:auto;max-width:none;margin:0;padding:0;pointer-events:none}
+.feed.is-overlay .feed-meta :is(button,a){pointer-events:auto}
+.feed.is-overlay .feed-actions{max-width:none;margin:0;padding:0}
+/* The place and the channel on one line, then the title on up to two. Both are clipped (the clamp,
+   the ellipsis), and a clip would cut their text-shadow off square over a bright frame, so each keeps
+   room for it inside the clip (padding, given back as a negative margin). Not below the title: a third
+   line would show there. Never a filter: WebKit paints a filtered caption as a dark square at the
+   screen's top-left corner over the video. */
+.feed.is-overlay .feed-title{-webkit-line-clamp:2;line-clamp:2;padding:12px 10px 0;margin:-12px -10px 0}
+.feed.is-overlay .feed-channel{color:rgb(255 255 255/.86);text-shadow:0 1px 8px rgb(0 0 0/.8);padding:8px 10px;margin:-8px -10px}
+
+/* Nothing left, or nothing loaded. */
+.feed-end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;padding:var(--feed-top) 24px calc(var(--feed-bottom) + 24px);text-align:center;background:radial-gradient(80% 50% at 50% 40%,color-mix(in srgb,var(--starlight) 10%,transparent),transparent 70%),#04050a}
+.feed-end h2{margin:0;font:400 30px/1.2 var(--atlas-serif);color:var(--atlas-bright);text-wrap:balance}
+.feed--empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--atlas-muted)}
+
+/* A scoped feed's end: one level up, or the whole map. */
+.scope-card{background:radial-gradient(80% 50% at 50% 40%,color-mix(in srgb,var(--place-color) 12%,transparent),transparent 70%),#04050a}
+.scope-card-words{display:grid;gap:10px;justify-items:center}
+.scope-card-words p{margin:0;max-width:30ch;font-size:15px;line-height:1.5;color:rgb(255 255 255/.66);text-wrap:pretty}
+.scope-card .reel-prove{--reel-color:var(--place-color)}
+
+/* A place card: the place's picture and name first, then either an optional guess or its words,
+   and where to go next. Explore's scope bar has its own room above the feed (explore.css). */
+.place-card{padding:calc(var(--feed-top) + 12px) 18px calc(var(--feed-bottom) + 16px);
+ background:radial-gradient(110% 60% at 50% 12%,color-mix(in srgb,var(--place-color) 15%,transparent),transparent 64%),#04050a}
+.place-card-still{margin:auto;display:grid;gap:8px;text-align:center}
+.place-card-still span,.place-card-trail{font-size:11.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:rgb(255 255 255/.5);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.place-card-still h2{margin:0;font:400 30px/1.2 var(--atlas-serif);color:#fff}
+.place-card-body{flex:1;min-height:0;overflow:hidden;display:flex;flex-direction:column;width:100%;max-width:560px;margin:0 auto}
+.place-card-figure{position:relative;flex:1 1 auto;min-height:88px;max-height:40%;margin:0 0 14px;border-radius:14px;overflow:hidden;background:rgb(255 255 255/.04);box-shadow:0 0 0 1px rgb(214 224 255/.08),0 24px 60px -30px rgb(0 0 0/.9);animation:reel-fade .4s ease-out both}
+.place-card-figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;-webkit-user-drag:none;user-select:none}
+.place-card-figure figcaption{position:absolute;right:0;bottom:0;max-width:100%;padding:12px 10px 6px 24px;font-size:10.5px;line-height:1.3;background:linear-gradient(to left,rgb(2 3 8/.7),rgb(2 3 8/.4) 70%,transparent);border-top-left-radius:12px}
+.place-card-figure figcaption a{display:block;color:rgb(255 255 255/.72);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.place-card-figure figcaption a:hover{color:#fff;text-decoration:underline;text-underline-offset:2px}
+/* No picture: the name and its words sit in the middle of the card rather than at its top. */
+.place-card-body>.place-card-text:first-child{margin-block:auto}
+.place-card-text{flex:0 1 auto;display:flex;flex-direction:column;gap:6px;min-height:0;overflow:hidden}
+.place-card-text>*{flex:none}
+.place-card-name{margin:0;font:400 28px/1.15 var(--atlas-serif);color:#fff;text-wrap:balance}
+/* Short of room, whole lines and facts drop out, never half a line: facts give way first, and whatever
+   no longer fits wraps into a second column the card clips. */
+.place-card-text>.place-card-summary{flex:0 1 auto;min-height:0;display:flex;flex-flow:column wrap;gap:6px;margin-top:2px;overflow:hidden}
+.place-card-summary p{flex:none;width:100%;margin:0;font-size:15px;line-height:1.5;color:rgb(236 240 255/.86);text-wrap:pretty}
+.place-card-text>.place-card-facts{flex:0 1000 auto;min-height:0;margin:6px 0 0;display:flex;flex-flow:column wrap;overflow:hidden}
+/* An empty first item, so even the first fact can wrap away when it does not fit. */
+.place-card-facts::before{content:'';flex:none;width:100%}
+.place-card-facts div{flex:none;width:100%;display:grid;grid-template-columns:minmax(0,36%) 1fr;gap:12px;padding:7px 0;border-top:1px solid rgb(255 255 255/.08);font-size:13px;line-height:1.4}
+.place-card-facts dt{color:color-mix(in oklab,var(--place-color) 55%,#fff);font-weight:600}
+.place-card-facts dd{margin:0;color:rgb(255 255 255/.78)}
+.place-card-actions{flex:none;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin-top:14px}
+.place-card-actions .reel-prove{--reel-color:var(--place-color);padding:0 24px}
+.place-card-source{flex:none;margin:8px 0 0;font-size:11.5px;color:rgb(255 255 255/.5)}
+.place-card-source a{color:inherit;text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgb(255 255 255/.25)}
+.place-card-source a:hover{color:#fff}
+@media(max-height:900px){.place-card-facts div:nth-child(n+3){display:none}}
+@media(max-height:760px){.place-card-facts div:nth-child(n+2){display:none}.place-card-name{font-size:25px}.place-card-summary p{font-size:14.5px}}
+@media(max-height:660px){.place-card-facts{display:none}.place-card-summary p:nth-child(n+3){display:none}}
+/* The guess: a light panel under the name, never the whole card. One tap, the answer and why at
+   once; a wrong pick is only quieter, never marked wrong. */
+.place-card-guess{display:grid;gap:10px;margin-top:8px;padding:12px 14px 14px;border-radius:16px;background:rgb(255 255 255/.04);border:1px solid rgb(255 255 255/.09);animation:reel-fade .3s ease-out both}
+.place-card-guess-head{display:flex;align-items:center;gap:10px;min-height:32px}
+.place-card-guess-head>span{margin-right:auto;font-size:11.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:color-mix(in oklab,var(--place-color) 60%,#fff)}
+.place-card-skip{position:relative;min-height:32px;padding:0 14px;border-radius:999px;background:rgb(255 255 255/.1);border:1px solid rgb(255 255 255/.18);color:#fff;font-size:13px;font-weight:600;transition:background .15s,border-color .15s}
+/* Drawn 32 px tall, touched 44 px tall. */
+.place-card-skip::before{content:'';position:absolute;inset:-6px 0}
+.place-card-question{margin:0;padding:0;border:0;display:grid;gap:10px;min-width:0}
+.place-card-question legend{float:left;width:100%;padding:0;margin:0;font:400 17.5px/1.32 var(--atlas-serif);color:#fff;text-wrap:pretty}
+.place-card-options{display:flex;flex-wrap:wrap;gap:8px}
+.place-card-option{flex:1 1 auto;min-height:44px;padding:9px 14px;text-align:left;font-size:14px;line-height:1.35;color:#fff;background:rgb(255 255 255/.06);border:1px solid rgb(255 255 255/.14);border-radius:12px;transition:background .15s,border-color .15s,opacity .2s}
+.place-card-option:disabled{cursor:default}
+.place-card-option.is-picked{opacity:.6}
+.place-card-option.is-answer{opacity:1;border-color:color-mix(in oklab,var(--place-color) 70%,#fff);background:color-mix(in srgb,var(--place-color) 18%,transparent)}
+.place-card-reveal{display:grid;gap:12px;font-size:14px;line-height:1.5;color:rgb(236 240 255/.84);animation:reel-fade .3s ease-out both}
+.place-card-reveal p{margin:0;text-wrap:pretty}
+.place-card-reveal strong{font-weight:650;color:color-mix(in oklab,var(--place-color) 50%,#fff)}
+.place-card-reveal .place-card-next{--reel-color:var(--place-color);justify-self:start;padding:0 24px}
+/* The picture gives way to the guess on a short screen, never the other way round. */
+.place-card.is-guess .place-card-figure{max-height:36%}
+@media(max-height:760px){.place-card-question legend{font-size:16.5px}.place-card-option{padding:8px 12px;font-size:13.5px}.place-card.is-guess .place-card-figure{max-height:30%}}
+/* "+1 min on the map": a quiet line as the card lands on the map, in the guess's header or beside the card's buttons. */
+.place-card-landed{margin:0;display:inline-flex;align-items:center;gap:8px;min-height:30px;padding:0 14px 0 12px;border-radius:999px;background:rgb(8 10 20/.78);border:1px solid color-mix(in srgb,var(--place-color) 45%,transparent);color:#fff;font-size:12.5px;font-weight:600;white-space:nowrap;pointer-events:none;animation:reel-fade .35s ease-out both,reel-fade-out .5s ease-in 2.1s both}
+.place-card-landed::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--place-color);box-shadow:0 0 10px var(--place-color)}
+
+/* A hub's Watch row: portrait cards for Shorts, wider ones for the rest. */
+.watch-cards{list-style:none;margin:0;padding:2px 2px 6px;display:flex;gap:12px;overflow-x:auto;overflow-anchor:none;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-width:none;align-items:flex-start}
+.watch-cards::-webkit-scrollbar{display:none}
+.watch-cards li{flex:0 0 auto;scroll-snap-align:start}
+.watch-card{display:grid;gap:6px;padding:0;background:none;text-align:left;color:var(--atlas-text)}
+.watch-card.is-tall{width:118px}
+.watch-card.is-wide{width:210px}
+.watch-card-media{position:relative;display:block;border-radius:12px;overflow:hidden;background:#05060c;box-shadow:0 0 0 1px rgb(214 224 255/.08);transition:transform .18s ease,box-shadow .18s}
+.watch-card.is-tall .watch-card-media{aspect-ratio:9/16}
+.watch-card.is-wide .watch-card-media{aspect-ratio:16/9}
+.watch-card-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.watch-card-saved{position:absolute;z-index:1;top:8px;right:8px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:rgb(4 5 12/.6);color:color-mix(in oklab,var(--place-color) 75%,#fff)}
+.watch-card.is-watched .watch-card-media{opacity:.55}
+.watch-card-title{font:400 14px/1.28 var(--atlas-serif);color:var(--atlas-bright,#fff);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.watch-card-channel{font-size:11.5px;color:var(--atlas-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(min-width:801px){.watch-cards{flex-wrap:wrap;overflow:visible;row-gap:18px}}
+
+/* Hover only where there is a pointer: on a phone a tapped button would otherwise stay lit. */
+@media(hover:hover){
+ .feed-chip:hover{background:rgb(255 255 255/.14);border-color:color-mix(in srgb,var(--place-color) 50%,transparent)}
+ .feed-action:hover{color:#fff;background:rgb(255 255 255/.05)}
+ .feed-continue:hover{color:#fff}
+ .place-card-option:not(:disabled):hover{background:rgb(255 255 255/.1);border-color:rgb(255 255 255/.26)}
+ .place-card-skip:hover{background:rgb(255 255 255/.16);border-color:rgb(255 255 255/.3)}
+ .watch-card:hover .watch-card-media{transform:translateY(-2px);box-shadow:0 0 0 1px color-mix(in srgb,var(--place-color) 55%,transparent),0 12px 30px -14px color-mix(in srgb,var(--place-color) 60%,transparent)}
+}
+.feed-action:focus-visible{outline:2px solid var(--atlas-pale);outline-offset:-2px}
+
+@keyframes feed-point{from{opacity:0}}
+@keyframes feed-glow{0%,100%{opacity:.14}50%{opacity:.3}}
+@media(prefers-reduced-motion:reduce){
+ .feed-map-point,.feed-map-point circle:first-child,.feed-checkpoint-map{animation:none}
+ .feed-player.is-shown{transition:none}
+ .feed-action.is-asking svg{animation:none}
+ .watch-card-media{transition:none}
+ .place-card-figure,.place-card-guess,.place-card-reveal,.place-card-landed{animation:none}
+}

@@ -1,0 +1,305 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula",
+ "name": "De Moivre's formula",
+ "summary": [
+  {
+   "text": "De Moivre's formula connects complex numbers and trigonometry, using the expression cos x + i sin x, sometimes abbreviated cis x.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Expanding one side and comparing real and imaginary parts gives expressions for cos nx and sin nx in terms of cos x and sin x.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "As written it is not valid for non-integer powers, but generalizations of it give explicit expressions for the nth roots of unity.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Abraham de Moivre, who never stated it in his works",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Valid powers",
+   "value": "Whole-number powers, even when x is a complex number",
+   "cites": [
+    9,
+    16
+   ]
+  },
+  {
+   "label": "Proof method",
+   "value": "Mathematical induction covers the natural numbers",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Chebyshev link",
+   "value": "The cos nx formula is a Chebyshev polynomial of cos x",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The formula carries de Moivre's name. Which statement about that naming is accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He proved it first in a famous 1748 book"
+    },
+    {
+     "id": "b",
+     "label": "It is named after him although he never stated it in his works"
+    },
+    {
+     "id": "c",
+     "label": "It is named for whoever first proved it by induction"
+    },
+    {
+     "id": "d",
+     "label": "He named it after Euler, who discovered it"
+    }
+   ],
+   "answer": "b",
+   "explain": "The formula is named after Abraham de Moivre, although he never stated it in his works.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula:q1"
+  },
+  {
+   "prompt": "A student raises the expression cos x + i sin x to a power of one half and applies the formula directly. What goes wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing; the formula works for every power"
+    },
+    {
+     "id": "b",
+     "label": "It only works for even powers"
+    },
+    {
+     "id": "c",
+     "label": "The formula is not valid for non-integer powers"
+    },
+    {
+     "id": "d",
+     "label": "It requires x to be measured in degrees"
+    }
+   ],
+   "answer": "c",
+   "explain": "The formula does not hold for non-integer powers n, and the derivation relies on an integer power.",
+   "cites": [
+    6,
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula:q2"
+  },
+  {
+   "prompt": "A complex number is raised to a power that is not a whole number. What is true of the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is always a single real number"
+    },
+    {
+     "id": "b",
+     "label": "It always equals the whole-number result"
+    },
+    {
+     "id": "c",
+     "label": "It is undefined"
+    },
+    {
+     "id": "d",
+     "label": "It can take several different values"
+    }
+   ],
+   "answer": "d",
+   "explain": "If a complex number is raised to a non-integer power, the result is multiple-valued.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula:q3"
+  },
+  {
+   "prompt": "Generalizations of the formula give explicit expressions for the complex numbers z such that zⁿ = 1. What are those numbers called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Roots of unity"
+    },
+    {
+     "id": "b",
+     "label": "Conjugate pairs"
+    },
+    {
+     "id": "c",
+     "label": "Chebyshev polynomials"
+    },
+    {
+     "id": "d",
+     "label": "Unit vectors"
+    }
+   ],
+   "answer": "a",
+   "explain": "The nth roots of unity are the complex numbers z such that zⁿ = 1, and the generalizations can express them explicitly.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula:q4"
+  },
+  {
+   "prompt": "Mathematicians expand one side of the formula and compare real and imaginary parts, assuming x is real. What does this produce?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A proof that the formula fails for whole numbers"
+    },
+    {
+     "id": "b",
+     "label": "Expressions for cos nx and sin nx"
+    },
+    {
+     "id": "c",
+     "label": "A way to find the roots of unity"
+    },
+    {
+     "id": "d",
+     "label": "A rule for turning radians into degrees"
+    }
+   ],
+   "answer": "b",
+   "explain": "Comparing the real and imaginary parts gives useful expressions for cos nx and sin nx in terms of cos x and sin x.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula:q5"
+  },
+  {
+   "prompt": "To prove the formula for every natural number, the argument shows it holds at the start and that if it holds for one number it holds for the next. What technique is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mathematical induction"
+    },
+    {
+     "id": "b",
+     "label": "Proof by contradiction"
+    },
+    {
+     "id": "c",
+     "label": "Checking a finite list of cases"
+    },
+    {
+     "id": "d",
+     "label": "Drawing a picture on the unit circle"
+    }
+   ],
+   "answer": "a",
+   "explain": "Showing that one case implies the next, together with a base case, proves the result for all natural numbers by the principle of mathematical induction.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.de-moivre-s-formula:q6"
+  }
+ ],
+ "source": {
+  "title": "De Moivre's formula",
+  "url": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+  "revision": 1374418396
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the formula says",
+    "text": "De Moivre's formula, also called de Moivre's theorem or de Moivre's identity, says that for any real number x and any integer n, raising cos x + i sin x to the power n gives cos n x + i sin n x. Here i is the imaginary unit, the number whose square is −1, so i² = −1. The bracketed expression cos x + i sin x is sometimes shortened to cis x.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Why it is useful",
+    "text": "The formula is a bridge between complex numbers and trigonometry. Take x to be real, expand the left side, and then match real parts with real parts and imaginary parts with imaginary parts. That gives expressions for cos nx and sin nx built only from cos x and sin x. The expression for cos nx turns out to be the Chebyshev polynomial Tₙ evaluated at cos x.",
+    "cites": [
+     4,
+     5,
+     17
+    ]
+   },
+   {
+    "heading": "A name and a successor",
+    "text": "The formula carries the name of Abraham de Moivre, yet he never stated it in any of his works. It came before Euler's formula, in which x is measured in radians rather than degrees: eⁱˣ = cos x + i sin x. Euler's formula sets out the basic link between the trigonometric functions and the complex exponential function.",
+    "cites": [
+     2,
+     10
+    ]
+   },
+   {
+    "heading": "Proving it step by step",
+    "text": "One proof uses mathematical induction. The case n = 0 holds plainly, because cos(0x) + i sin(0x) = 1 + 0i = 1. Next one shows that if the statement is true for some k, it is also true for k + 1, so it holds for every natural number. Negative powers are handled separately by looking at an exponent of −n for natural n, and together these cover all integers.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Where it stops working",
+    "text": "As written, the formula fails for powers that are not integers. Raising a complex number to a non-integer power gives several possible answers rather than one. On the other hand, x need not be real: with the usual extension of sine and cosine to complex inputs, the formula still holds for any complex x.",
+    "cites": [
+     6,
+     9,
+     18,
+     20
+    ]
+   },
+   {
+    "heading": "Finding roots",
+    "text": "A modest extension of the formula finds the n-th roots of a complex number, for any non-zero integer n. Write z in polar form, z = r (cos x + i sin x). Its n-th roots are then r^(1/n) [cos((x + 2πk)/n) + i sin((x + 2πk)/n)], as k runs through the integers from 0 to |n| − 1. This version is sometimes also called de Moivre's formula. Generalizations like this give explicit expressions for the nth roots of unity, the complex numbers z with zⁿ = 1.",
+    "cites": [
+     7,
+     8,
+     21,
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-polar-form",
+   "kind": "book",
+   "title": "8.5 Polar Form of Complex Numbers - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+   "note": "A free textbook section on polar form, using De Moivre's Theorem to find powers and roots of complex numbers.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

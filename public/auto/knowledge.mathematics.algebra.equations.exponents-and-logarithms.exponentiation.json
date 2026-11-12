@@ -1,0 +1,320 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation",
+ "name": "Exponentiation",
+ "summary": [
+  {
+   "text": "Exponentiation raises a base to an exponent, which is usually written as a small raised number to the right of the base, and the result is also called a power.",
+   "cites": [
+    1,
+    8,
+    12
+   ]
+  },
+  {
+   "text": "Squared and cubed get their names from geometry: b² = b · b is the area of a square with side b, and b³ = b · b · b is the volume of a cube with side b.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "text": "Powers of 10 write large or small numbers in scientific notation, and powers 2ⁿ give the number of values an n-bit binary number can take.",
+   "cites": [
+    36,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "The exponent is also called the power, or the index in British English",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Scientific notation",
+   "value": "Base-ten powers denote large or small numbers",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Power sets",
+   "value": "A set with n members has a power set of 2ⁿ members",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Order matters",
+   "value": "2³ = 8, but reversing gives 3² = 9",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "One byte",
+   "value": "A byte may take 2⁸ = 256 different values",
+   "cites": [
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A storage box has a length, width and height that are all 4 metres. Multiplying 4 by itself three times gives what property of the box?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The area of its floor"
+    },
+    {
+     "id": "b",
+     "label": "The total length of its edges"
+    },
+    {
+     "id": "c",
+     "label": "The space it takes up"
+    },
+    {
+     "id": "d",
+     "label": "The area of one wall"
+    }
+   ],
+   "answer": "c",
+   "explain": "Multiplying a side length by itself three times gives the volume of a cube, which is why it is called cubed.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation:q1"
+  },
+  {
+   "prompt": "A calculator is asked for zero raised to a negative power and refuses to answer. What is the reason?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It amounts to dividing by zero, which is typically undefined"
+    },
+    {
+     "id": "b",
+     "label": "Negative powers are never allowed for any base"
+    },
+    {
+     "id": "c",
+     "label": "Zero times itself is not a number the machine can store"
+    },
+    {
+     "id": "d",
+     "label": "The answer is always 1 so no calculation is needed"
+    }
+   ],
+   "answer": "a",
+   "explain": "Raising 0 to a negative exponent is related to division by zero, so it is typically undefined.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation:q2"
+  },
+  {
+   "prompt": "A student reasons that 2 times 3 equals 3 times 2, so swapping a base and its exponent must give the same result. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since swapping never changes a power"
+    },
+    {
+     "id": "b",
+     "label": "Swapping only works when the exponent is even"
+    },
+    {
+     "id": "c",
+     "label": "Swapping only works when the base is ten"
+    },
+    {
+     "id": "d",
+     "label": "Unlike multiplication, a power changes when the two swap"
+    }
+   ],
+   "answer": "d",
+   "explain": "Exponentiation is not commutative: 2³ = 8, but reversing the operands gives the different value 3² = 9.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation:q3"
+  },
+  {
+   "prompt": "A tower of three numbers is written in superscripts with no brackets. In what order does the usual convention evaluate it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From the bottom up, taking the lowest pair first"
+    },
+    {
+     "id": "b",
+     "label": "From the top down, taking the highest pair first"
+    },
+    {
+     "id": "c",
+     "label": "Whichever order the reader prefers"
+    },
+    {
+     "id": "d",
+     "label": "Both orders always give the same value"
+    }
+   ],
+   "answer": "b",
+   "explain": "Serial exponentiation is conventionally top-down (right-associative), so 2^(3²) = 2⁹ = 512, not (2³)² = 64.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation:q4"
+  },
+  {
+   "prompt": "An astronomer wants a compact way to write a distance with many zeros. Which tool from exponentiation is built for this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Power sets of the distance"
+    },
+    {
+     "id": "b",
+     "label": "Powers of negative one"
+    },
+    {
+     "id": "c",
+     "label": "Powers of ten in scientific notation"
+    },
+    {
+     "id": "d",
+     "label": "The British word index"
+    }
+   ],
+   "answer": "c",
+   "explain": "Exponentiation with base 10 is used in scientific notation to denote large or small numbers.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation:q5"
+  },
+  {
+   "prompt": "A byte is an 8-bit binary number. How many different values can it take?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8"
+    },
+    {
+     "id": "b",
+     "label": "64"
+    },
+    {
+     "id": "c",
+     "label": "256"
+    },
+    {
+     "id": "d",
+     "label": "1000"
+    }
+   ],
+   "answer": "c",
+   "explain": "An n-bit binary number can take 2ⁿ different values, and a byte may take 2⁸ = 256.",
+   "cites": [
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponentiation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Exponential_Functions.svg/960px-Exponential_Functions.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Exponentiation",
+  "credit": "Jollykk",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Exponential_Functions.svg"
+ },
+ "source": {
+  "title": "Exponentiation",
+  "url": "https://en.wikipedia.org/wiki/Exponentiation",
+  "revision": 1384096275
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Base and exponent",
+    "text": "Exponentiation is an operation on two numbers, a base b and an exponent n, usually written bⁿ with the exponent raised to the right of the base. When n is a positive integer, bⁿ means multiplying b by itself n times. The exponent is also called the power, or the index in British English, and the result is also called a power. You read bⁿ as \"b to the power n\" or, most briefly, \"b to the n\".",
+    "cites": [
+     1,
+     2,
+     8,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Squares and cubes",
+    "text": "Two powers take their names from geometry. The expression b² is called \"b squared\" because a square whose sides have length b has area b². Likewise b³ is \"b cubed\" because a cube with side length b has volume b³.",
+    "cites": [
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "The rules",
+    "text": "Multiplying powers of the same base adds the exponents: bᵐ⁺ⁿ = bᵐ⋅bⁿ. Raising a power to another power multiplies the exponents: (bᵐ)ⁿ = bᵐⁿ. A number to the power 0 is generally defined to be 1, which keeps the adding rule working when one exponent is 0. Negative exponents give reciprocals, b⁻ⁿ = 1/bⁿ for nonzero b, and this is the only definition that lets the adding rule extend to negative exponents.",
+    "cites": [
+     17,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Order matters",
+    "text": "Unlike addition and multiplication, exponentiation is not commutative: 2³ = 8, but swapping the numbers gives 3² = 9. It is not associative either: (2³)² = 8² = 64, while 2^((3²)) = 2⁹ = 512. When exponents are stacked without brackets, the usual convention is to work from the top down.",
+    "cites": [
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Powers of 10",
+    "text": "In the decimal system, an integer power of 10 is written as a 1 with zeros placed according to the exponent, as in 10³ = 1000 and 10⁻⁴ = 0.0001. Scientific notation uses powers of 10 to write very large or very small numbers. The speed of light, 299792458 m/s, can be written 2.99792458×10⁸ m/s and rounded to 2.998×10⁸ m/s. Metric prefixes work the same way: the prefix kilo- stands for 10³ = 1000, which makes one kilometre equal to 1000 m.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     38,
+     39
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-1-2",
+   "kind": "book",
+   "title": "1.2 Exponents and Scientific Notation",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/1-2-exponents-and-scientific-notation",
+   "note": "A free textbook section on the exponent rules, zero and negative exponents, and scientific notation, with practice.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-power",
+   "kind": "article",
+   "title": "Power",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Power.html",
+   "note": "A reference entry on powers: integer, real and complex exponents, the 0⁰ question, and special named powers."
+  }
+ ]
+}

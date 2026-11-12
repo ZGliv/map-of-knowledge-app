@@ -1,0 +1,117 @@
+{
+ "title": "When the Bottom Hits Zero",
+ "question": "What is a rational function, and where does it break?",
+ "hook": "A fraction made of polynomials looks harmless, until its bottom reaches zero.",
+ "idea": "A rational function is one polynomial divided by another, defined wherever the denominator is not zero.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "The function f(x) = π is a constant, and π is irrational, so the value of f(x) is irrational for every x. Is f a rational function?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "No, because its values are irrational",
+     "feedback": "It tempts because the values are irrational, but a rational function is judged by its form, not by its values."
+    },
+    {
+     "id": "b",
+     "label": "Yes, since constants are polynomials",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "Only when x is a rational number",
+     "feedback": "It tempts because rationality seems to depend on the input, but the function's form is what counts."
+    },
+    {
+     "id": "d",
+     "label": "No, because constants are not polynomials",
+     "feedback": "It tempts because a constant has no x, but constants are polynomials."
+    }
+   ],
+   "answer": "b",
+   "explain": "A constant is a polynomial, so it is a polynomial over the polynomial 1. The function is rational even though the value of f(x) is irrational for all x.",
+   "cites": [
+    25,
+    26
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each into its group.",
+   "groups": [
+    "Rational function",
+    "Not a rational function"
+   ],
+   "items": [
+    [
+     "Every polynomial function",
+     "Rational function"
+    ],
+    [
+     "A polynomial over a nonzero polynomial",
+     "Rational function"
+    ],
+    [
+     "The sum of two rational functions",
+     "Rational function"
+    ],
+    [
+     "The product of two rational functions",
+     "Rational function"
+    ],
+    [
+     "The sine function",
+     "Not a rational function"
+    ]
+   ],
+   "explain": "Polynomials, polynomial fractions and their sums and products are rational. The sine function cannot be written as a polynomial over a polynomial.",
+   "cites": [
+    1,
+    27,
+    28,
+    32
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Domain of a rational function",
+     "Values where the denominator is not zero"
+    ],
+    [
+     "Proper rational function",
+     "Numerator degree below denominator degree"
+    ],
+    [
+     "Complex rational function of degree one",
+     "A Möbius transformation"
+    ]
+   ],
+   "explain": "Each pair comes from how rational functions are defined and classified.",
+   "cites": [
+    8,
+    13,
+    18
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Take the function x divided by x.",
+    "Dividing a number by itself gives 1.",
+    "So the function equals 1 at every input, including 0.",
+    "So it is just the constant function 1."
+   ],
+   "wrong": 2,
+   "explain": "Zero is not in the domain, because the denominator is zero there. The function equals 1 for all x except 0, where there is a removable singularity.",
+   "cites": [
+    8,
+    31
+   ]
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "summary": [
+  {
+   "text": "A cyclic permutation is a permutation consisting of a single cycle, and one with k elements may be called a k-cycle.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "In cycle notation it is written as the list of its elements in parentheses, in the order each is permuted to the next.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Every permutation on finitely many elements can be split into cyclic permutations whose non-trivial orbits are disjoint.",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Cyclic permutations are sometimes just called cycles",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Example",
+   "value": "(1 3 2 4) sends 1 to 3, 3 to 2, 2 to 4, 4 to 1",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Disputed definition",
+   "value": "Authors disagree on whether fixed points are allowed",
+   "cites": [
+    3,
+    10,
+    12
+   ]
+  },
+  {
+   "label": "Fixed point",
+   "value": "The orbit of a 1-cycle is a fixed point",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Cycle type",
+   "value": "The multiset of cycle lengths is fixed by the permutation",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A permutation is written (1 3 2 4) in cycle notation, with each element sent to the next one listed and the last sent back to the first. Where does 2 go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To 1"
+    },
+    {
+     "id": "b",
+     "label": "To 3"
+    },
+    {
+     "id": "c",
+     "label": "To 4"
+    },
+    {
+     "id": "d",
+     "label": "It stays at 2"
+    }
+   ],
+   "answer": "c",
+   "explain": "The cycle sends 1 to 3, 3 to 2, 2 to 4 and 4 back to 1.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "A shuffle moves card a to b's spot, card b to c's spot, and card c to a's spot. How is it classed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single 3-cycle"
+    },
+    {
+     "id": "b",
+     "label": "Three 1-cycles"
+    },
+    {
+     "id": "c",
+     "label": "A 2-cycle plus a fixed point"
+    },
+    {
+     "id": "d",
+     "label": "An identity permutation"
+    }
+   ],
+   "answer": "a",
+   "explain": "A cycle with k elements is a k-cycle, and this one cycles three elements, so it is a 3-cycle.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "prompt": "A permutation swaps 1 with 2 and, separately, swaps 3 with 4. Into what cycles does it break?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One 4-cycle"
+    },
+    {
+     "id": "b",
+     "label": "Two 2-cycles"
+    },
+    {
+     "id": "c",
+     "label": "Four 1-cycles"
+    },
+    {
+     "id": "d",
+     "label": "One 2-cycle"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each swap is a cycle of two elements, and the two cycles do not share elements, so the permutation is made of two 2-cycles.",
+   "cites": [
+    2,
+    8
+   ]
+  },
+  {
+   "prompt": "Two textbooks disagree about whether (1 3 2)(4), which cycles three elements and leaves 4 alone, counts as a cyclic permutation. What are they disagreeing about?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whether cycles may have three elements"
+    },
+    {
+     "id": "b",
+     "label": "Whether the numbers must be listed in increasing order"
+    },
+    {
+     "id": "c",
+     "label": "Whether a permutation can be written in cycle notation"
+    },
+    {
+     "id": "d",
+     "label": "Whether a cyclic permutation may leave some elements fixed"
+    }
+   ],
+   "answer": "d",
+   "explain": "There is no widespread consensus on the definition: some authors allow fixed points alongside one non-trivial cycle, and others do not.",
+   "cites": [
+    3,
+    5,
+    10,
+    12
+   ]
+  },
+  {
+   "prompt": "A permutation of the elements 1, 2, 3 and 4 is written as just (1 3 2). What does the missing 4 mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The permutation is not defined on 4"
+    },
+    {
+     "id": "b",
+     "label": "4 is a fixed point, a 1-cycle left out of the notation"
+    },
+    {
+     "id": "c",
+     "label": "4 is sent to 1 to close the cycle"
+    },
+    {
+     "id": "d",
+     "label": "4 forms its own 2-cycle"
+    }
+   ],
+   "answer": "b",
+   "explain": "When no confusion will result, 1-cycles are often omitted, and the orbit of a 1-cycle is a fixed point.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "Two people each break the same permutation into cycles with no elements in common. Which statement is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They get the same cycles, possibly listed in a different order"
+    },
+    {
+     "id": "b",
+     "label": "They can get cycles of entirely different lengths"
+    },
+    {
+     "id": "c",
+     "label": "Only one of them can write it as such cycles"
+    },
+    {
+     "id": "d",
+     "label": "The cycles must come out in the same order"
+    }
+   ],
+   "answer": "a",
+   "explain": "Any permutation can be written as a product of disjoint cycles, unique up to the order of the factors, so the cycle lengths are determined by the permutation.",
+   "cites": [
+    25,
+    26
+   ]
+  }
+ ]
+}

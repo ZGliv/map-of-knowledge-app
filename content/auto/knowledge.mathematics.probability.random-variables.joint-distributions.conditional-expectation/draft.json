@@ -1,0 +1,214 @@
+{
+ "summary": [
+  {
+   "text": "A conditional expectation is the expected value of a random variable, worked out using its conditional probability distribution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When the variable can take only a finite number of values, the conditions are that it can take only a subset of those values.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "With ten years of daily rainfall, the unconditional expectation averages all the days, while conditioning on March averages only the March days.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Conditional expected value, or conditional mean",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Rainfall record",
+   "value": "3652 days over ten years, of which 310 fall in March",
+   "cites": [
+    11,
+    13
+   ]
+  },
+  {
+   "label": "Narrower condition",
+   "value": "Conditioning on March 2 averages just ten days",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Modern definition",
+   "value": "Generalised in works of Halmos and Doob from 1953",
+   "cites": [
+    17,
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A weather station has rainfall for every day of ten years. You want the expected rainfall for a day you know falls in March. What do you average?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every day in the whole ten-year record"
+    },
+    {
+     "id": "b",
+     "label": "Only the March days in the record"
+    },
+    {
+     "id": "c",
+     "label": "Only the rainiest days in the record"
+    },
+    {
+     "id": "d",
+     "label": "Only the most recent March in the record"
+    }
+   ],
+   "answer": "b",
+   "explain": "Knowing the day is in March is the condition, so you average the rainfall over the days of the record that fall in March.",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "prompt": "Using that same ten-year rainfall record, you know nothing about tomorrow's date. Which number is the expected rainfall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average rainfall over all the days in the record"
+    },
+    {
+     "id": "b",
+     "label": "The average over just the wettest month"
+    },
+    {
+     "id": "c",
+     "label": "The rainfall on the last day of the record"
+    },
+    {
+     "id": "d",
+     "label": "The average over only the days in one season"
+    }
+   ],
+   "answer": "a",
+   "explain": "With no condition, the unconditional expectation is the average across all the days of the record.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "In a ten-year daily rainfall record, you condition on the date being March 2. How many days does that average cover?",
+   "options": [
+    {
+     "id": "a",
+     "label": "310 days"
+    },
+    {
+     "id": "b",
+     "label": "3652 days"
+    },
+    {
+     "id": "c",
+     "label": "10 days"
+    },
+    {
+     "id": "d",
+     "label": "1 day"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each year has one March 2, so the average covers the ten days with that specific date.",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "A die can show six values. You are told the roll is even. What does that condition do to the values being considered?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It restricts them to a subset of the possible values"
+    },
+    {
+     "id": "b",
+     "label": "It adds new values the die could not show"
+    },
+    {
+     "id": "c",
+     "label": "It makes every value equally likely again"
+    },
+    {
+     "id": "d",
+     "label": "It removes all the randomness from the roll"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a variable with finitely many values, the conditions mean it can only take a subset of those values.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Someone works out an average using the probabilities that hold once a certain condition is known, instead of the original probabilities. What have they found?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An unconditional expectation"
+    },
+    {
+     "id": "b",
+     "label": "A marginal distribution"
+    },
+    {
+     "id": "c",
+     "label": "A conditional expectation"
+    },
+    {
+     "id": "d",
+     "label": "A joint distribution"
+    }
+   ],
+   "answer": "c",
+   "explain": "A conditional expectation is an expected value evaluated with respect to the conditional probability distribution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "Why do statisticians and applied mathematicians often use approximations of conditional expectation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is undefined whenever a variable takes finitely many values"
+    },
+    {
+     "id": "b",
+     "label": "Working it out exactly can be difficult"
+    },
+    {
+     "id": "c",
+     "label": "Approximations are always more accurate"
+    },
+    {
+     "id": "d",
+     "label": "It can only be defined for rainfall data"
+    }
+   ],
+   "answer": "b",
+   "explain": "Because it is hard to calculate analytically, it is often approximated in applied work.",
+   "cites": [
+    36
+   ]
+  }
+ ]
+}

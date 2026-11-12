@@ -1,0 +1,7 @@
+/* The shelf's fill on the map (Atlas.tsx, MapDetails.tsx): uncharted places lie in fog. On the mosaic the
+   fog is painted into the land itself (atlasArt/mosaic.ts fogFor); these rules cover the flat map
+   (?art=off and the like) and the names and captions drawn over either. */
+.map-cell.is-uncharted,.transition-cell.is-uncharted,.leaf-territory.is-uncharted{fill-opacity:.55}
+.map-details .is-uncharted .region-title{fill-opacity:.72}
+.map-details .is-uncharted .map-motif{opacity:.22}
+.region-caption.is-uncharted{fill:#7d879c;fill-opacity:.8;font-weight:500}

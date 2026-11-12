@@ -1,0 +1,584 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.hypothesis-testing",
+ "name": "Hypothesis testing",
+ "summary": [
+  {
+   "text": "A hypothesis test is a method for deciding whether sample data gives enough evidence to reject a particular hypothesis.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It sets a default null hypothesis, usually a statement of no effect or no difference, against its negation, the alternative hypothesis.",
+   "cites": [
+    10,
+    16
+   ]
+  },
+  {
+   "text": "A p-value is worked out from the sample, and if it is at or below the significance level, the null hypothesis is rejected.",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Main goal",
+   "value": "Judge a property of a population by examining sample data",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Number of tests",
+   "value": "Roughly 100 specialized tests are in use",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Type I error",
+   "value": "Rejecting a null hypothesis that is true, with probability α",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Power",
+   "value": "1 − β, where β is the chance of a type II error",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "label": "Two ways to decide",
+   "value": "Compare to a critical value, or use a p-value",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A trial tests a new blood-pressure drug. Which statement would normally serve as the null hypothesis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The drug works, so the mean change in blood pressure is negative"
+    },
+    {
+     "id": "b",
+     "label": "The drug does nothing, so the mean change in blood pressure is zero"
+    },
+    {
+     "id": "c",
+     "label": "The patients in this trial had an average change of zero"
+    },
+    {
+     "id": "d",
+     "label": "The drug lowers blood pressure more than any other drug"
+    }
+   ],
+   "answer": "b",
+   "explain": "The null hypothesis is typically a statement of no effect about the population. A claim about the sample itself cannot be a hypothesis.",
+   "cites": [
+    7,
+    8,
+    9,
+    16,
+    18
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing:q1"
+  },
+  {
+   "prompt": "A researcher says: the 40 patients I measured averaged a drop of 5 points. Can this be the hypothesis being tested?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any measured fact about the study can be tested"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the drop is larger than five points"
+    },
+    {
+     "id": "c",
+     "label": "No, a hypothesis must describe the population, not the sample"
+    },
+    {
+     "id": "d",
+     "label": "No, a hypothesis must always claim that a difference exists"
+    }
+   ],
+   "answer": "c",
+   "explain": "A hypothesis is a statement about the parameters describing a population, never about the sample that was collected.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing:q2"
+  },
+  {
+   "prompt": "A test finds that the sample data fit comfortably with the default hypothesis. What is the decision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The default hypothesis is not rejected"
+    },
+    {
+     "id": "b",
+     "label": "The default hypothesis is rejected and the alternative is true"
+    },
+    {
+     "id": "c",
+     "label": "A new sample must be gathered before any decision is allowed"
+    },
+    {
+     "id": "d",
+     "label": "The default and alternative hypotheses swap roles"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the sample data are consistent with the null hypothesis, it is not rejected. Only inconsistent data lead to rejection.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing:q3"
+  },
+  {
+   "prompt": "A smoke alarm assumes there is no fire unless evidence is strong. It stays silent during a real fire. In testing terms, what kind of error is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Type I: the default assumption was rejected though true"
+    },
+    {
+     "id": "b",
+     "label": "Type I, because the alarm failed to do its job"
+    },
+    {
+     "id": "c",
+     "label": "None: staying silent is always a correct decision"
+    },
+    {
+     "id": "d",
+     "label": "Type II: the default was kept though the alternative was true"
+    }
+   ],
+   "answer": "d",
+   "explain": "Keeping the null hypothesis when the alternative is actually true is a type II error. A type I error would be a false alarm.",
+   "cites": [
+    22,
+    24
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing:q4"
+  },
+  {
+   "prompt": "One analyst compares a test statistic to a boundary value. Another computes a p-value from the same statistic. How do their decisions relate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They can conflict, so one method must be picked first"
+    },
+    {
+     "id": "b",
+     "label": "They are equivalent ways of reaching the decision"
+    },
+    {
+     "id": "c",
+     "label": "Only the p-value works when a sample is small"
+    },
+    {
+     "id": "d",
+     "label": "Only the boundary value works for population claims"
+    }
+   ],
+   "answer": "b",
+   "explain": "A decision is made either by comparing the test statistic to a critical value or, equivalently, by evaluating a p-value.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing:q5"
+  },
+  {
+   "prompt": "A test has significance level 0.05 and the computed p-value is 0.03. What is the outcome?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Not rejected, since a small p-value supports the null"
+    },
+    {
+     "id": "b",
+     "label": "Not rejected, since the p-value must equal the level exactly"
+    },
+    {
+     "id": "c",
+     "label": "The null hypothesis is rejected, since p is at or below the level"
+    },
+    {
+     "id": "d",
+     "label": "The null hypothesis is rejected and proved false"
+    }
+   ],
+   "answer": "c",
+   "explain": "The null is rejected when the p-value is less than or equal to the significance level. Even then the test does not conclude the null is false.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing:q6"
+  }
+ ],
+ "source": {
+  "title": "Statistical hypothesis test",
+  "url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_test",
+  "revision": 1383136125
+ },
+ "pack": {
+  "id": "auto-statistics-hypothesis-testing",
+  "title": "Can a sample overturn a default?",
+  "question": "How can a small sample decide whether a claim about a whole population holds up?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Statistics",
+   "Hypothesis testing"
+  ],
+  "hue": 41,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chi-square_distributionCDF-English.svg/960px-Chi-square_distributionCDF-English.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chi-squared test",
+    "credit": "Mikael Häggström; SVG reconstruction: PJ Geest. · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chi-square_distributionCDF-English.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Can a sample overturn a default?",
+    "hook": "A few measurements have to speak for everyone, and a test sets the rules for when they are believed."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-statistics-hypothesis-testing:1",
+    "transfer": false,
+    "prompt": "A trial starts from the default claim that a drug does nothing, then sees a large drop in blood pressure in its sample. What does the test calculate?",
+    "explain": "The tester computes the probability of a value at least as extreme as observed, supposing the null hypothesis is true. That is the p-value.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "How likely a result at least this extreme is if the drug does nothing",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "How probable it is that the drug does nothing",
+        "feedback": "Tempting, but the test does not give the probability that the null hypothesis is true."
+       },
+       {
+        "id": "a",
+        "label": "The share of patients who improved, declaring the drug works if it is high",
+        "feedback": "Counting improvers is not the test; it asks how surprising the sample is under the default claim."
+       },
+       {
+        "id": "d",
+        "label": "Whether the sample average equals the population average exactly",
+        "feedback": "The test is about a population parameter, and it judges the sample against the default claim."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-statistics-hypothesis-testing:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each statement into the hypothesis it describes.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "The drug has no effect"
+     },
+     {
+      "id": "i1",
+      "label": "The default statement the test starts from"
+     },
+     {
+      "id": "i2",
+      "label": "The negation of the default statement"
+     },
+     {
+      "id": "i3",
+      "label": "There is no difference between the groups"
+     },
+     {
+      "id": "i4",
+      "label": "The statement taken as true once the null is rejected"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Null hypothesis"
+     },
+     {
+      "id": "g1",
+      "label": "Alternative hypothesis"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g0",
+     "i4": "g1"
+    },
+    "explain": "The null is the default, usually no effect or no difference. The alternative is its negation, accepted when the data are inconsistent with the null."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-statistics-hypothesis-testing:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Type I error"
+     },
+     {
+      "id": "l1",
+      "label": "Type II error"
+     },
+     {
+      "id": "l2",
+      "label": "Significance level α"
+     },
+     {
+      "id": "l3",
+      "label": "Power"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "The probability of a type I error"
+     },
+     {
+      "id": "r0",
+      "label": "Rejecting a null hypothesis that is true"
+     },
+     {
+      "id": "r1",
+      "label": "Accepting the null though the alternative is true"
+     },
+     {
+      "id": "r3",
+      "label": "1 − β, where β is the probability of a type II error"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The two errors are the two ways a decision can be wrong, and α and power measure how often each is avoided."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-statistics-hypothesis-testing:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The null hypothesis says the drug has no effect."
+     },
+     {
+      "id": "b",
+      "text": "The p-value is 0.01, below the significance level of 0.05."
+     },
+     {
+      "id": "c",
+      "text": "So the null hypothesis is rejected."
+     },
+     {
+      "id": "d",
+      "text": "That proves the probability that the null is true is below 0.05."
+     }
+    ],
+    "answer": "d",
+    "explain": "Rejecting the null does not mean the probability that it is true is below α, and the test does not conclude that the null is false."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A test starts from a default claim of no effect and rejects it only when the sample would be too surprising if that claim were true.",
+    "connections": [
+     {
+      "title": "P-value",
+      "place": "Hypothesis testing",
+      "node": "knowledge.mathematics.probability.statistics.hypothesis-testing.p-value"
+     },
+     {
+      "title": "Type I and type II errors",
+      "place": "Hypothesis testing",
+      "node": "knowledge.mathematics.probability.statistics.hypothesis-testing.type-i-and-type-ii-errors"
+     },
+     {
+      "title": "Student's t-test",
+      "place": "Hypothesis testing",
+      "node": "knowledge.mathematics.probability.statistics.hypothesis-testing.student-s-t-test"
+     },
+     {
+      "title": "Chi-squared test",
+      "place": "Hypothesis testing",
+      "node": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The tester computes the probability of a value at least as extreme as observed, supposing the null hypothesis is true. That is the p-value.",
+    "source": "Wikipedia sentences 7, 19, 21"
+   },
+   {
+    "claim": "The null is the default, usually no effect or no difference. The alternative is its negation, accepted when the data are inconsistent with the null.",
+    "source": "Wikipedia sentences 10, 16, 17, 18"
+   },
+   {
+    "claim": "The two errors are the two ways a decision can be wrong, and α and power measure how often each is avoided.",
+    "source": "Wikipedia sentences 22, 23, 24, 25"
+   },
+   {
+    "claim": "Rejecting the null does not mean the probability that it is true is below α, and the test does not conclude that the null is false.",
+    "source": "Wikipedia sentences 20, 21"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A statistical hypothesis test is a way of using data to decide whether there is enough evidence to reject a particular hypothesis. It usually involves calculating a test statistic from the sample data. The decision then comes from comparing that statistic with a critical value, or, in an equivalent way, from a p-value worked out from it. Roughly 100 specialized tests of this kind are in use.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Questions about populations",
+    "text": "The goal is to find out whether some property of a whole population holds, while only looking at a sample. The population is usually modelled as a random variable whose distribution has unknown parameters. A medical trial, for example, might ask whether a drug works against high blood pressure, taking the change in a patient's blood pressure as the random variable. One hypothesis could be that the mean change is zero; another, that it is negative. Any statement about the population's parameters can be a hypothesis, but a statement about the sample cannot.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Two competing claims",
+    "text": "Every test pits two mutually exclusive statements against each other. The null hypothesis, written H₀, is the default; it usually says there is no effect or no difference, or that a parameter takes some obvious value. The alternative hypothesis, written H₁, is its negation.",
+    "cites": [
+     10,
+     13,
+     16,
+     18
+    ]
+   },
+   {
+    "heading": "How the decision is made",
+    "text": "First the test statistic is computed from the sample. Then the tester asks how probable a value at least this extreme would be if the null hypothesis were true; that conditional probability is the p-value. If the p-value is at or below the test's significance level, written α, the null hypothesis is rejected. Even then, the verdict is not that the null hypothesis is false, nor that its chance of being true is below α.",
+    "cites": [
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Drawing the line",
+    "text": "Another way to picture the decision is as a map of possible values of the test statistic. The rejection region, also called the critical region, holds the values that lead to rejecting the null hypothesis. The acceptance region holds the values that do not, and the critical values are its boundaries. A one-tailed alternative hypothesis puts a rejection region in only one tail of the sampling distribution, while a two-tailed one puts rejection regions in both.",
+    "cites": [
+     29,
+     30,
+     32,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Two ways to be wrong",
+    "text": "A type I error rejects the null hypothesis when it is in fact true, and its probability is α, the same as the significance level. A type II error accepts the null hypothesis when the alternative is the true one, and its probability is written β. Subtracting β from 1 gives the power of the test, 1 − β.",
+    "cites": [
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Where the idea came from",
+    "text": "The hypothesis test grew out of an older idea, the statistical significance test. Under it, a result was called statistically significant when the sample was inconsistent enough with the null hypothesis. The modern hypothesis test brought mathematical rigour and philosophical consistency to that idea by stating the alternative hypothesis openly.",
+    "cites": [
+     37,
+     38,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "lane-11-1",
+   "kind": "book",
+   "title": "11.1: Introduction to Hypothesis Testing",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/11%3A_Logic_of_Hypothesis_Testing/11.01%3A_Introduction_to_Hypothesis_Testing",
+   "note": "A gentle opening to the logic of testing, built around two worked examples, including a martini taste test.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "openstax-9-2",
+   "kind": "book",
+   "title": "9.2: Null and Alternative Hypotheses",
+   "by": "OpenStax",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_2e_(OpenStax)/09%3A_Hypothesis_Testing_with_One_Sample/9.02%3A_Null_and_Alternative_Hypotheses",
+   "note": "A free college textbook section on writing null and alternative hypotheses, with worked examples and practice.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "siegrist-9-1",
+   "kind": "book",
+   "title": "9.1: Introduction to Hypothesis Testing",
+   "by": "Kyle Siegrist, Random Services",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/09%3A_Hypothesis_Testing/9.01%3A_Introduction_to_Hypothesis_Testing",
+   "note": "A more mathematical textbook section on null and alternative hypotheses, type 1 and 2 errors, power and p-values.",
+   "license": "CC BY 2.0"
+  },
+  {
+   "id": "cc-stats-21",
+   "kind": "video",
+   "title": "How P-Values Help Us Test Hypotheses: Crash Course Statistics #21",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=bf3egy7TQ2Q",
+   "note": "A Crash Course Statistics episode introducing null hypothesis significance testing and the role of p-values."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+.auto-place{display:grid;gap:22px}
+.auto-figure{margin:0}
+.auto-figure img{display:block;width:100%;max-height:280px;object-fit:contain;background:var(--atlas-panel);border-radius:4px}
+.auto-figure figcaption{margin-top:8px;font-size:11.5px;color:var(--atlas-muted)}
+.auto-figure a,.auto-source a{color:inherit;text-underline-offset:3px}
+.auto-facts{display:grid;margin:0}
+.auto-facts div{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:16px;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--atlas-rule) 70%,transparent)}
+.auto-facts dt{font-size:13.5px;color:var(--atlas-muted)}
+.auto-facts dd{margin:0;font-size:14.5px;line-height:1.45;color:var(--atlas-text)}
+.auto-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.auto-check{display:grid;gap:26px}
+.auto-question{display:grid;gap:8px;margin:0;padding:0;border:0;min-width:0}
+.auto-question legend{padding:0 0 10px;font-size:16px;line-height:1.45;color:var(--atlas-bright)}
+.auto-option{min-height:48px;padding:11px 14px;text-align:left;font-size:14.5px;line-height:1.35;color:var(--atlas-text);background:var(--atlas-raised);border:1px solid var(--atlas-border-strong);border-radius:3px}
+.auto-option:disabled{cursor:default;opacity:.7}
+.auto-option.is-right{opacity:1;border-color:var(--hub-color);color:var(--atlas-bright)}
+.auto-option.is-wrong{opacity:1;text-decoration:line-through}
+.auto-explain{margin:4px 0 0;font-size:14px;line-height:1.55;color:var(--atlas-secondary)}
+.auto-check-end{display:flex;align-items:center;gap:14px;font-size:15px;color:var(--atlas-bright)}
+.auto-source{margin:0;font-size:11.5px;color:var(--atlas-muted)}
+.hub-section.auto-quiz{margin-top:clamp(36px,5vw,52px)}
+.auto-quiz{display:grid;gap:16px;justify-items:start;padding:24px clamp(18px,3vw,30px) 26px;border:1px solid var(--atlas-rule);border-radius:4px;background:color-mix(in srgb,var(--atlas-panel) 70%,transparent)}
+.auto-quiz .auto-check{justify-self:stretch}
+.auto-quiz-head{display:flex;align-items:baseline;gap:12px}
+.auto-quiz-head h2{margin:0;font:400 clamp(22px,2.2vw,26px)/1.2 var(--atlas-serif);color:var(--atlas-bright)}
+.auto-quiz-head span{font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--atlas-muted)}
+.auto-quiz-lead{margin:0;max-width:60ch;font-size:14.5px;line-height:1.55;color:var(--atlas-secondary)}

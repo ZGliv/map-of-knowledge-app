@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.development-physiology.immune-system.antibody",
+ "name": "Antibody",
+ "summary": [
+  {
+   "text": "An antibody, or immunoglobulin, is a large Y-shaped protein the immune system uses to identify and neutralize antigens such as those on bacteria and viruses.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "Each antibody tip has a binding site that fits one particular part of an antigen, so it can tag the target for attack by immune cells or neutralize it directly.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Plasma cells secrete huge quantities of antibody, and in humans antibodies come in five classes: IgA, IgD, IgE, IgG, and IgM.",
+   "cites": [
+    9,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Five classes",
+   "value": "IgA, IgD, IgE, IgG, and IgM",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Binding site",
+   "value": "A paratope, found on each tip of the Y",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Bound part of antigen",
+   "value": "A specific part called an epitope",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Plasma cell lifespan",
+   "value": "Long-lived ones can last an organism's whole life",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Memory B cells",
+   "value": "Can persist for decades",
+   "cites": [
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A virus has a part it needs in order to invade host cells. How can an antibody stop it without help from other immune cells?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By binding to that part so the virus cannot use it"
+    },
+    {
+     "id": "b",
+     "label": "By digesting the virus with enzymes it carries"
+    },
+    {
+     "id": "c",
+     "label": "By turning the virus into a harmless B cell"
+    },
+    {
+     "id": "d",
+     "label": "By making the host cell shed its outer layer"
+    }
+   ],
+   "answer": "a",
+   "explain": "Antibodies can neutralize an antigen directly, for example by blocking a part of a virus essential for invading a host cell.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system.antibody:q1"
+  },
+  {
+   "prompt": "An antibody can latch onto one precise part of an antigen and ignore thousands of others. What gives it this precision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The nearly unchanging base of its structure"
+    },
+    {
+     "id": "b",
+     "label": "Binding sites at the tips of its branches"
+    },
+    {
+     "id": "c",
+     "label": "The class it belongs to, such as IgG"
+    },
+    {
+     "id": "d",
+     "label": "Its ability to divide like a plasmablast"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each branch of the Y has a paratope that binds one particular epitope, and the tips vary widely while the rest is much less variable.",
+   "cites": [
+    3,
+    8,
+    9
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system.antibody:q2"
+  },
+  {
+   "prompt": "Months after an infection, a person still has antibodies to that germ in their blood, though the germ is gone. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Antibodies copy themselves once they are made"
+    },
+    {
+     "id": "b",
+     "label": "Short-lived plasmablasts persist for decades"
+    },
+    {
+     "id": "c",
+     "label": "Plasma cells keep secreting antibody without antigen"
+    },
+    {
+     "id": "d",
+     "label": "The antigen is stored in bone marrow as a reminder"
+    }
+   ],
+   "answer": "c",
+   "explain": "Plasma cells secrete huge quantities of antibody whether or not antigen is present, as long as they stay alive.",
+   "cites": [
+    24,
+    27,
+    29
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system.antibody:q3"
+  },
+  {
+   "prompt": "Mouse IgG1 acts more like human IgG2 than human IgG1. Why does this matter to researchers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It complicates using animal models to study antibodies"
+    },
+    {
+     "id": "b",
+     "label": "It shows mice have no antibodies of their own"
+    },
+    {
+     "id": "c",
+     "label": "It proves all antibody classes work the same way"
+    },
+    {
+     "id": "d",
+     "label": "It means mouse antibodies cannot bind antigens"
+    }
+   ],
+   "answer": "a",
+   "explain": "Classes may share names between species while differing in function and distribution, which complicates animal models.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system.antibody:q4"
+  },
+  {
+   "prompt": "After an infection, what two paths can a B cell take as it differentiates?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Neutrophil or eosinophil, both phagocytes"
+    },
+    {
+     "id": "b",
+     "label": "Antigen or epitope, both binding targets"
+    },
+    {
+     "id": "c",
+     "label": "Paratope or isotype, both antibody parts"
+    },
+    {
+     "id": "d",
+     "label": "Antibody-secreting cell or memory B cell"
+    }
+   ],
+   "answer": "d",
+   "explain": "B cells can progressively differentiate into antibody-secreting cells or into memory B cells.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system.antibody:q5"
+  },
+  {
+   "prompt": "Why are antibodies generally counted as part of the adaptive immune system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the first response seen in all animals"
+    },
+    {
+     "id": "b",
+     "label": "They are highly specific, rearranged, and reflect memory"
+    },
+    {
+     "id": "c",
+     "label": "They are encoded directly in the germline genes"
+    },
+    {
+     "id": "d",
+     "label": "They work only without the complement system"
+    }
+   ],
+   "answer": "b",
+   "explain": "They show exceptional specificity, are produced through genetic rearrangements rather than direct germline coding, and manifest immunological memory.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system.antibody:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Antibody.svg/960px-Antibody.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Antibody",
+  "credit": "Fvasconcellos 19:03, 6 May 2007 (UTC)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Antibody.svg"
+ },
+ "source": {
+  "title": "Antibody",
+  "url": "https://en.wikipedia.org/wiki/Antibody",
+  "revision": 1383335936
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A protein that finds targets",
+    "text": "An antibody, also called an immunoglobulin (Ig), is a large protein that the immune system uses to find and neutralize antigens, such as those on bacteria and viruses. The word antigen blends \"antibody generator\", and antigens of almost any size or chemical makeup can be recognized. Each antibody recognizes one or more specific antigens.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "How it grabs its target",
+    "text": "An antibody is shaped roughly like a Y. The tip of each arm carries a paratope, the binding site, which fits exactly one epitope, the particular part of an antigen it latches onto. Once bound, the antibody can tag the antigen, or a microbe or infected cell carrying it, for attack by immune cells. It can also neutralize the target directly, for example by blocking the part of a virus it needs to invade a host cell. So that the immune system can recognize millions of different antigens, paratopes come in an equally wide variety.",
+    "cites": [
+     3,
+     4,
+     8,
+     34
+    ]
+   },
+   {
+    "heading": "The parts of the Y",
+    "text": "Antibodies are heavy proteins of about 150 kDa and about 10 nm in size, made of three globular regions. In humans and most other mammals, one antibody unit has four polypeptide chains, joined by disulfide bonds: a matching pair of heavy chains and a matching pair of light chains. The two arms are the antigen-binding fragments (Fab), and the trunk of the Y is the crystallisable fragment (Fc). A flexible hinge between them lets antibodies grab pairs of epitopes at different distances and bind effector molecules more easily.",
+    "cites": [
+     34,
+     35,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Five classes",
+    "text": "Apart from the tips, the rest of an antibody varies much less. Human antibodies fall into five classes, also called isotypes, named IgA, IgD, IgE, IgG and IgM, and IgG and IgA are split further into subclasses. The class decides which functions the antibody sets off, called effector functions, and also where in the body and at what stage of a response it is released. Classes with the same name can behave differently in other species: mouse IgG1 works more like human IgG2 than human IgG1.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Where antibodies come from",
+    "text": "Antibodies are made by antibody-secreting cells, a term covering plasmablasts and plasma cells. During an immune response, B cells can develop into these cells or into memory B cells. Plasmablasts multiply fast and live briefly, and they appear early in a response. Plasma cells do not divide, yet they release huge amounts of antibody whether or not antigen is around, and long-lived ones can potentially survive for the organism's whole life, classically in niches in the bone marrow.",
+    "cites": [
+     21,
+     22,
+     24,
+     25,
+     27,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Part of adaptive immunity",
+    "text": "Antibodies are generally counted as part of the adaptive immune system. They are highly specific, they are produced through genetic rearrangements rather than being written directly in the germline, and they reflect immunological memory. Memory B cells can last for decades and be called up quickly in a second response. The picture is not perfectly tidy, though: natural IgM, made by B-1 cells, recognizes many unrelated antigens and works with the complement system early in a response, acting more like innate immunity.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "bio2e-7-10-4",
+   "kind": "book",
+   "title": "7.10.4: Antibodies",
+   "by": "OpenStax, Biology 2e (on LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_2e_(OpenStax)/07%3A_Unit_VII-_Animal_Structure_and_Function/7.10%3A_The_Immune_System/7.10.04%3A_Antibodies",
+   "note": "A free textbook section on antibody structure, the five classes and how antibodies neutralize and tag pathogens.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "ap2e-21-5",
+   "kind": "book",
+   "title": "21.5: The Adaptive Immune Response - B Lymphocytes and Antibodies",
+   "by": "OpenStax, Anatomy and Physiology 2e (on LibreTexts)",
+   "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_2e_(OpenStax)/04%3A_Fluids_and_Transport/21%3A_The_Lymphatic_and_Immune_System/21.05%3A_The_Adaptive_Immune_Response_-_B_Lymphocytes_and_Antibodies",
+   "note": "A free textbook section on B cells, plasma cells, memory B cells and the antibody classes.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cc-ap-46",
+   "kind": "video",
+   "title": "Immune System, Part 2: Crash Course Anatomy & Physiology #46",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=2DFN4IBZ3rI",
+   "note": "A video on the humoral immune response: B cells, the antibodies they make, and how vaccines use them."
+  }
+ ]
+}

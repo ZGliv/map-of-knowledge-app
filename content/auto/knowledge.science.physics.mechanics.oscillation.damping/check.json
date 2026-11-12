@@ -1,0 +1,67 @@
+{
+ "draftHash": "159f7f294ede36b04a387510ece1b64d2879d3d0",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "a",
+  "q2": "d",
+  "q3": "b",
+  "q4": "c",
+  "q5": "a",
+  "q6": "b"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "S1 energy loss, S2 reduces or prevents oscillation"
+  },
+  "s1": {
+   "supported": true,
+   "why": "S3 sources listed; S15 amount of damping sets behavior"
+  },
+  "s2": {
+   "supported": true,
+   "why": "S12 ratio ranges, S18-24 overshoot, critical, overdamped creep"
+  },
+  "f0": {
+   "supported": true,
+   "why": "S11 dimensionless, S12 zeta"
+  },
+  "f1": {
+   "supported": true,
+   "why": "S25 minimum time"
+  },
+  "f2": {
+   "supported": true,
+   "why": "S16-17 lossless oscillates indefinitely equal height"
+  },
+  "f3": {
+   "supported": true,
+   "why": "S39 high Q slow damping"
+  },
+  "q1": {
+   "supported": true,
+   "why": "S18-19 viscous fluid no overshoot is overdamped"
+  },
+  "q2": {
+   "supported": true,
+   "why": "S20-22 underdamped overshoots, energy dissipated"
+  },
+  "q3": {
+   "supported": true,
+   "why": "S23 just fails to overshoot, S25 minimum time"
+  },
+  "q4": {
+   "supported": true,
+   "why": "S5-6 friction not same as damping but can cause it"
+  },
+  "q5": {
+   "supported": true,
+   "why": "S12 0<zeta<1 underdamped; S20-22 overshoot and oscillate"
+  },
+  "q6": {
+   "supported": true,
+   "why": "S39 high Q slow damping"
+  }
+ },
+ "notation": "tidy-1"
+}

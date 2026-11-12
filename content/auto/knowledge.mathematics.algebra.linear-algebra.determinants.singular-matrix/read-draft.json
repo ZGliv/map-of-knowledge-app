@@ -1,0 +1,72 @@
+{
+ "paragraphs": [
+  {
+   "heading": "A matrix with no inverse",
+   "text": "A singular matrix is a square matrix that has no inverse. A non-singular matrix is the opposite case, one that does have an inverse, so non-singular and invertible mean the same thing. There is also a numerical test: an n-by-n matrix A fails to be invertible precisely when its determinant, det (A), equals 0.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "heading": "What goes wrong inside",
+   "text": "Underneath, singularity means the columns of A, and its rows too, are linearly dependent. The linear map x ↦ Ax is then not one-to-one. The kernel of A, also called its null space, is non-trivial, with dimension at least 1, and the equation Ax = 0 has solutions other than zero. In terms of rank, det (A) = 0 exactly when rank (A) is less than n, and det (A) ≠ 0 exactly when rank (A) = n.",
+   "cites": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "heading": "Solving equations",
+   "text": "Invertibility matters when solving systems. If A is invertible, a system like Ax = B can be solved uniquely as x = A⁻¹B, and Gaussian elimination is sure to give one unique answer. With an invertible matrix the pivots are nonzero, with row swaps used when needed. With a singular matrix some pivots can be zero in a way no row swap can fix, so elimination breaks down or gives an inconsistent result. Back substitution also fails, since it needs nonzero diagonal entries, and the system often ends up with infinitely many solutions.",
+   "cites": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "heading": "Robots, regression and projections",
+   "text": "Singular matrices turn up in practical work. In robotics, the Jacobian that maps joint velocities to the velocity of a manipulator's end-effector loses rank in certain configurations, and there the robot cannot move or apply forces in some directions. In statistics and machine learning, linearly dependent features make matrices such as X^TX singular, which happens in linear regression when predictors are collinear. The usual remedies are to drop or combine features, or to use the pseudoinverse. A projection from 3D to 2D is singular too, since it collapses a dimension, so it cannot be inverted.",
+   "cites": [
+    13,
+    14,
+    15,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24
+   ]
+  },
+  {
+   "heading": "Built-in singularity",
+   "text": "Some matrices are singular by design. The Laplacian matrix of a graph always is: each of its rows sums to zero, it has a zero eigenvalue, and the uniform vector lies in its nullspace. Principal Component Analysis uses singular value decomposition to make low-rank approximations of data, in effect treating the covariance as singular by discarding small singular values.",
+   "cites": [
+    16,
+    17,
+    22
+   ]
+  },
+  {
+   "heading": "A long history",
+   "text": "Determinants were first developed as tools for solving systems of equations, by Seki in Japan in 1683 and by Leibniz and Cramer in Europe in the 1690s. Leibniz recognized that a system is solvable exactly when a certain determinant expression comes out to zero, so a zero determinant was understood as the key condition for solvability. Over the 18th and 19th centuries, Laplace, Cauchy and others established that det (A) = 0 characterizes non-invertibility. In the 20th century the Moore–Penrose pseudoinverse, proposed by E. Moore in 1920 and rediscovered by R. Penrose in 1955, gave a systematic way to handle singular and non-square cases.",
+   "cites": [
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35
+   ]
+  }
+ ]
+}

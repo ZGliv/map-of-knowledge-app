@@ -1,0 +1,109 @@
+{
+ "title": "Grids that act on space",
+ "question": "What can a rectangular grid of numbers do?",
+ "hook": "Arrange numbers in rows and columns and you get a tool for rotating shapes and testing invertibility.",
+ "idea": "A matrix is a grid of entries in rows and columns, and its size and multiplication rules decide what you can do with it.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A is m × n and B is n × k, with m different from k. Which products can you compute?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Both AB and BA",
+     "feedback": "BA would need the sizes to line up the other way round, which needs m = k."
+    },
+    {
+     "id": "b",
+     "label": "AB, but not BA"
+    },
+    {
+     "id": "c",
+     "label": "Neither one",
+     "feedback": "The sizes line up for AB."
+    }
+   ],
+   "answer": "b",
+   "explain": "The product AB may be defined without BA being defined, namely if m ≠ k.",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each name to its description",
+   "pairs": [
+    [
+     "m × n matrix",
+     "m rows and n columns"
+    ],
+    [
+     "Row vector",
+     "A matrix with a single row"
+    ],
+    [
+     "Column vector",
+     "A matrix with a single column"
+    ],
+    [
+     "Square matrix",
+     "The same number of rows and columns"
+    ]
+   ],
+   "explain": "Each name describes the shape of the grid.",
+   "cites": [
+    16,
+    18,
+    19
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each rule by whether it holds for matrices",
+   "groups": [
+    "holds in general",
+    "fails in general"
+   ],
+   "items": [
+    [
+     "A + B = B + A",
+     "holds in general"
+    ],
+    [
+     "(AB)C = A(BC)",
+     "holds in general"
+    ],
+    [
+     "(A + B)C = AC + BC",
+     "holds in general"
+    ],
+    [
+     "AB = BA",
+     "fails in general"
+    ]
+   ],
+   "explain": "Addition is commutative, and multiplication is associative and distributive, but the order of multiplication generally matters.",
+   "cites": [
+    40,
+    42,
+    44
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Matrix A is m × n and matrix B is n × k, with m ≠ k.",
+    "The product AB may be defined.",
+    "Since AB is defined, BA must be defined as well.",
+    "Even when both are defined, AB and BA generally need not be equal."
+   ],
+   "wrong": 2,
+   "explain": "With m ≠ k, the product AB can be defined without BA being defined.",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "readHash": "e1c2bc817b65a0fb51f1fece9074f269cf920ac1",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Response/predictors via linear combination [1], parameters from data [3], conditional not joint distribution [5]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Assumptions for unbiased finite-sample estimators [19], relaxed or eliminated [20], need more data or assumptions [21]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Held-fixed interpretation [22],[23], unique effect [24], marginal effect via correlation or simple regression [25]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Unique near zero with large marginal and why [27],[28]; converse and strengthening [29]-[31]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Held fixed depends on data origin [32], experiment [33], subsets only option in observational study [34]-[36], argued failure with correlated predictors [39]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Many procedures [40], differences listed [41], ML with parametric family [43], equals OLS for normal zero-mean errors [44]."
+  }
+ }
+}

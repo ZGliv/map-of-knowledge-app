@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Two events are independent if the occurrence of one does not affect the probability of the other.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Dependence is the opposite case, where the occurrence of one event does affect the likelihood of another.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "For more than two events, mutual independence implies pairwise independence, but pairwise independence does not imply mutual independence.",
+   "cites": [
+    6,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Default meaning",
+   "value": "Unqualified, independence usually means mutual independence",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Dice rolls",
+   "value": "A 6 on the first roll and a 6 on the second are independent",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Card draws",
+   "value": "Red draws are independent with replacement, dependent without it",
+   "cites": [
+    41,
+    42
+   ]
+  },
+  {
+   "label": "Zero covariance",
+   "value": "Two variables with covariance 0 may still be dependent",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Self-independence",
+   "value": "A random variable is independent of itself only if almost surely constant",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You draw two cards from a deck and want the red-card draws to be independent. What must you do after the first draw?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Return the card before drawing again"
+    },
+    {
+     "id": "b",
+     "label": "Keep the card out of the deck"
+    },
+    {
+     "id": "c",
+     "label": "Shuffle only the remaining cards"
+    },
+    {
+     "id": "d",
+     "label": "Draw the second card faster"
+    }
+   ],
+   "answer": "a",
+   "explain": "With replacement the draws are independent; without it the deck has proportionately fewer red cards, so they are not.",
+   "cites": [
+    41,
+    42
+   ]
+  },
+  {
+   "prompt": "Three events are independent of each other when taken two at a time. A student concludes they must be mutually independent. What is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pairwise independence is stronger than mutual independence"
+    },
+    {
+     "id": "b",
+     "label": "Independence only ever applies to two events"
+    },
+    {
+     "id": "c",
+     "label": "Pairwise independence does not guarantee mutual independence"
+    },
+    {
+     "id": "d",
+     "label": "Mutual independence needs fewer conditions"
+    }
+   ],
+   "answer": "c",
+   "explain": "Mutual independence implies pairwise independence, but not the other way around.",
+   "cites": [
+    8,
+    17
+   ]
+  },
+  {
+   "prompt": "Two random variables have a covariance of 0. A friend says that proves they are independent. What is the verdict?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Correct, because zero covariance defines independence"
+    },
+    {
+     "id": "b",
+     "label": "Correct, but only for real numbers"
+    },
+    {
+     "id": "c",
+     "label": "Wrong, since covariance cannot be 0"
+    },
+    {
+     "id": "d",
+     "label": "They still may not be independent"
+    }
+   ],
+   "answer": "d",
+   "explain": "The converse does not hold, since two random variables with covariance 0 may still be not independent.",
+   "cites": [
+    35,
+    36
+   ]
+  },
+  {
+   "prompt": "Learning that event A happened changes how likely event B is. What does this say about A and B?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are independent"
+    },
+    {
+     "id": "b",
+     "label": "They are dependent"
+    },
+    {
+     "id": "c",
+     "label": "They are mutually exclusive"
+    },
+    {
+     "id": "d",
+     "label": "They are conditionally independent"
+    }
+   ],
+   "answer": "b",
+   "explain": "Dependence is when the occurrence of one event does affect the likelihood of another.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "prompt": "A statistics textbook says “the events are independent” with no further wording. For a collection of events, which meaning is usually intended?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mutual independence"
+    },
+    {
+     "id": "b",
+     "label": "Pairwise independence only"
+    },
+    {
+     "id": "c",
+     "label": "Independence of just two events"
+    },
+    {
+     "id": "d",
+     "label": "Conditional independence"
+    }
+   ],
+   "answer": "a",
+   "explain": "Independence without further qualification usually refers to mutual independence.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Saying “B’s probability is unchanged given A” sounds natural. Why is it not the preferred definition of independence?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It only works for random variables, not for events"
+    },
+    {
+     "id": "b",
+     "label": "It cannot show that A and B are truly linked"
+    },
+    {
+     "id": "c",
+     "label": "The conditional forms can be undefined for a zero-probability event"
+    },
+    {
+     "id": "d",
+     "label": "It needs three or more events before it can apply"
+    }
+   ],
+   "answer": "c",
+   "explain": "Conditional probabilities may be undefined if P(A) or P(B) are 0, and the preferred definition is symmetric.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ]
+}

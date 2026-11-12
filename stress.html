@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Map of Knowledge · spatial developer fixture</title>
+    <style>
+      :root{font-family:system-ui,sans-serif;color:#dce5dd;background:#111a17;color-scheme:dark}body{margin:0 auto;max-width:1100px;padding:28px}h1{font-weight:500}p{max-width:760px;line-height:1.6;color:#b0bdb5}button{padding:12px 18px;border:1px solid #53655a;background:#23342b;color:#ecf1e9;border-radius:8px;font:inherit;cursor:pointer;margin:0 8px 10px 0}button:focus-visible{outline:3px solid #e3bd71}svg{display:block;width:min(100%,390px);height:auto;border:1px solid #657969;max-height:70vh}pre{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5;border-top:1px solid #425246;padding-top:18px}#scene{display:flex;gap:24px;flex-wrap:wrap}#output{flex:1;min-width:240px}a{color:#e3bd71}
+    </style>
+  </head>
+  <body>
+    <h1>Spatial developer fixture</h1>
+    <p>This is a synthetic depth-50 tree, separate from the finite learner atlas. Its labels are test identifiers, not knowledge. It uses the same layout, navigation, and completion-projection modules. No learning evidence is saved.</p>
+    <nav aria-label="Fixture controls"><button id="run">Run depth-50 check</button><button data-depth="0">World</button><button data-depth="25">Depth 25</button><button data-depth="49">Parent of marked cell</button></nav>
+    <div id="scene"><svg id="map" viewBox="0 0 390 844" role="img" aria-label="Synthetic spatial test map"></svg><pre id="output" aria-live="polite">Ready.</pre></div>
+    <p>Timings measure synchronous geometry work in this browser. They do not measure animation frame delivery, physical-phone performance, or total heap usage. The synthetic node store grows when new routes are created; this fixture owns one route and recreates it on each run.</p>
+    <a href="/">Return to the learner atlas</a>
+    <script type="module" src="/src/dev/stress.ts"></script>
+  </body>
+</html>

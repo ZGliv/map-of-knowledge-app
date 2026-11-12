@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer",
+ "name": "Diastereomer",
+ "summary": [
+  {
+   "text": "Diastereomers are stereoisomers that are neither mirror images of each other nor identical.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "They differ in configuration at one or more, but not all, of the related stereocenters, whereas enantiomers differ at every stereocenter.",
+   "cites": [
+    3,
+    6
+   ]
+  },
+  {
+   "text": "Diastereomers have different physical properties and often different chemical reactivity, as glucose and galactose show.",
+   "cites": [
+    8,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "One-center difference",
+   "value": "Diastereomers that differ at only one stereocenter are epimers",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Example pair",
+   "value": "Glucose and galactose",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Three stereocenters",
+   "value": "Eight stereoisomers, from 2ⁿ for n chiral centers",
+   "cites": [
+    36,
+    40
+   ]
+  },
+  {
+   "label": "Double bond isomers",
+   "value": "Always diastereomers, never enantiomers",
+   "cites": [
+    45
+   ]
+  },
+  {
+   "label": "Threonine's partner",
+   "value": "Its diastereomer allothreonine is very rare in nature",
+   "cites": [
+    31,
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A chemist compares two stereoisomers of one compound and finds they are not mirror images and not the same molecule. What is their relationship?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Enantiomers"
+    },
+    {
+     "id": "b",
+     "label": "Constitutional isomers"
+    },
+    {
+     "id": "c",
+     "label": "Identical molecules"
+    },
+    {
+     "id": "d",
+     "label": "Diastereomers"
+    }
+   ],
+   "answer": "d",
+   "explain": "Non-mirror-image, non-identical stereoisomers are diastereomers.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer:q1"
+  },
+  {
+   "prompt": "A molecule has three stereocenters and no meso form. How many stereoisomers should a chemist expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Eight"
+    },
+    {
+     "id": "b",
+     "label": "Six"
+    },
+    {
+     "id": "c",
+     "label": "Three"
+    },
+    {
+     "id": "d",
+     "label": "Sixteen"
+    }
+   ],
+   "answer": "a",
+   "explain": "The number of stereoisomers is 2ⁿ, so three stereocenters give eight.",
+   "cites": [
+    36,
+    40
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer:q2"
+  },
+  {
+   "prompt": "Glucose and galactose weigh the same per mole, yet the body absorbs galactose slightly faster. What explains the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are enantiomers with identical properties"
+    },
+    {
+     "id": "b",
+     "label": "They are different elements"
+    },
+    {
+     "id": "c",
+     "label": "They are diastereomers that differ in stability"
+    },
+    {
+     "id": "d",
+     "label": "They are the same molecule in disguise"
+    }
+   ],
+   "answer": "c",
+   "explain": "They are diastereomers; glucose is more stable than galactose, and that difference makes galactose absorbed slightly faster.",
+   "cites": [
+    10,
+    11,
+    12
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer:q3"
+  },
+  {
+   "prompt": "A compound has several stereocenters. Each of its forms is a diastereomer of every other form except one. Which is the exception?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its own enantiomer, the mirror image"
+    },
+    {
+     "id": "b",
+     "label": "Any form with the same formula"
+    },
+    {
+     "id": "c",
+     "label": "The form with the most stereocenters"
+    },
+    {
+     "id": "d",
+     "label": "Its nearest neighbour on the page"
+    }
+   ],
+   "answer": "a",
+   "explain": "A form is a diastereomer of every other configuration excluding its own enantiomer.",
+   "cites": [
+    7,
+    42
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer:q4"
+  },
+  {
+   "prompt": "Two isomers of a molecule differ only in how groups sit around a double bond. What do they count as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Enantiomers, because they are mirror images"
+    },
+    {
+     "id": "b",
+     "label": "The same molecule"
+    },
+    {
+     "id": "c",
+     "label": "Diastereomers, never enantiomers"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since double bonds have no isomers"
+    }
+   ],
+   "answer": "c",
+   "explain": "Double bond isomers are always considered diastereomers, not enantiomers.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer:q5"
+  },
+  {
+   "prompt": "Two diastereomers differ from each other at just one stereocenter. What name applies?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Racemates"
+    },
+    {
+     "id": "b",
+     "label": "Antipodes"
+    },
+    {
+     "id": "c",
+     "label": "Isotopes"
+    },
+    {
+     "id": "d",
+     "label": "Epimers"
+    }
+   ],
+   "answer": "d",
+   "explain": "Diastereoisomers that differ at only one stereocenter are epimers.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.stereochemistry.diastereomer:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/D-threose.svg/960px-D-threose.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Diastereomer",
+  "credit": "Ed (Edgar181)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:D-threose.svg"
+ },
+ "source": {
+  "title": "Diastereomer",
+  "url": "https://en.wikipedia.org/wiki/Diastereomer",
+  "revision": 1350223851
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a diastereomer is",
+    "text": "Diastereomers, sometimes called diastereoisomers, are one kind of stereoisomer. They are forms of a compound that are neither identical nor mirror images of each other. They arise when two or more stereoisomers of a compound are configured differently at some of their matching stereocenters, but not at all of them. When two diastereomers differ at just one stereocenter, they get a special name: epimers.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "How they differ from enantiomers",
+    "text": "Enantiomers are the contrasting case. They differ at every stereocenter, so each is the mirror image of the other. In a compound with more than one stereocenter, an enantiomer is also a diastereomer of every other stereoisomer except its own mirror partner. Isomers that differ around a double bond always count as diastereomers, never as enantiomers.",
+    "cites": [
+     6,
+     7,
+     45
+    ]
+   },
+   {
+    "heading": "Different properties",
+    "text": "Unlike most aspects of enantiomers, diastereomers have different physical properties. They often react differently with other compounds too. Glucose and galactose are a familiar pair of diastereomers. They have the same molar weight, yet glucose is the more stable of the two, and that difference leads the human body to absorb galactose slightly faster.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Counting the possibilities",
+    "text": "Each stereocenter can take two configurations, so it usually doubles the number of stereoisomers. In general the count is 2ⁿ, where n is the number of chiral centers. With three centers there are eight stereoisomers, making four pairs of enantiomers such as R,R,R with S,S,S, and every other pairing among them is a pair of diastereomers. Four centers give sixteen stereoisomers, or eight enantiomer pairs. The rule fails for meso compounds, which have stereocenters but also an internal plane of symmetry that lets them sit exactly on their own mirror image.",
+    "cites": [
+     5,
+     36,
+     37,
+     38,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Naming them",
+    "text": "When the single bond between two centers can rotate freely, cis and trans labels no longer apply. For open chains, two widely accepted prefixes are syn, for groups on the same face, and anti, for groups on opposite faces. These labels describe relative stereochemistry, not absolute stereochemistry. Two older prefixes, threo and erythro, take their names from the four-carbon aldoses threose and erythrose. Chemists advise against using them generally, since deciding how they apply to a particular compound is often difficult.",
+    "cites": [
+     15,
+     16,
+     19,
+     21,
+     22,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Sugar alcohols and amino acids",
+    "text": "Threitol and erythritol are both four-carbon sugar alcohols. Erythritol is achiral, having at least one shape with a plane or center of symmetry, while threitol is chiral. A handy memory aid: threitol and chiral both start with consonants, while erythritol and achiral both start with vowels. Among amino acids, threonine is a threo compound coded by DNA, while its erythro partner, allothreonine, is very rare in nature and is not one DNA codes for.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-5-6",
+   "kind": "book",
+   "title": "5.6 Diastereomers",
+   "by": "OpenStax (McMurry, Organic Chemistry)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/5-6-diastereomers",
+   "note": "A free textbook section defining diastereomers and epimers, worked through with the four stereoisomers of threonine.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

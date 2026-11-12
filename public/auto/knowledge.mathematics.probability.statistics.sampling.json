@@ -1,0 +1,531 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.sampling",
+ "name": "Sampling",
+ "summary": [
+  {
+   "text": "Sampling means studying a subset of a population in order to estimate facts about the whole group.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A statistic from the sample usually differs from the matching value for the whole population, and that gap is called the sampling error.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "A larger sample generally shrinks the likely error, but making a sample bigger can cost too much.",
+   "cites": [
+    13,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sampling error",
+   "value": "The gap between a sample statistic and the true population value",
+   "cites": [
+    3,
+    7
+   ]
+  },
+  {
+   "label": "Usually unmeasurable",
+   "value": "Its exact size is rarely known, but it can often be estimated",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Bigger samples",
+   "value": "A larger sample generally reduces the likely size of the error",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Even fair samples err",
+   "value": "A perfectly unbiased sample still has some error from chance",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A researcher measures the heights of 1,000 people picked from a country of one million. Their average is a bit off from the whole country's average. What does that gap show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ordinary error from looking at only part of the population"
+    },
+    {
+     "id": "b",
+     "label": "Proof that the researcher measured people carelessly"
+    },
+    {
+     "id": "c",
+     "label": "A sign that the country has no true average height"
+    },
+    {
+     "id": "d",
+     "label": "Evidence that the group measured was far too large"
+    }
+   ],
+   "answer": "a",
+   "explain": "A sample does not include everyone, so its average typically differs from the whole population's average.",
+   "cites": [
+    2,
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling:q1"
+  },
+  {
+   "prompt": "You ask three fairly chosen people how long they sleep, then repeat with three new fairly chosen people on another day. The two averages differ wildly. What is the best explanation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fair choosing was impossible, so bias crept in"
+    },
+    {
+     "id": "b",
+     "label": "Tiny samples swing a lot by chance, even when fair"
+    },
+    {
+     "id": "c",
+     "label": "People change how long they sleep when asked"
+    },
+    {
+     "id": "d",
+     "label": "Averages of small groups cannot be calculated"
+    }
+   ],
+   "answer": "b",
+   "explain": "Even a perfectly unbiased sample has error, and averaging only two or three individuals gives a wildly varying result each time.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling:q2"
+  },
+  {
+   "prompt": "A survey team could afford to ask more people, but every extra person costs money. What do sample size methods help them do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guarantee the error falls to exactly zero"
+    },
+    {
+     "id": "b",
+     "label": "Pick the people who will answer most truthfully"
+    },
+    {
+     "id": "c",
+     "label": "Balance the expected accuracy against the expected cost"
+    },
+    {
+     "id": "d",
+     "label": "Avoid needing any random selection at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "The error can often be estimated in advance as a function of sample size, so methods weigh predicted accuracy against the predicted cost of a larger sample.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling:q3"
+  },
+  {
+   "prompt": "To learn the average height of everyone on Earth, someone measures only people in a single country. What is the main risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Too many measurements to record accurately"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, since any average matches the whole"
+    },
+    {
+     "id": "c",
+     "label": "Random noise that fades as that country's sample grows"
+    },
+    {
+     "id": "d",
+     "label": "A systematic over- or under-estimate for the whole world"
+    }
+   ],
+   "answer": "d",
+   "explain": "Not picking individuals fairly causes a bias that can raise the error in a systematic way, so the result could be far too high or too low.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling:q4"
+  },
+  {
+   "prompt": "A statistician never learns the true population value. What is true of the sampling error in her estimate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is exactly zero whenever the sample is random"
+    },
+    {
+     "id": "b",
+     "label": "It can be measured exactly by repeating the sample"
+    },
+    {
+     "id": "c",
+     "label": "It usually can't be measured exactly, but can be estimated"
+    },
+    {
+     "id": "d",
+     "label": "It is identical to the population value itself"
+    }
+   ],
+   "answer": "c",
+   "explain": "Sampling error compares a statistic to an unknown value, so exact measurement is usually impossible, though methods like bootstrapping can estimate it.",
+   "cites": [
+    5,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling:q5"
+  },
+  {
+   "prompt": "A researcher draws many samples from one population and records each sample's average. How can those averages help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their spread can be used to estimate the standard error"
+    },
+    {
+     "id": "b",
+     "label": "Their total reveals the size of the population"
+    },
+    {
+     "id": "c",
+     "label": "Their agreement proves the sample was biased"
+    },
+    {
+     "id": "d",
+     "label": "Their number makes the sampling error vanish"
+    }
+   ],
+   "answer": "a",
+   "explain": "Comparing many samples shows how much a sample statistic varies, and that spread can be used to estimate the standard error.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling:q6"
+  }
+ ],
+ "source": {
+  "title": "Sampling error",
+  "url": "https://en.wikipedia.org/wiki/Sampling_error",
+  "revision": 1362360854
+ },
+ "pack": {
+  "id": "auto-statistics-sampling",
+  "title": "Why Samples Miss the Truth",
+  "question": "Why does a sample's average almost never equal the whole group's?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Statistics",
+   "Sampling"
+  ],
+  "hue": 42,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Survey-survey.svg/960px-Survey-survey.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Sampling bias",
+    "credit": "SilviaASH · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Survey-survey.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Samples Miss the Truth",
+    "hook": "Measure a thousand people from a million and your answer will probably still be a little off."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-statistics-sampling:1",
+    "transfer": false,
+    "prompt": "You average the heights of 1,000 people chosen fairly from a population of one million. Will it match the average of all one million exactly?",
+    "explain": "The sample leaves out most people, so its average typically differs from the population's. That difference is the sampling error.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "No, a fair pick is always wildly off",
+        "feedback": "Fair samples are usually close; the gap is real but is not always huge."
+       },
+       {
+        "id": "b",
+        "label": "Typically not; it will differ by some amount"
+       },
+       {
+        "id": "a",
+        "label": "Yes, a fair pick always matches the whole group",
+        "feedback": "Fairness removes bias, but a thousand people are still only part of the population."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-statistics-sampling:2",
+    "transfer": false,
+    "prompt": "match each to its partner",
+    "left": [
+     {
+      "id": "l0",
+      "label": "A statistic from a sample"
+     },
+     {
+      "id": "l1",
+      "label": "A statistic of the whole population"
+     },
+     {
+      "id": "l2",
+      "label": "The difference between the two"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Called the sampling error"
+     },
+     {
+      "id": "r1",
+      "label": "Known as a parameter"
+     },
+     {
+      "id": "r0",
+      "label": "Often known as an estimator"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "A sample's statistic is used to estimate the population's parameter, and the gap between them is the sampling error."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-statistics-sampling:3",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "I fairly pick three people twice and average their sleep each time."
+     },
+     {
+      "id": "b",
+      "text": "The two averages come out very different from each other."
+     },
+     {
+      "id": "c",
+      "text": "So the way I picked people must have been biased."
+     },
+     {
+      "id": "d",
+      "text": "So I should trust averages from tiny samples less."
+     }
+    ],
+    "answer": "c",
+    "explain": "Even a perfect, unbiased sample has error from chance, and averaging two or three people gives wildly varying results each time."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-statistics-sampling:4",
+    "transfer": true,
+    "prompt": "A team doubles its sample from 1,000 people to 2,000. What generally happens to the likely sampling error, and what is the catch?",
+    "explain": "A larger sample generally reduces the likely size of the error, but the cost of increasing it may be prohibitive.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "It generally shrinks, but the larger sample costs more"
+       },
+       {
+        "id": "b",
+        "label": "It drops to exactly zero at no extra cost",
+        "feedback": "Error shrinks but does not vanish, and surveying more people costs more."
+       },
+       {
+        "id": "c",
+        "label": "It grows, because more people means more mistakes",
+        "feedback": "A larger sample generally lowers the likely error."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "A sample is only part of the population, so its statistics differ from the true values, and a larger sample generally shrinks that gap.",
+    "connections": [
+     {
+      "title": "Sampling bias",
+      "place": "Sampling",
+      "node": "knowledge.mathematics.probability.statistics.sampling.sampling-bias"
+     },
+     {
+      "title": "Simple random sample",
+      "place": "Sampling",
+      "node": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample"
+     },
+     {
+      "title": "Stratified sampling",
+      "place": "Sampling",
+      "node": "knowledge.mathematics.probability.statistics.sampling.stratified-sampling"
+     },
+     {
+      "title": "Margin of error",
+      "place": "Sampling",
+      "node": "knowledge.mathematics.probability.statistics.sampling.margin-of-error"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The sample leaves out most people, so its average typically differs from the population's. That difference is the sampling error.",
+    "source": "Wikipedia sentences 3, 4"
+   },
+   {
+    "claim": "A sample's statistic is used to estimate the population's parameter, and the gap between them is the sampling error.",
+    "source": "Wikipedia sentences 2, 3"
+   },
+   {
+    "claim": "Even a perfect, unbiased sample has error from chance, and averaging two or three people gives wildly varying results each time.",
+    "source": "Wikipedia sentences 12"
+   },
+   {
+    "claim": "A larger sample generally reduces the likely size of the error, but the cost of increasing it may be prohibitive.",
+    "source": "Wikipedia sentences 13, 14"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Learning about the whole from a part",
+    "text": "Statisticians often want to know something about a whole population, such as the average height of everyone in a country. Instead of measuring everyone, they can measure a sample, a subset drawn from that population. Numbers worked out from the sample, such as its mean, are called estimators. The true values for the whole population are called parameters.",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "heading": "The gap called sampling error",
+    "text": "Because a sample leaves out some members of the population, its numbers generally do not match the population's exactly. The difference between a sample statistic and the true population value is called the sampling error. Measure the heights of a thousand people out of a million, and their average will usually not equal the average of all million. The true value is usually unknown, so the error cannot be measured exactly, but it can often be estimated.",
+    "cites": [
+     2,
+     3,
+     4,
+     5,
+     7
+    ]
+   },
+   {
+    "heading": "Bias makes things worse",
+    "text": "A truly random sample gives every member of the population the same chance of being picked. Getting this wrong causes sampling bias, which can push the error a long way in one direction. Imagine trying to find the average height of all humans by measuring people in just one country; the answer could be far too high or far too low. In practice, many factors such as age, gender or country can skew a sample, and none of them should be allowed to shape who gets chosen.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Chance never fully goes away",
+    "text": "Even a perfectly unbiased sample still carries some error from chance alone. If you averaged the heights of just two or three people, the result would swing wildly from one try to the next. A larger sample generally makes the likely error smaller. But bigger samples cost more, and that cost can be too high, so methods for choosing a sample size weigh the expected accuracy against the expected cost.",
+    "cites": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Measuring the spread",
+    "text": "A statistic such as an average or a percentage will vary from one sample to another. By comparing many samples, or by splitting one large sample into smaller pieces, you can see how much the results spread out. That spread is used to estimate the standard error. Another general way to estimate sampling error is a technique called bootstrapping.",
+    "cites": [
+     5,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "A different use in genetics",
+    "text": "In genetics, the phrase sampling error has been used in a related but quite different sense. When a disaster or a migration shrinks a population sharply, as in the bottleneck or founder effect, the survivors may not fairly represent the original group. Some gene variants then become more or less common. This is a source of genetic drift, even though it is not an error in the statistical sense.",
+    "cites": [
+     18,
+     19
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "os-1-2",
+   "kind": "book",
+   "title": "1.2 Data, Sampling, and Variation in Data and Sampling",
+   "by": "OpenStax (Introductory Statistics 2e)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+   "note": "A free textbook section on random sampling methods, sampling bias, sampling error and why sample size matters."
+  },
+  {
+   "id": "diez-5-1",
+   "kind": "book",
+   "title": "5.1: Point Estimates and Sampling Variability",
+   "by": "David Diez, Christopher Barr and Mine Çetinkaya-Rundel (OpenIntro)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introduction_to_Statistics_4e_(Diez_et_al.)/05%3A_Foundations_for_Inference/5.01%3A_Point_Estimates_and_Sampling_Variability",
+   "note": "Uses simulations to show sampling error, bias and how a bigger sample gives a more precise estimate.",
+   "license": "CC BY-SA 3.0"
+  },
+  {
+   "id": "cc-stats-10",
+   "kind": "video",
+   "title": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Rf-fIpB4D50",
+   "note": "A Crash Course video on how surveys pick samples, the main sampling methods, and the biases that creep in."
+  },
+  {
+   "id": "ds-2-2",
+   "kind": "book",
+   "title": "2.2 Survey Design and Implementation",
+   "by": "Shaun V. Ault, Soohyun Nam Liao, Larry Musolino (OpenStax)",
+   "url": "https://openstax.org/books/principles-data-science/pages/2-2-survey-design-and-implementation",
+   "note": "A free textbook section on sampling methods, sampling error and sampling bias, with a worked case study.",
+   "license": "Creative Commons Attribution-NonCommercial-ShareAlike License"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "title": "One count names every atom",
+ "question": "What decides which element an atom is?",
+ "hook": "Inside every atom sits one number that fixes its identity.",
+ "idea": "An element is a kind of atom fixed by its number of protons, while neutrons only make isotopes.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "An oxygen atom has 8 protons. A nuclear reaction changes that number. What is the atom afterwards?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "An atom of a different element"
+    },
+    {
+     "id": "b",
+     "label": "Still oxygen, but a new isotope",
+     "feedback": "Isotopes differ in neutrons, but here the proton count changed."
+    },
+    {
+     "id": "c",
+     "label": "Still oxygen, since a name never changes",
+     "feedback": "The proton count defines the element, so changing it changes the element."
+    }
+   ],
+   "answer": "a",
+   "explain": "Nuclear reactions change an atom's atomic number, and the atomic number is what defines the element.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each term to its partner",
+   "pairs": [
+    [
+     "Atomic number",
+     "Number of protons"
+    ],
+    [
+     "Isotopes",
+     "Same element, different neutron counts"
+    ],
+    [
+     "Synthetic elements",
+     "Produced in nuclear reactions"
+    ],
+    [
+     "Periodic table",
+     "Rows by increasing atomic number"
+    ]
+   ],
+   "explain": "Each term is tied to the proton count or to what changes around it.",
+   "cites": [
+    2,
+    4,
+    12,
+    18
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each element into its group",
+   "groups": [
+    "Occurs naturally",
+    "Made only artificially"
+   ],
+   "items": [
+    [
+     "Technetium (43)",
+     "Occurs naturally"
+    ],
+    [
+     "Francium (87)",
+     "Occurs naturally"
+    ],
+    [
+     "Plutonium (94)",
+     "Occurs naturally"
+    ],
+    [
+     "Tennessine (117)",
+     "Made only artificially"
+    ],
+    [
+     "Oganesson (118)",
+     "Made only artificially"
+    ]
+   ],
+   "explain": "The first 94 elements occur naturally, and those beyond 94 have been produced only artificially.",
+   "cites": [
+    29,
+    35,
+    37
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Atom X has 8 protons, so it is oxygen.",
+    "Atom Y also has 8 protons but more neutrons than X.",
+    "Atom Y has more neutrons, so it must be a different element.",
+    "So X and Y cannot be the same element."
+   ],
+   "wrong": 2,
+   "explain": "Atoms with the same proton count but different neutron counts are isotopes of the same element.",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  }
+ ]
+}

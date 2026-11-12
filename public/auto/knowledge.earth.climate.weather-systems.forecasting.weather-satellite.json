@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite",
+ "name": "Weather satellite",
+ "summary": [
+  {
+   "text": "A weather satellite is an Earth observation satellite used mainly to monitor the Earth's weather and climate.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They come mainly in two types: polar orbiting ones that cover the whole Earth, and geostationary ones that hover over one spot on the equator.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Besides tracking storms and clouds, they detect fires, pollution, dust storms and snow cover, and together give nearly continuous global observations.",
+   "cites": [
+    3,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First weather satellite",
+   "value": "Vanguard 2, launched 17 February 1959",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "First success",
+   "value": "TIROS-1, launched by NASA on 1 April 1960",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "TIROS-1 lifespan",
+   "value": "Operated for 78 days",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Countries flying them",
+   "value": "US, China, Europe, India, Russia and Japan",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Newest Meteosat imagers",
+   "value": "Scan the full Earth disc every ten minutes",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A forecaster wants a nonstop view of storms over one stretch of ocean near the equator, all day long. Which kind of satellite fits best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A polar orbiting one"
+    },
+    {
+     "id": "b",
+     "label": "A geostationary one"
+    },
+    {
+     "id": "c",
+     "label": "One orbiting the Moon"
+    },
+    {
+     "id": "d",
+     "label": "A deep space one"
+    }
+   ],
+   "answer": "b",
+   "explain": "Geostationary satellites hover over the same spot on the equator, so they keep watching one area.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite:q1"
+  },
+  {
+   "prompt": "A mission needs to photograph every part of the planet over time, Antarctica and the Arctic included. Which kind of satellite suits it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A polar orbiting one"
+    },
+    {
+     "id": "b",
+     "label": "A geostationary one"
+    },
+    {
+     "id": "c",
+     "label": "One parked above a single city"
+    },
+    {
+     "id": "d",
+     "label": "A deep space one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Polar orbiting satellites cover the entire Earth, while geostationary ones stay over one spot on the equator.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite:q2"
+  },
+  {
+   "prompt": "Weather satellites mainly watch storms and clouds. What else can they detect from orbit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oil deposits deep underground"
+    },
+    {
+     "id": "b",
+     "label": "Earthquakes far below the crust"
+    },
+    {
+     "id": "c",
+     "label": "City lights and fires"
+    },
+    {
+     "id": "d",
+     "label": "Individual car number plates"
+    }
+   ],
+   "answer": "c",
+   "explain": "Meteorological satellites can also detect city lights, fires, pollution, auroras, dust storms, snow cover and more.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite:q3"
+  },
+  {
+   "prompt": "As early as 1946, people were developing the idea of putting weather cameras in orbit. What pushed them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A ban on weather balloons"
+    },
+    {
+     "id": "b",
+     "label": "A wish to spy on rival navies"
+    },
+    {
+     "id": "c",
+     "label": "Demand from television weather shows"
+    },
+    {
+     "id": "d",
+     "label": "Sparse data and costly rocket cameras"
+    }
+   ],
+   "answer": "d",
+   "explain": "The idea arose from sparse observation coverage and the expense of using cloud cameras on rockets.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite:q4"
+  },
+  {
+   "prompt": "A NOAA satellite launched in 2015 into deep space watches a different kind of weather. What does it watch for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solar wind and geomagnetic storms"
+    },
+    {
+     "id": "b",
+     "label": "Dust storms on the surface of Mars"
+    },
+    {
+     "id": "c",
+     "label": "Storm clouds swirling on Jupiter"
+    },
+    {
+     "id": "d",
+     "label": "Meteor showers hitting the Moon"
+    }
+   ],
+   "answer": "a",
+   "explain": "DSCOVR was the first deep space satellite able to observe and predict space weather, detecting solar wind and geomagnetic storms.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite:q5"
+  },
+  {
+   "prompt": "Meteosat Third Generation satellites hold steady on three axes instead of spinning like earlier Meteosats. What did that change give designers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A much cheaper ride into orbit"
+    },
+    {
+     "id": "b",
+     "label": "No need to carry any fuel at all"
+    },
+    {
+     "id": "c",
+     "label": "More flexible satellite design"
+    },
+    {
+     "id": "d",
+     "label": "A lower and faster path around Earth"
+    }
+   ],
+   "answer": "c",
+   "explain": "Being three-axis stabilised rather than spin-stabilised gives greater flexibility in satellite and instrument design.",
+   "cites": [
+    42
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/GOES-R_SPACECRAFT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Weather satellite",
+  "credit": "NASA/NOAA",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:GOES-R_SPACECRAFT.jpg"
+ },
+ "source": {
+  "title": "Weather satellite",
+  "url": "https://en.wikipedia.org/wiki/Weather_satellite",
+  "revision": 1368646105
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Eyes on the weather",
+    "text": "A weather satellite is a kind of Earth observation satellite whose main job is watching Earth's weather and climate. Most are one of two types. Polar orbiting satellites cover the entire Earth, while geostationary satellites stay over the same spot on the equator.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "More than clouds",
+    "text": "Their main use is spotting how storms and cloud patterns form and move, but they also pick up city lights, fires, pollution, auroras, dust storms, snow cover and the edges of ocean currents. Satellite images helped track the ash cloud from Mount St. Helens. El Niño is watched daily through them, and the Antarctic ozone hole is mapped from their data. Together, satellites flown by the US, China, Europe, India, Russia and Japan give nearly continuous observations for a global weather watch.",
+    "cites": [
+     3,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "A shaky start",
+    "text": "The idea of cameras in orbit to watch the weather was already being developed in 1946, because observations were sparse and cloud cameras on rockets were costly. The first weather satellite, Vanguard 2, went up on February 17, 1959. A poor axis of rotation and its elliptical orbit meant it gathered little useful data. The first one counted as a success was NASA's TIROS-1, launched on April 1, 1960, which worked for 78 days.",
+    "cites": [
+     11,
+     12,
+     14,
+     15,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Better forecasts from orbit",
+    "text": "TIROS led to the Nimbus program, whose technology lies behind most Earth-observing satellites that NASA and NOAA have launched since. Starting with Nimbus 3 in 1969, satellites retrieved temperatures through the troposphere over the eastern Atlantic and most of the Pacific, which greatly improved forecasts. Geostationary satellites followed, first the ATS and SMS series and then GOES from the 1970s. Polar orbiters such as QuikScat and TRMM later reported winds near the ocean surface, which greatly improved judging the strength and location of tropical cyclones in the 2000s and 2010s.",
+    "cites": [
+     20,
+     21,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Europe's Meteosat",
+    "text": "Europe launched its first geostationary weather satellite, Meteosat-1, in 1977. A series followed up to Meteosat-7, which gathered data from 1997 until 2017, run first by the European Space Agency and later by EUMETSAT. The third generation began with Meteosat-12 in 2022. Its imager satellites scan the full Earth disc every ten minutes and carry a new Lightning Imager.",
+    "cites": [
+     25,
+     27,
+     41,
+     44
+    ]
+   },
+   {
+    "heading": "Watching space weather",
+    "text": "NOAA's DSCOVR, launched in 2015, became the first deep space satellite able to observe and predict space weather. It can detect hazards such as the solar wind and geomagnetic storms. That ability has allowed accurate space weather forecasts made ahead of time since the late 2010s.",
+    "cites": [
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "jetstream-satellites",
+   "kind": "article",
+   "title": "Weather Satellites",
+   "by": "NOAA JetStream",
+   "url": "https://www.noaa.gov/jetstream/weather-satellites",
+   "note": "How polar orbiting and geostationary weather satellites differ, and what each is good at seeing."
+  },
+  {
+   "id": "stull-satellites",
+   "kind": "book",
+   "title": "8.1: Weather Satellites",
+   "by": "Roland Stull, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/08%3A_Satellites_and_Radar/8.01%3A_Weather_Satellites",
+   "note": "Free textbook section on satellite orbits, the main satellite fleets, imager channels and sounders.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "esa-meteosat-history",
+   "kind": "primary",
+   "title": "A brief history of Meteosat",
+   "by": "European Space Agency",
+   "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/meteorological-missions/meteosat/a-brief-history-of-meteosat",
+   "note": "ESA's account of Europe's Meteosat weather satellites, from Meteosat-1 in 1977 to the third generation."
+  }
+ ]
+}

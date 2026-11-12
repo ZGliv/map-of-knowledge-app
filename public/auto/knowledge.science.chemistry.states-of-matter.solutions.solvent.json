@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.solutions.solvent",
+ "name": "Solvent",
+ "summary": [
+  {
+   "text": "A solvent is a substance that dissolves a solute, resulting in a solution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A solvent is usually a liquid but can also be a solid, a gas, or a supercritical fluid.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Water is the most common solvent used by living things, and other solvents are used in paints, inks, paint removers, and dry cleaning.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "From Latin solvō, meaning loosen, untie, solve",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Polarity guide",
+   "value": "The dielectric constant gives a rough measure of polarity",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Water's polarity",
+   "value": "Its dielectric constant is 88 at 0 °C",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Nonpolar cutoff",
+   "value": "Dielectric constant under 15 is generally nonpolar",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Biobased solvents",
+   "value": "Usually more expensive, but ideally less toxic and biodegradable",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Sand stirred into a glass of water settles out and leaves a residue. Why is that not a solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The water is too cold to act as a solvent"
+    },
+    {
+     "id": "b",
+     "label": "The sand dissolved but formed a separate phase"
+    },
+    {
+     "id": "c",
+     "label": "The sand is insoluble, so it does not spread through at a molecular level"
+    },
+    {
+     "id": "d",
+     "label": "Water can only dissolve other liquids"
+    }
+   ],
+   "answer": "c",
+   "explain": "In a solution all ingredients are uniformly distributed at a molecular level and no residue remains, unlike insoluble compounds such as sand in water.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.solvent:q1"
+  },
+  {
+   "prompt": "A chemist wants a quick guess whether a solvent can dissolve ionic compounds such as salts. What should she check?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its dielectric constant, a rough polarity measure"
+    },
+    {
+     "id": "b",
+     "label": "Whether it is made from plant materials such as starch"
+    },
+    {
+     "id": "c",
+     "label": "How many industries already use it for cleaning"
+    },
+    {
+     "id": "d",
+     "label": "Whether its name comes from Latin"
+    }
+   ],
+   "answer": "a",
+   "explain": "The dielectric constant is generally an acceptable predictor of a solvent's ability to dissolve common ionic compounds such as salts.",
+   "cites": [
+    27,
+    33
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.solvent:q2"
+  },
+  {
+   "prompt": "A student says dissolving is just mixing with nothing else going on. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The solute is always chemically changed into new substances"
+    },
+    {
+     "id": "b",
+     "label": "Only the solute's molecules move while the solvent stays fixed"
+    },
+    {
+     "id": "c",
+     "label": "Dissolving only happens when the solvent is a solid"
+    },
+    {
+     "id": "d",
+     "label": "Solvent molecules arrange around solute molecules, with heat and entropy changes"
+    }
+   ],
+   "answer": "d",
+   "explain": "When something dissolves, solvent molecules arrange around solute molecules, involving heat transfer and increased entropy, so it is far from a neutral process.",
+   "cites": [
+    16,
+    17,
+    20
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.solvent:q3"
+  },
+  {
+   "prompt": "A solvent has a dielectric constant of 10. How would it generally be classed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Polar, as strong as water"
+    },
+    {
+     "id": "b",
+     "label": "Nonpolar"
+    },
+    {
+     "id": "c",
+     "label": "Polar, since any positive value counts"
+    },
+    {
+     "id": "d",
+     "label": "Too low to act as a solvent"
+    }
+   ],
+   "answer": "b",
+   "explain": "Solvents with a dielectric constant of less than 15 are generally considered nonpolar, while water's high value of 88 shows strong polarity.",
+   "cites": [
+    25,
+    28,
+    29
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.solvent:q4"
+  },
+  {
+   "prompt": "A chemist says only liquids can act as solvents. What is the correction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solvents can also be solids, gases, or supercritical fluids"
+    },
+    {
+     "id": "b",
+     "label": "Solvents must be liquids at room temperature"
+    },
+    {
+     "id": "c",
+     "label": "Only water counts as a true solvent"
+    },
+    {
+     "id": "d",
+     "label": "Solids can act as solvents but gases cannot"
+    }
+   ],
+   "answer": "a",
+   "explain": "A solvent is usually a liquid but can also be a solid, a gas, or a supercritical fluid.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.solvent:q5"
+  },
+  {
+   "prompt": "A company swaps a petrochemical solvent for one made from starch and vegetable oils. What trade-off should it expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Usually a lower price, in exchange for ideally higher toxicity"
+    },
+    {
+     "id": "b",
+     "label": "Usually the same price, in exchange for ideally higher emissions"
+    },
+    {
+     "id": "c",
+     "label": "Usually a higher price, in exchange for ideally lower toxicity"
+    },
+    {
+     "id": "d",
+     "label": "Usually a higher price, in exchange for ideally greater toxicity"
+    }
+   ],
+   "answer": "c",
+   "explain": "Biobased solvents are usually more expensive but ideally less toxic and biodegradable, while some petrochemical solvents are highly toxic.",
+   "cites": [
+    7,
+    8,
+    9
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions.solvent:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Solvent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Solvent",
+  "credit": "Maxmath12",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Solvent.png"
+ },
+ "source": {
+  "title": "Solvent",
+  "url": "https://en.wikipedia.org/wiki/Solvent",
+  "revision": 1384006643
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a solvent does",
+    "text": "A solvent is a substance that dissolves another substance, called the solute, and the result is a solution. The word comes from the Latin solvō, meaning to loosen, untie or solve. Solvents are usually liquids, but solids, gases and supercritical fluids can play the part too.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Inside a solution",
+    "text": "In a solution, every ingredient is spread evenly down to the level of molecules, and no residue is left. Sand in water is the opposite case, because sand does not dissolve. A solvent and its solute form a single phase, with each solute molecule present as a solvate, a complex of solvent and solute. Suspensions, emulsions and other mixtures that are not solutions keep separate continuous phases instead.",
+    "cites": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "How dissolving works",
+    "text": "As something dissolves, solvent molecules arrange themselves around the solute molecules. That arrangement depends on chemical properties of both, such as hydrogen bonding, dipole moment and polarizability. Heat is transferred and entropy rises, which leaves the solution more thermodynamically stable than solute and solvent kept apart. This process, solvation, does not chemically change the solute, yet it often involves a lot of energy and is far from a neutral process.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Polar and non-polar",
+    "text": "Solvents can be broadly sorted into polar and non-polar kinds. A rough measure of polarity is the dielectric constant, which describes how far a solvent partly cancels the electric field around a charged particle placed in it, compared with the same particle in a vacuum. Water is strongly polar, with a dielectric constant of 88 at 0 °C, while solvents below 15 are generally treated as non-polar. The dielectric constant is also a fair guide to how well a solvent dissolves common ionic compounds such as salts.",
+    "cites": [
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     33
+    ]
+   },
+   {
+    "heading": "Other polarity scales",
+    "text": "The dielectric constant is not the only measure of polarity, and because chemists use solvents to carry out reactions, they need more specific ones. Reichardt's dye changes colour with polarity and gives a scale of E_T(30) values, where E_T is an energy in kcal/mol and (30) identifies the dye. The Hildebrand parameter, the square root of cohesive energy density, works with non-polar compounds but cannot handle complex chemistry.",
+    "cites": [
+     34,
+     35,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Solvents in daily life",
+    "text": "Water dissolves polar molecules and is the solvent living things use most; every ion and protein inside a cell is dissolved in water. Major uses of solvents include paints, paint removers, inks and dry cleaning. Acetone removes nail polish, toluene and turpentine thin paint, and ethanol is used in perfumes. Some petrochemical solvents are highly toxic and give off volatile organic compounds, while biobased ones usually cost more but are ideally less toxic and biodegradable.",
+    "cites": [
+     3,
+     4,
+     5,
+     7,
+     8
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-11-1",
+   "kind": "book",
+   "title": "11.1 The Dissolution Process",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+   "note": "A free textbook section on solvents and solutes and the forces and energy changes involved in dissolving.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

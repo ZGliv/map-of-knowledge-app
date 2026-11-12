@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling",
+ "name": "Quantum tunnelling",
+ "summary": [
+  {
+   "text": "Quantum tunnelling is when a particle such as an electron or atom passes through an energy barrier that classical physics says it lacks the energy to cross.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It follows from the wave nature of matter: a small part of the wave function can appear on the far side of a thin barrier, giving a chance of crossing.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Tunnelling matters in nuclear fusion, alpha decay, flash memory and scanning tunnelling microscopes, and it limits how small transistors can get.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Barrier odds",
+   "value": "Chance falls with barrier height, width, and the particle's mass",
+   "cites": [
+    5,
+    26
+   ]
+  },
+  {
+   "label": "Transistor limit",
+   "value": "Electrons tunnel through insulating layers thinner than about 1 nm",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Alpha decay",
+   "value": "Gamow and Gurney and Condon explained it with tunnelling in 1928",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "label": "Early name",
+   "value": "Early on it was called penetration or leaking through a barrier",
+   "cites": [
+    45
+   ]
+  },
+  {
+   "label": "Light version",
+   "value": "Light can tunnel across a small gap between two prisms",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A ball rolls toward a hill but lacks the energy to reach the top. Classically it rolls back. What can a quantum particle in a similar spot do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Always roll back like the ball"
+    },
+    {
+     "id": "b",
+     "label": "Always go over the top"
+    },
+    {
+     "id": "c",
+     "label": "Cross to the other side with a small probability"
+    },
+    {
+     "id": "d",
+     "label": "Stop exactly at the top forever"
+    }
+   ],
+   "answer": "c",
+   "explain": "Classical mechanics says it cannot cross; in quantum mechanics a particle can, with a small probability, tunnel through.",
+   "cites": [
+    15,
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling:q1"
+  },
+  {
+   "prompt": "Which barrier would an electron most likely tunnel through?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A very thick, high wall"
+    },
+    {
+     "id": "b",
+     "label": "A very thin, low wall"
+    },
+    {
+     "id": "c",
+     "label": "A wall of medium width and high energy"
+    },
+    {
+     "id": "d",
+     "label": "A wall made of the thickest metal"
+    }
+   ],
+   "answer": "b",
+   "explain": "The probability falls exponentially with barrier height and width, so thin, low barriers are tunnelled most easily.",
+   "cites": [
+    5,
+    26
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling:q2"
+  },
+  {
+   "prompt": "Why is tunnelling seen most prominently in very light particles like electrons rather than baseballs?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Baseballs are hotter, so they bounce back"
+    },
+    {
+     "id": "b",
+     "label": "Chance drops off sharply as mass goes up"
+    },
+    {
+     "id": "c",
+     "label": "Baseballs have no wave function at all, ever"
+    },
+    {
+     "id": "d",
+     "label": "Electrons are always faster than baseballs are"
+    }
+   ],
+   "answer": "b",
+   "explain": "Transmission probability decreases exponentially with the barrier height, width and the particle's mass.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling:q3"
+  },
+  {
+   "prompt": "A chip designer shrinks the insulating layer in a transistor to under 1 nm. What problem appears?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Electrons tunnel through the layer readily"
+    },
+    {
+     "id": "b",
+     "label": "The layer turns into a conductor of heat only"
+    },
+    {
+     "id": "c",
+     "label": "Light leaks out and blinds the user"
+    },
+    {
+     "id": "d",
+     "label": "The transistor becomes too large to fit"
+    }
+   ],
+   "answer": "a",
+   "explain": "Electrons tunnel readily through insulating layers thinner than about 1 nm, which limits how small devices can be.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling:q4"
+  },
+  {
+   "prompt": "When a wave packet hits a barrier, most reflects and some passes. What happens to the total probability that the particle exists somewhere?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It drops, since part of the wave is lost"
+    },
+    {
+     "id": "b",
+     "label": "It rises, since there are two sides now"
+    },
+    {
+     "id": "c",
+     "label": "It disappears after hitting the barrier"
+    },
+    {
+     "id": "d",
+     "label": "It stays the same, split across both sides"
+    }
+   ],
+   "answer": "d",
+   "explain": "The wave packet is on both sides with lower peak amplitude, but the integrated squared magnitude is equal, so total probability stays the same.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling:q5"
+  },
+  {
+   "prompt": "What natural process did tunnelling theory explain, using the Schrödinger equation for a model nuclear potential?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Why leaves change color in autumn"
+    },
+    {
+     "id": "b",
+     "label": "Alpha decay of atomic nuclei"
+    },
+    {
+     "id": "c",
+     "label": "How sound waves travel in air"
+    },
+    {
+     "id": "d",
+     "label": "The rotation of planets"
+    }
+   ],
+   "answer": "b",
+   "explain": "Alpha decay was mathematically explained in 1928 by Gamow and independently by Gurney and Condon through tunnelling.",
+   "cites": [
+    7,
+    42,
+    43
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-states.quantum-tunnelling:q6"
+  }
+ ],
+ "source": {
+  "title": "Quantum tunnelling",
+  "url": "https://en.wikipedia.org/wiki/Quantum_tunnelling",
+  "revision": 1384069080
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Through the wall",
+    "text": "Quantum tunnelling, also called barrier penetration, is when something like an electron or an atom gets through an energy barrier that classical mechanics says it cannot cross, since it lacks the energy to get over. A helpful picture is a ball rolling toward a hill. In classical physics, a ball without enough energy to reach the top simply rolls back down. In quantum mechanics, a particle has a small chance of crossing to the other side anyway.",
+    "cites": [
+     1,
+     13,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Why it happens",
+    "text": "Tunnelling follows from the wave nature of matter and from quantum indeterminacy. A particle's state is described by its wave function, and equations such as the Schrödinger equation set how that wave function changes. When a barrier is short and narrow, a small part of the wave function can appear beyond it, and that part is the chance of tunnelling through. When the particle's wave hits the barrier, most of it bounces back and some gets through. Afterwards the wave sits on both sides of the barrier, while the total chance of finding the particle somewhere stays at one.",
+    "cites": [
+     2,
+     3,
+     4,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "What makes it likely",
+    "text": "The chance of getting through falls exponentially as the barrier gets higher or wider, and as the particle gets heavier. That is why tunnelling is most obvious for light particles such as electrons crossing barriers only atoms thick. Even so, it has been observed with protons and even whole atoms.",
+    "cites": [
+     5,
+     6,
+     26
+    ]
+   },
+   {
+    "heading": "Where it matters",
+    "text": "Tunnelling plays an essential part in nuclear fusion and in the alpha decay of atomic nuclei. It is put to use in the tunnel diode, flash memory, quantum computing and the scanning tunnelling microscope. It also sets a limit on microelectronics. Electrons tunnel easily through insulating layers and transistors thinner than about 1 nm, which limits how small devices can be made.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "A version with light",
+    "text": "Light shows a similar effect. Light striking a prism at an angle just past the critical angle is reflected. But if a second prism is brought within a few wavelengths of that reflecting face, some of the light tunnels across the gap.",
+    "cites": [
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "How it was found",
+    "text": "The Schrödinger equation appeared in 1926, and in a series of 1927 articles Friedrich Hund was the first to apply it to tunnelling through a barrier between two classically allowed regions. Leonid Mandelstam and Mikhail Leontovich found tunnelling on their own and published in 1928. A great success came in 1928, when George Gamow, and separately Ronald Gurney and Edward Condon, used tunnelling to explain alpha decay mathematically. At first nobody said tunnel effect; people spoke of a particle penetrating, or leaking through, a barrier.",
+    "cites": [
+     33,
+     34,
+     36,
+     42,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-tunneling",
+   "kind": "book",
+   "title": "7.6 The Quantum Tunneling of Particles through Potential Barriers - University Physics Volume 3",
+   "by": "OpenStax (Samuel J. Ling, Jeff Sanny, William Moebs)",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/7-6-the-quantum-tunneling-of-particles-through-potential-barriers",
+   "note": "A free textbook section on how particles tunnel through potential barriers, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "minutephysics-tunneling",
+   "kind": "video",
+   "title": "What is Quantum Tunneling?",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=cTodS8hkSDg",
+   "minutes": 1,
+   "note": "A one-minute animated explanation of quantum tunnelling."
+  },
+  {
+   "id": "spacetime-tunneling-ftl",
+   "kind": "video",
+   "title": "Is Quantum Tunneling Faster than Light? | Space Time | PBS Digital Studios",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=-IfmgyXs7z8",
+   "minutes": 11,
+   "note": "PBS Space Time asks how long tunnelling takes and whether particles cross a barrier faster than light."
+  }
+ ]
+}

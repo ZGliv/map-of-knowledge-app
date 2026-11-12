@@ -1,0 +1,312 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability",
+ "name": "Prior probability",
+ "summary": [
+  {
+   "text": "A prior probability distribution describes what is assumed about an uncertain quantity before any evidence is taken into account.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In Bayesian statistics, Bayes' rule says how to update the prior with new information to get the posterior distribution.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "A prior can come from past information such as earlier experiments, from an experienced expert's judgement, or from the principle of indifference when nothing is known.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Ways to build one",
+   "value": "Past experiments, expert judgement, or indifference",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Principle of indifference",
+   "value": "Gives equal probability to all possibilities",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Strong prior",
+   "value": "Its information dominates the information in the data",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Weakly informative prior",
+   "value": "Keeps inferences in a reasonable range",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Before checking any forecast, you guess tomorrow's noon temperature from what is typical for this date. In Bayesian terms, what is that guess?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An assumption made after seeing the evidence"
+    },
+    {
+     "id": "b",
+     "label": "An assumption made before new evidence arrives"
+    },
+    {
+     "id": "c",
+     "label": "A final answer that cannot be revised"
+    },
+    {
+     "id": "d",
+     "label": "A measurement taken at noon tomorrow"
+    }
+   ],
+   "answer": "b",
+   "explain": "That guess is a prior: the assumed distribution of an uncertain quantity before evidence is taken into account. Here, a distribution of the temperature for that day of the year.",
+   "cites": [
+    1,
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability:q1"
+  },
+  {
+   "prompt": "A researcher holds a very strong prior and then analyses a small batch of data. What usually happens to the resulting view?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It swings far away from where it began"
+    },
+    {
+     "id": "b",
+     "label": "It ignores the prior and follows the data alone"
+    },
+    {
+     "id": "c",
+     "label": "It splits into two equally likely views"
+    },
+    {
+     "id": "d",
+     "label": "It ends up little changed from the prior"
+    }
+   ],
+   "answer": "d",
+   "explain": "With a strong prior, the information in the prior dominates the information in the data, so the posterior is little changed from the prior.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability:q2"
+  },
+  {
+   "prompt": "A researcher knows nothing at all about which of four outcomes is more likely. What idea justifies giving each outcome the same weight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The principle of indifference"
+    },
+    {
+     "id": "b",
+     "label": "The hierarchical principle"
+    },
+    {
+     "id": "c",
+     "label": "The principle of maximum luck"
+    },
+    {
+     "id": "d",
+     "label": "The conjugate principle"
+    }
+   ],
+   "answer": "a",
+   "explain": "When no information is available, an uninformative prior may be adopted, justified by the principle of indifference, which assigns equal probabilities to all possibilities.",
+   "cites": [
+    10,
+    29
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability:q3"
+  },
+  {
+   "prompt": "A new batch of data arrives. What does Bayes' rule tell you to do with your prior?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Throw it away and start with a blank slate"
+    },
+    {
+     "id": "b",
+     "label": "Keep it unchanged and ignore the batch"
+    },
+    {
+     "id": "c",
+     "label": "Update it with the new information to get a posterior"
+    },
+    {
+     "id": "d",
+     "label": "Multiply it by the number of data points"
+    }
+   ],
+   "answer": "c",
+   "explain": "Bayes' rule prescribes how to update the prior with new information to obtain the posterior probability distribution.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability:q4"
+  },
+  {
+   "prompt": "A modeller sets a loose starting assumption for tomorrow's noon temperature in St. Louis: centred on 50 degrees Fahrenheit with a very wide spread. What is a starting assumption like this meant to do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fix the answer exactly at 50 degrees"
+    },
+    {
+     "id": "b",
+     "label": "Keep inferences in a reasonable range"
+    },
+    {
+     "id": "c",
+     "label": "Remove the need for any data at all"
+    },
+    {
+     "id": "d",
+     "label": "Guarantee the forecast is always correct"
+    }
+   ],
+   "answer": "b",
+   "explain": "A weakly informative prior expresses partial information and is used for regularization: to keep inferences in a reasonable range, without overly constraining the results.",
+   "cites": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability:q5"
+  },
+  {
+   "prompt": "People say a distribution is a prior or a posterior. Relative to what are these labels generally used?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A specific datum or observation"
+    },
+    {
+     "id": "b",
+     "label": "The size of the person's sample"
+    },
+    {
+     "id": "c",
+     "label": "The order the terms appear in a book"
+    },
+    {
+     "id": "d",
+     "label": "Whether the quantity is positive"
+    }
+   ],
+   "answer": "a",
+   "explain": "The terms prior and posterior are generally relative to a specific datum or observation.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.bayes-theorem.prior-probability:q6"
+  }
+ ],
+ "source": {
+  "title": "Prior probability",
+  "url": "https://en.wikipedia.org/wiki/Prior_probability",
+  "revision": 1383104409
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Belief before the evidence",
+    "text": "A prior, short for prior probability distribution, is the probability distribution you assume for an uncertain quantity before any evidence is taken into account. For instance, a prior could describe the relative shares of voters expected to back a particular politician in a coming election. The quantity need not be something you can observe; it may be a parameter of a model or a latent variable rather than an observable one.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "How a prior gets updated",
+    "text": "In Bayesian statistics, Bayes' rule says how to combine the prior with new information to reach the posterior distribution, the distribution of the quantity given the new data. The words prior and posterior are relative to a particular piece of data. In the past, people often had to pick priors from a conjugate family for the likelihood, so the posterior would be easy to work with and of the same family. Markov chain Monte Carlo methods are now widely available, which has made this less of a worry.",
+    "cites": [
+     4,
+     5,
+     6,
+     17
+    ]
+   },
+   {
+    "heading": "Where priors come from",
+    "text": "There are many ways to build a prior. It may come from past information, such as earlier experiments, or from the purely subjective judgement of an experienced expert. When nothing is known, an uninformative prior can be used, justified by the principle of indifference. In modern work, priors are also often picked for what they do mechanically, such as regularization or feature selection.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Informative and strong priors",
+    "text": "An informative prior carries specific, definite information about a variable. Take the temperature at noon tomorrow: a sensible prior is a normal distribution centred on today's noon temperature, with a spread equal to how much the temperature varies from day to day. A strong prior is an informative prior whose information outweighs the information in the data. In that case, the posterior that comes out of the analysis would be little changed from the prior.",
+    "cites": [
+     14,
+     15,
+     16,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Weakly informative priors",
+    "text": "A weakly informative prior gives only partial information. It nudges the analysis toward answers that fit existing knowledge without tying it down too tightly, and it prevents extreme estimates. For tomorrow's noon temperature in St. Louis, one could pick a normal distribution centred on 50 degrees Fahrenheit, with a standard deviation of 40 degrees. That only loosely keeps the temperature between 10 and 90 degrees. The aim is regularization: keeping conclusions within a reasonable range.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Uninformative priors",
+    "text": "An uninformative prior, also called flat or diffuse, expresses only vague or general information. Such a prior can still carry objective facts, for example \"the variable is positive\". The simplest and oldest rule for building one is the principle of indifference, which gives every possibility the same probability. When estimating parameters, an uninformative prior usually gives results close to conventional statistics, because the data often carry more information than the prior.",
+    "cites": [
+     25,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "The ball under three cups",
+    "text": "An example due to Jaynes makes the idea concrete. A ball sits under one of three cups, labelled A, B and C, and you know nothing else about where it is. A uniform prior, p(A) = p(B) = p(C) = 1/3, seems the only reasonable choice, because swapping the labels leaves the problem unchanged, and only the uniform prior keeps your predictions unchanged under such a swap. Yet this prior is not a feature of the world: the ball really is under one cup, and the probabilities make sense only for an observer who does not know which.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     38
+    ]
+   }
+  ]
+ }
+}

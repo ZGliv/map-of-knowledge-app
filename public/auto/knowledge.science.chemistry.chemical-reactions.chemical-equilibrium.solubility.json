@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility",
+ "name": "Solubility",
+ "summary": [
+  {
+   "text": "Solubility is the ability of a substance, the solute, to form a solution with another substance, the solvent.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is usually measured as the concentration of the solute in a saturated solution, one in which no more solute can be dissolved.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "It depends mainly on the make-up of the solute and solvent, along with temperature and pressure.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Saturated solution",
+   "value": "No more solute can be dissolved in it",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Miscible",
+   "value": "Two substances that mix in all proportions",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Most common solvent",
+   "value": "Water, by far",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Handbook unit",
+   "value": "Often g/(100 mL), grams of solute per 100 millilitres of solvent",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "One cut-off for insoluble",
+   "value": "Under 0.1 g per 100 mL of solvent",
+   "cites": [
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A solution is holding more dissolved solute than it normally could. A speck appears for crystals to start forming on. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, because the extra solute stays dissolved for good"
+    },
+    {
+     "id": "b",
+     "label": "The solvent boils away"
+    },
+    {
+     "id": "c",
+     "label": "The excess solute comes out of solution rapidly"
+    },
+    {
+     "id": "d",
+     "label": "The solute turns into a gas"
+    }
+   ],
+   "answer": "c",
+   "explain": "Such a supersaturated solution is metastable and rapidly excludes the excess solute if a suitable nucleation site appears.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility:q1"
+  },
+  {
+   "prompt": "Stirring a solid into water makes it dissolve faster. Does the stirring change the most that can dissolve?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, stirring raises the solubility by the same factor"
+    },
+    {
+     "id": "b",
+     "label": "No, stirring changes how fast it dissolves, which is a different thing from solubility"
+    },
+    {
+     "id": "c",
+     "label": "Yes, stirring is the main thing solubility depends on"
+    },
+    {
+     "id": "d",
+     "label": "No, because a solid can never dissolve faster"
+    }
+   ],
+   "answer": "b",
+   "explain": "Solubility is not the same as the rate of solution, which depends on variables such as the manner and intensity of mixing.",
+   "cites": [
+    9,
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility:q2"
+  },
+  {
+   "prompt": "A chemist pours hydrochloric acid on calcium hydroxide and it vanishes. Informally one might say it dissolved. Does solubility apply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because an irreversible chemical reaction takes place between them"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since anything that vanishes in a liquid has dissolved"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if the acid is cooled first"
+    },
+    {
+     "id": "d",
+     "label": "No, because acids can never act as a solvent"
+    }
+   ],
+   "answer": "a",
+   "explain": "The concept of solubility does not apply when there is an irreversible chemical reaction between the two substances.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility:q3"
+  },
+  {
+   "prompt": "A solution is saturated and nothing seems to change. What is happening among the particles?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dissolving has stopped, but re-joining carries on"
+    },
+    {
+     "id": "b",
+     "label": "Re-joining has stopped, but dissolving carries on"
+    },
+    {
+     "id": "c",
+     "label": "Neither process can happen once it is saturated"
+    },
+    {
+     "id": "d",
+     "label": "Dissolving and re-joining are going on at equal rates"
+    }
+   ],
+   "answer": "d",
+   "explain": "Solubility occurs under dynamic equilibrium, with a stable state when the rates of dissolution and re-joining are equal.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility:q4"
+  },
+  {
+   "prompt": "A chemist wants to dissolve a solid in a gas. What has to happen first?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The solid has to pass into the gaseous state"
+    },
+    {
+     "id": "b",
+     "label": "The gas has to be cooled down until it condenses"
+    },
+    {
+     "id": "c",
+     "label": "The solid has to be ground into a fine powder"
+    },
+    {
+     "id": "d",
+     "label": "The gas has to be pressurised until it behaves like a liquid"
+    }
+   ],
+   "answer": "a",
+   "explain": "A solid or liquid can be dissolved in a gas only by passing into the gaseous state first.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility:q5"
+  },
+  {
+   "prompt": "Ethanol mixes with water at any ratio, with no limit. What word applies to this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Saturated"
+    },
+    {
+     "id": "b",
+     "label": "Miscible"
+    },
+    {
+     "id": "c",
+     "label": "Supersaturated"
+    },
+    {
+     "id": "d",
+     "label": "Insoluble"
+    }
+   ],
+   "answer": "b",
+   "explain": "Substances with no solubility limit are miscible in all proportions, such as ethanol in water.",
+   "cites": [
+    5,
+    39
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.solubility:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Chemical_precipitation_diagram_multilang.svg/960px-Chemical_precipitation_diagram_multilang.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Solubility",
+  "credit": "ZabMilenko: orginal ZooFari: vector Mrmw: optimized, multilang",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Chemical_precipitation_diagram_multilang.svg"
+ },
+ "source": {
+  "title": "Solubility",
+  "url": "https://en.wikipedia.org/wiki/Solubility",
+  "revision": 1369621201
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Solubility is the ability of one substance, the solute, to form a solution with another, the solvent. Its opposite, insolubility, is the inability to form such a solution. A solute may be solid, liquid or gaseous, while the solvent is usually a solid or a liquid.",
+    "cites": [
+     1,
+     2,
+     6
+    ]
+   },
+   {
+    "heading": "Saturation and balance",
+    "text": "Solubility is usually measured as the concentration of solute in a saturated solution, one that cannot dissolve any more. At that point the two substances are at the solubility equilibrium. This balance is dynamic. Dissolving and its reverse, such as a solid coming back out as a precipitate, go on at the same time, and a stable state is reached when their rates are equal.",
+    "cites": [
+     3,
+     4,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Mixing without limit",
+    "text": "Some pairs have no limit at all and are called miscible, meaning they mix in all proportions. Gases are always miscible with each other, except in very extreme situations. Solubility ranges from ethanol in water, which mixes without limit, to titanium dioxide, which is essentially insoluble in water.",
+    "cites": [
+     5,
+     8,
+     39
+    ]
+   },
+   {
+    "heading": "What controls it",
+    "text": "Solubility depends mainly on what the solute and solvent are made of, including their pH and any other dissolved substances, and on temperature and pressure. These effects can often be explained by how the particles of the two substances interact, and by thermodynamic ideas such as enthalpy and entropy. Solubility also differs from the rate of solution, meaning how fast a solid dissolves in a liquid. That rate depends on other things, such as the physical form of the substances and how hard they are mixed.",
+    "cites": [
+     9,
+     10,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Going past the limit",
+    "text": "Under certain conditions a solution can hold more solute than its usual limit. The result is called a supersaturated solution. It will quickly push out the extra solute once a suitable nucleation site appears.",
+    "cites": [
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "How it is written",
+    "text": "Chemical handbooks often give solubility as grams of solute per 100 mL of solvent, or as grams per 100 g of solvent. It can also be given in moles, for example as moles of solute per litre of solution, the molarity. Converting between these units can be tricky, because it may call for the density of the solution, a figure that often goes unmeasured.",
+    "cites": [
+     23,
+     24,
+     26,
+     29,
+     34
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Solubility matters well beyond chemistry, in fields such as geology, biology, medicine and agriculture, and even in cooking, cleaning and brewing. Most useful chemical reactions only take place after the ingredients have been dissolved in a suitable solvent. Water is by far the most common choice.",
+    "cites": [
+     16,
+     17,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-11-3",
+   "kind": "book",
+   "title": "11.3 Solubility",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+   "note": "A free textbook section on saturated and supersaturated solutions, miscible liquids, and how heat and pressure change solubility.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-15-1",
+   "kind": "book",
+   "title": "15.1 Precipitation and Dissolution",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+   "note": "How dissolving and precipitation balance in a solubility equilibrium, with the solubility product Ksp and worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-factors",
+   "kind": "book",
+   "title": "Solubility and Factors Affecting Solubility",
+   "by": "Erica Tran and Dennis Liu, Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Solubilty/Solubility_and_Factors_Affecting_Solubility",
+   "note": "An open module on how solvent, temperature, pressure and common ions change how much dissolves.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

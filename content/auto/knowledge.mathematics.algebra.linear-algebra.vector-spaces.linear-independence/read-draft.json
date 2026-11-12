@@ -1,0 +1,62 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What it means",
+   "text": "A set of vectors is linearly independent when none of them equals a linear combination of the others, that is, none can be made by scaling the rest and adding them up. If one of them can be made that way, the set is called linearly dependent. Independence is part of what defines a basis of a vector space.",
+   "cites": [
+    1,
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "heading": "The zero test",
+   "text": "There is a tidy way to check. Look for scalars a₁, a₂, …, aₖ, not all zero, that make a₁𝐯₁ + a₂𝐯₂ + ⋯ + aₖ𝐯ₖ equal 𝟎, the zero vector. If such scalars exist, the vectors are dependent. If the only way to reach 𝟎 is to set every scalar to zero, they are independent.",
+   "cites": [
+    6,
+    10,
+    12
+   ]
+  },
+  {
+   "heading": "Cases you can spot at once",
+   "text": "Some lists can be judged at a glance. A list that contains the same vector twice is always dependent. So is any list that includes the zero vector, which means the zero vector never belongs to an independent collection. A single vector on its own is independent exactly when it is not the zero vector.",
+   "cites": [
+    14,
+    38,
+    40,
+    42
+   ]
+  },
+  {
+   "heading": "Giving directions",
+   "text": "Suppose someone tells you a place lies 3 miles to the north and 4 miles to the east. That is enough to find it, if you treat the map as a two-dimensional vector space and ignore altitude and the curve of the Earth. The north vector and the east vector are independent, because neither can be described using the other. Adding that the place is 5 miles northeast is true but unneeded: that vector is a combination of the other two, so the three together are dependent.",
+   "cites": [
+    31,
+    32,
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "heading": "Independence and dimension",
+   "text": "If altitude matters too, a third independent vector has to be added. In general, describing every location in n-dimensional space takes n linearly independent vectors. Independence is also central to working out the dimension of a vector space. Whether that dimension is finite or infinite depends on the largest number of independent vectors the space holds.",
+   "cites": [
+    4,
+    5,
+    36,
+    37
+   ]
+  },
+  {
+   "heading": "Infinite sets and bases",
+   "text": "For an infinite set of vectors, independence means that every finite subset of it is independent. A set that is linearly independent and also spans some vector space forms a basis for that space.",
+   "cites": [
+    19,
+    24
+   ]
+  }
+ ]
+}

@@ -1,0 +1,523 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle",
+ "name": "Calvin cycle",
+ "summary": [
+  {
+   "text": "The Calvin cycle is a series of chemical reactions in photosynthesis that converts carbon dioxide and hydrogen-carrier compounds into sugars.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "text": "In plants it takes place in the stroma of a chloroplast, using the ATP and NADPH made by the light-dependent reactions.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Though called the dark reaction, it does not occur in the dark, because it needs NADPH, which is short-lived and comes from the light-dependent reactions.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discovered",
+   "value": "1950, using the radioactive isotope carbon-14",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Key enzyme",
+   "value": "RuBisCO",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Three phases",
+   "value": "Carboxylation, reduction reactions, and RuBP regeneration",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Where in plants",
+   "value": "The stroma of the chloroplast",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Direct product",
+   "value": "Three-carbon sugar phosphates called triose phosphates",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gardener says plants run the Calvin cycle at night, since it is called the dark reaction. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It needs chlorophyll to be absorbing darkness"
+    },
+    {
+     "id": "b",
+     "label": "It needs short-lived NADPH from the light-dependent reactions"
+    },
+    {
+     "id": "c",
+     "label": "It needs sunlight to warm the stroma first"
+    },
+    {
+     "id": "d",
+     "label": "It needs stored oxygen that builds up by day"
+    }
+   ],
+   "answer": "b",
+   "explain": "The cycle needs NADPH, which is short-lived and comes from light-dependent reactions, so it does not occur at night.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle:q1"
+  },
+  {
+   "prompt": "What does the Calvin cycle take from the light-dependent reactions to build sugars?",
+   "options": [
+    {
+     "id": "a",
+     "label": "ATP for energy and NADPH for reducing power"
+    },
+    {
+     "id": "b",
+     "label": "Free oxygen and sugars that are already built"
+    },
+    {
+     "id": "c",
+     "label": "Light itself, which it captures in the stroma"
+    },
+    {
+     "id": "d",
+     "label": "RuBisCO and the thylakoid membranes themselves"
+    }
+   ],
+   "answer": "a",
+   "explain": "The cycle uses the chemical energy of ATP and the reducing power of NADPH from the light-dependent reactions.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle:q2"
+  },
+  {
+   "prompt": "The cycle's enzymes are switched on in light. What does this prevent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The enzymes drifting out of the stroma into the cytosol"
+    },
+    {
+     "id": "b",
+     "label": "Six-carbon sugars piling up as the product"
+    },
+    {
+     "id": "c",
+     "label": "NADPH becoming even shorter-lived"
+    },
+    {
+     "id": "d",
+     "label": "The cycle being respired to carbon dioxide, wasting ATP"
+    }
+   ],
+   "answer": "d",
+   "explain": "Activation in light prevents the cycle from being respired to carbon dioxide, which would waste ATP with no net productivity.",
+   "cites": [
+    23,
+    24,
+    25
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle:q3"
+  },
+  {
+   "prompt": "Which molecules are the carbohydrate products that the cycle itself directly produces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Six-carbon hexose sugars in a single step"
+    },
+    {
+     "id": "b",
+     "label": "Two-carbon groups that are passed on to mitochondria"
+    },
+    {
+     "id": "c",
+     "label": "Three-carbon sugar phosphates called triose phosphates"
+    },
+    {
+     "id": "d",
+     "label": "Five-carbon RuBP, which leaves the cycle as product"
+    }
+   ],
+   "answer": "c",
+   "explain": "The carbohydrate products of the Calvin cycle are three-carbon sugar phosphates, or triose phosphates, namely G3P.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle:q4"
+  },
+  {
+   "prompt": "Three carbon dioxide molecules go round the cycle and make six G3P. How many G3P does the cell gain, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One, since five of the six are used to regenerate RuBP"
+    },
+    {
+     "id": "b",
+     "label": "Six, since all of them leave the cycle as product"
+    },
+    {
+     "id": "c",
+     "label": "Three, since each carbon dioxide leaves one behind"
+    },
+    {
+     "id": "d",
+     "label": "Two, since half are used up in making NADPH"
+    }
+   ],
+   "answer": "a",
+   "explain": "Of the six G3P, five regenerate RuBP, leaving a net gain of one G3P per three CO₂.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle:q5"
+  },
+  {
+   "prompt": "At night the Calvin cycle is not running. How do plants provide themselves with energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They run the cycle on NADPH stored from the day"
+    },
+    {
+     "id": "b",
+     "label": "They release sucrose into the phloem from starch reserves"
+    },
+    {
+     "id": "c",
+     "label": "They draw sugars up from the soil through the roots"
+    },
+    {
+     "id": "d",
+     "label": "They turn RuBisCO into a sugar-making enzyme"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the dark, plants instead release sucrose into the phloem from their starch reserves to provide energy.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.metabolic-pathways.calvin-cycle:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Chloroplast_structure.svg/960px-Chloroplast_structure.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Calvin cycle",
+  "credit": "Kelvinsong",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Chloroplast_structure.svg"
+ },
+ "source": {
+  "title": "Calvin cycle",
+  "url": "https://en.wikipedia.org/wiki/Calvin_cycle",
+  "revision": 1384210138
+ },
+ "pack": {
+  "id": "auto-metabolic-pathways-calvin-cycle",
+  "title": "Dark reactions that need light",
+  "question": "Why does the Calvin cycle, nicknamed the dark reaction, depend on light?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Biochemistry",
+   "Metabolic pathways",
+   "Calvin cycle"
+  ],
+  "hue": 170,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Chloroplast_structure.svg/960px-Chloroplast_structure.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Calvin cycle",
+    "credit": "Kelvinsong · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chloroplast_structure.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Dark reactions that need light",
+    "hook": "A reaction nicknamed dark still waits on products made in the light."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-metabolic-pathways-calvin-cycle:1",
+    "transfer": false,
+    "prompt": "Three carbon dioxide molecules go through the cycle and make six G3P molecules. How much does the cell keep as a net gain?",
+    "explain": "Five of the six G3P regenerate RuBP, leaving a net gain of one G3P per three CO₂.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "All six G3P",
+        "feedback": "Most of the six are needed to rebuild the starting compound."
+       },
+       {
+        "id": "b",
+        "label": "One G3P",
+        "feedback": ""
+       },
+       {
+        "id": "c",
+        "label": "Three G3P, one for each carbon dioxide",
+        "feedback": "Each carbon dioxide yields two G3P, and most are recycled."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-metabolic-pathways-calvin-cycle:2",
+    "transfer": false,
+    "prompt": "Put these steps of RuBP regeneration in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Triose phosphate isomerase turns one G3P into DHAP"
+     },
+     {
+      "id": "b",
+      "label": "Aldolase and fructose-1,6-bisphosphatase join G3P and DHAP into fructose 6-phosphate"
+     },
+     {
+      "id": "c",
+      "label": "Transketolase removes two carbons from F6P, giving E4P"
+     },
+     {
+      "id": "d",
+      "label": "Phosphoribulokinase turns RuP into RuBP, completing the cycle"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Start",
+     "End"
+    ],
+    "explain": "Regeneration starts with G3P becoming DHAP, then F6P forms and loses two carbons as E4P, and finally RuP is phosphorylated into RuBP."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-metabolic-pathways-calvin-cycle:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Which stage does each description belong to?",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Captures the energy of light"
+     },
+     {
+      "id": "i1",
+      "label": "Makes ATP and NADPH"
+     },
+     {
+      "id": "i2",
+      "label": "Uses ATP and NADPH"
+     },
+     {
+      "id": "i3",
+      "label": "Carbon fixation"
+     },
+     {
+      "id": "i4",
+      "label": "Converts carbon dioxide into organic compounds"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Light-dependent reactions"
+     },
+     {
+      "id": "g1",
+      "label": "Calvin cycle"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "The first stage captures light to make ATP and NADPH; the Calvin cycle uses those compounds to convert carbon dioxide into organic compounds."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-metabolic-pathways-calvin-cycle:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "In the first stage, light-dependent reactions make ATP and NADPH."
+     },
+     {
+      "id": "b",
+      "text": "The Calvin cycle uses those compounds to turn carbon dioxide into sugars."
+     },
+     {
+      "id": "c",
+      "text": "Because of the name dark reaction, the cycle can run all night on leftover NADPH."
+     },
+     {
+      "id": "d",
+      "text": "In the dark, plants instead release sucrose into the phloem from starch reserves."
+     }
+    ],
+    "answer": "c",
+    "explain": "NADPH is short-lived and comes from the light-dependent reactions, so the cycle does not occur in the dark."
+   },
+   {
+    "kind": "payoff",
+    "idea": "The Calvin cycle uses ATP and NADPH from the light-dependent reactions to turn carbon dioxide into sugars, so it runs when light is available.",
+    "connections": []
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Five of the six G3P regenerate RuBP, leaving a net gain of one G3P per three CO₂.",
+    "source": "Wikipedia sentences 31"
+   },
+   {
+    "claim": "Regeneration starts with G3P becoming DHAP, then F6P forms and loses two carbons as E4P, and finally RuP is phosphorylated into RuBP.",
+    "source": "Wikipedia sentences 32, 33, 34, 36, 43"
+   },
+   {
+    "claim": "The first stage captures light to make ATP and NADPH; the Calvin cycle uses those compounds to convert carbon dioxide into organic compounds.",
+    "source": "Wikipedia sentences 17, 18, 19"
+   },
+   {
+    "claim": "NADPH is short-lived and comes from the light-dependent reactions, so the cycle does not occur in the dark.",
+    "source": "Wikipedia sentences 8, 9, 10"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Turning carbon dioxide into sugar",
+    "text": "The Calvin cycle is the part of photosynthesis that builds sugar. Its reactions take carbon dioxide and hydrogen-carrier compounds and turn them into glucose, and the whole set is also called carbon fixation. In plants it runs in the stroma, the fluid-filled space of a chloroplast outside its thylakoid membranes. It goes by several other names, including the Calvin–Benson–Bassham cycle, the C3 cycle and the dark reactions.",
+    "cites": [
+     1,
+     3,
+     14,
+     19
+    ]
+   },
+   {
+    "heading": "Fed by the light reactions",
+    "text": "Photosynthesis happens in two stages. First, the light-dependent reactions capture light energy and use it to make ATP, a molecule that stores energy, and NADPH, a hydrogen carrier. The Calvin cycle then draws on the chemical energy in ATP and on NADPH's reducing power. With them it turns carbon dioxide and water into organic compounds that the organism can use, and so can animals that eat it.",
+    "cites": [
+     4,
+     5,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Three phases, step by step",
+    "text": "The cycle has three phases: carboxylation, reduction, and regeneration of a molecule called ribulose 1,5-bisphosphate, or RuBP. No single reaction turns several carbon dioxide molecules into a sugar. Instead the cycle works in steps, through a series of redox reactions. Its key enzyme is RuBisCO, and its sugar products are three-carbon sugar phosphates called glyceraldehyde-3-phosphate, or G3P.",
+    "cites": [
+     6,
+     7,
+     20,
+     27
+    ]
+   },
+   {
+    "heading": "Counting the carbons",
+    "text": "To keep turning, the cycle must rebuild RuBP. Each carbon dioxide fixed yields two G3P, so three carbon dioxides give six G3P. Five of those six are used to make three RuBP, spending three ATP. That leaves one G3P as net gain for every three carbon dioxide molecules taken in. In the final step, the enzyme phosphoribulokinase uses one ATP to turn RuP into RuBP, closing the loop.",
+    "cites": [
+     29,
+     30,
+     31,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Not really a dark reaction",
+    "text": "Despite the name dark reaction, the cycle does not run in the dark or at night. It needs NADPH, which is short-lived and comes from the light-dependent reactions. Its enzymes are also switched on by light and by products of the light reactions. In the dark, plants instead release sucrose from their starch reserves into the phloem for energy. So the cycle runs when light is available, whatever the type of photosynthesis: C3, C4 or CAM. CAM plants store malic acid in their vacuoles each night and release it by day to make this work.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     23
+    ]
+   },
+   {
+    "heading": "Who has it and who found it",
+    "text": "The cycle is present in all photosynthetic eukaryotes and in many photosynthetic bacteria. Melvin Calvin, James Bassham and Andrew Benson worked it out in 1950 at the University of California, Berkeley. Their key tool was carbon-14, a radioactive isotope.",
+    "cites": [
+     2,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-8-3",
+   "kind": "book",
+   "title": "8.3 Using Light Energy to Make Organic Molecules",
+   "by": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+   "note": "A free college textbook section on the Calvin cycle's fixation, reduction and regeneration stages."
+  },
+  {
+   "id": "openstax-concepts-5-3",
+   "kind": "book",
+   "title": "5.3 The Calvin Cycle",
+   "by": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/concepts-biology/pages/5-3-the-calvin-cycle",
+   "note": "A free introductory textbook section on how the Calvin cycle builds sugar from carbon dioxide using ATP and NADPH."
+  }
+ ]
+}

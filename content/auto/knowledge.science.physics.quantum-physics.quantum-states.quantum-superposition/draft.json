@@ -1,0 +1,233 @@
+{
+ "summary": [
+  {
+   "text": "Quantum superposition is the principle that combinations of solutions to the Schrödinger equation are also solutions, so a system's state can be a blend of several basic states.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "When you measure a superposed system, you get one of the possible results, with chances set by the weights of each part, never something different from all of them.",
+   "cites": [
+    22,
+    23
+   ]
+  },
+  {
+   "text": "The double-slit interference fringes are an example, and superposition is the working resource behind qubits in quantum computers.",
+   "cites": [
+    8,
+    41
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Why it works",
+   "value": "The Schrödinger equation is linear in time and position",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Qubit chances",
+   "value": "Outcome chances are |c₀| ² and |c₁| ² (squared amplitudes)",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "label": "Schrödinger's cat",
+   "value": "He proposed it to show how outlandish careless superposition becomes",
+   "cites": [
+    28,
+    30
+   ]
+  },
+  {
+   "label": "Big molecules",
+   "value": "Molecules over 10,000 mass units have been superposed",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Vibrating resonator",
+   "value": "A tuning fork of about 10 trillion atoms was superposed",
+   "cites": [
+    38,
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A qubit is in a superposition of 0 and 1 with weights that give a 70% and 30% chance. You measure it many times, preparing it the same way each time. What do you see?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Always a value halfway between 0 and 1"
+    },
+    {
+     "id": "b",
+     "label": "Sometimes 0 and sometimes 1, about 70% and 30%"
+    },
+    {
+     "id": "c",
+     "label": "Always 0, since it is the larger weight"
+    },
+    {
+     "id": "d",
+     "label": "A new value other than 0 or 1 each time"
+    }
+   ],
+   "answer": "b",
+   "explain": "A measurement gives one of the possible results with a probability set by the weights in the superposition, never anything outside them.",
+   "cites": [
+    6,
+    22,
+    23
+   ]
+  },
+  {
+   "prompt": "Why can two solutions of the Schrödinger equation be added together to give another valid solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The equation is linear in time and position"
+    },
+    {
+     "id": "b",
+     "label": "The equation has only one solution"
+    },
+    {
+     "id": "c",
+     "label": "The solutions are always identical"
+    },
+    {
+     "id": "d",
+     "label": "Addition is a way of measuring a system"
+    }
+   ],
+   "answer": "a",
+   "explain": "The equation is a linear differential equation, so linear combinations of solutions are solutions too.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "In a double-slit test, a researcher adds a device that records which slit each particle used, even if nobody ever reads it. What happens to the interference pattern?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gets brighter, since more information was gained"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same, since no person looked"
+    },
+    {
+     "id": "c",
+     "label": "It disappears, since path information is accessible in principle"
+    },
+    {
+     "id": "d",
+     "label": "It moves to another part of the screen"
+    }
+   ],
+   "answer": "c",
+   "explain": "Superposition of amplitudes holds only if there is no way to know, even in principle, which path was taken. No observer needs to actually look.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "What was Schrödinger's cat meant to show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cats can be alive and dead in real life"
+    },
+    {
+     "id": "b",
+     "label": "Poison gas behaves like a wave"
+    },
+    {
+     "id": "c",
+     "label": "Superposition would be outlandish if not used carefully"
+    },
+    {
+     "id": "d",
+     "label": "Radioactive sources never decay at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Schrödinger posed it to illustrate how outlandish the concept of quantum superposition would become if not used carefully.",
+   "cites": [
+    28,
+    30
+   ]
+  },
+  {
+   "prompt": "Someone claims superposition only happens to single electrons. What does the evidence say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are right; larger things always lose it"
+    },
+    {
+     "id": "b",
+     "label": "They are right; only electrons have been tried"
+    },
+    {
+     "id": "c",
+     "label": "They are wrong; only photons show it"
+    },
+    {
+     "id": "d",
+     "label": "They are wrong; molecules and even a tiny resonator have been superposed"
+    }
+   ],
+   "answer": "d",
+   "explain": "Experiments have superposed large molecules and a piezoelectric tuning fork of about 10 trillion atoms.",
+   "cites": [
+    34,
+    35,
+    36,
+    38,
+    39
+   ]
+  },
+  {
+   "prompt": "Why is a qubit different from an ordinary computer bit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can only ever hold the value 0"
+    },
+    {
+     "id": "b",
+     "label": "It blends two values instead of picking one"
+    },
+    {
+     "id": "c",
+     "label": "It is physically bigger than a normal bit"
+    },
+    {
+     "id": "d",
+     "label": "It stores no information whatsoever"
+    }
+   ],
+   "answer": "b",
+   "explain": "A classical bit has one of two distinct values, while a qubit is a superposition of the two.",
+   "cites": [
+    41
+   ]
+  }
+ ]
+}

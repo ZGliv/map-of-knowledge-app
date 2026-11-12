@@ -1,0 +1,106 @@
+{
+ "title": "A fork for sorting galaxies",
+ "question": "How do astronomers sort galaxies by their shape?",
+ "hook": "A fork-shaped chart is still the most common way to sort galaxies.",
+ "idea": "Galaxies are sorted by their appearance, and the Hubble sequence lays out ellipticals, lenticulars and spirals along a fork.",
+ "beats": [
+  {
+   "kind": "match",
+   "prompt": "Match each symbol to the galaxy type it stands for.",
+   "pairs": [
+    [
+     "S",
+     "Spiral"
+    ],
+    [
+     "SB",
+     "Barred spiral"
+    ],
+    [
+     "S0",
+     "Lenticular"
+    ]
+   ],
+   "explain": "Spirals get the symbol S, barred spirals SB, and lenticular galaxies S0.",
+   "cites": [
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You pick a spiral galaxy at random and look for a bar-like structure across its center. How likely is it to have one?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Almost never",
+     "feedback": "Bars are far from rare in spirals."
+    },
+    {
+     "id": "b",
+     "label": "Almost always",
+     "feedback": "Many spirals have no bar at all."
+    },
+    {
+     "id": "c",
+     "label": "Roughly half the time"
+    }
+   ],
+   "answer": "c",
+   "explain": "Roughly half of all spirals are observed to have a bar-like structure extending from the central bulge.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each type into early type or late type.",
+   "groups": [
+    "Early type",
+    "Late type"
+   ],
+   "items": [
+    [
+     "Elliptical",
+     "Early type"
+    ],
+    [
+     "Lenticular",
+     "Early type"
+    ],
+    [
+     "Spiral",
+     "Late type"
+    ],
+    [
+     "Irregular",
+     "Late type"
+    ]
+   ],
+   "explain": "Early types are the ellipticals and lenticulars, and late types are the spirals and irregulars.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Astronomers sort galaxies by appearance, shape, structure and how their light is spread.",
+    "The best-known scheme is the Hubble sequence, devised by Edwin Hubble.",
+    "Because it is an older scheme, professionals have dropped it for newer ones.",
+    "Newer extensions, such as de Vaucouleurs's 1959 system, add rings and lenses."
+   ],
+   "wrong": 2,
+   "explain": "The Hubble sequence is still the most commonly used system, both in professional research and in amateur astronomy.",
+   "cites": [
+    1,
+    2,
+    12,
+    14,
+    16
+   ]
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius",
+ "name": "Schwarzschild radius",
+ "summary": [
+  {
+   "text": "The Schwarzschild radius is the radius of a sphere in flat space with the same surface area as the event horizon of a Schwarzschild black hole of a given mass.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is proportional to mass and can be worked out for any object, from about 3 km for the Sun to about 9 mm for Earth.",
+   "cites": [
+    2,
+    14,
+    15
+   ]
+  },
+  {
+   "text": "An object whose radius is smaller than its Schwarzschild radius is a black hole, because nothing can escape through the surface at that radius.",
+   "cites": [
+    16,
+    17,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Karl Schwarzschild, who found the solution in 1916",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "The Sun's value",
+   "value": "About 3.0 km",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Earth's value",
+   "value": "About 9 millimetres",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Milky Way's central hole",
+   "value": "About 12 million km",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Link to mass",
+   "value": "Directly proportional",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "If Earth were squeezed into a black hole, about how wide would the radius of its horizon be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 9 millimetres"
+    },
+    {
+     "id": "b",
+     "label": "About 9 metres"
+    },
+    {
+     "id": "c",
+     "label": "About 9 kilometres"
+    },
+    {
+     "id": "d",
+     "label": "About 9 centimetres"
+    }
+   ],
+   "answer": "a",
+   "explain": "Earth's Schwarzschild radius is approximately 9 mm.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius:q1"
+  },
+  {
+   "prompt": "A body's mass becomes twice as large. What happens to its Schwarzschild radius?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same"
+    },
+    {
+     "id": "b",
+     "label": "It grows eightfold"
+    },
+    {
+     "id": "c",
+     "label": "It becomes twice as large"
+    },
+    {
+     "id": "d",
+     "label": "It is cut in half"
+    }
+   ],
+   "answer": "c",
+   "explain": "The Schwarzschild radius is proportional to mass.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius:q2"
+  },
+  {
+   "prompt": "Consider a small black hole and a giant one. Which has the higher average density inside its horizon?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The giant one, since it holds more matter"
+    },
+    {
+     "id": "b",
+     "label": "The small one, since volume grows faster than radius"
+    },
+    {
+     "id": "c",
+     "label": "They are equal at the horizon"
+    },
+    {
+     "id": "d",
+     "label": "It depends on spin alone"
+    }
+   ],
+   "answer": "b",
+   "explain": "Radius grows linearly with mass while volume grows with the cube of the radius, so small black holes are much denser.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius:q3"
+  },
+  {
+   "prompt": "A huge ball of water-density matter keeps growing. What eventually happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its physical radius stays ahead forever"
+    },
+    {
+     "id": "b",
+     "label": "It cools into a neutron star"
+    },
+    {
+     "id": "c",
+     "label": "It splits into smaller balls"
+    },
+    {
+     "id": "d",
+     "label": "Its Schwarzschild radius overtakes it, forming a black hole"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Schwarzschild radius grows faster than the physical radius, forming a supermassive black hole at around 136 million solar masses.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius:q4"
+  },
+  {
+   "prompt": "In the Schwarzschild metric, terms blow up at both r = rₛ and r = 0. How do they differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are coordinate artifacts that vanish in new coordinates"
+    },
+    {
+     "id": "b",
+     "label": "The one at rₛ is removable by new coordinates, but the one at 0 is real"
+    },
+    {
+     "id": "c",
+     "label": "The one at 0 is removable, but the one at rₛ is real"
+    },
+    {
+     "id": "d",
+     "label": "Both are real singularities of curvature"
+    }
+   ],
+   "answer": "b",
+   "explain": "The divergence at r = rₛ is a coordinate singularity, while at r = 0 curvature diverges and cannot be removed.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius:q5"
+  },
+  {
+   "prompt": "A black hole with the mass of Mount Everest would be smaller than a nanometre. What process could have formed one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ordinary stellar collapse"
+    },
+    {
+     "id": "b",
+     "label": "Ordinary supernovae of small stars"
+    },
+    {
+     "id": "c",
+     "label": "Extremely high densities just after the Big Bang"
+    },
+    {
+     "id": "d",
+     "label": "Accretion over billions of years"
+    }
+   ],
+   "answer": "c",
+   "explain": "No known mechanism forms such objects today, but they might have formed in the early universe, giving primordial black holes.",
+   "cites": [
+    33,
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.science.physics.relativity.black-holes.schwarzschild-radius:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Triangle_of_everything_simplified_2_triangle_of_everything_-_Planck_Units.png/960px-Triangle_of_everything_simplified_2_triangle_of_everything_-_Planck_Units.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Schwarzschild radius",
+  "credit": "Avsa",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Triangle_of_everything_simplified_2_triangle_of_everything_-_Planck_Units.png"
+ },
+ "source": {
+  "title": "Schwarzschild radius",
+  "url": "https://en.wikipedia.org/wiki/Schwarzschild_radius",
+  "revision": 1384276001
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A size for any mass",
+    "text": "The Schwarzschild radius is a length that comes out of Karl Schwarzschild's 1916 solution to Einstein's field equations. It is the radius of a sphere in flat space whose surface area equals that of the event horizon around a non-spinning, or Schwarzschild, black hole with the same mass. Any amount of mass has one. It is written rₛ = 2GM/c², with M for the mass, c for light speed and G for the gravitational constant.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     17
+    ]
+   },
+   {
+    "heading": "Where it came from",
+    "text": "Schwarzschild found an exact solution for the gravity outside a round body that does not spin. His equations contained terms of the form 1/(1 − rₛ/r), which blow up at r = 0 and at r = rₛ, and what those points meant physically was argued over for decades. The trouble at r = rₛ turned out to come from the choice of coordinates, and it disappears in other coordinate systems such as Eddington–Finkelstein. At r = 0, though, curvature truly becomes infinite, a real spacetime singularity that no change of coordinates removes.",
+    "cites": [
+     5,
+     6,
+     7,
+     9,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "The edge of a black hole",
+    "text": "The Schwarzschild radius still matters, because it marks the event horizon of a non-spinning black hole. Anything whose radius is smaller than its Schwarzschild radius is a black hole. Neither light nor particles can get out through that surface from inside, which is where the name black hole comes from.",
+    "cites": [
+     13,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "From the Sun to a mountain",
+    "text": "The radius grows in step with mass. For the Sun it is about 3.0 km, for Earth about 9 mm and for the Moon about 0.1 mm. A black hole as heavy as Mount Everest would have a Schwarzschild radius far smaller than a nanometre. Nothing known could squeeze matter that tightly, but such tiny primordial black holes might have formed just after the Big Bang, when matter was extremely dense.",
+    "cites": [
+     14,
+     15,
+     33,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Big ones are less dense",
+    "text": "Because the radius rises with mass while volume rises with the cube of the radius, small black holes are much denser than large ones. For the heaviest black holes, the average density inside the horizon is lower than that of a main sequence star. If you piled up matter as dense as water, at around 136 million solar masses its own Schwarzschild radius would overtake its physical size, making a supermassive black hole. For Sagittarius A*, the supermassive black hole at the centre of the Milky Way, the radius is about 12 million kilometres.",
+    "cites": [
+     20,
+     21,
+     24,
+     25,
+     28
+    ]
+   },
+   {
+    "heading": "Where gravity meets the quantum",
+    "text": "For a mass of one Planck mass, the Schwarzschild radius equals twice a length called the reduced Compton wavelength, which separates the realm where classical physics works from the one where quantum effects show. Both then equal the Planck length. Pushing the two formulas to that meeting point probably needs corrections from quantum gravity.",
+    "cites": [
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ }
+}

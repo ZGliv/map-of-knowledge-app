@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "A matrix is a rectangular array of numbers or other mathematical objects, with entries arranged in rows and columns.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In linear algebra matrices are used as linear maps, and in geometry they describe transformations such as rotations.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Matrices are used in most areas of mathematics and scientific fields, either directly or through geometry and numerical analysis.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Size notation",
+   "value": "m rows and n columns make an m × n matrix",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Square matrix",
+   "value": "It has the same number of rows and columns",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Invertibility test",
+   "value": "A square matrix is invertible exactly when its determinant is nonzero",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Product order",
+   "value": "Generally AB ≠ BA, even when both are defined",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "label": "Single-row matrix",
+   "value": "Called a row matrix or row vector",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A table holds a single column of entries. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A column vector"
+    },
+    {
+     "id": "b",
+     "label": "A row vector"
+    },
+    {
+     "id": "c",
+     "label": "A square matrix"
+    },
+    {
+     "id": "d",
+     "label": "An empty matrix"
+    }
+   ],
+   "answer": "a",
+   "explain": "Matrices with a single column are called column matrices or column vectors.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "prompt": "A grid of entries has exactly as many rows as columns. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A row vector"
+    },
+    {
+     "id": "b",
+     "label": "An infinite matrix"
+    },
+    {
+     "id": "c",
+     "label": "A square matrix"
+    },
+    {
+     "id": "d",
+     "label": "A column vector"
+    }
+   ],
+   "answer": "c",
+   "explain": "A matrix with the same number of rows and columns is called a square matrix.",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "prompt": "A square matrix has a determinant of zero. What can you conclude about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is invertible"
+    },
+    {
+     "id": "b",
+     "label": "It is not invertible"
+    },
+    {
+     "id": "c",
+     "label": "It has no determinant"
+    },
+    {
+     "id": "d",
+     "label": "It is not square"
+    }
+   ],
+   "answer": "b",
+   "explain": "A square matrix is invertible if and only if it has a nonzero determinant.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "A student multiplies matrices A and B to get AB and assumes that BA must give the same result. Is that safe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, matrix multiplication always commutes"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as both are defined"
+    },
+    {
+     "id": "c",
+     "label": "No, because BA is never defined"
+    },
+    {
+     "id": "d",
+     "label": "No, in general AB and BA need not be equal"
+    }
+   ],
+   "answer": "d",
+   "explain": "Even if both products are defined, they generally need not be equal: AB ≠ BA.",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "prompt": "A matrix is named with a capital letter A. How are its individual entries written?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Capital A with one single subscript"
+    },
+    {
+     "id": "b",
+     "label": "Lower-case a with two subscripts, like a₁₁"
+    },
+    {
+     "id": "c",
+     "label": "A bold number in the top corner"
+    },
+    {
+     "id": "d",
+     "label": "The two letters m and n together"
+    }
+   ],
+   "answer": "b",
+   "explain": "Matrices are usually symbolized by upper-case letters, while the corresponding lower-case letters with two subscript indices represent the entries.",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "prompt": "A is an m × n matrix and B is an n × k matrix, and m is different from k. Which statement is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "AB can be defined without BA being defined"
+    },
+    {
+     "id": "b",
+     "label": "BA can be defined without AB being defined"
+    },
+    {
+     "id": "c",
+     "label": "Both products are always defined"
+    },
+    {
+     "id": "d",
+     "label": "Neither product can be defined"
+    }
+   ],
+   "answer": "a",
+   "explain": "The product AB may be defined without BA being defined, namely if m ≠ k.",
+   "cites": [
+    43
+   ]
+  }
+ ]
+}

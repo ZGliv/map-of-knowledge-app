@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "The multinomial theorem describes how to expand a power of a sum in terms of powers of the terms in that sum.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It generalises the binomial theorem from two terms to many, and with just two terms it reduces to the binomial theorem.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Each term of the expansion uses non-negative whole-number exponents that add up to n, the power of the whole sum.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two-term case",
+   "value": "With m = 2 it becomes the binomial theorem",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Exponent rule",
+   "value": "The exponents in each term must add up to n",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Counting meaning",
+   "value": "Ways to put n distinct objects into m bins with set sizes",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Counting method",
+   "value": "Stars and bars gives an easy count",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Bigger triangle",
+   "value": "It extends Pascal's triangle to Pascal's simplex",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A sum of three terms a + b + c is raised to the power 4 and expanded. Can a term such as a² b² c appear?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because each letter may take any power"
+    },
+    {
+     "id": "b",
+     "label": "No, because its exponents add up to 5, not 4"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as c has the smallest power"
+    },
+    {
+     "id": "d",
+     "label": "No, because all three exponents must be equal"
+    }
+   ],
+   "answer": "b",
+   "explain": "In every term the exponents must add up to n, which is 4 here, and 2 + 2 + 1 is 5.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "You apply the multinomial rule to a sum with only two terms. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A rule that only works for three terms"
+    },
+    {
+     "id": "b",
+     "label": "The binomial theorem"
+    },
+    {
+     "id": "c",
+     "label": "A rule with no exponents at all"
+    },
+    {
+     "id": "d",
+     "label": "The rule for adding two powers"
+    }
+   ],
+   "answer": "b",
+   "explain": "When there are just two terms, the statement reduces to the binomial theorem.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Six different toys go into three labelled boxes, with a fixed number of toys in each box. What does a multinomial coefficient count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ways to deposit the toys with those numbers in each box"
+    },
+    {
+     "id": "b",
+     "label": "The ways to line the boxes up in a row"
+    },
+    {
+     "id": "c",
+     "label": "The ways to split the toys into equal piles"
+    },
+    {
+     "id": "d",
+     "label": "The number of toys in the biggest box"
+    }
+   ],
+   "answer": "a",
+   "explain": "A multinomial coefficient is the number of ways to deposit n distinct objects into m distinct bins with k₁ in the first, k₂ in the second, and so on.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Pascal's triangle lists binomial coefficients. Which structure extends it to multinomial coefficients?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A longer row of the same triangle"
+    },
+    {
+     "id": "b",
+     "label": "Pascal's simplex"
+    },
+    {
+     "id": "c",
+     "label": "A mirror image of the triangle"
+    },
+    {
+     "id": "d",
+     "label": "A circle of binomial coefficients"
+    }
+   ],
+   "answer": "b",
+   "explain": "The multinomial theorem generalises Pascal's triangle to Pascal's simplex, giving a quick lookup table for multinomial coefficients.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "How can the three-term case be proved if you already trust the two-term case?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Treat two of the three terms as one term, then repeat"
+    },
+    {
+     "id": "b",
+     "label": "Test it on a few numbers and stop"
+    },
+    {
+     "id": "c",
+     "label": "Replace the third term with zero"
+    },
+    {
+     "id": "d",
+     "label": "Multiply the two-term result by three"
+    }
+   ],
+   "answer": "a",
+   "explain": "The proof uses the binomial theorem together with induction on m, the number of terms.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "In every term of the expansion, which quantity stays fixed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The size of each exponent"
+    },
+    {
+     "id": "b",
+     "label": "The number of letters in the term"
+    },
+    {
+     "id": "c",
+     "label": "The sum of all the exponents"
+    },
+    {
+     "id": "d",
+     "label": "The coefficient in front"
+    }
+   ],
+   "answer": "c",
+   "explain": "For each term in the expansion the exponents of the terms add up to n.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

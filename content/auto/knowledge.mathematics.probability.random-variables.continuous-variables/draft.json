@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "A continuous variable has possible values between any two of its values, so one that ranges over the real numbers can take any value in that range.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Methods of calculus are often used for problems with continuous variables, such as continuous optimization.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "In statistics, the probability distributions of continuous variables can be expressed with probability density functions.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Defining test",
+   "value": "Possible values exist between any two values",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Time version",
+   "value": "Continuous time uses differential equations",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Distribution tool",
+   "value": "Probability density functions",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Mixed case",
+   "value": "A variable can be continuous in some ranges, discrete in others",
+   "cites": [
+    4,
+    30
+   ]
+  },
+  {
+   "label": "Calculus",
+   "value": "Often used in problems with continuous variables",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An idealised thermometer can show any value from 20 to 30 degrees. Why is this reading a continuous variable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Between any two possible readings there is another possible reading"
+    },
+    {
+     "id": "b",
+     "label": "It is read from an instrument rather than counted"
+    },
+    {
+     "id": "c",
+     "label": "Its readings are written out with decimal points"
+    },
+    {
+     "id": "d",
+     "label": "It changes as time goes by"
+    }
+   ],
+   "answer": "a",
+   "explain": "A continuous variable is one with possible values between any two values, as with a variable over a range of the real numbers.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "A model lets time flow smoothly, with every instant allowed. What kind of equation describes how a variable evolves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A difference equation"
+    },
+    {
+     "id": "b",
+     "label": "A differential equation"
+    },
+    {
+     "id": "c",
+     "label": "An integer programme"
+    },
+    {
+     "id": "d",
+     "label": "A mass function"
+    }
+   ],
+   "answer": "b",
+   "explain": "In continuous-time dynamics, time is treated as continuous and the evolution is described by a differential equation.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A statistician describes the distribution of a continuous variable. Which tool is the usual one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A probability mass function"
+    },
+    {
+     "id": "b",
+     "label": "A difference equation"
+    },
+    {
+     "id": "c",
+     "label": "A probability density function"
+    },
+    {
+     "id": "d",
+     "label": "A dummy variable"
+    }
+   ],
+   "answer": "c",
+   "explain": "The probability distributions of continuous variables can be expressed with probability density functions. Mass functions are for discrete variables.",
+   "cites": [
+    9,
+    19
+   ]
+  },
+  {
+   "prompt": "Someone says a variable allowed only the values 1, 2 and 3 is continuous because those are real numbers. Where is the mistake?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Real numbers can never form a continuous variable"
+    },
+    {
+     "id": "b",
+     "label": "The variable would have to be able to take 0 as well"
+    },
+    {
+     "id": "c",
+     "label": "The variable would have to be written with decimals"
+    },
+    {
+     "id": "d",
+     "label": "There are no possible values between 1 and 2, so it is not continuous"
+    }
+   ],
+   "answer": "d",
+   "explain": "A continuous variable needs possible values between any two values. Here there is a gap around each value, so it is discrete.",
+   "cites": [
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "prompt": "Which job is calculus better suited to: tuning a dial that turns smoothly, or picking a whole number of trucks to rent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tuning the smoothly turning dial"
+    },
+    {
+     "id": "b",
+     "label": "Picking the whole number of trucks"
+    },
+    {
+     "id": "c",
+     "label": "Both equally well"
+    },
+    {
+     "id": "d",
+     "label": "Neither, calculus only deals with time"
+    }
+   ],
+   "answer": "a",
+   "explain": "Methods of calculus are often used with continuous variables, as in continuous optimization, and do not readily suit discrete variables such as integer programming.",
+   "cites": [
+    8,
+    16,
+    18
+   ]
+  },
+  {
+   "prompt": "A study of psychological disorder risk uses a yes/no symptom measure and also a smooth cognitive score. What is this an example of?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A difference equation"
+    },
+    {
+     "id": "b",
+     "label": "A dummy variable model"
+    },
+    {
+     "id": "c",
+     "label": "A mixed model"
+    },
+    {
+     "id": "d",
+     "label": "An integer programme"
+    }
+   ],
+   "answer": "c",
+   "explain": "A study with one binary measure and one continuous measure is an example of a mixed model.",
+   "cites": [
+    29
+   ]
+  }
+ ]
+}

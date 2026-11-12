@@ -1,0 +1,302 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion",
+ "name": "Laplace expansion",
+ "summary": [
+  {
+   "text": "Laplace expansion is one way to view and compute a determinant, and it is valued for its simplicity.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "It is often useful in proofs because it allows recursion on the size of matrices.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "For large matrices it quickly becomes inefficient compared with Gaussian elimination.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Main strength",
+   "value": "Simple, and often useful in proofs",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Main weakness",
+   "value": "Quickly inefficient for large matrices",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Faster rival",
+   "value": "Gaussian elimination, for large matrices",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Also called",
+   "value": "Cofactor expansion, named after Pierre-Simon Laplace",
+   "cites": [
+    1
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A program must find the determinant of a very large matrix. Which method will serve it better than Laplace expansion?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Repeating Laplace expansion on every entry"
+    },
+    {
+     "id": "b",
+     "label": "Guessing from the first row alone"
+    },
+    {
+     "id": "c",
+     "label": "Expanding along columns instead of rows"
+    },
+    {
+     "id": "d",
+     "label": "Gaussian elimination"
+    }
+   ],
+   "answer": "d",
+   "explain": "For large matrices, Laplace expansion quickly becomes inefficient compared with Gaussian elimination.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion:q1"
+  },
+  {
+   "prompt": "A mathematician wants to prove something about determinants of every size by building up from smaller matrices. Why is Laplace expansion handy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It allows recursion on the size of matrices"
+    },
+    {
+     "id": "b",
+     "label": "It is the fastest method for large matrices"
+    },
+    {
+     "id": "c",
+     "label": "It avoids ever using smaller matrices"
+    },
+    {
+     "id": "d",
+     "label": "It only works for the smallest matrices"
+    }
+   ],
+   "answer": "a",
+   "explain": "The expansion is often useful in proofs because it allows recursion on the size of matrices.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion:q2"
+  },
+  {
+   "prompt": "In a square matrix, adding the first column to the third column gives exactly double the second column. What can be said about its determinant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must be one"
+    },
+    {
+     "id": "b",
+     "label": "It must be zero"
+    },
+    {
+     "id": "c",
+     "label": "It must be negative"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be known"
+    }
+   ],
+   "answer": "b",
+   "explain": "That relation among the columns makes the matrix singular, so its determinant is zero.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion:q3"
+  },
+  {
+   "prompt": "A student uses Laplace expansion on a 4 by 4 matrix. What does the method turn the determinant into?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single product of all sixteen entries"
+    },
+    {
+     "id": "b",
+     "label": "The plain sum of all sixteen entries"
+    },
+    {
+     "id": "c",
+     "label": "The largest entry of the matrix"
+    },
+    {
+     "id": "d",
+     "label": "A sum of terms built from 3 by 3 determinants"
+    }
+   ],
+   "answer": "d",
+   "explain": "The expansion writes the determinant of an n × n matrix as a weighted sum of minors, which are determinants of (n − 1) × (n − 1) submatrices.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion:q4"
+  },
+  {
+   "prompt": "A matrix has columns where the first plus the third equals twice the second, and its determinant is zero. What label fits such a matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Invertible"
+    },
+    {
+     "id": "b",
+     "label": "Orthogonal"
+    },
+    {
+     "id": "c",
+     "label": "Singular"
+    },
+    {
+     "id": "d",
+     "label": "Triangular"
+    }
+   ],
+   "answer": "c",
+   "explain": "The matrix is described as singular because of that column relation, and its determinant is zero.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion:q5"
+  },
+  {
+   "prompt": "A friend says Laplace expansion is pointless because it is slow for big matrices. What is a fair reply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Agreed, it has no use at all"
+    },
+    {
+     "id": "b",
+     "label": "It is simple and useful in proofs, even if slow"
+    },
+    {
+     "id": "c",
+     "label": "It is actually faster than Gaussian elimination"
+    },
+    {
+     "id": "d",
+     "label": "It only gives wrong answers for big matrices"
+    }
+   ],
+   "answer": "b",
+   "explain": "It is slow for large matrices, but it is simple, often useful in proofs, and one of several ways to view the determinant.",
+   "cites": [
+    3,
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.laplace-expansion:q6"
+  }
+ ],
+ "source": {
+  "title": "Laplace expansion",
+  "url": "https://en.wikipedia.org/wiki/Laplace_expansion",
+  "revision": 1357299115
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A determinant built from smaller ones",
+    "text": "Laplace expansion, also called cofactor expansion, is a way of writing the determinant of an n × n matrix as a weighted sum of smaller determinants. Those smaller determinants are called minors. Each minor is the determinant of an (n − 1) × (n − 1) submatrix taken from the original matrix B. The method carries the name of Pierre-Simon Laplace.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "heading": "Cofactors",
+    "text": "In this sum, the entry b_(i,j) carries the coefficient (−1)ⁱ⁺ʲ m_(i,j), where m_(i,j) is one of the minors. The sign in front, (−1)ⁱ⁺ʲ, depends on the row i and the column j of that entry. This signed minor has its own name: the cofactor of the entry b_(i,j) within B.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why people use it",
+    "text": "Laplace expansion is often handy in proofs, for example by allowing recursion on the size of matrices. Each minor in the sum is a determinant one size smaller than the one being computed. It also has teaching value: it is simple, and it gives another way, among several, to look at and calculate a determinant. For large matrices, though, it quickly becomes inefficient next to Gaussian elimination.",
+    "cites": [
+     1,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Checking a worked example",
+    "text": "A worked example of the expansion is easy to verify just by looking at the columns of the matrix. In one example matrix, adding the first and third columns gives exactly twice the second column. That relation among the columns makes the matrix singular, and so its determinant is zero, which confirms the result of the expansion.",
+    "cites": [
+     6,
+     12
+    ]
+   },
+   {
+    "heading": "Expanding along several rows",
+    "text": "The idea does not have to stop at a single row. A determinant can also be expanded along the first two rows together, using a more general form of the theorem that works with k rows at a time. When k = 1, that general form matches the ordinary expansion. The same holds for any fixed choice of k columns.",
+    "cites": [
+     11,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mit-cofactors",
+   "kind": "course",
+   "title": "Determinant Formulas and Cofactors",
+   "by": "Gilbert Strang, MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/least-squares-determinants-and-eigenvalues/determinant-formulas-and-cofactors/",
+   "note": "MIT lecture video, notes and problems deriving determinant formulas, including the cofactor formula.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-expansion-minors",
+   "kind": "article",
+   "title": "Determinant Expansion by Minors",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/DeterminantExpansionbyMinors.html",
+   "note": "A reference entry on expanding a determinant along a row using minors and cofactors."
+  },
+  {
+   "id": "wikibooks-laplace",
+   "kind": "book",
+   "title": "Linear Algebra/Laplace's Expansion",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Laplace%27s_Expansion",
+   "note": "A free textbook section on expanding a determinant by cofactors along a row or column, with worked examples and exercises.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

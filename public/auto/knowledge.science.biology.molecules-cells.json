@@ -1,0 +1,492 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells",
+ "name": "Molecules & Cells",
+ "summary": [
+  {
+   "text": "Molecular biology is the branch of biology that studies the molecular structures and chemical processes behind biological activity inside and between cells.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It centers largely on nucleic acids such as DNA and RNA and on proteins, and on how these macromolecules carry out replication, transcription and translation.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Its techniques are used to target new drugs, diagnose disease, and better understand how cells work.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Main focus",
+   "value": "Nucleic acids and proteins",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Draws on",
+   "value": "Genetics, biochemistry, physics, mathematics, computer science",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "DNA double helix",
+   "value": "Published by Watson and Crick in 1953",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Genetic code",
+   "value": "Three DNA bases specify each amino acid",
+   "cites": [
+    25,
+    26
+   ]
+  },
+  {
+   "label": "Blender experiment",
+   "value": "Showed phage DNA holds what new phages need",
+   "cites": [
+    42,
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab measures the purines in a DNA sample (adenine plus guanine). What should the pyrimidines (cytosine plus thymine) total?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About half as much as the purines"
+    },
+    {
+     "id": "b",
+     "label": "Double the purines"
+    },
+    {
+     "id": "c",
+     "label": "The same amount as the purines"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since they occur only in RNA"
+    }
+   ],
+   "answer": "c",
+   "explain": "Chargaff found that the total concentration of purines is always equal to that of pyrimidines.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.biology.molecules-cells:q1"
+  },
+  {
+   "prompt": "A stretch of a gene's DNA is 12 bases long, read from a fixed start with no overlap, and codes for part of a protein. How many amino acids does it specify?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Four amino acids"
+    },
+    {
+     "id": "b",
+     "label": "Twelve amino acids"
+    },
+    {
+     "id": "c",
+     "label": "Six amino acids"
+    },
+    {
+     "id": "d",
+     "label": "Three amino acids"
+    }
+   ],
+   "answer": "a",
+   "explain": "Each triplet of bases (a codon) specifies one amino acid, and codons do not overlap, so 12 bases give 4.",
+   "cites": [
+    25,
+    26,
+    27
+   ],
+   "id": "knowledge.science.biology.molecules-cells:q2"
+  },
+  {
+   "prompt": "Researchers tag a virus's protein coat with one radioactive marker and its genetic material with another, then let it infect bacteria. What did this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The protein coat carried all the instructions for making new viruses"
+    },
+    {
+     "id": "b",
+     "label": "The bacteria supplied the instructions and the virus supplied none"
+    },
+    {
+     "id": "c",
+     "label": "Coat and genetic material were equally needed to make new viruses"
+    },
+    {
+     "id": "d",
+     "label": "The genetic material injected held everything needed to make new viruses"
+    }
+   ],
+   "answer": "d",
+   "explain": "Hershey and Chase showed the DNA injected by a phage contains all the information needed to make progeny phage.",
+   "cites": [
+    43,
+    44,
+    45
+   ],
+   "id": "knowledge.science.biology.molecules-cells:q3"
+  },
+  {
+   "prompt": "Cells were seen under microscopes in the 1700s, yet how they work at the molecular level stayed unclear for two centuries. What finally changed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Biologists dropped whole organisms and began studying only single cells"
+    },
+    {
+     "id": "b",
+     "label": "Tools from physics and chemistry advanced enough to be used on biology problems"
+    },
+    {
+     "id": "c",
+     "label": "A new law of inheritance was found in pea plants"
+    },
+    {
+     "id": "d",
+     "label": "Cells were seen for the very first time under a microscope"
+    }
+   ],
+   "answer": "b",
+   "explain": "Detailed understanding of cell mechanisms arrived in the 20th century once physics and chemistry technologies could be applied to biology.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.biology.molecules-cells:q4"
+  },
+  {
+   "prompt": "A biochemist studies pus-filled bandages and isolates a phosphorus-containing substance he calls nuclein. What do we now know it to be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A protein from bacteria"
+    },
+    {
+     "id": "b",
+     "label": "A sugar capsule"
+    },
+    {
+     "id": "c",
+     "label": "A fat-like wax"
+    },
+    {
+     "id": "d",
+     "label": "DNA"
+    }
+   ],
+   "answer": "d",
+   "explain": "Friedrich Miescher's nuclein is now known to be DNA.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.biology.molecules-cells:q5"
+  },
+  {
+   "prompt": "Why does a host's immune system fail against smooth-strain pneumococcus but beat the rough strain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rough strain's capsule makes it far easier for the host to attack"
+    },
+    {
+     "id": "b",
+     "label": "The smooth strain lacks any coat, so the immune system overlooks it"
+    },
+    {
+     "id": "c",
+     "label": "The smooth strain's polysaccharide capsule keeps the immune system from recognizing it"
+    },
+    {
+     "id": "d",
+     "label": "The rough strain makes antigens that smooth strains cannot produce"
+    }
+   ],
+   "answer": "c",
+   "explain": "The polysaccharide capsule hides smooth bacteria from the immune system, while the capsule-free rough strain is readily recognized and destroyed.",
+   "cites": [
+    33,
+    34,
+    35,
+    36
+   ],
+   "id": "knowledge.science.biology.molecules-cells:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Caulobacter-polar-microdomain.tif/lossy-page1-960px-Caulobacter-polar-microdomain.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Molecules & Cells",
+  "credit": "David S. Goodsell &amp; Keren Lasker",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Caulobacter-polar-microdomain.tif"
+ },
+ "source": {
+  "title": "Molecular biology",
+  "url": "https://en.wikipedia.org/wiki/Molecular_biology",
+  "revision": 1383796062
+ },
+ "pack": {
+  "id": "auto-biology-molecules-cells",
+  "title": "How DNA took the stage",
+  "question": "How did scientists work out that DNA carries life's instructions?",
+  "path": [
+   "Science",
+   "Biology",
+   "Molecules & Cells"
+  ],
+  "hue": 182,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Caulobacter-polar-microdomain.tif/lossy-page1-960px-Caulobacter-polar-microdomain.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Molecules & Cells",
+    "credit": "David S. Goodsell &amp; Keren Lasker · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caulobacter-polar-microdomain.tif",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "How DNA took the stage",
+    "hook": "A kitchen blender, pus-soaked bandages and pea plants all played a part."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-biology-molecules-cells:1",
+    "transfer": false,
+    "prompt": "Put these steps in the story of DNA in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "Mendel describes the laws of inheritance in pea plants"
+     },
+     {
+      "id": "b",
+      "label": "Miescher proposes a substance called nuclein, now known as DNA"
+     },
+     {
+      "id": "c",
+      "label": "Chargaff finds purines always equal pyrimidines"
+     },
+     {
+      "id": "d",
+      "label": "Watson and Crick publish the double helix"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Mendel's work dates to 1866, Miescher's to 1869, Chargaff's to 1950 and the double helix to 1953."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-biology-molecules-cells:2",
+    "transfer": true,
+    "prompt": "A virus has a protein coat and DNA inside. It infects bacteria, and the new viruses made carry its instructions. What gets injected, and what does that show?",
+    "explain": "Hershey and Chase showed the DNA injected by the phage contains all the information needed to make new phage particles.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Its DNA, which holds all the information to make new viruses"
+       },
+       {
+        "id": "b",
+        "label": "Its protein coat, which holds the instructions",
+        "feedback": "Proteins do many jobs, so this tempts, but the injected material is the DNA."
+       },
+       {
+        "id": "c",
+        "label": "Nothing, because the bacteria copy the virus from outside",
+        "feedback": "It seems simpler, but the phage injects its genetic material into the cells."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-biology-molecules-cells:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning about the genetic code is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A gene's DNA specifies the amino acids of a protein."
+     },
+     {
+      "id": "b",
+      "text": "Each successive amino acid is specified by three sequential bases."
+     },
+     {
+      "id": "c",
+      "text": "So the code is a triplet code, and each triplet is called a codon."
+     },
+     {
+      "id": "d",
+      "text": "Codons overlap, so each base helps specify several amino acids."
+     }
+    ],
+    "answer": "d",
+    "explain": "The codons were shown not to overlap, and each sequence is read from a fixed starting point."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Experiment by experiment, DNA was shown to carry genetic information in a double helix read three bases at a time.",
+    "connections": [
+     {
+      "title": "Biomolecules",
+      "place": "Molecules & Cells",
+      "node": "knowledge.science.biology.molecules-cells.biomolecules"
+     },
+     {
+      "title": "Cell structure",
+      "place": "Molecules & Cells",
+      "node": "knowledge.science.biology.molecules-cells.cell-structure"
+     },
+     {
+      "title": "Cell membrane",
+      "place": "Molecules & Cells",
+      "node": "knowledge.science.biology.molecules-cells.cell-membrane"
+     },
+     {
+      "title": "Metabolism",
+      "place": "Molecules & Cells",
+      "node": "knowledge.science.biology.molecules-cells.metabolism"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Mendel's work dates to 1866, Miescher's to 1869, Chargaff's to 1950 and the double helix to 1953.",
+    "source": "Wikipedia sentences 12, 16, 19, 22"
+   },
+   {
+    "claim": "Hershey and Chase showed the DNA injected by the phage contains all the information needed to make new phage particles.",
+    "source": "Wikipedia sentences 43, 44, 45"
+   },
+   {
+    "claim": "The codons were shown not to overlap, and each sequence is read from a fixed starting point.",
+    "source": "Wikipedia sentences 25, 26, 27"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Life at the scale of molecules",
+    "text": "Molecular biology tries to explain living things by looking at the molecules inside and between cells and the chemistry they carry out. Most of its attention goes to nucleic acids, such as DNA and RNA, and to proteins. It asks how these big molecules are built, what they do and how they act on one another as a cell copies its DNA, reads its genes and makes proteins. The field borrows from genetics, biochemistry, physics, mathematics and, more lately, computer science, in a branch called bioinformatics.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Why it arrived late",
+    "text": "Cells and other tiny structures had been spotted in living things as early as the 18th century. Yet a detailed picture of how cells work only came in the 20th century, once tools from physics and chemistry were good enough to turn on living things. Molecular biology grew up where biochemistry and genetics meet, as both fields came to seek the molecular workings behind a cell's vital tasks. Its progress has gone hand in hand with new technologies and their refinement.",
+    "cites": [
+     5,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "The double helix and the code",
+    "text": "In 1953 James Watson and Francis Crick published DNA's double helix, drawing on X-ray crystallography by Rosalind Franklin that reached them through Maurice Wilkins and Max Perutz. They also guessed at what the shape might mean for how DNA is copied. Watson, Crick and Wilkins shared the 1962 Nobel Prize in Physiology or Medicine. In 1961 it was shown that a gene spells out a protein three DNA letters at a time, each triplet, or codon, standing for one amino acid, read from a fixed start without overlaps.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Proving genes are DNA",
+    "text": "In 1928 Frederick Griffith worked with pneumococcus bacteria that were killing lab rats. One strain was smooth and deadly, coated in a polysaccharide capsule that hid it from the host's immune system; the other was rough, lacked the capsule and was easily destroyed. Griffith proposed that genes could pass between members of the same generation, now called genetic transformation. Alfred Hershey and Martha Chase confirmed that DNA is the genetic material: working with E. coli and a bacteriophage, they tagged the phage's protein coat and its DNA with different radioactive labels, and found that the DNA a phage injects into a bacterium holds everything needed to build new phages.",
+    "cites": [
+     29,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     40,
+     41,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Why it matters today",
+    "text": "Molecular biology gives scientists techniques for studying the processes inside cells. Those methods help aim new drugs, diagnose disease and understand how cells function. Some treatments that grew out of the field fall under gene therapy, and its use in medicine is now known as molecular medicine.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "cc-bio-20-carbon",
+   "kind": "video",
+   "title": "Carbon & Biological Molecules: What is Life Made Of?: Crash Course Biology #20",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=y7raEBOvLwU",
+   "note": "A Crash Course Biology episode on carbon and the biological molecules that living things are made of."
+  },
+  {
+   "id": "mit-7-28x",
+   "kind": "course",
+   "title": "7.28x Molecular Biology",
+   "by": "Prof. Stephen P. Bell, Prof. Tania Baker, Dr. Mary Ellen Wiltrout, Dr. Sera Thornton, Dr. Nathaniel Schafheimer, Dr. Swati Carr",
+   "url": "https://ocw.mit.edu/courses/res-7-008-7-28x-molecular-biology/",
+   "note": "A free MIT OpenCourseWare course in molecular biology for learners who want to go deeper.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

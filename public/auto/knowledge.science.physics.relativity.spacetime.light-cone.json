@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.spacetime.light-cone",
+ "name": "Light cone",
+ "summary": [
+  {
+   "text": "A light cone is the path that a flash of light from a single event, spreading in all directions, would trace through spacetime.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The future cone holds events that flash can reach, and the past cone holds events that could send a signal to reach the event.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "text": "Because nothing travels faster than light, light cones define causality: events outside both cones cannot influence or be influenced by the event.",
+   "cites": [
+    7,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Null cone",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Cone angle",
+   "value": "45 degrees when light speed is set to 1",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Outside the cones",
+   "value": "Called the event's absolute elsewhere",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "First proposed by",
+   "value": "Hermann Minkowski",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Observer agreement",
+   "value": "All observers put an event in the same cone",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A star lies 10,000 light-years from Earth. How long ago must something there have happened to influence an event on Earth today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Within the last year, if the signal is strong"
+    },
+    {
+     "id": "b",
+     "label": "At exactly this instant"
+    },
+    {
+     "id": "c",
+     "label": "Any time at all, since gravity is instant"
+    },
+    {
+     "id": "d",
+     "label": "At least 10,000 years ago"
+    }
+   ],
+   "answer": "d",
+   "explain": "The star is inside Earth's past light cone only at times 10,000 years or more in the past.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.light-cone:q1"
+  },
+  {
+   "prompt": "Two firecrackers go off at the same moment, in towns far apart, according to one frame. Can one have caused the other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, light cannot travel instantaneously, so each lies outside the other's cones"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the explosion was powerful enough"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if the observer is moving"
+    },
+    {
+     "id": "d",
+     "label": "No, because explosions never influence anything distant"
+    }
+   ],
+   "answer": "a",
+   "explain": "Events at different places at the same time are always outside each other's past and future light cones.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.light-cone:q2"
+  },
+  {
+   "prompt": "One observer says event X lies inside event E's future cone. A pilot speeding past in a rocket checks the same two events. What does she find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "X could be in the past cone for her"
+    },
+    {
+     "id": "b",
+     "label": "She agrees, since every frame sorts it alike"
+    },
+    {
+     "id": "c",
+     "label": "Her answer depends on her own speed"
+    },
+    {
+     "id": "d",
+     "label": "X is on E's cone only if she is at rest"
+    }
+   ],
+   "answer": "b",
+   "explain": "An event in a light cone for one observer is in the same cone for all observers, whatever their frame.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.light-cone:q3"
+  },
+  {
+   "prompt": "A signal leaves event E at light speed or slower. Which events can it possibly reach?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only events exactly on the surface of the cone"
+    },
+    {
+     "id": "b",
+     "label": "Any event at all, given enough time"
+    },
+    {
+     "id": "c",
+     "label": "Events in E's elsewhere region"
+    },
+    {
+     "id": "d",
+     "label": "Events on or inside E's future light cone"
+    }
+   ],
+   "answer": "d",
+   "explain": "The future cone contains every event that could receive a signal sent from E.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.light-cone:q4"
+  },
+  {
+   "prompt": "In the curved spacetime of general relativity, what can't be done with light cones that works in flat spacetime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tilting all of them so they are parallel"
+    },
+    {
+     "id": "b",
+     "label": "Drawing a future cone at all"
+    },
+    {
+     "id": "c",
+     "label": "Linking them to causality"
+    },
+    {
+     "id": "d",
+     "label": "Defining a cone for light"
+    }
+   ],
+   "answer": "a",
+   "explain": "Light cones cannot all be tilted parallel in curved spacetime, which sets it apart from Minkowski space.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.light-cone:q5"
+  },
+  {
+   "prompt": "Space is drawn in light-seconds and time in seconds, and every observer draws a 45-degree light cone. Why do they all agree?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each observer picks that angle by convention"
+    },
+    {
+     "id": "b",
+     "label": "Light slows down to match their drawing"
+    },
+    {
+     "id": "c",
+     "label": "Light has the same speed in every inertial frame"
+    },
+    {
+     "id": "d",
+     "label": "Gravity fixes the angle at exactly 45 degrees"
+    }
+   ],
+   "answer": "c",
+   "explain": "Because light's speed is equal in every inertial frame, all observers get the same 45-degree angle.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.science.physics.relativity.spacetime.light-cone:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/World_line.svg/960px-World_line.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Light cone",
+  "credit": "SVG version: K. Aainsqatsi at en.wikipedia Original PNG version: Stib at en.wiki",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:World_line.svg"
+ },
+ "source": {
+  "title": "Light cone",
+  "url": "https://en.wikipedia.org/wiki/Light_cone",
+  "revision": 1378342526
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "A flash spreading out",
+    "text": "Picture a single event: a flash of light at one place and one instant. In relativity, the light cone, also called the null cone, is the shape that flash traces through spacetime as its light heads off in every direction. If you keep the light to a flat plane, it spreads as a widening circle; stack those circles with time running up the page and you get a cone, the future light cone. The past light cone is the same picture run backwards: a circle that shrinks at light speed until it closes on the exact place and moment of the event.",
+    "cites": [
+     1,
+     2,
+     3,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Minkowski's picture",
+    "text": "This way of looking at special relativity goes back to Hermann Minkowski, and its setting is called Minkowski space. His aim was a spacetime that every observer would agree on. To protect cause and effect, he limited spacetime to a non-Euclidean, hyperbolic geometry. In a drawing, two flat axes stand for space and the vertical axis stands for time.",
+    "cites": [
+     4,
+     5,
+     6,
+     13
+    ]
+   },
+   {
+    "heading": "The edge of cause and effect",
+    "text": "No signal or influence can outrun light, and that makes the light cone the boundary of cause and effect. Every event on or inside the past cone of an event E could have sent a signal that arrives in time to affect E. Take the moment ten years before E: the slice of the past cone at that moment is a sphere with a radius of ten light-years, centred where E will happen. Anything on or inside it could reach E with a signal at light speed or slower, while anything outside it could not. In the same way, the future cone holds every event E could ever influence, and events in neither cone can neither affect E nor be affected by it.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "The elsewhere",
+    "text": "Everything outside both cones is called the absolute elsewhere of E. Events that are elsewhere from each other cannot observe each other and cannot be linked as cause and effect. Two events at different places but at the same time in one frame always land in this region, since light cannot cross a distance instantly. Other observers may disagree about when and where the two happened, but they will still find each outside the other's cones. In fact, every observer sorts events into the same cones, whatever their frame of reference.",
+    "cites": [
+     18,
+     19,
+     27,
+     28,
+     33
+    ]
+   },
+   {
+    "heading": "Why the sides slope at 45°",
+    "text": "Choose units where light's speed is exactly 1, such as measuring space in light-seconds and time in seconds. With the time axis drawn at right angles to the space axes, the edge of the cone then sits at 45°, because light covers one light-second each second. Special relativity demands the same speed of light in every inertial frame, so every observer gets that same 45° slope for their cones.",
+    "cites": [
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Looking back in time",
+    "text": "As time moves on, an event's future cone takes in more and more places. Run time backwards and its past cone does the same at earlier and earlier times. The farther away a place is, the further back you must go: for an event on Earth today, a star 10,000 light-years off only falls inside the past cone 10,000 or more years ago. At its outer edge, the past cone of an event on Earth now reaches every object in the observable universe, but only as each one looked long ago, when the universe was young.",
+    "cites": [
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "When spacetime curves",
+    "text": "In flat spacetime, the future cone is exactly the edge of everything an event can cause, and the past cone is the edge of everything that can cause it. In curved spacetime, assuming a condition called global hyperbolicity, the future cone still contains that edge. But gravitational lensing can fold part of a cone back on itself, so that some of it sits fully inside the causal future or past instead of on the boundary. Curved spacetime also does not let all the cones be tilted to line up parallel, which is what sets it apart from Minkowski space.",
+    "cites": [
+     37,
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "pbs-geometry-of-causality",
+   "kind": "video",
+   "title": "The Geometry of Causality",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=1YFrISfN7jo",
+   "minutes": 16,
+   "note": "A PBS Space Time episode on the causal structure of spacetime: what can and cannot affect an event."
+  }
+ ]
+}

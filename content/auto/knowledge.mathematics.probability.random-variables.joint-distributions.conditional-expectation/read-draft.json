@@ -1,0 +1,67 @@
+{
+ "paragraphs": [
+  {
+   "heading": "An average under conditions",
+   "text": "The conditional expectation of a random variable, also called its conditional mean, is its expected value worked out with the conditional probability distribution. When the variable can take only a finite number of values, the conditions say it can take only some of those values. In a discrete setting, the conditions split the possible outcomes into parts.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "heading": "Two ways to read it",
+   "text": "Depending on the setting, a conditional expectation is either a random variable or a function. As a random variable it is written E (X ∣ Y), much like conditional probability. As a function it is written E (X ∣ Y = y), or a new symbol such as f(y) is used, meaning E (X ∣ Y) = f(Y). If the condition has probability zero, the conditional expectation is undefined, because the formula would divide by zero.",
+   "cites": [
+    4,
+    5,
+    6,
+    19
+   ]
+  },
+  {
+   "heading": "A die example",
+   "text": "Roll a fair die. Let A be 1 for an even number and 0 otherwise, and let B be 1 for a prime (2, 3 or 5) and 0 otherwise. With no condition, the expectation of A is 1/2. Given B = 1, meaning the roll was 2, 3 or 5, the expectation of A falls to 1/3. Given B = 0, meaning a roll of 1, 4 or 6, it rises to 2/3. The expectations of B given A come out the same way: 1/3 when A = 1 and 2/3 when A = 0.",
+   "cites": [
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "heading": "Rainfall by the calendar",
+   "text": "Picture a weather station that logged the rain on each of 3652 days, from January 1, 1990, to December 31, 1999. The unconditional expectation of rainfall for some unnamed day is simply the average over all those days. If you know the day is in March, the conditional expectation is the average over the 310 March days in the decade. Narrow it to March 2, and it becomes the average of the ten days with that date.",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "heading": "Where the idea came from",
+   "text": "The related idea of conditional probability goes back at least to Laplace, who worked out conditional distributions. Andrey Kolmogorov put it on a formal footing in 1933, using the Radon–Nikodym theorem. In 1953 work by Paul Halmos and Joseph L. Doob, conditional expectation was broadened to its modern definition, built on sub-σ-algebras.",
+   "cites": [
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "heading": "Regression and approximations",
+   "text": "For random variables that are square integrable, conditional expectation is also called regression. Because it is often hard to compute exactly, applied mathematics and statistics often approximate it. Decision tree regression and linear regression are examples, each limiting the allowed form of the answer. These looser versions lose many of the original's properties; for instance, the tower property E (E _M (X)) = E (X) can fail when the allowed functions leave out the constants.",
+   "cites": [
+    24,
+    27,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ]
+  }
+ ]
+}

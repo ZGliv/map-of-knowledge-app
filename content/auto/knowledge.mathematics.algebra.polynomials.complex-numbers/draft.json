@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "A complex number has the form a + bi, where a and b are ordinary real numbers and i is the imaginary unit, a number that satisfies i² = −1.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Complex numbers extend the real numbers and still allow addition, subtraction, multiplication and division with the same familiar laws, which makes them a field.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "They give solutions to all non-constant polynomial equations, even ones with no real solutions, and each complex number can be pictured as a point on a plane.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Parts of 2 + 3i",
+   "value": "Real part is 2 and imaginary part is 3",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Real numbers inside",
+   "value": "A real number a is the complex number a + 0i",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Naming",
+   "value": "Square roots of negatives were named imaginary in the 17th century",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Multiplication on the plane",
+   "value": "Multiplying by a complex number scales and rotates the plane",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Absolute value",
+   "value": "The distance from the origin to the point",
+   "cites": [
+    36
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend argues that no number can be multiplied by itself to give a negative result, because positives and negatives both end up positive. How does the complex number system respond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It redefines negative numbers so that they square to negatives"
+    },
+    {
+     "id": "b",
+     "label": "It bans negative numbers from the system altogether"
+    },
+    {
+     "id": "c",
+     "label": "It adds a new number i that satisfies i² = −1"
+    },
+    {
+     "id": "d",
+     "label": "It proves the friend's claim about positives is false"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every nonzero real number squares to a positive number, so the system introduces the imaginary unit i, which satisfies i² = −1.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "prompt": "A complex number is a plain number plus a multiple of i. Which piece is called its imaginary part?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The real number that multiplies i, without the i itself"
+    },
+    {
+     "id": "b",
+     "label": "The whole second term, with the i included"
+    },
+    {
+     "id": "c",
+     "label": "The plain number that has no i attached"
+    },
+    {
+     "id": "d",
+     "label": "The sum of the two pieces added together"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a + bi, the imaginary part is the real number b, not the complex number bi.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "prompt": "A teacher writes an everyday whole number such as nine on the board and asks whether it counts as a complex number. What is the right reply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because its imaginary part is missing altogether"
+    },
+    {
+     "id": "b",
+     "label": "No, complex numbers must have a nonzero imaginary part"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only after it has been multiplied by i"
+    },
+    {
+     "id": "d",
+     "label": "Yes, it is that number plus 0i, with imaginary part 0"
+    }
+   ],
+   "answer": "d",
+   "explain": "The complex numbers extend the real numbers, and a real number a is regarded as the complex number a + 0i.",
+   "cites": [
+    2,
+    18
+   ]
+  },
+  {
+   "prompt": "A drawing program stores each point as a complex number. What happens to the picture if every point is multiplied by the same complex number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It slides across the page without turning"
+    },
+    {
+     "id": "b",
+     "label": "It is scaled and rotated"
+    },
+    {
+     "id": "c",
+     "label": "It is flipped over, like a mirror image"
+    },
+    {
+     "id": "d",
+     "label": "It stays exactly where it was before"
+    }
+   ],
+   "answer": "b",
+   "explain": "On the complex plane, multiplying by a complex number corresponds to scaling and rotation, while adding one corresponds to translation.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A point sits 3 units across and 4 units up on the complex plane. What does the absolute value of its complex number measure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How far the point is from the origin"
+    },
+    {
+     "id": "b",
+     "label": "How tall the point stands over the horizontal axis"
+    },
+    {
+     "id": "c",
+     "label": "The angle the point makes with the positive real axis"
+    },
+    {
+     "id": "d",
+     "label": "Which side of the plane the point lies on"
+    }
+   ],
+   "answer": "a",
+   "explain": "By Pythagoras' theorem, the absolute value is the distance from the origin to the point. The angle is a different quantity, called the argument.",
+   "cites": [
+    9,
+    36
+   ]
+  },
+  {
+   "prompt": "A complex number x + yi is multiplied by its conjugate, x − yi. What kind of number comes out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Another number with a nonzero imaginary part"
+    },
+    {
+     "id": "b",
+     "label": "A purely imaginary number, such as 3i"
+    },
+    {
+     "id": "c",
+     "label": "A real number that is never negative, x² + y²"
+    },
+    {
+     "id": "d",
+     "label": "Always minus one, whatever x and y are"
+    }
+   ],
+   "answer": "c",
+   "explain": "The product (x + iy)(x − iy) equals x² + y², which is a non-negative real number.",
+   "cites": [
+    34
+   ]
+  }
+ ]
+}

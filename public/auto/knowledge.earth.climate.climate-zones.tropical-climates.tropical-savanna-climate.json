@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate",
+ "name": "Tropical savanna climate",
+ "summary": [
+  {
+   "text": "The tropical savanna, or tropical wet and dry, climate is a tropical sub-type that Köppen labels Aw for a dry winter and As for a dry summer.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its driest month gets under 60 mm (2.4 in) of rain and falls below a limit set by yearly rainfall, and it tends to have less rain or a harsher dry season than a monsoon climate.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Its dryness tends to produce grasslands dotted with trees rather than thick jungle, and that tall, coarse grass gives the climate its savanna name.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Köppen codes",
+   "value": "Aw (dry winter) and As (dry summer)",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Driest month rain",
+   "value": "Less than 60 mm (2.4 in)",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Yearly rainfall ceiling",
+   "value": "Cannot exceed 2,500 mm (98 in)",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Typical landscape",
+   "value": "Tree-studded grassland rather than thick jungle",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Main regions",
+   "value": "Africa, Asia, Central America and South America",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Köppen requires a savanna's driest month to get less than 100 − ((Total Annual Precipitation (mm))/25) mm of rain. Why can a place with over 2,500 mm a year never qualify?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The limit would fall below zero"
+    },
+    {
+     "id": "b",
+     "label": "So much rain makes the place a desert"
+    },
+    {
+     "id": "c",
+     "label": "Savannas are judged on heat alone"
+    },
+    {
+     "id": "d",
+     "label": "Grass cannot survive that much rain"
+    }
+   ],
+   "answer": "a",
+   "explain": "Above 2,500 mm the formula gives a negative value, and no month can get less than zero rain.",
+   "cites": [
+    2,
+    6
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate:q1"
+  },
+  {
+   "prompt": "In most places with a tropical wet and dry climate, when does the dry season fall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When the sun is highest and days longest"
+    },
+    {
+     "id": "b",
+     "label": "When the sun is lower and days shorter"
+    },
+    {
+     "id": "c",
+     "label": "At a different random time each year"
+    },
+    {
+     "id": "d",
+     "label": "Never, since rain is spread evenly"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dry season usually comes in the time of lower sun and shorter days, when convection weakens as the Intertropical Convergence Zone shifts.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate:q2"
+  },
+  {
+   "prompt": "Why is the tropical wet and dry climate so often called the tropical savanna?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its dense evergreen forests"
+    },
+    {
+     "id": "b",
+     "label": "Its many slow river deltas"
+    },
+    {
+     "id": "c",
+     "label": "Its tall, coarse grasslands"
+    },
+    {
+     "id": "d",
+     "label": "Its long, steady rainy season"
+    }
+   ],
+   "answer": "c",
+   "explain": "The widespread tall, coarse grass called savanna led to Aw and As climates being known as the tropical savanna.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate:q3"
+  },
+  {
+   "prompt": "A hiker crossing land with a tropical savanna climate expects open grass with no trees anywhere. Is that typical?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, trees cannot grow in this climate"
+    },
+    {
+     "id": "b",
+     "label": "Yes, trees appear only along the coasts"
+    },
+    {
+     "id": "c",
+     "label": "No, it is usually thick, closed jungle"
+    },
+    {
+     "id": "d",
+     "label": "No, treeless savanna is the exception"
+    }
+   ],
+   "answer": "d",
+   "explain": "The landscape is usually grassland studded with trees; pure savannas without trees are the exception rather than the rule.",
+   "cites": [
+    8,
+    11
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate:q4"
+  },
+  {
+   "prompt": "How is a typical tropical savanna place's yearly rain spread out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mostly in the wet season, very little in the dry"
+    },
+    {
+     "id": "b",
+     "label": "Evenly, with about the same rain every month"
+    },
+    {
+     "id": "c",
+     "label": "Mostly in the dry season, oddly enough"
+    },
+    {
+     "id": "d",
+     "label": "In a few storms spread at random"
+    }
+   ],
+   "answer": "a",
+   "explain": "Most of the annual rain comes in the wet season, and very little falls during the dry season.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate:q5"
+  },
+  {
+   "prompt": "Travelling inland from the dry Caribbean coast of South America toward the Amazon, what happens to the dry season?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows longer and harsher"
+    },
+    {
+     "id": "b",
+     "label": "It grows shorter and milder"
+    },
+    {
+     "id": "c",
+     "label": "It stays exactly the same"
+    },
+    {
+     "id": "d",
+     "label": "It turns into a snowy winter"
+    }
+   ],
+   "answer": "b",
+   "explain": "The length and severity of the dry season diminish inland, until at the latitude of the Amazon the climate becomes rainforest (Af).",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Koppen-Geiger_Map_v2_Aw_1991%E2%80%932020.svg/960px-Koppen-Geiger_Map_v2_Aw_1991%E2%80%932020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tropical savanna climate",
+  "credit": "Beck, H.E., McVicar, T.R., Vergopolan, N., Alexis, B., Lutsko, N.J., Dufour, A.,",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Koppen-Geiger_Map_v2_Aw_1991%E2%80%932020.svg"
+ },
+ "source": {
+  "title": "Tropical savanna climate",
+  "url": "https://en.wikipedia.org/wiki/Tropical_savanna_climate",
+  "revision": 1377583042
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A wet season and a dry one",
+    "text": "The tropical savanna climate, also called the tropical wet and dry climate, is a kind of tropical climate. The Köppen classification labels it Aw when the dry season falls in winter and As when it falls in summer. Its driest month gets under 60 mm (2.4 in) of rain, and also under 100 − ((Total Annual Precipitation (mm))/25)mm. A monsoon climate's driest month is also under 60 mm but above that second number, so a savanna usually gets less rain overall or has a harsher dry season.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "What the formula means",
+    "text": "The formula has some neat results. If a place gets less than 1,000 mm (39 in) of rain a year, the limit it gives is above 60 mm, so the place cannot be a monsoon climate. A savanna also cannot get more than 2,500 mm (98 in) a year, because the formula would then give a negative number.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Grass dotted with trees",
+    "text": "The dry season can turn severe, and drought often takes hold for part of the year. Because of this dryness, the land tends to be grassland scattered with trees rather than dense jungle. Tall, coarse grass of this kind is called savanna, and its wide spread is why these climates carry that name. Even so, some doubt that the climate is what creates these grasslands, and pure savannas with no trees are rare.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Many versions of one climate",
+    "text": "In one version, wet and dry seasons last about equally long, with most of the rain in the wet season and very little in the dry one. At the drier end, a short wet season brings just enough rain to stop the place counting as semi-arid; this form often borders hot semi-arid (BSh) lands in India, Northern Australia, Brazil and Africa's Sahel. At the other end, a long dry season gives way to a short but very rainy wet season, though that wet season still brings too little rain to count as monsoon (Am).",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Closer to a monsoon",
+    "text": "Another version has a long, fairly wet season and a short dry one, with seven or more wet months and five or fewer dry months. Yet another has a dry season that still gets noticeable rain, followed by a rainy wet season. That pattern looks like a monsoon climate's, but the rain in the dry season or across the year falls short of the mark.",
+    "cites": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Where it is found",
+    "text": "This climate is most common in Africa, Asia, Central America and South America. It also covers parts of northern Australia, the Pacific Islands, south Florida and some Caribbean islands. Most of these places sit at the outer edges of the tropical zone, though now and then a place inside the tropics, such as San Marcos in Antioquia, Colombia, also qualifies. The name comes from the llanos, or savannas, of the Orinoco river, east of the Andes between the dry Caribbean and the always-wet Amazon.",
+    "cites": [
+     23,
+     24,
+     25,
+     30
+    ]
+   },
+   {
+    "heading": "Dry winters and dry summers",
+    "text": "In most places with this climate, the dry season comes when the sun is lower and days are shorter. That is because convection weakens or stops as the ITCZ shifts north and south over the year. The label As is used instead when the dry season comes during high sun and longer days, usually because a rain shadow blocks the summer rain the ITCZ would bring. This happens in parts of Hawaii, East Africa, Sri Lanka and southeast India, though the gap between summer and winter there is often so small that the difference hardly matters.",
+    "cites": [
+     31,
+     32,
+     33,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-savanna",
+   "kind": "book",
+   "title": "9.4.3: Tropical Wet/Dry (Savanna) Climate",
+   "by": "Michael E. Ritter, University of Wisconsin-Stevens Point",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.04%3A_Low_Latitude_Climates/9.4.03%3A_Tropical_Wet_Dry_(Savanna)_Climate",
+   "note": "A free textbook section on how the shifting ITCZ and subtropical high bring the savanna's wet and dry seasons.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

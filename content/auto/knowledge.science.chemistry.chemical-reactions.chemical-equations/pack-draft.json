@@ -1,0 +1,126 @@
+{
+ "title": "Chemistry's Shorthand, Decoded",
+ "question": "How do you read a chemical equation and tell if it is right?",
+ "hook": "One line of symbols can say what goes in, what comes out, and what energy is added.",
+ "idea": "An equation puts reactants on the left and products on the right, and it is balanced when every element has the same atom count on both sides.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You count atoms in a draft equation: 3 oxygen atoms on the left, 2 on the right. What should you conclude?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Oxygen was destroyed in the reaction",
+     "feedback": "No nuclear reactions take place in a chemical reaction, so the elements pass through unchanged and nothing is destroyed."
+    },
+    {
+     "id": "b",
+     "label": "It is fine as long as the arrow points toward the products",
+     "feedback": "The arrow shows direction, but a balanced equation needs the same number of atoms of each element on both sides."
+    },
+    {
+     "id": "c",
+     "label": "It is not balanced, so the coefficients need adjusting"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each side must show the same number of atoms of an element, and an equation is balanced by assigning suitable coefficients.",
+   "cites": [
+    24,
+    25,
+    27,
+    28
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each piece of notation to what it tells you.",
+   "pairs": [
+    [
+     "A coefficient",
+     "How many entities of a substance take part"
+    ],
+    [
+     "A plus sign",
+     "Separates substances on one side"
+    ],
+    [
+     "Δ on the arrow",
+     "Energy added as heat"
+    ],
+    [
+     "hν on the arrow",
+     "Energy added as light"
+    ]
+   ],
+   "explain": "Coefficients count entities, plus signs separate substances, and Δ and hν show the form of added energy.",
+   "cites": [
+    8,
+    10,
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each item by where it is written.",
+   "groups": [
+    "On the arrow",
+    "In the sides"
+   ],
+   "items": [
+    [
+     "Δ",
+     "On the arrow"
+    ],
+    [
+     "hν",
+     "On the arrow"
+    ],
+    [
+     "H⁺",
+     "On the arrow"
+    ],
+    [
+     "A reactant's formula",
+     "In the sides"
+    ],
+    [
+     "A product's formula",
+     "In the sides"
+    ],
+    [
+     "A stoichiometric coefficient",
+     "In the sides"
+    ]
+   ],
+   "explain": "Energy and medium symbols go on the arrow, while formulas and their coefficients are written in the reactant and product sides.",
+   "cites": [
+    2,
+    6,
+    7,
+    12,
+    13,
+    16
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Elements pass through a chemical reaction unchanged.",
+    "So each side of the equation must show the same number of atoms of each element.",
+    "An equation that meets this is said to be balanced.",
+    "So to balance an equation, you change the small numbers inside each formula."
+   ],
+   "wrong": 3,
+   "explain": "A chemical equation is balanced by assigning suitable values to the stoichiometric coefficients.",
+   "cites": [
+    24,
+    25,
+    27,
+    28
+   ]
+  }
+ ]
+}

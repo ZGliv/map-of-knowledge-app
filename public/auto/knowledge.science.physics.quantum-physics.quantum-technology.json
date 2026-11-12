@@ -1,0 +1,560 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.quantum-technology",
+ "name": "Quantum technology",
+ "summary": [
+  {
+   "text": "Quantum technology is engineering that builds devices from the laws of quantum mechanics, such as quantum sensors and quantum computers.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Governments and companies fund it heavily: the EU launched a €1 billion flagship in 2016, and a 2018 US law provides US$1 billion a year.",
+   "cites": [
+    5,
+    6,
+    10
+   ]
+  },
+  {
+   "text": "Its main branches are secure communication, computing, simulation and very precise sensing.",
+   "cites": [
+    12,
+    19,
+    26,
+    32
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "EU flagship",
+   "value": "A €1 billion, 10-year project introduced in 2016",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "US funding",
+   "value": "The 2018 National Quantum Initiative Act gives US$1 billion a year",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "The qubit",
+   "value": "A two-level system that can be 1, 0, or a superposition",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Simulator idea",
+   "value": "First published by Richard Feynman in 1982",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Sensor uses",
+   "value": "Positioning, gravimetry, field sensing and medical diagnosis",
+   "cites": [
+    35,
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A spy wants a spare copy of a qubit to read later without disturbing the original. Why does this plan fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Qubits are far too small for any device to detect"
+    },
+    {
+     "id": "b",
+     "label": "Measuring a quantum system changes it, so a qubit cannot be copied"
+    },
+    {
+     "id": "c",
+     "label": "Copies can be made but they decay within a day"
+    },
+    {
+     "id": "d",
+     "label": "Only government labs are legally allowed to copy them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Measuring the properties of a quantum system causes the system to change, which is why a qubit cannot be copied.",
+   "cites": [
+    18,
+    21
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology:q1"
+  },
+  {
+   "prompt": "Two offices share a key using entangled light, and a third party taps the line. What do the offices notice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The message arrives faster than normal"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, because quantum signals cannot be tapped silently"
+    },
+    {
+     "id": "c",
+     "label": "The interception is obvious to them"
+    },
+    {
+     "id": "d",
+     "label": "The key automatically changes to a longer one"
+    }
+   ],
+   "answer": "c",
+   "explain": "Quantum key distribution transmits information so that any interception of it is obvious to the users.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology:q2"
+  },
+  {
+   "prompt": "Why might a lottery prefer a quantum random number generator to an ordinary program?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It yields truly random numbers, while ordinary algorithms only imitate randomness"
+    },
+    {
+     "id": "b",
+     "label": "It produces numbers much faster than any ordinary program"
+    },
+    {
+     "id": "c",
+     "label": "It picks numbers that are more likely to win"
+    },
+    {
+     "id": "d",
+     "label": "It needs no electricity to run at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Non-quantum algorithms imitate randomness, while a quantum generator can produce truly random numbers.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology:q3"
+  },
+  {
+   "prompt": "A team wants to squeeze more into each use of a channel, with one qubit doing the work of two ordinary bits. Which technique is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Quantum teleportation"
+    },
+    {
+     "id": "b",
+     "label": "Quantum sensing"
+    },
+    {
+     "id": "c",
+     "label": "Quantum clustering"
+    },
+    {
+     "id": "d",
+     "label": "Quantum dense coding"
+    }
+   ],
+   "answer": "d",
+   "explain": "Dense coding uses one qubit in place of two classical bits, boosting channel capacity through entanglement.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology:q4"
+  },
+  {
+   "prompt": "Why is a machine built just to imitate one chemical compound easier to build than a general-purpose quantum computer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It needs far fewer people to design it"
+    },
+    {
+     "id": "b",
+     "label": "It does not need complete control over every component"
+    },
+    {
+     "id": "c",
+     "label": "It works at ordinary room conditions without care"
+    },
+    {
+     "id": "d",
+     "label": "It stores information in ordinary bits only"
+    }
+   ],
+   "answer": "b",
+   "explain": "Quantum simulators are simpler because complete control over every component is not necessary.",
+   "cites": [
+    26,
+    28
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology:q5"
+  },
+  {
+   "prompt": "Alice teleports a qubit's condition to Bob, far away. What actually travels to him?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The original particle, sped up to light speed"
+    },
+    {
+     "id": "b",
+     "label": "A perfect physical copy built on arrival"
+    },
+    {
+     "id": "c",
+     "label": "The quantum state, without the particle being sent directly"
+    },
+    {
+     "id": "d",
+     "label": "Only a classical bit with no quantum content"
+    }
+   ],
+   "answer": "c",
+   "explain": "Teleportation moves the quantum state of a qubit over a long distance without sending the particle itself.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/QD_S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Quantum technology",
+  "credit": "Walkman16",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:QD_S.jpg"
+ },
+ "source": {
+  "title": "Quantum engineering",
+  "url": "https://en.wikipedia.org/wiki/Quantum_engineering",
+  "revision": 1383460943
+ },
+ "pack": {
+  "id": "auto-quantum-physics-quantum-technology",
+  "title": "The Unphotocopiable Bit",
+  "question": "Why can't a qubit be copied, and how do engineers use that?",
+  "path": [
+   "Science",
+   "Physics",
+   "Quantum physics",
+   "Quantum technology"
+  ],
+  "hue": 190,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/QD_S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Quantum technology",
+    "credit": "Walkman16 · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:QD_S.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The Unphotocopiable Bit",
+    "hook": "The same rule that makes quantum data impossible to duplicate also makes it hard to spy on."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-quantum-physics-quantum-technology:1",
+    "transfer": false,
+    "prompt": "A spy taps the light carrying a quantum key between two offices and tries to read it. What happens?",
+    "explain": "Quantum key distribution transmits information in a way that makes any interception obvious to the user.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The key grows stronger because it was read",
+        "feedback": "Reading does not strengthen anything; it disturbs the transmission."
+       },
+       {
+        "id": "b",
+        "label": "Nothing changes, since reading light leaves no trace",
+        "feedback": "This is how ordinary taps work, but a quantum transmission is built so that interception shows."
+       },
+       {
+        "id": "a",
+        "label": "The interception becomes obvious to the offices"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-quantum-physics-quantum-technology:2",
+    "transfer": false,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A qubit can be 1, 0, or any superposition of them."
+     },
+     {
+      "id": "b",
+      "text": "Measuring a quantum system changes it."
+     },
+     {
+      "id": "c",
+      "text": "So measure a qubit many times to build perfect backups."
+     },
+     {
+      "id": "d",
+      "text": "That is why a qubit cannot be copied."
+     }
+    ],
+    "answer": "c",
+    "explain": "Because measuring changes the system, repeated measuring cannot give backups; that is exactly why copying fails."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-quantum-physics-quantum-technology:3",
+    "transfer": true,
+    "prompt": "match each tool to what it does",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Quantum sensor"
+     },
+     {
+      "id": "l1",
+      "label": "Quantum simulator"
+     },
+     {
+      "id": "l2",
+      "label": "Quantum random number generator"
+     },
+     {
+      "id": "l3",
+      "label": "Quantum teleportation"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Moves a qubit's state without sending the particle"
+     },
+     {
+      "id": "r1",
+      "label": "Imitates a real-world system such as a chemical compound"
+     },
+     {
+      "id": "r2",
+      "label": "Produces truly random numbers"
+     },
+     {
+      "id": "r0",
+      "label": "Makes very precise measurements"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each tool uses a quantum feature for a different job."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-quantum-physics-quantum-technology:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Quantum key distribution"
+     },
+     {
+      "id": "i1",
+      "label": "Quantum dense coding"
+     },
+     {
+      "id": "i2",
+      "label": "Quantum teleportation"
+     },
+     {
+      "id": "i3",
+      "label": "Quantum simulator"
+     },
+     {
+      "id": "i4",
+      "label": "Quantum clustering of data"
+     },
+     {
+      "id": "i5",
+      "label": "Shor's algorithm"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Secure communication"
+     },
+     {
+      "id": "g1",
+      "label": "Computing"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "The first three are techniques for quantum secure communication; the others are things quantum computers are expected to run."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Measuring a quantum system changes it, which limits copying but lets engineers build communication where interception shows.",
+    "connections": [
+     {
+      "title": "Quantum computing",
+      "place": "Quantum technology",
+      "node": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-computing"
+     },
+     {
+      "title": "Quantum entanglement",
+      "place": "Quantum technology",
+      "node": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-entanglement"
+     },
+     {
+      "title": "Quantum cryptography",
+      "place": "Quantum technology",
+      "node": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography"
+     },
+     {
+      "title": "Superconductivity",
+      "place": "Quantum technology",
+      "node": "knowledge.science.physics.quantum-physics.quantum-technology.superconductivity"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Quantum key distribution transmits information in a way that makes any interception obvious to the user.",
+    "source": "Wikipedia sentences 14"
+   },
+   {
+    "claim": "Because measuring changes the system, repeated measuring cannot give backups; that is exactly why copying fails.",
+    "source": "Wikipedia sentences 20, 21"
+   },
+   {
+    "claim": "Each tool uses a quantum feature for a different job.",
+    "source": "Wikipedia sentences 15, 22, 26, 32"
+   },
+   {
+    "claim": "The first three are techniques for quantum secure communication; the others are things quantum computers are expected to run.",
+    "source": "Wikipedia sentences 13, 24, 26, 31"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Engineering with quantum rules",
+    "text": "Quantum engineering is the development of technology that takes advantage of the laws of quantum mechanics. It uses those laws to build things such as quantum sensors and quantum computers. It is growing into an engineering discipline of its own. There is a bachelor of quantum engineering at the University of New South Wales, and the Universität des Saarlandes offers both a Bachelor and a Master of Science in it.",
+    "cites": [
+     1,
+     2,
+     42,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Who is paying for it",
+    "text": "Since 2010, several governments have created programmes for quantum technologies; one is the UK National Quantum Technologies Programme. In 2016 the European Union launched the Quantum Technology Flagship, a €1 Billion project running 10 years. The United States passed its National Quantum Initiative Act in December 2018, which gives quantum research a US$1 billion budget each year. China is putting up what will be the largest quantum research facility in the world, with 76 billion Yuan planned for it, and large companies have invested as well.",
+    "cites": [
+     3,
+     5,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "heading": "Secure communication",
+    "text": "Quantum secure communication is thought to stay safe even once quantum computers can run Shor's algorithm to break current cryptography. One technique, quantum key distribution (QKD), sends information using entangled light so that any interception is obvious to the user. A quantum random number generator produces truly random numbers, unlike ordinary algorithms that only imitate randomness. Also, a qubit cannot be copied, because measuring a quantum system changes it.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     18,
+     21
+    ]
+   },
+   {
+    "heading": "Computers and simulators",
+    "text": "Quantum computing replaces the classical bit with the qubit, a two-level quantum system that can be 1, 0, or any superposition of the two. Quantum computers are famous mainly because they are expected to be able to run Shor's algorithm, a method that can factor large numbers. Quantum simulators are quantum computers meant to imitate a real system, such as a chemical compound, an idea Richard Feynman first published in 1982. They are simpler to build than general-purpose quantum computers because they do not need complete control over every component.",
+    "cites": [
+     19,
+     20,
+     24,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Very precise sensing",
+    "text": "Quantum sensing uses certain quantum features to make very precise measurements. Neutral atoms and trapped ions are used as sensors because they are fairly easy to manipulate and to put into a well-known state. Hoped-for uses include positioning systems, communication technology, electric and magnetic field sensors, and gravimetry. In civil engineering, measurements from quantum gravimetry may help reveal unknown conditions underground.",
+    "cites": [
+     32,
+     33,
+     35,
+     36,
+     38
+    ]
+   },
+   {
+    "heading": "Sensors in medicine",
+    "text": "Quantum sensors are also being considered in medicine. They could pick up the conductivity of arteries and organs, the firing of neurons, how chemotherapy is progressing, and isotopes inside the body. Methods include spin entanglement, atomic spins used as magnetic sensors, and squeezed light. The results could help diagnose heart problems, malnutrition, early-stage osteoporosis, kidney disease and certain cancers.",
+    "cites": [
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "penfield-quantum-information",
+   "kind": "book",
+   "title": "13: Quantum Information - Information and Entropy (Penfield)",
+   "by": "Paul Penfield",
+   "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Information_and_Entropy_(Penfield)/13%3A_Quantum_Information",
+   "note": "A free chapter on qubits, entanglement, quantum communication, cryptography and quantum algorithms."
+  }
+ ]
+}

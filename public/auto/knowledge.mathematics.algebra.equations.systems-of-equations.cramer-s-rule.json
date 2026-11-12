@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule",
+ "name": "Cramer's rule",
+ "summary": [
+  {
+   "text": "Cramer's rule is an explicit formula for solving a system of linear equations with as many equations as unknowns, valid whenever the system has a unique solution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It writes the solution using determinants of the coefficient matrix and of matrices where one column is replaced by the right-hand sides.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "It is named after Gabriel Cramer, who published it in 1750, though Colin Maclaurin published special cases in 1748.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Published",
+   "value": "Gabriel Cramer, 1750, for any number of unknowns",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Earlier cases",
+   "value": "Colin Maclaurin published special cases in 1748",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Number system",
+   "value": "Works over any field, not just real numbers",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Requirement",
+   "value": "The coefficient determinant must be nonzero",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Geometry",
+   "value": "A determinant of n vectors gives a parallelepiped's volume",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A system has three equations but four unknowns. Can Cramer's rule be used directly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it needs as many equations as unknowns"
+    },
+    {
+     "id": "b",
+     "label": "Yes, whenever any solution exists"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if all coefficients are whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "No, it only works with two unknowns"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rule applies to systems with as many equations as unknowns.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule:q1"
+  },
+  {
+   "prompt": "You compute the coefficient determinant and it comes out zero. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The system has exactly one solution"
+    },
+    {
+     "id": "b",
+     "label": "All the unknowns are zero"
+    },
+    {
+     "id": "c",
+     "label": "The rule does not apply to this system"
+    },
+    {
+     "id": "d",
+     "label": "The solution is zero for every unknown"
+    }
+   ],
+   "answer": "c",
+   "explain": "Cramer's rule applies to the case where the coefficient determinant is nonzero.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule:q2"
+  },
+  {
+   "prompt": "To find the second unknown with Cramer's rule, how do you build the matrix for its numerator?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Delete the second row"
+    },
+    {
+     "id": "b",
+     "label": "Replace the second column with the right-hand sides"
+    },
+    {
+     "id": "c",
+     "label": "Replace the second row with the right-hand sides"
+    },
+    {
+     "id": "d",
+     "label": "Swap the first and second columns"
+    }
+   ],
+   "answer": "b",
+   "explain": "The numerator matrix replaces one column of the coefficient matrix by the column of right-hand sides.",
+   "cites": [
+    2,
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule:q3"
+  },
+  {
+   "prompt": "A 2×2 system has coefficient determinant zero but nonzero numerator determinants. What is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solved by all unknowns being zero"
+    },
+    {
+     "id": "b",
+     "label": "Indeterminate, with infinitely many"
+    },
+    {
+     "id": "c",
+     "label": "Uniquely solvable"
+    },
+    {
+     "id": "d",
+     "label": "Inconsistent, with no solutions"
+    }
+   ],
+   "answer": "d",
+   "explain": "In the 2×2 case, a zero coefficient determinant with nonzero numerators means the system is inconsistent.",
+   "cites": [
+    37,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule:q4"
+  },
+  {
+   "prompt": "Someone says Cramer's rule only works when the coefficients are real numbers. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, it holds in any field"
+    },
+    {
+     "id": "b",
+     "label": "Yes, real numbers only"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but whole numbers too"
+    },
+    {
+     "id": "d",
+     "label": "No, but only for rational numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rule holds for coefficients and unknowns in any field, not just the real numbers.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule:q5"
+  },
+  {
+   "prompt": "Geometrically, what does the determinant of n vectors of length n give?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The angle between the first two"
+    },
+    {
+     "id": "b",
+     "label": "The sum of their lengths"
+    },
+    {
+     "id": "c",
+     "label": "The volume of the parallelepiped they determine"
+    },
+    {
+     "id": "d",
+     "label": "The number of solutions"
+    }
+   ],
+   "answer": "c",
+   "explain": "The determinant of n vectors of length n gives the volume of the parallelepiped they determine.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.equations.systems-of-equations.cramer-s-rule:q6"
+  }
+ ],
+ "source": {
+  "title": "Cramer's rule",
+  "url": "https://en.wikipedia.org/wiki/Cramer%27s_rule",
+  "revision": 1384108475
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A formula for each unknown",
+    "text": "Cramer's rule is an explicit formula that solves a system of linear equations having as many equations as unknowns, whenever that system has exactly one solution. It writes each unknown using determinants: one of the square coefficient matrix A, and one of a matrix Aᵢ made by swapping the i-th column of A for the column b of right-hand sides.",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "heading": "What a determinant measures",
+    "text": "Geometrically, the determinant of n vectors of length n gives the volume of the slanted box, or parallelepiped, that those vectors span in n-dimensional space. This picture offers a way to see why the rule works, and the argument is not limited to two equations in two unknowns.",
+    "cites": [
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Who it is named after",
+    "text": "The rule carries the name of Gabriel Cramer, who published it for any number of unknowns in 1750. Colin Maclaurin had already published special cases in 1748, and may have known it as early as 1729.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "heading": "Why it works",
+    "text": "The proof leans on two facts about determinants. A determinant is linear in any single column, and it equals zero whenever two columns are the same. The rule also holds when the numbers come from any field, not only the real numbers. It even yields a formula for the inverse of A, as long as det(A) ≠ 0.",
+    "cites": [
+     6,
+     7,
+     12
+    ]
+   },
+   {
+    "heading": "When the determinant is zero",
+    "text": "The rule needs the coefficient determinant to be nonzero. A system with no solutions is called inconsistent, and one with more than one solution is called indeterminate. For two equations in two unknowns with a zero coefficient determinant, nonzero numerator determinants mean the system is inconsistent, while zero ones mean it is indeterminate. For three or more unknowns, a nonzero numerator still means inconsistent, but all zeros proves nothing. The three equations x+y+z=1, x+y+z=2 and x+y+z=3 make every determinant vanish, yet they have no solution.",
+    "cites": [
+     37,
+     39,
+     40,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Where it turns up",
+    "text": "The method of variation of parameters relies on Cramer's rule to find the general solution of an inhomogeneous linear differential equation. It also proves that an integer programming problem with a totally unimodular constraint matrix and integer right-hand side has integer basic solutions, which makes such problems much easier. It can also show that the divergence operator on a Riemannian manifold does not change when coordinates change.",
+    "cites": [
+     16,
+     24,
+     25,
+     26
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-8",
+   "kind": "book",
+   "title": "7.8 Solving Systems with Cramer's Rule",
+   "by": "OpenStax (Jay Abramson et al.)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/7-8-solving-systems-with-cramers-rule",
+   "note": "A free textbook section on 2×2 and 3×3 determinants and using them to solve systems step by step."
+  },
+  {
+   "id": "mit-cramers-rule",
+   "kind": "course",
+   "title": "Cramer's Rule, Inverse Matrix and Volume",
+   "by": "Gilbert Strang, MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/least-squares-determinants-and-eigenvalues/cramers-rule-inverse-matrix-and-volume/",
+   "note": "An MIT lecture linking Cramer's rule, the inverse matrix and the determinant as a volume, with notes and problems.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-cramers-rule",
+   "kind": "article",
+   "title": "Cramer's Rule",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/CramersRule.html",
+   "note": "A reference deriving the rule for three equations, generalizing to n, and covering the zero-determinant case."
+  },
+  {
+   "id": "3b1b-cramers-rule",
+   "kind": "video",
+   "title": "Cramer's rule, explained geometrically",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=jBsC34PxzoM",
+   "note": "A visual explanation of why Cramer's rule works, using areas and volumes."
+  }
+ ]
+}

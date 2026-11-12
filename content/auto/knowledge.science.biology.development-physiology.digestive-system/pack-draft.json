@@ -1,0 +1,107 @@
+{
+ "title": "A meal's three-stage trip",
+ "question": "How does a bite of food turn into something the body can use?",
+ "hook": "Your gut starts getting ready the moment you smell dinner.",
+ "idea": "Digestion happens in three stages, and the small intestine is where most of it takes place.",
+ "beats": [
+  {
+   "kind": "order",
+   "prompt": "Put these steps of one meal's digestion in order.",
+   "items": [
+    "Glands release secretions at the sight and smell of food",
+    "Chewing mixes the food with saliva",
+    "Gastric juice mixes with the food in the stomach",
+    "Pancreatic enzymes mix with the partly digested food"
+   ],
+   "ends": [
+    "Start",
+    "End"
+   ],
+   "explain": "The cephalic phase begins with the sight and smell of food and chewing, the gastric phase follows in the stomach, and the intestinal phase with pancreatic enzymes completes digestion.",
+   "cites": [
+    4,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each part of the system to what it supplies or does.",
+   "pairs": [
+    [
+     "Salivary glands",
+     "Saliva with amylase"
+    ],
+    [
+     "Stomach",
+     "Gastric juice"
+    ],
+    [
+     "Pancreas",
+     "Digestive enzymes for the intestinal phase"
+    ],
+    [
+     "Large intestine",
+     "Takes water back into the blood"
+    ]
+   ],
+   "explain": "Each organ adds its own piece: saliva at the start, gastric juice in the stomach, pancreatic enzymes at the end, and water reabsorbed from what remains.",
+   "cites": [
+    5,
+    7,
+    8,
+    14
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Partly digested food has just left the stomach and entered the duodenum, the first part of the small intestine. What does it mix with there?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Pancreatic digestive enzymes"
+    },
+    {
+     "id": "b",
+     "label": "Fresh saliva",
+     "feedback": "Saliva is added in the mouth during the first stage, long before the duodenum."
+    },
+    {
+     "id": "c",
+     "label": "Nothing, because digestion is already finished",
+     "feedback": "It tempts because the stomach does a lot of work, but the intestinal phase is what completes digestion."
+    },
+    {
+     "id": "d",
+     "label": "More food bolus from the esophagus",
+     "feedback": "The bolus is what enters the stomach; by the duodenum the food has already been partly digested."
+    }
+   ],
+   "answer": "a",
+   "explain": "In the intestinal phase, partly digested food is mixed with pancreatic digestive enzymes, which completes digestion.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "Digestion breaks food into pieces small enough to be absorbed.",
+    "The large intestine takes back water and some minerals from what is left.",
+    "Since it handles food last, the large intestine does most of the digesting.",
+    "Waste then leaves from the rectum through the anus."
+   ],
+   "wrong": 2,
+   "explain": "Most digestion takes place in the small intestine; the large intestine mainly reabsorbs water and minerals.",
+   "cites": [
+    2,
+    13,
+    14,
+    15
+   ]
+  }
+ ]
+}

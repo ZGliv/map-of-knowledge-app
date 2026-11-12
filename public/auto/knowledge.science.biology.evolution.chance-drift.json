@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.evolution.chance-drift",
+ "name": "Chance and drift",
+ "summary": [
+  {
+   "text": "Genetic drift is a change in how common an existing allele is in a population, caused by chance.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It can make alleles disappear completely, which reduces genetic variation.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It can also make an initially rare allele much more frequent, sometimes until it displaces all others, which is called fixation.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Neutral theory",
+   "value": "Proposed by Motoo Kimura in 1968",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Fisher's view",
+   "value": "Drift plays at most a minor role in evolution",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Small populations",
+   "value": "Fixation can occur in just a few generations",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Bottleneck",
+   "value": "A population contracting to a few random survivors",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Marble jar model",
+   "value": "Twenty marbles stand in for twenty organisms",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A jar holds 10 red and 10 blue marbles. You fill a new jar by copying 20 marbles picked at random from it. What might the new jar hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 10 and 10, since each colour is equally likely to be copied"
+    },
+    {
+     "id": "b",
+     "label": "More of whichever colour is better adapted to survive"
+    },
+    {
+     "id": "c",
+     "label": "An uneven mix, a chance shift in allele frequency"
+    },
+    {
+     "id": "d",
+     "label": "All one colour right away, as drift always acts that fast"
+    }
+   ],
+   "answer": "c",
+   "explain": "Unless the second jar holds exactly 10 of each colour, a random shift in allele frequencies has occurred.",
+   "cites": [
+    15,
+    18
+   ],
+   "id": "knowledge.science.biology.evolution.chance-drift:q1"
+  },
+  {
+   "prompt": "In one generation of a tiny colony, chance gives none of the carriers of one allele any offspring. What has happened to that allele?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is lost permanently, and the remaining allele is fixed"
+    },
+    {
+     "id": "b",
+     "label": "It is only paused and will return in the next generation"
+    },
+    {
+     "id": "c",
+     "label": "It is weakened but will still be present in every later generation"
+    },
+    {
+     "id": "d",
+     "label": "It is copied into both alleles' offspring to balance things out"
+    }
+   ],
+   "answer": "a",
+   "explain": "If no marbles of one colour are selected, that allele is lost permanently and the remaining allele has become fixed for all future generations.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.science.biology.evolution.chance-drift:q2"
+  },
+  {
+   "prompt": "A conservation team studies a very small, isolated group of animals. What could chance alone do to its gene variants over a few generations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since only natural selection can alter variant frequencies"
+    },
+    {
+     "id": "b",
+     "label": "Add new variants but never remove any"
+    },
+    {
+     "id": "c",
+     "label": "Keep every variant at exactly the same proportion"
+    },
+    {
+     "id": "d",
+     "label": "Make one variant take over completely, displacing the others"
+    }
+   ],
+   "answer": "d",
+   "explain": "Drift can cause an initially rare allele to displace all others, and in small populations fixation can occur in just a few generations.",
+   "cites": [
+    3,
+    22
+   ],
+   "id": "knowledge.science.biology.evolution.chance-drift:q3"
+  },
+  {
+   "prompt": "A colony split evenly between alleles A and B shrinks until four survivors are left, picked with no regard to their alleles. Why will the survivors probably not be half A and half B?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The better-adapted allele is always the one that gets picked"
+    },
+    {
+     "id": "b",
+     "label": "Chance sampling of few individuals tends to give uneven splits"
+    },
+    {
+     "id": "c",
+     "label": "Each survivor mutates to the other allele along the way"
+    },
+    {
+     "id": "d",
+     "label": "Alleles always split evenly, so survivors are half A and half B"
+    }
+   ],
+   "answer": "b",
+   "explain": "With four random survivors, equal numbers of each allele are less likely than unequal numbers, so the allele frequencies change because of random sampling.",
+   "cites": [
+    25,
+    33,
+    34
+   ],
+   "id": "knowledge.science.biology.evolution.chance-drift:q4"
+  },
+  {
+   "prompt": "In 1968 a geneticist argued that most genetic changes spreading through a population are not spreading because they are useful. What did he say lay behind them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Genetic drift acting on neutral mutations"
+    },
+    {
+     "id": "b",
+     "label": "Natural selection favouring each useful mutation"
+    },
+    {
+     "id": "c",
+     "label": "Gene flow carrying alleles in from other populations"
+    },
+    {
+     "id": "d",
+     "label": "Environmental change that alters the DNA of the survivors"
+    }
+   ],
+   "answer": "a",
+   "explain": "Kimura's neutral theory claims most instances of a genetic change spreading across a population are caused by genetic drift acting on neutral mutations.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.biology.evolution.chance-drift:q5"
+  },
+  {
+   "prompt": "In a model where, at each step, one individual is chosen to reproduce and another chosen to die, how can the number of copies of one allele change in a step?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can only go up, never down"
+    },
+    {
+     "id": "b",
+     "label": "It can jump by any amount in a single step"
+    },
+    {
+     "id": "c",
+     "label": "It can go up by one, go down by one, or stay the same"
+    },
+    {
+     "id": "d",
+     "label": "It always stays the same unless a mutation occurs"
+    }
+   ],
+   "answer": "c",
+   "explain": "In the Moran model one individual reproduces and one dies at each time step, so the copies of an allele can go up by one, go down by one, or stay the same.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.science.biology.evolution.chance-drift:q6"
+  }
+ ],
+ "source": {
+  "title": "Genetic drift",
+  "url": "https://en.wikipedia.org/wiki/Genetic_drift",
+  "revision": 1364511177
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A jar of marbles",
+    "text": "Picture a jar of 20 marbles standing for 20 organisms, half red and half blue, each colour a different allele of one gene. To make the next generation, draw a marble at random, drop a new marble of the same colour into a second jar, and put the original back. Do this until the second jar holds 20. Unless it ends up with exactly 10 of each colour, the allele frequencies have shifted at random.",
+    "cites": [
+     7,
+     9,
+     10,
+     11,
+     12,
+     13,
+     15
+    ]
+   },
+   {
+    "heading": "Lost for good",
+    "text": "Repeat the draw over many generations and the counts wobble, sometimes favouring red and sometimes blue. That wobble is genetic drift. In some generation, by chance, no red marble may be drawn at all. Then red is gone for good, blue is fixed, and every later jar is entirely blue. In small populations this can happen within just a few generations.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Unequal is more likely",
+    "text": "Now imagine a huge colony of bacteria that differ only in one gene with two neutral alleles, A and B, meaning neither helps or harms survival. Half carry A and half carry B. If only four bacteria happen to survive, there are 16 equally likely combinations, and just six of them have two of each. So the chance of an even split is 6/16, while the chance of an uneven one is 10/16.",
+    "cites": [
+     24,
+     25,
+     26,
+     29,
+     30,
+     31,
+     32,
+     35
+    ]
+   },
+   {
+    "heading": "How much does chance matter",
+    "text": "In the middle of the 20th century, scientists argued hard over how much natural selection mattered compared with neutral processes such as drift. Ronald Fisher held that drift plays a minor role at most, and his view dominated for decades. In 1968 Motoo Kimura reopened the question with his neutral theory of molecular evolution. It holds that most genetic changes that spread through a population do so by drift acting on neutral mutations, though not necessarily changes in visible traits.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Modelling drift",
+    "text": "Drift can also be described with mathematical models. In the Moran model, generations overlap: at each step one individual reproduces and one dies, so an allele's count rises by one, falls by one or stays put. In the Wright–Fisher model, a whole generation passes in a single step. The two give similar overall results, but drift runs twice as fast in the Moran model.",
+    "cites": [
+     37,
+     38,
+     39,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-19-2",
+   "kind": "book",
+   "title": "19.2 Population Genetics",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics",
+   "note": "A textbook section on genetic drift, the bottleneck and founder effects, with a bead-sampling experiment.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "sep-genetic-drift",
+   "kind": "article",
+   "title": "Genetic Drift",
+   "by": "Roberta L. Millstein",
+   "url": "https://plato.stanford.edu/entries/genetic-drift/",
+   "note": "A Stanford Encyclopedia of Philosophy entry on what genetic drift is and how it can be detected empirically."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Drawing without putting back",
+   "text": "The hypergeometric distribution gives the chance of getting k successes in n draws from a finite population of size N, when nothing drawn is returned. Exactly K members of the population have the feature you count as a success, and every draw is either a success or a failure. Each item falls into one of two categories that exclude each other, such as pass and fail, or employed and unemployed. A variable with this distribution is written X ∼ Hypergeometric (N, K, n).",
+   "cites": [
+    1,
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "heading": "How it differs from the binomial",
+   "text": "Because each draw removes an item, the population shrinks and the chance of a success changes from one draw to the next. The binomial distribution covers the other case, k successes in n draws where each item goes back before the next draw. With just one draw, n = 1, the hypergeometric becomes a Bernoulli distribution. A related pair mirrors this: the multinomial distribution is the with-replacement case, and the multivariate hypergeometric is the without-replacement one.",
+   "cites": [
+    2,
+    5,
+    39,
+    43
+   ]
+  },
+  {
+   "heading": "Green and red marbles",
+   "text": "Say an urn holds 5 green marbles and 45 red ones. With your eyes shut, you take out 10 marbles and do not put any back. The hypergeometric distribution tells you how likely it is that exactly 4 of the 10 are green. Getting all 5 green marbles in your handful is less likely still: roughly 35 times less likely than getting 4.",
+   "cites": [
+    19,
+    20,
+    21,
+    26,
+    27
+   ]
+  },
+  {
+   "heading": "A hidden symmetry",
+   "text": "Imagine two rounds of drawing from N plain marbles, neither round putting marbles back while it runs. In the first round you draw K of them, paint them green, and return them to the urn. In the second you draw n and paint those red. The count of marbles that end up with both colours follows a hypergeometric distribution. Since the two rounds are independent, you could just as well have painted the red ones first, which is why K and n can trade places.",
+   "cites": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "heading": "The hypergeometric test",
+   "text": "The hypergeometric test uses this distribution to measure how statistically significant it is to find k successes in a sample of n draws. To test whether successes are over-represented, the p-value is the chance of randomly drawing k or more of them. To test for under-representation, it is the chance of drawing k or fewer. This test matches the one-tailed version of Fisher's exact test.",
+   "cites": [
+    31,
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "heading": "Putting the test to work",
+   "text": "The test is often used to spot which sub-groups appear more or less than expected in a sample, and its uses are broad. A marketing team, for example, could run it on a set of known customers. That would show whether groups such as women or people under 30 are over-represented among them.",
+   "cites": [
+    36,
+    37,
+    38
+   ]
+  }
+ ]
+}

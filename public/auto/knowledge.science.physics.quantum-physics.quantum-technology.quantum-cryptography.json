@@ -1,0 +1,333 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography",
+ "name": "Quantum cryptography",
+ "summary": [
+  {
+   "text": "Quantum cryptography uses quantum properties such as entanglement, measurement disturbance and superposition to carry out encryption tasks.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Data encoded in a quantum state cannot be copied perfectly, and reading it changes it, so eavesdropping on a quantum link can be detected.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Its best-known use, quantum key distribution, lets two parties share a key without a third party learning anything, with security that can be proven mathematically.",
+   "cites": [
+    39,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Early idea",
+   "value": "Wiesner's conjugate coding, from the early 1970s, published in 1983",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Ekert's protocol",
+   "value": "Proposed in 1991, using Bell's inequalities for secure keys",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Classical limit",
+   "value": "Classical encryption cannot be guaranteed beyond about 30 years",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "QKD protection",
+   "value": "Can protect electronic records for up to 100 years",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Who sells it",
+   "value": "Firms include ID Quantique, Toshiba and QuintessenceLabs",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Eve taps the line while Alice and Bob build a shared key. What gives her away?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The key becomes shorter each time"
+    },
+    {
+     "id": "b",
+     "label": "Her tapping makes the line louder"
+    },
+    {
+     "id": "c",
+     "label": "Discrepancies appear that Alice and Bob notice"
+    },
+    {
+     "id": "d",
+     "label": "The message is deleted from the network"
+    }
+   ],
+   "answer": "c",
+   "explain": "If Eve tries to learn about the key, discrepancies arise and Alice and Bob notice.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography:q1"
+  },
+  {
+   "prompt": "A hospital must keep patient records secret for many decades. Why could quantum key distribution suit it better than classical encryption?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It protects records for up to 100 years, versus about 30 for classical"
+    },
+    {
+     "id": "b",
+     "label": "It compresses records so they fit on much smaller hospital drives"
+    },
+    {
+     "id": "c",
+     "label": "It lets doctors skip the login step for patients who visit often"
+    },
+    {
+     "id": "d",
+     "label": "It makes records readable by every hospital in the world at once"
+    }
+   ],
+   "answer": "a",
+   "explain": "Scientists cannot guarantee classical encryption beyond about 30 years, while QKD can protect records for up to 100.",
+   "cites": [
+    21,
+    25
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography:q2"
+  },
+  {
+   "prompt": "Alice and Bob have just established a key with quantum communication. What do they typically do next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Destroy it and start over with a fresh one for each word"
+    },
+    {
+     "id": "b",
+     "label": "Use it for classical encrypted messages, such as a one-time pad"
+    },
+    {
+     "id": "c",
+     "label": "Send all of their future messages as single photons only"
+    },
+    {
+     "id": "d",
+     "label": "Publish it openly so that everyone can double check it"
+    }
+   ],
+   "answer": "b",
+   "explain": "Once established, the key is usually used for classical encrypted communication, for instance symmetric cryptography like a one-time pad.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography:q3"
+  },
+  {
+   "prompt": "Quantum key distribution is called unconditionally secure, but it still needs one safeguard. Which?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Alice and Bob must meet in person each day"
+    },
+    {
+     "id": "b",
+     "label": "Eve must be limited to a small computer"
+    },
+    {
+     "id": "c",
+     "label": "The parties must be able to authenticate each other"
+    },
+    {
+     "id": "d",
+     "label": "The channel must be completely free of noise"
+    }
+   ],
+   "answer": "c",
+   "explain": "Minimal assumptions remain: quantum mechanics holds and Alice and Bob can authenticate each other, otherwise a man-in-the-middle attack is possible.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography:q4"
+  },
+  {
+   "prompt": "A secure key must cross a long, noisy fibre. What can keep the link secure over that distance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A thicker cable with much more shielding around the fibre"
+    },
+    {
+     "id": "b",
+     "label": "Quantum repeaters that purify segments before joining them"
+    },
+    {
+     "id": "c",
+     "label": "Sending the same key several times in a row to be safe"
+    },
+    {
+     "id": "d",
+     "label": "Switching over to a purely classical channel for the trip"
+    }
+   ],
+   "answer": "b",
+   "explain": "Quantum repeaters purify segments of the channel before connecting them, allowing secure communication over a noisy channel.",
+   "cites": [
+    30,
+    33
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography:q5"
+  },
+  {
+   "prompt": "Wiesner's early scheme put two messages into one photon's linear and circular polarization. What could a receiver do with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Decode either message, but not both"
+    },
+    {
+     "id": "b",
+     "label": "Decode both messages together at once"
+    },
+    {
+     "id": "c",
+     "label": "Decode neither without a second photon"
+    },
+    {
+     "id": "d",
+     "label": "Copy it and decode both of them later"
+    }
+   ],
+   "answer": "a",
+   "explain": "With conjugate observables such as the two polarizations, either property may be received and decoded, but not both.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.physics.quantum-physics.quantum-technology.quantum-cryptography:q6"
+  }
+ ],
+ "source": {
+  "title": "Quantum cryptography",
+  "url": "https://en.wikipedia.org/wiki/Quantum_cryptography",
+  "revision": 1383672406
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Quantum cryptography means using the rules of quantum mechanics to carry out the work of encryption. It draws on properties such as entanglement, superposition, the disturbance caused by measuring something, and the no-cloning theorem. Its best-known and most developed use is quantum key distribution, or QKD. In QKD, two parties, usually called Alice and Bob, build a shared secret key through quantum communication, and an eavesdropper called Eve learns nothing about it even if she listens to everything they send.",
+    "cites": [
+     1,
+     3,
+     39
+    ]
+   },
+   {
+    "heading": "The problem it solves",
+    "text": "Scrambling a message is well understood; the hard part is getting the same secret key safely to both ends, a task called key establishment or key agreement. QKD is aimed squarely at that task. Once Alice and Bob hold the key, they normally use it with ordinary classical encryption, such as a one-time pad.",
+    "cites": [
+     36,
+     37,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Why reading it leaves a trace",
+    "text": "Data held in a quantum state cannot be copied with perfect accuracy; this is the no-cloning theorem. Trying to read that data also changes the quantum state, through what physicists call wave function collapse. So if Eve tries to learn the key, mismatches appear and Alice and Bob notice them. The same effect can expose snooping on quantum communication links and networks.",
+    "cites": [
+     6,
+     7,
+     8,
+     40
+    ]
+   },
+   {
+    "heading": "How strong the security is",
+    "text": "The safety of QKD can be proven mathematically without placing any limit on what an eavesdropper is able to do, which classical key sharing cannot match. This is often called unconditional security, yet it still rests on a few assumptions. Quantum mechanics must hold, and Alice and Bob must be able to confirm each other's identity, or Eve could pose as one of them and sit in the middle.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Secrets that must last",
+    "text": "Nobody can assume an encryption key stays safe forever, and classical methods cannot promise protection much past about 30 years. Quantum key distribution can guard electronic records for as long as 100 years. That matters in health care, where the law requires medical records to stay secret. It also matters to governments, which have kept military data hidden for more than 60 years.",
+    "cites": [
+     19,
+     21,
+     22,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Long, noisy lines",
+    "text": "Studies have shown that QKD can remain secure even when sent a long way over a noisy channel. Quantum repeaters help with this. They are quantum computers placed along the line in segments, and they purify each stretch before joining the stretches into one secure connection.",
+    "cites": [
+     27,
+     30,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Where the idea came from",
+    "text": "Stephen Wiesner, who was at Columbia University in the early 1970s, proposed a scheme he called conjugate coding. The IEEE Information Theory Society rejected his paper, and it finally appeared in SIGACT News in 1983. It showed how two messages could be stored in two paired properties of photons, such as linear and circular polarization, so that a receiver could decode one but never both. In 1991 Artur Ekert, working on his own, suggested using Bell's inequalities for secure key sharing.",
+    "cites": [
+     11,
+     12,
+     13,
+     15
+    ]
+   },
+   {
+    "heading": "From theory to products",
+    "text": "Several companies make quantum cryptography systems, among them ID Quantique in Geneva, Toshiba in Tokyo and QuintessenceLabs in Canberra. Quantum authentication is also seen as a vital part of a future quantum internet, keeping digital communication private and intact over the long run.",
+    "cites": [
+     17,
+     10
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "spacetime-quantum-cryptography",
+   "kind": "video",
+   "title": "Why Quantum Computing Requires Quantum Cryptography",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=pi7YwxxZQ5A",
+   "minutes": 17,
+   "note": "PBS Space Time on why quantum computers threaten today's codes and how quantum cryptography answers them."
+  }
+ ]
+}

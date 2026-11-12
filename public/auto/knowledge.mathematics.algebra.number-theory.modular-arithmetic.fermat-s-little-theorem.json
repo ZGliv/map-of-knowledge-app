@@ -1,0 +1,299 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem",
+ "name": "Fermat's little theorem",
+ "summary": [
+  {
+   "text": "Fermat's little theorem says that if p is a prime and a is a whole number that p does not divide, then aᵖ⁻¹ − 1 is divisible by p.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "text": "For example, with a = 2 and p = 7, 2⁶ = 64, and 64 − 1 = 63 = 7 × 9.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It is the basis for the Fermat primality test and one of the fundamental results of elementary number theory.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Pierre de Fermat, who stated it in 1640",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "First published proof",
+   "value": "Euler gave it in 1736",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Why 'little'",
+   "value": "To distinguish it from Fermat's Last Theorem",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Counterexample",
+   "value": "341 = 11 × 31 passes a check for base 2",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "First pseudoprime found",
+   "value": "341, found in 1820 by Pierre Frédéric Sarrus",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Take p = 7 and a = 2. Work out 2⁶ − 1. What do you find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The result is 63, a multiple of 7"
+    },
+    {
+     "id": "b",
+     "label": "The result is 64, a multiple of 7"
+    },
+    {
+     "id": "c",
+     "label": "The result is 63, which 7 does not divide"
+    },
+    {
+     "id": "d",
+     "label": "The result is 127, a multiple of 7"
+    }
+   ],
+   "answer": "a",
+   "explain": "2⁶ = 64, and 64 − 1 = 63 = 7 × 9.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem:q1"
+  },
+  {
+   "prompt": "For the prime 7, which choice of a is ruled out by the theorem's condition?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any even number"
+    },
+    {
+     "id": "b",
+     "label": "Any multiple of 7"
+    },
+    {
+     "id": "c",
+     "label": "Any number smaller than 7"
+    },
+    {
+     "id": "d",
+     "label": "Any odd number"
+    }
+   ],
+   "answer": "b",
+   "explain": "The theorem requires that p does not divide a, so multiples of 7 are excluded.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem:q2"
+  },
+  {
+   "prompt": "A number passes a Fermat-style check for the base 2. A student declares it must be prime. Why is that wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The check only works for even numbers"
+    },
+    {
+     "id": "b",
+     "label": "The check never works for large numbers"
+    },
+    {
+     "id": "c",
+     "label": "Some composite numbers pass, such as 341 = 11 × 31"
+    },
+    {
+     "id": "d",
+     "label": "Passing proves it is a multiple of 2"
+    }
+   ],
+   "answer": "c",
+   "explain": "The 'only if' direction fails: 341 passes for base 2 but is composite, so it is called a pseudoprime.",
+   "cites": [
+    21,
+    23,
+    42,
+    43
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem:q3"
+  },
+  {
+   "prompt": "Fermat has another famous theorem. Why is this one called 'little'?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is simpler to state than every other theorem"
+    },
+    {
+     "id": "b",
+     "label": "It was found when Fermat was young"
+    },
+    {
+     "id": "c",
+     "label": "It only works for small numbers"
+    },
+    {
+     "id": "d",
+     "label": "To tell it apart from Fermat's Last Theorem"
+    }
+   ],
+   "answer": "d",
+   "explain": "The name distinguishes it from Fermat's Last Theorem.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem:q4"
+  },
+  {
+   "prompt": "Euler's theorem uses a count of the whole numbers from 1 to n that share no factor with n. Why does Fermat's little theorem fit inside it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When n is prime, that count equals n − 1"
+    },
+    {
+     "id": "b",
+     "label": "When n is prime, that count equals n"
+    },
+    {
+     "id": "c",
+     "label": "When n is even, that count equals 1"
+    },
+    {
+     "id": "d",
+     "label": "Fermat's theorem works for every n"
+    }
+   ],
+   "answer": "a",
+   "explain": "For a prime n, every smaller positive number shares no factor with it, so the count is n − 1, and Euler's theorem becomes Fermat's.",
+   "cites": [
+    25,
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem:q5"
+  },
+  {
+   "prompt": "What practical use does the theorem have when checking whether a number is prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lists every prime below the number"
+    },
+    {
+     "id": "b",
+     "label": "It splits the number into its factors"
+    },
+    {
+     "id": "c",
+     "label": "It is the basis for the Fermat primality test"
+    },
+    {
+     "id": "d",
+     "label": "It tells you the number's digits"
+    }
+   ],
+   "answer": "c",
+   "explain": "Fermat's little theorem is the basis for the Fermat primality test.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.modular-arithmetic.fermat-s-little-theorem:q6"
+  }
+ ],
+ "source": {
+  "title": "Fermat's little theorem",
+  "url": "https://en.wikipedia.org/wiki/Fermat%27s_little_theorem",
+  "revision": 1383703139
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The statement",
+    "text": "Fermat's little theorem is a fact about primes. Pick a prime number p and any integer a; then aᵖ − a is a whole-number multiple of p. In the shorthand of modular arithmetic this reads aᵖ ≡ a (mod p). With a = 2 and p = 7, for instance, 2⁷ = 128, and 128 − 2 = 126 = 7 × 18. The theorem underlies the Fermat primality test and counts among the fundamental results of elementary number theory.",
+    "cites": [
+     1,
+     2,
+     3,
+     6
+    ]
+   },
+   {
+    "heading": "A second form",
+    "text": "If p does not divide a, so that a is coprime to p, the theorem can be put another way: aᵖ⁻¹ − 1 is a multiple of p, or aᵖ⁻¹ ≡ 1 (mod p). Using the same numbers, 2⁶ = 64, and 64 − 1 = 63 = 7 × 9.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "A test that can be fooled",
+    "text": "Some mathematicians guessed that 2ᵖ ≡ 2 (mod p) holds exactly when p is prime. Half of this is right: for a prime p it follows as one particular instance of Fermat's little theorem. The other half fails. The number 341 = 11 × 31 is not prime, yet 2³⁴¹ ≡ 2 (mod 341), so it is called a pseudoprime to base 2. Pierre Frédéric Sarrus found this first one in 1820.",
+    "cites": [
+     21,
+     22,
+     23,
+     44
+    ]
+   },
+   {
+    "heading": "Part of a bigger theorem",
+    "text": "The theorem is often proved as a consequence of Euler's theorem. That result uses Euler's totient function φ(n), which counts how many integers between 1 and n are coprime to n. Fermat's little theorem is the special case where n is prime, because then φ(n) = n − 1.",
+    "cites": [
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Locks on messages",
+    "text": "Euler's theorem, used with an n that is not prime, is at work in public-key cryptography, notably the RSA system. Using public values n and e, a message x becomes y = xᵉ (mod n). Anyone who knows φ(n) can find the integer f with ef ≡ 1 (mod φ(n)) using the extended Euclidean algorithm, and then recover x ≡ y^f (mod n). With what is known today, decrypting without the secret factors p and q of n is not possible.",
+    "cites": [
+     32,
+     33,
+     34,
+     38
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "barrus-1-24",
+   "kind": "book",
+   "title": "1.24: Theorems of Wilson, Euler, and Fermat",
+   "by": "Mike Barrus & W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Barrus_and_Clark)/01%3A_Chapters/1.24%3A_Theorems_of_Wilson_Euler_and_Fermat",
+   "note": "A free textbook section stating Fermat's little theorem alongside Euler's and Wilson's theorems, with exercises.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

@@ -1,0 +1,563 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra",
+ "name": "Linear algebra",
+ "summary": [
+  {
+   "text": "Linear algebra studies vector spaces, sets whose elements can be added together and scaled by numbers, along with the linear maps between them.",
+   "cites": [
+    1,
+    34,
+    36,
+    37
+   ]
+  },
+  {
+   "text": "It is central to almost all areas of mathematics, and it is used in most sciences, in engineering and in computing.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Its roots lie in solving systems of linear equations: Gaussian elimination appears in an ancient Chinese text, and Descartes's coordinates in 1637 turned lines and planes into linear equations.",
+   "cites": [
+    7,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Matrix named",
+   "value": "Sylvester introduced the term matrix in 1848",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Matrix multiplication",
+   "value": "Cayley introduced it, with the inverse matrix, in 1856",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Vector space defined",
+   "value": "Peano gave the first modern definition in 1888",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "What vectors can be",
+   "value": "Tuples, sequences, functions, polynomials or matrices",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Oldest method",
+   "value": "Gaussian elimination appears in an ancient Chinese text",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two lines are drawn on graph paper using coordinates. Finding the spot where they cross amounts to what task?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Measuring the angle between them"
+    },
+    {
+     "id": "b",
+     "label": "Computing a single matrix"
+    },
+    {
+     "id": "c",
+     "label": "Solving a system of linear equations"
+    },
+    {
+     "id": "d",
+     "label": "Finding an isomorphism of vector spaces"
+    }
+   ],
+   "answer": "c",
+   "explain": "In Cartesian geometry lines and planes are represented by linear equations, so computing their intersections amounts to solving systems of linear equations.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra:q1"
+  },
+  {
+   "prompt": "A scientist studies a curved, nonlinear system. How can linear algebra still help near one point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A line models the curve's local behavior, and that can be analyzed"
+    },
+    {
+     "id": "b",
+     "label": "It proves the system is secretly linear everywhere"
+    },
+    {
+     "id": "c",
+     "label": "It cannot help, since it only handles straight lines"
+    },
+    {
+     "id": "d",
+     "label": "It replaces the whole curve with a single average value"
+    }
+   ],
+   "answer": "a",
+   "explain": "Linear algebra is often used for first-order approximations: the derivative gives the slope of a line that models the local behavior.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra:q2"
+  },
+  {
+   "prompt": "A student believes vectors must be arrows. Which statement is accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only arrows and lists of numbers can be vectors"
+    },
+    {
+     "id": "b",
+     "label": "Vectors can be numbers but never functions"
+    },
+    {
+     "id": "c",
+     "label": "Arrows count as vectors only when scaled by whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "Functions and polynomials can be vectors too"
+    }
+   ],
+   "answer": "d",
+   "explain": "The elements of a vector space are called vectors, and they can be tuples, sequences, functions, polynomials or matrices.",
+   "cites": [
+    35,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra:q3"
+  },
+  {
+   "prompt": "A set is called a vector space if its elements can be combined in two particular ways. What are they?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dividing two elements, and taking a square root"
+    },
+    {
+     "id": "b",
+     "label": "Adding two elements, and scaling an element by a number"
+    },
+    {
+     "id": "c",
+     "label": "Multiplying two elements, and inverting an element"
+    },
+    {
+     "id": "d",
+     "label": "Comparing two elements, and putting them in order"
+    }
+   ],
+   "answer": "b",
+   "explain": "A vector space has vector addition and scalar multiplication.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra:q4"
+  },
+  {
+   "prompt": "Two vector spaces are linked by an isomorphism, so mathematicians call them essentially the same. In what sense?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every element of one is literally an element of the other"
+    },
+    {
+     "id": "b",
+     "label": "They are written with the same symbols and notation"
+    },
+    {
+     "id": "c",
+     "label": "No vector-space property can tell them apart"
+    },
+    {
+     "id": "d",
+     "label": "They always contain the same finite number of elements"
+    }
+   ],
+   "answer": "c",
+   "explain": "An isomorphism preserves linear structure, so the two spaces cannot be distinguished by using vector space properties.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra:q5"
+  },
+  {
+   "prompt": "A linear map sends some inputs all to the zero vector. What is the set of those inputs called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The kernel of the map"
+    },
+    {
+     "id": "b",
+     "label": "The range of the map"
+    },
+    {
+     "id": "c",
+     "label": "The field of scalars"
+    },
+    {
+     "id": "d",
+     "label": "The isomorphism itself"
+    }
+   ],
+   "answer": "a",
+   "explain": "The elements that are mapped to the zero vector form the kernel of the map, while the range (or image) is what the map reaches.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/960px-Linear_subspaces_with_shading.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Linear algebra",
+  "credit": "Alksentrs at en.wikipedia",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear_subspaces_with_shading.svg"
+ },
+ "source": {
+  "title": "Linear algebra",
+  "url": "https://en.wikipedia.org/wiki/Linear_algebra",
+  "revision": 1381075036
+ },
+ "pack": {
+  "id": "auto-algebra-linear-algebra",
+  "title": "Anything you can add and scale",
+  "question": "What do arrows, polynomials and functions have in common?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Linear algebra"
+  ],
+  "hue": 49,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/960px-Linear_subspaces_with_shading.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Linear algebra",
+    "credit": "Alksentrs at en.wikipedia · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_subspaces_with_shading.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Anything you can add and scale",
+    "hook": "They look nothing alike, yet one set of rules is enough to cover all of them."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-algebra-linear-algebra:1",
+    "transfer": false,
+    "prompt": "In 1637 Descartes introduced coordinates in geometry, so lines and planes could be written as linear equations. Two lines are drawn on a page. What does finding the point where they cross turn into?",
+    "explain": "In this geometry lines and planes are represented by linear equations, so computing their intersections amounts to solving systems of linear equations.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Solving a system of linear equations",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "Measuring one angle with a protractor",
+        "feedback": "It tempts because the lines are drawn, but with coordinates the crossing point is found by computation, not measurement."
+       },
+       {
+        "id": "c",
+        "label": "Taking the slope of a single curve",
+        "feedback": "A slope belongs to one line; the crossing involves two lines at once, which means two equations."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-algebra-linear-algebra:2",
+    "transfer": false,
+    "prompt": "Match each milestone to the person or place behind it.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Gaussian elimination in an old text"
+     },
+     {
+      "id": "l1",
+      "label": "Coordinates in geometry, 1637"
+     },
+     {
+      "id": "l2",
+      "label": "The word matrix, 1848"
+     },
+     {
+      "id": "l3",
+      "label": "Matrix multiplication and inverse, 1856"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Ancient China"
+     },
+     {
+      "id": "r1",
+      "label": "Descartes"
+     },
+     {
+      "id": "r2",
+      "label": "Sylvester"
+     },
+     {
+      "id": "r3",
+      "label": "Cayley"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Linear algebra grew over many centuries, from solving equations to naming and multiplying matrices."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-algebra-linear-algebra:3",
+    "transfer": true,
+    "prompt": "Put these milestones in order, earliest first.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Leibniz first considers determinants for solving linear systems"
+     },
+     {
+      "id": "b",
+      "label": "Cramer uses determinants to give explicit solutions"
+     },
+     {
+      "id": "c",
+      "label": "Sylvester introduces the term matrix"
+     },
+     {
+      "id": "d",
+      "label": "Peano gives the first modern definition of a vector space"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "These happened in 1693, 1750, 1848 and 1888."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-algebra-linear-algebra:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Elements of a vector space only need two operations: adding them and scaling them by numbers."
+     },
+     {
+      "id": "b",
+      "text": "Polynomials can be elements of a vector space, along with functions and matrices."
+     },
+     {
+      "id": "c",
+      "text": "But vectors have to be arrows, so these polynomials are not really vectors."
+     },
+     {
+      "id": "d",
+      "text": "So linear algebra can tell us nothing about polynomials."
+     }
+    ],
+    "answer": "c",
+    "explain": "The elements of a vector space are called vectors whatever they are, and they can be polynomials, functions or matrices. Linear algebra studies what they share."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Linear algebra studies what is shared by anything whose elements can be added together and scaled by numbers.",
+    "connections": [
+     {
+      "title": "Vectors",
+      "place": "Linear algebra",
+      "node": "knowledge.mathematics.algebra.linear-algebra.vectors"
+     },
+     {
+      "title": "Matrices",
+      "place": "Linear algebra",
+      "node": "knowledge.mathematics.algebra.linear-algebra.matrices"
+     },
+     {
+      "title": "Determinants",
+      "place": "Linear algebra",
+      "node": "knowledge.mathematics.algebra.linear-algebra.determinants"
+     },
+     {
+      "title": "Vector spaces",
+      "place": "Linear algebra",
+      "node": "knowledge.mathematics.algebra.linear-algebra.vector-spaces"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "In this geometry lines and planes are represented by linear equations, so computing their intersections amounts to solving systems of linear equations.",
+    "source": "Wikipedia sentences 9, 10"
+   },
+   {
+    "claim": "Linear algebra grew over many centuries, from solving equations to naming and multiplying matrices.",
+    "source": "Wikipedia sentences 7, 9, 14, 21"
+   },
+   {
+    "claim": "These happened in 1693, 1750, 1848 and 1888.",
+    "source": "Wikipedia sentences 11, 12, 14, 29"
+   },
+   {
+    "claim": "The elements of a vector space are called vectors whatever they are, and they can be polynomials, functions or matrices. Linear algebra studies what they share.",
+    "source": "Wikipedia sentences 35, 36, 37, 40, 41"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The mathematics of straight things",
+    "text": "Linear algebra is the branch of mathematics about linear equations, about linear maps, and about how both are represented with vector spaces and matrices. It sits at the center of almost every area of mathematics. Modern geometry uses it even to define lines, planes and rotations.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Why scientists need it",
+    "text": "Most sciences and branches of engineering use linear algebra, since many physical phenomena are naturally modeled by linear structures; it is useful across computing too. Even for nonlinear systems it helps: near a point, a curved shape can be modeled by a line given by its derivative, and that line can be studied with linear algebra.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Vectors and scalars",
+    "text": "The central object is a vector space: a set V together with a field F of numbers, often the real or complex numbers. Members of V are called vectors and members of F are called scalars. It comes with two operations: adding two vectors v and w to get v + w, and multiplying a vector v by a scalar a to get av. Vectors can be many things, such as tuples, sequences, functions, polynomials or matrices, and linear algebra studies what all of them have in common.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Maps between spaces",
+    "text": "A linear map that pairs every vector of one space with exactly one vector of another is called an isomorphism. Two spaces linked this way are essentially the same, since no vector space property can tell them apart. A key question is whether a given map is an isomorphism; if not, one looks for its range and its kernel, the set of vectors it sends to zero.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "From counting rods to Cramer",
+    "text": "The method now called Gaussian elimination, done with counting rods, appears in the ancient Chinese text The Nine Chapters on the Mathematical Art. In Europe, René Descartes brought coordinates into geometry in 1637, so lines and planes became linear equations and finding where they cross meant solving a system. Leibniz first used determinants for this in 1693, and in 1750 Gabriel Cramer used them to write explicit solutions, now called Cramer's rule.",
+    "cites": [
+     7,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Matrices get a name",
+    "text": "In 1848 James Joseph Sylvester coined the term matrix, Latin for womb. In 1856 Arthur Cayley introduced matrix multiplication and the inverse matrix, and he wrote a whole matrix as a single letter, treating it as one object. Peano gave the first modern, precise definition of a vector space in 1888.",
+    "cites": [
+     14,
+     21,
+     23,
+     29
+    ]
+   },
+   {
+    "heading": "The modern form",
+    "text": "Linear algebra took its modern shape in the first half of the twentieth century, as older ideas were generalized into abstract algebra. Computers then drove research into fast algorithms for Gaussian elimination and matrix decompositions, making the subject essential for modeling and simulation. Until the 19th century it was taught through equations and matrices; today the vector space approach is usually preferred, as more general and conceptually simpler, though more abstract.",
+    "cites": [
+     30,
+     31,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mit-18-06sc",
+   "kind": "course",
+   "title": "Linear Algebra (18.06SC)",
+   "by": "Gilbert Strang, MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+   "note": "Gilbert Strang's full MIT course for self-study: lecture videos, notes, problem sets and exams with solutions.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-linear-algebra",
+   "kind": "book",
+   "title": "Linear Algebra",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra",
+   "note": "A free proof-based book: solving systems, vector spaces, maps between spaces, determinants and more.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "3b1b-vectors-ch1",
+   "kind": "video",
+   "title": "Vectors | Chapter 1, Essence of linear algebra",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+   "note": "The first chapter of 3Blue1Brown's visual Essence of Linear Algebra series, on what vectors are."
+  }
+ ]
+}

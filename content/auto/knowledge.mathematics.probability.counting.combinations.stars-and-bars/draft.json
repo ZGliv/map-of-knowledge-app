@@ -1,0 +1,219 @@
+{
+ "summary": [
+  {
+   "text": "Stars and bars is a graphical aid for deriving combinatorial theorems, also called sticks and stones or balls and bars.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It solves counting problems such as how many ways n indistinguishable balls can be put into k distinguishable bins.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "With two balls and three bins, each string holds two stars and two bars, since two bars separate three bins.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Sticks and stones, balls and bars, dots and dividers",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Bars needed",
+   "value": "Separating k bins takes k − 1 bars placed between stars",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Slots per layout",
+   "value": "n + k − 1 slots, with k − 1 of them holding bars",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Gaps between stars",
+   "value": "With n stars there are n − 1 gaps where a bar may go",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Physics use",
+   "value": "Ehrenfest and Kamerlingh Onnes used it to derive Planck's count of complexions",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You lay 10 marbles in a row and want to drop them into 4 labelled boxes with no box left empty, using dividers placed between marbles. How many different gaps could hold a divider?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8 gaps"
+    },
+    {
+     "id": "b",
+     "label": "10 gaps"
+    },
+    {
+     "id": "c",
+     "label": "11 gaps"
+    },
+    {
+     "id": "d",
+     "label": "9 gaps"
+    }
+   ],
+   "answer": "d",
+   "explain": "With n objects in a row there are n − 1 gaps between them, so 10 marbles leave 9 places for a bar, and no gap takes more than one bar.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "You want to split a row of marbles into 4 labelled boxes by laying dividers between them. How many dividers do you need?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Four, one for each box"
+    },
+    {
+     "id": "b",
+     "label": "Three, one fewer than the boxes"
+    },
+    {
+     "id": "c",
+     "label": "Five, to also mark both ends"
+    },
+    {
+     "id": "d",
+     "label": "Two, one for each pair of boxes"
+    }
+   ],
+   "answer": "b",
+   "explain": "Separating k bins takes k − 1 bars, just as two bars separate three bins.",
+   "cites": [
+    3,
+    15
+   ]
+  },
+  {
+   "prompt": "Each of 3 boxes must hold at least one marble. Could two dividers sit side by side with no marble between them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because that would leave a box empty"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as the marbles are identical"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if the dividers are at the far ends"
+    },
+    {
+     "id": "d",
+     "label": "No, because dividers must always alternate with boxes"
+    }
+   ],
+   "answer": "a",
+   "explain": "When no bin may be empty, there is at most one bar between any two stars, so bars never touch.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "Three identical coins go into two numbered pockets. What tells two arrangements apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which particular coins are in which pocket"
+    },
+    {
+     "id": "b",
+     "label": "The order in which the coins were dropped in"
+    },
+    {
+     "id": "c",
+     "label": "Only the number of coins in each pocket"
+    },
+    {
+     "id": "d",
+     "label": "Only which pocket holds the most coins"
+    }
+   ],
+   "answer": "c",
+   "explain": "The objects cannot be told apart but the bins can, so configurations differ only by how many objects each bin holds.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "Every jar must get at least one of 7 marbles. How can you turn this into a problem where jars may also be empty?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add one extra marble to every jar before counting"
+    },
+    {
+     "id": "b",
+     "label": "Lower each jar's count by one and let jars be empty"
+    },
+    {
+     "id": "c",
+     "label": "Remove the labels so the jars cannot be told apart"
+    },
+    {
+     "id": "d",
+     "label": "Count the layouts twice, once for each jar order"
+    }
+   ],
+   "answer": "b",
+   "explain": "Requiring positive amounts is the same as shifting each amount down by one and then only requiring them to be non-negative.",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "prompt": "Four balls go into three bins, drawn as a row of 6 symbols: 4 stars and 2 bars. What do you choose to fix one layout?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which 2 of the 6 slots hold the bars"
+    },
+    {
+     "id": "b",
+     "label": "Which 4 balls go into the first bin"
+    },
+    {
+     "id": "c",
+     "label": "Which of the 3 bins gets the first star"
+    },
+    {
+     "id": "d",
+     "label": "Which 6 symbols are placed first"
+    }
+   ],
+   "answer": "a",
+   "explain": "Lay out n + k − 1 slots and choose k − 1 of them for the bars, or equivalently choose n for the stars.",
+   "cites": [
+    23
+   ]
+  }
+ ]
+}

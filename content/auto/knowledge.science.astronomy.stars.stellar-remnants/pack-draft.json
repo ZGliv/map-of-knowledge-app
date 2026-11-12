@@ -1,0 +1,104 @@
+{
+ "title": "What dead stars leave behind",
+ "question": "What does a star become when its fuel runs out?",
+ "hook": "Stars do not just vanish when they die; they leave something behind, and what that is depends on one thing.",
+ "idea": "A dying star collapses into a white dwarf, a neutron star or a black hole, depending mainly on its mass.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A star's fusion can no longer push outward against its own gravity. What happens to the star?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It collapses under its own weight into a dense remnant"
+    },
+    {
+     "id": "b",
+     "label": "It swells outward until it fades away",
+     "feedback": "It is tempting to picture a star puffing out, but once the outward push is gone gravity wins and the star falls inward."
+    },
+    {
+     "id": "c",
+     "label": "It keeps burning by switching to a different fuel",
+     "feedback": "The star is described as reaching a point where fusion pressure cannot counteract gravity, so switching fuel is not what follows; collapse is."
+    }
+   ],
+   "answer": "a",
+   "explain": "When outward radiation pressure from fusion can no longer counteract gravity, the star collapses under its own weight and forms a dense, compact remnant.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each term to what it means",
+   "pairs": [
+    [
+     "Stellar remnant",
+     "A name for compact objects, since most are endpoints of a star's life"
+    ],
+    [
+     "Dead star",
+     "A nickname for them in popular media reports"
+    ],
+    [
+     "Degenerate star",
+     "A compact object that is not a black hole"
+    ],
+    [
+     "Chandrasekhar limit",
+     "The top mass for a white dwarf, about 1.4 Suns"
+    ]
+   ],
+   "explain": "Compact objects are called stellar remnants because most are endpoints of stellar evolution; popular reports say dead stars, and any that is not a black hole may be called a degenerate star.",
+   "cites": [
+    5,
+    7,
+    28
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Matter inside a white dwarf is slowly compressed more and more. Put what happens in order.",
+   "items": [
+    "Electrons are forced into nuclei, turning protons into neutrons",
+    "Nuclei grow larger and less well bound",
+    "Nuclei dissolve into unbound protons and neutrons",
+    "The matter is chiefly free neutrons"
+   ],
+   "ends": [
+    "Lower density",
+    "Higher density"
+   ],
+   "explain": "As density rises, electrons first combine with nuclei, the nuclei grow and then dissolve, and at about nuclear density the matter is mostly free neutrons.",
+   "cites": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about a white dwarf gaining mass is wrong. Which?",
+   "steps": [
+    "A white dwarf's matter is soft, so adding mass makes the object smaller.",
+    "As mass keeps growing, the radius shrinks and the mass nears about 1.4 Suns.",
+    "Past that point its electrons keep holding it up, so it just goes on growing.",
+    "So a white dwarf has a theoretical upper limit on its mass."
+   ],
+   "wrong": 2,
+   "explain": "Near the Chandrasekhar limit electrons combine with protons into neutrons and no longer supply the pressure that resists gravity, so the star collapses.",
+   "cites": [
+    26,
+    27,
+    28,
+    36
+   ]
+  }
+ ]
+}

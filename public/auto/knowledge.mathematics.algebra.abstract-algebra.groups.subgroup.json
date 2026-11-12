@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup",
+ "name": "Subgroup",
+ "summary": [
+  {
+   "text": "A subgroup of a group G is a subset whose members form a group under the same operation that G uses.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A subset is a subgroup exactly when it is nonempty and closed under products and under inverses.",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "text": "A subgroup shares the identity of the whole group, and its number of elements must divide the number of elements in the group.",
+   "cites": [
+    18,
+    33
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Notation",
+   "value": "H is a subgroup of G is written H ≤ G; proper is H < G",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "label": "Finite shortcut",
+   "value": "A finite nonempty subset closed under products is a subgroup",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Shared identity",
+   "value": "A subgroup's identity is the identity of the group",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Generated subgroup",
+   "value": "The smallest subgroup containing a set is the intersection of all that contain it",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Index two",
+   "value": "Every subgroup of index 2 is normal",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A finite, nonempty subset of a group is closed under products. Do you still have to check inverses separately?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, both closure checks are always required"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the group is infinite"
+    },
+    {
+     "id": "c",
+     "label": "No, for a finite subset products alone suffice"
+    },
+    {
+     "id": "d",
+     "label": "No, because inverses are never needed"
+    }
+   ],
+   "answer": "c",
+   "explain": "When H is finite, being nonempty and closed under products is enough to make it a subgroup.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup:q1"
+  },
+  {
+   "prompt": "H is a subgroup of G. How do the identity of H and the identity of G compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same element"
+    },
+    {
+     "id": "b",
+     "label": "H has its own different identity"
+    },
+    {
+     "id": "c",
+     "label": "H has no identity at all"
+    },
+    {
+     "id": "d",
+     "label": "They agree only if G is finite"
+    }
+   ],
+   "answer": "a",
+   "explain": "The identity of a subgroup is the identity of the group.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup:q2"
+  },
+  {
+   "prompt": "A group has 12 elements. Could one of its subgroups have exactly 5 elements?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any size up to 12 is possible"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if it is not a proper subgroup"
+    },
+    {
+     "id": "c",
+     "label": "Only if the group is cyclic"
+    },
+    {
+     "id": "d",
+     "label": "No, 5 does not divide 12"
+    }
+   ],
+   "answer": "d",
+   "explain": "The order of every subgroup must be a divisor of the order of the group.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup:q3"
+  },
+  {
+   "prompt": "What makes a subgroup of G proper?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is not the whole of G"
+    },
+    {
+     "id": "b",
+     "label": "It contains the identity of G"
+    },
+    {
+     "id": "c",
+     "label": "It is closed under inverses"
+    },
+    {
+     "id": "d",
+     "label": "It has an even number of elements"
+    }
+   ],
+   "answer": "a",
+   "explain": "A proper subgroup is a subgroup that is a proper subset of G, that is, different from G.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup:q4"
+  },
+  {
+   "prompt": "You want the smallest subgroup that contains a chosen set of elements. How is it obtained?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the union of all subgroups containing the set"
+    },
+    {
+     "id": "b",
+     "label": "Intersect all subgroups that contain the set"
+    },
+    {
+     "id": "c",
+     "label": "Take only the chosen elements themselves"
+    },
+    {
+     "id": "d",
+     "label": "Take the largest subgroup that avoids the set"
+    }
+   ],
+   "answer": "b",
+   "explain": "The intersection of all subgroups containing the set is the smallest one containing it.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup:q5"
+  },
+  {
+   "prompt": "A subgroup H splits G into exactly two left cosets. What can you say about H?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has exactly two elements"
+    },
+    {
+     "id": "b",
+     "label": "It is the whole group"
+    },
+    {
+     "id": "c",
+     "label": "It is a normal subgroup"
+    },
+    {
+     "id": "d",
+     "label": "It must be cyclic"
+    }
+   ],
+   "answer": "c",
+   "explain": "The number of left cosets is the index, and every subgroup of index 2 is normal.",
+   "cites": [
+    31,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.subgroup:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cyclic_group.svg/960px-Cyclic_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Subgroup",
+  "credit": "Original: Jakob.scholbach Vector: Pbroks13",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cyclic_group.svg"
+ },
+ "source": {
+  "title": "Subgroup",
+  "url": "https://en.wikipedia.org/wiki/Subgroup",
+  "revision": 1342889132
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a subgroup is",
+    "text": "A subgroup of a group G is a subset whose members form a group using the same operation as G. We write H ≤ G to say that H is a subgroup of G. A proper subgroup is one that is not all of G, and it is written H < G. When H is a subgroup of G, G is sometimes called an overgroup of H.",
+    "cites": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Testing for a subgroup",
+    "text": "A subset H is a subgroup exactly when it is nonempty and closed under products and inverses. Closed under products means that for any a and b in H, the product ab is also in H. Closed under inverses means that a⁻¹ is in H whenever a is. The two rules can be merged into one, that ab⁻¹ lies in H for all a and b in H, though checking them separately is usually just as easy. If H is finite, being nonempty and closed under products is already enough.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Shared identity, shared inverses",
+    "text": "A subgroup has the same identity element as the whole group. Inverses also carry over: the inverse of an element inside H is its inverse in G too. Where two subgroups overlap, the overlap is again a subgroup, and the same holds for any collection of subgroups. For instance, in R² under addition, the x-axis and the y-axis meet only in the trivial subgroup.",
+    "cites": [
+     18,
+     19,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Subgroups built from elements",
+    "text": "For any subset S of G there is a smallest subgroup that contains S, called the subgroup generated by S and written ⟨S⟩. Its elements are exactly the finite products of members of S and their inverses, with repeats allowed. A single element a generates a cyclic subgroup ⟨a⟩. If ⟨a⟩ is isomorphic to Z/nZ, then n is the least positive integer with aⁿ = e, and this n is the order of a. If ⟨a⟩ is isomorphic to Z, then a has infinite order.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Cosets and counting",
+    "text": "Multiplying all of H by a fixed element a gives a left coset, written aH. Every element of G lies in exactly one left coset of H. How many left cosets there are is called the index of H in G, written [G : H]. One result of this counting is that the order of every subgroup, and of every element, must divide the order of G.",
+    "cites": [
+     29,
+     30,
+     31,
+     33
+    ]
+   },
+   {
+    "heading": "Normal subgroups",
+    "text": "A subgroup H is called normal when aH = Ha holds for every a in G. Every subgroup of index 2 is normal, because its left cosets and its right cosets are just the subgroup and its complement. For example, the alternating group A₄, made of all the even permutations in S₄, has index 2 and so is normal.",
+    "cites": [
+     34,
+     35,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Symmetries of a square",
+    "text": "The group S₄ has three subgroups with 8 elements each. Every one of them is isomorphic to D₄, the dihedral group made of the symmetries of a square. Number the corners of a square 1, 2, 3, 4 going clockwise, and each symmetry becomes a permutation of the labels. One such subgroup is generated by the quarter turn clockwise, (1234), and the flip across the diagonal through corners 1 and 3, which is (24). The three subgroups come from the three ways of choosing which numbers sit on opposite corners.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "clark-subgroups",
+   "kind": "book",
+   "title": "4: Subgroups - Elementary Abstract Algebra (Clark)",
+   "by": "W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Elementary_Abstract_Algebra_(Clark)/01%3A_Chapters/1.04%3A_Subgroups",
+   "note": "A free textbook section defining subgroups, with the cyclic subgroup generated by an element and exercises."
+  },
+  {
+   "id": "sklar-subgroups",
+   "kind": "book",
+   "title": "4: Subgroups - First-Semester Abstract Algebra: A Structural Approach (Sklar)",
+   "by": "Jessica K. Sklar",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/First-Semester_Abstract_Algebra%3A_A_Structural_Approach_(Sklar)/04%3A_Subgroups",
+   "note": "A second free textbook chapter on subgroups, with examples and exercises.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

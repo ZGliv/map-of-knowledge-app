@@ -1,0 +1,346 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion",
+ "name": "Simple harmonic motion",
+ "summary": [
+  {
+   "text": "Simple harmonic motion is a periodic motion in which the restoring force is directly proportional to the object's distance from equilibrium.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A mass on a spring following Hooke's law is the classic example, and it moves back and forth in a smooth sine pattern.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "It also models small pendulum swings and molecular vibration, and it underpins the study of more complicated periodic motion.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Hooke's law",
+   "value": "Spring force is proportional to the displacement",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Isochronous",
+   "value": "Period does not depend on amplitude",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Circular link",
+   "value": "It is a projection of uniform circular motion",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Period formula",
+   "value": "T = 2 π √(m/k) for a mass on a spring",
+   "cites": [
+    34,
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You stretch a spring twice as far as before. What happens to the pull that tries to bring it back?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same"
+    },
+    {
+     "id": "b",
+     "label": "It becomes twice as strong"
+    },
+    {
+     "id": "c",
+     "label": "It becomes half as strong"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "In simple harmonic motion the restoring force is directly proportional to the displacement from equilibrium.",
+   "cites": [
+    1,
+    13
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion:q1"
+  },
+  {
+   "prompt": "A mass on a spring passes straight through the resting point instead of stopping there. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The restoring force is strongest at that point"
+    },
+    {
+     "id": "b",
+     "label": "Friction pushes it onward"
+    },
+    {
+     "id": "c",
+     "label": "It has gained momentum from the restoring force"
+    },
+    {
+     "id": "d",
+     "label": "The wall pulls on the spring"
+    }
+   ],
+   "answer": "c",
+   "explain": "At equilibrium the net force vanishes, but the mass has momentum from the earlier acceleration, so it continues past and compresses the spring.",
+   "cites": [
+    18,
+    19,
+    20
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion:q2"
+  },
+  {
+   "prompt": "You compare a big stretch and a small stretch of the same spring and mass. How do the times for a full back-and-forth compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The big stretch takes about the same time"
+    },
+    {
+     "id": "b",
+     "label": "The big stretch takes much longer"
+    },
+    {
+     "id": "c",
+     "label": "The big stretch takes much less time"
+    },
+    {
+     "id": "d",
+     "label": "The small stretch never completes a cycle"
+    }
+   ],
+   "answer": "a",
+   "explain": "Simple harmonic motion is isochronous: period and frequency do not depend on amplitude.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion:q3"
+  },
+  {
+   "prompt": "Someone hangs an extra constant weight on a spring-and-mass system. What does that do to the period of the bouncing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It doubles the period"
+    },
+    {
+     "id": "b",
+     "label": "It halves the period"
+    },
+    {
+     "id": "c",
+     "label": "It stops the bouncing"
+    },
+    {
+     "id": "d",
+     "label": "It leaves the period unchanged"
+    }
+   ],
+   "answer": "d",
+   "explain": "An additional constant force cannot change the period of oscillation.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion:q4"
+  },
+  {
+   "prompt": "A bulb on a spinning wheel is lit from the side, so you only see its shadow moving along a wall. How does the shadow move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In a sudden jerk each turn"
+    },
+    {
+     "id": "b",
+     "label": "At a steadily growing speed"
+    },
+    {
+     "id": "c",
+     "label": "In a path that never repeats"
+    },
+    {
+     "id": "d",
+     "label": "In simple harmonic motion"
+    }
+   ],
+   "answer": "d",
+   "explain": "Simple harmonic motion is the one-dimensional projection of uniform circular motion.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion:q5"
+  },
+  {
+   "prompt": "A mass on a spring loses energy to friction. How does its motion differ from true simple harmonic motion?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The oscillation fades, which is damped oscillation"
+    },
+    {
+     "id": "b",
+     "label": "The oscillation becomes faster"
+    },
+    {
+     "id": "c",
+     "label": "The restoring force reverses direction"
+    },
+    {
+     "id": "d",
+     "label": "The period doubles each time"
+    }
+   ],
+   "answer": "a",
+   "explain": "With no energy loss the mass keeps oscillating, but if energy is lost it exhibits damped oscillation.",
+   "cites": [
+    22,
+    24
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Simple_Harmonic_Motion_Orbit.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Simple harmonic motion",
+  "credit": "Mazemaster",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Simple_Harmonic_Motion_Orbit.gif"
+ },
+ "source": {
+  "title": "Simple harmonic motion",
+  "url": "https://en.wikipedia.org/wiki/Simple_harmonic_motion",
+  "revision": 1382617956
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Simple harmonic motion, often shortened to SHM, is a special kind of periodic, or repeating, motion. It is driven by a restoring force that always points back toward a resting position, called equilibrium, and grows in direct proportion to how far the object has strayed from it. If nothing like friction drains away energy, the result is an oscillation shaped like a sine wave that goes on forever.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "A weight on a spring",
+    "text": "The classic example is a weight fixed to one end of a spring whose other end is attached to something rigid, like a wall. Left alone at equilibrium, the weight feels no net force. Pull it aside, though, and the spring pulls back with an elastic force that follows Hooke's law, F = −k x. Here k is the spring constant, in N·m⁻¹, and x is the displacement from equilibrium in metres.",
+    "cites": [
+     3,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Overshoot and return",
+    "text": "Once pulled aside, the weight is pushed back toward equilibrium and speeds up. The closer it gets, the weaker the restoring force, until at equilibrium the force disappears. But by then the weight has momentum, so it carries straight on past and squashes the spring. The force now slows it to a stop and sends it back again. With no energy lost this repeats forever; if energy does leak away, the weight shows damped oscillation instead.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "The maths of the motion",
+    "text": "Combining Newton's second law with Hooke's law gives an equation whose answer is a sine-shaped wave with angular frequency ω = √(k / m), where m is the mass. From this the period, T, works out as T = 2 π √(m/k). The period and frequency do not depend on the amplitude, the largest distance from equilibrium, so the motion is called isochronous. Without friction, the total energy stays fixed at E = 1/2 k A², where A is the amplitude.",
+    "cites": [
+     27,
+     28,
+     29,
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "A shadow of circular motion",
+    "text": "There is a neat way to picture SHM. Imagine an object going steadily around a circle of radius r with angular speed ω. Watch only its position along one axis and you see SHM whose amplitude is r and whose angular frequency is ω. In other words, SHM is uniform circular motion projected onto a single line.",
+    "cites": [
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "A model for many things",
+    "text": "SHM serves as a model for many motions. A simple pendulum follows it closely, but only when its swings are small. Molecules vibrating can be modelled the same way. Through the techniques of Fourier analysis, SHM is also the starting point for describing more complicated repeating motions. One more surprise: adding a steady extra force to a mass on a spring does not change its period.",
+    "cites": [
+     5,
+     6,
+     7,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-15-1",
+   "kind": "book",
+   "title": "15.1 Simple Harmonic Motion",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion",
+   "note": "A free textbook section on a mass on a spring: period, frequency, amplitude and phase."
+  },
+  {
+   "id": "cp-16-3",
+   "kind": "book",
+   "title": "16.3 Simple Harmonic Motion: A Special Periodic Motion",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+   "note": "A gentler textbook section showing why the period depends on mass and stiffness but not amplitude."
+  },
+  {
+   "id": "up-15-3",
+   "kind": "book",
+   "title": "15.3 Comparing Simple Harmonic Motion and Circular Motion",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/15-3-comparing-simple-harmonic-motion-and-circular-motion",
+   "note": "A textbook section modelling a spring's motion as the shadow of a peg on a turning disk."
+  },
+  {
+   "id": "cc-shm",
+   "kind": "video",
+   "title": "Simple Harmonic Motion: Crash Course Physics #16",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=jxstE6A_CYQ",
+   "note": "A Crash Course Physics video on simple harmonic motion: springs, restoring forces and periodic motion."
+  }
+ ]
+}

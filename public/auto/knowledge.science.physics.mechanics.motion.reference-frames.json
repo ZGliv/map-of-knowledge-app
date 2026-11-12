@@ -1,0 +1,333 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.motion.reference-frames",
+ "name": "Reference frames",
+ "summary": [
+  {
+   "text": "A reference frame relies on physical markers and mathematical coordinates to specify locations in physical space.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "While a coordinate system is purely a mathematical construct, an observational reference frame depends on the physical motion of an observer.",
+   "cites": [
+    15,
+    16,
+    31,
+    32
+   ]
+  },
+  {
+   "text": "Observational frames are categorized as inertial frames, where free objects travel at constant velocities, or non-inertial frames, which require fictitious forces to explain motion.",
+   "cites": [
+    37,
+    40,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Required reference points",
+   "value": "Fully defining an n-dimensional frame requires n + 1 points",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Relativistic time differences",
+   "value": "Relatively moving frames do not share identical coordinate times",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Non-inertial frame trait",
+   "value": "Observers must use fictitious forces to account for object movement",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "label": "Nature of coordinates",
+   "value": "A mathematical choice that exists independently of physical motion",
+   "cites": [
+    16,
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Why is a lab centered on Earth's surface categorized as a non-inertial frame of reference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lacks clear mathematical origin points."
+    },
+    {
+     "id": "b",
+     "label": "Scientists must introduce fictitious forces to describe motion within it."
+    },
+    {
+     "id": "c",
+     "label": "It relies exclusively on Cartesian coordinate grids."
+    },
+    {
+     "id": "d",
+     "label": "Its coordinate time is identical to all other frames."
+    }
+   ],
+   "answer": "b",
+   "explain": "Observational reference frames set on Earth's surface are non-inertial because fictitious forces must be used to explain physical observations made from them.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.reference-frames:q1"
+  },
+  {
+   "prompt": "An astronomer switches from Cartesian coordinates to polar coordinates while studying a distant planet. What happens to their observational reference frame?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It forces the observer into a non-inertial state of motion."
+    },
+    {
+     "id": "b",
+     "label": "It alters the observer's physical speed through space."
+    },
+    {
+     "id": "c",
+     "label": "It remains unchanged because coordinate choices do not alter physical motion."
+    },
+    {
+     "id": "d",
+     "label": "It resets coordinate time to match Galilean relativity."
+    }
+   ],
+   "answer": "c",
+   "explain": "A coordinate system is merely a mathematical description language, so changing it does not change the observer's state of motion or observational frame.",
+   "cites": [
+    16,
+    18
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.reference-frames:q2"
+  },
+  {
+   "prompt": "How many reference points are necessary to fully specify a reference frame in three-dimensional space?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Four points"
+    },
+    {
+     "id": "b",
+     "label": "Three points"
+    },
+    {
+     "id": "c",
+     "label": "Six points"
+    },
+    {
+     "id": "d",
+     "label": "Two points"
+    }
+   ],
+   "answer": "a",
+   "explain": "For n dimensions, n + 1 reference points are sufficient to fully define a reference frame, meaning three dimensions require four points.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.reference-frames:q3"
+  },
+  {
+   "prompt": "In Einstein's relativity, what occurs to coordinate time when two observers move relative to each other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Coordinate time stays equal across both frames."
+    },
+    {
+     "id": "b",
+     "label": "Time coordinates can no longer be defined mathematically."
+    },
+    {
+     "id": "c",
+     "label": "Coordinate time only changes if observers change coordinates."
+    },
+    {
+     "id": "d",
+     "label": "Coordinate time does not match between the two moving frames."
+    }
+   ],
+   "answer": "d",
+   "explain": "Relativistic reference frames include coordinate time, which does not yield equivalent values across frames moving relative to one another.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.reference-frames:q4"
+  },
+  {
+   "prompt": "Which condition indicates that a frame of reference is a Newtonian inertial frame?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A free particle remains at rest or moves at constant speed in a straight line."
+    },
+    {
+     "id": "b",
+     "label": "The observer is required to be positioned exactly at the coordinate origin."
+    },
+    {
+     "id": "c",
+     "label": "Fictitious forces are required to explain the path of moving particles."
+    },
+    {
+     "id": "d",
+     "label": "The frame relies strictly on curved curvilinear coordinate lines."
+    }
+   ],
+   "answer": "a",
+   "explain": "In Newtonian mechanics, an inertial frame is defined as one where Newton's first law holds true, meaning an unpushed particle rests or moves steadily in a straight line.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.reference-frames:q5"
+  },
+  {
+   "prompt": "What key difference separates a coordinate system from an observational frame of reference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Coordinate systems exist physically, whereas reference frames are pure math."
+    },
+    {
+     "id": "b",
+     "label": "A coordinate system is a mathematical concept, while an observational frame relates to physical motion."
+    },
+    {
+     "id": "c",
+     "label": "Coordinate systems change with velocity, but reference frames stay fixed."
+    },
+    {
+     "id": "d",
+     "label": "Reference frames are restricted to Cartesian grids, unlike coordinate systems."
+    }
+   ],
+   "answer": "b",
+   "explain": "A coordinate system is a mathematical choice of language for descriptions, whereas an observational reference frame is a physical concept defined by an observer's state of motion.",
+   "cites": [
+    15,
+    16,
+    31,
+    32
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.reference-frames:q6"
+  }
+ ],
+ "source": {
+  "title": "Frame of reference",
+  "url": "https://en.wikipedia.org/wiki/Frame_of_reference",
+  "revision": 1365968577
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a frame is",
+    "text": "A frame of reference is an abstract coordinate system with its origin, orientation and scale fixed in physical space. It is built on reference points, each pinned down both by numbers and by physical markers. In n dimensions, n + 1 reference points are enough to fix a frame completely. With Cartesian coordinates, for example, one point sits at the origin and one more sits one unit out along each of the n axes.",
+    "cites": [
+     1,
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Frame versus coordinates",
+    "text": "An observational frame is a physical idea tied to an observer and how that observer is moving. A coordinate system is a mathematical idea, a choice of language for describing what is seen. So an observer can describe things with Cartesian, polar or curved coordinates, and switching between them leaves the observer's motion, and so the frame, unchanged. Some coordinate systems still suit some observations better than others. In special relativity, an observer and a frame are sometimes kept apart.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     20,
+     31,
+     34
+    ]
+   },
+   {
+    "heading": "Inertial frames",
+    "text": "Observational frames come in two types, inertial and non-inertial. An inertial frame is one in which every law of physics takes its simplest form. Newtonian mechanics asks for less: only that Newton's first law holds, so a free particle either stays at rest or moves in a straight line at constant speed. Newtonian inertial frames are linked by Galilean transformations, while in special relativity they are linked by Lorentz transformations.",
+    "cites": [
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Non-inertial frames",
+    "text": "In a non-inertial frame, fictitious forces have to be brought in to explain what is observed. A frame centred on a spot on Earth's surface is an example. That frame orbits the centre of the Earth, which brings in the fictitious Coriolis, centrifugal and gravitational forces. Every one of them, gravity included, vanishes in a truly inertial frame, which is one in free fall.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Time depends on the frame",
+    "text": "In Einstein's relativity, frames are used to link a moving observer to whatever is being observed. Here the observer is taken to be at rest in the frame, though not necessarily at its origin. Each relativistic frame carries its own coordinate time, and that time does not match between frames moving relative to each other. Galilean relativity is different: there, all possible coordinate times are essentially the same.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Names for different frames",
+    "text": "Because the phrase has several meanings, people add words to say which they mean. A Cartesian frame names the type of coordinate system, and a rotating frame names the state of motion. A Galilean frame names how it transforms into related frames. Macroscopic and microscopic frames are told apart by the scale of what they observe.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "dourmashkin-11",
+   "kind": "book",
+   "title": "11: Reference Frames - Classical Mechanics (Dourmashkin)",
+   "by": "Peter Dourmashkin",
+   "url": "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/11%3A_Reference_Frames",
+   "note": "A free textbook chapter on reference frames, Galilean coordinate transformations and the addition of velocities.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "up-4-5",
+   "kind": "book",
+   "title": "4.5 Relative Motion in One and Two Dimensions - University Physics Volume 1",
+   "by": "OpenStax (William Moebs, Samuel J. Ling, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/4-5-relative-motion-in-one-and-two-dimensions",
+   "note": "A textbook section on describing the same motion from different reference frames.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "sep-inertial-frames",
+   "kind": "article",
+   "title": "Space and Time: Inertial Frames",
+   "by": "Robert DiSalle",
+   "url": "https://plato.stanford.edu/entries/spacetime-iframes/",
+   "note": "A Stanford Encyclopedia of Philosophy entry on the idea and history of inertial frames."
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.geology.deep-time.time-divisions",
+ "name": "Time divisions",
+ "summary": [
+  {
+   "text": "The geologic time scale divides Earth's history, a span of about 4.54 billion years, into standard intervals.",
+   "cites": [
+    1,
+    7
+   ]
+  },
+  {
+   "text": "It puts rock layers in relative order using principles such as the law of superposition, then uses methods like radiometric dating to fix the ages of the boundaries between them.",
+   "cites": [
+    2,
+    12,
+    13
+   ]
+  },
+  {
+   "text": "Its official units are set by the International Commission on Stratigraphy, which defines many boundaries at a precise point in a specific rock section, nicknamed a golden spike.",
+   "cites": [
+    5,
+    34,
+    35
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Span covered",
+   "value": "About 4.54 billion years of Earth history",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Official keeper",
+   "value": "International Commission on Stratigraphy (ICS)",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Boundary markers",
+   "value": "GSSPs, informally called golden spikes",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "label": "Unit for ages",
+   "value": "Ma, meaning million years",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "label": "Cambrian start revised",
+   "value": "From 541 Ma to 538.8 Ma in 2022",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A road cut exposes flat, undisturbed layers of sediment. Which layer was laid down first?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The thickest layer"
+    },
+    {
+     "id": "b",
+     "label": "The layer at the top"
+    },
+    {
+     "id": "c",
+     "label": "The layer in the middle"
+    },
+    {
+     "id": "d",
+     "label": "The layer at the bottom"
+    }
+   ],
+   "answer": "d",
+   "explain": "By the law of superposition, in undeformed sequences the oldest strata lie at the bottom and newer material stacks on top.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.earth.geology.deep-time.time-divisions:q1"
+  },
+  {
+   "prompt": "A band of volcanic rock slices straight through three layers of sandstone. What can a geologist conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The volcanic band is younger than the sandstone"
+    },
+    {
+     "id": "b",
+     "label": "The volcanic band is older than the sandstone"
+    },
+    {
+     "id": "c",
+     "label": "The sandstone formed after the volcanic band"
+    },
+    {
+     "id": "d",
+     "label": "They must have formed at the same moment"
+    }
+   ],
+   "answer": "a",
+   "explain": "By the principle of cross-cutting relationships, a rock that cuts across another must be younger than the rock it cuts.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.earth.geology.deep-time.time-divisions:q2"
+  },
+  {
+   "prompt": "A geologist finds chunks of one kind of rock embedded inside a second kind of rock. Which rock is older?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The surrounding rock, since it holds the chunks"
+    },
+    {
+     "id": "b",
+     "label": "The rock the chunks are made of"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since embedding resets both ages"
+    },
+    {
+     "id": "d",
+     "label": "Whichever rock is harder"
+    }
+   ],
+   "answer": "b",
+   "explain": "By the law of included fragments, embedded fragments must have formed first and were caught up as the second rock formed.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.earth.geology.deep-time.time-divisions:q3"
+  },
+  {
+   "prompt": "Two cliffs hundreds of kilometres apart show the same distinctive sets of fossils, stacked in the same order. What does this let geologists do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Prove the two cliffs were once a single cliff"
+    },
+    {
+     "id": "b",
+     "label": "Give each layer an exact age in years"
+    },
+    {
+     "id": "c",
+     "label": "Match layers of the same age between the cliffs"
+    },
+    {
+     "id": "d",
+     "label": "Show the fossils moved between the cliffs later"
+    }
+   ],
+   "answer": "c",
+   "explain": "Faunal succession says fossil sets follow each other in a reliable order, which allows strata to be correlated even when they are not continuous.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.earth.geology.deep-time.time-divisions:q4"
+  },
+  {
+   "prompt": "Rocks around the world record the moment the Cretaceous gave way to the Paleogene. What marks that boundary?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A layer of ice-scraped gravel from a glaciation"
+    },
+    {
+     "id": "b",
+     "label": "An iridium anomaly left by the Chicxulub asteroid impact"
+    },
+    {
+     "id": "c",
+     "label": "A sudden shift in Earth's magnetic field direction"
+    },
+    {
+     "id": "d",
+     "label": "The first fossils of animals with shells"
+    }
+   ],
+   "answer": "b",
+   "explain": "The iridium anomaly from the Chicxulub impact marks the lower boundary of the Paleogene, and strata containing it are found worldwide.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.earth.geology.deep-time.time-divisions:q5"
+  },
+  {
+   "prompt": "Improved dating shifts the age of the start of the Cambrian Period by over two million years. What happens to the rock layer that defines that boundary?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same; only the age assigned to it changes"
+    },
+    {
+     "id": "b",
+     "label": "It moves to a deeper layer in the rock record"
+    },
+    {
+     "id": "c",
+     "label": "It moves to a higher layer in the rock record"
+    },
+    {
+     "id": "d",
+     "label": "It is dropped and a new boundary is chosen elsewhere"
+    }
+   ],
+   "answer": "a",
+   "explain": "When the Cambrian's base was revised from 541 Ma to 538.8 Ma, its rock definition at the GSSP did not change; only the absolute age was refined.",
+   "cites": [
+    29,
+    30,
+    31
+   ],
+   "id": "knowledge.earth.geology.deep-time.time-divisions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Geologic_time_scale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Time divisions",
+  "credit": "United States Geological Survey",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Geologic_time_scale.jpg"
+ },
+ "source": {
+  "title": "Geologic time scale",
+  "url": "https://en.wikipedia.org/wiki/Geologic_time_scale",
+  "revision": 1384200917
+ },
+ "pack": {
+  "id": "auto-deep-time-time-divisions",
+  "title": "Reading Earth's Stacked Pages",
+  "question": "How do geologists put Earth's rocks, and its history, in order?",
+  "path": [
+   "Earth",
+   "Geology",
+   "Deep time",
+   "Time divisions"
+  ],
+  "hue": 133,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Geologic_time_scale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Time divisions",
+    "credit": "United States Geological Survey · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Geologic_time_scale.jpg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Reading Earth's Stacked Pages",
+    "hook": "A cliff face is a stack of history, and a handful of simple rules tell you which layer came first."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-deep-time-time-divisions:1",
+    "transfer": false,
+    "prompt": "You find pebbles of limestone embedded inside a layer of sandstone. What does that tell you about the two rocks?",
+    "explain": "By the law of included fragments, pieces of one rock embedded in a second rock must have formed first and were included as the second rock formed.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "The sandstone formed first, then grew the limestone inside it",
+        "feedback": "This reverses the order: the pebbles had to exist before the rock around them formed."
+       },
+       {
+        "id": "d",
+        "label": "Their order cannot be told without fossils",
+        "feedback": "No fossils are needed here; the embedded pieces alone reveal which rock came first."
+       },
+       {
+        "id": "a",
+        "label": "The limestone formed first, then got caught up in the sandstone"
+       },
+       {
+        "id": "c",
+        "label": "Both rocks formed at exactly the same time",
+        "feedback": "Tempting because they sit together, but the pebbles were already solid rock when the sandstone formed around them."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-deep-time-time-divisions:2",
+    "transfer": false,
+    "prompt": "Match each principle to what it says.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Superposition"
+     },
+     {
+      "id": "l1",
+      "label": "Original horizontality"
+     },
+     {
+      "id": "l2",
+      "label": "Cross-cutting relationships"
+     },
+     {
+      "id": "l3",
+      "label": "Faunal succession"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Oldest layers lie at the bottom"
+     },
+     {
+      "id": "r2",
+      "label": "A rock that cuts another is younger"
+     },
+     {
+      "id": "r3",
+      "label": "Fossil sets follow a reliable order"
+     },
+     {
+      "id": "r1",
+      "label": "Sediments are first laid down flat"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each principle lets geologists work out which rocks are older or younger without knowing their exact ages."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-deep-time-time-divisions:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each into rock units (chronostratigraphic) or time units (geochronologic).",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Silurian System"
+     },
+     {
+      "id": "i1",
+      "label": "Silurian Period"
+     },
+     {
+      "id": "i2",
+      "label": "Ediacaran System"
+     },
+     {
+      "id": "i3",
+      "label": "Cambrian System"
+     },
+     {
+      "id": "i4",
+      "label": "Cambrian Period"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Rock unit"
+     },
+     {
+      "id": "g1",
+      "label": "Time unit"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g0",
+     "i4": "g1"
+    },
+    "explain": "A system is the body of rock laid down during an interval; the matching period is the interval of time itself."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-deep-time-time-divisions:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The base of the Cambrian Period was once dated at 541 Ma."
+     },
+     {
+      "id": "b",
+      "text": "In 2022, better dating revised that age to 538.8 Ma."
+     },
+     {
+      "id": "c",
+      "text": "So the golden spike at the base of the Cambrian had to be moved to a different rock layer."
+     },
+     {
+      "id": "d",
+      "text": "The boundary between the Ediacaran and Cambrian systems is still defined at the same point in the rock."
+     }
+    ],
+    "answer": "c",
+    "explain": "Improved dating changes the age of a time unit, but the rock definition of the boundary (its GSSP) stays where it is; only the absolute age is refined."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Rules about how rock layers stack and cut each other give their relative order, and dating methods then fix the ages of the boundaries.",
+    "connections": [
+     {
+      "title": "Precambrian",
+      "place": "Time divisions",
+      "node": "knowledge.earth.geology.deep-time.time-divisions.precambrian"
+     },
+     {
+      "title": "Paleozoic",
+      "place": "Time divisions",
+      "node": "knowledge.earth.geology.deep-time.time-divisions.paleozoic"
+     },
+     {
+      "title": "Mesozoic",
+      "place": "Time divisions",
+      "node": "knowledge.earth.geology.deep-time.time-divisions.mesozoic"
+     },
+     {
+      "title": "Cenozoic",
+      "place": "Time divisions",
+      "node": "knowledge.earth.geology.deep-time.time-divisions.cenozoic"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "By the law of included fragments, pieces of one rock embedded in a second rock must have formed first and were included as the second rock formed.",
+    "source": "Wikipedia sentences 19"
+   },
+   {
+    "claim": "Each principle lets geologists work out which rocks are older or younger without knowing their exact ages.",
+    "source": "Wikipedia sentences 12, 13, 14, 18, 23"
+   },
+   {
+    "claim": "A system is the body of rock laid down during an interval; the matching period is the interval of time itself.",
+    "source": "Wikipedia sentences 11, 27, 28, 31"
+   },
+   {
+    "claim": "Improved dating changes the age of a time unit, but the rock definition of the boundary (its GSSP) stays where it is; only the absolute age is refined.",
+    "source": "Wikipedia sentences 29, 30, 31"
+   }
+  ]
+ }
+}

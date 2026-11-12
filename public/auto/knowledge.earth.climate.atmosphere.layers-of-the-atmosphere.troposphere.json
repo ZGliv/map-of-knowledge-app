@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere",
+ "name": "Troposphere",
+ "summary": [
+  {
+   "text": "The troposphere is the lowest layer of Earth's atmosphere and the place where most weather happens.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "It holds 80% of the atmosphere's mass and 99% of its water vapor and aerosols.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Heated from the surface below, it gets colder with altitude, on average by about 6.5 °C for every kilometer you climb.",
+   "cites": [
+    15,
+    20,
+    37
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Average height",
+   "value": "About 13 km",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Tallest and shortest",
+   "value": "18 km in tropics, 6 km in polar winter",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Cooling with height",
+   "value": "About 6.5 °C per kilometer",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Main gas",
+   "value": "Nitrogen, 78.08% of dry air",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Name's origin",
+   "value": "Greek trópos, meaning 'turning, change'",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You hike from a sea-level beach to the top of a 3 km mountain. Roughly how much colder should the air be at the summit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 2 °C colder"
+    },
+    {
+     "id": "b",
+     "label": "About 20 °C colder"
+    },
+    {
+     "id": "c",
+     "label": "About 50 °C colder"
+    },
+    {
+     "id": "d",
+     "label": "No colder at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "Temperature falls by about 6.5 °C per kilometer on average, so 3 km of climbing means roughly 20 °C of cooling.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere:q1"
+  },
+  {
+   "prompt": "Over which part of the globe does the troposphere reach highest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Over the poles"
+    },
+    {
+     "id": "b",
+     "label": "Over the mid-latitudes"
+    },
+    {
+     "id": "c",
+     "label": "Over the tropics"
+    },
+    {
+     "id": "d",
+     "label": "The same everywhere"
+    }
+   ],
+   "answer": "c",
+   "explain": "Surplus heating in the tropics expands the layer upward, to about 18 km there versus about 6 km over the poles in winter.",
+   "cites": [
+    4,
+    16
+   ],
+   "id": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere:q2"
+  },
+  {
+   "prompt": "Why is air near the ground usually warmer than air a few kilometers up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ground soaks up sunlight and heats the air"
+    },
+    {
+     "id": "b",
+     "label": "Higher air sits closer to cold outer space"
+    },
+    {
+     "id": "c",
+     "label": "Wind carries warmth down from above"
+    },
+    {
+     "id": "d",
+     "label": "Clouds trap cold air at higher levels"
+    }
+   ],
+   "answer": "a",
+   "explain": "The surface absorbs most of the Sun's energy and then heats the troposphere from below.",
+   "cites": [
+    15,
+    22
+   ],
+   "id": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere:q3"
+  },
+  {
+   "prompt": "A pocket of dry air is pushed up a mountainside without gaining or losing heat. Why does it still cool down?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Higher up, the Sun's rays are weaker"
+    },
+    {
+     "id": "b",
+     "label": "It mixes with icy air from above"
+    },
+    {
+     "id": "c",
+     "label": "It loses its water vapor as it climbs"
+    },
+    {
+     "id": "d",
+     "label": "It expands and spends energy pushing outward"
+    }
+   ],
+   "answer": "d",
+   "explain": "Lower pressure lets the rising parcel expand; pushing against the surrounding air uses up its energy, which shows up as a drop in temperature.",
+   "cites": [
+    25,
+    26,
+    29
+   ],
+   "id": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere:q4"
+  },
+  {
+   "prompt": "A rising bubble of air reaches a new height and finds itself colder than the air around it. What does it do next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Speeds up and keeps rising"
+    },
+    {
+     "id": "b",
+     "label": "Sinks back toward where it started"
+    },
+    {
+     "id": "c",
+     "label": "Spreads sideways and stays put"
+    },
+    {
+     "id": "d",
+     "label": "Warms up instantly to match"
+    }
+   ],
+   "answer": "b",
+   "explain": "Being colder, the parcel is denser than its surroundings, so it falls back to its original height: the air is stable against lifting.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere:q5"
+  },
+  {
+   "prompt": "Nearly all clouds and rain form in the lowest layer of the atmosphere. Which fact about that layer explains this best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has the most argon of any layer"
+    },
+    {
+     "id": "b",
+     "label": "Its temperature never changes with height"
+    },
+    {
+     "id": "c",
+     "label": "It holds almost all the air's water vapor"
+    },
+    {
+     "id": "d",
+     "label": "It is the thinnest layer of the atmosphere"
+    }
+   ],
+   "answer": "c",
+   "explain": "The troposphere contains 99% of the atmosphere's water vapor, and it is where most weather happens.",
+   "cites": [
+    3,
+    12
+   ],
+   "id": "knowledge.earth.climate.atmosphere.layers-of-the-atmosphere.troposphere:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/ISS-47_Islands_In_The_Sky%2C_Indonesia.jpg/960px-ISS-47_Islands_In_The_Sky%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Troposphere",
+  "credit": "NASA/Jeff Williams",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:ISS-47_Islands_In_The_Sky,_Indonesia.jpg"
+ },
+ "source": {
+  "title": "Troposphere",
+  "url": "https://en.wikipedia.org/wiki/Troposphere",
+  "revision": 1383780442
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The lowest layer",
+    "text": "The troposphere is the bottom layer of Earth's atmosphere. Its name comes from the Ancient Greek word for turning or change. It holds 80% of the atmosphere's mass and 99% of its water vapor and aerosols, and most weather happens here. It reaches about 18 km in the tropics, 11 km at middle latitudes and 6 km over the poles in winter, for an average height of 13 km.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "What it is made of",
+    "text": "Dry tropospheric air is, by mole fraction, 78.08% nitrogen (N₂), 20.95% oxygen (O₂), 0.93% argon and 0.04% carbon dioxide (CO₂), plus trace gases. This layer has the largest concentration of nitrogen. It also holds the vast majority of the atmosphere's water vapor, yet even in the most humid air, water vapor makes up less than 5% of the local mix. Burning, volcanic eruptions and industrial pollution can change the local makeup too.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Heated from below",
+    "text": "The ground absorbs most of the Sun's energy and then warms the troposphere from below, through radiation, latent heat and sensible heat. So the air usually gets colder with height. In the middle latitudes, for example, it averages 15 °C at sea level and about −55 °C at the top. The rate of this cooling is called the environmental lapse rate, and on average it is about 6.5 °C for every kilometre you climb.",
+    "cites": [
+     15,
+     17,
+     20,
+     22,
+     37
+    ]
+   },
+   {
+    "heading": "Rising air cools",
+    "text": "Heated air does not stay put: it becomes buoyant, expands and rises. As a parcel of air climbs, the lower pressure lets it expand, and as it pushes outward on the air around it, it hands over energy as work. That loss of energy shows up as a fall in the parcel's temperature. The reverse happens to a cold parcel of air that sinks toward the ground and is compressed.",
+    "cites": [
+     23,
+     25,
+     26,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Stable or unstable air",
+    "text": "The adiabatic lapse rate is the rate at which a rising parcel cools from expansion alone, and the real, environmental rate usually differs from it. If the upper air is warmer than the adiabatic rate predicts, a rising parcel arrives cooler and denser than its surroundings. It then sinks back to where it started, so the air is stable against being lifted. If the upper air is cooler than predicted, the parcel ends up warmer and less dense than its neighbours and keeps accelerating upward.",
+    "cites": [
+     24,
+     33,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Top and bottom edges",
+    "text": "At the top, the tropopause marks the border between the troposphere and the stratosphere. It is found by tracking how temperature changes with height: in the troposphere it falls, while in the stratosphere it first holds steady and then rises. At the bottom, friction against the ground shapes the flow of air into the planetary boundary layer. That layer ranges from hundreds of meters up to 2 km deep, depending on latitude, landform and time of day.",
+    "cites": [
+     6,
+     7,
+     8,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-lapse-rate",
+   "kind": "book",
+   "title": "1.9: Going Up?- Lapse Rate and Tropopause - Fundamentals of Climate Change",
+   "by": "Dargan M. W. Frierson",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Fundamentals_of_Climate_Change/01%3A_Chapters/1.09%3A_Going_Up-_Lapse_Rate_and_Tropopause",
+   "note": "A free textbook section on why the troposphere cools with height and where it ends at the tropopause.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "noaa-layers",
+   "kind": "article",
+   "title": "Layers of the Atmosphere",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+   "note": "NOAA guide to the atmosphere layers, with a section on the troposphere, where nearly all weather happens."
+  }
+ ]
+}

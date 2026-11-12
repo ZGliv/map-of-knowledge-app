@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.factoring.factorization",
+ "name": "Factorization",
+ "summary": [
+  {
+   "text": "Factorization writes a number or another mathematical object as a product of several factors, usually smaller or simpler objects of the same kind.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Every positive integer can be factored into prime numbers, and that factorization is unique apart from the order of the factors.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Factoring a polynomial reduces the problem of finding its roots to finding the roots of its factors.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simple example",
+   "value": "3 × 5 is an integer factorization of 15",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Prime factoring",
+   "value": "Greek mathematicians proved every positive integer has one, unique up to order",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Root finding",
+   "value": "Roots of a polynomial come from the roots of its factors",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Security use",
+   "value": "Hard integer factoring protects the RSA cryptosystem",
+   "cites": [
+    8,
+    40
+   ]
+  },
+  {
+   "label": "Hard case",
+   "value": "A 500-digit product of two random primes cannot be factored today",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Multiplying two huge primes takes a moment, but recovering them from the product is out of reach for today's computers. What does this lopsidedness make possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Faster arithmetic on large numbers"
+    },
+    {
+     "id": "b",
+     "label": "A proof that every number is prime"
+    },
+    {
+     "id": "c",
+     "label": "Secure internet communication through RSA"
+    },
+    {
+     "id": "d",
+     "label": "A way to avoid ever dividing numbers"
+    }
+   ],
+   "answer": "c",
+   "explain": "Integer factorization is far harder than multiplication, and the RSA cryptosystem exploits this to keep internet communication secure.",
+   "cites": [
+    8,
+    39,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring.factorization:q1"
+  },
+  {
+   "prompt": "You search for a divisor of a number n by trial division. You have tested every candidate q with q² ≤ n, and none divides n. What can you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number n is prime"
+    },
+    {
+     "id": "b",
+     "label": "You must test larger candidates too"
+    },
+    {
+     "id": "c",
+     "label": "The number n is a perfect square"
+    },
+    {
+     "id": "d",
+     "label": "The number n has no factorization at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "If r is a divisor of n with r² > n, then q = n / r is a divisor with q² ≤ n, so testing those smaller candidates is enough. Finding none means n is prime.",
+   "cites": [
+    24,
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring.factorization:q2"
+  },
+  {
+   "prompt": "You test candidate divisors of a number in increasing order, and the very first one that divides it is found. What kind of number is that divisor guaranteed to be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A perfect square"
+    },
+    {
+     "id": "b",
+     "label": "The largest factor of the number"
+    },
+    {
+     "id": "c",
+     "label": "An even number"
+    },
+    {
+     "id": "d",
+     "label": "A prime number"
+    }
+   ],
+   "answer": "d",
+   "explain": "If candidates are tested in increasing order, the first divisor found is necessarily a prime number.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring.factorization:q3"
+  },
+  {
+   "prompt": "Two students each break the same whole number into primes and list them in different orders. Do their prime factors differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because each person finds their own factorization"
+    },
+    {
+     "id": "b",
+     "label": "No, the factorization is unique apart from the order"
+    },
+    {
+     "id": "c",
+     "label": "Yes, unless the number is even"
+    },
+    {
+     "id": "d",
+     "label": "No, but only when the number is small"
+    }
+   ],
+   "answer": "b",
+   "explain": "Every integer greater than 1 has a unique factorization into primes, up to the order of the factors.",
+   "cites": [
+    6,
+    7,
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring.factorization:q4"
+  },
+  {
+   "prompt": "A polynomial has been written as a product of three simpler polynomials. How does that help find its roots?",
+   "options": [
+    {
+     "id": "a",
+     "label": "You must multiply them back together before looking for roots"
+    },
+    {
+     "id": "b",
+     "label": "It does not help, because roots only appear in expanded form"
+    },
+    {
+     "id": "c",
+     "label": "The roots are found by finding the roots of each factor"
+    },
+    {
+     "id": "d",
+     "label": "Only the largest factor has roots worth finding"
+    }
+   ],
+   "answer": "c",
+   "explain": "Factoring a polynomial reduces the problem of finding its roots to finding the roots of its factors.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring.factorization:q5"
+  },
+  {
+   "prompt": "A programmer splits a matrix into a lower triangular piece, an upper triangular piece and a permutation piece. Is this a kind of factorization?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, matrices have many kinds of factorizations"
+    },
+    {
+     "id": "b",
+     "label": "No, only whole numbers can be factored"
+    },
+    {
+     "id": "c",
+     "label": "No, only polynomials can be factored"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if every entry is a prime"
+    }
+   ],
+   "answer": "a",
+   "explain": "Factorization also covers decompositions of other objects into simpler ones, and matrices possess many kinds of matrix factorizations, including this one.",
+   "cites": [
+    19,
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.factoring.factorization:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Factorisatie.svg/960px-Factorisatie.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Factorization",
+  "credit": "Silver Spoon",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Factorisatie.svg"
+ },
+ "source": {
+  "title": "Factorization",
+  "url": "https://en.wikipedia.org/wiki/Factorization",
+  "revision": 1376993158
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Breaking things into factors",
+    "text": "Factoring means rewriting a number, or some other mathematical object, as a product of pieces called factors. The pieces are usually smaller or simpler things of the same kind. The number 15 can be written as 3 × 5, for instance. In the same way, the polynomial x² − 4 can be written as (x − 2)(x + 2).",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Where it makes sense",
+    "text": "In number systems where you can always divide, such as the real or complex numbers, factoring is not usually treated as meaningful. Any x there can be written as (xy) × (1/y) for any y that is not zero, so splits come cheap and say nothing. A fraction, or a ratio of polynomials, can still be factored in a useful way. You reduce it to lowest terms and then factor the top and the bottom on their own.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Primes and the Greeks",
+    "text": "Ancient Greek mathematicians were the first to study factoring, working with whole numbers. They proved the fundamental theorem of arithmetic. It says every positive integer splits into a product of prime numbers, which are numbers that cannot be broken further into integers greater than 1. That split is unique, apart from the order in which the factors are listed.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Finding the factors of a number",
+    "text": "To factor a whole number n, you need a way to find a divisor q of n, or to decide that n is prime. Once a divisor turns up, you repeat the search on q and on n / q until nothing more splits. It is enough to try values of q with 1 < q and q² ≤ n. If you try them in increasing order, the first divisor you find is always prime. For one even number n, taking out 2 gives n = 2 · 693, and taking out 3 twice gives n = 2 · 3² · 77.",
+    "cites": [
+     24,
+     25,
+     26,
+     28,
+     41,
+     43,
+     45
+    ]
+   },
+   {
+    "heading": "Easy to multiply, hard to undo",
+    "text": "Factoring a whole number is a sort of reverse of multiplying, yet it is much harder for an algorithm to do. Simple trial division works for small numbers but bogs down for big ones. Pierre de Fermat never discovered that 4 294 967 297 is not prime, and checking it by this method would take more than 10000 divisions. Even the best current methods, on powerful computers, cannot factor a 500-digit number made by multiplying two randomly chosen primes. That difficulty keeps the RSA cryptosystem secure, and RSA is widely used to protect internet communication.",
+    "cites": [
+     8,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Factoring polynomials",
+    "text": "Polynomials have also been factored for centuries. In basic algebra, factoring a polynomial turns the job of finding its roots into finding the roots of each factor. Polynomials with integer coefficients factor in only one way into irreducible polynomials, which play the part that primes play for numbers. A polynomial in one variable with complex coefficients splits uniquely, up to order, into linear pieces, a version of the fundamental theorem of algebra.",
+    "cites": [
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Beyond numbers",
+    "text": "The word also covers splitting other objects into a product of simpler ones. Matrices, for example, have many kinds of factorization. One of them writes any matrix as a product of three matrices: L, which is lower triangular, U, which is upper triangular, and a permutation matrix P. This LUP form is Gaussian elimination written in the language of matrices.",
+    "cites": [
+     19,
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-prime-factorization",
+   "kind": "book",
+   "title": "2.5 Prime Factorization and the Least Common Multiple - Prealgebra 2e",
+   "by": "OpenStax (Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis)",
+   "url": "https://openstax.org/books/prealgebra-2e/pages/2-5-prime-factorization-and-the-least-common-multiple",
+   "note": "A free textbook section on writing whole numbers as products of primes.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "veerman-fundamental-theorem",
+   "kind": "book",
+   "title": "2: The Fundamental Theorem of Arithmetic - An Introduction to Number Theory (Veerman)",
+   "by": "J. J. P. Veerman",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/An_Introduction_to_Number_Theory_(Veerman)/02%3A_The_Fundamental_Theorem_of_Arithmetic",
+   "note": "A free textbook chapter proving that every integer has a unique factorization into primes.",
+   "license": "CC BY-NC"
+  }
+ ]
+}

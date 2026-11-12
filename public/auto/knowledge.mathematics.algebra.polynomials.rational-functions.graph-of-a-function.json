@@ -1,0 +1,303 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function",
+ "name": "Graph of a function",
+ "summary": [
+  {
+   "text": "The graph of a function f is the set of ordered pairs (x, y) where f(x) = y.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When x and f(x) are real numbers, these pairs are Cartesian coordinates of points in a plane and often form a curve.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "For a function of two variables the graph is a set of ordered triples, which for a continuous real-valued function forms a surface in three-dimensional space.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Also called",
+   "value": "A plot, when drawn out",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Two variables",
+   "value": "The graph is a set of triples, forming a surface",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Set theory view",
+   "value": "A function is actually equal to its graph",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Missing information",
+   "value": "A graph alone does not determine the codomain",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Where used",
+   "value": "Science, engineering, technology and finance",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A function's graph includes the point where x is 2 and y is 5. What does that say about the function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its output for the input 2 is 5"
+    },
+    {
+     "id": "b",
+     "label": "Its output for the input 5 is 2"
+    },
+    {
+     "id": "c",
+     "label": "Its outputs always add up to 7"
+    },
+    {
+     "id": "d",
+     "label": "Its input values stop at 5"
+    }
+   ],
+   "answer": "a",
+   "explain": "The graph is the set of pairs (x, y) where f(x) = y, so this point means f(2) = 5.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function:q1"
+  },
+  {
+   "prompt": "A function takes two inputs and gives one output. What is its graph made of?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pairs of numbers on a flat plane, as before"
+    },
+    {
+     "id": "b",
+     "label": "Sets of triples that form a surface in three-dimensional space"
+    },
+    {
+     "id": "c",
+     "label": "A single number for each pair of inputs"
+    },
+    {
+     "id": "d",
+     "label": "A pair of curves drawn on the same axes"
+    }
+   ],
+   "answer": "b",
+   "explain": "For functions of two variables the graph is the set of ordered triples (x, y, z) where f(x, y) = z, a subset of three-dimensional space.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function:q2"
+  },
+  {
+   "prompt": "Looking only at a function's graph, can you tell which whole set its outputs are allowed to come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, it is the highest and lowest points shown"
+    },
+    {
+     "id": "b",
+     "label": "Yes, provided the graph is continuous"
+    },
+    {
+     "id": "c",
+     "label": "Yes, it is the same as the set of inputs"
+    },
+    {
+     "id": "d",
+     "label": "No, the graph on its own does not determine it"
+    }
+   ],
+   "answer": "d",
+   "explain": "A function as a mapping also has a domain and a codomain, and the graph of a function on its own does not determine the codomain.",
+   "cites": [
+    10,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function:q3"
+  },
+  {
+   "prompt": "A mathematician says that in set theory a function and its graph are the same object. Why do people still use both words?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are different objects after all"
+    },
+    {
+     "id": "b",
+     "label": "Each term views the same object from a different perspective"
+    },
+    {
+     "id": "c",
+     "label": "One covers only curves, the other only surfaces"
+    },
+    {
+     "id": "d",
+     "label": "The graph word is kept for pictures with colours"
+    }
+   ],
+   "answer": "b",
+   "explain": "Even if considered the same object, the two terms indicate viewing it from a different perspective.",
+   "cites": [
+    9,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function:q4"
+  },
+  {
+   "prompt": "A function gives the output 7 at the input 3. Is the point with x equal to 3 and y equal to 10 on its graph?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any point with x equal to 3 is on it"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the curve passes near it"
+    },
+    {
+     "id": "c",
+     "label": "No, only pairs (x, f(x)) belong, and here y is 7"
+    },
+    {
+     "id": "d",
+     "label": "No, since 10 is bigger than the input"
+    }
+   ],
+   "answer": "c",
+   "explain": "The graph contains exactly the pairs (x, y) where f(x) = y, and f(3) = 7.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function:q5"
+  },
+  {
+   "prompt": "Formally, a function is made up of which three parts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its inputs, its outputs and its slope"
+    },
+    {
+     "id": "b",
+     "label": "Its domain, its codomain and its graph"
+    },
+    {
+     "id": "c",
+     "label": "Its curve, its surface and its plot"
+    },
+    {
+     "id": "d",
+     "label": "Its variables, its constants and its sum"
+    }
+   ],
+   "answer": "b",
+   "explain": "Formally, a function is formed by the triple consisting of its domain, its codomain and its graph.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.graph-of-a-function:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Polynomial_of_degree_three.svg/960px-Polynomial_of_degree_three.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Graph of a function",
+  "credit": "Serge Helfrich",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Polynomial_of_degree_three.svg"
+ },
+ "source": {
+  "title": "Graph of a function",
+  "url": "https://en.wikipedia.org/wiki/Graph_of_a_function",
+  "revision": 1371539897
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Pairs of inputs and outputs",
+    "text": "The graph of a function f is the collection of all ordered pairs (x, y) where f(x) = y. In the everyday case, where both x and f(x) are real numbers, each pair gives the Cartesian coordinates of a point in a plane. Together those points often trace out a curve. A drawing of the graph is also called a plot.",
+    "cites": [
+     1,
+     2,
+     3,
+     15
+    ]
+   },
+   {
+    "heading": "Two inputs make a surface",
+    "text": "Some functions take a pair of numbers (x, y) as their input. For these the graph usually means the set of triples (x, y, z) where f(x, y) = z. Those triples sit in three-dimensional space. When the function is continuous, real-valued and takes two real inputs, the triples form a surface, which can be drawn as a surface plot.",
+    "cites": [
+     4,
+     5,
+     16
+    ]
+   },
+   {
+    "heading": "Adding guides to a picture",
+    "text": "It often helps to draw the gradient of the function and several level curves along with it. The level curves can be drawn right on the surface or projected down onto the bottom plane. One such picture shows f(x, y) = −(cos (x²) + cos (y²))².",
+    "cites": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Is a function just its graph",
+    "text": "Every function's graph is one particular kind of relation. In the modern foundations of mathematics, usually set theory, a function actually is its graph. Strictly, though, a function is a triple: its domain, its codomain and its graph. People keep both words because each points to a different way of looking at the same object.",
+    "cites": [
+     8,
+     9,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "What the graph leaves out",
+    "text": "It is often useful to think of a function as a mapping, which records not only how inputs relate to outputs but also which set is the domain and which is the codomain. The graph alone does not settle the codomain. That matters for questions such as whether a function is onto, also called surjective, which depends on the codomain.",
+    "cites": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Graphs at work",
+    "text": "Science, engineering, technology, finance and many other fields use graphs as working tools. In the simplest case one quantity is plotted as a function of another, usually on rectangular axes.",
+    "cites": [
+     6,
+     7
+    ]
+   }
+  ]
+ }
+}

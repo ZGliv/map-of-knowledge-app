@@ -1,0 +1,548 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.molecular-geometry",
+ "name": "Molecular geometry",
+ "summary": [
+  {
+   "text": "Molecular geometry is the three-dimensional arrangement of the atoms in a molecule, including its general shape, bond lengths, bond angles and torsional angles.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It influences properties of a substance such as its reactivity, polarity, phase of matter, color, magnetism and biological activity.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Geometries are best determined at low temperature, because at higher temperatures the molecular structure is averaged over more accessible geometries.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Bond angle",
+   "value": "Angle formed between three atoms across at least two bonds",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Torsional angle",
+   "value": "Angle between the planes of the first and last three atoms",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Bond length",
+   "value": "Average distance between two bonded nuclei",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Best measured",
+   "value": "At low temperature",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two compounds have the same chemical formula, but their atoms are connected in a different order. What would you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Identical properties, since the formula is the same"
+    },
+    {
+     "id": "b",
+     "label": "Often different geometries and very different properties"
+    },
+    {
+     "id": "c",
+     "label": "That they are mirror images of each other"
+    },
+    {
+     "id": "d",
+     "label": "That only one of the two can be a stable substance"
+    }
+   ],
+   "answer": "b",
+   "explain": "Structural isomers have the same formula but atoms bonded in a different order, often forming alternate geometries with very different properties.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry:q1"
+  },
+  {
+   "prompt": "A chemist picks three atoms linked in a row and reports how widely the outer two open out around the middle one. Which quantity is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A torsional angle"
+    },
+    {
+     "id": "b",
+     "label": "A bond length"
+    },
+    {
+     "id": "c",
+     "label": "A dihedral plane"
+    },
+    {
+     "id": "d",
+     "label": "A bond angle"
+    }
+   ],
+   "answer": "d",
+   "explain": "A bond angle is the angle formed between three atoms across at least two bonds.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry:q2"
+  },
+  {
+   "prompt": "A chemist wants reliable molecular geometries from spectra and decides to cool the sample close to absolute zero. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Warmer samples populate too many higher rotational states, blurring the average"
+    },
+    {
+     "id": "b",
+     "label": "Cold samples have longer bonds, which are easier to measure"
+    },
+    {
+     "id": "c",
+     "label": "Warmth makes molecules switch between solid and gas shapes"
+    },
+    {
+     "id": "d",
+     "label": "Cooling removes the electrons that confuse the measurement"
+    }
+   ],
+   "answer": "a",
+   "explain": "Spectra average over rotational states, and at higher temperatures too many higher rotational states are populated to extract reliable geometries.",
+   "cites": [
+    26,
+    27,
+    28
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry:q3"
+  },
+  {
+   "prompt": "A chemist wants to describe how the two ends of a four-atom chain are twisted relative to each other. Which measurement does this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average distance between the two end nuclei"
+    },
+    {
+     "id": "b",
+     "label": "The angle formed by three of the atoms across two bonds"
+    },
+    {
+     "id": "c",
+     "label": "The angle between the plane of the first three atoms and the last three"
+    },
+    {
+     "id": "d",
+     "label": "The total number of bonds in the chain"
+    }
+   ],
+   "answer": "c",
+   "explain": "For four atoms bonded in a chain, the torsional angle is the angle between the plane of the first three atoms and the plane of the last three.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry:q4"
+  },
+  {
+   "prompt": "Two molecules connect their atoms in the same order but are oriented differently in space, and their melting and boiling points are similar. What is true of them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are different molecules, which matters most for biochemical activity"
+    },
+    {
+     "id": "b",
+     "label": "They are the same molecule, since their melting points match"
+    },
+    {
+     "id": "c",
+     "label": "They are different only if their chemical formulas differ"
+    },
+    {
+     "id": "d",
+     "label": "They must differ widely in boiling point"
+    }
+   ],
+   "answer": "a",
+   "explain": "Stereoisomers may share many physicochemical properties but are still different molecules, especially when considering biochemical activity.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry:q5"
+  },
+  {
+   "prompt": "A chemist measures the shape of the same molecule as a solid, in solution and as a gas. What might she find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The same shape in all three, since the atoms are fixed"
+    },
+    {
+     "id": "b",
+     "label": "A real shape only in the gas, with the others blurred"
+    },
+    {
+     "id": "c",
+     "label": "A geometry that can differ between the three states"
+    },
+    {
+     "id": "d",
+     "label": "A change only between solid and gas, never in solution"
+    }
+   ],
+   "answer": "c",
+   "explain": "The molecular geometry can be different as a solid, in solution and as a gas.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.molecular-geometry:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Water_molecule_dimensions.svg/960px-Water_molecule_dimensions.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Molecular geometry",
+  "credit": "Booyabazooka",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Water_molecule_dimensions.svg"
+ },
+ "source": {
+  "title": "Molecular geometry",
+  "url": "https://en.wikipedia.org/wiki/Molecular_geometry",
+  "revision": 1380442580
+ },
+ "pack": {
+  "id": "auto-chemical-bonding-molecular-geometry",
+  "title": "Shape decides what molecules do",
+  "question": "How does the three-dimensional arrangement of atoms affect a molecule?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical bonding",
+   "Molecular geometry"
+  ],
+  "hue": 161,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Water_molecule_dimensions.svg/960px-Water_molecule_dimensions.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Molecular geometry",
+    "credit": "Booyabazooka · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_molecule_dimensions.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Shape decides what molecules do",
+    "hook": "Two substances built from the same atoms can behave in very different ways."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemical-bonding-molecular-geometry:1",
+    "transfer": false,
+    "prompt": "Two compounds have the same chemical formula, but their atoms are not bonded together in the same order. What do you expect?",
+    "explain": "Structural isomers share a formula but bond their atoms in a different order, often giving alternate geometries with very different properties.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Identical properties, since the formula is the same",
+        "feedback": "The formula lists the atoms, which tempts people to expect the same behaviour, but the arrangement matters."
+       },
+       {
+        "id": "c",
+        "label": "The same molecule drawn in two ways",
+        "feedback": "A different bonding order makes a different molecule, not a different drawing."
+       },
+       {
+        "id": "b",
+        "label": "Often different geometries and very different properties"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-bonding-molecular-geometry:2",
+    "transfer": false,
+    "prompt": "Match each term to what it describes.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Bond length"
+     },
+     {
+      "id": "l1",
+      "label": "Bond angle"
+     },
+     {
+      "id": "l2",
+      "label": "Torsional angle"
+     },
+     {
+      "id": "l3",
+      "label": "Orbital hybridisation"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Angle formed between three atoms across at least two bonds"
+     },
+     {
+      "id": "r0",
+      "label": "Average distance between two bonded nuclei"
+     },
+     {
+      "id": "r3",
+      "label": "Atomic orbitals of bonding atoms combining"
+     },
+     {
+      "id": "r2",
+      "label": "Angle between the planes of the first and last three atoms in a four-atom chain"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Geometry is specified by lengths and angles, and bonding itself involves orbitals combining."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-bonding-molecular-geometry:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each type of isomer by how its atoms are connected.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Structural isomers"
+     },
+     {
+      "id": "i1",
+      "label": "Constitutional isomers"
+     },
+     {
+      "id": "i2",
+      "label": "Enantiomers"
+     },
+     {
+      "id": "i3",
+      "label": "Diastereomers"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Atoms bonded in a different order"
+     },
+     {
+      "id": "g1",
+      "label": "Same order, different 3D orientation"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Structural (constitutional) isomers change the connection order; stereoisomers, which divide into enantiomers and diastereomers, keep it and change the orientation in space."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemical-bonding-molecular-geometry:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about measuring geometry is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Many spectroscopic results are averaged over rotational states."
+     },
+     {
+      "id": "b",
+      "text": "A higher temperature means more rotational states are populated and averaged."
+     },
+     {
+      "id": "c",
+      "text": "More averaging makes the geometry easier to extract from the spectrum."
+     },
+     {
+      "id": "d",
+      "text": "So reliable geometries are best expected at temperatures close to absolute zero."
+     }
+    ],
+    "answer": "c",
+    "explain": "More averaging makes geometries harder to extract, which is why reliable results come from temperatures close to absolute zero."
+   },
+   {
+    "kind": "payoff",
+    "idea": "The three-dimensional arrangement of a molecule's atoms influences its reactivity, polarity, phase of matter, color, magnetism and biological activity.",
+    "connections": [
+     {
+      "title": "VSEPR theory",
+      "place": "Molecular geometry",
+      "node": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.vsepr-theory"
+     },
+     {
+      "title": "Orbital hybridisation",
+      "place": "Molecular geometry",
+      "node": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.orbital-hybridisation"
+     },
+     {
+      "title": "Bond angle",
+      "place": "Molecular geometry",
+      "node": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.bond-angle"
+     },
+     {
+      "title": "Chirality (chemistry)",
+      "place": "Molecular geometry",
+      "node": "knowledge.science.chemistry.chemical-bonding.molecular-geometry.chirality-chemistry"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Structural isomers share a formula but bond their atoms in a different order, often giving alternate geometries with very different properties.",
+    "source": "Wikipedia sentences 41, 42"
+   },
+   {
+    "claim": "Geometry is specified by lengths and angles, and bonding itself involves orbitals combining.",
+    "source": "Wikipedia sentences 31, 32, 33, 38"
+   },
+   {
+    "claim": "Structural (constitutional) isomers change the connection order; stereoisomers, which divide into enantiomers and diastereomers, keep it and change the orientation in space.",
+    "source": "Wikipedia sentences 41, 42, 43, 45"
+   },
+   {
+    "claim": "More averaging makes geometries harder to extract, which is why reliable results come from temperatures close to absolute zero.",
+    "source": "Wikipedia sentences 26, 27, 28"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The shape of a molecule",
+    "text": "Molecular geometry is the way a molecule's atoms are arranged in three dimensions. It covers the overall shape as well as details such as bond lengths, bond angles and torsional angles. Shape matters because it affects how a substance reacts, how polar it is, its phase of matter, and its color, magnetism and biological activity.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Three key measurements",
+    "text": "A bond length is the average distance between the nuclei of two bonded atoms. A bond angle is the angle formed by three atoms joined across at least two bonds. For a chain of four atoms, the torsional angle is the angle between two planes: one through the first three atoms and one through the last three. Together, these numbers fix where each atom sits.",
+    "cites": [
+     2,
+     15,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "What sets the shape",
+    "text": "Each atom's position depends on the kind of chemical bonds linking it to its neighbours. Underneath, the geometry comes from the quantum mechanical behaviour of electrons. In the valence bond approximation, the atomic orbitals of bonding atoms are said to merge, a process known as orbital hybridisation. The two most common bonds are sigma bonds, usually made from hybrid orbitals, and pi bonds, made from unhybridized p orbitals. Molecular orbital theory offers another view, in which the electrons are spread across the molecule.",
+    "cites": [
+     14,
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "How shapes are measured",
+    "text": "Molecular shapes can be found with spectroscopy and diffraction. IR, microwave and Raman spectroscopy read geometry from the way molecules vibrate and rotate. X-ray crystallography, neutron diffraction and electron diffraction work on crystalline solids, while gas electron diffraction suits small molecules in a gas. Shapes can also be calculated to high accuracy with ab initio quantum chemistry methods.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     12
+    ]
+   },
+   {
+    "heading": "Why cold is best",
+    "text": "Geometries are best measured at low temperature. At higher temperatures the measured structure is an average over more of the shapes a molecule can reach. Rotation in particular is excited at fairly low temperatures, and averaging over rotational states broadens many spectra. That is why many spectroscopic results give reliable shapes only near absolute zero.",
+    "cites": [
+     10,
+     22,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Same atoms, different shapes",
+    "text": "A molecule's shape can differ between a solid, a solution and a gas. Larger molecules often have several stable shapes that are close in energy, an effect called conformational isomerism. Structural isomers share a chemical formula but join their atoms in different orders, often with very different properties. Stereoisomers join atoms in the same order but point them differently in space, and they fall into two main kinds, enantiomers and diastereomers.",
+    "cites": [
+     11,
+     13,
+     41,
+     42,
+     43,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-chem-7-6",
+   "kind": "book",
+   "title": "7.6 Molecular Structure and Polarity",
+   "by": "Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson (OpenStax)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity",
+   "note": "A free textbook section on predicting the 3D shapes of molecules, their bond angles and the polarity that follows.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-3d-structure",
+   "kind": "video",
+   "title": "3D Structure and Bonding: Crash Course Organic Chemistry #4",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=cpWHgKgKxGk",
+   "note": "A Crash Course video on why molecules have 3D shapes, using orbital hybridization and valence bond theory."
+  }
+ ]
+}

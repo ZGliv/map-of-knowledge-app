@@ -1,0 +1,332 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit",
+ "name": "Imaginary unit",
+ "summary": [
+  {
+   "text": "The imaginary unit, written i, is a solution to x² = −1, which no real number solves.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "Any real-number multiple of it is called an imaginary number, and combining it with the real numbers through addition and multiplication builds the complex numbers.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Electrical engineers usually write it as j instead, because the letter i is commonly used for electric current.",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Square roots of −1",
+   "value": "There are two: i and its additive inverse −i",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Origin of names",
+   "value": "Imaginary is credited to Descartes; the i notation comes from Euler",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Defining property",
+   "value": "Defined by its square: i² = −1",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Place on the plane",
+   "value": "One unit from the origin along the imaginary axis",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student insists that only one number can be multiplied by itself to give −1. Among the complex numbers, how many such numbers are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Just one, the imaginary unit"
+    },
+    {
+     "id": "b",
+     "label": "Two, the imaginary unit and its negative"
+    },
+    {
+     "id": "c",
+     "label": "None, since no real number works"
+    },
+    {
+     "id": "d",
+     "label": "Infinitely many, one for each angle"
+    }
+   ],
+   "answer": "b",
+   "explain": "The number −1 has two distinct complex square roots, i and −i.",
+   "cites": [
+    4,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit:q1"
+  },
+  {
+   "prompt": "An electrical engineer's notes use the letter j for √(−1). Why avoid the usual letter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is reserved for counting turns of wire in a coil"
+    },
+    {
+     "id": "b",
+     "label": "It looks too much like the digit one on a page"
+    },
+    {
+     "id": "c",
+     "label": "It already means a negative number in circuits"
+    },
+    {
+     "id": "d",
+     "label": "It is already the usual symbol for electric current"
+    }
+   ],
+   "answer": "d",
+   "explain": "In electrical engineering the imaginary unit is written j because i is commonly used to denote electric current.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit:q2"
+  },
+  {
+   "prompt": "Why did early mathematicians call the square roots of negative numbers imaginary?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only numbers from measurement or basic arithmetic counted as numbers then"
+    },
+    {
+     "id": "b",
+     "label": "They were proved false and kept only as a handy trick"
+    },
+    {
+     "id": "c",
+     "label": "They were smaller than every real number"
+    },
+    {
+     "id": "d",
+     "label": "They could not be added or multiplied"
+    }
+   ],
+   "answer": "a",
+   "explain": "In early-modern mathematics only what are now called real numbers were considered numbers at all, so the square root of a negative number seemed undefined or nonsensical.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit:q3"
+  },
+  {
+   "prompt": "A calculation produces the term 5i². Treating i as an unknown and using its definition, what does that term become?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5, since squaring undoes the i"
+    },
+    {
+     "id": "b",
+     "label": "5i, since only one i is removed"
+    },
+    {
+     "id": "c",
+     "label": "−5, since i² is replaced by −1"
+    },
+    {
+     "id": "d",
+     "label": "−5i, since the sign moves to the i"
+    }
+   ],
+   "answer": "c",
+   "explain": "The definition lets any occurrence of i² be replaced with −1, so 5i² becomes −5.",
+   "cites": [
+    12,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit:q4"
+  },
+  {
+   "prompt": "Draw the complex plane with the real numbers along a left-to-right line. Where would you mark the imaginary unit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One unit from the origin, along the perpendicular vertical axis"
+    },
+    {
+     "id": "b",
+     "label": "One unit to the right of the origin, on the real line"
+    },
+    {
+     "id": "c",
+     "label": "At the origin itself, because it is not a real number"
+    },
+    {
+     "id": "d",
+     "label": "One unit from the origin, along the diagonal"
+    }
+   ],
+   "answer": "a",
+   "explain": "The imaginary unit is the point one unit from the origin along the imaginary axis, which is drawn vertically, perpendicular to the real axis.",
+   "cites": [
+    18,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit:q5"
+  },
+  {
+   "prompt": "The two square roots of −1 share every property. Is there a built-in reason to call one of them i and the other −i?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, i is the positive one, just like positive real numbers"
+    },
+    {
+     "id": "b",
+     "label": "No, which is which is a choice, since nothing tells them apart"
+    },
+    {
+     "id": "c",
+     "label": "Yes, the one that sits higher on the plane gets the plus sign"
+    },
+    {
+     "id": "d",
+     "label": "No, because the two are in fact exactly the same number"
+    }
+   ],
+   "answer": "b",
+   "explain": "The two solutions are distinct numbers, but no property of one is missing from the other, so it is inherently ambiguous which is which. Neither is positive or negative the way real numbers are.",
+   "cites": [
+    20,
+    21,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.imaginary-unit:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/ImaginaryUnit5.svg/960px-ImaginaryUnit5.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Imaginary unit",
+  "credit": "Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribbl",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:ImaginaryUnit5.svg"
+ },
+ "source": {
+  "title": "Imaginary unit",
+  "url": "https://en.wikipedia.org/wiki/Imaginary_unit",
+  "revision": 1382043200
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A number whose square is −1",
+    "text": "The imaginary unit, usually written i, is a constant that solves the equation x² = −1, which no real number can solve. In fact i is defined by that single property: i² = −1. Any real number multiplied by i is called an imaginary number.",
+    "cites": [
+     1,
+     2,
+     12
+    ]
+   },
+   {
+    "heading": "Building the complex numbers",
+    "text": "Combine the real numbers with i using addition and multiplication, and you get a new number system called the complex numbers. Each of them has the form a + bi, where a and b are real. To calculate with them, treat i as an unknown letter and replace every i² with −1. In this form, i itself is 0 + 1i, with a real part of zero and an imaginary part of one.",
+    "cites": [
+     3,
+     15,
+     17
+    ]
+   },
+   {
+    "heading": "Two roots that look alike",
+    "text": "The number −1 has two different square roots, i and −i. Likewise, every nonzero complex number has two square roots, each the negative of the other, while zero has only zero. Strangely, i and −i cannot be told apart by their properties: nothing is true of one that is not true of the other. Which one is called +i is just a label, and despite their signs neither is positive or negative the way real numbers are.",
+    "cites": [
+     4,
+     5,
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "Where i sits on the plane",
+    "text": "In the complex plane, real numbers run along the horizontal axis and imaginary numbers along the vertical one. There i is the point one unit from the origin on the imaginary axis, the same distance from 0 as 1 but at a right angle to it. In polar form it is e^(πi/2), with a size of 1 and an angle of π/2 radians. Adding a complex number shifts the plane, and multiplying by one of size 1 rotates it about the origin.",
+    "cites": [
+     18,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Why imaginary",
+    "text": "In early-modern mathematics, only what we now call real numbers, the ones you get from measuring or simple arithmetic, counted as numbers at all. Even negative numbers were met with doubt, so a square root of a negative number seemed meaningless, and such roots were called imaginary. The name is generally credited to René Descartes, and Isaac Newton was using it by 1670. Leonhard Euler introduced the letter i. Whatever the name suggests, the idea is mathematically sound.",
+    "cites": [
+     9,
+     10,
+     11,
+     14
+    ]
+   },
+   {
+    "heading": "Other ways to write it",
+    "text": "In the past the imaginary unit was written √(−1), though that is now rare. Where the letter i would cause confusion, j is sometimes used instead. Electrical engineers, for example, normally write j, because i usually stands for electric current.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-complex-numbers",
+   "kind": "book",
+   "title": "2.4 Complex Numbers - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/2-4-complex-numbers",
+   "note": "A free textbook section introducing the imaginary unit i and arithmetic with complex numbers.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "veritasium-imaginary-invented",
+   "kind": "video",
+   "title": "How Imaginary Numbers Were Invented",
+   "by": "Veritasium",
+   "url": "https://www.youtube.com/watch?v=cUzklzVXJwo",
+   "note": "The story of how mathematicians came to accept square roots of negative numbers."
+  },
+  {
+   "id": "iot-imaginary-numbers",
+   "kind": "documentary",
+   "title": "Imaginary Numbers",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b00tt6b2",
+   "minutes": 45,
+   "note": "A radio discussion of the history of imaginary numbers, from Bologna to Descartes."
+  }
+ ]
+}

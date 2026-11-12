@@ -1,0 +1,31 @@
+{"title":"Same Atoms, Different Mineral",
+"question":"What makes something a mineral, and one mineral different from another?",
+"hook":"Quartz and stishovite are made of exactly the same compound, yet geologists count them as two different minerals.",
+"idea":"A mineral is a natural solid defined by both its chemistry and its ordered atomic structure, and that structure shapes properties like hardness and cleavage.",
+"beats":[
+ {"kind":"predict","prompt":"Two natural samples are both silicon dioxide, but their atoms are stacked in different crystal structures. How many mineral species are they?","choices":[
+  {"id":"a","label":"Two separate species"},
+  {"id":"b","label":"One species, since the chemistry matches","feedback":"Chemistry alone does not decide it; each distinct crystal structure is counted as its own species."},
+  {"id":"c","label":"None, because silicon dioxide is a rock","feedback":"A rock is bulk material that can hold several minerals; silicon dioxide here forms minerals such as quartz."}],
+  "answer":"a","explain":"When a compound occurs naturally with different crystal structures, each is a different mineral: quartz and stishovite are both silicon dioxide.","cites":[5,8,9]},
+ {"kind":"sort","prompt":"Sort each into its group","groups":["Counts as a mineral","Not a mineral"],"items":[
+  ["Water ice","Counts as a mineral"],
+  ["Liquid water","Not a mineral"],
+  ["Native mercury","Counts as a mineral"],
+  ["Obsidian","Not a mineral"],
+  ["Meridianiite","Counts as a mineral"],
+  ["Seashells","Not a mineral"]],
+  "explain":"Liquid water is not solid, obsidian lacks crystal structure, and seashells are made by living beings; ice, mercury and meridianiite are all accepted.","cites":[18,22,23,26,38]},
+ {"kind":"match","prompt":"Match each substance to the reason for how it is classified","pairs":[
+  ["Native mercury","Listed before the current rules"],
+  ["Obsidian","No ordered crystal structure"],
+  ["Seashells","Made in living beings"],
+  ["Meridianiite","Stable only below 2 °C, yet accepted"]],
+  "explain":"Each case tests one part of the definition: being solid, having ordered structure, natural geological origin, and stability.","cites":[18,22,26,38]},
+ {"kind":"flaw","prompt":"One step in this reasoning is wrong; which?","steps":[
+  "A mineral must be a natural solid.",
+  "Obsidian is a natural solid found in geologic settings.",
+  "Being a natural solid is enough to make something a mineral.",
+  "So obsidian should be listed as a mineral."],
+  "wrong":2,"explain":"A mineral also needs an ordered atomic arrangement; obsidian is amorphous, so it is called a mineraloid instead.","cites":[7,17,21,24,26]}
+]}

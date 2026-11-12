@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission",
+ "name": "Nuclear fission",
+ "summary": [
+  {
+   "text": "Nuclear fission is a reaction in which the nucleus of an atom splits into two or more smaller nuclei.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It often produces neutrons and gamma rays, and splitting one uranium-235 atom releases about 100 million times the energy of burning one carbon atom in air.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Since a splitting nucleus emits more neutrons than it absorbs, a chain reaction is possible, and nuclear power plants and weapons both rely on it.",
+   "cites": [
+    12,
+    30
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who named it",
+   "value": "Frisch, by analogy with the fission of living cells",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "First proof",
+   "value": "Hahn and Strassmann proved it on 19 December 1938",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Chain-reaction isotopes",
+   "value": "U-233, U-235 and Pu-239 can sustain a chain reaction",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Three-piece splits",
+   "value": "Ternary fission happens 2 to 4 times per 1000 events",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Spontaneous fission",
+   "value": "Discovered in 1940, it needs no neutron to start",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A uranium nucleus absorbs one neutron and splits. What allows the reaction to keep itself going?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The nucleus soaks up neutrons from the fuel rods around it"
+    },
+    {
+     "id": "b",
+     "label": "The nucleus gives off more neutrons than the one it absorbed"
+    },
+    {
+     "id": "c",
+     "label": "The gamma rays it emits turn into new neutrons right away"
+    },
+    {
+     "id": "d",
+     "label": "The split fragments pull in fresh neutrons from the air"
+    }
+   ],
+   "answer": "b",
+   "explain": "A fissioning nucleus emits more neutrons than the one it absorbs, which makes a chain reaction possible.",
+   "cites": [
+    7,
+    30
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission:q1"
+  },
+  {
+   "prompt": "A physicist repeats an alpha decay many times, then a fission many times. What does she find about the products?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both give identical products every time"
+    },
+    {
+     "id": "b",
+     "label": "Alpha decay gives varied products, while fission gives identical ones"
+    },
+    {
+     "id": "c",
+     "label": "Both give products that vary in a chaotic way"
+    },
+    {
+     "id": "d",
+     "label": "Fission products vary widely, while alpha decay gives the same ones each time"
+    }
+   ],
+   "answer": "d",
+   "explain": "The unpredictable composition of fission products distinguishes it from purely quantum tunneling processes such as alpha decay, which give the same products each time.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission:q2"
+  },
+  {
+   "prompt": "For a splitting nucleus to give out energy overall, what must hold for its fragments compared with the parent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their total binding energy must be greater than the parent's"
+    },
+    {
+     "id": "b",
+     "label": "Their total binding energy must be less than the parent's"
+    },
+    {
+     "id": "c",
+     "label": "They must have exactly the same size as each other"
+    },
+    {
+     "id": "d",
+     "label": "They must outnumber the protons in the parent nucleus"
+    }
+   ],
+   "answer": "a",
+   "explain": "For fission to produce energy, the total binding energy of the resulting elements must be greater than that of the starting element.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission:q3"
+  },
+  {
+   "prompt": "A heavy atom splits into fragments. Why do physicists call this a nuclear transmutation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The fragments fuse back together into the original atom"
+    },
+    {
+     "id": "b",
+     "label": "The splitting happens only when the atom is heated"
+    },
+    {
+     "id": "c",
+     "label": "The fragments are not the same element as the parent atom"
+    },
+    {
+     "id": "d",
+     "label": "The atom gives off a great deal of energy while splitting"
+    }
+   ],
+   "answer": "c",
+   "explain": "Fission is a form of nuclear transmutation because the resulting fragments are not the same element as the original parent atom.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission:q4"
+  },
+  {
+   "prompt": "A reactor slows fast neutrons down so they can split its fuel easily. What kind of nuclide is that fuel?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fissile, easily split by slow neutrons"
+    },
+    {
+     "id": "b",
+     "label": "Fissionable, mostly split by fast neutrons"
+    },
+    {
+     "id": "c",
+     "label": "Stable, one that never splits at all"
+    },
+    {
+     "id": "d",
+     "label": "Spontaneous, one that needs no neutron"
+    }
+   ],
+   "answer": "a",
+   "explain": "Fissile nuclides easily split with slow, thermal neutrons, which usually come from moderating fast neutrons, while fissionable nuclides primarily split with fast neutrons.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission:q5"
+  },
+  {
+   "prompt": "Some very heavy nuclei split with no neutron hitting them at all. What makes that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A passing gamma ray gives them a nudge"
+    },
+    {
+     "id": "b",
+     "label": "The nucleus is already unstable from having too many neutrons"
+    },
+    {
+     "id": "c",
+     "label": "They cool down and the pieces separate"
+    },
+    {
+     "id": "d",
+     "label": "A chain reaction starts from a nearby nucleus"
+    }
+   ],
+   "answer": "b",
+   "explain": "In spontaneous fission, the nucleus is already unstable from an overabundance of neutrons, and it occurs in very high-mass-number isotopes.",
+   "cites": [
+    18,
+    23
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.radioactivity.nuclear-fission:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Nuclear_fission.svg/960px-Nuclear_fission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Nuclear fission",
+  "credit": "Created by Fastfission in Illustrator. The SVG code is valid. This vector image ",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Nuclear_fission.svg"
+ },
+ "source": {
+  "title": "Nuclear fission",
+  "url": "https://en.wikipedia.org/wiki/Nuclear_fission",
+  "revision": 1383344666
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Splitting a nucleus",
+    "text": "In nuclear fission, an atom's nucleus breaks apart into two or more smaller nuclei. The pieces, called fragments or daughter atoms, are different elements from the parent, which makes fission a kind of nuclear transmutation. For common fissile isotopes the two pieces are usually close in size but not equal, often with masses in a ratio of about 3 to 2. Now and then, 2 to 4 times in every 1000 events, three charged pieces come out instead, which is called ternary fission.",
+    "cites": [
+     1,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Where the energy comes from",
+    "text": "Fission often gives off neutrons and gamma rays, and it releases a huge amount of energy, large even next to other radioactive decay. Splitting one uranium-235 atom frees roughly 100 million times the energy of burning one carbon atom in air to make CO₂. For heavy nuclides this energy comes out as electromagnetic radiation and as motion of the fragments, which heats the material. Two things are needed: the products must have more total binding energy than the starting nucleus, and the fission barrier must be overcome.",
+    "cites": [
+     2,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "A wobbling drop",
+    "text": "Bohr and Wheeler used a liquid drop model to estimate the mass difference between parent and daughter nuclei, then turned the mass difference into energy with Einstein's mass-energy formula. They likened a nucleus struck by a neutron to a vibrating drop, with surface tension and the Coulomb force working against each other. When they plotted the energy as the drop stretched, the result had a saddle shape. That saddle forms a hurdle called the critical energy barrier, and about 6 MeV from the incoming neutron was needed to get over it.",
+    "cites": [
+     35,
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Chain reactions",
+    "text": "A splitting nucleus releases more neutrons than the one it took in, so a chain reaction is possible. Fissile nuclides split easily when hit by slow, or thermal, neutrons. Three isotopes, U-233, U-235 and Pu-239, can sustain a chain reaction. Nuclear power plants run in a delayed critical state so the energy comes out under control, while nuclear weapons use a prompt supercritical state that releases it uncontrolled in about a microsecond. Nuclides that can keep a chain reaction going are suitable as nuclear fuels.",
+    "cites": [
+     11,
+     12,
+     30,
+     45
+    ]
+   },
+   {
+    "heading": "Discovery in 1938",
+    "text": "Fission was discovered by the chemists Otto Hahn and Fritz Strassmann and the physicists Lise Meitner and Otto Robert Frisch. Hahn and Strassmann proved on 19 December 1938 that the reaction had happened, and Meitner and her nephew Frisch explained it in theory in January 1939. Frisch borrowed the word fission from biology, where living cells divide. In February 1939 Hahn and Strassmann predicted that the process frees extra neutrons, which opened the way to a chain reaction in a critical mass of fissile material.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Fission without a push",
+    "text": "Fission does not always need a neutron to start it. Spontaneous fission, which Georgy Flyorov, Konstantin Petrzhak and Igor Kurchatov discovered in 1940, is a form of radioactive decay in isotopes of very high mass number, whose nuclei are already unstable from too many neutrons. Unlike fusion, which powers stars, fission can be considered negligible in how the universe evolved. Even so, natural fission reactors have formed under very rare conditions.",
+    "cites": [
+     18,
+     19,
+     20
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-chem-21-4",
+   "kind": "book",
+   "title": "21.4 Transmutation and Nuclear Energy",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/21-4-transmutation-and-nuclear-energy",
+   "note": "A free college chemistry chapter on fission, chain reactions, critical mass and how fission reactors work.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up3-10-5",
+   "kind": "book",
+   "title": "10.5 Fission",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/10-5-fission",
+   "note": "A free physics textbook section on fission energy, the liquid drop model, chain reactions and reactors.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-fusion-fission",
+   "kind": "video",
+   "title": "Nuclear Chemistry Part 2 - Fusion and Fission: Crash Course Chemistry #39",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=FU6y1XIADdg",
+   "note": "A Crash Course Chemistry episode on fission and fusion and the mass defect that powers them."
+  }
+ ]
+}

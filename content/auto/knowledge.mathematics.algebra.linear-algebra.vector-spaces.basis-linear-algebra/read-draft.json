@@ -1,0 +1,53 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Coordinates from a basis",
+   "text": "Take a vector space of finite dimension n and put the vectors of a basis in a fixed order. Then every vector in the space can be described in exactly one way by a list of n scalars. Those scalars are the vector's coordinates, and the list is its coordinate vector.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "heading": "The standard basis",
+   "text": "The simplest case is Fⁿ, the space of lists of n scalars taken from a field F, where adding and scaling are done entry by entry. Its standard basis has n vectors. The i-th one has a 1 in position i and a 0 in every other position.",
+   "cites": [
+    21,
+    22
+   ]
+  },
+  {
+   "heading": "Same vector, new coordinates",
+   "text": "A space can have many bases, and the same vector usually gets a different coordinate vector on each one. A change of basis means rewriting every statement made in the coordinates of one basis into the coordinates of the other. The tool for this is the change-of-basis matrix, also called a transition matrix. Its columns hold the coordinates of the new basis vectors, measured on the old basis.",
+   "cites": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "heading": "Testing a new basis",
+   "text": "The same matrix tells you whether a new set of n vectors really is a basis. It is exactly when the matrix A is invertible, which is the same as A having a nonzero determinant. In that case A is called the change-of-basis matrix from the old basis to the new one.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "heading": "A formula that runs backwards",
+   "text": "The change-of-basis formula, x = Ay, gives the old coordinates in terms of the new ones. That direction can feel unnatural at first. It turns out to be handy: to rewrite a function f(x) in the new coordinates, you just substitute and get f(Ay), with no matrix inversion needed.",
+   "cites": [
+    29,
+    30
+   ]
+  },
+  {
+   "heading": "Rotations in physics",
+   "text": "In physics, and in mechanics above all, a change of basis often moves from one orthonormal basis to another and is understood as a rotation in physical space. Geometry and physics also often meet symmetric bilinear forms over the real numbers, for example in the study of quadrics or of the inertia of a rigid body. In that setting orthonormal bases are especially useful. So people there usually allow only changes of basis whose matrix P is orthogonal, meaning P^𝖳 = P⁻¹.",
+   "cites": [
+    7,
+    44,
+    45
+   ]
+  }
+ ]
+}

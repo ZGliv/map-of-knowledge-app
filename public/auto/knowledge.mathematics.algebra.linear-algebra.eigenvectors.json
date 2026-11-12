@@ -1,0 +1,583 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.eigenvectors",
+ "name": "Eigenvectors",
+ "summary": [
+  {
+   "text": "An eigenvector is a nonzero vector whose direction a linear transformation leaves unchanged or reverses, so the transformation only scales it.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The scaling factor is the eigenvalue: the amount an eigenvector is stretched or shrunk, with a negative value meaning the direction is reversed.",
+   "cites": [
+    3,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Eigenvectors and eigenvalues characterize a transformation, and in a feedback system the largest eigenvalue governs the long-term behavior.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "German eigen, meaning proper, characteristic or own",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Possible eigenvalues",
+   "value": "Negative, zero or complex numbers are allowed",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Original use",
+   "value": "Studying principal axes of rotating rigid bodies",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Eigenspace",
+   "value": "All eigenvectors sharing one eigenvalue, plus the zero vector",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Modern uses",
+   "value": "Stability analysis, vibration analysis, atomic orbitals, facial recognition",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A transformation tilts and lengthens most arrows but leaves every arrow lying along the horizontal axis exactly where it was. What eigenvalue do those horizontal arrows have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero, since those arrows do not move at all"
+    },
+    {
+     "id": "b",
+     "label": "One, since neither direction nor length changes"
+    },
+    {
+     "id": "c",
+     "label": "Negative one, since they point sideways"
+    },
+    {
+     "id": "d",
+     "label": "None, since other arrows are tilted"
+    }
+   ],
+   "answer": "b",
+   "explain": "Points on the horizontal axis keep their direction and their length, so the scaling factor is one.",
+   "cites": [
+    29,
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors:q1"
+  },
+  {
+   "prompt": "A transformation sends an arrow to a new arrow that is longer and points in exactly the opposite direction. Is the original arrow an eigenvector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because its direction changed"
+    },
+    {
+     "id": "b",
+     "label": "No, because it also became longer"
+    },
+    {
+     "id": "c",
+     "label": "Yes, with a negative eigenvalue"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only with eigenvalue zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "An eigenvector may have its direction reversed; that happens when the eigenvalue is negative.",
+   "cites": [
+    1,
+    8,
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors:q2"
+  },
+  {
+   "prompt": "A transformation rotates some arrows, shears others, and merely stretches or shrinks a third group. Which group holds the eigenvectors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The arrows that are only stretched or shrunk"
+    },
+    {
+     "id": "b",
+     "label": "The arrows that are rotated"
+    },
+    {
+     "id": "c",
+     "label": "The arrows that are sheared"
+    },
+    {
+     "id": "d",
+     "label": "The arrows that end up longest"
+    }
+   ],
+   "answer": "a",
+   "explain": "Eigenvectors undergo neither rotation nor shear; they are only stretched or shrunk.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors:q3"
+  },
+  {
+   "prompt": "A system feeds its output back into the same transformation again and again. What tells you where it settles after many rounds?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The smallest eigenvalue and its vector"
+    },
+    {
+     "id": "b",
+     "label": "The average of all the eigenvalues"
+    },
+    {
+     "id": "c",
+     "label": "The first arrow you started with"
+    },
+    {
+     "id": "d",
+     "label": "The largest eigenvalue and its eigenvector"
+    }
+   ],
+   "answer": "d",
+   "explain": "The largest eigenvalue governs long-term behavior, and its eigenvector is the steady state of the system.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors:q4"
+  },
+  {
+   "prompt": "Many different vectors are all scaled by the very same factor. Gather them together with the zero vector. What is that collection called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An eigenbasis"
+    },
+    {
+     "id": "b",
+     "label": "An eigenspace"
+    },
+    {
+     "id": "c",
+     "label": "A shear mapping"
+    },
+    {
+     "id": "d",
+     "label": "An eigensystem"
+    }
+   ],
+   "answer": "b",
+   "explain": "Eigenvectors sharing one eigenvalue, together with the zero vector, form an eigenspace.",
+   "cites": [
+    35,
+    36,
+    37
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors:q5"
+  },
+  {
+   "prompt": "A student says eigenvalues only make sense for geometric transformations and cannot be found from a square grid of numbers. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing; matrices cannot have eigenvalues"
+    },
+    {
+     "id": "b",
+     "label": "Only symmetric matrices have eigenvalues"
+    },
+    {
+     "id": "c",
+     "label": "In finite dimensions, either language defines them equally"
+    },
+    {
+     "id": "d",
+     "label": "Matrices only give eigenvalues for two dimensions"
+    }
+   ],
+   "answer": "c",
+   "explain": "In a finite-dimensional space, transformations and square matrices correspond directly, so eigenvalues can be defined in either language.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors:q6"
+  }
+ ],
+ "source": {
+  "title": "Eigenvalues and eigenvectors",
+  "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+  "revision": 1382457308
+ },
+ "pack": {
+  "id": "auto-linear-algebra-eigenvectors",
+  "title": "Arrows That Hold Their Line",
+  "question": "Which arrows does a transformation only stretch, never turn?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Linear algebra",
+   "Eigenvectors"
+  ],
+  "hue": 47,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Singular-Value-Decomposition.svg/960px-Singular-Value-Decomposition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Singular value decomposition",
+    "credit": "Georg-Johann · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Singular-Value-Decomposition.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Arrows That Hold Their Line",
+    "hook": "Shove a picture sideways and nearly every arrow tilts, yet a few stubbornly keep their line."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-linear-algebra-eigenvectors:1",
+    "transfer": false,
+    "prompt": "A picture is sheared: points in the top half slide right and points in the bottom half slide left, more the farther they are from the middle line. Which arrows, drawn from the center, keep pointing the same way?",
+    "explain": "Points on the horizontal axis do not move, so arrows along it keep direction and length: eigenvectors with eigenvalue one.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Arrows pointing at the top corners",
+        "feedback": "Corners are far from the middle line and slide the most, so these tilt too."
+       },
+       {
+        "id": "a",
+        "label": "Arrows pointing straight along the horizontal middle line"
+       },
+       {
+        "id": "b",
+        "label": "Arrows pointing straight up toward the top edge",
+        "feedback": "These point at the part that slides sideways the most, so they tilt."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-linear-algebra-eigenvectors:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each effect of a transformation on an arrow.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Only stretched"
+     },
+     {
+      "id": "i1",
+      "label": "Only shrunk"
+     },
+     {
+      "id": "i2",
+      "label": "Rotated"
+     },
+     {
+      "id": "i3",
+      "label": "Sheared"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Eigenvector"
+     },
+     {
+      "id": "g1",
+      "label": "Not an eigenvector"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Eigenvectors are only stretched or shrunk, with neither rotation nor shear."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-linear-algebra-eigenvectors:3",
+    "transfer": true,
+    "prompt": "Match each collection to its name.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "All eigenvectors, each paired with its eigenvalue"
+     },
+     {
+      "id": "l1",
+      "label": "Eigenvectors for one eigenvalue, plus the zero vector"
+     },
+     {
+      "id": "l2",
+      "label": "Eigenvectors that form a basis"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Eigenspace"
+     },
+     {
+      "id": "r0",
+      "label": "Eigensystem"
+     },
+     {
+      "id": "r2",
+      "label": "Eigenbasis"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each name describes a different way of gathering eigenvectors."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-linear-algebra-eigenvectors:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about a feedback system is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A system feeds its outputs back in as inputs to the same transformation."
+     },
+     {
+      "id": "b",
+      "text": "We want to know how it behaves after many repeats."
+     },
+     {
+      "id": "c",
+      "text": "The smallest eigenvalue governs that long-term behavior."
+     },
+     {
+      "id": "d",
+      "text": "The matching eigenvector is then the steady state."
+     }
+    ],
+    "answer": "c",
+    "explain": "The largest eigenvalue, not the smallest, governs the long-term behavior."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Eigenvectors are the arrows a transformation merely scales, and the eigenvalue says by how much.",
+    "connections": [
+     {
+      "title": "Characteristic polynomial",
+      "place": "Eigenvectors",
+      "node": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.characteristic-polynomial"
+     },
+     {
+      "title": "Diagonalizable matrix",
+      "place": "Eigenvectors",
+      "node": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.diagonalizable-matrix"
+     },
+     {
+      "title": "Singular value decomposition",
+      "place": "Eigenvectors",
+      "node": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition"
+     },
+     {
+      "title": "Principal component analysis",
+      "place": "Eigenvectors",
+      "node": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.principal-component-analysis"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Points on the horizontal axis do not move, so arrows along it keep direction and length: eigenvectors with eigenvalue one.",
+    "source": "Wikipedia sentences 27, 29, 30, 31"
+   },
+   {
+    "claim": "Eigenvectors are only stretched or shrunk, with neither rotation nor shear.",
+    "source": "Wikipedia sentences 5, 6"
+   },
+   {
+    "claim": "Each name describes a different way of gathering eigenvectors.",
+    "source": "Wikipedia sentences 35, 36, 37"
+   },
+   {
+    "claim": "The largest eigenvalue, not the smallest, governs the long-term behavior.",
+    "source": "Wikipedia sentences 10, 11"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Vectors that keep their direction",
+    "text": "An eigenvector of a linear transformation is a nonzero vector whose direction the transformation leaves unchanged, or simply reverses. The transformation only scales it by a constant factor λ, so that T𝐯 = λ𝐯. That factor is the eigenvalue, and it can be a negative or even a complex number. The prefix eigen- comes from the German eigen, meaning 'own', 'proper' or 'characteristic', and another name for an eigenvector is a characteristic vector.",
+    "cites": [
+     1,
+     2,
+     3,
+     17
+    ]
+   },
+   {
+    "heading": "The picture with arrows",
+    "text": "Vectors can be pictured as arrows, each with a length and a direction. A linear transformation can rotate, stretch or shear the arrows it acts on. Its eigenvectors are the arrows that are only stretched or shrunk, with no rotation and no shear. The eigenvalue is the factor of that stretch or shrink, and a negative eigenvalue turns the arrow around.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "A sheared Mona Lisa",
+    "text": "A shear applied to the Mona Lisa shows the idea. Treat each point of the painting as an arrow from the center to that point. The shear moves points in the top half to the right and points in the bottom half to the left, by an amount that grows with their distance from the horizontal line through the middle. Points on that line do not move, so any arrow pointing straight right or left keeps both its direction and its length. Those horizontal arrows are eigenvectors, each with eigenvalue one.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "In the language of matrices",
+    "text": "For an n × n matrix A and a nonzero vector 𝐯, if A𝐯 is just 𝐯 scaled by a number λ, then 𝐯 is an eigenvector of A with eigenvalue λ, written A𝐯 = λ𝐯. Once a basis is chosen for an n-dimensional vector space, linear transformations of that space correspond directly to n × n square matrices. So in finite dimensions it makes no difference whether eigenvectors are defined with transformations or with matrices. For a matrix, the eigenvectors are n × 1 matrices.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     34
+    ]
+   },
+   {
+    "heading": "Functions and eigenspaces",
+    "text": "Eigenvectors need not be arrows at all. If the transformation is the differential operator d/dx, its eigenvectors are functions, called eigenfunctions, as in d/dxe^λx = λe^λx. All the eigenvectors that share one eigenvalue, together with the zero vector, make up an eigenspace. If a set of eigenvectors forms a basis of the transformation's domain, that basis is called an eigenbasis.",
+    "cites": [
+     32,
+     33,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Why they matter",
+    "text": "Eigenvalues and eigenvectors characterize a transformation, so they matter wherever linear algebra is used, from geology to quantum mechanics. Often a system is described by a transformation whose outputs are fed back in as its inputs. In that kind of feedback, the largest eigenvalue governs the long-term behavior after many repetitions, and its eigenvector is the steady state. Other uses include analyzing stability and vibration, atomic orbitals, facial recognition and diagonalizing matrices.",
+    "cites": [
+     9,
+     10,
+     11,
+     18
+    ]
+   },
+   {
+    "heading": "Where the idea came from",
+    "text": "Eigenvalues are often introduced through matrices, but historically they arose from quadratic forms and differential equations. In the 18th century Leonhard Euler studied the rotation of rigid bodies and saw the importance of their principal axes, and Joseph-Louis Lagrange realized those axes are the eigenvectors of the inertia matrix. In the early 19th century Augustin-Louis Cauchy used their work to classify quadric surfaces and coined the term characteristic root for what is now called an eigenvalue.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mit-eigen",
+   "kind": "course",
+   "title": "Eigenvalues and Eigenvectors",
+   "by": "Gilbert Strang, MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/least-squares-determinants-and-eigenvalues/eigenvalues-and-eigenvectors/",
+   "note": "MIT lecture video, notes and problems on what eigenvectors are and how to find them.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-eigenvector",
+   "kind": "article",
+   "title": "Eigenvector",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Eigenvector.html",
+   "note": "A reference entry on eigenvectors, left and right eigenvectors, and their use in diagonalization."
+  },
+  {
+   "id": "mathworld-eigenvalue",
+   "kind": "article",
+   "title": "Eigenvalue",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Eigenvalue.html",
+   "note": "A reference entry on eigenvalues, also called characteristic roots, and where they are used."
+  },
+  {
+   "id": "3b1b-eigen",
+   "kind": "video",
+   "title": "Eigenvectors and eigenvalues",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+   "note": "An animated explanation of eigenvectors as the directions a transformation only stretches."
+  },
+  {
+   "id": "austin-ch4",
+   "kind": "book",
+   "title": "4: Eigenvalues and Eigenvectors - Understanding Linear Algebra (Austin)",
+   "by": "David Austin",
+   "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04%3A_Eigenvalues_and_eigenvectors",
+   "note": "A free textbook chapter on eigenvalues and eigenvectors, how to find them, and diagonalization.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.oscillation.damping",
+ "name": "Damping",
+ "summary": [
+  {
+   "text": "Damping is the loss of energy from an oscillating system, which reduces or prevents its oscillation.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Sources include fluid drag, surface friction, radiation and electrical resistance, and the amount of damping decides how the system behaves.",
+   "cites": [
+    3,
+    15
+   ]
+  },
+  {
+   "text": "A damping ratio describes how damped a system is: low values overshoot and ring, one value just avoids overshoot, and higher values creep back slowly.",
+   "cites": [
+    11,
+    12,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Damping ratio symbol",
+   "value": "Written as zeta, a number with no units",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Critical damping",
+   "value": "Returns to equilibrium in the least time",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Undamped case",
+   "value": "The mass would bounce forever at equal height",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Q factor",
+   "value": "A high Q means slow damping relative to the oscillation",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You drop a weight on a spring into a tub of thick syrup and it oozes back to rest without ever passing the middle. What kind of damping is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Overdamped"
+    },
+    {
+     "id": "b",
+     "label": "Underdamped"
+    },
+    {
+     "id": "c",
+     "label": "Undamped"
+    },
+    {
+     "id": "d",
+     "label": "Critically damped"
+    }
+   ],
+   "answer": "a",
+   "explain": "High losses, such as a viscous fluid, let the mass return slowly without overshooting, which is called overdamped.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.damping:q1"
+  },
+  {
+   "prompt": "A bounce on a pogo-like spring gets a little lower each time, and keeps crossing the middle. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is overdamped and stuck in place"
+    },
+    {
+     "id": "b",
+     "label": "It is critically damped"
+    },
+    {
+     "id": "c",
+     "label": "It has no damping at all here"
+    },
+    {
+     "id": "d",
+     "label": "It is underdamped, shedding energy"
+    }
+   ],
+   "answer": "d",
+   "explain": "Underdamped systems overshoot repeatedly, dissipating some energy each time, so the oscillations die toward zero.",
+   "cites": [
+    20,
+    21,
+    22
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.damping:q2"
+  },
+  {
+   "prompt": "A hotel wants a door that swings shut as fast as it can without slamming back open. Which damping level suits it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Underdamped, so it bounces shut"
+    },
+    {
+     "id": "b",
+     "label": "Critically damped, the edge of no overshoot"
+    },
+    {
+     "id": "c",
+     "label": "Overdamped, so it creeps closed"
+    },
+    {
+     "id": "d",
+     "label": "Undamped, so it never slows"
+    }
+   ],
+   "answer": "b",
+   "explain": "Critical damping is the level at which the system just fails to overshoot, and it returns to equilibrium in the minimum amount of time.",
+   "cites": [
+    23,
+    25
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.damping:q3"
+  },
+  {
+   "prompt": "Friction on a sliding crate and damping of a bouncing spring are often mixed up. What is the correct relationship?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same thing under two names"
+    },
+    {
+     "id": "b",
+     "label": "Damping is a force, friction is an energy"
+    },
+    {
+     "id": "c",
+     "label": "Friction can cause damping, but the two are not identical"
+    },
+    {
+     "id": "d",
+     "label": "Friction prevents damping from occurring"
+    }
+   ],
+   "answer": "c",
+   "explain": "Friction is a dissipative force acting on a system and can cause or contribute to damping, but damping is not to be confused with it.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.damping:q4"
+  },
+  {
+   "prompt": "An engineer says a system's damping ratio is 0.4. Compared with a ratio of 1, how will it behave?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It overshoots and oscillates before settling"
+    },
+    {
+     "id": "b",
+     "label": "It returns slowly without any overshoot"
+    },
+    {
+     "id": "c",
+     "label": "It never moves from equilibrium"
+    },
+    {
+     "id": "d",
+     "label": "It oscillates forever at one size"
+    }
+   ],
+   "answer": "a",
+   "explain": "A ratio between 0 and 1 is underdamped, which means overshooting with decaying oscillation; 1 is the critical case.",
+   "cites": [
+    12,
+    20,
+    21,
+    22
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.damping:q5"
+  },
+  {
+   "prompt": "A glass bell keeps ringing for a very long time compared with the length of one vibration before it fades. How does its Q factor read?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Small, since it loses energy quickly"
+    },
+    {
+     "id": "b",
+     "label": "Large, since the damping is slow"
+    },
+    {
+     "id": "c",
+     "label": "Zero, since it is perfectly steady"
+    },
+    {
+     "id": "d",
+     "label": "Unrelated, since Q ignores damping"
+    }
+   ],
+   "answer": "b",
+   "explain": "Q is a non-dimensional measure of the amount of damping, and a high Q indicates slow damping relative to the oscillation.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation.damping:q6"
+  }
+ ],
+ "source": {
+  "title": "Damping",
+  "url": "https://en.wikipedia.org/wiki/Damping",
+  "revision": 1381084238
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What damping is",
+    "text": "Damping is anything inside or acting on a vibrating system that shrinks its swings or stops them happening at all. In physical systems, it is the loss of energy from the motion, a process called dissipation. Damping should not be confused with friction. Friction is one kind of force that drains energy, and it can cause damping or add to it.",
+    "cites": [
+     1,
+     2,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "Damping turns up in many forms. A fluid can drag on a moving object, surfaces can rub, a system can radiate energy away, electrical resistance can sap an electronic oscillator, and light can be absorbed or scattered inside optical ones. Some systems, such as those found in living things and in bikes, also show damping that does not rest on losing energy.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "A weight on a spring",
+    "text": "Many systems start to oscillate when they are nudged away from a resting balance point, called equilibrium. A weight hung from a spring is the classic case: pull it down, let go, and it bobs up and down. Each bounce carries it back toward equilibrium, but it shoots past. Losses such as friction can make these swings fade gradually toward nothing.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Undamped, underdamped, overdamped",
+    "text": "How much damping a system has decides how it moves. With no losses at all, the weight would keep bouncing forever, each bounce as high as the last; this imagined case is called undamped. Usually the weight overshoots again and again, losing a little energy every time, until the swings die out; this is called underdamped. With heavy losses, as when the experiment is done in a thick, syrupy fluid, the weight creeps back to rest without ever overshooting; this is called overdamped.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Critical damping",
+    "text": "Between underdamped and overdamped lies one particular amount of damping at which the system only just fails to overshoot and makes not a single swing. This is called critical damping. What sets it apart from overdamping is speed: a critically damped system gets back to equilibrium in the least possible time.",
+    "cites": [
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "The damping ratio",
+    "text": "A single number called the damping ratio, written ζ (zeta), sums up how damped a system is. It has no units, because it is a ratio of two coefficients measured in the same units. A value of ζ = 0 means undamped, values between 0 and 1 mean underdamped, ζ = 1 is critically damped, and anything above 1 is overdamped. The larger the ratio, the more damped the system.",
+    "cites": [
+     11,
+     12,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "The fading wave",
+    "text": "An underdamped system traces a damped sine wave: a smooth wave whose height shrinks toward zero as time goes on. Such waves appear all over science and engineering, wherever an oscillator loses energy faster than it is being fed. Another unit-free measure, the Q factor, equals 1 / (2 ζ). A high Q means the swings die away slowly compared with how fast they repeat.",
+    "cites": [
+     26,
+     27,
+     28,
+     39
+    ]
+   },
+   {
+    "heading": "Why engineers care",
+    "text": "Oscillating behaviour matters in control, chemical, mechanical, structural and electrical engineering. What oscillates varies widely, from a tall building swaying in the wind to the speed of an electric motor. Describing the motion with unit-free numbers, like the damping ratio, makes it easier to see what all these cases have in common.",
+    "cites": [
+     11,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-15-5",
+   "kind": "book",
+   "title": "15.5 Damped Oscillations",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations",
+   "note": "A free textbook section deriving the damped oscillator and comparing under-, critically and overdamped motion."
+  },
+  {
+   "id": "cp-16-7",
+   "kind": "book",
+   "title": "16.7 Damped Harmonic Motion",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion",
+   "note": "A gentler textbook section on how friction shrinks swings, with a worked spring-and-friction example."
+  },
+  {
+   "id": "wb-damped-systems",
+   "kind": "book",
+   "title": "Engineering Acoustics/Characterizing Damped Mechanical Systems",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Engineering_Acoustics/Characterizing_Damped_Mechanical_Systems",
+   "note": "A free wikibook page on the damping ratio, critical damping, under- and overdamping, and the quality factor.",
+   "license": "CC BY-SA"
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division",
+ "name": "Synthetic division",
+ "summary": [
+  {
+   "text": "Synthetic division is a hand method for dividing one polynomial by another with less writing and fewer calculations than long division.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is mostly taught for division by linear monic polynomials, a case known as Ruffini's rule, though the method can be generalized to any polynomial.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "You calculate without writing variables, it takes significantly less space on paper, and signs are switched at the start so subtractions become additions.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Also called",
+   "value": "Ruffini's rule, when dividing by a linear monic polynomial",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "No variables",
+   "value": "You calculate without writing the variables",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Sign trick",
+   "value": "Switching signs at the start turns subtractions into additions",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Reading the result",
+   "value": "The last term is the remainder; the rest are quotient coefficients",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student keeps making sign slips while subtracting in long division. What does synthetic division do about this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It switches the signs at the start so subtractions become additions"
+    },
+    {
+     "id": "b",
+     "label": "It removes the divisor so no signs are needed"
+    },
+    {
+     "id": "c",
+     "label": "It only allows divisors with positive coefficients"
+    },
+    {
+     "id": "d",
+     "label": "It rounds every sign off to the nearest number"
+    }
+   ],
+   "answer": "a",
+   "explain": "The subtractions in long division are converted to additions by switching signs at the very beginning, which helps prevent sign errors.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division:q1"
+  },
+  {
+   "prompt": "A friend fills a page writing x's and powers while dividing polynomials. What does synthetic division let them skip?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Writing the divisor anywhere"
+    },
+    {
+     "id": "b",
+     "label": "Writing the variables, since only the coefficients are used"
+    },
+    {
+     "id": "c",
+     "label": "Writing the remainder, which is never needed"
+    },
+    {
+     "id": "d",
+     "label": "Writing the subtraction signs and the numbers beside them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Synthetic division lets you calculate without writing variables, and it takes significantly less space on paper than long division.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division:q2"
+  },
+  {
+   "prompt": "A finished synthetic division ends with a row of numbers, the last one being −123. How do you read that row?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All the numbers together form the remainder"
+    },
+    {
+     "id": "b",
+     "label": "The first number is the remainder and the others the quotient"
+    },
+    {
+     "id": "c",
+     "label": "The last term is the remainder; the rest are quotient coefficients"
+    },
+    {
+     "id": "d",
+     "label": "The last term is the quotient's leading coefficient"
+    }
+   ],
+   "answer": "c",
+   "explain": "In the example the last term, −123, is the remainder, and the rest correspond to the coefficients of the quotient.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division:q3"
+  },
+  {
+   "prompt": "In the method, the first coefficient has been dropped to the bottom row. What happens to it next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is subtracted from the second coefficient in the row"
+    },
+    {
+     "id": "b",
+     "label": "It is divided by the number before the bar and moved"
+    },
+    {
+     "id": "c",
+     "label": "It is multiplied by the number before the bar and moved on"
+    },
+    {
+     "id": "d",
+     "label": "It is added to the divisor and the sum written below"
+    }
+   ],
+   "answer": "c",
+   "explain": "The dropped number is multiplied by the number before the bar and placed in the next column.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division:q4"
+  },
+  {
+   "prompt": "A classmate says the shortcut fails whenever the divisor has an x-squared term, so it works for linear divisors only. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes; it was invented only for the linear case"
+    },
+    {
+     "id": "b",
+     "label": "No; it is mostly taught for linear monic divisors, but can be generalized to any polynomial"
+    },
+    {
+     "id": "c",
+     "label": "Yes; with an x-squared term it gives wrong remainders"
+    },
+    {
+     "id": "d",
+     "label": "No; it works for every divisor, and the usual teaching is simply a custom"
+    }
+   ],
+   "answer": "b",
+   "explain": "It is mostly taught for division by linear monic polynomials, but the method can be generalized to division by any polynomial.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division:q5"
+  },
+  {
+   "prompt": "In the finished bottom row, where does the degree-zero (constant) term sit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At the left-most end, with degrees rising toward the right"
+    },
+    {
+     "id": "b",
+     "label": "In the middle, with degrees spreading both ways"
+    },
+    {
+     "id": "c",
+     "label": "At the right-most end, with degrees rising toward the left"
+    },
+    {
+     "id": "d",
+     "label": "It is left out of the row"
+    }
+   ],
+   "answer": "c",
+   "explain": "The terms are written with increasing degree from right to left, beginning with degree zero for both the remainder and the quotient.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Synthdiv.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Synthetic division",
+  "credit": "SmallJarsWithGreenLabels",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Synthdiv.gif"
+ },
+ "source": {
+  "title": "Synthetic division",
+  "url": "https://en.wikipedia.org/wiki/Synthetic_division",
+  "revision": 1374867738
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A shorter way to divide",
+    "text": "Synthetic division is a pencil-and-paper method for dividing one polynomial by another to get a quotient and a remainder. It does the same job as long division with less writing and fewer calculations. It is mostly taught for divisors of the simple form x − a, a case known as Ruffini's rule. The method can be extended, though, to dividing by any polynomial.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "Why people use it",
+    "text": "You never write the variable x, only numbers. The method needs few calculations and takes up far less room on the page than long division. Signs are switched at the very start, so the subtractions of long division become additions. That small change helps prevent mistakes with minus signs.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "How the steps go",
+    "text": "Take p(x) = x³ − 12 x² + 0 x − 42, divided by x − a. The first coefficient after the bar drops straight down to the bottom row. That dropped number is multiplied by the number in front of the bar, and the product goes in the next column. At the end, the last number, −123, is the remainder, and the others are the coefficients of the quotient, read with degree rising from right to left starting at zero.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Evaluating polynomials",
+    "text": "This form of synthetic division pairs well with the polynomial remainder theorem. That theorem says the value of p(x) at a equals the remainder when p(x) is divided by x − a. Finding the value this way takes just over half as many multiplications as plugging a in directly. Another way to do the evaluation is Horner's method.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Longer divisors",
+    "text": "The expanded method handles divisors with more terms, and again you work only with coefficients. The dividend's coefficients go across the top. Every divisor coefficient except the first is written down the left in a rising diagonal, with its sign changed. You drop the first number, multiply it by the diagonal, place the products diagonally to the right, and repeat until the next diagonal would run past the top row. With two terms to the left of the bar, the remainder has degree one and fills the two right-most places under the bar.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "When the divisor does not start with 1",
+    "text": "A divisor whose leading coefficient is not 1 can be handled without reducing it first. After each number is dropped, it is divided by that leading coefficient before the multiplying step, as long division with such a divisor shows. An extra row at the bottom holds these divided values. Unlike the divisor's other coefficients, the leading one keeps its sign.",
+    "cites": [
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-dividing-polynomials",
+   "kind": "book",
+   "title": "3.5 Dividing Polynomials - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/3-5-dividing-polynomials",
+   "note": "A free textbook section on dividing polynomials, including synthetic division by x - k with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

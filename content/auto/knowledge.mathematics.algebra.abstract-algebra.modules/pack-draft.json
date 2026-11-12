@@ -1,0 +1,108 @@
+{
+ "title": "Vector spaces, loosened",
+ "question": "What happens to a basis when the scalars are not a field?",
+ "hook": "A basis is easy to find in a vector space, but swap the field for a looser ring and some modules have none.",
+ "idea": "A free module is a module that has a basis, and while every vector space is one, modules over looser rings need not be.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A finitely generated module over the integers is known to be torsion-free. What can you say about it?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It need not be free; torsion-free is a weaker idea.",
+     "feedback": "Torsion-free modules do form a broader class in general, but for finitely generated modules over the integers the properties line up."
+    },
+    {
+     "id": "b",
+     "label": "It is also free, projective and flat.",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "It cannot have a basis.",
+     "feedback": "A free module is exactly one that has a basis, and here the module is free."
+    }
+   ],
+   "answer": "b",
+   "explain": "For a finitely generated module over a principal ideal domain such as the integers, free, projective, flat and torsion-free are equivalent.",
+   "cites": [
+    37,
+    38
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each kind of module to what defines it.",
+   "pairs": [
+    [
+     "Free module",
+     "Has a linearly independent generating set"
+    ],
+    [
+     "Projective module",
+     "A direct summand of a free module"
+    ],
+    [
+     "Flat module",
+     "Tensoring with it preserves exact sequences"
+    ]
+   ],
+   "explain": "Free modules have a basis, and projective and flat modules are larger classes to which many statements about free modules extend.",
+   "cites": [
+    1,
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each module by whether it is guaranteed to be free.",
+   "groups": [
+    "always free",
+    "generally not free"
+   ],
+   "items": [
+    [
+     "Any vector space",
+     "always free"
+    ],
+    [
+     "A ring viewed over itself",
+     "always free"
+    ],
+    [
+     "A direct sum of free modules",
+     "always free"
+    ],
+    [
+     "An infinite cartesian product of free modules",
+     "generally not free"
+    ]
+   ],
+   "explain": "Vector spaces, a ring over itself and direct sums of free modules are free, while infinite products generally are not.",
+   "cites": [
+    2,
+    10,
+    18
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "A vector space has a basis.",
+    "A module with a basis is a free module.",
+    "So every vector space is a free module.",
+    "So every module over every ring is free too."
+   ],
+   "wrong": 3,
+   "explain": "Vector spaces live over fields; if the coefficient ring is not a division ring, there exist non-free modules.",
+   "cites": [
+    1,
+    2
+   ]
+  }
+ ]
+}

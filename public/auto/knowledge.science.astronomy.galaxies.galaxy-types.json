@@ -1,0 +1,559 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.galaxies.galaxy-types",
+ "name": "Galaxy types",
+ "summary": [
+  {
+   "text": "Galaxy morphological classification is how astronomers divide galaxies into groups based on their visual appearance, shape, structure and distribution of light.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The most famous scheme is the Hubble sequence, devised by Edwin Hubble, which covers ellipticals, spirals, barred spirals, lenticulars and irregulars.",
+   "cites": [
+    2,
+    4,
+    6,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "text": "Gérard de Vaucouleurs extended it in 1959 to cover rings and lenses, and today classification is largely done with computational methods.",
+   "cites": [
+    3,
+    14,
+    15,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Hubble sequence",
+   "value": "Devised by Edwin Hubble, later expanded",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Barred spirals",
+   "value": "Roughly half of all spirals have a bar",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Lenticular galaxies",
+   "value": "Bulge and disk, but no visible spiral structure",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "De Vaucouleurs axes",
+   "value": "Stage, family and variety on three axes",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Hubble stage T",
+   "value": "Runs from -6 to +10",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A galaxy has a bright central bulge and a flat disk, but no visible spiral structure and almost no new stars forming. How is it classified?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a spiral"
+    },
+    {
+     "id": "b",
+     "label": "As a barred spiral"
+    },
+    {
+     "id": "c",
+     "label": "As a lenticular"
+    },
+    {
+     "id": "d",
+     "label": "As an irregular"
+    }
+   ],
+   "answer": "c",
+   "explain": "Lenticular galaxies (S0) have a bulge and disk, but unlike spirals their disks show no spiral structure and form few stars.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-types:q1"
+  },
+  {
+   "prompt": "In de Vaucouleurs's numerical stages, the lowest values go to one end of the sequence. Which galaxies sit there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Spirals and irregulars"
+    },
+    {
+     "id": "b",
+     "label": "Ellipticals and lenticulars"
+    },
+    {
+     "id": "c",
+     "label": "Only irregulars"
+    },
+    {
+     "id": "d",
+     "label": "Only barred spirals"
+    }
+   ],
+   "answer": "b",
+   "explain": "Negative values of T mark early-type galaxies, meaning ellipticals and lenticulars, and positive values mark spirals and irregulars.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-types:q2"
+  },
+  {
+   "prompt": "Two galaxies are compared. One keeps most of its stars in a central spheroid, the other keeps most in a disk. Which has the lower value of T?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with most stars in a disk"
+    },
+    {
+     "id": "b",
+     "label": "The one with most stars in a spheroid"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since T has no link to stars"
+    },
+    {
+     "id": "d",
+     "label": "Both have the same T"
+    }
+   ],
+   "answer": "b",
+   "explain": "As a rough rule, lower T values correspond to a larger fraction of stellar mass in a spheroid or bulge relative to the disk.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-types:q3"
+  },
+  {
+   "prompt": "In 1959 a galaxy specialist argued that classifying spirals only by arm tightness and the presence of a bar was not enough. What did he say was missing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The color of the stars within the arms"
+    },
+    {
+     "id": "b",
+     "label": "The galaxy's distance from Earth in space"
+    },
+    {
+     "id": "c",
+     "label": "The mass of the central black hole"
+    },
+    {
+     "id": "d",
+     "label": "Rings and lenses, as important spiral parts"
+    }
+   ],
+   "answer": "d",
+   "explain": "De Vaucouleurs argued that rings and lenses are important structural components of spiral galaxies.",
+   "cites": [
+    14,
+    15,
+    16
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-types:q4"
+  },
+  {
+   "prompt": "In June 2019, volunteers in a citizen science project reported something about the usual way of classifying galaxies. What was it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It may need reassessment, especially how spiral arms relate to the nucleus"
+    },
+    {
+     "id": "b",
+     "label": "It has been proven correct in every detail"
+    },
+    {
+     "id": "c",
+     "label": "It should be dropped, because no galaxy fits it"
+    },
+    {
+     "id": "d",
+     "label": "It works only for galaxies near the Milky Way"
+    }
+   ],
+   "answer": "a",
+   "explain": "Galaxy Zoo citizen scientists reported that the usual Hubble classification may need reassessment, particularly for spiral arms and the galactic nucleus.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-types:q5"
+  },
+  {
+   "prompt": "How is galaxy classification mostly done today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By eye, one galaxy at a time, using Hubble's original rules"
+    },
+    {
+     "id": "b",
+     "label": "Largely with computational methods and physical morphology"
+    },
+    {
+     "id": "c",
+     "label": "By a vote among professional astronomers"
+    },
+    {
+     "id": "d",
+     "label": "Only by amateur astronomers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Classification and morphology are now largely done using computational methods and physical morphology.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-types:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hubble_Tuning_Fork_diagram.svg/960px-Hubble_Tuning_Fork_diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Galaxy types",
+  "credit": "Cosmogoblin",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hubble_Tuning_Fork_diagram.svg"
+ },
+ "source": {
+  "title": "Galaxy morphological classification",
+  "url": "https://en.wikipedia.org/wiki/Galaxy_morphological_classification",
+  "revision": 1376043870
+ },
+ "pack": {
+  "id": "auto-galaxies-galaxy-types",
+  "title": "A fork for sorting galaxies",
+  "question": "How do astronomers sort galaxies by their shape?",
+  "path": [
+   "Science",
+   "Astronomy",
+   "Galaxies",
+   "Galaxy types"
+  ],
+  "hue": 195,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hubble_Tuning_Fork_diagram.svg/960px-Hubble_Tuning_Fork_diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Galaxy types",
+    "credit": "Cosmogoblin · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hubble_Tuning_Fork_diagram.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "A fork for sorting galaxies",
+    "hook": "A fork-shaped chart is still the most common way to sort galaxies."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-galaxies-galaxy-types:1",
+    "transfer": false,
+    "prompt": "Match each symbol to the galaxy type it stands for.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "S"
+     },
+     {
+      "id": "l1",
+      "label": "SB"
+     },
+     {
+      "id": "l2",
+      "label": "S0"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Barred spiral"
+     },
+     {
+      "id": "r2",
+      "label": "Lenticular"
+     },
+     {
+      "id": "r0",
+      "label": "Spiral"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Spirals get the symbol S, barred spirals SB, and lenticular galaxies S0."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-galaxies-galaxy-types:2",
+    "transfer": false,
+    "prompt": "You pick a spiral galaxy at random and look for a bar-like structure across its center. How likely is it to have one?",
+    "explain": "Roughly half of all spirals are observed to have a bar-like structure extending from the central bulge.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Almost always",
+        "feedback": "Many spirals have no bar at all."
+       },
+       {
+        "id": "a",
+        "label": "Almost never",
+        "feedback": "Bars are far from rare in spirals."
+       },
+       {
+        "id": "c",
+        "label": "Roughly half the time"
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-galaxies-galaxy-types:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each type into early type or late type.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Elliptical"
+     },
+     {
+      "id": "i1",
+      "label": "Lenticular"
+     },
+     {
+      "id": "i2",
+      "label": "Spiral"
+     },
+     {
+      "id": "i3",
+      "label": "Irregular"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Early type"
+     },
+     {
+      "id": "g1",
+      "label": "Late type"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Early types are the ellipticals and lenticulars, and late types are the spirals and irregulars."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-galaxies-galaxy-types:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Astronomers sort galaxies by appearance, shape, structure and how their light is spread."
+     },
+     {
+      "id": "b",
+      "text": "The best-known scheme is the Hubble sequence, devised by Edwin Hubble."
+     },
+     {
+      "id": "c",
+      "text": "Because it is an older scheme, professionals have dropped it for newer ones."
+     },
+     {
+      "id": "d",
+      "text": "Newer extensions, such as de Vaucouleurs's 1959 system, add rings and lenses."
+     }
+    ],
+    "answer": "c",
+    "explain": "The Hubble sequence is still the most commonly used system, both in professional research and in amateur astronomy."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Galaxies are sorted by their appearance, and the Hubble sequence lays out ellipticals, lenticulars and spirals along a fork.",
+    "connections": [
+     {
+      "title": "Spiral galaxy",
+      "place": "Galaxy types",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-types.spiral-galaxy"
+     },
+     {
+      "title": "Elliptical galaxy",
+      "place": "Galaxy types",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-types.elliptical-galaxy"
+     },
+     {
+      "title": "Irregular galaxy",
+      "place": "Galaxy types",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-types.irregular-galaxy"
+     },
+     {
+      "title": "Dwarf galaxy",
+      "place": "Galaxy types",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-types.dwarf-galaxy"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Spirals get the symbol S, barred spirals SB, and lenticular galaxies S0.",
+    "source": "Wikipedia sentences 5, 7, 8"
+   },
+   {
+    "claim": "Roughly half of all spirals are observed to have a bar-like structure extending from the central bulge.",
+    "source": "Wikipedia sentences 6"
+   },
+   {
+    "claim": "Early types are the ellipticals and lenticulars, and late types are the spirals and irregulars.",
+    "source": "Wikipedia sentences 21"
+   },
+   {
+    "claim": "The Hubble sequence is still the most commonly used system, both in professional research and in amateur astronomy.",
+    "source": "Wikipedia sentences 1, 2, 12, 14, 16"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Sorting galaxies by looks",
+    "text": "Galaxy classification sorts galaxies into groups by how they look: their shape, their structure and the way their light is spread out. Astronomers use several schemes for this. The best known is the Hubble sequence, created by Edwin Hubble and later extended by Gérard de Vaucouleurs and Allan Sandage. It is still the most widely used system, by professional researchers and amateurs alike, although much of the sorting today is done with computer methods.",
+    "cites": [
+     1,
+     2,
+     3,
+     12
+    ]
+   },
+   {
+    "heading": "The main classes",
+    "text": "Spiral galaxies, given the symbol S, have a flat disk in which stars trace a spiral, usually with two arms, plus a central crowd of stars called the bulge. That bulge looks much like an elliptical galaxy. About half of all spirals also show a bar-like structure running out from the bulge, and these barred spirals get the symbol SB. Lenticular galaxies, written S0, also have a bright bulge inside a disk, but the disk shows no spiral and makes hardly any new stars. Irregular galaxies have no obvious regular structure, neither disk-like nor egg-shaped.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "The tuning fork",
+    "text": "The Hubble sequence is often drawn as a fork with two prongs. Ellipticals sit on the left, growing more stretched as you move to the right. Barred and unbarred spirals form the two parallel prongs on the right, and lenticulars sit where the prongs meet the handle. Even so, in June 2019 volunteers working through Galaxy Zoo reported that the usual scheme may need rethinking, especially in how it links spiral arms to a galaxy's central nucleus.",
+    "cites": [
+     10,
+     11,
+     13
+    ]
+   },
+   {
+    "heading": "Adding rings and lenses",
+    "text": "In 1959 Gérard de Vaucouleurs described a widely used extension of Hubble's scheme. He argued that Hubble's two measures for spirals, how tightly the arms wind and whether there is a bar, missed much of the range of shapes actually seen. In particular, he held that rings and lenses are important parts of spiral galaxies. His labels are joined in a fixed order, so a weakly barred spiral with loosely wound arms and a ring is written SAB(r)c. Drawn out, his system is a three-dimensional tuning fork, with spiralness, barredness and ringedness along its three axes.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Putting numbers on shape",
+    "text": "De Vaucouleurs also gave each class a number, the Hubble stage T, which runs from −6 to +10. Negative values mark early types, the ellipticals and lenticulars, and positive values mark late types, the spirals and irregulars. As a rough rule, a lower T means more of a galaxy's stellar mass sits in its bulge rather than its disk. For nearby galaxies the link is roughly M_B/M_T=(10−T)²/256, where M_B/M_T is the ratio of bulge stellar mass to total stellar mass. Numbers like these let astronomers study galaxy shapes in a more measured way.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     27
+    ]
+   },
+   {
+    "heading": "Other ways to classify",
+    "text": "Other schemes exist too. The Yerkes scheme, made by the American astronomer William Wilson Morgan, uses the spectra of a galaxy's stars, its real and apparent shape, and how concentrated it is toward the center; under it the Andromeda Galaxy is kS5. In 1998 Sidney van den Bergh published a book probing weak points in the Hubble sequence. Number-based tools followed: in 2003 Christopher Conselice formalized the CAS parameters, and in 2004 Jennifer Lotz found that the Gini coefficient, used with a measure called M₂₀ and the CAS parameters, could tell normal galaxies apart from mergers.",
+    "cites": [
+     28,
+     30,
+     31,
+     33,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-26-2",
+   "kind": "book",
+   "title": "26.2 Types of Galaxies (Astronomy 2e)",
+   "by": "Andrew Fraknoi, David Morrison and Sidney Wolff, OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/26-2-types-of-galaxies",
+   "note": "A free college textbook section on spiral, elliptical and irregular galaxies and Hubble's tuning-fork scheme.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nasa-galaxy-types",
+   "kind": "article",
+   "title": "Galaxy Types",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/universe/galaxies/types/",
+   "note": "NASA's short guide to spiral, elliptical, lenticular and irregular galaxies, with Hubble images of each."
+  },
+  {
+   "id": "pbs-crash-course-galaxies-1",
+   "kind": "video",
+   "title": "Galaxies, part 1: Crash Course Astronomy #38",
+   "by": "Phil Plait, Crash Course and PBS Digital Studios",
+   "url": "https://www.pbs.org/video/crash-course-astronomy-38",
+   "minutes": 12,
+   "note": "A 12-minute video lesson on what galaxies are made of and the main shapes they come in."
+  }
+ ]
+}

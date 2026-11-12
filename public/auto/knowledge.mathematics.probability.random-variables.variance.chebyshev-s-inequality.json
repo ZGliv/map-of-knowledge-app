@@ -1,0 +1,310 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality",
+ "name": "Chebyshev's inequality",
+ "summary": [
+  {
+   "text": "Chebyshev's inequality gives an upper bound on the probability that a random variable with finite variance strays far from its mean.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The chance of deviating from the mean by more than kσ is at most 1/k², where σ is the standard deviation.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It applies to any distribution whose mean and variance are defined, but it often gives a poor bound compared with what extra knowledge allows.",
+   "cites": [
+    4,
+    19
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two deviations",
+   "value": "At least 75% of values lie within two standard deviations",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Three deviations",
+   "value": "At least 88.88% lie within three standard deviations",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Named after",
+   "value": "Pafnuty Chebyshev, though Bienaymé formulated it first",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "First proofs",
+   "value": "Bienaymé in 1853, Chebyshev in 1867",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Needs",
+   "value": "A distribution with a defined mean and variance",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Journal articles in a collection average 1000 words, with a standard deviation of 200. Knowing nothing else about the shape, what can you say about articles between 600 and 1400 words?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At least three quarters of them fall in that range"
+    },
+    {
+     "id": "b",
+     "label": "Exactly half of them fall in that range"
+    },
+    {
+     "id": "c",
+     "label": "Fewer than a quarter fall in that range"
+    },
+    {
+     "id": "d",
+     "label": "Almost none fall outside that range"
+    }
+   ],
+   "answer": "a",
+   "explain": "That range is two standard deviations either side of the mean, so no more than 1/4 can lie outside it.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality:q1"
+  },
+  {
+   "prompt": "You know a data set's average and spread but have no idea what shape it has. Why use Chebyshev's inequality instead of the 68-95-99.7 rule?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It always gives a tighter answer than the rule"
+    },
+    {
+     "id": "b",
+     "label": "The rule only works for small samples"
+    },
+    {
+     "id": "c",
+     "label": "The rule applies only to normal distributions"
+    },
+    {
+     "id": "d",
+     "label": "It does not need the average or spread"
+    }
+   ],
+   "answer": "c",
+   "explain": "The 68-95-99.7 rule holds only for normal distributions, while Chebyshev's inequality works for a broad range of distributions.",
+   "cites": [
+    4,
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality:q2"
+  },
+  {
+   "prompt": "Chebyshev's bound guarantees at least 75% within two deviations, yet in your data 95% lie there. Is that a contradiction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since your data break the inequality"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since the inequality demands exactly 75%"
+    },
+    {
+     "id": "c",
+     "label": "No, since it only needs to hold for the data"
+    },
+    {
+     "id": "d",
+     "label": "No, since it is a minimum that is often loose"
+    }
+   ],
+   "answer": "d",
+   "explain": "The inequality states a guaranteed minimum for broad families of distributions, and it often gives a poor bound compared to what more knowledge shows.",
+   "cites": [
+    7,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality:q3"
+  },
+  {
+   "prompt": "Someone applies the inequality with k equal to 1 and finds the chance of straying beyond one standard deviation is at most 1. Is that useful?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, probabilities are always at most 1 anyway"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it proves no value can stray that far"
+    },
+    {
+     "id": "c",
+     "label": "Yes, it shows everything stays within range"
+    },
+    {
+     "id": "d",
+     "label": "No, because k must be a whole number over 5"
+    }
+   ],
+   "answer": "a",
+   "explain": "When k is 1 or less, the bound is 1 or more, and since every probability is at most 1 the statement is trivial.",
+   "cites": [
+    2,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality:q4"
+  },
+  {
+   "prompt": "Could Chebyshev's inequality be used for a distribution whose variance is not finite?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since only the average is needed"
+    },
+    {
+     "id": "b",
+     "label": "No, it requires a finite variance"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if k is chosen large enough"
+    },
+    {
+     "id": "d",
+     "label": "No, it works only on normal shapes"
+    }
+   ],
+   "answer": "b",
+   "explain": "The inequality is stated for a random variable with finite variance, so it cannot be used when the variance is undefined.",
+   "cites": [
+    1,
+    4
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality:q5"
+  },
+  {
+   "prompt": "A student says the Chebyshev bound is always strictly bigger than the true probability. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because it is only ever an overestimate"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since equality would break the theorem"
+    },
+    {
+     "id": "c",
+     "label": "No, since the true probability is always larger"
+    },
+    {
+     "id": "d",
+     "label": "No, as some random variables make it exact"
+    }
+   ],
+   "answer": "d",
+   "explain": "The inequality is tight: for each chosen constant, there exists a random variable for which it is an equality.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.chebyshev-s-inequality:q6"
+  }
+ ],
+ "source": {
+  "title": "Chebyshev's inequality",
+  "url": "https://en.wikipedia.org/wiki/Chebyshev%27s_inequality",
+  "revision": 1372897661
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it promises",
+    "text": "Chebyshev's inequality, also called the Bienaymé–Chebyshev inequality, is a rule from probability theory. It puts a ceiling on how likely a random variable is to land far from its mean, as long as its variance is finite. Distance is measured in units of the standard deviation σ, which is the square root of the variance. The chance of straying more than kσ from the mean is then at most 1/k², for any positive constant k.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why it is so useful",
+    "text": "Its strength is its reach. It holds for every probability distribution whose mean and variance are defined. That generality lets it serve, for example, in proving the weak law of large numbers. In practice it plays a role like the 68–95–99.7 rule, but that rule works only for normal distributions. Chebyshev's version promises, for a broad range of distributions, that at least 75% of values sit within two standard deviations of the mean and at least 88.88% within three.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Only large k says anything",
+    "text": "The rule tells you something only when k is bigger than 1. If k is 1 or less, 1/k² is 1 or more, and since no probability exceeds 1, the statement is empty. Take k = √2: the chance of a value falling outside the interval (μ − √2σ, μ + √2σ) is no more than 1/2. Turned around, at least half the values lie inside that interval.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "A worked example",
+    "text": "Picture choosing a journal article at random from a source whose articles average 1000 words, with a standard deviation of 200 words. Two standard deviations either side of the average gives a range of 600 to 1400 words. The chance of landing outside it is at most 1/k² = 1/4, so at least 75% of picks fall inside. If you also knew the word counts were normally distributed, you could say there is a 75% chance of 770 to 1230 words, an even tighter range.",
+    "cites": [
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "The price of generality",
+    "text": "Because it needs nothing beyond a known finite mean and variance, the bound is usually poor next to what extra knowledge about the distribution would give. The standard proof shows where the slack comes from. It throws away everything about values closer than kσ to the mean, and for values farther out it uses a lower estimate of k²σ² that can be quite crude. Even so, the rule cannot be improved in general: for each positive constant k, some random variable makes the inequality an exact equality.",
+    "cites": [
+     19,
+     26,
+     10
+    ]
+   },
+   {
+    "heading": "Who found it",
+    "text": "The rule is named after the Russian mathematician Pafnuty Chebyshev, but his friend and colleague Irénée-Jules Bienaymé stated it first. Bienaymé proved it in 1853, and Chebyshev proved a more general form in 1867. Chebyshev's student Andrey Markov gave another proof in his 1884 Ph.D. thesis. The naming can confuse: Markov's inequality, a close relative, is sometimes also called Chebyshev's inequality, and some authors call the two Chebyshev's first and second inequalities.",
+    "cites": [
+     11,
+     12,
+     13,
+     8,
+     9
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mathworld-chebyshev",
+   "kind": "article",
+   "title": "Chebyshev Inequality",
+   "by": "Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/ChebyshevInequality.html",
+   "note": "A short reference entry deriving Chebyshev's inequality from Markov's inequality, with references."
+  }
+ ]
+}

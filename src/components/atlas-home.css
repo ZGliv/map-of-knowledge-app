@@ -1,0 +1,70 @@
+/* The home screen is the map. Chrome is one slim top bar (shell.css: brand, where you are,
+   search, one menu), a quiet sidebar on desktop, and a single floating next step. Everything
+   else lives in the menu, the place's hub, or the pages and sheets they open. Loaded after the theme. */
+
+/* Sidebar: navigation and territories, nothing else. */
+.studio-shell .studio-sidebar{width:208px;padding:14px 12px}
+.studio-shell .studio-nav{gap:2px}
+.studio-shell .studio-nav button{min-height:40px;padding:0 12px;gap:12px}
+.studio-shell .studio-territories{margin-top:14px;padding:14px 0 0;border-top:1px solid var(--atlas-rule)}
+.studio-shell .studio-territories button{min-height:36px;padding:0 12px}
+.studio-shell .studio-territories small{font-size:11px}
+@media(max-width:1180px) and (min-width:801px){.studio-shell .studio-sidebar{width:64px;padding:14px 8px}}
+
+/* The single next step, floating over the map. */
+.atlas-next{position:absolute;z-index:4;left:50%;bottom:20px;transform:translateX(-50%);display:flex;align-items:center;gap:12px;max-width:min(520px,calc(100% - 32px));height:50px;padding:0 20px 0 7px;border-radius:999px;border:1px solid color-mix(in srgb,var(--atlas-border-strong) 70%,transparent);background:rgb(9 12 26/.72);backdrop-filter:blur(14px) saturate(1.15);-webkit-backdrop-filter:blur(14px) saturate(1.15);color:var(--atlas-text);text-align:left;box-shadow:var(--edge-light),0 14px 36px -14px rgb(0 0 0/.9);transition:opacity .25s ease,transform .25s ease,border-color .15s,background .15s}
+.atlas-next:hover:not(:disabled){border-color:var(--accent-line);background:rgb(14 18 38/.82)}
+.atlas-next:disabled{opacity:1}
+.atlas-next.is-travelling{opacity:0;transform:translate(-50%,8px);pointer-events:none}
+.atlas-next-play{width:36px;height:36px;flex-shrink:0;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,var(--atlas-button-top),var(--atlas-button-bottom));color:var(--atlas-button-ink);box-shadow:inset 0 1px 0 rgb(255 255 255/.8),0 0 0 4px color-mix(in srgb,var(--next-color,var(--accent)) 16%,transparent),0 0 20px -2px color-mix(in srgb,var(--next-color,var(--accent)) 60%,transparent);transition:transform .16s ease}
+.atlas-next:hover:not(:disabled) .atlas-next-play{transform:scale(1.05)}
+.atlas-next-play svg{width:16px;height:16px;margin-left:2px}
+.atlas-next-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--atlas-serif);font-size:16px;letter-spacing:-.1px;color:var(--atlas-bright)}
+.atlas-next-meta{flex-shrink:0;font-size:12px;color:var(--atlas-muted);font-variant-numeric:tabular-nums}
+@media(prefers-reduced-transparency:reduce){.atlas-next{background:var(--atlas-paper);backdrop-filter:none}}
+
+/* A single piece, opened: name, what it is, one action. */
+.studio-shell .mock-content .mock-diagram{margin-bottom:6px}
+.learning-leaf-entry p small{display:block;margin-top:4px;font-size:11px;letter-spacing:.3px;color:var(--atlas-muted)}
+.studio-shell .mock-content .secondary-button.demo-primary{display:flex;align-items:center;justify-content:center;gap:12px;min-height:44px;min-width:270px;margin:0 auto;padding:0 18px;font-size:12px}
+.studio-shell .mock-content .secondary-button.demo-primary svg{width:16px;color:var(--accent-strong)}
+
+/* The menu: one place for the guide, capture, preview, memory and backup. */
+.app-menu-layer{position:fixed;inset:0;z-index:45}
+.app-menu{position:absolute;top:54px;right:10px;width:264px;padding:6px;border-radius:var(--radius-panel);background:linear-gradient(180deg,var(--atlas-raised),var(--atlas-paper));border:1px solid var(--atlas-border);box-shadow:var(--edge-light),var(--lift-2);color:var(--atlas-text);transform-origin:top right;animation:app-menu-in .14s ease-out both}
+@keyframes app-menu-in{from{opacity:0;transform:translateY(-4px) scale(.98)}}
+.app-menu [role=menu]{display:grid}
+.app-menu-item{display:flex;align-items:center;gap:12px;width:100%;min-height:40px;padding:0 12px;border-radius:8px;background:transparent;color:var(--atlas-pale);font-size:13.5px;text-align:left}
+.app-menu-item svg{color:var(--atlas-muted);transition:color .15s}
+.studio-shell .app-menu-item:is(:hover,:focus-visible){background:var(--atlas-hover);color:var(--atlas-bright);outline:none}
+.app-menu-item:is(:hover,:focus-visible) svg{color:var(--accent-strong)}
+.app-menu hr{border:0;height:1px;background:var(--atlas-rule);margin:6px 8px}
+.app-menu-switch{position:relative;margin-left:auto;width:28px;height:16px;flex-shrink:0;border-radius:999px;background:var(--atlas-selected);transition:background .15s}
+.app-menu-switch::after{content:'';position:absolute;top:2px;left:2px;width:12px;height:12px;border-radius:50%;background:var(--atlas-muted);transition:transform .15s,background .15s}
+[aria-checked=true]>.app-menu-switch{background:var(--accent-line)}
+[aria-checked=true]>.app-menu-switch::after{transform:translateX(12px);background:var(--atlas-bright)}
+.app-menu-status{display:flex;align-items:center;gap:9px;margin:6px 0 0;padding:10px 12px 5px;border-top:1px solid var(--atlas-rule);font-size:12px;color:var(--atlas-faint)}
+.app-menu-status i{width:6px;height:6px;border-radius:50%;background:#7ed6ac;box-shadow:0 0 6px rgb(126 214 172/.55)}
+.app-menu-status.needs-attention{color:#e8cf98}
+.app-menu-status.needs-attention i{background:#e0b062;box-shadow:0 0 6px rgb(224 176 98/.55)}
+@media(prefers-reduced-motion:reduce){.app-menu{animation:none}.atlas-next{transition:none}}
+
+/* Transient messages sit clear of the floating next step. */
+.studio-shell .toast{bottom:86px}
+.studio-shell .save-warning{top:58px}
+
+/* A hub's heading takes focus when it opens; it does not need a ring for that. A hub shares
+   the map's top bar (its trail, with Map in place of Open), so the frame never changes. */
+.studio-shell .hub-workspace h1:focus-visible{outline:none}
+
+@media(max-width:800px){
+ .app-menu{top:52px;right:6px;width:min(264px,calc(100vw - 12px))}
+ /* On a phone the map keeps every pixel; the next step is first in the place's hub. */
+ .atlas-next{display:none}
+ .studio-shell .studio-mobile-nav{height:calc(54px + var(--safe-bottom))}
+ .studio-shell .studio-mobile-nav button{flex-direction:column;gap:3px;min-width:96px;min-height:50px;font-size:10.5px;letter-spacing:.2px}
+ .studio-shell .studio-mobile-nav svg{width:20px;height:20px}
+ .studio-shell .toast{bottom:calc(70px + var(--safe-bottom))}
+ .studio-shell .save-warning{top:56px}
+ .studio-shell .mock-content .secondary-button.demo-primary{min-width:0;width:100%}
+}

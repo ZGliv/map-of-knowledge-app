@@ -1,0 +1,548 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics",
+ "name": "Mechanics",
+ "summary": [
+  {
+   "text": "Mechanics is the part of physics that studies how force, matter and motion relate to one another among physical objects.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its basic idea is that forces applied to an object can change its position relative to its surroundings.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Classical mechanics was founded by Galileo, Kepler, Huygens and Newton, and was later challenged by relativistic and quantum mechanics in the 20th century.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "From the Ancient Greek word for 'of machines'",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Newton's landmark",
+   "value": "The Principia of 1687, built on the new mathematics of calculus",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Galileo's statement",
+   "value": "His Two New Sciences of 1638 gave his final account of falling bodies",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Modern challengers",
+   "value": "General relativity and quantum mechanics, both from the 20th century",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A pushed shopping cart rolls across a parking lot and ends up somewhere new. Which idea from mechanics describes what happened?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A force acted on the cart and moved it relative to its surroundings"
+    },
+    {
+     "id": "b",
+     "label": "The cart's position changed on its own with no cause at all"
+    },
+    {
+     "id": "c",
+     "label": "Matter and motion are unrelated, so the push was irrelevant"
+    },
+    {
+     "id": "d",
+     "label": "Only machines made of metal can be studied by this branch"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mechanics links force, matter and motion: a force on an object can displace it, meaning change its position relative to its environment.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics:q1"
+  },
+  {
+   "prompt": "Why is the name of this branch of physics a fitting one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It comes from a Greek word meaning 'of the stars'"
+    },
+    {
+     "id": "b",
+     "label": "It comes from a Greek word meaning 'of machines'"
+    },
+    {
+     "id": "c",
+     "label": "It comes from a Greek word meaning 'of heat'"
+    },
+    {
+     "id": "d",
+     "label": "It comes from a Greek word meaning 'of light'"
+    }
+   ],
+   "answer": "b",
+   "explain": "The word comes from Ancient Greek meaning 'of machines', a hint at the branch's focus on forces and motion in physical objects.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.science.physics.mechanics:q2"
+  },
+  {
+   "prompt": "An engineer wants to describe how a spacecraft moves along its orbit, and a physicist wants to describe a tiny atomic nucleus. Which tools fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Quantum rules for the spacecraft, classical rules for the nucleus"
+    },
+    {
+     "id": "b",
+     "label": "Classical rules for both, since size makes no difference"
+    },
+    {
+     "id": "c",
+     "label": "Classical rules for the spacecraft, quantum rules for the nucleus"
+    },
+    {
+     "id": "d",
+     "label": "Quantum rules for both, since classical ones are obsolete"
+    }
+   ],
+   "answer": "c",
+   "explain": "The spacecraft's orbit and rotation are handled by the relativistic theory of classical mechanics, while an atomic nucleus is described by quantum mechanics.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.science.physics.mechanics:q3"
+  },
+  {
+   "prompt": "A physicist models a planet as a single mathematical point, ignoring its inner structure. What kind of body is that model treating it as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A rigid body with orientation as an extra freedom"
+    },
+    {
+     "id": "b",
+     "label": "A particle, a body with little known internal structure"
+    },
+    {
+     "id": "c",
+     "label": "An elastic body that can stretch and spring back"
+    },
+    {
+     "id": "d",
+     "label": "A fluid body whose parts can flow past each other"
+    }
+   ],
+   "answer": "b",
+   "explain": "Classical mechanics treats particles as mathematical points with little known internal structure; rigid bodies add size, shape and orientation.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.physics.mechanics:q4"
+  },
+  {
+   "prompt": "Medieval scholars like Ibn Sina and Buridan wrote about a thrown stone staying in motion. What problem were they working on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How force on a thrown object keeps it going afterward"
+    },
+    {
+     "id": "b",
+     "label": "How machines can be built from simple gears and levers"
+    },
+    {
+     "id": "c",
+     "label": "How the speed of light relates to the size of atoms"
+    },
+    {
+     "id": "d",
+     "label": "How heat moves from a hot object into a cold one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Projectile motion was a central problem, and ideas like impetus and inclination tried to explain why a thrown object continues moving.",
+   "cites": [
+    11,
+    13,
+    19
+   ],
+   "id": "knowledge.science.physics.mechanics:q5"
+  },
+  {
+   "prompt": "Someone says Newton invented every idea behind classical mechanics from nothing. What is the more accurate picture?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Newton's Principia drew on no earlier thinkers at all"
+    },
+    {
+     "id": "b",
+     "label": "Newton only copied Aristotle and added a few new words"
+    },
+    {
+     "id": "c",
+     "label": "Newton wrote nothing about how falling bodies behave"
+    },
+    {
+     "id": "d",
+     "label": "Newton's work was key, but earlier scholars developed many ideas"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Principia is the seminal work, yet ideas on inertia and falling bodies had been developed by earlier scholars such as Huygens and medieval predecessors.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.mechanics:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Gyro.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Mechanics",
+  "credit": "KieranMaher at English Wikibooks",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Gyro.gif"
+ },
+ "source": {
+  "title": "Mechanics",
+  "url": "https://en.wikipedia.org/wiki/Mechanics",
+  "revision": 1383821265
+ },
+ "pack": {
+  "id": "auto-physics-mechanics",
+  "title": "Why Things Move at All",
+  "question": "What does mechanics say connects force, matter and motion?",
+  "path": [
+   "Science",
+   "Physics",
+   "Mechanics"
+  ],
+  "hue": 199,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Gyro.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Mechanics",
+    "credit": "KieranMaher at English Wikibooks · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyro.gif",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Things Move at All",
+    "hook": "Every push, pull and fall you have ever seen belongs to one branch of physics."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-physics-mechanics:1",
+    "transfer": false,
+    "prompt": "You apply a force to a book resting on a table. According to mechanics, what may result?",
+    "explain": "Mechanics holds that forces applied to objects may result in displacements, which are changes of position relative to the environment.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The book gains heat but cannot change its position",
+        "feedback": "Mechanics is about force and motion; the described result of a force is displacement, a change of position."
+       },
+       {
+        "id": "a",
+        "label": "The book may be displaced, changing its position relative to its surroundings"
+       },
+       {
+        "id": "b",
+        "label": "Nothing can ever happen, because forces only affect machines",
+        "feedback": "The word comes from 'machines', but mechanics covers force, matter and motion among physical objects in general."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-physics-mechanics:2",
+    "transfer": false,
+    "prompt": "Put these developments in the order they happened.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Greek writers like Archimedes analyze bodies with mathematics"
+     },
+     {
+      "id": "b",
+      "label": "Ibn Sina develops a theory of motion in 1020"
+     },
+     {
+      "id": "c",
+      "label": "Newton publishes the Principia in 1687"
+     },
+     {
+      "id": "d",
+      "label": "Relativistic and quantum mechanics challenge the classical picture"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Ancient Greek theory came first, then medieval work such as Ibn Sina's, then Newton's account in 1687, and finally 20th-century challenges to classical mechanics."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-physics-mechanics:3",
+    "transfer": true,
+    "prompt": "Match each kind of body to how mechanics treats it.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Particle"
+     },
+     {
+      "id": "l1",
+      "label": "Rigid body"
+     },
+     {
+      "id": "l2",
+      "label": "Elastic body"
+     },
+     {
+      "id": "l3",
+      "label": "Fluid"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Non-rigid"
+     },
+     {
+      "id": "r2",
+      "label": "Semi-rigid, able to change shape"
+     },
+     {
+      "id": "r1",
+      "label": "Has size and shape, adding a few degrees of freedom"
+     },
+     {
+      "id": "r0",
+      "label": "Mathematical point with little known internal structure"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Mechanics sorts bodies by how much internal structure matters, from point-like particles to non-rigid fluids."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-physics-mechanics:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about mechanics is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Mechanics studies force, matter and motion among physical objects."
+     },
+     {
+      "id": "b",
+      "text": "So its rules begin with Newton, since nobody earlier studied motion."
+     },
+     {
+      "id": "c",
+      "text": "Greek writers such as Archimedes already analyzed bodies with mathematics."
+     },
+     {
+      "id": "d",
+      "text": "Newton later gave a detailed mathematical account using calculus."
+     }
+    ],
+    "answer": "b",
+    "explain": "Mechanics has ancient roots: Greek thinkers like Aristotle and Archimedes, and medieval scholars, worked on it long before Newton."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Mechanics studies how forces acting on objects change where those objects are and how they move.",
+    "connections": [
+     {
+      "title": "Motion",
+      "place": "Mechanics",
+      "node": "knowledge.science.physics.mechanics.motion"
+     },
+     {
+      "title": "Forces",
+      "place": "Mechanics",
+      "node": "knowledge.science.physics.mechanics.forces"
+     },
+     {
+      "title": "Energy",
+      "place": "Mechanics",
+      "node": "knowledge.science.physics.mechanics.energy"
+     },
+     {
+      "title": "Momentum",
+      "place": "Mechanics",
+      "node": "knowledge.science.physics.mechanics.momentum"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Mechanics holds that forces applied to objects may result in displacements, which are changes of position relative to the environment.",
+    "source": "Wikipedia sentences 1, 2"
+   },
+   {
+    "claim": "Ancient Greek theory came first, then medieval work such as Ibn Sina's, then Newton's account in 1687, and finally 20th-century challenges to classical mechanics.",
+    "source": "Wikipedia sentences 3, 9, 12, 24, 5"
+   },
+   {
+    "claim": "Mechanics sorts bodies by how much internal structure matters, from point-like particles to non-rigid fluids.",
+    "source": "Wikipedia sentences 32, 33, 34"
+   },
+   {
+    "claim": "Mechanics has ancient roots: Greek thinkers like Aristotle and Archimedes, and medieval scholars, worked on it long before Newton.",
+    "source": "Wikipedia sentences 3, 9, 24, 25"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What mechanics studies",
+    "text": "Mechanics is the part of physics about how force, matter and motion relate among physical objects. Its name comes from an Ancient Greek word meaning of machines. A force pushing on an object can produce a displacement, which is a change in the object's position relative to its surroundings. The word body is used very widely here: it can mean a particle, a projectile, a spacecraft, a star, a machine part or a portion of a fluid.",
+    "cites": [
+     1,
+     2,
+     30
+    ]
+   },
+   {
+    "heading": "Kinds of bodies",
+    "text": "Branches of mechanics also differ in the kind of body they describe. A particle has little known inner structure and is treated in classical mechanics as a mathematical point. A rigid body has a size and shape but stays nearly as simple, adding only a few degrees of freedom such as which way it faces. Other bodies are elastic, which is semi-rigid, or fluid, which is not rigid at all. A spacecraft's orbit and spin are handled by classical mechanics in its relativistic form, while the similar movements of an atomic nucleus need quantum mechanics.",
+    "cites": [
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Greek beginnings",
+    "text": "Ancient Greek philosophers were among the first to suggest that abstract principles rule nature. Their main theory of motion was Aristotle's. A second Greek tradition leaned harder on mathematics to analyse bodies at rest or in motion, perhaps prompted by the Pythagorean Archytas. Archimedes, with works such as On Floating Bodies, and Hero, with his Mechanica, belong to this line.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Medieval ideas about motion",
+    "text": "In the Middle Ages, thinkers starting with John Philoponus in the 6th century criticised and reworked Aristotle. A central puzzle was the motion of thrown objects. In The Book of Healing (1020), Ibn Sina said the thrower gives the projectile an impetus that lasts until outside forces such as air resistance wear it away. He also argued that, in a vacuum, a thrown object would keep going until something acted on it, in line with Newton's first law. In the 14th century Jean Buridan developed impetus theory, which later grew into the modern ideas of inertia, velocity, acceleration and momentum.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     16,
+     19
+    ]
+   },
+   {
+    "heading": "Galileo and Newton",
+    "text": "Galileo Galilei and Isaac Newton are the two central figures of the early modern age. Galileo's final word on mechanics, especially falling bodies, was his Two New Sciences of 1638. Newton's Principia of 1687 gave a detailed mathematical account using the new tool of calculus, and became the basis of Newtonian mechanics. Even so, many ideas about inertia and falling bodies had come earlier, from Christiaan Huygens and from medieval scholars. Sharing out credit is hard, because the language of science and what counts as proof have both changed over time.",
+    "cites": [
+     22,
+     23,
+     24,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Beyond Newton",
+    "text": "In the 20th century new discoveries challenged classical mechanics and led to relativistic and quantum mechanics. Einstein's general relativity and quantum mechanics are the two main modern developments, and both drew partly on 19th-century ideas. Modern continuum mechanics, covering topics such as elasticity, plasticity and fluid dynamics, began in the second half of the 20th century.",
+    "cites": [
+     5,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Mechanics and fields",
+    "text": "Physics formally treats the theory of fields as a separate subject from mechanics, but in practice the two are closely woven together. Forces on particles are often worked out from electromagnetic or gravitational fields, and particles in turn act as sources of fields. In quantum mechanics the particles are themselves fields, described by the wave function.",
+    "cites": [
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up1",
+   "kind": "book",
+   "title": "University Physics I - Mechanics, Sound, Oscillations, and Waves",
+   "by": "OpenStax University Physics (LibreTexts)",
+   "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)",
+   "note": "A complete free college textbook on mechanics, from motion and forces to energy, momentum, rotation and fluids.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "mit-8-01sc",
+   "kind": "course",
+   "title": "Classical Mechanics",
+   "by": "Prof. Deepto Chakrabarty, Dr. Peter Dourmashkin, Dr. Michelle Tomasik, Prof. Anna Frebel, Prof. Vladan Vuletic",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "note": "MIT's full introductory classical mechanics course, with video lectures.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

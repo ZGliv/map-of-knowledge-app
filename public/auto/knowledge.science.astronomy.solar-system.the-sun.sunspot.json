@@ -1,0 +1,341 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.solar-system.the-sun.sunspot",
+ "name": "Sunspot",
+ "summary": [
+  {
+   "text": "Sunspots are temporary spots on the Sun's surface that are darker than the surrounding area.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They are regions of reduced surface temperature caused by concentrations of magnetic flux that inhibit convection.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "They often appear in pairs of opposite magnetic polarity, and their number varies with the approximately 11-year solar cycle.",
+   "cites": [
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Lifespan",
+   "value": "A few days to a few months",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Size range",
+   "value": "16 km to 160,000 km across",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Umbra temperature",
+   "value": "Roughly 3000-4500 K, against 5780 K around it",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Rhythm",
+   "value": "Number follows an approximately 11-year cycle",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "First telescope sighting",
+   "value": "December 1610, by Thomas Harriot",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Sunspots look dark against the Sun's surface. What makes them look dark?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are holes where we see empty space"
+    },
+    {
+     "id": "b",
+     "label": "They are cooler than the surface around them"
+    },
+    {
+     "id": "c",
+     "label": "A thin cloud of dust sits in front of them"
+    },
+    {
+     "id": "d",
+     "label": "They are places where the Sun's light switches off"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sunspots are regions of reduced surface temperature, so they shine less brightly than the hotter surface around them.",
+   "cites": [
+    2,
+    34,
+    35
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.sunspot:q1"
+  },
+  {
+   "prompt": "Looking closely at a sunspot, you see a dark core ringed by a lighter fringe. How does the magnetic field in the core compare with the fringe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The core field is stronger and points nearly straight up from the surface"
+    },
+    {
+     "id": "b",
+     "label": "The fringe field is stronger and points straight up"
+    },
+    {
+     "id": "c",
+     "label": "Both fields are equally strong and point the same way"
+    },
+    {
+     "id": "d",
+     "label": "The core has no field; only the fringe has one"
+    }
+   ],
+   "answer": "a",
+   "explain": "The umbra is the darkest region, where the magnetic field is strongest and approximately vertical. The penumbra's field is more inclined.",
+   "cites": [
+    30,
+    32
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.sunspot:q2"
+  },
+  {
+   "prompt": "A school records the number of sunspots every month for thirty years. What pattern should the chart show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A steady climb with no drops"
+    },
+    {
+     "id": "b",
+     "label": "The same number every month"
+    },
+    {
+     "id": "c",
+     "label": "A rise and fall that repeats about every 11 years"
+    },
+    {
+     "id": "d",
+     "label": "A rise and fall that repeats about every year"
+    }
+   ],
+   "answer": "c",
+   "explain": "Sunspot numbers vary according to the approximately 11-year solar cycle.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.sunspot:q3"
+  },
+  {
+   "prompt": "Space-weather forecasters want to know where on the Sun the next big eruption is likely. Where should they look?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In its quietest, spot-free areas"
+    },
+    {
+     "id": "b",
+     "label": "Only at the exact centre of the disc"
+    },
+    {
+     "id": "c",
+     "label": "Only at its poles"
+    },
+    {
+     "id": "d",
+     "label": "Around visible groups of sunspots"
+    }
+   ],
+   "answer": "d",
+   "explain": "Most solar flares and coronal mass ejections originate in magnetically active regions around visible sunspot groupings.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.sunspot:q4"
+  },
+  {
+   "prompt": "Around 1800, an astronomer noticed that years without sunspots matched high wheat prices in England. What does modern analysis say about that link?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sunspot-free years reliably cause harvests to fail"
+    },
+    {
+     "id": "b",
+     "label": "There is no statistically significant correlation"
+    },
+    {
+     "id": "c",
+     "label": "Wheat prices follow the sunspot cycle exactly"
+    },
+    {
+     "id": "d",
+     "label": "Sunspots raise prices by cooling Earth's crops"
+    }
+   ],
+   "answer": "b",
+   "explain": "Later scientists failed to find a connection, and modern analysis finds no statistically significant correlation between wheat prices and sunspot numbers.",
+   "cites": [
+    25,
+    26,
+    28
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.sunspot:q5"
+  },
+  {
+   "prompt": "You photograph a large sunspot today. Will that same spot still be there next year?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Probably not; single spots last days to months, then decay"
+    },
+    {
+     "id": "b",
+     "label": "Yes; sunspots are permanent features of the surface"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as it is part of a pair"
+    },
+    {
+     "id": "d",
+     "label": "Only if it is the largest spot on the Sun"
+    }
+   ],
+   "answer": "a",
+   "explain": "Individual sunspots or groups last from a few days to a few months, but eventually decay.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.astronomy.solar-system.the-sun.sunspot:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sunspots_1302_Sep_2011_by_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Sunspot",
+  "credit": "NASA",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunspots_1302_Sep_2011_by_NASA.jpg"
+ },
+ "source": {
+  "title": "Sunspot",
+  "url": "https://en.wikipedia.org/wiki/Sunspot",
+  "revision": 1382039455
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Dark patches on the Sun",
+    "text": "Sunspots are short-lived patches on the Sun's surface that look darker than the area around them. They are cooler spots, made when bunched-up magnetic flux blocks convection. They appear inside active regions, usually in pairs with opposite magnetic polarity.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Size and lifespan",
+    "text": "A single spot or a group can last from a few days to a few months before it fades away. As they travel across the Sun they swell and shrink, with diameters anywhere from 16 km to 160,000 km. The bigger ones can be seen from Earth with no telescope at all. When they first appear, they can move across the surface at a few hundred meters per second.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Umbra and penumbra",
+    "text": "A sunspot has two main parts: a dark core called the umbra and a brighter border called the penumbra. The umbra is where the magnetic field is strongest, pointing roughly straight out of the photosphere. The penumbra is built of long filaments running outward from the centre, and its field leans over more. In a group, several umbrae can share one unbroken penumbra. The Wilson effect suggests that sunspots are dips in the Sun's surface.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33,
+     41
+    ]
+   },
+   {
+    "heading": "Why they look dark",
+    "text": "The umbra sits at roughly 3000–4500 K, while the material around it is about 5780 K. The photosphere behaves much like a heated black body, whose brightness changes a great deal with temperature at these values. So this gap makes the spots stand out clearly as dark. Yet if you could cut a single sunspot out and see it alone, it would outshine the full moon, glowing crimson-orange.",
+    "cites": [
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Signs of magnetic activity",
+    "text": "Sunspots point to intense magnetic activity and come with other active-region features such as coronal loops and prominences. Most solar flares and coronal mass ejections start in the active regions around visible groups of sunspots. Their number rises and falls over the solar cycle of about 11 years. Similar spots detected indirectly on other stars are called starspots.",
+    "cites": [
+     4,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Watching sunspots through history",
+    "text": "The oldest record of sunspots is in the Chinese I Ching, finished before 800 BC. The Chinese astronomer Gan De noted a deliberate observation in 364 BC, and by 28 BC imperial records listed them as a matter of routine. Thomas Harriot first saw them through a telescope in December 1610, and Johannes and David Fabricius reported them in March 1611. Johannes Fabricius' reports stayed obscure, overshadowed by the independent discoveries and publications of Christoph Scheiner and Galileo Galilei.",
+    "cites": [
+     12,
+     14,
+     15,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Sunspots and the price of wheat",
+    "text": "In the early 19th century William Herschel noticed that sunspots were largely missing from July 1795 to January 1800. He found that this gap lined up with high wheat prices in England. Richard Carrington looked for the link in 1865, as did John Henry Poynting in 1884, and neither found it. Modern analysis agrees: sunspot counts and wheat prices show no statistically significant correlation.",
+    "cites": [
+     24,
+     25,
+     26,
+     28
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-15-2",
+   "kind": "book",
+   "title": "15.2 The Solar Cycle",
+   "by": "OpenStax (Astronomy 2e)",
+   "url": "https://openstax.org/books/astronomy-2e/pages/15-2-the-solar-cycle",
+   "note": "A free college textbook section on sunspots, their umbra and penumbra, and the 11-year rise and fall in their numbers.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "nasa-sunspots",
+   "kind": "article",
+   "title": "Sunspots",
+   "by": "NASA",
+   "url": "https://science.nasa.gov/sun/sunspots/",
+   "note": "NASA on why sunspots are dark, how big they get, the solar cycle and the missions that watch them."
+  }
+ ]
+}

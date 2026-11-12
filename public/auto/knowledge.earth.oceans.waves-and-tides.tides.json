@@ -1,0 +1,621 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.waves-and-tides.tides",
+ "name": "Tides",
+ "summary": [
+  {
+   "text": "Tides are the periodic rise and fall of sea level, driven mainly by the gravity of the Moon and Sun together with Earth's rotation and the Earth–Moon orbit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The tide a coast actually gets is strongly shaped by local factors such as the shape of the ocean basin, seafloor depth, coastlines and friction in shallow seas.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Many shores see two highs and two lows a day, and the size of that swing grows and shrinks over a two-week cycle of spring and neap tides.",
+   "cites": [
+    18,
+    22,
+    24,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Daily patterns",
+   "value": "Semi-diurnal, diurnal or mixed",
+   "cites": [
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "label": "Spring to neap",
+   "value": "About seven days apart",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Current pause",
+   "value": "Slack water, when the tidal current stops",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Reference level",
+   "value": "Gauge readings compared with mean sea level",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "label": "Beyond the oceans",
+   "value": "Earth tide slightly changes the solid Earth's shape",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You visit a beach at full moon, then return a week later at quarter moon. How will the water's daily swing compare on the first visit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Smaller, because the Moon is brightest then"
+    },
+    {
+     "id": "b",
+     "label": "About the same, since only the Moon matters"
+    },
+    {
+     "id": "c",
+     "label": "Larger, with higher highs and lower lows"
+    },
+    {
+     "id": "d",
+     "label": "Zero, because the sea stays still at full moon"
+    }
+   ],
+   "answer": "c",
+   "explain": "Around full and new moon the Sun's tidal force adds to the Moon's, giving the biggest range; at quarter moons it partly cancels, giving the smallest.",
+   "cites": [
+    23,
+    24,
+    27,
+    28,
+    30,
+    32
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tides:q1"
+  },
+  {
+   "prompt": "Why are the biggest ocean swings of the month found around new and full moon?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sun, Moon and Earth line up, so the pulls add"
+    },
+    {
+     "id": "b",
+     "label": "Moonlight warms the water and makes it swell"
+    },
+    {
+     "id": "c",
+     "label": "The Sun and Moon sit at right angles in the sky"
+    },
+    {
+     "id": "d",
+     "label": "Earth spins faster during those two moon phases"
+    }
+   ],
+   "answer": "a",
+   "explain": "At new and full moon the three bodies form a line, and the Sun's tidal force reinforces the Moon's, so the range peaks.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tides:q2"
+  },
+  {
+   "prompt": "Spring tides happen about twice a month, all year round. Where does their name come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They were first recorded in the spring season"
+    },
+    {
+     "id": "b",
+     "label": "A word meaning to jump or rise, as in a water spring"
+    },
+    {
+     "id": "c",
+     "label": "The coiled metal springs in early tide gauges"
+    },
+    {
+     "id": "d",
+     "label": "A harbor town where they were first measured"
+    }
+   ],
+   "answer": "b",
+   "explain": "The name has nothing to do with the season; it comes from a meaning of jump, burst forth or rise, as in a natural spring.",
+   "cites": [
+    23,
+    25
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tides:q3"
+  },
+  {
+   "prompt": "A kayaker must cross a channel with strong tidal currents. When is the crossing likely easiest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Halfway through the falling tide"
+    },
+    {
+     "id": "b",
+     "label": "On a spring-tide day around full moon"
+    },
+    {
+     "id": "c",
+     "label": "Whenever the wind happens to drop"
+    },
+    {
+     "id": "d",
+     "label": "At slack water, when the current pauses"
+    }
+   ],
+   "answer": "d",
+   "explain": "Slack water is the moment the tidal current stops before reversing; spring tides instead bring stronger currents and shorter slack.",
+   "cites": [
+    15,
+    16,
+    30
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tides:q4"
+  },
+  {
+   "prompt": "During a storm, water at a harbor rises well above what the tide table predicted. What most likely added the extra height?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wind and low air pressure building a storm surge"
+    },
+    {
+     "id": "b",
+     "label": "A sudden extra pull from the Moon that night"
+    },
+    {
+     "id": "c",
+     "label": "Earth's rotation briefly speeding up"
+    },
+    {
+     "id": "d",
+     "label": "The solid Earth sinking under the harbor"
+    }
+   ],
+   "answer": "a",
+   "explain": "Besides tides, sea level also changes with wind and air pressure, which cause storm surges near coasts; weather can add height beyond predicted tides.",
+   "cites": [
+    7,
+    34
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tides:q5"
+  },
+  {
+   "prompt": "One harbor gets one high and one low each day, while another far away gets two of each. What best explains the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Moon only reaches one of the two harbors"
+    },
+    {
+     "id": "b",
+     "label": "One harbor's tide gauge must be broken"
+    },
+    {
+     "id": "c",
+     "label": "Local geography shapes the rhythm each coast sees"
+    },
+    {
+     "id": "d",
+     "label": "Tides stopped at the first harbor years ago"
+    }
+   ],
+   "answer": "c",
+   "explain": "Different shores have semi-diurnal, diurnal or mixed tides because basin shape, depth and coastlines strongly modify the tide.",
+   "cites": [
+    2,
+    18,
+    19
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.tides:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Tide_overview.svg/960px-Tide_overview.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tides",
+  "credit": "The SVG code is valid. This vector image was created with Inkscape-default",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tide_overview.svg"
+ },
+ "source": {
+  "title": "Tide",
+  "url": "https://en.wikipedia.org/wiki/Tide",
+  "revision": 1385118810
+ },
+ "pack": {
+  "id": "auto-waves-and-tides-tides",
+  "title": "When Sun and Moon Team Up",
+  "question": "Why do tides grow and shrink over a month?",
+  "path": [
+   "Earth",
+   "Oceans",
+   "Waves and tides",
+   "Tides"
+  ],
+  "hue": 121,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Tide_overview.svg/960px-Tide_overview.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Tides",
+    "credit": "The SVG code is valid. This vector image was created with Inkscape-default · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tide_overview.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When Sun and Moon Team Up",
+    "hook": "Twice a month the sea climbs higher up the beach and drains lower than usual, and the reason is overhead."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-waves-and-tides-tides:1",
+    "transfer": false,
+    "prompt": "It is a full moon, so the Sun, Moon and Earth sit in a line. What will the tides do?",
+    "explain": "In a line, the Sun's tidal force reinforces the Moon's, so the range is at its maximum: a spring tide.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Swing more than usual: higher highs, lower lows"
+       },
+       {
+        "id": "c",
+        "label": "Stop completely for the night",
+        "feedback": "The Sun's pull adds to the Moon's here; it does not switch tides off."
+       },
+       {
+        "id": "b",
+        "label": "Swing less than usual",
+        "feedback": "That happens at quarter moons, when the Sun's pull partly cancels the Moon's."
+       },
+       {
+        "id": "d",
+        "label": "Stay exactly as on any other day",
+        "feedback": "The tidal range changes over a two-week cycle, so not every day is alike."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-waves-and-tides-tides:2",
+    "transfer": false,
+    "prompt": "Put one rise and fall of the sea in order, starting from low tide.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Low tide: the water stops falling"
+     },
+     {
+      "id": "b",
+      "label": "Flooding: the sea rises over several hours"
+     },
+     {
+      "id": "c",
+      "label": "High tide: the water stops rising"
+     },
+     {
+      "id": "d",
+      "label": "Ebbing: the sea falls over several hours"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Start",
+     "End"
+    ],
+    "explain": "The water bottoms out at low tide, floods up to high tide, then ebbs back down."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-waves-and-tides-tides:3",
+    "transfer": true,
+    "prompt": "Match each tidal term to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Spring tide"
+     },
+     {
+      "id": "l1",
+      "label": "Neap tide"
+     },
+     {
+      "id": "l2",
+      "label": "Slack water"
+     },
+     {
+      "id": "l3",
+      "label": "Semi-diurnal tide"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "The tidal current stops"
+     },
+     {
+      "id": "r1",
+      "label": "Sun and Moon 90° apart"
+     },
+     {
+      "id": "r3",
+      "label": "Two highs and two lows a day"
+     },
+     {
+      "id": "r0",
+      "label": "Sun and Moon in a line"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each term names either a sky arrangement, a pause in the current, or a daily rhythm."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-waves-and-tides-tides:4",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each into spring tides or neap tides.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Biggest tidal range"
+     },
+     {
+      "id": "i1",
+      "label": "Smallest tidal range"
+     },
+     {
+      "id": "i2",
+      "label": "New and full moon"
+     },
+     {
+      "id": "i3",
+      "label": "First and third quarter moon"
+     },
+     {
+      "id": "i4",
+      "label": "Stronger currents than average"
+     },
+     {
+      "id": "i5",
+      "label": "Milder tidal conditions"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Spring tides"
+     },
+     {
+      "id": "g1",
+      "label": "Neap tides"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g0",
+     "i5": "g1"
+    },
+    "explain": "Spring tides come when the Sun's pull adds to the Moon's; neaps come when it partly cancels."
+   },
+   {
+    "kind": "payoff",
+    "idea": "When the Sun and Moon line up with Earth their tidal pulls add up to big spring tides, and when they sit at right angles they partly cancel into mild neap tides.",
+    "connections": [
+     {
+      "title": "Spring tide",
+      "place": "Tides",
+      "node": "knowledge.earth.oceans.waves-and-tides.tides.spring-tide"
+     },
+     {
+      "title": "Neap tide",
+      "place": "Tides",
+      "node": "knowledge.earth.oceans.waves-and-tides.tides.neap-tide"
+     },
+     {
+      "title": "Tidal bore",
+      "place": "Tides",
+      "node": "knowledge.earth.oceans.waves-and-tides.tides.tidal-bore"
+     },
+     {
+      "title": "Bay of Fundy",
+      "place": "Tides",
+      "node": "knowledge.earth.oceans.waves-and-tides.tides.bay-of-fundy"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "In a line, the Sun's tidal force reinforces the Moon's, so the range is at its maximum: a spring tide.",
+    "source": "Wikipedia sentences 22, 23, 24, 27, 28, 30"
+   },
+   {
+    "claim": "The water bottoms out at low tide, floods up to high tide, then ebbs back down.",
+    "source": "Wikipedia sentences 10, 11, 12, 13"
+   },
+   {
+    "claim": "Each term names either a sky arrangement, a pause in the current, or a daily rhythm.",
+    "source": "Wikipedia sentences 15, 18, 23, 24, 27, 28"
+   },
+   {
+    "claim": "Spring tides come when the Sun's pull adds to the Moon's; neaps come when it partly cancels.",
+    "source": "Wikipedia sentences 23, 24, 27, 28, 30, 31"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What tides are",
+    "text": "Tides are the regular rise and fall of the sea. They are driven mainly by the uneven pull of gravity from the Moon and the Sun, together with effects of Earth's spin and the way the Earth and Moon orbit each other. That pull from space sets the basic pattern. But the tide at any real coast is strongly reshaped by local things: the shape of the ocean basin, the edges of continents, friction in shallow seas and the way some coastlines resonate.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Flood and ebb",
+    "text": "Picture a single cycle on a beach. The water stops falling at a low point called low tide. Over several hours it then rises and covers the intertidal zone, the stretch of shore that the tide alternately covers and reveals; this is the flood. It stops rising at high tide, then falls again over several hours and uncovers the same strip; this is the ebb.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Currents and slack water",
+    "text": "Tides also make currents that run back and forth, called tidal streams or tidal currents. The moment one of these currents stops is called slack water. The tide then turns and flows the other way. Slack water usually comes close to high and low water, though in some places the timings differ a lot.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "One, two or mixed",
+    "text": "Many shores get a semi-diurnal tide, with two highs and two lows every day. Other places get a diurnal tide, with just one high and one low. A third common pattern is the mixed tide, with two tides a day of unequal size. Even on semi-diurnal coasts, the two daily highs are usually not the same height; the gap is called the daily inequality.",
+    "cites": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Spring and neap tides",
+    "text": "The gap between high and low water over about half a day, called the range, swells and shrinks over a two-week cycle. About twice a month, near new and full moon, the Sun, Moon and Earth line up and the Sun's tidal force adds to the Moon's. The range is then largest, a spring tide, a name that has nothing to do with the season and comes from a sense of rising or bursting out. At first and third quarter the Sun and Moon sit 90° apart as seen from Earth, the Sun partly cancels the Moon, and the range is smallest: a neap tide. Roughly seven days separate the two.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     32
+    ]
+   },
+   {
+    "heading": "Measuring the sea",
+    "text": "Tide gauges at fixed stations keep a record of the water level over time, ignoring waves that last less than minutes. Their readings are compared with a reference level, usually mean sea level. The highest astronomical tide is the highest tide that can be predicted, though weather can push the water higher still. The lowest astronomical tide is the lowest that can be predicted.",
+    "cites": [
+     4,
+     5,
+     6,
+     33,
+     34,
+     41
+    ]
+   },
+   {
+    "heading": "Not only the oceans",
+    "text": "Tides are usually the biggest cause of short-term changes in sea level, but not the only one. Warming water expands, and wind and air pressure also move the sea, producing storm surges, above all near coasts and in shallow seas. Tides are not limited to the oceans either. Wherever gravity varies in time and space, tides can appear, and even the solid Earth changes shape slightly in what is called an Earth tide, though it is not as easy to see as the tides in the water.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-webb-11-1",
+   "kind": "book",
+   "title": "11.1: Tidal Forces",
+   "by": "Paul Webb, Roger Williams University (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Oceanography/Introduction_to_Oceanography_(Webb)/11%3A_Tides/11.01%3A_Tidal_Forces",
+   "note": "A free textbook section on how the Moon and Sun raise tidal bulges, with spring and neap tides explained."
+  },
+  {
+   "id": "noaa-tidal-cycles",
+   "kind": "article",
+   "title": "Types and Causes of Tidal Cycles",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html",
+   "note": "A NOAA tutorial page on diurnal, semidiurnal and mixed tides, with maps of where each happens."
+  },
+  {
+   "id": "noaa-what-are-tides",
+   "kind": "article",
+   "title": "What are tides?",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/tides.html",
+   "note": "A short NOAA explainer: tides as very long waves, high and low tide, and tidal range."
+  },
+  {
+   "id": "openstax-astro-4-6",
+   "kind": "book",
+   "title": "4.6 Ocean Tides and the Moon",
+   "by": "OpenStax (Astronomy 2e)",
+   "url": "https://openstax.org/books/astronomy-2e/pages/4-6-ocean-tides-and-the-moon",
+   "note": "A free college textbook section on why the Moon and Sun cause tides, with a Bay of Fundy photo pair.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-tides",
+   "kind": "video",
+   "title": "Tides: Crash Course Astronomy #8",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=KlWpFLfLFBI",
+   "note": "A Crash Course Astronomy episode on how the Moon's and Sun's gravity raise the tides."
+  }
+ ]
+}

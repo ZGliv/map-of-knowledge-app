@@ -1,0 +1,549 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.binomial-distribution",
+ "name": "Binomial distribution",
+ "summary": [
+  {
+   "text": "The binomial distribution gives the probability of each possible number of successes in n independent yes-no experiments, each with success probability p.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A single success-or-failure experiment is a Bernoulli trial, and with just one trial the binomial distribution becomes a Bernoulli distribution.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It models successes in a sample drawn with replacement; without replacement the draws are not independent and the result is hypergeometric instead.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Parameters",
+   "value": "The number of trials n and the success probability p",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "One trial",
+   "value": "With n = 1 it is a Bernoulli distribution",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Same-probability sequences",
+   "value": "Any sequence with k successes is equally probable, wherever they fall",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Large populations",
+   "value": "Stays a good approximation when N is much larger than n",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Used in testing",
+   "value": "It is the basis for the binomial test of significance",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You flip the same coin 5 times, with each flip unaffected by the others, and count how many land heads. Which distribution fits that count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric"
+    },
+    {
+     "id": "b",
+     "label": "Normal, because coins are everyday objects"
+    },
+    {
+     "id": "c",
+     "label": "Binomial"
+    },
+    {
+     "id": "d",
+     "label": "Bernoulli, because a coin has two sides"
+    }
+   ],
+   "answer": "c",
+   "explain": "Counting successes over a fixed number of independent yes-no experiments is the binomial distribution. A Bernoulli distribution covers just one trial.",
+   "cites": [
+    1,
+    3
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution:q1"
+  },
+  {
+   "prompt": "Three independent shots each have the same chance of going in. Sequence one: in, in, miss. Sequence two: miss, in, in. How do their probabilities compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are equal"
+    },
+    {
+     "id": "b",
+     "label": "Sequence one is likelier, since it starts well"
+    },
+    {
+     "id": "c",
+     "label": "Sequence two is likelier, since it ends well"
+    },
+    {
+     "id": "d",
+     "label": "They cannot be compared"
+    }
+   ],
+   "answer": "a",
+   "explain": "With independent trials and a constant chance, any sequence with the same number of successes is equally probable, wherever they fall.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution:q2"
+  },
+  {
+   "prompt": "You take 4 independent shots and score exactly once. In how many different orders could that one success have come?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "16"
+    },
+    {
+     "id": "d",
+     "label": "4"
+    }
+   ],
+   "answer": "d",
+   "explain": "Counting the sequences means choosing which trial holds the success. With 4 trials there are 4 places for it.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution:q3"
+  },
+  {
+   "prompt": "A bag holds a few marbles and you pull out three, keeping each one out. Why is the binomial distribution not exactly right for the count of one colour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Marbles have more than two colours"
+    },
+    {
+     "id": "b",
+     "label": "Three draws is too few for any distribution"
+    },
+    {
+     "id": "c",
+     "label": "Each draw is a certain success"
+    },
+    {
+     "id": "d",
+     "label": "Taking one out changes the next draw, so they are not independent"
+    }
+   ],
+   "answer": "d",
+   "explain": "Sampling without replacement makes the draws dependent, so the result is hypergeometric rather than binomial.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution:q4"
+  },
+  {
+   "prompt": "A pollster picks 100 people from a country of millions, never asking anyone twice, and counts the yes answers. Is the binomial distribution reasonable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because picking without replacement rules it out"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as a good approximation, since the population is far larger than the sample"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if the pollster picks the same person twice"
+    },
+    {
+     "id": "d",
+     "label": "No, because the answers must be exactly independent"
+    }
+   ],
+   "answer": "b",
+   "explain": "Without replacement the draws are not independent, but when the population is much larger than the sample the binomial remains a good approximation.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution:q5"
+  },
+  {
+   "prompt": "You run one yes-no experiment and count its successes, which can only be 0 or 1. Which distribution is the binomial in this case?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric"
+    },
+    {
+     "id": "b",
+     "label": "Bernoulli"
+    },
+    {
+     "id": "c",
+     "label": "A distribution with n = 0"
+    },
+    {
+     "id": "d",
+     "label": "Binomial with no parameters"
+    }
+   ],
+   "answer": "b",
+   "explain": "With a single trial (n = 1) the binomial distribution is a Bernoulli distribution.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Binomial_distribution_pmf.svg/960px-Binomial_distribution_pmf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Binomial distribution",
+  "credit": "Tayste",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Binomial_distribution_pmf.svg"
+ },
+ "source": {
+  "title": "Binomial distribution",
+  "url": "https://en.wikipedia.org/wiki/Binomial_distribution",
+  "revision": 1383975864
+ },
+ "pack": {
+  "id": "auto-probability-distributions-binomial-distribution",
+  "title": "Counting wins among repeated tries",
+  "question": "How likely is each count of successes in repeated yes-no tries?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Probability distributions",
+   "Binomial distribution"
+  ],
+  "hue": 45,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Binomial_distribution_pmf.svg/960px-Binomial_distribution_pmf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Binomial distribution",
+    "credit": "Tayste · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Binomial_distribution_pmf.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Counting wins among repeated tries",
+    "hook": "Three tries, one win: it could come first, second or third, and every order is equally likely."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-distributions-binomial-distribution:1",
+    "transfer": false,
+    "prompt": "Three independent tries each have the same chance of success. Win-win-loss versus loss-win-win: how do the chances compare?",
+    "explain": "Each sequence with the same number of successes has the same probability, regardless of where the successes sit.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Win-win-loss is likelier",
+        "feedback": "It tempts because it starts with wins, but the order does not matter when trials are independent with a constant chance."
+       },
+       {
+        "id": "c",
+        "label": "They are equal",
+        "feedback": ""
+       },
+       {
+        "id": "d",
+        "label": "It depends on which trial comes first",
+        "feedback": "The trials do not influence one another, so position cannot matter."
+       },
+       {
+        "id": "b",
+        "label": "Loss-win-win is likelier",
+        "feedback": "Ending on wins feels hopeful, but no position is favoured."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-distributions-binomial-distribution:2",
+    "transfer": false,
+    "prompt": "In 4 independent tries you win exactly once. In how many different orders could that single win have happened?",
+    "explain": "Counting sequences means choosing the position of the success, and with 4 trials the single win can be in any of 4 places.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "2",
+        "feedback": "Only counting first and last misses the middle places."
+       },
+       {
+        "id": "d",
+        "label": "16",
+        "feedback": "That counts every possible win-or-loss pattern, not just those with one win."
+       },
+       {
+        "id": "a",
+        "label": "1",
+        "feedback": "There is one win but it can sit in several places."
+       },
+       {
+        "id": "b",
+        "label": "4",
+        "feedback": ""
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-distributions-binomial-distribution:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Bernoulli trial"
+     },
+     {
+      "id": "l1",
+      "label": "Bernoulli process"
+     },
+     {
+      "id": "l2",
+      "label": "Only one trial"
+     },
+     {
+      "id": "l3",
+      "label": "Draws without replacement"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Not independent, so hypergeometric instead"
+     },
+     {
+      "id": "r2",
+      "label": "The binomial becomes a Bernoulli distribution"
+     },
+     {
+      "id": "r1",
+      "label": "A sequence of such outcomes"
+     },
+     {
+      "id": "r0",
+      "label": "A single success-or-failure experiment"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The binomial builds on repeated independent trials; dropping independence or repeating gives the neighbouring cases."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-distributions-binomial-distribution:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about drawing marbles is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A small bag has a few marbles, and you draw three, keeping each one out."
+     },
+     {
+      "id": "b",
+      "text": "Each draw changes what is left in the bag."
+     },
+     {
+      "id": "c",
+      "text": "So the draws are independent of one another."
+     },
+     {
+      "id": "d",
+      "text": "So the count of one colour follows the binomial exactly."
+     }
+    ],
+    "answer": "c",
+    "explain": "Because each draw changes what remains, the draws are not independent, so the result is hypergeometric."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Every particular sequence with k successes has the same probability, so the chance of k successes is that probability times the number of such sequences.",
+    "connections": [
+     {
+      "title": "Bernoulli trial",
+      "place": "Binomial distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.bernoulli-trial"
+     },
+     {
+      "title": "Geometric distribution",
+      "place": "Binomial distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution"
+     },
+     {
+      "title": "Hypergeometric distribution",
+      "place": "Binomial distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.hypergeometric-distribution"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Each sequence with the same number of successes has the same probability, regardless of where the successes sit.",
+    "source": "Wikipedia sentences 10"
+   },
+   {
+    "claim": "Counting sequences means choosing the position of the success, and with 4 trials the single win can be in any of 4 places.",
+    "source": "Wikipedia sentences 10"
+   },
+   {
+    "claim": "The binomial builds on repeated independent trials; dropping independence or repeating gives the neighbouring cases.",
+    "source": "Wikipedia sentences 2, 3, 6"
+   },
+   {
+    "claim": "Because each draw changes what remains, the draws are not independent, so the result is hypergeometric.",
+    "source": "Wikipedia sentences 5, 6"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Counting successes",
+    "text": "Picture running the same yes-or-no experiment n times in a row. Each try is independent of the others, and each one comes out as a success with probability p or a failure with probability q = 1 − p. The binomial distribution tells you how likely each possible number of successes is across all n tries. If a random variable X behaves this way, we write X ~ B(n, p), where n is a natural number and p lies between 0 and 1.",
+    "cites": [
+     1,
+     8
+    ]
+   },
+   {
+    "heading": "Built from Bernoulli trials",
+    "text": "A single experiment that can only succeed or fail goes by the name Bernoulli trial, and a run of such outcomes is called a Bernoulli process. So the binomial distribution is really about a string of Bernoulli trials. With only one trial, when n = 1, it reduces to what is called the Bernoulli distribution. It also serves as the foundation of the binomial test, a tool for judging statistical significance.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Where the formula comes from",
+    "text": "Take one particular string of n trials holding k successes and n − k failures. The chance of seeing exactly that string is pᵏ qⁿ⁻ᵏ. Since the trials are independent and the chances stay fixed from one trial to the next, every such string has this same probability, wherever the successes happen to sit. Printed tables of binomial probabilities usually only run up to n/2, because for k > n/2 you can get the value from its complement, since f(k; n, p) matches f(n − k; n, 1 − p).",
+    "cites": [
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "The typical outcome",
+    "text": "For X ~ B(n, p), the expected value is E [X] = np, the number of trials times the chance of success on each. If np happens to be an integer, the mean, the median and the mode all land on that same value, np. With p = 0, getting zero successes is certain, and with p = 1, all n trials succeed, so the mode is 0 in the first case and n in the second.",
+    "cites": [
+     14,
+     25,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Estimating p from data",
+    "text": "When the number of trials n is known, p can be estimated by the fraction of trials that succeeded, p̂ = x/n. Two standard routes give this same answer: maximum likelihood estimation and the method of moments. The estimate is unbiased and has minimum variance. For large samples it is approximately normal, thanks to the central limit theorem, since it amounts to averaging Bernoulli samples.",
+    "cites": [
+     38,
+     39,
+     40,
+     42
+    ]
+   },
+   {
+    "heading": "With or without replacement",
+    "text": "A common use is counting successes in a sample of size n taken with replacement from a population of size N. If the items are not put back, the draws stop being independent, and the count follows a hypergeometric distribution rather than a binomial one. Even so, when N is far bigger than n, the binomial still approximates the answer well, and it is widely used.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-stats-4-3",
+   "kind": "book",
+   "title": "4.3 Binomial Distribution",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution",
+   "note": "A free textbook section on the binomial distribution: its conditions, formula, mean and worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-binomial",
+   "kind": "video",
+   "title": "The Binomial Distribution: Crash Course Statistics #15",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=WR0nMTr6uOo",
+   "note": "A short video introducing the binomial distribution, built up from Bernoulli trials, and how to calculate with it."
+  },
+  {
+   "id": "3b1b-binomial",
+   "kind": "video",
+   "title": "Binomial distributions | Probabilities of probabilities, part 1",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=8idr1WZ1A7Q",
+   "note": "A visual explainer that uses the binomial distribution to reason about success rates from counts of outcomes."
+  }
+ ]
+}

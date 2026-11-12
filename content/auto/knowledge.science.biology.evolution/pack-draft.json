@@ -1,0 +1,110 @@
+{
+ "title": "Populations change, not people",
+ "question": "How can a whole population change over generations?",
+ "hook": "A suntan is not inherited, yet other differences between people are, and those are the ones that can change a population.",
+ "idea": "Evolution is a change in which inherited variants are common in a population over successive generations.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two people sit in the same sunlight for hours. One turns brown. The other never tans at all and burns badly. What explains the difference?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The sunlight reaching each of them was different",
+     "feedback": "They sit in the same sunlight, so the light cannot explain the gap."
+    },
+    {
+     "id": "b",
+     "label": "Inherited differences in their genotypes"
+    },
+    {
+     "id": "c",
+     "label": "The one who tans had parents who were tanned",
+     "feedback": "A tan is not passed on, so the parents' tans cannot explain it."
+    }
+   ],
+   "answer": "b",
+   "explain": "People differ in how easily they tan because of differences in their genotypes, and albinism is a striking example. Tans themselves are not inherited.",
+   "cites": [
+    26,
+    28
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each to its partner",
+   "pairs": [
+    [
+     "Genotype",
+     "An organism's complete set of genes"
+    ],
+    [
+     "Phenotype",
+     "Its complete set of observable traits"
+    ],
+    [
+     "Allele",
+     "One of the forms taken by a sequence that varies between people"
+    ],
+    [
+     "Locus",
+     "The specific location of a sequence within a chromosome"
+    ]
+   ],
+   "explain": "Genes make up the genotype, observable traits make up the phenotype, and alleles are the forms a sequence takes at a particular locus.",
+   "cites": [
+    22,
+    23,
+    35,
+    36
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each into its group",
+   "groups": [
+    "Adds new variation",
+    "Changes how common variants are"
+   ],
+   "items": [
+    [
+     "Mutation",
+     "Adds new variation"
+    ],
+    [
+     "Gene reshuffling in sexual reproduction",
+     "Adds new variation"
+    ],
+    [
+     "Genetic drift",
+     "Changes how common variants are"
+    ],
+    [
+     "Natural selection",
+     "Changes how common variants are"
+    ]
+   ],
+   "explain": "Mutation and reshuffling supply variation, while drift and natural selection make existing variants more or less common.",
+   "cites": [
+    3,
+    41
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A swimmer's skin turns deeply tanned after years in the sun.",
+    "A suntan comes from the interaction between her genotype and sunlight.",
+    "So the tan itself is inherited, and her children will be born tanned.",
+    "Her tendency to tan more easily than others comes from her genotype."
+   ],
+   "wrong": 2,
+   "explain": "Suntans are not passed on to children. What is inherited is the genotype behind how easily someone tans.",
+   "cites": [
+    26,
+    28
+   ]
+  }
+ ]
+}

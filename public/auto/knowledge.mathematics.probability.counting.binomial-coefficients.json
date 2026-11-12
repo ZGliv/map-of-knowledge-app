@@ -1,0 +1,546 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.binomial-coefficients",
+ "name": "Binomial coefficients",
+ "summary": [
+  {
+   "text": "A binomial coefficient, read as \"n choose k\", is the number of ways to choose an unordered subset of k elements from a fixed set of n elements.",
+   "cites": [
+    4,
+    8
+   ]
+  },
+  {
+   "text": "Binomial coefficients occur in many areas of mathematics, especially combinatorics, and the C in C_(n,k) stands for combinations or choices.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "They can be computed without listing choices: the top counts ordered selections of k objects and the bottom removes the orderings that give the same group.",
+   "cites": [
+    11,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Expansion link",
+   "value": "The coefficient of Xᵏ in (1 + X)ⁿ counts k-element subsets",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "On calculators",
+   "value": "Calculators use variants of the C notation for single-line displays",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Row sums",
+   "value": "Row n of Pascal's triangle adds up to 2 raised to the n-th power",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Recursive rule",
+   "value": "C_(n,k) = C_(n,k−1)⋅(n − k + 1)/k, where C_(n,0) = 1",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Outside the triangle",
+   "value": "Entries beyond either edge of Pascal's triangle are all zero",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A coach picks which 3 of 8 players will start, and where each one stands does not matter. Which count gives the number of possible choices?",
+   "options": [
+    {
+     "id": "a",
+     "label": "8 times 7 times 6, the ordered picks"
+    },
+    {
+     "id": "b",
+     "label": "3 choose 8, with the numbers swapped"
+    },
+    {
+     "id": "c",
+     "label": "8 choose 3, the unordered subsets"
+    },
+    {
+     "id": "d",
+     "label": "8 times 3, one for each pairing"
+    }
+   ],
+   "answer": "c",
+   "explain": "There are (n k) ways to choose an unordered subset of k elements from n, so here it is 8 choose 3.",
+   "cites": [
+    4,
+    8
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients:q1"
+  },
+  {
+   "prompt": "In the product formula for a binomial coefficient, what does the top number count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ways to pick k distinct objects while keeping the order of picking"
+    },
+    {
+     "id": "b",
+     "label": "The ways to arrange the k chosen objects among themselves"
+    },
+    {
+     "id": "c",
+     "label": "The ways to split the n objects into two equal groups"
+    },
+    {
+     "id": "d",
+     "label": "The number of subsets of every possible size"
+    }
+   ],
+   "answer": "a",
+   "explain": "The numerator counts sequences of k distinct objects chosen in order; the denominator counts the sequences that give the same group.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients:q2"
+  },
+  {
+   "prompt": "Choosing which 3 of 10 books to take on a trip, versus choosing which 7 to leave behind: how do the counts compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same, by the symmetry between k and n − k"
+    },
+    {
+     "id": "b",
+     "label": "They differ, because 7 is more than 3"
+    },
+    {
+     "id": "c",
+     "label": "They are the same only when the books are identical"
+    },
+    {
+     "id": "d",
+     "label": "They differ, because leaving out is not choosing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Binomial coefficients are symmetric in k and n − k, so choosing 3 to take and 7 to leave give the same count.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients:q3"
+  },
+  {
+   "prompt": "How many ways are there to choose 5 elements from a set that has only 3?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One, taking every element"
+    },
+    {
+     "id": "b",
+     "label": "Zero, since there are not enough"
+    },
+    {
+     "id": "c",
+     "label": "Three, one per element"
+    },
+    {
+     "id": "d",
+     "label": "Ten, as in 5 choose 3"
+    }
+   ],
+   "answer": "b",
+   "explain": "Entries of Pascal's triangle past its edges are all zero, and terms with k > n are zero.",
+   "cites": [
+    17,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients:q4"
+  },
+  {
+   "prompt": "A mathematician adds up every entry in row n of Pascal's triangle. What total does she get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "n times 2"
+    },
+    {
+     "id": "b",
+     "label": "n squared"
+    },
+    {
+     "id": "c",
+     "label": "n factorial"
+    },
+    {
+     "id": "d",
+     "label": "2 raised to the n-th power"
+    }
+   ],
+   "answer": "d",
+   "explain": "The elements in the n-th row of Pascal's triangle always add up to 2 raised to the n-th power.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients:q5"
+  },
+  {
+   "prompt": "You know the first entry of row n of Pascal's triangle and want the k-th one using the recursive rule. Where do you begin and which way do you go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Begin at the right edge and work leftward"
+    },
+    {
+     "id": "b",
+     "label": "Begin at the middle and work outward both ways"
+    },
+    {
+     "id": "c",
+     "label": "Begin at 1 on the left and work rightward"
+    },
+    {
+     "id": "d",
+     "label": "Begin at the row total and divide it down"
+    }
+   ],
+   "answer": "c",
+   "explain": "Start at the leftmost coefficient, always 1, and recursively compute the next coefficient to its right until the k-th is reached.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.counting.binomial-coefficients:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/960px-Pascal%27s_triangle_5.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Binomial coefficients",
+  "credit": "User:Conrad.Irwin originally User:Drini",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pascal%27s_triangle_5.svg"
+ },
+ "source": {
+  "title": "Binomial coefficient",
+  "url": "https://en.wikipedia.org/wiki/Binomial_coefficient",
+  "revision": 1376065730
+ },
+ "pack": {
+  "id": "auto-counting-binomial-coefficients",
+  "title": "Choosing without the lineup",
+  "question": "How do binomial coefficients count the ways to choose k items from n?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Counting",
+   "Binomial coefficients"
+  ],
+  "hue": 41,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/960px-Pascal%27s_triangle_5.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Binomial coefficients",
+    "credit": "User:Conrad.Irwin originally User:Drini · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pascal%27s_triangle_5.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Choosing without the lineup",
+    "hook": "Picking a starting team ignores who stands where, and that one fact explains every entry in Pascal's triangle."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-counting-binomial-coefficients:1",
+    "transfer": false,
+    "prompt": "You try to choose 5 elements from a set that has only 3. How many ways are there?",
+    "explain": "Entries of Pascal's triangle past its edges are all zero, and terms with k > n are zero.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Ten ways, the same as 5 choose 3",
+        "feedback": "Choosing five from only three is not the same question as choosing three from five."
+       },
+       {
+        "id": "b",
+        "label": "Zero ways, since entries past the edge are zero"
+       },
+       {
+        "id": "a",
+        "label": "One way: take all three elements",
+        "feedback": "Taking all three is not choosing five, so it does not count."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-counting-binomial-coefficients:2",
+    "transfer": false,
+    "prompt": "Match each term to what it counts or means",
+    "left": [
+     {
+      "id": "l0",
+      "label": "C_(n,k)"
+     },
+     {
+      "id": "l1",
+      "label": "P(n, k)"
+     },
+     {
+      "id": "l2",
+      "label": "Numerator"
+     },
+     {
+      "id": "l3",
+      "label": "Denominator"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "sequences that define the same k-combination"
+     },
+     {
+      "id": "r2",
+      "label": "sequences of k distinct objects, order kept"
+     },
+     {
+      "id": "r1",
+      "label": "the number of k-permutations of n"
+     },
+     {
+      "id": "r0",
+      "label": "the number of ways to choose k out of n objects"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "C counts choices, P counts ordered selections, and in the product formula the top counts ordered sequences while the bottom counts those that give the same group."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-counting-binomial-coefficients:3",
+    "transfer": true,
+    "prompt": "Put the steps for building (n k) from the start of row n in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "Start at the leftmost coefficient of row n, which is 1"
+     },
+     {
+      "id": "b",
+      "label": "Compute the next coefficient to its right"
+     },
+     {
+      "id": "c",
+      "label": "Keep moving right, one coefficient at a time"
+     },
+     {
+      "id": "d",
+      "label": "Stop when you reach the k-th coefficient"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "start",
+     "finish"
+    ],
+    "explain": "Starting from the leftmost value of 1, each coefficient is worked out from the previous one until the k-th is reached."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-counting-binomial-coefficients:4",
+    "transfer": true,
+    "prompt": "A coach picks 3 of 8 starters, order ignored. One step in this count is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The coach picks 3 starters from 8 and order does not matter."
+     },
+     {
+      "id": "b",
+      "text": "Counting ordered picks gives 8 × 7 × 6."
+     },
+     {
+      "id": "c",
+      "text": "Each group of three is counted once in those ordered picks."
+     },
+     {
+      "id": "d",
+      "text": "So the number of groups is 8 × 7 × 6."
+     }
+    ],
+    "answer": "c",
+    "explain": "One group shows up as several different ordered sequences, so the ordered count must be reduced by the denominator that counts those repeats."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A binomial coefficient counts the unordered choices of k items from n.",
+    "connections": [
+     {
+      "title": "Pascal's triangle",
+      "place": "Binomial coefficients",
+      "node": "knowledge.mathematics.probability.counting.binomial-coefficients.pascal-s-triangle"
+     },
+     {
+      "title": "Binomial theorem",
+      "place": "Binomial coefficients",
+      "node": "knowledge.mathematics.probability.counting.binomial-coefficients.binomial-theorem"
+     },
+     {
+      "title": "Multinomial theorem",
+      "place": "Binomial coefficients",
+      "node": "knowledge.mathematics.probability.counting.binomial-coefficients.multinomial-theorem"
+     },
+     {
+      "title": "Catalan number",
+      "place": "Binomial coefficients",
+      "node": "knowledge.mathematics.probability.counting.binomial-coefficients.catalan-number"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Entries of Pascal's triangle past its edges are all zero, and terms with k > n are zero.",
+    "source": "Wikipedia sentences 17, 19"
+   },
+   {
+    "claim": "C counts choices, P counts ordered selections, and in the product formula the top counts ordered sequences while the bottom counts those that give the same group.",
+    "source": "Wikipedia sentences 4, 6, 11, 12"
+   },
+   {
+    "claim": "Starting from the leftmost value of 1, each coefficient is worked out from the previous one until the k-th is reached.",
+    "source": "Wikipedia sentences 15"
+   },
+   {
+    "claim": "One group shows up as several different ordered sequences, so the ordered count must be reduced by the denominator that counts those repeats.",
+    "source": "Wikipedia sentences 11, 12"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Choosing k from n",
+    "text": "A binomial coefficient counts the ways to pick k objects out of n when the order of picking does not matter. Put more formally, it is the number of k-element subsets, also called k-combinations, of a set with n elements. One way to write it is C_(n,k), where the C stands for combinations or choices. Many calculators use some form of this C notation because it fits on a single line of their display. These numbers turn up across mathematics, and above all in combinatorics.",
+    "cites": [
+     1,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "heading": "The same number from algebra",
+    "text": "The same count appears when a power such as (1 + X)ⁿ is multiplied out. Give the X in each of the n factors its own label, from 1 to n. Each set of k labels then supplies one copy of Xᵏ after expanding, so the coefficient of Xᵏ is exactly the number of such sets. This shows the two meanings agree without using any formula for the number. Most other ways of reading these numbers can likewise be shown to come down to counting k-combinations.",
+    "cites": [
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Working them out",
+    "text": "A formula gives the number directly. Its top part counts ordered picks: the ways to take k different objects one after another from n, keeping track of the order. Its bottom part counts how many of those ordered lists describe the same group once order is ignored. The formula can also be run one step at a time: C_(n,k) equals C_(n,k−1)⋅(n − k + 1)/k, starting from C_(n,0) = 1. That is like starting at the 1 on the far left of row n of Pascal's triangle and moving right, one entry at a time, until you reach the k-th. Because the numbers are symmetric in k and n − k, the work can be shortened by using whichever of the two is smaller.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Patterns in Pascal's triangle",
+    "text": "The entries in row n of Pascal's triangle always add up to 2ⁿ. This comes from the binomial theorem by putting x = 1 and y = 1. Outside the triangle, to its left and right, every entry is zero. Many identities like these can be proved by counting arguments. Picture 2n empty squares in a row, and choose n of them to mark: you could take k squares from the first n and the other n − k from the second n, for any k from 0 to n.",
+    "cites": [
+     19,
+     24,
+     25,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Divisibility",
+    "text": "Binomial coefficients also have divisibility properties. Any whole number divides almost all of them. Their divisibility is also linked to the least common multiples of runs of consecutive whole numbers.",
+    "cites": [
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Beyond whole numbers",
+    "text": "The definition can be widened so that n is any real number while k stays a whole number. Newton's generalized binomial theorem makes use of these generalized coefficients. When the exponent α is a nonnegative whole number n, every term with k > n is zero, so the infinite series shrinks to a finite sum and the familiar binomial formula comes back. For other values, including negative whole numbers and fractions, the series really does go on forever. Many properties of the ordinary coefficients still hold in these wider settings.",
+    "cites": [
+     2,
+     3,
+     17,
+     18,
+     21,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "sylvestre-binomial-coefficients",
+   "kind": "book",
+   "title": "23: Binomial and multinomial coefficients - Elementary Foundations: An Introduction to Topics in Discrete Mathematics (Sylvestre)",
+   "by": "Jeremy Sylvestre",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Foundations%3A_An_Introduction_to_Topics_in_Discrete_Mathematics_(Sylvestre)/23%3A_Binomial_and_multinomial_coefficients",
+   "note": "A free textbook chapter on binomial coefficients, their multinomial generalisation and applications.",
+   "license": "GNU Free Documentation License 1.3"
+  },
+  {
+   "id": "openstax-combinations",
+   "kind": "book",
+   "title": "7.3 Combinations - Contemporary Mathematics",
+   "by": "OpenStax (Donna Kirk)",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-3-combinations",
+   "note": "A free textbook section on counting combinations, the \"n choose k\" numbers.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

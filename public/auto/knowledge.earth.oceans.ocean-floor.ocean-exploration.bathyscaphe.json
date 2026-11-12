@@ -1,0 +1,313 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe",
+ "name": "Bathyscaphe",
+ "summary": [
+  {
+   "text": "A bathyscaphe is a self-propelled deep-sea submersible whose crew cabin hangs beneath a float instead of from a cable to the surface.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its float holds gasoline, which barely compresses, so the tanks can be lightly built while the crew cabin must be massive to resist the pressure.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "To rise it drops iron shot held by an electromagnet, so if the power fails the shot falls out and the craft ascends on its own.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Inventor",
+   "value": "Auguste Piccard",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Name meaning",
+   "value": "From Greek words for 'deep' and 'vessel'",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "First bathyscaphe",
+   "value": "FNRS-2, built in Belgium from 1946 to 1948",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Trieste's gasoline load",
+   "value": "120,000 litres in eleven buoyancy tanks",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Deepest dive",
+   "value": "Trieste reached the Challenger Deep in 1960",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A designer needs something lighter than water to fill a bathyscaphe's float for very deep dives. Why pick a liquid like gasoline over a gas?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It also fuels the motors that drive the craft"
+    },
+    {
+     "id": "b",
+     "label": "It barely compresses, so the tanks need no strong walls"
+    },
+    {
+     "id": "c",
+     "label": "It keeps the crew cabin warm in cold water"
+    },
+    {
+     "id": "d",
+     "label": "It is heavier than seawater, which aids the descent"
+    }
+   ],
+   "answer": "b",
+   "explain": "Gasoline is buoyant in water yet practically incompressible, so pressure inside and outside the tanks evens out and they can be lightly built.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe:q1"
+  },
+  {
+   "prompt": "A submarine surfaces by blowing compressed air into its flooded tanks. Why can't a bathyscaphe do this at the depths it was built for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its hull is too thin to hold compressed air"
+    },
+    {
+     "id": "b",
+     "label": "Compressed air would freeze in the cold deep water"
+    },
+    {
+     "id": "c",
+     "label": "The water pressure there is too great to push out"
+    },
+    {
+     "id": "d",
+     "label": "It carries no air supply because the cabin is sealed"
+    }
+   ],
+   "answer": "c",
+   "explain": "At those depths the water pressure is too great; at the bottom of the Challenger Deep it is more than seven times the pressure in a standard compressed gas cylinder.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe:q2"
+  },
+  {
+   "prompt": "Deep on a dive, a bathyscaphe suddenly loses all electrical power. What happens next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Iron shot pours out and the craft rises by itself"
+    },
+    {
+     "id": "b",
+     "label": "It stays at that depth until power is restored"
+    },
+    {
+     "id": "c",
+     "label": "It sinks further as its float tanks fill with water"
+    },
+    {
+     "id": "d",
+     "label": "The crew must pump out the tanks by hand"
+    }
+   ],
+   "answer": "a",
+   "explain": "The shot is held in open-bottomed hoppers by an electromagnet; without power it runs out by gravity, so ascent is automatic and needs no power.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe:q3"
+  },
+  {
+   "prompt": "On a bathyscaphe, why are the float tanks thin-walled while the crew cabin is extremely heavy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The cabin must carry the weight of the iron shot"
+    },
+    {
+     "id": "b",
+     "label": "The float is replaced after every dive, so it is cheap"
+    },
+    {
+     "id": "c",
+     "label": "The cabin is built heavy to help the craft sink"
+    },
+    {
+     "id": "d",
+     "label": "Only the cabin faces a big pressure difference"
+    }
+   ],
+   "answer": "d",
+   "explain": "Pressure inside and outside the gasoline tanks equalizes, but the crew cabin must withstand a huge pressure differential, so it is massively built.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe:q4"
+  },
+  {
+   "prompt": "At the surface, the crew want the bathyscaphe to float a little lower before a dive. What do they put into the float tanks?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Extra gasoline pumped in from the support ship"
+    },
+    {
+     "id": "b",
+     "label": "Compressed air to fill the empty space"
+    },
+    {
+     "id": "c",
+     "label": "Water in place of some of the gasoline"
+    },
+    {
+     "id": "d",
+     "label": "More iron shot packed into the float"
+    }
+   ],
+   "answer": "c",
+   "explain": "Water is denser than gasoline, so swapping some gasoline for water easily trims the craft's buoyancy at the surface.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe:q5"
+  },
+  {
+   "prompt": "In 1960 the Trieste crew shone a light on the floor of the Challenger Deep and reported a flatfish about a foot long. Which open question did they say this settled?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whether animals can live that deep in total darkness"
+    },
+    {
+     "id": "b",
+     "label": "Whether the seafloor there was made of solid rock"
+    },
+    {
+     "id": "c",
+     "label": "Whether sound can travel to the deepest seafloor"
+    },
+    {
+     "id": "d",
+     "label": "Whether a lamp can work under such high pressure"
+    }
+   ],
+   "answer": "a",
+   "explain": "Seeing a fish lying on the seabed put to rest the question of whether there was life at such a depth in the complete absence of light.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathyscaphe:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bathyscaphe_Trieste_with_USS_Lewis_%28DE-535%29_over_the_Marianas_Trench%2C_23_January_1960_%28NH_96797%29.jpg/960px-Bathyscaphe_Trieste_with_USS_Lewis_%28DE-535%29_over_the_Marianas_Trench%2C_23_January_1960_%28NH_96797%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Bathyscaphe",
+  "credit": "Wikimedia Commons",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste_with_USS_Lewis_(DE-535)_over_the_Marianas_Trench,_23_January_1960_(NH_96797).jpg"
+ },
+ "source": {
+  "title": "Bathyscaphe",
+  "url": "https://en.wikipedia.org/wiki/Bathyscaphe",
+  "revision": 1379273368
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a bathyscaphe is",
+    "text": "A bathyscaphe is a deep-sea submersible that dives freely and drives itself. Its crew rides in a cabin hung underneath a float, instead of hanging from a cable to the surface as in the older bathysphere. Auguste Piccard, who invented the first one, built the name from two Ancient Greek words meaning \"deep\" and \"vessel\".",
+    "cites": [
+     1,
+     6
+    ]
+   },
+   {
+    "heading": "A float full of gasoline",
+    "text": "The float is filled with gasoline, which is easy to get, floats on water, and hardly shrinks under pressure, like any liquid. Since the gasoline does not compress, the pressure inside the tanks matches the pressure outside, so the tanks can be built very light. The crew cabin is the opposite: it faces an enormous difference between inside and outside pressure, so it is massively built. At the surface, buoyancy is fine-tuned by swapping some gasoline for water, which is denser.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Sinking and rising",
+    "text": "To go down, the craft lets seawater into air tanks. A submarine can push that water out again with compressed air, but a bathyscaphe cannot, because at the depths it was built for the water pressure is far too high. At the bottom of the Challenger Deep, for example, the pressure is over seven times that inside a standard \"H-type\" gas cylinder. Instead it carries iron shot, well over seven times as dense as seawater, in hoppers that stay open at the bottom, with an electromagnet at the neck holding the shot in. Releasing shot lets the craft rise, and the shot is left on the seafloor. If the power fails, the shot simply runs out and the craft rises by itself, so going up needs no power at all.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "The first craft",
+    "text": "The first bathyscaphe, FNRS-2, was built in Belgium by Piccard between 1946 and 1948 and named after the Fonds National de la Recherche Scientifique. Battery-powered electric motors drove it, and its float carried 37,850 litres of aviation gasoline. It had no access tunnel, so the crew sphere could only be loaded and unloaded on deck. Jacques Cousteau's book The Silent World tells of its first trips: the craft calmly survived the deep, then was wrecked by a minor squall. Its crew sphere was reused in FNRS-3, which had a new, bigger float of 75,700 litres.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Trieste and the deepest dive",
+    "text": "Piccard's second bathyscaphe was in fact a third vessel, Trieste, which the United States Navy bought from Italy in 1957. Its eleven buoyancy tanks held 120,000 litres of gasoline, alongside two tanks for water ballast. In 1960 it carried Jacques Piccard, Auguste's son, and Don Walsh down to the Challenger Deep in the Mariana Trench, the deepest known point on Earth's surface. The instruments on board read 11,521 m, later corrected to 10,916 m once salinity and temperature were allowed for. More accurate measurements in 1995 put the Challenger Deep slightly shallower, at 10,911 m.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Life at the bottom",
+    "text": "Trieste carried a powerful light, and the crew saw that the floor was made of diatomaceous ooze. They reported a flatfish resembling a sole, roughly 30 by 15 cm, lying on the seabed. That sighting settled the question of whether anything could live so deep in total darkness.",
+    "cites": [
+     24,
+     25
+    ]
+   }
+  ]
+ }
+}

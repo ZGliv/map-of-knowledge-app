@@ -1,0 +1,365 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport",
+ "name": "Membrane transport",
+ "summary": [
+  {
+   "text": "Membrane transport is the set of mechanisms that regulate how ions and small molecules pass through biological membranes, which are lipid bilayers with embedded proteins.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Membranes are selectively permeable, letting some substances through and not others, and the movement of most solutes is mediated by membrane transport proteins.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Moving a substance down its gradient needs no outside energy, but moving it against the gradient requires metabolic energy.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Passive diffusion",
+   "value": "Crosses with no metabolic energy and no transport proteins",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Active transport",
+   "value": "Moves a solute against its gradient, usually using ATP",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Primary active transport",
+   "value": "The energy provider is broken down directly to move the solute",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "label": "Antiporter",
+   "value": "Moves two substances in opposite directions",
+   "cites": [
+    42,
+    43
+   ]
+  },
+  {
+   "label": "Symporter",
+   "value": "Moves two substances in the same direction",
+   "cites": [
+    44,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A solute flows from where it is crowded to where it is sparse across a membrane. Does the cell need to supply energy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, moving with the gradient needs no outside energy"
+    },
+    {
+     "id": "b",
+     "label": "Yes, ATP is needed for every crossing"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because the lipid barrier always resists crossings"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if the solute carries a charge"
+    }
+   ],
+   "answer": "a",
+   "explain": "Exchange in the direction of the gradient needs no energy input; only transport against the gradient does.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport:q1"
+  },
+  {
+   "prompt": "A cell holds more of a nutrient inside than outside, yet it still takes in more. How?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Simple diffusion, since solutes always flow toward the crowded side"
+    },
+    {
+     "id": "b",
+     "label": "Dialysis, which moves solutes with no energy at all"
+    },
+    {
+     "id": "c",
+     "label": "Transport proteins use metabolic energy such as ATP to move it against the gradient"
+    },
+    {
+     "id": "d",
+     "label": "Channels of facilitated diffusion running on the gradient"
+    }
+   ],
+   "answer": "c",
+   "explain": "In active transport a solute is moved against its gradient, and the transport proteins consume metabolic energy, usually ATP.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport:q2"
+  },
+  {
+   "prompt": "In the lab, raising a solute's concentration speeds up its uptake at first, but past a certain point uptake stops speeding up. What does this suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The solute is crossing by simple diffusion through the lipids"
+    },
+    {
+     "id": "b",
+     "label": "A transport protein forms a complex with the solute, like an enzyme and its substrate"
+    },
+    {
+     "id": "c",
+     "label": "The membrane is thinning out as the solute builds up"
+    },
+    {
+     "id": "d",
+     "label": "The solute is dissolving into the hydrophobic layer"
+    }
+   ],
+   "answer": "b",
+   "explain": "The plateau was interpreted as transport mediated by a substrate-transporter complex, conceptually the same as an enzyme-substrate complex.",
+   "cites": [
+    37,
+    38,
+    39
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport:q3"
+  },
+  {
+   "prompt": "A protein pushes one molecule uphill while a different ion rides downhill the opposite way. What kind of transporter is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A symporter"
+    },
+    {
+     "id": "b",
+     "label": "A primary pump that only splits ATP"
+    },
+    {
+     "id": "c",
+     "label": "A simple channel of passive diffusion"
+    },
+    {
+     "id": "d",
+     "label": "An antiporter"
+    }
+   ],
+   "answer": "d",
+   "explain": "An antiporter moves a molecule against its gradient while displacing ions along theirs, and the molecules move in opposite directions.",
+   "cites": [
+    42,
+    43
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport:q4"
+  },
+  {
+   "prompt": "A cell moves a compound uphill by letting a second solute run downhill, and no ATP is broken down at that moment. Where does the energy really come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From earlier ATP-style hydrolysis that built the other gradient"
+    },
+    {
+     "id": "b",
+     "label": "From the lipid bilayer itself, which stores energy"
+    },
+    {
+     "id": "c",
+     "label": "From the membrane being semipermeable"
+    },
+    {
+     "id": "d",
+     "label": "From nowhere, since uphill movement is free here"
+    }
+   ],
+   "answer": "a",
+   "explain": "In secondary active transport the energy is stored in a gradient, and hydrolysis of the energy provider is required to establish it.",
+   "cites": [
+    33,
+    34,
+    35
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport:q5"
+  },
+  {
+   "prompt": "A membrane holds an electrical potential across it. Why might a charged ion move across even when its concentrations on both sides are equal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Charged particles ignore membranes entirely"
+    },
+    {
+     "id": "b",
+     "label": "It responds to the membrane potential as well as to its concentration"
+    },
+    {
+     "id": "c",
+     "label": "Charge lets it dissolve in the hydrophobic tails"
+    },
+    {
+     "id": "d",
+     "label": "The potential changes the ion's concentration for it"
+    }
+   ],
+   "answer": "b",
+   "explain": "A charged substance moves in response to the electrochemical gradient due to the membrane potential, not just concentration.",
+   "cites": [
+    16,
+    28
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.membrane-transport:q6"
+  }
+ ],
+ "source": {
+  "title": "Membrane transport",
+  "url": "https://en.wikipedia.org/wiki/Membrane_transport",
+  "revision": 1314166694
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Crossing the border",
+    "text": "Membrane transport covers all the ways a cell controls how solutes, such as ions and small molecules, cross its membranes. Those membranes are lipid bilayers with proteins set into them. They are selectively permeable: they let some substances through and hold others back. That is how the cell membrane governs what enters and leaves the cell.",
+    "cites": [
+     1,
+     2,
+     3,
+     7
+    ]
+   },
+   {
+    "heading": "Downhill and uphill",
+    "text": "A substance can move from one compartment to another along a concentration or electrochemical gradient, or against it. Moving with the gradient, toward lower potential, needs no energy from outside. Moving against it does, and in living cells that energy is metabolic.",
+    "cites": [
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "A downhill example",
+    "text": "Dialysis shows the downhill case. A semipermeable membrane sits between two solutions holding different amounts of the same solute. If water can cross but the solute cannot, water flows toward the side with more solute until the system settles at its lowest energy. Because the water is moving along its gradient, no outside energy is needed.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Slipping straight through",
+    "text": "The lipids in membranes form bilayers with a hydrophobic inner layer and a hydrophilic outer layer. Some substances can pass through this on their own, by simple or passive diffusion, using no metabolic energy and no help from proteins. A charged substance responds not only to concentration but also to the electrochemical gradient set up by the membrane potential. Few molecules can cross a lipid membrane this way, though, so most transport relies on transport proteins.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Transport proteins",
+    "text": "Transport proteins carry most solutes across, and each is specialized to some degree for particular molecules. They span the membrane, with many alpha helices sunk into the lipid. Some act as pumps powered by ATP, that is, by metabolic energy, while others act as channels for facilitated diffusion. Scientists think each cell type, and each physiological stage, has its own set of specific transport proteins.",
+    "cites": [
+     4,
+     5,
+     18,
+     21
+    ]
+   },
+   {
+    "heading": "Active transport",
+    "text": "Active transport moves a solute against its gradient, and the proteins doing it use up metabolic energy, usually ATP. In primary active transport, ATP is broken down directly to move the solute, as when the transport proteins are ATPase enzymes. In secondary active transport, the energy comes indirectly, from a gradient already stored across the membrane. In co-transport, for instance, one solute flowing down its gradient carries a target compound against its own. That looks free, but energy was spent earlier by pumps to build the first gradient.",
+    "cites": [
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Two kinds of co-transporter",
+    "text": "An antiporter, also called an exchanger, moves a molecule against its gradient while one or more ions move down theirs, and the two travel in opposite directions. A symporter does the same job, but the molecule and the ions travel in the same direction.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Like an enzyme",
+    "text": "Evidence for transport proteins came from studying how fast molecules cross. For some solutes, the uptake rate rose and then leveled off, with little gain at higher concentrations. Researchers took this to mean the solute binds to a transporter, much as a substrate binds an enzyme. So each transporter has an affinity constant: the solute concentration at which transport runs at half its top speed, the counterpart of the Michaelis–Menten constant for enzymes.",
+    "cites": [
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-5-2",
+   "kind": "book",
+   "title": "5.2 Passive Transport",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+   "note": "A free textbook section on passive transport: diffusion down concentration gradients and facilitated transport.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-5-3",
+   "kind": "book",
+   "title": "5.3 Active Transport",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+   "note": "A free textbook section on active transport: pumps, electrochemical gradients, primary and secondary transport.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-membranes-transport",
+   "kind": "video",
+   "title": "In Da Club - Membranes & Transport: Crash Course Biology #5",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=dPKvHrD1eS4",
+   "note": "A Crash Course Biology video on cell membranes and how substances move across them."
+  },
+  {
+   "id": "crashcourse-cell-membranes",
+   "kind": "video",
+   "title": "Cell Membranes: How Does Stuff Get Into Your Cells?: Crash Course Biology #24",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=9Ia8zH-qMZw",
+   "note": "A Crash Course Biology video on how things get into and out of cells through the membrane."
+  }
+ ]
+}

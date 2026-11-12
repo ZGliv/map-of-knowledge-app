@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "A probability distribution describes how probabilities are assigned to the possible results of a random phenomenon.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is closely linked to random variables: a random variable assigns a value to each outcome and so induces a distribution on the values it can take.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Discrete distributions are described by probability mass functions, while many continuous distributions use probability density functions.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Fair coin",
+   "value": "Heads (1) and tails (0) each get probability 1/2",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Discrete tool",
+   "value": "Described with a probability mass function",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Continuous tool",
+   "value": "Many are described with a probability density function",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Continuous outcomes",
+   "value": "Only events with infinitely many outcomes, like intervals, can exceed zero",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Univariate versus multivariate",
+   "value": "One random variable, or two or more together",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A supermarket scale can show as many digits as you like. What is the chance that a piece of ham weighs exactly 500 g?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A small but positive chance"
+    },
+    {
+     "id": "b",
+     "label": "About one half"
+    },
+    {
+     "id": "c",
+     "label": "Zero"
+    },
+    {
+     "id": "d",
+     "label": "It depends on the scale's brand"
+    }
+   ],
+   "answer": "c",
+   "explain": "No matter how many digits are shown, there could always be further non-zero digits, so an exact weight has probability zero.",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "prompt": "A pack of ham labelled \"500 g\" must weigh between 490 g and 510 g. Why can that requirement have a real chance of being met when an exact weight cannot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The scale rounds every weight to the nearest gram"
+    },
+    {
+     "id": "b",
+     "label": "An interval covers many outcomes, so it can have positive probability"
+    },
+    {
+     "id": "c",
+     "label": "Weights are always whole numbers of grams"
+    },
+    {
+     "id": "d",
+     "label": "Exact weights are likelier than intervals"
+    }
+   ],
+   "answer": "b",
+   "explain": "For a continuous variable only events with infinitely many outcomes, such as intervals, can have probability above zero. The requirement allows some tolerance.",
+   "cites": [
+    16,
+    18,
+    19
+   ]
+  },
+  {
+   "prompt": "Which of these would be described with a probability mass function rather than a density function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The temperature at noon tomorrow"
+    },
+    {
+     "id": "b",
+     "label": "The weight of a pack of ham"
+    },
+    {
+     "id": "c",
+     "label": "The height of the next person to walk in"
+    },
+    {
+     "id": "d",
+     "label": "The number showing on a rolled die"
+    }
+   ],
+   "answer": "d",
+   "explain": "A die roll has a discrete set of outcomes, so it uses a mass function. Temperature and weight vary over a continuous range.",
+   "cites": [
+    9,
+    38,
+    39
+   ]
+  },
+  {
+   "prompt": "A study records each person's height and weight together as a pair. What kind of distribution describes the pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A multivariate distribution"
+    },
+    {
+     "id": "b",
+     "label": "A univariate distribution"
+    },
+    {
+     "id": "c",
+     "label": "A discrete list of one number"
+    },
+    {
+     "id": "d",
+     "label": "A distribution with no sample space"
+    }
+   ],
+   "answer": "a",
+   "explain": "A multivariate distribution gives probabilities for a list of two or more random variables; a univariate one covers a single variable.",
+   "cites": [
+    43,
+    44
+   ]
+  },
+  {
+   "prompt": "A delivery company wants the chance a parcel arrives in no more than a chosen number of hours, for any limit it picks. Which function gives that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The probability mass function"
+    },
+    {
+     "id": "b",
+     "label": "The sample space"
+    },
+    {
+     "id": "c",
+     "label": "The cumulative distribution function"
+    },
+    {
+     "id": "d",
+     "label": "The univariate distribution"
+    }
+   ],
+   "answer": "c",
+   "explain": "The cumulative distribution function gives the probability that the variable is no larger than a given value.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "prompt": "A coin toss is recorded as 1 for heads and 0 for tails. What has been set up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A sample space with no outcomes"
+    },
+    {
+     "id": "b",
+     "label": "A way of making the coin biased"
+    },
+    {
+     "id": "c",
+     "label": "A continuous distribution"
+    },
+    {
+     "id": "d",
+     "label": "A function that gives each outcome a value"
+    }
+   ],
+   "answer": "d",
+   "explain": "That is a random variable: a function that assigns a value to each outcome, which in turn gives a distribution on those values.",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ]
+}

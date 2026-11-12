@@ -1,0 +1,585 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-engines",
+ "name": "Heat engines",
+ "summary": [
+  {
+   "text": "A heat engine is a system that uses heat moving from a hot source to a cold sink to do mechanical or electrical work.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "Only part of the heat becomes work; some escapes to the surroundings and some is wasted on friction and drag.",
+   "cites": [
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "text": "Carnot's theorem caps how efficient any heat engine can be, but nearly any energy source can be turned into heat, so these engines are used almost everywhere.",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Working substance",
+   "value": "Usually a gas or a liquid",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Efficiency limit",
+   "value": "Set by Carnot's theorem",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Cold side on Earth",
+   "value": "Stuck near ambient temperature, about 300 kelvin",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Run in reverse",
+   "value": "Refrigerators, air conditioners and heat pumps",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Natural example",
+   "value": "A Hadley cell in Earth's atmosphere",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A car is cruising along fine, yet its exhaust pipe and engine block are very hot. What does that heat mostly represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Energy that never entered the engine at all"
+    },
+    {
+     "id": "b",
+     "label": "Heat that was not turned into work and was lost"
+    },
+    {
+     "id": "c",
+     "label": "A sign that the engine is about to break down"
+    },
+    {
+     "id": "d",
+     "label": "Work that the engine is saving for later use"
+    }
+   ],
+   "answer": "b",
+   "explain": "Some heat is normally lost to the surroundings and is not converted to work.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines:q1"
+  },
+  {
+   "prompt": "Two engines use the same kind of design and both dump heat to ordinary room-temperature air. One burns at a much higher temperature. Which has the higher potential efficiency?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one with the hotter source"
+    },
+    {
+     "id": "b",
+     "label": "The one with the cooler source"
+    },
+    {
+     "id": "c",
+     "label": "Neither; the cold side alone decides it"
+    },
+    {
+     "id": "d",
+     "label": "Both equal, since the air is the same"
+    }
+   ],
+   "answer": "a",
+   "explain": "The larger the temperature gap between hot source and cold sink, the larger the potential efficiency. The cold side is stuck near ambient, so a hotter source widens the gap.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines:q2"
+  },
+  {
+   "prompt": "The back of a kitchen fridge feels warm while its inside is cold. What is going on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The motor makes heat that has nothing to do with cooling"
+    },
+    {
+     "id": "b",
+     "label": "Cold air is being converted into warm air in the walls"
+    },
+    {
+     "id": "c",
+     "label": "Work is used to move heat from inside out to the room"
+    },
+    {
+     "id": "d",
+     "label": "The insulation slowly turns food energy into heat"
+    }
+   ],
+   "answer": "c",
+   "explain": "A refrigerator is a heat engine run in reverse: it uses work to take heat from the cold chamber and vent it at a higher temperature to the environment.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines:q3"
+  },
+  {
+   "prompt": "One engine runs on burning coal, another on a nuclear reactor, another on concentrated sunlight. Why can the same kind of machine use such different fuels?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each fuel secretly makes the same kind of fuel gas"
+    },
+    {
+     "id": "b",
+     "label": "The machine changes shape to suit each energy source"
+    },
+    {
+     "id": "c",
+     "label": "Only the hot gas matters, and every source adds the same chemicals"
+    },
+    {
+     "id": "d",
+     "label": "All these sources can be turned into heat, which is all it needs"
+    }
+   ],
+   "answer": "d",
+   "explain": "The heat source can be powered by virtually any kind of energy, since most energy forms are easily converted to heat.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines:q4"
+  },
+  {
+   "prompt": "An engineer says: a diesel engine is a machine, while the Diesel cycle is something else. What is the cycle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An idealised model that the real machine tries to follow"
+    },
+    {
+     "id": "b",
+     "label": "The part of the machine that carries the fuel"
+    },
+    {
+     "id": "c",
+     "label": "A name for how long the engine has been running"
+    },
+    {
+     "id": "d",
+     "label": "The exact record of what every real engine does"
+    }
+   ],
+   "answer": "a",
+   "explain": "The word engine is used for the physical device and cycle for the model, and few real engines match their cycles exactly.",
+   "cites": [
+    14,
+    15,
+    18
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines:q5"
+  },
+  {
+   "prompt": "Warm moist air rises near the equator and cooler air sinks farther north and south, driving a steady circulation. Why do physicists call this a heat engine?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It burns fuel in the upper atmosphere"
+    },
+    {
+     "id": "b",
+     "label": "It stores sunlight inside the clouds for later"
+    },
+    {
+     "id": "c",
+     "label": "It makes electricity directly from the wind"
+    },
+    {
+     "id": "d",
+     "label": "Heat flow makes the air move, producing kinetic energy"
+    }
+   ],
+   "answer": "d",
+   "explain": "A Hadley cell is a thermally driven circulation with a net production of kinetic energy, so heat flowing from warm to cold does work.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Heat_engine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Heat engines",
+  "credit": "Gonfer",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Heat_engine.png"
+ },
+ "source": {
+  "title": "Heat engine",
+  "url": "https://en.wikipedia.org/wiki/Heat_engine",
+  "revision": 1371080355
+ },
+ "pack": {
+  "id": "auto-thermodynamics-heat-engines",
+  "title": "Why engines always waste heat",
+  "question": "Why can't an engine turn all its heat into work?",
+  "path": [
+   "Science",
+   "Physics",
+   "Thermodynamics",
+   "Heat engines"
+  ],
+  "hue": 193,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Heat_engine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Heat engines",
+    "credit": "Gonfer · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Heat_engine.png",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why engines always waste heat",
+    "hook": "Every engine, from a car to a power station, throws away part of the heat it burns."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-thermodynamics-heat-engines:1",
+    "transfer": false,
+    "prompt": "Put these in the order a heat engine works through them",
+    "items": [
+     {
+      "id": "a",
+      "label": "A heat source warms the working substance"
+     },
+     {
+      "id": "b",
+      "label": "The substance reaches its higher temperature state"
+     },
+     {
+      "id": "c",
+      "label": "The substance does work while passing heat to the cold sink"
+     },
+     {
+      "id": "d",
+      "label": "The substance ends at a lower temperature state"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "start",
+     "end"
+    ],
+    "explain": "The source heats the working substance, which does work as it passes heat on to the colder sink and cools."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-thermodynamics-heat-engines:2",
+    "transfer": false,
+    "prompt": "An engineer on Earth can't make the cold side much colder than the room, about 300 kelvin. To raise the engine's efficiency, what should she work on?",
+    "explain": "With the cold side stuck near 300 kelvin, efforts focus on raising the source temperature, within material limits.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Chill the cold sink far below room temperature",
+        "feedback": "Tempting, since a bigger gap helps, but on Earth the cold side stays near ambient temperature."
+       },
+       {
+        "id": "a",
+        "label": "Make the hot source hotter",
+        "feedback": ""
+       },
+       {
+        "id": "c",
+        "label": "Add auxiliary pumps to push the heat along",
+        "feedback": "Pumps use energy themselves, which actually lowers efficiency."
+       },
+       {
+        "id": "d",
+        "label": "Remove the heat lost to friction by ignoring it",
+        "feedback": "Friction loss is real and cannot be ignored; it is separate from the temperature limit."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-thermodynamics-heat-engines:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each machine by how it uses heat and work",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Thermal power station"
+     },
+     {
+      "id": "i1",
+      "label": "Internal combustion engine"
+     },
+     {
+      "id": "i2",
+      "label": "Refrigerator"
+     },
+     {
+      "id": "i3",
+      "label": "Air conditioner"
+     },
+     {
+      "id": "i4",
+      "label": "Heat pump"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Heat flows hot to cold to give work"
+     },
+     {
+      "id": "g1",
+      "label": "Work moves heat from cold to hot"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Power stations and combustion engines produce work from heat; refrigerators, air conditioners and heat pumps are heat engines run in reverse."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-thermodynamics-heat-engines:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A heat engine takes heat from a hot source and passes some to a cold sink."
+     },
+     {
+      "id": "b",
+      "text": "The maximum efficiency is the temperature difference divided by the hot-end temperature, in absolute units."
+     },
+     {
+      "id": "c",
+      "text": "With a hot end at 600 K and a cold end at 300 K, that limit is 50 percent."
+     },
+     {
+      "id": "d",
+      "text": "So a perfectly built engine would still convert all of its heat into work."
+     }
+    ],
+    "answer": "d",
+    "explain": "The efficiency limit applies to every engine, and no engine ever reaches it, let alone 100 percent."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A heat engine only gets work from heat moving from hot to cold, and the temperature gap caps how much it can get.",
+    "connections": [
+     {
+      "title": "Carnot cycle",
+      "place": "Heat engines",
+      "node": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle"
+     },
+     {
+      "title": "Internal combustion engine",
+      "place": "Heat engines",
+      "node": "knowledge.science.physics.thermodynamics.heat-engines.internal-combustion-engine"
+     },
+     {
+      "title": "Steam engine",
+      "place": "Heat engines",
+      "node": "knowledge.science.physics.thermodynamics.heat-engines.steam-engine"
+     },
+     {
+      "title": "Refrigerator",
+      "place": "Heat engines",
+      "node": "knowledge.science.physics.thermodynamics.heat-engines.refrigerator"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The source heats the working substance, which does work as it passes heat on to the colder sink and cools.",
+    "source": "Wikipedia sentences 3, 4, 5"
+   },
+   {
+    "claim": "With the cold side stuck near 300 kelvin, efforts focus on raising the source temperature, within material limits.",
+    "source": "Wikipedia sentences 9, 20, 21, 24"
+   },
+   {
+    "claim": "Power stations and combustion engines produce work from heat; refrigerators, air conditioners and heat pumps are heat engines run in reverse.",
+    "source": "Wikipedia sentences 29, 30, 31"
+   },
+   {
+    "claim": "The efficiency limit applies to every engine, and no engine ever reaches it, let alone 100 percent.",
+    "source": "Wikipedia sentences 8, 22"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A heat engine is a system that uses thermal energy to do mechanical or electrical work. A heat source warms a working substance, usually a gas or a liquid, to a high temperature. The substance then does work inside the engine while handing heat to a colder sink, until it has cooled to a lower temperature. Along the way, part of the thermal energy turns into work.",
+    "cites": [
+     1,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Losses and limits",
+    "text": "Not all of the heat becomes work: some leaks into the surroundings, and in a mechanical engine friction and drag waste more. Pumps and other helper equipment can use up a lot of energy as well. What sets heat engines apart from other engines is that Carnot's theorem puts a basic cap on their efficiency. That theoretical best equals the gap in temperature between the hot end and the cold end, divided by the hot-end temperature, both in absolute units, and no engine ever reaches it.",
+    "cites": [
+     8,
+     9,
+     11,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "Why hotter is better",
+    "text": "The bigger the gap between the hot source and the cold sink, the higher the efficiency an engine could reach. On Earth, the cold side cannot go much below the temperature of the surroundings, roughly 300 kelvin. So most efforts to build better engines aim to make the hot source hotter, as far as materials allow.",
+    "cites": [
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Almost any fuel will do",
+    "text": "The upside is that nearly any form of energy can easily become heat: burning fuel, nuclear fission, absorbed light, friction or electrical resistance. Since the heat source can run on almost anything, heat engines have a huge range of uses. Everyday examples include thermal power stations, internal combustion engines, firearms, refrigerators and heat pumps.",
+    "cites": [
+     12,
+     13,
+     29
+    ]
+   },
+   {
+    "heading": "Engines and cycles",
+    "text": "People often confuse an engine with the cycle it tries to follow. The engine is the physical machine and the cycle is the model, so a diesel engine is a machine that carries out the Diesel cycle. Very few real engines match their cycle exactly, which is why a cycle can be seen as the ideal case. The model can then be refined with real measurements from a running engine.",
+    "cites": [
+     14,
+     15,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Running in reverse",
+    "text": "Power stations run forward: heat flows from a hot reservoir into a cool one, and work comes out. Refrigerators, air conditioners and heat pumps run the other way, using work to move heat from a cold place to a hotter one. A fridge pulls heat out of a sealed cold box and releases it into the warmer surroundings. A heat pump draws heat from the cold outdoors into a house.",
+    "cites": [
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Earth as a heat engine",
+    "text": "Earth's air and water together act as a heat engine, evening out uneven heating from the Sun through evaporation, convection, rain, wind and ocean currents. A Hadley cell is one example. Warm, moist air rises near the equator and colder air sinks in the subtropics, driving a circulation that produces kinetic energy.",
+    "cites": [
+     34,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-15-3",
+   "kind": "book",
+   "title": "15.3 Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/15-3-introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency",
+   "note": "A free textbook section on how heat engines work, their efficiency, and the Otto cycle, with a power-station example.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-15-4",
+   "kind": "book",
+   "title": "15.4 Carnot's Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/15-4-carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated",
+   "note": "A free textbook section on the Carnot cycle and why no real engine can beat its efficiency limit.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up2-4-2",
+   "kind": "book",
+   "title": "4.2 Heat Engines",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/4-2-heat-engines",
+   "note": "A free university textbook section on heat engine cycles and efficiency, with a worked lawn-mower example.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-physics-24",
+   "kind": "video",
+   "title": "Engines: Crash Course Physics #24",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=p1woKh2mdVQ",
+   "note": "A Crash Course Physics episode on how engines like the steam engine work and what makes them efficient."
+  },
+  {
+   "id": "cc-engineering-11",
+   "kind": "video",
+   "title": "Heat Engines, Refrigerators, & Cycles: Crash Course Engineering #11",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=iZOXW5aaCZg",
+   "note": "A Crash Course Engineering episode on thermodynamic cycles in heat engines, refrigerators and heat pumps."
+  }
+ ]
+}

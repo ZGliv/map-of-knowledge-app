@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.forces.normal-force",
+ "name": "Normal force",
+ "summary": [
+  {
+   "text": "The normal force is the part of a contact force that pushes perpendicular to the surface an object touches.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It is what stops a person standing on a platform from sinking through it, by resisting the pull of gravity.",
+   "cites": [
+    3,
+    8
+   ]
+  },
+  {
+   "text": "A bathroom scale reads the normal force, which is why its reading changes when an elevator accelerates.",
+   "cites": [
+    28,
+    29
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Meaning of normal",
+   "value": "Perpendicular, not ordinary",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Standing still",
+   "value": "Normal force equals weight in size",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Elevator speeding up",
+   "value": "Normal force exceeds ordinary weight",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Cause",
+   "value": "Electron interactions at the surfaces",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "What scales read",
+   "value": "Normal force, not gravity",
+   "cites": [
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You stand on a bathroom scale in an elevator that speeds upward. Why does the reading go up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity pulls harder on you while you move upward"
+    },
+    {
+     "id": "b",
+     "label": "Your mass really grows as the elevator accelerates"
+    },
+    {
+     "id": "c",
+     "label": "The scale reads the normal force, which exceeds your weight then"
+    },
+    {
+     "id": "d",
+     "label": "The scale reads only your weight, which is unchanged"
+    }
+   ],
+   "answer": "c",
+   "explain": "The scale measures normal force, which varies as the cab accelerates, not gravitational force.",
+   "cites": [
+    26,
+    28,
+    29
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.normal-force:q1"
+  },
+  {
+   "prompt": "A book rests on a table. A student says its weight and the table's push on it are an action-reaction pair. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are an action-reaction pair, so nothing is wrong"
+    },
+    {
+     "id": "b",
+     "label": "The table is not actually pushing back at all"
+    },
+    {
+     "id": "c",
+     "label": "The weight is always larger than the table's push"
+    },
+    {
+     "id": "d",
+     "label": "They are equal only because the book is not accelerating"
+    }
+   ],
+   "answer": "d",
+   "explain": "Treating them as a pair is a common mistake; they need to be equal in size to explain why there is no upward acceleration.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.normal-force:q2"
+  },
+  {
+   "prompt": "A ball bounces upward off the floor. During the bounce, how does the normal force compare with the ball's weight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is larger, which gives the upward acceleration"
+    },
+    {
+     "id": "b",
+     "label": "It is smaller, which lets the ball rise"
+    },
+    {
+     "id": "c",
+     "label": "It is equal, since the floor does not move"
+    },
+    {
+     "id": "d",
+     "label": "It is zero, since the ball has left the floor"
+    }
+   ],
+   "answer": "a",
+   "explain": "A ball that accelerates upward has a normal force larger in size than its weight.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.normal-force:q3"
+  },
+  {
+   "prompt": "On a spinning amusement ride, riders stay pinned to the wall with the floor gone. What holds them up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The floor beneath them dropping more slowly"
+    },
+    {
+     "id": "b",
+     "label": "Friction with the wall, produced by the wall's push on them"
+    },
+    {
+     "id": "c",
+     "label": "A strong upward pull from the ride's motor"
+    },
+    {
+     "id": "d",
+     "label": "Gravity weakening as the ride spins faster"
+    }
+   ],
+   "answer": "b",
+   "explain": "The wall applies a normal force toward the center, and static friction resulting from it counteracts gravity.",
+   "cites": [
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.normal-force:q4"
+  },
+  {
+   "prompt": "A geometry teacher says a line is normal to a surface. How does she mean \"normal\"?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ordinary or expected"
+    },
+    {
+     "id": "b",
+     "label": "Running alongside it"
+    },
+    {
+     "id": "c",
+     "label": "Perpendicular to it"
+    },
+    {
+     "id": "d",
+     "label": "Equal in length to it"
+    }
+   ],
+   "answer": "c",
+   "explain": "In this context normal is used in the geometric sense and means perpendicular, not \"ordinary\".",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.normal-force:q5"
+  },
+  {
+   "prompt": "Why can't the atoms of your hand pass through a table?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A hidden glue holds every surface together"
+    },
+    {
+     "id": "b",
+     "label": "Atoms are solid balls that cannot be squeezed"
+    },
+    {
+     "id": "c",
+     "label": "The table is always heavier than a hand"
+    },
+    {
+     "id": "d",
+     "label": "Electrons at the two surfaces cannot overlap without a big energy cost"
+    }
+   ],
+   "answer": "d",
+   "explain": "The normal force results from the interactions of electrons at the surfaces; their wavefunctions cannot overlap without large energy.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.normal-force:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Incline.svg/960px-Incline.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Normal force",
+  "credit": "Traced by User:Stannered",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Incline.svg"
+ },
+ "source": {
+  "title": "Normal force",
+  "url": "https://en.wikipedia.org/wiki/Normal_force",
+  "revision": 1363592509
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A push at right angles",
+    "text": "When an object touches a surface, a contact force acts between them. The normal force is the part of that contact push that points straight out from the surface, at a right angle to it. Here the word normal is borrowed from geometry, where it means perpendicular, not ordinary. It is usually written F_N.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why you do not sink",
+    "text": "Picture someone standing still on a platform. Gravity tugs them toward the centre of the Earth, and something has to push back or they would keep going down. That push back comes from the platform's molecules resisting, and it is the normal force. It is one kind of ground reaction force.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "On a table and on a slope",
+    "text": "For an object sitting on a flat table, the normal force matches its weight in size and points the opposite way, so Fₙ = mg. Here m is the mass and g is the strength of gravity, about 9.81 N/kg on Earth. The table must be strong enough to give this push without breaking. On a slope the push is still perpendicular to the surface, and its size becomes Fₙ = mgcos (θ), where θ is the slope's angle from the horizontal.",
+    "cites": [
+     7,
+     8,
+     12,
+     14
+    ]
+   },
+   {
+    "heading": "Normal force and friction",
+    "text": "If a person stands on a slope without sliding or sinking, the ground's total push on them splits into two parts. One part is the normal force, at right angles to the ground. The other runs along the ground and is friction.",
+    "cites": [
+     5,
+     20
+    ]
+   },
+   {
+    "heading": "A common mistake",
+    "text": "People often assume the normal force and weight are an action and reaction pair, but that is an error. On the table the two must be equal in size to explain why the object does not accelerate upward. A bouncing ball shows the difference: it speeds upward because the normal force on it is bigger than its weight.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "What a scale really reads",
+    "text": "In a lift that is still or moving at a steady speed, the floor pushes up on your feet with a force equal to your weight. When the lift speeds up going upward, that push grows and you feel heavier. When it speeds up going downward, the push shrinks and you feel lighter. A bathroom scale in the lift shows these changes, because it measures the normal force on your feet, not the pull of gravity, which stays the same.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "At the smallest scale the normal force is not a force in its own right. It arises from the Pauli exclusion principle, through the way electrons at the two surfaces interact. The atoms of two surfaces cannot pass into each other without a large amount of energy. Physicists often model this with the van der Waals force, which rises very steeply as the gap closes.",
+    "cites": [
+     22,
+     23,
+     24
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up-5-6",
+   "kind": "book",
+   "title": "5.6 Common Forces",
+   "by": "William Moebs, Samuel J. Ling, Jeff Sanny (OpenStax)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/5-6-common-forces",
+   "note": "A free college textbook section on everyday forces, with the normal force on flat ground and on a slope.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-4-5",
+   "kind": "book",
+   "title": "4.5 Normal, Tension, and Other Examples of Forces",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/college-physics-2e/pages/4-5-normal-tension-and-other-examples-of-forces",
+   "note": "An introductory textbook section with worked examples, including a skier on a slope and a sagging table."
+  }
+ ]
+}

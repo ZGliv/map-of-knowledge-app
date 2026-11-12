@@ -1,0 +1,302 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification",
+ "name": "Trewartha climate classification",
+ "summary": [
+  {
+   "text": "The Trewartha climate classification is a modified version of the Köppen–Geiger system, first published by American geographer Glenn Thomas Trewartha in 1966.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It keeps Köppen's tropical and polar climates but redefines the middle latitudes to sit closer to vegetation zones and genetic climate systems.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "It measures dryness with its own threshold formula, 10(T − 10) + 3P, using mean annual temperature and the share of rain falling in the six high-sun months.",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Creator",
+   "value": "American geographer Glenn Thomas Trewartha, 1966",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Based on",
+   "value": "The Köppen–Geiger system",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Tropical rule",
+   "value": "All 12 months average 18 °C (64.4 °F) or above",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Ice cap type (Fi)",
+   "value": "Every month averages below 0 °C",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Fi locations",
+   "value": "Frozen Arctic Ocean, Antarctica and Greenland",
+   "cites": [
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A town in the interior of Asia has warm summers, but its coldest month averages −8 °C. Which Trewartha type fits it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ar, wet tropical"
+    },
+    {
+     "id": "b",
+     "label": "Dc, continental"
+    },
+    {
+     "id": "c",
+     "label": "Fi, ice cap"
+    },
+    {
+     "id": "d",
+     "label": "Ft, tundra"
+    }
+   ],
+   "answer": "b",
+   "explain": "Continental (Dc) climates have a coldest monthly mean below 0 °C, as in some interior landmasses of Asia and North America.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification:q1"
+  },
+  {
+   "prompt": "In a place where every single month averages below freezing, what would the surface look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tundra shrubs after a short thaw"
+    },
+    {
+     "id": "b",
+     "label": "Dense conifer forest"
+    },
+    {
+     "id": "c",
+     "label": "Bare, sun-baked rock"
+    },
+    {
+     "id": "d",
+     "label": "Ice that never melts away"
+    }
+   ],
+   "answer": "d",
+   "explain": "This is Trewartha's Fi type, the region of perpetually frozen ocean and permanent ice plateaus in Antarctica and Greenland.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification:q2"
+  },
+  {
+   "prompt": "Two tropical towns: one has a single dry month a year, the other a long dry season in its low-sun months. Which is classed Ar?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The town with one dry month"
+    },
+    {
+     "id": "b",
+     "label": "The town with the long dry season"
+    },
+    {
+     "id": "c",
+     "label": "Both towns"
+    },
+    {
+     "id": "d",
+     "label": "Neither town"
+    }
+   ],
+   "answer": "a",
+   "explain": "Ar covers tropical climates with no more than two dry months; a low-sun dry season makes the other Aw.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification:q3"
+  },
+  {
+   "prompt": "Why did Trewartha rework Köppen's climate system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To add a tropical group Köppen lacked"
+    },
+    {
+     "id": "b",
+     "label": "To replace letter codes with numbers"
+    },
+    {
+     "id": "c",
+     "label": "To fix flaws, mainly in the middle latitudes"
+    },
+    {
+     "id": "d",
+     "label": "To extend the system to the oceans"
+    }
+   ],
+   "answer": "c",
+   "explain": "The system was created to answer deficiencies in Köppen–Geiger, chiefly by redefining the middle latitudes.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification:q4"
+  },
+  {
+   "prompt": "Two continental (Dc) towns: one's warmest month averages 24 °C, the other's 19 °C. Which one gets the code Dca?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The 19 °C town"
+    },
+    {
+     "id": "b",
+     "label": "Both towns"
+    },
+    {
+     "id": "c",
+     "label": "Neither town"
+    },
+    {
+     "id": "d",
+     "label": "The 24 °C town"
+    }
+   ],
+   "answer": "d",
+   "explain": "Dca is used where the warmest month averages 22.2 °C or more; below that the code is Dcb.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification:q5"
+  },
+  {
+   "prompt": "In Trewartha's tropical A climates, every month averages at least 18 °C. How are these climates described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A dry desert realm"
+    },
+    {
+     "id": "b",
+     "label": "A winterless, frost-free zone"
+    },
+    {
+     "id": "c",
+     "label": "A zone of snowy winters"
+    },
+    {
+     "id": "d",
+     "label": "A cool highland realm"
+    }
+   ],
+   "answer": "b",
+   "explain": "With all 12 months at 18 °C or above, the A climates form the realm of the winterless frost-free zone.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.earth.climate.climate-zones.climate-classification.trewartha-climate-classification:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Trewartha_classification_world_map_1991-2020_borderless.png/960px-Trewartha_classification_world_map_1991-2020_borderless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Trewartha climate classification",
+  "credit": "Monthly temperature and precipitation gridded data are sourced from: Beck, H.E.,",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Trewartha_classification_world_map_1991-2020_borderless.png"
+ },
+ "source": {
+  "title": "Trewartha climate classification",
+  "url": "https://en.wikipedia.org/wiki/Trewartha_climate_classification",
+  "revision": 1383306168
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A reworked Köppen",
+    "text": "The Trewartha climate classification, also called the Köppen–Trewartha classification, is a way of sorting climates. The American geographer Glenn Thomas Trewartha first published it in 1966. It is a modified form of the Köppen–Geiger system, made to fix some of that system's weak points. It tries to redraw the middle latitudes so they sit closer to vegetation zones and to genetic climate systems.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The tropics stay the same",
+    "text": "Tropical and polar climates were left as Köppen had them. The tropical group, A, still means every one of the 12 months averages 18 °C (64.4 °F) or more, so these are the places with no winter and no frost. A dry month here has under 60 mm of rain on average. A place with at most two dry months is Ar; otherwise it is Aw if the dry season comes with low sun and short days, or As if it comes with high sun and long days.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "A new test for dryness",
+    "text": "The dry codes BW and BS mean desert and steppe, just as in Köppen. What changes is the formula for the dryness threshold: 10(T − 10) + 3P. Here T is the mean yearly temperature in °C and P is the share of the year's rain that falls in the six high-sun months. Below the threshold a place is desert; from the threshold up to twice it, steppe; above twice it, the place is not in group B at all.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Continental climates",
+    "text": "In the continental type, Dc, the coldest month's average drops below 0 °C, as in some inland parts of North America and Asia. A third letter can mark the summer. Dca means the warmest month averages 22.2 °C (72.0 °F) or more, and Dcb means it stays below that. Most of Europe north of the 44th parallel has a Do or Dc climate.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Subarctic and polar",
+    "text": "The subarctic group splits by the coldest month. Eo, maritime subarctic, has a coldest month averaging above −10 °C (14 °F), while Ec, continental subarctic or boreal, has at least one month at −10 °C or below. In the polar Ft type, at least one month averages above 0 °C but not above 10 °C, so the ground may briefly lose its snow and ice and support scrub or tundra. In the Fi type every month stays below 0 °C, as on the frozen ocean at the North Pole and the ice plateaus of Antarctica and Greenland.",
+    "cites": [
+     21,
+     22,
+     25,
+     26,
+     27
+    ]
+   }
+  ]
+ }
+}

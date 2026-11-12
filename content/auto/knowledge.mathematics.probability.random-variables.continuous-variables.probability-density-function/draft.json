@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "A probability density function describes a continuous random variable, and its density is probability per unit length.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The probability of the variable taking any one exact value is zero, so probabilities come from the area under the curve over a range of values.",
+   "cites": [
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "The density is never negative and the area under the whole curve equals one, though unlike a probability it can exceed one.",
+   "cites": [
+    7,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Density meaning",
+   "value": "Probability per unit length",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Total area",
+   "value": "The area under the whole curve equals one",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Can exceed one",
+   "value": "Density can be above one, unlike a probability",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Bacteria example",
+   "value": "Density of 2 per hour for dying around 5 hours",
+   "cites": [
+    21,
+    23
+   ]
+  },
+  {
+   "label": "No density",
+   "value": "Discrete random variables do not have one",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lot of bacteria die around 5 hours. What is the chance that one dies at exactly 5 hours, measured with infinite precision?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 2 percent"
+    },
+    {
+     "id": "b",
+     "label": "Two per hour"
+    },
+    {
+     "id": "c",
+     "label": "It is high, since so many die near then"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a continuous variable the probability of any particular exact value is zero. Only ranges of time have a quantifiable probability.",
+   "cites": [
+    3,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "Suppose a 0.01-hour window starting at 5 hours holds a 0.02 chance of death. About how much chance is in a window one-tenth as long, starting at 5 hours?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 0.2"
+    },
+    {
+     "id": "b",
+     "label": "About 0.02"
+    },
+    {
+     "id": "c",
+     "label": "About 0.002"
+    },
+    {
+     "id": "d",
+     "label": "About 0.0002"
+    }
+   ],
+   "answer": "c",
+   "explain": "A window one-tenth as long holds about one-tenth of the probability, so about 0.002. The ratio of probability to duration stays near 2 per hour.",
+   "cites": [
+    17,
+    18,
+    19,
+    21
+   ]
+  },
+  {
+   "prompt": "You want the chance that a continuous measurement lands between 10 and 12, and you have its density curve. What do you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Measure the area under the curve between 10 and 12"
+    },
+    {
+     "id": "b",
+     "label": "Read the height of the curve at 11"
+    },
+    {
+     "id": "c",
+     "label": "Add the heights of the curve at 10 and 12"
+    },
+    {
+     "id": "d",
+     "label": "Find the highest point of the curve"
+    }
+   ],
+   "answer": "a",
+   "explain": "The probability of a range is the integral of the density over that range, which is the area under the curve between its ends.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "A friend sees a density curve that peaks at 2 and says it must be wrong, since probabilities cannot exceed one. Who is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The friend: a density must stay below 1 everywhere"
+    },
+    {
+     "id": "b",
+     "label": "The friend: the area under the curve would exceed one"
+    },
+    {
+     "id": "c",
+     "label": "Nobody: the peak means the curve covers more than 100%"
+    },
+    {
+     "id": "d",
+     "label": "Not the friend: density is per unit length and can exceed one"
+    }
+   ],
+   "answer": "d",
+   "explain": "Unlike a probability, a density can take values above one. The uniform distribution on [0, 1/2] has density 2 there.",
+   "cites": [
+    2,
+    36
+   ]
+  },
+  {
+   "prompt": "A variable records the number shown on a die roll. Can it be given a probability density function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No: the distributions of discrete variables do not have one"
+    },
+    {
+     "id": "b",
+     "label": "Yes: every variable has a density"
+    },
+    {
+     "id": "c",
+     "label": "Yes: but only if the die is fair"
+    },
+    {
+     "id": "d",
+     "label": "No: the density would have to be negative"
+    }
+   ],
+   "answer": "a",
+   "explain": "Discrete random variables do not have a density function in this sense; mass functions are used for them instead.",
+   "cites": [
+    12,
+    38
+   ]
+  },
+  {
+   "prompt": "A curve is never negative and the total area under it is 0.5. Can it be a probability density function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes: any non-negative curve works"
+    },
+    {
+     "id": "b",
+     "label": "No: the total area must equal one"
+    },
+    {
+     "id": "c",
+     "label": "Yes: if it has a single peak"
+    },
+    {
+     "id": "d",
+     "label": "No: it would have to dip below zero somewhere"
+    }
+   ],
+   "answer": "b",
+   "explain": "A density is nonnegative and the area under the entire curve equals one, so the total probability is 100 percent.",
+   "cites": [
+    7
+   ]
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.bacteria.binary-fission",
+ "name": "Binary fission",
+ "summary": [
+  {
+   "text": "Binary fission is how Archaea and Bacteria reproduce: a cell divides into two parts, each able to grow to the size of the original.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "text": "The single DNA molecule first replicates and each copy attaches to a different part of the cell membrane, so the daughter cells are genetically identical barring random mutations.",
+   "cites": [
+    7,
+    9
+   ]
+  },
+  {
+   "text": "For Escherichia coli one division typically takes about 20 minutes at 37 °C, and that time is also how long a culture needs to double its number of cells.",
+   "cites": [
+    23,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who does it",
+   "value": "Archaea, Bacteria, and some organelles such as mitochondria",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Daughter cells",
+   "value": "Genetically identical, barring random mutations",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Marker protein",
+   "value": "FtsZ forms a Z ring that defines the division plane",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "E. coli speed",
+   "value": "Divides about every 20 minutes at 37 °C",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Slow example",
+   "value": "Some tuberculosis strains take nearly 100 hours",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A bacterial culture starts with one cell, and each cell splits in two every 20 minutes. About how many cells are there after an hour?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three"
+    },
+    {
+     "id": "b",
+     "label": "Eight"
+    },
+    {
+     "id": "c",
+     "label": "Six"
+    },
+    {
+     "id": "d",
+     "label": "Sixteen"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each division doubles the number of cells, so three divisions take one cell to two, then four, then eight.",
+   "cites": [
+    23,
+    24,
+    25
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.binary-fission:q1"
+  },
+  {
+   "prompt": "A single bacterium divides again and again in a dish. Barring rare mutations, how do its descendants compare with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are a blend of its genes and a partner's"
+    },
+    {
+     "id": "b",
+     "label": "They each keep only half of its genetic material"
+    },
+    {
+     "id": "c",
+     "label": "They are genetically identical to it"
+    },
+    {
+     "id": "d",
+     "label": "They differ more with every division that occurs"
+    }
+   ],
+   "answer": "c",
+   "explain": "Binary fission is asexual, so all the cells have the same genetic material barring random mutations.",
+   "cites": [
+    5,
+    9
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.binary-fission:q2"
+  },
+  {
+   "prompt": "Why must the DNA be copied before the cell pulls apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "So the cell can grow a nucleus before it divides"
+    },
+    {
+     "id": "b",
+     "label": "So the cell wall can be removed before dividing"
+    },
+    {
+     "id": "c",
+     "label": "So the extra DNA can be thrown away afterwards"
+    },
+    {
+     "id": "d",
+     "label": "So each half can receive its own chromosome"
+    }
+   ],
+   "answer": "d",
+   "explain": "The DNA replicates and each copy attaches to a different part of the membrane, so the copies are separated when the cell pulls apart.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.binary-fission:q3"
+  },
+  {
+   "prompt": "In a dividing bacterium, a blocking signal is lifted only at the cell's centre. What does that let happen there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "FtsZ takes over and carries out the division"
+    },
+    {
+     "id": "b",
+     "label": "The cell wall dissolves entirely at that spot"
+    },
+    {
+     "id": "c",
+     "label": "The chromosomes stop being copied at that spot"
+    },
+    {
+     "id": "d",
+     "label": "MinC and MinD start to form the ring instead"
+    }
+   ],
+   "answer": "a",
+   "explain": "MinC and MinD block the FtsZ ring, and MinE stops their activity at midcell, allowing FtsZ to take over for division.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.binary-fission:q4"
+  },
+  {
+   "prompt": "A culture in a flask has run low on nutrients and space. What happens to its rate of binary fission?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It speeds up to make up for the losses"
+    },
+    {
+     "id": "b",
+     "label": "It falls to much lower rates"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same however crowded it gets"
+    },
+    {
+     "id": "d",
+     "label": "It stops for good and never starts again"
+    }
+   ],
+   "answer": "b",
+   "explain": "Bacterial growth is limited by nutrients and space, so binary fission occurs at much lower rates once a culture enters the stationary phase.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.binary-fission:q5"
+  },
+  {
+   "prompt": "Eukaryotic cells divide by mitosis and meiosis. What does binary fission leave out that those processes use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Copying of the cell's DNA"
+    },
+    {
+     "id": "b",
+     "label": "Separation of the DNA copies"
+    },
+    {
+     "id": "c",
+     "label": "A spindle apparatus on the cell"
+    },
+    {
+     "id": "d",
+     "label": "Growth of the two new cells"
+    }
+   ],
+   "answer": "c",
+   "explain": "Binary fission takes place without the formation of a spindle apparatus, unlike mitosis and meiosis.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.binary-fission:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B8%D0%BD%D1%84%D1%83%D0%B7%D0%BE%D1%80%D0%B8%D0%B9_Colpidium.webm/960px--%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B8%D0%BD%D1%84%D1%83%D0%B7%D0%BE%D1%80%D0%B8%D0%B9_Colpidium.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+  "alt": "Binary fission",
+  "credit": "Andrei Savitsky",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B8%D0%BD%D1%84%D1%83%D0%B7%D0%BE%D1%80%D0%B8%D0%B9_Colpidium.webm"
+ },
+ "source": {
+  "title": "Fission (biology)",
+  "url": "https://en.wikipedia.org/wiki/Fission_(biology)",
+  "revision": 1366424994
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Splitting in two",
+    "text": "Binary fission means division into two. It is how organisms in the domains Archaea and Bacteria reproduce: one living prokaryotic cell divides into two parts, and each part can grow to the size of the original. Of all the ways to reproduce asexually, it is the simplest and most common. In biology, fission more broadly is any splitting of one entity into parts that regenerate into separate entities like the original, and in multiple fission one entity produces many parts.",
+    "cites": [
+     1,
+     3,
+     4,
+     6,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Copying the DNA",
+    "text": "First, the cell's single DNA molecule copies itself, and each copy attaches to a different part of the cell membrane. As the cell begins to pull apart, the original and the copied chromosomes are separated. Since this is asexual reproduction, all the resulting cells are genetically identical, apart from random mutations. Unlike mitosis and meiosis in eukaryotic cells, binary fission forms no spindle apparatus, but, as in mitosis, the parent's identity is not lost.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "The Z ring",
+    "text": "A protein called FtsZ marks where the cell will split. It is thought to be the first protein to reach the future division site, where it assembles into a Z ring that sets the dividing plane between the two daughter cells. Two other proteins, MinC and MinD, work together to block the ring from forming, while MinE stops that blocking in the middle of the cell so FtsZ can take over there. FtsZ is homologous to β-tubulin, which builds the microtubules that eukaryotes use during mitosis. Finally a new cell wall, the septum, fully develops and the bacterium splits completely.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     18
+    ]
+   },
+   {
+    "heading": "Doubling time",
+    "text": "Binary fission is generally quick, though the speed varies between species. At 37 °C, E. coli cells typically divide about every 20 minutes. Because each new cell then divides in turn, the time one division takes is also the time a culture needs to double its number of cells, so it is called the doubling time. Some strains of Mycobacterium tuberculosis have doubling times of nearly 100 hours. Growth is limited by things like nutrients and space, and fission slows sharply once a culture enters the stationary phase of growth.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Other ways to divide",
+    "text": "Not every microbe divides with FtsZ. Studies of L-form bacteria, made so they produce no cell wall, suggest that FtsZ needs a cell wall to work. Thermoproteota have neither a cell wall nor the FtsZ machinery. They instead use a simple version of the eukaryotic ESCRT-III system, also called Cdv, which works in the middle between the two future daughter cells to make the membrane separate. Euryarchaeota, by contrast, use FtsZ as bacteria do.",
+    "cites": [
+     20,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Inside our own cells",
+    "text": "Some organelles inside eukaryotic cells also reproduce by binary fission, mitochondria among them. Mitochondrial fission happens often, even when the cell itself is not going through mitosis, and it is needed to regulate the cell's metabolism. All chloroplasts and some mitochondria outside animals use FtsZ in a bacteria-like way. Both of these organelles arose from the endosymbiosis of bacteria.",
+    "cites": [
+     5,
+     31,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-how-microbes-grow",
+   "kind": "book",
+   "title": "9.1 How Microbes Grow - Microbiology",
+   "by": "Nina Parker, Mark Schneegurt, Anh-Hue Thi Tu, Philip Lister, Brian M. Forster (OpenStax)",
+   "url": "https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow",
+   "note": "A free textbook section on bacterial growth by binary fission, the FtsZ ring and generation time.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-prokaryotic-division",
+   "kind": "book",
+   "title": "10.5 Prokaryotic Cell Division - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/10-5-prokaryotic-cell-division",
+   "note": "A free textbook section on how prokaryotes divide by binary fission, from DNA replication to the septum.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

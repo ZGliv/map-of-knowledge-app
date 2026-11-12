@@ -1,0 +1,553 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials",
+ "name": "Roots of polynomials",
+ "summary": [
+  {
+   "text": "A root of a polynomial is an input value that makes its output equal 0, and it is also called a zero.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Solving an equation is the same as finding zeros: regroup every term on the left so it reads f(x) = 0, and the solutions are the zeros of f.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "text": "Counting complex roots with their multiplicities, a polynomial has as many roots as its degree.",
+   "cites": [
+    5,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Graph meaning",
+   "value": "Real zeros are x-coordinates where the graph meets the x-axis",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Example roots",
+   "value": "f(x) = x² − 5 x + 6 has roots 2 and 3",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Root count",
+   "value": "At most the degree; equal when complex roots are counted",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Conjugate pairs",
+   "value": "Non-real roots of real-coefficient polynomials come in conjugate pairs",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Degree four or less",
+   "value": "All roots can be written algebraically in the coefficients",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Why must a real polynomial of odd degree cross the x-axis at least once?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its graph is continuous and changes sign, so it must pass through 0"
+    },
+    {
+     "id": "b",
+     "label": "Its graph always has a sharp corner at the axis"
+    },
+    {
+     "id": "c",
+     "label": "Odd numbers always have a value of 0 somewhere"
+    },
+    {
+     "id": "d",
+     "label": "Its coefficients must add up to zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "Polynomials are continuous, so a graph changing from negative to positive, which always happens with odd degree, must cross zero.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials:q1"
+  },
+  {
+   "prompt": "A function’s graph meets the x-axis at x = 2 and at x = 5. What do those two x-values have in common?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The graph is at its highest there"
+    },
+    {
+     "id": "b",
+     "label": "The function’s output is 0 at each"
+    },
+    {
+     "id": "c",
+     "label": "They are the coefficients of the function"
+    },
+    {
+     "id": "d",
+     "label": "The function is not continuous there"
+    }
+   ],
+   "answer": "b",
+   "explain": "Where a real function’s graph meets the x-axis, the function attains the value 0.",
+   "cites": [
+    1,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials:q2"
+  },
+  {
+   "prompt": "You want to solve x² = 9 − 2x. How can you turn it into a root question?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Square both sides until x disappears"
+    },
+    {
+     "id": "b",
+     "label": "Replace x with 0 and compare the sides"
+    },
+    {
+     "id": "c",
+     "label": "Move every term to one side so it reads (something) = 0"
+    },
+    {
+     "id": "d",
+     "label": "Divide both sides by x and drop what is left"
+    }
+   ],
+   "answer": "c",
+   "explain": "Any equation can be rewritten as f(x) = 0 by regrouping all terms on the left, and its solutions are then the zeros of f.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials:q3"
+  },
+  {
+   "prompt": "A polynomial with real coefficients has a root that is not real. What must be true of its other roots?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every other root is real"
+    },
+    {
+     "id": "b",
+     "label": "Its conjugate is also a root, since non-real roots pair up"
+    },
+    {
+     "id": "c",
+     "label": "The root must be repeated an even number of times"
+    },
+    {
+     "id": "d",
+     "label": "The polynomial has degree 1"
+    }
+   ],
+   "answer": "b",
+   "explain": "The non-real roots of polynomials with real coefficients come in conjugate pairs.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials:q4"
+  },
+  {
+   "prompt": "A polynomial of degree n shows fewer than n real roots on its graph. Where can the rest be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They do not exist"
+    },
+    {
+     "id": "b",
+     "label": "They are hidden in the coefficients"
+    },
+    {
+     "id": "c",
+     "label": "Some may be non-real complex roots or repeated roots"
+    },
+    {
+     "id": "d",
+     "label": "The polynomial must have been written wrong"
+    }
+   ],
+   "answer": "c",
+   "explain": "A degree-n polynomial has n complex roots counted with multiplicities, so missing ones are complex or repeated.",
+   "cites": [
+    5,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials:q5"
+  },
+  {
+   "prompt": "A friend claims every real polynomial of even degree must cross the x-axis. Why is that wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Even degree forces exactly two crossings"
+    },
+    {
+     "id": "b",
+     "label": "Even-degree graphs always sit above the axis"
+    },
+    {
+     "id": "c",
+     "label": "Only a degree of 1 can cross"
+    },
+    {
+     "id": "d",
+     "label": "Even-degree ones may have no real roots at all"
+    }
+   ],
+   "answer": "d",
+   "explain": "Real polynomials of odd degree must have a real root, whereas even ones may have none.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Zeros_of_a_function.png/960px-Zeros_of_a_function.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Roots of polynomials",
+  "credit": "Jacobolus",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Zeros_of_a_function.png"
+ },
+ "source": {
+  "title": "Zero of a function",
+  "url": "https://en.wikipedia.org/wiki/Zero_of_a_function",
+  "revision": 1383525653
+ },
+ "pack": {
+  "id": "auto-polynomials-roots-of-polynomials",
+  "title": "Where a function hits zero",
+  "question": "What is a root, and how many must a polynomial have?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Polynomials",
+   "Roots of polynomials"
+  ],
+  "hue": 57,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Zeros_of_a_function.png/960px-Zeros_of_a_function.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Roots of polynomials",
+    "credit": "Jacobolus · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zeros_of_a_function.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Where a function hits zero",
+    "hook": "Every equation you have ever solved was secretly a hunt for the spots where something equals nothing."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-polynomials-roots-of-polynomials:1",
+    "transfer": false,
+    "prompt": "The polynomial f(x) = x² − 5 x + 6 equals (x − 2) (x − 3). Which inputs make its output 0?",
+    "explain": "f (2) = 2² − 5 × 2 + 6 = 0 and f (3) = 3² − 5 × 3 + 6 = 0.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "2 and 3"
+       },
+       {
+        "id": "b",
+        "label": "−2 and −3",
+        "feedback": "It tempts because of the minus signs in the factors, but x = −2 gives a nonzero output."
+       },
+       {
+        "id": "c",
+        "label": "5 and 6",
+        "feedback": "It tempts because those numbers are in the polynomial, but they are coefficients, not roots."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-roots-of-polynomials:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "For a polynomial with real coefficients, sort each degree by what is guaranteed.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Degree 3"
+     },
+     {
+      "id": "i1",
+      "label": "Degree 5"
+     },
+     {
+      "id": "i2",
+      "label": "Degree 2"
+     },
+     {
+      "id": "i3",
+      "label": "Degree 4"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Must have a real root"
+     },
+     {
+      "id": "g1",
+      "label": "May have no real root"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Odd degree forces at least one real root, while even degree may have none."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-roots-of-polynomials:3",
+    "transfer": true,
+    "prompt": "Match each idea to what it says.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "x-intercept"
+     },
+     {
+      "id": "l1",
+      "label": "Fundamental theorem of algebra"
+     },
+     {
+      "id": "l2",
+      "label": "Vieta’s formulas"
+     },
+     {
+      "id": "l3",
+      "label": "Newton’s method"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "A way to compute accurate approximations of roots"
+     },
+     {
+      "id": "r1",
+      "label": "Degree n means n complex roots with multiplicities"
+     },
+     {
+      "id": "r2",
+      "label": "Coefficients relate to sums and products of roots"
+     },
+     {
+      "id": "r0",
+      "label": "A point where the graph meets the x-axis"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each is a tool or name used for locating or counting roots."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-polynomials-roots-of-polynomials:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A real polynomial has degree 4."
+     },
+     {
+      "id": "b",
+      "text": "Counting complex roots with their multiplicities, it has 4 roots."
+     },
+     {
+      "id": "c",
+      "text": "Every one of those roots is a point where the graph meets the x-axis."
+     },
+     {
+      "id": "d",
+      "text": "Even so, a polynomial of even degree may have none of its roots on the real line."
+     }
+    ],
+    "answer": "c",
+    "explain": "Only real roots show up where the graph meets the x-axis, and even-degree polynomials may have no real roots at all."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A root is an input that makes a polynomial’s output 0, and counting complex roots with repeats there are as many as the degree.",
+    "connections": [
+     {
+      "title": "Vieta's formulas",
+      "place": "Roots of polynomials",
+      "node": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.vieta-s-formulas"
+     },
+     {
+      "title": "Cubic equation",
+      "place": "Roots of polynomials",
+      "node": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation"
+     },
+     {
+      "title": "Abel-Ruffini theorem",
+      "place": "Roots of polynomials",
+      "node": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.abel-ruffini-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "f (2) = 2² − 5 × 2 + 6 = 0 and f (3) = 3² − 5 × 3 + 6 = 0.",
+    "source": "Wikipedia sentences 6"
+   },
+   {
+    "claim": "Odd degree forces at least one real root, while even degree may have none.",
+    "source": "Wikipedia sentences 12, 13"
+   },
+   {
+    "claim": "Each is a tool or name used for locating or counting roots.",
+    "source": "Wikipedia sentences 7, 8, 15, 17, 18"
+   },
+   {
+    "claim": "Only real roots show up where the graph meets the x-axis, and even-degree polynomials may have no real roots at all.",
+    "source": "Wikipedia sentences 5, 7, 13, 15"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Inputs that give zero",
+    "text": "A zero of a function, also called a root, is an input that makes the output equal 0. Put another way, it is a solution of the equation f(x) = 0. A root of a polynomial is simply a zero of the matching polynomial function. For example, f(x) = x² − 5 x + 6 factors as (x − 2) (x − 3), and its roots are 2 and 3, since f(2) and f(3) both come out to 0.",
+    "cites": [
+     1,
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "Where a graph meets the axis",
+    "text": "When a function takes real numbers to real numbers, you can see its zeros on its graph. They are the x-coordinates of the points where the graph touches the x-axis. Such a point (x, 0) is also called an x-intercept.",
+    "cites": [
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Every equation is a root problem",
+    "text": "Any equation in an unknown x can be rearranged as f(x) = 0 by moving all of its terms to the left-hand side. The solutions of the equation are then exactly the zeros of f. So studying the zeros of functions and studying the solutions of equations are one and the same task.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "How many roots",
+    "text": "The fundamental theorem of algebra says a non-zero polynomial has at most as many roots as its degree. If you count complex roots, each as many times as its multiplicity, the number of roots equals the degree exactly. When the coefficients are real, any non-real roots come in conjugate pairs.",
+    "cites": [
+     5,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Odd and even degree",
+    "text": "If a real polynomial's degree is odd, the count of its real roots is odd too, counting multiplicities; if the degree is even, the count is even. So an odd-degree real polynomial always has at least one real root, but an even-degree one may have none. The reason is the intermediate value theorem: polynomial functions are continuous, so a value that changes from negative to positive must pass through zero on the way.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Finding roots in practice",
+    "text": "Vieta's formulas tie a polynomial's coefficients to the sums and products of its roots. Every polynomial of degree 4 or less can have its roots written out algebraically from its coefficients. For approximating roots there are many methods, the best being Newton's method, and polynomials have their own faster algorithms that can find all roots or all real roots.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Sets of zeros",
+    "text": "Gather every zero of a function together and you get its zero set. In algebraic geometry, an affine algebraic set is where the zero sets of several polynomials overlap, and a zero set there is sometimes called a zero locus. The unit m-sphere in R ^(m+1), for example, is the zero set of the function f(x) = ‖ x ‖² − 1.",
+    "cites": [
+     21,
+     25,
+     26,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-zeros-of-polynomials",
+   "kind": "book",
+   "title": "5.5 Zeros of Polynomial Functions - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/5-5-zeros-of-polynomial-functions",
+   "note": "A free textbook section on finding the zeros of polynomials: rational zeros, the Factor Theorem and more.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "numberphile-fta",
+   "kind": "video",
+   "title": "Fundamental Theorem of Algebra",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=shEk8sz1oOw",
+   "note": "David Eisenbud talks through the Fundamental Theorem of Algebra, which guarantees polynomials have roots."
+  }
+ ]
+}

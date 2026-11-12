@@ -1,0 +1,306 @@
+{
+ "checker": "Independent adversarial checker, round 2 (Claude Opus 5.5 subagent; did not write or edit these reels)",
+ "checkedAt": "2026-10-23T19:13:50Z",
+ "units": [
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"Hartog left behind a pewter dinner plate, nailed to a post\"; \"On 25 October 1616, he landed at Cape Inscription\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"On 25 October 1616, he landed at Cape Inscription on the very northernmost tip of Dirk Hartog Island, in Shark Bay.\"; [Wikipedia: Dirk Hartog] \"he affixed a pewter plate to a post\". Commons metadata for Ac_dirkhartogplate.jpg puts it in \"Rijksmuseum Amsterdam in 2004\" and \"Plaques in the Netherlands\", and the image shows the plate in a Rijksmuseum case, so \"This is the pewter plate he left there\" shows the original, not a replica.",
+   "note": "The spoken line matches the caption (\"the twenty-fifth of October, sixteen sixteen\").",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"Eighty-one years later, in 1697, the Dutch sea captain Willem de Vlamingh also reached the island and discovered Hartog's pewter dish\"",
+   "note": "The spoken line matches the caption; \"Vlahming\" is only a respelling for the voice.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate, pinned] \"He removed it and replaced it with another plate which was attached to a new post. ... The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\"",
+   "note": "The caption is right, but its claim (rijks) quotes only the second sentence, so \"He put up a new plate\" has no quoted support. The claim.rijks fix covers this.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"the oldest-known artefact of European exploration in Australia still in existence\"; [Wikipedia: Dirk Hartog Island] \"Known as Wirruwana by the traditional custodians of the island, the Malgana people, the island is named after Dirk Hartog\"",
+   "note": "The spoken line matches the caption. \"Wirroo-wahna\" is only a guide for the voice; nothing pinned confirms the Malgana pronunciation.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate] \"nailed to a post\"; \"The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\"",
+   "note": "The key is right: the Rijksmuseum is in Amsterdam. Both wrong choices are wrong, because the plate on the island was removed in 1697 and the original survives.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Hartog Plate, pinned] \"He removed it and replaced it with another plate\"; \"still kept in the Rijksmuseum Amsterdam\"",
+   "note": "\"Removed it in 1697\" is in the pinned text, but no claim quote covers it; the claim.rijks fix adds it.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-a-dinner-plate-from-1616/claim.rijks",
+   "verdict": "unsupported",
+   "evidence": "Quote \"The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam.\" is verbatim in Wikipedia: Hartog Plate, but it says nothing about a replacement plate or a copied inscription. Those facts are in the surrounding sentences: \"He removed it and replaced it with another plate which was attached to a new post.\" and \"De Vlamingh's replacement dish contains all of the text of Hartog's original plate\".",
+   "note": "Round 1's fix kept the first half of the claim (\"Vlamingh replaced it with his own plate copying Hartog's inscription\") but swapped in a quote that supports only the second half. The fact is true and in the pinned source; the quote does not show it. f4 (\"He put up a new plate\") and the takeaway (\"removed it\") depend on this half.",
+   "fix": "Quote the whole run, which is verbatim in the pinned text: \"He removed it and replaced it with another plate which was attached to a new post. The new post was made of a cypress pine trunk taken from Rottnest Island. The original dish was returned to the Netherlands, where it is still kept in the Rijksmuseum Amsterdam. De Vlamingh's replacement dish contains all of the text of Hartog's original plate\"",
+   "resolved": "Quote extended to the whole Hartog Plate passage (removed, replaced, original returned, Rijksmuseum, replacement text)."
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: Ediacaran_ecosystem_diorama_NMNH.jpg] \"Diorama of Ediacaran ecosystem, with abundant Charnia fronds, at the Smithsonian National Museum of Natural History\". Viewed the image: a crowded sea-floor model of feather-shaped fronds in several forms (stalked pink, unstalked orange, violet), so \"many of them Charnia\" is the right hedge.",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-frond-in-charnwood-forest/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Ediacaran biota] \"found in England's Charnwood Forest first by a 15 year-old girl in 1956 (Tina Negus, who was not believed)\"",
+   "note": "The spoken line matches the caption (\"nineteen fifty-six\", \"fifteen-year-old\"); \"Neegus\" is only a respelling for the voice.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: George III] \"at the age of 22, George succeeded to the throne when his grandfather George II died suddenly on 25 October 1760, at age 76.\" He was born 4 June 1738, so he was 22.",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f3",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: George III] \"He was the first monarch of the House of Hanover who was born in Great Britain, spoke English as his first language\". The source says House of Hanover, not family. His direct ancestor James VI and I (James I, then Elizabeth of Bohemia, Sophia, George I, George II, Frederick, George III) was a king born at Edinburgh Castle in 1566.",
+   "note": "\"The first king of his family born in Britain\" is false if \"family\" means his bloodline: James VI and I, his great-great-great-great-grandfather, was a king born in Britain. Only \"Hanoverian\" (the royal house) makes it true. The spoken line repeats the same wording, and the takeaway (\"The first of his family born in Britain\") has the same problem.",
+   "fix": "Caption: \"George III was the first Hanoverian king born in Britain, and the first with English as his first language.\" Spoken: \"George the Third was the first Hanoverian king born in Britain, and the first with English as his first language.\" Takeaway: \"...The first Hanoverian king born in Britain, he never visited Hanover.\"",
+   "resolved": "Now \"the first Hanoverian king born in Britain\"; the spoken line and takeaway match."
+  },
+  {
+   "id": "2026-10-25-the-king-who-never-saw-hanover/f5",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: George III] \"proclaimed: \\\"Born and educated in this country, I glory in the name of Britain.\\\"\" Against that, the printed 1760 speech reads \"I glory in the Name of Briton\" (Sotheby's 2020 lot, broadside \"His Majesty's Most Gracious Speech ... 18 November 1760\"), and the Adams Papers editors (Massachusetts Historical Society, ADMS-01-01-02-0006-0002-0003, n.1) give \"Born and educated in this country, I glory in the name of Briton.\"",
+   "note": "The caption puts the king's words in quotation marks, but the speech as printed in 1760 says \"Briton\", not \"Britain\". The pinned Wikipedia sentence uses the modernised form. Spoken aloud the two words sound alike, so the voice line is fine; the written quote is not.",
+   "fix": "Caption: In his first speech to Parliament as king, he declared: \"I glory in the name of Briton.\" (cite the 1760 printed speech). If only the pinned source can be used, drop the quotation marks and paraphrase: \"In his first speech to Parliament as king, he said he gloried in being British.\"",
+   "resolved": "Now \"he said he gloried in being British.\" No quotation marks, so the \"Britain\"/\"Briton\" question does not arise."
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"have allowed direct observation of genome evolution over more than 65,000 generations in the laboratory\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: E_coli_at_10000x,_original.jpg] \"Low-temperature electron micrograph of a cluster of E. coli bacteria, magnified 10,000 times. Each individual bacterium is oblong shaped.\" Viewed: a clump of rod-shaped cells.",
+   "note": "The spoken line matches the caption (\"ten thousand times\").",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"The long-term evolution experiments using E. coli, begun by Richard Lenski in 1988\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f3",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Escherichia coli] \"more than 65,000 generations\"; but Wikipedia: E. coli long-term evolution experiment says \"In August 2024, the LTEE populations passed 80,000 generations in the Barrick lab.\" MSU Today (Nov 2025) says the experiment was continued in Texas \"to 82,000 generations\" before moving back to MSU in 2025.",
+   "note": "\"Has now followed more than 65,000\" is literally true, but \"now\" presents a figure about ten years old as current, when the count passed 80,000 in August 2024. The spoken line matches the caption. The experiment has been run by Jeffrey Barrick's lab since 2022, so \"his experiment\" means the one Lenski founded.",
+   "fix": "Best: pin Wikipedia: E. coli long-term evolution experiment and say \"His experiment has now passed 80,000 generations.\" Smallest: drop \"now\", making it \"His experiment has followed more than 65,000 generations.\" The prediction key \"More than 65,000\" stays right either way.",
+   "resolved": "\"now\" dropped: \"His experiment has followed more than 65,000 generations.\" Frames reordered: the micrograph already leads an evergreen reel, so the life-cycle diagram opens it."
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"Under favourable conditions, it takes as little as 20 minutes to reproduce.\"; \"E. coli reproduces by binary fission\"; [Commons: Life_cycle_of_Escherichia_coli.png] \"During cell division, two new poles are formed, one in each of the progeny cells\"",
+   "note": "The spoken line matches the caption (\"twenty minutes\").",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"E. coli typically do not have the ability to grow aerobically with citrate as a carbon source, which is used as a diagnostic criterion with which to differentiate E. coli from other, closely, related bacteria\"; \"some hallmarks of microbial speciation\"",
+   "note": "The spoken line matches the caption. \"Normally\" carries the source's \"typically\", and \"some hallmarks\" keeps the hedge.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Escherichia coli] \"over more than 65,000 generations\"; \"one population of E. coli unexpectedly evolved the ability to aerobically metabolize citrate\"",
+   "note": "\"Passed 65,000\" is true (it passed 80,000 in August 2024); there is no \"now\" to make it stale.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/claim.diagram",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the pinned Commons text, including the space in \"Escherichia coli . Original caption\". Commons ImageDescription: \"Schematic diagram of the life cycle of Escherichia coli.\" Viewed: panel A shows a rod cell growing, pinching and dividing across two generations.",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/media.m2",
+   "verdict": "supported",
+   "evidence": "Commons API, File:E_coli_at_10000x,_original.jpg: Artist \"Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, ARS, EMU.\"; date 2005-03; Public domain (PD USDA ARS); 2598x1889, which matches media.json. Viewed: a clump of salmon-pink rods rising from a rough, granular surface on black, with a 1 µm scale bar.",
+   "note": "The alt text and credit are accurate. The credit leaves out that Pooley did the colouring, which is acceptable.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-evolution-you-can-watch/media.m1",
+   "verdict": "supported",
+   "evidence": "Commons API, File:Life_cycle_of_Escherichia_coli.png: Credit \"Stewart EJ, Madden R, Paul G, Taddei F (2005) ... PLoS Biol 3 (2): e45\"; published 1 February 2005; CC BY 2.5; 1252x1000, which matches media.json. Viewed: panel A, a schematic of a rod cell growing and dividing with poles drawn red (old) and blue (new); panel B on the right, time-lapse microscope images of a dividing cell.",
+   "note": "The alt text is accurate. The credit names the authors, journal and year, which is enough attribution for CC BY 2.5 next to the licence and link.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1 (Tchaikovsky)] \"was composed by Pyotr Ilyich Tchaikovsky between November 1874 and February 1875.\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1 (Tchaikovsky)] \"\\\"I shall not alter a single note,\\\" I answered\"; \"though he did not change the work and finished orchestrating it the following month\"; \"Tchaikovsky next approached German pianist Hans von Bülow\"",
+   "note": "The spoken line matches the caption. \"And turned to\" only gives the order of events and does not claim a reason, which suits the source's \"it is not known why\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1 (Tchaikovsky)] \"Bülow was preparing to go on a tour of the United States. This meant that the concerto would be premiered half a world away from Moscow.\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-half-a-world-from-moscow/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Piano Concerto No. 1 (Tchaikovsky)] \"The first performance of the original version took place on October 25, 1875, in Boston, conducted by Benjamin Johnson Lang with Bülow as soloist.\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/title",
+   "verdict": "supported",
+   "evidence": "[Commons: Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f1",
+   "verdict": "supported",
+   "evidence": "[Commons: Origin_of_Species.svg] \"The letters A–L represent distinct descents.\" \"The other descents have gone extinct.\" Darwin, Origin 1st ed. (Gutenberg #1228): \"very few of the original species will have transmitted offspring to the fourteen-thousandth generation\".",
+   "note": "This describes the picture, and the description is accurate.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f2",
+   "verdict": "imprecise",
+   "evidence": "Caption: \"In Darwin's example, each level up the page stands for 1,000 generations.\" Spoken: \"Each level up the page stands for a thousand generations.\"",
+   "note": "The spoken line is stale. It drops the \"In Darwin's example\" hedge that round 1 added to the caption, so the voice still states 1,000 generations per level as a fixed scale. Darwin himself wrote in the 6th edition (1872) that each line \"may represent a million or more generations\".",
+   "fix": "Spoken: \"Each letter is a line of descent. In Darwin's example, each level up the page stands for a thousand generations.\"",
+   "resolved": "Spoken line now includes \"In Darwin's example\". Reel restructured: it opens on the title page (the diagram already leads an evergreen reel), the prediction asks how many illustrations, and it is re-tagged to Tree thinking (E01), away from the evergreen E12 reel that opens on the same diagram."
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"first published on Thursday 24 November 1859, priced at fifteen shillings with a first printing of 1250 copies\"; [Commons: Origin_of_Species_title_page.jpg] \"title page ... of the 1859 Murray edition\"",
+   "note": "The spoken line matches the caption (\"twelve hundred and fifty\").",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: On the Origin of Species] \"During Darwin's lifetime the book went through six editions, with cumulative changes and revisions to deal with counter-arguments raised.\"; \"(this was the first edition in which he used the word \\\"evolution\\\"\"; \"The sixth edition was published by Murray on 19 February 1872\"",
+   "note": "\"Only the sixth\" follows because the sixth was the first edition to use the word and also the last in Darwin's lifetime. The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/takeaway",
+   "verdict": "supported",
+   "evidence": "[Commons: Origin_of_Species.svg] \"The only illustration ... showing the divergence of species\"; [Wikipedia: On the Origin of Species] \"the first edition in which he used the word \\\"evolution\\\"\"; \"19 February 1872\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.levels",
+   "verdict": "supported",
+   "evidence": "Quote \"Each horizontal line represents 1000 generations.\" is verbatim in the pinned Commons text.",
+   "note": "The claim's \"In Darwin's example\" is more cautious than the quote, and Darwin's own text backs it.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/claim.extinct",
+   "verdict": "supported",
+   "evidence": "Quote is verbatim in the pinned Commons text. It names 4 surviving descents (A, I, E, F) of the 11 letters (A–L, with no J), so 7 die out, which is most. At level XIV only A, I and F survive, per Origin 1st ed.: \"only one (F) ... has transmitted descendants to this late stage\".",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/media.m3",
+   "verdict": "imprecise",
+   "evidence": "Commons API, File:Charles_Darwin_seated.jpg: Artist \"Henry Maull (1829–1914) and John Fox (1832–1907) (Maull & Fox)\"; circa 1854; Public domain; 2448x3456 (matches media.json); source Pearson, Life ... of Francis Galton (1914). Darwin Correspondence Project portrait catalogue 3.3, \"Maull and Polyblank photo 2\": the three-quarter seated pose with \"checked necktie, waistcoat and trousers\" is by Henry Maull and George Henry Polyblank, \"undocumented; probably c.1860\". It notes \"The firm was later renamed Maull and Fox (c.1878-1885), when the photograph was reissued\", and that Pearson gives Darwin as \"aged 51\" (1860). Viewed the image: it matches that description, with the signature \"Charles Darwin\" below.",
+   "note": "The alt text is accurate, and the credit matches the Commons page. Historically, though, the credit is wrong on both counts: Maull & Fox is the name of the later firm that reissued the print, and c. 1854 is the \"1854?\" guess from an 1887 caption. The standard catalogue gives Maull & Polyblank, probably c. 1860. The licence is unaffected.",
+   "fix": "Credit: \"Maull & Polyblank, c. 1860\". If credits must mirror Commons, keep \"Maull & Fox\" but date it \"c. 1860\", or leave the credit and correct the Commons page.",
+   "resolved": "Credit now \"Maull & Polyblank, c. 1860\"."
+  },
+  {
+   "id": "2026-10-25-the-only-picture-in-the-origin/place",
+   "verdict": "supported",
+   "evidence": "src/core/evolution.ts: E12 how-we-know = \"Evolution is a tested scientific theory, and we can say how we know.\" src/explore/reels/evolution-e12.ts describes the E12 pack as \"How we found out ... plus Darwin's own diagram from the Origin\". scripts/reels/placeTable.mjs maps /on the origin of species/ to how-we-know.",
+   "note": "The story of the book, its one diagram and the arrival of the word \"evolution\" fits E12. Two side notes: (1) story/subject still read \"place:evolution-e07:11...\" / \"claim:evolution-e07:11\" after the re-tag. That is only provenance and the dedupe key, but it no longer matches packId evolution-e12. (2) E12 already has e12-groups-inside-groups, whose first frame says \"The only diagram in Darwin's Origin of Species\", so a reader at this place sees that fact twice.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f1",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"It was inaugurated on 25 October 1868.\"; \"The cathedral is set upon a hillside on the Katajanokka peninsula overlooking the city.\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"designed by the Russian architect Aleksey Gornostayev (1808–1862). The cathedral was built after his death in 1862–1868\"; [Wikipedia: Aleksey Gornostayev] \"(February 18, 1808 – December 18, 1862)\"; \"His last work, Orthodox Uspenski Cathedral in Helsinki, was completed after his death.\"; [Commons: Karl_Brullov_15.jpg] \"Портрет А. М. Горностаева. 1834\" (A. M. = Alexey Maksimovich)",
+   "note": "The spoken line matches the caption. \"Gorno-stah-yev\" puts the stress on the right syllable (Горноста́ев).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"700 000 bricks were brought over in barges from the Bomarsund Fortress that had been demolished in the Crimean War.\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Uspenski Cathedral] \"On the back of the cathedral, there is a plaque commemorating Russian Emperor Alexander II, who was the sovereign of the Grand Duchy of Finland during the cathedral's construction.\"",
+   "note": "The spoken line matches the caption.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-25-bricks-from-a-demolished-fortress/media.m5",
+   "verdict": "supported",
+   "evidence": "Commons API: Artist \"Photochrom Print Collection\"; date \"between 1890 and 1900\"; Library of Congress LCCN 2001697412; Public domain (PD US expired); 3401x2508, which matches media.json. Viewed: a tinted photochrom of the red-brick cathedral with gilded onion cupolas on a rocky rise behind a stone retaining wall, with a stone embankment and water in front and a Cyrillic caption along the bottom.",
+   "note": "The alt text and credit are accurate. \"Photochrom Print Collection\" is the Library of Congress collection name rather than a maker, but it is exactly how Commons and the Library of Congress credit the print.",
+   "fix": ""
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What a finite field is",
+   "text": "A finite field, also called a Galois field after Évariste Galois, is a field that has finitely many elements. Like every field, it is a set where you can add, subtract, multiply and divide (except by zero), and these operations obey the field axioms. The number of its elements is called its order, or sometimes its size.",
+   "cites": [
+    1,
+    2,
+    8,
+    9
+   ]
+  },
+  {
+   "heading": "Which sizes are possible",
+   "text": "A finite field of order q exists exactly when q is a prime power pᵏ, with p a prime number and k a positive integer. All fields of the same order are isomorphic, so they can be treated as one field and written 𝔽_q or GF(q), where GF stands for Galois field. In a field of order pᵏ, adding together p copies of any element always gives zero, so the characteristic of the field is p.",
+   "cites": [
+    10,
+    11,
+    12,
+    14
+   ]
+  },
+  {
+   "heading": "The simplest examples",
+   "text": "For each prime p, the integers modulo p form a field with p elements, called the prime field of order p. Its elements can be written as the whole numbers 0 up to p − 1. To add, subtract or multiply, you do that same operation on ordinary integers and keep the remainder after dividing by p. Inverses for multiplication can be found with the extended Euclidean algorithm.",
+   "cites": [
+    3,
+    18,
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "heading": "Structure inside",
+   "text": "The nonzero elements form a group under multiplication, and that group is cyclic: every nonzero element is a power of a single element, called a primitive element. A field generally has several primitive elements. Every element of a field of order q is a root of the polynomial X^q − X. In characteristic p the rule (x + y)ᵖ = xᵖ + yᵖ also holds, sometimes nicknamed the freshman's dream, since all the middle binomial coefficients are multiples of p.",
+   "cites": [
+    15,
+    16,
+    17,
+    27,
+    28
+   ]
+  },
+  {
+   "heading": "Fields inside fields",
+   "text": "GF(pⁿ) contains a copy of GF(pᵐ) exactly when m divides n, and in that case the smaller field is unique. Any finite extension of a finite field is both separable and simple: the larger field comes from the smaller one by adding a single element whose minimal polynomial is separable. In a piece of jargon, finite fields are perfect.",
+   "cites": [
+    31,
+    32,
+    33,
+    42
+   ]
+  },
+  {
+   "heading": "Building and using them",
+   "text": "To construct GF(q) with q = pⁿ and n > 1, one begins by choosing an irreducible polynomial of degree n with coefficients in GF(p); such a polynomial always exists. Finite fields are basic to number theory, algebraic geometry, Galois theory and finite geometry, and also to cryptography and coding theory.",
+   "cites": [
+    7,
+    44,
+    45
+   ]
+  }
+ ]
+}

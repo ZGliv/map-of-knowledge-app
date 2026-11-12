@@ -1,0 +1,341 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane",
+ "name": "Complex plane",
+ "summary": [
+  {
+   "text": "The complex plane is a flat grid where each complex number is a point, with the real numbers along the horizontal axis and the imaginary numbers along the vertical axis.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Complex numbers add on this plane like vectors, and multiplying two of them multiplies their sizes while adding their angles.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Multiplying by a complex number whose size is exactly one acts as a pure rotation.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "The Argand plane or the Gauss plane",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "First described by",
+   "value": "Caspar Wessel, though the diagram is named after Argand",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Positive direction",
+   "value": "Counterclockwise is the conventional positive direction around a curve",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Point at infinity",
+   "value": "Adding one extra point gives the extended complex plane",
+   "cites": [
+    32,
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You plot a complex number whose real part is 3 and whose imaginary part is 2. From the origin, how do you move to its spot?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two steps along the real axis, then three up"
+    },
+    {
+     "id": "b",
+     "label": "Three steps straight up the page, then two across"
+    },
+    {
+     "id": "c",
+     "label": "Three steps along the real axis, then two up"
+    },
+    {
+     "id": "d",
+     "label": "Five steps along a single diagonal"
+    }
+   ],
+   "answer": "c",
+   "explain": "The horizontal axis holds the real numbers and the vertical axis holds the imaginary numbers.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane:q1"
+  },
+  {
+   "prompt": "When two complex numbers are added on the plane, which ordinary operation does the result mimic?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Adding two vectors"
+    },
+    {
+     "id": "b",
+     "label": "Multiplying two lengths"
+    },
+    {
+     "id": "c",
+     "label": "Averaging the two points"
+    },
+    {
+     "id": "d",
+     "label": "Keeping the longer arrow"
+    }
+   ],
+   "answer": "a",
+   "explain": "Under addition, complex numbers add like vectors.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane:q2"
+  },
+  {
+   "prompt": "On the complex plane, one number has size 2 and angle 30 degrees, another has size 3 and angle 40 degrees. What are the size and angle of their product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Size 5, angle 70 degrees"
+    },
+    {
+     "id": "b",
+     "label": "Size 6, angle 1,200 degrees"
+    },
+    {
+     "id": "c",
+     "label": "Size 1.5, angle 10 degrees"
+    },
+    {
+     "id": "d",
+     "label": "Size 6, angle 70 degrees"
+    }
+   ],
+   "answer": "d",
+   "explain": "The size of a product is the product of the sizes, and the angle of a product is the sum of the angles.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane:q3"
+  },
+  {
+   "prompt": "Which kind of complex number should you multiply by if you want every point to turn around without any stretching or shrinking?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Any number whose real part is positive"
+    },
+    {
+     "id": "b",
+     "label": "A number whose absolute value is 1"
+    },
+    {
+     "id": "c",
+     "label": "Any number lying on the imaginary axis"
+    },
+    {
+     "id": "d",
+     "label": "A real number larger than 1"
+    }
+   ],
+   "answer": "b",
+   "explain": "Multiplying sizes leaves a size of 1 unchanged, and the angles add, so multiplication by a number of modulus 1 acts as a rotation.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane:q4"
+  },
+  {
+   "prompt": "The plane is wrapped onto a sphere by drawing a straight line from each point to the north pole. Where does a point very near the origin end up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In the northern hemisphere, near the north pole"
+    },
+    {
+     "id": "b",
+     "label": "On the equator, along the unit circle"
+    },
+    {
+     "id": "c",
+     "label": "In the southern hemisphere, near the south pole"
+    },
+    {
+     "id": "d",
+     "label": "At the north pole itself"
+    }
+   ],
+   "answer": "c",
+   "explain": "The origin goes to the south pole, and the whole interior of the unit circle lands on the southern hemisphere.",
+   "cites": [
+    25,
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane:q5"
+  },
+  {
+   "prompt": "On the sphere picture, the north pole has no partner in the plane. How is the one-to-one match completed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One extra point, the point at infinity, joins the plane"
+    },
+    {
+     "id": "b",
+     "label": "The north pole is moved down onto the origin"
+    },
+    {
+     "id": "c",
+     "label": "Two points of the plane are glued together"
+    },
+    {
+     "id": "d",
+     "label": "The equator is cut out of the sphere"
+    }
+   ],
+   "answer": "a",
+   "explain": "The point at infinity is added to the plane and identified with the north pole, giving the extended complex plane.",
+   "cites": [
+    31,
+    32,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.complex-numbers.complex-plane:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Imaginarynumber2.svg/960px-Imaginarynumber2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Complex plane",
+  "credit": "derivative work: Pbroks13 (talk) Imaginarynumber2.PNG: Mets501",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Imaginarynumber2.svg"
+ },
+ "source": {
+  "title": "Complex plane",
+  "url": "https://en.wikipedia.org/wiki/Complex_plane",
+  "revision": 1383524848
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A map for complex numbers",
+    "text": "The complex plane is a flat surface on which every complex number gets its own point. Its horizontal line, called the real axis, holds the real numbers. Its vertical line, called the imaginary axis, holds the imaginary numbers. A drawing of complex numbers placed this way is called an Argand diagram, and the plane itself also goes by the Argand plane or the Gauss plane.",
+    "cites": [
+     1,
+     6,
+     16
+    ]
+   },
+   {
+    "heading": "Seeing arithmetic as movement",
+    "text": "The plane lets you treat complex numbers as geometry instead of only symbols. Adding two of them works just like adding vectors. Multiplying is easier to follow in polar form, where each number is described by a size, called its modulus, and an angle, called its argument. The modulus of a product is the two moduli multiplied together, and its argument is the two arguments added. So multiplying by a number whose modulus is 1 acts as a pure rotation.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "One point, many angles",
+    "text": "The argument is usually kept between 0 and 2π. Without that limit, a single number has many arguments: if θ is one of them, then θ + 2nπ also works for any non-zero whole number n. This happens because the complex exponential function repeats itself, with period 2πi. Lengths and angles measured on the plane stand for real numbers, and in particular the argument is a real number rather than a physical angle.",
+    "cites": [
+     7,
+     8,
+     9,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Which way round",
+    "text": "A large part of complex analysis is the theory of contour integration. In that setting, the direction in which you go around a closed curve matters: going round the other way multiplies the integral by −1. By convention, counterclockwise counts as the positive direction. On the unit circle, that means starting at 1, rising through i, passing −1, dropping through −i, and arriving back at 1.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Wrapping the plane onto a sphere",
+    "text": "It can help to picture the plane as the surface of a sphere. Take a sphere of radius 1 centred on the origin, with its equator lying on the unit circle and its north pole above the plane. A straight line from the north pole to any point of the plane meets the sphere in exactly one other point, and this pairing is called stereographic projection. The origin goes to the south pole, the inside of the unit circle fills the southern hemisphere, and the unit circle itself becomes the equator. Everything outside the unit circle fills the northern hemisphere, except the north pole.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     31
+    ]
+   },
+   {
+    "heading": "The point at infinity",
+    "text": "That leaves the north pole with no partner in the plane. To complete the pairing, one extra point, called the point at infinity, is added and matched with the north pole. The plane together with this point is known as the extended complex plane. Under the projection, lines of latitude become circles centred on the origin, and lines of longitude become straight lines through the origin.",
+    "cites": [
+     31,
+     32,
+     33,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Who drew it first",
+    "text": "The Argand diagram is named after Jean-Robert Argand, who lived from 1768 to 1822. Yet the Norwegian–Danish land surveyor and mathematician Caspar Wessel, who lived from 1745 to 1818, described such plots before him.",
+    "cites": [
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "orloff-complex-plane",
+   "kind": "book",
+   "title": "1: Complex Algebra and the Complex Plane - Complex Variables with Applications (Orloff)",
+   "by": "Jeremy Orloff",
+   "url": "https://math.libretexts.org/Bookshelves/Analysis/Complex_Variables_with_Applications_(Orloff)/01%3A_Complex_Algebra_and_the_Complex_Plane",
+   "note": "A free textbook chapter on complex arithmetic and picturing complex numbers as points in the plane.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-polar-form",
+   "kind": "book",
+   "title": "8.5 Polar Form of Complex Numbers - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+   "note": "A free textbook section on plotting complex numbers in the plane and writing them by size and angle.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

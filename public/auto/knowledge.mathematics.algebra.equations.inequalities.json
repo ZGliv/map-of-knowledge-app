@@ -1,0 +1,550 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.inequalities",
+ "name": "Inequalities",
+ "summary": [
+  {
+   "text": "An inequality is a relation that makes a non-equal comparison between two numbers or other mathematical expressions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its main types are less than and greater than, written < and >, and in either case a is not equal to b.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Adding or subtracting the same number preserves an inequality, while multiplying or dividing by a negative constant reverses it.",
+   "cites": [
+    22,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Strict symbols",
+   "value": "< and > mean strictly less or strictly greater",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "label": "Non-strict symbols",
+   "value": "a ≤ b means a is at most b",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Wallis, 1670",
+   "value": "Used a single horizontal bar above < and >",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Bouguer, 1734",
+   "value": "≦ and ≧ first appeared in his work",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Chained form",
+   "value": "a < b < c stands for a < b and b < c",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You know that 2 < 5. You multiply both sides by −3. What is true afterwards?",
+   "options": [
+    {
+     "id": "a",
+     "label": "−6 < −15"
+    },
+    {
+     "id": "b",
+     "label": "−6 > −15"
+    },
+    {
+     "id": "c",
+     "label": "−6 = −15"
+    },
+    {
+     "id": "d",
+     "label": "6 < 15"
+    }
+   ],
+   "answer": "b",
+   "explain": "Multiplying by a negative constant reverses the inequality relation, so the sign flips.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities:q1"
+  },
+  {
+   "prompt": "You know that a < b. A friend adds 7 to both sides. What happens to the relation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It reverses: a + 7 > b + 7"
+    },
+    {
+     "id": "b",
+     "label": "It becomes an equality"
+    },
+    {
+     "id": "c",
+     "label": "It no longer says anything"
+    },
+    {
+     "id": "d",
+     "label": "It still holds: a + 7 < b + 7"
+    }
+   ],
+   "answer": "d",
+   "explain": "The inequality relation is preserved under addition (or subtraction).",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities:q2"
+  },
+  {
+   "prompt": "A sign says a < b. Which statement says exactly the same thing from the other side?",
+   "options": [
+    {
+     "id": "a",
+     "label": "b > a"
+    },
+    {
+     "id": "b",
+     "label": "b < a"
+    },
+    {
+     "id": "c",
+     "label": "a > b"
+    },
+    {
+     "id": "d",
+     "label": "b = a"
+    }
+   ],
+   "answer": "a",
+   "explain": "Reversing the order of the two quantities while flipping the inequality symbol gives an equivalent statement.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities:q3"
+  },
+  {
+   "prompt": "A friend says a ≠ b tells you that a is the larger one. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, it always means a is larger"
+    },
+    {
+     "id": "b",
+     "label": "It means they are equal after all"
+    },
+    {
+     "id": "c",
+     "label": "It says only that they differ, not which is bigger"
+    },
+    {
+     "id": "d",
+     "label": "It means b must be the larger one"
+    }
+   ],
+   "answer": "c",
+   "explain": "The notation a ≠ b does not say that one is greater than the other, and it does not even require an ordered set.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities:q4"
+  },
+  {
+   "prompt": "You read a < b < c. A classmate asks how a compares with c. What can you say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "a < c, because less-than carries through"
+    },
+    {
+     "id": "b",
+     "label": "a > c, because the order flips"
+    },
+    {
+     "id": "c",
+     "label": "Nothing, they were never compared"
+    },
+    {
+     "id": "d",
+     "label": "a = c, because b sits between them"
+    }
+   ],
+   "answer": "a",
+   "explain": "The chain means a < b and b < c, and by transitivity it also follows that a < c.",
+   "cites": [
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities:q5"
+  },
+  {
+   "prompt": "You apply a monotonically decreasing function to both sides of a < b. What happens to the inequality?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same"
+    },
+    {
+     "id": "b",
+     "label": "It is reversed"
+    },
+    {
+     "id": "c",
+     "label": "It becomes an equality"
+    },
+    {
+     "id": "d",
+     "label": "It disappears"
+    }
+   ],
+   "answer": "b",
+   "explain": "Applying a monotonically decreasing function to both sides reverses the inequality relation.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.equations.inequalities:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Linear_Programming_Feasible_Region.svg/960px-Linear_Programming_Feasible_Region.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Inequalities",
+  "credit": "Inductiveload",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear_Programming_Feasible_Region.svg"
+ },
+ "source": {
+  "title": "Inequality (mathematics)",
+  "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)",
+  "revision": 1384000125
+ },
+ "pack": {
+  "id": "auto-equations-inequalities",
+  "title": "When the sign flips",
+  "question": "How can you change both sides of an inequality without breaking it?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Equations",
+   "Inequalities"
+  ],
+  "hue": 53,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Linear_Programming_Feasible_Region.svg/960px-Linear_Programming_Feasible_Region.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Inequalities",
+    "credit": "Inductiveload · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_Programming_Feasible_Region.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When the sign flips",
+    "hook": "Multiply by 2 and nothing changes; multiply by −2 and the whole statement turns around."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-equations-inequalities:1",
+    "transfer": false,
+    "prompt": "You start with 1 < 4 and divide both sides by a negative constant. What should the sign become?",
+    "explain": "The inequality relation is preserved under division with a positive constant but reversed when a negative constant is involved.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Still <",
+        "feedback": "That would keep the order, but a negative constant reverses it."
+       },
+       {
+        "id": "b",
+        "label": "Now >"
+       },
+       {
+        "id": "c",
+        "label": "Now =",
+        "feedback": "Dividing never makes two different numbers equal."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-equations-inequalities:2",
+    "transfer": false,
+    "prompt": "match each notation to its meaning",
+    "left": [
+     {
+      "id": "l0",
+      "label": "a < b"
+     },
+     {
+      "id": "l1",
+      "label": "a ≤ b"
+     },
+     {
+      "id": "l2",
+      "label": "a ≥ b"
+     },
+     {
+      "id": "l3",
+      "label": "a ≠ b"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "a is strictly less than b"
+     },
+     {
+      "id": "r3",
+      "label": "a is not equal to b"
+     },
+     {
+      "id": "r2",
+      "label": "a is at least b"
+     },
+     {
+      "id": "r1",
+      "label": "a is at most b"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each symbol names a different comparison between a and b."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-equations-inequalities:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each symbol into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "<"
+     },
+     {
+      "id": "i1",
+      "label": ">"
+     },
+     {
+      "id": "i2",
+      "label": "≤"
+     },
+     {
+      "id": "i3",
+      "label": "≥"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "strict"
+     },
+     {
+      "id": "g1",
+      "label": "non-strict"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "The non-strict inequalities are ≤ and ≥, and their corresponding strict versions are < and >."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-equations-inequalities:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Start from 2 < 6, which is true."
+     },
+     {
+      "id": "b",
+      "text": "Subtract 4 from both sides to get −2 < 2."
+     },
+     {
+      "id": "c",
+      "text": "Multiply both sides by −1 and keep the sign: 2 < −2."
+     },
+     {
+      "id": "d",
+      "text": "So 2 is less than −2."
+     }
+    ],
+    "answer": "c",
+    "explain": "Multiplying by a negative constant reverses the inequality, so the result should be 2 > −2."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Adding the same number keeps an inequality as it is, while multiplying by a negative constant reverses it.",
+    "connections": [
+     {
+      "title": "Linear programming",
+      "place": "Inequalities",
+      "node": "knowledge.mathematics.algebra.equations.inequalities.linear-programming"
+     },
+     {
+      "title": "AM-GM inequality",
+      "place": "Inequalities",
+      "node": "knowledge.mathematics.algebra.equations.inequalities.am-gm-inequality"
+     },
+     {
+      "title": "Cauchy-Schwarz inequality",
+      "place": "Inequalities",
+      "node": "knowledge.mathematics.algebra.equations.inequalities.cauchy-schwarz-inequality"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The inequality relation is preserved under division with a positive constant but reversed when a negative constant is involved.",
+    "source": "Wikipedia sentences 23"
+   },
+   {
+    "claim": "Each symbol names a different comparison between a and b.",
+    "source": "Wikipedia sentences 3, 5, 6, 7, 14"
+   },
+   {
+    "claim": "The non-strict inequalities are ≤ and ≥, and their corresponding strict versions are < and >.",
+    "source": "Wikipedia sentences 21"
+   },
+   {
+    "claim": "Multiplying by a negative constant reverses the inequality, so the result should be 2 > −2.",
+    "source": "Wikipedia sentences 22, 23"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Comparing without equals",
+    "text": "An inequality compares two numbers or expressions without saying they are equal. Most often it tells you which of two numbers on the number line is bigger. The two main kinds are \"less than\", written <, and \"greater than\", written >. With either sign, a and b are not equal, and so these are called strict inequalities.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Or equal to",
+    "text": "A looser version lets the two sides match. a ≤ b says a is less than or equal to b, in other words at most b, and a ≥ b says a is at least b. A different sign, a ≠ b, says only that a and b differ. It does not say which one is bigger, and a and b need not even belong to a set that has an order.",
+    "cites": [
+     6,
+     7,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Moving things around",
+    "text": "Swapping the two sides while turning the sign around gives the same statement, so a < b and b > a mean the same thing. You can add or subtract the same amount on both sides and the inequality still holds. Multiplying or dividing both sides by a positive constant keeps it as well. Multiplying or dividing by a negative constant reverses it.",
+    "cites": [
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Applying a function",
+    "text": "The same thinking extends to functions. A monotonically increasing function can be applied to both sides without breaking the inequality, as long as both sides lie in its domain. A monotonically decreasing function, by contrast, reverses the inequality. For example, when a and b are positive real numbers you may take the natural logarithm of both sides, because the natural logarithm is strictly increasing.",
+    "cites": [
+     26,
+     27,
+     32
+    ]
+   },
+   {
+    "heading": "Chains of inequalities",
+    "text": "Inequalities can be chained. a < b < c is shorthand for a < b and b < c, and from those two it follows that a < c. You may add or subtract one number in all three parts, or multiply or divide all three by one nonzero number, reversing every sign if that number is negative. So a < b + e < c says the same as a − e < b < c − e.",
+    "cites": [
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "How the symbols settled",
+    "text": "The signs took a while to settle. In the 17th and 18th centuries writers used personal notations or typewriter signs. In 1670 John Wallis drew a single horizontal bar above the < and > signs instead of below them. In 1734 the double-barred ≦ and ≧ appeared in the work of Pierre Bouguer, and later mathematicians trimmed these to one bar, ≤, or a slanted one, ⩽.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Much bigger than",
+    "text": "Engineers also use a less formal sign to say one quantity dwarfs another, normally by several orders of magnitude. The point is that the smaller value can then be dropped from an approximation with little effect on its accuracy.",
+    "cites": [
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-linear-inequalities",
+   "kind": "book",
+   "title": "2.8: Linear Inequalities and Absolute Value Inequalities",
+   "by": "OpenStax, College Algebra (on LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Algebra/College_Algebra_1e_(OpenStax)/02%3A_Equations_and_Inequalities/2.08%3A_Linear_Inequalities_and_Absolute_Value_Inequalities",
+   "note": "A free textbook section on solving inequalities, interval notation, and why the sign flips with negatives.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "mathworld-inequality",
+   "kind": "article",
+   "title": "Inequality",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Inequality.html",
+   "note": "A reference entry on inequality signs, solving inequalities and plotting the regions they describe."
+  }
+ ]
+}

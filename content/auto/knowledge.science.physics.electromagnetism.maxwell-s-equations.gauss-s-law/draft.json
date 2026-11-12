@@ -1,0 +1,229 @@
+{
+ "summary": [
+  {
+   "text": "Gauss's law is one of Maxwell's equations; it ties the distribution of electric charge to the electric field that the charge produces.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It says the flux of the electric field out of any closed surface is proportional to the charge enclosed, however that charge is spread out.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "text": "The law alone cannot fix the field everywhere, but where a problem has spherical, cylindrical or planar symmetry it makes the field easy to find.",
+   "cites": [
+    4,
+    25,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Gauss's flux theorem",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "First formulated",
+   "value": "By Lagrange in 1773, then Gauss in 1835",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Flux and charge",
+   "value": "Net flux equals enclosed charge times 1/ε₀",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Helpful symmetries",
+   "value": "Spherical, cylindrical and planar",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Close relatives",
+   "value": "Matching laws exist for magnetism and for gravity",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An imaginary closed surface is drawn around a group of charges. What decides the net electric flux out through it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The total charge inside, however it is arranged"
+    },
+    {
+     "id": "b",
+     "label": "How close the nearest charge sits to the wall"
+    },
+    {
+     "id": "c",
+     "label": "Only the shape and size of the surface itself"
+    },
+    {
+     "id": "d",
+     "label": "The charges lying outside the surface"
+    }
+   ],
+   "answer": "a",
+   "explain": "The flux out of a closed surface is proportional to the charge it encloses, irrespective of how that charge is distributed.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "prompt": "A ball of charge is spread evenly through a sphere. Why does the law make the field outside easy to find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Round objects have no electric field"
+    },
+    {
+     "id": "b",
+     "label": "The charge can be treated as zero"
+    },
+    {
+     "id": "c",
+     "label": "The symmetry makes the field uniform across a surface"
+    },
+    {
+     "id": "d",
+     "label": "Spheres cancel all flux that passes through them"
+    }
+   ],
+   "answer": "c",
+   "explain": "The total flux alone says little about the field, but symmetry forces the field through the surface to be uniform, so it can be deduced at every point.",
+   "cites": [
+    4,
+    24,
+    25,
+    26
+   ]
+  },
+  {
+   "prompt": "One person must find a conductor's charge from a measured field. Another must find the field from a known charge layout that has no symmetry. Who has the harder job?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first, because charge hides inside the metal"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since the law makes both equally easy"
+    },
+    {
+     "id": "c",
+     "label": "The first, because no tools exist for it"
+    },
+    {
+     "id": "d",
+     "label": "The second, because total flux says little about the field"
+    }
+   ],
+   "answer": "d",
+   "explain": "Finding charge from the field is possible through the flux through a small box; the reverse is much more difficult without symmetry.",
+   "cites": [
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "Why is Gauss's law regarded as more general than Coulomb's law?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It works for stationary charges only"
+    },
+    {
+     "id": "b",
+     "label": "It holds for moving charges too"
+    },
+    {
+     "id": "c",
+     "label": "It ignores the superposition principle"
+    },
+    {
+     "id": "d",
+     "label": "It applies only to charges at rest in a vacuum"
+    }
+   ],
+   "answer": "b",
+   "explain": "Coulomb's law applies only to stationary charges, while Gauss's law holds for moving charges as well.",
+   "cites": [
+    41,
+    42
+   ]
+  },
+  {
+   "prompt": "The charge sitting on a capacitor plate, or moved around by static electricity, is classed as which kind?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Free charge"
+    },
+    {
+     "id": "b",
+     "label": "Bound charge"
+    },
+    {
+     "id": "c",
+     "label": "Magnetic charge"
+    },
+    {
+     "id": "d",
+     "label": "Virtual charge"
+    }
+   ],
+   "answer": "a",
+   "explain": "Free charge covers the simplest textbook cases like static electricity and capacitor plates; bound charge arises only in polarizable materials.",
+   "cites": [
+    32,
+    33
+   ]
+  },
+  {
+   "prompt": "Gravity weakens with the square of distance. Which law is Gauss's law for gravity essentially equivalent to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ohm's law"
+    },
+    {
+     "id": "b",
+     "label": "Snell's law"
+    },
+    {
+     "id": "c",
+     "label": "Newton's law of gravity"
+    },
+    {
+     "id": "d",
+     "label": "Faraday's law"
+    }
+   ],
+   "answer": "c",
+   "explain": "Any inverse-square law can be written in a Gauss-like form; Gauss's law for gravity is essentially equivalent to Newton's law of gravity.",
+   "cites": [
+    12
+   ]
+  }
+ ]
+}

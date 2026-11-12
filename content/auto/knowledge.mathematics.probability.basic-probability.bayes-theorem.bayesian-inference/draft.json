@@ -1,0 +1,213 @@
+{
+ "summary": [
+  {
+   "text": "Bayesian inference is a method of statistical inference that uses Bayes' theorem to calculate the probability of a hypothesis and update it as more information arrives.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Fundamentally, it uses a prior distribution to estimate posterior probabilities.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It has been applied in science, engineering, philosophy, medicine, sport, psychology and law.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Hypothesis",
+   "value": "Any claim whose probability may be affected by evidence",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Likelihood",
+   "value": "The probability of seeing the evidence if the hypothesis holds",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Posterior",
+   "value": "The probability of the hypothesis after the evidence is observed",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Where it is used",
+   "value": "Science, medicine, sport, psychology, law and more",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two explanations compete for why your lawn is wet. What job does Bayesian inference do here?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It picks whichever explanation was proposed first"
+    },
+    {
+     "id": "b",
+     "label": "It removes the competing explanation from consideration"
+    },
+    {
+     "id": "c",
+     "label": "It counts how many people believe each explanation"
+    },
+    {
+     "id": "d",
+     "label": "It helps decide which explanation is most probable"
+    }
+   ],
+   "answer": "d",
+   "explain": "Often there are competing hypotheses, and the task is to determine which is the most probable.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "prompt": "Before looking at any new data, you estimate how likely your hypothesis is. What is that estimate called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The posterior probability"
+    },
+    {
+     "id": "b",
+     "label": "The prior probability"
+    },
+    {
+     "id": "c",
+     "label": "The marginal likelihood"
+    },
+    {
+     "id": "d",
+     "label": "The likelihood function"
+    }
+   ],
+   "answer": "b",
+   "explain": "The prior probability is the estimate of the probability of the hypothesis before the current evidence is observed.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A hypothesis predicts the evidence you actually saw very well. Which quantity measures how well the evidence fits the hypothesis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The likelihood"
+    },
+    {
+     "id": "b",
+     "label": "The prior"
+    },
+    {
+     "id": "c",
+     "label": "The posterior"
+    },
+    {
+     "id": "d",
+     "label": "The marginal"
+    }
+   ],
+   "answer": "a",
+   "explain": "The likelihood is the probability of observing the evidence given the hypothesis, and it indicates the compatibility of the evidence with that hypothesis.",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "Two hypotheses are judged against the same evidence. Which two things decide how their posterior probabilities compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The size of the data set and the date"
+    },
+    {
+     "id": "b",
+     "label": "Only the evidence, which differs between them"
+    },
+    {
+     "id": "c",
+     "label": "Each one's prior and its likelihood"
+    },
+    {
+     "id": "d",
+     "label": "Only the hypothesis names"
+    }
+   ],
+   "answer": "c",
+   "explain": "The term for the evidence is the same for every hypothesis, so only the prior and the likelihood affect the posterior.",
+   "cites": [
+    17,
+    19
+   ]
+  },
+  {
+   "prompt": "Data keeps arriving day after day and your belief must keep adjusting. Where is Bayesian updating especially important?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In analysing a sequence of data over time"
+    },
+    {
+     "id": "b",
+     "label": "In data that can never change"
+    },
+    {
+     "id": "c",
+     "label": "In choosing which numbers to ignore"
+    },
+    {
+     "id": "d",
+     "label": "In problems with a single observation only"
+    }
+   ],
+   "answer": "a",
+   "explain": "Bayesian updating is particularly important in the dynamic analysis of a sequence of data.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A friend says Bayesian updating is the only updating rule anyone could consider rational. How does that hold up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It holds, since no other rule exists at all"
+    },
+    {
+     "id": "b",
+     "label": "It holds, since other rules always break down"
+    },
+    {
+     "id": "c",
+     "label": "It fails, since the method is rarely used today"
+    },
+    {
+     "id": "d",
+     "label": "It fails: others are considered, though this one is common"
+    }
+   ],
+   "answer": "d",
+   "explain": "Bayesian updating is widely used and computationally convenient, but it is not the only updating rule that might be considered rational.",
+   "cites": [
+    24,
+    25
+   ]
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+  "summary": [
+    {
+      "text": "This paradox involves a coin-flipping game whose expected payoff is infinite, yet it seems to be worth only a small amount to players.",
+      "cites": [
+        1
+      ]
+    },
+    {
+      "text": "It shows that a decision rule using only expected value can recommend something that presumably no real person would do.",
+      "cites": [
+        2
+      ]
+    },
+    {
+      "text": "One classical resolution uses diminishing marginal utility of money: the same gain matters more to a pauper than to a rich man.",
+      "cites": [
+        16,
+        18
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Inventor",
+      "value": "Nicolas Bernoulli, in a 1713 letter",
+      "cites": [
+        4
+      ]
+    },
+    {
+      "label": "Name origin",
+      "value": "Daniel Bernoulli's 1738 analysis in Saint Petersburg",
+      "cites": [
+        5
+      ]
+    },
+    {
+      "label": "Expected win",
+      "value": "Grows without bound, so it is infinite",
+      "cites": [
+        12
+      ]
+    },
+    {
+      "label": "Log-utility price",
+      "value": "A millionaire would pay up to $20.88",
+      "cites": [
+        20
+      ]
+    },
+    {
+      "label": "Finite casino",
+      "value": "Expected value grows only logarithmically with its resources",
+      "cites": [
+        44
+      ]
+    }
+  ],
+  "items": [
+    {
+      "prompt": "A game has an infinite expected payoff, yet a stall at the fair charges $1,000 to enter and most people walk past. Why is that called a paradox?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Nobody can actually win the prize"
+        },
+        {
+          "id": "b",
+          "label": "Expected value says to pay any price, but people won't"
+        },
+        {
+          "id": "c",
+          "label": "The stall must be cheating its customers"
+        },
+        {
+          "id": "d",
+          "label": "People always overpay for games like this"
+        }
+      ],
+      "answer": "b",
+      "explain": "A criterion that counts only expected value says to play at any price, which clashes with what people are willing to pay.",
+      "cites": [
+        13,
+        14
+      ]
+    },
+    {
+      "prompt": "Why might a gain of one thousand ducats mean more to a poor person than to a rich one, and how does that help with the paradox?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Money's use shrinks as wealth grows"
+        },
+        {
+          "id": "b",
+          "label": "Rich people never take gambles at all"
+        },
+        {
+          "id": "c",
+          "label": "Poor people can't count large sums well"
+        },
+        {
+          "id": "d",
+          "label": "Prices are set by how much cash is owned"
+        }
+      ],
+      "answer": "a",
+      "explain": "The classical resolution rests on diminishing marginal utility of money, so value depends on usefulness, not just the amount.",
+      "cites": [
+        16,
+        18
+      ]
+    },
+    {
+      "prompt": "Using logarithmic utility, who should be willing to pay more to enter the game: a millionaire or someone with $1,000?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The person with $1,000, who has more to gain"
+        },
+        {
+          "id": "b",
+          "label": "Both the same, as the game is identical"
+        },
+        {
+          "id": "c",
+          "label": "The millionaire, whose wealth is much larger"
+        },
+        {
+          "id": "d",
+          "label": "Nobody, as the price is too high for all"
+        }
+      ],
+      "answer": "c",
+      "explain": "The willingness to pay depends on wealth: up to $20.88 for the millionaire versus $10.95 for the person with $1,000.",
+      "cites": [
+        16,
+        20
+      ]
+    },
+    {
+      "prompt": "A casino has a limited bankroll. Even the largest one conceivable is used. What happens to the game's expected value?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It stays infinite regardless of the bankroll"
+        },
+        {
+          "id": "b",
+          "label": "It becomes negative for the casino's players"
+        },
+        {
+          "id": "c",
+          "label": "It doubles every time the bankroll doubles"
+        },
+        {
+          "id": "d",
+          "label": "It becomes quite modest"
+        }
+      ],
+      "answer": "d",
+      "explain": "Because it grows only logarithmically with the casino's resources, the expected value is quite modest even for a very large bankroll.",
+      "cites": [
+        41,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "prompt": "Why would ignoring very unlikely events make the game less tempting to a player?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Only rare events pay the huge prizes"
+        },
+        {
+          "id": "b",
+          "label": "Rare events always cost the player money"
+        },
+        {
+          "id": "c",
+          "label": "The casino refuses to pay rare wins"
+        },
+        {
+          "id": "d",
+          "label": "Ignoring them removes the coin flips"
+        }
+      ],
+      "answer": "a",
+      "explain": "People are conjectured to neglect unlikely events, and only unlikely events yield the high prizes behind the infinite expected value.",
+      "cites": [
+        32,
+        33
+      ]
+    },
+    {
+      "prompt": "Someone says a square-root measure of satisfaction fully solves the paradox. Why is that not completely satisfying?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Square roots can't be applied to money at all"
+        },
+        {
+          "id": "b",
+          "label": "The paradox only appears for very rich players"
+        },
+        {
+          "id": "c",
+          "label": "Nobody has proposed square roots before now"
+        },
+        {
+          "id": "d",
+          "label": "The game can be changed to pay even faster and the paradox returns"
+        }
+      ],
+      "answer": "d",
+      "explain": "Changing the game so it gives even more rapidly increasing payoffs makes the paradox reappear.",
+      "cites": [
+        22,
+        24,
+        25
+      ]
+    }
+  ]
+}

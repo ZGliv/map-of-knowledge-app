@@ -1,0 +1,217 @@
+{
+ "summary": [
+  {
+   "text": "A solvable group is a group that can be constructed from abelian groups using extensions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equivalently, taking commutator subgroups over and over eventually reaches the trivial subgroup, and the number of steps needed is the derived length.",
+   "cites": [
+    2,
+    8,
+    10
+   ]
+  },
+  {
+   "text": "Solvability matters for equations: Sₙ is not solvable for n > 4, a key step in showing some high-degree polynomials cannot be solved by radicals.",
+   "cites": [
+    26,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Basic examples",
+   "value": "Abelian groups are solvable",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Small non-nilpotent example",
+   "value": "The symmetric group S₃",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Feit–Thompson theorem",
+   "value": "Every finite group of odd order is solvable",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Groups below order 60",
+   "value": "All are solvable, since the smallest simple non-abelian group is A₅",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student says abelian groups are too simple to count as solvable. Who is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The student, because solvable groups must be non-abelian"
+    },
+    {
+     "id": "b",
+     "label": "Abelian groups are solvable, trivially, as the basic example"
+    },
+    {
+     "id": "c",
+     "label": "Only finite abelian groups qualify as solvable"
+    },
+    {
+     "id": "d",
+     "label": "Only abelian groups with a prime number of elements qualify"
+    }
+   ],
+   "answer": "b",
+   "explain": "Abelian groups are the basic example: the group itself followed by the trivial group already forms the required series.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "G is a solvable group and H sits inside it as a subgroup. What can you say about H?",
+   "options": [
+    {
+     "id": "a",
+     "label": "H may or may not be solvable"
+    },
+    {
+     "id": "b",
+     "label": "H must be abelian"
+    },
+    {
+     "id": "c",
+     "label": "H must be non-solvable"
+    },
+    {
+     "id": "d",
+     "label": "H is solvable too"
+    }
+   ],
+   "answer": "d",
+   "explain": "Every subgroup of a solvable group is solvable.",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "prompt": "A group G has a normal subgroup N. Both N and the leftover quotient group are solvable. What follows for G?",
+   "options": [
+    {
+     "id": "a",
+     "label": "G is solvable too"
+    },
+    {
+     "id": "b",
+     "label": "G is abelian"
+    },
+    {
+     "id": "c",
+     "label": "Nothing can be said about G"
+    },
+    {
+     "id": "d",
+     "label": "G is simple"
+    }
+   ],
+   "answer": "a",
+   "explain": "G is solvable if and only if both N and G/N are solvable.",
+   "cites": [
+    39,
+    41
+   ]
+  },
+  {
+   "prompt": "A finite group has an odd number of elements. What does the Feit–Thompson theorem tell you about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must be abelian"
+    },
+    {
+     "id": "b",
+     "label": "It must be simple"
+    },
+    {
+     "id": "c",
+     "label": "It is solvable"
+    },
+    {
+     "id": "d",
+     "label": "It might fail to be solvable, depending on its size"
+    }
+   ],
+   "answer": "c",
+   "explain": "The Feit–Thompson theorem states that every finite group of odd order is solvable.",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "prompt": "Why does the group of all rearrangements of five or more items matter for polynomial equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is abelian, so every equation is solvable"
+    },
+    {
+     "id": "b",
+     "label": "It is not solvable, a key step in showing some equations resist radicals"
+    },
+    {
+     "id": "c",
+     "label": "It is nilpotent, so quintics reduce to quartics"
+    },
+    {
+     "id": "d",
+     "label": "It is the smallest group order below sixty"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sₙ is not solvable for n > 4, a key step in the proof that for every degree above four some polynomials are not solvable by radicals.",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "You take a group, then its commutator subgroup, then that group's commutator subgroup, and so on. What outcome shows the original group is solvable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sequence never changes after the first step"
+    },
+    {
+     "id": "b",
+     "label": "The sequence grows into a larger group"
+    },
+    {
+     "id": "c",
+     "label": "The sequence alternates between two groups"
+    },
+    {
+     "id": "d",
+     "label": "The sequence eventually reaches the trivial subgroup"
+    }
+   ],
+   "answer": "d",
+   "explain": "A group is solvable exactly when its derived series, built from repeated commutator subgroups, reaches the trivial subgroup at a finite stage.",
+   "cites": [
+    2,
+    8
+   ]
+  }
+ ]
+}

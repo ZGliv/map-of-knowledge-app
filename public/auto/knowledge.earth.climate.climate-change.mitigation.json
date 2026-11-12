@@ -1,0 +1,462 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-change.mitigation",
+ "name": "Mitigation",
+ "summary": [
+  {
+   "text": "Climate change mitigation, also called decarbonisation, is action to limit the greenhouse gases in the atmosphere that cause climate change.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its main actions are conserving energy and replacing fossil fuels with clean energy, with land-use changes and removing CO₂ from the air as secondary strategies.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Policies adopted so far are insufficient and would still lead to about 2.7 °C of warming by 2100, well above the Paris goal of below 2 °C.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Lowest-cost replacements",
+   "value": "Solar energy and wind power",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Hard to decarbonise",
+   "value": "Air travel and cement production",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Land use share",
+   "value": "About a quarter of climate change",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Largest single source",
+   "value": "Coal power stations, 20% of emissions",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A country gets most of its power from solar and wind. On a calm, cloudy evening, what helps keep its electricity supply steady?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Adding more panels in the same town"
+    },
+    {
+     "id": "b",
+     "label": "Switching off the grid until morning"
+    },
+    {
+     "id": "c",
+     "label": "Lowering the voltage on every line"
+    },
+    {
+     "id": "d",
+     "label": "Releasing energy from storage"
+    }
+   ],
+   "answer": "d",
+   "explain": "Energy storage can even out power output, and grouping distant sources through long-distance transmission also helps.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.earth.climate.climate-change.mitigation:q1"
+  },
+  {
+   "prompt": "A city plans to cut emissions by running everything on clean electricity. Which activity will be hardest to switch over?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heating homes"
+    },
+    {
+     "id": "b",
+     "label": "Running commuter trains"
+    },
+    {
+     "id": "c",
+     "label": "Making cement"
+    },
+    {
+     "id": "d",
+     "label": "Lighting offices"
+    }
+   ],
+   "answer": "c",
+   "explain": "Clean electricity can usually replace fossil fuels for transport and heating, but cement production is among the harder processes to decarbonise.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.earth.climate.climate-change.mitigation:q2"
+  },
+  {
+   "prompt": "A government sets a ceiling on total emissions and lets companies buy and sell permits to emit. What kind of policy is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Carbon pricing"
+    },
+    {
+     "id": "b",
+     "label": "Solar geoengineering"
+    },
+    {
+     "id": "c",
+     "label": "Carbon dioxide removal"
+    },
+    {
+     "id": "d",
+     "label": "A fossil fuel subsidy"
+    }
+   ],
+   "answer": "a",
+   "explain": "Carbon pricing systems either tax CO₂ emissions or cap total emissions and trade emission credits.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.earth.climate.climate-change.mitigation:q3"
+  },
+  {
+   "prompt": "Human emissions have raised the amount of CO₂ in the air compared with pre-industrial times. By roughly how much?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 5%"
+    },
+    {
+     "id": "b",
+     "label": "About 50%"
+    },
+    {
+     "id": "c",
+     "label": "About 200%"
+    },
+    {
+     "id": "d",
+     "label": "About 500%"
+    }
+   ],
+   "answer": "b",
+   "explain": "Human-caused emissions have increased atmospheric carbon dioxide by about 50% over pre-industrial levels.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.earth.climate.climate-change.mitigation:q4"
+  },
+  {
+   "prompt": "An abandoned field regrows into forest entirely on its own and absorbs CO₂. Under the IPCC definition, does this count as carbon dioxide removal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any CO₂ taken from the air counts"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the wood is buried"
+    },
+    {
+     "id": "c",
+     "label": "No, natural uptake is excluded"
+    },
+    {
+     "id": "d",
+     "label": "No, forests release more than they store"
+    }
+   ],
+   "answer": "c",
+   "explain": "The IPCC counts only human activities that remove and store CO₂, and excludes natural uptake not directly caused by people.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.earth.climate.climate-change.mitigation:q5"
+  },
+  {
+   "prompt": "Clearing a forest and burning coal both release CO₂. What sets the coal's CO₂ apart?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was buried underground in the slow carbon cycle"
+    },
+    {
+     "id": "b",
+     "label": "It is a short-lived gas that fades within years"
+    },
+    {
+     "id": "c",
+     "label": "It comes from the fast cycle of living plants"
+    },
+    {
+     "id": "d",
+     "label": "It is mostly methane rather than carbon dioxide"
+    }
+   ],
+   "answer": "a",
+   "explain": "Land use changes belong to the fast carbon cycle, while fossil fuels release CO₂ that was buried underground as part of the slow carbon cycle.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.earth.climate.climate-change.mitigation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Westmill_Solar_2.jpg/960px-Westmill_Solar_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Mitigation",
+  "credit": "MrRenewables Westmill Solar Co-operative Neil Maw",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Westmill_Solar_2.jpg"
+ },
+ "source": {
+  "title": "Climate change mitigation",
+  "url": "https://en.wikipedia.org/wiki/Climate_change_mitigation",
+  "revision": 1383584180
+ },
+ "pack": {
+  "id": "auto-climate-change-mitigation",
+  "title": "Turning Down the Carbon Tap",
+  "question": "What can actually bring greenhouse gas emissions down?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Climate change",
+   "Mitigation"
+  ],
+  "hue": 119,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Westmill_Solar_2.jpg/960px-Westmill_Solar_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Mitigation",
+    "credit": "MrRenewables Westmill Solar Co-operative Neil Maw · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Westmill_Solar_2.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Turning Down the Carbon Tap",
+    "hook": "The climate policies already adopted would still leave the world about 2.7 °C warmer by 2100."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-change-mitigation:1",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each approach into the kind of mitigation it is.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Conserving energy"
+     },
+     {
+      "id": "i1",
+      "label": "Replacing fossil fuels with clean energy"
+     },
+     {
+      "id": "i2",
+      "label": "Changing how land is used"
+     },
+     {
+      "id": "i3",
+      "label": "Removing CO₂ from the atmosphere"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Core action"
+     },
+     {
+      "id": "g1",
+      "label": "Secondary strategy"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Saving energy and switching to clean sources are the main actions, while land-use changes and CO₂ removal are secondary strategies."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-change-mitigation:2",
+    "transfer": false,
+    "prompt": "Match each challenge to a way of handling it.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Sunshine and wind vary"
+     },
+     {
+      "id": "l1",
+      "label": "Power generation runs low"
+     },
+     {
+      "id": "l2",
+      "label": "Cement is hard to decarbonise"
+     },
+     {
+      "id": "l3",
+      "label": "Farming emissions"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Carbon capture and storage"
+     },
+     {
+      "id": "r3",
+      "label": "Less food waste and more plant-based diets"
+     },
+     {
+      "id": "r0",
+      "label": "Long-distance transmission linking many sources"
+     },
+     {
+      "id": "r1",
+      "label": "Demand management limits power use"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each obstacle to cutting emissions has its own set of tools, from grid upgrades to changes in what people eat."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-climate-change-mitigation:3",
+    "transfer": true,
+    "prompt": "A region's electricity is now cleanly generated. A family replaces its oil-fired boiler with an electric heater. What happens to the emissions from heating their home?",
+    "explain": "Cleanly generated electricity can usually replace fossil fuels for heating buildings, cutting the emissions from burning them.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "They fall, since clean electricity replaces burned fuel"
+       },
+       {
+        "id": "d",
+        "label": "They move to the farm sector instead",
+        "feedback": "Heating a home has no link to farm emissions."
+       },
+       {
+        "id": "c",
+        "label": "They stay the same, since heat is heat",
+        "feedback": "The source of the energy matters: clean electricity replaces the fossil fuel."
+       },
+       {
+        "id": "a",
+        "label": "They rise, since electric heating wastes energy",
+        "feedback": "Nothing here says electric heating is wasteful; with clean power the fuel burning is gone."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-climate-change-mitigation:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Fossil fuels release CO₂ that was buried underground in the slow carbon cycle."
+     },
+     {
+      "id": "b",
+      "text": "Deforestation changes how much CO₂ plant matter absorbs and releases."
+     },
+     {
+      "id": "c",
+      "text": "Land use changes like agriculture and deforestation cause about a quarter of climate change."
+     },
+     {
+      "id": "d",
+      "text": "So land use plays no real part in climate change."
+     }
+    ],
+    "answer": "d",
+    "explain": "A quarter of climate change is a large share, so land use is a real part of the problem and of the solution."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Mitigation cuts emissions mainly by saving energy and switching to clean power, with land use, carbon removal and policy filling the gaps.",
+    "connections": [
+     {
+      "title": "Carbon capture and storage",
+      "place": "Mitigation",
+      "node": "knowledge.earth.climate.climate-change.mitigation.carbon-capture-and-storage"
+     },
+     {
+      "title": "Renewable energy",
+      "place": "Mitigation",
+      "node": "knowledge.earth.climate.climate-change.mitigation.renewable-energy"
+     },
+     {
+      "title": "Carbon tax",
+      "place": "Mitigation",
+      "node": "knowledge.earth.climate.climate-change.mitigation.carbon-tax"
+     },
+     {
+      "title": "Reforestation",
+      "place": "Mitigation",
+      "node": "knowledge.earth.climate.climate-change.mitigation.reforestation"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Saving energy and switching to clean sources are the main actions, while land-use changes and CO₂ removal are secondary strategies.",
+    "source": "Wikipedia sentences 2, 3"
+   },
+   {
+    "claim": "Each obstacle to cutting emissions has its own set of tools, from grid upgrades to changes in what people eat.",
+    "source": "Wikipedia sentences 7, 8, 10, 11, 17"
+   },
+   {
+    "claim": "Cleanly generated electricity can usually replace fossil fuels for heating buildings, cutting the emissions from burning them.",
+    "source": "Wikipedia sentences 9"
+   },
+   {
+    "claim": "A quarter of climate change is a large share, so land use is a real part of the problem and of the solution.",
+    "source": "Wikipedia sentences 12, 13, 14"
+   }
+  ]
+ }
+}

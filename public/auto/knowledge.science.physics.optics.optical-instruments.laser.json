@@ -1,0 +1,343 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.optical-instruments.laser",
+ "name": "Laser",
+ "summary": [
+  {
+   "text": "A laser is a device that emits light through optical amplification based on stimulated emission, and its name is an acronym for exactly that process.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its light is coherent, so a laser beam can be focused to a tight spot or stay narrow over great distances.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "text": "The first laser was built in 1960 by Theodore Maiman at Hughes Research Laboratories.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First built",
+   "value": "1960, by Theodore Maiman at Hughes Research Laboratories",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Acronym published",
+   "value": "Gordon Gould, in a 1959 conference paper",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Predecessor",
+   "value": "The maser, which worked at microwave frequencies",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Spatial coherence",
+   "value": "Tight focus, and a narrow beam over great distance",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Ultrashort pulses",
+   "value": "Durations measured in attoseconds",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Inside a laser, what triggers an atom to release a photon?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Random heat motion of the atoms"
+    },
+    {
+     "id": "b",
+     "label": "A spark of electricity jumping across"
+    },
+    {
+     "id": "c",
+     "label": "A strong magnetic field nearby"
+    },
+    {
+     "id": "d",
+     "label": "The passing of a nearby, similar photon"
+    }
+   ],
+   "answer": "d",
+   "explain": "The release of a photon is triggered by the nearby passage of another photon, which is stimulated emission.",
+   "cites": [
+    26,
+    27,
+    28
+   ],
+   "id": "knowledge.science.physics.optics.optical-instruments.laser:q1"
+  },
+  {
+   "prompt": "One photon triggers an excited atom to emit. How does the new photon compare with the one that triggered it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is identical, so both can trigger more atoms"
+    },
+    {
+     "id": "b",
+     "label": "It is weaker and of a different color"
+    },
+    {
+     "id": "c",
+     "label": "It travels in the opposite direction"
+    },
+    {
+     "id": "d",
+     "label": "It cancels the first photon out"
+    }
+   ],
+   "answer": "a",
+   "explain": "The emitted photon is identical to the triggering one, making a chain reaction possible.",
+   "cites": [
+    29
+   ],
+   "id": "knowledge.science.physics.optics.optical-instruments.laser:q2"
+  },
+  {
+   "prompt": "A lightbulb gives off a broad mix of photon energies. What is different about how a laser makes its photons?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It heats the atoms much hotter than a bulb does"
+    },
+    {
+     "id": "b",
+     "label": "Each photon is released by random thermal processes in a mirror"
+    },
+    {
+     "id": "c",
+     "label": "Each release is triggered by another photon, not by random heat"
+    },
+    {
+     "id": "d",
+     "label": "It draws photons from many different energy levels at once"
+    }
+   ],
+   "answer": "c",
+   "explain": "A bulb's emission is random thermal radiation from many levels, while a laser's emission is triggered by a passing photon.",
+   "cites": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.optics.optical-instruments.laser:q3"
+  },
+  {
+   "prompt": "A laser pointer's dot stays small across a long room. What property of the light keeps it narrow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its high heat"
+    },
+    {
+     "id": "b",
+     "label": "Its spatial coherence"
+    },
+    {
+     "id": "c",
+     "label": "Its bright color"
+    },
+    {
+     "id": "d",
+     "label": "Its loud buzzing"
+    }
+   ],
+   "answer": "b",
+   "explain": "Spatial coherence lets a laser beam stay narrow over great distances, which is called collimation.",
+   "cites": [
+    5,
+    7
+   ],
+   "id": "knowledge.science.physics.optics.optical-instruments.laser:q4"
+  },
+  {
+   "prompt": "A device amplifies X-rays by stimulated emission. What is it called today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A maser, since it amplifies radiation by stimulated emission"
+    },
+    {
+     "id": "b",
+     "label": "An xaser, the name Gould proposed for X-rays"
+    },
+    {
+     "id": "c",
+     "label": "A laser, since devices past microwave frequencies carry that name"
+    },
+    {
+     "id": "d",
+     "label": "A raser, the name for radio-wave devices"
+    }
+   ],
+   "answer": "c",
+   "explain": "Gould wanted different names for different parts of the spectrum, but today all such devices above microwaves are called lasers, including X-ray lasers.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.physics.optics.optical-instruments.laser:q5"
+  },
+  {
+   "prompt": "The name says 'amplification,' yet a laser that makes light by itself is technically which kind of device?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An optical filter"
+    },
+    {
+     "id": "b",
+     "label": "An optical detector"
+    },
+    {
+     "id": "c",
+     "label": "An optical mirror"
+    },
+    {
+     "id": "d",
+     "label": "An optical oscillator"
+    }
+   ],
+   "answer": "d",
+   "explain": "A laser that produces light by itself is technically an optical oscillator rather than an amplifier.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.physics.optics.optical-instruments.laser:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Guiding_the_Milky_Way_%28potw2222a%29.jpg/960px-Guiding_the_Milky_Way_%28potw2222a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Laser",
+  "credit": "ESO/A. Ghizzi Panizza (www.albertoghizzipanizza.com)",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Guiding_the_Milky_Way_(potw2222a).jpg"
+ },
+ "source": {
+  "title": "Laser",
+  "url": "https://en.wikipedia.org/wiki/Laser",
+  "revision": 1380782752
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a laser is",
+    "text": "A laser is a device that gives out light by amplifying it through a process called stimulated emission. The name started as a shortened form of the phrase light amplification by stimulated emission of radiation. What sets a laser apart from other light sources is that its light is coherent, an idea explained below.",
+    "cites": [
+     1,
+     2,
+     5,
+     35
+    ]
+   },
+   {
+    "heading": "How stimulated emission works",
+    "text": "Atoms and molecules release and absorb photons, the small packets of electromagnetic radiation, as they move between energy levels. In a lightbulb or a star, photons come from many different levels and so carry a wide range of energies; this is called thermal radiation. A laser rests on the same basic physics, but its photons are not released by random thermal processes. Instead, a passing photon triggers an atom to release a new photon, and the new one is identical to the one that set it off. Both can then trigger more, which makes a chain reaction possible.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     29
+    ]
+   },
+   {
+    "heading": "Keeping atoms ready",
+    "text": "This only works if the passing photon has a similar energy to the one the atom could release, and the atom is already in a suitable excited state. Many atoms must be excited at once, but in most materials they drop out of excited states quickly. Lasers therefore use materials with metastable states, which remain excited for quite a long time; such a material is called an active laser medium. An energy source keeps pumping energy in, so that enough atoms stay excited for the chain reaction to build.",
+    "cites": [
+     28,
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Coherent light",
+    "text": "Laser light is coherent in two senses. Spatial coherence means the beam can be focused to a very tiny spot, as in laser cutting and lithography, or kept narrow over great distances, as in laser pointers and lidar. Temporal coherence means the light is a wave at a single frequency whose phase stays correlated over a long stretch of the beam. Light from a hot or other incoherent source has an amplitude and phase that vary randomly, so it keeps step only over a short distance.",
+    "cites": [
+     6,
+     7,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "What lasers do",
+    "text": "Lasers are called on wherever a job needs spatial or temporal coherence that simpler light sources cannot supply. They carry signals in fibre-optic links, read optical discs, run laser printers and barcode scanners, help manufacture semiconductor chips, and are used in surgery, skin treatments, cutting and welding. Temporal coherence can even yield pulses of light lasting only attoseconds. The laser is counted among the greatest inventions of the 20th century.",
+    "cites": [
+     9,
+     10,
+     11,
+     45
+    ]
+   },
+   {
+    "heading": "How the name came about",
+    "text": "The first device to amplify by stimulated emission worked at microwave frequencies and was called a maser. Optical versions were at first called optical masers, until light replaced microwave in the acronym. Gordon Gould first published the word LASER in a 1959 conference paper, and in 1960 Theodore Maiman built the first laser at Hughes Research Laboratories. Strictly, a laser that makes light by itself is an oscillator rather than an amplifier, and some have joked that LOSER would have been the more accurate name.",
+    "cites": [
+     3,
+     12,
+     13,
+     14,
+     19,
+     20
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-lasers",
+   "kind": "book",
+   "title": "8.6 Lasers",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/8-6-lasers",
+   "note": "A free textbook section on how lasers make coherent light, plus uses from barcode scanners to Blu-ray discs.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "minutephysics-lasers",
+   "kind": "video",
+   "title": "How lasers work (in theory)",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=y3SBSbsdiYg",
+   "minutes": 2,
+   "note": "A two-minute animated explainer on the physics of how a laser produces its light."
+  }
+ ]
+}

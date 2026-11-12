@@ -1,0 +1,103 @@
+{
+  "title": "Why Things Keep Swinging",
+  "question": "Why does a displaced system swing back and forth instead of just settling?",
+  "hook": "A pulled spring never simply stops at the middle, and the reason is hiding in its momentum.",
+  "idea": "A restoring force pulls toward equilibrium while momentum carries the system past it, so it swings until energy leaks away.",
+  "beats": [
+    {
+      "kind": "predict",
+      "prompt": "A mass on a spring is pulled down and released. When it reaches the resting position on the way up, what does it do?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It stops there for good",
+          "feedback": "Tempting, since the spring force is gone at the middle, but the mass is still moving."
+        },
+        {
+          "id": "b",
+          "label": "It keeps moving past the middle",
+          "feedback": ""
+        },
+        {
+          "id": "c",
+          "label": "It bounces off the middle like a wall",
+          "feedback": "Nothing solid is at the middle; only the spring's pull acts on it."
+        }
+      ],
+      "answer": "b",
+      "explain": "On the way back the mass picked up momentum, so it carries on past equilibrium and a new restoring force builds in the opposite direction.",
+      "cites": [
+        10,
+        11
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "Put one swing of a spring-mass system in order.",
+      "items": [
+        "The mass is displaced from equilibrium",
+        "A restoring force pulls it back",
+        "Momentum carries it past equilibrium",
+        "A new restoring force acts the opposite way"
+      ],
+      "ends": [
+        "Start",
+        "End"
+      ],
+      "explain": "Displacement creates the restoring force, momentum overshoots, and the overshoot creates a restoring force in the opposite sense.",
+      "cites": [
+        10,
+        11
+      ]
+    },
+    {
+      "kind": "sort",
+      "prompt": "Sort each situation by what it shows.",
+      "groups": [
+        "Familiar example",
+        "Undesirable in control"
+      ],
+      "items": [
+        [
+          "A swinging pendulum",
+          "Familiar example"
+        ],
+        [
+          "Alternating current",
+          "Familiar example"
+        ],
+        [
+          "Valve chatter",
+          "Undesirable in control"
+        ],
+        [
+          "Route flapping",
+          "Undesirable in control"
+        ]
+      ],
+      "explain": "Pendulums and alternating current are familiar examples of oscillation, while chattering and flapping are rapid oscillations that are undesirable in process control.",
+      "cites": [
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "kind": "flaw",
+      "prompt": "One step in this reasoning is wrong; which?",
+      "steps": [
+        "A real spring-mass system loses energy to friction.",
+        "That energy is converted into heat.",
+        "So the swings shrink over time.",
+        "Therefore the swings must keep their size unless the spring is replaced."
+      ],
+      "wrong": 3,
+      "explain": "Swings decay unless there is a net source of energy into the system, not only a new spring.",
+      "cites": [
+        26,
+        27,
+        28
+      ]
+    }
+  ]
+}

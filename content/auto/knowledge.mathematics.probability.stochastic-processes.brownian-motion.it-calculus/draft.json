@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Itô calculus, named after Kiyosi Itô, extends the methods of calculus to stochastic processes such as Brownian motion.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Ordinary calculus does not work on Brownian paths, because they are not differentiable at any point and have infinite variation over every time interval.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "It has important applications in mathematical finance, in stochastic differential equations, and more recently even in machine learning.",
+   "cites": [
+    2
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Kiyosi Itô",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Key condition",
+   "value": "The integrand must be adapted to information available so far",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Where sums sample",
+   "value": "Typically the left end of each small interval",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Main results",
+   "value": "Integration by parts and Itô's lemma",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Rival version",
+   "value": "The Stratonovich integral follows the ordinary chain rule",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A trader's rule says what to hold at time t, and it may use only information available up to time t. Why does the theory insist on this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes every trade profitable"
+    },
+    {
+     "id": "b",
+     "label": "It stops the stock price from changing"
+    },
+    {
+     "id": "c",
+     "label": "It makes trades happen faster"
+    },
+    {
+     "id": "d",
+     "label": "It rules out unlimited gains from knowing the next move"
+    }
+   ],
+   "answer": "d",
+   "explain": "Requiring the integrand to be adapted prevents unlimited gains through clairvoyance, such as buying just before each uptick and selling before each downtick.",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "A student tries to apply the usual derivative-based tools of calculus to the path of a Brownian particle. Why does this fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The path has no starting point"
+    },
+    {
+     "id": "b",
+     "label": "The path is too smooth to have a slope"
+    },
+    {
+     "id": "c",
+     "label": "The path is not differentiable at any point"
+    },
+    {
+     "id": "d",
+     "label": "The path never moves at all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Brownian paths fail the requirements for standard calculus: they are not differentiable at any point and have infinite variation over every time interval.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "In school calculus, a change of variables adds just one slope term. For Brownian motion an extra second-derivative term appears. Where does it come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Brownian motion has non-zero quadratic variation"
+    },
+    {
+     "id": "b",
+     "label": "Brownian motion is smoother than ordinary functions"
+    },
+    {
+     "id": "c",
+     "label": "Brownian motion always moves in a straight line"
+    },
+    {
+     "id": "d",
+     "label": "Brownian motion forgets the information it has seen"
+    }
+   ],
+   "answer": "a",
+   "explain": "Itô's lemma differs from the standard result because of the extra term involving the second derivative, which comes from Brownian motion having non-zero quadratic variation.",
+   "cites": [
+    15,
+    16,
+    36
+   ]
+  },
+  {
+   "prompt": "A student wants a stochastic integral that obeys the ordinary chain rule and needs no special lemma. Which one should they pick?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Itô integral"
+    },
+    {
+     "id": "b",
+     "label": "The Stratonovich integral"
+    },
+    {
+     "id": "c",
+     "label": "A Riemann sum with a single interval"
+    },
+    {
+     "id": "d",
+     "label": "A sum using only the left ends"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Stratonovich integral follows the chain rule and does not require Itô's lemma, while the Itô integral does not follow it.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "prompt": "In the trading reading of an Itô integral, which part stands for how much stock we hold at each moment?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The integrand"
+    },
+    {
+     "id": "b",
+     "label": "The integrator"
+    },
+    {
+     "id": "c",
+     "label": "The total money we end up with"
+    },
+    {
+     "id": "d",
+     "label": "The size of the time interval"
+    }
+   ],
+   "answer": "a",
+   "explain": "The integrand is how much stock we hold, the integrator represents the movement of the prices, and the integral is the total money including the stock's worth.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "prompt": "You compute the Itô integral from 0 to a fixed time t of a random process. What kind of thing do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A single fixed number every time"
+    },
+    {
+     "id": "b",
+     "label": "A random variable, defined as a limit of random variables"
+    },
+    {
+     "id": "c",
+     "label": "A straight line through the origin"
+    },
+    {
+     "id": "d",
+     "label": "A smooth curve with a slope at every point"
+    }
+   ],
+   "answer": "b",
+   "explain": "The integral up to a particular time is a random variable, defined as a limit of a sequence of random variables, and the result of the integration is another stochastic process.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ]
+}

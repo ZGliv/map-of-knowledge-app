@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "A polynomial ring is a ring formed from polynomials in one or more indeterminates, with coefficients in another ring, often a field.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its importance rests on the many properties it shares with the ring of the integers.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Polynomial rings occur, and are often fundamental, in number theory, commutative algebra and algebraic geometry.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "The indeterminate",
+   "value": "X has no value other than itself and cannot vary",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Degree",
+   "value": "The largest k for which the coefficient of Xᵏ is nonzero",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Division",
+   "value": "A unique pair (q, r) gives a = bq + r",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "Over an integral domain, units are the constants that are units in the base ring",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Also called",
+   "value": "Polynomial algebras",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You divide one polynomial by another with long division and keep going until the leftover piece is small enough. What counts as small enough?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is zero or has lower degree than the divisor"
+    },
+    {
+     "id": "b",
+     "label": "It has the same degree as the divisor"
+    },
+    {
+     "id": "c",
+     "label": "It is a constant, whatever the divisor is"
+    },
+    {
+     "id": "d",
+     "label": "It has a leading coefficient of 1"
+    }
+   ],
+   "answer": "a",
+   "explain": "Dividing a by b ≠ 0 gives a unique pair (q, r) with a = bq + r, where either r = 0 or deg(r) < deg(b): the remainder is zero or has smaller degree than the divisor.",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "prompt": "A student writes X equals 3 inside the definition of the polynomial ring and then computes. Why is this not how X behaves in the ring?",
+   "options": [
+    {
+     "id": "a",
+     "label": "X can only be replaced by 0 or 1"
+    },
+    {
+     "id": "b",
+     "label": "X must take every value at the same time"
+    },
+    {
+     "id": "c",
+     "label": "X is a constant that varies with the coefficients"
+    },
+    {
+     "id": "d",
+     "label": "X has no value other than itself and cannot vary"
+    }
+   ],
+   "answer": "d",
+   "explain": "In the polynomial ring, X is an indeterminate: a symbol with no value other than itself, so it is a constant of the ring rather than a variable.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "Over a field with only finitely many elements, can two different polynomials give exactly the same function on that field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, different polynomials always give different functions"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only the zero polynomial can do it"
+    },
+    {
+     "id": "c",
+     "label": "Yes, this can happen, unlike over an infinite field"
+    },
+    {
+     "id": "d",
+     "label": "No, but only because the field is finite"
+    }
+   ],
+   "answer": "c",
+   "explain": "Over an infinite field different polynomials define different functions, but this is false for finite fields; for instance, if K has q elements, the polynomials 0 and X^q − X both give the zero function.",
+   "cites": [
+    34,
+    35
+   ]
+  },
+  {
+   "prompt": "The coefficients come from an integral domain. Which polynomials have a multiplicative inverse in the polynomial ring?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every polynomial with leading coefficient 1"
+    },
+    {
+     "id": "b",
+     "label": "Every polynomial of degree one"
+    },
+    {
+     "id": "c",
+     "label": "Constant polynomials that are units in the coefficient ring"
+    },
+    {
+     "id": "d",
+     "label": "Every polynomial with a nonzero constant term"
+    }
+   ],
+   "answer": "c",
+   "explain": "Over an integral domain, a polynomial is a unit if and only if it is constant and is a unit in the coefficient ring.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "prompt": "A polynomial can be written as a product of two non-constant polynomials. How should it be described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Irreducible"
+    },
+    {
+     "id": "b",
+     "label": "Not irreducible"
+    },
+    {
+     "id": "c",
+     "label": "Monic"
+    },
+    {
+     "id": "d",
+     "label": "Constant"
+    }
+   ],
+   "answer": "b",
+   "explain": "A polynomial is irreducible if it is not the product of two non-constant polynomials, so one that is such a product is not irreducible.",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "prompt": "When the coefficients form a field, what mainly explains why the polynomial ring behaves so much like the integers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Long division works for polynomials much as for integers"
+    },
+    {
+     "id": "b",
+     "label": "Both rings contain only finitely many elements"
+    },
+    {
+     "id": "c",
+     "label": "Both rings let you divide by any nonzero element"
+    },
+    {
+     "id": "d",
+     "label": "Both rings are made only of constant terms"
+    }
+   ],
+   "answer": "a",
+   "explain": "Most of the similarities with the integers come from the similarity between long division of integers and long division of polynomials.",
+   "cites": [
+    39,
+    40
+   ]
+  }
+ ]
+}

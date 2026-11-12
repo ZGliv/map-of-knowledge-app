@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Partial fraction decomposition expresses a fraction of two polynomials as a sum of a polynomial, possibly zero, and one or several fractions with simpler denominators.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It matters because it provides algorithms for computing antiderivatives, Taylor series expansions, inverse Z-transforms and inverse Laplace transforms of rational functions.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "If the numerator's degree is at least the denominator's, you first divide using polynomial long division, then decompose the leftover fraction.",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discovered",
+   "value": "Independently by Johann Bernoulli and Gottfried Leibniz in 1702",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Uses",
+   "value": "Antiderivatives, Taylor series, inverse Z- and Laplace transforms",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Over complex numbers",
+   "value": "Every denominator piece has degree one, with constant numerators",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Over real numbers",
+   "value": "Some denominator pieces may be quadratic",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Residues",
+   "value": "Coefficients of the 1/(x − α_j) terms are called residues",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A fraction of polynomials has a numerator of higher degree than its denominator. What is the first move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Divide the top by the bottom with polynomial long division"
+    },
+    {
+     "id": "b",
+     "label": "Split the denominator into pieces straight away"
+    },
+    {
+     "id": "c",
+     "label": "Multiply both top and bottom by the denominator"
+    },
+    {
+     "id": "d",
+     "label": "Cancel the highest power from both"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the numerator's degree is at least the denominator's, do the Euclidean division using polynomial long division, then seek partial fractions for the remainder fraction.",
+   "cites": [
+    43,
+    44
+   ]
+  },
+  {
+   "prompt": "A calculus student must find the antiderivative of a fraction of two polynomials. How does decomposition help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It turns the fraction into a single simple term"
+    },
+    {
+     "id": "b",
+     "label": "It splits it into a polynomial plus fractions with simpler denominators"
+    },
+    {
+     "id": "c",
+     "label": "It removes the denominator completely"
+    },
+    {
+     "id": "d",
+     "label": "It only checks whether an answer exists"
+    }
+   ],
+   "answer": "b",
+   "explain": "The decomposition writes the fraction as a polynomial plus fractions with simpler denominators, which provides an algorithm for explicit antiderivatives.",
+   "cites": [
+    1,
+    2,
+    33
+   ]
+  },
+  {
+   "prompt": "A denominator has a factor that cannot be broken down further over the given field and is not of degree one. What must the numerator over that factor look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A constant, as for every other piece"
+    },
+    {
+     "id": "b",
+     "label": "Any polynomial, with no limit on its degree"
+    },
+    {
+     "id": "c",
+     "label": "A polynomial of the same degree as the factor"
+    },
+    {
+     "id": "d",
+     "label": "A polynomial of smaller degree than the factor, not just a constant"
+    }
+   ],
+   "answer": "d",
+   "explain": "Each numerator is a polynomial of smaller degree than the irreducible polynomial in its denominator, so over a factor that is not of degree one it need not be a constant.",
+   "cites": [
+    4,
+    29
+   ]
+  },
+  {
+   "prompt": "A program decomposes a fraction whose coefficients are whole numbers. Why might it use square-free factorization rather than full irreducible factorization?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is much easier to compute and avoids bringing in irrational coefficients"
+    },
+    {
+     "id": "b",
+     "label": "It always gives fewer terms than the finer decomposition does"
+    },
+    {
+     "id": "c",
+     "label": "It works only when every denominator piece has degree one"
+    },
+    {
+     "id": "d",
+     "label": "It lets the program skip the Euclidean division step entirely"
+    }
+   ],
+   "answer": "a",
+   "explain": "Replacing irreducible by square-free polynomials swaps factorization for a much easier computation. It is enough for most uses and avoids irrational coefficients when the inputs are integers or rationals.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "You have written unknown numerators over each simpler denominator. How do you find them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guess whole numbers until the sides agree"
+    },
+    {
+     "id": "b",
+     "label": "Put the pieces over a common denominator and equate coefficients of each power of x"
+    },
+    {
+     "id": "c",
+     "label": "Ignore the denominators and compare numerators one at a time"
+    },
+    {
+     "id": "d",
+     "label": "Differentiate both sides until the unknowns disappear"
+    }
+   ],
+   "answer": "b",
+   "explain": "Reducing the sum to a common denominator and equating the coefficients of each power of x gives a system of linear equations for the unknown coefficients.",
+   "cites": [
+    38
+   ]
+  },
+  {
+   "prompt": "Working over the complex numbers, what does the fundamental theorem of algebra imply about the pieces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every denominator has degree one and every numerator is a constant"
+    },
+    {
+     "id": "b",
+     "label": "Every numerator is zero and the denominators multiply"
+    },
+    {
+     "id": "c",
+     "label": "Denominators may be quadratic, with linear numerators"
+    },
+    {
+     "id": "d",
+     "label": "The decomposition no longer exists"
+    }
+   ],
+   "answer": "a",
+   "explain": "Over the complex numbers, the fundamental theorem of algebra implies that all denominator pieces have degree one and all numerators are constants.",
+   "cites": [
+    28
+   ]
+  }
+ ]
+}

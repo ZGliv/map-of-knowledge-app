@@ -1,0 +1,108 @@
+{
+ "title": "Why 7 + 8 is 3",
+ "question": "What happens to arithmetic when numbers wrap around, like hours on a clock?",
+ "hook": "On a clock face, 7 + 8 reads as 3.",
+ "idea": "Modular arithmetic replaces every result by its remainder after division by a fixed number, so numbers wrap around like the hours on a clock.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "The hour hand points to 7. What does it show 8 hours later?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "15",
+     "feedback": "Ordinary addition gives 15, but a 12-hour clock face has no 15."
+    },
+    {
+     "id": "b",
+     "label": "3",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "1",
+     "feedback": "It tempts if you subtract 12 from the wrong total, but 15 minus 12 is not 1."
+    },
+    {
+     "id": "d",
+     "label": "8",
+     "feedback": "It tempts if you think the hand returns to the number of hours waited, but it does not."
+    }
+   ],
+   "answer": "b",
+   "explain": "7 + 8 = 15, and 15 reads as 3 because the hour numbers start over after 12.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You wait 8 hours and then 8 more hours. Compared with waiting a shorter time, how does the clock change?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The same as waiting 4 hours",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "The same as waiting 8 hours",
+     "feedback": "It tempts because the repeated number is 8, but the second wait adds to the first."
+    },
+    {
+     "id": "c",
+     "label": "The same as waiting 16 hours without wrapping",
+     "feedback": "A clock face wraps around, so 16 cannot appear."
+    }
+   ],
+   "answer": "a",
+   "explain": "16 hours is one full turn of 12 plus 4 more hours, so the clock moves as it does after 4 hours.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each clock situation to what it means.",
+   "pairs": [
+    [
+     "Waiting exactly 12 hours",
+     "The hand is back where it started, so 12 acts as 0"
+    ],
+    [
+     "Ordinary 7 + 8 = 15",
+     "On the clock face it reads as 3"
+    ],
+    [
+     "Waiting 8, then 8 hours more",
+     "Same change as waiting 4 hours"
+    ]
+   ],
+   "explain": "Each time the total passes 12, the numbering starts over.",
+   "cites": [
+    7,
+    10,
+    12
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "Someone works out the hour 8 hours after 7 o'clock. One step is wrong; which?",
+   "steps": [
+    "Start at 7 and wait 8 hours.",
+    "Ordinary addition gives 7 + 8 = 15.",
+    "The hand makes a full turn every 12 hours, so the numbering starts over after 12.",
+    "So the hand points to 5."
+   ],
+   "wrong": 3,
+   "explain": "15 reads as 3 on the clock, not 5: you take 12 away from 15, leaving 3.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  }
+ ]
+}

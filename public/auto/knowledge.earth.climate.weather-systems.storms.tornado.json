@@ -1,0 +1,339 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.storms.tornado",
+ "name": "Tornado",
+ "summary": [
+  {
+   "text": "A tornado, or twister, is a rapidly rotating column of air reaching from the ground to the base of a cumulonimbus or cumulus cloud.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It usually becomes visible because the intense low pressure and fast spin make water vapour condense into a funnel cloud, though rain or dust can hide it completely.",
+   "cites": [
+    30,
+    31,
+    43
+   ]
+  },
+  {
+   "text": "Tornadoes are rated by the damage they cause, from EF0, which harms trees but not sturdy buildings, to EF5, which rips buildings off their foundations.",
+   "cites": [
+    14,
+    15,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Typical size",
+   "value": "About 80 m (250 ft) across",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Extreme wind speeds",
+   "value": "More than 480 km/h (300 mph)",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Most tornadoes",
+   "value": "The United States, by far",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Word origin",
+   "value": "Spanish tronada, meaning \"thunderstorm\"",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "TORRO scale range",
+   "value": "T0 to T11",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A spinning funnel hangs from a storm cloud but has not touched the ground. Is it a tornado yet?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any rotating funnel counts"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the winds are fast enough"
+    },
+    {
+     "id": "c",
+     "label": "No, it only counts if it hits buildings"
+    },
+    {
+     "id": "d",
+     "label": "No, it must touch both ground and cloud"
+    }
+   ],
+   "answer": "d",
+   "explain": "To count as a tornado, a vortex must be in contact with both the ground and the cloud base.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.earth.climate.weather-systems.storms.tornado:q1"
+  },
+  {
+   "prompt": "Survey teams arrive after a tornado. No one measured its winds. How will they most likely give it a Fujita rating?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By how long it lasted"
+    },
+    {
+     "id": "b",
+     "label": "By the damage it caused"
+    },
+    {
+     "id": "c",
+     "label": "By the colour of the funnel"
+    },
+    {
+     "id": "d",
+     "label": "By how many people saw it"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Fujita and Enhanced Fujita scales rate tornadoes by the damage caused.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.earth.climate.weather-systems.storms.tornado:q2"
+  },
+  {
+   "prompt": "Your neighbour calls a tornado \"a cyclone\". In meteorology, why is that wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A cyclone is a large system around low pressure"
+    },
+    {
+     "id": "b",
+     "label": "A cyclone spins only over the ocean"
+    },
+    {
+     "id": "c",
+     "label": "A cyclone has a much narrower funnel"
+    },
+    {
+     "id": "d",
+     "label": "A cyclone never brings any rain"
+    }
+   ],
+   "answer": "a",
+   "explain": "In meteorology a cyclone is a large weather system rotating around a centre of low pressure, and cyclones do not feature funnel clouds.",
+   "cites": [
+    27,
+    28,
+    29
+   ],
+   "id": "knowledge.earth.climate.weather-systems.storms.tornado:q3"
+  },
+  {
+   "prompt": "Why are tornadoes wrapped in heavy rain especially dangerous?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Rain makes their winds much faster"
+    },
+    {
+     "id": "b",
+     "label": "Rain turns them into waterspouts"
+    },
+    {
+     "id": "c",
+     "label": "Even experts may not be able to see them"
+    },
+    {
+     "id": "d",
+     "label": "Rain makes them last for several days"
+    }
+   ],
+   "answer": "c",
+   "explain": "Tornadoes can be fully hidden by rain or dust, so even experienced meteorologists might not see them.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.earth.climate.weather-systems.storms.tornado:q4"
+  },
+  {
+   "prompt": "A funnel is still high above a field, with no debris yet. A farmer assumes the ground is safe for now. What is the risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "None until the funnel visibly touches down"
+    },
+    {
+     "id": "b",
+     "label": "Strong surface winds may already be blowing"
+    },
+    {
+     "id": "c",
+     "label": "Only hail, since funnels never bring wind"
+    },
+    {
+     "id": "d",
+     "label": "Only rain, since the funnel is still forming"
+    }
+   ],
+   "answer": "b",
+   "explain": "Most tornadoes produce strong surface winds while the visible funnel is still above the ground.",
+   "cites": [
+    36
+   ],
+   "id": "knowledge.earth.climate.weather-systems.storms.tornado:q5"
+  },
+  {
+   "prompt": "A single thunderstorm drops three separate tornadoes over an afternoon. What do forecasters call that group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A tornado outbreak sequence"
+    },
+    {
+     "id": "b",
+     "label": "A derecho"
+    },
+    {
+     "id": "c",
+     "label": "A multiple-vortex tornado"
+    },
+    {
+     "id": "d",
+     "label": "A tornado family"
+    }
+   ],
+   "answer": "d",
+   "explain": "Multiple tornadoes produced by the same storm cell are called a tornado family.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.earth.climate.weather-systems.storms.tornado:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/F5_tornado_Elie_Manitoba_2007.jpg/960px-F5_tornado_Elie_Manitoba_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tornado",
+  "credit": "Justin Hobson (Justin1569 at English Wikipedia)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.jpg"
+ },
+ "source": {
+  "title": "Tornado",
+  "url": "https://en.wikipedia.org/wiki/Tornado",
+  "revision": 1383132353
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A spinning column of air",
+    "text": "A tornado, or twister, is a column of air spinning fast and violently, stretching from the ground up to the base of a cumulonimbus or cumulus cloud. To count as a tornado, the spinning column must touch both the ground and the cloud. The word means the whirling wind itself, not the cloud that may form around it.",
+    "cites": [
+     1,
+     23,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Size and power",
+    "text": "Most tornadoes have winds under 180 km/h (110 mph), are about 80 m (250 ft) wide, and travel a few kilometres before they fade. The most extreme ones are another matter. Their winds can top 480 km/h (300 mph), they can be over 3 km (2 mi) wide, and they can keep touching the ground over a track longer than 100 km (62 mi).",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Seen and unseen",
+    "text": "A tornado is not always visible. Its fast winds and rapid spin create very low pressure, and that usually makes water vapour in the air condense into droplets, forming a funnel cloud. Near the ground there is often a swirling cloud of dust and debris. Rain or dust can hide a tornado entirely, which makes it especially dangerous, since even experienced meteorologists may not see it. From far away it is also hard to tell a funnel cloud from a tornado, because most tornadoes already blow hard at the surface while the funnel is still above the ground.",
+    "cites": [
+     2,
+     30,
+     31,
+     36,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Where they happen",
+    "text": "The United States has far more tornadoes than any other country, especially in central and southeastern areas known as Tornado Alley. They also strike in South Africa, much of Europe, western and eastern Australia, New Zealand, Bangladesh and eastern India, Japan, the Philippines, and Uruguay and Argentina.",
+    "cites": [
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Rating by damage",
+    "text": "Tornadoes are rated by the damage they leave behind. The Fujita scale, now replaced in some countries by the Enhanced Fujita scale, runs from F0 or EF0, which harms trees but not solid buildings, to F5 or EF5, which tears buildings off their foundations and can bend large skyscrapers. The TORRO scale works in a similar way, from T0, for the very weakest tornadoes, up to T11, for the most powerful known. Experts may also study Doppler radar data, photogrammetry and swirl marks on the ground to settle a rating.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     19
+    ]
+   },
+   {
+    "heading": "Spotting them and their families",
+    "text": "Tornadoes can be picked up before or as they form with pulse-Doppler radar, which shows tell-tale patterns such as hook echoes or debris balls, and the work of storm spotters helps detect them as well. A single storm sometimes makes more than one tornado, at the same time or one after another, and such a group is called a tornado family. When a large storm system spawns several tornadoes with no break in activity, it counts as a tornado outbreak.",
+    "cites": [
+     12,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Where the word comes from",
+    "text": "The word comes from the Spanish tronada, meaning 'thunderstorm'. Its English spelling was nudged by another Spanish word, tornado, from tornar, 'to twist, turn'. Its cousin in name is the derecho, Spanish for 'straight', a widespread windstorm that blows in a straight line rather than packing into a small area.",
+    "cites": [
+     20,
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-jetstream-tornadoes",
+   "kind": "article",
+   "title": "Thunderstorm Hazards - Tornadoes",
+   "by": "NOAA JetStream (National Weather Service)",
+   "url": "https://www.noaa.gov/jetstream/thunderstorms/thunderstorm-hazards-tornadoes",
+   "note": "How tornadoes form from supercells, how the Enhanced Fujita scale rates them, and common myths corrected."
+  },
+  {
+   "id": "noaa-education-tornadoes",
+   "kind": "article",
+   "title": "Tornadoes",
+   "by": "NOAA Education",
+   "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/tornadoes",
+   "note": "NOAA's tornado collection: formation, forecasting and warnings, damage ratings, safety, plus lessons and videos."
+  }
+ ]
+}

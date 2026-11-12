@@ -1,0 +1,97 @@
+import type { PlaceCase } from '../types';
+
+// New cases for evolution-e03: situations its expedition and reels never name (cases/types.ts).
+// Three different twists on selection: "fittest" means most young, not biggest (hunters take the
+// big rams before they breed); a 5% edge over 140 generations carries a rare dominant version most
+// of the way; and a recessive rises slowly because few individuals carry two copies.
+// Advantages, sizes and generation counts are a teaching model; each reveal says what was measured.
+export const E03_CASES: readonly PlaceCase[] = [
+  {
+    id: 'c_qwq9t02crr',
+    archetype: 'population',
+    title: 'Shot before their prime',
+    setting: 'Ram Mountain, Alberta',
+    scenario: 'On Ram Mountain, Alberta, hunters could shoot any bighorn ram whose horns had passed a legal size. Rams with fast-growing horns reach that size years before their best breeding age. Say a fast-horn gene version is half the gene copies, and each copy a ram carries costs him 15% of his lambs.',
+    ask: 'After 6 generations, how many gene copies in 100 are the fast-horn version?',
+    model: {
+      engine: 'population',
+      trait: 'the fast-horn version',
+      who: { one: 'gene copy', many: 'gene copies' },
+      demes: [{ id: 'ram', label: 'Ram Mountain', size: 'large' }],
+      start: 0.5,
+      shows: 'additive',
+      fitness: 0.7,
+      generations: 6,
+      replicates: 1,
+      measure: 'share',
+    },
+    call: { kind: 'set', label: 'Fast-horn copies in 100', min: 0, max: 100, step: 1, start: 50, tolerance: 10 },
+    run: 'Run 6 generations',
+    reveal: 'Measured: average horn size on Ram Mountain fell by more than a fifth over 43 years, and the study team concluded the change was evolutionary. Dominant rams breed most at 8 to 10 years old, and many big-horned rams were shot before then. Fitness is counted in lambs, so the biggest rams were the least fit.',
+    claim: 'Selection favours whatever leaves the most offspring, even when that means smaller, weaker-looking individuals.',
+    entities: ['Ram Mountain', 'Alberta', 'bighorn'],
+    sources: [
+      { label: 'Coltman et al. 2003, Nature 426:655, Undesirable evolutionary consequences of trophy hunting', url: 'https://doi.org/10.1038/nature02177' },
+      { label: 'University of Alberta news 2016: The measure of a ram (Pigeon et al. 2016)', url: 'https://www.ualberta.ca/en/science/news/2016/january/the-measure-of-a-ram.html' },
+    ],
+    seed: 'e03-bighorn',
+  },
+  {
+    id: 'c_ay9yswf5rk',
+    archetype: 'population',
+    title: 'Milk after childhood',
+    setting: 'North-west Europe · the last 4,000 years',
+    scenario: 'Most adult mammals cannot digest milk. In early farming Europe, a gene version that keeps milk digestion working into adulthood was rare. One copy is enough. Say 1 in 100 people start with it, and those who have it raise 5% more children than those who do not.',
+    ask: 'After 140 generations, how many people in 100 can digest milk as adults?',
+    model: {
+      engine: 'population',
+      trait: 'milk digestion as adults',
+      who: { one: 'person', many: 'people' },
+      demes: [{ id: 'europe', label: 'North-west Europe', size: 'large' }],
+      start: 0.01,
+      shows: 'dominant',
+      fitness: 1.05,
+      generations: 140,
+      replicates: 1,
+      measure: 'share',
+    },
+    call: { kind: 'set', label: 'Milk digesters in 100', min: 0, max: 100, step: 1, start: 1, tolerance: 10 },
+    run: 'Run 140 generations',
+    reveal: 'Measured: ancient DNA shows the version first appearing in central Europe between 2450 and 2140 BCE, and today 89 to 96 in 100 people in north-west Europe carry the trait; it is among the strongest selection found in any human gene. A small edge, compounded over many generations, carries a dominant version most of the way, though the last non-carriers fade slowly.',
+    claim: 'A small advantage repeated over many generations can carry a rare variant to most of a population.',
+    entities: ['Europe'],
+    sources: [
+      { label: 'Lactase persistence (Wikipedia): dominant behaviour, frequencies, ancient DNA, strength of selection', url: 'https://en.wikipedia.org/w/index.php?title=Lactase_persistence&oldid=1369975612' },
+    ],
+    seed: 'e03-lactase',
+  },
+  {
+    id: 'c_bgmhp5438a',
+    archetype: 'population',
+    title: 'Armour off, slowly',
+    setting: 'Northern lakes · after the last ice age',
+    scenario: 'When the ice sheets melted, sea sticklebacks swam into new lakes, where light armour pays. A fish needs two copies of a low-armour gene version to be lightly armoured. Say one lake’s settlers carry it in 1 in 10 copies, so 1 fish in 100 is light, and light fish leave half again as many young.',
+    ask: 'After 20 generations, how many fish in 100 are lightly armoured?',
+    model: {
+      engine: 'population',
+      trait: 'light armour',
+      who: { one: 'fish', many: 'fish' },
+      demes: [{ id: 'lake', label: 'A new lake', size: 'large' }],
+      start: 0.01,
+      shows: 'recessive',
+      fitness: 1.5,
+      generations: 20,
+      replicates: 1,
+      measure: 'share',
+    },
+    call: { kind: 'set', label: 'Light fish in 100', min: 0, max: 100, step: 1, start: 1, tolerance: 10 },
+    run: 'Run 20 generations',
+    reveal: 'Measured: the low-armour version of the gene Eda is rare in the sea, about 1 in 100 copies, yet lake sticklebacks across the north are mostly lightly armoured. While a recessive version is uncommon, most copies sit in one-copy carriers that look armoured, so selection sees only a few fish. A version that showed with one copy would have swept most of the lake in the same time.',
+    claim: 'A recessive variant rises slowly under selection while uncommon, because most of its copies hide in carriers that do not show it.',
+    entities: ['sticklebacks', 'Eda'],
+    sources: [
+      { label: 'Barrett, Rogers & Schluter 2008, Science 322:255, Natural selection on a major armor gene in threespine stickleback', url: 'https://doi.org/10.1126/science.1159978' },
+    ],
+    seed: 'e03-stickleback-20',
+  },
+];

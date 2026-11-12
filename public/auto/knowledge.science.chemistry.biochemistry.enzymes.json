@@ -1,0 +1,575 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.enzymes",
+ "name": "Enzymes",
+ "summary": [
+  {
+   "text": "An enzyme is a biological macromolecule, usually a protein, that speeds up chemical reactions without being used up.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Enzymes lower a reaction's activation energy, often by factors of millions, and nearly all metabolic processes in a cell depend on them.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "text": "Each is highly specific because of its three-dimensional structure, and it can lose that structure and its function outside optimal conditions.",
+   "cites": [
+    12,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Reaction types",
+   "value": "Over 5,000 types of biochemical reactions",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "First enzyme found",
+   "value": "Diastase, found by Anselme Payen in 1833",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Naming rule",
+   "value": "Names usually end in -ase",
+   "cites": [
+    30,
+    39
+   ]
+  },
+  {
+   "label": "Non-protein catalysts",
+   "value": "Ribozymes are catalytic RNA molecules",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "First structure solved",
+   "value": "Lysozyme, published in 1965",
+   "cites": [
+    36
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "One enzyme helps convert many substrate molecules into product. What happens to the enzyme itself?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is used up, one enzyme per reaction"
+    },
+    {
+     "id": "b",
+     "label": "It is regenerated at the end of each cycle"
+    },
+    {
+     "id": "c",
+     "label": "It becomes part of the final product"
+    },
+    {
+     "id": "d",
+     "label": "It shifts the reaction's equilibrium"
+    }
+   ],
+   "answer": "b",
+   "explain": "Like all catalysts, enzymes do not affect the overall equilibrium and are regenerated at the end of each cycle.",
+   "cites": [
+    1,
+    11
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.enzymes:q1"
+  },
+  {
+   "prompt": "How does an enzyme make a reaction run faster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It supplies extra heat to the reaction"
+    },
+    {
+     "id": "b",
+     "label": "It shifts the balance toward more product"
+    },
+    {
+     "id": "c",
+     "label": "It adds more substrate to the mix"
+    },
+    {
+     "id": "d",
+     "label": "It lowers the reaction's activation energy"
+    }
+   ],
+   "answer": "d",
+   "explain": "Enzymes increase the reaction rate by lowering activation energy, without changing the equilibrium.",
+   "cites": [
+    9,
+    11
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.enzymes:q2"
+  },
+  {
+   "prompt": "A cook heats an enzyme-rich liquid far past its best conditions. What most likely happens to the enzymes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They lose their structure and, with it, their function"
+    },
+    {
+     "id": "b",
+     "label": "They work faster the hotter it gets"
+    },
+    {
+     "id": "c",
+     "label": "They switch to catalysing different reactions"
+    },
+    {
+     "id": "d",
+     "label": "They turn into ribozymes"
+    }
+   ],
+   "answer": "a",
+   "explain": "Outside optimal conditions, enzymes may lose their structure through denaturation, leading to loss of function.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.enzymes:q3"
+  },
+  {
+   "prompt": "Lactase cleaves lactose, and DNA polymerase forms DNA polymers. What naming pattern do enzymes like these follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The discoverer's surname plus a number"
+    },
+    {
+     "id": "b",
+     "label": "The name of the organ where each is found"
+    },
+    {
+     "id": "c",
+     "label": "-ase attached to the substrate or the type of reaction"
+    },
+    {
+     "id": "d",
+     "label": "The date each was first isolated"
+    }
+   ],
+   "answer": "c",
+   "explain": "Enzymes are usually named by combining the suffix -ase with the name of the substrate or the type of reaction.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.enzymes:q4"
+  },
+  {
+   "prompt": "A scientist finds that sugar still ferments in a yeast extract even though no living yeast cells remain. What does this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fermentation requires the life of the yeast cells"
+    },
+    {
+     "id": "b",
+     "label": "Fermentation can happen without living yeast"
+    },
+    {
+     "id": "c",
+     "label": "Sugar ferments by itself without any enzyme"
+    },
+    {
+     "id": "d",
+     "label": "Yeast extracts only ferment while still alive"
+    }
+   ],
+   "answer": "b",
+   "explain": "Buchner found that sugar was fermented by yeast extracts with no living cells in the mixture, earning a Nobel Prize for cell-free fermentation.",
+   "cites": [
+    27,
+    29
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.enzymes:q5"
+  },
+  {
+   "prompt": "In the early 1900s some scientists doubted that proteins could catalyse reactions themselves. What eventually settled it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lysozyme was found in tears, saliva and egg whites"
+    },
+    {
+     "id": "b",
+     "label": "Yeast was shown to ferment sugar only while alive"
+    },
+    {
+     "id": "c",
+     "label": "Enzyme names were standardised using EC numbers"
+    },
+    {
+     "id": "d",
+     "label": "Pure proteins such as pepsin were shown to be enzymes"
+    }
+   ],
+   "answer": "d",
+   "explain": "Northrop and Stanley definitively demonstrated that pure proteins, such as pepsin, trypsin and chymotrypsin, can be enzymes.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.enzymes:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Glucosidase_enzyme.png/960px-Glucosidase_enzyme.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Enzymes",
+  "credit": "Thomas Shafee",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Glucosidase_enzyme.png"
+ },
+ "source": {
+  "title": "Enzyme",
+  "url": "https://en.wikipedia.org/wiki/Enzyme",
+  "revision": 1376216228
+ },
+ "pack": {
+  "id": "auto-biochemistry-enzymes",
+  "title": "Catalysts that skip the wait",
+  "question": "How can a cell run reactions in milliseconds that would otherwise take forever?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Biochemistry",
+   "Enzymes"
+  ],
+  "hue": 179,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Glucosidase_enzyme.png/960px-Glucosidase_enzyme.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Enzymes",
+    "credit": "Thomas Shafee · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glucosidase_enzyme.png",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Catalysts that skip the wait",
+    "hook": "One reaction in your cells would take millions of years on its own, yet it finishes in a blink."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-biochemistry-enzymes:1",
+    "transfer": false,
+    "prompt": "A reaction would otherwise take millions of years. The cell adds its enzyme, orotidine 5′-phosphate decarboxylase. About how long does it take now?",
+    "explain": "This enzyme accelerates a reaction that would otherwise take millions of years so that it occurs in milliseconds.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Milliseconds"
+       },
+       {
+        "id": "b",
+        "label": "A few days",
+        "feedback": "That is a big speed-up, but this enzyme does far better than days."
+       },
+       {
+        "id": "a",
+        "label": "Still thousands of years",
+        "feedback": "Enzymes speed reactions up by factors of millions, so thousands of years is far too slow."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-biochemistry-enzymes:2",
+    "transfer": false,
+    "prompt": "Put these moments in the story of enzymes in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Payen discovers diastase"
+     },
+     {
+      "id": "b",
+      "label": "Kühne first uses the word enzyme"
+     },
+     {
+      "id": "c",
+      "label": "Buchner submits his first paper on yeast extracts"
+     },
+     {
+      "id": "d",
+      "label": "The structure of lysozyme is published"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Diastase was found in 1833, the word enzyme was first used in 1877, Buchner’s first paper came in 1897, and the lysozyme structure appeared in 1965."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-biochemistry-enzymes:3",
+    "transfer": true,
+    "prompt": "Match each enzyme to what it does.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Lactase"
+     },
+     {
+      "id": "l1",
+      "label": "DNA polymerase"
+     },
+     {
+      "id": "l2",
+      "label": "Papain"
+     },
+     {
+      "id": "l3",
+      "label": "Lysozyme"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Cleaves lactose"
+     },
+     {
+      "id": "r1",
+      "label": "Forms DNA polymers"
+     },
+     {
+      "id": "r3",
+      "label": "Digests the coating of some bacteria"
+     },
+     {
+      "id": "r2",
+      "label": "Hydrolyzes proteins to tenderize meat"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Enzymes are specific: each is named for, and suited to, the substrate or reaction it handles."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-biochemistry-enzymes:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "An enzyme speeds up a reaction by lowering its activation energy."
+     },
+     {
+      "id": "b",
+      "text": "The enzyme is regenerated at the end of each cycle, so it is not used up."
+     },
+     {
+      "id": "c",
+      "text": "Because it pushes the reaction forward, it also moves the final balance toward more product."
+     },
+     {
+      "id": "d",
+      "text": "So adding more enzyme would bring the reaction to its end point sooner, with the same balance."
+     }
+    ],
+    "answer": "c",
+    "explain": "Like all catalysts, enzymes do not affect the overall equilibrium of a reaction."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Enzymes lower the activation energy of a reaction, so it runs fast, and they come out of each cycle ready to go again.",
+    "connections": [
+     {
+      "title": "Active site",
+      "place": "Enzymes",
+      "node": "knowledge.science.chemistry.biochemistry.enzymes.active-site"
+     },
+     {
+      "title": "Michaelis–Menten kinetics",
+      "place": "Enzymes",
+      "node": "knowledge.science.chemistry.biochemistry.enzymes.michaelis-menten-kinetics"
+     },
+     {
+      "title": "Enzyme inhibitor",
+      "place": "Enzymes",
+      "node": "knowledge.science.chemistry.biochemistry.enzymes.enzyme-inhibitor"
+     },
+     {
+      "title": "Coenzyme",
+      "place": "Enzymes",
+      "node": "knowledge.science.chemistry.biochemistry.enzymes.coenzyme"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "This enzyme accelerates a reaction that would otherwise take millions of years so that it occurs in milliseconds.",
+    "source": "Wikipedia sentences 9, 10"
+   },
+   {
+    "claim": "Diastase was found in 1833, the word enzyme was first used in 1877, Buchner’s first paper came in 1897, and the lysozyme structure appeared in 1965.",
+    "source": "Wikipedia sentences 21, 24, 26, 36"
+   },
+   {
+    "claim": "Enzymes are specific: each is named for, and suited to, the substrate or reaction it handles.",
+    "source": "Wikipedia sentences 18, 30, 36"
+   },
+   {
+    "claim": "Like all catalysts, enzymes do not affect the overall equilibrium of a reaction.",
+    "source": "Wikipedia sentences 9, 11"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an enzyme is",
+    "text": "An enzyme is a large biological molecule, usually a protein, that works as a catalyst: it speeds up a chemical reaction without being used up. The molecules it acts on are its substrates, and it turns them into products. Almost every metabolic process in a cell needs enzymes to run at a useful speed, and a metabolic pathway is usually a series of enzyme-driven steps. Enzymes are known to catalyse more than 5,000 kinds of biochemical reaction.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "heading": "How they speed things up",
+    "text": "Enzymes work by lowering a reaction's activation energy, often speeding it up by factors of millions. One enzyme, orotidine 5′-phosphate decarboxylase, turns a reaction that would otherwise take millions of years into one that takes milliseconds. Like all catalysts, enzymes do not shift a reaction's overall equilibrium, and they are restored at the end of each cycle.",
+    "cites": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Picky and sensitive",
+    "text": "What sets enzymes apart is how specific they are, a result of each one's particular three-dimensional shape. They are also sensitive to conditions such as temperature and pH. Outside their best conditions they can lose their shape, a change called denaturation, and stop working. Activators can boost their activity and inhibitors can reduce it, and many such substances act as drugs or poisons.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "From ferments to enzymes",
+    "text": "By the late 1600s and early 1700s, people knew that stomach juices digest meat and that saliva and plant extracts turn starch into sugar, but not how. In 1833 the French chemist Anselme Payen discovered the first enzyme, diastase. Louis Pasteur later argued that yeast turns sugar into alcohol through a vital force that worked only inside living cells. In 1877 Wilhelm Kühne coined the word enzyme, from Greek meaning 'in yeast'.",
+    "cites": [
+     20,
+     21,
+     22,
+     24
+    ]
+   },
+   {
+    "heading": "Life not required",
+    "text": "Eduard Buchner, who published his first paper on yeast extracts in 1897, found that the extracts could ferment sugar even with no living yeast cells present. He called the responsible enzyme zymase and won the 1907 Nobel Prize in Chemistry. Whether enzymes were proteins was still disputed; some argued proteins only carried the true enzymes. John Howard Northrop and Wendell Meredith Stanley settled it by showing that pure proteins, such as the digestive enzyme pepsin, can be enzymes.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Seeing the shape",
+    "text": "Because enzymes can be crystallized, their structures could eventually be worked out with x-ray crystallography. The first was lysozyme, which occurs in saliva, tears and egg whites and digests the coating of some bacteria; its structure was published in 1965. That result began the field of structural biology and the effort to see how enzymes work atom by atom.",
+    "cites": [
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Names and numbers",
+    "text": "Most enzyme names end in -ase and come from the substrate or the reaction: lactase cleaves lactose, and DNA polymerase builds DNA. Different enzymes that catalyse the same reaction are called isozymes. Each enzyme can also be given an EC number, a set of four numbers that runs from a broad class to a very specific activity.",
+    "cites": [
+     30,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Enzymes at work for us",
+    "text": "Enzymes are put to work outside living things too. Industry uses them to help produce antibiotics and other complex molecules. Biological washing powders contain enzymes that break down protein, starch and fat stains, and meat tenderizers use papain to break down proteins.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-5",
+   "kind": "book",
+   "title": "6.5 Enzymes",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+   "note": "A free college textbook section on active sites, induced fit, cofactors and how inhibitors slow enzymes down."
+  },
+  {
+   "id": "mit-enzymes",
+   "kind": "video",
+   "title": "4. Enzymes & Metabolism",
+   "by": "MIT OpenCourseWare",
+   "url": "https://www.youtube.com/watch?v=QTdJiG7mV40",
+   "note": "A full MIT introductory biology lecture on how enzymes work and drive metabolism."
+  },
+  {
+   "id": "libretexts-catalysis",
+   "kind": "book",
+   "title": "4.1: Basic Principles of Catalysis",
+   "by": "Kevin Ahern, Indira Rajagopal and Taralyn Tan (LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Biochemistry/Book%3A_Biochemistry_Free_For_All_(Ahern_Rajagopal_and_Tan)/04%3A_Catalysis/4.01%3A_Basic_Principles_of_Catalysis",
+   "note": "A free biochemistry chapter on how enzymes lower activation energy, with the lock-and-key and induced fit models.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

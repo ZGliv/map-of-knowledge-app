@@ -1,0 +1,535 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.joint-distributions",
+ "name": "Joint distributions",
+ "summary": [
+  {
+   "text": "A joint distribution gives the probability that two or more random variables land in particular ranges or sets of values together.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "With exactly two variables it is called bivariate, and from it you can work out each variable's marginal distribution and the conditional distributions.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "In a table for two draws, each inner cell holds the probability of one combination of results, and all the cells together sum to 1.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two variables",
+   "value": "With only two random variables it is called bivariate",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Discrete case",
+   "value": "Described by a joint probability mass function",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Continuous case",
+   "value": "Described by a joint probability density function",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Table total",
+   "value": "The probabilities in all the cells sum to 1",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Independent draws",
+   "value": "A cell's probability is the product of each result's probability",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two independent draws are made, A and B. How do you get the probability of one particular combination of results, such as a specific result for each?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add the probability of A's result to B's result"
+    },
+    {
+     "id": "b",
+     "label": "Multiply the probability of A's result by B's result"
+    },
+    {
+     "id": "c",
+     "label": "Take the larger of the two probabilities"
+    },
+    {
+     "id": "d",
+     "label": "Average the two probabilities together"
+    }
+   ],
+   "answer": "b",
+   "explain": "Because the draws are independent, the chance of a combination in one cell is the product of the chances of each result.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions:q1"
+  },
+  {
+   "prompt": "You list every possible combination of results from two draws and write the probability of each one. What should all those probabilities add up to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number of combinations listed"
+    },
+    {
+     "id": "b",
+     "label": "One half, since there are two draws"
+    },
+    {
+     "id": "c",
+     "label": "Exactly 1"
+    },
+    {
+     "id": "d",
+     "label": "It changes with how many draws there are"
+    }
+   ],
+   "answer": "c",
+   "explain": "Some combination is certain to occur, so the cell probabilities sum to 1, as with every probability distribution.",
+   "cites": [
+    7,
+    14
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions:q2"
+  },
+  {
+   "prompt": "You roll a fair die. A is 1 when the roll is even, and B is 1 when the roll is prime (2, 3 or 5). Which roll makes both A and B equal 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "3"
+    },
+    {
+     "id": "b",
+     "label": "4"
+    },
+    {
+     "id": "c",
+     "label": "5"
+    },
+    {
+     "id": "d",
+     "label": "2"
+    }
+   ],
+   "answer": "d",
+   "explain": "Even rolls are 2, 4 and 6; prime rolls are 2, 3 and 5. Only 2 is on both lists.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions:q3"
+  },
+  {
+   "prompt": "A teacher records each student's study time and test score together. She then asks only about scores, ignoring study time. What is the score distribution on its own called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A conditional distribution"
+    },
+    {
+     "id": "b",
+     "label": "A marginal distribution"
+    },
+    {
+     "id": "c",
+     "label": "A bivariate distribution"
+    },
+    {
+     "id": "d",
+     "label": "A cumulative distribution"
+    }
+   ],
+   "answer": "b",
+   "explain": "A marginal distribution gives the probabilities for one variable with no reference to the values of the others.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions:q4"
+  },
+  {
+   "prompt": "Height and weight can each take any value in a range. Which tool describes their joint distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A joint probability mass function"
+    },
+    {
+     "id": "b",
+     "label": "A table of counts of whole numbers only"
+    },
+    {
+     "id": "c",
+     "label": "A joint probability density function"
+    },
+    {
+     "id": "d",
+     "label": "A single marginal distribution"
+    }
+   ],
+   "answer": "c",
+   "explain": "For continuous variables the joint distribution is expressed with a joint probability density function; the mass function is for discrete variables.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions:q5"
+  },
+  {
+   "prompt": "A weather study records both temperature and rainfall for every day, treating them together. What is the name for a joint distribution of exactly two variables?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multivariate only, never anything shorter"
+    },
+    {
+     "id": "b",
+     "label": "Marginal"
+    },
+    {
+     "id": "c",
+     "label": "Conditional"
+    },
+    {
+     "id": "d",
+     "label": "Bivariate"
+    }
+   ],
+   "answer": "d",
+   "explain": "With only two random variables the joint distribution is called bivariate, though the idea extends to any number.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.joint-distributions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Multivariate_normal_sample.svg/960px-Multivariate_normal_sample.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Joint distributions",
+  "credit": "IkamusumeFan",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Multivariate_normal_sample.svg"
+ },
+ "source": {
+  "title": "Joint probability distribution",
+  "url": "https://en.wikipedia.org/wiki/Joint_probability_distribution",
+  "revision": 1383926308
+ },
+ "pack": {
+  "id": "auto-random-variables-joint-distributions",
+  "title": "Two draws, one table",
+  "question": "How can you describe two random results at the same time?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Random variables",
+   "Joint distributions"
+  ],
+  "hue": 38,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Multivariate_normal_sample.svg/960px-Multivariate_normal_sample.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Joint distributions",
+    "credit": "IkamusumeFan · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Multivariate_normal_sample.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Two draws, one table",
+    "hook": "One table can hold every combination of two results and still hide each result's own odds in its edges."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-random-variables-joint-distributions:1",
+    "transfer": false,
+    "prompt": "A table lists the probability of every combination of results from two draws. You add up all the cells in the table. What total do you get?",
+    "explain": "The cells cover every combination, and some combination is certain to occur, so they sum to 1.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Less than 1, because the draws are independent",
+        "feedback": "Independence changes how each cell is worked out (a product), not the total."
+       },
+       {
+        "id": "d",
+        "label": "2, once for each draw",
+        "feedback": "The number of draws does not change the total, since each combination is counted once."
+       },
+       {
+        "id": "c",
+        "label": "Whatever the largest cell is",
+        "feedback": "The cells are separate combinations, and all of them count toward the total."
+       },
+       {
+        "id": "a",
+        "label": "Exactly 1",
+        "feedback": ""
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-random-variables-joint-distributions:2",
+    "transfer": false,
+    "prompt": "Match each kind of distribution to what it gives.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Joint distribution"
+     },
+     {
+      "id": "l1",
+      "label": "Marginal distribution"
+     },
+     {
+      "id": "l2",
+      "label": "Conditional distribution"
+     },
+     {
+      "id": "l3",
+      "label": "Bivariate distribution"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "The probability of each combination of the variables"
+     },
+     {
+      "id": "r2",
+      "label": "Probabilities for some variables given values of the rest"
+     },
+     {
+      "id": "r3",
+      "label": "A joint distribution of exactly two variables"
+     },
+     {
+      "id": "r1",
+      "label": "The probabilities for one variable, ignoring the others"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The joint distribution is the whole table; the other two are read from it, and bivariate just means two variables."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-random-variables-joint-distributions:3",
+    "transfer": true,
+    "prompt": "You roll a fair die. A is 1 for an even roll and B is 1 for a prime roll (2, 3, 5). Which roll makes both equal 1?",
+    "explain": "Even rolls are 2, 4 and 6 and primes are 2, 3 and 5, so only 2 belongs to both.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "4",
+        "feedback": "4 is even but not prime."
+       },
+       {
+        "id": "b",
+        "label": "2",
+        "feedback": ""
+       },
+       {
+        "id": "c",
+        "label": "3",
+        "feedback": "3 is prime but not even."
+       },
+       {
+        "id": "d",
+        "label": "5",
+        "feedback": "5 is prime but not even."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-random-variables-joint-distributions:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about a joint table is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A table shows the probability of each combination of results for A and B."
+     },
+     {
+      "id": "b",
+      "text": "To get the chance of A alone, add the cells across every possible result for B."
+     },
+     {
+      "id": "c",
+      "text": "Those sums are written in the margin of the table."
+     },
+     {
+      "id": "d",
+      "text": "So the margin shows the chance of A only when B takes one particular value."
+     }
+    ],
+    "answer": "d",
+    "explain": "The margin sums over every value of B, so it gives A's probability without reference to B at all."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A joint distribution gives the probability of each combination, and summing along the table's edges gives each variable's own distribution.",
+    "connections": [
+     {
+      "title": "Marginal distribution",
+      "place": "Joint distributions",
+      "node": "knowledge.mathematics.probability.random-variables.joint-distributions.marginal-distribution"
+     },
+     {
+      "title": "Correlation",
+      "place": "Joint distributions",
+      "node": "knowledge.mathematics.probability.random-variables.joint-distributions.correlation"
+     },
+     {
+      "title": "Conditional expectation",
+      "place": "Joint distributions",
+      "node": "knowledge.mathematics.probability.random-variables.joint-distributions.conditional-expectation"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The cells cover every combination, and some combination is certain to occur, so they sum to 1.",
+    "source": "Wikipedia sentences 7, 14"
+   },
+   {
+    "claim": "The joint distribution is the whole table; the other two are read from it, and bivariate just means two variables.",
+    "source": "Wikipedia sentences 1, 2, 4"
+   },
+   {
+    "claim": "Even rolls are 2, 4 and 6 and primes are 2, 3 and 5, so only 2 belongs to both.",
+    "source": "Wikipedia sentences 12, 13"
+   },
+   {
+    "claim": "The margin sums over every value of B, so it gives A's probability without reference to B at all.",
+    "source": "Wikipedia sentences 8, 9, 10"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Several variables at once",
+    "text": "When several random variables, say X and Y, are defined on the same probability space, their joint distribution gives the probability that each one falls in whatever range or set of values you pick for it. With just two variables it is called a bivariate distribution. The same idea works for any number of variables.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Ways to write it down",
+    "text": "A joint distribution can be described by a joint cumulative distribution function. It can also be given by a joint probability density function when the variables are continuous, or a joint probability mass function when they are discrete. From these you can get two other kinds of distribution. The marginal distribution gives the probabilities for one variable with no reference to the others. The conditional distribution gives the probabilities for some variables once the rest are fixed at particular values.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Reading a table",
+    "text": "Picture a table for two draws, A and B. Each of the four inner cells holds the probability of one combination of results, and together those cells are the joint distribution. Because the draws are independent, each cell is the probability of A's result times the probability of B's result. The four cells add up to 1, as every probability distribution must. The last row and last column give the marginal distributions of A and B; for example, the chance that A is red, whatever B turns out to be, is 2/3, written in the margin.",
+    "cites": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "A die example",
+    "text": "Roll a fair die. Let A be 1 if the number is even (2, 4 or 6) and 0 otherwise, and let B be 1 if the number is prime (2, 3 or 5) and 0 otherwise. The joint probability mass function of A and B gives a probability for each pair of outcomes. These probabilities must add up to 1, since some combination of A and B is certain to happen.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "When variables are independent",
+    "text": "Two discrete random variables X and Y are independent exactly when, for every x and y, the chance that X = x and Y = y together equals P(X = x) times P(Y = y). For continuous variables the test is the same with densities: for all x and y, the joint density f_(X,Y)(x, y) must equal f_X(x) times f_Y(y). In plain terms, learning something about one variable leaves the distribution of the others just as it was. None of them tells you anything about the others.",
+    "cites": [
+     26,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Measuring how they move together",
+    "text": "It is often useful to measure how two variables vary together. A common measure is the covariance, which tracks a linear relationship and may miss a relationship that is not linear. The correlation scales the covariance by the product of the two standard deviations, so it has no units and can compare pairs of variables measured in different units. If the points of the joint distribution that have positive probability tend to lie along a rising line, the correlation is near +1; along a falling line, near −1. A correlation of exactly +1 or −1 means those points lie exactly on a straight line.",
+    "cites": [
+     34,
+     35,
+     36,
+     37,
+     39,
+     40,
+     41,
+     42
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "pfeiffer-joint",
+   "kind": "book",
+   "title": "8: Random Vectors and Joint Distributions - Applied Probability (Pfeiffer)",
+   "by": "Paul Pfeiffer",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Applied_Probability_(Pfeiffer)/08%3A_Random_Vectors_and_Joint_Distributions",
+   "note": "A free probability textbook chapter on random vectors and their joint distributions, with worked examples and problems.",
+   "license": "CC BY 3.0"
+  }
+ ]
+}

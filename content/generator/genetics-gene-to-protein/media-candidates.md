@@ -1,0 +1,642 @@
+# Media candidates: genetics-gene-to-protein
+
+All on the licence allowlist with no restrictions. ShareAlike files can only be shown whole (no cover, no documentary pan, no ink tone). CC BY files that are cropped must say "cropped" in the credit.
+
+- **File:Ribosome mRNA translation en.svg** · Public domain · LadyofHats · 2008-09-29 · 512×361
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ribosome_mRNA_translation_en.svg/1280px-Ribosome_mRNA_translation_en.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_en.svg
+  - Translation: Illustrates how a ribosome a mRNA and lots of tRNA molecules work together to produce peptides or proteins.
+- **File:Ribosome mRNA translation ta.png** · CC BY-SA 3.0 · G.Kiruthikan · 2014-06-05 08:27:04 · 651×459
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5a/Ribosome_mRNA_translation_ta.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ta.png
+  - mRNAஆல் கோடோனாக்கப்பட்ட மரபணுத் தகவலைக் கொண்டு tRNAஆல் காவப்படும் அமினோ அமிலங்களை ஒன்றிணைத்துப் இறைபோசோமில் புரதச் சங்கிலியை ஆக்கும் மொழிபெயர்ப்புச் செயன்முறை.
+- **File:Ribosome mRNA translation vi.svg** · CC0 · LadyofHats · 2020-12-28 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ribosome_mRNA_translation_vi.svg/1280px-Ribosome_mRNA_translation_vi.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_vi.svg
+  - Ribosome (màu xanh lá cây) tổng hợp một protein (trong hình là chuỗi hạt tròn đại diện cho các axit amin) được mã hóa trong mRNA (chuỗi nucleotide)
+- **File:Ribosome mRNA translation de.svg** · Public domain · Matt · 2009-07-03 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Ribosome_mRNA_translation_de.svg/1280px-Ribosome_mRNA_translation_de.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_de.svg
+  - Schema, das die Translation von mRNA und die Synthese von Proteinen am Ribosom zeigt. Dies ist die ins Deutsche übersetzte Version.
+- **File:Ribosome mRNA translation pt.svg** · Public domain · LadyofHats Translation: Nossedotti (Anderson Brito) · 2011-03-25 20:07 · 667×480
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ribosome_mRNA_translation_pt.svg/1280px-Ribosome_mRNA_translation_pt.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_pt.svg
+  - diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes.
+- **File:Ribosome mRNA translation nl.svg** · CC BY-SA 4.0 · LadyofHats, translated by TheBartgry · 2020-01-17 · 660×495
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Ribosome_mRNA_translation_nl.svg/1280px-Ribosome_mRNA_translation_nl.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_nl.svg
+  - Schematische weergave van de translatie
+- **File:Ribosome mRNA translation kn.png** · CC0 · User:LadyofHats; translated into Kannada by User:ಪ್ರದೀಪ್ ಬೆಳಗಲ್ · ೨೦೧೬-೦೬-೧೮ · 651×459
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f5/Ribosome_mRNA_translation_kn.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_kn.png
+  - ಎಂಆರ್‌ಎನ್ಎ ಅನುವಾದ ಮತ್ತು ರೈಬೋಸೋಮ್‌ಗಳು ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ಸಂಯೋಜಿಸುವ ಚಿತ್ರ
+- **File:Ribosome mRNA translation it.svg** · Public domain · Ribosome_mRNA_translation_en.svg: LadyofHats derivative work: Jacopo Werther · 2009-07-03 22:39 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ribosome_mRNA_translation_it.svg/1280px-Ribosome_mRNA_translation_it.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_it.svg
+  - diagram showing how the translation of the mRNA and the synthesis of proteins is made by Jedi.
+- **File:Ribosome mRNA translation uk.svg** · Public domain · LadyofHats · 2011-10-30 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ribosome_mRNA_translation_uk.svg/1280px-Ribosome_mRNA_translation_uk.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_uk.svg
+  - Схема трансляції
+- **File:Ribosome mRNA translation zh.svg** · Public domain · Ribosome_mRNA_translation_en.svg: LadyofHats derivative work: Shakiestone (talk) · 2011-02-09 06:49 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Ribosome_mRNA_translation_zh.svg/1280px-Ribosome_mRNA_translation_zh.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_zh.svg
+  - diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes.
+- **File:Ribosome mRNA translation tr.svg** · Public domain · Translation: Srhat Original diagram: LadyofHats · 2008-09-29 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ribosome_mRNA_translation_tr.svg/1280px-Ribosome_mRNA_translation_tr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_tr.svg
+  - diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes.
+- **File:Ribosome mRNA translation es.svg** · Public domain · Parri. · 2011-11-06 · 711×511
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ribosome_mRNA_translation_es.svg/1280px-Ribosome_mRNA_translation_es.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_es.svg
+  - Diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes.
+- **File:Ribosome mRNA translation pl.svg** · Public domain · LadyofHats, translated by Żbiczek · 29 september 2008, translated 10 november 2008 · 646×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ribosome_mRNA_translation_pl.svg/1280px-Ribosome_mRNA_translation_pl.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_pl.svg
+  - Diagram showing the translation of mRNA by ribosomes. Polish version.
+- **File:Ribosome mRNA translation gl.svg** · CC0 · original by User:LadyofHats. Derivative work by Miguelferig · 2013-10-26 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ribosome_mRNA_translation_gl.svg/1280px-Ribosome_mRNA_translation_gl.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_gl.svg
+  - Ribosome and protein translation
+- **File:Ribosome mRNA translation ca.svg** · CC BY-SA 3.0 · Jmarchn · 2020-11-12 · 711×511
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Ribosome_mRNA_translation_ca.svg/1280px-Ribosome_mRNA_translation_ca.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ca.svg
+  - Ribosoma en una síntesi proteica
+- **File:Ribosome mRNA translation sr.svg** · CC BY-SA 3.0 · Dcirovic · 2012-04-23 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Ribosome_mRNA_translation_sr.svg/1280px-Ribosome_mRNA_translation_sr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_sr.svg
+  - Serbian translation of the File:Ribosome mRNA translation en.svg
+- **File:Ribosome mRNA translation fr.svg** · Public domain · LadyofHats. Translation by Berru. · 2008-09-29 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ribosome_mRNA_translation_fr.svg/1280px-Ribosome_mRNA_translation_fr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_fr.svg
+  - diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes. Labels are in French
+- **File:Ribosome mRNA translation ku.svg** · Public domain · LadyofHats · 2017-08-23 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Ribosome_mRNA_translation_ku.svg/1280px-Ribosome_mRNA_translation_ku.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ku.svg
+  - Rîbozom bi navbeynkariya ARNm û ARNt yê ,ji asîdên amînî proteîn çê dikin.
+- **File:Ribosome mRNA translation cs.svg** · CC0 · Ribosome_mRNA_translation_es.svg: LadyofHats. Translation by User: Parri. derivative work: Faskal · 2011-11-06 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ribosome_mRNA_translation_cs.svg/1280px-Ribosome_mRNA_translation_cs.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_cs.svg
+  - Diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes.
+- **File:Ribosome mRNA translation ru.svg** · CC BY-SA 4.0 · Донор · 2016-12-27 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ribosome_mRNA_translation_ru.svg/1280px-Ribosome_mRNA_translation_ru.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ru.svg
+  - Упрощённая схема трансляции мРНК
+- **File:Ribosome mRNA translation hr.svg** · Public domain · File:Ribosome mRNA translation en.svg: LadyofHats MaGa · 2014-12-25 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ribosome_mRNA_translation_hr.svg/1280px-Ribosome_mRNA_translation_hr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_hr.svg
+  - Prevođenje mRNK i sinteza proteina ribosomom
+- **File:Ribosome mRNA translation es-eu.svg** · CC BY-SA 4.0 · Translated by Own work · 2023-11-03 · 711×511
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Ribosome_mRNA_translation_es-eu.svg/1280px-Ribosome_mRNA_translation_es-eu.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_es-eu.svg
+  - Ribosome mRNA translation es-eu
+- **File:Ribosome mRNA translation ar.svg** · CC BY-SA 4.0 · File:Ribosome mRNA translation en.svg: LadyofHats · 2018-11-09 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ribosome_mRNA_translation_ar.svg/1280px-Ribosome_mRNA_translation_ar.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ar.svg
+  - رسم توضيحي يبين طريقة ترجمة الرنا الرسول وتخليق البروتين بواسطة الريبوسوم.
+- **File:Ribosome mRNA translation bg.svg** · Public domain · Gabby8228 · 2012-01-08 · 651×459
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ribosome_mRNA_translation_bg.svg/1280px-Ribosome_mRNA_translation_bg.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_bg.svg
+  - diagram showing how the translation of the mRNA and the synthesis of proteins is made by ribosomes.
+- **File:Ribosome mRNA translation ta.jpg** · CC0 · original author: User:LadyofHats Derivation by User:5anan27 · 2016-01-19 02:53:56 · 651×459
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9c/Ribosome_mRNA_translation_ta.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ta.jpg
+  - இறைபோசோமில் தூதாறனை மொழிமாற்றப்படல்
+- **File:Codon-Sonne Aminosäurenamen deutsch.svg** · CC0 · Robert Kohlmann · 2017-03-10 · 649×642
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Codon-Sonne_Aminos%C3%A4urenamen_deutsch.svg/1280px-Codon-Sonne_Aminos%C3%A4urenamen_deutsch.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Codon-Sonne_Aminos%C3%A4urenamen_deutsch.svg
+  - The Codon-Wheel with the amino-acid names in german instead of international letter.
+- **File:GeneticCode21-version-2.svg** · Public domain · Edited by Seth Miller User:arapacana, Original file designed and produced by: Kosi Gramatikoff User:Kosigrim, courtesy of Abgent, also available in print (commercial offset one-page: original version of the image) by Abgent · 2008-02-09 · 579×749
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/GeneticCode21-version-2.svg/1280px-GeneticCode21-version-2.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:GeneticCode21-version-2.svg
+  - A (corrected) chart showing the relationship between codons and amino acids.
+- **File:Genetic code ta.png** · CC BY-SA 3.0 · G.Kiruthikan · 2014-06-04 16:35:57 · 870×330
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d6/Genetic_code_ta.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code_ta.png
+  - மரபணு வெளிப்பாடு எளிய வரைபடம்
+- **File:Genetic code zh.png** · CC BY-SA 3.0 · webridge, the original one (English version) is made by Madprime · 0012 · 580×220
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/aa/Genetic_code_zh.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code_zh.png
+  - Chinese translation of Genetic code.svg
+- **File:GeneticCode21-landscape-2nd-pos.svg** · CC BY-SA 4.0 · Ppgardne · 2022-06-18 · 798×617
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/GeneticCode21-landscape-2nd-pos.svg/1280px-GeneticCode21-landscape-2nd-pos.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:GeneticCode21-landscape-2nd-pos.svg
+  - A landscape version of the original File:GeneticCode21.svg file. The code has been reordered to emphasise the second codon position that often corresponds to amino-acid type. Based upon Figure 3 from Saier (2019).
+- **File:Amino Acid Codon Table.svg** · CC BY-SA 4.0 · Scott Henry Maxwell · 2018-11-13 · 1315×1240
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Amino_Acid_Codon_Table.svg/1280px-Amino_Acid_Codon_Table.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Amino_Acid_Codon_Table.svg
+  - Cells decode mRNAs by reading their nucleotides in groups of three which are called codons.
+- **File:Genetic-code-with-images.svg** · CC BY-SA 4.0 · Meir2 · 2024-09-21 · 1134×1154
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Genetic-code-with-images.svg/1280px-Genetic-code-with-images.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic-code-with-images.svg
+  - תרשים של הקוד הגנטי עם ציורים של החמוצות אמינו והחומצות גרעין המתאימות. התרשים מבוסס על File:Aminoacids table.svg ו File:GeneticCode.jpg
+- **File:Genetic code zh.svg** · CC BY-SA 3.0 · webridge, the original one (English version) is made by Madprime · 0012 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Genetic_code_zh.svg/1280px-Genetic_code_zh.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code_zh.svg
+  - Chinese translation of Genetic code.svg
+- **File:FACIL genetic code logo.png** · CC BY 2.5 · Bas E. Dutilh, Rasa Jurgelenaite, Radek Szklarczyk, Sacha A.F.T. van Hijum, Harry R. Harhangi, Markus Schmid, Bart de Wild, Kees-Jan Françoijs, Hendrik G. Stunnenberg, Marc Strous, Mike S.M. Jetten, Huub J.M. Op den Camp and Martijn A. Huynen · 2013-04-13 12:51:34 · 5120×550
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FACIL_genetic_code_logo.png/1280px-FACIL_genetic_code_logo.png
+  - page: https://commons.wikimedia.org/wiki/File:FACIL_genetic_code_logo.png
+  - Genetic code logo of the Globobulimina pseudospinescens mitochondrial genome. The logo shows the 64 codons from left to right, predicted alternatives in red (relative to the standard genetic code). Red line: stop codons. The height of each amino acid in the stack shows how often it is aligned to the
+- **File:Genetic Code Structure.JPG** · Public domain · Doug youvan · 5/10/2008 · 630×563
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/72/Genetic_Code_Structure.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_Code_Structure.JPG
+  - Intelligent Design, ID, Darwin, Evolution, Panspermia, "God Did It", GDI, Hydropathy, Molar Volume, Codon Amino acid residues: G - Glycine (Gly) P - Proline (Pro) A - Alanine (Ala) V - Valine (Val) L - Leucine (Leu) I - Isoleucine (Ile) M - Methionine (Met) C - Cysteine (Cys) F - Phenylalanine (Phe)
+- **File:Genetic Code Structure FWY.JPG** · Public domain · Doug youvan · 1992 · 1018×492
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b7/Genetic_Code_Structure_FWY.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_Code_Structure_FWY.JPG
+  - Encoding of the hydopathy and molar volume of amino acid residues in patterns within the biological genetic code, pre-translation
+- **File:Genetic code-hi.svg** · CC BY-SA 4.0 · Translated in Hindi by User:Goutam1962 · 2019-03-25 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Genetic_code-hi.svg/1280px-Genetic_code-hi.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code-hi.svg
+  - Diagram of the central dogma, DNA to RNA to protein, illustrating the genetic code labelled in Hindi
+- **File:Genetic code-bn.svg** · CC BY-SA 4.0 · Sumita Roy Dutta · 2019-03-25 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Genetic_code-bn.svg/1280px-Genetic_code-bn.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code-bn.svg
+  - Diagram of the central dogma, DNA to RNA to protein, illustrating the genetic code. This happens to be the first few amino acids for the alpha subunit of hemoglobin. The sixth amino acid here (glutamic acid, "E") is mutated in sickle cell anemia versions of the molecule. The mRNA does have a "start 
+- **File:Genetic code-te.svg** · CC BY-SA 4.0 · Translated into Telugu by User:Naga sai sravanth · 2019-03-31 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Genetic_code-te.svg/1280px-Genetic_code-te.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code-te.svg
+  - Diagram of the central dogma, DNA to RNA to protein, illustrating the genetic code. This happens to be the first few amino acids for the alpha subunit of hemoglobin. The sixth amino acid here (glutamic acid, "E") is mutated in sickle cell anemia versions of the molecule. The mRNA does have a "start 
+- **File:Genetic code-mr.svg** · CC BY-SA 4.0 · Translated into Marathi byUser: गायत्री शेखर पाटील · 2019-03-31 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Genetic_code-mr.svg/1280px-Genetic_code-mr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code-mr.svg
+  - File:Genetic code.svg
+- **File:ELLIPTICAL GENETIC CODE Ian.png** · CC BY-SA 4.0 · Doug Youvan, Frank Layden · 2008-05-30 · 7380×6660
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/ELLIPTICAL_GENETIC_CODE_Ian.png/1280px-ELLIPTICAL_GENETIC_CODE_Ian.png
+  - page: https://commons.wikimedia.org/wiki/File:ELLIPTICAL_GENETIC_CODE_Ian.png
+  - File:Hydropathy Molar Volume Genetic Code 2.png corrected
+- **File:Genetic code-ne.svg** · CC BY-SA 4.0 · Translated to Nepali by BRPever · 2019-03-16 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Genetic_code-ne.svg/1280px-Genetic_code-ne.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code-ne.svg
+  - Diagram of the central dogma, DNA to RNA to protein, illustrating the genetic code. This happens to be the first few amino acids for the alpha subunit of hemoglobin. The sixth amino acid here (glutamic acid, "E") is mutated in sickle cell anemia versions of the molecule. The mRNA does have a "start 
+- **File:Genetic Code Bias 2.svg** · Public domain · Qef · 2009-06-19 · 500×500
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Genetic_Code_Bias_2.svg/1280px-Genetic_Code_Bias_2.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_Code_Bias_2.svg
+  - Grouping of codons by amino acid residue molar volume and hydropathy.
+- **File:Aminoacids table.svg** · Public domain · Mouagip · 2009-02-18 · 650×640
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Aminoacids_table.svg/1280px-Aminoacids_table.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Aminoacids_table.svg
+  - Codons sun; shows which base sequence encodes which amino acid; vectorized from png file
+- **File:Genetic code vi.svg** · CC BY-SA 3.0 · User:DHN (translation), Madprime · 2006-05-06 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Genetic_code_vi.svg/1280px-Genetic_code_vi.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code_vi.svg
+  - Diagram of the central dogma, DNA to RNA to protein, illustrating the genetic code. This happens to be the first few amino acids for the alpha subunit of hemoglobin. The sixth amino acid here (glutamic acid, "E") is mutated in sickle cell anemia versions of the molecule. The mRNA does have a "start 
+- **File:Hydropathy Molar Volume Genetic Code 2.png** · CC BY-SA 3.0 · Frank Layden · 2013-10-19 10:10:58 · 7200×7200
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Hydropathy_Molar_Volume_Genetic_Code_2.png/1280px-Hydropathy_Molar_Volume_Genetic_Code_2.png
+  - page: https://commons.wikimedia.org/wiki/File:Hydropathy_Molar_Volume_Genetic_Code_2.png
+  - Description Derived from https://commons.wikimedia.org/wiki/File:Hydropathy_Molar_Volume_Genetic_Code_2.png A codon position is biased if the elliptical trace is: 1) not centered on the center of the (square) graph frame, and / or 2) contains a smaller-than-random volume. First position - dashed. Se
+- **File:Genetic code NL.svg** · CC BY-SA 3.0 · MadprimeWoudloper (translated into Dutch) · 2006-05-06 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Genetic_code_NL.svg/1280px-Genetic_code_NL.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code_NL.svg
+  - Schematische weergave van het centrale dogma van de moleculaire biologie, dat het principe van de genetische code omschrijft. DNA wordt door transcriptie naar RNA "vertaald", RNA door translatie naar eiwitten. De in de figuur staande aminozuren waarvoor gecodeerd wordt zijn de eerste aminozuren in h
+- **File:Genetic Code Structure.jpg** · CC BY-SA 3.0 · author not in Commons metadata: see file page · 643×567
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/83/Genetic_Code_Structure.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_Code_Structure.jpg
+  - 
+- **File:Genetic code-ca.svg** · CC BY-SA 3.0 · Genetic_code.svg: Madprime derivative work: Krls (talk) · 2009-02-05 15:13 · 580×220
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Genetic_code-ca.svg/1280px-Genetic_code-ca.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Genetic_code-ca.svg
+  - Diagram of the central dogma, DNA to RNA to protein, illustrating the genetic code. This happens to be the first few amino acids for the alpha subunit of hemoglobin. The sixth amino acid here (glutamic acid, "E") is mutated in sickle cell anemia versions of the molecule. The mRNA does have a "start 
+- **File:Ribosome structure including subunits and binding sites.png** · CC0 · LadyofHats · 2019-11-03 · 1358×674
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Ribosome_structure_including_subunits_and_binding_sites.png/1280px-Ribosome_structure_including_subunits_and_binding_sites.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_structure_including_subunits_and_binding_sites.png
+  - This is a diagram of a disassembled ribosome useful for showing the ribosomal RNA subunits and A and P sites of the ribosome
+- **File:Ribosome structure svg.svg** · CC BY-SA 3.0 · Dominus · 2013-05-29 16:42:24 · 373×206
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ribosome_structure_svg.svg/1280px-Ribosome_structure_svg.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_structure_svg.svg
+  - Estructura del ribosoma
+- **File:Ribosome structure fixed.png** · CC BY-SA 3.0 · The original uploader was SmilesALot at English Wikipedia. · 14 February 2007 (original upload date) · 354×192
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/27/Ribosome_structure_fixed.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_structure_fixed.png
+  - Ribosome_structure.png with the units corrected
+- **File:Ribosome shape.png** · CC BY-SA 3.0 · Vossman · 2009-05-25 · 2580×1289
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Ribosome_shape.png/1280px-Ribosome_shape.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_shape.png
+  - Structure and shape of the E.coli 70S ribosome. The large 50S ribosomal subunit (red) and small 30S ribosomal subunit (blue) are shown with a 200 Ångstrom (20 nm) scale bar. For the 50S subunit, the 23S (dark red) and 5S (orange red) rRNAs and the ribosomal proteins (pink) are shown. For the 30S sub
+- **File:Ribosome (NIH BioArt 449 - 634724).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Ribosome_%28NIH_BioArt_449_-_634724%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634724%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634724).svg
+  - Ribosome
+- **File:P. urativorans 70S ribosome with Balon and RaiA.jpg** · CC0 · Helena-Bueno, K., Rybak, M.Y., Gagnon, M.G., Hill, C.H., Melnikov, S.V. · 2024-02-21 · 500×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c0/P._urativorans_70S_ribosome_with_Balon_and_RaiA.jpg
+  - page: https://commons.wikimedia.org/wiki/File:P._urativorans_70S_ribosome_with_Balon_and_RaiA.jpg
+  - A rendering of the cryo-em structure of a Psychrobacter urativorans ribosome in a complex with the hibernation factors Balon and RaiA
+- **File:Ribosome (NIH BioArt 449 - 634728).png** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 1214×1029
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d7/Ribosome_%28NIH_BioArt_449_-_634728%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634728).png
+  - Ribosome
+- **File:Ribosome Structure.png** · CC BY-SA 4.0 · RIT RAJARSHI · 2020-08-15 · 852×459
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2d/Ribosome_Structure.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Structure.png
+  - Ribosome rRNA composition for prokaryotic and eukaryotic rRNA
+- **File:Ribosome (NIH BioArt 449 - 634749).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ribosome_%28NIH_BioArt_449_-_634749%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634749%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634749).svg
+  - Ribosome
+- **File:Ribosome (NIH BioArt 449 - 634714).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ribosome_%28NIH_BioArt_449_-_634714%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634714%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634714).svg
+  - Ribosome
+- **File:Ribosome Small Subunit (NIH BioArt 451 - 634854).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-18 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634854%29.svg/1280px-Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634854%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Small_Subunit_(NIH_BioArt_451_-_634854).svg
+  - Ribosome small subunit
+- **File:Ribosome Small Subunit (NIH BioArt 451 - 634849).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-18 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634849%29.svg/1280px-Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634849%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Small_Subunit_(NIH_BioArt_451_-_634849).svg
+  - Ribosome small subunit
+- **File:Ribosome (NIH BioArt 449 - 634718).png** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 1214×1029
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c0/Ribosome_%28NIH_BioArt_449_-_634718%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634718).png
+  - Ribosome
+- **File:Ribosome Small Subunit (NIH BioArt 451 - 634829).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-18 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634829%29.svg/1280px-Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634829%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Small_Subunit_(NIH_BioArt_451_-_634829).svg
+  - Ribosome small subunit
+- **File:Ribosome (NIH BioArt 449 - 634719).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Ribosome_%28NIH_BioArt_449_-_634719%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634719%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634719).svg
+  - Ribosome
+- **File:Ribosome (NIH BioArt 449 - 634705).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ribosome_%28NIH_BioArt_449_-_634705%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634705%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634705).svg
+  - Ribosome
+- **File:Ribosome (NIH BioArt 449 - 634745).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Ribosome_%28NIH_BioArt_449_-_634745%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634745%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634745).svg
+  - Ribosome
+- **File:Ribosome Small Subunit (NIH BioArt 451 - 634803).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-18 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634803%29.svg/1280px-Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634803%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Small_Subunit_(NIH_BioArt_451_-_634803).svg
+  - Ribosome small subunit
+- **File:Ribosome (NIH BioArt 449 - 634739).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Ribosome_%28NIH_BioArt_449_-_634739%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634739%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634739).svg
+  - Ribosome
+- **File:Ribosome (NIH BioArt 449 - 634734).svg** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ribosome_%28NIH_BioArt_449_-_634734%29.svg/1280px-Ribosome_%28NIH_BioArt_449_-_634734%29.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_(NIH_BioArt_449_-_634734).svg
+  - Ribosome
+- **File:Ribosome Small Subunit (NIH BioArt 451 - 634853).png** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-18 · 998×541
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/84/Ribosome_Small_Subunit_%28NIH_BioArt_451_-_634853%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Small_Subunit_(NIH_BioArt_451_-_634853).png
+  - Ribosome small subunit
+- **File:Chloroplast and bacterial ribosome comparison.png** · CC BY 2.5 · Andrea L Manuell, Joel Quispe, Stephen P Mayfield · 18 May 2013, 21:26:51 · 2800×2302
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chloroplast_and_bacterial_ribosome_comparison.png/1280px-Chloroplast_and_bacterial_ribosome_comparison.png
+  - page: https://commons.wikimedia.org/wiki/File:Chloroplast_and_bacterial_ribosome_comparison.png
+  - (A) Chloroplast ribosome (green). Compared to (B) bacterial ribosome cryoEM structure (yellow; [29]). Left and right views are related by 180° rotation as indicated. At left is a classic side view of the ribosome with the large subunit on the left and the small subunit on the right; right view shows
+- **File:Ribosome Large Subunit (NIH BioArt 450 - 634773).png** · Public domain · Courtesy of NIAID Ryan Kissinger · 2024-09-17 · 1132×827
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a9/Ribosome_Large_Subunit_%28NIH_BioArt_450_-_634773%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Ribosome_Large_Subunit_(NIH_BioArt_450_-_634773).png
+  - Ribosome large subunit
+- **File:Transfer RNA in different structure rappresentation.png** · CC BY-SA 4.0 · Unknown authorUnknown author · 2020-01-01 · 550×536
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/20/Transfer_RNA_in_different_structure_rappresentation.png
+  - page: https://commons.wikimedia.org/wiki/File:Transfer_RNA_in_different_structure_rappresentation.png
+  - Transfer RNA in different structure rappresentation
+- **File:RNA chemical structure adenine.png** · Public domain · Narayanese (talk) · 14 December 2008 (original upload date) (Original text: 14 Dec 2008) · 398×418
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/71/RNA_chemical_structure_adenine.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_chemical_structure_adenine.png
+  - Chemical structure of RNA
+- **File:RNA chemical structure adenine.JPG** · Public domain · Narayanese (talk) · 14 December 2008 (original upload date) · 398×418
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f4/RNA_chemical_structure_adenine.JPG
+  - page: https://commons.wikimedia.org/wiki/File:RNA_chemical_structure_adenine.JPG
+  - Chemical structure of RNA Licensing References Nelson DL, Cox MM. Lehninger Principles of biochemistry, 2nd ed., chapter 8. W.H. Freeman.
+- **File:RNA chemical structure.png** · Public domain · Narayanese at English Wikipedia · 23 December 2007 (original upload date) · 414×414
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/7e/RNA_chemical_structure.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_chemical_structure.png
+  - 
+- **File:Vault RNA secondary structure.png** · CC BY-SA 3.0 · Paul (talk) / Ppgardne at en.wikipedia · 2010-11-04 · 400×460
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b2/Vault_RNA_secondary_structure.png
+  - page: https://commons.wikimedia.org/wiki/File:Vault_RNA_secondary_structure.png
+  - Vault RNA secondary structure and sequence conservation.
+- **File:RNA Polymerase Control by Chromatin Structure.png** · CC BY-SA 3.0 · author not in Commons metadata: see file page · 1024×2304
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/e2/RNA_Polymerase_Control_by_Chromatin_Structure.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_Control_by_Chromatin_Structure.png
+  - Example of RNA Polymerase Control by Chromatin Structure.
+- **File:YkkC-III-RNA.svg** · CC BY 3.0 · Zashaw at English Wikipedia · 14 April 2010 (original upload date) · 353×115
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/YkkC-III-RNA.svg/1280px-YkkC-III-RNA.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:YkkC-III-RNA.svg
+  - Adapted from figures I created for this paper: (http://genomebiology.com/2010/11/3/R31). The journal distributes the article under a license identical to the Creative Commons Attribution License (http://www.biomedcentral.com/info/about/copyright).
+- **File:Ar14 annotated alignment structure conservation.png** · CC BY-SA 3.0 · Rcrzarg (talk) (Uploads) · 2011-07-11 · 1113×1099
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c8/Ar14_annotated_alignment_structure_conservation.png
+  - page: https://commons.wikimedia.org/wiki/File:Ar14_annotated_alignment_structure_conservation.png
+  - Ar14 annotated alignment structure conservation
+- **File:C7 annotated alignment structure conservation.png** · CC BY-SA 3.0 · Rcrzarg (talk) (Uploads) · 2011-07-13 · 1647×825
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/C7_annotated_alignment_structure_conservation.png/1280px-C7_annotated_alignment_structure_conservation.png
+  - page: https://commons.wikimedia.org/wiki/File:C7_annotated_alignment_structure_conservation.png
+  - C7 annotated alignment structure conservation
+- **File:Bantam microRNA secondary structure.png** · CC BY-SA 3.0 · Paul (talk) Uploaded by Ppgardne at en.wikipedia · 2010-11-02 13:17 · 400×460
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d1/Bantam_microRNA_secondary_structure.png
+  - page: https://commons.wikimedia.org/wiki/File:Bantam_microRNA_secondary_structure.png
+  - A secondary structure and sequence conservation diagram for Bantam microRNA.
+- **File:C4-antisense-RNA-target-a1b1.svg** · CC BY 3.0 · Original: Zasha WeinbergDerivative work: Zasha WeinbergThe original uploader was Zashaw at English Wikipedia.Upload: Explicit · 18 March 2010, 15:34 (original upload date) · 184×227
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/C4-antisense-RNA-target-a1b1.svg/1280px-C4-antisense-RNA-target-a1b1.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:C4-antisense-RNA-target-a1b1.svg
+  - Adapted from figures I created for this paper: Comparative genomics reveals 104 candidate structured RNAs from bacteria, archaea, and their metagenomes. The journal distributes the article under a license identical to the Creative Commons Attribution License (http://www.biomedcentral.com/info/about/
+- **File:MiRNA.svg** · CC BY 3.0 · Kelvinsong · 2012-12-23 20:43:59 · 2181×1226
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/MiRNA.svg/1280px-MiRNA.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:MiRNA.svg
+  - Diagram of microRNA. Based on [1], [2], [3], the wikipedia article, and various other sources. The editable text is in this file, off beyond the page boundaries.
+- **File:GE23077-binds-to-the-RNA-polymerase-i-and-i+1-sites-and-prevents-the-binding-of-initiating-elife02450fs004.jpg** · CC BY 3.0 · Zhang Y, Degen D, Ho M, Sineva E, Ebright K, Ebright Y, Mekler V, Vahedian-Movahed H, Feng Y, Yin R, Tuske S, Irschik H, Jansen R, Maffioli S, Donadio S, Arnold E, Ebright R · 2014-04-22 · 776×294
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/4f/GE23077-binds-to-the-RNA-polymerase-i-and-i%2B1-sites-and-prevents-the-binding-of-initiating-elife02450fs004.jpg
+  - page: https://commons.wikimedia.org/wiki/File:GE23077-binds-to-the-RNA-polymerase-i-and-i+1-sites-and-prevents-the-binding-of-initiating-elife02450fs004.jpg
+  - The GE target does not overlap the targets of Rif, Sor, Stl, CBR703, Myx, and Lpm. Structure of bacterial RNAP (gray ribbons; violet sphere for active-center Mg2+; β' nonconserved region and σ omitted for clarity; Mukhopadhyay et al., 2008), showing GE target (green; Figure 2C) and targets of Rif an
+- **File:C45 annotated alignment structure conservation.png** · CC BY-SA 3.0 · Rcrzarg (talk) (Uploads) · 2011-06-27 · 1508×468
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/C45_annotated_alignment_structure_conservation.png/1280px-C45_annotated_alignment_structure_conservation.png
+  - page: https://commons.wikimedia.org/wiki/File:C45_annotated_alignment_structure_conservation.png
+  - C45 annotated alignment structure conservation
+- **File:Ar45 annotated alignment structure conservation.png** · CC BY-SA 3.0 · Rcrzarg (talk) (Uploads) · 2011-06-27 · 1635×804
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Ar45_annotated_alignment_structure_conservation.png/1280px-Ar45_annotated_alignment_structure_conservation.png
+  - page: https://commons.wikimedia.org/wiki/File:Ar45_annotated_alignment_structure_conservation.png
+  - Figure 2: Consensus secondary structure of Smr45C and the ar45 family predicted by RNA[5] and RNAalifold.[6] The color scheme of Smr45C represent the base pair probabilities. The coloring scheme for the ar45 family structure is bases on of base pairs conservation: Red: base pair occurring in all seq
+- **File:C14 annotated alignment structure conservation.png** · CC BY-SA 3.0 · Rcrzarg (talk) (Uploads) · 2011-06-20 · 1646×875
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/C14_annotated_alignment_structure_conservation.png/1280px-C14_annotated_alignment_structure_conservation.png
+  - page: https://commons.wikimedia.org/wiki/File:C14_annotated_alignment_structure_conservation.png
+  - Consensus secondary structure of Smr14C2 and the ar14 family predicted by RNA and RNAalifold. The color scheme represent the base pair probabilities.
+- **File:Multiple Ribosomes Translation Protein Synthesis.png** · CC BY-SA 4.0 · Christinelmiller · 2020-12-30 · 1416×759
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Multiple_Ribosomes_Translation_Protein_Synthesis.png/1280px-Multiple_Ribosomes_Translation_Protein_Synthesis.png
+  - page: https://commons.wikimedia.org/wiki/File:Multiple_Ribosomes_Translation_Protein_Synthesis.png
+  - Multiple ribosomes creating polypeptides on the same mRNA
+- **File:Final polysome.jpg** · CC BY-SA 4.0 · Gonzalezmg1 · 2020-04-09 · 704×678
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/06/Final_polysome.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Final_polysome.jpg
+  - Visual of polysome structure related to mRNA and DNA
+- **File:Polysomes.jpg** · CC BY 4.0 · Marie A. Hanebuth, Roman Kityk, Sandra J. Fries, Alok Jain, Allison Kriel, Veronique Albanese, Tancred Frickey, Christine Peter, Matthias P. Mayer, Judith Frydman &amp; Elke Deuerling · 2016-12-05 · 526×308
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/1e/Polysomes.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Polysomes.jpg
+  - Profiles of yeast lysates after centrifugation through linear 15–45% (w/v) sucrose gradients with protein immunoblots below.
+- **File:Important translatomics techniques.png** · CC BY-SA 4.0 · Polyribosome · 2021-03-11 · 1067×929
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b2/Important_translatomics_techniques.png
+  - page: https://commons.wikimedia.org/wiki/File:Important_translatomics_techniques.png
+  - The image is a representation of how polysome profiling, ribosome footprinting, TRAP-seq and RNC-seq capture information about the translatome.
+- **File:The role of different types of RNA in the synthesis of protein. (by Watson).png** · CC BY-SA 2.5 · Clone89 · 2007-05-21 · 800×600
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/7e/The_role_of_different_types_of_RNA_in_the_synthesis_of_protein._%28by_Watson%29.png
+  - page: https://commons.wikimedia.org/wiki/File:The_role_of_different_types_of_RNA_in_the_synthesis_of_protein._(by_Watson).png
+  - The role of different types of RNA in the synthesis of protein. (by Watson). Annotations are in Russian
+- **File:Fpls-05-00110-g001.jpg** · CC BY 3.0 · Kristiina Mäkinen and Anders Hafrén · 2014-03-26 · 892×627
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c1/Fpls-05-00110-g001.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Fpls-05-00110-g001.jpg
+  - Viral RNA pathways in infected cell. In a newly infected cell, polysomes translate viral RNA (vRNA, pathway 1), and it is recruited to VRCs (pathway 2). The replicated vRNA is transported to plasmodesmata to facilitate cell-to-cell movement (pathway 3). To achieve productive infection, vRNA expressi
+- **File:Replicating Nanomachines.jpg** · CC BY 2.0 · jurvetson · 2009-03-13 · 978×635
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/8f/Replicating_Nanomachines.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Replicating_Nanomachines.jpg
+  - This gorgeous bacterial polysome was recently published in Cell. You can think of it as a 9-head programmable nanofabricator. The ribosome reads the digital code of mRNA and manufactures most of what we care about in our bodies from a sequential concatenation of amino acids into proteins. The riboso
+- **File:Polysomesleft.jpg** · CC BY-SA 4.0 · editing for general audience by Dennis Pietras · 402×518
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/8c/Polysomesleft.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Polysomesleft.jpg
+  - Polysome Profiling; sucrose gradient and immunoblot
+- **File:CauliflowerMosaicRNA35S.png** · CC BY-SA 3.0 · Zeimusu · 2005-02-17 · 857×815
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/46/CauliflowerMosaicRNA35S.png
+  - page: https://commons.wikimedia.org/wiki/File:CauliflowerMosaicRNA35S.png
+  - The 35S RNA is particularly complex, containing a highly structured 600 nucleotide long leader sequence with six to eight short open reading frames (ORFs) (Fütterer et al., 1988; Pooggin et al., 1998). This leader is followed by seven tightly arranged longer ORFs that encode all the viral proteins (
+- **File:Transcription label en.jpg** · CC BY-SA 3.0 · Dr. Hans-Heinrich Trepte (micrograph); en:User:Opabinia regalis (English labels) · 1039×1250
+  - note: Authors from the Commons file page (GFDL, relicensed to CC BY-SA 3.0; checked 2026-10-23). It shows ribosomal RNA genes of Chironomus being transcribed: rRNA is never translated, so never caption it as a gene on its way to a protein.
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/43/Transcription_label_en.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Transcription_label_en.jpg
+  - 
+- **File:Transcription label en (cropped).jpg** · CC BY-SA 3.0 · Dr. Hans-Heinrich Trepte (micrograph); en:User:Opabinia regalis (English labels) · 603×498
+  - note: Authors from the Commons file page (GFDL, relicensed to CC BY-SA 3.0; checked 2026-10-23). It shows ribosomal RNA genes of Chironomus being transcribed: rRNA is never translated, so never caption it as a gene on its way to a protein.
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9c/Transcription_label_en_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Transcription_label_en_(cropped).jpg
+  - 
+- **File:Methods of imaging the lymphatic system.jpg** · CC BY-SA 4.0 · SGUL lymres · 2020-11-19 · 2250×3250
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Methods_of_imaging_the_lymphatic_system.jpg/1280px-Methods_of_imaging_the_lymphatic_system.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Methods_of_imaging_the_lymphatic_system.jpg
+  - (A) Direct contrast X-ray lymphography involves the injection of an x-ray contrast agent e.g. Lipiodol. First, lymphatic vessels are identified by subcutaneous injection of a vital dye e.g. patent blue. Under local anesthetic, an incision is then made to expose the lymphatic vessel following the ins
+- **File:Phenotypic analysis of in vitro expanding thymic stromal cells.webp** · CC BY 4.0 · Authors of the study: Sara Campinoti, Asllan Gjinovci, Roberta Ragazzini, Luca Zanieri, Linda Ariza-McNaughton, Marco Catucci, Stefan Boeing, Jong-Eun Park, John C. Hutchinson, Miguel Muñoz-Ruiz, Pierluigi G. Manti, Gianluca Vozza, Carlo E. Villa, Demetra-Ellie Phylactopoulos, Constance Maurer, Giuseppe Testa, Hans J. Stauss, Sarah A. Teichmann, Neil J. Sebire, Adrian C. Hayday, Dominique Bonnet &amp; Paola Bonfanti · 2020-12-11 · 1697×2377
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Phenotypic_analysis_of_in_vitro_expanding_thymic_stromal_cells.webp/1280px-Phenotypic_analysis_of_in_vitro_expanding_thymic_stromal_cells.webp
+  - page: https://commons.wikimedia.org/wiki/File:Phenotypic_analysis_of_in_vitro_expanding_thymic_stromal_cells.webp
+  - "a Immunofluorescence labelling of thymic epithelial cells in human post-natal thymus where CK8-18 antibody (yellow), CK5-14 or CD49f (magenta) marked TEC. Tissues contains healthy cells as shown by absence of CASP3 (top mid panel). Co-staining with CD90 (top left panel), vimentin (VIM, top mid pane
+- **File:Histological staining following imaging of lung tissue of BM05.webp** · CC BY 4.0 · Authors of the study: C. L. Walsh, P. Tafforeau, W. L. Wagner, D. J. Jafree, A. Bellier, C. Werlein, M. P. Kühnel, E. Boller, S. Walker-Samuel, J. L. Robertus, D. A. Long, J. Jacob, S. Marussi, E. Brown, N. Holroyd, D. D. Jonigk, M. Ackermann &amp; P. D. Lee · 2021-11-04 · 2126×738
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Histological_staining_following_imaging_of_lung_tissue_of_BM05.webp/1280px-Histological_staining_following_imaging_of_lung_tissue_of_BM05.webp
+  - page: https://commons.wikimedia.org/wiki/File:Histological_staining_following_imaging_of_lung_tissue_of_BM05.webp
+  - "H&amp;E and IHC staining of COVID-19 lung biopsy and control (Donor 4) lung biopsy after HiP-CT imaging. H&amp;E staining of overview, parenchyma and alveoli in columns 1-3; CD31 (column 4), Thyroid transcription factor 1 (TTF-1 (column 5)) and Fibrin staining (column 6) (N=1). For histological com
+- **File:Benign urothelium - GATA3 -- very low mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Benign_urothelium_-_GATA3_--_very_low_mag.jpg/1280px-Benign_urothelium_-_GATA3_--_very_low_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Benign_urothelium_-_GATA3_--_very_low_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Benign urothelium - GATA3 -- high mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Benign_urothelium_-_GATA3_--_high_mag.jpg/1280px-Benign_urothelium_-_GATA3_--_high_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Benign_urothelium_-_GATA3_--_high_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Benign urothelium - GATA3 -- low mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Benign_urothelium_-_GATA3_--_low_mag.jpg/1280px-Benign_urothelium_-_GATA3_--_low_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Benign_urothelium_-_GATA3_--_low_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Benign urothelium - GATA3 -- intermed mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Benign_urothelium_-_GATA3_--_intermed_mag.jpg/1280px-Benign_urothelium_-_GATA3_--_intermed_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Benign_urothelium_-_GATA3_--_intermed_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Secretory carcinoma of salivary gland -- high mag.jpg** · CC BY-SA 4.0 · Nephron · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Secretory_carcinoma_of_salivary_gland_--_high_mag.jpg/1280px-Secretory_carcinoma_of_salivary_gland_--_high_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Secretory_carcinoma_of_salivary_gland_--_high_mag.jpg
+  - Micrograph showing a secretory carcinoma of the salivary gland, previously known as mammary analogue secretory carcinoma (abbreviated MASC). H&amp;E stain. The tumour shown is metastatic to the neck. It was previously confirmed to have the ETV6-NTRK3 gene rearrangement. Related images SCSG - low mag
+- **File:Secretory carcinoma of salivary gland -- low mag.jpg** · CC BY-SA 4.0 · Nephron · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Secretory_carcinoma_of_salivary_gland_--_low_mag.jpg/1280px-Secretory_carcinoma_of_salivary_gland_--_low_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Secretory_carcinoma_of_salivary_gland_--_low_mag.jpg
+  - Micrograph showing a secretory carcinoma of the salivary gland, previously known as mammary analogue secretory carcinoma (abbreviated MASC). H&amp;E stain. The tumour shown is metastatic to the neck. It was previously confirmed to have the ETV6-NTRK3 gene rearrangement. Related images SCSG - low mag
+- **File:Secretory carcinoma of salivary gland - alt -- high mag.jpg** · CC BY-SA 4.0 · Nephron · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Secretory_carcinoma_of_salivary_gland_-_alt_--_high_mag.jpg/1280px-Secretory_carcinoma_of_salivary_gland_-_alt_--_high_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Secretory_carcinoma_of_salivary_gland_-_alt_--_high_mag.jpg
+  - Micrograph showing a secretory carcinoma of the salivary gland, previously known as mammary analogue secretory carcinoma (abbreviated MASC). H&amp;E stain. The tumour shown is metastatic to the neck. It was previously confirmed to have the ETV6-NTRK3 gene rearrangement. Related images SCSG - low mag
+- **File:Urothelial carcinoma-like prostatic carcinoma - GATA3 -- intermed mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_intermed_mag.jpg/1280px-Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_intermed_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_intermed_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Secretory carcinoma of salivary gland -- intermed mag.jpg** · CC BY-SA 4.0 · Nephron · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Secretory_carcinoma_of_salivary_gland_--_intermed_mag.jpg/1280px-Secretory_carcinoma_of_salivary_gland_--_intermed_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Secretory_carcinoma_of_salivary_gland_--_intermed_mag.jpg
+  - Micrograph showing a secretory carcinoma of the salivary gland, previously known as mammary analogue secretory carcinoma (abbreviated MASC). H&amp;E stain. The tumour shown is metastatic to the neck. It was previously confirmed to have the ETV6-NTRK3 gene rearrangement. Related images SCSG - low mag
+- **File:Urothelial carcinoma-like prostatic carcinoma - GATA3 -- very low mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_very_low_mag.jpg/1280px-Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_very_low_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_very_low_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Urothelial carcinoma-like prostatic carcinoma - GATA3 -- low mag.jpg** · CC BY-SA 3.0 · Librepath · 4272×2848
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_low_mag.jpg/1280px-Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_low_mag.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Urothelial_carcinoma-like_prostatic_carcinoma_-_GATA3_--_low_mag.jpg
+  - Micrograph showing a prostatic carcinoma that mimics urothelial carcinoma (urothelial carcinoma-like prostatic carcinoma). H&amp;E stain. Related images UCLPC - very low mag. UCLPC - low mag. UCLPC - low mag. UCLPC - intermed. mag. UCLPC - intermed. mag. UCLPC - high mag. UCLPC - high mag. UCLPC - v
+- **File:Differences between pacemaker cells and working cardiomyocytes.jpg** · CC BY 4.0 · Mandla R, Jung C and Vedantham V · 2021-07-16 · 1150×947
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b2/Differences_between_pacemaker_cells_and_working_cardiomyocytes.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Differences_between_pacemaker_cells_and_working_cardiomyocytes.jpg
+  - Figure 1. Differences between pacemaker cells and working cardiomyocytes. (A) Characteristics of typical pacemaker cells: (top panel) micrograph of an isolated pacemaker cell taken from an adult Hcn4-GFP mouse demonstrates an elongated spindle-like morphology; (middle panel) a typical pacemaker cell
+- **File:Demodex folliculorum SEM.jpg** · CC BY 4.0 · Michael F Palopoli, Samuel Minot, Dorothy Pei, Alicia Satterly, and Julie Endrizzi · 2014-12-16 · 600×639
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/28/Demodex_folliculorum_SEM.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Demodex_folliculorum_SEM.jpg
+  - Caption from the original paper: Organization of the mitochondrial genome of Demodex folliculorum. Protein-coding, ribosomal RNA, and transfer RNA genes are depicted as green, blue, and red arrows, respectively. The arrows represent the direction of transcription. The AT-rich, putative control regio
+- **File:41598 2016 Article BFsrep31170 Fig1 HTML.webp** · CC BY-SA 4.0 · Yongming Yuan, Yunzhi Wang, Qizhi Liu, Feng Zhu, Yunhan Hong · 2016-08-08 · 2100×1534
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/41598_2016_Article_BFsrep31170_Fig1_HTML.webp/1280px-41598_2016_Article_BFsrep31170_Fig1_HTML.webp
+  - page: https://commons.wikimedia.org/wiki/File:41598_2016_Article_BFsrep31170_Fig1_HTML.webp
+  - Singapore grouper iridovirus (SGIV) protein VP088 expression and localization. (a) Late transcription of orf088 in HX1 cells. Early gene orf086 and late gene orf072 were used for comparison and β-actin was used as internal control. (b) SDS-PAGE, showing expression and purification of recombinant VP0
+- **File:Wrae008f1.jpg** · CC BY 4.0 · Diana P. Baquero, Eduardo A. Bignon, Mart Krupovic · 2024-01-23 · 1323×671
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Wrae008f1.jpg/1280px-Wrae008f1.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Wrae008f1.jpg
+  - Characterization of Archaeoglobus veneficus pleomorphic virus 1 (AvPV1), Avenivirus atlanticense (Thalassapleoviridae); (A) electron micrographs of pleomorphic VLPs negatively stained with 2% uranyl acetate (scale bar, 100 nm); the arrow indicates an A. veneficus extracellular cytochrome nanowire; (
+- **File:Eukaryotic RNA Polymerase II rotating.gif** · CC BY-SA 4.0 · RWhitwam · 2024-07-06 · 349×237
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/fa/Eukaryotic_RNA_Polymerase_II_rotating.gif
+  - page: https://commons.wikimedia.org/wiki/File:Eukaryotic_RNA_Polymerase_II_rotating.gif
+  - A rotating eukaryotic RNA Polymerase II transcription bubble visualized. Structures visualized in First Glance In Jmol (https://www.bioinformatics.org/firstglance/fgij/) using structure 8JCH, depicting yeast RNA Polymerase II transcribing in the termination zone of a gene after the mRNA has been cle
+- **File:RNA Polymerase.png** · CC BY 4.0 · Maria Voigt and PDB-101. This image is available under CC-BY-4.0 license. Attribution should be given to PDB-101 and Maria Voigt. · 2019-01-01 · 1916×1897
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/RNA_Polymerase.png/1280px-RNA_Polymerase.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase.png
+  - RNA polymerase (purple) is a complex enzyme at the heart of transcription. During this process, the enzyme unwinds the DNA double helix and uses one strand (darker orange) as a template to create the single-stranded messenger RNA (green), later used by ribosomes for protein synthesis. From the RNA p
+- **File:RNA polymerase transcribing template strand DNA.png** · CC BY-SA 4.0 · Kep17 · 2020-03-06 · 1648×956
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/RNA_polymerase_transcribing_template_strand_DNA.png/1280px-RNA_polymerase_transcribing_template_strand_DNA.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_polymerase_transcribing_template_strand_DNA.png
+  - Displays the process of the template strand of DNA being transcribed by RNA polymerase to produce the complementarity messenger RNA molecule
+- **File:RNA Polymerase III open complex -DNA-directed RNA polymerase III subunit RPC2 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/RNA_Polymerase_III_open_complex_-DNA-directed_RNA_polymerase_III_subunit_RPC2_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-DNA-directed_RNA_polymerase_III_subunit_RPC2_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-DNA-directed_RNA_polymerase_III_subunit_RPC2_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C reddish brown: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC9 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC9 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC9 (3) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_%283%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_%283%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC9_(3)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:DnaG RNA Polymerase Domain.png** · CC BY-SA 3.0 · Lmo402 · 2013-02-24 19:21:42 · 1486×951
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/DnaG_RNA_Polymerase_Domain.png/1280px-DnaG_RNA_Polymerase_Domain.png
+  - page: https://commons.wikimedia.org/wiki/File:DnaG_RNA_Polymerase_Domain.png
+  - Structure of E. coli's DnaG RNA Polymerase Domain. The highly conserved basic residues, Arg146, Arg221, and Lys229 are shown in yellow. This image was rendered from PDB 1DD9.
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC1 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC1_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC1_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC1_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C dark green: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: D
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerases I and III subunit RPAC1 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1781×1473
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerases_I_and_III_subunit_RPAC1_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerases_I_and_III_subunit_RPAC1_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerases_I_and_III_subunit_RPAC1_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C violet blue: 
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC5 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC5_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC5_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC5_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC10 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1481
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC10_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC10_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC10_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC7 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC7_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC7_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC7_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC3 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC3_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC3_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC3_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC6 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1613×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC6_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC6_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC6_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC8 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC8_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC8_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC8_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC8 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC8_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC8_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC8_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC3 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC3_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC3_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC3_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC6 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC6_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC6_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC6_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC7 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC7_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC7_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC7_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC4 - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1907×1513
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC4_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC4_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC4_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC5 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC5_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC5_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC5_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC4 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC4_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC4_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC4_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerase III subunit RPC10 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC10_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC10_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerase_III_subunit_RPC10_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C grey: DNA-dir
+- **File:RNA Polymerase III open complex - DNA-directed RNA polymerases I and III subunit RPAC1 (2) - 6F40.png** · CC0 · Vorlaender, M.K., Khatter, H., Wetzel, R., Hagen, W.J.H., Mueller, C.W. · 2018 · 1524×1380
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerases_I_and_III_subunit_RPAC1_%282%29_-_6F40.png/1280px-RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerases_I_and_III_subunit_RPAC1_%282%29_-_6F40.png
+  - page: https://commons.wikimedia.org/wiki/File:RNA_Polymerase_III_open_complex_-_DNA-directed_RNA_polymerases_I_and_III_subunit_RPAC1_(2)_-_6F40.png
+  - Crystal Structure of the NC2-TBP-DNA Ternary Complex, Saccharomyces cerevisiae S288C grey: DNA-directed RNA polymerase III subunit RPC1, Gene names: O3254, RPC1, RPC160, RPO31, YOR116C, YOR3254C grey: DNA-directed RNA polymerase III subunit RPC2, Gene names: RET1, RPC128, RPC2, YOR207C violet blue: 
+- **File:Marshall Nirenberg.jpg** · Public domain · Hecht, Gerald V. (National Institutes of Health). · circa 1962date QS:P,+1962-00-00T00:00:00Z/9,P1480,Q5727902 · 799×1052
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/60/Marshall_Nirenberg.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg.jpg
+  - Marshall Nirenberg, taken by the National Institutes of Health, ca. 1962
+- **File:Marshall Nirenberg 2003.jpg** · Public domain · Bill Branson · 2003-01 · 200×250
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d9/Marshall_Nirenberg_2003.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg_2003.jpg
+  - Marshall Warren Nirenberg
+- **File:Marshall Nirenberg performing experiment.jpg** · Public domain · MacVicar, N. - National Institutes of Health · circa 1962date QS:P,+1962-00-00T00:00:00Z/9,P1480,Q5727902 · 4728×5892
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Marshall_Nirenberg_performing_experiment.jpg/1280px-Marshall_Nirenberg_performing_experiment.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg_performing_experiment.jpg
+  - Marshall_Nirenberg_performing_experiment. Photograph of experiment likely related to protein synthesis and genetic code translation.
+- **File:Dr. Marshall Nirenberg (1927-2010) (30046613701).jpg** · Public domain · NIH History Office from Bethesda · 2007-01-01 00:00 · 1597×2400
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Dr._Marshall_Nirenberg_%281927-2010%29_%2830046613701%29.jpg/1280px-Dr._Marshall_Nirenberg_%281927-2010%29_%2830046613701%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dr._Marshall_Nirenberg_(1927-2010)_(30046613701).jpg
+  - Nirenberg, a biologist deciphered the genetic code of life, earning a Nobel Prize for his achievement. Marshall Nirenberg spent his career at the National Institutes of Health.
+- **File:Marshall Nirenberg (1927-2010) (28893541557).jpg** · Public domain · NIH History Office from Bethesda · 1990-01-01 00:00 · 1775×2265
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Marshall_Nirenberg_%281927-2010%29_%2828893541557%29.jpg/1280px-Marshall_Nirenberg_%281927-2010%29_%2828893541557%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg_(1927-2010)_(28893541557).jpg
+  - Dr, Nirenberg had won the 1968 Nobel Prize for his role in deciphering the genetic code. He asked NIH photographer Bill Branson to take this photo in the Building 37 parking lot. The license plate “UUU” is the code for the amino acid phenylalanine.
+- **File:J. Heinreich Matthaei and Marshall Nirenberg (29819142523).jpg** · Public domain · NIH History Office from Bethesda · circa 1962date QS:P,+1962-00-00T00:00:00Z/9,P1480,Q5727902 · 4558×5644
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/J._Heinreich_Matthaei_and_Marshall_Nirenberg_%2829819142523%29.jpg/1280px-J._Heinreich_Matthaei_and_Marshall_Nirenberg_%2829819142523%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:J._Heinreich_Matthaei_and_Marshall_Nirenberg_(29819142523).jpg
+  - Marshall Nirenberg and Heinrich Matthaei worked together to decipher the genetic code. The research resulted in the awarding of the Nobel Prize in Physiology or Medicine in 1968. Also in the National Library of Medicine Profiles in Science collection.https://profiles.nlm.nih.gov/JJ/ Credit: Norman M
+- **File:Nirenberg celebrating Nobel Prize with champagne in beakers.jpg** · Public domain · Unknown authorUnknown author · 1968 · 400×501
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/cd/Nirenberg_celebrating_Nobel_Prize_with_champagne_in_beakers.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Nirenberg_celebrating_Nobel_Prize_with_champagne_in_beakers.jpg
+  - Nirenberg celebrating Nobel Prize with champagne in beakers - Nirenberg and his colleagues celebrated upon hearing the news. For his landmark work on the genetic code, Nirenberg was awarded the 1968 Nobel Prize in Physiology or Medicine. He shared the award with Har Gobind Khorana of the University 
+- **File:Marshall Nirenberg personalize license plate (25896514658).jpg** · Public domain · NIH History Office from Bethesda · 1987-01-01 00:00 · 2366×3019
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Marshall_Nirenberg_personalize_license_plate_%2825896514658%29.jpg/1280px-Marshall_Nirenberg_personalize_license_plate_%2825896514658%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg_personalize_license_plate_(25896514658).jpg
+  - Marshal Nirenberg (NIAMDD) shared the Nobel Prize in Physiology or Medicine for deciphering the genetic code with Robert W. Holley and Har Gobind Khoranawas The photograph displays the first word in the chemical dictionary of life, and the key to deciphering the entire genetic code. He worked at NIH
+- **File:MNirenberg.jpg** · Public domain · The original uploader was Sayeth at English Wikipedia.. Creator of the image is Hecht, Gerald V. (National Institutes of Health). · 3584×4696
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/MNirenberg.jpg/1280px-MNirenberg.jpg
+  - page: https://commons.wikimedia.org/wiki/File:MNirenberg.jpg
+  - Marshall Nirenberg, taken by the National Institutes of Health, ca. 1962
+- **File:MNirenberg-NIH.jpg** · Public domain · NIH, original upload by user:NorwalkJames on 3 June 2010 at en.wikipedia under the same name · circa 1968date QS:P,+1968-00-00T00:00:00Z/9,P1480,Q5727902 · 246×275
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/76/MNirenberg-NIH.jpg
+  - page: https://commons.wikimedia.org/wiki/File:MNirenberg-NIH.jpg
+  - Marshall Warren Nirenberg
+- **File:Marshall Nirenberg at the National Institutes of Health (14356088711).jpg** · Public domain · NIH History Office from Bethesda · 1966-01-01 00:00 · 4530×5190
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Marshall_Nirenberg_at_the_National_Institutes_of_Health_%2814356088711%29.jpg/1280px-Marshall_Nirenberg_at_the_National_Institutes_of_Health_%2814356088711%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg_at_the_National_Institutes_of_Health_(14356088711).jpg
+  - Dr. Marshall Nirenberg holding DNA models. Nirenberg, working in the National Heart Lung and Blood Institue shared the Nobel Prize in Physiology or Medicine for discovering the key to deciphering the genetic code. Dr. Nirenberg and two other researchers, working independently, with whom he shared th
+- **File:Nierenberg matthaei.jpg** · Public domain · N. MacVicar, National Institutes of Health · 1961 · 4352×5664
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nierenberg_matthaei.jpg/1280px-Nierenberg_matthaei.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Nierenberg_matthaei.jpg
+  - Heinrich Matthaei was Marshall Nirenberg's first postdoctoral researcher. Their collaboration led to the now famous protein synthesis poly-U experiments and the first clue to the genetic code.
+- **File:Marshall Nirenberg and Earl Stadtman (31545078051).jpg** · Public domain · NIH History Office from Bethesda · 2004-01-22 04:44 · 3008×1960
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Marshall_Nirenberg_and_Earl_Stadtman_%2831545078051%29.jpg/1280px-Marshall_Nirenberg_and_Earl_Stadtman_%2831545078051%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg_and_Earl_Stadtman_(31545078051).jpg
+  - Drs. Nirenberg and Stadtman at the Stadtman exhibit opening greeting a visitor.
+- **File:Nabel-Goldstein-Nirenberg-NIH.jpg** · Public domain · NIH · 4 August 2008, published on 5 September 2008 · 582×376
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/19/Nabel-Goldstein-Nirenberg-NIH.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Nabel-Goldstein-Nirenberg-NIH.jpg
+  - NHLBI director Dr. Elizabeth Nabel (left) with Nobel laureates Joseph L. Goldstein (center) and Marshall Nirenberg (right)
+- **File:06 chart lg.jpg** · Public domain · Marshall Nirenberg · 650×1627
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b2/06_chart_lg.jpg
+  - page: https://commons.wikimedia.org/wiki/File:06_chart_lg.jpg
+  - One of Nirenberg's laboratory notebooks
+- **File:J. Heinreich Matthaei and Marshall Nirenberg (29819142523) (cropped).jpg** · Public domain · NIH History Office from Bethesda · circa 1962date QS:P,+1962-00-00T00:00:00Z/9,P1480,Q5727902 · 2053×3076
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/J._Heinreich_Matthaei_and_Marshall_Nirenberg_%2829819142523%29_%28cropped%29.jpg/1280px-J._Heinreich_Matthaei_and_Marshall_Nirenberg_%2829819142523%29_%28cropped%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:J._Heinreich_Matthaei_and_Marshall_Nirenberg_(29819142523)_(cropped).jpg
+  - Marshall Nirenberg and Heinrich Matthaei worked together to decipher the genetic code. The research resulted in the awarding of the Nobel Prize in Physiology or Medicine in 1968. Also in the National Library of Medicine Profiles in Science collection.https://profiles.nlm.nih.gov/JJ/ Credit: Norman M
+- **File:Nirenberg's experiment.png** · CC BY-SA 3.0 · Faskal · 2014-03-29 15:03:05 · 470×87
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/ac/Nirenberg%27s_experiment.png
+  - page: https://commons.wikimedia.org/wiki/File:Nirenberg's_experiment.png
+  - A scheme of Marshall W. Nirenberg's experiment, which elucidated the first "letter" of the genetic code. He used poly-uracil (shown in a first row) as a template for in-vitro protein synthesis; he obtained polypeptide composed only of phenylalanine (second row).

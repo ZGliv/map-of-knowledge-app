@@ -1,0 +1,341 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation",
+ "name": "Cubic equation",
+ "summary": [
+  {
+   "text": "A cubic equation can be solved algebraically by a formula that uses its four coefficients, the four basic arithmetic operations, square roots and cube roots.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "When an exact answer is not needed, root-finding algorithms such as Newton's method can approximate the roots numerically.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "In the early 16th century del Ferro found a method for a class of cubics, and a secret-keeping quarrel between Tartaglia and Cardano followed.",
+   "cites": [
+    26,
+    35,
+    37,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Formula ingredients",
+   "value": "Four coefficients, four operations, square roots and cube roots",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Ancient roots",
+   "value": "Known to Babylonians, Greeks, Chinese, Indians and Egyptians",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Oldest cubic problem",
+   "value": "Doubling the cube is the simplest and oldest studied cubic equation",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Tartaglia's contest",
+   "value": "Most problems solved within 30 days won all the money",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "label": "Negative square roots",
+   "value": "Cardano met them while using Tartaglia's method",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cubic equation has only fraction coefficients. What can you say about its solutions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some may be irrational, or even non-real complex numbers"
+    },
+    {
+     "id": "b",
+     "label": "They must be fractions too, like the coefficients"
+    },
+    {
+     "id": "c",
+     "label": "They must be whole numbers if the fractions are tidy"
+    },
+    {
+     "id": "d",
+     "label": "They must be real, though possibly decimals that never end"
+    }
+   ],
+   "answer": "a",
+   "explain": "The solutions need not belong to the same field as the coefficients. Some cubics with rational coefficients have irrational and even non-real complex roots.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation:q1"
+  },
+  {
+   "prompt": "You need a rough value for a root of a cubic on a computer, and exactness does not matter. What is a sensible plan?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Search by hand for a pattern, since nothing else works"
+    },
+    {
+     "id": "b",
+     "label": "Try the quadratic formula, which also covers cubics"
+    },
+    {
+     "id": "c",
+     "label": "Run a root-finding method such as Newton's method"
+    },
+    {
+     "id": "d",
+     "label": "Wait until a formula gives the root to every digit"
+    }
+   ],
+   "answer": "c",
+   "explain": "Numerical approximations of the roots can be found with root-finding algorithms such as Newton's method.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation:q2"
+  },
+  {
+   "prompt": "In a famous contest, one man got questions of a kind he had a general method for, and his rival got a harder kind. How did it end?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rival won, since the harder questions earned bonus money"
+    },
+    {
+     "id": "b",
+     "label": "The man with the method won; his rival could not solve his questions"
+    },
+    {
+     "id": "c",
+     "label": "It was a tie, since each solved the same number in 30 days"
+    },
+    {
+     "id": "d",
+     "label": "Neither finished, so the money was split between them"
+    }
+   ],
+   "answer": "b",
+   "explain": "Tartaglia received questions he had worked out a general method for. Fior's questions proved too difficult for him, and Tartaglia won.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation:q3"
+  },
+  {
+   "prompt": "Cardano's rival method sometimes forced a step needing the square root of a negative number. What did Cardano do with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He dropped those cases as impossible and moved on"
+    },
+    {
+     "id": "b",
+     "label": "He proved the step must always cancel out"
+    },
+    {
+     "id": "c",
+     "label": "He rewrote it with trigonometry, as Viète later did"
+    },
+    {
+     "id": "d",
+     "label": "He included a calculation with such numbers but did not really understand it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Cardano put a calculation with these complex numbers in Ars Magna without really understanding it. Bombelli later studied the issue in detail.",
+   "cites": [
+    42,
+    43,
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation:q4"
+  },
+  {
+   "prompt": "A friend says that since cubics have a formula, a similar formula must exist for every degree of equation. What is the catch?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Such formulas exist for quadratics, cubics and quartics, but not higher degrees"
+    },
+    {
+     "id": "b",
+     "label": "Formulas exist for every degree but get too long to write"
+    },
+    {
+     "id": "c",
+     "label": "It holds only when all coefficients are real numbers"
+    },
+    {
+     "id": "d",
+     "label": "Cubics are the last case, and quartics have no formula"
+    }
+   ],
+   "answer": "a",
+   "explain": "A formula with roots and arithmetic works for quadratic, cubic and quartic equations, but not for higher degrees.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation:q5"
+  },
+  {
+   "prompt": "Babylonian tablets with tables of cubes and cube roots exist. Does that prove the Babylonians solved cubic equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because the tables could only serve that purpose"
+    },
+    {
+     "id": "b",
+     "label": "No, the tables only suggest it; no evidence confirms they did"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because tablets show they solved the doubling-the-cube puzzle"
+    },
+    {
+     "id": "d",
+     "label": "No, since the Babylonians had no word for cubes"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Babylonians could have used the tables to solve cubic equations, but no evidence exists to confirm that they did.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.roots-of-polynomials.cubic-equation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Polynomialdeg3.svg/960px-Polynomialdeg3.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Cubic equation",
+  "credit": "N.Mori",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Polynomialdeg3.svg"
+ },
+ "source": {
+  "title": "Cubic equation",
+  "url": "https://en.wikipedia.org/wiki/Cubic_equation",
+  "revision": 1383481724
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a cubic is",
+    "text": "A cubic equation in one unknown has the shape ax³ + bx² + cx + d = 0, where a must not be zero. The letters a, b, c and d are its four coefficients, and they do not have to be real numbers. The solutions, or roots, need not be the same kind of number as the coefficients. Some cubics with rational coefficients have roots that are irrational, or not even real.",
+    "cites": [
+     1,
+     2,
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Two ways to find the roots",
+    "text": "Every cubic can be solved exactly by a cubic formula. That formula uses only the four coefficients, the four basic operations of arithmetic, square roots and cube roots. The same holds for equations of degree two and four, but not for higher degrees. When a close answer is enough, a root-finding method such as Newton's method can home in on the roots numerically.",
+    "cites": [
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "A very old problem",
+    "text": "Babylonians, Greeks, Chinese, Indians and Egyptians all knew of cubic equations. Babylonian cuneiform tablets carry tables of cubes and cube roots, though no evidence shows they were used to solve cubics. The oldest cubic people studied comes from the puzzle of doubling the cube. In the 5th century BC Hippocrates turned it into a search for two mean proportionals between a line and one twice as long. He could not construct them with compass and straightedge, a task now known to be impossible.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Methods across Asia and Europe",
+    "text": "The Nine Chapters on the Mathematical Art, a Chinese text gathered around the 2nd century BC, contains methods for cubics. In the 7th century Wang Xiaotong set up and solved 25 cubics numerically. In the 12th century Sharaf al-Dīn al-Tūsī sorted cubics into types and approximated a root by what is now called the Horner–Ruffini method. He also used the highest and lowest points of curves to deal with cubics that might have no positive solution. Fibonacci closely approximated the positive root of x³ + 2x² + 10x = 20, with a relative error of about 10⁻⁹.",
+    "cites": [
+     13,
+     17,
+     20,
+     21,
+     22,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Secrets and a contest",
+    "text": "In the early 1500s Scipione del Ferro found how to solve cubics of the form x³ + mx = n. He kept it secret until just before he died, then told his student Antonio Fior. In 1535 Niccolò Tartaglia said he could solve two cubic problems sent to him, and Fior soon challenged him. Each put up money and set problems for the other, and whoever solved more in 30 days took it all. Tartaglia was given problems of the form x³ + mx = n, which he had a general method for. Fior got problems of the form x³ + mx² = n, could not solve them, and lost.",
+    "cites": [
+     26,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "A broken promise",
+    "text": "Gerolamo Cardano talked Tartaglia into sharing his method in 1539, on the condition that Cardano would never reveal it. Years later Cardano learned of del Ferro's earlier work and printed that method in his book Ars Magna in 1545, crediting Tartaglia with solving it on his own. Tartaglia then challenged Cardano, who refused. Cardano's student Lodovico Ferrari took up the contest and did better, and Tartaglia lost both his standing and his income.",
+    "cites": [
+     35,
+     36,
+     37,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Where complex numbers came from",
+    "text": "Cardano saw that Tartaglia's method sometimes asked for the square root of a negative number. He even put such a calculation in Ars Magna without really understanding it. Rafael Bombelli worked through the problem in detail, and for that he is often called the discoverer of complex numbers. François Viète (1540–1603) found on his own a solution using trigonometry for cubics with three real roots, and René Descartes built on his work.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "veritasium-imaginary-numbers",
+   "kind": "video",
+   "title": "How Imaginary Numbers Were Invented",
+   "by": "Veritasium",
+   "url": "https://www.youtube.com/watch?v=cUzklzVXJwo",
+   "note": "The story of solving the cubic equation in Renaissance Italy, and how it forced mathematicians to accept imaginary numbers."
+  }
+ ]
+}

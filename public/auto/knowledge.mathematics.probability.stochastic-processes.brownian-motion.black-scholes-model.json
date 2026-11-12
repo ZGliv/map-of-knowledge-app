@@ -1,0 +1,306 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model",
+ "name": "Black-Scholes model",
+ "summary": [
+  {
+   "text": "The Black–Scholes model is a mathematical model of a financial market containing derivatives, and its formula gives a theoretical estimate of the price of European-style options.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its main principle is to hedge the option by buying and selling the underlying asset in a specific way so that risk is eliminated.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It assumes the stock price follows a geometric Brownian motion with constant drift and volatility, in a market with no fees and no riskless-profit opportunities.",
+   "cites": [
+    25,
+    27,
+    30
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Fischer Black and Myron Scholes",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Nobel Prize",
+   "value": "Merton and Scholes received the 1997 economics prize",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Unobservable input",
+   "value": "Average future volatility of the underlying asset",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Earlier idea",
+   "value": "Bachelier's 1900 thesis first applied Brownian motion to pricing",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Stock model",
+   "value": "Geometric Brownian motion with constant drift and volatility",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A bank has sold an option and worries the stock will move against it. What does the model suggest it do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Keep the stock position fixed and hope"
+    },
+    {
+     "id": "b",
+     "label": "Buy and sell the underlying asset in a way that removes the risk"
+    },
+    {
+     "id": "c",
+     "label": "Sell the stock and never trade again"
+    },
+    {
+     "id": "d",
+     "label": "Wait until the option expires before doing anything"
+    }
+   ],
+   "answer": "b",
+   "explain": "The model's main principle is to hedge the option by buying and selling the underlying asset in a specific way to eliminate risk.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model:q1"
+  },
+  {
+   "prompt": "A trader plugs numbers into the formula. Which input cannot be looked up directly in the market?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average future volatility of the asset"
+    },
+    {
+     "id": "b",
+     "label": "The strike price of the option"
+    },
+    {
+     "id": "c",
+     "label": "The current price of the stock"
+    },
+    {
+     "id": "d",
+     "label": "The time left until the option ends"
+    }
+   ],
+   "answer": "a",
+   "explain": "The formula has only one parameter that cannot be directly observed: the average future volatility, though it can be found from the prices of other options.",
+   "cites": [
+    12,
+    39
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model:q2"
+  },
+  {
+   "prompt": "A broker charges a fee on every trade. Which assumption of the original model does this break?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The stock follows a geometric Brownian motion"
+    },
+    {
+     "id": "b",
+     "label": "The riskless rate stays constant"
+    },
+    {
+     "id": "c",
+     "label": "The market has no fees or costs"
+    },
+    {
+     "id": "d",
+     "label": "Stocks can be sold short"
+    }
+   ],
+   "answer": "c",
+   "explain": "The model assumes a frictionless market with no fees or costs, and later extensions added transaction costs.",
+   "cites": [
+    30,
+    38
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model:q3"
+  },
+  {
+   "prompt": "Two options are identical except one has a higher market price. What does the model say about the volatility behind the higher price?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is lower, because dearer options are safer"
+    },
+    {
+     "id": "b",
+     "label": "It is the same, as volatility does not affect price"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be compared, as price and volatility are unrelated"
+    },
+    {
+     "id": "d",
+     "label": "It is higher, since option value rises with volatility"
+    }
+   ],
+   "answer": "d",
+   "explain": "The option value, put or call, is increasing in volatility, so it can be inverted to read a volatility from a price.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model:q4"
+  },
+  {
+   "prompt": "A trader finds a way to lock in a profit that beats the riskless rate, with no risk at all. Which assumption of the model rules this out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No arbitrage opportunity"
+    },
+    {
+     "id": "b",
+     "label": "Frictionless trading"
+    },
+    {
+     "id": "c",
+     "label": "Constant volatility"
+    },
+    {
+     "id": "d",
+     "label": "Fractional buying and selling"
+    }
+   ],
+   "answer": "a",
+   "explain": "The model assumes there is no way to make a riskless profit in excess of the risk-free rate.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model:q5"
+  },
+  {
+   "prompt": "Nobody knows what path a stock will take. How can the model still give a derivative's price today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It assumes the stock will never move"
+    },
+    {
+     "id": "b",
+     "label": "It copies the price from the day before"
+    },
+    {
+     "id": "c",
+     "label": "It builds a hedged position whose value does not depend on the stock price"
+    },
+    {
+     "id": "d",
+     "label": "It averages the prices of every stock in the market"
+    }
+   ],
+   "answer": "c",
+   "explain": "Even though the future path is unknown, a hedged position of stock and option can be made whose value will not depend on the stock price, which pins down the price.",
+   "cites": [
+    33,
+    34
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.brownian-motion.black-scholes-model:q6"
+  }
+ ],
+ "source": {
+  "title": "Black–Scholes model",
+  "url": "https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model",
+  "revision": 1369234374
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The Black–Scholes model, also called Black–Scholes–Merton, is a mathematical model of a financial market that trades derivatives. It is named after the economists Fischer Black and Myron Scholes, and Merton, the first to write an academic paper about it, is sometimes credited too. At its heart is a partial differential equation, the Black–Scholes equation. From it comes the Black–Scholes formula, a theoretical price for options of the European style.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Hedging the risk away",
+    "text": "The main idea is hedging: buying and selling the underlying asset in a particular way so that risk is removed. For a European call or put, Black and Scholes showed one can hold the stock and sell the option short so that the combined position's value does not depend on the stock price. Rebalancing like this all the time is called continuously revised delta hedging. Because risk can be removed this way, the option has one unique price, given by the formula.",
+    "cites": [
+     5,
+     6,
+     34,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "The imagined market",
+    "text": "The model assumes a market with at least one risky asset, usually a stock, and one riskless asset such as cash or a bond. The riskless asset earns a constant return, the risk-free interest rate. The stock price follows a geometric Brownian motion whose drift and volatility stay constant. There is no way to earn a riskless profit above the risk-free rate, anyone can borrow, lend, buy or sell any amount, even fractions, and no trade carries fees or costs.",
+    "cites": [
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "The one hidden number",
+    "text": "Only one input to the formula cannot be read straight from the market: how volatile the underlying asset will be, on average, in the future. It can, though, be found from the prices of other options. Because an option is worth more when this volatility is higher, the formula can be run backwards to build a volatility surface. That surface is then used to calibrate other models.",
+    "cites": [
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "How it came about",
+    "text": "Louis Bachelier's 1900 thesis was the earliest work to apply Brownian motion to pricing derivatives, though it had little impact for many years. In 1968 Black and Scholes showed that adjusting a portfolio over time removes the security's expected return, which gave birth to the risk-neutral argument. Merton was first to publish a paper widening the maths, and he coined the name Black–Scholes options pricing model. Merton and Scholes won the 1997 Nobel Memorial Prize in Economic Sciences; Black had died in 1995 and could not receive it, but the Swedish Academy named him as a contributor.",
+    "cites": [
+     14,
+     17,
+     19,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Its lasting impact",
+    "text": "The formula set off a boom in options trading and gave the business mathematical legitimacy. Options traders still use the model widely, often with some adjustments. Its assumptions have since been loosened in many directions. Later versions allow for changing interest rates, transaction costs and taxes, and dividend payments.",
+    "cites": [
+     7,
+     8,
+     20,
+     37,
+     38
+    ]
+   }
+  ]
+ }
+}

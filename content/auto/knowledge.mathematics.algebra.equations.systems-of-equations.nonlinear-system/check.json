@@ -1,0 +1,71 @@
+{
+ "draftHash": "a760e93430672d476d80fd086817c2e7bcd202aa",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "a",
+  "q2": "c",
+  "q3": "a",
+  "q4": "d",
+  "q5": "b",
+  "q6": "c"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "S1 states it"
+  },
+  "s1": {
+   "supported": true,
+   "why": "S5 cannot be written as linear combination; S19 at least one not linear"
+  },
+  "s2": {
+   "supported": true,
+   "why": "S8 hard so linearised; S9 hides chaos"
+  },
+  "f0": {
+   "supported": true,
+   "why": "S1"
+  },
+  "f1": {
+   "supported": true,
+   "why": "S19"
+  },
+  "f2": {
+   "supported": true,
+   "why": "S8 names linearization"
+  },
+  "f3": {
+   "supported": true,
+   "why": "S12 weather chaotic"
+  },
+  "f4": {
+   "supported": true,
+   "why": "S22 main method for differentiable functions is Newton's method and variants"
+  },
+  "q1": {
+   "supported": true,
+   "why": "S1 output change not proportional to input change; Machine B fits"
+  },
+  "q2": {
+   "supported": true,
+   "why": "S8 approximated because hard; S9 works well in some range"
+  },
+  "q3": {
+   "supported": true,
+   "why": "S9 linearization hides chaos; S12 weather is chaotic"
+  },
+  "q4": {
+   "supported": true,
+   "why": "S11 chaotic behaviour may resemble random but is not"
+  },
+  "q5": {
+   "supported": true,
+   "why": "S19 one non-linear equation suffices; S4 variable of degree above one is nonlinear"
+  },
+  "q6": {
+   "supported": true,
+   "why": "S31 and S34 say known solutions generally cannot be combined"
+  }
+ },
+ "renumberedFrom": "extractor 1"
+}

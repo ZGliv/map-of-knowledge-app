@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group",
+ "name": "Symmetric group",
+ "summary": [
+  {
+   "text": "The symmetric group on a set X is the group whose elements are the permutations of X, with function composition as the operation.",
+   "cites": [
+    8,
+    22
+   ]
+  },
+  {
+   "text": "It is a group because composing permutations gives a permutation, the do-nothing bijection is the identity, and every permutation has an inverse.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "text": "Every permutation can be written as a product of transpositions, and the number needed is either always even or always odd.",
+   "cites": [
+    29,
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Transposition",
+   "value": "A permutation that swaps two elements and fixes the rest",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Parity",
+   "value": "A permutation needs either always an even or always an odd count of transpositions",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Alternating group",
+   "value": "The even permutations; for n ≥ 2 it has n!/2 elements",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "label": "Permutation groups",
+   "value": "Subgroups of symmetric groups carry this name",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Disjoint cycles",
+   "value": "Cycles sharing no elements commute",
+   "cites": [
+    44,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In the symmetric group on a set, which permutation acts as the identity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one that swaps every pair of elements"
+    },
+    {
+     "id": "b",
+     "label": "The one that reverses the whole order"
+    },
+    {
+     "id": "c",
+     "label": "The one that sends each element to itself"
+    },
+    {
+     "id": "d",
+     "label": "The one with the longest cycle"
+    }
+   ],
+   "answer": "c",
+   "explain": "The trivial bijection assigning each element to itself serves as the identity.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group:q1"
+  },
+  {
+   "prompt": "Why can any shuffle in the symmetric group be undone by another element of the same group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every bijection has an inverse function that is also a permutation"
+    },
+    {
+     "id": "b",
+     "label": "Every shuffle is its own opposite"
+    },
+    {
+     "id": "c",
+     "label": "Shuffles can be undone only when they are cycles"
+    },
+    {
+     "id": "d",
+     "label": "The identity can replace any shuffle"
+    }
+   ],
+   "answer": "a",
+   "explain": "A bijection has an inverse function that undoes its action, and that inverse is a permutation too.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group:q2"
+  },
+  {
+   "prompt": "One person writes a permutation as a product of three swaps. Could another person correctly write the same permutation as a product of four swaps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any count of swaps can be used"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if they add two extra swaps"
+    },
+    {
+     "id": "c",
+     "label": "Only if the set has an even size"
+    },
+    {
+     "id": "d",
+     "label": "No, the count is always odd or always even"
+    }
+   ],
+   "answer": "d",
+   "explain": "Representations are not unique, but the number of transpositions needed is either always even or always odd.",
+   "cites": [
+    29,
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group:q3"
+  },
+  {
+   "prompt": "Two cycles in a permutation share no elements. Does the order in which you apply them matter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, disjoint cycles commute"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it always changes the result"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only for cycles of length two"
+    },
+    {
+     "id": "d",
+     "label": "It matters only in small groups"
+    }
+   ],
+   "answer": "a",
+   "explain": "Disjoint cycles commute, so they can be applied in either order.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group:q4"
+  },
+  {
+   "prompt": "Student A writes a three-item cycle as (1 4 3) and student B writes (4 3 1). Are they describing different permutations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the starting point changes the permutation"
+    },
+    {
+     "id": "b",
+     "label": "No, the same cycle can start at any point"
+    },
+    {
+     "id": "c",
+     "label": "Yes, unless the cycle has length two"
+    },
+    {
+     "id": "d",
+     "label": "No, but only when the cycles are disjoint"
+    }
+   ],
+   "answer": "b",
+   "explain": "A cycle can equally be written starting at a different point, so (1 4 3) and (4 3 1) name the same cycle.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group:q5"
+  },
+  {
+   "prompt": "Bubble sort only swaps neighbouring items yet can reach any ordering. Which fact explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Disjoint cycles always commute"
+    },
+    {
+     "id": "b",
+     "label": "Every cycle has an order equal to its length"
+    },
+    {
+     "id": "c",
+     "label": "Every permutation is a product of adjacent transpositions"
+    },
+    {
+     "id": "d",
+     "label": "The even permutations form a normal subgroup"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every permutation can be written as a product of adjacent transpositions, and bubble sort is an application of this fact.",
+   "cites": [
+    36,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.groups.symmetric-group:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Permutations4.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Symmetric group",
+  "credit": "Lydie Noria",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Permutations4.gif"
+ },
+ "source": {
+  "title": "Symmetric group",
+  "url": "https://en.wikipedia.org/wiki/Symmetric_group",
+  "revision": 1373607912
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Every rearrangement",
+    "text": "On any set, the symmetric group has as its elements every bijection of that set onto itself, and its operation is composing these functions. For a finite set, a permutation and a bijective function are the same thing: a rearrangement. The finite symmetric group Sₙ on n symbols holds every permutation of those symbols. There are n! such permutations, so Sₙ has order n!, its number of elements.",
+    "cites": [
+     1,
+     2,
+     3,
+     9
+    ]
+   },
+   {
+    "heading": "Why it is a group",
+    "text": "Checking that this is a group means checking closure, associativity, an identity and inverses. Composing two permutations of a set always gives another permutation of it. The bijection that sends every element to itself serves as the identity. Each bijection also has an inverse function that undoes it, and that inverse is a permutation too.",
+    "cites": [
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Small cases",
+    "text": "The symmetric group on n elements is abelian only when n is at most 2. On the empty set or a one-element set, where n is 0 or 1, the group is trivial, with just 1 element. The group Sₙ is solvable exactly when n ≤ 4.",
+    "cites": [
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Where it shows up",
+    "text": "The symmetric group matters in Galois theory, in invariant theory, in combinatorics and in the representation theory of Lie groups. In Galois theory, the symmetric group on n elements serves as the Galois group of the general degree-n polynomial. In invariant theory it acts on the variables of a function of several variables, and the functions it leaves unchanged are the symmetric functions. Cayley's theorem says that any group G is isomorphic to some subgroup of the symmetric group on G. Subgroups of symmetric groups are called permutation groups.",
+    "cites": [
+     6,
+     7,
+     16,
+     17,
+     21
+    ]
+   },
+   {
+    "heading": "Swaps and parity",
+    "text": "A transposition is a permutation that swaps two elements and leaves all the others fixed, such as (1 3). Any permutation can be built as a product of transpositions. That way of writing it is not unique, but the number of transpositions needed is either always even or always odd. Permutations are called even or odd to match. The even permutations form the alternating group Aₙ, a normal subgroup of Sₙ with n!/2 elements for n ≥ 2.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Neighbour swaps and sorting",
+    "text": "Every permutation can even be written using only adjacent transpositions, swaps of the form (a a+1). This fact is what the sorting algorithm bubble sort puts to use. As with ordinary transpositions, such a product is not unique.",
+    "cites": [
+     36,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Cycles",
+    "text": "Take a permutation h that sends 1 to 4, 4 to 3 and 3 to 1, and leaves 2 and 5 alone. It is a cycle of length three, written (1 4 3), or equally (4 3 1) or (3 1 4). The order of a cycle equals its length, and cycles of length two are transpositions. Two cycles are disjoint when they move separate sets of elements, and disjoint cycles commute. For example, in S₆ the products (4 1 3)(2 5 6) and (2 5 6)(4 1 3) are equal.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "clark-symmetric",
+   "kind": "book",
+   "title": "3: The Symmetric Groups - Elementary Abstract Algebra (Clark)",
+   "by": "W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Elementary_Abstract_Algebra_(Clark)/01%3A_Chapters/1.03%3A_The_Symmetric_Groups",
+   "note": "A free textbook chapter on the symmetric groups of permutations and how to compute with them."
+  },
+  {
+   "id": "judson-permutation",
+   "kind": "book",
+   "title": "5: Permutation Groups - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/05%3A_Permutation_Groups",
+   "note": "A free textbook chapter on permutation groups, cycle notation, transpositions and even and odd permutations.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

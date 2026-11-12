@@ -1,0 +1,314 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography",
+ "name": "Elliptic-curve cryptography",
+ "summary": [
+  {
+   "text": "Elliptic-curve cryptography is a kind of public-key cryptography based on the algebraic structure of elliptic curves over finite fields.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its main promise is smaller keys, which give equivalent security to systems like RSA while reducing storage and transmission needs.",
+   "cites": [
+    2,
+    33
+   ]
+  },
+  {
+   "text": "It works because point multiplication is efficient to compute but apparently cannot be reversed for properly chosen curves and key sizes.",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Wide use began",
+   "value": "Starting in 2004",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Main benefit",
+   "value": "Smaller key size than alternatives such as RSA",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Used in",
+   "value": "Transport Layer Security and Bitcoin",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "NIST curves",
+   "value": "Fifteen curves recommended for the Digital Signature Standard",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Quantum worry",
+   "value": "In 2015 the NSA planned to replace Suite B over quantum-attack concerns",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A small device has little storage and a slow connection but needs strong public-key security. Why might elliptic curves suit it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They avoid using any keys at all"
+    },
+    {
+     "id": "b",
+     "label": "They need larger keys, which are easier to protect"
+    },
+    {
+     "id": "c",
+     "label": "They offer equivalent security with smaller keys"
+    },
+    {
+     "id": "d",
+     "label": "They work only for devices with no network"
+    }
+   ],
+   "answer": "c",
+   "explain": "ECC allows smaller keys to provide equivalent security compared with systems such as RSA, reducing storage and transmission requirements.",
+   "cites": [
+    2,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography:q1"
+  },
+  {
+   "prompt": "What does the security of elliptic-curve cryptography lean on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Point multiplication is easy to compute, yet apparently cannot be reversed"
+    },
+    {
+     "id": "b",
+     "label": "Keeping the curve equation itself secret from everyone"
+    },
+    {
+     "id": "c",
+     "label": "Point multiplication being hard to compute in the forward direction"
+    },
+    {
+     "id": "d",
+     "label": "Using as many coordinate pairs as possible"
+    }
+   ],
+   "answer": "a",
+   "explain": "Security depends on computing point multiplication efficiently and the apparent inability to reverse it for properly chosen curves and key sizes.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography:q2"
+  },
+  {
+   "prompt": "A standard random-number generator was later said to contain a deliberate weakness put in through an agency's influence. What advice followed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "RSA Security advised customers to stop using software based on it"
+    },
+    {
+     "id": "b",
+     "label": "Everyone was told to use it more widely"
+    },
+    {
+     "id": "c",
+     "label": "It was recommended only for military communications"
+    },
+    {
+     "id": "d",
+     "label": "Nothing changed, since the weakness was harmless"
+    }
+   ],
+   "answer": "a",
+   "explain": "After Dual_EC_DRBG was reported to carry a deliberate weakness, RSA Security issued an advisory in 2013 recommending customers discontinue software based on it.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography:q3"
+  },
+  {
+   "prompt": "Why did the NSA announce in 2015 that it planned to replace its Suite B cipher suite?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The curves had been found to be too large"
+    },
+    {
+     "id": "b",
+     "label": "Patents had made the suite too costly"
+    },
+    {
+     "id": "c",
+     "label": "Nobody had used the suite for signatures"
+    },
+    {
+     "id": "d",
+     "label": "Concerns about quantum computing attacks on ECC"
+    }
+   ],
+   "answer": "d",
+   "explain": "The NSA cited concerns about quantum computing attacks on elliptic-curve cryptography, later publishing guidance for a transition to quantum-resistant algorithms.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography:q4"
+  },
+  {
+   "prompt": "Elliptic curves do not directly encrypt a message. How can they still be used for encryption?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By swapping the message for a random curve"
+    },
+    {
+     "id": "b",
+     "label": "By hiding the message inside the curve's equation"
+    },
+    {
+     "id": "c",
+     "label": "By pairing key agreement with a symmetric encryption scheme"
+    },
+    {
+     "id": "d",
+     "label": "By removing the need for any keys"
+    }
+   ],
+   "answer": "c",
+   "explain": "Elliptic curves are used for key agreement, and they can be used indirectly for encryption by combining that key agreement with a symmetric encryption scheme.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography:q5"
+  },
+  {
+   "prompt": "Two curves have the same number of coordinate pairs satisfying their equations. What decides how hard the underlying problem is?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The size and structure of the curve group, not just that total"
+    },
+    {
+     "id": "b",
+     "label": "Only the total number of coordinate pairs"
+    },
+    {
+     "id": "c",
+     "label": "The color of the graph when it is drawn"
+    },
+    {
+     "id": "d",
+     "label": "Whether the curve was named by NIST"
+    }
+   ],
+   "answer": "a",
+   "explain": "The size and structure of the curve group, rather than only the number of coordinate pairs satisfying the curve equation, determine the difficulty of the problem.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.cryptography.elliptic-curve-cryptography:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Elliptic_curve_simple.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Elliptic-curve cryptography",
+  "credit": "Created by Sean κ. + 23:33, 27 May 2005 (UTC)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Elliptic_curve_simple.png"
+ },
+ "source": {
+  "title": "Elliptic-curve cryptography",
+  "url": "https://en.wikipedia.org/wiki/Elliptic-curve_cryptography",
+  "revision": 1383454865
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Curves as locks",
+    "text": "Elliptic-curve cryptography, or ECC, is a kind of public-key cryptography, the family of methods whose security rests on mathematical problems that are very hard to solve. ECC builds its problems from the algebra of elliptic curves over finite fields. Its main selling point is smaller keys for the same protection. A 256-bit ECC public key should be about as strong as a 3072-bit RSA public key, which means less to store and less to send.",
+    "cites": [
+     1,
+     2,
+     27,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Easy one way, hard the other",
+    "text": "ECC depends on an operation called point multiplication being quick to carry out but, for well-chosen curves and key sizes, apparently impossible to undo. The central puzzle is called the elliptic curve discrete logarithm problem: given a public base point P and a second point Q = k P, it should be infeasible to find k. Key-agreement methods such as ECDH rely on a related puzzle, where knowing P, a P and b P should not let anyone compute a b P. What makes the puzzle hard is the size and structure of the curve's group, not just how many points lie on the curve.",
+    "cites": [
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Agreeing on a curve",
+    "text": "Before ECC can be used, everyone involved must agree on every detail of the curve, a set of values called the domain parameters. The arithmetic happens in a finite field, usually either a prime field or a binary field. The curve itself is fixed by the numbers in its equation, and a chosen starting point G, the base point, generates the group of points used. The order of G, the smallest positive n for which n G gives the point at infinity, is normally prime, and a related number called the cofactor is usually small, ideally 1. Unless a trusted party produced these parameters, they must be checked before use.",
+    "cites": [
+     35,
+     36,
+     38,
+     39,
+     40,
+     41,
+     42,
+     45
+    ]
+   },
+   {
+    "heading": "What it is used for",
+    "text": "Elliptic curves serve for key agreement, digital signatures, generating random-looking numbers and other jobs. They can also encrypt messages indirectly, by pairing key agreement with a symmetric scheme. Some methods for factoring whole numbers, such as Lenstra elliptic-curve factorization, use them too. ECC runs inside widely used protocols, among them Transport Layer Security and Bitcoin.",
+    "cites": [
+     3,
+     4,
+     5,
+     16
+    ]
+   },
+   {
+    "heading": "From idea to standard",
+    "text": "The idea of using elliptic curves in cryptography was put forward independently by more than one researcher, Neal Koblitz among them. ECC algorithms came into wide use from 2004. NIST recommended fifteen elliptic curves for its Digital Signature Standard. At the RSA Conference in 2005, the National Security Agency announced Suite B, which used ECC for digital signatures and key exchange.",
+    "cites": [
+     6,
+     7,
+     8,
+     12
+    ]
+   },
+   {
+    "heading": "Doubts and the quantum question",
+    "text": "In 2013, The New York Times reported that an elliptic-curve random bit generator called Dual_EC_DRBG had become a NIST standard under NSA influence, and that the NSA had built a deliberate weakness into it. RSA Security then told its customers to stop using any software based on it. Some cryptography experts went further and voiced worries about the NIST recommended curves themselves. In 2015 the NSA said it planned to replace Suite B because of concerns that quantum computers could attack ECC, and it later issued CNSA 2.0 guidance for moving to quantum-resistant algorithms.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   }
+  ]
+ }
+}

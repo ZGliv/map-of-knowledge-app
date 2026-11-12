@@ -1,0 +1,71 @@
+{
+ "draftHash": "acfd156ad5c2dec419c54132976227465615cac1",
+ "checker": "claude-agent",
+ "blind": {
+  "q1": "c",
+  "q2": "a",
+  "q3": "b",
+  "q4": "c",
+  "q5": "b",
+  "q6": "a"
+ },
+ "support": {
+  "s0": {
+   "supported": true,
+   "why": "S1 says exactly this"
+  },
+  "s1": {
+   "supported": true,
+   "why": "S9 before/after, S11 preserves linear combinations"
+  },
+  "s2": {
+   "supported": true,
+   "why": "S2 matrix example, S7 rotation and reflection"
+  },
+  "f0": {
+   "supported": true,
+   "why": "S6 origin to origin"
+  },
+  "f1": {
+   "supported": true,
+   "why": "S21 states it"
+  },
+  "f2": {
+   "supported": true,
+   "why": "S3"
+  },
+  "f3": {
+   "supported": true,
+   "why": "S24"
+  },
+  "f4": {
+   "supported": true,
+   "why": "S19 x+1 not linear"
+  },
+  "q1": {
+   "supported": true,
+   "why": "S6 origin to origin, S19 x+1 sends 0 to 1"
+  },
+  "q2": {
+   "supported": true,
+   "why": "S9 order does not matter"
+  },
+  "q3": {
+   "supported": true,
+   "why": "S6 plane to plane, line or origin"
+  },
+  "q4": {
+   "supported": true,
+   "why": "S20 m x n matrix maps R^n to R^m, so 3x2 gives R2 to R3"
+  },
+  "q5": {
+   "supported": true,
+   "why": "S30 expected value linear, S32 variance not"
+  },
+  "q6": {
+   "supported": true,
+   "why": "S24 and S26 give linearity of derivative"
+  }
+ },
+ "notation": "tidy-1"
+}

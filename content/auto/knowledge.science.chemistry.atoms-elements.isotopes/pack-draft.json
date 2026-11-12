@@ -1,0 +1,113 @@
+{
+ "title": "Same Element, Different Weight",
+ "question": "How can two atoms be the same element yet differ in mass?",
+ "hook": "Early radiochemists could not separate some radioactive substances because those substances shared one place in the table.",
+ "idea": "Isotopes of an element have the same number of protons but different numbers of neutrons, so they share a place in the table and nearly the same chemistry.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You measure two carbon atoms. Both have six protons, but one has eight neutrons and the other has six. Are they different elements?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Yes, the extra neutrons make a new element",
+     "feedback": "It tempts because the atoms weigh differently, but the proton count decides the element."
+    },
+    {
+     "id": "b",
+     "label": "No, they are isotopes of carbon and share one place in the table"
+    },
+    {
+     "id": "c",
+     "label": "Yes, they must have different numbers of electrons",
+     "feedback": "It tempts because electrons feel linked to identity, but a neutral atom has as many electrons as protons, so these match."
+    }
+   ],
+   "answer": "b",
+   "explain": "Atomic number counts protons and identifies the element, so both atoms are carbon with different mass numbers.",
+   "cites": [
+    2,
+    6,
+    9,
+    10
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each isotope into its group.",
+   "groups": [
+    "Stable",
+    "Radioactive"
+   ],
+   "items": [
+    [
+     "Carbon-12",
+     "Stable"
+    ],
+    [
+     "Carbon-13",
+     "Stable"
+    ],
+    [
+     "Carbon-14",
+     "Radioactive"
+    ],
+    [
+     "Uranium-235",
+     "Radioactive"
+    ]
+   ],
+   "explain": "Carbon-12 and carbon-13 are stable, while carbon-14 is radioactive and uranium-235 alpha-decays.",
+   "cites": [
+    17,
+    32
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means.",
+   "pairs": [
+    [
+     "Atomic number",
+     "Number of protons in the nucleus"
+    ],
+    [
+     "Mass number",
+     "Protons plus neutrons"
+    ],
+    [
+     "Isotopes",
+     "Same atomic number, different mass numbers"
+    ],
+    [
+     "Nuclide",
+     "A distinct nuclear species of an element"
+    ]
+   ],
+   "explain": "Atomic number counts protons, mass number counts all nucleons, isotopes vary in neutrons, and a nuclide is one distinct nuclear species.",
+   "cites": [
+    1,
+    2,
+    6,
+    8
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Every carbon atom has six protons, so each is carbon.",
+    "Carbon-12 has six neutrons and carbon-14 has eight.",
+    "So carbon-14 must have a different atomic number from carbon-12.",
+    "So the two should sit in different boxes on the periodic table."
+   ],
+   "wrong": 2,
+   "explain": "Atomic number counts protons, and both have six. Different neutron numbers change the mass number, not the atomic number.",
+   "cites": [
+    6,
+    9,
+    10
+   ]
+  }
+ ]
+}

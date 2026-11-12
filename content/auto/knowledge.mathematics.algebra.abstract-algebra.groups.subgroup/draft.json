@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A subgroup of a group G is a subset whose members form a group under the same operation that G uses.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A subset is a subgroup exactly when it is nonempty and closed under products and under inverses.",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "text": "A subgroup shares the identity of the whole group, and its number of elements must divide the number of elements in the group.",
+   "cites": [
+    18,
+    33
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Notation",
+   "value": "H is a subgroup of G is written H ≤ G; proper is H < G",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "label": "Finite shortcut",
+   "value": "A finite nonempty subset closed under products is a subgroup",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Shared identity",
+   "value": "A subgroup's identity is the identity of the group",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Generated subgroup",
+   "value": "The smallest subgroup containing a set is the intersection of all that contain it",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Index two",
+   "value": "Every subgroup of index 2 is normal",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A finite, nonempty subset of a group is closed under products. Do you still have to check inverses separately?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, both closure checks are always required"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the group is infinite"
+    },
+    {
+     "id": "c",
+     "label": "No, for a finite subset products alone suffice"
+    },
+    {
+     "id": "d",
+     "label": "No, because inverses are never needed"
+    }
+   ],
+   "answer": "c",
+   "explain": "When H is finite, being nonempty and closed under products is enough to make it a subgroup.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "H is a subgroup of G. How do the identity of H and the identity of G compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the same element"
+    },
+    {
+     "id": "b",
+     "label": "H has its own different identity"
+    },
+    {
+     "id": "c",
+     "label": "H has no identity at all"
+    },
+    {
+     "id": "d",
+     "label": "They agree only if G is finite"
+    }
+   ],
+   "answer": "a",
+   "explain": "The identity of a subgroup is the identity of the group.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "prompt": "A group has 12 elements. Could one of its subgroups have exactly 5 elements?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any size up to 12 is possible"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if it is not a proper subgroup"
+    },
+    {
+     "id": "c",
+     "label": "Only if the group is cyclic"
+    },
+    {
+     "id": "d",
+     "label": "No, 5 does not divide 12"
+    }
+   ],
+   "answer": "d",
+   "explain": "The order of every subgroup must be a divisor of the order of the group.",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "prompt": "What makes a subgroup of G proper?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is not the whole of G"
+    },
+    {
+     "id": "b",
+     "label": "It contains the identity of G"
+    },
+    {
+     "id": "c",
+     "label": "It is closed under inverses"
+    },
+    {
+     "id": "d",
+     "label": "It has an even number of elements"
+    }
+   ],
+   "answer": "a",
+   "explain": "A proper subgroup is a subgroup that is a proper subset of G, that is, different from G.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "You want the smallest subgroup that contains a chosen set of elements. How is it obtained?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the union of all subgroups containing the set"
+    },
+    {
+     "id": "b",
+     "label": "Intersect all subgroups that contain the set"
+    },
+    {
+     "id": "c",
+     "label": "Take only the chosen elements themselves"
+    },
+    {
+     "id": "d",
+     "label": "Take the largest subgroup that avoids the set"
+    }
+   ],
+   "answer": "b",
+   "explain": "The intersection of all subgroups containing the set is the smallest one containing it.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "A subgroup H splits G into exactly two left cosets. What can you say about H?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has exactly two elements"
+    },
+    {
+     "id": "b",
+     "label": "It is the whole group"
+    },
+    {
+     "id": "c",
+     "label": "It is a normal subgroup"
+    },
+    {
+     "id": "d",
+     "label": "It must be cyclic"
+    }
+   ],
+   "answer": "c",
+   "explain": "The number of left cosets is the index, and every subgroup of index 2 is normal.",
+   "cites": [
+    31,
+    35
+   ]
+  }
+ ]
+}

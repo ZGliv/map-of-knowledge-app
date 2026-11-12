@@ -1,0 +1,552 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.tropical-climates",
+ "name": "Tropical climates",
+ "summary": [
+  {
+   "text": "Tropical climates make up group A, the first of the five major groups in the Köppen system, and their coolest month averages 18 °C (64 °F) or more.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "They stay hot and humid all year with a very small yearly temperature range, and normally have just two seasons: a wet one and a dry one.",
+   "cites": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "How much rain falls in the driest month splits them into three types: tropical rainforest (Af), tropical monsoon (Am) and tropical savanna (Aw or As).",
+   "cites": [
+    7,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Köppen letter",
+   "value": "A, the first of five major groups",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Temperature rule",
+   "value": "Coolest month averages 18 °C (64 °F) or higher",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Usual seasons",
+   "value": "Two: a wet season and a dry season",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Rainforest driest month",
+   "value": "At least 60 mm (2.4 in) of rain",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Crops from tropical plants",
+   "value": "Coffee, cocoa and oil palm",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A humid coastal city has steamy summers, but its coldest month averages 16 °C. Would the Köppen system class it as tropical?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, its coolest month is below the 18 °C line"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because its summers are hot and humid"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because it sits on a warm ocean coast"
+    },
+    {
+     "id": "d",
+     "label": "No, because tropical places get no humidity"
+    }
+   ],
+   "answer": "a",
+   "explain": "Köppen counts a climate as tropical only when even its coolest month averages 18 °C or more, so hot summers are not enough.",
+   "cites": [
+    2,
+    9
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates:q1"
+  },
+  {
+   "prompt": "Two places are both hot and humid all year. What does Köppen look at to decide whether one is rainforest and the other savanna?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average heat of the hottest month"
+    },
+    {
+     "id": "b",
+     "label": "How much rain falls in the driest month"
+    },
+    {
+     "id": "c",
+     "label": "How far each one lies from the sea"
+    },
+    {
+     "id": "d",
+     "label": "How tall the trees grow in each one"
+    }
+   ],
+   "answer": "b",
+   "explain": "All three tropical types are told apart by the precipitation of the driest month.",
+   "cites": [
+    7,
+    12
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates:q2"
+  },
+  {
+   "prompt": "Someone moves from a city with cold winters to a tropical region. What will they most likely notice about temperature over the year?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Winters there turn bitterly cold"
+    },
+    {
+     "id": "b",
+     "label": "Spring and autumn swing wildly"
+    },
+    {
+     "id": "c",
+     "label": "It barely changes from month to month"
+    },
+    {
+     "id": "d",
+     "label": "It drops steadily every single year"
+    }
+   ],
+   "answer": "c",
+   "explain": "Tropical climates have a very small yearly temperature range, so the months feel much alike.",
+   "cites": [
+    5,
+    18
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates:q3"
+  },
+  {
+   "prompt": "In many tropical places, much of the plant life keeps growing right through the year. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the soil is always volcanic"
+    },
+    {
+     "id": "b",
+     "label": "Because no insects live there to eat it"
+    },
+    {
+     "id": "c",
+     "label": "Because days get longer in winter"
+    },
+    {
+     "id": "d",
+     "label": "Because it is hot and rain is plentiful"
+    }
+   ],
+   "answer": "d",
+   "explain": "High temperatures and abundant rainfall let much of the plant life grow throughout the year.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates:q4"
+  },
+  {
+   "prompt": "A tropical rainforest is packed with trees. What do all those trees do to the humidity of the air around them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They dry it by soaking water out of the air"
+    },
+    {
+     "id": "b",
+     "label": "They add to it as water evaporates from them"
+    },
+    {
+     "id": "c",
+     "label": "They have no effect on it at all"
+    },
+    {
+     "id": "d",
+     "label": "They lower it by blocking falling rain"
+    }
+   ],
+   "answer": "b",
+   "explain": "Through transpiration, water evaporates from the surface of living plants into the air, which feeds the climate's humidity.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates:q5"
+  },
+  {
+   "prompt": "Rainforest plants grow in stacked layers and take many different growth forms. What does this help them get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Room for their roots"
+    },
+    {
+     "id": "b",
+     "label": "Shelter from the wind"
+    },
+    {
+     "id": "c",
+     "label": "Enough sunlight"
+    },
+    {
+     "id": "d",
+     "label": "Distance from animals"
+    }
+   ],
+   "answer": "c",
+   "explain": "Vegetation under the rainforest climate develops vertical layers and varied growth forms to receive enough sunlight.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.earth.climate.climate-zones.tropical-climates:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Koppen-Geiger_Map_v2_A_1991%E2%80%932020.svg/960px-Koppen-Geiger_Map_v2_A_1991%E2%80%932020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Tropical climates",
+  "credit": "Beck, H.E., McVicar, T.R., Vergopolan, N., Alexis, B., Lutsko, N.J., Dufour, A.,",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Koppen-Geiger_Map_v2_A_1991%E2%80%932020.svg"
+ },
+ "source": {
+  "title": "Tropical climate",
+  "url": "https://en.wikipedia.org/wiki/Tropical_climate",
+  "revision": 1381109647
+ },
+ "pack": {
+  "id": "auto-climate-zones-tropical-climates",
+  "title": "Two Seasons, Never Cold",
+  "question": "What makes a climate tropical, and what splits the tropics into different types?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Climate zones",
+   "Tropical climates"
+  ],
+  "hue": 105,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Koppen-Geiger_Map_v2_A_1991%E2%80%932020.svg/960px-Koppen-Geiger_Map_v2_A_1991%E2%80%932020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Tropical climates",
+    "credit": "Beck, H.E., McVicar, T.R., Vergopolan, N., Alexis, B., Lutsko, N.J., Dufour, A., · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Koppen-Geiger_Map_v2_A_1991%E2%80%932020.svg",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Two Seasons, Never Cold",
+    "hook": "In much of the tropics the year has just two seasons, wet and dry, and even the coolest month stays warm."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-climate-zones-tropical-climates:1",
+    "transfer": false,
+    "prompt": "A place's coolest month averages 22 °C and even its driest month gets 80 mm of rain. Which tropical type does Köppen give it?",
+    "explain": "A coolest month of 18 °C or more makes it tropical, and a driest month with 60 mm or more of rain makes it rainforest.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Tropical savanna (Aw)",
+        "feedback": "Savannas have a dry month with well under 60 mm, so 80 mm is far too wet."
+       },
+       {
+        "id": "a",
+        "label": "Tropical rainforest (Af)"
+       },
+       {
+        "id": "b",
+        "label": "Tropical monsoon (Am)",
+        "feedback": "Monsoon climates have a driest month below 60 mm, and this one gets 80 mm."
+       },
+       {
+        "id": "d",
+        "label": "Not tropical at all",
+        "feedback": "Its coolest month is above 18 °C, which meets the tropical temperature rule."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-zones-tropical-climates:2",
+    "transfer": false,
+    "prompt": "Match each Köppen code to the tropical climate it stands for",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Af"
+     },
+     {
+      "id": "l1",
+      "label": "Am"
+     },
+     {
+      "id": "l2",
+      "label": "Aw"
+     },
+     {
+      "id": "l3",
+      "label": "As"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Tropical rainforest"
+     },
+     {
+      "id": "r2",
+      "label": "Savanna with a dry winter"
+     },
+     {
+      "id": "r3",
+      "label": "Savanna with a dry summer"
+     },
+     {
+      "id": "r1",
+      "label": "Tropical monsoon"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Group A has three basic types, and the savanna type splits into Aw for dry winters and As for dry summers."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-zones-tropical-climates:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each plant into the tropical climate it is listed for",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Bougainvillea"
+     },
+     {
+      "id": "i1",
+      "label": "Durian"
+     },
+     {
+      "id": "i2",
+      "label": "Banana"
+     },
+     {
+      "id": "i3",
+      "label": "Elephant grass"
+     },
+     {
+      "id": "i4",
+      "label": "Whistling thorn"
+     },
+     {
+      "id": "i5",
+      "label": "Acacia senegal"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Tropical rainforest"
+     },
+     {
+      "id": "g1",
+      "label": "Tropical savanna"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1",
+     "i5": "g1"
+    },
+    "explain": "Each of the tropical climates has its own typical vegetation, from rainforest fruit trees to the grasses and thorny trees of the savanna."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-climate-zones-tropical-climates:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The rainforest climate is warm and gets abundant rain."
+     },
+     {
+      "id": "b",
+      "text": "That rain helps it support more kinds of trees than other tropical types."
+     },
+     {
+      "id": "c",
+      "text": "All those trees release water into the air through transpiration."
+     },
+     {
+      "id": "d",
+      "text": "So over time the trees make the rainforest air drier."
+     }
+    ],
+    "answer": "d",
+    "explain": "Transpiration moves water from plants into the air, so the many trees add to the humidity rather than drying it."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A climate is tropical when its coolest month averages at least 18 °C, and the rain in its driest month decides which of three types it is.",
+    "connections": [
+     {
+      "title": "Tropical rainforest climate",
+      "place": "Tropical climates",
+      "node": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-rainforest-climate"
+     },
+     {
+      "title": "Tropical savanna climate",
+      "place": "Tropical climates",
+      "node": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-savanna-climate"
+     },
+     {
+      "title": "Tropical monsoon climate",
+      "place": "Tropical climates",
+      "node": "knowledge.earth.climate.climate-zones.tropical-climates.tropical-monsoon-climate"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A coolest month of 18 °C or more makes it tropical, and a driest month with 60 mm or more of rain makes it rainforest.",
+    "source": "Wikipedia sentences 2, 9, 13"
+   },
+   {
+    "claim": "Group A has three basic types, and the savanna type splits into Aw for dry winters and As for dry summers.",
+    "source": "Wikipedia sentences 7"
+   },
+   {
+    "claim": "Each of the tropical climates has its own typical vegetation, from rainforest fruit trees to the grasses and thorny trees of the savanna.",
+    "source": "Wikipedia sentences 24, 26"
+   },
+   {
+    "claim": "Transpiration moves water from plants into the air, so the many trees add to the humidity rather than drying it.",
+    "source": "Wikipedia sentences 32, 33, 34"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Where they are and how they feel",
+    "text": "Group A places mostly lie in the tropics, below 23.5 degrees of latitude north and south. They include lands around the Equator, Central America, north-central South America, central Africa, southern Asia, parts of northern Australia and Pacific islands. Heat and humidity last all year, the sunlight is intense, and temperatures change very little from season to season. There are normally just two seasons, a wet one and a dry one, and how long each lasts depends on the location.",
+    "cites": [
+     2,
+     4,
+     5,
+     6,
+     10,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Three types, split by the driest month",
+    "text": "Group A has three basic types: tropical rainforest (Af), tropical monsoon (Am), and tropical savanna, also called tropical wet and dry (Aw when winters are dry, As when summers are dry). What separates them is the rain in the driest month, written P_dry. A rainforest climate needs a P_dry of at least 60 mm (2.4 in). A monsoon climate falls between 60 mm and the value 100 − (mean annual precipitation in mm)/25, and a savanna climate falls below that value.",
+    "cites": [
+     7,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "The rainforest climate",
+    "text": "Köppen's Af zone takes its f from feucht, the German word for moist, and usually stays within 5 to 10 degrees of the equator. Averaged over a year, temperatures normally sit from 21 to 30 °C (70 to 86 °F). Rain can top 100 inches a year. The seasons are spread evenly through the year, and there is almost no dry spell. The main examples are the upper Amazon basin, the northern Congo basin and the islands of the East Indies.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "The monsoon climate",
+    "text": "The monsoon climate is hot, with little change through the year and plenty of rain, but it has a short dry season that almost always falls in winter. It is common in south and southeast Asian countries between 10 degrees north and the Tropic of Cancer, and also appears in West Africa and South America. Its average yearly temperature is around 27.05 °C (80.69 °F), with a yearly range of about 3.6 °C (6 °F). Its rain is uneven across the year, and it has three main seasons: cool and dry from fall to late winter, hot and dry in spring, and the rainy monsoon near or during summer.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Plants that never stop growing",
+    "text": "With so much heat and rain, much of the plant life keeps growing all year round. In many tropical places the plants form layers, with shrubs beneath tall trees, bushes beneath the shrubs and grasses beneath the bushes. The rainforest climate has more kinds of trees than the other tropical types thanks to its rain, and those trees add moisture back to the air through transpiration, the evaporation of water from the surfaces of living plants. Tropical plants also give people valuable crops such as coffee, cocoa and oil palm.",
+    "cites": [
+     19,
+     21,
+     22,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-low-latitude",
+   "kind": "book",
+   "title": "9.4: Low Latitude Climates",
+   "by": "Michael E. Ritter, University of Wisconsin-Stevens Point",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.04%3A_Low_Latitude_Climates",
+   "note": "A free textbook section introducing the climates near the equator, from rainforest and monsoon to savanna.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

@@ -1,0 +1,571 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding",
+ "name": "Chemical bonding",
+ "summary": [
+  {
+   "text": "A chemical bond is an attraction that holds atoms or ions together in molecules, crystals and other structures.",
+   "cites": [
+    1,
+    12
+   ]
+  },
+  {
+   "text": "Bonds come as ionic (charged ions attracting), covalent (shared electrons), metallic, or a mix, and they come from how the outer electrons of atoms behave.",
+   "cites": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "text": "Which kind of bond holds a material together decides its structure and properties, such as how strong, soft or brittle it is.",
+   "cites": [
+    7,
+    15,
+    34
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Three strong types",
+   "value": "Covalent, ionic and metallic bonds are the strong, primary bonds",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Weak bond examples",
+   "value": "Hydrogen bonds and the London dispersion force are weak, secondary bonds",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Why ionic crystals crack",
+   "value": "Forces between ions are short-range, so cracks are not bridged",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Metal electron sea",
+   "value": "Each metal atom donates electrons to a shared sea between atoms",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Network covalent solids",
+   "value": "Diamond and quartz are covalent bonds extending through a whole solid",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You drop a lump of table salt and it shatters instead of bending. What best explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its ions attract only at short range, so a crack is not bridged"
+    },
+    {
+     "id": "b",
+     "label": "Its electrons roam freely between all the atoms in the lump"
+    },
+    {
+     "id": "c",
+     "label": "Its bonds are weak and break at the slightest push of force"
+    },
+    {
+     "id": "d",
+     "label": "Its atoms share pairs of electrons along fixed chains in space"
+    }
+   ],
+   "answer": "a",
+   "explain": "Ionic bonds are strong but brittle because the forces between ions are short-range and do not bridge cracks.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding:q1"
+  },
+  {
+   "prompt": "A blacksmith hammers a bar of metal flat and it does not snap. Which bonding idea explains why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ions locked in place, each attracting only its nearest neighbours"
+    },
+    {
+     "id": "b",
+     "label": "Shared electrons forming a few fixed lines between pairs of atoms"
+    },
+    {
+     "id": "c",
+     "label": "Electrons in a shared sea, with atoms not attracted in set directions"
+    },
+    {
+     "id": "d",
+     "label": "Weak attractions between separate small molecules in the metal"
+    }
+   ],
+   "answer": "c",
+   "explain": "Metallic bonding is collective and not oriented in particular directions, so metal crystals deform more easily, which gives malleability.",
+   "cites": [
+    37,
+    42,
+    43
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding:q2"
+  },
+  {
+   "prompt": "Candle wax is soft and melts at a low temperature, yet it is built from covalently bonded molecules. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The covalent bonds inside each molecule are very weak"
+    },
+    {
+     "id": "b",
+     "label": "The forces holding one molecule to the next are much weaker"
+    },
+    {
+     "id": "c",
+     "label": "The molecules are held together by a sea of electrons"
+    },
+    {
+     "id": "d",
+     "label": "The molecules are made of oppositely charged ions"
+    }
+   ],
+   "answer": "b",
+   "explain": "Covalent bonds make small molecules, and the weak intermolecular forces between them give waxes and oils their soft bulk and low melting points.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding:q3"
+  },
+  {
+   "prompt": "A diamond is far harder and has a much higher melting point than a wax candle. Both rely on covalent bonds. What is the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Diamond's covalent bonds extend in a network through the whole solid"
+    },
+    {
+     "id": "b",
+     "label": "Diamond is held together by ions of opposite charge instead"
+    },
+    {
+     "id": "c",
+     "label": "Diamond has no bonds between its atoms, only loose contact"
+    },
+    {
+     "id": "d",
+     "label": "Diamond's bonds are weaker but there are simply more of them"
+    }
+   ],
+   "answer": "a",
+   "explain": "Covalent bonds that extend in networks through a solid, as in diamond, give strong, tough structures with high melting points, unlike small separate molecules.",
+   "cites": [
+    22,
+    24,
+    25
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding:q4"
+  },
+  {
+   "prompt": "A chemist finds a bond that is partly sharing and partly attraction between charges. What should she conclude about the types of bond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sample must be contaminated, since bonds are always one pure type"
+    },
+    {
+     "id": "b",
+     "label": "Only metals can show a mixture like this in practice"
+    },
+    {
+     "id": "c",
+     "label": "The bond must be a weak, secondary bond of some kind"
+    },
+    {
+     "id": "d",
+     "label": "Types of bond merge into each other, with no clear line between them"
+    }
+   ],
+   "answer": "d",
+   "explain": "The behaviours of valence electrons merge into each other, so no clear line separates the bond types, though the labels remain useful.",
+   "cites": [
+    2,
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding:q5"
+  },
+  {
+   "prompt": "In a simple picture of an ionic bond, what happens to the bonding electron?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is passed from one atom to the other, leaving opposite charges"
+    },
+    {
+     "id": "b",
+     "label": "It is shared equally between the two nuclei in the middle"
+    },
+    {
+     "id": "c",
+     "label": "It joins a sea of electrons spread over many atoms"
+    },
+    {
+     "id": "d",
+     "label": "It is lost entirely and no longer affects either atom"
+    }
+   ],
+   "answer": "a",
+   "explain": "The electron is transferred, so one atom becomes positive and the other negative, and their electrostatic attraction forms the bond.",
+   "cites": [
+    26,
+    29,
+    30,
+    31
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Dihydrogen-phase-3D-balls.png/960px-Dihydrogen-phase-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Chemical bonding",
+  "credit": "File:Dihydrogen-HOMO-phase-3D-balls.png: Benjah-bmm27 File:Dihydrogen-LUMO-phase",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Dihydrogen-phase-3D-balls.png"
+ },
+ "source": {
+  "title": "Chemical bond",
+  "url": "https://en.wikipedia.org/wiki/Chemical_bond",
+  "revision": 1368837112
+ },
+ "pack": {
+  "id": "auto-chemistry-chemical-bonding",
+  "title": "Why salt shatters and iron bends",
+  "question": "Why do materials with different bonds behave so differently when you hit them?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical bonding"
+  ],
+  "hue": 165,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Dihydrogen-phase-3D-balls.png/960px-Dihydrogen-phase-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chemical bonding",
+    "credit": "File:Dihydrogen-HOMO-phase-3D-balls.png: Benjah-bmm27 File:Dihydrogen-LUMO-phase · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dihydrogen-phase-3D-balls.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why salt shatters and iron bends",
+    "hook": "A hammer cracks salt, flattens iron and barely scratches diamond, and the reason is how their atoms are held."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemistry-chemical-bonding:1",
+    "transfer": false,
+    "prompt": "You strike a crystal of table salt with a hammer. What happens?",
+    "explain": "Ionic bonds are strong but brittle, since the forces between ions are short-range and do not easily bridge cracks and fractures.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It stays whole, because ionic bonds are weak",
+        "feedback": "Ionic bonds are strong; they are just brittle."
+       },
+       {
+        "id": "a",
+        "label": "It shatters, because ion forces are short-range and do not bridge cracks"
+       },
+       {
+        "id": "b",
+        "label": "It flattens like metal, because its electrons move freely",
+        "feedback": "Free-moving electrons belong to metallic bonding, not to the ions in salt."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemistry-chemical-bonding:2",
+    "transfer": false,
+    "prompt": "match each bond to what happens with the electrons",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Ionic"
+     },
+     {
+      "id": "l1",
+      "label": "Covalent"
+     },
+     {
+      "id": "l2",
+      "label": "Metallic"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Electrons donated to a shared sea"
+     },
+     {
+      "id": "r0",
+      "label": "Electron transferred, giving charged ions"
+     },
+     {
+      "id": "r1",
+      "label": "Electrons shared between two nuclei"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Each bond type is defined by what the outer electrons do: transfer, sharing, or delocalising over many atoms."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemistry-chemical-bonding:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Covalent bond"
+     },
+     {
+      "id": "i1",
+      "label": "Ionic bond"
+     },
+     {
+      "id": "i2",
+      "label": "Metallic bond"
+     },
+     {
+      "id": "i3",
+      "label": "Hydrogen bond"
+     },
+     {
+      "id": "i4",
+      "label": "London dispersion force"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Strong, primary bond"
+     },
+     {
+      "id": "g1",
+      "label": "Weak, secondary bond"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Covalent, ionic and metallic bonds are primary; dipole-dipole interactions, the London dispersion force and hydrogen bonds are secondary."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemistry-chemical-bonding:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about metals is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Each metal atom donates electrons to a shared sea."
+     },
+     {
+      "id": "b",
+      "text": "The electrons are free to be associated with many atoms at once."
+     },
+     {
+      "id": "c",
+      "text": "So every bond points in one fixed direction between two atoms."
+     },
+     {
+      "id": "d",
+      "text": "So metal crystals can deform more easily, giving malleability."
+     }
+    ],
+    "answer": "c",
+    "explain": "Metallic bonding is collective, with atoms attracted to each other but not in particularly oriented ways, which is why metals deform."
+   },
+   {
+    "kind": "payoff",
+    "idea": "The way atoms are held together, by transfer, sharing or a sea of electrons, decides how a material breaks, bends or melts.",
+    "connections": [
+     {
+      "title": "Ionic bonding",
+      "place": "Chemical bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.ionic-bonding"
+     },
+     {
+      "title": "Covalent bonding",
+      "place": "Chemical bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.covalent-bonding"
+     },
+     {
+      "title": "Metallic bonding",
+      "place": "Chemical bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.metallic-bonding"
+     },
+     {
+      "title": "Intermolecular forces",
+      "place": "Chemical bonding",
+      "node": "knowledge.science.chemistry.chemical-bonding.intermolecular-forces"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Ionic bonds are strong but brittle, since the forces between ions are short-range and do not easily bridge cracks and fractures.",
+    "source": "Wikipedia sentences 34, 35"
+   },
+   {
+    "claim": "Each bond type is defined by what the outer electrons do: transfer, sharing, or delocalising over many atoms.",
+    "source": "Wikipedia sentences 2, 16, 26, 30, 31, 37"
+   },
+   {
+    "claim": "Covalent, ionic and metallic bonds are primary; dipole-dipole interactions, the London dispersion force and hydrogen bonds are secondary.",
+    "source": "Wikipedia sentences 3"
+   },
+   {
+    "claim": "Metallic bonding is collective, with atoms attracted to each other but not in particularly oriented ways, which is why metals deform.",
+    "source": "Wikipedia sentences 37, 38, 42, 43"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a bond is",
+    "text": "A chemical bond is an attraction between atoms. It is what lets atoms or ions join up into molecules, crystals and other structures. Bonds hold together the atoms of molecules, crystals, metals and other forms of matter, and the bonds decide how the material is built and how it behaves. The differences between kinds of bond come from how the outermost electrons of the atoms, called valence electrons, behave.",
+    "cites": [
+     1,
+     7,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Strong and weak bonds",
+    "text": "A bond can come from the pull between ions of opposite charge, which makes an ionic bond, from atoms sharing electrons, which makes a covalent bond, or from a mix of both. Chemists also sort bonds by strength. Covalent, ionic and metallic bonds count as strong or primary bonds. Hydrogen bonds, the London dispersion force and dipole–dipole interactions count as weak or secondary ones. The kinds shade into each other with no clear border, yet naming them separately is still useful, since they give materials different properties.",
+    "cites": [
+     2,
+     3,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Why atoms stick together",
+    "text": "Opposite charges attract, so the negative electrons around an atom and the positive protons in its nucleus pull on each other. An electron shared by two nuclei is pulled by both of them. Bonded nuclei settle at a best spacing, the bond distance, where attraction and repulsion balance. Forming a bond releases energy. This is not because potential energy drops, since the extra attractions are offset by repulsions; it comes from a fall in the electrons' kinetic energy when they spread over a larger region instead of staying close to one nucleus.",
+    "cites": [
+     4,
+     5,
+     6,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Covalent bonds",
+    "text": "Picture a covalent bond at its simplest: one or more electrons, often a pair, are drawn into the space between two nuclei. Such a bond joins two particular atoms and points in a set direction, which is why drawings show it as a line and models show it as a stick between balls. When the electrons are shared unequally, the bond is called polar. Covalent bonds often build small, well-connected groups of atoms called molecules. In solids and liquids these molecules hold onto each other only through much weaker forces, which is why waxes and oils are soft and melt at low temperatures.",
+    "cites": [
+     16,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Chains and networks",
+    "text": "Covalent bonds can also link atoms into long chains, as in nylon, or run as networks through a whole solid, as in diamond and quartz. The result can then be both strong and tough. Such polymers and networks also melt at much higher temperatures.",
+    "cites": [
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Ionic bonds",
+    "text": "In a simple picture of an ionic bond, an electron is handed over rather than shared. One nucleus offers the electron a more tightly held place than the other, so one atom can pass an electron to its neighbour. That leaves one atom with a net positive charge and the other with a net negative charge, and the two charged particles, called ions, attract each other. Ionic bonds are strong, so these substances need high temperatures to melt, but they are brittle because the forces between ions reach only a short way. Crystals of table salt get their character from this kind of bond.",
+    "cites": [
+     26,
+     29,
+     30,
+     31,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Metallic bonds",
+    "text": "In a metal, each atom gives one or more electrons to a shared sea of electrons lying among many atoms. Each of these electrons can be linked with a great many atoms at once. The atoms, left somewhat positive, stay bound because the loose electrons are attracted to all of them. This bonding is often very strong, which gives metals their tensile strength, yet the atoms are not held in fixed directions, so metal crystals deform more easily and metals are malleable. The same electron cloud explains why metals conduct electricity and heat well and look shiny.",
+    "cites": [
+     37,
+     38,
+     39,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-bonding",
+   "kind": "book",
+   "title": "General Chemistry/Overview of bonding",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Overview_of_bonding",
+   "note": "A short open textbook page comparing ionic, covalent and metallic bonds and the forces between molecules.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "crashcourse-chem-22",
+   "kind": "video",
+   "title": "Atomic Hook-Ups - Types of Chemical Bonds: Crash Course Chemistry #22",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=QXT4OVM4vXI",
+   "note": "A Crash Course Chemistry episode introducing the main types of chemical bonds."
+  }
+ ]
+}

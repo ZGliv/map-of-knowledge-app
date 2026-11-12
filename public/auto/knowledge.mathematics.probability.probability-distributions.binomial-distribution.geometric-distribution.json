@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution",
+ "name": "Geometric distribution",
+ "summary": [
+  {
+   "text": "The geometric distribution describes when the first success occurs in an endless sequence of independent, identically distributed Bernoulli trials.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It can count the trials up to and including the first success, or the failures before it, and the probability formula changes with the choice.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "text": "It is the only memoryless discrete distribution: earlier failed trials do not affect how many more trials are needed for a success.",
+   "cites": [
+    14,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name",
+   "value": "Its probabilities follow a geometric sequence",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Die example",
+   "value": "Rolling until a 1 appears has success chance 1/6 each roll",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "label": "Average wait",
+   "value": "About 6 rolls to see a 1 on a fair die",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Memoryless",
+   "value": "The only memoryless discrete distribution",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Other name",
+   "value": "Sometimes called the Furry distribution",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You roll a die again and again until a 1 appears and note how many rolls it took. Which distribution describes that number?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hypergeometric"
+    },
+    {
+     "id": "b",
+     "label": "Binomial"
+    },
+    {
+     "id": "c",
+     "label": "Geometric"
+    },
+    {
+     "id": "d",
+     "label": "A distribution with no parameter"
+    }
+   ],
+   "answer": "c",
+   "explain": "Waiting for the first success in a sequence of independent trials, each with the same success chance of 1/6, is the geometric distribution.",
+   "cites": [
+    5,
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution:q1"
+  },
+  {
+   "prompt": "You have rolled a die ten times without getting a 1. What does that do to the number of further rolls you will need?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes a 1 more due, so fewer rolls are needed"
+    },
+    {
+     "id": "b",
+     "label": "It makes a 1 less likely, so more rolls are needed"
+    },
+    {
+     "id": "c",
+     "label": "Nothing: past failures do not change what is needed"
+    },
+    {
+     "id": "d",
+     "label": "It resets the die to a new set of faces"
+    }
+   ],
+   "answer": "c",
+   "explain": "The geometric distribution is memoryless: the number of previously failed trials does not affect the number of future trials needed for a success.",
+   "cites": [
+    14,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution:q2"
+  },
+  {
+   "prompt": "On average, about how many rolls of a fair die does it take to see your first 1?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "3"
+    },
+    {
+     "id": "c",
+     "label": "12"
+    },
+    {
+     "id": "d",
+     "label": "36"
+    }
+   ],
+   "answer": "a",
+   "explain": "With a success chance of 1/6 on each roll, the average number of rolls needed is 1/(1/6) = 6.",
+   "cites": [
+    12,
+    21
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution:q3"
+  },
+  {
+   "prompt": "Your first 1 appears on the fifth roll. How many failures came before the first success?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5"
+    },
+    {
+     "id": "b",
+     "label": "6"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "4"
+    }
+   ],
+   "answer": "d",
+   "explain": "The number of failures before the first success is one less than the number of trials, so four rolls failed before the fifth succeeded.",
+   "cites": [
+    7,
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution:q4"
+  },
+  {
+   "prompt": "Which question is a waiting-time question of the geometric kind?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How many heads appear in 10 tosses?"
+    },
+    {
+     "id": "b",
+     "label": "What share of tosses in a year land heads?"
+    },
+    {
+     "id": "c",
+     "label": "Which toss brings the first head?"
+    },
+    {
+     "id": "d",
+     "label": "How many tosses repeat the previous result?"
+    }
+   ],
+   "answer": "c",
+   "explain": "The geometric distribution is about when the first success occurs in a sequence of independent trials.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution:q5"
+  },
+  {
+   "prompt": "A game is changed so that winning becomes rarer. How does the uncertainty about when the first win comes change in the geometric distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It decreases, since wins are rarer"
+    },
+    {
+     "id": "b",
+     "label": "It disappears"
+    },
+    {
+     "id": "c",
+     "label": "It stays the same"
+    },
+    {
+     "id": "d",
+     "label": "It increases"
+    }
+   ],
+   "answer": "d",
+   "explain": "The entropy increases as the probability of success falls, reflecting greater uncertainty as success becomes rarer.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.binomial-distribution.geometric-distribution:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Geometric_pmf.svg/960px-Geometric_pmf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Geometric distribution",
+  "credit": "Skbkekas",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Geometric_pmf.svg"
+ },
+ "source": {
+  "title": "Geometric distribution",
+  "url": "https://en.wikipedia.org/wiki/Geometric_distribution",
+  "revision": 1375479653
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Waiting for the first success",
+    "text": "The geometric distribution answers a waiting question. You run an endless sequence of Bernoulli trials that are independent and identically distributed, and you ask when the first success will occur. The name comes from the fact that its probabilities form a geometric sequence, and it is also sometimes called the Furry distribution.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Two ways of counting",
+    "text": "There are two versions, and its probability formula depends on which one you pick. One version, X, counts the trials needed, k = 1, 2, 3, …, giving P(X = k) = (1 − p)ᵏ⁻¹p, where p is the chance of success on each trial. The other, Y = X − 1, counts the failures before the first success, so its values start at 0. These two should not be confused, so it is wise to say which one you mean by stating its possible values.",
+    "cites": [
+     1,
+     2,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Rolling until a 1",
+    "text": "Suppose you roll a six-sided die until a 1 comes up. Each roll is independent and has a 1/6 chance of success, so the number of rolls you need follows a geometric distribution with p = 1/6. For X, the expected value is E (X) = 1/p. Here that means an average of 1/(1/6) = 6 rolls, and an average of (1 − 1/6)/(1/6) = 5 failures before the 1 shows up.",
+    "cites": [
+     11,
+     12,
+     13,
+     19,
+     21
+    ]
+   },
+   {
+    "heading": "No memory",
+    "text": "Among discrete probability distributions, the geometric one is the only memoryless one. In plain terms, the failures you have already had do not change how many more trials you will need before a success. The same property appears in the exponential distribution, and the geometric distribution is its discrete version. Going the other way, the exponential distribution is the matching continuous distribution.",
+    "cites": [
+     14,
+     15,
+     16,
+     40
+    ]
+   },
+   {
+    "heading": "Shape and spread",
+    "text": "The variance of X is var (X) = (1 − p)/p², and switching to Y changes the mean to (1 − p)/p but leaves the variance the same. Its excess kurtosis never drops to zero or below, which makes it what statisticians call leptokurtic. Put simply, its tail carries more weight and dies away more slowly than a Gaussian's. As p gets smaller, the entropy grows, which reflects more uncertainty when success is rare.",
+    "cites": [
+     19,
+     20,
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-stats-4-4",
+   "kind": "book",
+   "title": "4.4 Geometric Distribution",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-4-geometric-distribution",
+   "note": "A free textbook section on the geometric distribution, the wait for a first success, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-geometric",
+   "kind": "video",
+   "title": "Geometric Distributions and The Birthday Paradox: Crash Course Statistics #16",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=5VMTeBoEcQg",
+   "note": "A short video on geometric distributions, alongside the birthday paradox."
+  },
+  {
+   "id": "numberphile-pokemon-geometric",
+   "kind": "video",
+   "title": "Pokémon and Geometric Distributions",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=K79aOe-F0Mk",
+   "note": "Tom Crawford uses catching Pokémon to show how the geometric distribution models waiting for a success."
+  }
+ ]
+}

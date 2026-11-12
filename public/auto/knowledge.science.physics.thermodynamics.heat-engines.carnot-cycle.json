@@ -1,0 +1,346 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle",
+ "name": "Carnot cycle",
+ "summary": [
+  {
+   "text": "The Carnot cycle is an ideal, reversible cycle proposed by French physicist Sadi Carnot in 1824 that moves heat between a hot and a cold reservoir.",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Two of its stages hold the temperature constant and two involve no heat transfer, and the area enclosed on a pressure-volume diagram is the work done in one cycle.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "text": "By Carnot's theorem no engine between the same two reservoirs can beat it, so it sets the ceiling for what real engines can achieve.",
+   "cites": [
+    26,
+    27,
+    39
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Proposed by",
+   "value": "Sadi Carnot, in 1824",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Two kinds of stage",
+   "value": "Constant temperature, and no heat transfer",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Run backwards",
+   "value": "It becomes a heat pump or refrigeration cycle",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Real engines",
+   "value": "A truly reversible engine cannot be built",
+   "cites": [
+    36,
+    37
+   ]
+  },
+  {
+   "label": "Diesel link",
+   "value": "The first diesel prototype followed its principles",
+   "cites": [
+    41
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A plant operator can either cool the cold side by 20 degrees or heat the hot side by 20 degrees. Which gives the bigger rise in the efficiency ceiling?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heating the hot side, since heat is what drives the engine"
+    },
+    {
+     "id": "b",
+     "label": "Both give the same rise, as the gap changes equally"
+    },
+    {
+     "id": "c",
+     "label": "Neither, because the ceiling does not depend on temperatures"
+    },
+    {
+     "id": "d",
+     "label": "Cooling the cold side"
+    }
+   ],
+   "answer": "d",
+   "explain": "Lowering the cold reservoir temperature has more effect on the ceiling efficiency than raising the hot one by the same amount, though in practice the cold side is usually stuck at ambient temperature.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle:q1"
+  },
+  {
+   "prompt": "Imagine filming a Carnot engine and playing the film so every heat and work flow goes the other way. What machine have you built?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A refrigerator or heat pump"
+    },
+    {
+     "id": "b",
+     "label": "A more efficient engine than the original"
+    },
+    {
+     "id": "c",
+     "label": "A machine that makes its own heat from nothing"
+    },
+    {
+     "id": "d",
+     "label": "A device that stops all heat transfer"
+    }
+   ],
+   "answer": "a",
+   "explain": "Because the cycle is totally reversible, reversing it makes heat absorbed from the cold reservoir and rejected to the hot one, with work input required.",
+   "cites": [
+    20,
+    21,
+    23
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle:q2"
+  },
+  {
+   "prompt": "An inventor claims an engine running between the same two reservoirs is more efficient than a Carnot engine. What does Carnot's theorem say about that claim?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is fine if the engine is large enough"
+    },
+    {
+     "id": "b",
+     "label": "It is fine if the working fluid is a liquid"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be true"
+    },
+    {
+     "id": "d",
+     "label": "It is fine if the engine runs very slowly"
+    }
+   ],
+   "answer": "c",
+   "explain": "No engine operating between two heat reservoirs can be more efficient than a Carnot engine operating between the same reservoirs.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle:q3"
+  },
+  {
+   "prompt": "Two reversible engines work between the same hot and cold reservoirs, but one uses gas and the other a different working fluid. How do their efficiencies compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The gas engine wins because gases expand more"
+    },
+    {
+     "id": "b",
+     "label": "They are equally efficient"
+    },
+    {
+     "id": "c",
+     "label": "The other fluid wins because it is less common"
+    },
+    {
+     "id": "d",
+     "label": "It depends only on which engine is bigger"
+    }
+   ],
+   "answer": "b",
+   "explain": "A corollary to Carnot's theorem says all reversible engines operating between the same reservoirs are equally efficient.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle:q4"
+  },
+  {
+   "prompt": "No real engine can be perfectly reversible. Why do engineers still use the Carnot efficiency formula?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gives the highest efficiency that could ever be expected"
+    },
+    {
+     "id": "b",
+     "label": "It predicts the exact efficiency of each real engine"
+    },
+    {
+     "id": "c",
+     "label": "It shows how to build a perfectly reversible engine"
+    },
+    {
+     "id": "d",
+     "label": "It tells them which fuel to burn"
+    }
+   ],
+   "answer": "a",
+   "explain": "Real engines are less efficient than the formula indicates, but it is extremely useful for finding the maximum efficiency possible for given reservoirs.",
+   "cites": [
+    36,
+    37,
+    39
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle:q5"
+  },
+  {
+   "prompt": "In one stage of the cycle the gas exchanges heat with a reservoir while its temperature stays exactly constant. What is this kind of stage called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Adiabatic"
+    },
+    {
+     "id": "b",
+     "label": "Reversed"
+    },
+    {
+     "id": "c",
+     "label": "Quasi-static"
+    },
+    {
+     "id": "d",
+     "label": "Isothermal"
+    }
+   ],
+   "answer": "d",
+   "explain": "The temperature is constant along the isothermal stages, while the adiabatic stages have no heat transfer.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-engines.carnot-cycle:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Carnot_heat_engine_2.svg/960px-Carnot_heat_engine_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Carnot cycle",
+  "credit": "Eric Gaba (Sting - fr:Sting)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Carnot_heat_engine_2.svg"
+ },
+ "source": {
+  "title": "Carnot cycle",
+  "url": "https://en.wikipedia.org/wiki/Carnot_cycle",
+  "revision": 1375057573
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "An ideal engine on paper",
+    "text": "The Carnot cycle is an imagined, perfect sequence of steps for an engine. The French physicist Sadi Carnot put it forward in 1824, and others built on his idea during the 1830s and 1840s. The engine sits between two thermal reservoirs, a hot one at temperature T_H and a cold one at temperature T_C, and heat flows between them through the engine. Part of the energy carried by that heat comes out as work done by the engine.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "The cycle sets a ceiling. Carnot's theorem says no engine running between two given reservoirs can be more efficient than a Carnot engine running between the same two. It also says that every reversible engine working between the same reservoirs has the same efficiency. So the Carnot formula gives the best result anyone could ever hope for from a given pair of temperatures.",
+    "cites": [
+     2,
+     26,
+     27,
+     28,
+     39
+    ]
+   },
+   {
+    "heading": "Four steps, two kinds",
+    "text": "The cycle is reversible, meaning it only shuttles heat between the reservoirs and the engine with nothing gained or lost along the way. Two of its stages keep the temperature fixed; these are called isothermal. The other two allow no heat to flow in or out; these are called adiabatic. Drawn on a pressure–volume chart, the loop traced by one full cycle encloses an area equal to the total work the engine can do in that cycle.",
+    "cites": [
+     4,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Running it backwards",
+    "text": "Because every step can be reversed, the same cycle can run the other way. Then you must put work in, and heat is pulled out of the cold reservoir and pushed into the hot one. That reversed version is the ideal model of a heat pump or a refrigerator. Its pressure–volume chart is the same loop, just traced in the opposite direction.",
+    "cites": [
+     5,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "The efficiency rule",
+    "text": "Efficiency here means the share of heat taken from the hot reservoir that ends up as work. The work per cycle is W = Q_H(T_H − T_C)/T_H, with Q_H standing for the heat drawn from the hot side. Put simply, the best possible efficiency equals the gap between the hot and cold temperatures divided by the absolute temperature of the hot reservoir. One surprise follows: cooling the cold side by some amount raises that ceiling more than warming the hot side by the same amount.",
+    "cites": [
+     7,
+     18,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Real engines fall short",
+    "text": "Carnot himself saw that a truly reversible engine cannot be built, so real engines do worse than the formula allows. A perfect Carnot engine could not even do any work in a finite time. Even so, the rule is a practical guide. It helps explain why raising T_H with a reheater or regenerator lifts the efficiency of steam power plants, and the first prototype of the diesel engine drew on Carnot's principles.",
+    "cites": [
+     36,
+     37,
+     40,
+     41,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up2-4-5",
+   "kind": "book",
+   "title": "4.5 The Carnot Cycle",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/4-5-the-carnot-cycle",
+   "note": "A free university textbook section on the four stages of the Carnot cycle and its maximum efficiency.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-15-4",
+   "kind": "book",
+   "title": "15.4 Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/15-4-carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated",
+   "note": "A free textbook section on Carnot's ideal engine and why no real engine can beat its efficiency.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-engineering-10",
+   "kind": "video",
+   "title": "Why We Can't Invent a Perfect Engine: Crash Course Engineering #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=2B81W6nNds0",
+   "note": "A Crash Course Engineering episode on the second law and the Carnot cycle, and why no engine is perfectly efficient."
+  }
+ ]
+}

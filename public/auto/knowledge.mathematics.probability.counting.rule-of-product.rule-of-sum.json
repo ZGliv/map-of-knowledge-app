@@ -1,0 +1,312 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum",
+ "name": "Rule of sum",
+ "summary": [
+  {
+   "text": "The addition principle, or rule of sum, is a basic counting principle in combinatorics.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "If one thing can be done in A ways and another in B ways, and both cannot be done at the same time, there are A + B ways to choose one.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "In terms of sets, for two sets with no elements in common, the size of their union equals the sum of their sizes.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "The addition principle",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Condition",
+   "value": "The two actions cannot be done at the same time",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Set form",
+   "value": "For disjoint sets, the union's size is the sum of sizes",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Shopping example",
+   "value": "3 shops in the north plus 2 in the south gives 5",
+   "cites": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "label": "More sets",
+   "value": "It extends to several pairwise disjoint sets",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Dev will go home today by either one of 3 bus routes or one of 2 tram routes, never both. How many different ways home does he have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6 ways"
+    },
+    {
+     "id": "b",
+     "label": "1 way"
+    },
+    {
+     "id": "c",
+     "label": "5 ways"
+    },
+    {
+     "id": "d",
+     "label": "32 ways"
+    }
+   ],
+   "answer": "c",
+   "explain": "He takes only one kind of route, so the ways add: 3 + 2 = 5.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum:q1"
+  },
+  {
+   "prompt": "Dev takes either a bus or a tram home, with 3 bus routes and 2 tram routes. Why is the number of ways not 3 × 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He uses only one of the two, so the counts add instead"
+    },
+    {
+     "id": "b",
+     "label": "Because 3 × 2 is too large to be a real count"
+    },
+    {
+     "id": "c",
+     "label": "Because trams and buses use different numbers of stops"
+    },
+    {
+     "id": "d",
+     "label": "Because multiplying only works for even numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Multiplying counts doing both actions. When the two cannot both be done, the ways to choose one are added.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum:q2"
+  },
+  {
+   "prompt": "You count everyone in a choir and a band by adding the two member counts. For that sum to be right, what must be true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both groups must have the same number of members"
+    },
+    {
+     "id": "b",
+     "label": "The choir must be the larger of the two groups"
+    },
+    {
+     "id": "c",
+     "label": "Each group must have an even number of members"
+    },
+    {
+     "id": "d",
+     "label": "Nobody can belong to both groups"
+    }
+   ],
+   "answer": "d",
+   "explain": "The sizes add only for disjoint sets, which have no elements in common. A person in both groups would be counted twice.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum:q3"
+  },
+  {
+   "prompt": "A class has some students who walk to school and the rest who do not. Why does taking the walkers away from the whole class give the number of the rest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because walkers are always the smaller group"
+    },
+    {
+     "id": "b",
+     "label": "The two groups share no one and together make up the class"
+    },
+    {
+     "id": "c",
+     "label": "Because subtraction is easier than counting directly"
+    },
+    {
+     "id": "d",
+     "label": "Because the rest must be counted twice"
+    }
+   ],
+   "answer": "b",
+   "explain": "The walkers and the rest do not overlap, so by the addition principle their sizes add up to the class size.",
+   "cites": [
+    3,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum:q4"
+  },
+  {
+   "prompt": "A bookshop has fiction, cookbook and travel shelves, and no book sits on two shelves. How do you find the total number of books?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply the three shelf counts"
+    },
+    {
+     "id": "b",
+     "label": "Take the largest shelf count"
+    },
+    {
+     "id": "c",
+     "label": "Add the three shelf counts"
+    },
+    {
+     "id": "d",
+     "label": "Add two shelf counts and ignore the third"
+    }
+   ],
+   "answer": "c",
+   "explain": "The addition principle extends to several pairwise disjoint sets: the size of the union is the sum of the sizes.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum:q5"
+  },
+  {
+   "prompt": "A teacher says another basic counting rule can itself be proven using the rule of sum. Which rule is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rule that order never matters"
+    },
+    {
+     "id": "b",
+     "label": "The rule that subtraction undoes addition"
+    },
+    {
+     "id": "c",
+     "label": "The rule that sets can never overlap"
+    },
+    {
+     "id": "d",
+     "label": "The multiplication principle"
+    }
+   ],
+   "answer": "d",
+   "explain": "The addition principle can also be used to prove the multiplication principle.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/AdditionZero.svg/960px-AdditionZero.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Rule of sum",
+  "credit": "Wikimedia Commons",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:AdditionZero.svg"
+ },
+ "source": {
+  "title": "Addition principle",
+  "url": "https://en.wikipedia.org/wiki/Addition_principle",
+  "revision": 1315363747
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Choosing one thing or another",
+    "text": "The rule of sum, also called the addition principle, is one of the basic principles of counting in combinatorics. It handles choices where you pick one option or another, but never both. Say one action can be done in A ways and a different action in B ways. If the two cannot both happen at once, you have A + B ways to choose one of them. Put this simply, it is an intuitive idea.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "A day of shopping",
+    "text": "Imagine someone who will shop at just one store today, in either the north or the south part of town. In the north, the options are a mall, a furniture store or a jewelry store, which makes 3 ways. In the south, the options are a clothing store or a shoe store, which makes 2 ways. Adding the two groups gives 3 + 2 = 5 shops where the day's shopping could end up.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "The rule in the language of sets",
+    "text": "The same idea can be written with sets. Two sets are called disjoint when they have no elements in common. For disjoint sets A and B, the principle says |A ∪ B| = |A| + |B|, on the condition that nothing lies in both sets. Seen through this equation, the addition principle turns out to be a statement belonging to set theory.",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "More than two groups",
+    "text": "The rule is not limited to two sets; it stretches to cover several. For sets S₁, S₂, …, Sₙ that are pairwise disjoint, the principle gives |S₁| + |S₂| + ⋯ + |Sₙ| = | S₁ ∪ S₂ ∪ ⋯ ∪ Sₙ |. This longer version can be proved from the two-set addition principle by induction on n.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Counting what is left over",
+    "text": "The rule also gives a quick result about a set inside a bigger one. Take a finite set S, and another set A with A ⊂ S. Then |A^c| = |S| − |A|. The proof is short: by the addition principle, |A^c| + |A| = |S|, and subtracting |A| from both sides gives the result.",
+    "cites": [
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "A building block for other rules",
+    "text": "Simple as it is, the addition principle can be used to prove other counting results. One of them is Pascal's rule, which can be proved combinatorially with its help. It can even be used to prove the multiplication principle.",
+    "cites": [
+     14,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-precalc-11-5",
+   "kind": "book",
+   "title": "11.5 Counting Principles - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/11-5-counting-principles",
+   "note": "A free textbook section that opens with the addition principle for counting, beside the multiplication principle.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

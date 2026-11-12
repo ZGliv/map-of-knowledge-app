@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram",
+ "name": "Hertzsprung–Russell diagram",
+ "summary": [
+  {
+   "text": "A Hertzsprung–Russell diagram is a scatter plot of stars that relates their luminosity or absolute magnitude to their classification or effective temperature.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "In every form of the diagram, stars of greater luminosity sit toward the top and stars with higher surface temperature sit toward the left.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "text": "Created independently by Ejnar Hertzsprung and Henry Norris Russell, it was a major step towards understanding stellar evolution.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Sometimes called a color magnitude diagram",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Created",
+   "value": "By Hertzsprung in 1911 and independently by Russell in 1913",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Up the chart",
+   "value": "Stars of greater luminosity sit toward the top",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Across the chart",
+   "value": "Stars with higher surface temperature sit toward the left",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Cluster use",
+   "value": "Shows a cluster's stars without first knowing distance or luminosity",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A star is plotted in the top-left corner of an H–R diagram. What does its position say about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Low luminosity and a high surface temperature"
+    },
+    {
+     "id": "b",
+     "label": "Low luminosity and a low surface temperature"
+    },
+    {
+     "id": "c",
+     "label": "High luminosity and a high surface temperature"
+    },
+    {
+     "id": "d",
+     "label": "High luminosity and a low surface temperature"
+    }
+   ],
+   "answer": "c",
+   "explain": "Greater luminosity is toward the top and higher surface temperature is toward the left.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram:q1"
+  },
+  {
+   "prompt": "An astronomer plots every star in one cluster by how bright each appears, yet can still compare the stars with each other. Why does that work?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They share one distance, so apparent and absolute magnitude differ by the same constant"
+    },
+    {
+     "id": "b",
+     "label": "Brightness as seen from Earth never depends on distance"
+    },
+    {
+     "id": "c",
+     "label": "Cluster stars all have the same luminosity"
+    },
+    {
+     "id": "d",
+     "label": "Cluster stars all have the same temperature"
+    }
+   ],
+   "answer": "a",
+   "explain": "Stars in a cluster are at identical distances, so a single constant, the distance modulus, separates apparent from absolute magnitude for all of them.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram:q2"
+  },
+  {
+   "prompt": "Hertzsprung saw that stars with narrow spectral lines drifted across the sky less than other stars of the same spectral class. What did he take that to mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The narrow-line stars were cooler"
+    },
+    {
+     "id": "b",
+     "label": "The narrow-line stars were hotter"
+    },
+    {
+     "id": "c",
+     "label": "The narrow-line stars were younger"
+    },
+    {
+     "id": "d",
+     "label": "The narrow-line stars were more luminous"
+    }
+   ],
+   "answer": "d",
+   "explain": "He took the smaller proper motions as a sign of greater luminosity for the narrow-line stars.",
+   "cites": [
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram:q3"
+  },
+  {
+   "prompt": "Why do astronomers make a sharp distinction between the theoretical diagram and the observational one, even though they look alike?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They plot completely different kinds of stars"
+    },
+    {
+     "id": "b",
+     "label": "Converting from one to the other is not trivial"
+    },
+    {
+     "id": "c",
+     "label": "One is drawn only for clusters"
+    },
+    {
+     "id": "d",
+     "label": "One has been shown to be wrong"
+    }
+   ],
+   "answer": "b",
+   "explain": "The exact transformation between them is not trivial; for example, going between temperature and colour needs a hard-to-build colour–temperature relation.",
+   "cites": [
+    28,
+    29,
+    30
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram:q4"
+  },
+  {
+   "prompt": "A chart puts the logarithm of surface gravity on the vertical axis and effective surface temperature on the horizontal axis. Which version of the H–R diagram is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The original spectral-type and visual magnitude diagram"
+    },
+    {
+     "id": "b",
+     "label": "The colour–magnitude diagram"
+    },
+    {
+     "id": "c",
+     "label": "The Kiel diagram"
+    },
+    {
+     "id": "d",
+     "label": "The cluster apparent-magnitude diagram"
+    }
+   ],
+   "answer": "c",
+   "explain": "The spectroscopic H–R diagram, also called the Kiel diagram, plots log g against effective surface temperature.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram:q5"
+  },
+  {
+   "prompt": "A modern observer builds a chart without using spectral types. What do they put on the horizontal axis in their place?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The star's name"
+    },
+    {
+     "id": "b",
+     "label": "The star's distance"
+    },
+    {
+     "id": "c",
+     "label": "The star's age"
+    },
+    {
+     "id": "d",
+     "label": "A colour index of the star"
+    }
+   ],
+   "answer": "d",
+   "explain": "Modern observational versions replace spectral type with a colour index, giving a colour–magnitude diagram.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.hertzsprung-russell-diagram:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/HRDiagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Hertzsprung–Russell diagram",
+  "credit": "Richard Powell",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:HRDiagram.png"
+ },
+ "source": {
+  "title": "Hertzsprung–Russell diagram",
+  "url": "https://en.wikipedia.org/wiki/Hertzsprung%E2%80%93Russell_diagram",
+  "revision": 1381324359
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A chart of the stars",
+    "text": "A Hertzsprung–Russell diagram, or H–R diagram, is a scatter plot that sets each star's luminosity or absolute magnitude against its spectral class or effective temperature. Ejnar Hertzsprung created it in 1911, and Henry Norris Russell, working on his own, did so in 1913. It was a major step toward understanding how stars evolve.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Reading the layout",
+    "text": "Every version shares the same basic layout. More luminous stars sit toward the top, and hotter stars sit toward the left. The original put spectral type along the horizontal axis and absolute visual magnitude up the vertical one. Spectral type is not a number, but the order of the types follows surface temperature steadily.",
+    "cites": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Several versions",
+    "text": "Observers often use a color–magnitude diagram, which swaps spectral type for a color index such as B-V. For a star cluster, whose members all lie at about the same distance, the vertical axis can simply be how bright the stars appear, because one constant, the distance modulus, separates apparent from absolute magnitude for every member. Theorists instead plot effective temperature against luminosity, almost always on log-log scales, and their models of stellar structure produce plots that match observations. Converting between the two forms is hard: it needs a color–temperature relation, a bolometric correction, the distance, and corrections for interstellar reddening and extinction.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     24,
+     25,
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "The main sequence",
+    "text": "Most stars fall along a band called the main sequence. Low-mass stars sit at its cooler, dimmer end, and more massive stars at its hotter, brighter end. While stars are on this line, they are fusing hydrogen in their cores.",
+    "cites": [
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Giants and the gap",
+    "text": "Higher up than the main sequence sits a prominent group of cool stars that are larger and more luminous: the red giants. They include stars fusing hydrogen around an inert helium core, stars fusing helium in their cores, and stars burning both hydrogen and helium in shells that surround a core that is largely inert. Between the red giants and the main sequence lies the Hertzsprung gap, home to subgiants, between spectral types A5 and G0.",
+    "cites": [
+     16,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "How the idea grew",
+    "text": "In the nineteenth century, Harvard College Observatory classified tens of thousands of stars from photographed spectra, leading to the Henry Draper Catalogue. Antonia Maury also sorted stars by the width of their spectral lines, and Hertzsprung took narrow lines as a sign of greater luminosity. In 1910 Hans Oswald Rosenberg plotted stars of the Pleiades by apparent magnitude against the strength of lines that track temperature. Since those stars share one distance, his chart was in effect luminosity against temperature, and such diagrams are still used for clusters today.",
+    "cites": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-hr-diagram",
+   "kind": "book",
+   "title": "The H–R Diagram (Astronomy 2e, section 18.4)",
+   "by": "Andrew Fraknoi, David Morrison and Sidney Wolff, OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/18-4-the-h-r-diagram",
+   "note": "A free textbook section on reading the H–R diagram: the main sequence, giants, supergiants and white dwarfs.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

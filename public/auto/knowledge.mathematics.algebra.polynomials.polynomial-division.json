@@ -1,0 +1,543 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.polynomial-division",
+ "name": "Polynomial division",
+ "summary": [
+  {
+   "text": "Polynomial long division is a step-by-step method for dividing one polynomial by another to get a quotient and a remainder.",
+   "cites": [
+    1,
+    2,
+    14
+   ]
+  },
+  {
+   "text": "The remainder is zero exactly when the divisor is a factor of the dividend, so the method tests for factors and factors them out.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "If one root r of a polynomial is known, dividing by (x − r) factors it into (x − r) times a quotient of one lower degree.",
+   "cites": [
+    23,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Zero remainder",
+   "value": "Remainder 0 happens only when the divisor is a factor",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Shortcut method",
+   "value": "Synthetic division needs less writing, especially for linear divisors",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Field coefficients",
+   "value": "Coefficients must come from one field, such as the rationals",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Tangent lines",
+   "value": "Division by (x − r)² gives the tangent line at x = r",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "label": "Error detection",
+   "value": "Cyclic redundancy checks use the remainder to catch message errors",
+   "cites": [
+    33
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student divides polynomial A by polynomial B and the leftover comes out to exactly 0. What can she conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A has lower degree than B"
+    },
+    {
+     "id": "b",
+     "label": "B is a factor of A, dividing it evenly"
+    },
+    {
+     "id": "c",
+     "label": "The quotient must also be 0"
+    },
+    {
+     "id": "d",
+     "label": "A and B share no roots"
+    }
+   ],
+   "answer": "b",
+   "explain": "A zero remainder happens if and only if the divisor is a factor of the dividend.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division:q1"
+  },
+  {
+   "prompt": "A polynomial of degree 5 has one known root r. You divide it by (x − r). What kind of quotient do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Degree 5, with a nonzero remainder"
+    },
+    {
+     "id": "b",
+     "label": "Degree 4, with a remainder of zero"
+    },
+    {
+     "id": "c",
+     "label": "Degree 3, with a remainder of zero"
+    },
+    {
+     "id": "d",
+     "label": "Degree 6, with a remainder of zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "A known root r gives a quotient of degree n − 1, here 4, and since r is a root the remainder must be zero.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division:q2"
+  },
+  {
+   "prompt": "How does the long division you learned in school for ordinary numbers relate to the polynomial version?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The two methods are unrelated tricks"
+    },
+    {
+     "id": "b",
+     "label": "Polynomial division swaps the digits for letters"
+    },
+    {
+     "id": "c",
+     "label": "Both give only whole-number answers"
+    },
+    {
+     "id": "d",
+     "label": "It is the same algorithm with x replaced by 10"
+    }
+   ],
+   "answer": "d",
+   "explain": "The arithmetic algorithm is the polynomial one with x replaced by 10, plus the restriction that coefficients be non-negative.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division:q3"
+  },
+  {
+   "prompt": "You must divide a polynomial by a monic polynomial of degree 1 and want less writing. Which method fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Synthetic division"
+    },
+    {
+     "id": "b",
+     "label": "Guessing a quotient"
+    },
+    {
+     "id": "c",
+     "label": "Euclid’s tangent trick"
+    },
+    {
+     "id": "d",
+     "label": "Dividing term by term in reverse"
+    }
+   ],
+   "answer": "a",
+   "explain": "Synthetic division is an alternative to long division that needs less writing and fewer calculations when the divisor is monic and linear.",
+   "cites": [
+    4,
+    34
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division:q4"
+  },
+  {
+   "prompt": "A polynomial of degree 1 is divided by one of degree 3 with the long division algorithm. What comes out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A quotient of degree 2 and no remainder"
+    },
+    {
+     "id": "b",
+     "label": "An error, because the division is impossible"
+    },
+    {
+     "id": "c",
+     "label": "A quotient of 0 and the original polynomial as remainder"
+    },
+    {
+     "id": "d",
+     "label": "A quotient equal to the original and remainder 0"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the numerator’s degree is lower than the denominator’s, the result is just (0, numerator) and the loop is never entered.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division:q5"
+  },
+  {
+   "prompt": "You want the tangent line to a polynomial’s graph at one point using division. What divisor do you use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The square of the linear factor, (x − r)²"
+    },
+    {
+     "id": "b",
+     "label": "The linear factor alone, (x − r)"
+    },
+    {
+     "id": "c",
+     "label": "The sum of the two roots, (x + r)"
+    },
+    {
+     "id": "d",
+     "label": "The point’s height, r"
+    }
+   ],
+   "answer": "a",
+   "explain": "The remainder of dividing P(x) by (x − r)² is the tangent line at x = r, whether or not r is a root.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.polynomial-division:q6"
+  }
+ ],
+ "source": {
+  "title": "Polynomial long division",
+  "url": "https://en.wikipedia.org/wiki/Polynomial_long_division",
+  "revision": 1383792324
+ },
+ "pack": {
+  "id": "auto-polynomials-polynomial-division",
+  "title": "Long division, with x’s",
+  "question": "How can dividing polynomials reveal their factors?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Polynomials",
+   "Polynomial division"
+  ],
+  "hue": 56,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Synthdiv.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Synthetic division",
+    "credit": "SmallJarsWithGreenLabels · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Synthdiv.gif",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Long division, with x’s",
+    "hook": "The school method for dividing numbers quietly works on algebra too, and what is left over tells you a lot."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-polynomials-polynomial-division:1",
+    "transfer": false,
+    "prompt": "A degree-5 polynomial has a known root r. You divide it by (x − r). What do you get?",
+    "explain": "The quotient has degree n − 1, and since r is known to be a root, the remainder must be zero.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "A degree-4 quotient and a nonzero remainder",
+        "feedback": "Because r is a root, the remainder is forced to be zero."
+       },
+       {
+        "id": "a",
+        "label": "A degree-4 quotient and a remainder of zero"
+       },
+       {
+        "id": "b",
+        "label": "A degree-5 quotient and a remainder of zero",
+        "feedback": "Dividing by a degree-1 factor lowers the degree by one, so the quotient is smaller than the original."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-polynomials-polynomial-division:2",
+    "transfer": false,
+    "prompt": "Put these long division steps in order, starting a round.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Divide the first term of the dividend by the highest term of the divisor"
+     },
+     {
+      "id": "b",
+      "label": "Multiply the divisor by the result just obtained"
+     },
+     {
+      "id": "c",
+      "label": "Subtract the product from the matching terms of the dividend"
+     },
+     {
+      "id": "d",
+      "label": "Bring down the next term from the dividend"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "First",
+     "Last, before repeating"
+    ],
+    "explain": "Each round divides, multiplies, subtracts and brings down a term, then the steps repeat."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-polynomials-polynomial-division:3",
+    "transfer": true,
+    "prompt": "Match each situation to what it leads to.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "The remainder is 0"
+     },
+     {
+      "id": "l1",
+      "label": "The divisor is a linear polynomial"
+     },
+     {
+      "id": "l2",
+      "label": "Dividing P(x) by (x − r)²"
+     },
+     {
+      "id": "l3",
+      "label": "Detecting errors in messages"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Synthetic division is a faster shortcut"
+     },
+     {
+      "id": "r0",
+      "label": "The divisor is a factor of the dividend"
+     },
+     {
+      "id": "r2",
+      "label": "The remainder is the tangent line at x = r"
+     },
+     {
+      "id": "r3",
+      "label": "A cyclic redundancy check uses the remainder"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each pairing is a use or consequence of the remainder or the divisor in polynomial division."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-polynomials-polynomial-division:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A degree-5 polynomial has one known root r."
+     },
+     {
+      "id": "b",
+      "text": "Dividing by (x − r) gives a quotient of degree 4."
+     },
+     {
+      "id": "c",
+      "text": "Because r is a root, the remainder must be nonzero."
+     },
+     {
+      "id": "d",
+      "text": "The quotient can then be divided by the factors of its own known roots."
+     }
+    ],
+    "answer": "c",
+    "explain": "Since r is known to be a root, the remainder must be zero, not nonzero."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Dividing a polynomial leaves a remainder of zero exactly when the divisor is a factor, so a known root can be divided out.",
+    "connections": [
+     {
+      "title": "Long division",
+      "place": "Polynomial division",
+      "node": "knowledge.mathematics.algebra.polynomials.polynomial-division.long-division"
+     },
+     {
+      "title": "Synthetic division",
+      "place": "Polynomial division",
+      "node": "knowledge.mathematics.algebra.polynomials.polynomial-division.synthetic-division"
+     },
+     {
+      "title": "Polynomial remainder theorem",
+      "place": "Polynomial division",
+      "node": "knowledge.mathematics.algebra.polynomials.polynomial-division.polynomial-remainder-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The quotient has degree n − 1, and since r is known to be a root, the remainder must be zero.",
+    "source": "Wikipedia sentences 23, 24"
+   },
+   {
+    "claim": "Each round divides, multiplies, subtracts and brings down a term, then the steps repeat.",
+    "source": "Wikipedia sentences 7, 9, 11, 12, 13"
+   },
+   {
+    "claim": "Each pairing is a use or consequence of the remainder or the divisor in polynomial division.",
+    "source": "Wikipedia sentences 2, 4, 31, 33"
+   },
+   {
+    "claim": "Since r is known to be a root, the remainder must be zero, not nonzero.",
+    "source": "Wikipedia sentences 23, 24, 25"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Quotient and remainder",
+    "text": "Dividing a polynomial A by another polynomial B gives two results: a quotient Q and a remainder R. The remainder is either zero or has a lower degree than B. Those conditions settle Q and R completely, so there is only one such pair. Finding that pair is called Euclidean division, and polynomial long division is a step-by-step method for carrying it out.",
+    "cites": [
+     1,
+     2,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "A test for factors",
+    "text": "The remainder comes out zero exactly when B is a factor of A. That makes long division a way to test whether one polynomial divides another, and to pull the factor out when it does. The method works as long as the coefficients come from one field, a number system where you can always divide by anything that is not zero. The rational, real and complex numbers are all fields.",
+    "cites": [
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "Working one example",
+    "text": "Take x³ − 2x² − 4, the dividend, divided by x − 3, the divisor. First divide the leading term of the dividend by the highest-power term of the divisor: x³ ÷ x = x², which goes above the bar. Multiply the divisor by x² to get x³ − 3x², write it under the first two terms, and subtract, which leaves x². Bring down the next term and repeat the same three steps on the new line. The finished line above the bar is the quotient, and the number left at the bottom, 5, is the remainder.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Cousins of the method",
+    "text": "Long division of ordinary numbers works in nearly the same way, with x replaced by 10 and every coefficient kept non-negative. When the divisor has the form x − c, a shortcut called synthetic division needs less writing and fewer calculations. It lays the coefficients of the dividend in the top row of a three-row table. The leading coefficient drops to the bottom row, gets multiplied by c, and the result is written under the next coefficient, and so on.",
+    "cites": [
+     4,
+     15,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Peeling off known roots",
+    "text": "Sometimes you already know a root r of a degree-n polynomial P(x), perhaps from the rational root theorem. Dividing by (x − r) then factors P(x) as (x − r)Q(x), where Q(x) has degree n − 1 and the remainder must be zero. With several known roots, you can divide out one linear factor after another. A quintic with one rational root, for instance, leaves a quartic, and a formula exists for the roots of a quartic. No general algebraic method solves every quintic, though, as the Abel–Ruffini theorem shows.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Tangent lines and error checks",
+    "text": "Division also finds tangent lines. Divide P(x) by (x − r)², and the remainder R(x) gives the tangent line y = R(x) to the graph at x = r, whether or not r is a root. Remainders even protect data: a cyclic redundancy check uses the remainder of a polynomial division to spot errors in messages after they have been transmitted.",
+    "cites": [
+     30,
+     31,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-dividing-polynomials",
+   "kind": "book",
+   "title": "5.4 Dividing Polynomials - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/5-4-dividing-polynomials",
+   "note": "A free textbook section on polynomial long division and synthetic division, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-dividing-polynomials",
+   "kind": "book",
+   "title": "1.12: Dividing Polynomials - Arithmetic and Algebra (ElHitti, Bonanome, Carley, Tradler, and Zhou)",
+   "by": "ElHitti, Bonanome, Carley, Tradler, & Zhou",
+   "url": "https://math.libretexts.org/Bookshelves/Algebra/Book%3A_Arithmetic_and_Algebra_(ElHitti_Bonanome_Carley_Tradler_and_Zhou)/01%3A_Chapters/1.12%3A_Dividing_Polynomials",
+   "note": "A free textbook section on dividing polynomials, including long division.",
+   "license": "CC BY-NC-ND 4.0"
+  }
+ ]
+}

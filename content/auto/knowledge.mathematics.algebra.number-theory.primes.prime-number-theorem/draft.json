@@ -1,0 +1,214 @@
+{
+ "summary": [
+  {
+   "text": "The prime number theorem describes how primes are spread among the positive integers, making precise the idea that primes become less common as numbers get larger.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "For large N, the chance that a random integer up to N is prime is very close to 1 / log(N).",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "It was proved independently in 1896 by Jacques Hadamard and Charles Jean de la Vallée Poussin, using ideas introduced by Bernhard Riemann.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First proved",
+   "value": "1896, independently by two mathematicians",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Average gap",
+   "value": "Between consecutive primes among the first N integers, about log(N)",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Doubling the digits",
+   "value": "A random number is about half as likely to be prime",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "At 1000 digits",
+   "value": "About one in 2300 integers is prime",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You pick a random number with up to 400 digits, then another with up to 800 digits. How do their chances of being prime compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The longer one is about twice as likely"
+    },
+    {
+     "id": "b",
+     "label": "They are about equally likely"
+    },
+    {
+     "id": "c",
+     "label": "The longer one is about half as likely"
+    },
+    {
+     "id": "d",
+     "label": "The longer one cannot be prime"
+    }
+   ],
+   "answer": "c",
+   "explain": "A random integer with at most 2n digits is about half as likely to be prime as one with at most n digits, for large enough n.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "A student says the estimate x / log x is off by a huge amount for big x, so the theorem must be false. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The theorem is about the shrinking relative error, not the raw difference"
+    },
+    {
+     "id": "b",
+     "label": "The estimate becomes exact once N passes a million"
+    },
+    {
+     "id": "c",
+     "label": "The raw difference between them is always tiny"
+    },
+    {
+     "id": "d",
+     "label": "The theorem only applies to even numbers, not all integers"
+    }
+   ],
+   "answer": "a",
+   "explain": "The theorem says nothing about the difference; it says the relative error of the approximation approaches 0 as the numbers grow.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "Primes thin out among bigger numbers. How big is the typical distance between neighbouring primes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays at about two, however far you count"
+    },
+    {
+     "id": "b",
+     "label": "It shrinks toward one as the numbers get larger"
+    },
+    {
+     "id": "c",
+     "label": "It is random, with no typical size at all"
+    },
+    {
+     "id": "d",
+     "label": "About log(N), where N is the count so far"
+    }
+   ],
+   "answer": "d",
+   "explain": "The average gap between consecutive primes among the first N integers is roughly log(N).",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "What did Riemann's 1859 memoir connect to the distribution of primes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The zeros of the extended Riemann zeta function"
+    },
+    {
+     "id": "b",
+     "label": "The last digit of each prime"
+    },
+    {
+     "id": "c",
+     "label": "The number of divisors of each integer"
+    },
+    {
+     "id": "d",
+     "label": "The gaps between perfect squares"
+    }
+   ],
+   "answer": "a",
+   "explain": "Riemann showed the distribution of primes is intimately connected with the zeros of the analytically extended zeta function, opening the way for complex analysis.",
+   "cites": [
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "prompt": "Chebyshev did not prove the full theorem, but his estimates were strong enough for what guarantee?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every prime is followed by another within two"
+    },
+    {
+     "id": "b",
+     "label": "A prime always lies between n and 2n (n ≥ 2)"
+    },
+    {
+     "id": "c",
+     "label": "Every large number is a sum of two primes"
+    },
+    {
+     "id": "d",
+     "label": "No prime ends in an even digit"
+    }
+   ],
+   "answer": "b",
+   "explain": "They were enough to prove Bertrand's postulate: there is a prime between n and 2n for any integer n ≥ 2.",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "prompt": "What everyday idea does the prime number theorem make precise?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Primes get rarer as numbers get larger"
+    },
+    {
+     "id": "b",
+     "label": "Primes are evenly spaced along the number line"
+    },
+    {
+     "id": "c",
+     "label": "Primes disappear after some very large size"
+    },
+    {
+     "id": "d",
+     "label": "Primes become more common as numbers grow"
+    }
+   ],
+   "answer": "a",
+   "explain": "It formalizes the intuitive idea that primes become less common as they become larger, quantifying the rate.",
+   "cites": [
+    2
+   ]
+  }
+ ]
+}

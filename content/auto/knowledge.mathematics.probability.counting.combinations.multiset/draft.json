@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A multiset is like a set in which an element can appear more than once.",
+   "cites": [
+    36,
+    44
+   ]
+  },
+  {
+   "text": "The number of times an element occurs is its multiplicity, and the size of a multiset is the sum of the multiplicities of all its elements.",
+   "cites": [
+    2,
+    36
+   ]
+  },
+  {
+   "text": "Formally it is a set U together with a function m: U → ℕ that gives each element a nonnegative whole-number multiplicity.",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Size",
+   "value": "The sum of all the multiplicities",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Earliest study",
+   "value": "Bhaskaracharya, around 1150, on permutations of multisets",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Coined word",
+   "value": "Nicolaas de Bruijn coined it in the 1970s, per Knuth",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Other names",
+   "value": "Bag, heap, bunch, sample, weighted set and more",
+   "cites": [
+    6,
+    11
+   ]
+  },
+  {
+   "label": "Equation roots",
+   "value": "A degree-d equation's complex solutions form a multiset of size d",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A quadratic equation has two solutions, and in one case they are the same number. How does a multiset describe that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number is listed once, with multiplicity 2"
+    },
+    {
+     "id": "b",
+     "label": "The number is dropped, since it is repeated"
+    },
+    {
+     "id": "c",
+     "label": "The number is listed once, with multiplicity 1"
+    },
+    {
+     "id": "d",
+     "label": "The equation is said to have no solutions"
+    }
+   ],
+   "answer": "a",
+   "explain": "When both solutions are the same number, that number is a solution of multiplicity 2.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "prompt": "A bag holds three red tiles and two blue tiles, treated as a multiset. What is its size?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2, the number of colours"
+    },
+    {
+     "id": "b",
+     "label": "3, the larger multiplicity"
+    },
+    {
+     "id": "c",
+     "label": "6, three times two"
+    },
+    {
+     "id": "d",
+     "label": "5, the sum of the multiplicities"
+    }
+   ],
+   "answer": "d",
+   "explain": "The size of a multiset is the sum of the multiplicities of all its elements: 3 + 2.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Why can a row of tally marks be thought of as a multiset?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because each mark is different from every other mark"
+    },
+    {
+     "id": "b",
+     "label": "Because the marks are treated as indistinguishable, so only how many matters"
+    },
+    {
+     "id": "c",
+     "label": "Because marks in a row are always counted in pairs"
+    },
+    {
+     "id": "d",
+     "label": "Because tally marks were invented after sets"
+    }
+   ],
+   "answer": "b",
+   "explain": "Strokes, tally marks and units are considered indistinguishable, so such collections can be regarded as multisets.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "A multiset records m(apple) = 3. What does that 3 tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Apple is the third element in the list"
+    },
+    {
+     "id": "b",
+     "label": "There are three kinds of fruit in it"
+    },
+    {
+     "id": "c",
+     "label": "Apple occurs three times in the multiset"
+    },
+    {
+     "id": "d",
+     "label": "Apple is three times larger than the rest"
+    }
+   ],
+   "answer": "c",
+   "explain": "The value m(a) is the multiplicity of a, interpreted as the number of occurrences of a in the multiset.",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "prompt": "The lists a, a, b and a, b, b are compared. How do they relate as sets and as multisets?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Same set, but different multisets"
+    },
+    {
+     "id": "b",
+     "label": "Different sets, but the same multiset"
+    },
+    {
+     "id": "c",
+     "label": "Same set and same multiset"
+    },
+    {
+     "id": "d",
+     "label": "Different sets and different multisets"
+    }
+   ],
+   "answer": "a",
+   "explain": "Both lists use the same elements, so they are the same set, but the multiplicities differ, so they are different multisets.",
+   "cites": [
+    1,
+    36
+   ]
+  },
+  {
+   "prompt": "Multisets show up under many names, such as bags and heaps. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each name was chosen for a different mathematical rule"
+    },
+    {
+     "id": "b",
+     "label": "Practical needs led people to rediscover the idea several times"
+    },
+    {
+     "id": "c",
+     "label": "Mathematicians renamed them whenever the size changed"
+    },
+    {
+     "id": "d",
+     "label": "The names mark multisets of different multiplicities"
+    }
+   ],
+   "answer": "b",
+   "explain": "Practical needs for this structure caused multisets to be rediscovered several times under different names.",
+   "cites": [
+    9,
+    11
+   ]
+  }
+ ]
+}

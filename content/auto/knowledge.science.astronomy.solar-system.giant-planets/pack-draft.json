@@ -1,0 +1,109 @@
+{
+ "title": "Planets With No Ground",
+ "question": "What are the giant planets made of, and why do they have no real surface?",
+ "hook": "Four planets are so deep that nobody can say where they end.",
+ "idea": "Giant planets are mostly hydrogen, helium and ices under such pressure that they have no surface to stand on.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A probe dives into a giant planet. What does it find as it descends?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Gases that gradually thicken, with no sharp surface"
+    },
+    {
+     "id": "b",
+     "label": "A hard surface hidden just beneath the clouds",
+     "feedback": "It tempts because that is how Earth works, but giant planets lack a surface altogether."
+    },
+    {
+     "id": "c",
+     "label": "A calm ocean with a sharp top",
+     "feedback": "The gas does not end in a sudden liquid top; it simply changes bit by bit."
+    }
+   ],
+   "answer": "a",
+   "explain": "The gases that form giant planets simply become thinner and thinner with distance from the centre, so there is no surface at all.",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each giant planet by what it is mostly made of",
+   "groups": [
+    "Hydrogen and helium",
+    "Water, ammonia and methane"
+   ],
+   "items": [
+    [
+     "Jupiter",
+     "Hydrogen and helium"
+    ],
+    [
+     "Saturn",
+     "Hydrogen and helium"
+    ],
+    [
+     "Uranus",
+     "Water, ammonia and methane"
+    ],
+    [
+     "Neptune",
+     "Water, ammonia and methane"
+    ]
+   ],
+   "explain": "Jupiter and Saturn are principally hydrogen and helium, while Uranus and Neptune consist of water, ammonia and methane.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each term to what it means",
+   "pairs": [
+    [
+     "Gas giants",
+     "Jupiter and Saturn"
+    ],
+    [
+     "Ice giants",
+     "Uranus and Neptune"
+    ],
+    [
+     "Brown dwarf",
+     "Big enough to start deuterium fusion"
+    ],
+    [
+     "Hot Jupiter",
+     "Giant exoplanet orbiting very close to its star"
+    ]
+   ],
+   "explain": "Each name marks a different kind of large object, from the Solar System's own giants to exoplanets and brown dwarfs.",
+   "cites": [
+    6,
+    25,
+    34,
+    35
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Giant planets are often called gas giants.",
+    "Inside them the pressure is so high that most matter is beyond the critical point.",
+    "Beyond that point, matter splits clearly into a gas layer and a liquid layer.",
+    "So 'fluid planet' would be a more accurate name."
+   ],
+   "wrong": 2,
+   "explain": "Beyond the critical point there is no distinction between liquids and gases, which is why 'fluid' fits better.",
+   "cites": [
+    13,
+    14,
+    15
+   ]
+  }
+ ]
+}

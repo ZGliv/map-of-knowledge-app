@@ -1,0 +1,344 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure",
+ "name": "Lewis structure",
+ "summary": [
+  {
+   "text": "A Lewis structure is a diagram that shows the bonding between atoms of a molecule, along with any lone pairs of electrons.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Lines between atoms stand for shared pairs in a bond, and leftover electrons are drawn as pairs of dots next to the atoms.",
+   "cites": [
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Most atoms are drawn aiming for a full octet of eight electrons, while hydrogen instead aims for two.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What a line means",
+   "value": "A shared pair of electrons in a bond",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Lone pairs",
+   "value": "Drawn as pairs of dots next to atoms",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Hydrogen's rule",
+   "value": "It follows the duplet rule, with two electrons",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Electron total",
+   "value": "Sum of every atom's valence electrons, for a neutral molecule",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Ion notation",
+   "value": "Structure in brackets, charge at upper right",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You are drawing a neutral molecule built from one atom with 4 valence electrons and four atoms with 1 each. How many electrons should the diagram show in total?",
+   "options": [
+    {
+     "id": "a",
+     "label": "5"
+    },
+    {
+     "id": "b",
+     "label": "6"
+    },
+    {
+     "id": "c",
+     "label": "8"
+    },
+    {
+     "id": "d",
+     "label": "10"
+    }
+   ],
+   "answer": "c",
+   "explain": "For a neutral molecule the total is the sum of the valence electrons on each atom: 4 + 1 + 1 + 1 + 1 = 8.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure:q1"
+  },
+  {
+   "prompt": "You are drawing a Lewis structure for an ion carrying a single negative charge. How does your electron count compare with the neutral version?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has one more electron than the atoms' valence total"
+    },
+    {
+     "id": "b",
+     "label": "It has one fewer electron than the atoms' valence total"
+    },
+    {
+     "id": "c",
+     "label": "It has the same count, since the charge is only a label"
+    },
+    {
+     "id": "d",
+     "label": "It has twice as many electrons as the atoms' valence total"
+    }
+   ],
+   "answer": "a",
+   "explain": "Negative ions should have extra electrons placed in their Lewis structures, and a charge of −1 indicates one extra electron.",
+   "cites": [
+    17,
+    45
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure:q2"
+  },
+  {
+   "prompt": "In the nitrate ion the double bond could sit on any of three identical outer atoms. How should the structure be understood?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a molecule that rapidly flips between the three drawings"
+    },
+    {
+     "id": "b",
+     "label": "As one correct drawing, with the other two being mistakes"
+    },
+    {
+     "id": "c",
+     "label": "As an ion that splits into separate pieces at each position"
+    },
+    {
+     "id": "d",
+     "label": "As an average of three equal drawings, not one that switches"
+    }
+   ],
+   "answer": "d",
+   "explain": "Nitrate has three possible resonance structures, and the molecule acts as the average of those forms rather than switching between them.",
+   "cites": [
+    35,
+    36,
+    37,
+    42
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure:q3"
+  },
+  {
+   "prompt": "When you check a finished Lewis structure, which atom is allowed to stop at fewer electrons than the others?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Carbon, since it forms the most bonds"
+    },
+    {
+     "id": "b",
+     "label": "Hydrogen, which needs only two for a full shell"
+    },
+    {
+     "id": "c",
+     "label": "Any atom bonded to hydrogen"
+    },
+    {
+     "id": "d",
+     "label": "The atom placed in the centre of the structure"
+    }
+   ],
+   "answer": "b",
+   "explain": "Most atoms aim for a full octet of eight, but hydrogen obeys the duplet rule and forms one bond for a complete shell of two electrons.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure:q4"
+  },
+  {
+   "prompt": "In a draft structure, one atom is surrounded by only six electrons, but a neighbour has a spare pair of dots. What fixes it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Delete the short atom from the drawing and start again"
+    },
+    {
+     "id": "b",
+     "label": "Add two brand new electrons to the neighbour"
+    },
+    {
+     "id": "c",
+     "label": "Move one dot from the short atom over to its neighbour"
+    },
+    {
+     "id": "d",
+     "label": "Turn the neighbour's dot pair into a shared line between the two atoms"
+    }
+   ],
+   "answer": "d",
+   "explain": "Deleting two dots from a neighbour and drawing an extra line converts a lone pair into a bonding pair, adding two electrons to the short atom while leaving the neighbour's count unchanged.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure:q5"
+  },
+  {
+   "prompt": "A student's diagram shows dots for every single electron in each atom, including ones far from the action. What is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Non-valence electrons do not bond, so they are left out"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, since a Lewis structure must show every electron"
+    },
+    {
+     "id": "c",
+     "label": "Only the electrons of hydrogen should ever be drawn"
+    },
+    {
+     "id": "d",
+     "label": "Those extra dots should be drawn as lines instead"
+    }
+   ],
+   "answer": "a",
+   "explain": "Non-valence electrons are not represented in Lewis structures because they do not bond.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.chemistry.chemical-bonding.covalent-bonding.lewis-structure:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Freie_Elektronenpaare_Wasser_V3.svg/960px-Freie_Elektronenpaare_Wasser_V3.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Lewis structure",
+  "credit": "Fabian.z",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Freie_Elektronenpaare_Wasser_V3.svg"
+ },
+ "source": {
+  "title": "Lewis structure",
+  "url": "https://en.wikipedia.org/wiki/Lewis_structure",
+  "revision": 1383864520
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A map of electrons",
+    "text": "A Lewis structure, also called a Lewis dot structure or electron dot structure, is a diagram of how the atoms in a molecule are bonded, along with any lone pairs of electrons. Each atom appears as its chemical symbol, placed where it sits in the molecule. Bonded atoms are joined by lines, each standing for a shared pair, though pairs of dots can be used instead. Leftover electrons that form lone pairs are shown as pairs of dots beside their atoms.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Eight, or two for hydrogen",
+    "text": "Main group atoms from the second period onward usually gain, lose or share electrons until their valence shell holds a full octet of 8 electrons. Hydrogen follows the duplet rule instead, making one bond to reach two electrons. For a neutral molecule, the drawing holds exactly the sum of each atom's valence electrons, not the most it could hold. Electrons that are not valence electrons are left out, because they do not bond.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Drawing one step by step",
+    "text": "Start by drawing one line, a single bond, between each pair of connected atoms. Each line uses two electrons, so with t electrons in total and n lines, t − 2n remain to be placed. These go on as dots, outer atoms first, up to eight around each atom (two for hydrogen) minus two for each bond. Then any atom other than hydrogen with fewer than eight electrons borrows: two dots are removed from a neighbour and an extra line is drawn between them, turning a lone pair into a bonding pair. If there are not enough electrons to go round, atoms with higher electronegativity are filled first.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Ions and formal charge",
+    "text": "Polyatomic ions are drawn the same way, with extra electrons for negative ions and fewer for positive ones. The finished drawing goes in brackets, with the charge written as a superscript at the upper right. The formal charge of an atom is the number of valence electrons a neutral atom would have minus the electrons that belong to it in the drawing, with bond electrons split equally between the two atoms. The formal charges add up to the charge on an ion, or to zero for a neutral molecule.",
+    "cites": [
+     16,
+     17,
+     18,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "When one drawing is not enough",
+    "text": "Sometimes it is hard to tell which lone pairs should become double or triple bonds, and two or more resonance structures can be drawn for the same molecule or ion. They are written side by side with two-way arrows between them. The molecule is then said to exist as a resonance hybrid, a combination of those drawings laid over one another. It does not switch between the forms; it acts as their average.",
+    "cites": [
+     30,
+     31,
+     33,
+     34,
+     42
+    ]
+   },
+   {
+    "heading": "Example: the nitrate ion",
+    "text": "The nitrate ion, NO−3, needs a double bond between nitrogen and one of its oxygens for nitrogen to satisfy the octet rule. Because the ion is symmetrical, it makes no difference which oxygen takes the double bond. That gives three possible resonance structures for the same ion.",
+    "cites": [
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-3",
+   "kind": "book",
+   "title": "7.3 Lewis Symbols and Structures",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-3-lewis-symbols-and-structures",
+   "note": "A free textbook section on drawing Lewis structures step by step, including double and triple bonds and octet exceptions.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-7-4",
+   "kind": "book",
+   "title": "7.4 Formal Charges and Resonance",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-4-formal-charges-and-resonance",
+   "note": "A free textbook section on working out formal charges and drawing resonance forms, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-chem-24",
+   "kind": "video",
+   "title": "Bonding Models and Lewis Structures: Crash Course Chemistry #24",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=a8LF7JEb0IA",
+   "note": "A Crash Course Chemistry episode on bonding models and how to draw Lewis structures."
+  }
+ ]
+}

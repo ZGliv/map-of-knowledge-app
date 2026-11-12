@@ -1,0 +1,103 @@
+{
+ "title": "Finding the Data's Long Axis",
+ "question": "How can a pile of correlated numbers be squeezed into a few directions?",
+ "hook": "A cloud of points often stretches in one direction much more than another, and that stretch is the story.",
+ "idea": "Principal components are the eigenvectors of the data's covariance matrix, ranked by how much variance each explains.",
+ "beats": [
+  {
+   "kind": "order",
+   "prompt": "Put the steps for finding the axes in order.",
+   "items": [
+    "Center each variable on zero by subtracting its mean",
+    "Compute the covariance matrix of the data",
+    "Find the eigenvalues and eigenvectors of that matrix",
+    "Normalize each eigenvector into a unit vector"
+   ],
+   "ends": [
+    "first",
+    "last"
+   ],
+   "explain": "Values are centered first, then the covariance matrix gives eigenvectors, which are normalized into unit vectors that serve as axes.",
+   "cites": [
+    24,
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Data forms a long, thin, tilted oval cloud. Which axis of the fitted ellipsoid does the first principal component follow?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The long axis, where variance is largest"
+    },
+    {
+     "id": "b",
+     "label": "The short axis, where variance is smallest",
+     "feedback": "A small axis means small variance, and the first component explains the most variance."
+    },
+    {
+     "id": "c",
+     "label": "Any axis; they explain equal amounts",
+     "feedback": "A small axis has small variance, so axes differ in what they explain."
+    }
+   ],
+   "answer": "a",
+   "explain": "Each ellipsoid axis is a principal component; a small axis has small variance, and the first component explains the most variance.",
+   "cites": [
+    9,
+    22,
+    23
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means.",
+   "pairs": [
+    [
+     "First principal component",
+     "Explains the most variance"
+    ],
+    [
+     "Second principal component",
+     "Explains the most variance left after the first is removed"
+    ],
+    [
+     "All the components together",
+     "An orthonormal basis with uncorrelated dimensions"
+    ],
+    [
+     "Eigenvalue divided by the sum of eigenvalues",
+     "Share of variance for that eigenvector"
+    ]
+   ],
+   "explain": "Components are ranked by the variance they explain and together form uncorrelated directions.",
+   "cites": [
+    6,
+    9,
+    10,
+    30
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Many of our variables are highly correlated.",
+    "So we want a few independent directions that capture the variation.",
+    "The principal components are eigenvectors of the data's covariance matrix.",
+    "The component with the smallest eigenvalue explains the most variance, so it comes first."
+   ],
+   "wrong": 3,
+   "explain": "The variance share is the eigenvalue divided by the sum of all eigenvalues, so the largest eigenvalue explains the most.",
+   "cites": [
+    11,
+    14,
+    30,
+    37
+   ]
+  }
+ ]
+}

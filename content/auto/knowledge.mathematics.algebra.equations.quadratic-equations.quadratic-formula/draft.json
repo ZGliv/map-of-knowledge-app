@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The quadratic formula is a closed-form expression that describes the solutions of a quadratic equation.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A quantity called the discriminant, Δ = b² − 4ac, decides whether there are two distinct real roots, one repeated real root, or none.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "The roots are where the parabola crosses the x-axis, and the standard derivation uses completing the square.",
+   "cites": [
+    5,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discriminant sign",
+   "value": "Δ > 0: two real roots; Δ = 0: one; Δ < 0: none",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Graph meaning",
+   "value": "Roots are the parabola's x-intercepts",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Extra use",
+   "value": "Can also identify the parabola's axis of symmetry",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Standard derivation",
+   "value": "Completing the square on the general equation",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Pitfall",
+   "value": "Subtracting nearly equal numbers loses precision",
+   "cites": [
+    34,
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A parabola dips below the x-axis and crosses it at two points. What do the x-values at the crossings tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are the two solutions of the equation"
+    },
+    {
+     "id": "b",
+     "label": "They are the coefficients a and b"
+    },
+    {
+     "id": "c",
+     "label": "They mark the axis of symmetry"
+    },
+    {
+     "id": "d",
+     "label": "They give the discriminant"
+    }
+   ],
+   "answer": "a",
+   "explain": "The roots are the x values where the graph crosses the x-axis.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "For a quadratic with real coefficients, Δ < 0. Does its graph cross the x-axis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, there are no real roots to cross at"
+    },
+    {
+     "id": "b",
+     "label": "Yes, twice"
+    },
+    {
+     "id": "c",
+     "label": "Yes, once"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only on the y-axis"
+    }
+   ],
+   "answer": "a",
+   "explain": "Δ < 0 means no real roots, and the roots are the x-intercepts.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "prompt": "For a real quadratic, Δ = 0. How many distinct real roots are there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two distinct roots"
+    },
+    {
+     "id": "b",
+     "label": "One repeated root"
+    },
+    {
+     "id": "c",
+     "label": "None"
+    },
+    {
+     "id": "d",
+     "label": "Infinitely many"
+    }
+   ],
+   "answer": "b",
+   "explain": "Δ = 0 gives one repeated real root.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A teacher shows where the formula comes from by turning the general equation into the form (x + k)² = s. Which method is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guessing factor pairs"
+    },
+    {
+     "id": "b",
+     "label": "Plotting the graph"
+    },
+    {
+     "id": "c",
+     "label": "Completing the square"
+    },
+    {
+     "id": "d",
+     "label": "Dividing both sides by x"
+    }
+   ],
+   "answer": "c",
+   "explain": "The standard derivation applies completing the square to the general equation.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "prompt": "A calculator with 10 digits subtracts two nearly equal numbers. Why is the result less accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The calculator rounds both numbers upward"
+    },
+    {
+     "id": "b",
+     "label": "Subtraction always doubles the error in them"
+    },
+    {
+     "id": "c",
+     "label": "The numbers turn negative before subtracting"
+    },
+    {
+     "id": "d",
+     "label": "Matching leading digits cancel, leaving fewer correct ones"
+    }
+   ],
+   "answer": "d",
+   "explain": "Catastrophic cancellation leaves a difference of lower relative precision.",
+   "cites": [
+    34,
+    35,
+    40
+   ]
+  },
+  {
+   "prompt": "One student uses the quadratic formula and another completes the square on the same equation. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They get the same solutions"
+    },
+    {
+     "id": "b",
+     "label": "Only the formula can give complex roots"
+    },
+    {
+     "id": "c",
+     "label": "Their answers differ by a sign"
+    },
+    {
+     "id": "d",
+     "label": "Only completing the square gives real roots"
+    }
+   ],
+   "answer": "a",
+   "explain": "Other ways of solving, such as completing the square, yield the same solutions.",
+   "cites": [
+    2
+   ]
+  }
+ ]
+}

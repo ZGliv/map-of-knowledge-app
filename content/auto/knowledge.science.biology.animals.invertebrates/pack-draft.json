@@ -1,0 +1,111 @@
+{
+ "title": "The animals with no spine",
+ "question": "Why is having no backbone a handy label but a poor family tree?",
+ "hook": "Most animals lack a backbone, but the group they form is not a real branch of life.",
+ "idea": "Invertebrate names animals by what they lack, so it is a term of convenience that covers very different body plans.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A tunicate has no backbone. Which animals are its closest relatives?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Vertebrates, more closely than other invertebrates"
+    },
+    {
+     "id": "b",
+     "label": "Other invertebrates such as insects and snails",
+     "feedback": "It tempts because all of them lack a backbone, but tunicates are more closely related to vertebrates."
+    },
+    {
+     "id": "c",
+     "label": "Sponges, since both lack a vertebral column",
+     "feedback": "Lacking a backbone is only a shared absence, and it does not show close kinship."
+    }
+   ],
+   "answer": "a",
+   "explain": "Tunicates and cephalochordates are sister chordate subphyla to the vertebrates, which makes the grouping of invertebrates paraphyletic.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each animal by the kind of skeleton it has.",
+   "groups": [
+    "Fluid-filled skeleton",
+    "Hard exoskeleton"
+   ],
+   "items": [
+    [
+     "Jellyfish",
+     "Fluid-filled skeleton"
+    ],
+    [
+     "Worms",
+     "Fluid-filled skeleton"
+    ],
+    [
+     "Insects",
+     "Hard exoskeleton"
+    ],
+    [
+     "Crustaceans",
+     "Hard exoskeleton"
+    ]
+   ],
+   "explain": "Many invertebrates, such as jellyfish and worms, have fluid-filled hydrostatic skeletons. Others, like insects and crustaceans, have hard outer exoskeletons.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each invertebrate to its lopsided feature.",
+   "pairs": [
+    [
+     "Snail",
+     "Spiral shell"
+    ],
+    [
+     "Slug",
+     "Breathing hole on the right side"
+    ],
+    [
+     "Fiddler crab",
+     "One claw much larger than the other"
+    ],
+    [
+     "Sponge",
+     "Fixed in place with no symmetry"
+    ]
+   ],
+   "explain": "These animals show asymmetry, which is rare among animal body plans.",
+   "cites": [
+    37,
+    38,
+    39,
+    43,
+    45
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Invertebrates are animals without a backbone.",
+    "Tunicates have no backbone, so they fit that description.",
+    "So tunicates must be more closely related to insects than to vertebrates.",
+    "So invertebrate marks one tidy branch of animal life."
+   ],
+   "wrong": 2,
+   "explain": "Tunicates are actually more closely related to vertebrates than to other invertebrates. That is why the group is paraphyletic and not a true branch.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion",
+ "name": "Newton's laws of motion",
+ "summary": [
+  {
+   "text": "Newton's three laws of motion describe how forces change the movement of bodies, and he first stated them in 1687.",
+   "cites": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "A body stays at rest or moves steadily in a straight line unless a force acts, and the net force equals its mass times its acceleration.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "When two bodies exert forces on each other, those forces are equal in size and opposite in direction.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First law",
+   "value": "Motion continues unchanged unless a force acts",
+   "cites": [
+    37,
+    38
+   ]
+  },
+  {
+   "label": "Second law",
+   "value": "Net force equals mass times acceleration",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Third law",
+   "value": "Mutual forces are equal and opposite",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Published",
+   "value": "1687 in the Principia",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Force is a vector",
+   "value": "It has both size and direction",
+   "cites": [
+    25,
+    36
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You sit in a windowless train gliding smoothly at constant speed. Can an experiment show whether you or the platform is really moving?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, since no inertial observer is privileged over another"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because the train carries your motion with it"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if the train speeds up a lot"
+    },
+    {
+     "id": "d",
+     "label": "No, but only because the train is so large"
+    }
+   ],
+   "answer": "a",
+   "explain": "There is no absolute standard of rest, and no experiment can say which inertial observer is really moving.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion:q1"
+  },
+  {
+   "prompt": "A girl pushes a wall and the wall pushes back equally hard, yet nothing cancels out. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wall's push is only felt, not real"
+    },
+    {
+     "id": "b",
+     "label": "The two forces act on different bodies"
+    },
+    {
+     "id": "c",
+     "label": "The forces differ in size by a small amount"
+    },
+    {
+     "id": "d",
+     "label": "Only the stronger force of the two counts"
+    }
+   ],
+   "answer": "b",
+   "explain": "The action and reaction apply to different bodies, so they do not cancel on a single body.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion:q2"
+  },
+  {
+   "prompt": "The same push is given to an empty shopping cart and a full one. Why does the empty cart speed up more?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Heavier carts feel less of the push"
+    },
+    {
+     "id": "b",
+     "label": "Empty carts have less friction in every case"
+    },
+    {
+     "id": "c",
+     "label": "The same net force gives less acceleration to more mass"
+    },
+    {
+     "id": "d",
+     "label": "Acceleration depends only on the push's direction"
+    }
+   ],
+   "answer": "c",
+   "explain": "Net force equals mass times acceleration, so with the same force a larger mass gets a smaller acceleration.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion:q3"
+  },
+  {
+   "prompt": "A puck slides on frictionless ice in a straight line at steady speed. What is the net force on it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A small forward force that keeps it going"
+    },
+    {
+     "id": "b",
+     "label": "A force equal to its weight"
+    },
+    {
+     "id": "c",
+     "label": "A force that grows as time passes"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "Motion at constant speed in a straight line continues without a force, so the net force is zero and the body does not accelerate.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion:q4"
+  },
+  {
+   "prompt": "When can the Earth reasonably be treated as a single point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "When working out how a ball bounces on its surface"
+    },
+    {
+     "id": "b",
+     "label": "When working out its orbit around the Sun"
+    },
+    {
+     "id": "c",
+     "label": "When working out how a car drives on a road"
+    },
+    {
+     "id": "d",
+     "label": "When working out how deep a well must be"
+    }
+   ],
+   "answer": "b",
+   "explain": "Earth can be pointlike for its orbit around the Sun but not for activities on its surface.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion:q5"
+  },
+  {
+   "prompt": "A friend says a push is fully described by how hard it is. What is missing from that description?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Which way it points, since force is a vector"
+    },
+    {
+     "id": "b",
+     "label": "How long the push has existed in the world"
+    },
+    {
+     "id": "c",
+     "label": "Which person happened to make the push"
+    },
+    {
+     "id": "d",
+     "label": "Whether the push came from a rope or a hand"
+    }
+   ],
+   "answer": "a",
+   "explain": "Force is a vector quantity, and a vector has both magnitude and direction.",
+   "cites": [
+    25,
+    36
+   ],
+   "id": "knowledge.science.physics.mechanics.forces.newton-s-laws-of-motion:q6"
+  }
+ ],
+ "source": {
+  "title": "Newton's laws of motion",
+  "url": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+  "revision": 1383155631
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The three laws",
+    "text": "Newton gave three laws of motion. The first says a body stays still, or keeps moving at a steady speed in a straight line, unless a force acts on it. The second says that at any moment the net force on a body equals its mass times its acceleration, which is the same as how fast its momentum is changing. The third says that when two bodies push or pull on each other, the two forces are equal in size and point in opposite directions.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Where they came from",
+    "text": "Isaac Newton first set out the laws in his Philosophiæ Naturalis Principia Mathematica, published in 1687. He used them to explain how many kinds of objects and systems move. Later thinkers, drawing especially on the idea of energy, built classical mechanics on top of his work. In modern times the laws were found to have limits, and quantum mechanics and relativity were developed for more extreme cases.",
+    "cites": [
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Treating bodies as points",
+    "text": "The laws are often stated for point masses, bodies whose size can be ignored. That works for real objects when their inner parts' motion does not matter and when they are far apart compared with their own size. The Earth and the Sun can both be treated as points when working out the Earth's orbit. But the Earth is not a point when you study what happens on its surface.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Describing motion with numbers",
+    "text": "Kinematics, the maths of describing motion, gives positions as numbers that change over time. Picture a bead sliding on a track running left to right: its place is its distance from a chosen zero point, negative on the left and positive on the right. If its position over time is s(t), its average velocity between t₀ and t₁ is the change in position divided by the change in time, Δs/Δt, where the Greek letter Δ means change in. Calculus sharpens this into instantaneous velocity, the speed and direction at a single moment, written v = ds/dt.",
+    "cites": [
+     11,
+     12,
+     15,
+     16,
+     17,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Vectors and forces",
+    "text": "Position, velocity and acceleration are vectors: quantities with both a size and a direction. A velocity of 𝐯 = (3 m/s, 4 m/s), for example, means moving 3 metres per second along the horizontal and 4 metres per second along the vertical. In physics, force puts a number on the everyday idea of a push or a pull, and it is a vector too. In Newton's mechanics, forces often come from strings and ropes, friction, muscles and gravity.",
+    "cites": [
+     25,
+     26,
+     30,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Inertia",
+    "text": "Physics gives some everyday words special meanings: force is not the same as power or pressure, and mass is not the same as weight. Newton's first law states the principle of inertia, which says a body's natural behaviour is to travel in a straight line at a steady speed. Left alone, a body keeps doing what it was doing, but outside forces can disturb that.",
+    "cites": [
+     33,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Who is really moving",
+    "text": "Today the first law is read as saying that no inertial observer is special. Someone standing on the ground watching a train pass is an inertial observer. If the train runs smoothly in a straight line at a steady speed, a passenger sitting on board is one too, and feels no motion. There is no way to say which of them is truly moving and which is truly still. What looks like rest to one looks like steady straight-line motion to the other, and no experiment can pick a winner.",
+    "cites": [
+     40,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "dourmashkin-ch7",
+   "kind": "book",
+   "title": "7: Newton’s Laws of Motion - Classical Mechanics (Dourmashkin)",
+   "by": "Peter Dourmashkin",
+   "url": "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/07%3A_Newtons_Laws_of_Motion",
+   "note": "A free textbook chapter from an MIT mechanics text working through all three of Newton's laws.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-newtons-laws",
+   "kind": "video",
+   "title": "Newton's Laws: Crash Course Physics #5",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
+   "note": "A Crash Course Physics episode introducing Newton's three laws of motion."
+  },
+  {
+   "id": "iot-laws-of-motion",
+   "kind": "documentary",
+   "title": "The Laws of Motion",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b009mvj0",
+   "minutes": 45,
+   "note": "An In Our Time radio discussion of Isaac Newton's laws of motion and their place in science."
+  }
+ ]
+}

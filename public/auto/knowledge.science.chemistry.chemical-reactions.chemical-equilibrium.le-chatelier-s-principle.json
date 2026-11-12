@@ -1,0 +1,295 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle",
+ "name": "Le Chatelier's principle",
+ "summary": [
+  {
+   "text": "Le Chatelier's principle is used to predict the effect of a change in conditions on chemical equilibrium.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The system opposes the change: adding a species favours the side that counters the addition, and removing one makes the reaction favour the side that lost it.",
+   "cites": [
+    33,
+    34,
+    38,
+    39
+   ]
+  },
+  {
+   "text": "It can also describe mechanical systems, where a system put under stress responds in a way that reduces that stress.",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Braun–Le Chatelier principle and the equilibrium law",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Mechanical example",
+   "value": "Shear pins protect systems from stress applied in unwanted ways",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Ester formation",
+   "value": "Removing water drives the equilibrium process forward",
+   "cites": [
+    43,
+    44
+   ]
+  },
+  {
+   "label": "Where it can mislead",
+   "value": "Over-general statements can fail outside thermodynamic equilibrium",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a system that makes methanol, a chemist increases the concentration of CO. What does the principle predict?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The methanol concentration falls, which lowers the CO further"
+    },
+    {
+     "id": "b",
+     "label": "The methanol concentration stays the same, since only CO changed"
+    },
+    {
+     "id": "c",
+     "label": "The methanol concentration increases, which lowers the total change in CO"
+    },
+    {
+     "id": "d",
+     "label": "The CO concentration rises without limit"
+    }
+   ],
+   "answer": "c",
+   "explain": "Increasing the concentration of CO means the principle predicts an increase in the concentration of methanol.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle:q1"
+  },
+  {
+   "prompt": "A chemist wants to push an ester-forming reaction, which also gives off water, towards the ester. What trick helps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add more water so the mixture stays balanced"
+    },
+    {
+     "id": "b",
+     "label": "Cool the mixture so that the water cannot move"
+    },
+    {
+     "id": "c",
+     "label": "Stir it faster so the water stays inside"
+    },
+    {
+     "id": "d",
+     "label": "Remove the water, for example with a desiccant or by distillation"
+    }
+   ],
+   "answer": "d",
+   "explain": "Removing water, by desiccants or continuous distillation, shifts condensation equilibria towards the product.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle:q3"
+  },
+  {
+   "prompt": "An engineer fits a deliberately weak pin that snaps first under overload, protecting the rest of a machine. Which chemical idea does this echo?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A catalyst gets used up while speeding up a reaction"
+    },
+    {
+     "id": "b",
+     "label": "A stressed system responds through the mechanism that most easily relieves the stress"
+    },
+    {
+     "id": "c",
+     "label": "A solute stops dissolving once a solution is full"
+    },
+    {
+     "id": "d",
+     "label": "A reaction stops completely when it reaches its barrier"
+    }
+   ],
+   "answer": "b",
+   "explain": "A system under stress responds so as to reduce it, generally through the mechanism that most easily relieves it. Shear pins are an engineering application.",
+   "cites": [
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle:q4"
+  },
+  {
+   "prompt": "Why does adding more of a reactant raise the forward reaction, in terms of collisions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Successful collisions of that reactant become more frequent"
+    },
+    {
+     "id": "b",
+     "label": "Each collision becomes much harder"
+    },
+    {
+     "id": "c",
+     "label": "Collisions of the products become rarer"
+    },
+    {
+     "id": "d",
+     "label": "The reactant stops colliding with itself"
+    }
+   ],
+   "answer": "a",
+   "explain": "As the concentration of a reactant increases, the frequency of its successful collisions increases, allowing more forward reaction and more product.",
+   "cites": [
+    40,
+    41
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle:q5"
+  },
+  {
+   "prompt": "A student applies the principle to a system far from thermodynamic equilibrium, and the result contradicts it. What is the likely explanation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The principle only works for mechanical systems"
+    },
+    {
+     "id": "b",
+     "label": "The principle only works when no species is added or removed"
+    },
+    {
+     "id": "c",
+     "label": "Over-general statements of the principle can fail outside thermodynamic equilibrium"
+    },
+    {
+     "id": "d",
+     "label": "The principle fails whenever a concentration is changed"
+    }
+   ],
+   "answer": "c",
+   "explain": "Outside thermodynamic equilibrium, phenomena can arise that contradict an over-general statement of the principle.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium.le-chatelier-s-principle:q6"
+  }
+ ],
+ "source": {
+  "title": "Le Chatelier's principle",
+  "url": "https://en.wikipedia.org/wiki/Le_Chatelier%27s_principle",
+  "revision": 1384181995
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Le Chatelier's principle is a rule for predicting how a chemical equilibrium responds when its conditions change. It goes by several other names, including the Braun–Le Chatelier principle and the equilibrium law.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "The system pushes back",
+    "text": "The core idea is that the system partly opposes whatever disturbed it. Raise the concentration of one chemical, and the equilibrium shifts toward the side, reactants or products, that counters that rise. Add a species and the reaction favours the side opposing the addition. Take one away and the reaction fills the gap by favouring the side that lost it. The rate, extent and yield of the reaction all change to match.",
+    "cites": [
+     33,
+     34,
+     35,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "An example with methanol",
+    "text": "Picture an equilibrium that links carbon monoxide, CO, with methanol. If more CO is added, the principle predicts that the amount of methanol will rise, which shrinks the overall change in CO. Collision theory supports this. With more CO around, its molecules collide successfully more often, so the forward reaction picks up and makes more product.",
+    "cites": [
+     36,
+     37,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Using it in the lab",
+    "text": "Chemists put this to work to get products the reaction does not favour on energy grounds: keep removing the product, and the reaction keeps making it. A common case is condensation reactions, which give off water, such as forming an ester from a carboxylic acid and an alcohol. The water can be trapped by drying agents like anhydrous magnesium sulfate or molecular sieves. It can also be taken away steadily by distillation, often with a Dean-Stark apparatus.",
+    "cites": [
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Heat as an ingredient",
+    "text": "The effect of temperature becomes clear if heat is treated as one of the reactants or products. Raising the temperature is then taken to increase the heat content of the system.",
+    "cites": [
+     45
+    ]
+   },
+   {
+    "heading": "Beyond chemistry",
+    "text": "The principle can also describe mechanical systems: put a system under stress and it responds in a way that reduces that stress. The response usually comes through whatever route relieves the stress most easily. Shear pins and similar sacrificial parts apply this in engineering, taking up unwanted stress so the rest of the system avoids wider damage. The principle is typically used for closed negative-feedback systems, where how long the adjustment takes depends on how strong the feedback is.",
+    "cites": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Its limits",
+    "text": "Outside thermodynamic equilibrium, things can happen that contradict an overly broad version of the principle. Its name is also sometimes borrowed in discussions that have nothing to do with thermodynamics.",
+    "cites": [
+     3,
+     4
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-13-3",
+   "kind": "book",
+   "title": "13.3 Shifting Equilibria: Le Châtelier's Principle",
+   "by": "OpenStax (Flowers, Theopold, Langley, Robinson)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+   "note": "A free textbook section on how concentration, pressure, temperature and catalysts affect an equilibrium.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-fundamentals",
+   "kind": "book",
+   "title": "Le Chatelier's Principle Fundamentals",
+   "by": "Jim Clark, Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Le_Chateliers_Principle/Le_Chatelier's_Principle_Fundamentals",
+   "note": "A plain walk through each kind of change to an equilibrium, with practice problems and solutions.",
+   "license": "CC BY-NC 4.0"
+  }
+ ]
+}

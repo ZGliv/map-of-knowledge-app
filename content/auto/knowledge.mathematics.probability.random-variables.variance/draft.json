@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "Variance is a measure of dispersion: how far a set of numbers is spread out from its average value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is defined as the expected value of the squared deviation from the mean, and its square root is the standard deviation.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Its units differ from those of the variable, which is why the standard deviation is more commonly reported once the calculation is done.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Definition",
+   "value": "Expected value of the squared deviation from the mean",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Common symbols",
+   "value": "σ², s², Var(X), V(X)",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "They differ from the random variable's units",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Two meanings",
+   "value": "A theoretical distribution or a set of observations",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Can be infinite",
+   "value": "Not finite for many distributions",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two bus lines both average a ten-minute wait. Line A always takes exactly ten minutes. Line B ranges from two to eighteen minutes. Which has the larger variance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Line A, because its wait never changes"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since their averages match"
+    },
+    {
+     "id": "c",
+     "label": "They tie, because the totals are equal"
+    },
+    {
+     "id": "d",
+     "label": "Line B, because its waits are more spread out"
+    }
+   ],
+   "answer": "d",
+   "explain": "Variance measures how far values are spread from their average, and line B's waits stray much further from ten minutes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A report on delivery times in minutes quotes the standard deviation rather than the variance. Why is that the more common choice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is always smaller than the variance"
+    },
+    {
+     "id": "b",
+     "label": "Its units match the delivery times"
+    },
+    {
+     "id": "c",
+     "label": "It is easier to handle algebraically"
+    },
+    {
+     "id": "d",
+     "label": "It stays finite when the variance does not"
+    }
+   ],
+   "answer": "b",
+   "explain": "Unlike the standard deviation, the variance has units that differ from the variable, which is why the standard deviation is more commonly reported.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "A data set has a variance of 9 square meters. What is its standard deviation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "81 square meters"
+    },
+    {
+     "id": "b",
+     "label": "4.5 meters"
+    },
+    {
+     "id": "c",
+     "label": "3 meters"
+    },
+    {
+     "id": "d",
+     "label": "9 meters"
+    }
+   ],
+   "answer": "c",
+   "explain": "The standard deviation is the square root of the variance, and the square root of 9 is 3.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Two measurement errors are uncorrelated. One has variance 4 and the other has variance 5. What is the variance of their sum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "20"
+    },
+    {
+     "id": "b",
+     "label": "4.5"
+    },
+    {
+     "id": "c",
+     "label": "1"
+    },
+    {
+     "id": "d",
+     "label": "9"
+    }
+   ],
+   "answer": "d",
+   "explain": "For uncorrelated random variables, the variance of a sum equals the sum of their variances.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "A pollster measures how much opinions vary among 50 people drawn from a city of many thousands. What is this calculated spread, and how is it used?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A sample variance, used as an estimate for the whole population"
+    },
+    {
+     "id": "b",
+     "label": "A population variance, exact for the whole city"
+    },
+    {
+     "id": "c",
+     "label": "A mean, used as the center of the city"
+    },
+    {
+     "id": "d",
+     "label": "A standard error, used to replace the average"
+    }
+   ],
+   "answer": "a",
+   "explain": "When only a subset of observations is available, the variance computed is the sample variance, an estimate of the population variance.",
+   "cites": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "prompt": "A random variable has no finite expected value. What does that tell you about its variance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is zero, since there is no center"
+    },
+    {
+     "id": "b",
+     "label": "It is finite, but cannot be computed"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be finite either"
+    },
+    {
+     "id": "d",
+     "label": "It equals the expected value itself"
+    }
+   ],
+   "answer": "c",
+   "explain": "If a distribution does not have a finite expected value, as with the Cauchy distribution, its variance cannot be finite either.",
+   "cites": [
+    32
+   ]
+  }
+ ]
+}

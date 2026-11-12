@@ -1,0 +1,355 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force",
+ "name": "Lorentz force",
+ "summary": [
+  {
+   "text": "The Lorentz force is the push a charged particle feels from electric and magnetic fields.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The electric part speeds the particle up along a straight line, while the magnetic part acts sideways to both its motion and the field and bends its path.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Together with Maxwell's equations it underpins classical electrodynamics, from electric motors and particle accelerators to plasmas.",
+   "cites": [
+    2,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Who derived it",
+   "value": "Hendrik Lorentz gave a complete derivation in 1895",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Heaviside's part",
+   "value": "Oliver Heaviside found the magnetic part a few years before",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Right-hand rule",
+   "value": "Velocity, field and force directions fit index finger, middle finger, thumb",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Path in uniform field",
+   "value": "Circular or helical, known as cyclotron motion",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Where it fails",
+   "value": "At small scales where quantum effects, like spin, matter",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An electron flies straight into a region with a steady magnetic field pointing sideways to its motion. How does its path change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It speeds up in a straight line"
+    },
+    {
+     "id": "b",
+     "label": "It bends along a curve"
+    },
+    {
+     "id": "c",
+     "label": "It stops dead at the edge"
+    },
+    {
+     "id": "d",
+     "label": "It continues unchanged"
+    }
+   ],
+   "answer": "b",
+   "explain": "The magnetic force is perpendicular to the velocity and field, so it curves the particle's path, often into a circle or helix.",
+   "cites": [
+    5,
+    17
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force:q1"
+  },
+  {
+   "prompt": "A designer wants to increase a particle's speed along a straight line. Which part of the Lorentz force does that job?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The magnetic part, because it pushes along the motion"
+    },
+    {
+     "id": "b",
+     "label": "Neither part, since forces cannot change speed"
+    },
+    {
+     "id": "c",
+     "label": "The electric part, which pushes along the field"
+    },
+    {
+     "id": "d",
+     "label": "Both equally, because they always point the same way"
+    }
+   ],
+   "answer": "c",
+   "explain": "Only the electric field can transfer energy to or from a particle. The magnetic force is sideways to the velocity and does no work.",
+   "cites": [
+    4,
+    21,
+    24
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force:q2"
+  },
+  {
+   "prompt": "Why can a magnetic field steer a moving particle in circles without ever making it faster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its force is always perpendicular to the velocity, so it does no work"
+    },
+    {
+     "id": "b",
+     "label": "Its force is always zero once the particle moves"
+    },
+    {
+     "id": "c",
+     "label": "It converts the particle's mass into speed and back"
+    },
+    {
+     "id": "d",
+     "label": "It pushes straight forward, then straight backward"
+    }
+   ],
+   "answer": "a",
+   "explain": "The magnetic term vanishes in the power calculation because a vector is always perpendicular to its cross product with another vector.",
+   "cites": [
+    21,
+    23,
+    24
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force:q3"
+  },
+  {
+   "prompt": "A wire carrying a steady current sits in an external magnetic field. What happens to the wire as a whole?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, since the wire itself is neutral"
+    },
+    {
+     "id": "b",
+     "label": "Its moving charges each feel the force, so it feels one net push"
+    },
+    {
+     "id": "c",
+     "label": "Only the current is affected, never the wire"
+    },
+    {
+     "id": "d",
+     "label": "The field stops the charges, so the current dies"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each moving charge in the wire experiences the Lorentz force, and together these forces produce a net macroscopic force on the wire.",
+   "cites": [
+    41,
+    42
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force:q4"
+  },
+  {
+   "prompt": "Some textbooks start from the force law itself to say what the electric and magnetic fields are. What do they take the fields to be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whatever the force on a charge of known velocity would be there"
+    },
+    {
+     "id": "b",
+     "label": "Only the push felt by charges that are currently present"
+    },
+    {
+     "id": "c",
+     "label": "The energy a charge has stored inside the field"
+    },
+    {
+     "id": "d",
+     "label": "The speed a charge reaches after leaving the region"
+    }
+   ],
+   "answer": "a",
+   "explain": "The fields E and B are defined at each point by the force a hypothetical charged particle with a given velocity would experience there, even if no charge is present.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force:q5"
+  },
+  {
+   "prompt": "A physicist wants to know whether the Lorentz force law is the final word on tiny particles. What is the honest answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is exact at every scale, including quantum ones"
+    },
+    {
+     "id": "b",
+     "label": "It fails at small scales, where spin adds interactions it ignores"
+    },
+    {
+     "id": "c",
+     "label": "It fails only for particles moving slowly"
+    },
+    {
+     "id": "d",
+     "label": "It was disproved once special relativity appeared"
+    }
+   ],
+   "answer": "b",
+   "explain": "The law remains valid in special relativity but breaks down at small scales where quantum effects matter, such as spin interactions it does not include.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.lorentz-force:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lorentz_force_on_charged_particles_in_bubble_chamber_-_HD.6D.635_%2812000265314%29.svg/960px-Lorentz_force_on_charged_particles_in_bubble_chamber_-_HD.6D.635_%2812000265314%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Lorentz force",
+  "credit": "Ponor",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lorentz_force_on_charged_particles_in_bubble_chamber_-_HD.6D.635_(12000265314).svg"
+ },
+ "source": {
+  "title": "Lorentz force",
+  "url": "https://en.wikipedia.org/wiki/Lorentz_force",
+  "revision": 1382686055
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The Lorentz force is the force that electric and magnetic fields exert on a charged particle. It decides how charged particles move wherever such fields are present. That makes it the basis of many things, from electric motors and particle accelerators to the way plasmas behave. The force has two parts, one from each kind of field.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Two parts",
+    "text": "The electric part, written qE, pushes along the electric field for a positive charge and against it for a negative one. It tends to speed the particle up along a straight line. The magnetic part, written q(v × B), acts at right angles both to the magnetic field and to the way the particle is moving. It bends the particle's path into a curve, often a circle or a helix. To find its direction for a positive charge, use the right-hand rule: point your index finger along the velocity and your middle finger along the field, and your thumb shows the force.",
+    "cites": [
+     4,
+     5,
+     14,
+     16
+    ]
+   },
+   {
+    "heading": "Circles and drifts",
+    "text": "In a uniform magnetic field, the sideways push sends particles around in circles or helices, which is called cyclotron motion. In a plasma, the motion of electrons or ions can often be pictured as two pieces added together: a fairly fast circle around a point called the guiding center, and a slower drift of that point. Different kinds of particles can drift at different speeds, depending on their charge, mass or temperature. Those differences can produce electric currents or pull chemicals apart.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "The magnetic part does no work",
+    "text": "Here is a surprising consequence. The magnetic force changes which way a particle travels, but it does no mechanical work on it. The rate at which the field passes energy to the particle is the dot product of velocity and force, which works out to 𝐯⋅𝐅 = q 𝐯⋅𝐄. The magnetic term drops out because any vector is perpendicular to its cross product with another vector. So only the electric field can add energy to a particle or take it away, changing its kinetic energy.",
+    "cites": [
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "The push on a wire",
+    "text": "The same idea explains the push on a current-carrying wire sitting in a magnetic field, sometimes called the Laplace force. Each moving charge in the wire feels the Lorentz force, and together these add up to a net force on the wire. For a straight, stationary wire in a uniform field, the force is 𝐅 = Iℓ × 𝐁. Here I is the current, and ℓ points along the wire in the direction of the current, with a size equal to the wire's length. A related version covers the electromotive force that appears in a wire loop as it moves through a magnetic field, as in Faraday's law of induction.",
+    "cites": [
+     6,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Defining the fields",
+    "text": "Some textbooks turn the law around and use it to define the electric and magnetic fields. In that view, E and B at a point are fixed by the force that a test particle, with charge q and velocity v, would feel at that point, even when no charge is actually present. This works even for particles moving close to the speed of light. Not everyone agrees, though, that it is the most fundamental way to define the fields.",
+    "cites": [
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "History and limits",
+    "text": "Together with Maxwell's equations, which say how charges and currents create electric and magnetic fields, the Lorentz force law is the foundation of classical electrodynamics. Historians suggest the law is already implicit in an 1865 paper by James Clerk Maxwell. Oliver Heaviside correctly worked out the magnetic part, and a few years later, in 1895, Hendrik Lorentz gave a complete derivation that added the electric part. The law still holds in special relativity, but it breaks down at small scales where quantum effects matter; the intrinsic spin of particles, for example, brings extra interactions it leaves out.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up2-11-3",
+   "kind": "book",
+   "title": "11.3 Motion of a Charged Particle in a Magnetic Field",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/11-3-motion-of-a-charged-particle-in-a-magnetic-field",
+   "note": "A free textbook section on circular and helical paths of charges in a magnetic field, with worked examples.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-up2-11-4",
+   "kind": "book",
+   "title": "11.4 Magnetic Force on a Current-Carrying Conductor",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/11-4-magnetic-force-on-a-current-carrying-conductor",
+   "note": "How the force on moving charges adds up to F = Il × B on a wire, with right-hand rules and worked examples.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-cp2e-22-4",
+   "kind": "book",
+   "title": "22.4 Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/22-4-magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field",
+   "note": "An introductory textbook section on the force a magnetic field puts on a moving charge and the right-hand rule.",
+   "license": "CC BY-NC-SA"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "title": "Who loses, who gains?",
+ "question": "What really happens when metal rusts or fuel burns?",
+ "hook": "Rust, batteries and burning all follow one hidden rule: whenever something loses electrons, something else gains them.",
+ "idea": "Redox reactions always pair oxidation with reduction, so electrons lost by one species are gained by another.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Iron rusts in moist air. What happens to the iron atoms and to the oxygen?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Iron's oxidation state rises while oxygen is reduced"
+    },
+    {
+     "id": "b",
+     "label": "Iron is reduced and oxygen is oxidized",
+     "feedback": "It tempts because rust contains oxygen, but the iron is the one whose oxidation state increases."
+    },
+    {
+     "id": "c",
+     "label": "Both iron and oxygen are oxidized",
+     "feedback": "It tempts because rust is an oxide, but oxidation and reduction occur together, so something must be reduced."
+    }
+   ],
+   "answer": "a",
+   "explain": "In rusting, the iron atoms' oxidation state increases as the metal turns to an oxide, and oxygen is reduced as it absorbs the released electrons.",
+   "cites": [
+    7,
+    16
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each redox term to its meaning.",
+   "pairs": [
+    [
+     "Oxidation",
+     "Loss of electrons"
+    ],
+    [
+     "Reduction",
+     "Gain of electrons"
+    ],
+    [
+     "Reducing agent",
+     "Electron donor"
+    ],
+    [
+     "Oxidizing agent",
+     "Gains electrons and is reduced"
+    ]
+   ],
+   "explain": "Oxidation and reduction are the electron loss and gain. The reducing agent is an electron donor, while the oxidizing agent gains electrons and is reduced.",
+   "cites": [
+    2,
+    3,
+    18,
+    28
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each one by whether it is oxidized or reduced.",
+   "groups": [
+    "Is oxidized",
+    "Is reduced"
+   ],
+   "items": [
+    [
+     "Reducing agent",
+     "Is oxidized"
+    ],
+    [
+     "Oxidizing agent",
+     "Is reduced"
+    ],
+    [
+     "Iron in rusting",
+     "Is oxidized"
+    ],
+    [
+     "Oxygen in rusting",
+     "Is reduced"
+    ]
+   ],
+   "explain": "A reducing agent loses electrons and is oxidized, while an oxidizing agent gains them and is reduced. In rusting, iron is oxidized and oxygen is reduced.",
+   "cites": [
+    7,
+    18
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A reducing agent gives electrons to another substance.",
+    "So the reducing agent loses electrons.",
+    "Losing electrons is oxidation.",
+    "So the reducing agent is itself reduced."
+   ],
+   "wrong": 3,
+   "explain": "Because it loses electrons, the reducing agent is oxidized, not reduced.",
+   "cites": [
+    18,
+    27
+   ]
+  }
+ ]
+}

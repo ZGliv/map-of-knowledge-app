@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.microbes.bacteria.gram-stain",
+ "name": "Gram stain",
+ "summary": [
+  {
+   "text": "Gram staining is a laboratory method that sorts bacterial species into two large groups, gram-positive and gram-negative.",
+   "cites": [
+    1,
+    18
+   ]
+  },
+  {
+   "text": "It works because the groups differ in their cell walls: gram-positive cells have a thick peptidoglycan layer that holds the crystal violet stain, while gram-negative cells have a thinner one that lets it wash out.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "Developed by Hans Christian Gram in 1884, it is almost always the first step in identifying a bacterial group and gives results much more quickly than culturing.",
+   "cites": [
+    3,
+    9,
+    22
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Inventor",
+   "value": "Danish bacteriologist Hans Christian Gram, in 1884",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Gram-negative colour",
+   "value": "Pink or red after the counterstain",
+   "cites": [
+    7,
+    37
+   ]
+  },
+  {
+   "label": "Gram-positive colour",
+   "value": "Stays purple after decolorizing",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Speed",
+   "value": "Results come much more quickly than culturing",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Not for archaea",
+   "value": "Their responses vary too widely to sort them",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Under a microscope, a stained sample shows some cells purple and others pink. What explains the pink ones?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They lost the first dye and then took up the second one"
+    },
+    {
+     "id": "b",
+     "label": "They are dead cells that cannot hold any dye at all"
+    },
+    {
+     "id": "c",
+     "label": "They have the thickest walls, which block every stain"
+    },
+    {
+     "id": "d",
+     "label": "They took up the second dye before the first one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gram-negative cells lose the crystal violet at the decolorizing step, and the counterstain then colours them pink or red.",
+   "cites": [
+    6,
+    7,
+    36,
+    37
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.gram-stain:q1"
+  },
+  {
+   "prompt": "A lab worker leaves the alcohol rinse on for far too long, well beyond a few seconds. What is the likely result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only gram-negative cells lose their colour"
+    },
+    {
+     "id": "b",
+     "label": "Every cell keeps its purple colour for longer"
+    },
+    {
+     "id": "c",
+     "label": "Cells stain darker because the dye settles in"
+    },
+    {
+     "id": "d",
+     "label": "Even gram-positive cells lose their purple colour"
+    }
+   ],
+   "answer": "d",
+   "explain": "The decolorizing step must be timed carefully because crystal violet is removed from both kinds of cell if the agent stays on too long.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.gram-stain:q2"
+  },
+  {
+   "prompt": "Why is an iodine solution added right after the first dye?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It dyes the cell wall pink so the cell can be seen"
+    },
+    {
+     "id": "b",
+     "label": "It forms a stable complex with the dye so it holds to the wall"
+    },
+    {
+     "id": "c",
+     "label": "It kills the bacteria so they stick to the slide"
+    },
+    {
+     "id": "d",
+     "label": "It dissolves the outer membrane to let the dye out"
+    }
+   ],
+   "answer": "b",
+   "explain": "Iodine combines with crystal violet to form large complexes that strengthen the bond between the stain and the cell wall.",
+   "cites": [
+    8,
+    28,
+    29
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.gram-stain:q3"
+  },
+  {
+   "prompt": "A patient may have meningitis and doctors need an early clue before lab growth results return. Why does a Gram stain help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It removes the need to ever check the patient again"
+    },
+    {
+     "id": "b",
+     "label": "It works on every microbe, including archaea"
+    },
+    {
+     "id": "c",
+     "label": "It gives results much faster than growing a culture"
+    },
+    {
+     "id": "d",
+     "label": "It names the exact species from one pink cell"
+    }
+   ],
+   "answer": "c",
+   "explain": "Gram stains on fluid such as cerebrospinal fluid yield results much more quickly than culturing, which matters for treatment and prognosis.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.gram-stain:q4"
+  },
+  {
+   "prompt": "What was Hans Christian Gram's original aim when he developed his technique?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To make bacteria easier to see in stained lung tissue"
+    },
+    {
+     "id": "b",
+     "label": "To sort bacteria into gram-positive and gram-negative"
+    },
+    {
+     "id": "c",
+     "label": "To diagnose fungal infections in hospital patients"
+    },
+    {
+     "id": "d",
+     "label": "To kill bacteria on slides before they were studied"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gram wanted bacteria to be more visible in stained sections of lung tissue, and he did not at first make the positive and negative distinction.",
+   "cites": [
+    13,
+    17
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.gram-stain:q5"
+  },
+  {
+   "prompt": "A researcher tries to sort archaea into gram-positive and gram-negative groups. Why does this work poorly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Archaea have no cell walls, so no dye can hold"
+    },
+    {
+     "id": "b",
+     "label": "Their responses vary widely and do not follow their groups"
+    },
+    {
+     "id": "c",
+     "label": "The dyes only work on cells that are fungi"
+    },
+    {
+     "id": "d",
+     "label": "Archaea are too small to show up under a microscope"
+    }
+   ],
+   "answer": "b",
+   "explain": "Gram staining is not used to classify archaea because they give widely varying responses that do not follow their phylogenetic groups.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.science.biology.microbes.bacteria.gram-stain:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gram_positive_coccus_and_gram_negative_rod.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Gram stain",
+  "credit": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gram_positive_coccus_and_gram_negative_rod.png"
+ },
+ "source": {
+  "title": "Gram stain",
+  "url": "https://en.wikipedia.org/wiki/Gram_stain",
+  "revision": 1371000272
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Sorting bacteria in two",
+    "text": "The Gram stain is a laboratory method that sorts bacterial species into two big groups, called gram-positive and gram-negative. It tells them apart by how their cell walls behave, chemically and physically. It is almost always the first step in identifying a bacterial group, and it can also help diagnose a fungal infection.",
+    "cites": [
+     1,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "heading": "Where it came from",
+    "text": "The method is named after the Danish scientist Hans Christian Gram, who developed it in 1884 while he worked with Carl Friedländer in the morgue of Berlin's city hospital. He was not trying to tell bacteria apart; he wanted to make them easier to see in stained sections of lung tissue. He noticed that some bacterial cells clearly resisted losing their colour. In his short 1884 report he noted that the typhus bacillus did not keep the stain, but at first he did not split bacteria into gram-positive and gram-negative.",
+    "cites": [
+     3,
+     12,
+     13,
+     14,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "The steps",
+    "text": "First, the primary stain, crystal violet, goes onto a heat-fixed smear of bacteria. Heat fixing kills some bacteria, but its main job is to stick them to the slide so they do not rinse off. Next comes Lugol's iodine, which forms a stable complex with the crystal violet and acts as a trapping agent that keeps the colour in the cell. Then a decolorizer such as alcohol or acetone is added. Last, a counterstain, usually safranin, gives decolorized cells a pink or red colour.",
+    "cites": [
+     8,
+     23,
+     24,
+     29,
+     30,
+     37
+    ]
+   },
+   {
+    "heading": "Why the colours differ",
+    "text": "Gram-positive cells have a thick, multilayered peptidoglycan wall. Ethanol dehydrates them, and the large crystal violet–iodine complexes get trapped inside, so they stay purple. Gram-negative cells have a thinner peptidoglycan layer. The decolorizer strips off their outer membrane, leaving that layer exposed, and the stain complexes wash away along with the membrane. Timing is critical: if the decolorizer stays on too long, a matter of seconds, both kinds lose the stain.",
+    "cites": [
+     5,
+     6,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Pink or purple",
+    "text": "Both kinds of cell take up the counterstain. On gram-positive cells it cannot be seen, because the darker crystal violet hides it. Gram-negative cells, having lost their purple, are stained pink or red, commonly by safranin or fuchsine.",
+    "cites": [
+     7,
+     36,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Use in medicine",
+    "text": "Gram stains are run on body fluid or biopsy samples when infection is suspected. They give results much more quickly than culturing, which matters most when an infection would change a patient's treatment and prognosis, as with cerebrospinal fluid in meningitis or synovial fluid in septic arthritis. The method has limits: some bacteria cannot be classified clearly and fall into gram-variable or gram-indeterminate groups. Archaea are not sorted this way, because their responses vary too widely and do not follow their family groups.",
+    "cites": [
+     10,
+     11,
+     20,
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-staining",
+   "kind": "book",
+   "title": "2.4 Staining Microscopic Specimens - Microbiology",
+   "by": "Nina Parker, Mark Schneegurt, Anh-Hue Thi Tu, Philip Lister, Brian M. Forster (OpenStax)",
+   "url": "https://openstax.org/books/microbiology/pages/2-4-staining-microscopic-specimens",
+   "note": "A free textbook section on staining methods, including the four steps of the Gram stain and why cells turn purple or pink.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

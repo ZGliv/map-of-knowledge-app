@@ -1,0 +1,104 @@
+{
+ "title": "Reactions that never really stop",
+ "question": "What does it mean for a reaction to be at equilibrium?",
+ "hook": "A sealed flask can look perfectly still while reactions inside it keep running in both directions.",
+ "idea": "At equilibrium the forward and reverse reactions run at equal, non-zero rates, so nothing seems to change overall.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A flask holds reactants and products, and their concentrations have stopped changing. What is going on inside?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Forward and reverse reactions continue at equal rates",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "Both reactions have stopped completely",
+     "feedback": "It tempts because nothing visibly changes, but the rates are generally not zero, only equal."
+    },
+    {
+     "id": "c",
+     "label": "Only the forward reaction continues until the reactants run out",
+     "feedback": "It tempts because reactions seem to head one way, but a reverse reaction is running too and cancels the net change."
+    }
+   ],
+   "answer": "a",
+   "explain": "At equilibrium the forward reaction proceeds at the same rate as the reverse reaction, so there are no net changes in concentrations.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each phrase to its meaning",
+   "pairs": [
+    [
+     "Far to the right",
+     "Nearly all reactants are consumed"
+    ],
+    [
+     "Far to the left",
+     "Hardly any product forms"
+    ],
+    [
+     "Dynamic equilibrium",
+     "Rates are not zero, but equal"
+    ]
+   ],
+   "explain": "The position describes how far the reaction has gone, while dynamic equilibrium describes the equal, ongoing rates.",
+   "cites": [
+    3,
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A sealed mixture reaches a point where concentrations no longer change.",
+    "The forward and reverse reactions then run at equal rates.",
+    "Equal rates must mean both reactions are at zero.",
+    "So there is no net change in concentrations."
+   ],
+   "wrong": 2,
+   "explain": "The forward and backward rates are generally not zero. They are equal, which is why concentrations do not change overall.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Two identical mixtures start reacting, and one has a catalyst added. What is different once both reach equilibrium?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Nothing about the equilibrium constant, but the catalysed mixture got there faster",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "The catalysed mixture has a larger equilibrium constant",
+     "feedback": "It tempts because catalysts seem to help products form, but they speed up both directions equally."
+    },
+    {
+     "id": "c",
+     "label": "The catalysed mixture never reaches equilibrium",
+     "feedback": "It tempts because catalysts are not consumed, but they speed both reactions and so equilibrium is reached sooner."
+    }
+   ],
+   "answer": "a",
+   "explain": "A catalyst affects the forward and reverse reactions in the same way, so it does not change the equilibrium constant, and it speeds up reaching equilibrium.",
+   "cites": [
+    14,
+    15
+   ]
+  }
+ ]
+}

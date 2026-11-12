@@ -1,0 +1,34 @@
+{
+ "readHash": "6a517ad2e295167e8f039825c47f83cd22ab5844",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Bias as expected value minus true value [1]; averaging over all possible observations [12]; zero bias is unbiased [2]; objective property [3]."
+  },
+  "r1": {
+   "supported": false,
+   "why": "Heading 'Why small bias is tolerated' presents a reason (implicitly the MSE point) that the cited sentences [5,6,21] never give as a cause for using biased estimators."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Sample variance example [8]; naive estimator biased downward because sample mean from same data [19]; Bessel's correction unbiased [20]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Bias distinct from consistency, consistent may be biased or not [4]; unbiased estimator need not exist [10]; binomial reciprocal example [11]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Unbiasedness not guaranteed to carry over [15]; g(theta-hat) unless g linear [16]; mean-unbiasedness not preserved under non-linear transforms [8]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "ML bias can be substantial [35]; ticket box setup [36]; MLE is X, expectation (n+1)/2, n at least X [37]; 2X-1 unbiased [38]."
+  },
+  "r6": {
+   "supported": true,
+   "why": "Bias w.r.t. median [7]; median-unbiased definition, under/over equally often [39]; exist where mean-unbiased and ML do not [42]; invariant under one-to-one [43]."
+  }
+ }
+}

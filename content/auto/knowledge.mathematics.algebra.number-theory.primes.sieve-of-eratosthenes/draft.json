@@ -1,0 +1,215 @@
+{
+ "summary": [
+  {
+   "text": "The sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It marks the multiples of each prime as composite, starting with 2, and the numbers left unmarked at the end are the primes.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Unlike trial division, which tests each candidate, it generates the composites from their prime factors and gets the primes for free between them.",
+   "cites": [
+    4,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Earliest known reference",
+   "value": "Nicomachus's Introduction to Arithmetic, early 2nd century CE",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Credited to",
+   "value": "Eratosthenes of Cyrene, a 3rd-century BCE Greek mathematician",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Key property",
+   "value": "Only additions are needed, no multiplications or divisions",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Main weakness",
+   "value": "Memory requirements, not the number of operations",
+   "cites": [
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a sieve run, the number 15 gets crossed out twice. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a multiple of both 3 and 5"
+    },
+    {
+     "id": "b",
+     "label": "It is a prime that was checked twice"
+    },
+    {
+     "id": "c",
+     "label": "It is a multiple of 2 and of 15"
+    },
+    {
+     "id": "d",
+     "label": "The sieve makes two passes over every number"
+    }
+   ],
+   "answer": "a",
+   "explain": "Some numbers are marked more than once; 15 is marked once for 3 and once for 5.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "The sieve has crossed out the multiples of every prime it found. What do the untouched numbers left in the list represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The composite numbers"
+    },
+    {
+     "id": "b",
+     "label": "The odd numbers only"
+    },
+    {
+     "id": "c",
+     "label": "The primes"
+    },
+    {
+     "id": "d",
+     "label": "The numbers that were skipped by mistake"
+    }
+   ],
+   "answer": "c",
+   "explain": "Once all multiples of each discovered prime are marked as composite, the remaining unmarked numbers are primes.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "After crossing out multiples of the smaller primes, the next uncrossed number you meet is always prime. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has more digits than the earlier primes"
+    },
+    {
+     "id": "b",
+     "label": "It was never tested, so nothing says otherwise"
+    },
+    {
+     "id": "c",
+     "label": "It is odd, and every odd number is prime"
+    },
+    {
+     "id": "d",
+     "label": "If it were composite, a smaller prime would already have crossed it out"
+    }
+   ],
+   "answer": "d",
+   "explain": "A composite number would have been marked as a multiple of some smaller prime.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "What most clearly separates the sieve from checking each number with trial division?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sieve builds composites from primes, while trial division tests each candidate"
+    },
+    {
+     "id": "b",
+     "label": "The sieve tests every candidate against every smaller number"
+    },
+    {
+     "id": "c",
+     "label": "The sieve only works on odd numbers"
+    },
+    {
+     "id": "d",
+     "label": "Trial division never needs any prime numbers at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "The sieve directly generates composites as multiples of primes instead of testing for them, getting the primes between the composites.",
+   "cites": [
+    4,
+    41,
+    43
+   ]
+  },
+  {
+   "prompt": "Someone runs the sieve on an enormous range and it struggles. According to the note by Sorenson, what is the usual problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Too many multiplications to carry out"
+    },
+    {
+     "id": "b",
+     "label": "Memory requirements rather than the number of operations"
+    },
+    {
+     "id": "c",
+     "label": "Primes become impossible to recognize"
+    },
+    {
+     "id": "d",
+     "label": "The multiples drift out of order"
+    }
+   ],
+   "answer": "b",
+   "explain": "The problem is not the number of operations but the memory needed, since the range may not fit in memory and cache use is poor.",
+   "cites": [
+    29,
+    30
+   ]
+  },
+  {
+   "prompt": "Once a new prime is found, how are its multiples lined up for crossing out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Evenly spaced, with a gap equal to that prime"
+    },
+    {
+     "id": "b",
+     "label": "Spaced by one more each time"
+    },
+    {
+     "id": "c",
+     "label": "Spaced by the number of primes found so far"
+    },
+    {
+     "id": "d",
+     "label": "Randomly across the list"
+    }
+   ],
+   "answer": "a",
+   "explain": "The multiples form a sequence starting from the prime with a constant difference equal to that prime.",
+   "cites": [
+    3
+   ]
+  }
+ ]
+}

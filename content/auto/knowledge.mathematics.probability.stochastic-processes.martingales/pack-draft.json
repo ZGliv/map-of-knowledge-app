@@ -1,0 +1,95 @@
+{
+ "title": "Why a Win Is Never Due",
+ "question": "Can any clever betting plan beat a fair game?",
+ "hook": "Doubling your bet after every loss sounds like a sure way to win, so why does it bankrupt people?",
+ "idea": "In a fair game the expected next value equals the present one, so past results never make a win due.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A gambler flips a fair coin and doubles the bet after every loss, with a limited bankroll. What eventually happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The gambler is certain to finish with a profit",
+     "feedback": "It seems a sure thing since heads will come eventually, but the bets grow so fast that a finite bankroll runs out first."
+    },
+    {
+     "id": "b",
+     "label": "The gambler's wealth just hovers around the start",
+     "feedback": "This misses how fast bets grow: doubling after each loss makes them explode."
+    },
+    {
+     "id": "c",
+     "label": "The growing bets eventually bankrupt the gambler",
+     "feedback": ""
+    }
+   ],
+   "answer": "c",
+   "explain": "Doubling lets the first win recover all losses, but the exponential growth of bets eventually bankrupts users with finite bankrolls.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the doubling strategy in the order it plays out.",
+   "items": [
+    "The gambler bets a stake on a coin flip",
+    "The coin comes up tails and the stake is lost",
+    "The gambler doubles the bet",
+    "A win recovers all earlier losses plus the original stake"
+   ],
+   "ends": [
+    "start",
+    "end"
+   ],
+   "explain": "The gambler doubles after every loss so that the first win recovers all previous losses and wins a profit equal to the original stake.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each person to their role in martingale theory.",
+   "pairs": [
+    [
+     "Paul Lévy",
+     "Introduced the concept in 1934"
+    ],
+    [
+     "Ville",
+     "Introduced the term martingale in 1939"
+    ],
+    [
+     "Joseph Leo Doob",
+     "Did much of the original theory development"
+    ]
+   ],
+   "explain": "Lévy introduced the idea without naming it, Ville named it later, and Doob among others developed much of the early theory.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "A fair coin gives a win or a loss of my stake with equal chances.",
+    "I have lost five tosses in a row.",
+    "So a win is due, and my expected fortune after the next toss is higher.",
+    "I should bet more on the next toss."
+   ],
+   "wrong": 2,
+   "explain": "For a fair game the expected fortune after the next game equals the present fortune, regardless of past outcomes.",
+   "cites": [
+    3,
+    26
+   ]
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-change.evidence.dendroclimatology",
+ "name": "Dendroclimatology",
+ "summary": [
+  {
+   "text": "Dendroclimatology works out past climates from trees, mainly by reading the properties of their yearly growth rings.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Rings grow wider in years good for growth and narrower in hard years, so a tree's rings hold a year-by-year record.",
+   "cites": [
+    2,
+    8
+   ]
+  },
+  {
+   "text": "Matching ring patterns between samples lets scientists date them and extend records back using dead trees, old buildings and archaeological finds.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Better than ring width",
+   "value": "Maximum latewood density (MXD)",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Time span reached",
+   "value": "Local climates hundreds to thousands of years back",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Divergence problem began",
+   "value": "At some northern sites, rings and thermometers split since the 1950s",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Places it cannot cover",
+   "value": "Polar and marine climates",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You cut a slice from an old pine and see a run of very thin rings in the middle. What do those rings most likely record?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Years when conditions made growth hard"
+    },
+    {
+     "id": "b",
+     "label": "Years when the tree was youngest"
+    },
+    {
+     "id": "c",
+     "label": "Years with unusually long summers"
+    },
+    {
+     "id": "d",
+     "label": "Years when the tree had more sunlight"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rings are wider when conditions favor growth and narrower when times are difficult.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.climate.climate-change.evidence.dendroclimatology:q1"
+  },
+  {
+   "prompt": "A researcher wants trees whose rings mostly track temperature rather than rainfall. Where on a mountain should she sample?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The lower edge of the forest"
+    },
+    {
+     "id": "b",
+     "label": "The upper treeline"
+    },
+    {
+     "id": "c",
+     "label": "A wet valley floor"
+    },
+    {
+     "id": "d",
+     "label": "Beside a busy logging road"
+    }
+   ],
+   "answer": "b",
+   "explain": "At the upper treeline, cold limits growth while rain is plentiful, so rings respond mostly to temperature; lower treelines respond more to rain.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.earth.climate.climate-change.evidence.dendroclimatology:q2"
+  },
+  {
+   "prompt": "A builder gives a dendroclimatologist old roof beams from a medieval house. Why can these beams help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Old wood keeps a sample of the old air"
+    },
+    {
+     "id": "b",
+     "label": "Beams record the house's indoor heating"
+    },
+    {
+     "id": "c",
+     "label": "Their rings can be matched to other samples"
+    },
+    {
+     "id": "d",
+     "label": "Cut wood keeps growing rings after felling"
+    }
+   ],
+   "answer": "c",
+   "explain": "Matching ring patterns from sample to sample dates them, which lets records reach back using wood from buildings.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.earth.climate.climate-change.evidence.dendroclimatology:q3"
+  },
+  {
+   "prompt": "A gardener overwaters a house plant and it grows worse, not better. What problem for tree-ring reading does this illustrate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Old trees grow more slowly than young ones"
+    },
+    {
+     "id": "b",
+     "label": "Sheep grazing can stunt a tree's growth"
+    },
+    {
+     "id": "c",
+     "label": "Rings are hard to date in the tropics"
+    },
+    {
+     "id": "d",
+     "label": "Growth may level off or reverse at extremes"
+    }
+   ],
+   "answer": "d",
+   "explain": "Ring width is usually assumed to rise steadily with a variable like moisture, but past a point the response can level off or turn the other way.",
+   "cites": [
+    24,
+    25,
+    26
+   ],
+   "id": "knowledge.earth.climate.climate-change.evidence.dendroclimatology:q4"
+  },
+  {
+   "prompt": "At some northern treeline sites, thermometers show strong warming since the 1950s but the tree rings do not. If you used only those rings to estimate earlier temperatures, what risk would you run?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Making the past look too cool"
+    },
+    {
+     "id": "b",
+     "label": "Making the past look too warm"
+    },
+    {
+     "id": "c",
+     "label": "Missing years with heavy frost"
+    },
+    {
+     "id": "d",
+     "label": "Dating rings a century early"
+    }
+   ],
+   "answer": "b",
+   "explain": "Using affected proxies can lead to overestimating past temperatures, which understates the current warming trend.",
+   "cites": [
+    40,
+    42
+   ],
+   "id": "knowledge.earth.climate.climate-change.evidence.dendroclimatology:q5"
+  },
+  {
+   "prompt": "A team hopes to reconstruct past climate in a steamy rainforest using tree rings. Why might this fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Rainforest trees rot too fast to sample"
+    },
+    {
+     "id": "b",
+     "label": "The air there holds too much carbon dioxide"
+    },
+    {
+     "id": "c",
+     "label": "Trees there grow all year without clear rings"
+    },
+    {
+     "id": "d",
+     "label": "Tropical rings respond only to temperature"
+    }
+   ],
+   "answer": "c",
+   "explain": "In very wet tropical regions, trees generally grow year-round and do not show clear annual rings.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.earth.climate.climate-change.evidence.dendroclimatology:q6"
+  }
+ ],
+ "source": {
+  "title": "Dendroclimatology",
+  "url": "https://en.wikipedia.org/wiki/Dendroclimatology",
+  "revision": 1334830610
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Reading climate in wood",
+    "text": "Dendroclimatology is the study of past climates using trees, mostly by looking at the rings they add each year. A ring grows wide in a year when conditions suit growth and narrow when times are hard. From rings, scientists have worked out the climate of many single places going back hundreds or even thousands of years. By pooling many tree-ring studies, sometimes alongside other climate proxy records, they have also estimated past climates for whole regions and the globe.",
+    "cites": [
+     1,
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Why rings work so well",
+    "text": "Ring width is not the only clue: other features, such as maximum latewood density (MXD), have proved better stand-ins for climate. Rings can also be dated well through dendrochronology, which means matching ring patterns from one sample to the next. That matching lets a record reach further back using dead trees, even wood from old buildings or archaeological digs. Each ring marks one year clearly, unlike other methods such as boreholes. And because rings respond to temperature, moisture and cloudiness, they can tell about more than heat alone, though that cuts both ways.",
+    "cites": [
+     3,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Sorting out the causes",
+    "text": "Many things besides climate shape a ring's width. Climate factors include temperature, precipitation, sunlight and wind; other factors include soil, the tree's age, fire, competition between trees, genes, logging, grazing animals, pests, disease and the level of CO₂. To pull these apart, scientists sample \"limiting stands\", groups of trees expected to respond mostly to the one factor they care about. At a mountain's upper treeline, trees are expected to track temperature more than precipitation, since there warmth is limited and water is in excess. At the lower treeline, the reverse is expected. The trick is imperfect, because several factors still act even at a limiting stand, but it helps.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     20
+    ]
+   },
+   {
+    "heading": "Cleaning up the signal",
+    "text": "When a confusing factor varies at random from tree to tree or site to site, the best answer is simply more samples. A tree's age is handled with statistics, either by fitting spline curves to the whole record or by comparing trees of similar age across periods, called regional curve standardization. Choosing sites with care, such as places modern people have left alone, also limits some of the confusion. Researchers usually assume ring width changes in a straight line with the factor they study, but if that factor changes enough, the response can level off or even reverse. Anyone who has kept a house plant knows you can give it too little water or too much.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "The divergence problem",
+    "text": "One puzzle is called the divergence problem. At many treeline sites in northern forests, thermometers show substantial warming, but the rings there show no matching change in maximum latewood density or, in some cases, width, so a trend drawn from those rings alone would show no substantial warming. The two temperature graphs part ways from the 1950s on, which gave the problem its name, though not every study finds it. This raises the question of whether similar mismatches happened before there were thermometers. Some evidence points to human activity as the cause, which would confine it to recent times, but using affected rings can make past temperatures look too high and so understate today's warming. Research on how to reconcile the two records continues.",
+    "cites": [
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Where trees cannot help",
+    "text": "Tree rings also have blind spots. They cannot be used to estimate polar or ocean climates. In very wet tropical regions, Australia and southern Africa, trees generally grow through the whole year and do not show clear yearly rings.",
+    "cites": [
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-dendroclimatology",
+   "kind": "book",
+   "title": "Historical Geology/Dendroclimatology",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Historical_Geology/Dendroclimatology",
+   "note": "An open textbook page on reading past climate from tree-ring widths, with the method's limits and checks.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "noaa-tree-ring-detective",
+   "kind": "article",
+   "title": "Be a Tree Ring Detective - Discover Your World",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/education/dyw-tree-detective.html",
+   "note": "A NOAA hands-on activity on how ring widths record past climate and how crossdating dates samples."
+  }
+ ]
+}

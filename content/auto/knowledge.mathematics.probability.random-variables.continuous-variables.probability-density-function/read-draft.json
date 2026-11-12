@@ -1,0 +1,67 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Probability spread along a line",
+   "text": "A probability density function, or PDF, describes an absolutely continuous random variable. Its value at a point gives a relative sense of how likely the variable is to come out at that point. Put simply, density is probability per unit length. Comparing the PDF at two points tells you how much more likely a draw is to land near one than near the other.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "heading": "Exact values have zero chance",
+   "text": "For a continuous random variable, the chance of hitting any one exact value is zero. So a PDF is used for ranges instead: the probability of landing in a range is the area under the curve between the two ends of that range. The curve never dips below zero, and the total area under it is one, which means the variable is certain to land somewhere among its possible values.",
+   "cites": [
+    3,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "heading": "A worked example with bacteria",
+   "text": "Picture a species of bacteria, and ask when one of them dies. The chance it dies at exactly 5 hours, measured with endless precision, is zero, but the chance it dies between 5 and 5.01 hours can be measured; suppose it is 0.02. Then the chance for the window from 5 to 5.001 hours, one-tenth as long, should be about 0.002. The ratio of chance to window length stays near 2 per hour, and that figure, 2 hour⁻¹, is the probability density for dying at around 5 hours.",
+   "cites": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    23
+   ]
+  },
+  {
+   "heading": "From density back to probability",
+   "text": "Multiplying the density by a tiny width of time gives the chance of dying inside that tiny window. Dying between 5 hours and 5 hours plus one nanosecond, for instance, has probability (2 hour⁻¹)×(1 nanosecond) ≈ 6×10⁻¹³. Integrating the density over any window, short or long, gives the chance the bacterium dies in that window.",
+   "cites": [
+    24,
+    25,
+    26,
+    28
+   ]
+  },
+  {
+   "heading": "Density can exceed one",
+   "text": "Unlike a probability, a density can be bigger than one. On the interval [0, 1/2], the continuous uniform distribution has f(x) = 2 for every x in that interval, and f(x) = 0 outside it. The standard normal distribution has density f(x) = 1/√2π e^(−x²/2).",
+   "cites": [
+    36,
+    37
+   ]
+  },
+  {
+   "heading": "Mass functions and other names",
+   "text": "For discrete random variables, which take values from a countable set, the matching idea is the probability mass function, or PMF; both the PMF and the PDF are basic tools in statistical inference. Names can be confusing, since probability distribution function and probability function are sometimes used for the PDF, though that usage is not standard among probabilists and statisticians. Not every distribution has a density: discrete ones do not, and neither does the Cantor distribution. A distribution has a density when its cumulative distribution function F(x) is absolutely continuous, and then the derivative of F serves as the density.",
+   "cites": [
+    8,
+    9,
+    12,
+    13,
+    38,
+    39,
+    40
+   ]
+  }
+ ]
+}

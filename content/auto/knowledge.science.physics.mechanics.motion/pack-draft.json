@@ -1,0 +1,123 @@
+{
+ "title": "Why Nothing Is Truly Still",
+ "question": "How does physics describe the movement of objects across different scales?",
+ "hook": "Even when you sit completely still, you are traveling through space at hundreds of kilometers per second.",
+ "idea": "Motion is a change in position over time relative to a reference frame, spanning from subatomic probabilities to expanding galactic space.",
+ "beats": [
+  {
+   "kind": "sort",
+   "prompt": "Sort each physical scenario into the realm of mechanics used to describe its motion.",
+   "groups": [
+    "Classical mechanics",
+    "Quantum mechanics"
+   ],
+   "items": [
+    [
+     "A planet moving in orbit around a star",
+     "Classical mechanics"
+    ],
+    [
+     "An electron exhibiting both wave and particle behaviors",
+     "Quantum mechanics"
+    ],
+    [
+     "A projectile launched across a field",
+     "Classical mechanics"
+    ],
+    [
+     "A subatomic particle whose exact position and speed cannot be known at the same time",
+     "Quantum mechanics"
+    ]
+   ],
+   "explain": "Classical mechanics handles macroscopic objects moving much slower than light, such as planets and projectiles. Quantum mechanics describes subatomic phenomena like wave-particle duality and position uncertainty.",
+   "cites": [
+    12,
+    28,
+    29,
+    31
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term in the study of motion to its correct description.",
+   "pairs": [
+    [
+     "Kinematics",
+     "Describing motion without considering what caused it"
+    ],
+    [
+     "Dynamics",
+     "Studying forces and how they alter motion"
+    ],
+    [
+     "Law of inertia",
+     "Maintaining rest or constant motion unless acted on by an external force"
+    ],
+    [
+     "Cosmic microwave background",
+     "A reference frame used to measure the Milky Way moving at about 582 km/s"
+    ]
+   ],
+   "explain": "Kinematics details how objects move, dynamics looks at the forces behind that movement, inertia explains why state changes require outside forces, and the cosmic microwave background serves as a reference frame for galactic movement.",
+   "cites": [
+    4,
+    14,
+    42
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this explanation of physical motion is incorrect. Which step fails?",
+   "steps": [
+    "Motion is defined as a change in an object's position over time relative to a reference frame.",
+    "Because there is no absolute reference frame, everything in the universe can be considered to be in motion.",
+    "Under classical rules, an object moving in deep space will naturally slow down and stop on its own without any outside force.",
+    "Therefore, an external force is required to alter an object's speed or direction."
+   ],
+   "wrong": 2,
+   "explain": "The law of inertia states that a moving object remains in motion unless an external force acts upon it; it does not slow down by itself.",
+   "cites": [
+    1,
+    6,
+    7,
+    14
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You sit completely motionless in a chair inside your living room. What is your motion status according to physics?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "You are in absolute rest because your house provides the one fixed baseline for the universe.",
+     "feedback": "Modern physics shows there is no absolute reference frame in the universe."
+    },
+    {
+     "id": "a2",
+     "label": "You are motionless relative to your room, but moving relative to frames like the cosmic microwave background.",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "You are traveling at the speed of light because all human bodies default to light speed on Earth.",
+     "feedback": "Classical mechanics describes macroscopic human bodies moving far slower than the speed of light."
+    },
+    {
+     "id": "d",
+     "label": "You are completely stationary across all reference frames because your limbs are not walking.",
+     "feedback": "Motion depends on the chosen frame of reference; relative to distant galaxies, you move as Earth travels through space."
+    }
+   ],
+   "answer": "a2",
+   "explain": "An object can be stationary relative to its immediate surroundings while simultaneously moving relative to other reference frames, such as nearby galaxies or the cosmic background radiation.",
+   "cites": [
+    1,
+    3,
+    5,
+    6,
+    40,
+    42
+   ]
+  }
+ ]
+}

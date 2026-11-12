@@ -1,0 +1,230 @@
+{
+ "summary": [
+  {
+   "text": "An elimination reaction is an organic reaction in which two substituents are removed from a molecule, in either a one-step or a two-step mechanism.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The most common mechanisms are the one-step E2 and the two-step E1.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "These reactions lose sigma-bonded groups to form a pi bond, such as losing hydrogen and halogen atoms from an alkane to form an alkene.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "E2 mechanism",
+   "value": "One step, bimolecular and second-order",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "label": "E1 mechanism",
+   "value": "Two steps, unimolecular and first-order",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "label": "E2 favors",
+   "value": "Primary alkyl halides and a strong base",
+   "cites": [
+    7,
+    12
+   ]
+  },
+  {
+   "label": "E1 favors",
+   "value": "Tertiary alkyl halides, with no base or a weak base",
+   "cites": [
+    20,
+    23
+   ]
+  },
+  {
+   "label": "E1 competitor",
+   "value": "S_N1, which shares its carbocation intermediate",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student says E1 has one step and E2 has two because the numbers count steps. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The numbers show how many bonds break"
+    },
+    {
+     "id": "b",
+     "label": "The numbers show molecularity of the kinetics, not the number of steps"
+    },
+    {
+     "id": "c",
+     "label": "The numbers show the number of leaving groups"
+    },
+    {
+     "id": "d",
+     "label": "Nothing is wrong; the numbers count steps"
+    }
+   ],
+   "answer": "b",
+   "explain": "The numbers in the symbols refer to the molecularity of the reaction kinetics: E2 is bimolecular and E1 is unimolecular.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A crowded, highly branched alkyl halide sits in acidic conditions at high temperature, with no strong base. Which elimination mechanism is likely?",
+   "options": [
+    {
+     "id": "a",
+     "label": "E1"
+    },
+    {
+     "id": "b",
+     "label": "E2"
+    },
+    {
+     "id": "c",
+     "label": "E1_CB"
+    },
+    {
+     "id": "d",
+     "label": "Eᵢ"
+    }
+   ],
+   "answer": "a",
+   "explain": "E1 typically takes place with tertiary alkyl halides, usually with no base or only a weak base at high temperature.",
+   "cites": [
+    20,
+    23,
+    29,
+    30
+   ]
+  },
+  {
+   "prompt": "A chemist treats a tertiary haloalkane with a strong alkoxide, hoping to make an ether. What mainly forms instead?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An ether by S_N2"
+    },
+    {
+     "id": "b",
+     "label": "A mixture from S_N1 and E1 pathways"
+    },
+    {
+     "id": "c",
+     "label": "No reaction at all"
+    },
+    {
+     "id": "d",
+     "label": "An alkene by E2 elimination"
+    }
+   ],
+   "answer": "d",
+   "explain": "With a strong base, a tertiary haloalkane gives elimination by E2, which is why the Williamson ether synthesis works essentially only with primary haloalkanes.",
+   "cites": [
+    36,
+    37,
+    38
+   ]
+  },
+  {
+   "prompt": "In an E2 reaction, why do the leaving groups prefer to sit on opposite sides in a staggered shape rather than in an eclipsed shape?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The eclipsed shape would need a carbocation first"
+    },
+    {
+     "id": "b",
+     "label": "The staggered shape holds the groups closer together"
+    },
+    {
+     "id": "c",
+     "label": "The staggered shape has lower energy than the eclipsed one"
+    },
+    {
+     "id": "d",
+     "label": "The eclipsed shape would lose the pi bond"
+    }
+   ],
+   "answer": "c",
+   "explain": "An antiperiplanar transition state has a staggered conformation with lower energy than the eclipsed synperiplanar one.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "Substitution and elimination share a carbocation intermediate, so both can happen. How can a chemist push the reaction toward elimination?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cool the mixture down"
+    },
+    {
+     "id": "b",
+     "label": "Increase the heat"
+    },
+    {
+     "id": "c",
+     "label": "Add more nucleophile"
+    },
+    {
+     "id": "d",
+     "label": "Switch to a fluoride leaving group"
+    }
+   ],
+   "answer": "b",
+   "explain": "When S_N1 and E1 compete, the E1 pathway can be favored by increasing the heat.",
+   "cites": [
+    24,
+    33
+   ]
+  },
+  {
+   "prompt": "Why does a bulky base such as potassium tert-butoxide tend to cause elimination instead of substitution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Steric bulk often makes it a poor nucleophile"
+    },
+    {
+     "id": "b",
+     "label": "Bulky bases are always weaker bases"
+    },
+    {
+     "id": "c",
+     "label": "Bulk makes it attach to carbon more easily"
+    },
+    {
+     "id": "d",
+     "label": "It cannot remove a hydrogen from the molecule"
+    }
+   ],
+   "answer": "a",
+   "explain": "E2 competes with S_N2 when a base can also act as a nucleophile, and bases with steric bulk are often poor nucleophiles.",
+   "cites": [
+    16,
+    35
+   ]
+  }
+ ]
+}

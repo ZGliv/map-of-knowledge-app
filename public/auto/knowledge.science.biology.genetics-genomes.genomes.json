@@ -1,0 +1,331 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.genetics-genomes.genomes",
+ "name": "Reading genomes",
+ "summary": [
+  {
+   "text": "DNA sequencing is the process of finding the order of the four bases in DNA: adenine, thymine, cytosine and guanine.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It can read single genes, larger regions, full chromosomes, or the entire genome of any organism.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "text": "Rapid sequencing has greatly sped up biological and medical research, for example by letting doctors compare healthy and mutated sequences to diagnose diseases.",
+   "cites": [
+    3,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What it reads",
+   "value": "The order of the four bases in DNA",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "First sequences",
+   "value": "Obtained in the early 1970s with laborious chromatography methods",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Speed-up",
+   "value": "Fluorescence-based methods made it orders of magnitude faster",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Oldest DNA read",
+   "value": "A mammoth over a million years old, reported in 2021",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Viral sequences",
+   "value": "More than 2.3 million unique ones are in GenBank",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A clinic wants to use sequencing to help diagnose a patient's cancer. What would it look at?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The patient's blood type under a microscope"
+    },
+    {
+     "id": "b",
+     "label": "How quickly the patient's cells divide in a dish"
+    },
+    {
+     "id": "c",
+     "label": "A comparison of healthy and mutated DNA sequences"
+    },
+    {
+     "id": "d",
+     "label": "The number of chromosomes in each cell"
+    }
+   ],
+   "answer": "c",
+   "explain": "Comparing healthy and mutated DNA sequences can diagnose different diseases, including various cancers, and can be used to guide treatment.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.genomes:q1"
+  },
+  {
+   "prompt": "Why is sequencing one of the main tools for identifying and studying a virus, instead of simply looking at it through a lab microscope?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Most viruses are too small to be seen by a light microscope"
+    },
+    {
+     "id": "b",
+     "label": "Viruses change shape when they are lit up"
+    },
+    {
+     "id": "c",
+     "label": "Microscopes can only be used on living animals"
+    },
+    {
+     "id": "d",
+     "label": "Viruses are always hidden inside the nucleus of a cell"
+    }
+   ],
+   "answer": "a",
+   "explain": "Most viruses are too small for a light microscope, so sequencing is a main tool in virology.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.genomes:q2"
+  },
+  {
+   "prompt": "A clinic receives two samples at once: one holds a virus with a DNA genome and the other a virus with an RNA genome. Which should be sequenced more urgently, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The DNA virus, since DNA breaks down faster than RNA"
+    },
+    {
+     "id": "b",
+     "label": "Neither; both samples keep forever when stored"
+    },
+    {
+     "id": "c",
+     "label": "Whichever has the bigger genome, no matter the type"
+    },
+    {
+     "id": "d",
+     "label": "The RNA virus, since it degrades faster in clinical samples"
+    }
+   ],
+   "answer": "d",
+   "explain": "RNA viruses are more time-sensitive for genome sequencing because they degrade faster in clinical samples.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.genomes:q3"
+  },
+  {
+   "prompt": "Sequencing the virus in a 1997 bird flu outbreak led Hong Kong to change what its markets could sell together. What had sequencing shown?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The flu came from contaminated market water supplies"
+    },
+    {
+     "id": "b",
+     "label": "The subtype arose by mixing between two kinds of birds"
+    },
+    {
+     "id": "c",
+     "label": "The virus was moving through the markets' shipping crates"
+    },
+    {
+     "id": "d",
+     "label": "The flu had been spread by wild songbirds only"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sequencing showed the influenza subtype originated through reassortment between quail and poultry, which led to a ban on selling live quail and poultry together.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.genomes:q4"
+  },
+  {
+   "prompt": "A doctor has diagnosed a bacterial infection. How can sequencing help avoid making bacteria resistant to drugs?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It identifies the specific bacteria, allowing a more precise antibiotic"
+    },
+    {
+     "id": "b",
+     "label": "It kills the bacteria directly with each reading"
+    },
+    {
+     "id": "c",
+     "label": "It lets doctors use the strongest antibiotic every time"
+    },
+    {
+     "id": "d",
+     "label": "It makes the patient's cells immune to infection"
+    }
+   ],
+   "answer": "a",
+   "explain": "Sequencing may determine the specific bacteria so antibiotics can be more precise, which reduces the risk of creating antimicrobial resistance.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.genomes:q5"
+  },
+  {
+   "prompt": "A scientist has a sample of water and wants a list of the kinds of life living in it, without separating each organism first. How can sequencing help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It sorts the organisms by size before counting them"
+    },
+    {
+     "id": "b",
+     "label": "It identifies which organisms are present in the sample"
+    },
+    {
+     "id": "c",
+     "label": "It grows each organism in its own dish"
+    },
+    {
+     "id": "d",
+     "label": "It can only read DNA from a single known species"
+    }
+   ],
+   "answer": "b",
+   "explain": "Metagenomics involves identifying the organisms present in a body of water and other samples, and sequencing lets researchers determine which types of microbes are present.",
+   "cites": [
+    16,
+    18
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.genomes:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/960px-Hybridogenesis_in_water_frogs_gametes.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Reading genomes",
+  "credit": "Original: Darekk2, SVG: Palosirkka",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hybridogenesis_in_water_frogs_gametes.svg"
+ },
+ "source": {
+  "title": "DNA sequencing",
+  "url": "https://en.wikipedia.org/wiki/DNA_sequencing",
+  "revision": 1382339297
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Reading the letters of DNA",
+    "text": "DNA is built from four bases: adenine, thymine, cytosine and guanine, written A, T, C and G. DNA sequencing means working out the order of those bases in a piece of DNA. The term covers any method or technology that does this job. Sequencing can read a single gene, a larger region such as a cluster of genes, a whole chromosome, or the entire genome of any organism.",
+    "cites": [
+     1,
+     2,
+     9,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "From slow to fast",
+    "text": "Researchers first read DNA sequences in the early 1970s, using painstaking methods based on two-dimensional chromatography. Later, sequencing machines that detect fluorescent signals made the work easier and many times faster. Rapid sequencing has greatly sped up research and discovery in biology and medicine. Today it is a key tool not just in biology but in medicine, forensics and anthropology.",
+    "cites": [
+     3,
+     7,
+     8,
+     11
+    ]
+   },
+   {
+    "heading": "Uses in medicine",
+    "text": "Comparing a healthy DNA sequence with a mutated one can help diagnose diseases, including various cancers, and guide treatment. Technicians may sequence a patient's genes to check for risk of genetic disease, which is one form of genetic testing. Gene sequencing panels look for several possible genetic causes of a suspected disorder. Sequencing can also pin down a particular bacterium, allowing more precise antibiotic treatment and lowering the risk of bacteria becoming resistant to them.",
+    "cites": [
+     5,
+     28,
+     29,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Tracking viruses",
+    "text": "Most viruses are too small to see with a light microscope, so sequencing is one of the main ways to identify and study them. In the 1997 bird flu outbreak, sequencing showed that the flu subtype arose from a mixing of viruses between quail and poultry. That finding led Hong Kong to ban selling live quail and poultry together at market. Sequences can also be used with a molecular clock technique to estimate when an outbreak began.",
+    "cites": [
+     19,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Life history and the environment",
+    "text": "Because DNA is passed from one generation to the next, its sequence holds clues to how different organisms are related and how they evolved. In February 2021, scientists reported sequencing DNA from mammoth remains more than a million years old, the oldest DNA sequenced so far. The field of metagenomics identifies the organisms in samples of water, sewage, dirt or debris filtered from air. Sequencing can show, for example, which kinds of microbes may live in a microbiome, and knowing this matters to ecology, epidemiology and microbiology.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "More than four letters",
+    "text": "Real DNA can hold extra bases beyond the standard four. In mammals, some bases carry added chemical groups, such as 5-methylcytosine, which is common in humans. Such bases come from changes made after the DNA has been copied. Depending on the method used, sequencing may or may not detect such a change.",
+    "cites": [
+     41,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-17-3",
+   "kind": "book",
+   "title": "17.3 Whole-Genome Sequencing",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing",
+   "note": "A free textbook section on Sanger and next-generation sequencing and how whole genomes are read.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-17-4",
+   "kind": "book",
+   "title": "17.4 Applying Genomics",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/17-4-applying-genomics",
+   "note": "A free textbook section on uses of sequencing: disease risk, drug response, metagenomics and forensics.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

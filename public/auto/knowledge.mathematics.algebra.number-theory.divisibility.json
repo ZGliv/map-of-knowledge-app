@@ -1,0 +1,559 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.divisibility",
+ "name": "Divisibility",
+ "summary": [
+  {
+   "text": "A divisibility rule is a shortcut for telling whether a whole number divides evenly by a fixed number without doing the division, usually by looking at its digits.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Each rule turns the number into a smaller one that keeps the same divisibility, so the trick can often be repeated until the answer is obvious.",
+   "cites": [
+    4,
+    6
+   ]
+  },
+  {
+   "text": "For example, a number is divisible by 3 exactly when its digits add up to something divisible by 3, and by 4 when its last two digits are.",
+   "cites": [
+    13,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Test for 2",
+   "value": "Check whether the last digit is divisible by 2",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Test for 5",
+   "value": "The last digit is 0 or 5",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "label": "Test for 3 or 9",
+   "value": "The digits add up to a multiple of 3 (or 9)",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Test for 6",
+   "value": "The number is both even and divisible by 3",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Popularized by",
+   "value": "Martin Gardner, in a September 1962 column",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You need to know whether a long number of raffle tickets splits evenly into 3 teams, without dividing. Which shortcut is reliable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add up its digits and see if that total divides by 3"
+    },
+    {
+     "id": "b",
+     "label": "Look only at the last digit and see if it divides by 3"
+    },
+    {
+     "id": "c",
+     "label": "Look at the last two digits and see if they divide by 3"
+    },
+    {
+     "id": "d",
+     "label": "Check whether the first digit divides by 3"
+    }
+   ],
+   "answer": "a",
+   "explain": "A number is divisible by 3 if and only if the sum of its digits is divisible by 3.",
+   "cites": [
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility:q1"
+  },
+  {
+   "prompt": "You have 475 stickers and want to pack them in bundles of 5 with none left over. What does the number's ending tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It works if the last digit is even"
+    },
+    {
+     "id": "b",
+     "label": "It works if the last digit is 0 or 5"
+    },
+    {
+     "id": "c",
+     "label": "It works if the digits add up to 5"
+    },
+    {
+     "id": "d",
+     "label": "It works if the last two digits divide by 4"
+    }
+   ],
+   "answer": "b",
+   "explain": "Divisibility by 5 is settled by the last digit alone: if it is 0 or 5, the whole number is divisible by 5.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility:q2"
+  },
+  {
+   "prompt": "When testing a big number for 4, why can you ignore everything except its last two digits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because every other digit is always even"
+    },
+    {
+     "id": "b",
+     "label": "Because 10 splits evenly by 4, so tens never matter"
+    },
+    {
+     "id": "c",
+     "label": "Because 100 splits evenly by 4, so higher places add multiples of 4"
+    },
+    {
+     "id": "d",
+     "label": "Because the last digit alone always decides every divisor"
+    }
+   ],
+   "answer": "c",
+   "explain": "Since 100 is divisible by 4, adding hundreds, thousands and so on only adds more numbers divisible by 4.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility:q3"
+  },
+  {
+   "prompt": "A number is even and its digits add up to 9. Can it be shared out evenly among 6 people?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, the digits would have to add up to a multiple of 6"
+    },
+    {
+     "id": "b",
+     "label": "Only if its last digit is exactly 6"
+    },
+    {
+     "id": "c",
+     "label": "No one can tell without carrying out the division"
+    },
+    {
+     "id": "d",
+     "label": "Yes, being a multiple of both 2 and 3 makes it a multiple of 6"
+    }
+   ],
+   "answer": "d",
+   "explain": "Even means divisible by 2, and a digit sum of 9 means divisible by 3. Any number divisible by both is divisible by 6.",
+   "cites": [
+    13,
+    32,
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility:q4"
+  },
+  {
+   "prompt": "Add the digits of 5,678 (5+6+7+8 = 26), then add the digits of that result (2+6 = 8). What does the final 8 reveal?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dividing 5,678 by nine leaves a remainder of 8"
+    },
+    {
+     "id": "b",
+     "label": "5,678 divides evenly by nine"
+    },
+    {
+     "id": "c",
+     "label": "5,678 divides evenly by 8"
+    },
+    {
+     "id": "d",
+     "label": "Dividing 5,678 by ten leaves a remainder of 8"
+    }
+   ],
+   "answer": "a",
+   "explain": "Repeating the digit sum until one digit remains gives the remainder when dividing by nine, unless the digit is nine itself.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility:q5"
+  },
+  {
+   "prompt": "To test 371 for 7, you compute 37 − (2×1) = 37 − 2 = 35. What do you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is not divisible, because 35 is smaller than 371"
+    },
+    {
+     "id": "b",
+     "label": "It is divisible, because 35 is divisible by 7"
+    },
+    {
+     "id": "c",
+     "label": "You must now test whether 371 divides 35"
+    },
+    {
+     "id": "d",
+     "label": "The result only says something about the last digit"
+    }
+   ],
+   "answer": "b",
+   "explain": "The original number is divisible by 7 exactly when the number produced by this procedure is. 35 is divisible by 7, so 371 is too.",
+   "cites": [
+    40,
+    41,
+    43,
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility:q6"
+  }
+ ],
+ "source": {
+  "title": "Divisibility rule",
+  "url": "https://en.wikipedia.org/wiki/Divisibility_rule",
+  "revision": 1382123437
+ },
+ "pack": {
+  "id": "auto-number-theory-divisibility",
+  "title": "Is it divisible? Just look",
+  "question": "How can you tell whether a number divides evenly without dividing it?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Number theory",
+   "Divisibility"
+  ],
+  "hue": 54,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cuisenaire_ten.JPG/960px-Cuisenaire_ten.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Divisor",
+    "credit": "Annielogue · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuisenaire_ten.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Is it divisible? Just look",
+    "hook": "Some numbers give up their secrets from a single glance at their digits."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-divisibility:1",
+    "transfer": false,
+    "prompt": "You want to know if 376 is divisible by 2, but you may look at only one digit. Which digit settles it?",
+    "explain": "For 2, take the last digit and ignore the rest. 6 is divisible by 2, so 376 is too.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "The last digit, 6",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "The middle digit, 7, which is odd, so it fails",
+        "feedback": "It tempts because odd digits feel important, but the middle digit is thrown away in this test."
+       },
+       {
+        "id": "c",
+        "label": "The first digit, 3, which is odd, so it fails",
+        "feedback": "It tempts because we read numbers from the left, but only the last digit matters for 2."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-number-theory-divisibility:2",
+    "transfer": false,
+    "prompt": "Match each divisor to its quick test.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "2"
+     },
+     {
+      "id": "l1",
+      "label": "3"
+     },
+     {
+      "id": "l2",
+      "label": "4"
+     },
+     {
+      "id": "l3",
+      "label": "5"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "The last two digits form a number divisible by 4"
+     },
+     {
+      "id": "r3",
+      "label": "The last digit is 0 or 5"
+     },
+     {
+      "id": "r1",
+      "label": "The digits add up to a multiple of 3"
+     },
+     {
+      "id": "r0",
+      "label": "The last digit is divisible by 2"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each divisor has its own shortcut, and each one turns the question into a smaller one."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-number-theory-divisibility:3",
+    "transfer": true,
+    "prompt": "Put the steps of the test for 7 on 371 in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Split 371 into 37 and the last digit 1"
+     },
+     {
+      "id": "b",
+      "label": "Subtract twice the last digit: 37 minus 2 gives 35"
+     },
+     {
+      "id": "c",
+      "label": "Repeat on 35: 3 minus twice 5 gives minus 7"
+     },
+     {
+      "id": "d",
+      "label": "Minus 7 is divisible by 7, so 371 is too"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Start",
+     "Verdict"
+    ],
+    "explain": "Each round shrinks the number until one is reached whose divisibility by 7 is known."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-number-theory-divisibility:4",
+    "transfer": true,
+    "prompt": "Someone tests 52 for divisibility by 6. One step is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "The last digit 2 is even, so 52 is divisible by 2."
+     },
+     {
+      "id": "b",
+      "text": "Next check the digits: 5 + 2 = 7."
+     },
+     {
+      "id": "c",
+      "text": "7 is not a multiple of 3, so 52 is not divisible by 3."
+     },
+     {
+      "id": "d",
+      "text": "So 52 is still divisible by 6, because it is even."
+     }
+    ],
+    "answer": "d",
+    "explain": "A number is divisible by 6 only if it is divisible by both 2 and 3. Failing the test for 3 rules 6 out."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Divisibility rules turn a big number into a smaller one that keeps the same answer, so you can often decide by looking at a few digits.",
+    "connections": [
+     {
+      "title": "Divisor",
+      "place": "Divisibility",
+      "node": "knowledge.mathematics.algebra.number-theory.divisibility.divisor"
+     },
+     {
+      "title": "Euclidean algorithm",
+      "place": "Divisibility",
+      "node": "knowledge.mathematics.algebra.number-theory.divisibility.euclidean-algorithm"
+     },
+     {
+      "title": "Bézout's identity",
+      "place": "Divisibility",
+      "node": "knowledge.mathematics.algebra.number-theory.divisibility.b-zout-s-identity"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "For 2, take the last digit and ignore the rest. 6 is divisible by 2, so 376 is too.",
+    "source": "Wikipedia sentences 8, 9, 10"
+   },
+   {
+    "claim": "Each divisor has its own shortcut, and each one turns the question into a smaller one.",
+    "source": "Wikipedia sentences 9, 13, 16, 25"
+   },
+   {
+    "claim": "Each round shrinks the number until one is reached whose divisibility by 7 is known.",
+    "source": "Wikipedia sentences 40, 41, 42, 44"
+   },
+   {
+    "claim": "A number is divisible by 6 only if it is divisible by both 2 and 3. Failing the test for 3 rules 6 out.",
+    "source": "Wikipedia sentences 32, 34, 35"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a divisibility rule is",
+    "text": "A divisibility rule is a shortcut for telling whether a whole number divides evenly by some fixed number without doing the division. Most rules work by looking at the number's digits. Every base, or radix, has its own different tests; the ones here are for ordinary base-10 numbers. Martin Gardner explained and spread these rules in his \"Mathematical Games\" column in Scientific American in September 1962.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "How the rules work",
+    "text": "Each rule swaps your number for one that is usually smaller but keeps the same divisibility. Unless a rule says otherwise, you then test the new number against the same divisor. Sometimes you can repeat the step until the answer is plain. For other rules, such as those that look at the last few digits, the result has to be checked some other way.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Looking at the end: 2, 4 and 5",
+    "text": "Some divisors only need the end of the number. For 2, keep just the last digit: if it divides by 2, the whole number does, so 376 passes because 6 does. For 5, the last digit must be 0 or 5. For 4, check the number formed by the last two digits. This works because 100 is divisible by 4, so the hundreds, thousands and beyond only add more multiples of 4.",
+    "cites": [
+     8,
+     9,
+     10,
+     16,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Adding digits: 3 and 9",
+    "text": "For 3 and 9 you add up the digits instead. A number is divisible by 3 exactly when its digit sum is, and the same goes for 9. For 492, the digits add to 4 + 9 + 2 = 15, and you then ask whether 15 divides by 3. If you keep adding digits until one digit is left, that digit is the remainder after dividing by nine, unless it is 9 itself, which means the number divides by nine with nothing left over.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Combining tests: 6",
+    "text": "Some rules are built from others. Any number that is a multiple of both 2 and 3 is a multiple of 6, so you run both tests. Take 324: its last digit, 4, is even, so it divides by 2. Its digits add to 3 + 2 + 4 = 9, a multiple of 3, so 324 is divisible by 6.",
+    "cites": [
+     32,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "A repeating test: 7",
+    "text": "Seven needs a test you repeat. Take off the last digit, double it, and subtract it from the number made by the digits that remain. Keep going until you reach a number whose divisibility by 7 you already know; the original number passes exactly when that one does. For 371, 37 − 2 = 35, then 3 − 10 = −7, and since −7 is divisible by 7, so is 371.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mathworld-divisibility-tests",
+   "kind": "article",
+   "title": "Divisibility Tests",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/DivisibilityTests.html",
+   "note": "A reference list of digit tests for divisors from 2 to 13, including more than one test for 7."
+  },
+  {
+   "id": "raji-1-3",
+   "kind": "book",
+   "title": "1.3: Divisibility and the Division Algorithm",
+   "by": "Wissam Raji, American University of Beirut (LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Raji)/01%3A_Introduction/1.03%3A_Divisibility_and_the_Division_Algorithm",
+   "note": "A free textbook section defining what it means for one integer to divide another, with the basic rules and proofs.",
+   "license": "CC BY"
+  },
+  {
+   "id": "barrus-clark-1-18",
+   "kind": "book",
+   "title": "1.18: Divisibility Tests for 2, 3, 5, 9, 11 - Elementary Number Theory (Barrus and Clark)",
+   "by": "Mike Barrus & W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Barrus_and_Clark)/01%3A_Chapters/1.18%3A_Divisibility_Tests_for_2_3_5_9_11",
+   "note": "A free textbook section proving the digit tests for divisibility by 2, 3, 5, 9 and 11.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "numberphile-divisibility",
+   "kind": "video",
+   "title": "Divisibility Tricks",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=yi-s-TTpLxY",
+   "note": "Tony Padilla shows quick tricks for telling whether a number divides evenly, in a Numberphile video."
+  }
+ ]
+}

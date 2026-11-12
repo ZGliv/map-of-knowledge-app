@@ -1,0 +1,214 @@
+{
+ "summary": [
+  {
+   "text": "Naive Bayes classifiers are a family of probabilistic classifiers that assume the features are conditionally independent, given the target class.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The assumption is highly unrealistic, which is where the name comes from, yet these classifiers have worked quite well in many complex real-world situations.",
+   "cites": [
+    3,
+    14
+   ]
+  },
+  {
+   "text": "They are highly scalable and need only a small amount of training data to estimate their parameters.",
+   "cites": [
+    6,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core assumption",
+   "value": "Each feature is independent of the others, given the class",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Training method",
+   "value": "Counting observations in each group",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Known weakness",
+   "value": "Often produces wildly overconfident probabilities",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Common use",
+   "value": "Document classification, including spam filtering",
+   "cites": [
+    25
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A fruit is red, round and about 10 cm across. How does a naive Bayes classifier treat these three clues when deciding if it is an apple?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lets each clue contribute on its own"
+    },
+    {
+     "id": "b",
+     "label": "It looks only at the colour"
+    },
+    {
+     "id": "c",
+     "label": "It checks how the clues are correlated"
+    },
+    {
+     "id": "d",
+     "label": "It averages the clues into one number"
+    }
+   ],
+   "answer": "a",
+   "explain": "It considers each feature to contribute independently to the probability that the fruit is an apple, regardless of any correlations between them.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "prompt": "What gives the naive Bayes classifier its name?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its inventor was a beginner"
+    },
+    {
+     "id": "b",
+     "label": "Its results are always poor"
+    },
+    {
+     "id": "c",
+     "label": "It needs no training data whatsoever"
+    },
+    {
+     "id": "d",
+     "label": "Its independence assumption is highly unrealistic"
+    }
+   ],
+   "answer": "d",
+   "explain": "The highly unrealistic assumption that features are independent, called the naive independence assumption, gives the classifier its name.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "You have only a small amount of labelled training data. Why might naive Bayes still be a sensible option?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It cannot make mistakes with little data"
+    },
+    {
+     "id": "b",
+     "label": "It needs only a small amount to estimate its parameters"
+    },
+    {
+     "id": "c",
+     "label": "It makes up extra data to fill the gap"
+    },
+    {
+     "id": "d",
+     "label": "It always beats every other classifier"
+    }
+   ],
+   "answer": "b",
+   "explain": "An advantage of naive Bayes is that it only requires a small amount of training data to estimate the parameters needed for classification.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "A naive Bayes model announces it is 99.9% sure about many answers, yet it is often wrong. Which known weakness fits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It cannot handle more than two classes"
+    },
+    {
+     "id": "b",
+     "label": "It always refuses to give a probability"
+    },
+    {
+     "id": "c",
+     "label": "It often gives wildly overconfident probabilities"
+    },
+    {
+     "id": "d",
+     "label": "It ignores the class labels"
+    }
+   ],
+   "answer": "c",
+   "explain": "Naive Bayes models often produce wildly overconfident probabilities, so they are generally worse than more advanced models at quantifying uncertainty.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "A statistician fits a naive Bayes model using maximum likelihood and no Bayesian methods at all. Is that allowed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, it can be fit with frequentist methods too"
+    },
+    {
+     "id": "b",
+     "label": "No, it must be fit with Bayesian methods"
+    },
+    {
+     "id": "c",
+     "label": "No, maximum likelihood cannot be used here"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only for continuous data"
+    }
+   ],
+   "answer": "a",
+   "explain": "Despite using Bayes' theorem in its decision rule, naive Bayes is not necessarily a Bayesian method, and it can be fit with either Bayesian or frequentist methods.",
+   "cites": [
+    8,
+    13
+   ]
+  },
+  {
+   "prompt": "How is maximum-likelihood training of a naive Bayes model typically done?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By repeating a long, costly iterative approximation"
+    },
+    {
+     "id": "b",
+     "label": "By counting observations in each group with a closed-form expression"
+    },
+    {
+     "id": "c",
+     "label": "By asking an expert to set each parameter by hand"
+    },
+    {
+     "id": "d",
+     "label": "By trying every possible class for every feature"
+    }
+   ],
+   "answer": "b",
+   "explain": "It can be done by evaluating a closed-form expression, simply by counting observations in each group, rather than the expensive iterative approximation algorithms most other models need.",
+   "cites": [
+    7
+   ]
+  }
+ ]
+}

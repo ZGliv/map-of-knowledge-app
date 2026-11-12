@@ -1,0 +1,553 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vector-spaces",
+ "name": "Vector spaces",
+ "summary": [
+  {
+   "text": "A vector space is a set of vectors that can be added together and scaled by numbers, following rules called axioms.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A basis is a group of independent vectors that spans the space, and the number of vectors in any basis is the dimension.",
+   "cites": [
+    42,
+    44
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Scalars",
+   "value": "Real numbers, complex numbers, or elements of any field",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Axioms",
+   "value": "Addition and scaling must satisfy eight rules",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Dimension",
+   "value": "The number of vectors in any basis",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "label": "Polynomial rings",
+   "value": "Countably infinite-dimensional vector spaces",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Subspace",
+   "value": "A non-empty subset closed under addition and scaling",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A collection of arrows in the plane has a flaw: adding two of them sometimes gives an arrow outside the collection. Can it be a linear subspace?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, as long as scaling works"
+    },
+    {
+     "id": "b",
+     "label": "No, a subspace must contain every sum of its members"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as it has at least one arrow"
+    },
+    {
+     "id": "d",
+     "label": "No, a subspace may never contain nonzero arrows"
+    }
+   ],
+   "answer": "b",
+   "explain": "A subspace is closed under vector addition and scalar multiplication, so sums and scaled versions of its members must stay inside.",
+   "cites": [
+    35
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces:q1"
+  },
+  {
+   "prompt": "Three arrows are such that the third is exactly the first plus the second. Are the three arrows linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because all three are different"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because each one has a direction"
+    },
+    {
+     "id": "c",
+     "label": "No, one is a combination of the others"
+    },
+    {
+     "id": "d",
+     "label": "No, because there are exactly three"
+    }
+   ],
+   "answer": "c",
+   "explain": "Vectors are independent only if none can be written as a linear combination of the others.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces:q2"
+  },
+  {
+   "prompt": "Two people pick different sets of basic building-block vectors (bases) for the same finite vector space. What must be true of the two sets?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They contain the same number of vectors"
+    },
+    {
+     "id": "b",
+     "label": "They share at least one vector"
+    },
+    {
+     "id": "c",
+     "label": "One is always larger than the other"
+    },
+    {
+     "id": "d",
+     "label": "They must differ by exactly one vector"
+    }
+   ],
+   "answer": "a",
+   "explain": "All bases of a vector space have the same cardinality, and that number is the dimension.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces:q3"
+  },
+  {
+   "prompt": "Take all polynomials, add them and scale them by numbers. How large is this vector space in dimension?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two, since only constants and x matter"
+    },
+    {
+     "id": "b",
+     "label": "Finite, but larger than any chosen number"
+    },
+    {
+     "id": "c",
+     "label": "Zero, since polynomials are not arrows"
+    },
+    {
+     "id": "d",
+     "label": "Infinite"
+    }
+   ],
+   "answer": "d",
+   "explain": "Polynomial rings are countably infinite-dimensional vector spaces.",
+   "cites": [
+    11,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces:q4"
+  },
+  {
+   "prompt": "You list every vector you can build by scaling and adding vectors from a chosen group G. What have you built?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The span of G, the smallest subspace holding G"
+    },
+    {
+     "id": "b",
+     "label": "A basis of the whole space that G lives in"
+    },
+    {
+     "id": "c",
+     "label": "The scalars that every vector of G uses"
+    },
+    {
+     "id": "d",
+     "label": "The dimension number belonging to the group G"
+    }
+   ],
+   "answer": "a",
+   "explain": "The span of G is the set of all linear combinations of G, and it is the smallest subspace containing G.",
+   "cites": [
+    39,
+    40
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces:q5"
+  },
+  {
+   "prompt": "Which measurement is best modeled by a Euclidean vector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The temperature in a room"
+    },
+    {
+     "id": "b",
+     "label": "The number of seats in a room"
+    },
+    {
+     "id": "c",
+     "label": "The age of a person in a room"
+    },
+    {
+     "id": "d",
+     "label": "The velocity of a ball rolling across a room"
+    }
+   ],
+   "answer": "d",
+   "explain": "Euclidean vectors model quantities such as forces and velocity that have a direction as well as a magnitude.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vector_add_scale.svg/960px-Vector_add_scale.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Vector spaces",
+  "credit": "IkamusumeFan",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vector_add_scale.svg"
+ },
+ "source": {
+  "title": "Vector space",
+  "url": "https://en.wikipedia.org/wiki/Vector_space",
+  "revision": 1383854859
+ },
+ "pack": {
+  "id": "auto-linear-algebra-vector-spaces",
+  "title": "When anything can be an arrow",
+  "question": "What does a collection of things need before it counts as a vector space?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Linear algebra",
+   "Vector spaces"
+  ],
+  "hue": 51,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vector_add_scale.svg/960px-Vector_add_scale.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Vector spaces",
+    "credit": "IkamusumeFan · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vector_add_scale.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When anything can be an arrow",
+    "hook": "Arrows, polynomials and functions can all play by the same rules."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-linear-algebra-vector-spaces:1",
+    "transfer": false,
+    "prompt": "A guide says: go 3 miles north. Then: go 4 miles east. Then adds: take one move of 3 miles north plus 4 miles east together. On a flat map, what does the third instruction do?",
+    "explain": "The third move is a linear combination of the other two, so no element is needed beyond them: the set is not linearly independent.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "It adds nothing new, being a combination of the first two"
+       },
+       {
+        "id": "a",
+        "label": "It gives new information the first two lack",
+        "feedback": "It sounds like extra detail, but the first two already fix the spot."
+       },
+       {
+        "id": "c",
+        "label": "It contradicts the first two",
+        "feedback": "It is true; it is simply not necessary to find the location."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-linear-algebra-vector-spaces:2",
+    "transfer": false,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Linear combination"
+     },
+     {
+      "id": "l1",
+      "label": "Span"
+     },
+     {
+      "id": "l2",
+      "label": "Basis"
+     },
+     {
+      "id": "l3",
+      "label": "Dimension"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "The smallest subspace containing a group of vectors"
+     },
+     {
+      "id": "r0",
+      "label": "A vector built by scaling and adding chosen vectors"
+     },
+     {
+      "id": "r3",
+      "label": "The number of vectors in any basis"
+     },
+     {
+      "id": "r2",
+      "label": "Independent vectors that span the whole space"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each idea builds on the last: combinations make spans, spans plus independence make bases, and bases give dimension."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-linear-algebra-vector-spaces:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A basis is a group of independent vectors that spans the space."
+     },
+     {
+      "id": "b",
+      "text": "Anna finds a basis for a space, and it has 3 vectors."
+     },
+     {
+      "id": "c",
+      "text": "Ben picks a different basis for the same space."
+     },
+     {
+      "id": "d",
+      "text": "So Ben's basis can have a different number of vectors than Anna's."
+     }
+    ],
+    "answer": "d",
+    "explain": "All bases of a vector space have the same number of vectors, and that number is the dimension."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-linear-algebra-vector-spaces:4",
+    "transfer": true,
+    "prompt": "Two vector spaces over the same field have the same dimension. What do they share?",
+    "explain": "Same field and same dimension means the spaces are isomorphic, so structural properties match.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Exactly the same set of elements",
+        "feedback": "Their elements can be entirely different kinds of objects."
+       },
+       {
+        "id": "c",
+        "label": "Nothing, since dimension is only a count",
+        "feedback": "The count turns out to settle all structural properties."
+       },
+       {
+        "id": "a",
+        "label": "Every property that depends only on the vector-space structure"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "A vector space is anything you can add and scale by the rules, and its dimension counts the vectors in any basis.",
+    "connections": [
+     {
+      "title": "Linear independence",
+      "place": "Vector spaces",
+      "node": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-independence"
+     },
+     {
+      "title": "Basis (linear algebra)",
+      "place": "Vector spaces",
+      "node": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra"
+     },
+     {
+      "title": "Dimension (vector space)",
+      "place": "Vector spaces",
+      "node": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.dimension-vector-space"
+     },
+     {
+      "title": "Linear map",
+      "place": "Vector spaces",
+      "node": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.linear-map"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The third move is a linear combination of the other two, so no element is needed beyond them: the set is not linearly independent.",
+    "source": "Wikipedia sentences 30, 32"
+   },
+   {
+    "claim": "Each idea builds on the last: combinations make spans, spans plus independence make bases, and bases give dimension.",
+    "source": "Wikipedia sentences 30, 39, 42, 44"
+   },
+   {
+    "claim": "All bases of a vector space have the same number of vectors, and that number is the dimension.",
+    "source": "Wikipedia sentences 42, 44"
+   },
+   {
+    "claim": "Same field and same dimension means the spaces are isomorphic, so structural properties match.",
+    "source": "Wikipedia sentences 9"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A vector space is a set whose members, called vectors, can be added to one another and scaled by multiplying them with numbers. Those numbers are called scalars. Adding and scaling must obey a list of rules known as the vector axioms, and the formal definition lists eight of them. Every sum of two vectors, and every scaled vector, is again a vector in the same space.",
+    "cites": [
+     1,
+     2,
+     19,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Choosing the scalars",
+    "text": "The kind of scalars you allow decides the kind of vector space you get. With real numbers as scalars it is a real vector space, and with complex numbers it is a complex vector space. These two are the most common. More generally, the scalars can come from any field F, and the result is called a vector space over F.",
+    "cites": [
+     3,
+     4,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Vector spaces generalize Euclidean vectors, which are used to model physical quantities such as force and velocity that have a direction as well as a size. Together with matrices, which let you compute inside vector spaces, they are the foundation of linear algebra. That pairing gives a compact way to handle and study systems of linear equations.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Combinations and independence",
+    "text": "A linear combination is what you get by scaling several vectors and adding the results, as in a₁𝐠₁ + a₂𝐠₂ + ⋯ + aₖ𝐠ₖ. The scaling numbers are called its coefficients. A group of vectors is linearly independent when none of them can be written as a linear combination of the others. Put another way, the only combination of them that gives the zero vector is the one where every coefficient is zero.",
+    "cites": [
+     30,
+     31,
+     32,
+     34
+    ]
+   },
+   {
+    "heading": "Subspaces and span",
+    "text": "A subspace is a non-empty part of a vector space that is closed: adding two of its vectors, or scaling one, never leads outside it. The span of a set of vectors is the smallest subspace that contains them all. It is also the set of every linear combination of those vectors. If the span of a set is a space W, the set is said to generate W.",
+    "cites": [
+     35,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Basis and dimension",
+    "text": "A basis is a set of vectors that is linearly independent and also spans the whole space. Every vector space has at least one basis, and usually many. All the bases of one space have the same size, and that size is called the dimension. Roughly, the dimension counts the independent directions in the space. A space is finite-dimensional when its dimension is a natural number, and infinite-dimensional otherwise.",
+    "cites": [
+     8,
+     10,
+     11,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "What dimension tells you",
+    "text": "Two vector spaces over the same field with the same dimension are isomorphic: every property that depends only on their vector-space structure is exactly the same. Finite-dimensional spaces turn up naturally in geometry. Infinite-dimensional ones appear in many parts of mathematics. Polynomial rings, for example, are vector spaces whose dimension is countably infinite.",
+    "cites": [
+     9,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-definition",
+   "kind": "book",
+   "title": "Linear Algebra/Definition of Vector Space",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Definition_of_Vector_Space",
+   "note": "A free textbook section giving the axioms that define a vector space.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "3b1b-abstract-vector-spaces",
+   "kind": "video",
+   "title": "Abstract vector spaces",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=TgKwz5Ikpc8",
+   "note": "An animated look at what counts as a vector, from arrows to functions, and why the axioms matter."
+  },
+  {
+   "id": "judson-vector-spaces",
+   "kind": "book",
+   "title": "20: Vector Spaces - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/20%3A_Vector_Spaces",
+   "note": "A textbook chapter on vector spaces, subspaces, linear independence, bases and dimension.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

@@ -1,0 +1,336 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure",
+ "name": "Atmospheric pressure",
+ "summary": [
+  {
+   "text": "Atmospheric pressure, also called air pressure or barometric pressure, is the pressure within Earth's atmosphere.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It comes mostly from the weight of the air above a given spot, so it falls as you go higher and less air lies overhead.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Weather reports usually give it adjusted to mean sea level, where it averages 1,013.25 hPa, about one standard atmosphere.",
+   "cites": [
+    3,
+    12,
+    13,
+    15
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Average sea-level pressure",
+   "value": "1,013.25 hPa, or 760.00 mmHg",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Average surface pressure",
+   "value": "985 hPa",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Highest sea-level pressures",
+   "value": "Siberian High, with records close to 1,085 hPa",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Record low",
+   "value": "870 hPa, at tropical cyclone and tornado centres",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Air over 1 cm²",
+   "value": "About 1.03 kg, from sea level up",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You drive from a beach up to a high mountain pass. What happens to the air pressure around you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rises, since you are nearer the sky"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same everywhere on Earth"
+    },
+    {
+     "id": "c",
+     "label": "It falls, since less air sits above you"
+    },
+    {
+     "id": "d",
+     "label": "It rises, as the air up high is colder"
+    }
+   ],
+   "answer": "c",
+   "explain": "With more elevation there is less air overhead, so pressure on mountains is usually lower than at sea level.",
+   "cites": [
+    5,
+    32
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure:q1"
+  },
+  {
+   "prompt": "What mainly produces the air pressure you feel at ground level?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The weight of the air overhead"
+    },
+    {
+     "id": "b",
+     "label": "Wind pushing against surfaces"
+    },
+    {
+     "id": "c",
+     "label": "Heat from the Sun on the ground"
+    },
+    {
+     "id": "d",
+     "label": "Earth's spin flinging air outward"
+    }
+   ],
+   "answer": "a",
+   "explain": "Air pressure is closely approximated by the weight of the air above the measuring point, which gravity pulls toward the planet.",
+   "cites": [
+    4,
+    10
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure:q2"
+  },
+  {
+   "prompt": "Where on Earth are the lowest sea-level air pressures found?",
+   "options": [
+    {
+     "id": "a",
+     "label": "On the summits of the tallest peaks"
+    },
+    {
+     "id": "b",
+     "label": "Over the middle of hot deserts"
+    },
+    {
+     "id": "c",
+     "label": "Above the North and South Poles"
+    },
+    {
+     "id": "d",
+     "label": "In the centres of tropical cyclones"
+    }
+   ],
+   "answer": "d",
+   "explain": "The lowest measurable sea-level pressures occur at the centres of tropical cyclones and tornadoes, with a record low of 870 hPa.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure:q3"
+  },
+  {
+   "prompt": "A town high in the mountains has lower air pressure than the coast, yet its weather report gives a pressure much like coastal towns. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its instruments are thrown off by altitude"
+    },
+    {
+     "id": "b",
+     "label": "Reports adjust readings to sea level"
+    },
+    {
+     "id": "c",
+     "label": "Mountain air is denser, so it evens out"
+    },
+    {
+     "id": "d",
+     "label": "Pressure doesn't really change with height"
+    }
+   ],
+   "answer": "b",
+   "explain": "Weather reports normally give mean sea-level pressure, which extrapolates the reading to sea level for places above or below it.",
+   "cites": [
+    12,
+    13,
+    28
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure:q4"
+  },
+  {
+   "prompt": "Picture a 1 cm² column of air rising from sea level to the top of the atmosphere. Roughly what mass of air does it hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 1 gram"
+    },
+    {
+     "id": "b",
+     "label": "About 100 grams"
+    },
+    {
+     "id": "c",
+     "label": "About 1 kilogram"
+    },
+    {
+     "id": "d",
+     "label": "About 100 kilograms"
+    }
+   ],
+   "answer": "c",
+   "explain": "On average such a column holds about 1.03 kg of air, pressing down with about 10.1 newtons.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure:q5"
+  },
+  {
+   "prompt": "A US weather code sends only the last three digits of a pressure, so 998.7 hPa becomes 987. What problem can this create?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1080.0 and 980.0 hPa get the same code"
+    },
+    {
+     "id": "b",
+     "label": "Low pressures can't be sent at all"
+    },
+    {
+     "id": "c",
+     "label": "Readings above 1,000 hPa are rejected"
+    },
+    {
+     "id": "d",
+     "label": "Only Canadian stations can decode it"
+    }
+   ],
+   "answer": "a",
+   "explain": "Dropping the leading digits means 1080.0 hPa and 980.0 hPa are both sent as 800.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.earth.climate.atmosphere.air-and-pressure.atmospheric-pressure:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/ERA5_global_mean_sea_level_pressure.png/960px-ERA5_global_mean_sea_level_pressure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Atmospheric pressure",
+  "credit": "S. Berghald",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:ERA5_global_mean_sea_level_pressure.png"
+ },
+ "source": {
+  "title": "Atmospheric pressure",
+  "url": "https://en.wikipedia.org/wiki/Atmospheric_pressure",
+  "revision": 1378470837
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "The weight of the air",
+    "text": "Atmospheric pressure, also called air pressure or barometric pressure, is the pressure within Earth's atmosphere. Pressure means force spread over an area, and its SI unit is the pascal, which is one newton per square metre. In most cases, air pressure nearly equals the pressure made by the weight of all the air above the point where you measure. That weight comes from the planet's gravity pulling on the gases above the surface.",
+    "cites": [
+     1,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "heading": "A column of air",
+    "text": "Picture a column of air one square centimetre across, reaching from sea level to the top of the atmosphere. On average it has a mass of about 1.03 kg and presses down with about 10.1 newtons, which works out to roughly 101 kilopascals. In imperial units, a column one square inch across weighs about 14.7 lbf, giving 14.7 lbf/in². The link is P = F/A = (m*g)/A, so pressure follows the weight of air resting on each unit of area.",
+    "cites": [
+     8,
+     9,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Units and sea level",
+    "text": "The standard atmosphere, written atm, is a unit defined as 101.325 kPa, the same as 1,013.25 hPa, 760 torr or about 14.696 psi. It roughly matches the average pressure at sea level on Earth. Weather reports normally give mean sea-level pressure, where readings from places above or below sea level are adjusted to sea level. That average is 1,013.25 hPa. Surface pressure, the pressure actually found on land and ocean surfaces, averages 985 hPa.",
+    "cites": [
+     2,
+     3,
+     12,
+     13,
+     15,
+     24,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Thinner air up high",
+    "text": "Climb higher and less air sits above you, so pressure falls. That is why air pressure on mountains is usually lower than at sea level. Because the atmosphere is thin compared with Earth's radius, gravity can be treated as constant through it and adds little to this drop. Temperature and humidity also affect pressure, and both are needed to work out an accurate figure.",
+    "cites": [
+     5,
+     6,
+     32,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Highs and lows",
+    "text": "Air pressure varies widely across Earth, and those differences matter for studying weather and climate. The highest sea-level pressures occur in Siberia, where the Siberian High often tops 1,050 hPa and records come close to 1,085 hPa. The highest sea-level-adjusted reading taken above 750 m was 1,084.8 hPa, at Tosontsengel, Mongolia, on 19 December 2001. At the other extreme, the centres of tropical cyclones and tornadoes hold the lowest, with a record of 870 hPa.",
+    "cites": [
+     22,
+     23,
+     40,
+     45
+    ]
+   },
+   {
+    "heading": "Tides in the air",
+    "text": "Some pressure changes are very regular, and atmospheric tides are an important source of them. These tides are strongest in the tropics, where they swing by a few hectopascals, and nearly vanish in polar areas. In the tropics they are mainly two cycles laid on top of each other, one lasting 24 hours and one lasting 12.",
+    "cites": [
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-air-pressure",
+   "kind": "book",
+   "title": "Climatology/Air pressure",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Climatology/Air_pressure",
+   "note": "A free textbook chapter on how air pressure is measured, how it changes with height and season, and the global pressure belts.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "noaa-air-pressure",
+   "kind": "article",
+   "title": "Air Pressure",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure",
+   "note": "A National Weather Service explainer on what air pressure is and how it is measured."
+  }
+ ]
+}

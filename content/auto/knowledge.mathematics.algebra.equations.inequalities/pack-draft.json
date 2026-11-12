@@ -1,0 +1,109 @@
+{
+ "title": "When the sign flips",
+ "question": "How can you change both sides of an inequality without breaking it?",
+ "hook": "Multiply by 2 and nothing changes; multiply by −2 and the whole statement turns around.",
+ "idea": "Adding the same number keeps an inequality as it is, while multiplying by a negative constant reverses it.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You start with 1 < 4 and divide both sides by a negative constant. What should the sign become?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Still <",
+     "feedback": "That would keep the order, but a negative constant reverses it."
+    },
+    {
+     "id": "b",
+     "label": "Now >"
+    },
+    {
+     "id": "c",
+     "label": "Now =",
+     "feedback": "Dividing never makes two different numbers equal."
+    }
+   ],
+   "answer": "b",
+   "explain": "The inequality relation is preserved under division with a positive constant but reversed when a negative constant is involved.",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each notation to its meaning",
+   "pairs": [
+    [
+     "a < b",
+     "a is strictly less than b"
+    ],
+    [
+     "a ≤ b",
+     "a is at most b"
+    ],
+    [
+     "a ≥ b",
+     "a is at least b"
+    ],
+    [
+     "a ≠ b",
+     "a is not equal to b"
+    ]
+   ],
+   "explain": "Each symbol names a different comparison between a and b.",
+   "cites": [
+    3,
+    5,
+    6,
+    7,
+    14
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each symbol into its group",
+   "groups": [
+    "strict",
+    "non-strict"
+   ],
+   "items": [
+    [
+     "<",
+     "strict"
+    ],
+    [
+     ">",
+     "strict"
+    ],
+    [
+     "≤",
+     "non-strict"
+    ],
+    [
+     "≥",
+     "non-strict"
+    ]
+   ],
+   "explain": "The non-strict inequalities are ≤ and ≥, and their corresponding strict versions are < and >.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Start from 2 < 6, which is true.",
+    "Subtract 4 from both sides to get −2 < 2.",
+    "Multiply both sides by −1 and keep the sign: 2 < −2.",
+    "So 2 is less than −2."
+   ],
+   "wrong": 2,
+   "explain": "Multiplying by a negative constant reverses the inequality, so the result should be 2 > −2.",
+   "cites": [
+    22,
+    23
+   ]
+  }
+ ]
+}

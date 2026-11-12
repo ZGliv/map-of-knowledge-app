@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "The addition principle, or rule of sum, is a basic counting principle in combinatorics.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "If one thing can be done in A ways and another in B ways, and both cannot be done at the same time, there are A + B ways to choose one.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "In terms of sets, for two sets with no elements in common, the size of their union equals the sum of their sizes.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "The addition principle",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Condition",
+   "value": "The two actions cannot be done at the same time",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Set form",
+   "value": "For disjoint sets, the union's size is the sum of sizes",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Shopping example",
+   "value": "3 shops in the north plus 2 in the south gives 5",
+   "cites": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "label": "More sets",
+   "value": "It extends to several pairwise disjoint sets",
+   "cites": [
+    5,
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Dev will go home today by either one of 3 bus routes or one of 2 tram routes, never both. How many different ways home does he have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6 ways"
+    },
+    {
+     "id": "b",
+     "label": "1 way"
+    },
+    {
+     "id": "c",
+     "label": "5 ways"
+    },
+    {
+     "id": "d",
+     "label": "32 ways"
+    }
+   ],
+   "answer": "c",
+   "explain": "He takes only one kind of route, so the ways add: 3 + 2 = 5.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "Dev takes either a bus or a tram home, with 3 bus routes and 2 tram routes. Why is the number of ways not 3 × 2?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He uses only one of the two, so the counts add instead"
+    },
+    {
+     "id": "b",
+     "label": "Because 3 × 2 is too large to be a real count"
+    },
+    {
+     "id": "c",
+     "label": "Because trams and buses use different numbers of stops"
+    },
+    {
+     "id": "d",
+     "label": "Because multiplying only works for even numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Multiplying counts doing both actions. When the two cannot both be done, the ways to choose one are added.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "You count everyone in a choir and a band by adding the two member counts. For that sum to be right, what must be true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both groups must have the same number of members"
+    },
+    {
+     "id": "b",
+     "label": "The choir must be the larger of the two groups"
+    },
+    {
+     "id": "c",
+     "label": "Each group must have an even number of members"
+    },
+    {
+     "id": "d",
+     "label": "Nobody can belong to both groups"
+    }
+   ],
+   "answer": "d",
+   "explain": "The sizes add only for disjoint sets, which have no elements in common. A person in both groups would be counted twice.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "A class has some students who walk to school and the rest who do not. Why does taking the walkers away from the whole class give the number of the rest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because walkers are always the smaller group"
+    },
+    {
+     "id": "b",
+     "label": "The two groups share no one and together make up the class"
+    },
+    {
+     "id": "c",
+     "label": "Because subtraction is easier than counting directly"
+    },
+    {
+     "id": "d",
+     "label": "Because the rest must be counted twice"
+    }
+   ],
+   "answer": "b",
+   "explain": "The walkers and the rest do not overlap, so by the addition principle their sizes add up to the class size.",
+   "cites": [
+    3,
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "A bookshop has fiction, cookbook and travel shelves, and no book sits on two shelves. How do you find the total number of books?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply the three shelf counts"
+    },
+    {
+     "id": "b",
+     "label": "Take the largest shelf count"
+    },
+    {
+     "id": "c",
+     "label": "Add the three shelf counts"
+    },
+    {
+     "id": "d",
+     "label": "Add two shelf counts and ignore the third"
+    }
+   ],
+   "answer": "c",
+   "explain": "The addition principle extends to several pairwise disjoint sets: the size of the union is the sum of the sizes.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "A teacher says another basic counting rule can itself be proven using the rule of sum. Which rule is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rule that order never matters"
+    },
+    {
+     "id": "b",
+     "label": "The rule that subtraction undoes addition"
+    },
+    {
+     "id": "c",
+     "label": "The rule that sets can never overlap"
+    },
+    {
+     "id": "d",
+     "label": "The multiplication principle"
+    }
+   ],
+   "answer": "d",
+   "explain": "The addition principle can also be used to prove the multiplication principle.",
+   "cites": [
+    15
+   ]
+  }
+ ]
+}

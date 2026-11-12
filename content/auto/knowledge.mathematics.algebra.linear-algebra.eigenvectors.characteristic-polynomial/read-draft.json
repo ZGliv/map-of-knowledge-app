@@ -1,0 +1,72 @@
+{
+ "paragraphs": [
+  {
+   "heading": "A polynomial that holds the eigenvalues",
+   "text": "For a square matrix, the characteristic polynomial is a polynomial whose roots are precisely the matrix's eigenvalues. Among its coefficients are the determinant and the trace of the matrix. Setting it equal to zero gives the characteristic equation, also known as the determinantal equation.",
+   "cites": [
+    1,
+    2,
+    4,
+    16
+   ]
+  },
+  {
+   "heading": "Where it comes from",
+   "text": "It grows out of the search for eigenvectors. An eigenvector is a vector whose direction a transformation does not change, and its eigenvalue measures how much its size changes. If the transformation is a square matrix A, an eigenvector v with eigenvalue λ satisfies A v = λ v, which can be rewritten as (λ I − A) v = 0, with I the identity matrix and v not zero. Then λ I − A must be singular, so its determinant is zero. The eigenvalues are therefore the roots of det (x I − A), a polynomial of degree n for an n×n matrix, and that polynomial is the characteristic polynomial.",
+   "cites": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "heading": "The definition and a sign choice",
+   "text": "Written out, the characteristic polynomial is p_A (t) = det (t I − A), with I the n × n identity matrix. It is monic, meaning the leading coefficient equals 1, and it has degree n. Some authors use det (A − t I) instead. That version differs by a sign of (−1)ⁿ, so it has the same roots, but it is monic only when n is even.",
+   "cites": [
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "heading": "Reading the coefficients",
+   "text": "Every coefficient is a polynomial expression in the entries of the matrix. The constant term is (−1)ⁿ det (A), the leading term tⁿ has coefficient 1, and next to tⁿ⁻¹ sits −tr(A), where tr(A) is the trace. For a 2 × 2 matrix this gives the short form t² − tr (A) t + det (A).",
+   "cites": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "heading": "What stays the same",
+   "text": "Two similar matrices have the same characteristic polynomial. For a linear map on a finite-dimensional space, you can take the polynomial of its matrix in any basis, and the result does not depend on which basis you pick. The reverse of the first fact fails in general: sharing a characteristic polynomial does not force two matrices to be similar. A matrix and its transpose share one. So do the products AB and BA of two n × n matrices.",
+   "cites": [
+    3,
+    24,
+    25,
+    26,
+    29
+   ]
+  },
+  {
+   "heading": "Every matrix satisfies its own equation",
+   "text": "The Cayley–Hamilton theorem goes a step further. Replace t by the matrix A itself, reading powers as matrix powers and a constant term c as c times the identity matrix, and the result is the zero matrix. Put informally, every matrix satisfies its own characteristic equation.",
+   "cites": [
+    21,
+    22
+   ]
+  },
+  {
+   "heading": "An older name from astronomy",
+   "text": "Some literature calls the characteristic polynomial the secular function. The name comes from its use in calculating secular perturbations of planetary orbits, changes on a time scale of a century, slow next to yearly motion. That use followed Lagrange's theory of oscillations.",
+   "cites": [
+    37,
+    38
+   ]
+  }
+ ]
+}

@@ -1,0 +1,572 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.atmosphere.radiation-balance",
+ "name": "Radiation balance",
+ "summary": [
+  {
+   "text": "Earth's radiation balance, also called its energy balance, is the match between the energy Earth gets from the Sun and the energy it loses to space.",
+   "cites": [
+    1,
+    40
+   ]
+  },
+  {
+   "text": "Earth keeps a fairly steady temperature because it gives off about as much energy to space as it receives, shifted to longer wavelengths.",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "text": "Greenhouse gases change how readily heat escapes, so adding them makes surface temperatures rise until absorbed sunlight again equals outgoing radiation.",
+   "cites": [
+    39,
+    40,
+    42
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Average sunlight arriving",
+   "value": "About 340 W/m² at the top of the atmosphere",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Way energy leaves",
+   "value": "Outgoing longwave radiation (OLR)",
+   "cites": [
+    25,
+    34
+   ]
+  },
+  {
+   "label": "Longwave cutoff",
+   "value": "Sometimes set at a wavelength of 4 microns",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Atmosphere's emissivity",
+   "value": "An effective value of about ε = 0.78",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Warming imbalance",
+   "value": "Seen in measurements since at least 1970",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Earth bathes in sunlight every day, yet it does not keep getting hotter year after year. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Sun's output drops a bit each night"
+    },
+    {
+     "id": "b",
+     "label": "It sends out about as much energy as it gets"
+    },
+    {
+     "id": "c",
+     "label": "The oceans store the extra heat forever"
+    },
+    {
+     "id": "d",
+     "label": "Most sunlight never reaches the planet"
+    }
+   ],
+   "answer": "b",
+   "explain": "With little net gain or loss, Earth radiates about as much energy to space as it receives, so its temperature stays relatively constant.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance:q1"
+  },
+  {
+   "prompt": "Earth sends out more energy than it takes in for many years. What follows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Global cooling"
+    },
+    {
+     "id": "b",
+     "label": "Global warming"
+    },
+    {
+     "id": "c",
+     "label": "No change at all"
+    },
+    {
+     "id": "d",
+     "label": "Stronger sunlight"
+    }
+   ],
+   "answer": "a",
+   "explain": "Global cooling takes place when the outgoing energy is greater than the incoming energy.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance:q2"
+  },
+  {
+   "prompt": "Some heat from the ground shoots straight out to space without being caught by the air. Where does that happen?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only above the poles in winter"
+    },
+    {
+     "id": "b",
+     "label": "Wherever skies are cloudy"
+    },
+    {
+     "id": "c",
+     "label": "Only through gaps in the ozone"
+    },
+    {
+     "id": "d",
+     "label": "In the 'atmospheric window' wavelengths"
+    }
+   ],
+   "answer": "d",
+   "explain": "Thermal radiation in the atmospheric window passes through the atmosphere unimpeded and escapes directly to space.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance:q3"
+  },
+  {
+   "prompt": "Energy can hitch a ride upward from the surface in different ways. Which is one way heat is carried into the atmosphere?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Water evaporating from land and plants"
+    },
+    {
+     "id": "b",
+     "label": "Magnetic currents rising from the core"
+    },
+    {
+     "id": "c",
+     "label": "Sound waves bouncing off mountains"
+    },
+    {
+     "id": "d",
+     "label": "Moonlight pulling warm air upward"
+    }
+   ],
+   "answer": "a",
+   "explain": "Heat moves into the atmosphere through evapotranspiration and latent heat, conduction and convection, and radiation.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance:q4"
+  },
+  {
+   "prompt": "An object's heat output grows with the fourth power of its temperature. What does that mean for Earth's balance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Large swings are needed to restore balance"
+    },
+    {
+     "id": "b",
+     "label": "Balance can never be restored once lost"
+    },
+    {
+     "id": "c",
+     "label": "Small temperature shifts restore balance"
+    },
+    {
+     "id": "d",
+     "label": "Temperature has no effect on heat output"
+    }
+   ],
+   "answer": "c",
+   "explain": "The strong fourth-power sensitivity keeps outgoing energy close to incoming energy through small changes in the planet's temperature.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance:q5"
+  },
+  {
+   "prompt": "People run power plants, cars and factories. How does all that energy compare with the heat flowing up from Earth's interior?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About ten times larger"
+    },
+    {
+     "id": "b",
+     "label": "Roughly equal in size"
+    },
+    {
+     "id": "c",
+     "label": "Larger than incoming sunlight"
+    },
+    {
+     "id": "d",
+     "label": "Smaller, about 18 TW versus 47 TW"
+    }
+   ],
+   "answer": "d",
+   "explain": "Geothermal heat flow is about 47 TW, while human energy production is even lower at about 18 TW.",
+   "cites": [
+    43,
+    45
+   ],
+   "id": "knowledge.earth.climate.atmosphere.radiation-balance:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/16.8_sunEarth_energy_imbalancev2.png/960px-16.8_sunEarth_energy_imbalancev2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Radiation balance",
+  "credit": "Kevin E Trenberth",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:16.8_sunEarth_energy_imbalancev2.png"
+ },
+ "source": {
+  "title": "Earth's energy budget",
+  "url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
+  "revision": 1382238192
+ },
+ "pack": {
+  "id": "auto-atmosphere-radiation-balance",
+  "title": "Why Earth Doesn't Overheat",
+  "question": "How does Earth keep a steady temperature while taking in sunlight nonstop?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Atmosphere",
+   "Radiation balance"
+  ],
+  "hue": 110,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/16.8_sunEarth_energy_imbalancev2.png/960px-16.8_sunEarth_energy_imbalancev2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Radiation balance",
+    "credit": "Kevin E Trenberth · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:16.8_sunEarth_energy_imbalancev2.png",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Earth Doesn't Overheat",
+    "hook": "Sunlight pours onto Earth every second, so why doesn't the planet just keep getting hotter?"
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-atmosphere-radiation-balance:1",
+    "transfer": false,
+    "prompt": "Greenhouse gases in the air increase and then stay at the new level. What happens to Earth's surface temperature?",
+    "explain": "More greenhouse gas cuts outgoing longwave radiation and creates a warming imbalance; surface temperatures rise until absorbed solar radiation equals outgoing longwave radiation again.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "It stays the same, since sunlight has not changed",
+        "feedback": "Sunlight is unchanged, but less heat escapes, which creates an imbalance."
+       },
+       {
+        "id": "c",
+        "label": "It falls, since more gas reflects more sunlight",
+        "feedback": "The gases trap outgoing heat; they do not act as a sunshade here."
+       },
+       {
+        "id": "b",
+        "label": "It rises until outgoing heat matches absorbed sunlight"
+       },
+       {
+        "id": "a",
+        "label": "It rises forever and never levels off",
+        "feedback": "Warming raises the heat Earth sends out, so the rise stops once the flows match again."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-atmosphere-radiation-balance:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Solar insolation"
+     },
+     {
+      "id": "i1",
+      "label": "Shortwave infrared in sunlight"
+     },
+     {
+      "id": "i2",
+      "label": "Outgoing longwave radiation"
+     },
+     {
+      "id": "i3",
+      "label": "Thermal radiation through the atmospheric window"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Arrives from the Sun"
+     },
+     {
+      "id": "g1",
+      "label": "Leaves Earth for space"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Earth receives energy as solar insolation, and sunlight includes shortwave infrared; it loses energy as outgoing longwave radiation, part of which escapes directly through the atmospheric window."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-atmosphere-radiation-balance:3",
+    "transfer": true,
+    "prompt": "Match each energy flow to its size",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Incoming solar radiation"
+     },
+     {
+      "id": "l1",
+      "label": "Earth's energy imbalance, 2005 to 2019"
+     },
+     {
+      "id": "l2",
+      "label": "Geothermal heat from the interior"
+     },
+     {
+      "id": "l3",
+      "label": "Human energy production in 2019"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "About 18 TW"
+     },
+     {
+      "id": "r0",
+      "label": "173000 TW"
+     },
+     {
+      "id": "r1",
+      "label": "About 460 TW"
+     },
+     {
+      "id": "r2",
+      "label": "About 47 TW"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Sunlight dwarfs every other flow; the recent imbalance is far smaller, and the planet's internal heat and human energy use are smaller still."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-atmosphere-radiation-balance:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Sunlight reaches the top of the atmosphere at an intensity called the solar constant."
+     },
+     {
+      "id": "b",
+      "text": "Earth catches that sunlight across its cross-section, a circle."
+     },
+     {
+      "id": "c",
+      "text": "A sphere's surface area is twice that circle's area, so the global average is half the solar constant."
+     },
+     {
+      "id": "d",
+      "text": "Averaged over the globe and the year, that gives about 340 W/m²."
+     }
+    ],
+    "answer": "c",
+    "explain": "A sphere's surface area is four times its cross-sectional area, so the average is one quarter of the solar constant, about 340 W/m²."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Earth stays near a steady temperature by sending out about as much energy as it absorbs, and greenhouse gases shift where that balance settles.",
+    "connections": [
+     {
+      "title": "Albedo",
+      "place": "Radiation balance",
+      "node": "knowledge.earth.climate.atmosphere.radiation-balance.albedo"
+     },
+     {
+      "title": "Greenhouse effect",
+      "place": "Radiation balance",
+      "node": "knowledge.earth.climate.atmosphere.radiation-balance.greenhouse-effect"
+     },
+     {
+      "title": "Solar irradiance",
+      "place": "Radiation balance",
+      "node": "knowledge.earth.climate.atmosphere.radiation-balance.solar-irradiance"
+     },
+     {
+      "title": "Earth's energy budget",
+      "place": "Radiation balance",
+      "node": "knowledge.earth.climate.atmosphere.radiation-balance.earth-s-energy-budget"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "More greenhouse gas cuts outgoing longwave radiation and creates a warming imbalance; surface temperatures rise until absorbed solar radiation equals outgoing longwave radiation again.",
+    "source": "Wikipedia sentences 41, 42"
+   },
+   {
+    "claim": "Earth receives energy as solar insolation, and sunlight includes shortwave infrared; it loses energy as outgoing longwave radiation, part of which escapes directly through the atmospheric window.",
+    "source": "Wikipedia sentences 20, 25, 28, 31"
+   },
+   {
+    "claim": "Sunlight dwarfs every other flow; the recent imbalance is far smaller, and the planet's internal heat and human energy use are smaller still.",
+    "source": "Wikipedia sentences 14, 43, 44, 45"
+   },
+   {
+    "claim": "A sphere's surface area is four times its cross-sectional area, so the average is one quarter of the solar constant, about 340 W/m².",
+    "source": "Wikipedia sentences 22, 23"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Energy in, energy out",
+    "text": "Earth's energy balance, also called its energy budget, compares the energy that arrives from the Sun with the energy Earth loses to space. Other sources, such as heat from Earth's interior, are counted too, but they are tiny next to sunlight. Huge amounts of energy flow in and out, yet Earth's temperature stays fairly steady because, overall, it gains or loses little. It sends out to space about as much energy as it takes in, only at longer wavelengths.",
+    "cites": [
+     1,
+     2,
+     20
+    ]
+   },
+   {
+    "heading": "How sunlight arrives",
+    "text": "The energy reaching the top of the atmosphere each second equals the solar constant times Earth's cross-sectional area facing the Sun. A sphere's surface is four times the area of its cross-section. So, averaged over the whole globe and the year, the incoming flow is a quarter of the solar constant, roughly 340 watts per square meter (W/m²). Absorption changes with place, time of day, season and year, so figures like this are averages over many years of satellite readings.",
+    "cites": [
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "How heat leaves",
+    "text": "Energy leaves as outgoing longwave radiation (OLR), the thermal radiation given off by Earth's surface and atmosphere. A wavelength of 4 microns is sometimes used as the dividing line between longwave and shortwave. Part of the solar energy absorbed by the ground is given off again at wavelengths in the atmospheric window, which pass straight through the air to space. The rest is carried upward by evapotranspiration and latent heat, by conduction and convection, and by radiation, until some of it can escape too. In the end, all energy leaving Earth goes out as longwave radiation.",
+    "cites": [
+     25,
+     26,
+     29,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Why the balance holds",
+    "text": "The atmosphere has an emissivity, written ε, that is below 1 because the air does not emit in the atmospheric window. Aerosols, clouds, water vapor and trace greenhouse gases together give it an effective value of about ε = 0.78. Outgoing energy is very sensitive to temperature, rising with its fourth power. That means small shifts in the planet's temperature are enough to keep the outgoing flow close to the incoming one.",
+    "cites": [
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "When greenhouse gases change",
+    "text": "Seen from space, greenhouse gases change the planet's emissivity, so altering what the air is made of can shift the radiation balance. More greenhouse gas traps more heat, an enhanced greenhouse effect, which lowers OLR and leaves Earth with a warming imbalance. Surface temperatures then climb until absorbed solar radiation (ASR) once again equals OLR. The same works in reverse when greenhouse gases fall: temperatures drop until the two match.",
+    "cites": [
+     39,
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Warming and cooling",
+    "text": "When the incoming and outgoing flows match, Earth is in radiative equilibrium and its climate stays fairly stable. More energy coming in than going out means global warming; more going out than coming in means global cooling. Many kinds of measurement show a warming imbalance since at least 1970. Its main source is human-made change to the makeup of the atmosphere.",
+    "cites": [
+     9,
+     10,
+     11,
+     13
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "halpern-energy-balance",
+   "kind": "book",
+   "title": "2.5.2: Surface Energy Balance",
+   "by": "Joshua Halpern (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Atmospheric_Processes_and_Phenomena/02%3A_Solar_and_Infrared_Radiation/2.05%3A_Application_to_the_Earth-Sun_System/2.5.02%3A_Surface_Energy_Balance",
+   "note": "A short free textbook section on balancing incoming sunlight against outgoing shortwave and longwave radiation.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "libretexts-brune-climate",
+   "kind": "book",
+   "title": "7.3: Atmospheric Radiation and Earth's Climate",
+   "by": "William Brune, Penn State (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Fundamentals_of_Atmospheric_Science_(Brune)/07%3A_Applications_of_Atmospheric_Radiation_Principles/7.03%3A_Atmospheric_Radiation_and_Earths_Climate",
+   "note": "A free textbook section using simple models to show how sunlight in and infrared out set Earth's temperature.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-schmittner-theory",
+   "kind": "book",
+   "title": "1.4: Theory",
+   "by": "Andreas Schmittner, Oregon State University (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Introduction_to_Climate_Science_(Schmittner_2021)/01%3A_Chapters/1.04%3A_Theory",
+   "note": "A free climate textbook chapter on energy balance models, albedo, the greenhouse effect, forcings and feedbacks.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "noaa-energy-balance",
+   "kind": "article",
+   "title": "The Earth-Atmosphere Energy Balance",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/atmosphere/energy",
+   "note": "NOAA walks through a 100-unit budget of the energy Earth gets from the Sun and radiates back to space."
+  }
+ ]
+}

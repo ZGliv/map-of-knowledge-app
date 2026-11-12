@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "Translation is how cells build proteins, using RNA molecules as templates.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Ribosomes read messenger RNA three nucleotides at a time, and each triple adds one specific amino acid to the chain.",
+   "cites": [
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "text": "Transfer RNAs carry the amino acids to the ribosome, pairing their anticodon with the matching codon on the mRNA.",
+   "cites": [
+    11,
+    30,
+    33
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Genetic code",
+   "value": "The matching from nucleotide triple to amino acid",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Three stages",
+   "value": "Initiation, elongation and termination",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Ribosome parts",
+   "value": "Eukaryote ribosomes have a small 40S and large 60S subunit",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "tRNA size",
+   "value": "Small non-coding RNAs, 74 to 93 nucleotides long",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "Location",
+   "value": "mRNA is decoded in a ribosome, outside the nucleus",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An mRNA has 12 nucleotides in a row. Read in triples, how many amino acids are added?",
+   "options": [
+    {
+     "id": "a",
+     "label": "4"
+    },
+    {
+     "id": "b",
+     "label": "3"
+    },
+    {
+     "id": "c",
+     "label": "6"
+    },
+    {
+     "id": "d",
+     "label": "12"
+    }
+   ],
+   "answer": "a",
+   "explain": "Nucleotides are read three at a time and each triple adds one amino acid, so 12 nucleotides give 4.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "A transfer RNA with an amino acid attached arrives at the ribosome. What is its role there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It carries the gene's instructions from the chromosome"
+    },
+    {
+     "id": "b",
+     "label": "It forms the ribosome's two subunits"
+    },
+    {
+     "id": "c",
+     "label": "It links amino acids into a protein on its own"
+    },
+    {
+     "id": "d",
+     "label": "It delivers its amino acid, pairing its anticodon with a matching codon"
+    }
+   ],
+   "answer": "d",
+   "explain": "tRNAs carry specific amino acids and bind mRNA codons through their anticodons, while mRNA carries the instructions from the chromosomes.",
+   "cites": [
+    11,
+    12,
+    24,
+    33
+   ]
+  },
+  {
+   "prompt": "An enzyme attaches the wrong amino acid to a tRNA. What can result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An inappropriate amino acid at that position in the protein"
+    },
+    {
+     "id": "b",
+     "label": "The mRNA codon changes to fit the new amino acid"
+    },
+    {
+     "id": "c",
+     "label": "The ribosome refuses to start translation"
+    },
+    {
+     "id": "d",
+     "label": "The tRNA's anticodon changes to fit"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mispairing tRNAs with the wrong amino acids can put inappropriate amino acids into the protein.",
+   "cites": [
+    34,
+    38
+   ]
+  },
+  {
+   "prompt": "Two mRNA molecules differ in the order of their nucleotide triplets. What changes in the protein?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number of subunits in the ribosome"
+    },
+    {
+     "id": "b",
+     "label": "Which cell the finished protein is sent to"
+    },
+    {
+     "id": "c",
+     "label": "The order of the amino acids in the chain"
+    },
+    {
+     "id": "d",
+     "label": "The attachment site on the tRNA"
+    }
+   ],
+   "answer": "c",
+   "explain": "The sequence of nucleotides in the mRNA determines the sequence of amino acids.",
+   "cites": [
+    21,
+    22
+   ]
+  },
+  {
+   "prompt": "A polypeptide is still being made. Can it already begin folding?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, folding starts only once the ribosome finishes"
+    },
+    {
+     "id": "b",
+     "label": "No, folding happens only outside the cell"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only after the mRNA is destroyed"
+    },
+    {
+     "id": "d",
+     "label": "Yes, it can start folding during synthesis"
+    }
+   ],
+   "answer": "d",
+   "explain": "The polypeptide later folds into an active protein, and it can also start folding during protein synthesis.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "Why do the two ribosome subunits join before translation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To cut the mRNA into triplets"
+    },
+    {
+     "id": "b",
+     "label": "To make a place where the polypeptide can be produced"
+    },
+    {
+     "id": "c",
+     "label": "To attach amino acids to the tRNAs"
+    },
+    {
+     "id": "d",
+     "label": "To carry the mRNA out of the nucleus"
+    }
+   ],
+   "answer": "b",
+   "explain": "The subunits come together to provide a location for translation and a polypeptide to be produced.",
+   "cites": [
+    17
+   ]
+  }
+ ]
+}

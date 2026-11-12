@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process",
+ "name": "Poisson process",
+ "summary": [
+  {
+   "text": "A Poisson point process is a set of points randomly located on a space, with the essential feature that the points occur independently of one another.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The number of points in any bounded region is Poisson distributed, and the counts in disjoint regions are completely independent of each other.",
+   "cites": [
+    22,
+    24
+   ]
+  },
+  {
+   "text": "On the real line, the gaps between consecutive points are exponential with mean 1/λ, which suits arrivals of customers, phone calls and earthquakes.",
+   "cites": [
+    7,
+    40
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Rate λ",
+   "value": "Average number of points per unit of length, area or time",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Where discovered",
+   "value": "Radioactive decay, telephone calls and actuarial science",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Gap between points",
+   "value": "Exponential, with mean 1/λ",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Homogeneous kind",
+   "value": "Has a constant rate, also called stationary",
+   "cites": [
+    12,
+    27
+   ]
+  },
+  {
+   "label": "In the plane",
+   "value": "Can place transmitters, particles or trees",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Phone calls arrive at an exchange as a Poisson process of 2 per hour. What is the expected number in 3 hours?",
+   "options": [
+    {
+     "id": "a",
+     "label": "6"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "1.5"
+    }
+   ],
+   "answer": "a",
+   "explain": "In an interval of length t, the number of points is Poisson with mean λt, so 2 × 3 = 6.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process:q1"
+  },
+  {
+   "prompt": "Customers arrive as a Poisson process. A busy hour from 9 to 10 tells you what about the number arriving from 11 to 12?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, as counts in disjoint intervals are independent"
+    },
+    {
+     "id": "b",
+     "label": "The count will be low, to make up for it"
+    },
+    {
+     "id": "c",
+     "label": "The count will be equally high, to match"
+    },
+    {
+     "id": "d",
+     "label": "The count will be exactly the same number"
+    }
+   ],
+   "answer": "a",
+   "explain": "The number of points in disjoint intervals are independent of each other.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process:q2"
+  },
+  {
+   "prompt": "In a Poisson process on a timeline, which distribution describes the time between two consecutive arrivals?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A normal distribution around the average gap"
+    },
+    {
+     "id": "b",
+     "label": "A uniform spread between zero and one"
+    },
+    {
+     "id": "c",
+     "label": "A fixed gap that never varies"
+    },
+    {
+     "id": "d",
+     "label": "An exponential distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "The distance between consecutive points is an exponential random variable with mean 1/λ.",
+   "cites": [
+    31,
+    40
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process:q3"
+  },
+  {
+   "prompt": "An arrival has just happened in a Poisson process. Does that make another arrival come sooner or later than usual?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sooner, because arrivals tend to bunch together"
+    },
+    {
+     "id": "b",
+     "label": "Later, because arrivals need time to recover"
+    },
+    {
+     "id": "c",
+     "label": "No effect, since the points have the memoryless property"
+    },
+    {
+     "id": "d",
+     "label": "Impossible to say, as nothing is known about it"
+    }
+   ],
+   "answer": "c",
+   "explain": "The existence of one point does not affect the probability of other points existing: the memoryless property.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process:q4"
+  },
+  {
+   "prompt": "Points are scattered over a region, but the average density of points depends on the location. What is such a process called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An inhomogeneous Poisson point process"
+    },
+    {
+     "id": "b",
+     "label": "A homogeneous Poisson point process"
+    },
+    {
+     "id": "c",
+     "label": "A stationary Poisson point process"
+    },
+    {
+     "id": "d",
+     "label": "A fully constant Poisson point process"
+    }
+   ],
+   "answer": "a",
+   "explain": "When the average density depends on location, the process is called inhomogeneous or nonhomogeneous.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process:q5"
+  },
+  {
+   "prompt": "Which situation can a Poisson point process in the plane represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Days of the week in their fixed order"
+    },
+    {
+     "id": "b",
+     "label": "Locations of trees scattered in a forest"
+    },
+    {
+     "id": "c",
+     "label": "A single value that never changes"
+    },
+    {
+     "id": "d",
+     "label": "A list sorted from smallest to largest"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the plane, a spatial Poisson process can represent the locations of scattered objects such as trees in a forest.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Poisson_Process.png/960px-Poisson_Process.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Poisson process",
+  "credit": "Eliasorggro",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Poisson_Process.png"
+ },
+ "source": {
+  "title": "Poisson point process",
+  "url": "https://en.wikipedia.org/wiki/Poisson_point_process",
+  "revision": 1383618227
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Points scattered by chance",
+    "text": "A Poisson point process is a mathematical object made of points dropped at random onto a space. Its defining feature is that the points land independently of one another. Its name comes from a simple fact: count the points inside any finite region and that count has a Poisson distribution. Both the process and the distribution are named after the French mathematician Siméon Denis Poisson.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Two key properties",
+    "text": "Every Poisson point process has two properties that matter wherever it is used. The first is the Poisson property: the count of points in any bounded region is a Poisson random variable. The second is independence: if you take regions that do not overlap, the count in each one tells you nothing about the counts in the others. This second property goes by names such as complete randomness or independent scattering. Because regions do not interact, the process is sometimes called purely or completely random.",
+    "cites": [
+     19,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Rate and intensity",
+    "text": "The process depends on a single quantity. When that quantity is a constant, it is called the rate or intensity, and it gives the average density of points in a region. That version is called a homogeneous or stationary Poisson point process. The constant λ can be read as the average number of points per unit of length, area, volume or time. If instead the average density changes from place to place, the process is called inhomogeneous or nonhomogeneous.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     29
+    ]
+   },
+   {
+    "heading": "Events along a line",
+    "text": "On the real number line, the points can be treated as events, or arrivals. The number of events in any interval of length t is then a Poisson random variable with mean λt, so λ is the expected number of arrivals per unit of time. The gaps between events are called interarrival times, and they follow an exponential distribution with mean 1/λ. This gives the points a memoryless property: one point lying in an interval does not change the chances of others being there. That property has no natural match when the process lives in more dimensions.",
+    "cites": [
+     6,
+     30,
+     31,
+     32,
+     36,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "Where it shows up",
+    "text": "The process was discovered more than once, independently, in work on radioactive decay, telephone call arrivals and actuarial science. In queueing theory it models random events spread over time, such as customers arriving at a store, calls reaching a telephone exchange, or earthquakes. Spread over a plane, it can describe where scattered things sit: transmitters in a wireless network, particles striking a detector, or trees in a forest. It serves as a model in fields from astronomy and ecology to economics and telecommunications.",
+    "cites": [
+     4,
+     5,
+     7,
+     8
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "siegrist-14",
+   "kind": "book",
+   "title": "14: The Poisson Process",
+   "by": "Kyle Siegrist",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/14%3A_The_Poisson_Process",
+   "note": "A free textbook chapter devoted to the Poisson process and its properties.",
+   "license": "CC BY 2.0"
+  },
+  {
+   "id": "gallager-2",
+   "kind": "book",
+   "title": "2: Poisson Processes - Discrete Stochastic Processes",
+   "by": "Robert Gallager",
+   "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Discrete_Stochastic_Processes_(Gallager)/02%3A_Poisson_Processes",
+   "note": "An engineering textbook chapter on Poisson processes from an MIT stochastic processes course.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

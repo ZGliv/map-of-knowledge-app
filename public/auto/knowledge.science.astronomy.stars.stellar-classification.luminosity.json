@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.stars.stellar-classification.luminosity",
+ "name": "Luminosity",
+ "summary": [
+  {
+   "text": "Luminosity is the total amount of electromagnetic energy a star or other object gives off per unit of time, measured in watts.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It is not the same as apparent brightness, which also depends on how far away the object is and on any light absorbed on the way.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "A star's luminosity can be worked out from two characteristics, its size and its effective temperature.",
+   "cites": [
+    22
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Unit",
+   "value": "Joules per second, or watts",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Sun as a unit",
+   "value": "The Sun's luminosity is often used as a unit",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Neutrino share",
+   "value": "Neutrinos carry off about 2% of the Sun's energy",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Temperature link",
+   "value": "Proportional to temperature to the fourth power",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Most luminous stars",
+   "value": "Always young, no more than a few million years old",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two stars radiate exactly the same total power, but one is far more distant from you. Which quantity will differ as you observe them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their luminosity"
+    },
+    {
+     "id": "b",
+     "label": "Their apparent brightness"
+    },
+    {
+     "id": "c",
+     "label": "Their total energy output"
+    },
+    {
+     "id": "d",
+     "label": "Their radiant power"
+    }
+   ],
+   "answer": "b",
+   "explain": "Luminosity is the star's own output, while apparent brightness also depends on distance.",
+   "cites": [
+    1,
+    6,
+    7
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.luminosity:q1"
+  },
+  {
+   "prompt": "Class O stars are far hotter than class M stars. What does that gap do to how much energy they give off?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It makes almost no difference to their output"
+    },
+    {
+     "id": "b",
+     "label": "It makes their output differ by about the same ratio"
+    },
+    {
+     "id": "c",
+     "label": "It makes the cooler stars give off more"
+    },
+    {
+     "id": "d",
+     "label": "It makes their output differ by an even bigger ratio"
+    }
+   ],
+   "answer": "d",
+   "explain": "Luminosity is proportional to temperature to the fourth power, so a large temperature variation produces an even vaster luminosity variation.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.luminosity:q2"
+  },
+  {
+   "prompt": "A star is extremely massive and very luminous. What should you expect about how long it lasts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A much shorter life than less massive stars"
+    },
+    {
+     "id": "b",
+     "label": "A much longer life than less massive stars"
+    },
+    {
+     "id": "c",
+     "label": "About the same life as less massive stars"
+    },
+    {
+     "id": "d",
+     "label": "A life that depends only on its distance"
+    }
+   ],
+   "answer": "a",
+   "explain": "Luminosity depends on a high power of mass, so high-mass luminous stars have much shorter lifetimes.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.luminosity:q3"
+  },
+  {
+   "prompt": "On Earth, a bolometer can measure total radiant energy directly. Why do astronomers build a mathematical model of a star's spectrum instead?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bolometers only work in total darkness"
+    },
+    {
+     "id": "b",
+     "label": "Stars give off no energy a bolometer could absorb"
+    },
+    {
+     "id": "c",
+     "label": "Bolometers are not sensitive enough across the spectrum"
+    },
+    {
+     "id": "d",
+     "label": "Models are cheaper than any instrument"
+    }
+   ],
+   "answer": "c",
+   "explain": "Bolometers cannot measure a star's brightness because they are insufficiently sensitive across the electromagnetic spectrum, so astronomers measure at some wavelengths and model the rest.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.luminosity:q4"
+  },
+  {
+   "prompt": "Two stars have the same temperature, but one is more luminous. What does that tell you about the more luminous one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must be much younger"
+    },
+    {
+     "id": "b",
+     "label": "It must be much closer to us"
+    },
+    {
+     "id": "c",
+     "label": "It must be much less massive"
+    },
+    {
+     "id": "d",
+     "label": "It must be larger"
+    }
+   ],
+   "answer": "d",
+   "explain": "Increased luminosity at the same temperature indicates a larger star, which is why such stars are called giants or supergiants.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.luminosity:q5"
+  },
+  {
+   "prompt": "To work out how much energy a star radiates, an astronomer needs which two characteristics of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its size and its effective temperature"
+    },
+    {
+     "id": "b",
+     "label": "Its age and its mass"
+    },
+    {
+     "id": "c",
+     "label": "Its colour and its name"
+    },
+    {
+     "id": "d",
+     "label": "Its position and its spin"
+    }
+   ],
+   "answer": "a",
+   "explain": "A star's luminosity can be determined from its size and its effective temperature.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.astronomy.stars.stellar-classification.luminosity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_Sun_in_white_light.jpg/960px-The_Sun_in_white_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Luminosity",
+  "credit": "Matúš Motlo",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg"
+ },
+ "source": {
+  "title": "Luminosity",
+  "url": "https://en.wikipedia.org/wiki/Luminosity",
+  "revision": 1370783008
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "What luminosity measures",
+    "text": "Luminosity is the total power that a light-giving object sends out: how much electromagnetic energy leaves it in each unit of time. In astronomy the word is used for stars, galaxies and other glowing objects in space. In SI units it is given in joules per second, which are the same thing as watts. Astronomers also often use the Sun's own luminosity, written L_(☉), as a unit.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Not the same as brightness",
+    "text": "Luminosity is an absolute measure of what the object gives off, not of how bright it looks. When astronomers say brightness, they usually mean apparent brightness: what an observer actually sees. That depends on three things together: the object's luminosity, its distance from the observer, and how much of its light is absorbed along the way. Apparent magnitude is a scale for apparent brightness that works by logarithms.",
+    "cites": [
+     1,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Measuring the whole output",
+    "text": "On its own, the word luminosity means bolometric luminosity, given either in watts or in solar luminosities. The IAU has set a nominal solar luminosity of 3.828×10²⁶ W so that published figures can be compared. On Earth, a bolometer measures radiant energy by absorbing it and tracking how much it heats up, but it is not sensitive enough across the spectrum to use on a star. Instead, astronomers measure a star at a few wavelengths and build a mathematical model of the full spectrum that best fits those readings. Sometimes this takes a long leap, with a luminosity worked out when under 1% of the energy is actually seen.",
+    "cites": [
+     10,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Size and temperature",
+    "text": "A star's luminosity can be worked out from two of its properties: its size and its effective temperature. Size is usually given in solar radii, R_(☉), and temperature in kelvins, yet usually neither one can be measured directly. Finding the radius needs two more numbers, the star's angular diameter and how far it is from Earth, and for most stars one or both are far too small to measure with any certainty. Effective temperature is just the temperature of a black body that would give the same luminosity, and it is estimated from the star's spectrum.",
+    "cites": [
+     22,
+     23,
+     24,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "The distance route",
+    "text": "Another way is to measure how bright the star looks and how far away it is. A third ingredient is then needed: extinction, the dimming caused by gas and dust between the stars, in Earth's atmosphere and around the star itself. Getting each of these pieces right is one of the central challenges of astronomy. Extinction can be measured directly only when both the true and the observed luminosity are known, but it can be estimated from the star's colour, using models of how much the interstellar medium reddens light.",
+    "cites": [
+     28,
+     29,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Why stars differ so much",
+    "text": "Stars are classed by temperature, from Class O stars above 30,000 K down to Class M stars below 3,500 K. Luminosity is proportional to temperature to the fourth power, so this spread in temperature turns into a far wider spread in luminosity. Luminosity also depends on a high power of a star's mass, which is why massive, luminous stars live much shorter lives. The most luminous stars are always young, no more than a few million years old in the most extreme cases.",
+    "cites": [
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Big is not always brightest",
+    "text": "Size and temperature together lead to some surprises. Deneb has a luminosity around 200,000 L_(☉) and a temperature around 8,500 K, giving a radius of about 203 R_(☉). Betelgeuse has a luminosity around 100,000 L_(☉) but is far cooler, around 3,500 K, so its radius is about 1,000 R_(☉). Red supergiants like Betelgeuse are the largest stars, yet the most luminous stars are much smaller and hotter. R136a1, for example, is over 46,000 K and more than 6,100,000 L_(☉), but its radius is only 39 R_(☉).",
+    "cites": [
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-17-1",
+   "kind": "book",
+   "title": "17.1 The Brightness of Stars",
+   "by": "OpenStax (Fraknoi, Morrison, Wolff)",
+   "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
+   "note": "A free textbook section on luminosity versus apparent brightness, the magnitude scale and solar units.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

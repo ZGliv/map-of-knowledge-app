@@ -1,0 +1,226 @@
+{
+ "summary": [
+  {
+   "text": "Expected value, also called expectation or the mean, is a generalization of the weighted average.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When it is finite, it can be read as the long-run average of results from independent repetitions of the same random experiment.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It grew out of the problem of points, a puzzle about how to fairly divide stakes between two players forced to end a game early.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Expectation, mean, first moment",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Where it began",
+   "value": "The problem of points, mid-17th century",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Pascal and Fermat",
+   "value": "Each reached the same solution independently",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Huygens' book",
+   "value": "A probability treatise published in 1657",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Finite outcomes",
+   "value": "Weighted average with probabilities as weights",
+   "cites": [
+    3,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend offers a game: flip a fair coin, win $10 on heads and nothing on tails. What is the expected value of one flip?",
+   "options": [
+    {
+     "id": "a",
+     "label": "$10"
+    },
+    {
+     "id": "b",
+     "label": "$0"
+    },
+    {
+     "id": "c",
+     "label": "$5"
+    },
+    {
+     "id": "d",
+     "label": "$15"
+    }
+   ],
+   "answer": "c",
+   "explain": "For finitely many values, the expected value adds each value times its probability: half of $10 plus half of $0.",
+   "cites": [
+    3,
+    44
+   ]
+  },
+  {
+   "prompt": "You play the same game of chance thousands of times, each play independent of the others. What does your average result per play drift toward?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The game's expected value"
+    },
+    {
+     "id": "b",
+     "label": "The single biggest prize on offer"
+    },
+    {
+     "id": "c",
+     "label": "The most recent result you got"
+    },
+    {
+     "id": "d",
+     "label": "The smallest payout the game allows"
+    }
+   ],
+   "answer": "a",
+   "explain": "The expected value can be read as the long-run average of independent repetitions of the same experiment.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "A fair six-sided die has six faces, each equally likely. How is its expected value built from the faces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "From the face that comes up most often"
+    },
+    {
+     "id": "b",
+     "label": "From the faces added up with no weights"
+    },
+    {
+     "id": "c",
+     "label": "From the middle face printed on the die"
+    },
+    {
+     "id": "d",
+     "label": "From each face weighted by its probability"
+    }
+   ],
+   "answer": "d",
+   "explain": "For finitely many values, the expected value is the weighted average of those values, with their probabilities as weights.",
+   "cites": [
+    3,
+    45
+   ]
+  },
+  {
+   "prompt": "A spinner lands on 1 nine times out of ten and on 100 one time in ten. Why is its expected value not simply the midpoint of 1 and 100?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because the two values are too far apart to average"
+    },
+    {
+     "id": "b",
+     "label": "Because likelier outcomes get more weight than unlikely ones"
+    },
+    {
+     "id": "c",
+     "label": "Because rare outcomes are ignored when averaging"
+    },
+    {
+     "id": "d",
+     "label": "Because expected values must be whole numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Each value is weighted by its probability, so the common outcome counts for more than the rare one.",
+   "cites": [
+    3,
+    45
+   ]
+  },
+  {
+   "prompt": "Two players must stop a game early, and one has a much better chance of winning it. What principle did the early thinkers use to split the stakes fairly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each share should be proportional to that player's chance of winning"
+    },
+    {
+     "id": "b",
+     "label": "Split the stakes equally since the game was left unfinished"
+    },
+    {
+     "id": "c",
+     "label": "Give everything to whoever is ahead right now"
+    },
+    {
+     "id": "d",
+     "label": "Return each player's own stake and divide nothing"
+    }
+   ],
+   "answer": "a",
+   "explain": "Pascal and Fermat held that the value of a future gain should be directly proportional to the chance of getting it.",
+   "cites": [
+    6,
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "Pascal and Fermat solved the same puzzle by different calculations yet got identical results. What best explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They agreed beforehand which answer to reach"
+    },
+    {
+     "id": "b",
+     "label": "They tested it by playing the game many times"
+    },
+    {
+     "id": "c",
+     "label": "Both relied on one idea: gain scales with chance"
+    },
+    {
+     "id": "d",
+     "label": "They averaged all the outcomes with equal weight"
+    }
+   ],
+   "answer": "c",
+   "explain": "Their computations differed, but both rested on the same principle that a future gain's value is proportional to its chance.",
+   "cites": [
+    11,
+    12,
+    13
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1874 @@
+# Fact sheet: genetics-dna
+
+Numbered sentences from each pinned source. Draft from these facts in your own words: never copy a run of 8 words (the validator checks). Cite the source ID exactly as written in the heading.
+
+## [W1] Wikipedia: DNA
+https://en.wikipedia.org/w/index.php?title=DNA&oldid=1379332306 · CC BY-SA 4.0 · usage: ai_input
+
+- [W1.1] Deoxyribonucleic acid (; DNA) is a polymer composed of two polynucleotide chains that coil around each other to form a double helix.
+- [W1.2] The polymer carries genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses.
+- [W1.3] DNA and ribonucleic acid (RNA) are nucleic acids.
+- [W1.4] Alongside proteins, lipids and complex carbohydrates (polysaccharides), nucleic acids are one of the four major types of macromolecules that are essential for all known forms of life.
+- [W1.5] The two DNA strands are known as polynucleotides as they are composed of simpler monomeric units called nucleotides.
+- [W1.6] Each nucleotide is composed of one of four nitrogen-containing nucleobases (cytosine [C], guanine [G], adenine [A] or thymine [T]), a sugar called deoxyribose, and a phosphate group.
+- [W1.7] The nucleotides are joined to one another in a chain by covalent bonds (known as the phosphodiester linkage) between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone.
+- [W1.8] The nitrogenous bases of the two separate polynucleotide strands are bound together, according to base pairing rules (A with T and C with G), with hydrogen bonds to make double-stranded DNA.
+- [W1.9] The complementary nitrogenous bases are divided into two groups, the single-ringed pyrimidines and the double-ringed purines.
+- [W1.10] In DNA, the pyrimidines are thymine and cytosine; the purines are adenine and guanine.
+- [W1.11] Both strands of double-stranded DNA store the same biological information.
+- [W1.12] This information is replicated when the two strands separate.
+- [W1.13] The two strands of DNA run in opposite directions to each other and are thus antiparallel.
+- [W1.14] Attached to each sugar is one of four types of nucleobases (or bases).
+- [W1.15] It is the sequence of these four nucleobases along the backbone that encodes genetic information.
+- [W1.16] RNA strands are created using DNA strands as a template in a process called transcription, where DNA bases are exchanged for their corresponding bases except in the case of thymine (T), for which RNA substitutes uracil (U).
+- [W1.17] Under the genetic code, these RNA strands specify the sequence of amino acids within proteins in a process called translation.
+- [W1.18] Within eukaryotic cells, DNA is organized into long structures called chromosomes.
+- [W1.19] Before typical cell division, these chromosomes are duplicated in the process of DNA replication, providing a complete set of chromosomes for each daughter cell.
+- [W1.20] Eukaryotic organisms (animals, plants, fungi and protists) store most of their DNA inside the cell nucleus as nuclear DNA, and some in the mitochondria as mitochondrial DNA or in chloroplasts as chloroplast DNA.
+- [W1.21] In contrast, prokaryotes (bacteria and archaea) store their DNA only in the cytoplasm, in circular chromosomes.
+- [W1.22] Within eukaryotic chromosomes, chromatin proteins, such as histones, compact and organize DNA.
+- [W1.23] These compacting structures guide the interactions between DNA and other proteins, helping control which parts of the DNA are transcribed.
+- [W1.24] DNA is a long polymer made from repeating units called nucleotides.
+- [W1.25] DNA does not usually exist as a single strand, but instead as a pair of strands that are held tightly together.
+- [W1.26] These two long strands coil around each other, in the shape of a double helix.
+- [W1.27] The nucleotide contains both a segment of the backbone of the molecule (which holds the chain together) and a nucleobase (which interacts with the other DNA strand in the helix).
+- [W1.28] A nucleobase linked to a sugar is called a nucleoside, and a base linked to a sugar and to one or more phosphate groups is called a nucleotide.
+- [W1.29] A biopolymer comprising multiple linked nucleotides (as in DNA) is called a polynucleotide.
+- [W1.30] The structure of DNA is dynamic along its length, being capable of coiling into tight loops and other shapes.
+- [W1.31] In all species it is composed of two helical chains, bound to each other by hydrogen bonds.
+- [W1.32] The two chains are coiled around the same axis (but not directly opposite one to the other), and have the same pitch of 34 ångströms (3.4 nm).
+- [W1.33] Ignoring the identities of the bases, the line group is D1(q), where q stands for the turn per base pair, which is around a tenth of a full turn.
+- [W1.34] In the usual form (B-DNA), the twist is right-handed, like a normal screw that advances when turned clockwise.
+- [W1.35] The pair of chains have a radius of 10 Å (1.0 nm).
+- [W1.36] According to another study, when measured in a different solution, the DNA chain measured 22–26 Å (2.2–2.6 nm) wide, and one nucleotide unit measured 3.3 Å (0.33 nm) long.
+- [W1.37] The buoyant density of most DNA is 1.7g/cm3.
+- [W1.38] The backbone of the DNA strand is made from alternating phosphate and sugar groups.
+- [W1.39] The sugar in DNA is 2-deoxyribose, which is a pentose (five-carbon) sugar.
+- [W1.40] The sugars are joined by phosphate groups that form phosphodiester bonds between the third and fifth carbon atoms of adjacent sugar rings.
+- [W1.41] These are known as the 3′-end (three prime end), and 5′-end (five prime end) carbons, the prime symbol being used to distinguish these carbon atoms from those of the base to which the deoxyribose forms a glycosidic bond.
+- [W1.42] Therefore, any DNA strand normally has one end at which there is a phosphate group attached to the 5′ carbon of a ribose (the 5′ phosphoryl) and another end at which there is a free hydroxyl group attached to the 3′ carbon of a ribose (the 3′ hydroxyl).
+- [W1.43] The orientation of the 3′ and 5′ carbons along the sugar-phosphate backbone confers directionality (sometimes called polarity) to each DNA strand.
+- [W1.44] In a nucleic acid double helix, the direction of the nucleotides in one strand is opposite to their direction in the other strand: the strands are antiparallel.
+- [W1.45] The asymmetric ends of DNA strands are said to have a directionality of five prime end (5′ ), and three prime end (3′), with the 5′ end having a terminal phosphate group and the 3′ end a terminal hydroxyl group.
+- [W1.46] One major difference between DNA and RNA is the sugar, with the 2-deoxyribose in DNA being replaced by the related pentose sugar ribose in RNA.
+- [W1.47] The DNA double helix is stabilized primarily by two forces: hydrogen bonds between nucleotides and base-stacking interactions among aromatic nucleobases.
+- [W1.48] The four bases found in DNA are adenine (A), cytosine (C), guanine (G) and thymine (T).
+- [W1.49] These four bases are attached to the sugar-phosphate to form the complete nucleotide, as shown for adenosine monophosphate.
+- [W1.50] Adenine pairs with thymine and guanine pairs with cytosine, forming A-T and G-C base pairs.
+- [W1.51] The nucleobases are classified into two types: the purines, A and G, which are fused five- and six-membered heterocyclic compounds, and the pyrimidines, the six-membered rings C and T.
+- [W1.52] A fifth pyrimidine nucleobase, uracil (U), usually takes the place of thymine in RNA and differs from thymine by lacking a methyl group on its ring.
+- [W1.53] In addition to RNA and DNA, many artificial nucleic acid analogues have been created to study the properties of nucleic acids, or for use in biotechnology.
+- [W1.54] Modified bases occur in DNA.
+- [W1.55] The first of these to be recognized was 5-methylcytosine, which was found in the genome of Mycobacterium tuberculosis in 1925.
+- [W1.56] The reason for the presence of these noncanonical bases in bacterial viruses (bacteriophages) is to avoid the restriction enzymes present in bacteria.
+- [W1.57] This enzyme system acts at least in part as a molecular immune system protecting bacteria from infection by viruses.
+- [W1.58] Modifications of the bases cytosine and adenine, the more common and modified DNA bases, play vital roles in the epigenetic control of gene expression in plants and animals.
+- [W1.59] A number of noncanonical bases are known to occur in DNA.
+- [W1.60] Most of these are modifications of the canonical bases plus uracil.
+- [W1.61] N6-carbamoyl-methyladenine
+- [W1.62] 5-Glycosylhydroxymethylcytosine
+- [W1.63] 5-Hydroxymethyldeoxyuracil
+- [W1.64] 2,6-Diaminopurine (2-aminoadenine)
+- [W1.65] Twin helical strands form the DNA backbone.
+- [W1.66] Another double helix may be found tracing the spaces, or grooves, between the strands.
+- [W1.67] These voids are adjacent to the base pairs and may provide a binding site.
+- [W1.68] As the strands are not symmetrically located with respect to each other, the grooves are unequally sized.
+- [W1.69] The major groove is 22 ångströms (2.2 nm) wide, while the minor groove is 12 Å (1.2 nm) in width.
+- [W1.70] Due to the larger width of the major groove, the edges of the bases are more accessible in the major groove than in the minor groove.
+- [W1.71] As a result, proteins such as transcription factors that can bind to specific sequences in double-stranded DNA usually make contact with the sides of the bases exposed in the major groove.
+- [W1.72] This situation varies in unusual conformations of DNA within the cell (see below), but the major and minor grooves are always named to reflect the differences in width that would be seen if the DNA was twisted back into the ordinary B form.
+- [W1.73] In a DNA double helix, each type of nucleobase on one strand bonds with just one type of nucleobase on the other strand.
+- [W1.74] This is called complementary base pairing.
+- [W1.75] Purines form hydrogen bonds to pyrimidines, with adenine bonding only to thymine in two hydrogen bonds, and cytosine bonding only to guanine in three hydrogen bonds.
+- [W1.76] This arrangement of two nucleotides binding together across the double helix (from six-carbon ring to six-carbon ring) is called a Watson-Crick base pair.
+- [W1.77] DNA with high GC-content is more stable than DNA with low GC-content.
+- [W1.78] A Hoogsteen base pair (hydrogen bonding the 6-carbon ring to the 5-carbon ring) is a rare variation of base-pairing.
+- [W1.79] As hydrogen bonds are not covalent, they can be broken and rejoined relatively easily.
+- [W1.80] The two strands of DNA in a double helix can thus be pulled apart like a zipper, either by a mechanical force or high temperature.
+- [W1.81] As a result of this base pair complementarity, all the information in the double-stranded sequence of a DNA helix is duplicated on each strand, which is vital in DNA replication.
+- [W1.82] This reversible and specific interaction between complementary base pairs is critical for all the functions of DNA in organisms.
+- [W1.83] Most DNA molecules are actually two polymer strands, bound together in a helical fashion by noncovalent bonds; this double-stranded (dsDNA) structure is maintained largely by the intrastrand base stacking interactions, which are strongest for G,C stacks.
+- [W1.84] The two strands can come apart—a process known as melting—to form two single-stranded DNA (ssDNA) molecules.
+- [W1.85] Melting occurs at high temperatures, low salt and high pH (low pH also melts DNA, but since DNA is unstable due to acid depurination, low pH is rarely used).
+- [W1.86] The stability of the dsDNA form depends not only on the GC-content (% G,C basepairs) but also on sequence (since stacking is sequence specific) and also length (longer molecules are more stable).
+- [W1.87] The stability can be measured in various ways; a common way is the melting temperature (also called Tm value), which is the temperature at which 50% of the double-strand molecules are converted to single-strand molecules; melting temperature is dependent on ionic strength and the concentration of DNA.
+- [W1.88] As a result, it is both the percentage of GC base pairs and the overall length of a DNA double helix that determines the strength of the association between the two strands of DNA.
+- [W1.89] Long DNA helices with a high GC-content have more strongly interacting strands, while short helices with high AT content have more weakly interacting strands.
+- [W1.90] In biology, parts of the DNA double helix that need to separate easily, such as the TATAAT Pribnow box in some promoters, tend to have a high AT content, making the strands easier to pull apart.
+- [W1.91] In the laboratory, the strength of this interaction can be measured by finding the melting temperature Tm necessary to break half of the hydrogen bonds.
+- [W1.92] When all the base pairs in a DNA double helix melt, the strands separate and exist in solution as two entirely independent molecules.
+- [W1.93] These single-stranded DNA molecules have no single common shape, but some conformations are more stable than others.
+- [W1.94] In humans, the total female diploid nuclear genome per cell extends for 6.37 Gigabase pairs (Gbp), is 208.23 cm long and weighs 6.51 picograms (pg).
+- [W1.95] Male values are 6.27 Gbp, 205.00 cm, 6.41 pg.
+- [W1.96] Each DNA polymer can contain hundreds of millions of nucleotides, such as in chromosome 1.
+- [W1.97] Chromosome 1 is the largest human chromosome with approximately 220 million base pairs, and would be 85 mm long if straightened.
+- [W1.98] In eukaryotes, in addition to nuclear DNA, there is also mitochondrial DNA (mtDNA) which encodes certain proteins used by the mitochondria.
+- [W1.99] The mtDNA is usually relatively small in comparison to the nuclear DNA.
+- [W1.100] For example, the human mitochondrial DNA forms closed circular molecules, each of which contains 16,569 DNA base pairs, with each such molecule normally containing a full set of the mitochondrial genes.
+- [W1.101] Each human mitochondrion contains, on average, approximately 5 such mtDNA molecules.
+- [W1.102] Each human cell contains approximately 100 mitochondria, giving a total number of mtDNA molecules per human cell of approximately 500.
+- [W1.103] However, the amount of mitochondria per cell also varies by cell type, and an egg cell can contain 100,000 mitochondria, corresponding to up to 1,500,000 copies of the mitochondrial genome (constituting up to 90% of the DNA of the cell).
+- [W1.104] A DNA sequence is called a "sense" sequence if it is the same as that of a messenger RNA copy that is translated into protein.
+- [W1.105] The sequence on the opposite strand is called the "antisense" sequence.
+- [W1.106] Both sense and antisense sequences can exist on different parts of the same strand of DNA (i.e. both strands can contain both sense and antisense sequences).
+- [W1.107] In both prokaryotes and eukaryotes, antisense RNA sequences are produced, but the functions of these RNAs are not entirely clear.
+- [W1.108] One proposal is that antisense RNAs are involved in regulating gene expression through RNA–RNA base pairing.
+- [W1.109] A few DNA sequences in prokaryotes and eukaryotes, and more in plasmids and viruses, blur the distinction between sense and antisense strands by having overlapping genes.
+- [W1.110] In these cases, some DNA sequences do double duty, encoding one protein when read along one strand, and a second protein when read in the opposite direction along the other strand.
+- [W1.111] In bacteria, this overlap may be involved in the regulation of gene transcription, while in viruses, overlapping genes increase the amount of information that can be encoded within the small viral genome.
+- [W1.112] DNA can be twisted like a rope in a process called DNA supercoiling.
+- [W1.113] With DNA in its "relaxed" state, a strand usually circles the axis of the double helix once every 10.4 base pairs, but if the DNA is twisted the strands become more tightly or more loosely wound.
+- [W1.114] If the DNA is twisted in the direction of the helix, this is positive supercoiling, and the bases are held more tightly together.
+- [W1.115] If they are twisted in the opposite direction, this is negative supercoiling, and the bases come apart more easily.
+- [W1.116] In nature, most DNA has slight negative supercoiling that is introduced by enzymes called topoisomerases.
+- [W1.117] These enzymes are also needed to relieve the twisting stresses introduced into DNA strands during processes such as transcription and DNA replication.
+- [W1.118] Alternative DNA structures
+- [W1.119] DNA exists in many possible conformations that include A-DNA, B-DNA, and Z-DNA forms, although only B-DNA and Z-DNA have been directly observed in functional organisms.
+- [W1.120] The conformation that DNA adopts depends on the hydration level, DNA sequence, the amount and direction of supercoiling, chemical modifications of the bases, the type and concentration of metal ions, and the presence of polyamines in solution.
+- [W1.121] The first published reports of A-DNA X-ray diffraction patterns—and also B-DNA—used analyses based on Patterson functions that provided only a limited amount of structural information for oriented fibers of DNA.
+- [W1.122] An alternative analysis was proposed by Wilkins et al. in 1953 for the in vivo B-DNA X-ray diffraction-scattering patterns of highly hydrated DNA fibers in terms of squares of Bessel functions.
+- [W1.123] In the same journal, James Watson and Francis Crick presented their molecular modeling analysis of the DNA X-ray diffraction patterns to suggest that the structure was a double helix.
+- [W1.124] Although the B-DNA form is most common under the conditions found in cells, it is not a well-defined conformation but a family of related DNA conformations that occur at the high hydration levels present in cells.
+- [W1.125] Their corresponding X-ray diffraction and scattering patterns are characteristic of molecular paracrystals with a significant degree of disorder.
+- [W1.126] Compared to B-DNA, the A-DNA form is a wider right-handed spiral, with a shallow, wide minor groove and a narrower, deeper major groove.
+- [W1.127] The A form occurs under non-physiological conditions in partly dehydrated samples of DNA, while in the cell it may be produced in hybrid pairings of DNA and RNA strands, and in enzyme-DNA complexes.
+- [W1.128] Segments of DNA where the bases have been chemically modified by methylation may undergo a larger change in conformation and adopt the Z form.
+- [W1.129] Here, the strands turn about the helical axis in a left-handed spiral, the opposite of the more common B form.
+- [W1.130] These unusual structures can be recognized by specific Z-DNA binding proteins and may be involved in the regulation of transcription.
+- [W1.131] For many years, exobiologists have proposed the existence of a shadow biosphere, a postulated microbial biosphere of Earth that uses radically different biochemical and molecular processes than currently known life.
+- [W1.132] One of the proposals was the existence of lifeforms that use arsenic instead of phosphorus in DNA.
+- [W1.133] A report in 2010 of the possibility in the bacterium GFAJ-1 was announced, though the research was disputed, and evidence suggests the bacterium actively prevents the incorporation of arsenic into the DNA backbone and other biomolecules.
+- [W1.134] At the ends of the linear chromosomes are specialized regions of DNA called telomeres.
+- [W1.135] The main function of these regions is to allow the cell to replicate chromosome ends using the enzyme telomerase, as the enzymes that normally replicate DNA cannot copy the extreme 3′ ends of chromosomes.
+- [W1.136] These specialized chromosome caps also help protect the DNA ends, and stop the DNA repair systems in the cell from treating them as damage to be corrected.
+- [W1.137] In human cells, telomeres are usually lengths of single-stranded DNA containing several thousand repeats of a simple TTAGGG sequence.
+- [W1.138] These guanine-rich sequences may stabilize chromosome ends by forming structures of stacked sets of four-base units, rather than the usual base pairs found in other DNA molecules.
+- [W1.139] Here, four guanine bases, known as a guanine tetrad, form a flat plate.
+- [W1.140] These flat four-base units then stack on top of each other to form a stable G-quadruplex structure.
+- [W1.141] These structures are stabilized by hydrogen bonding between the edges of the bases and chelation of a metal ion in the centre of each four-base unit.
+- [W1.142] Other structures can also be formed, with the central set of four bases coming from either a single strand folded around the bases, or several different parallel strands, each contributing one base to the central structure.
+- [W1.143] In addition to these stacked structures, telomeres also form large loop structures called telomere loops, or T-loops.
+- [W1.144] Here, the single-stranded DNA curls around in a long circle stabilized by telomere-binding proteins.
+- [W1.145] At the very end of the T-loop, the single-stranded telomere DNA is held onto a region of double-stranded DNA by the telomere strand disrupting the double-helical DNA and base pairing to one of the two strands.
+- [W1.146] This triple-stranded structure is called a displacement loop or D-loop.
+- [W1.147] In DNA, fraying occurs when non-complementary regions exist at the end of an otherwise complementary double-strand of DNA.
+- [W1.148] However, branched DNA can occur if a third strand of DNA is introduced and contains adjoining regions able to hybridize with the frayed regions of the pre-existing double-strand.
+- [W1.149] Although the simplest example of branched DNA involves only three strands of DNA, complexes involving additional strands and multiple branches are also possible.
+- [W1.150] Branched DNA can be used in nanotechnology to construct geometric shapes, see the section on uses in technology below.
+- [W1.151] Several artificial nucleobases have been synthesized, and successfully incorporated in the eight-base DNA analogue named Hachimoji DNA.
+- [W1.152] Dubbed S, B, P, and Z, these artificial bases are capable of bonding with each other in a predictable way (S–B and P–Z), maintain the double helix structure of DNA, and be transcribed to RNA.
+- [W1.153] Their existence could be seen as an indication that there is nothing special about the four natural nucleobases that evolved on Earth.
+- [W1.154] On the other hand, DNA is tightly related to RNA which does not only act as a transcript of DNA but also performs as molecular machines many tasks in cells.
+- [W1.155] For this purpose it has to fold into a structure.
+- [W1.156] It has been shown that to allow to create all possible structures at least four bases are required for the corresponding RNA, while a higher number is also possible but this would be against the natural principle of least effort.
+- [W1.157] The phosphate groups of DNA give it similar acidic properties to phosphoric acid and it can be considered as a strong acid.
+- [W1.158] It will be fully ionized at a normal cellular pH, releasing protons which leave behind negative charges on the phosphate groups.
+- [W1.159] These negative charges protect DNA from breakdown by hydrolysis by repelling nucleophiles which could hydrolyze it.
+- [W1.160] Pure DNA extracted from cells forms white, stringy clumps.
+- [W1.161] Chemical modifications and altered DNA packaging
+- [W1.162] Base modifications and DNA packaging
+- [W1.163] The expression of genes is influenced by how the DNA is packaged in chromosomes, in a structure called chromatin.
+- [W1.164] Base modifications can be involved in packaging, with regions that have low or no gene expression usually containing high levels of methylation of cytosine bases.
+- [W1.165] DNA packaging and its influence on gene expression can also occur by covalent modifications of the histone protein core around which DNA is wrapped in the chromatin structure or else by remodeling carried out by chromatin remodeling complexes (see Chromatin remodeling).
+- [W1.166] There is, further, crosstalk between DNA methylation and histone modification, so they can coordinately affect chromatin and gene expression.
+- [W1.167] For one example, cytosine methylation produces 5-methylcytosine, which is important for X-inactivation of chromosomes.
+- [W1.168] The average level of methylation varies between organisms—the worm Caenorhabditis elegans lacks cytosine methylation, while vertebrates have higher levels, with up to 1% of their DNA containing 5-methylcytosine.
+- [W1.169] Despite the importance of 5-methylcytosine, it can deaminate to leave a thymine base, so methylated cytosines are particularly prone to mutations.
+- [W1.170] Other base modifications include adenine methylation in bacteria, the presence of 5-hydroxymethylcytosine in the brain, and the glycosylation of uracil to produce the "J-base" in kinetoplastids.
+- [W1.171] DNA can be damaged by many sorts of mutagens, which change the DNA sequence.
+- [W1.172] Mutagens include oxidizing agents, alkylating agents and also high-energy electromagnetic radiation such as ultraviolet light and X-rays.
+- [W1.173] The type of DNA damage produced depends on the type of mutagen.
+- [W1.174] For example, UV light can damage DNA by producing thymine dimers, which are cross-links between pyrimidine bases.
+- [W1.175] On the other hand, oxidants such as free radicals or hydrogen peroxide produce multiple forms of damage, including base modifications, particularly of guanosine, and double-strand breaks.
+- [W1.176] A typical human cell contains about 150,000 bases that have suffered oxidative damage.
+- [W1.177] Of these oxidative lesions, the most dangerous are double-strand breaks, as these are difficult to repair and can produce point mutations, insertions, deletions from the DNA sequence, and chromosomal translocations.
+- [W1.178] These mutations can cause cancer.
+- [W1.179] Because of inherent limits in the DNA repair mechanisms, if humans lived long enough, they would all eventually develop cancer.
+- [W1.180] DNA damages that are naturally occurring, due to normal cellular processes that produce reactive oxygen species, the hydrolytic activities of cellular water, etc., also occur frequently.
+- [W1.181] Although most of these damages are repaired, in any cell some DNA damage may remain despite the action of repair processes.
+- [W1.182] These remaining DNA damages accumulate with age in mammalian postmitotic tissues.
+- [W1.183] This accumulation appears to be an important underlying cause of aging.
+- [W1.184] Many mutagens fit into the space between two adjacent base pairs, this is called intercalation.
+- [W1.185] Most intercalators are aromatic and planar molecules; examples include ethidium bromide, acridines, daunomycin, and doxorubicin.
+- [W1.186] For an intercalator to fit between base pairs, the bases must separate, distorting the DNA strands by unwinding of the double helix.
+- [W1.187] This inhibits both transcription and DNA replication, causing toxicity and mutations.
+- [W1.188] As a result, DNA intercalators may be carcinogens, and in the case of thalidomide, a teratogen.
+- [W1.189] Others such as benzo[a]pyrene diol epoxide and aflatoxin form DNA adducts that induce errors in replication.
+- [W1.190] Nevertheless, due to their ability to inhibit DNA transcription and replication, other similar toxins are also used in chemotherapy to inhibit rapidly growing cancer cells.
+- [W1.191] DNA usually occurs as linear chromosomes in eukaryotes, and circular chromosomes in prokaryotes.
+- [W1.192] The set of chromosomes in a cell makes up its genome; the human genome has approximately 3 billion base pairs of DNA arranged into 46 chromosomes.
+- [W1.193] The information carried by DNA is held in the sequence of pieces of DNA called genes.
+- [W1.194] Transmission of genetic information in genes is achieved via complementary base pairing.
+- [W1.195] For example, in transcription, when a cell uses the information in a gene, the DNA sequence is copied into a complementary RNA sequence through the attraction between the DNA and the correct RNA nucleotides.
+- [W1.196] Usually, this RNA copy is then used to make a matching protein sequence in a process called translation, which depends on the same interaction between RNA nucleotides.
+- [W1.197] In an alternative fashion, a cell may copy its genetic information in a process called DNA replication.
+- [W1.198] The details of these functions are covered in other articles; here the focus is on the interactions between DNA and other molecules that mediate the function of the genome.
+- [W1.199] Genomic DNA is tightly and orderly packed in the process called DNA condensation, to fit the small available volumes of the cell.
+- [W1.200] In eukaryotes, DNA is located in the cell nucleus, with small amounts in mitochondria and chloroplasts.
+- [W1.201] In prokaryotes, the DNA is held within an irregularly shaped body in the cytoplasm called the nucleoid.
+- [W1.202] The functional genetic information in a genome is located in genes, regulatory sequences, origins of replication, centromeres, telomeres, and segments required for the three-dimensional structure of chromatin.
+- [W1.203] In many complex eukaryotes, only a small fraction of the total sequence is devoted to the various functional elements.
+- [W1.204] For example, in humans less than 10% of the genome has a defined functional role and the rest (90%) is probably junk DNA.
+- [W1.205] (See also non-coding DNA.)
+- [W1.206] Transcription and translation
+- [W1.207] A gene is a sequence of DNA that contains genetic information and can influence the phenotype of an organism.
+- [W1.208] Within a gene, the sequence of bases along a DNA strand defines a messenger RNA sequence, which then defines one or more protein sequences.
+- [W1.209] The relationship between the nucleotide sequences of genes and the amino-acid sequences of proteins is determined by the rules of translation, known collectively as the genetic code.
+- [W1.210] The genetic code consists of three-letter 'words' called codons formed from a sequence of three nucleotides (e.g., ACT, CAG, TTT).
+- [W1.211] In transcription, the codons of a gene are copied into messenger RNA by RNA polymerase.
+- [W1.212] This RNA copy is then decoded by a ribosome that reads the RNA sequence by base-pairing the messenger RNA to transfer RNA, which carries amino acids.
+- [W1.213] Since there are 4 bases in 3-letter combinations, there are 64 possible codons (43 combinations).
+- [W1.214] These encode the twenty standard amino acids, giving most amino acids more than one possible codon.
+- [W1.215] There are also three 'stop' or 'nonsense' codons signifying the end of the coding region; these are the TAG, TAA, and TGA codons, (UAG, UAA, and UGA on the mRNA).
+- [W1.216] Cell division is essential for an organism to grow, but, when a cell divides, it must replicate the DNA in its genome so that the two daughter cells have the same genetic information as their parent.
+- [W1.217] The double-stranded structure of DNA provides a simple mechanism for DNA replication.
+- [W1.218] Here, the two strands are separated and then each strand's complementary DNA sequence is recreated by an enzyme called DNA polymerase.
+- [W1.219] This enzyme makes the complementary strand by finding the correct base through complementary base pairing and bonding it onto the original strand.
+- [W1.220] As DNA polymerases can only extend a DNA strand in a 5′ to 3′ direction, different mechanisms are used to copy the antiparallel strands of the double helix.
+- [W1.221] In this way, the base on the old strand dictates which base appears on the new strand, and the cell ends up with a perfect copy of its DNA.
+- [W1.222] Extracellular nucleic acids
+- [W1.223] Naked extracellular DNA (eDNA), most of it released by cell death, is nearly ubiquitous in the environment.
+- [W1.224] Its concentration in soil may be as high as 2 μg/L, and its concentration in natural aquatic environments may be as high at 88 μg/L.
+- [W1.225] Various possible functions have been proposed for eDNA: it may be involved in horizontal gene transfer; it may provide nutrients; and it may act as a buffer to recruit or titrate ions or antibiotics.
+- [W1.226] Extracellular DNA acts as a functional extracellular matrix component in the biofilms of several bacterial species.
+- [W1.227] It may act as a recognition factor to regulate the attachment and dispersal of specific cell types in the biofilm; it may contribute to biofilm formation; and it may contribute to the biofilm's physical strength and resistance to biological stress.
+- [W1.228] Cell-free fetal DNA is found in the blood of the mother, and can be sequenced to determine a great deal of information about the developing fetus.
+- [W1.229] Under the name of environmental DNA eDNA has seen increased use in the natural sciences as a survey tool for ecology, monitoring the movements and presence of species in water, air, or on land, and assessing an area's biodiversity.
+- [W1.230] Interactions with proteins
+- [W1.231] All the functions of DNA depend on interactions with proteins.
+- [W1.232] These protein interactions can be non-specific, or the protein can bind specifically to a single DNA sequence.
+- [W1.233] Enzymes can also bind to DNA and of these, the polymerases that copy the DNA base sequence in transcription and DNA replication are particularly important.
+- [W1.234] Structural proteins that bind DNA are well-understood examples of non-specific DNA-protein interactions.
+- [W1.235] Within chromosomes, DNA is held in complexes with structural proteins.
+- [W1.236] These proteins organize the DNA into a compact structure called chromatin.
+- [W1.237] In eukaryotes, this structure involves DNA binding to a complex of small basic proteins called histones, while in prokaryotes multiple types of proteins are involved.
+- [W1.238] The histones form a disk-shaped complex called a nucleosome, which contains two complete turns of double-stranded DNA wrapped around its surface.
+- [W1.239] These non-specific interactions are formed through basic residues in the histones, making ionic bonds to the acidic sugar-phosphate backbone of the DNA, and are thus largely independent of the base sequence.
+- [W1.240] Chemical modifications of these basic amino acid residues include methylation, phosphorylation, and acetylation.
+- [W1.241] These chemical changes alter the strength of the interaction between the DNA and the histones, making the DNA more or less accessible to transcription factors and changing the rate of transcription.
+- [W1.242] Other non-specific DNA-binding proteins in chromatin include the high-mobility group proteins, which bind to bent or distorted DNA.
+- [W1.243] These proteins are important in bending arrays of nucleosomes and arranging them into the larger structures that make up chromosomes.
+- [W1.244] A distinct group of DNA-binding proteins is the DNA-binding proteins that specifically bind single-stranded DNA.
+- [W1.245] In humans, replication protein A is the best-understood member of this family and is used in processes where the double helix is separated, including DNA replication, recombination, and DNA repair.
+- [W1.246] These binding proteins seem to stabilize single-stranded DNA and protect it from forming stem-loops or being degraded by nucleases.
+- [W1.247] In contrast, other proteins have evolved to bind to particular DNA sequences.
+- [W1.248] The most intensively studied of these are the various transcription factors, which are proteins that regulate transcription.
+- [W1.249] Each transcription factor binds to one particular set of DNA sequences and activates or inhibits the transcription of genes that have these sequences close to their promoters.
+- [W1.250] The transcription factors do this in two ways.
+- [W1.251] Firstly, they can bind the RNA polymerase responsible for transcription, either directly or through other mediator proteins; this locates the polymerase at the promoter and allows it to begin transcription.
+- [W1.252] Alternatively, transcription factors can bind enzymes that modify the histones at the promoter.
+- [W1.253] This changes the accessibility of the DNA template to the polymerase.
+- [W1.254] As these DNA targets can occur throughout an organism's genome, changes in the activity of one type of transcription factor can affect thousands of genes.
+- [W1.255] Consequently, these proteins are often the targets of the signal transduction processes that control responses to environmental changes or cellular differentiation and development.
+- [W1.256] The specificity of these transcription factors' interactions with DNA come from the proteins making multiple contacts to the edges of the DNA bases, allowing them to "read" the DNA sequence.
+- [W1.257] Most of these base-interactions are made in the major groove, where the bases are most accessible.
+- [W1.258] Nucleases are enzymes that cut DNA strands by catalyzing the hydrolysis of the phosphodiester bonds.
+- [W1.259] Nucleases that hydrolyse nucleotides from the ends of DNA strands are called exonucleases, while endonucleases cut within strands.
+- [W1.260] The most frequently used nucleases in molecular biology are the restriction endonucleases, which cut DNA at specific sequences.
+- [W1.261] For instance, the EcoRV enzyme shown to the left recognizes the 6-base sequence 5′-GATATC-3′ and makes a cut at the horizontal line.
+- [W1.262] In nature, these enzymes protect bacteria against phage infection by digesting the phage DNA when it enters the bacterial cell, acting as part of the restriction modification system.
+- [W1.263] In technology, these sequence-specific nucleases are used in molecular cloning and DNA fingerprinting.
+- [W1.264] Enzymes called DNA ligases can rejoin cut or broken DNA strands.
+- [W1.265] Ligases are particularly important in lagging strand DNA replication, as they join the short segments of DNA produced at the replication fork into a complete copy of the DNA template.
+- [W1.266] They are also used in DNA repair and genetic recombination.
+- [W1.267] Topoisomerases and helicases
+- [W1.268] Topoisomerases are enzymes with both nuclease and ligase activity.
+- [W1.269] These proteins change the amount of supercoiling in DNA.
+- [W1.270] Some of these enzymes work by cutting the DNA helix and allowing one section to rotate, thereby reducing its level of supercoiling; the enzyme then seals the DNA break.
+- [W1.271] Other types of these enzymes are capable of cutting one DNA helix and then passing a second strand of DNA through this break, before rejoining the helix.
+- [W1.272] Topoisomerases are required for many processes involving DNA, such as DNA replication and transcription.
+- [W1.273] Helicases are proteins that are a type of molecular motor.
+- [W1.274] They use the chemical energy in nucleoside triphosphates, predominantly adenosine triphosphate (ATP), to break hydrogen bonds between bases and unwind the DNA double helix into single strands.
+- [W1.275] These enzymes are essential for most processes where enzymes need to access the DNA bases.
+- [W1.276] Polymerases are enzymes that synthesize polynucleotide chains from nucleoside triphosphates.
+- [W1.277] The sequence of their products is created based on existing polynucleotide chains—which are called templates.
+- [W1.278] These enzymes function by repeatedly adding a nucleotide to the 3′ hydroxyl group at the end of the growing polynucleotide chain.
+- [W1.279] As a consequence, all polymerases work in a 5′ to 3′ direction.
+- [W1.280] In the active site of these enzymes, the incoming nucleoside triphosphate base-pairs to the template: this allows polymerases to accurately synthesize the complementary strand of their template.
+- [W1.281] Polymerases are classified according to the type of template that they use.
+- [W1.282] In DNA replication, DNA-dependent DNA polymerases make copies of DNA polynucleotide chains.
+- [W1.283] To preserve biological information, it is essential that the sequence of bases in each copy are precisely complementary to the sequence of bases in the template strand.
+- [W1.284] Many DNA polymerases have a proofreading activity.
+- [W1.285] Here, the polymerase recognizes the occasional mistakes in the synthesis reaction by the lack of base pairing between the mismatched nucleotides.
+- [W1.286] If a mismatch is detected, a 3′ to 5′ exonuclease activity is activated and the incorrect base removed.
+- [W1.287] In most organisms, DNA polymerases function in a large complex called the replisome that contains multiple accessory subunits, such as the DNA clamp or helicases.
+- [W1.288] RNA-dependent DNA polymerases are a specialized class of polymerases that copy the sequence of an RNA strand into DNA.
+- [W1.289] They include reverse transcriptase, which is a viral enzyme involved in the infection of cells by retroviruses, and telomerase, which is required for the replication of telomeres.
+- [W1.290] For example, HIV reverse transcriptase is an enzyme for AIDS virus replication.
+- [W1.291] Telomerase is an unusual polymerase because it contains its own RNA template as part of its structure.
+- [W1.292] It synthesizes telomeres at the ends of chromosomes.
+- [W1.293] Telomeres prevent fusion of the ends of neighboring chromosomes and protect chromosome ends from damage.
+- [W1.294] Transcription is carried out by a DNA-dependent RNA polymerase that copies the sequence of a DNA strand into RNA.
+- [W1.295] To begin transcribing a gene, the RNA polymerase binds to a sequence of DNA called a promoter and separates the DNA strands.
+- [W1.296] It then copies the gene sequence into a messenger RNA transcript until it reaches a region of DNA called the terminator, where it halts and detaches from the DNA.
+- [W1.297] As with human DNA-dependent DNA polymerases, RNA polymerase II, the enzyme that transcribes most of the genes in the human genome, operates as part of a large protein complex with multiple regulatory and accessory subunits.
+- [W1.298] A DNA helix usually does not interact with other segments of DNA, and in human cells, the different chromosomes even occupy separate areas in the nucleus called "chromosome territories".
+- [W1.299] This physical separation of different chromosomes is important for the ability of DNA to function as a stable repository for information, as one of the few times chromosomes interact is in chromosomal crossover which occurs during sexual reproduction, when genetic recombination occurs.
+- [W1.300] Chromosomal crossover is when two DNA helices break, swap a section and then rejoin.
+- [W1.301] Recombination allows chromosomes to exchange genetic information and produces new combinations of genes, which increases the efficiency of natural selection and can be important in the rapid evolution of new proteins.
+- [W1.302] Genetic recombination can also be involved in DNA repair, particularly in the cell's response to double-strand breaks.
+- [W1.303] The most common form of chromosomal crossover is homologous recombination, where the two chromosomes involved share very similar sequences.
+- [W1.304] Non-homologous recombination can be damaging to cells, as it can produce chromosomal translocations and genetic abnormalities.
+- [W1.305] The recombination reaction is catalyzed by enzymes known as recombinases, such as RAD51.
+- [W1.306] The first step in recombination is a double-stranded break caused by either an endonuclease or damage to the DNA.
+- [W1.307] A series of steps catalyzed in part by the recombinase then leads to joining of the two helices by at least one Holliday junction, in which a segment of a single strand in each helix is annealed to the complementary strand in the other helix.
+- [W1.308] The Holliday junction is a tetrahedral junction structure that can be moved along the pair of chromosomes, swapping one strand for another.
+- [W1.309] The recombination reaction is then halted by cleavage of the junction and re-ligation of the released DNA.
+- [W1.310] Only strands of like polarity exchange DNA during recombination.
+- [W1.311] There are two types of cleavage: east–west cleavage and north–south cleavage.
+- [W1.312] The north–south cleavage nicks both strands of DNA, while the east–west cleavage has one strand of DNA intact.
+- [W1.313] The formation of a Holliday junction during recombination makes it possible for genetic diversity, genes to exchange on chromosomes, and expression of wild-type viral genomes.
+- [W1.314] DNA contains the genetic information that allows all forms of life to function, grow and reproduce.
+- [W1.315] However, it is unclear how long in the 4-billion-year history of life DNA has performed this function, as it has been proposed that the earliest forms of life may have used RNA as their genetic material.
+- [W1.316] RNA may have acted as the central part of early cell metabolism as it can both transmit genetic information and carry out catalysis as part of ribozymes.
+- [W1.317] This ancient RNA world where nucleic acid would have been used for both catalysis and genetics may have influenced the evolution of the current genetic code based on four nucleotide bases.
+- [W1.318] This would occur, since the number of different bases in such an organism is a trade-off between a small number of bases increasing replication accuracy and a large number of bases increasing the catalytic efficiency of ribozymes.
+- [W1.319] However, there is no direct evidence of ancient genetic systems, as recovery of DNA from most fossils is impossible because DNA survives in the environment for less than one million years, and slowly degrades into short fragments in solution.
+- [W1.320] Claims for older DNA have been made, most notably a report of the isolation of a viable bacterium from a salt crystal 250 million years old, but these claims are controversial.
+- [W1.321] Building blocks of DNA (adenine, guanine, and related organic molecules) may have been formed extraterrestrially in outer space.
+- [W1.322] Complex DNA and RNA organic compounds of life, including uracil, cytosine, and thymine, have also been formed in the laboratory under conditions mimicking those found in outer space, using starting chemicals, such as pyrimidine, found in meteorites.
+- [W1.323] Pyrimidine, like polycyclic aromatic hydrocarbons (PAHs), the most carbon-rich chemical found in the universe, may have been formed in red giants or in interstellar cosmic dust and gas clouds.
+- [W1.324] Ancient DNA has been recovered from ancient organisms at a timescale where genome evolution can be directly observed, including from extinct organisms up to millions of years old, such as the woolly mammoth.
+- [W1.325] Methods have been developed to purify DNA from organisms, such as phenol-chloroform extraction, and to manipulate it in the laboratory, such as restriction digests and the polymerase chain reaction.
+- [W1.326] Modern biology and biochemistry make intensive use of these techniques in recombinant DNA technology.
+- [W1.327] Recombinant DNA is a man-made DNA sequence that has been assembled from other DNA sequences.
+- [W1.328] They can be transformed into organisms in the form of plasmids or in the appropriate format, by using a viral vector.
+- [W1.329] The genetically modified organisms produced can be used to produce products such as recombinant proteins, used in medical research, or be grown in agriculture.
+- [W1.330] Forensic scientists can use DNA in blood, semen, skin, saliva or hair found at a crime scene to identify a matching DNA of an individual, such as a perpetrator.
+- [W1.331] This process is formally termed DNA profiling, also called DNA fingerprinting.
+- [W1.332] In DNA profiling, the lengths of variable sections of repetitive DNA, such as short tandem repeats and minisatellites, are compared between people.
+- [W1.333] This method is usually an extremely reliable technique for identifying a matching DNA.
+- [W1.334] However, identification can be complicated if the scene is contaminated with DNA from several people.
+- [W1.335] DNA profiling was developed in 1984 by British geneticist Sir Alec Jeffreys, and first used in forensic science to convict Colin Pitchfork in the 1988 Enderby murders case.
+- [W1.336] The development of forensic science and the ability to now obtain genetic matching on minute samples of blood, skin, saliva, or hair has led to re-examining many cases.
+- [W1.337] Evidence can now be uncovered that was scientifically impossible at the time of the original examination.
+- [W1.338] Combined with the removal of the double jeopardy law in some places, this can allow cases to be reopened where prior trials have failed to produce sufficient evidence to convince a jury.
+- [W1.339] People charged with serious crimes may be required to provide a sample of DNA for matching purposes.
+- [W1.340] The most obvious defense to DNA matches obtained forensically is to claim that cross-contamination of evidence has occurred.
+- [W1.341] This has resulted in meticulous strict handling procedures with new cases of serious crime.
+- [W1.342] DNA profiling is also used successfully to positively identify victims of mass casualty incidents, bodies or body parts in serious accidents, and individual victims in mass war graves, via matching to family members.
+- [W1.343] DNA profiling is also used in DNA paternity testing to determine if someone is the biological parent or grandparent of a child with the probability of parentage is typically 99.99% when the alleged parent is biologically related to the child.
+- [W1.344] Usually DNA sequencing are carried out after birth, but there are new methods to test paternity while a mother is still pregnant.
+- [W1.345] DNA enzymes or catalytic DNA
+- [W1.346] Deoxyribozymes, also called DNAzymes or catalytic DNA, were first discovered in 1994.
+- [W1.347] They are mostly single stranded DNA sequences isolated from a large pool of random DNA sequences through a combinatorial approach called in vitro selection or systematic evolution of ligands by exponential enrichment (SELEX).
+- [W1.348] DNAzymes catalyze variety of chemical reactions including RNA-DNA cleavage, RNA-DNA ligation, amino acids phosphorylation-dephosphorylation, carbon-carbon bond formation, etc.
+- [W1.349] DNAzymes can enhance catalytic rate of chemical reactions up to 100,000,000,000-fold over the uncatalyzed reaction.
+- [W1.350] The most extensively studied class of DNAzymes is RNA-cleaving types which have been used to detect different metal ions and designing therapeutic agents.
+- [W1.351] Several metal-specific DNAzymes have been reported including the GR-5 DNAzyme (lead-specific), the CA1-3 DNAzymes (copper-specific), the 39E DNAzyme (uranyl-specific) and the NaA43 DNAzyme (sodium-specific).
+- [W1.352] The NaA43 DNAzyme, which is reported to be more than 10,000-fold selective for sodium over other metal ions, was used to make a real-time sodium sensor in cells.
+- [W1.353] Bioinformatics involves the development of techniques to store, data mine, search and manipulate biological data, including DNA nucleic acid sequence data.
+- [W1.354] These have led to widely applied advances in computer science, especially string searching algorithms, machine learning, and database theory.
+- [W1.355] String searching or matching algorithms, which find an occurrence of a sequence of letters inside a larger sequence of letters, were developed to search for specific sequences of nucleotides.
+- [W1.356] The DNA sequence may be aligned with other DNA sequences to identify homologous sequences and locate the specific mutations that make them distinct.
+- [W1.357] These techniques, especially multiple sequence alignment, are used in studying phylogenetic relationships and protein function.
+- [W1.358] Data sets representing entire genomes' worth of DNA sequences, such as those produced by the Human Genome Project, are difficult to use without the annotations that identify the locations of genes and regulatory elements on each chromosome.
+- [W1.359] Regions of DNA sequence that have the characteristic patterns associated with protein- or RNA-coding genes can be identified by gene finding algorithms, which allow researchers to predict the presence of particular gene products and their possible functions in an organism even before they have been isolated experimentally.
+- [W1.360] Entire genomes may also be compared, which can shed light on the evolutionary history of particular organism and permit the examination of complex evolutionary events.
+- [W1.361] DNA nanotechnology uses the unique molecular recognition properties of DNA and other nucleic acids to create self-assembling branched DNA complexes with useful properties.
+- [W1.362] DNA is thus used as a structural material rather than as a carrier of biological information.
+- [W1.363] This has led to the creation of two-dimensional periodic lattices (both tile-based and using the DNA origami method) and three-dimensional structures in the shapes of polyhedra.
+- [W1.364] Nanomechanical devices and algorithmic self-assembly have also been demonstrated, and these DNA structures have been used to template the arrangement of other molecules such as gold nanoparticles and streptavidin proteins.
+- [W1.365] DNA and other nucleic acids are the basis of aptamers, synthetic oligonucleotide ligands for specific target molecules used in a range of biotechnology and biomedical applications.
+- [W1.366] Because DNA collects mutations over time, which are then inherited, it contains historical information, and, by comparing DNA sequences, geneticists can infer the evolutionary history of organisms, their phylogeny.
+- [W1.367] This field of phylogenetics is a powerful tool in evolutionary biology.
+- [W1.368] If DNA sequences within a species are compared, population geneticists can learn the history of particular populations.
+- [W1.369] This can be used in studies ranging from ecological genetics to anthropology.
+- [W1.370] DNA as a storage device for information has enormous potential since it has much higher storage density compared to electronic devices.
+- [W1.371] However, high costs, slow read and write times (memory latency), and insufficient reliability has prevented its practical use.
+- [W1.372] DNA was first isolated by the Swiss physician Friedrich Miescher who, in 1869, discovered a microscopic substance in the pus of discarded surgical bandages.
+- [W1.373] As it resided in the nuclei of cells, he called it "nuclein".
+- [W1.374] In 1878, Albrecht Kossel isolated the non-protein component of "nuclein", nucleic acid, and later isolated its five primary nucleobases.
+- [W1.375] In 1909, Phoebus Levene identified the base, sugar, and phosphate nucleotide unit of RNA (then named "yeast nucleic acid").
+- [W1.376] In 1929, Levene identified deoxyribose sugar in "thymus nucleic acid" (DNA).
+- [W1.377] Levene suggested that DNA consisted of a string of four nucleotide units linked together through the phosphate groups ("Tetranucleotide hypothesis").
+- [W1.378] Levene thought the chain was short and the bases repeated in a fixed order.
+- [W1.379] In 1927, Nikolai Koltsov proposed that inherited traits would be inherited via a "giant hereditary molecule" made up of "two mirror strands that would replicate in a semi-conservative fashion using each strand as a template".
+- [W1.380] In 1928, Frederick Griffith in his experiment discovered that traits of the "smooth" form of Pneumococcus could be transferred to the "rough" form of the same bacteria by mixing killed "smooth" bacteria with the live "rough" form.
+- [W1.381] This system provided the first clear suggestion that DNA carries genetic information.
+- [W1.382] In 1933, while studying virgin sea urchin eggs, Jean Brachet suggested that DNA is found in the cell nucleus and that RNA is present exclusively in the cytoplasm.
+- [W1.383] At the time, "yeast nucleic acid" (RNA) was thought to occur only in plants, while "thymus nucleic acid" (DNA) only in animals.
+- [W1.384] The latter was thought to be a tetramer, with the function of buffering cellular pH.
+- [W1.385] In 1937, William Astbury produced the first X-ray diffraction patterns that showed that DNA had a regular structure.
+- [W1.386] In 1943, Oswald Avery, along with co-workers Colin MacLeod and Maclyn McCarty, identified DNA as the transforming principle, supporting Griffith's suggestion (Avery–MacLeod–McCarty experiment).
+- [W1.387] Erwin Chargaff developed and published observations now known as Chargaff's rules, stating that in DNA from any species of any organism, the amount of guanine should be equal to cytosine and the amount of adenine should be equal to thymine.
+- [W1.388] By 1951, Alec Todd and collaborators at the University of Cambridge had determined by biochemical methods how the backbone of DNA is structured via the successive linking of carbon atoms 3 and 5 of the sugar to phosphates.
+- [W1.389] This would help to corroborate Watson and Crick's later X-ray structural work.
+- [W1.390] Todd would later be awarded the 1957 Nobel Prize in Chemistry for this and other discoveries related to DNA.
+- [W1.391] Late in 1951, Francis Crick started working with James Watson at the Cavendish Laboratory within the University of Cambridge.
+- [W1.392] DNA's role in heredity was confirmed in 1952 when Alfred Hershey and Martha Chase in the Hershey–Chase experiment showed that DNA is the genetic material of the enterobacteria phage T2.
+- [W1.393] In May 1952, Raymond Gosling, a graduate student working under the supervision of Rosalind Franklin, took an X-ray diffraction image, labeled as "Photo 51", at high hydration levels of DNA.
+- [W1.394] This photo was given to Watson and Crick by Maurice Wilkins and was critical to their obtaining the correct structure of DNA.
+- [W1.395] Franklin told Crick and Watson that the backbones had to be on the outside.
+- [W1.396] Before then, Linus Pauling, and Watson and Crick, had erroneous models with the chains inside and the bases pointing outwards.
+- [W1.397] Franklin's identification of the space group for DNA crystals proved her correct.
+- [W1.398] In February 1953, Linus Pauling and Robert Corey proposed a model for nucleic acids containing three intertwined chains, with the phosphates near the axis, and the bases on the outside.
+- [W1.399] Watson and Crick completed their model, which is now accepted as the first correct model of the double helix of DNA.
+- [W1.400] On 28 February 1953 Crick interrupted patrons' lunchtime at The Eagle pub in Cambridge, England to announce that he and Watson had "discovered the secret of life".
+- [W1.401] The 25 April 1953 issue of the journal Nature published a series of five articles giving the Watson and Crick double-helix structure DNA and evidence supporting it.
+- [W1.402] The structure was reported in a letter in which they stated, "It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material." This letter was followed by a letter from Franklin and Gosling, which was the first publication of their own X-ray diffraction data and of their original analysis method.
+- [W1.403] Then followed a letter by Wilkins and two of his colleagues, which contained an analysis of in vivo B-DNA X-ray patterns, and which supported the presence in vivo of the Watson and Crick structure.
+- [W1.404] In April 2023, scientists, based on new evidence, concluded that Rosalind Franklin was a contributor and "equal player" in the discovery process of DNA, rather than otherwise, as may have been presented subsequently after the time of the discovery.
+- [W1.405] In 1962, after Franklin's death, Watson, Crick, and Wilkins jointly received the Nobel Prize in Physiology or Medicine.
+- [W1.406] Nobel Prizes are awarded only to living recipients.
+- [W1.407] A debate continues about who should receive credit for the discovery.
+- [W1.408] In an influential presentation in 1957, Crick laid out the central dogma of molecular biology, which foretold the relationship between DNA, RNA, and proteins, and articulated the "adaptor hypothesis".
+- [W1.409] Final confirmation of the replication mechanism that was implied by the double-helical structure followed in 1958 through the Meselson–Stahl experiment.
+- [W1.410] Further work by Crick and co-workers showed that the genetic code was based on non-overlapping triplets of bases, called codons, allowing Har Gobind Khorana, Robert W.
+- [W1.411] Holley, and Marshall Warren Nirenberg to decipher the genetic code.
+- [W1.412] These findings represent the birth of molecular biology.
+- [W1.413] In 1986, DNA analysis was first used in a criminal investigation when police in the UK requested Alec Jeffreys of the University of Leicester to prove or disprove the involvement in a particular case of a suspect who claimed innocence in the matter.
+- [W1.414] Although the suspect had already confessed to committing a recent rape-murder, he was denying any involvement in a similar crime committed three years earlier.
+- [W1.415] Yet the details of the two cases were so alike that the police concluded both crimes had been committed by the same person.
+- [W1.416] However, all charges against the suspect were dropped when Jeffreys' DNA testing exonerated the suspect—from both the earlier murder and the one to which he'd confessed.
+- [W1.417] Further such DNA profiling led to positive identification of another suspect (Colin Pitchfork) who, in 1988, was found guilty of both rape-murders.
+- [W1.418] DNA binding site prediction on protein
+- [W1.419] DNA the Double Helix Game From the official Nobel Prize web site
+- [W1.420] DNA under electron microscope
+- [W1.421] Double Helix: 50 years of DNA, Nature
+- [W1.422] ENCODE threads explorer ENCODE home page at Nature
+- [W1.423] Double Helix 1953–2003 National Centre for Biotechnology Education
+- [W1.424] Genetic Education Modules for Teachers – DNA from the Beginning Study Guide
+- [W1.425] PDB Molecule of the Month DNA
+- [W1.426] "Clue to chemistry of heredity found".
+- [W1.427] The New York Times, June 1953.
+- [W1.428] First American newspaper coverage of the discovery of the DNA structure
+- [W1.429] DNA from the Beginning Another DNA Learning Center site on DNA, genes, and heredity from Mendel to the human genome project.
+- [W1.430] The Register of Francis Crick Personal Papers 1938 – 2007 at Mandeville Special Collections Library, University of California, San Diego
+- [W1.431] Seven-page, handwritten letter that Crick sent to his 12-year-old son Michael in 1953 describing the structure of DNA.
+- [W1.432] See Crick's medal goes under the hammer, Nature, 5 April 2013.
+
+## [W2] Wikipedia: Base pair
+https://en.wikipedia.org/w/index.php?title=Base_pair&oldid=1366209849 · CC BY-SA 4.0 · usage: ai_input
+
+- [W2.1] A base pair (bp) is a fundamental unit of double-stranded nucleic acids consisting of two nucleobases bound to each other by hydrogen bonds.
+- [W2.2] They form the building blocks of the DNA double helix and contribute to the folded structure of both DNA and RNA.
+- [W2.3] Dictated by specific hydrogen bonding patterns, "Watson–Crick" (or "Watson–Crick–Franklin") base pairs (guanine–cytosine and adenine–thymine/uracil) allow the DNA helix to maintain a regular helical structure that is subtly dependent on its nucleotide sequence.
+- [W2.4] The complementary nature of this based-paired structure provides a redundant copy of the genetic information encoded within each strand of DNA.
+- [W2.5] The regular structure and data redundancy provided by the DNA double helix make DNA well suited to the storage of genetic information, while base-pairing between DNA and incoming nucleotides provides the mechanism through which DNA polymerase replicates DNA and RNA polymerase transcribes DNA into RNA.
+- [W2.6] Many DNA-binding proteins can recognize specific base-pairing patterns that identify particular regulatory regions of genes.
+- [W2.7] Intramolecular base pairs can occur within single-stranded nucleic acids.
+- [W2.8] This is particularly important in RNA molecules (e.g., transfer RNA), where Watson–Crick base pairs (guanine–cytosine and adenine-uracil) permit the formation of short double-stranded helices, and a wide variety of non–Watson–Crick interactions (e.g., G–U or A–A) allow RNAs to fold into a vast range of specific three-dimensional structures.
+- [W2.9] In addition, base-pairing between transfer RNA (tRNA) and messenger RNA (mRNA) forms the basis for the molecular recognition events that result in the nucleotide sequence of mRNA becoming translated into the amino acid sequence of proteins via the genetic code.
+- [W2.10] The size of an individual gene or an organism's entire genome is often measured in base pairs because DNA is usually double-stranded.
+- [W2.11] Hence, the number of total base pairs is equal to the number of nucleotides in one of the strands (with the exception of non-coding single-stranded regions of telomeres).
+- [W2.12] The haploid human genome (23 chromosomes) is estimated to be about 3.2 billion base pairs long and to contain 20,000–25,000 distinct protein-coding genes.
+- [W2.13] A kilobase (kb) is a unit of measurement in molecular biology equal to 1000 base pairs of DNA or RNA.
+- [W2.14] The total number of DNA base pairs on Earth is estimated at 5.0×1037 with a weight of 50 billion tonnes.
+- [W2.15] In comparison, the total mass of the biosphere has been estimated to be as much as 4 TtC (trillion tons of carbon).
+- [W2.16] This article employs the "•" character in describing any noncovalant interaction, which includes all types of base pairs, in line with IUPAC's 1970 recommendation.
+- [W2.17] According to IUPAC, "-" is not acceptable because it implies covalent linkage and neither are ":" and "/" because they can be mistaken as ratios.
+- [W2.18] Not using any symbol is also unacceptable because it can be confused with a (covalent) polymer sequence.
+- [W2.19] IUPAC makes no specific recommendation for differentiating types of noncovalant bonds.
+- [W2.20] When it is necessary to differentiate, this article uses "*" for the Hogsteen pair.
+- [W2.21] Hydrogen bonding and stability
+- [W2.22] Hydrogen bonding is the chemical interaction that underlies the base-pairing rules described above.
+- [W2.23] Appropriate geometrical correspondence of hydrogen bond donors and acceptors allows only the "right" pairs to form stably.
+- [W2.24] DNA with high GC-content is more stable than DNA with low GC-content.
+- [W2.25] Crucially, however, stacking interactions are primarily responsible for stabilising the double-helical structure; Watson-Crick base pairing's contribution to global structural stability is minimal, but its role in the specificity underlying complementarity is, by contrast, of maximal importance as this underlies the template-dependent processes of the central dogma (e.g.
+- [W2.26] The bigger nucleobases, adenine and guanine, are members of a class of double-ringed chemical structures called purines; the smaller nucleobases, cytosine and thymine (and uracil), are members of a class of single-ringed chemical structures called pyrimidines.
+- [W2.27] Purines are complementary only with pyrimidines: pyrimidine–pyrimidine pairings are energetically unfavorable because the molecules are too far apart for hydrogen bonding to be established; purine–purine pairings are energetically unfavorable because the molecules are too close, leading to overlap repulsion.
+- [W2.28] Purine–pyrimidine base-pairing of AT or GC or UA (in RNA) results in proper duplex structure.
+- [W2.29] The only other purine–pyrimidine pairings would be AC and GT and UG (in RNA); these pairings are mismatches because the patterns of hydrogen donors and acceptors do not correspond.
+- [W2.30] The GU pairing, with two hydrogen bonds, does occur fairly often in RNA (see wobble base pair).
+- [W2.31] Paired DNA and RNA molecules are comparatively stable at room temperature, but the two nucleotide strands will separate above a melting point that is determined by the length of the molecules, the extent of mispairing (if any), and the GC content.
+- [W2.32] Higher GC content results in higher melting temperatures; it is, therefore, unsurprising that the genomes of extremophile organisms such as Thermus thermophilus are particularly GC-rich.
+- [W2.33] On the converse, regions of a genome that need to separate frequently—for example, the promoter regions for often-transcribed genes—are comparatively GC-poor (for example, see TATA box).
+- [W2.34] GC content and melting temperature must also be taken into account when designing  primers for PCR reactions.
+- [W2.35] The following DNA sequences illustrate pair double-stranded patterns.
+- [W2.36] By convention, the top strand is written from the 5′-end to the 3′-end; thus, the bottom strand (complementary strand) is written 3′ to 5′.
+- [W2.37] A base-paired DNA sequence:
+- [W2.38] The corresponding RNA sequence, in which uracil is substituted for thymine in the RNA strand:
+- [W2.39] Non-canonical base pairing
+- [W2.40] In addition to the canonical Watson–Crick pairing (A•T/U G•C), some conditions can also favour base-pairing with alternative base orientation, and number and geometry of hydrogen bonds.
+- [W2.41] These pairings are accompanied by alterations to the local backbone shape.
+- [W2.42] The most common of these is the wobble base pairing that occurs between tRNAs and mRNAs at the third base position of many codons during transcription and during the charging of tRNAs by some tRNA synthetases.
+- [W2.43] They have also been observed in the secondary structures of some RNA sequences.
+- [W2.44] Additionally, Hoogsteen base pairing (typically written as A*U/T and G*C) can happen when a different "face" of a purine base is used for pairing.
+- [W2.45] This happens in some DNA sequences (e.g.
+- [W2.46] CA and TA dinucleotides) in dynamic equilibrium with standard Watson–Crick pairing.
+- [W2.47] They have also been observed in some protein–DNA complexes.
+- [W2.48] There is also a kind of reverse Hoogsteen base pair in tRNA where both a purine and a pyrimidine uses a different "face".
+- [W2.49] In addition to these alternative base pairings, a wide range of base-base hydrogen bonding is observed in RNA secondary and tertiary structure.
+- [W2.50] These bonds are often necessary for the precise, complex shape of an RNA, as well as its binding to interaction partners.
+- [W2.51] Mismatched base pairs can be generated by errors of DNA replication and as intermediates during homologous recombination.
+- [W2.52] The process of mismatch repair ordinarily must recognize and correctly repair a small number of base mispairs within a long sequence of normal DNA base pairs.
+- [W2.53] To repair mismatches formed during DNA replication, several distinctive repair processes have evolved to distinguish between the template strand and the newly formed strand so that only the newly inserted incorrect nucleotide is removed (in order to avoid generating a mutation).
+- [W2.54] The proteins employed in mismatch repair during DNA replication, and the clinical significance of defects in this process are described in the article DNA mismatch repair.
+- [W2.55] The process of mispair correction during recombination is described in the article gene conversion.
+- [W2.56] Base analogs and intercalators
+- [W2.57] Chemical analogs of nucleotides can take the place of proper nucleotides and establish non-canonical base-pairing, leading to errors (mostly point mutations) in DNA replication and DNA transcription.
+- [W2.58] This is due to their isosteric chemistry.
+- [W2.59] One common mutagenic base analog is 5-bromouracil, which resembles thymine but can base-pair to guanine in its enol form.
+- [W2.60] Other chemicals, known as DNA intercalators, fit into the gap between adjacent bases on a single strand and induce frameshift mutations by "masquerading" as a base, causing the DNA replication machinery to skip or insert additional nucleotides at the intercalated site.
+- [W2.61] Most intercalators are large polyaromatic compounds and are known or suspected carcinogens.
+- [W2.62] Examples include ethidium bromide and acridine.
+- [W2.63] The following abbreviations are commonly used to describe the length of a D/RNA molecule:
+- [W2.64] bp  = base pair—one bp corresponds to approximately 3.4 Å (340 pm) of length along the strand, and to roughly 618 or 643 daltons for DNA and RNA respectively.
+- [W2.65] kb (= kbp) = kilo–base-pair = 1,000 bp
+- [W2.66] Mb (= Mbp) = mega–base-pair = 1,000,000 bp
+- [W2.67] Gb (= Gbp) = giga–base-pair = 1,000,000,000 bp
+- [W2.68] For single-stranded DNA/RNA, units of nucleotides are used—abbreviated nt (or knt, Mnt, Gnt)—as they are not paired.
+- [W2.69] To distinguish between units of computer storage and bases, kbp, Mbp, Gbp, etc. may be used for base pairs.
+- [W2.70] The centimorgan is also often used to imply distance along a chromosome, but the number of base pairs it corresponds to varies widely depending on the patterns of chromosomal crossover.
+- [W2.71] In the human genome, the centimorgan is about 1 million base pairs.
+- [W2.72] An unnatural base pair (UBP) is a designed subunit (or nucleobase) of DNA which is created in a laboratory and does not occur in nature.
+- [W2.73] DNA sequences have been described which use newly created nucleobases to form a third base pair, in addition to the two base pairs found in nature, A•T (adenine – thymine) and G•C (guanine – cytosine).
+- [W2.74] A few research groups have been searching for a third base pair for DNA, including teams led by Steven A.
+- [W2.75] Benner, Philippe Marliere, Floyd E.
+- [W2.76] Romesberg and Ichiro Hirao.
+- [W2.77] Some new base pairs based on alternative hydrogen bonding, hydrophobic interactions and metal coordination have been reported.
+- [W2.78] In 1989 Steven Benner (then working at the Swiss Federal Institute of Technology in Zurich) and his team led with modified forms of cytosine and guanine into DNA molecules in vitro.
+- [W2.79] The nucleotides, which encoded RNA and proteins, were successfully replicated in vitro.
+- [W2.80] Since then, Benner's team has been trying to engineer cells that can make foreign bases from scratch, obviating the need for a feedstock.
+- [W2.81] In 2002, Ichiro Hirao's group in Japan developed an unnatural base pair between 2-amino-8-(2-thienyl)purine (s) and pyridine-2-one (y) that functions in transcription and translation, for the site-specific incorporation of non-standard amino acids into proteins.
+- [W2.82] In 2006, they created 7-(2-thienyl)imidazo[4,5-b]pyridine (Ds) and pyrrole-2-carbaldehyde (Pa) as a third base pair for replication and transcription.
+- [W2.83] Afterward, Ds and 4-[3-(6-aminohexanamido)-1-propynyl]-2-nitropyrrole (Px) was discovered as a high fidelity pair in PCR amplification.
+- [W2.84] In 2013, they applied the Ds-Px pair to DNA aptamer generation by in vitro selection (SELEX) and demonstrated the genetic alphabet expansion significantly augment DNA aptamer affinities to target proteins.
+- [W2.85] In 2012, a group of American scientists led by Floyd Romesberg, a chemical biologist at the Scripps Research Institute in San Diego, California, published that his team designed an unnatural base pair (UBP).
+- [W2.86] The two new artificial nucleotides or Unnatural Base Pair (UBP) were named d5SICS and dNaM.
+- [W2.87] More technically, these artificial nucleotides bearing hydrophobic nucleobases, feature two fused aromatic rings that form a (d5SICS–dNaM) complex or base pair in DNA.
+- [W2.88] His team designed a variety of in vitro or "test tube" templates containing the unnatural base pair and they confirmed that it was efficiently replicated with high fidelity in virtually all sequence contexts using the modern standard in vitro techniques, namely PCR amplification of DNA and PCR-based applications.
+- [W2.89] Their results show that for PCR and PCR-based applications, the d5SICS–dNaM unnatural base pair is functionally equivalent to a natural base pair, and when combined with the other two natural base pairs used by all organisms, A–T and G–C, they provide a fully functional and expanded six-letter "genetic alphabet".
+- [W2.90] In 2014 the same team from the Scripps Research Institute reported that they synthesized a stretch of circular DNA known as a plasmid containing natural T-A and C-G base pairs along with the best-performing UBP Romesberg's laboratory had designed and inserted it into cells of the common bacterium E. coli that successfully replicated the unnatural base pairs through multiple generations.
+- [W2.91] The transfection did not hamper the growth of the E. coli cells and showed no sign of losing its unnatural base pairs to its natural DNA repair mechanisms.
+- [W2.92] This is the first known example of a living organism passing along an expanded genetic code to subsequent generations.
+- [W2.93] Romesberg said he and his colleagues created 300 variants to refine the design of nucleotides that would be stable enough and would be replicated as easily as the natural ones when the cells divide.
+- [W2.94] This was in part achieved by the addition of a supportive algal gene that expresses a nucleotide triphosphate transporter which efficiently imports the triphosphates of both d5SICSTP and dNaMTP into E. coli bacteria.
+- [W2.95] Then, the natural bacterial replication pathways use them to accurately replicate a plasmid containing d5SICS–dNaM.
+- [W2.96] Other researchers were surprised that the bacteria replicated these human-made DNA subunits.
+- [W2.97] The successful incorporation of a third base pair is a significant breakthrough toward the goal of greatly expanding the number of amino acids which can be encoded by DNA, from the existing 20 amino acids to a theoretically possible 172, thereby expanding the potential for living organisms to produce novel proteins.
+- [W2.98] The artificial strings of DNA do not encode for anything yet, but scientists speculate they could be designed to manufacture new proteins which could have industrial or pharmaceutical uses.
+- [W2.99] Experts said the synthetic DNA incorporating the unnatural base pair raises the possibility of life forms based on a different DNA code.
+- [W2.100] Data sources for base pair strengths
+- [W2.101] The following sources have information on the free energy (thermodynamic measures of strength) of base pairs:
+- [W2.102] Obtained by molecular simulation of RNA including canonical and modified bases.
+- [W2.103] However, simply knowing what the minimal-energy hydrogen-bonded state between two nucleobases is not enough.
+- [W2.104] The stability of a nucleic acid molecule also comes from base stacking, the stengths of which can vary with modified bases with respect to the original version.
+- [W2.105] The optimal hydrogen-bonded state for two bases can also turn out to require an unnatural amount of bending of the nucleic acid backbone.
+- [W2.106] All of these contribute to the "effective" strength of a base pair in the context of nucleic acid secondary structure, which is why predicting such structures need "nearest neighbor" models that describe base pairs in terms of free energy (at 37 °C) and enthalpy (for rescaling to different temperatures) of:
+- [W2.107] helix fragments such as AA•UU and GGUC•CUGG (the sequence on the left of the colon is in usual 5'-to-3' direction, but the one on the right is written in reversed 3'-to-5' direction)
+- [W2.108] terminal mismatches (non-pairs at the end of helices, e.g.
+- [W2.109] A list of "nearest neighbor" models can be found at Nucleic acid structure prediction § Thermodynamic models.
+- [W2.110] List of Y-DNA single-nucleotide polymorphisms
+- [W2.111] Non-canonical base pairing
+- [W2.112] DAN—webserver version of the EMBOSS tool for calculating melting temperatures
+
+## [W3] Wikipedia: Chargaff's rules
+https://en.wikipedia.org/w/index.php?title=Chargaff's_rules&oldid=1374887856 · CC BY-SA 4.0 · usage: ai_input
+
+- [W3.1] Chargaff's rules (given by Erwin Chargaff) state that in the DNA of any species and any organism, the amount of guanine should be equal to the amount of cytosine and the amount of adenine should be equal to the amount of thymine.
+- [W3.2] Further, a 1:1 stoichiometric ratio of purine and pyrimidine bases (i.e., A+G=T+C) should exist.
+- [W3.3] This pattern is found in both strands of the DNA.
+- [W3.4] They were discovered by Austrian-born chemist Erwin Chargaff in the late 1940s.
+- [W3.5] The first rule holds that a double-stranded DNA molecule, globally has percentage base pair equality: A% = T% and G% = C%.
+- [W3.6] The rigorous validation of the rule constitutes the basis of Watson–Crick base pairs in the DNA double helix model.
+- [W3.7] The second rule holds that both Α% ≈ Τ% and G% ≈ C% are valid for each of the two DNA strands.
+- [W3.8] This describes only a global feature of the base composition in a single DNA strand.
+- [W3.9] The second parity rule was discovered in 1968.
+- [W3.10] It states that, in single-stranded DNA, the number of adenine units is approximately equal to that of thymine (A% ≈ T%), and the number of cytosine units is approximately equal to that of guanine (C% ≈ G%).
+- [W3.11] In 2006, it was shown that this rule applies to four of the five types of double stranded genomes; specifically it applies to the eukaryotic chromosomes, the bacterial chromosomes, the double stranded DNA viral genomes, and the archaeal chromosomes.
+- [W3.12] It does not apply to organellar genomes (mitochondria and plastids) smaller than ~20–30 kbp, nor does it apply to single stranded DNA (viral) genomes or any type of RNA genome.
+- [W3.13] The basis for this rule is still under investigation, although genome size may play a role.
+- [W3.14] The rule itself has consequences.
+- [W3.15] In most bacterial genomes (which are generally 80–90% coding) genes are arranged in such a fashion that approximately 50% of the coding sequence lies on either strand.
+- [W3.16] Wacław Szybalski, in the 1960s, showed that in bacteriophage coding sequences purines (A and G) exceed pyrimidines (C and T).
+- [W3.17] This rule has since been confirmed in other organisms and should probably be now termed "Szybalski's rule".
+- [W3.18] While Szybalski's rule generally holds, exceptions are known to exist.
+- [W3.19] The biological basis for Szybalski's rule is not yet known.
+- [W3.20] The combined effect of Chargaff's second rule and Szybalski's rule can be seen in bacterial genomes where the coding sequences are not equally distributed.
+- [W3.21] The genetic code has 64 codons of which 3 function as termination codons: there are only 20 amino acids normally present in proteins.
+- [W3.22] (There are two uncommon amino acids—selenocysteine and pyrrolysine—found in a limited number of proteins and encoded by the stop codons—TGA and TAG respectively.) The mismatch between the number of codons and amino acids allows several codons to code for a single amino acid—such codons normally differ only at the third codon base position.
+- [W3.23] Multivariate statistical analysis of codon use within genomes with unequal quantities of coding sequences on the two strands has shown that codon use in the third position depends on the strand on which the gene is located.
+- [W3.24] This seems likely to be the result of Szybalski's and Chargaff's rules.
+- [W3.25] Because of the asymmetry in pyrimidine and purine use in coding sequences, the strand with the greater coding content will tend to have the greater number of purine bases (Szybalski's rule).
+- [W3.26] Because the number of purine bases will, to a very good approximation, equal the number of their complementary pyrimidines within the same strand and, because the coding sequences occupy 80–90% of the strand, there appears to be (1) a selective pressure on the third base to minimize the number of purine bases in the strand with the greater coding content; and (2) that this pressure is proportional to the mismatch in the length of the coding sequences between the two strands.
+- [W3.27] The origin of the deviation from Chargaff's rule in the organelles has been suggested to be a consequence of the mechanism of replication.
+- [W3.28] During replication the DNA strands separate.
+- [W3.29] In single stranded DNA, cytosine spontaneously slowly deaminates to adenosine (a C to A transversion).
+- [W3.30] The longer the strands are separated the greater the quantity of deamination.
+- [W3.31] For reasons that are not yet clear the strands tend to exist longer in single form in mitochondria than in chromosomal DNA.
+- [W3.32] This process tends to yield one strand that is enriched in guanine (G) and thymine (T) with its complement enriched in cytosine (C) and adenosine (A), and this process may have given rise to the deviations found in the mitochondria.
+- [W3.33] Chargaff's second rule appears to be the consequence of a more complex parity rule: within a single strand of DNA any oligonucleotide (k-mer or n-gram; length ≤ 10) is present in equal numbers to its reverse complementary nucleotide.
+- [W3.34] Because of the computational requirements this has not been verified in all genomes for all oligonucleotides.
+- [W3.35] It has been verified for triplet oligonucleotides for a large data set.
+- [W3.36] Albrecht-Buehler has suggested that this rule is the consequence of genomes evolving by a process of inversion and transposition.
+- [W3.37] This process does not appear to have acted on the mitochondrial genomes.
+- [W3.38] Chargaff's second parity rule appears to be extended from the nucleotide-level to populations of codon triplets, in the case of whole single-stranded Human genome DNA.
+- [W3.39] A kind of "codon-level second Chargaff's parity rule" is proposed as follows:
+- [W3.40] Examples — computing whole human genome using the first codons reading frame provides:
+- [W3.41] 36530115 TTT and 36381293 AAA (ratio % = 1.00409).
+- [W3.42] 2087242 TCG and 2085226 CGA (ratio % = 1.00096), etc...
+- [W3.43] In 2020, it is suggested that the physical properties of the dsDNA (double stranded DNA) and the tendency to maximum entropy of all the physical systems are the cause of Chargaff's second parity rule.
+- [W3.44] The symmetries and patterns present in the dsDNA sequences can emerge from the physical peculiarities of the dsDNA molecule and the maximum entropy principle alone, rather than from biological or environmental evolutionary pressure.
+- [W3.45] Percentages of bases in DNA
+- [W3.46] The following table is a representative sample of Erwin Chargaff's 1952 data, listing the base composition of DNA from various organisms and support both of Chargaff's rules.
+- [W3.47] An organism such as φX174 with significant variation from A/T and G/C equal to one, is indicative of single stranded DNA.
+- [W3.48] Szybalski W, Kubinski H, Sheldrick P (1966).
+- [W3.49] "Pyrimidine clusters on the transcribing strands of DNA and their possible role in the initiation of RNA synthesis".
+- [W3.50] Cold Spring Harbor Symposia on Quantitative Biology.
+- [W3.51] 31: 123–127. doi:10.1101/SQB.1966.031.01.019.
+- [W3.52] "Asymmetric substitution patterns in the two DNA strands of bacteria".
+- [W3.53] 13 (5): 660–665. doi:10.1093/oxfordjournals.molbev.a025626.
+- [W3.54] Lafay B, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH (1999).
+- [W3.55] "Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases".
+- [W3.56] 27 (7): 1642–1649. doi:10.1093/nar/27.7.1642.
+- [W3.57] McLean MJ, Wolfe KH, Devine KM (1998).
+- [W3.58] "Base composition skews, replication orientation, and gene orientation in 12 prokaryote genomes".
+- [W3.59] Bibcode:1998JMolE..47..691M. doi:10.1007/PL00006428.
+- [W3.60] "Replicational and transcriptional selection on codon usage in Borrelia burgdorferi".
+- [W3.61] Bibcode:1998PNAS...9510698M. doi:10.1073/pnas.95.18.10698.
+- [W3.62] CBS Genome Atlas Database Archived 2016-05-16 at the Portuguese Web Archive — contains hundreds of examples of base skews and had problems.
+- [W3.63] The Z curve database of genomes[link removed] — a 3-dimensional visualization and analysis tool of genomes.
+- [W3.64] Table from the pinned revision (wikitext, same oldid): Percentages of bases in DNA, a representative sample of Chargaff’s 1952 data.
+- [W3.65] Maize: A 26.8%, G 22.8%, C 23.2%, T 27.2%, GC 46.1%.
+- [W3.66] Octopus: A 33.2%, G 17.6%, C 17.6%, T 31.6%, GC 35.2%.
+- [W3.67] Chicken: A 28.0%, G 22.0%, C 21.6%, T 28.4%, GC 43.7%.
+- [W3.68] Rat: A 28.6%, G 21.4%, C 20.5%, T 28.4%, GC 42.9%.
+- [W3.69] Human: A 29.3%, G 20.7%, C 20.0%, T 30.0%, GC 40.7%.
+- [W3.70] Grasshopper: A 29.3%, G 20.5%, C 20.7%, T 29.3%, GC 41.2%.
+- [W3.71] Sea urchin: A 32.8%, G 17.7%, C 17.3%, T 32.1%, GC 35.0%.
+- [W3.72] Wheat: A 27.3%, G 22.7%, C 22.8%, T 27.1%, GC 45.5%.
+- [W3.73] Yeast: A 31.3%, G 18.7%, C 17.1%, T 32.9%, GC 35.8%.
+- [W3.74] E. coli: A 24.7%, G 26.0%, C 25.7%, T 23.6%, GC 51.7%.
+- [W3.75] PhiX174: A 24.0%, G 23.3%, C 21.5%, T 31.2%, A/T 0.77, GC 44.8%.
+
+## [W4] Wikipedia: DNA replication
+https://en.wikipedia.org/w/index.php?title=DNA_replication&oldid=1376313272 · CC BY-SA 4.0 · usage: ai_input
+
+- [W4.1] DNA replication is the process by which a cell makes exact copies of its DNA.
+- [W4.2] This process occurs in all organisms and is essential to biological inheritance, cell division, and repair of damaged tissues.
+- [W4.3] DNA replication ensures that each of the newly divided daughter cells receives its own copy of each DNA molecule.
+- [W4.4] DNA most commonly occurs in double-stranded form, made up of two complementary strands held together by base pairing of the nucleotides comprising each strand.
+- [W4.5] The two linear strands of a double-stranded DNA molecule typically twist together in the shape of a double helix.
+- [W4.6] During replication, the two strands are separated, and each strand of the original DNA molecule then serves as a template for the production of a complementary counterpart strand, a process referred to as semiconservative replication.
+- [W4.7] As a result, each replicated DNA molecule is composed of one original DNA strand as well as one newly synthesized strand.
+- [W4.8] Cellular proofreading and error-checking mechanisms ensure near-perfect fidelity for DNA replication.
+- [W4.9] DNA replication usually begins at specific locations known as origins of replication which are scattered across the genome.
+- [W4.10] Unwinding of DNA at the origin is accommodated by enzymes known as helicases and results in replication forks growing bi-directionally from the origin.
+- [W4.11] Numerous proteins are associated with the replication fork to help in the initiation and continuation of DNA synthesis.
+- [W4.12] Most prominently, DNA polymerase synthesizes the new strands by incorporating nucleotides that complement the nucleotides of the template strand.
+- [W4.13] DNA  replication occurs during the S (synthesis) stage of interphase.
+- [W4.14] DNA replication can also be performed in vitro (artificially, outside a cell).
+- [W4.15] DNA polymerases isolated from cells and artificial DNA primers can be used to start DNA synthesis at known sequences in a template DNA molecule.
+- [W4.16] Polymerase chain reaction (PCR), ligase chain reaction (LCR), and transcription-mediated amplification (TMA) are all common examples of this technique.
+- [W4.17] In March 2021, researchers reported evidence suggesting that a preliminary form of transfer RNA, a necessary component of translation (the biological synthesis of new proteins in accordance with the genetic code), could have been a replicator molecule itself in the early abiogenesis of primordial life.
+- [W4.18] DNA is a double-stranded structure, with both strands coiled together to form the characteristic double helix.
+- [W4.19] Each single strand of DNA is a chain of four types of nucleotides.
+- [W4.20] Nucleotides in DNA contain a deoxyribose sugar, a phosphate, and a nucleobase.
+- [W4.21] The four types of nucleotide correspond to the four nucleobases: adenine, cytosine, guanine, and thymine, commonly abbreviated as A, C, G, and T, respectively.
+- [W4.22] Adenine and guanine are purine nucleobases, while cytosine and thymine are pyrimidines.
+- [W4.23] These nucleotides form phosphodiester bonds, creating phosphate-deoxyribose backbone of the DNA double helix with the nucleobases pointing inward (i.e., toward the opposing strand).
+- [W4.24] Complementary nucleobases are matched between strands through hydrogen bonds to form base pairs.
+- [W4.25] Adenine pairs with thymine (two hydrogen bonds), and guanine pairs with cytosine (three hydrogen bonds).
+- [W4.26] DNA strands have a directionality, and the different ends of a single strand are called the "3′ (three-prime) end" and the "5′ (five-prime) end".
+- [W4.27] By convention, if the base sequence of a single strand of DNA is given, the left end of the sequence is the 5′ end, while the right end of the sequence is the 3′ end.
+- [W4.28] The strands of the double helix are anti-parallel, with one being 5′ to 3′, and the opposite strand 3′ to 5′.
+- [W4.29] These terms refer to the chemical convention of numbering the carbon atoms comprising the deoxyribose molecule and indicate the specific carbon atom to which the next phosphate in the chain attaches.
+- [W4.30] Directionality has consequences in DNA synthesis, because DNA polymerase can synthesize DNA in only one direction by adding nucleotides to the 3′ end of a DNA strand.
+- [W4.31] The pairing of complementary bases in DNA (through hydrogen bonding) means that the information contained within each strand is redundant.
+- [W4.32] Phosphodiester (intra-strand) bonds are stronger than hydrogen (inter-strand) bonds.
+- [W4.33] The actual job of the phosphodiester bonds is to connect the 5' carbon atom of one nucleotide to the 3' carbon atom of another nucleotide, while the hydrogen bonds stabilize DNA double helices across the helix axis but not in the direction of the longitudinal axis.
+- [W4.34] This makes it possible to separate the strands from one another.
+- [W4.35] The nucleotides on a single strand can therefore be used to reconstruct nucleotides on a newly synthesized partner strand.
+- [W4.36] DNA polymerases are a family of enzymes that carry out all forms of DNA replication.
+- [W4.37] DNA polymerases in general cannot initiate synthesis of new strands but can only extend an existing DNA or RNA strand paired with a template strand.
+- [W4.38] To begin synthesis, a short fragment of RNA, called a primer, must be created and paired with the template DNA strand.
+- [W4.39] DNA polymerase adds a new strand of DNA by extending the 3′ end of an existing nucleotide chain, adding new nucleotides matched to the template strand, one at a time, via the creation of phosphodiester bonds.
+- [W4.40] The energy for this process of DNA polymerization comes from hydrolysis of the high-energy phosphate (phosphoanhydride) bonds between the three phosphates attached to each unincorporated base.
+- [W4.41] Free bases with an attached sugar molecule (deoxyribose in the case of DNA) are called nucleosides, and nucleosides with one or more attached phosphate groups are called nucleotides; in particular, nucleosides with three attached phosphate groups are called nucleoside triphosphates.
+- [W4.42] When a free nucleotide is being added to a growing DNA strand, the formation of a phosphodiester bond between the proximal phosphate of the free nucleotide and the deoxyribose of another nucleotide within the growing chain is accompanied by hydrolysis of a high-energy phosphate bond with release of the free nucleotide's two distal phosphate groups as a pyrophosphate.
+- [W4.43] Enzymatic hydrolysis of the resulting pyrophosphate into inorganic phosphate consumes a second high-energy phosphate bond and renders the reaction effectively irreversible.
+- [W4.44] In general, DNA polymerases are highly accurate, with an intrinsic error rate of less than one mistake for every 107 nucleotides added.
+- [W4.45] Some DNA polymerases can also delete nucleotides from the end of a developing strand in order to fix mismatched bases.
+- [W4.46] This is known as proofreading.
+- [W4.47] Finally, post-replication mismatch repair mechanisms monitor the DNA for errors, being capable of distinguishing mismatches in the newly synthesized DNA strand from the original strand sequence.
+- [W4.48] Together, these three discrimination steps enable replication fidelity of less than one mistake for every 109 nucleotides added.
+- [W4.49] The rate of DNA replication in a living cell was first measured as the rate of phage T4 DNA elongation in phage-infected E. coli.
+- [W4.50] During the period of exponential DNA increase at 37 °C, the rate was 749 nucleotides per second.
+- [W4.51] The mutation rate per base pair per replication during phage T4 DNA synthesis is 1.7 per 108.
+- [W4.52] DNA replication, like all biological polymerization processes, proceeds in three enzymatically catalyzed and coordinated steps: initiation, elongation and termination.
+- [W4.53] For a cell to divide, it must first replicate its DNA.
+- [W4.54] DNA replication is an all-or-none process; once replication begins, it proceeds to completion.
+- [W4.55] Once replication is complete, it does not occur again in the same cell cycle.
+- [W4.56] This is made possible by the division of initiation of the pre-replication complex.
+- [W4.57] In late mitosis and early G1 phase, a large complex of initiator proteins assembles into the pre-replication complex at particular points in the DNA, known as "origins".
+- [W4.58] In E. coli the primary initiator protein is Dna A; in yeast, this is the origin recognition complex.
+- [W4.59] Sequences used by initiator proteins tend to be "AT-rich" (rich in adenine and thymine bases), because A-T base pairs have two hydrogen bonds (rather than the three formed in a C-G pair) and thus are easier to strand-separate.
+- [W4.60] In eukaryotes, the origin recognition complex (ORC) catalyzes the assembly of initiator proteins into the pre-replication complex.
+- [W4.61] In addition, a recent report suggests that budding yeast ORC dimerizes in a cell cycle dependent manner to control licensing.
+- [W4.62] In turn, the process of ORC dimerization is mediated by a cell cycle-dependent Noc3p dimerization cycle in vivo, and this role of Noc3p is separable from its role in ribosome biogenesis.
+- [W4.63] An essential Noc3p dimerization cycle mediates ORC double-hexamer formation in replication licensing and Noc3p are continuously bound to the chromatin throughout the cell cycle.
+- [W4.64] Cdc6 and Cdt1 then associate with the bound origin recognition complex at the origin in order to form a larger complex necessary to load the Mcm complex onto the DNA.
+- [W4.65] In eukaryotes, the Mcm complex is the helicase that will split the DNA helix at the replication forks and origins.
+- [W4.66] The Mcm complex is recruited at late G1 phase and loaded by the ORC-Cdc6-Cdt1 complex onto the DNA via ATP-dependent protein remodeling.
+- [W4.67] The loading of the MCM complex onto the origin DNA marks the completion of pre-replication complex formation.
+- [W4.68] If environmental conditions are right in late G1 phase, the G1 and G1/S cyclin-Cdk complexes are activated, which stimulate expression of genes that encode components of the DNA synthetic machinery.
+- [W4.69] G1/S-Cdk activation also promotes the expression and activation of S-Cdk complexes, which may play a role in activating replication origins depending on species and cell type.
+- [W4.70] Control of these Cdks vary depending on cell type and stage of development.
+- [W4.71] This regulation is best understood in budding yeast, where the S cyclins Clb5 and Clb6 are primarily responsible for DNA replication.
+- [W4.72] Clb5,6-Cdk1 complexes directly trigger the activation of replication origins and are therefore required throughout S phase to directly activate each origin.
+- [W4.73] In a similar manner, Cdc7 is also required through S phase to activate replication origins.
+- [W4.74] Cdc7 is not active throughout the cell cycle, and its activation is strictly timed to avoid premature initiation of DNA replication.
+- [W4.75] In late G1, Cdc7 activity rises abruptly as a result of association with the regulatory subunit DBF4, which binds Cdc7 directly and promotes its protein kinase activity.
+- [W4.76] Cdc7 has been found to be a rate-limiting regulator of origin activity.
+- [W4.77] Together, the G1/S-Cdks and/or S-Cdks and Cdc7 collaborate to directly activate the replication origins, leading to initiation of DNA synthesis.
+- [W4.78] In early S phase, S-Cdk and Cdc7 activation lead to the assembly of the preinitiation complex, a massive protein complex formed at the origin.
+- [W4.79] Formation of the preinitiation complex displaces Cdc6 and Cdt1 from the origin replication complex, inactivating and disassembling the pre-replication complex.
+- [W4.80] Loading the preinitiation complex onto the origin activates the Mcm helicase, causing unwinding of the DNA helix.
+- [W4.81] The preinitiation complex also loads α-primase and other DNA polymerases onto the DNA.
+- [W4.82] After α-primase synthesizes the first primers, the primer-template junctions interact with the clamp loader, which loads the sliding clamp onto the DNA to begin DNA synthesis.
+- [W4.83] The components of the preinitiation complex remain associated with replication forks as they move out from the origin.
+- [W4.84] DNA polymerase has 5′–3′ activity.
+- [W4.85] All known DNA replication systems require a free 3′ hydroxyl group before synthesis can be initiated (note: the DNA template is read in 3′ to 5′ direction whereas a new strand is synthesized in the 5′ to 3′ direction—this is often confused).
+- [W4.86] Four distinct mechanisms for DNA synthesis are recognized:
+- [W4.87] All cellular life forms and many DNA viruses, phages and plasmids use a primase to synthesize a short RNA primer with a free 3′ OH group which is subsequently elongated by a DNA polymerase.
+- [W4.88] The retroelements (including retroviruses) employ a transfer RNA that primes DNA replication by providing a free 3′ OH that is used for elongation by the reverse transcriptase.
+- [W4.89] In the adenoviruses and the φ29 family of bacteriophages, the 3′ OH group is provided by the side chain of an amino acid of the genome attached protein (the terminal protein) to which nucleotides are added by the DNA polymerase to form a new strand.
+- [W4.90] In the single stranded DNA viruses—a group that includes the circoviruses, the geminiviruses, the parvoviruses and others—and also the many phages and plasmids that use the rolling circle replication (RCR) mechanism, the RCR endonuclease creates a nick in the genome strand (single stranded viruses) or one of the DNA strands (plasmids).
+- [W4.91] The 5′ end of the nicked strand is transferred to a tyrosine residue on the nuclease and the free 3′ OH group is then used by the DNA polymerase to synthesize the new strand.
+- [W4.92] Cellular organisms use the first of these pathways leading to it being the most well-known.
+- [W4.93] In this mechanism, once the two strands are separated, primase adds RNA primers to the template strands.
+- [W4.94] The leading strand receives one RNA primer while the lagging strand receives several.
+- [W4.95] The leading strand is continuously extended from the primer by a DNA polymerase with high processivity, while the lagging strand is extended discontinuously from each primer forming Okazaki fragments.
+- [W4.96] RNase removes the primer RNA fragments, and a low processivity DNA polymerase distinct from the replicative polymerase enters to fill the gaps.
+- [W4.97] When this is complete, a single nick on the leading strand and several nicks on the lagging strand can be found.
+- [W4.98] Ligase works to fill these nicks in, thus completing the newly replicated DNA molecule.
+- [W4.99] The primase used in this process differs significantly between bacteria and archaea/eukaryotes.
+- [W4.100] Bacteria use a primase belonging to the DnaG protein superfamily which contains a catalytic domain of the TOPRIM fold type.
+- [W4.101] The TOPRIM fold contains an α/β core with four conserved strands in a Rossmann-like topology.
+- [W4.102] This structure is also found in the catalytic domains of topoisomerase Ia, topoisomerase II, the OLD-family nucleases and DNA repair proteins related to the RecR protein.
+- [W4.103] The primase used by archaea and eukaryotes, in contrast, contains a highly derived version of the RNA recognition motif (RRM).
+- [W4.104] This primase is structurally similar to many viral RNA-dependent RNA polymerases, reverse transcriptases, cyclic nucleotide generating cyclases and DNA polymerases of the A/B/Y families that are involved in DNA replication and repair.
+- [W4.105] In eukaryotic replication, the primase forms a complex with Pol α.
+- [W4.106] Multiple DNA polymerases take on different roles in the DNA replication process.
+- [W4.107] In E. coli, DNA Pol III is the polymerase enzyme primarily responsible for DNA replication.
+- [W4.108] It assembles into a replication complex at the replication fork that exhibits extremely high processivity, remaining intact for the entire replication cycle.
+- [W4.109] In contrast, DNA Pol I is the enzyme responsible for replacing RNA primers with DNA.
+- [W4.110] DNA Pol I has a 5′ to 3′ exonuclease activity in addition to its polymerase activity, and uses its exonuclease activity to degrade the RNA primers ahead of it as it extends the DNA strand behind it, in a process called nick translation.
+- [W4.111] Pol I is much less processive than Pol III because its primary function in DNA replication is to create many short DNA regions rather than a few very long regions.
+- [W4.112] In eukaryotes, the low-processivity enzyme, Pol α, helps to initiate replication because it forms a complex with primase.
+- [W4.113] In eukaryotes, leading strand synthesis is thought to be conducted by Pol ε; however, this view has recently been  challenged, suggesting a role for Pol δ.
+- [W4.114] Primer removal is completed Pol δ while repair of DNA during replication is completed by Pol ε.
+- [W4.115] As DNA synthesis continues, the original DNA strands continue to unwind on each side of the bubble, forming a replication fork with two prongs.
+- [W4.116] In bacteria, which have a single origin of replication on their circular chromosome, this process creates a "theta structure" (resembling the Greek letter theta: θ).
+- [W4.117] In contrast, eukaryotes have longer linear chromosomes and initiate replication at multiple origins within these.
+- [W4.118] The replication fork is a structure that forms within the long helical DNA during DNA replication.
+- [W4.119] It is produced by enzymes called helicases that break the hydrogen bonds that hold the DNA strands together in a helix.
+- [W4.120] The resulting structure has two branching "prongs", each one made up of a single strand of DNA.
+- [W4.121] These two strands serve as the template for the leading and lagging strands, which will be created as DNA polymerase matches complementary nucleotides to the templates; the templates may be properly referred to as the leading strand template and the lagging strand template.
+- [W4.122] DNA is read by DNA polymerase in the 3′ to 5′ direction, meaning the new strand is synthesized in the 5' to 3' direction.
+- [W4.123] Since the leading and lagging strand templates are oriented in opposite directions at the replication fork, a major issue is how to achieve synthesis of new lagging strand DNA, whose direction of synthesis is opposite to the direction of the growing replication fork.
+- [W4.124] The leading strand is the strand of new DNA which is synthesized in the same direction as the growing replication fork.
+- [W4.125] This sort of DNA replication is continuous.
+- [W4.126] The lagging strand is the strand of new DNA whose direction of synthesis is opposite to the direction of the growing replication fork, although the chemical reaction is exactly the same.
+- [W4.127] Because of its orientation, replication of the lagging strand is more complicated as compared to that of the leading strand.
+- [W4.128] As a consequence, the DNA polymerase on this  strand is seen to "lag behind" the other strand.
+- [W4.129] The lagging strand is synthesized in short segments.
+- [W4.130] On the lagging strand template, a primase "reads" the template DNA and initiates synthesis of a short complementary RNA primer.
+- [W4.131] A DNA polymerase extends the primed segments, forming Okazaki fragments.
+- [W4.132] The RNA primers are then removed by another DNA polymerase and replaced with DNA, and the fragments of DNA are joined by DNA ligase.
+- [W4.133] Dynamics at the replication fork
+- [W4.134] In all cases the helicase is composed of six polypeptides that wrap around only one strand of the DNA being replicated.
+- [W4.135] The two polymerases are bound to the helicase hexamer.
+- [W4.136] In eukaryotes the helicase wraps around the leading strand, and in prokaryotes it wraps around the lagging strand.
+- [W4.137] As helicase unwinds DNA at the replication fork, the DNA ahead is forced to rotate.
+- [W4.138] This process results in a build-up of twists in the DNA ahead.
+- [W4.139] This build-up creates a torsional load that would eventually stop the replication fork.
+- [W4.140] Topoisomerases are enzymes that temporarily break the strands of DNA, relieving the tension caused by unwinding the two strands of the DNA helix; topoisomerases (including DNA gyrase) achieve this by adding negative supercoils to the DNA helix.
+- [W4.141] Bare single-stranded DNA tends to fold back on itself forming secondary structures; these structures can interfere with the movement of DNA polymerase.
+- [W4.142] To prevent this, single-strand binding proteins bind to the DNA until a second strand is synthesized, preventing secondary structure formation.
+- [W4.143] Double-stranded DNA is coiled around histones that  play an important role in regulating gene expression so the replicated DNA must be coiled around histones at the same places as the original DNA.
+- [W4.144] To ensure this, histone chaperones disassemble the chromatin before it is replicated and replace the histones in the correct place.
+- [W4.145] Some steps in this reassembly are somewhat speculative.
+- [W4.146] Clamp proteins act as a sliding clamp on DNA, allowing the DNA polymerase to bind to its template and aid in processivity.
+- [W4.147] The inner face of the clamp enables DNA to be threaded through it.
+- [W4.148] Once the polymerase reaches the end of the template or detects double-stranded DNA, the sliding clamp undergoes a conformational change that releases the DNA polymerase.
+- [W4.149] Clamp-loading proteins are used to initially load the clamp, recognizing the junction between template and RNA primers.:274-5
+- [W4.150] At the replication fork, many replication enzymes assemble on the DNA into a complex molecular machine called the replisome.
+- [W4.151] The following is a list of major DNA replication enzymes that participate in the replisome:
+- [W4.152] In vitro single-molecule experiments (using optical tweezers and magnetic tweezers) have found synergetic interactions between the replisome enzymes (helicase, polymerase, and Single-strand DNA-binding protein) and with the DNA replication fork enhancing DNA-unwinding and DNA-replication.
+- [W4.153] These results lead to the development of kinetic models accounting for the synergetic interactions and their stability.
+- [W4.154] Replisomes, or DNA replication systems, consist of factors involved in DNA replication and associate with template ssDNAs.
+- [W4.155] Replisomes include DNA polymerases, DNA helicases, DNA clamps and DNA topoisomerases, and replication proteins; e.g. single-stranded DNA binding proteins (SSB).
+- [W4.156] During DNA replication, these components are coordinated in their activity.
+- [W4.157] In most bacteria, all of the factors involved in DNA replication are located at replication forks during DNA replication.
+- [W4.158] In eukaryotic and some bacterial cells the replisomes are not formed.
+- [W4.159] In 1980 Bruce Alberts proposed the "trombone model" of DNA replication to visualize the coordination between the leading and lagging strand of DNA synthesis.
+- [W4.160] In this model the replication machinery is clustered while the leading strand synthesis flows through and the lagging strand expands in and out like the slide on a trombone.
+- [W4.161] Peter Meister et al. observed directly replication sites in budding yeast by monitoring green fluorescent protein (GFP)-tagged DNA polymerases α.
+- [W4.162] They detected DNA replication of pairs of the tagged loci spaced apart symmetrically from a replication origin and found that the distance between the pairs decreased markedly by time.
+- [W4.163] This finding suggests that the mechanism of DNA replication aligns with the trombone model with a cluster of replisomes loaded on the origin of replication, proceeding in both directions.
+- [W4.164] Meister's finding is the first direct evidence of trombone model.
+- [W4.165] Subsequent research has shown that DNA helicases form dimers in many eukaryotic cells and bacterial replisomes stay in a single intranuclear location during DNA synthesis.
+- [W4.166] Replication Factories Disentangle Sister Chromatids.
+- [W4.167] The disentanglement is essential for distributing the chromatids into daughter cells after DNA replication.
+- [W4.168] Because sister chromatids after DNA replication hold each other by cohesin rings, there is the only chance for the disentanglement in DNA replication.
+- [W4.169] Fixing of replication machineries as replication factories can improve the success rate of DNA replication.
+- [W4.170] If replication forks move freely in chromosomes, catenation of nuclei is aggravated and impedes mitotic segregation.
+- [W4.171] Eukaryotes initiate DNA replication at multiple points in the chromosome, so replication forks meet and terminate at many points in the chromosome.
+- [W4.172] Because eukaryotes have linear chromosomes, DNA replication is unable to reach the very end of the chromosomes.
+- [W4.173] Due to this problem, DNA is lost in each replication cycle from the end of the chromosome.
+- [W4.174] Telomeres are regions of repetitive DNA close to the ends and help prevent loss of genes due to this shortening.
+- [W4.175] Shortening of the telomeres is a normal process in somatic cells.
+- [W4.176] This shortens the telomeres of the daughter DNA chromosome.
+- [W4.177] As a result, cells can only divide a certain number of times before the DNA loss prevents further division.
+- [W4.178] (This is known as the Hayflick limit.)  Within the germ cell line, which passes DNA to the next generation, telomerase extends the repetitive sequences of the telomere region to prevent degradation.
+- [W4.179] Telomerase can become mistakenly active in somatic cells, sometimes leading to cancer formation.
+- [W4.180] Increased telomerase activity is one of the hallmarks of cancer.
+- [W4.181] Termination requires that the progress of the DNA replication fork must stop or be blocked.
+- [W4.182] Termination at a specific locus, when it occurs, involves the interaction between two components: (1) a termination site sequence in the DNA, and (2) a protein which binds to this sequence to physically stop DNA replication.
+- [W4.183] In various bacterial species, this is named the DNA replication terminus site-binding protein, or Ter protein.
+- [W4.184] Because bacteria have circular chromosomes, termination of replication occurs when the two replication forks meet each other on the opposite end of the parental chromosome.
+- [W4.185] E. coli regulates this process through the use of termination sequences that, when bound by the Tus protein, enable only one direction of replication fork to pass through.
+- [W4.186] As a result, the replication forks are constrained to always meet within the termination region of the chromosome.
+- [W4.187] Within eukaryotes, DNA replication is controlled within the context of the cell cycle.
+- [W4.188] As the cell grows and divides, it progresses through stages in the cell cycle; DNA replication takes place during the S phase (synthesis phase).
+- [W4.189] The progress of the eukaryotic cell through the cycle is controlled by cell cycle checkpoints.
+- [W4.190] Progression through checkpoints is controlled through complex interactions between various proteins, including cyclins and cyclin-dependent kinases.
+- [W4.191] Unlike bacteria, eukaryotic DNA replicates in the confines of the nucleus.
+- [W4.192] The G1/S checkpoint (restriction checkpoint) regulates whether eukaryotic cells enter the process of DNA replication and subsequent division.
+- [W4.193] Cells that do not proceed through this checkpoint remain in the G0 stage and do not replicate their DNA.
+- [W4.194] Once the DNA has gone through the "G1/S" test, it can only be copied once in every cell cycle.
+- [W4.195] When the Mcm complex moves away from the origin, the pre-replication complex is dismantled.
+- [W4.196] Because a new Mcm complex cannot be loaded at an origin until the pre-replication subunits are reactivated, one origin of replication can not be used twice in the same cell cycle.
+- [W4.197] Activation of S-Cdks in early S phase promotes the destruction or inhibition of individual pre-replication complex components, preventing immediate reassembly.
+- [W4.198] S and M-Cdks continue to block pre-replication complex assembly even after S phase is complete, ensuring that assembly cannot occur again until all Cdk activity is reduced in late mitosis.
+- [W4.199] In budding yeast, inhibition of assembly is caused by Cdk-dependent phosphorylation of pre-replication complex components.
+- [W4.200] At the onset of S phase, phosphorylation of Cdc6 by Cdk1 causes the binding of Cdc6 to the SCF ubiquitin protein ligase, which causes proteolytic destruction of Cdc6.
+- [W4.201] Cdk-dependent phosphorylation of Mcm proteins promotes their export out of the nucleus along with Cdt1 during S phase, preventing the loading of new Mcm complexes at origins during a single cell cycle.
+- [W4.202] Cdk phosphorylation of the origin replication complex also inhibits pre-replication complex assembly.
+- [W4.203] The individual presence of any of these three mechanisms is sufficient to inhibit pre-replication complex assembly.
+- [W4.204] However, mutations of all three proteins in the same cell does trigger reinitiation at many origins of replication within one cell cycle.
+- [W4.205] In animal cells, the protein geminin is a key inhibitor of pre-replication complex assembly.
+- [W4.206] Geminin binds Cdt1, preventing its binding to the origin recognition complex.
+- [W4.207] In G1, levels of geminin are kept low by the APC, which ubiquitinates geminin to target it for degradation.
+- [W4.208] When geminin is destroyed, Cdt1 is released, allowing it to function in pre-replication complex assembly.
+- [W4.209] At the end of G1, the APC is inactivated, allowing geminin to accumulate and bind Cdt1.
+- [W4.210] Replication of chloroplast and mitochondrial genomes occurs independently of the cell cycle, through the process of D-loop replication.
+- [W4.211] In vertebrate cells, replication sites concentrate into positions called replication foci.
+- [W4.212] Replication sites can be detected by immunostaining daughter strands and replication enzymes and monitoring GFP-tagged replication factors.
+- [W4.213] By these methods it is found that replication foci of varying size and positions appear in S phase of cell division and their number per nucleus is far smaller than the number of genomic replication forks.
+- [W4.214] Heun et al. tracked GFP-tagged replication foci in budding yeast cells and revealed that replication origins move constantly in G1 and S phase and the dynamics decreased significantly in S phase.
+- [W4.215] Traditionally, replication sites were fixed on spatial structure of chromosomes by nuclear matrix or lamins.
+- [W4.216] The Heun's results denied the traditional concepts, budding yeasts do not have lamins, and support that replication origins self-assemble and form replication foci.
+- [W4.217] By firing of replication origins, controlled spatially and temporally, the formation of replication foci is regulated.
+- [W4.218] Jackson et al.(1998) revealed that neighboring origins fire simultaneously in mammalian cells.
+- [W4.219] Spatial juxtaposition of replication sites brings clustering of replication forks.
+- [W4.220] The clustering do rescue of stalled replication forks and favors normal progress of replication forks.
+- [W4.221] Progress of replication forks is inhibited by many factors; collision with proteins or with complexes binding strongly on DNA, deficiency of dNTPs, nicks on template DNAs and so on.
+- [W4.222] If replication forks get stuck and the rest of the sequences from the stuck forks are not copied, then the daughter strands get nick nick unreplicated sites.
+- [W4.223] The un-replicated sites on one parent's strand hold the other strand together but not daughter strands.
+- [W4.224] Therefore, the resulting sister chromatids cannot separate from each other and cannot divide into 2 daughter cells.
+- [W4.225] When neighboring origins fire and a fork from one origin is stalled, fork from other origin access on an opposite direction of the stalled fork and duplicate the un-replicated sites.
+- [W4.226] As other mechanism of the rescue there is application of dormant replication origins that excess origins do not fire in normal DNA replication.
+- [W4.227] Most bacteria do not go through a well-defined cell cycle but instead continuously copy their DNA; during rapid growth, this can result in the concurrent occurrence of multiple rounds of replication.
+- [W4.228] In E. coli, the best-characterized bacteria, DNA replication is regulated through several mechanisms, including: the hemimethylation and sequestering of the origin sequence, the ratio of adenosine triphosphate (ATP) to adenosine diphosphate (ADP), and the levels of protein DnaA.
+- [W4.229] All these control the binding of initiator proteins to the origin sequences.
+- [W4.230] Because E. coli methylates GATC DNA sequences, DNA synthesis results in hemimethylated sequences.
+- [W4.231] This hemimethylated DNA is recognized by the protein SeqA, which binds and sequesters the origin sequence; in addition, DnaA (required for initiation of replication) binds less well to hemimethylated DNA.
+- [W4.232] As a result, newly replicated origins are prevented from immediately initiating another round of DNA replication.
+- [W4.233] ATP builds up when the cell is in a rich medium, triggering DNA replication once the cell has reached a specific size.
+- [W4.234] ATP competes with ADP to bind to DnaA, and the DnaA-ATP complex is able to initiate replication.
+- [W4.235] A certain number of DnaA proteins are also required for DNA replication — each time the origin is copied, the number of binding sites for DnaA doubles, requiring the synthesis of more DnaA to enable another initiation of replication.
+- [W4.236] In fast-growing bacteria, such as E. coli, chromosome replication takes more time than dividing the cell.
+- [W4.237] The bacteria solve this by initiating a new round of replication before the previous one has been terminated.
+- [W4.238] The new round of replication will form the chromosome of the cell that is born two generations after the dividing cell.
+- [W4.239] This mechanism creates overlapping replication cycles.
+- [W4.240] Problems with DNA replication
+- [W4.241] There are many events that contribute to replication stress, including:
+- [W4.242] Misincorporation of ribonucleotides
+- [W4.243] Conflicts between replication and transcription
+- [W4.244] Insufficiency of essential replication factors
+- [W4.245] Overexpression or constitutive activation of oncogenes
+- [W4.246] Researchers commonly replicate DNA in vitro using the polymerase chain reaction (PCR).
+- [W4.247] PCR uses a pair of primers to span a target region in template DNA, and then polymerizes partner strands in each direction from these primers using a thermostable DNA polymerase.
+- [W4.248] Repeating this process through multiple cycles amplifies the targeted DNA region.
+- [W4.249] At the start of each cycle, the mixture of template and primers is heated, separating the newly synthesized molecule and template.
+- [W4.250] Then, as the mixture cools, both of these become templates for annealing of new primers, and the polymerase extends from these.
+- [W4.251] As a result, the number of copies of the target region doubles each round, increasing exponentially.
+
+## [W5] Wikipedia: Avery–MacLeod–McCarty experiment
+https://en.wikipedia.org/w/index.php?title=Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment&oldid=1300689347 · CC BY-SA 4.0 · usage: ai_input
+
+- [W5.1] The Avery–MacLeod–McCarty experiment was an experimental demonstration by Oswald Avery, Colin MacLeod, and Maclyn McCarty that, in 1944, reported that DNA is the substance that causes bacterial transformation, in an era when it had been widely believed that it was proteins that served the function of carrying genetic information (with the very word protein itself coined to indicate a belief that its function was primary).
+- [W5.2] It was the culmination of research in the 1930s and early 20th century at the Rockefeller Institute for Medical Research to purify and characterize the "transforming principle" responsible for the transformation phenomenon first described in Griffith's experiment of 1928: killed Streptococcus pneumoniae of the virulent strain type III-S, when injected along with living but non-virulent type II-R pneumococci, resulted in a deadly infection of type III-S pneumococci.
+- [W5.3] In their paper "Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types: Induction of Transformation by a Desoxyribonucleic Acid Fraction Isolated from Pneumococcus Type III", published in the February 1944 issue of the Journal of Experimental Medicine, Avery and his colleagues suggest that DNA, rather than protein as widely believed at the time, may be the hereditary material of bacteria, and could be analogous to genes  and/or viruses in higher organisms.
+- [W5.4] With the development of serological typing, medical researchers were able to sort bacteria into different strains, or types.
+- [W5.5] When a person or test animal (e.g., a mouse) is inoculated with a particular type, an immune response ensues, generating antibodies that react specifically with antigens on the bacteria.
+- [W5.6] Blood serum containing the antibodies can then be extracted and applied to cultured bacteria.
+- [W5.7] The antibodies will react with other bacteria of the same type as the original inoculation.
+- [W5.8] Fred Neufeld, a German bacteriologist, had discovered the pneumococcal types and serological typing; until Frederick Griffith's studies bacteriologists believed that the types were fixed and unchangeable from one generation to the next.
+- [W5.9] Griffith's experiment, reported in 1928, identified that some "transforming principle" in pneumococcal bacteria could transform them from one type to another.
+- [W5.10] Griffith, a British medical officer, had spent years applying serological typing to cases of pneumonia, a frequently fatal disease in the early 20th century.
+- [W5.11] He found that multiple types—some virulent and some non-virulent—were often present over the course of a clinical case of pneumonia, and thought that one type might change into another (rather than simply multiple types being present all along).
+- [W5.12] In testing that possibility, he found that transformation could occur when dead bacteria of a virulent type and live bacteria of a non-virulent type were both injected in mice: the mice would develop a fatal infection (normally only caused by live bacteria of the virulent type) and die, and virulent bacteria could be isolated from such infected mice.
+- [W5.13] The findings of Griffith's experiment were soon confirmed, first by Fred Neufeld at the Koch Institute and by Martin Henry Dawson at the Rockefeller Institute.
+- [W5.14] A series of Rockefeller Institute researchers continued to study transformation in the years that followed.
+- [W5.15] Sia, Dawson developed a method of transforming bacteria in vitro (rather than in vivo as Griffith had done).
+- [W5.16] After Dawson's departure in 1930, James Alloway took up the attempt to extend Griffith's findings, resulting in the extraction of aqueous solutions of the transforming principle by 1933.
+- [W5.17] Colin MacLeod worked to purify such solutions from 1934 to 1937, and the work was continued in 1940 and completed by Maclyn McCarty.
+- [W5.18] Pneumococcus is characterized by smooth colonies which have a polysaccharide capsule that induces antibody formation; the different types are classified according to their immunological specificity.
+- [W5.19] The purification procedure Avery  undertook consisted of first killing the bacteria with heat and extracting the saline-soluble components.
+- [W5.20] Next, the protein was precipitated out using chloroform and the polysaccharide capsules were hydrolyzed with an enzyme.
+- [W5.21] An immunological precipitation caused by type-specific antibodies was used to verify the complete destruction of the capsules.
+- [W5.22] Then, the active portion was precipitated out by alcohol fractionation, resulting in fibrous strands that could be removed with a stirring rod.
+- [W5.23] Chemical analysis showed that the proportions of carbon, hydrogen, nitrogen, and phosphorus in this active portion were consistent with the chemical composition of DNA.
+- [W5.24] To show that it was DNA rather than some small amount of RNA, protein, or some other cell component that was responsible for transformation, Avery and his colleagues used a number of biochemical tests.
+- [W5.25] They found that trypsin, chymotrypsin and ribonuclease (enzymes that break apart proteins or RNA) did not affect it, but an enzyme preparation of "deoxyribonucleodepolymerase" (a crude preparation, obtainable from a number of animal sources, that could break down DNA) destroyed the extract's transforming power.
+- [W5.26] Follow-up work in response to criticism and challenges included the purification and crystallization, by Moses Kunitz in 1948, of a DNA depolymerase (deoxyribonuclease I), and precise work by Rollin Hotchkiss showing that virtually all the detected nitrogen in the purified DNA came from glycine, a breakdown product of the nucleotide base adenine, and that undetected protein contamination was at most 0.02% by Hotchkiss's estimation.
+- [W5.27] The experimental findings of the Avery–MacLeod–McCarty experiment were quickly confirmed, and extended to other hereditary characteristics besides polysaccharide capsules.
+- [W5.28] However, there was considerable reluctance to accept the conclusion that DNA was the genetic material.
+- [W5.29] According to Phoebus Levene's influential "tetranucleotide hypothesis", DNA consisted of repeating units of the four nucleotide bases and had little biological specificity.
+- [W5.30] DNA was therefore thought to be the structural component of chromosomes, whereas the genes were thought likely to be made of the protein component of chromosomes.
+- [W5.31] This line of thinking was reinforced by the 1935 crystallization of tobacco mosaic virus by Wendell Stanley, and the parallels among viruses, genes, and enzymes; many biologists thought genes might be a sort of "super-enzyme", and viruses were shown according to Stanley to be proteins and to share the property of autocatalysis with many enzymes.
+- [W5.32] Furthermore, few biologists thought that genetics could be applied to bacteria, since they lacked chromosomes and sexual reproduction.
+- [W5.33] In particular, many of the geneticists known informally as the phage group, which would become influential in the new discipline of molecular biology in the 1950s, were dismissive of DNA as the genetic material (and were inclined to avoid the "messy" biochemical approaches of Avery and his colleagues).
+- [W5.34] Some biologists, including fellow Rockefeller Institute Fellow Alfred Mirsky, challenged Avery's finding that the transforming principle was pure DNA, suggesting that protein contaminants were instead responsible.
+- [W5.35] Although transformation occurred in some kinds of bacteria, it could not be replicated in other bacteria (nor in any higher organisms), and its significance seemed limited primarily to medicine.
+- [W5.36] Scientists looking back on the Avery–MacLeod–McCarty experiment have disagreed about just how influential it was in the 1940s and early 1950s.
+- [W5.37] Gunther Stent suggested that it was largely ignored, and only celebrated afterwards—similarly to Gregor Mendel's work decades before the rise of genetics.
+- [W5.38] Others, such as Joshua Lederberg and Leslie C.
+- [W5.39] Dunn, attest to its early significance and cite the experiment as the beginning of molecular genetics.
+- [W5.40] A few microbiologists and geneticists had taken an interest in the physical and chemical nature of genes before 1944, but the Avery–MacLeod–McCarty experiment brought renewed and wider interest in the subject.
+- [W5.41] While the original publication did not mention genetics specifically, Avery as well as many of the geneticists who read the paper were aware of the genetic implications—that Avery may have isolated the gene itself as pure DNA.
+- [W5.42] Biochemist Erwin Chargaff, geneticist H.
+- [W5.43] Muller and others praised the result as establishing the biological specificity of DNA and as having important implications for genetics if DNA played a similar role in higher organisms.
+- [W5.44] In 1945, the Royal Society awarded Avery the Copley Medal, in part for his work on bacterial transformation.
+- [W5.45] Between 1944 and 1954, the paper was cited at least 239 times (with citations spread evenly through those years), mostly in papers on microbiology, immunochemistry, and biochemistry.
+- [W5.46] In addition to the follow-up work by McCarty and others at the Rockefeller Institute in response to Mirsky's criticisms, the experiment spurred considerable work in microbiology, where it shed new light on the analogies between bacterial heredity and the genetics of sexually-reproducing organisms.
+- [W5.47] French microbiologist André Boivin claimed to extend Avery's bacterial transformation findings to Escherichia coli, although this could not be confirmed by other researchers.
+- [W5.48] In 1946, however, Joshua Lederberg and Edward Tatum demonstrated bacterial conjugation in E. coli and showed that genetics could apply to bacteria, even if Avery's specific method of transformation was not general.
+- [W5.49] Avery's work also motivated Maurice Wilkins to continue X-ray crystallographic studies of DNA, even as he faced pressure from funders to focus his research on whole cells, rather than biomolecules.
+- [W5.50] Despite the significant number of citations to the paper and positive responses it received in the years following publication, Avery's work was largely neglected by much of the scientific community.
+- [W5.51] Although received positively by many scientists, the experiment did not seriously affect mainstream genetics research, in part because it made little difference for classical genetics experiments in which genes were defined by their behavior in breeding experiments rather than their chemical makeup.
+- [W5.52] Muller, while interested, was focused more on physical rather than chemical studies of the gene, as were most of the members of the phage group.
+- [W5.53] Avery's work was also neglected by the Nobel Foundation, which later expressed public regret for failing to award Avery a Nobel Prize.
+- [W5.54] By the time of the 1952 Hershey–Chase experiment, geneticists were more inclined to consider DNA as the genetic material, and Alfred Hershey was an influential member of the phage group.
+- [W5.55] Erwin Chargaff had shown that the base composition of DNA varies by species (contrary to the tetranucleotide hypothesis), and in 1952 Rollin Hotchkiss published his experimental evidence both confirming Chargaff's work and demonstrating the absence of protein in Avery's transforming principle.
+- [W5.56] Furthermore, the field of bacterial genetics was quickly becoming established, and biologists were more inclined to think of heredity in the same terms for bacteria and higher organisms.
+- [W5.57] After Hershey and Chase used radioactive isotopes to show that it was primarily DNA, rather than protein, that entered bacteria upon infection with bacteriophage, it was soon widely accepted that DNA was the material.
+- [W5.58] Despite the much less precise experimental results (they found a not-insignificant amount of protein entering the cells as well as DNA), the Hershey–Chase experiment was not subject to the same degree of challenge.
+- [W5.59] Its influence was boosted by the growing network of the phage group and, the following year, by the publicity surrounding the DNA structure proposed by Watson and Crick  (Watson was also a member of the phage group).
+- [W5.60] Only in retrospect, however, did either experiment definitively prove that DNA is the genetic material.
+- [W5.61] "Early responses to Avery et al.'s paper on DNA as hereditary material".
+- [W5.62] Historical Studies in the Physical and Biological Sciences.
+- [W5.63] 34 (2): 207–32. doi:10.1525/hsps.2004.34.2.207.
+- [W5.64] Proteins, enzymes, genes: the interplay of chemistry and biology.
+- [W5.65] New Haven, Conn: Yale University Press.
+- [W5.66] Cobb, Matthew; Morange, Michel (1998).
+- [W5.67] A history of molecular biology.
+- [W5.68] Cambridge: Harvard University Press.
+- [W5.69] Explorers of the Body: Dramatic Breakthroughs in Medicine from Ancient Times to Modern Science.
+- [W5.70] Fry, Michael (2016) Landmark Experiments in Molecular Biology; Elsevier-Academic Press, United States, ISBN 9780128020746
+- [W5.71] Lederberg J (February 1994).
+- [W5.72] "The transformation of genetics by DNA: an anniversary celebration of Avery, MacLeod and McCarty (1944)".
+- [W5.73] 136 (2): 423–6. doi:10.1093/genetics/136.2.423.
+- [W5.74] The transforming principle: discovering that genes are made of DNA.
+- [W5.75] "The chemical characterization of the gene: vicissitudes of evidential assessment".
+- [W5.76] History and Philosophy of the Life Sciences.
+- [W5.77] Profiles in Science: The Oswald T.
+
+## [W6] Wikipedia: Hershey–Chase experiment
+https://en.wikipedia.org/w/index.php?title=Hershey%E2%80%93Chase_experiment&oldid=1368337364 · CC BY-SA 4.0 · usage: ai_input
+
+- [W6.1] The Hershey–Chase experiments, also called the Blender experiment, were a series of experiments conducted in 1952 by Alfred Hershey and Martha Chase that helped to confirm that DNA is genetic material.
+- [W6.2] While DNA had been known to biologists since 1869, many scientists still assumed at the time that proteins carried the information for inheritance because DNA appeared to be an inert molecule, and, since it is located in the nucleus, its role was considered to be phosphorus storage.
+- [W6.3] In their experiments, Hershey and Chase showed that when bacteriophages, which are composed of DNA and protein, infect bacteria, their DNA enters the host bacterial cell, but most of their protein does not.
+- [W6.4] Hershey and Chase and subsequent discoveries all served to prove that DNA is the hereditary material.
+- [W6.5] Hershey shared the 1969 Nobel Prize in Physiology or Medicine with Max Delbrück and Salvador Luria for their "discoveries concerning the genetic structure of viruses".
+- [W6.6] In the early twentieth century, biologists thought that proteins carried genetic information.
+- [W6.7] This was based on the belief that proteins were more complex than DNA.
+- [W6.8] Phoebus Levene's influential "tetranucleotide hypothesis", which incorrectly proposed that DNA was a repeating set of identical nucleotides, supported this conclusion.
+- [W6.9] The results of the Avery–MacLeod–McCarty experiment, published in 1944, suggested that DNA was the genetic material, but there was still some hesitation within the general scientific community to accept this, which set the stage for the Hershey–Chase experiment.
+- [W6.10] Hershey and Chase, along with others who had done related experiments, confirmed that DNA was the biomolecule that carried genetic information.
+- [W6.11] Before that, Oswald Avery, Colin MacLeod, and Maclyn McCarty had shown that DNA led to the transformation of one strain of Streptococcus pneumoniae to another.
+- [W6.12] The results of these experiments provided evidence that DNA was the biomolecule that carried genetic information.
+- [W6.13] Hershey and Chase needed to be able to examine different parts of the phages they were studying separately, so they needed to distinguish the phage subsections.
+- [W6.14] Viruses were known to be composed of a protein shell and DNA, so they chose to uniquely label each with a different elemental isotope.
+- [W6.15] This allowed each to be observed and analyzed separately.
+- [W6.16] Since phosphorus is contained in DNA but not amino acids, radioactive phosphorus-32 was used to label the DNA contained in the T2 phage.
+- [W6.17] Radioactive sulfur-35 was used to label the protein sections of the T2 phage, because sulfur is contained in protein but not DNA.
+- [W6.18] Hershey and Chase inserted the radioactive elements in the bacteriophages by adding the isotopes to separate media within which bacteria were allowed to grow for 4 hours before bacteriophage introduction.
+- [W6.19] When the bacteriophages infected the bacteria, the progeny contained the radioactive isotopes in their structures.
+- [W6.20] This procedure was performed once for the sulfur-labeled phages and once for phosphorus-labeled phages.
+- [W6.21] The labeled progeny were then allowed to infect unlabeled bacteria.
+- [W6.22] The phage coats remained on the outside of the bacteria, while genetic material entered.
+- [W6.23] Disruption of phage from the bacteria by agitation in a blender followed by centrifugation allowed for the separation of the phage coats from the bacteria.
+- [W6.24] These bacteria were lysed to release phage progeny.
+- [W6.25] The progeny of the phages that were labeled with radioactive phosphorus remained labeled, whereas the progeny of the phages labeled with radioactive sulfur were unlabeled.
+- [W6.26] Thus, the Hershey–Chase experiment helped to confirm that DNA, not protein, is the genetic material.
+- [W6.27] Hershey and Chase showed that the introduction of deoxyribonuclease (referred to as DNase), an enzyme that breaks down DNA, into a solution containing the labeled bacteriophages did not introduce any 32P into the solution.
+- [W6.28] This demonstrated that the phage is resistant to the enzyme while intact.
+- [W6.29] Additionally, they were able to plasmolyze the bacteriophages so that they went into osmotic shock, which effectively created a solution containing most of the 32P and a heavier solution containing structures called "ghosts" that contained the 35S and the protein coat of the virus.
+- [W6.30] It was found that these "ghosts" could adsorb to bacteria that were susceptible to T2, although they contained no DNA and were simply the remains of the original viral capsule.
+- [W6.31] They concluded that the protein protected the DNA from DNase, but that once the two were separated and the phage was inactivated, the DNase could hydrolyze the phage DNA.
+- [W6.32] Experiment and conclusions
+- [W6.33] Hershey and Chase were also able to prove that the DNA from the phage is inserted into the bacteria shortly after the virus attaches to its host.
+- [W6.34] Using a high-speed blender they were able to force the bacteriophages from the bacterial cells after adsorption.
+- [W6.35] The lack of 32P-labeled DNA remaining in the solution after the bacteriophages had been allowed to adsorb to the bacteria showed that the phage DNA was transferred into the bacterial cell.
+- [W6.36] The presence of almost all the radioactive 35S in the solution showed that the protein coat that protects the DNA before adsorption stayed outside the cell.
+- [W6.37] Hershey and Chase concluded that DNA, not protein, was the genetic material.
+- [W6.38] They determined that a protective protein coat was formed around the bacteriophage, but that the internal DNA is what conferred its ability to produce progeny inside a bacterium.
+- [W6.39] They showed that, in growth, protein has no function, while DNA has some function.
+- [W6.40] They determined this from the amount of radioactive material remaining outside of the cell.
+- [W6.41] Only 20% of the 32P remained outside the cell, demonstrating that it was incorporated with DNA in the cell's genetic material.
+- [W6.42] All of the 35S in the protein coats remained outside the cell, showing it was not incorporated into the cell, and that protein is not the genetic material.
+- [W6.43] Hershey and Chase's experiment concluded that little sulfur-containing material entered the bacterial cell.
+- [W6.44] However no specific conclusions can be made regarding whether material that is sulfur-free enters the bacterial cell after phage adsorption.
+- [W6.45] Further research was necessary to conclude that it was solely bacteriophages' DNA that entered the cell and not a combination of protein and DNA where the protein did not contain any sulfur.
+- [W6.46] Hershey and Chase concluded that protein was not likely to be the hereditary genetic material.
+- [W6.47] However, they did not make any conclusions regarding the specific function of DNA as hereditary material, and only said that it must have some undefined role.
+- [W6.48] Confirmation and clarity came a year later in 1953, when James D.
+- [W6.49] Watson and Francis Crick correctly hypothesized, in their journal article "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid", the double helix structure of DNA, and suggested the copying mechanism by which DNA functions as hereditary material.
+- [W6.50] Furthermore, Watson and Crick suggested that DNA, the genetic material, is responsible for the synthesis of the thousands of proteins found in cells.
+- [W6.51] They had made this proposal based on the structural similarity that exists between the two macromolecules: both protein and DNA are linear sequences of monomers (amino acids and nucleotides, respectively).
+- [W6.52] Once the Hershey–Chase experiment was published, the scientific community generally acknowledged that DNA was the genetic code material.
+- [W6.53] This discovery led to a more detailed investigation of DNA to determine its composition as well as its 3D structure.
+- [W6.54] Using X-ray crystallography, the structure of DNA was discovered by James Watson and Francis Crick with the help of previously documented experimental evidence by Maurice Wilkins and Rosalind Franklin.
+- [W6.55] Knowledge of the structure of DNA led scientists to examine the nature of genetic coding and, in turn, understand the process of protein synthesis.
+- [W6.56] George Gamow proposed that the genetic code was composed of sequences of three DNA base pairs known as triplets or codons which represent one of the twenty amino acids.
+- [W6.57] Genetic coding helped researchers to understand the mechanism of gene expression, the process by which information from a gene is used in protein synthesis.
+- [W6.58] Since then, much research has been conducted to modulate steps in the gene expression process.
+- [W6.59] These steps include transcription, RNA splicing, translation, and post-translational modification which are used to control the chemical and structural nature of proteins.
+- [W6.60] Moreover, genetic engineering gives engineers the ability to directly manipulate the genetic materials of organisms using recombinant DNA techniques.
+- [W6.61] The first recombinant DNA molecule was created by Paul Berg in 1972 when he combined DNA from the monkey virus SV40 with that of the lambda phage.
+- [W6.62] Experiments on hereditary material during the time of the Hershey–Chase experiment often used bacteriophages as a model organism.
+- [W6.63] Bacteriophages lend themselves to experiments on hereditary material because they incorporate their genetic material into their host cell's genetic material (making them useful tools), they multiply quickly, and they are easily collected by researchers.
+- [W6.64] The Hershey–Chase experiment, its predecessors, such as the Avery–MacLeod–McCarty experiment, and successors served to unequivocally establish that hereditary information was carried by DNA.
+- [W6.65] This finding has numerous applications in forensic science, crime investigation and genealogy.
+- [W6.66] It provided the background knowledge for further applications in DNA forensics, where DNA fingerprinting uses data originating from DNA, not protein sources, to deduce genetic variation.
+- [W6.67] Hershey–Chase experiment animation
+- [W6.68] Clear depiction and simple summary
+
+## [W7] Wikipedia: Friedrich Miescher
+https://en.wikipedia.org/w/index.php?title=Friedrich_Miescher&oldid=1373017178 · CC BY-SA 4.0 · usage: ai_input
+
+- [W7.1] Johannes Friedrich Miescher (13 August 1844 – 26 August 1895) was a Swiss physician and biologist.
+- [W7.2] He was the first scientist to isolate nucleic acid in 1869.
+- [W7.3] Miescher also identified protamine and made several other discoveries.
+- [W7.4] Miescher had isolated various phosphate-rich chemicals, which he called nuclein (now nucleic acids), from the nuclei of white blood cells in Felix Hoppe-Seyler's laboratory at the University of Tübingen, Germany, paving the way for the identification of DNA as the carrier of inheritance.
+- [W7.5] The significance of the discovery, first published in 1871, was not at first apparent, and Albrecht Kossel  made the initial inquiries into its chemical structure.
+- [W7.6] Later, Miescher raised the idea that the nucleic acids could be involved in heredity and even posited that there might be something akin to an alphabet that might explain how variation is produced.
+- [W7.7] Friedrich Miescher came from a scientific family and was the oldest of 5 sons, and was known within his family as Fritz.
+- [W7.8] Miescher's father and his uncle held the chair of anatomy at the University of Basel until Miescher's father resigned in 1850.
+- [W7.9] Friedrich grew up in  combined household with his Uncle, Wilhelm His.
+- [W7.10] The combined household's were credited with creating an intellectual stimulus for everyone.
+- [W7.11] As a boy, Miescher was shy but intelligent.
+- [W7.12] He had an interest in music as his father performed publicly.
+- [W7.13] Miescher studied medicine at Basel, and in the summer of 1865, he worked for the organic chemist Adolf Strecker at the University of Göttingen.
+- [W7.14] However, Miescher's studies were interrupted for the year when he contracted typhoid fever, leaving him hearing-impaired.
+- [W7.15] Miescher received his MD in 1868.
+- [W7.16] Miescher felt that his partial deafness would be a disadvantage as a doctor, so he turned to physiological chemistry.
+- [W7.17] Miescher originally wanted to study lymphocytes, but was encouraged by Felix Hoppe-Seyler to study neutrophils.
+- [W7.18] Miescher was interested in studying the chemistry of the nucleus.
+- [W7.19] Lymphocytes were difficult to obtain in sufficient numbers to study, while neutrophils were known to be one of the main and first components in pus and could be obtained from bandages at the nearby hospital.
+- [W7.20] However, the problem was washing the cells off the bandages without damaging them.
+- [W7.21] Miescher devised different salt solutions, eventually producing one with sodium sulfate.
+- [W7.22] The cells were filtered, and since centrifuges were not available at the time, the cells were allowed to settle to the bottom of a beaker.
+- [W7.23] He then tried to isolate the nuclei free of cytoplasm.
+- [W7.24] Miescher subjected the purified nuclei to an alkaline extraction followed by acidification, resulting in the formation of a precipitate that he called nuclein (now known as DNA).
+- [W7.25] Miescher found that this contained phosphorus and nitrogen, but not sulfur.
+- [W7.26] Hoppe-Seyler repeated all of Miescher's research himself before publishing it in his journal because one of his earlier student's false claims.
+- [W7.27] Basel professorship and later research
+- [W7.28] Miescher then went on to study physiology at Leipzig in the laboratory of Carl Ludwig for a year before being appointed professor of physiology at the University of Basel.
+- [W7.29] While analyzing the composition of salmon sperm, Miescher also discovered the alkaline substance protamine, the account of which he published in 1874.
+- [W7.30] It later found use, as protamine sulfate, in the stabilization of insulin (NPH insulin) and also as a reversal agent for the anticoagulant medicine heparin.
+- [W7.31] Miescher and his students researched much nucleic acid chemistry, but its function remained unknown.
+- [W7.32] However, Miescher's discovery played an important part in the identification of nucleic acids as the carriers of inheritance.
+- [W7.33] The importance of his discovery was not apparent until Albrecht Kossel (a German physiologist specializing in the physiological chemistry of the cell and its nucleus and of proteins) researched the chemical structure of nuclein.
+- [W7.34] Miescher is also known for demonstrating that carbon dioxide concentrations in blood regulate breathing.
+- [W7.35] Miescher was married to Maria Anna Rüsch on March 21, 1878.
+- [W7.36] According to Miescher's own student Fritz Suter, Miescher missed his own wedding and was found in his laboratory.
+- [W7.37] Miescher had 3 children with Rüsch all of which died at a young age.
+- [W7.38] The Miescher family moved to their home on 21 Augustinergasse sometime after 1878 and before 1887.
+- [W7.39] Due to Miescher's lack of sleep, overwork, and cold conditions of his laboratory, he was susceptible to illness and contracted pleurisy in 1885.
+- [W7.40] Miescher neglected his condition and continued to work long hours, and in 1894 he contracted tuberculosis.
+- [W7.41] He then had to retire and moved to a sanatorium in Davos in the Swiss Alps.
+- [W7.42] He died of tuberculosis in 1895 at the age of 51.
+- [W7.43] In Miescher's obituary in the British Medical journal, his wife and children are not mentioned, showing Miescher's dedication to his work.
+- [W7.44] As of 2008, two laboratories have been named after Miescher:
+- [W7.45] The Friedrich Miescher Laboratory of the Max Planck Society in Tübingen and the Friedrich Miescher Institute for Biomedical Research in Basel, founded in 1970 by Ciba-Geigy.
+- [W7.46] An award was also named after Miescher called the "Friedrich Miescher award", given to young biochemists for outstanding scientific work either carried out in Switzerland or by a Swiss scientist.
+- [W7.47] Friedrich Miescher Institute for Biomedical Research
+- [W7.48] Friedrich Miescher Laboratory of the Max Planck Society
+- [W7.49] "Friedrich Miescher and the discovery of DNA".
+- [W7.50] 278 (2): 274–88. doi:10.1016/j.ydbio.2004.11.028.
+- [W7.51] Maderspacher, F (Aug 2004).
+- [W7.52] "Rags before the riches: Friedrich Miescher and the discovery of DNA".
+- [W7.53] 14 (15): R608. doi:10.1016/j.cub.2004.07.039.
+- [W7.54] "Practical CO2 monitoring in anaesthesia".
+- [W7.55] Canadian Journal of Anesthesia.
+- [W7.56] 40 (5 Pt 2): R40–9. doi:10.1007/BF03020684.
+- [W7.57] "Forgotten fundamental physiological studies of migrating salmon by Basel's physiologist, Friedrich Miescher".
+- [W7.58] 30 (1–2): 47–52. doi:10.1163/22977953-0300102006.
+- [W7.59] "Miescher's discoveries of 1869.
+- [W7.60] A centenary of nuclear chemistry".
+- [W7.61] Journal of Histochemistry and Cytochemistry.
+- [W7.62] 18 (3): 217–9. doi:10.1177/18.3.217.
+- [W7.63] "From nucleic acids to DNA.
+- [W7.64] On the 100th anniversary of the discovery of nucleic acids by Friedrich Miescher".
+- [W7.65] De, Meuron-Landolt, M (Jan 1970).
+- [W7.66] "Johannes Friedrich Miescher: his personality and the importance of his work".
+- [W7.67] Bulletin der Schweizerischen Akademie der Medizinischen Wissenschaften.
+- [W7.68] PMID 4910336.{{cite journal}}:  CS1 maint: multiple names: authors list (link)
+- [W7.69] "Jonhannes Friedrich Miescher Symposium.
+- [W7.70] 100th anniversary of the discovery of nucleic acids.
+- [W7.71] Bulletin der Schweizerischen Akademie der Medizinischen Wissenschaften.
+- [W7.72] "On the discovery of DNA by Friedrich Miescher 100 years ago".
+- [W7.73] "On the discovery of DNA by Friedrich Miescher 100 years ago".
+- [W7.74] Deutsche Medizinische Wochenschrift.
+- [W7.75] Friedrich Miescher and the contribution of Basle physicians to the biology of the nineteenth century".
+- [W7.76] The Yale Journal of Biology and Medicine.
+- [W7.77] Miescher, Friedrich (1871).
+- [W7.78] "Ueber die chemische Zusammensetzung der Eiterzellen".
+- [W7.79] Medicinisch-chemische Untersuchungen.
+- [W7.80] "Friedrich Miescher, 1844-1895".
+- [W7.81] Bibcode:1943SciMo..57..523G.
+- [W7.82] Meyer Friedman and Gerald W.
+- [W7.83] Friedland, Medicine's 10 Greatest Discoveries, ISBN 0-300-08278-9, pp.
+- [W7.84] Veigl, Harman, Lamm, "Friedrich Miescher's Discovery in the Historiography of Genetics", Journal of the History of Biology 53:3, 2020
+- [W7.85] Short biography and bibliography in the Virtual Laboratory of the Max Planck Institute for the History of Science
+- [W7.86] FMI – Friedrich Miescher Institute
+- [W7.87] The Friedrich Miescher Laboratory of the Max Planck Society
+- [W7.88] FMI – DNA Pioneers and Their Legacy by Ulf Lagerkvist
+- [W7.89] Dahm, Ralf (July–August 2008).
+- [W7.90] "The First Discovery of DNA".
+- [W7.91] 96 (4): 320. doi:10.1511/2008.73.3846.
+- [W7.92] Friedrich Miescher, the man who discovered DNA.
+- [W7.93] Ehud Lamm, Oren Harman, Sophie Juliane Veigl (2020).
+- [W7.94] Before Watson and Crick in 1953 Came Friedrich Miescher in 1869.
+- [W7.95] Genetics, 2020 Jun;215(2):291-296. doi:10.1534/genetics.120.303195.
+
+## [W8] Wikipedia: Gene
+https://en.wikipedia.org/w/index.php?title=Gene&oldid=1381592197 · CC BY-SA 4.0 · usage: ai_input
+
+- [W8.1] In biology, the word gene has two meanings.
+- [W8.2] The Mendelian gene is a basic unit of heredity.
+- [W8.3] The molecular gene is a sequence of nucleotides in DNA that is transcribed to produce RNA.
+- [W8.4] There are two types of molecular genes: protein-coding genes and non-coding genes.
+- [W8.5] During gene expression (the synthesis of RNA or protein from a gene), DNA is first copied into RNA.
+- [W8.6] RNA can be directly functional or be the intermediate template for the synthesis of a protein.
+- [W8.7] Genes and their regulatory sequences are mainly responsible for determining the physical traits, or the phenotype of an organism.
+- [W8.8] The genotype is the total amount of DNA in an organism including genes, other functional elements, and non-functional DNA.
+- [W8.9] A gene can acquire mutations in its sequence, leading to different variants, known as alleles, in the population.
+- [W8.10] These alleles encode slightly different versions of a gene, which may be expressed as different phenotypic traits.
+- [W8.11] Populations evolve when the frequencies of alleles shift due mostly to natural selection and genetic drift.
+- [W8.12] Some of these alleles are located in genes.
+- [W8.13] There are many different ways to use the term "gene" based on different aspects of their inheritance, selection, biological function, or molecular structure but most of these definitions fall into two categories, the Mendelian gene or the molecular gene.
+- [W8.14] The Mendelian gene is the classical gene of genetics and it refers to any heritable trait.
+- [W8.15] In The Selfish Gene, Richard Dawkins argues that it is the unit of evolution.
+- [W8.16] More thorough discussions of this version of a gene can be found in the articles Genetics and Gene-centered view of evolution.
+- [W8.17] The molecular gene definition is more commonly used across biochemistry, molecular biology, and most of genetics—the gene that is described in terms of DNA sequence.
+- [W8.18] There are many different definitions of this gene—some of which are misleading or incorrect.
+- [W8.19] Very early work in the field that became molecular genetics suggested the concept that one gene makes one protein (originally 'one gene – one enzyme').
+- [W8.20] However, genes that produce repressor RNAs were proposed in the 1950s and by the 1960s, textbooks were using molecular gene definitions that included those that specified functional RNA molecules such as ribosomal RNA and tRNA (noncoding genes) as well as protein-coding genes.
+- [W8.21] This idea of two kinds of genes is still part of the definition of a gene in most textbooks.
+- [W8.22] The primary function of the genome is to produce RNA molecules.
+- [W8.23] Selected portions of the DNA nucleotide sequence are copied into a corresponding RNA nucleotide sequence, which either encodes a protein (if it is an mRNA) or forms a 'structural' RNA, such as a transfer RNA (tRNA) or ribosomal RNA (rRNA) molecule.
+- [W8.24] Each region of the DNA helix that produces a functional RNA molecule constitutes a gene.
+- [W8.25] We define a gene as a DNA sequence that is transcribed.
+- [W8.26] This definition includes genes that do not encode proteins (not all transcripts are messenger RNA).
+- [W8.27] The definition normally excludes regions of the genome that control transcription but are not themselves transcribed.
+- [W8.28] We will encounter some exceptions to our definition of a gene - surprisingly, there is no definition that is entirely satisfactory.
+- [W8.29] A gene is a DNA sequence that codes for a diffusible product.
+- [W8.30] This product may be protein (as is the case in the majority of genes) or may be RNA (as is the case of genes that code for tRNA and rRNA).
+- [W8.31] The crucial feature is that the product diffuses away from its site of synthesis to act elsewhere.
+- [W8.32] The important parts of such definitions are: (1) that a gene corresponds to a transcription unit; (2) that genes produce both mRNA and noncoding RNAs; and (3) regulatory sequences control gene expression but are not part of the gene itself.
+- [W8.33] However, there is one other important part of the definition and it is emphasized in Kostas Kampourakis' book Making Sense of Genes.
+- [W8.34] Therefore in this book I will consider genes as DNA sequences encoding information for functional products, be it proteins or RNA molecules.
+- [W8.35] With 'encoding information', I mean that the DNA sequence is used as a template for the production of an RNA molecule or a protein that performs some function.
+- [W8.36] The emphasis on function is essential because there are stretches of DNA that produce non-functional transcripts and they do not qualify as genes.
+- [W8.37] These include obvious examples such as transcribed pseudogenes as well as less obvious examples such as junk RNA produced as noise due to transcription errors.
+- [W8.38] In order to qualify as a true gene, by this definition, one has to prove that the transcript has a biological function.
+- [W8.39] Early speculations on the size of a typical gene were based on high-resolution genetic mapping and on the size of proteins and RNA molecules.
+- [W8.40] A length of 1500 base pairs seemed reasonable at the time (1965).
+- [W8.41] This was based on the idea that the gene was the DNA that was directly responsible for production of the functional product.
+- [W8.42] The discovery of introns in the 1970s meant that many eukaryotic genes were much larger than the size of the functional product would imply.
+- [W8.43] Typical mammalian protein-coding genes, for example, are about 62,000 base pairs in length (transcribed region) and since there are about 20,000 of them they occupy about 35–40% of the mammalian genome (including the human genome).
+- [W8.44] In spite of the fact that both protein-coding genes and noncoding genes have been known for more than 50 years, there are still a number of textbooks, websites, and scientific publications that define a gene as a DNA sequence that specifies a protein.
+- [W8.45] In other words, the definition is restricted to protein-coding genes.
+- [W8.46] Here is an example from a 2021 article in American Scientist.
+- [W8.47] ... to truly assess the potential significance of de novo genes, we relied on a strict definition of the word "gene" with which nearly every expert can agree.
+- [W8.48] First, in order for a nucleotide sequence to be considered a true gene, an open reading frame (ORF) must be present.
+- [W8.49] The ORF can be thought of as the "gene itself"; it begins with a starting mark common for every gene and ends with one of three possible finish line signals.
+- [W8.50] One of the key enzymes in this process, the RNA polymerase, zips along the strand of DNA like a train on a monorail, transcribing it into its messenger RNA form.
+- [W8.51] This point brings us to our second important criterion: A true gene is one that is both transcribed and translated.
+- [W8.52] That is, a true gene is first used as a template to make transient messenger RNA, which is then translated into a protein.
+- [W8.53] This restricted definition is so common that it has spawned many recent articles that criticize this "standard definition" and call for a new expanded definition that includes noncoding genes.
+- [W8.54] However, some modern writers still do not acknowledge noncoding genes although this so-called "new" definition has been recognised for more than half a century.
+- [W8.55] Although some definitions can be more broadly applicable than others, the fundamental complexity of biology means that no definition of a gene can capture all aspects perfectly.
+- [W8.56] Not all genomes are DNA (e.g.
+- [W8.57] RNA viruses), bacterial operons are multiple protein-coding regions transcribed into single large mRNAs, alternative splicing enables a single genomic region to encode multiple distinct products and trans-splicing concatenates mRNAs from shorter coding sequence across the genome.
+- [W8.58] Since molecular definitions exclude elements such as introns, promotors, and other regulatory regions, these are instead thought of as "associated" with the gene and affect its function.
+- [W8.59] An even broader operational definition is sometimes used to encompass the complexity of these diverse phenomena, where a gene is defined as a union of genomic sequences encoding a coherent set of potentially overlapping functional products.
+- [W8.60] This definition categorizes genes by their functional products (proteins or RNA) rather than their specific DNA loci, with regulatory elements classified as gene-associated regions.
+- [W8.61] Discovery of discrete inherited units
+- [W8.62] The existence of discrete heritable units was discovered by Gregor Mendel.
+- [W8.63] From 1857 to 1864, in Brno, Austrian Empire (today's Czech Republic), he studied inheritance patterns in 8000 common edible pea plants, tracking distinct traits from parent to offspring.
+- [W8.64] He described these mathematically as 2n combinations where n is the number of differing characteristics in the original peas.
+- [W8.65] Although he did not use the term gene, he explained his results in terms of discrete inherited units that give rise to observable physical characteristics.
+- [W8.66] This description prefigured Wilhelm Johannsen's distinction between genotype (the genetic makeup of an organism) and phenotype (the observable traits of that organism).
+- [W8.67] Mendel was also the first to demonstrate independent assortment, the distinction between dominant and recessive traits, the distinction between a heterozygote and homozygote, and the phenomenon of discontinuous inheritance.
+- [W8.68] Prior to Mendel's work, the dominant theory of heredity was one of blending inheritance, which suggested that each parent contributed fluids to the fertilization process and that the traits of the parents blended and mixed to produce the offspring.
+- [W8.69] Charles Darwin developed a theory of inheritance he termed pangenesis, from Greek pan ("all, whole") and genesis ("birth") / genos ("origin").
+- [W8.70] Darwin used the term gemmule to describe hypothetical particles that would mix during reproduction.
+- [W8.71] Mendel's work went largely unnoticed after its first publication in 1866, but was rediscovered in the late 19th century by Hugo de Vries, Carl Correns, and Erich von Tschermak, who (claimed to have) reached similar conclusions in their own research.
+- [W8.72] In 1889, de Vries published Intracellular Pangenesis, in which he postulated that different characters have individual hereditary carriers and that inheritance of specific traits in organisms comes in particles.
+- [W8.73] He called these units "pangenes" (Pangens in German), after Darwin's 1868 pangenesis theory.
+- [W8.74] In 1906, William Bateson coined "genetics" (from Greek, γενετικός genetikos meaning "genitive"/"generative")." In 1909, Johannsen introduced the term "gene" (from the Greek: γόνος, gonos, meaning offspring and procreation).
+- [W8.75] Eduard Strasburger, among others, still used the term "pangene" for the fundamental physical and functional unit of heredity.
+- [W8.76] Advances in understanding genes and inheritance continued throughout the 20th century.
+- [W8.77] Deoxyribonucleic acid (DNA) was shown to be the molecular repository of genetic information by experiments in the 1940s to 1950s.
+- [W8.78] The structure of DNA was studied by Rosalind Franklin and Maurice Wilkins using X-ray crystallography, which led James D.
+- [W8.79] Watson and Francis Crick to publish a model of the double-stranded DNA molecule whose paired nucleotide bases indicated a compelling hypothesis for the mechanism of genetic replication.
+- [W8.80] In the early 1950s the prevailing view was that the genes in a chromosome acted as discrete entities arranged like beads on a string.
+- [W8.81] The experiments of Seymour Benzer using mutants defective in the rII region of bacteriophage T4 (1955–1959) showed that individual genes have a simple linear structure and are likely to be equivalent to a linear section of DNA.
+- [W8.82] In 1965, the lab of Max Birnstiel was the first to isolate single genes, the ribosomal RNA genes from Xenopus laevis.
+- [W8.83] In 1972, Walter Fiers and his team were the first to determine the sequence of a gene: that of bacteriophage MS2 coat protein.
+- [W8.84] The subsequent development of chain-termination DNA sequencing in 1977 by Frederick Sanger improved the efficiency of sequencing and turned it into a routine laboratory tool.
+- [W8.85] An automated version of the Sanger method was used in early phases of the Human Genome Project.
+- [W8.86] Modern synthesis and its successors
+- [W8.87] Fisher, Sewall Wright and J.B.S.
+- [W8.88] Haldane integrated Mendelian genetics with Darwinian evolution in the modern synthesis, a term introduced by Julian Huxley.
+- [W8.89] Williams and John Maynard Smith developed the gene-centric view of evolution, which argued that the Mendelian gene is a unit of natural selection.
+- [W8.90] Williams defined the gene in this view: "that which segregates and recombines with appreciable frequency."Richard Dawkins popularized this view in several books, starting with The Selfish Gene.
+- [W8.91] The development of the neutral theory of evolution by Motoo Kimura in the late 1960s led to the recognition that random genetic drift is a major player in evolution and that neutral theory should be the null hypothesis of molecular evolution.
+- [W8.92] This led to the construction of phylogenetic trees and the development of the molecular clock, which is the basis of all dating techniques using DNA sequences.
+- [W8.93] These techniques are not confined to molecular gene sequences but can be used on all DNA segments in the genome.
+- [W8.94] The vast majority of organisms encode their genes in long strands of DNA (deoxyribonucleic acid).
+- [W8.95] DNA consists of a chain made from four types of nucleotide subunits, each composed of:
+- [W8.96] a five-carbon sugar (2-deoxyribose)
+- [W8.97] Two chains of DNA twist around each other to form a DNA double helix, with the phosphate–sugar backbone spiralling around the outside, and the bases pointing inward with adenine base pairing to thymine and guanine to cytosine.
+- [W8.98] The specificity of base pairing occurs because adenine and thymine align to form two hydrogen bonds, whereas cytosine and guanine form three hydrogen bonds.
+- [W8.99] The two strands in a double helix must, therefore, be complementary, with their sequence of bases matching such that the adenines of one strand are paired with the thymines of the other strand, and so on.
+- [W8.100] Due to the chemical composition of the pentose residues of the bases, DNA strands have directionality.
+- [W8.101] One end of a DNA polymer contains an exposed hydroxyl group on the deoxyribose; this is known as the 3' end of the molecule.
+- [W8.102] The other end contains an exposed phosphate group; this is the 5' end.
+- [W8.103] The two strands of a double-helix run in opposite directions.
+- [W8.104] Nucleic-acid synthesis, including DNA replication and transcription, occurs in the 5'→3' direction, because new nucleotides are added via a dehydration reaction that uses the exposed 3' hydroxyl as a nucleophile.
+- [W8.105] The expression of genes encoded in DNA begins by transcribing the gene into RNA, a second type of nucleic acid that is very similar to DNA, but whose monomers contain the sugar ribose rather than deoxyribose.
+- [W8.106] RNA also contains the base uracil in place of thymine.
+- [W8.107] RNA molecules are less stable than DNA and are typically single-stranded.
+- [W8.108] Genes that encode proteins are composed of a series of three-nucleotide sequences called codons, which serve as the "words" in the genetic "language".
+- [W8.109] The genetic code specifies the correspondence during protein translation between codons and amino acids.
+- [W8.110] The genetic code is nearly the same for all known organisms.
+- [W8.111] The total complement of genes in an organism or cell is known as its genome, which may be stored on one or more chromosomes.
+- [W8.112] A chromosome consists of a single, very long DNA helix on which thousands of genes are encoded.
+- [W8.113] The region of the chromosome at which a particular gene is located is called its locus.
+- [W8.114] Each locus contains one allele of a gene; however, members of a population may have different alleles at the locus, each with a slightly different gene sequence.
+- [W8.115] The majority of eukaryotic genes are stored on a set of large, linear chromosomes.
+- [W8.116] The chromosomes are packed within the nucleus in complex with storage proteins called histones to form a unit called a nucleosome.
+- [W8.117] DNA packaged and condensed in this way is called chromatin.
+- [W8.118] The manner in which DNA is stored on the histones, as well as chemical modifications of the histone itself, regulate whether a particular region of DNA is accessible for gene expression.
+- [W8.119] In addition to genes, eukaryotic chromosomes contain sequences involved in ensuring that the DNA is copied without degradation of end regions and sorted into daughter cells during cell division: replication origins, telomeres, and the centromere.
+- [W8.120] Replication origins are the sequence regions where DNA replication is initiated to make two copies of the chromosome.
+- [W8.121] Telomeres are long stretches of repetitive sequences that cap the ends of the linear chromosomes and prevent degradation of coding and regulatory regions during DNA replication.
+- [W8.122] The length of the telomeres decreases each time the genome is replicated and has been implicated in the aging process.
+- [W8.123] The centromere is required for binding spindle fibres to separate sister chromatids into daughter cells during cell division.
+- [W8.124] Prokaryotes (bacteria and archaea) typically store their genomes on a single, large, circular chromosome.
+- [W8.125] Similarly, some eukaryotic organelles contain a remnant circular chromosome with a small number of genes.
+- [W8.126] Prokaryotes sometimes supplement their chromosome with additional small circles of DNA called plasmids, which usually encode only a few genes and are transferable between individuals.
+- [W8.127] For example, the genes for antibiotic resistance are usually encoded on bacterial plasmids and can be passed between individual cells, even those of different species, via horizontal gene transfer.
+- [W8.128] Whereas the chromosomes of prokaryotes are relatively gene-dense, those of eukaryotes often contain regions of DNA that serve no obvious function.
+- [W8.129] Simple single-celled eukaryotes have relatively small amounts of such DNA, whereas the genomes of complex multicellular organisms, including humans, contain an absolute majority of DNA without an identified function.
+- [W8.130] This DNA has often been referred to as "junk DNA".
+- [W8.131] However, more recent analyses suggest that, although protein-coding DNA makes up barely 2% of the human genome, about 80% of the bases in the genome may be expressed, so the term "junk DNA" may be a misnomer.
+- [W8.132] The structure of a protein-coding gene consists of many elements of which the actual protein coding sequence is often only a small part.
+- [W8.133] These include introns and untranslated regions of the mature mRNA.
+- [W8.134] Noncoding genes can also contain introns that are removed during processing to produce the mature functional RNA.
+- [W8.135] All genes are associated with regulatory sequences that are required for their expression.
+- [W8.136] First, genes require a promoter sequence.
+- [W8.137] The promoter is recognized and bound by transcription factors that recruit and help RNA polymerase bind to the region to initiate transcription.
+- [W8.138] The recognition typically occurs as a consensus sequence like the TATA box.
+- [W8.139] A gene can have more than one promoter, resulting in messenger RNAs (mRNA) that differ in how far they extend in the 5' end.
+- [W8.140] Highly transcribed genes have "strong" promoter sequences that form strong associations with transcription factors, thereby initiating transcription at a high rate.
+- [W8.141] Others genes have "weak" promoters that form weak associations with transcription factors and initiate transcription less frequently.
+- [W8.142] Eukaryotic promoter regions are much more complex and difficult to identify than prokaryotic promoters.
+- [W8.143] Additionally, genes can have regulatory regions many kilobases upstream or downstream of the gene that alter expression.
+- [W8.144] These act by binding to transcription factors which then cause the DNA to loop so that the regulatory sequence (and bound transcription factor) become close to the RNA polymerase binding site.
+- [W8.145] For example, enhancers increase transcription by binding an activator protein which then helps to recruit the RNA polymerase to the promoter; conversely silencers bind repressor proteins and make the DNA less available for RNA polymerase.
+- [W8.146] The mature messenger RNA produced from protein-coding genes contains untranslated regions at both ends which contain binding sites for ribosomes, RNA-binding proteins, miRNA, as well as terminator, and start and stop codons.
+- [W8.147] In addition, most eukaryotic open reading frames contain untranslated introns, which are removed and exons, which are connected together in a process known as RNA splicing.
+- [W8.148] Finally, the ends of gene transcripts are defined by cleavage and polyadenylation (CPA) sites, where newly produced pre-mRNA gets cleaved and a string of ~200 adenosine monophosphates is added at the 3' end.
+- [W8.149] The poly(A) tail protects mature mRNA from degradation and has other functions, affecting translation, localization, and transport of the transcript from the nucleus.
+- [W8.150] Splicing, followed by CPA, generate the final mature mRNA, which encodes the protein or RNA product.
+- [W8.151] Many noncoding genes in eukaryotes have different transcription termination mechanisms and they do not have poly(A) tails.
+- [W8.152] Many prokaryotic genes are organized into operons, with multiple protein-coding sequences that are transcribed as a unit.
+- [W8.153] The genes in an operon are transcribed as a continuous messenger RNA, referred to as a polycistronic mRNA.
+- [W8.154] The term cistron in this context is equivalent to gene.
+- [W8.155] The transcription of an operon's mRNA is often controlled by a repressor that can occur in an active or inactive state depending on the presence of specific metabolites.
+- [W8.156] When active, the repressor binds to a DNA sequence at the beginning of the operon, called the operator region, and represses transcription of the operon; when the repressor is inactive transcription of the operon can occur (see e.g.
+- [W8.157] The products of operon genes typically have related functions and are involved in the same regulatory network.
+- [W8.158] Though many genes have simple structures, as with much of biology, others can be quite complex or represent unusual edge-cases.
+- [W8.159] Eukaryotic genes often have introns that are much larger than their exons, and those introns can even have other genes nested inside them.
+- [W8.160] Associated enhancers may be many kilobases away, or even on entirely different chromosomes operating via physical contact between two chromosomes.
+- [W8.161] A single gene can encode multiple different functional products by alternative splicing, and conversely a gene may be split across chromosomes but those transcripts are concatenated back together into a functional sequence by trans-splicing.
+- [W8.162] It is also possible for overlapping genes to share some of their DNA sequence, either on opposite strands or the same strand (in a different reading frame, or even the same reading frame).
+- [W8.163] In all organisms, two steps are required to read the information encoded in a gene's DNA and produce the protein it specifies.
+- [W8.164] First, the gene's DNA is transcribed to messenger RNA (mRNA).
+- [W8.165] Second, that mRNA is translated to protein.
+- [W8.166] RNA-coding genes must still go through the first step, but are not translated into protein.
+- [W8.167] The process of producing a biologically functional molecule of either RNA or protein is called gene expression, and the resulting molecule is called a gene product.
+- [W8.168] The nucleotide sequence of a gene's DNA specifies the amino acid sequence of a protein through the genetic code.
+- [W8.169] Sets of three nucleotides, known as codons, each correspond to a specific amino acid.
+- [W8.170] The principle that three sequential bases of DNA code for each amino acid was demonstrated in 1961 using frameshift mutations in the rIIB gene of bacteriophage T4 (see Crick, Brenner et al. experiment).
+- [W8.171] Additionally, a "start codon", and three "stop codons" indicate the beginning and end of the protein coding region.
+- [W8.172] There are 64 possible codons (four possible nucleotides at each of three positions, hence 43 possible codons) and only 20 standard amino acids; hence the code is redundant and multiple codons can specify the same amino acid.
+- [W8.173] The correspondence between codons and amino acids is universal among all species.
+- [W8.174] Transcription produces a single-stranded RNA molecule known as messenger RNA, whose nucleotide sequence is complementary to the DNA from which it was transcribed.
+- [W8.175] The mRNA acts as an intermediate between the DNA gene and its final protein product.
+- [W8.176] The gene's DNA is used as a template to generate a complementary mRNA.
+- [W8.177] The mRNA matches the sequence of the gene's DNA coding strand because it is synthesised as the complement of the template strand.
+- [W8.178] Transcription is performed by an enzyme called an RNA polymerase, which reads the template strand in the 3' to 5' direction and synthesizes the RNA from 5' to 3'.
+- [W8.179] To initiate transcription, the polymerase first recognizes and binds a promoter region of the gene.
+- [W8.180] Thus, a major mechanism of gene regulation is the blocking or sequestering the promoter region, either by tight binding by repressor molecules that physically block the polymerase or by organizing the DNA so that the promoter region is not accessible.
+- [W8.181] In prokaryotes, transcription occurs in the cytoplasm; for very long transcripts, translation may begin at the 5' end of the RNA while the 3' end is still being transcribed.
+- [W8.182] In eukaryotes, transcription occurs in the nucleus, where the cell's DNA is stored.
+- [W8.183] The RNA molecule produced by the polymerase is known as the primary transcript and undergoes post-transcriptional modifications before being exported to the cytoplasm for translation.
+- [W8.184] One of the modifications performed is the splicing of introns which are sequences in the transcribed region that do not encode a protein.
+- [W8.185] Alternative splicing mechanisms can result in mature transcripts from the same gene having different sequences and thus coding for different proteins.
+- [W8.186] This is a major form of regulation in eukaryotic cells and also occurs in some prokaryotes.
+- [W8.187] Translation is the process by which a mature mRNA molecule is used as a template for synthesizing a new protein.
+- [W8.188] Translation is carried out by ribosomes, large complexes of RNA and protein responsible for carrying out the chemical reactions to add new amino acids to a growing polypeptide chain by the formation of peptide bonds.
+- [W8.189] The genetic code is read three nucleotides at a time, in units called codons, via interactions with specialized RNA molecules called transfer RNA (tRNA).
+- [W8.190] Each tRNA has three unpaired bases known as the anticodon that are complementary to the codon it reads on the mRNA.
+- [W8.191] The tRNA is also covalently attached to the amino acid specified by the complementary codon.
+- [W8.192] When the tRNA binds to its complementary codon in an mRNA strand, the ribosome attaches its amino acid cargo to the new polypeptide chain, which is synthesized from amino terminus to carboxyl terminus.
+- [W8.193] During and after synthesis, most new proteins must fold to their active three-dimensional structure before they can carry out their cellular functions.
+- [W8.194] Genes are regulated so that they are expressed only when the product is needed, since expression draws on limited resources.
+- [W8.195] A cell regulates its gene expression depending on its external environment (e.g. available nutrients, temperature and other stresses), its internal environment (e.g. cell division cycle, metabolism, infection status), and its specific role if in a multicellular organism.
+- [W8.196] Gene expression can be regulated at any step: from transcriptional initiation, to RNA processing, to post-translational modification of the protein.
+- [W8.197] The regulation of lactose metabolism genes in E. coli (lac operon) was the first such mechanism to be described in 1961.
+- [W8.198] A typical protein-coding gene is first copied into RNA as an intermediate in the manufacture of the final protein product.
+- [W8.199] In other cases, the RNA molecules are the actual functional products, as in the synthesis of ribosomal RNA and transfer RNA.
+- [W8.200] Some RNAs known as ribozymes are capable of enzymatic function, while others such as microRNAs and riboswitches have regulatory roles.
+- [W8.201] The DNA sequences from which such RNAs are transcribed are known as non-coding RNA genes.
+- [W8.202] Some viruses store their entire genomes in the form of RNA, and contain no DNA at all.
+- [W8.203] Because they use RNA to store genes, their cellular hosts may synthesize their proteins as soon as they are infected and without the delay in waiting for transcription.
+- [W8.204] On the other hand, RNA retroviruses, such as HIV, require the reverse transcription of their genome from RNA into DNA before their proteins can be synthesized.
+- [W8.205] Organisms inherit their genes from their parent (s).
+- [W8.206] Asexual organisms simply inherit a complete copy of their parent's genome.
+- [W8.207] Sexual organisms have two copies of each chromosome because they inherit one complete set from each parent.
+- [W8.208] According to Mendelian inheritance, variations in an organism's phenotype (observable physical and behavioral characteristics) are due in part to variations in its genotype (particular set of genes).
+- [W8.209] Each gene specifies a particular trait with a different sequence of a gene (alleles) giving rise to different phenotypes.
+- [W8.210] Most eukaryotic organisms (such as the pea plants Mendel worked on) have two alleles for each trait, one inherited from each parent.
+- [W8.211] Alleles at a locus may be dominant or recessive; dominant alleles give rise to their corresponding phenotypes when paired with any other allele for the same trait, whereas recessive alleles give rise to their corresponding phenotype only when paired with another copy of the same allele.
+- [W8.212] If you know the genotypes of the organisms, you can determine which alleles are dominant and which are recessive.
+- [W8.213] For example, if the allele specifying tall stems in pea plants is dominant over the allele specifying short stems, then pea plants that inherit one tall allele from one parent and one short allele from the other parent will also have tall stems.
+- [W8.214] Mendel's work demonstrated that alleles assort independently in the production of gametes, or germ cells, ensuring variation in the next generation.
+- [W8.215] Although Mendelian inheritance remains a good model for many traits determined by single genes (including a number of well-known genetic disorders) it does not include the physical processes of DNA replication and cell division.
+- [W8.216] DNA replication and cell division
+- [W8.217] The growth, development, and reproduction of organisms relies on cell division; the process by which a single cell divides into two usually identical daughter cells.
+- [W8.218] This requires first making a duplicate copy of every gene in the genome in a process called DNA replication.
+- [W8.219] The copies are made by specialized enzymes known as DNA polymerases, which "read" one strand of the double-helical DNA, known as the template strand, and synthesize a new complementary strand.
+- [W8.220] Because the DNA double helix is held together by base pairing, the sequence of one strand completely specifies the sequence of its complement; hence only one strand needs to be read by the enzyme to produce a faithful copy.
+- [W8.221] The process of DNA replication is semiconservative; that is, the copy of the genome inherited by each daughter cell contains one original and one newly synthesized strand of DNA.
+- [W8.222] The rate of DNA replication in living cells was first measured as the rate of phage T4 DNA elongation in phage-infected E. coli and found to be impressively rapid.
+- [W8.223] During the period of exponential DNA increase at 37 °C, the rate of elongation was 749 nucleotides per second.
+- [W8.224] After DNA replication, the cell must physically separate the two genome copies and divide into two distinct membrane-bound cells.
+- [W8.225] In prokaryotes (bacteria and archaea) this usually occurs via a relatively simple process called binary fission, in which each circular genome attaches to the cell membrane and is separated into the daughter cells as the membrane invaginates to split the cytoplasm into two membrane-bound portions.
+- [W8.226] Binary fission is extremely fast compared to the rates of cell division in eukaryotes.
+- [W8.227] Eukaryotic cell division is a more complex process known as the cell cycle; DNA replication occurs during a phase of this cycle known as S phase, whereas the process of segregating chromosomes and splitting the cytoplasm occurs during M phase.
+- [W8.228] The duplication and transmission of genetic material from one generation of cells to the next is the basis for molecular inheritance and the link between the classical and molecular pictures of genes.
+- [W8.229] Organisms inherit the characteristics of their parents because the cells of the offspring contain copies of the genes in their parents' cells.
+- [W8.230] In asexually reproducing organisms, the offspring will be a genetic copy or clone of the parent organism.
+- [W8.231] In sexually reproducing organisms, a specialized form of cell division called meiosis produces cells called gametes or germ cells that are haploid, or contain only one copy of each gene.
+- [W8.232] The gametes produced by females are called eggs or ova, and those produced by males are called sperm.
+- [W8.233] Two gametes fuse to form a diploid fertilized egg, a single cell that has two sets of genes, with one copy of each gene from the mother and one from the father.
+- [W8.234] During the process of meiotic cell division, an event called genetic recombination or crossing-over can sometimes occur, in which a length of DNA on one chromatid is swapped with a length of DNA on the corresponding homologous non-sister chromatid.
+- [W8.235] This can result in reassortment of otherwise linked alleles.
+- [W8.236] The Mendelian principle of independent assortment asserts that each of a parent's two genes for each trait will sort independently into gametes; which allele an organism inherits for one trait is unrelated to which allele it inherits for another trait.
+- [W8.237] This is in fact only true for genes that do not reside on the same chromosome or are located very far from one another on the same chromosome.
+- [W8.238] The closer two genes lie on the same chromosome, the more closely they will be associated in gametes and the more often they will appear together (known as genetic linkage).
+- [W8.239] Genes that are very close are essentially never separated because it is extremely unlikely that a crossover point will occur between them.
+- [W8.240] The genome is the total genetic material of an organism and includes both the genes and non-coding sequences.
+- [W8.241] Eukaryotic genes can be annotated using FINDER.
+- [W8.242] The genome size, and the number of genes it encodes varies widely between organisms.
+- [W8.243] The smallest genomes occur in viruses, and viroids (which act as a single non-coding RNA gene).
+- [W8.244] Conversely, plants can have extremely large genomes, with rice containing >46,000 protein-coding genes.
+- [W8.245] The total number of protein-coding genes (the Earth's proteome) is estimated to be 5 million sequences.
+- [W8.246] Although the number of base-pairs of DNA in the human genome has been known since the 1950s, the estimated number of genes has changed over time as definitions of genes, and methods of detecting them have been refined.
+- [W8.247] Initial theoretical predictions of the number of human genes in the 1960s and 1970s were based on mutation load estimates and the numbers of mRNAs and these estimates tended to be about 30,000 protein-coding genes.
+- [W8.248] During the 1990s there were guesstimates of up to 100,000 genes and early data on detection of mRNAs (expressed sequence tags) suggested more than the traditional value of 30,000 genes that had been reported in the textbooks during the 1980s.
+- [W8.249] The initial draft sequences of the human genome confirmed the earlier predictions of about 30,000 protein-coding genes however that estimate has fallen to about 19,000 with the ongoing GENCODE annotation project.
+- [W8.250] The number of noncoding genes is not known with certainty but the latest estimates from Ensembl suggest 26,000 noncoding genes.
+- [W8.251] Essential genes are the set of genes thought to be critical for an organism's survival.
+- [W8.252] This definition assumes the abundant availability of all relevant nutrients and the absence of environmental stress.
+- [W8.253] Only a small portion of an organism's genes are essential.
+- [W8.254] In bacteria, an estimated 250–400 genes are essential for Escherichia coli and Bacillus subtilis, which is less than 10% of their genes.
+- [W8.255] Half of these genes are orthologs in both organisms and are largely involved in protein synthesis.
+- [W8.256] In the budding yeast Saccharomyces cerevisiae the number of essential genes is slightly higher, at 1000 genes (~20% of their genes).
+- [W8.257] Although the number is more difficult to measure in higher eukaryotes, mice and humans are estimated to have around 2000 essential genes (~10% of their genes).
+- [W8.258] The synthetic organism, Syn 3, has a minimal genome of 473 essential genes and quasi-essential genes (necessary for fast growth), although 149 have unknown function.
+- [W8.259] Essential genes include housekeeping genes (critical for basic cell functions) as well as genes that are expressed at different times in the organisms development or life cycle.
+- [W8.260] Housekeeping genes are used as experimental controls when analysing gene expression, since they are constitutively expressed at a relatively constant level.
+- [W8.261] Genetic and genomic nomenclature
+- [W8.262] Gene nomenclature was established by the HUGO Gene Nomenclature Committee (HGNC), a committee of the Human Genome Organisation, for each known human gene in the form of an approved gene name and symbol (short-form abbreviation), which can be accessed through a database maintained by HGNC.
+- [W8.263] Symbols are chosen to be unique, and each gene has only one symbol (although approved symbols sometimes change).
+- [W8.264] Symbols are preferably kept consistent with other members of a gene family and with homologs in other species, particularly the mouse due to its role as a common model organism.
+- [W8.265] Genetic engineering is the modification of an organism's genome through biotechnology.
+- [W8.266] Since the 1970s, a variety of techniques have been developed to specifically add, remove and edit genes in an organism.
+- [W8.267] Recently developed genome engineering techniques use engineered nuclease enzymes to create targeted DNA repair in a chromosome to either disrupt or edit a gene when the break is repaired.
+- [W8.268] The related term synthetic biology is sometimes used to refer to extensive genetic engineering of an organism.
+- [W8.269] Genetic engineering is now a routine research tool with model organisms.
+- [W8.270] For example, genes are easily added to bacteria and lineages of knockout mice with a specific gene's function disrupted are used to investigate that gene's function.
+- [W8.271] Many organisms have been genetically modified for applications in agriculture, industrial biotechnology, and medicine.
+- [W8.272] For multicellular organisms, typically the embryo is engineered which grows into the adult genetically modified organism.
+- [W8.273] However, the genomes of cells in an adult organism can be edited using gene therapy techniques to treat genetic diseases.
+- [W8.274] Alberts B, Johnson A, Lewis J, Raff M, Roberts K, Walter P (2002).
+- [W8.275] Molecular Biology of the Cell (Fourth ed.).
+- [W8.276] New York: Garland Science.
+- [W8.277] ISBN 978-0-8153-3218-3. – A molecular biology textbook available free online through NCBI Bookshelf.
+
+## [W9] Wikipedia: GC-content
+https://en.wikipedia.org/w/index.php?title=GC-content&oldid=1371983365 · CC BY-SA 4.0 · usage: ai_input
+
+- [W9.1] In molecular biology and genetics, GC-content (or G+C content or guanine-cytosine content) is the percentage of nitrogenous bases in a DNA or RNA molecule that are either guanine (G) or cytosine (C).
+- [W9.2] This measure indicates the proportion of G and C bases out of an implied four total bases, also including adenine and thymine in DNA and adenine and uracil in RNA.
+- [W9.3] GC-content may be given for a certain fragment of DNA or RNA or for an entire genome.
+- [W9.4] When it refers to a fragment, it may denote the GC-content of an individual gene or section of a gene (domain), a group of genes or gene clusters, a non-coding region, or a synthetic oligonucleotide such as a primer.
+- [W9.5] Qualitatively, guanine (G) and cytosine (C) undergo a specific hydrogen bonding with each other, whereas adenine (A) bonds specifically with thymine (T) in DNA and with uracil (U) in RNA.
+- [W9.6] Quantitatively, each GC base pair is held together by three hydrogen bonds, while AT and AU base pairs are held together by two hydrogen bonds.
+- [W9.7] To emphasize this difference, the base pairings are often represented as "G≡C" versus "A=T" or "A=U".
+- [W9.8] DNA with low GC-content is less stable than DNA with high GC-content; however, the hydrogen bonds themselves do not have a particularly significant impact on molecular stability, which is instead caused mainly by molecular interactions of base stacking.
+- [W9.9] Because of the thermostability of GC pairs, it was once presumed that high GC-content in DNA was a necessary adaptation to high temperatures, though this hypothesis was later refuted in 2001 by comparative analysis of over 100 prokaryotes.
+- [W9.10] Furthermore, P. putrefaciens, a species of bacteria with high GC-content DNA, has been observed to undergo autolysis more readily, thereby reducing the overall longevity of the cell.
+- [W9.11] Even so, it has been shown that there is a strong correlation between the optimal growth of prokaryotes at higher temperatures and the GC-content of structural RNAs, such as ribosomal RNA, transfer RNA, and many other non-coding RNAs.
+- [W9.12] The AU base pairs are less stable than the GC base pairs, making high-GC-content RNA structures more resistant to the effects of high temperatures.
+- [W9.13] More recently, it has been demonstrated that the most important factor contributing to the thermal stability of double-stranded nucleic acids is actually due to the base stackings of adjacent bases rather than the number of hydrogen bonds between the bases.
+- [W9.14] There is more favorable stacking energy for GC pairs than for AT or AU pairs because of the relative positions of exocyclic groups.
+- [W9.15] Additionally, there is a correlation between the order in which the bases stack and the thermal stability of the molecule as a whole.
+- [W9.16] GC-content is usually expressed as a percentage value, but sometimes as a ratio (called G+C ratio or GC-ratio).
+- [W9.17] GC-content percentage is calculated as
+- [W9.18] {\displaystyle {\cfrac {G+C}{A+T+G+C}}\times 100\%}
+- [W9.19] whereas the AT/GC ratio is calculated as
+- [W9.20] {\displaystyle {\cfrac {A+T}{G+C}}}
+- [W9.21] The GC-content percentages as well as GC-ratio can be measured by several means, but one of the simplest methods is to measure the melting temperature of the DNA double helix using spectrophotometry.
+- [W9.22] The absorbance of DNA at a wavelength of 260 nm increases fairly sharply when the double-stranded DNA molecule separates into two single strands when sufficiently heated.
+- [W9.23] The most commonly used protocol for determining GC-ratios uses flow cytometry for large numbers of samples.
+- [W9.24] In an alternative manner, if the DNA or RNA molecule under investigation has been reliably sequenced, then GC-content can be accurately calculated by simple arithmetic or by using a variety of publicly available software tools, such as the free online GC calculator Archived 26 February 2015 at the Wayback Machine.
+- [W9.25] The GC-ratio within a genome is found to be markedly variable.
+- [W9.26] These variations in GC-ratio within the genomes of more complex organisms result in a mosaic-like formation with islet regions called isochores.
+- [W9.27] This results in the variations in staining intensity in chromosomes.
+- [W9.28] GC-rich isochores typically include many protein-coding genes within them, and thus determination of GC-ratios of these specific regions contributes to mapping gene-rich regions of the genome.
+- [W9.29] Within a long region of genomic sequence, genes are often characterised by having a higher GC-content in contrast to the background GC-content for the entire genome.
+- [W9.30] There is evidence that the length of the coding region of a gene is directly proportional to higher G+C content.
+- [W9.31] This has been pointed to the fact that the stop codon has a bias towards A and T nucleotides, and, thus, the shorter the sequence the higher the AT bias.
+- [W9.32] Comparison of more than 1,000 orthologous genes in mammals showed marked within-genome variations of the third-codon position GC content, with a range from less than 30% to more than 80%.
+- [W9.33] GC content is found to be variable with different organisms, the process of which is envisaged to be contributed to by variation in selection, mutational bias, and biased recombination-associated DNA repair.
+- [W9.34] The average GC-content in human genomes ranges from 35% to 60% across 100-Kb fragments, with a mean of 41%.
+- [W9.35] The GC-content of Yeast (Saccharomyces cerevisiae) is 38%, and that of another common model organism, thale cress (Arabidopsis thaliana), is 36%.
+- [W9.36] Because of the nature of the genetic code, it is virtually impossible for an organism to have a genome with a GC-content approaching either 0% or 100%.
+- [W9.37] However, a species with an extremely low GC-content is Plasmodium falciparum (GC% = ~20%), and it is usually common to refer to such examples as being AT-rich instead of GC-poor.
+- [W9.38] Several mammalian species (e.g., shrew, microbat, tenrec, rabbit) have independently undergone a marked increase in the GC-content of their genes.
+- [W9.39] These GC-content changes are correlated with species life-history traits (e.g., body mass or longevity) and genome size, and might be linked to a molecular process called GC-biased gene conversion.
+- [W9.40] In polymerase chain reaction (PCR) experiments, the GC-content of short oligonucleotides known as primers is often used to predict their annealing temperature to the template DNA.
+- [W9.41] A higher GC-content level indicates a relatively higher melting temperature.
+- [W9.42] Many sequencing technologies, such as Illumina sequencing, have trouble reading high-GC-content sequences.
+- [W9.43] Bird genomes are known to have many such parts, causing the problem of "missing genes" expected to be present from evolution and phenotype but never sequenced – until improved methods were used.
+- [W9.44] The species problem in non-eukaryotic taxonomy has led to various suggestions in classifying bacteria, and the ad hoc committee on reconciliation of approaches to bacterial systematics of 1987 has recommended use of GC-ratios in higher-level hierarchical classification.
+- [W9.45] For example, the Actinomycetota are characterised as "high GC-content bacteria".
+- [W9.46] In Streptomyces coelicolor A3(2), GC-content is 72%.
+- [W9.47] With the use of more reliable, modern methods of molecular systematics, the GC-content definition of Actinomycetota has been abolished and low-GC bacteria of this clade have been found.
+- [W9.48] GCSpeciesSorter and TopSort are software tools for classifying species based on their GC-contents.
+- [W9.49] Table with GC-content of all sequenced prokaryotes
+- [W9.50] Taxonomic browser of bacteria based on GC ratio on NCBI website.
+- [W9.51] GC ratio in diverse species.
+
+## [W10] Wikipedia: Sister chromatid exchange
+https://en.wikipedia.org/w/index.php?title=Sister_chromatid_exchange&oldid=1314565299 · CC BY-SA 4.0 · usage: ai_input
+
+- [W10.1] Sister chromatid exchange (SCE) is the exchange of genetic material between two identical sister chromatids.
+- [W10.2] It was first discovered by using the Giemsa staining method on one chromatid belonging to the sister chromatid complex before anaphase in mitosis.
+- [W10.3] The staining revealed that few segments were passed to the sister chromatid which were not dyed.
+- [W10.4] The Giemsa staining was able to stain due to the presence of bromodeoxyuridine analogous base which was introduced to the desired chromatid.
+- [W10.5] The reason for the (SCE) is not known but it is required and used as a mutagenic testing of many products.
+- [W10.6] Four to five sister chromatid exchanges per chromosome pair, per mitosis is in the normal distribution, while 14–100 exchanges is not normal and presents a danger to the organism.
+- [W10.7] SCE is elevated in pathologies including Bloom syndrome, having recombination rates ~10–100 times above normal, depending on cell type.
+- [W10.8] Frequent SCEs may also be related to formation of tumors.
+- [W10.9] Sister chromatid exchange has also been observed more frequently in B51(+) Behçet's disease.
+- [W10.10] Mitotic recombination in the budding yeast Saccharomyces cerevisiae is primarily a result of DNA repair processes responding to spontaneous or induced damages that occur during vegetative growth.} (Also reviewed in Bernstein and Bernstein, pp 220–221).
+- [W10.11] In order for yeast cells to repair damage by homologous recombination, there must be present, in the same nucleus, a second DNA molecule containing sequence homology with the region to be repaired.
+- [W10.12] In a diploid cell in G1 phase of the cell cycle, such a molecule is present in the form of the homologous chromosome.
+- [W10.13] However, in the G2 phase of the cell cycle (following DNA replication), a second homologous DNA molecule is also present: the sister chromatid.
+- [W10.14] Evidence indicates that, due to the special nearby relationship they share, sister chromatids are not only preferred over distant homologous chromatids as substrates for recombinational repair, but have the capacity to repair more DNA damage than do homologs.
+- [W10.15] The genomes of diploid organisms in natural populations are highly polymorphic for insertions and deletions.
+- [W10.16] During meiosis double-strand breaks (DSBs) that form within such polymorphic regions must be repaired by inter-sister chromatid exchange, rather than by inter-homolog exchange.
+- [W10.17] A molecular-level study of recombination during budding yeast meiosis has shown that recombination events initiated by DSBs in regions that lack corresponding sequences in the non-sister homolog are efficiently repaired by inter-sister chromatid recombination.
+- [W10.18] This recombination occurs with the same timing as inter-homolog recombination, but with reduced (2- to 3-fold) yields of Holliday junction joint molecules.
+- [W10.19] This study, and comparable evidence from other organisms (e.g.
+- [W10.20] Peacock), indicates that inter-sister recombination occurs frequently during meiosis, and up to one-third of all recombination events occur between sister chromatids, although mainly by a pathway that does not involve Holliday junction intermediates.
+- [W10.21] During oogenesis in the nematode Caenorhabditis elegans the sister chromatid, or even the same DNA molecule, can serve as a meiotic repair template for both crossover and non-crossover recombination.
+- [W10.22] Non-crossover events are the most frequent recombination outcome.
+- [W10.23] For DNA double strand breaks induced throughout meiotic prophase I, the sister or intra-chromatid substrate is available as a recombinational repair partner.
+- [W10.24] Sister+chromatid+exchange at the U.S.
+- [W10.25] National Library of Medicine Medical Subject Headings (MeSH)
+
+## [W11] Wikipedia: Tetranucleotide hypothesis
+https://en.wikipedia.org/w/index.php?title=Tetranucleotide_hypothesis&oldid=1375606552 · CC BY-SA 4.0 · usage: ai_input
+
+- [W11.1] The tetranucleotide hypothesis of Phoebus Levene proposed that DNA was composed of repeating sequences of four nucleotides.
+- [W11.2] It was very influential for three decades, and was developed by Levene at least into the 1910s, and the diagram at the right illustrates the view of Levene and Tipson.
+- [W11.3] In 1940, at the time of Levene's death, Bass wrote in his obituary
+- [W11.4] As a result of Levene’s work we have an exact concept of the structures of these huge molecules, probably the most complex biological materials whose architectural picture has been reconstructed.
+- [W11.5] In that form there is an implication that the four bases are present in equal amounts in DNA, and small variations in the experimental values were assumed to be the result of experimental error.
+- [W11.6] "Leven considered the nucleic acids to be a regular repetitive sequence of four nucleotides.
+- [W11.7] If so, they could scarcely be carriers of much information...It was not until the development of chromatographic methods that the tetranucleotide hypothesis was finally laid to rest, mainly through the work of Chargaff."
+- [W11.8] Chargaff showed that the four frequencies were not equal, with variations consistent between different studies.
+- [W11.9] Specifically, according to his rules the correct relationship is G = C ≠ A = T.
+- [W11.10] The equalities G = C and A = T suggested that these bases were paired, this pairing being the basis of the DNA structure that is now known to be correct.
+- [W11.11] Conversely the inequalities G ≠ A etc. meant that DNA could not have a systematic repetition of a fundamental unit, as required by the tetranucleotide hypothesis.
+- [W11.12] Thus there was no reason why the sequence could not store information.
+- [W11.13] In later years some authorities considered the tetranucleotide hypothesis to have been harmful to the development of molecular biology.
+- [W11.14] Bentley Glass, for example, called it a "scientific catastrophe".
+- [W11.15] More recently, Hargittai saw it in a more positive light, and  Frixione and Ruiz-Zamarripa wrote as follows:
+- [W11.16] [Levene's] work was to culminate in Levene and Tipson’s 1935 report showing accurately for the first time the actual molecular structure of DNA, as well as a nearly correct depiction of the RNA structure.
+- [W11.17] This achievement merits the distinction of this paper as a Classic in molecular biology literature.
+
+## [W12] Wikipedia: Nucleic acid double helix
+https://en.wikipedia.org/w/index.php?title=Nucleic_acid_double_helix&oldid=1373038059 · CC BY-SA 4.0 · usage: ai_input
+
+- [W12.1] In molecular biology, the double helix is the structure formed by double-stranded molecules of nucleic acids such as DNA.
+- [W12.2] The double-helical structure of a nucleic acid complex arises as a consequence of its secondary structure, and is a fundamental component in determining its tertiary structure.
+- [W12.3] The DNA double-helix biopolymer of nucleic acids is held together by nucleotides which base pair together.
+- [W12.4] In B-DNA, the most common double-helical structure found in nature, the double helix is right-handed with about 10–10.5 base pairs per turn.
+- [W12.5] The double-helix structure of DNA contains a major groove and minor groove.
+- [W12.6] In B-DNA the major groove is wider than the minor groove.
+- [W12.7] Given the difference in widths of the major groove and minor groove, many proteins which bind to B-DNA do so through the wider major groove.
+- [W12.8] The double helix structure of DNA was first proposed by James Watson and Francis Crick, based on the work of Rosalind Franklin, Raymond Gosling, Maurice Wilkins, and others.
+- [W12.9] The term "double helix" entered popular culture with the 1968 publication of Watson's The Double Helix: A Personal Account of the Discovery of the Structure of DNA.
+- [W12.10] The double-helix model of DNA structure was first published in the journal Nature by James Watson and Francis Crick in 1953, (X,Y,Z coordinates in 1954) based on the work of Rosalind Franklin and her student Raymond Gosling, who took the crucial X-ray diffraction image of DNA labeled as "Photo 51", and Maurice Wilkins, Alexander Stokes, and Herbert Wilson, and base-pairing chemical and biochemical information by Erwin Chargaff.
+- [W12.11] Before this, Linus Pauling—who had already accurately characterised the conformation of protein secondary structure motifs—and his collaborator Robert Corey had incorrectly proposed that DNA would adopt a triple-stranded conformation.
+- [W12.12] The realization that the structure of DNA is double-helix elucidated the mechanism of base pairing by which genetic information is stored and copied in living organisms and is widely considered one of the most important scientific discoveries of the 20th century.
+- [W12.13] Crick, Wilkins, and Watson each received one-third of the 1962 Nobel Prize in Physiology or Medicine for their contributions to the discovery.
+- [W12.14] Nucleic acid hybridization
+- [W12.15] Hybridization is the process of complementary base pairs binding to form a double helix.
+- [W12.16] Melting is the process by which the interactions between the strands of the double helix are broken, separating the two nucleic acid strands.
+- [W12.17] These bonds are weak, easily separated by gentle heating, enzymes, or mechanical force.
+- [W12.18] Melting occurs preferentially at certain points in the nucleic acid.
+- [W12.19] T and A rich regions are more easily melted than C and G rich regions.
+- [W12.20] Some base steps (pairs) are also susceptible to DNA melting, such as T A and T G.
+- [W12.21] These mechanical features are reflected by the use of sequences such as TATA at the start of many genes to assist RNA polymerase in melting the DNA for transcription.
+- [W12.22] Strand separation by gentle heating, as used in polymerase chain reaction (PCR), is simple, provided the molecules have fewer than about 10,000 base pairs (10 kilobase pairs, or 10 kbp).
+- [W12.23] The intertwining of the DNA strands makes long segments difficult to separate.
+- [W12.24] The cell avoids this problem by allowing its DNA-melting enzymes (helicases) to work concurrently with topoisomerases, which can chemically cleave the phosphate backbone of one of the strands so that it can swivel around the other.
+- [W12.25] Helicases unwind the strands to facilitate the advance of sequence-reading enzymes such as DNA polymerase.
+- [W12.26] The geometry of a base, or base pair step can be characterized by 6 coordinates: shift, slide, rise, tilt, roll, and twist.
+- [W12.27] These values precisely define the location and orientation in space of every base or base pair in a nucleic acid molecule relative to its predecessor along the axis of the helix.
+- [W12.28] Together, they characterize the helical structure of the molecule.
+- [W12.29] In regions of DNA or RNA where the normal structure is disrupted, the change in these values can be used to describe such disruption.
+- [W12.30] For each base pair, considered relative to its predecessor, there are the following base pair geometries to consider:
+- [W12.31] Propeller: rotation of one base with respect to the other in the same base pair.
+- [W12.32] Shift: displacement along an axis in the base-pair plane perpendicular to the first, directed from the minor to the major groove.
+- [W12.33] Slide: displacement along an axis in the plane of the base pair directed from one strand to the other.
+- [W12.34] Rise: displacement along the helix axis.
+- [W12.35] Tilt: rotation around the shift axis.
+- [W12.36] Roll: rotation around the slide axis.
+- [W12.37] Twist: rotation around the rise axis.
+- [W12.38] Pitch: the height per complete turn of the helix.
+- [W12.39] Rise and twist determine the handedness and pitch of the helix.
+- [W12.40] The other coordinates, by contrast, can be zero.
+- [W12.41] Slide and shift are typically small in B-DNA, but are substantial in A- and Z-DNA.
+- [W12.42] Roll and tilt make successive base pairs less parallel, and are typically small.
+- [W12.43] "Tilt" has often been used differently in the scientific literature, referring to the deviation of the first, inter-strand base-pair axis from perpendicularity to the helix axis.
+- [W12.44] This corresponds to slide between a succession of base pairs, and in helix-based coordinates is properly termed "inclination".
+- [W12.45] At least three DNA conformations are believed to be found in nature, A-DNA, B-DNA, and Z-DNA.
+- [W12.46] The B form described by James Watson and Francis Crick is believed to predominate in cells.
+- [W12.47] It is 23.7 Å wide and extends 34 Å per 10 bp of sequence.
+- [W12.48] The double helix has a right-hand twist that makes one complete turn about its axis every 10.4–10.5 base pairs in solution.
+- [W12.49] This frequency of twist (termed the helical pitch) depends largely on stacking forces that each base exerts on its neighbours in the chain.
+- [W12.50] A-DNA and Z-DNA differ significantly in their geometry and dimensions to B-DNA, although still form helical structures.
+- [W12.51] It was long thought that the A form only occurs in dehydrated samples of DNA in the laboratory, such as those used in crystallographic experiments, and in hybrid pairings of DNA and RNA strands, but DNA dehydration does occur in vivo, and A-DNA is now known to have biological functions.
+- [W12.52] Segments of DNA that cells have methylated for regulatory purposes may adopt the Z geometry, in which the strands turn about the helical axis the opposite way to A-DNA and B-DNA.
+- [W12.53] There is also evidence of protein-DNA complexes forming Z-DNA structures.
+- [W12.54] Other conformations are possible; A-DNA, B-DNA, C-DNA, E-DNA, L-DNA (the enantiomer of D-DNA), P-DNA, S-DNA, Z-DNA, etc. have been described so far.
+- [W12.55] In fact, only the letters F, Q, U, V, and Y are now available to describe any new DNA structure that may appear in the future.
+- [W12.56] However, most of these forms have been created synthetically and have not been observed in naturally occurring biological systems.
+- [W12.57] There are also triple-stranded DNA forms and quadruplex forms such as the G-quadruplex and the i-motif.
+- [W12.58] Twin helical strands form the DNA backbone.
+- [W12.59] Another double helix may be found by tracing the spaces, or grooves, between the strands.
+- [W12.60] These voids are adjacent to the base pairs and may provide a binding site.
+- [W12.61] As the strands are not directly opposite each other, the grooves are unequally sized.
+- [W12.62] One groove, the major groove, is 22 Å wide and the other, the minor groove, is 12 Å wide.
+- [W12.63] The narrowness of the minor groove means that the edges of the bases are more accessible in the major groove.
+- [W12.64] As a result, proteins like transcription factors that can bind to specific sequences in double-stranded DNA usually make contacts to the sides of the bases exposed in the major groove.
+- [W12.65] This situation varies in unusual conformations of DNA within the cell (see below), but the major and minor grooves are always named to reflect the differences in size that would be seen if the DNA is twisted back into the ordinary B form.
+- [W12.66] Alternative non-helical models were briefly considered in the late 1970s as a potential solution to problems in DNA replication in plasmids and chromatin.
+- [W12.67] However, the models were set aside in favor of the double-helical model due to subsequent experimental advances such as X-ray crystallography of DNA duplexes and later the nucleosome core particle, and the discovery of topoisomerases.
+- [W12.68] Also, the non-double-helical models are not currently accepted by the mainstream scientific community.
+- [W12.69] DNA is a relatively rigid polymer, typically modelled as a worm-like chain.
+- [W12.70] It has three significant degrees of freedom; bending, twisting, and compression, each of which cause certain limits on what is possible with DNA within a cell.
+- [W12.71] Twisting-torsional stiffness is important for the circularisation of DNA and the orientation of DNA bound proteins relative to each other and bending-axial stiffness is important for DNA wrapping and circularisation and protein interactions.
+- [W12.72] Compression-extension is relatively unimportant in the absence of high tension.
+- [W12.73] Persistence length, axial stiffness
+- [W12.74] DNA in solution does not take a rigid structure but is continually changing conformation due to thermal vibration and collisions with water molecules, which makes classical measures of rigidity impossible to apply.
+- [W12.75] Hence, the bending stiffness of DNA is measured by the persistence length, defined as:
+- [W12.76] Bending flexibility of a polymer is conventionally quantified in terms of its persistence length, Lp, a length scale below which the polymer behaves more or less like a rigid rod.
+- [W12.77] Specifically, Lp is defined as length of the polymer segment over which the time-averaged orientation of the polymer becomes uncorrelated...
+- [W12.78] This value may be directly measured using an atomic force microscope to directly image DNA molecules of various lengths.
+- [W12.79] In an aqueous solution, the average persistence length has been found to be of around 50 nm (or 150 base pairs).
+- [W12.80] More broadly, it has been observed to be between 45 and 60 nm or 132–176 base pairs (the diameter of DNA is 2 nm) This can vary significantly due to variations in temperature, aqueous solution conditions and DNA length.
+- [W12.81] This makes DNA a moderately stiff molecule.
+- [W12.82] The persistence length of a section of DNA is somewhat dependent on its sequence, and this can cause significant variation.
+- [W12.83] The variation is largely due to base stacking energies and the residues which extend into the minor and major grooves.
+- [W12.84] At length-scales larger than the persistence length, the entropic flexibility of DNA is remarkably consistent with standard polymer physics models, such as the Kratky-Porod worm-like chain model.
+- [W12.85] Consistent with the worm-like chain model is the observation that bending DNA is also described by Hooke's law at very small (sub-piconewton) forces.
+- [W12.86] For DNA segments less than the persistence length, the bending force is approximately constant and behaviour deviates from the worm-like chain predictions.
+- [W12.87] This effect results in unusual ease in circularising small DNA molecules and a higher probability of finding highly bent sections of DNA.
+- [W12.88] DNA molecules often have a preferred direction to bend, i.e., anisotropic bending.
+- [W12.89] This is, again, due to the properties of the bases which make up the DNA sequence - a random sequence will have no preferred bend direction, i.e., isotropic bending.
+- [W12.90] Preferred DNA bend direction is determined by the stability of stacking each base on top of the next.
+- [W12.91] If unstable base stacking steps are always found on one side of the DNA helix then the DNA will preferentially bend away from that direction.
+- [W12.92] As bend angle increases then steric hindrances and ability to roll the residues relative to each other also play a role, especially in the minor groove.
+- [W12.93] A and T residues will be preferentially be found in the minor grooves on the inside of bends.
+- [W12.94] This effect is particularly seen in DNA-protein binding where tight DNA bending is induced, such as in nucleosome particles.
+- [W12.95] See base step distortions above.
+- [W12.96] DNA molecules with exceptional bending preference can become intrinsically bent.
+- [W12.97] This was first observed in trypanosomatid kinetoplast DNA.
+- [W12.98] Typical sequences which cause this contain stretches of 4–6 T and A residues separated by G and C rich sections which keep the A and T residues in phase with the minor groove on one side of the molecule.
+- [W12.99] The intrinsically bent structure is induced by the 'propeller twist' of base pairs relative to each other allowing unusual bifurcated Hydrogen-bonds between base steps.
+- [W12.100] At higher temperatures this structure is denatured, and so the intrinsic bend is lost.
+- [W12.101] All DNA which bends anisotropically has, on average, a longer persistence length and greater axial stiffness.
+- [W12.102] This increased rigidity is required to prevent random bending which would make the molecule act isotropically.
+- [W12.103] DNA circularization depends on both the axial (bending) stiffness and torsional (rotational) stiffness of the molecule.
+- [W12.104] For a DNA molecule to successfully circularize it must be long enough to easily bend into the full circle and must have the correct number of bases so the ends are in the correct rotation to allow bonding to occur.
+- [W12.105] The optimum length for circularization of DNA is around 400 base pairs (136 nm), with an integral number of turns of the DNA helix, i.e., multiples of 10.4 base pairs.
+- [W12.106] Having a non integral number of turns presents a significant energy barrier for circularization, for example a 10.4 x 30 = 312 base pair molecule will circularize hundreds of times faster than 10.4 x 30.5 ≈ 317 base pair molecule.
+- [W12.107] The bending of short circularized DNA segments is non-uniform.
+- [W12.108] Rather, for circularized DNA segments less than the persistence length, DNA bending is localised to 1–2 kinks that form preferentially in AT-rich segments.
+- [W12.109] If a nick is present, bending will be localised to the nick site.
+- [W12.110] Longer stretches of DNA are entropically elastic under tension.
+- [W12.111] When DNA is in solution, it undergoes continuous structural variations due to the energy available in the thermal bath of the solvent.
+- [W12.112] This is due to the thermal vibration of the molecule combined with continual collisions with water molecules.
+- [W12.113] For entropic reasons, more compact relaxed states are thermally accessible than stretched out states, and so DNA molecules are almost universally found in a tangled relaxed layouts.
+- [W12.114] For this reason, one molecule of DNA will stretch under a force, straightening it out.
+- [W12.115] Using optical tweezers, the entropic stretching behavior of DNA has been studied and analyzed from a polymer physics perspective, and it has been found that DNA behaves largely like the Kratky-Porod worm-like chain model under physiologically accessible energy scales.
+- [W12.116] Phase transitions under stretching
+- [W12.117] Under sufficient tension and positive torque, DNA is thought to undergo a phase transition with the bases splaying outward and the phosphates moving to the middle.
+- [W12.118] This proposed structure for overstretched DNA has been called P-form DNA, in honor of Linus Pauling who originally presented it as a possible structure of DNA.
+- [W12.119] Evidence from mechanical stretching of DNA in the absence of imposed torque points to a transition or transitions leading to further structures which are generally referred to as S-form DNA.
+- [W12.120] These structures have not yet been definitively characterised due to the difficulty of carrying out atomic-resolution imaging in solution while under applied force although many computer simulation studies have been made (for example,).
+- [W12.121] Proposed S-DNA structures include those which preserve base-pair stacking and hydrogen bonding (GC-rich), while releasing extension by tilting, as well as structures in which partial melting of the base-stack takes place, while base-base association is nonetheless overall preserved (AT-rich).
+- [W12.122] Periodic fracture of the base-pair stack with a break occurring once per three bp (therefore one out of every three bp-bp steps) has been proposed as a regular structure which preserves planarity of the base-stacking and releases the appropriate amount of extension, with the term "Σ-DNA" introduced as a mnemonic, with the three right-facing points of the Sigma character serving as a reminder of the three grouped base pairs.
+- [W12.123] The Σ form has been shown to have a sequence preference for GNC motifs which are believed under the GNC hypothesis to be of evolutionary importance.
+- [W12.124] The B form of the DNA helix twists 360° per 10.4-10.5 bp in the absence of torsional strain.
+- [W12.125] But many molecular biological processes can induce torsional strain.
+- [W12.126] A DNA segment with excess or insufficient helical twisting is referred to, respectively, as positively or negatively supercoiled.
+- [W12.127] DNA in vivo is typically negatively supercoiled, which facilitates the unwinding (melting) of the double-helix required for RNA transcription.
+- [W12.128] Within the cell most DNA is topologically restricted.
+- [W12.129] DNA is typically found in closed loops (such as plasmids in prokaryotes) which are topologically closed, or as very long molecules whose diffusion coefficients produce effectively topologically closed domains.
+- [W12.130] Linear sections of DNA are also commonly bound to proteins or physical structures (such as membranes) to form closed topological loops.
+- [W12.131] Francis Crick was one of the first to propose the importance of linking numbers when considering DNA supercoils.
+- [W12.132] In a paper published in 1976, Crick outlined the problem as follows:
+- [W12.133] In considering supercoils formed by closed double-stranded molecules of DNA certain mathematical concepts, such as the linking number and the twist, are needed.
+- [W12.134] The meaning of these for a closed ribbon is explained and also that of the writhing number of a closed curve.
+- [W12.135] Some simple examples are given, some of which may be relevant to the structure of chromatin.
+- [W12.136] Analysis of DNA topology uses three values:
+- [W12.137] L = linking number - the number of times one DNA strand wraps around the other.
+- [W12.138] It is an integer for a closed loop and constant for a closed topological domain.
+- [W12.139] T = twist - total number of turns in the double stranded DNA helix.
+- [W12.140] This will normally tend to approach the number of turns that a topologically open double stranded DNA helix makes free in solution: number of bases/10.5, assuming there are no intercalating agents (e.g., ethidium bromide) or other elements modifying the stiffness of the DNA.
+- [W12.141] W = writhe - number of turns of the double stranded DNA helix around the superhelical axis
+- [W12.142] L = T + W and ΔL = ΔT + ΔW
+- [W12.143] Any change of T in a closed topological domain must be balanced by a change in W, and vice versa.
+- [W12.144] This results in higher order structure of DNA.
+- [W12.145] A circular DNA molecule with a writhe of 0 will be circular.
+- [W12.146] If the twist of this molecule is subsequently increased or decreased by supercoiling then the writhe will be appropriately altered, making the molecule undergo plectonemic or toroidal superhelical coiling.
+- [W12.147] When the ends of a piece of double stranded helical DNA are joined so that it forms a circle the strands are topologically knotted.
+- [W12.148] This means the single strands cannot be separated by any process that does not involve breaking a strand (such as heating).
+- [W12.149] The task of un-knotting topologically linked strands of DNA falls to enzymes termed topoisomerases.
+- [W12.150] These enzymes are dedicated to un-knotting circular DNA by cleaving one or both strands so that another double or single stranded segment can pass through.
+- [W12.151] This un-knotting is required for the replication of circular DNA and various types of recombination in linear DNA which have similar topological constraints.
+- [W12.152] The linking number paradox
+- [W12.153] For many years, the origin of residual supercoiling in eukaryotic genomes remained unclear.
+- [W12.154] This topological puzzle was referred to by some as the "linking number paradox".
+- [W12.155] However, when experimentally determined structures of the nucleosome displayed an over-twisted left-handed wrap of DNA around the histone octamer, this paradox was considered to be solved by the scientific community.
+- [W12.156] Comparison of nucleic acid simulation software
+- [W12.157] "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid" (first article)
+
+## [W13] Wikipedia: Meselson–Stahl experiment
+https://en.wikipedia.org/w/index.php?title=Meselson%E2%80%93Stahl_experiment&oldid=1365289226 · CC BY-SA 4.0 · usage: ai_input
+
+- [W13.1] The Meselson–Stahl experiment is an experiment by Matthew Meselson and Franklin Stahl in 1958 which supported Watson and Crick's  hypothesis that DNA replication was semiconservative.
+- [W13.2] In semiconservative replication, when the double-stranded DNA helix is replicated, each of the two new double-stranded DNA helices consisted of one strand from the original helix and one newly synthesized.
+- [W13.3] It has been called "the most beautiful experiment in biology".
+- [W13.4] Meselson and Stahl decided the best way to trace the parent DNA would be to tag them by changing one of its atoms.
+- [W13.5] Since nitrogen is present in all of the DNA bases, they generated parent DNA containing a heavier isotope of nitrogen than would be present naturally.
+- [W13.6] This altered mass allowed them to determine how much of the parent DNA was present in the DNA after successive cycles of replication.
+- [W13.7] Three hypotheses had been previously proposed for the method of replication of DNA.
+- [W13.8] In the semiconservative hypothesis, proposed by Watson and Crick, the two strands of a DNA molecule separate during replication.
+- [W13.9] Each strand then acts as a template for synthesis of a new strand.
+- [W13.10] The conservative hypothesis proposed that the entire DNA molecule acted as a template for the synthesis of an entirely new one.
+- [W13.11] According to this model, histone proteins bind to the DNA, revolving the strand and exposing the nucleotide bases (which normally line the interior) for hydrogen bonding.
+- [W13.12] The dispersive hypothesis is exemplified by a model proposed by Max Delbrück, which attempts to solve the problem of unwinding the two strands of the double helix by a mechanism that breaks the DNA backbone every 10 nucleotides or so, untwists the molecule, and attaches the old strand to the end of the newly synthesized one.
+- [W13.13] This would synthesize the DNA in short pieces alternating from one strand to the other.
+- [W13.14] Each of these three models makes a different prediction about the distribution of the "old" DNA in molecules formed after replication.
+- [W13.15] In the conservative hypothesis, after replication, one molecule is the entirely conserved "old" molecule, and the other is all newly synthesized DNA.
+- [W13.16] The semiconservative hypothesis predicts that each molecule after replication will contain one old and one new strand.
+- [W13.17] The dispersive model predicts that each strand of each new molecule will contain a mixture of old and new DNA.
+- [W13.18] Experimental procedure and results
+- [W13.19] Nitrogen is a major constituent of DNA.
+- [W13.20] 14N is by far the most abundant isotope of nitrogen, but DNA with the heavier (but non-radioactive) 15N isotope is also functional.
+- [W13.21] E. coli was grown for several generations in a medium containing NH4Cl with 15N.
+- [W13.22] When DNA is extracted from these cells and made to undergo buoyant density centrifugation on a salt (CsCl) density gradient, the DNA separates out at the point at which its density equals that of the salt solution.
+- [W13.23] The DNA of the cells grown in 15N medium had a higher density than cells grown in normal 14N medium.
+- [W13.24] After that, E. coli cells with only 15N in their DNA were transferred to a 14N medium and were allowed to divide; the progress of cell division was monitored by microscopic cell counts and by colony assay.
+- [W13.25] DNA was extracted periodically and was compared to pure 14N DNA and 15N DNA.
+- [W13.26] After one replication, the DNA was found to have intermediate density.
+- [W13.27] Since conservative replication would result in equal amounts of DNA of the higher and lower densities (but no DNA of an intermediate density), conservative replication was excluded.
+- [W13.28] However, this result was consistent with both semiconservative and dispersive replication.
+- [W13.29] Semiconservative replication would result in double-stranded DNA with one strand of 15N DNA, and one of 14N DNA, while dispersive replication would result in double-stranded DNA with both strands having mixtures of 15N and 14N DNA, either of which would have appeared as DNA of an intermediate density.
+- [W13.30] The authors continued to sample cells as replication continued.
+- [W13.31] DNA from cells after two replications had been completed was found to consist of equal amounts of DNA with two different densities, one corresponding to the intermediate density of DNA of cells grown for only one division in 14N medium, the other corresponding to DNA from cells grown exclusively in 14N medium.
+- [W13.32] This was inconsistent with dispersive replication, which would have resulted in a single density, lower than the intermediate density of the one-generation cells, but still higher than cells grown only in 14N DNA medium, as the original 15N DNA would have been split evenly among all DNA strands.
+- [W13.33] The result was consistent with the semiconservative replication hypothesis.
+- [W13.34] Holmes, Frederic Lawrence (2001).
+- [W13.35] Meselson, Stahl, and the replication of DNA: a history of "the most beautiful experiment in biology ".
+- [W13.36] New Haven, CT: Yale University Press.
+- [W13.37] Matthew Meselson's Short Talk: "The Semi-Conservative Replication of DNA"
+- [W13.38] DNA From The Beginning An animation which explains the experiment.
+- [W13.39] The Meselson–Stahl Experiment Another useful animation.
+- [W13.40] Meselson and Stahl Experiment English Animation
+- [W13.41] Description of the Meselson-Stahl Experiment written by Nathan H.
+- [W13.42] Lents, including original data from Visionlearning
+
+## [W14] Wikipedia: Bromodeoxyuridine
+https://en.wikipedia.org/w/index.php?title=Bromodeoxyuridine&oldid=1374303590 · CC BY-SA 4.0 · usage: ai_input
+
+- [W14.1] Bromodeoxyuridine (5-bromo-2'-deoxyuridine, BrdU, BUdR, BrdUrd, broxuridine) is a synthetic nucleoside analogue with a chemical structure similar to thymidine.
+- [W14.2] BrdU is commonly used to study cell proliferation in living tissues and has been studied as a radiosensitizer and diagnostic tool in people with cancer.
+- [W14.3] During the S phase of the cell cycle (when DNA replication occurs), BrdU can be incorporated in place of thymidine in newly synthesized DNA molecules of dividing cells.
+- [W14.4] Cells that have recently performed DNA replication or DNA repair can be detected with antibodies specific for BrdU using techniques such as immunohistochemistry or immunofluorescence.
+- [W14.5] BrdU-labelled cells in humans can be detected up to two years after BrdU infusion.
+- [W14.6] Because BrdU can replace thymidine during DNA replication, it can cause mutations, and its use is therefore potentially a health hazard.
+- [W14.7] However, because it is neither radioactive nor myelotoxic at labeling concentrations, it is widely preferred for in vivo studies of cancer cell proliferation.
+- [W14.8] However, at radiosensitizing concentrations, BrdU becomes myelosuppressive, thus limiting its use for radiosensitizing.
+- [W14.9] BrdU differs from thymidine in that BrdU substitutes a bromine atom for thymidine's CH3 group.
+- [W14.10] The Br substitution can be used in X-ray diffraction experiments in crystals containing either DNA or RNA.
+- [W14.11] The Br atom acts as an anomalous scatterer and its larger size will affect the crystal's X-ray diffraction enough to detect isomorphous differences as well.
+- [W14.12] Bromodeoxyuridine releases gene silencing caused by DNA methylation.
+- [W14.13] BrdU can also be used to identify microorganisms that respond to specific carbon substrates in aquatic and soil environments.
+- [W14.14] A carbon substrate added to the incubations of environmental samples will cause the growth of microorganisms that can utilize that substrate.
+- [W14.15] These microorganisms will then incorporate BrdU into their DNA as they grow.
+- [W14.16] Community DNA can then be isolated and BrdU-labeled DNA purified using an immunocapture technique.
+- [W14.17] Subsequent sequencing of the labeled DNA can then be used to identify the microbial taxa that participated in the degradation of the added carbon source.
+- [W14.18] However, it is not certain whether all microbes present in an environmental sample can incorporate BrdU into their biomass during de novo DNA synthesis.
+- [W14.19] Therefore, a group of microorganisms may respond to a carbon source but go undetected using this technique.
+- [W14.20] Additionally, this technique is biased towards identifying microorganisms with A- and T-rich genomes.
+- [W14.21] DNA with BrdU transcribes as usual DNA, with guanine included in RNA as a complement to BrdU.
+- [W14.22] BrdU Modifications at IDT DNA
+
+## [W15] Wikipedia: Phi X 174
+https://en.wikipedia.org/w/index.php?title=Phi_X_174&oldid=1374402859 · CC BY-SA 4.0 · usage: ai_input
+
+- [W15.1] The phi X 174 (or ΦX174) bacteriophage is a single-stranded DNA (ssDNA) virus that infects Escherichia coli.
+- [W15.2] This virus was isolated in 1935 by Nicolas Bulgakov in Félix d'Hérelle's laboratory at the Pasteur Institute, from samples collected in Paris sewers.
+- [W15.3] Its characterization and the study of its replication mechanism were carried out from the 1950s onwards.
+- [W15.4] It was the first DNA-based genome to be sequenced.
+- [W15.5] This work was completed by Fred Sanger and his team in 1977.
+- [W15.6] In 1962, Walter Fiers and Robert L.
+- [W15.7] Sinsheimer had already demonstrated the physical, covalently closed circularity of ΦX174 DNA.
+- [W15.8] Nobel prize winner Arthur Kornberg used ΦX174 as a model to first prove that DNA synthesized in a test tube by purified enzymes could produce all the features of a natural virus, ushering in the age of synthetic biology.
+- [W15.9] In 1972–1974, Jerard Hurwitz, Sue Wickner, and Reed Wickner with collaborators identified the genes required to produce the enzymes to catalyze conversion of the single stranded form of the virus to the double stranded replicative form.
+- [W15.10] In 2003, it was reported by Craig Venter's group that the genome of ΦX174 was the first to be completely assembled in vitro from synthesized oligonucleotides.
+- [W15.11] The ΦX174 virus particle has also been successfully assembled in vitro.
+- [W15.12] In 2012, it was shown how its highly overlapping genome can be fully decompressed and still remain functional.
+- [W15.13] The naming of the virus follows a system that was developed by Vladimir Sertić and Nikolai Boulgakov in 1935.
+- [W15.14] The Greek letter 'Φ' was used to indicate that it worked against multiple bacteria.
+- [W15.15] The Roman numeral 'X' (ten) referred to an antigen-based classification and 174 was related to isolates against which it was tested.
+- [W15.16] This bacteriophage has a [+] sense circular single-stranded DNA genome of 5,386 nucleotides.
+- [W15.17] The genome GC-content is 44% and 95% of nucleotides belong to coding genes.
+- [W15.18] Because of the balance base pattern of the genome, it is used as the control DNA for Illumina sequencers.
+- [W15.19] ΦX174 encodes 11 genes, named as consecutive letters of the alphabet in the order they were discovered, with the exception of A* which is an alternative start codon within the large A genes.
+- [W15.20] Only genes A* and K are thought to be non-essential, although there is some doubt about A* because its start codon could be changed to ATT but not any other sequence.
+- [W15.21] It is now known that the ATT is still likely capable of producing protein within E. coli and therefore this gene may in fact be essential.
+- [W15.22] The first half of the ΦX174 genome features high levels of gene overlap with eight out of 11 genes overlapping by at least one nucleotide.
+- [W15.23] These overlaps have been shown to be non-essential although the refactored phage with all gene overlaps removed had decreased fitness from wild-type.
+- [W15.24] Phage ΦX174 has been used to try to establish the absence of undiscovered genetic information through a "proof by synthesis" approach.
+- [W15.25] In 2020, the transcriptome of ΦX174 was generated.
+- [W15.26] Notable features of the ΦX174 transcriptome is a series of up to four relatively weak promoters in series with up to four Rho-independent (intrinsic) terminators and one Rho-dependent terminator.
+- [W15.27] ΦX174 encodes 11 proteins.
+- [W15.28] Identification of all ΦX174 proteins using mass spectrometry has recently been reported.
+- [W15.29] Infection begins when G protein binds to lipopolysaccharides on the bacterial host cell surface.
+- [W15.30] H protein (or the DNA Pilot Protein) pilots the viral genome through the bacterial membrane of E. coli bacteria most likely via a predicted N-terminal transmembrane domain helix.
+- [W15.31] However, it has become apparent that H protein is a multifunctional protein.
+- [W15.32] This is the only viral capsid protein of ΦX174 to lack a crystal structure for a couple of reasons.
+- [W15.33] It has low aromatic content and high glycine content, making the protein structure very flexible and in addition, individual hydrogen atoms (the R group for glycines) are difficult to detect in protein crystallography.
+- [W15.34] Additionally, H protein induces lysis of the bacterial host at high concentrations as the predicted N-terminal transmembrane helix easily pokes holes through the bacterial wall.
+- [W15.35] By bioinformatics, this protein contains four predicted coiled-coil domains which has a significant homology to known transcription factors.
+- [W15.36] Additionally, it was determined that de novo H protein was required for optimal synthesis of other viral proteins.
+- [W15.37] Mutations in H protein that prevent viral incorporation, can be overcome when excess amounts of protein B, the internal scaffolding protein, are supplied.
+- [W15.38] The DNA is ejected through a hydrophilic channel at the 5-fold vertex.
+- [W15.39] It is understood that H protein resides in this area but experimental evidence has not verified its exact location.
+- [W15.40] Once inside the host bacterium, replication of the [+] ssDNA genome proceeds via negative sense DNA intermediate.
+- [W15.41] This is done as the phage genome supercoils and the secondary structure formed by such supercoiling attracts a primosome protein complex.
+- [W15.42] This translocates once around the genome and synthesizes a [−]ssDNA from the positive original genome. [+]ssDNA genomes to package into viruses are created from this by a rolling circle mechanism.
+- [W15.43] This is the mechanism by which the double stranded supercoiled genome is nicked on the positive strand by a virus-encoded A protein, also attracting a bacterial DNA polymerase (DNAP) to the site of cleavage.
+- [W15.44] DNAP uses the negative strand as a template to make positive sense DNA.
+- [W15.45] As it translocates around the genome it displaces the outer strand of already-synthesised DNA, which is immediately coated by SSBP proteins.
+- [W15.46] The A protein cleaves the complete genome every time it recognises the origin sequence.
+- [W15.47] As D protein is the most abundant gene transcript, it is the most abundant protein in the viral procapsid.
+- [W15.48] Similarly, gene transcripts for F, J, and G are more abundant than for H as the stoichiometry for these structural proteins is 5:5:5:1.
+- [W15.49] The primosomes are protein complexes which attach/bind the enzyme helicase on the template.
+- [W15.50] Primosomes gives RNA primers for DNA synthesis to strands.
+- [W15.51] The mutation rate of phiX174 is estimated to be 1.0 × 10−6 substitutions per base per round of copying, a value that is consistent with Drake's rule (0.003 mutations per genome per round of copying in DNA-based microorganisms).
+- [W15.52] PhiX174 is able to undergo genetic recombination.
+- [W15.53] Based on recombination frequencies obtained in genetic crosses, a genetic map was constructed.
+- [W15.54] Recombination in phi X174 is associated with high negative interference, i.e., a positive correlation (negative interference) of recombinational events (see wikipedia crossover interference).
+- [W15.55] Phylogenetics and diversity
+- [W15.56] ΦX174 is closely related to other microviruses, especially the NC phage (e.g.
+- [W15.57] NC1, NC7, NC11, NC16, NC37, NC5, NC41, NC56, NC51, etc.) and more distantly related to the G4-like phages and even more distantly related to the α3-like phage.
+- [W15.58] 2006 presented a phylogenetic tree of their relationships.
+- [W15.59] ΦX174 has been used as a model organism in many evolution experiments.
+- [W15.60] ΦX174 is regularly used as a positive control in DNA sequencing due to its relatively small genome size in comparison to other organisms, its relatively balanced nucleotide content — about 23% G, 22% C, 24% A, and 31% T, i.e., 45% G+C and 55% A+T, see the accession NC_001422.1 for its 5,386 nucleotide long sequence.
+- [W15.61] Illumina's sequencing instruments use ΦX174 as a positive control, and a single Illumina sequencing run can cover the ΦX174 genome several million times over, making this very likely the most heavily sequenced genome in history.
+- [W15.62] ΦX174 is also used to test the resistance of personal protective equipment to bloodborne viruses.
+- [W15.63] ΦX174 has also been modified to enable peptide display (phage display) from the viral capsid G protein.
+- [W15.64] The ΦX174 genome was the first phage to be cloned in yeast, which provides a convenient drydock for genome modifications. ΦX174 was also the first genome to be fully decompressed, having all gene overlaps removed.
+- [W15.65] The effect of these changes resulted in significantly reduced host attachment, protein expression dysregulation, and heat sensitivity.
+- [W15.66] The genome was used as the starting point for an experiment in genome generation using a genomic AI, Evo, in which thousands of candidate genomes for similar phages were generated.
+- [W15.67] After filtering, 285 of these were synthesised and tested against E. coli bacteria.
+- [W15.68] 16 were found to be viable.
+- [W15.69] Goodsell D (February 2000).
+
+## [W16] Wikipedia: Semiconservative replication
+https://en.wikipedia.org/w/index.php?title=Semiconservative_replication&oldid=1380730067 · CC BY-SA 4.0 · usage: ai_input
+
+- [W16.1] Semiconservative replication is the process by which DNA is replicated in all living cells.
+- [W16.2] DNA replication involves separation (unwinding) of the two strands of the double helix by helicase, with each strand acting as a template for a new complementary strand, synthesized in opposite (antiparallel) directions.
+- [W16.3] The process is called semiconservative because the replicated DNA molecule contains one parental strand and one newly synthesized strand .
+- [W16.4] Barring any replication errors, the copies are usually identical to their parental DNA molecules.
+- [W16.5] The DNA structure was deciphered by Rosalind Franklin in 1953, which suggested that each strand of the double helix would serve as a template for synthesis of a new strand.
+- [W16.6] However, it was not known how newly synthesized strands and the parental strands were combined to form the double helical DNA molecules.
+- [W16.7] Multiple experiments were conducted to determine how DNA replicates.
+- [W16.8] The semiconservative model was proposed first by Nikolai Koltsov and later confirmed by the Meselson–Stahl experiment.
+- [W16.9] Since Nitrogen  component of the DNA structure, the experiment involved labeling Escherichia coli DNA with two nitrogen isotopes: nitrogen-15 (15N, heavy) and nitrogen-14 (14N, light).
+- [W16.10] E.coli grown in 15N medium were transferred to the 14N medium, introducing the heavy (15N) DNA to the light (14N) isotope.
+- [W16.11] After the first round of replication, the DNA contained a heavy and a light (15N-14N hybrid) strand.
+- [W16.12] Post the second round of replication, both hybrid and fully light (14N) DNA were observed.
+- [W16.13] This indicated that DNA replicated semiconservatively, allowing each newly synthesized (daughter) strand to remain associated with the parental (template) strand.
+- [W16.14] Semiconservative replication was one of three models originally proposed for DNA replication, the other two being conservative and dispersive replication.
+- [W16.15] In the conservative model of replication, the original double helix acts as a template while remaining intact to produce a copy composed of two new strands
+- [W16.16] In the semiconservative model of replication, the parental strands separate to each bind with a daughter strand.
+- [W16.17] In the dispersive model of replication, the two copies of the DNA produced would contain a mix of original and newly synthesized DNA.
+- [W16.18] The experimental evidence of the Meselson-Stahl experiment established semiconservative replication as the accepted DNA replication mechanism.
+- [W16.19] For semiconservative replication to occur, the DNA double-helix needs to be separated so the new template strand can be bound to the complementary base pairs.
+- [W16.20] This process involves unwinding the helix by the helicase enzyme, Topoisomerase relieving the strains of the unwinding, preventing them from becoming too tightly wound.
+- [W16.21] The rate of semiconservative DNA replication in a living cell was first measured in T4 phage-infected E. coli.
+- [W16.22] The results suggested that the DNA strands are elongated by the quick addition of nucleotides, while the low mutation rates indicated high precision of the replication process.
+- [W16.23] Thus, the process remains accurate with the help of repair and proofreading mechanisms.
+- [W16.24] Semiconservative replication ensures accurate genetic information transmission between generations.
+- [W16.25] Since one of the original strands is retained, this serves as a template for error correction via cellular mechanisms that repair mismatched base pairs In some organisms, the parental and daughter strands can be distinguished by methylating the parent strand, allowing the repair mechanisms to correct any errors in the newly synthesized strand.
+- [W16.26] Occasionally, despite high accuracy, persisting errors can contribute genetic variation.
+- [W16.27] Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid
+
+## [W17] Taylor, Woods & Hughes 1957, PNAS 43:122 (tritiated thymidine in Vicia faba root tips)
+https://doi.org/10.1073/pnas.43.1.122 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_
+
+## [W18] Perry & Wolff 1974, Nature 251:156 (differential staining of sister chromatids with BrdU)
+https://doi.org/10.1038/251156a0 · facts-only · usage: ai_input
+
+_(cited only; no cached text)_

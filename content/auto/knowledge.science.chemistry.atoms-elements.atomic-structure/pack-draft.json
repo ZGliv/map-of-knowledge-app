@@ -1,0 +1,123 @@
+{
+ "title": "Where an atom's weight sits",
+ "question": "What makes up an atom, and what holds it together?",
+ "hook": "Nearly everything an atom weighs is packed into one central region.",
+ "idea": "Opposite charges bind electrons to a positive nucleus, while the nuclear force holds protons and neutrons together.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "An atom with 11 protons and 11 electrons loses one electron. What is it now?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A positive ion"
+    },
+    {
+     "id": "b",
+     "label": "A negative ion",
+     "feedback": "A negative ion needs more electrons than protons, and this atom now has fewer."
+    },
+    {
+     "id": "c",
+     "label": "An atom of a different element",
+     "feedback": "The element depends on the protons, and the proton count has not changed."
+    }
+   ],
+   "answer": "a",
+   "explain": "With more protons than electrons, the atom has a positive charge and is called a positive ion.",
+   "cites": [
+    3,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each particle or atom to its charge",
+   "pairs": [
+    [
+     "Proton",
+     "Positive charge"
+    ],
+    [
+     "Neutron",
+     "No charge"
+    ],
+    [
+     "Electron",
+     "Negative charge"
+    ],
+    [
+     "Anion",
+     "More electrons than protons"
+    ]
+   ],
+   "explain": "Charge depends on which particles are present and in what numbers.",
+   "cites": [
+    11,
+    12,
+    15
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each into its group",
+   "groups": [
+    "Has an electric charge",
+    "Has no overall charge"
+   ],
+   "items": [
+    [
+     "Proton",
+     "Has an electric charge"
+    ],
+    [
+     "Electron",
+     "Has an electric charge"
+    ],
+    [
+     "Cation",
+     "Has an electric charge"
+    ],
+    [
+     "Anion",
+     "Has an electric charge"
+    ],
+    [
+     "Neutron",
+     "Has no overall charge"
+    ],
+    [
+     "Atom with equal protons and electrons",
+     "Has no overall charge"
+    ]
+   ],
+   "explain": "Protons, electrons and ions carry charge, while neutrons and balanced atoms do not.",
+   "cites": [
+    11,
+    12,
+    13,
+    15,
+    16
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Protons in a nucleus are all positively charged, so they repel one another.",
+    "The nuclear force also pulls protons and neutrons toward each other.",
+    "The repulsion always beats the nuclear force.",
+    "So every nucleus should split apart at once."
+   ],
+   "wrong": 2,
+   "explain": "The nuclear force is usually stronger than the repulsion, and only under certain circumstances does the repulsion win.",
+   "cites": [
+    18,
+    19,
+    20
+   ]
+  }
+ ]
+}

@@ -1,0 +1,580 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.relativity.general-relativity",
+ "name": "General relativity",
+ "summary": [
+  {
+   "text": "General relativity is Einstein's geometric theory of gravity, published in May 1916, which describes gravity as a property of four-dimensional spacetime.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The curvature of spacetime is tied to the energy, momentum and stress of whatever is present, so matter tells spacetime how to curve and spacetime tells matter how to move.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It predicts gravitational time dilation, gravitational lensing, black holes and gravitational waves, and so far every test has agreed with it.",
+   "cites": [
+    8,
+    9,
+    14,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Published",
+   "value": "By Einstein in May 1916",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Field equations",
+   "value": "Presented to the Prussian Academy in November 1915",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "First exact solution",
+   "value": "The Schwarzschild metric, found in 1916",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Open problem",
+   "value": "No self-consistent theory of quantum gravity found",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "1919 eclipse",
+   "value": "Eddington's expedition confirmed the predicted starlight bending",
+   "cites": [
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In general relativity, why does the Earth keep circling the Sun?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Sun's mass curves spacetime and Earth moves along that curvature"
+    },
+    {
+     "id": "b",
+     "label": "An invisible rope pulls Earth toward the Sun"
+    },
+    {
+     "id": "c",
+     "label": "Earth's motion cancels the Sun's weight exactly"
+    },
+    {
+     "id": "d",
+     "label": "Space around the Sun stays flat and still"
+    }
+   ],
+   "answer": "a",
+   "explain": "Mass curves spacetime, and bodies then move according to that curvature.",
+   "cites": [
+    3,
+    5
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity:q1"
+  },
+  {
+   "prompt": "If general relativity is right, how does Newton's old law of gravity fit with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Newton's law is simply wrong everywhere"
+    },
+    {
+     "id": "b",
+     "label": "The two apply to separate kinds of matter"
+    },
+    {
+     "id": "c",
+     "label": "Newton's law is a good prediction where spacetime is almost flat"
+    },
+    {
+     "id": "d",
+     "label": "Newton's law only works for light"
+    }
+   ],
+   "answer": "c",
+   "explain": "Newton's law can be seen as a prediction of general relativity for nearly flat spacetime around stationary masses.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity:q2"
+  },
+  {
+   "prompt": "Einstein once added a cosmological constant to his equations. What was his reason at the time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To make the universe expand quickly"
+    },
+    {
+     "id": "b",
+     "label": "To fit the common belief that the universe was static"
+    },
+    {
+     "id": "c",
+     "label": "To remove black holes from the theory"
+    },
+    {
+     "id": "d",
+     "label": "To account for Mercury's orbit"
+    }
+   ],
+   "answer": "b",
+   "explain": "In line with contemporary thinking he assumed a static universe, and he later called the constant his biggest blunder.",
+   "cites": [
+    36,
+    40
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity:q3"
+  },
+  {
+   "prompt": "Astronomers saw Mercury's orbit drift in a way Newton's theory could not explain. What did general relativity manage to do about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Explain it without arbitrary fudge factors"
+    },
+    {
+     "id": "b",
+     "label": "Show that a hidden planet must be pulling on it"
+    },
+    {
+     "id": "c",
+     "label": "Explain it by assuming the Sun is not round"
+    },
+    {
+     "id": "d",
+     "label": "Declare the observations to be mistaken"
+    }
+   ],
+   "answer": "a",
+   "explain": "Einstein showed in 1915 that his theory explained Mercury's anomalous perihelion advance with no arbitrary parameters.",
+   "cites": [
+    43
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity:q4"
+  },
+  {
+   "prompt": "A physicist describes a region where space and time are distorted so much that not even light can get out. What does the theory call it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A gravitational wave"
+    },
+    {
+     "id": "b",
+     "label": "A cosmic background"
+    },
+    {
+     "id": "c",
+     "label": "A neutron field"
+    },
+    {
+     "id": "d",
+     "label": "A black hole"
+    }
+   ],
+   "answer": "d",
+   "explain": "Black holes are regions where space and time are distorted so that nothing, not even light, can escape.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity:q5"
+  },
+  {
+   "prompt": "A researcher wants to merge general relativity with quantum physics into one theory. What obstacle stands in the way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gravity cannot be measured at small scales"
+    },
+    {
+     "id": "b",
+     "label": "Quantum physics has been proven false"
+    },
+    {
+     "id": "c",
+     "label": "No self-consistent theory of quantum gravity has been found"
+    },
+    {
+     "id": "d",
+     "label": "General relativity has failed every test"
+    }
+   ],
+   "answer": "c",
+   "explain": "Reconciling it with quantum physics remains a problem, since no self-consistent theory of quantum gravity has been found.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.physics.relativity.general-relativity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/BBH_gravitational_lensing_of_gw150914.webm/960px--BBH_gravitational_lensing_of_gw150914.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+  "alt": "General relativity",
+  "credit": "Simulating eXtreme Spacetimes Lensing (SXS)",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:BBH_gravitational_lensing_of_gw150914.webm"
+ },
+ "source": {
+  "title": "General relativity",
+  "url": "https://en.wikipedia.org/wiki/General_relativity",
+  "revision": 1382597885
+ },
+ "pack": {
+  "id": "auto-relativity-general-relativity",
+  "title": "Matter Bends Space and Time",
+  "question": "What does a heavy object do to space and time around it?",
+  "path": [
+   "Science",
+   "Physics",
+   "Relativity",
+   "General relativity"
+  ],
+  "hue": 181,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/BBH_gravitational_lensing_of_gw150914.webm/960px--BBH_gravitational_lensing_of_gw150914.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+    "alt": "General relativity",
+    "credit": "Simulating eXtreme Spacetimes Lensing (SXS) · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BBH_gravitational_lensing_of_gw150914.webm",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Matter Bends Space and Time",
+    "hook": "Einstein described gravity not as a pull but as the shape of space and time itself."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-relativity-general-relativity:1",
+    "transfer": false,
+    "prompt": "During a total solar eclipse in 1919, astronomers photographed stars near the Sun's edge. What did they find?",
+    "explain": "Eddington's expedition confirmed the predicted deflection of starlight by the Sun, which makes stars look slightly displaced.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "The stars appeared exactly where they always do",
+        "feedback": "This is what a flat, unbending path for light would give, but the Sun bends passing starlight."
+       },
+       {
+        "id": "c",
+        "label": "The stars vanished while the Moon blocked the Sun",
+        "feedback": "The eclipse only let them see the stars; nothing erased them."
+       },
+       {
+        "id": "b",
+        "label": "The stars appeared slightly out of position"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-relativity-general-relativity:2",
+    "transfer": false,
+    "prompt": "match each to what it does",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Matter"
+     },
+     {
+      "id": "l1",
+      "label": "Spacetime"
+     },
+     {
+      "id": "l2",
+      "label": "Einstein field equations"
+     },
+     {
+      "id": "l3",
+      "label": "Schwarzschild metric"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "say how matter and radiation shape geometry"
+     },
+     {
+      "id": "r1",
+      "label": "tells matter how to move"
+     },
+     {
+      "id": "r0",
+      "label": "tells spacetime how to curve"
+     },
+     {
+      "id": "r3",
+      "label": "first exact solution, groundwork for black holes"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Wheeler's summary gives the two-way link, and the equations and their first exact solution make it precise."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-relativity-general-relativity:3",
+    "transfer": true,
+    "prompt": "put these steps in the order they happened",
+    "items": [
+     {
+      "id": "a",
+      "label": "Einstein imagines an observer in free fall"
+     },
+     {
+      "id": "b",
+      "label": "Einstein presents the field equations"
+     },
+     {
+      "id": "c",
+      "label": "Schwarzschild finds the first exact solution"
+     },
+     {
+      "id": "d",
+      "label": "Einstein applies the theory to the whole universe"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The free-fall thought experiment came in 1907, the equations in 1915, the Schwarzschild solution in 1916 and the cosmology in 1917."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-relativity-general-relativity:4",
+    "transfer": true,
+    "prompt": "one step in this story of the cosmological constant is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "In 1917 Einstein assumed the universe was static"
+     },
+     {
+      "id": "b",
+      "text": "He added a cosmological constant to match that assumption"
+     },
+     {
+      "id": "c",
+      "text": "By 1929 work showed the universe is expanding"
+     },
+     {
+      "id": "d",
+      "text": "So an expanding universe needs the constant, and Einstein was proud of it"
+     }
+    ],
+    "answer": "d",
+    "explain": "Friedmann's expanding solutions do not require a cosmological constant, and Einstein later called it the biggest blunder of his life."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Matter and energy curve spacetime, and that curvature guides how everything moves.",
+    "connections": [
+     {
+      "title": "Equivalence principle",
+      "place": "General relativity",
+      "node": "knowledge.science.physics.relativity.general-relativity.equivalence-principle"
+     },
+     {
+      "title": "Gravitational lens",
+      "place": "General relativity",
+      "node": "knowledge.science.physics.relativity.general-relativity.gravitational-lens"
+     },
+     {
+      "title": "Gravitational time dilation",
+      "place": "General relativity",
+      "node": "knowledge.science.physics.relativity.general-relativity.gravitational-time-dilation"
+     },
+     {
+      "title": "Tests of general relativity",
+      "place": "General relativity",
+      "node": "knowledge.science.physics.relativity.general-relativity.tests-of-general-relativity"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Eddington's expedition confirmed the predicted deflection of starlight by the Sun, which makes stars look slightly displaced.",
+    "source": "Wikipedia sentences 43"
+   },
+   {
+    "claim": "Wheeler's summary gives the two-way link, and the equations and their first exact solution make it precise.",
+    "source": "Wikipedia sentences 5, 27, 32, 33"
+   },
+   {
+    "claim": "The free-fall thought experiment came in 1907, the equations in 1915, the Schwarzschild solution in 1916 and the cosmology in 1917.",
+    "source": "Wikipedia sentences 25, 26, 32, 35"
+   },
+   {
+    "claim": "Friedmann's expanding solutions do not require a cosmological constant, and Einstein later called it the biggest blunder of his life.",
+    "source": "Wikipedia sentences 36, 37, 38, 40"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "Gravity as geometry",
+    "text": "General relativity is Albert Einstein's theory of gravity, published in May 1916, and it is how modern physics describes gravity for large objects. It treats gravity as a feature of the geometry of space and time, joined into one four-dimensional whole called spacetime. Spacetime can curve, and the amount of curving is tied to the energy, momentum and stress of whatever is there, matter and radiation included. A set of equations, the Einstein field equations, spells out that link.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Beyond Newton",
+    "text": "The physicist John Archibald Wheeler summed up the idea in one line: spacetime tells matter how to move, while matter tells spacetime how to curve. Newton's law of gravity can be seen as what general relativity predicts when spacetime is almost flat around masses that stay still. But Einstein's theory also makes predictions that Newton's law does not. They concern the flow of time, the geometry of space, the motion of falling bodies and the path of light.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "What the theory predicts",
+    "text": "Those predictions include black holes, singularities and the Shapiro time delay, as well as the slowing of time by gravity, the gravitational redshift of light, and gravitational lensing. A black hole is a region where space and time are bent so far that nothing, not even light, can get out. Gravitational lensing is the bending of light that turns one distant object into warped and repeated images. The theory also predicts gravitational waves, which LIGO and other observatories have now detected directly. Every test of the theory so far has agreed with it.",
+    "cites": [
+     8,
+     9,
+     14,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Eight years of work",
+    "text": "Einstein started in 1907 from a simple thought experiment about an observer falling freely, and spent eight years looking for a theory of gravity that fit with relativity. After many detours and false starts, he presented the Einstein field equations to the Prussian Academy of Science in November 1915. The mathematics he needed came from Riemannian geometry, a kind of non-Euclidean geometry. The mathematician Marcel Grossmann pointed this out, and he and Einstein published it in 1913.",
+    "cites": [
+     24,
+     25,
+     26,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Black holes and the universe",
+    "text": "The field equations are hard to solve, but in 1916 Karl Schwarzschild found the first exact non-trivial solution, now called the Schwarzschild metric. It became the groundwork for describing the last stages of collapse and the objects we now call black holes. In 1917 Einstein applied the theory to the whole universe, assumed it was static, and added a new term, the cosmological constant, to match that assumption. By 1929, though, work by Hubble and others showed an expanding universe, which fits solutions Friedmann had found in 1922 without that term. Lemaître used them for the earliest Big Bang models, and Einstein later called the constant the biggest blunder of his life.",
+    "cites": [
+     30,
+     32,
+     33,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "From curiosity to mainstream",
+    "text": "For a while the theory was something of a curiosity, even though it fit special relativity and explained effects Newton's gravity could not. In 1915 Einstein showed that it accounted for the puzzling shift in Mercury's orbit with no fudge factors. In 1919 an expedition led by Eddington confirmed its prediction that the Sun bends starlight, seen during the total eclipse of 29 May, and Einstein became famous at once. Still, it only joined mainstream physics in its golden age, roughly 1960 to 1975, when physicists came to understand black holes and linked them to quasars.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "What is still open",
+    "text": "Solutions of the theory that change over time let us trace the history of the universe backward and forward. That made general relativity the framework of modern cosmology and led to the discovery of the Big Bang and the cosmic microwave background. Despite many rival theories, it remains the simplest one that fits the experimental data. What it does not do is fit with quantum physics: nobody has found a self-consistent theory of quantum gravity, and nobody yet knows how gravity unites with the strong, weak and electromagnetic forces.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-24-2",
+   "kind": "book",
+   "title": "24.2 Spacetime and Gravity",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/astronomy-2e/pages/24-2-spacetime-and-gravity",
+   "note": "A free textbook section on how mass warps spacetime, with simple analogies and Wheeler's famous one-line summary.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up-13-7",
+   "kind": "book",
+   "title": "13.7 Einstein's Theory of Gravity",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/13-7-einsteins-theory-of-gravity",
+   "note": "A free physics textbook section on gravity as curved spacetime, the equivalence principle, Mercury's orbit and black holes."
+  },
+  {
+   "id": "pbs-curved-spacetime",
+   "kind": "video",
+   "title": "General Relativity & Curved Spacetime Explained!",
+   "by": "PBS Space Time",
+   "url": "https://www.youtube.com/watch?v=AwhKZ3fd9JA",
+   "minutes": 9,
+   "note": "A PBS Space Time video explaining general relativity and how mass curves spacetime."
+  },
+  {
+   "id": "mit-8-962",
+   "kind": "course",
+   "title": "General Relativity",
+   "by": "Prof. Scott Hughes",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/",
+   "note": "MIT's full graduate course on general relativity, with video lectures.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

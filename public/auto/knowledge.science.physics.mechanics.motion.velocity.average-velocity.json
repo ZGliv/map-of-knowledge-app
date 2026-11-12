@@ -1,0 +1,316 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.motion.velocity.average-velocity",
+ "name": "Average velocity",
+ "summary": [
+  {
+   "text": "Velocity measures both speed and direction, making it a vector quantity that requires magnitude and direction to be defined.",
+   "cites": [
+    1,
+    3,
+    10
+   ]
+  },
+  {
+   "text": "An object maintains a constant velocity only when it travels at a steady speed along a straight line.",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "text": "An object's average velocity is always less than or equal to its average speed because displacement can decrease while total distance strictly increases.",
+   "cites": [
+    16,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "SI unit",
+   "value": "metres per second",
+   "cites": [
+    4,
+    15
+   ]
+  },
+  {
+   "label": "Earth escape speed",
+   "value": "about 11 200 m/s",
+   "cites": [
+    35
+   ]
+  },
+  {
+   "label": "Constant velocity path",
+   "value": "straight line at constant speed",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Cause of acceleration",
+   "value": "change in speed, direction, or both",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A car drives around a circular track at a steady speed of 60 km/h. Why is the car considered to be accelerating?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its direction of motion changes continuously."
+    },
+    {
+     "id": "b",
+     "label": "Its overall distance traveled remains constant."
+    },
+    {
+     "id": "c",
+     "label": "Its speed increases during every lap."
+    },
+    {
+     "id": "d",
+     "label": "Its engine output fluctuates over time."
+    }
+   ],
+   "answer": "a",
+   "explain": "Even if an object maintains a constant speed, changing its direction of motion means it is undergoing acceleration.",
+   "cites": [
+    6,
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.average-velocity:q1"
+  },
+  {
+   "prompt": "A runner travels 5 kilometers east, turns around, and runs 5 kilometers west back to the starting line. How does their average velocity compare to their average speed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Average velocity is greater because speed does not factor in direction."
+    },
+    {
+     "id": "b",
+     "label": "Average velocity is lower because displacement returned to zero while distance increased."
+    },
+    {
+     "id": "c",
+     "label": "Average velocity is equal to average speed because movement occurred continuously."
+    },
+    {
+     "id": "d",
+     "label": "Average velocity cannot be calculated without knowing instantaneous speed."
+    }
+   ],
+   "answer": "b",
+   "explain": "Distance strictly increases during movement, but displacement can decrease back to zero, making average velocity less than or equal to average speed.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.average-velocity:q2"
+  },
+  {
+   "prompt": "On a displacement-time graph for a trip, a straight secant line is drawn between the start time and end time. What does the slope of this line represent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The instantaneous speed at the end of the trip."
+    },
+    {
+     "id": "b",
+     "label": "The total kinetic energy generated during the trip."
+    },
+    {
+     "id": "c",
+     "label": "The instantaneous velocity at the trip's midpoint."
+    },
+    {
+     "id": "d",
+     "label": "The average velocity over that time period."
+    }
+   ],
+   "answer": "d",
+   "explain": "The slope of a secant line connecting two time coordinates on a displacement-time graph represents the average velocity across that time frame.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.average-velocity:q3"
+  },
+  {
+   "prompt": "A rocket launches from Earth to travel into deep space. Why is the expression 'escape velocity' scientifically inaccurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The required threshold of about 11,200 m/s depends only on magnitude, not direction."
+    },
+    {
+     "id": "b",
+     "label": "The required threshold changes depending on whether the rocket travels north or south."
+    },
+    {
+     "id": "c",
+     "label": "It requires continuous acceleration rather than attaining a specific speed magnitude."
+    },
+    {
+     "id": "d",
+     "label": "It only applies to objects moving in a circular orbit around Earth."
+    }
+   ],
+   "answer": "a",
+   "explain": "The term is imprecise because reaching a magnitude of about 11,200 m/s leaves Earth's vicinity regardless of direction, making it an escape speed.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.average-velocity:q4"
+  },
+  {
+   "prompt": "Two observers watch a train move along a track. According to Newtonian mechanics, how will non-accelerating observers calculate the train's acceleration?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They will calculate different acceleration values based on their motion."
+    },
+    {
+     "id": "b",
+     "label": "All non-accelerating observers will calculate the exact same acceleration values."
+    },
+    {
+     "id": "c",
+     "label": "Only the stationary observer on the ground can calculate acceleration."
+    },
+    {
+     "id": "d",
+     "label": "They must use special relativity to agree on acceleration values."
+    }
+   ],
+   "answer": "b",
+   "explain": "In Newtonian mechanics, observers agree on time values, causing all non-accelerating observers to describe an object's acceleration using identical values.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.average-velocity:q5"
+  },
+  {
+   "prompt": "A cyclist’s position changes by 60 metres over a stretch lasting 20 seconds. Which calculation gives the cyclist’s average velocity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply 60 metres by 20 seconds"
+    },
+    {
+     "id": "b",
+     "label": "Divide 20 seconds by 60 metres"
+    },
+    {
+     "id": "c",
+     "label": "Divide 60 metres by 20 seconds"
+    },
+    {
+     "id": "d",
+     "label": "Add 60 metres to 20 seconds"
+    }
+   ],
+   "answer": "c",
+   "explain": "Average velocity is the change in position divided by the duration of the period, v̄ = Δs/Δt.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.average-velocity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/US_Navy_040501-N-1336S-037_The_U.S._Navy_sponsored_Chevy_Monte_Carlo_NASCAR_leads_a_pack_into_turn_four_at_California_Speedway.jpg/960px-US_Navy_040501-N-1336S-037_The_U.S._Navy_sponsored_Chevy_Monte_Carlo_NASCAR_leads_a_pack_into_turn_four_at_California_Speedway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Average velocity",
+  "credit": "U.S. Navy photo by Chief Journalist Erik Schneider.",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Navy_040501-N-1336S-037_The_U.S._Navy_sponsored_Chevy_Monte_Carlo_NASCAR_leads_a_pack_into_turn_four_at_California_Speedway.jpg"
+ },
+ "source": {
+  "title": "Velocity",
+  "url": "https://en.wikipedia.org/wiki/Velocity",
+  "revision": 1371475376
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Velocity has a direction",
+    "text": "Velocity measures how fast something moves and in which direction. That makes it a vector: you need both a size and a direction to pin it down. Speed is only the size part, telling how fast but not which way. Everyday speech often swaps the two words, but physics keeps them apart.",
+    "cites": [
+     1,
+     3,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "The basic formula",
+    "text": "Over any stretch of time, an object's average velocity is how far its position changed, Δs, divided by how long that stretch lasted, Δt. Written out, v̄ = Δs/Δt. Position change is counted in metres and time in seconds, so velocity comes out in metres per second.",
+    "cites": [
+     7,
+     15
+    ]
+   },
+   {
+    "heading": "Never more than average speed",
+    "text": "Average velocity can never be bigger than average speed. The reason lies in what each one counts. Distance travelled only ever goes up. Displacement, the overall change in position, can grow, shrink or even turn around.",
+    "cites": [
+     7,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Reading it from a graph",
+    "text": "On a graph that plots position against time, average velocity has a neat picture. Take the two times that open and close the period, mark those points on the curve, and join them with a straight line called a secant. The slope of that secant is the average velocity. The slope of the tangent line at one point gives the instantaneous velocity instead.",
+    "cites": [
+     18
+    ]
+   },
+   {
+    "heading": "Average versus instantaneous",
+    "text": "Instantaneous velocity is a separate idea that can seem odd at first. It can be pictured as the velocity an object would keep if it stopped accelerating at that exact moment. Average velocity, by contrast, is worked out over a whole period of time.",
+    "cites": [
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "When velocity stays constant",
+    "text": "A velocity is constant only when both speed and direction stay fixed, so the object moves in a straight line at a steady speed. A car going round a circle at a steady 20 kilometres per hour has a constant speed but not a constant velocity, because its direction keeps changing. Any change in speed, direction or both counts as acceleration, so that car is accelerating.",
+    "cites": [
+     6,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-3-1",
+   "kind": "book",
+   "title": "3.1 Position, Displacement, and Average Velocity",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/3-1-position-displacement-and-average-velocity",
+   "note": "A free textbook section on displacement versus distance and average velocity, with a worked example and a position-time graph."
+  },
+  {
+   "id": "cp-2-3",
+   "kind": "book",
+   "title": "2.3 Time, Velocity, and Speed",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+   "note": "A gentler textbook section on average and instantaneous velocity versus speed, with a round-trip example."
+  }
+ ]
+}

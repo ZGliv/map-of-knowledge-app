@@ -1,0 +1,117 @@
+{
+ "title": "Two draws, one table",
+ "question": "How can you describe two random results at the same time?",
+ "hook": "One table can hold every combination of two results and still hide each result's own odds in its edges.",
+ "idea": "A joint distribution gives the probability of each combination, and summing along the table's edges gives each variable's own distribution.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A table lists the probability of every combination of results from two draws. You add up all the cells in the table. What total do you get?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Exactly 1",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "Less than 1, because the draws are independent",
+     "feedback": "Independence changes how each cell is worked out (a product), not the total."
+    },
+    {
+     "id": "c",
+     "label": "Whatever the largest cell is",
+     "feedback": "The cells are separate combinations, and all of them count toward the total."
+    },
+    {
+     "id": "d",
+     "label": "2, once for each draw",
+     "feedback": "The number of draws does not change the total, since each combination is counted once."
+    }
+   ],
+   "answer": "a",
+   "explain": "The cells cover every combination, and some combination is certain to occur, so they sum to 1.",
+   "cites": [
+    7,
+    14
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each kind of distribution to what it gives.",
+   "pairs": [
+    [
+     "Joint distribution",
+     "The probability of each combination of the variables"
+    ],
+    [
+     "Marginal distribution",
+     "The probabilities for one variable, ignoring the others"
+    ],
+    [
+     "Conditional distribution",
+     "Probabilities for some variables given values of the rest"
+    ],
+    [
+     "Bivariate distribution",
+     "A joint distribution of exactly two variables"
+    ]
+   ],
+   "explain": "The joint distribution is the whole table; the other two are read from it, and bivariate just means two variables.",
+   "cites": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "You roll a fair die. A is 1 for an even roll and B is 1 for a prime roll (2, 3, 5). Which roll makes both equal 1?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "4",
+     "feedback": "4 is even but not prime."
+    },
+    {
+     "id": "b",
+     "label": "2",
+     "feedback": ""
+    },
+    {
+     "id": "c",
+     "label": "3",
+     "feedback": "3 is prime but not even."
+    },
+    {
+     "id": "d",
+     "label": "5",
+     "feedback": "5 is prime but not even."
+    }
+   ],
+   "answer": "b",
+   "explain": "Even rolls are 2, 4 and 6 and primes are 2, 3 and 5, so only 2 belongs to both.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning about a joint table is wrong. Which?",
+   "steps": [
+    "A table shows the probability of each combination of results for A and B.",
+    "To get the chance of A alone, add the cells across every possible result for B.",
+    "Those sums are written in the margin of the table.",
+    "So the margin shows the chance of A only when B takes one particular value."
+   ],
+   "wrong": 3,
+   "explain": "The margin sums over every value of B, so it gives A's probability without reference to B at all.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  }
+ ]
+}

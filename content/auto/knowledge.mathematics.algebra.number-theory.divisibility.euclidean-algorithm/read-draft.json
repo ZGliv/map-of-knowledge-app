@@ -1,0 +1,72 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What it is",
+   "cites": [
+    1,
+    2,
+    3
+   ],
+   "text": "The Euclidean algorithm is an efficient method for finding the greatest common divisor, or GCD, of two integers: the largest number that divides both of them with no remainder. Its name comes from Euclid, a mathematician of ancient Greece, who was the first to describe it, in his Elements around 300 BC. It is one of the oldest algorithms still in common use."
+  },
+  {
+   "heading": "Why it matters",
+   "cites": [
+    17,
+    18,
+    43,
+    44
+   ],
+   "text": "It is used to reduce fractions to their simplest form and to carry out division in modular arithmetic. A key advantage is that it finds the GCD without first working out the prime factors of the numbers. Factoring large integers is believed to be very hard, and the security of many widely used cryptographic protocols depends on that. Calculations with the algorithm are part of the protocols that secure internet communications."
+  },
+  {
+   "heading": "How it works",
+   "cites": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "text": "The method rests on one fact: the GCD of two numbers does not change if you replace the larger one by the difference between them. For 252 and 105 the GCD is 21, and 21 is also the GCD of 105 and 147, which is 252 − 105. Each replacement shrinks the larger number, so repeating it gives smaller and smaller pairs until the two numbers are equal. That number is the GCD of the original pair."
+  },
+  {
+   "heading": "A faster version",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "text": "Euclid's original subtraction version can take many steps when one number is much bigger than the other. A faster version replaces the larger number by its remainder after dividing by the smaller one, and stops when the remainder reaches zero. Done this way, the number of steps is never more than five times the number of base-10 digits in the smaller integer. Gabriel Lamé proved this in 1844, and his result marks the beginning of computational complexity theory."
+  },
+  {
+   "heading": "Writing the GCD as a sum",
+   "cites": [
+    9,
+    10
+   ],
+   "text": "Running the steps backwards, or using the extended Euclidean algorithm, writes the GCD as the two original numbers, each times some integer, added together. For example, 21 = 5 × 105 + (−2) × 252. The fact that the GCD can always be written this way is called Bézout's identity."
+  },
+  {
+   "heading": "A picture of the GCD",
+   "cites": [
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "text": "Picture a rectangle a by b, and a number c that divides both sides exactly. You can then cut the sides into pieces of length c, splitting the rectangle into a grid of c by c squares. The GCD is the largest c for which this works. A 24 by 60 rectangle can be tiled with squares of side 1, 2, 3, 4, 6 or 12, so the GCD of 24 and 60 is 12."
+  },
+  {
+   "heading": "Further uses",
+   "cites": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "text": "The algorithm also helps solve Diophantine equations, build continued fractions, and find accurate fraction approximations to real numbers. It is a basic tool in proofs, for example of Lagrange's four-square theorem and of the fact that prime factorizations are unique. Euclid described it only for natural numbers and geometric lengths, but in the 19th century it was extended to Gaussian integers and polynomials of one variable. That led to modern ideas in abstract algebra such as Euclidean domains."
+  }
+ ]
+}

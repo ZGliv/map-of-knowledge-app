@@ -1,0 +1,289 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field",
+ "name": "Finite field",
+ "summary": [
+  {
+   "text": "A finite field, also called a Galois field after Évariste Galois, is a field that has a finite number of elements.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The most common examples are the integers mod p for a prime number p, and the number of elements is always a prime number or a prime power.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Finite fields are fundamental in number theory, algebraic geometry, Galois theory, finite geometry, cryptography and coding theory.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Évariste Galois, so they are also called Galois fields",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Order",
+   "value": "The number of elements, which is a prime or a prime power",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Uniqueness",
+   "value": "All finite fields of a given order are isomorphic",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Nonzero elements",
+   "value": "They form a cyclic multiplicative group",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Simplest examples",
+   "value": "The integers mod a prime, with elements written 0, …, p − 1",
+   "cites": [
+    18,
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You work in the finite field made from the integers mod a prime p, and add two elements as ordinary integers. How do you get the answer in the field?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Keep the ordinary sum unchanged"
+    },
+    {
+     "id": "b",
+     "label": "Take the remainder of the sum after dividing by p"
+    },
+    {
+     "id": "c",
+     "label": "Multiply the sum by p"
+    },
+    {
+     "id": "d",
+     "label": "Subtract p from the sum exactly once"
+    }
+   ],
+   "answer": "b",
+   "explain": "In the prime field, sums, differences and products are the remainder of the division by p of the corresponding integer result.",
+   "cites": [
+    18,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field:q1"
+  },
+  {
+   "prompt": "Two researchers each build a finite field of the same order, using different constructions. How do their fields compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are isomorphic, so effectively the same field"
+    },
+    {
+     "id": "b",
+     "label": "They must differ, as each construction gives its own field"
+    },
+    {
+     "id": "c",
+     "label": "They match only when the order is prime"
+    },
+    {
+     "id": "d",
+     "label": "They match only when both are built from integers"
+    }
+   ],
+   "answer": "a",
+   "explain": "All finite fields of a given order are isomorphic, so they can be identified and written with the single name GF(q).",
+   "cites": [
+    6,
+    12,
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field:q3"
+  },
+  {
+   "prompt": "A finite field has an order that is a power of the prime p. You add p copies of the same element together. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The element itself"
+    },
+    {
+     "id": "b",
+     "label": "The number p"
+    },
+    {
+     "id": "c",
+     "label": "The element multiplied by itself"
+    },
+    {
+     "id": "d",
+     "label": "Zero"
+    }
+   ],
+   "answer": "d",
+   "explain": "In a field of prime-power order, summing p copies of any element always gives zero; this means the field has characteristic p.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field:q4"
+  },
+  {
+   "prompt": "Can every nonzero element of a finite field be written as repeated multiplication of one single element?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, each element needs its own generator"
+    },
+    {
+     "id": "b",
+     "label": "Yes, powers of one primitive element reach them all"
+    },
+    {
+     "id": "c",
+     "label": "No, only half of them can be reached"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only when the order is even"
+    }
+   ],
+   "answer": "b",
+   "explain": "The nonzero elements form a cyclic multiplicative group, so all of them are powers of a single primitive element.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field:q5"
+  },
+  {
+   "prompt": "In the finite field of integers mod a prime, you need the multiplicative inverse of some element. Which method can compute it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dividing 1 by the element as ordinary numbers"
+    },
+    {
+     "id": "b",
+     "label": "Taking the element's negative"
+    },
+    {
+     "id": "c",
+     "label": "Squaring the element repeatedly"
+    },
+    {
+     "id": "d",
+     "label": "The extended Euclidean algorithm"
+    }
+   ],
+   "answer": "d",
+   "explain": "The multiplicative inverse of an element of the prime field may be computed with the extended Euclidean algorithm.",
+   "cites": [
+    18,
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.fields.finite-field:q6"
+  }
+ ],
+ "source": {
+  "title": "Finite field",
+  "url": "https://en.wikipedia.org/wiki/Finite_field",
+  "revision": 1378306084
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What a finite field is",
+    "text": "A finite field, also called a Galois field after Évariste Galois, is a field that has finitely many elements. Like every field, it is a set where you can add, subtract, multiply and divide (except by zero), and these operations obey the field axioms. The number of its elements is called its order, or sometimes its size.",
+    "cites": [
+     1,
+     2,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Which sizes are possible",
+    "text": "A finite field of order q exists exactly when q is a prime power pᵏ, with p a prime number and k a positive integer. All fields of the same order are isomorphic, so they can be treated as one field and written 𝔽_q or GF(q), where GF stands for Galois field. In a field of order pᵏ, adding together p copies of any element always gives zero, so the characteristic of the field is p.",
+    "cites": [
+     10,
+     11,
+     12,
+     14
+    ]
+   },
+   {
+    "heading": "The simplest examples",
+    "text": "For each prime p, the integers modulo p form a field with p elements, called the prime field of order p. Its elements can be written as the whole numbers 0 up to p − 1. To add, subtract or multiply, you do that same operation on ordinary integers and keep the remainder after dividing by p. Inverses for multiplication can be found with the extended Euclidean algorithm.",
+    "cites": [
+     3,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Structure inside",
+    "text": "The nonzero elements form a group under multiplication, and that group is cyclic: every nonzero element is a power of a single element, called a primitive element. A field generally has several primitive elements. Every element of a field of order q is a root of the polynomial X^q − X. In characteristic p the rule (x + y)ᵖ = xᵖ + yᵖ also holds, sometimes nicknamed the freshman's dream, since all the middle binomial coefficients are multiples of p.",
+    "cites": [
+     15,
+     16,
+     17,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Fields inside fields",
+    "text": "GF(pⁿ) contains a copy of GF(pᵐ) exactly when m divides n, and in that case the smaller field is unique. Any finite extension of a finite field is both separable and simple: the larger field comes from the smaller one by adding a single element whose minimal polynomial is separable. In a piece of jargon, finite fields are perfect.",
+    "cites": [
+     31,
+     32,
+     33,
+     42
+    ]
+   },
+   {
+    "heading": "Building and using them",
+    "text": "To construct GF(q) with q = pⁿ and n > 1, one begins by choosing an irreducible polynomial of degree n with coefficients in GF(p); such a polynomial always exists. Finite fields are basic to number theory, algebraic geometry, Galois theory and finite geometry, and also to cryptography and coding theory.",
+    "cites": [
+     7,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-finite-fields",
+   "kind": "book",
+   "title": "22: Finite Fields - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/22%3A_Finite_Fields",
+   "note": "A free textbook chapter on finite fields and their structure.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

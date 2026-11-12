@@ -1,0 +1,72 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What the inequality does",
+   "text": "Doob's martingale inequality, also called Kolmogorov's submartingale inequality, is a basic result about stochastic processes. It puts a ceiling on the chance that a submartingale climbs past a chosen value during a stretch of time. The result is usually stated for martingales, but its mathematics works for submartingales as well. It is credited to the American mathematician Joseph L. Doob.",
+   "cites": [
+    1,
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "heading": "The idea in plain words",
+   "text": "Roughly, the expected value of the process at the end of the period limits how likely any path is to have risen above a given level earlier on. So the highest point a path reaches along the way can be bounded using only the expectation at the final time. That makes the inequality a strong tool for studying the extreme swings of individual paths.",
+   "cites": [
+    3,
+    9
+   ]
+  },
+  {
+   "heading": "Why it needs so little",
+   "text": "Because the proof reasons very directly, it does not need the restrictive assumptions that many other theorems about these processes require. It uses the submartingale property just once, along with the definition of conditional expectation. It can also be read as a consequence of the theorem that a submartingale stopped at a stopping time is still a submartingale. In that reading, the smallest index used in the proof plays the role of the stopping time.",
+   "cites": [
+    10,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "heading": "From steps to smooth time",
+   "text": "In continuous time, the paths must be right-continuous or left-continuous. This is needed only so that the highest value of a path equals its highest value over a countable dense set of times. Moving from discrete to continuous time this way is flexible, because such a countable dense set can be built from a growing sequence of finite sets. As a result, the inequality holds for index sets that need not be intervals or the natural numbers.",
+   "cites": [
+    11,
+    20,
+    21
+   ]
+  },
+  {
+   "heading": "Doob's maximal inequality",
+   "text": "Doob proved further inequalities of the same kind. Take a martingale, or a positive submartingale, with right-continuous paths if time is uncountable. Jensen's inequality shows that |Xₜ|^p is then a submartingale for any p ≥ 1, as long as these variables have finite integrals. Combining the submartingale inequality with the layer cake representation and the Hölder inequality gives a second result, known as Doob's maximal inequality.",
+   "cites": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ]
+  },
+  {
+   "heading": "Kolmogorov's inequality",
+   "text": "Suppose the partial sums Sₙ = X₁ + ⋯ + Xₙ form a martingale. By Jensen's inequality, |Sₙ| is then a nonnegative submartingale. Applying the submartingale inequality to it gives exactly Kolmogorov's inequality.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "heading": "Where it gets used",
+   "text": "Doob's maximal inequality leads to the Burkholder–Davis–Gundy inequalities, which bound the maximum of a martingale from both sides in terms of its quadratic variation. The case p = 2 underpins the careful construction of the Itô integral. The submartingale inequality is also a key step toward Doob's martingale convergence theorems. By limiting extreme excursions, it stops martingales with bounded expectations from oscillating forever, so they settle almost surely on a limit.",
+   "cites": [
+    30,
+    31,
+    34,
+    35,
+    36
+   ]
+  }
+ ]
+}

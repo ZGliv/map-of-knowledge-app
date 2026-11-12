@@ -1,0 +1,55 @@
+{
+  "checker": "Claude (Opus 5.5), independent adversarial checker, round 4; did not write or edit these reels. Every quote in the four changed reels was machine-matched against its pinned source (all exact). Whole reels were read, the Hartog hero image was viewed and its predict-phase framing worked out from camera() in src/explore/ReelPlayer.tsx, Commons metadata was fetched through the API, and a web search was run on visits to Cape Inscription between 1616 and 1697.",
+  "checkedAt": "2026-10-23T19:33:35Z",
+  "units": [
+    {
+      "id": "2026-10-25-a-dinner-plate-from-1616/prediction",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: Hartog Plate] \"Before departing, Hartog left behind a pewter dinner plate, nailed to a post\"; \"Eighty-one years later, in 1697, the Dutch sea captain Willem de Vlamingh also reached the island and discovered Hartog's pewter dish\". [Wikipedia: Dirk Hartog] \"Eighty years later, on 4 February 1697, the Dutch explorer Willem de Vlamingh landed on the island and by chance found the Hartog plate\". Arithmetic: 1697 − 1616 = 81. From 25 Oct 1616 to 4 Feb 1697 is 80 years and about 3 months.",
+      "note": "The key 'About 80 years later' is right. '8 years' (1624) has no recorded visit, and '800 years' would be 2416, so neither is arguably right. The prompt's 'nailed a pewter plate to a post on an island off western Australia' matches the source. 'Hartog nailed' credits his crew's act to him, which is a fair simplification. 'The next European' is inferred, not stated. Every pinned source and the WA Museum and Rijksmuseum accounts go straight from 1616 to 1697 with no visit between, though none says in so many words that nobody came. Hero check: frame 0 is m1 at x55 y80 zoom 1.3. On a 390×844 stage, camera() shows roughly source rows 221 to 960 and columns 533 to 875. That takes in the lower part of the museum label's English column, which includes the line about 1697 and de Vlamingh. But that text is about 4 to 5 source pixels tall and blurred, and it renders at about 5 CSS px under the top chrome. I could not read it even in a 2× crop of the full-resolution file. It does not give the answer away. Frames 0 and 1, before the reveal at index 2, do not either.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-25-the-king-who-never-saw-hanover/title",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: George III] \"George, in his accession speech to Parliament, proclaimed: \"Born and educated in this country, I glory in the name of Britain.\"\"; \"He was the first monarch of the House of Hanover\" (exact).",
+      "note": "'Hanoverian' is his dynasty. 'Gloried in Britain' shortens 'I glory in the name of Britain', which is a fair paraphrase of one proclaimed line. The title no longer states the prediction's answer ('Never'). The Hanover-against-Britain contrast is a mild cue that pushes away from 'Most summers', but it does not choose between 'Never' and 'Once, as a young man'. The hero (m1, Ramsay coronation portrait) gives no hint.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-25-the-king-who-never-saw-hanover/f2",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: George II of Great Britain] \"Born and brought up in northern Germany, George is the most recent British monarch born outside Great Britain.\" (exact). Pinned Commons text for m2: \"George, Prince of Wales (1738-1820) pastel on vellum 40.6 x 29.8 cm 1754\"; Commons API DateTimeOriginal \"1754\", Artist \"Jean-Étienne Liotard\".",
+      "note": "'Still a prince, in 1754' is right: the work is dated 1754, and George was Prince of Wales from 1751 and king from 1760. 'His grandfather' is George II, named in frame 1. 'No British monarch since has been born abroad' is the source's 'most recent British monarch born outside Great Britain'. It holds whether 'since' means since George II or since 1754, because every later monarch was born in England. The spoken line is word for word the caption, with the year in words.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-25-the-king-who-never-saw-hanover/takeaway",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: George III] \"George succeeded to the throne when his grandfather George II died suddenly on 25 October 1760\"; \"He was the first monarch of the House of Hanover who was born in Great Britain, spoke English as his first language, and never visited Hanover.\" (both exact).",
+      "note": "He succeeded when George II died on 25 October 1760, so 'became king on 25 October 1760' is right. 'First Hanoverian king born in Britain' is right: George I was born in Osnabrück and George II in Hanover. 'Never visited Hanover' is in the source.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-25-the-king-who-never-saw-hanover/claim.portrait",
+      "verdict": "supported",
+      "evidence": "Pinned text, whole: \"George, Prince of Wales (1738-1820) pastel on vellum 40.6 x 29.8 cm 1754\". The quote is the entire line, exact. Cited page title: \"File:George, Prince of Wales (1738-1820), by Jean-Étienne Liotard.jpg\". Commons API: Artist Jean-Étienne Liotard, DateTimeOriginal 1754 (P571 inception 1754), credit Royal Collection Trust.",
+      "note": "The quote supports the sitter, 'pastel' and '1754'. 'Liotard's' comes from the cited page's own title and its Artist field, not from the quoted words. That is acceptable because it identifies the cited source itself, and Commons confirms it.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-25-the-only-picture-in-the-origin/title",
+      "verdict": "supported",
+      "evidence": "[Commons: Origin_of_Species.svg] \"The only illustration in Charles Darwin 's 1859 On the Origin of Species , showing the divergence of species.\"; [Wikipedia: On the Origin of Species] \"Using a tree diagram and calculations, he indicates the \"divergence of character\"\" (not among the title's listed quotes, but it is in the pinned text and supports the word 'tree').",
+      "note": "Calling the diagram 'the tree' is supported by the pinned article ('tree diagram', and Darwin's 'great Tree of life'). The title no longer gives the prediction away ('How many illustrations?', key 'Just one'). 'The tree' says a tree figure exists but not that it is the only illustration. The hero (m1, the 1859 title page) says nothing about illustrations.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-25-bricks-from-a-demolished-fortress/title",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: Uspenski Cathedral] \"Used in construction of the cathedral, 700 000 bricks were brought over in barges from the Bomarsund Fortress that had been demolished in the Crimean War.\" (exact)",
+      "note": "'Seven hundred thousand bricks' is the source's figure. The title does not claim that is the total brick count, and it does not reveal where they came from, which is the prediction's answer. The hero (m5, Photochrom print of the cathedral) shows no fortress.",
+      "fix": ""
+    }
+  ]
+}

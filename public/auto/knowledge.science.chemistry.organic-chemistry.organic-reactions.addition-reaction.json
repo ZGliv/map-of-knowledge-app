@@ -1,0 +1,325 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction",
+ "name": "Addition reaction",
+ "summary": [
+  {
+   "text": "An addition reaction is an organic reaction in which two or more molecules combine to form a larger molecule called the adduct.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is limited to compounds with multiple bonds, such as an alkene with a carbon–carbon double bond or an alkyne with a triple bond.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It is the reverse of an elimination reaction, in which one molecule divides into two or more molecules.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Product",
+   "value": "The larger molecule formed is called the adduct",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Starting molecules",
+   "value": "Compounds with multiple bonds, such as alkenes and alkynes",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "label": "Polar types",
+   "value": "Electrophilic addition and nucleophilic addition",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Non-polar types",
+   "value": "Free-radical addition and cycloadditions",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Reverse reaction",
+   "value": "Elimination; dehydration reverses an alkene's hydration to alcohol",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two small molecules join to make one larger molecule in an addition reaction. What is that larger molecule called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The substrate"
+    },
+    {
+     "id": "b",
+     "label": "The adduct"
+    },
+    {
+     "id": "c",
+     "label": "The monomer"
+    },
+    {
+     "id": "d",
+     "label": "The leaving group"
+    }
+   ],
+   "answer": "b",
+   "explain": "In an addition reaction, two or more molecules combine to form a larger molecule called the adduct.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction:q1"
+  },
+  {
+   "prompt": "A chemist needs a starting material for an addition reaction. Which molecule is ruled out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An alkene with a carbon–carbon double bond"
+    },
+    {
+     "id": "b",
+     "label": "An alkyne with a carbon–carbon triple bond"
+    },
+    {
+     "id": "c",
+     "label": "A molecule with a carbonyl group (C=O)"
+    },
+    {
+     "id": "d",
+     "label": "A straight chain with only single bonds and no rings"
+    }
+   ],
+   "answer": "d",
+   "explain": "Addition is limited to compounds with multiple bonds, and rings also count as points of unsaturation, so a plain chain of single bonds is out.",
+   "cites": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction:q2"
+  },
+  {
+   "prompt": "Water is added across an alkene to make an alcohol. A chemist then removes the water again by dehydration. What general kind of reaction is that reverse step?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An elimination reaction"
+    },
+    {
+     "id": "b",
+     "label": "Another addition reaction"
+    },
+    {
+     "id": "c",
+     "label": "A cycloaddition"
+    },
+    {
+     "id": "d",
+     "label": "An addition polymerization"
+    }
+   ],
+   "answer": "a",
+   "explain": "An addition reaction is the reverse of an elimination reaction, and the hydration of an alkene is reversed by dehydration.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction:q3"
+  },
+  {
+   "prompt": "Which pair names the two main types of polar addition?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Free-radical addition and cycloaddition"
+    },
+    {
+     "id": "b",
+     "label": "Electrophilic addition and free-radical addition"
+    },
+    {
+     "id": "c",
+     "label": "Electrophilic addition and nucleophilic addition"
+    },
+    {
+     "id": "d",
+     "label": "Nucleophilic addition and cycloaddition"
+    }
+   ],
+   "answer": "c",
+   "explain": "Electrophilic and nucleophilic addition are the polar types, while free-radical addition and cycloadditions are non-polar.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction:q4"
+  },
+  {
+   "prompt": "A product made by addition then reacts further and ejects a leaving group. What is this two-part sequence called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An elimination–addition sequence"
+    },
+    {
+     "id": "b",
+     "label": "An addition–elimination reaction sequence"
+    },
+    {
+     "id": "c",
+     "label": "A double addition"
+    },
+    {
+     "id": "d",
+     "label": "A reverse cycloaddition"
+    }
+   ],
+   "answer": "b",
+   "explain": "Depending on the product structure, it could react further to eject a leaving group, giving the addition–elimination sequence.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction:q5"
+  },
+  {
+   "prompt": "A molecule has a carbon double-bonded to oxygen, a carbonyl group. Can it take part in an addition reaction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, only carbon–carbon multiple bonds can"
+    },
+    {
+     "id": "b",
+     "label": "No, only molecules with rings can"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because carbon–heteroatom double bonds can undergo addition"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only after turning into an alkene"
+    }
+   ],
+   "answer": "c",
+   "explain": "Molecules with carbon–heteroatom double bonds, such as C=O or C=N, can undergo addition reactions.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.chemistry.organic-chemistry.organic-reactions.addition-reaction:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Addition_reactions_general_overview.svg/960px-Addition_reactions_general_overview.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Addition reaction",
+  "credit": "Dissolution",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Addition_reactions_general_overview.svg"
+ },
+ "source": {
+  "title": "Addition reaction",
+  "url": "https://en.wikipedia.org/wiki/Addition_reaction",
+  "revision": 1375626211
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Two molecules become one",
+    "text": "In an addition reaction, two or more molecules join together to make one larger molecule. That combined product has its own name: the adduct. Addition is the reverse of an elimination reaction, where a single molecule breaks apart into two or more.",
+    "cites": [
+     1,
+     6
+    ]
+   },
+   {
+    "heading": "Which molecules can add",
+    "text": "Only compounds with multiple bonds can take part in an addition reaction. An alkene, which has a double bond between two carbon atoms, qualifies, and so does an alkyne, which has a triple bond. Compounds with rings can count too, because rings are also treated as points of unsaturation. So can molecules with a double bond between carbon and a heteroatom, such as the carbonyl group, C=O, or the imine group, C=N, because of that double bond.",
+    "cites": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Water meets an alkene",
+    "text": "Hydration gives a concrete picture. An alkene, with its carbon–carbon double bond, takes part in an addition reaction with water, and the two combine into a single, larger molecule: an alcohol. That alcohol is the adduct. Run the change backwards, by dehydration, and the alcohol is turned back into the alkene, which makes the reverse an elimination reaction.",
+    "cites": [
+     1,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Polar and non-polar kinds",
+    "text": "Chemists sort addition reactions into polar and non-polar kinds. There are two main polar types: electrophilic addition and nucleophilic addition. Alongside them sit two non-polar types, called free-radical addition and cycloadditions. Addition reactions also turn up when polymers are made, and there the process goes by the name addition polymerization.",
+    "cites": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "When the adduct reacts again",
+    "text": "The adduct is not always the end of the story. Depending on how its structure is built, it may react again right away and throw out a leaving group. That two-part path, an addition followed at once by an elimination, is known as the addition–elimination sequence. It ties together the two opposite reaction types: first two molecules combine into one, and then that one splits apart again.",
+    "cites": [
+     11,
+     1,
+     6
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-7",
+   "kind": "book",
+   "title": "7.7 Electrophilic Addition Reactions of Alkenes",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/7-7-electrophilic-addition-reactions-of-alkenes",
+   "note": "A free textbook section on electrophilic addition to the double bond of alkenes.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-19-4",
+   "kind": "book",
+   "title": "19.4 Nucleophilic Addition Reactions of Aldehydes and Ketones",
+   "by": "John McMurry (OpenStax)",
+   "url": "https://openstax.org/books/organic-chemistry/pages/19-4-nucleophilic-addition-reactions-of-aldehydes-and-ketones",
+   "note": "A free textbook section on nucleophilic addition to the carbonyl group of aldehydes and ketones.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-alkene-addition",
+   "kind": "video",
+   "title": "Alkene Addition Reactions: Crash Course Organic Chemistry #16",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=3WbjKwRqOhk",
+   "note": "A Crash Course video on addition reactions of alkenes."
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample",
+ "name": "Simple random sample",
+ "summary": [
+  {
+   "text": "A simple random sample is a group chosen from a larger population in a way that gives every individual the same chance of being picked.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Every subset of a given size has the same probability of being the chosen sample as any other subset of that size.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It requires a complete sampling frame and needs little prior knowledge of the population beyond that, which makes it simple to interpret.",
+   "cites": [
+    21,
+    23,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Equal chances",
+   "value": "Every subset of k individuals is equally likely to be chosen",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Without replacement",
+   "value": "Usually done without choosing any member more than once",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Needs a frame",
+   "value": "A complete sampling frame, which may be hard to build for large populations",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Benchmark role",
+   "value": "Textbooks use it without replacement to judge other sampling methods",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Ten friends share six basketball tickets. Each gets a number from 1 to 10, and random numbers are drawn, skipping repeats, until six friends are named. Why is this fair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every possible group of six is equally likely to be chosen"
+    },
+    {
+     "id": "b",
+     "label": "Lower numbers are drawn first more often than higher ones"
+    },
+    {
+     "id": "c",
+     "label": "Friends who asked for tickets first get priority"
+    },
+    {
+     "id": "d",
+     "label": "Each friend is guaranteed a turn at a ticket"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a simple random sample every set with the same number of items has the same probability of being chosen.",
+   "cites": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample:q1"
+  },
+  {
+   "prompt": "A teacher seats 30 students in 5 rows and 6 columns, then picks one column at random as her sample of 5. Every student has the same chance of being chosen. Why is it still not a simple random sample?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some students are more likely to be picked than others"
+    },
+    {
+     "id": "b",
+     "label": "A single column is too small to count as a sample"
+    },
+    {
+     "id": "c",
+     "label": "Many groups of five students can never be chosen"
+    },
+    {
+     "id": "d",
+     "label": "Picking a column at random is not truly random"
+    }
+   ],
+   "answer": "c",
+   "explain": "Only groups arranged as one column can be selected, so not all subsets of five are equally likely, even though each student has the same chance.",
+   "cites": [
+    28,
+    29,
+    30
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample:q2"
+  },
+  {
+   "prompt": "A pollster draws 500 names from a population of millions. How much does it matter whether each name is put back into the pool after being drawn?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A great deal, since repeats would be very common"
+    },
+    {
+     "id": "b",
+     "label": "It cannot be done for a population that large"
+    },
+    {
+     "id": "c",
+     "label": "Putting names back is always the required method"
+    },
+    {
+     "id": "d",
+     "label": "Hardly at all, since drawing the same person again is unlikely"
+    }
+   ],
+   "answer": "d",
+   "explain": "For a small sample from a large population, sampling without replacement is approximately the same as with replacement, because the chance of picking the same individual twice is low.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample:q3"
+  },
+  {
+   "prompt": "A school numbers 1,000 students, picks a random starting number, then takes every 10th name for a sample of 100. Each student has the same chance of inclusion. Why is it still not a simple random sample?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The starting number was not chosen at random"
+    },
+    {
+     "id": "b",
+     "label": "Some sets of 100 students are far likelier than others"
+    },
+    {
+     "id": "c",
+     "label": "Every tenth name does not form a sample at all"
+    },
+    {
+     "id": "d",
+     "label": "Some students are more likely to be included than others"
+    }
+   ],
+   "answer": "b",
+   "explain": "Systematic sampling gives each unit the same chance of inclusion, but different sets of units have different probabilities, because the first pick fixes the rest.",
+   "cites": [
+    32,
+    36,
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample:q4"
+  },
+  {
+   "prompt": "A team knows almost nothing about a population except a full list of its members, and asking anyone is cheap. Which plan fits best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Asking only the first names on the list"
+    },
+    {
+     "id": "b",
+     "label": "Cluster sampling, since it always beats simpler plans"
+    },
+    {
+     "id": "c",
+     "label": "A simple random sample, valued for its simplicity"
+    },
+    {
+     "id": "d",
+     "label": "Asking volunteers who come forward"
+    }
+   ],
+   "answer": "c",
+   "explain": "Simple random sampling best suits cases with little information about the population and cheap, easy data collection; otherwise stratified or cluster sampling may do better.",
+   "cites": [
+    23,
+    25,
+    26
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample:q5"
+  },
+  {
+   "prompt": "A researcher draws a simple random sample and finds it looks a bit unrepresentative of the population. What does that tell us?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The selection method must not have been random"
+    },
+    {
+     "id": "b",
+     "label": "A random draw does not guarantee any one sample is a perfect picture"
+    },
+    {
+     "id": "c",
+     "label": "Random sampling works only if repeated until the sample looks right"
+    },
+    {
+     "id": "d",
+     "label": "The population must be too large to sample"
+    }
+   ],
+   "answer": "b",
+   "explain": "Unbiased random selection means the average sample would represent the population, but it does not guarantee that a particular sample is a perfect representation.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.statistics.sampling.simple-random-sample:q6"
+  }
+ ],
+ "source": {
+  "title": "Simple random sample",
+  "url": "https://en.wikipedia.org/wiki/Simple_random_sample",
+  "revision": 1362640469
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A simple random sample, or SRS, is a smaller group picked by chance from a larger population, with every individual given the same probability. The rule reaches beyond single people. Any set of k individuals is exactly as likely to become the sample as any other set of the same size. It is a basic kind of sampling and can serve as one part of more complex methods.",
+    "cites": [
+     1,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "A fair way to share tickets",
+    "text": "Picture ten college students and only six tickets to a basketball game. To keep it fair, each student gets a number from 1 to 10. Random numbers are then produced by a computer or read off a table of random numbers. Any number outside 1 to 10, or already drawn, is skipped, and the first six valid numbers name the winners.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "With or without replacement",
+    "text": "Usually nobody may be picked twice, which is called sampling without replacement. Sampling with replacement is possible but less common, and it is normally named in full. Draws without replacement are no longer independent, yet most results of mathematical statistics still hold. When a small sample comes from a large population, the two methods are almost the same, since picking one person twice is unlikely. Survey textbooks use SRS without replacement as the yardstick for judging how efficient other methods are.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "What it promises",
+    "text": "Unbiased random picking matters because, across many samples, the average sample would mirror the population accurately. That does not make any one sample a perfect copy. What it does allow is reaching conclusions about the whole population from the sample.",
+    "cites": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Strengths and limits",
+    "text": "SRS needs a complete sampling frame, which may not exist or may be impractical to build for a large population. Its strengths are that it avoids classification error, needs little prior knowledge of the population beyond the frame, and gives data that are easy to interpret. It fits best when little is known about the population, or when sampling is cheap enough that simplicity matters more than efficiency. Even with a complete frame, extra knowledge about the units can allow more efficient methods, and when those conditions are not met, stratified or cluster sampling may be the better choice.",
+    "cites": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Equal chances are not enough",
+    "text": "Any method that gives each unit the same chance of selection is called equal probability sampling, or epsem. Every SRS is epsem, but not every epsem sample is an SRS. Suppose a teacher whose class sits in 5 rows of 6 columns picks one column at random to get 5 pupils. Each pupil had the same chance, yet most groups of 5 could never be chosen, because only whole columns qualify.",
+    "cites": [
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "os-1-2",
+   "kind": "book",
+   "title": "1.2 Data, Sampling, and Variation in Data and Sampling",
+   "by": "OpenStax (Introductory Statistics 2e)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+   "note": "A free textbook section that defines the simple random sample and contrasts it with other sampling methods."
+  },
+  {
+   "id": "cc-stats-10",
+   "kind": "video",
+   "title": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=Rf-fIpB4D50",
+   "note": "A Crash Course video on survey sampling methods, starting from simple random samples where everyone has an equal chance."
+  }
+ ]
+}

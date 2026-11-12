@@ -1,0 +1,226 @@
+{
+ "summary": [
+  {
+   "text": "The symmetric group on a set X is the group whose elements are the permutations of X, with function composition as the operation.",
+   "cites": [
+    8,
+    22
+   ]
+  },
+  {
+   "text": "It is a group because composing permutations gives a permutation, the do-nothing bijection is the identity, and every permutation has an inverse.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "text": "Every permutation can be written as a product of transpositions, and the number needed is either always even or always odd.",
+   "cites": [
+    29,
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Transposition",
+   "value": "A permutation that swaps two elements and fixes the rest",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Parity",
+   "value": "A permutation needs either always an even or always an odd count of transpositions",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Alternating group",
+   "value": "The even permutations; for n ≥ 2 it has n!/2 elements",
+   "cites": [
+    33,
+    34
+   ]
+  },
+  {
+   "label": "Permutation groups",
+   "value": "Subgroups of symmetric groups carry this name",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Disjoint cycles",
+   "value": "Cycles sharing no elements commute",
+   "cites": [
+    44,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In the symmetric group on a set, which permutation acts as the identity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The one that swaps every pair of elements"
+    },
+    {
+     "id": "b",
+     "label": "The one that reverses the whole order"
+    },
+    {
+     "id": "c",
+     "label": "The one that sends each element to itself"
+    },
+    {
+     "id": "d",
+     "label": "The one with the longest cycle"
+    }
+   ],
+   "answer": "c",
+   "explain": "The trivial bijection assigning each element to itself serves as the identity.",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "prompt": "Why can any shuffle in the symmetric group be undone by another element of the same group?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every bijection has an inverse function that is also a permutation"
+    },
+    {
+     "id": "b",
+     "label": "Every shuffle is its own opposite"
+    },
+    {
+     "id": "c",
+     "label": "Shuffles can be undone only when they are cycles"
+    },
+    {
+     "id": "d",
+     "label": "The identity can replace any shuffle"
+    }
+   ],
+   "answer": "a",
+   "explain": "A bijection has an inverse function that undoes its action, and that inverse is a permutation too.",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "prompt": "One person writes a permutation as a product of three swaps. Could another person correctly write the same permutation as a product of four swaps?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any count of swaps can be used"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if they add two extra swaps"
+    },
+    {
+     "id": "c",
+     "label": "Only if the set has an even size"
+    },
+    {
+     "id": "d",
+     "label": "No, the count is always odd or always even"
+    }
+   ],
+   "answer": "d",
+   "explain": "Representations are not unique, but the number of transpositions needed is either always even or always odd.",
+   "cites": [
+    29,
+    31
+   ]
+  },
+  {
+   "prompt": "Two cycles in a permutation share no elements. Does the order in which you apply them matter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, disjoint cycles commute"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it always changes the result"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only for cycles of length two"
+    },
+    {
+     "id": "d",
+     "label": "It matters only in small groups"
+    }
+   ],
+   "answer": "a",
+   "explain": "Disjoint cycles commute, so they can be applied in either order.",
+   "cites": [
+    44,
+    45
+   ]
+  },
+  {
+   "prompt": "Student A writes a three-item cycle as (1 4 3) and student B writes (4 3 1). Are they describing different permutations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the starting point changes the permutation"
+    },
+    {
+     "id": "b",
+     "label": "No, the same cycle can start at any point"
+    },
+    {
+     "id": "c",
+     "label": "Yes, unless the cycle has length two"
+    },
+    {
+     "id": "d",
+     "label": "No, but only when the cycles are disjoint"
+    }
+   ],
+   "answer": "b",
+   "explain": "A cycle can equally be written starting at a different point, so (1 4 3) and (4 3 1) name the same cycle.",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "prompt": "Bubble sort only swaps neighbouring items yet can reach any ordering. Which fact explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Disjoint cycles always commute"
+    },
+    {
+     "id": "b",
+     "label": "Every cycle has an order equal to its length"
+    },
+    {
+     "id": "c",
+     "label": "Every permutation is a product of adjacent transpositions"
+    },
+    {
+     "id": "d",
+     "label": "The even permutations form a normal subgroup"
+    }
+   ],
+   "answer": "c",
+   "explain": "Every permutation can be written as a product of adjacent transpositions, and bubble sort is an application of this fact.",
+   "cites": [
+    36,
+    38
+   ]
+  }
+ ]
+}

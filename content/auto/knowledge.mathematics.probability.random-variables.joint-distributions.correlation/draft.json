@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "Correlation is a statistical relationship between two random variables, usually meaning how far a pair of quantities are linearly related.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The common Pearson coefficient divides the covariance by the product of the two standard deviations, which gives a value between -1 and +1.",
+   "cites": [
+    15,
+    20
+   ]
+  },
+  {
+   "text": "Correlation does not imply causation, and a correlation of 0 does not mean the variables are independent.",
+   "cites": [
+    4,
+    26
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Perfect line",
+   "value": "+1 for a perfect rising line, -1 for a perfect falling line",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Near zero",
+   "value": "The closer to zero, the less of a relationship",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "What Pearson detects",
+   "value": "Only linear dependencies between two variables",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Rank coefficients",
+   "value": "Spearman's and Kendall's check whether one tends to rise as the other rises",
+   "cites": [
+    36
+   ]
+  },
+  {
+   "label": "Who developed it",
+   "value": "Karl Pearson, from a similar idea by Francis Galton",
+   "cites": [
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An electrical utility plans to produce less power on a mild day, because demand tracks the weather. What makes the correlation useful here?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It indicates a predictive relationship that can be used in practice"
+    },
+    {
+     "id": "b",
+     "label": "It proves that mild weather is the only cause of demand"
+    },
+    {
+     "id": "c",
+     "label": "It shows demand and weather are independent"
+    },
+    {
+     "id": "d",
+     "label": "It removes the need to measure demand"
+    }
+   ],
+   "answer": "a",
+   "explain": "Correlations are useful because they can point to a predictive relationship that can be exploited, as the utility does.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "Sales of sunscreen and ice cream rise and fall together over the year. Can you conclude that one causes the other?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any strong correlation shows cause"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only if the correlation is exactly +1"
+    },
+    {
+     "id": "c",
+     "label": "Only if sales are measured in the same units"
+    },
+    {
+     "id": "d",
+     "label": "No, correlation alone is not enough to infer cause"
+    }
+   ],
+   "answer": "d",
+   "explain": "The presence of a correlation is not sufficient to infer a causal relationship.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "X is spread evenly on both sides of zero, and Y = X². What is true of X and Y?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are independent, since the correlation is zero"
+    },
+    {
+     "id": "b",
+     "label": "Y depends fully on X, yet their correlation is zero"
+    },
+    {
+     "id": "c",
+     "label": "Their correlation must be +1, since Y follows X"
+    },
+    {
+     "id": "d",
+     "label": "Their correlation must be -1, since Y is a square"
+    }
+   ],
+   "answer": "b",
+   "explain": "Y is completely determined by X, but the relationship is not a straight line, so the correlation is zero and they are uncorrelated.",
+   "cites": [
+    25,
+    27,
+    28
+   ]
+  },
+  {
+   "prompt": "Someone reports a correlation coefficient of 1.4 between two measures. What should you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The relationship is stronger than a perfect line"
+    },
+    {
+     "id": "b",
+     "label": "The measures are independent"
+    },
+    {
+     "id": "c",
+     "label": "Something is wrong, since it must lie from -1 to +1"
+    },
+    {
+     "id": "d",
+     "label": "It shows a perfect falling relationship"
+    }
+   ],
+   "answer": "c",
+   "explain": "The absolute value of Pearson's coefficient cannot exceed 1, so the value ranges only from -1 to +1.",
+   "cites": [
+    19,
+    20
+   ]
+  },
+  {
+   "prompt": "Two variables are independent of each other. What can you say about their Pearson correlation coefficient?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is exactly 1"
+    },
+    {
+     "id": "b",
+     "label": "It is exactly -1"
+    },
+    {
+     "id": "c",
+     "label": "Somewhere between 0 and 1"
+    },
+    {
+     "id": "d",
+     "label": "It is 0"
+    }
+   ],
+   "answer": "d",
+   "explain": "Independent variables are uncorrelated, so the coefficient is 0. The reverse does not hold: a coefficient of 0 does not guarantee independence.",
+   "cites": [
+    24,
+    26
+   ]
+  },
+  {
+   "prompt": "Each time x goes up, y goes up too, but the points bend along a curve rather than a straight line. Which kind of measure reads this as a perfect relationship?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pearson's coefficient, which needs a straight line"
+    },
+    {
+     "id": "b",
+     "label": "Every coefficient gives the same value"
+    },
+    {
+     "id": "c",
+     "label": "No coefficient, as the points are off a line"
+    },
+    {
+     "id": "d",
+     "label": "A rank coefficient such as Spearman's"
+    }
+   ],
+   "answer": "d",
+   "explain": "Rank coefficients check whether one variable tends to rise as the other rises, so they can reach 1 here, while Pearson's value falls short because the points are not on a straight line.",
+   "cites": [
+    36,
+    40,
+    41,
+    42
+   ]
+  }
+ ]
+}

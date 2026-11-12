@@ -1,0 +1,523 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.phase-transitions",
+ "name": "Phase transitions",
+ "summary": [
+  {
+   "text": "A phase transition is a change of a substance from one state to another, most often among solid, liquid and gas.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It happens when conditions such as temperature or pressure change, and some properties can jump abruptly, like the volume when a liquid turns to gas.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "At the exact transition point the two phases are equally likely to exist, and on either side one of them is the more stable.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "What triggers it",
+   "value": "A change in temperature or pressure",
+   "cites": [
+    4,
+    12
+   ]
+  },
+  {
+   "label": "Boiling jump",
+   "value": "Liquid turning to gas changes volume abruptly",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Phase diagram",
+   "value": "Shows the most stable phase at each temperature and pressure",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Solid to solid",
+   "value": "A crystal can change structure without changing chemistry",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Magnetic example",
+   "value": "Ferromagnet to paramagnet at the Curie point",
+   "cites": [
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A pot of water sits at the exact temperature where steam and water are equally ready to exist. What is true of the two forms there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They have identical free energies, so neither is favored"
+    },
+    {
+     "id": "b",
+     "label": "The water is more stable until the pot empties"
+    },
+    {
+     "id": "c",
+     "label": "The steam is always the more stable of the two"
+    },
+    {
+     "id": "d",
+     "label": "Only one can exist until the heat is turned up"
+    }
+   ],
+   "answer": "a",
+   "explain": "At the transition point the two phases have identical free energies, so they are equally likely to exist.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions:q1"
+  },
+  {
+   "prompt": "A pot of water is held just under its boiling point. Which form of the water is the more stable one?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The vapor, because it holds more energy"
+    },
+    {
+     "id": "b",
+     "label": "Neither, since both are equally stable there"
+    },
+    {
+     "id": "c",
+     "label": "The liquid, because the temperature is below boiling"
+    },
+    {
+     "id": "d",
+     "label": "The vapor, because pressure favors it"
+    }
+   ],
+   "answer": "c",
+   "explain": "Below the boiling point the liquid is the more stable state; above it the gas is.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions:q2"
+  },
+  {
+   "prompt": "Very clean water is chilled a few degrees past its freezing point and stays unfrozen. How is this state best described?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Unstable, so it must freeze immediately"
+    },
+    {
+     "id": "b",
+     "label": "Metastable: less stable than ice, yet not unstable"
+    },
+    {
+     "id": "c",
+     "label": "Fully stable, the same as ice at that point"
+    },
+    {
+     "id": "d",
+     "label": "A plasma, because it passed the transition"
+    }
+   ],
+   "answer": "b",
+   "explain": "Supercooling carries a system past a transition point without the transition; the result is metastable.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions:q3"
+  },
+  {
+   "prompt": "Carbon, a pure element, rearranges from one crystal structure to another with no change in chemistry. What is this kind of change called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Polymorphism"
+    },
+    {
+     "id": "b",
+     "label": "Supersaturation"
+    },
+    {
+     "id": "c",
+     "label": "A eutectic transformation"
+    },
+    {
+     "id": "d",
+     "label": "Allotropy"
+    }
+   ],
+   "answer": "d",
+   "explain": "In elements a change of crystal structure is allotropy; in compounds it is polymorphism.",
+   "cites": [
+    17,
+    18
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions:q4"
+  },
+  {
+   "prompt": "A magnetic material switches from ferromagnetic to paramagnetic. What is the temperature of this change called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Curie point"
+    },
+    {
+     "id": "b",
+     "label": "The boiling point"
+    },
+    {
+     "id": "c",
+     "label": "The spinodal point"
+    },
+    {
+     "id": "d",
+     "label": "The eutectoid point"
+    }
+   ],
+   "answer": "a",
+   "explain": "The ferromagnetic to paramagnetic transition occurs at the Curie point.",
+   "cites": [
+    28,
+    29
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions:q5"
+  },
+  {
+   "prompt": "A lab heats a pure compound and watches it melt. What is typical of a chemically pure compound?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It melts across a span where solid and liquid coexist"
+    },
+    {
+     "id": "b",
+     "label": "It has separate liquidus and solidus temperatures"
+    },
+    {
+     "id": "c",
+     "label": "It melts at a single temperature"
+    },
+    {
+     "id": "d",
+     "label": "It melts only when pressure is also changed"
+    }
+   ],
+   "answer": "c",
+   "explain": "Pure compounds show one melting temperature, while mixtures may have a span between solidus and liquidus.",
+   "cites": [
+    33
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Phase_change_-_en.svg/960px-Phase_change_-_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Phase transitions",
+  "credit": "F l a n k e r, penubag",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Phase_change_-_en.svg"
+ },
+ "source": {
+  "title": "Phase transition",
+  "url": "https://en.wikipedia.org/wiki/Phase_transition",
+  "revision": 1377182903
+ },
+ "pack": {
+  "id": "auto-thermodynamics-phase-transitions",
+  "title": "Where Matter Tips Over",
+  "question": "What happens at the exact point where a substance changes state?",
+  "path": [
+   "Science",
+   "Physics",
+   "Thermodynamics",
+   "Phase transitions"
+  ],
+  "hue": 191,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Phase_change_-_en.svg/960px-Phase_change_-_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Phase transitions",
+    "credit": "F l a n k e r, penubag · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Phase_change_-_en.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Where Matter Tips Over",
+    "hook": "At one precise temperature, steam and water are equally happy to exist."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-thermodynamics-phase-transitions:1",
+    "transfer": false,
+    "prompt": "You heat liquid water until it becomes steam. How does its volume change as it crosses the boiling point?",
+    "explain": "A phase transition can be discontinuous: liquid to gas gives an abrupt change in volume.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It stays the same; only the temperature moves",
+        "feedback": "The state changes, and the volume changes with it."
+       },
+       {
+        "id": "b",
+        "label": "It jumps abruptly at the boiling point"
+       },
+       {
+        "id": "a",
+        "label": "It grows smoothly, tracking the temperature",
+        "feedback": "Heating usually feels gradual, but at a transition the change can be a sudden jump."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-thermodynamics-phase-transitions:2",
+    "transfer": true,
+    "prompt": "match each change to its name",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Liquid turning to gas"
+     },
+     {
+      "id": "l1",
+      "label": "Ferromagnet to paramagnet"
+     },
+     {
+      "id": "l2",
+      "label": "Element changing crystal structure"
+     },
+     {
+      "id": "l3",
+      "label": "Compound changing crystal structure"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Allotropy"
+     },
+     {
+      "id": "r1",
+      "label": "Curie point"
+     },
+     {
+      "id": "r3",
+      "label": "Polymorphism"
+     },
+     {
+      "id": "r0",
+      "label": "Boiling point"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each is a phase transition; the name depends on the substance and the kind of change."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-thermodynamics-phase-transitions:3",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "At the boiling point, liquid and gas have identical free energies."
+     },
+     {
+      "id": "b",
+      "text": "So at that exact point the two phases are equally likely to exist."
+     },
+     {
+      "id": "c",
+      "text": "Just above that point the liquid is still the more stable state."
+     },
+     {
+      "id": "d",
+      "text": "Just below that point the liquid is the more stable state."
+     }
+    ],
+    "answer": "c",
+    "explain": "Above the boiling point the gas is the more stable form; below it the liquid is."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A phase transition happens where two phases are equally stable, and crossing that point makes one of them win.",
+    "connections": [
+     {
+      "title": "Melting",
+      "place": "Phase transitions",
+      "node": "knowledge.science.physics.thermodynamics.phase-transitions.melting"
+     },
+     {
+      "title": "Boiling point",
+      "place": "Phase transitions",
+      "node": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point"
+     },
+     {
+      "title": "Triple point",
+      "place": "Phase transitions",
+      "node": "knowledge.science.physics.thermodynamics.phase-transitions.triple-point"
+     },
+     {
+      "title": "Critical point (thermodynamics)",
+      "place": "Phase transitions",
+      "node": "knowledge.science.physics.thermodynamics.phase-transitions.critical-point-thermodynamics"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A phase transition can be discontinuous: liquid to gas gives an abrupt change in volume.",
+    "source": "Wikipedia sentences 5"
+   },
+   {
+    "claim": "Each is a phase transition; the name depends on the substance and the kind of change.",
+    "source": "Wikipedia sentences 5, 18, 29"
+   },
+   {
+    "claim": "Above the boiling point the gas is the more stable form; below it the liquid is.",
+    "source": "Wikipedia sentences 8, 9"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a phase transition is",
+    "text": "A phase transition, or phase change, is a medium shifting from one state to another. Most often the phrase means a move between solid, liquid and gas, and now and then plasma. Within a single phase, the physical properties are uniform throughout. When outside conditions such as temperature or pressure change, some of those properties change too.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Sudden jumps",
+    "text": "The change can be abrupt. Heat a liquid to its boiling point and it becomes a gas, with a sudden jump in volume. The conditions at which such a change happens are called the phase transition point. At the boiling point, liquid and gas have identical free energies, so each is equally likely; below it the liquid is the more stable of the two, and above it the gas is.",
+    "cites": [
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Phase diagrams",
+    "text": "For a single substance, a phase diagram maps which phase is most stable at each temperature and pressure, usually showing states in equilibrium. A transition normally happens when changing conditions carry the system across from one region to another, as when water freezes once it drops below the freezing point. Sometimes, though, a system can be pushed past a transition point without changing phase. It is then metastable: less stable than the phase it would have become, but not unstable either. Superheating and supercooling are examples, and such states do not appear on ordinary phase diagrams.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Solid to solid",
+    "text": "A solid can also take on a different structure without changing its chemical makeup. In elements this is called allotropy, and in compounds polymorphism. Moving from one crystal structure to another, from a crystal to an amorphous solid, or between amorphous structures all count. In carbon steel, the martensitic transformation is one of many such changes and serves as a model for displacive transformations.",
+    "cites": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Magnetic order",
+    "text": "The idea reaches beyond states of matter to kinds of magnetic ordering. The best known case is the switch between the ferromagnetic and paramagnetic phases of magnetic materials, at what is called the Curie point. A simplified but very useful model of such magnetic transitions is the Ising model.",
+    "cites": [
+     28,
+     29,
+     31
+    ]
+   },
+   {
+    "heading": "Mixtures",
+    "text": "Mixtures and solutions behave in more complicated ways than a single compound. A chemically pure compound melts at one temperature, but a mixture may either melt at one point, called congruent melting, or melt across a span of temperatures in which solid and liquid exist together in equilibrium. Some transitions involve three phases. In a eutectic transformation, a liquid made of two components cools and turns into two solid phases.",
+    "cites": [
+     32,
+     33,
+     35
+    ]
+   },
+   {
+    "heading": "Further examples",
+    "text": "Certain metals and ceramics become superconducting when cooled below a critical temperature. Liquid crystal phases are an in-between stage, or mesophase, between solid and liquid. And in spinodal decomposition, a single phase that is cooled separates into two different compositions.",
+    "cites": [
+     40,
+     42,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-phases",
+   "kind": "book",
+   "title": "10.3 Phase Transitions - Chemistry 2e",
+   "by": "Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson (OpenStax)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+   "note": "A free textbook section on phase transitions: vaporization, condensation, vapor pressure and boiling points.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-phase-changes",
+   "kind": "video",
+   "title": "Kinetic Theory and Phase Changes: Crash Course Physics #21",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=WOEvvHbc240",
+   "note": "A Crash Course Physics episode on kinetic theory and how substances change phase."
+  },
+  {
+   "id": "3b1b-phase-change",
+   "kind": "video",
+   "title": "Simulating and understanding phase change | Guest video by Vilas Winstein",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=itRV2jEtV8Q",
+   "note": "A 3Blue1Brown guest video that simulates a simple model to show how phase change arises."
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "checker": "Claude (Opus 5.5), independent adversarial checker, round 3; did not write these reels",
+ "checkedAt": "2026-10-23T18:55:39Z",
+ "units": [
+  {
+   "id": "2026-10-23-the-night-the-world-began/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Age of Earth, oldid 1380004254] 'The age of Earth is estimated to be 4.54 ± 0.05 billion years.' / 'Estimates are based on radiometric dating of meteoritic material'",
+   "note": "Both quotes are verbatim. The caption says radiometric dating 'puts' the age at 'about' 4.54 billion years, which reads as an estimate and no longer implies Earth's own rocks were measured. It leaves out meteorites and accretion models, but what it says is true. The 'say' line matches the text.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Age of Earth] '4.54 ± 0.05 billion years'; [Wikipedia: James Ussher] 'the year before Christ 4004'",
+   "note": "The key is right: 4.54 billion rounds to about 4.5 billion. The other choices (10,000 years; 4.5 million years) are wrong by orders of magnitude. The premise checks out: 4004 BC to AD 2026 is 6,029 years (there is no year 0), so 'about 6,000' is fine. Minor: the 6,000-year premise comes from the 'date' claim, but prediction.claims lists only 'age'.",
+   "fix": "Optional: add 'date' to prediction.claims."
+  },
+  {
+   "id": "2026-10-23-the-night-the-world-began/media.m1",
+   "verdict": "supported",
+   "evidence": "Commons File:James_Ussher_portrait.jpg: Artist '{{Creator:Cornelis Janssens van Ceulen|attributed to}}', date 1641, PD-Art-old-100, 1200×1444; categories 'Portrait paintings of men wearing black hats', 'Ruffs in art (male)', 'Portrait paintings of standing men with right hand holding books', 'Paintings with puff sleeves', 'Portrait paintings of Anglican bishops in ecclesiastical costumes'. Viewed the original file.",
+   "note": "Checked against the image. It shows a black skullcap, a large white ruff, a black chimere over full white lawn sleeves, and a small book held in the right hand. The credit (attributed artist, 1641), the licence (public domain) and the size all match Commons and media.json. The painting is at Jesus College, Oxford, which the credit could name but does not need to.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-fastest-wind-on-record/takeaway",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Hurricane Patricia] 'Patricia's one-minute maximum sustained winds ranked as the highest ever reliably observed or estimated in a tropical cyclone'; 'these values are based upon continued intensification after a Hurricane Hunter mission into the storm six hours prior'; 'lack of direct observations at the time of its peak'",
+   "note": "The 'day and a half' is now right. Patricia reached hurricane strength 'shortly after 00:00 UTC on October 22' and peaked 'around 12:00 UTC on October 23', about 36 hours apart. The second sentence is supported. But round 2's fix included 'in a tropical cyclone' and it has been dropped, so the takeaway now says 'the strongest sustained winds ever reliably recorded' with no qualifier. That is false as a general claim: jet-stream winds aloft and radar-measured tornado winds are faster. 'Recorded' also overstates. The source says 'observed or estimated', and the 345 km/h peak was an estimate made from data six hours earlier. Frame 3 gets this right ('measured or estimated in a tropical cyclone'). Minor: the 36-hour arithmetic rests on times in the pinned text that no cited claim quotes.",
+   "fix": "In about a day and a half Patricia grew from a tropical storm to the strongest sustained winds ever reliably measured or estimated in a tropical cyclone. Within a day of landfall it was only a tropical depression.",
+   "resolved": "Now \"…the strongest sustained winds ever reliably measured or estimated in a tropical cyclone. A day after landfall it was a depression.\" (shortened to fit 200 characters)."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/title",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] 'the first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body'; [Wikipedia: Santos-Dumont 14-bis] 'written and photographic documentation by the Wrights authenticated by historians shows that the 1903 Wright Flyer accomplished takeoffs ... nearly three years before'",
+   "note": "The title is ambiguous in a way that matters. 'On the record' is meant as 'certified by a record-keeping body', but 'the first flights on record' is the stock phrase for the Wright brothers' 1903 flights, which were photographed and witnessed. A reader who sees only the feed card ('The first aeroplane flights on the record' over the 14-bis) can take it as the Brazilian priority claim that frame 6 and the takeaway reject.",
+   "fix": "The first aeroplane flights an official body certified",
+   "resolved": "Retitled \"The first aeroplane flight an official body certified\" (singular, to match f4)."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] 'On 12 November in front of a crowd, he flew 220 metres' / 'flew 220 metres, for 21 seconds'; Commons File:14-bis_de_Alberto_Santos_Dumont.jpg: Date November 1906, Category 'France photographs taken on 1906-11-12', 'Nouveau triomphe de Santos-Dumont. 12 novembre 1906', octagonal ailerons 'signent le deuxième vol'",
+   "note": "Both quotes are verbatim. Several things fix the photo's date to 12 November: the octagonal ailerons, fitted after 23 October, are visible; the Blériot IV, tried at Bagatelle on 12 November, stands behind; and Commons files it under 1906-11-12. Minor: the pinned 14-bis article says '22 seconds', and FAI/Universalis give 21⅕ to 21.5 s, so '21 seconds' is the best-supported round figure.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f4",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont, body, Oiseau de Proie II] 23 October: 'The judges had been overcome with emotion and forgot to time and track the flight, and due to this the record was not made official ... a new test was scheduled for 12 November.' FAI (old.fai.org/news/31942-FAI-News-17-06): the 12 November 1906 flight is 'the first aviation sporting performance homologated by the FAI'.",
+   "note": "'Certified both flights ... recognised them' reads the lead's 'These were...' as covering 23 October as well. The same pinned article's body says the 23 October record 'was not made official', and that is why the Aero-Club rescheduled for 12 November. The 14-bis article does say 23 October won the 25 m prize, so the Aero-Club half is arguable. The FAI half is not. The FAI's own history names the 12 November flight as the first performance it homologated, and nothing shows it recognising 23 October. Round 1 said to keep this general, and 'both' is still there.",
+   "fix": "France's Aero-Club certified the 12 November flight, and the world body for air records recognised it as the first of its kind.",
+   "resolved": "Now \"France's Aero-Club certified the 12 November flight, and the world body for air records recognised it as the first of its kind.\""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/f6",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Biplane] 'The first powered, controlled aeroplane to fly, the Wright Flyer'; [Wikipedia: Alberto Santos-Dumont] 'the first heavier-than-air flights certified by the Aeroclub of France'; same article: 'won the Deutsch prize in 1901, when he flew around the Eiffel Tower in his airship No. 6'",
+   "note": "The first sentence is supported. The second, 'His were the first flights a record body certified', leaves out 'aeroplane' (or 'heavier-than-air'), which the claim depends on. Record bodies had certified balloon and airship flights before this, including the Aero-Club's adjudication of his own 1901 Deutsch-prize airship flight. Round 1 flagged the same gap and it is still there. Small clarity issue: 'His' follows 'the Wright brothers' Flyer', so its antecedent is a frame back. It cannot grammatically mean the brothers, but a name would help.",
+   "fix": "The first powered, controlled aeroplane to fly was the Wright brothers' Flyer. Santos-Dumont's were the first aeroplane flights a record body certified.",
+   "resolved": "Now \"…Santos-Dumont made the first one a record body certified.\" (singular, \"aeroplane\" carried from the first sentence); takeaway made singular too."
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Alberto Santos-Dumont] 'on 23 October 1906 flew about 60 metres at a height of two to three metres with the fixed-wing 14-bis'",
+   "note": "The key matches the quote. The 14-bis article's 'over 50 metres' also rounds to about 60. The other choices (6 km, 60 km) are wrong by 100 and 1,000 times. 'This biplane' is right even though the hero photo is from 12 November, because it is the same airframe after ailerons were added, and f3 now dates the photo.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Biplane] 'The first powered, controlled aeroplane to fly, the Wright Flyer'; [Wikipedia: Alberto Santos-Dumont] 'These were the first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body'",
+   "note": "'The Wright Flyer flew first' is a comparison with the 14-bis (1903 against 1906) and is true. 'The first aeroplane flights that an official body certified' carries the 'aeroplane' qualifier and holds whether or not 23 October counts, because the 12 November flights were certified. Optional: 'flew first, in 1903' would stop anyone reading it as the first flight of any kind.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/claim.certified",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim in Wikipedia_Alberto_Santos-Dumont.json (lead, offset ~1064).",
+   "note": "The quote is verbatim, and the claim is a faithful shortening of it. It drops the 'officially witnessed' clause, which round 1 found contradicted by the 13 September hop. The caveat: the claim's 'They' is the lead's 'These', which covers 23 October too, and the article's body says the 23 October record 'was not made official'. Do not expand 'They' to 'both flights' downstream (see f4).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-the-first-flight-anyone-certified/claim.photo",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim in the Commons description: '[Les étapes de l\\ aviation. Nouveau triomphe de Santos-Dumont. 12 novembre 1906]'. Commons: Date {{November|1906}}, Category 'France photographs taken on 1906-11-12'.",
+   "note": "The quote is the heading of album sheet F. 15, not a caption on the print, so on its own it is slightly indirect. The same description adds that the octagonal ailerons 'signent le deuxième vol', and Commons files the image under 1906-11-12, so the date is solid. 'New triumph' translates 'Nouveau triomphe' correctly.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-only-a-theory/media.m5",
+   "verdict": "imprecise",
+   "evidence": "Commons File:Tiktaalik_roseae_life_restor.jpg: date field '2009-07-09 12:28', source flickr.com/photos/nsf_beta/3705198718, title field 'Fossil fish bridges evolutionary gap between animals of land and sea'; the NYT/CASW story the file page itself cites: 'In 2006, the artist Zina Deretsky made a scientific illustration of Tiktaalik for the National Science Foundation.' Know Your Meme dates the NSF release to 5 April 2006.",
+   "note": "The alt matches the image, which I viewed. The fish-like animal's front half is on a sandy shore, its tail is in shallow water, and the pectoral fin looks like a stubby leg. The licence (public domain, NSF) and the size (1890×1092) match media.json and Commons. The stray space is fixed. But '2009' is when NSF uploaded the image to Flickr; it is the date Commons copied from Flickr. The illustration was made for NSF's April 2006 Tiktaalik release, whose headline survives in the file's title field. Round 2 flagged this and it was not changed.",
+   "fix": "Credit: Zina Deretsky, National Science Foundation, 2006",
+   "resolved": "Credit overridden to \"Zina Deretsky, National Science Foundation, 2006\"."
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] 'A study reported in 2011 of skeletons exhumed from the Black Death cemetery in East Smithfield, London, found Yersinia pestis DNA.'",
+   "note": "This is a figurative title for the DNA evidence the reel presents. It asserts nothing beyond the dna, bacterium and strain claims, and all their quotes are verbatim.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] 'was not used by contemporaries, who preferred such names as the \"Great Pestilence\" or the \"Great Mortality\"' / 'It was not until the 17th century that the term ... became common'",
+   "note": "Both quotes are verbatim. 'Came centuries later' holds whether you go by the body (common in the 17th century), the lead ('not used until the late 17th century') or English usage (18th to 19th century). Round 2's fix was applied. The source says 'such names as', so the two names are examples, which the caption allows.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] 'Genotyping showed that it was [at that time] a newly evolved strain, ancestor of all modern strains'",
+   "note": "'Many modern plague strains descend from it' is weaker than the pinned 'all'. That is deliberate and correct, because Bos et al. 2011 put the strain near the root of most, not all, modern lineages (branch-0 strains split earlier). 'Many' understates 'most' but is true. 'New at the time' matches '[at that time] a newly evolved strain'. Optional: 'Most modern plague strains descend from it' is closer to the study.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/takeaway",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Black Death in England] 'found Yersinia pestis DNA' / 'Genotyping showed that it was [at that time] a newly evolved strain'",
+   "note": "The round 1 problem ('chronicles counted the dead') is gone. 'The dead themselves named the killer' is a figure of speech for the skeletal DNA evidence, and the rest restates the dna and strain claims faithfully.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-23-what-the-skeletons-said/claim.later",
+   "verdict": "supported",
+   "evidence": "Quote found verbatim in Wikipedia_Black_Death_in_England.json (body, 'The Black Death' section).",
+   "note": "1348 to the 17th century is about 2.5 to 3.5 centuries, so 'only centuries later' follows. The lead's 'late 17th century' and the English 1755 date make it later still, which leaves the claim true.",
+   "fix": ""
+  }
+ ]
+}

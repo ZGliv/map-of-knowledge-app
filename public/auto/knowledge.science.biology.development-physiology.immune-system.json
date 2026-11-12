@@ -1,0 +1,581 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.development-physiology.immune-system",
+ "name": "Immune system",
+ "summary": [
+  {
+   "text": "The immune system is a network of biological systems that protects an organism from diseases.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It detects pathogens such as viruses, bacteria, and parasites, along with cancer cells and foreign objects, and tells them apart from the organism's own healthy tissue.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Its defenses are layered: physical barriers first, then the innate response, then in vertebrates the adaptive system, which keeps a memory of pathogens it has met.",
+   "cites": [
+    22,
+    23,
+    25,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two subsystems",
+   "value": "The innate and the adaptive immune systems",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Innate response",
+   "value": "Immediate, but non-specific",
+   "cites": [
+    23
+   ]
+  },
+  {
+   "label": "Adaptive memory",
+   "value": "Allows faster and stronger attacks on repeat encounters",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Basis of vaccination",
+   "value": "Adaptive immunity's immunological memory",
+   "cites": [
+    13,
+    14
+   ]
+  },
+  {
+   "label": "Antigens",
+   "value": "Substances that bind immune receptors and trigger a response",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A bacterium slips past the skin and the body reacts at once, but with a general response not aimed at that exact germ. Which defense is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The innate immune system"
+    },
+    {
+     "id": "b",
+     "label": "The adaptive immune system"
+    },
+    {
+     "id": "c",
+     "label": "The physical barriers"
+    },
+    {
+     "id": "d",
+     "label": "Immunodeficiency"
+    }
+   ],
+   "answer": "a",
+   "explain": "If a pathogen breaches the barriers, the innate immune system provides an immediate but non-specific response.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system:q1"
+  },
+  {
+   "prompt": "Someone recovers from a virus. Months later the same virus returns and the body hits it faster and harder. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The skin barrier grew thicker after the first infection"
+    },
+    {
+     "id": "b",
+     "label": "The virus weakened itself over time"
+    },
+    {
+     "id": "c",
+     "label": "The adaptive system kept its improved response as a memory"
+    },
+    {
+     "id": "d",
+     "label": "The body forgot the virus and started fresh"
+    }
+   ],
+   "answer": "c",
+   "explain": "The improved response is retained after the pathogen is gone as immunological memory, which allows faster and stronger attacks on later encounters.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system:q2"
+  },
+  {
+   "prompt": "A person's hyperactive immune system attacks their own thyroid as if it were a foreign invader. What is this called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Immunodeficiency"
+    },
+    {
+     "id": "b",
+     "label": "Vaccination"
+    },
+    {
+     "id": "c",
+     "label": "Phagocytosis"
+    },
+    {
+     "id": "d",
+     "label": "Autoimmunity"
+    }
+   ],
+   "answer": "d",
+   "explain": "Autoimmunity results from a hyperactive immune system attacking normal tissues as if they were foreign organisms; Hashimoto's thyroiditis is one example.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system:q3"
+  },
+  {
+   "prompt": "A patient with HIV/AIDS has repeated, life-threatening infections. What is going on in their immune system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is less active than normal"
+    },
+    {
+     "id": "b",
+     "label": "It is hyperactive and attacking healthy tissue"
+    },
+    {
+     "id": "c",
+     "label": "It is working normally but has met too many pathogens"
+    },
+    {
+     "id": "d",
+     "label": "It is unable to produce any kind of barrier"
+    }
+   ],
+   "answer": "a",
+   "explain": "Immunodeficiency occurs when the immune system is less active than normal, which can result from conditions such as HIV/AIDS.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system:q4"
+  },
+  {
+   "prompt": "Why does a healthy immune system not normally attack the body's own tissue?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It only attacks things that are moving"
+    },
+    {
+     "id": "b",
+     "label": "It can tell the body's own molecules from foreign ones"
+    },
+    {
+     "id": "c",
+     "label": "It only attacks after a vaccination"
+    },
+    {
+     "id": "d",
+     "label": "It cannot reach tissue inside the body"
+    }
+   ],
+   "answer": "b",
+   "explain": "Both innate and adaptive immunity depend on distinguishing self from non-self molecules.",
+   "cites": [
+    28,
+    29,
+    30
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system:q5"
+  },
+  {
+   "prompt": "Which description fits an antigen?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A cell that produces white blood cells in bone marrow"
+    },
+    {
+     "id": "b",
+     "label": "A barrier of skin and mucus that blocks germs"
+    },
+    {
+     "id": "c",
+     "label": "A substance that binds specific immune receptors and triggers a response"
+    },
+    {
+     "id": "d",
+     "label": "A medicine that suppresses the immune system"
+    }
+   ],
+   "answer": "c",
+   "explain": "Antigens are defined as substances that bind to specific immune receptors and elicit an immune response.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.biology.development-physiology.immune-system:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Neutrophil_with_anthrax_copy.jpg/960px-Neutrophil_with_anthrax_copy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Immune system",
+  "credit": "Volker Brinkmann",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg"
+ },
+ "source": {
+  "title": "Immune system",
+  "url": "https://en.wikipedia.org/wiki/Immune_system",
+  "revision": 1378735926
+ },
+ "pack": {
+  "id": "auto-development-physiology-immune-system",
+  "title": "Defense in layers",
+  "question": "How does the body stop germs that get past its first defenses?",
+  "path": [
+   "Science",
+   "Biology",
+   "Development & Physiology",
+   "Immune system"
+  ],
+  "hue": 175,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Neutrophil_with_anthrax_copy.jpg/960px-Neutrophil_with_anthrax_copy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Immune system",
+    "credit": "Volker Brinkmann · CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg",
+    "license": "CC BY 2.5"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Defense in layers",
+    "hook": "Your body has a quick general response and a slower learner, and the first sets off the second."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-development-physiology-immune-system:1",
+    "transfer": false,
+    "prompt": "Put the layers of defense in the order a pathogen meets them.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Physical barriers block the pathogen"
+     },
+     {
+      "id": "b",
+      "label": "The innate system gives an immediate, non-specific response"
+     },
+     {
+      "id": "c",
+      "label": "The adaptive system tailors its response during the infection"
+     },
+     {
+      "id": "d",
+      "label": "Immunological memory is kept after the pathogen is gone"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Pathogen arrives",
+     "Infection over"
+    ],
+    "explain": "Barriers come first, the innate response follows if they are breached, the adaptive system is activated by the innate response, and its memory is retained afterwards."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-development-physiology-immune-system:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each description into the system it belongs to.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Gives a preconfigured response to broad groups of situations"
+     },
+     {
+      "id": "i1",
+      "label": "Tailors a response to each stimulus"
+     },
+     {
+      "id": "i2",
+      "label": "Found in all animals"
+     },
+     {
+      "id": "i3",
+      "label": "Activated by the innate response"
+     },
+     {
+      "id": "i4",
+      "label": "Immediate but non-specific"
+     },
+     {
+      "id": "i5",
+      "label": "Retains an immunological memory"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Innate immune system"
+     },
+     {
+      "id": "g1",
+      "label": "Adaptive immune system"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g0",
+     "i5": "g1"
+    },
+    "explain": "The innate system reacts broadly and at once, while the adaptive system tailors and remembers its response."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-development-physiology-immune-system:3",
+    "transfer": true,
+    "prompt": "A person fought off a virus last year and meets the same virus again today. Compared with the first time, what happens?",
+    "explain": "Immunological memory lets the adaptive system mount faster and stronger attacks each time it meets the pathogen.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "The response is weaker, because the system is used up",
+        "feedback": "Nothing is used up; immunological memory is kept and the adaptive system mounts stronger attacks each time."
+       },
+       {
+        "id": "a",
+        "label": "The response is faster and stronger"
+       },
+       {
+        "id": "b",
+        "label": "The response is just as slow, because the body starts over",
+        "feedback": "It tempts because each infection feels new, but the improved response is retained after the pathogen is eliminated."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-development-physiology-immune-system:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which one?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Adaptive immunity learns to recognize pathogens."
+     },
+     {
+      "id": "b",
+      "text": "This creates an immunological memory, so later encounters bring a stronger response."
+     },
+     {
+      "id": "c",
+      "text": "That memory is the fundamental basis of vaccination."
+     },
+     {
+      "id": "d",
+      "text": "So the innate system, found in all animals, must be what remembers pathogens."
+     }
+    ],
+    "answer": "d",
+    "explain": "The innate response is preconfigured and non-specific; the memory comes from adaptive immunity."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Defenses come in layers of increasing specificity, and the adaptive layer remembers pathogens so it can answer faster next time.",
+    "connections": [
+     {
+      "title": "Antibody",
+      "place": "Immune system",
+      "node": "knowledge.science.biology.development-physiology.immune-system.antibody"
+     },
+     {
+      "title": "White blood cell",
+      "place": "Immune system",
+      "node": "knowledge.science.biology.development-physiology.immune-system.white-blood-cell"
+     },
+     {
+      "title": "Innate immune system",
+      "place": "Immune system",
+      "node": "knowledge.science.biology.development-physiology.immune-system.innate-immune-system"
+     },
+     {
+      "title": "Vaccine",
+      "place": "Immune system",
+      "node": "knowledge.science.biology.development-physiology.immune-system.vaccine"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Barriers come first, the innate response follows if they are breached, the adaptive system is activated by the innate response, and its memory is retained afterwards.",
+    "source": "Wikipedia sentences 22, 23, 25, 26, 27"
+   },
+   {
+    "claim": "The innate system reacts broadly and at once, while the adaptive system tailors and remembers its response.",
+    "source": "Wikipedia sentences 4, 5, 23, 24, 25, 27"
+   },
+   {
+    "claim": "Immunological memory lets the adaptive system mount faster and stronger attacks each time it meets the pathogen.",
+    "source": "Wikipedia sentences 27"
+   },
+   {
+    "claim": "The innate response is preconfigured and non-specific; the memory comes from adaptive immunity.",
+    "source": "Wikipedia sentences 4, 13, 14, 24"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A body's defense network",
+    "text": "The immune system is a set of linked biological systems that protects an organism from disease. It detects a wide range of pathogens, such as viruses, bacteria and parasites, along with cancer cells and foreign objects like wood splinters, and it tells all of these apart from the body's own healthy tissue. Nearly every organism has some kind of immune system. Even bacteria have a simple one, made of enzymes that guard against viral infection.",
+    "cites": [
+     1,
+     2,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Layers of defense",
+    "text": "The defenses are layered, and each layer is more specific than the one before. Physical barriers come first and keep pathogens like bacteria and viruses from getting in. If a pathogen breaks through, the innate immune system responds right away, but not in a targeted way. If pathogens slip past that as well, vertebrates have a second layer, the adaptive immune system, which the innate response switches on.",
+    "cites": [
+     21,
+     22,
+     23,
+     25
+    ]
+   },
+   {
+    "heading": "Walls, washes and chemicals",
+    "text": "Barriers can be mechanical, chemical or biological. Skin, insect exoskeletons, the waxy cuticle of most leaves and the shells of eggs laid outside the body are mechanical barriers. Because a body cannot be sealed off completely, openings such as the lungs and intestines get extra protection: coughs and sneezes throw out pathogens, tears and urine flush them away, and mucus traps microorganisms. Chemical defenses include antimicrobial peptides like the β-defensins, lysozyme in saliva and tears, and gastric acid in the stomach. In the gut and genitourinary tract, commensal flora act as a biological barrier, competing with harmful bacteria for food and space.",
+    "cites": [
+     32,
+     33,
+     34,
+     35,
+     36,
+     38,
+     39,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Innate and adaptive",
+    "text": "Many species have two main immune subsystems. The innate system gives a preset response to broad groups of threats, usually triggered when pattern recognition receptors spot features shared across large groups of microbes, or when damaged or stressed cells send alarm signals. The adaptive system instead tailors its response to each threat by learning to recognize molecules it has met before. Both depend on telling self molecules, the body's own parts, from non-self molecules, which are foreign. Antigens are one class of non-self molecules: substances that bind to specific immune receptors and provoke an immune response.",
+    "cites": [
+     3,
+     4,
+     5,
+     28,
+     29,
+     30,
+     31,
+     45
+    ]
+   },
+   {
+    "heading": "Memory and vaccines",
+    "text": "Jawed vertebrates, including humans, have a more sophisticated defense. During an infection, adaptive immunity sharpens its recognition of the pathogen, a process called somatic hypermutation. That improvement is kept after the pathogen is gone, as immunological memory, so the next encounter with the same pathogen meets a faster and stronger attack. This memory is the basis of vaccination.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "When it goes wrong",
+    "text": "When the immune system malfunctions, the result can be cancer, inflammatory diseases or autoimmune diseases. In immunodeficiency the system is less active than normal, which leads to recurring and life-threatening infections. In humans this can come from a genetic disease such as severe combined immunodeficiency, from acquired conditions such as HIV/AIDS, or from immunosuppressive medication. In autoimmunity an overactive system attacks normal tissue as if it were foreign. Common examples are rheumatoid arthritis, Hashimoto's thyroiditis, systemic lupus erythematosus and diabetes mellitus type 1.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "bio2e-7-10-2",
+   "kind": "book",
+   "title": "7.10.2: Innate Immune Response",
+   "by": "OpenStax, Biology 2e (on LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_2e_(OpenStax)/07%3A_Unit_VII-_Animal_Structure_and_Function/7.10%3A_The_Immune_System/7.10.02%3A_Innate_Immune_Response",
+   "note": "A free textbook section on barriers, pattern recognition, inflammation and complement.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "bio2e-7-10-3",
+   "kind": "book",
+   "title": "7.10.3: Adaptive Immune Response",
+   "by": "OpenStax, Biology 2e (on LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_2e_(OpenStax)/07%3A_Unit_VII-_Animal_Structure_and_Function/7.10%3A_The_Immune_System/7.10.03%3A_Adaptive_Immune_Response",
+   "note": "A free textbook section on T and B cells, immune memory and how vaccines build on it.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "ap2e-21-7",
+   "kind": "book",
+   "title": "21.7: Diseases Associated with Depressed or Overactive Immune Responses",
+   "by": "OpenStax, Anatomy and Physiology 2e (on LibreTexts)",
+   "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_2e_(OpenStax)/04%3A_Fluids_and_Transport/21%3A_The_Lymphatic_and_Immune_System/21.07%3A_Diseases_Associated_with_Depressed_or_Overactive_Immune_Responses",
+   "note": "A free textbook section on immunodeficiency, allergy and autoimmune disease.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "kurz-immune",
+   "kind": "video",
+   "title": "How The Immune System ACTUALLY Works – IMMUNE",
+   "by": "Kurzgesagt – In a Nutshell",
+   "url": "https://www.youtube.com/watch?v=lXfEK8G8CUI",
+   "minutes": 11,
+   "note": "An animated overview of how the parts of the immune system work together against an infection."
+  }
+ ]
+}

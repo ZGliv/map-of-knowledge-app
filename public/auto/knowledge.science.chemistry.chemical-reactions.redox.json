@@ -1,0 +1,566 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.redox",
+ "name": "Redox",
+ "summary": [
+  {
+   "text": "Redox is a type of chemical reaction in which the oxidation states of the reactants change.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Oxidation is the loss of electrons and reduction is the gain of electrons, and the two cannot happen independently.",
+   "cites": [
+    2,
+    3,
+    16
+   ]
+  },
+  {
+   "text": "Redox chemistry drives rusting, combustion, cellular respiration, photosynthesis and batteries, and industry uses it to extract metals from their ores.",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name origin",
+   "value": "A blend of reduction and oxidation",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "First appeared",
+   "value": "In a 1928 article",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Reducing agent",
+   "value": "Loses electrons; also called an electron donor",
+   "cites": [
+    18,
+    28
+   ]
+  },
+  {
+   "label": "Oxidizing agent",
+   "value": "Gains electrons and is itself reduced",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Half-reaction",
+   "value": "Oxidation alone or reduction alone",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An iron nail rusts in moist air. Which statement about electrons is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Iron gains electrons and oxygen loses them"
+    },
+    {
+     "id": "b",
+     "label": "Iron and oxygen both lose electrons to the air"
+    },
+    {
+     "id": "c",
+     "label": "Iron loses electrons and oxygen absorbs them"
+    },
+    {
+     "id": "d",
+     "label": "No electrons move, since rusting is just drying out"
+    }
+   ],
+   "answer": "c",
+   "explain": "In rusting, the oxidation state of iron increases as it becomes an oxide, and oxygen is reduced as it absorbs the released electrons.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox:q1"
+  },
+  {
+   "prompt": "In a reaction, one substance donates electrons to another. What is it called, and what happens to it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A reducing agent, and it is oxidized"
+    },
+    {
+     "id": "b",
+     "label": "A reducing agent, and it is reduced"
+    },
+    {
+     "id": "c",
+     "label": "An oxidizing agent, and it is oxidized"
+    },
+    {
+     "id": "d",
+     "label": "An oxidizing agent, and it is reduced"
+    }
+   ],
+   "answer": "a",
+   "explain": "The reducing agent loses electrons and is oxidized, while the oxidizing agent gains electrons and is reduced.",
+   "cites": [
+    18,
+    27
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox:q2"
+  },
+  {
+   "prompt": "A chemist writes a reaction where one species is oxidized but nothing at all is reduced. What is wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oxidation needs oxygen, and none was written in"
+    },
+    {
+     "id": "b",
+     "label": "Oxidation and reduction occur together and cannot happen alone"
+    },
+    {
+     "id": "c",
+     "label": "Reduction must always happen one step before oxidation"
+    },
+    {
+     "id": "d",
+     "label": "Nothing is wrong, since each half-reaction can run alone"
+    }
+   ],
+   "answer": "b",
+   "explain": "Oxidation and reduction occur simultaneously and cannot occur independently. Two half-reactions always occur together to form a whole reaction.",
+   "cites": [
+    16,
+    19
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox:q3"
+  },
+  {
+   "prompt": "A chemist adds hydrogen atoms across a C=C bond. In redox terms, what happened to the bond?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was burned, because an oxide formed"
+    },
+    {
+     "id": "b",
+     "label": "It was left alone, since no oxygen was present"
+    },
+    {
+     "id": "c",
+     "label": "It was oxidized, because hydrogen was involved"
+    },
+    {
+     "id": "d",
+     "label": "It was reduced by taking on hydrogen atoms"
+    }
+   ],
+   "answer": "d",
+   "explain": "Oxidation is not only about oxygen. In hydrogenation, bonds such as C=C are reduced by the transfer of hydrogen atoms.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox:q4"
+  },
+  {
+   "prompt": "Originally, 'reduction' described heating a metal oxide ore to get the metal. What did the name refer to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ore losing weight as it became metal"
+    },
+    {
+     "id": "b",
+     "label": "The ore gaining weight as oxygen was added"
+    },
+    {
+     "id": "c",
+     "label": "The ore being cut into smaller pieces"
+    },
+    {
+     "id": "d",
+     "label": "The ore shrinking in volume as it cooled"
+    }
+   ],
+   "answer": "a",
+   "explain": "The word reduction first referred to the loss in weight when a metallic ore was heated, so ore was 'reduced' to metal.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox:q5"
+  },
+  {
+   "prompt": "A single electron moves from one species to another, and the process is described with redox couples and electrode potentials. Which class of redox reaction is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Atom transfer"
+    },
+    {
+     "id": "b",
+     "label": "Electron transfer"
+    },
+    {
+     "id": "c",
+     "label": "Hydrogenation only"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since no oxidation states change"
+    }
+   ],
+   "answer": "b",
+   "explain": "Redox reactions fall into two classes. In electron transfer, a single electron usually flows from the species being oxidized to the one being reduced, often described with redox couples and electrode potentials.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.redox:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/16._%D0%A0%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0_%D0%BC%D0%B5%D1%93%D1%83_%D1%81%D0%B8%D0%BB%D0%BD%D0%BE_%D0%BE%D0%BA%D1%81%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D0%B8_%D1%80%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE.webm/960px--16._%D0%A0%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0_%D0%BC%D0%B5%D1%93%D1%83_%D1%81%D0%B8%D0%BB%D0%BD%D0%BE_%D0%BE%D0%BA%D1%81%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D0%B8_%D1%80%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+  "alt": "Redox",
+  "credit": "Petrovskyz",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:16._%D0%A0%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0_%D0%BC%D0%B5%D1%93%D1%83_%D1%81%D0%B8%D0%BB%D0%BD%D0%BE_%D0%BE%D0%BA%D1%81%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D0%B8_%D1%80%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE.webm"
+ },
+ "source": {
+  "title": "Redox",
+  "url": "https://en.wikipedia.org/wiki/Redox",
+  "revision": 1377411679
+ },
+ "pack": {
+  "id": "auto-chemical-reactions-redox",
+  "title": "Who loses, who gains?",
+  "question": "What really happens when metal rusts or fuel burns?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical reactions",
+   "Redox"
+  ],
+  "hue": 172,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/16._%D0%A0%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0_%D0%BC%D0%B5%D1%93%D1%83_%D1%81%D0%B8%D0%BB%D0%BD%D0%BE_%D0%BE%D0%BA%D1%81%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D0%B8_%D1%80%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE.webm/960px--16._%D0%A0%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0_%D0%BC%D0%B5%D1%93%D1%83_%D1%81%D0%B8%D0%BB%D0%BD%D0%BE_%D0%BE%D0%BA%D1%81%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D0%B8_%D1%80%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+    "alt": "Redox",
+    "credit": "Petrovskyz · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:16._%D0%A0%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0_%D0%BC%D0%B5%D1%93%D1%83_%D1%81%D0%B8%D0%BB%D0%BD%D0%BE_%D0%BE%D0%BA%D1%81%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D0%B8_%D1%80%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE.webm",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Who loses, who gains?",
+    "hook": "Rust, batteries and burning all follow one hidden rule: whenever something loses electrons, something else gains them."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemical-reactions-redox:1",
+    "transfer": false,
+    "prompt": "Iron rusts in moist air. What happens to the iron atoms and to the oxygen?",
+    "explain": "In rusting, the iron atoms' oxidation state increases as the metal turns to an oxide, and oxygen is reduced as it absorbs the released electrons.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Iron is reduced and oxygen is oxidized",
+        "feedback": "It tempts because rust contains oxygen, but the iron is the one whose oxidation state increases."
+       },
+       {
+        "id": "a",
+        "label": "Iron's oxidation state rises while oxygen is reduced"
+       },
+       {
+        "id": "c",
+        "label": "Both iron and oxygen are oxidized",
+        "feedback": "It tempts because rust is an oxide, but oxidation and reduction occur together, so something must be reduced."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-reactions-redox:2",
+    "transfer": false,
+    "prompt": "Match each redox term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Oxidation"
+     },
+     {
+      "id": "l1",
+      "label": "Reduction"
+     },
+     {
+      "id": "l2",
+      "label": "Reducing agent"
+     },
+     {
+      "id": "l3",
+      "label": "Oxidizing agent"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Loss of electrons"
+     },
+     {
+      "id": "r1",
+      "label": "Gain of electrons"
+     },
+     {
+      "id": "r2",
+      "label": "Electron donor"
+     },
+     {
+      "id": "r3",
+      "label": "Gains electrons and is reduced"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Oxidation and reduction are the electron loss and gain. The reducing agent is an electron donor, while the oxidizing agent gains electrons and is reduced."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemical-reactions-redox:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each one by whether it is oxidized or reduced.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Reducing agent"
+     },
+     {
+      "id": "i1",
+      "label": "Oxidizing agent"
+     },
+     {
+      "id": "i2",
+      "label": "Iron in rusting"
+     },
+     {
+      "id": "i3",
+      "label": "Oxygen in rusting"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Is oxidized"
+     },
+     {
+      "id": "g1",
+      "label": "Is reduced"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g1",
+     "i2": "g0",
+     "i3": "g1"
+    },
+    "explain": "A reducing agent loses electrons and is oxidized, while an oxidizing agent gains them and is reduced. In rusting, iron is oxidized and oxygen is reduced."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemical-reactions-redox:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A reducing agent gives electrons to another substance."
+     },
+     {
+      "id": "b",
+      "text": "So the reducing agent loses electrons."
+     },
+     {
+      "id": "c",
+      "text": "Losing electrons is oxidation."
+     },
+     {
+      "id": "d",
+      "text": "So the reducing agent is itself reduced."
+     }
+    ],
+    "answer": "d",
+    "explain": "Because it loses electrons, the reducing agent is oxidized, not reduced."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Redox reactions always pair oxidation with reduction, so electrons lost by one species are gained by another.",
+    "connections": [
+     {
+      "title": "Oxidation state",
+      "place": "Redox",
+      "node": "knowledge.science.chemistry.chemical-reactions.redox.oxidation-state"
+     },
+     {
+      "title": "Electrochemistry",
+      "place": "Redox",
+      "node": "knowledge.science.chemistry.chemical-reactions.redox.electrochemistry"
+     },
+     {
+      "title": "Battery (electricity)",
+      "place": "Redox",
+      "node": "knowledge.science.chemistry.chemical-reactions.redox.battery-electricity"
+     },
+     {
+      "title": "Corrosion",
+      "place": "Redox",
+      "node": "knowledge.science.chemistry.chemical-reactions.redox.corrosion"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "In rusting, the iron atoms' oxidation state increases as the metal turns to an oxide, and oxygen is reduced as it absorbs the released electrons.",
+    "source": "Wikipedia sentences 7, 16"
+   },
+   {
+    "claim": "Oxidation and reduction are the electron loss and gain. The reducing agent is an electron donor, while the oxidizing agent gains electrons and is reduced.",
+    "source": "Wikipedia sentences 2, 3, 18, 28"
+   },
+   {
+    "claim": "A reducing agent loses electrons and is oxidized, while an oxidizing agent gains them and is reduced. In rusting, iron is oxidized and oxygen is reduced.",
+    "source": "Wikipedia sentences 7, 18"
+   },
+   {
+    "claim": "Because it loses electrons, the reducing agent is oxidized, not reduced.",
+    "source": "Wikipedia sentences 18, 27"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Electrons on the move",
+    "text": "Redox, short for reduction–oxidation, is a kind of chemical reaction where the reactants' oxidation states change. Oxidation is a loss of electrons, or a rise in oxidation state. Reduction is a gain of electrons, or a fall in oxidation state. The two happen at the same time and cannot happen apart. The word blends reduction and oxidation, and Leonor Michaelis was a co-author of the 1928 article where it first appeared.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     12,
+     13,
+     16
+    ]
+   },
+   {
+    "heading": "Givers and takers",
+    "text": "In a redox process the reductant hands electrons to the oxidant. The reductant, also called the reducing agent, loses electrons and is itself oxidized; because it gives electrons away, it is also called an electron donor. The oxidant, or oxidizing agent, gains electrons and is reduced. Oxidation on its own, or reduction on its own, is called a half-reaction, since two half-reactions always come together to make a whole one.",
+    "cites": [
+     17,
+     18,
+     19,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Two ways to swap",
+    "text": "Redox reactions fall into two classes. In electron transfer, usually one electron flows from whatever atom, ion or molecule is oxidized over to the one that is reduced. In atom transfer, a whole atom moves from one substance to another. Rusting iron is an example: the iron's oxidation state rises as the metal turns into an oxide, and oxygen is reduced as it takes up the electrons given off.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "In nature and industry",
+    "text": "Redox reactions turn up everywhere in nature and industry. Cellular respiration, photosynthesis, combustion and the corrosion of metals all run on redox chemistry, and so do the reactions that power batteries. Industry uses redox to smelt metals out of their ores, to electroplate objects and to make chemicals such as nitric acid. Redox gradients in soils, sediments and water drive the biogeochemical cycling of elements.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Not only about oxygen",
+    "text": "Oxidation is often linked with making oxides, but other substances can do the same job. In hydrogenation, for example, bonds such as C=C are reduced when hydrogen atoms are passed to them. The word oxidizer means an oxidant too, but it is mostly kept for sources of oxygen, especially when talking about explosions. Nitric acid is a strong oxidizer.",
+    "cites": [
+     21,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Where reduction got its name",
+    "text": "Reduction first meant the weight lost when a metal ore, such as a metal oxide, was heated to extract the metal: the ore was reduced to metal. Antoine Lavoisier showed that the weight went missing because oxygen escaped as a gas. Chemists later saw that the metal atoms pick up electrons along the way. The word then widened to cover every process that involves gaining electrons.",
+    "cites": [
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Common reducing agents",
+    "text": "Reducing agents in chemistry come in many forms. Electropositive metals are good ones, for example lithium, sodium, magnesium, iron, zinc and aluminium, and they give up electrons fairly readily. Hydride transfer reagents, NaBH₄ and LiAlH₄ among them, work through atom transfer, passing on the equivalent of a hydride ion, H⁻. They are widely used to turn carbonyl compounds into alcohols. Hydrogen gas, H₂, can also serve as a source of H atoms for reduction.",
+    "cites": [
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-17-1",
+   "kind": "book",
+   "title": "17.1 Review of Redox Chemistry",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+   "note": "A free textbook section reviewing oxidation numbers and the half-reaction method, as a lead-in to electrochemistry.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-redox",
+   "kind": "video",
+   "title": "Redox Reactions: Crash Course Chemistry #10",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=lQ6FBA1HM3s",
+   "note": "A Crash Course Chemistry episode on redox reactions and the transfer of electrons between substances."
+  }
+ ]
+}

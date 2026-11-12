@@ -1,0 +1,533 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics",
+ "name": "Celestial mechanics",
+ "summary": [
+  {
+   "text": "Celestial mechanics is the branch of astronomy that studies how objects in outer space move and pull on each other with gravity.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It applies the principles of physics to stars and planets, and its modern analytic form began with Isaac Newton's Principia in 1687.",
+   "cites": [
+    2,
+    10
+   ]
+  },
+  {
+   "text": "Two bodies can be predicted with reasonable accuracy, but adding a third creates a problem that cannot be solved exactly, so approximations are used.",
+   "cites": [
+    5,
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name of the field",
+   "value": "Pierre-Simon Laplace introduced the term celestial mechanics",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Newton's big idea",
+   "value": "One set of physical laws describes planets and falling apples",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Three-body problem",
+   "value": "It cannot be solved exactly, and Poincaré showed it is not integrable",
+   "cites": [
+    8,
+    31
+   ]
+  },
+  {
+   "label": "Lagrange points",
+   "value": "Euler found three equilibrium points, Lagrange two more",
+   "cites": [
+    22,
+    24,
+    25
+   ]
+  },
+  {
+   "label": "Mercury's puzzle",
+   "value": "Its perihelion advanced 43″ per century, beyond known Newtonian perturbations",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Astronomers can predict where two bodies pulling on each other will be in the future. A third body joins the system. What changes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Newtonian mechanics stops applying, so only general relativity can be used"
+    },
+    {
+     "id": "b",
+     "label": "The three bodies can be treated as one combined mass on a single path"
+    },
+    {
+     "id": "c",
+     "label": "No exact solution exists any longer, so approximate methods are used"
+    },
+    {
+     "id": "d",
+     "label": "The motion becomes impossible to observe, though still exactly computable"
+    }
+   ],
+   "answer": "c",
+   "explain": "Adding a third body creates a three-body problem that cannot be solved exactly, and perturbation theory is used to find an approximate solution.",
+   "cites": [
+    5,
+    8,
+    9
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics:q1"
+  },
+  {
+   "prompt": "Someone watches a cannon ball fall and the Moon move across the sky. What did Newton's insight say about these motions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One set of physical laws can describe both of them"
+    },
+    {
+     "id": "b",
+     "label": "Each follows its own separate set of laws, one for sky and one for ground"
+    },
+    {
+     "id": "c",
+     "label": "Only the falling ball can be described by equations at all"
+    },
+    {
+     "id": "d",
+     "label": "Both are governed by Kepler's elliptical rule alone"
+    }
+   ],
+   "answer": "a",
+   "explain": "Newton is credited with the idea that objects in the heavens and objects on the ground obey the same physical laws, unifying celestial and terrestrial dynamics.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics:q2"
+  },
+  {
+   "prompt": "Newton called the field \"rational mechanics\". Over a century later, who gave it the name it has today?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gottfried Leibniz, who coined the term dynamics"
+    },
+    {
+     "id": "b",
+     "label": "Henri Poincaré, who wrote two monographs on it"
+    },
+    {
+     "id": "c",
+     "label": "Leonhard Euler, who found equilibrium points"
+    },
+    {
+     "id": "d",
+     "label": "Pierre-Simon Laplace"
+    }
+   ],
+   "answer": "d",
+   "explain": "Leibniz brought in the term dynamics, and Laplace introduced the term celestial mechanics over a century after Newton.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics:q3"
+  },
+  {
+   "prompt": "Before Kepler, predicting where planets appear and explaining why they move were largely separate efforts. What did Kepler change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "He showed that predicting positions was pointless and only causes mattered"
+    },
+    {
+     "id": "b",
+     "label": "He derived the planetary orbits from Newton's law of gravitation"
+    },
+    {
+     "id": "c",
+     "label": "He joined predictive geometrical astronomy with physical concepts"
+    },
+    {
+     "id": "d",
+     "label": "He dropped geometry and used only numerical tables"
+    }
+   ],
+   "answer": "c",
+   "explain": "Kepler closely integrated predictive geometrical astronomy with physical concepts in his 1609 New Astronomy, before Newton's gravitation law existed.",
+   "cites": [
+    14,
+    15,
+    17
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics:q5"
+  },
+  {
+   "prompt": "Astronomers in different countries disagreed over positions and constants. How was the confusion resolved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each country kept its own constants and published conversion tables"
+    },
+    {
+     "id": "b",
+     "label": "One observatory was made responsible for all observations"
+    },
+    {
+     "id": "c",
+     "label": "Tables were dropped in favour of computing positions fresh each night"
+    },
+    {
+     "id": "d",
+     "label": "Everyone adopted one astronomer's recalculated constants as the shared standard"
+    }
+   ],
+   "answer": "d",
+   "explain": "Newcomb recalculated the major astronomical constants, and international conferences agreed that ephemerides should be based on his calculations.",
+   "cites": [
+    38,
+    40,
+    41,
+    42
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics:q6"
+  }
+ ],
+ "source": {
+  "title": "Celestial mechanics",
+  "url": "https://en.wikipedia.org/wiki/Celestial_mechanics",
+  "revision": 1377954083
+ },
+ "pack": {
+  "id": "auto-observing-the-sky-celestial-mechanics",
+  "title": "The trouble with three bodies",
+  "question": "Why can we predict two bodies pulling on each other but not three?",
+  "path": [
+   "Science",
+   "Astronomy",
+   "Observing the sky",
+   "Celestial mechanics"
+  ],
+  "hue": 195,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Animation_of_Orbital_eccentricity.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Orbit",
+    "credit": "Phoenix7777 · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Animation_of_Orbital_eccentricity.gif",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "The trouble with three bodies",
+    "hook": "Add one more body to a pair of orbiting objects, and mathematicians lose their exact answer."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-observing-the-sky-celestial-mechanics:1",
+    "transfer": false,
+    "prompt": "A third body is added to a pair of objects pulling on each other with gravity. What happens to the search for an exact answer?",
+    "explain": "A three-body problem cannot be solved exactly, so perturbation theory is used to find an approximate solution.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "A formula still gives the exact answer; it only takes more arithmetic",
+        "feedback": "It tempts because more bodies sounds like more work, but the three-body problem cannot be solved exactly at all."
+       },
+       {
+        "id": "c",
+        "label": "The third body cancels out and the two-body answer stays exact",
+        "feedback": "It tempts because a small extra pull seems ignorable, but the third body makes the problem more complicated."
+       },
+       {
+        "id": "b",
+        "label": "No exact solution exists, so approximate methods are used"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-observing-the-sky-celestial-mechanics:2",
+    "transfer": false,
+    "prompt": "Put these steps in the order they happened",
+    "items": [
+     {
+      "id": "a",
+      "label": "Kepler's New Astronomy (1609)"
+     },
+     {
+      "id": "b",
+      "label": "Newton's Principia (1687)"
+     },
+     {
+      "id": "c",
+      "label": "Euler's three equilibrium points (1762)"
+     },
+     {
+      "id": "d",
+      "label": "Lagrange's two more stable orbits (1772)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Kepler published in 1609, Newton in 1687, Euler found equilibrium points in 1762 and Lagrange added two more in 1772."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-observing-the-sky-celestial-mechanics:3",
+    "transfer": true,
+    "prompt": "Match each person to what they did",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Euler"
+     },
+     {
+      "id": "l1",
+      "label": "Lagrange"
+     },
+     {
+      "id": "l2",
+      "label": "Poincaré"
+     },
+     {
+      "id": "l3",
+      "label": "Laplace"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Introduced the term celestial mechanics"
+     },
+     {
+      "id": "r1",
+      "label": "Found two more stable orbits at triangle corners"
+     },
+     {
+      "id": "r2",
+      "label": "Showed the three-body problem is not integrable"
+     },
+     {
+      "id": "r0",
+      "label": "Showed three equilibrium points on a straight line"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each worked on the motion of bodies pulling on each other, and each left a distinct result."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-observing-the-sky-celestial-mechanics:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about Mercury is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Le Verrier reported in 1849 that Mercury's perihelion advanced 43″ per century."
+     },
+     {
+      "id": "b",
+      "text": "Known gravitational perturbations using Newton's law were checked against it."
+     },
+     {
+      "id": "c",
+      "text": "Those perturbations fully accounted for the advance, so nothing was left to explain."
+     },
+     {
+      "id": "d",
+      "text": "Le Verrier instead proposed a planet orbiting inside Mercury's orbit."
+     }
+    ],
+    "answer": "c",
+    "explain": "The advance could not be accounted for by known perturbations under Newton's law, which is why Le Verrier proposed an extra planet."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Two bodies can be handled with Newtonian mechanics, but a third makes the problem unsolvable exactly, so approximate methods take over.",
+    "connections": [
+     {
+      "title": "Orbit",
+      "place": "Celestial mechanics",
+      "node": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit"
+     },
+     {
+      "title": "Kepler's laws",
+      "place": "Celestial mechanics",
+      "node": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.kepler-s-laws"
+     },
+     {
+      "title": "Tide",
+      "place": "Celestial mechanics",
+      "node": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.tide"
+     },
+     {
+      "title": "Lagrange point",
+      "place": "Celestial mechanics",
+      "node": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.lagrange-point"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A three-body problem cannot be solved exactly, so perturbation theory is used to find an approximate solution.",
+    "source": "Wikipedia sentences 5, 8, 9"
+   },
+   {
+    "claim": "Kepler published in 1609, Newton in 1687, Euler found equilibrium points in 1762 and Lagrange added two more in 1772.",
+    "source": "Wikipedia sentences 15, 20, 22, 24"
+   },
+   {
+    "claim": "Each worked on the motion of bodies pulling on each other, and each left a distinct result.",
+    "source": "Wikipedia sentences 13, 22, 24, 31"
+   },
+   {
+    "claim": "The advance could not be accounted for by known perturbations under Newton's law, which is why Le Verrier proposed an extra planet.",
+    "source": "Wikipedia sentences 43, 44, 45"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Physics for the sky",
+    "text": "Celestial mechanics is the branch of astronomy that studies how objects in space move and how they pull on each other through gravity. It applies classical mechanics to bodies such as stars and planets to produce ephemeris data. Its modern analytic form began with Isaac Newton's Principia in 1687, though Newton wanted the field called rational mechanics. Pierre-Simon Laplace brought in the name celestial mechanics more than a century after Newton.",
+    "cites": [
+     1,
+     2,
+     10,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Kepler joins causes to predictions",
+    "text": "Before Johannes Kepler, predicting exactly where planets would be had little to do with debates about what made them move. Kepler tied the two together, combining the geometrical astronomy used from Ptolemy to Copernicus with physical ideas in a work of 1609. Using his physical principles and Tycho Brahe's observations, he worked out laws of planetary orbits. His elliptical model made predictions of planetary motion far more accurate, years before Newton's law of gravitation.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Newton's one set of laws",
+    "text": "Isaac Newton is credited with the idea that the same physical laws describe planets, the Sun and the Moon as well as cannonballs and falling apples. In that way he united motion in the heavens with motion on the ground. Using his law of gravity, he derived Kepler's laws for elliptical orbits from the gravitational two-body problem. For two bodies pulling on each other, Newtonian mechanics gives a set of orbital elements that predicts their future positions with reasonable accuracy.",
+    "cites": [
+     5,
+     6,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "The three-body problem",
+    "text": "Add a third body and the problem can no longer be solved exactly, so perturbation theory is used to find an approximate answer. In 1762 Leonhard Euler gave the first periodic solution: three balance points on a straight line through the two main masses, where a body of tiny mass would stay in a stable orbit. In 1772 Joseph-Louis Lagrange found two more stable orbits, at the corners of equilateral triangles made with the two main masses. Together these became known as the Lagrange points.",
+    "cites": [
+     8,
+     9,
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "From Lagrange to chaos",
+    "text": "Lagrange also reworked classical mechanics to put more weight on energy than on force, with one equation in polar coordinates able to describe any orbit, even parabolic and hyperbolic ones. That helps with planets and comets, and more recently with spacecraft paths. Later, Henri Poincaré proved the three-body problem to be non-integrable. In other words, its general solution cannot be written out using algebraic and transcendental functions of the bodies' coordinates and velocities. One of his ideas later became the basis of chaos theory.",
+    "cites": [
+     26,
+     27,
+     28,
+     31,
+     32,
+     34
+    ]
+   },
+   {
+    "heading": "Mercury's puzzle",
+    "text": "Careful calculation also turned up puzzles. In 1849 Urbain Le Verrier reported that Mercury's perihelion, its closest approach to the Sun, moves forward by 43″ every century. The known gravitational tugs, worked out with Newton's law, could not explain this shift. Le Verrier later put it down to a proposed planet orbiting inside Mercury's orbit.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-3-1",
+   "kind": "book",
+   "title": "3.1 The Laws of Planetary Motion",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/3-1-the-laws-of-planetary-motion",
+   "note": "A free textbook section on Tycho Brahe's observations and Kepler's three laws, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-3-3",
+   "kind": "book",
+   "title": "3.3 Newton's Universal Law of Gravitation",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation",
+   "note": "How Newton's gravity explains orbits and lets astronomers weigh bodies from their motion, with examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-astro-gravity",
+   "kind": "video",
+   "title": "The Gravity of the Situation: Crash Course Astronomy #7",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=TRAbZxQHlVw",
+   "note": "Phil Plait on what gravity is, the different types of orbit, escape velocity and why astronauts float."
+  }
+ ]
+}

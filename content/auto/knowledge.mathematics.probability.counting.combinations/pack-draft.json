@@ -1,0 +1,99 @@
+{
+ "title": "Why divide by the shuffles",
+ "question": "How do you count the ways to choose k things from n when order does not matter?",
+ "hook": "Deal yourself five cards and the order never matters, so counting hands means undoing all the shuffles.",
+ "idea": "Count the ordered picks, then divide by the number of orders that give the same group.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A bowl holds an apple, an orange and a pear. You take two pieces, and now you may take two of the same kind. How many extra choices appear?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "None; the same choices are still available",
+     "feedback": "The bowl is unchanged, which makes this tempting, but taking a matching pair is a new choice."
+    },
+    {
+     "id": "b",
+     "label": "Three: two apples, two oranges or two pears"
+    },
+    {
+     "id": "c",
+     "label": "Six: each fruit paired with each other fruit again",
+     "feedback": "Mixed pairs were already allowed; only the matching pairs are new."
+    }
+   ],
+   "answer": "b",
+   "explain": "Allowing repeats adds exactly one new choice per kind of fruit: two apples, two oranges and two pears.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put the steps of the argument for the combination formula in order",
+   "items": [
+    "Write out all n! permutations of the whole set",
+    "Take the first k elements of each permutation as a group",
+    "Notice that many permutations give the same group",
+    "Divide to remove those duplicate selections"
+   ],
+   "ends": [
+    "start",
+    "finish"
+   ],
+   "explain": "Each permutation gives a group by taking its first k elements, but reordering within the first k or within the last n minus k gives the same group, so you divide.",
+   "cites": [
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means",
+   "pairs": [
+    [
+     "k-multiset",
+     "a combination in which repetition is allowed"
+    ],
+    [
+     "Numerator of the formula",
+     "sequences of k distinct elements"
+    ],
+    [
+     "Denominator of the formula",
+     "sequences that give the same combination"
+    ],
+    [
+     "2,598,960",
+     "the number of five-card poker hands"
+    ]
+   ],
+   "explain": "The formula counts ordered picks on top and divides by the orders that give the same group; the poker hand count is the standard example.",
+   "cites": [
+    2,
+    7,
+    11
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "A poker hand is a choice of 5 different cards from 52.",
+    "The order the cards are held in does not matter.",
+    "Two hands with the same cards in different orders are the same hand.",
+    "So the number of hands equals the number of ordered sequences of 5 cards, with nothing divided out."
+   ],
+   "wrong": 3,
+   "explain": "Ordered sequences count each hand once per order of its cards, so that count must be divided by the orders that give the same combination.",
+   "cites": [
+    6,
+    11,
+    16
+   ]
+  }
+ ]
+}

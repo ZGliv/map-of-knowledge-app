@@ -1,0 +1,692 @@
+{
+  "checker": "independent adversarial subagent (Claude)",
+  "checkedAt": "2026-10-23T21:27:00Z",
+  "units": [
+    {
+      "id": "P1",
+      "verdict": "supported",
+      "evidence": "[W4.1] [W4.2] [W4.18] [W4.19] [W4.43]",
+      "note": "Every element matches the pin: 5 July 1996, Finn-Dorset, first mammal cloned from an adult somatic cell, mammary-gland donor, enucleated unfertilised oocyte, electric shock, surrogate, body at the National Museum of Scotland.",
+      "fix": ""
+    },
+    {
+      "id": "P2",
+      "verdict": "imprecise",
+      "evidence": "[W3.14] 'In 1958, Gurdon ... successfully cloned a frog using intact nuclei from the somatic cells of a Xenopus tadpole'; [W3.17]-[W3.18] the 1975 lymphocyte result was 'a group working at the Basel Institute for Immunology'; [W3.43]; [W3.44]",
+      "note": "Faithful to the pin, with two problems. (1) The 1975 lymphocyte result belongs to a Basel group, not Gurdon; placed inside a sentence about Gurdon it reads as his. (2) Outside the pin (not verifiable offline, flagged for checking): the frog clones made from tadpole (intestinal) cell nuclei are normally dated 1962 (Gurdon, J Embryol Exp Morphol 1962; the 2012 Nobel press release says 'in 1962'). The 1958 Nature paper (Gurdon, Elsdale & Fischberg) used nuclei from earlier embryonic cells. Wikipedia's pairing of '1958' with 'tadpole' looks like a conflation.",
+      "fix": "From 1958 John Gurdon cloned frogs (Xenopus) by nuclear transfer, later from the nuclei of tadpole body cells; in 1975 a Basel group got living tadpoles from the nucleus of an antibody-making lymphocyte; the Wolf Prize ... (rest unchanged)",
+      "resolved": "Split the claim: P2 now dates Gurdon’s nuclear-transfer work “from 1958”, and the 1975 lymphocyte result is credited to the Basel group; the 1962 intestinal-cell tadpole is a new claim (P17) on the pinned 2012 Nobel press release."
+    },
+    {
+      "id": "P3",
+      "verdict": "supported",
+      "evidence": "[W5.2] [W5.21] [W5.23] [W5.26] [W5.27]",
+      "note": "Matches. Context the line leaves out: the 2006 colonies were 'ESC-like' under Fbx15 selection, and first-generation iPSCs did not give viable chimeras [W5.29]. Efficiency is about 0.01-0.1% [W5.18].",
+      "fix": ""
+    },
+    {
+      "id": "P4",
+      "verdict": "supported",
+      "evidence": "[W2.6] [W2.7] [W2.8] [W2.10] [W2.12]",
+      "note": "Drops the source's hedge 'often' ('often expresses a range of genes characteristic of the cell's final function'). Biologically harmless.",
+      "fix": ""
+    },
+    {
+      "id": "P5",
+      "verdict": "supported",
+      "evidence": "[W1.7]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P6",
+      "verdict": "supported",
+      "evidence": "[W11.1] [W11.3] [W11.5] 'approximately 1600 TFs in the human genome'",
+      "note": "The same article also says 'approximately 2000' [W11.17], but 1,600 is the figure it states twice ([W11.5], [W11.14]).",
+      "fix": ""
+    },
+    {
+      "id": "P7",
+      "verdict": "supported",
+      "evidence": "[W6.37] [W6.51] [W6.52]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P8",
+      "verdict": "supported",
+      "evidence": "[W7.1] [W7.9]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P9",
+      "verdict": "supported",
+      "evidence": "GTEx v8 INS medians (TPM): Pancreas 2325.26; Liver 0.256632; Skin_Sun_Exposed_Lower_leg 0.0590825; Brain_Cortex 0.0295213; Muscle_Skeletal 0.0208627",
+      "note": "All five round correctly.",
+      "fix": ""
+    },
+    {
+      "id": "P10",
+      "verdict": "supported",
+      "evidence": "[W8.1] [W8.7]",
+      "note": "The pin hedges: the 'main function ... at least in the lens' is 'probably' to raise the refractive index. Crystallins are also found in the cornea and outside the eye [W8.1] [W8.2]. The line drops the hedge, which is fine for the lens.",
+      "fix": ""
+    },
+    {
+      "id": "P11",
+      "verdict": "supported",
+      "evidence": "[W9.77] [W9.78]",
+      "note": "Synthesis also continues briefly in circulating reticulocytes [W9.80], and some non-red cells make hemoglobin [W9.12]. The line does not claim exclusivity.",
+      "fix": ""
+    },
+    {
+      "id": "P12",
+      "verdict": "supported",
+      "evidence": "[W10.2] [W10.5] [W10.10]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P13",
+      "verdict": "supported",
+      "evidence": "[W23.1]",
+      "note": "The same source says there is no single 'myosin' and that virtually all eukaryotic cells contain myosin isoforms [W23.8] [W23.9]. This matters for B5.explain.",
+      "fix": ""
+    },
+    {
+      "id": "P14",
+      "verdict": "supported",
+      "evidence": "[W12.7] [W12.8] [W12.10]",
+      "note": "Outside the pin: Steward's 1958 cultures began from root (phloem) explants and the free cells they shed. Plant regeneration from a single isolated cell was shown more directly later (Vasil & Hildebrandt, 1965). The pin says 'unequivocally', so this counts as supported.",
+      "fix": ""
+    },
+    {
+      "id": "P15",
+      "verdict": "supported",
+      "evidence": "[W25.1] 'approximately 55% of the total protein'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P16",
+      "verdict": "supported",
+      "evidence": "[W26.2] 'formed from the layers of secretions of the anterior section of the hen's oviduct during the passage of the egg'",
+      "note": "In hen anatomy the white is laid in the magnum, the long second section; 'anterior section' is the source's wording.",
+      "fix": ""
+    },
+    {
+      "id": "B1.hook",
+      "verdict": "imprecise",
+      "evidence": "[W4.2] [W4.17] [W4.18] [W4.27]",
+      "note": "Dolly did not grow 'from one cell taken out of' the udder. She grew from that cell's nucleus inside another ewe's enucleated egg, which also supplied her mitochondrial DNA ('three mothers', [W4.17]). B3.frame3 and R1.f2 correctly say 'from the nucleus of'. 1996 and 'born in Scotland' are fine.",
+      "fix": "In 1996 a lamb was born in Scotland from the nucleus of one cell taken out of an adult sheep's udder. Her name was Dolly. What was that udder cell still carrying?",
+      "resolved": "Hook now says the lamb was born “from the nucleus of one cell” taken from the udder."
+    },
+    {
+      "id": "B2.prompt",
+      "verdict": "supported",
+      "evidence": "[W4.18] [W4.19] [W4.21]",
+      "note": "'The egg grew into a lamb' skips the electric shock and the surrogate. This is acceptable compression.",
+      "fix": ""
+    },
+    {
+      "id": "B2.explain",
+      "verdict": "imprecise",
+      "evidence": "[W4.1] [W4.20] [W4.21]; [W4.17] 'one provided the egg, another the DNA'",
+      "note": "Minor. The transferred nucleus held every nuclear gene, not every gene: the mitochondrial genes (37 in mammals) are outside the nucleus, and Dolly's came from the egg donor. B2.nucleus.egg already says 'nearly all of an egg's genes', so make this consistent. The date and 'first mammal cloned from a cell of an adult' are supported.",
+      "fix": "Every gene in a sheep's nucleus was still there. An udder cell uses only some of its genes, but it keeps the rest. ...",
+      "resolved": "Now “Every gene of a sheep’s nucleus was still there”."
+    },
+    {
+      "id": "B2.nucleus.udder",
+      "verdict": "supported",
+      "evidence": "[W4.18] [W4.21]",
+      "note": "The feedback's reasoning holds. 'Built from the genes in that one nucleus' is true if not read as 'only' (the egg also supplied mitochondrial genes).",
+      "fix": ""
+    },
+    {
+      "id": "B2.nucleus.all",
+      "verdict": "imprecise",
+      "evidence": "[W4.21]; [W4.17]",
+      "note": "This is the key. It has the same gap as B2.explain: the nucleus held every nuclear gene, but not every gene it takes to build a sheep, because mitochondrial genes came from the egg. A careful student could object.",
+      "fix": "It still held every gene in a sheep's nucleus [KEY]",
+      "resolved": "Key now reads “It still held every gene in a sheep’s nucleus”."
+    },
+    {
+      "id": "B2.nucleus.egg",
+      "verdict": "supported",
+      "evidence": "[W4.18]",
+      "note": "'Nearly all of an egg's genes' correctly allows for mitochondrial DNA.",
+      "fix": ""
+    },
+    {
+      "id": "B2.nucleus.half",
+      "verdict": "supported",
+      "evidence": "[W4.17] [W4.18]",
+      "note": "Correctly limited to 'Dolly's nuclei'.",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame1",
+      "verdict": "imprecise",
+      "evidence": "[W4.4] [W3.14]",
+      "note": "Matches the pin. Outside the pin (flagged for verification): Gurdon's transfers from tadpole body cells that produced tadpoles and frogs are normally dated 1962. The Nobel press release says 'in 1962 ... the nucleus from a mature intestinal cell'. His 1958 paper used nuclei from earlier embryonic cells. Also, Gurdon destroyed the egg nucleus with UV rather than removing it, so 'emptied' is loose but acceptable.",
+      "fix": "Dolly was not the first clone. Starting in 1958, the biologist John Gurdon moved nuclei from frog body cells, and later from tadpole body cells, into frog eggs whose own nucleus had been destroyed.",
+      "resolved": "Re-dated and re-sourced on the Nobel press release: “In 1962 … moved the nucleus of a gut cell from a frog tadpole into a frog egg whose own nucleus had been destroyed.” Frame 2 now says the egg grew into a normal tadpole (no adult frogs claimed)."
+    },
+    {
+      "id": "B3.frame2",
+      "verdict": "supported",
+      "evidence": "[W3.14] [W3.18]",
+      "note": "Success rates were low, which 'some' covers. [W3.16]: Gurdon could not then prove the donor cells were fully differentiated, but the frame only says 'body cell', so it holds.",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame3",
+      "verdict": "imprecise",
+      "evidence": "[W4.20] 'the first clone produced from a cell taken from an adult mammal'; [W4.4]",
+      "note": "'In 1996 the same move worked in a mammal' implies 1996 was the first time a mammal was cloned by nuclear transfer. Mammals had already been cloned from embryonic cells (Roslin's Megan and Morag in 1995; sheep from embryo cells in the 1980s). What was new in 1996 was the adult donor cell. The second sentence is correct.",
+      "fix": "In 1996 the same move worked with a cell from an adult mammal. Dolly grew from the nucleus of a cell taken from an adult sheep's udder.",
+      "resolved": "Now “In 1996 the same move worked with a cell from an adult mammal.”"
+    },
+    {
+      "id": "B3.frame4",
+      "verdict": "supported",
+      "evidence": "[W5.2] [W5.21] [W2.20]",
+      "note": "This is the Nobel-level summary, so 'turned mature mouse cells back' is acceptable. Context it leaves out: only about 0.01-0.1% of cells convert [W5.18], and the 2006 cells were not yet equal to ES cells [W5.29].",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame5",
+      "verdict": "supported",
+      "evidence": "[W3.44] [W2.10] [W2.87]",
+      "note": "'Keeps its whole genome' has exceptions: mammalian red cells (B3.frame6 covers these) and lymphocytes, which cut and rejoin their antibody-gene DNA. Acceptable because the next frame opens with 'Almost every cell'.",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame6",
+      "verdict": "supported",
+      "evidence": "[W6.37] [W6.38] [W6.52] [W6.155]",
+      "note": "'No genome at all' is right: reticulocytes also lose their mitochondria [W6.38]. Red cells are not the only cells without a nucleus (lens fibre cells, cornified skin cells, platelets), but the frame does not claim they are.",
+      "fix": ""
+    },
+    {
+      "id": "B4.goal",
+      "verdict": "supported",
+      "evidence": "GTEx INS by tissue; [W2.87]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.ask",
+      "verdict": "supported",
+      "evidence": "GTEx INS: Pancreas 2325.26 TPM; the next highest of the five, Liver, is 0.257",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.bar.liver",
+      "verdict": "supported",
+      "evidence": "GTEx INS Liver 0.256632 rounds to 0.26; [W7.3] [W7.4] [W7.41]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.bar.muscle",
+      "verdict": "supported",
+      "evidence": "GTEx INS Muscle_Skeletal 0.0208627 rounds to 0.02; [W7.3] [W7.176]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.bar.pancreas",
+      "verdict": "supported",
+      "evidence": "GTEx INS Pancreas 2325.26 rounds to 2325.3; [W7.1] [W7.9]",
+      "note": "Whole-pancreas samples are mostly exocrine tissue and islets are a small fraction of it, so beta cells read INS far above the tissue median. This is not an error.",
+      "fix": ""
+    },
+    {
+      "id": "B4.bar.brain",
+      "verdict": "imprecise",
+      "evidence": "GTEx INS Brain_Cortex 0.0295213 rounds to 0.03; but [W7.74] 'Insulin and its related proteins have been shown to be produced inside the brain'; GTEx Brain_Hypothalamus 0.250, Brain_Substantia_nigra 0.438",
+      "note": "The number is right for the cortex. 'Brain cells leave it switched off' generalises from one region and contradicts the cited Insulin source, which reports insulin made inside the brain (a contested finding). Other brain regions read about 8-15 times the cortex level. Keep the claim to the region measured.",
+      "fix": "... — The gene: Every tissue here carries this same gene. Cells of the brain's cortex leave it all but silent.",
+      "resolved": "Facts and feedback now speak of the cortex only: “Cells of the brain’s cortex leave it all but silent.”"
+    },
+    {
+      "id": "B4.bar.skin",
+      "verdict": "supported",
+      "evidence": "GTEx INS Skin_Sun_Exposed_Lower_leg 0.0590825 rounds to 0.06",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.right",
+      "verdict": "supported",
+      "evidence": "GTEx INS ratios, pancreas over: liver 9,061x; skin 39,356x; brain cortex 78,766x; muscle 111,455x",
+      "note": "'By thousands of times' is a floor: the real range is about 9,000x to 111,000x. Fine.",
+      "fix": ""
+    },
+    {
+      "id": "B4.wrong",
+      "verdict": "supported",
+      "evidence": "Same ratios as B4.right",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.source",
+      "verdict": "supported",
+      "evidence": "GTEx API medianGeneExpression, datasetId=gtex_v8, unit TPM",
+      "note": "The bar unit 'RNA copies per million' is a gloss of TPM (transcripts per million, length-normalised). It is acceptable, but it does not say 'per million of what'.",
+      "fix": "Optional: label the unit 'copies per million RNA molecules'."
+    },
+    {
+      "id": "B5.prompt",
+      "verdict": "imprecise",
+      "evidence": "[W23.8] 'there is no single \"myosin\"; rather it is a very large superfamily of genes'; [W8.17] crystallin gene clusters; [W10.1] keratin 'one of a family'; [W2.27] some cell types 'lack nuclei in their fully differentiated state'",
+      "note": "(1) The four proteins are not four genes. Crystallins, myosins and keratins are each large gene families, and hemoglobin needs at least two globin genes. (2) Mature lens fibre cells and the cornified outer-skin cells destroy their nuclei, so 'each of these cells carries' holds only for young or living ones. The red-cell row already says 'young'.",
+      "fix": "Each of these cells carries the genes for all four proteins on the right. Match each cell to the protein it switches on and makes in bulk. (Optionally: 'A young cell in the lens of the eye'.)",
+      "resolved": "Now “carries the genes for all four proteins”; rows say “A young cell in the lens” and “A growing cell in the outer layer of skin”."
+    },
+    {
+      "id": "B5.explain",
+      "verdict": "wrong",
+      "evidence": "[W23.9] 'Virtually all eukaryotic cells contain myosin isoforms'; [W23.10] 'other isoforms are ubiquitous'; [W8.2] crystallin 'identified in other places such as the heart'; [W8.28] 'alpha crystallin being found in small amounts in tissues outside the lens'",
+      "note": "The cited sources contradict 'The other three genes sit in every one of these cells, switched off'. Lens cells, skin cells and red-cell precursors all use non-muscle myosins (red-cell precursors need myosin II to push out the nucleus). Alpha-B crystallin is made in quantity in muscle and heart. Only the bulk, cell-specific family members are off. The first two sentences are fine.",
+      "fix": "Each cell switches on the genes for its own job. Crystallins keep the lens clear, hemoglobin fills young red cells, myosin and actin make muscle contract, and keratin toughens the outer skin. The genes for the other three proteins sit in every one of these cells too, but none is made there in bulk.",
+      "resolved": "Replaced the wrong sentence: “The genes for the other three proteins sit in every one of these cells too, but none of those proteins is made there in bulk.” Payoff idea also softened to “switches on a different set of those genes”."
+    },
+    {
+      "id": "B5.pair.lens",
+      "verdict": "supported",
+      "evidence": "[W8.1] [W8.7]",
+      "note": "'Bends light' glosses 'raises the refractive index'. Fine.",
+      "fix": ""
+    },
+    {
+      "id": "B5.pair.redpre",
+      "verdict": "supported",
+      "evidence": "[W9.77] [W9.78]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.pair.muscle",
+      "verdict": "supported",
+      "evidence": "[W23.1] [W2.12]",
+      "note": "This is true of the muscle myosins. See B5.explain on non-muscle isoforms.",
+      "fix": ""
+    },
+    {
+      "id": "B5.pair.skin",
+      "verdict": "supported",
+      "evidence": "[W10.2] [W10.5]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.prompt",
+      "verdict": "supported",
+      "evidence": "[W12.7] 'mature cells, isolated from carrot roots ... coconut water ... specially designed flasks'; [W12.10]",
+      "note": "Historically the cultures started from small root explants that shed free cells. 'Took single cells' is a fair simplification of the pin.",
+      "fix": ""
+    },
+    {
+      "id": "B6.explain",
+      "verdict": "supported",
+      "evidence": "[W12.8] [W12.10] [W12.11]",
+      "note": "'Only takes switching different ones on' leaves out the signals needed (the pin says 'right chemical stimuli in the correct order'). The sentence is about genes, so this is acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "B6.root.root",
+      "verdict": "supported",
+      "evidence": "[W12.8] [W12.11]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.root.lump",
+      "verdict": "supported",
+      "evidence": "[W12.8] 'if given the right chemical stimuli in the correct order'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.root.yes",
+      "verdict": "supported",
+      "evidence": "[W12.10]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.root.pollen",
+      "verdict": "supported",
+      "evidence": "[W12.10] [W12.11]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.prompt",
+      "verdict": "supported",
+      "evidence": "GTEx INS Muscle_Skeletal 0.02",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.explain",
+      "verdict": "supported",
+      "evidence": "[W2.10] [W3.43] [W4.21]; GTEx INS",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.step.a",
+      "verdict": "supported",
+      "evidence": "[W7.1] [W7.42]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.step.b",
+      "verdict": "supported",
+      "evidence": "GTEx INS Muscle_Skeletal 0.0208627",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.step.c",
+      "verdict": "supported",
+      "evidence": "[W2.8] [W3.43]",
+      "note": "Correctly marked as the broken step.",
+      "fix": ""
+    },
+    {
+      "id": "B7.step.d",
+      "verdict": "supported",
+      "evidence": "Follows from step c",
+      "note": "This is the intended consequence of the broken step. A sharp student could also call d broken, since a cell without the gene could be given one, but c is clearly the first break.",
+      "fix": ""
+    },
+    {
+      "id": "B8.prompt",
+      "verdict": "supported",
+      "evidence": "[W25.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.explain",
+      "verdict": "supported",
+      "evidence": "[W26.2] [W25.1] [W6.52]",
+      "note": "'Only' the oviduct cells is biology beyond the pin: ovalbumin is made by the magnum's tubular gland cells under oestrogen. It is correct. That bird red cells keep their nucleus is [W6.52].",
+      "fix": ""
+    },
+    {
+      "id": "B8.pair.oviduct",
+      "verdict": "supported",
+      "evidence": "[W26.2] 'anterior section of the hen's oviduct'",
+      "note": "Strictly it is the magnum's gland cells, but 'front part' follows the pin.",
+      "fix": ""
+    },
+    {
+      "id": "B8.pair.liver",
+      "verdict": "supported",
+      "evidence": "Inference from [W26.2] [W25.1]",
+      "note": "A laying hen's liver makes yolk precursors, not ovalbumin.",
+      "fix": ""
+    },
+    {
+      "id": "B8.pair.muscle",
+      "verdict": "supported",
+      "evidence": "Inference from [W26.2] [W25.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.pair.redcell",
+      "verdict": "supported",
+      "evidence": "[W6.52] other vertebrates' red cells have nuclei",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.pair.nerve",
+      "verdict": "supported",
+      "evidence": "Inference from [W26.2] [W25.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.pair.feather",
+      "verdict": "supported",
+      "evidence": "Inference from [W26.2] [W25.1]",
+      "note": "The base of a growing feather is living follicle tissue with nuclei; mature feather cells are dead. The wording is right.",
+      "fix": ""
+    },
+    {
+      "id": "B9.idea",
+      "verdict": "supported",
+      "evidence": "[W2.10] [W2.27] [W1.7]",
+      "note": "",
+      "fix": "",
+      "revised": "Softened alongside B5.explain: “switches on a different set of those genes”."
+    },
+    {
+      "id": "R1.f1",
+      "verdict": "supported",
+      "evidence": "[W4.13] [W4.27] [W4.43]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f2",
+      "verdict": "supported",
+      "evidence": "[W4.2] [W4.18]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f3",
+      "verdict": "imprecise",
+      "evidence": "[W3.14] [W4.5] [W4.20]",
+      "note": "This has the same dating problem as P2 and B3.frame1. The pin says 1958, but the clones from tadpole body cells are normally dated 1962 (flagged from outside the pin; verify). The second sentence is supported.",
+      "fix": "Frogs had been cloned this way since 1958, later from a tadpole's body cell. Dolly was the first mammal cloned from an adult's cell.",
+      "resolved": "Now “In 1962 a frog egg given the nucleus of a tadpole’s gut cell had grown into a normal tadpole.” Reel source re-cited to the Nobel press release; R2 frame 5 fixed the same way. Narration re-made."
+    },
+    {
+      "id": "R1.f4",
+      "verdict": "imprecise",
+      "evidence": "[W2.10] [W2.87]",
+      "note": "The first sentence is fine. 'It just never uses most of them' overstates. A differentiated mammalian cell typically expresses a large share of its genes: estimates run from about a third to well over half of protein-coding genes, and many genes are used in every tissue. 'Never' is not supported by the cited source.",
+      "fix": "So an udder cell still carries the genes for a whole sheep: brain, blood, bone and wool. It just leaves many of them switched off.",
+      "resolved": "Now “It just leaves many of them switched off.” Narration re-made."
+    },
+    {
+      "id": "R1.prediction",
+      "verdict": "supported",
+      "evidence": "[W4.18] [W4.13]",
+      "note": "In 1996 this was 1 success in 277 attempts [W4.48]. The key is still correct.",
+      "fix": ""
+    },
+    {
+      "id": "R1.takeaway",
+      "verdict": "supported",
+      "evidence": "[W2.10] [W2.87] [W3.43]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f1",
+      "verdict": "supported",
+      "evidence": "[W5.21] [W5.22] 'induce an embryonic state in adult cells'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f2",
+      "verdict": "supported",
+      "evidence": "[W5.23] [W5.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f3",
+      "verdict": "supported",
+      "evidence": "[W5.27] 'each necessary and together sufficient'; [W5.15] [W11.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f4",
+      "verdict": "imprecise",
+      "evidence": "[W5.18] 'efficiencies around 0.01–0.1%'; [W5.29] 'Unlike the first generation of iPSCs, these second generation iPSCs produced viable chimeric mice'; [W5.5]",
+      "note": "The frame reads as if the mature cells converted in general, but only about 1 in 1,000-10,000 did. The 2006 cells were 'ESC-like' and failed the chimera test until the 2007 refinement, which used the same four genes. The caption 'human cells reprogrammed into stem cells' fits the NIH human iPSC colony candidate in media-candidates.md.",
+      "fix": "With those four, a rare few mature cells became stem cells able to grow into almost any cell type. This colony is human cells reprogrammed into stem cells.",
+      "resolved": "Now “a few of the mature cells became stem cells”; reel source notes the 0.01–0.1% efficiency. Narration re-made."
+    },
+    {
+      "id": "R2.f5",
+      "verdict": "supported",
+      "evidence": "[W3.44] [W5.3] [W3.14]",
+      "note": "'Cloned frogs from body cells back in 1958' is literally defensible, because the 1958 paper used somatic (embryonic body-cell) nuclei. See P2 on the dating of the tadpole-cell work.",
+      "fix": "",
+      "revised": "Revised with the P2 fix: “who in 1962 had grown a tadpole from the nucleus of a gut cell”, cited to the Nobel press release."
+    },
+    {
+      "id": "R2.prediction",
+      "verdict": "supported",
+      "evidence": "[W5.2] [W5.27]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.takeaway",
+      "verdict": "supported",
+      "evidence": "[W11.3] [W5.2] [W1.7]",
+      "note": "A simplification: chromatin state also holds identity in place [W1.14]. Acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "C1",
+      "verdict": "imprecise",
+      "evidence": "GTEx SFTPC: Heart_Left_Ventricle 0.179 (Heart_Atrial_Appendage 0.292); Brain_Cortex 3.447; Lung 1746.94; Skin_Sun_Exposed_Lower_leg 1.202 (Skin_Not_Sun_Exposed_Suprapubic 0.862); Thyroid 2.863; Kidney_Cortex 0.105 (Kidney_Medulla 0.0); [W16.1] type II alveolar cells; [W16.6] prevents collapse 'at the end of expiration'",
+      "note": "All six numbers round correctly. But GTEx has two tissues each for heart, skin and kidney, with different medians, and the bars silently use left ventricle, sun-exposed lower-leg skin and kidney cortex. The ratios support 'by hundreds of times': the lung is 507x brain cortex, 610x thyroid, 1,453x skin, about 9,700x heart and about 16,600x kidney. The text claims (one cell type, collapse at the end of a breath out, fats and proteins) are supported.",
+      "fix": "Bars (RNA copies per million): Heart (left ventricle) 0.18; Brain cortex 3.45; Lung 1746.9; Skin (lower leg) 1.2; Thyroid 2.86; Kidney (cortex) 0.11.",
+      "resolved": "Bars and options now name the GTEx sample: “Heart, left ventricle”, “Skin, lower leg”, “Kidney cortex”. C2 relabelled “Small intestine, ileum” for the same reason."
+    },
+    {
+      "id": "C2",
+      "verdict": "supported",
+      "evidence": "GTEx PGA3: Pancreas 0.145; Liver 0.185; Small_Intestine_Terminal_Ileum 0.129; Stomach 1723.46; Lung 0.0268; [W17.8] [W17.15]-[W17.18] [W17.4]",
+      "note": "All numbers round correctly; GTEx's only small-intestine tissue is the terminal ileum. The stomach is 9,300x to 64,000x the others, so 'thousands' holds. PGA3 is one of several pepsinogen A genes, which the text allows ('one of the genes'). Activation is by acid and then autocatalytic [W17.18] [W17.19], so 'only when it meets strong acid' is fine.",
+      "fix": ""
+    },
+    {
+      "id": "C3",
+      "verdict": "imprecise",
+      "evidence": "GTEx ALB: Whole_Blood 2.468; Liver 25201.3; Kidney_Cortex 40.257 (Kidney_Medulla 13.334); Heart_Left_Ventricle 0.400 (Heart_Atrial_Appendage 1.069); Lung 2.580; [W22.2] [W22.3] [W22.5]",
+      "note": "The numbers round correctly, but 'Kidney' and 'Heart' are the cortex and left-ventricle samples; the medulla reads 13.3 and the atrium 1.07. The ratios match 'hundreds ... thousands': the liver is 626x kidney cortex, 9,769x lung, 10,209x blood and 62,932x heart. The text claims are supported (about half the protein, fatty acids and hormones, holding water, made in the liver). The pin's wording is 'about half of serum protein'.",
+      "fix": "Bars (RNA copies per million): Whole blood 2.47; Liver 25201.3; Kidney (cortex) 40.26; Heart (left ventricle) 0.4; Lung 2.58.",
+      "resolved": "Bars and options now say “Kidney cortex” and “Heart, left ventricle”."
+    },
+    {
+      "id": "I.i_dm2efn3gnr",
+      "verdict": "imprecise",
+      "evidence": "[W4.17] [W4.18] [W4.21]",
+      "note": "The logic and distractors are sound, and the Explain correctly says 'every gene in Dolly's nuclei'. But the key and Claim say the nucleus held 'every sheep gene', and mitochondrial genes came from the egg. 'Most of them switched off' is also contestable: a typical cell uses a large share of its genes.",
+      "fix": "KEY: The udder cell's nucleus still held all of a sheep's nuclear genes, many of them switched off. Claim: ... so that nucleus had kept every nuclear gene for a sheep.",
+      "resolved": "Key now “still held every gene of a sheep’s nucleus, many switched off”; claim says “every gene of a sheep’s nucleus”."
+    },
+    {
+      "id": "I.i_rqp74fjf6v",
+      "verdict": "supported",
+      "evidence": "GTEx INS Liver 0.2566 vs Pancreas 2325.26 (9,061x); [W7.1] [W7.41]",
+      "note": "The distractor about fewer chromosomes is false, as it should be: hepatocytes are often polyploid.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_19jrp03ydg",
+      "verdict": "supported",
+      "evidence": "[W3.14] [W3.43] [W4.5]",
+      "note": "Step d is correctly marked as broken. Minor: Gurdon inactivated the egg nucleus with UV rather than emptying it out.",
+      "fix": "",
+      "revised": "Revised with the P2 fix: the transplanted nucleus is now a tadpole’s gut cell into an egg whose nucleus was destroyed; “grew into a normal tadpole” (no adult frogs); now also cites the Nobel press release."
+    },
+    {
+      "id": "I.i_1rwdnykqhx",
+      "verdict": "supported",
+      "evidence": "[W4.18] [W4.19]",
+      "note": "In practice the electric pulse both fused the donor cell with the egg and activated it, and embryos were grown to the blastocyst stage before transfer. The order given matches the pin.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_qvqpds5h6s",
+      "verdict": "supported",
+      "evidence": "[W5.2] [W5.15] [W5.27] [W11.1] [W11.3]",
+      "note": "'Nothing was missing from the mature cells' is right genetically: the cells carry their own Oct4 and Sox2 genes, silenced. The efficiency caveat is as in R2.f4.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_7va93zkbh6",
+      "verdict": "supported",
+      "evidence": "[W13.1] [W13.2] [W13.7] [W13.31]",
+      "note": "2005, Afghan Hound and an adult (3-year-old) dog's ear are all correct, and the clone's authenticity was confirmed [W13.31]. 'Built from the genes in that one ear-cell nucleus' is fine if not read as 'only' (mitochondrial genes came from the egg). 'Most of them switched off' is contestable, as in R1.f4.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_as252dnkq1",
+      "verdict": "imprecise",
+      "evidence": "[W18.15] [W18.17] 'albeit smaller than usual'; [W18.23] Hörstadius 'showed that conclusions of equivalence between sea urchin embryonic cells were an over-simplification'",
+      "note": "The experiment and the key are right. The Claim and Explain overgeneralise: a full genome is necessary but not sufficient. Sea-urchin cells separated at later stages (animal vs vegetal halves at 8 cells) carry the whole genome but do not make a whole larva, because they lack parts of the egg's cytoplasm. The pin itself calls the equivalence an over-simplification, and the larvae were smaller than normal.",
+      "fix": "Claim: Each cell of a two-cell sea-urchin embryo carries a full set of instructions, so a separated cell can still build a whole (smaller) larva. Explain: ... so either cell could build a complete, if smaller, larva.",
+      "resolved": "Claim now limited to a two-cell sea urchin embryo and “a whole, if smaller, larva”; explanation says “a complete larva, if a smaller one”."
+    },
+    {
+      "id": "I.i_fsx989yjq8",
+      "verdict": "imprecise",
+      "evidence": "[W14.5] [W14.12] [W14.25] 'starts at around 40 weeks of gestation'; [W14.26] [W14.39]; [W14.89] gamma genes 'suppressed shortly before birth'",
+      "note": "The question's numbers are fine: HbF is 50-95% at birth and usually under 1% within the first year. The Explain says the switch happens 'after birth', but the pin puts its start around 40 weeks of gestation, with the gamma genes suppressed shortly before birth, and it continues over the first months.",
+      "fix": "... The genes for both are in every blood-forming cell; around birth the cells switch from reading the gamma genes to reading the beta gene.",
+      "resolved": "Explanation now “around birth the cells switch”."
+    },
+    {
+      "id": "I.i_835bk4p8vf",
+      "verdict": "supported",
+      "evidence": "[W15.2] [W15.16] [W15.18] [W15.21] [W15.23]-[W15.26]",
+      "note": "'In every E. coli cell' is true of wild-type E. coli; many lab strains carry lac deletions. The real inducer is allolactose [W15.66], which the Explain does not contradict.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_vj5nvv8kje",
+      "verdict": "imprecise",
+      "evidence": "[W24.1] 'a family of related phosphoproteins (αS1, aS2, β, κ) ... comprising about 80% of the proteins in cow's milk'; [W24.10] [W24.12]; [W6.51]",
+      "note": "'The gene for casein' is wrong in number: casein is four proteins made from four genes, and 80% is their combined share. The sorting is otherwise right: only lactating mammary cells make casein, and mature red cells have no nucleus.",
+      "fix": "A dairy cow and the gene for beta-casein, one of the four caseins that together make up about 80% of the protein in cow's milk. ...",
+      "resolved": "Now names the beta-casein gene, “one of the four caseins that together make up about 80%”, in the prompt, claim and explanation."
+    },
+    {
+      "id": "I.i_q6a8vfvkzq",
+      "verdict": "supported",
+      "evidence": "[W14.3] [W14.5] [W14.23] [W14.24] [W14.26]",
+      "note": "The order matches the pin. Biologically, embryonic hemoglobin dominates for roughly the first 8-10 weeks rather than the full three months, but the pin says three months.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_bfayacb6m6",
+      "verdict": "supported",
+      "evidence": "[W15.2] [W15.18] [W15.26] [W15.28]",
+      "note": "Diauxie, in the correct order.",
+      "fix": ""
+    },
+    {
+      "id": "P17",
+      "verdict": "supported",
+      "evidence": "Pinned press release text: “John B. Gurdon discovered in 1962 that the specialisation of cells is reversible … replaced the immature cell nucleus in an egg cell of a frog with the nucleus from a mature intestinal cell. This modified egg cell developed into a normal tadpole.” and “in 2006 … By introducing four genes together”",
+      "note": "Added by the drafter to resolve P2, B3.frame1 and R1.f3; checked by the drafter against the pinned source, not by the independent checker.",
+      "fix": ""
+    }
+  ]
+}

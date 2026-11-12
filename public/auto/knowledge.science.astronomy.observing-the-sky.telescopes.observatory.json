@@ -1,0 +1,352 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory",
+ "name": "Observatory",
+ "summary": [
+  {
+   "text": "An observatory is a location used for observing terrestrial, marine or celestial events.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Astronomical observatories are mainly divided by location into space-based, airborne, ground-based and underground-based.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "Ideal sites for modern ground-based ones have dark skies, many clear nights, dry air and high elevation.",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dome housing",
+   "value": "Most optical telescopes sit inside a dome or similar structure",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Best ground site",
+   "value": "Ridge A in Eastern Antarctica, per a 2009 study",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "label": "Mauna Kea Observatory",
+   "value": "Near the summit of a 4,205 m volcano in Hawaiʻi",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "label": "Highest observatory",
+   "value": "University of Tokyo Atacama Observatory, at 5,640 m",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Airborne examples",
+   "value": "The Kuiper Airborne Observatory and SOFIA use airplanes",
+   "cites": [
+    40
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An optical telescope sits inside a dome. How does it look at different parts of the night sky?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The telescope stays still and the sky is rotated"
+    },
+    {
+     "id": "b",
+     "label": "The dome's roof slit opens, and the upper dome rotates"
+    },
+    {
+     "id": "c",
+     "label": "The dome is removed completely for each target"
+    },
+    {
+     "id": "d",
+     "label": "The roof is sealed shut and a camera looks out"
+    }
+   ],
+   "answer": "b",
+   "explain": "The dome has a slit that opens during observing and closes afterwards, and in most cases the entire upper portion rotates.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory:q1"
+  },
+  {
+   "prompt": "A planner is choosing a site for a new optical observatory. Which site fits best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A low valley beside a big city, shielded by hills"
+    },
+    {
+     "id": "b",
+     "label": "A humid coastal town with a busy harbor"
+    },
+    {
+     "id": "c",
+     "label": "A flat plain with frequent cloud"
+    },
+    {
+     "id": "d",
+     "label": "A dry, high mountain far from major cities"
+    }
+   ],
+   "answer": "d",
+   "explain": "Ideal sites have dark skies, a large share of clear nights, dry air and high elevation, away from population centers because of light pollution.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory:q2"
+  },
+  {
+   "prompt": "A new radio observatory is built in a valley, which would be a poor choice for an optical one. Why does the valley help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It gives extra shielding from interference by radio, TV and radar"
+    },
+    {
+     "id": "b",
+     "label": "It makes the air thinner"
+    },
+    {
+     "id": "c",
+     "label": "It gives a clearer view of the sky"
+    },
+    {
+     "id": "d",
+     "label": "It lowers the effect of atmospheric turbulence"
+    }
+   ],
+   "answer": "a",
+   "explain": "Radio observatories keep away from electromagnetic interference, and unlike optical ones they can sit in valleys for further shielding.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory:q3"
+  },
+  {
+   "prompt": "Space telescopes avoid the effects of atmospheric turbulence. What is the trade-off?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They cannot see ultraviolet light"
+    },
+    {
+     "id": "b",
+     "label": "They are always smaller than ground telescopes"
+    },
+    {
+     "id": "c",
+     "label": "They cost much more to build and are very hard to maintain"
+    },
+    {
+     "id": "d",
+     "label": "They only work during the day"
+    }
+   ],
+   "answer": "c",
+   "explain": "Space telescopes are much more expensive to build than ground-based ones and extremely difficult to maintain.",
+   "cites": [
+    32,
+    35,
+    36
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory:q4"
+  },
+  {
+   "prompt": "A team needs infrared observations and expects to upgrade its instruments often. Why might an airplane observatory beat a satellite?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Airplanes fly higher than satellites"
+    },
+    {
+     "id": "b",
+     "label": "Airplanes fly above the whole sky"
+    },
+    {
+     "id": "c",
+     "label": "Airplanes are used by amateurs only"
+    },
+    {
+     "id": "d",
+     "label": "Upgrades and repairs are quicker and cheaper"
+    }
+   ],
+   "answer": "d",
+   "explain": "Airborne observatories rise above most of the atmosphere and, compared with space telescopes, can be deployed, repaired and updated much more quickly and inexpensively.",
+   "cites": [
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory:q5"
+  },
+  {
+   "prompt": "One ground telescope and one space telescope have a similar aperture. Which usually shows finer detail, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ground one, since it is easier to point"
+    },
+    {
+     "id": "b",
+     "label": "The space one, since its images escape atmospheric turbulence"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since aperture alone sets the detail"
+    },
+    {
+     "id": "d",
+     "label": "The ground one, since it sees through more air"
+    }
+   ],
+   "answer": "b",
+   "explain": "Above the atmosphere, images are free from turbulence, so a space telescope such as Hubble often has a much smaller angular resolution than a ground one of similar aperture.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.telescopes.observatory:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Royal_observatory_Greenwich.JPG/960px-Royal_observatory_Greenwich.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Observatory",
+  "credit": "Adusha",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Royal_observatory_Greenwich.JPG"
+ },
+ "source": {
+  "title": "Observatory",
+  "url": "https://en.wikipedia.org/wiki/Observatory",
+  "revision": 1366238510
+ },
+ "read": {
+  "minutes": 4,
+  "paragraphs": [
+   {
+    "heading": "Places built for watching",
+    "text": "An observatory is a place for observing events on land, at sea or in the sky. Observatories have been built for astronomy, climate and weather science, geophysics, oceanography and volcanology, though some people still keep the word for astronomy alone. Astronomical observatories are mainly sorted by location: in space, in the air, on the ground or underground. They can be private or public.",
+    "cites": [
+     1,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "heading": "On the ground",
+    "text": "Early ground-based observatories could be as simple as a mural instrument, used to measure angles between stars, or Stonehenge, which has some alignments with astronomical events. Observatories on Earth's surface make observations in the radio and visible light parts of the spectrum. Most optical telescopes sit inside a dome that protects their delicate instruments from the elements. The dome has a slit that opens during observing, and in most cases its whole upper part rotates so the telescope can see different parts of the sky. Radio telescopes usually have no dome.",
+    "cites": [
+     6,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Picking a site",
+    "text": "Most optical observatories on the ground sit far from big cities to escape light pollution. The best sites have dark skies, many clear nights a year, dry air and high elevation. Up high the air is thinner, which reduces turbulence and gives better astronomical \"seeing\". Good places include the southwestern United States, Hawaii, the Canary Islands, the Andes and high Mexican mountains such as Sierra Negra. Major optical observatories include Mauna Kea and Kitt Peak in the US, Roque de los Muchachos in Spain, and Paranal and Cerro Tololo in Chile.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Higher and higher",
+    "text": "A 2009 study found that the best spot on Earth for a ground observatory is Ridge A in central East Antarctica, with the least atmospheric disturbance and the best visibility. Since the mid-20th century, several observatories have been built above 4,000–5,000 metres. The largest is Mauna Kea, near the top of a 4,205-metre volcano in Hawaiʻi. Bolivia's Chacaltaya observatory, at 5,230 m, was the highest permanent astronomical observatory from the 1940s until 2009. It has since been overtaken by the University of Tokyo Atacama Observatory, on a 5,640 m peak in Chile's Atacama Desert.",
+    "cites": [
+     18,
+     19,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Radio observatories",
+    "text": "Since 1933, radio telescopes have been built to study the universe in the radio part of the spectrum. A radio observatory is one or more such instruments plus support facilities, such as control centres, visitor housing and maintenance buildings. These also sit far from cities, to avoid interference from radio, TV and radar, but unlike optical sites they can be placed in valleys for extra shielding. Major examples include the Very Large Array in New Mexico, Arecibo in Puerto Rico, Jodrell Bank in the UK, Chajnantor in Chile and Parkes in Australia.",
+    "cites": [
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Above the air",
+    "text": "Space-based observatories are telescopes or other instruments in outer space, many of them orbiting Earth. The atmosphere blocks ultraviolet light, X-rays and gamma rays and partly blocks infrared, so these are best observed from above it. Space telescopes also escape the turbulence that troubles ground-based views, so one like Hubble often has a much smaller angular resolution than a ground telescope of similar aperture. The price is steep: they cost far more to build and are very hard to maintain. Hubble could be serviced by the Space Shuttles, but many other space telescopes cannot be.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Planes and balloons",
+    "text": "Airborne observatories have the advantage of height, putting them above most of the atmosphere. Compared with space telescopes, their instruments can be deployed, repaired and updated much faster and more cheaply. Two examples, the Stratospheric Observatory for Infrared Astronomy and the Kuiper Airborne Observatory, use airplanes to observe in the infrared, which water vapour in the air absorbs. Many countries have also flown high-altitude balloons for X-ray astronomy.",
+    "cites": [
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-2",
+   "kind": "book",
+   "title": "6.2 Telescopes Today",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/6-2-telescopes-today",
+   "note": "A free textbook section on why observatories sit on high, dark, dry mountains and how domes protect telescopes.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-6-5",
+   "kind": "book",
+   "title": "6.5 Observations outside Earth's Atmosphere",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/6-5-observations-outside-earths-atmosphere",
+   "note": "Airborne and space observatories: what they gain above the air, what they cost, and the main missions.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit",
+ "name": "Orbit",
+ "summary": [
+  {
+   "text": "An orbit is the curved path an object follows under the pull of an attracting force, such as a planet moving around a star.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "To a close approximation, planets and satellites follow elliptical orbits, as Kepler's laws describe, and Newtonian mechanics covers most situations well.",
+   "cites": [
+    5,
+    7
+   ]
+  },
+  {
+   "text": "Einstein's general relativity is more accurate, yet Newton's solution is still used for most short-term purposes because it is easier and accurate enough.",
+   "cites": [
+    8,
+    34
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Orbit shape",
+   "value": "Close to an ellipse, with the center of mass at a focus",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Most eccentric orbit",
+   "value": "Mercury, the smallest planet in the Solar System",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Periapsis",
+   "value": "The point where two orbiting objects are closest",
+   "cites": [
+    42
+   ]
+  },
+  {
+   "label": "Apoapsis",
+   "value": "The point where two orbiting objects are farthest apart",
+   "cites": [
+    44
+   ]
+  },
+  {
+   "label": "Neptune prediction",
+   "value": "Le Verrier predicted Neptune's position from Uranus's unexplained orbital perturbations",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A planet is nearer to its star at one point of its path than at another. What does this mean for its speed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays constant all the way round"
+    },
+    {
+     "id": "b",
+     "label": "It changes with the planet's distance from the star"
+    },
+    {
+     "id": "c",
+     "label": "It depends on the planet's mass, not its distance"
+    },
+    {
+     "id": "d",
+     "label": "It is set once and never varies"
+    }
+   ],
+   "answer": "b",
+   "explain": "Kepler found the orbital speed is not constant but depends on the planet's distance from the Sun.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit:q1"
+  },
+  {
+   "prompt": "A model keeps adding circles on circles to fit sharper measurements of planet positions. What was its problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It could not predict planet positions at all"
+    },
+    {
+     "id": "b",
+     "label": "It put the Sun at the centre, against observations"
+    },
+    {
+     "id": "c",
+     "label": "It needed the inverse-square law of gravity"
+    },
+    {
+     "id": "d",
+     "label": "It became increasingly unwieldy as measurements grew more accurate"
+    }
+   ],
+   "answer": "d",
+   "explain": "The epicycle model predicted positions reasonably well, but more and more epicycles were needed as measurements improved.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit:q2"
+  },
+  {
+   "prompt": "In the 16th century comets were seen moving right through the region where heavenly spheres were supposed to be. Why did this trouble the model?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Perfect spheres carrying the planets could not exist if comets passed through them"
+    },
+    {
+     "id": "b",
+     "label": "Comets move too fast to fit any model of the sky"
+    },
+    {
+     "id": "c",
+     "label": "Comets shine brighter than the stars attached to the spheres"
+    },
+    {
+     "id": "d",
+     "label": "Comets showed that planets move in circles after all"
+    }
+   ],
+   "answer": "a",
+   "explain": "The celestial-sphere model posited perfect moving spheres, so comets traversing them challenged it.",
+   "cites": [
+    10,
+    16
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit:q3"
+  },
+  {
+   "prompt": "A mission planner calculates a short satellite path with Newtonian mechanics instead of relativity. Why is that reasonable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Experiments have shown relativity to be wrong"
+    },
+    {
+     "id": "b",
+     "label": "Newtonian mechanics gives more accurate results than relativity"
+    },
+    {
+     "id": "c",
+     "label": "It is much easier to use and accurate enough for most short-term purposes"
+    },
+    {
+     "id": "d",
+     "label": "Relativity applies only to planets, not satellites"
+    }
+   ],
+   "answer": "c",
+   "explain": "Relativity is more accurate, but Newton's solution is significantly easier to use and sufficiently accurate for most short-term purposes.",
+   "cites": [
+    8,
+    34
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit:q4"
+  },
+  {
+   "prompt": "A satellite orbits a planet far heavier than itself. Why can a scientist treat the planet's center as the center of mass?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The satellite's own pull is zero, so only the planet counts"
+    },
+    {
+     "id": "b",
+     "label": "The planet is so much heavier that the shared center of mass lies close to its center"
+    },
+    {
+     "id": "c",
+     "label": "Orbits are always circular, which puts the center at the planet's middle"
+    },
+    {
+     "id": "d",
+     "label": "Relativity places any pair's center of mass at the heavier body"
+    }
+   ],
+   "answer": "b",
+   "explain": "When one body is much more massive than the other, taking the center of mass as the center of the heavier body is a convenient approximation.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit:q5"
+  },
+  {
+   "prompt": "A comet swings through a parabolic path around a barycenter and moves on. Is it part of that star's planetary system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because it is not held by the star's gravity"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since any comet near a star belongs to its system"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because every comet orbits that barycenter"
+    },
+    {
+     "id": "d",
+     "label": "Only while it is moving fast"
+    }
+   ],
+   "answer": "a",
+   "explain": "A comet on a parabolic or hyperbolic orbit is not gravitationally bound to the star, so it is not considered part of the planetary system.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.science.astronomy.observing-the-sky.celestial-mechanics.orbit:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Animation_of_Orbital_eccentricity.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Orbit",
+  "credit": "Phoenix7777",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Animation_of_Orbital_eccentricity.gif"
+ },
+ "source": {
+  "title": "Orbit",
+  "url": "https://en.wikipedia.org/wiki/Orbit",
+  "revision": 1369390584
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A curved path under a pull",
+    "text": "An orbit is the curved path an object follows while some attracting force pulls on it. It is also called an orbital revolution, because the object turns around an axis that lies outside itself. A planet going around a star, a moon going around a planet, and an artificial satellite going around a planet, an asteroid or a Lagrange point are all examples. The word usually means a path that repeats regularly, though it can also mean one that does not.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Spheres and epicycles",
+    "text": "Without any grasp of gravity, European and Arabic thinkers explained the motions of the planets with celestial spheres: perfect moving spheres or rings that carried the stars and planets. The idea began in Hellenistic astronomy, especially with Eudoxus and Aristotle. Ptolemy later added extra mechanisms called deferents and epicycles to match better measurements. Each gain in accuracy needed still more epicycles, so the model grew clumsy, and Copernicus put the Sun at the center to simplify it.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Kepler's three laws",
+    "text": "Johannes Kepler laid the foundation of the modern picture with three laws. First, the planets move in ellipses rather than circles, with the Sun at one focus instead of at the center. Second, a planet's speed is not fixed but depends on how far it is from the Sun. Third, for every planet, the cube of its distance from the Sun is proportional to the square of its orbital period.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Newton's tools",
+    "text": "In most situations, Newtonian mechanics describes orbits well, treating gravity as a force that follows an inverse-square law. Its methods were used to study how real orbits differ from simple Kepler orbits, for example because of tugs from other bodies. In a striking success, Urbain Le Verrier used unexplained disturbances in the orbit of Uranus to predict where Neptune would be, in 1846.",
+    "cites": [
+     7,
+     23,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Einstein's sharper picture",
+    "text": "Albert Einstein's general relativity, set out in 1916, explains gravity as a curving of spacetime, with orbits following paths called geodesics. Its results usually match Newton's very closely, except where gravity is very strong and speeds are very high, but the differences can be measured. Its first success was accounting for the leftover, unexplained part of the precession of Mercury's perihelion that Le Verrier had first noticed. Newton's version is still used for most short-term work, since it is far easier and accurate enough.",
+    "cites": [
+     8,
+     29,
+     31,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Closest and farthest points",
+    "text": "When two objects orbit each other, the periapsis is the point where they come closest and the apoapsis is where they are farthest apart. A line drawn between those two points is called the line of apsides. Because the planets tug on one another, the eccentricities and tilts of their orbits change over time. Mercury, the smallest planet, has the most eccentric orbit, while Venus and Neptune have the least.",
+    "cites": [
+     39,
+     40,
+     41,
+     42,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-3-4",
+   "kind": "book",
+   "title": "3.4 Orbits in the Solar System",
+   "by": "OpenStax (Astronomy 2e)",
+   "url": "https://openstax.org/books/astronomy-2e/pages/3-4-orbits-in-the-solar-system",
+   "note": "A free textbook section on the orbits of planets, asteroids and comets, with perihelion, aphelion and eccentricity.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "nasa-orbits-kepler",
+   "kind": "article",
+   "title": "Orbits and Kepler's Laws",
+   "by": "NASA Science",
+   "url": "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
+   "minutes": 9,
+   "note": "NASA's guide to how orbits work, from Kepler's elliptical paths to Newton's gravity."
+  },
+  {
+   "id": "esa-types-of-orbit",
+   "kind": "article",
+   "title": "Types of orbit",
+   "by": "ESA",
+   "url": "https://www.esa.int/articles/about-us/directorates/science/types-of-orbit",
+   "note": "ESA's overview of the orbits spacecraft use, from low Earth and geostationary to polar and sun-synchronous."
+  }
+ ]
+}

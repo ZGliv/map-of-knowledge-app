@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "Boole's inequality is a result about the probability of events, stated in a finite version and in a countable version.",
+   "cites": [
+    3,
+    6
+   ]
+  },
+  {
+   "text": "The countable version is deduced from the finite one by taking the number of events to infinity and using continuity from below of probability measures.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "For a finite number of events it can be generalized to upper and lower bounds on the probability of finite unions, known as the Bonferroni inequalities.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two versions",
+   "value": "A finite version and a countable version",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Countable version comes from",
+   "value": "The finite version, with n taken to infinity",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Property used",
+   "value": "Continuity from below of probability measures",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Generalization",
+   "value": "Bonferroni inequalities, bounds on finite unions of events",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Bonferroni reference",
+   "value": "Bonferroni (1936)",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You have shown a statement for any finite list of events, however long. How can you get it for a list that goes on forever?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the number of events to infinity, using continuity from below"
+    },
+    {
+     "id": "b",
+     "label": "Average the finite cases and trust the average"
+    },
+    {
+     "id": "c",
+     "label": "Stop at a large number and assume the rest follows"
+    },
+    {
+     "id": "d",
+     "label": "It cannot be done without starting over"
+    }
+   ],
+   "answer": "a",
+   "explain": "The countable version of Boole's inequality is deduced from the finite one by taking n to infinity and using the continuity from below of probability measures.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Which property of probability measures is used to carry the finite version over to the countable version?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Symmetry between events"
+    },
+    {
+     "id": "b",
+     "label": "Additivity over complements"
+    },
+    {
+     "id": "c",
+     "label": "Continuity from below"
+    },
+    {
+     "id": "d",
+     "label": "Equal chances for outcomes"
+    }
+   ],
+   "answer": "c",
+   "explain": "The step to infinity relies on the continuity from below of probability measures.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "An endless list of events is given, one for each whole number 1, 2, 3, and so on. Which version of Boole's inequality applies to it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The finite version"
+    },
+    {
+     "id": "b",
+     "label": "The Bonferroni version"
+    },
+    {
+     "id": "c",
+     "label": "Neither version"
+    },
+    {
+     "id": "d",
+     "label": "The countable version"
+    }
+   ],
+   "answer": "d",
+   "explain": "The finite version covers a limited number of events; the countable version is the one obtained by letting n go to infinity.",
+   "cites": [
+    3,
+    6
+   ]
+  },
+  {
+   "prompt": "A mathematician extends Boole's inequality for finitely many events into several upper and lower bounds on the chance that at least one event occurs. What are those bounds called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Kolmogorov axioms"
+    },
+    {
+     "id": "b",
+     "label": "Lebesgue measures"
+    },
+    {
+     "id": "c",
+     "label": "Möbius functions"
+    },
+    {
+     "id": "d",
+     "label": "Bonferroni inequalities"
+    }
+   ],
+   "answer": "d",
+   "explain": "Generalizing Boole's inequality for a finite number of events gives upper and lower bounds on the probability of finite unions, known as Bonferroni inequalities.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "prompt": "In the step from finite to countable, which quantity is made to grow without end?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number of events, n"
+    },
+    {
+     "id": "b",
+     "label": "The probability of each event"
+    },
+    {
+     "id": "c",
+     "label": "The size of the sample space's points"
+    },
+    {
+     "id": "d",
+     "label": "The number of upper bounds"
+    }
+   ],
+   "answer": "a",
+   "explain": "The countable version is obtained from the finite version by taking n, the number of events, to infinity.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "The upper and lower bounds that generalize Boole's inequality for finitely many events are tied to a mathematician's name and a year. Which pair is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bonferroni, 1936"
+    },
+    {
+     "id": "b",
+     "label": "Kolmogorov, 1933"
+    },
+    {
+     "id": "c",
+     "label": "Bonferroni, 1718"
+    },
+    {
+     "id": "d",
+     "label": "Boole, 1854"
+    }
+   ],
+   "answer": "a",
+   "explain": "The bounds are known as Bonferroni inequalities, after Carlo Emilio Bonferroni, with a reference to Bonferroni (1936).",
+   "cites": [
+    7
+   ]
+  }
+ ]
+}

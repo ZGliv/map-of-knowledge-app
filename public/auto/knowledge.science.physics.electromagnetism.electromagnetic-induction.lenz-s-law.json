@@ -1,0 +1,329 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law",
+ "name": "Lenz's law",
+ "summary": [
+  {
+   "text": "Lenz's law says an induced current flows in the direction that makes a magnetic field opposing the change that produced it.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It was formulated by Heinrich Lenz in 1834 and tells you the direction of the current but nothing about its size.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "It predicts effects like the drag of eddy currents on moving objects and the back voltage in an inductor.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Heinrich Lenz, who formulated it in 1834",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "What it gives",
+   "value": "Direction of induced current, not its magnitude",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Griffiths' summary",
+   "value": "Nature abhors a change in flux",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Mechanical analogy",
+   "value": "Like Newton's third law in classical mechanics",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Chemistry analogy",
+   "value": "Like Le Chatelier's principle",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A strong magnet is dropped down a copper pipe and falls more slowly than outside. What explains the slow fall?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The pipe wall is coated with a sticky film"
+    },
+    {
+     "id": "b",
+     "label": "The air trapped inside the pipe is much thicker"
+    },
+    {
+     "id": "c",
+     "label": "Induced currents make a field that opposes the fall"
+    },
+    {
+     "id": "d",
+     "label": "Copper makes the magnet lighter than before"
+    }
+   ],
+   "answer": "c",
+   "explain": "The magnet's changing field makes counter-rotating currents in the pipe, whose fields oppose the change, so the descent slows.",
+   "cites": [
+    14,
+    15,
+    16
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law:q1"
+  },
+  {
+   "prompt": "The flux through a loop is growing. Which way does the loop's induced field point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Opposite to the growing field"
+    },
+    {
+     "id": "b",
+     "label": "The same as the growing field"
+    },
+    {
+     "id": "c",
+     "label": "Sideways to it"
+    },
+    {
+     "id": "d",
+     "label": "Nowhere, since flux is growing"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the flux is increasing the induced field acts in opposition to it; if it is decreasing the induced field acts in the applied field's direction.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law:q2"
+  },
+  {
+   "prompt": "A friend says Lenz's law tells you how many amps flow in a loop. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Amps are really measured in volts, so it cannot"
+    },
+    {
+     "id": "b",
+     "label": "It gives only direction, not size"
+    },
+    {
+     "id": "c",
+     "label": "It only applies to batteries and cells"
+    },
+    {
+     "id": "d",
+     "label": "It was proven false soon after 1834"
+    }
+   ],
+   "answer": "b",
+   "explain": "Lenz's law is qualitative: it specifies direction and says nothing about magnitude.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law:q3"
+  },
+  {
+   "prompt": "Which pairing matches Lenz's law to a familiar idea from elsewhere in science?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The law of gravity acting near a large planet"
+    },
+    {
+     "id": "b",
+     "label": "The boiling point of water at sea level"
+    },
+    {
+     "id": "c",
+     "label": "Le Chatelier's principle in chemistry"
+    },
+    {
+     "id": "d",
+     "label": "The speed of sound travelling in air"
+    }
+   ],
+   "answer": "c",
+   "explain": "It may be seen as analogous to Newton's third law and to Le Chatelier's principle in chemistry.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law:q4"
+  },
+  {
+   "prompt": "Which tool can be used to work out the direction of an induced current?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A thermometer held near the loop"
+    },
+    {
+     "id": "b",
+     "label": "A stopwatch timing the swing"
+    },
+    {
+     "id": "c",
+     "label": "A prism splitting the light"
+    },
+    {
+     "id": "d",
+     "label": "The right-hand rule"
+    }
+   ],
+   "answer": "d",
+   "explain": "The right-hand rule shows which current direction would create a field opposing the change in flux.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law:q5"
+  },
+  {
+   "prompt": "The induced field in a wire loop always tries to do what with the flux?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Keep the loop's flux constant"
+    },
+    {
+     "id": "b",
+     "label": "Double it every single second"
+    },
+    {
+     "id": "c",
+     "label": "Switch the flux off completely"
+    },
+    {
+     "id": "d",
+     "label": "Push the flux right out of the loop"
+    }
+   ],
+   "answer": "a",
+   "explain": "The induced field inside any loop always acts to keep the loop's magnetic flux constant.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.physics.electromagnetism.electromagnetic-induction.lenz-s-law:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/VFPt_Solenoid_correct2.svg/960px-VFPt_Solenoid_correct2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Lenz's law",
+  "credit": "Geek3",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:VFPt_Solenoid_correct2.svg"
+ },
+ "source": {
+  "title": "Lenz's law",
+  "url": "https://en.wikipedia.org/wiki/Lenz%27s_law",
+  "revision": 1380174728
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it says",
+    "text": "Lenz's law tells you which way an induced current flows. An induced current is one produced in a wire by a change in magnetic flux. That current makes a magnetic field of its own, and this field pushes against the change in the original field. The law is named after the physicist Heinrich Lenz, who stated it in 1834.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Direction, not size",
+    "text": "Lenz's law is qualitative: it gives the direction of the induced current but says nothing about how large it is. If the flux through a loop is rising, the induced field points against it. If the flux is falling, the induced field points the same way as the applied field, again resisting the change. Either way, the induced field inside the loop works to keep the flux through it constant. Griffiths put it in one line: nature abhors a change in flux.",
+    "cites": [
+     4,
+     10,
+     18,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Finding the direction",
+    "text": "The right-hand rule shows which way current must flow to make a field that opposes the changing flux through the loop. In the equation form, the induced electromotive force E always has the opposite sign to the rate at which the flux Φ_B changes. So the back EMF from an induced field works against the very change in current that produced it. In the same way, the law predicts which way voltage appears in an inductor or a loop of wire when the current through it changes.",
+    "cites": [
+     5,
+     8,
+     9,
+     19
+    ]
+   },
+   {
+    "heading": "A magnet in a pipe",
+    "text": "Drop a strong magnet through a copper or aluminium pipe and you can see the law at work. The magnet's field sets up counter-rotating currents in the pipe. The magnet falls noticeably more slowly inside the pipe than it does outside. The induced current pushes against the motion that made it, and the law likewise predicts the drag that eddy currents place on objects moving in a magnetic field.",
+    "cites": [
+     5,
+     7,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Two loops that repel",
+    "text": "Suppose a change in one current, i₁, induces a second current, i₂. Then i₂ runs opposite to the change in i₁. If the currents sit in two coaxial circular loops that both start at zero, the two currents must circle in opposite directions. As a result, the two loops push each other apart.",
+    "cites": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Momentum and the field",
+    "text": "Lenz's law can be compared with Newton's third law in mechanics and with Le Chatelier's principle in chemistry. If one charge is pushed one way, a neighbouring charge should be pushed the other way by the same force at the same moment. But electromagnetic waves travel at a finite speed, so for a brief time the two charges together do not keep their total momentum. The difference has to be carried as momentum in the fields, which James Clerk Maxwell called \"electromagnetic momentum\".",
+    "cites": [
+     6,
+     25,
+     30,
+     31,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up2-13-2",
+   "kind": "book",
+   "title": "13.2 Lenz's Law",
+   "by": "OpenStax (Samuel J. Ling, William Moebs, Jeff Sanny)",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law",
+   "note": "A free college textbook section on using Lenz's law to find the direction of an induced current.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp2e-23-2",
+   "kind": "book",
+   "title": "23.2 Faraday’s Law of Induction: Lenz’s Law",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/23-2-faradays-law-of-induction-lenzs-law",
+   "note": "An introductory textbook section pairing Faraday's law with Lenz's law and the sign of the induced emf.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

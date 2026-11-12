@@ -1,0 +1,331 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem",
+ "name": "Measurement problem",
+ "summary": [
+  {
+   "text": "The measurement problem asks how a quantum system in a superposition of many possible values ends up giving just one definite result when measured.",
+   "cites": [
+    1,
+    5
+   ]
+  },
+  {
+   "text": "The wave function evolves smoothly by the Schrödinger equation, yet every actual measurement finds a definite state, which that smooth evolution does not obviously explain.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core puzzle",
+   "value": "Superpositions exist, but measurements give one definite result",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Famous illustration",
+   "value": "Schrödinger's cat, tied to a radioactive atom's decay",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Many-worlds idea",
+   "value": "Hugh Everett: one wave function that never collapses",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Objective collapse",
+   "value": "Modifies the Schrödinger equation so large objects collapse",
+   "cites": [
+    41,
+    43
+   ]
+  },
+  {
+   "label": "Open sub-question",
+   "value": "When exactly does a measurement occur?",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A coin is spinning on a table and, in the quantum version, is said to be in a mix of heads and tails. You slap it flat and see heads. What does the measurement problem ask about?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Who the spinning coin belongs to"
+    },
+    {
+     "id": "b",
+     "label": "Why the coin spins for so long"
+    },
+    {
+     "id": "c",
+     "label": "Whether the table is perfectly level"
+    },
+    {
+     "id": "d",
+     "label": "How a mix became one single outcome"
+    }
+   ],
+   "answer": "d",
+   "explain": "The problem is how a superposition of many possible values becomes a single measured value.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem:q1"
+  },
+  {
+   "prompt": "In the cat thought experiment, why is the cat said to be in a superposition before the box is opened?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The cat is linked to an atom that is in a superposition"
+    },
+    {
+     "id": "b",
+     "label": "The cat is asleep and cannot be seen"
+    },
+    {
+     "id": "c",
+     "label": "The poison changes the cat"
+    },
+    {
+     "id": "d",
+     "label": "Quantum rules apply only to cats"
+    }
+   ],
+   "answer": "a",
+   "explain": "The atom is a combination of decayed and intact states, and the mechanism and cat joined to it are described as a superposition too.",
+   "cites": [
+    10,
+    12,
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem:q2"
+  },
+  {
+   "prompt": "Which pair of facts creates the puzzle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Atoms are small, and cats are large"
+    },
+    {
+     "id": "b",
+     "label": "Smooth wave evolution, yet measurements always find one state"
+    },
+    {
+     "id": "c",
+     "label": "Light is fast, and sound is slow"
+    },
+    {
+     "id": "d",
+     "label": "Boxes are closed, and observers are curious"
+    }
+   ],
+   "answer": "b",
+   "explain": "The wave function evolves deterministically as a superposition, yet actual measurements always find a definite state.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem:q3"
+  },
+  {
+   "prompt": "One proposal says the wave function never collapses at all, and observer and apparatus simply become entangled with what they measure. Which idea is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Objective collapse"
+    },
+    {
+     "id": "b",
+     "label": "The Copenhagen view"
+    },
+    {
+     "id": "c",
+     "label": "Many-worlds"
+    },
+    {
+     "id": "d",
+     "label": "De Broglie–Bohm theory"
+    }
+   ],
+   "answer": "c",
+   "explain": "Everett's many-worlds interpretation keeps a single wave function that never collapses, so measurement is just an interaction that entangles systems.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem:q4"
+  },
+  {
+   "prompt": "Objective-collapse models change the Schrödinger equation. Why do electrons still behave as ordinary theory predicts?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The change is unmeasurably tiny for microscopic objects"
+    },
+    {
+     "id": "b",
+     "label": "Electrons are exempt by definition"
+    },
+    {
+     "id": "c",
+     "label": "The change only applies at night"
+    },
+    {
+     "id": "d",
+     "label": "The change grows stronger for tiny objects"
+    }
+   ],
+   "answer": "a",
+   "explain": "The added nonlinear terms are unmeasurably close to ordinary behavior for microscopic objects but matter for macroscopic ones.",
+   "cites": [
+    41,
+    42,
+    43
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem:q5"
+  },
+  {
+   "prompt": "In the de Broglie–Bohm theory, where does the look of wave function collapse come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A mysterious outside human observer"
+    },
+    {
+     "id": "b",
+     "label": "The cat choosing its own fate"
+    },
+    {
+     "id": "c",
+     "label": "Particles briefly ceasing to exist"
+    },
+    {
+     "id": "d",
+     "label": "Wave packets separating from environment contact"
+    }
+   ],
+   "answer": "d",
+   "explain": "The theory says interaction with the environment separates the wave packets, giving apparent collapse though no actual collapse occurs.",
+   "cites": [
+    39
+   ],
+   "id": "knowledge.science.physics.quantum-physics.uncertainty-and-measurement.measurement-problem:q6"
+  }
+ ],
+ "source": {
+  "title": "Measurement problem",
+  "url": "https://en.wikipedia.org/wiki/Measurement_problem",
+  "revision": 1378654927
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "The measurement problem is the puzzle of definite outcomes in quantum mechanics. A quantum system can be in a superposition, a blend of different states, and its wave function changes over time in a fully predictable way set by the Schrödinger equation. Yet every real measurement finds the system in one definite state. The problem is to explain how a superposition of many possible values turns into one measured value.",
+    "cites": [
+     1,
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "Why it is a puzzle",
+    "text": "After a measurement, the wave function carries on from whatever state the system was found in. So the act of measuring seems to have done something to the system that does not plainly follow from the Schrödinger equation. Put another way, that equation fixes the wave function at every later time. If observers and their instruments are also described by such a predictable wave function, why can we predict only probabilities rather than exact results?",
+    "cites": [
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "The cat in the box",
+    "text": "The thought experiment called Schrödinger's cat shows the problem. A device is rigged to kill a cat if a quantum event happens, such as a radioactive atom decaying, and both are shut in a chamber. Until someone looks, quantum mechanics treats the atom as a superposition of decayed and intact, so the cat too becomes a mix of an intact atom with a live cat and a decayed atom with a dead one. But open the chamber and the cat is simply alive or dead, with no superposition in sight. That raises more questions: when does a measurement happen, what counts as a measuring device, and what part does the observer play?",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     17,
+     18,
+     20,
+     22
+    ]
+   },
+   {
+    "heading": "The Copenhagen answer",
+    "text": "The oldest response, and probably still the most widely held, is the group of views called the Copenhagen interpretation. These views hold that something in the act of observing makes the wave function collapse. The idea is often credited to Niels Bohr but in fact came from Werner Heisenberg. In this tradition a wave function can be treated as statistical information about a system, and collapse is the updating of that information when new data comes in. Exactly how to understand this is still argued over.",
+    "cites": [
+     23,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Many worlds",
+    "text": "Hugh Everett's many-worlds interpretation tries to make the problem disappear. In its view the whole universe is described by a single wave function, one vast superposition that never collapses. A measurement is then only an interaction in which quantum things, such as an observer, an instrument and an electron, become entangled into one bigger whole. Its supporters have still not agreed on how to justify using the Born rule to get probabilities.",
+    "cites": [
+     32,
+     33,
+     35
+    ]
+   },
+   {
+    "heading": "Hidden paths and real collapse",
+    "text": "The de Broglie–Bohm theory takes another route: besides the wave function, a system carries extra data, a trajectory giving where its particles are. The wave function's job is to set the particles' velocities. During a measurement, contact with the surroundings separates the wave packets, which looks like collapse even though none truly happens. Objective-collapse models instead change the Schrödinger equation itself by adding random nonlinear terms. For electrons or atoms these make no measurable difference, but for large objects they become important and cause collapse.",
+    "cites": [
+     36,
+     37,
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "sep-qt-issues",
+   "kind": "article",
+   "title": "Philosophical Issues in Quantum Theory",
+   "by": "Wayne Myrvold, Stanford Encyclopedia of Philosophy",
+   "url": "https://plato.stanford.edu/entries/qt-issues/",
+   "note": "Section 4 sets out the measurement problem clearly and surveys the main approaches to solving it."
+  },
+  {
+   "id": "iot-measurement-problem",
+   "kind": "documentary",
+   "title": "The Measurement Problem in Physics",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b00hv1dp",
+   "minutes": 45,
+   "note": "A radio discussion on why measuring a quantum system seems to give one definite result."
+  }
+ ]
+}

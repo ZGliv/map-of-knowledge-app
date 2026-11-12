@@ -1,0 +1,225 @@
+{
+ "summary": [
+  {
+   "text": "Quantum cryptography uses quantum properties such as entanglement, measurement disturbance and superposition to carry out encryption tasks.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Data encoded in a quantum state cannot be copied perfectly, and reading it changes it, so eavesdropping on a quantum link can be detected.",
+   "cites": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Its best-known use, quantum key distribution, lets two parties share a key without a third party learning anything, with security that can be proven mathematically.",
+   "cites": [
+    39,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Early idea",
+   "value": "Wiesner's conjugate coding, from the early 1970s, published in 1983",
+   "cites": [
+    11,
+    12
+   ]
+  },
+  {
+   "label": "Ekert's protocol",
+   "value": "Proposed in 1991, using Bell's inequalities for secure keys",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Classical limit",
+   "value": "Classical encryption cannot be guaranteed beyond about 30 years",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "QKD protection",
+   "value": "Can protect electronic records for up to 100 years",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Who sells it",
+   "value": "Firms include ID Quantique, Toshiba and QuintessenceLabs",
+   "cites": [
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Eve taps the line while Alice and Bob build a shared key. What gives her away?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The key becomes shorter each time"
+    },
+    {
+     "id": "b",
+     "label": "Her tapping makes the line louder"
+    },
+    {
+     "id": "c",
+     "label": "Discrepancies appear that Alice and Bob notice"
+    },
+    {
+     "id": "d",
+     "label": "The message is deleted from the network"
+    }
+   ],
+   "answer": "c",
+   "explain": "If Eve tries to learn about the key, discrepancies arise and Alice and Bob notice.",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "prompt": "A hospital must keep patient records secret for many decades. Why could quantum key distribution suit it better than classical encryption?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It protects records for up to 100 years, versus about 30 for classical"
+    },
+    {
+     "id": "b",
+     "label": "It compresses records so they fit on much smaller hospital drives"
+    },
+    {
+     "id": "c",
+     "label": "It lets doctors skip the login step for patients who visit often"
+    },
+    {
+     "id": "d",
+     "label": "It makes records readable by every hospital in the world at once"
+    }
+   ],
+   "answer": "a",
+   "explain": "Scientists cannot guarantee classical encryption beyond about 30 years, while QKD can protect records for up to 100.",
+   "cites": [
+    21,
+    25
+   ]
+  },
+  {
+   "prompt": "Alice and Bob have just established a key with quantum communication. What do they typically do next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Destroy it and start over with a fresh one for each word"
+    },
+    {
+     "id": "b",
+     "label": "Use it for classical encrypted messages, such as a one-time pad"
+    },
+    {
+     "id": "c",
+     "label": "Send all of their future messages as single photons only"
+    },
+    {
+     "id": "d",
+     "label": "Publish it openly so that everyone can double check it"
+    }
+   ],
+   "answer": "b",
+   "explain": "Once established, the key is usually used for classical encrypted communication, for instance symmetric cryptography like a one-time pad.",
+   "cites": [
+    41,
+    42
+   ]
+  },
+  {
+   "prompt": "Quantum key distribution is called unconditionally secure, but it still needs one safeguard. Which?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Alice and Bob must meet in person each day"
+    },
+    {
+     "id": "b",
+     "label": "Eve must be limited to a small computer"
+    },
+    {
+     "id": "c",
+     "label": "The parties must be able to authenticate each other"
+    },
+    {
+     "id": "d",
+     "label": "The channel must be completely free of noise"
+    }
+   ],
+   "answer": "c",
+   "explain": "Minimal assumptions remain: quantum mechanics holds and Alice and Bob can authenticate each other, otherwise a man-in-the-middle attack is possible.",
+   "cites": [
+    44,
+    45
+   ]
+  },
+  {
+   "prompt": "A secure key must cross a long, noisy fibre. What can keep the link secure over that distance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A thicker cable with much more shielding around the fibre"
+    },
+    {
+     "id": "b",
+     "label": "Quantum repeaters that purify segments before joining them"
+    },
+    {
+     "id": "c",
+     "label": "Sending the same key several times in a row to be safe"
+    },
+    {
+     "id": "d",
+     "label": "Switching over to a purely classical channel for the trip"
+    }
+   ],
+   "answer": "b",
+   "explain": "Quantum repeaters purify segments of the channel before connecting them, allowing secure communication over a noisy channel.",
+   "cites": [
+    30,
+    33
+   ]
+  },
+  {
+   "prompt": "Wiesner's early scheme put two messages into one photon's linear and circular polarization. What could a receiver do with it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Decode either message, but not both"
+    },
+    {
+     "id": "b",
+     "label": "Decode both messages together at once"
+    },
+    {
+     "id": "c",
+     "label": "Decode neither without a second photon"
+    },
+    {
+     "id": "d",
+     "label": "Copy it and decode both of them later"
+    }
+   ],
+   "answer": "a",
+   "explain": "With conjugate observables such as the two polarizations, either property may be received and decoded, but not both.",
+   "cites": [
+    13
+   ]
+  }
+ ]
+}

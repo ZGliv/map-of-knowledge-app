@@ -1,0 +1,110 @@
+{
+ "title": "Why linear means a line",
+ "question": "Why is a linear equation called linear?",
+ "hook": "Plot every answer to certain equations and the dots refuse to scatter.",
+ "idea": "In two variables the solutions of a linear equation lie on a straight line, and every straight line comes from one.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You list many pairs (x, y) that satisfy one linear equation in two variables and plot them as points. What do you see?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "They all fall on one straight line"
+    },
+    {
+     "id": "b",
+     "label": "They scatter across the whole plane",
+     "feedback": "Many pairs fit, but only those satisfying the equation count, and they line up."
+    },
+    {
+     "id": "c",
+     "label": "They form a bowl-shaped curve",
+     "feedback": "Curves come from equations with squared terms, not linear ones."
+    },
+    {
+     "id": "d",
+     "label": "Only a single point appears",
+     "feedback": "With two variables there are infinitely many solutions, not one."
+    }
+   ],
+   "answer": "a",
+   "explain": "The solutions of a linear equation in two variables form a line, which is the origin of the word linear.",
+   "cites": [
+    9,
+    10,
+    17
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match the number of variables to the solutions.",
+   "pairs": [
+    [
+     "One variable",
+     "Exactly one solution"
+    ],
+    [
+     "Two variables",
+     "A line in the plane"
+    ],
+    [
+     "n variables",
+     "A hyperplane of dimension n − 1"
+    ]
+   ],
+   "explain": "One variable gives a single solution; more variables give lines and then hyperplanes.",
+   "cites": [
+    6,
+    9,
+    11
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "An engineer faces a curvy, non-linear system. Why might linear equations still help?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Curvy systems are always exactly linear",
+     "feedback": "They are not; the claim is only about approximation."
+    },
+    {
+     "id": "b",
+     "label": "Linear equations never need solving",
+     "feedback": "Solving them is still the point."
+    },
+    {
+     "id": "c",
+     "label": "Non-linear systems are often well approximated by linear ones"
+    },
+    {
+     "id": "d",
+     "label": "Curves cannot be described in math",
+     "feedback": "They can; they are just harder than lines."
+    }
+   ],
+   "answer": "c",
+   "explain": "Linear equations are common in physics and engineering partly because non-linear systems are often well approximated by them.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Take a two-variable linear equation ax + by + c = 0 where b = 0.",
+    "Then x is pinned to one fixed value.",
+    "So the solutions form a vertical line.",
+    "A vertical line is the graph of a function of x, giving one height for each x."
+   ],
+   "wrong": 3,
+   "explain": "When b = 0 the line is vertical, which is not the graph of a function of x.",
+   "cites": [
+    16,
+    28
+   ]
+  }
+ ]
+}

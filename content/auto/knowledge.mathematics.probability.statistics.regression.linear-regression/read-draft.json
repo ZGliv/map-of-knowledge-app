@@ -1,0 +1,65 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What the model says",
+   "text": "Linear regression estimates how a response, also called the dependent variable, relates to one or more explanatory variables, also called predictors. The predictors are joined to the response through a linear combination. The model's unknown parameters are estimated from the data. It looks at how the response is distributed once the predictor values are known, not at how all the variables are spread out together.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "heading": "Assumptions and their limits",
+   "text": "Standard methods such as ordinary least squares rely on a number of assumptions about the predictors, the response and the link between them. They are needed to get estimates that are unbiased in a finite sample. Many extensions let these assumptions be weakened, and some drop them entirely. The price is usually that more data or more modelling assumptions are needed to get an equally precise model.",
+   "cites": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "heading": "Holding the others fixed",
+   "text": "In a model with several predictors, each coefficient β_j answers a specific question. It gives the expected change in y for a one-unit rise in x_j while all the other predictors stay the same. This is called the unique effect of x_j. By contrast, the marginal effect looks at x_j alone, for example through a correlation coefficient or a simple regression of y on x_j only.",
+   "cites": [
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "heading": "When the two effects disagree",
+   "text": "The unique and marginal effects of a predictor can differ sharply. A predictor may matter a lot on its own but add almost nothing once other variables are included, perhaps because another variable already carries its information. The opposite can also happen. If the other variables explain much of the variation in y in a way that complements x_j, including them can make the link with x_j look stronger.",
+   "cites": [
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "heading": "Experiments versus observation",
+   "text": "What held fixed means depends on where the data come from. In a designed experiment, the researcher sets the predictor values, so comparisons can literally be between units the researcher held fixed. In an observational study, the only option is to look at subsets of the data that happen to share the same value of a predictor. Some argue that when predictors are correlated with each other and not set by a design, multiple regression often fails to make the relationships clear.",
+   "cites": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    39
+   ]
+  },
+  {
+   "heading": "Many ways to estimate",
+   "text": "A large number of methods exist for estimating the parameters and drawing conclusions from them. They differ in how simple they are to compute, whether a closed-form solution exists, and how well they cope with heavy-tailed data. One option is maximum likelihood, which can be used when the errors are known to follow a particular family of distributions. If the errors are normal with zero mean, the maximum likelihood answer is the same as the ordinary least squares one.",
+   "cites": [
+    40,
+    41,
+    43,
+    44
+   ]
+  }
+ ]
+}

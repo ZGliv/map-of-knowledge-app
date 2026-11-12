@@ -1,0 +1,323 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice",
+ "name": "Dice",
+ "summary": [
+  {
+   "text": "A die is a small throwable object with marked sides, used to generate random values in tabletop and other games.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A traditional die is a cube with one to six dots on its faces, and when rolled each value is equally likely.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Dice are very old: ones excavated at the Burnt City in south-eastern Iran are estimated to be from between 2800 and 2500 BCE.",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Traditional shape",
+   "value": "A cube with faces marked 1 to 6",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Loaded dice",
+   "value": "Designed to favor some results over others",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Possibly oldest",
+   "value": "Burnt City, Iran, about 2800 to 2500 BCE",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Ancient seven rule",
+   "value": "A Mohenjo-daro die had opposite sides adding to seven",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Snake eyes",
+   "value": "A roll of one pip on each die",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "At a board game you roll a fair standard die. A friend says a 6 is much harder to get than a 3. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because 6 is the highest value"
+    },
+    {
+     "id": "b",
+     "label": "No, each value is equally likely"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only on the first throw"
+    },
+    {
+     "id": "d",
+     "label": "No, because 3 comes up more often"
+    }
+   ],
+   "answer": "b",
+   "explain": "A rolled standard die shows each value from one to six with equal likelihood.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice:q1"
+  },
+  {
+   "prompt": "A casino worker finds a die made to land on some faces more than others, so a cheat can win. What is such a die called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A fair die"
+    },
+    {
+     "id": "b",
+     "label": "A polyhedral die"
+    },
+    {
+     "id": "c",
+     "label": "A tali die"
+    },
+    {
+     "id": "d",
+     "label": "A loaded die"
+    }
+   ],
+   "answer": "d",
+   "explain": "Loaded dice are designed or modified to favor some results over others, for cheating or entertainment.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice:q2"
+  },
+  {
+   "prompt": "In a dice game you throw two dice and both show a single pip. What is that roll nicknamed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Snake eyes"
+    },
+    {
+     "id": "b",
+     "label": "Boxcars"
+    },
+    {
+     "id": "c",
+     "label": "Midnight"
+    },
+    {
+     "id": "d",
+     "label": "Tesserae"
+    }
+   ],
+   "answer": "a",
+   "explain": "A roll of one pip on each die is called snake eyes; a pair of sixes is boxcars.",
+   "cites": [
+    30,
+    32
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice:q3"
+  },
+  {
+   "prompt": "Why would a role-playing game ask players to throw dice at all?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To measure how fast the player can move"
+    },
+    {
+     "id": "b",
+     "label": "To keep score of earlier rounds"
+    },
+    {
+     "id": "c",
+     "label": "To produce a random value"
+    },
+    {
+     "id": "d",
+     "label": "To decide who sits first"
+    }
+   ],
+   "answer": "c",
+   "explain": "Dice are used for generating random values in games, including role-playing games and games of chance.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice:q4"
+  },
+  {
+   "prompt": "A shop sells a 20-faced die with numerals instead of pips. Does it fail to count as a die?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, a die must be a cube with pips"
+    },
+    {
+     "id": "b",
+     "label": "It is a die, since dice can have other shapes and numerals"
+    },
+    {
+     "id": "c",
+     "label": "Yes, a die may only have six faces"
+    },
+    {
+     "id": "d",
+     "label": "It is a die only if the numerals are carved out"
+    }
+   ],
+   "answer": "b",
+   "explain": "Dice may have other polyhedral shapes and may be marked with numerals or symbols instead of pips.",
+   "cites": [
+    3,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice:q5"
+  },
+  {
+   "prompt": "An archaeologist digs up an ancient terracotta die whose opposite faces each add up to seven. What does that show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a loaded die made for cheating"
+    },
+    {
+     "id": "b",
+     "label": "It must be a modern copy"
+    },
+    {
+     "id": "c",
+     "label": "It is a Roman die with only four marked sides"
+    },
+    {
+     "id": "d",
+     "label": "An old die already shared a feature of modern dice"
+    }
+   ],
+   "answer": "d",
+   "explain": "Terracotta dice from Mohenjo-daro, dated to 2500 to 1900 BCE, included one with opposite sides adding to seven, as in modern dice.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.uniform-distribution.dice:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/6sided_dice_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Dice",
+  "credit": "Diacritica",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:6sided_dice_(cropped).jpg"
+ },
+ "source": {
+  "title": "Dice",
+  "url": "https://en.wikipedia.org/wiki/Dice",
+  "revision": 1384201040
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A small machine for chance",
+    "text": "A die is a small object you throw, with marked sides, that can come to rest in several positions. Dice, the plural, are used to produce random values, commonly in tabletop games such as board games, role-playing games and games of chance. The traditional die is a cube whose six faces carry from one to six dots, called pips. When it is rolled, it settles with a number from one to six on top, and each number is equally likely.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Shapes, symbols and cheats",
+    "text": "Dice do not have to be cubes: some have other polyhedral or irregular shapes. Their faces may show numerals or symbols instead of pips. Loaded dice are made or altered to favour some results, either to cheat or for fun. In principle a roll could be predicted if the die were handled in a tightly controlled way, but that is not how dice are usually thrown, and the throw breaks the die's symmetry, so the result is in effect random.",
+    "cites": [
+     5,
+     6,
+     37
+    ]
+   },
+   {
+    "heading": "Older than writing",
+    "text": "Dice were in use before recorded history, and nobody knows exactly where they began. One idea is that they grew out of fortune-telling with the talus bones of hoofed animals, known as knucklebones. Dice found with a backgammon-like game at the Burnt City in south-eastern Iran, dated to 2800 to 2500 BCE, may be the oldest known. Bone dice from Skara Brae in Scotland have been dated to 3100 to 2400 BCE. Graves at Mohenjo-daro in the Indus Valley held terracotta dice from 2500 to 1900 BCE, including one whose opposite sides add up to seven, as on modern dice.",
+    "cites": [
+     7,
+     8,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Romans, twenty sides and cards",
+    "text": "Gambling was illegal in ancient Rome, yet many Romans loved to play at dice. They used two sizes. Tali were the large ones, marked on four sides with one, three, four and six pips, while tesserae were smaller and numbered one to six. Twenty-sided dice go back to the 2nd century CE, and in Ptolemaic Egypt to as early as the 2nd century BCE. In China, dominoes and playing cards developed out of dice.",
+    "cites": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "How a modern die is laid out",
+    "text": "Ordinary dice are small cubes, most often 1.6 cm across, numbered one to six, usually with round pips. Opposite faces add up to seven, which forces the one, two and three faces to meet at a single corner. If those three faces run counterclockwise around that corner, the die is called right-handed; if clockwise, left-handed. Western dice are normally right-handed and Chinese dice normally left-handed.",
+    "cites": [
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Words around dice",
+    "text": "The word die comes from the Old French dé, and before that from the Latin datum, meaning something given or played. Some pairs of numbers have slang names. Snake eyes is a single pip on each of two dice. Boxcars, also called midnight, is six pips on each die, and the two sixes do look like a pair of boxcars on a freight train.",
+    "cites": [
+     26,
+     29,
+     30,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "numberphile-fair-dice",
+   "kind": "video",
+   "title": "Fair Dice (Part 1)",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=G7zT9MljJ3Y",
+   "note": "Persi Diaconis on what makes a die fair, so that each face is equally likely to land up."
+  }
+ ]
+}

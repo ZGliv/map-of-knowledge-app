@@ -1,0 +1,230 @@
+{
+ "summary": [
+  {
+   "text": "Electrical conductivity represents a material's ability to conduct electric current, and it is the reciprocal of electrical resistivity.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "Resistivity measures how strongly a material resists electric current, so a low resistivity means the material readily allows current.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Unlike resistance, resistivity does not depend on shape, so all pure copper wires share one resistivity however long or thick they are.",
+   "cites": [
+    16,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Conductivity unit",
+   "value": "Siemens per metre (S/m)",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Resistivity unit",
+   "value": "Ohm-metre (Ω⋅m)",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Usual symbols",
+   "value": "ρ for resistivity, σ for conductivity",
+   "cites": [
+    6,
+    11
+   ]
+  },
+  {
+   "label": "Rubber versus copper",
+   "value": "Rubber has a far larger resistivity than copper",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Resistance and shape",
+   "value": "Proportional to length, inversely to cross-sectional area",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab sheet gives a material's resistivity, but you need its conductivity. What can you do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply it by the length of the sample"
+    },
+    {
+     "id": "b",
+     "label": "Square the value"
+    },
+    {
+     "id": "c",
+     "label": "Take the reciprocal of the resistivity value"
+    },
+    {
+     "id": "d",
+     "label": "Nothing, since the two are unrelated properties"
+    }
+   ],
+   "answer": "c",
+   "explain": "Conductivity and resistivity are reciprocals of each other, so each can be deduced from the other.",
+   "cites": [
+    2,
+    9
+   ]
+  },
+  {
+   "prompt": "You apply the same electric field to a rubber rod and a copper rod. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Copper passes far more current, because it has low resistivity and high conductivity"
+    },
+    {
+     "id": "b",
+     "label": "Rubber passes far more current, because its resistivity is large"
+    },
+    {
+     "id": "c",
+     "label": "Both pass the same current, since the field is the same"
+    },
+    {
+     "id": "d",
+     "label": "Neither passes current, because a field alone cannot push charge"
+    }
+   ],
+   "answer": "a",
+   "explain": "Rubber has large resistivity and small conductivity, so even a very large field makes almost no current flow, while copper has small resistivity and large conductivity.",
+   "cites": [
+    28,
+    29
+   ]
+  },
+  {
+   "prompt": "You swap a short, fat copper wire for a long, thin one made of the same pure copper. What changes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both its resistance and its resistivity go up"
+    },
+    {
+     "id": "b",
+     "label": "Its resistivity goes up, but its resistance stays the same"
+    },
+    {
+     "id": "c",
+     "label": "Neither changes, because it is the same metal"
+    },
+    {
+     "id": "d",
+     "label": "Its resistance goes up, but its resistivity stays the same"
+    }
+   ],
+   "answer": "d",
+   "explain": "Resistivity is intrinsic to the material, so pure copper wires of any shape share it, but a long, thin wire has a much larger resistance than a thick, short one.",
+   "cites": [
+    17,
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "In the pipe analogy for current, what does a pipe full of sand stand for?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A material with very high conductivity"
+    },
+    {
+     "id": "b",
+     "label": "A high-resistivity material that resists the flow"
+    },
+    {
+     "id": "c",
+     "label": "A short, wide piece of wire"
+    },
+    {
+     "id": "d",
+     "label": "A larger current flowing through"
+    }
+   ],
+   "answer": "b",
+   "explain": "Passing current through a high-resistivity material is like pushing water through a pipe full of sand, while a low-resistivity material is like an empty pipe.",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "prompt": "Which quantity describes how a standard cube of material opposes current, whatever shape a particular object has?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Resistance of that object"
+    },
+    {
+     "id": "b",
+     "label": "Conductance of that object"
+    },
+    {
+     "id": "c",
+     "label": "Electric charge"
+    },
+    {
+     "id": "d",
+     "label": "Resistivity"
+    }
+   ],
+   "answer": "d",
+   "explain": "Resistivity and conductivity are intensive properties giving the opposition of a standard cube, while resistance and conductance describe a specific object.",
+   "cites": [
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "prompt": "A material resists current differently along different directions. Why can one number not describe its resistivity?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Resistivity then has directional components, so a fuller tensor form is needed"
+    },
+    {
+     "id": "b",
+     "label": "The material then has no resistivity at all"
+    },
+    {
+     "id": "c",
+     "label": "Resistivity can only be given for rubber"
+    },
+    {
+     "id": "d",
+     "label": "Directions change the unit from ohm-metres to siemens"
+    }
+   ],
+   "answer": "a",
+   "explain": "When resistivity has a directional component, the most general definition must be used; it is generalized to tensor quantities when the material is non-isotropic.",
+   "cites": [
+    3,
+    32,
+    33
+   ]
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "title": "Four Worlds Built Alike",
+ "question": "What do the Solar System's inner planets have in common?",
+ "hook": "Four very different worlds hide the same anatomy.",
+ "idea": "Terrestrial planets are solid-surfaced worlds of rock and metal, with a metal core, a silicate mantle and an atmosphere made on the planet itself.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You could slice an inner planet like Mars or Venus in half. What would you find?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A metal core, mostly iron, inside a silicate mantle"
+    },
+    {
+     "id": "b",
+     "label": "A solid ball of ice all the way through",
+     "feedback": "Ice-and-rock worlds exist, but they lie farther out; inner planets are built of rock and metal."
+    },
+    {
+     "id": "c",
+     "label": "A hollow centre under a thin rocky shell",
+     "feedback": "Nothing suggests hollow worlds; each has a central metallic core."
+    }
+   ],
+   "answer": "a",
+   "explain": "All terrestrial planets in the Solar System share a central metallic core, mostly iron, with a surrounding silicate mantle.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each kind of world to what it is made of",
+   "pairs": [
+    [
+     "Rocky planet",
+     "Rock and metal"
+    ],
+    [
+     "Icy planet",
+     "Ice and rock"
+    ],
+    [
+     "Larger gaseous planet",
+     "Hydrogen, helium and water"
+    ]
+   ],
+   "explain": "The classes differ in their materials: rock and metal, ice and rock, or hydrogen, helium and water.",
+   "cites": [
+    8,
+    26
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each source of air into the kind of atmosphere it makes",
+   "groups": [
+    "Secondary atmosphere",
+    "Primary atmosphere"
+   ],
+   "items": [
+    [
+     "Gas from volcanic out-gassing",
+     "Secondary atmosphere"
+    ],
+    [
+     "Gas from comet impact debris",
+     "Secondary atmosphere"
+    ],
+    [
+     "Gas captured from the early solar nebula",
+     "Primary atmosphere"
+    ],
+    [
+     "An outer giant planet's air",
+     "Primary atmosphere"
+    ]
+   ],
+   "explain": "Terrestrial planets make their air from volcanoes or comet debris, while giant planets captured theirs from the solar nebula.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Terrestrial planets have a solid surface.",
+    "Larger gaseous planets are mostly hydrogen, helium and water.",
+    "So a terrestrial planet must be mostly hydrogen and helium.",
+    "So the two kinds differ in what they are made of."
+   ],
+   "wrong": 2,
+   "explain": "Terrestrial planets are silicate, rock or metal; hydrogen and helium make up the larger gaseous planets.",
+   "cites": [
+    1,
+    8
+   ]
+  }
+ ]
+}

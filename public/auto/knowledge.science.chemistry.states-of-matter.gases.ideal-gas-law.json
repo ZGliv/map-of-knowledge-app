@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law",
+ "name": "Ideal gas law",
+ "summary": [
+  {
+   "text": "The ideal gas law relates the pressure, volume, temperature and amount of a gas through the equation PV = nRT, where R is the ideal gas constant.",
+   "cites": [
+    1,
+    34
+   ]
+  },
+  {
+   "text": "The temperature in the equation must be absolute, measured in kelvins, where 0 K is −273.15 °C.",
+   "cites": [
+    5,
+    7
+   ]
+  },
+  {
+   "text": "It applies only to an ideal gas or as an approximation to real gases, and is most accurate for monatomic gases at high temperatures and low pressures.",
+   "cites": [
+    34,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Equation",
+   "value": "PV = nRT",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Gas constant R",
+   "value": "8.314 J/(mol·K)",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Temperature unit",
+   "value": "Kelvin, where 0 K is −273.15 °C",
+   "cites": [
+    5,
+    7
+   ]
+  },
+  {
+   "label": "Kinetic derivation",
+   "value": "August Krönig in 1856 and Rudolf Clausius in 1857, independently",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Most accurate for",
+   "value": "Monatomic gases at high temperatures and low pressures",
+   "cites": [
+    36
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A thermometer reads 25 °C. How should the temperature enter the ideal gas equation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As 25, exactly as it is"
+    },
+    {
+     "id": "b",
+     "label": "Shifted to the Kelvin scale first"
+    },
+    {
+     "id": "c",
+     "label": "As 0, since 25 °C is mild"
+    },
+    {
+     "id": "d",
+     "label": "As −273.15 plus nothing else"
+    }
+   ],
+   "answer": "b",
+   "explain": "The equation needs an absolute temperature, in kelvins; the Kelvin scale is a shifted Celsius scale.",
+   "cites": [
+    5,
+    7
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law:q1"
+  },
+  {
+   "prompt": "Which sample of gas would follow the ideal gas law most closely?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A noble gas that is cold and squeezed"
+    },
+    {
+     "id": "b",
+     "label": "A diatomic gas that is cold and squeezed"
+    },
+    {
+     "id": "c",
+     "label": "A diatomic gas that is cold and thinly spread"
+    },
+    {
+     "id": "d",
+     "label": "A noble gas that is hot and under low pressure"
+    }
+   ],
+   "answer": "d",
+   "explain": "The law is most accurate for monatomic gases at high temperatures and low pressures, and noble gases are monatomic.",
+   "cites": [
+    27,
+    36
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law:q2"
+  },
+  {
+   "prompt": "Why does the law fit better when a gas is spread into a larger volume at lower pressure?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Neighbouring molecules end up far apart compared with their size"
+    },
+    {
+     "id": "b",
+     "label": "Molecules grow smaller as the pressure drops"
+    },
+    {
+     "id": "c",
+     "label": "Molecules begin to attract each other strongly"
+    },
+    {
+     "id": "d",
+     "label": "Molecules stop moving and lose their energy"
+    }
+   ],
+   "answer": "a",
+   "explain": "At lower densities the distance between adjacent molecules becomes much larger than the molecular size, so size matters less.",
+   "cites": [
+    36,
+    37
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law:q3"
+  },
+  {
+   "prompt": "Why does heating a gas make the law work better?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Molecules become larger and fill the container"
+    },
+    {
+     "id": "b",
+     "label": "Molecules lose all motion at higher temperature"
+    },
+    {
+     "id": "c",
+     "label": "Attractions between molecules matter less as their energy rises"
+    },
+    {
+     "id": "d",
+     "label": "Heat adds new kinds of attraction between molecules"
+    }
+   ],
+   "answer": "c",
+   "explain": "The relative importance of intermolecular attractions diminishes with increasing thermal kinetic energy, so with increasing temperature.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law:q4"
+  },
+  {
+   "prompt": "A real gas expands freely into a larger space and its temperature changes. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its molecules vanish as it expands"
+    },
+    {
+     "id": "b",
+     "label": "Its temperature stays fixed for every real gas"
+    },
+    {
+     "id": "c",
+     "label": "Its molecules are far larger than an ideal gas's"
+    },
+    {
+     "id": "d",
+     "label": "Its molecules attract or repel one another, which an ideal gas ignores"
+    }
+   ],
+   "answer": "d",
+   "explain": "For an ideal gas free expansion leaves the temperature constant, but real gas molecules interact, so heating or cooling occurs (the Joule–Thomson effect).",
+   "cites": [
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law:q5"
+  },
+  {
+   "prompt": "If gas molecules do not attract each other, what kind of energy does the gas hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All of its energy is motion energy of its molecules"
+    },
+    {
+     "id": "b",
+     "label": "Mostly energy stored in attractions between molecules"
+    },
+    {
+     "id": "c",
+     "label": "Half motion energy and half stored energy"
+    },
+    {
+     "id": "d",
+     "label": "No energy of any kind"
+    }
+   ],
+   "answer": "a",
+   "explain": "With no intermolecular attractions, potential energy is zero, so all the energy is the kinetic energy of the molecules.",
+   "cites": [
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.gases.ideal-gas-law:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Ideal_gas_isotherms.svg/960px-Ideal_gas_isotherms.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Ideal gas law",
+  "credit": "Krishnavedala",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ideal_gas_isotherms.svg"
+ },
+ "source": {
+  "title": "Ideal gas law",
+  "url": "https://en.wikipedia.org/wiki/Ideal_gas_law",
+  "revision": 1376350823
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "One equation for a gas",
+    "text": "The ideal gas law links the main measurable properties of a gas in a single equation, pV = nRT. In it, p stands for pressure, V for volume and T for temperature, while n is the amount of substance and R is a fixed number called the ideal gas constant. For a given amount of gas, its pressure, volume and temperature together settle what state it is in.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Units and the constant",
+    "text": "The temperature in the equation has to be an absolute temperature, counted in kelvins. The Kelvin scale is the Celsius scale shifted so that 0 K sits at −273.15 °C, the lowest temperature possible. In SI units, pressure goes in pascals, volume in cubic metres and amount in moles. R then has the value 8.314 J/(mol·K). The same constant can be written as 0.0821 L⋅atm/(mol⋅K), or roughly 2 cal/(mol·K).",
+    "cites": [
+     5,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Why it works",
+    "text": "The kinetic theory of ideal gases assumes that the atoms or molecules feel no pull toward one another. That means the gas has no potential energy, so all of its energy is the kinetic energy of its moving particles. August Krönig in 1856 and Rudolf Clausius in 1857 each derived the ideal gas law from this picture, working separately.",
+    "cites": [
+     2,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Built from simpler laws",
+    "text": "The older laws behind this equation came from experiments that changed just two properties of a gas and held all the others fixed. Boyle, for example, kept both the number of particles and the temperature constant. Since each of these rules holds only while the other properties stay put, you cannot just merge them with algebra. Any derivation has to keep track of what each experiment held constant.",
+    "cites": [
+     40,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Where it falls short",
+    "text": "The equation applies exactly only to an ideal gas, and otherwise serves as an approximation for real gases that act enough like one. It ignores both the size of the molecules and their pull on each other, so it works best for monatomic gases at high temperatures and low pressures. At low density, the gaps between molecules are much larger than the molecules, so their size matters less. At higher temperatures, the extra energy of motion makes the attractions matter less. Fuller equations, such as the van der Waals equation, allow for both effects.",
+    "cites": [
+     34,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "A telling example",
+    "text": "When an ideal gas expands freely, its molecules do not interact and its temperature stays the same. In a real gas, molecules do attract or repel each other, depending on temperature and pressure, and the gas does warm or cool. This is called the Joule–Thomson effect. For air at room temperature and sea level, its coefficient μ_JT is 0.22 °C/bar.",
+    "cites": [
+     30,
+     31,
+     32,
+     33
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "chem2e-gas-laws",
+   "kind": "book",
+   "title": "9.2: Relating Pressure, Volume, Amount, and Temperature - The Ideal Gas Law",
+   "by": "OpenStax, Chemistry 2e (LibreTexts)",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.03%3A_Relating_Pressure_Volume_Amount_and_Temperature_-_The_Ideal_Gas_Law",
+   "note": "A free college textbook section building PV = nRT from the simpler gas laws, with worked examples.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "crashcourse-ideal-gas-law",
+   "kind": "video",
+   "title": "The Ideal Gas Law: Crash Course Chemistry #12",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=BxUS1K7xu30",
+   "note": "A Crash Course video on how the gas laws combine into PV = nRT and what each term means."
+  }
+ ]
+}

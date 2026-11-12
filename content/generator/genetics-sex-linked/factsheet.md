@@ -1,0 +1,5579 @@
+# Fact sheet: genetics-sex-linked
+
+Numbered sentences from each pinned source. Draft from these facts in your own words: never copy a run of 8 words (the validator checks). Cite the source ID exactly as written in the heading.
+
+## [W1] Wikipedia: Thomas Hunt Morgan
+https://en.wikipedia.org/w/index.php?title=Thomas_Hunt_Morgan&oldid=1381402569 · CC BY-SA 4.0 · usage: ai_input
+
+- [W1.1] Thomas Hunt Morgan  (September 25, 1866 – December 4, 1945) was an American evolutionary biologist, geneticist, and embryologist.
+- [W1.2] In 1933, he won the Nobel Prize in Physiology or Medicine for discoveries on the role of chromosomes in heredity.
+- [W1.3] Morgan received his Ph.D. from Johns Hopkins University in zoology in 1890 and researched embryology during his tenure at Bryn Mawr.
+- [W1.4] Following the rediscovery of Mendelian inheritance in 1900, Morgan began to study the genetic characteristics of the fruit fly Drosophila melanogaster.
+- [W1.5] In his famous Fly Room at Columbia University's Schermerhorn Hall, Morgan demonstrated that genes are carried on chromosomes and are the mechanical basis of heredity.
+- [W1.6] These discoveries formed the basis of the modern science of genetics.
+- [W1.7] During his distinguished career, Morgan wrote 22 books and 370 scientific papers.
+- [W1.8] As a result of his work, Drosophila became a major model organism in contemporary genetics.
+- [W1.9] The Division of Biology which he established at the California Institute of Technology has produced seven Nobel Prize winners.
+- [W1.10] Morgan was born in Lexington, Kentucky, to Charlton Hunt Morgan and Ellen Key Howard Morgan.
+- [W1.11] Part of a line of Southern plantation and slave owners on his father's side, Morgan was a nephew of Confederate General John Hunt Morgan; his great-grandfather John Wesley Hunt had been one of the first millionaires west of the Allegheny Mountains.
+- [W1.12] Through his mother, he was the great-grandson of Francis Scott Key, the author of the "Star Spangled Banner", and John Eager Howard, governor and senator from Maryland.
+- [W1.13] Following the Civil War, the family fell on hard times with the temporary loss of civil and some property rights for those who aided the Confederacy.
+- [W1.14] His father had difficulty finding work in politics and spent much of his time coordinating veterans' reunions.
+- [W1.15] Beginning at age 16 in the Preparatory Department, Morgan attended the State College of Kentucky (now the University of Kentucky).
+- [W1.16] He focused on science; he particularly enjoyed natural history, and worked with the U.S.
+- [W1.17] Geological Survey in his summers.
+- [W1.18] He graduated as valedictorian in 1886 with a Bachelor of Science degree.
+- [W1.19] Following a summer at the Marine Biology School in Annisquam, Massachusetts, Morgan began graduate studies in zoology at the recently founded Johns Hopkins University.
+- [W1.20] After two years of experimental work with morphologist William Keith Brooks and writing several publications, Morgan was eligible to receive a Master of Science from the State College of Kentucky in 1888.
+- [W1.21] The college required two years of study at another institution and an examination by the college faculty.
+- [W1.22] The college offered Morgan a full professorship; however, he chose to stay at Johns Hopkins and was awarded a relatively large fellowship to help him fund his studies.
+- [W1.23] Under Brooks, Morgan completed his thesis work on the embryology of sea spiders—collected during the summers of 1889 and 1890 at the Marine Biological Laboratory in Woods Hole, Massachusetts—to determine their phylogenetic relationship with other arthropods.
+- [W1.24] He concluded that concerning embryology, they were more closely related to spiders than crustaceans.
+- [W1.25] Based on the publication of this work, Morgan was awarded his Ph.D. from Johns Hopkins in 1890 and was also awarded the Bruce Fellowship in Research.
+- [W1.26] He used the fellowship to travel to Jamaica, the Bahamas and Europe to conduct further research.
+- [W1.27] Every summer from 1910 to 1925, Morgan and his colleagues at the famous Fly Room at Columbia University moved their research program to the Marine Biological Laboratory.
+- [W1.28] Aside from being an independent investigator at the MBL from 1890 to 1942, he became very involved in the governance of the institution, including serving as an MBL trustee from 1897 to 1945.
+- [W1.29] In 1890, Morgan was appointed associate professor (and head of the biology department) at Johns Hopkins' sister school Bryn Mawr College, replacing his colleague Edmund Beecher Wilson.
+- [W1.30] Morgan taught all morphology-related courses, while the other member of the department, Jacques Loeb, taught the physiological courses.
+- [W1.31] Although Loeb stayed for only one year, it was the beginning of their lifelong friendship.
+- [W1.32] Morgan lectured in biology five days a week, giving two lectures a day.
+- [W1.33] He frequently included his recent research in his lectures.
+- [W1.34] Although an enthusiastic teacher, he was most interested in research in the laboratory.
+- [W1.35] During the first few years at Bryn Mawr, he produced descriptive studies of sea acorns, ascidian worms, and frogs.
+- [W1.36] Morgan co-authored an 1894 paper on the division of the egg of Rana temporaria with Japanese Bryn Mawr student Ume Tsuda; this is considered to be the first scientific paper written in English by a Japanese woman.
+- [W1.37] In 1894 Morgan was granted a year's absence to conduct research in the laboratories of Stazione Zoologica in Naples, where Wilson had worked two years earlier.
+- [W1.38] There he worked with German biologist Hans Driesch, whose research in the experimental study of development piqued Morgan's interest.
+- [W1.39] Among other projects that year, Morgan completed an experimental study of ctenophore embryology.
+- [W1.40] In Naples and through Loeb, he became familiar with the Entwicklungsmechanik (roughly, "developmental mechanics") school of experimental biology.
+- [W1.41] It was a reaction to the vitalistic Naturphilosophie, which was extremely influential in 19th-century morphology.
+- [W1.42] Morgan changed his work from traditional, largely descriptive morphology to experimental embryology that sought physical and chemical explanations for organismal development.
+- [W1.43] At the time, there was considerable scientific debate over the question of how an embryo developed.
+- [W1.44] Following Wilhelm Roux's mosaic theory of development, some believed that hereditary material was divided among embryonic cells, which were predestined to form particular parts of a mature organism.
+- [W1.45] Driesch and others thought that development was due to epigenetic factors, where interactions between the protoplasm and the nucleus of the egg and the environment could affect development.
+- [W1.46] Morgan was in the latter camp; his work with Driesch demonstrated that blastomeres isolated from sea urchin and ctenophore eggs could develop into complete larvae, contrary to the predictions (and experimental evidence) of Roux's supporters.
+- [W1.47] A related debate involved the role of epigenetic and environmental factors in development; on this front Morgan showed that sea urchin eggs could be induced to divide without fertilization by adding magnesium chloride.
+- [W1.48] Loeb continued this work and became well known for creating fatherless frogs using the method.
+- [W1.49] When Morgan returned to Bryn Mawr in 1895, he was promoted to full professor.
+- [W1.50] Morgan's main lines of experimental work involved regeneration and larval development; in each case, his goal was to distinguish internal and external causes to shed light on the Roux-Driesch debate.
+- [W1.51] He wrote his first book, The Development of the Frog's Egg (1897).
+- [W1.52] He began a series of studies on different organisms' ability to regenerate.
+- [W1.53] He looked at grafting and regeneration in tadpoles, fish, and earthworms; in 1901 he published his research as Regeneration.
+- [W1.54] Beginning in 1900, Morgan started working on the problem of sex determination, which he had previously dismissed when Nettie Stevens discovered the impact of the Y chromosome on sex.
+- [W1.55] He also continued to study the evolutionary problems that had been the focus of his earliest work.
+- [W1.56] Morgan worked at Columbia University for 24 years, from 1904 until 1928 when he left for a position at the California Institute of Technology.
+- [W1.57] In 1904, his friend, Jofi Joseph died of tuberculosis, and he felt he ought to mourn her, though E.
+- [W1.58] Wilson—still blazing the path for his younger friend—invited Morgan to join him at Columbia University.
+- [W1.59] This move freed him to focus fully on experimental work.
+- [W1.60] When Morgan took the professorship in experimental zoology, he became increasingly focused on the mechanisms of heredity and evolution.
+- [W1.61] He published Evolution and Adaptation (1903); like many biologists at the time, he saw evidence for biological evolution (as in the common descent of similar species) but rejected Darwin's proposed mechanism of natural selection acting on small, constantly produced variations.
+- [W1.62] Extensive work in biometry seemed to indicate that continuous natural variation had distinct limits and did not represent heritable changes.
+- [W1.63] Embryological development posed an additional problem in Morgan's view, as selection could not act on the early, incomplete stages of highly complex organs such as the eye.
+- [W1.64] The common solution of the Lamarckian mechanism of inheritance of acquired characters, which featured prominently in Darwin's theory, was increasingly rejected by biologists.
+- [W1.65] According to Morgan's biographer Garland Allen, he was also hindered by his views on taxonomy: he thought that species were entirely artificial creations that distorted the continuously variable range of real forms, while he held a "typological" view of larger taxa and could see no way that one such group could transform into another.
+- [W1.66] But while Morgan was skeptical of natural selection for many years, his theories of heredity and variation were radically transformed through his conversion to Mendelism.
+- [W1.67] In 1900 three scientists, Carl Correns, Erich von Tschermak and Hugo de Vries, had rediscovered the work of Gregor Mendel, and with it the foundation of genetics.
+- [W1.68] De Vries proposed that new species were created by mutation, bypassing the need for either Lamarckism or Darwinism.
+- [W1.69] As Morgan had dismissed both evolutionary theories, he was seeking to prove De Vries' mutation theory with his experimental heredity work.
+- [W1.70] He was initially skeptical of Mendel's laws of heredity (as well as the related chromosomal theory of sex determination), which were being considered as a possible basis for natural selection.
+- [W1.71] Castle, around 1908 Morgan started working on the fruit fly Drosophila melanogaster, and encouraging students to do so as well.
+- [W1.72] With Fernandus Payne, he mutated Drosophila through physical, chemical, and radiational means.
+- [W1.73] He began cross-breeding experiments to find heritable mutations, but they had no significant success for two years.
+- [W1.74] Castle had also had difficulty identifying mutations in Drosophila, which were tiny.
+- [W1.75] Finally, in 1909, a series of heritable mutants appeared, some of which displayed Mendelian inheritance patterns; in 1910 Morgan noticed a white-eyed mutant male among the red-eyed wild types.
+- [W1.76] When white-eyed flies were bred with a red-eyed female, their progeny were all red-eyed.
+- [W1.77] A second-generation cross produced white-eyed males—a sex-linked recessive trait, the gene for which Morgan named white.
+- [W1.78] Morgan also discovered a pink-eyed mutant that showed a different pattern of inheritance.
+- [W1.79] In a paper published in Science in 1911, he concluded that (1) some traits were sex-linked, (2) the trait was probably carried on one of the sex chromosomes, and (3) other genes were probably carried on specific chromosomes as well.
+- [W1.80] Morgan and his students counted the mutant characteristics of thousands of fruit flies and studied their inheritance.
+- [W1.81] A miniature-wing mutant on the sex chromosome sometimes sorted independently of the white-eye mutation.
+- [W1.82] This led Morgan to the idea of genetic linkage and to hypothesize the phenomenon of crossing over.
+- [W1.83] He relied on the discovery of Frans Alfons Janssens, a Belgian professor at the University of Leuven, who described the phenomenon in 1909 and had called it chiasmatypy.
+- [W1.84] Morgan proposed that the amount of crossing over between linked genes differs and that crossover frequency might indicate the distance separating genes on the chromosome.
+- [W1.85] The later English geneticist J.
+- [W1.86] Haldane suggested that the unit of measurement for linkage be called the morgan.
+- [W1.87] Morgan's student Alfred Sturtevant developed the first genetic map in 1913.
+- [W1.88] In 1915 Morgan, Sturtevant, Calvin Bridges and H.
+- [W1.89] Muller wrote the seminal book The Mechanism of Mendelian Heredity.
+- [W1.90] Geneticist Curt Stern called the book "the fundamental textbook of the new genetics".
+- [W1.91] In the following years, most biologists came to accept the Mendelian-chromosome theory, which was independently proposed by Walter Sutton and Theodor Boveri in 1902/1903, and elaborated and expanded by Morgan and his students.
+- [W1.92] Garland Allen characterized the post-1915 period as one of normal science, in which "The activities of 'geneticists' were aimed at further elucidation of the details and implications of the Mendelian-chromosome theory developed between 1910 and 1915."  But, the details of the increasingly complex theory, as well as the concept of the gene and its physical nature, were still controversial.
+- [W1.93] Castle pointed to contrary results in other organisms, suggesting that genes interact with each other, while Richard Goldschmidt and others thought there was no compelling reason to view genes as discrete units residing on chromosomes.
+- [W1.94] Because of Morgan's dramatic success with Drosophila, many other labs throughout the world took up fruit fly genetics.
+- [W1.95] Columbia became the center of an informal exchange network, through which promising mutant Drosophila strains were transferred from lab to lab; Drosophila became one of the first and for some time the most widely used, model organisms.
+- [W1.96] Morgan's group remained highly productive, but Morgan largely withdrew from doing fly work and gave his lab members considerable freedom in designing and carrying out their own experiments.
+- [W1.97] He returned to embryology and worked to encourage the spread of genetics research to other organisms and the spread of mechanistic experimental approach (Enwicklungsmechanik) to all biological fields.
+- [W1.98] After 1915, he also became a strong critic of the growing eugenics movement, which adopted genetic approaches in support of racist views of "improving" humanity.
+- [W1.99] Morgan's fly-room at Columbia became world-famous, and he found it easy to attract funding and visiting academics.
+- [W1.100] In 1927 after 25 years at Columbia, and nearing the age of retirement, he received an offer from George Ellery Hale to establish a school of biology in California.
+- [W1.101] In 1928 Morgan joined the faculty of the California Institute of Technology where he remained until his retirement 14 years later in 1942.
+- [W1.102] Morgan moved to California to head the Division of Biology at the California Institute of Technology in 1928.
+- [W1.103] In establishing the biology division, Morgan wanted to distinguish his program from those offered by Johns Hopkins and Columbia, with research focused on genetics and evolution; experimental embryology; physiology; biophysics, and biochemistry.
+- [W1.104] He was also instrumental in the establishment of the Marine Laboratory  at Corona del Mar.
+- [W1.105] He wanted to attract the best people to the Division at Caltech, so he took Bridges, Sturtevant, Jack Shultz and Albert Tyler from Columbia and took on Theodosius Dobzhansky as an international research fellow.
+- [W1.106] More scientists came to work in the Division including George Beadle, Boris Ephrussi, Edward L.
+- [W1.107] Tatum, Linus Pauling, Frits Went, Edward B.
+- [W1.108] Byance with his reputation, Morgan held numerous prestigious positions in American science organizations.
+- [W1.109] From 1927 to 1931 Morgan served as the President of the National Academy of Sciences; in 1930 he was the President of the American Association for the Advancement of Science; and in 1932 he chaired the Sixth International Congress of Genetics in Ithaca, New York.
+- [W1.110] In 1933 Morgan was awarded the Nobel Prize in Physiology or Medicine; he had been nominated in 1919 and 1930 for the same work.
+- [W1.111] As an acknowledgment of the group nature of his discovery, he gave his prize money to Bridges, Sturtevant, and his own children.
+- [W1.112] Morgan declined to attend the awards ceremony in 1933, instead attending in 1934.
+- [W1.113] The 1933 rediscovery of the giant polytene chromosomes in the salivary gland of Drosophila may have influenced his choice.
+- [W1.114] Until that point, the lab's results had been inferred from phenotypic results, the visible polytene chromosome enabled them to confirm their results on a physical basis.
+- [W1.115] Morgan's Nobel acceptance speech entitled "The Contribution of Genetics to Physiology and Medicine" downplayed the contribution genetics could make to medicine beyond genetic counseling.
+- [W1.116] In 1939 he was awarded the Copley Medal by the Royal Society.
+- [W1.117] He received two extensions of his contract at Caltech, but eventually retired in 1942, becoming a professor and chairman emeritus.
+- [W1.118] George Beadle returned to Caltech to replace Morgan as chairman of the department in 1946.
+- [W1.119] Although he had retired, Morgan kept offices across the road from the Division and continued laboratory work.
+- [W1.120] In his retirement, he returned to the questions of sexual differentiation, regeneration, and embryology.
+- [W1.121] Morgan had throughout his life suffered from a chronic duodenal ulcer.
+- [W1.122] In 1945, at age 79, he experienced a severe heart attack and died from a ruptured artery.
+- [W1.123] On August 30, 2025, the family of Thomas Hunt Morgan and his wife Lilian Vaughan Morgan transferred their cremains from the Mountain View Mausoleum in Altadena, California to the Woods Hole Community Cemetery in Woods Hole, Massachusetts.
+- [W1.124] The community cemetery is managed by the Church of the Messiah in Woods Hole.
+- [W1.125] Morgan was interested in evolution throughout his life.
+- [W1.126] He wrote his thesis on the phylogeny of sea spiders (pycnogonids) and wrote four books about evolution.
+- [W1.127] In Evolution and Adaptation (1903), he argued the anti-Darwinist position that selection could never produce wholly new species by acting on slight individual differences.
+- [W1.128] He rejected Darwin's theory of sexual selection and the Neo-Lamarckian theory of the inheritance of acquired characters.
+- [W1.129] Morgan was not the only scientist attacking natural selection.
+- [W1.130] The period 1875–1925 has been called 'The eclipse of Darwinism'.
+- [W1.131] After discovering many small stable heritable mutations in Drosophila, Morgan gradually changed his mind.
+- [W1.132] The relevance of mutations for evolution is that only characteristics that are inherited can result in evolution.
+- [W1.133] Since Morgan solved the problem of heredity (1915), he was in a unique position to examine critically Darwin's theory of natural selection.
+- [W1.134] In A Critique of the Theory of Evolution (1916), Morgan discussed questions such as: "Does selection play any role in evolution?
+- [W1.135] How can selection produce anything new?
+- [W1.136] Is selection no more than the elimination of the unfit?
+- [W1.137] Is selection a creative force?" After eliminating some misunderstandings and explaining in detail the new science of Mendelian heredity and its chromosomal basis, Morgan concludes, "the evidence shows clearly that the characters of wild animals and plants, as well as those of domesticated races, are inherited both in the wild and in domesticated forms according to the Mendel's Law".
+- [W1.138] "Evolution has taken place by the incorporation into the race of those mutations that are beneficial to the life and reproduction of the organism".
+- [W1.139] Injurious mutations have practically no chance of becoming established.
+- [W1.140] Far from rejecting evolution, as the title of his 1916 book may suggest, Morgan laid the foundation of the science of genetics.
+- [W1.141] He also laid the theoretical foundation for the mechanism of evolution: natural selection.
+- [W1.142] Heredity was a central plank of Darwin's theory of natural selection, but Darwin could not provide a working theory of heredity.
+- [W1.143] Darwinism could not progress without a correct theory of genetics.
+- [W1.144] By creating that foundation, Morgan contributed to the neo-Darwinian synthesis, despite his criticism of Darwin at the beginning of his career.
+- [W1.145] Much work on the Evolutionary Synthesis remained to be done.
+- [W1.146] Morgan left an important legacy in genetics.
+- [W1.147] Some of Morgan's students from Columbia and Caltech went on to win their own Nobel Prizes, including George Wells Beadle and Hermann Joseph Muller.
+- [W1.148] Nobel prize winner Eric Kandel has written of Morgan, "Much as Darwin's insights into the evolution of animal species first gave coherence to nineteenth-century biology as a descriptive science, Morgan's findings about genes and their location on chromosomes helped transform biology into an experimental science."
+- [W1.149] Johns Hopkins awarded Morgan an honorary LL.D. and the University of Kentucky awarded him an honorary Ph.D.
+- [W1.150] He was elected Member of the National Academy of Sciences in 1909.
+- [W1.151] He was elected to the American Philosophical Society in 1915.
+- [W1.152] He was a member of the American Association for Anatomy.
+- [W1.153] He was elected a Foreign Member of the Royal Society (ForMemRS) in 1919
+- [W1.154] In 1924 Morgan received the Darwin Medal.
+- [W1.155] He was elected to the American Academy of Arts and Sciences in 1928.
+- [W1.156] The Thomas Hunt Morgan School of Biological Sciences at the University of Kentucky is named for him.
+- [W1.157] The Genetics Society of America annually awards the Thomas Hunt Morgan Medal, named in his honor, to one of its members who has made a significant contribution to the science of genetics.
+- [W1.158] Thomas Hunt Morgan's discovery was illustrated on a 1989 stamp issued in Sweden, showing the discoveries of eight Nobel Prize-winning geneticists.
+- [W1.159] A junior high school in the Shoreline School District was named for Morgan until 1986.
+- [W1.160] On June 4, 1904, Morgan married Lillian Vaughan Sampson (1870–1952), who had entered graduate school in biology at Bryn Mawr the same year Morgan joined the faculty; she put aside her scientific work for 16 years of their marriage when they had four children.
+- [W1.161] Later she contributed significantly to Morgan's Drosophila work.
+- [W1.162] One of their four children (one boy and three girls) was Isabel Morgan (1911–1996) (Marr.
+- [W1.163] Mountain), who became a virologist at Johns Hopkins, specializing in polio research.
+- [W1.164] Mildred Hoge Richards, pupil
+- [W1.165] Thomas Hunt Morgan: The Man and His Science.
+- [W1.166] Princeton University Press.
+- [W1.167] American National Biography.
+- [W1.168] Lords of the Fly: Drosophila Genetics and the Experimental Life.
+- [W1.169] University of Chicago Press.
+- [W1.170] Shine, Ian B; Sylvia Wrobel (1976).
+- [W1.171] Thomas Hunt Morgan: Pioneer of Genetics.
+- [W1.172] University Press of Kentucky.
+- [W1.173] "Thomas Hunt Morgan: Kentucky's Gift to Biological Science" (PDF).
+- [W1.174] Filson Club History Quarterly.
+- [W1.175] Retrieved September 22, 2025.
+- [W1.176] "Thomas Hunt Morgan" (PDF).
+- [W1.177] Biographical Memoirs of the National Academy of Sciences.
+- [W1.178] Thomas Hunt Morgan on Nobelprize.org  including the Nobel Lecture on June 4, 1934 The Relation of Genetics to Physiology and Medicine
+- [W1.179] Thomas Hunt Morgan Biological Sciences Building at University of Kentucky
+- [W1.180] Thomas Hunt Morgan – Biographical Memoirs of the National Academy of Sciences
+- [W1.181] Works by Thomas Hunt Morgan at Project Gutenberg
+- [W1.182] Works by or about Thomas Hunt Morgan at the Internet Archive
+- [W1.183] Works by Thomas Hunt Morgan at LibriVox (public domain audiobooks)
+- [W1.184] Works by Thomas Hunt Morgan at the Biodiversity Heritage Library
+
+## [W2] Wikipedia: John Dalton
+https://en.wikipedia.org/w/index.php?title=John_Dalton&oldid=1374984610 · CC BY-SA 4.0 · usage: ai_input
+
+- [W2.1] John Dalton (; 5 or 6 September 1766 – 27 July 1844) was an English chemist, physicist, and meteorologist whose work laid the foundations of modern atomic theory and stoichiometric chemistry.
+- [W2.2] Building on earlier ideas about the indivisibility of matter and his own precise measurements of combining ratios, Dalton proposed that each chemical element consists of identical atoms of characteristic weight, and that compounds are formed when atoms of different elements combine in fixed whole-number proportions.
+- [W2.3] His A New System of Chemical Philosophy (1808) presented a coherent atomic model, supplied relative atomic weights and symbolic notation, and established the quantitative framework that shaped nineteenth-century chemistry and remains the basis of modern chemical thought.
+- [W2.4] Dalton was also a pioneering meteorologist and physicist; he kept daily weather observations for over fifty years, formulated the first empirical law of partial pressures (later known as Dalton's law), and studied the behaviour of gases through his work on vapor pressure and gas solubility.
+- [W2.5] His investigations into his own color blindness led to the first scientific description of the condition—which in several languages is still known as Daltonism—and helped establish experimental methods for linking perception with physiology.
+- [W2.6] Elected a Fellow of the Royal Society in 1822 and awarded its Royal Medal in 1826, Dalton became the first British scientist to develop a quantitative atomic theory and one of the key figures in the transition of chemistry from a qualitative to a mathematical science.
+- [W2.7] John Dalton was born on 5 or 6 September 1766 into a Quaker family in Eaglesfield, near Cockermouth, in Cumberland, England.
+- [W2.8] He received his early education from his father and from Quaker John Fletcher, who ran a private school in the nearby village of Pardshaw Hall.
+- [W2.9] Dalton's family was too poor to support him for long and he began to earn his living, from the age of ten, in the service of wealthy local Quaker Elihu Robinson.
+- [W2.10] Dalton's early life was influenced by a prominent Quaker, Elihu Robinson, a competent meteorologist and instrument maker, from Eaglesfield, Cumberland, who interested him in problems of mathematics and meteorology.
+- [W2.11] During his years in Kendal, Dalton contributed solutions to problems and answered questions on various subjects in The Ladies' Diary and the Gentleman's Diary.
+- [W2.12] In 1787, aged 21, he began his meteorological diary in which, during the succeeding 57 years, he entered more than 200,000 observations.
+- [W2.13] He rediscovered George Hadley's theory of atmospheric circulation (now known as the Hadley cell) around this time.
+- [W2.14] In 1793 Dalton's first publication, Meteorological Observations and Essays, contained the seeds of several of his later discoveries but despite the originality of his treatment, little attention was paid to them by other scholars.
+- [W2.15] A second work by Dalton, Elements of English Grammar (or A new system of grammatical instruction: for the use of schools and academies), was published in 1801.
+- [W2.16] After leaving the Lake District, Dalton returned annually to spend his holidays studying meteorology, something which involved a lot of hill-walking.
+- [W2.17] Until the advent of aeroplanes and weather balloons, the only way to make measurements of temperature and humidity at altitude was to climb a mountain.
+- [W2.18] Dalton estimated the height using a barometer.
+- [W2.19] The Ordnance Survey did not publish maps for the Lake District until the 1860s.
+- [W2.20] Before then, Dalton was one of the few authorities on the heights of the region's mountains.
+- [W2.21] He was often accompanied by Jonathan Otley, who also made a study of the heights of the local peaks, using Dalton's figures as a comparison to check his work.
+- [W2.22] Otley published his information in his map of 1818.
+- [W2.23] Otley became both an assistant and a friend to Dalton.
+- [W2.24] In 1794, shortly after his arrival in Manchester, Dalton was elected a member of the Manchester Literary and Philosophical Society, the "Lit & Phil", and a few weeks later he communicated his first paper on "Extraordinary facts relating to the vision of colours", in which he postulated that shortage in colour perception was caused by discoloration of the liquid medium of the eyeball.
+- [W2.25] As both he and his brother were colour blind, he recognised that the condition must be hereditary.
+- [W2.26] Although Dalton's theory was later disproven, his early research into colour vision deficiency was recognized after his lifetime.
+- [W2.27] Examination of his preserved eyeball in 1995 demonstrated that Dalton had deuteranopia, a type of congenital red-green color blindness in which the gene for medium wavelength sensitive (green) photopsins is missing.
+- [W2.28] Individuals with this form of colour blindness see every colour as mapped to blue, yellow or gray, or, as Dalton wrote in his seminal paper,
+- [W2.29] That part of the image which others call red, appears to me little more than a shade, or defect of light; after that the orange, yellow and green seem one colour, which descends pretty uniformly from an intense to a rare yellow, making what I should call different shades of yellow.
+- [W2.30] In 1800, Dalton became secretary of the Manchester Literary and Philosophical Society, and in the following year he presented an important series of lectures, entitled "Experimental Essays" on the constitution of mixed gases; the pressure of steam and other vapours at different temperatures in a vacuum and in air; on evaporation; and on the thermal expansion of gases.
+- [W2.31] The four essays, presented between 2 and 30 October 1801, were published in the Memoirs of the Literary and Philosophical Society of Manchester in 1802.
+- [W2.32] The second essay opens with the remark,
+- [W2.33] There can scarcely be a doubt entertained respecting the reducibility of all elastic fluids of whatever kind, into liquids; and we ought not to despair of effecting it in low temperatures and by strong pressures exerted upon the unmixed gases further.
+- [W2.34] After describing experiments to ascertain the pressure of steam at various points between 0 and 100 °C (32 and 212 °F), Dalton concluded from observations of the vapour pressure of six different liquids, that the variation of vapour pressure for all liquids is equivalent, for the same variation of temperature, reckoning from vapour of any given pressure.
+- [W2.35] In the fourth essay he remarks,
+- [W2.36] I see no sufficient reason why we may not conclude, that all elastic fluids under the same pressure expand equally by heat—and that for any given expansion of mercury, the corresponding expansion of air is proportionally something less, the higher the temperature. ...
+- [W2.37] It seems, therefore, that general laws respecting the absolute quantity and the nature of heat, are more likely to be derived from elastic fluids than from other substances.
+- [W2.38] He enunciated Gay-Lussac's law, published in 1802 by Joseph Louis Gay-Lussac (Gay-Lussac credited the discovery to unpublished work from the 1780s by Jacques Charles).
+- [W2.39] In the two or three years following the lectures, Dalton published several papers on similar topics.
+- [W2.40] "On the Absorption of Gases by Water and other Liquids" (read as a lecture on 21 October 1803, first published in 1805) contained his law of partial pressures now known as Dalton's law.
+- [W2.41] Arguably the most important of all Dalton's investigations are concerned with the atomic theory in chemistry.
+- [W2.42] While his name is inseparably associated with this theory, the origin of Dalton's atomic theory is not fully understood.
+- [W2.43] The theory may have been suggested to him either by researches on ethylene (olefiant gas) and methane (carburetted hydrogen) or by analysis of nitrous oxide (protoxide of azote) and nitrogen dioxide (deutoxide of azote), both views resting on the authority of Thomas Thomson.
+- [W2.44] From 1814 to 1819, Irish chemist William Higgins claimed that Dalton had plagiarised his ideas, but Higgins' theory did not address relative atomic mass.
+- [W2.45] Recent evidence suggests that Dalton's development of thought may have been influenced by the ideas of another Irish chemist, Bryan Higgins, who was William's uncle.
+- [W2.46] Bryan believed that an atom was a heavy central particle surrounded by an atmosphere of caloric, the supposed substance of heat at the time.
+- [W2.47] The size of the atom was determined by the diameter of the caloric atmosphere.
+- [W2.48] Based on the evidence, Dalton was aware of Bryan's theory and adopted very similar ideas and language, but he never acknowledged Bryan's anticipation of his caloric model.
+- [W2.49] However, the essential novelty of Dalton's atomic theory is that he provided a method of calculating relative atomic weights for the chemical elements, which provides the means for the assignment of molecular formulas for all chemical substances.
+- [W2.50] Neither Bryan nor William Higgins did this, and Dalton's priority for that crucial innovation is uncontested.
+- [W2.51] A study of Dalton's laboratory notebooks, discovered in the rooms of the Manchester Literary and Philosophical Society, concluded that Dalton was not led by his search for an explanation of the law of multiple proportions to the idea that chemical combination consists in the interaction of atoms of definite and characteristic weight, but rather the idea of atoms arose in his mind as a purely physical concept, forced on him by study of the physical properties of the atmosphere and other gases.
+- [W2.52] The first published indications of this idea are to be found at the end of his paper "On the Absorption of Gases by Water and other Liquids" already mentioned.
+- [W2.53] Why does not water admit its bulk of every kind of gas alike?
+- [W2.54] This question I have duly considered, and though I am not able to satisfy myself completely I am nearly persuaded that the circumstance depends on the weight and number of the ultimate particles of the several gases.
+- [W2.55] He then proposes relative weights for the atoms of a few elements, without going into further detail.
+- [W2.56] However, a recent study of Dalton's laboratory notebook entries concludes he developed the chemical atomic theory in 1803 to reconcile Henry Cavendish's and Antoine Lavoisier's analytical data on the composition of nitric acid, not to explain the solubility of gases in water.
+- [W2.57] The main points of Dalton's atomic theory, as it eventually developed, are:
+- [W2.58] Elements are made of extremely small particles called atoms.
+- [W2.59] Atoms of a given element are identical in size, mass and other properties; atoms of different elements differ in size, mass and other properties.
+- [W2.60] Atoms cannot be subdivided, created or destroyed.
+- [W2.61] Atoms of different elements combine in simple whole-number ratios to form chemical compounds.
+- [W2.62] In chemical reactions, atoms are combined, separated, or rearranged.
+- [W2.63] In his first extended published discussion of the atomic theory (1808), Dalton proposed an additional (and controversial) "rule of greatest simplicity".
+- [W2.64] This rule could not be independently confirmed, but some such assumption was necessary in order to propose formulas for a few simple molecules, upon which the calculation of atomic weights depended.
+- [W2.65] This rule dictated that if the atoms of two different elements were known to form only a single compound, like hydrogen and oxygen forming water or hydrogen and nitrogen forming ammonia, the molecules of that compound shall be assumed to consist of one atom of each element.
+- [W2.66] For elements that combined in multiple ratios, such as the then-known two oxides of carbon or the three oxides of nitrogen, their combinations were assumed to be the simplest ones possible.
+- [W2.67] For example, if two such combinations are known, one must consist of an atom of each element, and the other must consist of one atom of one element and two atoms of the other.
+- [W2.68] This was merely an assumption, derived from faith in the simplicity of nature.
+- [W2.69] No evidence was then available to scientists to deduce how many atoms of each element combine to form molecules.
+- [W2.70] But this or some other such rule was absolutely necessary to any incipient theory, since one needed an assumed molecular formula in order to calculate relative atomic weights.
+- [W2.71] Dalton's "rule of greatest simplicity" caused him to assume that the formula for water was OH and ammonia was NH, quite different from our modern understanding (H2O, NH3).
+- [W2.72] On the other hand, his simplicity rule led him to propose the correct modern formulas for the two oxides of carbon (CO and CO2).
+- [W2.73] Despite the uncertainty at the heart of Dalton's atomic theory, the principles of the theory survived.
+- [W2.74] Dalton published his first table of relative atomic weights containing six elements (hydrogen, oxygen, nitrogen, carbon, sulfur and phosphorus), relative to the weight of an atom of hydrogen conventionally taken as 1.
+- [W2.75] Since these were only relative weights, they do not have a unit of weight attached to them.
+- [W2.76] Dalton provided no indication in this paper how he had arrived at these numbers, but in his laboratory notebook, dated 6 September 1803, is a list in which he set out the relative weights of the atoms of a number of elements, derived from analysis of water, ammonia, carbon dioxide, etc. by chemists of the time.
+- [W2.77] The extension of this idea to substances in general necessarily led him to the law of multiple proportions, and the comparison with experiment brilliantly confirmed his deduction.
+- [W2.78] In the paper "On the Proportion of the Several Gases in the Atmosphere", read by him in November 1802, the law of multiple proportions appears to be anticipated in the words:
+- [W2.79] The elements of oxygen may combine with a certain portion of nitrous gas or with twice that portion, but with no intermediate quantity.
+- [W2.80] But there is reason to suspect that this sentence may have been added some time after the reading of the paper, which was not published until 1805.
+- [W2.81] Compounds were listed as binary, ternary, quaternary, etc.
+- [W2.82] (molecules composed of two, three, four, etc. atoms) in the New System of Chemical Philosophy depending on the number of atoms a compound had in its simplest, empirical form.
+- [W2.83] Dalton hypothesised the structure of compounds can be represented in whole number ratios.
+- [W2.84] So, one atom of element X combining with one atom of element Y is a binary compound.
+- [W2.85] Furthermore, one atom of element X combining with two atoms of element Y or vice versa, is a ternary compound.
+- [W2.86] Many of the first compounds listed in the New System of Chemical Philosophy correspond to modern views, although many others do not.
+- [W2.87] Dalton used his own symbols to visually represent the atomic structure of compounds.
+- [W2.88] They were depicted in the New System of Chemical Philosophy, where he listed 21 elements and 17 simple molecules.
+- [W2.89] Dalton published papers on such diverse topics as rain and dew and the origin of springs (hydrosphere); on heat, the colour of the sky, steam and the reflection and refraction of light; and on the grammatical subjects of the auxiliary verbs and participles of the English language.
+- [W2.90] As an investigator, Dalton was often content with rough and inaccurate instruments, even though better ones were obtainable.
+- [W2.91] Sir Humphry Davy described him as "a very coarse experimenter", who "almost always found the results he required, trusting to his head rather than his hands." On the other hand, historians who have replicated some of his crucial experiments have confirmed Dalton's skill and precision.
+- [W2.92] In the preface to the second part of Volume I of his New System, he says he had so often been misled by taking for granted the results of others that he determined to write "as little as possible but what I can attest by my own experience", but this independence he carried so far that it sometimes resembled lack of receptivity.
+- [W2.93] Thus he distrusted, and probably never fully accepted, Gay-Lussac's conclusions as to the combining volumes of gases.
+- [W2.94] He held unconventional views on chlorine.
+- [W2.95] Even after its elementary character had been settled by Davy, he persisted in using the atomic weights he himself had adopted, even when they had been superseded by the more accurate determinations of other chemists.
+- [W2.96] He always objected to the chemical notation devised by Jöns Jacob Berzelius, although most thought that it was much simpler and more convenient than his own cumbersome system of circular symbols.
+- [W2.97] For Rees's Cyclopædia Dalton contributed articles on Chemistry and Meteorology, but the topics are not known.
+- [W2.98] He contributed 117 Memoirs of the Literary and Philosophical Society of Manchester from 1817 until his death in 1844 while president of that organisation.
+- [W2.99] Of these the earlier are the most important.
+- [W2.100] In one of them, read in 1814, he explains the principles of volumetric analysis, in which he was one of the earliest researchers.
+- [W2.101] In 1840 a paper on phosphates and arsenates, often regarded as a weaker work, was refused by the Royal Society, and he was so incensed that he published it himself.
+- [W2.102] He took the same course soon afterwards with four other papers, two of which ("On the quantity of acids, bases and salts in different varieties of salts" and "On a new and easy method of analysing sugar") contain his discovery, regarded by him as second in importance only to atomic theory, that certain anhydrates, when dissolved in water, cause no increase in its volume, his inference being that the salt enters into the pores of the water.
+- [W2.103] Even before he had propounded the atomic theory, Dalton had attained a considerable scientific reputation.
+- [W2.104] In 1804, he was chosen to give a series of lectures on natural philosophy at the Royal Institution in London, and he delivered another series of lectures there in 1809–1810.
+- [W2.105] Some witnesses reported that he was deficient in the qualities that make an attractive lecturer, being harsh and indistinct in voice, ineffective in the treatment of his subject, and singularly wanting in the language and power of illustration.
+- [W2.106] In 1810, Sir Humphry Davy asked him to offer himself as a candidate for the fellowship of the Royal Society, but Dalton declined, possibly for financial reasons.
+- [W2.107] In 1822 he was proposed without his knowledge, and on election paid the usual fee.
+- [W2.108] Six years previously he had been made a corresponding member of the French Académie des Sciences, and in 1830 he was elected as one of its eight foreign associates in place of Davy.
+- [W2.109] In 1833, Earl Grey's government conferred on him a pension of £150, raised in 1836 to £300 (equivalent to £15,437 and £29,627 in 2025, respectively).
+- [W2.110] Dalton was elected a Foreign Honorary Member of the American Academy of Arts and Sciences in 1834.
+- [W2.111] James Prescott Joule, who later studied and published (1843) on the nature of heat and its relationship to mechanical work, was as a young man a pupil of Dalton in his last years.
+- [W2.112] Dalton never married and had only a few close friends.
+- [W2.113] As a Quaker, he lived a modest and unassuming personal life.
+- [W2.114] For the 26 years prior to his death, Dalton lived in a room in the home of the Rev W.
+- [W2.115] Johns, a published botanist, and his wife, in George Street, Manchester.
+- [W2.116] Dalton and Johns died in the same year (1844).
+- [W2.117] Dalton's daily round of laboratory work and tutoring in Manchester was broken only by annual excursions to the Lake District and occasional visits to London.
+- [W2.118] In 1822 he paid a short visit to Paris, where he met many distinguished resident men of science.
+- [W2.119] He attended several of the earlier meetings of the British Association at York, Oxford, Dublin and Bristol.
+- [W2.120] Dalton suffered a minor stroke in 1837, and a second in 1838 left him with a speech impairment, although he remained able to perform experiments.
+- [W2.121] In May 1844 he had another stroke; on 26 July, while his hand was trembling, he recorded his last meteorological observation.
+- [W2.122] On 27 July, in Manchester, Dalton fell from his bed and was found dead by his attendant.
+- [W2.123] Dalton was accorded a civic funeral with full honours.
+- [W2.124] His body lay in state in Manchester Town Hall for four days and more than 40,000 people filed past his coffin.
+- [W2.125] The funeral procession included representatives of the city's major civic, commercial, and scientific bodies.
+- [W2.126] He was buried in Manchester in Ardwick Cemetery; the cemetery is now a playing field, but pictures of the original grave may be found in published materials.
+- [W2.127] Much of Dalton's written work, collected by the Manchester Literary and Philosophical Society, was damaged during bombing on 24 December 1940.
+- [W2.128] It prompted Isaac Asimov to say: "John Dalton's records, carefully preserved for a century, were destroyed during the World War II bombing of Manchester.
+- [W2.129] It is not only the living who are killed in war".
+- [W2.130] The damaged papers are in the John Rylands Library.
+- [W2.131] A bust of Dalton, by Chantrey, paid for by public subscription was placed in the entrance hall of the Royal Manchester Institution.
+- [W2.132] Chantrey's large statue of Dalton, erected while Dalton was alive, was placed in Manchester Town Hall in 1877.
+- [W2.133] He "is probably the only scientist who got a statue in his lifetime".
+- [W2.134] The Manchester-based Swiss phrenologist and sculptor William Bally made a cast of the interior of Dalton's cranium and of a cyst therein, having arrived at the Manchester Royal Infirmary too late to make a cast of the head and face.
+- [W2.135] A cast of the head was made, by a Mr Politi, whose arrival at the scene preceded that of Bally.
+- [W2.136] John Dalton Street connects Deansgate and Albert Square in the centre of Manchester.
+- [W2.137] The John Dalton building at Manchester Metropolitan University is occupied by the Faculty of Science and Engineering.
+- [W2.138] Outside it stands William Theed's statue of Dalton, erected in Piccadilly in 1855, and moved there in 1966.
+- [W2.139] A blue plaque commemorates the site of his laboratory at 36 George Street in Manchester.
+- [W2.140] The University of Manchester established two Dalton Chemical Scholarships, two Dalton Mathematical Scholarships, and a Dalton Prize for Natural History.
+- [W2.141] A hall of residence is named Dalton Hall.
+- [W2.142] The Dalton Medal has been awarded only sixteen times by the Manchester Literary and Philosophical Society.
+- [W2.143] The Dalton crater on the Moon was named after Dalton.
+- [W2.144] "Daltonism" is a lesser-known synonym of colour-blindness and, in some languages, variations on this have persisted in common usage: for example, 'daltonien' is the French adjectival equivalent of 'colour-blind', and 'daltónico'/'daltonica' is the Spanish and the Italian.
+- [W2.145] The inorganic section of the UK's Royal Society of Chemistry is named the Dalton Division, and the society's academic journal for inorganic chemistry is called Dalton Transactions.
+- [W2.146] In honour of Dalton's work, many chemists and biochemists use the unit of mass dalton (symbol Da), also known as the unified atomic mass unit, equal to 1/12 of the mass of a neutral atom of carbon-12).
+- [W2.147] Quaker schools have named buildings after Dalton: for example, a schoolhouse in the primary sector of Ackworth School, is called Dalton.
+- [W2.148] Dalton Township in southern Ontario was named after him.
+- [W2.149] The name was lost when in 2001 the township was absorbed into the City of Kawartha Lakes, but in 2002 the Dalton name was affixed to a new park, Dalton Digby Wildlands Provincial Park.
+- [W2.150] Asteroid (12292) Dalton was named after him.
+- [W2.151] The standard author abbreviation Jn.Dalton is used to indicate this person as the author when citing a botanical name.
+- [W2.152] Meteorological Observations and Essays (second ed.).
+- [W2.153] Manchester: Harrison and Crosfield.
+- [W2.154] Retrieved 24 December 2007.
+- [W2.155] Foundations of the Atomic Theory.
+- [W2.156] Retrieved 24 December 2007.– Alembic Club reprint with some of Dalton's papers, along with some by William Hyde Wollaston and Thomas Thomson
+- [W2.157] Dalton, John (1893.) Foundations of the Molecular Theory.
+- [W2.158] Retrieved 15 August 2022 – with essays by Joseph Louis Gay-Lussac and Amedeo Avogadro
+- [W2.159] A new system of chemical philosophy.
+- [W2.160] John Dalton Papers at John Rylands Library, Manchester.
+- [W2.161] A New System of Chemical Philosophy (all images freely available for download in a variety of formats from Science History Institute Digital Collections at digital.sciencehistory.org).
+- [W2.162] Extraordinary Facts Relating to the Vision of Colours: With Observations.
+- [W2.163] Science History Institute Digital Collections.
+- [W2.164] Chemical crystallography before X-rays
+- [W2.165] Pneumatic chemistry – Area of scientific research
+- [W2.166] Ithaca, New York: Cornell University Press.
+- [W2.167] Memoirs of the Life and Scientific Researches of John Dalton.
+- [W2.168] London: Cavendish Society.
+- [W2.169] Hunt, D.M.; Dulai, K.S.; Bowmaker, J.K.; Mollon, J.D.
+- [W2.170] "The Chemistry of John Dalton's Color Blindness".
+- [W2.171] Bibcode:1995Sci...267..984H. doi:10.1126/science.7863342.
+- [W2.172] The Worthies of Cumberland: John Dalton.
+- [W2.173] George Routledge and Sons: George.
+- [W2.174] Retrieved 24 December 2007.
+- [W2.175] Millington, John Price (1906).
+- [W2.176] John Dalton and the Atomic Theory.
+- [W2.177] Garden City, New York: Anchor.
+- [W2.178] "In Search of El Dorado: John Dalton and the Origins of the Atomic Theory".
+- [W2.179] 72 (1): 125–158. doi:10.1353/sor.2005.0003.
+- [W2.180] John Dalton and the Rise of Modern Chemistry.
+- [W2.181] Retrieved 24 December 2007.
+- [W2.182] Roscoe, Henry E. & Harden, Arthur (1896).
+- [W2.183] A New View of the Origin of Dalton's Atomic Theory.
+- [W2.184] Retrieved 24 December 2007.
+- [W2.185] Memoir of John Dalton and History of the Atomic Theory.
+- [W2.186] Retrieved 24 December 2007.
+- [W2.187] John Dalton, 1766–1844: A Bibliography of Works by and About Him, With an Annotated List of His Surviving Apparatus and Personal Effects.
+- [W2.188] Manchester Literary and Philosophical Publications.
+- [W2.189] ISBN 978-1-85928-438-4.- Original edition published by Manchester University Press in 1966
+- [W2.190] John Dalton: Critical Assessments of His Life and Science.
+- [W2.191] Media related to John Dalton at Wikimedia Commons
+- [W2.192] Works by or about John Dalton at Wikisource
+- [W2.193] Works by John Dalton at LibriVox (public domain audiobooks)
+- [W2.194] "Dalton, John (1766–1844)" .
+- [W2.195] Dictionary of National Biography.
+- [W2.196] John Dalton Manuscripts at John Rylands Library
+
+## [W3] Wikipedia: Ishihara test
+https://en.wikipedia.org/w/index.php?title=Ishihara_test&oldid=1372126949 · CC BY-SA 4.0 · usage: ai_input
+
+- [W3.1] The Ishihara test is a color vision test for detection of red–green color deficiencies.
+- [W3.2] It was named after its designer, Shinobu Ishihara, a professor at the University of Tokyo, who first published his tests in 1917.
+- [W3.3] The test consists of a number of Ishihara plates, which are a type of pseudoisochromatic plate.
+- [W3.4] Each plate depicts a solid circle of colored dots appearing randomized in color and size.
+- [W3.5] Within the pattern are dots which form a number or shape clearly visible to those with normal color vision, but which are difficult or impossible to see for those with a red–green color vision deficiency.
+- [W3.6] Other plates are intentionally designed to reveal numbers only to those with a red–green color vision deficiency, and be invisible to those with normal red–green color vision.
+- [W3.7] The full test consists of 38 plates, but the existence of a severe deficiency is usually apparent after only a few plates.
+- [W3.8] There are also Ishihara tests consisting of 10, 14 or 24 test plates, and plates in some versions ask the viewer to trace a line rather than read a number.
+- [W3.9] The plates make up several different test designs:
+- [W3.10] (Plate number one, typically the numeral "12"); designed to be visible by all subjects, whether normal or color vision deficient.
+- [W3.11] For demonstration purposes only, and usually not considered in making a score for screening purposes.
+- [W3.12] Individuals with color vision deficiency should see a different figure from individuals with normal color vision.
+- [W3.13] Only individuals with normal color vision could recognize the figure.
+- [W3.14] Only individuals with color vision deficiency could recognize the figure.
+- [W3.15] Intended to determine the type of color vision deficiency (protanopia or deuteranopia) and the severity of it.
+- [W3.16] Instead of reading a number, subjects are asked to trace a visible line across the plate.
+- [W3.17] The numbering and rotation of plates differs between the shortened diagnostic versions of the test and the full 38-plate test.
+- [W3.18] Born in 1879 to a family in Tokyo, Shinobu Ishihara began his education at the Imperial University where he attended on a military scholarship.
+- [W3.19] Ishihara had just completed his graduate studies in ophthalmology in Germany when war broke out in Europe and World War I had begun.
+- [W3.20] While holding a military position related to his field, he was given the task of creating a color blindness test.
+- [W3.21] Ishihara studied existing tests and combined elements of the Stilling test, named after the German ophthalmologist Jakob Stilling, with the concept of pseudo-isochromaticism to produce an improved, more accurate and easier to use test.
+- [W3.22] Being a printed plate, the accuracy of the test depends on using the proper lighting to illuminate the page.
+- [W3.23] A "daylight" bulb illuminator is required to give the most accurate results, of around 6000–7000 K temperature (ideal: 6500 K, Color Rendering Index (CRI) >90), and is required for military color vision screening policy.
+- [W3.24] Fluorescent bulbs are often used in school testing, but the color of fluorescent bulbs and their CRI can vary widely.
+- [W3.25] Fluorescent lighting showed better results and faster recognition speed compared to CFL and LED luminance in trichromats.
+- [W3.26] Incandescent bulbs should not be used, as their low temperature (yellow-color) gives highly inaccurate results, allowing some color vision deficient persons to pass.
+- [W3.27] Proper testing technique is to give only three seconds per plate for an answer, and not allow coaching, touching or tracing of the numbers by the subject.
+- [W3.28] The test is best given in random sequence, if possible, to reduce the effectiveness of prior memorization of the answers by subjects.
+- [W3.29] Some pseudo-isochromatic plate books have the pages in binders, so the plates may be rearranged periodically to give a random order to the test.
+- [W3.30] Since its creation, the Ishihara Color Blindness Test has become commonly used worldwide because of its easy use and high accuracy.
+- [W3.31] In recent years, the Ishihara test has become available online in addition to its original paper version.
+- [W3.32] Though both media use the same plates, they require different methods for an accurate diagnosis.
+- [W3.33] The United States Navy uses the Ishihara plates (and alternatives) for color vision screening.
+- [W3.34] The current passing score is 10 correct of 14 red/green test plates (not including the demonstration plate).
+- [W3.35] Research has shown that scores below twelve indicate color vision deficiency, and twelve or more correct indicate normal color vision, with 97% sensitivity and 100% specificity.
+- [W3.36] The sensitivity of the Ishihara test varies by the number of plates allowed to pass, which can vary by institutional policy.
+- [W3.37] Sensitivity also may be influenced by test administration (strength of lighting, time allowed to answer) and testing errors (coaching by administrators, smudges or marks made upon the plates).
+
+## [W4] Wikipedia: Sex-link
+https://en.wikipedia.org/w/index.php?title=Sex-link&oldid=1356719047 · CC BY-SA 4.0 · usage: ai_input
+
+- [W4.1] Sex-links are crossbred chickens whose color at hatching is differentiated by sex, thus making chick sexing an easier process.
+- [W4.2] Sex-links come in several varieties.
+- [W4.3] As hybrids of laying or dual-purpose breeds infused with extra vigor via heterosis, sex-links can be extremely good egg-layers which often produce 300 eggs a year or more depending on the quality of care and feed.
+- [W4.4] The color of their eggs vary according to the mix of breeds, and blue-green eggs are possible.
+- [W4.5] Chicks of a single breed that are similarly sex-linked are called autosex chickens, a term developed to differentiate between sex linkage in purebred chickens versus sex linkage in crossbreeds.
+- [W4.6] Many common varieties are known as the black sex-link (also called black stars) and the red sex-link (also called red stars).
+- [W4.7] More specific variety names are common as well.
+- [W4.8] Black sex-link like "Black rocks" are a cross between unique specially bred hybrid strains of Rhode Island Red cock (but any non-white and non barred rooster may be used for other black sex-link crosses) and a Barred Rock hen (which carry both extended black and barring genes).
+- [W4.9] Red sex-links are a cross between a Rhode Island Red or New Hampshire cock and a White Rock (This variety pair is known as a Golden Comet), Silver Laced Wyandotte, Rhode Island White, or Delaware hen.
+- [W4.10] Examples of a red-linked breeds include the Red Shaver and ISA Brown sex-links which are found in Canada.
+- [W4.11] White birds should not be used in sex-linked crosses because white colour allele is sometimes dominant and sometimes recessive.
+- [W4.12] ZW sex-determination system
+
+## [W5] Wikipedia: Haemophilia
+https://en.wikipedia.org/w/index.php?title=Haemophilia&oldid=1379703435 · CC BY-SA 4.0 · usage: ai_input
+
+- [W5.1] Haemophilia (British English), or hemophilia (American English) (from Ancient Greek  αἷμα (haîma) 'blood' and  φιλία (philía) 'love of'), is a mostly inherited genetic disorder that impairs the body's ability to make blood clots, a process needed to stop bleeding.
+- [W5.2] This results in people bleeding for a longer time after an injury, easy bruising, and an increased risk of bleeding inside joints or the brain.
+- [W5.3] Those with a mild case of the disease may have symptoms only after an accident or during surgery.
+- [W5.4] Bleeding into a joint can result in permanent damage while bleeding in the brain can result in long term headaches, seizures, or an altered level of consciousness.
+- [W5.5] There are two main types of haemophilia: haemophilia A, which occurs due to low amounts of clotting factor VIII, and haemophilia B, which occurs due to low levels of clotting factor IX.
+- [W5.6] They are typically inherited from one's parents through an X chromosome carrying a nonfunctional gene.
+- [W5.7] Most commonly found in men, haemophilia can affect women too, though very rarely.
+- [W5.8] A woman would need to inherit two affected X chromosomes to be affected, whereas a man would only need one X chromosome affected.
+- [W5.9] It is possible for a new mutation to occur during early development, or haemophilia may develop later in life due to antibodies forming against a clotting factor.
+- [W5.10] Other types include haemophilia C, which occurs due to low levels of factor XI, Von Willebrand disease, which occurs due to low levels of a substance called von Willebrand factor, and parahaemophilia, which occurs due to low levels of factor V.
+- [W5.11] Haemophilia A, B, and C prevent the intrinsic pathway from functioning properly; this clotting pathway is necessary when there is damage to the endothelium of a blood vessel.
+- [W5.12] Acquired haemophilia is associated with cancers, autoimmune disorders, and pregnancy.
+- [W5.13] Diagnosis is by testing the blood for its ability to clot and its levels of clotting factors.
+- [W5.14] Prevention may occur by removing an egg, fertilising it, and testing the embryo before transferring it to the uterus.
+- [W5.15] Human embryos in research can be regarded as the technical object/process.
+- [W5.16] Missing blood clotting factors are replaced to treat haemophilia.
+- [W5.17] This may be done on a regular basis or during bleeding episodes.
+- [W5.18] Replacement may take place at home or in hospital.
+- [W5.19] The clotting factors are made either from human blood or by recombinant methods.
+- [W5.20] Up to 20% of people develop antibodies to the clotting factors which makes treatment more difficult.
+- [W5.21] The medication desmopressin may be used in those with mild haemophilia A.
+- [W5.22] Gene therapy treatment was in clinical trials as of 2022, with some approaches and products having received conditional approval.
+- [W5.23] Haemophilia A affects about 1 in 5,000–10,000, while haemophilia B affects about 1 in 40,000 males at birth.
+- [W5.24] As haemophilia A and B are both X-linked recessive disorders, females are rarely severely affected.
+- [W5.25] Some females with a nonfunctional gene on one of the X chromosomes may be mildly symptomatic.
+- [W5.26] Haemophilia C occurs equally in both sexes and is mostly found in Ashkenazi Jews.
+- [W5.27] In the 1800s haemophilia B was common within the royal families of Europe.
+- [W5.28] The difference between haemophilia A and B was determined in 1952.
+- [W5.29] Characteristic symptoms vary with severity.
+- [W5.30] In general symptoms are internal or external bleeding episodes, which are called "bleeds".
+- [W5.31] People with more severe haemophilia experience more severe and more frequent bleeds, while people with mild haemophilia usually experience more minor symptoms except after surgery or serious trauma.
+- [W5.32] In cases of moderate haemophilia symptoms are variable which manifest along a spectrum between severe and mild forms.
+- [W5.33] In both haemophilia A and B, there is spontaneous bleeding but a normal bleeding time, normal prothrombin time, normal thrombin time, but prolonged partial thromboplastin time.
+- [W5.34] Internal bleeding is common in people with severe haemophilia and some individuals with moderate haemophilia.
+- [W5.35] The most characteristic type of internal bleed is a joint bleed where blood enters into the joint spaces.
+- [W5.36] This is most common with severe haemophiliacs and can occur spontaneously (without evident trauma).
+- [W5.37] If not treated promptly, joint bleeds can lead to permanent joint damage and disfigurement.
+- [W5.38] Bleeding into soft tissues such as muscles and subcutaneous tissues is less severe but can lead to damage and requires treatment.
+- [W5.39] Children with mild to moderate haemophilia may not have any signs or symptoms at birth, especially if they do not undergo circumcision.
+- [W5.40] Their first symptoms are often frequent and large bruises and haematomas from frequent bumps and falls as they learn to walk.
+- [W5.41] Swelling and bruising from bleeding in the joints, soft tissue, and muscles may also occur.
+- [W5.42] Children with mild haemophilia may not have noticeable symptoms for many years.
+- [W5.43] Often, the first sign in very mild haemophiliacs is heavy bleeding from a dental procedure, an accident, or surgery.
+- [W5.44] Females who are carriers usually have enough clotting factors from their one normal gene to prevent serious bleeding problems, though some may present as mild haemophiliacs.
+- [W5.45] Severe complications are much more common in cases of severe and moderate haemophilia.
+- [W5.46] Complications may arise from the disease itself or from its treatment:
+- [W5.47] Deep internal bleeding, e.g. deep-muscle bleeding, leading to swelling, numbness or pain of a limb.
+- [W5.48] Joint damage from haemarthrosis (haemophilic arthropathy), potentially with severe pain, disfigurement, and even destruction of the joint and development of debilitating arthritis.
+- [W5.49] Transfusion transmitted infection from blood transfusions that are given as treatment.
+- [W5.50] Adverse reactions to clotting factor treatment, including the development of an immune inhibitor which renders factor replacement less effective.
+- [W5.51] Intracranial haemorrhage is a serious medical emergency caused by the buildup of pressure inside the skull.
+- [W5.52] It can cause disorientation, nausea, loss of consciousness, brain damage, and death.
+- [W5.53] Haemophilic arthropathy is characterised by chronic proliferative synovitis and cartilage destruction.
+- [W5.54] If an intra-articular bleed is not drained early, it may cause apoptosis of chondrocytes and affect the synthesis of proteoglycans.
+- [W5.55] The hypertrophied and fragile synovial lining while attempting to eliminate excessive blood may be more likely to easily rebleed, leading to a vicious cycle of hemarthrosis-synovitis-hemarthrosis.
+- [W5.56] In addition, iron deposition in the synovium may induce an inflammatory response activating the immune system and stimulating angiogenesis, resulting in  cartilage and bone destruction.
+- [W5.57] Typically, females possess two X-chromosomes, and males have one X and one Y-chromosome.
+- [W5.58] Since the mutations causing the disease are X-linked recessive, a female carrying the defect on one of her X-chromosomes may not be affected by it, as the equivalent dominant allele on her other chromosome should express itself to produce the necessary clotting factors, due to X inactivation.
+- [W5.59] Therefore, heterozygous females are just carriers of this genetic disposition.
+- [W5.60] However, the Y-chromosome in the male has no gene for factors VIII or IX.
+- [W5.61] If the genes responsible for production of factor VIII or factor IX present on a male's X-chromosome are deficient there is no equivalent on the Y-chromosome to cancel it out, so the deficient gene is not masked and the disorder will develop.
+- [W5.62] Since a male receives his single X-chromosome from his mother, the son of a healthy female silently carrying the deficient gene will have a 50% chance of inheriting that gene from her and with it the disease; and if his mother is affected with haemophilia, he will have a 100% chance of being a haemophiliac.
+- [W5.63] In contrast, for a female to inherit the disease, she must receive two deficient X-chromosomes, one from her mother and the other from her father (who must therefore be a haemophiliac himself).
+- [W5.64] Hence, haemophilia is expressed far more commonly among males than females, while females, who must have two deficient X-chromosomes in order to have haemophilia, are far more likely to be silent carriers, survive childhood and to submit each of her genetic children to an at least 50% risk of receiving the deficient gene.
+- [W5.65] However, it is possible for female carriers to become mild haemophiliacs due to lyonisation (inactivation) of the X-chromosomes.
+- [W5.66] Haemophiliac daughters are more common than they once were, as improved treatments for the disease have allowed more haemophiliac males to survive to adulthood and become parents.
+- [W5.67] Adult females may experience menorrhagia (heavy periods) due to the bleeding tendency.
+- [W5.68] The pattern of inheritance is X-linked recessive.
+- [W5.69] This type of pattern is also seen in colour blindness.
+- [W5.70] A mother who is a carrier has a 50% chance of passing the faulty X-chromosome to her daughter, while an affected father will always pass on the affected gene to his daughters.
+- [W5.71] A son cannot inherit the defective gene from his father.
+- [W5.72] Genetic testing and genetic counselling is recommended for families with haemophilia.
+- [W5.73] Prenatal testing, such as amniocentesis and chorionic villus sampling are available to pregnant women who may be carriers of the condition.
+- [W5.74] As with all genetic disorders, it is also possible for a human to acquire it spontaneously through mutation, rather than inheriting it, because of a new mutation in one of their parents' gametes.
+- [W5.75] Spontaneous mutations account for about 33% of all cases of haemophilia A.
+- [W5.76] The most common mutation that causes severe cases of haemophilia A is an inversion within intron 22 of the factor VIII gene (F8) which is located near the tip of the X chromosome, leading to an abnormal crossover during meiosis.
+- [W5.77] About 30% of cases of haemophilia B are the result of a spontaneous gene mutation.
+- [W5.78] If a female gives birth to a haemophiliac son, either the female is a carrier for the blood disorder or the haemophilia was the result of a spontaneous mutation.
+- [W5.79] Until modern direct DNA testing, however, it was impossible to determine if a female with only healthy children was a carrier or not.
+- [W5.80] If a male has the disease and has children with a female who is not a carrier, his daughters will be carriers of haemophilia.
+- [W5.81] His sons, however, will not be affected with the disease.
+- [W5.82] The disease is X-linked and the father cannot pass haemophilia through the Y-chromosome.
+- [W5.83] Males with the disorder are then no more likely to pass on the gene to their children than carrier females, though all daughters they sire will be carriers and all sons they father will not have haemophilia (unless the mother is a carrier)
+- [W5.84] There are numerous different mutations which cause each type of haemophilia.
+- [W5.85] Due to differences in changes to the genes involved, people with haemophilia often have some level of active clotting factor.
+- [W5.86] Individuals with less than 1% active factor are classified as having severe haemophilia, those with 1–5% active factor have moderate haemophilia, and those with mild haemophilia have between 5% and 40% of normal levels of active clotting factor.
+- [W5.87] Haemophilia can be diagnosed before, during or after birth if there is a family history of the condition.
+- [W5.88] Several options are available to parents.
+- [W5.89] If there is no family history of haemophilia, it is usually only diagnosed when a child begins to walk or crawl.
+- [W5.90] Affected children may experience joint bleeds or easy bruising.
+- [W5.91] Mild haemophilia may only be discovered later, usually after an injury or a dental or surgical procedure.
+- [W5.92] Genetic testing and counselling are available to help determine the risk of passing the condition onto a child.
+- [W5.93] This may involve testing a sample of tissue or blood to look for signs of the genetic mutation that causes haemophilia.
+- [W5.94] A pregnant woman with a history of haemophilia in her family can test for the haemophilia gene.
+- [W5.95] chorionic villus sampling (CVS): a small sample of the placenta is removed from the womb and tested for the haemophilia gene, usually during weeks 11–14 of pregnancy
+- [W5.96] amniocentesis: a sample of amniotic fluid is taken for testing, usually during weeks 15–20 of pregnancy
+- [W5.97] There is a small risk of these procedures causing problems such as miscarriage or premature labour, so the woman may discuss this with the doctor in charge of her care.
+- [W5.98] If haemophilia is suspected after a child has been born, a blood test can usually confirm the diagnosis.
+- [W5.99] Blood from the umbilical cord can be tested at birth if there's a family history of haemophilia.
+- [W5.100] A blood test will also be able to identify whether a child has haemophilia A or B, and how severe it is.
+- [W5.101] There are several types of haemophilia: haemophilia A, haemophilia B, haemophilia C, parahaemophilia, acquired haemophilia A, and acquired haemophilia B.
+- [W5.102] Haemophilia A is a recessive X-linked genetic disorder resulting in a deficiency of functional clotting Factor VIII.
+- [W5.103] Haemophilia B is also a recessive X-linked genetic disorder involving a lack of functional clotting Factor IX.
+- [W5.104] Haemophilia C is an autosomal genetic disorder involving a lack of functional clotting Factor XI.
+- [W5.105] Haemophilia C is not completely recessive, as heterozygous individuals also show increased bleeding.
+- [W5.106] The type of haemophilia known as parahaemophilia is a mild and rare form and is due to a deficiency in factor V.
+- [W5.107] This type can be inherited or acquired.
+- [W5.108] A non-genetic form of haemophilia is caused by autoantibodies against factor VIII and so is known as acquired haemophilia A.
+- [W5.109] It is a rare but potentially life-threatening bleeding disorder caused by the development of autoantibodies (inhibitors) directed against plasma coagulation factors.
+- [W5.110] Acquired haemophilia can be associated with cancers, autoimmune disorders and following childbirth.
+- [W5.111] There is no long-term cure.
+- [W5.112] Treatment and prevention of bleeding episodes is done primarily by replacing the missing blood clotting factors.
+- [W5.113] Clotting factors are usually not needed in mild haemophilia.
+- [W5.114] In moderate haemophilia clotting factors are typically only needed when bleeding occurs or to prevent bleeding with certain events.
+- [W5.115] In severe haemophilia preventive use is often recommended two or three times a week and may continue for life.
+- [W5.116] Rapid treatment of bleeding episodes decreases damage to the body.
+- [W5.117] Factor VIII is used in haemophilia A and factor IX in haemophilia B.
+- [W5.118] Factor replacement can be either isolated from human plasma, recombinant, or a combination of the two.
+- [W5.119] Some people develop antibodies (inhibitors) against the replacement factors given to them, so the amount of the factor has to be increased or non-human replacement products must be given, such as porcine factor VIII.
+- [W5.120] If a person becomes refractory to replacement coagulation factor as a result of high levels of circulating inhibitors, this may be partially overcome with recombinant human factor VIII.
+- [W5.121] In 2008, the US Food and Drug Administration (FDA) approved an anti-haemophilic drug completely free of albumin, which made it the first anti-haemophilic drug in the US to use an entirely synthetic purification process.
+- [W5.122] Since 1993 recombinant factor products (which are typically cultured in Chinese hamster ovary (CHO) tissue culture cells and involve little, if any human plasma products) have been available and have been widely used in wealthier western countries.
+- [W5.123] While recombinant clotting factor products offer higher purity and safety, they are, like concentrate, extremely expensive, and not generally available in the developing world.
+- [W5.124] In many cases, factor products of any sort are difficult to obtain in developing countries.
+- [W5.125] Clotting factors are either given preventively or on-demand.
+- [W5.126] Preventive use involves the infusion of clotting factor on a regular schedule in order to keep clotting levels sufficiently high to prevent spontaneous bleeding episodes.
+- [W5.127] On-demand (or episodic) treatment involves treating bleeding episodes once they arise.
+- [W5.128] In 2007, a trial comparing on-demand treatment of boys (< 30 months) with haemophilia A with prophylactic treatment (infusions of 25 IU/kg body weight of Factor VIII every other day) in respect to its effect on the prevention of joint-diseases.
+- [W5.129] When the boys reached 6 years of age, 93% of those in the prophylaxis group and 55% of those in the episodic-therapy group had a normal index joint-structure on MRI.
+- [W5.130] Preventative treatment, however, resulted in average costs of $300,000 per year.
+- [W5.131] The author of an editorial published in the same issue of the NEJM supports the idea that prophylactic treatment not only is more effective than on demand treatment but also suggests that starting after the first serious joint-related haemorrhage may be more cost effective than waiting until the fixed age to begin.
+- [W5.132] Most haemophiliacs in third world countries have limited or no access to commercial blood clotting factor products.
+- [W5.133] Fitusiran (Qfitlia) was approved for medical use in the United States in March 2025.
+- [W5.134] Desmopressin (DDAVP) may be used in those with mild haemophilia A.
+- [W5.135] Tranexamic acid or epsilon aminocaproic acid may be given along with clotting factors to prevent breakdown of clots.
+- [W5.136] Pain medicines, steroids, and physical therapy may be used to reduce pain and swelling in an affected joint.
+- [W5.137] In those with severe haemophilia A already receiving FVIII, emicizumab may provide some benefit.
+- [W5.138] Different treatments are used to help those with an acquired form of haemophilia in addition to the normal clotting factors.
+- [W5.139] Often the most effective treatment is corticosteroids which remove the auto-antibodies in half of people.
+- [W5.140] As a secondary route of treatment, cyclophosphamide and cyclosporine are used and are proven effective for those who did not respond to the steroid treatments.
+- [W5.141] In rare cases a third route or treatment is used, high doses of intravenous immunoglobulin or immunosorbent that works to help control bleeding instead of battling the auto-antibodies.
+- [W5.142] Anticoagulants such as heparin and warfarin are contraindicated for people with haemophilia as these can aggravate clotting difficulties.
+- [W5.143] Also contraindicated are those drugs which have "blood thinning" side effects.
+- [W5.144] For instance, medicines which contain aspirin, ibuprofen, or naproxen sodium should not be taken because they are well known to have the side effect of prolonged bleeding.
+- [W5.145] Also contraindicated are activities with a high likelihood of trauma, such as motorcycling and skateboarding.
+- [W5.146] Popular sports with very high rates of physical contact and injuries such as American football, hockey, boxing, wrestling, and rugby should be avoided by people with haemophilia.
+- [W5.147] Other active sports like soccer, baseball, and basketball also have a high rate of injuries, but have overall less contact and should be undertaken cautiously and only in consultation with a doctor.
+- [W5.148] Like most aspects of the disorder, life expectancy varies with severity and adequate treatment.
+- [W5.149] People with severe haemophilia who do not receive adequate, modern treatment have greatly shortened lifespans and often do not reach maturity.
+- [W5.150] Prior to the 1960s when effective treatment became available, average life expectancy was only 11 years.
+- [W5.151] By the 1980s the life span of the average haemophiliac receiving appropriate treatment was 50–60 years.
+- [W5.152] Today with appropriate treatment, males with haemophilia typically have a near normal quality of life with an average lifespan approximately 10 years shorter than an unaffected male.
+- [W5.153] Since the 1980s the primary leading cause of death of people with severe haemophilia has shifted from haemorrhage to HIV/AIDS acquired through treatment with contaminated blood products.
+- [W5.154] The second leading cause of death related to severe haemophilia complications is intracranial haemorrhage which today accounts for one third of all deaths of people with haemophilia.
+- [W5.155] Two other major causes of death include hepatitis infections causing cirrhosis and obstruction of air or blood flow due to soft tissue haemorrhage.
+- [W5.156] Haemophilia frequency is about 1 instance in every 10,000 births (or 1 in 5,000 male births) for haemophilia A and 1 in 50,000 births for haemophilia B.
+- [W5.157] About 18,000 people in the United States have haemophilia.
+- [W5.158] Each year in the US, about 400 babies are born with the disorder.
+- [W5.159] Haemophilia usually occurs in males and less often in females.
+- [W5.160] It is estimated that about 2,500 Canadians have haemophilia A, and about 500 Canadians have haemophilia B.
+- [W5.161] The excessive bleeding was known to ancient people.
+- [W5.162] The Talmud instructs that a boy must not be circumcised if he had two brothers who died due to complications arising from their circumcisions, and Maimonides says that this excluded paternal half-brothers.
+- [W5.163] This may have been due to a concern about haemophilia.
+- [W5.164] The tenth-century Arab surgeon Al-Zahrawi noted cases of excessive bleeding among men in a village.
+- [W5.165] Several similar references to the disease later known as haemophilia appear throughout historical writings, though no term for inherited abnormal bleeding tendencies existed until the nineteenth century.
+- [W5.166] In 1803, John Conrad Otto, a Philadelphian physician, wrote an account about "a hemorrhagic disposition existing in certain families" in which he called the affected males "bleeders".
+- [W5.167] He recognised that the disorder was hereditary and that it affected mostly males and was passed down by healthy females.
+- [W5.168] His paper was the second paper to describe important characteristics of an X-linked genetic disorder (the first paper being a description of colour blindness by John Dalton who studied his own family).
+- [W5.169] Otto was able to trace the disease back to a woman who settled near Plymouth, New Hampshire, in 1720.
+- [W5.170] The idea that affected males could pass the trait onto their unaffected daughters was not described until 1813 when John F.
+- [W5.171] Hay published an account in The New England Journal of Medicine.
+- [W5.172] In 1924, a Finnish doctor discovered a hereditary bleeding disorder similar to haemophilia localised in Åland, southwest of Finland.
+- [W5.173] This bleeding disorder is called "Von Willebrand Disease".
+- [W5.174] The term "haemophilia" is derived from the term "haemorrhaphilia" which was used in a description of the condition written by Friedrich Hopff in 1828, while he was a student at the University of Zurich.
+- [W5.175] In 1937, Patek and Taylor, two doctors from Harvard University, discovered anti-haemophilic globulin.
+- [W5.176] In 1947, Alfredo Pavlovsky, a doctor from Buenos Aires, found haemophilia A and haemophilia B to be separate diseases by doing a lab test.
+- [W5.177] This test was done by transferring the blood of one haemophiliac to another haemophiliac.
+- [W5.178] The fact that this corrected the clotting problem showed that there was more than one form of haemophilia.
+- [W5.179] Haemophilia has featured prominently in European royalty and thus is sometimes known as 'the royal disease'.
+- [W5.180] Queen Victoria passed the mutation for haemophilia B to her son Leopold and, through two of her daughters, Alice and Beatrice, to various royals across the continent, including the royal families of Spain, Germany, and Russia.
+- [W5.181] In Russia, Tsarevich Alexei, the son and heir of Tsar Nicholas II, famously had haemophilia, which he had inherited from his mother, Empress Alexandra, one of Queen Victoria's granddaughters.
+- [W5.182] The haemophilia of Alexei would result in the rise to prominence of the Russian mystic Grigori Rasputin at the imperial court.
+- [W5.183] It was claimed that Rasputin was successful at treating Tsarevich Alexei's haemophilia.
+- [W5.184] At the time, a common treatment administered by professional doctors was to use aspirin, which worsened rather than lessened the problem.
+- [W5.185] It is believed that, by simply advising against the medical treatment, Rasputin could bring visible and significant improvement to the condition of Tsarevich Alexei.
+- [W5.186] In Spain, Queen Victoria's youngest daughter, Princess Beatrice, had a daughter Victoria Eugenie of Battenberg, who later became Queen of Spain.
+- [W5.187] Two of her sons were haemophiliacs and both died from minor car accidents.
+- [W5.188] Her eldest son, Prince Alfonso of Spain, Prince of Asturias, died at the age of 31 from internal bleeding after his car hit a telephone booth.
+- [W5.189] Her youngest son, Infante Gonzalo, died at age 19 from abdominal bleeding following a minor car accident in which he and his sister hit a wall while avoiding a cyclist.
+- [W5.190] Neither appeared injured or sought immediate medical care and Gonzalo died two days later from internal bleeding.
+- [W5.191] The method for the production of an antihaemophilic factor was discovered by Judith Graham Pool from Stanford University in 1964, and approved for commercial use in 1971 in the United States under the name Cryoprecipitated AHF.
+- [W5.192] Together with the development of a system for transportation and storage of human plasma in 1965, this was the first time an efficient treatment for haemophilia became available.
+- [W5.193] Up until late 1985 many people with haemophilia received clotting factor products that posed a risk of HIV and hepatitis C infection.
+- [W5.194] The plasma used to create the products was not screened or tested, nor had most of the products been subject to any form of viral inactivation.
+- [W5.195] Tens of thousands worldwide were infected as a result of contaminated factor products including more than 10,000 people in the United States, 3,500 British, 1,400 Japanese, 700 Canadians, 250 Irish, and 115 Iraqis.
+- [W5.196] Infection via the tainted factor products had mostly stopped by 1986 by which time viral inactivation methods had largely been put into place, although some products were shown to still be dangerous in 1987.
+- [W5.197] In those with severe haemophilia, gene therapy may reduce symptoms to those that a person with mild or moderate haemophilia might have.
+- [W5.198] The best results have been found in haemophilia B.
+- [W5.199] In 2016 early stage human research was ongoing with a few sites recruiting participants.
+- [W5.200] In 2017 a gene therapy trial on nine people with haemophilia A reported that high doses did better than low doses.
+- [W5.201] It is not currently an accepted treatment for haemophilia.
+- [W5.202] In July 2022 results of a gene therapy candidate for haemophilia B called  FLT180 were announced.
+- [W5.203] The method works using an adeno-associated virus (AAV) to restore the clotting factor IX (FIX) protein, normal levels of the protein were observed with low doses of the therapy but immunosuppression was necessitated to decrease the risk of vector-related immune responses.
+- [W5.204] In November 2022, the first gene therapy treatment for haemophilia B was approved by the U.S.
+- [W5.205] Food and Drug Administration, called Hemgenix.
+- [W5.206] It is a single-dose treatment that gives the patient the genetic information required to produce Factor IX.
+- [W5.207] In June 2023, the FDA approved the first gene therapy treatment for haemophilia A, called Roctavian.
+- [W5.208] It was only approved for patients with severe cases, but it has been shown to reduce yearly bleeding episodes by 50%.
+- [W5.209] It works similarly to Hemgenix, being administered by intravenous infusion that contains a gene for Factor VIII.
+- [W5.210] In February 2026, BioMarin voluntarily withdrew Roctavian from the market after it was unable to identify a buyer for the therapy following plans to divest the product.
+- [W5.211] According to the company, the withdrawal was not related to the therapy's efficacy or safety profile.
+- [W5.212] Purpura secondary to clotting disorders
+- [W5.213] World Federation of Hemophilia
+- [W5.214] World Federation of Hemophilia
+
+## [W6] Wikipedia: Glucose-6-phosphate dehydrogenase deficiency
+https://en.wikipedia.org/w/index.php?title=Glucose-6-phosphate_dehydrogenase_deficiency&oldid=1381029243 · CC BY-SA 4.0 · usage: ai_input
+
+- [W6.1] Glucose-6-phosphate dehydrogenase deficiency (G6PDD), also known as favism, is the most common enzyme deficiency anemia worldwide.
+- [W6.2] It is an inborn error of metabolism that predisposes to red blood cell breakdown.
+- [W6.3] Most of the time, those who are affected have no symptoms.
+- [W6.4] Following a specific trigger, symptoms such as yellowish skin, dark urine, shortness of breath, and feeling tired may develop.
+- [W6.5] Complications can include anemia and newborn jaundice.
+- [W6.6] Some people never have symptoms.
+- [W6.7] It is an X-linked recessive disorder that results in defective glucose-6-phosphate dehydrogenase enzyme.
+- [W6.8] Glucose-6-phosphate dehydrogenase is an enzyme that protects red blood cells, which carry oxygen from the lungs to tissues throughout the body, from reactive oxygen species.
+- [W6.9] An enzyme defect results in the premature breakdown of red blood cells.
+- [W6.10] This destruction of red blood cells is called hemolysis.
+- [W6.11] Red blood cell breakdown may be triggered by infections, certain medication, stress, or foods such as fava beans.
+- [W6.12] Depending on the specific mutation the severity of the condition may vary.
+- [W6.13] Diagnosis is based on symptoms and supported by blood tests and genetic testing.
+- [W6.14] Affected persons must avoid dietary triggers, notably fava beans.
+- [W6.15] This can be difficult, as fava beans may be called "broad beans" and are used in many foods, whole or as flour.
+- [W6.16] Falafel is probably the best known, but fava beans are often used as filler in meatballs and other foods.
+- [W6.17] Treatment of acute episodes may include medications for infection, stopping the offending medication, or blood transfusions.
+- [W6.18] Jaundice in newborns may be treated with bili lights.
+- [W6.19] It is recommended that people be tested for G6PDD before certain medications, such as primaquine, are taken.
+- [W6.20] About 400 million people have the condition globally.
+- [W6.21] It is particularly common in certain parts of Africa, Asia, the Mediterranean, and the Middle East.
+- [W6.22] Males are affected more often than females.
+- [W6.23] In 2015, it is believed to have resulted in 33,000 deaths.
+- [W6.24] Most individuals with G6PD deficiency are asymptomatic.
+- [W6.25] When it induces hemolysis, the effect is usually short-lived.
+- [W6.26] Most people who develop symptoms are male, due to the X-linked pattern of inheritance, but female carriers can be affected due to unfavorable lyonization or skewed X-inactivation, where random inactivation of an X chromosome in certain cells creates a population of G6PD-deficient red blood cells coexisting with unaffected red blood cells.
+- [W6.27] A female with one affected X chromosome will show the deficiency in approximately half of her red blood cells.
+- [W6.28] However, in some cases, including double X-deficiency, the ratio can be much more than half, making the individual almost as sensitive as males.Red blood cell breakdown (also known as hemolysis) in G6PD deficiency can manifest in many ways, including the following:
+- [W6.29] Prolonged neonatal jaundice, possibly leading to kernicterus (arguably the most serious complication of G6PD deficiency)
+- [W6.30] Hemolytic crises in response to:
+- [W6.31] Illness (especially infections)
+- [W6.32] Certain foods, most notably broad beans, from which the word favism derives
+- [W6.33] Hemoglobinuria (red or brown urine)
+- [W6.34] Very severe crisis can cause acute kidney injury
+- [W6.35] Favism is a hemolytic response to the consumption of fava beans, also known as broad beans.
+- [W6.36] Though all individuals with favism show G6PD deficiency, not all individuals with G6PD deficiency show favism.
+- [W6.37] The condition is more prevalent in infants and children, and the G6PD genetic variant can influence chemical sensitivity.
+- [W6.38] Other than this, the specifics of the chemical relationship between favism and G6PD are not well understood.
+- [W6.39] G6PD deficiency results from mutations in the G6PD gene.
+- [W6.40] The G6PD gene contributes to the production of glucose-6-phosphate dehydrogenase.
+- [W6.41] Chemical reactions involving glucose-6-phosphate dehydrogenase produce compounds that prevent reactive oxygen species from building up to toxic levels within red blood cells.
+- [W6.42] If a reduction in the amount of glucose-6-phosphate dehydrogenase or alteration of structure occurs due to G6PD gene mutations, the enzyme loses its protective role, leading to the accumulation of reactive oxygen species and thus damaging red blood cells.
+- [W6.43] Carriers of the underlying mutation do not show any symptoms unless their red blood cells are exposed to certain triggers, which can be of four main types:
+- [W6.44] Foods (fava beans is the hallmark trigger for G6PD mutation carriers)
+- [W6.45] Certain medicines including rasburicase, primaquine and other antimalarials [PMID 36049896]
+- [W6.46] Stress from a bacterial or viral infection
+- [W6.47] Many substances are potentially harmful to people with G6PD deficiency.
+- [W6.48] Variation in response to these substances makes individual predictions difficult.
+- [W6.49] Antimalarial drugs that can cause acute hemolysis in people with G6PD deficiency include primaquine and tafenoquine.
+- [W6.50] Dapsone, methylene blue, pegloticase, rasburicase, and toluidine should also be avoided by people with G6PD deficiency.(CPIC guideline G6PD )  Henna has been linked to hemolytic crisis in G6PD-deficient infants.
+- [W6.51] Rasburicase is contraindicated in G6PD deficiency.
+- [W6.52] Over 40 medications, including ascorbic acid at high doses and sulfonamides, have been hypothesized to be linked to hemolysis in G6PD-deficient individuals, but the evidence supporting most of these medications is lacking.Clinical Pharmacogenetics Implementation Consortium;
+- [W6.53] Two variants (G6PD A− and G6PD Mediterranean) are the most common in human populations.
+- [W6.54] G6PD A− has an occurrence of 10% of Africans and African-Americans, while G6PD Mediterranean is prevalent in the Middle East.
+- [W6.55] The known distribution of the mutated allele is largely limited to people of Mediterranean origins (Spaniards, Italians, Greeks, Armenians, Sephardi Jews, and other Semitic peoples).
+- [W6.56] Both variants are believed to stem from a strongly protective effect against Plasmodium falciparum and Plasmodium vivax malaria.
+- [W6.57] It is particularly frequent in the Kurdish Jewish population, wherein approximately 1 in 2 males have the condition, and the same rate of females are carriers.
+- [W6.58] It is also common in African American, Saudi Arabian, Sardinian males, some African populations, and Asian groups.All mutations that cause G6PD deficiency are found on the long arm of the X chromosome, on band Xq28.
+- [W6.59] The G6PD gene spans some 18.5 kilobases.
+- [W6.60] The following variants and mutations are well-known and described:
+- [W6.61] Glucose-6-phosphate dehydrogenase (G6PD) is an enzyme in the pentose phosphate pathway (see image, also known as the HMP shunt pathway).
+- [W6.62] G6PD converts glucose-6-phosphate into 6-phosphoglucono-δ-lactone.
+- [W6.63] It is the rate-limiting enzyme of this metabolic pathway that supplies reducing energy to cells by maintaining the level of the reduced form of the co-enzyme nicotinamide adenine dinucleotide phosphate (NADPH).
+- [W6.64] The NADPH maintains the supply of reduced glutathione in the cells that are used to mop up free radicals that cause oxidative damage.
+- [W6.65] The pathway also stimulates catalase, an antioxidant enzyme.
+- [W6.66] The G6PD / NADPH oxidative pathway is the only source of reduced glutathione in red blood cells (erythrocytes).
+- [W6.67] The role of red cells as oxygen carriers puts them at substantial risk of damage from oxidizing free radicals except for the protective effect of G6PD/NADPH/glutathione.
+- [W6.68] People with G6PD deficiency are therefore at risk of hemolytic anemia in states of oxidative stress.
+- [W6.69] Oxidative stress can result from infection and from chemical exposure to medication and certain foods.
+- [W6.70] Broad beans, e.g., fava beans, contain high levels of vicine, divicine, convicine, and isouramil, all of which create oxidants.
+- [W6.71] When all remaining reduced glutathione is consumed, enzymes and other proteins (including hemoglobin) are subsequently damaged by the oxidants, leading to cross-bonding and protein deposition in the red cell membranes.
+- [W6.72] Damaged red cells are phagocytosed and sequestered (taken out of circulation) in the spleen.
+- [W6.73] The hemoglobin is metabolized to bilirubin (causing jaundice at high concentrations).
+- [W6.74] The red cells rarely disintegrate in the circulation, so hemoglobin is rarely excreted directly by the kidney, but this can occur in severe cases, causing acute kidney injury.
+- [W6.75] Deficiency of G6PD in the alternative pathway causes the buildup of glucose, and thus an increase of advanced glycation endproducts (AGE).
+- [W6.76] The deficiency also reduces the amount of NADPH, which is required for nitric oxide (NO) synthesis.
+- [W6.77] The high prevalence of diabetes mellitus type 2 and hypertension in Afro-Caribbeans in the West could be directly related to the incidence of G6PD deficiency in those populations.
+- [W6.78] Although female carriers can have a mild form of G6PD deficiency (dependent on the degree of inactivation of the unaffected X chromosome – see Skewed X-inactivation), homozygous females have been described; in these females, there is co-incidence of a rare immune disorder termed chronic granulomatous disease (CGD).
+- [W6.79] The diagnosis is generally suspected when patients from certain ethnic groups (see epidemiology) develop anemia, jaundice, and symptoms of hemolysis after challenges from any of the above causes, especially when there is a positive family history.
+- [W6.80] Generally, tests will include:
+- [W6.81] Complete blood count and reticulocyte count; in active G6PD deficiency, Heinz bodies can be seen in red blood cells on a blood film;
+- [W6.82] Liver enzymes (to exclude other causes of jaundice);
+- [W6.83] Lactate dehydrogenase (elevated in hemolysis and a marker of hemolytic severity)
+- [W6.84] Haptoglobin (decreased in hemolysis);
+- [W6.85] A "direct antiglobulin test" (Coombs' test) – this should be negative, as hemolysis in G6PD is not immune-mediated;
+- [W6.86] When there are sufficient grounds to suspect G6PD, a direct test for G6PD is the "Beutler fluorescent spot test", which has largely replaced an older test (the Motulsky dye-decolouration test).
+- [W6.87] Other possibilities are direct DNA testing and/or sequencing of the G6PD gene.
+- [W6.88] The Beutler fluorescent spot test is a rapid and inexpensive test that visually identifies NADPH produced by G6PD under ultraviolet light.
+- [W6.89] When the blood spot does not fluoresce, the test is positive; it can be falsely negative in patients who are actively hemolysing.
+- [W6.90] It can therefore only be done 2–3 weeks after a hemolytic episode.
+- [W6.91] When a macrophage in the spleen identifies an RBC with a Heinz body, it removes the precipitate and a small piece of the membrane, leading to characteristic "bite cells".
+- [W6.92] However, if a large number of Heinz bodies are produced, as occurs in G6PD deficiency, some Heinz bodies will be visible when viewing RBCs stained with crystal violet.
+- [W6.93] This easy and inexpensive test can lead to an initial presumption of G6PD deficiency, which can be confirmed with the other tests.
+- [W6.94] Testing during and for many weeks after a hemolytic episode will lead to false-negative results, as the G6PD-deficient RBC will have been excreted, and the young RBC (reticulocyte) will not yet be G6PD deficient.
+- [W6.95] False-negative results will also be likely following any blood transfusions.
+- [W6.96] For this reason, many hospitals wait three months after a hemolytic episode before testing for G6PD deficiency.
+- [W6.97] Females should have their G6PD activity measured by a quantitative assay to avoid being misclassified by screening tests.
+- [W6.98] The World Health Organization classifies G6PD genetic variants into five classes, the first three of which are deficiency states.
+- [W6.99] Class I: Severe deficiency (<10% activity) with chronic (nonspherocytic) hemolytic anemia
+- [W6.100] Class II: Severe deficiency (<10% activity), with intermittent hemolysis
+- [W6.101] Class III: Moderate deficiency (10–60% activity), hemolysis with stressors only
+- [W6.102] Class IV: Non-deficient variant, no clinical sequelae
+- [W6.103] Class V: Increased enzyme activity, no clinical sequelae
+- [W6.104] 6-phosphogluconate dehydrogenase (6PGD) deficiency has similar symptoms and is often mistaken for G6PD deficiency, as the affected enzyme is within the same pathway; however, these diseases are not linked and can be found within the same person.
+- [W6.105] The most important measure is prevention – avoidance of the drugs and foods that cause hemolysis.
+- [W6.106] Vaccination against some common pathogens (e.g. hepatitis A and hepatitis B) may prevent infection-induced attacks.In the acute phase of hemolysis, blood transfusions might be necessary, or even dialysis in acute kidney failure.
+- [W6.107] Blood transfusion is an important symptomatic measure, as the transfused red cells are generally not G6PD deficient and will live a normal lifespan in the recipient's circulation.
+- [W6.108] Those affected should avoid drugs such as aspirin.
+- [W6.109] Some patients may benefit from the removal of the spleen (splenectomy), as this is an important site of red cell destruction.
+- [W6.110] Folic acid should be used in any disorder featuring a high red cell turnover.
+- [W6.111] Although vitamin E and selenium have antioxidant properties, their use does not decrease the severity of G6PD deficiency.
+- [W6.112] AG1, a recently discovered small molecule, has been shown to increase the activity of the G6PD enzyme in the three common variants of the deficiency.
+- [W6.113] Due to the absence of medications to treat G6PD, AG1 is a promising precursor in developing a pharmacological treatment effective for multiple G6PD enzymopathies.
+- [W6.114] G6PD-deficient individuals do not appear to acquire any illnesses more frequently than other people, and may have less risk than other people for acquiring ischemic heart disease and cerebrovascular disease.
+- [W6.115] However, a recent study revealed that G6PD deficiency increases cardiovascular risk by up to 70%.
+- [W6.116] The risk conferred by G6PD deficiency is moderate compared with the impact of primary cardiovascular risk factors.
+- [W6.117] Besides, a published review hypothesized that G6PD deficiency could reduce the antiplatelet efficacy of clopidogrel (clopidogrel resistance).
+- [W6.118] G6PD deficiency is the second most common human enzyme defect after ALDH2 deficiency, being present in more than 400 million people worldwide.
+- [W6.119] G6PD deficiency resulted in 4,100 deaths in 2013 and 3,400 deaths in 1990.
+- [W6.120] The Mediterranean Basin is where favism is most common, especially among Kurds,  Sardinians, Cypriots, Greeks, Egyptians and some African populations, including those who have these ancestries.
+- [W6.121] Favism has also been documented outside of the Mediterranean basin, in other Middle Eastern and East Asian nations like Iraq, Iran, Bulgaria and China.
+- [W6.122] Sardinia has the highest reported frequency of favism, with five instances per 1,000 people.
+- [W6.123] A side effect of this disease is that it confers protection against malaria, in particular the form of malaria caused by Plasmodium falciparum, the most deadly form of malaria.
+- [W6.124] A similar relationship exists between malaria and sickle-cell disease.
+- [W6.125] One theory to explain this is that cells infected with the Plasmodium parasite are cleared more rapidly by the spleen.
+- [W6.126] This phenomenon might give G6PD deficiency carriers an evolutionary advantage by increasing their fitness in malaria-endemic environments.
+- [W6.127] In vitro studies have shown that Plasmodium falciparum is very sensitive to oxidative damage.
+- [W6.128] This is the basis for another theory: the genetic defect confers resistance since the G6PD-deficient host has a higher level of oxidative agents that, while generally tolerable by the host, are deadly to the parasite.
+- [W6.129] The modern understanding of the condition began with the analysis of patients who exhibited sensitivity to primaquine.
+- [W6.130] The discovery of G6PD deficiency relied heavily upon the testing of prisoner volunteers at Illinois State Penitentiary, a type of study which today is considered unethical and cannot be performed.
+- [W6.131] When some prisoners were given the drug primaquine, some developed hemolytic anemia, but others did not.
+- [W6.132] Despite these results, the US military administered the drug widely during the Korean War to prevent the relapsing infection caused by Plasmodium vivax hypnozoites.
+- [W6.133] Numerous cases of hemolytic anemia were observed in US soldiers of North African and Mediterranean descent.
+- [W6.134] After studying the mechanism through Cr51 testing, it was conclusively shown that the hemolytic effect of primaquine was due to an intrinsic defect of erythrocytes.
+- [W6.135] In both legend and mythology, favism has been known since antiquity.
+- [W6.136] The priests of various Greco-Roman era cults were forbidden to eat or even mention beans, and Pythagoras had a strict rule that to join the society of the Pythagoreans one had to swear off beans.
+- [W6.137] This ban was supposedly because beans resembled male genitalia.
+- [W6.138] It is possible that this was because of a belief that beans and humans were created from the same material.
+- [W6.139] Family Practice Notebook/G6PD Deficiency (Favism)
+
+## [W7] Wikipedia: Duchenne muscular dystrophy
+https://en.wikipedia.org/w/index.php?title=Duchenne_muscular_dystrophy&oldid=1378824504 · CC BY-SA 4.0 · usage: ai_input
+
+- [W7.1] Duchenne muscular dystrophy (DMD) is a severe type of muscular dystrophy predominantly affecting males.
+- [W7.2] The onset of muscle weakness typically begins around age four, with rapid progression.
+- [W7.3] Initially, muscle loss occurs in the thighs and pelvis, extending to the arms, which can lead to difficulties in standing up.
+- [W7.4] By the age of 12, most individuals with Duchenne muscular dystrophy are unable to walk.
+- [W7.5] Affected muscles may appear larger due to an increase in fat content, and scoliosis is common.
+- [W7.6] Some individuals may experience intellectual disability, and females carrying a single copy of the mutated gene may show mild symptoms.
+- [W7.7] Duchenne muscular dystrophy is caused by mutations or deletions in any of the 79 exons encoding the large dystrophin protein, which is essential for maintaining the muscle fibers' cell membrane integrity.
+- [W7.8] The disorder follows an X-linked recessive inheritance pattern, with approximately two-thirds of cases inherited from the mother and one-third resulting from a new mutation.
+- [W7.9] Diagnosis can frequently be made at birth through genetic testing, and elevated creatine kinase levels in the blood are indicative of the condition.
+- [W7.10] While there is no known cure, management strategies such as physical therapy, braces, and corrective surgery may alleviate symptoms.
+- [W7.11] Assisted ventilation may be required in those with weakness of breathing muscles.
+- [W7.12] Several drugs designed to address the root cause are currently available including gene therapy (Elevidys), and antisense drugs (Ataluren, Eteplirsen etc.).
+- [W7.13] Other medications used include glucocorticoids (Deflazacort, Vamorolone); calcium channel blockers (Diltiazem); to slow skeletal and cardiac muscle degeneration, anticonvulsants to control seizures and some muscle activity, and Histone deacetylase inhibitors (Givinostat) to delay damage to dying muscle cells.
+- [W7.14] Various figures of the occurrence of Duchenne muscular dystrophy are reported.
+- [W7.15] One source reports that it affects about one in 3,500 to 6,000 males at birth in the U.S., (or 17 to 29 per 100,000 U.S. male births).
+- [W7.16] Another source reports Duchenne muscular dystrophy being a rare disease and having an occurrence of 7.1 per 100,000 male births globally.
+- [W7.17] A number of sources referenced in this article indicate an occurrence of 6 per 100,000.
+- [W7.18] Duchenne muscular dystrophy is the most common type of muscular dystrophy, with a median life expectancy of 27–31 years.
+- [W7.19] However, with comprehensive care, some individuals may live into their 30s or 40s.
+- [W7.20] Duchenne muscular dystrophy is considerably rarer in females, occurring in approximately one in 50,000,000 live female births.
+- [W7.21] Duchenne muscular dystrophy causes progressive muscle weakness due to muscle fiber disarray, death, and replacement with connective tissue or fat.
+- [W7.22] The voluntary muscles are affected first, especially those of the hips, pelvic area, thighs, calves.
+- [W7.23] It eventually progresses to the shoulders and neck, followed by arms, respiratory muscles, and other areas.
+- [W7.24] Signs usually appear before age five, and may even be observed when a boy takes his first steps.
+- [W7.25] There is general difficulty with motor skills, which can result in an awkward manner of walking, stepping, or running.
+- [W7.26] They tend to walk on their toes, in part due to shortening of the Achilles tendon, and because it compensates for knee extensor weakness.
+- [W7.27] It becomes increasingly difficult for the boy to walk.
+- [W7.28] The ability to walk usually disintegrates completely before age 13.
+- [W7.29] Most men affected with Duchenne muscular dystrophy become essentially "paralyzed from the neck down" by the age of 21.
+- [W7.30] Cardiomyopathy, particularly dilated cardiomyopathy, is common, seen in half of 18-year-olds.
+- [W7.31] The development of congestive heart failure or arrhythmia (irregular heartbeat) is only occasional.
+- [W7.32] In late stages of the disease, respiratory impairment and swallowing impairment can occur, which can result in pneumonia.
+- [W7.33] A classic sign of Duchenne muscular dystrophy is trouble getting up from a lying or sitting position, as manifested by a positive Gowers's sign.
+- [W7.34] When a child tries to rise from lying on his stomach, he compensates for pelvic muscle weakness through the use of the upper extremities: first by rising to stand on his arms and knees, and then "walking" his hands up his legs to stand upright.
+- [W7.35] Another characteristic sign of Duchenne muscular dystrophy is pseudohypertrophy (enlarging) of the muscles of the tongue, calves, buttocks, and shoulders (around age 4 or 5).
+- [W7.36] Fat and connective tissue eventually replace the muscle tissue, hence the term pseudohypertrophy.
+- [W7.37] Muscle fiber deformities and muscle contractures of Achilles tendon and hamstrings can occur, which impair functionality because the muscle fibers shorten and fibrose in connective tissue.
+- [W7.38] Skeletal deformities can occur, such as lumbar hyperlordosis, scoliosis, anterior pelvic tilt, and chest deformities.
+- [W7.39] Lumbar hyperlordosis is thought to be a compensatory mechanism in response to gluteal and quadriceps muscle weakness, all of which cause altered posture and gait (e.g.: restricted hip extension).
+- [W7.40] Non-musculoskeletal manifestations of Duchenne muscular dystrophy occur.
+- [W7.41] There is a higher risk of neurobehavioral disorders (e.g., ADHD), learning disorders (dyslexia), and non-progressive weaknesses in specific cognitive skills (in particular short-term verbal memory), which are believed to be the result of inadequate dystrophin in the brain.
+- [W7.42] Duchenne muscular dystrophy is caused by a mutation of the dystrophin gene, located on the short arm of the X chromosome (locus Xp21) that codes for dystrophin protein.
+- [W7.43] Mutations can either be inherited or occur spontaneously during germline transmission, causing a large reduction or absence of dystrophin, a protein that provides structural integrity in muscle cells.
+- [W7.44] Dystrophin is responsible for connecting the actin cytoskeleton of each muscle fiber to the underlying basal lamina (extracellular matrix), through a protein complex containing many subunits.
+- [W7.45] The absence of dystrophin permits excess calcium to penetrate the sarcolemma (the muscle cell membrane).
+- [W7.46] Duchenne muscular dystrophy is extremely rare in females (about 1 in 50,000,000 female births).
+- [W7.47] It can occur in females with an affected father and a carrier mother, in those who are missing an X chromosome, or in those who have an inactivated X chromosome (the most common of the rare reasons).
+- [W7.48] The vast majority of clinical trials excluded female patients from enrollment, thus reducing the generalizability of the findings and limiting our understanding of potential sex-specific differences in disease manifestation and treatment response.
+- [W7.49] The daughter of a carrier mother and an affected father will be affected or a carrier with equal probability, as she will always inherit the affected X-chromosome from her father and has a 50% chance of also inheriting the affected X-chromosome from her mother.
+- [W7.50] Disruption of the blood–brain barrier has been seen to be a noted feature in the development of Duchenne muscular dystrophy.
+- [W7.51] Duchenne muscular dystrophy can be detected with about 95% accuracy by genetic studies performed during pregnancy.
+- [W7.52] The muscle-specific isoform of the dystrophin gene is composed of 79 exons, and DNA testing (blood test) and analysis can usually identify the specific type of mutation of the exon or exons that are affected.
+- [W7.53] DNA testing confirms the diagnosis in most cases.
+- [W7.54] If DNA testing fails to find the mutation, a muscle biopsy test may be performed.
+- [W7.55] A small sample of muscle tissue is extracted using a biopsy needle.
+- [W7.56] The key tests performed on the biopsy sample for Duchenne muscular dystrophy are immunohistochemistry, immunocytochemistry, and immunoblotting for dystrophin, and should be interpreted by an experienced neuromuscular pathologist.
+- [W7.57] These tests provide information on the presence or absence of the protein.
+- [W7.58] Absence of the protein is a positive test for Duchenne muscular dystrophy.
+- [W7.59] Where dystrophin is present, the tests indicate the amount and molecular size of dystrophin, helping to distinguish Duchenne muscular dystrophy from milder dystrophinopathy phenotypes.
+- [W7.60] Over the past several years, DNA tests have been developed that detect more of the many mutations that cause the condition, and muscle biopsy is not required as often to confirm the presence of Duchenne muscular dystrophy.
+- [W7.61] A prenatal test can be considered when the mother is a known or suspected carrier.
+- [W7.62] Before invasive testing, determination of the fetal sex is important; while males are sometimes affected by this X-linked disease, female Duchenne muscular dystrophy is extremely rare.
+- [W7.63] This can be achieved by ultrasound scan at 16 weeks or more recently by free fetal DNA (cffDNA) testing.
+- [W7.64] Chorion villus sampling (CVS) can be done at 11–14 weeks and has a 1% risk of miscarriage.
+- [W7.65] Amniocentesis can be done after 15 weeks and has a 0.5% risk of miscarriage.
+- [W7.66] Non invasive prenatal testing can be done around 10–12 weeks.
+- [W7.67] Another option in the case of unclear genetic test results is fetal muscle biopsy.
+- [W7.68] No cure for Duchenne muscular dystrophy is known.
+- [W7.69] Treatment is generally aimed at controlling symptoms to maximize the quality of life which can be measured using specific questionnaires, and include:
+- [W7.70] Corticosteroids such as prednisolone, deflazacort, and vamorolone (Agamree) lead to short-term improvements in muscle strength and function up to 2 years.
+- [W7.71] Corticosteroids have also been reported to help prolong walking, though the evidence for this is not robust.
+- [W7.72] Disease-specific physical therapy helps maintain muscle strength, flexibility, and function.
+- [W7.73] Minimize the development of contractures and deformity by developing a program of stretches and exercises where appropriate
+- [W7.74] Anticipate and minimize other secondary complications of physical nature by recommending bracing and durable medical equipment
+- [W7.75] Monitor respiratory function and advise on techniques to assist with breathing exercises and methods of clearing secretions
+- [W7.76] Orthopedic appliances (such as braces and wheelchairs) may improve mobility and the ability for self-care.
+- [W7.77] Form-fitting removable leg braces that hold the ankle in place during sleep can defer the onset of contractures.
+- [W7.78] Appropriate respiratory support as the disease progresses is important.
+- [W7.79] Cardiac problems may require a pacemaker.
+- [W7.80] The medication eteplirsen, a Morpholino antisense oligo, has been approved in the United States for the treatment of mutations amenable to dystrophin exon 51 skipping.
+- [W7.81] The US approval has been controversial as eteplirsen failed to establish a clinical benefit; it has been refused approval by the European Medicines Agency.
+- [W7.82] The medication ataluren (Translarna) is approved for use in the European Union.
+- [W7.83] The antisense oligonucleotide golodirsen (Vyondys 53) was approved for medical use in the United States in 2019, for the treatment of cases that can benefit from skipping exon 53 of the dystrophin transcript.
+- [W7.84] The Morpholino antisense oligonucleotide viltolarsen (Viltepso) was approved for medical use in the United States in August 2020, for the treatment of Duchenne muscular dystrophy (DMD) in people who have a confirmed mutation of the DMD gene that is amenable to exon 53 skipping.
+- [W7.85] Developed by Nippon Shinyaku and the National Center of Neurology and Psychiatry (NCNP), viltolarsen's pre-clinical development was supported by pioneering work from Toshifumi Yokota and colleagues.
+- [W7.86] It is the second approved targeted treatment for people with this type of mutation in the United States.
+- [W7.87] Approximately 8% of people with DMD have a mutation that is amenable to exon 53 skipping.
+- [W7.88] Casimersen (Amondys 45) was approved for medical use in the United States in February 2021, and it is the first FDA-approved targeted treatment for people who have a confirmed mutation of the Duchenne muscular dystrophy gene that is amenable to exon 45 skipping.
+- [W7.89] Comprehensive multidisciplinary care guidelines for Duchenne muscular dystrophy have been developed by the US Centers for Disease Control and Prevention and were published in 2010.
+- [W7.90] An update was published in 2018.
+- [W7.91] Delandistrogene moxeparvovec (Elevidys) is a gene therapy that in June 2023 received United States FDA accelerated approval for the treatment of four and five-year-old children.
+- [W7.92] In October 2023, the US Food and Drug Administration (FDA) approved Vamorolone (Agamree) as a Treatment for Duchenne muscular dystrophy.
+- [W7.93] Catalyst Pharmaceuticals holds the exclusive North American license and commercial rights.
+- [W7.94] In March 2024, the FDA approved givinostat (Duvyzat), an oral medication, to be used in the treatment of Duchenne muscular dystrophy in people aged six years and older.
+- [W7.95] Givinostat is the first nonsteroidal drug to receive FDA approval for the treatment of all genetic variants of Duchenne muscular dystrophy.
+- [W7.96] Functioning as a histone deacetylase (histone deacetylase (HDAC) inhibitor, givinostat operates by targeting pathogenic processes within the body, ultimately leading to a reduction in inflammation and muscle loss associated with the disease.
+- [W7.97] Duchenne muscular dystrophy is a rare progressive disease that eventually affects all voluntary muscles and involves the heart and breathing muscles in later stages.
+- [W7.98] Life expectancy is estimated to be around 25–26, but this varies.
+- [W7.99] People born with Duchenne muscular dystrophy after 1990 have a median life expectancy of approximately 28–30.
+- [W7.100] With excellent medical care, affected men often live into their 30s.
+- [W7.101] The oldest surviving person in the world with the disease is 64 years old.
+- [W7.102] The most common direct cause of death in people with Duchenne muscular dystrophy is respiratory failure.
+- [W7.103] Complications from treatment, such as mechanical ventilation and tracheotomy procedures, are also a concern.
+- [W7.104] The next leading cause of death is cardiac-related conditions such as heart failure brought on by dilated cardiomyopathy.
+- [W7.105] With respiratory assistance, the median survival age can reach up to 40.
+- [W7.106] In rare cases, people with Duchenne muscular dystrophy have been seen to survive into their forties or early fifties, with proper positioning in wheelchairs and beds, and the use of ventilator support (via tracheostomy or mouthpiece), airway clearance, and heart medications.
+- [W7.107] Early planning of the required supports for later-life care has shown greater longevity for people with Duchenne muscular dystrophy.
+- [W7.108] Curiously, in the mdx mouse model of Duchenne muscular dystrophy, the lack of dystrophin is associated with increased calcium levels and skeletal muscle myonecrosis.
+- [W7.109] The intrinsic laryngeal muscles (ILMs) are protected and do not undergo myonecrosis.
+- [W7.110] ILMs have a calcium regulation system profile suggestive of a better ability to handle calcium changes in comparison to other muscles, and this may provide a mechanistic insight for their unique pathophysiological properties.
+- [W7.111] In addition, patients with Duchenne muscular dystrophy also have elevated plasma lipoprotein levels, implying a primary state of dyslipidemia in patients.
+- [W7.112] Duchenne muscular dystrophy is the most common type of muscular dystrophy; it affects about one in 5,000 males at birth.
+- [W7.113] Duchenne muscular dystrophy has an incidence of one in 3,600 male infants.
+- [W7.114] In the US, a 2010 study showed a higher amount of those with Duchenne muscular dystrophy age ranging from 5 to 54 who are Hispanic compared to non-Hispanic Whites, and non-Hispanic Blacks.
+- [W7.115] The disease was first described by the Neapolitan physician Giovanni Semmola in 1834 and Gaetano Conte in 1836.
+- [W7.116] However, Duchenne muscular dystrophy is named after the French neurologist Guillaume-Benjamin-Amand Duchenne (1806–1875), who in the 1861 edition of his book Paraplégie hypertrophique de l'enfance de cause cérébrale, described and detailed the case of a boy who had this condition.
+- [W7.117] A year later, he presented photos of his patient in his Album de photographies pathologiques.
+- [W7.118] In 1868, he gave an account of 13 other affected children.
+- [W7.119] Duchenne was the first to do a biopsy to obtain tissue from a living patient for microscopic examination.
+- [W7.120] As of 2023, the US states Ohio and New York require newborns to be screened for Duchenne muscular dystrophy.
+- [W7.121] As of 2024, Minnesota requires newborn screening.
+- [W7.122] Alfredo Ferrari was an Italian automotive engineer, the eldest son of automaker Enzo Ferrari, and the planned heir to his father's sports car company, Ferrari.
+- [W7.123] Alfredo died of DMD on 30 June 1956 at the age of 24.
+- [W7.124] Rapper and disability rights advocate Darius Weems had the disease and used his notoriety to raise awareness and funds for treatment, as seen in the documentary Darius Goes West (2007).
+- [W7.125] He died at the age of 27 in 2016.
+- [W7.126] In 2024, Netflix released a documentary film about a young man with the disease, The Remarkable Life of Ibelin.
+- [W7.127] The film explores the life of Mats Steen and the impact he had on his World of Warcraft guild Starlight, where Mats spent much of his time.
+- [W7.128] Jonathan Evison's novel, The Revised Fundamentals of Caregiving, published in 2012, depicted a young man affected by the disease.
+- [W7.129] In 2016, Netflix released The Fundamentals of Caring, a film based on the novel.
+- [W7.130] Efforts are ongoing to find medications that either return the ability to make dystrophin or utrophin.
+- [W7.131] Other efforts include trying to block the entry of calcium ions into muscle cells.
+- [W7.132] Recent reports have revealed gut microbiome dysbiosis influencing muscle pathophysiology through the immune system of dystrophin‐deficient mice and managing of gut dysbiosis with sodium butyrate supplementation (NaB) in mdx mice is reported with rescuing muscle strength and halting inflammation.
+- [W7.133] In human clinical studies, epigenetic manipulation as a potential mechanism through gut microbiome balancing yielding clinically encouraging outcome have been reported, warranting further in-depth evaluation in this direction.
+- [W7.134] Antisense oligonucleotides (oligos), structural analogs of DNA, are the basis of a potential treatment for 10% of people with Duchenne muscular dystrophy.
+- [W7.135] The compounds allow faulty parts of the dystrophin gene to be skipped when it is transcribed to RNA for protein production, permitting a still-truncated but more functional version of the protein to be produced.
+- [W7.136] It is also known as nonsense suppression therapy.
+- [W7.137] Two kinds of antisense oligos, 2'-O-methyl phosphorothioate oligos (such as drisapersen) and morpholino oligos (such as eteplirsen), have tentative evidence of benefit and are being studied.
+- [W7.138] Eteplirsen is targeted to skip exon 51.
+- [W7.139] "As an example, skipping exon 51 restores the reading frame of ~ 15% of all the boys with deletions.
+- [W7.140] It has been suggested that by having 10 AONs to skip 10 different exons it would be possible to deal with more than 70% of all DMD boys with deletions." This represents about 1.5% of cases.
+- [W7.141] People with Becker's muscular dystrophy, which is milder than DMD, have a form of dystrophin that is functional even though it is shorter than normal dystrophin.
+- [W7.142] In 1990 England et al. noticed that a patient with mild Becker muscular dystrophy was lacking 46% of his coding region for dystrophin.
+- [W7.143] This functional, yet truncated, form of dystrophin gave rise to the notion that shorter dystrophin can still be therapeutically beneficial.
+- [W7.144] Concurrently, Kole et al. had modified splicing by targeting pre-mRNA with antisense oligonucleotides (AONs).
+- [W7.145] Kole demonstrated success using splice-targeted AONs to correct missplicing in cells removed from beta-thalassemia patients Wilton's group tested exon skipping for muscular dystrophy.
+- [W7.146] Researchers are working on a gene editing method to correct a mutation that leads to Duchenne muscular dystrophy (DMD).
+- [W7.147] Researchers used a technique called CRISPR/Cas9-mediated genome editing, which can precisely remove a mutation in the dystrophin gene in DNA, allowing the body's DNA repair mechanisms to replace it with a normal copy of the gene.
+- [W7.148] Genome editing through the CRISPR/Cas9 system is not currently feasible in humans.
+- [W7.149] However, it may be possible, through advancements in technology, to use this technique to develop therapies for DMD in the future.
+- [W7.150] In 2007, researchers did the world's first clinical (viral-mediated) gene therapy trial for Duchenne MD.
+- [W7.151] Biostrophin is a delivery vector for gene therapy in the treatment of Duchenne muscular dystrophy and Becker muscular dystrophy.
+- [W7.152] Several medications designed to address the root cause are under development, including gene therapy and antisense drugs.
+- [W7.153] Other medications used include corticosteroids to slow muscle degeneration.
+- [W7.154] Physical therapy, orthopedic braces, and corrective surgery may help with some symptoms while assisted ventilation may be required in those with weakness of breathing muscles.
+- [W7.155] Outcomes depend on the specific type of disorder.
+- [W7.156] In February 2024, the results of a 48-week trial with Vamorolone in patients with Duchenne muscular dystrophy (The VISION-DMD study) were published.
+- [W7.157] Patients showed improvements in motor outcomes seen with 6 mg/kg/d of Vamorolone at 24 weeks of treatment and were maintained for 48 weeks of treatment.
+- [W7.158] As well, bone morbidities of prednisone (stunting of growth and declines in serum bone biomarkers) were reversed when treatment transitioned to Vamorolone.
+
+## [W8] Wikipedia: X-linked hypophosphatemia
+https://en.wikipedia.org/w/index.php?title=X-linked_hypophosphatemia&oldid=1378659044 · CC BY-SA 4.0 · usage: ai_input
+
+- [W8.1] X-linked hypophosphatemia (XLH) is an X-linked dominant form of rickets (or osteomalacia) that differs from most cases of dietary deficiency rickets in that vitamin D supplementation does not cure it.
+- [W8.2] It can cause bone deformity, including short stature and genu varum (bow-leggedness).
+- [W8.3] It is associated with a mutation in the PHEX gene sequence (Xp.22) and subsequent inactivity of the PHEX protein.
+- [W8.4] Inactivating mutations in the PHEX gene lead to an elevated circulating (systemic) level of the hormone FGF23 which results in renal phosphate wasting, and local elevations of the mineralization/calcification-inhibiting protein osteopontin in the extracellular matrix of bones and teeth.
+- [W8.5] These local elevations of osteopontin, along with renal phosphate wasting, often cause osteomalacia and odontomalacia (softening of bones and teeth, respectively), which constitute some of the main symptoms of XLH.
+- [W8.6] Both of these underlying mechanisms (renal phosphate wasting systemically, and mineralization inhibitor accumulation locally) contribute to the pathophysiology of XLH.
+- [W8.7] The prevalence of the disease is estimated to be 1 in 20,000.
+- [W8.8] For both XLH and hypophosphatasia, inhibitor-enzyme pair relationships function to regulate mineralization in the extracellular matrix through a double-negative (inhibiting the inhibitors) activation effect in a manner described as the Stenciling Principle.
+- [W8.9] X-linked hypophosphatemia may be lumped in with autosomal dominant hypophosphatemic rickets under general terms such as hypophosphatemic rickets.
+- [W8.10] Hypophosphatemic rickets is associated with at least nine other genetic mutations.
+- [W8.11] Clinical management of hypophosphatemic rickets may differ depending on the specific mutations associated with an individual case, but treatments often are aimed at raising phosphate levels to promote normal bone formation.
+- [W8.12] The most common symptoms of XLH affect the bones and teeth, causing pain, abnormalities, and osteoarthritis.
+- [W8.13] Symptoms and signs can vary between children and adults and can include (but not limited to):
+- [W8.14] Limited range of movement (enthesopathy)
+- [W8.15] Defective mineral tessellation (an ultrastructural mineralization deficiency)
+- [W8.16] XLH affects about 1 in 20,000 individuals and is the most common cause of inherited phosphate wasting.
+- [W8.17] It is associated with a mutation in the PHEX gene sequence, located on the human X chromosome at location Xp22.2-p22.1.
+- [W8.18] The PHEX protein regulates another protein called fibroblast growth factor 23 (produced from the FGF23 gene).
+- [W8.19] Fibroblast growth factor 23 normally inhibits the kidneys' ability to reabsorb phosphate into the bloodstream.
+- [W8.20] Gene mutations in PHEX prevent it from correctly regulating fibroblast growth factor 23, leading to overactivity of FGF-23.
+- [W8.21] The overactivity of FGF-23 reduces vitamin D 1α-hydroxylation and phosphate reabsorption by the kidneys, leading to hypophosphatemia and the related features of rickets.
+- [W8.22] Also in XLH, where PHEX enzymatic activity is absent or reduced, osteopontin—a mineralization-inhibiting secreted substrate protein found in the extracellular matrix of bone—accumulates in bone (and teeth) to contribute to the osteomalacia (and odontomalacia) as shown in the mouse homolog (Hyp) of XLH and in XLH patients.
+- [W8.23] The disorder is inherited in an X-linked dominant manner.
+- [W8.24] This means the defective gene responsible for the disorder (PHEX) is located on the X chromosome, and only one copy of the defective gene is sufficient to cause the disorder when inherited from a parent who has the disorder.
+- [W8.25] Males are normally hemizygous for the X chromosome, having only one copy.
+- [W8.26] As a result, X-linked dominant disorders usually show higher expressivity in males than females (higher severity), while females tend to be affected more often (higher incidence) but with lower expressivity of the phenotype.
+- [W8.27] As the X chromosome is one of the sex chromosomes (the other being the Y chromosome), X-linked inheritance is determined by the sex of the parent carrying a specific gene.
+- [W8.28] This is because, typically, females have two copies of the X chromosome and males have only one copy, and thus males can only pass their copy to their daughters, while females can pass an X chromosome to a child of either sex.
+- [W8.29] The difference between dominant and recessive inheritance patterns also plays a role in determining the chances of a child inheriting an X-linked disorder from their parentage, with traits associated with dominant X-linked inheritance appearing more in females (but with lower expressivity) and those associated with recessive X-linked inheritance appearing nearly exclusively in males.
+- [W8.30] The clinical laboratory evaluation of rickets begins with assessing serum calcium, phosphate, and alkaline phosphatase levels.
+- [W8.31] In hypophosphatemic rickets, calcium levels may be within or slightly below the reference range; alkaline phosphatase levels will be significantly above the reference range.
+- [W8.32] Biochemically, XLH is recognized by hypophosphatemia.
+- [W8.33] Serum phosphate levels need to be carefully evaluated in the first year of life, as the concentration reference range for infants (5.0–7.5 mg/dL) is high compared with that for adults (2.7–4.5 mg/dL).
+- [W8.34] Serum parathyroid hormone levels are within the reference range or slightly elevated.
+- [W8.35] Calcitriol (1,25-(OH)2 vitamin D3) levels are low or within the lower reference range.
+- [W8.36] Most importantly, urinary loss of phosphate is above the reference range.
+- [W8.37] The renal tubular reabsorption of phosphate (TRP) in X-linked hypophosphatemia is 60%; normal TRP exceeds 90% at the same reduced plasma phosphate concentration.
+- [W8.38] The TRP is calculated with the following formula:
+- [W8.39] 1 − [Phosphate Clearance (CPi) / Creatinine Clearance (Ccr)] × 100
+- [W8.40] Conventional therapy consisted of medications including human growth hormone, calcitriol, and oral phosphate, and calcitriol.
+- [W8.41] Unwanted effects of this therapy have included secondary hyperparathyroidism, nephrocalcinosis, kidney stones, and cardiovascular abnormalities.
+- [W8.42] In February 2018 the European Medicines Agency first licensed a monoclonal antibody directed against FGF23, the first drug targeting the underlying cause for this condition, called burosumab.
+- [W8.43] It was then licensed by the US Food and Drug Administration in June 2018 Burosumab is shown to target the major symptoms of XLH by decreasing elevated alkaline phosphatase and normalizing severe hypophosphatemia, leading to substantial improvement of rickets in child and adolescent patients.
+- [W8.44] The leg deformity can be treated with Ilizarov frames and CAOS.
+- [W8.45] In the event of severe bowing, an osteotomy can be performed to correct the leg shape.
+- [W8.46] International XLH Alliance – an alliance of international patient groups for individuals affected by XLH and related disorders.
+- [W8.47] Jennyfer Marques Parinos is a Paralympic bronze medallist from Brazil who has XLH.
+- [W8.48] She competes under a class 9 disability.
+- [W8.49] Autosomal dominant hypophosphatemic rickets
+- [W8.50] Tumor-induced osteomalacia
+- [W8.51] Hypophosphatemic rickets; XLH; Hypophosphatemia, vitamin D-resistant rickets at NIH's Office of Rare Diseases
+
+## [W9] Wikipedia: Budgerigar colour genetics
+https://en.wikipedia.org/w/index.php?title=Budgerigar_colour_genetics&oldid=1363809821 · CC BY-SA 4.0 · usage: ai_input
+
+- [W9.1] The science of budgerigar colour genetics deals with the heredity of mutations which cause colour variation in the feathers of the species known scientifically as Melopsittacus undulatus.
+- [W9.2] Birds of this species are commonly known by the terms "budgerigar" or "parakeet".
+- [W9.3] The wildtype (natural-coloured or wild occurring) budgerigar's colour is called Lightgreen.
+- [W9.4] The feathers of most parrot species, including budgerigars, contain both a black type of melanin named eumelanin along with a basic yellow pigment named psittacofulvin (psittacin for short).
+- [W9.5] Some other parrot species produce a third pigment named advanced-psittacin which enables colour & tones ranging from oranges, peaches, and pinks to reds.
+- [W9.6] When these feathers are exposed to a white light source, such as sunlight, only the blue part of the spectrum is reflected by the eumelanin granules.
+- [W9.7] This reflected blue light passes through the yellow pigment layer, resulting in the green colouration known as lightgreen in only the budgerigar and/or green in any other naturally green coloured parrot species.
+- [W9.8] The many colour variations of budgerigars, such as albino, blue, cinnamon, Clearwinged, the various Fallows, Grey, Greygreen, Greywing, Lutino, Mauve, Olive, Opaline, Spangled, Suffused and Violet are the result of mutations that have occurred within specific genes.
+- [W9.9] There are at least thirty-two known primary mutations established among budgerigars.
+- [W9.10] These can combine to form hundreds of secondary mutations and colour varieties which may or may not be stable.
+- [W9.11] As is true with all animal species, colour mutations occur in captivity as well as in the wild.
+- [W9.12] This has been demonstrated when captive-bred budgerigars have developed mutations that had only been previously recorded amongst wild populations.
+- [W9.13] Classification of mutations
+- [W9.14] Each of the thirty-two primary mutations belong to one of the four basic groups of mutations classified in parrot species genetics:
+- [W9.15] Albinism: where eumelanin is either partially or completely reduced in all body tissues and structures.
+- [W9.16] Dilution: where eumelanin is partially reduced in only feathering.
+- [W9.17] Leucism: where eumelanin is completely reduced from total or localized feathering.
+- [W9.18] Melanism: where eumelanin is increased in the feathering.
+- [W9.19] These mutations are inherited through one of the following dominance relationships.
+- [W9.20] autosomal-Co-Dominant (A-Co-D),
+- [W9.21] autosomal-Complete-Dominant (A-C-D),
+- [W9.22] autosomal-Incomplete-Dominant (A-I-D),
+- [W9.23] autosomal-recessive (A-R),
+- [W9.24] autosomal-Poly-Genic (A-P-G)
+- [W9.25] Sex-Linked-recessive (S-L-R)
+- [W9.26] Table of primary mutations
+- [W9.27] In the first few decades of the 1900s, especially in-between World War I and II, the keeping and breeding of the budgerigar had become very popular all around the world.
+- [W9.28] Consequently, various mutations occurred and were soon established during this period.
+- [W9.29] 1870–75 The very first registered sudden captive-bred colour mutations were Suffused Green (a.k.a.
+- [W9.30] Dilute Yellow), Greywinged Green and either one of the two types of Lutino (NSLino &/or SLino) mutations.
+- [W9.31] All three occurred in aviaries in Britain or continental Europe.
+- [W9.32] Of these three mutations, only the Suffused Green (a.k.a.
+- [W9.33] Dilute Yellow) has survived.
+- [W9.34] The latter was easily reproduced in great numbers and is nowadays very well established.
+- [W9.35] The first Lutino mutation quickly vanished but it was re-established in Europe some time between 1931 and 1933.
+- [W9.36] 1878–85 The Skyblue mutation suddenly occurred in continental Europe, most probably in Uccle, Belgium.
+- [W9.37] Surprisingly, this variety was not imported in England until 1910.
+- [W9.38] 1915 Single-Factored Dark-Green (a.k.a.
+- [W9.39] Dark-Green) in France (where they were then commonly called 'Laurel' which is the French word for Bay (leaf &/or tree))
+- [W9.40] 1916 Double-Factored Dark-Green (a.k.a.
+- [W9.41] 1918–28 Respectively, Greywinged Green and Greywinged Blue appeared in England and continental Europe.
+- [W9.42] Crest-Factor in Australia.
+- [W9.43] Dilute White) in England and France.
+- [W9.44] Single-Factored Dark_Blue (a.k.a.
+- [W9.45] 1921 Double-Factored Dark_Blue (a.k.a.
+- [W9.46] Single-Factored Violet-Green (a.k.a.
+- [W9.47] Violet Factor) in Australia (and were then 1st commonly called 'Satin Green')
+- [W9.48] The first Clearwinged Green (Yellowinged) appeared, developed by H.
+- [W9.49] Cinnamon in England, Australia & Germany.
+- [W9.50] An unknown type of Fallow in California, U.S.
+- [W9.51] The Germanfallow in Germany, recently been genetically classified and identified as the Bronzefallow (a.k.a.
+- [W9.52] A plum-eyed mutation, similar looking to Fallow mutations, occurred in England.
+- [W9.53] This vanished or at least became very rare.
+- [W9.54] This mutation was most probably the Brownwings, one of the rarest colour mutations of the species.
+- [W9.55] The first Albino specimens were produced in both England and continental Europe.
+- [W9.56] Three Fallow mutations occurred in England which became known as the Englishfallow.
+- [W9.57] In Australia these have been genetically classified and identified as the Dunfallow or Greybrownfallow (a.k.a.
+- [W9.58] The Beigefallow or Palebrownfallow has been classified in South-Africa, but no reference seems to be available on this particular mutation.
+- [W9.59] The recessive Anti-dimorphic Pied (a.k.a.
+- [W9.60] Banded) Pied in Australia.
+- [W9.61] Yellow Wing) and Dominant Grey-Factor appear in Australia.
+- [W9.62] Both the NSL & the SL Lutino gene occurred in England and continental Europe.
+- [W9.63] Three Opaline mutations occurred.
+- [W9.64] An Opaline Green hen was captured in the wild and sold to S.
+- [W9.65] It was later reproduced and is most probably the ancestor of all Opaline specimens in Australia.
+- [W9.66] Two sudden captive-bred Opaline mutations occurred in England and the Netherlands.
+- [W9.67] 1934 Recessive grey factor in England.
+- [W9.68] 1935 The various Yellowfaced_Blue and Goldenfaced_Blue occurred in several locations.
+- [W9.69] 1939–46 Clearflighted_Dutchpied in Belgium.
+- [W9.70] Dominant Clearbodied (a.k.a.
+- [W9.71] Easley's Clearbodied) in the U.S.
+- [W9.72] The first Cinnamon-Ino (a.k.a.
+- [W9.73] Lacewings) cross-over mutation was produced in Australia.
+- [W9.74] The first Dark-Eyed-Clear (DEC) variety was produced in Belgium by combining the ADM Pied (a.k.a.
+- [W9.75] Danish/Recessive pied) with either one of the two Dutchpied varieties (Continental or Clearflighted).
+- [W9.76] 1970–74 Single-Factored and Double-Factored Spangled specimens were produced in Australia.
+- [W9.77] 1975 Saddleback specimens were produced in Australia.
+- [W9.78] 1992 Blackface specimens make their first appearance in the Netherlands.
+- [W9.79] 2010 White Cap bred in Australia.
+- [W9.80] These birds have a yellow face, but with a white cap.
+- [W9.81] It is possible that the Greywings mutation survived as the ancestor of all actual Greywings.
+- [W9.82] However, it could be that the mutation lay dormant in asymptomatic mutant specimens until it was re-established between 1918 and 1925.
+- [W9.83] Blue Greywing specimens were produced later on in 1928.
+- [W9.84] It is possible that all Suffused mutation specimens and their varieties are descendants from the first captive mutant specimens.
+- [W9.85] This would mean that Suffused is the oldest sudden captive-bred colour mutation of the Budgerigar species.
+- [W9.86] Inte Onsman's MUTAVI Research and Advice Group
+
+## [W10] Morgan, A Critique of the Theory of Evolution (1916), Project Gutenberg #30701
+https://www.gutenberg.org/ebooks/30701 · Public domain · usage: ai_input, display
+
+- [W10.1] The Project Gutenberg eBook of A Critique of the Theory of Evolution
+- [W10.2] This eBook is for the use of anyone anywhere in the United States and
+- [W10.3] most other parts of the world at no cost and with almost no restrictions
+- [W10.4] You may copy it, give it away or re-use it under the terms
+- [W10.5] of the Project Gutenberg License included with this eBook or online
+- [W10.6] If you are not located in the United States,
+- [W10.7] you will have to check the laws of the country where you are located
+- [W10.8] Title: A Critique of the Theory of Evolution
+- [W10.9] Author: Thomas Hunt Morgan
+- [W10.10] Release date: December 17, 2009 [eBook #30701]
+- [W10.11] Most recently updated: January 5, 2021
+- [W10.12] Other information and formats: www.gutenberg.org/ebooks/30701
+- [W10.13] Credits: Produced by Bryan Ness, Keith Edkins, and the Online
+- [W10.14] Distributed Proofreading Team at https://www.pgdp.net.
+- [W10.15] *** START OF THE PROJECT GUTENBERG EBOOK A CRITIQUE OF THE THEORY OF EVOLUTION ***
+- [W10.16] Produced by Bryan Ness, Keith Edkins, and the Online
+- [W10.17] Distributed Proofreading Team at https://www.pgdp.net.
+- [W10.18] Transcriber's note: A few typographical errors have been corrected: they
+- [W10.19] are listed at the end of the text.
+- [W10.20] *       *       *       *       *
+- [W10.21] THE LOUIS CLARK VANUXEM FOUNDATION
+- [W10.22] *       *       *       *       *
+- [W10.23] The Louis Clark Vanuxem Foundation of Princeton University
+- [W10.24] was established in 1912 with a bequest of $25,000 under the will of Louis
+- [W10.25] Clark Vanuxem, of the Class of 1879.
+- [W10.26] By direction of the executors of Mr.
+- [W10.27] Vanuxem's estate, the income of the foundation is to be used for a series
+- [W10.28] of public lectures delivered in Princeton annually, at least one half of
+- [W10.29] which shall be on subjects of current scientific interest.
+- [W10.30] to be published and distributed among schools and libraries generally.
+- [W10.31] The following lectures have already been published or are in press:
+- [W10.32] 1912-13 The Theory of Permutable Functions, by Vito Volterra
+- [W10.33] 1913-14 Lectures delivered in connection with the dedication of the
+- [W10.34] Graduate College of Princeton University by Emile Boutroux, Alois
+- [W10.35] Godley, and Arthur Shipley
+- [W10.36] 1914-15 Romance, by Sir Walter Raleigh
+- [W10.37] 1915-16 A Critique of the Theory of Evolution, by Thomas Hunt Morgan
+- [W10.38] *       *       *       *       *
+- [W10.39] LOUIS CLARK VANUXEM FOUNDATION
+- [W10.40] PROFESSOR OF EXPERIMENTAL ZOOLOGY IN
+- [W10.41] LECTURES DELIVERED AT PRINCETON UNIVERSITY
+- [W10.42] FEBRUARY 24, MARCH 1, 8, 15, 1916
+- [W10.43] PRINCETON UNIVERSITY PRESS
+- [W10.44] *       *       *       *       *
+- [W10.45] PRINCETON UNIVERSITY PRESS
+- [W10.46] *       *       *       *       *
+- [W10.47] Occasionally one hears today the statement that we have come to realize
+- [W10.48] that we know nothing about evolution.
+- [W10.49] This point of view is a healthy
+- [W10.50] reaction to the over-confident belief that we knew everything about
+- [W10.51] There are even those rash enough to think that in the last few
+- [W10.52] years we have learned more about evolution than we might have hoped to know
+- [W10.53] A _critique_ therefore not only becomes a criticism of the
+- [W10.54] older evidence but an appreciation of the new evidence.
+- [W10.55] In the first lecture an attempt is made to put a new valuation on the
+- [W10.56] traditional evidence for evolution.
+- [W10.57] In the second lecture the most recent
+- [W10.58] work on heredity is dealt with, for only characters that are inherited can
+- [W10.59] become a part of the evolutionary process.
+- [W10.60] physical basis of heredity and the composition of the germ plasm stream are
+- [W10.61] examined in the light of new observations; while in the fourth lecture the
+- [W10.62] thesis is developed that chance variation combined with a property of
+- [W10.63] living things to manifold themselves is the key note of modern evolutionary
+- [W10.64] *       *       *       *       *
+- [W10.65] A REVALUATION OF THE EVIDENCE ON
+- [W10.66] WHICH THE THEORY OF EVOLUTION WAS BASED
+- [W10.67] PREFACE                                                v
+- [W10.68] THREE KINDS OF EVOLUTION                          1-7
+- [W10.69] THE EVIDENCE FOR ORGANIC EVOLUTION               7-27
+- [W10.70] The Evidence from Comparative Anatomy         7-14
+- [W10.71] The Evidence from Embryology                 14-23
+- [W10.72] The Evidence from Paleontology               24-27
+- [W10.73] THE FOUR GREAT HISTORICAL SPECULATIONS          27-39
+- [W10.74] The Environment                              27-31
+- [W10.75] Use and Disuse                               31-34
+- [W10.76] The Unfolding Principle                      34-36
+- [W10.77] Natural Selection                            36-39
+- [W10.78] THE BEARING OF MENDEL'S DISCOVERY ON
+- [W10.79] THE ORIGIN OF HEREDITY CHARACTERS
+- [W10.80] Mendel's First Discovery--Segregation           41-52
+- [W10.81] Mendel's Second Discovery--Independent
+- [W10.82] Assortment                                      52-59
+- [W10.83] The Characters of Wild Animals and Plants
+- [W10.84] Follow the Same Laws of Inheritance as do
+- [W10.85] the Characters of Domesticated Animals and
+- [W10.86] Plants                                          59-84
+- [W10.87] Sexual Dimorphism                            61-64
+- [W10.88] Eosin eye color of Drosophila                61-62
+- [W10.89] Color of the Clover Butterfly, Colias
+- [W10.90] philodice                                    62-63
+- [W10.91] Color of Papilio turnus                      63
+- [W10.92] Color pattern of Papilio polytes             63-64
+- [W10.93] Duplication of parts                         65-66
+- [W10.94] Thorax of Drosophila                         65
+- [W10.95] Legs of Drosophila                           65-66
+- [W10.96] Loss of characters                           66-68
+- [W10.97] "Eyeless" of Drosophila                      66-67
+- [W10.98] Vestigial wings of Drosophila                67
+- [W10.99] Bar eye of Drosophila                        67-68
+- [W10.100] Small changes of characters                  68-70
+- [W10.101] "Speck"                                      68
+- [W10.102] Bristles of "club"                           70
+- [W10.103] Manifold effects of same factor              71
+- [W10.104] Constant but trivial effects may be the
+- [W10.105] product of factors having other vital
+- [W10.106] aspect                                       73
+- [W10.107] Sex-linked inheritance                       75-80
+- [W10.108] in Drosophila ampelophila                    75-76
+- [W10.109] in the wild species D. repleta               76
+- [W10.110] in man                                       77
+- [W10.111] in domesticated Fowls                        77-78
+- [W10.112] in the wild moth, Abraxas                    78-80
+- [W10.113] Multiple allelomorphs                         81-84
+- [W10.114] in the wild Grouse Locust                    81-83
+- [W10.115] in domesticated mice and rabbits             83
+- [W10.116] in Drosophila ampelophila                    84
+- [W10.117] MUTATION AND EVOLUTION                          84-88
+- [W10.118] THE FACTORIAL THEORY OF HEREDITY
+- [W10.119] AND THE COMPOSITION OF THE GERM PLASM
+- [W10.120] THE CELLULAR BASIS OF ORGANIC EVOLUTION
+- [W10.121] AND HEREDITY                                    89-98
+- [W10.122] THE MECHANISM OF MENDELIAN HEREDITY
+- [W10.123] DISCOVERED IN THE BEHAVIOR OF THE
+- [W10.124] CHROMOSOMES                                    98-102
+- [W10.125] THE FOUR GREAT LINKAGE GROUPS OF DROSOPHILA
+- [W10.126] AMPELOPHILA                                   103-118
+- [W10.127] LOCALIZATION OF FACTORS IN THE CHROMOSOMES    118-142
+- [W10.128] The Evidence from Sex Linked Inheritance   118-137
+- [W10.129] The Evidence from Interference             137-138
+- [W10.130] The Evidence from Non-Disjunction          139-142
+- [W10.131] HOW MANY GENETIC FACTORS ARE THERE IN
+- [W10.132] THE GERM-PLASM OF A SINGLE INDIVIDUAL?
+- [W10.133] CONCLUSIONS                                   144
+- [W10.134] THE THEORY OF NATURAL SELECTION               145-161
+- [W10.135] HOW HAS SELECTION IN DOMESTICATED ANIMALS
+- [W10.136] AND PLANTS BROUGHT ABOUT ITS RESULTS?
+- [W10.137] ARE FACTORS CHANGED THROUGH SELECTION?
+- [W10.138] HOW DOES NATURAL SELECTION INFLUENCE
+- [W10.139] CONCLUSIONS                                   193-194
+- [W10.140] INDEX                                            195-197
+- [W10.141] *       *       *       *       *
+- [W10.142] A REVALUATION OF THE EVIDENCE ON WHICH THE THEORY OF EVOLUTION WAS BASED
+- [W10.143] We use the word evolution in many ways--to include many different kinds of
+- [W10.144] There is hardly any other scientific term that is used so
+- [W10.145] carelessly--to imply so much, to mean so little.
+- [W10.146] We speak of the evolution of the stars, of the evolution of the horse, of
+- [W10.147] the evolution of the steam engine, as though they were all part of the same
+- [W10.148] Only this, that each concerns itself
+- [W10.149] with the _history_ of something.
+- [W10.150] When the astronomer thinks of the
+- [W10.151] _evolution_ of the earth, the moon, the sun and the stars, he has a picture
+- [W10.152] of diffuse matter that has slowly condensed.
+- [W10.153] With condensation came heat;
+- [W10.154] with heat, action and reaction within the mass until the chemical
+- [W10.155] substances that we know today were produced.
+- [W10.156] This is the nebular hypothesis
+- [W10.157] The astronomer explains, or tries to explain, how this
+- [W10.158] evolution took place, by an appeal to the physical processes that have been
+- [W10.159] worked out in the laboratory, processes which he thinks have existed
+- [W10.160] through all the eons during which this evolution was going on and which
+- [W10.161] were its immediate causes.
+- [W10.162] When the biologist thinks of the evolution of animals and plants, a
+- [W10.163] different picture presents itself.
+- [W10.164] He thinks of series of animals that have
+- [W10.165] lived in the past, whose bones (fig.
+- [W10.166] 1) and shells have been preserved in
+- [W10.167] He thinks of these animals as having in the past given birth,
+- [W10.168] through an unbroken succession of individuals, to the living inhabitants of
+- [W10.169] He thinks that the old, simpler types of the past have in
+- [W10.170] part changed over into the more complex forms of today.
+- [W10.171] He is thinking as the historian thinks, but he sometimes gets confused and
+- [W10.172] thinks that he is explaining evolution when he is only describing it.
+- [W10.173] A series of skulls and feet.
+- [W10.174] Meryhippus, Hipparion and Equus.
+- [W10.175] (American Museum of Natural History.
+- [W10.176] A third kind of evolution is one for which man himself is responsible, in
+- [W10.177] the sense that he has brought it about, often with a definite end in view.
+- [W10.178] His mind has worked slowly from stage to stage.
+- [W10.179] history of the stages through which his psychic processes have passed.
+- [W10.180] evolution of the steam-boat, the steam engine, paintings, clothing,
+- [W10.181] instruments of agriculture, of manufacture, or of warfare (fig.
+- [W10.182] illustrates the history of human progress.
+- [W10.183] There is an obvious and striking
+- [W10.184] similarity between the evolution of man's inventions and the evolution of
+- [W10.185] the shells of molluscs and of the bones of mammals, yet in neither case
+- [W10.186] does a knowledge of the order in which these things arose explain them.
+- [W10.187] we appeal to the psychologist he will probably tell us that human
+- [W10.188] inventions are either the result of happy accidents, that have led to an
+- [W10.189] unforeseen, but discovered use; or else the use of the invention was
+- [W10.190] It is to the latter process more especially that the idea of
+- [W10.191] When we come to review the four great lines of
+- [W10.192] evolutionary thought we shall see that this human idea of purpose recurs in
+- [W10.193] many forms, suggesting that man has often tried to explain how organic
+- [W10.194] evolution has taken place by an appeal to the method which he believes he
+- [W10.195] makes use of himself in the inorganic world.
+- [W10.196] What has the evolution of the stars, of the horse and of human inventions
+- [W10.197] Only this, that in each case from a simple beginning through a
+- [W10.198] series of changes something more complex, or at least different, has come
+- [W10.199] To lump all these kinds of changes into one and call them
+- [W10.200] evolution is no more than asserting that you believe in consecutive series
+- [W10.201] of events (which is history) causally connected (which is science); that
+- [W10.202] is, that you believe in history and that you believe in science.
+- [W10.203] not forget that we may have complete faith in both without thereby offering
+- [W10.204] any explanation of either.
+- [W10.205] It is the business of science to find out
+- [W10.206] _specifically_ what kinds of events were involved when the stars evolved in
+- [W10.207] the sky, when the horse evolved on the earth, and the steam engine was
+- [W10.208] evolved from the mind of man.
+- [W10.209] Is it not rather an empty generalization to say that any kind of change is
+- [W10.210] At most it means little more than that you want to
+- [W10.211] intimate that miraculous intervention is not necessary to account for such
+- [W10.212] We are concerned here more particularly with the biologists' ideas of
+- [W10.213] My intention is to review the evidence on which the old theory
+- [W10.214] rested its case, in the light of some of the newer evidence of recent
+- [W10.215] Four great branches of study have furnished the evidence of organic
+- [W10.216] Experimental Breeding or Genetics.
+- [W10.217] _The Evidence from Comparative Anatomy_
+- [W10.218] When we study animals and plants we find that they can be arranged in
+- [W10.219] groups according to their resemblances.
+- [W10.220] This is the basis of comparative
+- [W10.221] anatomy, which is only an accurate study of facts that are superficially
+- [W10.222] The groups are based not on a single difference, but on a very large number
+- [W10.223] Let us take for example the group of vertebrates.
+- [W10.224] Limb skeletons of extinct and living animals,
+- [W10.225] showing the homologous bones: 1, salamander; 2, frog; 3, turtle; 4,
+- [W10.226] Aetosaurus; 5, Pleisiosaurus; 6, Ichthyosaurus; 7, Mesosaurus; 8, duck.
+- [W10.227] (After Jordan and Kellogg.)]
+- [W10.228] The hand and the arm of man are similar to the hand and arm of the ape.
+- [W10.229] find the same plan in the forefoot of the rat, the elephant, the horse and
+- [W10.230] We can identify the same parts in the forefoot of the lizard,
+- [W10.231] 3), and even, though less certainly, in the pectoral fins of
+- [W10.232] Comparison does not end here.
+- [W10.233] We find similarities in the skull and
+- [W10.234] back bones of these same animals; in the brain; in the digestive system; in
+- [W10.235] the heart and blood vessels; in the muscles.
+- [W10.236] Each of these systems is very complex, but the same general arrangement is
+- [W10.237] Anyone familiar with the evidence will, I think, probably
+- [W10.238] reach the conclusion either that these animals have been created on some
+- [W10.239] preconceived plan, or else that they have some other bond that unites them;
+- [W10.240] for we find it difficult to believe that such complex, yet similar things
+- [W10.241] could have arisen independently.
+- [W10.242] But we try to convince our students of the
+- [W10.243] truth of the theory of evolution not so much by calling their attention to
+- [W10.244] this relation as by tracing each organ from a simple to a complex
+- [W10.245] I have never known such a course to fail in its intention.
+- [W10.246] that the student often becomes so thoroughly convinced that he resents any
+- [W10.247] such attempt as that which I am about to make to point out that the
+- [W10.248] evidence for his conviction is not above criticism.
+- [W10.249] Drosophila ampelophila. a, Female and b, male.]
+- [W10.250] Because we can often arrange the series of structures in a line extending
+- [W10.251] from the very simple to the more complex, we are apt to become unduly
+- [W10.252] impressed by this fact and conclude that if we found the complete series we
+- [W10.253] should find all the intermediate steps and that they have arisen in the
+- [W10.254] order of their complexity.
+- [W10.255] This conclusion is not necessarily correct.
+- [W10.256] me give some examples that have come under my own observation.
+- [W10.257] for five years the wild fruit fly Drosophila ampelophila (fig.
+- [W10.258] have found over a hundred and twenty-five new types that breed true.
+- [W10.259] has arisen independently and suddenly.
+- [W10.260] Every part of the body has been
+- [W10.261] affected by one or another of these mutations.
+- [W10.262] For instance many different
+- [W10.263] kinds of changes have taken place in the wings and several of these involve
+- [W10.264] If we arrange the latter arbitrarily in the order of
+- [W10.265] their size there will be an almost complete series beginning with the
+- [W10.266] normal wings and ending with those of apterous flies.
+- [W10.267] types are represented in figure 5.
+- [W10.268] The order in which these mutations
+- [W10.269] occurred bears no relation to their size; each originated independently
+- [W10.270] Mutants of Drosophila ampelophila arranged in order
+- [W10.271] of size of wings: (a) cut; (b) beaded; (c) stumpy; (d) another individual
+- [W10.272] of stumpy; (f) vestigial (g) apterous.]
+- [W10.273] The wings of the wild fly are straight (fig.
+- [W10.274] in which the wings are bent upwards and in the most extreme type the wings
+- [W10.275] are curled over the back, as seen in figure 54 (g), yet there is no
+- [W10.276] historical connection between these stages.
+- [W10.277] Mutations have occurred involving the pigmentation of the body and wings.
+- [W10.278] The head and thorax of the wild Drosophila ampelophila are grayish yellow,
+- [W10.279] the abdomen is banded with yellow and black, and the wings are gray.
+- [W10.280] have appeared in our cultures several kinds of darker types ranging to
+- [W10.281] 20) and to lighter types that are quite yellow.
+- [W10.282] put in line a series may be made from the darkest flies at one end to the
+- [W10.283] light yellow flies at the other.
+- [W10.284] These types, with the fluctuations that
+- [W10.285] occur within each type, furnish a complete series of gradations; yet
+- [W10.286] historically they have arisen independently of each other.
+- [W10.287] Many changes in eye color have appeared.
+- [W10.288] As many as thirty or more races
+- [W10.289] differing in eye color are now maintained in our cultures.
+- [W10.290] so similar that they can scarcely be separated from each other.
+- [W10.291] easily possible beginning with the darkest eye color, sepia, which is deep
+- [W10.292] brown, to pick out a perfectly graded series ending with pure white eyes.
+- [W10.293] But such a serial arrangement would give a totally false idea of the way
+- [W10.294] the different types have arisen; and any conclusion based on the existence
+- [W10.295] of such a series might very well be entirely erroneous, for the fact that
+- [W10.296] such a series exists bears no relation to the order in which its members
+- [W10.297] Suppose that evolution "in the open" had taken place in the same way, by
+- [W10.298] means of _discontinuous_ variation.
+- [W10.299] What value then would the evidence from
+- [W10.300] comparative anatomy have in so far as it is based on a continuous series of
+- [W10.301] No one familiar with the entire evidence will doubt for a moment that these
+- [W10.302] 125 races of Drosophila ampelophila belong to the same species and have had
+- [W10.303] a common origin, for while they may differ mainly in one thing they are
+- [W10.304] extremely alike in a hundred other things, and in the general relation of
+- [W10.305] It is in this sense that the evidence from comparative anatomy can be used
+- [W10.306] I think as an argument for evolution.
+- [W10.307] It is the resemblances that the
+- [W10.308] animals or plants in any group have in common that is the basis for such a
+- [W10.309] conclusion; it is not because we can arrange in a continuous series any
+- [W10.310] In other words, our inference concerning the common
+- [W10.311] descent of two or more species is based on the totality of such
+- [W10.312] resemblances that still remain in large part after each change has taken
+- [W10.313] In this sense the argument from comparative anatomy, while not a
+- [W10.314] demonstration, carries with it, I think, a high degree of probability.
+- [W10.315] _The Evidence from Embryology_
+- [W10.316] In passing from the egg to the adult the individual goes through a series
+- [W10.317] In the course of this development we see not only the
+- [W10.318] beginnings of the organs that gradually enlarge and change into those of
+- [W10.319] the adult animal, but also see that organs appear and later disappear
+- [W10.320] before the adult stage is reached.
+- [W10.321] We find, moreover, that the young
+- [W10.322] sometimes resemble in a most striking way the adult stage of groups that we
+- [W10.323] place lower in the scale of evolution.
+- [W10.324] Many years before Darwin advanced his theory of evolution through natural
+- [W10.325] selection, the resemblance of the young of higher animals to the adults of
+- [W10.326] lower animals had attracted the attention of zoölogists and various views,
+- [W10.327] often very naïve, had been advanced to account for the resemblance.
+- [W10.328] these speculations there was one practically identical with that adopted by
+- [W10.329] Darwin and the post-Darwinians, namely that the higher animals repeat in
+- [W10.330] their development the _adult stages_ of lower animals.
+- [W10.331] became one of the cornerstones of the theory of organic evolution.
+- [W10.332] reached its climax in the writings of Haeckel, and I think I may add
+- [W10.333] without exaggeration that for twenty-five years it furnished the chief
+- [W10.334] inspiration of the school of descriptive embryology.
+- [W10.335] practically all textbooks of biology.
+- [W10.336] Haeckel called this interpretation
+- [W10.337] Young trout (Trutta fario) six days after hatching.
+- [W10.338] It was recognized, of course, that many embryonic stages could not possibly
+- [W10.339] represent ancestral animals.
+- [W10.340] A young fish with a huge yolk sac attached
+- [W10.341] 6) could scarcely ever have led a happy, free life as an adult
+- [W10.342] Such stages were interpreted, however, as _embryonic_ additions
+- [W10.343] to the original ancestral type.
+- [W10.344] The embryo had done something on its own
+- [W10.345] In some animals the young have structures that attach them to the mother,
+- [W10.346] as does the placenta of the mammals.
+- [W10.347] In other cases the young develop
+- [W10.348] membranes about themselves--like the amnion of the chick (fig.
+- [W10.349] mammal--that would have shut off an adult animal from all intercourse with
+- [W10.350] Hundreds of such embryonic adaptations are known to
+- [W10.351] These were explained as adaptations and as falsifications of
+- [W10.352] Diagram of chick showing relations of amnion,
+- [W10.353] At the end of the last century Weismann injected a new idea into our views
+- [W10.354] concerning the origin of variations.
+- [W10.355] He urged that variations are germinal,
+- [W10.356] i.e. they first appear in the egg and the sperm as changes that later bring
+- [W10.357] about modifications in the individual.
+- [W10.358] The idea has been fruitful and is
+- [W10.359] generally accepted by most biologists today.
+- [W10.360] It means that the offspring of
+- [W10.361] a pair of animals are not affected by the structure or the activities of
+- [W10.362] their parents, but the germ plasm is the unmodified stream from which both
+- [W10.363] the parent and the young have arisen.
+- [W10.364] been found that a variation arising in the germ plasm, no matter what its
+- [W10.365] cause, may affect any stage in the development of the next individuals that
+- [W10.366] There is no reason to suppose that such a change produces a
+- [W10.367] new character that always sticks itself, as it were, on to the end of the
+- [W10.368] This idea of germinal variation therefore carried with it the
+- [W10.369] death of the older conception of evolution by superposition.
+- [W10.370] In more recent times another idea has become current, mainly due to the
+- [W10.371] work of Bateson and of de Vries--the idea that variations are
+- [W10.372] Such a conception does not fall easily into line with the
+- [W10.373] statement of the biogenetic "law"; for actual experience with discontinuous
+- [W10.374] variation has taught us that new characters that arise do not add
+- [W10.375] themselves to the end of the line of already existing characters but if
+- [W10.376] they affect the adult characters they change them without, as it were,
+- [W10.377] passing through and beyond them.
+- [W10.378] Diagram of head of chick A and B, showing gill
+- [W10.379] slits, and aortic arches; and head of fish C showing aortic arches.
+- [W10.380] Human embryo showing gill slits and aortic arches.
+- [W10.381] (After His; from Marshall.)]
+- [W10.382] I venture to think that these new ideas and this new evidence have played
+- [W10.383] havoc with the biogenetic "law".
+- [W10.384] Nevertheless, there is an interpretation
+- [W10.385] of the facts that is entirely compatible with the theory of evolution.
+- [W10.386] me illustrate this by an example.
+- [W10.387] Young fish, dorsal view, and side view, showing
+- [W10.388] The embryos of the chick (fig.
+- [W10.389] stage in their development gill-slits on the sides of the neck like those
+- [W10.390] No one familiar with the relations of the parts will for a
+- [W10.391] moment doubt that the gill slits of these embryos and of the fish represent
+- [W10.392] When we look further into the matter we find that
+- [W10.393] young fish also possess gill slits (fig.
+- [W10.394] 10 and 11)--even in young stages
+- [W10.395] Is it not then more probable that the mammal and bird
+- [W10.396] possess this stage in their development simply because it has never been
+- [W10.397] Is not this a more reasonable view than to suppose that the gill
+- [W10.398] slits of the embryos of the higher forms represent the adult gill slits of
+- [W10.399] the fish that in some mysterious way have been pushed back into the embryo
+- [W10.400] Side views of head of embryo sharks, showing gill
+- [W10.401] I could give many similar examples.
+- [W10.402] All can be interpreted as embryonic
+- [W10.403] survivals rather than as phyletic contractions.
+- [W10.404] the latter interpretation.
+- [W10.405] The study of the cleavage pattern of the segmenting egg furnishes the most
+- [W10.406] convincing evidence that a different explanation from the one stated in the
+- [W10.407] biogenetic law is the more probable explanation.
+- [W10.408] Cleavage stages of four types of eggs, showing the
+- [W10.409] origin of the mesenchyme cells (stippled) and mesoderm cells (darker); a,
+- [W10.410] Planarian; b, Annelid (Podarke); c, Mollusc (Crepidula), d, Mollusc
+- [W10.411] It has been found that the cleavage pattern has the same general
+- [W10.412] arrangement in the early stages of flat worms, annelids and molluscs (fig.
+- [W10.413] Obviously these stages have never been adult ancestors, and obviously
+- [W10.414] if their resemblance has any meaning at all, it is that each group has
+- [W10.415] retained the same general plan of cleavage, possessed by their common
+- [W10.416] Accepting this view, let us ask, does the evidence from embryology favor
+- [W10.417] I think that it does very strongly.
+- [W10.418] the mammal, bird, and lizard have gill slits today because gill slits were
+- [W10.419] present in the embryos of their ancestors.
+- [W10.420] There is no other view that
+- [W10.421] explains so well their presence in the higher forms.
+- [W10.422] Perhaps someone will say, Well! is not this all that we have contended for!
+- [W10.423] Have you not reached the old conclusion in a roundabout way?
+- [W10.424] To my mind there is a wide difference between the old statement that the
+- [W10.425] higher animals living today have the original adult stages telescoped into
+- [W10.426] their embryos, and the statement that the resemblance between certain
+- [W10.427] characters in the embryos of higher animals and corresponding stages in the
+- [W10.428] embryos of lower animals is most plausibly explained by the assumption that
+- [W10.429] they have descended from the same ancestors, and that their common
+- [W10.430] structures are embryonic survivals.
+- [W10.431] _The Evidence from Paleontology_
+- [W10.432] The direct evidence furnished by fossil remains is by all odds the
+- [W10.433] strongest evidence that we have in favor of organic evolution.
+- [W10.434] holds the incomparable position of being able to point directly to the
+- [W10.435] evidence showing that the animals and plants living in past times are
+- [W10.436] connected with those living at the present time, often through an unbroken
+- [W10.437] Paleontology has triumphed over the weakness of the
+- [W10.438] evidence, which Darwin admitted was serious, by filling in many of the
+- [W10.439] Paleontology has been criticised on the ground that she cannot pretend to
+- [W10.440] show the actual ancestors of living forms because, if in the past genera
+- [W10.441] and species were as abundant and as diverse as we find them at present, it
+- [W10.442] is very improbable that the bones of any individual that happened to be
+- [W10.443] preserved are the bones of just that species that took part in the
+- [W10.444] Paleontologists will freely admit that in many cases this is
+- [W10.445] probably true, but even then the evidence is, I think, still just as
+- [W10.446] valuable and in exactly the same sense as is the evidence from comparative
+- [W10.447] It suffices to know that there lived in the past a particular
+- [W10.448] "group" of animals that had many points in common with those that preceded
+- [W10.449] them and with those that came later.
+- [W10.450] Whether these are the actual ancestors
+- [W10.451] or not does not so much matter, for the view that from such a group of
+- [W10.452] species the later species have been derived is far more probable than any
+- [W10.453] other view that has been proposed.
+- [W10.454] With this unrivalled material and splendid series of gradations,
+- [W10.455] paleontology has constructed many stages in the past history of the globe.
+- [W10.456] But paleontologists have sometimes gone beyond this descriptive phase of
+- [W10.457] the subject and have attempted to formulate the "causes", "laws" and
+- [W10.458] "principles" that have led to the development of their series.
+- [W10.459] been claimed that paleontologists are in an incomparably better position
+- [W10.460] than zoölogists to discover such principles, because they know both the
+- [W10.461] beginning and the end of the evolutionary series.
+- [W10.462] his sweeping and poetic vision the paleontologist may fail completely to
+- [W10.463] find out the nature of the pigments that have gone into the painting of his
+- [W10.464] picture, and he may confuse a familiarity with the different views he has
+- [W10.465] enjoyed of the canvas with a knowledge of how the painting is being done.
+- [W10.466] My good friend the paleontologist is in greater danger than he realizes,
+- [W10.467] when he leaves descriptions and attempts explanation.
+- [W10.468] check up his speculations and it is notorious that the human mind without
+- [W10.469] control has a bad habit of wandering.
+- [W10.470] When the modern student of variation and heredity--the geneticist--looks
+- [W10.471] over the different "continuous" series, from which certain "laws" and
+- [W10.472] "principles" have been deduced, he is struck by two facts: that the gaps,
+- [W10.473] in some cases, are enormous as compared with the single changes with which
+- [W10.474] he is familiar, and (what is more important) that they involve numerous
+- [W10.475] The geneticist says to the paleontologist, since you do
+- [W10.476] not know, and from the nature of your case can never know, whether your
+- [W10.477] differences are due to one change or to a thousand, you can not with
+- [W10.478] certainty tell us anything about the hereditary units which have made the
+- [W10.479] process of evolution possible.
+- [W10.480] And without this knowledge there can be no
+- [W10.481] understanding of the causes of evolution.
+- [W10.482] THE FOUR GREAT HISTORICAL SPECULATIONS
+- [W10.483] Looking backward over the history of the evolution theory we recognize that
+- [W10.484] during the hundred and odd years that have elapsed since Buffon, there have
+- [W10.485] been four main lines of _speculation_ concerning evolution.
+- [W10.486] them the four great cosmogonies or the four modern epics of evolution.
+- [W10.487] About the beginning of the last century Geoffroy St.
+- [W10.488] in some respects a disciple of Buffon, was interested as to how living
+- [W10.489] species are related to the animals and plants that had preceded them.
+- [W10.490] was familiar with the kind of change that takes place in the embryo if it
+- [W10.491] is put into new or changed surroundings, and from this knowledge he
+- [W10.492] concluded that as the surface of the earth slowly changed--as the carbon
+- [W10.493] dioxide contents in the air altered--as land appeared--and as marine
+- [W10.494] animals left the water to inhabit it, they or their embryos responded to
+- [W10.495] the new conditions and those that responded favorably gave rise to new
+- [W10.496] As the environment changed the fauna and flora changed--change
+- [W10.497] Here we have a picture of progressive evolution that carries
+- [W10.498] with it an idea of mechanical necessity.
+- [W10.499] If there is anything mystical or
+- [W10.500] Hilaire's argument it does not appear on the
+- [W10.501] surface; for he did not assume that the response to the new environment was
+- [W10.502] always a favorable one or, as we say, an adaptation.
+- [W10.503] that _if_ the response was unfavorable the individual or the race died out.
+- [W10.504] He assumed that _sometimes_ the change might be favorable, i.e., that
+- [W10.505] certain species, entire groups, would respond in a direction favorable to
+- [W10.506] their existence in a new environment and these would come to inherit the
+- [W10.507] In this sense he anticipated certain phases of the natural selection
+- [W10.508] theory of Darwin, but only in part; for his picture is not one of strife
+- [W10.509] within and without the species, but rather the escape of the species from
+- [W10.510] If then we recognize the intimate bond in chemical constitution of living
+- [W10.511] things and of the world in which they develop, what is there improbable in
+- [W10.512] Why, in a word is not more credit given to St.
+- [W10.513] Hilaire in modern evolutionary thought?
+- [W10.514] The reasons are to be found, I
+- [W10.515] think, first, in that the evidence to which he appealed was meagre and
+- [W10.516] inconclusive; and, second, in that much of his special evidence does not
+- [W10.517] seem to us to be applicable.
+- [W10.518] For example the monstrous forms that
+- [W10.519] development often assumes in a strange environment, and with which every
+- [W10.520] embryologist is only too familiar, rarely if ever furnish combinations, as
+- [W10.521] he supposed, that are capable of living.
+- [W10.522] On the contrary, they lead rather
+- [W10.523] to the final catastrophe of the organism.
+- [W10.524] to sudden and great transformations, such as a crocodile's egg hatching
+- [W10.525] into a bird, has exposed his view to too easy ridicule.
+- [W10.526] Hilaire's conception of evolution contains
+- [W10.527] elements that form the background of our thinking to-day, for taken
+- [W10.528] broadly, the interaction between the organism and its environment was a
+- [W10.529] mechanistic conception of evolution even though the details of the theory
+- [W10.530] were inadequate to establish his contention.
+- [W10.531] In our own time the French metaphysician Bergson in his _Evolution
+- [W10.532] Creatrice_ has proposed in mystical form a thought that has at least a
+- [W10.533] superficial resemblance to St.
+- [W10.534] things is no longer hit in one species and miss in another; it is precise,
+- [W10.535] exact; yet not mechanical in the sense at least in which we usually employ
+- [W10.536] For Bergson claims that the one chief feature of
+- [W10.537] living material is that it responds favorably to the situation in which it
+- [W10.538] finds itself; at least so far as lies within the possible physical
+- [W10.539] limitations of its organization.
+- [W10.540] Evolution has followed no preordained
+- [W10.541] plan; it has had no creator; it has brought about its own creation by
+- [W10.542] responding adaptively to each situation as it arose.
+- [W10.543] But note: the man of science believes that the organism responds today as
+- [W10.544] it does, because at present it has a chemical and physical constitution
+- [W10.545] We find a specific chemical composition and
+- [W10.546] generally a specific physical structure already existing.
+- [W10.547] to suppose that such particular reactions would take place until a specific
+- [W10.548] chemical configuration had been acquired.
+- [W10.549] Where did this constitution come
+- [W10.550] This is the question that the scientist asks himself.
+- [W10.551] Bergson would have to reply that it came into existence at the moment that
+- [W10.552] the first specific stimulus was applied.
+- [W10.553] But if this is the answer we have
+- [W10.554] passed at once from the realm of observation to the realm of fancy--to a
+- [W10.555] realm that is foreign to our experience; for such a view assumes that
+- [W10.556] chemical and physical reactions are guided by the needs of the organism
+- [W10.557] when the reactions take place inside living beings.
+- [W10.558] _From Lamarck to Weismann_
+- [W10.559] The second of the four great historical explanations appeals to a change
+- [W10.560] not immediately connected with the outer world, but to one within the
+- [W10.561] Practice makes perfect is a familiar adage.
+- [W10.562] Not only in human affairs do we
+- [W10.563] find that a part through use becomes a better tool for performing its task,
+- [W10.564] and through disuse degenerates; but in the field of animal behavior we find
+- [W10.565] that many of the most essential types of behavior have been learned through
+- [W10.566] repeated associations formed by contact with the outside.
+- [W10.567] It was not so long ago that we were taught that the instincts of animals
+- [W10.568] are the inherited experience of their ancestors--lapsed intelligence was
+- [W10.569] Lamarck's name is always associated with the application of the theory of
+- [W10.570] the inheritance of acquired characters.
+- [W10.571] Darwin fully endorsed this view and
+- [W10.572] made use of it as an explanation in all of his writings about animals.
+- [W10.573] Today the theory has few followers amongst trained investigators, but it
+- [W10.574] still has a popular vogue that is widespread and vociferous.
+- [W10.575] To Weismann more than to any other single individual should be ascribed the
+- [W10.576] disfavor into which this view has fallen.
+- [W10.577] In a series of brilliant essays
+- [W10.578] he laid bare the inadequacy of the supposed evidence on which the
+- [W10.579] inheritance of acquired characters rested.
+- [W10.580] instance, has a short tail, and it is said that it had its tail pinched off
+- [W10.581] In its litter of kittens one or more is found without a
+- [W10.582] Your neighbor believes that here is a case of cause and effect.
+- [W10.583] may even have known that the mother and grandmother of the cat had natural
+- [W10.584] But it has been found that short tail is a dominant character;
+- [W10.585] therefore, until we know who was the father of the short-tailed kittens the
+- [W10.586] accident to its mother and the normal condition of her maternal ancestry is
+- [W10.587] Weismann appealed to common sense.
+- [W10.588] He made few experiments to disprove
+- [W10.589] True, he cut off the tails of some mice for a few
+- [W10.590] generations but got no tailless offspring and while he gives no exact
+- [W10.591] measurements with coefficients of error he did not observe that the tails
+- [W10.592] of the descendants had shortened one whit.
+- [W10.593] The combs of fighting cocks and
+- [W10.594] the tails of certain breeds of sheep have been cropped for many generations
+- [W10.595] and the practice continues today, because their tails are still long.
+- [W10.596] in Lamarck's time there was no evidence opposed to his ingenious theory,
+- [W10.597] based as it was on an appeal to the acknowledged facts of improvement that
+- [W10.598] take place in the organs of an individual through their own functioning (a
+- [W10.599] fact that is as obvious and remarkable today as in the time of Lamarck),
+- [W10.600] yet now there is evidence as to whether the effects of use and disuse are
+- [W10.601] inherited, and this evidence is not in accord with Lamarck's doctrine.
+- [W10.602] I have ventured to put down as one of the four great historical
+- [W10.603] explanations, under the heading of the unfolding principle, a conception
+- [W10.604] that has taken protean forms.
+- [W10.605] At one extreme it is little more than a
+- [W10.606] mystic sentiment to the effect that evolution is the result of an inner
+- [W10.607] driving force or principle which goes under many names such as
+- [W10.608] Bildungstrieb, nisus formativus, vital force, and orthogenesis.
+- [W10.609] Evolutionary thought is replete with variants of this idea, often naïvely
+- [W10.610] expressed, sometimes unconsciously implied.
+- [W10.611] Evolution once meant, in fact,
+- [W10.612] an unfolding of what pre-existed in the egg, and the term still carries
+- [W10.613] with it something of its original significance.
+- [W10.614] Nägeli's speculation written several years after Darwin's "Origin of
+- [W10.615] Species" may be taken as a typical case.
+- [W10.616] Nägeli thought that there exists
+- [W10.617] in living material an innate power to grow and expand.
+- [W10.618] protested that he meant only a mechanical principle but as he failed to
+- [W10.619] refer such a principle to any properties of matter known to physicists and
+- [W10.620] chemists his view seems still a mysterious affirmation, as difficult to
+- [W10.621] understand as the facts themselves which it purports to explain.
+- [W10.622] Nägeli compared the process of evolution to the growth of a tree, whose
+- [W10.623] ultimate twigs represent the living world of species.
+- [W10.624] plays only the rôle of the gardener who prunes the tree into this or that
+- [W10.625] shape but who has himself _produced_ nothing.
+- [W10.626] As an imaginative figure of
+- [W10.627] speech Nägeli's comparison of the tree might even today seem to hold if we
+- [W10.628] substituted "mutations" for "growth", but although we know so little about
+- [W10.629] what causes mutations there is no reason for supposing them to be due to an
+- [W10.630] inner impulse, and hence they furnish no justification for such a
+- [W10.631] In his recent presidential address before the British Association Bateson
+- [W10.632] I suspect that his effort was intended as little
+- [W10.633] more than a _tour de force_.
+- [W10.634] He claims for it no more than that it is a
+- [W10.635] possible line of speculation.
+- [W10.636] Perhaps he thought the time had come to give
+- [W10.637] a shock to our too confident views concerning evolution.
+- [W10.638] he has invented a striking paradox.
+- [W10.639] Evolution has taken place through the
+- [W10.640] steady loss of inhibiting factors.
+- [W10.641] Living matter was stopped down, so to
+- [W10.642] speak, at the beginning of the world.
+- [W10.643] As the stops are lost, new things
+- [W10.644] Living matter has changed only in that it has become simpler.
+- [W10.645] Of the four great historical speculations about evolution, the doctrine of
+- [W10.646] Natural Selection of Darwin and Wallace has met with the most widespread
+- [W10.647] In the last lecture I intend to examine this theory critically.
+- [W10.648] Here we are concerned only with its broadest aspects.
+- [W10.649] Darwin appealed to _chance variations_ as supplying evolution with the
+- [W10.650] material on which natural selection works.
+- [W10.651] If we accept, for the moment,
+- [W10.652] this statement as the cardinal doctrine of natural selection it may appear
+- [W10.653] that evolution is due, (1) _not_ to an _orderly_ response of the organism
+- [W10.654] to its environment, (2) _not_ in the main to the activities of the animal
+- [W10.655] through the use or disuse of its parts, (3) _not_ to any innate principle
+- [W10.656] of living material itself, and (4) above all _not_ to purpose either from
+- [W10.657] Darwin made quite clear what he meant by chance.
+- [W10.658] chance he did not mean that the variations were not causal.
+- [W10.659] he taught that in Science we mean by chance only that the particular
+- [W10.660] combination of causes that bring about a variation are not known.
+- [W10.661] accidents, it is true, but they are causal accidents.
+- [W10.662] In his famous book on "Animals and Plants under Domestication", Darwin
+- [W10.663] dwells at great length on the nature of the conditions that bring about
+- [W10.664] If his views seem to us today at times vague, at times
+- [W10.665] problematical, and often without a secure basis, nevertheless we find in
+- [W10.666] every instance, that Darwin was searching for the _physical causes of
+- [W10.667] He brought, in consequence, conviction to many minds that there
+- [W10.668] are abundant indications, even if certain proof is lacking, that the causes
+- [W10.669] of variation are to be found in natural processes.
+- [W10.670] Today the belief that evolution takes place by means of natural processes
+- [W10.671] It does not seem probable that we shall ever again
+- [W10.672] have to renew the old contest between evolution and special creation.
+- [W10.673] We can never remain satisfied with a negative
+- [W10.674] We must find out what natural causes bring about
+- [W10.675] variations in animals and plants; and we must also find out what kinds of
+- [W10.676] variations are inherited, and how they are inherited.
+- [W10.677] evidence for organic evolution, furnished by comparative anatomy,
+- [W10.678] embryology and paleontology is cogent, we should be able to observe
+- [W10.679] evolution going on at the present time, i.e. we should be able to observe
+- [W10.680] the occurrence of variations and their transmission.
+- [W10.681] done by the geneticist in the study of mutations and Mendelian heredity, as
+- [W10.682] the succeeding lectures will show.
+- [W10.683] *       *       *       *       *
+- [W10.684] THE BEARING OF MENDEL'S DISCOVERY ON THE ORIGIN OF HEREDITARY CHARACTERS
+- [W10.685] Between the years 1857 and 1868 Gregor Mendel, Augustinian monk, studied
+- [W10.686] the heredity of certain characters of the common edible pea, in the garden
+- [W10.687] of the monastery at Brünn.
+- [W10.688] In his account of his work written in 1868, he said:
+- [W10.689] "It requires indeed some courage to undertake a labor of such a
+- [W10.690] far-reaching extent; it appears, however, to be the only right way by
+- [W10.691] which we can finally reach the solution of a question the importance of
+- [W10.692] which cannot be over-estimated in connection with the history of the
+- [W10.693] evolution of organic forms."
+- [W10.694] He tells us also why he selected peas for his work:
+- [W10.695] "The selection of the plant group which shall serve for experiments of
+- [W10.696] this kind must be made with all possible care if it be desired to avoid
+- [W10.697] from the outset every risk of questionable results."
+- [W10.698] "The experimental plants must necessarily
+- [W10.699] Possess constant differentiating characters.
+- [W10.700] The hybrids of such plants must, during the flowering period, be
+- [W10.701] protected from the influence of all foreign pollen, or be easily
+- [W10.702] capable of such protection."
+- [W10.703] Why do biologists throughout the world to-day agree that Mendel's discovery
+- [W10.704] A great deal might be said in this connection.
+- [W10.705] Biology had been, and is still, largely a descriptive
+- [W10.706] and speculative science. _Mendel showed by experimental proof that heredity
+- [W10.707] could be explained by a simple mechanism.
+- [W10.708] Science begins with naïve, often mystic conceptions of its problems.
+- [W10.709] reaches its goal whenever it can replace its early guessing by verifiable
+- [W10.710] hypotheses and predictable results.
+- [W10.711] This is what Mendel's law did for
+- [W10.712] MENDEL'S FIRST DISCOVERY--SEGREGATION
+- [W10.713] Diagram illustrating a cross between a red (dark)
+- [W10.714] and a white variety of four o'clock (Mirabilis jalapa).]
+- [W10.715] Let us turn to the demonstration of his first law--the law of segregation.
+- [W10.716] The first case I choose is not the one given by Mendel but one worked out
+- [W10.717] If the common garden plant called four o'clock (Mirabilis
+- [W10.718] jalapa) with red flowers is crossed to one having white flowers, the
+- [W10.719] The hybrid, then, is intermediate in the
+- [W10.720] color of its flowers between the two parents.
+- [W10.721] If these hybrids are inbred
+- [W10.722] the offspring are white, pink and red, in the proportion of 1:2:1.
+- [W10.723] these had the same ancestry, yet they are of three different kinds.
+- [W10.724] did not know their history it would be quite impossible to state what the
+- [W10.725] ancestry of the white or of the red had been, for they might just as well
+- [W10.726] have come from pure white and pure red ancestors respectively as to have
+- [W10.727] emerged from the pink hybrids.
+- [W10.728] Moreover, when we test them we find that
+- [W10.729] they are as pure as are white or red flowering plants that have had all
+- [W10.730] white or all red flowering ancestors.
+- [W10.731] Mendel's Law explains the results of this cross as shown in figure 14.
+- [W10.732] The egg cell from the white parent carries the factor for white, the pollen
+- [W10.733] cell from the red parent carries the factor for red.
+- [W10.734] their union carries both factors.
+- [W10.735] The result of their combined action is to
+- [W10.736] produce flowers intermediate in color.
+- [W10.737] When the hybrids mature and their germ cells (eggs or pollen) ripen, each
+- [W10.738] carries only one of these factors, either the red or the white, but not
+- [W10.739] In other words, the two factors that have been brought together in
+- [W10.740] the hybrid separate in its germ cells.
+- [W10.741] Half of the egg cells are white
+- [W10.742] bearing, half red bearing.
+- [W10.743] Half of the pollen cells are white bearing, half
+- [W10.744] Chance combinations at fertilization give the three classes of
+- [W10.745] individuals of the second generation.
+- [W10.746] Diagram illustrating the history of the factors in
+- [W10.747] the germ cells of the cross shown in Fig.
+- [W10.748] The white flowering plants should forever breed true, as in fact they do.
+- [W10.749] The red flowering plants also breed true.
+- [W10.750] The pink flowering plants, having
+- [W10.751] the same composition as the hybrids of the first generation, should give
+- [W10.752] They do, indeed, give this result i.e. one white
+- [W10.753] to two pink to one red flowered offspring.
+- [W10.754] Diagram illustrating a cross between special races
+- [W10.755] of white and black fowls, producing the blue (here gray) Andalusian.]
+- [W10.756] Another case of the same kind is known to breeders of poultry.
+- [W10.757] most beautiful of the domesticated breeds is known as the Andalusian.
+- [W10.758] a slate blue bird shading into blue-black on the neck and back.
+- [W10.759] know that these blue birds do not breed true but produce white, black, and
+- [W10.760] Diagram showing history of germ cells of cross of
+- [W10.761] The larger circles indicate the color of the birds; their enclosed
+- [W10.762] small circles the nature of the factors in the germ cells of such birds.]
+- [W10.763] The explanation of the failure to produce a pure race of Andalusians is
+- [W10.764] that they are like the pink flowers of the four o'clock, i.e., they are a
+- [W10.765] hybrid type formed by the meeting of the white and the black germ cells.
+- [W10.766] the whites produced by the Andalusians are bred to the blacks (both being
+- [W10.767] pure strains), all the offspring will be blue (fig.
+- [W10.768] inbred they will give 1 white, to 2 blues, to 1 black.
+- [W10.769] factor for white and the factor for black separate in the germ cells of the
+- [W10.770] hybrid Andalusian birds (fig.
+- [W10.771] Diagram of Mendel's cross between yellow (dominant)
+- [W10.772] and green (recessive) peas.]
+- [W10.773] The third case is Mendel's classical case of yellow and green peas (fig.
+- [W10.774] He crossed a plant belonging to a race having yellow peas with one
+- [W10.775] The hybrid plants had yellow seeds.
+- [W10.776] gave three yellows to one green.
+- [W10.777] principle as in the preceding cases.
+- [W10.778] The only difference between them is
+- [W10.779] that the hybrid which contains both the yellow and the green factors is in
+- [W10.780] appearance not intermediate, but like the yellow parent stock.
+- [W10.781] said therefore to be dominant and green to be recessive.
+- [W10.782] Diagram illustrating the history of the factors in
+- [W10.783] Another example where one of the contrasted characters is dominant is shown
+- [W10.784] by the cross of Drosophila with vestigial wings to the wild type with long
+- [W10.785] The F_1 flies have long wings not differing from those of
+- [W10.786] the wild fly, so far as can be observed.
+- [W10.787] When two such flies are inbred
+- [W10.788] there result three long to one vestigial.
+- [W10.789] Diagram illustrating a cross between a fly
+- [W10.790] (Drosophila ampelophila) with long wings and a mutant fly with vestigial
+- [W10.791] The question as to whether a given character is dominant or recessive is a
+- [W10.792] matter of no theoretical importance for the principle of segregation,
+- [W10.793] although from the notoriety given to it one might easily be misled into the
+- [W10.794] erroneous supposition that it was the discovery of this relation that is
+- [W10.795] Mendel's crowning achievement.
+- [W10.796] Let me illustrate by an example in which the hybrid standing between two
+- [W10.797] There are two mutant races in our cultures of the
+- [W10.798] fruit fly Drosophila that have dark body color, one called sooty, another
+- [W10.799] which is even blacker, called ebony (fig.
+- [W10.800] Sooty crossed to ebony gives
+- [W10.801] offspring that are intermediate in color.
+- [W10.802] Some of them are so much like
+- [W10.803] sooty that they cannot be distinguished from sooty.
+- [W10.804] some of the hybrids are as dark as the lightest of the ebony flies.
+- [W10.805] these hybrids are inbred there is a continuous series of individuals,
+- [W10.806] sooties, intermediates and ebonies.
+- [W10.807] Which color here shall we call the
+- [W10.808] If the ebony, then in the second generation we count three
+- [W10.809] ebonies to one sooty, putting the hybrids with the ebonies.
+- [W10.810] is the sooty then we count three sooties to one ebony, putting the hybrids
+- [W10.811] The important fact to find out is whether there actually
+- [W10.812] exist three classes in the second generation.
+- [W10.813] This can be ascertained even
+- [W10.814] when, as in this case, there is a perfectly graded series from one end to
+- [W10.815] the other, by testing out individually enough of the flies to show that
+- [W10.816] one-fourth of them never produce any descendants but ebonies, one-fourth
+- [W10.817] never any but sooties, and one-half of them give rise to both ebony and
+- [W10.818] Cross between two allelomorphic races of
+- [W10.819] Drosophila, sooty and ebony, that give a completely graded series in F_2.]
+- [W10.820] MENDEL'S SECOND DISCOVERY--INDEPENDENT ASSORTMENT
+- [W10.821] Besides his discovery that there are pairs of characters that disjoin, as
+- [W10.822] it were, in the germ cells of the hybrid (law of segregation) Mendel made a
+- [W10.823] second discovery which also has far-reaching consequences.
+- [W10.824] case illustrates Mendel's second law.
+- [W10.825] If a pea that is yellow and round is crossed to one that is green and
+- [W10.826] 21), all of the offspring are yellow and round.
+- [W10.827] these give 9 yellow round, 3 green round, 3 yellow wrinkled, 1 green
+- [W10.828] All the yellows taken together are to the green as 3:1.
+- [W10.829] round taken together are to the wrinkled as three to one; but some of the
+- [W10.830] yellows are now wrinkled and some of the green are now round.
+- [W10.831] been a recombination of characters, while at the same time the results, for
+- [W10.832] each pair of characters taken separately, are in accord with Mendel's Law
+- [W10.833] The second law of Mendel may be called the law
+- [W10.834] of independent assortment of different character pairs.
+- [W10.835] Cross between yellow-round and green-wrinkled peas,
+- [W10.836] giving the 9: 3: 3: 1 ratio in F_2.]
+- [W10.837] We can, as it were, take the characters of one organism and recombine them
+- [W10.838] with those of a different organism.
+- [W10.839] We can explain this result as due to
+- [W10.840] the assortment of factors for these characters in the germ cells according
+- [W10.841] Diagram to show the history of the factor pairs
+- [W10.842] yellow-green and round-wrinkled of the cross in Fig.
+- [W10.843] As a second illustration let me take the classic case of the combs of
+- [W10.844] If a bird with a rose comb is bred to one with a pea comb (fig.
+- [W10.845] the offspring have a comb different from either.
+- [W10.846] If two such individuals are bred they give 9 walnut, 3 rose, 3 pea, 1
+- [W10.847] This proportion shows that the grandparental types differed in
+- [W10.848] respect to two pairs of characters.
+- [W10.849] Cross between pea and rose combed fowls.
+- [W10.850] A fourth case is shown in the fruit fly, where an ebony fly with long wings
+- [W10.851] is mated to a grey fly with vestigial wings (fig.
+- [W10.852] If these are inbred they give 9 gray long, 3 gray
+- [W10.853] vestigial, 3 ebony long, 1 ebony vestigial (figs.
+- [W10.854] Cross between long ebony and gray vestigial flies.]
+- [W10.855] The possibility of interchanging characters might be illustrated over and
+- [W10.856] It is true not only when two pairs of characters are involved,
+- [W10.857] but when three, four, or more enter the cross.
+- [W10.858] Diagram to show the history of the factors in the
+- [W10.859] It is as though we took individuals apart and put together parts of two,
+- [W10.860] three or more individuals by substituting one part for another.
+- [W10.861] Not only has this power to make whatever combinations we choose great
+- [W10.862] practical importance, it has even greater theoretical significance; for, it
+- [W10.863] follows that the individual is not in itself the unit in heredity, but that
+- [W10.864] within the germ-cells there exist smaller units concerned with the
+- [W10.865] transmission of characters.
+- [W10.866] The older mystical statement of the individual as a unit in heredity has no
+- [W10.867] longer any interest in the light of these discoveries, except as a past
+- [W10.868] phase of biological history.
+- [W10.869] We see, too, more clearly that the sorting out
+- [W10.870] of factors in the germ plasm is a very different process from the influence
+- [W10.871] of these factors on the development of the organism.
+- [W10.872] excuse for confusing these two problems.
+- [W10.873] If mechanistic principles apply also to embryonic development then the
+- [W10.874] course of development is capable of being stated as a series of
+- [W10.875] chemico-physical reactions and the "_individual_" is merely a term to
+- [W10.876] express the sum total of such reactions and should not be interpreted as
+- [W10.877] something different from or more than these reactions.
+- [W10.878] is known of the actual processes involved in development the use of the
+- [W10.879] term "individuality", while giving the appearance of profundity, in reality
+- [W10.880] often serves merely to cover ignorance and to make a mystery out of a
+- [W10.881] THE CHARACTERS OF WILD ANIMALS AND PLANTS FOLLOW THE SAME LAWS OF
+- [W10.882] INHERITANCE AS DO THE CHARACTERS OF DOMESTICATED ANIMALS AND PLANTS.
+- [W10.883] Darwin based many of his conclusions concerning variation and heredity on
+- [W10.884] the evidence derived from the garden and from the stock farm.
+- [W10.885] handicapped to some extent, for he had at times to rely on information much
+- [W10.886] of which was uncritical, and some of which was worthless.
+- [W10.887] Today we are at least better informed on _two_ important points; one
+- [W10.888] concerning the _kinds_ of variations that furnish to the cultivator the
+- [W10.889] materials for his selection; the other concerning the modes of inheritance
+- [W10.890] We know now that new characters are continually
+- [W10.891] appearing in domesticated as well as in wild animals and plants, that these
+- [W10.892] characters are often sharply marked off from the original characters, and
+- [W10.893] whether the differences are great or whether they are small they are
+- [W10.894] transmitted alike according to Mendel's law.
+- [W10.895] Many of the characteristics of our domesticated animals and cultivated
+- [W10.896] plants originated long ago, and only here and there have the records of
+- [W10.897] their first appearance been preserved.
+- [W10.898] In only a few instances are these
+- [W10.899] records clear and definite, while the complete history of any large group
+- [W10.900] of our domesticated products is unknown to us.
+- [W10.901] Within the last five or six years, however, from a common wild species of
+- [W10.902] fly, the fruit fly, Drosophila ampelophila, which we have brought into the
+- [W10.903] laboratory, have arisen over a hundred and twenty-five new types whose
+- [W10.904] origin is completely known.
+- [W10.905] Let me call attention to a few of the more
+- [W10.906] interesting of these types and their modes of inheritance, comparing them
+- [W10.907] with wild types in order to show that the kinds of inheritance found in
+- [W10.908] domesticated races occur also in wild types.
+- [W10.909] The results will show beyond
+- [W10.910] dispute that the characters of wild types are inherited in precisely the
+- [W10.911] same way as are the characters of the mutant types--a fact that is not
+- [W10.912] generally appreciated except by students of genetics, although it is of the
+- [W10.913] most far-reaching significance for the theory of evolution.
+- [W10.914] A mutant appeared in which the eye color of the female was different from
+- [W10.915] The eye color of the mutant female is a dark eosin color,
+- [W10.916] that of the male yellowish eosin.
+- [W10.917] From the beginning this difference was as
+- [W10.918] Breeding experiments show that eosin eye color
+- [W10.919] differs from the red color of the eye of the wild fly by a single mutant
+- [W10.920] Here then at a single step a type appeared that was sexually
+- [W10.921] Zoölogists know that sexual dimorphism is not uncommon in wild species of
+- [W10.922] animals, and Darwin proposed the theory of sexual selection to account for
+- [W10.923] the difference between the sexes.
+- [W10.924] He assumed that the male preferred
+- [W10.925] certain kinds of females differing from himself in a particular character,
+- [W10.926] and thus in time through sexual selection, the sexes came to differ from
+- [W10.927] Clover butterfly (Colias philodice) with two types
+- [W10.928] of females, above; and one type of male, below.]
+- [W10.929] In the case of eosin eye color no such process as that postulated by Darwin
+- [W10.930] to account for the differences between the sexes was involved; for the
+- [W10.931] single mutation that brought about the change also brought in the
+- [W10.932] In recent years zoölogists have carefully studied several cases in which
+- [W10.933] two types of female are found in the same species.
+- [W10.934] butterfly, there is a yellow and a white type of female, while the male is
+- [W10.935] It has been shown that a single factor difference
+- [W10.936] determines whether the female is yellow or white.
+- [W10.937] according to Gerould, strictly Mendelian.
+- [W10.938] Papilio turnus with two types of females above and
+- [W10.939] In Papilio turnus there exist, in the southern states, two kinds of
+- [W10.940] females, one yellow like the male, one black (fig.
+- [W10.941] is not so certain, but it seems probable that a single factor difference
+- [W10.942] determines whether the female shall be yellow or black.
+- [W10.943] Finally in Papilio polytes of Ceylon and India three different types of
+- [W10.944] 28 to right) only one of which is like the male.
+- [W10.945] the analysis of the breeding data shows the possibility of explaining this
+- [W10.946] case as due to two pairs Mendelian factors which give in combination the
+- [W10.947] Papilio polytes, with three types of female to
+- [W10.948] right and one type of male above to left.]
+- [W10.949] Taking these cases together, they furnish a much simpler explanation than
+- [W10.950] the one proposed by Darwin.
+- [W10.951] They show also that characters like these shown
+- [W10.952] by wild species may follow Mendel's law.
+- [W10.953] Mutant race of fruit fly with intercalated
+- [W10.954] duplicate mesothorax on dorsal side.]
+- [W10.955] There has appeared in our cultures a fly in which the third division of the
+- [W10.956] thorax with its appendages has changed into a segment like the second (fig.
+- [W10.957] It is smaller than the normal mesothorax and its wings are imperfectly
+- [W10.958] developed, but the bristles on the upper surface may have the typical
+- [W10.959] arrangement of the normal mesothorax.
+- [W10.960] The mutant shows how great a change
+- [W10.961] may result from a single factor difference.
+- [W10.962] A factor that causes duplication in the legs has also been found.
+- [W10.963] interesting fact was discovered (Hoge) that duplication takes place only in
+- [W10.964] At ordinary temperatures the legs are normal.
+- [W10.965] Mutant race of fruit fly, called eyeless; a, a'
+- [W10.966] In contrast to the last case, where a character is doubled, is the next one
+- [W10.967] in which the eyes are lost (fig.
+- [W10.968] This change also took place at a
+- [W10.969] All the flies of this stock however, cannot be said to be
+- [W10.970] eyeless, since many of them show pieces of the eye--indeed the variation is
+- [W10.971] so wide that the eye may even appear like a normal eye unless carefully
+- [W10.972] Formerly we were taught that eyeless animals arose in caves.
+- [W10.973] case shows that they may also arise suddenly in glass milk bottles, by a
+- [W10.974] change in a single factor.
+- [W10.975] I may recall in this connection that wingless flies (fig.
+- [W10.976] in our cultures by a single mutation.
+- [W10.977] We used to be told that wingless
+- [W10.978] insects occurred on desert islands because those insects that had the best
+- [W10.979] developed wings had been blown out to sea.
+- [W10.980] Whether this is true or not, I
+- [W10.981] will not pretend to say, but at any rate wingless insects may also arise,
+- [W10.982] not through a slow process of elimination, but at a single step.
+- [W10.983] The preceding examples have all related to recessive characters.
+- [W10.984] Mutant race of fruit fly called bar to the right
+- [W10.985] The eye is a narrow vertical bar, the outline of the
+- [W10.986] original eye is indicated.]
+- [W10.987] A single male appeared with a narrow vertical red bar (fig.
+- [W10.988] Bred to wild females the new character was found to
+- [W10.989] dominate, at least to the extent that the eyes of all its offspring were
+- [W10.990] narrower than the normal eye, although not so narrow as the eye of the pure
+- [W10.991] Around the bar there is a wide border that corresponds to the region
+- [W10.992] occupied by the rest of the eye of the wild fly.
+- [W10.993] It is therefore to be looked upon as a rudimentary
+- [W10.994] organ, which is, so to speak, a by-product of the dominant mutation.
+- [W10.995] The preceding cases have all involved rather great changes in some one
+- [W10.996] The following three cases involve slight changes, and
+- [W10.997] yet follow the same laws of inheritance as do the larger changes.
+- [W10.998] Mutant race of fruit fly, called speck.
+- [W10.999] minute black speck at base of wing.]
+- [W10.1000] At the base of the wings a minute black speck appeared (fig.
+- [W10.1001] found to be a Mendelian character.
+- [W10.1002] In another case the spines on the thorax
+- [W10.1003] became forked or kinky (fig.
+- [W10.1004] This stock breeds true, and the
+- [W10.1005] character is inherited in strictly Mendelian fashion.
+- [W10.1006] Mutant race of fruit fly called club.
+- [W10.1007] often remain unexpanded and two bristles present in wild fly (b) are absent
+- [W10.1008] In a certain stock a number of flies appeared in which the wing pads did
+- [W10.1009] It was found that this peculiarity is shown in only
+- [W10.1010] about twenty per cent of the individuals supposed to inherit it.
+- [W10.1011] was found that this stock lacked two bristles on the sides of the thorax.
+- [W10.1012] By means of this knowledge the heredity of the character was easily
+- [W10.1013] It appears that while the expansion of the wing pads fails to
+- [W10.1014] occur once in five times--probably because it is an environmental effect
+- [W10.1015] peculiar to this stock,--yet the minute difference of the presence or
+- [W10.1016] absence of the two lateral bristles is a constant feature of the flies that
+- [W10.1017] carry this particular factor.
+- [W10.1018] In the preceding cases I have spoken as though a factor influenced only one
+- [W10.1019] It would have been more accurate to have stated that the
+- [W10.1020] _chief_ effect of the factor was observed in a particular part of the body.
+- [W10.1021] Most students of genetics realize that a factor difference usually affects
+- [W10.1022] more than a single character.
+- [W10.1023] For example, a mutant stock called
+- [W10.1024] rudimentary wings has as its principle characteristic very short wings
+- [W10.1025] But the factor for rudimentary wings also produces other effects
+- [W10.1026] The females are almost completely sterile, while the males are
+- [W10.1027] The viability of the stock is poor.
+- [W10.1028] When flies with rudimentary
+- [W10.1029] wings are put into competition with wild flies relatively few of the
+- [W10.1030] rudimentary flies come through, especially if the culture is crowded.
+- [W10.1031] hind legs are also shortened.
+- [W10.1032] All of these effects are the results of a
+- [W10.1033] Mutant race of fruit fly, called rudimentary.]
+- [W10.1034] One may venture the guess that some of the specific and varietal
+- [W10.1035] differences that are characteristic of wild types and which at the same
+- [W10.1036] time appear to have no survival value, are only by-products of factors
+- [W10.1037] whose most important effect is on another part of the organism where their
+- [W10.1038] influence is of vital importance.
+- [W10.1039] It is well known that systematists make use of characters that are constant
+- [W10.1040] for groups of species, but which do not appear in themselves to have an
+- [W10.1041] If we may suppose that the constancy of such
+- [W10.1042] characters may be only an index of the presence of a factor whose _chief_
+- [W10.1043] influence is in some other direction or directions, some physiological
+- [W10.1044] influence, for example, we can give at least a reasonable explanation of
+- [W10.1045] the constancy of such characters.
+- [W10.1046] I am inclined to think that an overstatement to the effect that each factor
+- [W10.1047] may affect the entire body, is less likely to do harm than to state that
+- [W10.1048] each factor affects only a particular character.
+- [W10.1049] phrase "unit character" has done much to mislead the uninitiated as to the
+- [W10.1050] effects that a single change in the germ plasm may produce on the organism.
+- [W10.1051] Fortunately, the expression "unit character" is being less used by those
+- [W10.1052] students of genetics who are more careful in regard to the implications of
+- [W10.1053] There is a class of cases of inheritance, due to the XY chromosomes, that
+- [W10.1054] is called sex linked inheritance.
+- [W10.1055] It is shown both by mutant characters and
+- [W10.1056] characters of wild species.
+- [W10.1057] For instance, white eye color in Drosophila shows sex linked inheritance.
+- [W10.1058] If a white eyed male is mated to a wild red eyed female (fig.
+- [W10.1059] If these are inbred, there are three red to one
+- [W10.1060] white eyed offspring, but white eyes occur only in the males.
+- [W10.1061] grandfather has transmitted his peculiarity to half of his grandsons, but
+- [W10.1062] to none of his granddaughters.
+- [W10.1063] Diagram showing a cross between a white eyed male
+- [W10.1064] and a red eyed female of the fruit fly.
+- [W10.1065] The reciprocal cross (fig.
+- [W10.1066] is bred to a red eyed male, all of the daughters have red eyes and all of
+- [W10.1067] We call this criss-cross inheritance.
+- [W10.1068] offspring are inbred, they produce equal numbers of red eyed and white eyed
+- [W10.1069] females and equal numbers of red eyed and white eyed males.
+- [W10.1070] 1: 1: 1, or ignoring sex, 2 reds to 2 whites, and not the usual 3:1
+- [W10.1071] Yet, as will be shown later, the result is in entire
+- [W10.1072] accord with Mendel's principle of segregation.
+- [W10.1073] Diagram illustrating a cross between a red eyed
+- [W10.1074] male and white eyed female of the fruit fly (reciprocal cross of that shown
+- [W10.1075] It has been shown by Sturtevant that in a wild species of Drosophila, viz.,
+- [W10.1076] D. repleta, two varieties of individuals exist, in one of which the thorax
+- [W10.1077] has large splotches and in the other type smaller splotches (fig.
+- [W10.1078] factors that differentiate these varieties are sex linked.
+- [W10.1079] Two types of markings on thorax of Drosophila
+- [W10.1080] repleta, both found "wild".
+- [W10.1081] They show sex linked inheritance.]
+- [W10.1082] Certain types of color blindness (fig.
+- [W10.1083] 38) and certain other abnormal
+- [W10.1084] conditions in man such as haemophilia, are transmitted as sex linked
+- [W10.1085] Diagram illustrating inheritance of color
+- [W10.1086] blindness in man; the iris of the color-blind eye is here black.]
+- [W10.1087] Reciprocal of cross in Fig.
+- [W10.1088] In domestic fowls sex linked inheritance has been found as the
+- [W10.1089] characteristic method of transmission for at least as many as six
+- [W10.1090] characters, but here the relation of the sexes is in a sense reversed.
+- [W10.1091] instance, if a black Langshan hen is crossed to a barred Plymouth Rock cock
+- [W10.1092] 39), the offspring are all barred.
+- [W10.1093] If these are inbred half of the
+- [W10.1094] daughters are black and half are barred; all of the sons are barred.
+- [W10.1095] grandmother has transmitted her color to half of her granddaughters but to
+- [W10.1096] Sex-linked inheritance in domesticated birds shown
+- [W10.1097] here in a cross between barred Plymouth Rock male and black Langshan
+- [W10.1098] In the reciprocal cross (fig.
+- [W10.1099] 40) black cock by barred hen, the daughters
+- [W10.1100] are black and the sons barred--criss-cross inheritance.
+- [W10.1101] black hens and black cocks, barred hens and barred cocks.
+- [W10.1102] There is a case comparable to this found in a wild species of moth, Abraxas
+- [W10.1103] A wild variation of this type is lighter in color and is
+- [W10.1104] When these two types are crossed they exhibit
+- [W10.1105] exactly the same type of heredity as does the black-barred combination in
+- [W10.1106] As shown in figure 41, lacticolor female bred to
+- [W10.1107] grossulariata male gives grossulariata sons and daughters.
+- [W10.1108] give grossulariata males and females and lacticolor females.
+- [W10.1109] lacticolor male by grossulariata female, (fig.
+- [W10.1110] daughters and grossulariata sons and these inbred give grossulariata males
+- [W10.1111] and females and lacticolor males and females.
+- [W10.1112] Sex-linked inheritance in the wild moth, Abraxas
+- [W10.1113] grossulariata (darker) and A. lacticolor.]
+- [W10.1114] Four wild types of Paratettix in upper line with
+- [W10.1115] It has been found that there may be even more than two factors that show
+- [W10.1116] Mendelian segregation when brought together in pairs.
+- [W10.1117] southern States there are several races of the grouse locust (Paratettix)
+- [W10.1118] that differ from each other markedly in color patterns (fig.
+- [W10.1119] two individuals of these races are crossed they give, as Nabours has shown,
+- [W10.1120] in F_2 a Mendelian ratio of 1: 2: 1.
+- [W10.1121] It is obvious, therefore, that there
+- [W10.1122] are here at least nine characters, any two of which behave as a Mendelian
+- [W10.1123] These races have arisen in nature and differ definitely and
+- [W10.1124] strikingly from each other, yet any two differ by only one factor
+- [W10.1125] Diagram illustrating four allelomorphs in mice,
+- [W10.1126] viz. gray bellied gray (wild type) (above, to left); white bellied gray
+- [W10.1127] (above, to right); yellow (below, to right); and black (below, to left).]
+- [W10.1128] Similar relations have been found in a number of domesticated races.
+- [W10.1129] mice there is a quadruple system represented by the gray house mouse, the
+- [W10.1130] white bellied, the yellow and the black mouse (fig.
+- [W10.1131] is probably a triple system, that includes the albino, the Himalayan, and
+- [W10.1132] In the silkworm moth there have been described four types
+- [W10.1133] of larvae, distinguished by different color markings, that form a system of
+- [W10.1134] In Drosophila there is a quintuple system of
+- [W10.1135] factors in the sex chromosome represented by eye colors, a triple system of
+- [W10.1136] body colors, and a triple system of factors for eye colors in the third
+- [W10.1137] What bearing has the appearance of these new types of Drosophila on the
+- [W10.1138] theory of evolution may be asked.
+- [W10.1139] The objection has been raised in fact
+- [W10.1140] that in the breeding work with Drosophila we are dealing with artificial
+- [W10.1141] It has been more than implied that results
+- [W10.1142] obtained from the breeding pen, the seed pan, the flower pot and the milk
+- [W10.1143] bottle do not apply to evolution in the "open", nature "at large" or to
+- [W10.1144] To be consistent, this same objection should be extended to
+- [W10.1145] the use of the spectroscope in the study of the evolution of the stars, to
+- [W10.1146] the use of the test tube and the balance by the chemist, of the
+- [W10.1147] galvanometer by the physicist.
+- [W10.1148] All these are unnatural instruments used to
+- [W10.1149] torture Nature's secrets from her.
+- [W10.1150] I venture to think that the real
+- [W10.1151] antithesis is not between unnatural and natural treatment of Nature, but
+- [W10.1152] rather between controlled or verifiable data on the one hand, and
+- [W10.1153] unrestrained generalization on the other.
+- [W10.1154] If a systematist were asked whether these new races of Drosophila are
+- [W10.1155] comparable to wild species, he would not hesitate for a moment.
+- [W10.1156] call them all one species.
+- [W10.1157] If he were asked why, he would say, I think,
+- [W10.1158] "These races differ only in one or two striking points, while in a hundred
+- [W10.1159] other respects they are identical even to the minutest details." He would
+- [W10.1160] add, that as large a group of wild species of flies would show on the whole
+- [W10.1161] the reverse relations, _viz._, they would differ in nearly every detail and
+- [W10.1162] be identical in only a few points.
+- [W10.1163] In all this I entirely agree with the
+- [W10.1164] systematist, for I do not think such a group of types differing by one
+- [W10.1165] character each, is comparable to most wild groups of species because the
+- [W10.1166] difference between wild species is due to a large number of such single
+- [W10.1167] The characters that have been accumulated in wild species are
+- [W10.1168] of significance in the maintenance of the species, or at least we are led
+- [W10.1169] to infer that even though the visible character that we attend to may not
+- [W10.1170] itself be important, one at least of the other effects of the factors that
+- [W10.1171] represent these characters is significant.
+- [W10.1172] It is, of course, hardly to be
+- [W10.1173] expected that _any_ random change in as complex a mechanism as an insect
+- [W10.1174] would improve the mechanism, and as a matter of fact it is doubtful whether
+- [W10.1175] any of the mutant types so far discovered are better adapted to those
+- [W10.1176] conditions to which a fly of this structure and habits is already adjusted.
+- [W10.1177] But this is beside the mark, for modern genetics shows very positively that
+- [W10.1178] adaptive characters are inherited in exactly the same way as are those that
+- [W10.1179] are not adaptive; and I have already pointed out that we cannot study a
+- [W10.1180] single mutant factor without at the same time studying one of the factors
+- [W10.1181] responsible for normal characters, for the two together constitute the
+- [W10.1182] And, finally, I want to urge on your attention a question that we are to
+- [W10.1183] consider in more detail in the last lecture.
+- [W10.1184] appears to have taken place by modifying and improving bit by bit the
+- [W10.1185] structures and habits that the animal or plant already possessed.
+- [W10.1186] seen that there are thirty mutant factors at least that have an influence
+- [W10.1187] on eye color, and it is probable that there are at least as many normal
+- [W10.1188] factors that are involved in the production of the red eye of the wild fly.
+- [W10.1189] Evolution from this point of view has consisted largely in introducing new
+- [W10.1190] factors that influence characters already present in the animal or plant.
+- [W10.1191] Such a view gives us a somewhat different picture of the process of
+- [W10.1192] evolution from the old idea of a ferocious struggle between the individuals
+- [W10.1193] of a species with the survival of the fittest and the annihilation of the
+- [W10.1194] Evolution assumes a more peaceful aspect.
+- [W10.1195] characters survive by incorporating themselves into the race, improving it
+- [W10.1196] and opening to it new opportunities.
+- [W10.1197] In other words, the emphasis may be
+- [W10.1198] placed less on the competition between the individuals of a species
+- [W10.1199] (because the destruction of the less fit does not _in itself_ lead to
+- [W10.1200] anything that is new) than on the appearance of new characters and
+- [W10.1201] modifications of old characters that become incorporated in the species,
+- [W10.1202] for on these depends the evolution of the race.
+- [W10.1203] *       *       *       *       *
+- [W10.1204] THE FACTORIAL THEORY OF HEREDITY AND THE COMPOSITION OF THE GERM PLASM
+- [W10.1205] The discovery that Mendel made with edible peas concerning heredity has
+- [W10.1206] been found to apply everywhere throughout the plant and animal kingdoms--to
+- [W10.1207] flowering plants, to insects, snails, crustacea, fishes, amphibians, birds,
+- [W10.1208] and mammals (including man).
+- [W10.1209] There must be something that these widely separated groups of plants and
+- [W10.1210] animals have in common--some simple mechanism perhaps--to give such
+- [W10.1211] definite and orderly series of results.
+- [W10.1212] There is, in fact, a mechanism,
+- [W10.1213] possessed alike by animals and plants, that fulfills every requirement of
+- [W10.1214] THE CELLULAR BASIS OF ORGANIC EVOLUTION AND HEREDITY
+- [W10.1215] In order to appreciate the full force of the evidence, let me first pass
+- [W10.1216] rapidly in review a few familiar, historical facts, that preceded the
+- [W10.1217] discovery of the mechanism in question.
+- [W10.1218] Typical cell showing the cell wall, the protoplasm
+- [W10.1219] (with its contained materials); the nucleus with its contained chromatin
+- [W10.1220] Throughout the greater part of the last century, while students of
+- [W10.1221] evolution and of heredity were engaged in what I may call the more general,
+- [W10.1222] or, shall I say, the _grosser_ aspects of the subject, there existed
+- [W10.1223] another group of students who were engaged in working out the minute
+- [W10.1224] structure of the material basis of the living organism.
+- [W10.1225] organs such as the brain, the heart, the liver, the lungs, the kidneys,
+- [W10.1226] etc., are not themselves the units of structure, but that all these organs
+- [W10.1227] can be reduced to a simpler unit that repeats itself a thousand-fold in
+- [W10.1228] We call this unit a cell (fig.
+- [W10.1229] The egg is a cell, and the spermatozoon is a cell.
+- [W10.1230] is the union of two cells (fig.
+- [W10.1231] fertilization appears to us today, its discovery swept aside a vast amount
+- [W10.1232] of mystical speculation concerning the rôle of the male and of the female
+- [W10.1233] in the act of procreation.
+- [W10.1234] Within the cell a new microcosm was revealed.
+- [W10.1235] contain a spherical body called the nucleus (fig.
+- [W10.1236] is a network of fibres, a sap fills the interstices of the network.
+- [W10.1237] network resolves itself into a definite number of threads at each division
+- [W10.1238] These threads we call chromosomes.
+- [W10.1239] of animals and plants possesses a characteristic number of these threads
+- [W10.1240] which have a definite size and sometimes a specific shape and even
+- [W10.1241] characteristic granules at different levels.
+- [W10.1242] strongest microscopes fail to penetrate.
+- [W10.1243] Observation has reached, for the
+- [W10.1244] A series of cells in process of cell division.
+- [W10.1245] chromosomes are the black threads and rods.
+- [W10.1246] The story is taken up at this point by a new set of students who have
+- [W10.1247] worked in an entirely different field.
+- [W10.1248] Certain observations and experiments
+- [W10.1249] that we have not time to consider now, led a number of biologists to
+- [W10.1250] conclude that the chromosomes are the bearers of the hereditary units.
+- [W10.1251] so, there should be many such units carried by _each_ chromosome, for the
+- [W10.1252] number of chromosomes is limited while the number of independently
+- [W10.1253] inherited characters is large.
+- [W10.1254] In Drosophila it has been demonstrated not
+- [W10.1255] only that there are exactly as many groups of characters that are inherited
+- [W10.1256] together as there are pairs of chromosomes, but even that it is possible to
+- [W10.1257] locate one of these groups in a particular chromosome and to state the
+- [W10.1258] _relative position_ there of the factors for the characters.
+- [W10.1259] validity of this evidence is accepted, the study of the cell leads us
+- [W10.1260] finally in a mechanical, but not in a chemical sense, to the ultimate units
+- [W10.1261] about which the whole process of the transmission of the hereditary factors
+- [W10.1262] But before plunging into this somewhat technical matter (that is difficult
+- [W10.1263] only because it is unfamiliar), certain facts which are familiar for the
+- [W10.1264] most part should be recalled, because on these turns the whole of the
+- [W10.1265] An egg, and the division of the egg--the so-called
+- [W10.1266] The thousands of cells that make up the cell-state that we call an animal
+- [W10.1267] or plant come from the fertilized egg.
+- [W10.1268] An hour or two after fertilization
+- [W10.1269] the egg divides into two cells (fig.
+- [W10.1270] Then each half divides again.
+- [W10.1271] Each quarter next divides.
+- [W10.1272] The process continues until a large number of
+- [W10.1273] cells is formed and out of these organs mould themselves.
+- [W10.1274] Section of the egg of the beetle, Calligrapha,
+- [W10.1275] showing the pigment at one end where the germ cells will later develop as
+- [W10.1276] shown in the other two figures.
+- [W10.1277] At every division of the cell the chromosomes also divide.
+- [W10.1278] have come from the mother, half from the father.
+- [W10.1279] therefore, the sum total of all the chromosomes, and if these are the
+- [W10.1280] bearers of the hereditary qualities, every cell in the body, whatever its
+- [W10.1281] function, has a common inheritance.
+- [W10.1282] At an early stage in the development of the animal certain cells are set
+- [W10.1283] apart to form the organs of reproduction.
+- [W10.1284] In some animals these cells can
+- [W10.1285] be identified early in the cleavage (fig.
+- [W10.1286] The reproductive cells are at first like all the other cells in the body in
+- [W10.1287] that they contain a full complement of chromosomes, half paternal and half
+- [W10.1288] They divide as do the other cells of the body
+- [W10.1289] At each division each chromosome
+- [W10.1290] splits lengthwise and its halves migrate to opposite poles of the spindle
+- [W10.1291] But there comes a time when a new process appears in the germ cells (fig 49
+- [W10.1292] It is essentially the same in the egg and in the sperm cells.
+- [W10.1293] discovery of this process we owe to the laborious researches of many
+- [W10.1294] workers in many countries.
+- [W10.1295] The list of their names is long, and I shall not
+- [W10.1296] even attempt to repeat it.
+- [W10.1297] The chromosomes come together in pairs (fig.
+- [W10.1298] Each maternal chromosome mates with a paternal chromosome of the same
+- [W10.1299] In the upper row of the diagram a typical process
+- [W10.1300] of nuclear division, such as takes place in the early germ cells or in the
+- [W10.1301] In the lower row the separation of the chromosomes that have
+- [W10.1302] This sort of separation takes place at one of the two reduction
+- [W10.1303] Then follow two rapid divisions (fig.
+- [W10.1304] divisions the double chromosomes separate so that each resulting cell comes
+- [W10.1305] to contain some maternal and some paternal chromosomes, i.e. one or the
+- [W10.1306] other member of each pair.
+- [W10.1307] At the other division each chromosome simply
+- [W10.1308] splits as in ordinary cell division.
+- [W10.1309] The two maturation divisions of the sperm cell.
+- [W10.1310] Four sperms result, each with half (haploid) the full number (diploid) of
+- [W10.1311] The upshot of the process is that the ripe eggs (fig.
+- [W10.1312] 50) come to contain only half the total number of
+- [W10.1313] The two maturation divisions of the egg.
+- [W10.1314] divisions are unequal, so that two small polar bodies are formed one of
+- [W10.1315] these subsequently divides.
+- [W10.1316] The three polar bodies and the egg are
+- [W10.1317] comparable to the four sperms.]
+- [W10.1318] When the eggs are fertilized the whole number of chromosomes is restored
+- [W10.1319] THE MECHANISM OF MENDELIAN HEREDITY DISCOVERED IN THE BEHAVIOR OF THE
+- [W10.1320] If the factors in heredity are carried in the chromosomes and if the
+- [W10.1321] chromosomes are definite structures, we should anticipate that there should
+- [W10.1322] be as many _groups_ of characters as there are kinds of chromosomes.
+- [W10.1323] only one case has a sufficient number of characters been studied to show
+- [W10.1324] whether there is any correspondence between the number of hereditary groups
+- [W10.1325] of characters and the number of chromosomes.
+- [W10.1326] In the fruit fly, Drosophila
+- [W10.1327] ampelophila, we have found about 125 characters that are inherited in a
+- [W10.1328] On the opposite page is a list of some of them.
+- [W10.1329] It will be observed in this list that the characters are arranged in four
+- [W10.1330] groups, Groups I, II, III and IV.
+- [W10.1331] Three of these groups are equally large
+- [W10.1332] or nearly so; Group IV contains only two characters.
+- [W10.1333] into these groups because in heredity the members of each group tend to be
+- [W10.1334] inherited together, i.e., if two or more enter the cross together they tend
+- [W10.1335] to remain together through subsequent generations.
+- [W10.1336] member of one group is inherited entirely independently of any member of
+- [W10.1337] the other groups; in the same way as Mendel's yellow-green pair of
+- [W10.1338] characters is inherited independently of the round-wrinkled pair.
+- [W10.1339] _Group I_       _Group II_        _Group III_        _Group IV_
+- [W10.1340] Abnormal        Antlered          Band               Bent
+- [W10.1341] Bar             Apterous          Beaded             Eyeless
+- [W10.1342] Bifid           Arc               Cream III
+- [W10.1343] Bow             Balloon           Deformed
+- [W10.1344] Cherry          Black             Dwarf
+- [W10.1345] Chrome          Blistered         Ebony
+- [W10.1346] Cleft           Comma             Giant
+- [W10.1347] Club            Confluent         Kidney
+- [W10.1348] Depressed       Cream II          Low crossing over
+- [W10.1349] Dot             Curved            Maroon
+- [W10.1350] Eosin           Dachs             Peach
+- [W10.1351] Facet           Extra vein        Pink
+- [W10.1352] Forked          Fringed           Rough
+- [W10.1353] Furrowed        Jaunty            Safranin
+- [W10.1354] Fused           Limited           Sepia
+- [W10.1355] Green           Little crossover  Sooty
+- [W10.1356] Jaunty          Morula            Spineless
+- [W10.1357] Lemon           Olive             Spread
+- [W10.1358] Lethals, 13     Plexus            Trident
+- [W10.1359] Miniature       Purple            Truncate intensifier
+- [W10.1360] Notch           Speck             Whitehead
+- [W10.1361] Reduplicated    Strap             White ocelli
+- [W10.1362] If the factors for these characters are carried by the chromosomes, then we
+- [W10.1363] should expect that those factors that are carried by the same chromosome
+- [W10.1364] would be inherited together, provided the chromosomes are definite
+- [W10.1365] Chromosomes (diploid) of D. ampelophila.
+- [W10.1366] chromosomes are XX in the female and XY in the male.
+- [W10.1367] In the chromosome group of Drosophila, (fig.
+- [W10.1368] 52) there are _four_ pairs of
+- [W10.1369] chromosomes, three of nearly the same size and one much smaller.
+- [W10.1370] is there agreement between the number of hereditary groups and the number
+- [W10.1371] of the chromosomes, but even the size relations are the same, for there are
+- [W10.1372] three great groups of characters and three pairs of large chromosomes, and
+- [W10.1373] one small group of characters and one pair of small chromosomes.
+- [W10.1374] THE FOUR GREAT LINKAGE GROUPS OF DROSOPHILA AMPELOPHILA
+- [W10.1375] The following description of the characters of the wild fly may be useful
+- [W10.1376] in connection with the account of the modifications of these characters
+- [W10.1377] that appear in the mutants.
+- [W10.1378] The head and thorax of the wild fly are grayish-yellow, the abdomen is
+- [W10.1379] banded with alternate stripes of yellow and black.
+- [W10.1380] right), there are three narrow bands and a black tip.
+- [W10.1381] are five black bands (fig.
+- [W10.1382] The wings are gray with a surface
+- [W10.1383] texture of such a kind that at certain angles they are iridescent.
+- [W10.1384] are a deep, solid, brick-red.
+- [W10.1385] The minute hairs that cover the body have a
+- [W10.1386] very definite arrangement that is most obvious on the head and thorax.
+- [W10.1387] There is a definite number of larger hairs called bristles or chaetae which
+- [W10.1388] have a characteristic position and are used for diagnostic purposes in
+- [W10.1389] On the foreleg of the male there is a comb-like
+- [W10.1390] organ formed by a row of bristles; it is absent in the female.
+- [W10.1391] a secondary sexual character, and it is, so far as known, functionless.
+- [W10.1392] Some of the characters of the mutant types are shown in figures 53, 54, 55,
+- [W10.1393] The drawing of a single fly is often used here to illustrate more than
+- [W10.1394] This is done to economize space, but of course there would
+- [W10.1395] be no difficulty in actually bringing together in the same individual any
+- [W10.1396] two or more characters belonging to the same group (or to different
+- [W10.1397] Without colored figures it is not possible to show many of the
+- [W10.1398] most striking differences of these mutant races; at most dark and light
+- [W10.1399] coloring can be indicated by the shading of the body, wings, or eyes.
+- [W10.1400] In the six flies drawn in figure 53 there are shown five different wing
+- [W10.1401] The first of these types (a) is called cut, because the ends of
+- [W10.1402] the wings look as though they had been cut to a point.
+- [W10.1403] displaced downward and appressed and their bristle-like aristae are
+- [W10.1404] The second figure (b) represents a fly with a notch in the ends of the
+- [W10.1405] This character is dominant, but the same factor that produces the
+- [W10.1406] notch in the wings is also a recessive lethal factor; because of this
+- [W10.1407] latter effect of the character no males of this race exist, and the females
+- [W10.1408] of the race are never pure but hybrid.
+- [W10.1409] Every female with notch wings bred
+- [W10.1410] to a wild male, will produce in equal numbers notch winged daughters and
+- [W10.1411] daughters with normal wings.
+- [W10.1412] There will be half as many sons as daughters.
+- [W10.1413] The explanation of this peculiar result is quite simple.
+- [W10.1414] female has one X chromosome that carries the factor for notch and one X
+- [W10.1415] chromosome that is "normal".
+- [W10.1416] Daughters receiving the former chromosomes are
+- [W10.1417] notched because the factor for notch is dominant, but they are not killed
+- [W10.1418] since the lethal effect of the notch factor is recessive to the normal
+- [W10.1419] allelomorph carried by the other chromosome that the daughters get from
+- [W10.1420] This normal factor is recessive for notch but dominant for
+- [W10.1421] This same figure (b) is used here to show three other sex linked
+- [W10.1422] The spines on the thorax are twisted or kinky, which is due to
+- [W10.1423] The effect is best seen on the thorax, but all
+- [W10.1424] spines on the body are similarly modified; even the minute hairs are also
+- [W10.1425] Ruby eye color might be here represented--if the eyes in the
+- [W10.1426] The lighter color of the body and antennae is intended
+- [W10.1427] to indicate that the character tan is also present.
+- [W10.1428] antennae is the most certain way of identifying tan.
+- [W10.1429] interesting because they have lost the positive heliotropism that is so
+- [W10.1430] marked a feature in the behavior of D. ampelophila.
+- [W10.1431] the tan flies is inherited like all the other sex linked characters, it
+- [W10.1432] follows that when a tan female is bred to a wild male all the sons inherit
+- [W10.1433] the recessive tan color and indifference to light, while the daughters show
+- [W10.1434] the dominant sex linked character of their father, i.e., they are "gray",
+- [W10.1435] Hence when such a brood is disturbed the females fly
+- [W10.1436] to the light, but the males remain behind.
+- [W10.1437] One of the first mutants that appeared in D. ampelophila was called
+- [W10.1438] rudimentary on account of the condition of the wings (c).
+- [W10.1439] has appeared independently several times.
+- [W10.1440] In the drawing (c) the dark body
+- [W10.1441] color is intended to indicate "sable" and the lighter color of the eyes is
+- [W10.1442] intended to indicate eosin.
+- [W10.1443] This eye color, which is an allelomorph of
+- [W10.1444] white, is also interesting because in the female the color is deeper than
+- [W10.1445] In other cases of sex linked factors the character is the same
+- [W10.1446] In the fourth figure (d) the third and fourth longitudinal veins of the
+- [W10.1447] wing are _fused_ into one vein from the base of the wing to the level of
+- [W10.1448] the first cross-vein and in addition converge and meet near their outer
+- [W10.1449] The shape of the eye is represented in the figure as different from
+- [W10.1450] the normal, due to another factor called "bar".
+- [W10.1451] character, the hybrid condition being also narrow, but not so narrow as the
+- [W10.1452] Vermilion eye color might also be here represented--due to a
+- [W10.1453] factor that has appeared independently on several occasions.
+- [W10.1454] In the fifth figure (e) the wings are shorter and more pointed than in the
+- [W10.1455] This character is called miniature.
+- [W10.1456] drawing may be taken to represent yellow body color, and the light color of
+- [W10.1457] In the last figure (f) the wings are represented as pads, essentially in
+- [W10.1458] the same condition that they are in when the fly emerges from the pupa
+- [W10.1459] Not all the flies of this stock have the wings in this condition;
+- [W10.1460] some have fully expanded wings that appear normal in all respects.
+- [W10.1461] Nevertheless, about the same percentage of offspring show the pads
+- [W10.1462] irrespective of whether the parents had pads or expanded wings.
+- [W10.1463] The flies of this stock show, however, another character, which is a
+- [W10.1464] product of the same factor, and which is constant, i.e., repeated in all
+- [W10.1465] The two bristles on the sides of the thorax are constantly
+- [W10.1466] The lighter color of the eye in the figure may be
+- [W10.1467] taken to indicate buff--a faint yellowish color.
+- [W10.1468] color is another allelomorph of white.
+- [W10.1469] There are many other interesting characters that belong to the first group,
+- [W10.1470] such as abnormal abdomen, short legs, duplication of the legs, etc.
+- [W10.1471] fact, any part of the body may be affected by a sex-linked factor.
+- [W10.1472] In the first figure (a) of figure 54 that contains members of Group II the
+- [W10.1473] wings are almost entirely absent or "vestigial".
+- [W10.1474] single step and breeds true, although it appears to be influenced to some
+- [W10.1475] extent by temperature, also by modifiers that sometimes appear in the
+- [W10.1476] Purple eye color belongs in Group II; it resembles the color of the
+- [W10.1477] eye of the wild fly but is darker and more translucent.
+- [W10.1478] In the second figure (b) the wing is again long and narrow and sometimes
+- [W10.1479] bent back on itself, as shown here.
+- [W10.1480] In several respects the wing resembles
+- [W10.1481] strap (d) but seems to be due to another factor, called antler,
+- [W10.1482] insufficiently studied as yet.
+- [W10.1483] In the third figure (c) the wings turn up at the end.
+- [W10.1484] by the presence of the factor called jaunty.
+- [W10.1485] In the fourth figure the wings are long and narrow and several of the veins
+- [W10.1486] This character, "strap", is very variable and has not
+- [W10.1487] yet been thoroughly studied.
+- [W10.1488] On the thorax there is a deep black mark
+- [W10.1489] Even in the wild fly there is a three pronged mark on the
+- [W10.1490] thorax present in many individuals.
+- [W10.1491] Trefoil is a further development and
+- [W10.1492] modification of this mark and is due to a special factor.
+- [W10.1493] In the fifth figure (e) the wings are arched.
+- [W10.1494] dark color of the body, and especially of the wings, indicates the factor
+- [W10.1495] The sixth figure (f) shows the wings "curved" downwards.
+- [W10.1496] is present a minute black speck at the base of each wing, due to another
+- [W10.1497] In the seventh figure (g) the wing is truncate.
+- [W10.1498] squared instead of rounded; it may be longer than the body, or shorter when
+- [W10.1499] other modifying factors are present.
+- [W10.1500] The mutation that produces this type
+- [W10.1501] of wing is of not infrequent occurrence.
+- [W10.1502] It has been shown by Muller and
+- [W10.1503] Altenburg that there are at least two factors that modify this
+- [W10.1504] character--the chief factor is present in the second chromosome; alone it
+- [W10.1505] produces the truncate wing in only a certain percentage of cases, but when
+- [W10.1506] the modifiers are also present about ninety percent of the individuals may
+- [W10.1507] show the truncate condition of the wing.
+- [W10.1508] But the presence of these factors
+- [W10.1509] makes the stock very infertile, so that it is difficult to maintain.
+- [W10.1510] In the eighth figure (h) the legs are shortened owing to the absence of a
+- [W10.1511] The stock is called dachs--a nickname given to it
+- [W10.1512] because the short legs suggested the dachshund.
+- [W10.1513] In figure 55, (a), a mutant type called bithorax is shown.
+- [W10.1514] metathorax is replaced by another mesothorax thrust in between the normal
+- [W10.1515] mesothorax and the abdomen.
+- [W10.1516] It carries a pair of wings that do not
+- [W10.1517] On this new mesothorax the characteristic arrangement of
+- [W10.1518] Thus at a single step a typical region of the body
+- [W10.1519] The character is recessive.
+- [W10.1520] The size of the adult fly of D. ampelophila varies greatly according to the
+- [W10.1521] amount of nourishment obtained by the larva.
+- [W10.1522] After the fly emerges its size
+- [W10.1523] remains nearly constant, as in many insects.
+- [W10.1524] Two races have, however, been
+- [W10.1525] separated by Bridges that are different in size as a result of a genetic
+- [W10.1526] The first of these, called dwarf, is represented by figure 55, (b).
+- [W10.1527] The race is minute, although of course its size is variable, depending on
+- [W10.1528] food and other conditions.
+- [W10.1529] The same figure shows the presence of another
+- [W10.1530] factor, "sooty", that makes the fly very dark.
+- [W10.1531] here represented, due to still another factor.
+- [W10.1532] In the third figure (c) the other mutation in size is shown.
+- [W10.1533] The flies are twice the size of wild flies.
+- [W10.1534] peach, might here be represented.
+- [W10.1535] It is an allelomorph of pink.
+- [W10.1536] In the fourth figure (d) the mutant called dichaete is shown.
+- [W10.1537] characterized by the absence of two of the bristles on the thorax.
+- [W10.1538] bristles may also be absent, but not so constantly as the two just
+- [W10.1539] Another effect of the same factor is the spread-out condition of
+- [W10.1540] The very dark eye color in this figure may be taken to indicate
+- [W10.1541] the presence of another factor, "sepia", which causes the eyes to assume a
+- [W10.1542] brown color that becomes black with age.
+- [W10.1543] Most of the other mutations in eye
+- [W10.1544] color that have occurred tend to give a lighter color: this one, which is
+- [W10.1545] also recessive, makes the eye darker.
+- [W10.1546] In the fifth figure (e) the color of the darkest fly is due to a factor
+- [W10.1547] called ebony, which is an allelomorph of sooty.
+- [W10.1548] In the sixth figure (f) the wings are beaded, i.e., the margin is defective
+- [W10.1549] at intervals, giving a beaded-like outline to the wings.
+- [W10.1550] very variable and much affected by other factors that influence the shape
+- [W10.1551] The lighter eye color of the drawing may be taken to
+- [W10.1552] In the seventh figure (g) the wings are curled up over the back.
+- [W10.1553] Only two mutants have been obtained that do not belong to any of the
+- [W10.1554] preceding groups; these are put together in Group IV.
+- [W10.1555] that they are linked to each other and the linkage is so close that it has
+- [W10.1556] thus far been impossible to obtain the dominant recessive.
+- [W10.1557] mutants, called "eyeless" (fig.
+- [W10.1558] 56, a, a^1), is variable--the eyes are
+- [W10.1559] often entirely absent or represented by one or more groups of ommatidia.
+- [W10.1560] The outline of the original eye, so to speak, is strongly marked out and
+- [W10.1561] its area might be called a rudimentary organ, if such a statement has any
+- [W10.1562] The other figure (b) represents "bent", so called from the shape of the
+- [W10.1563] This mutant is likewise very variable, often indistinguishable from
+- [W10.1564] the wild type, yet when well developed strikingly different from any other
+- [W10.1565] This brief account of a few of the mutant races that can be most easily
+- [W10.1566] represented by uncolored figures will serve to show how all parts of the
+- [W10.1567] body may change, some of the changes being so slight that they would be
+- [W10.1568] overlooked except by an expert, others so great that in the character
+- [W10.1569] affected the flies depart far from the original species.
+- [W10.1570] _It is important to note that mutations in the first chromosome are not
+- [W10.1571] limited to any part of the body nor do they affect more frequently a
+- [W10.1572] The same statement holds equally for all of the other
+- [W10.1573] In fact, since each factor may affect visibly several parts of
+- [W10.1574] the body at the same time there are no grounds for expecting any special
+- [W10.1575] relation between a given chromosome and special regions of the body.
+- [W10.1576] not too insistently be urged that when we say a character is the product of
+- [W10.1577] a particular factor we mean no more than that it is the most conspicuous
+- [W10.1578] If, then, as these and other results to be described point to the
+- [W10.1579] chromosomes as the bearers of the Mendelian factors, and if, as will be
+- [W10.1580] shown presently, these factors have a definite location in the chromosomes
+- [W10.1581] it is clear that the location of the factors in the chromosomes bears no
+- [W10.1582] spatial relation to the location of the parts of the body to each other.
+- [W10.1583] LOCALIZATION OF FACTORS IN THE CHROMOSOMES
+- [W10.1584] _The Evidence from Sex Linked Inheritance_
+- [W10.1585] When we follow the history of pairs of chromosomes we find that their
+- [W10.1586] distribution in successive generations is paralleled by the inheritance of
+- [W10.1587] This is best shown in the sex chromosomes (fig.
+- [W10.1588] In the female there are two of these chromosomes that we call the X
+- [W10.1589] chromosomes; in the male there are also two but one differs from those of
+- [W10.1590] the female in its shape, and in the fact that it carries none of the normal
+- [W10.1591] allelomorphs of the mutant factors.
+- [W10.1592] It is called the Y chromosome.
+- [W10.1593] The course followed by the sex chromosomes and that by the characters in
+- [W10.1594] the case of sex linked inheritance are shown in the next diagram of
+- [W10.1595] Drosophila illustrating a cross between a white eyed male and a red eyed
+- [W10.1596] Scheme of sex determination in Drosophila type.
+- [W10.1597] Each _mature_ egg contains one X, each mature sperm contains one X, or a Y
+- [W10.1598] Chance union of any egg with any sperm will give either XX
+- [W10.1599] Cross between white eyed male of D. ampelophila and
+- [W10.1600] The sex chromosomes are indicated by the rods.
+- [W10.1601] indicates that the chromosome carries the factor for red; the open
+- [W10.1602] chromosome the factor for white eye color.]
+- [W10.1603] The first of these represents a cross between a white eyed male and a red
+- [W10.1604] The X chromosome in the male is represented
+- [W10.1605] by an open bar, the Y chromosome is bent.
+- [W10.1606] Each egg of such a female will contain one "black" X
+- [W10.1607] after the polar bodies have been thrown off.
+- [W10.1608] In the male there will be two
+- [W10.1609] classes of sperm--the female-producing, carrying the (open) X, and the
+- [W10.1610] male-producing, carrying the Y chromosome.
+- [W10.1611] Any egg fertilized by an X
+- [W10.1612] bearing sperm will produce a female that will have red eyes because the X
+- [W10.1613] (black) chromosome it gets from the mother carries the dominant factor for
+- [W10.1614] Any egg fertilized by a Y-bearing sperm will produce a male that will
+- [W10.1615] also have red eyes because he gets his (black) X chromosome from his
+- [W10.1616] When, then, these two F_1 flies (second row) are inbred the following
+- [W10.1617] combinations are expected.
+- [W10.1618] Each egg will contain a black X (red eye
+- [W10.1619] producing) or a white X (white eye producing) after the polar bodies have
+- [W10.1620] The male will produce two kinds of sperms, of which the
+- [W10.1621] female producing will contain a black X (red eye producing).
+- [W10.1622] may by chance be fertilized by any sperm there will result the four classes
+- [W10.1623] of individuals shown on the bottom row of the diagram.
+- [W10.1624] have red eyes, because irrespective of the two kinds of eggs involved all
+- [W10.1625] the female-producing sperm carry a black X.
+- [W10.1626] Half of the males have red eyes
+- [W10.1627] because half of the eggs have had each a red-producing X chromosome.
+- [W10.1628] other half of the males have white eyes, because the other half of the eggs
+- [W10.1629] had each a white-producing X chromosome.
+- [W10.1630] Other evidence has shown that the
+- [W10.1631] Y chromosome of the male is indifferent, so far as these Mendelian factors
+- [W10.1632] Cross between red eyed male and white eyed female;
+- [W10.1633] The reciprocal experiment is illustrated in figure 59.
+- [W10.1634] is mated to a red eyed male (top row).
+- [W10.1635] All the mature eggs of such a female
+- [W10.1636] contain one white-producing X chromosome represented by the open bar in the
+- [W10.1637] The red eyed male contains female-producing X-bearing sperm that
+- [W10.1638] carry the factor for red eye color, and male-producing Y chromosomes.
+- [W10.1639] egg fertilized by an X-bearing sperm will become a red eyed female because
+- [W10.1640] the X chromosome that comes from the father carries the dominant factor for
+- [W10.1641] Any egg fertilized by a Y-bearing sperm will become a male
+- [W10.1642] with white eyes because the only X chromosome that the male contains comes
+- [W10.1643] from his mother and is white producing.
+- [W10.1644] When these two F_1 flies are inbred (middle row) the following combinations
+- [W10.1645] Half the eggs will contain each a white producing X
+- [W10.1646] chromosome and half red producing.
+- [W10.1647] The female-producing sperms will each
+- [W10.1648] contain a white X and the male-producing sperms will each contain an
+- [W10.1649] Chance meetings of egg and sperm will give the
+- [W10.1650] four F_2 classes (bottom row).
+- [W10.1651] These consist of white eyed and red eyed
+- [W10.1652] females and white eyed and red eyed males.
+- [W10.1653] The ratio here is 1:1 and not
+- [W10.1654] three to one (3:1) as in other Mendelian cases.
+- [W10.1655] segregation is not transgressed, as the preceding analysis has shown; for,
+- [W10.1656] the chromosomes have followed strictly the course laid down on Mendel's
+- [W10.1657] principle for the distribution of factors.
+- [W10.1658] The peculiar result in this case
+- [W10.1659] is due to the fact that the F_1 male gets his single factor for eye color
+- [W10.1660] from his mother only and it is linked to or contained in a body (the X
+- [W10.1661] chromosome) that is involved in producing the females, while the mate of
+- [W10.1662] this body--the Y chromosome--is indifferent with regard to these factors,
+- [W10.1663] yet active as a mate to X in synapsis.
+- [W10.1664] Diagram of sex determination in type with XX female
+- [W10.1665] and XO male (after Wilson).]
+- [W10.1666] In man there are several characters that show exactly this same kind of
+- [W10.1667] Color blindness, or at least certain kinds of color blindness,
+- [W10.1668] appear to follow the same scheme.
+- [W10.1669] A color blind father transmits through
+- [W10.1670] his daughters his peculiarity to half of his grandsons, but to none of his
+- [W10.1671] The result is the same as in the case of the
+- [W10.1672] white eyed male of Drosophila.
+- [W10.1673] Color blind women are rather unusual, which
+- [W10.1674] is expected from the method of inheritance of this character, but in the
+- [W10.1675] few known cases where such color blind women have married normal husbands
+- [W10.1676] the sons have inherited the peculiarity from the mother (fig.
+- [W10.1677] again the result is the same as for the similar combination in Drosophila.
+- [W10.1678] After reduction half of the sperm carry 24
+- [W10.1679] chromosomes (one of which is X) and half carry 23 chromosomes (no X).]
+- [W10.1680] In man the sex formula appears to be XX for the female and XO for the male
+- [W10.1681] 60), and since the relation is essentially the same as that in
+- [W10.1682] Drosophila the chromosome explanation is the same.
+- [W10.1683] Winiwarter there are 48 chromosomes in the female and 47 in the male (fig.
+- [W10.1684] After the extrusion of the polar bodies there are 24 chromosomes in
+- [W10.1685] In the male at one of the two maturation divisions the X
+- [W10.1686] chromosome passes to one pole undivided (fig.
+- [W10.1687] are two classes of sperms in man; female producing containing 24
+- [W10.1688] chromosomes, and male producing containing 23 chromosomes.
+- [W10.1689] for color blindness is carried by the X chromosome its inheritance in man
+- [W10.1690] works out on the same chromosome scheme and in the same way as does white
+- [W10.1691] eye color (or any other sex linked character) in the fly, for the O sperm
+- [W10.1692] in man is equivalent to the Y sperm in the fly.
+- [W10.1693] In these cases we have been dealing with a single pair of characters.
+- [W10.1694] us now take a case where two pairs of sex linked characters enter the cross
+- [W10.1695] at the same time, and preferably a case where the two recessives enter the
+- [W10.1696] cross from the same parent.
+- [W10.1697] If a female with white eyes and yellow wings is crossed to a wild male with
+- [W10.1698] red eyes and gray wings (fig.
+- [W10.1699] 62), the sons are yellow and have white eyes
+- [W10.1700] and the daughters are gray and have red eyes.
+- [W10.1701] If two F_1 flies are mated
+- [W10.1702] they will produce the following classes.
+- [W10.1703] Cross between a white eyed, yellow winged female of
+- [W10.1704] D. ampelophila and a red eyed, gray winged male.
+- [W10.1705] characters, viz., white-red and yellow-gray are involved.
+- [W10.1706] Yellow  Gray  Yellow  Gray
+- [W10.1707] White   Red   Red     White
+- [W10.1708] ------------  -------------
+- [W10.1709] Not only have the two grandparental combinations reappeared, but in
+- [W10.1710] addition two new combinations, viz., grey white and yellow red.
+- [W10.1711] original combinations far exceed in numbers the new or exchange
+- [W10.1712] If we follow the history of the X chromosomes we discover
+- [W10.1713] that the _larger classes_ of grandchildren appear in accord with the way in
+- [W10.1714] which the X chromosomes are transmitted from one generation to the next.
+- [W10.1715] The _smaller classes_ of grandchildren, the exchange combinations or
+- [W10.1716] cross-overs, as we call them, can be explained by the assumption that at
+- [W10.1717] some stage in their history an interchange of parts has taken place between
+- [W10.1718] This is indicated in the diagrams.
+- [W10.1719] The most important fact brought out by the experiment is that the factors
+- [W10.1720] that went in together tend to stick together.
+- [W10.1721] what combination the members of the two pairs of characters enter, they
+- [W10.1722] tend to remain in that combination.
+- [W10.1723] If one admits that the sex chromosomes carry these factors for the
+- [W10.1724] sex-linked characters--and the evidence is certainly very strong in favor
+- [W10.1725] of this view--it follows necessarily from these facts that at some time in
+- [W10.1726] their history there has been an interchange between the two sex chromosomes
+- [W10.1727] There are several stages in the conjugation of the chromosomes at which
+- [W10.1728] such an interchange between the members of a pair might occur.
+- [W10.1729] further a small amount of direct evidence, unfortunately very meagre at
+- [W10.1730] present, showing that an interchange does actually occur.
+- [W10.1731] At the ripening period of the germ cell the members of each pair of
+- [W10.1732] chromosomes come together (fig.
+- [W10.1733] In several forms they have been
+- [W10.1734] described as meeting at one end and then progressively coming to lie side
+- [W10.1735] At the end of the process they
+- [W10.1736] appear to have completely united along their length (fig.
+- [W10.1737] is always a maternal and a paternal chromosome that meet in this way and
+- [W10.1738] always two of the same kind.
+- [W10.1739] It has been observed that as the members of a
+- [W10.1740] pair come together they occasionally twist around each other (fig.
+- [W10.1741] In consequence a part of one chromosome comes to be now
+- [W10.1742] on one side and now on the other side of its mate.
+- [W10.1743] Conjugation of chromosomes (side to side union) in
+- [W10.1744] the spermatogenesis of Batracoseps.
+- [W10.1745] When the chromosomes separate at the next division of the germ cell the
+- [W10.1746] part on one side passes to one pole, the part on the other to the opposite
+- [W10.1747] Whenever the chromosomes do not untwist at this
+- [W10.1748] time there must result an interchange of pieces where they were crossed
+- [W10.1749] Scheme to illustrate a method of crossing over of
+- [W10.1750] Janssens has found at the time of separation evidence in favor of the view
+- [W10.1751] that some such interchange probably takes place.
+- [W10.1752] We find this same process of interchange of characters taking place in each
+- [W10.1753] of the other three groups of Drosophila.
+- [W10.1754] An example will show this for the
+- [W10.1755] Scheme to illustrate double crossing over.]
+- [W10.1756] If a black vestigial male is crossed to a gray long-winged female (fig.
+- [W10.1757] the offspring are gray long.
+- [W10.1758] If an F_1 female is back-crossed to a black
+- [W10.1759] vestigial male the following kinds of flies are produced:
+- [W10.1760] Black        Gray       Black   Gray
+- [W10.1761] vestigial    long       long    vestigial
+- [W10.1762] -----------------       -----------------
+- [W10.1763] 83%                    17%
+- [W10.1764] The combinations that entered are more common in the F_2 generations than
+- [W10.1765] the cross-over classes, showing that there is linkage of the factors that
+- [W10.1766] Another curious fact is brought out if instead of back-crossing the F_1
+- [W10.1767] female we back-cross the F_1 male to a black vestigial female.
+- [W10.1768] offspring are now of only two kinds, black vestigial and gray long.
+- [W10.1769] means that in the male there is no crossing-over or interchange of pieces.
+- [W10.1770] This relation holds not only for the Group II but for all the other groups
+- [W10.1771] Why interchange takes place in the female of Drosophila and not in the male
+- [W10.1772] we do not know at present.
+- [W10.1773] We might surmise that when in the male the
+- [W10.1774] members of a pair come together they do not twist around each other, hence
+- [W10.1775] Cross between black vestigial and gray long flies.
+- [W10.1776] Two pairs of factors involved in the second group.
+- [W10.1777] crossed (to right) to black vestigial male; and the F_1 male is back
+- [W10.1778] crossed to black vestigial female (to left).
+- [W10.1779] Crossing over takes place in
+- [W10.1780] the F_1 female but not in the F_1 male.]
+- [W10.1781] Crossing-over took place between white and yellow only once in a hundred
+- [W10.1782] Other characters show different values, but the same value under the
+- [W10.1783] same conditions is obtained from the same pair of characters.
+- [W10.1784] Map of four chromosomes of D. ampelophila locating
+- [W10.1785] those factors in each group that have been most fully studied.]
+- [W10.1786] If we assume that the nearer together the factors lie in the chromosome the
+- [W10.1787] less likely is a twist to occur between them, and conversely the farther
+- [W10.1788] apart they lie the more likely is a twist to occur between them, we can
+- [W10.1789] understand how the linkage is different for different pairs of factors.
+- [W10.1790] On this basis we have made out chromosomal maps for each chromosome (fig.
+- [W10.1791] The diagram indicates those loci that have been most accurately
+- [W10.1792] _The Evidence from Interference_
+- [W10.1793] There is a considerable body of information that we have obtained that
+- [W10.1794] corroborates the location of the factors in the chromosome.
+- [W10.1795] is too technical to take up in any detail, but there is one result that is
+- [W10.1796] so important that I must attempt to explain it.
+- [W10.1797] over is brought about by twisting of the chromosomes, and if owing to the
+- [W10.1798] material of the chromosomes there is a most frequent distance of internode,
+- [W10.1799] then, when crossing over between nodes takes place at same level at a-b in
+- [W10.1800] figure 68, the region on each side of that point, a to A and b to B, should
+- [W10.1801] be protected, so to speak, from further crossing over.
+- [W10.1802] No other explanation so far proposed will account for
+- [W10.1803] this extraordinary relation.
+- [W10.1804] Scheme to indicate that when the members of a pair
+- [W10.1805] of chromosomes cross (at a-b) the region on each side is protected
+- [W10.1806] inversely to the distance from a-b.]
+- [W10.1807] What advantage, may be asked, is there in obtaining numerical data of this
+- [W10.1808] It is this:--whenever a new character appears we need only determine
+- [W10.1809] in which of the four groups it lies and its distance from two members
+- [W10.1810] With this information we can predict with a high degree
+- [W10.1811] of probability what results it will give with any other member of any
+- [W10.1812] Thus we can do on paper what would require many months of labor by
+- [W10.1813] making the actual experiment.
+- [W10.1814] In a word we can predict what will happen in
+- [W10.1815] a situation where prediction is impossible without this numerical
+- [W10.1816] _The Evidence from Non-Disjunction_
+- [W10.1817] In the course of the work on Drosophila exceptions appeared in one strain
+- [W10.1818] where certain individuals did not conform to the scheme of sex linked
+- [W10.1819] For a moment the hypothesis seemed to fail, but a careful
+- [W10.1820] examination led to the suspicion that in this strain something had happened
+- [W10.1821] It was seen that if in some way the X chromosomes
+- [W10.1822] failed to disjoin in certain eggs, the exceptions could be explained.
+- [W10.1823] analysis led to the suggestion that if the Y chromosome had got into the
+- [W10.1824] female line the results would be accounted for, since its presence there
+- [W10.1825] would be expected to cause this peculiar non-disjunction of the X
+- [W10.1826] That this was the explanation was shown when the material was examined.
+- [W10.1827] females that gave these results were found by Bridges to have two X's and a
+- [W10.1828] The normal chromosome group of the female is shown in figure 52 and the
+- [W10.1829] chromosome group of one of the exceptional females is shown in figure 69.
+- [W10.1830] In a female of this kind there are three sex chromosomes X X Y which are
+- [W10.1831] homologous in the sense that in normal individuals the two present are
+- [W10.1832] mates and separate at the reduction division.
+- [W10.1833] If in the X X Y individual X
+- [W10.1834] and X conjugate and separate at reduction and the unmated Y is free to move
+- [W10.1835] to either pole of the spindle, two kinds of mature eggs will result, viz.,
+- [W10.1836] If, on the other hand, X and Y conjugate and separate at
+- [W10.1837] reduction and the remaining X is free to go to either pole, four kinds of
+- [W10.1838] eggs will result--XY--X--XX--Y.
+- [W10.1839] As a total result four kinds of eggs are
+- [W10.1840] expected: viz. many XY and X eggs and a few XX and Y eggs.
+- [W10.1841] Figure of the chromosome group of an XXY female,
+- [W10.1842] that gives non-disjunction.]
+- [W10.1843] These four kinds of eggs may be fertilized either by female-producing
+- [W10.1844] sperms or male-producing sperms, as indicated in the diagram (fig.
+- [W10.1845] Scheme showing the results of fertilizing white
+- [W10.1846] bearing eggs (4 kinds) resulting from non-disjunction.
+- [W10.1847] the diagram gives the results when these eggs are fertilized by normal red
+- [W10.1848] bearing, female producing sperm, the lower half by normal, male producing
+- [W10.1849] If such an XXY female carried white bearing Xs (open X in the figures), and
+- [W10.1850] the male carried a red bearing X (black X in the figures) it will be seen
+- [W10.1851] that there should result an exceptional class of sons that are red, and an
+- [W10.1852] exceptional class of daughters that are white.
+- [W10.1853] show that they behave subsequently in heredity as their composition
+- [W10.1854] Other tests may also be made of the other classes of offspring.
+- [W10.1855] Bridges has shown that they fulfill all the requirements predicted.
+- [W10.1856] result that seemed in contradiction with the chromosome hypothesis has
+- [W10.1857] turned out to give a brilliant confirmation of that theory both genetically
+- [W10.1858] HOW MANY GENETIC FACTORS ARE THERE IN THE GERM-PLASM OF A SINGLE INDIVIDUAL
+- [W10.1859] In passing I invite your attention to a speculation based on our maps of
+- [W10.1860] the chromosomes--a speculation which I must insist does not pretend to be
+- [W10.1861] more than a guess but has at least the interest of being the first guess
+- [W10.1862] that we have ever been in position to make as to how many factors go
+- [W10.1863] towards the makeup of the germ plasm.
+- [W10.1864] We have found practically no factors less than .04 of a unit apart.
+- [W10.1865] map includes the entire length of the chromosomes and if we assume factors
+- [W10.1866] are uniformly distributed along the chromosome at distances equal to the
+- [W10.1867] shortest distance yet observed, viz. .04, then we can calculate roughly how
+- [W10.1868] many hereditary factors there are in Drosophila.
+- [W10.1869] The reader should be cautioned against accepting the
+- [W10.1870] above assumptions as strictly true, for crossing-over values are known to
+- [W10.1871] differ according to different environmental conditions (as shown by Bridges
+- [W10.1872] for age), and to differ even in different parts of the chromosome as a
+- [W10.1873] result of the presence of specific genetic factors (as shown by
+- [W10.1874] Since all the chromosomes except the X chromosomes are double
+- [W10.1875] we must double our estimate to give the _total_ number of factors, but the
+- [W10.1876] half number is the number of the different kinds of factors of Drosophila.
+- [W10.1877] I have passed in review a long series of researches as to the nature of the
+- [W10.1878] We have in consequence of this work arrived within
+- [W10.1879] sight of a result that seemed a few years ago far beyond our reach.
+- [W10.1880] mechanism of heredity has, I think, been discovered--discovered not by a
+- [W10.1881] flash of intuition but as the result of patient and careful study of the
+- [W10.1882] With the discovery of this mechanism I venture the opinion that the problem
+- [W10.1883] of heredity has been solved.
+- [W10.1884] We know how the factors carried by the parents
+- [W10.1885] are sorted out to the germ cells.
+- [W10.1886] The explanation does not pretend to state
+- [W10.1887] how factors arise or how they influence the development of the embryo.
+- [W10.1888] these have never been an integral part of the doctrine of heredity.
+- [W10.1889] problems which they present must be worked out in their own field.
+- [W10.1890] repeat, the mechanism of the chromosomes offers a satisfactory solution of
+- [W10.1891] the traditional problem of heredity.
+- [W10.1892] *       *       *       *       *
+- [W10.1893] Darwin's Theory of Natural Selection still holds today first place in every
+- [W10.1894] discussion of evolution, and for this very reason the theory calls for
+- [W10.1895] careful scrutiny; for it is not difficult to show that the expression
+- [W10.1896] "natural selection" is to many men a metaphor that carries many meanings,
+- [W10.1897] and sometimes different meanings to different men.
+- [W10.1898] with my fellow biologists in ascribing to Darwin himself, and to his work,
+- [W10.1899] the first place in biological philosophy, yet recognition of this claim
+- [W10.1900] should not deter us from a careful analysis of the situation in the light
+- [W10.1901] of work that has been done since Darwin's time.
+- [W10.1902] THE THEORY OF NATURAL SELECTION
+- [W10.1903] In his great book on the _Origin of Species_, Darwin tried to do two
+- [W10.1904] things: first, to show that the evidence bearing on evolution makes that
+- [W10.1905] No such great body of evidence had ever been brought
+- [W10.1906] together before, and it wrought, as we all know, a revolution in our modes
+- [W10.1907] Darwin also set himself the task of showing _how_ evolution might have
+- [W10.1908] He pointed to the influence of the environment, to the effects
+- [W10.1909] of use and disuse, and to natural selection.
+- [W10.1910] It is to the last theory that
+- [W10.1911] his name is especially attached.
+- [W10.1912] He appealed to a fact familiar to
+- [W10.1913] everyone, that no two individuals are identical and that some of the
+- [W10.1914] differences that they show are inherited.
+- [W10.1915] He argued that those individuals
+- [W10.1916] that are best suited to their environment are the most probable ones to
+- [W10.1917] survive and to leave most offspring.
+- [W10.1918] In consequence their descendants
+- [W10.1919] should in time replace through competition the less well-adapted
+- [W10.1920] individuals of the species.
+- [W10.1921] This is the process Darwin called natural
+- [W10.1922] selection, and Spencer the survival of the fittest.
+- [W10.1923] Stated in these general terms there is nothing in the theory to which
+- [W10.1924] anyone is likely to take exception.
+- [W10.1925] But let us examine the argument more
+- [W10.1926] Series of leaves of a tree arranged according to
+- [W10.1927] If we measure, or weigh, or classify any character shown by the individuals
+- [W10.1928] of a population, we find differences.
+- [W10.1929] We recognize that some of the
+- [W10.1930] differences are due to the varied experiences that the individuals have
+- [W10.1931] encountered in the course of their lives, i.e. to their environment, but we
+- [W10.1932] also recognize that some of the differences may be due to individuals
+- [W10.1933] having different inheritances--different germ plasms.
+- [W10.1934] examples will help to bring home this relation.
+- [W10.1935] If the leaves of a tree are arranged according to size (fig.
+- [W10.1936] continuous series, but there are more leaves of medium size than extremes.
+- [W10.1937] If a lot of beans be sorted out according to their weights, and those
+- [W10.1938] between certain weights put into cylinders, the cylinders, when arranged
+- [W10.1939] according to the size of the beans, will appear as shown in figure 72.
+- [W10.1940] imaginary line running over the tops of the piles will give a curve (fig.
+- [W10.1941] 73) that corresponds to the curve of probability (fig.
+- [W10.1942] Beans put into cylindrical jars according to the
+- [W10.1943] The jars arranged according to size of contained beans.
+- [W10.1944] A curve resulting from arrangement of beans
+- [W10.1945] If we stand men in lines according to their height (fig.
+- [W10.1946] Students arranged according to size.
+- [W10.1947] The differences in size shown by the individual beans or by the individual
+- [W10.1948] men are due in part to heredity, in part to the environment in which they
+- [W10.1949] This is a familiar fact of almost every-day observation.
+- [W10.1950] is well shown in the following example.
+- [W10.1951] In figure 76 the two boys and the
+- [W10.1952] two varieties of corn, which they are holding, differ in height.
+- [W10.1953] pedigrees of the boys (fig.
+- [W10.1954] 77) make it probable that their height is
+- [W10.1955] largely inherited and the two races of corn are known to belong to a tall
+- [W10.1956] and a short race respectively.
+- [W10.1957] Here, then, the chief effect or difference
+- [W10.1958] On the other hand, if individuals of the same race
+- [W10.1959] develop in a favorable environment the result is different from the
+- [W10.1960] development in an unfavorable environment, as shown in figure 78.
+- [W10.1961] the right the corn is crowded and in consequence dwarfed, while to the left
+- [W10.1962] the same kind of corn has had more room to develop and is taller.
+- [W10.1963] A short and a tall boy each holding a stalk of
+- [W10.1964] corn--one stalk of a race of short corn, the other of tall corn.
+- [W10.1965] Pedigree of boys shown in Fig.
+- [W10.1966] Darwin knew that if selection of particular kinds of individuals of a
+- [W10.1967] population takes place the next generation is affected.
+- [W10.1968] of a community are selected _the average_ of their offspring will be taller
+- [W10.1969] than the average of the former population.
+- [W10.1970] If selection for tallness again
+- [W10.1971] takes place, still taller men will _on the average_ arise.
+- [W10.1972] these, selection again makes a choice the process would, he thought,
+- [W10.1973] A race of corn reared under different conditions.]
+- [W10.1974] We now recognize that this statement contains an important truth, but we
+- [W10.1975] have found that it contains only a part of the truth.
+- [W10.1976] for himself this kind of selection experiment will find that while his
+- [W10.1977] average class will often change in the direction of his selection, the
+- [W10.1978] process slows down as a rule rather suddenly (fig.
+- [W10.1979] that the limits of variability are not necessarily transcended as the
+- [W10.1980] process continues even although the average may for a while be increased.
+- [W10.1981] More tall men may be produced by selection of this kind, but the tallest
+- [W10.1982] men are not necessarily any taller than the tallest in the original
+- [W10.1983] Curves showing how (hypothetically) selection might
+- [W10.1984] be supposed to bring about progress in direction of selection.
+- [W10.1985] Selection, then, has not produced anything new, but only more of certain
+- [W10.1986] Evolution, however, means producing more new things,
+- [W10.1987] not more of what already exists.
+- [W10.1988] Darwin seems to have thought that the range of variation shown by the
+- [W10.1989] offspring of a given individual about that type of individual would be as
+- [W10.1990] wide as the range shown by the original population (fig.
+- [W10.1991] work has made it clear that this is not the case in a general or mixed
+- [W10.1992] If the offspring of individuals continued to show, as Darwin
+- [W10.1993] seems to have thought, as wide a range on each side of their parents' size,
+- [W10.1994] so to speak, as did the original population, then it would follow that
+- [W10.1995] selection could slide successive generations along in the direction of
+- [W10.1996] Diagram illustrating the results of selection for
+- [W10.1997] extra bristles in D. ampelophila.
+- [W10.1998] Selection at first produces decided
+- [W10.1999] effects which soon slow down and then cease.
+- [W10.2000] Darwin himself was extraordinarily careful, however, in the statements he
+- [W10.2001] made in this connection and it is rather by implication than by actual
+- [W10.2002] reference that one can ascribe this meaning to his views.
+- [W10.2003] contemporaries and many of his followers, however, appear to have accepted
+- [W10.2004] this _sliding scale_ interpretation as the cardinal doctrine of evolution.
+- [W10.2005] If this is doubted or my statement is challenged then one must explain why
+- [W10.2006] de Vries' mutation theory met with so little enthusiasm amongst the older
+- [W10.2007] group of zoölogists and botanists; and one must explain why Johannsen's
+- [W10.2008] splendid work met with such bitter opposition from the English school--the
+- [W10.2009] biometricians--who amongst the post-Darwinian school are assumed to be the
+- [W10.2010] lineal descendants of Darwin.
+- [W10.2011] And in this connection we should not forget that just this sort of process
+- [W10.2012] was supposed to take place in the inheritance of use and disuse.
+- [W10.2013] gained in one generation forms the basis for further gains in the next
+- [W10.2014] Now, Darwin not only believed that acquired characters are
+- [W10.2015] inherited but turned more and more to this explanation in his later
+- [W10.2016] Let us, however, not make too much of the matter; for it is much
+- [W10.2017] less important to find out whether Darwin's ideas were vague, than it is to
+- [W10.2018] make sure that our own ideas are clear.
+- [W10.2019] If I have made several statements here that appear dogmatic let me now
+- [W10.2020] attempt to justify them, or at least give the evidence which seems to me to
+- [W10.2021] The work of the Danish botanist, Johannsen, has given us the most carefully
+- [W10.2022] analyzed case of selection that has ever been obtained.
+- [W10.2023] moreover, special reasons why the material that he used is better suited to
+- [W10.2024] give definite information than any other so far studied.
+- [W10.2025] with the common bean, weighing the seeds or else measuring them.
+- [W10.2026] beans if taken from many plants at random give the typical curve of
+- [W10.2027] The plant multiplies by self-fertilization.
+- [W10.2028] advantage of this fact Johannsen kept the seeds of each plant separate from
+- [W10.2029] the others, and raised from them a new generation.
+- [W10.2030] from these new groups it was found that some of them had different modes
+- [W10.2031] from that of the original general population (fig.
+- [W10.2032] They are shown in the upper groups (A, B, C, D, E).
+- [W10.2033] me to say that the offspring of each bean gave a different mode.
+- [W10.2034] The lower figure gives the
+- [W10.2035] general population, the other figures give the pure lines within the
+- [W10.2036] On the contrary, some of the lines would be the same.
+- [W10.2037] The result means that the general population is made up of definite kinds
+- [W10.2038] of individuals that may have been sorted out.
+- [W10.2039] That his conclusion is correct is shown by rearing a new generation from
+- [W10.2040] any plant or indeed from several plants of any one of these lines.
+- [W10.2041] line repeats the same modal class.
+- [W10.2042] There is no further breaking up into
+- [W10.2043] Within the line it does not matter at all whether one chooses a big
+- [W10.2044] bean or a little one--they will give the same result.
+- [W10.2045] plasm in each of these lines is pure, or homozygous, as we say.
+- [W10.2046] differences that we find between the weights (or sizes) of the individual
+- [W10.2047] beans are due to external conditions to which they have been subjected.
+- [W10.2048] In a word, Johannsen's work shows that the frequency distribution of a pure
+- [W10.2049] line is due to factors that are extrinsic to the germ plasm.
+- [W10.2050] matter then which individuals in a pure line are used to breed from, for
+- [W10.2051] they all carry the same germ plasm.
+- [W10.2052] We can now understand more clearly how selection acting on a general
+- [W10.2053] population brings about results in the direction of selection.
+- [W10.2054] An individual is picked out from the population in order to get a
+- [W10.2055] particular kind of germ plasm.
+- [W10.2056] Although the different classes of
+- [W10.2057] individuals may overlap, so that one can not always judge an individual
+- [W10.2058] from its appearance, nevertheless on the whole chance favors the picking
+- [W10.2059] out of the kind of germ plasm sought.
+- [W10.2060] In species with separate sexes there is the further difficulty that two
+- [W10.2061] individuals must be chosen for each mating, and superficial examination of
+- [W10.2062] them does not insure that they belong to the same group--their germ plasm
+- [W10.2063] Hence selection of biparental forms is a precarious
+- [W10.2064] process, now going forward, now backwards, now standing still.
+- [W10.2065] however, the process forward is almost certain to take place if the
+- [W10.2066] selection is from a heterogeneous population.
+- [W10.2067] simplified because he started with pure lines.
+- [W10.2068] In fact, had he not done so
+- [W10.2069] his work would not have been essentially different from that of any
+- [W10.2070] selection experiment of a pure race of animals or plants.
+- [W10.2071] realized the importance of the condition or not is uncertain--curiously he
+- [W10.2072] laid no emphasis on it in the first edition of his "Elemente der exakten
+- [W10.2073] It has since been pointed out by Jennings and by Pearl that a race that
+- [W10.2074] reproduces by self-fertilization as does this bean, automatically becomes
+- [W10.2075] pure in all of the factors that make up its germ plasm.
+- [W10.2076] self-fertilization is the normal process in this bean the purity of the
+- [W10.2077] germ plasm already existed when Johannsen began to experiment.
+- [W10.2078] HOW HAS SELECTION IN DOMESTICATED ANIMALS AND PLANTS BROUGHT ABOUT ITS
+- [W10.2079] If then selection does not bring about transgressive variation in a general
+- [W10.2080] population, how can selection produce anything new?
+- [W10.2081] anything new, is there any other way in which selection becomes an agent in
+- [W10.2082] We can get some light on this question if we turn to what man has done with
+- [W10.2083] his domesticated animals and plants.
+- [W10.2084] Through selection, i.e., artificial
+- [W10.2085] selection, man has undoubtedly brought about changes as remarkable as any
+- [W10.2086] shown by wild animals and plants.
+- [W10.2087] We know, moreover, a good deal about how
+- [W10.2088] these changes have been wrought.
+- [W10.2089] (1) By crossing different wild species or by crossing wild with races
+- [W10.2090] already domesticated new combinations have been made.
+- [W10.2091] individual have been combined with parts of others, creating new
+- [W10.2092] It is possible even that characters that are entirely new may
+- [W10.2093] be produced by the interaction of factors brought into recombination.
+- [W10.2094] (2) New characters appear from time to time in domesticated and in wild
+- [W10.2095] These, like the mutants in Drosophila, are fully equipped at the
+- [W10.2096] Since they breed true and follow Mendel's laws it is possible to
+- [W10.2097] combine them with characters of the wild type or with those of other mutant
+- [W10.2098] Amongst the new mutant factors there may be some whose chief effect is on
+- [W10.2099] the character that the breeder is already selecting.
+- [W10.2100] will be likely to attract attention.
+- [W10.2101] Superficially it may appear that the
+- [W10.2102] factor for the original character has varied, while the truth may be that
+- [W10.2103] another factor has appeared that has modified a character already present.
+- [W10.2104] In fact, many or all Mendelian factors that affect the same organ may be
+- [W10.2105] said to be modifiers of each other's effects.
+- [W10.2106] Thus the factor for vermilion
+- [W10.2107] causes the eye to be one color, and the factor for eosin another color,
+- [W10.2108] while eosin vermilion is different from both.
+- [W10.2109] modifier of vermilion or vermilion of eosin.
+- [W10.2110] In general, however, it is
+- [W10.2111] convenient to use the term "modifier" for cases in which the factor causes
+- [W10.2112] a detectable change in a character already present or conspicuous.
+- [W10.2113] Scheme to indicate influence of the modifying
+- [W10.2114] factors, cream and whiting.
+- [W10.2115] Neither produces any effect alone but they
+- [W10.2116] modify other eye colors such as eosin.]
+- [W10.2117] One of the most interesting, and at the same time most treacherous, kinds
+- [W10.2118] of modifying factors is that which produces an effect _only_ when some
+- [W10.2119] Thus Bridges has shown that there is a factor
+- [W10.2120] called "cream" that does not affect the red color of the eye of the wild
+- [W10.2121] fly, yet makes "eosin" much paler (fig.
+- [W10.2122] Another factor "whiting" which
+- [W10.2123] produces no effect on red makes eosin entirely white.
+- [W10.2124] whiting may be carried by red eyed flies without their presence being seen
+- [W10.2125] until eosin is used, the experimenter must be continually on the lookout
+- [W10.2126] for such factors which may lead to erroneous conclusions unless detected.
+- [W10.2127] As yet breeders have not realized the important rôle that modifiers have
+- [W10.2128] played in their results, but there are indications at least that the
+- [W10.2129] heaping up of modifying factors has been one of the ways in which highly
+- [W10.2130] specialized domesticated animals have been produced.
+- [W10.2131] accomplished this result not by changing factors, but by picking up
+- [W10.2132] The demonstration of the presence of these factors has
+- [W10.2133] already been made in some cases.
+- [W10.2134] Their study promises to be one of the most
+- [W10.2135] instructive fields for further work bearing on the selection hypothesis.
+- [W10.2136] In addition to these well recognized methods by which artificial selection
+- [W10.2137] has produced new things we come now to a question that is the very crux of
+- [W10.2138] the selection theory today.
+- [W10.2139] Our whole conception of selection turns on the
+- [W10.2140] answer that we give to this matter and if I appear insistent and go into
+- [W10.2141] some detail it is because I think that the matter is worth very careful
+- [W10.2142] ARE FACTORS CHANGED THROUGH SELECTION?
+- [W10.2143] As we have seen, the variation that we find from individual to individual
+- [W10.2144] is due in part to the environment; this can generally be demonstrated.
+- [W10.2145] Other differences in an ordinary population are recognized as due to
+- [W10.2146] different genetic (hereditary) combinations.
+- [W10.2147] But is all the variability accounted for in these two ways?
+- [W10.2148] not a factor itself fluctuate?
+- [W10.2149] Is it not _a priori_ probable that factors
+- [W10.2150] Why, in a word, should we regard factors as inviolate when we
+- [W10.2151] see that everything else in organisms is more or less in amount?
+- [W10.2152] know of any _a priori_ reason why a factor may not fluctuate, unless it is,
+- [W10.2153] as I like to think, a chemical molecule.
+- [W10.2154] We are, however, dealing here not
+- [W10.2155] with generalities but with evidence, and there are three known methods by
+- [W10.2156] means of which it has been shown that variability, other than environmental
+- [W10.2157] or recombinational, is not due to variability in a factor, nor to various
+- [W10.2158] "potencies" possessed by the same factors.
+- [W10.2159] (1) By making the stock uniform for all of its factors--chief factors and
+- [W10.2160] Any change in such a stock produced by selection would
+- [W10.2161] then be due to a change in one or more of the factors themselves.
+- [W10.2162] Johannsen's experiment is an example of this sort.
+- [W10.2163] Drosophila ampelophila with truncate wings.]
+- [W10.2164] (2) The second method is one that is capable of _demonstrating_ that the
+- [W10.2165] effects of selection are actually due to modifiers.
+- [W10.2166] in our laboratory, chiefly by Muller, and used in a particular case to
+- [W10.2167] demonstrate that selection produced its effect by isolating modifying
+- [W10.2168] For example, a mutant type called truncate appeared, characterized
+- [W10.2169] by shorter wings, usually square at the end, (fig.
+- [W10.2170] from those of normal length to wings much shorter (fig.
+- [W10.2171] years the mutant stock was bred from individuals having the shorter wings
+- [W10.2172] until at last a stock was obtained in which some of the individuals had
+- [W10.2173] wings much shorter than the body.
+- [W10.2174] By means of linkage experiments it was
+- [W10.2175] shown that at least three factors were present that modified the wings.
+- [W10.2176] These were isolated by means of their linkage relations, and their mutual
+- [W10.2177] influence on the production of truncate wings was shown.
+- [W10.2178] Series of wings of different length shown by
+- [W10.2179] truncate stock of D. ampelophila.]
+- [W10.2180] An experiment of this kind can only be carried out in a case where the
+- [W10.2181] groups of linked gens are known.
+- [W10.2182] At present Drosophila is the only animal
+- [W10.2183] (or plant) sufficiently well known to make this test possible, but this
+- [W10.2184] does not prove that the method is of no value.
+- [W10.2185] that any claim that factors can themselves be changed can have no finality
+- [W10.2186] until the claim can be tested out by means of the linkage test.
+- [W10.2187] descended from a single original mutant.
+- [W10.2188] selection within our stock will make the bar eye narrower or broader
+- [W10.2189] according to the direction of selection.
+- [W10.2190] It remains to be shown in this
+- [W10.2191] case how selection has produced its effects, and this can be done by
+- [W10.2192] utilizing the same process that was used in the case of truncate.
+- [W10.2193] Another mutant stock called beaded (fig.
+- [W10.2194] 84), has been bred for five years
+- [W10.2195] and selected for wings showing more beading.
+- [W10.2196] In extreme cases the wings
+- [W10.2197] have been reduced to mere stumps (see stumpy, fig.
+- [W10.2198] It is probable here as Dexter has shown, that a number
+- [W10.2199] of mutant factors that act as modifiers have been picked up in the course
+- [W10.2200] of the selection, and when it is recalled that during those five years over
+- [W10.2201] 125 new characters have appeared elsewhere it does not seem improbable that
+- [W10.2202] factors also have appeared that modify the wings of this stock.
+- [W10.2203] Two flies showing beaded wings.]
+- [W10.2204] (3) The third method is one that has been developed principally by East for
+- [W10.2205] plants; also by MacDowell for rabbits and flies.
+- [W10.2206] to prove that modifiers are present, but it shows why certain results are
+- [W10.2207] in harmony with that expectation and can not be accounted for on the basis
+- [W10.2208] that a factor has changed.
+- [W10.2209] large body was crossed to a common rabbit with a small body the hybrid was
+- [W10.2210] When the hybrid was crossed back to the smaller type
+- [W10.2211] it produced rabbits of various sizes in apparently a continuous series.
+- [W10.2212] MacDowell made measurements of the range of variability in the first and in
+- [W10.2213] _Classification in relation to parents based on skull lengths and ulna
+- [W10.2214] lengths, to show the relative variability of two measurements and of
+- [W10.2215] the first generation (F_1) and the back cross (B.
+- [W10.2216] CHARACTER|GENERATION|-13|-12|-11|-10| -9| -8| -7| -6| -5| -4| -3| -2| -1|
+- [W10.2217] ---------+----------+---+---+---+---+---+---+---+---+---+---+---+---+---+
+- [W10.2218] Length of{   F_1    |   |   |   |   |   |   |   |   |   |   |   |   |   |
+- [W10.2219] skull  {   B.C.   |   |   |   |   |   |   |   |   |   |   |   |   |  3|
+- [W10.2220] Length of{   F_1    |   |   |   |   |   |   |   |   |   |   |   |   |   |
+- [W10.2221] ulna   {   B.C.   |  1|   |   |   |   |  1|   |  2|  3|  1|  2|  4|  4|
+- [W10.2222] CHARACTER|GENERATION|  0|  1|  2|  3|  4|  5|  6|  7|  8|  9| 10| 11| 12|
+- [W10.2223] ---------+----------+---+---+---+---+---+---+---+---+---+---+---+---+---+
+- [W10.2224] Length of{   F_1    |   |   |   |   |   |   |   |  2|  2|  8|  5| 10|  7|
+- [W10.2225] skull  {   B.C.   |  6|  4| 13| 18| 42| 32| 38| 34| 16| 16|  8|  4|  3|
+- [W10.2226] Length of{   F_1    |   |  1|   |   |  2|   |  1|  1|  1|  2|  2|  5|  3|
+- [W10.2227] ulna   {   B.C.   | 12| 11| 20| 26| 17| 19| 18| 15| 12| 13| 15| 11|  5|
+- [W10.2228] CHARACTER|GENERATION| 13| 14| 15| 16| 17| 18| 19| 20| 21| 22| 23| 24| 25|
+- [W10.2229] ---------+----------+---+---+---+---+---+---+---+---+---+---+---+---+---+
+- [W10.2230] Length of{   F_1    |  3|  2|  2|   |   |   |   |   |   |   |   |   |   |
+- [W10.2231] skull  {   B.C.   |  1|   |   |   |   |   |   |   |   |   |   |   |   |
+- [W10.2232] Length of{   F_1    |  1|  7|  3|  2|  1|   |   |   |  2|   |  1|   |  1|
+- [W10.2233] ulna   {   B.C.   |  2|  4|  2|  2|   |   |  1|  1|   |   |   |   |   |
+- [W10.2234] He found that the variability was smaller in the first generation than in
+- [W10.2235] the second generation (back cross).
+- [W10.2236] This is what is expected if several
+- [W10.2237] factor-differences were involved, because the hybrids of the first
+- [W10.2238] generation are expected to be more uniform in factorial composition than
+- [W10.2239] are those in the second generation which are produced by recombination of
+- [W10.2240] the factors introduced through their grandparents.
+- [W10.2241] of the same kinds of results have been found in Indian corn.
+- [W10.2242] figure 85 the length of the cob in F_1 is intermediate between the parent
+- [W10.2243] types while in F_2 the range is wider and both of the original types are
+- [W10.2244] East states that similar relations have been found for 18
+- [W10.2245] Emerson has recently furnished further illustrations of
+- [W10.2246] the same relations in the length of stalks in beans.
+- [W10.2247] Cross between two races of Indian corn, one with
+- [W10.2248] short cobs and one with long cobs.
+- [W10.2249] The range of variability in F_1 is less
+- [W10.2250] A similar case is shown by a cross between fantail and common pigeons (fig.
+- [W10.2251] The latter have twelve feathers in the tail, while the selected race
+- [W10.2252] from which the fantails came had between 28 and 38 feathers in the tail.
+- [W10.2253] The F_1 offspring (forty-one individuals) showed (fig.
+- [W10.2254] 20 tail feathers, while in F_2 the numbers varied between 12 and 25.
+- [W10.2255] one of the grand-parental types reappears in large numbers, while the
+- [W10.2256] extreme of the other grand-parental type did not reappear (in the counts
+- [W10.2257] obtained), although the F_2 number would probably overlap the lower limits
+- [W10.2258] of the race of fantail grandparents had not a selected (surviving) lot been
+- [W10.2259] taken for the figures given in the table.
+- [W10.2260] Cross of pigeon with normal tail P_1 and fantail
+- [W10.2261] Cross of normal and fantail pigeons.
+- [W10.2262] The F_2 range is wider than that of F_1.
+- [W10.2263] The normal grand-parental type of
+- [W10.2264] 12 feathers was recovered in F_2 but the higher numbers characteristic of
+- [W10.2265] fantails were not recovered.]
+- [W10.2266] The preceding account attempts to point out how I should prefer to
+- [W10.2267] interpret the problem of selection in the light of the most recent work on
+- [W10.2268] But I would give a very incomplete account of the whole situation
+- [W10.2269] if I neglected to include some important work which has led some of my
+- [W10.2270] fellow-workers to a very different conclusion.
+- [W10.2271] Scheme to show classes of hooded rats used by
+- [W10.2272] Castle in particular is the champion of a view based on his results with
+- [W10.2273] Starting with individuals which have a narrow black stripe
+- [W10.2274] down the back he selected for a narrower stripe in one direction and for a
+- [W10.2275] broader stripe in the other.
+- [W10.2276] As the diagram shows (fig.
+- [W10.2277] succeeded in producing in one direction a race in which the dorsal stripe
+- [W10.2278] has disappeared and in the other direction a race in which the black has
+- [W10.2279] extended over the back and sides, leaving only a white mark on the belly.
+- [W10.2280] Neither of these extremes occurs, he believes, in the ordinary hooded race
+- [W10.2281] In other words no matter how many of them came under
+- [W10.2282] observation the extreme types of his experiment would not be found.
+- [W10.2283] Castle claims that the factor for hoodedness must be a single Mendelian
+- [W10.2284] unit, because if hooded rats are crossed to wild gray rats with uniform
+- [W10.2285] coat and their offspring are inbred there are produced in F_2 three uniform
+- [W10.2286] Castle advances the hypothesis that factors--by
+- [W10.2287] which he means Mendelian factors--may themselves vary in much the same way
+- [W10.2288] as do the characters that they stand for.
+- [W10.2289] He argues, in so many words, that
+- [W10.2290] since we judge a factor by the kind of character it produces, when the
+- [W10.2291] character varies the factor that stands for it may have changed.
+- [W10.2292] As early as 1903 Cuénot had carried out experiments with spotted mice
+- [W10.2293] similar to those of Castle with rats.
+- [W10.2294] Cuénot found that spotted crossed to
+- [W10.2295] uniform coat color gave in F_2 a ratio of three uniform to one spotted, yet
+- [W10.2296] selection of those spotted mice with more white in their coat produced mice
+- [W10.2297] in successive generations that had more and more white.
+- [W10.2298] showed that selection of those spotted mice that had more color in their
+- [W10.2299] coat produced mice with more and more color and less white.
+- [W10.2300] however bring up in this connection the question as to how selection in
+- [W10.2301] these spotted mice brings about its results.
+- [W10.2302] Without attempting to discuss these results at the length that they deserve
+- [W10.2303] let me briefly state why I think Castle's evidence fails to establish his
+- [W10.2304] In the first place one of the premises may be wrong.
+- [W10.2305] in F_2 by no means proves that all conditions of hoodedness are due to one
+- [W10.2306] The result shows at most that one factor that gives the hooded
+- [W10.2307] types is a simple Mendelian factor.
+- [W10.2308] The changes in this type may be caused
+- [W10.2309] by modifying factors that can show an effect only when hoodedness is itself
+- [W10.2310] That this is not an imaginary objection but a real one is shown by
+- [W10.2311] an experiment that Castle himself made which furnishes the ground for the
+- [W10.2312] If the factor has really changed its potency, then if a very dark
+- [W10.2313] individual from one end of the series is crossed to a wild rat and the
+- [W10.2314] second generation raised we should expect that the hooded F_2 rats would
+- [W10.2315] all be dark like their dark grandparent.
+- [W10.2316] When Castle made this test he
+- [W10.2317] found that there were many grades of hooded rats in the F_2 progeny.
+- [W10.2318] were darker, it is true, as a group than were the original hooded group at
+- [W10.2319] the beginning of the selection experiment, but they gave many intermediate
+- [W10.2320] Castle attempts to explain this by the assumption that the factor
+- [W10.2321] made pure by selection became contaminated by its normal allelomorph in the
+- [W10.2322] F_1 parent, but not only does this assumption appear to beg the whole
+- [W10.2323] question, but it is in flat contradiction with what we have observed in
+- [W10.2324] hundreds of Mendelian cases where no evidence for such a contamination
+- [W10.2325] Later Castle crossed some of the extracted rats of average grade (3.01)
+- [W10.2326] from the plus series to the same wild race and got F_2 hooded rats from
+- [W10.2327] These F_2 hooded rats did not further approach the ordinary
+- [W10.2328] range but were nearer the extreme selected plus hooded rats (3.33) than
+- [W10.2329] were the F_2's extracted from the first cross (2.59).
+- [W10.2330] this that multiple factors can not account for the result.
+- [W10.2331] fact, Castle's evidence _as published_ does not establish his conclusion
+- [W10.2332] because the wild rats used in the second experiment may have carried plus
+- [W10.2333] This could only be determined by suitable tests which Castle
+- [W10.2334] This is the crucial point, without which the evidence
+- [W10.2335] Furthermore, from Castle's point of view, these latest results would seem
+- [W10.2336] to increase the difficulty of interpretation of his first F_2 extracted
+- [W10.2337] cross, and it is now the first result that calls for explanation if one
+- [W10.2338] accepts his later conclusion.
+- [W10.2339] These and other objections that might be taken up show, I think, that
+- [W10.2340] Castle's experiment with hooded rats fails entirely to establish his
+- [W10.2341] contention of change in potency of the germ or of contamination of factors,
+- [W10.2342] while on the contrary they are in entire accord with the view that he is
+- [W10.2343] dealing with a case of modifying factors.
+- [W10.2344] Equally important are the results that Jennings has obtained with certain
+- [W10.2345] Paramecium multiplies by dividing across in the middle, each half
+- [W10.2346] replacing its lacking part.
+- [W10.2347] Both the small nucleus (micronucleus) and the
+- [W10.2348] large nucleus (macronucleus) divide at each division of the body.
+- [W10.2349] found that while individuals descended from a single paramecium vary in
+- [W10.2350] 89), yet the population from a large individual is the same as
+- [W10.2351] the population derived from a small individual.
+- [W10.2352] produces no result and the probable explanation is, of course, that the
+- [W10.2353] different sizes of individuals are due to the environment, while the
+- [W10.2354] constancy of the type is genetic.
+- [W10.2355] Jennings found a number of races of
+- [W10.2356] paramecium of different sizes living under natural conditions.
+- [W10.2357] individual of a small race might overlap the smallest individual of other
+- [W10.2358] 89); nevertheless each kind reproduced its particular
+- [W10.2359] The results are like those of Johannsen in a general way, but differ
+- [W10.2360] in that reproduction takes place in paramecium by direct division instead
+- [W10.2361] of through self-fertilization as in beans, and also in that the paramecia
+- [W10.2362] were probably not homozygous.
+- [W10.2363] Since, however, so far as known no
+- [W10.2364] "reduction" takes place in paramecium at each division, the genetic
+- [W10.2365] composition of parent and offspring should be the same.
+- [W10.2366] pseudo-parthenogenesis that Woodruff and Erdmann have found occurring in
+- [W10.2367] paramecium at intervals involves a redistribution of the hereditary factors
+- [W10.2368] Jennings's evidence seems incompatible with such a view.
+- [W10.2369] Stylonychia showing division into two.
+- [W10.2370] More recently one of Jennings's students, Middleton, has made a careful
+- [W10.2371] series of selection experiments with Stylonychia (fig.
+- [W10.2372] selected for lines showing more rapid or slower rates of division.
+- [W10.2373] observations seem to show that his selection separated two such lines that
+- [W10.2374] came from the same original stock.
+- [W10.2375] The rapidity of the effects of selection
+- [W10.2376] seems to preclude the explanation that pseudo-parthenogenesis has
+- [W10.2377] Nevertheless, the results are of such a kind as to
+- [W10.2378] suggest that they were due to selection of vegetative (somatic) differences
+- [W10.2379] and that no genetic change of factors was involved, for his conclusion that
+- [W10.2380] the rapidity with which the effects gained by long selection might be
+- [W10.2381] suddenly reversed when selection was reversed is hardly consistent with an
+- [W10.2382] interpretation of the results based on changes in the "potencies" of the
+- [W10.2383] Equally striking are the interesting experiments that Jennings has recently
+- [W10.2384] carried out with Difflugia (fig.
+- [W10.2385] This protozoon secretes a shell about
+- [W10.2386] itself which has a characteristic shape, and often carries spines.
+- [W10.2387] opening at one end of the shell through which the protoplasm protrudes to
+- [W10.2388] make the pseudopodia is surrounded by a rim having a characteristic
+- [W10.2389] The protoplasm contains several nuclei and in addition there is
+- [W10.2390] scattered material or particles called chromidia that are supposed to be
+- [W10.2391] chromatic in nature and related to the material of the nuclei, possibly by
+- [W10.2392] When Difflugia divides, part of the protoplasm protrudes from the opening
+- [W10.2393] and a new shell is secreted about this mass which becomes a daughter
+- [W10.2394] The behavior of the nucleus and of the chromidia at this time
+- [W10.2395] is obscure, but there is some evidence that their materials may be
+- [W10.2396] irregularly distributed between parent and offspring.
+- [W10.2397] and if in the protozoa the chromatin has the same influence that it seems
+- [W10.2398] to have in higher animals, the mode of reproduction in Difflugia would be
+- [W10.2399] expected to give little more than random sampling of the germ plasm.
+- [W10.2400] Jennings was able by means of selection to get from the descendants of one
+- [W10.2401] original individual a number of different types that themselves bred true,
+- [W10.2402] except in so far as selection could affect another change in them.
+- [W10.2403] connection it is interesting to note that Leidy has published figures of
+- [W10.2404] 92) that show that a great many "types" exist.
+- [W10.2405] sexual union (a process that occurs in Difflugia) the germ plasm
+- [W10.2406] (chromatin) of these wild types has in times past been recombined, then
+- [W10.2407] selection would be expected to separate certain types again, if, at
+- [W10.2408] division, irregular sampling of the germ plasm takes place.
+- [W10.2409] points are settled the bearing of these important experiments of Jennings
+- [W10.2410] on the general problem of selection is uncertain.
+- [W10.2411] HOW DOES NATURAL SELECTION INFLUENCE THE COURSE OF EVOLUTION?
+- [W10.2412] The question still remains: Does selection play any rôle in evolution, and,
+- [W10.2413] Does the elimination of the unfit influence the
+- [W10.2414] course of evolution, except in the negative sense of leaving more room for
+- [W10.2415] There is something further to be said in this connection, although
+- [W10.2416] opinions may differ as to whether the following interpretation of the term
+- [W10.2417] "natural selection" is the only possible one.
+- [W10.2418] Evolution of elephant's skulls.
+- [W10.2419] If through a mutation a character appears that is neither advantageous nor
+- [W10.2420] disadvantageous, but indifferent, the chance that it may become established
+- [W10.2421] in the race is extremely small, although by good luck such a thing may
+- [W10.2422] It makes no difference whether the character in question is a
+- [W10.2423] dominant or a recessive one, the chance of its becoming established is
+- [W10.2424] If through a mutation a character appears that has an
+- [W10.2425] _injurious_ effect, however slight this may be, it has practically no
+- [W10.2426] chance of becoming established.
+- [W10.2427] Evolution of elephant's trunk.
+- [W10.2428] If through a mutation a character appears that has a _beneficial_ influence
+- [W10.2429] on the individual, the chance that the individual will survive is
+- [W10.2430] increased, not only for itself, but for all of its descendants that come to
+- [W10.2431] It is this increase in the number of individuals
+- [W10.2432] possessing a particular character, that might have an influence on the
+- [W10.2433] This gives a better chance for improvement by several
+- [W10.2434] successive steps; but not because the species is more likely to mutate
+- [W10.2435] again in the same direction.
+- [W10.2436] An imaginary example will illustrate how this
+- [W10.2437] happens: When elephants had trunks less than a foot long, the chance of
+- [W10.2438] getting trunks more than one foot long was in proportion to the length of
+- [W10.2439] trunks already present and to the number of individuals; but increment in
+- [W10.2440] trunk length is no more likely to occur from an animal having a trunk more
+- [W10.2441] than one foot long than from an animal with a shorter trunk.
+- [W10.2442] The case is analogous to tossing pennies.
+- [W10.2443] At any stage in the game the
+- [W10.2444] chance of accumulating a hundred heads is in proportion to the number of
+- [W10.2445] heads already obtained, and to the number of throws still to be made.
+- [W10.2446] the number of heads obtained has no influence on the number of heads that
+- [W10.2447] will appear in the next throw.
+- [W10.2448] Evolution of elephant's trunk: above Maeritherium,
+- [W10.2449] in the middle Tetrabelodon (After Lancaster); below African elephants
+- [W10.2450] Owing then to this property of the germ plasm to duplicate itself in a
+- [W10.2451] large number of samples not only is an opportunity furnished to an
+- [W10.2452] advantageous variation to become extensively multiplied, but the presence
+- [W10.2453] of a large number of individuals of a given sort prejudices the probable
+- [W10.2454] The question may be raised as to whether it is desirable to call selection
+- [W10.2455] There are so many supernatural and mystical
+- [W10.2456] implications that hang around the term creative that one can not be too
+- [W10.2457] careful in stating in what sense the term is to be used.
+- [W10.2458] meant that something is made out of nothing, then of course there is no
+- [W10.2459] need for the scientist to try to answer such a question.
+- [W10.2460] creative process is meant that something is made out of something else,
+- [W10.2461] then there are two alternatives to be reckoned with.
+- [W10.2462] First, if it were true that selection of an individual of a certain kind
+- [W10.2463] determines that new variations in the same direction occur as a consequence
+- [W10.2464] of the selection, then selection would certainly be creative.
+- [W10.2465] could occur might be quite unintelligible, but of course it might be
+- [W10.2466] claimed that the point is not whether we can explain how creation takes
+- [W10.2467] place, but whether we can get verifiable evidence that such a kind of thing
+- [W10.2468] This possibility is disposed of by the fact that there is no
+- [W10.2469] evidence that selection determines the direction in which variation occurs.
+- [W10.2470] Second, if you mean by a creative process that by picking out a certain
+- [W10.2471] kind of individual and multiplying its numbers a better chance is furnished
+- [W10.2472] that a certain end result will be obtained, such a process may be said to
+- [W10.2473] This is, I think, the proper use of the term creative in a
+- [W10.2474] In reviewing the evidence relating to selection I have tried to handle the
+- [W10.2475] problem as objectively as I could.
+- [W10.2476] The evidence shows clearly that the characters of wild animals and plants,
+- [W10.2477] as well as those of domesticated races, are inherited both in the wild and
+- [W10.2478] in the domesticated forms according to Mendel's Law.
+- [W10.2479] The causes of the mutations that give rise to new characters we do not
+- [W10.2480] know, although we have no reason for supposing that they are due to other
+- [W10.2481] Evolution has taken place by the incorporation into the race of those
+- [W10.2482] mutations that are beneficial to the life and reproduction of the organism.
+- [W10.2483] Natural selection as here defined means both the increase in the number of
+- [W10.2484] individuals that results after a beneficial mutation has occurred (owing to
+- [W10.2485] the ability of living matter to propagate) and also that this preponderance
+- [W10.2486] of certain kinds of individuals in a population makes some further results
+- [W10.2487] more probable than others.
+- [W10.2488] More than this, natural selection can not mean,
+- [W10.2489] if factors are fixed and are not changed by selection.
+- [W10.2490] *       *       *       *       *
+- [W10.2491] Biogenetic law 15, 18, 19, 21
+- [W10.2492] Chromosome group of Drosophila 102
+- [W10.2493] Chromosomes 91, 95, 96, 98, 130, 131, 132
+- [W10.2494] Comparative anatomy 7, 8, 9, 14
+- [W10.2495] Criss-cross inheritance 78
+- [W10.2496] Darwin 15, 24, 28, 32, 35-37, 64, 145, 146, 152, 154-156
+- [W10.2497] Discontinuous variation 13
+- [W10.2498] Drosophila ampelophila 10, 12, 13, 48-50, 60, 75, 84, 85, 93, 100, 103,
+- [W10.2499] Eosin eye color 61, 107, 163
+- [W10.2500] Evolution--three kinds of 1, 2, 4
+- [W10.2501] Groups I, II, III, IV 100-118
+- [W10.2502] Jennings 161, 181-184, 186
+- [W10.2503] Johannsen 156, 157, 159-161, 166, 182
+- [W10.2504] Localization of factors 118
+- [W10.2505] Mendel's law 41-59, 64, 124
+- [W10.2506] Modifiers 163, 164, 170, 171
+- [W10.2507] Natural Selection 36, 145, 146, 187-194
+- [W10.2508] Pseudo-parthenogenesis 183
+- [W10.2509] Rudimentary wing 70, 71, 107
+- [W10.2510] Sex linked inheritance 75, 118-130
+- [W10.2511] Sooty body color 50, 114, 115
+- [W10.2512] Survival of the fittest 146
+- [W10.2513] Truncate wing 111, 112, 167, 168
+- [W10.2514] Variation discontinuous 13
+- [W10.2515] Vermilion eye color 108, 163
+- [W10.2516] Vestigial wing 11, 55, 56, 109, 133
+- [W10.2517] White eye color 13, 75, 119-130
+- [W10.2518] Whiting eye color 163, 164
+- [W10.2519] Yellow body color 108, 133
+- [W10.2520] *       *       *       *       *
+- [W10.2521] Corrections made to printed original.
+- [W10.2522] page 104, "shown in figures 53, 54, 55, 56": '52, 53, 54, 55' in original.
+- [W10.2523] *** END OF THE PROJECT GUTENBERG EBOOK A CRITIQUE OF THE THEORY OF EVOLUTION ***
+- [W10.2524] Updated editions will replace the previous one—the old editions will
+- [W10.2525] Creating the works from print editions not protected by U.S. copyright
+- [W10.2526] law means that no one owns a United States copyright in these works,
+- [W10.2527] so the Foundation (and you!) can copy and distribute it in the United
+- [W10.2528] States without permission and without paying copyright
+- [W10.2529] Special rules, set forth in the General Terms of Use part
+- [W10.2530] of this license, apply to copying and distributing Project
+- [W10.2531] Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+- [W10.2532] Project Gutenberg is a registered trademark,
+- [W10.2533] and may not be used if you charge for an eBook, except by following
+- [W10.2534] the terms of the trademark license, including paying royalties for use
+- [W10.2535] of the Project Gutenberg trademark.
+- [W10.2536] If you do not charge anything for
+- [W10.2537] copies of this eBook, complying with the trademark license is very
+- [W10.2538] You may use this eBook for nearly any purpose such as creation
+- [W10.2539] of derivative works, reports, performances and research.
+- [W10.2540] Gutenberg eBooks may be modified and printed and given away—you may
+- [W10.2541] do practically ANYTHING in the United States with eBooks not protected
+- [W10.2542] Redistribution is subject to the trademark
+- [W10.2543] license, especially commercial redistribution.
+- [W10.2544] THE FULL PROJECT GUTENBERG™ LICENSE
+- [W10.2545] PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+- [W10.2546] To protect the Project Gutenberg™ mission of promoting the free
+- [W10.2547] distribution of electronic works, by using or distributing this work
+- [W10.2548] (or any other work associated in any way with the phrase “Project
+- [W10.2549] Gutenberg”), you agree to comply with all the terms of the Full
+- [W10.2550] Project Gutenberg License available with this file or online at
+- [W10.2551] www.gutenberg.org/license.
+- [W10.2552] General Terms of Use and Redistributing Project Gutenberg
+- [W10.2553] By reading or using any part of this Project Gutenberg
+- [W10.2554] electronic work, you indicate that you have read, understand, agree to
+- [W10.2555] and accept all the terms of this license and intellectual property
+- [W10.2556] (trademark/copyright) agreement.
+- [W10.2557] If you do not agree to abide by all
+- [W10.2558] the terms of this agreement, you must cease using and return or
+- [W10.2559] destroy all copies of Project Gutenberg electronic works in your
+- [W10.2560] If you paid a fee for obtaining a copy of or access to a
+- [W10.2561] Project Gutenberg electronic work and you do not agree to be bound
+- [W10.2562] by the terms of this agreement, you may obtain a refund from the person
+- [W10.2563] or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+- [W10.2564] “Project Gutenberg” is a registered trademark.
+- [W10.2565] used on or associated in any way with an electronic work by people who
+- [W10.2566] agree to be bound by the terms of this agreement.
+- [W10.2567] things that you can do with most Project Gutenberg electronic works
+- [W10.2568] even without complying with the full terms of this agreement.
+- [W10.2569] There are a lot of things you can do with Project
+- [W10.2570] Gutenberg electronic works if you follow the terms of this
+- [W10.2571] agreement and help preserve free future access to Project Gutenberg
+- [W10.2572] The Project Gutenberg Literary Archive Foundation (“the
+- [W10.2573] Foundation” or PGLAF), owns a compilation copyright in the collection
+- [W10.2574] of Project Gutenberg electronic works.
+- [W10.2575] works in the collection are in the public domain in the United
+- [W10.2576] If an individual work is unprotected by copyright law in the
+- [W10.2577] United States and you are located in the United States, we do not
+- [W10.2578] claim a right to prevent you from copying, distributing, performing,
+- [W10.2579] displaying or creating derivative works based on the work as long as
+- [W10.2580] all references to Project Gutenberg are removed.
+- [W10.2581] that you will support the Project Gutenberg mission of promoting
+- [W10.2582] free access to electronic works by freely sharing Project Gutenberg
+- [W10.2583] works in compliance with the terms of this agreement for keeping the
+- [W10.2584] Project Gutenberg name associated with the work.
+- [W10.2585] comply with the terms of this agreement by keeping this work in the
+- [W10.2586] same format with its attached full Project Gutenberg License when
+- [W10.2587] you share it without charge with others.
+- [W10.2588] The copyright laws of the place where you are located also govern
+- [W10.2589] what you can do with this work.
+- [W10.2590] Copyright laws in most countries are
+- [W10.2591] in a constant state of change.
+- [W10.2592] If you are outside the United States,
+- [W10.2593] check the laws of your country in addition to the terms of this
+- [W10.2594] agreement before downloading, copying, displaying, performing,
+- [W10.2595] distributing or creating derivative works based on this work or any
+- [W10.2596] other Project Gutenberg work.
+- [W10.2597] representations concerning the copyright status of any work in any
+- [W10.2598] country other than the United States.
+- [W10.2599] Unless you have removed all references to Project Gutenberg:
+- [W10.2600] The following sentence, with active links to, or other
+- [W10.2601] immediate access to, the full Project Gutenberg License must appear
+- [W10.2602] prominently whenever any copy of a Project Gutenberg work (any work
+- [W10.2603] on which the phrase “Project Gutenberg” appears, or with which the
+- [W10.2604] phrase “Project Gutenberg” is associated) is accessed, displayed,
+- [W10.2605] performed, viewed, copied or distributed:
+- [W10.2606] This eBook is for the use of anyone anywhere in the United States and most
+- [W10.2607] other parts of the world at no cost and with almost no restrictions
+- [W10.2608] You may copy it, give it away or re-use it under the terms
+- [W10.2609] of the Project Gutenberg™ License included with this eBook or online
+- [W10.2610] are not located in the United States, you will have to check the laws
+- [W10.2611] of the country where you are located before using this eBook.
+- [W10.2612] If an individual Project Gutenberg electronic work is
+- [W10.2613] derived from texts not protected by U.S. copyright law (does not
+- [W10.2614] contain a notice indicating that it is posted with permission of the
+- [W10.2615] copyright holder), the work can be copied and distributed to anyone in
+- [W10.2616] the United States without paying any fees or charges.
+- [W10.2617] redistributing or providing access to a work with the phrase “Project
+- [W10.2618] Gutenberg” associated with or appearing on the work, you must comply
+- [W10.2619] either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+- [W10.2620] obtain permission for the use of the work and the Project Gutenberg
+- [W10.2621] trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+- [W10.2622] If an individual Project Gutenberg electronic work is posted
+- [W10.2623] with the permission of the copyright holder, your use and distribution
+- [W10.2624] must comply with both paragraphs 1.E.1 through 1.E.7 and any
+- [W10.2625] additional terms imposed by the copyright holder.
+- [W10.2626] will be linked to the Project Gutenberg License for all works
+- [W10.2627] posted with the permission of the copyright holder found at the
+- [W10.2628] Do not unlink or detach or remove the full Project Gutenberg
+- [W10.2629] License terms from this work, or any files containing a part of this
+- [W10.2630] work or any other work associated with Project Gutenberg.
+- [W10.2631] Do not copy, display, perform, distribute or redistribute this
+- [W10.2632] electronic work, or any part of this electronic work, without
+- [W10.2633] prominently displaying the sentence set forth in paragraph 1.E.1 with
+- [W10.2634] active links or immediate access to the full terms of the Project
+- [W10.2635] You may convert to and distribute this work in any binary,
+- [W10.2636] compressed, marked up, nonproprietary or proprietary form, including
+- [W10.2637] any word processing or hypertext form.
+- [W10.2638] However, if you provide access
+- [W10.2639] to or distribute copies of a Project Gutenberg work in a format
+- [W10.2640] other than “Plain Vanilla ASCII” or other format used in the official
+- [W10.2641] version posted on the official Project Gutenberg website
+- [W10.2642] (www.gutenberg.org), you must, at no additional cost, fee or expense
+- [W10.2643] to the user, provide a copy, a means of exporting a copy, or a means
+- [W10.2644] of obtaining a copy upon request, of the work in its original “Plain
+- [W10.2645] Vanilla ASCII” or other form.
+- [W10.2646] Any alternate format must include the
+- [W10.2647] full Project Gutenberg License as specified in paragraph 1.E.1.
+- [W10.2648] Do not charge a fee for access to, viewing, displaying,
+- [W10.2649] performing, copying or distributing any Project Gutenberg works
+- [W10.2650] unless you comply with paragraph 1.E.8 or 1.E.9.
+- [W10.2651] You may charge a reasonable fee for copies of or providing
+- [W10.2652] access to or distributing Project Gutenberg electronic works
+- [W10.2653] • You pay a royalty fee of 20% of the gross profits you derive from
+- [W10.2654] the use of Project Gutenberg works calculated using the method
+- [W10.2655] you already use to calculate your applicable taxes.
+- [W10.2656] to the owner of the Project Gutenberg trademark, but he has
+- [W10.2657] agreed to donate royalties under this paragraph to the Project
+- [W10.2658] Gutenberg Literary Archive Foundation.
+- [W10.2659] Royalty payments must be paid
+- [W10.2660] within 60 days following each date on which you prepare (or are
+- [W10.2661] legally required to prepare) your periodic tax returns.
+- [W10.2662] payments should be clearly marked as such and sent to the Project
+- [W10.2663] Gutenberg Literary Archive Foundation at the address specified in
+- [W10.2664] Section 4, “Information about donations to the Project Gutenberg
+- [W10.2665] Literary Archive Foundation.”
+- [W10.2666] • You provide a full refund of any money paid by a user who notifies
+- [W10.2667] you in writing (or by e-mail) within 30 days of receipt that s/he
+- [W10.2668] does not agree to the terms of the full Project Gutenberg™
+- [W10.2669] You must require such a user to return or destroy all
+- [W10.2670] copies of the works possessed in a physical medium and discontinue
+- [W10.2671] all use of and all access to other copies of Project Gutenberg™
+- [W10.2672] • You provide, in accordance with paragraph 1.F.3, a full refund of
+- [W10.2673] any money paid for a work or a replacement copy, if a defect in the
+- [W10.2674] electronic work is discovered and reported to you within 90 days of
+- [W10.2675] • You comply with all other terms of this agreement for free
+- [W10.2676] distribution of Project Gutenberg™ works.
+- [W10.2677] If you wish to charge a fee or distribute a Project
+- [W10.2678] Gutenberg™ electronic work or group of works on different terms than
+- [W10.2679] are set forth in this agreement, you must obtain permission in writing
+- [W10.2680] from the Project Gutenberg Literary Archive Foundation, the manager of
+- [W10.2681] the Project Gutenberg™ trademark.
+- [W10.2682] Contact the Foundation as set
+- [W10.2683] Project Gutenberg volunteers and employees expend considerable
+- [W10.2684] effort to identify, do copyright research on, transcribe and proofread
+- [W10.2685] works not protected by U.S. copyright law in creating the Project
+- [W10.2686] Despite these efforts, Project Gutenberg™
+- [W10.2687] electronic works, and the medium on which they may be stored, may
+- [W10.2688] contain “Defects,” such as, but not limited to, incomplete, inaccurate
+- [W10.2689] or corrupt data, transcription errors, a copyright or other
+- [W10.2690] intellectual property infringement, a defective or damaged disk or
+- [W10.2691] other medium, a computer virus, or computer codes that damage or
+- [W10.2692] cannot be read by your equipment.
+- [W10.2693] LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+- [W10.2694] of Replacement or Refund” described in paragraph 1.F.3, the Project
+- [W10.2695] Gutenberg Literary Archive Foundation, the owner of the Project
+- [W10.2696] Gutenberg™ trademark, and any other party distributing a Project
+- [W10.2697] Gutenberg™ electronic work under this agreement, disclaim all
+- [W10.2698] liability to you for damages, costs and expenses, including legal
+- [W10.2699] YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+- [W10.2700] LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+- [W10.2701] PROVIDED IN PARAGRAPH 1.F.3.
+- [W10.2702] YOU AGREE THAT THE FOUNDATION, THE
+- [W10.2703] TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+- [W10.2704] LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+- [W10.2705] INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+- [W10.2706] LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+- [W10.2707] defect in this electronic work within 90 days of receiving it, you can
+- [W10.2708] receive a refund of the money (if any) you paid for it by sending a
+- [W10.2709] written explanation to the person you received the work from.
+- [W10.2710] received the work on a physical medium, you must return the medium
+- [W10.2711] with your written explanation.
+- [W10.2712] The person or entity that provided you
+- [W10.2713] with the defective work may elect to provide a replacement copy in
+- [W10.2714] If you received the work electronically, the person
+- [W10.2715] or entity providing it to you may choose to give you a second
+- [W10.2716] opportunity to receive the work electronically in lieu of a refund.
+- [W10.2717] the second copy is also defective, you may demand a refund in writing
+- [W10.2718] without further opportunities to fix the problem.
+- [W10.2719] Except for the limited right of replacement or refund set forth
+- [W10.2720] in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+- [W10.2721] OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+- [W10.2722] LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+- [W10.2723] Some states do not allow disclaimers of certain implied
+- [W10.2724] warranties or the exclusion or limitation of certain types of
+- [W10.2725] If any disclaimer or limitation set forth in this agreement
+- [W10.2726] violates the law of the state applicable to this agreement, the
+- [W10.2727] agreement shall be interpreted to make the maximum disclaimer or
+- [W10.2728] limitation permitted by the applicable state law.
+- [W10.2729] unenforceability of any provision of this agreement shall not void the
+- [W10.2730] INDEMNITY - You agree to indemnify and hold the Foundation, the
+- [W10.2731] trademark owner, any agent or employee of the Foundation, anyone
+- [W10.2732] providing copies of Project Gutenberg™ electronic works in
+- [W10.2733] accordance with this agreement, and any volunteers associated with the
+- [W10.2734] production, promotion and distribution of Project Gutenberg™
+- [W10.2735] electronic works, harmless from all liability, costs and expenses,
+- [W10.2736] including legal fees, that arise directly or indirectly from any of
+- [W10.2737] the following which you do or cause to occur: (a) distribution of this
+- [W10.2738] or any Project Gutenberg work, (b) alteration, modification, or
+- [W10.2739] additions or deletions to any Project Gutenberg work, and (c) any
+- [W10.2740] Information about the Mission of Project Gutenberg
+- [W10.2741] Project Gutenberg is synonymous with the free distribution of
+- [W10.2742] electronic works in formats readable by the widest variety of
+- [W10.2743] computers including obsolete, old, middle-aged and new computers.
+- [W10.2744] exists because of the efforts of hundreds of volunteers and donations
+- [W10.2745] from people in all walks of life.
+- [W10.2746] Volunteers and financial support to provide volunteers with the
+- [W10.2747] assistance they need are critical to reaching Project Gutenberg’s
+- [W10.2748] goals and ensuring that the Project Gutenberg collection will
+- [W10.2749] remain freely available for generations to come.
+- [W10.2750] Gutenberg Literary Archive Foundation was created to provide a secure
+- [W10.2751] and permanent future for Project Gutenberg and future
+- [W10.2752] To learn more about the Project Gutenberg Literary
+- [W10.2753] Archive Foundation and how your efforts and donations can help, see
+- [W10.2754] Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+- [W10.2755] Information about the Project Gutenberg Literary Archive Foundation
+- [W10.2756] The Project Gutenberg Literary Archive Foundation is a non-profit
+- [W10.2757] 501(c)(3) educational corporation organized under the laws of the
+- [W10.2758] state of Mississippi and granted tax exempt status by the Internal
+- [W10.2759] The Foundation’s EIN or federal tax identification
+- [W10.2760] Contributions to the Project Gutenberg Literary
+- [W10.2761] Archive Foundation are tax deductible to the full extent permitted by
+- [W10.2762] U.S. federal laws and your state’s laws.
+- [W10.2763] The Foundation’s business office is located at 41 Watchung Plaza #516,
+- [W10.2764] Montclair NJ 07042, USA, +1 (862) 621-9288.
+- [W10.2765] Email contact links and up
+- [W10.2766] to date contact information can be found at the Foundation’s website
+- [W10.2767] and official page at www.gutenberg.org/contact
+- [W10.2768] Information about Donations to the Project Gutenberg
+- [W10.2769] Literary Archive Foundation
+- [W10.2770] Project Gutenberg™ depends upon and cannot survive without widespread
+- [W10.2771] public support and donations to carry out its mission of
+- [W10.2772] increasing the number of public domain and licensed works that can be
+- [W10.2773] freely distributed in machine-readable form accessible by the widest
+- [W10.2774] array of equipment including outdated equipment.
+- [W10.2775] ($1 to $5,000) are particularly important to maintaining tax exempt
+- [W10.2776] The Foundation is committed to complying with the laws regulating
+- [W10.2777] charities and charitable donations in all 50 states of the United
+- [W10.2778] Compliance requirements are not uniform and it takes a
+- [W10.2779] considerable effort, much paperwork and many fees to meet and keep up
+- [W10.2780] We do not solicit donations in locations
+- [W10.2781] where we have not received written confirmation of compliance.
+- [W10.2782] DONATIONS or determine the status of compliance for any particular state
+- [W10.2783] visit www.gutenberg.org/donate.
+- [W10.2784] While we cannot and do not solicit contributions from states where we
+- [W10.2785] have not met the solicitation requirements, we know of no prohibition
+- [W10.2786] against accepting unsolicited donations from donors in such states who
+- [W10.2787] approach us with offers to donate.
+- [W10.2788] International donations are gratefully accepted, but we cannot make
+- [W10.2789] any statements concerning tax treatment of donations received from
+- [W10.2790] outside the United States.
+- [W10.2791] U.S. laws alone swamp our small staff.
+- [W10.2792] Please check the Project Gutenberg web pages for current donation
+- [W10.2793] Donations are accepted in a number of other
+- [W10.2794] ways including checks, online payments and credit card donations.
+- [W10.2795] donate, please visit: www.gutenberg.org/donate.
+- [W10.2796] General Information About Project Gutenberg electronic works
+- [W10.2797] Hart was the originator of the Project
+- [W10.2798] Gutenberg concept of a library of electronic works that could be
+- [W10.2799] freely shared with anyone.
+- [W10.2800] For forty years, he produced and
+- [W10.2801] distributed Project Gutenberg eBooks with only a loose network of
+- [W10.2802] Project Gutenberg eBooks are often created from several printed
+- [W10.2803] editions, all of which are confirmed as not protected by copyright in
+- [W10.2804] the U.S. unless a copyright notice is included.
+- [W10.2805] necessarily keep eBooks in compliance with any particular paper
+- [W10.2806] Most people start at our website which has the main PG search
+- [W10.2807] facility: www.gutenberg.org.
+- [W10.2808] This website includes information about Project Gutenberg,
+- [W10.2809] including how to make donations to the Project Gutenberg Literary
+- [W10.2810] Archive Foundation, how to help produce our new eBooks, and how to
+- [W10.2811] subscribe to our email newsletter to hear about new eBooks.
+
+## [W11] Wikipedia: Sex linkage
+https://en.wikipedia.org/w/index.php?title=Sex_linkage&oldid=1378648073 · CC BY-SA 4.0 · usage: ai_input
+
+- [W11.1] Sex linkage describes the sex-specific patterns of inheritance and presentation when a gene mutation (allele) is present on a sex chromosome (allosome) rather than a non-sex chromosome (autosome).
+- [W11.2] In humans, these are termed X-linked recessive, X-linked dominant and Y-linked.
+- [W11.3] The inheritance and presentation of all three differ depending on the sex of both the parent and the child.
+- [W11.4] This makes them characteristically different from autosomal dominance and recessiveness.
+- [W11.5] There are many more X-linked conditions than Y-linked conditions, since humans have several times as many genes on the X chromosome than the Y chromosome.
+- [W11.6] Only females are able to be carriers for X-linked conditions; males will always be affected by any X-linked condition, since they have no second X chromosome with a healthy copy of the gene.
+- [W11.7] As such, X-linked recessive conditions affect males much more commonly than females.
+- [W11.8] In X-linked recessive inheritance, a son born to a carrier mother and an unaffected father has a 50% chance of being affected, while a daughter has a 50% chance of being a carrier, however a fraction of carriers may display a milder (or even full) form of the condition due to a phenomenon known as skewed X-inactivation, in which the normal process of inactivating half of the female body's X chromosomes preferably targets a certain parent's X chromosome (the father's in this case).
+- [W11.9] If the father is affected, the son will not be affected, as he does not inherit the father's X chromosome, but the daughter will always be a carrier (and may occasionally present with symptoms due to aforementioned skewed X-inactivation).
+- [W11.10] In X-linked dominant inheritance, a son or daughter born to an affected mother and an unaffected father both have a 50% chance of being affected (though a few X-linked dominant conditions are embryonic lethal for the son, making them appear to only occur in females).
+- [W11.11] If the father is affected, the son will always be unaffected, but the daughter will always be affected.
+- [W11.12] A Y-linked condition will only be inherited from father to son and will always affect every generation.
+- [W11.13] The inheritance patterns are different in animals that use sex-determination systems other than XY.
+- [W11.14] In the ZW sex-determination system used by birds, the mammalian pattern is reversed, since the male is the homogametic sex (ZZ) and the female is heterogametic (ZW).
+- [W11.15] In humans (and mammals in general), biological sex is determined by genetics.
+- [W11.16] However this is not the case for all organisms.
+- [W11.17] For instance, the biological sex of select reptiles is environmentally determined, and the sex of select worms is dependent on location.
+- [W11.18] 22 of the 23 pairs of human chromosomes are autosomal (not involved in sex determination), while the 23rd pair of human chromosomes are the sex chromosomes.
+- [W11.19] The possession of two X-chromosomes defines a biological female, while the possession of one X and one Y chromosome defines a biological male.
+- [W11.20] The two sex chromosomes differ in size and gene content, and unlike the sets of autosomal chromosomes, are not homologous.
+- [W11.21] The X-chromosome contains an estimated 1400 genes, most of which are involved in tissue development and the development of human disorders.
+- [W11.22] The Y-chromosome is host to the SRY gene, which is involved in the development of several male sex characteristics, while the identified functions of many of the remaining approximately 200 genes on the Y-chromosome are associated with human disease.
+- [W11.23] Sex linkage thus refers to the association of a trait encoded by one of the genes on these sex chromosomes.
+- [W11.24] There are many more X-linked conditions than Y-linked conditions due to the larger size of the X-chromosome and greater number of genes encoded within it.
+- [W11.25] In classical genetics, a mating experiment called a reciprocal cross is performed to test if an animal's trait is sex-linked.
+- [W11.26] X-linked patterns of inheritance
+- [W11.27] A disease or trait determined by a gene on the X-chromosome demonstrates X-linked inheritance.
+- [W11.28] Historically, X-linked inheritance has been divided into the patterns of X-linked dominant inheritance and X-linked recessive inheritance as synonymous with classical Mendelian inheritance of genes on autosomal chromosomes.
+- [W11.29] However, more recently scholars have suggested the discontinuation of the use of the terms dominant and recessive when referring to X-linked inheritance, stating that the highly variable penetrance of X-linked traits in females as a result of mechanisms such as skewed X-inactivation or somatic mosaicism is difficult to reconcile with standard definitions of dominance and recessiveness.
+- [W11.30] X-linked dominant inheritance
+- [W11.31] X-linked dominant inheritance is the pattern by which a trait encoded by an allele on the X-chromosome is passed down through generations, wherefore only one copy of that allele is sufficient for an individual to be affected (dominance).
+- [W11.32] Unlike with X-linked recessive traits, females are more often affected by X-linked dominant traits than males as females have two X-chromosomes as opposed to one.
+- [W11.33] Moreover, some X-linked dominant conditions (for example, Aicardi syndrome) are embryonically or neonatally lethal in hemizygous males (XY), and thus can be seen to only affect heterozygous females, who experience less severe symptoms.
+- [W11.34] Frequency and patterns of inheritance
+- [W11.35] In X-linked dominant inheritance, the transmission of the gene depends on the genotype of each of the parents.
+- [W11.36] A mother heterozygous for an X-linked dominant trait will be affected, and half of her children (whether female or male) will inherit her affected X-chromosome and be affected themselves, assuming an unaffected father.
+- [W11.37] Of the children of a father affected by an X-linked dominant trait and an unaffected mother, all daughters will be affected (having inherited their father's only affected X-chromosome), while no sons will be affected (having received their father's Y-chromosome).
+- [W11.38] A child affected by an X-linked dominant condition will always have at least one affected parent, and an affected son will always have an affected mother.
+- [W11.39] X-linked recessive inheritance
+- [W11.40] X-linked recessive inheritance describes one of the patterns of inheritance of genetic traits or disorders encoded by an allele (version of a gene) situated on the X-chromosome.
+- [W11.41] In X-linked recessive inheritance, females (XX) must have two copies of the allele (homozygous), while males (XY) require only one copy of the allele (hemizygous) to display the phenotype.
+- [W11.42] Thus, it is far more common for males to be affected by X-linked recessive traits.
+- [W11.43] A female heterozygous for an X-linked recessive trait is considered a carrier.
+- [W11.44] While a carrier female most often does not display the phenotype, rare cases of skewed X-chromosome inactivation, can lead to varied levels of expression.
+- [W11.45] This would occur when, during the normal process of inactivating half of a female's X-chromosomes, inactivation preferentially targets X-chromosomes inherited from a single parent,  thus the remaining active X-chromosomes from the other parent are disproportionately expressed.
+- [W11.46] There are characteristic patterns for X-linked recessive inheritance.
+- [W11.47] As each parent contributes one sex chromosome to their offspring, sons cannot receive the X-linked trait from affected fathers, who provide only a Y-chromosome.
+- [W11.48] Consequently, affected males must inherit the X-linked recessive trait from their mothers.
+- [W11.49] Sons of a healthy carrier female have a 50% change of being affected, while sons of an affected female will always be affected.
+- [W11.50] Females must inherit a X-linked recessive allele from each parent.
+- [W11.51] All daughters of an affected father and healthy non-carrier mother will be carriers.
+- [W11.52] Daughters of an affected father and carrier mother will have a 50% chance of being affected, and daughters of two affected parents will always be affected.
+- [W11.53] While there is no male-to-male transmission of X-linked recessive traits, an affected male can pass his recessive X allele to a grandson through his unaffected carrier daughter.
+- [W11.54] X-linked dominant diseases
+- [W11.55] Alport syndrome (majority of cases)
+- [W11.56] Coffin–Lowry syndrome (CLS)
+- [W11.57] Idiopathic hypoparathyroidism
+- [W11.58] Porphyria (2-10% of cases)
+- [W11.59] Rett syndrome (5% of cases)
+- [W11.60] Vitamin D resistant rickets (X-linked hypophosphatemia)
+- [W11.61] Alport syndrome is a genetic disorder that primarily affects the kidneys by damaging the glomeruli, which are tiny filtering units inside the kidneys.
+- [W11.62] It is caused by inherited mutations in the COL4A3, COL4A4, and COL4A5 genes, which are responsible for producing type IV collagen.
+- [W11.63] These mutations disrupt the formation of basement membranes, particularly in the kidneys, inner ears, and eyes, where this collagen network plays a key structural role.
+- [W11.64] The specific gene affected determines the form of Alport syndrome: mutations in COL4A5 cause the X-linked form (XLAS), while mutations in COL4A3 or COL4A4, located on chromosome 2, are associated with autosomal recessive (ARAS) or autosomal dominant (ADAS) forms.
+- [W11.65] Common signs and symptoms of Alport syndrome include hematuria (blood in urine), proteinuria (protein in urine), hearing loss, and eye abnormalities.
+- [W11.66] Diagnosis typically involves urine and blood tests, hearing and vision assessments, and genetic testing to confirm the mutation and identify the specific type of Alport syndrome.
+- [W11.67] Kidney biopsy can reveal a characteristic 'basketweave' appearance of the glomerular basement membrane under electron microscopy.
+- [W11.68] In some cases, skin or kidney tissue may be tested for the absence of type IV collagen proteins.
+- [W11.69] Genetic testing is especially useful when biopsy is inconclusive or unavailable.
+- [W11.70] While there is no cure, treatments focus on slowing the progression of the kidney disease and managing symptoms.
+- [W11.71] ACE inhibitors are commonly used to control blood pressure and reduce proteinuria.
+- [W11.72] If kidney failure develops, dialysis or kidney transplant is often effective.
+- [W11.73] Rarely, transplant recipients may develop anti-GBM disease due to antibodies against type IV collagen.
+- [W11.74] Fragile X syndrome is a genetic neurodevelopmental disorder caused by a CGG trinucleotide repeat expansion in the FMR1 gene on the X chromosome.
+- [W11.75] It is inherited in an X-linked dominant pattern and is the most common known inherited genetic cause of autism spectrum disorder.
+- [W11.76] The condition affects approximately 1 in 3,600 males and 1 in 4,000 to 6,000 females.
+- [W11.77] Fragile X syndrome occurs when the CGG repeat expansion exceeds 200 repeats, causing methylation and silencing of the FMR1 gene.
+- [W11.78] This leads to a deficiency of FMRP, a protein essential for normal synaptic development and brain plasticity.
+- [W11.79] Fragile X syndrome typically presents with learning disabilities to severe intellectual impairment, along with distinct physical features such as a long face, large or protruding ears, flat feet, and low muscle tone.
+- [W11.80] Many individuals, especially males, also exhibit behavioural traits including social anxiety, hyperactivity, hand-flapping, and self-injurious behaviors such as biting.
+- [W11.81] Females, who have two X chromosomes, are generally less severely affected due to X-inactivation.
+- [W11.82] Diagnosis typically involves identifying a mutation in the FMR1 gene using polymerase chain reaction (PCR) and Southern blot analysis to measure CGG repeat expansions and methylation status.
+- [W11.83] Earlier cytogenetic methods, such as detecting "fragile sites" on the X chromosome, have largely been replaced due to low reliability, particularly in females.
+- [W11.84] Early diagnosis is important to support timely intervention and genetic counseling.
+- [W11.85] Rett syndrome is a severe neurodevelopmental disorder that primarily affects females, with a prevalence of approximately 1 in 8,500.
+- [W11.86] It is caused by mutations in the MECP2 gene located on the X chromosome and is inherited in an X-linked dominant pattern.
+- [W11.87] However, the vast majority (over 99%) of cases result from de novo mutations, often from the paternal germline.
+- [W11.88] Following a period of seemingly normal development, Rett syndrome progresses through four clinical stages.
+- [W11.89] Stage I, or early-onset, typically begins between 6 and 18 months of age with subtle developmental delays.
+- [W11.90] Stage II,  the rapid destructive phase, involves a sudden loss of purposeful hand use and spoken language, often accompanied by repetitive hand movements, breathing irregularities, and autistic-like behaviours.
+- [W11.91] In Stage III, or the plateau phase, some behavioural improvements may occur, though motor dysfunction, apraxia, and seizures remain common.
+- [W11.92] Stage IV, the late motor deterioration phase, is characterized by progressive loss of mobility and muscle rigidity, while communication and cognition generally stabilize.
+- [W11.93] The condition is rarely seen in males, as those with MECP2 mutations typically do not survive infancy unless they have Klinefelter's syndrome or mosaicism.
+- [W11.94] In contrast, affected females often survive into middle age, with symptom severity influenced by the specific mutation and patterns of X-chromosome inactivation.
+- [W11.95] Diagnosis is based on clinical presentation and confirmed through genetic testing for MECP2 mutations once the established diagnostic criteria are met.
+- [W11.96] While there is no cure, treatment focuses on managing symptoms with physical and speech therapy, medications for seizures, and supportive care.
+- [W11.97] In 2023, trofinetide became the first medication approved in the United States specifically for Rett syndrome.
+- [W11.98] X-linked hypophosphatemia (vitamin D resistant rickets)
+- [W11.99] X-linked hypophosphatemia is a rare genetic form of rickets caused by mutations in the PHEX gene on the X chromosome.
+- [W11.100] Unlike nutritional rickets, X-linked hypophosphatemia does not respond to vitamin D supplements.
+- [W11.101] Instead, the PHEX mutation leads to overproduction of the hormone FGF23, which causes the kidneys to waste phosphate and impairs bone mineralization.
+- [W11.102] Reduced PHEX enzyme activity allows the accumulation of osteopontin, a mineralization-inhibiting protein, to accumulate in bones and teeth.
+- [W11.103] These combined effects result in soft bones (osteomalacia), dental issues (odontomalacia), short stature, and bow-leggedness.
+- [W11.104] The condition affects approximately 1 in 20,000.
+- [W11.105] In children, common signs include rickets, fatigue, delayed growth, craniostenosis (premature fusion of skull bones), and more.
+- [W11.106] Adults may experience osteomalacia (soft bones), fractures or pseudofractures, dental abscesses, hearing loss, and joint pain.
+- [W11.107] Diagnosis is based on clinical and biochemical findings, including low serum phosphate, elevated alkaline phosphatase, and excessive urinary phosphate loss.
+- [W11.108] Treatment has traditionally included phosphate supplements and active vitamin D analogs.
+- [W11.109] More recently, burosumab, a monoclonal antibody that targets FGF23, has been approved and shown to normalize phosphate levels and improve skeletal outcomes in both children and adults.
+- [W11.110] X-linked recessive diseases
+- [W11.111] The incidence of X-linked recessive conditions in females is the square of that in males.
+- [W11.112] For example, if 1 in 20 males in a human population are red–green color blind, then 1 in 400 females in the population are expected to be color-blind (1/20)*(1/20).
+- [W11.113] Bruton's agammaglobulinemia
+- [W11.114] Complete androgen insensitivity syndrome
+- [W11.115] Congenital aqueductal stenosis (hydrocephalus)
+- [W11.116] Duchenne muscular dystrophy
+- [W11.117] Glucose-6-phosphate dehydrogenase deficiency
+- [W11.118] Inherited nephrogenic diabetes insipidus
+- [W11.119] Menkes disease (kinky hair syndrome)
+- [W11.120] Ornithine carbamoyltransferase deficiency
+- [W11.121] Duchenne muscular dystrophy
+- [W11.122] Duchenne muscular dystrophy is a severe neuromuscular disease causing progressive weakness and damage of muscle tissues, leading to mobility loss and difficulties in daily activities.
+- [W11.123] In a later stage of Duchenne muscular dystrophy, as respiratory and cardiac muscles start to degenerate, affected individuals are likely to develop complications such as respiratory failure, cardiomyopathy and heart failure.
+- [W11.124] 1 in 3,600 male births worldwide are affected by Duchenne muscular dystrophy, moreover, it presents itself at around ages 2–4 and progressively worsens.
+- [W11.125] Most cases of Duchenne muscular dystrophy are inherited from the mother who is a carrier of the X-linked recessive trait, however, approximately 30% occur due to random mutations that are not inherited.
+- [W11.126] Duchenne muscular dystrophy arises from a mutation, likely to be the deletion of the exons, a nucleotide sequence in the DMD gene that codes for dystrophin.
+- [W11.127] Dystrophin is a protein responsible for strengthening and stabilizing muscle fibres.
+- [W11.128] With the loss of the dystrophin complex, the muscle cells would no longer be protected and therefore result in progressive damage or degeneration.
+- [W11.129] Although interventions vary case by case, corticosteroids are often used to delay the progressive degeneration of muscle cells.
+- [W11.130] X-linked agammaglobulinemia
+- [W11.131] X-linked agammaglobulinemia is a primary immunodeficiency disorder that impairs the body's ability to produce antibodies, which are proteins protecting us from disease-causing antigens, resulting in severe bacterial infections.
+- [W11.132] X-linked agammaglobulinemia is associated with a mutation in the Bruton's tyrosine kinase (BTK) gene, a cytoplasmic signalling molecule, on the X chromosome.
+- [W11.133] The gene is responsible for producing BTK, an enzyme regulating B cells development and maturation within the bone marrow.
+- [W11.134] It is also involved in the further development of the B cells that migrate into the secondary lymphoid tissues like the lymph nodes and spleen.
+- [W11.135] B cells are a type of white blood cells essential in the production of antibodies, when at an early stage, called pre-B cells, they rely on expansion and survival signals involving BTK to mature.
+- [W11.136] In affected individuals,  their BTK gene mutations can range from point mutations to indels that alter the amino acid sequence and the structure of BTK making it faulty.
+- [W11.137] Therefore, the loss of BTK gene functions, prevents the maturation from pre-B cell to B cell lymphocytes hence, not able to differentiate into antibodies-producing plasma cells.
+- [W11.138] With low antibodies, individuals are highly vulnerable to bacterial and viral infections.
+- [W11.139] Red-green colour blindness
+- [W11.140] Red-green colour blindness is a type of colour vision deficiency caused by a mutation in X-linked genes, affecting cone cells responsible for absorbing red or green light.
+- [W11.141] Primarily affecting males (1 in 12) compared to females (1 in 200), as the condition requires all the X chromosomes to have the mutations.
+- [W11.142] The perception of red and green light is attributed to the Long (L) and Medium (M) wavelength cones, respectively.
+- [W11.143] In Red-green colour blindness, mutations take place on the OPN1LW which impairs L-cones, and OPN1MW genes, which impairs the medium cones  coding for the photopigments in the cones.
+- [W11.144] In milder cases, those affected exhibit reduced sensitivity to red or green light, as a result of hybridization of the genes, shifting the response of one cone towards that of the other.
+- [W11.145] In the more extreme conditions, there is a deletion or replacement of the respective coding genes, resulting in the absence of L or M cones photopigments and thus losing the ability to differentiate between red or green light completely.
+- [W11.146] Haemophilia A is a blood clotting disease caused by a genetic defect in clotting factor VIII.
+- [W11.147] It causes significant susceptibility to both internal and external bleeding.
+- [W11.148] 1 in 5,617 live male births is affected, and the condition primarily affects males, while females are usually carriers with mild low clotting factor level symptoms, due to X-inactivation.
+- [W11.149] The X-linked mutations are inherited from the mother, however, about ⅓ cases are mutations like point mutations or indels that have occurred spontaneously.
+- [W11.150] Mutations in the F8 gene cause hemophilia A, while mutations in the F9 gene cause hemophilia.
+- [W11.151] The F8 gene encodes for coagulation factor VIII, hence with missing proteins there cannot be effective clotting of the blood.
+- [W11.152] Individuals having more severe haemophilia can experience more frequent and intense bleeding, and typically severe hemophilia A affects most patients.
+- [W11.153] Patients with mild haemophilia often do not experience heavy bleeding except for surgeries and significant trauma.
+- [W11.154] Glucose-6-phosphate dehydrogenase deficiency
+- [W11.155] Glucose-6-phosphate dehydrogenase (G6PD) deficiency, is characterized by when the enzyme that helps red blood cells to work properly.
+- [W11.156] Without the enzyme red blood cells will prematurely break down leading to hemolytic anemia.
+- [W11.157] This is a condition that shows a low red blood cell count since the body cannot compensate for the quick degrading cells.
+- [W11.158] Glucose-6-phosphate dehydrogenase is an enzyme that protects red blood cells from oxidative stress caused by reactive oxygen species, it will reduce the amount of ROS accumulation of ROS in the red blood cells.
+- [W11.159] A mutation in the G6PD gene causes this deficiency, leaving the cells with no protective enzyme.
+- [W11.160] Approximately 400 million individuals have been affected by G6PD deficiency.
+- [W11.161] Since the gene is located on the X- chromosome, therefore, the condition usually affects males more than females.
+- [W11.162] Since males received have the mutated gene on the X-chromosome from the carrier mothers, they tend to show the symptoms of G6PD deficiency.
+- [W11.163] Since females have two X chromosomes, they are typically carriers.
+- [W11.164] However, when the healthy G6PD gene-carrying chromosome is inactivated females may exhibit mild symptoms.
+- [W11.165] Wiskott-Aldrich syndrome is an X-linked recessive disorder that is caused by mutations in the WAS gene that encodes for the WASp protein.
+- [W11.166] It is characterized by weakened immune function, eczema, and problems with blood clotting.
+- [W11.167] This protein is responsible for cell movement and cell-to-cell adhesions.
+- [W11.168] It relays the signals from the surface of all blood cells to the actin cytoskeleton of the cells to trigger movement and adhesion.
+- [W11.169] When there is the loss of WASp due to the mutation it causes the actin cytoskeleton to not properly form, or not form at all.
+- [W11.170] In white blood cells, this becomes a problem as the lack of actin cytoskeleton does not allow it to respond to the environment and foreign invaders.
+- [W11.171] Therefore, having impaired immune responses causes increased vulnerability to infections and autoimmune diseases.
+- [W11.172] Moreover, a lack of WASp proteins can impair cell growth and induce early cell death.
+- [W11.173] The WAS gene is located on the X-chromosome, hence primarily affecting the males who inherit the mutated X-chromosome.
+- [W11.174] Females tend to be the carriers and typically do not show symptoms until the healthy X-chromosome is inactivated.
+- [W11.175] Screening for genetic diseases
+- [W11.176] Genetic screening, which includes carrier screening, prenatal screening and newborn screening may be performed to enable early detection of genetic defects.
+- [W11.177] Carrier screening is conducted on prospective parent(s) to determine if they are carriers (heterozygous) for an X-linked recessive or autosomal recessive disease.
+- [W11.178] Individuals who undergo carrier screening commonly have a family history of genetic disease or belong to an at-risk population and wish to determine the likelihood of having a child with a genetic disorder.
+- [W11.179] Carrier screening is performed by taking a blood sample, saliva sample or buccal swab and using laboratory techniques such as next-generation sequencing or Polymerase Chain Reaction (PCR) to determine if the parent carries the allele implicated in the genetic disease.
+- [W11.180] Prenatal screening is can be conducted on pregnant females to test for a number of genetic conditions.
+- [W11.181] It is more commonly used to test for aneuploidy (for example, Down syndrome or trisomy 21), but can also be used to detect X-linked recessive or X-linked dominant disorders (for example, fragile X-syndrome).
+- [W11.182] Prenatal screening involves maternal blood tests and ultrasound to defect such defects in the developing fetus.
+- [W11.183] This can confirm the diagnosis of a genetic condition, allowing parents to prepare or consider terminating the pregnancy.
+- [W11.184] Newborn screening is conducted on infants less than a week old to test for a variety of genetic disorders, specifically those with high morbidity and mortality rates to enable early intervention.
+- [W11.185] Newborn screening is conducted by analyzing the biochemistry of a spot of dried blood (often obtained via a heel prick test).
+- [W11.186] This form of screening is also used to detect endocrine and metabolic disorders.
+- [W11.187] The Y chromosome is composed of approximately 59 million base pairs and 200 genes, entailing approximately 66 protein-coding genes.
+- [W11.188] Since only biological males possess the Y chromosome, it is essential in male sexual differentiation, which results in the production of male sex hormones that lead to the development of male sex organs, reproduction, fertility, and spermatogenesis, commonly known as sperm production.
+- [W11.189] Additionally, due to the small length of the Y chromosome in comparison to the X chromosome, recombination is mostly suppressed, and thus it remains relatively distinct from the X chromosome, maintaining important genes for male fertility and sexual differentiation.
+- [W11.190] Particularly, the SRY gene on the Y chromosome is known to be involved in sex determination.
+- [W11.191] As well, AZF, azoospermia factor region encodes for 16 proteins, and are thus  related to the production of sperm.
+- [W11.192] The Y chromosome has a highly repetitive sequence, and thus had many gaps that were not able to be sequenced until recently.
+- [W11.193] Based on advances in the Makova Lab at Penn State and Phillippy at the Human Genome Research Institute, they successfully filled in the missing sequence gaps.
+- [W11.194] The SRY gene, being the sex-determining region of the Y chromosome, gives the genetic information required for the body to code for proteins that are involved in male sexual differentiation.
+- [W11.195] The expression of the SRY gene is regulated via a myriad of transcription factors, which is a protein that can bind to genes of interest and increase or decrease their expression.
+- [W11.196] Specific to SRY these include, Six1, WT1, and Gata4.
+- [W11.197] SRY expression is regulated spatially and temporally in a strict manner.
+- [W11.198] The SRY gene encodes a transcription factor called the Testes Determining Factor (Tdf), and Tdf binds to and activates another gene called Sox9.
+- [W11.199] Sox9 then codes a transcription factor that leads to the development of the testes via many downstream pathways that ultimately result in the targeting of Sertoli cell which is where sperm is produced and the Lydig cell, also called testicular somatic cells, which is where the androgen hormone is produced, that is essential for male sexual differentiation.
+- [W11.200] Therefore, SRY expression leads to testis development in biological XY males, and absence of SRY in biological XX females, leads to ovary development.
+- [W11.201] Swyer syndrome, also known as complete gonadal dysgenesis or pure gonadal dysgenesis, is a condition that impairs the process of sexual differentiation in males.
+- [W11.202] Male individuals with this condition have a normal XY genotype, yet due to the impairment of the SRY gene, the protein critical in male sexual determination is non-functional or is not produced at all.
+- [W11.203] As a result, male sexual differentiation is prevented, and an affected individual will lack male sexual characteristics such as gonads, and will instead develop biological female-typical sex characteristics, such as a uterus, fallopian tubes, etc.
+- [W11.204] Y-linked inheritance, also known as Holandric inheritance, refers to genes that are inherited via the Y chromosome.
+- [W11.205] In other words, Y-linked inheritance involves genes that are only carried on the Y chromosome, also known as Y-linked genes.
+- [W11.206] Inheritance of Y-linked genes can occur in two ways: complete inheritance and incomplete inheritance.
+- [W11.207] Complete Y-linkage results when a gene is only found on a certain area on the Y chromosome either because there is no allele i.e. a copy of that gene, on the X chromosome or because it does not exchange with the X chromosome's allele.
+- [W11.208] Complete Y linkage of heterogamous organisms can result in the following possible outcomes:
+- [W11.209] Traits that only occur in males
+- [W11.210] Y-linked disorders of males will be passed on to all sons
+- [W11.211] The daughters of affected men being phenotypically normal, i.e. 'normal' presenting, and not having affected offspring
+- [W11.212] Conversely, incomplete Y linkage is when traits on a gene cross-over and exchange information between the X and Y chromosome.
+- [W11.213] The first few Y-linked inheritance cases were recognized in the early 20th century, with initial theories proposing certain traits were passed exclusively from father to son.
+- [W11.214] However, it was not until genetic advancements and cytogenetic techniques that enabled researchers to have a better understanding of the Y chromosome in greater detail.
+- [W11.215] When scientist began mapping the Y chromosome and identifying traits that followed a paternal lineage, it became evident that certain genetic conditions were linked to the male-specific chromosome.
+- [W11.216] The identification of Y-linked inheritance marked a significant milestone in laying the groundwork for expanding research into male-specific conditions.
+- [W11.217] Further understanding led to exploration of developmental disorders, allowing of diagnostic and therapeutic strategies to be explored in medical genetics.
+- [W11.218] Eventually, ongoing investigations into Y chromosome revealed the broader picture in human biology, evolution and disease susceptibility.
+- [W11.219] Hypertrichosis is a genetic condition that results in the excessive growth of hair on a specific area of the body, that is abnormal for the age, sex or race of an individual.
+- [W11.220] Specifically, hypertrichosis centralized to the outer ear, also known as the auricle, is a Y-linked disordered, commonly referred to as hypertrichosis pinnae auris.
+- [W11.221] Since hypertrichosis pinnae auris is a Y-linked disorder, this means only biological males and subsequent male offspring can be affected by this disorder.
+- [W11.222] Tommasi C. was crucial in determining the Y-linked origin of this disorder, by creating a pedigree that elicited holandric inheritance.
+- [W11.223] Conversely, hypertrichosis cannot be confused with Hirustism, which is characterized by excessive androgen sensitive hair growth, and thus is most often diagnosed in women and children that tend to have male-typical hair patterns.
+- [W11.224] Considered to be relatively rare as the congenital form is classified in 2 categories; generalized hypertrichosis (CGH) and localized hypertrichosis (CLH).
+- [W11.225] CGH is seen amongst individuals with excessive hair growth that cover most of the body while CLH affects a specific area of the body, typically a patch of area.
+- [W11.226] Although the incidence is unknown, it seen that CGH is extremely rare with very few cases documented worldwide compared to CLH is more commonly seen.
+- [W11.227] Now acquired hypertrichosis is a type that can develop later in life, typically from medicinal triggers or from underlying medical conditions.
+- [W11.228] Webbing of the toes is the result of premature arrested development in the fetal stage.
+- [W11.229] The premature arrest of development results in second and third digit fusion of the skin.
+- [W11.230] The Y-linked trait of webbed toes causes a skin connection between the second and third digit.
+- [W11.231] Research studies based in a pedigree analysis have shown that webbed toes follow holandric inheritance in biological males.
+- [W11.232] Considered to be the most prevalent congenital limb malformation where the occurrence is 1 in 2000-3000 in live births, accounting for 20% of congenial hand malformation.
+- [W11.233] The condition is more frequently seen in males where it is a 2:1 ratio for male-to-females.
+- [W11.234] Syndactyl can present as an "isolated anomaly" where it occurs as a standalone condition often with no known cause.
+- [W11.235] In other scenarios, syndactyl is a features amongst other symptoms of a larger genetic disorder (ie.
+- [W11.236] Infertility in biological males
+- [W11.237] Y-linked genes responsible for spermatogenesis can result in male infertility, characterized by azoospermia, or hypo-fertility, which is the hindered production of sperm.
+- [W11.238] Azoospermia is the absence of functional sperm in male ejaculate due to issues in sperm motility or lack of sperm production.
+- [W11.239] As a result, Y-chromosome linked infertility is characterized as the inability to fertilize an egg and produce children.
+- [W11.240] Sperm infertility results from the failure of the sperm to mature or a disfigured sperm that is not able to travel and fertilize an egg effectively.
+- [W11.241] Prevalence of Y chromosome Infertility
+- [W11.242] Male infertility affects 1 in 20 men, at 0.05% and primary spermatogenic failure accounts for a large portion of these cases.
+- [W11.243] More specifically, Y chromosome infertility is relatively rare at a 0.03-0.05% frequency.
+- [W11.244] Etiology of Y chromosome Infertility
+- [W11.245] Mutations to the male-specific region of the Y chromosome (MSY) are typically the cause of spermatogenic failure, which is the reduced or absent sperm production in semen.
+- [W11.246] More specifically, deletions in long arm of the Y chromosome are associated with spermatogenic failure, as well some paternal lineages of the Y chromosome are associated with reduced sperm counts.
+- [W11.247] Y chromosome deletions are determined as the most frequent cause of genetic azoospermia, however other instances such as rearrangements, deletions and duplications may contribute to infertile biological males.
+- [W11.248] Thus far, this article has discussed the patterns of inheritance of sex-linked genes / traits in diploid organisms with the canonical XX (female) or XY (male) genotype.
+- [W11.249] However, there exists a very small fraction of the human population with aneuploidy (an abnormal number) of the sex chromosomes.
+- [W11.250] This includes monosomy of the X-chromosome (XO genotype), also called Turner syndrome, in which up to 0.04% of females are born with one X-chromosome as supposed to two.
+- [W11.251] Turner syndrome can result in developmental and health-related issues, including short stature, problems with ovarian development, and congenital heart defects.
+- [W11.252] Females can also present with trisomy of the X-chromosome, or the XXX genotype, which can result in tall stature, and in some cases, delayed development of speech, language, and motor functions.
+- [W11.253] Sex chromosome aneuploidy which results in male development includes the XXY genotype, and very rarely, the XXYY genotype.
+- [W11.254] XXY, also known as Klinefelter syndrome, can result in a variety of symptoms, the severity of which is widely variable.
+- [W11.255] Symptoms may include tall stature and reduced testosterone production, leading to delayed or incomplete development of male sex characteristics.
+- [W11.256] Those with Klinefelter syndrome will also be at greater risk for developing of learning disorders, Attention-Deficit Hyperactivity Disorder (ADHD), Autism Spectrum Disorder (ASD), and metabolic syndromes.
+- [W11.257] Males with the XXYY genotype exhibit similar but often more severe symptoms to Klinefelter syndrome, and are infertile.
+- [W11.258] It is notable that, while sex chromosome aneuploidy is not an inherited condition (and instead arises due to nondisjunction of the sex chromosomes during meiosis) in individuals with an abnormal number of sex chromosomes, the patterns of inheritance and expression of sex-linked genes and traits will vary from those discussed for XX and XY individuals.
+- [W11.259] This is largely due to the dosage imbalance of one or both of the sex-chromosomes.
+- [W11.260] For instance, a XO female with Turner syndrome would be affected by X-linked recessive traits in the same way as XY males, lacking a second X-chromosome encoding a dominant allele to mask the recessive phenotype.
+- [W11.261] Moreover, inactivation of all but one X-chromosomes by Xist, and the fact that nondisjunction during meiosis can lead to aneuploidy in either all or some of the body's cells, can lead to genetic mosaicism and intermediate phenotypes.
+- [W11.262] Most mammals, including humans, use the XY sex determination system and thus follow the same patterns of sex-linked inheritance discussed herein so long as the sex chromosomes are present in normal ploidy (diploidy).
+- [W11.263] However, patterns of inheritance of sex-linked traits differ in animals that use sex-determination systems other than XY.
+- [W11.264] For instance, in the ZW sex-determination system used by birds, the mammalian pattern is reversed, since the male is the homogametic (ZZ) and the female is heterogametic (ZW).
+- [W11.265] Drosophila melanogaster, a common model organism in genetics and developmental biology, carry both the X and Y sex chromosomes.
+- [W11.266] However, the rules of sex determination are not the same as in humans and other placental mammals in which sex is determined by the presence or absence of the Y-chromosome.
+- [W11.267] Instead, sex is determined by the ratio of X-chromosomes to autosomes, the X:A ratio.
+- [W11.268] A ratio of 1:2 results in male development, while a ratio of 1:1 results in female development.
+- [W11.269] Drosophila have two autosomes, thus XO and XY flies are males (1X:2A), while XX flies are females (2X:2A).
+- [W11.270] As the X-chromosome makes up a far more significant portion of the genome, far more genes are sex-linked in Drosophila as compared to humans.
+- [W11.271] Moreover, the mechanism of dosage compensation in Drosophila is not X-inactivation in females, but the two-fold upregulation of expression of genes encoded on the X-chromosome in males.
+- [W11.272] Much of the scientific knowledge on sex-linked traits was derived from observations and experimental evidence made in non-human animals.
+- [W11.273] Some of the discoveries instrumental to forming this body of knowledge include:
+- [W11.274] The first sex-linked gene ever discovered was the "lacticolor" X-linked recessive gene in the moth Abraxas grossulariata by Leonard Doncaster.
+- [W11.275] White eyes in Drosophila melanogaster flies was one of the earliest sex-linked genes discovered.
+- [W11.276] Fur color in domestic cats: Calico or tortoiseshell cats are nearly always female because these cats receive one allele for black (or gray) fur colour on one inherited X-chromosome, and one allele for orange fur colour on the other X-chromosome.
+- [W11.277] White fur colour is located on an autosome.
+- [W11.278] Thus, only females and XXY males can have this fur coloration.
+- [W11.279] Discovery of sex chromosomes
+- [W11.280] The relationship between sex chromosomes and Mendelian inheritance was first discovered by Nettie Stevens.
+- [W11.281] Steven's was influenced by McClung's work highlighting, that some insect species, the difference in chromosome counts possibly determined whether cells develop into males or females.
+- [W11.282] In Steven's study called Studies in spermatogenesis, she found that biological females carry two X chromosomes, whereas males carry one X and a smaller Y chromosome.
+- [W11.283] By identifying the male unique role of the Y chromosome, Stevens was able to confirm a chromosomal role in sex determination.
+- [W11.284] She had done this by using a microscope Tenebrio molitor, mealworm beetles, to observe that there were 20 chromosome in both the male and females.
+- [W11.285] However, in the males, she had found that the 20th chromosome was significantly smaller than the other 19 chromosomes.
+- [W11.286] Steven's continued Studies in spermatogenesis, and found the same pattern in 18 other species.
+- [W11.287] Additionally, her work contradicted the common theories that attributed to sex determination, including role of environmental factors.
+- [W11.288] Discovery of X-linked inheritance
+- [W11.289] Red-green colour blindness was the first described on paper, in 1794 by John Dalton, who was affected by the disorder himself.
+- [W11.290] However, its recognition of its X-linked inheritance characteristic was only established later.
+- [W11.291] The X-chromosome was discovered in 1890 by Hermann Henking, which he discovered while studying spermatocyte divisions of the firebug.
+- [W11.292] He found that one chromosome behaved different from all the others, and did not divide during meiosis.
+- [W11.293] Instead, he found that it went into one of the two germ cells.
+- [W11.294] This cell that did not divide became known as the X-chromosome.
+- [W11.295] Then in 1910, Thomas Hunt Morgan discovered an X-linked mutation on a Drosophila, who then conducted experiments and observations to understand the X-linked inheritance.
+- [W11.296] He observed a white-eye male fruit fly, which is rare, and through cross-breeding experiments, he found that the mutation was inherited differently in males and females.
+- [W11.297] He found that males, who had the only one X-chromosomes displayed the condition, if the mutated gene was present.
+- [W11.298] Discovery of X-inactivation
+- [W11.299] Lyon proposed that one of the two X chromosomes in female mammalian cells would experience random inactivation (see X-chromosome inactivation) in the early embryonic stage.
+- [W11.300] According to her hypothesis, both males and females should have one single X chromosome that is active.
+- [W11.301] This enhanced the understanding of the fundamental mechanisms of X-linked inheritance.
+- [W11.302] It is important to distinguish between sex-linked characters, which are controlled by genes on sex chromosomes, and two other categories.
+- [W11.303] Sex-influenced or sex-conditioned traits are phenotypes affected by whether they appear in a male or female body.
+- [W11.304] Even in a homozygous dominant or recessive female the condition may not be expressed fully.
+- [W11.305] Example: baldness in humans.
+- [W11.306] These are characters only expressed in one sex.
+- [W11.307] They may be caused by genes on either autosomal or sex chromosomes.
+- [W11.308] Examples: female sterility in Drosophila; and many polymorphic characters in insects, especially in relation to mimicry.
+- [W11.309] Closely linked genes on autosomes called "supergenes" are often responsible for the latter.
+- [W11.310] X-linked dominant inheritance
+- [W11.311] X-linked recessive inheritance
+
+## [W12] Wikipedia: ZW sex-determination system
+https://en.wikipedia.org/w/index.php?title=ZW_sex-determination_system&oldid=1379497966 · CC BY-SA 4.0 · usage: ai_input
+
+- [W12.1] The ZW sex-determination system is a chromosomal system that determines the sex of offspring in birds, some fish and crustaceans such as the giant river prawn, some insects (including butterflies and moths), the Schistosomatidae family of flatworms, and some reptiles, e.g. majority of snakes, lacertid lizards and monitors, including Komodo dragons.
+- [W12.2] It is also present in some plants, where it has evolved independently on many occasions, characterizing at least 22% of plants with documented sex chromosomes.
+- [W12.3] The letters Z and W are used to distinguish this system from the XY sex-determination system.
+- [W12.4] In the ZW system, females have a pair of dissimilar ZW chromosomes, and males have two similar ZZ chromosomes.
+- [W12.5] In contrast to the XY sex-determination system and the X0 sex-determination system, where the sperm determines the sex, in the ZW system, the ovum determines the sex of the offspring.
+- [W12.6] Males are the homogametic sex (ZZ), while females are the heterogametic sex (ZW).
+- [W12.7] The Z chromosome is larger and has more genes, similarly to the X chromosome in the XY system.
+- [W12.8] Significance of the ZW and XY systems
+- [W12.9] No genes are shared between the avian ZW and mammalian XY chromosomes, and, from a comparison between chicken and human, the Z chromosome appears similar to the autosomal chromosome 9 in humans.
+- [W12.10] It has been proposed that the ZW and XY Sex-determination systems do not share an origin but that the sex chromosomes are derived from autosomal chromosomes of the common ancestor.
+- [W12.11] These autosomes are thought to have evolved sex-determining loci that eventually developed into the respective sex chromosomes once the recombination between the chromosomes (X and Y or Z and W) was suppressed.
+- [W12.12] The platypus, a monotreme mammal, has a system of five pairs of XY chromosomes.
+- [W12.13] They form a multiple chain due to homologous regions in male meiosis and finally segregates into XXXXX-sperm and YYYYY-sperm.
+- [W12.14] The bird Z-like pair shows up on opposite ends of the chain.
+- [W12.15] Areas homologous to the bird Z chromosome are scattered throughout X3 and X5.
+- [W12.16] Although the sex-determination system is not necessarily linked to that of birds and definitely not to that of therian mammals, the similarity at least allowed for the conclusion that mammals evolved sex chromosomes twice.
+- [W12.17] The previous report that platypus has X chromosomes similar to that of therian mammals is now considered a mistake.
+- [W12.18] Bird and snake ZW are unrelated, having evolved from different autosomes.
+- [W12.19] However, the bird-like chromosomes of platypus may indicate that ancestors of snakes had a bird-like ZW system.
+- [W12.20] In 2007, a time when there had not been extensive research on other organisms with the ZW sex-determination system, researchers announced that chickens' and zebra finches' sex chromosomes do not exhibit any type of chromosome-wide dosage compensation, and instead seem to dosage compensate on a gene-by-gene basis.
+- [W12.21] Specific locations on the chicken Z chromosome, such as the MHM region, are thought to exhibit regional dosage compensation, though researchers have argued that this region does not actually constitute local dosage compensation.
+- [W12.22] Further research expanded the list of birds that do not exhibit any type of chromosome-wide dosage compensation to crows and ratites, thus implying that all avian chromosomes lack chromosome-wide dosage compensation.
+- [W12.23] Both transcriptional and translational gene-specific dosage compensation have been observed in avian sex chromosomes.
+- [W12.24] In addition, the involvement of sex-biased miRNAs was proposed to compensate for the presence of two Z-chromosomes in male birds.
+- [W12.25] It is unknown whether it might be that the presence of the W chromosome induces female features, or whether instead it is the duplication of the Z chromosome that induces male ones; unlike mammals, no birds with a double W chromosome (ZWW) or a single Z (Z0) have been satisfactorily documented.
+- [W12.26] However, it is known that the removal or damage to the ovaries of female birds can lead to the development of male plumage, suggesting that female hormones repress the expression of male characteristics in birds.
+- [W12.27] It appears possible that either condition could cause embryonic death, or that both chromosomes could be responsible for sex selection.
+- [W12.28] One possible gene that could determine sex in birds is the DMRT1 gene.
+- [W12.29] Studies have shown that two copies of the gene are necessary for male sex determination.
+- [W12.30] There appears to be a lack of female-specific genes on the W chromosome, unlike the therian Y chromosome which includes several male-specific genes.
+- [W12.31] The degeneration of the avian W from an ancestral Z-like chromosome, similar to Muller's ratchet for the Y, is probably driven by selection for male-advantageous genes on the Z.
+- [W12.32] The ZW sex-determination system makes it possible to create sex-link chickens in which color at hatching is differentiated by sex, thus making chick-sexing an easier process.
+- [W12.33] Snakes' W chromosomes show different levels of decay compared to their Z chromosomes.
+- [W12.34] This allows for tracking the shrinking of W chromosomes (analogous to the shrinking of Y chromosomes) by comparing across species.
+- [W12.35] Mapping of specific genes reveals that the snake system is different from the bird system.
+- [W12.36] It is not yet known which gene is the sex-determining one in snakes.
+- [W12.37] One thing that stood out was that pythons show little signs of "W-shrinking".
+- [W12.38] Boa and Python families are now known to probably have an XY sex-determination system.
+- [W12.39] Interest in looking into this came from female family members capable of parthenogenesis, or producing offspring without mating.
+- [W12.40] In 2010 a female Boa constrictor that produced 22 female offspring in this manner was found in the wild.
+- [W12.41] By then it was presumed that such a pattern was produced by WW chromosomes.
+- [W12.42] Python bivittatus and Boa imperator, similarly only produce female offspring; their genomes share male-specific single nucleotide polymorphisms identifiable by restriction enzyme digestion.
+- [W12.43] Their chromosomal origins, however, differ: Python's XY are similar to other snakes' ZW, while Boa XY maps to microchromosomes in other snakes.
+- [W12.44] The female-only pattern is in contrast to the ZW Colubroidean parthenogens, which always produce male (ZZ) offspring.
+- [W12.45] In Lepidoptera (moths and butterflies), females can have Z, ZZW, or ZZWW.
+- [W12.46] The family Schistosomatidae, commonly called blood flukes, are small parasitic flatworms dwelling in the blood vessels of the bladder, liver, intestines and other organs of birds and mammals.
+- [W12.47] They are the only sexually heteromorphic family among the trematode class, and depend on remaining biochemically paired in copula to complete their life cycle.
+- [W12.48] The heterogametic sex chromosomes in females of nine species of schistosomes were first described by geneticist Margaret Menzel and parasitologist Robert B.
+- [W12.49] Short of Florida State University in 1960.
+- [W12.50] The difference in the sex chromosomes was noted during the pachytene stage of meiotic prophase.
+- [W12.51] Trionychidae turtles possess a ZZ-ZW sex determinate system, which originated sometime between the beginning of the Jurassic and the Early Cretaceous.
+- [W12.52] Among the approximately 5% of plant species that have separate male and female individuals (dioecious), several are known to have a ZW system of sex determination.
+- [W12.53] These include pistachio, several species of strawberry such as Fragaria virginiana and Fragaria chiloensis, and several species of willow including Salix viminalis and Salix purpurea.
+- [W12.54] Media related to ZW sex-determination system at Wikimedia Commons
+
+## [W13] Wikipedia: Abraxas grossulariata
+https://en.wikipedia.org/w/index.php?title=Abraxas_grossulariata&oldid=1380624120 · CC BY-SA 4.0 · usage: ai_input
+
+- [W13.1] Abraxas grossulariata is a moth of the family Geometridae, native to the Palearctic realm and North America.
+- [W13.2] Its distinctive speckled coloration has given it a common name of magpie moth.
+- [W13.3] The caterpillar is similarly coloured to the adult, and may be found feeding on the leaves of shrubs such as gooseberry and blackcurrant.
+- [W13.4] The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae.
+- [W13.5] The length of the forewing is 18–25 mm.
+- [W13.6] The strikingly patterned forewings have a white ground colour, with six transverse series of black stains, partly associated with a pale yellow basal cross band and another through the central area of the forewing.
+- [W13.7] The hindwings are paler, and have a few, small dark stains.
+- [W13.8] It is a highly variable species with many different forms.
+- [W13.9] Research using Abraxas grossulariata led to the discovery of sex-linked characteristics.
+- [W13.10] Abraxas grossulariata grossulariata
+- [W13.11] Abraxas grossulariata karafutonis Matsumura, 1925 (Sakhalin)
+- [W13.12] Abraxas grossulariata conspurcata Butler, 1878 (Japan)
+- [W13.13] Abraxas grossulariata dsungarica Wehrli, 1939  (Dzungaria)
+- [W13.14] Evelyn Hutchinson, 1969 Some continental European aberrations of Abraxas grossulariata Linn.
+- [W13.15] (Lepidoptera) with a note on the theoretical significance of the variation in the species Transactions of the Connecticut Academy of Arts and Sciences v.
+- [W13.16] Evelyn Hutchinson, 1974 New and inadequately described aberrations of Abraxas grossulariata (Linn.) (Lep.
+- [W13.17] Entomological Record 86:199–206.
+- [W13.18] "Abraxas grossulariatus (Linnaeus, 1758)".
+- [W13.19] Lepidoptera and Some Other Life Forms.
+- [W13.20] Retrieved February 1, 2019.
+- [W13.21] Recente waarnemingen at Waarneming.nl (in Dutch)
+
+## [W14] Wikipedia: Color blindness
+https://en.wikipedia.org/w/index.php?title=Color_blindness&oldid=1379640039 · CC BY-SA 4.0 · usage: ai_input
+
+- [W14.1] Color blindness or color vision deficiency (CVD) is the decreased ability to see color, differences in color, or distinguish shades of color.
+- [W14.2] The severity of color blindness ranges from mostly unnoticeable to full absence of color perception.
+- [W14.3] Color blindness is usually a sex-linked inherited problem or variation in the functionality of one or more of the three classes of cone cells in the retina, which mediate color vision.
+- [W14.4] The most common form is caused by a genetic condition called congenital red–green color blindness (including protan and deutan types), which affects up to 1 in 12 males (8%) and 1 in 200 females (0.5%).
+- [W14.5] The condition is more prevalent in males because the opsin genes responsible are located on the X chromosome.
+- [W14.6] Rarer genetic conditions causing color blindness include congenital blue–yellow color blindness (tritan type), blue cone monochromacy, and achromatopsia.
+- [W14.7] Color blindness can also result from physical or chemical damage to the eye, the optic nerve, parts of the brain, or from medication toxicity.
+- [W14.8] Color vision also naturally degrades in old age.
+- [W14.9] Diagnosis of color blindness is usually done with a color vision test, such as the Ishihara test.
+- [W14.10] There is no cure for most causes of color blindness; however, there is ongoing research into gene therapy for some severe conditions causing color blindness.
+- [W14.11] Minor forms of color blindness do not significantly affect daily life and color blind people automatically develop adaptations and coping mechanisms to compensate for the deficiency.
+- [W14.12] However, diagnosis may allow an individual, or their parents/teachers, to actively accommodate the condition.
+- [W14.13] Color blind glasses may help the red–green color blind at some color tasks, but they do not grant the wearer "normal color vision" or the ability to see "new" colors.
+- [W14.14] Some mobile apps can use a device's camera to identify colors.
+- [W14.15] Depending on the jurisdiction, color blind people are ineligible for certain careers, such as aircraft pilots, train drivers, police officers, firefighters, and members of the armed forces.
+- [W14.16] The effect of color blindness on artistic ability is controversial, but a number of famous artists are believed to have been color blind.
+- [W14.17] Much terminology has existed and does exist for the classification of color blindness, but the typical classification for color blindness follows the von Kries classifications, which uses severity and affected cone for naming.
+- [W14.18] Based on clinical appearance, color blindness may be described as total or partial.
+- [W14.19] Total color blindness (monochromacy) is much less common than partial color blindness.
+- [W14.20] Partial color blindness includes dichromacy and anomalous trichromacy, but is often clinically defined as mild, moderate or strong.
+- [W14.21] Monochromacy is often called total color blindness since there is no ability to see color.
+- [W14.22] Although the term may refer to acquired disorders such as cerebral achromatopsia, it typically refers to congenital color vision disorders, namely rod monochromacy and blue cone monochromacy.
+- [W14.23] In cerebral achromatopsia, a person cannot perceive colors even though the eyes are capable of distinguishing them.
+- [W14.24] Some sources do not consider these to be true color blindness, because the failure is of perception, not of vision.
+- [W14.25] They are forms of visual agnosia.
+- [W14.26] Monochromacy is the condition of possessing only a single channel for conveying information about color.
+- [W14.27] Monochromats are unable to distinguish any colors and perceive only variations in brightness.
+- [W14.28] Congenital monochromacy occurs in two primary forms:
+- [W14.29] Rod monochromacy, frequently called complete achromatopsia, where the retina contains no cone cells, so that in addition to the absence of color discrimination, vision in lights of normal intensity is difficult.
+- [W14.30] Cone monochromacy is the condition of having only a single class of cone.
+- [W14.31] A cone monochromat can have good pattern vision at normal daylight levels, but will not be able to distinguish hues.
+- [W14.32] Cone monochromacy is divided into classes defined by the single remaining cone class.
+- [W14.33] However, red and green cone monochromats have not been definitively described in the literature.
+- [W14.34] Blue cone monochromacy is caused by lack of functionality of L (red) and M (green) cones, and is therefore mediated by the same genes as red–green color blindness (on the X chromosome).
+- [W14.35] Peak spectral sensitivities are in the blue region of the visible spectrum (near 440 nm).
+- [W14.36] People with this condition generally show nystagmus ("jiggling eyes"), photophobia (light sensitivity), reduced visual acuity, and myopia (nearsightedness).
+- [W14.37] Visual acuity usually falls to the 20/50 to 20/400 range.
+- [W14.38] Dichromats can match any color they see with some mixture of just two primary colors (in contrast to those with normal sight (trichromats) who require three primary colors for matching).
+- [W14.39] Dichromats usually know they have a color vision problem, and it can affect their daily lives.
+- [W14.40] Dichromacy in humans includes protanopia, deuteranopia, and tritanopia.
+- [W14.41] Out of the male population, 2% have severe difficulties distinguishing between red, orange, yellow, and green (orange and yellow are different combinations of red and green light).
+- [W14.42] Colors in this range, which appear very different to a normal viewer, appear to a dichromat to be the same or a similar color.
+- [W14.43] The terms protanopia, deuteranopia, and tritanopia come from Greek, and respectively mean "inability to see (anopia) with the first (prot-), second (deuter-), or third (trit-) [cone]".
+- [W14.44] Anomalous trichromacy is the mildest type of color deficiency and is usually characterized by the inability to distinguish between colors which are distinguishable to a person with normal color vision, but the severity ranges from almost dichromacy (strong) to almost normal trichromacy (mild).
+- [W14.45] In fact, many mild anomalous trichromats have very little difficulty carrying out tasks that require normal color vision and some may not even be aware that they have a color vision deficiency.
+- [W14.46] The types of anomalous trichromacy include protanomaly, deuteranomaly and tritanomaly.
+- [W14.47] It is approximately three times more common than dichromacy.
+- [W14.48] Anomalous trichromats exhibit trichromacy, but the color matches they make differ from normal trichromats.
+- [W14.49] In order to match a given spectral yellow light, protanomalous observers need more red light in a red/green mixture than a normal observer, and deuteranomalous observers need more green.
+- [W14.50] This difference can be measured by an instrument called an Anomaloscope, where red and green lights are mixed by a subject to match a yellow light.
+- [W14.51] There are two major types of color blindness: difficulty distinguishing between red and green, and difficulty distinguishing between blue and yellow.
+- [W14.52] These definitions are based on the phenotype of the partial color blindness.
+- [W14.53] Clinically, it is more common to use a genotypical definition, which describes which cone/opsin is affected.
+- [W14.54] Red–green color blindness includes protan and deutan CVD.
+- [W14.55] Protan CVD is related to the L-cone and includes protanomaly (anomalous trichromacy) and protanopia (dichromacy).
+- [W14.56] Deutan CVD is related to the M-cone and includes deuteranomaly (anomalous trichromacy) and deuteranopia (dichromacy).
+- [W14.57] The phenotype (visual experience) of deutans and protans is quite similar.
+- [W14.58] Common colors of confusion include red/brown/green/yellow as well as blue/purple.
+- [W14.59] Both forms are almost always symptomatic of congenital red–green color blindness, so affects males disproportionately more than females.
+- [W14.60] This form of color blindness is sometimes referred to as daltonism after John Dalton, who had red–green dichromacy.
+- [W14.61] In some languages, daltonism is still used to describe red–green color blindness.
+- [W14.62] Protan (2% of males): Lacking, or possessing anomalous L-opsins for long-wavelength sensitive cone cells.
+- [W14.63] Protans have a neutral point at a cyan-like wavelength around 492 nm (see spectral color for comparison)—that is, they cannot discriminate light of this wavelength from white.
+- [W14.64] For a protanope, the brightness of red is much reduced compared to normal.
+- [W14.65] This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished.
+- [W14.66] They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference.
+- [W14.67] Violet, lavender, and purple are indistinguishable from various shades of blue.
+- [W14.68] A very few people have been found who have one normal eye and one protanopic eye.
+- [W14.69] These unilateral dichromats report that with only their protanopic eye open, they see wavelengths shorter than neutral point as blue and those longer than it as yellow.
+- [W14.70] Deutan (6% of males): Lacking, or possessing anomalous M-opsins for medium-wavelength sensitive cone cells.
+- [W14.71] Their neutral point is at a slightly longer wavelength, 498 nm, a more greenish hue of cyan.
+- [W14.72] Deutans have the same hue discrimination problems as protans, but without the dimming of long wavelengths.
+- [W14.73] Deuteranopic unilateral dichromats report that with only their deuteranopic eye open, they see wavelengths shorter than neutral point as blue and longer than it as yellow.
+- [W14.74] Blue–yellow color blindness
+- [W14.75] Blue–yellow color blindness includes tritan CVD.
+- [W14.76] Tritan CVD is related to the S-cone and includes tritanomaly (anomalous trichromacy) and tritanopia (dichromacy).
+- [W14.77] Blue–yellow color blindness is much less common than red–green color blindness, and more often has acquired causes than genetic.
+- [W14.78] Tritans have difficulty discerning between bluish and greenish hues.
+- [W14.79] Tritans have a neutral point at 571 nm (yellowish).
+- [W14.80] Tritan (< 0.01% of individuals): Lacking, or possessing anomalous S-opsins or short-wavelength sensitive cone cells.
+- [W14.81] Tritans see short-wavelength colors (blue, indigo and spectral violet) as greenish and drastically dimmed, some of these colors even as black.
+- [W14.82] Yellow and orange are indistinguishable from white and pink respectively, and purple colors are perceived as various shades of red.
+- [W14.83] Unlike protans and deutans, the mutation for this color blindness is carried on chromosome 7.
+- [W14.84] Therefore, it is not sex-linked (i.e., it is equally prevalent in both males and females).
+- [W14.85] The OMIM gene code for this mutation is 304000 "Colorblindness, Partial Tritanomaly".
+- [W14.86] Tetartan is a hypothetical "fourth type" of color blindness, and a type of blue–yellow color blindness.
+- [W14.87] Given the molecular basis of human color vision, it is unlikely this type could exist.
+- [W14.88] Summary of cone complements
+- [W14.89] The below table shows the cone complements for different types of human color vision.
+- [W14.90] The cone complement contains the types of cones (or their opsins) expressed by an individual.
+- [W14.91] A color blind person will have decreased (or no) color discrimination along the red–green axis, blue–yellow axis, or both.
+- [W14.92] It is a common misconception that color blindness always equals monochromacy.
+- [W14.93] The vast majority of color blind people are only affected on their red–green axis.
+- [W14.94] The first indication of color blindness generally consists of a person using the wrong color for an object, such as when painting, or calling a color by the wrong name.
+- [W14.95] The colors that are confused are very consistent among people with the same type of color blindness.
+- [W14.96] Confusion colors are pairs or groups of colors that will often be mistaken by color blind people.
+- [W14.97] Confusion colors for red–green color blindness include:
+- [W14.98] Confusion colors for tritan include:
+- [W14.99] dark blue/violet and black
+- [W14.100] These colors of confusion are defined quantitatively by straight confusion lines plotted in CIEXYZ, usually plotted on the corresponding chromaticity diagram.
+- [W14.101] The lines all intersect at a copunctal point, which varies with the type of color blindness.
+- [W14.102] Chromaticities along a confusion line will appear metameric to dichromats of that type.
+- [W14.103] Anomalous trichromats of that type will see the chromaticities as metameric if they are close enough, depending on the strength of their CVD.
+- [W14.104] For two colors on a confusion line to be metameric, the chromaticities first have to be made isoluminant, meaning equal in lightness.
+- [W14.105] Also, colors that may be isoluminant to the standard observer may not be isoluminant to a person with dichromacy.
+- [W14.106] Cole describes four color tasks, all of which are impeded to some degree by color blindness:
+- [W14.107] Comparative – When multiple colors must be compared, such as with mixing paint
+- [W14.108] Connotative – When colors are given an implicit meaning, such as red = stop
+- [W14.109] Denotative – When identifying colors, for example by name, such as "where is the yellow ball?"
+- [W14.110] Aesthetic – When colors look nice – or convey an emotional response – but do not carry explicit meaning
+- [W14.111] The following sections describe specific color tasks with which color blind people typically have difficulty.
+- [W14.112] Color blindness causes difficulty with the connotative color tasks associated with selecting or preparing food.
+- [W14.113] Selecting food for ripeness can be difficult; the green–yellow transition of bananas is particularly hard to identify.
+- [W14.114] It can also be difficult to detect bruises, mold, or rot on some foods, to determine when meat is done by color, to distinguish some varietals, such as a Braeburn vs. a Granny Smith apple, or to distinguish colors associated with artificial flavors (e.g. jelly beans, sports drinks).
+- [W14.115] Changes in skin color due to bruising, sunburn, blushing, or rashes are easily missed by the red–green color blind.
+- [W14.116] The colors of traffic lights can be difficult for red–green color-blind people.
+- [W14.117] This difficulty includes distinguishing red/amber lights from sodium street lamps, distinguishing green lights (closer to cyan) from white lights, and distinguishing red from amber lights, especially when there are no positional clues (see image).
+- [W14.118] The main coping mechanism to overcome these challenges is to memorize the position of lights.
+- [W14.119] The order of the common triplet traffic light is standardized as red–amber–green from top to bottom or left to right.
+- [W14.120] Cases that deviate from this standard are rare.
+- [W14.121] One such case is a traffic light in Tipperary Hill in Syracuse, New York, which is upside-down (green–amber–red top to bottom) due to the sentiments of its Irish American community.
+- [W14.122] The light has been criticized due to the potential hazard it poses for color blind drivers.
+- [W14.123] There are several other features of traffic lights that can help color-blind people.
+- [W14.124] British Rail signals use more easily identifiable colors: The red is blood red, the amber is yellow and the green is a bluish color.
+- [W14.125] Most British road traffic lights are mounted vertically on a black rectangle with a white border (forming a "sighting board"), so that drivers can more easily look for the position of the light.
+- [W14.126] In the eastern provinces of Canada, traffic lights are sometimes differentiated by shape in addition to color: square for red, diamond for yellow, and circle for green (see image).
+- [W14.127] Navigation lights in marine and aviation settings employ red and green lights to signal the relative position of other ships or aircraft.
+- [W14.128] Railway signal lights also rely heavily on red–green–yellow colors.
+- [W14.129] In both cases, these color combinations can be difficult for the red–green color blind.
+- [W14.130] Lantern Tests are a common means of simulating these light sources to determine not necessarily whether someone is color blind, but whether they can functionally distinguish these specific signal colors.
+- [W14.131] Those who cannot pass this test are generally completely restricted from working on aircraft, ships or rail, for example.
+- [W14.132] Color analysis is the analysis of color in its use in fashion, to determine personal color combinations that are most aesthetically pleasing.
+- [W14.133] Colors to combine can include clothing, accessories, makeup, hair color, skin color, eye color, etc.
+- [W14.134] Color analysis involves many aesthetic and comparative color tasks that can be difficult for color blind people.
+- [W14.135] Inability to distinguish color does not necessarily preclude the ability to become a celebrated artist.
+- [W14.136] The 20th century expressionist painter Clifton Pugh, three-time winner of Australia's Archibald Prize, on biographical, gene inheritance and other grounds has been identified as a person with protanopia.
+- [W14.137] 19th century French artist Charles Méryon became successful by concentrating on etching rather than painting after he was diagnosed as having a red–green deficiency.
+- [W14.138] Jin Kim's red–green color blindness did not stop him from becoming first an animator and later a character designer with Walt Disney Animation Studios.
+- [W14.139] Deuteranomals are better at distinguishing different shades of khaki and olive drab that looked identical to people with normal color vision, which may be advantageous when spotting camouflaged food items hidden among foliage.
+- [W14.140] A 2005 study used a series of desaturated green disks painted with different mixtures of two yellow and two blue pigments.
+- [W14.141] The colors were chosen to be distinguishable by a model deuteranomalous observer, while appearing as near-identical metamers to a normal observer.
+- [W14.142] The study found that deuteranomalous subjects could consistently tell the difference between the colors and that they can distinguish 15 different shades of khaki, while those with normal color vision could not.
+- [W14.143] Color blind observers tend to learn to use texture, shape, and luminance cues more and so may be able to penetrate camouflage that has been designed to deceive individuals with normal color vision.
+- [W14.144] Some tentative evidence finds that the color blind observers are better at penetrating certain color camouflages.
+- [W14.145] Such findings may give an evolutionary reason for the high rate of red–green color blindness.
+- [W14.146] There is also a study suggesting that deuteranomals can distinguish colors that people with normal color vision are not able to distinguish.
+- [W14.147] In World War II, color blind observers were reported as potentially more able to penetrate camouflage.
+- [W14.148] There is also limited evidence that color blind observers, either dichromats or rod monochromats, might also have improved scotopic vision and a lower absolute brightness threshold than controls.
+- [W14.149] Possible mechanisms include a reduction of active inhibition of rods by cones, relative increase in rod density, or increased reliance on rods.
+- [W14.150] However, experimental results are mixed and some tests of monochromats demonstrate a higher absolute brightness threshold.
+- [W14.151] In the presence of chromatic noise, the color blind observers are more capable of seeing a luminous signal, as long as the chromatic noise appears metameric to them.
+- [W14.152] This is the effect behind most "reverse" pseudoisochromatic plates (e.g.
+- [W14.153] "hidden digit" Ishihara plates) that are discernible to the color blind observers but unreadable to people with typical color vision.
+- [W14.154] Color codes are useful tools for designers to convey information.
+- [W14.155] The interpretation of this information requires users to perform a variety of color tasks, usually comparative but also sometimes connotative or denotative.
+- [W14.156] However, these tasks are often problematic for color blind people when design of the color code has not followed best practices for accessibility.
+- [W14.157] For example, one of the most ubiquitous connotative color codes is the "red means bad and green means good" or similar systems, based on the classic signal light colors.
+- [W14.158] However, this color coding will almost always be undifferentiable to deutans or protans, and can instead be supplemented with a parallel connotative system (symbols, smileys, etc.).
+- [W14.159] Good practices to ensure design is accessible to color blind people include:
+- [W14.160] When possible (e.g. in simple video games or apps), allowing the user to choose their own colors is the most inclusive design practice.
+- [W14.161] Using other signals that are parallel to the color coding, such as patterns, shapes, size or order.
+- [W14.162] This not only helps color blind people, but also aids understanding by normally sighted people by providing them with multiple reinforcing cues.
+- [W14.163] Using brightness contrast (different shades) in addition to color contrast (different hues)
+- [W14.164] To achieve good contrast, conventional wisdom suggests converting a (digital) design to grayscale to ensure there is sufficient brightness contrast between colors.
+- [W14.165] However, this does not account for the different perceptions of brightness to different varieties of color blindness, especially protan CVD, tritan CVD and monochromacy.
+- [W14.166] Viewing the design through a CVD Simulator to ensure the information carried by color is still sufficiently conveyed.
+- [W14.167] At a minimum, the design should be tested for deutan CVD, the most common kind of color blindness.
+- [W14.168] Maximizing the area of colors (e.g. increase size, thickness or boldness of colored element) makes the color easier to identify.
+- [W14.169] Color contrast improves as the angle the color subtends on the retina increases.
+- [W14.170] This applies to all types of color vision.
+- [W14.171] Maximizing brightness (value) and saturation (chroma) of the colors to maximize color contrast.
+- [W14.172] Converting connotative tasks to comparative tasks by including a legend, even when the meaning is considered obvious (e.g. red means danger).
+- [W14.173] Avoiding denotative color tasks (color naming) when possible.
+- [W14.174] Some denotative tasks can be converted to comparative tasks by depicting the actual color whenever the color name is mentioned; for example, colored typography in "purple",  purple  or "purple ( )".
+- [W14.175] For denotative tasks (color naming), using the most common shades of colors.
+- [W14.176] For example, green and yellow are colors of confusion in red–green CVD, but it is not common to mix forest green ( ) with bright yellow ( ).
+- [W14.177] Mistakes by color blind people increase drastically when uncommon shades are used, e.g. neon green ( ) with dark yellow ( ).
+- [W14.178] For denotative tasks, using colors that are classically associated with a color name.
+- [W14.179] For example, using "firetruck" red ( ) instead of burgundy ( ) to represent the word "red".
+- [W14.180] A common task for designers is to select a subset of colors (qualitative colormap) that are as mutually differentiable as possible (salient).
+- [W14.181] For example, player pieces in a board game should be as different as possible.
+- [W14.182] Classic advice suggests using Brewer palettes, but several of these are not actually accessible to color blind people.
+- [W14.183] An issue with color selection is that the colors with the greatest contrast to the red–green color blind tend to be colors of confusion to the blue–yellow color blind and vice versa.
+- [W14.184] A common task for data visualization is to represent a color scale, or sequential colormap, often in the form of a heat map or choropleth.
+- [W14.185] Several scales are designed with special consideration for color blind people and are widespread in academia, including Cividis, Viridis and Parula.
+- [W14.186] These comprise a light-to-dark scale superimposed on a yellow-to-blue scale, making them monotonic and perceptually uniform to all forms of color vision.
+- [W14.187] Color blindness is any deviation of color vision from normal trichromatic color vision (often as defined by the standard observer) that produces a reduced gamut.
+- [W14.188] Mechanisms for color blindness are related to the functionality of cone cells, and often to the expression of photopsins, the photopigments that 'catch' photons and thereby convert light into chemical signals.
+- [W14.189] Color vision deficiencies can be classified as inherited or acquired.
+- [W14.190] Inherited: inherited or congenital/genetic color vision deficiencies are most commonly caused by mutations of the genes encoding opsin proteins.
+- [W14.191] However, several other genes can also lead to less common and/or more severe forms of color blindness.
+- [W14.192] Acquired: color blindness that is not present at birth, may be caused by chronic illness, accidents, medication, chemical exposure or simply normal aging processes.
+- [W14.193] Color blindness is typically an inherited genetic disorder.
+- [W14.194] The most common forms of color blindness are associated with the Photopsin genes, but the mapping of the human genome has shown there are many causative mutations that do not directly affect the opsins.
+- [W14.195] Mutations capable of causing color blindness originate from at least 19 different chromosomes and 56 different genes (as shown online at the Online Mendelian Inheritance in Man [OMIM]).
+- [W14.196] Genetics of red–green color blindness
+- [W14.197] By a substantial margin, the most prevalent form of color blindness is congenital red–green color blindness (Daltonism).
+- [W14.198] This includes protan/deutan-type dichromacies and anomalous trichromacies.
+- [W14.199] These conditions are mediated by the OPN1LW and OPN1MW genes, respectively, both on the X chromosome.
+- [W14.200] In cases of dichromacy, the associated gene is absent.
+- [W14.201] In cases of anomalous trichromacy, the associated gene has chimeric mutations.
+- [W14.202] The OPN1LW and OPN1MW genes follow X-linked recessive inheritance.
+- [W14.203] Because they are sex-linked, the prevalence within male and female populations differs significantly.
+- [W14.204] Since males are hemizygous for the X chromosome, a male with a null or mutant-type allele will be color blind.
+- [W14.205] A female that is heterozygous for these alleles will not present with color-blindness due to the dominant expression of the wild-type allele.
+- [W14.206] Some females who are heterozygous specifically for anomalous trichromacies may exhibit traits of tetrachromacy due to possessing an additional cone with distinct spectral sensitivity.
+- [W14.207] However, a female that is homozygous for either the null or mutant-type allele will present with the associated type of color-blindness.
+- [W14.208] Genetics of blue–yellow color blindness
+- [W14.209] Congenital blue–yellow color blindness is a much rarer form of color blindness including tritanopia/tritanomaly.
+- [W14.210] These conditions are mediated by the OPN1SW gene on Chromosome 7 which encodes the S-opsin protein and follows autosomal dominant inheritance.
+- [W14.211] The cause of blue–yellow color blindness is not analogous to the cause of red–green color blindness, i.e. the peak sensitivity of the S-opsin does not shift to longer wavelengths.
+- [W14.212] Rather, there are 6 known point mutations of OPN1SW that degrade the performance of the S-cones.
+- [W14.213] The OPN1SW gene is almost invariant in the human population.
+- [W14.214] Congenital tritan defects are often progressive, with nearly normal trichromatic vision in childhood (e.g. mild tritanomaly) progressing to dichromacy (tritanopia) as the S-cones slowly die.
+- [W14.215] Tritanomaly and tritanopia are therefore different penetrance of the same disease, and some sources have argued that tritanomaly therefore be referred to as incomplete tritanopia.
+- [W14.216] Several inherited diseases are known to cause color blindness, including achromatopsia, cone dystrophy, Leber's congenital amaurosis and retinitis pigmentosa.
+- [W14.217] These can be congenital or commence in childhood or adulthood.
+- [W14.218] They can be static/stationary or progressive.
+- [W14.219] Progressive diseases often involve deterioration of the retina and other parts of the eye, so often progress from color blindness to more severe visual impairments, up to and including total blindness.
+- [W14.220] Physical trauma can cause color blindness, either neurologically – brain trauma which produces swelling of the brain in the occipital lobe – or retinally, either acute (e.g. from laser exposure) or chronic (e.g. from ultraviolet light exposure).
+- [W14.221] Color blindness may also present itself as a symptom of degenerative diseases of the eye, such as cataract and age-related macular degeneration, and as part of the retinal damage caused by diabetes.
+- [W14.222] Vitamin A deficiency may also cause color blindness.
+- [W14.223] Color blindness may be a side effect of prescription drug use.
+- [W14.224] For example, red–green color blindness can be caused by ethambutol, a drug used in the treatment of tuberculosis.
+- [W14.225] Blue–yellow color blindness can be caused by sildenafil, an active component of Viagra.
+- [W14.226] Hydroxychloroquine can also lead to hydroxychloroquine retinopathy, which includes various color defects.
+- [W14.227] Exposure to chemicals such as styrene or organic solvents can also lead to color vision defects.
+- [W14.228] Simple colored filters can also create mild color vision deficiencies.
+- [W14.229] John Dalton's original hypothesis for his deuteranopia was actually that the vitreous humor of his eye was discolored:
+- [W14.230] I was led to conjecture that one of the humours of my eye must be a transparent, but coloured, medium, so constituted as to absorb red and green rays principally...
+- [W14.231] I suppose it must be the vitreous humor.
+- [W14.232] An autopsy of his eye after his death in 1844 showed this to be definitively untrue, though other filters are possible.
+- [W14.233] Actual physiological examples usually affect the blue–yellow opponent channel and are named Cyanopsia and Xanthopsia, and are most typically an effect of yellowing or removal of the lens.
+- [W14.234] The opponent channels can also be affected by the prevalence of certain cones in the retinal mosaic.
+- [W14.235] The cones are not equally prevalent and not evenly distributed in the retina.
+- [W14.236] When the number of one of these cone types is significantly reduced, this can also lead to or contribute to a color vision deficiency.
+- [W14.237] This is one of the causes of tritanomaly.
+- [W14.238] Some people are also unable to distinguish between blue and green, which appears to be a combination of culture and exposure to UV-light.
+- [W14.239] The main method for diagnosing a color vision deficiency is in testing the color vision directly.
+- [W14.240] The Ishihara color test is the test most often used to detect red–green deficiencies and most often recognized by the public.
+- [W14.241] Some tests are clinical in nature, designed to be fast, simple, and effective at identifying broad categories of color blindness.
+- [W14.242] Others focus on precision and are generally available only in academic settings.
+- [W14.243] Pseudoisochromatic plates, a classification which includes the Ishihara color test and HRR test, embed a figure in the plate as a number of spots surrounded by spots of a slightly different color.
+- [W14.244] These colors must appear identical (metameric) to color blind people but distinguishable to color sighted people.
+- [W14.245] Pseudoisochromatic plates are used as screening tools because they are cheap, fast, and simple, but they do not provide precise diagnosis of CVD.
+- [W14.246] Lanterns, such as the Farnsworth Lantern Test, project small colored lights to a subject, who is required to identify the color of the lights.
+- [W14.247] The colors are those of typical signal lights, i.e. red, green, and yellow, which also happen to be colors of confusion of red–green CVD.
+- [W14.248] Lanterns do not diagnose color blindness, but they are occupational screening tests to ensure an applicant has sufficient color discrimination to be able to perform a job.
+- [W14.249] Arrangement tests can be used as screening or diagnostic tools.
+- [W14.250] The Farnsworth–Munsell 100 hue test is very sensitive, but the Farnsworth D-15 is a simplified version used specifically for screening for CVD.
+- [W14.251] In either case, the subject is asked to arrange a set of colored caps or chips to form a gradual transition of color between two anchor caps.
+- [W14.252] Anomaloscopes are typically designed to detect red–green deficiencies and are based on the Rayleigh match, which compares a mixture of red and green light in variable proportions to a fixed spectral yellow of variable luminosity.
+- [W14.253] The subject must change the two variables until the colors appear to match.
+- [W14.254] They are expensive and require expertise to administer, so they are generally only used in academic settings.
+- [W14.255] While genetic testing cannot directly evaluate a subject's color vision (phenotype), most congenital color vision deficiencies are well-correlated with genotype.
+- [W14.256] Therefore, the genotype can be directly evaluated and used to predict the phenotype.
+- [W14.257] This is especially useful for progressive forms that do not have a strongly color deficient phenotype at a young age.
+- [W14.258] However, it can also be used to sequence the L- and M-Opsins on the X-chromosome, since the most common alleles of these two genes are known and have even been related to exact spectral sensitivities and peak wavelengths.
+- [W14.259] A subject's color vision can therefore be classified through genetic testing, but this is just a prediction of the phenotype, since color vision can be affected by countless non-genetic factors such as one's cone mosaic.
+- [W14.260] Despite much recent improvement in gene therapy for color blindness, there is currently no FDA approved treatment for any form of CVD, and otherwise no cure for CVD currently exists.
+- [W14.261] Management of the condition by using lenses to alleviate symptoms or smartphone apps to aid with daily tasks is possible.
+- [W14.262] There are three kinds of lenses that an individual can wear that can increase their accuracy in some color related tasks (although none of these will "fix" color blindness or grant the wearer normal color vision):
+- [W14.263] A red-tint contact lens worn over the non-dominant eye will leverage binocular disparity to improve discrimination of some colors.
+- [W14.264] However, it can make other colors more difficult to distinguish.
+- [W14.265] A 1981 review of various studies to evaluate the effect of the X-chrom (one brand) contact lens concluded that, while the lens may allow the wearer to achieve a better score on certain color vision tests, it did not correct color vision in the natural environment.
+- [W14.266] A case history using the X-Chrom lens for a rod monochromat is reported and an X-Chrom manual is online.
+- [W14.267] Pilestone/Colorlite glasses) apply a tint (e.g. magenta) to incoming light that can distort colors in a way that makes some color tasks easier to complete.
+- [W14.268] These glasses can circumvent many color vision tests, though this is typically not allowed.
+- [W14.269] Glasses with a notch filter (e.g.
+- [W14.270] EnChroma glasses) filter a narrow band of light that excites both the L and M cones (yellow–green wavelengths).
+- [W14.271] When combined with an additional stopband in the short wavelength (blue) region, these lenses may constitute a neutral-density filter (have no color tint).
+- [W14.272] They improve on the other lens types by causing less distortion of colors and will essentially increase the saturation of some colors.
+- [W14.273] They will only work on trichromats (anomalous or normal), and unlike the other types, do not have a significant effect on Dichromats.
+- [W14.274] The glasses do not significantly increase one's ability on color blind tests.
+- [W14.275] Many mobile and computer applications have been developed to aid color blind individuals in completing color tasks:
+- [W14.276] Some applications (e.g. color pickers) can identify the name (or coordinates within a color space) of a color on screen or the color of an object by using the device's camera.
+- [W14.277] Some applications will make images easier to interpret by color blind people by enhancing color contrast in natural images or information graphics.
+- [W14.278] These methods are generally called daltonization algorithms.
+- [W14.279] Some applications can simulate color blindness by applying a filter to an image or screen that reduces the gamut of an image to that of a specific type of color blindness.
+- [W14.280] While they do not directly help color blind people, they allow those with normal color vision to understand how color blind people see the world.
+- [W14.281] Their use can help improve inclusive design by allowing designers to simulate their own images to ensure they are accessible to color blind people.
+- [W14.282] In 2003, a cybernetic device called eyeborg was developed to allow the wearer to hear sounds representing different colors.
+- [W14.283] Achromatopsic artist Neil Harbisson was the first to use such a device in early 2004; the eyeborg allowed him to start painting in color by memorizing the sound corresponding to each color.
+- [W14.284] In 2012, at a TED Conference, Harbisson explained how he could now perceive colors outside the ability of human vision.
+- [W14.285] Color blindness affects a large number of individuals, with protans and deutans being the most common types.
+- [W14.286] In individuals with Northern European ancestry, as many as 8 percent of men and 0.4 percent of women experience congenital color deficiency.
+- [W14.287] Interestingly, even Dalton's first paper already arrived upon this 8% number:
+- [W14.288] ...it is remarkable that, out of 25 pupils I once had, to whom I explained this subject, 2 were found to agree with me...
+- [W14.289] During the 17th and 18th century, several philosophers hypothesized that not all individuals perceived colors in the same way:
+- [W14.290] ...there is no reason to suppose a perfect resemblance in the disposition of the Optic Nerve in all Men, since there is an infinite variety in every thing in Nature, and chiefly in those that are Material, 'tis therefore very probable that all Men see not the same Colours in the same Objects.
+- [W14.291] In the power of conceiving colors, too, there are striking differences among individuals: and, indeed, I am inclined to suspect, that, in the greater number of instances, the supposed defects of sight in this respect ought to be ascribed rather to a defect in the power of conception.
+- [W14.292] Gordon Lynn Walls claims that the first well-circulated case study of color blindness was published in a 1777 letter from Joseph Huddart to Joseph Priestley, which described "Harris the Shoemaker" and several of his brothers with what would later be described as protanopia.
+- [W14.293] There appear to be no earlier surviving historical mentions of color blindness, despite its prevalence.
+- [W14.294] The phenomenon only came to be scientifically studied in 1794, when English chemist John Dalton gave the first account of color blindness in a paper to the Manchester Literary and Philosophical Society, which was published in 1798 as "Extraordinary Facts Relating to the Vision of Colours: With Observations".
+- [W14.295] Genetic analysis of Dalton's preserved eyeball confirmed him as having deuteranopia in 1995, some 150 years after his death.
+- [W14.296] Influenced by Dalton, German writer J.
+- [W14.297] W. von Goethe studied color vision abnormalities in 1798 by asking two young subjects to match pairs of colors.
+- [W14.298] In 1837, August Seebeck first discriminated between protans and deutans (then as class I + II).
+- [W14.299] He was also the first to develop an objective test method, where subjects sorted colored sheets of paper, and was the first to describe a female colorblind subject.
+- [W14.300] In 1875, the Lagerlunda train crash in Sweden brought color blindness to the forefront.
+- [W14.301] Following the crash, Professor Alarik Frithiof Holmgren, a physiologist, investigated and concluded that the color blindness of the engineer (who had died) had caused the crash.
+- [W14.302] Professor Holmgren then created the first test for color vision using multicolored skeins of wool to detect color blindness and thereby exclude color blind people from jobs in the transportation industry requiring color vision to interpret safety signals.
+- [W14.303] However, there is a claim that there is no firm evidence that color deficiency did cause the collision, or that it might have not been the sole cause.
+- [W14.304] In 1920, Frederick William Edridge-Green devised an alternative theory of color vision and color blindness based on Newton's classification of 7 fundamental colors (ROYGBIV).
+- [W14.305] Edridge-Green classified color vision based on how many distinct colors a subject could see in the spectrum.
+- [W14.306] Normal subjects were termed hexachromic as they could not discern Indigo.
+- [W14.307] Subjects with superior color vision, who could discern indigo, were heptachromic.
+- [W14.308] Color blind people were therefore dichromic (equivalent to dichromacy) or tri-, tetra- or pentachromic (anomalous trichromacy).
+- [W14.309] In the United States, under federal anti-discrimination laws such as the Americans with Disabilities Act, color vision deficiencies have not been found to constitute a disability that triggers protection from workplace discrimination.
+- [W14.310] A Brazilian court ruled that color blind people are protected by the Inter-American Convention on the Elimination of All Forms of Discrimination against Person with Disabilities.
+- [W14.311] At trial, it was decided that the carriers of color blindness have a right of access to wider knowledge, or the full enjoyment of their human condition.
+- [W14.312] Color blindness may make it difficult or impossible for a person to engage in certain activities.
+- [W14.313] Color blind people may be legally or practically barred from occupations in which color perception is an essential part of the job (e.g., mixing paint colors), or in which color perception is important for safety (e.g., operating vehicles in response to color-coded signals).
+- [W14.314] This occupational safety principle originates from the aftermath of the 1875 Lagerlunda train crash, for which Alarik Frithiof Holmgren blamed the color blindness of the engineer and created the first occupational screening test (Holmgren's wool test) against color blind people.
+- [W14.315] ...I consider that to [Holmgren] above all others do we owe the present and future control of color-blindness on land and sea, by which life and property are safer, and the risks of travelling less.
+- [W14.316] Color vision is important for occupations using telephone or computer networking cabling, as the individual wires inside the cables are color-coded using green, orange, brown, blue and white colors.
+- [W14.317] Electronic wiring, transformers, resistors, and capacitors are color-coded as well, using black, brown, red, orange, yellow, green, blue, violet, gray, white, silver, and gold.
+- [W14.318] Participation, officiating and viewing sporting events can be impacted by color blindness.
+- [W14.319] Professional football players Thomas Delaney and Fabio Carvalho have discussed the difficulties when color clashes occur, and research undertaken by FIFA has shown that enjoyment and player progression can be hampered by issues distinguishing the difference between the pitch and training objects or field markings.
+- [W14.320] Snooker World Champions Mark Williams and Peter Ebdon sometimes need to ask the referee for help distinguishing between the red and brown balls due to their color blindness.
+- [W14.321] Both have played foul shots on notable occasions by potting the wrong ball.
+- [W14.322] Red–green color blindness can make it difficult to drive, primarily due to the inability to differentiate red–amber–green traffic lights.
+- [W14.323] Protans are further disadvantaged due to the darkened perception of reds, which can make it more difficult to quickly recognize brake lights.
+- [W14.324] In response, some countries have refused to grant driver's licenses to individuals with color blindness:
+- [W14.325] In April 2003, Romania removed color blindness from its list of disqualifying conditions for learner driver's licenses.
+- [W14.326] It is now qualified as a condition that could potentially compromise driver safety, therefore a driver may have to be evaluated by an authorized ophthalmologist to determine if they can drive safely.
+- [W14.327] As of May 2008, there is an ongoing campaign to remove the legal restrictions that prohibit color blind citizens from getting driver's licenses.
+- [W14.328] In June 2020, India relaxed its ban on driver's licenses for color blind people to now only apply to those with strong CVD.
+- [W14.329] While previously restricted, those who test as mild or moderate can now pass the medical requirements.
+- [W14.330] Australia instituted a tiered ban on color blind people from obtaining commercial driver's licenses in 1994.
+- [W14.331] This included a ban for all protans, and a stipulation that deutans must pass the Farnsworth Lantern.
+- [W14.332] The stipulation on deutans was revoked in 1997 citing a lack of available test facilities, and the ban on protans was revoked in 2003.
+- [W14.333] All color blind individuals are banned from obtaining a driver's license in China and since 2016 in Russia (2012 for dichromats).
+- [W14.334] Although many aspects of aviation depend on color coding, only a few of them are critical enough to be interfered with by some milder types of color blindness.
+- [W14.335] Some examples include color-gun signaling of aircraft that have lost radio communication, color-coded glide-path indications on runways, and the like.
+- [W14.336] Some jurisdictions restrict the issuance of pilot credentials to persons with color blindness for this reason.
+- [W14.337] Restrictions may be partial, allowing color-blind persons to obtain certification but with restrictions, or total, in which case color-blind persons are not permitted to obtain piloting credentials at all.
+- [W14.338] In the United States, the Federal Aviation Administration requires that pilots be tested for normal color vision as part of their medical clearance in order to obtain the required medical certificate, a prerequisite to obtaining a pilot's certification.
+- [W14.339] If testing reveals color blindness, the applicant may be issued a license with restrictions, such as no night flying and no flying by color signals—such a restriction effectively prevents a pilot from holding certain flying occupations, such as that of an airline pilot, although commercial pilot certification is still possible, and there are a few flying occupations that do not require night flight and thus are still available to those with restrictions due to color blindness (e.g., agricultural aviation).
+- [W14.340] The government allows several types of tests, including medical standard tests (e.g., the Ishihara, Dvorine, and others) and specialized tests oriented specifically to the needs of aviation.
+- [W14.341] If an applicant fails the standard tests, they will receive a restriction on their medical certificate that states: "Not valid for night flying or by color signal control".
+- [W14.342] This was once a Statement of Demonstrated Ability (SODA), but the SODA was dropped, and converted to a simple waiver (letter) early in the 2000s.
+- [W14.343] Research published in 2009 carried out by the City University of London's Applied Vision Research Centre, sponsored by the UK's Civil Aviation Authority and the U.S.
+- [W14.344] Federal Aviation Administration, has established a more accurate assessment of color deficiencies in pilot applicants' red/green and yellow–blue color range which could lead to a 35% reduction in the number of prospective pilots who fail to meet the minimum medical threshold.
+- [W14.345] Color agnosia – Ability to see colors, but inability to recognize colors.
+- [W14.346] Color anomia – Ability to see colors, but inability to name colors.
+- [W14.347] List of people with color blindness
+- [W14.348] "A Glossary of Color Science"; Archived 4 October 2015 at the Wayback Machine
+
+## [W15] Wikipedia: X-linked recessive inheritance
+https://en.wikipedia.org/w/index.php?title=X-linked_recessive_inheritance&oldid=1364922807 · CC BY-SA 4.0 · usage: ai_input
+
+- [W15.1] X-linked recessive inheritance is a mode of inheritance in which a mutation in a gene on the X chromosome causes the phenotype to be always expressed in males (who are necessarily hemizygous for the gene mutation because they have one X and one Y chromosome) and in females who are homozygous for the gene mutation (see zygosity).
+- [W15.2] Females with one copy of the mutated gene are carriers.
+- [W15.3] X-linked inheritance means that the gene causing the trait or the disorder is located on the X chromosome.
+- [W15.4] Females have two X chromosomes while males have one X and one Y chromosome.
+- [W15.5] Expression of X-linked conditions in female carriers can vary greatly due to random X-chromosome inactivation (Lyonization) within each cell.
+- [W15.6] Differences in X-chromosome inactivation (known as skewed X-inactivation) occurs due to some cells  expressing one X allele and some the other.
+- [W15.7] Decades of research has shown that the notions "X-linked dominant" and "X-linked recessive" oversimplify the situation and it has been recommended that the terms be dropped.
+- [W15.8] The number of sequenced X-linked genes, as of March 2016, was 651, and the total number of X-linked traits (including vaguely defined traits and traits that have not been connected to a sequenced gene) was 1184.
+- [W15.9] In humans, inheritance of X-linked recessive traits follows a unique pattern made up of three points.
+- [W15.10] The first is that affected fathers cannot pass X-linked recessive traits to their sons because fathers give Y chromosomes to their sons.
+- [W15.11] This means that males affected by an X-linked recessive disorder inherited the responsible X chromosome from their mothers.
+- [W15.12] Second, X-linked recessive traits are more commonly expressed in males than females.
+- [W15.13] This is due to the fact that males possess only a single X chromosome, and therefore require only one mutated X in order to be affected.
+- [W15.14] Women possess two X chromosomes, and thus must receive two of the mutated recessive X chromosomes (one from each parent).
+- [W15.15] A popular example showing this pattern of inheritance is that of the descendants of Queen Victoria and the blood disease hemophilia.
+- [W15.16] The last pattern seen is that X-linked recessive traits tend to skip generations, meaning that an affected grandfather will not have an affected son, but could have an affected grandson through his daughter.
+- [W15.17] Explained further, all daughters of an affected man will obtain his mutated X, and will then be either carriers or affected themselves depending on the mother.
+- [W15.18] The resulting sons will either have a 50% chance of being affected (mother is carrier), or 100% chance (mother is affected).
+- [W15.19] It is because of these percentages that we see males more commonly affected than females.
+- [W15.20] Objections to recessive/dominant terminology
+- [W15.21] A few scholars have suggested discontinuing the use of the terms dominant and recessive when referring to X-linked inheritance.
+- [W15.22] The possession of two X chromosomes in females leads to dosage issues which are alleviated by X-inactivation.
+- [W15.23] Stating that the highly variable penetrance of X-linked traits in females as a result of mechanisms such as skewed X-inactivation or somatic mosaicism is difficult to reconcile with standard definitions of dominance and recessiveness, scholars have suggested referring to traits on the X chromosome simply as X-linked.
+- [W15.24] The most common X-linked recessive disorders are:
+- [W15.25] Red–green color blindness, also known as daltonism, which affects roughly 7% to 10% of men and 0.49% to 1% of women.
+- [W15.26] Its relative benignity may explain its commonness.
+- [W15.27] Hemophilia A, a blood clotting disorder caused by a mutation of the Factor VIII gene and leading to a deficiency of Factor VIII.
+- [W15.28] It was once thought to be the "royal disease" found in the descendants of Queen Victoria.
+- [W15.29] This is now known to have been Hemophilia B (see below).
+- [W15.30] Hemophilia B, also known as Christmas disease, a blood clotting disorder caused by a mutation of the Factor IX gene and leading to a deficiency of Factor IX.
+- [W15.31] It is rarer than hemophilia A.
+- [W15.32] As noted above, it was common among the descendants of Queen Victoria.
+- [W15.33] Duchenne muscular dystrophy, which is associated with mutations in the dystrophin gene.
+- [W15.34] It is characterized by rapid progression of muscle degeneration, eventually leading to loss of skeletal muscle control, respiratory failure, and death.
+- [W15.35] Becker's muscular dystrophy, a milder form of Duchenne, which causes slowly progressive muscle weakness of the legs and pelvis.
+- [W15.36] X-linked ichthyosis, a form of ichthyosis caused by a hereditary deficiency of the steroid sulfatase (STS) enzyme.
+- [W15.37] It is fairly rare, affecting one in 2,000 to one in 6,000 males.
+- [W15.38] X-linked agammaglobulinemia (XLA), which affects the body's ability to fight infection.
+- [W15.39] XLA patients do not generate mature B cells.
+- [W15.40] B cells are part of the immune system and normally manufacture antibodies (also called immunoglobulins) which defends the body from infections (the humoral response).
+- [W15.41] Patients with untreated XLA are prone to develop serious and even fatal infections.
+- [W15.42] Glucose-6-phosphate dehydrogenase deficiency, which causes nonimmune hemolytic anemia in response to a number of causes, most commonly infection or exposure to certain medications, chemicals, or foods.
+- [W15.43] Commonly known as "favism", as it can be triggered by chemicals existing naturally in broad (or fava) beans.
+- [W15.44] Theoretically, a mutation in any of the genes on chromosome X may cause disease, but below are some notable ones, with short description of symptoms:
+- [W15.45] Adrenoleukodystrophy; leads to progressive brain damage, failure of the adrenal glands, and eventually death.
+- [W15.46] Alport syndrome; glomerulonephritis, endstage kidney disease, and hearing loss.
+- [W15.47] A minority of Alport syndrome cases are due to an autosomal recessive mutation in the gene coding for type IV collagen.
+- [W15.48] Androgen insensitivity syndrome; variable degrees of undervirilization and/or infertility in XY persons of either sex
+- [W15.49] Barth syndrome; metabolism distortion, delayed motor skills, stamina deficiency, hypotonia, chronic fatigue, delayed growth, cardiomyopathy, and compromised immune system.
+- [W15.50] Blue cone monochromacy; low vision acuity, color blindness, photophobia, infantile nystagmus.
+- [W15.51] Centronuclear myopathy; where cell nuclei are abnormally located in skeletal muscle cells.
+- [W15.52] In CNM the nuclei are located at a position in the center of the cell, instead of their normal location at the periphery.
+- [W15.53] Charcot–Marie–Tooth disease (CMTX2-3); disorder of nerves (neuropathy) that is characterized by loss of muscle tissue and touch sensation, predominantly in the feet and legs but also in the hands and arms in the advanced stages of disease.
+- [W15.54] Coffin–Lowry syndrome; severe intellectual disability sometimes associated with abnormalities of growth, cardiac abnormalities, and kyphoscoliosis as well as auditory and visual abnormalities.
+- [W15.55] Fabry disease; A lysosomal storage disease causing anhidrosis, fatigue, angiokeratomas, burning extremity pain, and ocular involvement.
+- [W15.56] Hunter syndrome; potentially causing hearing loss, thickening of the heart valves leading to a decline in cardiac function, obstructive airway disease, sleep apnea, and enlargement of the liver and spleen.
+- [W15.57] Hypohidrotic ectodermal dysplasia, presenting with hypohidrosis, hypotrichosis, and hypodontia
+- [W15.58] Kabuki syndrome (the KDM6A variant); multiple congenital anomalies and intellectual disability.
+- [W15.59] Lesch–Nyhan syndrome; neurologic dysfunction, cognitive and behavioral disturbances including self-mutilation, and uric acid overproduction (hyperuricemia)
+- [W15.60] Lowe syndrome; hydrophthalmia, cataracts, intellectual disabilities, aminoaciduria, reduced renal ammonia production, and vitamin D-resistant rickets
+- [W15.61] Menkes disease; sparse and coarse hair, growth failure, and deterioration of the nervous system
+- [W15.62] Nasodigitoacoustic syndrome; misshaped nose, brachydactyly of the distal phalanges, sensorineural deafness
+- [W15.63] Nonsyndromic deafness; hearing loss
+- [W15.64] Norrie disease; cataracts and leukocoria along with other developmental issues in the eye
+- [W15.65] Occipital horn syndrome; deformations in the skeleton
+- [W15.66] Ocular albinism; lack of pigmentation in the eye
+- [W15.67] Ornithine transcarbamylase deficiency; developmental delay and intellectual disability.
+- [W15.68] Progressive liver damage, skin lesions, and brittle hair may also be seen
+- [W15.69] Oto-palato-digital syndrome; facial deformities, cleft palate, hearing loss
+- [W15.70] Siderius X-linked mental retardation syndrome; cleft lip and palate with intellectual disability and facial dysmorphism, caused by mutations in the histone demethylase PHF8
+- [W15.71] Simpson–Golabi–Behmel syndrome; coarse faces with protruding jaw and tongue, widened nasal bridge, and upturned nasal tip
+- [W15.72] Spinal and bulbar muscular atrophy (SBMA), also known as Kennedy's disease; muscle cramps and progressive weakness
+- [W15.73] Spinal muscular atrophy caused by UBE1 gene mutation; weakness due to loss of the motor neurons of the spinal cord and brainstem
+- [W15.74] Wiskott–Aldrich syndrome; eczema, thrombocytopenia, immune deficiency, and bloody diarrhea
+- [W15.75] X-linked severe combined immunodeficiency (SCID); infections, usually causing death in the first years of life
+- [W15.76] X-linked sideroblastic anemia; skin paleness, fatigue, dizziness, and enlarged spleen and liver.
+- [W15.77] X-linked dominant inheritance
+- [W15.78] X-linked diseases from the Wellcome Trust
+- [W15.79] [Female X-linked disorders]
+- [W15.80] Sex-linked recessive: MedlinePlus Medical Encyclopedia
+
+## [W16] Wikipedia: Ino budgerigar mutation
+https://en.wikipedia.org/w/index.php?title=Ino_budgerigar_mutation&oldid=1372469413 · CC BY-SA 4.0 · usage: ai_input
+
+- [W16.1] The Ino budgerigar mutation is one of approximately 30 mutations affecting the colour of budgerigars.
+- [W16.2] It is the underlying mutation of the Albino and Lutino varieties and, with Cinnamon, a constituent mutation of the Lacewing variety.
+- [W16.3] In the green series the Ino is known as the Lutino, with pure yellow contour feathers, white or pale yellow flight feathers and tail feathers and silvery-white cheek patches.
+- [W16.4] In some lights the body can show a very pale green sheen.
+- [W16.5] In the blue series the Ino is known as the Albino, and is pure white throughout.
+- [W16.6] The cheek patches are almost the same colour as the body, but slightly more silvery.
+- [W16.7] In some lights the body can show a very pale blue sheen.
+- [W16.8] The eyes of both the Lutino and Albino are red at all ages with white irides when adult, the beak is orange and the feet and legs are pink.
+- [W16.9] The cere of an adult Ino cock is greyish-purple rather than blue.
+- [W16.10] The World Budgerigar Organisation has established precise standards for some budgerigar body colours using the Pantone Codes, as shown to the right for the Lutino.
+- [W16.11] The Ino mutation also induces changes in the nestling.
+- [W16.12] The down is white rather than grey and appears only sparsely, never growing down the centre of the back.
+- [W16.13] As the feathers appear, those down the spine and along the ventral centre line are late to develop.
+- [W16.14] The Ino gene masks the effect of virtually all other mutations, including Opaline, Dark, Dominant Grey, Dilute, and Clearwing.
+- [W16.15] These genes, when present in an Ino in either heterozygous or homozygous form, cause no change in the appearance of the Ino.
+- [W16.16] But the Ino gene does not entirely mask Cinnamon.
+- [W16.17] A Cinnamon Ino, usually called a Lacewing, has pale brown or fawn spots, tail and wing markings.
+- [W16.18] These markings are quite clear, but considerably fainter than the markings of a normal Cinnamon.
+- [W16.19] The Dark-eyed Clear has a similar body colour to the Ino, but has solid reddish-purple eyes without a white iris.
+- [W16.20] Cinnamon Dilute German Fallows, NSL Inos and Inos are all very similar and difficult to distinguish from each other, but the first two are so uncommon difficulties arise rarely in practice.
+- [W16.21] The first known reference to the Ino mutation in the budgerigar was a report by Mr L van der Snickt, a Belgian fancier, in the German avicultural paper Die Gefiederte Welt (The Feathered World) in 1879[full citation?].
+- [W16.22] He wrote that he had seen that year nine Lutinos, all hens.
+- [W16.23] (In fact, he called them Albinos, since the name Lutino did not then exist, but from his description and the fact that the Blue mutation was not established until the 1880s it is clear they were Lutinos.)  One breeder of these birds was Mr Kessels, also of Belgium, who in 1881 bred 25 Lutinos, all hens.
+- [W16.24] A coloured picture of a Lutino appeared in the Brussels journal, Acclimatation Illustrée, in 1882, and it is thought they were being bred in the Netherlands around 1885, while in England Mr C P Arthur of Melksham in Wiltshire bred what he believed was a pair of Inos around 1887.
+- [W16.25] After the 1880s no mention seems to have been made in the press of Inos until the 1930s, when interest in budgerigar mutations suddenly increased.
+- [W16.26] In 1930/31, Lutino hens were owned by both Capt H S Stokes of Longdon, near Rugeley in Staffordshire, and Mrs Huntington of Warwick.
+- [W16.27] In August 1932 Mr F J Mullis of Horsham, Sussex, bred an Albino hen.
+- [W16.28] None of these led to an established strain.
+- [W16.29] In September 1931, Mr E Böhm of Bawerk in Germany bred, as the last of nine young from a pair of Cobalt split Dilutes,
+- [W16.30] a snow-white red-eyed hen—the first recorded Albino.
+- [W16.31] Almost exactly a year later, on 12 September 1932, a second Albino hen was bred by Mr Fischer of Honow in Germany from a pair of Skyblues.
+- [W16.32] Both of these strains were established by the original breeders and also by others who acquired early stock from them, in particular by Kurt Kokemüller of Arnum über Hanover, and Mr Schrapel, also of Hanover, who performed together the first genetic investigations into the Ino mutation and published the first correct pairing expectations in the German publication Der Wellensittich (The Budgerigar) in November and December 1933.
+- [W16.33] A third appearance of the Ino mutation occurred in Germany around 1933, when Mr Kuhlewein bred a Lutino hen in an uncontrolled breeding flight.
+- [W16.34] This strain was also established.
+- [W16.35] Other Ino mutations also appeared in Europe in the early 1930s, and several British fanciers, including Walter Higham, Scott and Camplin, and Tod Boyd, had imported continental Lutinos by the mid-1930s.
+- [W16.36] Some of these turned out to be of the non-sex-linked type and the unwitting mixing of the two mutations led to considerable confusion.
+- [W16.37] All British Inos seem to have descended from these imported continental Inos.
+- [W16.38] In 1976, Dr T Daniels began a controlled programme of pairings to produce a Cinnamon Ino by deliberately crossing Cinnamons to Inos, and to estimate the cross-over value between these two mutations.
+- [W16.39] The first Cinnamon Ino was produced in late 1979 and was identical in appearance to a Lacewing.
+- [W16.40] The Ino mutation is a sex-linked recessive at the ino locus on the Z chromosome.
+- [W16.41] The wild-type genetic symbol is ino+ and the ino mutant allele has the symbol ino.
+- [W16.42] Its effect is to inhibit the production of the melanin pigment which is normally present in all feather barbs in either the medullary or cortical cells or both.
+- [W16.43] The presence of black melanin pigment in the cortex of the barbs is necessary for the production of the black markings and in the medulla of barbs for the production of the blue colouration (which combines with the yellow pigment in birds of the green series to produce the green colouration), so this mutation removes all black and blue colourations resulting in a white bird in the blue series and a yellow bird in the green series.
+- [W16.44] Because the Ino mutation totally inhibits the production of normal melanin pigment it prevents the visible expression of all the other mutations which depend on the presence of melanin to show their effect.
+- [W16.45] This is called epistasis, and Ino is phenotypically epistatic over many other mutations, including Dark, Grey, Opaline, and the Dilute series.
+- [W16.46] It is not epistatic over the Blue mutation, so there are two forms of the albino budgerigar, one in the green series called the Lutino and one in the blue series called the Albino.
+- [W16.47] Both these varieties may be masking many other hypostatic mutations, so the genotype of an Albino or Lutino with respect to these mutations cannot be determined visually.
+- [W16.48] Nor is the Ino mutation epistatic over the Cinnamon mutation—see below.
+- [W16.49] In birds, the cock has two Z chromosomes and the hen has one Z and one W chromosome.
+- [W16.50] So in hens whichever allele is present on the single Z chromosome is fully expressed in the phenotype.
+- [W16.51] Hens cannot be split for Ino (or any other sex-linked mutation).
+- [W16.52] In cocks, because Ino is recessive, the Ino allele must be present on both Z chromosomes (homozygous) to be expressed in the phenotype.
+- [W16.53] Cocks which are heterozygous for Ino are identical to the corresponding Normal.
+- [W16.54] Such birds are said to be split for Ino, usually written '/ino'.
+- [W16.55] The table on the right shows the appearance of all possible genetic combinations involving just the Ino mutation.
+- [W16.56] The Ino mutation does not mask the Cinnamon mutation, these two genes being neither fully epistatic nor hypostatic to each other.
+- [W16.57] When combined in doubly homozygous form (cin-ino/cin-ino in cocks or cin-ino/Y in hens) the Lacewing phenotype is produced.
+- [W16.58] The Cinnamon markings are clearly visible, although considerably fainter than in a normal Cinnamon.
+- [W16.59] For many years the Lacewing was thought by many to be a separate mutation but it was demonstrated in 1979 that it was simply a Cinnamon Ino when a Lacewing was deliberately produced by combining separate Cinnamon and Ino genes.
+- [W16.60] Once brought together, these two genes are almost always inherited together due to the close linkage between them, giving the impression of being a single gene.
+- [W16.61] The Ino mutation is a member of a series of multiple alleles at the ino locus.
+- [W16.62] Only one other member is known -- the Sex-linked Clearbody mutation.
+- [W16.63] For details of the genetic relationship, see the Genetics section in the Sex-linked Clearbody article.
+- [W16.64] The Ino gene is linked to other genes located on the Z chromosome, i.e. to the genes of other sex-linked mutations.
+- [W16.65] In addition to the Cinnamon mutation, these mutations include Opaline and Slate.
+- [W16.66] The cross-over or recombination values between Ino and these linked genes has not been measured accurately, but some approximate measurements of the cross-over values have been made:
+- [W16.67] Cinnamon-Ino COV: Breeding results collected by C Warner and T Daniels found just 1 crossover in 36 between Cinnamon and Ino.
+- [W16.68] Other measurements found at least 1 cross-over in 18, so combining these the best estimate of the recombination value is ≥4±3%.
+- [W16.69] Opaline-Ino COV: Only one direct measurement of the Opaline-Ino linkage has been reported.
+- [W16.70] This found 3 cross-overs in 10, giving a recombination value of 30±17%.
+- [W16.71] But since the ino locus is very close to the cinnamon locus the COV for Opaline-Ino must be very similar to that for Opaline-Cinnamon.
+- [W16.72] The Opaline-Cinnamon linkage has been measured to be approximately 36±6% (see Genetics in Opaline budgerigar mutation), so these two results are in agreement within the limited statistics.
+- [W16.73] Cocks split for both Cinnamon and Ino have one Cinnamon allele and one Ino allele together with one each of the corresponding wild-type alleles.
+- [W16.74] The linkage between the Cinnamon and Ino genes gives rise to two types of split cinnamon-ino cocks, both visually identical.
+- [W16.75] Type I split cinnamon-ino cocks are bred by mating Cinnamon-Inos (Lacewings) to Normals and have the two mutant alleles on the same chromatid, symbolised as cin+-ino+/cin-ino.
+- [W16.76] Geneticists call this 'coupling' rather than 'Type I'.
+- [W16.77] Because of the linkage, the Cinnamon and Ino alleles from Type I cocks tend to be inherited together in their progeny.
+- [W16.78] When mated to Normal hens, Type I cocks produce predominantly Cinnamon-Ino (Lacewing) and Normal hens, with Cinnamon and Ino hens resulting extremely rarely from a cross-over.
+- [W16.79] Roughly 48% of the hens will be Cinnamon-Ino (Lacewing), 48% Normal, 2% Cinnamon and 2% Ino.
+- [W16.80] Type II split cinnamon ino cocks are bred by mating Cinnamons to Inos and have the Cinnamon and Ino mutant alleles on opposite chromatids, symbolised as cin+-ino/cin-ino+.
+- [W16.81] Geneticists call this 'repulsion' rather than 'Type II'.
+- [W16.82] Because of the separation, the Cinnamon and Ino alleles from Type II birds tend to be inherited separately in their progeny.
+- [W16.83] When mated to Normal hens, Type II cocks produce predominantly Cinnamon and Ino hens, with Cinnamon-Ino (Lacewing) and Normal hens resulting extremely rarely from cross-overs.
+- [W16.84] Roughly 48% of the hens will be Cinnamon, 48% Ino, 2% Cinnamon-Ino (Lacewing) and 2% Normal.
+- [W16.85] Hens cannot be split for any sex-linked gene, so only cocks exist in Type I and Type II form.
+- [W16.86] World Budgerigar Organisation (WBO)
+
+## [W17] Wikipedia: Blue budgerigar mutation
+https://en.wikipedia.org/w/index.php?title=Blue_budgerigar_mutation&oldid=1307862401 · CC BY-SA 4.0 · usage: ai_input
+
+- [W17.1] The Blue budgerigar mutation is one of approximately 30 mutations affecting the colour of budgerigars.
+- [W17.2] It is part of the genetic constitution of the following recognised varieties: Skyblue, Cobalt, Mauve and Violet.
+- [W17.3] The Blue mutation changes the colour of the body feathers, which are light green in the wild-type, to skyblue and the colour of mask and other parts which are yellow in the wild-type, to white.
+- [W17.4] In the domesticated bird this mutation changes the Light Green variety into the Skyblue variety, the Dark Green into the Cobalt and the Olive into the Mauve.
+- [W17.5] The green colouration of the wild budgerigar is due to the combined effect of a yellow pigment and an interference effect similar to that which gives colour to petrol on water, which in the budgerigar produces a blue colouration.
+- [W17.6] Yellow pigment is present in the outer layer (cortex) of the cells forming the barbs of all feathers of the wild budgerigar with the exception of the cheek patches, although it is very weak in the outermost flight feathers.
+- [W17.7] The distribution of the yellow pigment is clearly shown in the Lutino.
+- [W17.8] The Blue mutation totally inhibits the production of this yellow pigment, and as far as is known, it has no other effect.
+- [W17.9] The yellow pigment in young budgerigars is paler than in adults, which makes green budgerigars in nest feather appear duller and Lutinos appear paler.
+- [W17.10] A brighter and stronger yellow colouration appears after the first moult.
+- [W17.11] Parrot feathers contain red, orange, and yellow polyene pigments called psittacofulvins.
+- [W17.12] Genome-wide association mapping and gene-expression analysis mapped the Mendelian blue locus, which abolishes yellow pigmentation in the budgerigar.
+- [W17.13] The blue trait maps to a single amino acid substitution (R644W) in an uncharacterized polyketide synthase (MuPKS) gene.
+- [W17.14] When the MuPKS gene is expressed in yeast, yellow pigments accumulated.
+- [W17.15] Mass spectrometry confirmed the yellow pigments matched those in feathers.
+- [W17.16] The R644W substitution abolished MuPKS gene activity.
+- [W17.17] Furthermore, gene-expression data from feathers of different bird species suggest that parrots acquired their colors through regulatory changes that drive high expression of the MuPKS gene in feather epithelia.
+- [W17.18] This formulates biochemical models that explain natural color variation in parrots.
+- [W17.19] The Blue mutation provides a widely accepted division of domesticated budgerigars into two colour classes: the "Green series" and the "Blue series".
+- [W17.20] Birds of the Green series exhibit yellow pigmentation, while birds of the Blue series lack yellow pigmentation.
+- [W17.21] These names can be misleading, since some birds belonging to the Blue series, such as Albinos, are not blue; similarly, Lutinos belong to the Green series, yet are not green.
+- [W17.22] In combination with the Dark budgerigar mutation the body feathers become deeper shades of blue.
+- [W17.23] A blue budgerigar with a single Dark factor is called a Cobalt, and one with two Dark factors a Mauve.
+- [W17.24] The World Budgerigar Organization has established precise standards for budgerigar body colours using the Pantone Codes, as shown in the table.
+- [W17.25] made its first recorded appearance in 1878 in the aviaries of M Limbosch of Uccle, a suburb of Brussels, but this strain died out, it is believed, in 1881.
+- [W17.26] Blues appeared independently in the Netherlands between 1881 and 1885, and a Mr Pauwels of Everberg, near Brussels, reintroduced them to Belgium from this Dutch strain.
+- [W17.27] The first Blues to be seen in England were some exhibited by Messrs Millsum and Pauwels at the Horticultural Hall in 1910 and the Crystal Palace in 1911.
+- [W17.28] Mr D Astley owned Blues in 1911,
+- [W17.29] and it is recorded that C Pelham Sutton of Putney bred a Blue in 1912.
+- [W17.30] Blues remained quite rare until the 1930s, fetching up to £100 per pair in Japan around 1928, about the cost of a car at the time.
+- [W17.31] The Blue mutation is recessive to its wild-type allele, so a bird possessing a single Blue allele (the heterozygote) is identical in appearance to the wild-type light green.
+- [W17.32] That is, the presence of a single wild-type allele is sufficient to permit the full production of the yellow psittacin pigment.
+- [W17.33] Among the budgerigar fancy such a bird is said to be a Light Green split blue, usually written Light Green/blue.
+- [W17.34] In a bird which has two Blue alleles (the homozygote), the lack of the wild-type allele means the yellow pigment can no longer be produced, and so the body colour is blue—the Skyblue.
+- [W17.35] The locus of the Blue gene is situated on one of the autosomal chromosomes.
+- [W17.36] The Yellowface Blue I mutation, the Yellowface II mutation form an autosomal co-dominant series of alleles with the Blue mutation.
+- [W17.37] The loci of the Dark budgerigar mutation and the Blue allelic series are situated on the same autosome, so the Dark mutation is linked to the Blue allelic series (see genetic linkage).
+- [W17.38] The cross-over value (COV) or recombination frequency between the Dark and Blue loci is commonly stated to be about 14%, but some experiments have found much smaller values (see Genetics section in the Dark budgerigar mutation).
+- [W17.39] Taylor, T G; Warner, C (1986), Genetics for Budgerigar Breeders (2nd ed.), The Budgerigar Society
+- [W17.40] Watmough, W (1951), The Cult of the Budgerigar (3rd ed.), Cage Birds
+- [W17.41] World Budgerigar Organisation (WBO)
+
+## [W18] Wikipedia: Cat coat genetics
+https://en.wikipedia.org/w/index.php?title=Cat_coat_genetics&oldid=1378626985 · CC BY-SA 4.0 · usage: ai_input
+
+- [W18.1] Cat coat genetics determine the colouration, pattern, length, and texture of feline fur.
+- [W18.2] The variations among cat coats are physical properties and should not be confused with cat breeds.
+- [W18.3] A cat may display the coat of a certain breed without actually being that breed.
+- [W18.4] For example, a Neva Masquerade (Siberian colourpoint) could wear point colouration, the coat typically associated with a Siamese.
+- [W18.5] Eumelanin and phaeomelanin
+- [W18.6] The browning gene B/b/bl codes for TYRP1 (Q4VNX8), an enzyme involved in the metabolic pathway for eumelanin pigment production.
+- [W18.7] The dominant form, B, will produce black eumelanin.
+- [W18.8] It has two recessive variants, b (chocolate) and bl (cinnamon), with bl being recessive to both B and b.
+- [W18.9] Chocolate is a rich dark brown colour, and is referred to as chestnut in some breeds.
+- [W18.10] Cinnamon is a light brown which may be a reddish colour.
+- [W18.11] The sex-linked red "Orange" locus, O/o, determines whether a cat will produce phaeomelanin.
+- [W18.12] In cats with orange fur, phaeomelanin (red pigment) completely replaces eumelanin (black or brown pigment).
+- [W18.13] This gene is located on the X chromosome.
+- [W18.14] The orange allele is O, and non-orange is o.
+- [W18.15] Males are typically only orange or non-orange due to only having one X chromosome.
+- [W18.16] Since females have two X chromosomes, they have two alleles of this gene.
+- [W18.17] OO results in orange fur, oo results in fur without any orange (black, brown, etc.), and Oo results in a tortoiseshell cat, in which some parts of the fur are orange and other areas non-orange.
+- [W18.18] One in three thousand tortoiseshell cats are male, making the combination possible but rare - however, due to the nature of their genetics, male tortoiseshells often exhibit chromosomal abnormalities.
+- [W18.19] In one study, less than a third of male tortoiseshells had a simple XXY Klinefelter's karyotype, slightly more than a third were complicated XXY mosaics, and about a third had no XXY component at all (XX/XY or XY/XY mosaics).
+- [W18.20] The coat colour commonly referred to as "orange" is scientifically known as red.
+- [W18.21] Other common names include yellow, ginger, and marmalade.
+- [W18.22] Red show cats have a deep orange colour, but it can also present as a yellow or light ginger colour.
+- [W18.23] Unidentified "rufousing polygenes" are theorised to be the reason for this variance.
+- [W18.24] Orange is epistatic to non-agouti, so all red cats are tabbies.
+- [W18.25] "Solid" red show cats are usually low contrast ticked tabbies.
+- [W18.26] The identity of the gene at the Orange locus was narrowed down to a 3.5 Mb stretch on the X chromosome in 2009.
+- [W18.27] In 2024 it was discovered that the dominant orange colour associated with the Orange locus is the result of a genomic deletion in a regulatory region of ARHGAP36, a Rho GTPase activating protein.
+- [W18.28] The deletion results in a 13-fold increase in expression of the protein in melanocytes.
+- [W18.29] The Dense pigment gene, D/d, codes for melanophilin (MLPH; A0SJ36), a protein involved in the transportation and deposition of pigment into a growing hair.
+- [W18.30] When a cat has two of the recessive d alleles (Maltese dilution), black fur becomes "blue" (appearing grey), chocolate fur becomes "lilac" (appearing light, almost greyish brown-lavender), cinnamon fur becomes "fawn", and red fur becomes "cream".
+- [W18.31] Similar to red cats, all cream cats are tabbies.
+- [W18.32] The d allele is a single-base deletion that truncates the protein.
+- [W18.33] If the cat has d/d genes, the coat is diluted.
+- [W18.34] If the genes are D/D or D/d, the coat will be unaffected.
+- [W18.35] Barrington Brown is a recessive browning gene that dilutes black to mahogany, brown to light brown and chocolate to pale coffee.
+- [W18.36] It is different from the browning gene and has only been observed in laboratory cats.
+- [W18.37] The Dilution modifier gene, Dm, "caramelises" the dilute colours as a dominant trait.
+- [W18.38] The existence of this phenomenon as a discrete gene is a controversial subject among feline enthusiasts.
+- [W18.39] Amber, a mutation at the extension locus E/e (the melanocortin 1 receptor; MC1R) changes black pigment to amber or light amber, similar in appearance to red and cream.
+- [W18.40] Kittens are born dark but lighten up as they age.
+- [W18.41] Paws and nose still exhibit the original undiluted colour in contrast to other diluted colours, where paws and nose have the diluted colour.
+- [W18.42] This phenomenon was first identified in Norwegian Forest Cats.
+- [W18.43] Another recessive mutation at extension was discovered which causes the "russet" colour in Burmese cats.
+- [W18.44] Like amber cats, russet cats lighten as they age.
+- [W18.45] A modifying factor has also been hypothesised in shaded silver and chinchilla Persians whose fur turns pale golden in adulthood, due to low levels of phaeomelanin production.
+- [W18.46] These cats resemble shaded or tipped goldens, but are genetically shaded or tipped silvers.
+- [W18.47] This is probably related to the phenomenon known as "tarnishing" in silvers.
+- [W18.48] Tabby cats have a range of variegated and blotched coats, consisting of a dark pattern on a lighter background.
+- [W18.49] This variety is derived from the interplay of multiple genes and resulting phenotypes.
+- [W18.50] Most tabbies feature thin dark markings on the face, including the 'M' on the forehead and an eyeliner effect, pigmented lips and paws, and a pink nose outlined in darker pigment.
+- [W18.51] The following tabby coat patterns are all naturally found in the domestic cat:
+- [W18.52] Mackerel: Thin, dark stripes (sometimes called "tiger stripes").
+- [W18.53] Blotched/Classic: Thicker bands or whorls of dark pigment.
+- [W18.54] Spotted: Broken bands that look more like individual spots.
+- [W18.55] The flanks only contain spots, no stripes.
+- [W18.56] Ticked: No distinct stripes, spots, or blotches on the body—though some may be visible on the legs, face, and tail.
+- [W18.57] The agouti factor determines the "background" of the tabby coat, which consists of hairs that are banded with dark eumelanin and lighter phaeomelanin along the length of the hair shaft.
+- [W18.58] The Agouti gene, with its dominant A allele and recessive a allele, controls the coding for agouti signalling protein (ASIP; Q865F0).
+- [W18.59] The wild-type dominant A causes the banding and thus an overall lightening effect on the hair, while the recessive non-agouti or "hypermelanistic" allele a does not initiate this shift in the pigmentation pathway.
+- [W18.60] As a result, homozygous aa have pigment production throughout the entire growth cycle of the hair and therefore along its full length.
+- [W18.61] These homozygotes are solidly dark throughout, which obscures the appearance of the characteristic dark tabby markings—sometimes a suggestion of the underlying pattern, called "ghost striping", can be seen, especially on kittens and on adults in bright slanted light, in smokes, and sometimes on the forehead, legs, tail or elsewhere.
+- [W18.62] A major exception to the solid masking of the tabby pattern exists, as the O allele of the O/o locus is epistatic over the aa genotype.
+- [W18.63] That is, in red or cream coloured cats, tabby marking is displayed regardless of the genotype at the agouti locus.
+- [W18.64] However, some red and most cream tabbies do have a fainter pattern when lacking an agouti allele, indicating that the aa genotype does still have a faint effect even if it does not induce complete masking.
+- [W18.65] The mechanism of this process is unknown.
+- [W18.66] An example of the Agouti gene can be seen in Bengal cats, which are a hybrid between Asian leopard cats and domestic cats.
+- [W18.67] The breed sports the hybrid 'charcoal' pattern, a pseudomelanistic marking which has a characteristic dark face marking, the "mask", and a broad dorsal stripe down its back, the "cape".
+- [W18.68] According to Gershoney et al., the charcoal mask is indicated to be the result of a heterozygote of APbe/a.
+- [W18.69] The relationships between the different agouti alleles is not fully understood.
+- [W18.70] More research is required to determine the inheritance modes for charcoal.
+- [W18.71] The Tabby locus on chromosome A1 accounts for most tabby patterns seen in domestic cats, including those patterns seen in most breeds.
+- [W18.72] The dominant allele TaM produces mackerel tabbies, and the recessive Tab produce classic ('blotched') tabbies.
+- [W18.73] The gene responsible for this differential patterning had been identified as transmembrane aminopeptidase Q (Taqpep, M3XFH7).
+- [W18.74] The gene name Taqpep has later been replaced by laeverin with symbol LVRN.
+- [W18.75] A threonine to asparagine substitution at residue 139 (T139N) in this protein is responsible for producing the tabby phenotype in domestic cats.
+- [W18.76] In cheetahs, a base pair insertion into exon 20 of the protein replaces the 16 C-terminal residues with 109 new ones (N977Kfs110), generating the king cheetah coat variant.
+- [W18.77] The wild-type (in African wildcats) is the mackerel tabby (stripes look like thin fishbones and may break up into bars or spots).
+- [W18.78] The most common variant is the classic tabby pattern (broad bands, whorls, and spirals of dark colour on pale background usually with bulls-eye or oyster pattern on flank).
+- [W18.79] Spotted tabbies have their stripes broken up into spots, which may be arranged vertically or horizontally.
+- [W18.80] A 2010 study suggests that spotted coats are caused by the modification of mackerel stripes, and may cause varying phenotypes such as "broken mackerel" tabbies via multiple loci.
+- [W18.81] If the genotype is Sp/Sp or Sp/sp the tabby coat will be spotted or broken.
+- [W18.82] If it is an sp/sp genotype, the tabby pattern will remain either mackerel or blotched.
+- [W18.83] This gene has no effect on cats with a ticked coat.
+- [W18.84] The Ticked (Ti) locus on chromosome B1 controls the generation of "ticked coats", agouti coats with virtually no stripes or bars.
+- [W18.85] Ticked tabbies are rare in the random-bred population outside Asia, but fixed in certain breeds such as the Abyssinian and Singapura.
+- [W18.86] TiA is the dominant allele that produces ticked coats; Ti+ is the recessive one.
+- [W18.87] The causative gene for ticked tabby markings is Dickkopf-related protein 4 (DKK4).
+- [W18.88] Both a cysteine to tyrosine substitution at residue 63 (C63Y) and an alanine to valine substitution at residue 18 (A18V) result in decreased DKK4, which is associated with ticking.
+- [W18.89] Both variants are present in the Abyssinian breed, and the A18V variant is found in the Burmese breed.
+- [W18.90] Stripes often remain to some extent on the face, tail, legs, and sometimes the chest ("bleeding through").
+- [W18.91] Traditionally, this has been thought to happen in heterozygotes (TiATi+) but be nearly or completely nonexistent in homozygotes (TiATiA).
+- [W18.92] The ticked tabby allele is epistatic to and therefore completely (or mostly) masks all the other tabby alleles, "hiding" the patterns they would otherwise express.
+- [W18.93] It was once thought that TiA was an allele of the Tabby gene, called Ta, dominant to all other alleles at the locus.
+- [W18.94] Other genes (pattern modifier genes) are theorised to be responsible for creating various type of spotting patterns, many of which are variations on a basic mackerel or classic pattern.
+- [W18.95] There are also hypothetical factors which affect the timing and frequency of the agouti shift, affecting agouti band width and the number and quality of alternating bands of eumelanin and phaeomelanin on individual hairs.
+- [W18.96] There is a gene not yet identified, but believed to be related to the agouti gene in the Chausie breed that produces silver-tipped black fur similar to Abyssinian ticked fur, known as "grizzled".
+- [W18.97] This phenomenon is purported to have been inherited from the hybridisation of the domestic cat to the jungle cat (Felis chaus).
+- [W18.98] The rosette tabby pattern is a pattern similar to that of a leopard, where rosette spots are spread over the body.
+- [W18.99] The pattern is found in hybrid cat breeds, such as the Bengal and Safari.
+- [W18.100] The inhibited pigment gene, I/i.
+- [W18.101] The dominant allele (I) produces tipped hairs that are fully coloured only at the tip and have a white base.
+- [W18.102] This allele appears to interact with other genes to produce various degrees of tipping, ranging from deeply tipped silver tabby to lightly tipped shaded silver and chinchilla silver.
+- [W18.103] The inhibitor gene interacts with the non-agouti genotype (I-aa) to produce the colour known as smoke.
+- [W18.104] The homozygous recessive genotype when combined with the agouti gene (iiA-), produces tabby colouration, which can vary along a spectrum ranging from a deeply patterned brown tabby, to a lighter "golden tabby", to the very lightly coloured shaded or chinchilla golden colours.
+- [W18.105] Red and cream cats with the inhibitor gene (I-O-) are commonly called "cameo".
+- [W18.106] Tortoiseshell is a coat pattern that combines two colours, other than white, in an asymmetrical distribution, either closely mixed ('brindled') or in larger patches.
+- [W18.107] The two colours always consist of one eumelanistic (black, blue, chocolate, lilac, cinnamon or fawn) and one phaeomelanistic (red or cream) colour.
+- [W18.108] The pattern is caused by X-inactivation, which requires two X chromosomes, consequently the vast majority of tortoiseshells are female, with approximately 1 in 3,000 being male.
+- [W18.109] Male tortoiseshells can occur as a result of chromosomal abnormalities (e.g. Klinefelter syndrome), by mosaicism, or by a phenomenon known as chimaerism (two early stage embryos are merged into a single kitten).
+- [W18.110] Tortoiseshell should not be mistaken for the natural gradations of colour hues in a tabby pattern.
+- [W18.111] The shades which are present in the ground colour (pale regions) of a tabby are not considered to constitute a separate colour.
+- [W18.112] High degree of warm tones in the ground colour are instead referred to as rufousing factors or rufism.
+- [W18.113] Tortoiseshells with white spotting are known as "tricolour" or "tortoiseshell and white".
+- [W18.114] Those with approximately 25–75% white are known in North America as "calico".
+- [W18.115] A tricolour consist of three colours: white, a phaeomelanin red-based colour (red or cream), and eumelanin black-based colour (e.g. black or blue).
+- [W18.116] In tricolour cats, the factor that distinguishes brindled patterns from distinct patches is the placement of eumelanin and phaeomelanin pigment, which is partly dependent on the amount of white, due to an effect of the white spotting gene on the general distribution of melanin.
+- [W18.117] A cat which has both an orange and non-orange gene, Oo, and little to no white spotting, will present with a brindled (mottled) blend of black-based and red-based pigments, reminiscent of tortoiseshell material (called tortoiseshell cat in the US).
+- [W18.118] An Oo cat with a large amount of white will have bigger, clearly defined patches of black-based and red-based pigments (called a "calico" in the US).
+- [W18.119] The basic tortoiseshell pattern has several different colours depending on the colour of the eumelanin (the B locus), and dilution (the D locus).
+- [W18.120] Tortoiseshell tabbies, also known as torbies, display tabby patterning on both red- and black-based colours.
+- [W18.121] Calico tabbies are colloquially also called calibys or tabicos.
+- [W18.122] Tortoiseshell cats with small white patches are called tortico cats, a portmanteau of calico and tortoiseshell.
+- [W18.123] Blue tortoiseshell (US: diluted calico) cats have a lighter colouration (blue/cream) and are sometimes called calimanco or clouded tiger.
+- [W18.124] White spotting and epistatic white
+- [W18.125] The KIT gene determines whether or not there will be any white in the coat, except when a solid white coat is caused by albinism, which happens on a different locus (C).
+- [W18.126] White spotting and epistatic white (also known as dominant white) were long thought to be two separate genes (called S and W respectively), but in fact they are both on the KIT gene.
+- [W18.127] The two have been combined into a single white spotting locus (W).
+- [W18.128] White spotting can take many forms of particoloured (bicolour or tricolour) patterns, from a small spot of white to the mostly-white Van pattern of the Turkish Van, while epistatic white produces a completely white cat (solid or self white).
+- [W18.129] The KIT gene W locus has the following alleles:
+- [W18.130] WD (or W)=dominant white (solid/self white), autosomal dominant allele.
+- [W18.131] It causes complete white coat colouration by disrupting replication and migration of melanocytes into the skin.
+- [W18.132] The carriers of this allele are white regardless of any other colour-associated gene.
+- [W18.133] It is linked to blue eyes and congenital sensorineural deafness.
+- [W18.134] This deafness is due to a reduction in the population and survival of melanoblast stem cells, which in addition to creating pigment-producing cells, develop into a variety of neurological cell types.
+- [W18.135] White cats with one or two blue eyes have a particularly high likelihood of being deaf.
+- [W18.136] Dominant white is distinct from albinism (c) which results from a mutation in a different gene that has no known impact on hearing.
+- [W18.137] wS (or S)=white spotting (particolour: bicolour or tricolour cats), dominant allele.
+- [W18.138] It only disrupts migration of melanocytes to certain patches in the skin, thus leading to the formation of white spots.
+- [W18.139] It exhibits codominance and variable expression:
+- [W18.140] heterozygote (Wh or Ss)= low degree of spotting white (less than half white); bicolour/tricolour (about half white) or ventral white (about one quarter white — usually the feet, nose, chest, and belly — colloquially known as "tuxedo"), which is dominant to solid colour.
+- [W18.141] homozygote (Wl or SS)= high degree of spotting white (more than half white); dominant harlequin (half to three quarters white) and Van pattern (over three quarters white).
+- [W18.142] The Van pattern is named after the Turkish Van breed, and expresses as colouration limited to the head and tail.
+- [W18.143] w (or N)=wild-type or normal (non-white coats), recessive allele.
+- [W18.144] Homozygotes for it won't have any white in their coat.
+- [W18.145] wg=Birman white gloving allele (colloquially known as "mitted"), recessive allele.
+- [W18.146] wsal=salmiak allele, recessive allele.
+- [W18.147] In addition to a white tuxedo pattern, hairs are coloured at the root fading into white at the tips, except on the head, where they are often coloured all the way through.
+- [W18.148] It originates in Finland and the name salmiak means "salty liquorice".
+- [W18.149] The colourpoint pattern, also known as acromelanism, oculocutaneous albinism (OCA), and the Himalayan coat-colour pattern, is most commonly associated with Siamese cats, but existed long before the breed's creation and is found worldwide in (non-)pedigree domestic cats.
+- [W18.150] The colloquial point terminology depends on its base colour, e.g. black ("seal", "sable", "brown"), lilac ("frost"), and red ("flame").
+- [W18.151] A colourpoint cat has dark colours on their extremities –face, ears, feet, and tail– with a lighter version of the same colour on the rest of the body.
+- [W18.152] This pattern is the result of a temperature sensitive mutation causing non-functional form of the tyrosinase (TYR) enzyme in the metabolic pathway from tyrosine to pigment, such as melanin; thus, a congenital lack of pigment production in the skin, except in the extremities or points where the skin is slightly cooler.
+- [W18.153] For this reason, colourpoint cats tend to darken with age as bodily temperature drops; also, the fur may sometimes darken or lighten as a result of temperature change due to illness or significant injury.
+- [W18.154] More specifically, colourpoint is a type of partial albinism found, together with albinism, on the albino locus (C), which contains the gene TYR (P55033).
+- [W18.155] Although the Siamese colourpoint pattern is the most famous colouration produced by TYR, there are colour mutations at the locus.
+- [W18.156] Full colour=C is the wildtype allele resulting in full pigmentation and is completely dominant to all other known alleles at the locus.
+- [W18.157] Point=cs is the point allele associated with the Siamese or Himalayan colourpoint pattern.
+- [W18.158] Sepia=cb is an allele called sepia (or solid), and is most associated with Burmese cats.
+- [W18.159] It produces a pattern similar to the Siamese/Himalayan colourpoint, but with a much lower contrast and amber-yellow to green eyes.
+- [W18.160] Mink=cs and cb are codominant, with cb/cs cats having an intermediate phenotype termed mink, in which the pigment distribution is between sepia and point, and the eye colour is blue-green (aquamarine).
+- [W18.161] Mocha=cm is a novel mutation in Burmese cats that results in a colour pattern named "mocha".
+- [W18.162] Its interactions with other alleles have not yet been fully established.
+- [W18.163] Albinism=c and c2 are two synonymous alleles recessive to all other alleles at the locus that cause albinism.
+- [W18.164] Two distinct alleles causing blue-eyed and pink-eyed albinism respectively have been previously theorised.
+- [W18.165] The tyrosine pathway also produces neurotransmitters, thus mutations in the early parts of that pathway may affect not only pigment, but also neurological development.
+- [W18.166] This results in a higher frequency of cross-eyes among colourpoint cats, as well as the high frequency of cross-eyes in white tigers.
+- [W18.167] The silver series is caused by the melanin inhibitor gene I/i.
+- [W18.168] The dominant form causes melanin production to be suppressed, but it affects phaeomelanin (warm red pigment) much more than eumelanin (black or brown pigment).
+- [W18.169] On tabbies, this turns the background colour into a sparkling cold silver tone.
+- [W18.170] The dark hairs that make the tabby pattern will be silvery-white at their roots, whilst leaving the pigmentation at the tip of these hairs intact, resulting in a cold-toned silver tabby.
+- [W18.171] On solid cats, it turns the base of the hair throughout their coat into a depigmented pale silvery-white, whilst the tip stays pigmented, making them (silver) smoke.
+- [W18.172] The term cameo is commonly used for red silver and cream silver (inhibitor gene (I-O-)) coloured coats in cats.
+- [W18.173] Silver agouti cats can have a range of silver tabby phenotypes depending on the depigmentation ratio of the hair root to tip; from regular silver tabby (over half the hair is pigmented), to the more extreme silver tabby forms of silver shaded (under half the hair is pigmented, approx. 1⁄3 of hair length), and silver tipped also called 'chinchilla' or 'shell' (only the very tip of the hair is pigmented, approx. 1⁄8 of hair length).
+- [W18.174] This seems to be affected by hypothetical wide-band factors, which make the silver band at the base of the hair wider in silver tabbies and smokes.
+- [W18.175] Breeders often notate wide-band as a single gene Wb/wb, but it is most likely a polygenic trait.
+- [W18.176] If a cat has the wide-band trait but no silver melanin inhibitor, the band will be golden instead of silver.
+- [W18.177] These cats are known as golden tabbies, or in Siberian cats as sunshine tabbies.
+- [W18.178] The golden colour is caused by the CORIN gene.
+- [W18.179] Shaded golden and tipped golden are also possible, in the same hair length distribution as the silver-gene.
+- [W18.180] However, there is no golden smoke, because the combination of wide-band and non-agouti simply produces a solid cat.
+- [W18.181] The genetics involved in producing the ideal tabby, tipped, shaded, or smoke cat is complex.
+- [W18.182] Not only are there many interacting genes, but genes sometimes do not express themselves fully, or conflict with one another.
+- [W18.183] For example, the silver melanin inhibitor gene in some instances does not block pigment, resulting in a greyer undercoat, or in tarnishing (yellowish or rusty fur).
+- [W18.184] The greyer undercoat is considered less desirable to fanciers.
+- [W18.185] Likewise, poorly-expressed non-agouti or over-expression of melanin inhibitor will cause a pale, washed out black smoke.
+- [W18.186] Various polygenes (sets of related genes), epigenetic factors, or modifier genes, as yet unidentified, are believed to result in different phenotypes of colouration, some deemed more desirable than others by fanciers.
+- [W18.187] The genetic influences on tipped or shaded cats are:
+- [W18.188] Tabby pattern genes (such as Ta masking the tabby pattern).
+- [W18.189] Silver/melanin inhibitor gene I/i.
+- [W18.190] Factors affecting the number and width of bands of colour on each hair, such as the hypothetical wide-band gene wb.
+- [W18.191] Resulting in shaded or tipped (chinchilla/shell) pigmentation.
+- [W18.192] Factors affecting the amount and quality of eumelanin and/or phaeomelanin pigment expression (such as the theorised rufousing factors)
+- [W18.193] Genes causing sparkling appearance (such as glitter in the Bengal, satin in the Tennessee Rex, grizzle in the Chausie).
+- [W18.194] Factors to clear up residual striping (hypothetical Chaos, Confusion, Unconfused, Erase, and Roan factors).
+- [W18.195] Fever coat is a non-permanent depigmentation effect known in domestic cats, where a female cat experiences health implications during pregnancy (e.g. has a fever or is stressed), causing her unborn kittens' fur to develop a frosty silver-type colour (silver-grey, cream, or reddish) rather than what the kitten's genetics would normally show.
+- [W18.196] The depigmentation is most prominent at the hair tips, rather than the roots as would be the case in actual silver coats.
+- [W18.197] After birth, the frost-like fur is replaced naturally by fur in their actual genetic colours during a moult in their first year; in most cases the full colour is completely grown in at 6–8 months old.
+- [W18.198] Cat fur can be short, long, curly, or hairless.
+- [W18.199] Most cats are short-haired, like their wild ancestor.
+- [W18.200] The fur can naturally come in three types of hairs; guard, awn, and down hair.
+- [W18.201] The length, density and proportions of these three hairs varies greatly between breeds, and in some cats only one or two types are found.
+- [W18.202] Most oriental breeds only express one single layer of silky coat.
+- [W18.203] However, cats can also have double-layered coats out of two hair types in which the down hairs form the soft, insulating undercoat, and the guard hairs form the protective outer coat.
+- [W18.204] A typical cat coat exists of all three natural hair types, but due to the equal lengths of two of these hairs, the coat is still considered double-layered.
+- [W18.205] Typically, the down hairs comprise the undercoat while the guard and awn hairs make up the basic top coat.
+- [W18.206] Double-coated cats with thick undercoats require daily grooming as these coats are more prone to matting.
+- [W18.207] Double coats are found in for example the Persian, British Shorthair, Maine Coon and Norwegian Forest Cat.
+- [W18.208] Additionally, there even exist cats which express all three natural types of cat hair in different lengths and structures, which form three different layers.
+- [W18.209] These cats are called triple-coated.
+- [W18.210] Siberians and Neva Masquerades are known for their unique triple coats, which provided their landrace ancestors with extra insulation to withstand their arctic habitat.
+- [W18.211] There have been many genes identified that result in unusual cat fur.
+- [W18.212] These genes have been discovered in random-bred and purebred cats worldwide, and are sometimes selectively bred into new breeds or breed varieties.
+- [W18.213] Some of the genes are in danger of going extinct because the cats are not sold beyond the region where the mutation originated or there is simply not enough demand for cats expressing the mutation.
+- [W18.214] In many breeds, coat gene mutations are perceived as unfavourable.
+- [W18.215] An example is the rex allele which appeared in Maine Coons in the early 1990s in Germany, the UK and the US.
+- [W18.216] Cat fur length is governed by the Length gene in which the dominant form, L, codes for short hair, and the recessive l codes for long hair.
+- [W18.217] In the longhaired cat, the transition from anagen (hair growth) to catagen (cessation of hair growth) is delayed due to this mutation.
+- [W18.218] A rare recessive shorthair gene has been observed in some lines of (silver) Persian where two longhaired parents have produced shorthaired offspring.
+- [W18.219] The Length gene has been identified as the fibroblast growth factor 5 (FGF5; M3X9S6) gene.
+- [W18.220] The dominant allele codes for the short coat is seen in most cats.
+- [W18.221] Long coats are coded for by at least four different recessively inherited mutations, the alleles of which have been identified.
+- [W18.222] The most ubiquitous is found in most or all long haired breeds while the remaining three are found only in Ragdolls, Norwegian Forest Cats, and Maine Coons.
+- [W18.223] There are various genes producing curly-coated or "rex" cats.
+- [W18.224] New types of rex arise spontaneously in random-bred cats now and then.
+- [W18.225] Some of the rex genes that breeders have selected for are:
+- [W18.226] Mutation in KRT71 (E1AB55), the same gene causing hairlessness in Sphynx cats. re is an allele completely recessive to the wildtype and completely dominant to hr found in Sphynx.
+- [W18.227] Mutation in LPAR6 (A0A5F5XLZ8).
+- [W18.228] A completely recessive allele termed r.
+- [W18.229] Provisionally an allele termed gr.
+- [W18.230] Same locus as Cornish, but proposed as a different allele.
+- [W18.231] However, most breeders consider the German Rex to have r/r genotype.
+- [W18.232] A hypothetical recessive allele termed ro.
+- [W18.233] A dominant allele termed Se, although sometimes described as an incomplete dominant because the three possible allele pairings relate to three different phenotypes: heterozygous cats (Se/se) may have a fuller coat that is preferred in the show ring, while homozygous cats (Se/Se) may have a tighter curl and less coat volume.
+- [W18.234] (se/se type cats have a normal coat.) This phenomenon may also colloquially be referred to as additive dominance.
+- [W18.235] Provisional completely dominant Lp allele.
+- [W18.236] There are also genes for hairlessness:
+- [W18.237] h=French hairless cat, recessive.
+- [W18.238] hd=British hairless cat, recessive.
+- [W18.239] Hp=Russian Donskoy and Peterbald, dominant.
+- [W18.240] Some rex cats are prone to temporary hairlessness, known as baldness, during moulting.
+- [W18.241] Here are a few other genes resulting in unusual fur:
+- [W18.242] The Wh gene (dominant, possibly incomplete) results in Wirehair cats.
+- [W18.243] They have bent or crooked hair producing springy, crinkled fur.
+- [W18.244] A hypothetical Yuc gene, or York Chocolate undercoat gene, results in cats with no undercoat.
+- [W18.245] However, the proportional relationship between guard, awn, and down hair production varies greatly between all breeds.
+- [W18.246] A recessive autosomal gene for Onion hair which causes roughness and swelling on the hairs.
+- [W18.247] The swelling is due to enlargement of the inner core of medulla cells.
+- [W18.248] A recessive autosomal gene spf for sparse fur.
+- [W18.249] As well as sparse coat, the hairs are thin, straggly and contorted and there is brown exudate around the eyes and nose and on the chest and stomach.
+- [W18.250] A similar condition is linked to Ornithine Transcarbamylase Deficiency in mice.
+- [W18.251] Loci for coat colour, type and length
+- [W18.252] Cat Genetics articles in plain English
+- [W18.253] The Pigment Parade: White and White Spotting in the Cat
+
+## [W19] Wikipedia: Sickle cell disease
+https://en.wikipedia.org/w/index.php?title=Sickle_cell_disease&oldid=1381768036 · CC BY-SA 4.0 · usage: ai_input
+
+- [W19.1] Sickle cell disease (SCD), also simply called sickle cell, is a group of inherited hemoglobin-related blood disorders.
+- [W19.2] Sickle cell disease is caused by an abnormality in the oxygen-carrying protein haemoglobin found in red blood cells.
+- [W19.3] This leads to the red blood cells adopting an abnormal sickle-like shape under certain circumstances.
+- [W19.4] With this shape, they cannot deform as they pass through capillaries, causing blockages.
+- [W19.5] Problems in sickle cell disease typically begin around 5 to 6 months of age.
+- [W19.6] Several health problems may develop, such as attacks of pain (known as a sickle cell crisis) in joints, anaemia, swelling in the hands and feet, bacterial infections, dizziness and stroke.
+- [W19.7] The probability of severe symptoms, including long-term pain, increases with age.
+- [W19.8] Without treatment, people with sickle cell disease rarely reach adulthood, but with good healthcare, median life expectancy is between 58 and 66 years.
+- [W19.9] All of the major organs are affected by sickle cell disease.
+- [W19.10] The liver, heart, kidneys, lungs, gallbladder, eyes, bones, and joints can be damaged by abnormal sickle cells and their inability to flow through the small blood vessels.
+- [W19.11] Sickle cell disease occurs when a person inherits two abnormal copies of the β-globin gene that make haemoglobin, one from each parent.
+- [W19.12] The abnormal gene generates haemoglobin S (HbS) which changes the properties of red blood cells.
+- [W19.13] A sickle cell crisis occurs when red blood cells switch from the normal saucer-like shape to a sickle-like shape, which can obstruct small blood vessels; an attack can be set off by temperature changes, stress, dehydration, and high altitude.
+- [W19.14] A person with a single abnormal gene does not usually have symptoms and is said to have sickle cell trait; these people are also referred to as carriers.
+- [W19.15] Diagnosis is by a blood test.
+- [W19.16] Some countries test all babies at birth for the disease.
+- [W19.17] Diagnosis of the unborn foetus is also possible during pregnancy.
+- [W19.18] The care of people with sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, and pain medication.
+- [W19.19] Other measures may include blood transfusion and the medication hydroxycarbamide (hydroxyurea).
+- [W19.20] In 2023, new gene therapies were approved involving the genetic modification and replacement of blood forming stem cells in the bone marrow.
+- [W19.21] As of 2021, sickle cell disease is estimated to affect about 7.7 million people worldwide, directly causing an estimated 34,000 annual deaths and a contributory factor to a further 376,000 deaths.
+- [W19.22] About 80% of sickle cell disease cases are believed to occur in sub-Saharan Africa.
+- [W19.23] It also occurs to a lesser degree among people in parts of India, Southern Europe, West Asia, North Africa and among people of African origin (sub-Saharan) living in other parts of the world.
+- [W19.24] The condition was first described in the medical literature by American physician James B. Herrick in 1910.
+- [W19.25] In 1949, its genetic transmission was determined by E. A. Beet and J. V. Neel.
+- [W19.26] In 1954, it was established that carriers of the abnormal gene are protected to some degree against malaria, which accounts for its persistence in populations threatened by malaria.
+- [W19.27] Signs of sickle cell disease usually begin in early childhood.
+- [W19.28] The severity of symptoms can vary from person to person, as can the frequency of crisis events.
+- [W19.29] Sickle cell disease may lead to various acute and chronic complications, several of which have a high mortality rate.
+- [W19.30] When sickle cell disease presents within the first year of life, the most common problem is an episode of pain and swelling in the child's hands and feet, known as dactylitis or "hand-foot syndrome".
+- [W19.31] Pallor, jaundice, and fatigue can also be early signs due to anaemia resulting from sickle cell disease.
+- [W19.32] In children older than 2 years, the most common initial presentation is a painful episode of a generalised or variable nature, while a slightly less common presentation involves acute chest pain.
+- [W19.33] Dactylitis is rare or almost never occurs in children over the age of 2.
+- [W19.34] Also termed "sickle cell crisis" or "sickling crisis", the vaso-occlusive crisis (VOC) manifests principally as extreme pain, most often affecting the chest, back, legs, and/or arms.
+- [W19.35] The underlying cause is sickle-shaped red blood cells that obstruct capillaries and restrict blood flow to an organ, resulting in ischaemia, pain, necrosis, and often organ damage.
+- [W19.36] The frequency, severity, and duration of these crises vary considerably.
+- [W19.37] Milder crises can be managed with nonsteroidal anti-inflammatory drugs.
+- [W19.38] For more severe crises, patients may require inpatient management for intravenous opioids.
+- [W19.39] Vaso-occlusive crisis involving organs such as the lungs or the penis are considered an emergency and treated with red blood cell transfusions.
+- [W19.40] A VOC can be triggered by anything which causes blood vessels to constrict; this includes physical or mental stress, cold, and dehydration.
+- [W19.41] "After Haemoglobin S (HbS) deoxygenates in the capillaries, it takes some time (seconds) for HbS polymerization and the subsequent flexible-to-rigid transformation.
+- [W19.42] If the transit time of RBC through the microvasculature is longer than the polymerization time, sickled RBC will lodge in the microvasculature."
+- [W19.43] Splenic sequestration crisis
+- [W19.44] The spleen is prone to damage in sickle cell disease due to its role as a blood filter.
+- [W19.45] A splenic sequestration crisis, also known as a spleen crisis, is a medical emergency that occurs when sickled red blood cells block the spleen's filter mechanism, causing the spleen to swell and fill with blood.
+- [W19.46] The accumulation of red blood cells in the spleen results in a sudden drop in circulating haemoglobin and potentially life-threatening anaemia.
+- [W19.47] Symptoms include left-sided pain, swollen spleen (which can be detected by palpation), fatigue, dizziness, irritability, rapid heartbeat, or pale skin.
+- [W19.48] It most commonly affects young children; the median age of first occurrence is 1.4 years.
+- [W19.49] By the age of 5 years, repeated instances of sequestration cause scarring and eventual atrophy of the spleen.
+- [W19.50] Treatment is supportive, with blood transfusion if haemoglobin levels fall too low.
+- [W19.51] Full or partial splenectomy may be necessary.
+- [W19.52] Long-term consequences of a loss of spleen function are increased susceptibility to bacterial infections.
+- [W19.53] Acute chest syndrome is caused by a VOC which affects the lungs, possibly triggered by infection or by emboli which have circulated from other organs.
+- [W19.54] Symptoms include wheezing, chest pain, fever, pulmonary infiltrate (visible on x-ray), and hypoxemia.
+- [W19.55] After a sickling crisis (see above), it is the second-most common cause of hospitalisation, and it accounts for about 25% of deaths in patients with sickle cell disease.
+- [W19.56] Most cases present with vaso-occlusive crises and then develop acute chest syndrome.
+- [W19.57] Aplastic crises are instances of an acute worsening of the patient's baseline anaemia, producing pale appearance, fast heart rate, and fatigue.
+- [W19.58] This crisis is normally triggered by parvovirus B19, which directly affects production of red blood cells by invading the red cell precursors and multiplying in and destroying them.
+- [W19.59] Parvovirus infection  almost completely prevents red blood cell production for two to three days (red cell aplasia).
+- [W19.60] In normal individuals, this is of little consequence, but the shortened red cell life of people with sickle cell disease results in an abrupt, life-threatening situation.
+- [W19.61] Reticulocyte count drops dramatically during the disease (causing reticulocytopenia), red cell production lapses, and the rapid destruction of existing red cells leads to acute and severe anaemia.
+- [W19.62] This crisis takes four to seven days to resolve.
+- [W19.63] Most patients can be managed supportively; some need a blood transfusion.
+- [W19.64] Sickle cell anaemia can lead to various complications, including:
+- [W19.65] An increased risk of severe bacterial infections is due to the loss of functioning spleen tissue.
+- [W19.66] These infections are typically caused by bacteria such as Streptococcus pneumoniae and Haemophilus influenzae.
+- [W19.67] Daily penicillin prophylaxis is the most commonly used treatment during childhood, with some haematologists continuing treatment indefinitely.
+- [W19.68] Patients benefit from routine vaccination for S. pneumoniae.
+- [W19.69] Stroke can result from blockage of blood vessels in the brain, causing numbness, confusion, or weakness, which may be long-lasting.
+- [W19.70] Silent stroke causes no immediate symptoms, but is associated with damage to the brain.
+- [W19.71] Silent stroke is probably five times as common as symptomatic stroke.
+- [W19.72] About 10–15% of children with sickle cell disease have strokes, with silent strokes predominating in the younger patients.
+- [W19.73] Cholelithiasis (gallstones) and cholecystitis may result from excessive bilirubin production and precipitation due to prolonged haemolysis.
+- [W19.74] Avascular necrosis (aseptic bone necrosis) of the hip and other major joints may occur as a result of ischaemia.
+- [W19.75] Priapism and infarction of the penis.
+- [W19.76] Osteomyelitis (bacterial bone infection) as a result of damage to the spleen, commonly caused by either Staphylococcus aureus or species of Salmonella.
+- [W19.77] Chronic kidney failure due to sickle-cell nephropathy manifests itself with hypertension, protein loss in the urine, loss of red blood cells in urine, and worsened anaemia.
+- [W19.78] If it progresses to end-stage kidney failure, it carries a poor prognosis.
+- [W19.79] Leg ulcers are relatively common in sickle cell disease and can be disabling.
+- [W19.80] In the eyes, background retinopathy, proliferative retinopathy, vitreous haemorrhages, and retinal detachments can result in blindness.
+- [W19.81] During pregnancy, intrauterine growth restriction, spontaneous abortion, and pre-eclampsia
+- [W19.82] Chronic pain: Even in the absence of acute vaso-occlusive pain, many patients have unreported chronic pain.
+- [W19.83] Pulmonary hypertension (increased pressure on the pulmonary artery) can lead to strain on the right ventricle and a risk of heart failure; typical symptoms are shortness of breath, decreased exercise tolerance, and episodes of syncope.
+- [W19.84] Evidence of pulmonary hypertension is found in 21% of children and 30% of adults when tested; this is associated with reduced walking distance and increased mortality.
+- [W19.85] Diastolic dysfunction in the left ventricle and cardiomyopathy, caused by fibrosis or scarring of cardiac tissues.
+- [W19.86] This also contributes to pulmonary hypertension, decreased exercise capacity, and arrhythmias.
+- [W19.87] Haemoglobin is an oxygen-binding protein, found in erythrocytes, which transports oxygen from the lungs (or in the foetus, from the placenta) to the tissues.
+- [W19.88] Each molecule of haemoglobin comprises 4 protein subunits, referred to as globins.
+- [W19.89] haemoglobin F (foetal haemoglobin, HbF), consisting of two alpha (α-globin) and two gamma (γ-globin) chains.
+- [W19.90] This dominates during foetal development and until about 6 weeks of age.
+- [W19.91] Afterwards, haemoglobin A remains dominant throughout life.
+- [W19.92] haemoglobin A (adult haemoglobin, HbA), which consists of two alpha and two beta (β-globin) chains.
+- [W19.93] This is the most common human haemoglobin tetramer, accounting for over 97% of the total red blood cell haemoglobin in normal adults.
+- [W19.94] Haemoglobin B2 (HbA2) is a second form of adult haemoglobin and is composed of two alpha and two delta (δ-globin) chains.
+- [W19.95] This haemoglobin typically comprises 1–3% of haemoglobin in adults.
+- [W19.96] β-globin is encoded by the HBB gene on human chromosome 11; mutations in this gene produce variants of the protein which are implicated with abnormal hemoglobins.
+- [W19.97] The mutation that causes sickle cell disease results in an abnormal haemoglobin known as haemoglobin S (HbS), which replaces HbA in adults.
+- [W19.98] The human genome contains a pair of genes for β-globin; in people with sickle cell disease, both genes are affected, and the erythropoietic cells in the bone marrow will only create HbS.
+- [W19.99] In people with sickle cell trait, only one gene is abnormal; erythropoiesis generates a mixture of normal HbA and sickle HbS.
+- [W19.100] The person has very few, if any, symptoms of sickle cell disease but carries the gene and can pass it on to their children.
+- [W19.101] Sickle cell disease has an autosomal recessive pattern of inheritance.
+- [W19.102] Both copies of the affected gene must carry the same mutation (homozygous condition) for a person to be affected by an autosomal recessive disorder.
+- [W19.103] An affected person usually has unaffected parents, each of whom carries one mutated gene and one normal gene (heterozygous condition) and is referred to as a genetic carrier; they may not have any symptoms.
+- [W19.104] When both parents have the sickle cell trait, any given child has a 25% chance of sickle cell disease; a 25% chance of no sickle cell alleles, and a 50% chance of the heterozygous condition (see diagram).
+- [W19.105] There are several different haplotypes of the sickle cell gene mutation, indicating that it may have arisen spontaneously in different geographic areas.
+- [W19.106] The variants are known as Cameroon, Senegal, Benin, Bantu, and Saudi-Asian.
+- [W19.107] These are clinically important because some are associated with higher HbF levels, e.g., Senegal and Saudi-Asian variants, and tend to have milder disease.
+- [W19.108] The gene defect is a single nucleotide mutation of the β-globin gene, which results in the amino acid glutamic acid being substituted by valine at position 6 of the β-globin chain.
+- [W19.109] Haemoglobin S with this mutation is referred to as HbS, as opposed to the normal adult HbA.
+- [W19.110] Under conditions of normal oxygen concentration, this causes no apparent effects on the structure of haemoglobin or its ability to transport oxygen around the body.
+- [W19.111] However, the deoxy form of HbS has an exposed hydrophobic patch, which causes HbS molecules to form long, inflexible chains.
+- [W19.112] Under conditions of low oxygen concentration in the bloodstream, such as exercise, stress, altitude, or dehydration, HbS polymerisation forms fibrous precipitates within the red blood cell.
+- [W19.113] In people homozygous for the sickle cell mutation, the presence of long-chain polymers of HbS distort the shape of the red blood cell from a smooth, doughnut-like shape to the sickle shape, making it fragile and susceptible to blocking or breaking within capillaries.
+- [W19.114] In people heterozygous for HbS (carriers of sickle cell disease), the polymerisation problems are minor because the normal allele can produce half of the haemoglobin.
+- [W19.115] Sickle cell carriers have symptoms only if they are deprived of oxygen (for example, at altitude) or while severely dehydrated.
+- [W19.116] SCD is most prevalent in areas in which malaria has historically been endemic.
+- [W19.117] The sickle cell trait gives carriers a survival advantage against malaria fatality over people with normal haemoglobin in regions where malaria is endemic.
+- [W19.118] Infection with the malaria parasite affects asymptomatic carriers of the abnormal haemoglobin gene differently from people with full sickle cell disease.
+- [W19.119] Carriers (heterozygous for the gene) who catch malaria are less likely to suffer from severe symptoms than people with normal haemoglobin.
+- [W19.120] People with sickle cell disease (homozygous for the gene) are similarly less likely to become infected with malaria; however, once infected, they are more likely to develop severe and life-threatening anaemia.
+- [W19.121] The impact of sickle cell anaemia on malaria immunity illustrates some evolutionary trade-offs that have occurred because of endemic malaria.
+- [W19.122] Although the shorter life expectancy for those with the homozygous condition would tend to disfavour the trait's survival, the trait is preserved in malaria-prone regions because of the benefits provided by the heterozygous form; an example of natural selection.
+- [W19.123] Due to the adaptive advantage of the heterozygote, the disease is still prevalent, especially among people with recent ancestry in malaria-stricken areas, such as Africa, the Mediterranean, India, and the Middle East.
+- [W19.124] Malaria was historically endemic to southern Europe, but it was declared eradicated in the mid-20th century, except rare sporadic cases.
+- [W19.125] The malaria parasite has a complex lifecycle and spends part of it in red blood cells.
+- [W19.126] There are two mechanisms that protect sickle cell carriers from malaria.
+- [W19.127] One is that the parasite is hindered from growing and reproducing in a carrier's red blood cells; another is that a carrier's red cells show signs of damage when infected, and are detected and destroyed as they pass through the spleen.
+- [W19.128] When exposed to low oxygen concentrations, haemoglobin S polymerises into long strands within red blood cells (RBCs).
+- [W19.129] These strands distort the shape of the cell and, after a few seconds, cause it to adopt an abnormal, inflexible, sickle-like shape.
+- [W19.130] This process reverses when oxygen concentration is raised, and the cells resume their normal biconcave disc shape.
+- [W19.131] If sickling takes place in the venous system, after blood has passed through the capillaries, it does not affect the organs, and the RBCs can unsickle when they become oxygenated in the lungs.
+- [W19.132] Repeated switching between sickle and normal shapes damages the membrane of the RBC so that it eventually becomes permanently sickled.
+- [W19.133] Normal red blood cells are quite elastic and have a biconcave disc shape, which allows the cells to deform to pass through capillaries.
+- [W19.134] In sickle cell disease, low oxygen tension promotes red blood cell sickling and repeated sickling episodes damage the cell membrane and decrease the cell's elasticity.
+- [W19.135] These cells fail to return to normal shape when oxygen tension is restored.
+- [W19.136] As a consequence, these rigid blood cells are unable to deform as they pass through narrow capillaries, leading to vessel occlusion and ischaemia.
+- [W19.137] Sickled cells are detected as they pass through the spleen and are destroyed.
+- [W19.138] In young children with sickle cell disease, the accumulation of sickled cells in the spleen can result in splenic sequestration crisis.
+- [W19.139] In this, the spleen becomes engorged with blood, depriving the general circulation of blood cells and leading to severe anaemia.
+- [W19.140] The spleen initially becomes noticeably swollen, but the lack of a healthy blood flow through the organ culminates in scarring of the spleen tissues and eventually death of the organ, generally before the age of 5 years.
+- [W19.141] The actual anaemia of the illness is caused by haemolysis, the destruction of the red cells, because of their shape.
+- [W19.142] Although the bone marrow attempts to compensate by releasing new red cells, the rate of destruction exceeds this.
+- [W19.143] Healthy red blood cells typically function for 90–120 days; however, sickled cells only last 10–20 days.
+- [W19.144] The rapid breakdown of RBCs in sickle cell disease results in the release of free heme into the bloodstream, exceeding the body's protective mechanisms.
+- [W19.145] Although heme is an essential component of haemoglobin, it is also a potent oxidative molecule.
+- [W19.146] Free heme is also an alarmin – a signal of tissue damage or infection, which triggers defensive responses in the body and increases the risk of inflammation and vaso-occlusive events.
+- [W19.147] Prenatal and newborn screening
+- [W19.148] Checking for sickle cell disease begins during pregnancy, with a prenatal screening questionnaire that includes, among other things, a consideration of health issues in the child's parents and close relatives.
+- [W19.149] During pregnancy, genetic testing can be done on either a blood sample from the foetus or a sample of amniotic fluid.
+- [W19.150] During the first trimester of pregnancy, chorionic villus sampling (CVS) is a technique used for prenatal diagnosis of sickle cell disease.
+- [W19.151] A routine heel prick test, in which a small sample of blood is collected a few days after birth, is used to check conclusively for sickle cell disease as well as other inherited conditions.
+- [W19.152] Where sickle cell disease is suspected, several tests can be used.
+- [W19.153] Often, a simpler, cheaper test is applied first, with a more complex test, such as DNA analysis, used to confirm a positive result.
+- [W19.154] Two tests that are specific to sickle cell disease:
+- [W19.155] A blood smear is a thin layer of blood smeared on a glass microscope slide and then stained in such a way as to allow the various blood cells to be examined microscopically.
+- [W19.156] This technique can be used to detect sickled cells visually; however, it does not detect sickle cell carriers.
+- [W19.157] A solubility test relies on the fact that HbS is less soluble than normal haemoglobin (HbA); it is highly reliable but does not distinguish between full sickle cell disease and carrier status.
+- [W19.158] Tests which can be used for sickle cell disease as well as for other hemoglobinopathies:
+- [W19.159] Haemoglobin electrophoresis is a test that can detect different types of haemoglobin.
+- [W19.160] Haemoglobin is extracted from the red cells, then introduced into a porous gel and subjected to an electrical field.
+- [W19.161] This separates normal and abnormal haemoglobin, which can then be identified and quantified.
+- [W19.162] Isoelectric focusing (IEF) is a technique that can be used to diagnose sickle cell disease and other hemoglobinopathies.
+- [W19.163] The technique separates molecules based on their isoelectric point, or the pH at which they have no net electrical charge.
+- [W19.164] IEF uses an electric charge to separate and identify different types of haemoglobin, which become focused into sharp, stationary bands.
+- [W19.165] The technique can distinguish many types of abnormal haemoglobin.
+- [W19.166] High-performance liquid chromatography (HPLC) is reliable, fully automated, and able to distinguish most types of sickle cell disease, including heterozygous.
+- [W19.167] The method separates and quantifies haemoglobin fractions by measuring their flow rate through a column of absorbent material.
+- [W19.168] DNA analysis using polymerase chain reaction (PCR), to amplify small samples of DNA.
+- [W19.169] Variants of PCR used to diagnose sickle cell disease include amplification-refractory mutation system (ARMS) and allele-specific recombinase polymerase amplification.
+- [W19.170] These tests can identify subtypes of sickle cell disease as well as combination hemoglobinopathies.
+- [W19.171] Genetic counselling is the process by which people with a hereditary disorder are advised of the probability of transmitting it and how this may be prevented or ameliorated.
+- [W19.172] People who are known carriers of the disease or at risk of having a child with sickle cell anaemia may undergo genetic counselling.
+- [W19.173] Genetic counsellors work with families to discuss the benefits, limitations, and logistics of genetic testing options as well as the potential impact of testing and test results on the individual.
+- [W19.174] Counselling is best given before a child is conceived, and several possible courses could be suggested.
+- [W19.175] These include adoption, the use of eggs or sperm from a healthy donor, and in-vitro fertilisation (IVF) when combined with pre-implantation genetic diagnosis of the embryos.
+- [W19.176] Several precautions can help reduce the risk of developing a sickling crisis.
+- [W19.177] Lifestyle behaviours include maintaining good hydration and avoiding physical stress or exhaustion.
+- [W19.178] Since low oxygen levels can trigger sickling, people with sickle cell disease should avoid high altitudes, such as high mountains or flying in unpressurised aircraft.
+- [W19.179] People with sickle cell disease should avoid alcohol and smoking, as alcohol can cause dehydration and smoking can trigger acute chest syndrome.
+- [W19.180] Stress can also trigger a sickle cell crisis, so relaxation techniques like breathing exercises can help.
+- [W19.181] Pneumococcal infection is a leading cause of death among children with sickle cell disease; penicillin is recommended daily during the first 5 years of life to minimise the risk of infection.
+- [W19.182] Dietary supplementation of folic acid is sometimes recommended, on the basis that it facilitates the creation of new red blood cells and may reduce anaemia.
+- [W19.183] A Cochrane review of its use in 2016 found "the effect of supplementation on anaemia and any symptoms of anaemia remains unclear" due to a lack of medical evidence.
+- [W19.184] People with sickle cell disease are recommended to receive all vaccinations recommended by health authorities to avoid serious infection, which might trigger a sickling crisis.
+- [W19.185] Hydroxyurea was the first approved drug for the treatment of sickle cell disease.
+- [W19.186] It has been shown to decrease the number and severity of attacks and possibly increase survival time.
+- [W19.187] This is achieved, in part, by reactivating foetal haemoglobin production in place of the haemoglobin S that causes sickling.
+- [W19.188] Hydroxyurea lowers the expression of adhesion molecules on endothelial and red blood cells, which lowers the chance of small vessel blockages.
+- [W19.189] Additionally, it encourages the release of nitric oxide, which enhances blood flow and inhibits clot formation.
+- [W19.190] Hydroxyurea had previously been used as a chemotherapy agent.
+- [W19.191] Some concern exists that long-term use may be harmful.
+- [W19.192] A Cochrane review in 2022 found a weak evidence base for its use in sickle cell disease.
+- [W19.193] Despite expanding progress in gene therapy for SCD treatment, hydroxyurea remains a cornerstone first line therapy.
+- [W19.194] However, it is severely underutilized despite the reduction of vaso-occlusive crises by approximately 44% and reduced hospitalizations.
+- [W19.195] In 2019, the United States granted accelerated approval to the medication Voxelotor to treat sickle cell disease.
+- [W19.196] It was approved by the European Medicines Agency (EMA) in 2021.
+- [W19.197] In trials, it had been shown to have disease-modifying potential by increasing haemoglobin levels and decreasing hemolysis indicators However, following an increased risk of vaso-occlusive seizures and death observed in registries and clinical trials, the manufacturer, Pfizer, withdrew it from the market worldwide.
+- [W19.198] The simple, or top-up transfusion, is a procedure in which healthy blood cells from a donor are infused into the patient's bloodstream.
+- [W19.199] This benefits by alleviating anaemia, increasing tissue oxygen levels, reducing the risk of sickling, and relieving sickling symptoms.
+- [W19.200] A simple transfusion can be used to treat sickle cell disease when haemoglobin levels drop too low, or to prepare for an operation or pregnancy.
+- [W19.201] It can also be used to protect against long-term complications or to reduce the risk of stroke.
+- [W19.202] An exchange transfusion is a procedure in which blood is removed from the body, then processed to extract sickled cells, which are replaced by healthy red blood cells from a donor.
+- [W19.203] The treated blood, including white cells and plasma, is then returned to the patient.
+- [W19.204] Exchange transfusions are likely to be needed in an emergency, in severe cases of sickle cell disease, or to support a mother during pregnancy.
+- [W19.205] Transcranial Doppler ultrasound (TCD) can detect children with sickle cell who have a high risk for stroke.
+- [W19.206] The ultrasound test detects partially obstructed blood vessels by measuring blood flow into the brain, as blood flow velocity is inversely related to arterial diameter.
+- [W19.207] Consequently, high blood flow velocity correlates with narrowed arteries.
+- [W19.208] In children, preventive RBC transfusion therapy has been shown to reduce the risk of first stroke or silent stroke when transcranial Doppler ultrasonography shows abnormal cerebral blood flow.
+- [W19.209] In those who have sustained a prior stroke event, it also reduces the risk of recurrent stroke and additional silent strokes.
+- [W19.210] Most people with sickle cell disease have intensely painful episodes called vaso-occlusive crises (VOC).
+- [W19.211] However, the frequency, severity, and duration of these crises vary tremendously.
+- [W19.212] In a VOC, the circulation of blood vessels is obstructed by sickled red blood cells, causing ischemic injuries to the tissues, inflammation, and pain.
+- [W19.213] Recurrent episodes may cause irreversible organ damage.
+- [W19.214] The most common and obvious symptom of a VOC is pain, which may be felt anywhere in the body but most commonly in the limbs and back.
+- [W19.215] The degree of pain varies from mild to severe.
+- [W19.216] Home treatment options include bed rest and hydration, and pain control using over-the-counter medication such as paracetamol or ibuprofen.
+- [W19.217] More severe cases may require prescription opioids such as codeine or morphine for pain control.
+- [W19.218] In 2019, crizanlizumab, a monoclonal antibody targeting P-selectin, was approved in the United States to reduce the frequency of vaso-occlusive crisis in those 16 years and older.
+- [W19.219] It had also been approved in the UK and the European Union.
+- [W19.220] In both cases, authorisation was subsequently withdrawn because of poor evidence of its effectiveness.
+- [W19.221] Acute chest syndrome is caused by vaso-occlusion occurring in the lungs.
+- [W19.222] As with a VOC, treatment includes pain control and hydration.
+- [W19.223] Antibiotics are required because there is a severe risk of pulmonary infection, and oxygen supplementation for hypoxia.
+- [W19.224] Blood transfusion may also be required, or exchange transfusion in severe cases.
+- [W19.225] Treating avascular necrosis
+- [W19.226] When treating avascular necrosis of the bone in people with sickle cell disease, treatment aims to reduce or stop the pain and maintain joint mobility.
+- [W19.227] Treatment options include resting the joint, physical therapy, pain-relief medicine, joint-replacement surgery, or bone grafting.
+- [W19.228] Psychological therapies such as patient education, cognitive therapy, behavioural therapy, and psychodynamic psychotherapy, that aim to complement current medical treatments, require further research to determine their effectiveness.
+- [W19.229] Haematopoietic stem cells (HSC) are cells in the bone marrow that can develop into all types of blood cells, including red blood cells, white blood cells, and platelets.
+- [W19.230] There are two possible ways to treat sickle cell disease and some other hemoglobinopathies by targeting HSCs.
+- [W19.231] Since 1991, a small number of patients have received bone marrow transplants from healthy matched donors.
+- [W19.232] This procedure is high-risk.
+- [W19.233] More recently, it has become possible to use CRISPR gene editing technology to modify the patient's own HSCs in a way that reduces or eliminates the production of sickle haemoglobin HbS and replaces it with a non-sickling form of haemoglobin.
+- [W19.234] All stem cell treatments must involve myeloablation of the patients' bone marrow to remove HSCs containing the faulty gene.
+- [W19.235] This requires high doses of chemotherapy agents with side effects such as sickness and fatigue.
+- [W19.236] A long hospital stay is necessary after infusion of the replacement HSCs, while the cells take up residence in the bone marrow and make red blood cells with the stable form of haemoglobin.
+- [W19.237] Gene therapy was first trialled in 2014 on a single patient, and followed by clinical trials in which several patients were successfully treated.
+- [W19.238] In 2023, both exagamglogene autotemcel (Casgevy) and lovotibeglogene autotemcel (Lyfgenia) were approved for the treatment of sickle cell disease.
+- [W19.239] Kendric Cromer in October 2024 became the first commercial case in the US to receive gene therapy and was discharged from Children's National Hospital.
+- [W19.240] The one-off gene-editing therapy, Casgevy, also known as Exa-cel, is to be offered to patients on the National Health Service (NHS) in England as from 2025.
+- [W19.241] Both Casgevy and Lyfgenia work by first harvesting the patient's HSCs, then using CRISPR gene editing to modify their DNA in the laboratory.
+- [W19.242] In parallel, the person with sickle cell disease's bone marrow undergoes a myeloablation procedure to destroy the remaining HSCs.
+- [W19.243] The treated cells are then infused back into the patient, where they colonise the bone marrow and eventually resume production of blood cells.
+- [W19.244] Casgevy works by editing the BCL11A gene, which normally inhibits haemoglobin F (foetal haemoglobin) production in adults.
+- [W19.245] The edit increases HbF production, which is not prone to sickling.
+- [W19.246] Lyfgenia introduces a new gene for T87Q-globin, which coexists with the sickling beta-globin but reduces the incidence of sickling.
+- [W19.247] A study published in the New England Journal of Medicine in April 2026 showed a new CRISPR gene therapy labeled renizgamglogene autogedtemcel (abbreviated to reni-cel) that increased total hemoglobin from 9.8 to 13.8g/dL.
+- [W19.248] However, the study was terminated due to the sponsor's decision.
+- [W19.249] Hematopoietic stem cell transplantation
+- [W19.250] Hematopoietic stem cell transplantation (HSCT) involves replacing the dysfunctional stem cells from a person with sickle cell disease with healthy cells from a well-matched donor.
+- [W19.251] Finding a well matched donor is essential to the process' success.
+- [W19.252] Different types of donors may be suitable, including umbilical cord blood, human leukocyte antigen (HLA) matched relatives, or HLA-matched donors who are not related to the person being treated.
+- [W19.253] Risks associated with HSCT can include graft-versus-host disease, failure of the graft, and other toxicity related to the transplant.
+- [W19.254] Sickle cell disease is most prevalent in sub-saharan Africa.
+- [W19.255] In areas without healthcare infrastructure, it is estimated that between 50% and 90% of children born with the disease die before the age of 5 years.
+- [W19.256] In contrast, life expectancy in the United States in 2010–2020 was 43 years and in the UK 67 years.
+- [W19.257] The HbS gene can be found in every ethnic group.
+- [W19.258] The highest frequency of sickle cell disease is found in tropical regions, particularly sub-Saharan Africa, tribal regions of India, and the Middle East.
+- [W19.259] About 80% of sickle cell disease cases are believed to occur in Sub-Saharan Africa.
+- [W19.260] Migration of substantial populations from these high-prevalence areas to low-prevalence countries in Europe has dramatically increased in recent decades and in some European countries, sickle cell disease has now overtaken more familiar genetic conditions such as haemophilia and cystic fibrosis.
+- [W19.261] In 2015, it resulted in about 114,800 deaths.
+- [W19.262] Sickle cell disease occurs more commonly among people whose ancestors lived in tropical and subtropical sub-Saharan regions where malaria is or was common.
+- [W19.263] Where malaria is common, carrying a single sickle cell allele (trait) confers a heterozygote advantage; humans with one of the two alleles of sickle cell disease show less severe symptoms when infected with malaria.
+- [W19.264] This condition is inherited in an autosomal recessive pattern, meaning both copies of the gene in each cell have mutations.
+- [W19.265] The parents each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition.
+- [W19.266] Three-quarters of sickle cell cases occur in Africa.
+- [W19.267] A World Health Organization report dated 2006 estimated that around 2% of newborns in Nigeria are affected by sickle cell anaemia, giving a total of 150,000 affected children born every year in Nigeria alone.
+- [W19.268] The carrier frequency ranges between 10 and 40% across equatorial Africa, decreasing to 1–2% on the North African coast and <1% in South Africa.
+- [W19.269] In the West African countries of Ghana and Nigeria, the frequencies can vary from 15 to 30%.
+- [W19.270] In Nigeria, 24% of the population carries the gene, and 20 per 1,000 newborns are born with the disease, or 150,000 annually.
+- [W19.271] Uganda has the fifth-highest sickle cell disease burden in Africa.
+- [W19.272] One study indicates that 20,000 babies per year, or 0.7% of the total, are born with sickle cell disease, and 13.3% carry the trait.
+- [W19.273] In Uganda, carrier frequency of the trait varies strongly across tribal lines: among the Baamba, it reaches 45%.
+- [W19.274] The number of people with the disease in the United States is about 100,000 (one in 3,300), mostly affecting Americans of sub-Saharan African descent.
+- [W19.275] In the United States, about one out of 365 African-American children and one in every 16,300 Hispanic-American children have sickle cell anaemia.
+- [W19.276] The life expectancy for men with sickle cell disease is approximately 42 years of age while women live approximately six years longer.
+- [W19.277] An additional 2 million are carriers of the sickle cell trait.
+- [W19.278] Most infants with sickle cell disease born in the United States are identified by routine neonatal screening.
+- [W19.279] As of 2016, all 50 states include screening for sickle cell disease as part of their newborn screening.
+- [W19.280] The newborn's blood is sampled through a heel-prick and is sent to a lab for testing.
+- [W19.281] The baby must have been eating for at least 24 hours before the heel-prick test can be done.
+- [W19.282] Some states also require a second blood test to be done when the baby is two weeks old to confirm the results.
+- [W19.283] Sickle cell disease is the most common genetic disorder among African Americans.
+- [W19.284] Approximately 8% are carriers, and 1 in 375 are born with the disease.
+- [W19.285] Patient advocates for sickle cell disease have complained that it gets less government and private research funding than similar rare diseases such as cystic fibrosis, with researcher Elliott Vichinsky saying this shows racial discrimination or the role of wealth in health care advocacy.
+- [W19.286] Overall, without considering race, approximately 1.5% of infants born in the United States are carriers of at least one copy of the mutant (disease-causing) gene.
+- [W19.287] In June 2026 it was reported that Daniel Cressy, an African American from Louisiana was cured from the disease after going through curative gene therapy.
+- [W19.288] As a result of population growth in African-Caribbean regions of overseas France and immigration from North and sub-Saharan Africa to mainland France, sickle cell disease has become a major health problem in France.
+- [W19.289] Sickle cell disease has become the most common genetic disease in the country, with an overall birth prevalence of one in 2,415 in mainland France, ahead of phenylketonuria (one in 10,862), congenital hypothyroidism (one in 3,132), congenital adrenal hyperplasia (one in 19,008) and cystic fibrosis (one in 5,014) for the same reference period.
+- [W19.290] Since 2000, neonatal screening of sickle cell disease has been performed at the national level for all newborns defined as being "at-risk" for sickle cell disease based on ethnic origin (defined as those born to parents originating from sub-Saharan Africa, North Africa, the Mediterranean area (South Italy, Greece, and Turkey), the Arabic peninsula, the French overseas islands, and the Indian subcontinent).
+- [W19.291] Since 3 August 2024, this screening is systematically applied to all newborns in France.
+- [W19.292] In the United Kingdom, between 12,000 and 15,000 people are thought to have sickle cell disease  with an estimated 250,000 carriers of the condition in England alone.
+- [W19.293] As the number of carriers is only estimated, all newborn babies in the UK receive a routine blood test to screen for the condition.
+- [W19.294] Due to many adults in high-risk groups not knowing if they are carriers, pregnant women and both partners in a couple are offered screening so they can get counselling if they have the sickle cell trait.
+- [W19.295] In addition, blood donors from those in high-risk groups are also screened to confirm whether they are carriers and whether their blood filters properly.
+- [W19.296] Donors who are found to be carriers are informed, and their blood, while often used for those of the same ethnic group, is not used for those with sickle cell disease who require a blood transfusion.
+- [W19.297] In Saudi Arabia, about 4.2% of the population carries the sickle cell trait, and 0.26% have sickle cell disease.
+- [W19.298] The highest prevalence is in the Eastern province, where approximately 17% of the population carries the gene and 1.2% have sickle cell disease.
+- [W19.299] In 2005, Saudi Arabia introduced a mandatory premarital test including HB electrophoresis, which aimed to decrease the incidence of sickle cell disease and thalassemia.
+- [W19.300] In Bahrain, a study published in 1998 that covered about 56,000 people in hospitals in Bahrain found that 2% of newborns have sickle cell disease, 18% of the surveyed people have the sickle cell trait, and 24% were carriers of the gene mutation causing the disease.
+- [W19.301] The country began screening of all pregnant women in 1992, and newborns started being tested if the mother was a carrier.
+- [W19.302] In 2004, a law was passed requiring couples planning to marry to undergo free premarital counselling.
+- [W19.303] These programmes were accompanied by public education campaigns.
+- [W19.304] Sickle cell disease is common in some ethnic groups of central India, where the prevalence has ranged from 9.4 to 22.2% in endemic areas of Madhya Pradesh, Rajasthan, and Chhattisgarh.
+- [W19.305] It is also endemic among Tharu people of Nepal and India; however, they have a sevenfold lower rate of malaria despite living in a malaria infested zone.
+- [W19.306] In Jamaica, 10% of the population carries the sickle cell gene, making it the most prevalent genetic disorder in the country.
+- [W19.307] The first modern report of sickle cell disease may have been in 1846, where the autopsy of an executed runaway slave was discussed; the key finding was the absence of the spleen.
+- [W19.308] Reportedly, African slaves in the United States exhibited resistance to malaria, but were prone to leg ulcers.
+- [W19.309] The abnormal characteristics of the red blood cells, which later lent their name to the condition, were first described by Ernest E. Irons (1877–1959), intern to Chicago cardiologist and professor of medicine James B. Herrick (1861–1954), in 1910.
+- [W19.310] Irons saw "peculiar elongated and sickle-shaped" cells in the blood of a man named Walter Clement Noel, a 20-year-old first-year dental student from Grenada.
+- [W19.311] Noel had been admitted to the Chicago Presbyterian Hospital in December 1904 with anaemia.
+- [W19.312] Noel was readmitted several times over the next three years for "muscular rheumatism" and "bilious attacks" but completed his studies and returned to the capital of Grenada (St. George's) to practice dentistry.
+- [W19.313] He died of pneumonia in 1916 and is buried in the Catholic cemetery at Sauteurs in the north of Grenada.
+- [W19.314] Shortly after the report by Herrick, another case appeared in the Virginia Medical Semi-Monthly with the same title, "Peculiar Elongated and Sickle-Shaped Red Blood Corpuscles in a Case of Severe Anemia." This article is based on a patient admitted to the University of Virginia Hospital on 15 November 1910.
+- [W19.315] In the later description by Verne Mason in 1922, the name "sickle cell anemia" is first used.
+- [W19.316] Childhood problems related to sickle cells disease were not reported until the 1930s, even though this could not have been uncommon in African-American populations.
+- [W19.317] Memphis physician Lemuel Diggs, a prolific researcher into sickle cell disease, first introduced the distinction between sickle cell disease and trait in 1933.
+- [W19.318] Until 1949, the genetic characteristics had not been elucidated by James V. Neel and E.A.
+- [W19.319] 1949 was the year when Linus Pauling described the unusual chemical behaviour of haemoglobin S, and attributed this to an abnormality in the molecule itself.
+- [W19.320] The molecular change in HbS was described in 1956 by Vernon Ingram.
+- [W19.321] The late 1940s and early 1950s saw further understanding in the link between malaria and sickle cell disease.
+- [W19.322] In 1954, the introduction of haemoglobin electrophoresis allowed the discovery of particular subtypes, such as HbSC disease.
+- [W19.323] Large-scale natural history studies and further intervention studies were introduced in the 1970s and 1980s, leading to widespread use of prophylaxis against pneumococcal infections among other interventions.
+- [W19.324] Bill Cosby's Emmy-winning 1972 TV movie, To All My Friends on Shore, depicted the story of the parents of a child with sickle cell disease.
+- [W19.325] The 1990s had the development of hydroxycarbamide, and reports of cure through bone marrow transplantation appeared in 2007.
+- [W19.326] Some texts refer to it as drepanocytosis.
+- [W19.327] In the US, there can be stigma that hinders people with sickle cell disease from receiving necessary care; one element of this is attributed to racism as the majority of people with sickle cell disease are black.
+- [W19.328] Due to this, in 1970, the Black Panther Party (also known as the Black Panther Party for Self Defense) opened dozens of free clinics across the U.S. where free Sickle Cell Disease tests were offered.
+- [W19.329] Over the course of the 1970s, thousands of people, largely African-Americans, received testing at one of these clinics.
+- [W19.330] In September 2017, the US Social Security Administration issued a policy interpretation ruling providing background information on sickle cell disease and a description of how Social Security evaluates the disease during its adjudication process for disability claims.
+- [W19.331] Uganda has the fifth-highest sickle cell disease (SCD) burden in the world.
+- [W19.332] In Uganda, social stigma exists for those with sickle cell disease because of the lack of general knowledge of the disease, notably among adolescents and young adults due to the culturally sanctioned secrecy about the disease.
+- [W19.333] While most people have heard generally about the disease, a large portion of the population is relatively misinformed about how sickle cell disease is diagnosed or inherited.
+- [W19.334] Those who are informed about the disease learned about it from family or friends and not from health professionals.
+- [W19.335] Failure to provide the public with information about sickle cell disease results in a population with a poor understanding of the causes of the disease, symptoms, and prevention techniques.
+- [W19.336] The differences, physically and socially, that arise in those with sickle cell disease, such as jaundice, stunted physical growth, and delayed sexual maturity, can also lead them to become targets of bullying, rejection, and stigma.
+- [W19.337] Rate of sickle cell disease in Uganda
+- [W19.338] The data compiled on sickle cell disease in Uganda has not been updated since the early 1970s.
+- [W19.339] The deficiency of data is due to a lack of government research funds, even though Ugandans die daily from sickle cell disease.
+- [W19.340] Data shows that the trait frequency of sickle cell disease is 20% of the population in Uganda.
+- [W19.341] It is also estimated that about 25,000 Ugandans are born each year with sickle cell disease and 80% of those people do not live past five years old.
+- [W19.342] Sickle cell disease also contributes 25% to the child mortality rate in Uganda.
+- [W19.343] The Bamba people of Uganda, located in the southwest of the country, carry 45% of the gene, which is the highest trait frequency recorded in the world.
+- [W19.344] The Sickle Cell Clinic in Mulago is the only sickle cell disease clinic in the country and, on average, sees 200 patients a day.
+- [W19.345] Misconceptions about sickle cell disease
+- [W19.346] The stigma around the disease is particularly bad in regions of the country that are not as affected.
+- [W19.347] For example, Eastern Ugandans tend to be more knowledgeable of the disease than Western Ugandans, who are more likely to believe that sickle cell disease resulted as a punishment from God or witchcraft.
+- [W19.348] Other misconceptions about sickle cell disease include the belief that it is caused by environmental factors but, in reality, sickle cell disease is a genetic disease.
+- [W19.349] There have been efforts throughout Uganda to address the social misconceptions about the disease.
+- [W19.350] In 2013, the Uganda Sickle Cell Rescue Foundation was established to spread awareness of sickle cell disease and combat the social stigma attached to the disease.
+- [W19.351] In addition to this organisation's efforts, there is a need for the inclusion of sickle cell disease education in preexisting community health education programmes to reduce the stigmatisation of sickle cell disease in Uganda.
+- [W19.352] Social isolation of people with sickle cell disease
+- [W19.353] The deeply rooted stigma of sickle cell disease in society causes families to often hide their family members' sick status for fear of being labelled, cursed, or left out of social events.
+- [W19.354] Sometimes in Uganda, when it is confirmed that a family member has sickle cell disease, intimate relationships with all members of the family are avoided.
+- [W19.355] The stigmatisation and social isolation that people with sickle cell disease tend to experience are often the consequence of popular misconceptions that people with sickle cell disease should not socialise with those free from the disease.
+- [W19.356] This mentality robs people with sickle cell disease of the right to participate in community activities freely like everyone else.
+- [W19.357] SCD-related stigma and social isolation in schools, especially, can make life for young people living with sickle cell disease challenging.
+- [W19.358] For school-aged children living with sickle cell disease, the stigma they face can lead to peer rejection.
+- [W19.359] Peer rejection involves the exclusion from social groups or gatherings.
+- [W19.360] It often leads the excluded individual to experience emotional distress and may result in their academic underperformance, avoidance of school, and occupational failure later in life.
+- [W19.361] This social isolation is also likely to negatively impact people with sickle cell disease's self-esteem and overall quality of life.
+- [W19.362] Mothers of children with sickle cell disease tend to receive disproportionate amounts of stigma from their peers and family members.
+- [W19.363] These women will often be blamed for their child's diagnosis of sickle cell disease, especially if sickle cell disease is not present in earlier generations, due to the suspicion that the child's poor health may have been caused by the mother's failure to implement preventative health measures or promote a healthy environment for her child to thrive.
+- [W19.364] The reliance on theories related to environmental factors to place blame on the mother reflects many Ugandans' poor knowledge of how the disease is acquired as it is determined by genetics, not environment.
+- [W19.365] Mothers of children with sickle cell disease are also often left with very limited resources to safeguard their futures against the stigma of having sickle cell disease.
+- [W19.366] This lack of access to resources results from their subordinating roles within familial structures as well as the class disparities that hinder many mothers' ability to satisfy additional childcare costs and responsibilities.
+- [W19.367] Women living with sickle cell disease who become pregnant often face extreme discrimination and discouragement in Uganda.
+- [W19.368] These women are frequently branded by their peers as irresponsible for having a baby while living with sickle cell disease or even engaging in sex while living with sickle cell disease.
+- [W19.369] The criticism and judgement these women receive, not only from healthcare professionals but also from their families, often leaves them feeling alone, depressed, anxious, ashamed, and with very little social support.
+- [W19.370] Most pregnant women with sickle cell disease also go on to be single mothers as it is common for them to be left by their male partners who claim they were unaware of their partner's sickle cell disease status.
+- [W19.371] Not only does the abandonment experienced by these women cause emotional distress for them, but this low level of parental support can be linked to depressive symptoms and overall lower quality of life for the child once they are born.
+- [W19.372] The National Health Service (NHS) makes several treatments available for people with sickle cell disease.
+- [W19.373] These include pain management, antibiotics, and vaccinations to reduce the risk of infection, and blood transfusions where appropriate.
+- [W19.374] Other treatments include Voxelotor which reduces the need for blood transfusions, and the gene therapy Casgevy.
+- [W19.375] In England, a number of regional centres coordinate treatment for sickle cell disease and other haemoglobinopathies.
+- [W19.376] Media and arts representation of sickle cell disease
+- [W19.377] Popular media and art have been important educational tools about sickle cell disease.
+- [W19.378] Hertz Nazaire was a Haitian-American visual artist, writer, and advocate who lived with sickle cell disease and used his art to raise awareness, combat stigma, and champion better access to care.
+- [W19.379] Representations of sickle cell disease in television shows include in the longrunning American medical drama ER (season 4 "Obstruction of Justice" and season 15 "Separation Anxiety" and "Dream Runner"), the 2024 British superhero series Supacell, in the 2024 period drama Lady in the Lake, and in the 2025 medical procedural drama The Pitt (episode "8:00 am").
+- [W19.380] Noah Wyle, who plays Dr. Michael "Robby" Robinavitch on The Pitt, has spoken about the importance of popular media representation of sickle cell and the impacts of racism on the quality of care patients receive.
+- [W19.381] Sickle cell disease has also been featured in several movies including the 1973 Sydney Poitier classic, A Warm December, 1996 Nigerian drama Mortal Inheritance, Genie Award- winning 2008 Canadian drama Nurse.Fighter.Boy, the 2017 animated documentary Spilled Milk, the 2020 Nigerian drama Strain, the 2022 animated short The Park Bench, and the 2023 American sci-fi action film Transformers: Rise of the Beasts.
+
+## [W20] FlyBase FBgn0053196: dumpy (dpy), D. melanogaster gene report (FB2026_03)
+https://flybase.org/reports/FBgn0053196 · CC BY 4.0 · usage: ai_input
+
+_Excerpt: the FlyBase-curated sections of the report page as served on the retrieval date (CC BY 4.0). The page also reprints a phenotypic description from Lindsley and Zimm (1992), which is all rights reserved; it is left out here and nothing in the place rests on it._
+
+- [W20.1] Gene Summary dumpy ( dpy ) encodes an extracellular protein involved in epidermal-cuticle attachment, aposition of wing surfaces and trachea development. [Date last reviewed: 2019-09-26] ( FlyBase Gene Snapshot )
+- [W20.2] Genomic Location and Detailed Mapping Data Chromosome (arm) 2L Recombination map 2-13 Cytogenetic map 24F4-25A1 Sequence location 2L:4,477,462..4,614,300
+- [W20.3] Automated gene summary (FlyBase API, FB2026_03): The gene dumpy is referred to in FlyBase by the symbol Dmel\dpy (CG33196, FBgn0053196).
+- [W20.4] It is a protein_coding_gene from Dmel.
+- [W20.5] It has 16 annotated transcripts and 16 polypeptides (all unique).
+- [W20.6] Gene sequence location is 2L:4477462..4614300.
+- [W20.7] Its molecular function is described by: zinc ion binding; extracellular matrix structural constituent; calcium ion binding.
+- [W20.8] It is involved in the biological process described with: chitin-based cuticle attachment to epithelium; regulation of imaginal disc-derived wing size; chitin-based embryonic cuticle biosynthetic process; open tracheal system development; apposition of dorsal and ventral imaginal disc-derived wing surfaces.
+- [W20.9] The phenotypes of these alleles manifest in: pleurum; eo sensory organ accessory cell; adult external head; muscle attachment site; procuticle.
+- [W20.10] The phenotypic classes of alleles include: phenotype; lethal; abnormal size; modifier of variegation.
+- [W20.11] Summary of modENCODE Temporal Expression Profile:  Temporal profile ranges from a peak of moderate expression to a trough of extremely low expression.
+- [W20.12] Peak expression observed within 06-24 hour embryonic stages, at stages throughout the larval period, at stages throughout the pupal period, in stages of adults of both sexes.
+
+## [W21] FlyBase FBal0002834: dpy[ov1] (dumpy oblique vortex) allele report (FB2026_03)
+https://flybase.org/reports/FBal0002834 · CC BY 4.0 · usage: ai_input
+
+_Excerpt: the FlyBase-curated sections of the report page as served on the retrieval date (CC BY 4.0). The page also reprints a phenotypic description from Lindsley and Zimm (1992), which is all rights reserved; it is left out here and nothing in the place rests on it._
+
+- [W21.1] General Information Symbol Dmel\ dpy ov1 Species D. melanogaster Name oblique vortex FlyBase ID FBal0002834 Feature type allele Associated gene Dmel\dpy Associated Insertion(s) blood{}dpy ov1 Carried in Construct Also Known As dp ov1
+- [W21.2] Phenotypic Data Phenotypic Class abnormal immune response | adult stage ( Von Ohlen et al., 2012 ) visible ( Ray et al., 2015 , Olguín et al., 2011 ) visible (with dpy 2f1-olv ) ( Coelho et al., 2005 ) visible (with dpy 2f2-lv ) ( Coelho et al., 2005 ) visible (with dpy 2f3-olv ) ( Coelho et al., 2005 ) visible (with dpy o2 ) ( Ray et al., 2015 ) visible | adult stage ( Chu and Hayashi, 2021 , Kandasamy et al., 2021 ) visible | recessive Phenotype Manifest In adult thorax ( Kjaer, 1989 ) adult thorax (with dpy 2f1-olv ) ( Coelho et al., 2005 ) adult thorax (with dpy 2f2-lv ) ( Coelho et al., 2005 ) adult thorax (with dpy 2f3-olv ) ( Coelho et al., 2005 ) adult thorax (with dpy v2 ) ( Kjaer, 1989 ) adult thorax & adult epidermis dorsocentral bristle embryonic/larval salivary gland | embryonic stage ( Woodward et al., 2025 ) mesonotum ( Olguín et al., 2011 ) notum ( Chu and Hayashi, 2021 ) wing ( Chu and Hayashi, 2021 , Kandasamy et al., 2021 , Ray et al., 2015 , Kjaer, 1989 ) wing (with dpy 2f1-olv ) ( Coelho et al., 2005 ) wing (with dpy 2f3-olv ) ( Coelho et al., 2005 ) wing (with dpy o2 ) ( Ray et al., 2015 , Kjaer, 1989 )
+- [W21.3] Detailed Description Statement Reference dpy ov1 mutants exhibit epidermal invaginations or elevations on the notum at the muscle insertion sites of DLM (comma phenotype), as well as a oblique wing.
+- [W21.4] ( Chu and Hayashi, 2021 ) dpy ov1 homozygotes show a small, oblique wing phenotype.
+- [W21.5] ( Kandasamy et al., 2021 ) dpy ov1 mutant wing blades exhibit collapse of the distal tip: the 'dumpy' phenotype. dpy o2 / dpy ov1 mutant wing blades exhibit complete retraction of the wing blade: the 'truncate' phenotype.
+- [W21.6] ( Ray et al., 2015 ) Mutant flies show significantly increased survival compared to wild-type flies after infection with E. chaffeensis.
+- [W21.7] Bacterial replication is significantly reduced in the mutant flies compared to wild type.
+- [W21.8] ( Von Ohlen et al., 2012 ) Mutant flies have anterior indentations in the notum epidermis.
+- [W21.9] ( Olguín et al., 2011 ) "ov" class allele.
+- [W21.10] ( Carmon et al., 2010 ) dp ov1 embryos do not show defects in tracheal tube length and do not show breaks in the tracheal branches.
+- [W21.11] ( Swanson et al., 2009 ) dp TC4 / dp ov1 flies have "lopped" and "vortex" phenotypes.
+- [W21.12] Body and leg size are reduced.
+- [W21.13] Notes on Origin Discoverer Morgan, 16 Oct.

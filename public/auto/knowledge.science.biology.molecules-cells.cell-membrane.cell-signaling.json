@@ -1,0 +1,363 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling",
+ "name": "Cell signaling",
+ "summary": [
+  {
+   "text": "Cell signaling is the process by which a cell interacts with itself, with other cells, and with the environment, and it is a fundamental property of all forms of life.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "A signaling process typically involves a first messenger called a ligand, a receptor, and the signal itself, and the signals are mostly chemical.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Signals can act on the same cell, on nearby cells, or on distant cells, which are called autocrine, paracrine and endocrine signaling.",
+   "cites": [
+    12,
+    15,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Five signal types",
+   "value": "Autocrine, intracrine, juxtacrine, paracrine and endocrine",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Ligand examples",
+   "value": "Ions, lipids, peptides, carbohydrates and nucleic acids",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Hormone carrier",
+   "value": "Endocrine signals are usually carried by the blood",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Membrane receptor types",
+   "value": "Ion channel linked, G-protein coupled and enzyme linked",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Quorum sensing",
+   "value": "First observed in a marine bacterium that glows when dense",
+   "cites": [
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cell is exposed to a polar, water-loving peptide hormone. Where is the receptor that responds to it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Embedded in the cell membrane, since the peptide cannot diffuse across it"
+    },
+    {
+     "id": "b",
+     "label": "Inside the nucleus, since hormones always reach the DNA"
+    },
+    {
+     "id": "c",
+     "label": "Inside the cytoplasm, since peptides diffuse in freely"
+    },
+    {
+     "id": "d",
+     "label": "On the outside of the blood vessel that carried it"
+    }
+   ],
+   "answer": "a",
+   "explain": "Peptides are polar and hydrophilic, so they cannot diffuse freely across the plasma membrane and act through a membrane-bound receptor.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling:q1"
+  },
+  {
+   "prompt": "A steroid hormone dissolves in fats and reaches a target cell. What happens next?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It binds a receptor on the outer surface and never enters the cell"
+    },
+    {
+     "id": "b",
+     "label": "It is broken down at the membrane and only its pieces get in"
+    },
+    {
+     "id": "c",
+     "label": "It crosses the membrane and a carrier takes it to the nucleus to switch on genes"
+    },
+    {
+     "id": "d",
+     "label": "It stays outside and switches the cell on from a distance"
+    }
+   ],
+   "answer": "c",
+   "explain": "Lipid-soluble ligands diffuse through the plasma membrane, bind cytoplasmic transporters that carry them into the nucleus, and activate specific genes.",
+   "cites": [
+    10,
+    32,
+    33
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling:q2"
+  },
+  {
+   "prompt": "A gland releases a hormone into the bloodstream, and it acts on an organ far away. What kind of signaling is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Autocrine signaling"
+    },
+    {
+     "id": "b",
+     "label": "Endocrine signaling"
+    },
+    {
+     "id": "c",
+     "label": "Paracrine signaling"
+    },
+    {
+     "id": "d",
+     "label": "Juxtacrine signaling"
+    }
+   ],
+   "answer": "b",
+   "explain": "Endocrine signaling occurs between distant cells, with the signal (hormone) usually carried by the blood.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling:q3"
+  },
+  {
+   "prompt": "A handful of receptors on a cell are activated, yet the cell responds strongly. What can explain this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each receptor releases a hormone into the blood"
+    },
+    {
+     "id": "b",
+     "label": "The ligand copies itself many times over"
+    },
+    {
+     "id": "c",
+     "label": "Each receptor splits into many receptors"
+    },
+    {
+     "id": "d",
+     "label": "A second messenger system that amplifies the original signal"
+    }
+   ],
+   "answer": "d",
+   "explain": "Second messenger systems can amplify a signal: activation of a few receptors results in multiple secondary messengers being activated.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling:q4"
+  },
+  {
+   "prompt": "A cell responds to a change in pressure on its surface. Which class of receptor most likely senses it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ion channel linked receptors, with a ligand-activated gate"
+    },
+    {
+     "id": "b",
+     "label": "G-protein coupled receptors, which open a gate"
+    },
+    {
+     "id": "c",
+     "label": "Intracellular receptors, which bind steroid hormones"
+    },
+    {
+     "id": "d",
+     "label": "Enzyme linked receptors, which make second messengers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Most receptors activated by physical stimuli such as pressure or temperature are ion channel receptors.",
+   "cites": [
+    22,
+    24
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling:q5"
+  },
+  {
+   "prompt": "A marine bacterium glows only when many of its neighbours are around. What process lets single cells respond to the crowd?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Endocrine signaling, where blood carries the glow signal"
+    },
+    {
+     "id": "b",
+     "label": "Quorum sensing, where cells make and detect a signaling molecule"
+    },
+    {
+     "id": "c",
+     "label": "Steroid signaling, where a hormone enters the nucleus"
+    },
+    {
+     "id": "d",
+     "label": "Juxtacrine signaling, where two cells touch"
+    }
+   ],
+   "answer": "b",
+   "explain": "Quorum sensing lets individuals begin an activity only when the population is large, through production and detection of a signaling molecule.",
+   "cites": [
+    42,
+    43,
+    44
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-membrane.cell-signaling:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/XBio_illustration_%E2%80%93_Signaling_Pathway.png/960px-XBio_illustration_%E2%80%93_Signaling_Pathway.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Cell signaling",
+  "credit": "explorebiology",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:XBio_illustration_%E2%80%93_Signaling_Pathway.png"
+ },
+ "source": {
+  "title": "Cell signaling",
+  "url": "https://en.wikipedia.org/wiki/Cell_signaling",
+  "revision": 1381233475
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Messages between cells",
+    "text": "Cell signaling is the way a cell deals with its surroundings, with other cells and even with itself, and every form of life does it. A signal usually involves three parts: a first messenger called a ligand, a receptor, and the signal itself. Most signals are chemicals, molecules that can bind to and switch on a particular receptor. Ligands come in many kinds, from ions such as Na⁺, K⁺ and Ca²⁺ to lipids, peptides such as insulin, and carbohydrates. Some signals are physical instead, such as pressure, voltage, temperature or light.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Getting through the membrane",
+    "text": "Peptide and lipid ligands are especially important, since most hormones fall into those two groups. Peptides usually cannot slip freely through the lipid bilayer of the plasma membrane, because they are polar, hydrophilic molecules. Instead they act through receptors fixed in the membrane. Fat-soluble chemicals such as steroid hormones can drift straight through the membrane and meet receptors inside the cell.",
+    "cites": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Near and far",
+    "text": "Signals are sorted by where they act. In autocrine signaling a cell responds to a chemical it made itself, and in intracrine signaling that chemical acts on receptors in the cell's own cytoplasm or nucleus. Juxtacrine signaling passes between cells that sit right next to each other, and paracrine signaling between cells close by. Endocrine signaling links distant cells, usually through a hormone carried in the blood.",
+    "cites": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Receptors",
+    "text": "Receptors are complex proteins, found either in the plasma membrane or inside the cell. Each detects a signal by binding a specific chemical or by changing shape when a physical agent acts on it, and this precise match is what lets a ligand trigger one particular response. Membrane receptors come in three main types. Ion channel receptors work a gate that allows or blocks certain ions. G-protein coupled receptors grab a ligand with their outer part and set off a chain of chemical reactions with their inner part, and enzyme-linked receptors have an inner part that acts as an enzyme.",
+    "cites": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Receptors inside the cell",
+    "text": "Intracellular receptors work differently. They usually bind fat-soluble ligands, such as steroid hormones, that have passed through the membrane on their own. The hormone is then carried into the nucleus, where certain genes are switched on and the cell builds certain proteins.",
+    "cites": [
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Passing the signal on",
+    "text": "Once the signal meets its receptor, signal transduction begins: a series of molecular events inside the cell that leads to the final effect. Often that effect is opening an ion channel or starting a second messenger system, a cascade that spreads the signal through the cell. Second messengers can amplify a signal, since switching on a few receptors can activate many secondary messengers.",
+    "cites": [
+     34,
+     35,
+     36,
+     37
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Each cell is set up to answer particular signals from outside, and this underlies development, tissue repair, immunity and homeostasis. When signaling goes wrong, it can cause diseases such as cancer, autoimmunity and diabetes. Bacteria signal too. Through quorum sensing, individuals start an activity only once their population is large enough; the marine bacterium Aliivibrio fischeri, where this was first seen, makes light only when its population is dense enough.",
+    "cites": [
+     40,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-9-1",
+   "kind": "book",
+   "title": "9.1 Signaling Molecules and Cellular Receptors - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+   "note": "A free textbook section on the kinds of cell signaling, ligands and the receptors that bind them.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-9-2",
+   "kind": "book",
+   "title": "9.2 Propagation of the Signal - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+   "note": "A free textbook section on signal transduction: how a bound receptor passes its message through the cell.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-cell-communication",
+   "kind": "video",
+   "title": "Why Do Cells Need to Communicate?: Crash Course Biology #25",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=p15KSbNxb28",
+   "note": "A Crash Course video on why and how cells send and receive signals."
+  }
+ ]
+}

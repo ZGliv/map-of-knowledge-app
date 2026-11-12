@@ -1,0 +1,102 @@
+{
+ "title": "Long division, with x’s",
+ "question": "How can dividing polynomials reveal their factors?",
+ "hook": "The school method for dividing numbers quietly works on algebra too, and what is left over tells you a lot.",
+ "idea": "Dividing a polynomial leaves a remainder of zero exactly when the divisor is a factor, so a known root can be divided out.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A degree-5 polynomial has a known root r. You divide it by (x − r). What do you get?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A degree-4 quotient and a remainder of zero"
+    },
+    {
+     "id": "b",
+     "label": "A degree-5 quotient and a remainder of zero",
+     "feedback": "Dividing by a degree-1 factor lowers the degree by one, so the quotient is smaller than the original."
+    },
+    {
+     "id": "c",
+     "label": "A degree-4 quotient and a nonzero remainder",
+     "feedback": "Because r is a root, the remainder is forced to be zero."
+    }
+   ],
+   "answer": "a",
+   "explain": "The quotient has degree n − 1, and since r is known to be a root, the remainder must be zero.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these long division steps in order, starting a round.",
+   "items": [
+    "Divide the first term of the dividend by the highest term of the divisor",
+    "Multiply the divisor by the result just obtained",
+    "Subtract the product from the matching terms of the dividend",
+    "Bring down the next term from the dividend"
+   ],
+   "ends": [
+    "First",
+    "Last, before repeating"
+   ],
+   "explain": "Each round divides, multiplies, subtracts and brings down a term, then the steps repeat.",
+   "cites": [
+    7,
+    9,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each situation to what it leads to.",
+   "pairs": [
+    [
+     "The remainder is 0",
+     "The divisor is a factor of the dividend"
+    ],
+    [
+     "The divisor is a linear polynomial",
+     "Synthetic division is a faster shortcut"
+    ],
+    [
+     "Dividing P(x) by (x − r)²",
+     "The remainder is the tangent line at x = r"
+    ],
+    [
+     "Detecting errors in messages",
+     "A cyclic redundancy check uses the remainder"
+    ]
+   ],
+   "explain": "Each pairing is a use or consequence of the remainder or the divisor in polynomial division.",
+   "cites": [
+    2,
+    4,
+    31,
+    33
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A degree-5 polynomial has one known root r.",
+    "Dividing by (x − r) gives a quotient of degree 4.",
+    "Because r is a root, the remainder must be nonzero.",
+    "The quotient can then be divided by the factors of its own known roots."
+   ],
+   "wrong": 2,
+   "explain": "Since r is known to be a root, the remainder must be zero, not nonzero.",
+   "cites": [
+    23,
+    24,
+    25
+   ]
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "title": "Numbers with a sideways direction",
+ "question": "What do you get when a number is allowed to square to minus one?",
+ "hook": "Square any ordinary number and you never land below zero, so what could possibly square to minus one?",
+ "idea": "Complex numbers add a second, sideways direction to the number line, and that is enough to solve every non-constant polynomial equation.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "In the 16th century, mathematicians met square roots of negative numbers while working on cubic equations. Every nonzero real number squares to a positive result, so these roots looked impossible. What did they do with them?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Used them as a symbolic device, since they helped find real solutions",
+     "feedback": ""
+    },
+    {
+     "id": "b",
+     "label": "Dropped cubic equations until a purely real method turned up",
+     "feedback": "It tempts because the roots looked impossible, but the roots turned out to be helpful for real solutions, so people kept using them."
+    },
+    {
+     "id": "c",
+     "label": "Declared them fictitious, so they could never be used in real mathematics",
+     "feedback": "It tempts because of the name imaginary, but these numbers are no less valid than real numbers and are essential to science."
+    }
+   ],
+   "answer": "a",
+   "explain": "Such roots proved helpful for determining real solutions of cubic equations. At first they were treated as a mere symbolic contrivance, and in the 17th century they were named imaginary numbers.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each operation or idea to what it means on the complex plane.",
+   "pairs": [
+    [
+     "Adding a complex number",
+     "Slides the plane (translation)"
+    ],
+    [
+     "Multiplying by a complex number",
+     "Scales and rotates the plane"
+    ],
+    [
+     "Horizontal axis",
+     "Shows the real part"
+    ],
+    [
+     "Absolute value of z",
+     "Distance from the origin"
+    ]
+   ],
+   "explain": "Each statement turns something done with numbers into something you can see on the plane.",
+   "cites": [
+    10,
+    17,
+    36
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each complex number by what kind of number it is.",
+   "groups": [
+    "Real number",
+    "Purely imaginary"
+   ],
+   "items": [
+    [
+     "3 + 0i",
+     "Real number"
+    ],
+    [
+     "0 + 4i",
+     "Purely imaginary"
+    ],
+    [
+     "8 + 0i",
+     "Real number"
+    ],
+    [
+     "0 + 9i",
+     "Purely imaginary"
+    ]
+   ],
+   "explain": "A real number a is the complex number a + 0i, with imaginary part 0. A purely imaginary number bi is 0 + bi, with real part 0.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "Positive times positive is positive, and negative times negative is also positive.",
+    "So every real number squares to something that is not negative.",
+    "So no real number squares to minus one.",
+    "So no number of any kind can, and such equations have no solutions anywhere."
+   ],
+   "wrong": 3,
+   "explain": "Complex numbers allow solutions to all non-constant polynomial equations, including ones that have no solutions among the real numbers.",
+   "cites": [
+    5,
+    8
+   ]
+  }
+ ]
+}

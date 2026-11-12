@@ -1,0 +1,81 @@
+{
+ "paragraphs": [
+  {
+   "heading": "Vectors that keep their direction",
+   "text": "An eigenvector of a linear transformation is a nonzero vector whose direction the transformation leaves unchanged, or simply reverses. The transformation only scales it by a constant factor λ, so that T𝐯 = λ𝐯. That factor is the eigenvalue, and it can be a negative or even a complex number. The prefix eigen- comes from the German eigen, meaning 'own', 'proper' or 'characteristic', and another name for an eigenvector is a characteristic vector.",
+   "cites": [
+    1,
+    2,
+    3,
+    17
+   ]
+  },
+  {
+   "heading": "The picture with arrows",
+   "text": "Vectors can be pictured as arrows, each with a length and a direction. A linear transformation can rotate, stretch or shear the arrows it acts on. Its eigenvectors are the arrows that are only stretched or shrunk, with no rotation and no shear. The eigenvalue is the factor of that stretch or shrink, and a negative eigenvalue turns the arrow around.",
+   "cites": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "heading": "A sheared Mona Lisa",
+   "text": "A shear applied to the Mona Lisa shows the idea. Treat each point of the painting as an arrow from the center to that point. The shear moves points in the top half to the right and points in the bottom half to the left, by an amount that grows with their distance from the horizontal line through the middle. Points on that line do not move, so any arrow pointing straight right or left keeps both its direction and its length. Those horizontal arrows are eigenvectors, each with eigenvalue one.",
+   "cites": [
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "heading": "In the language of matrices",
+   "text": "For an n × n matrix A and a nonzero vector 𝐯, if A𝐯 is just 𝐯 scaled by a number λ, then 𝐯 is an eigenvector of A with eigenvalue λ, written A𝐯 = λ𝐯. Once a basis is chosen for an n-dimensional vector space, linear transformations of that space correspond directly to n × n square matrices. So in finite dimensions it makes no difference whether eigenvectors are defined with transformations or with matrices. For a matrix, the eigenvectors are n × 1 matrices.",
+   "cites": [
+    12,
+    13,
+    14,
+    15,
+    34
+   ]
+  },
+  {
+   "heading": "Functions and eigenspaces",
+   "text": "Eigenvectors need not be arrows at all. If the transformation is the differential operator d/dx, its eigenvectors are functions, called eigenfunctions, as in d/dxe^λx = λe^λx. All the eigenvectors that share one eigenvalue, together with the zero vector, make up an eigenspace. If a set of eigenvectors forms a basis of the transformation's domain, that basis is called an eigenbasis.",
+   "cites": [
+    32,
+    33,
+    36,
+    37
+   ]
+  },
+  {
+   "heading": "Why they matter",
+   "text": "Eigenvalues and eigenvectors characterize a transformation, so they matter wherever linear algebra is used, from geology to quantum mechanics. Often a system is described by a transformation whose outputs are fed back in as its inputs. In that kind of feedback, the largest eigenvalue governs the long-term behavior after many repetitions, and its eigenvector is the steady state. Other uses include analyzing stability and vibration, atomic orbitals, facial recognition and diagonalizing matrices.",
+   "cites": [
+    9,
+    10,
+    11,
+    18
+   ]
+  },
+  {
+   "heading": "Where the idea came from",
+   "text": "Eigenvalues are often introduced through matrices, but historically they arose from quadratic forms and differential equations. In the 18th century Leonhard Euler studied the rotation of rigid bodies and saw the importance of their principal axes, and Joseph-Louis Lagrange realized those axes are the eigenvectors of the inertia matrix. In the early 19th century Augustin-Louis Cauchy used their work to classify quadric surfaces and coined the term characteristic root for what is now called an eigenvalue.",
+   "cites": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ]
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "title": "Fast Cooling, Slow Cooling",
+ "question": "Why do some igneous rocks have big grains and others almost none?",
+ "hook": "Whether molten rock hardens deep underground or out in the open decides what the finished rock looks like.",
+ "idea": "Magma that cools slowly inside the crust grows coarse, visible grains, while lava that cools fast at the surface becomes fine-grained or glassy.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Lava pours out of a fissure onto the ground and quickly turns solid. What will the new rock look like up close?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Large crystals easy to spot by eye",
+     "feedback": "Big visible grains come from magma that cools slowly underground, not from fast-cooling lava."
+    },
+    {
+     "id": "b",
+     "label": "Fine-grained, or even glassy"
+    },
+    {
+     "id": "c",
+     "label": "Layers of hardened sand and mud",
+     "feedback": "Layers of sediment make sedimentary rock, not cooled lava."
+    }
+   ],
+   "answer": "b",
+   "explain": "Magma brought to the surface solidifies rapidly, so extrusive rocks are fine-grained or even glassy.",
+   "cites": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each rock by where it formed",
+   "groups": [
+    "Intrusive (cooled underground)",
+    "Extrusive (cooled at the surface)"
+   ],
+   "items": [
+    [
+     "Granite",
+     "Intrusive (cooled underground)"
+    ],
+    [
+     "Gabbro",
+     "Intrusive (cooled underground)"
+    ],
+    [
+     "Diorite",
+     "Intrusive (cooled underground)"
+    ],
+    [
+     "Basalt",
+     "Extrusive (cooled at the surface)"
+    ],
+    [
+     "Tuff",
+     "Extrusive (cooled at the surface)"
+    ]
+   ],
+   "explain": "Granite, gabbro and diorite are common intrusive rocks, while basalt is the most common extrusive rock and tuff is made of explosively erupted material.",
+   "cites": [
+    19,
+    28,
+    43
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each magma to how it typically behaves",
+   "pairs": [
+    [
+     "Basaltic magma",
+     "Long, thin lava flows"
+    ],
+    [
+     "Andesite magma",
+     "Cinder cones of ash, tuff and lava"
+    ],
+    [
+     "Rhyolitic magma",
+     "Short flows with steep margins"
+    ]
+   ],
+   "explain": "Basaltic magma behaves like thick oil, andesite can be as stiff as cold molasses, and rhyolite is up to 10,000 times as viscous as basalt, so each builds different features.",
+   "cites": [
+    37,
+    38,
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Magma rises because it is less dense than the rock it came from.",
+    "Some of it stops inside the crust, surrounded by country rock.",
+    "Country rock draws heat away quickly, so this magma cools fast.",
+    "That is why intrusive rocks have grains you can see by eye."
+   ],
+   "wrong": 2,
+   "explain": "Country rock is an excellent thermal insulator, so trapped magma cools slowly, and slow cooling is what produces the coarse grains.",
+   "cites": [
+    14,
+    15,
+    16,
+    32
+   ]
+  }
+ ]
+}

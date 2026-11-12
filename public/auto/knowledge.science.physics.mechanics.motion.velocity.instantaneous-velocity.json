@@ -1,0 +1,321 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity",
+ "name": "Instantaneous velocity",
+ "summary": [
+  {
+   "text": "Velocity measures how fast an object moves along with the specific direction of its motion.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "Instantaneous velocity represents the speed and direction an object would maintain if its acceleration stopped at that exact moment.",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "text": "On a displacement-time graph, instantaneous velocity is represented by the slope of the line tangent to the curve at any single point.",
+   "cites": [
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "SI unit",
+   "value": "Metres per second",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Graph representation",
+   "value": "Slope of the tangent line",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Earth escape speed",
+   "value": "About 11,200 metres per second",
+   "cites": [
+    35,
+    36
+   ]
+  },
+  {
+   "label": "Constant velocity path",
+   "value": "Straight line at constant speed",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Imagine a train traveling around a circular track at a steady 50 km/h. Why is it considered to be accelerating?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its speed is constantly increasing as it turns."
+    },
+    {
+     "id": "b",
+     "label": "Its direction of motion is constantly changing."
+    },
+    {
+     "id": "c",
+     "label": "Its total distance traveled decreases with every turn."
+    },
+    {
+     "id": "d",
+     "label": "Its frame of reference is at rest."
+    }
+   ],
+   "answer": "b",
+   "explain": "An object undergoes acceleration if its speed, direction, or both change. Moving in a curve changes direction continuously even at a steady speed.",
+   "cites": [
+    6,
+    13,
+    14
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity:q1"
+  },
+  {
+   "prompt": "A runner looks at a graph of their position over time. How can they determine their instantaneous velocity at a specific second?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By measuring the slope of the tangent line touching the curve at that point."
+    },
+    {
+     "id": "b",
+     "label": "By calculating the total area underneath the curve up to that second."
+    },
+    {
+     "id": "c",
+     "label": "By finding the slope of a secant line between the start and finish points."
+    },
+    {
+     "id": "d",
+     "label": "By dividing the total distance traveled by the elapsed time."
+    }
+   ],
+   "answer": "a",
+   "explain": "On a displacement-time graph, instantaneous velocity corresponds to the slope of the line tangent to the curve at that precise point.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity:q2"
+  },
+  {
+   "prompt": "How does instantaneous velocity differ from average velocity on a displacement-time graph?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Instantaneous velocity uses distance, while average velocity uses acceleration."
+    },
+    {
+     "id": "b",
+     "label": "Instantaneous velocity is represented by the area under the curve."
+    },
+    {
+     "id": "c",
+     "label": "Average velocity is the slope of a secant line, while instantaneous velocity uses a tangent line."
+    },
+    {
+     "id": "d",
+     "label": "Average velocity is always greater than speed, whereas instantaneous velocity is lower."
+    }
+   ],
+   "answer": "c",
+   "explain": "Average velocity is given by the slope of a secant line connecting two boundary points, while instantaneous velocity is the slope of a tangent line at one point.",
+   "cites": [
+    18
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity:q3"
+  },
+  {
+   "prompt": "If a moving object suddenly stops accelerating right now, what motion will it maintain from this moment forward?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average velocity calculated across its entire past journey."
+    },
+    {
+     "id": "b",
+     "label": "The escape speed required to leave Earth's gravitational pull."
+    },
+    {
+     "id": "c",
+     "label": "Zero velocity, coming to an immediate complete stop."
+    },
+    {
+     "id": "d",
+     "label": "The instantaneous velocity it possessed at that exact moment."
+    }
+   ],
+   "answer": "d",
+   "explain": "Instantaneous velocity can be understood as the velocity an object would continue traveling at if it stopped accelerating at that moment.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity:q4"
+  },
+  {
+   "prompt": "Why is the term 'escape velocity' technically inaccurate when describing leaving Earth?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it only applies to objects rotating counter-clockwise."
+    },
+    {
+     "id": "b",
+     "label": "Because achieving 11,200 m/s works regardless of the direction traveled."
+    },
+    {
+     "id": "c",
+     "label": "Because it changes depending on whether relativity applies."
+    },
+    {
+     "id": "d",
+     "label": "Because velocity cannot be measured in metres per second."
+    }
+   ],
+   "answer": "b",
+   "explain": "It is more accurately an escape speed because reaching that speed magnitude allows an object to break free regardless of direction, as long as it hits nothing.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity:q5"
+  },
+  {
+   "prompt": "Under classical Newtonian mechanics, how do non-accelerating observers describe an object's acceleration?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They each calculate different acceleration values depending on reference frame."
+    },
+    {
+     "id": "b",
+     "label": "They disagree on elapsed time, altering their acceleration measurements."
+    },
+    {
+     "id": "c",
+     "label": "They all calculate and agree on the exact same acceleration values."
+    },
+    {
+     "id": "d",
+     "label": "They can only measure relative position, not acceleration."
+    }
+   ],
+   "answer": "c",
+   "explain": "In Newtonian mechanics, all observers agree on time, so non-accelerating observers describe an object's acceleration using identical values.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.science.physics.mechanics.motion.velocity.instantaneous-velocity:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/US_Navy_040501-N-1336S-037_The_U.S._Navy_sponsored_Chevy_Monte_Carlo_NASCAR_leads_a_pack_into_turn_four_at_California_Speedway.jpg/960px-US_Navy_040501-N-1336S-037_The_U.S._Navy_sponsored_Chevy_Monte_Carlo_NASCAR_leads_a_pack_into_turn_four_at_California_Speedway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Instantaneous velocity",
+  "credit": "U.S. Navy photo by Chief Journalist Erik Schneider.",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Navy_040501-N-1336S-037_The_U.S._Navy_sponsored_Chevy_Monte_Carlo_NASCAR_leads_a_pack_into_turn_four_at_California_Speedway.jpg"
+ },
+ "source": {
+  "title": "Velocity",
+  "url": "https://en.wikipedia.org/wiki/Velocity",
+  "revision": 1371475376
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Velocity at a moment",
+    "text": "Velocity says how fast an object moves and in which direction. It is a basic idea in kinematics, the part of mechanics that describes how objects move. It is a vector, meaning it needs both a size and a direction to define it. Instantaneous velocity is often just called velocity.",
+    "cites": [
+     1,
+     2,
+     3,
+     18
+    ]
+   },
+   {
+    "heading": "A way to picture it",
+    "text": "The idea of a velocity at a single instant can feel strange at first. One helpful picture is this: the instantaneous velocity is the velocity the object would carry on with if it stopped accelerating at that moment.",
+    "cites": [
+     8
+    ]
+   },
+   {
+    "heading": "The slope of a tangent",
+    "text": "On a graph of position against time, the instantaneous velocity at any point is the slope of the tangent line to the curve there. Average velocity is different: it is the slope of a secant line joining the points at the start and end of a time period. That average equals the change in position divided by the time taken, v̄ = Δs/Δt.",
+    "cites": [
+     7,
+     18
+    ]
+   },
+   {
+    "heading": "A rate of change",
+    "text": "Velocity is defined as the rate at which position changes. In calculus terms it is the derivative of position with respect to time. That gives a change in metres divided by a change in seconds, so velocity is measured in metres per second. Its size on its own is called speed.",
+    "cites": [
+     4,
+     15,
+     19
+    ]
+   },
+   {
+    "heading": "Linking to acceleration",
+    "text": "Acceleration works the same way one step up. On a graph of velocity against time, the acceleration at a given instant is the slope of the tangent line there, written 𝒂 = d𝒗/dt. In practice it is common to start from an expression for acceleration instead. When the acceleration is constant, 𝒗 = 𝒖 + 𝒂t, where u is the velocity at time t = 0.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "heading": "Turning counts too",
+    "text": "Because velocity includes direction, it can change while speed stays the same. Any change in speed, direction or both is acceleration. A car going round a circle at a steady 20 kilometres per hour keeps its speed, but its direction keeps changing, so it is accelerating.",
+    "cites": [
+     6,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-3-2",
+   "kind": "book",
+   "title": "3.2 Instantaneous Velocity and Speed",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+   "note": "A free textbook section on velocity at an instant as the slope of a tangent, and how it differs from speed."
+  },
+  {
+   "id": "cp-2-3",
+   "kind": "book",
+   "title": "2.3 Time, Velocity, and Speed",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+   "note": "A gentler textbook section on average and instantaneous velocity versus speed, with a round-trip example."
+  },
+  {
+   "id": "cc-derivatives",
+   "kind": "video",
+   "title": "Derivatives: Crash Course Physics #2",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=ObHJJYvu3RE",
+   "note": "A Crash Course Physics video on using derivatives to get velocity at an instant from position over time."
+  }
+ ]
+}

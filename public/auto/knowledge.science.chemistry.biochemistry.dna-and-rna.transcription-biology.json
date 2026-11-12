@@ -1,0 +1,362 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology",
+ "name": "Transcription (biology)",
+ "summary": [
+  {
+   "text": "Transcription copies a segment of DNA into RNA so that a gene can be expressed.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "An RNA polymerase reads the DNA sequence and builds a complementary RNA strand called the primary transcript.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "Some of the RNA made codes for proteins, called messenger RNA, while other RNA is non-coding RNA.",
+   "cites": [
+    2,
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Four stages",
+   "value": "Initiation, promoter escape, elongation and termination",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Template strand",
+   "value": "Only one of the two DNA strands is read",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Base swap",
+   "value": "RNA gets uracil wherever DNA would have thymine",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Accuracy",
+   "value": "Lower copying fidelity than DNA replication",
+   "cites": [
+    20,
+    21
+   ]
+  },
+  {
+   "label": "Enhancer boost",
+   "value": "Some genes see up to 100-fold more transcription",
+   "cites": [
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A stretch of the coding strand carries a thymine. What sits in that spot of the RNA copy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Thymine, copied across unchanged"
+    },
+    {
+     "id": "b",
+     "label": "Uracil, standing in for thymine"
+    },
+    {
+     "id": "c",
+     "label": "Adenine, its pairing partner"
+    },
+    {
+     "id": "d",
+     "label": "Guanine, as the strand reverses"
+    }
+   ],
+   "answer": "b",
+   "explain": "The RNA matches the sense (coding) strand except that uracil replaces thymine.",
+   "cites": [
+    14,
+    18
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology:q1"
+  },
+  {
+   "prompt": "Compared with copying DNA, how accurate is making RNA from DNA?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Equally accurate, because both use the same proofreading"
+    },
+    {
+     "id": "b",
+     "label": "More accurate, because RNA is shorter and simpler"
+    },
+    {
+     "id": "c",
+     "label": "More accurate, because both strands check each other"
+    },
+    {
+     "id": "d",
+     "label": "Less accurate, because proofreading controls are fewer and weaker"
+    }
+   ],
+   "answer": "d",
+   "explain": "Transcription has fewer and less effective controls, so it has lower copying fidelity than DNA replication.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology:q2"
+  },
+  {
+   "prompt": "RNA polymerase reaches a stretch of double-stranded DNA. What does it use as the template?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only one of the two strands"
+    },
+    {
+     "id": "b",
+     "label": "Both strands, read in turn and joined"
+    },
+    {
+     "id": "c",
+     "label": "A short RNA primer set on each strand"
+    },
+    {
+     "id": "d",
+     "label": "Nothing; it builds RNA from free nucleotides alone"
+    }
+   ],
+   "answer": "a",
+   "explain": "Only one of the two DNA strands serves as a template, and no RNA primer is needed.",
+   "cites": [
+    12,
+    17
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology:q3"
+  },
+  {
+   "prompt": "A gene sits far from its enhancer on the DNA. How can the enhancer still boost the gene?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The enhancer is cut out and pasted beside the promoter"
+    },
+    {
+     "id": "b",
+     "label": "The enhancer's sequence is switched to match the promoter"
+    },
+    {
+     "id": "c",
+     "label": "The DNA loops so the enhancer comes close to the promoter"
+    },
+    {
+     "id": "d",
+     "label": "The gene slides along the DNA until it meets the enhancer"
+    }
+   ],
+   "answer": "c",
+   "explain": "Enhancers loop over long distances to come into physical proximity with the promoters of their target genes.",
+   "cites": [
+    30,
+    33
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology:q4"
+  },
+  {
+   "prompt": "A negative-sense RNA virus needs positive-sense messenger RNA. How does it get it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The host cell copies it from a DNA template"
+    },
+    {
+     "id": "b",
+     "label": "The host's DNA polymerase rewrites the genome"
+    },
+    {
+     "id": "c",
+     "label": "The ribosome reads the genome and splits it"
+    },
+    {
+     "id": "d",
+     "label": "Its genome acts as the template, copied by a viral RNA polymerase"
+    }
+   ],
+   "answer": "d",
+   "explain": "The negative-sense RNA genome is a template for positive-sense viral messenger RNA, catalyzed by a viral RNA-dependent RNA polymerase.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology:q5"
+  },
+  {
+   "prompt": "Two tissue types run different gene programs. What helps explain this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each tissue deletes the enhancer regions it does not use"
+    },
+    {
+     "id": "b",
+     "label": "Each tissue brings only certain enhancers close to the promoters they regulate"
+    },
+    {
+     "id": "c",
+     "label": "Each tissue reads a different strand of every gene"
+    },
+    {
+     "id": "d",
+     "label": "Each tissue holds a different set of general transcription factors"
+    }
+   ],
+   "answer": "b",
+   "explain": "Enhancers control cell-type-specific programs, and in a given tissue only specific enhancers are brought next to their promoters.",
+   "cites": [
+    30,
+    31
+   ],
+   "id": "knowledge.science.chemistry.biochemistry.dna-and-rna.transcription-biology:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/960px-Hybridogenesis_in_water_frogs_gametes.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Transcription (biology)",
+  "credit": "Original: Darekk2, SVG: Palosirkka",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hybridogenesis_in_water_frogs_gametes.svg"
+ },
+ "source": {
+  "title": "Transcription (biology)",
+  "url": "https://en.wikipedia.org/wiki/Transcription_(biology)",
+  "revision": 1376993847
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Transcription is the step in which a cell copies a stretch of DNA into RNA so that a gene can be expressed. Some of the RNA made this way is messenger RNA (mRNA), which can code for proteins. Other stretches become non-coding RNA. DNA and RNA are both nucleic acids, built from chains of nucleotides.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Reading one strand",
+    "text": "An enzyme called RNA polymerase reads the DNA and builds a matching RNA strand, the primary transcript. It uses only one of the two DNA strands as its template, reading it from the 3' end toward the 5' end. The RNA grows the other way, 5' to 3', because the polymerase can add new nucleotides only at the 3' end. The finished RNA matches the other DNA strand, called the coding strand, except that RNA has uracil (U) wherever DNA has thymine (T). By convention, DNA sequences are written out using this coding strand.",
+    "cites": [
+     5,
+     11,
+     12,
+     13,
+     14,
+     15,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Not the same as copying DNA",
+    "text": "Transcription differs from DNA replication in several ways. Because only one strand is read, in one direction, it needs neither the Okazaki fragments seen in DNA replication nor an RNA primer to get started. It also has fewer and weaker proofreading checks. So its copies are less faithful than those made when DNA is replicated.",
+    "cites": [
+     16,
+     17,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Parts of a gene",
+    "text": "A stretch of DNA that codes for a protein can hold a coding sequence, which is turned into the protein, and regulatory sequences, which steer and control making it. The regulatory part before the coding sequence is the 5' untranslated region (5'UTR), and the part after it is the 3'UTR. Transcription itself runs in four stages: initiation, promoter escape, elongation and termination.",
+    "cites": [
+     9,
+     10,
+     22
+    ]
+   },
+   {
+    "heading": "Switches near and far",
+    "text": "In mammals, getting transcription started is controlled by many regulatory DNA elements. Some, like the core promoter, sit near the spot where transcription begins; a core promoter plus general transcription factors can start transcription, but usually only at a low level. Others lie far away, including enhancers, silencers and insulators. Enhancers, with the transcription factors bound to them, play a leading part, and an activated enhancer can raise a gene's transcription as much as 100-fold.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Looping the DNA",
+    "text": "Enhancers usually work by looping the DNA so they come physically close to the promoter of the gene they control, sometimes across tens or hundreds of thousands of nucleotides. In one study of brain cortical neurons, researchers found 24,937 such loops. A pair of connector proteins, such as CTCF, holds each loop in place, one anchored on the enhancer and one on the promoter. A protein complex called Mediator then passes signals from the enhancer's transcription factors straight to RNA polymerase II sitting on the promoter.",
+    "cites": [
+     30,
+     32,
+     33,
+     35,
+     37
+    ]
+   },
+   {
+    "heading": "Chemical tags",
+    "text": "Another layer of control is chemical. At about 60% of promoters, transcription is also regulated by methylation of cytosines at CpG sites, where a cytosine is followed by a guanine. The human genome has about 28 million of these sites, and in most mammal tissues 70% to 80% of their cytosines are methylated. Active promoters, however, often carry clusters of unmethylated sites called CpG islands.",
+    "cites": [
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-15-3",
+   "kind": "book",
+   "title": "15.3 Eukaryotic Transcription",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+   "note": "A free textbook section on the three RNA polymerases, promoters and the stages of transcription in cells like ours."
+  },
+  {
+   "id": "openstax-16-4",
+   "kind": "book",
+   "title": "16.4 Eukaryotic Transcription Gene Regulation",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation",
+   "note": "How transcription factors, promoters and distant enhancers, brought close by DNA looping, switch genes on."
+  },
+  {
+   "id": "mit-transcription",
+   "kind": "video",
+   "title": "8. Transcription",
+   "by": "MIT OpenCourseWare",
+   "url": "https://www.youtube.com/watch?v=apP5SWitnyw",
+   "note": "A full MIT introductory biology lecture on how DNA is copied into RNA."
+  },
+  {
+   "id": "libretexts-transcription",
+   "kind": "book",
+   "title": "7.5: Transcription",
+   "by": "Kevin Ahern, Indira Rajagopal and Taralyn Tan (LibreTexts)",
+   "url": "https://bio.libretexts.org/Bookshelves/Biochemistry/Book%3A_Biochemistry_Free_For_All_(Ahern_Rajagopal_and_Tan)/07%3A_Information_Processing/7.05%3A_Transcription",
+   "note": "A biochemistry chapter on RNA polymerases, promoters, transcription factors and termination.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

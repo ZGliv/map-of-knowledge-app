@@ -1,0 +1,553 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.polar-climates",
+ "name": "Polar climates",
+ "summary": [
+  {
+   "text": "A polar climate, letter E in the Köppen system, is one where every month averages below 10 °C, so there is no warm summer.",
+   "cites": [
+    1,
+    2,
+    7
+   ]
+  },
+  {
+   "text": "It comes in two types: tundra (ET), with at least one month above 0 °C, and ice cap (EF), with no month above 0 °C.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "text": "Köppen tied the 10 °C warmest-month line to tree lines, since places colder than that cannot support forests.",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Share of Earth",
+   "value": "More than 20% of Earth's area",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Coldest recorded temperature",
+   "value": "−89.2 °C at Vostok Station, Antarctica, 1983",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Antarctic precipitation",
+   "value": "About 166 mm a year, a polar desert",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Arctic ocean water floor",
+   "value": "Never below −2 °C",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Mountain version",
+   "value": "Called alpine climate when elevation causes it",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A remote island's warmest month averages 4 °C and its coldest −15 °C. Which climate type is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Ice cap climate"
+    },
+    {
+     "id": "b",
+     "label": "Tundra climate"
+    },
+    {
+     "id": "c",
+     "label": "Cold desert climate"
+    },
+    {
+     "id": "d",
+     "label": "Not polar, since it has a summer"
+    }
+   ],
+   "answer": "b",
+   "explain": "All months are below 10 °C, so it is polar; at least one month is above 0 °C, which makes it tundra rather than ice cap.",
+   "cites": [
+    2,
+    9
+   ],
+   "id": "knowledge.earth.climate.climate-zones.polar-climates:q1"
+  },
+  {
+   "prompt": "In a place where no month ever averages above 0 °C, what happens to snow and ice over time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It melts away each short summer"
+    },
+    {
+     "id": "b",
+     "label": "It turns into tundra grassland"
+    },
+    {
+     "id": "c",
+     "label": "It builds up until it flows elsewhere"
+    },
+    {
+     "id": "d",
+     "label": "It blows away and leaves bare rock"
+    }
+   ],
+   "answer": "c",
+   "explain": "In an ice cap climate no plants grow and ice gradually accumulates until it flows or slides elsewhere.",
+   "cites": [
+    9,
+    11
+   ],
+   "id": "knowledge.earth.climate.climate-zones.polar-climates:q2"
+  },
+  {
+   "prompt": "The North Pole sits on ice over the Arctic Ocean. Why is it not the coldest spot in the Northern Hemisphere in winter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ocean water beneath stays relatively warm"
+    },
+    {
+     "id": "b",
+     "label": "It gets sunlight all through the winter"
+    },
+    {
+     "id": "c",
+     "label": "Warm winds from the tropics reach it daily"
+    },
+    {
+     "id": "d",
+     "label": "Its thick ice gives off heat as it forms"
+    }
+   ],
+   "answer": "a",
+   "explain": "Arctic ocean water can never fall below −2 °C, and this relatively warm water keeps the North Pole from being the hemisphere's coldest place.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.earth.climate.climate-zones.polar-climates:q3"
+  },
+  {
+   "prompt": "Antarctica is technically classed as a desert. Why does so little precipitation reach most of it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sea ice soaks up all the rain offshore"
+    },
+    {
+     "id": "b",
+     "label": "Its high mountains block the summer sun"
+    },
+    {
+     "id": "c",
+     "label": "The air is too warm for snow to form"
+    },
+    {
+     "id": "d",
+     "label": "Weather fronts rarely reach far inland"
+    }
+   ],
+   "answer": "d",
+   "explain": "Antarctica averages about 166 mm of precipitation a year because weather fronts rarely penetrate far into the continent.",
+   "cites": [
+    32
+   ],
+   "id": "knowledge.earth.climate.climate-zones.polar-climates:q4"
+  },
+  {
+   "prompt": "A high mountain far from the poles has no month averaging 10 °C. What is this climate called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Subtropical climate"
+    },
+    {
+     "id": "b",
+     "label": "Maritime climate"
+    },
+    {
+     "id": "c",
+     "label": "Alpine climate"
+    },
+    {
+     "id": "d",
+     "label": "Rain shadow climate"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the cold comes from elevation rather than latitude, the climate is referred to as alpine, and it can mimic tundra or ice cap.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.earth.climate.climate-zones.polar-climates:q5"
+  },
+  {
+   "prompt": "Using Köppen's rule, a valley's warmest month averages 8 °C. Could a forest grow there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, if the winters are mild enough"
+    },
+    {
+     "id": "b",
+     "label": "No, it is below the tree line threshold"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only of coniferous trees"
+    },
+    {
+     "id": "d",
+     "label": "Only if the valley gets heavy rain"
+    }
+   ],
+   "answer": "b",
+   "explain": "Köppen found that places whose warmest month averages below 10 °C cannot support forests.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.earth.climate.climate-zones.polar-climates:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Koppen-Geiger_Map_v2_E_1991%E2%80%932020.svg/960px-Koppen-Geiger_Map_v2_E_1991%E2%80%932020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Polar climates",
+  "credit": "Beck, H.E., McVicar, T.R., Vergopolan, N., Alexis, B., Lutsko, N.J., Dufour, A.,",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Koppen-Geiger_Map_v2_E_1991%E2%80%932020.svg"
+ },
+ "source": {
+  "title": "Polar climate",
+  "url": "https://en.wikipedia.org/wiki/Polar_climate",
+  "revision": 1378652554
+ },
+ "pack": {
+  "id": "auto-climate-zones-polar-climates",
+  "title": "Where Trees Give Up",
+  "question": "What makes a climate polar, and how do its two types differ?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Climate zones",
+   "Polar climates"
+  ],
+  "hue": 113,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Koppen-Geiger_Map_v2_E_1991%E2%80%932020.svg/960px-Koppen-Geiger_Map_v2_E_1991%E2%80%932020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Polar climates",
+    "credit": "Beck, H.E., McVicar, T.R., Vergopolan, N., Alexis, B., Lutsko, N.J., Dufour, A., · CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Koppen-Geiger_Map_v2_E_1991%E2%80%932020.svg",
+    "license": "CC BY 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Where Trees Give Up",
+    "hook": "One number, the average of the warmest month, decides whether a place can grow a forest at all."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-climate-zones-polar-climates:1",
+    "transfer": false,
+    "prompt": "A town's warmest month averages 12 °C, but its winters reach −40 °C. Is it a polar climate under Köppen?",
+    "explain": "A polar climate needs every month to average below 10 °C. With a 12 °C month, it falls outside the polar group despite cold winters.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "No, one month averages above 10 °C"
+       },
+       {
+        "id": "c",
+        "label": "Yes, because it must be near a pole",
+        "feedback": "Location is not the test; the monthly temperatures are."
+       },
+       {
+        "id": "a",
+        "label": "Yes, its winters are extremely cold",
+        "feedback": "Brutal winters alone do not decide it; polar climates are defined by the lack of a warm summer."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-zones-polar-climates:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each place into its polar climate type.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Most of Greenland"
+     },
+     {
+      "id": "i1",
+      "label": "Ice-free coasts of Greenland"
+     },
+     {
+      "id": "i2",
+      "label": "Most of Antarctica"
+     },
+     {
+      "id": "i3",
+      "label": "Large parts of northern Siberia"
+     },
+     {
+      "id": "i4",
+      "label": "Falkland Islands"
+     },
+     {
+      "id": "i5",
+      "label": "Summit of Mount Rainier"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Tundra climate"
+     },
+     {
+      "id": "g1",
+      "label": "Ice cap climate"
+     }
+    ],
+    "pairs": {
+     "i0": "g1",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g0",
+     "i4": "g0",
+     "i5": "g1"
+    },
+    "explain": "Ice cap places have no month above 0 °C and stay ice-covered; tundra places have at least one month above freezing."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-climate-zones-polar-climates:3",
+    "transfer": true,
+    "prompt": "Match each polar climate feature to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "E"
+     },
+     {
+      "id": "l1",
+      "label": "ET"
+     },
+     {
+      "id": "l2",
+      "label": "EF"
+     },
+     {
+      "id": "l3",
+      "label": "10 °C"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Tundra climate"
+     },
+     {
+      "id": "r2",
+      "label": "Ice cap climate"
+     },
+     {
+      "id": "r0",
+      "label": "Köppen letter for polar climates"
+     },
+     {
+      "id": "r3",
+      "label": "Warmest-month limit for forests"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Köppen labels polar climates E, splits them into ET and EF, and ties the 10 °C summer line to the tree line."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-climate-zones-polar-climates:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Ocean water in the Arctic can never drop below −2 °C."
+     },
+     {
+      "id": "b",
+      "text": "That water, even under ice, keeps the Arctic warmer in winter."
+     },
+     {
+      "id": "c",
+      "text": "This warm water is part of why Antarctica is much colder than the Arctic."
+     },
+     {
+      "id": "d",
+      "text": "So the North Pole is the coldest place in the Northern Hemisphere."
+     }
+    ],
+    "answer": "d",
+    "explain": "The relatively warm ocean water keeps the North Pole from being the coldest place in the Northern Hemisphere, and helps explain why Antarctica is much colder."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A polar climate has no month averaging 10 °C or more; if even one month tops 0 °C it is tundra, otherwise it is ice cap.",
+    "connections": [
+     {
+      "title": "Tundra",
+      "place": "Polar climates",
+      "node": "knowledge.earth.climate.climate-zones.polar-climates.tundra"
+     },
+     {
+      "title": "Ice cap climate",
+      "place": "Polar climates",
+      "node": "knowledge.earth.climate.climate-zones.polar-climates.ice-cap-climate"
+     },
+     {
+      "title": "Polar night",
+      "place": "Polar climates",
+      "node": "knowledge.earth.climate.climate-zones.polar-climates.polar-night"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A polar climate needs every month to average below 10 °C. With a 12 °C month, it falls outside the polar group despite cold winters.",
+    "source": "Wikipedia sentences 1, 2"
+   },
+   {
+    "claim": "Ice cap places have no month above 0 °C and stay ice-covered; tundra places have at least one month above freezing.",
+    "source": "Wikipedia sentences 9, 11, 14, 15, 17, 18, 20, 36"
+   },
+   {
+    "claim": "Köppen labels polar climates E, splits them into ET and EF, and ties the 10 °C summer line to the tree line.",
+    "source": "Wikipedia sentences 7, 8, 38"
+   },
+   {
+    "claim": "The relatively warm ocean water keeps the North Pole from being the coldest place in the Northern Hemisphere, and helps explain why Antarctica is much colder.",
+    "source": "Wikipedia sentences 27, 28"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a polar climate is",
+    "text": "A polar climate is one with no warm summer, though its winters can differ from place to place. Every month averages below 10 °C. In the Köppen climate classification it is marked with the letter E. Summers are cool and winters very cold, or there is no real summer at all, which leaves treeless tundra, glaciers or a lasting layer of ice. Together these regions cover more than 20% of Earth's area.",
+    "cites": [
+     1,
+     2,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Tundra and ice cap",
+    "text": "There are two types. Tundra, coded ET, has at least one month averaging above 0 °C, while ice cap, coded EF, has none. In tundra not even conifers can grow, but specialised plants such as the arctic poppy can. In an ice cap climate no plants grow at all, and ice slowly builds up until it flows or slides somewhere else.",
+    "cites": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Where they are",
+    "text": "Most polar regions lie near the poles, where winter days are very short and summer days very long, sometimes for a whole season or more. Antarctica is the only continent where the ice cap type dominates, and nearly all of Greenland has it too, apart from coastal strips that have tundra. Tundra covers the far north of Eurasia, much of northern Siberia, northern Iceland, and large parts of northern Canada and Alaska. Many high mountain summits are polar as well; when the cold comes from height rather than latitude, it is called an alpine climate.",
+    "cites": [
+     4,
+     5,
+     12,
+     14,
+     15,
+     17,
+     18,
+     19,
+     22
+    ]
+   },
+   {
+    "heading": "Why the Arctic is milder",
+    "text": "The Arctic is an ocean almost ringed by land such as Russia and Canada. Its seawater can never drop below −2 °C, so it softens the climate around it. In winter this comparatively warm water, even under the ice pack, stops the North Pole from being the coldest spot in the Northern Hemisphere, and it helps explain why Antarctica is so much colder. Antarctica has the coldest climate on Earth, with −89.2 °C measured at Vostok Station in 1983. It is also so dry that it counts as a polar desert, averaging 166 mm of precipitation a year, since weather fronts seldom reach far inland.",
+    "cites": [
+     26,
+     27,
+     28,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Drawing the line with trees",
+    "text": "Climatologist Wladimir Köppen linked the Arctic and Antarctic tree lines to a summer temperature of 10 °C: where the warmest month averages below that, forests cannot grow. Otto Nordenskjöld argued that winter matters too, with the formula W = 9 − 0.1 C, where W is the warmest month's average and C the coldest month's, both in °C. So a place whose coldest month averages −20 °C needs a warmest month of at least 11 °C for trees to survive, since 9 − 0.1(−20) = 11.",
+    "cites": [
+     38,
+     40,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-tundra",
+   "kind": "book",
+   "title": "9.6.2: Tundra Climate",
+   "by": "Michael E. Ritter (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.06%3A_High_Latitude_Climates/9.6.02%3A_Tundra_Climate",
+   "note": "A free textbook section on the tundra climate: its cold summers, permafrost, and where it is found.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "ritter-ice-cap",
+   "kind": "book",
+   "title": "9.6.3: Ice Cap Climate",
+   "by": "Michael E. Ritter (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.06%3A_High_Latitude_Climates/9.6.03%3A_Ice_Cap_Climate",
+   "note": "A free textbook section on the ice cap climate of Antarctica and Greenland, the coldest and a polar desert.",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

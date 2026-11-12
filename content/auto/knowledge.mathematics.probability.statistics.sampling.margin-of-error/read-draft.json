@@ -1,0 +1,65 @@
+{
+ "paragraphs": [
+  {
+   "heading": "The plus-or-minus on a poll",
+   "text": "The margin of error is a number that says how much random sampling error a survey's results contain. A bigger margin means you should trust less that the poll matches what a census of the whole population, taken at the same moment, would find. Any time only part of a population is asked and the answers vary, the margin of error is above zero. Outside surveys, the phrase is also used for observational error in reported measurements.",
+   "cites": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "heading": "Imagining many repeat polls",
+   "text": "Picture a yes-or-no poll of n people, drawn from a much larger population, that finds a share p saying yes. We want to know how close p is to the true share without asking everyone. Suppose we ran the same poll again and again on fresh samples. The results would be expected to form a normal distribution around the true but unknown share, and the margin of error is the distance within which a stated percentage of them should fall.",
+   "cites": [
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "heading": "Where the 95% comes from",
+   "text": "By the 68-95-99.7 rule, 95% of those repeat results should land within about two standard deviations of the true value. That range is called the confidence interval, and half its width is the margin of error at a 95% confidence level. When a poll does not state a confidence level, 95% is the one most often used. A margin reported at 95% can be turned into one at 99% by multiplying it by about 1.3.",
+   "cites": [
+    11,
+    12,
+    16,
+    25
+   ]
+  },
+  {
+   "heading": "Sample size and the formula",
+   "text": "In general the margin of error equals a z-score times the standard error, written MOE _(1−2α) = z_(1−α) × √(σ²/n). At 95% confidence the z-score is about 2, giving MOE _0.95 ≈ 2 × √(σ²/n). The smaller the sample size n, the wider the margin. For a yes-or-no poll, the standard error is roughly √((p (1 − p))/n).",
+   "cites": [
+    5,
+    13,
+    14,
+    15,
+    18,
+    20
+   ]
+  },
+  {
+   "heading": "Population size hardly matters",
+   "text": "These formulas assume an endlessly large population, so they depend only on the sample size n, not on the population size N. Sampling theory says that assumption is reasonable when the sample is a small fraction of the population. So a given sampling method has about the same margin of error whether the population is a school, a city, a state or a whole country. As a reported share gets close to 0% or 100%, its margin of error shrinks toward zero.",
+   "cites": [
+    26,
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "heading": "Reading a close race",
+   "text": "Imagine a poll of 1013 people that puts three options at 46%, 42% and 12%. The margin usually reported is the one for the 46% figure, because it is nearest to 50%. But talk of a statistical tie, or dead heat, is about something else: not how accurate each number is, but whether the ranking of the options is right.",
+   "cites": [
+    27,
+    28,
+    29
+   ]
+  }
+ ]
+}

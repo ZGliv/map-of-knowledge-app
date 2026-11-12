@@ -1,0 +1,358 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.cell-division.meiosis",
+ "name": "Meiosis",
+ "summary": [
+  {
+   "text": "Meiosis is a special type of division of germ cells in sexually-reproducing organisms that produces the gametes: sperm or egg cells.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It involves two rounds of division that end in four cells, each with only one copy of each chromosome.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Before the division, genetic material from the paternal and maternal copies of each chromosome is crossed over, creating new combinations on each chromosome.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Cells produced",
+   "value": "Four haploid cells from two rounds of division",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Human gametes",
+   "value": "Each human egg or sperm carries 23 chromosomes",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "First described",
+   "value": "Oscar Hertwig, in sea urchin eggs in 1876",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Where absent",
+   "value": "Does not occur in archaea or bacteria",
+   "cites": [
+    39
+   ]
+  },
+  {
+   "label": "Error consequence",
+   "value": "Errors causing aneuploidy lead to miscarriage and disabilities",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two parents each give one cell to make a child, yet the child does not have double the chromosomes. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Each cell loses half its chromosomes after the two have fused"
+    },
+    {
+     "id": "b",
+     "label": "Mitosis in the egg removes half of the chromosomes afterwards"
+    },
+    {
+     "id": "c",
+     "label": "Meiosis halves the number in sperm and egg, and fertilization restores it"
+    },
+    {
+     "id": "d",
+     "label": "The child's cells copy the chromosomes of only one parent"
+    }
+   ],
+   "answer": "c",
+   "explain": "Because meiosis halves the chromosome number, gametes fuse to form a diploid zygote, so successive generations keep the same number.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.meiosis:q1"
+  },
+  {
+   "prompt": "Two siblings have the same parents but are genetically different. Which part of meiosis helps explain that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Crossovers mix maternal and paternal DNA in new combinations"
+    },
+    {
+     "id": "b",
+     "label": "The second division copies each chromosome exactly as it was"
+    },
+    {
+     "id": "c",
+     "label": "DNA replication changes the code before the cell divides"
+    },
+    {
+     "id": "d",
+     "label": "Gametes are chosen for their traits before the first division"
+    }
+   ],
+   "answer": "a",
+   "explain": "Recombination can give a chromatid a new combination of maternal and paternal information, producing offspring genetically distinct from either parent.",
+   "cites": [
+    3,
+    33
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.meiosis:q2"
+  },
+  {
+   "prompt": "In the second meiotic division, what gets pulled apart into separate cells?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Homologous chromosomes, as in the first division"
+    },
+    {
+     "id": "b",
+     "label": "The two nuclei of a newly formed zygote"
+    },
+    {
+     "id": "c",
+     "label": "The paternal and maternal cells themselves"
+    },
+    {
+     "id": "d",
+     "label": "The sister chromatids of each chromosome"
+    }
+   ],
+   "answer": "d",
+   "explain": "In the second division the sister chromatids are segregated to separate daughter cells, giving four haploid cells in total.",
+   "cites": [
+    29,
+    31
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.meiosis:q3"
+  },
+  {
+   "prompt": "In a female animal, what typically becomes of the four cells that meiosis produces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All four develop into mature eggs"
+    },
+    {
+     "id": "b",
+     "label": "One becomes an egg, and three are discarded as polar bodies"
+    },
+    {
+     "id": "c",
+     "label": "Two become eggs, and two become polar bodies"
+    },
+    {
+     "id": "d",
+     "label": "All four fuse back together into one cell"
+    }
+   ],
+   "answer": "b",
+   "explain": "In female animals three of the four meiotic products are typically eliminated as polar bodies, and only one cell develops into an ovum.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.meiosis:q4"
+  },
+  {
+   "prompt": "A bacterium takes in DNA from another bacterium and recombines it. Which statement is accurate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is meiosis, which is how bacteria reproduce"
+    },
+    {
+     "id": "b",
+     "label": "It is meiosis, but it makes only one haploid cell"
+    },
+    {
+     "id": "c",
+     "label": "It is horizontal gene transfer, not meiosis, which bacteria lack"
+    },
+    {
+     "id": "d",
+     "label": "It is binary fission, which swaps DNA between cells"
+    }
+   ],
+   "answer": "c",
+   "explain": "Meiosis does not occur in bacteria, but a sexual-like process called horizontal gene transfer moves DNA from one bacterium to another.",
+   "cites": [
+    39,
+    40
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.meiosis:q5"
+  },
+  {
+   "prompt": "A gamete forms with an abnormal number of chromosomes. Which outcome is linked to errors like this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Miscarriage and developmental disabilities"
+    },
+    {
+     "id": "b",
+     "label": "Faster growth through the extra chromosomes"
+    },
+    {
+     "id": "c",
+     "label": "Protection against inherited genetic disease"
+    },
+    {
+     "id": "d",
+     "label": "Production of extra gametes in later generations"
+    }
+   ],
+   "answer": "a",
+   "explain": "Errors in meiosis that cause aneuploidy are the leading known cause of miscarriage and the most frequent genetic cause of developmental disabilities.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.biology.molecules-cells.cell-division.meiosis:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Meiosis_Overview_new.svg/960px-Meiosis_Overview_new.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Meiosis",
+  "credit": "Rdbickel",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Meiosis_Overview_new.svg"
+ },
+ "source": {
+  "title": "Meiosis",
+  "url": "https://en.wikipedia.org/wiki/Meiosis",
+  "revision": 1383785622
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What meiosis is",
+    "text": "Meiosis is a special kind of cell division that makes the sex cells, called gametes: sperm and eggs. It takes place in the germ cells of organisms that reproduce sexually. One cell divides twice in a row, in steps named meiosis I and meiosis II. The end result is four cells, and each holds just one copy of every chromosome, a state called haploid.",
+    "cites": [
+     1,
+     2,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Why halving matters",
+    "text": "Halving the chromosomes is what lets sexual reproduction work. At fertilisation an egg and a sperm fuse into a zygote, a single cell holding two copies of every chromosome, one from each parent; a cell with two copies is called diploid. Human body cells, for example, carry 46 chromosomes in 23 pairs. Each egg or sperm carries one set of 23, so the zygote ends up with 46 again. Swinging back and forth between meiosis and fertilisation keeps the chromosome count steady from one generation to the next.",
+    "cites": [
+     4,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "Copying and pairing",
+    "text": "Before the divisions begin, the cell copies its DNA, so each chromosome becomes two identical strands called sister chromatids, held together. The cell then enters a long stage called meiotic prophase. Here the matching chromosomes from mother and father, called homologs, line up in pairs. They swap pieces of DNA through recombination, a planned process of cutting and repairing the DNA. Some of these swaps leave crossovers, physical links between the pair called chiasmata.",
+    "cites": [
+     3,
+     9,
+     11,
+     12,
+     13,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Two divisions",
+    "text": "In the first division, a structure called the spindle apparatus pulls the members of each homolog pair into separate cells. The cells then divide a second time without copying their DNA again. This time the sister chromatids come apart, much as they do in mitosis, the ordinary division that turns one cell into two identical ones. That leaves four haploid cells in all.",
+    "cites": [
+     15,
+     29,
+     30,
+     31,
+     36
+    ]
+   },
+   {
+    "heading": "A source of variety",
+    "text": "Because of recombination, a single chromatid can carry a fresh mix of the mother's and the father's genetic information. On top of that, each gamete gets its own blend of maternal, paternal and mixed chromatids. That is why offspring differ genetically from both parents. This variety feeds the differences in traits that natural selection works on.",
+    "cites": [
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "heading": "Where it happens",
+    "text": "Meiosis is found in every sexually reproducing organism, single-celled or many-celled, including animals, plants and fungi. In some cases all four products become gametes, spores or pollen. In female animals, though, three of the four are usually cast off as small polar bodies, and only one becomes an egg. Bacteria and archaea do not use meiosis at all.",
+    "cites": [
+     16,
+     17,
+     24,
+     32,
+     39
+    ]
+   },
+   {
+    "heading": "When it goes wrong",
+    "text": "Mistakes in meiosis can produce aneuploidy, meaning an abnormal number of chromosomes. These errors are the biggest known reason for miscarriage, and they are the most frequent genetic source of developmental disabilities.",
+    "cites": [
+     6
+    ]
+   },
+   {
+    "heading": "How it was found",
+    "text": "Oscar Hertwig, a German biologist, first described meiosis in 1876 while studying sea urchin eggs. In 1883 Edouard Van Beneden described it again, this time at the level of chromosomes, in the eggs of the Ascaris roundworm. In 1890 August Weismann explained why it matters: to keep the chromosome number steady, one diploid cell must divide twice to give four haploid cells. In 1911 Thomas Hunt Morgan spotted crossovers in fruit flies, which helped show that traits are carried on chromosomes.",
+    "cites": [
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-11-1",
+   "kind": "book",
+   "title": "11.1 The Process of Meiosis - Biology 2e",
+   "by": "Mary Ann Clark, Matthew Douglas, Jung Choi (OpenStax)",
+   "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+   "note": "A free textbook section on meiosis I and II and how they turn diploid cells into haploid gametes.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-meiosis-30",
+   "kind": "video",
+   "title": "Meiosis: Why Are All Humans Unique?: Crash Course Biology #30",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=pj1oFx42d48",
+   "note": "A Crash Course video on how meiosis makes sex cells and why it leaves every person genetically unique."
+  },
+  {
+   "id": "crashcourse-meiosis-13",
+   "kind": "video",
+   "title": "Meiosis: Where the Sex Starts - Crash Course Biology #13",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=qCLmR9-YY7o",
+   "note": "An earlier Crash Course Biology video walking through the steps of meiosis."
+  }
+ ]
+}

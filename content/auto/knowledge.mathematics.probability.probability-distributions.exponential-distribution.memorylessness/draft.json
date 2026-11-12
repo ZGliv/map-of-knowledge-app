@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Memorylessness is a property of some probability distributions: past failures or elapsed time do not affect future trials or further wait time.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Only two distributions have it: the geometric in the discrete case and the exponential in the continuous case.",
+   "cites": [
+    3,
+    8
+   ]
+  },
+  {
+   "text": "It models the number of coin flips until landing heads and the time between two earthquakes.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discrete case",
+   "value": "The geometric distribution is the only memoryless one",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Continuous case",
+   "value": "The exponential distribution is the only memoryless one",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Coin example",
+   "value": "Number of flips until the first heads",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Earthquake example",
+   "value": "Time between two earthquakes",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Converse",
+   "value": "A memoryless continuous distribution must be exponential",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You flip a fair coin and get five tails in a row. In a memoryless model of flips until heads, what does that history do to the next flip?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has no effect on the next flip"
+    },
+    {
+     "id": "b",
+     "label": "It makes heads more likely next"
+    },
+    {
+     "id": "c",
+     "label": "It makes heads less likely next"
+    },
+    {
+     "id": "d",
+     "label": "It makes the coin unfair"
+    }
+   ],
+   "answer": "a",
+   "explain": "Memorylessness means the number of previous failed trials has no effect on future trials.",
+   "cites": [
+    2,
+    6
+   ]
+  },
+  {
+   "prompt": "Someone says a long quiet stretch without an earthquake makes one more likely soon. Under a memoryless model of time between earthquakes, what is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The elapsed time raises the chance of one"
+    },
+    {
+     "id": "b",
+     "label": "The elapsed time lowers the chance of one"
+    },
+    {
+     "id": "c",
+     "label": "The elapsed time has no effect on the future wait"
+    },
+    {
+     "id": "d",
+     "label": "The elapsed time makes the model invalid"
+    }
+   ],
+   "answer": "c",
+   "explain": "The elapsed time is independent of, and has no effect on, the further wait time.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "You count the number of independent flips needed to land the first heads, and the count is memoryless. Which distribution is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exponential"
+    },
+    {
+     "id": "b",
+     "label": "Normal"
+    },
+    {
+     "id": "c",
+     "label": "Uniform"
+    },
+    {
+     "id": "d",
+     "label": "Geometric"
+    }
+   ],
+   "answer": "d",
+   "explain": "The geometric distribution is the only discrete memoryless distribution.",
+   "cites": [
+    4,
+    8
+   ]
+  },
+  {
+   "prompt": "A waiting time is measured on a continuous scale and is known to be memoryless. Which distribution must it follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The exponential distribution"
+    },
+    {
+     "id": "b",
+     "label": "The geometric distribution"
+    },
+    {
+     "id": "c",
+     "label": "The normal distribution"
+    },
+    {
+     "id": "d",
+     "label": "The uniform distribution"
+    }
+   ],
+   "answer": "a",
+   "explain": "If a continuous distribution is memoryless, it must be the exponential distribution.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "Someone proposes a normal distribution as a memoryless model for waiting times. Why does that fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Normal curves cannot be graphed"
+    },
+    {
+     "id": "b",
+     "label": "Normal curves always have a mean of zero"
+    },
+    {
+     "id": "c",
+     "label": "Waiting times are always normal anyway"
+    },
+    {
+     "id": "d",
+     "label": "Only the geometric and exponential are memoryless"
+    }
+   ],
+   "answer": "d",
+   "explain": "Only the geometric and exponential distributions are memoryless.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Which statement best captures what memorylessness means?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wait so far changes nothing about the wait still to come"
+    },
+    {
+     "id": "b",
+     "label": "The longer you wait, the sooner the event must arrive"
+    },
+    {
+     "id": "c",
+     "label": "Each wait must be exactly as long as the one before"
+    },
+    {
+     "id": "d",
+     "label": "The event can only occur once during the wait"
+    }
+   ],
+   "answer": "a",
+   "explain": "It describes situations where elapsed time or previous failures do not affect future trials or further wait time.",
+   "cites": [
+    2,
+    6
+   ]
+  }
+ ]
+}

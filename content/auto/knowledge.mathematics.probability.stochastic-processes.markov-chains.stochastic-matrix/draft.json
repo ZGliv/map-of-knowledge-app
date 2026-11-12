@@ -1,0 +1,229 @@
+{
+ "summary": [
+  {
+   "text": "A stochastic matrix is a square grid of nonnegative numbers in which each row (or each column, in the left version) adds up to 1.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It describes a Markov chain: in the row convention, the entry in row i and column j is the probability of moving from state i to state j.",
+   "cites": [
+    7,
+    19
+   ]
+  },
+  {
+   "text": "The matrix Pᵏ gives the chances of going from one state to another in k steps.",
+   "cites": [
+    20
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Right stochastic",
+   "value": "Square, nonnegative entries, every row sums to 1",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Doubly stochastic",
+   "value": "Every row and every column sums to 1",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Developed with",
+   "value": "Markov chains, by Andrey Markov, who first published in 1906",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "label": "Spectral radius",
+   "value": "Equal to one for any stochastic matrix",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Repeated use",
+   "value": "Applying it again and again moves a distribution toward a stationary one",
+   "cites": [
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A table lists, for each town, the chances of traveling next to every town. What must each town's row of chances add up to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 1"
+    },
+    {
+     "id": "b",
+     "label": "The number of towns"
+    },
+    {
+     "id": "c",
+     "label": "Any value between 0 and 1"
+    },
+    {
+     "id": "d",
+     "label": "Exactly 0"
+    }
+   ],
+   "answer": "a",
+   "explain": "In a right stochastic matrix each row is a probability vector: nonnegative numbers summing to 1.",
+   "cites": [
+    1,
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "In a right stochastic matrix used for a Markov chain, what does the number in row 2, column 3 tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of moving from state 3 to state 2"
+    },
+    {
+     "id": "b",
+     "label": "The chance of ending in state 3 after two steps"
+    },
+    {
+     "id": "c",
+     "label": "The chance of moving from state 2 to state 3"
+    },
+    {
+     "id": "d",
+     "label": "The share of rows that include state 3"
+    }
+   ],
+   "answer": "c",
+   "explain": "With the right/row convention, the entry in row i and column j is the probability of transition from state i to state j.",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "prompt": "You have the one-step chances of moving between states, and you want the chances after k steps. What do you do with the matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add its rows together k times"
+    },
+    {
+     "id": "b",
+     "label": "Multiply each entry by k"
+    },
+    {
+     "id": "c",
+     "label": "Divide each row by k"
+    },
+    {
+     "id": "d",
+     "label": "Use the matrix Pᵏ"
+    }
+   ],
+   "answer": "d",
+   "explain": "The probability of going from one state to another in k steps is given by Pᵏ.",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "prompt": "A grid of nonnegative numbers is checked: every row sums to 1, and every column sums to 1 as well. What is it called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A substochastic matrix"
+    },
+    {
+     "id": "b",
+     "label": "A left stochastic matrix"
+    },
+    {
+     "id": "c",
+     "label": "A doubly stochastic matrix"
+    },
+    {
+     "id": "d",
+     "label": "A right stochastic matrix"
+    }
+   ],
+   "answer": "c",
+   "explain": "A doubly stochastic matrix has each row and column summing to 1; right stochastic needs only rows, and left only columns.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "prompt": "You apply the same transition matrix to a probability distribution, over and over. What happens to the distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It converges to a stationary distribution"
+    },
+    {
+     "id": "b",
+     "label": "It swings wildly between extremes"
+    },
+    {
+     "id": "c",
+     "label": "It grows larger with each application"
+    },
+    {
+     "id": "d",
+     "label": "It returns exactly to the starting distribution"
+    }
+   ],
+   "answer": "a",
+   "explain": "Applying the matrix redistributes the probability mass, and repeated application makes the distribution converge to a stationary distribution of the chain.",
+   "cites": [
+    31,
+    32
+   ]
+  },
+  {
+   "prompt": "A cat and a mouse jump to a random neighboring box in a row of five boxes, starting in the two end boxes, and the game ends if they share a box. What does the stochastic matrix analysis conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The mouse escapes forever with some probability"
+    },
+    {
+     "id": "b",
+     "label": "They avoid each other, since both move randomly"
+    },
+    {
+     "id": "c",
+     "label": "The result depends on who jumps first"
+    },
+    {
+     "id": "d",
+     "label": "The cat eventually catches the mouse with probability 1"
+    }
+   ],
+   "answer": "d",
+   "explain": "No matter the initial state, the cat will eventually catch the mouse with probability 1.",
+   "cites": [
+    34,
+    35,
+    36,
+    39,
+    44
+   ]
+  }
+ ]
+}

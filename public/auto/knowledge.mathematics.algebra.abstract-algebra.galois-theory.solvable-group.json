@@ -1,0 +1,313 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group",
+ "name": "Solvable group",
+ "summary": [
+  {
+   "text": "A solvable group is a group that can be constructed from abelian groups using extensions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equivalently, taking commutator subgroups over and over eventually reaches the trivial subgroup, and the number of steps needed is the derived length.",
+   "cites": [
+    2,
+    8,
+    10
+   ]
+  },
+  {
+   "text": "Solvability matters for equations: Sₙ is not solvable for n > 4, a key step in showing some high-degree polynomials cannot be solved by radicals.",
+   "cites": [
+    26,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Basic examples",
+   "value": "Abelian groups are solvable",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Small non-nilpotent example",
+   "value": "The symmetric group S₃",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Feit–Thompson theorem",
+   "value": "Every finite group of odd order is solvable",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Groups below order 60",
+   "value": "All are solvable, since the smallest simple non-abelian group is A₅",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A student says abelian groups are too simple to count as solvable. Who is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The student, because solvable groups must be non-abelian"
+    },
+    {
+     "id": "b",
+     "label": "Abelian groups are solvable, trivially, as the basic example"
+    },
+    {
+     "id": "c",
+     "label": "Only finite abelian groups qualify as solvable"
+    },
+    {
+     "id": "d",
+     "label": "Only abelian groups with a prime number of elements qualify"
+    }
+   ],
+   "answer": "b",
+   "explain": "Abelian groups are the basic example: the group itself followed by the trivial group already forms the required series.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group:q1"
+  },
+  {
+   "prompt": "G is a solvable group and H sits inside it as a subgroup. What can you say about H?",
+   "options": [
+    {
+     "id": "a",
+     "label": "H may or may not be solvable"
+    },
+    {
+     "id": "b",
+     "label": "H must be abelian"
+    },
+    {
+     "id": "c",
+     "label": "H must be non-solvable"
+    },
+    {
+     "id": "d",
+     "label": "H is solvable too"
+    }
+   ],
+   "answer": "d",
+   "explain": "Every subgroup of a solvable group is solvable.",
+   "cites": [
+    37
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group:q2"
+  },
+  {
+   "prompt": "A group G has a normal subgroup N. Both N and the leftover quotient group are solvable. What follows for G?",
+   "options": [
+    {
+     "id": "a",
+     "label": "G is solvable too"
+    },
+    {
+     "id": "b",
+     "label": "G is abelian"
+    },
+    {
+     "id": "c",
+     "label": "Nothing can be said about G"
+    },
+    {
+     "id": "d",
+     "label": "G is simple"
+    }
+   ],
+   "answer": "a",
+   "explain": "G is solvable if and only if both N and G/N are solvable.",
+   "cites": [
+    39,
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group:q3"
+  },
+  {
+   "prompt": "A finite group has an odd number of elements. What does the Feit–Thompson theorem tell you about it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It must be abelian"
+    },
+    {
+     "id": "b",
+     "label": "It must be simple"
+    },
+    {
+     "id": "c",
+     "label": "It is solvable"
+    },
+    {
+     "id": "d",
+     "label": "It might fail to be solvable, depending on its size"
+    }
+   ],
+   "answer": "c",
+   "explain": "The Feit–Thompson theorem states that every finite group of odd order is solvable.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group:q4"
+  },
+  {
+   "prompt": "Why does the group of all rearrangements of five or more items matter for polynomial equations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is abelian, so every equation is solvable"
+    },
+    {
+     "id": "b",
+     "label": "It is not solvable, a key step in showing some equations resist radicals"
+    },
+    {
+     "id": "c",
+     "label": "It is nilpotent, so quintics reduce to quartics"
+    },
+    {
+     "id": "d",
+     "label": "It is the smallest group order below sixty"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sₙ is not solvable for n > 4, a key step in the proof that for every degree above four some polynomials are not solvable by radicals.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group:q5"
+  },
+  {
+   "prompt": "You take a group, then its commutator subgroup, then that group's commutator subgroup, and so on. What outcome shows the original group is solvable?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sequence never changes after the first step"
+    },
+    {
+     "id": "b",
+     "label": "The sequence grows into a larger group"
+    },
+    {
+     "id": "c",
+     "label": "The sequence alternates between two groups"
+    },
+    {
+     "id": "d",
+     "label": "The sequence eventually reaches the trivial subgroup"
+    }
+   ],
+   "answer": "d",
+   "explain": "A group is solvable exactly when its derived series, built from repeated commutator subgroups, reaches the trivial subgroup at a finite stage.",
+   "cites": [
+    2,
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.abstract-algebra.galois-theory.solvable-group:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cyclic_group.svg/960px-Cyclic_group.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Solvable group",
+  "credit": "Original: Jakob.scholbach Vector: Pbroks13",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cyclic_group.svg"
+ },
+ "source": {
+  "title": "Solvable group",
+  "url": "https://en.wikipedia.org/wiki/Solvable_group",
+  "revision": 1378177221
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "What a solvable group is",
+    "text": "In group theory, a solvable group, also called a soluble group, is one that can be built up from abelian groups by extensions. An equivalent test uses the derived series: take the commutator subgroup, then the commutator subgroup of that, and so on. The group is solvable when this chain eventually reaches the trivial subgroup, and the fewest steps needed is called its derived length.",
+    "cites": [
+     1,
+     2,
+     8,
+     10
+    ]
+   },
+   {
+    "heading": "Finite groups and radicals",
+    "text": "For finite groups there is another equivalent description: a group is solvable if it has a composition series whose factors are all cyclic groups of prime order. The Jordan–Hölder theorem ensures that if one composition series has this property, every composition series does. When the group is the Galois group of a polynomial, those cyclic pieces correspond to nth roots, or radicals, over some field.",
+    "cites": [
+     11,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Examples",
+    "text": "Abelian groups are the basic examples, and they are solvable in a trivial way, since the group itself and the trivial group already form the needed series. Non-abelian groups may or may not be solvable. All nilpotent groups are solvable, so finite p-groups are too. The symmetric group S₃ is a small example that is solvable but not nilpotent.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     22
+    ]
+   },
+   {
+    "heading": "Big theorems",
+    "text": "The alternating group of degree 5, A₅, is the smallest simple non-abelian group, so every group with fewer than 60 elements is solvable. The Feit–Thompson theorem says every finite group of odd order is solvable. Burnside's theorem says a finite group of order p^aqᵇ, with p and q prime and a and b non-negative integers, is solvable too.",
+    "cites": [
+     23,
+     24,
+     45
+    ]
+   },
+   {
+    "heading": "Closure rules",
+    "text": "Every subgroup of a solvable group is solvable, and so is any group that a solvable group maps onto by a homomorphism. Going the other way, if a normal subgroup N and the quotient G/N are both solvable, then G is solvable. As a result, the direct product of two solvable groups is solvable.",
+    "cites": [
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Why equations care",
+    "text": "For n > 4 the symmetric group Sₙ is not solvable, using the fact that its subgroup Aₙ is normal, maximal, simple and non-abelian. This is a key step in proving the Abel–Ruffini theorem: for every n > 4 some polynomials of degree n cannot be solved by radicals. The same property is also used in complexity theory, where it helps prove Barrington's theorem.",
+    "cites": [
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "judson-structure",
+   "kind": "book",
+   "title": "13: The Structure of Groups - Abstract Algebra: Theory and Applications (Judson)",
+   "by": "Thomas W. Judson",
+   "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)/13%3A_The_Structure_of_Groups",
+   "note": "A free textbook chapter whose second section defines and studies solvable groups, after finite abelian groups.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory",
+ "name": "Number theory",
+ "summary": [
+  {
+   "text": "Algebraic number theory is a branch of number theory that uses the techniques of abstract algebra to study the integers, rational numbers, and their generalizations.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its questions are expressed through algebraic objects such as number fields, rings of integers, finite fields and function fields.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Fermat's Last Theorem, conjectured in 1637 and not proved until 1995, stimulated the growth of algebraic number theory in the 19th century.",
+   "cites": [
+    7,
+    8,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Gauss's founding book",
+   "value": "Disquisitiones Arithmeticae, written in 1798, published in 1801",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Before that book",
+   "value": "Number theory was isolated theorems and conjectures",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Fermat's Last Theorem",
+   "value": "Conjectured in 1637; no proof published until 1995",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "label": "Modularity theorem",
+   "value": "Every elliptic curve is modular",
+   "cites": [
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "What changed for number theory when Gauss's Disquisitiones Arithmeticae appeared?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Scattered results were gathered into one systematic framework and extended"
+    },
+    {
+     "id": "b",
+     "label": "The first-ever results about whole numbers were proved"
+    },
+    {
+     "id": "c",
+     "label": "Number theory split into separate unrelated fields"
+    },
+    {
+     "id": "d",
+     "label": "Algebra was removed from the study of integers"
+    }
+   ],
+   "answer": "a",
+   "explain": "Before it, number theory was a collection of isolated theorems and conjectures; Gauss brought them into a systematic framework and extended the subject.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory:q1"
+  },
+  {
+   "prompt": "Fermat's claim went unproved for 358 years. Besides frustration, what did that unsolved problem do for mathematics?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It ended research on whole-number equations"
+    },
+    {
+     "id": "b",
+     "label": "It proved that all such equations are unsolvable"
+    },
+    {
+     "id": "c",
+     "label": "It helped stimulate the growth of algebraic number theory"
+    },
+    {
+     "id": "d",
+     "label": "It was settled early by the Euclidean algorithm"
+    }
+   ],
+   "answer": "c",
+   "explain": "The unsolved problem stimulated the development of algebraic number theory in the 19th century and the proof of the modularity theorem in the 20th.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory:q2"
+  },
+  {
+   "prompt": "A linear equation in two unknowns asks for whole-number solutions. Which ancient method finds them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Fermat's margin proof"
+    },
+    {
+     "id": "b",
+     "label": "Dirichlet's class number formula"
+    },
+    {
+     "id": "c",
+     "label": "The pigeonhole principle"
+    },
+    {
+     "id": "d",
+     "label": "The Euclidean algorithm"
+    }
+   ],
+   "answer": "d",
+   "explain": "Solutions to linear Diophantine equations, such as 26x + 65y = 13, may be found with the Euclidean algorithm.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory:q3"
+  },
+  {
+   "prompt": "How was Fermat's Last Theorem finally proved?",
+   "options": [
+    {
+     "id": "a",
+     "label": "By checking every case on early computers one at a time"
+    },
+    {
+     "id": "b",
+     "label": "By recovering the lost margin proof that Fermat described"
+    },
+    {
+     "id": "c",
+     "label": "By Gauss, as a corollary of his book published in 1801"
+    },
+    {
+     "id": "d",
+     "label": "By proving modularity for semistable curves, which with Ribet's theorem gives it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Wiles proved the modularity theorem for semistable elliptic curves, which together with Ribet's theorem gave a proof of Fermat's Last Theorem.",
+   "cites": [
+    41
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory:q4"
+  },
+  {
+   "prompt": "The modularity theorem links two apparently distinct branches of mathematics. Which pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Prime numbers and Pythagorean triples"
+    },
+    {
+     "id": "b",
+     "label": "Elliptic curves and modular forms"
+    },
+    {
+     "id": "c",
+     "label": "Finite fields and function fields"
+    },
+    {
+     "id": "d",
+     "label": "Ideals and the Euclidean algorithm"
+    }
+   ],
+   "answer": "b",
+   "explain": "It states that every elliptic curve is modular, meaning it can be associated with a unique modular form.",
+   "cites": [
+    37,
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory:q5"
+  },
+  {
+   "prompt": "A number theorist wants to know whether a Diophantine equation has solutions. What kind of tool from algebra might settle it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Properties like unique factorization, ideals and Galois groups"
+    },
+    {
+     "id": "b",
+     "label": "Counting how many digits the coefficients have"
+    },
+    {
+     "id": "c",
+     "label": "Plotting the equation and looking for crossings"
+    },
+    {
+     "id": "d",
+     "label": "Trying small numbers until one works"
+    }
+   ],
+   "answer": "a",
+   "explain": "Algebraic properties such as unique factorization in a ring, the behavior of ideals, and Galois groups can resolve questions like the existence of solutions.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Disqvisitiones-800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Number theory",
+  "credit": "Wikimedia Commons",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Disqvisitiones-800.jpg"
+ },
+ "source": {
+  "title": "Algebraic number theory",
+  "url": "https://en.wikipedia.org/wiki/Algebraic_number_theory",
+  "revision": 1379653075
+ },
+ "pack": {
+  "id": "auto-algebra-number-theory",
+  "title": "A Margin Note's Long Shadow",
+  "question": "How did one unproved claim shape the study of whole numbers?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Number theory"
+  ],
+  "hue": 53,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Disqvisitiones-800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Number theory",
+    "credit": "Wikimedia Commons · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Disqvisitiones-800.jpg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "A Margin Note's Long Shadow",
+    "hook": "A scribbled boast in a book margin kept mathematicians busy for 358 years."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-algebra-number-theory:1",
+    "transfer": false,
+    "prompt": "In 1637 Fermat wrote that he had a proof too large for the margin of his book. What happened over the next centuries?",
+    "explain": "No successful proof was published until 1995, and the unsolved problem stimulated algebraic number theory.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Mathematicians quickly disproved the claim",
+        "feedback": "It was eventually proved, not disproved."
+       },
+       {
+        "id": "a",
+        "label": "A proof appeared within a few years and the matter closed",
+        "feedback": "Tempting for a boast, but no proof was published for 358 years."
+       },
+       {
+        "id": "b",
+        "label": "No proof was published until 1995, and the effort spurred new theory"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-algebra-number-theory:2",
+    "transfer": false,
+    "prompt": "Put these events in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "The Babylonians solve x² + y² = z² in Pythagorean triples (c. 1800 BC)"
+     },
+     {
+      "id": "b",
+      "label": "The Euclidean algorithm solves linear Diophantine equations like 26x + 65y = 13 (c. 5th century BC)"
+     },
+     {
+      "id": "c",
+      "label": "Fermat conjectures his Last Theorem (1637)"
+     },
+     {
+      "id": "d",
+      "label": "Gauss's Disquisitiones Arithmeticae is published (1801)"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "The Babylonians come first, then the Euclidean algorithm, then Fermat in 1637, then Gauss's book in 1801."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-algebra-number-theory:3",
+    "transfer": true,
+    "prompt": "Match each mathematician to their contribution",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Gauss"
+     },
+     {
+      "id": "l1",
+      "label": "Dedekind"
+     },
+     {
+      "id": "l2",
+      "label": "Hilbert"
+     },
+     {
+      "id": "l3",
+      "label": "Wiles"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Proved modularity for semistable elliptic curves"
+     },
+     {
+      "id": "r2",
+      "label": "Unified algebraic number theory in the 1897 Zahlbericht"
+     },
+     {
+      "id": "r0",
+      "label": "Wrote Disquisitiones Arithmeticae"
+     },
+     {
+      "id": "r1",
+      "label": "Defined ideals using algebraic integers"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Gauss wrote a founding work of algebraic number theory, Dedekind defined ideals, Hilbert unified the field, and Wiles proved a result that gave a proof of Fermat's Last Theorem."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-algebra-number-theory:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Fermat conjectured the theorem in 1637, saying he had a proof too large for the margin."
+     },
+     {
+      "id": "b",
+      "text": "No proof was published for 358 years despite countless attempts."
+     },
+     {
+      "id": "c",
+      "text": "A claim nobody could prove for that long must therefore be false."
+     },
+     {
+      "id": "d",
+      "text": "Yet Wiles's work in 1993 and 1994 gave a proof, so the claim held."
+     }
+    ],
+    "answer": "c",
+    "explain": "Being hard to prove does not make a claim false. The theorem was eventually proved."
+   },
+   {
+    "kind": "payoff",
+    "idea": "The long hunt for a proof of Fermat's claim pushed number theory to borrow tools from abstract algebra.",
+    "connections": [
+     {
+      "title": "Primes",
+      "place": "Number theory",
+      "node": "knowledge.mathematics.algebra.number-theory.primes"
+     },
+     {
+      "title": "Divisibility",
+      "place": "Number theory",
+      "node": "knowledge.mathematics.algebra.number-theory.divisibility"
+     },
+     {
+      "title": "Modular arithmetic",
+      "place": "Number theory",
+      "node": "knowledge.mathematics.algebra.number-theory.modular-arithmetic"
+     },
+     {
+      "title": "Diophantine equations",
+      "place": "Number theory",
+      "node": "knowledge.mathematics.algebra.number-theory.diophantine-equations"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "No successful proof was published until 1995, and the unsolved problem stimulated algebraic number theory.",
+    "source": "Wikipedia sentences 7, 8, 9"
+   },
+   {
+    "claim": "The Babylonians come first, then the Euclidean algorithm, then Fermat in 1637, then Gauss's book in 1801.",
+    "source": "Wikipedia sentences 4, 5, 7, 10"
+   },
+   {
+    "claim": "Gauss wrote a founding work of algebraic number theory, Dedekind defined ideals, Hilbert unified the field, and Wiles proved a result that gave a proof of Fermat's Last Theorem.",
+    "source": "Wikipedia sentences 10, 23, 26, 41"
+   },
+   {
+    "claim": "Being hard to prove does not make a claim false. The theorem was eventually proved.",
+    "source": "Wikipedia sentences 7, 8, 41"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Numbers seen through algebra",
+    "text": "Algebraic number theory studies whole numbers, fractions and the wider number systems built from them using the tools of abstract algebra. Questions about numbers get restated as questions about algebraic objects, such as finite fields, function fields, and number fields together with their rings of integers. Properties of those objects, such as how ideals behave or whether numbers factor in only one way, can then settle major questions, like whether a Diophantine equation has solutions.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Old questions",
+    "text": "Some of these questions are very old. The equation x² + y² = z² is answered by the Pythagorean triples, which the Babylonians first solved around 1800 BC. Linear equations such as 26x + 65y = 13 can be solved with the Euclidean algorithm, which dates to about the 5th century BC. Diophantus wrote the Arithmetica, though only part of it survives.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "A note in a margin",
+    "text": "In 1637 Pierre de Fermat wrote in the margin of a copy of the Arithmetica a claim now called Fermat's Last Theorem. He said he had a proof that was too big for the margin. Nobody published a working proof for the next 358 years, until 1995. The search for one drove the growth of algebraic number theory in the 19th century.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Gauss builds a system",
+    "text": "One of the founding books of the subject is the Disquisitiones Arithmeticae, which Carl Friedrich Gauss wrote in Latin at 21 and published in 1801. Before it, number theory was a scatter of separate theorems and guesses. Gauss gathered the results of Fermat, Euler, Lagrange, Legendre and others, added his own, fixed weak proofs and filled gaps. His book became the starting point for later mathematicians such as Kummer, Dirichlet and Dedekind.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Ideals and the 19th century",
+    "text": "Ernst Kummer, in an 1843 attempt on Fermat's Last Theorem, devised ideal numbers. Richard Dedekind introduced ideals, which generalize Kummer's idea and became basic to ring theory; Hilbert and especially Emmy Noether developed them further. In 1897 David Hilbert pulled the whole field together in a report called the Zahlbericht.",
+    "cites": [
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "How Fermat was finally proved",
+    "text": "Around 1955 Goro Shimura and Yutaka Taniyama noticed a possible link between two areas that looked unrelated, elliptic curves and modular forms. The idea that every elliptic curve matches a modular form became the modularity theorem. Between 1993 and 1994 Andrew Wiles proved it for semistable elliptic curves, and together with Ribet's theorem this proved Fermat's Last Theorem. His first version, announced in June 1993, had a serious gap; the fixed proof, done partly with Richard Taylor, came out in 1994 and was formally published in 1995.",
+    "cites": [
+     37,
+     38,
+     41,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "raji-intro",
+   "kind": "book",
+   "title": "1: Introduction - Elementary Number Theory (Raji)",
+   "by": "Wissam Raji",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Raji)/01%3A_Introduction",
+   "note": "The opening chapter of a free number theory textbook, introducing the integers and their basic properties.",
+   "license": "CC BY"
+  },
+  {
+   "id": "mit-theory-of-numbers",
+   "kind": "course",
+   "title": "Theory of Numbers",
+   "by": "Prof. Abhinav Kumar",
+   "url": "https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/",
+   "note": "A full MIT course in number theory, with lecture notes and problem sets.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

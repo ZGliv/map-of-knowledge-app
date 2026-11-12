@@ -1,0 +1,104 @@
+{
+ "title": "Chance has more than one meaning",
+ "question": "What does it mean to say something has a 50% chance?",
+ "hook": "A coin flip and a doctor’s forecast both use the word chance, yet they can mean different things.",
+ "idea": "Probability is a number from 0 to 1 for how likely an event is, read as long-run frequency or as a degree of belief.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A fair coin is tossed once. What probability goes with each outcome?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "1/2 for heads and 1/2 for tails"
+    },
+    {
+     "id": "b",
+     "label": "1 for heads, since it is listed first",
+     "feedback": "Order of listing has no effect, and the two outcomes are equally probable."
+    },
+    {
+     "id": "c",
+     "label": "1/3 each, adding a third outcome",
+     "feedback": "The setup allows only heads and tails, so no other outcome takes a share."
+    }
+   ],
+   "answer": "a",
+   "explain": "The outcomes are equally probable and no other outcome is possible, so each is 1/2, also written 0.5 or 50%.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps in the history of probability in order.",
+   "items": [
+    "Cardano defines odds as favourable against unfavourable outcomes",
+    "Fermat and Pascal correspond about probabilities (1654)",
+    "Huygens gives the earliest known scientific treatment (1657)",
+    "Jakob Bernoulli’s Ars Conjectandi appears (1713)"
+   ],
+   "ends": [
+    "Earliest",
+    "Latest"
+   ],
+   "explain": "Cardano worked in the sixteenth century, followed by the letters of 1654, Huygens in 1657 and Bernoulli in 1713.",
+   "cites": [
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each reading of probability by its family.",
+   "groups": [
+    "Objective reading",
+    "Subjective reading"
+   ],
+   "items": [
+    [
+     "Frequentist probability",
+     "Objective reading"
+    ],
+    [
+     "Propensity probability",
+     "Objective reading"
+    ],
+    [
+     "Bayesian probability",
+     "Subjective reading"
+    ],
+    [
+     "Degree of belief",
+     "Subjective reading"
+    ]
+   ],
+   "explain": "Objectivists describe a physical state of affairs, while subjectivists treat probability as a degree of belief.",
+   "cites": [
+    10,
+    11,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A probability is a number between 0 and 1.",
+    "It can also be written as a percentage from 0% to 100%.",
+    "So a forecast of 150% means the event is even more certain than a sure thing.",
+    "A larger probability does still mean the event is more likely."
+   ],
+   "wrong": 2,
+   "explain": "Percentages stop at 100%, so 150% is not a possible probability.",
+   "cites": [
+    2,
+    3
+   ]
+  }
+ ]
+}

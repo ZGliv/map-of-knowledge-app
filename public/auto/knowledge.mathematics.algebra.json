@@ -1,0 +1,547 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra",
+ "name": "Algebra",
+ "summary": [
+  {
+   "text": "Algebra is a branch of mathematics that deals with abstract systems called algebraic structures and with manipulating expressions within those systems.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It generalizes arithmetic by introducing variables, symbols for unknown or unspecified quantities, which make it possible to state general laws.",
+   "cites": [
+    2,
+    42,
+    43
+   ]
+  },
+  {
+   "text": "Elementary algebra is the form taught in schools, while abstract algebra goes further and studies structures such as groups, rings and fields.",
+   "cites": [
+    3,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Word origin",
+   "value": "Arabic al-jabr, which originally referred to bonesetting",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Independent discipline",
+   "value": "Al-Khwarizmi systematized it in the 9th century, distinct from geometry",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Symbols arrive",
+   "value": "A rigorous symbolic formalism developed in the 16th and 17th centuries",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Scope broadens",
+   "value": "In the mid-19th century it grew beyond a theory of equations",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Entered English",
+   "value": "In the 16th century, from Italian, Spanish and medieval Latin",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "The equation 2 × 3 = 3 × 2 is true for those numbers. Why does writing a × b = b × a with letters add something?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It uses a different multiplication operation"
+    },
+    {
+     "id": "b",
+     "label": "It shows 2 and 3 are the only valid numbers"
+    },
+    {
+     "id": "c",
+     "label": "It states a law that holds for any numbers at all"
+    },
+    {
+     "id": "d",
+     "label": "It makes the answer easier to calculate"
+    }
+   ],
+   "answer": "c",
+   "explain": "Replacing numbers with variables expresses a general law, here the commutative property of multiplication, that applies to any combination of numbers.",
+   "cites": [
+    44,
+    45
+   ],
+   "id": "knowledge.mathematics.algebra:q1"
+  },
+  {
+   "prompt": "You are told an unknown number makes a statement true, and you want to find which one. What does elementary algebra do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guesses numbers until one happens to fit"
+    },
+    {
+     "id": "b",
+     "label": "Lists every set of objects with an operation on it"
+    },
+    {
+     "id": "c",
+     "label": "Replaces the statement with a bigger, more general structure"
+    },
+    {
+     "id": "d",
+     "label": "Uses a variable and transforms the equation to isolate it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Elementary algebra uses variables for unspecified values and transforms equations to isolate them, finding for which values the statements are true.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra:q2"
+  },
+  {
+   "prompt": "Three equations share the same unknowns, and you need values that satisfy all of them at once. Which field provides methods for this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Linear algebra"
+    },
+    {
+     "id": "b",
+     "label": "Universal algebra"
+    },
+    {
+     "id": "c",
+     "label": "Category theory"
+    },
+    {
+     "id": "d",
+     "label": "Plain arithmetic"
+    }
+   ],
+   "answer": "a",
+   "explain": "Linear algebra investigates systems of linear equations and gives methods to find values that solve all the equations at the same time.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra:q3"
+  },
+  {
+   "prompt": "What lets abstract algebra reach further than elementary and linear algebra?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It restricts itself to just the real numbers"
+    },
+    {
+     "id": "b",
+     "label": "It allows non-number objects and non-arithmetic operations"
+    },
+    {
+     "id": "c",
+     "label": "It drops all laws, so anything is allowed"
+    },
+    {
+     "id": "d",
+     "label": "It avoids sets of objects entirely"
+    }
+   ],
+   "answer": "b",
+   "explain": "Abstract algebra works with algebraic structures, sets of objects with operations, so it can cover things that are not numbers and operations that are not arithmetic.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.mathematics.algebra:q4"
+  },
+  {
+   "prompt": "Early algebraic methods served particular problems in other fields. What did al-Khwarizmi do in the 9th century?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Introduced rigorous symbolic notation"
+    },
+    {
+     "id": "b",
+     "label": "Broadened algebra to cover groups and rings"
+    },
+    {
+     "id": "c",
+     "label": "Systematized algebra as its own discipline"
+    },
+    {
+     "id": "d",
+     "label": "Showed algebra was only arithmetic"
+    }
+   ],
+   "answer": "c",
+   "explain": "He systematized algebra as an independent mathematical discipline; symbolic notation came in the 16th and 17th centuries and broader structures in the 19th.",
+   "cites": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra:q5"
+  },
+  {
+   "prompt": "Until the 19th century, the word algebra mainly meant which of these?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The art of manipulating polynomial equations in order to solve them"
+    },
+    {
+     "id": "b",
+     "label": "The study of groups, rings and fields and their axioms"
+    },
+    {
+     "id": "c",
+     "label": "A set with several operations and no equations"
+    },
+    {
+     "id": "d",
+     "label": "A general theory of every possible algebraic structure"
+    }
+   ],
+   "answer": "a",
+   "explain": "Its meaning was first restricted to the theory of equations; in the 19th century it broadened to diverse operations and structures and their axioms.",
+   "cites": [
+    35,
+    36
+   ],
+   "id": "knowledge.mathematics.algebra:q6"
+  }
+ ],
+ "source": {
+  "title": "Algebra",
+  "url": "https://en.wikipedia.org/wiki/Algebra",
+  "revision": 1382106610
+ },
+ "pack": {
+  "id": "auto-mathematics-algebra",
+  "title": "When letters replace numbers",
+  "question": "What do letters buy you in mathematics?",
+  "path": [
+   "Mathematics",
+   "Algebra"
+  ],
+  "hue": 53,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/960px-Linear_subspaces_with_shading.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Linear algebra",
+    "credit": "Alksentrs at en.wikipedia · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_subspaces_with_shading.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When letters replace numbers",
+    "hook": "One small swap, a letter for a number, changes what a sentence about numbers can say."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-mathematics-algebra:1",
+    "transfer": false,
+    "prompt": "The equation 2 × 3 = 3 × 2 is only about two specific numbers. How could you write that the order of multiplying never matters for any numbers?",
+    "explain": "Replacing numbers with variables expresses a general law that applies to any combination of numbers: the commutative property of multiplication.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "a × b = b × a"
+       },
+       {
+        "id": "c",
+        "label": "a+b=7",
+        "feedback": "This is a statement about addition and sets a particular total, not a general law."
+       },
+       {
+        "id": "a",
+        "label": "2 × 3 = 6",
+        "feedback": "This is a fact about specific numbers only, so it cannot cover every pair."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-mathematics-algebra:2",
+    "transfer": false,
+    "prompt": "Put these levels from the most specific to the most abstract",
+    "items": [
+     {
+      "id": "a",
+      "label": "Arithmetic, in a particular domain of numbers"
+     },
+     {
+      "id": "b",
+      "label": "Elementary algebra, adding variables to numbers"
+     },
+     {
+      "id": "c",
+      "label": "Abstract algebra, covering structures like groups and rings"
+     },
+     {
+      "id": "d",
+      "label": "Universal algebra, studying structures in general"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Most specific",
+     "Most abstract"
+    ],
+    "explain": "Arithmetic works with specific numbers, elementary algebra is the first level of abstraction, abstract algebra is higher, and universal algebra is more abstract still."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-mathematics-algebra:3",
+    "transfer": true,
+    "prompt": "Match each branch to what it studies",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Elementary algebra"
+     },
+     {
+      "id": "l1",
+      "label": "Linear algebra"
+     },
+     {
+      "id": "l2",
+      "label": "Abstract algebra"
+     },
+     {
+      "id": "l3",
+      "label": "Universal algebra"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Characteristics of structures in general"
+     },
+     {
+      "id": "r2",
+      "label": "Sets with operations, like groups and rings"
+     },
+     {
+      "id": "r1",
+      "label": "Systems of linear equations"
+     },
+     {
+      "id": "r0",
+      "label": "Which values make statements with variables true"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each branch looks at a different level, from solving statements with variables to studying structures in general."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-mathematics-algebra:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning about the word algebra is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Elementary algebra is the main form of algebra taught in schools."
+     },
+     {
+      "id": "b",
+      "text": "It generalizes arithmetic by using variables."
+     },
+     {
+      "id": "c",
+      "text": "So algebra can only involve numbers and arithmetic operations."
+     },
+     {
+      "id": "d",
+      "text": "Therefore abstract algebra must be something else entirely."
+     }
+    ],
+    "answer": "c",
+    "explain": "Abstract algebra is also algebra: it allows objects other than numbers and non-arithmetic operations, and the word is sometimes used narrowly for either branch."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Algebra uses variables to state laws that hold for any numbers, then generalizes that move to whole structures of objects and operations.",
+    "connections": [
+     {
+      "title": "Equations",
+      "place": "Algebra",
+      "node": "knowledge.mathematics.algebra.equations"
+     },
+     {
+      "title": "Polynomials",
+      "place": "Algebra",
+      "node": "knowledge.mathematics.algebra.polynomials"
+     },
+     {
+      "title": "Linear algebra",
+      "place": "Algebra",
+      "node": "knowledge.mathematics.algebra.linear-algebra"
+     },
+     {
+      "title": "Abstract algebra",
+      "place": "Algebra",
+      "node": "knowledge.mathematics.algebra.abstract-algebra"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Replacing numbers with variables expresses a general law that applies to any combination of numbers: the commutative property of multiplication.",
+    "source": "Wikipedia sentences 44, 45"
+   },
+   {
+    "claim": "Arithmetic works with specific numbers, elementary algebra is the first level of abstraction, abstract algebra is higher, and universal algebra is more abstract still.",
+    "source": "Wikipedia sentences 22, 23, 26, 28"
+   },
+   {
+    "claim": "Each branch looks at a different level, from solving statements with variables to studying structures in general.",
+    "source": "Wikipedia sentences 4, 6, 8, 28"
+   },
+   {
+    "claim": "Abstract algebra is also algebra: it allows objects other than numbers and non-arithmetic operations, and the word is sometimes used narrowly for either branch.",
+    "source": "Wikipedia sentences 3, 9, 29"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What algebra studies",
+    "text": "Algebra is a branch of mathematics whose subject is algebraic structures and the operations used within them. An algebraic structure is a set of mathematical objects that is not empty, such as the integers, together with operations defined on it, such as addition and multiplication. Algebra asks what laws these structures obey and what kinds of them there are. It reaches well beyond itself, into geometry, topology, number theory and calculus, and also into logic and the empirical sciences.",
+    "cites": [
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Arithmetic with letters",
+    "text": "Algebra is often described as arithmetic made more general. Arithmetic works with operations like adding, subtracting, multiplying and dividing on one particular kind of number, such as the real numbers. Algebra keeps those operations but also lets you use variables: symbols that stand for quantities that are unknown or left unspecified. Variables let you describe a relationship even when you do not know the exact values, and state laws that hold whatever numbers you choose.",
+    "cites": [
+     2,
+     21,
+     22,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "From one fact to a law",
+    "text": "Take the statement 2 × 3 = 3 × 2. That is arithmetic, and it is true only for those two numbers. Swap the numbers for variables and you get a × b = b × a. Now the statement covers every possible pair of numbers, and it has a name: the commutative property of multiplication.",
+    "cites": [
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Levels of abstraction",
+    "text": "Elementary algebra, the kind taught in schools, is the first step up from arithmetic. It sticks to particular numbers and operations but adds variables, and it tries to find which values make a statement true by reshaping equations until a variable stands alone. Linear algebra deals with linear equations and with systems of them, looking for the values that satisfy every equation in a system at once. Abstract algebra is not tied to any one kind of number and studies structures such as groups, rings and fields, telling them apart by how many operations they have and by their axioms, the laws they obey. Universal algebra goes further still and looks at what algebraic structures have in common in general.",
+    "cites": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     10,
+     23,
+     24,
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Where the word comes from",
+    "text": "The word algebra comes from the Arabic al-jabr, which first meant the surgical setting of broken bones. In the 9th century the Persian mathematician Muhammad ibn Musa al-Khwarizmi gave it a mathematical meaning. He used it for a method of transforming equations and put it in the title of his treatise, later translated into Latin as Liber Algebrae et Almucabola. English borrowed the word in the 1500s, taking it from Italian, Spanish and medieval Latin.",
+    "cites": [
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "How algebra grew",
+    "text": "In ancient times, algebraic methods were worked out to solve particular problems in subjects such as geometry. Al-Khwarizmi changed that by making algebra a discipline of its own, separate from geometry. Early mathematicians wrote out equations and their solutions in words and abbreviations, until a strict system of symbols was built in the 16th and 17th centuries. At first algebra meant the theory of equations, the craft of handling polynomial equations in order to solve them. In the mid-19th century it widened to take in many kinds of operations and structures, along with the axioms they follow.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "sep-algebra",
+   "kind": "article",
+   "title": "Algebra",
+   "by": "Vaughan Pratt",
+   "url": "https://plato.stanford.edu/entries/algebra/",
+   "note": "A Stanford Encyclopedia survey of algebra, from elementary algebra to abstract and universal algebra."
+  },
+  {
+   "id": "mit-algebra-1",
+   "kind": "course",
+   "title": "Algebra I",
+   "by": "Prof. Michael Artin",
+   "url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+   "note": "Michael Artin's MIT undergraduate algebra course, a full first course in the subject.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

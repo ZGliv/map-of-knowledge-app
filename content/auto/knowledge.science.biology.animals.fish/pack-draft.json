@@ -1,0 +1,107 @@
+{
+ "title": "Is \"fish\" even a thing?",
+ "question": "Why do biologists say \"fish\" is not one tidy group?",
+ "hook": "Your own ancestors were fish, which makes the word surprisingly hard to define.",
+ "idea": "Since four-limbed land vertebrates descend from fish, \"fish\" covers every vertebrate except them and is a handy label, not a complete branch of the family tree.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Imagine one branch of the family tree that holds the earliest fish and every one of their descendants. Where would humans sit?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Outside it, because our ancestors left the water long ago",
+     "feedback": "Leaving the water does not remove a lineage from its ancestry: tetrapods still descend from fish."
+    },
+    {
+     "id": "b",
+     "label": "On a separate branch, because we breathe with lungs",
+     "feedback": "It tempts because lungs seem new, but tetrapod lungs are homologous to swim bladders, which fish already had."
+    },
+    {
+     "id": "c",
+     "label": "Inside it, because tetrapods descend from fish"
+    }
+   ],
+   "answer": "c",
+   "explain": "Tetrapods, including humans, are modified bony fishes. A branch holding every descendant of the first fish would include us, and \"fish\" would match \"vertebrates\".",
+   "cites": [
+    4,
+    5,
+    18,
+    34
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Ichthyology",
+     "The study of fish"
+    ],
+    [
+     "Teleosts",
+     "Ray-finned fish that can protrude their jaws"
+    ],
+    [
+     "Tetrapods",
+     "Four-limbed vertebrates, mostly living on land"
+    ],
+    [
+     "Placoderms",
+     "The first fish with jaws"
+    ]
+   ],
+   "explain": "Each term names a piece of the fish story, from the science itself to the land vertebrates that grew out of it.",
+   "cites": [
+    9,
+    14,
+    17,
+    32
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Add up every living species of amphibians, reptiles, birds and mammals. How does that total compare with living fish species?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The four land-linked classes together are far larger",
+     "feedback": "Mammals and birds get the attention, but they are small groups next to fish."
+    },
+    {
+     "id": "b",
+     "label": "Fish alone outnumber all four classes combined"
+    },
+    {
+     "id": "c",
+     "label": "The two totals are roughly equal",
+     "feedback": "Fish are not close to a tie: with over 33,000 species they pass the other four classes combined."
+    }
+   ],
+   "answer": "b",
+   "explain": "With over 33,000 living species, fish are easily the largest group of vertebrates, more than the other four traditional classes combined.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Four-limbed land vertebrates evolved from lobe-finned fish.",
+    "So any group containing all jawed fish must also contain those land vertebrates.",
+    "So fish, leaving them out, form a paraphyletic group.",
+    "That is why Pisces is still the standard formal class for fish."
+   ],
+   "wrong": 3,
+   "explain": "Because fish without tetrapods are paraphyletic, the class Pisces from older reference works is no longer used in formal classifications.",
+   "cites": [
+    18,
+    32,
+    39
+   ]
+  }
+ ]
+}

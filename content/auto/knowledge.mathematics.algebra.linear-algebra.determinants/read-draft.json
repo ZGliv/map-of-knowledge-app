@@ -1,0 +1,73 @@
+{
+ "paragraphs": [
+  {
+   "heading": "One number from a square matrix",
+   "text": "A determinant is a single number worked out from the entries of a square matrix. It has many properties that make it central to studying square matrices and the linear transformations they stand for. There are several ways to define it, and they all agree. One clean version says it is the unique function that turns a product of matrices into a product of numbers, and that gives, for a triangular matrix, the product of the entries along its diagonal.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "heading": "Products and inverses",
+   "text": "From that rule, the determinant of a product of two square matrices equals the product of their two determinants. It also gives a test for inverses: a square matrix can be inverted exactly when its determinant has a multiplicative inverse. When the entries come from a field, such as the real or complex numbers, that simply means the determinant is not zero. A related object, the adjugate matrix, writes the inverse out explicitly. The product rule also means two similar matrices share a determinant, so a linear transformation has a well-defined determinant of its own.",
+   "cites": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    37
+   ]
+  },
+  {
+   "heading": "Scaling volume and area",
+   "text": "For real linear transformations, the determinant is the factor by which the transformation scales every volume in space. A positive value means orientation is kept, a negative value means it is reversed, and zero means the transformation is not bijective. In the plane this becomes concrete. Take two vectors, (a, c) and (b, d), and the matrix built from them: the parallelogram they define has an area equal to the absolute value of the determinant ad − bc. The sign says whether turning from the first vector to the second is counterclockwise (positive) or clockwise (negative), and lined-up vectors give zero, so the determinant is a signed area.",
+   "cites": [
+    9,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "heading": "Ways to compute it",
+   "text": "The determinant is linear in each row and in each column, which makes it a multilinear function. Laplace expansion uses this to write it as a combination of the entries of one row or column, each weighted by a cofactor, which is a determinant one size smaller. That pays off when a row or column is very sparse, with only one or two nonzero entries. For general work, Gaussian elimination and singular value decomposition compute determinants efficiently, while the Leibniz formula and Laplace expansion are inefficient outside special cases. For 3 × 3 matrices the rule of Sarrus is a memory aid built from diagonal products, but it does not carry over to larger sizes.",
+   "cites": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    33,
+    34
+   ]
+  },
+  {
+   "heading": "Where determinants turn up",
+   "text": "Determinants appear throughout mathematics. Cramer's rule uses determinants to express how a system of linear equations is solved. A square matrix's characteristic polynomial, which has the eigenvalues as its roots, is itself a determinant whose entries are polynomials. In geometry, determinants define or compute areas, volumes, orientation and collinearity. In analysis, the Jacobian determinant handles a change of variables in multiple integrals, and in algebraic geometry the Hessian determinant helps find inflexion points of an algebraic plane curve.",
+   "cites": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "heading": "The empty matrix",
+   "text": "An odd edge case shows how well the conventions fit together. A 0 × 0 matrix has no rows, no columns and no entries, and the usual rules for the empty set and the empty product give it a determinant of 1. That is exactly what the inverse formula needs for a 1 × 1 matrix [d] with d nonzero. The inverse is 1/d times the adjugate, and the adjugate's single entry is the determinant of the empty matrix, which is 1. So the answer comes out as [1/d], just as expected.",
+   "cites": [
+    23,
+    24,
+    25,
+    26,
+    27
+   ]
+  }
+ ]
+}

@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score",
+ "name": "Standard score",
+ "summary": [
+  {
+   "text": "A standard score, or z-score, is the number of standard deviations by which a data point is above or below the mean of what is being measured.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is found by subtracting the population mean from the raw score and dividing the difference by the population standard deviation.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Because the units cancel, z-scores let you compare results measured on different scales, such as SAT and ACT scores.",
+   "cites": [
+    9,
+    19,
+    24
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Sign",
+   "value": "Positive above the mean, negative below it",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Calculation",
+   "value": "Subtract the mean, then divide by the standard deviation",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "None: the units cancel, leaving a dimensionless number",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Sample version",
+   "value": "With sample statistics instead, the result is a t-statistic",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "T-score",
+   "value": "A z-score rescaled to mean 50, standard deviation 10",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two students are compared to their class average. One has a positive z-score and the other a negative z-score. What does that tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first beat the class average and the second fell short of it"
+    },
+    {
+     "id": "b",
+     "label": "The first fell short of the class average and the second beat it"
+    },
+    {
+     "id": "c",
+     "label": "Both scored at the average but with different spreads"
+    },
+    {
+     "id": "d",
+     "label": "Their scores cannot be compared with the class average"
+    }
+   ],
+   "answer": "a",
+   "explain": "Raw scores above the mean have positive standard scores, and those below the mean have negative ones.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score:q1"
+  },
+  {
+   "prompt": "Maya scored 85 on a quiz and 60 on an exam, and the two are graded on different scales. How can you fairly judge which was better compared with classmates?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Compare the raw numbers, since the larger is better"
+    },
+    {
+     "id": "b",
+     "label": "Average the two raw scores together"
+    },
+    {
+     "id": "c",
+     "label": "Convert each into a z-score and compare those"
+    },
+    {
+     "id": "d",
+     "label": "Pick whichever test had more students"
+    }
+   ],
+   "answer": "c",
+   "explain": "When scores are on different scales, converting them to z-scores aids comparison.",
+   "cites": [
+    19,
+    24
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score:q2"
+  },
+  {
+   "prompt": "A test has mean 60 and standard deviation 5. A student scores 70. What is the student's z-score?",
+   "options": [
+    {
+     "id": "a",
+     "label": "10"
+    },
+    {
+     "id": "b",
+     "label": "0.5"
+    },
+    {
+     "id": "c",
+     "label": "14"
+    },
+    {
+     "id": "d",
+     "label": "2"
+    }
+   ],
+   "answer": "d",
+   "explain": "Subtract the mean (70 − 60 = 10) and divide by the standard deviation (10 ÷ 5 = 2).",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score:q3"
+  },
+  {
+   "prompt": "Heights are measured in centimetres, and so are their mean and standard deviation. What units does a person's z-score have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Centimetres, matching the heights"
+    },
+    {
+     "id": "b",
+     "label": "Square centimetres, from the spread"
+    },
+    {
+     "id": "c",
+     "label": "None, because the units cancel in the division"
+    },
+    {
+     "id": "d",
+     "label": "Standard centimetres, a special unit"
+    }
+   ],
+   "answer": "c",
+   "explain": "The numerator and denominator share the same units, so they cancel and z is dimensionless.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score:q4"
+  },
+  {
+   "prompt": "Why is the t-test used much more widely than the z-test?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it is unusual to know the entire population's parameters"
+    },
+    {
+     "id": "b",
+     "label": "Because z-scores cannot be computed from any numbers"
+    },
+    {
+     "id": "c",
+     "label": "Because the t-test never needs a mean at all"
+    },
+    {
+     "id": "d",
+     "label": "Because z-scores only work for standardized tests"
+    }
+   ],
+   "answer": "a",
+   "explain": "A z-test needs the population's parameters, and it is very unusual to know the entire population.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score:q5"
+  },
+  {
+   "prompt": "You cannot measure a whole population, so its true mean and standard deviation are unknown. What is the usual workaround for a standard score?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Give up, since no standard score can be found"
+    },
+    {
+     "id": "b",
+     "label": "Use the sample mean and sample standard deviation as estimates"
+    },
+    {
+     "id": "c",
+     "label": "Use a mean of zero and a spread of one"
+    },
+    {
+     "id": "d",
+     "label": "Use the largest observation as the mean"
+    }
+   ],
+   "answer": "b",
+   "explain": "When the population values are unknown, the sample mean and sample standard deviation can be used as estimates.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.standard-score:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/The_Normal_Distribution.svg/960px-The_Normal_Distribution.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Standard score",
+  "credit": "Heds 1 at English Wikipedia",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Normal_Distribution.svg"
+ },
+ "source": {
+  "title": "Standard score",
+  "url": "https://en.wikipedia.org/wiki/Standard_score",
+  "revision": 1371562747
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "How far from average",
+    "text": "A standard score, usually called a z-score, tells you how many standard deviations a data point lies above or below the mean of whatever is being measured. A value above the mean gets a positive score, and a value below it gets a negative one. To find it, take the raw score, subtract the population mean, and divide what is left by the population standard deviation. Turning a raw score into a z-score is called standardizing.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "A number with no units",
+    "text": "The size of z, ignoring its sign, is the distance from the raw score to the mean, counted in standard deviations. Because the top and bottom of the fraction are in the same units, the units cancel and z is a pure number. The same idea goes by other names too, including z-value, z-statistic, normal score and standardized variable; in high energy physics it is called the pull.",
+    "cites": [
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Population or sample",
+    "text": "Strictly, a z-score needs the mean and standard deviation of the whole population a data point comes from. Knowing those is often unrealistic, except in cases like standardized testing, where everyone is measured. With only a sample, you can use the sample mean and sample standard deviation as stand-ins, and doing the same sum with them gives the t-statistic. The difference ought to be stated, but often it is not.",
+    "cites": [
+     7,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Comparing SAT and ACT scores",
+    "text": "Converting to z-scores makes it possible to compare results measured on different scales. Dietz and colleagues give an example using the old SAT and ACT high school tests. Imagine one student, A, with 1800 on the SAT, and another, B, with 24 on the ACT. Student A has the higher z-score, so A did better relative to other test-takers than B did. If both tests are also assumed to be roughly normal, the z-scores can even give the share of test-takers who scored lower than each student.",
+    "cites": [
+     19,
+     20,
+     22,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Other uses",
+    "text": "The z-score appears in the z-test used in standardized testing, which plays the part of Student's t-test when the population's parameters are known rather than estimated. Since the whole population is rarely known, the t-test is used far more. Z-scores also help build prediction intervals, and in process control they show how far a process is running off target. Before methods such as cluster analysis or principal components analysis, variables on different scales are often standardized first.",
+    "cites": [
+     14,
+     15,
+     16,
+     18,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "T-scores in schools and medicine",
+    "text": "The name T-score is used in two different ways. In educational testing, it is a z-score moved and stretched so that its mean is 50 and its standard deviation is 10. In Japan this idea, called hensachi, is widely used for high school and university admissions. In bone density measurement, though, a T-score compares a person with healthy 30-year-old adults and keeps the ordinary z-score scale, with mean 0 and standard deviation 1.",
+    "cites": [
+     34,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-1",
+   "kind": "book",
+   "title": "6.1 The Standard Normal Distribution",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-1-the-standard-normal-distribution",
+   "note": "Free textbook section that defines z-scores, shows how to compute them and works through examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-z-score",
+   "kind": "article",
+   "title": "z-Score",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/z-Score.html",
+   "note": "A short reference definition of the z-score as distance from the mean in standard deviations."
+  },
+  {
+   "id": "crashcourse-z-scores",
+   "kind": "video",
+   "title": "Z-Scores and Percentiles: Crash Course Statistics #18",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=uAxyI_XfqXk",
+   "note": "A short video on computing z-scores and using them to find percentiles."
+  }
+ ]
+}

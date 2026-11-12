@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix",
+ "name": "Singular matrix",
+ "summary": [
+  {
+   "text": "A singular matrix is a square matrix with no inverse, which is the same as det (A) = 0.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its columns and rows are linearly dependent, so the map it describes is not one-to-one and the equation Ax = 0 has nonzero solutions.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Singular matrices turn up in practice, for example in regression with collinear predictors and in projections from 3D to 2D.",
+   "cites": [
+    20,
+    23
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Determinant test",
+   "value": "An n by n matrix is singular exactly when det (A) = 0",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Rank",
+   "value": "Singular means rank (A) < n",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Regression",
+   "value": "Collinear predictors make the normal equations matrix singular",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Graph Laplacian",
+   "value": "Always singular, since each row sums to zero",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Projections",
+   "value": "3D to 2D projections are modeled by singular matrices",
+   "cites": [
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A square matrix has a determinant of zero. Someone tries to find another matrix that undoes it. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One always exists if you search long enough"
+    },
+    {
+     "id": "b",
+     "label": "None exists, because the matrix is not invertible"
+    },
+    {
+     "id": "c",
+     "label": "Exactly two exist, one for each side"
+    },
+    {
+     "id": "d",
+     "label": "One exists, but only for square roots"
+    }
+   ],
+   "answer": "b",
+   "explain": "A matrix is singular exactly when its determinant is zero, and singular means it has no inverse.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix:q1"
+  },
+  {
+   "prompt": "A graphics program squashes 3D points onto a flat screen with a matrix. Why can it not recover the original 3D positions from the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The screen has far too many pixels to count"
+    },
+    {
+     "id": "b",
+     "label": "The matrix has too many rows to be undone"
+    },
+    {
+     "id": "c",
+     "label": "The depth values are always negative numbers"
+    },
+    {
+     "id": "d",
+     "label": "It collapses a dimension, so it is singular"
+    }
+   ],
+   "answer": "d",
+   "explain": "Projections from 3D to 2D are modeled by singular matrices because they collapse a dimension, and a projection cannot be inverted.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix:q2"
+  },
+  {
+   "prompt": "In a regression, one input column is always exactly a multiple of another input column. What goes wrong with the normal equations matrix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It becomes singular"
+    },
+    {
+     "id": "b",
+     "label": "It becomes the identity"
+    },
+    {
+     "id": "c",
+     "label": "It becomes triangular"
+    },
+    {
+     "id": "d",
+     "label": "It becomes smaller by one row"
+    }
+   ],
+   "answer": "a",
+   "explain": "Linearly dependent or collinear features make that matrix singular.",
+   "cites": [
+    19,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix:q3"
+  },
+  {
+   "prompt": "A regression has two features that always move together. What is often the fix?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Collect the same feature a third time"
+    },
+    {
+     "id": "b",
+     "label": "Multiply every entry by a large number"
+    },
+    {
+     "id": "c",
+     "label": "Drop or combine features, or use the pseudoinverse"
+    },
+    {
+     "id": "d",
+     "label": "Replace the data with all zeros"
+    }
+   ],
+   "answer": "c",
+   "explain": "The remedy is often to drop or combine features, or to use the pseudoinverse.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix:q4"
+  },
+  {
+   "prompt": "One column of a square matrix is exactly twice another column. What must be true of the map the matrix describes?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is one-to-one and reversible"
+    },
+    {
+     "id": "b",
+     "label": "It maps every vector to zero"
+    },
+    {
+     "id": "c",
+     "label": "It doubles every vector"
+    },
+    {
+     "id": "d",
+     "label": "It is not one-to-one, so the matrix is singular"
+    }
+   ],
+   "answer": "d",
+   "explain": "A matrix is singular exactly when its columns are linearly dependent, and then the map is not one-to-one.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix:q5"
+  },
+  {
+   "prompt": "You solve a system of equations by Gaussian elimination, but the coefficient matrix is singular. What often happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A zero pivot appears that row swaps cannot fix"
+    },
+    {
+     "id": "b",
+     "label": "Every pivot is nonzero and a single answer appears"
+    },
+    {
+     "id": "c",
+     "label": "Row swaps always repair the zero pivot"
+    },
+    {
+     "id": "d",
+     "label": "The answer is always exactly zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "With a singular matrix some pivots can be zero in a way row swaps cannot fix, and the result is often infinitely many solutions.",
+   "cites": [
+    9,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.determinants.singular-matrix:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Matrix.svg/960px-Matrix.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Singular matrix",
+  "credit": "Lakeworks",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Matrix.svg"
+ },
+ "source": {
+  "title": "Singular matrix",
+  "url": "https://en.wikipedia.org/wiki/Singular_matrix",
+  "revision": 1383595343
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A matrix with no inverse",
+    "text": "A singular matrix is a square matrix that has no inverse. A non-singular matrix is the opposite case, one that does have an inverse, so non-singular and invertible mean the same thing. There is also a numerical test: an n-by-n matrix A fails to be invertible precisely when its determinant, det (A), equals 0.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "What goes wrong inside",
+    "text": "Underneath, singularity means the columns of A, and its rows too, are linearly dependent. The linear map x ↦ Ax is then not one-to-one. The kernel of A, also called its null space, is non-trivial, with dimension at least 1, and the equation Ax = 0 has solutions other than zero. In terms of rank, det (A) = 0 exactly when rank (A) is less than n, and det (A) ≠ 0 exactly when rank (A) = n.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Solving equations",
+    "text": "Invertibility matters when solving systems. If A is invertible, a system like Ax = B can be solved uniquely as x = A⁻¹B, and Gaussian elimination is sure to give one unique answer. With an invertible matrix the pivots are nonzero, with row swaps used when needed. With a singular matrix some pivots can be zero in a way no row swap can fix, so elimination breaks down or gives an inconsistent result. Back substitution also fails, since it needs nonzero diagonal entries, and the system often ends up with infinitely many solutions.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Robots, regression and projections",
+    "text": "Singular matrices turn up in practical work. In robotics, the Jacobian that maps joint velocities to the velocity of a manipulator's end-effector loses rank in certain configurations, and there the robot cannot move or apply forces in some directions. In statistics and machine learning, linearly dependent features make matrices such as X^TX singular, which happens in linear regression when predictors are collinear. The usual remedies are to drop or combine features, or to use the pseudoinverse. A projection from 3D to 2D is singular too, since it collapses a dimension, so it cannot be inverted.",
+    "cites": [
+     13,
+     14,
+     15,
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Built-in singularity",
+    "text": "Some matrices are singular by design. The Laplacian matrix of a graph always is: each of its rows sums to zero, it has a zero eigenvalue, and the uniform vector lies in its nullspace. Principal Component Analysis uses singular value decomposition to make low-rank approximations of data, in effect treating the covariance as singular by discarding small singular values.",
+    "cites": [
+     16,
+     17,
+     22
+    ]
+   },
+   {
+    "heading": "A long history",
+    "text": "Determinants were first developed as tools for solving systems of equations, by Seki in Japan in 1683 and by Leibniz and Cramer in Europe in the 1690s. Leibniz recognized that a system is solvable exactly when a certain determinant expression comes out to zero, so a zero determinant was understood as the key condition for solvability. Over the 18th and 19th centuries, Laplace, Cauchy and others established that det (A) = 0 characterizes non-invertibility. In the 20th century the Moore–Penrose pseudoinverse, proposed by E. Moore in 1920 and rediscovered by R. Penrose in 1955, gave a systematic way to handle singular and non-square cases.",
+    "cites": [
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mathworld-singular",
+   "kind": "article",
+   "title": "Singular Matrix",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/SingularMatrix.html",
+   "note": "A reference entry on matrices with no inverse and zero determinant, with counts of singular matrices."
+  }
+ ]
+}

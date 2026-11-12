@@ -1,0 +1,534 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.diophantine-equations",
+ "name": "Diophantine equations",
+ "summary": [
+  {
+   "text": "A Diophantine equation is a polynomial equation with whole-number coefficients where only whole-number answers count.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The name honours Diophantus of Alexandria, a Hellenistic mathematician of the 3rd century who studied such equations.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "text": "Hilbert's tenth problem shows that no general method can decide whether an arbitrary Diophantine equation has a whole-number solution.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named after",
+   "value": "Diophantus of Alexandria, 3rd century",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Linear kind",
+   "value": "A sum of unknowns with coefficients equals a constant",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Exponential kind",
+   "value": "Unknowns are allowed to appear in exponents",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "General theories",
+   "value": "Beyond linear and quadratic cases, a twentieth-century achievement",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Famous hard case",
+   "value": "Fermat's Last Theorem took over three centuries to solve",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Which question is the kind that a Diophantine equation is built to answer?",
+   "options": [
+    {
+     "id": "a",
+     "label": "How many whole boxes of two sizes add up to exactly 50 items?"
+    },
+    {
+     "id": "b",
+     "label": "What is the exact height of a ladder leaning on a wall?"
+    },
+    {
+     "id": "c",
+     "label": "What is the average of a long list of test scores?"
+    },
+    {
+     "id": "d",
+     "label": "How fast is a falling stone moving after two seconds?"
+    }
+   ],
+   "answer": "a",
+   "explain": "A Diophantine equation is a polynomial equation with integer coefficients where only integer solutions are of interest, and you cannot buy half a box.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.diophantine-equations:q1"
+  },
+  {
+   "prompt": "A programmer claims to have one program that takes any Diophantine equation and always says whether a whole-number solution exists. What is wrong with the claim?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The program would run correctly but take too long"
+    },
+    {
+     "id": "b",
+     "label": "It only works if the equation has a single unknown"
+    },
+    {
+     "id": "c",
+     "label": "No general method of this kind can exist at all"
+    },
+    {
+     "id": "d",
+     "label": "It would need the equation to be linear and nothing else"
+    }
+   ],
+   "answer": "c",
+   "explain": "Hilbert's tenth problem shows that no general algorithm can decide whether an arbitrary Diophantine equation has an integer solution.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.diophantine-equations:q2"
+  },
+  {
+   "prompt": "A student wonders why these equations carry such an odd-sounding name. What is the explanation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They honour David Hilbert, who first posed them as a problem"
+    },
+    {
+     "id": "b",
+     "label": "They were named after Pierre de Fermat, who wrote about them"
+    },
+    {
+     "id": "c",
+     "label": "The name comes from a Greek word meaning whole numbers"
+    },
+    {
+     "id": "d",
+     "label": "They honour Diophantus of Alexandria, who studied them long ago"
+    }
+   ],
+   "answer": "d",
+   "explain": "The word refers to the Hellenistic mathematician Diophantus of Alexandria, who studied such equations in the 3rd century.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.diophantine-equations:q3"
+  },
+  {
+   "prompt": "An equation has an unknown number sitting in the power spot, like some number raised to the power x. Which name fits that type?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Linear Diophantine equation"
+    },
+    {
+     "id": "b",
+     "label": "Exponential Diophantine equation"
+    },
+    {
+     "id": "c",
+     "label": "Quadratic Diophantine equation"
+    },
+    {
+     "id": "d",
+     "label": "Homogeneous Diophantine equation"
+    }
+   ],
+   "answer": "b",
+   "explain": "An exponential Diophantine equation is one in which unknowns can appear in exponents, whereas a linear one just sums unknowns with coefficients.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.diophantine-equations:q4"
+  },
+  {
+   "prompt": "A friend says, 'These are just puzzles from school algebra, so mathematicians surely had a full theory of them centuries ago.' What is the better picture?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Individual equations are old puzzles, but general theories beyond linear and quadratic cases came in the twentieth century"
+    },
+    {
+     "id": "b",
+     "label": "General theories were complete in the 3rd century, and only individual puzzles came later"
+    },
+    {
+     "id": "c",
+     "label": "No general theory of any kind exists, even for the linear and quadratic cases"
+    },
+    {
+     "id": "d",
+     "label": "General theories arrived at the same time as Diophantus and have not changed since"
+    }
+   ],
+   "answer": "a",
+   "explain": "Single equations have been treated as puzzles throughout history, but general theories beyond the linear and quadratic cases are a twentieth-century achievement.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.diophantine-equations:q5"
+  },
+  {
+   "prompt": "Methods exist that work on almost every cubic equation met in practice. What does that tell us about solving every cubic Diophantine equation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Cubic equations are known to be easier than quadratic ones"
+    },
+    {
+     "id": "b",
+     "label": "A complete method exists but has not been published"
+    },
+    {
+     "id": "c",
+     "label": "Every cubic equation can be settled by the same short recipe"
+    },
+    {
+     "id": "d",
+     "label": "No algorithm is known that works for every cubic equation"
+    }
+   ],
+   "answer": "d",
+   "explain": "For degree three there are general methods that work on almost all equations met in practice, but no algorithm is known that works for every cubic equation.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.diophantine-equations:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/960px-Rtriangle.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Diophantine equations",
+  "credit": "Gustavb",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rtriangle.svg"
+ },
+ "source": {
+  "title": "Diophantine equation",
+  "url": "https://en.wikipedia.org/wiki/Diophantine_equation",
+  "revision": 1380844963
+ },
+ "pack": {
+  "id": "auto-number-theory-diophantine-equations",
+  "title": "When Only Whole Numbers Count",
+  "question": "What changes about an equation when only whole-number answers are allowed?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Number theory",
+   "Diophantine equations"
+  ],
+  "hue": 53,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/960px-Rtriangle.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Diophantine equations",
+    "credit": "Gustavb · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rtriangle.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "When Only Whole Numbers Count",
+    "hook": "Half a box or a third of a coin makes no sense, and that small rule makes some equations very hard."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-number-theory-diophantine-equations:1",
+    "transfer": false,
+    "prompt": "match each name to what it describes",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Linear Diophantine equation"
+     },
+     {
+      "id": "l1",
+      "label": "Exponential Diophantine equation"
+     },
+     {
+      "id": "l2",
+      "label": "Diophantine geometry"
+     },
+     {
+      "id": "l3",
+      "label": "Diophantine analysis"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Unknowns can appear in exponents"
+     },
+     {
+      "id": "r0",
+      "label": "A sum of unknowns with coefficients equals a constant"
+     },
+     {
+      "id": "r3",
+      "label": "The study of Diophantine problems that Diophantus began"
+     },
+     {
+      "id": "r2",
+      "label": "The part of algebraic geometry that studies the curves and surfaces such systems define"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each name marks a different way of looking at whole-number equations: by the shape of the equation or by the study built around it."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-diophantine-equations:2",
+    "transfer": false,
+    "prompt": "Someone proposes writing one computer program that checks any Diophantine equation and reports whether it has a whole-number solution. What does Hilbert's tenth problem say about this plan?",
+    "explain": "Hilbert's tenth problem shows that there cannot exist a general algorithm that decides whether an arbitrary Diophantine equation has an integer solution.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Such a general program cannot exist"
+       },
+       {
+        "id": "b",
+        "label": "It can exist but would be too slow to be practical",
+        "feedback": "It sounds like a speed problem, but the result is stronger: no such general method exists at all, however much time it gets."
+       },
+       {
+        "id": "c",
+        "label": "It exists, but only for equations with a single unknown",
+        "feedback": "This sounds like a sensible restriction, but the result is about arbitrary equations and says no general algorithm exists."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-number-theory-diophantine-equations:3",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Diophantus of Alexandria studied these equations in the 3rd century."
+     },
+     {
+      "id": "b",
+      "text": "Individual equations have been treated as puzzles throughout history."
+     },
+     {
+      "id": "c",
+      "text": "So a general theory covering every kind of equation must have been finished soon after Diophantus."
+     },
+     {
+      "id": "d",
+      "text": "In fact, general theories beyond linear and quadratic equations came only in the twentieth century."
+     }
+    ],
+    "answer": "c",
+    "explain": "Puzzles are old, but general theories beyond the linear and quadratic cases only arrived in the twentieth century, so the third step does not follow."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-diophantine-equations:4",
+    "transfer": true,
+    "prompt": "Mathematicians have general methods that work on almost every cubic equation seen in practice. What can be said about all cubic equations?",
+    "explain": "Methods cover almost all cubic equations met in practice, yet no algorithm is known for every cubic one, and degree-two equations are easier.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "A method for every cubic equation has been proven impossible to improve",
+        "feedback": "This sounds like the final word, but nothing in that claim is known."
+       },
+       {
+        "id": "b",
+        "label": "No algorithm is known that works for every cubic equation"
+       },
+       {
+        "id": "c",
+        "label": "Cubic equations are easier to solve than quadratic ones",
+        "feedback": "Cubic cases feel like a small step up, but degree-two equations are the easier ones."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "payoff",
+    "idea": "Diophantine equations ask for whole-number solutions, and beyond the simplest cases there is no general method for deciding whether any exist.",
+    "connections": [
+     {
+      "title": "Linear Diophantine equation",
+      "place": "Diophantine equations",
+      "node": "knowledge.mathematics.algebra.number-theory.diophantine-equations.linear-diophantine-equation"
+     },
+     {
+      "title": "Pell's equation",
+      "place": "Diophantine equations",
+      "node": "knowledge.mathematics.algebra.number-theory.diophantine-equations.pell-s-equation"
+     },
+     {
+      "title": "Fermat's Last Theorem",
+      "place": "Diophantine equations",
+      "node": "knowledge.mathematics.algebra.number-theory.diophantine-equations.fermat-s-last-theorem"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Each name marks a different way of looking at whole-number equations: by the shape of the equation or by the study built around it.",
+    "source": "Wikipedia sentences 2, 3, 5, 7"
+   },
+   {
+    "claim": "Hilbert's tenth problem shows that there cannot exist a general algorithm that decides whether an arbitrary Diophantine equation has an integer solution.",
+    "source": "Wikipedia sentences 9"
+   },
+   {
+    "claim": "Puzzles are old, but general theories beyond the linear and quadratic cases only arrived in the twentieth century, so the third step does not follow.",
+    "source": "Wikipedia sentences 6, 8"
+   },
+   {
+    "claim": "Methods cover almost all cubic equations met in practice, yet no algorithm is known for every cubic one, and degree-two equations are easier.",
+    "source": "Wikipedia sentences 28, 29"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Equations that want whole numbers",
+    "text": "A Diophantine equation is a polynomial equation whose coefficients are integers and where only integer answers count. A linear one sets a sum of unknowns, each multiplied by a coefficient, equal to a constant. An exponential one lets unknowns sit in the exponents. The name honours Diophantus of Alexandria, a Hellenistic mathematician of the 3rd century who studied such equations and was among the earliest to use symbols in algebra. The study he began is now called Diophantine analysis.",
+    "cites": [
+     1,
+     2,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "The simplest case",
+    "text": "The simplest linear example has the form ax + by = c, where a, b and c are given integers. It has a solution exactly when d divides c, where d = gcd (a, b). Once one solution x₀, y₀ is known, there are infinitely many, given by x = x₀ + (b/d)t and y = y₀ − (a/d)t for any integer t. Whole systems of linear equations like this can be solved with a matrix method called the Smith normal form, or with the Hermite normal form, which is much easier to compute.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     17,
+     21
+    ]
+   },
+   {
+    "heading": "Higher powers get hard",
+    "text": "Solving a homogeneous Diophantine equation amounts to finding the rational points of a shape called a projective hypersurface. This is usually very hard, even with only three unknowns. Fermat's Last Theorem is a witness: it says such an equation has no integer solution for degree above 2, and proving it took more than three centuries. Beyond degree three, most known results say there are no solutions or only finitely many, as in Faltings' theorem. For degree three, general methods handle almost every equation met in practice, but no known algorithm works on every cubic.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Degree two is friendlier",
+    "text": "Homogeneous equations of degree two are easier. The usual method has two steps: first find one solution or prove there is none, then derive all the others from it. The Hasse–Minkowski theorem decides whether a nontrivial solution exists by checking that it can be solved in the real numbers and in the p-adic numbers.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     40
+    ]
+   },
+   {
+    "heading": "A proof using remainders",
+    "text": "One equation of this kind, built from squares, has no solution except (0, 0, 0), and the argument is short. We may assume x, y and z share no common factor, since dividing by it changes nothing. Squares leave a remainder of 0 or 1 when divided by 4, so the left side leaves 0, 1 or 2 and the right side 0 or 3. They can only match if x, y and z are all even, which contradicts their sharing no factor. As a result, a circle of radius √3 centred at the origin passes through no rational point.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "A limit on what can be known",
+    "text": "Single equations have been treated as puzzles throughout history, but general theories beyond linear and quadratic equations arrived only in the twentieth century. Because these equations describe curves, surfaces and other shapes, their study also forms a part of algebraic geometry called Diophantine geometry. Hilbert's tenth problem sets a hard limit: there can be no general algorithm that decides whether an arbitrary Diophantine equation has an integer solution.",
+    "cites": [
+     5,
+     8,
+     9
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "moser-1-6",
+   "kind": "book",
+   "title": "1.6: Diophantine Equations - An Introduction to the Theory of Numbers (Moser)",
+   "by": "Leo Moser",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/An_Introduction_to_the_Theory_of_Numbers_(Moser)/01%3A_Chapters/1.06%3A_Diophantine_Equations",
+   "note": "A free textbook section working through two Diophantine equations, n! + 1 = x² and a sum-of-powers equation.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "numberphile-three-cubes",
+   "kind": "video",
+   "title": "3 as the sum of the 3 cubes",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=GXhzZAem7k0",
+   "note": "Andrew Booker on the hunt for whole-number solutions to x³ + y³ + z³ = 3, a famous Diophantine problem."
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "Gaussian elimination, also called row reduction, is an algorithm for solving systems of linear equations using row operations on the matrix of coefficients.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its first part reduces the system to row echelon form, which shows whether there are no solutions, one, or infinitely many; the second part finds the solution.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "It is named after Carl Friedrich Gauss, but a version appears in the ancient Chinese text The Nine Chapters on the Mathematical Art.",
+   "cites": [
+    4,
+    36
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other uses",
+   "value": "Computes rank, determinant and inverse of a matrix",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Two parts",
+   "value": "Forward elimination, then back substitution",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Safe moves",
+   "value": "Row operations do not change the solution set",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Gauss-Jordan",
+   "value": "Reducing all the way to reduced row echelon form",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Old appearance",
+   "value": "Appears in The Nine Chapters, parts written about 150 BC",
+   "cites": [
+    36,
+    38
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You swap two rows and add a multiple of one row to another in a system's matrix. Why does the final answer still fit the original system?",
+   "options": [
+    {
+     "id": "a",
+     "label": "These row operations leave the solution set unchanged"
+    },
+    {
+     "id": "b",
+     "label": "The original equations are discarded"
+    },
+    {
+     "id": "c",
+     "label": "Adding rows always cancels the unknowns"
+    },
+    {
+     "id": "d",
+     "label": "Row order never matters for any matrix"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the matrix is associated with a system of linear equations, these operations do not change the solution set.",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "prompt": "After forward elimination you reach row echelon form. What can you already tell?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The exact solution of every unknown"
+    },
+    {
+     "id": "b",
+     "label": "Whether it has no solution, one, or infinitely many"
+    },
+    {
+     "id": "c",
+     "label": "Only the determinant of the matrix"
+    },
+    {
+     "id": "d",
+     "label": "Nothing until back substitution is done"
+    }
+   ],
+   "answer": "b",
+   "explain": "Echelon form shows whether there are no solutions, a unique solution, or infinitely many.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A three-unknown system is in triangular form. Which order of solving the unknowns is quicker?",
+   "options": [
+    {
+     "id": "a",
+     "label": "In a random order"
+    },
+    {
+     "id": "b",
+     "label": "In the same order they were eliminated"
+    },
+    {
+     "id": "c",
+     "label": "In reverse order, starting from the last unknown"
+    },
+    {
+     "id": "d",
+     "label": "By guessing all and checking"
+    }
+   ],
+   "answer": "c",
+   "explain": "From a computational point of view it is faster to solve the variables in reverse order, called back-substitution.",
+   "cites": [
+    29,
+    31
+   ]
+  },
+  {
+   "prompt": "What is continuing row operations all the way to reduced row echelon form called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Forward elimination"
+    },
+    {
+     "id": "b",
+     "label": "LU decomposition"
+    },
+    {
+     "id": "c",
+     "label": "Cramer's rule"
+    },
+    {
+     "id": "d",
+     "label": "Gauss-Jordan elimination"
+    }
+   ],
+   "answer": "d",
+   "explain": "Row reducing until the matrix is reduced is sometimes called Gauss-Jordan elimination.",
+   "cites": [
+    5,
+    35
+   ]
+  },
+  {
+   "prompt": "A programmer sets up a system of equations so a computer can row reduce it. How should the system be stored?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As an augmented matrix rather than written-out equations"
+    },
+    {
+     "id": "b",
+     "label": "As separate written equations, one per line"
+    },
+    {
+     "id": "c",
+     "label": "As one long equation joined with plus signs"
+    },
+    {
+     "id": "d",
+     "label": "As a list of the final solved unknowns"
+    }
+   ],
+   "answer": "a",
+   "explain": "In practice the augmented matrix is used instead of the equations, because it is more suitable for computer manipulations.",
+   "cites": [
+    26
+   ]
+  },
+  {
+   "prompt": "The method carries Gauss's name. What does the evidence say about its origins?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gauss was the first person to use elimination"
+    },
+    {
+     "id": "b",
+     "label": "It appears in an ancient Chinese text and arose in several cultures"
+    },
+    {
+     "id": "c",
+     "label": "It was invented once and then spread by trade"
+    },
+    {
+     "id": "d",
+     "label": "It was first written down in Europe in the 1550s"
+    }
+   ],
+   "answer": "b",
+   "explain": "Elimination appears in The Nine Chapters and was invented independently in several cultures from antiquity.",
+   "cites": [
+    4,
+    36,
+    40
+   ]
+  }
+ ]
+}

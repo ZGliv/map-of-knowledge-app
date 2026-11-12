@@ -1,0 +1,107 @@
+{
+ "title": "What living things are made of",
+ "question": "What kinds of molecules do living things build and use?",
+ "hook": "Just four elements make up 96% of a human body's mass.",
+ "idea": "Biomolecules range from small vitamins to huge chains, and a few big families cover most of the large ones.",
+ "beats": [
+  {
+   "kind": "sort",
+   "prompt": "Sort each biomolecule by size",
+   "groups": [
+    "large macromolecule",
+    "small molecule"
+   ],
+   "items": [
+    [
+     "proteins",
+     "large macromolecule"
+    ],
+    [
+     "lipids",
+     "large macromolecule"
+    ],
+    [
+     "nucleic acids",
+     "large macromolecule"
+    ],
+    [
+     "vitamins",
+     "small molecule"
+    ],
+    [
+     "hormones",
+     "small molecule"
+    ]
+   ],
+   "explain": "Proteins, carbohydrates, lipids and nucleic acids are the large macromolecules; vitamins and hormones are small molecules.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each sugar to its type",
+   "pairs": [
+    [
+     "Glucose",
+     "Monosaccharide"
+    ],
+    [
+     "Sucrose",
+     "Disaccharide"
+    ],
+    [
+     "Starch",
+     "Polysaccharide"
+    ]
+   ],
+   "explain": "Monosaccharides are single sugars, disaccharides join two, and polysaccharides are polymerized monosaccharides.",
+   "cites": [
+    31,
+    36,
+    39
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A cell builds a new RNA strand. Where DNA would use thymine, which base does RNA use?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Uracil"
+    },
+    {
+     "id": "b",
+     "label": "Adenine",
+     "feedback": "Adenine is used by both DNA and RNA, so it cannot be the swap."
+    },
+    {
+     "id": "c",
+     "label": "Cytosine",
+     "feedback": "Cytosine appears in both DNA and RNA too."
+    }
+   ],
+   "answer": "a",
+   "explain": "DNA uses C, G, A and T, while RNA uses C, G, A and U.",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A biomolecule is a molecule produced by a living organism.",
+    "Many biomolecules are endogenous, meaning produced within the organism.",
+    "Nutrients taken in from food are exogenous biomolecules.",
+    "So an organism can survive entirely on what it makes itself."
+   ],
+   "wrong": 3,
+   "explain": "Organisms usually also need exogenous biomolecules, such as certain nutrients, to survive.",
+   "cites": [
+    1,
+    5
+   ]
+  }
+ ]
+}

@@ -1,0 +1,329 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.genetics-genomes.dominance",
+ "name": "Dominance",
+ "summary": [
+  {
+   "text": "Dominance is when one variant of a gene on one chromosome copy masks or overrides a different variant of the same gene on the other copy.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The variant that masks is called dominant and the masked one recessive, a concept Gregor Mendel studied in classical genetics.",
+   "cites": [
+    2,
+    7
+   ]
+  },
+  {
+   "text": "In peas, a plant with one round-seed variant and one wrinkled-seed variant still has round peas, because the round variant masks the other.",
+   "cites": [
+    10,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two names",
+   "value": "The masking variant is dominant; the masked one is recessive",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Pea example",
+   "value": "Round-pea allele R masks wrinkled-pea allele r",
+   "cites": [
+    10,
+    13
+   ]
+  },
+  {
+   "label": "Mendel's ratio",
+   "value": "Crossing two hybrids gave a 3:1 ratio of the two original traits",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "label": "Letter notation",
+   "value": "Capital letters mark dominant alleles, lowercase mark recessive",
+   "cites": [
+    8,
+    28
+   ]
+  },
+  {
+   "label": "Snapdragon blend",
+   "value": "Red crossed with white gives pink under incomplete dominance",
+   "cites": [
+    42,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In a pea plant, R is the allele linked to round peas and r is the allele linked to wrinkled peas. A plant has the genotype Rr. What do you expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The r allele wins, because lowercase letters are stronger"
+    },
+    {
+     "id": "b",
+     "label": "The R allele's effect shows, and the r allele's effect is hidden"
+    },
+    {
+     "id": "c",
+     "label": "Each pea ends up half one shape and half the other"
+    },
+    {
+     "id": "d",
+     "label": "The plant cannot produce peas at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "In an Rr plant the R allele masks the r allele, so the plant has the same peas as an RR plant.",
+   "cites": [
+    10,
+    11,
+    13,
+    14
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.dominance:q1"
+  },
+  {
+   "prompt": "Two hybrid pea plants, both Aa, are crossed. Roughly what share of their offspring show the dominant trait?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All of them"
+    },
+    {
+     "id": "b",
+     "label": "One half of them"
+    },
+    {
+     "id": "c",
+     "label": "Three out of every four"
+    },
+    {
+     "id": "d",
+     "label": "One out of every four"
+    }
+   ],
+   "answer": "c",
+   "explain": "An Aa x Aa cross gives AA, Aa and aa offspring in a 1:2:1 ratio, and the first two classes show the dominant trait, so the phenotype ratio is 3:1.",
+   "cites": [
+    26
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.dominance:q2"
+  },
+  {
+   "prompt": "A student says, \"Allele X is a dominant allele, full stop.\" What is wrong with saying it that way?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Dominance is relative: X may be recessive to another allele"
+    },
+    {
+     "id": "b",
+     "label": "Alleles are never dominant; only whole chromosomes can be"
+    },
+    {
+     "id": "c",
+     "label": "Dominance belongs to the trait and never to the allele"
+    },
+    {
+     "id": "d",
+     "label": "A dominant allele is always the commonest one around"
+    }
+   ],
+   "answer": "a",
+   "explain": "Dominance is a strictly relative effect between two alleles of a gene, so one allele can be dominant over a second and recessive to a third.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.dominance:q3"
+  },
+  {
+   "prompt": "A gardener crosses a purebred red snapdragon with a purebred white one, and all the offspring are pink. What is going on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The white allele completely masks the red allele"
+    },
+    {
+     "id": "b",
+     "label": "The red allele completely masks the white allele"
+    },
+    {
+     "id": "c",
+     "label": "A new mutation turns every flower pink"
+    },
+    {
+     "id": "d",
+     "label": "The mixed genes give a middle shade: incomplete dominance"
+    }
+   ],
+   "answer": "d",
+   "explain": "In incomplete dominance, the heterozygous plant looks distinct from, and often intermediate to, the two homozygous plants, as with pink snapdragons.",
+   "cites": [
+    42,
+    44,
+    45
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.dominance:q4"
+  },
+  {
+   "prompt": "Mendel crossed pea plants from a purebred tall line with plants from a purebred short line. What did the first generation of offspring look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "All were medium height"
+    },
+    {
+     "id": "b",
+     "label": "All were tall"
+    },
+    {
+     "id": "c",
+     "label": "Half were tall and half were short"
+    },
+    {
+     "id": "d",
+     "label": "All were short"
+    }
+   ],
+   "answer": "b",
+   "explain": "When lines with different traits were crossed, only one of the parental traits showed up in the offspring, and for height that was the tall trait.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.dominance:q5"
+  },
+  {
+   "prompt": "Why can a Y-linked trait not be called dominant or recessive?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Y chromosomes only carry traits that never change"
+    },
+    {
+     "id": "b",
+     "label": "Sex chromosomes are exempt from all inheritance rules"
+    },
+    {
+     "id": "c",
+     "label": "There is only one Y chromosome, so no second copy exists to mask it"
+    },
+    {
+     "id": "d",
+     "label": "Y-linked traits are always passed down in a blended form"
+    }
+   ],
+   "answer": "c",
+   "explain": "Dominance is one variant masking a different variant on the other chromosome copy, and with only one Y chromosome there is no other copy.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.dominance:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Autosomal_dominant_and_recessive.svg/960px-Autosomal_dominant_and_recessive.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Dominance",
+  "credit": "Combination: SUM1 File:Autosomal dominant - en.svg: Domaina, Angelito7 and SUM1 ",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Autosomal_dominant_and_recessive.svg"
+ },
+ "source": {
+  "title": "Dominance (genetics)",
+  "url": "https://en.wikipedia.org/wiki/Dominance_(genetics)",
+  "revision": 1380420266
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "One version hides another",
+    "text": "A gene can come in different versions, called alleles. A cell can carry one allele of a gene on one copy of a chromosome and a different allele on the other copy. Dominance is when one of those alleles masks or overrides the effect of the other. The allele that wins out is called dominant, and the one that is hidden is called recessive.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Round and wrinkled peas",
+    "text": "An often-cited example is the shape of pea seeds. A pea plant's seeds can be round, linked to the allele R, or wrinkled, linked to the allele r. That gives three possible pairings, or genotypes: RR, Rr and rr. RR plants and rr plants carry two matching alleles, and they make round and wrinkled peas respectively. Rr plants carry one of each, yet their peas are round, because R masks r.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Mendel and the 3:1 ratio",
+    "text": "Gregor Mendel, often called the father of genetics, put forward the idea of dominance in the 1860s, though it only became widely known in the early twentieth century. Working with garden peas, he found that lines bred on their own kept the same form of a trait, such as tall or short plants, generation after generation. He then crossed lines with different forms. Each hybrid offspring showed just one of the parents' traits. When he crossed those hybrids with each other, both original traits came back, in a ratio of three to one.",
+    "cites": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "Why three to one",
+    "text": "Mendel reasoned that in the first cross one parent was AA and the other aa, and each passed one allele to the offspring. So the hybrids all carried one A and one a, and A masked a. Crossing two such hybrids yields three kinds of offspring, AA, Aa and aa, in the proportions 1:2:1. The first two kinds both look like A, which yields the 3:1 ratio of appearances. Mendel also started the habit, still used today, of writing dominant alleles in capital letters and recessive ones in lower case.",
+    "cites": [
+     25,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Not all-or-nothing",
+    "text": "Dominance is not always complete. In incomplete dominance, an individual with two different alleles looks different from both pure types, often somewhere in between. Snapdragons show this: crossing a red-flowered plant with a white-flowered one gives pink flowers. In co-dominance, by contrast, both alleles show their own traits at once.",
+    "cites": [
+     6,
+     42,
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "A relationship, not a property",
+    "text": "Being dominant is not a fixed quality of an allele. It only describes how two alleles of the same gene behave together. A single allele can mask a second allele, be masked by a third, and show co-dominance alongside a fourth. It may also be dominant for one trait but not for others. Dominance should not be confused with epistasis, where an allele of one gene masks the effect of a different gene.",
+    "cites": [
+     15,
+     16,
+     17,
+     18
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-12-2",
+   "kind": "book",
+   "title": "12.2 Characteristics and Traits",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+   "note": "A free textbook section on dominant and recessive alleles, Punnett squares, incomplete dominance and codominance.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

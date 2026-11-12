@@ -1,0 +1,569 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.mechanics.oscillation",
+ "name": "Oscillation",
+ "summary": [
+  {
+   "text": "Oscillation is a repeating variation of some quantity around a central value, such as the swing of a pendulum or the flow of alternating current.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It happens when a system displaced from equilibrium feels a restoring force that pulls it back, while its momentum carries it past the middle again.",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "text": "Real oscillators lose energy as heat through friction or resistance, so their swings fade unless something keeps feeding them energy.",
+   "cites": [
+    26,
+    27,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Mechanical name",
+   "value": "A mechanical oscillation is called a vibration",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Simplest system",
+   "value": "A weight attached to a spring",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Oscillatory period",
+   "value": "The time one full oscillation takes",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Three damping types",
+   "value": "Under-damped, over-damped and critically damped",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Driven oscillation",
+   "value": "Pushed by an outside force, like an AC circuit on a power source",
+   "cites": [
+    33,
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You pull a toy on a spring downward and let go. It bounces up past its resting height. What carries it past that point?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The restoring force stays strongest at the middle"
+    },
+    {
+     "id": "b",
+     "label": "Gravity switches direction at the middle"
+    },
+    {
+     "id": "c",
+     "label": "The momentum it gained on the way back"
+    },
+    {
+     "id": "d",
+     "label": "The spring stops pulling at the middle"
+    }
+   ],
+   "answer": "c",
+   "explain": "Moving back toward equilibrium gives the mass momentum, which keeps it going past that point and sets up a new restoring force the other way.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation:q1"
+  },
+  {
+   "prompt": "A weight hangs from a spring. You then hang a second, heavier load that adds a constant downward pull. What happens to the middle of the bounce?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It shifts to a new equilibrium point"
+    },
+    {
+     "id": "b",
+     "label": "It stays at the same spot"
+    },
+    {
+     "id": "c",
+     "label": "It disappears and the bouncing stops"
+    },
+    {
+     "id": "d",
+     "label": "It splits into two middle points"
+    }
+   ],
+   "answer": "a",
+   "explain": "A constant force such as gravity moves the point of equilibrium, and the oscillation happens around the new point.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation:q2"
+  },
+  {
+   "prompt": "A swing is pushed once and then left alone. Over several minutes, its swings get smaller. Which idea explains this best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The swing runs out of restoring force"
+    },
+    {
+     "id": "b",
+     "label": "Friction turns some of its energy into heat"
+    },
+    {
+     "id": "c",
+     "label": "The period gets longer and stops it"
+    },
+    {
+     "id": "d",
+     "label": "Its momentum is gradually deleted"
+    }
+   ],
+   "answer": "b",
+   "explain": "Real oscillators have dissipative processes that convert stored energy into heat, so oscillations decay unless energy is supplied.",
+   "cites": [
+    26,
+    27,
+    28
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation:q3"
+  },
+  {
+   "prompt": "A bridge engineer notes that a perfectly frictionless spring-and-weight model would never stop moving. What property of the model explains that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The weight has no momentum"
+    },
+    {
+     "id": "b",
+     "label": "The spring never reaches equilibrium"
+    },
+    {
+     "id": "c",
+     "label": "Gravity keeps adding energy"
+    },
+    {
+     "id": "d",
+     "label": "Nothing removes energy, so the wave never shrinks"
+    }
+   ],
+   "answer": "d",
+   "explain": "The cosine describing the motion swings between its positive and negative limits forever, so without friction the system would oscillate indefinitely.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation:q4"
+  },
+  {
+   "prompt": "A spring pulls back harder the farther you stretch it. Why is this feature central to oscillation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A bigger stretch always returns the mass sooner"
+    },
+    {
+     "id": "b",
+     "label": "A bigger pull cancels out the momentum"
+    },
+    {
+     "id": "c",
+     "label": "A growing pull toward the middle keeps the motion centred on equilibrium"
+    },
+    {
+     "id": "d",
+     "label": "A bigger stretch removes the need for equilibrium"
+    }
+   ],
+   "answer": "c",
+   "explain": "Equilibrium plus a restoring force that grows with distance from it are common features of oscillating systems.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation:q5"
+  },
+  {
+   "prompt": "A machine's valve flutters rapidly and the control engineers want it to settle. How do they view that oscillation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As unwanted, since the aim is a stable state"
+    },
+    {
+     "id": "b",
+     "label": "As ideal, since it shows equilibrium"
+    },
+    {
+     "id": "c",
+     "label": "As a sign of perfect efficiency"
+    },
+    {
+     "id": "d",
+     "label": "As a harmless route to a bigger swing"
+    }
+   ],
+   "answer": "a",
+   "explain": "In process control, rapid oscillation can be undesirable because the goal is convergence to a stable state; it is called chattering.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.mechanics.oscillation:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Animated-mass-spring.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Oscillation",
+  "credit": "Svjo",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Animated-mass-spring.gif"
+ },
+ "source": {
+  "title": "Oscillation",
+  "url": "https://en.wikipedia.org/wiki/Oscillation",
+  "revision": 1372805852
+ },
+ "pack": {
+  "id": "auto-mechanics-oscillation",
+  "title": "Why Things Keep Swinging",
+  "question": "Why does a displaced system swing back and forth instead of just settling?",
+  "path": [
+   "Science",
+   "Physics",
+   "Mechanics",
+   "Oscillation"
+  ],
+  "hue": 200,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Animated-mass-spring.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Oscillation",
+    "credit": "Svjo · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Animated-mass-spring.gif",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why Things Keep Swinging",
+    "hook": "A pulled spring never simply stops at the middle, and the reason is hiding in its momentum."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-mechanics-oscillation:1",
+    "transfer": false,
+    "prompt": "A mass on a spring is pulled down and released. When it reaches the resting position on the way up, what does it do?",
+    "explain": "On the way back the mass picked up momentum, so it carries on past equilibrium and a new restoring force builds in the opposite direction.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "It bounces off the middle like a wall",
+        "feedback": "Nothing solid is at the middle; only the spring's pull acts on it."
+       },
+       {
+        "id": "a",
+        "label": "It stops there for good",
+        "feedback": "Tempting, since the spring force is gone at the middle, but the mass is still moving."
+       },
+       {
+        "id": "b",
+        "label": "It keeps moving past the middle",
+        "feedback": ""
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-mechanics-oscillation:2",
+    "transfer": false,
+    "prompt": "Put one swing of a spring-mass system in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "The mass is displaced from equilibrium"
+     },
+     {
+      "id": "b",
+      "label": "A restoring force pulls it back"
+     },
+     {
+      "id": "c",
+      "label": "Momentum carries it past equilibrium"
+     },
+     {
+      "id": "d",
+      "label": "A new restoring force acts the opposite way"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Start",
+     "End"
+    ],
+    "explain": "Displacement creates the restoring force, momentum overshoots, and the overshoot creates a restoring force in the opposite sense."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-mechanics-oscillation:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each situation by what it shows.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "A swinging pendulum"
+     },
+     {
+      "id": "i1",
+      "label": "Alternating current"
+     },
+     {
+      "id": "i2",
+      "label": "Valve chatter"
+     },
+     {
+      "id": "i3",
+      "label": "Route flapping"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Familiar example"
+     },
+     {
+      "id": "g1",
+      "label": "Undesirable in control"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Pendulums and alternating current are familiar examples of oscillation, while chattering and flapping are rapid oscillations that are undesirable in process control."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-mechanics-oscillation:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A real spring-mass system loses energy to friction."
+     },
+     {
+      "id": "b",
+      "text": "That energy is converted into heat."
+     },
+     {
+      "id": "c",
+      "text": "So the swings shrink over time."
+     },
+     {
+      "id": "d",
+      "text": "Therefore the swings must keep their size unless the spring is replaced."
+     }
+    ],
+    "answer": "d",
+    "explain": "Swings decay unless there is a net source of energy into the system, not only a new spring."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A restoring force pulls toward equilibrium while momentum carries the system past it, so it swings until energy leaks away.",
+    "connections": [
+     {
+      "title": "Simple harmonic motion",
+      "place": "Oscillation",
+      "node": "knowledge.science.physics.mechanics.oscillation.simple-harmonic-motion"
+     },
+     {
+      "title": "Pendulum",
+      "place": "Oscillation",
+      "node": "knowledge.science.physics.mechanics.oscillation.pendulum"
+     },
+     {
+      "title": "Resonance",
+      "place": "Oscillation",
+      "node": "knowledge.science.physics.mechanics.oscillation.resonance"
+     },
+     {
+      "title": "Damping",
+      "place": "Oscillation",
+      "node": "knowledge.science.physics.mechanics.oscillation.damping"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "On the way back the mass picked up momentum, so it carries on past equilibrium and a new restoring force builds in the opposite direction.",
+    "source": "Wikipedia sentences 10, 11"
+   },
+   {
+    "claim": "Displacement creates the restoring force, momentum overshoots, and the overshoot creates a restoring force in the opposite sense.",
+    "source": "Wikipedia sentences 10, 11"
+   },
+   {
+    "claim": "Pendulums and alternating current are familiar examples of oscillation, while chattering and flapping are rapid oscillations that are undesirable in process control.",
+    "source": "Wikipedia sentences 2, 5, 6"
+   },
+   {
+    "claim": "Swings decay unless there is a net source of energy into the system, not only a new spring.",
+    "source": "Wikipedia sentences 26, 27, 28"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What oscillation is",
+    "text": "Oscillation is a repeating, back-and-forth change in some quantity, usually over time, around a central value or between two or more states. The central value is often a point of equilibrium, a resting balance. A swinging pendulum and alternating current are familiar cases. A mechanical oscillation is called a vibration, and physicists also use oscillations to approximate complex interactions, such as those between atoms.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "A weight on a spring",
+    "text": "The simplest mechanical example is a weight on a linear spring, acted on only by its weight and the spring's tension; an air table or ice surface comes close to this. When the spring is still, the system is at equilibrium. Pull the weight aside and a restoring force pushes it back toward equilibrium. By the time it gets there it has picked up momentum, so it overshoots, and a new restoring force builds the other way.",
+    "cites": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Energy trading places",
+    "text": "The swinging carries on because energy keeps changing form. As the mass passes equilibrium it has kinetic energy, and at the far ends of its path that energy is stored as potential energy in the spring. When the restoring force is directly proportional to the displacement, the regular motion is called simple harmonic motion. The time one oscillation takes is often called its period.",
+    "cites": [
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Frequency, amplitude, phase",
+    "text": "The motion is described by its frequency ω, its amplitude A and a phase shift δ. All three are set by how the system starts out. With no friction, the spring and mass would swing between plus and minus the amplitude forever.",
+    "cites": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Why swings fade",
+    "text": "Every real oscillator is thermodynamically irreversible. Friction, electrical resistance and similar processes keep turning some of its stored energy into heat. So oscillations tend to die away unless energy keeps flowing in. With β as the damping coefficient and ω₀ as the natural frequency, damped oscillators fall into three groups. An oscillator is under-damped when β is smaller than ω₀, over-damped when β is larger, and critically damped when the two are equal.",
+    "cites": [
+     26,
+     27,
+     28,
+     31,
+     32,
+     41
+    ]
+   },
+   {
+    "heading": "Driving and resonance",
+    "text": "An oscillator can also be pushed by an outside force, for example an AC circuit hooked up to a power supply outside it; the oscillation is then called driven. Resonance happens in a damped, driven oscillator when the driving frequency equals the natural frequency, ω = ω₀. At that point the amplitude of the swings is as large as it can be.",
+    "cites": [
+     33,
+     34,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Flutter in a wing",
+    "text": "Some systems draw energy from their surroundings, usually when they sit in a flowing fluid. Flutter in aircraft wings is an example. A tiny displacement of the wing raises its angle of attack and its lift coefficient, which pushes it still further. At large enough displacements, the wing's stiffness takes over as the restoring force and an oscillation results.",
+    "cites": [
+     37,
+     38,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Two directions at once",
+    "text": "In an anisotropic oscillator the restoring force differs by direction, so each direction has its own frequency. If one frequency is twice the other, the path traces a figure eight. If the ratio of the frequencies is irrational, the motion is quasiperiodic: periodic along each axis, yet it never repeats as a whole.",
+    "cites": [
+     20,
+     21,
+     23,
+     24,
+     25
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "up-15-1",
+   "kind": "book",
+   "title": "15.1 Simple Harmonic Motion",
+   "by": "OpenStax, University Physics Volume 1",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion",
+   "note": "A free textbook section on a mass on a spring: period, frequency, amplitude and phase shift."
+  },
+  {
+   "id": "cc-shm",
+   "kind": "video",
+   "title": "Simple Harmonic Motion: Crash Course Physics #16",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=jxstE6A_CYQ",
+   "note": "A Crash Course Physics opener on oscillating systems and simple harmonic motion, with a bridge example."
+  },
+  {
+   "id": "mit-res-8-009",
+   "kind": "course",
+   "title": "Introduction to Oscillations and Waves",
+   "by": "Dr. Mobolaji Williams",
+   "url": "https://ocw.mit.edu/courses/res-8-009-introduction-to-oscillations-and-waves-summer-2017/",
+   "note": "A free MIT OpenCourseWare course introducing the physics of oscillations and waves.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

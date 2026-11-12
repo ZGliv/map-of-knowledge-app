@@ -1,0 +1,365 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test",
+ "name": "Chi-squared test",
+ "summary": [
+  {
+   "text": "A chi-squared test is a hypothesis test used on contingency tables when sample sizes are large, mainly to examine whether two categorical variables are independent.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Pearson's version asks whether there is a statistically significant difference between the expected frequencies and the observed frequencies in one or more categories.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Pearson published his paper on the test in 1900, a foundation of modern statistics, and Fisher's exact test is used instead for smaller samples.",
+   "cites": [
+    5,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Pearson's paper",
+   "value": "1900, investigating a test of goodness of fit",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "label": "Small samples",
+   "value": "Fisher's exact test is used for smaller sample sizes",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Yates's correction",
+   "value": "Lowers the chi-squared value and so raises the p-value",
+   "cites": [
+    27,
+    28
+   ]
+  },
+  {
+   "label": "Classes",
+   "value": "Observations are sorted into mutually exclusive classes",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Variance example",
+   "value": "With 21 items, the 5% acceptance region runs from 9.59 to 34.17",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A survey tallies how many people live in each of several neighborhoods and hold each of several job types. What can a chi-squared test of that table tell us?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Whether average income differs between neighborhoods"
+    },
+    {
+     "id": "b",
+     "label": "Whether job type and neighborhood are independent of each other"
+    },
+    {
+     "id": "c",
+     "label": "Which neighborhood has the most people"
+    },
+    {
+     "id": "d",
+     "label": "The exact chance that the null hypothesis is true"
+    }
+   ],
+   "answer": "b",
+   "explain": "The test is primarily used to examine whether two categorical variables, the two dimensions of a contingency table, are independent.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test:q1"
+  },
+  {
+   "prompt": "A table of counts has only a handful of observations in total. What is the recommended alternative to the chi-squared test?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pearson's chi-squared test, since size makes no difference"
+    },
+    {
+     "id": "b",
+     "label": "Dropping the null hypothesis"
+    },
+    {
+     "id": "c",
+     "label": "Fisher's exact test, used for smaller samples"
+    },
+    {
+     "id": "d",
+     "label": "Splitting categories to build a bigger table"
+    }
+   ],
+   "answer": "c",
+   "explain": "The chi-squared test is for contingency tables with large samples; for smaller sample sizes Fisher's exact test is used instead.",
+   "cites": [
+    1,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test:q2"
+  },
+  {
+   "prompt": "An analyst applies Yates's continuity correction to a chi-squared calculation. What happens to the p-value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It falls, because a correction strengthens the evidence"
+    },
+    {
+     "id": "b",
+     "label": "It is unchanged; only the look of the formula changes"
+    },
+    {
+     "id": "c",
+     "label": "It falls to exactly zero"
+    },
+    {
+     "id": "d",
+     "label": "It rises, because the chi-squared value shrinks"
+    }
+   ],
+   "answer": "d",
+   "explain": "The correction subtracts 0.5 from each absolute difference, which reduces the chi-squared value and thus increases its p-value.",
+   "cites": [
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test:q3"
+  },
+  {
+   "prompt": "In 1900 Pearson published a paper on the χ² test, now seen as a foundation of modern statistics. What did he investigate?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A test of goodness of fit"
+    },
+    {
+     "id": "b",
+     "label": "A test of whether two means are equal"
+    },
+    {
+     "id": "c",
+     "label": "A way to avoid contingency tables"
+    },
+    {
+     "id": "d",
+     "label": "An exact test for tiny samples"
+    }
+   ],
+   "answer": "a",
+   "explain": "Pearson's paper investigated a test of goodness of fit.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test:q4"
+  },
+  {
+   "prompt": "Planners decide in advance how many residents to sample in each of four neighborhoods, then compare the shares of blue-collar, white-collar and no-collar workers across them. What question are they testing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Independence, since residents are picked at random"
+    },
+    {
+     "id": "b",
+     "label": "Homogeneity: whether the proportions are the same in each neighborhood"
+    },
+    {
+     "id": "c",
+     "label": "Goodness of fit to a normal distribution"
+    },
+    {
+     "id": "d",
+     "label": "Whether the variance equals a preset value"
+    }
+   ],
+   "answer": "b",
+   "explain": "When sample sizes are fixed in advance per neighborhood, the test addresses homogeneity rather than independence: are the proportions the same?",
+   "cites": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test:q5"
+  },
+  {
+   "prompt": "In a standard chi-squared test, the classes truly do not differ in the population. What distribution does the computed statistic follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A normal bell curve centered on zero"
+    },
+    {
+     "id": "b",
+     "label": "A uniform spread over all possible values"
+    },
+    {
+     "id": "c",
+     "label": "A χ² distribution"
+    },
+    {
+     "id": "d",
+     "label": "A distribution chosen by the researcher's alpha"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the null hypothesis of no differences between the classes is true, the test statistic computed from the observations follows a χ² frequency distribution.",
+   "cites": [
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.probability.statistics.hypothesis-testing.chi-squared-test:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chi-square_distributionCDF-English.svg/960px-Chi-square_distributionCDF-English.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Chi-squared test",
+  "credit": "Mikael Häggström; SVG reconstruction: PJ Geest.",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Chi-square_distributionCDF-English.svg"
+ },
+ "source": {
+  "title": "Chi-squared test",
+  "url": "https://en.wikipedia.org/wiki/Chi-squared_test",
+  "revision": 1382099868
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "A chi-squared test, also written χ² test, is a hypothesis test used to analyse contingency tables when the samples are large. Its main job is to check whether two categorical variables, the two dimensions of such a table, are independent. When the samples are smaller, Fisher's exact test is used in its place.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "Observed against expected",
+    "text": "One version, Pearson's chi-squared test, asks whether the frequencies you observe differ significantly from the frequencies you would expect, in one or more categories of the table. The observations are sorted into classes that do not overlap. If the null hypothesis holds, meaning the classes do not differ in the population, the statistic follows a χ² distribution. The whole aim is to judge how likely the observed frequencies would be if that null hypothesis were true.",
+    "cites": [
+     3,
+     4,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "An approximation with a fix",
+    "text": "In many cases the statistic only approaches the χ² distribution, getting closer and closer as sample sizes grow. Reading a table of counts with the continuous χ² distribution rests on an assumption that is not quite correct and brings in some error. To shrink that error in 2 × 2 tables, Frank Yates proposed a correction for continuity: take 0.5 off the size of the gap between every observed count and its expected count. This lowers the chi-squared value and so raises its p-value.",
+    "cites": [
+     11,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "How it began",
+    "text": "In the 19th century, statistical methods were used mainly on biological data, and researchers customarily assumed their observations followed a normal distribution. Near the end of that century, Karl Pearson noticed significant skewness in some biological observations. In 1900 he published a paper on the χ² test, studying a test of goodness of fit, and that paper is seen as one of the foundations of modern statistics. One of his conclusions about an approximation stirred controversy that was not settled until Fisher's papers of 1922 and 1924.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Checking a factory's variance",
+    "text": "The χ² distribution can also test the variance of a normally distributed population. Picture a manufacturing process that has run steadily for a long time, so its variance is known almost without error. A new variant of the process is tried, giving a small sample of n items. The test statistic T squares each item's deviation from the sample mean, adds these up, and divides by the variance being tested, and T then follows the chi-squared distribution having n − 1 degrees of freedom. With a sample of 21, the acceptance region for T at a 5% significance level runs from 9.59 to 34.17.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Codes and genes",
+    "text": "The test turns up far from the classroom. Code breakers use it to compare the distribution of plaintext with that of ciphertext that may have been decrypted, and the lowest value of the test signals that decryption very probably worked. In bioinformatics it compares properties of genes, such as mutation rate, across categories like disease genes and essential genes.",
+    "cites": [
+     42,
+     43,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-11-5",
+   "kind": "book",
+   "title": "11.5: Test of Independence",
+   "by": "OpenStax",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_2e_(OpenStax)/11%3A_The_Chi-Square_Distribution/11.05%3A_Test_of_Independence",
+   "note": "A free textbook section on the chi-square test of independence, computing expected counts from a contingency table.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "openstax-11-4",
+   "kind": "book",
+   "title": "11.4: Goodness-of-Fit Test",
+   "by": "OpenStax",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_2e_(OpenStax)/11%3A_The_Chi-Square_Distribution/11.04%3A_Goodness-of-Fit_Test",
+   "note": "The same textbook on checking whether observed counts fit a claimed distribution, with worked examples.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "lane-17-4",
+   "kind": "book",
+   "title": "17.4: Contingency Tables",
+   "by": "David Lane, Rice University (Online Statistics Education)",
+   "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/17%3A_Chi_Square/17.04%3A_Contingency_Tables",
+   "note": "A short walk-through of the chi-square test on a diet and health study, step by step from expected counts.",
+   "license": "Public Domain"
+  },
+  {
+   "id": "siegrist-9-6",
+   "kind": "book",
+   "title": "9.6: Chi-Square Tests",
+   "by": "Kyle Siegrist, Random Services",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/09%3A_Hypothesis_Testing/9.06%3A_Chi-Square_Tests",
+   "note": "A more mathematical section on the family of chi-square tests, from goodness of fit to independence.",
+   "license": "CC BY 2.0"
+  },
+  {
+   "id": "cc-stats-29",
+   "kind": "video",
+   "title": "Chi-Square Tests: Crash Course Statistics #29",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=7_cs1YlZoug",
+   "note": "A Crash Course Statistics episode on chi-square tests for categorical data."
+  }
+ ]
+}

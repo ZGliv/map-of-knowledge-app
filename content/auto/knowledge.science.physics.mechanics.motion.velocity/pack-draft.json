@@ -1,0 +1,129 @@
+{
+ "title": "More Than Just Speed",
+ "question": "What is the difference between speed and velocity?",
+ "hook": "You might think you're moving at a steady pace, but in physics, you could still be accelerating.",
+ "idea": "Velocity combines how fast something moves with the specific direction it is traveling.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A car drives around a circular track at a steady 60 km/h. Does its velocity remain constant?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "No, because the direction is changing",
+     "feedback": null
+    },
+    {
+     "id": "b",
+     "label": "Yes, because the speed is steady",
+     "feedback": "This describes speed, but velocity also requires a constant direction."
+    },
+    {
+     "id": "c",
+     "label": "Yes, because it is moving in a loop",
+     "feedback": "Moving in a loop means the direction is constantly shifting."
+    },
+    {
+     "id": "d",
+     "label": "No, because it is slowing down",
+     "feedback": "The situation states the car is moving at a steady speed."
+    }
+   ],
+   "answer": "a",
+   "explain": "Constant velocity requires both a steady speed and a steady direction in a straight line. Because the car is turning, its velocity is changing, which means it is accelerating.",
+   "cites": [
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort these descriptions into whether they describe speed or velocity.",
+   "groups": [
+    "Speed",
+    "Velocity"
+   ],
+   "items": [
+    [
+     "10 meters per second",
+     "Speed"
+    ],
+    [
+     "10 meters per second North",
+     "Velocity"
+    ],
+    [
+     "A scalar magnitude",
+     "Speed"
+    ],
+    [
+     "Magnitude and direction",
+     "Velocity"
+    ],
+    [
+     "How fast an object moves",
+     "Speed"
+    ],
+    [
+     "A vector quantity",
+     "Velocity"
+    ]
+   ],
+   "explain": "Speed is a scalar that only measures how fast something moves, while velocity is a vector that must include both speed and direction.",
+   "cites": [
+    3,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match the type of velocity to its description.",
+   "pairs": [
+    [
+     "Average velocity",
+     "Change in position divided by time"
+    ],
+    [
+     "Instantaneous velocity",
+     "The speed and direction at a specific moment"
+    ],
+    [
+     "Relative velocity",
+     "The difference between two moving objects"
+    ],
+    [
+     "Constant velocity",
+     "Steady speed in a straight line"
+    ]
+   ],
+   "explain": "These terms distinguish between measurements over a period of time, at a single instant, between two different objects, or a state of no change.",
+   "cites": [
+    7,
+    8,
+    11,
+    12,
+    38,
+    41
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "Someone is calculating the relative velocity of two cars. Which step in their logic is wrong?",
+   "steps": [
+    "Car A is moving east at 50 km/h.",
+    "Car B is moving west at 50 km/h.",
+    "Since they are moving at the same speed, their relative velocity is zero.",
+    "Therefore, they are not moving relative to each other."
+   ],
+   "wrong": 2,
+   "explain": "When two objects move in opposite directions, their relative velocity is not zero; the opposite directions are accounted for in the calculation, which increases the relative velocity.",
+   "cites": [
+    44
+   ]
+  }
+ ]
+}

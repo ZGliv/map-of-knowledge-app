@@ -1,0 +1,567 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions",
+ "name": "Chemical reactions",
+ "summary": [
+  {
+   "text": "A chemical reaction turns one set of chemical substances into another by rearranging atoms, and it comes with an energy change.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "The starting substances are called reactants, and the products they yield usually have properties different from them.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "text": "Some reactions produce heat, others may require heat, and reaction rates typically increase as temperature rises.",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Starting substances",
+   "value": "Called reactants or reagents",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Heat-releasing reactions",
+   "value": "Exothermic reactions produce heat",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Heat-needing reactions",
+   "value": "Endothermic reactions may require heat to occur",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Speed and temperature",
+   "value": "Rates typically increase as temperature rises",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Enzymes in cells",
+   "value": "Protein enzymes speed up biochemical reactions",
+   "cites": [
+    16,
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A chemist mixes two clear liquids and ends up with a white solid whose properties are unlike either liquid. What are the two clear liquids called in chemistry?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Products"
+    },
+    {
+     "id": "b",
+     "label": "Reactants"
+    },
+    {
+     "id": "c",
+     "label": "Elementary steps"
+    },
+    {
+     "id": "d",
+     "label": "Mechanisms"
+    }
+   ],
+   "answer": "b",
+   "explain": "The substances that start a reaction are reactants, and they yield products that usually have different properties.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions:q1"
+  },
+  {
+   "prompt": "Cracking open a pocket hand warmer makes it feel hot in your glove. Which kind of reaction best matches this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Endothermic, because the reaction requires heat"
+    },
+    {
+     "id": "b",
+     "label": "Neither, because the atoms only move around"
+    },
+    {
+     "id": "c",
+     "label": "Nuclear, because heat means the nuclei changed"
+    },
+    {
+     "id": "d",
+     "label": "Exothermic, because the reaction produces heat"
+    }
+   ],
+   "answer": "d",
+   "explain": "Reactions that produce heat are called exothermic; those that may require heat are endothermic.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions:q2"
+  },
+  {
+   "prompt": "A cook raises the burner under a pot of stew. Usually, what happens to how fast the reactions in the stew go?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They speed up, as more thermal energy is available"
+    },
+    {
+     "id": "b",
+     "label": "They slow down, as extra heat keeps bonds intact"
+    },
+    {
+     "id": "c",
+     "label": "They stay put, as only the pot's heat changes"
+    },
+    {
+     "id": "d",
+     "label": "They halt, as bonds cannot break when it is hot"
+    }
+   ],
+   "answer": "a",
+   "explain": "Typically reaction rates increase with temperature, because more thermal energy is available to reach the activation energy for breaking bonds.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions:q3"
+  },
+  {
+   "prompt": "Your body breaks down food at body temperature, far milder than a furnace. What lets those reactions happen so readily in your cells?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Intense heat built up inside each cell"
+    },
+    {
+     "id": "b",
+     "label": "Atoms turning into other elements"
+    },
+    {
+     "id": "c",
+     "label": "Protein enzymes that raise reaction rates"
+    },
+    {
+     "id": "d",
+     "label": "Phlogiston released from the food"
+    }
+   ],
+   "answer": "c",
+   "explain": "Reactions in biochemistry are often catalyzed by protein enzymes, which increase reaction rates so they can occur at the temperature and concentrations within a cell.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions:q4"
+  },
+  {
+   "prompt": "In the 1600s a popular theory said a fire-like substance hidden inside burnable things escapes when they burn. What did Antoine Lavoisier find instead in 1785?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Burning splits matter into four basic elements"
+    },
+    {
+     "id": "b",
+     "label": "Burning is a reaction with oxygen in the air"
+    },
+    {
+     "id": "c",
+     "label": "Burning frees a second, hidden fire-like element"
+    },
+    {
+     "id": "d",
+     "label": "Burning drains the vital force from the matter"
+    }
+   ],
+   "answer": "b",
+   "explain": "The phlogiston theory was proved false in 1785 when Lavoisier found that combustion is a reaction with oxygen from the air.",
+   "cites": [
+    30,
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions:q5"
+  },
+  {
+   "prompt": "Two chemists sketch an experiment on paper. Where do the starting substances belong in a chemical equation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "On the left of the arrow"
+    },
+    {
+     "id": "b",
+     "label": "On the right of the arrow"
+    },
+    {
+     "id": "c",
+     "label": "Above the arrow"
+    },
+    {
+     "id": "d",
+     "label": "Below the arrow"
+    }
+   ],
+   "answer": "a",
+   "explain": "An equation shows the reactants on the left and the products on the right, separated by an arrow.",
+   "cites": [
+    39,
+    40
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/ThermiteReaction.jpg/960px-ThermiteReaction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Chemical reactions",
+  "credit": "User:Nikthestunned (Wikipedia)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:ThermiteReaction.jpg"
+ },
+ "source": {
+  "title": "Chemical reaction",
+  "url": "https://en.wikipedia.org/wiki/Chemical_reaction",
+  "revision": 1367113117
+ },
+ "pack": {
+  "id": "auto-chemistry-chemical-reactions",
+  "title": "Same Atoms, New Substances",
+  "question": "When substances react, what actually changes?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Chemical reactions"
+  ],
+  "hue": 172,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/ThermiteReaction.jpg/960px-ThermiteReaction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chemical reactions",
+    "credit": "User:Nikthestunned (Wikipedia) · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ThermiteReaction.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Same Atoms, New Substances",
+    "hook": "Two substances meet and something with new properties comes out, so what happened to the atoms?"
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-chemistry-chemical-reactions:1",
+    "transfer": false,
+    "prompt": "A chemist mixes two substances and gets a product with properties unlike either one. Which explanation fits a classical chemical reaction?",
+    "explain": "In a reaction the atoms are rearranged, and the products usually have properties different from the reactants.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "The atoms were rearranged into new substances"
+       },
+       {
+        "id": "a",
+        "label": "The atoms were turned into atoms of different elements",
+        "feedback": "Tempting because the new substance looks so different, but classically the nuclei do not change, so the elements present stay the same."
+       },
+       {
+        "id": "c",
+        "label": "The substances just mixed and kept their own properties",
+        "feedback": "Tempting for a simple stir, but a reaction yields products that usually have properties different from the reactants."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-chemistry-chemical-reactions:2",
+    "transfer": false,
+    "prompt": "Put these steps in the history of chemical reactions in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Becher proposes the phlogiston theory"
+     },
+     {
+      "id": "b",
+      "label": "The lead chamber process is developed"
+     },
+     {
+      "id": "c",
+      "label": "Lavoisier shows combustion is a reaction with oxygen"
+     },
+     {
+      "id": "d",
+      "label": "Wöhler synthesizes urea from inorganic precursors"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "earliest",
+     "latest"
+    ],
+    "explain": "Becher proposed phlogiston in 1667, the lead chamber process came in 1746, Lavoisier found the oxygen explanation in 1785, and Wöhler made urea in 1828."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-chemistry-chemical-reactions:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Reactants"
+     },
+     {
+      "id": "l1",
+      "label": "Products"
+     },
+     {
+      "id": "l2",
+      "label": "Exothermic reaction"
+     },
+     {
+      "id": "l3",
+      "label": "Endothermic reaction"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "One that produces heat"
+     },
+     {
+      "id": "r0",
+      "label": "The substances initially involved"
+     },
+     {
+      "id": "r1",
+      "label": "What the reaction yields"
+     },
+     {
+      "id": "r3",
+      "label": "One that may require heat to occur"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Reactants go in and yield products, and reactions are called exothermic or endothermic by whether they produce or require heat."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-chemistry-chemical-reactions:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Heating a mixture gives it more thermal energy."
+     },
+     {
+      "id": "b",
+      "text": "More thermal energy makes it easier to reach the activation energy needed to break bonds."
+     },
+     {
+      "id": "c",
+      "text": "Typically, then, reaction rates increase as temperature rises."
+     },
+     {
+      "id": "d",
+      "text": "So the fastest way to slow a reaction down is to heat it."
+     }
+    ],
+    "answer": "d",
+    "explain": "Heating typically makes reactions faster, not slower, so heat is not a way to slow one down."
+   },
+   {
+    "kind": "payoff",
+    "idea": "In a reaction the atoms are rearranged into new substances, and the change comes with an energy change.",
+    "connections": [
+     {
+      "title": "Chemical equations",
+      "place": "Chemical reactions",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equations"
+     },
+     {
+      "title": "Reaction rates",
+      "place": "Chemical reactions",
+      "node": "knowledge.science.chemistry.chemical-reactions.reaction-rates"
+     },
+     {
+      "title": "Chemical equilibrium",
+      "place": "Chemical reactions",
+      "node": "knowledge.science.chemistry.chemical-reactions.chemical-equilibrium"
+     },
+     {
+      "title": "Acids and bases",
+      "place": "Chemical reactions",
+      "node": "knowledge.science.chemistry.chemical-reactions.acids-and-bases"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "In a reaction the atoms are rearranged, and the products usually have properties different from the reactants.",
+    "source": "Wikipedia sentences 2, 3, 6"
+   },
+   {
+    "claim": "Becher proposed phlogiston in 1667, the lead chamber process came in 1746, Lavoisier found the oxygen explanation in 1785, and Wöhler made urea in 1828.",
+    "source": "Wikipedia sentences 27, 30, 32, 37"
+   },
+   {
+    "claim": "Reactants go in and yield products, and reactions are called exothermic or endothermic by whether they produce or require heat.",
+    "source": "Wikipedia sentences 5, 6, 10"
+   },
+   {
+    "claim": "Heating typically makes reactions faster, not slower, so heat is not a way to slow one down.",
+    "source": "Wikipedia sentences 11"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Substances into new substances",
+    "text": "A chemical reaction turns one set of substances into a different set. As it happens, the atoms are rearranged into new products, and there is a change in energy. The starting substances are called reactants, or reagents. What comes out are the products, which usually have different properties from what went in.",
+    "cites": [
+     1,
+     2,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Only the electrons move",
+    "text": "In the classic sense, a reaction changes only where electrons sit as bonds between atoms break and form. The nuclei are left alone, so the elements present stay the same. Nuclear chemistry is different: it deals with unstable, radioactive elements, where the nuclei can change too. The idea of a reaction has also been stretched to cover things smaller than atoms, such as radioactive decay and reactions between elementary particles.",
+    "cites": [
+     3,
+     4,
+     18
+    ]
+   },
+   {
+    "heading": "Writing reactions down",
+    "text": "Chemists describe reactions with chemical equations. Reactants go on the left, products on the right, and an arrow between them, read as \"yields\", points the way the reaction runs. A double arrow, ⇌, marks an equilibrium reaction. An equation must be balanced, so each kind of atom appears the same number of times on both sides.",
+    "cites": [
+     8,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "Heat and speed",
+    "text": "Each reaction runs at a characteristic rate for a given temperature and concentration. Exothermic reactions give off heat, while endothermic reactions need heat put in before they can happen. Warming things up usually speeds a reaction, because more thermal energy is on hand to reach the activation energy needed to break bonds. Many reactions are really a chain of smaller steps called elementary reactions, and the detailed route they take is the reaction mechanism.",
+    "cites": [
+     7,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Reactions in living things",
+    "text": "In living things, reactions link into chains called metabolic pathways, where the product of one step becomes the reactant of the next. Protein enzymes often speed these steps up. That lets a cell build and break down molecules, work that would be impossible under ordinary conditions, at the temperature and concentrations found inside it.",
+    "cites": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "From alchemy to industry",
+    "text": "People have used reactions such as burning, fermentation and turning ores into metals since ancient times. Medieval alchemists studied chemical change, trying in particular to turn lead into gold. In the 17th century Johann Rudolph Glauber made hydrochloric acid by reacting sulfuric acid with sodium chloride. Reactions moved into industry with the lead chamber process of 1746 and the Leblanc process, followed in the 1880s by the contact process, and in 1909–1910 by the Haber process for making ammonia.",
+    "cites": [
+     19,
+     21,
+     22,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Getting the ideas right",
+    "text": "Explaining reactions took time. In 1667 Johann Joachim Becher proposed that things that burn contain a fire-like element, phlogiston, which escapes when they burn. Antoine Lavoisier showed in 1785 that this was false: burning is a reaction with oxygen from the air. Chemists also long believed that substances from living things carried a special vital force and could not be made in the lab. Friedrich Wöhler ended that split in 1828 by making urea from inorganic starting materials.",
+    "cites": [
+     30,
+     31,
+     32,
+     35,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-chem-4-1",
+   "kind": "book",
+   "title": "4.1 Writing and Balancing Chemical Equations",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+   "note": "A free textbook section on writing reactions as equations and balancing them so atoms match on both sides.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-chem-4-2",
+   "kind": "book",
+   "title": "4.2 Classifying Chemical Reactions",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+   "note": "A free textbook section sorting reactions into precipitation, acid-base and redox types, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-chemical-equations",
+   "kind": "book",
+   "title": "General Chemistry/Chemical equations",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Chemical_equations",
+   "note": "A short open textbook chapter on what an equation shows, from coefficients and states to catalysts and conditions."
+  }
+ ]
+}

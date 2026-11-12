@@ -1,0 +1,581 @@
+{
+  "checker": "Claude Opus 5.5 (independent adversarial fact-checker; did not write the content). Checked factcheck-input.md as revised 2026-10-23 17:18:30 local (sha1 31dbcb7c).",
+  "checkedAt": "2026-10-23T21:26:54Z",
+  "units": [
+    {
+      "id": "P1",
+      "verdict": "supported",
+      "evidence": "[W7.2] [W7.4] [W7.19]-[W7.20] [W7.24] [W7.25]",
+      "note": "Matches the pinned text. Caveat only: nuclein was a crude nucleoprotein (DNA plus protein); [W1.373]-[W1.374] has Kossel later isolating its non-protein part. The source itself says 'now known as DNA', so acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "P2",
+      "verdict": "supported",
+      "evidence": "[W1.372] 'in 1869, discovered a microscopic substance in the pus of discarded surgical bandages'; [W1.373] 'As it resided in the nuclei of cells, he called it \"nuclein\"'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P3",
+      "verdict": "supported",
+      "evidence": "[W6.6] [W6.7] [W6.8]",
+      "note": "Source wording is 'a repeating set of identical nucleotides'; the paraphrase drops 'identical', which is harmless ([W11.1]: repeating sequences of four nucleotides).",
+      "fix": ""
+    },
+    {
+      "id": "P4",
+      "verdict": "supported",
+      "evidence": "[W5.1] [W5.2] [W5.25] 'trypsin, chymotrypsin and ribonuclease ... did not affect it, but ... \"deoxyribonucleodepolymerase\" ... destroyed the extract's transforming power'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P5",
+      "verdict": "imprecise",
+      "evidence": "[W3.1] [W3.4] [W3.5] [W3.46] [W3.64]-[W3.75]",
+      "note": "Faithful to the Wikipedia caption, but historically impossible: φX174's base composition was first measured by Sinsheimer in 1959, and the table's φX174 row (A 24.0, G 23.3, C 21.5, T 31.2) matches the 1977 genome sequence, so it cannot be part of 'Chargaff's 1952 data' (general knowledge; no pinned text dates the φX174 row). The caption is loose; the provenance claim repeats it as fact.",
+      "fix": "...a table of base percentages (a sample of Chargaff's 1952 data, with a later φX174 row added) covers maize, octopus, ... and E. coli, and φX174, whose unequal A and T mark single-stranded DNA",
+      "resolved": "Now: a sample of Chargaff’s 1952 data, with a later φX174 row."
+    },
+    {
+      "id": "P6",
+      "verdict": "imprecise",
+      "evidence": "[W11.8] 'the four frequencies were not equal, with variations consistent between different studies'; [W11.10] [W11.11]; [W11.12] 'there was no reason why the sequence could not store information'",
+      "note": "Two slips against the cited source: (1) 'varied between species' is not in the Tetranucleotide page ('consistent between different studies' is about reproducibility, not species); it is true and pinned elsewhere at [W5.55]. (2) 'its sequence could store information' upgrades the source's double negative ('no reason why ... could not') into a positive finding.",
+      "fix": "Chargaff showed the four base frequencies were unequal, so DNA was not a systematic repeat and nothing stopped its sequence from storing information; G = C and A = T suggested the bases were paired (add cite Avery–MacLeod–McCarty [W5.55] for 'varied between species')",
+      "resolved": "Now “nothing stopped its sequence from storing information”, without the species claim; a new provenance entry cites [W5.55] (Avery–MacLeod–McCarty) for variation by species."
+    },
+    {
+      "id": "P7",
+      "verdict": "supported",
+      "evidence": "[W1.8] [W1.123] [W1.401] [W1.81] 'all the information in the double-stranded sequence ... is duplicated on each strand'; [W1.219] [W1.15]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P8",
+      "verdict": "imprecise",
+      "evidence": "[W8.3] 'The molecular gene is a sequence of nucleotides in DNA that is transcribed to produce RNA.'",
+      "note": "Truncated mid-definition: dropping 'that is transcribed to produce RNA' turns the definition into 'any DNA sequence is a gene'. [W8.56] also notes not all genomes are DNA.",
+      "fix": "A molecular gene is a sequence of nucleotides in DNA that is transcribed to produce RNA",
+      "resolved": "Now ends “that is transcribed to produce RNA”."
+    },
+    {
+      "id": "P9",
+      "verdict": "supported",
+      "evidence": "[W13.1] [W13.21] [W13.22] [W13.24] [W13.26] [W13.27] [W13.31] [W13.32] [W13.33]",
+      "note": "General-knowledge caveat: the decisive runs were done in late 1957 and published in 1958; '1958' is the conventional and source date.",
+      "fix": ""
+    },
+    {
+      "id": "P10",
+      "verdict": "supported",
+      "evidence": "[W16.2] [W16.3]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P11",
+      "verdict": "supported",
+      "evidence": "[W15.1] [W15.4] [W15.60] 'about 23% G, 22% C, 24% A, and 31% T'",
+      "note": "Minor: the sequence gives C = 21.5% (1157/5386), which Wikipedia rounds to 22% so the four sum to 100; not worth changing.",
+      "fix": ""
+    },
+    {
+      "id": "P12",
+      "verdict": "supported",
+      "evidence": "[W9.1] [W9.40] [W9.41] [W9.35] [W9.37] [W9.46]",
+      "note": "Source says 'relatively higher melting temperature'; fine. Note the Chargaff table gives yeast GC 35.8% vs 38% here; P12 correctly follows its own cite.",
+      "fix": ""
+    },
+    {
+      "id": "B1.hook",
+      "verdict": "imprecise",
+      "evidence": "[W1.19] 'Before typical cell division, these chromosomes are duplicated'; [W13.1]",
+      "note": "'before a cell divides, all of it is copied' drops the source's 'typical': the second meiotic division happens with no copying. Secondary (general knowledge): the Meselson–Stahl runs were done in 1957 and published in 1958; '1958' matches the source.",
+      "fix": "Every gene you carry is a stretch of DNA, and before a cell divides in the usual way, all of it is copied.",
+      "resolved": "Now “before a typical cell divides”."
+    },
+    {
+      "id": "B2.prompt",
+      "verdict": "supported",
+      "evidence": "[W1.8] base pairing rules (A with T and C with G)",
+      "note": "'always' ignores rare mismatches ([W2.51]); acceptable teaching simplification. 'In the same order' sidesteps antiparallel reading, and no option is the reverse complement, so it is unambiguous.",
+      "fix": ""
+    },
+    {
+      "id": "B2.explain",
+      "verdict": "supported",
+      "evidence": "[W1.8] [W1.81] [W1.218]-[W1.219]",
+      "note": "Complement of A T G C C A is T A C G G T: checked letter by letter.",
+      "fix": ""
+    },
+    {
+      "id": "B2.partner.same",
+      "verdict": "supported",
+      "evidence": "[W1.8]",
+      "note": "Distractor is the original strand; feedback correct.",
+      "fix": ""
+    },
+    {
+      "id": "B2.partner.swap",
+      "verdict": "supported",
+      "evidence": "[W1.8]",
+      "note": "G C A T T G against A T G C C A pairs A–G and T–C (and G–A, C–T); feedback describes it correctly.",
+      "fix": ""
+    },
+    {
+      "id": "B2.partner.pair",
+      "verdict": "supported",
+      "evidence": "[W1.8]",
+      "note": "Key T A C G G T is the only correct position-by-position complement.",
+      "fix": ""
+    },
+    {
+      "id": "B2.partner.shift",
+      "verdict": "supported",
+      "evidence": "[W1.8]",
+      "note": "C G T A A C pairs A–C and T–G; feedback names A–C only, which is enough.",
+      "fix": ""
+    },
+    {
+      "id": "B3.goal",
+      "verdict": "supported",
+      "evidence": "[W13.21]-[W13.24]; [W13.23] 15N DNA 'had a higher density'",
+      "note": "'sinks lower' is a fair simplification of banding at equal density in a CsCl gradient [W13.22]; source says 'several generations', 'many' is fine.",
+      "fix": ""
+    },
+    {
+      "id": "B3.r1.ask",
+      "verdict": "supported",
+      "evidence": "[W13.24] [W13.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r1.two",
+      "verdict": "supported",
+      "evidence": "[W13.27] 'conservative replication would result in equal amounts of DNA of the higher and lower densities (but no DNA of an intermediate density)'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r1.light",
+      "verdict": "supported",
+      "evidence": "[W13.26] [W13.29] [W16.3]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r1.mid",
+      "verdict": "supported",
+      "evidence": "[W13.26] 'After one replication, the DNA was found to have intermediate density.'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r1.heavy",
+      "verdict": "imprecise",
+      "evidence": "[W13.24] [W13.26]",
+      "note": "The answer is rightly wrong, but the feedback's reason presupposes the conclusion: under the conservative model one of the two copies (the old molecule) contains no new material and is exactly as heavy as the original. A learner weighing conservative copying gets a circular rebuttal. The model-neutral reason is that half of all the DNA is now new and light.",
+      "fix": "All at the heavy mark — feedback: Half of all the DNA after one round is newly built from light nitrogen, so it cannot all sit at the heavy mark.",
+      "resolved": "Feedback now: after one round, half of all the DNA is newly built from light nitrogen, so it can’t all sit at the heavy mark."
+    },
+    {
+      "id": "B3.r1.explain",
+      "verdict": "imprecise",
+      "evidence": "[W13.28] 'this result was consistent with both semiconservative and dispersive replication'",
+      "note": "Overclaims round one. The single middle band only rules out conservative copying; mixing old and new pieces along every strand (dispersive) gives the same band. Stating 'the two old strands came apart ... so every copy is a hybrid' as the explanation after round one teaches that round one proved semiconservative copying, which the source explicitly says it did not.",
+      "fix": "...Meselson and Stahl saw exactly this. Copying that mixed old and new pieces along every strand would also give one middle band; the next round tells the two apart.",
+      "resolved": "Now says one middle band matches semiconservative copying but also dispersive copying, and the next round tells them apart."
+    },
+    {
+      "id": "B3.r2.ask",
+      "verdict": "supported",
+      "evidence": "[W13.30]-[W13.31]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r2.shift",
+      "verdict": "imprecise",
+      "evidence": "[W13.32] dispersive would give 'a single density, lower than the intermediate density'; [W13.31]",
+      "note": "Distractor and first sentence are right, but the rebuttal's causal link is a non sequitur: an old heavy strand that 'stays whole and gets a light partner' makes another hybrid, not a light molecule. The fully light band comes from the light strands made in round one getting light partners.",
+      "fix": "...Instead each strand stays whole and gets a new light partner, so the light strands made in round one give fully light copies: a second, light band appears.",
+      "resolved": "Now: each strand stays whole and gets a new light partner, so the light strands made in the first round give fully light copies."
+    },
+    {
+      "id": "B3.r2.split",
+      "verdict": "supported",
+      "evidence": "[W13.31] 'equal amounts of DNA with two different densities, one ... intermediate ... the other ... 14N'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r2.three",
+      "verdict": "supported",
+      "evidence": "[W13.26] [W13.31]",
+      "note": "Fine in context: after round one there is no heavy duplex left to persist, and every new strand is light.",
+      "fix": ""
+    },
+    {
+      "id": "B3.r2.same",
+      "verdict": "supported",
+      "evidence": "[W13.31] [W16.3]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.r2.explain",
+      "verdict": "supported",
+      "evidence": "[W13.31] [W13.32] 'This was inconsistent with dispersive replication' [W13.33]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame1",
+      "verdict": "supported",
+      "evidence": "[W7.2] [W7.4] [W7.19]-[W7.20] [W7.24] [W7.25]; media-candidates: Commons caption of Schloss_Chemisches_Laboratorium_1879.jpg 'the laboratory where Miescher isolated nuclein'",
+      "note": "'this laboratory' rests on the Commons caption (photo taken 1879, ten years later), not on a pinned source. 'We call it DNA': nuclein was DNA plus protein, but the pinned source says 'now known as DNA'.",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame2",
+      "verdict": "supported",
+      "evidence": "[W5.1] [W5.2] [W6.6]-[W6.7] [W11.2]",
+      "note": "'purified' and 'It was DNA' follow [W5.1]-[W5.2]; the source's own hedge 'Only in retrospect ... did either experiment definitively prove' [W5.60] is not contradicted by 'It was DNA' as a statement of fact.",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame3",
+      "verdict": "supported",
+      "evidence": "[W5.25]",
+      "note": "'An enzyme that breaks down DNA' was a crude enzyme preparation [W5.25]; acceptable simplification.",
+      "fix": ""
+    },
+    {
+      "id": "B4.frame4",
+      "verdict": "imprecise",
+      "evidence": "[W3.1] [W3.46] [W3.65]-[W3.74]; media: File:Chargaff_results_on_salmon_DNA.png (Chargaff et al., 1951)",
+      "note": "Checked the current input (17:18 rev., 'This is his table for salmon sperm DNA'); an earlier draft said 'This is his salmon sperm', which misdescribed a printed table. Remaining issue: 'A matched T and C matched G' is stated as exact, but his figures only roughly match (yeast A 31.3 vs T 32.9, octopus A 33.2 vs T 31.6, rat G 21.4 vs C 20.5). This matters because the place later teaches that unequal A and T is the sign of a single strand. That Chargaff measured salmon sperm DNA is backed only by the Commons file, not a pinned source (true from general knowledge: Chargaff et al., JBC 1951).",
+      "fix": "...yet in every one he tested, A nearly matched T and C nearly matched G. This is his table for salmon sperm DNA.",
+      "resolved": "Now “A came out close to T, and C close to G”."
+    },
+    {
+      "id": "B4.frame5",
+      "verdict": "supported",
+      "evidence": "[W1.123] [W1.401] [W1.8] [W3.5]; [W8.3]",
+      "note": "'A gene is one stretch of that long double strand' is the DNA-genome case; RNA viruses aside [W8.56]. Fine in context.",
+      "fix": ""
+    },
+    {
+      "id": "B5.prompt",
+      "verdict": "supported",
+      "evidence": "[W6.6]-[W6.8] [W5.29]-[W5.30]",
+      "note": "The historical reasoning is fairly rendered: proteins thought more complex; DNA a repeat with 'little biological specificity'.",
+      "fix": ""
+    },
+    {
+      "id": "B5.explain",
+      "verdict": "supported",
+      "evidence": "[W1.15] [W5.55] 'Chargaff had shown that the base composition of DNA varies by species (contrary to the tetranucleotide hypothesis)'; [W5.1] [W5.26]",
+      "note": "'DNA alone' is strong given Mirsky's contamination challenge [W5.34], but Hotchkiss later bounded protein at ≤0.02% [W5.26]; acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "B5.step.a",
+      "verdict": "supported",
+      "evidence": "[W1.214] 'twenty standard amino acids'; [W1.6]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.step.b",
+      "verdict": "supported",
+      "evidence": "[W1.2]",
+      "note": "Premise, not the flaw; fine.",
+      "fix": ""
+    },
+    {
+      "id": "B5.step.c",
+      "verdict": "supported",
+      "evidence": "[W1.15] 'It is the sequence of these four nucleobases ... that encodes genetic information'",
+      "note": "Correctly marked as the broken step. (d) follows validly from (a)-(c), so (c) is the single best answer. Slight cue: 'only' and 'too simple' are the only evaluative words in the chain.",
+      "fix": ""
+    },
+    {
+      "id": "B5.step.d",
+      "verdict": "supported",
+      "evidence": "[W5.30] genes thought likely made of the protein component of chromosomes",
+      "note": "Conclusion that follows from (c); not the flaw.",
+      "fix": ""
+    },
+    {
+      "id": "B6.prompt",
+      "verdict": "supported",
+      "evidence": "[W15.60] 'about 23% G, 22% C, 24% A, and 31% T'; [W3.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.explain",
+      "verdict": "supported",
+      "evidence": "[W15.1] [W3.47] 'significant variation from A/T and G/C equal to one, is indicative of single stranded DNA'; [W3.5]",
+      "note": "Checked the current (17:18) wording. 'nothing holds them together' is a slightly odd image (reads as if about strands), but the claim is correct.",
+      "fix": ""
+    },
+    {
+      "id": "B6.why.error",
+      "verdict": "supported",
+      "evidence": "[W15.4] first DNA genome sequenced; [W15.60] composition 'see the accession NC_001422.1 for its 5,386 nucleotide long sequence'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.why.single",
+      "verdict": "supported",
+      "evidence": "[W15.1] [W3.47]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.why.cross",
+      "verdict": "supported",
+      "evidence": "[W15.60]",
+      "note": "Under A–C/T–G pairing, T would equal G; 31% vs 23% refutes it. (A 24% vs C 22% would nearly fit, so citing T and G is the right pair.)",
+      "fix": ""
+    },
+    {
+      "id": "B6.why.virus",
+      "verdict": "supported",
+      "evidence": "[W3.5] first rule for double-stranded DNA; [W3.11] the parity rule 'applies to ... the double stranded DNA viral genomes'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.number",
+      "verdict": "supported",
+      "evidence": "[W3.5] A% = T% and G% = C%",
+      "note": "Rule and setup correct: G 18 → C 18 → A = T = (100 − 36)/2 = 32.",
+      "fix": ""
+    },
+    {
+      "id": "B8.idea",
+      "verdict": "supported",
+      "evidence": "[W8.3] [W1.8] [W1.81] [W1.218]-[W1.219] [W16.2]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f1",
+      "verdict": "supported",
+      "evidence": "[W13.1] [W13.21] [W13.24]",
+      "note": "Source says 'several generations' (it was ~14); 'many' is fine. General knowledge: experiment run late 1957, published 1958; source date is 1958.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f2",
+      "verdict": "supported",
+      "evidence": "[W13.22] [W13.23] [W13.24]",
+      "note": "'settles lower' is a fair simplification of density banding.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f3",
+      "verdict": "supported",
+      "evidence": "[W13.26] [W13.27]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f4",
+      "verdict": "supported",
+      "evidence": "[W13.31]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f5",
+      "verdict": "supported",
+      "evidence": "[W16.3] [W1.219] [W1.8]",
+      "note": "Strictly, Meselson–Stahl showed two conserved density 'subunits', identified as single strands by later work; fine as a teaching step.",
+      "fix": ""
+    },
+    {
+      "id": "R1.prediction",
+      "verdict": "supported",
+      "evidence": "[W13.29] [W16.3]",
+      "note": "Key is right. Note 'half heavy, half light' is also what dispersive copying predicts after one round, so this prediction does not by itself separate the models (not claimed to).",
+      "fix": ""
+    },
+    {
+      "id": "R1.takeaway",
+      "verdict": "supported",
+      "evidence": "[W16.3] [W13.33] [W1.218]-[W1.219]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f1",
+      "verdict": "supported",
+      "evidence": "[W5.2] research 'at the Rockefeller Institute for Medical Research'; [W5.34] 'fellow Rockefeller Institute Fellow'",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f2",
+      "verdict": "supported",
+      "evidence": "[W6.2] 'DNA had been known to biologists since 1869, many scientists still assumed ... proteins'; [W6.7]; [W1.6]",
+      "note": "Source says 'many scientists'; 'most biologists' is supported by [W5.1] 'widely believed' and [W6.6].",
+      "fix": ""
+    },
+    {
+      "id": "R2.f3",
+      "verdict": "supported",
+      "evidence": "[W5.1] [W5.25]",
+      "note": "'showed' slightly firmer than the source's 'reported' and [W5.60], acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "R2.f4",
+      "verdict": "unsupported",
+      "evidence": "[W11.8] 'Chargaff showed that the four frequencies were not equal' (no mention of species); true per [W5.55] 'the base composition of DNA varies by species'",
+      "note": "The cited Tetranucleotide page supports 'different amounts' and 'not a simple repeat' [W11.11], but not 'in different species'. The fact is true and pinned in the Avery–MacLeod–McCarty source.",
+      "fix": "Add cite: Wikipedia: Avery–MacLeod–McCarty experiment ([W5.55]); no wording change needed.",
+      "resolved": "Frame now also cites a reel source on Wikipedia: Avery–MacLeod–McCarty experiment ([W5.55], variation by species); wording unchanged, so the narration stands."
+    },
+    {
+      "id": "R2.f5",
+      "verdict": "supported",
+      "evidence": "[W1.15] [W8.3]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.prediction",
+      "verdict": "supported",
+      "evidence": "[W6.6] [W5.30] [W5.31]",
+      "note": "Single-word key 'Protein' is unambiguous for the 1930s (Stanley's protein-virus/'super-enzyme' view, [W5.31]).",
+      "fix": ""
+    },
+    {
+      "id": "R2.takeaway",
+      "verdict": "supported",
+      "evidence": "[W1.15] [W8.3] [W11.11]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "I.i_hgtkmqg87s",
+      "verdict": "supported",
+      "evidence": "[W16.3] [W13.31]",
+      "note": "Computed: 1 → 2 → 4 → 8 molecules, 2 hybrid = 1/4. 'About an eighth' (heavy strands as a share of all strands, 2/16) is a fair distractor and clearly not 'share of molecules'.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_4fee99tcj4",
+      "verdict": "supported",
+      "evidence": "[W1.8]",
+      "note": "G G A T C A → C C T A G T verified. Distractors: original strand, purine/purine swap, and the reversed original; the reverse complement (T G A T C C) is not offered, so no antiparallel ambiguity.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_shay78p8ab",
+      "verdict": "supported",
+      "evidence": "[W13.27] [W13.26] [W16.3]",
+      "note": "(c) is the single false premise; (d) follows from it. Explain correct.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_0czat095ds",
+      "verdict": "imprecise",
+      "evidence": "[W4.39] polymerase adds nucleotides 'matched to the template strand, one at a time, via the creation of phosphodiester bonds'; [W4.10] replication forks; [W1.219]",
+      "note": "The sequence 'strands come apart → loose letters line up along each old strand → the lined-up letters are linked' teaches a known misconception: that free nucleotides align along a whole template and are zipped together afterwards. In cells the strands open progressively at a fork and each nucleotide is linked by the polymerase as it pairs. The key order is still the only sensible one.",
+      "fix": "Step 2: 'A new letter pairs with the next letter on each old strand, A facing T and C facing G'; Step 3: 'It is linked onto the end of the growing new strand'.",
+      "resolved": "Steps 2–3 now: a new letter pairs with the next letter on each old strand; it is linked onto the end of the growing strand. Explanation matched."
+    },
+    {
+      "id": "I.i_rba63qywrk",
+      "verdict": "imprecise",
+      "evidence": "[W5.25] 'an enzyme preparation of \"deoxyribonucleodepolymerase\" (a crude preparation ...) destroyed the extract's transforming power'; [W5.34] Mirsky's contamination challenge; [W5.60]",
+      "note": "Key and claim ('pointed to DNA') are right. The explain overreaches: a crude enzyme preparation could carry other activities (exactly Mirsky's objection), so the result made DNA the likeliest carrier; it did not mean the carrier 'had to be' DNA. The explain names the enzyme crude and then draws a certain conclusion from it.",
+      "fix": "...Only a crude enzyme that breaks down DNA destroyed its power, which pointed to DNA as the carrier of the change.",
+      "resolved": "Explanation now ends “which pointed to DNA as the carrier of the change”."
+    },
+    {
+      "id": "I.i_drsef29sc5",
+      "verdict": "imprecise",
+      "evidence": "[W3.5] [W3.47]; [W1.54] 'Modified bases occur in DNA'; [W1.56] noncanonical bases in bacteriophages; [W1.63] 5-Hydroxymethyldeoxyuracil",
+      "note": "Key is the best answer, but two distractors can be argued right, and the claim overgeneralizes. (1) 'It contains a fifth kind of letter': only A and T are given, so a T-substitute such as 5-hydroxymethyluracil (or uracil) pairing with A in a double strand would give exactly A > T; the pinned DNA source lists such bases in phage DNA. (2) 'Two strands of different lengths' is a partly single-stranded molecule, the same mechanism as the key. Claim 'Unequal shares of A and T mean the DNA has no partner strand' is stated as a certainty; 'suggest' (as the stem says) is right.",
+      "fix": "Replace 'It contains a fifth kind of letter' with 'Its G and C must be unequal too' and 'It has two strands of different lengths' with 'Its strands pair A with A'; claim: 'In double-stranded DNA A equals T, so a big gap between them points to a single strand.'",
+      "resolved": "Distractors replaced with “Its G and C must be unequal too” and “Its strands pair A with A”; claim and explanation now say a gap points to a single strand."
+    },
+    {
+      "id": "I.i_7cv5b7bhwf",
+      "verdict": "wrong",
+      "evidence": "[W6.16] [W6.17] [W6.20] 'performed once for the sulfur-labeled phages and once for phosphorus-labeled phages'; [W6.41] [W6.42] [W6.25]; [W8.56] 'Not all genomes are DNA (e.g. RNA viruses)'",
+      "note": "Key 'Mostly the phosphorus' and the current explain are right. The claim is wrong as written: (1) it inverts the inference ('Since genes are DNA, ... DNA enters') when the experiment is evidence FOR genes being DNA; (2) it generalizes to every virus and 'the cell it infects', which is false: RNA viruses carry no DNA, and many animal viruses enter cells whole, protein coat included. Secondary: the stem reads as one phage tagged both ways; Hershey and Chase labelled separate batches [W6.20].",
+      "fix": "Claim: 'In Hershey and Chase's experiment the phage's DNA, not its protein coat, entered the bacteria: evidence that its genes were DNA.' Stem: 'tagged one batch of phages' protein coats with radioactive sulfur and another batch's DNA with radioactive phosphorus'.",
+      "resolved": "Claim now: in Hershey and Chase’s experiment the phage’s DNA, not its coat, entered the bacteria, evidence its genes were DNA. Stem now describes two separately labelled batches and asks which tag turned up mostly inside."
+    },
+    {
+      "id": "I.i_5r44wr938b",
+      "verdict": "imprecise",
+      "evidence": "[W5.2] 'killed ... virulent strain type III-S, when injected along with living but non-virulent type II-R pneumococci, resulted in a deadly infection'; [W5.12]",
+      "note": "The setup does not give the learner the evidence the reveal relies on. Nothing in the stem rules out 'The heat-killed bacteria came back to life': that is excluded only by Griffith's control (heat-killed smooth bacteria alone did not kill and yielded no live bacteria), which the explain asserts ('Heat-killed bacteria don't revive') but the stem omits. The item is won by background knowledge, not by reasoning from the case. Claim 'can carry a gene' is a modern reading (fine).",
+      "fix": "Add to the stem: 'Mice given either kind alone survived, and no live bacteria grew from the heat-killed ones.'",
+      "resolved": "Stem now gives the controls: injected alone, neither the rough bacteria nor the heat-killed smooth ones killed mice ([W5.12]: fatal infection normally only from live virulent bacteria)."
+    },
+    {
+      "id": "I.i_726snxg9vh",
+      "verdict": "imprecise",
+      "evidence": "[W9.8] 'the hydrogen bonds themselves do not have a particularly significant impact on molecular stability, which is instead caused mainly by ... base stacking'; [W9.13]; [W2.25]; [W9.40] [W9.41]",
+      "note": "Key, claim and the PCR use are right. The explain puts '3 hydrogen bonds vs 2' directly before 'needs more heat', presenting the textbook misconception that the cited GC-content source explicitly refutes: stability comes mainly from G–C stacking, not the extra hydrogen bond.",
+      "fix": "Explain: 'G–C pairs hold together more strongly than A–T pairs, mainly because they stack more strongly on their neighbours (they also have three hydrogen bonds to A–T's two), so DNA with more G–C pairs needs more heat to separate. ...'",
+      "resolved": "Explanation now leads with stronger G–C stacking as the main reason (GC-content source), with the three-versus-two hydrogen bonds in parentheses."
+    },
+    {
+      "id": "I.i_tcp02m14c2",
+      "verdict": "supported",
+      "evidence": "[W3.5] [W3.67] Chicken: A 28.0%, G 22.0%, C 21.6%, T 28.4%",
+      "note": "21.6 → G 21.6, 43.2 → A = T = 28.4; 'About 28%' and the 28.0% measured figure both check. Distractors are the C share, A+T, and 100 − C.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_2bmfhn7bs7",
+      "verdict": "supported",
+      "evidence": "[W3.66] Octopus: A 33.2%, G 17.6%, C 17.6%, T 31.6%",
+      "note": "Computed G = (100 − 2×33.2)/2 = 16.8; explain's measured values match the pinned table exactly; 'close to the paired prediction' is fair (0.8 off).",
+      "fix": ""
+    },
+    {
+      "id": "I.i_rv528vq6w5",
+      "verdict": "supported",
+      "evidence": "[W3.71] Sea urchin: A 32.8%, G 17.7%, C 17.3%, T 32.1%",
+      "note": "Computed C = (100 − 65.6)/2 = 17.2; figures match the table.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_18xvtb7tqz",
+      "verdict": "supported",
+      "evidence": "[W3.72] Wheat: A 27.3%, G 22.7%, C 22.8%, T 27.1%",
+      "note": "Computed A = (100 − 45.4)/2 = 27.3; figures match the table.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_wwcxs4w30e",
+      "verdict": "supported",
+      "evidence": "[W3.68] Rat: A 28.6%, G 21.4%, C 20.5%, T 28.4%",
+      "note": "Computed G = (100 − 56.8)/2 = 21.6; figures match the table (the source row itself sums to 98.9%).",
+      "fix": ""
+    },
+    {
+      "id": "P13",
+      "verdict": "supported",
+      "evidence": "[W5.55] “Erwin Chargaff had shown that the base composition of DNA varies by species (contrary to the tetranucleotide hypothesis), and in 1952 Rollin Hotchkiss published his experimental evidence both confirming Chargaff’s work…”",
+      "note": "Added after the independent check, at the checker’s suggestion (P6, R2.f4); verified by the drafting agent against the cited sentence.",
+      "fix": ""
+    }
+  ]
+}

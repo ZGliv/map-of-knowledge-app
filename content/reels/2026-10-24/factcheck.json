@@ -1,0 +1,1188 @@
+{
+ "checker": "Independent adversarial checker (Claude Opus 5.5 subagent, not the reel author); quotes machine-matched against pinned sources, images viewed, Commons pages fetched",
+ "checkedAt": "2026-10-23T19:00:32Z",
+ "units": [
+  {
+   "id": "2026-10-24-the-crash-that-paused/title",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"This encouraged a brief recovery before Black Tuesday.\"",
+   "note": "\"for a day\" is not in any pinned source, which says only \"a brief recovery\". After Black Thursday the market held through Friday 25 October (Dow up about half a percent, fool.com 2013-10-25) and a Saturday half-session (298.97 close, implied by the source: 260.64 + 38.33), and the slide resumed on Monday 28 October. That is two sessions, not one day.",
+   "fix": "The crash that paused",
+   "resolved": "Applied the checker's fix: The crash that paused"
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f1",
+   "verdict": "supported",
+   "evidence": "[Commons Crowd_outside_nyse.jpg] \"A solemn crowd gathers outside the Stock Exchange after the crash. 1929.\"",
+   "note": "Matches the file description. Commons dates the photo \"Taken on 29 October 1929\" (Black Tuesday), which fits \"after the crash\". Frames 2 to 4 narrate Black Thursday over the same photo but do not claim it shows that day.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f2",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"On October 24, \\\"Black Thursday\\\", the market lost 11% of its value at the opening bell.\"",
+   "note": "Stands on the pinned sentence. Secondary accounts vary between \"opened 11% lower\" and \"fell 11% in the first hours\", but the caption matches the pinned source. 24 October 1929 was a Thursday.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"They chose Richard Whitney, vice president of the Exchange, to act on their behalf.\" / \"With the bankers' financial resources behind him, Whitney placed a bid to purchase 25,000 shares of U.S. Steel at $205 per share, a price well above the current market.\"",
+   "note": "Supported. \"had Whitney bid\" fairly compresses \"chose Whitney to act on their behalf\" plus \"with the bankers' financial resources behind him\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f4",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"succeeded in halting the slide. The Dow Jones Industrial Average recovered, closing down only 6.38 points (2.09%) for the day.\"",
+   "note": "2.09% rounds to \"about 2 percent\". Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"for a total drop of 68.90 points, or 23.05% in two days\" + [Commons NYT file] \"on the day after \\\"Black Tuesday\\\"\"",
+   "note": "Supported. The 23.05% runs from Saturday 26 October's close (298.97) to Tuesday's (230.07); 68.90/298.97 = 23.05%. Monday 28 October was the next Monday after Black Thursday. Note that the image is only part of the front page plus a table from page 31 (see media.m5).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/f6",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"peaking at 381.17 on September 3, 1929\" / \"July 8, 1932, when it closed at 41.22 ... concluding an 89.2% loss\" / \"did not return to its peak close of September 3, 1929, for 25 years, until November 23, 1954\"",
+   "note": "The arithmetic holds: (381.17 - 41.22) / 381.17 = 89.19%, measured from the September 1929 peak, so \"89 percent below its 1929 peak\" is right.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/prediction",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"closing down only 6.38 points (2.09%) for the day.\"",
+   "note": "Key right (2.09%). \"About 11 percent\" was the early fall, not the close. \"About 25 percent\" was never the close on Black Thursday (the two-day fall of 28 and 29 October was 23%). Both wrong choices are clearly wrong.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/takeaway",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"This encouraged a brief recovery before Black Tuesday.\"",
+   "note": "The second sentence is supported (89.19% from 381.17 to 41.22). \"for a day\" is not in the pinned source: the market held through Friday 25 and the Saturday 26 October half-session, and the slide resumed on Monday 28 October.",
+   "fix": "Bankers briefly stopped Black Thursday's slide. By July 1932 the Dow stood 89 percent below its 1929 peak.",
+   "resolved": "Applied the checker's fix: Bankers briefly stopped Black Thursday's slide. By July 1932 the Dow stood 89 percent below its 1929 peak."
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.photo",
+   "verdict": "supported",
+   "evidence": "\"A solemn crowd gathers outside the Stock Exchange after the crash. 1929.\" (verbatim in pinned Commons text)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.black",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Wall Street crash of 1929] \"It is most associated with October 24, 1929, known as \\\"Black Thursday\\\", when a record 12.9 million shares were traded on the exchange, and October 29, 1929, or \\\"Black Tuesday\\\"\"",
+   "note": "The quote is verbatim but cut mid-sentence. The source names two days the crash is most associated with, 24 October (Black Thursday) and 29 October (Black Tuesday). The claim names only one, which misstates the sentence.",
+   "fix": "The crash is most associated with Thursday 24 October 1929 (Black Thursday) and Tuesday 29 October 1929 (Black Tuesday)",
+   "resolved": "Applied the checker's fix: The crash is most associated with Thursday 24 October 1929 (Black Thursday) and Tuesday 29 October 1929 (Black Tuesday)"
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.open",
+   "verdict": "supported",
+   "evidence": "\"On October 24, \\\"Black Thursday\\\", the market lost 11% of its value at the opening bell.\" (verbatim)",
+   "note": "Verbatim and matches. Some accounts place the 11% fall in the first hours rather than at the bell; the claim stands on its pinned source.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.bankers",
+   "verdict": "supported",
+   "evidence": "\"Several leading Wall Street bankers met to find a solution to the panic and chaos on the trading floor.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.whitney",
+   "verdict": "supported",
+   "evidence": "\"They chose Richard Whitney, vice president of the Exchange, to act on their behalf.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.bid",
+   "verdict": "supported",
+   "evidence": "\"Whitney placed a bid to purchase 25,000 shares of U.S. Steel at $205 per share, a price well above the current market.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.halted",
+   "verdict": "supported",
+   "evidence": "\"... and succeeded in halting the slide.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.close",
+   "verdict": "supported",
+   "evidence": "\"closing down only 6.38 points (2.09%) for the day.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.monday",
+   "verdict": "supported",
+   "evidence": "\"the slide continued with a record loss in the Dow for the day of 38.33 points, or 12.82%.\" (verbatim)",
+   "note": "October 28, 1929 was a Monday.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.twoday",
+   "verdict": "supported",
+   "evidence": "\"The Dow lost an additional 30.57 points, or 11.73%, for a total drop of 68.90 points, or 23.05% in two days.\" (verbatim)",
+   "note": "Arithmetic: 38.33 + 30.57 = 68.90. Checks.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.nyt",
+   "verdict": "supported",
+   "evidence": "\"Part of front page, and part of page 31, of The New York Times on the day after \\\"Black Tuesday\\\"\" (verbatim)",
+   "note": "Commons date: 30 October 1929.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.low",
+   "verdict": "supported",
+   "evidence": "\"... July 8, 1932, when it closed at 41.22, its lowest level of the 20th century, concluding an 89.2% loss for the index in less than three years.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.peak",
+   "verdict": "supported",
+   "evidence": "\"did not return to its peak close of September 3, 1929, for 25 years, until November 23, 1954.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/claim.graph",
+   "verdict": "supported",
+   "evidence": "\"Graf ini menunjukan harga saham Wall Street menjunam dari tahun 1929 hingga tahun 1932\" (verbatim; Malay: \"This graph shows Wall Street share prices plunging from 1929 to 1932\")",
+   "note": "Translation is accurate. The plotted values (381 down to 41) are the Dow.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/media.m1",
+   "verdict": "imprecise",
+   "evidence": "[Commons File:Crowd_outside_nyse.jpg] Author: \"US-gov\"; Source: \"From an SSA poster\"; Date: \"Taken on 29 October 1929\"",
+   "note": "The alt text is accurate (I viewed the image: a high view down a street packed with people and parked cars between stone buildings). The credit \"US-gov\" copies a placeholder from the Commons author field, not a name. The only provenance Commons gives is a Social Security Administration poster. Licence (PD) matches media.json, though a 1929 crowd photo is more likely a press photo than a federal work.",
+   "fix": "credit: \"US Social Security Administration archive, 1929\"",
+   "resolved": "Applied the checker's fix: credit: \"US Social Security Administration archive, 1929\""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/media.m5",
+   "verdict": "imprecise",
+   "evidence": "[Commons] \"Part of front page, and part of page 31, of The New York Times\"; viewed image",
+   "note": "The image is not a front page. It is a collage on a tan background: the masthead turned sideways, a cropped part of the front page, and a small trading-volume table from page 31, with the labels \"Front page\", \"Recent trading volume\" and \"p. 31\". The banner headline also has a third line, \"Bankers optimistic, to continue aid\". The credit and licence match Commons (author \"Work for hire of The New York Times\"; date 30 October 1929; PD).",
+   "fix": "alt: \"Collage of parts of The New York Times, 30 October 1929: the masthead turned sideways, part of the front page with the banner headline Stocks collapse in 16,410,030-share day, but rally at close cheers brokers, and a trading-volume table from page 31\"",
+   "resolved": "Applied the checker's fix: alt: \"Collage of parts of The New York Times, 30 October 1929: the masthead turned sideways, part of the front page with the banner headline Stocks collapse in 16,410,030-share day, but rally at close cheers brokers, and a trading-volume table from page 31\""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/media.m6",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"Encik Tekateki\", date 11 August 2019, CC BY-SA 4.0; viewed image titled \"WALL STREET CRASH 1929 - 1932\"",
+   "note": "Alt matches the image: a fall from about 381 to about 200 in late 1929, a rise to about 294 by April 1930, then a long slide to about 41 at the right (July 1932). The credit and licence match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-crash-that-paused/place",
+   "verdict": "supported",
+   "evidence": "knowledge.economics.markets",
+   "note": "A stock-market crash belongs under markets.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: March of Progress] \"lined up as if they were marching in a parade\" / \"a linear presentation ... all in the direct line of human ancestors, would not be a correct interpretation.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f1",
+   "verdict": "supported",
+   "evidence": "[Commons] title \"Astronomy Evolution 2\"; viewed image; [Wikipedia: March of Progress] \"It has been widely parodied and imitated to create images of progress of other kinds.\"",
+   "note": "The image shows white silhouettes going from a crouching ape to a man at a telescope. That it parodies the March of Progress comes from looking at the image; no source says so, but the resemblance is unmistakable.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f2",
+   "verdict": "supported",
+   "evidence": "\"It was created for the Early Man volume of the Life Nature Library, published in 1965, and drawn by the artist Rudolph Zallinger.\" / \"The 15 human evolutionary forebears are lined up as if they were marching in a parade\"",
+   "note": "\"as if each became the next\" describes the appearance, which the source itself flags (\"Contrary to appearances\"). Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f3",
+   "verdict": "supported",
+   "evidence": "\"the fourth of Zallinger's figures (Oreopithecus) is said to be \\\"a likely side branch on man's family tree\\\"\" / \"the seventh figure (Paranthropus) is said to be \\\"an evolutionary dead end\\\"\"",
+   "note": "Keeps the hedge \"likely\". Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f4",
+   "verdict": "supported",
+   "evidence": "\"the anthropologist and author of the section, F. Clark Howell, remarked: The artist didn't intend to reduce the evolution of man to a linear sequence ... The graphic overwhelmed the text.\"",
+   "note": "Supported. \"its author\" reads as the book's author: Howell wrote the section, and the volume is credited to him. \"never meant\" is a light strengthening of \"didn't intend\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f5",
+   "verdict": "supported",
+   "evidence": "\"Thomas Henry Huxley added a frontispiece to his 1863 book ... comparing the skeletons of apes and humans, but historian Jennifer Tucker argues that its left-to-right progressionist sequence unintentionally became \\\"an iconic and instantly recognizable visual shorthand for evolution\\\".\"",
+   "note": "The attribution \"a historian argues\" is kept. Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/f6",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: March of Progress] \"It has also been criticized as \\\"unintentionally and wrongly\\\" implying that \\\"evolution is progressive\\\".\" (\"It\" = the March of Progress)",
+   "note": "In the source the criticism targets the March of Progress image. The caption widens it to \"such pictures\" and runs over Huxley's frontispiece, which is not what was criticised (Tucker only calls Huxley's sequence \"progressionist\").",
+   "fix": "Critics say the march wrongly makes evolution look like progress.",
+   "resolved": "Applied the checker's fix: Critics say the march wrongly makes evolution look like progress."
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/prediction",
+   "verdict": "supported",
+   "evidence": "\"a likely side branch on man's family tree\" / \"an evolutionary dead end\" / \"That implies that the first four primates are not to be considered actual human ancestors.\"",
+   "note": "Key right: the text treats several marchers as off the direct line. \"Each one was the ancestor of the next\" is the misreading the text rejects. \"Nothing about who descended from whom\" is wrong: the text labelled lineages, e.g. Ramapithecus as \"the oldest of man's ancestors in a direct line\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/takeaway",
+   "verdict": "imprecise",
+   "evidence": "\"the fourth of Zallinger's figures (Oreopithecus) is said to be \\\"a likely side branch on man's family tree\\\"\"",
+   "note": "The book is quoted as calling the marcher \"a likely side branch\". The takeaway drops \"likely\" while reporting what the book \"called\" it.",
+   "fix": "The famous march was never meant as a line of ancestors: its own book called one marcher a likely side branch and another a dead end.",
+   "resolved": "Applied the checker's fix: The famous march was never meant as a line of ancestors: its own book called one marcher a likely side branch and another a dead end."
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.astro",
+   "verdict": "supported",
+   "evidence": "\"Astronomy Evolution 2\" (verbatim Commons title)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.parody",
+   "verdict": "supported",
+   "evidence": "\"It has been widely parodied and imitated to create images of progress of other kinds.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.drawn",
+   "verdict": "supported",
+   "evidence": "\"It was created for the Early Man volume of the Life Nature Library, published in 1965, and drawn by the artist Rudolph Zallinger.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.parade",
+   "verdict": "supported",
+   "evidence": "\"The 15 human evolutionary forebears are lined up as if they were marching in a parade from left to right.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.linear",
+   "verdict": "supported",
+   "evidence": "\"Contrary to appearances and some complaints, the original 1965 text ... would not be a correct interpretation.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.branch",
+   "verdict": "supported",
+   "evidence": "\"the fourth of Zallinger's figures (Oreopithecus) is said to be \\\"a likely side branch on man's family tree\\\".\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.deadend",
+   "verdict": "supported",
+   "evidence": "\"the seventh figure (Paranthropus) is said to be \\\"an evolutionary dead end\\\".\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.howell",
+   "verdict": "imprecise",
+   "evidence": "Source: \"With regard to the way the illustration has been interpreted, the anthropologist and author of the section, F. Clark Howell, remarked:\"",
+   "note": "The quoted fragment is verbatim, but it only says Howell \"remarked\". The words that support \"commented on how it was read\" are just before the quote and were cut off.",
+   "fix": "Extend the quote to: \"With regard to the way the illustration has been interpreted, the anthropologist and author of the section, F. Clark Howell, remarked\"",
+   "resolved": "Applied the checker's fix: Extend the quote to: \"With regard to the way the illustration has been interpreted, the anthropologist and author of the section, F. Clark Howell, remarked\""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.intent",
+   "verdict": "supported",
+   "evidence": "\"The artist didn't intend to reduce the evolution of man to a linear sequence, but it was read that way by viewers.\" (verbatim, Howell's words)",
+   "note": "This is Howell's account of the artist's intent. f4 attributes it correctly.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.overwhelmed",
+   "verdict": "supported",
+   "evidence": "\"The graphic overwhelmed the text.\" (verbatim, Howell)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.huxley",
+   "verdict": "supported",
+   "evidence": "\"Thomas Henry Huxley added a frontispiece ... \\\"an iconic and instantly recognizable visual shorthand for evolution\\\".\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.skeletons",
+   "verdict": "supported",
+   "evidence": "\"Frontispiece to Huxley 'Evidence as to man's place in Nature'. Illustration showing skeleton's of apes and man\" (verbatim Commons description)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/claim.progress",
+   "verdict": "supported",
+   "evidence": "\"It has also been criticized as \\\"unintentionally and wrongly\\\" implying that \\\"evolution is progressive\\\".\" (verbatim)",
+   "note": "Word for word. The only difference is whitespace: the pinned text has a double space (\"criticized as  \\\"unintentionally\").",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"Giuseppe Donatiello\", date 9 June 2016, CC0 1.0; viewed image",
+   "note": "Alt matches the image: white silhouettes on black, from a crouching ape at left to a man looking through a telescope on a tripod. The credit and licence match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/media.m5",
+   "verdict": "imprecise",
+   "evidence": "[Commons] no Author field; metadata author \"Wellcome Library, London\"; Source/Photographer: Wellcome Collection gallery (2018-03-29); book 1863; diagrams \"drawn by Mr. Waterhouse Hawkins\" (printed caption)",
+   "note": "The alt is accurate (viewed: five skeletons labelled Gibbon, Orang, Chimpanzee, Gorilla, Man, with a printed caption below) and the licence matches (CC BY 4.0). The credit is a raw Commons source-field string, \"Gallery: Wellcome Collection gallery (2018-03-29): CC-BY-4.0, cropped\". It repeats the licence and shows a 2018 gallery date as if it were the work's date, though the engraving is from 1863. Nothing on Commons says the file is cropped.",
+   "fix": "credit: \"Benjamin Waterhouse Hawkins for T. H. Huxley, 1863 · Wellcome Collection\"",
+   "resolved": "Applied the checker's fix: credit: \"Benjamin Waterhouse Hawkins for T. H. Huxley, 1863 · Wellcome Collection\""
+  },
+  {
+   "id": "2026-10-24-a-parade-not-a-family-line/place",
+   "verdict": "supported",
+   "evidence": "knowledge.science.biology.evolution.human-evolution",
+   "note": "An icon of human evolution and how it is misread belongs under human evolution.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/title",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Moons of Uranus] \"It was therefore concluded that Herschel's four satellites were spurious\" + Lassell discovered Ariel and Umbriel",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f1",
+   "verdict": "supported",
+   "evidence": "[Commons] \"An updated near infrared (NIR) image of Uranus (September 4, 2023) from the James Webb Telescope\" / [Wikipedia: Umbriel] \"It was discovered on October 24, 1851, by William Lassell at the same time as neighboring moon Ariel.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f2",
+   "verdict": "supported",
+   "evidence": "[Commons] \"British astronomer William Lassell (1799–1880)\" / [Wikipedia: Umbriel] discovered \"by William Lassell at the same time as neighboring moon Ariel\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f3",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Moons of Uranus] \"William Herschel discovered the first two moons, Titania and Oberon, in 1787.\" / [Wikipedia: Umbriel] \"claimed ... that he had observed four additional moons of Uranus\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f4",
+   "verdict": "supported",
+   "evidence": "\"Ariel and Umbriel, which Herschel certainly ought to have seen if he had seen any satellites besides Titania and Oberon, did not correspond to any of Herschel's four additional satellites in orbital characteristics.\" / \"probably arising from the misidentification of faint stars\"",
+   "note": "Keeps the hedge \"probably\". Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/f5",
+   "verdict": "supported",
+   "evidence": "[Wikipedia: Umbriel] \"Umbriel is the \\\"dusky melancholy sprite\\\" in Alexander Pope's The Rape of the Lock\" / [Commons PIA00040] \"Umbriel is the darkest of Uranus' larger moons\"",
+   "note": "\"gloomy\" fairly renders \"dusky melancholy\", and the \"larger moons\" qualifier is kept.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/prediction",
+   "verdict": "supported",
+   "evidence": "\"two on 18 January and 9 February 1790, and two more on 28 February and 26 March 1794\" / \"probably arising from the misidentification of faint stars in the vicinity of Uranus as satellites\"",
+   "note": "Key right and hedged (\"most likely\"). \"Ariel and Umbriel, seen first\" is ruled out by the source, which says they did not correspond in orbital characteristics. \"Real moons, too faint to see again\" contradicts \"spurious\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/takeaway",
+   "verdict": "supported",
+   "evidence": "\"Lassell's observations of 1851 ... failed to support Herschel's observations ... It was therefore concluded that Herschel's four satellites were spurious, probably arising from the misidentification of faint stars\"",
+   "note": "Supported, and the hedge \"probably\" is kept. Strictly, Lassell's moons showed the four were spurious; that they were faint stars is the likely explanation. The source links the two with \"therefore\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.photo",
+   "verdict": "supported",
+   "evidence": "\"An updated near infrared (NIR) image of Uranus (September 4, 2023) from the James Webb Telescope\" (verbatim)",
+   "note": "Commons: \"Taken on 4 September 2023\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.found",
+   "verdict": "supported",
+   "evidence": "\"It was discovered on October 24, 1851, by William Lassell at the same time as neighboring moon Ariel.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.lassell",
+   "verdict": "supported",
+   "evidence": "\"British astronomer William Lassell (1799–1880)\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.herschel",
+   "verdict": "supported",
+   "evidence": "\"William Herschel discovered the first two moons, Titania and Oberon, in 1787.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.four",
+   "verdict": "supported",
+   "evidence": "\"his observations were not confirmed and those four objects are now thought to be spurious.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.nineties",
+   "verdict": "supported",
+   "evidence": "\"he subsequently believed that he had observed four other moons: two on 18 January and 9 February 1790, and two more on 28 February and 26 March 1794.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.match",
+   "verdict": "supported",
+   "evidence": "\"Ariel and Umbriel, which Herschel certainly ought to have seen ... did not correspond to any of Herschel's four additional satellites in orbital characteristics.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.spurious",
+   "verdict": "supported",
+   "evidence": "\"probably arising from the misidentification of faint stars in the vicinity of Uranus as satellites\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.sprite",
+   "verdict": "supported",
+   "evidence": "\"Umbriel is the \\\"dusky melancholy sprite\\\" in Alexander Pope's The Rape of the Lock\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/claim.dark",
+   "verdict": "supported",
+   "evidence": "\"Umbriel is the darkest of Uranus' larger moons\" (verbatim, NASA caption on Commons)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"NASA's James Webb Telescope and team\", taken 4 September 2023, PD (PD-NASA); viewed image",
+   "note": "Alt matches the image: pale Uranus inside bright rings, with labelled points including Oberon, Titania, Umbriel, Ariel, Miranda and inner moons. The credit and licence match Commons and media.json.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/media.m4",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"Unknown author\", Date \"19th century\", PD; viewed image",
+   "note": "Alt matches the image: an elderly man with white side-whiskers, seated in a dark coat, holding a small book on his lap. The credit matches.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/media.m2",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"NASA / Jet Propulsion Lab\", 24 January 1986, PD; NASA caption: \"a curious bright ring\" \"at top\"; viewed image",
+   "note": "Alt matches the image (grey, cratered, part in shadow, bright ring at the top edge). The credit and licence match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-two-real-moons-four-false/place",
+   "verdict": "supported",
+   "evidence": "knowledge.science.astronomy",
+   "note": "Discovery of planetary moons belongs under astronomy.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/title",
+   "verdict": "supported",
+   "evidence": "\"Each ocelot has a unique color pattern, which can be used to identify individuals.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f1",
+   "verdict": "supported",
+   "evidence": "[Commons] \"Ocelot in Parque Estadual Encontro das Águas, Brazil\"; viewed image",
+   "note": "The photo shows an ocelot standing on a sloping branch. Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f2",
+   "verdict": "supported",
+   "evidence": "\"weighs between 7 and 15.5 kg (15 and 34 lb) on average.\"",
+   "note": "\"usually\" is a fair reading of \"on average\". The body gives females 7 to 12 kg and males 8 to 18 kg, which is consistent.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f3",
+   "verdict": "supported",
+   "evidence": "\"extensively marked with solid black markings\" / \"markings on the back, cheeks, and flanks are open or closed bands and stripes\" / \"Each ocelot has a unique color pattern, which can be used to identify individuals.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f4",
+   "verdict": "supported",
+   "evidence": "\"Its eyes are brown, but reflect in a golden hue when illuminated.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f5",
+   "verdict": "supported",
+   "evidence": "\"It is typically active during twilight and at night and tends to be solitary and territorial.\" / [Commons Jaguatirica.jpg] \"fotografado à noite\"",
+   "note": "\"dusk\" is narrower than \"twilight\", but it is still true, since the body says they become active in late afternoon and move until dawn. Commons gives a 19:40 timestamp for the night photo.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/f6",
+   "verdict": "supported",
+   "evidence": "\"The ocelot is efficient at climbing, leaping and swimming.\" / \"The name \\\"ocelot\\\" comes from the Nahuatl word ōcēlōtl ..., which generally refers to the jaguar\" / \"Another possible origin for the name is the Latin ocellatus\"",
+   "note": "\"may come from\" correctly hedges, given the second possible origin.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/prediction",
+   "verdict": "supported",
+   "evidence": "\"weighs between 7 and 15.5 kg (15 and 34 lb) on average.\"",
+   "note": "Key (about 10 kg) falls in the range. 1 kg and 100 kg are clearly outside it.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/takeaway",
+   "verdict": "supported",
+   "evidence": "\"typically active during twilight and at night\" / \"Each ocelot has a unique color pattern\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.park",
+   "verdict": "supported",
+   "evidence": "\"Ocelot in Parque Estadual Encontro das Águas, Brazil\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.size",
+   "verdict": "supported",
+   "evidence": "\"weighs between 7 and 15.5 kg (15 and 34 lb) on average.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.coat",
+   "verdict": "supported",
+   "evidence": "\"The ocelot's fur is extensively marked with solid black markings ...\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.stripes",
+   "verdict": "supported",
+   "evidence": "\"markings on the back, cheeks, and flanks are open or closed bands and stripes.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.unique",
+   "verdict": "supported",
+   "evidence": "\"Each ocelot has a unique color pattern, which can be used to identify individuals.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.eyes",
+   "verdict": "supported",
+   "evidence": "\"Its eyes are brown, but reflect in a golden hue when illuminated.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.night",
+   "verdict": "supported",
+   "evidence": "\"It is typically active during twilight and at night and tends to be solitary and territorial.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.nightphoto",
+   "verdict": "supported",
+   "evidence": "\"Jaguatirica/ocelot ( Leopardus pardalis ) fotografado à noite\" (verbatim; Portuguese \"photographed at night\")",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.agile",
+   "verdict": "supported",
+   "evidence": "\"The ocelot is efficient at climbing, leaping and swimming.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.name",
+   "verdict": "supported",
+   "evidence": "\"The name \\\"ocelot\\\" comes from the Nahuatl word ōcēlōtl ..., which generally refers to the jaguar, rather than the ocelot.\" (verbatim)",
+   "note": "The claim is flat, but the caption that uses it (f6) is correctly hedged.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/claim.latin",
+   "verdict": "supported",
+   "evidence": "\"Another possible origin for the name is the Latin ocellatus\" (verbatim)",
+   "note": "\"so the Nahuatl origin is not certain\" is a fair inference from \"another possible origin\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"Giles Laurent\", taken 8 August 2024, CC BY-SA 4.0; viewed image",
+   "note": "Alt matches the image. The credit and licence match. Commons asks for the attribution \"© Giles Laurent, gileslaurent.com, License CC BY-SA\"; consider adding \"gileslaurent.com\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/media.m3",
+   "verdict": "supported",
+   "evidence": "[Commons File:Ocelot.jpg] Author \"Tom Smylie\", Date 15 July 2003, source US Fish & Wildlife Service, PD; viewed image",
+   "note": "Alt matches the image: an ocelot lying on grey pebbles, tawny coat with black spots and bands. The credit and licence match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/media.m5",
+   "verdict": "supported",
+   "evidence": "[Commons File:Jaguatirica.jpg] Author \"Alex Satsukawa\", 9 May 2018, CC BY-SA 4.0; viewed image",
+   "note": "Alt matches the image: a flash-lit ocelot walking along a branch at night against dark foliage. The credit and licence match.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-a-coat-like-no-other/place",
+   "verdict": "supported",
+   "evidence": "knowledge.science.biology.animals",
+   "note": "An animal profile belongs under animals.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/title",
+   "verdict": "supported",
+   "evidence": "\"It was previously considered extinct.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f1",
+   "verdict": "supported",
+   "evidence": "\"Prior to the 1902 eruption, there were no historical records of activity on the volcano. It was previously considered extinct.\" / [Commons] \"Der Vulkan Santa María in Guatemala während des Ausbruchs im Jahr 1902.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f2",
+   "verdict": "imprecise",
+   "evidence": "Pinned timeline: \"By 20:00, the volcano produced a large eruption column\" (24 Oct); \"Large lithics ... at 01:00 of 25 October, signifying that the eruption had entered its Plinian stage\"; \"By 11:00, the eruption had reached its climax.\" The sextant sentence gives no time.",
+   "note": "The caption ties the 27 to 29 km sextant estimate to the column of \"the evening of 24 October\" (\"estimated its height\"). The pinned source gives no time for the estimate, and by its own timeline the Plinian stage began at 01:00 and peaked at 11:00 on 25 October. Oregon State's volcano site puts the ~28 km column at the largest Plinian phase on 25 October. The two facts are fused into one moment.",
+   "fix": "On the evening of 24 October, an ash column rose amid lightning. A ship's captain later put its height by sextant at 27 to 29 kilometres.",
+   "resolved": "Applied the checker's fix: On the evening of 24 October, an ash column rose amid lightning. A ship's captain later put its height by sextant at 27 to 29 kilometres."
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f3",
+   "verdict": "supported",
+   "evidence": "\"The initial Plinian eruption continued for 18 to 20 hours.\" / \"The main eruption ... lasted no more than 20 hours.\" / \"one of the largest eruptions of the 20th century\" / \"Explosions were heard in Costa Rica, some 850 km (530 mi) southeast\"",
+   "note": "Supported. The source equates the main eruption (lead, \"no more than 20 hours\") with the 18-to-20-hour Plinian phase. Its narrative runs from late afternoon on the 24th to \"before the morning of 26 October\", and some sources give a 36-hour total, but the caption follows the pinned figures.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f4",
+   "verdict": "supported",
+   "evidence": "\"a new, oval-shaped crater formed. In a late November survey, crater had an east-west axis of 1 km\" / [Commons] \"The crater of Santa Maria\"; viewed image",
+   "note": "The 1903 photo shows a large white steam plume rising inside the crater. \"about a kilometre long\" fits the 1 km east-west axis.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/f5",
+   "verdict": "imprecise",
+   "evidence": "\"the 26 October issue of Diario de Centro América heavily focused on the fair instead. No issues were published on 27 and 28 October due to the festival, and the first report about the eruption was published on 3 November.\"",
+   "note": "In the source, \"the first report\" means the first report in Diario de Centro America. The caption makes it the first report anywhere. The same source says citizens were told the eruption was in Mexico, so word was already going round.",
+   "fix": "The president played it down, with a propaganda fair about to open. The official paper's first report appeared on 3 November.",
+   "resolved": "Applied the checker's fix: The president played it down, with a propaganda fair about to open. The official paper's first report appeared on 3 November."
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/prediction",
+   "verdict": "supported",
+   "evidence": "\"The main eruption began on 24 October 1902 and lasted no more than 20 hours.\" / \"The initial Plinian eruption continued for 18 to 20 hours.\"",
+   "note": "Key right. 20 minutes is clearly wrong. 20 days is clearly wrong for the main eruption, though light steam explosions went on until 1903.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/takeaway",
+   "verdict": "supported",
+   "evidence": "\"Prior to its catastrophic eruption, Santa María had no record of an eruption.\" / \"one of the largest eruptions of the 20th century\" / \"lasted no more than 20 hours\"",
+   "note": "\"some 20 hours\" is hedged. Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.photo",
+   "verdict": "supported",
+   "evidence": "\"Der Vulkan Santa María in Guatemala während des Ausbruchs im Jahr 1902.\" (verbatim; German \"The volcano Santa María in Guatemala during the eruption in 1902\")",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.norecord",
+   "verdict": "supported",
+   "evidence": "\"Prior to the 1902 eruption, there were no historical records of activity on the volcano.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.extinct",
+   "verdict": "supported",
+   "evidence": "\"It was previously considered extinct.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.began",
+   "verdict": "supported",
+   "evidence": "\"The main eruption began on 24 October 1902 and lasted no more than 20 hours.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.column",
+   "verdict": "supported",
+   "evidence": "\"By 20:00, the volcano produced a large eruption column accompanied by lightning flashes.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.ash",
+   "verdict": "imprecise",
+   "evidence": "\"At 18:15, ash particles were reported in Finca Helvetia, about 14 km (8.7 mi) west of the volcano.\" (verbatim)",
+   "note": "The claim drops the source's \"about\" (\"about 14 km\"). It also turns \"ash particles were reported\" into \"ash was already falling\", which is fair.",
+   "fix": "Ash was already falling about 14 km from the volcano that evening",
+   "resolved": "Applied the checker's fix: Ash was already falling about 14 km from the volcano that evening"
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.sextant",
+   "verdict": "supported",
+   "evidence": "\"The captain of the S.S. Newport used her sextant to estimate the height of the eruption column at 27–29 km (17–18 mi).\" (verbatim)",
+   "note": "The claim is fine. The timing problem is in caption f2.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.hours",
+   "verdict": "supported",
+   "evidence": "\"The initial Plinian eruption continued for 18 to 20 hours.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.largest",
+   "verdict": "supported",
+   "evidence": "\"one of the largest eruptions of the 20th century, measuring a six on the volcanic explosivity index.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.heard",
+   "verdict": "supported",
+   "evidence": "\"Explosions were heard in Costa Rica, some 850 km (530 mi) southeast of the volcano\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.crater",
+   "verdict": "supported",
+   "evidence": "\"Although there was no caldera, a new, oval-shaped crater formed.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.cratersize",
+   "verdict": "supported",
+   "evidence": "\"In a late November survey, crater had an east-west axis of 1 km (0.62 mi)\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.cratershot",
+   "verdict": "supported",
+   "evidence": "\"The crater of Santa Maria, in the background the ash landscape furrowed by scours\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.downplay",
+   "verdict": "supported",
+   "evidence": "\"President Manuel Estrada Cabrera attempted to downplay the impact of the eruption.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.fair",
+   "verdict": "supported",
+   "evidence": "\"As the eruption occurred just before Fiestas Minervalias, a propaganda fair, commenced, the 26 October issue of Diario de Centro América heavily focused on the fair instead.\" (verbatim)",
+   "note": "\"the 26 October newspaper\" should name Diario de Centro America, but it is not wrong.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/claim.report",
+   "verdict": "imprecise",
+   "evidence": "\"No issues were published on 27 and 28 October due to the festival, and the first report about the eruption was published on 3 November.\" (verbatim)",
+   "note": "The quote is verbatim, but its \"first report\" is about Diario de Centro America (the subject of the preceding sentence). The claim generalises it to the first report anywhere.",
+   "fix": "Diario de Centro America's first report about the eruption was published on 3 November",
+   "resolved": "Applied the checker's fix: Diario de Centro America's first report about the eruption was published on 3 November"
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons] Author \"Unknown author\", Source \"Weltrundschau zu Reclams Universum 1902\", PD; viewed image",
+   "note": "Alt matches the image: a dark eruption cloud billowing (white above) behind a low ridge, with a small pointed cone to the left. The credit names the source publication, since the photographer is unknown. The licence matches.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/media.m3",
+   "verdict": "imprecise",
+   "evidence": "[Commons] Author: \"Aufnahme von Winterton\"; Date \"1903 (photo)\"; PD; viewed image",
+   "note": "The alt is accurate (viewed: a steep crater with a white steam plume, bare gullied slopes and mountains beyond, with a German caption printed below) and the licence matches. The credit copies the German phrase \"Aufnahme von\" (\"photograph by\") instead of giving a name.",
+   "fix": "credit: \"Winterton, 1903\"",
+   "resolved": "Applied the checker's fix: credit: \"Winterton, 1903\""
+  },
+  {
+   "id": "2026-10-24-the-volcano-thought-extinct/place",
+   "verdict": "supported",
+   "evidence": "knowledge.earth.geology",
+   "note": "A volcanic eruption belongs under geology.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/title",
+   "verdict": "supported",
+   "evidence": "\"if a white father is paired with a green mother ... the progeny ... will thus be green\" / \"the chloroplasts come exclusively from the mother in most angiosperms\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f1",
+   "verdict": "supported",
+   "evidence": "\"was a German botanist and geneticist notable primarily for his independent discovery of the principles of heredity\" / \"He rediscovered and independently verified the work of Mendel\" / \"Correns published his first paper on 25 January 1900\"",
+   "note": "Supported. His Mendel paper appeared in Berichte der Deutschen Botanischen Gesellschaft vol. 18 (1900), registered 24 April 1900, so \"publishing in 1900\" holds whichever 1900 paper is meant.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f2",
+   "verdict": "supported",
+   "evidence": "\"he undertook experiments with the four o'clock plant Mirabilis jalapa to investigate apparent counterexamples to Mendel's laws in the heredity of variegated (green and white mottled) leaf color\"",
+   "note": "\"After rediscovering Mendel's laws ...\" supports \"Then\". Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f3",
+   "verdict": "supported",
+   "evidence": "\"if green pollen fertilized a white stigma, the progeny were white\"",
+   "note": "Supported. It also matches the standard account of Correns's Mirabilis albomaculata crosses.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f4",
+   "verdict": "supported",
+   "evidence": "\"if the sexes of the donors were reversed (white pollen on a green stigma), the progeny were green.\" / \"leaf color depended greatly on which parent had which trait.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f5",
+   "verdict": "supported",
+   "evidence": "\"while Mendelian traits behave independently of the sex of the source parent\" / \"since the chloroplasts come exclusively from the mother in most angiosperms\"",
+   "note": "Supported. \"here\" applies the \"most angiosperms\" rule to Mirabilis, which is correct. The caption wisely skips the source's garbled iojap paragraph (iojap is a maize gene, not Correns's Mirabilis mechanism).",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/f6",
+   "verdict": "supported",
+   "evidence": "\"In his 1909 paper, he established variegated leaf color as the first conclusive example of cytoplasmic inheritance.\" / \"demonstrated the existence of extrachromosomal factors on phenotype\"",
+   "note": "\"outside the chromosomes\" means extrachromosomal, i.e. cytoplasmic. Supported.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/prediction",
+   "verdict": "supported",
+   "evidence": "\"if green pollen fertilized a white stigma, the progeny were white, but if the sexes of the donors were reversed ..., the progeny were green.\"",
+   "note": "Key right (reciprocal crosses). Neither seed records nor microscopy appears in the source, and neither is how he showed it. Both wrong choices are clearly wrong.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/takeaway",
+   "verdict": "supported",
+   "evidence": "reciprocal-cross quote + \"leaf color depended greatly on which parent had which trait\"",
+   "note": "\"can come from the mother alone\" is properly hedged.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.botanist",
+   "verdict": "supported",
+   "evidence": "\"was a German botanist and geneticist notable primarily for his independent discovery of the principles of heredity, which he achieved simultaneously but independently of the botanist Hugo de Vries\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.rediscovered",
+   "verdict": "supported",
+   "evidence": "\"He rediscovered and independently verified the work of Mendel in a separate model organism.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.paper",
+   "verdict": "imprecise",
+   "evidence": "\"Correns published his first paper on 25 January 1900, which cited both Charles Darwin and Mendel\" (verbatim); same source: \"In 1892, while at the University of Tübingen, Correns began to experiment\"",
+   "note": "The quote is verbatim, but \"his first paper\" cannot mean his first publication. Correns had been an academic botanist at Tübingen since the early 1890s. His paper on Mendel's law (\"G. Mendel's Regel ...\", Ber. Dtsch. Bot. Ges. 18: 158–167) was registered on 24 April 1900. The source's \"first paper\" must mean his first paper in this line of work, and the claim repeats the ambiguity as fact.",
+   "fix": "He published his first paper on heredity in 1900",
+   "resolved": "Applied the checker's fix: He published his first paper on heredity in 1900"
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.puzzle",
+   "verdict": "supported",
+   "evidence": "\"he undertook experiments with the four o'clock plant Mirabilis jalapa to investigate apparent counterexamples to Mendel's laws ...\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.reciprocal",
+   "verdict": "supported",
+   "evidence": "\"However, if green pollen fertilized a white stigma, the progeny were white, but if the sexes of the donors were reversed (white pollen on a green stigma), the progeny were green.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.sex",
+   "verdict": "supported",
+   "evidence": "\"Correns found that, while Mendelian traits behave independently of the sex of the source parent, leaf color depended greatly on which parent had which trait.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.green",
+   "verdict": "supported",
+   "evidence": "\"Conversely, if a white father is paired with a green mother with functional chloroplasts, the progeny will only inherit functional chloroplasts, and will thus be green.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.chloro",
+   "verdict": "supported",
+   "evidence": "\"since the chloroplasts come exclusively from the mother in most angiosperms\" (verbatim)",
+   "note": "Keeps \"most\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.first",
+   "verdict": "supported",
+   "evidence": "\"In his 1909 paper, he established variegated leaf color as the first conclusive example of cytoplasmic inheritance.\" (verbatim)",
+   "note": "Erwin Baur's 1909 Pelargonium paper is usually co-credited, but the claim stands on its source.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/claim.extra",
+   "verdict": "supported",
+   "evidence": "\"He also discovered cytoplasmic inheritance, an important extension of Mendel's theories, which demonstrated the existence of extrachromosomal factors on phenotype.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/media.m2",
+   "verdict": "supported",
+   "evidence": "[Commons File:Carl_Correns.jpg] \"Carl Correns, 1864-1933\"; first publication date unknown; \"Photo Verlag Scherl, Berlin\" (via Stubbe 1965); PD; viewed image",
+   "note": "The alt is accurate. Commons names the photo agency (Verlag Scherl, Berlin), so the credit could read \"Verlag Scherl, Berlin\". Caution: frames 2 to 4 (four o'clock crosses) run over this photo, but the plant he is bagging is a tall prickly stem, not a four o'clock. The alt does not claim otherwise, but the pairing may suggest it.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/media.m1",
+   "verdict": "supported",
+   "evidence": "[Commons File:Carl_Correns_1910s.jpg] Date \"1910s\", Author \"Unknown (Mondadori Publishers)\", PD; viewed image",
+   "note": "Alt matches the image (round wire glasses, full beard, dark jacket). The credit matches; it could add \"1910s\".",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-leaves-that-follow-the-mother/place",
+   "verdict": "imprecise",
+   "evidence": "knowledge.science.biology.genetics-genomes.dominance (src/places/generated/genetics-dominance.ts)",
+   "note": "The story is about maternal (cytoplasmic, extrachromosomal) inheritance, not dominance; the reel never mentions dominant or recessive. The Dominance place does feature Correns and four o'clocks, but for a different phenomenon (incomplete dominance of flower colour), so a viewer following the tag lands on the wrong idea.",
+   "fix": "Tag knowledge.science.biology.genetics-genomes (the parent node)",
+   "resolved": "Re-tagged to knowledge.science.biology.genetics-genomes (draft place override); the end card now opens Genetics & Genomes."
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/title",
+   "verdict": "supported",
+   "evidence": "\"it is incorrect to say that since the heritability of personality traits is about 0.6, that means that 60% of your personality is inherited\"",
+   "note": "The \"mistake\" is reading 0.6 as 60% of a person. Supported whatever the exact figure.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f1",
+   "verdict": "supported",
+   "evidence": "[Commons] \"A short and a tall boy each holding a stalk of corn—one stalk of a race of short corn, the other of tall corn.\"; viewed image",
+   "note": "\"Height varies in people and in corn\" is a plain inference from the image.",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f2",
+   "verdict": "imprecise",
+   "evidence": "[Wikipedia: Heritability] \"For example, it is incorrect to say that since the heritability of personality traits is about 0.6 ...\" vs Vukasović & Bratko 2015, Psychological Bulletin (PubMed 25961374): pooled heritability of personality 0.40 (twin studies 0.47)",
+   "note": "The pinned source gives 0.6 only as the premise of an example of a wrong inference. The caption states it as fact. The largest meta-analysis puts personality heritability at about 0.40 (0.47 in twin studies), so \"about 0.6\" is the top of the range, not the typical estimate.",
+   "fix": "Heritability is a statistic about such variation. For personality it has been put as high as 0.6, which is easy to misread as 60 percent of you.",
+   "resolved": "Applied the checker's fix: Heritability is a statistic about such variation. For personality it has been put as high as 0.6, which is easy to misread as 60 percent of you."
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f3",
+   "verdict": "supported",
+   "evidence": "\"Heritability measures the fraction of phenotype variability that can be attributed to genetic variation.\" / \"variation in a phenotypic trait in a population that is due to genetic variation between individuals in that population\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f4",
+   "verdict": "supported",
+   "evidence": "\"This is not the same as saying that this fraction of an individual phenotype is caused by genetics.\" / \"should not be interpreted as a measure of the extent to which said trait is genetically determined in an individual.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/f5",
+   "verdict": "supported",
+   "evidence": "\"Heritability is specific to a particular population in a particular environment.\" / \"heritability can change without any genetic change occurring, such as when the environment starts contributing to more variation.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/prediction",
+   "verdict": "imprecise",
+   "evidence": "\"Since heritability is concerned with variance, it is necessarily an account of the differences between individuals in a population.\" vs Vukasović & Bratko 2015 (0.40 pooled)",
+   "note": "The key is right and both wrong choices are clearly wrong. But the prompt states \"Personality traits have a heritability of about 0.6\" as fact, while the source uses 0.6 only in an example and a large meta-analysis finds about 0.40.",
+   "fix": "Prompt: \"Suppose personality traits have a heritability of about 0.6. Which reading of that number is right?\"",
+   "resolved": "Applied the checker's fix: Prompt: \"Suppose personality traits have a heritability of about 0.6. Which reading of that number is right?\""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/takeaway",
+   "verdict": "supported",
+   "evidence": "\"it is necessarily an account of the differences between individuals in a population\" / \"This is not the same as saying that this fraction of an individual phenotype is caused by genetics.\"",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.photo",
+   "verdict": "supported",
+   "evidence": "\"A short and a tall boy each holding a stalk of corn—one stalk of a race of short corn, the other of tall corn.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.population",
+   "verdict": "supported",
+   "evidence": "\"Heritability is a statistic ... that estimates the degree of variation in a phenotypic trait in a population that is due to genetic variation between individuals in that population.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.confusion",
+   "verdict": "supported",
+   "evidence": "\"It is the source of much confusion because its technical definition is different from its commonly-understood folk definition.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.personality",
+   "verdict": "imprecise",
+   "evidence": "\"For example, it is incorrect to say that since the heritability of personality traits is about 0.6, that means that 60% of your personality is inherited from your parents and 40% comes from the environment.\" (verbatim)",
+   "note": "The quote is verbatim and supports the second half. But the claim turns the example's premise (\"about 0.6\") into a flat fact. Meta-analysis (Vukasović & Bratko 2015) gives about 0.40.",
+   "fix": "Even if the heritability of personality is about 0.6, it is incorrect to read that as 60% of your personality being inherited",
+   "resolved": "Applied the checker's fix: Even if the heritability of personality is about 0.6, it is incorrect to read that as 60% of your personality being inherited"
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.measures",
+   "verdict": "supported",
+   "evidence": "\"Heritability measures the fraction of phenotype variability that can be attributed to genetic variation.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.individual",
+   "verdict": "supported",
+   "evidence": "\"This is not the same as saying that this fraction of an individual phenotype is caused by genetics.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.notindividual",
+   "verdict": "supported",
+   "evidence": "\"The heritability of a trait should not be interpreted as a measure of the extent to which said trait is genetically determined in an individual.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.specific",
+   "verdict": "supported",
+   "evidence": "\"Heritability is specific to a particular population in a particular environment.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/claim.shift",
+   "verdict": "supported",
+   "evidence": "\"heritability can change without any genetic change occurring, such as when the environment starts contributing to more variation.\" (verbatim)",
+   "note": "",
+   "fix": ""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/media.m1",
+   "verdict": "imprecise",
+   "evidence": "[Commons] \"Fig. 76. ... (After Blakeslee.)\"; Author field \"Thomas Hunt Morgan\"; Date 1916; PD; viewed image",
+   "note": "The alt is accurate (viewed: two young men by a pole numbered 1 to 9; the shorter beside a short \"Tom Thumb Pop Corn\" plant, the taller holding a \"Leaming Corn\" stalk taller than himself). But the figure's own caption says \"(After Blakeslee.)\": the photograph is A. F. Blakeslee's, reproduced in Morgan's 1916 book, so crediting it to Morgan misattributes it.",
+   "fix": "credit: \"After A. F. Blakeslee, in Thomas Hunt Morgan, A Critique of the Theory of Evolution, 1916\"",
+   "resolved": "Applied the checker's fix: credit: \"After A. F. Blakeslee, in Thomas Hunt Morgan, A Critique of the Theory of Evolution, 1916\""
+  },
+  {
+   "id": "2026-10-24-the-sixty-percent-mistake/place",
+   "verdict": "supported",
+   "evidence": "knowledge.science.biology.evolution.variation-heredity",
+   "note": "Heritability is about variation and heredity.",
+   "fix": ""
+  }
+ ]
+}

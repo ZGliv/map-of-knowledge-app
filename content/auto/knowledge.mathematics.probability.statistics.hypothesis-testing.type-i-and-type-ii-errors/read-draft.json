@@ -1,0 +1,63 @@
+{
+ "paragraphs": [
+  {
+   "heading": "What they are",
+   "text": "Every hypothesis test can go wrong in two ways. A type I error, or false positive, rejects a null hypothesis that is actually true. A type II error, or false negative, fails to reject a null hypothesis that is actually false. Here a positive result means rejecting the null hypothesis, a negative result means not rejecting it, and false means the conclusion drawn is wrong.",
+   "cites": [
+    1,
+    2,
+    32
+   ]
+  },
+  {
+   "heading": "The courtroom picture",
+   "text": "A hypothesis test works much like a trial. The null hypothesis plays the defendant: it is presumed true until the data give convincing evidence against it, just as a defendant is presumed innocent until proven guilty. The alternative hypothesis plays the case against the defendant. In this picture, a type I error is convicting an innocent person, and a type II error is letting a criminal go free.",
+   "cites": [
+    12,
+    13,
+    14,
+    25,
+    28
+   ]
+  },
+  {
+   "heading": "A medical example",
+   "text": "Take the null hypothesis that a patient does not have a disease. Diagnosing the disease when it is absent is a type I error, and saying the patient is healthy when the disease is present is a type II error. Knowing about these two errors is put to wide use in medical science, biometrics and computer science.",
+   "cites": [
+    5,
+    8
+   ]
+  },
+  {
+   "heading": "Putting numbers on the risk",
+   "text": "The type I error rate is the chance that a test rejects the null hypothesis when that hypothesis is true. Tests are designed to keep that rate under a bound set in advance, the significance level, written with the Greek letter α. It is usually set at 0.05, meaning a 5% chance of wrongly rejecting a true null hypothesis is accepted. The type II error rate is written β, and the power of the test equals 1−β.",
+   "cites": [
+    38,
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "heading": "A trade-off you cannot escape",
+   "text": "Statistical methods deal in probabilities, so we can never know for sure that a conclusion is right, and every test carries some chance of both errors. For a given sample set, pushing one error rate down generally pushes the other up. The risk can only be traded between the two, for example by moving the significance threshold. A stricter alpha, such as 0.01 instead of 0.05, is a simple and efficient way to cut type I errors.",
+   "cites": [
+    7,
+    35,
+    37,
+    42,
+    44,
+    45
+   ]
+  },
+  {
+   "heading": "Where the two rates meet",
+   "text": "The point where the type I and type II error rates are equal is called the crossover error rate, or CER. A system with a lower CER is more accurate than one with a higher CER. All else being equal, setting the two rates equal at the CER gives the lowest overall error rate.",
+   "cites": [
+    29,
+    30,
+    31
+   ]
+  }
+ ]
+}

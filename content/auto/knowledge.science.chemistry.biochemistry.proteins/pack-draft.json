@@ -1,0 +1,100 @@
+{
+ "title": "Chains that fold into jobs",
+ "question": "How does a simple chain of amino acids end up doing a job inside a cell?",
+ "hook": "Every muscle fibre, enzyme and shield in your body started out as a string of the same few building blocks.",
+ "idea": "A protein is a chain of amino acids whose sequence, set by a gene, folds it into a shape that fits its job, and the cell later breaks it down and recycles it.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A mammalian cell makes a new protein. About how long will it last, on average, before the cell breaks it down and recycles it?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Only a few seconds",
+     "feedback": "Some proteins do last only minutes, but the average is far longer than seconds."
+    },
+    {
+     "id": "b",
+     "label": "About one to two days"
+    },
+    {
+     "id": "c",
+     "label": "Many decades, as long as the cell lives",
+     "feedback": "Proteins are not kept forever; the cell degrades and recycles them."
+    }
+   ],
+   "answer": "b",
+   "explain": "Proteins exist for a certain period and are then degraded and recycled, with an average lifespan of 1–2 days in mammalian cells.",
+   "cites": [
+    13,
+    15
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps in the history of protein research in order.",
+   "items": [
+    "Gluten is first separated from wheat",
+    "Fourcroy recognizes three varieties of animal protein",
+    "Mulder describes proteins and Berzelius names them",
+    "Hofmeister and Fischer show proteins are chains of amino acids"
+   ],
+   "ends": [
+    "earliest",
+    "latest"
+   ],
+   "explain": "Gluten was separated around 1747, Fourcroy sorted animal proteins in 1789, proteins were described and named in 1838, and the chain idea came in 1902.",
+   "cites": [
+    25,
+    26,
+    28,
+    43
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each protein to its job in the cell.",
+   "pairs": [
+    [
+     "Actin and myosin",
+     "Give muscle its mechanical function"
+    ],
+    [
+     "Scaffolding proteins",
+     "Maintain the cell shape"
+    ],
+    [
+     "Ubiquitin ligases",
+     "Mark a protein for destruction"
+    ],
+    [
+     "The proteasome",
+     "Degrades misfolded proteins"
+    ]
+   ],
+   "explain": "Proteins build structure and also run the cell machinery that marks and removes other proteins.",
+   "cites": [
+    16,
+    17,
+    20
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A linear chain of amino acid residues is called a polypeptide.",
+    "A protein contains at least one long polypeptide.",
+    "So every polypeptide, however short, counts as a protein.",
+    "That means a chain of 10 residues should be called a protein."
+   ],
+   "wrong": 2,
+   "explain": "Short polypeptides with fewer than 20–30 residues are rarely considered proteins and are commonly called peptides.",
+   "cites": [
+    4,
+    5,
+    6
+   ]
+  }
+ ]
+}

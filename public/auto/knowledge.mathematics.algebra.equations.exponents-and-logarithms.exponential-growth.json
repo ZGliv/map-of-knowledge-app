@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth",
+ "name": "Exponential growth",
+ "summary": [
+  {
+   "text": "Exponential growth happens when a quantity grows at a rate directly proportional to its present size, so the quantity is an exponential function of time.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "When a quantity is 3 times as big as it is now, it grows 3 times as fast, as in bacteria that split into two, then four, then eight, and so on.",
+   "cites": [
+    3,
+    18
+   ]
+  },
+  {
+   "text": "Virus spread and the growth of debt from compound interest behave this way, but in real cases the growth usually slows eventually because of upper limits.",
+   "cites": [
+    20,
+    21
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Core rule",
+   "value": "Growth rate is proportional to the present size",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Negative case",
+   "value": "A negative constant of proportionality gives exponential decay",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Bacteria example",
+   "value": "One bacterium becomes two, four, eight, 16, 32",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Real-world limit",
+   "value": "Upper limits slow the growth into logistic growth",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Algorithm cost",
+   "value": "Resources needed grow exponentially for each constant step in problem size",
+   "cites": [
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A bacterial colony adds more new cells in each hour than it added in the hour before. What explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The bacteria grow faster because the room warms up"
+    },
+    {
+     "id": "b",
+     "label": "The amount added is proportional to the number of bacteria already there"
+    },
+    {
+     "id": "c",
+     "label": "Each bacterium adds the same fixed number of cells every hour"
+    },
+    {
+     "id": "d",
+     "label": "Older bacteria split more often than younger ones"
+    }
+   ],
+   "answer": "b",
+   "explain": "The amount of increase keeps increasing because it is proportional to the ever-increasing number of bacteria.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth:q1"
+  },
+  {
+   "prompt": "A quantity whose growth rate is always tied to its size has become 10 times bigger than it was at the start. How does its growth speed now compare with the start?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The same as at the start"
+    },
+    {
+     "id": "b",
+     "label": "Twice as fast"
+    },
+    {
+     "id": "c",
+     "label": "About 10 times slower"
+    },
+    {
+     "id": "d",
+     "label": "10 times as fast"
+    }
+   ],
+   "answer": "d",
+   "explain": "When an exponentially growing quantity is 10 times as big as it is now, it grows 10 times as fast.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth:q2"
+  },
+  {
+   "prompt": "A culture of microorganisms has been multiplying rapidly, but its essential nutrient is nearly used up. What happens to the growth?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It slows down because of the limit"
+    },
+    {
+     "id": "b",
+     "label": "It speeds up because there is less competition"
+    },
+    {
+     "id": "c",
+     "label": "It keeps going at the same rate forever"
+    },
+    {
+     "id": "d",
+     "label": "It reverses at once and the cells vanish"
+    }
+   ],
+   "answer": "a",
+   "explain": "Initial exponential growth often slows eventually because of upper limits, and a culture grows exponentially only until an essential nutrient is exhausted.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth:q3"
+  },
+  {
+   "prompt": "A loan adds interest onto the debt, and the next round of interest is charged on the larger total. Which pattern does the debt follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows by the same fixed amount each period"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same size as interest is paid"
+    },
+    {
+     "id": "c",
+     "label": "It grows faster as the debt itself gets larger"
+    },
+    {
+     "id": "d",
+     "label": "It shrinks a little each period"
+    }
+   ],
+   "answer": "c",
+   "explain": "Debt growth from compound interest is an example of exponential growth, where the rate depends on the present size.",
+   "cites": [
+    20,
+    39
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth:q4"
+  },
+  {
+   "prompt": "A quantity always changes at a rate tied to its own size, but the constant that links them is negative. What happens over time?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It grows faster and faster"
+    },
+    {
+     "id": "b",
+     "label": "It decreases over time"
+    },
+    {
+     "id": "c",
+     "label": "It stays exactly constant"
+    },
+    {
+     "id": "d",
+     "label": "It grows only until it hits a limit"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the constant of proportionality is negative, the quantity decreases over time and is said to undergo exponential decay.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth:q5"
+  },
+  {
+   "prompt": "A program's time and memory needs balloon every time you add just one more item to the problem. Which kind of algorithm is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One that gets faster as problems get larger"
+    },
+    {
+     "id": "b",
+     "label": "One whose cost rises by the same amount per item"
+    },
+    {
+     "id": "c",
+     "label": "One of exponential complexity"
+    },
+    {
+     "id": "d",
+     "label": "One limited only by how fast the processor is"
+    }
+   ],
+   "answer": "c",
+   "explain": "Algorithms of exponential complexity require an exponentially increasing amount of resources, such as time or memory, for only a constant increase in problem size.",
+   "cites": [
+    45
+   ],
+   "id": "knowledge.mathematics.algebra.equations.exponents-and-logarithms.exponential-growth:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Exponential.svg/960px-Exponential.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Exponential growth",
+  "credit": "Exponential.png: Lunkwill / derivative work: McSush",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Exponential.svg"
+ },
+ "source": {
+  "title": "Exponential growth",
+  "url": "https://en.wikipedia.org/wiki/Exponential_growth",
+  "revision": 1377209831
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it means",
+    "text": "In exponential growth, the size of a quantity is an exponential function of time. Its rate of growth is directly proportional to how big it is right now. So when it becomes three times its present size, it will be growing three times as fast as it is now.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Time in the exponent",
+    "text": "Put more technically, the derivative of the quantity, its instantaneous rate of change, is proportional to the quantity itself, and the variable is often time. Time sits in the exponent, which sets this apart from other kinds of growth such as quadratic or cubic growth. If the constant of proportionality is negative, the quantity shrinks over time instead, which is called exponential decay. When time moves in equal steps, the same pattern is called geometric growth or geometric decay, because the values form a geometric progression.",
+    "cites": [
+     4,
+     5,
+     6,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Not the same as fast",
+    "text": "People sometimes wrongly take \"exponential\" to mean \"rapid\", but exponential growth can actually be slow at first. Nor is every growth that keeps speeding up exponential. Take f(x) = x³: its growth keeps speeding up, yet it is much slower than exponential growth. When x is 1 its growth rate is three times its size, but by x = 10 the rate has dropped to 30% of its size. An exponential that grows at three times its present size always grows at that same ratio. Some functions, such as the factorial, grow even faster than exponentially.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Bacteria doubling",
+    "text": "A colony of bacteria is the usual illustration. One bacterium splits into two, each of those splits to make four, then eight, 16, 32 and onward. The size of each jump keeps getting bigger, because it is proportional to the number of bacteria, which keeps rising. In a real culture this goes on until an essential nutrient runs out.",
+    "cites": [
+     17,
+     18,
+     19,
+     22
+    ]
+   },
+   {
+    "heading": "Where it shows up",
+    "text": "The same pattern appears in the spread of a virus, the growth of debt under compound interest, and the spread of viral videos. A virus such as smallpox typically spreads exponentially at first when no immunization is available. Each infected person can pass it on to several new people. In a nuclear chain reaction, each uranium nucleus that splits releases several neutrons, and these can be absorbed by nearby uranium atoms and make them split in turn. If absorption is more likely than escape, the reaction grows exponentially and runs out of control.",
+    "cites": [
+     20,
+     26,
+     27,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Growth that does not last",
+    "text": "In real cases, early exponential growth often does not go on forever. In those cases it eventually slows as outside limits take hold, and turns into logistic growth.",
+    "cites": [
+     21
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-6-7",
+   "kind": "book",
+   "title": "6.7 Exponential and Logarithmic Models",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/6-7-exponential-and-logarithmic-models",
+   "note": "A free textbook section on growth and decay models, doubling time and logistic growth, with real examples.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-growth",
+   "kind": "article",
+   "title": "Exponential Growth",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/ExponentialGrowth.html",
+   "note": "A short reference deriving exponential growth from dN/dt = λN, with decay as the negative case."
+  },
+  {
+   "id": "3b1b-exp-growth-epidemics",
+   "kind": "video",
+   "title": "Exponential growth and epidemics",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=Kas0tIxDvrg",
+   "note": "A visual explainer of exponential growth, using the spread of an epidemic as the example."
+  }
+ ]
+}

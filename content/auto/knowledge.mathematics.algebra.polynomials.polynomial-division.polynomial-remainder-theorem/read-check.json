@@ -1,0 +1,30 @@
+{
+ "readHash": "e5a89869ce62f02e6f1fa588a39a0a8163e786ef",
+ "checker": "claude-agent",
+ "support": {
+  "r0": {
+   "supported": true,
+   "why": "Name, Bezout, application of Euclidean division [1]; f(x)=f(r)+(x-r)*poly of degree one less [2]."
+  },
+  "r1": {
+   "supported": true,
+   "why": "Remainder is f(r), x-r divides f iff f(r)=0, called factor theorem, all in [3]."
+  },
+  "r2": {
+   "supported": true,
+   "why": "Quotient x^2-9x-27 and remainder -123 [4]; theorem gives f(3)=-123 [5]."
+  },
+  "r3": {
+   "supported": true,
+   "why": "Formula matches Euclidean division [6], generalizes to any degree [7], also gives existence for this specific case [8]."
+  },
+  "r4": {
+   "supported": true,
+   "why": "Evaluate f(r) via remainder R [9], long division harder than evaluating, synthetic easier [10], cheaper evaluation [11]."
+  },
+  "r5": {
+   "supported": true,
+   "why": "Factor theorem as application, zero remainder means linear divisor is factor [12]; repeated use factorizes [13]."
+  }
+ }
+}

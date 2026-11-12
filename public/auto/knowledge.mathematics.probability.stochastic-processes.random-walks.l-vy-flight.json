@@ -1,0 +1,299 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight",
+ "name": "Lévy flight",
+ "summary": [
+  {
+   "text": "The term was coined after Paul Lévy by Benoît Mandelbrot.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Lévy flights are used to model data that shows clustering, and in studies of how animals such as ocean predators search for food.",
+   "cites": [
+    11,
+    15,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Step lengths",
+   "value": "Drawn from a heavy-tailed stable distribution",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Named by",
+   "value": "Benoît Mandelbrot, after Paul Lévy",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Shark study size",
+   "value": "Over 12 million movements from 55 tagged animals",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Uses",
+   "value": "Earthquake data, finance, cryptography, signal analysis, astronomy, biology, physics",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Scale property",
+   "value": "Exponential scaling of step lengths makes them scale invariant",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A traveler mostly takes short steps, but now and then makes one enormous leap. Which kind of step-length distribution fits that pattern?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A heavy-tailed one"
+    },
+    {
+     "id": "b",
+     "label": "A perfectly uniform one"
+    },
+    {
+     "id": "c",
+     "label": "A normal one"
+    },
+    {
+     "id": "d",
+     "label": "A fixed one"
+    }
+   ],
+   "answer": "a",
+   "explain": "A Lévy flight has step lengths from a heavy-tailed distribution, giving a mix of long trajectories and short movements.",
+   "cites": [
+    1,
+    15
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight:q1"
+  },
+  {
+   "prompt": "A shark hunting in open water cannot find food nearby. According to the study of ocean predators, what does it switch to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Swimming in a straight line forever"
+    },
+    {
+     "id": "b",
+     "label": "A Lévy flight of long and short moves"
+    },
+    {
+     "id": "c",
+     "label": "Swirling randomly like gas molecules"
+    },
+    {
+     "id": "d",
+     "label": "Staying where it is until prey arrives"
+    }
+   ],
+   "answer": "b",
+   "explain": "Sharks and other ocean predators abandon Brownian motion for the Lévy flight when they cannot find food.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight:q2"
+  },
+  {
+   "prompt": "Hungry ground beetles in a place with little food skip spots where other beetles of their kind have already searched. For what kind of prey does this behavior suit them best?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Prey that is spread widely and may not be eaten all at once"
+    },
+    {
+     "id": "b",
+     "label": "Prey that stays packed together in one pile"
+    },
+    {
+     "id": "c",
+     "label": "Prey that is eaten in full by the first hunter"
+    },
+    {
+     "id": "d",
+     "label": "Prey that moves in a straight line"
+    }
+   ],
+   "answer": "a",
+   "explain": "The behavior is optimal for widely dispersed prey, such as slugs, that may not always be fully consumed at one time.",
+   "cites": [
+    19,
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight:q3"
+  },
+  {
+   "prompt": "Mandelbrot gave a separate name to the case where step sizes follow a normal distribution, which is not heavy-tailed. What was it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A Cauchy flight"
+    },
+    {
+     "id": "b",
+     "label": "A Rayleigh flight"
+    },
+    {
+     "id": "c",
+     "label": "A Pareto flight"
+    },
+    {
+     "id": "d",
+     "label": "A Brownian flight"
+    }
+   ],
+   "answer": "b",
+   "explain": "Mandelbrot called it a Rayleigh flight; a Cauchy flight is the case where step sizes follow a Cauchy distribution.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight:q4"
+  },
+  {
+   "prompt": "Researchers studied movement data from tuna, marlin and swordfish. How did they describe the hunting patterns?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Purely random movement of one kind"
+    },
+    {
+     "id": "b",
+     "label": "Perfectly regular back-and-forth sweeps"
+    },
+    {
+     "id": "c",
+     "label": "A fixed route repeated each day"
+    },
+    {
+     "id": "d",
+     "label": "Lévy flights mixed in with Brownian motion"
+    }
+   ],
+   "answer": "d",
+   "explain": "The data showed that Lévy flights interspersed with Brownian motion can describe the animals' hunting patterns.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight:q5"
+  },
+  {
+   "prompt": "A mathematician models a walker hopping between points on a discrete grid instead of moving across smooth space. Can it still be called a Lévy flight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, only walks in continuous space qualify"
+    },
+    {
+     "id": "b",
+     "label": "No, grids only allow Brownian walks"
+    },
+    {
+     "id": "c",
+     "label": "Only if every step has the same length"
+    },
+    {
+     "id": "d",
+     "label": "Yes, later researchers extended the term to grids"
+    }
+   ],
+   "answer": "d",
+   "explain": "Later researchers extended the term Lévy flight to also include random walks on a discrete grid rather than a continuous space.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.random-walks.l-vy-flight:q6"
+  }
+ ],
+ "source": {
+  "title": "Lévy flight",
+  "url": "https://en.wikipedia.org/wiki/L%C3%A9vy_flight",
+  "revision": 1369113468
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a Lévy flight is",
+    "text": "A Lévy flight is a random walk whose step lengths follow a stable distribution, a kind of probability distribution that is heavy-tailed. When the walk happens in more than one dimension, each step heads off in a random direction, with no direction favoured over another. Later researchers stretched the name to also cover walks that hop around a discrete grid, not only ones that move through continuous space.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Where the name comes from",
+    "text": "Benoît Mandelbrot coined the term, naming it after Paul Lévy, and he used it for one particular rule for choosing step sizes. He gave other names to other rules. If the step sizes follow a Cauchy distribution, he called it a Cauchy flight. If they follow a normal distribution, he called it a Rayleigh flight, and a normal distribution is not heavy-tailed.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "How it behaves over many steps",
+    "text": "By the way they are built, Lévy flights are Markov processes. For a broad family of step-size rules that meet a power-like condition, the walker's distance from where it started settles, after very many steps, into a stable distribution. This follows from the generalized central limit theorem, and it is why so many processes can be modelled as Lévy flights. Because the step lengths scale exponentially, the pattern looks alike at every scale, so Lévy flights are used to model data that clusters.",
+    "cites": [
+     7,
+     8,
+     11
+    ]
+   },
+   {
+    "heading": "Where it gets used",
+    "text": "The idea grew out of the mathematics of chaos theory. It helps with stochastic measurement and with simulating natural events that are random or pseudo-random. Uses include analysing earthquake data, financial mathematics, cryptography and signal analysis, along with many problems in astronomy, biology and physics. Even the record of ancient climates fits: the way climate jumped from one state to another there can be described as a Lévy flight.",
+    "cites": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "Predators searching the ocean",
+    "text": "When sharks and other ocean predators fail to find food, they switch from Brownian motion, the random jiggle seen in swirling gas molecules, to a Lévy flight that mixes long runs with short, random moves. Researchers studied more than 12 million movements logged over 5,700 days by 55 tagged animals. These came from 14 predator species in the Atlantic and Pacific, among them silky sharks, yellowfin tuna, blue marlin and swordfish. Their hunting patterns could be described as Lévy flights mixed with stretches of Brownian motion.",
+    "cites": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "A hungry beetle",
+    "text": "The paths of birds and other animals, humans included, have been modelled as Lévy flights, for example while they search for food. One beetle, Pterostichus melanarius, follows such patterns. When these beetles are hungry and food is scarce, they stay away from spots that other beetles of their kind have already searched. That habit works best for prey that is spread out widely and may not be eaten all at once, such as slugs.",
+    "cites": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Particles and networks",
+    "text": "Lévy walks turn up in high-energy particle physics too. Observations point to Lévy processes in collisions between heavy ions at high energy. In a network, efficient routing can be done with links whose lengths follow a Lévy flight distribution with particular values of alpha.",
+    "cites": [
+     24,
+     25,
+     27
+    ]
+   }
+  ]
+ }
+}

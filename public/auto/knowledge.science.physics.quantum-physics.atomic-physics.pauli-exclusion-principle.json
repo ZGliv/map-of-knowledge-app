@@ -1,0 +1,348 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle",
+ "name": "Pauli exclusion principle",
+ "summary": [
+  {
+   "text": "The Pauli exclusion principle says that two or more identical particles with half-integer spin, called fermions, cannot occupy the same quantum state at once.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Wolfgang Pauli formulated it in 1925 for electrons, which is why two electrons in one orbital must have opposite spins.",
+   "cites": [
+    2,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "text": "It underpins the large-scale stability of matter and the chemical behavior of atoms, while bosons such as photons are free to share states.",
+   "cites": [
+    7,
+    8,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Formulated",
+   "value": "By Wolfgang Pauli in 1925, for electrons",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Extended in",
+   "value": "1940, to all fermions via the spin–statistics theorem",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Who obeys it",
+   "value": "Quarks, electrons, neutrinos, protons and neutrons",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Who is exempt",
+   "value": "Bosons, such as photons and Cooper pairs",
+   "cites": [
+    7,
+    22
+   ]
+  },
+  {
+   "label": "Why it works",
+   "value": "Fermion wave functions flip sign when two are swapped",
+   "cites": [
+    9,
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two electrons sit in the same orbital with identical n, ℓ and m_ℓ. What must be true of their spins?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They must be opposite"
+    },
+    {
+     "id": "b",
+     "label": "They must be identical"
+    },
+    {
+     "id": "c",
+     "label": "They must both be zero"
+    },
+    {
+     "id": "d",
+     "label": "Spin plays no role"
+    }
+   ],
+   "answer": "a",
+   "explain": "Two electrons cannot share all four quantum numbers, so with the other three equal, one must have spin +1/2 and the other −1/2.",
+   "cites": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle:q1"
+  },
+  {
+   "prompt": "A laser beam packs enormous numbers of photons into the same state. Why doesn't exclusion forbid it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lasers break the law of physics"
+    },
+    {
+     "id": "b",
+     "label": "Photons are too small to count"
+    },
+    {
+     "id": "c",
+     "label": "Lasers are not made of light"
+    },
+    {
+     "id": "d",
+     "label": "Photons are bosons, which may share a state"
+    }
+   ],
+   "answer": "d",
+   "explain": "Particles with integer spin are not subject to the exclusion principle, and any number of identical bosons can share a state, such as photons in a laser.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle:q2"
+  },
+  {
+   "prompt": "Helium-3 and helium-4 atoms differ in total spin. What follows?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are fermions"
+    },
+    {
+     "id": "b",
+     "label": "Helium-3 is a fermion and helium-4 a boson"
+    },
+    {
+     "id": "c",
+     "label": "Both are bosons"
+    },
+    {
+     "id": "d",
+     "label": "Helium-3 is a boson and helium-4 a fermion"
+    }
+   ],
+   "answer": "b",
+   "explain": "Helium-3 has spin 1/2 and is a fermion, whereas helium-4 has spin 0 and is a boson.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle:q3"
+  },
+  {
+   "prompt": "Why can two identical fermions not occupy one state, in terms of the wave function?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wave function would need to grow"
+    },
+    {
+     "id": "b",
+     "label": "They would repel with infinite force"
+    },
+    {
+     "id": "c",
+     "label": "Their electric charges would cancel out"
+    },
+    {
+     "id": "d",
+     "label": "A swap must flip the sign yet change nothing"
+    }
+   ],
+   "answer": "d",
+   "explain": "For fermions swapping two particles flips the sign of the wave function, but identical states would leave it unchanged; only a function that is zero everywhere does both, so such a state cannot exist.",
+   "cites": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle:q4"
+  },
+  {
+   "prompt": "Before Pauli, chemists noted that shells seemed to fill with certain numbers of electrons such as 2, 8 and 18. What did Pauli do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Showed the numbers were just random"
+    },
+    {
+     "id": "b",
+     "label": "Found a one-electron-per-state rule"
+    },
+    {
+     "id": "c",
+     "label": "Denied that shells existed at all"
+    },
+    {
+     "id": "d",
+     "label": "Traced the numbers to the nucleus"
+    }
+   ],
+   "answer": "b",
+   "explain": "He reduced the complicated closed-shell numbers to one electron per state by adding a two-valued quantum number, identified as electron spin.",
+   "cites": [
+    29,
+    30,
+    34,
+    35
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle:q5"
+  },
+  {
+   "prompt": "Which particles are fermions and so obey the exclusion principle?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Photons and W bosons"
+    },
+    {
+     "id": "b",
+     "label": "Cooper pairs and photons"
+    },
+    {
+     "id": "c",
+     "label": "Protons and neutrons"
+    },
+    {
+     "id": "d",
+     "label": "Z bosons and photons"
+    }
+   ],
+   "answer": "c",
+   "explain": "Baryons such as protons and neutrons are fermions, as are quarks, electrons and neutrinos, while photons and W and Z bosons are bosons.",
+   "cites": [
+    15,
+    16,
+    22
+   ],
+   "id": "knowledge.science.physics.quantum-physics.atomic-physics.pauli-exclusion-principle:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Wolfgang_Pauli_young.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Pauli exclusion principle",
+  "credit": "Wikimedia Commons",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Pauli_young.jpg"
+ },
+ "source": {
+  "title": "Pauli exclusion principle",
+  "url": "https://en.wikipedia.org/wiki/Pauli_exclusion_principle",
+  "revision": 1382973721
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "One state, one fermion",
+    "text": "The Pauli exclusion principle says that two or more identical particles with half-integer spin cannot be in the same quantum state at the same time. Such particles are called fermions. Half-integer spin means their built-in angular momentum is the reduced Planck constant ℏ times 1/2, 3/2, 5/2 and so on. Wolfgang Pauli stated the rule for electrons in 1925, and in 1940 his spin–statistics theorem extended it to all fermions.",
+    "cites": [
+     1,
+     2,
+     19
+    ]
+   },
+   {
+    "heading": "Electrons in an atom",
+    "text": "For electrons in an atom, the rule says no two of them can share the same values of all four quantum numbers: n, ℓ, m_ℓ and the spin quantum number mₛ. Two electrons in one orbital already share n, ℓ and m_ℓ, so their spins must differ. Spin can only be +1/2 or −1/2, so one electron takes each value.",
+    "cites": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Who must obey it",
+    "text": "Fermions include quarks, electrons and neutrinos, along with protons and neutrons, which are each made of three quarks. Whole atoms can be fermions too, depending on their overall spin: helium-3 has spin 1/2 and is a fermion, while helium-4 has spin 0 and is a boson. Bosons are particles with whole-number spin, and the rule does not bind them. Any number of identical bosons can share one state, as photons from a laser or atoms in a Bose–Einstein condensate do.",
+    "cites": [
+     7,
+     8,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Why it holds",
+    "text": "The deeper reason lies in what happens when two identical particles swap places. For fermions the total wave function flips sign, while for bosons it stays the same. Now picture two fermions in exactly the same state: swapping them changes nothing, yet the sign must still flip. The only function that can do both is one that is zero everywhere, so that state cannot exist.",
+    "cites": [
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Shells and the periodic table",
+    "text": "In the early 1900s it became clear that atoms and molecules with even numbers of electrons were more chemically stable. In 1919 Irving Langmuir suggested the periodic table could be explained if electrons were clustered in some way, and groups of them were thought to sit in shells around the nucleus. In 1922 Bohr took certain numbers of electrons, such as 2, 8 and 18, to form stable closed shells. Pauli set out to explain these numbers, which at first came only from experiment. A 1924 paper by Stoner gave him a clue, and he saw that the shell numbers reduce to one electron per state if each state is labeled with four quantum numbers.",
+    "cites": [
+     24,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "Spin and everyday matter",
+    "text": "For this, Pauli brought in a new quantum number with just two values, and Samuel Goudsmit and George Uhlenbeck identified it as electron spin. The exclusion principle underpins many properties of ordinary matter, from its stability on a large scale to the chemical behavior of atoms. Bosons, particles with whole-number spin that escape the rule, include the photon, the Cooper pairs responsible for superconductivity, and the W and Z bosons.",
+    "cites": [
+     7,
+     18,
+     22,
+     34,
+     35
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-30-9",
+   "kind": "book",
+   "title": "30.9 The Pauli Exclusion Principle",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/30-9-the-pauli-exclusion-principle",
+   "note": "A free textbook section on the exclusion principle and how it shapes atomic shells and the periodic table.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "iot-pauli",
+   "kind": "documentary",
+   "title": "Pauli's Exclusion Principle",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/b08kscgb",
+   "minutes": 48,
+   "note": "A radio discussion of Wolfgang Pauli's principle, its origins and its place in quantum mechanics."
+  }
+ ]
+}

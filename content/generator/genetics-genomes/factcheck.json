@@ -1,0 +1,1057 @@
+{
+  "checker": "independent adversarial subagent (Claude), fresh context, did not draft this pack; no network. Jarvis 2014, Hackett 2008, Fernández 2024 and Open Tree judged from general knowledge. Every RefSeq window was re-extracted from the cached GenBank text, and the pair counts, window homology and whole-gene p-distances were recomputed by script (Needleman-Wunsch, match +1 / mismatch -1 / gap -2). Units follow factcheck-input.md (97); C1-C3 are the three cases read from src/places/generated/genetics-genomes.ts.",
+  "independent": true,
+  "checkedAt": "2026-10-26T17:11:48Z",
+  "resolvedBy": "drafting side, fix stage (2026-10-26): every non-supported unit carries \"resolved\"; the checker’s verdicts, evidence and notes are unchanged. One unit the fix created, B8.kin.crow, is marked \"by\": fixer. Review fix 2026-10-26: the dolphin and panda cases (C2, C3) were removed and their verdicts moved to \"retired\"; their replacements (C.c_26qrc6c48n, C.c_qnqfkzddsy) carry the drafting side’s own check, marked \"independent\": false, so they read as unchecked. The independent reviewer’s check of C1 as fixed, and of B8.kin.crow, is recorded (C.c_ctjxpn8vek). Case verdicts now carry the case’s hash.",
+  "units": [
+    {
+      "id": "P1",
+      "verdict": "supported",
+      "evidence": "[W5.28] \"Falcons are not closely related to other birds of prey, being part of the class Australaves, and their nearest relatives are parrots and songbirds.\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P2",
+      "verdict": "supported",
+      "evidence": "[W5.8] [W5.13]",
+      "note": "Source says \"other larger birds of prey from the unrelated family Accipitridae\"; the claim drops \"larger\". Harmless.",
+      "fix": ""
+    },
+    {
+      "id": "P3",
+      "verdict": "supported",
+      "evidence": "[W6.1] [W6.2] \"They appear to be the sister group of Afroaves.\"",
+      "note": "Hedge kept.",
+      "fix": ""
+    },
+    {
+      "id": "P4",
+      "verdict": "supported",
+      "evidence": "[W23.9] [W23.11] (crows are oscines) [W23.7] [W23.2]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P5",
+      "verdict": "supported",
+      "evidence": "No cached text; general knowledge: Hackett et al. 2008 sequenced 19 nuclear loci (~32 kb) in 169 species and recovered Falconidae as sister to Psittaciformes + Passeriformes, far from Accipitridae.",
+      "note": "Judged from general knowledge only.",
+      "fix": ""
+    },
+    {
+      "id": "P6",
+      "verdict": "supported",
+      "evidence": "No cached text; general knowledge: Jarvis et al. 2014, 48 avian genomes including Falco peregrinus; falcons sister to Psittacopasserae.",
+      "note": "Judged from general knowledge. The 48 included budgerigar and kea, bald and white-tailed eagles, barn owl and turkey vulture, but not the scarlet macaw, golden eagle or tawny owl that beat 2 names; those are placed by group, which is fine.",
+      "fix": ""
+    },
+    {
+      "id": "P7",
+      "verdict": "imprecise",
+      "evidence": "otol-trees.json \"raptors\" ((((Corvus_corax,Ara_macao),(Falco_peregrinus,Falco_tinnunculus)),(Aquila_chrysaetos,Accipiter_nisus)),Gallus_gallus) and \"cat\" (((wolf,(lion,(wildcat,cat))),chicken),zebrafish) both match accepted phylogeny (judged from general knowledge; no network).",
+      "note": "Topologies are right, but no cat tree is drawn: the cat subtree only keys beat 7. The line also omits the \"birds\" subtree behind beat 2's owl/vulture feedback and the \"sunbird\" subtree behind beat 8.",
+      "fix": "Tree topologies for the seven birds drawn after the sim, and for the orders and answers keyed in beats 2, 7 and 8 (induced subtrees, unary nodes collapsed)",
+      "resolved": "Now the checker’s wording: “Tree topologies for the seven birds drawn after the sim, and for the orders and answers keyed in beats 2, 7 and 8 (induced subtrees, unary nodes collapsed)”. otol-trees.json “sunbird” was refetched 2026-10-26 with beat 8’s new key, the carrion crow (Corvus corone, OTT 711844): ((sunbird,crow),(hummingbird,swift))."
+    },
+    {
+      "id": "P8",
+      "verdict": "supported",
+      "evidence": "[W7.23] [W7.111] [W7.26]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P9",
+      "verdict": "supported",
+      "evidence": "[W2.4] [W2.5] [W2.16]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P10",
+      "verdict": "supported",
+      "evidence": "[W4.3] [W4.83] [W4.91] [W4.92]",
+      "note": "Correctly keeps the dideoxy method apart from ΦX174, which was read with the earlier plus-and-minus method [W4.81]-[W4.86].",
+      "fix": ""
+    },
+    {
+      "id": "P11",
+      "verdict": "supported",
+      "evidence": "[W3.43] [W3.44] [W3.47]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P12",
+      "verdict": "supported",
+      "evidence": "[W1.50] [W1.6]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P13",
+      "verdict": "supported",
+      "evidence": "[W8.2] [W8.5] [W8.7] [W8.8]",
+      "note": "The source gives January 2022 [W8.7] and April 2022 [W8.65]; \"2022\" holds either way.",
+      "fix": ""
+    },
+    {
+      "id": "P14",
+      "verdict": "supported",
+      "evidence": "[W10.8] \"a haploid genome size of 15.9 Gb, it has 4.9x as much DNA as does a human genome (3.2 Gb)\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P15",
+      "verdict": "imprecise",
+      "evidence": "[W9.30] \"In the simplest case, the difference between two haplotypes is assessed by counting...\" [W9.41] \"...assuming a constant rate of mutation, provide a molecular clock\"",
+      "note": "Both source qualifiers are dropped: counting positions is the simplest case only, and the clock holds only if the rate is constant.",
+      "fix": "Molecular phylogenetics compares DNA sequences; in the simplest case the difference between two sequences is the number of positions with different bases; sequences accumulate mutations over time, which, assuming a constant rate, can serve as a molecular clock",
+      "resolved": "Both qualifiers restored: “in the simplest case the difference between two sequences is the number of positions with different bases” [W9.30] and “which, assuming a constant rate, can serve as a molecular clock” [W9.41]."
+    },
+    {
+      "id": "P16",
+      "verdict": "supported",
+      "evidence": "[W16.4] [W16.5] [W16.35]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P17",
+      "verdict": "supported",
+      "evidence": "[W11.1] [W11.2] [W11.12] [W11.13] [W11.16]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P18",
+      "verdict": "supported",
+      "evidence": "[W12.14] [W12.86] [W12.59]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P19",
+      "verdict": "supported",
+      "evidence": "[W28.1]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P20",
+      "verdict": "supported",
+      "evidence": "[W29.1] [W29.71] \"one of the most common birds of prey in Europe, along with the common kestrel and common buzzard\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P21",
+      "verdict": "supported",
+      "evidence": "Cached GenBank region 8741..9524 of NC_000878.1, feature gene 1..784 /gene=\"COX3\"; letters 361-390 = ATCAAACCCATAAACCCCATAGAAGTACCC, identical to RAPTOR.peregrine (checked by script).",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P22",
+      "verdict": "supported",
+      "evidence": "NC_011307.1 region 8733..9516, COX3 1..784; letters 361-390 = ATCAAACCCATAAATCCCATAGAAGTGCCC = RAPTOR.kestrel.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P23",
+      "verdict": "supported",
+      "evidence": "NC_025580.1 region 8683..9466, COX3 1..784; letters 361-390 = ATTAGTCCACTTAACCCCCTAGAAGTACCC = RAPTOR.sparrowhawk.",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "P24",
+      "verdict": "supported",
+      "evidence": "NC_024087.1 region 12353..13136, /gene=\"COX3\" 1..784; letters 361-390 = ATTAACCCCCTTAATCCCCTAGAAGTCCCA = RAPTOR.eagle.",
+      "note": "The odd coordinate is the record's own numbering; the feature table confirms COX3. A whole-gene alignment (Needleman-Wunsch, my script) puts all four windows in the same gap-free columns.",
+      "fix": ""
+    },
+    {
+      "id": "B1.hook",
+      "verdict": "imprecise",
+      "evidence": "[W5.13] \"Peregrine falcons having been recorded diving at speeds of 320 km/h\"",
+      "note": "The Falcon page gives the speed with no prey in it; \"on its prey\" is true in general (the hunting stoop) but unsupported by the cited source. The rest is fine.",
+      "fix": "A peregrine falcon has been clocked diving at 320 kilometres an hour.",
+      "resolved": "“on its prey” cut; W5.13 gives the speed only. The last sentence now reads “when biologists compared whole bird genomes” instead of “lined up bird genomes, letter by letter”, so the hook no longer ties the falcon result to a count (the shared caveat)."
+    },
+    {
+      "id": "B2.prompt",
+      "verdict": "supported",
+      "evidence": "[W5.28] [W9.81]; Jarvis 2014 (general knowledge); otol \"birds\" ((((raven,macaw),falcon),(((eagle,vulture),owl),woodpecker)),chicken)",
+      "note": "Single best key: the macaw. True by group (parrots); see P6 on which species were sequenced.",
+      "fix": ""
+    },
+    {
+      "id": "B2.explain",
+      "verdict": "supported",
+      "evidence": "[W5.8] [W6.1] [W9.81]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B2.kin.eagle",
+      "verdict": "imprecise",
+      "evidence": "[W5.8] \"the unrelated family Accipitridae\" [W9.80]",
+      "note": "\"Counted letter by letter\" claims a raw count puts the eagle further off. Shared caveat (pack header, src/places/generated/genetics-genomes.ts lines 14-16: \"in COX1 the falcon's letters sit nearer the eagle's\"): the falcon-parrot grouping came from model-based whole-genome trees (Jarvis 2014), not from a raw count of differing letters. Falcons, parrots+songbirds and hawks/eagles split within a few million years of each other about 60-65 million years ago, and their rates differ, so a plain count need not put the falcon nearer the parrot. No source here shows such a count.",
+      "fix": "Hooked beak and talons, yes. But hawks and eagles belong to a family that is not close kin of the falcons. Whole-genome studies put the eagle on another branch.",
+      "resolved": "Last sentence now “Whole-genome studies put the eagle on another branch.” (the checker’s fix)."
+    },
+    {
+      "id": "B2.kin.owl",
+      "verdict": "supported",
+      "evidence": "otol \"birds\": (((eagle,vulture),owl),woodpecker) opposite ((raven,macaw),falcon)",
+      "note": "No cited Wikipedia sentence places owls; this rests on Open Tree (and Jarvis 2014's Afroaves), judged from general knowledge.",
+      "fix": ""
+    },
+    {
+      "id": "B2.kin.macaw",
+      "verdict": "supported",
+      "evidence": "[W5.28]; otol \"birds\"",
+      "note": "Key.",
+      "fix": ""
+    },
+    {
+      "id": "B2.kin.vulture",
+      "verdict": "supported",
+      "evidence": "otol \"birds\": (eagle,vulture)",
+      "note": "New World vultures sit in Accipitriformes beside Accipitridae (general knowledge).",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame1",
+      "verdict": "supported",
+      "evidence": "[W7.1] [W7.2] [W7.23] [W2.4] [W2.5] [W4.3]",
+      "note": "\"All the genetic material\" mirrors [W7.1]; see B9.idea on \"all of\".",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame2",
+      "verdict": "supported",
+      "evidence": "[W4.82] \"short oligonucleotides with defined 3' termini\" [W4.83] \"fractionated by electrophoresis on a polyacrylamide gel\" [W4.88]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame3",
+      "verdict": "supported",
+      "evidence": "[W7.111] [W8.2] [W8.5] (about 92%) [W10.8]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame4",
+      "verdict": "supported",
+      "evidence": "[W9.29] [W9.30]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B3.frame5",
+      "verdict": "supported",
+      "evidence": "[W9.41] [W9.40]",
+      "note": "Hedged with \"as a rule\".",
+      "fix": ""
+    },
+    {
+      "id": "B4.prompt",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B4.explain",
+      "verdict": "supported",
+      "evidence": "[W2.16] [W3.47] [W7.111] [W10.8] [W1.5]",
+      "note": "15.9/3.1 = 5.1; the source says 4.9 times against 3.2 Gb. \"About five times\" holds either way.",
+      "fix": ""
+    },
+    {
+      "id": "B4.order",
+      "verdict": "supported",
+      "evidence": "5,386 < 1,830,138 < ~3.1e9 < ~15.9e9 [W2.16] [W3.47] [W7.111] [W10.8]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.goal",
+      "verdict": "supported",
+      "evidence": "Re-extracted by script from the cached GenBank texts: COX3 gene letters 361–390 (each record is the COX3 region, gene 1..784) of NC_000878.1, NC_011307.1, NC_025580.1 and NC_024087.1 match the four strings exactly; the same 30 letters of one gene in four birds of prey (peregrine, common kestrel, Eurasian sparrowhawk, golden eagle). Pair counts recomputed: peregrine–kestrel 2, sparrowhawk–eagle 6, peregrine–sparrowhawk 7, kestrel–eagle 7, peregrine–eagle 8, kestrel–sparrowhawk 9, as the step feedback states. The tree credit (round 2, not a sheet unit, checked here): “Letters: one gene, COX3, from each bird’s NCBI RefSeq record (public domain)” is accurate (each RefSeq record is the bird’s complete mitochondrial genome; the window is from its COX3 gene); “Open Tree of Life, synthesis opentree16.1 (CC0)”: the live API reports synth_id opentree16.1; CC0 judged from general knowledge (the Open Tree licence page did not render to a script).",
+      "note": "",
+      "fix": "",
+      "independent": true,
+      "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T01:40:00Z",
+      "history": [
+        {
+          "verdict": "supported",
+          "evidence": "All four 30-letter strings match COX3 letters 361-390 of their RefSeq records (P21-P24).",
+          "note": "",
+          "fix": "",
+          "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “one mitochondrial gene” is now “one gene”: “mitochondrial” was never defined here, and nothing in the lesson needs it. The tree credit still names the RefSeq mitochondrial genomes as the source."
+        }
+      ]
+    },
+    {
+      "id": "B5.falcon-eagle.ask",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.falcon-eagle.5",
+      "verdict": "supported",
+      "evidence": "Hamming(peregrine, eagle) = 8",
+      "note": "Feedback accurate.",
+      "fix": ""
+    },
+    {
+      "id": "B5.falcon-eagle.8",
+      "verdict": "supported",
+      "evidence": "Hamming(peregrine, eagle) = 8 (script)",
+      "note": "Key; single best.",
+      "fix": ""
+    },
+    {
+      "id": "B5.falcon-eagle.11",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "Feedback accurate.",
+      "fix": ""
+    },
+    {
+      "id": "B5.falcon-eagle.14",
+      "verdict": "supported",
+      "evidence": "22 of 30 columns match",
+      "note": "Feedback accurate.",
+      "fix": ""
+    },
+    {
+      "id": "B5.falcon-eagle.explain",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "Each difference marks at least one change; fine as written.",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.ask",
+      "verdict": "supported",
+      "evidence": "[W29.71]",
+      "note": "Facts right; key computed. Giveaway risk: anyone who knows kestrels are falcons ([W5.2]) answers without counting. The drawn-tree weakness is closed here: the tree renders only after both steps are committed and run (SequenceLab: commit before the run button; TreeFigure only when finished >= steps).",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.kestrel|sparrowhawk",
+      "verdict": "supported",
+      "evidence": "Hamming = 9, the largest of the six",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.peregrine|eagle",
+      "verdict": "supported",
+      "evidence": "Hamming = 8",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.sparrowhawk|eagle",
+      "verdict": "supported",
+      "evidence": "Hamming = 6; sorted pairs 2, 6, 7, 7, 8, 9",
+      "note": "\"Second-fewest\" correct.",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.peregrine|kestrel",
+      "verdict": "supported",
+      "evidence": "Hamming = 2, unique minimum; [W28.1]; whole COX3 p-distance 10.2% vs 12.9-19.1% for every other pair (my NW alignment)",
+      "note": "Key; the window agrees with the whole gene and with the tree (Falco congeners split far more recently than Accipiter from Aquila).",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.peregrine|sparrowhawk",
+      "verdict": "supported",
+      "evidence": "Hamming = 7",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.kestrel|eagle",
+      "verdict": "supported",
+      "evidence": "Hamming = 7",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B5.four-raptors.explain",
+      "verdict": "supported",
+      "evidence": "Counts 2 / 6 / 7, 8, 9, 7 (script); [W28.1] [W29.1]",
+      "note": "Golden eagle in Accipitridae from general knowledge.",
+      "fix": ""
+    },
+    {
+      "id": "B6.prompt",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.explain",
+      "verdict": "imprecise",
+      "evidence": "[W9.81] \"genome-wide analyses place falcons within the clade Australaves\"",
+      "note": "The first two sentences are right. The last ties step c's counting rule to the falcon result: \"compared letter by letter, the falcon's genome groups with the parrot's\". Shared caveat (pack header, src/places/generated/genetics-genomes.ts lines 14-16: \"in COX1 the falcon's letters sit nearer the eagle's\"): the falcon-parrot grouping came from model-based whole-genome trees (Jarvis 2014), not from a raw count of differing letters. Falcons, parrots+songbirds and hawks/eagles split within a few million years of each other about 60-65 million years ago, and their rates differ, so a plain count need not put the falcon nearer the parrot. No source here shows such a count.",
+      "fix": "Step c holds as a rule, and whole-genome studies group the falcon with the parrot, not the eagle.",
+      "resolved": "Last sentence now “Step c holds as a rule, and whole-genome studies group the falcon with the parrot, not the eagle.” No line in the pack, reels or bank now says a count of letters placed the falcon."
+    },
+    {
+      "id": "B6.step.a",
+      "verdict": "supported",
+      "evidence": "[W5.8] [W5.12]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.b",
+      "verdict": "supported",
+      "evidence": "Convergence: [W14.52] [W11.13] [W21.11]",
+      "note": "Correct broken step, and the only one: a and c are true, d follows from a-c.",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.c",
+      "verdict": "supported",
+      "evidence": "[W9.40] [W9.41]",
+      "note": "Hedged with \"tend to\".",
+      "fix": ""
+    },
+    {
+      "id": "B6.step.d",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "Follows from b and c.",
+      "fix": ""
+    },
+    {
+      "id": "B7.prompt",
+      "verdict": "imprecise",
+      "evidence": "otol \"cat\" (((wolf,(lion,(wildcat,cat))),chicken),zebrafish)",
+      "note": "The prompt states an exact order for an unspecified stretch, as fact. Real stretches can break it where two splits are close in time or a stretch is saturated (the pack itself records COX1 misplacing the falcon). Beat 8 and the macaw item hedge with \"should\"; this one does not. Low risk here: the gaps (about 0.1, 11, 55, 310, 430 million years) are wide, though cat-chicken vs cat-zebrafish is deep enough to saturate a fast mitochondrial stretch.",
+      "fix": "Line up the same stretch of DNA from each of these against a house cat's. Order them by how many differences you should expect, fewest first.",
+      "resolved": "Now “Order them by how many differences you should expect, fewest first.”"
+    },
+    {
+      "id": "B7.explain",
+      "verdict": "supported",
+      "evidence": "[W16.35] [W16.43]; otol \"cat\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B7.order",
+      "verdict": "supported",
+      "evidence": "otol \"cat\"",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.prompt",
+      "verdict": "supported",
+      "evidence": "Sunbird article (cached): “Sunbirds have long thin down-curved bills … adaptations to their nectar feeding”; “representatives in Africa, Asia and Australasia”; “with the males usually brilliantly plumaged in iridescent colours”; “counterparts in … the hummingbirds of the Americas … convergent evolution”; “family Nectariniidae of passerine birds”. Passerine article (cached): “Passeriformes is the largest order of birds … representing 60% of birds”; oscines “such as the crows”, and Passeri (songbirds or oscines) is a suborder of the order. Open Tree (otol-trees.json “sunbird”) ((sunbird,crow),(hummingbird,swift)).",
+      "note": "Facts hold. “Sunbirds of Africa and Asia” omits Australasia but claims no exclusivity. Design note, not a fact problem: the new definition names the crows, so “crow” in the prompt echoes the key “A carrion crow’s”; the prompt also names the hummingbirds (the lure), so a pure word-match picks between two, and the call left is family against looks, which is the beat’s point.",
+      "fix": "",
+      "independent": true,
+      "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T01:40:00Z",
+      "history": [
+        {
+          "verdict": "imprecise",
+          "evidence": "[W11.27] [W11.18] [W11.16] \"with the males usually brilliantly plumaged in iridescent colours\" [W11.1]",
+          "note": "\"The males shine in metallic colours\" drops \"usually\". Design: the prompt says sunbirds are passerines and offers the house sparrow, the bird the order is named after [W23.7], so it can be won by matching labels.",
+          "fix": "Sunbirds of Africa and Asia sip nectar from flowers through long, curved bills, and in most species the males shine in metallic colours, much like the hummingbirds of the Americas.",
+          "resolved": "“usually” restored: “in most species the males shine in metallic colours” [W11.16]. The label match is gone: the key is now “A carrion crow’s” instead of the house sparrow, the bird the order is named after [W23.7]. Crows are oscines [W23.11], the songbird suborder of the passerines [W23.9]; the explain says so. otol “sunbird” refetched 2026-10-26: ((sunbird,crow),(hummingbird,swift)). The new key is unit B8.kin.crow, checked by the fixer (see that entry), not by the independent checker. Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “passerines” was undefined, and the key needed knowing crows are passerines, which only the explain said. The prompt now reads “Sunbirds are passerines, the largest order of birds, which also takes in the crows.” [W23.3] Passeriformes is the largest order of birds, 60% of birds; [W23.9] [W23.11] crows are oscines, the songbird suborder of the passerines. This reverses the earlier cut of “the perching birds” on purpose: the prompt now names both the look-alike (hummingbirds) and the kin (crows), so no single label decides it; the call is whether family or looks predicts the genome, which is the lesson’s point.",
+          "revised": "2026-10-26 review fix: “, the perching birds” is cut, so the prompt can no longer be won by matching “perching” to the crow. Nothing was added, so the verdict on the remaining words stands."
+        }
+      ]
+    },
+    {
+      "id": "B8.explain",
+      "verdict": "supported",
+      "evidence": "Passerine article (cached): “The order is divided into three primary clades: the suborder Tyranni …, the suborder Passeri (songbirds or oscines), and the family Acanthisittidae”, so songbirds are one of the main branches; crows are oscines (“some of them, such as the crows”). Sunbird article: Nectariniidae are passerines; resemblance to hummingbirds “due to convergent evolution brought about by a similar nectar-feeding lifestyle”. Hummingbird article: closest relatives are the swifts (and treeswifts). Open Tree “sunbird” ((sunbird,crow),(hummingbird,swift)).",
+      "note": "“Far more recent” holds from general knowledge (crow–sunbird split within the oscines, roughly 30–40 million years, against the early Neoaves split from the hummingbirds). The old evidence on this unit still names the sparrow; the key is now the crow and the check above uses the crow.",
+      "fix": "",
+      "independent": true,
+      "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T01:40:00Z",
+      "history": [
+        {
+          "verdict": "supported",
+          "evidence": "[W11.1] [W11.13] [W12.14]; otol \"sunbird\" ((sunbird,sparrow),(hummingbird,swift))",
+          "note": "Sunbirds (Nectariniidae) and sparrows (Passeridae) both sit in Passeroidea, roughly 20-30 million years apart, against about 65+ for the hummingbird split; \"far more recent\" holds (general knowledge).",
+          "fix": "",
+          "resolved": "Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “one of the passerine suborders” is now “one of the main branches of the passerines”: “suborder” is never defined here. [W23.4] [W23.9] passerines divide into three suborders, songbirds (oscines) among them; [W23.11] crows are oscines."
+        }
+      ]
+    },
+    {
+      "id": "B8.kin.hummingbird",
+      "verdict": "supported",
+      "evidence": "[W12.59] [W12.86] [W11.13]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.kin.sparrow",
+      "verdict": "supported",
+      "evidence": "otol \"sunbird\"",
+      "note": "Key.",
+      "fix": ""
+    },
+    {
+      "id": "B8.kin.swift",
+      "verdict": "supported",
+      "evidence": "[W12.86] [W12.371]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B8.kin.same",
+      "verdict": "supported",
+      "evidence": "",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "B9.idea",
+      "verdict": "imprecise",
+      "evidence": "[W1.1] [W7.1]",
+      "note": "A genome is one complete set: genome size is \"the total amount of DNA contained within one copy of a single complete genome\" [W1.1], and the pack counts \"one set of chromosomes\" in beat 4. \"All of an organism's DNA\" literally means both sets in every cell plus mitochondrial DNA. The counting half is properly hedged (\"as a rule\").",
+      "fix": "A genome is the complete set of an organism's DNA, a text that can run to billions of letters. ...",
+      "resolved": "Now “A genome is the complete set of an organism’s DNA, a text that can run to billions of letters.” The counting half is unchanged (“as a rule”)."
+    },
+    {
+      "id": "R1.f1",
+      "verdict": "imprecise",
+      "evidence": "[W5.13] [W5.8]",
+      "note": "As B1.hook: \"on its prey\" is not in the cited source. The beak kill is supported [W5.8].",
+      "fix": "A peregrine falcon has been clocked diving at 320 kilometres an hour. It kills with a bite of its hooked beak.",
+      "resolved": "“on its prey” cut: “A peregrine falcon has been clocked diving at 320 kilometres an hour. It kills with a bite of its hooked beak.” Reel renarrated (Piper) 2026-10-26."
+    },
+    {
+      "id": "R1.f2",
+      "verdict": "supported",
+      "evidence": "[W5.8]",
+      "note": "Hooked beaks from general knowledge.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f3",
+      "verdict": "supported",
+      "evidence": "[W5.28]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.f4",
+      "verdict": "supported",
+      "evidence": "[W6.1] [W23.9] [W23.141]",
+      "note": "Eufalconimorphae excludes Accipitriformes; the raven is an oscine.",
+      "fix": ""
+    },
+    {
+      "id": "R1.f5",
+      "verdict": "supported",
+      "evidence": "[W5.8]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R1.prediction",
+      "verdict": "supported",
+      "evidence": "[W5.28]",
+      "note": "Key single best.",
+      "fix": ""
+    },
+    {
+      "id": "R1.takeaway",
+      "verdict": "imprecise",
+      "evidence": "[W5.28] [W9.81]",
+      "note": "\"Compared letter by letter\" implies a raw count. Shared caveat (pack header, src/places/generated/genetics-genomes.ts lines 14-16: \"in COX1 the falcon's letters sit nearer the eagle's\"): the falcon-parrot grouping came from model-based whole-genome trees (Jarvis 2014), not from a raw count of differing letters. Falcons, parrots+songbirds and hawks/eagles split within a few million years of each other about 60-65 million years ago, and their rates differ, so a plain count need not put the falcon nearer the parrot. No source here shows such a count.",
+      "fix": "Looks can mislead. Compared across whole genomes, the falcon sits with the parrots and songbirds, on a different branch from the eagles.",
+      "resolved": "Now “Looks can mislead. Compared across whole genomes, the falcon sits with the parrots and songbirds, on a different branch from the eagles.” (the checker’s fix)."
+    },
+    {
+      "id": "R2.f1",
+      "verdict": "imprecise",
+      "evidence": "[W7.1] [W7.23] [W7.111]",
+      "note": "A genome is one complete set: genome size is \"the total amount of DNA contained within one copy of a single complete genome\" [W1.1], and the pack counts \"one set of chromosomes\" in beat 4. \"All of an organism's DNA\" literally means both sets in every cell plus mitochondrial DNA. \"One long text\" also misstates a genome split over many chromosomes (24 linear chromosomes in humans [W7.111]).",
+      "fix": "A genome is the complete set of a living thing's DNA, written in four chemical letters, A, C, G and T.",
+      "resolved": "Now “A genome is the complete set of a living thing’s DNA, written in four chemical letters, A, C, G and T.”; “one long text” cut. Reel renarrated (Piper) 2026-10-26."
+    },
+    {
+      "id": "R2.f2",
+      "verdict": "supported",
+      "evidence": "[W2.4] [W2.5] [W2.16]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f3",
+      "verdict": "supported",
+      "evidence": "[W7.111] [W10.8]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.f4",
+      "verdict": "supported",
+      "evidence": "[W1.5] [W1.6]",
+      "note": "The extreme protist figures are questioned [W1.13], but W1.6 stands.",
+      "fix": ""
+    },
+    {
+      "id": "R2.f5",
+      "verdict": "supported",
+      "evidence": "[W9.29] [W9.30] [W9.45]",
+      "note": "",
+      "fix": ""
+    },
+    {
+      "id": "R2.prediction",
+      "verdict": "supported",
+      "evidence": "[W10.8]",
+      "note": "Key single best.",
+      "fix": ""
+    },
+    {
+      "id": "R2.takeaway",
+      "verdict": "supported",
+      "evidence": "[W7.1] [W1.5] [W7.113]",
+      "note": "\"Complete DNA\" reads as a complete set; acceptable.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_xdjtzqttqc",
+      "verdict": "imprecise",
+      "evidence": "[W5.8] [W5.28] [W9.81]",
+      "note": "Key right and single best. The explain opens \"Compared letter by letter, the falcon's genome groups with those of parrots\". Shared caveat (pack header, src/places/generated/genetics-genomes.ts lines 14-16: \"in COX1 the falcon's letters sit nearer the eagle's\"): the falcon-parrot grouping came from model-based whole-genome trees (Jarvis 2014), not from a raw count of differing letters. Falcons, parrots+songbirds and hawks/eagles split within a few million years of each other about 60-65 million years ago, and their rates differ, so a plain count need not put the falcon nearer the parrot. No source here shows such a count.",
+      "fix": "Explain: \"Whole-genome studies group the falcon with parrots and songbirds. ...\"",
+      "resolved": "Explain now opens “Whole-genome studies group the falcon with parrots and songbirds.” (the checker’s fix); the rest is unchanged."
+    },
+    {
+      "id": "I.i_gre13tm4mx",
+      "verdict": "supported",
+      "evidence": "[W2.4] [W2.5] [W4.86] [W8.5] [W8.7] [W8.8]",
+      "note": "Key single best. \"DNA\" is load-bearing: Fiers read an RNA genome in 1976 [W7.25] (the Genome page contradicts itself at [W7.8]); the item keeps the qualifier.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_46180frv3b",
+      "verdict": "imprecise",
+      "evidence": "[W1.1] [W10.8] [W10.10] [W1.6] [W1.17]",
+      "note": "Key c is right and the explain is supported. But step a says a genome is \"all the DNA an organism carries\" while step b counts \"one set\" of chromosomes; an organism carries two sets in most cells plus mitochondrial DNA, so a careful learner can call a broken too.",
+      "fix": "Step a: \"A genome is one complete set of an organism's DNA.\"",
+      "resolved": "Step a now “A genome is one complete set of an organism’s DNA.”, which agrees with step b’s one set of chromosomes, so c is the only broken step."
+    },
+    {
+      "id": "I.i_v7scrngk85",
+      "verdict": "imprecise",
+      "evidence": "otol \"birds\" ((((raven,macaw),falcon),(((eagle,vulture),owl),woodpecker)),chicken); [W9.81]",
+      "note": "Topology right, chicken last robust. But the macaw meets the raven, the falcon and the eagle within a few million years of each other about 60-65 million years ago (Jarvis 2014, general knowledge), and lineage rates differ (eagles slow, passerines and parrots fast), so real genomes need not differ in the order raven < falcon < eagle. The pack's own header records a stretch (COX1) where the falcon sits nearer the eagle. The key rests on a clock this case cannot meet.",
+      "fix": "Order these birds by how recently each shares an ancestor with a scarlet macaw, most recent first.",
+      "resolved": "Re-asked as recency on the tree, not as letter counts: prompt “Order these birds by how recently each shares an ancestor with a scarlet macaw, most recent first.”, ends “Most recent” and “Oldest”. Claim and explain state only the nesting in the Open Tree (otol “birds”: raven, then falcon, then eagle, then chicken) and that parrots, songbirds and falcons share an ancestor no eagle descends from [W6, W5.28]. Nothing claims an order of differences any more. Key unchanged."
+    },
+    {
+      "id": "I.i_2mv58esydy",
+      "verdict": "supported",
+      "evidence": "[W3.43] [W3.47] [W7.23]",
+      "note": "Key single best.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_r1szeqqv3q",
+      "verdict": "imprecise",
+      "evidence": "[W9.30] \"In the simplest case...\"",
+      "note": "Key right and single best. But the trio named, falcon, macaw and eagle, is the one where a short stretch misleads (pack header: COX1 puts the falcon nearer the eagle), so it invites raw counting exactly where raw counts fail. The explain also drops \"in the simplest case\".",
+      "fix": "Use a shallow trio, e.g. \"a peregrine falcon, a common kestrel and a golden eagle\"; explain: \"In the simplest method, aligned stretches are compared position by position...\"",
+      "resolved": "Trio is now a peregrine falcon, a common kestrel and a golden eagle, a shallow comparison: whole COX3 p (NW, +1/-1/-2) falcon–kestrel 10.2% vs 17.0% and 18.5% with the eagle. Prompt, claim and explain say “in the simplest method” [W9.30]."
+    },
+    {
+      "id": "I.i_0amkrzmx60",
+      "verdict": "supported",
+      "evidence": "Current explain: “Razorbills and murres are both auks, of the family Alcidae, so here the look-alike is the close kin. Of these birds, the gull sits on the next branch out from the auks, a step further back. Penguins look alike too, but they are not close kin: auks resemble them through convergent evolution.” Auk article: “Auks or alcids are birds of the family Alcidae”; the razorbill is Alca torda; “Auks are superficially similar to penguins, having black-and-white colours, upright posture”; “they are not closely related to penguins, but are believed to be an example of moderate convergent evolution”; “their closest living relatives appear to be the skuas” [W21]. Open Tree opentree16.1 induced subtree for the four birds offered (otol-trees.json “auk”, OTT 855485, 820016, 791957, 494370): ((gull,(murre,razorbill)),penguin). So among these birds the gull is the next branch out from the auks and the penguin the furthest; “Of these birds” now scopes the claim, so it no longer contradicts the skuas sentence. Key (murre), options and claim unchanged and right.",
+      "note": "The round-3 finding is closed with the checker’s own wording. Nit carried from earlier rounds, not learner-visible as an error: the source hedges convergence (“believed to be … moderate”); stating it flat is acceptable because auks and penguins are certainly not close kin.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "verdict": "supported",
+          "evidence": "[W21.1] [W21.2] [W21.10] [W21.11] [W21.18] [W21.30]; otol \"auk\" ((gull,(murre,razorbill)),penguin)",
+          "note": "Key single best. The source hedges convergence (\"believed to be... moderate\"); stating it flat is fine because auks and penguins are certainly not close kin.",
+          "fix": "",
+          "resolved": "Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “Gulls share the auks’ suborder” is now “Gulls sit on the next branch out from the auks, a step further back”: “suborder” is never defined here. [W21.30] auks belong to the Lari suborder with the gulls; the Open Tree subtree ((gull,(murre,razorbill)),penguin) puts the gull next."
+        },
+        {
+          "id": "I.i_0amkrzmx60",
+          "verdict": "imprecise",
+          "evidence": "Auk article (cached): “Judging from genetic data, their closest living relatives appear to be the skuas, with these two lineages separating about 30 million years ago”; “the auks … are considered part of the Lari suborder, which otherwise contains gulls and similar birds”. Open Tree opentree16.1 induced subtree fetched now for razorbill, common murre, great skua, herring gull and emperor penguin (OTT 855485, 820016, 742633, 791957, 494370): ((Larus_argentatus,((Uria_aalge,Alca_torda),Stercorarius_skua)),Aptenodytes_forsteri).",
+          "note": "The round-2 rewording made a claim the cited source contradicts. “Gulls sit on the next branch out from the auks” is true only among the four birds offered; across living birds the next branch out from the auks is the skuas, and the gulls sit one further step back. The old wording (“share the auks’ suborder”) was right. Key, options, claim and the penguin sentence are fine.",
+          "fix": "“Of these birds, the gull sits on the next branch out from the auks, a step further back.”",
+          "independent": true,
+          "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+          "checkedAt": "2026-10-27T01:40:00Z",
+          "resolved": "Round 4 (drafting side): applied the checker’s fix word for word: the explain now reads “Of these birds, the gull sits on the next branch out from the auks, a step further back.” Key, options, claim and the penguin sentence unchanged."
+        }
+      ]
+    },
+    {
+      "id": "I.i_pz3p7ps3ca",
+      "verdict": "supported",
+      "evidence": "[W20.2] [W20.20]; otol \"limulus\" (urchin,(bluecrab,(tarantula,limulus)))",
+      "note": "Key single best.",
+      "fix": "",
+      "revised": "2026-10-26: “and scorpions” is cut from the explain (“closer kin of spiders than of crabs”), so the item no longer names two of evolution-e12’s case entities together (cases.transfer now checks the whole atlas). Nothing was added, so the verdict stands."
+    },
+    {
+      "id": "I.i_kq0af53jnj",
+      "verdict": "imprecise",
+      "evidence": "[W17.15] [W18.39] [W1.18] \"...depending on the taxon, body size...\" [W1.5]",
+      "note": "Numbers right: 160 billion, more than 50 times a human (160/3.1 = 51.6), axolotl 32 billion; key single best. Overstated: \"across living things, neither body size nor complexity tracks genome size\" contradicts W1.18, where genome size correlates with body size in some taxa. The 160 Gbp is a flow-cytometry estimate (Fernández 2024, general knowledge), and \"largest yet found\" is among eukaryotes [W17.15]. The cached Tmesipteris truncata page wrongly treats T. oblanceolata (New Caledonia) as a synonym of T. truncata (Australia) [W17.1]; the item rightly names T. oblanceolata and does not cite that page.",
+      "fix": "Claim and explain: \"Across living things as a whole, genome size is a poor guide to body size or complexity.\"",
+      "resolved": "Claim and explain now “Across living things as a whole, genome size is a poor guide to body size or complexity” [W1.5, W1.18]. The explain says the fern “was reported to carry about 160 billion letters … the largest known in any eukaryote” [W17.15]."
+    },
+    {
+      "id": "I.i_czd9zkjqtc",
+      "verdict": "supported",
+      "evidence": "[W22.1] [W22.4]; otol \"peanut\" (((soy,peanut),walnut),sunflower)",
+      "note": "Key single best.",
+      "fix": ""
+    },
+    {
+      "id": "I.i_fsgpjrchf9",
+      "verdict": "imprecise",
+      "evidence": "otol \"wheat\" ((tomato,(banana,((wheat,barley),rice))),ginkgo)",
+      "note": "The prompt states an exact order for an unspecified stretch, as fact. Real stretches can break it where two splits are close in time or a stretch is saturated (the pack itself records COX1 misplacing the falcon). Beat 8 and the macaw item hedge with \"should\"; this one does not. The topology and explain are right.",
+      "fix": "Prompt: \"...Order them by how many differences you should expect, fewest first.\"",
+      "resolved": "Prompt now ends “Order them by how many differences you should expect, fewest first.”"
+    },
+    {
+      "id": "I.i_rc2r0825af",
+      "verdict": "imprecise",
+      "evidence": "otol \"tomato\" ((((sweetpotato,((potato,tomato),pepper)),lettuce),maize),spruce)",
+      "note": "The prompt states an exact order for an unspecified stretch, as fact. Real stretches can break it where two splits are close in time or a stretch is saturated (the pack itself records COX1 misplacing the falcon). Beat 8 and the macaw item hedge with \"should\"; this one does not. Genus/family/order claims are right (Solanum, Solanaceae, Solanales).",
+      "fix": "Prompt: \"...Order them by how many differences you should expect, fewest first.\"",
+      "resolved": "Prompt now ends “Order them by how many differences you should expect, fewest first.”"
+    },
+    {
+      "id": "I.i_dp69pqaw81",
+      "verdict": "imprecise",
+      "evidence": "otol \"camel\" (((giraffe,(llama,(dromedary,bactrian))),horse),echidna)",
+      "note": "The prompt states an exact order for an unspecified stretch, as fact. Real stretches can break it where two splits are close in time or a stretch is saturated (the pack itself records COX1 misplacing the falcon). Beat 8 and the macaw item hedge with \"should\"; this one does not. Giraffe (~64 million years) vs horse (~80) is close enough for one stretch to swap them. Facts right.",
+      "fix": "Prompt: \"...Order them by how many differences you should expect, fewest first.\"",
+      "resolved": "Prompt now ends “Order them by how many differences you should expect, fewest first.”"
+    },
+    {
+      "id": "C1",
+      "verdict": "imprecise",
+      "evidence": "Case c_ctjxpn8vek (thylacine). Letters verified: thylacine 16S 315-344, numbat 319-348, jackal 318-347, platypus 316-345 match the cached RefSeq text; whole-gene NW alignment puts all four windows in the same gap-free columns. Counts: thylacine-numbat 3; others 7, 9, 7, 8, 7. Whole 16S p: thylacine-numbat 13.4% vs 20.9-23.6%. [W14.1] [W14.52] [W14.55] [W30.2] [W30.7]; otol \"thylacine-letters\".",
+      "note": "Facts, letters, key and reveal all hold, and the drawn-tree weakness is closed (no tree drawn; counts print only after the locked run). Still winnable without counting: the winner pairs the first-listed subject with the one animal that is neither the named lure (jackal, \"build of a wild dog\") nor the obvious outgroup (platypus). The same rule wins all three cases, and the thylacine as a marsupial is common knowledge [W14.1].",
+      "fix": "Replace the platypus with a second marsupial (e.g. a dasyurid or a bandicoot) so that knowing \"marsupial\" no longer decides it, then re-check the window counts and the whole gene.",
+      "resolved": "The platypus, the obvious outsider, is replaced by a second marsupial, the koala, so knowing “marsupial” no longer decides it (the checker’s fix). Koala 16S rRNA pinned 2026-10-26 (NC_008133.1, letters 1091–2663). New gap-free window, homology checked by NW against each whole gene: thylacine 268–297, golden jackal 271–300, koala 264–293, numbat 272–301. Counts: thylacine–numbat 2; thylacine–koala and numbat–koala 5; jackal–koala 6; jackal with thylacine or numbat 7. Every pair falls in the Open Tree’s order, refetched 2026-10-26: (jackal,(koala,(numbat,thylacine))). Whole 16S p: thylacine–numbat 13.4% vs 14.9–21.3%. Listed thylacine, jackal, koala, numbat, so the winner is not the first two. Reveal: “The koala is a marsupial too, but its line parted from theirs earlier, and the jackal’s earlier still” [W41.8 Metatheria; Open Tree]."
+    },
+    {
+      "id": "B8.kin.crow",
+      "verdict": "supported",
+      "by": "fixer (drafting side), then confirmed by the independent reviewer of the 2026-10-26 fix stage: the Passerine article [W23] puts Corvidae, the crows, under Passeri, the oscines",
+      "evidence": "[W23.11] crows are oscines; [W23.9] the oscines (songbirds) are the passerine suborder Passeri; otol-trees.json “sunbird” ((sunbird,crow),(hummingbird,swift)), refetched 2026-10-26",
+      "note": "New unit: the B8.prompt fix replaced the key choice B8.kin.sparrow (“A house sparrow’s”) with “A carrion crow’s”. Checked by the fixer against the cached sources, then independently confirmed by the 2026-10-26 reviewer, who drafted nothing.",
+      "fix": ""
+    },
+    {
+      "id": "C.c_ctjxpn8vek",
+      "verdict": "supported",
+      "caseHash": "82ad9f53feb6",
+      "evidence": "The case is unchanged (same hash); only the shared engine’s computed line is new text. Line now: “Thylacine and numbat differ least: 2 letters. The other pairs differ more: thylacine and koala by 5; koala and numbat by 5; golden jackal and koala by 6; thylacine and golden jackal by 7; golden jackal and numbat by 7.” Windows re-extracted by script from the cached GenBank texts: 16S rRNA thylacine 268–297 (NC_011944.1), golden jackal 271–300 (NC_067757.1), koala 264–293 (NC_008133.1), numbat 272–301 (NC_011949.1): all four match the bundle and occur once each. Recomputed: thylacine–numbat 2; thylacine–koala 5, koala–numbat 5; jackal–koala 6; thylacine–jackal 7, jackal–numbat 7. Every marsupial pair (max 5) is below every jackal pair (min 6), so the line agrees with the reveal (“the koala … earlier, and the jackal’s earlier still”). Winner 2nd of 6; first, last, both middles, shortest and longest label and the look-alike (thylacine and golden jackal) lose. Every count in the line matches my count, every “by N” is larger than the winning count, and the pairs run nearest first. The line renders verbatim at 375 px (:5256, mission screen; for the thylacine also the expedition payoff). caseProblems empty, guessP 1/6, truth the same under 30 extra seeds. Scenario, reveal, claim and sources are the text the round-3 checker passed.",
+      "note": "The line is in the new one-sentence form: no wrapped line opens on a bare number at 375 px.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "verdict": "supported",
+          "independent": true,
+          "caseHash": "b233f36fe0a6",
+          "by": "independent reviewer of the 2026-10-26 fix stage (drafted nothing); recorded by the fixer from that review",
+          "evidence": "Case c_ctjxpn8vek (thylacine), as fixed on 2026-10-26: the reviewer re-extracted the four 16S rRNA windows from the cached RefSeq texts (thylacine 268–297, golden jackal 271–300, koala 264–293, numbat 272–301), found each gap-free in a whole-gene Needleman–Wunsch alignment, recomputed the pair counts (thylacine–numbat 2; 5, 5, 6, 7, 7) and the whole-gene p (13.4% vs 14.9–21.3%), ran the engine (same truth under 6 extra seeds, a blind pick wins 1 in 6, junk answers never win) and found the reveal matches the cached Thylacine and Numbat articles, the koala’s RefSeq record (Metatheria) and the Open Tree subtree (jackal,(koala,(numbat,thylacine))).",
+          "note": "This unit records that independent check of the case text as it now stands (hash b233f36fe0a6); C1 holds the first checker’s verdict on the earlier text and its resolution.",
+          "fix": "",
+          "resolved": "Round-1 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “one mitochondrial gene” is now “one gene” in the scenario, and the string labels are written as they read mid-sentence (“golden jackal”, “numbat”); the screen raises a sentence’s first letter, so the computed line reads “Thylacine and numbat differ least: 2 letters. Thylacine and golden jackal: 7.” Letters, options, truth and reveal are unchanged. caseHash is left at the hash the independent reviewer saw (b233f36fe0a6), so the review sheet shows this text as not yet independently checked (current hash 82ad9f53feb6)."
+        },
+        {
+          "id": "C.c_ctjxpn8vek",
+          "verdict": "supported",
+          "caseHash": "82ad9f53feb6",
+          "evidence": "Letters re-extracted by script from the cached GenBank texts: 16S rRNA thylacine 268–297 (NC_011944.1), golden jackal 271–300 (NC_067757.1), koala 264–293 (NC_008133.1), numbat 272–301 (NC_011949.1), all four match the bundle. Whole-gene Needleman–Wunsch (+1/−1/−2): every pair aligns the window gap-free and homologous. Pair counts: thylacine–numbat 2; thylacine–koala 5, koala–numbat 5; jackal–koala 6; thylacine–jackal 7, jackal–numbat 7, exactly the current outcome line (which still names every pair: the “names only the winner” change applies to the gene-to-protein “same” measure, not to “closest”). Whole-gene p: thylacine–numbat 13.4% vs 14.9–21.3%. Every within-marsupial pair (max 5) is below every jackal pair (min 6), so the line never contradicts the reveal. Open Tree opentree16.1 induced subtree, fetched now (OTT 408120, 70811, 621168, 327624): (Canis_aureus,(Phascolarctos_cinereus,(Myrmecobius_fasciatus,Thylacinus_cynocephalus))). Thylacine article: “A classic example of convergent evolution, the thylacine showed many similarities to … Canidae …: sharp teeth, powerful jaws, raised heels, and the same general body form”; Dasyuromorphia “also includes numbats”. Numbat article: “diet consists almost exclusively of termites”; “a small … animal”; Dasyuromorphia, “the Australian marsupial carnivores”. Koala record: Metatheria; jackal record: Canidae. Engine (judgeCase/caseProblems, bundled from src/cases/engines.ts): no problems; truth thylacine|numbat under the case seed and 12 other seeds; blind pick 1 in 6. Lazy strategies: first, last, both middle options (3rd, 4th), longest and shortest label all lose; the look-alike (thylacine and golden jackal) loses. Winner 2nd of 6. No case animal pair named elsewhere (validate.mjs cases.transfer passes; the only other mention anywhere is a koala in evolution-e08’s food-chain item, one name, no kinship).",
+          "note": "The text the earlier independent reviewer saw (hash b233f36fe0a6) differed only by “one mitochondrial gene” and capitalised labels; this verdict covers the current text. Nit, not learner-facing: the claim field states the rule without “as a rule” (B3.frame5 and B9.idea have it).",
+          "fix": "",
+          "independent": true,
+          "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+          "checkedAt": "2026-10-27T01:40:00Z",
+          "resolved": "Round 4 (drafting side): the case is unchanged (same hash), but the shared sequence engine now prints the other pairs as one sentence, nearest first (“… differ least: N letters. The other pairs differ more: A and B by 5; …”), because the old one-sentence-per-pair form wrapped into lines that opened on “6.” at 375 px. Every count is the same; the computed line is new text for an independent read."
+        }
+      ],
+      "resolved": "Round 7 (drafting side, ship verification): the winner “Thylacine and numbat” was the label an A–Z sort puts last, as in all four pick cases of both places. Replaced by C.c_es75vcemyp (was: c_ctjxpn8vek): the two names are turned in three labels, “Numbat and thylacine” (the winner), “Koala and thylacine” and “Numbat and golden jackal”. Model, letters, option order, scenario, reveal, claim and sources are unchanged; this verdict is kept as written.",
+      "supersededBy": "C.c_es75vcemyp"
+    },
+    {
+      "id": "C.c_es75vcemyp",
+      "verdict": "supported",
+      "caseHash": "5cc9935fc48b",
+      "evidence": "Windows re-extracted by script from the cached GenBank texts, each found once: 16S rRNA thylacine 268–297 (NC_011944.1) [W38], golden jackal 271–300 (NC_067757.1) [W40], koala 264–293 (NC_008133.1) [W41], numbat 272–301 (NC_011949.1) [W39]. My own whole-gene global alignment (match +1, mismatch −1, gap −2) puts all four windows in the same columns with no gaps for every pair, so they are the same stretch lined up letter for letter. Pair counts recomputed: thylacine–numbat 2; thylacine–koala 5, koala–numbat 5; jackal–koala 6; thylacine–jackal 7, jackal–numbat 7, exactly the computed line, nearest first. Whole-gene p-distance agrees: thylacine–numbat 14.7%, the koala pairs 16.6–18.5%, the jackal pairs 22.8–23.2%. Open Tree opentree16.1 (otol-trees.json “thylacine-letters”): (Canis_aureus,(Phascolarctos_cinereus,(Myrmecobius_fasciatus,Thylacinus_cynocephalus))) [W24], so the reveal’s order (koala’s line parted earlier, the jackal’s earlier still) holds; GenBank lineages: thylacine and numbat Dasyuromorphia, koala Diprotodontia (Metatheria), jackal Eutheria. Scenario: [W14.52] “A classic example of convergent evolution, the thylacine showed many similarities to the members of the dog family … sharp teeth, powerful jaws, raised heels, and the same general body form” (“the jaws, teeth and build of a wild dog”, a fair teaching simplification). Reveal: [W30.2] “its diet consists almost exclusively of termites”; [W30.7] Myrmecobiidae, “one of four families that make up the order Dasyuromorphia, the Australian marsupial carnivores”, with Thylacinidae listed in the order; [W14.52] convergent evolution. Options: each of the six labels names its own pair (the two names inside three labels turned, as round 7 says); the winner “Numbat and thylacine” is thylacine|numbat. Engine: caseHash 5cc9935fc48b, caseProblems empty, guessP 1/6; judgeCase: only thylacine|numbat wins. Lazy routes: first (Golden jackal and koala), last (Numbat and golden jackal), both middles, shortest (Koala and numbat), longest (Thylacine and golden jackal, also the dog look-alike), A–Z first (Golden jackal and koala) and A–Z last (Thylacine and golden jackal) all lose; the winner is slot 2 of 6 and 5th of 6 A–Z. Rendered at 375 px and 1440 px: options in this order with these labels, line and reveal word for word.",
+      "note": "Every fact holds. Wording only: the option names the pair “Numbat and thylacine” while the computed line says “Thylacine and numbat differ least” (the engine names pairs in the strip’s row order); true either way, recorded as a ship-verifier nit. Design, with Zack: the winner sits in slot 2, and all three genomes winners now sort 5th of 6 A–Z.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 7 check: a fresh agent that drafted and fixed nothing in either genetics place; network not used",
+      "checkedAt": "2026-10-27T11:39:10Z",
+      "history": [
+        {
+          "id": "C.c_es75vcemyp",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "5cc9935fc48b",
+          "by": "round-7 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T06:00:00Z",
+          "evidence": "Same model, letters, option order, scenario, ask, reveal, claim and sources as C.c_ctjxpn8vek, whose independent round-4 verdict (caseHash 82ad9f53feb6) checked every window, count, source and the Open Tree order. Only the order of the two names inside three option labels changed: “Numbat and thylacine” (thylacine|numbat, the winner, still 2nd of 6), “Koala and thylacine” (thylacine|koala) and “Numbat and golden jackal” (jackal|numbat). The computed line is unchanged (it names pairs in the strip’s row order): “Thylacine and numbat differ least: 2 letters. …”. caseProblems empty; guessP 1/6. judgeCase: the first, last and both middle options, the longest and shortest label, and the labels an A–Z sort puts first and last all lose; so do the look-alikes (thylacine and golden jackal). The winner now sorts 5th of 6. Name order singles out no label: each animal comes first in some of its labels and second in others, and the thylacine leads one of its three.",
+          "note": "Drafting-side check only; an independent checker must read it. The option label (“Numbat and thylacine”) and the computed line (“Thylacine and numbat differ least”) name the pair in opposite orders.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "id": "C.c_f35semh91z",
+      "verdict": "supported",
+      "caseHash": "5e3c5d02a194",
+      "evidence": "The case is unchanged (same hash); only the shared engine’s computed line is new text. Line now: “Puma and jaguarundi differ least: 1 letter. The other pairs differ more: jaguarundi and Canada lynx by 6; puma and Canada lynx by 7; jaguar and puma by 8; jaguar and Canada lynx by 8; jaguar and jaguarundi by 9.” Windows re-extracted by script from the cached GenBank texts: ND1 gene letters 502–531 of NC_022842.1 jaguar, NC_016470.1 puma, NC_028311.1 jaguarundi, NC_028313.1 Canada lynx: all four match the bundle and occur once each. Recomputed: puma–jaguarundi 1; jaguarundi–lynx 6; puma–lynx 7; jaguar–puma 8, jaguar–lynx 8; jaguar–jaguarundi 9. The lynx pairs (6, 7) sit below every jaguar pair (8, 8, 9), so the line agrees with the reveal (“The Canada lynx’s line parted from theirs earlier, and the jaguar’s earlier still”). Winner 5th of 6; first, last, both middles, shortest (jaguar and puma, the size look-alike) and longest label lose. Every count in the line matches my count, every “by N” is larger than the winning count, and the pairs run nearest first. The line renders verbatim at 375 px (:5256, mission screen; for the thylacine also the expedition payoff). caseProblems empty, guessP 1/6, truth the same under 30 extra seeds. Scenario, reveal, claim and sources are the text the round-3 checker passed.",
+      "note": "The line is in the new one-sentence form: no wrapped line opens on a bare number at 375 px.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "5e3c5d02a194",
+          "by": "fixer (drafting side), round-1 learner review, 2026-10-26; awaiting an independent check",
+          "evidence": "Case c_f35semh91z (big cats of the Americas), which replaces c_26qrc6c48n with the same four ND1 windows, letters copied unchanged (letters 502–531: jaguar [W57], puma [W56], jaguarundi [W58], Canada lynx [W59]) and so the same counts: puma–jaguarundi 1; jaguarundi–lynx 6, puma–lynx 7; jaguar with puma 8, with lynx 8, with jaguarundi 9. Engine: truth puma|jaguarundi, the same under 6 extra seeds, a blind pick wins 1 in 6, the winner is the 5th of 6 options. Scenario: [W52.3] the jaguar is “the biggest cat species in the Americas”; [W50.1] the cougar is also called puma; [W50.83] “Depending on the locality, cougars can be smaller or bigger than jaguars”. Reveal as c_26qrc6c48n, reworded at its start: [W51.4] [W51.46] slender build, [W51.6] short legs; [W50.36] “not a true lion of the genus Panthera and cannot roar”; [W52.1] Panthera is the jaguar’s genus; [W50.42] [W51.36] closest relative the jaguarundi; lynx then jaguar parted earlier: Open Tree (otol-trees.json “puma-letters”).",
+          "note": "Drafting-side check only. Round-1 review: every case’s winning pair held the animal its scenario was about. This case is now told from the jaguar, whose pairs all lose, so that shortcut fails here. An independent checker must still read it.",
+          "fix": "",
+          "resolved": "Round-2 learner review fix (2026-10-26, drafting side; not yet seen by an independent checker): “genus” is never defined in the place, so the reveal no longer uses it: “it is not one of the big cats grouped with the jaguar as Panthera, and cannot roar” ([W50.36] “not a true lion of the genus Panthera and cannot roar”; [W52.1] the jaguar is a member of Panthera). The case also carries was: [c_26qrc6c48n], since the old case’s run printed every pair’s count. caseHash updated to the current text; still drafting side only."
+        },
+        {
+          "id": "C.c_f35semh91z",
+          "verdict": "supported",
+          "caseHash": "5e3c5d02a194",
+          "evidence": "Letters re-extracted by script from the cached GenBank texts: ND1 gene letters 502–531 (each record is the ND1 region, 956 letters) of NC_022842.1 jaguar, NC_016470.1 puma, NC_028311.1 jaguarundi (Herpailurus yagouaroundi), NC_028313.1 Canada lynx, all four match. Whole-gene NW: every pair aligns the window gap-free. Pair counts: puma–jaguarundi 1; jaguarundi–lynx 6; puma–lynx 7; jaguar–puma 8, jaguar–lynx 8; jaguar–jaguarundi 9, exactly the current outcome line. Whole-gene p: puma–jaguarundi 7.4%; lynx pairs 10.3–10.6%; jaguar pairs 11.2–11.8%. Within the puma–jaguarundi–lynx group the largest count (7) is below every jaguar pair (8, 8, 9), so the line agrees with the reveal. Open Tree opentree16.1 induced subtree fetched now (OTT 42322, 42307, 86162, 507549): (Panthera_onca,((Puma_yagouaroundi,Puma_concolor),Lynx_canadensis)); adding the cheetah (752759) gives ((Puma_yagouaroundi,Puma_concolor),Acinonyx_jubatus), so the jaguarundi is the closest living relative. Jaguar article: “the biggest cat species in the Americas”; “the only living member of the genus Panthera that is native to the Americas”; its tail is “the shortest of any big cat”. Cougar article: “also called puma”; “Depending on the locality, cougars can be smaller or bigger than jaguars” (scenario “in some places … grows as big”, claim “can grow as big”); “not a true lion of the genus Panthera and cannot roar”. Jaguarundi article: “slender build”, “elongated body, with relatively short legs”; “most closely related to the cougar; the jaguarundi-cougar clade is sister to the cheetah”. Engine: no problems; truth puma|jaguarundi under the seed and 12 other seeds; blind pick 1 in 6. Lazy strategies: first, last, both middle options (3rd, 4th), longest and shortest label all lose; the size look-alike (jaguar and puma) and the name look-alike (jaguar and jaguarundi) lose; every pair holding the scenario’s own animal, the jaguar, loses. Winner 5th of 6. No two case animals named together elsewhere (cases.transfer passes); single names elsewhere: “pumas” in evolution-e04’s Florida panther item and “jaguar” in the 2026-10-24 explore deck’s ocelot reel, neither about kinship.",
+          "note": "The reworded reveal is accurate: the puma is not in Panthera, the jaguar is, and the phrase does not deny the puma is a large cat. Nit, not learner-facing: the claim field states the rule without “as a rule”. Knowing that the jaguarundi is placed in the genus Puma (Open Tree names it Puma yagouaroundi) answers the case, which is knowledge, not a reflex.",
+          "fix": "",
+          "independent": true,
+          "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+          "checkedAt": "2026-10-27T01:40:00Z",
+          "resolved": "Round 4 (drafting side): the case is unchanged (same hash), but the shared sequence engine now prints the other pairs as one sentence, nearest first (“… differ least: N letters. The other pairs differ more: A and B by 5; …”), because the old one-sentence-per-pair form wrapped into lines that opened on “6.” at 375 px. Every count is the same; the computed line is new text for an independent read."
+        }
+      ],
+      "resolved": "Round 7 (drafting side, ship verification): the winner “Puma and jaguarundi” was the label an A–Z sort puts last. Replaced by C.c_p8ja6trwf8 (was: c_26qrc6c48n, c_f35semh91z): the two names are turned in two labels, “Jaguarundi and puma” (the winner) and “Jaguarundi and jaguar”. Model, letters, option order, scenario, reveal, claim and sources are unchanged; this verdict is kept as written.",
+      "supersededBy": "C.c_p8ja6trwf8"
+    },
+    {
+      "id": "C.c_p8ja6trwf8",
+      "verdict": "supported",
+      "caseHash": "a310a3c2762c",
+      "evidence": "Windows re-extracted by script from the cached GenBank texts, each found once: ND1 gene letters 502–531 of NC_022842.1 jaguar [W57], NC_016470.1 puma [W56], NC_028311.1 jaguarundi [W58] and NC_028313.1 Canada lynx [W59] (each gene 956 letters). My own whole-gene global alignment puts the four windows in the same columns, gap-free, for every pair. Pair counts recomputed: puma–jaguarundi 1; jaguarundi–lynx 6; puma–lynx 7; jaguar–puma 8, jaguar–lynx 8; jaguar–jaguarundi 9, exactly the computed line. Whole-gene p-distance agrees on the nearest pair (puma–jaguarundi 7.4%; lynx pairs 10.3–10.6%; jaguar pairs 11.2–11.9%). Open Tree opentree16.1 (“puma-letters”): (Panthera_onca,((Puma_yagouaroundi,Puma_concolor),Lynx_canadensis)) [W24], so “the Canada lynx’s line parted from theirs earlier, and the jaguar’s earlier still” holds; GenBank lineages: jaguar Pantherinae, the other three Felinae. Scenario: [W52.3] the jaguar “is the biggest cat species in the Americas”; [W50.83] “Depending on the locality, cougars can be smaller or bigger than jaguars” (“in some places the puma … grows as big”). Reveal: [W51.4], [W51.6] the jaguarundi is “a medium-sized cat of slender build” with “an elongated body, with relatively short legs”; [W50.36] Puma concolor “is not a true lion of the genus Panthera and cannot roar”; [W51.36] “The jaguarundi is most closely related to the cougar”; the jaguar is in Panthera [W52]. Options: each label names its own pair; the winner “Jaguarundi and puma” is puma|jaguarundi. Engine: caseHash a310a3c2762c, caseProblems empty, guessP 1/6; judgeCase: only puma|jaguarundi wins. Lazy routes: first (Jaguar and Canada lynx, also A–Z first), last (Jaguarundi and jaguar), both middles, shortest (Jaguar and puma, the size look-alike), longest (Jaguarundi and Canada lynx) and A–Z last (Puma and Canada lynx) all lose; the winner is slot 5 of 6 and 5th of 6 A–Z. Rendered at 375 px and 1440 px: options in this order with these labels, line and reveal word for word.",
+      "note": "Every fact holds. Wording only: the option says “Jaguarundi and puma”, the computed line “Puma and jaguarundi differ least”; true either way, recorded as a ship-verifier nit. Design, with Zack: the winner sits in slot 5.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 7 check: a fresh agent that drafted and fixed nothing in either genetics place; network not used",
+      "checkedAt": "2026-10-27T11:39:10Z",
+      "history": [
+        {
+          "id": "C.c_p8ja6trwf8",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "a310a3c2762c",
+          "by": "round-7 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T06:00:00Z",
+          "evidence": "Same model, letters, option order, scenario, ask, reveal, claim and sources as C.c_f35semh91z, whose independent round-4 verdict (caseHash 5e3c5d02a194) checked every window, count, source and the Open Tree order. Only the order of the two names inside two option labels changed: “Jaguarundi and puma” (puma|jaguarundi, the winner, still 5th of 6) and “Jaguarundi and jaguar” (jaguar|jaguarundi). The computed line is unchanged: “Puma and jaguarundi differ least: 1 letter. …”. caseProblems empty; guessP 1/6. judgeCase: the first, last and both middle options, the longest and shortest label, and the labels an A–Z sort puts first and last all lose; so do the look-alikes (jaguar and puma, the size look-alike). The winner now sorts 5th of 6. Name order singles out no label: the puma comes second in two of its three labels, the jaguarundi first in all three.",
+          "note": "Drafting-side check only; an independent checker must read it. The option label (“Jaguarundi and puma”) and the computed line (“Puma and jaguarundi differ least”) name the pair in opposite orders.",
+          "fix": ""
+        }
+      ]
+    },
+    {
+      "id": "C.c_rm4hwtrek5",
+      "verdict": "imprecise",
+      "caseHash": "4b9e7b9e30ff",
+      "evidence": "Every fact holds. Letters re-extracted by script from the cached GenBank texts: ND2 gene letters 273–302 of NC_011125.1 European badger (1,044), NC_009685.1 wolverine (1,042), NC_003426.1 American black bear (1,044), NC_021749.1 European pine marten (1,042), all four match. Whole-gene NW: every pair aligns the window gap-free. Pair counts: wolverine–marten 1; badger–wolverine 6, badger–marten 6; wolverine–bear 8, bear–marten 8; badger–bear 11, exactly the current outcome line; within the mustelids the largest count (6) is below every bear pair (8, 8, 11). Whole-gene p: wolverine–marten 12.2%; badger pairs 16.1–18.4%; bear pairs 20.1–22.3%. Open Tree opentree16.1 induced subtree fetched now (OTT 178247, 532122, 923113, 872577): (((Martes_martes,Gulo_gulo),Meles_meles),Ursus_americanus); adding the tayra and fisher gives ((Martes_pennanti,(Martes_martes,Gulo_gulo)),Eira_barbara), so “nearest the martens” holds. RefSeq taxonomy: Gulo and Martes in Guloninae, Meles in Melinae, the bear in Ursidae. Wolverine article: “northern boreal forests and subarctic and alpine tundra”; “a muscular carnivore”; “Though its legs are short, its large, five-toed paws”; “The pungent odor has given rise to the nicknames ‘skunk bear’”; “the largest land-dwelling member of the family Mustelidae”; “Genetic evidence suggests that the wolverine is most closely related to the tayra and martens”; also “a powerful and versatile predator” (it is “primarily” a scavenger, so “hunts” is true but not the whole diet). European pine marten article: “also known as the pine marten, is a mustelid”; “climbing or running on tree branches”. European badger article: “family Mustelidae”; “stocky body”. Engine: no problems; truth wolverine|marten under the seed and 12 other seeds; blind pick 1 in 6. Lazy strategies: first, last, the 4th option, longest label (American black bear and European pine marten) and shortest label (European badger and wolverine) lose; the nickname look-alike (wolverine and American black bear) and the two “European” labels (European badger and European pine marten) lose. No two case animals named together elsewhere (cases.transfer passes; no single mention anywhere else either).",
+      "note": "Open on design only: the winning option is 3rd of 6, one of the two middle options, so a “tap a middle option” reflex (3rd or 4th) wins this case half the time; on a phone the six options wrap two to a row (grid minmax 150px), which puts the winner in the middle row. The round-1 move took it off the last slot and into a middle one. Among six options only the 2nd and 5th are neither first, last nor middle, and the other two cases already use them (the Tasmanian tiger 2nd, the big cats 5th), so the bundle’s “a different place in each list” cannot hold alongside “never first, last or middle”.",
+      "fix": "Move the winning option to 2nd or 5th, e.g. options in the order wolverine|bear, wolverine|marten, badger|marten, bear|marten, badger|bear, badger|wolverine (shortest and longest labels still lose), and change the bundle comment from “a different place in each list” to “never first, last or a middle option”. Or, if Zack rules that a middle slot of an even list is no reflex, close this note with that ruling.",
+      "independent": true,
+      "by": "independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27",
+      "checkedAt": "2026-10-27T01:40:00Z",
+      "history": [
+        {
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "4b9e7b9e30ff",
+          "by": "round-2 fix agent (drafting side), learner review round 2, 2026-10-26; awaiting an independent check",
+          "checkedAt": "2026-10-26T21:00:00Z",
+          "evidence": "Same model, letters, counts, reveal and claim as c_0swp00r3c2 (drafting-side evidence under “retired”). Only labels changed: the marten is “European pine marten” in its string and in every option, as the badger and bear are named in full; the source is Wikipedia: European pine marten and RefSeq NC_021749.1, “European pine marten” [W62]. Engine: truth wolverine|marten, 3rd of 6, the same under 6 extra seeds, a blind pick wins 1 in 6. The shortest label is now “European badger and wolverine”, a loser.",
+          "note": "Drafting-side check only; an independent checker must still read it.",
+          "fix": ""
+        }
+      ],
+      "resolved": "Round 4 (drafting side): options reordered as the checker proposed, so replaced by C.c_b9xj73an60 (was: c_qnqfkzddsy, c_0swp00r3c2, c_rm4hwtrek5): wolverine|bear, wolverine|marten, badger|marten, bear|marten, badger|bear, badger|wolverine; the winner is 2nd of 6. Bundle comment now says “never first, last or a middle option”. Model, letters, reveal and claim unchanged.",
+      "supersededBy": "C.c_b9xj73an60"
+    },
+    {
+      "id": "C.c_b9xj73an60",
+      "verdict": "supported",
+      "caseHash": "fb9b26c7e043",
+      "evidence": "Letters re-extracted by script from the cached GenBank texts: ND2 gene letters 273–302 of NC_011125.1 European badger, NC_009685.1 wolverine, NC_003426.1 American black bear and NC_021749.1 European pine marten; all four match the bundle and each occurs once in its record. Pair counts recomputed: wolverine–marten 1; badger–wolverine 6, badger–marten 6; wolverine–bear 8, bear–marten 8; badger–bear 11, exactly the computed line (“… differ least: 1 letter. The other pairs differ more: European badger and wolverine by 6; …; European badger and American black bear by 11.”), nearest first, and what renders at 375 px. Within the mustelids the largest count (6) is below every bear pair (8, 8, 11), so the line agrees with the reveal’s order. Open Tree (otol-trees.json “wolverine-letters”, opentree16.1): (((Martes_martes,Gulo_gulo),Meles_meles),Ursus_americanus). Wolverine article: “northern boreal forests and subarctic and alpine tundra”; “a muscular carnivore”; “Though its legs are short, its large, five-toed paws”; “The pungent odor has given rise to the nicknames “skunk bear””; “the largest land-dwelling member of the family Mustelidae”; “Genetic evidence suggests that the wolverine is most closely related to the tayra and martens”; weasels are Mustelinae (Mustela). Pine marten: “is a mustelid”; “climbing or running on tree branches”. Badger: “family Mustelidae”; “stocky body”. judgeCase: winner wolverine|marten, 2nd of 6; first (wolverine|bear, the nickname look-alike), last (badger|wolverine, the shortest label), both middles (badger|marten, the two “European” labels; bear|marten, the longest label) all lose. caseProblems empty, guessP 1/6, truth the same under 30 extra seeds.",
+      "note": "The round-3 finding is closed: the winner left the middle. Advisory only, not a listed reflex: in the picture the animals are listed badger, wolverine, bear, marten, so “the scenario’s animal plus the last one listed” wins here, as it does in the thylacine case (thylacine, jackal, koala, numbat); the big cats case (jaguar, puma, jaguarundi, lynx) breaks it, so it wins 2 of 3. Listing the marten before the bear would remove it, at the cost of a new case ID; Zack’s call.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place",
+      "checkedAt": "2026-10-27T03:16:42Z",
+      "history": [
+        {
+          "id": "C.c_b9xj73an60",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "fb9b26c7e043",
+          "by": "round-4 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T02:32:54Z",
+          "evidence": "Same model, letters, reveal and claim as C.c_rm4hwtrek5, whose independent round-3 verdict checked every window, count, source and the Open Tree order. Only the option order changed, as that verdict’s fix proposed. Engine: truth wolverine|marten, now 2nd of 6; caseProblems empty; guessP 1/6. judgeCase: first (wolverine|bear), last (badger|wolverine), both middles (badger|marten, bear|marten), shortest label (European badger and wolverine) and longest label (American black bear and European pine marten) all lose. Computed line (new shared format): “Wolverine and European pine marten differ least: 1 letter. The other pairs differ more: European badger and wolverine by 6; European badger and European pine marten by 6; wolverine and American black bear by 8; American black bear and European pine marten by 8; European badger and American black bear by 11.”",
+          "note": "Drafting-side check only; an independent checker must read it. The thylacine case also has its winner 2nd; with six options only the 2nd and 5th slots are neither first, last nor middle.",
+          "fix": ""
+        }
+      ],
+      "resolved": "Round 7 (drafting side, ship verification): the winner “Wolverine and European pine marten” was the label an A–Z sort puts last. Replaced by C.c_bmtjvp1d4a (was: c_qnqfkzddsy, c_0swp00r3c2, c_rm4hwtrek5, c_b9xj73an60): the two names are turned in two labels, “European pine marten and wolverine” (the winner) and “European pine marten and American black bear”. Model, letters, option order, scenario, reveal, claim and sources are unchanged; this verdict is kept as written.",
+      "supersededBy": "C.c_bmtjvp1d4a"
+    },
+    {
+      "id": "C.c_bmtjvp1d4a",
+      "verdict": "supported",
+      "caseHash": "4923242ca24b",
+      "evidence": "Windows re-extracted by script from the cached GenBank texts, each found once: ND2 gene letters 273–302 of NC_011125.1 European badger [W63], NC_009685.1 wolverine [W60], NC_003426.1 American black bear [W61] and NC_021749.1 European pine marten [W62]. My own whole-gene global alignment puts the four windows in the same columns, gap-free, for every pair. Pair counts recomputed: wolverine–marten 1; badger–wolverine 6, badger–marten 6; wolverine–bear 8, bear–marten 8; badger–bear 11, exactly the computed line. Whole-gene p-distance agrees: wolverine–marten 12.2%; badger pairs 16.4–18.6%; bear pairs 20.4–22.7%. Open Tree opentree16.1 (“wolverine-letters”): (((Martes_martes,Gulo_gulo),Meles_meles),Ursus_americanus) [W24], so the reveal’s order (the badger’s line parted earlier, the bear’s earlier still) holds; GenBank lineages: wolverine and marten Guloninae, badger Melinae (all Mustelidae), bear Ursidae. Scenario: [W53.4] “the northern boreal forests and subarctic and alpine tundra”; [W53.2] “a muscular carnivore”; [W53.28] “Though its legs are short, its large, five-toed paws”; [W53.41] “The pungent odor has given rise to the nicknames “skunk bear””. Reveal: [W54.39] “climbing or running on tree branches”; [W53.1] “the largest land-dwelling member of the family Mustelidae”; [W53.21] “Genetic evidence suggests that the wolverine is most closely related to the tayra and martens”; [W54.1] the pine marten “is a mustelid”; [W55.1] the badger is “in the family Mustelidae”; the wolverine article places weasels (Mustela) in the family. Claim: [W55.5] the badger’s “stocky body”. Options: each label names its own pair; the winner “European pine marten and wolverine” is wolverine|marten. Engine: caseHash 4923242ca24b, caseProblems empty, guessP 1/6; judgeCase: only wolverine|marten wins. Lazy routes: first (Wolverine and American black bear, the nickname look-alike), last (European badger and wolverine, also the shortest label), both middles, longest (European pine marten and American black bear), A–Z first (European badger and American black bear) and A–Z last (Wolverine and American black bear) all lose; the winner is slot 2 of 6 and 5th of 6 A–Z. Rendered at 375 px and 1440 px: options in this order with these labels, line and reveal word for word.",
+      "note": "Every fact holds. Wording only: the option says “European pine marten and wolverine”, the computed line “Wolverine and European pine marten differ least”; true either way, recorded as a ship-verifier nit. Design, with Zack: the winner sits in slot 2.",
+      "fix": "",
+      "independent": true,
+      "checkedBy": "independent adversarial fact-checker (Claude), round 7 check: a fresh agent that drafted and fixed nothing in either genetics place; network not used",
+      "checkedAt": "2026-10-27T11:39:10Z",
+      "history": [
+        {
+          "id": "C.c_bmtjvp1d4a",
+          "verdict": "supported",
+          "independent": false,
+          "caseHash": "4923242ca24b",
+          "by": "round-7 fix agent (drafting side), 2026-10-27; awaiting an independent check",
+          "checkedAt": "2026-10-27T06:00:00Z",
+          "evidence": "Same model, letters, option order, scenario, ask, reveal, claim and sources as C.c_b9xj73an60, whose independent round-4 verdict (caseHash fb9b26c7e043) checked every window, count, source and the Open Tree order. Only the order of the two names inside two option labels changed: “European pine marten and wolverine” (wolverine|marten, the winner, still 2nd of 6) and “European pine marten and American black bear” (bear|marten). The computed line is unchanged: “Wolverine and European pine marten differ least: 1 letter. …”. caseProblems empty; guessP 1/6. judgeCase: the first, last and both middle options, the longest and shortest label, and the labels an A–Z sort puts first and last all lose; so do the look-alikes (wolverine and American black bear, the nickname look-alike). The winner now sorts 5th of 6. Name order singles out no label: the wolverine comes second in two of its three labels, the marten first in two of its three.",
+          "note": "Drafting-side check only; an independent checker must read it. The option label (“European pine marten and wolverine”) and the computed line (“Wolverine and European pine marten differ least”) name the pair in opposite orders.",
+          "fix": ""
+        }
+      ]
+    }
+  ],
+  "retired": [
+    {
+      "id": "C2",
+      "verdict": "imprecise",
+      "evidence": "Case c_0ta1k69xg8 (dolphin). Letters verified: CYTB dolphin/hippo/koala 122-151, shark 125-154 (gap-free and homologous by NW; the shark gene is 6 letters longer). Counts: dolphin-hippo 5; dolphin-shark 8, dolphin-koala 8, hippo-shark 8, hippo-koala 9, shark-koala 8. [W31.6] \"...diverged about 55 million years ago\".",
+      "note": "Key and the 55-million-year figure hold. But after the run the outcome line prints every pair, and those counts contradict the reveal's \"the koala's line parted from theirs earlier, and the great white shark's earlier than any\": in this window the hippo sits nearer the shark (8) than the koala (9), and the dolphin is tied (8, 8). Whole-gene margins are thin too (hippo-koala 24.0% vs hippo-shark 24.7%; dolphin-koala 25.4% vs dolphin-shark 26.0%, my NW). Giveaway as in C1: subject first, shark named as the lure, and whales and hippos being kin is well-known trivia.",
+      "fix": "Reveal: \"...Dolphins are mammals; the koala's and the shark's lines parted from theirs far earlier.\" Or choose a window where both the dolphin and the hippo sit nearer the koala than the shark.",
+      "resolved": "Reveal, animals and gene all changed. The koala, the obvious outsider, is replaced by the harbour seal, a fellow mammal of the sea, so the hippo is no longer “the one left over”. CYTB could not separate the hippo from the seal (whole-gene dolphin–hippo 19.5% vs dolphin–seal 20.3%), so the case now uses ND2, pinned 2026-10-26 for all four: whole ND2 p dolphin–hippo 21.5% vs hippo–seal 24.4%, dolphin–seal 25.6%, shark pairs 32.1–33.3%. Window ND2 letters 103–132 in all four, NW-checked gap-free: dolphin–hippo 2; dolphin–seal and hippo–seal 5; the shark with the others 11, 12 and 13, the Open Tree’s order (((dolphin,hippo),seal),shark), refetched 2026-10-26. The reveal now claims only what the tree and the printed counts share: “The harbour seal is a mammal too, but its line parted from theirs earlier, and the great white shark’s earlier than any.” Listed dolphin, seal, hippo, shark.",
+      "retired": "2026-10-26: case c_0ta1k69xg8 (the dolphin) was removed: the independent review found it winnable without counting, since evolution-e01’s tree sim and evolution-e12’s bank already teach that whales’ closest kin are hippos. Replaced by the puma case c_26qrc6c48n (unit C.c_26qrc6c48n)."
+    },
+    {
+      "id": "C3",
+      "verdict": "imprecise",
+      "evidence": "Case c_ge71ftpvpa (pandas). Letters verified: CYTB 760-789 in all four, homologous and gap-free by NW. Counts: giant-bear 3; bear-red 6, giant-red 7, red-mouse 7, giant-mouse 8, bear-mouse 8. Whole CYTB p: giant-bear 16.4% vs 18.0-23.7%. [W33.1] [W33.31] [W33.32] [W32.7] [W32.8] [W32.80].",
+      "note": "Facts, key and reveal hold, and no tree is drawn. Giveaway: the giant panda is also called the panda bear [W33.1], so \"Giant panda and brown bear\" is common knowledge; the red panda is the named lure and the mouse the obvious outgroup, so the C1 rule wins again. The printed counts tie the red panda with the mouse and with the giant panda (7 and 7), which fits the reveal's \"The mouse's line parted from all three earliest\" only loosely.",
+      "fix": "Swap the mouse for a carnivore closer to both pandas (e.g. a raccoon), so the call needs the letters, and re-check that the giant panda and the bear still differ least.",
+      "resolved": "The house mouse, the obvious outsider, is replaced by the raccoon (CYTB, NC_009126.1, pinned 2026-10-26), the red panda’s own kin, so “red panda and raccoon” is a live wrong answer (the checker’s fix). Window CYTB 814–843 in all four: giant panda–brown bear 1; red panda–raccoon 4; every pair across the two branches 5 to 8, the Open Tree’s order ((raccoon,red panda),(brown bear,giant panda)), refetched 2026-10-26. No ties. Whole CYTB p: giant–bear 16.4% vs 18.0–22.1%; the whole gene does not put the red panda nearer the raccoon (20.2%) than the bear (18.0%), so the reveal’s raccoon line rests on W32.7, not on the letters. The mouse sentence is cut. Listed red panda, giant panda, raccoon, brown bear, so the winner is neither first nor the first two. Residual: a learner who already knows the giant panda is a bear [W33.1] still wins, which is knowing the answer, not a shortcut.",
+      "retired": "2026-10-26: case c_ge71ftpvpa (two pandas) was removed: the independent review found it a near-copy of evolution-e01’s “Two pandas”, winnable from that case’s reveal, and its own reveal named the winning set of e01’s multi-pick case. Replaced by the wolverine case c_qnqfkzddsy (unit C.c_qnqfkzddsy)."
+    },
+    {
+      "id": "C.c_26qrc6c48n",
+      "verdict": "supported",
+      "independent": false,
+      "caseHash": "a0b578c5a9d4",
+      "by": "fixer (drafting side), 2026-10-26; awaiting an independent check",
+      "evidence": "Case c_26qrc6c48n (puma). ND1 gene letters 502–531 re-extracted from the pinned RefSeq region texts and matched: puma [W56], Canada lynx [W59], jaguarundi [W58], jaguar [W57]; all four genes are 956 letters and every pair aligns the window gap-free in a whole-gene NW alignment (match +1, mismatch −1, gap −2). Counts: puma–jaguarundi 1; jaguarundi–lynx 6, puma–lynx 7; jaguar with puma 8, with lynx 8, with jaguarundi 9. Whole-gene p: puma–jaguarundi 7.4%; lynx pairs 10.3–10.6%; jaguar pairs 11.2–11.8%, the same order. Open Tree opentree16.1 induced subtree (otol-trees.json “puma-letters”): (Panthera_onca,((Puma_yagouaroundi,Puma_concolor),Lynx_canadensis)). Engine: truth puma|jaguarundi, the same under 6 extra seeds, a blind pick wins 1 in 6. Scenario: [W50.1] also called puma and mountain lion, a large cat native to the Americas; [W52.3] the jaguar is the biggest cat species in the Americas. Reveal: [W51.4] [W51.6] slender, elongated body, short legs; [W50.36] not of the genus Panthera, cannot roar; [W52.1] Panthera is the jaguar’s genus; [W50.42] [W51.36] closest relative; lynx then jaguar parted earlier: Open Tree.",
+      "note": "Drafting-side check only. An independent checker must still read it; the review sheet counts it as unchecked until then.",
+      "fix": "",
+      "retired": "2026-10-26 (round-1 learner review): c_26qrc6c48n was replaced by c_f35semh91z, the same cats and letters told from the jaguar, so the winning pair no longer holds the scenario’s own animal."
+    },
+    {
+      "id": "C.c_qnqfkzddsy",
+      "verdict": "supported",
+      "independent": false,
+      "caseHash": "455a6b834261",
+      "by": "fixer (drafting side), 2026-10-26; awaiting an independent check",
+      "evidence": "Case c_qnqfkzddsy (wolverine). ND2 gene letters 273–302 re-extracted from the pinned RefSeq region texts and matched: European badger [W63], wolverine [W60], American black bear [W61], European pine marten [W62]; every pair aligns the window gap-free in a whole-gene NW alignment (match +1, mismatch −1, gap −2; the badger and bear genes are 1,044 letters, the others 1,042, with no indel before the window). Counts: wolverine–marten 1; badger with wolverine and marten 6; bear with wolverine and marten 8, with badger 11. Whole-gene p: wolverine–marten 12.2%; badger pairs 16.1–18.4%; bear pairs 20.1–22.3%, the same order. Open Tree opentree16.1 induced subtree (otol-trees.json “wolverine-letters”): (((Martes_martes,Gulo_gulo),Meles_meles),Ursus_americanus). Engine: truth wolverine|marten, the same under 6 extra seeds, a blind pick wins 1 in 6. Scenario: [W53.4] northern boreal forests and tundra; [W53.2] muscular; [W53.28] short legs, large paws; [W53.41] “skunk bear”. Reveal: [W54.39] climbing and running on tree branches; [W53.1] largest land-dwelling member of Mustelidae; [W53.43] weasels, [W54.1] martens and [W55.1] badgers are mustelids; [W53.21] genetic evidence puts it nearest the tayra and martens; badger then bear parted earlier: Open Tree. Claim: [W55.5] stocky badger.",
+      "note": "Drafting-side check only. An independent checker must still read it; the review sheet counts it as unchecked until then.",
+      "fix": "",
+      "retired": "2026-10-26 (round-1 learner review): c_qnqfkzddsy was replaced by c_0swp00r3c2, the same model with the winning pair moved off the end of the options."
+    },
+    {
+      "id": "C.c_0swp00r3c2",
+      "verdict": "supported",
+      "independent": false,
+      "caseHash": "33231713318d",
+      "by": "fixer (drafting side), round-1 learner review, 2026-10-26; awaiting an independent check",
+      "evidence": "Case c_0swp00r3c2 replaces c_qnqfkzddsy with the same model and text, the options reordered so the winning pair (wolverine|marten) is 3rd of 6, not last, and “one mitochondrial gene” now “one gene”. The drafting-side evidence for c_qnqfkzddsy still holds: Case c_qnqfkzddsy (wolverine). ND2 gene letters 273–302 re-extracted from the pinned RefSeq region texts and matched: European badger [W63], wolverine [W60], American black bear [W61], European pine marten [W62]; every pair aligns the window gap-free in a whole-gene NW alignment (match +1, mismatch −1, gap −2; the badger and bear genes are 1,044 letters, the others 1,042, with no indel before the window). Counts: wolverine–marten 1; badger with wolverine and marten 6; bear with wolverine and marten 8, with badger 11. Whole-gene p: wolverine–marten 12.2%; badger pairs 16.1–18.4%; bear pairs 20.1–22.3%, the same order. Open Tree opentree16.1 induced subtree (otol-trees.json “wolverine-letters”): (((Martes_martes,Gulo_gulo),Meles_meles),Ursus_americanus). Engine: truth wolverine|marten, the same under 6 extra seeds, a blind pick wins 1 in 6. Scenario: [W53.4] northern boreal forests and tundra; [W53.2] muscular; [W53.28] short legs, large paws; [W53.41] “skunk bear”. Reveal: [W54.39] climbing and running on tree branches; [W53.1] largest land-dwelling member of Mustelidae; [W53.43] weasels, [W54.1] martens and [W55.1] badgers are mustelids; [W53.21] genetic evidence puts it nearest the tayra and martens; badger then bear parted earlier: Open Tree. Claim: [W55.5] stocky badger.",
+      "note": "Drafting-side check only. An independent checker must still read it.",
+      "fix": "",
+      "retired": "2026-10-26 round 2: renamed c_rm4hwtrek5 when the marten was named in full in its options and string label (same letters, counts and reveal)."
+    }
+  ],
+  "round1": "2026-10-26, round-1 learner review, drafting side. Changed units: B5.goal, B8.prompt, C.c_ctjxpn8vek (text and labels only). Replaced: C.c_26qrc6c48n by C.c_f35semh91z and C.c_qnqfkzddsy by C.c_0swp00r3c2 (both independent: false, so merge keeps them open). Changed text that is not a unit: the sim’s bird labels are lower-case mid-sentence (display only), and its pair counts now print one pair a line. None of this has been seen by the independent checker.",
+  "round2": "2026-10-26, round-2 learner review, drafting side. Renamed: c_0swp00r3c2 → c_rm4hwtrek5 (the marten named in full; was: c_qnqfkzddsy, c_0swp00r3c2), \"independent\": false. C.c_f35semh91z: “genus” reworded in the reveal, still \"independent\": false. Changed units: B8.explain and I.i_0amkrzmx60 (“suborder” reworded). Changed text that is not a unit: the sim’s credit line no longer says “mitochondrial genomes”. None of this has been seen by the independent checker.",
+  "round3": "2026-10-27T01:40:00Z: independent adversarial checker, round 3 (fresh subagent that drafted nothing in this place), 2026-10-27. Scope: every unit changed after the first independent check and not yet independently read (B5.goal and the tree credit, B8.prompt, B8.explain, I.i_0amkrzmx60, C.c_ctjxpn8vek at its current hash, C.c_f35semh91z, C.c_rm4hwtrek5). Method: every window re-extracted by script from the cached GenBank text and every pair count recomputed; whole-gene Needleman–Wunsch alignments for homology and p-distances; Open Tree opentree16.1 induced subtrees refetched from the live API (synth_id confirmed); learner text checked against the cached Wikipedia extracts; each case played through judgeCase and caseProblems (engines bundled from src/cases/engines.ts) with the first, last, both middle, longest and shortest options, the look-alikes and 12 extra seeds. Each unit’s earlier entries are kept under \"history\". Open after this round: I.i_0amkrzmx60 (gulls are not the auks’ next branch out; the skuas are) and C.c_rm4hwtrek5 (winner in a middle slot).",
+  "round4": {
+    "by": "round-4 fix agent (drafting side; fixed, did not check independently), 2026-10-27",
+    "summary": "Acted on both open round-3 units: I.i_0amkrzmx60 (the checker’s wording) and C.c_rm4hwtrek5 → C.c_b9xj73an60 (winner moved to 2nd). Shared code changed the computed line of all three cases (the other pairs in one sentence, nearest first) and dropped the codon table’s “·T·” header row. Awaiting an independent read: C.c_b9xj73an60 (independent: false), I.i_0amkrzmx60, and the new computed lines of C.c_ctjxpn8vek and C.c_f35semh91z. Verdicts above are the round-3 checker’s; only “resolved” and “supersededBy” were added. factcheck-input.md was regenerated from the round-4 text."
+  },
+  "round4Check": {
+    "checker": "independent adversarial fact-checker (Claude), round 4: a fresh subagent that drafted and fixed nothing in this place; network not used",
+    "checkedAt": "2026-10-27T03:16:42Z",
+    "scope": "Every unit round 4 (f396be9) changed or created in this place: I.i_0amkrzmx60 (explain), C.c_b9xj73an60 (replaces C.c_rm4hwtrek5), and the new computed lines of C.c_ctjxpn8vek and C.c_f35semh91z. factcheck-input.md was regenerated first and was unchanged.",
+    "method": "Text read from src/places/generated/genetics-genomes.ts at f396be9, from the regenerated sheet and as rendered at 375 px (dev server :5256: expedition-playthrough phone and desktop clean; each case opened as a field mission and its outcome line and reveal read off the page). Windows re-extracted from the cached GenBank texts and every pair count recomputed independently; Open Tree topologies read from otol-trees.json; learner text checked against the cached Wikipedia extracts. Each case played through judgeCase and caseProblems with the first, last, both middle, shortest and longest options, the look-alikes and 30 extra seeds.",
+    "result": "All four units supported."
+  },
+  "round7": {
+    "by": "round-7 fix agent (drafting side; fixed, did not check independently), 2026-10-27",
+    "summary": "Acted on the ship verifiers’ label finding: in all four pick cases of both places the winner was the label an A–Z sort puts last. The three cases here are re-IDed with the two names turned inside some labels (C.c_ctjxpn8vek → C.c_es75vcemyp, C.c_f35semh91z → C.c_p8ja6trwf8, C.c_b9xj73an60 → C.c_bmtjvp1d4a); no model, letter, option order, scenario, reveal, claim or source changed. Each new entry is a drafting-side check (independent: false), so merge keeps it open until an independent checker reads it. Verdicts above are the earlier checkers’; only “resolved” and “supersededBy” were added. factcheck-input.md was regenerated from the round-7 text."
+  },
+  "round7Check": {
+    "checker": "independent adversarial fact-checker (Claude), round 7 check: a fresh agent that drafted and fixed nothing in either genetics place; network not used",
+    "checkedAt": "2026-10-27T11:39:10Z",
+    "scope": "Every unit round 7 (68bdab3) changed or created in this place: C.c_es75vcemyp (replaces C.c_ctjxpn8vek), C.c_p8ja6trwf8 (replaces C.c_f35semh91z), C.c_bmtjvp1d4a (replaces C.c_b9xj73an60); in each, the two names inside some option labels were turned.",
+    "method": "Text read from the bundle at 68bdab3, from factcheck-input.md (each caseHash recomputed from the bundle and equal to the sheet), and as rendered on the dev server at :5259 in WebKit at 375×812 (59/34 px insets) and Chromium at 1440×900: each case opened as a field mission with the earlier cases seeded as played and missed, the engine’s winning call made, and the title, scenario, ask, option labels or strand label, outcome line and reveal read off the page and compared with the bundle word for word (all equal, no page or console errors; the win lit the patch and moved the place into earnedIds). Engine: a scratch rolldown bundle of src/cases/engines.ts and the places; runCase, judgeCase, caseProblems and guessP called directly.",
+    "result": "All three supported. Wording nit on record: each option names its pair in the opposite order to the computed line. Design point with Zack: option order (winners in slots 2, 5, 2; all three sort 5th of 6 A–Z)."
+  }
+}

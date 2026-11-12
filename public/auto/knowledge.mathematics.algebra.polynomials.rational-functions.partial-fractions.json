@@ -1,0 +1,328 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions",
+ "name": "Partial fractions",
+ "summary": [
+  {
+   "text": "Partial fraction decomposition expresses a fraction of two polynomials as a sum of a polynomial, possibly zero, and one or several fractions with simpler denominators.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It matters because it provides algorithms for computing antiderivatives, Taylor series expansions, inverse Z-transforms and inverse Laplace transforms of rational functions.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "If the numerator's degree is at least the denominator's, you first divide using polynomial long division, then decompose the leftover fraction.",
+   "cites": [
+    43,
+    44
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discovered",
+   "value": "Independently by Johann Bernoulli and Gottfried Leibniz in 1702",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Uses",
+   "value": "Antiderivatives, Taylor series, inverse Z- and Laplace transforms",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Over complex numbers",
+   "value": "Every denominator piece has degree one, with constant numerators",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Over real numbers",
+   "value": "Some denominator pieces may be quadratic",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "Residues",
+   "value": "Coefficients of the 1/(x − α_j) terms are called residues",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A fraction of polynomials has a numerator of higher degree than its denominator. What is the first move?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Divide the top by the bottom with polynomial long division"
+    },
+    {
+     "id": "b",
+     "label": "Split the denominator into pieces straight away"
+    },
+    {
+     "id": "c",
+     "label": "Multiply both top and bottom by the denominator"
+    },
+    {
+     "id": "d",
+     "label": "Cancel the highest power from both"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the numerator's degree is at least the denominator's, do the Euclidean division using polynomial long division, then seek partial fractions for the remainder fraction.",
+   "cites": [
+    43,
+    44
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions:q1"
+  },
+  {
+   "prompt": "A calculus student must find the antiderivative of a fraction of two polynomials. How does decomposition help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It turns the fraction into a single simple term"
+    },
+    {
+     "id": "b",
+     "label": "It splits it into a polynomial plus fractions with simpler denominators"
+    },
+    {
+     "id": "c",
+     "label": "It removes the denominator completely"
+    },
+    {
+     "id": "d",
+     "label": "It only checks whether an answer exists"
+    }
+   ],
+   "answer": "b",
+   "explain": "The decomposition writes the fraction as a polynomial plus fractions with simpler denominators, which provides an algorithm for explicit antiderivatives.",
+   "cites": [
+    1,
+    2,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions:q2"
+  },
+  {
+   "prompt": "A denominator has a factor that cannot be broken down further over the given field and is not of degree one. What must the numerator over that factor look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A constant, as for every other piece"
+    },
+    {
+     "id": "b",
+     "label": "Any polynomial, with no limit on its degree"
+    },
+    {
+     "id": "c",
+     "label": "A polynomial of the same degree as the factor"
+    },
+    {
+     "id": "d",
+     "label": "A polynomial of smaller degree than the factor, not just a constant"
+    }
+   ],
+   "answer": "d",
+   "explain": "Each numerator is a polynomial of smaller degree than the irreducible polynomial in its denominator, so over a factor that is not of degree one it need not be a constant.",
+   "cites": [
+    4,
+    29
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions:q3"
+  },
+  {
+   "prompt": "A program decomposes a fraction whose coefficients are whole numbers. Why might it use square-free factorization rather than full irreducible factorization?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is much easier to compute and avoids bringing in irrational coefficients"
+    },
+    {
+     "id": "b",
+     "label": "It always gives fewer terms than the finer decomposition does"
+    },
+    {
+     "id": "c",
+     "label": "It works only when every denominator piece has degree one"
+    },
+    {
+     "id": "d",
+     "label": "It lets the program skip the Euclidean division step entirely"
+    }
+   ],
+   "answer": "a",
+   "explain": "Replacing irreducible by square-free polynomials swaps factorization for a much easier computation. It is enough for most uses and avoids irrational coefficients when the inputs are integers or rationals.",
+   "cites": [
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions:q4"
+  },
+  {
+   "prompt": "You have written unknown numerators over each simpler denominator. How do you find them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guess whole numbers until the sides agree"
+    },
+    {
+     "id": "b",
+     "label": "Put the pieces over a common denominator and equate coefficients of each power of x"
+    },
+    {
+     "id": "c",
+     "label": "Ignore the denominators and compare numerators one at a time"
+    },
+    {
+     "id": "d",
+     "label": "Differentiate both sides until the unknowns disappear"
+    }
+   ],
+   "answer": "b",
+   "explain": "Reducing the sum to a common denominator and equating the coefficients of each power of x gives a system of linear equations for the unknown coefficients.",
+   "cites": [
+    38
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions:q5"
+  },
+  {
+   "prompt": "Working over the complex numbers, what does the fundamental theorem of algebra imply about the pieces?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every denominator has degree one and every numerator is a constant"
+    },
+    {
+     "id": "b",
+     "label": "Every numerator is zero and the denominators multiply"
+    },
+    {
+     "id": "c",
+     "label": "Denominators may be quadratic, with linear numerators"
+    },
+    {
+     "id": "d",
+     "label": "The decomposition no longer exists"
+    }
+   ],
+   "answer": "a",
+   "explain": "Over the complex numbers, the fundamental theorem of algebra implies that all denominator pieces have degree one and all numerators are constants.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.polynomials.rational-functions.partial-fractions:q6"
+  }
+ ],
+ "source": {
+  "title": "Partial fraction decomposition",
+  "url": "https://en.wikipedia.org/wiki/Partial_fraction_decomposition",
+  "revision": 1373246764
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Breaking a fraction apart",
+    "text": "Partial fraction decomposition takes a rational fraction, a fraction whose top and bottom are both polynomials, and rewrites it as a sum. The sum has a polynomial part, which may be zero, plus one or more fractions whose denominators are simpler. Johann Bernoulli and Gottfried Leibniz each found the idea on their own in 1702.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "heading": "Why it is useful",
+    "text": "Splitting a fraction this way gives step-by-step methods for many calculations with rational functions. Among them are working out antiderivatives, expanding into Taylor series, and taking inverse Laplace transforms and inverse Z-transforms. For antiderivatives, the job comes down to integrating a final sum called the logarithmic part, whose antiderivative is a linear combination of logarithms.",
+    "cites": [
+     2,
+     33
+    ]
+   },
+   {
+    "heading": "First, divide if needed",
+    "text": "Say the fraction is P(x)/Q(x). If the degree of P is at least the degree of Q, start with polynomial long division, which gives P(x) = E(x) Q(x) + R(x), where the remainder R has lower degree than Q. Dividing through by Q(x) leaves E(x) plus the fraction R(x)/Q(x). The polynomial E(x) is done, and only the leftover fraction R(x)/Q(x) still needs splitting.",
+    "cites": [
+     43,
+     44
+    ]
+   },
+   {
+    "heading": "What the pieces look like",
+    "text": "In the finished result, each denominator is a power of an irreducible polynomial, one that cannot be factored into polynomials of positive degree. Each numerator has lower degree than that irreducible polynomial. Over the complex numbers, the fundamental theorem of algebra makes every such polynomial degree one, so every numerator is a constant. Over the real numbers some may be quadratic, so pieces with a linear top over a power of a quadratic can also appear.",
+    "cites": [
+     4,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Hermite's method",
+    "text": "One simple way to compute the pieces is Hermite's method. First, find the polynomial part by Euclidean division, which leaves a fraction whose top has lower degree than its bottom. Since the degree of each unknown numerator is known, write each one as a polynomial with unknown coefficients. Then bring all the pieces to a common denominator and match the coefficient of each power of x on the two sides, which gives a system of linear equations whose solution is the unique answer.",
+    "cites": [
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "A coarser, easier version",
+    "text": "When the work is done explicitly, a coarser version is often preferred, using square-free polynomials in place of irreducible ones. This swaps full factorization for the much easier square-free factorization. It is enough for most applications, and when the input coefficients are integers or rational numbers it avoids bringing in irrational ones.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Why the answer is unique",
+    "text": "The decomposition always exists, which can be shown by applying a few reduction steps over and over, built on Euclidean division and Bézout's identity. It is also unique. The shape of the decomposition defines a linear map, and the existence proof shows this map is surjective; since the two vector spaces involved have the same dimension, it is injective too. That argument doubles as an algorithm that finds the decomposition with linear algebra.",
+    "cites": [
+     9,
+     11,
+     14,
+     24,
+     25,
+     26,
+     27
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "calc-partial-fractions",
+   "kind": "book",
+   "title": "3.4 Partial Fractions - Calculus Volume 2",
+   "by": "OpenStax (Gilbert Strang, Edwin “Jed” Herman)",
+   "url": "https://openstax.org/books/calculus-volume-2/pages/3-4-partial-fractions",
+   "note": "A free calculus section on decomposing rational functions into partial fractions in order to integrate them.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "algebra-partial-fractions",
+   "kind": "book",
+   "title": "7.4 Partial Fractions - College Algebra 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/7-4-partial-fractions",
+   "note": "A free algebra section on partial fraction decomposition for linear and quadratic factors, with examples.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

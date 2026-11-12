@@ -1,0 +1,228 @@
+{
+ "summary": [
+  {
+   "text": "The normal distribution, informally called a bell curve, is described by a mean μ and a variance σ², with the standard deviation σ as the positive value measuring spread.",
+   "cites": [
+    3,
+    4,
+    14
+   ]
+  },
+  {
+   "text": "The average of many independent samples converges toward it as the samples grow, so quantities built from many independent processes, like measurement errors, are often nearly normal.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "text": "It is often used in the natural and social sciences when a variable's distribution is unknown, but it is frequently misused when the data are not actually normal.",
+   "cites": [
+    6,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Center",
+   "value": "The mean is also the median and the mode",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Spread",
+   "value": "Variance is σ²; standard deviation is σ",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Standard case",
+   "value": "The simplest case has μ = 0 and σ² = 1",
+   "cites": [
+    17,
+    18
+   ]
+  },
+  {
+   "label": "Standardizing",
+   "value": "Z = (X − μ)/σ gives a mean of 0 and a spread of 1",
+   "cites": [
+    19,
+    25
+   ]
+  },
+  {
+   "label": "Sums stay normal",
+   "value": "Any mix of independent normal deviates is normal",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lab weighs the same object many times. Each reading's error comes from many tiny, independent causes added together. What shape should the errors roughly follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Close to a bell curve, because sums of many independent effects tend that way"
+    },
+    {
+     "id": "b",
+     "label": "Perfectly flat, because every error size is equally likely"
+    },
+    {
+     "id": "c",
+     "label": "Lopsided, because errors always push the reading the same direction"
+    },
+    {
+     "id": "d",
+     "label": "Random with no pattern, because independent causes cancel any shape"
+    }
+   ],
+   "answer": "a",
+   "explain": "Quantities that are sums of many independent processes, such as measurement errors, often have nearly normal distributions.",
+   "cites": [
+    8,
+    9
+   ]
+  },
+  {
+   "prompt": "A friend sees a bell-shaped histogram and says, 'So the data must be normally distributed.' What is the flaw?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Bell shapes only come from data with a mean of zero"
+    },
+    {
+     "id": "b",
+     "label": "Other distributions, such as Student's t, are bell-shaped too"
+    },
+    {
+     "id": "c",
+     "label": "A histogram can never reveal anything about shape at all"
+    },
+    {
+     "id": "d",
+     "label": "Normal data always look lopsided rather than bell-shaped"
+    }
+   ],
+   "answer": "b",
+   "explain": "Many other distributions, including Cauchy, Student's t and logistic, are bell-shaped, so the look alone does not make data normal.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "A teacher takes scores that follow the standard normal pattern, multiplies each by 10 and adds 50. What do the new scores look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Normal, with mean 10 and standard deviation 50"
+    },
+    {
+     "id": "b",
+     "label": "Not normal, because stretching bends the bell shape"
+    },
+    {
+     "id": "c",
+     "label": "Normal, with mean 50 and standard deviation 10"
+    },
+    {
+     "id": "d",
+     "label": "Standard normal, because they started that way"
+    }
+   ],
+   "answer": "c",
+   "explain": "Scaling a standard normal deviate Z by σ and shifting by μ, as in X = σZ + μ, gives a normal distribution with expected value μ and standard deviation σ.",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "prompt": "Two independent quantities are each normally distributed, and you add them together to make a total. What can you say about the total's distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is no longer bell-shaped, because adding spoils symmetry"
+    },
+    {
+     "id": "b",
+     "label": "It is uniform, because adding evens out the extremes"
+    },
+    {
+     "id": "c",
+     "label": "It cannot be described, because the two spreads differ"
+    },
+    {
+     "id": "d",
+     "label": "It is also normal, because such combinations stay normal"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any linear combination of a fixed collection of independent normal deviates is itself a normal deviate.",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "prompt": "A quiz score has mean 100 and standard deviation 15, and the scores are normal. Rescale a score of 130 as (score − mean) ÷ spread. What do you get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "2"
+    },
+    {
+     "id": "b",
+     "label": "30"
+    },
+    {
+     "id": "c",
+     "label": "0.5"
+    },
+    {
+     "id": "d",
+     "label": "8.7"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rescaling Z = (X − μ)/σ gives (130 − 100)/15 = 2, which puts the score on the standard normal scale.",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "prompt": "An analyst has no idea what shape her data have, and just assumes they are normal because that model is common. What is the risk?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The normal model can fit poorly when the data are not normal"
+    },
+    {
+     "id": "b",
+     "label": "Normal models refuse to run on data with unknown shape"
+    },
+    {
+     "id": "c",
+     "label": "The assumption makes the data become normal after enough use"
+    },
+    {
+     "id": "d",
+     "label": "Unknown data always follow the normal model in the long run"
+    }
+   ],
+   "answer": "a",
+   "explain": "Normal distributions are frequently misused when the assumption of normality is not met, and then the model is poor.",
+   "cites": [
+    6,
+    13
+   ]
+  }
+ ]
+}

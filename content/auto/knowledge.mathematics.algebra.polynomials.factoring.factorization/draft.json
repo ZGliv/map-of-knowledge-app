@@ -1,0 +1,229 @@
+{
+ "summary": [
+  {
+   "text": "Factorization writes a number or another mathematical object as a product of several factors, usually smaller or simpler objects of the same kind.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Every positive integer can be factored into prime numbers, and that factorization is unique apart from the order of the factors.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Factoring a polynomial reduces the problem of finding its roots to finding the roots of its factors.",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simple example",
+   "value": "3 × 5 is an integer factorization of 15",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Prime factoring",
+   "value": "Greek mathematicians proved every positive integer has one, unique up to order",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "label": "Root finding",
+   "value": "Roots of a polynomial come from the roots of its factors",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Security use",
+   "value": "Hard integer factoring protects the RSA cryptosystem",
+   "cites": [
+    8,
+    40
+   ]
+  },
+  {
+   "label": "Hard case",
+   "value": "A 500-digit product of two random primes cannot be factored today",
+   "cites": [
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Multiplying two huge primes takes a moment, but recovering them from the product is out of reach for today's computers. What does this lopsidedness make possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Faster arithmetic on large numbers"
+    },
+    {
+     "id": "b",
+     "label": "A proof that every number is prime"
+    },
+    {
+     "id": "c",
+     "label": "Secure internet communication through RSA"
+    },
+    {
+     "id": "d",
+     "label": "A way to avoid ever dividing numbers"
+    }
+   ],
+   "answer": "c",
+   "explain": "Integer factorization is far harder than multiplication, and the RSA cryptosystem exploits this to keep internet communication secure.",
+   "cites": [
+    8,
+    39,
+    40
+   ]
+  },
+  {
+   "prompt": "You search for a divisor of a number n by trial division. You have tested every candidate q with q² ≤ n, and none divides n. What can you conclude?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The number n is prime"
+    },
+    {
+     "id": "b",
+     "label": "You must test larger candidates too"
+    },
+    {
+     "id": "c",
+     "label": "The number n is a perfect square"
+    },
+    {
+     "id": "d",
+     "label": "The number n has no factorization at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "If r is a divisor of n with r² > n, then q = n / r is a divisor with q² ≤ n, so testing those smaller candidates is enough. Finding none means n is prime.",
+   "cites": [
+    24,
+    26,
+    27
+   ]
+  },
+  {
+   "prompt": "You test candidate divisors of a number in increasing order, and the very first one that divides it is found. What kind of number is that divisor guaranteed to be?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A perfect square"
+    },
+    {
+     "id": "b",
+     "label": "The largest factor of the number"
+    },
+    {
+     "id": "c",
+     "label": "An even number"
+    },
+    {
+     "id": "d",
+     "label": "A prime number"
+    }
+   ],
+   "answer": "d",
+   "explain": "If candidates are tested in increasing order, the first divisor found is necessarily a prime number.",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "prompt": "Two students each break the same whole number into primes and list them in different orders. Do their prime factors differ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because each person finds their own factorization"
+    },
+    {
+     "id": "b",
+     "label": "No, the factorization is unique apart from the order"
+    },
+    {
+     "id": "c",
+     "label": "Yes, unless the number is even"
+    },
+    {
+     "id": "d",
+     "label": "No, but only when the number is small"
+    }
+   ],
+   "answer": "b",
+   "explain": "Every integer greater than 1 has a unique factorization into primes, up to the order of the factors.",
+   "cites": [
+    6,
+    7,
+    23
+   ]
+  },
+  {
+   "prompt": "A polynomial has been written as a product of three simpler polynomials. How does that help find its roots?",
+   "options": [
+    {
+     "id": "a",
+     "label": "You must multiply them back together before looking for roots"
+    },
+    {
+     "id": "b",
+     "label": "It does not help, because roots only appear in expanded form"
+    },
+    {
+     "id": "c",
+     "label": "The roots are found by finding the roots of each factor"
+    },
+    {
+     "id": "d",
+     "label": "Only the largest factor has roots worth finding"
+    }
+   ],
+   "answer": "c",
+   "explain": "Factoring a polynomial reduces the problem of finding its roots to finding the roots of its factors.",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "prompt": "A programmer splits a matrix into a lower triangular piece, an upper triangular piece and a permutation piece. Is this a kind of factorization?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, matrices have many kinds of factorizations"
+    },
+    {
+     "id": "b",
+     "label": "No, only whole numbers can be factored"
+    },
+    {
+     "id": "c",
+     "label": "No, only polynomials can be factored"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if every entry is a prime"
+    }
+   ],
+   "answer": "a",
+   "explain": "Factorization also covers decompositions of other objects into simpler ones, and matrices possess many kinds of matrix factorizations, including this one.",
+   "cites": [
+    19,
+    21,
+    22
+   ]
+  }
+ ]
+}

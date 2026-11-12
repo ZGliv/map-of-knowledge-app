@@ -1,0 +1,349 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism",
+ "name": "Ferromagnetism",
+ "summary": [
+  {
+   "text": "Ferromagnetism is the property that lets certain materials, such as iron, respond strongly to magnetic fields and form permanent magnets.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is the strongest type of material magnetism and explains everyday magnets like the one on a refrigerator.",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "text": "Only a few materials have it, mainly iron, cobalt, nickel and most of their alloys, plus certain rare-earth metals.",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Common ferromagnetic metals",
+   "value": "Iron, cobalt, nickel and most of their alloys",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Soft versus hard",
+   "value": "Low coercivity materials lose magnetization; high coercivity ones keep it",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Louis Neel, 1948",
+   "value": "Showed spontaneous magnetization has two distinct kinds of ordering",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Curie temperature",
+   "value": "Above it a material stops showing spontaneous magnetization",
+   "cites": [
+    38
+   ]
+  },
+  {
+   "label": "Heusler alloys",
+   "value": "Ferromagnetic alloys made of metals that are not ferromagnetic alone",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A steel plate sticks to a magnet but is not itself a magnet once you pull it away. What explains the sticking?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The plate holds a permanent electric charge"
+    },
+    {
+     "id": "b",
+     "label": "The magnet's field temporarily magnetizes the steel"
+    },
+    {
+     "id": "c",
+     "label": "The plate melts slightly into the magnet"
+    },
+    {
+     "id": "d",
+     "label": "Gravity pulls the plate toward the magnet"
+    }
+   ],
+   "answer": "b",
+   "explain": "Magnetic permeability describes magnetization induced by an outside field, and that temporary magnetization accounts for the attraction.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism:q1"
+  },
+  {
+   "prompt": "A workshop wants a tool that stays magnetized for years, and another that drops its magnetism as soon as the field is removed. How should they pick materials?",
+   "options": [
+    {
+     "id": "a",
+     "label": "High coercivity for the keeper, low coercivity for the one that lets go"
+    },
+    {
+     "id": "b",
+     "label": "Low coercivity for the keeper, high coercivity for the one that lets go"
+    },
+    {
+     "id": "c",
+     "label": "The same coercivity for both, varying only the size"
+    },
+    {
+     "id": "d",
+     "label": "Non-metals for the keeper, any metal for the other"
+    }
+   ],
+   "answer": "a",
+   "explain": "Hard materials have high coercivity and stay magnetized, while soft materials like annealed iron have low coercivity and do not.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism:q2"
+  },
+  {
+   "prompt": "Why can a magnet that has been heated or struck lose strength, while a freshly made rare-earth magnet resists being weakened?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Demagnetizing needs a field past the material's coercivity threshold"
+    },
+    {
+     "id": "b",
+     "label": "Only iron can ever be demagnetized"
+    },
+    {
+     "id": "c",
+     "label": "Magnets drain their strength into the air each day"
+    },
+    {
+     "id": "d",
+     "label": "Rare-earth magnets are not made of metal"
+    }
+   ],
+   "answer": "a",
+   "explain": "Demagnetizing a saturated magnet requires applying a field, and the threshold depends on the material's coercivity. Permanent magnets are processed to make demagnetizing difficult.",
+   "cites": [
+    14,
+    15,
+    16
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism:q3"
+  },
+  {
+   "prompt": "Why is a fridge magnet counted among ferromagnetic or ferrimagnetic things?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because it contains wires carrying current"
+    },
+    {
+     "id": "b",
+     "label": "Because it is made of a weak paramagnetic substance"
+    },
+    {
+     "id": "c",
+     "label": "Because it stays magnetized after any outside field is gone"
+    },
+    {
+     "id": "d",
+     "label": "Because it is attracted only by other fridges"
+    }
+   ],
+   "answer": "c",
+   "explain": "Permanent magnets stay magnetized after the external field is removed, and are either ferromagnetic or ferrimagnetic.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism:q4"
+  },
+  {
+   "prompt": "Two materials both end up with a net magnetization. In one the moments all point the same way; in the other, two opposing sets differ in size. What are they called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Antiferromagnet and ferromagnet"
+    },
+    {
+     "id": "b",
+     "label": "Ferrimagnet and ferromagnet"
+    },
+    {
+     "id": "c",
+     "label": "Ferromagnet and ferrimagnet"
+    },
+    {
+     "id": "d",
+     "label": "Diamagnet and paramagnet"
+    }
+   ],
+   "answer": "c",
+   "explain": "In true ferromagnets all moments align parallel; in ferrimagnets two antiparallel sets of unequal size leave a net magnetization.",
+   "cites": [
+    22,
+    23
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism:q5"
+  },
+  {
+   "prompt": "Two opposing sets of magnetic moments are exactly equal in size. What happens to the material's overall magnetization?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It doubles in strength"
+    },
+    {
+     "id": "b",
+     "label": "It cancels to zero"
+    },
+    {
+     "id": "c",
+     "label": "It flips every second"
+    },
+    {
+     "id": "d",
+     "label": "It becomes a ferrimagnet"
+    }
+   ],
+   "answer": "b",
+   "explain": "When the opposing moments are equal and cancel completely, spontaneous magnetization cannot occur. This is called antiferromagnetism.",
+   "cites": [
+    24,
+    25
+   ],
+   "id": "knowledge.science.physics.electromagnetism.magnetism.ferromagnetism:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/MagnetEZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Ferromagnetism",
+  "credit": "Eurico Zimbres FGEL/UERJ",
+  "license": "CC BY-SA 2.0 br",
+  "page": "https://commons.wikimedia.org/wiki/File:MagnetEZ.jpg"
+ },
+ "source": {
+  "title": "Ferromagnetism",
+  "url": "https://en.wikipedia.org/wiki/Ferromagnetism",
+  "revision": 1370566879
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Ferromagnetism is a property that makes some materials, iron among them, respond strongly to magnetic fields. Such materials are clearly pulled toward a magnet, and many of them can be made into permanent magnets. Together with a similar effect called ferrimagnetism, it is the strongest kind of magnetism found in materials. It is what lies behind everyday magnetism, like a magnet stuck to a refrigerator door.",
+    "cites": [
+     1,
+     2,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Which materials have it",
+    "text": "Only a few materials are ferromagnetic. The common ones are iron, cobalt, nickel and most of their alloys, along with certain rare-earth metals. Other substances react to magnets too, through paramagnetism, diamagnetism and antiferromagnetism, but those forces are usually so weak that only lab instruments can pick them up. Whether a material is ferromagnetic depends not only on its chemistry but also on its crystal structure and microstructure.",
+    "cites": [
+     9,
+     11,
+     26,
+     28
+    ]
+   },
+   {
+    "heading": "Permeability and coercivity",
+    "text": "Two ideas explain how these materials behave. Magnetic permeability describes how much a material becomes magnetized when an outside field is applied. That temporary magnetization is why a steel plate is drawn to a magnet. Coercivity decides whether magnetization lasts: magnetically soft materials, like annealed iron, have low coercivity and tend not to stay magnetized, while magnetically hard ones have high coercivity and do. Whether the steel plate ends up a permanent magnet depends on how strong the applied field was and on that steel's coercivity, which varies with its chemical make-up and heat treatment.",
+    "cites": [
+     3,
+     4,
+     5,
+     13
+    ]
+   },
+   {
+    "heading": "Making permanent magnets",
+    "text": "A permanent magnet is a material that an outside field can magnetize and that stays magnetized once the field is removed. They are built from magnetically hard ferromagnetic materials like alnico, or from ferrimagnetic ones like ferrite. During manufacture they are processed in a strong magnetic field that lines up their internal microcrystalline structure, which makes them hard to demagnetize. To demagnetize a saturated magnet you must apply a magnetic field, and the strength needed depends on the material's coercivity.",
+    "cites": [
+     10,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "The name was once used for any material showing spontaneous magnetization, meaning a net magnetic moment with no outside field present. In 1948 Louis Néel showed that this can come from two different kinds of magnetic ordering. In true ferromagnets, all the magnetic moments point parallel to one another. In ferrimagnets, the moments sit in two opposing sets of unequal size, so some magnetization is left over; when the two sets are equal they cancel, and that is antiferromagnetism. Ferromagnetism itself traces back to these materials having many unpaired electrons, a result of Hund's rule of maximum multiplicity.",
+    "cites": [
+     19,
+     21,
+     22,
+     23,
+     24,
+     25,
+     29
+    ]
+   },
+   {
+    "heading": "Heat and odd alloys",
+    "text": "A material stops showing spontaneous magnetization above a temperature called its Curie temperature. Mixing metals can also bring surprises. Heusler alloys, named after Fritz Heusler, are ferromagnetic even though the metals in them are not. In the other direction, some types of stainless steel are not magnetic at all, despite being made almost entirely of ferromagnetic metals.",
+    "cites": [
+     30,
+     31,
+     38
+    ]
+   },
+   {
+    "heading": "Everywhere in technology",
+    "text": "Ferromagnetism is put to wide use in industry and modern technology. It is at work in electromagnets, electric motors, generators and transformers. It also underlies magnetic storage, such as tape recorders and hard disks, and the nondestructive testing of ferrous materials. A fairly new class of exceptionally strong ferromagnets, the rare-earth magnets, contains lanthanide elements that can carry large magnetic moments.",
+    "cites": [
+     12,
+     36,
+     37
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up2-12-7",
+   "kind": "book",
+   "title": "12.7 Magnetism in Matter",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/12-7-magnetism-in-matter",
+   "note": "A free college textbook section on para-, dia- and ferromagnetic materials, magnetic domains and hysteresis.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-cp2e-22-2",
+   "kind": "book",
+   "title": "22.2 Ferromagnets and Electromagnets",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/22-2-ferromagnets-and-electromagnets",
+   "note": "A gentler textbook section on ferromagnets, magnetic domains, the Curie temperature and magnetic data storage.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "minutephysics-magnets",
+   "kind": "video",
+   "title": "MAGNETS: How Do They Work?",
+   "by": "minutephysics",
+   "url": "https://www.youtube.com/watch?v=hFAOXdXZ5TM",
+   "minutes": 6,
+   "note": "A short minutephysics video on why some materials make permanent magnets, from electron spins lining up."
+  }
+ ]
+}

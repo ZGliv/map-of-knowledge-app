@@ -1,0 +1,574 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.forecasting",
+ "name": "Forecasting",
+ "summary": [
+  {
+   "text": "Weather forecasting applies science and technology to predict what the atmosphere will be like at a given place and time.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Forecasters collect data on the current atmosphere, land and ocean and now rely on computer models, though people still pick which model to base a forecast on.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Because the atmosphere is chaotic and starting measurements carry errors, forecasts get less accurate the further ahead they reach.",
+   "cites": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Formal forecasting began",
+   "value": "In the 19th century",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Who coined the term",
+   "value": "Robert FitzRoy, after an 1859 storm",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "First daily forecasts",
+   "value": "Published in The Times in 1861",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "US spending, 2009",
+   "value": "About $5.8 billion, with benefits six times that",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Before the telegraph",
+   "value": "Weather reports travelled at most about 160 km a day",
+   "cites": [
+    27,
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "In 2009 the US spent about $5.8 billion on weather forecasting. Roughly how large were the estimated benefits?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About half of what was spent"
+    },
+    {
+     "id": "b",
+     "label": "About the same as what was spent"
+    },
+    {
+     "id": "c",
+     "label": "About six times what was spent"
+    },
+    {
+     "id": "d",
+     "label": "About sixty times what was spent"
+    }
+   ],
+   "answer": "c",
+   "explain": "The benefits were estimated at six times the roughly $5.8 billion spent.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting:q1"
+  },
+  {
+   "prompt": "You compare tomorrow's outlook with one for ten days from now. Which deserves more trust?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Tomorrow's, since accuracy drops with range"
+    },
+    {
+     "id": "b",
+     "label": "The ten-day one, since it uses more data"
+    },
+    {
+     "id": "c",
+     "label": "Both equally, since one model makes both"
+    },
+    {
+     "id": "d",
+     "label": "Neither, since forecasts are pure guesses"
+    }
+   ],
+   "answer": "a",
+   "explain": "Forecasts become less accurate as the gap between now and the forecast time grows.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting:q2"
+  },
+  {
+   "prompt": "What invention began the modern age of weather forecasting in the 1830s?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The weather satellite"
+    },
+    {
+     "id": "b",
+     "label": "The electric telegraph"
+    },
+    {
+     "id": "c",
+     "label": "The electronic computer"
+    },
+    {
+     "id": "d",
+     "label": "The weather balloon"
+    }
+   ],
+   "answer": "b",
+   "explain": "The electric telegraph let reports from a wide area arrive almost instantly, so forecasters could use conditions further upwind.",
+   "cites": [
+    27,
+    29
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting:q3"
+  },
+  {
+   "prompt": "A forecast centre runs many versions of a forecast, and most of them agree on rain Saturday. What does that agreement give the forecaster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A guarantee that it will rain"
+    },
+    {
+     "id": "b",
+     "label": "A reason to skip new observations"
+    },
+    {
+     "id": "c",
+     "label": "Proof that the atmosphere is not chaotic"
+    },
+    {
+     "id": "d",
+     "label": "A narrower error and more confidence"
+    }
+   ],
+   "answer": "d",
+   "explain": "Using ensembles and model consensus helps narrow the error and gives confidence in the forecast.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting:q4"
+  },
+  {
+   "prompt": "An old saying claims a red sunset means fair weather the next day. How have rules like this held up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every one has been proven reliable"
+    },
+    {
+     "id": "b",
+     "label": "They only ever worked at sea"
+    },
+    {
+     "id": "c",
+     "label": "Many fail rigorous statistical testing"
+    },
+    {
+     "id": "d",
+     "label": "Computers have confirmed them all"
+    }
+   ],
+   "answer": "c",
+   "explain": "Weather lore came from patterns noticed over generations, but many of its predictions do not stand up to rigorous statistical testing.",
+   "cites": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting:q5"
+  },
+  {
+   "prompt": "Computers now do the heavy calculations. What job still needs a person?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solving the equations on paper"
+    },
+    {
+     "id": "b",
+     "label": "Picking the best model to trust"
+    },
+    {
+     "id": "c",
+     "label": "Measuring every input by hand"
+    },
+    {
+     "id": "d",
+     "label": "Turning the numbers into code"
+    }
+   ],
+   "answer": "b",
+   "explain": "Human input is still needed to choose the best model, drawing on pattern recognition and knowledge of how models perform and where they are biased.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.earth.climate.weather-systems.forecasting:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Day5pressureforecast.png/960px-Day5pressureforecast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Forecasting",
+  "credit": "Hydrometeorological Prediction Center",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Day5pressureforecast.png"
+ },
+ "source": {
+  "title": "Weather forecasting",
+  "url": "https://en.wikipedia.org/wiki/Weather_forecasting",
+  "revision": 1382174252
+ },
+ "pack": {
+  "id": "auto-weather-systems-forecasting",
+  "title": "Reading Tomorrow's Sky",
+  "question": "How do people predict the weather, and why do forecasts still go wrong?",
+  "path": [
+   "Earth",
+   "Climate",
+   "Weather systems",
+   "Forecasting"
+  ],
+  "hue": 126,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Day5pressureforecast.png/960px-Day5pressureforecast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Forecasting",
+    "credit": "Hydrometeorological Prediction Center · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Day5pressureforecast.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Reading Tomorrow's Sky",
+    "hook": "Before 1835, news of distant weather could travel no faster than about 160 kilometres a day."
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-weather-systems-forecasting:1",
+    "transfer": false,
+    "prompt": "Put these steps in forecasting history in order.",
+    "items": [
+     {
+      "id": "a",
+      "label": "Babylonians read clouds and astrology"
+     },
+     {
+      "id": "b",
+      "label": "Aristotle describes weather patterns"
+     },
+     {
+      "id": "c",
+      "label": "Ibn Wahshiyya's Nabatean Agriculture discusses forecasts"
+     },
+     {
+      "id": "d",
+      "label": "FitzRoy starts a telegraph warning service for shipping"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "Earliest",
+     "Latest"
+    ],
+    "explain": "The Babylonians forecast in 650 BC, Aristotle wrote about 350 BC, the Nabatean Agriculture dates to 904 AD, and FitzRoy's warning service began in 1861."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-weather-systems-forecasting:2",
+    "transfer": false,
+    "prompt": "A forecaster's starting measurements each carry a small error, and the atmosphere is chaotic. What happens as the forecast reaches further into the future?",
+    "explain": "Chaos and errors in the initial measurements are among the causes of inaccuracy, so forecasts become less accurate as their range increases.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "d",
+        "label": "It flips between right and wrong each day",
+        "feedback": "There is no daily on-off pattern; accuracy simply falls off with range."
+       },
+       {
+        "id": "b",
+        "label": "It stays equally accurate",
+        "feedback": "That would need perfect measurements and a non-chaotic atmosphere, and neither holds."
+       },
+       {
+        "id": "a",
+        "label": "It grows less accurate"
+       },
+       {
+        "id": "c",
+        "label": "It grows more accurate",
+        "feedback": "Errors do not cancel out with time; range makes forecasts worse, not better."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-weather-systems-forecasting:3",
+    "transfer": true,
+    "prompt": "Match each person to their contribution.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Francis Beaufort"
+     },
+     {
+      "id": "l1",
+      "label": "Robert FitzRoy"
+     },
+     {
+      "id": "l2",
+      "label": "Luke Howard"
+     },
+     {
+      "id": "l3",
+      "label": "Theophrastus"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Wind Force Scale"
+     },
+     {
+      "id": "r3",
+      "label": "The Book of Signs"
+     },
+     {
+      "id": "r2",
+      "label": "Classifications of clouds"
+     },
+     {
+      "id": "r1",
+      "label": "Coined the term weather forecast"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Beaufort built the Wind Force Scale, FitzRoy coined 'weather forecast', Howard first classified clouds in 1802, and Theophrastus compiled the Book of Signs."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-weather-systems-forecasting:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "People noticed red sunsets were often followed by fair days"
+     },
+     {
+      "id": "b",
+      "text": "Such observations were passed down as weather lore"
+     },
+     {
+      "id": "c",
+      "text": "Lore handed down for generations must be reliable"
+     },
+     {
+      "id": "d",
+      "text": "So a red sunset settles tomorrow's weather"
+     }
+    ],
+    "answer": "c",
+    "explain": "Being old does not make a rule reliable: many weather-lore predictions have been found not to stand up to rigorous statistical testing."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Forecasts project measured current conditions forward, but chaos and imperfect measurements make them less accurate the further ahead they look.",
+    "connections": [
+     {
+      "title": "Weather radar",
+      "place": "Forecasting",
+      "node": "knowledge.earth.climate.weather-systems.forecasting.weather-radar"
+     },
+     {
+      "title": "Numerical weather prediction",
+      "place": "Forecasting",
+      "node": "knowledge.earth.climate.weather-systems.forecasting.numerical-weather-prediction"
+     },
+     {
+      "title": "Weather satellite",
+      "place": "Forecasting",
+      "node": "knowledge.earth.climate.weather-systems.forecasting.weather-satellite"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "The Babylonians forecast in 650 BC, Aristotle wrote about 350 BC, the Nabatean Agriculture dates to 904 AD, and FitzRoy's warning service began in 1861.",
+    "source": "Wikipedia sentences 17, 18, 22, 39"
+   },
+   {
+    "claim": "Chaos and errors in the initial measurements are among the causes of inaccuracy, so forecasts become less accurate as their range increases.",
+    "source": "Wikipedia sentences 6, 7"
+   },
+   {
+    "claim": "Beaufort built the Wind Force Scale, FitzRoy coined 'weather forecast', Howard first classified clouds in 1802, and Theophrastus compiled the Book of Signs.",
+    "source": "Wikipedia sentences 19, 32, 37, 45"
+   },
+   {
+    "claim": "Being old does not make a rule reliable: many weather-lore predictions have been found not to stand up to rigorous statistical testing.",
+    "source": "Wikipedia sentences 24, 25, 26"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a forecast is",
+    "text": "Weather forecasting means using science and technology to say what the atmosphere will be like at a given place and time. Forecasters gather measurements of the present state of the air, land and ocean, then use meteorology to work out how the atmosphere will change. Forecasts were once worked out by hand, mostly from shifts in air pressure, current conditions and the look of the sky. Today they rest on computer models that weigh many factors in the atmosphere.",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Why forecasts go wrong",
+    "text": "People still matter: someone has to choose the best model to build a forecast on, using pattern recognition and knowledge of how each model performs and where it is biased. Forecasts are imperfect because the atmosphere is chaotic, the equations need huge computing power, starting measurements carry errors, and some processes are not fully understood. So the further ahead a forecast reaches, the less accurate it becomes. Using ensembles and model consensus helps narrow the error and build confidence.",
+    "cites": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Who uses forecasts",
+    "text": "Weather warnings protect lives and property. Agriculture relies on temperature and rain forecasts, and so do traders in commodity markets. Power companies use temperature forecasts to estimate demand over the coming days, and many people simply check the forecast to decide what to wear. In 2009 the United States spent about $5.8 billion on forecasting, with benefits estimated at six times that.",
+    "cites": [
+     10,
+     11,
+     12,
+     13,
+     16
+    ]
+   },
+   {
+    "heading": "Old weather lore",
+    "text": "People have tried to predict the weather informally for thousands of years. In 650 BC the Babylonians read it from cloud patterns and astrology, and around 350 BC Aristotle described weather patterns in Meteorologica. Early methods mostly relied on spotting patterns: a very red sunset, for example, was often followed by a fair day. Such sayings built up over generations into weather lore, but many have since failed rigorous statistical tests.",
+    "cites": [
+     2,
+     17,
+     18,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "The telegraph",
+    "text": "The modern age of forecasting began with the electric telegraph in 1835. Before it, reports of distant weather moved at most around 160 km a day, and usually only 60–120 km. By the late 1840s, reports from a wide area arrived almost instantly, so forecasts could draw on conditions further upwind.",
+    "cites": [
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "FitzRoy names the forecast",
+    "text": "Royal Navy officer Francis Beaufort and his protégé Robert FitzRoy are credited with turning forecasting into a science. In 1854 FitzRoy took charge of a new Board of Trade department that collected weather data at sea for sailors. After a storm in October 1859 led to the loss of the Royal Charter, he drew up charts for making predictions and called this forecasting the weather, which gave us the term. Fifteen land stations telegraphed him daily reports, his warning service for ships began in February 1861, and The Times printed the first daily forecasts that same year.",
+    "cites": [
+     30,
+     34,
+     37,
+     38,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-6-tools",
+   "kind": "article",
+   "title": "6 tools our meteorologists use to forecast the weather",
+   "by": "NOAA",
+   "url": "https://www.noaa.gov/stories/6-tools-our-meteorologists-use-to-forecast-weather",
+   "note": "Radar, satellites, weather balloons, ground stations, supercomputers and the system that ties them together."
+  },
+  {
+   "id": "noaa-observations",
+   "kind": "article",
+   "title": "Weather observations",
+   "by": "NOAA Education",
+   "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/weather-observations",
+   "note": "How measurements of temperature, pressure, wind and rain feed computer models and local forecasts."
+  },
+  {
+   "id": "stull-nwp-intro",
+   "kind": "book",
+   "title": "20: Numerical Weather Prediction (NWP)",
+   "by": "Roland Stull, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/20:_Numerical_Weather_Prediction_(NWP)",
+   "note": "Free textbook chapter on how computers now make most forecasts, and how forecasters refine them.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "stull-chaos",
+   "kind": "book",
+   "title": "20.6: Nonlinear Dynamics and Chaos",
+   "by": "Roland Stull, LibreTexts",
+   "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/20%3A_Numerical_Weather_Prediction_(NWP)/20.05%3A_Section_6-",
+   "note": "Free textbook section on why chaos limits how far ahead weather can be forecast, and how ensembles help.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "numberphile-weather-equation",
+   "kind": "video",
+   "title": "The Weather Equation - Numberphile",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=YmZiq00CO60",
+   "note": "A Met Office chief meteorologist walks through the quasi-geostrophic omega equation, a classic tool of weather forecasting."
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction",
+ "name": "Thermal conduction",
+ "summary": [
+  {
+   "text": "Thermal conduction is the spread of heat through a material, or between materials in contact, as particles pass their energy along.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Heat flows from hotter to colder, as when a stove burner warms the bottom of a pan, and the temperature difference fades over time.",
+   "cites": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Metals conduct well because free-moving electrons carry energy quickly, while liquids and gases, with sparser particles, conduct poorly.",
+   "cites": [
+    14,
+    15,
+    16,
+    17,
+    28
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Direction of flow",
+   "value": "From the hotter body to the colder body",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Conductivity symbol",
+   "value": "Written k, it measures how easily a medium conducts",
+   "cites": [
+    3,
+    37
+   ]
+  },
+  {
+   "label": "Good conductors",
+   "value": "Metals such as copper, platinum and gold",
+   "cites": [
+    27
+   ]
+  },
+  {
+   "label": "Poor conductors",
+   "value": "Liquids and gases",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Heat carriers in insulators",
+   "value": "Almost entirely phonon vibrations",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You hold one end of a copper rod in a flame. Why does the far end warm up so quickly?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hot air rises along the rod and heats it"
+    },
+    {
+     "id": "b",
+     "label": "Free-moving electrons carry thermal energy rapidly"
+    },
+    {
+     "id": "c",
+     "label": "Copper atoms travel from the flame to your hand"
+    },
+    {
+     "id": "d",
+     "label": "Light from the flame passes through the metal"
+    }
+   ],
+   "answer": "b",
+   "explain": "Metallic bonds have free-moving electrons that transfer thermal energy rapidly, which makes metals good conductors.",
+   "cites": [
+    28
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction:q1"
+  },
+  {
+   "prompt": "A hot pan sits flat on a cool counter. Which way does heat move, and what happens to the temperature difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Pan to counter, and the difference shrinks over time"
+    },
+    {
+     "id": "b",
+     "label": "Counter to pan, and the difference shrinks over time"
+    },
+    {
+     "id": "c",
+     "label": "Pan to counter, and the difference grows over time"
+    },
+    {
+     "id": "d",
+     "label": "Neither way, since solids never exchange heat"
+    }
+   ],
+   "answer": "a",
+   "explain": "Heat flows spontaneously from hotter to colder, and with nothing opposing it, temperature differences decay toward thermal equilibrium.",
+   "cites": [
+    5,
+    7
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction:q2"
+  },
+  {
+   "prompt": "Why is a gas a poor conductor of heat?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its particles are bonded too strongly to vibrate"
+    },
+    {
+     "id": "b",
+     "label": "Its particles all move in the same direction"
+    },
+    {
+     "id": "c",
+     "label": "Its particles are crowded so energy gets trapped"
+    },
+    {
+     "id": "d",
+     "label": "Its particles are far apart and collide rarely"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gases have a lot of space between particles, so collisions are infrequent and vibrations are hard to pass along.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction:q3"
+  },
+  {
+   "prompt": "A metal bar has one end held hot and the other held cold for a long time. What is true of any section of the bar?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It loses more heat than it receives"
+    },
+    {
+     "id": "b",
+     "label": "It gains more heat than it gives up"
+    },
+    {
+     "id": "c",
+     "label": "It receives as much heat as it passes on"
+    },
+    {
+     "id": "d",
+     "label": "It keeps warming up until the bar melts"
+    }
+   ],
+   "answer": "c",
+   "explain": "In steady-state conduction the heat entering any region equals the heat leaving it; otherwise the temperature there would keep rising or falling.",
+   "cites": [
+    41,
+    43,
+    44
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction:q4"
+  },
+  {
+   "prompt": "Each of these warms something. Which one depends on direct physical contact?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Sunlight warming the Earth"
+    },
+    {
+     "id": "b",
+     "label": "A burner warming the bottom of a pan"
+    },
+    {
+     "id": "c",
+     "label": "A furnace blowing warm air through a house"
+    },
+    {
+     "id": "d",
+     "label": "Your body warming a person across the room"
+    }
+   ],
+   "answer": "b",
+   "explain": "Conduction is heat transfer by contact, as between a stove burner and a pan. The others are radiation or convection.",
+   "cites": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction:q5"
+  },
+  {
+   "prompt": "A solid has no free-moving electrons to speak of. What carries most of the heat through it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Vibrations passing between its atoms"
+    },
+    {
+     "id": "b",
+     "label": "A drifting stream of electrons"
+    },
+    {
+     "id": "c",
+     "label": "Currents of the material flowing inside it"
+    },
+    {
+     "id": "d",
+     "label": "Heat rays crossing the gaps between atoms"
+    }
+   ],
+   "answer": "a",
+   "explain": "In insulators the heat flux is carried almost entirely by phonon vibrations, the vibrations of the atoms in the solid.",
+   "cites": [
+    25,
+    26
+   ],
+   "id": "knowledge.science.physics.thermodynamics.heat-and-temperature.thermal-conduction:q6"
+  }
+ ],
+ "source": {
+  "title": "Thermal conduction",
+  "url": "https://en.wikipedia.org/wiki/Thermal_conduction",
+  "revision": 1382566758
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What it is",
+    "text": "Thermal conduction is the spreading of heat within one material, or between materials that touch. In the hotter object, the molecules carry more kinetic energy, and spreading among the molecules shares it out until the energy is even throughout. Heat flows on its own from hotter to colder. A stove's hot plate warming the bottom of a saucepan is conduction at work. Unless something keeps feeding energy in, temperature differences fade and the objects approach thermal equilibrium.",
+    "cites": [
+     1,
+     2,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "One of three ways heat moves",
+    "text": "Conduction is heat moving by physical contact, while the matter itself stays still on a large scale. Convection is heat carried by a fluid that moves, as in a forced-air furnace or in weather. Radiation is heat carried by infrared, visible light or other electromagnetic radiation. The Sun warming the Earth is an obvious case, and the heat given off by a human body is a less obvious one.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Solids, liquids and gases",
+    "text": "Conduction is the main way heat moves through solids. Strong forces between their molecules let particle vibrations pass along easily. Liquids have weaker forces and more room between particles, so vibrations travel less well. Gases have even more room, so their particles collide only rarely. That is why liquids and gases are poor conductors of heat.",
+    "cites": [
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "heading": "Why metals conduct well",
+    "text": "Metals such as copper, platinum and gold are usually good conductors. Their metallic bonds have free-moving electrons that pass thermal energy along quickly, so this electron fluid carries heat through the metal. In insulators, by contrast, heat is carried almost entirely by vibrations called phonons. Electrons also carry electric current through conducting solids, and in most metals the heat and electrical conductivities stand in roughly the same ratio. Copper, a good electrical conductor, also conducts heat well.",
+    "cites": [
+     26,
+     27,
+     28,
+     29,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Putting a number on it",
+    "text": "Engineers describe how easily a material conducts with its thermal conductivity, written k. It is defined by how much heat passes, in a given time, through a given thickness and area because of a temperature difference. Its value depends mainly on the material's phase, temperature, density and molecular bonding.",
+    "cites": [
+     3,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "A bar in steady state",
+    "text": "When the temperature difference driving conduction stays constant, an object settles after a while into steady-state conduction, where its pattern of temperatures stops changing. In that state, as much heat enters each region as leaves it. Picture a bar that is hot at one end and cold at the other. Once it is steady, the temperatures along it no longer shift with time, and if nothing inside the bar produces heat, the temperature changes in a straight line from end to end.",
+    "cites": [
+     41,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-14-5",
+   "kind": "book",
+   "title": "14.5 Conduction",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+   "note": "A free textbook section on conduction rates, thermal conductivity of common materials, and insulation.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-up2-1-6",
+   "kind": "book",
+   "title": "1.6 Mechanisms of Heat Transfer",
+   "by": "OpenStax, University Physics Volume 2",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+   "note": "A free university textbook section on conduction, with the rate equation and a worked icebox example.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

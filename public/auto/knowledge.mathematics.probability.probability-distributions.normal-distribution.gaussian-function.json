@@ -1,0 +1,320 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function",
+ "name": "Gaussian function",
+ "summary": [
+  {
+   "text": "A Gaussian function is a symmetric bell-shaped curve, named after the mathematician Carl Friedrich Gauss.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Three constants shape it: a is the height of the peak, b is where the peak sits horizontally, and c controls how wide the bell is.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "text": "Gaussians describe normal distributions, define Gaussian filters in signal processing and Gaussian blurs in images, and help solve heat and diffusion equations.",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named for",
+   "value": "The mathematician Carl Friedrich Gauss",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Peak height",
+   "value": "Set by the constant a",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Peak position",
+   "value": "Set by the constant b",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Width",
+   "value": "Inflection points sit at x = b ± c",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Far from center",
+   "value": "The function approaches 0 as x goes to ±∞",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You sketch a Gaussian function. What outline should the graph have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A straight line sloping upward"
+    },
+    {
+     "id": "b",
+     "label": "A symmetric bell with one peak"
+    },
+    {
+     "id": "c",
+     "label": "A staircase with sudden jumps"
+    },
+    {
+     "id": "d",
+     "label": "A zigzag that repeats forever"
+    }
+   ],
+   "answer": "b",
+   "explain": "The graph of a Gaussian is a characteristic symmetric bell curve.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function:q1"
+  },
+  {
+   "prompt": "Two Gaussians have the same peak height and the same peak position, but the second looks wider and flatter. Which constant differs?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The height constant a"
+    },
+    {
+     "id": "b",
+     "label": "The position constant b"
+    },
+    {
+     "id": "c",
+     "label": "The sign of the whole function"
+    },
+    {
+     "id": "d",
+     "label": "The width constant c"
+    }
+   ],
+   "answer": "d",
+   "explain": "The constant c controls the width of the bell, while a is the height and b is the position of the peak.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function:q2"
+  },
+  {
+   "prompt": "Walk far out to the right of a Gaussian's peak and keep going. What happens to the function's value?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rises again into a second bump"
+    },
+    {
+     "id": "b",
+     "label": "It levels off at the height of the peak"
+    },
+    {
+     "id": "c",
+     "label": "It gets closer and closer to zero"
+    },
+    {
+     "id": "d",
+     "label": "It flips sign and turns negative"
+    }
+   ],
+   "answer": "c",
+   "explain": "The limit of a Gaussian as x goes to ±∞ is 0.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function:q3"
+  },
+  {
+   "prompt": "You take two functions of Gaussian form and combine them by convolution. What can you say about the result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gaussian again, with the two variances added"
+    },
+    {
+     "id": "b",
+     "label": "Gaussian again, with the two variances multiplied"
+    },
+    {
+     "id": "c",
+     "label": "Not Gaussian, since convolution breaks the bell"
+    },
+    {
+     "id": "d",
+     "label": "Gaussian again, keeping only the larger variance"
+    }
+   ],
+   "answer": "a",
+   "explain": "The convolution of two Gaussian functions is also a Gaussian, with variance being the sum of the original variances: c² = c₁² + c₂².",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function:q4"
+  },
+  {
+   "prompt": "A student multiplies two Gaussian probability density functions and assumes the product is always a Gaussian density. Is that safe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because Gaussians are closed under multiplication"
+    },
+    {
+     "id": "b",
+     "label": "Yes, because a Gaussian is always positive"
+    },
+    {
+     "id": "c",
+     "label": "No, because a product is always flat"
+    },
+    {
+     "id": "d",
+     "label": "No, it is not generally a Gaussian density"
+    }
+   ],
+   "answer": "d",
+   "explain": "The product of two Gaussian PDFs is not in general a Gaussian PDF.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function:q5"
+  },
+  {
+   "prompt": "A bell curve has its peak at x = 5 and its width constant c = 2. Where are its two inflection points?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At x = 3 and x = 7"
+    },
+    {
+     "id": "b",
+     "label": "At x = 2 and x = 5"
+    },
+    {
+     "id": "c",
+     "label": "At x = 5 and x = 10"
+    },
+    {
+     "id": "d",
+     "label": "At x = 4 and x = 6"
+    }
+   ],
+   "answer": "a",
+   "explain": "The inflection points occur at x = b ± c, so at 5 − 2 = 3 and 5 + 2 = 7.",
+   "cites": [
+    4,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.normal-distribution.gaussian-function:q6"
+  }
+ ],
+ "source": {
+  "title": "Gaussian function",
+  "url": "https://en.wikipedia.org/wiki/Gaussian_function",
+  "revision": 1378860249
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "The bell-shaped function",
+    "text": "A Gaussian function, or simply a Gaussian, starts from the basic form f(x) = exp (−x²). Its fuller version is f(x) = a exp (−((x − b)²)/(2 c²)), where a, b and c are real constants and c is not zero. It takes its name from the mathematician Carl Friedrich Gauss. Drawn as a graph, it makes the familiar symmetric bell curve.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Three dials",
+    "text": "Each constant controls one feature of the bell. The constant a sets how tall the peak is, b sets where the centre of the peak sits along the horizontal axis, and c sets how wide the bell spreads. The constant c is also called the standard deviation, and the two inflection points of the curve lie at x = b ± c. Width can also be given as the full width at half maximum, or FWHM, written w.",
+    "cites": [
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Where Gaussians are used",
+    "text": "In statistics, Gaussians describe normal distributions. Signal processing uses them to build Gaussian filters, and image processing uses two-dimensional Gaussians to blur pictures. In mathematics they help solve the heat and diffusion equations and define the Weierstrass transform, and quantum chemistry relies on them heavily to build basis sets.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "From curve to probability",
+    "text": "A Gaussian is analytic, and it shrinks toward 0 as x heads off to plus or minus infinity. Its integral equals 1 exactly when a = 1/(c √2π). In that case the Gaussian becomes the density of a normally distributed variable whose mean is b and whose variance is c².",
+    "cites": [
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Blobs in two dimensions",
+    "text": "In two dimensions, the exponent of a Gaussian is a negative-definite quadratic form, and as a result its level sets are always ellipses. The result is a blob with a peak height A, a centre at (x₀, y₀), and separate spreads in the x and y directions. Such two-dimensional Gaussians are common in image processing and in computer models of how vision works.",
+    "cites": [
+     19,
+     20,
+     21,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Fitting a Gaussian to data",
+    "text": "Fields such as stellar photometry and spectroscopy measure sampled Gaussians and must estimate their height, position and width. The usual approach takes the log of each data value and fits a parabola to what results. It is simple, but it can give too much weight to small data values and so produce large errors. Weighted least squares helps partly, and an iteratively reweighted version, which updates its weights at every step, removes the bias.",
+    "cites": [
+     30,
+     32,
+     33,
+     34,
+     35
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "mathworld-gaussian",
+   "kind": "article",
+   "title": "Gaussian Function",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/GaussianFunction.html",
+   "note": "Reference entry on one- and two-dimensional Gaussian functions, their full width at half maximum and use as densities."
+  },
+  {
+   "id": "mathworld-fourier-gaussian",
+   "kind": "article",
+   "title": "Fourier Transform--Gaussian",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/FourierTransformGaussian.html",
+   "note": "Shows step by step that the Fourier transform of a Gaussian is another Gaussian."
+  },
+  {
+   "id": "3b1b-why-pi",
+   "kind": "video",
+   "title": "Why π is in the normal distribution (beyond integral tricks)",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=cy8r7WSuT1I",
+   "note": "A visual explanation of why the bell-shaped Gaussian curve's area involves π."
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.liquids.boiling",
+ "name": "Boiling",
+ "summary": [
+  {
+   "text": "Boiling is the rapid change of a liquid into a gas, and the reverse of boiling is condensation.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It happens when a liquid is heated to its boiling point, where its vapour pressure equals the pressure of the surrounding atmosphere.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Water boils at 100 °C, but at a lower temperature at high altitudes, where the atmospheric pressure is lower.",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Water's boiling point",
+   "value": "100 °C, lower where air pressure is lower",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Making water safe",
+   "value": "One minute at 100 °C inactivates most microbes and viruses",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Two main types",
+   "value": "Nucleate boiling and critical heat flux boiling",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Cooling electronics",
+   "value": "Confined boiling is particularly promising for it",
+   "cites": [
+    44
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A hiker boils water at a mountain camp and notices it bubbles at a lower temperature than at home near sea level. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The water has more dissolved minerals there, which makes it bubble earlier"
+    },
+    {
+     "id": "b",
+     "label": "The air pressure is lower there, so the water's vapour pressure matches it sooner"
+    },
+    {
+     "id": "c",
+     "label": "The air is colder there, so the water has less heat to hold back"
+    },
+    {
+     "id": "d",
+     "label": "The water's vapour pressure drops there, so less heat is needed"
+    }
+   ],
+   "answer": "b",
+   "explain": "Boiling starts when the liquid's vapour pressure equals the surrounding pressure, and the boiling point of water is lower where atmospheric pressure is decreased.",
+   "cites": [
+    2,
+    6
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.liquids.boiling:q1"
+  },
+  {
+   "prompt": "A cook heats water in a very smooth plastic container, and it gets a little hotter than its boiling point without bubbling. What explains it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Plastic soaks up heat, so the water inside never really gets hot"
+    },
+    {
+     "id": "b",
+     "label": "Water can only boil in a container with a rough rim"
+    },
+    {
+     "id": "c",
+     "label": "The water's vapour pressure fell below the air pressure as it warmed"
+    },
+    {
+     "id": "d",
+     "label": "An exceptionally smooth surface lends itself to superheating, which delays boiling"
+    }
+   ],
+   "answer": "d",
+   "explain": "An irregular surface helps bubbles form over a broad temperature range, while an exceptionally smooth one favours superheating, so boiling is delayed and the temperature can rise above the boiling point.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.liquids.boiling:q2"
+  },
+  {
+   "prompt": "A camper holds a pot of questionable water at 100 °C for one minute. What does that do to the microbes and viruses in it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Most of them are inactivated"
+    },
+    {
+     "id": "b",
+     "label": "All of them are destroyed, with none left to worry about"
+    },
+    {
+     "id": "c",
+     "label": "Very few are affected, since they need ten minutes at that heat"
+    },
+    {
+     "id": "d",
+     "label": "None are affected, because boiling water only makes it clearer"
+    }
+   ],
+   "answer": "a",
+   "explain": "Holding water at 100 °C for one minute inactivates most micro-organisms and viruses, though their sensitivity to heat varies.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.liquids.boiling:q3"
+  },
+  {
+   "prompt": "A heating surface is far hotter than the liquid above it. What builds up on the surface, and what does it do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A layer of ice, which cools the surface"
+    },
+    {
+     "id": "b",
+     "label": "More and more bubbles, which carry heat away faster"
+    },
+    {
+     "id": "c",
+     "label": "A thin layer of vapour, which insulates the surface from the liquid"
+    },
+    {
+     "id": "d",
+     "label": "A layer of dissolved gas, which pulls the liquid closer"
+    }
+   ],
+   "answer": "c",
+   "explain": "If the surface is much hotter than the liquid, a thin vapour layer with low thermal conductivity insulates the surface from the liquid. This is film boiling.",
+   "cites": [
+    25,
+    26,
+    27
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.liquids.boiling:q4"
+  },
+  {
+   "prompt": "A power plant pumps a boiling fluid around through pipes. What kind of boiling is this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A kind where there is no forced flow and the fluid sits still"
+    },
+    {
+     "id": "b",
+     "label": "A kind where the fluid is moving through the system, often driven by pumps"
+    },
+    {
+     "id": "c",
+     "label": "A kind that happens only in tiny gaps between surfaces"
+    },
+    {
+     "id": "d",
+     "label": "A kind where bubbles never form at all"
+    }
+   ],
+   "answer": "b",
+   "explain": "Flow boiling occurs when the boiling fluid circulates, typically through pipes, powered by pumps as in power plants. Pool boiling has no forced flow.",
+   "cites": [
+    28,
+    31,
+    32
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.liquids.boiling:q5"
+  },
+  {
+   "prompt": "A cook turns up the burner under a pan of water. What happens to the number of spots on the pan where bubbles can start?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It tends to go up as the pan's surface gets hotter"
+    },
+    {
+     "id": "b",
+     "label": "It goes down, because hotter metal is smoother"
+    },
+    {
+     "id": "c",
+     "label": "It stays fixed, since only the water's temperature matters"
+    },
+    {
+     "id": "d",
+     "label": "It drops to one, because bubbles merge on the hottest spot"
+    }
+   ],
+   "answer": "a",
+   "explain": "In general, the number of nucleation sites is increased by an increasing surface temperature.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.liquids.boiling:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Boilingkettle.jpg/960px-Boilingkettle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Boiling",
+  "credit": "Plorpy2",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Boilingkettle.jpg"
+ },
+ "source": {
+  "title": "Boiling",
+  "url": "https://en.wikipedia.org/wiki/Boiling",
+  "revision": 1381188165
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What boiling is",
+    "text": "Boiling, also called ebullition, is the quick change of a liquid into a gas or vapour. Its reverse is condensation. A liquid boils once it is heated to its boiling point, the temperature at which its vapour pressure matches the pressure the surrounding air presses on it with. Boiling is one of the two main ways a liquid turns to vapour; the other is evaporation.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "Boiling in daily life",
+    "text": "Water boils at 100 °C (212 °F), but at a lower temperature at higher altitudes, where the air pressure is lower. Boiling water is a way to make it safe to drink, because it kills microbes and viruses. Holding water at 100 °C for one minute knocks out most micro-organisms and viruses, and ten minutes at 70 °C (158 °F) is enough for most bacteria. Boiling water also drives many ways of cooking, from parboiling and blanching to steaming and poaching.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Bubbles from a hot surface",
+    "text": "In nucleate boiling, one of the two main types, small vapour bubbles grow at separate spots on a heated surface that is only a little hotter than the liquid. The hotter the surface, the more of these bubble-starting spots there are. A rough pan, or additives such as surfactants or nanoparticles, let this kind of boiling happen across a wider range of temperatures. A very smooth surface, such as plastic, does the opposite and invites superheating: the liquid can climb somewhat past its boiling point without boiling.",
+    "cites": [
+     4,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Inside the liquid",
+    "text": "Bubbles can also form in the body of the liquid rather than on a surface, which is called homogeneous nucleation. This can happen when the liquid is hotter in the middle than at the walls of its container. A microwave oven can do this, since it heats the water and not the container. Bubble formation often involves cavitation and sound effects, such as the broad hiss of a kettle before its bubbles are able to reach the surface.",
+    "cites": [
+     17,
+     18,
+     24
+    ]
+   },
+   {
+    "heading": "When vapour gets in the way",
+    "text": "If the heating surface is far hotter than the liquid, a thin layer of vapour forms over it. Vapour carries heat poorly, so the layer insulates the surface from the liquid; this is called film boiling. The point where this sets in is the critical heat flux, a limit beyond which heat transfer suddenly gets worse and the surface overheats in spots. Past it, the surface temperature climbs very fast. Between nucleate and film boiling lies transition boiling, an unstable mix of the two.",
+    "cites": [
+     4,
+     5,
+     19,
+     20,
+     21,
+     23,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Boiling in machines",
+    "text": "In pool boiling there is no forced flow, and the liquid moves only because of differences in density. In flow boiling the fluid circulates, usually through pipes, pushed by pumps as in power plants or by density differences as in a heat pipe. One system can hold liquid, gas and mixed two-phase regions at once, and those mixed regions can give some of the best heat transfer of any system. Boiling in confined spaces, called confined boiling, looks especially promising for cooling electronics.",
+    "cites": [
+     28,
+     29,
+     31,
+     32,
+     36,
+     37,
+     38,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-humidity-boiling",
+   "kind": "book",
+   "title": "13.6 Humidity, Evaporation, and Boiling - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+   "note": "A free physics textbook section on evaporation and boiling, and how vapour pressure sets the boiling point.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

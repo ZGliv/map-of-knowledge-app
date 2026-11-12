@@ -1,0 +1,556 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.molecules-cells.biomolecules",
+ "name": "Biomolecules",
+ "summary": [
+  {
+   "text": "A biomolecule is a molecule produced by a living organism and essential to one or more biological processes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The large ones are proteins, carbohydrates, lipids and nucleic acids, and small molecules such as vitamins and hormones count too.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Most biomolecules are organic compounds, and just four elements, oxygen, carbon, hydrogen and nitrogen, make up 96% of the human body's mass.",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Large kinds",
+   "value": "Proteins, carbohydrates, lipids, nucleic acids",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Small kinds",
+   "value": "Vitamins and hormones",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Body mass",
+   "value": "Four elements make up 96% of human mass",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Studied in",
+   "value": "Biochemistry and molecular biology",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Where from",
+   "value": "Made inside the organism or taken in",
+   "cites": [
+    5
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A person needs certain nutrients they cannot make themselves. What kind of biomolecule are these nutrients?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Endogenous, because the body produced them within itself"
+    },
+    {
+     "id": "b",
+     "label": "Not biomolecules, because the body did not make them"
+    },
+    {
+     "id": "c",
+     "label": "Exogenous, because they come from outside the organism"
+    },
+    {
+     "id": "d",
+     "label": "Biometals, because they are present in small amounts"
+    }
+   ],
+   "answer": "c",
+   "explain": "Organisms usually also need exogenous biomolecules, such as certain nutrients, to survive.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules:q1"
+  },
+  {
+   "prompt": "A student says only big molecules like proteins can be biomolecules. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Small molecules such as vitamins and hormones count as biomolecules too"
+    },
+    {
+     "id": "b",
+     "label": "Big molecules count only when they are made inside the organism"
+    },
+    {
+     "id": "c",
+     "label": "Only small molecules count, since big ones are polymers"
+    },
+    {
+     "id": "d",
+     "label": "Vitamins count but hormones do not, since they signal"
+    }
+   ],
+   "answer": "a",
+   "explain": "Biomolecules include large macromolecules and also small molecules such as vitamins and hormones.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules:q2"
+  },
+  {
+   "prompt": "About 96% of a person's body mass comes from just four elements. Which four?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Oxygen, carbon, hydrogen and nitrogen"
+    },
+    {
+     "id": "b",
+     "label": "Carbon, calcium, iron and phosphorus"
+    },
+    {
+     "id": "c",
+     "label": "Oxygen, sodium, potassium and carbon"
+    },
+    {
+     "id": "d",
+     "label": "Hydrogen, nitrogen, sulfur and calcium"
+    }
+   ],
+   "answer": "a",
+   "explain": "Oxygen, carbon, hydrogen and nitrogen make up 96% of the human body's mass.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules:q3"
+  },
+  {
+   "prompt": "A lab isolates a long polymer built from mononucleotides. It uses uracil instead of thymine, and its sugar rings carry an extra hydroxyl group. What is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "DNA, built from deoxynucleotides"
+    },
+    {
+     "id": "b",
+     "label": "RNA, built from ribonucleotides"
+    },
+    {
+     "id": "c",
+     "label": "A polysaccharide, since it has sugar rings"
+    },
+    {
+     "id": "d",
+     "label": "A protein, since it is long and folds in 3D"
+    }
+   ],
+   "answer": "b",
+   "explain": "RNA uses the ribonucleotides C, G, A and U, which have an extra hydroxyl group on the pentose ring.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules:q4"
+  },
+  {
+   "prompt": "Two single sugars bond with removal of water, making a disaccharide. What is expected when it is boiled with dilute acid?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It joins with more sugars into a large starch"
+    },
+    {
+     "id": "b",
+     "label": "It turns into a single large nucleic acid"
+    },
+    {
+     "id": "c",
+     "label": "It stays unchanged because the bond is permanent"
+    },
+    {
+     "id": "d",
+     "label": "It splits back into its two single sugars"
+    }
+   ],
+   "answer": "d",
+   "explain": "Disaccharides can be hydrolyzed to yield their building blocks by boiling with dilute acid or reacting with enzymes.",
+   "cites": [
+    34,
+    35
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules:q5"
+  },
+  {
+   "prompt": "Most RNA is thought of as a messenger carrying information. What else can some structured RNA molecules do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Store genes as stable B-form double helices"
+    },
+    {
+     "id": "b",
+     "label": "Digest dietary proteins into amino acids"
+    },
+    {
+     "id": "c",
+     "label": "Act as enzymes that catalyse reactions"
+    },
+    {
+     "id": "d",
+     "label": "Serve only as a fuel for cellular respiration"
+    }
+   ],
+   "answer": "c",
+   "explain": "Structured RNAs can perform enzymatic catalysis, and are then known as ribozymes.",
+   "cites": [
+    22,
+    26
+   ],
+   "id": "knowledge.science.biology.molecules-cells.biomolecules:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Myoglobin.png/960px-Myoglobin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Biomolecules",
+  "credit": "→AzaToth",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Myoglobin.png"
+ },
+ "source": {
+  "title": "Biomolecule",
+  "url": "https://en.wikipedia.org/wiki/Biomolecule",
+  "revision": 1377574409
+ },
+ "pack": {
+  "id": "auto-molecules-cells-biomolecules",
+  "title": "What living things are made of",
+  "question": "What kinds of molecules do living things build and use?",
+  "path": [
+   "Science",
+   "Biology",
+   "Molecules & Cells",
+   "Biomolecules"
+  ],
+  "hue": 186,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Myoglobin.png/960px-Myoglobin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Biomolecules",
+    "credit": "→AzaToth · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Myoglobin.png",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "What living things are made of",
+    "hook": "Just four elements make up 96% of a human body's mass."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-molecules-cells-biomolecules:1",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each biomolecule by size",
+    "left": [
+     {
+      "id": "i0",
+      "label": "proteins"
+     },
+     {
+      "id": "i1",
+      "label": "lipids"
+     },
+     {
+      "id": "i2",
+      "label": "nucleic acids"
+     },
+     {
+      "id": "i3",
+      "label": "vitamins"
+     },
+     {
+      "id": "i4",
+      "label": "hormones"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "large macromolecule"
+     },
+     {
+      "id": "g1",
+      "label": "small molecule"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g0",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Proteins, carbohydrates, lipids and nucleic acids are the large macromolecules; vitamins and hormones are small molecules."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-molecules-cells-biomolecules:2",
+    "transfer": false,
+    "prompt": "Match each sugar to its type",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Glucose"
+     },
+     {
+      "id": "l1",
+      "label": "Sucrose"
+     },
+     {
+      "id": "l2",
+      "label": "Starch"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "Polysaccharide"
+     },
+     {
+      "id": "r0",
+      "label": "Monosaccharide"
+     },
+     {
+      "id": "r1",
+      "label": "Disaccharide"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "Monosaccharides are single sugars, disaccharides join two, and polysaccharides are polymerized monosaccharides."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-molecules-cells-biomolecules:3",
+    "transfer": true,
+    "prompt": "A cell builds a new RNA strand. Where DNA would use thymine, which base does RNA use?",
+    "explain": "DNA uses C, G, A and T, while RNA uses C, G, A and U.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "Cytosine",
+        "feedback": "Cytosine appears in both DNA and RNA too."
+       },
+       {
+        "id": "a",
+        "label": "Uracil"
+       },
+       {
+        "id": "b",
+        "label": "Adenine",
+        "feedback": "Adenine is used by both DNA and RNA, so it cannot be the swap."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-molecules-cells-biomolecules:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A biomolecule is a molecule produced by a living organism."
+     },
+     {
+      "id": "b",
+      "text": "Many biomolecules are endogenous, meaning produced within the organism."
+     },
+     {
+      "id": "c",
+      "text": "Nutrients taken in from food are exogenous biomolecules."
+     },
+     {
+      "id": "d",
+      "text": "So an organism can survive entirely on what it makes itself."
+     }
+    ],
+    "answer": "d",
+    "explain": "Organisms usually also need exogenous biomolecules, such as certain nutrients, to survive."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Biomolecules range from small vitamins to huge chains, and a few big families cover most of the large ones.",
+    "connections": [
+     {
+      "title": "Protein",
+      "place": "Biomolecules",
+      "node": "knowledge.science.biology.molecules-cells.biomolecules.protein"
+     },
+     {
+      "title": "Carbohydrate",
+      "place": "Biomolecules",
+      "node": "knowledge.science.biology.molecules-cells.biomolecules.carbohydrate"
+     },
+     {
+      "title": "Lipid",
+      "place": "Biomolecules",
+      "node": "knowledge.science.biology.molecules-cells.biomolecules.lipid"
+     },
+     {
+      "title": "Nucleic acid",
+      "place": "Biomolecules",
+      "node": "knowledge.science.biology.molecules-cells.biomolecules.nucleic-acid"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Proteins, carbohydrates, lipids and nucleic acids are the large macromolecules; vitamins and hormones are small molecules.",
+    "source": "Wikipedia sentences 2"
+   },
+   {
+    "claim": "Monosaccharides are single sugars, disaccharides join two, and polysaccharides are polymerized monosaccharides.",
+    "source": "Wikipedia sentences 31, 36, 39"
+   },
+   {
+    "claim": "DNA uses C, G, A and T, while RNA uses C, G, A and U.",
+    "source": "Wikipedia sentences 14"
+   },
+   {
+    "claim": "Organisms usually also need exogenous biomolecules, such as certain nutrients, to survive.",
+    "source": "Wikipedia sentences 1, 5"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Molecules made by life",
+    "text": "A biomolecule, or biological molecule, is roughly any molecule a living thing makes that matters to one or more biological processes. The big ones are proteins, carbohydrates, lipids and nucleic acids; small ones such as vitamins and hormones count too. Many are endogenous, meaning the organism makes them itself, but living things usually also need some from outside, such as certain nutrients. Biology studies these molecules and their reactions, especially in biochemistry and molecular biology.",
+    "cites": [
+     1,
+     2,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "A few elements do most of the work",
+    "text": "Most biomolecules are organic compounds. Just four elements, oxygen, carbon, hydrogen and nitrogen, account for 96% of the mass of a human body. Many other elements, including various metals, are present in small amounts. Across the huge variety of life, the same kinds of biomolecules and the same chemical pathways keep turning up. Biologists call this sameness the biochemical universals, a unifying idea that stands beside cell theory and evolution.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Nucleotides, the letters of DNA and RNA",
+    "text": "A nucleoside forms when a nitrogen-containing base joins a ribose or deoxyribose sugar ring; adding phosphate groups to it gives a nucleotide. DNA and RNA are long chains, or polymers, built from these units by enzymes called polymerases. DNA uses the units C, G, A and T, while RNA uses C, G, A and U, whose sugar carries an extra OH group. Nucleotides also do other jobs: ATP and GTP store chemical energy, others carry signals inside the cell, and some are parts of helper molecules for enzymes.",
+    "cites": [
+     10,
+     12,
+     13,
+     14,
+     16,
+     18
+    ]
+   },
+   {
+    "heading": "The shapes of DNA and RNA",
+    "text": "DNA usually takes the shape of the double helix, held together by C pairing with G and A pairing with T. This pairing is precise and stable, and that is what lets DNA store genetic information reliably. RNA behaves differently: it can fold into large, complex 3D shapes that recall proteins, such as transfer RNA and ribosomes. Folded RNA can bind other molecules very specifically and can even speed up chemical reactions, in which case it is called a ribozyme.",
+    "cites": [
+     19,
+     20,
+     22,
+     24,
+     26
+    ]
+   },
+   {
+    "heading": "Sugars, from one to many",
+    "text": "Carbohydrates come in sizes. Monosaccharides are the simplest, a single sugar such as glucose, fructose, galactose or ribose. Two of them joined, with water given off, make a disaccharide such as sucrose, maltose or lactose. Many joined together make a polysaccharide such as starch, cellulose or glycogen, usually large and often branched, while short chains of 3 to 10 units are called oligosaccharides. In the end most of these sugars serve as fuel for cellular respiration.",
+    "cites": [
+     27,
+     31,
+     33,
+     34,
+     36,
+     37,
+     39,
+     40,
+     42
+    ]
+   },
+   {
+    "heading": "Same sugar, different fates",
+    "text": "Fructose and glucose leave the stomach at different speeds, are absorbed differently and are used differently afterwards. That gives the two sugars several separate routes to influence how much food we take in. Large polysaccharides do not dissolve in water because of their size, yet some form thick mixtures when heated in water.",
+    "cites": [
+     32,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-ch3",
+   "kind": "book",
+   "title": "Ch. 3 Introduction",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/3-introduction",
+   "note": "Opens a free textbook chapter on the four big families of biological molecules and how they are built.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-3-1",
+   "kind": "book",
+   "title": "3.1 Synthesis of Biological Macromolecules",
+   "by": "OpenStax Biology 2e",
+   "url": "https://openstax.org/books/biology-2e/pages/3-1-synthesis-of-biological-macromolecules",
+   "note": "A free textbook section on how small units join into large biological molecules and how water breaks them apart.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "cc-bio-3-molecules",
+   "kind": "video",
+   "title": "Biological Molecules - You Are What You Eat: Crash Course Biology #3",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=H8WJ2KENlK0",
+   "note": "A Crash Course Biology episode on the main kinds of biological molecules that make up living things and our food."
+  }
+ ]
+}

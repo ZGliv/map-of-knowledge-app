@@ -1,0 +1,81 @@
+/* The shelf: a place's fill bar and items (hub), the Reader overlay, and the whole-map fill in the top bar.
+   Colors come only from the atlas tokens (cartographic-theme.css) and the place's --hub-color. */
+
+/* Hub: fill bar and core items */
+.place-shelf-fill{display:grid;gap:10px;margin:14px 0 6px}
+.place-shelf-fill p{margin:0;font-size:15px;color:var(--atlas-bright)}
+.place-shelf-fill p span{color:var(--atlas-muted)}
+.place-shelf-bar{position:relative;height:6px;border-radius:3px;background:var(--atlas-raised);box-shadow:inset 0 0 0 1px var(--atlas-rule);overflow:hidden}
+.place-shelf-bar i{position:absolute;inset:0 auto 0 0;width:calc(var(--shelf-fill,0) * 100%);border-radius:inherit;background:var(--hub-color,var(--atlas-highlight));transition:width .4s ease}
+.place-shelf-fill.is-inside{gap:7px;margin-top:4px}
+.place-shelf-fill.is-inside p{font-size:13px;color:var(--atlas-muted)}
+.place-shelf-bar.is-thin{height:3px}
+.place-shelf-group{margin-top:26px}
+.place-shelf-group-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:0 0 6px}
+.place-shelf-group-head h3{margin:0;font-size:11px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;color:var(--atlas-pale,var(--atlas-text))}
+.place-shelf-group-head span{font-size:12px;color:var(--atlas-muted);font-variant-numeric:tabular-nums;text-align:right}
+.place-shelf-group .watch-cards,.place-shelf-group .reel-cards{margin-top:8px}
+.place-shelf-extras{margin:30px 0 -8px;font-size:13px;color:var(--atlas-muted)}
+.place-shelf-items{list-style:none;margin:0;padding:0}
+.place-shelf-items li{display:grid;grid-template-columns:22px minmax(0,1fr) auto;align-items:center;gap:14px;min-height:60px;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--atlas-rule) 70%,transparent)}
+.place-shelf-tick{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;border:1px solid var(--atlas-border-strong);color:transparent;transition:background .2s,border-color .2s}
+.place-shelf-items li.is-done .place-shelf-tick{border-color:var(--hub-color,var(--atlas-highlight));background:var(--hub-color,var(--atlas-highlight));color:var(--atlas-chrome)}
+.place-shelf-title{display:grid;gap:3px;min-width:0;justify-items:start}
+.place-shelf-title strong,.place-shelf-title>a{font-weight:500;font-size:15px;line-height:1.35;color:var(--atlas-text);overflow-wrap:anywhere}
+.place-shelf-title>a{text-decoration:none}
+/* A link out is at least 40px tall to tap; the extra room overlaps the quiet lines above and below, so nothing moves. */
+.place-shelf-links .place-shelf-title>a{display:inline-block;padding:10px 0;margin:-10px 0;position:relative}
+.place-shelf-title>a svg{margin-left:6px;vertical-align:1px;color:var(--atlas-muted)}
+.place-shelf-title>a:hover{color:var(--atlas-bright);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--atlas-muted)}
+.place-shelf-title small{font-size:12.5px;line-height:1.45;color:var(--atlas-muted)}
+.place-shelf-title small.place-shelf-note{color:var(--atlas-secondary);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.place-shelf-kind{padding:2px 6px;margin-bottom:2px;border:1px solid var(--atlas-rule);border-radius:2px;font-size:9.5px;line-height:1.4;letter-spacing:1.1px;text-transform:uppercase;color:var(--atlas-muted)}
+.place-shelf-items li.is-done .place-shelf-title strong,.place-shelf-items li.is-done .place-shelf-title>a{color:var(--atlas-bright)}
+.place-shelf-side{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.place-shelf-done{gap:6px}
+.place-shelf-done svg{color:var(--atlas-muted)}
+.place-shelf-done.is-done{cursor:default;opacity:1;border-color:var(--hub-color,var(--atlas-highlight));background:color-mix(in srgb,var(--hub-color,var(--atlas-highlight)) 24%,transparent);color:var(--atlas-bright)}
+.place-shelf-done.is-done svg{color:var(--atlas-bright)}
+/* A finished video: a tick where the saved mark sits, and no dimming. */
+.watch-card-saved.watch-card-done{background:var(--place-color);color:var(--atlas-chrome,#05060c)}
+.watch-card.is-done .watch-card-media{opacity:1}
+.reel-card-pin.reel-card-done{background:var(--reel-color);color:var(--atlas-chrome,#05060c)}
+@media(max-width:560px){
+ .place-shelf-items li{grid-template-columns:22px minmax(0,1fr);align-items:start}
+ .place-shelf-items li .place-shelf-tick{margin-top:1px}
+ .place-shelf-side{grid-column:2;justify-content:flex-start}
+ .place-shelf-side:empty{display:none}
+ .place-shelf-group-head{flex-wrap:wrap}
+}
+
+/* The Reader */
+.shelf-reader{position:fixed;inset:0;z-index:25;display:flex;flex-direction:column;color-scheme:dark;color:var(--atlas-text);background:var(--atlas-chrome);animation:shelf-reader-in .25s ease-out}
+@keyframes shelf-reader-in{from{opacity:0;transform:translateY(8px)}}
+.shelf-reader-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;height:calc(56px + var(--safe-top,0px));padding:var(--safe-top,0px) max(8px,var(--safe-right,0px)) 0 max(20px,var(--safe-left,0px));border-bottom:1px solid var(--atlas-rule)}
+.shelf-reader-meta{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--atlas-muted)}
+.shelf-reader-close{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:none;color:var(--atlas-pale)}
+.shelf-reader-close:hover{background:var(--atlas-raised);color:var(--atlas-bright)}
+.shelf-reader-scroll{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-color:var(--atlas-rule) transparent}
+.shelf-reader-page{max-width:680px;margin:0 auto;padding:clamp(28px,6vw,64px) 16px calc(64px + var(--safe-bottom,0px))}
+.shelf-reader-page h1{font:400 clamp(34px,6vw,52px)/1.08 var(--atlas-serif);letter-spacing:-.8px;color:var(--atlas-bright);margin:0 0 28px;text-wrap:balance}
+.shelf-reader-figure{margin:0 0 32px}
+.shelf-reader-figure img{display:block;width:100%;max-height:360px;object-fit:contain;background:var(--atlas-panel);border-radius:4px}
+.shelf-reader-figure figcaption{margin-top:8px;font-size:11.5px;color:var(--atlas-muted)}
+.shelf-reader-figure a,.shelf-reader-source a{color:inherit;text-underline-offset:3px}
+.shelf-reader-part h2{font:400 clamp(22px,3vw,26px)/1.25 var(--atlas-serif);color:var(--atlas-bright);margin:36px 0 10px}
+.shelf-reader-part p{margin:0 0 18px;font:400 clamp(17px,2vw,19px)/1.7 var(--atlas-serif);color:var(--atlas-secondary);text-wrap:pretty}
+.shelf-reader-end{display:grid;justify-items:start;gap:18px;margin-top:40px;padding-top:22px;border-top:1px solid var(--atlas-rule)}
+.shelf-reader-source{margin:0;font-size:12px;color:var(--atlas-muted)}
+@media(prefers-reduced-motion:reduce){.shelf-reader{animation:none}.place-shelf-bar i{transition:none}.place-shelf-tick{transition:none}}
+
+/* The whole map's fill, beside Overview in the top bar */
+.shelf-map-fill{margin-left:8px;padding-left:8px;border-left:1px solid var(--control-edge,var(--atlas-border));color:var(--atlas-muted);font-variant-numeric:tabular-nums;font-weight:400}
+/* On a phone the place name keeps the room: the pill is the percentage alone (its label still says Overview). */
+@media(max-width:800px){.shelf-map-overview{display:none}.shelf-map-fill{margin-left:0;padding-left:0;border-left:0}}
+/* The whole map's fill as a sentence at every depth: under the territories on a wide screen, over the
+   map's corner where the sidebar is gone (the pill above says it at the top of the map). */
+.shelf-map-total{margin:0;font-size:12px;line-height:1.4;color:var(--atlas-muted)}
+.shelf-map-total b{font-weight:600;color:var(--atlas-bright);font-variant-numeric:tabular-nums}
+.shelf-map-total.is-side{padding:20px 12px 0}
+.shelf-map-total.is-stage{display:none;position:absolute;z-index:3;left:16px;top:calc(var(--chrome-top,48px) + 10px);max-width:calc(100% - 32px);padding:6px 12px;border-radius:999px;background:rgb(8 10 20/.72);border:1px solid var(--atlas-border);pointer-events:none;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:1180px){.shelf-map-total.is-stage{display:block}.shelf-map-total.is-side{display:none}}

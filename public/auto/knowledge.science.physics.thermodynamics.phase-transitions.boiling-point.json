@@ -1,0 +1,347 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point",
+ "name": "Boiling point",
+ "summary": [
+  {
+   "text": "The boiling point is the temperature at which a liquid's vapor pressure equals the pressure around it, so the liquid turns into vapor.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Because it depends on the surrounding pressure, water boils at 100 °C at sea level but at a lower temperature at altitude, and any liquid boils cooler in a partial vacuum.",
+   "cites": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Boiling makes vapor bubbles anywhere in the liquid, unlike evaporation, which happens only at the surface and can occur well below the boiling point.",
+   "cites": [
+    10,
+    11,
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Water at sea level",
+   "value": "About 100 °C, precisely 99.97 °C",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Top of Everest",
+   "value": "Water boils at about 71 °C",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Upper limit",
+   "value": "It cannot rise beyond the critical point",
+   "cites": [
+    24,
+    25
+   ]
+  },
+  {
+   "label": "Lower limit",
+   "value": "It cannot drop below the triple point",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "label": "Old Celsius scale",
+   "value": "Until 1954, 100 °C was water's boiling point",
+   "cites": [
+    35
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A hiker boils pasta water high on a mountain and finds it boils at a lower temperature than at home. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mountain water holds less heat to begin with"
+    },
+    {
+     "id": "b",
+     "label": "Cold mountain air pulls heat out of the pot"
+    },
+    {
+     "id": "c",
+     "label": "The air pressure is lower, so less is needed to boil"
+    },
+    {
+     "id": "d",
+     "label": "Pasta in the water lowers its boiling point"
+    }
+   ],
+   "answer": "c",
+   "explain": "Boiling happens when vapor pressure equals the surrounding pressure; at altitude the pressure is lower, so the boiling point is lower.",
+   "cites": [
+    20,
+    23
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point:q1"
+  },
+  {
+   "prompt": "A puddle dries on a cool day even though it is nowhere near boiling. What is going on?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Molecules at the surface escape into the air as vapor"
+    },
+    {
+     "id": "b",
+     "label": "Bubbles of vapor form deep inside and rise out"
+    },
+    {
+     "id": "c",
+     "label": "The puddle's boiling point has dropped to the air temperature"
+    },
+    {
+     "id": "d",
+     "label": "The puddle is quietly turning into a solid"
+    }
+   ],
+   "answer": "a",
+   "explain": "Liquids can turn to vapor below their boiling points by evaporation, a surface process where edge molecules escape.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point:q2"
+  },
+  {
+   "prompt": "At the same temperature, liquid X has a higher vapor pressure than liquid Y. Which statement is right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "X has the higher normal boiling point"
+    },
+    {
+     "id": "b",
+     "label": "X and Y have the same normal boiling point"
+    },
+    {
+     "id": "c",
+     "label": "Vapor pressure says nothing about boiling point"
+    },
+    {
+     "id": "d",
+     "label": "X has the lower normal boiling point"
+    }
+   ],
+   "answer": "d",
+   "explain": "The higher a liquid's vapor pressure at a given temperature, the lower its normal boiling point.",
+   "cites": [
+    36,
+    38
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point:q3"
+  },
+  {
+   "prompt": "A sealed pressure cooker holds the pressure on its water well above normal. What happens to the temperature at which the water boils?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays at 100 °C because that is fixed"
+    },
+    {
+     "id": "b",
+     "label": "It goes up, since more pressure must be matched"
+    },
+    {
+     "id": "c",
+     "label": "It goes down, since the water is squeezed"
+    },
+    {
+     "id": "d",
+     "label": "It disappears, so the water never boils"
+    }
+   ],
+   "answer": "b",
+   "explain": "The boiling point increases with increased pressure, up to the critical point.",
+   "cites": [
+    21,
+    24
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point:q4"
+  },
+  {
+   "prompt": "A liquid sits exactly at its saturation temperature under constant pressure, and more thermal energy is added. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays liquid and just gets hotter"
+    },
+    {
+     "id": "b",
+     "label": "It freezes, since it is already saturated"
+    },
+    {
+     "id": "c",
+     "label": "It turns into a supercritical fluid at once"
+    },
+    {
+     "id": "d",
+     "label": "It boils into its vapor phase"
+    }
+   ],
+   "answer": "d",
+   "explain": "A liquid at saturation temperature and pressure has all the thermal energy it can hold; adding more drives a phase transition to vapor.",
+   "cites": [
+    13,
+    17,
+    19
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point:q5"
+  },
+  {
+   "prompt": "At a liquid's normal boiling point, vapor bubbles can form inside the liquid. What makes that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The surface layer cools and sinks into the liquid"
+    },
+    {
+     "id": "b",
+     "label": "Its vapor pressure rises enough to beat the air pressure"
+    },
+    {
+     "id": "c",
+     "label": "The surrounding air pressure drops away to nothing"
+    },
+    {
+     "id": "d",
+     "label": "The heat of vaporization falls to zero"
+    }
+   ],
+   "answer": "b",
+   "explain": "At that temperature the vapor pressure becomes sufficient to overcome atmospheric pressure, letting bubbles form in the bulk.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.thermodynamics.phase-transitions.boiling-point:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Boilingkettle.jpg/960px-Boilingkettle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Boiling point",
+  "credit": "Plorpy2",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Boilingkettle.jpg"
+ },
+ "source": {
+  "title": "Boiling point",
+  "url": "https://en.wikipedia.org/wiki/Boiling_point",
+  "revision": 1380069909
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the boiling point is",
+    "text": "A substance boils at the temperature where a liquid's vapor pressure matches the pressure around it, so that the liquid turns into vapor. It is not fixed: it shifts with the pressure of the surroundings. At the same pressure, different liquids boil at different temperatures.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "Pressure and altitude",
+    "text": "Lower the pressure, as in a partial vacuum, and a liquid boils at a lower temperature than it would at atmospheric pressure. That is why water boils at 100 °C, more precisely 99.97 °C, at sea level under standard pressure, yet only 93.4 °C at 1,905 metres up. Higher places have much lower air pressure and so lower boiling points. On top of Mount Everest, 8,848 m high, the pressure is about 34 kPa and water boils at 71 °C.",
+    "cites": [
+     3,
+     4,
+     23,
+     34
+    ]
+   },
+   {
+    "heading": "Normal and standard values",
+    "text": "The normal boiling point is the temperature at which a liquid boils under one atmosphere, the defined pressure at sea level. There the vapor pressure is strong enough to overcome the air pressure, and vapor bubbles can form inside the body of the liquid. Since 1982, IUPAC has defined a standard boiling point at a pressure of one bar. Published tables may follow the NIST standard pressure, 101.325 kPa (1 atm), or the IUPAC one, 100.000 kPa (1 bar); at 1 bar, water boils at 99.61 °C.",
+    "cites": [
+     6,
+     7,
+     8,
+     22,
+     33
+    ]
+   },
+   {
+    "heading": "Boiling versus evaporation",
+    "text": "A liquid can turn to vapor below its boiling point by evaporation. Evaporation happens at the surface: molecules near the edge, without enough liquid pressing on them from that side, slip away as vapor. In boiling, molecules anywhere in the liquid escape, so vapor bubbles form within it.",
+    "cites": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Saturation",
+    "text": "Another name for the boiling point is the saturation temperature. A saturated liquid holds as much thermal energy as it can without boiling, so any added heat brings a phase change. If the pressure stays constant, a liquid at this temperature boils as more heat goes in, and a vapor at it starts to condense as heat is taken away.",
+    "cites": [
+     13,
+     14,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Upper and lower limits",
+    "text": "Raising the pressure raises the boiling point, but only up to the critical point, where gas and liquid properties become identical; beyond that it cannot go higher. Lowering the pressure lowers the boiling point until the triple point is reached, and it cannot drop below that. The critical point thus marks the highest temperature, and pressure, at which a liquid will actually boil.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     41
+    ]
+   },
+   {
+    "heading": "Comparing liquids",
+    "text": "The higher a liquid's vapor pressure at a given temperature, the lower its normal boiling point. Methyl chloride is one example, with a high vapor pressure and a normal boiling point of −24.2 °C. Among the elements, helium boils at the lowest temperature. A pure compound has at most one normal boiling point, and together with its melting point this serves as a characteristic property listed in reference books.",
+    "cites": [
+     36,
+     39,
+     40,
+     42,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "chem-phase-transitions",
+   "kind": "book",
+   "title": "10.3 Phase Transitions - Chemistry 2e",
+   "by": "Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson (OpenStax)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+   "note": "A free textbook section with a part on boiling points: vapor pressure, normal boiling point and how pressure shifts it.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "evaporation-boiling",
+   "kind": "book",
+   "title": "13.6 Humidity, Evaporation, and Boiling - College Physics 2e",
+   "by": "OpenStax (Paul Peter Urone, Roger Hinrichs)",
+   "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+   "note": "A free physics textbook section contrasting evaporation with boiling and explaining both through vapor pressure.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

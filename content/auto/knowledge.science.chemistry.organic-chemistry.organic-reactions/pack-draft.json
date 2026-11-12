@@ -1,0 +1,123 @@
+{
+ "title": "Three ways electrons move",
+ "question": "How can the huge number of organic reactions be sorted by how their electrons move?",
+ "hook": "There are about a thousand named reactions, but only a few ways for electrons to move.",
+ "idea": "Most organic reactions fall into polar, radical or pericyclic classes, depending on how their electrons move.",
+ "beats": [
+  {
+   "kind": "match",
+   "prompt": "Match each class of reaction to how its electrons behave.",
+   "pairs": [
+    [
+     "Polar",
+     "Electron pairs move from a clear source to a clear sink"
+    ],
+    [
+     "Radical",
+     "Single unpaired electrons move"
+    ],
+    [
+     "Pericyclic",
+     "Bonds shift around a cyclic transition state"
+    ]
+   ],
+   "explain": "Polar, radical and pericyclic reactions are the mechanistic classes, told apart by how electrons move.",
+   "cites": [
+    15,
+    16,
+    19,
+    21
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each item into reaction types or reagent examples.",
+   "groups": [
+    "Reaction types",
+    "Reagent examples"
+   ],
+   "items": [
+    [
+     "Addition reactions",
+     "Reaction types"
+    ],
+    [
+     "Substitution reactions",
+     "Reaction types"
+    ],
+    [
+     "Redox reactions",
+     "Reaction types"
+    ],
+    [
+     "Lithium aluminium hydride",
+     "Reagent examples"
+    ],
+    [
+     "Sulfuric acid",
+     "Reagent examples"
+    ],
+    [
+     "Osmium tetroxide",
+     "Reagent examples"
+    ]
+   ],
+   "explain": "Reaction types describe what happens to the molecule, while reagents are the substances, often inorganic, that a transformation requires.",
+   "cites": [
+    2,
+    12,
+    13
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Chemists often sort reactions by mechanistic class: polar, radical or pericyclic.",
+    "Every reaction therefore fits neatly into exactly one of the classes.",
+    "Polar reactions are the largest group, making up the vast majority.",
+    "Polar reactions move electron pairs from a source to a sink."
+   ],
+   "wrong": 1,
+   "explain": "Some chemical processes involve steps from two or even all three classes, so the scheme is not always clear.",
+   "cites": [
+    15,
+    16,
+    18,
+    24
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "In one reaction, bonds are redistributed around a cyclic transition state and electron pairs circle around without a true source or sink. What must hold for this to work?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The orbitals of the participating atoms must overlap continuously"
+    },
+    {
+     "id": "b",
+     "label": "A strong acid must pass protons along throughout",
+     "feedback": "Acids are one type of reagent, but this reaction is defined by its cyclic electron movement."
+    },
+    {
+     "id": "c",
+     "label": "Free radicals must carry single electrons",
+     "feedback": "Single electrons moving belongs to radical reactions, not this one."
+    },
+    {
+     "id": "d",
+     "label": "A small molecule such as water must be split off",
+     "feedback": "Splitting off water describes condensation reactions, not this class."
+    }
+   ],
+   "answer": "a",
+   "explain": "Pericyclic reactions need continuous overlap of the participating orbitals and are governed by orbital symmetry.",
+   "cites": [
+    21,
+    22,
+    23
+   ]
+  }
+ ]
+}

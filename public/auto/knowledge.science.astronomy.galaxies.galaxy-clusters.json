@@ -1,0 +1,543 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.astronomy.galaxies.galaxy-clusters",
+ "name": "Galaxy clusters",
+ "summary": [
+  {
+   "text": "A galaxy cluster is a structure of hundreds to thousands of galaxies held together by gravity.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Clusters consist of galaxies, heated gas and dark matter, and they are the biggest known gravitationally bound structures in the universe.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Galaxies make up only a small fraction of a cluster, while dark matter makes up most of its mass and cannot be detected optically.",
+   "cites": [
+    12,
+    14
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Galaxy count",
+   "value": "Hundreds to thousands, bound by gravity",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Typical diameter",
+   "value": "1 to 5 Mpc",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Hot gas",
+   "value": "Peaks at 30 to 100 million degrees Celsius",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Galaxy speeds",
+   "value": "About 800 to 1000 km/s spread",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Nearby examples",
+   "value": "Virgo, Fornax, Hercules and Coma",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You weigh a galaxy cluster by its gravity. Which of its components accounts for most of the mass?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The galaxies you can see in a photograph"
+    },
+    {
+     "id": "b",
+     "label": "The heated gas between the galaxies"
+    },
+    {
+     "id": "c",
+     "label": "Dark matter, which cannot be detected optically"
+    },
+    {
+     "id": "d",
+     "label": "The stars at the cluster's center"
+    }
+   ],
+   "answer": "c",
+   "explain": "Dark matter makes up the majority of a cluster's mass, while galaxies are only a small fraction.",
+   "cites": [
+    12,
+    14
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-clusters:q1"
+  },
+  {
+   "prompt": "As a cluster forms, gas collides with existing material. What does that do to the gas?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It heats it to tens of millions of degrees, giving X-rays"
+    },
+    {
+     "id": "b",
+     "label": "It cools it down into a dense cloud of new stars"
+    },
+    {
+     "id": "c",
+     "label": "It pushes all of it out past the cluster's edge"
+    },
+    {
+     "id": "d",
+     "label": "It slowly turns it into invisible dark matter"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gas colliding with existing material generates shock waves that heat it to tens of millions of degrees and produce X-ray emission.",
+   "cites": [
+    16
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-clusters:q2"
+  },
+  {
+   "prompt": "A cluster sits in front of a very distant, faint galaxy. How can it help telescopes see that galaxy?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its hot gas brightens the faint galaxy behind it"
+    },
+    {
+     "id": "b",
+     "label": "Its galaxies act as relay stations for the light"
+    },
+    {
+     "id": "c",
+     "label": "Its dark matter absorbs any unwanted glare"
+    },
+    {
+     "id": "d",
+     "label": "Its gravity bends the light's path, like a magnifying glass"
+    }
+   ],
+   "answer": "d",
+   "explain": "Gravitational lensing by massive clusters bends the path of photons into a cosmic magnifying glass, revealing distant galaxies.",
+   "cites": [
+    27,
+    28,
+    29
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-clusters:q3"
+  },
+  {
+   "prompt": "Astronomers find a small gathering of galaxies. What do they call it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A supercluster, since it holds several galaxies"
+    },
+    {
+     "id": "b",
+     "label": "A galaxy group, since only larger aggregates count as clusters"
+    },
+    {
+     "id": "c",
+     "label": "A protocluster, since it is still forming"
+    },
+    {
+     "id": "d",
+     "label": "A galaxy cluster, since any gathering counts"
+    }
+   ],
+   "answer": "b",
+   "explain": "Small aggregates are called galaxy groups rather than clusters, and groups and clusters together form superclusters.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-clusters:q4"
+  },
+  {
+   "prompt": "Two photons leave a cluster, one from its middle and one from its edge. Which loses more energy escaping, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The edge one, since it travels farther"
+    },
+    {
+     "id": "b",
+     "label": "They lose the same, since they leave together"
+    },
+    {
+     "id": "c",
+     "label": "The central one, since gravity is stronger at the center"
+    },
+    {
+     "id": "d",
+     "label": "The central one, since the gas is thinner"
+    }
+   ],
+   "answer": "c",
+   "explain": "Photons from the center of a cluster lose more energy than those from the edge because gravity is stronger in the center.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-clusters:q5"
+  },
+  {
+   "prompt": "What separates a protocluster from a finished galaxy cluster?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has not yet collapsed into a bound cluster"
+    },
+    {
+     "id": "b",
+     "label": "It holds no galaxies inside it at all"
+    },
+    {
+     "id": "c",
+     "label": "It contains no gas of any kind"
+    },
+    {
+     "id": "d",
+     "label": "It has no dark matter in it at all"
+    }
+   ],
+   "answer": "a",
+   "explain": "Protoclusters are massive concentrations of plasma gas where galaxies are still forming and which have yet to collapse into a bound cluster.",
+   "cites": [
+    39,
+    40,
+    41
+   ],
+   "id": "knowledge.science.astronomy.galaxies.galaxy-clusters:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/BoRG-58.jpg/960px-BoRG-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Galaxy clusters",
+  "credit": "NASA, ESA, M. Trenti (University of Cambridge, UK and University of Colorado, Bo",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:BoRG-58.jpg"
+ },
+ "source": {
+  "title": "Galaxy cluster",
+  "url": "https://en.wikipedia.org/wiki/Galaxy_cluster",
+  "revision": 1382327768
+ },
+ "pack": {
+  "id": "auto-galaxies-galaxy-clusters",
+  "title": "What Holds Clusters Together?",
+  "question": "What are galaxy clusters made of, and why is most of their mass unseen?",
+  "path": [
+   "Science",
+   "Astronomy",
+   "Galaxies",
+   "Galaxy clusters"
+  ],
+  "hue": 192,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/BoRG-58.jpg/960px-BoRG-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Galaxy clusters",
+    "credit": "NASA, ESA, M. Trenti (University of Cambridge, UK and University of Colorado, Bo · CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BoRG-58.jpg",
+    "license": "CC BY 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "What Holds Clusters Together?",
+    "hook": "The part of a galaxy cluster we can see in a photograph is only a small slice of it."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-galaxies-galaxy-clusters:1",
+    "transfer": false,
+    "prompt": "You add up the mass of the galaxies in a cluster, the only part visible in ordinary light. How does that compare with the cluster's total mass?",
+    "explain": "Galaxies make up a small fraction of a cluster, while dark matter makes up the majority of its mass.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Galaxies make up nearly all of it",
+        "feedback": "Tempting because galaxies are the only part we see in visible light, but they are only a small fraction."
+       },
+       {
+        "id": "b",
+        "label": "Galaxies are a small fraction, and dark matter is most of it"
+       },
+       {
+        "id": "c",
+        "label": "Hot gas makes up most of it",
+        "feedback": "Gas is a main component, but dark matter makes up the majority of the mass."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-galaxies-galaxy-clusters:2",
+    "transfer": false,
+    "prompt": "Match each part of a cluster to what is true of it.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Galaxies"
+     },
+     {
+      "id": "l1",
+      "label": "Heated gas"
+     },
+     {
+      "id": "l2",
+      "label": "Dark matter"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "The only part we can detect in visible light"
+     },
+     {
+      "id": "r1",
+      "label": "Reaches 30 to 100 million degrees Celsius at its peak"
+     },
+     {
+      "id": "r2",
+      "label": "Most of the mass, yet undetectable optically"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2"
+    },
+    "explain": "A cluster has three main components, and only the galaxies show up in visible light."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-galaxies-galaxy-clusters:3",
+    "transfer": true,
+    "prompt": "A cluster lies between us and a very distant, faint galaxy. What does the cluster do to that galaxy's light?",
+    "explain": "Clusters act as gravitational lenses, bending photons into a cosmic magnifying glass that lets telescopes see distant galaxies.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "It blocks the light so the galaxy vanishes",
+        "feedback": "Tempting because the cluster is huge, but its gravity bends the path of photons rather than stopping them."
+       },
+       {
+        "id": "c",
+        "label": "It leaves the light untouched",
+        "feedback": "Near massive clusters, gravity distorts space-time and bends the path of photons."
+       },
+       {
+        "id": "a",
+        "label": "Its gravity bends the light's path, magnifying the view"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-galaxies-galaxy-clusters:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A galaxy cluster holds hundreds to thousands of galaxies bound by gravity."
+     },
+     {
+      "id": "b",
+      "text": "Galaxies are the only part of a cluster we can see in visible light."
+     },
+     {
+      "id": "c",
+      "text": "So the galaxies must make up most of a cluster's mass."
+     },
+     {
+      "id": "d",
+      "text": "Therefore a cluster needs nothing we cannot see."
+     }
+    ],
+    "answer": "c",
+    "explain": "Being the only visible part does not make galaxies the main mass; dark matter makes up most of it."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A galaxy cluster is mostly dark matter, with hot gas and a small share of galaxies.",
+    "connections": [
+     {
+      "title": "Virgo Cluster",
+      "place": "Galaxy clusters",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-clusters.virgo-cluster"
+     },
+     {
+      "title": "Dark matter",
+      "place": "Galaxy clusters",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-clusters.dark-matter"
+     },
+     {
+      "title": "Galaxy merger",
+      "place": "Galaxy clusters",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-clusters.galaxy-merger"
+     },
+     {
+      "title": "Cosmic web",
+      "place": "Galaxy clusters",
+      "node": "knowledge.science.astronomy.galaxies.galaxy-clusters.cosmic-web"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Galaxies make up a small fraction of a cluster, while dark matter makes up the majority of its mass.",
+    "source": "Wikipedia sentences 2, 11, 12, 14"
+   },
+   {
+    "claim": "A cluster has three main components, and only the galaxies show up in visible light.",
+    "source": "Wikipedia sentences 11, 12, 13, 14"
+   },
+   {
+    "claim": "Clusters act as gravitational lenses, bending photons into a cosmic magnifying glass that lets telescopes see distant galaxies.",
+    "source": "Wikipedia sentences 27, 28, 29"
+   },
+   {
+    "claim": "Being the only visible part does not make galaxies the main mass; dark matter makes up most of it.",
+    "source": "Wikipedia sentences 1, 12, 14"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Giant families of galaxies",
+    "text": "A galaxy cluster is a gathering of hundreds to thousands of galaxies held together by gravity. A typical cluster has a mass of 10¹⁴ to 10¹⁵ times that of the Sun. Clusters are made of galaxies, hot gas and dark matter. They are the largest structures in the universe known to be bound by gravity, and until superclusters were found in the 1980s they were thought to be the largest structures of all.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Groups, clusters and superclusters",
+    "text": "Smaller collections of galaxies are called galaxy groups rather than clusters. Groups and clusters together make up superclusters. A typical cluster is 1 to 5 Mpc, or megaparsecs, across. Its galaxies move at a spread of speeds of roughly 800 to 1000 km/s.",
+    "cites": [
+     5,
+     6,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Three ingredients",
+    "text": "A cluster has three main parts. The galaxies are the only part we can see in visible light, yet they are only a small share of the cluster. The gas between them, called the intracluster medium, reaches peak temperatures of 30 to 100 million degrees Celsius. Dark matter makes up most of the mass, but it cannot be seen with optical telescopes.",
+    "cites": [
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "heading": "How clusters grow",
+    "text": "Clusters start out as protoclusters: big concentrations of plasma gas where galaxies are still forming and nothing has yet collapsed into a bound cluster. As a cluster forms, it releases huge amounts of energy. Gas crashes into material already there, making shock waves that heat it to tens of millions of degrees so that it gives off X-rays. Inside the finished cluster, galaxies change through encounters such as mergers and through having their gas stripped away.",
+    "cites": [
+     15,
+     16,
+     17,
+     39,
+     40,
+     41
+    ]
+   },
+   {
+    "heading": "A test of general relativity",
+    "text": "Radek Wojtak used clusters to test a prediction of general relativity: light escaping a gravitational field loses energy. Gravity is stronger at a cluster's centre, so light from there should arrive with a longer wavelength than light from the edge. This effect is called gravitational redshift. Using data from 8000 clusters, Wojtak found the redshift grew with distance from the centre, just as general relativity predicts.",
+    "cites": [
+     20,
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Nature's magnifying glass",
+    "text": "A cluster's mass warps space-time around it and bends the paths of passing light. That turns the cluster into a cosmic magnifying glass, known as a gravitational lens. Telescopes can use it to see distant galaxies in their early stages that could not otherwise be detected. In one case, astronomers used the Phoenix cluster to study a dwarf galaxy in an early, high-energy phase of star formation.",
+    "cites": [
+     27,
+     28,
+     29,
+     33
+    ]
+   },
+   {
+    "heading": "Famous examples",
+    "text": "Well-known clusters fairly near us include the Virgo, Fornax, Hercules and Coma clusters. A huge gathering of galaxies called the Great Attractor, dominated by the Norma Cluster, has enough mass to affect how the universe expands in our neighbourhood. Much farther away, SPT-CL J0546-5345 and SPT-CL J2106-5844 are the most massive clusters found in the early universe.",
+    "cites": [
+     34,
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-28-3",
+   "kind": "book",
+   "title": "28.3 The Distribution of Galaxies in Space",
+   "by": "OpenStax, Astronomy 2e",
+   "url": "https://openstax.org/books/astronomy-2e/pages/28-3-the-distribution-of-galaxies-in-space",
+   "note": "A free textbook section on galaxy groups, clusters, superclusters, filaments and voids."
+  },
+  {
+   "id": "crash-course-galaxies-2",
+   "kind": "video",
+   "title": "Galaxies, part 2: Crash Course Astronomy #39",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=_O2sg-PGhEg",
+   "note": "A Crash Course video lesson on galaxies beyond our own, from the Local Group to colliding galaxies and their wreckage."
+  }
+ ]
+}

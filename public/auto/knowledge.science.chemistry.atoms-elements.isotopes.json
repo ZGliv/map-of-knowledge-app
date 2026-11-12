@@ -1,0 +1,576 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.atoms-elements.isotopes",
+ "name": "Isotopes",
+ "summary": [
+  {
+   "text": "Isotopes are versions of the same chemical element that have the same number of protons but different numbers of neutrons.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Because they share an atomic number, they sit in the same place on the periodic table and have virtually the same chemical properties.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "They differ in atomic mass and physical properties, and some are radioactive while others are stable.",
+   "cites": [
+    3,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Name meaning",
+   "value": "Greek roots meaning the same place",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Term coined by",
+   "value": "Margaret Todd, in a 1913 suggestion to Frederick Soddy",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Carbon example",
+   "value": "Carbon-12, carbon-13 and carbon-14 have 6, 7 and 8 neutrons",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "Natural nuclides",
+   "value": "About 339 occur naturally on Earth",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Soddy's prize",
+   "value": "The 1921 Nobel Prize in Chemistry, in part for isotopes",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two carbon atoms both have six protons, but one is heavier. What accounts for the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "More electrons packed into its nucleus"
+    },
+    {
+     "id": "b",
+     "label": "A different atomic number"
+    },
+    {
+     "id": "c",
+     "label": "More neutrons in its nucleus"
+    },
+    {
+     "id": "d",
+     "label": "A different chemical symbol"
+    }
+   ],
+   "answer": "c",
+   "explain": "Isotopes of an element share a proton count but have different numbers of neutrons, which gives them different mass numbers.",
+   "cites": [
+    2,
+    9,
+    10
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes:q1"
+  },
+  {
+   "prompt": "Two samples of the same element contain different isotopes. How will the samples compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nearly identical chemistry, but different atomic masses"
+    },
+    {
+     "id": "b",
+     "label": "Completely different chemistry and the same mass"
+    },
+    {
+     "id": "c",
+     "label": "The same mass but different spots in the table"
+    },
+    {
+     "id": "d",
+     "label": "Different chemistry, since they have different atomic numbers"
+    }
+   ],
+   "answer": "a",
+   "explain": "All isotopes of a given element have virtually the same chemical properties, but different atomic masses and physical properties.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes:q2"
+  },
+  {
+   "prompt": "Chemists write carbon-14 for one form of carbon. What does the 14 count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Protons only"
+    },
+    {
+     "id": "b",
+     "label": "Neutrons only"
+    },
+    {
+     "id": "c",
+     "label": "Electrons in the neutral atom"
+    },
+    {
+     "id": "d",
+     "label": "Protons and neutrons together"
+    }
+   ],
+   "answer": "d",
+   "explain": "The 14 is the mass number, the number of nucleons (protons and neutrons) in the nucleus, and carbon-14 has the mass number 14.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes:q3"
+  },
+  {
+   "prompt": "Several radioactive substances that looked like separate new elements could not be pulled apart by chemistry. What did Soddy propose?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Chemical separation just needs higher temperatures"
+    },
+    {
+     "id": "b",
+     "label": "Atoms with different radioactive properties can share one spot in the table"
+    },
+    {
+     "id": "c",
+     "label": "Radioactive substances cannot be true elements"
+    },
+    {
+     "id": "d",
+     "label": "Each substance needs its own box in the table"
+    }
+   ],
+   "answer": "b",
+   "explain": "Soddy proposed that several types of atoms, differing in radioactive properties, could occupy the same place in the table.",
+   "cites": [
+    27,
+    31
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes:q4"
+  },
+  {
+   "prompt": "A sample of carbon holds atoms that, unlike their neighbours of the same element, give off radiation as they change. How do chemists classify them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Stable isotopes of carbon"
+    },
+    {
+     "id": "b",
+     "label": "Atoms of a new element"
+    },
+    {
+     "id": "c",
+     "label": "Radioisotopes of carbon"
+    },
+    {
+     "id": "d",
+     "label": "Atoms with no neutrons"
+    }
+   ],
+   "answer": "c",
+   "explain": "Radioactive isotopes are called radioisotopes; for example, carbon-14 is a radioactive form of carbon, while carbon-12 and carbon-13 are stable.",
+   "cites": [
+    16,
+    17
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes:q5"
+  },
+  {
+   "prompt": "An element has both stable and radioactive isotopes. Which kind will usually make up most of that element's atoms on Earth?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The radioactive ones, since they are newer"
+    },
+    {
+     "id": "b",
+     "label": "The stable ones, in most cases"
+    },
+    {
+     "id": "c",
+     "label": "An even split between the two kinds"
+    },
+    {
+     "id": "d",
+     "label": "Whichever isotope is the lightest"
+    }
+   ],
+   "answer": "b",
+   "explain": "In most cases, if an element has stable isotopes, those isotopes predominate in its abundance on Earth and in the Solar System.",
+   "cites": [
+    20
+   ],
+   "id": "knowledge.science.chemistry.atoms-elements.isotopes:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/NuclearReaction.svg/960px-NuclearReaction.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Isotopes",
+  "credit": "Kjerish",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:NuclearReaction.svg"
+ },
+ "source": {
+  "title": "Isotope",
+  "url": "https://en.wikipedia.org/wiki/Isotope",
+  "revision": 1380185365
+ },
+ "pack": {
+  "id": "auto-atoms-elements-isotopes",
+  "title": "Same Element, Different Weight",
+  "question": "How can two atoms be the same element yet differ in mass?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "Atoms & Elements",
+   "Isotopes"
+  ],
+  "hue": 164,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/NuclearReaction.svg/960px-NuclearReaction.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Isotopes",
+    "credit": "Kjerish · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NuclearReaction.svg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Same Element, Different Weight",
+    "hook": "Early radiochemists could not separate some radioactive substances because those substances shared one place in the table."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-atoms-elements-isotopes:1",
+    "transfer": false,
+    "prompt": "You measure two carbon atoms. Both have six protons, but one has eight neutrons and the other has six. Are they different elements?",
+    "explain": "Atomic number counts protons and identifies the element, so both atoms are carbon with different mass numbers.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "No, they are isotopes of carbon and share one place in the table"
+       },
+       {
+        "id": "c",
+        "label": "Yes, they must have different numbers of electrons",
+        "feedback": "It tempts because electrons feel linked to identity, but a neutral atom has as many electrons as protons, so these match."
+       },
+       {
+        "id": "a",
+        "label": "Yes, the extra neutrons make a new element",
+        "feedback": "It tempts because the atoms weigh differently, but the proton count decides the element."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-atoms-elements-isotopes:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each isotope into its group.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Carbon-12"
+     },
+     {
+      "id": "i1",
+      "label": "Carbon-13"
+     },
+     {
+      "id": "i2",
+      "label": "Carbon-14"
+     },
+     {
+      "id": "i3",
+      "label": "Uranium-235"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Stable"
+     },
+     {
+      "id": "g1",
+      "label": "Radioactive"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Carbon-12 and carbon-13 are stable, while carbon-14 is radioactive and uranium-235 alpha-decays."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-atoms-elements-isotopes:3",
+    "transfer": true,
+    "prompt": "Match each term to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Atomic number"
+     },
+     {
+      "id": "l1",
+      "label": "Mass number"
+     },
+     {
+      "id": "l2",
+      "label": "Isotopes"
+     },
+     {
+      "id": "l3",
+      "label": "Nuclide"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Number of protons in the nucleus"
+     },
+     {
+      "id": "r3",
+      "label": "A distinct nuclear species of an element"
+     },
+     {
+      "id": "r2",
+      "label": "Same atomic number, different mass numbers"
+     },
+     {
+      "id": "r1",
+      "label": "Protons plus neutrons"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Atomic number counts protons, mass number counts all nucleons, isotopes vary in neutrons, and a nuclide is one distinct nuclear species."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-atoms-elements-isotopes:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Every carbon atom has six protons, so each is carbon."
+     },
+     {
+      "id": "b",
+      "text": "Carbon-12 has six neutrons and carbon-14 has eight."
+     },
+     {
+      "id": "c",
+      "text": "So carbon-14 must have a different atomic number from carbon-12."
+     },
+     {
+      "id": "d",
+      "text": "So the two should sit in different boxes on the periodic table."
+     }
+    ],
+    "answer": "c",
+    "explain": "Atomic number counts protons, and both have six. Different neutron numbers change the mass number, not the atomic number."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Isotopes of an element have the same number of protons but different numbers of neutrons, so they share a place in the table and nearly the same chemistry.",
+    "connections": [
+     {
+      "title": "Carbon-14",
+      "place": "Isotopes",
+      "node": "knowledge.science.chemistry.atoms-elements.isotopes.carbon-14"
+     },
+     {
+      "title": "Radiometric dating",
+      "place": "Isotopes",
+      "node": "knowledge.science.chemistry.atoms-elements.isotopes.radiometric-dating"
+     },
+     {
+      "title": "Deuterium",
+      "place": "Isotopes",
+      "node": "knowledge.science.chemistry.atoms-elements.isotopes.deuterium"
+     },
+     {
+      "title": "Uranium-235",
+      "place": "Isotopes",
+      "node": "knowledge.science.chemistry.atoms-elements.isotopes.uranium-235"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Atomic number counts protons and identifies the element, so both atoms are carbon with different mass numbers.",
+    "source": "Wikipedia sentences 2, 6, 9, 10"
+   },
+   {
+    "claim": "Carbon-12 and carbon-13 are stable, while carbon-14 is radioactive and uranium-235 alpha-decays.",
+    "source": "Wikipedia sentences 17, 32"
+   },
+   {
+    "claim": "Atomic number counts protons, mass number counts all nucleons, isotopes vary in neutrons, and a nuclide is one distinct nuclear species.",
+    "source": "Wikipedia sentences 1, 2, 6, 8"
+   },
+   {
+    "claim": "Atomic number counts protons, and both have six. Different neutron numbers change the mass number, not the atomic number.",
+    "source": "Wikipedia sentences 6, 9, 10"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Same element, different mass",
+    "text": "Isotopes are different nuclear species, or nuclides, of the same chemical element. All isotopes of one element share an atomic number, the count of protons in the nucleus, so they hold the same position on the periodic table. What differs is the number of neutrons, which changes the mass number, the total of protons and neutrons together. Isotopes of an element have virtually the same chemical properties, but their atomic masses and physical properties differ.",
+    "cites": [
+     1,
+     2,
+     3,
+     8
+    ]
+   },
+   {
+    "heading": "A carbon example",
+    "text": "Carbon shows the idea clearly. Every carbon atom has 6 protons. Carbon-12, carbon-13 and carbon-14 therefore carry 6, 7 and 8 neutrons, giving mass numbers of 12, 13 and 14. Of these three, carbon-14 is radioactive, while the other two are stable.",
+    "cites": [
+     9,
+     10,
+     17
+    ]
+   },
+   {
+    "heading": "Stable and radioactive",
+    "text": "Some isotopes are radioactive and are called radioisotopes, while others have never been seen to decay and are called stable isotopes. Earth holds about 339 nuclides that occur naturally. Of those, 286 are primordial, meaning they have been around since the Solar System formed: 251 count as stable, and 35 have half-lives longer than 100 million years. When an element has stable isotopes, those usually make up most of the element found on Earth and in the Solar System.",
+    "cites": [
+     16,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Where the name came from",
+    "text": "The word comes from Greek roots meaning the same place, because an element's isotopes all sit in one place on the periodic table. Margaret Todd, a Scottish physician, writer and family friend, suggested it in 1913 to the British chemist Frederick Soddy while he was explaining his ideas to her. Soddy then made the term popular.",
+    "cites": [
+     4,
+     5,
+     33
+    ]
+   },
+   {
+    "heading": "Soddy's puzzle",
+    "text": "Soddy first suggested that isotopes exist in 1913. Studies of radioactive decay chains had turned up about 40 different radioactive species between uranium and lead, yet the periodic table had room for only 11 elements over that span, counting lead and uranium. He saw that giving off one alpha particle and then two beta particles produced an element chemically identical to the starting one, but four mass units lighter. So he proposed that several types of atom, differing in their radioactivity, could fill the same place in the table. This work was part of why he received the 1921 Nobel Prize in Chemistry.",
+    "cites": [
+     26,
+     30,
+     31,
+     34
+    ]
+   },
+   {
+    "heading": "Neon splits in two",
+    "text": "Thomson showed parabolic patches of light on a photographic plate that pointed to two kinds of neon nuclei with different mass-to-charge ratios. He concluded that neon was really a mixture of two gases, with atomic weights of about 20 and about 22. Aston later used a mass spectrograph to find several stable isotopes for many elements. In 1919 he measured neon finely enough to show its two isotopic masses are very close to 20 and 22, while neon gas as a whole has a molar mass of 20.2.",
+    "cites": [
+     39,
+     40,
+     42,
+     43
+    ]
+   },
+   {
+    "heading": "Why atomic weights are not whole",
+    "text": "This became Aston's whole number rule: when an element's molar mass sits far from a whole number, that is because the element is a mixture of isotopes. In 1920 Aston showed the same for chlorine. Its molar mass of 35.45 is a weighted average of two isotopes, ³⁵Cl and ³⁷Cl, whose masses are almost whole numbers.",
+    "cites": [
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-chem-2-3",
+   "kind": "book",
+   "title": "2.3 Atomic Structure and Symbolism",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+   "note": "A free college chemistry section on atomic and mass numbers, isotope symbols and how atomic mass is averaged.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-chem-21-1",
+   "kind": "book",
+   "title": "21.1 Nuclear Structure and Stability",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/21-1-nuclear-structure-and-stability",
+   "note": "A free textbook section on nuclides, isotopes and why some nuclei are stable while others are radioactive.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "wikibooks-atom-numbers",
+   "kind": "book",
+   "title": "General Chemistry/Numbers Used to Describe Atoms",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/General_Chemistry/Numbers_Used_to_Describe_Atoms",
+   "note": "An open textbook page on atomic number, mass number and isotopes, with a worked atomic mass average."
+  },
+  {
+   "id": "cc-chem-1-nucleus",
+   "kind": "video",
+   "title": "The Nucleus: Crash Course Chemistry #1",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=FSyAehMdpyI",
+   "note": "A video on what makes up an atom's nucleus: atomic number, mass number, relative atomic mass and isotopes."
+  }
+ ]
+}

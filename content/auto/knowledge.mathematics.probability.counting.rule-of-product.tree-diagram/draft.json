@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "A tree diagram represents a probability space, with each node standing for an event and carrying that event’s probability.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "It can show a series of independent events like coin flips, or conditional probabilities like drawing cards without replacing them.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "The probability of reaching a node is the product of the probabilities along its branch, and probabilities on different branches are added.",
+   "cites": [
+    7,
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Root node",
+   "value": "Stands for the certain event, with probability 1",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Node meaning",
+   "value": "Chance of an event occurring after its parent event occurs",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Sibling nodes",
+   "value": "Split the parent event into exclusive, exhaustive parts",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Path probability",
+   "value": "Product of the node’s and its parents’ probabilities",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Add or multiply",
+   "value": "Same branch multiplies; different branches add",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A tree diagram starts from one node before any branching. What probability does it carry, and why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0, because nothing has happened yet"
+    },
+    {
+     "id": "b",
+     "label": "Whatever the first branch is"
+    },
+    {
+     "id": "c",
+     "label": "1, because it is the certain event"
+    },
+    {
+     "id": "d",
+     "label": "1/2, since the tree splits in two"
+    }
+   ],
+   "answer": "c",
+   "explain": "The root node represents the certain event, so its probability is 1.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "On a tree, you follow a branch for one event and then a branch for the next. How do you find the chance of that whole path?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Take the larger of the two"
+    },
+    {
+     "id": "b",
+     "label": "Add the two probabilities"
+    },
+    {
+     "id": "c",
+     "label": "Average the two probabilities"
+    },
+    {
+     "id": "d",
+     "label": "Combine them by taking the product"
+    }
+   ],
+   "answer": "d",
+   "explain": "The probability of a series of events leading to a node equals the product of that node’s and its parents’ probabilities.",
+   "cites": [
+    7,
+    9
+   ]
+  },
+  {
+   "prompt": "Two outcomes sit on separate branches of a tree. You want the chance that either one happens. What do you do with their probabilities?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add them"
+    },
+    {
+     "id": "b",
+     "label": "Multiply them"
+    },
+    {
+     "id": "c",
+     "label": "Subtract the smaller from the larger"
+    },
+    {
+     "id": "d",
+     "label": "Use only the first one"
+    }
+   ],
+   "answer": "a",
+   "explain": "Probabilities that do not lie on the same branch are added.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A node deep in the tree shows 0.4. What does that 0.4 tell you?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance of that event from the very start"
+    },
+    {
+     "id": "b",
+     "label": "The chance of its parent event"
+    },
+    {
+     "id": "c",
+     "label": "The chance of every other branch combined"
+    },
+    {
+     "id": "d",
+     "label": "The chance of that event after its parent event occurs"
+    }
+   ],
+   "answer": "d",
+   "explain": "The probability on a node is the chance of that event occurring after the parent event occurs.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "Several sibling nodes hang below one parent node. How do they divide up the parent event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Into outcomes that cannot overlap and together cover every possibility"
+    },
+    {
+     "id": "b",
+     "label": "Into equal pieces, whatever the situation"
+    },
+    {
+     "id": "c",
+     "label": "Into outcomes that may overlap but need not cover everything"
+    },
+    {
+     "id": "d",
+     "label": "Into one likely outcome and the rest unlikely"
+    }
+   ],
+   "answer": "a",
+   "explain": "Each set of sibling nodes is an exclusive and exhaustive partition of the parent event.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "What makes a tree diagram helpful when combining probabilities?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It removes the need for any calculation at all"
+    },
+    {
+     "id": "b",
+     "label": "It shows which probabilities to add or multiply"
+    },
+    {
+     "id": "c",
+     "label": "It forces every probability to be the same size"
+    },
+    {
+     "id": "d",
+     "label": "It can be used only for a series of coin flips"
+    }
+   ],
+   "answer": "b",
+   "explain": "Probability trees give a simple visual delineation between additive and multiplicative relations between events.",
+   "cites": [
+    8,
+    9
+   ]
+  }
+ ]
+}

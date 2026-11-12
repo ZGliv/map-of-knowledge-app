@@ -1,0 +1,118 @@
+{
+ "title": "A club with strict rules",
+ "question": "What makes an expression a polynomial, and how do we measure its size?",
+ "hook": "Some expressions walk straight in, others are turned away at the door, and the ones that get in come with a size you can count.",
+ "idea": "A polynomial is a finite sum of terms with non-negative integer powers, and its degree is the largest degree among its nonzero terms.",
+ "beats": [
+  {
+   "kind": "sort",
+   "prompt": "Sort each expression by whether it passes the polynomial test.",
+   "groups": [
+    "polynomial",
+    "not a polynomial"
+   ],
+   "items": [
+    [
+     "x plus 5",
+     "polynomial"
+    ],
+    [
+     "x times y times z",
+     "polynomial"
+    ],
+    [
+     "the number 7 on its own",
+     "polynomial"
+    ],
+    [
+     "x raised to the power of minus 1",
+     "not a polynomial"
+    ],
+    [
+     "x raised to the power of one half",
+     "not a polynomial"
+    ],
+    [
+     "a sum of powers of x that never ends",
+     "not a polynomial"
+    ]
+   ],
+   "explain": "Only addition, subtraction, multiplication and non-negative integer powers are allowed, with a finite number of terms. A constant with no variables is a constant polynomial.",
+   "cites": [
+    1,
+    38
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "The zero polynomial, just 0, has no terms at all. What degree does it usually get?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Degree 0, like any constant",
+     "feedback": "A nonzero constant has degree 0, but the zero polynomial has no terms to take a degree from."
+    },
+    {
+     "id": "b",
+     "label": "Degree 1, since it is a single symbol",
+     "feedback": "Degree comes from the powers on the indeterminates in the terms, and there are no terms here."
+    },
+    {
+     "id": "c",
+     "label": "None: its degree is generally treated as not defined"
+    }
+   ],
+   "answer": "c",
+   "explain": "The degree is the largest degree of any term with a nonzero coefficient. The zero polynomial has no terms, so its degree is generally left undefined.",
+   "cites": [
+    36,
+    39,
+    40
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "In the term −5x²y, match each part to its role.",
+   "pairs": [
+    [
+     "−5",
+     "the coefficient"
+    ],
+    [
+     "x",
+     "degree two"
+    ],
+    [
+     "y",
+     "degree one"
+    ],
+    [
+     "the whole term",
+     "degree three"
+    ]
+   ],
+   "explain": "The coefficient is −5, x has degree two and y degree one, and the degree of the term is their sum, 2 + 1 = 3.",
+   "cites": [
+    41,
+    42,
+    43
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which one?",
+   "steps": [
+    "A term is a number times variables raised to non-negative integer powers.",
+    "A polynomial has three terms, of degree two, degree one and degree zero.",
+    "The degree of a polynomial is the sum of the degrees of its terms.",
+    "So this polynomial has degree three."
+   ],
+   "wrong": 2,
+   "explain": "A polynomial's degree is the largest degree of any term with a nonzero coefficient, so this one has degree two. Adding degrees applies only to the indeterminates inside a single term.",
+   "cites": [
+    35,
+    36
+   ]
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory",
+ "name": "Collision theory",
+ "summary": [
+  {
+   "text": "Collision theory is a principle of chemistry used to predict the rates of chemical reactions.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It says only some collisions succeed: the particles must hit with the correct orientation and with enough energy, called activation energy, to break old bonds and form new ones.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "Higher concentration, higher temperature or a catalyst each lead to more successful collisions, so the reaction rate goes up.",
+   "cites": [
+    6,
+    7,
+    9,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Proposed by",
+   "value": "Max Trautz in 1916, William Lewis in 1918",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "First built for",
+   "value": "Gas reactions with no dilution",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "A successful collision needs",
+   "value": "The correct orientation and enough energy",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "label": "Weak spot",
+   "value": "Rate constants are often estimated incorrectly",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Orientation example",
+   "value": "Few H₂ and ethylene collisions approach the bonding zone",
+   "cites": [
+    43
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two molecules hit each other at high speed, but with the wrong orientation. What does collision theory say?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The collision still succeeds, since speed alone breaks any bond"
+    },
+    {
+     "id": "b",
+     "label": "The collision may well fail to react, because correct orientation is needed as well as energy"
+    },
+    {
+     "id": "c",
+     "label": "The collision succeeds, because every hard hit counts as successful"
+    },
+    {
+     "id": "d",
+     "label": "The collision succeeds, but only if a catalyst is also present"
+    }
+   ],
+   "answer": "b",
+   "explain": "Only some collisions are successful: the particles must hit with the correct orientation and with enough energy.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory:q1"
+  },
+  {
+   "prompt": "A chemist squeezes twice as many reactant particles into the same flask. What does collision theory predict?",
+   "options": [
+    {
+     "id": "a",
+     "label": "More collisions happen, and so more successful collisions"
+    },
+    {
+     "id": "b",
+     "label": "Fewer successful collisions, because the particles get in each other's way"
+    },
+    {
+     "id": "c",
+     "label": "The same number of successful collisions, since energy per collision is unchanged"
+    },
+    {
+     "id": "d",
+     "label": "Fewer collisions, since crowding slows the particles down"
+    }
+   ],
+   "answer": "a",
+   "explain": "Increasing the concentration of reactant brings about more collisions and hence more successful collisions.",
+   "cites": [
+    6
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory:q2"
+  },
+  {
+   "prompt": "A cook turns up the heat under a reaction. In collision theory terms, what does the heat mainly do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It lowers the activation energy for every collision"
+    },
+    {
+     "id": "b",
+     "label": "It turns every collision into one with the correct orientation"
+    },
+    {
+     "id": "c",
+     "label": "It raises the average energy of the molecules, so more collisions carry enough energy"
+    },
+    {
+     "id": "d",
+     "label": "It makes the molecules larger, so they collide more often"
+    }
+   ],
+   "answer": "c",
+   "explain": "Raising the temperature increases the average kinetic energy of the molecules, which increases the number of collisions that have enough energy.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory:q3"
+  },
+  {
+   "prompt": "A catalyst is added to a mixture of reactants. How does collision theory say it speeds the reaction up?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It forces the molecules to collide twice as often"
+    },
+    {
+     "id": "b",
+     "label": "It raises the energy of each molecule so every hit works"
+    },
+    {
+     "id": "c",
+     "label": "It stops molecules from colliding in the wrong orientation"
+    },
+    {
+     "id": "d",
+     "label": "Less energy is needed for the change, so more collisions have enough of it"
+    }
+   ],
+   "answer": "d",
+   "explain": "When a catalyst is involved in the collision, less energy is required for the chemical change, so more collisions have sufficient energy.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory:q4"
+  },
+  {
+   "prompt": "Predicted rate constants from collision theory often miss the real values, and miss by more for bigger molecules. Which assumption is mostly to blame?",
+   "options": [
+    {
+     "id": "a",
+     "label": "That molecules in a gas collide at all"
+    },
+    {
+     "id": "b",
+     "label": "That the particles are spheres able to react from every direction"
+    },
+    {
+     "id": "c",
+     "label": "That reactions need any energy to get going"
+    },
+    {
+     "id": "d",
+     "label": "That temperature has any effect on the rate"
+    }
+   ],
+   "answer": "b",
+   "explain": "The theory supposes particles are spherical and can react in all directions, but the orientation of collisions is not always proper, and more complex molecules suffer more.",
+   "cites": [
+    41,
+    42,
+    44
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory:q5"
+  },
+  {
+   "prompt": "Reactant molecules are dissolved in a liquid, not floating freely as a gas. What controls how often they collide?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Their spreading by diffusion and Brownian motion"
+    },
+    {
+     "id": "b",
+     "label": "Only how hard the liquid is stirred"
+    },
+    {
+     "id": "c",
+     "label": "Only the pull of gravity on the liquid"
+    },
+    {
+     "id": "d",
+     "label": "The shape of the container alone"
+    }
+   ],
+   "answer": "a",
+   "explain": "In solutions, the collision frequency of the solute molecules is controlled by diffusion or Brownian motion of individual molecules.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.science.chemistry.chemical-reactions.reaction-rates.collision-theory:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Molecular-collisions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Collision theory",
+  "credit": "Sadi_Carnot",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Molecular-collisions.jpg"
+ },
+ "source": {
+  "title": "Collision theory",
+  "url": "https://en.wikipedia.org/wiki/Collision_theory",
+  "revision": 1383894539
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Reactions as collisions",
+    "text": "Collision theory is a principle chemists use to predict how fast reactions go. It says reacting particles must strike each other with the right orientation, and even then only some of these hits produce a noticeable change; those are called successful collisions. A successful collision also needs enough energy at the moment of impact, called the activation energy, to break the existing bonds and form all the new ones. That is how the products of the reaction come about.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Origins",
+    "text": "Max Trautz proposed collision theory in 1916, and William Lewis came up with it independently in 1918. It was first developed for gas reactions with no dilution. Most reactions, though, take place in solutions, from gas reactions carried in an inert gas to almost all reactions in solution. There, how often the dissolved molecules collide is controlled by diffusion, or Brownian motion, of single molecules.",
+    "cites": [
+     8,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "More hits, faster reactions",
+    "text": "Raising the concentration of a reactant gives more collisions, and so more successful ones. Heating things up gives the molecules more kinetic energy on average, so more of their collisions carry enough energy. When a catalyst takes part in the collision, the change needs less energy, so more collisions have enough. In each case the reaction rate goes up.",
+    "cites": [
+     6,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Picturing a collision",
+    "text": "In the theory, two particles A and B collide if their nuclei come closer than a certain distance. The area around A in which an incoming B can hit it is called the cross section, σ_AB. In simple terms it is a circle whose radius is the two molecules' radii added together, treating both as spheres. This is the classical picture of solid balls; real molecules are quantum-mechanical systems, so a more general definition bases the cross section on the probability of reaction instead.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Explaining Arrhenius",
+    "text": "The rate expression that collision theory produces is similar to the Arrhenius equation. It gave the first theoretical explanation of that equation in terms of molecules. Its product zρ matches the pre-exponential factor of the Arrhenius equation. The theory predicts that this factor depends weakly on temperature, but the effect is so small next to the exponential part that it cannot be measured.",
+    "cites": [
+     36,
+     39,
+     40
+    ]
+   },
+   {
+    "heading": "Where it falls short",
+    "text": "When its predicted rate constants are compared with known ones, collision theory gets them wrong, and it does worse the more complex the molecules are. The reason is that it assumes particles are spheres that can react from any direction, but a collision's orientation is not always right for reacting. In the hydrogenation of ethylene, for example, the H₂ molecule must come in toward the region where the atoms are bonded, and few collisions manage it. Usually the more complex the reacting molecules, the lower the steric factor. Harpoon reactions, in which atoms exchange electrons and form ions, are an exception, with steric factors greater than one.",
+    "cites": [
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-12-5",
+   "kind": "book",
+   "title": "12.5 Collision Theory",
+   "by": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+   "note": "A free textbook section on collision theory: orientation, activation energy, transition states and the Arrhenius equation.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-collision-theory",
+   "kind": "book",
+   "title": "6.1: Collision Theory",
+   "by": "LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/06%3A_Modeling_Reaction_Kinetics/6.01%3A_Collision_Theory",
+   "note": "An open textbook page deriving rate constants for gas reactions from collision frequency and successful collisions.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

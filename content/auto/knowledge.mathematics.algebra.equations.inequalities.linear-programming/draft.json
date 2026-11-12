@@ -1,0 +1,227 @@
+{
+ "summary": [
+  {
+   "text": "Linear programming is a method for reaching the best outcome, such as maximum profit or lowest cost, in a model where the requirements and the objective are linear relationships.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It optimizes a linear objective function subject to linear equality and inequality constraints, and its feasible region is a convex polytope.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "Dantzig's simplex method of 1947 first tackled it efficiently in most cases, and transportation, energy, telecommunications and manufacturing now use it.",
+   "cites": [
+    32,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Simplex method",
+   "value": "Invented by Dantzig in 1947",
+   "cites": [
+    32
+   ]
+  },
+  {
+   "label": "Nobel Prize",
+   "value": "Kantorovich and Koopmans shared the 1975 economics prize",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Dantzig's example",
+   "value": "Best assignment of 70 people to 70 jobs",
+   "cites": [
+    37
+   ]
+  },
+  {
+   "label": "Interior-point method",
+   "value": "Introduced by Karmarkar in 1984",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Industries using it",
+   "value": "Transportation, energy, telecommunications, manufacturing",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Every limit on a factory's materials is a straight-line cap, such as 'at most this much steel'. The set of plans that obey all caps at once forms what kind of shape?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A curved blob with no flat edges"
+    },
+    {
+     "id": "b",
+     "label": "A shape with flat sides, cut out by overlapping one-sided limits"
+    },
+    {
+     "id": "c",
+     "label": "A single point that is always the answer"
+    },
+    {
+     "id": "d",
+     "label": "A closed loop with no inside"
+    }
+   ],
+   "answer": "b",
+   "explain": "The feasible region is a convex polytope: the intersection of finitely many half spaces, each defined by a linear inequality.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "Matching 70 workers to 70 jobs by checking every arrangement would take far too long. What makes the alternative approach practical?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It checks the arrangements faster by using more computers"
+    },
+    {
+     "id": "b",
+     "label": "It guesses one arrangement and accepts it"
+    },
+    {
+     "id": "c",
+     "label": "Its theory sharply cuts down the number of possible solutions to check"
+    },
+    {
+     "id": "d",
+     "label": "It drops 60 of the jobs to keep the problem small"
+    }
+   ],
+   "answer": "c",
+   "explain": "The number of possible assignments is vast, but posing the problem as a linear program and using the theory drastically reduces the possibilities that must be checked.",
+   "cites": [
+    37,
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "prompt": "Work from the late 1930s was ignored for decades. What event pushed the method into the spotlight?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wartime use on transport, scheduling and resource problems"
+    },
+    {
+     "id": "b",
+     "label": "The award of a Nobel Prize in 1975"
+    },
+    {
+     "id": "c",
+     "label": "A method for solving linear inequalities published in 1827"
+    },
+    {
+     "id": "d",
+     "label": "The arrival of home computers in business offices"
+    }
+   ],
+   "answer": "a",
+   "explain": "During World War II it was used on logistics, scheduling and resource allocation, and those successes brought it recognition.",
+   "cites": [
+    18,
+    19,
+    20,
+    22
+   ]
+  },
+  {
+   "prompt": "A baker wants to make as much profit as possible. In the mathematical model, the quantity she wants to make as large as possible is called what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The constraint"
+    },
+    {
+     "id": "b",
+     "label": "The feasible region"
+    },
+    {
+     "id": "c",
+     "label": "The polytope"
+    },
+    {
+     "id": "d",
+     "label": "The objective function"
+    }
+   ],
+   "answer": "d",
+   "explain": "The function whose value is to be maximized is called the objective function.",
+   "cites": [
+    3,
+    8
+   ]
+  },
+  {
+   "prompt": "A linear programming algorithm is run on a problem that has a best answer. What does it find?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The average of all plans that obey the limits"
+    },
+    {
+     "id": "b",
+     "label": "The plan that breaks the most limits"
+    },
+    {
+     "id": "c",
+     "label": "A point in the allowed region where the objective is largest or smallest"
+    },
+    {
+     "id": "d",
+     "label": "Every allowed plan, listed in order"
+    }
+   ],
+   "answer": "c",
+   "explain": "The algorithm finds a point in the polytope where the objective function has its largest (or smallest) value, if such a point exists.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "A city must assign drivers to bus routes and set schedules, all under fixed limits on cost and staff. Is linear programming a fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, it suits planning, routing, scheduling and assignment"
+    },
+    {
+     "id": "b",
+     "label": "No, it only suits abstract problems inside pure mathematics"
+    },
+    {
+     "id": "c",
+     "label": "No, it was built only to schedule factory production"
+    },
+    {
+     "id": "d",
+     "label": "No, it only suits military transport and supply problems"
+    }
+   ],
+   "answer": "a",
+   "explain": "It models diverse problems in planning, routing, scheduling, assignment and design, and is used in industries such as transportation.",
+   "cites": [
+    13,
+    14
+   ]
+  }
+ ]
+}

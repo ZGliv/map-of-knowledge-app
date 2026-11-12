@@ -1,0 +1,117 @@
+{
+ "title": "When a clue changes the odds",
+ "question": "How does learning one fact change the chance of another?",
+ "hook": "A stranger's chance of coughing jumps the moment you learn one small thing about them.",
+ "idea": "The chance of something can change once you know a related fact, and the chance of A given B is not the chance of B given A.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Only about 5% of people are coughing on a given day. You learn that one particular stranger is sick. What happens to the chance they are coughing?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It stays at 5%",
+     "feedback": "It seems the fact is unrelated, but being told someone is sick makes coughing much more likely."
+    },
+    {
+     "id": "b",
+     "label": "It jumps, perhaps to around 75%"
+    },
+    {
+     "id": "c",
+     "label": "It drops below 5%",
+     "feedback": "It might seem illness drains the person, but learning of sickness pushes the chance of coughing up, not down."
+    }
+   ],
+   "answer": "b",
+   "explain": "The chance of a cough given that someone is sick can be far higher than the everyday chance: 75% against 5% in the example.",
+   "cites": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each question to the number it might have",
+   "pairs": [
+    [
+     "Chance of a cough on any given day",
+     "5%"
+    ],
+    [
+     "Chance of a cough for someone who is sick",
+     "75%"
+    ],
+    [
+     "Chance of a positive test if you have dengue",
+     "90%"
+    ],
+    [
+     "Chance of having dengue if you test positive",
+     "15%"
+    ]
+   ],
+   "explain": "Each chance depends on what you already know, and the chance of A given B is a different number from the chance of B given A.",
+   "cites": [
+    1,
+    3,
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A test comes back positive for 90% of people who have a rare disease.",
+    "Sam takes the test and it comes back positive.",
+    "So there is a 90% chance that Sam has the disease.",
+    "Sam should treat 90% as the answer."
+   ],
+   "wrong": 2,
+   "explain": "The 90% is the chance of a positive given the disease. The chance of the disease given a positive can be much lower, such as 15%.",
+   "cites": [
+    7,
+    8,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "sort each chance into its group",
+   "groups": [
+    "Conditional probability",
+    "Unconditional probability"
+   ],
+   "items": [
+    [
+     "Chance of a cough, given the person is sick",
+     "Conditional probability"
+    ],
+    [
+     "Chance of a cough on any given day",
+     "Unconditional probability"
+    ],
+    [
+     "Chance of a positive test, given dengue",
+     "Conditional probability"
+    ],
+    [
+     "Chance of A with nothing known about B",
+     "Unconditional probability"
+    ]
+   ],
+   "explain": "A conditional probability assumes another event has happened; an unconditional one does not.",
+   "cites": [
+    1,
+    3,
+    5,
+    8
+   ]
+  }
+ ]
+}

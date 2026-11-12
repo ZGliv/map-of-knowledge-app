@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Queueing theory is the mathematical study of queues, or waiting lines, with models built to predict queue lengths and waiting times.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It began with Agner Krarup Erlang, who modelled incoming calls at the Copenhagen Telephone Exchange Company, and it is now used in telecommunications, computing, factories, shops, offices and hospitals.",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "text": "Its goal is to compute a system's operating characteristics and compare alternatives, so managers can see ways to cut waiting time and improve efficiency.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Origin",
+   "value": "Erlang's models of calls at a Copenhagen telephone exchange",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Basic picture",
+   "value": "Jobs arrive, may wait, get processed, then depart",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Kendall's notation",
+   "value": "Written A/S/c: arrivals, service times, number of servers",
+   "cites": [
+    30
+   ]
+  },
+  {
+   "label": "M/M/1 queue",
+   "value": "Poisson arrivals, exponential service times, one server",
+   "cites": [
+    31
+   ]
+  },
+  {
+   "label": "Steady state",
+   "value": "Arrival rate should equal departure rate",
+   "cites": [
+    34
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A supermarket has one cashier who serves one customer at a time. In queueing terms, how many servers does this queueing node have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Two, the cashier and the customer"
+    },
+    {
+     "id": "b",
+     "label": "None, since customers serve themselves"
+    },
+    {
+     "id": "c",
+     "label": "As many as there are customers waiting"
+    },
+    {
+     "id": "d",
+     "label": "One, the cashier"
+    }
+   ],
+   "answer": "d",
+   "explain": "Each cashier processes one customer at a time, so this is a queueing node with only one server.",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "prompt": "A food stall has no waiting area, so a customer walks away at once if the server is busy. How do queueing models describe it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A queue with no buffer"
+    },
+    {
+     "id": "b",
+     "label": "A queue with a buffer of size n"
+    },
+    {
+     "id": "c",
+     "label": "A queue with unlimited servers"
+    },
+    {
+     "id": "d",
+     "label": "A queue with a random arrival rate"
+    }
+   ],
+   "answer": "a",
+   "explain": "A setting where a customer leaves immediately if the server is busy is a queue with no buffer or waiting area.",
+   "cites": [
+    22,
+    23
+   ]
+  },
+  {
+   "prompt": "A queue has settled into a steady state. How do its arrival and departure rates compare?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Arrivals are always faster than departures"
+    },
+    {
+     "id": "b",
+     "label": "Departures are always faster than arrivals"
+    },
+    {
+     "id": "c",
+     "label": "They should be equal"
+    },
+    {
+     "id": "d",
+     "label": "They are unrelated to each other"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the system reaches a steady state, the arrival rate should equal the departure rate.",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "prompt": "A manager wants to decide whether to add a second cashier. What does queueing analysis suggest she do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Guess from the busiest day alone"
+    },
+    {
+     "id": "b",
+     "label": "Compute the operating characteristics for each option and compare"
+    },
+    {
+     "id": "c",
+     "label": "Always choose the option with the most servers"
+    },
+    {
+     "id": "d",
+     "label": "Ignore waiting times and look at savings only"
+    }
+   ],
+   "answer": "b",
+   "explain": "The aim is to compute characteristics for the current system, test alternatives, and compare pros and cons.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "prompt": "In Kendall's notation, what does the label M/M/1 describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "One server with Poisson arrivals and exponential service times"
+    },
+    {
+     "id": "b",
+     "label": "One customer with unlimited servers and no queue"
+    },
+    {
+     "id": "c",
+     "label": "One arrival per minute with a fixed service time"
+    },
+    {
+     "id": "d",
+     "label": "Many servers with a general service time"
+    }
+   ],
+   "answer": "a",
+   "explain": "In M/M/1, a single server serves jobs arriving as a Poisson process, with exponentially distributed service times.",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "prompt": "Two jobs are currently in a queueing system. One finishes and departs, and nobody new arrives. How many jobs are in the system now?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three"
+    },
+    {
+     "id": "b",
+     "label": "Two"
+    },
+    {
+     "id": "c",
+     "label": "Zero"
+    },
+    {
+     "id": "d",
+     "label": "One"
+    }
+   ],
+   "answer": "d",
+   "explain": "An arrival increases the number of jobs in the system by 1, and a departure decreases it by 1.",
+   "cites": [
+    25
+   ]
+  }
+ ]
+}

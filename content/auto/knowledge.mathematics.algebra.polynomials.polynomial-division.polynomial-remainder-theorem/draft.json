@@ -1,0 +1,223 @@
+{
+ "summary": [
+  {
+   "text": "The polynomial remainder theorem, also called little Bézout's theorem, says that dividing a polynomial f(x) by x − r leaves f(r) as the remainder.",
+   "cites": [
+    1,
+    3
+   ]
+  },
+  {
+   "text": "As a result, x − r divides f(x) exactly when f(r) = 0, a property known as the factor theorem.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Because synthetic division is computationally easier, the function can be evaluated more cheaply by finding that remainder.",
+   "cites": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Little Bézout's theorem, after Étienne Bézout",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Worked example",
+   "value": "Dividing by x − 3 leaves remainder −123, so f(3) = −123",
+   "cites": [
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Factor theorem",
+   "value": "x − r divides f(x) exactly when f(r) = 0",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Quotient degree",
+   "value": "The quotient has degree one less than f",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Factorizing",
+   "value": "Repeated use of the factor theorem can factorize a polynomial",
+   "cites": [
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You divide a polynomial f(x) by x − 4. Which quantity do you get as the remainder?",
+   "options": [
+    {
+     "id": "a",
+     "label": "f(−4), the value at the opposite number"
+    },
+    {
+     "id": "b",
+     "label": "f(4), the value of the polynomial at 4"
+    },
+    {
+     "id": "c",
+     "label": "The leading coefficient of f"
+    },
+    {
+     "id": "d",
+     "label": "The constant term of f"
+    }
+   ],
+   "answer": "b",
+   "explain": "The remainder of the division of f(x) by x − r is f(r), here the value at 4.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "You find that a polynomial's value at 3 is zero. What does this tell you about dividing it by x − 3?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The quotient must be zero as well"
+    },
+    {
+     "id": "b",
+     "label": "The remainder is 3, the input used"
+    },
+    {
+     "id": "c",
+     "label": "Nothing is left over, so x − 3 divides it"
+    },
+    {
+     "id": "d",
+     "label": "x − 3 cannot divide it without leftovers"
+    }
+   ],
+   "answer": "c",
+   "explain": "x − r is a divisor of f(x) if and only if f(r) = 0. The remainder is f(r), so a zero value means nothing is left over.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "You want a polynomial's value at a point by way of the remainder. Of the two division methods, which is cheaper?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Synthetic division, which is computationally easier"
+    },
+    {
+     "id": "b",
+     "label": "Long division, which is more thorough"
+    },
+    {
+     "id": "c",
+     "label": "They cost the same, since both give the same remainder"
+    },
+    {
+     "id": "d",
+     "label": "Long division, which has fewer steps to copy"
+    }
+   ],
+   "answer": "a",
+   "explain": "Synthetic division is computationally easier, so the function can be evaluated more cheaply this way. Long division is described as more difficult.",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "prompt": "A polynomial of degree 5 is divided by x − r. What degree does the quotient have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Degree 5, the same as f"
+    },
+    {
+     "id": "b",
+     "label": "Degree 6, one more than f"
+    },
+    {
+     "id": "c",
+     "label": "Degree 3, two less than f"
+    },
+    {
+     "id": "d",
+     "label": "Degree 4, one less than f"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any polynomial f(x) is f(r) plus the product of x − r and a polynomial of degree one less than f.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "You want to break a polynomial into smaller factors. How does this theorem help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Find an r where the value is zero, divide out x − r, and repeat on what remains"
+    },
+    {
+     "id": "b",
+     "label": "Evaluate at any r and use the result as a factor"
+    },
+    {
+     "id": "c",
+     "label": "Divide by x − r until the remainder reaches zero"
+    },
+    {
+     "id": "d",
+     "label": "Evaluate once and stop, since one value fixes all factors"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the remainder is zero, the linear divisor is a factor. Repeated application of the factor theorem may be used to factorize the polynomial.",
+   "cites": [
+    12,
+    13
+   ]
+  },
+  {
+   "prompt": "The remainder theorem is described as an application of which operation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Completing the square"
+    },
+    {
+     "id": "b",
+     "label": "Euclidean division of polynomials"
+    },
+    {
+     "id": "c",
+     "label": "Graphing a function on axes"
+    },
+    {
+     "id": "d",
+     "label": "The quadratic formula"
+    }
+   ],
+   "answer": "b",
+   "explain": "The polynomial remainder theorem is an application of Euclidean division of polynomials.",
+   "cites": [
+    1
+   ]
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "The probability axioms are the foundations of probability theory, introduced by the Russian mathematician Andrey Kolmogorov in 1933.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "They set out the basic assumptions behind applying probability in fields such as pure mathematics and the physical sciences, while avoiding logical paradoxes.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "One assumption is unit measure, that the chance one of the elementary events in the whole sample space occurs is 1; the third axiom, σ-additivity, comes from Lebesgue's measure theory.",
+   "cites": [
+    5,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Introduced by",
+   "value": "Andrey Kolmogorov, in 1933",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Third axiom",
+   "value": "σ-additivity, which originates with Lebesgue's measure theory",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Unit measure",
+   "value": "The chance that some elementary event occurs is 1",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "label": "Weaker substitute",
+   "value": "Some authors use finite additivity in its place",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Empty set",
+   "value": "The event that no outcome occurs, which is impossible",
+   "cites": [
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A coin lands heads or tails but never both, and nothing is assumed about whether it is fair. Its chance of heads is 0.7. What is its chance of tails?",
+   "options": [
+    {
+     "id": "a",
+     "label": "0.5, since a coin has two sides"
+    },
+    {
+     "id": "b",
+     "label": "0.7, since the sides must match"
+    },
+    {
+     "id": "c",
+     "label": "0.3, since the two chances add to 1"
+    },
+    {
+     "id": "d",
+     "label": "1, since tails is the only other result"
+    }
+   ],
+   "answer": "c",
+   "explain": "The probabilities of heads and tails sum to 1, whether or not the coin is fair.",
+   "cites": [
+    30,
+    31,
+    32
+   ]
+  },
+  {
+   "prompt": "You roll a die. Some result from the whole list of possible results is certain to occur. What does unit measure say about the chance of that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is 1"
+    },
+    {
+     "id": "b",
+     "label": "It is one half"
+    },
+    {
+     "id": "c",
+     "label": "It depends on how fair the die is"
+    },
+    {
+     "id": "d",
+     "label": "It is the number of faces"
+    }
+   ],
+   "answer": "a",
+   "explain": "Unit measure is the assumption that the probability of one of the elementary events in the entire sample space occurring is 1.",
+   "cites": [
+    16
+   ]
+  },
+  {
+   "prompt": "In a coin toss, someone describes an event that contains no outcomes at all. What does that event mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The coin lands on its edge"
+    },
+    {
+     "id": "b",
+     "label": "Either side may come up"
+    },
+    {
+     "id": "c",
+     "label": "No outcome occurs, which is impossible"
+    },
+    {
+     "id": "d",
+     "label": "The toss happens twice"
+    }
+   ],
+   "answer": "c",
+   "explain": "The empty set is interpreted as the event that no outcome occurs, which is impossible.",
+   "cites": [
+    24
+   ]
+  },
+  {
+   "prompt": "Modern probability theory rests on axioms laid down in 1933. Whose work is that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Lebesgue"
+    },
+    {
+     "id": "b",
+     "label": "Cox"
+    },
+    {
+     "id": "c",
+     "label": "Bayes"
+    },
+    {
+     "id": "d",
+     "label": "Kolmogorov"
+    }
+   ],
+   "answer": "d",
+   "explain": "The standard probability axioms were introduced by the Russian mathematician Andrey Kolmogorov in 1933.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A textbook swaps the third axiom for a weaker one that it says is enough for some applications. Which axiom was swapped out, and for what?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first axiom, replaced by unit measure"
+    },
+    {
+     "id": "b",
+     "label": "σ-additivity, replaced by finite additivity"
+    },
+    {
+     "id": "c",
+     "label": "Unit measure, replaced by σ-additivity"
+    },
+    {
+     "id": "d",
+     "label": "Finite additivity, replaced by the first axiom"
+    }
+   ],
+   "answer": "b",
+   "explain": "Some authors replace σ-additivity with the strictly weaker axiom of finite additivity, which suffices for some applications.",
+   "cites": [
+    5,
+    6
+   ]
+  },
+  {
+   "prompt": "According to Dutch book arguments, how should a rational bettor set the stakes on different events?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Equally on every event, whatever its chance"
+    },
+    {
+     "id": "b",
+     "label": "In proportion to a subjective measure of each event's probability"
+    },
+    {
+     "id": "c",
+     "label": "Only on events that are certain to occur"
+    },
+    {
+     "id": "d",
+     "label": "Against the events they believe are most likely"
+    }
+   ],
+   "answer": "b",
+   "explain": "The Dutch book arguments show that rational agents must make bets in proportion to a subjective measure of the probability of events.",
+   "cites": [
+    4
+   ]
+  }
+ ]
+}

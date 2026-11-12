@@ -1,0 +1,102 @@
+{
+ "title": "Pieces that cannot split",
+ "question": "How do you break a polynomial into pieces that can't be split further?",
+ "hook": "Whether a polynomial splits depends on which numbers you are allowed to use.",
+ "idea": "Factoring writes a polynomial as a product of irreducible factors, and which factors exist depends on the field of coefficients.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A polynomial with integer coefficients is factored over the complex numbers. What kind of factors do you end up with?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Only linear factors"
+    },
+    {
+     "id": "b",
+     "label": "Factors of degree up to two",
+     "feedback": "That limit belongs to the real numbers, not the complex numbers."
+    },
+    {
+     "id": "c",
+     "label": "Factors of every degree",
+     "feedback": "Every-degree irreducibles show up over the rationals, not over the complex numbers."
+    }
+   ],
+   "answer": "a",
+   "explain": "Over the complex field a polynomial with integer coefficients can be factored into linear factors.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each field to what happens there",
+   "pairs": [
+    [
+     "Complex numbers",
+     "Factors into linear pieces"
+    ],
+    [
+     "Real numbers",
+     "Irreducible factors of degree at most two"
+    ],
+    [
+     "Rational numbers",
+     "Irreducible polynomials of any degree exist"
+    ]
+   ],
+   "explain": "Factorization depends on the base field.",
+   "cites": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "A primitive polynomial is irreducible over the integers. What follows over the rationals?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It must be reducible",
+     "feedback": "The two cases agree, so it cannot flip."
+    },
+    {
+     "id": "b",
+     "label": "It is irreducible there as well"
+    },
+    {
+     "id": "c",
+     "label": "Nothing can be said",
+     "feedback": "Gauss's lemma settles it."
+    }
+   ],
+   "answer": "b",
+   "explain": "Gauss showed that the product of two primitive polynomials is primitive, which implies that irreducibility over the rationals and over the integers are the same for a primitive polynomial.",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "Two identical factors make the polynomial a multiple of that factor's square.",
+    "The repeated factor is then also a factor of the derivative.",
+    "So a GCD with the derivative can expose the repeated part.",
+    "That is why square-free factorization comes last in most algorithms."
+   ],
+   "wrong": 3,
+   "explain": "Square-free factorization is the first step in most polynomial factorization algorithms.",
+   "cites": [
+    33,
+    34,
+    36,
+    38
+   ]
+  }
+ ]
+}

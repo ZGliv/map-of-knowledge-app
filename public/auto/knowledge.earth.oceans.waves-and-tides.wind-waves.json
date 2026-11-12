@@ -1,0 +1,486 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.waves-and-tides.wind-waves",
+ "name": "Wind waves",
+ "summary": [
+  {
+   "text": "A wind wave is a surface wave raised on a body of water by wind blowing across it, ranging from small ripples to waves over 30 m high.",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "Their size is limited by wind speed, how long the wind blows, the fetch (the distance it blows over the water) and the water depth.",
+   "cites": [
+    2,
+    4
+   ]
+  },
+  {
+   "text": "Once they leave the windy area they become swells that can travel thousands of kilometres, like waves from south of Tasmania that reach southern California.",
+   "cites": [
+    7,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Size range",
+   "value": "From small ripples to over 30 m",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Swell range",
+   "value": "Thousands of kilometres",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Significant wave height",
+   "value": "Average of the highest third of waves",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Draupner rogue wave",
+   "value": "25 m, 2.2 times the significant height",
+   "cites": [
+    45
+   ]
+  },
+  {
+   "label": "Restoring force",
+   "value": "Surface tension for ripples, gravity for sea waves",
+   "cites": [
+    37,
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A light breeze blows more slowly than the crests of the waves already on the sea. Will it make those waves grow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, wind must outpace the crests to pass them energy"
+    },
+    {
+     "id": "b",
+     "label": "Yes, any wind adds energy to waves it touches"
+    },
+    {
+     "id": "c",
+     "label": "Yes, but only if it blows for a whole day"
+    },
+    {
+     "id": "d",
+     "label": "No, because breezes only affect deep water"
+    }
+   ],
+   "answer": "a",
+   "explain": "For energy to transfer to the wave, the wind must be moving faster than the wave crest.",
+   "cites": [
+    15
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves:q1"
+  },
+  {
+   "prompt": "A forecast gives a significant wave height of 4 m for today. What is the largest single wave you should likely expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly 4 m, since that is the forecast"
+    },
+    {
+     "id": "b",
+     "label": "Under 4 m, since the figure is an average"
+    },
+    {
+     "id": "c",
+     "label": "Somewhat less than 8 m"
+    },
+    {
+     "id": "d",
+     "label": "Around 20 m or more"
+    }
+   ],
+   "answer": "c",
+   "explain": "Because wave heights vary, the largest waves are likely somewhat less than twice the significant wave height.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves:q2"
+  },
+  {
+   "prompt": "The wind suddenly stops. What happens to ripples on a glassy pond and to large sea waves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both vanish within a few seconds"
+    },
+    {
+     "id": "b",
+     "label": "Ripples die quickly; sea waves keep going much longer"
+    },
+    {
+     "id": "c",
+     "label": "Sea waves stop at once; ripples last for hours"
+    },
+    {
+     "id": "d",
+     "label": "Both keep going for days unchanged"
+    }
+   ],
+   "answer": "b",
+   "explain": "Ripples, held by surface tension, die quickly when wind stops, while gravity-driven sea waves last much longer.",
+   "cites": [
+    36,
+    37,
+    39
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves:q3"
+  },
+  {
+   "prompt": "On a calm, windless day, surfers in southern California find big waves rolling in. Where did those waves most likely come from?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An underwater earthquake just offshore"
+    },
+    {
+     "id": "b",
+     "label": "The daily pull of the Moon on the coast"
+    },
+    {
+     "id": "c",
+     "label": "Ships passing close to the beach"
+    },
+    {
+     "id": "d",
+     "label": "Swells from storms thousands of kilometres away"
+    }
+   ],
+   "answer": "d",
+   "explain": "Swells leave the windy area that made them and travel thousands of kilometres, such as from south of Tasmania to southern California.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves:q4"
+  },
+  {
+   "prompt": "An old saying claims the seventh wave in a set is always the biggest. What is actually true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The first wave of a set is always the biggest"
+    },
+    {
+     "id": "b",
+     "label": "Middle waves tend to be bigger, but not always the seventh"
+    },
+    {
+     "id": "c",
+     "label": "The seventh wave is always the biggest one"
+    },
+    {
+     "id": "d",
+     "label": "Every wave in a set is the same height"
+    }
+   ],
+   "answer": "b",
+   "explain": "The seventh wave is not always largest, but waves in the middle of a set tend to be larger than those before and after.",
+   "cites": [
+    43
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves:q5"
+  },
+  {
+   "prompt": "A steady wind has already built a fully developed sea. It keeps blowing at the same strength for another day. What happens to the waves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They keep growing taller without limit"
+    },
+    {
+     "id": "b",
+     "label": "They shrink back to small ripples"
+    },
+    {
+     "id": "c",
+     "label": "They turn into a tsunami"
+    },
+    {
+     "id": "d",
+     "label": "They stop growing; extra energy goes into whitecaps"
+    }
+   ],
+   "answer": "d",
+   "explain": "A fully developed sea is the maximum for that wind; more exposure only dissipates energy as wave tops break into whitecaps.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Porto_Covo_Outubro_2014-3.jpg/960px-Porto_Covo_Outubro_2014-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Wind waves",
+  "credit": "Alvesgaspar",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Porto_Covo_Outubro_2014-3.jpg"
+ },
+ "source": {
+  "title": "Wind wave",
+  "url": "https://en.wikipedia.org/wiki/Wind_wave",
+  "revision": 1381578823
+ },
+ "pack": {
+  "id": "auto-waves-and-tides-wind-waves",
+  "title": "Surf From Across the World",
+  "question": "What decides how big a wind wave gets, and how far it can go?",
+  "path": [
+   "Earth",
+   "Oceans",
+   "Waves and tides",
+   "Wind waves"
+  ],
+  "hue": 113,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Porto_Covo_Outubro_2014-3.jpg/960px-Porto_Covo_Outubro_2014-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Wind waves",
+    "credit": "Alvesgaspar · CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porto_Covo_Outubro_2014-3.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Surf From Across the World",
+    "hook": "Waves raised by heavy winds south of Tasmania can cross the Pacific and give surfers in southern California good waves."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-waves-and-tides-wind-waves:1",
+    "transfer": false,
+    "prompt": "The same wind blows for the same time over two lakes of equal depth. One stretches 2 km in the wind's direction, the other 200 km. Which gets bigger waves?",
+    "explain": "Wave size is limited by fetch as well as wind speed, duration and depth, so the longer stretch of water lets bigger waves build.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "The 200 km lake, because of its longer fetch"
+       },
+       {
+        "id": "c",
+        "label": "Both the same, since only wind speed matters",
+        "feedback": "Wind speed matters, but so do duration, fetch and depth."
+       },
+       {
+        "id": "b",
+        "label": "The 2 km lake, because waves bounce back and stack up",
+        "feedback": "Fetch, the distance the wind blows over the water, is one of the limits on wave size, so a short stretch holds waves back."
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-waves-and-tides-wind-waves:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each wave by the force that lets it travel",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Ripples on glassy water"
+     },
+     {
+      "id": "i1",
+      "label": "Capillary waves"
+     },
+     {
+      "id": "i2",
+      "label": "Sea waves from sustained winds"
+     },
+     {
+      "id": "i3",
+      "label": "Gravity waves"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Surface tension"
+     },
+     {
+      "id": "g1",
+      "label": "Gravity"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Small ripples, or capillary waves, are held by surface tension, while larger sea waves are driven mainly by gravity."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-waves-and-tides-wind-waves:3",
+    "transfer": true,
+    "prompt": "Match each term to what it means",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Fetch"
+     },
+     {
+      "id": "l1",
+      "label": "Wind sea"
+     },
+     {
+      "id": "l2",
+      "label": "Swell"
+     },
+     {
+      "id": "l3",
+      "label": "Significant wave height"
+     }
+    ],
+    "right": [
+     {
+      "id": "r0",
+      "label": "Distance the wind blows over the water"
+     },
+     {
+      "id": "r2",
+      "label": "Waves that have left the wind's area"
+     },
+     {
+      "id": "r3",
+      "label": "Average of the highest third of waves"
+     },
+     {
+      "id": "r1",
+      "label": "Waves still driven by the local wind"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "These terms describe where waves come from, whether the wind still drives them, and how their height is reported."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-waves-and-tides-wind-waves:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Wind blowing over water passes kinetic energy to the surface."
+     },
+     {
+      "id": "b",
+      "text": "Waves can only gain energy while the wind outruns their crests."
+     },
+     {
+      "id": "c",
+      "text": "Eventually the sea becomes fully developed for that wind."
+     },
+     {
+      "id": "d",
+      "text": "So more of the same wind keeps making the waves taller forever."
+     }
+    ],
+    "answer": "d",
+    "explain": "A fully developed sea is the most that wind can build; further exposure only loses energy as wave tops break into whitecaps."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Wind speed, duration, fetch and depth limit how big wind waves grow, and once they leave the wind they can travel thousands of kilometres as swells.",
+    "connections": [
+     {
+      "title": "Swell",
+      "place": "Wind waves",
+      "node": "knowledge.earth.oceans.waves-and-tides.wind-waves.swell"
+     },
+     {
+      "title": "Significant wave height",
+      "place": "Wind waves",
+      "node": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height"
+     },
+     {
+      "title": "Rogue wave",
+      "place": "Wind waves",
+      "node": "knowledge.earth.oceans.waves-and-tides.wind-waves.rogue-wave"
+     },
+     {
+      "title": "Beaufort scale",
+      "place": "Wind waves",
+      "node": "knowledge.earth.oceans.waves-and-tides.wind-waves.beaufort-scale"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Wave size is limited by fetch as well as wind speed, duration and depth, so the longer stretch of water lets bigger waves build.",
+    "source": "Wikipedia sentences 2, 4"
+   },
+   {
+    "claim": "Small ripples, or capillary waves, are held by surface tension, while larger sea waves are driven mainly by gravity.",
+    "source": "Wikipedia sentences 33, 34, 37, 39"
+   },
+   {
+    "claim": "These terms describe where waves come from, whether the wind still drives them, and how their height is reported.",
+    "source": "Wikipedia sentences 2, 5, 7, 22"
+   },
+   {
+    "claim": "A fully developed sea is the most that wind can build; further exposure only loses energy as wave tops break into whitecaps.",
+    "source": "Wikipedia sentences 15, 18, 19, 30"
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "webb-waves-at-sea",
+   "kind": "book",
+   "title": "10.2: Waves at Sea",
+   "by": "Paul Webb, Roger Williams University (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Oceanography/Introduction_to_Oceanography_(Webb)/10%3A_Waves/10.02%3A_Waves_at_Sea",
+   "note": "A free oceanography textbook section on how wind speed, duration and fetch build waves, and how they sort into swell.",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "noaa-jetstream-waves",
+   "kind": "article",
+   "title": "Waves",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/ocean/waves",
+   "note": "NOAA page on wind waves: how wind strength, duration and fetch set wave size, plus swell and rogue waves."
+  }
+ ]
+}

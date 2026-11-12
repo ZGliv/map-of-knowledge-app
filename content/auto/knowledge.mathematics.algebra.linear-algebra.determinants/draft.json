@@ -1,0 +1,222 @@
+{
+ "summary": [
+  {
+   "text": "The determinant is a single number computed from a square matrix, and it captures key facts about the matrix and the transformation it represents.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "When the entries come from a field, a matrix can be inverted exactly when its determinant is nonzero.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "text": "For real transformations it is the factor by which volumes scale, and for a 2 by 2 matrix it gives the signed area of a parallelogram.",
+   "cites": [
+    9,
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Product rule",
+   "value": "The determinant of a product is the product of the determinants",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Invertibility test",
+   "value": "Nonzero determinant means invertible, when entries are in a field",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Volume scaling",
+   "value": "Scale factor for volumes under a real transformation",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Empty matrix",
+   "value": "A 0 × 0 matrix has determinant 1",
+   "cites": [
+    23,
+    24
+   ]
+  },
+  {
+   "label": "Efficient methods",
+   "value": "Gaussian elimination and singular value decomposition",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A real square matrix has determinant zero. Can the matrix be inverted?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, using the adjugate matrix"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only by Gaussian elimination"
+    },
+    {
+     "id": "c",
+     "label": "No, an invertible matrix needs a nonzero determinant"
+    },
+    {
+     "id": "d",
+     "label": "Yes, if its rows are rearranged first"
+    }
+   ],
+   "answer": "c",
+   "explain": "Over a field, a matrix is invertible if and only if its determinant is nonzero.",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "prompt": "Two square matrices have determinants 2 and 5. What is the determinant of their product?",
+   "options": [
+    {
+     "id": "a",
+     "label": "7"
+    },
+    {
+     "id": "b",
+     "label": "10"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "2.5"
+    }
+   ],
+   "answer": "b",
+   "explain": "The determinant of a product of square matrices is the product of their determinants.",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "prompt": "A real transformation of space makes every volume triple and also mirrors the space, reversing its orientation. What is its determinant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Positive three"
+    },
+    {
+     "id": "b",
+     "label": "One third"
+    },
+    {
+     "id": "c",
+     "label": "Zero"
+    },
+    {
+     "id": "d",
+     "label": "Negative three"
+    }
+   ],
+   "answer": "d",
+   "explain": "The determinant is the volume scale factor, positive when orientation is preserved and negative when it is reversed.",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "prompt": "A computer must find the determinant of a large matrix full of nonzero entries. Which route is sensible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Gaussian elimination"
+    },
+    {
+     "id": "b",
+     "label": "Expanding by cofactors along a row"
+    },
+    {
+     "id": "c",
+     "label": "Writing out the Leibniz formula in full"
+    },
+    {
+     "id": "d",
+     "label": "Trying every possible inverse"
+    }
+   ],
+   "answer": "a",
+   "explain": "Gaussian elimination computes determinants efficiently, while the Leibniz formula and Laplace expansion are inefficient except in special cases.",
+   "cites": [
+    14,
+    15
+   ]
+  },
+  {
+   "prompt": "Two arrows from the origin are written as the columns of a 2 × 2 matrix. Which number from the matrix gives the area of the parallelogram they span?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The sum of the four entries"
+    },
+    {
+     "id": "b",
+     "label": "The absolute value of the matrix's determinant"
+    },
+    {
+     "id": "c",
+     "label": "The square of the first entry"
+    },
+    {
+     "id": "d",
+     "label": "The largest single entry"
+    }
+   ],
+   "answer": "b",
+   "explain": "The parallelogram's area is the absolute value of the determinant.",
+   "cites": [
+    28,
+    29
+   ]
+  },
+  {
+   "prompt": "The two arrows in a 2 by 2 matrix lie along one line. What is the matrix's determinant?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero"
+    },
+    {
+     "id": "b",
+     "label": "One"
+    },
+    {
+     "id": "c",
+     "label": "Negative"
+    },
+    {
+     "id": "d",
+     "label": "The product of the arrow lengths"
+    }
+   ],
+   "answer": "a",
+   "explain": "If the vectors are aligned, the determinant is zero, because the parallelogram they span has no area.",
+   "cites": [
+    29,
+    30
+   ]
+  }
+ ]
+}

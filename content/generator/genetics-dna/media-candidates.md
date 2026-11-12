@@ -1,0 +1,492 @@
+# Media candidates: genetics-dna
+
+All on the licence allowlist with no restrictions. ShareAlike files can only be shown whole (no cover, no documentary pan, no ink tone). CC BY files that are cropped must say "cropped" in the credit.
+
+- **File:Meselson-stahl experiment diagram eu.svg** · CC0 · Original: LadyofHats Derivative work: Asierog · 2025-02-25 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Meselson-stahl_experiment_diagram_eu.svg/1280px-Meselson-stahl_experiment_diagram_eu.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-stahl_experiment_diagram_eu.svg
+  - The Meselson-Stahl experiment was an experiment by Matthew Meselson and Franklin Stahl which demonstrated that DNA replication was semiconservative
+- **File:Meselson-stahl experiment diagram es.svg** · CC0 · LadyofHats · 2020-03-27 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Meselson-stahl_experiment_diagram_es.svg/1280px-Meselson-stahl_experiment_diagram_es.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-stahl_experiment_diagram_es.svg
+  - The Meselson-Stahl experiment was an experiment by Matthew Meselson and Franklin Stahl which demonstrated that DNA replication was semiconservative
+- **File:Meselson-Stahl-experiment-(He).png** · Public domain · Me · 2007-08-30 · 499×200
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/aa/Meselson-Stahl-experiment-%28He%29.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-Stahl-experiment-(He).png
+  - Meselson-Stahl-experiment
+- **File:Meselson-Stahl kísérlet.jpg** · CC BY-SA 4.0 · Capucettorosso · 2017-04-19 · 1000×932
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/b3/Meselson-Stahl_k%C3%ADs%C3%A9rlet.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-Stahl_k%C3%ADs%C3%A9rlet.jpg
+  - Meselson-Stahl kísérlet
+- **File:Meselson-stahl experiment diagram en.svg** · Public domain · LadyofHats · 2008-09-17 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Meselson-stahl_experiment_diagram_en.svg/1280px-Meselson-stahl_experiment_diagram_en.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-stahl_experiment_diagram_en.svg
+  - The Meselson-Stahl experiment was an experiment by Matthew Meselson and Franklin Stahl which demonstrated that DNA replication was semiconservative
+- **File:Meselson-stahl experiment diagram tr.svg** · Public domain · Meselson-stahl_experiment_diagram_en.svg: LadyofHats derivative work: İnfoCan (talk) · 2010-09-14 20:32 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Meselson-stahl_experiment_diagram_tr.svg/1280px-Meselson-stahl_experiment_diagram_tr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-stahl_experiment_diagram_tr.svg
+  - The Meselson-Stahl experiment was an experiment by Matthew Meselson and Franklin Stahl which demonstrated that DNA replication was semiconservative. Labels are in Turkish
+- **File:Schéma Expérience de Meselson-Stahl fr.svg** · CC0 · LadyofHats · 2017-09-20 · 800×691
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sch%C3%A9ma_Exp%C3%A9rience_de_Meselson-Stahl_fr.svg/1280px-Sch%C3%A9ma_Exp%C3%A9rience_de_Meselson-Stahl_fr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Sch%C3%A9ma_Exp%C3%A9rience_de_Meselson-Stahl_fr.svg
+  - Principe et résultats de l'expérience de Meselson et Stahl validant le modèle de la réplication de l'ADN selon un modèle semi-conservatif
+- **File:Meselson-Stahl-Versuch-Schema.svg** · Public domain · Meselson-stahl_experiment_diagram_en.svg: LadyofHats derivative work: Matt (talk) · 2009-05-12 09:01 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Meselson-Stahl-Versuch-Schema.svg/1280px-Meselson-Stahl-Versuch-Schema.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-Stahl-Versuch-Schema.svg
+  - Der Meselson-Stahl-Versuch war ein Experiment von Matthew Meselson und Franklin Stahl, welches zeigte, dass die DNA-Replikation semikonservativ erfolgt.
+- **File:Meselson-stahl experiment diagram en chiral.svg** · Public domain · File:Meselson-stahl experiment diagram en.svg: LadyofHats derivative work: Monovergent · 2023-11-29 19:07 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Meselson-stahl_experiment_diagram_en_chiral.svg/1280px-Meselson-stahl_experiment_diagram_en_chiral.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-stahl_experiment_diagram_en_chiral.svg
+  - The Meselson-Stahl experiment was an experiment by Matthew Meselson and Franklin Stahl which demonstrated that DNA replication was semiconservative.
+- **File:Meselson-stahl.jpg** · CC BY-SA 2.5 · César Benito Jiménez · 495×769
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d6/Meselson-stahl.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-stahl.jpg
+  - experimentos de meselson-stahl: evidencias experimentales de que la replicación es semiconservativa
+- **File:Meselson-Stahl-Versuch-Schema-fixed.svg** · Public domain · Meselson-stahl_experiment_diagram_en.svg: LadyofHats Meselson-Stahl-Versuch-Schema.svg: Matt (talk) derivative work: Laura240406 · 2025-11-12 · 491×424
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Meselson-Stahl-Versuch-Schema-fixed.svg/1280px-Meselson-Stahl-Versuch-Schema-fixed.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Meselson-Stahl-Versuch-Schema-fixed.svg
+  - Der Meselson-Stahl-Versuch war ein Experiment von Matthew Meselson und Franklin Stahl, welches zeigte, dass die DNA-Replikation semikonservativ erfolgt.
+- **File:DNA is semiconservative experiment.png** · CC BY-SA 4.0 · Eunice Laurent · 2022-05-03 · 4335×2689
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/DNA_is_semiconservative_experiment.png/1280px-DNA_is_semiconservative_experiment.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_is_semiconservative_experiment.png
+  - Three possible hypotheses of DNA replication in bacteria were conservative, semiconservative and dispersive. Experiment by M. Meselson and F. Stahl using media containing ammonium chloride of different nitrogen isotopes supported the semiconservative model of DNA replication in organisms.
+- **File:Meselson Stahl.jpg** · CC BY-SA 4.0 · 03radmehr · 2026-10-12 · 551×556
+  - src: https://upload.wikimedia.org/wikipedia/commons/0/01/Meselson_Stahl.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Meselson_Stahl.jpg
+  - at his 40s
+- **File:メセルソンとスタールの実験 試験管.svg** · CC0 · すじにくシチュー · 2015-03-19 · 1100×800
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/%E3%83%A1%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%B3%E3%81%A8%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AB%E3%81%AE%E5%AE%9F%E9%A8%93_%E8%A9%A6%E9%A8%93%E7%AE%A1.svg/1280px-%E3%83%A1%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%B3%E3%81%A8%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AB%E3%81%AE%E5%AE%9F%E9%A8%93_%E8%A9%A6%E9%A8%93%E7%AE%A1.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:%E3%83%A1%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%B3%E3%81%A8%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AB%E3%81%AE%E5%AE%9F%E9%A8%93_%E8%A9%A6%E9%A8%93%E7%AE%A1.svg
+  - Meselson-stahl experiment
+- **File:メセルソンとスタールの実験 DNA.svg** · CC0 · すじにくシチュー · 2015-03-19 · 1100×850
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E3%83%A1%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%B3%E3%81%A8%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AB%E3%81%AE%E5%AE%9F%E9%A8%93_DNA.svg/1280px-%E3%83%A1%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%B3%E3%81%A8%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AB%E3%81%AE%E5%AE%9F%E9%A8%93_DNA.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:%E3%83%A1%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%B3%E3%81%A8%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AB%E3%81%AE%E5%AE%9F%E9%A8%93_DNA.svg
+  - Meselson-stahl experiment. DNA.
+- **File:Duhendebûna nîvparezî ku.png** · Public domain · LadyofHats · 2022-11-24 · 1156×855
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/41/Duhendeb%C3%BBna_n%C3%AEvparez%C3%AE_ku.png
+  - page: https://commons.wikimedia.org/wiki/File:Duhendeb%C3%BBna_n%C3%AEvparez%C3%AE_ku.png
+  - Kurdishː Du Zanyarên Amerîkî, Matthew Stanley Meselson û Franklin William Stahl di sala 1958an bi ezmûnekî, pêvajoya duhendebûna ADN dîyar kirin.Bi vê ezmûnê hat piştrastkirin ko ADN bi awayekî nîvparezî (bi înglîzî: semiconservative replication) duhende dibe. Piştî duhendebunê, molekula ADNya nû ji
+- **File:Replicazione semiconservativa DNA.png** · CC BY-SA 3.0 · Amicobromo · 238×350
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d4/Replicazione_semiconservativa_DNA.png
+  - page: https://commons.wikimedia.org/wiki/File:Replicazione_semiconservativa_DNA.png
+  - Replicazione semiconservativa DNA
+- **File:Replicazione distributiva DNA.png** · CC BY-SA 3.0 · Amicobromo · 238×350
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a1/Replicazione_distributiva_DNA.png
+  - page: https://commons.wikimedia.org/wiki/File:Replicazione_distributiva_DNA.png
+  - Replicazione distributiva DNA
+- **File:Replicazione conservativa DNA.png** · CC BY-SA 3.0 · Amicobromo · 238×350
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/ab/Replicazione_conservativa_DNA.png
+  - page: https://commons.wikimedia.org/wiki/File:Replicazione_conservativa_DNA.png
+  - Replicazione conservativa DNA
+- **File:Provetta gradiente densità.png** · CC BY-SA 3.0 · Amicobromo · 200×141
+  - src: https://upload.wikimedia.org/wikipedia/commons/e/ee/Provetta_gradiente_densit%C3%A0.png
+  - page: https://commons.wikimedia.org/wiki/File:Provetta_gradiente_densit%C3%A0.png
+  - Gradiente di densità in una provetta.
+- **File:DNAreplicationModes.png** · CC BY-SA 2.5 · The original uploader was Adenosine at English Wikipedia. · 15 September 2005 (original upload date) · 700×494
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a2/DNAreplicationModes.png
+  - page: https://commons.wikimedia.org/wiki/File:DNAreplicationModes.png
+  - An overview of three postulated types of DNA replication. Original work for Wikipedia by Mike Jones en:User: Adenosine
+- **File:DNA-Replikationsmechanismen.svg** · Public domain · Fleshgrinder · 2009-10-10 · 455×400
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/DNA-Replikationsmechanismen.svg/1280px-DNA-Replikationsmechanismen.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA-Replikationsmechanismen.svg
+  - An abstract overview of three postulated types of DNA replication.
+- **File:Lahuse tsentrifuugimisel DNA koondumine tasakaalulisse punkti.png** · CC BY-SA 4.0 · Meselson, M., Stahl, F. F., &amp; Vinograd, J. · 1957-07-15 · 412×717
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/58/Lahuse_tsentrifuugimisel_DNA_koondumine_tasakaalulisse_punkti.png
+  - page: https://commons.wikimedia.org/wiki/File:Lahuse_tsentrifuugimisel_DNA_koondumine_tasakaalulisse_punkti.png
+  - Lahuse tsentrifuugimisel DNA koondumine tasakaalulisse punkti
+- **File:Erinevate N-isotoopidega DNA-d on erineva tihedusega. Joonisel näidatud DNA-de koondumine erinevatesse tasakaalulistesse punktidesse.png** · CC BY-SA 4.0 · Meselson, M., &amp; Stahl, F. W. · 1958-07-15 · 865×494
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/c5/Erinevate_N-isotoopidega_DNA-d_on_erineva_tihedusega._Joonisel_n%C3%A4idatud_DNA-de_koondumine_erinevatesse_tasakaalulistesse_punktidesse.png
+  - page: https://commons.wikimedia.org/wiki/File:Erinevate_N-isotoopidega_DNA-d_on_erineva_tihedusega._Joonisel_n%C3%A4idatud_DNA-de_koondumine_erinevatesse_tasakaalulistesse_punktidesse.png
+  - Erinevate N-isotoopidega DNA-d on erineva tihedusega. Joonisel näidatud DNA-de koondumine erinevatesse tasakaalulistesse punktidesse
+- **File:3 Strawberry DNA Extraction.jpg** · CC BY 4.0 · Sheila Richards · 2019-07-01 · 667×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/32/3_Strawberry_DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:3_Strawberry_DNA_Extraction.jpg
+  - Lysis buffer breaks down the lipid cell membranes and makes the strawberry's cells pop so the DNA can be released. The lysis buffer and broken down strawberry mixture/juice is added to ice cold isopropyl 90 proof in a glass. DNA does not dissolve in alcohol, so it will rise above the solution. The w
+- **File:6 Strawberry DNA Extraction.jpg** · CC BY 4.0 · Sheila Richards · 2019-07-01 · 667×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/76/6_Strawberry_DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:6_Strawberry_DNA_Extraction.jpg
+  - Lysis buffer breaks down the lipid cell membranes and makes the strawberry's cells pop so the DNA can be released. The lysis buffer and broken down strawberry mixture/juice is added to ice cold isopropyl 90 proof in a glass. DNA does not dissolve in alcohol, so it will rise above the solution. The w
+- **File:4 Strawberry DNA Extraction.jpg** · CC BY 4.0 · Sheila Richards · 2019-07-01 · 667×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/7/73/4_Strawberry_DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:4_Strawberry_DNA_Extraction.jpg
+  - Lysis buffer breaks down the lipid cell membranes and makes the strawberry's cells pop so the DNA can be released. The lysis buffer and broken down strawberry mixture/juice is added to ice cold isopropyl 90 proof in a glass. DNA does not dissolve in alcohol, so it will rise above the solution. The w
+- **File:1 Strawberry DNA Extraction.jpg** · CC BY 4.0 · Sheila Richards · 2019-07-01 · 667×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/95/1_Strawberry_DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:1_Strawberry_DNA_Extraction.jpg
+  - Lysis buffer breaks down the lipid cell membranes and makes the strawberry's cells pop so the DNA can be released. The lysis buffer and broken down strawberry mixture/juice is added to ice cold isopropyl 90 proof in a glass. DNA does not dissolve in alcohol, so it will rise above the solution. The w
+- **File:2 Strawberry DNA Extraction.jpg** · CC BY 4.0 · Sheila Richards · 2019-07-01 · 667×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/6/6a/2_Strawberry_DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:2_Strawberry_DNA_Extraction.jpg
+  - Lysis buffer breaks down the lipid cell membranes and makes the strawberry's cells pop so the DNA can be released. The lysis buffer and broken down strawberry mixture/juice is added to ice cold isopropyl 90 proof in a glass. DNA does not dissolve in alcohol, so it will rise above the solution. The w
+- **File:5 Strawberry DNA Extraction.jpg** · CC BY 4.0 · Sheila Richards · 2019-07-01 · 667×500
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a5/5_Strawberry_DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:5_Strawberry_DNA_Extraction.jpg
+  - Lysis buffer breaks down the lipid cell membranes and makes the strawberry's cells pop so the DNA can be released. The lysis buffer and broken down strawberry mixture/juice is added to ice cold isopropyl 90 proof in a glass. DNA does not dissolve in alcohol, so it will rise above the solution. The w
+- **File:DNA extraction from strawberries.jpg** · CC BY-SA 4.0 · Drkirstyross · 2019-09-24 14:08:10 · 1080×1440
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/DNA_extraction_from_strawberries.jpg/960px-DNA_extraction_from_strawberries.jpg
+  - page: https://commons.wikimedia.org/wiki/File:DNA_extraction_from_strawberries.jpg
+  - DNA extraction from strawberries
+- **File:DNA Extraction.jpg** · CC BY-SA 4.0 · Joo Nath · 2015-03-11 09:57:02 · 3648×2432
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/DNA_Extraction.jpg/1280px-DNA_Extraction.jpg
+  - page: https://commons.wikimedia.org/wiki/File:DNA_Extraction.jpg
+  - DNA extraction de strawberry, grinded and strained from their physical form. The floating white inside the test tube indicate the DNA has completely separated.
+- **File:RDECOM Scientist and Engineers bring their special skills and enthusiasm to STEM Night at Fallston Middle School (6883034772).jpg** · Public domain · U.S. Army RDECOM from Aberdeen Proving Ground, MD, USA · 2012-03-29 17:40 · 4826×3217
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/RDECOM_Scientist_and_Engineers_bring_their_special_skills_and_enthusiasm_to_STEM_Night_at_Fallston_Middle_School_%286883034772%29.jpg/1280px-RDECOM_Scientist_and_Engineers_bring_their_special_skills_and_enthusiasm_to_STEM_Night_at_Fallston_Middle_School_%286883034772%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:RDECOM_Scientist_and_Engineers_bring_their_special_skills_and_enthusiasm_to_STEM_Night_at_Fallston_Middle_School_(6883034772).jpg
+  - Fallston Middle School in Harford County, Maryland was the site for future scientists and engineers to gather for a night of experiments and presentations. RDECOM personnel captivated the students and their parents with their variety of interactive experiments. RDECOM professionals that volunteered 
+- **File:Friedrich Miescher.jpg** · Public domain · unknown · 788×1078
+  - src: https://upload.wikimedia.org/wikipedia/commons/b/bc/Friedrich_Miescher.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Friedrich_Miescher.jpg
+  - Friedrich Miescher (scientist)
+- **File:UBBasel Portr BS Miescher F 1811-1a.jpg** · Public domain · Unknown authorUnknown author · [18--] · 2180×2851
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/UBBasel_Portr_BS_Miescher_F_1811-1a.jpg/1280px-UBBasel_Portr_BS_Miescher_F_1811-1a.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBBasel_Portr_BS_Miescher_F_1811-1a.jpg
+  - Portrait of Friedrich Miescher (1811-1887), photo
+- **File:UBBasel Portr BS Miescher F 1811-4.jpg** · Public domain · Otto Pfenninger (1855-1929), St. Gallen · 1881 · 1524×2528
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/UBBasel_Portr_BS_Miescher_F_1811-4.jpg/1280px-UBBasel_Portr_BS_Miescher_F_1811-4.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBBasel_Portr_BS_Miescher_F_1811-4.jpg
+  - Portrait of Friedrich Miescher (1811-1887), photo
+- **File:Johann Friedrich Miescher. Photograph. Wellcome V0026860.jpg** · CC BY 4.0 · unknown · 2290×3045
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Johann_Friedrich_Miescher._Photograph._Wellcome_V0026860.jpg/1280px-Johann_Friedrich_Miescher._Photograph._Wellcome_V0026860.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Johann_Friedrich_Miescher._Photograph._Wellcome_V0026860.jpg
+  - Johann Friedrich Miescher. Photograph. Iconographic Collections Keywords: portrait photographs
+- **File:Friedrich Miescher-His, 1811-1887, Friedhof Wolfgottesacker, Basel.jpg** · CC BY-SA 4.0 · EinDao · 2017-09-04 · 1050×1400
+  - src: https://upload.wikimedia.org/wikipedia/commons/c/cf/Friedrich_Miescher-His%2C_1811-1887%2C_Friedhof_Wolfgottesacker%2C_Basel.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Friedrich_Miescher-His,_1811-1887,_Friedhof_Wolfgottesacker,_Basel.jpg
+  - Familiengrab auf dem Friedhof Wolfgottesacker, Basel
+- **File:Mary Anna Miescher-Rüsch (1856-1946), Mary A. Miescher (1885–1970) Grab, Wolfgottesacker, Basel.jpg** · CC BY-SA 4.0 · EinDao · 2022-03-11 · 2600×1950
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Mary_Anna_Miescher-R%C3%BCsch_%281856-1946%29%2C_Mary_A._Miescher_%281885%E2%80%931970%29_Grab%2C_Wolfgottesacker%2C_Basel.jpg/1280px-Mary_Anna_Miescher-R%C3%BCsch_%281856-1946%29%2C_Mary_A._Miescher_%281885%E2%80%931970%29_Grab%2C_Wolfgottesacker%2C_Basel.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Mary_Anna_Miescher-R%C3%BCsch_(1856-1946),_Mary_A._Miescher_(1885%E2%80%931970)_Grab,_Wolfgottesacker,_Basel.jpg
+  - Mary Anna Miescher-Rüsch (* 19. März 1856; † 2. Februar 1946), Mary A. Miescher (* April 1885; † 2. November 1970) Grab auf dem olfgottesacker in Basel
+- **File:Ochsenmauer Tübingen Friedrich-Miescher-Straße.jpg** · CC BY-SA 4.0 · Qwave · 2022-02-15 · 2048×1152
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ochsenmauer_T%C3%BCbingen_Friedrich-Miescher-Stra%C3%9Fe.jpg/1280px-Ochsenmauer_T%C3%BCbingen_Friedrich-Miescher-Stra%C3%9Fe.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Ochsenmauer_T%C3%BCbingen_Friedrich-Miescher-Stra%C3%9Fe.jpg
+  - Tübingen. Die Ochsenmauer in der Friedrich-Miescher-Straße wurde 1960 vom Bildhauer Emil Jo Homolka für die Bundesanstalt für Viruskrankheiten der Tiere geschaffen, die dort bis 2011 ansässig war. Das monolithisch gegossene und freistehende Betonrelief hat eine Länge von 23 Metern. An der Südseite e
+- **File:Aussicht an der Friedrich-Miescher-Straße Tübingen 01.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:21:40 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aussicht_an_der_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen_01.jpg/1280px-Aussicht_an_der_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen_01.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Aussicht_an_der_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen_01.jpg
+  - Aussicht an der Friedrich-Miescher-Straße Tübingen
+- **File:Parkhaus Friedrich-Miescher-Straße 5 Tübingen 05.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:59:27 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_05.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_05.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_05.jpg
+  - Parkhaus Friedrich-Miescher-Straße 5 Tübingen
+- **File:Parkhaus Friedrich-Miescher-Straße 5 Tübingen 04.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:58:17 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_04.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_04.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_04.jpg
+  - Parkhaus Friedrich-Miescher-Straße 5 Tübingen
+- **File:UBBasel Portr BS Miescher F 1811-6.jpg** · Public domain · Höflinger, Basel · [zwischen 1867 und 1887?] · 1423×2319
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/UBBasel_Portr_BS_Miescher_F_1811-6.jpg/1280px-UBBasel_Portr_BS_Miescher_F_1811-6.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBBasel_Portr_BS_Miescher_F_1811-6.jpg
+  - Portrait of Friedrich Miescher (1811-1887), photo
+- **File:Parkhaus Friedrich-Miescher-Straße 5 Tübingen 01.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:18:07 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_01.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_01.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_01.jpg
+  - Parkhaus Friedrich-Miescher-Straße 5 Tübingen
+- **File:Schloss Chemisches Laboratorium 1879.jpg** · Public domain · Paul Sinner · 1879 · 1521×1551
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Schloss_Chemisches_Laboratorium_1879.jpg/1280px-Schloss_Chemisches_Laboratorium_1879.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Schloss_Chemisches_Laboratorium_1879.jpg
+  - Friedrich Miescher's lab. Picture of the laboratory where Miescher isolated nuclein. The lab, a part of the University of Tübingen, was run by Felix Hoppe-Seyler, and located in the vaults of an old castle.
+- **File:Parkhaus Friedrich-Miescher-Straße 2025.jpg** · CC BY-SA 4.0 · Qwave · 2025-09-06 17:48:24 · 4800×3600
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_2025.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_2025.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_2025.jpg
+  - Das Parkhaus Friedrich-Miescher-Straße in Tübingen
+- **File:UBH Portr BS Miescher F 1844 1.jpg** · Public domain · J. Höflinger &amp; Sohn · [zwischen 1875 und 1895] · 2785×5729
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/UBH_Portr_BS_Miescher_F_1844_1.jpg/1280px-UBH_Portr_BS_Miescher_F_1844_1.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBH_Portr_BS_Miescher_F_1844_1.jpg
+  - Fotografie : schwarz/weiss
+- **File:Wasserrückhaltebecken an der Friedrich-Miescher-Straße Tübingen 01.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:21:28 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Wasserr%C3%BCckhaltebecken_an_der_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen_01.jpg/1280px-Wasserr%C3%BCckhaltebecken_an_der_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen_01.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Wasserr%C3%BCckhaltebecken_an_der_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen_01.jpg
+  - Wasserrückhaltebecken an der Friedrich-Miescher-Straße Tübingen
+- **File:Parkhaus Friedrich-Miescher-Straße 5 Tübingen 02.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:18:41 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_02.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_02.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_02.jpg
+  - Parkhaus Friedrich-Miescher-Straße 5 Tübingen, Friseursalon Paul-Ehrlich-Straße 30.
+- **File:UBH Portr BS Miescher F 1844 2.jpg** · Public domain · J. Höflinger · 1878date QS:P571,+1878-00-00T00:00:00Z/9 · 1938×3988
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/UBH_Portr_BS_Miescher_F_1844_2.jpg/1280px-UBH_Portr_BS_Miescher_F_1844_2.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBH_Portr_BS_Miescher_F_1844_2.jpg
+  - Fotografie : schwarz/weiss
+- **File:UBH Portr BS Miescher F 1844 4.jpg** · Public domain · J. Höflinger &amp; Sohn · [zwischen 1875 und 1895] · 3119×2533
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/UBH_Portr_BS_Miescher_F_1844_4.jpg/1280px-UBH_Portr_BS_Miescher_F_1844_4.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBH_Portr_BS_Miescher_F_1844_4.jpg
+  - Fotografie : schwarz/weiss
+- **File:Parkhaus Friedrich-Miescher-Straße 5 Tübingen 03.jpg** · CC BY-SA 4.0 · Giftzwerg 88 · 2025-12-20 17:19:12 · 6000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_03.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_03.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_5_T%C3%BCbingen_03.jpg
+  - Parkhaus Friedrich-Miescher-Straße 5 Tübingen
+- **File:Parkhaus Friedrich-Miescher-Straße Tübingen.jpg** · CC BY-SA 4.0 · Qwave · 2022-02-21 · 4032×3024
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_T%C3%BCbingen.jpg
+  - Tübingen. Das Parkhaus Friedrich-Miescher-Straße 5. Links die Ochsenmauer.
+- **File:Parkhaus Friedrich-Miescher-Straße oberstes Parkdeck.jpg** · CC BY-SA 4.0 · Qwave · 2025-09-06 17:46:09 · 5712×4284
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_oberstes_Parkdeck.jpg/1280px-Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_oberstes_Parkdeck.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Parkhaus_Friedrich-Miescher-Stra%C3%9Fe_oberstes_Parkdeck.jpg
+  - Das oberste Parkdeck im Parkhaus Friedrich-Miescher-Straße in Tübingen
+- **File:UBH Portr BS Miescher F 1844 3.jpg** · Public domain · J. Jungmann · 1872date QS:P571,+1872-00-00T00:00:00Z/9 · 3092×2554
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/UBH_Portr_BS_Miescher_F_1844_3.jpg/1280px-UBH_Portr_BS_Miescher_F_1844_3.jpg
+  - page: https://commons.wikimedia.org/wiki/File:UBH_Portr_BS_Miescher_F_1844_3.jpg
+  - Fotografie : schwarz/weiss
+- **File:Ernst Friedrich Miescher (1905–1990) Physiker. Familiengrab auf dem Friedhof Wolfgottesacker, Basel.jpg** · CC BY-SA 4.0 · EinDao · 2019-11-26 · 1299×2151
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ernst_Friedrich_Miescher_%281905%E2%80%931990%29_Physiker._Familiengrab_auf_dem_Friedhof_Wolfgottesacker%2C_Basel.jpg/1280px-Ernst_Friedrich_Miescher_%281905%E2%80%931990%29_Physiker._Familiengrab_auf_dem_Friedhof_Wolfgottesacker%2C_Basel.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Ernst_Friedrich_Miescher_(1905%E2%80%931990)_Physiker._Familiengrab_auf_dem_Friedhof_Wolfgottesacker,_Basel.jpg
+  - Ernst Friedrich Miescher (1905–1990) Physiker. Familiengrab auf dem Friedhof Wolfgottesacker, Basel. 1941 wurde er zum ausserordentlichen Professor für Experimentalphysik, insbesondere der Spektroskopie, an der Universität Basel ernannt.
+- **File:Picture 1869.gif** · Public domain · Unknown authorUnknown author · circa 1869date QS:P,+1869-00-00T00:00:00Z/9,P1480,Q5727902 · 125×145
+  - src: https://upload.wikimedia.org/wikipedia/commons/2/2f/Picture_1869.gif
+  - page: https://commons.wikimedia.org/wiki/File:Picture_1869.gif
+  - Friedrich Miescher
+- **File:Oswald T. Avery portrait 1937.jpg** · Public domain · Unknown authorUnknown author · 1937 · 1800×2527
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Oswald_T._Avery_portrait_1937.jpg/1280px-Oswald_T._Avery_portrait_1937.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Oswald_T._Avery_portrait_1937.jpg
+  - Portrait of Oswald T. Avery, cropped from a Rockefeller Institute for Medical Research staff photograph.
+- **File:Averyversuch.jpg** · Public domain · Thomasione · 2010-02-15 · 1430×992
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Averyversuch.jpg/1280px-Averyversuch.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Averyversuch.jpg
+  - Versuch Averys zum "Transformierenden Prinzip"
+- **File:History of Biology.jpg** · CC BY-SA 3.0 · Golgiboy · 2010-09-07 · 1600×1248
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/History_of_Biology.jpg/1280px-History_of_Biology.jpg
+  - page: https://commons.wikimedia.org/wiki/File:History_of_Biology.jpg
+  - This is the game art for the educational game History of Biology.
+- **File:Oswald the Lucky Rabbit The Quail Hunt (1935).webm** · Public domain · Universal Pictures · 1935-09-23 · 484×360
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Oswald_the_Lucky_Rabbit_The_Quail_Hunt_%281935%29.webm/330px--Oswald_the_Lucky_Rabbit_The_Quail_Hunt_%281935%29.webm.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Oswald_the_Lucky_Rabbit_The_Quail_Hunt_(1935).webm
+  - The Quail Hunt is a short film from the Lucky Rabbit Oswald series, produced by Robert Winkler Productions and released on September 23, 1935. It is the second short film directed by the great Tex Avery.
+- **File:Elmer The Great Dane.webp** · CC BY 4.0 · Walter Lantz Wiki · 17 January 2022 · 702×537
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/4c/Elmer_The_Great_Dane.webp
+  - page: https://commons.wikimedia.org/wiki/File:Elmer_The_Great_Dane.webp
+  - Elmer is a Great Dane. He is the Oswald the Lucky Rabbit's pet
+- **File:Wakefield Cathedral, window 10.jpg** · CC BY-SA 4.0 · Richard Avery · 2022-07-25 12:51:51 · 3000×4000
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Wakefield_Cathedral%2C_window_10.jpg/1280px-Wakefield_Cathedral%2C_window_10.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Wakefield_Cathedral,_window_10.jpg
+  - Showing St Bede, St Cuthbert, St Oswald and St Chade. Designed by Kempe 1898
+- **File:Du Nouy signature.jpg** · Public domain · Pierre Lecomte du Noüy · 1928-03-22 · 719×157
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/3d/Du_Nouy_signature.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Du_Nouy_signature.jpg
+  - Signature of Pierre Lecomte du Noüy, the biophysicist
+- **File:Bucuresti, Romania, Pisica dormind, Calea Victoriei.JPG** · CC BY-SA 3.0 · Britchi Mirela · 2013-09-12 14:49:04 · 3648×2736
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Bucuresti%2C_Romania%2C_Pisica_dormind%2C_Calea_Victoriei.JPG/1280px-Bucuresti%2C_Romania%2C_Pisica_dormind%2C_Calea_Victoriei.JPG
+  - page: https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania,_Pisica_dormind,_Calea_Victoriei.JPG
+  - Bucuresti, Romania, Pisica dormind, Calea Victoriei. Aceasta pisica este o pisica CALICO VERITABILA, adica are trei culori in blanita. Sunt rare.
+- **File:Gat callicó.jpg** · CC BY 2.0 · https://www.flickr.com/people/28481088@N00 tanakawho · Date=February 05, 2007 at 13:53 · 800×934
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/ac/Gat_callic%C3%B3.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Gat_callic%C3%B3.jpg
+  - A pair of female cats showing diferent fur pattern colors due to inactivation on X chromosome during embrional development.
+- **File:20251019 Replica DNA double helix model Berlin 03.jpg** · CC BY 4.0 · Flocci Nivis · Taken on 19 October 2025, 15:02:19 · 4016×4016
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/20251019_Replica_DNA_double_helix_model_Berlin_03.jpg/1280px-20251019_Replica_DNA_double_helix_model_Berlin_03.jpg
+  - page: https://commons.wikimedia.org/wiki/File:20251019_Replica_DNA_double_helix_model_Berlin_03.jpg
+  - Replica of the DNA double helix model by Watson and Crick in the Berlin Museum of Medical History, Germany.
+- **File:20251019 Replica DNA double helix model Berlin 01.jpg** · CC BY 4.0 · Flocci Nivis · Taken on 19 October 2025, 15:03:17 · 6016×4016
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/20251019_Replica_DNA_double_helix_model_Berlin_01.jpg/1280px-20251019_Replica_DNA_double_helix_model_Berlin_01.jpg
+  - page: https://commons.wikimedia.org/wiki/File:20251019_Replica_DNA_double_helix_model_Berlin_01.jpg
+  - Adenine of the Replica of the DNA double helix model by Watson and Crick in the Berlin Museum of Medical History, Germany.
+- **File:20251019 Replica DNA double helix model Berlin 04.jpg** · CC BY 4.0 · Flocci Nivis · Taken on 19 October 2025, 15:03:01 · 6016×4016
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/20251019_Replica_DNA_double_helix_model_Berlin_04.jpg/1280px-20251019_Replica_DNA_double_helix_model_Berlin_04.jpg
+  - page: https://commons.wikimedia.org/wiki/File:20251019_Replica_DNA_double_helix_model_Berlin_04.jpg
+  - Guanine in the Replica of the DNA double helix model by Watson and Crick in the Berlin Museum of Medical History, Germany.
+- **File:20251019 Replica DNA double helix model Berlin 02.jpg** · CC BY 4.0 · Flocci Nivis · Taken on 19 October 2025, 15:08:02 · 5958×3972
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/20251019_Replica_DNA_double_helix_model_Berlin_02.jpg/1280px-20251019_Replica_DNA_double_helix_model_Berlin_02.jpg
+  - page: https://commons.wikimedia.org/wiki/File:20251019_Replica_DNA_double_helix_model_Berlin_02.jpg
+  - Deoxyribose in the Replica of the DNA double helix model by Watson and Crick in the Berlin Museum of Medical History, Germany.
+- **File:Template from Crick and Watson’s DNA molecular model, 1953. (9660573227).jpg** · CC BY-SA 2.0 · Science Museum, London / Science and Society Picture Library · 2013-08-28 15:10 · 1250×971
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a6/Template_from_Crick_and_Watson%E2%80%99s_DNA_molecular_model%2C_1953._%289660573227%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Template_from_Crick_and_Watson%E2%80%99s_DNA_molecular_model,_1953._(9660573227).jpg
+  - This aluminium template representing the base thymine (T) is part of Crick and Watson’s model of DNA. Bases are those groups of atoms that make up DNA's twin strands. The bases in each of the strands combines to spell out the organism's genetic code. This structure of DNA was discovered by Francis C
+- **File:Letter from Wilkins to Crick regarding their work on DNA Wellcome L0073504.jpg** · CC BY 4.0 · unknown · 2627×3637
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Letter_from_Wilkins_to_Crick_regarding_their_work_on_DNA_Wellcome_L0073504.jpg/1280px-Letter_from_Wilkins_to_Crick_regarding_their_work_on_DNA_Wellcome_L0073504.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Letter_from_Wilkins_to_Crick_regarding_their_work_on_DNA_Wellcome_L0073504.jpg
+  - Page 3 of a letter from Maurice Wilkins to Francis Crick regarding his 'model building'. Wilkins was the 'third man' behind the discovery of the double-helix structure of DNA with Crick and Jim Watson that was published in Nature in April 1953. Wilkins and Rosalind Franklin's work on x-ray crystallo
+- **File:DNA, strands locked (plectonemic).jpg** · CC BY-SA 3.0 · Notahelix · 2012-03-27 · 3175×989
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/DNA%2C_strands_locked_%28plectonemic%29.jpg/1280px-DNA%2C_strands_locked_%28plectonemic%29.jpg
+  - page: https://commons.wikimedia.org/wiki/File:DNA,_strands_locked_(plectonemic).jpg
+  - Photograph of a simple rope model of a circular plectonemic DNA duplex. "Plectonemic" means a duplex whose strands are twisted together, and thus topologically locked together. The best-known example is the "traditional" Watson-Crick double-helix. In such a model, the strands cannot be separated wit
+- **File:Nucleic acids electrochemical biosensor general principles.webp** · CC BY 4.0 · Santhanam, Manikandan, Itay Algov, and Lital Alfonta · 2020-08-18 · 1888×834
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Nucleic_acids_electrochemical_biosensor_general_principles.webp/1280px-Nucleic_acids_electrochemical_biosensor_general_principles.webp
+  - page: https://commons.wikimedia.org/wiki/File:Nucleic_acids_electrochemical_biosensor_general_principles.webp
+  - (A) A sandwich type genosensor model: A capture probe is employed to capture the target (DNA/RNA) from the solution phase to the electrode surface. The electrode bound target DNA is quantified indirectly by binding the reporter probes conjugated with a redox signal amplifier. The redox signal amplif
+- **File:Wien09 Wasagasse010 2017-03-04 GuentherZ 0498 GD Erwin Chargaff.jpg** · CC BY 3.0 · GuentherZ · 2017-03-04 10:09:39 · 5875×2115
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Wien09_Wasagasse010_2017-03-04_GuentherZ_0498_GD_Erwin_Chargaff.jpg/1280px-Wien09_Wasagasse010_2017-03-04_GuentherZ_0498_GD_Erwin_Chargaff.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Wien09_Wasagasse010_2017-03-04_GuentherZ_0498_GD_Erwin_Chargaff.jpg
+  - Gedenktafel für NS-Opfer (Wien, Wasagasse 10, Erwin Chargaff)
+- **File:Chargaff results on salmon DNA.png** · Public domain · Erwin Chargaff et al. · 1951 · 459×348
+  - src: https://upload.wikimedia.org/wikipedia/commons/3/39/Chargaff_results_on_salmon_DNA.png
+  - page: https://commons.wikimedia.org/wiki/File:Chargaff_results_on_salmon_DNA.png
+  - Chargaff results on salmon DNA
+- **File:Dedication to Plant Cell Biology Second Edition, Elsevier 2019.jpg** · CC BY-SA 4.0 · BinaryPhoton · 2019-08-12 10:50:15 · 4383×6284
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dedication_to_Plant_Cell_Biology_Second_Edition%2C_Elsevier_2019.jpg/1280px-Dedication_to_Plant_Cell_Biology_Second_Edition%2C_Elsevier_2019.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Dedication_to_Plant_Cell_Biology_Second_Edition,_Elsevier_2019.jpg
+  - Erwin Chargaff was a pioneer in the study of DNA
+- **File:Erwin Chargaff signature.svg** · Public domain · Erwin Chargaff · Unknown date · 615×172
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Erwin_Chargaff_signature.svg/1280px-Erwin_Chargaff_signature.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Erwin_Chargaff_signature.svg
+  - Signature of Erwin Chargaff (1905–2002), Austro-Hungarian-American biochemist
+- **File:Erwin Chargaff signature.png** · Public domain · Erwin Chargaff · Unknown date · 875×244
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/ad/Erwin_Chargaff_signature.png
+  - page: https://commons.wikimedia.org/wiki/File:Erwin_Chargaff_signature.png
+  - Signature of Erwin Chargaff (1905–2002), Austro-Hungarian-American biochemist
+- **File:Overview Hershey Chase Experiment.PNG** · CC0 · Angelahartsock · 2015-07-22 · 350×444
+  - src: https://upload.wikimedia.org/wikipedia/commons/8/82/Overview_Hershey_Chase_Experiment.PNG
+  - page: https://commons.wikimedia.org/wiki/File:Overview_Hershey_Chase_Experiment.PNG
+  - General overview of the premise and steps in the Hershey-Chase experiment for a non-scientist.
+- **File:HersheyChase.png** · CC BY-SA 3.0 · Alejandro Porto · 2014-03-15 19:52:57 · 2840×1824
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/HersheyChase.png/1280px-HersheyChase.png
+  - page: https://commons.wikimedia.org/wiki/File:HersheyChase.png
+  - El experimento de Hershey y Chase
+- **File:Question Posed by Hershey-Chase.PNG** · CC0 · Angelahartsock · 2015-07-22 · 350×453
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/a4/Question_Posed_by_Hershey-Chase.PNG
+  - page: https://commons.wikimedia.org/wiki/File:Question_Posed_by_Hershey-Chase.PNG
+  - Figure representing the question posed by the Hershey-Chase experiment.
+- **File:HersheyChaseEx.png** · CC BY-SA 2.5 · The original uploader was Adenosine at English Wikipedia. · 19 April 2005 (original upload date) · 1024×505
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/53/HersheyChaseEx.png
+  - page: https://commons.wikimedia.org/wiki/File:HersheyChaseEx.png
+  - Overview of the experiment performed by Hershey &amp; Chase, showing DNA to be the genetic material for phage
+- **File:Esperimento Hershey-Chase3.png** · CC BY-SA 3.0 · Amicobromo · 302×247
+  - src: https://upload.wikimedia.org/wikipedia/commons/f/f7/Esperimento_Hershey-Chase3.png
+  - page: https://commons.wikimedia.org/wiki/File:Esperimento_Hershey-Chase3.png
+  - Esperimento Hershey-Chase 3/3
+- **File:Esperimento Hershey-Chase1.png** · CC BY-SA 3.0 · Amicobromo · 514×203
+  - src: https://upload.wikimedia.org/wikipedia/commons/1/12/Esperimento_Hershey-Chase1.png
+  - page: https://commons.wikimedia.org/wiki/File:Esperimento_Hershey-Chase1.png
+  - Esperimento Hershey-Chase 1/3
+- **File:Esperimento Hershey-Chase2.png** · CC BY-SA 3.0 · Amicobromo · 286×256
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9b/Esperimento_Hershey-Chase2.png
+  - page: https://commons.wikimedia.org/wiki/File:Esperimento_Hershey-Chase2.png
+  - Esperimento Hershey-Chase 2/3
+- **File:OSC Microbio 10 01 HersheyChase.jpg** · CC BY 4.0 · CNX OpenStax · 2016-11-11 · 1300×767
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/OSC_Microbio_10_01_HersheyChase.jpg/1280px-OSC_Microbio_10_01_HersheyChase.jpg
+  - page: https://commons.wikimedia.org/wiki/File:OSC_Microbio_10_01_HersheyChase.jpg
+  - Name: Microbiology ID: e42bd376-624b-4c0f-972f-e0c57998e765@4.4 Language: English Summary: Subjects: Science and Technology Keywords: Print Style: License: Creative Commons Attribution License (by 4.0) Authors: OpenStax Microbiology Copyright Holders: OpenStax Microbiology Publishers: OpenStax Micro
+- **File:Hersheychaseexperiment.gif** · Public domain · Thomasione · 09.01.10 · 1024×768
+  - src: https://upload.wikimedia.org/wikipedia/commons/4/4f/Hersheychaseexperiment.gif
+  - page: https://commons.wikimedia.org/wiki/File:Hersheychaseexperiment.gif
+  - Hershey-Chase-Experiment
+- **File:Generic Phage Structure.PNG** · CC0 · Angelahartsock · 2015-07-22 · 350×224
+  - src: https://upload.wikimedia.org/wikipedia/commons/a/af/Generic_Phage_Structure.PNG
+  - page: https://commons.wikimedia.org/wiki/File:Generic_Phage_Structure.PNG
+  - Representation of the structure of the T2 Phage used in the Hershey-Chase experiment.
+- **File:ハーシーとチェイスの実験.svg** · CC0 · すじにくシチュー · 2015-01-08 · 1400×950
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E3%83%8F%E3%83%BC%E3%82%B7%E3%83%BC%E3%81%A8%E3%83%81%E3%82%A7%E3%82%A4%E3%82%B9%E3%81%AE%E5%AE%9F%E9%A8%93.svg/1280px-%E3%83%8F%E3%83%BC%E3%82%B7%E3%83%BC%E3%81%A8%E3%83%81%E3%82%A7%E3%82%A4%E3%82%B9%E3%81%AE%E5%AE%9F%E9%A8%93.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:%E3%83%8F%E3%83%BC%E3%82%B7%E3%83%BC%E3%81%A8%E3%83%81%E3%82%A7%E3%82%A4%E3%82%B9%E3%81%AE%E5%AE%9F%E9%A8%93.svg
+  - Hershey–Chase experiment
+- **File:03 dna.jpg** · CC BY-SA 4.0 · SouvikMondalBT · 2021-10-13 · 2234×3300
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/03_dna.jpg/1280px-03_dna.jpg
+  - page: https://commons.wikimedia.org/wiki/File:03_dna.jpg
+  - Hershey and Chase experiment using E. coli and Bacteriophage (Fig. 2)
+- **File:Scientist Alfred Hershey and Martha Chase.jpg** · CC BY-SA 4.0 · Rohit Kumar Sengupta · 2021-07-03 · 1368×1088
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Scientist_Alfred_Hershey_and_Martha_Chase.jpg/1280px-Scientist_Alfred_Hershey_and_Martha_Chase.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Scientist_Alfred_Hershey_and_Martha_Chase.jpg
+  - Scientist Alfred Hershey and Martha Chase
+- **File:Alfred Hershey.jpg** · Public domain · Unknown authorUnknown author · 2011-06-25 · 230×335
+  - src: https://upload.wikimedia.org/wikipedia/commons/9/9f/Alfred_Hershey.jpg
+  - page: https://commons.wikimedia.org/wiki/File:Alfred_Hershey.jpg
+  - Alfred Hershey
+- **File:Tevenphage-es.svg** · CC BY-SA 2.5 · Tevenphage.svg: Adenosine (original); en:User:Pbroks13 (redraw) derivative work: Angelito7 (talk) · 2011-11-14 22:55 · 1498×1070
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Tevenphage-es.svg/1280px-Tevenphage-es.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Tevenphage-es.svg
+  - Diagram of a typical tailed bacteriophage structure in Spanish.
+- **File:Tevenphage.svg** · CC BY-SA 2.5 · Adenosine (original); en:User:Pbroks13 (redraw) · 2008-05-28 · 1498×1070
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/1280px-Tevenphage.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Tevenphage.svg
+  - SVG redraw of Image:Tevenphage.png
+- **File:DNA Model Crick-Watson.jpg** · Public domain · User:Alkivar · 960×1280
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/50/DNA_Model_Crick-Watson.jpg
+  - page: https://commons.wikimedia.org/wiki/File:DNA_Model_Crick-Watson.jpg
+  - DNA model built by Crick and Watson in 1953, on display in the National Science Museum of London.
+- **File:DNA Diagram.png** · CC BY 4.0 · Christinelmiller · 2019-06-21 · 336×192
+  - src: https://upload.wikimedia.org/wikipedia/commons/d/d4/DNA_Diagram.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_Diagram.png
+  - Diagram shows a short section of DNA. Includes a key labeling all phosphate groups. deoxyriboses, and nitrogenous bases.
+- **File:AT DNA base pair uk.svg** · CC0 · Isilanes · 2011-09-30 · 671×360
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/AT_DNA_base_pair_uk.svg/1280px-AT_DNA_base_pair_uk.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:AT_DNA_base_pair_uk.svg
+  - Нуклеотидна пара Аденін/Тимін
+- **File:GC DNA base pair uk.svg** · CC0 · Isilanes · 2011-09-30 · 638×401
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/GC_DNA_base_pair_uk.svg/1280px-GC_DNA_base_pair_uk.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:GC_DNA_base_pair_uk.svg
+  - Нуклеотидна пара Цитозин/Гуанін
+- **File:DNA base pairing.svg** · CC BY-SA 4.0 · Biochemlife · 2018-09-20 · 512×512
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/DNA_base_pairing.svg/1280px-DNA_base_pairing.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_base_pairing.svg
+  - infographic explaining base pairing in DNA
+- **File:GC-DNA-base-pair-3D-vdW-es.png** · CC BY 4.0 · Hoa112008 · 2026-06-09 · 2016×832
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/GC-DNA-base-pair-3D-vdW-es.png/1280px-GC-DNA-base-pair-3D-vdW-es.png
+  - page: https://commons.wikimedia.org/wiki/File:GC-DNA-base-pair-3D-vdW-es.png
+  - GC-ADN-pares de bases-3D
+- **File:DNA base-pair diagram.jpg** · Public domain · Darryl Leja for the National Human Genome Research Institute · 2022-03-29 14:46:06 · 1920×1080
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/DNA_base-pair_diagram.jpg/1280px-DNA_base-pair_diagram.jpg
+  - page: https://commons.wikimedia.org/wiki/File:DNA_base-pair_diagram.jpg
+  - A diagram showing the structure of DNA base-pairs
+- **File:AT-DNA-base-pair-3D-vdW-es.png** · CC BY 4.0 · Hoa112008 · 2026-06-09 · 1292×780
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/AT-DNA-base-pair-3D-vdW-es.png/1280px-AT-DNA-base-pair-3D-vdW-es.png
+  - page: https://commons.wikimedia.org/wiki/File:AT-DNA-base-pair-3D-vdW-es.png
+  - AT-ADN-pares de bases-3D
+- **File:DNA Structure+Key+Labelled.pn NoBB nl.svg** · CC BY-SA 3.0 · Zephyris, translated by TheBartgry · 2022-12-05 · 640×600
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/DNA_Structure%2BKey%2BLabelled.pn_NoBB_nl.svg/1280px-DNA_Structure%2BKey%2BLabelled.pn_NoBB_nl.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_Structure+Key+Labelled.pn_NoBB_nl.svg
+  - De chemische opbouw en belangrijkste structurele kenmerken van het DNA, met de vier nucleobasen thymine, adenine, cytosine en guanine.
+- **File:DNA chemical structure pt.svg** · CC BY-SA 3.0 · Lijealso · 2008-10-26 · 1500×1750
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/DNA_chemical_structure_pt.svg/1280px-DNA_chemical_structure_pt.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_chemical_structure_pt.svg
+  - DNA chemical structure
+- **File:DNA Structure+Key+Labelled.pn NoBB cy.svg** · CC BY-SA 4.0 · Llywelyn2000 · 2017-04-25 · 2883×2813
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/DNA_Structure%2BKey%2BLabelled.pn_NoBB_cy.svg/1280px-DNA_Structure%2BKey%2BLabelled.pn_NoBB_cy.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_Structure+Key+Labelled.pn_NoBB_cy.svg
+  - The structure of DNA showing with detail showing the structure of the four bases, adenine, cytosine, guanine and thymine, and the location of the major and minor groove. Based on: File:DNA Structure+Key+Labelled.pn NoBB.png by Zephyris
+- **File:Dipam-Y DNA base pair.gif** · CC BY-SA 3.0 · Squidonius (talk) · 216×170
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/54/Dipam-Y_DNA_base_pair.gif
+  - page: https://commons.wikimedia.org/wiki/File:Dipam-Y_DNA_base_pair.gif
+  - TEMP DIAGRAM!
+- **File:DNA Structure+Key+Labelled.pn NoBB pl.svg** · CC BY-SA 3.0 · File:DNA Structure+Key+Labelled.pn NoBB nl.svg: Zephyris, translated by TheBartgry derivative work: Michał Ski · 2022-12-05 · 640×600
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/DNA_Structure%2BKey%2BLabelled.pn_NoBB_pl.svg/1280px-DNA_Structure%2BKey%2BLabelled.pn_NoBB_pl.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_Structure+Key+Labelled.pn_NoBB_pl.svg
+  - De chemische opbouw en belangrijkste structurele kenmerken van het DNA, met de vier nucleobasen thymine, adenine, cytosine en guanine.
+- **File:Difference DNA RNA-DE.svg** · CC BY-SA 3.0 · Sponk (talk) · 2010-03-22 · 1371×1097
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Difference_DNA_RNA-DE.svg/1280px-Difference_DNA_RNA-DE.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-DE.svg
+  - Comparison of a single-stranded RNA and a double-stranded DNA with their corresponding nucleobases
+- **File:DNA chemical structure hy.svg** · CC0 · Madprime (talk · contribs) · 2014-12-01 · 1500×1750
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/DNA_chemical_structure_hy.svg/1280px-DNA_chemical_structure_hy.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_chemical_structure_hy.svg
+  - Chemical structure of DNA, with colored label identifying the four bases as well as the phosphate and deoxyribose components of the backbone. (in Armenian)
+- **File:DNA-labels.png** · CC BY-SA 3.0 · unknown · 2048×1969
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/DNA-labels.png/1280px-DNA-labels.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA-labels.png
+  - 
+- **File:DNA chemical structure gl.svg** · CC0 · DNA chemical structure.svg: Madprime derivative work:Miguelferig · 2014-10-10 · 1500×1750
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/DNA_chemical_structure_gl.svg/1280px-DNA_chemical_structure_gl.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_chemical_structure_gl.svg
+  - DNA structure
+- **File:DNA structure formula virgin.svg** · Public domain · This SVG image was created by Medium69. Cette image SVG a été créée par Medium69. Please credit this : William Crochot · 2014-11-04 · 538×483
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/DNA_structure_formula_virgin.svg/1280px-DNA_structure_formula_virgin.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_structure_formula_virgin.svg
+  - This sketch shows a section of DNA with two base pairs (GC and AT) as a chemical structure formula. Bond lengths and angles are not representative.
+- **File:DNA structure formula numbered.svg** · Public domain · This SVG image was created by Medium69. Cette image SVG a été créée par Medium69. Please credit this : William Crochot · 2014-11-04 · 538×483
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/DNA_structure_formula_numbered.svg/1280px-DNA_structure_formula_numbered.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_structure_formula_numbered.svg
+  - This sketch shows a section of DNA with two base pairs (GC and AT) as a chemical structure formula. Bond lengths and angles are not representative.
+- **File:DNA structure formula-fr.svg** · Public domain · This SVG image was created by Medium69. Cette image SVG a été créée par Medium69. Please credit this : William Crochot · 2014-11-04 · 592×483
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/DNA_structure_formula-fr.svg/1280px-DNA_structure_formula-fr.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_structure_formula-fr.svg
+  - This sketch shows a section of DNA with two base pairs (GC and AT) as a chemical structure formula. Bond lengths and angles are not representative.
+- **File:DNA structure formula-de.svg** · Public domain · This SVG image was created by Medium69. Cette image SVG a été créée par Medium69. Please credit this : William Crochot · 2014-11-04 · 773×544
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/DNA_structure_formula-de.svg/1280px-DNA_structure_formula-de.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_structure_formula-de.svg
+  - This sketch shows a section of DNA with two base pairs (GC and AT) as a chemical structure formula. Bond lengths and angles are not representative.
+- **File:Viral DNA setup.svg** · CC0 · Vhyr Qhan · 2013-12-20 22:11:14 · 590×255
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Viral_DNA_setup.svg/1280px-Viral_DNA_setup.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Viral_DNA_setup.svg
+  - Some base pairs with serve a dual function with promoter and operator for either cl and cro proteins.
+- **File:DNA structure and bases.svg** · CC BY-SA 3.0 · MesserWoland · 08.11.2006 · 470×957
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/DNA_structure_and_bases.svg/1280px-DNA_structure_and_bases.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_structure_and_bases.svg
+  - The structure of DNA, based on Image:DNA-structure-and-bases.png: A. Adenine B. Thymine C. Guanine D. Cytosine 1. Sugar, Phosphate, Backbone 2. Base pair 3. Nitrogeous base
+- **File:HaeIII-methyltransferase-dna-pdb-1DCT.png** · CC BY-SA 3.0 · Jslipscomb · 2011-03-03 · 1000×1000
+  - src: https://upload.wikimedia.org/wikipedia/commons/5/5f/HaeIII-methyltransferase-dna-pdb-1DCT.png
+  - page: https://commons.wikimedia.org/wiki/File:HaeIII-methyltransferase-dna-pdb-1DCT.png
+  - The crystal structure of HaeIII methyltransferase convalently complexed to DNA: an extrahelical cytosine and rearranged base pairing. Reinisch, K.M., Chen, L., Verdine, G.L., Lipscomb, W.N
+- **File:DNA structure and bases FR.svg** · CC BY-SA 3.0 · derivative work: Dosto (talk) DNA_structure_and_bases_PL.svg: MesserWoland · 2008-12-01 19:12 · 972×953
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/DNA_structure_and_bases_FR.svg/1280px-DNA_structure_and_bases_FR.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:DNA_structure_and_bases_FR.svg
+  - The structure of DNA, based on Image:DNA-structure-and-bases.png La structure de l'ADN, basé sur Image:DNA-structure-and-bases.png
+- **File:Diagram showing a double helix of a chromosome CRUK 065-ta.svg** · CC BY-SA 4.0 · Translated and improved byInfo-farmer · 2018-09-09 · 300×387
+  - src: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Diagram_showing_a_double_helix_of_a_chromosome_CRUK_065-ta.svg/1280px-Diagram_showing_a_double_helix_of_a_chromosome_CRUK_065-ta.svg.png
+  - page: https://commons.wikimedia.org/wiki/File:Diagram_showing_a_double_helix_of_a_chromosome_CRUK_065-ta.svg
+  - மரபணுத்திரியில் (DNA) இரட்டிப்பாக உள்ள இரட்டைத்திருகுசுழலும், அதன் வேதியியற்கூறுகளும் காட்டப்பட்டுள்ளன.

@@ -1,0 +1,106 @@
+{
+ "title": "One number for spread",
+ "question": "How do you put a number on how spread out a set of values is?",
+ "hook": "Two groups can have the exact same average and still be nothing alike.",
+ "idea": "Variance averages how far values stray from their mean, squared, giving a single number for spread.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Two classes both average 70 on a test. In class A, everyone scored 70. In class B, half scored 50 and half scored 90. Which class has the larger variance?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Class A, since everyone matches the average",
+     "feedback": "Matching the average means no deviation, which gives zero variance."
+    },
+    {
+     "id": "b",
+     "label": "Class B, since its scores stray far from 70"
+    },
+    {
+     "id": "c",
+     "label": "They tie, since the averages are equal",
+     "feedback": "Equal averages say nothing about spread, which is what variance measures."
+    }
+   ],
+   "answer": "b",
+   "explain": "Variance measures how far values are spread from their average, and class B's scores sit well away from 70 while class A's never move.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to what it means.",
+   "pairs": [
+    [
+     "Variance",
+     "Expected value of the squared deviation from the mean"
+    ],
+    [
+     "Standard deviation",
+     "The square root of the variance"
+    ],
+    [
+     "Population variance",
+     "Computed when all possible observations are present"
+    ],
+    [
+     "Sample variance",
+     "Computed from only a subset, as an estimate"
+    ]
+   ],
+   "explain": "The definitions link up: variance is the base idea, the standard deviation is its square root, and population versus sample depends on how much data you hold.",
+   "cites": [
+    2,
+    3,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A set of heights is measured in meters.",
+    "Variance is the expected value of squared deviations from the mean.",
+    "So the variance is measured in the same units as the heights.",
+    "The standard deviation, the square root of the variance, is the more commonly reported measure."
+   ],
+   "wrong": 2,
+   "explain": "Unlike the standard deviation, the variance has units that differ from the variable, which is why the standard deviation is more commonly reported.",
+   "cites": [
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Two measurement errors are uncorrelated. One has variance 4, the other variance 5. What is the variance of their sum?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "9, the sum of the two variances"
+    },
+    {
+     "id": "b",
+     "label": "20, the product of the two",
+     "feedback": "It is tempting to multiply, but variances of uncorrelated variables add."
+    },
+    {
+     "id": "c",
+     "label": "4.5, the average of the two",
+     "feedback": "Averaging would shrink the spread, but adding uncorrelated errors makes room for both."
+    }
+   ],
+   "answer": "a",
+   "explain": "One advantage of variance is that, for uncorrelated random variables, the variance of a sum equals the sum of their variances.",
+   "cites": [
+    5
+   ]
+  }
+ ]
+}

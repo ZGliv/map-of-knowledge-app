@@ -1,0 +1,338 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration",
+ "name": "Optical aberration",
+ "summary": [
+  {
+   "text": "Optical aberration is the way a lens or mirror fails to reproduce an object faithfully, leaving the image blurred, distorted or fringed with color.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It happens because light from one point of an object does not meet at a single point, since simple paraxial theory is only an approximation and not because of flaws in the lens.",
+   "cites": [
+    4,
+    5,
+    11
+   ]
+  },
+  {
+   "text": "Aberrations are either monochromatic, caused by geometry, or chromatic, caused by dispersion, and makers of optical instruments must correct for them.",
+   "cites": [
+    7,
+    13,
+    14,
+    16
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Two classes",
+   "value": "Monochromatic and chromatic aberrations",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Chromatic cause",
+   "value": "Dispersion makes different wavelengths focus at different points",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "label": "Perfect lenses",
+   "value": "Even flawlessly made real lenses do not focus to a single point",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Defocus",
+   "value": "Usually not counted as an aberration, since moving the lens fixes it",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Piston and tilt",
+   "value": "Shift the focal point but still give a perfect image",
+   "cites": [
+    20,
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A lens is ground and polished with perfect precision, yet its photos are not perfectly sharp at the edges. What is the likeliest explanation?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The simple ideal theory of lenses is only approximately true"
+    },
+    {
+     "id": "b",
+     "label": "The glass must have tiny cracks that cannot be seen"
+    },
+    {
+     "id": "c",
+     "label": "The lens needs a thicker coating of polish"
+    },
+    {
+     "id": "d",
+     "label": "The photographer's eyes add blur to the picture"
+    }
+   ],
+   "answer": "a",
+   "explain": "Real lenses, even perfectly made, do not focus light to a single point, because paraxial theory is not a completely accurate model.",
+   "cites": [
+    5,
+    11
+   ],
+   "id": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration:q1"
+  },
+  {
+   "prompt": "A cheap magnifier shows a thin red and blue fringe around the edges of a black letter. What causes the fringe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The ink reflects red light and blue light separately"
+    },
+    {
+     "id": "b",
+     "label": "Different wavelengths focus at different points because of dispersion"
+    },
+    {
+     "id": "c",
+     "label": "The magnifier is not curved enough at its centre"
+    },
+    {
+     "id": "d",
+     "label": "The glass is held too far from the page"
+    }
+   ],
+   "answer": "b",
+   "explain": "Chromatic aberration is caused by dispersion, the variation of refractive index with wavelength, so colors come to focus at different points.",
+   "cites": [
+    2,
+    16,
+    17
+   ],
+   "id": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration:q2"
+  },
+  {
+   "prompt": "A scientist lights a test target with a laser of one single color. Which aberration type disappears from her results?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The kind caused by the lens geometry"
+    },
+    {
+     "id": "b",
+     "label": "The kind seen in both lenses and mirrors"
+    },
+    {
+     "id": "c",
+     "label": "The kind that depends on wavelength"
+    },
+    {
+     "id": "d",
+     "label": "Neither type, since both come from the glass"
+    }
+   ],
+   "answer": "c",
+   "explain": "Chromatic aberration depends on dispersion and does not appear with monochromatic light, while monochromatic aberrations remain.",
+   "cites": [
+    14,
+    15,
+    18
+   ],
+   "id": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration:q3"
+  },
+  {
+   "prompt": "A photo is blurry only because the sensor sits slightly too far from where the lens focuses, and nudging the lens fixes it. How is this usually classed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a chromatic aberration from the glass's dispersion"
+    },
+    {
+     "id": "b",
+     "label": "As a monochromatic aberration from curved surfaces"
+    },
+    {
+     "id": "c",
+     "label": "As the worst of all the lens aberrations"
+    },
+    {
+     "id": "d",
+     "label": "Not as a lens aberration, since moving the lens corrects it"
+    }
+   ],
+   "answer": "d",
+   "explain": "Defocus is technically the lowest-order aberration but is usually not counted, because moving the lens or image plane brings the image to the focus.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration:q4"
+  },
+  {
+   "prompt": "An otherwise perfect wavefront is shifted by piston and tilt. What does the resulting image look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Perfect, but moved to a different position"
+    },
+    {
+     "id": "b",
+     "label": "Blurred in the same way as chromatic aberration"
+    },
+    {
+     "id": "c",
+     "label": "Split into several fringes of color"
+    },
+    {
+     "id": "d",
+     "label": "Distorted, as with every true aberration"
+    }
+   ],
+   "answer": "a",
+   "explain": "Piston and tilt only shift the focal point, so they are not true optical aberrations: the image stays aberration-free.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration:q5"
+  },
+  {
+   "prompt": "A lens designer opens the aperture wider to gather more light, and the image gets less sharp. What best explains this?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Wider openings always add extra color from the glass"
+    },
+    {
+     "id": "b",
+     "label": "The ideal theory only holds for rays at tiny angles to the axis"
+    },
+    {
+     "id": "c",
+     "label": "A bigger opening makes the lens thinner at its edges"
+    },
+    {
+     "id": "d",
+     "label": "Light cannot be focused once it exceeds a set brightness"
+    }
+   ],
+   "answer": "b",
+   "explain": "The ideal Gaussian theory holds only for rays close to the axis; when aperture or field of view grows past certain limits, uncorrected images become ill-defined and blurred.",
+   "cites": [
+    24,
+    43
+   ],
+   "id": "knowledge.science.physics.optics.lenses-and-mirrors.optical-aberration:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lens_chromatic_aberration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Optical aberration",
+  "credit": "Panther, uploaded here by Maksim",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lens_chromatic_aberration.png"
+ },
+ "source": {
+  "title": "Optical aberration",
+  "url": "https://en.wikipedia.org/wiki/Optical_aberration",
+  "revision": 1378406334
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an aberration is",
+    "text": "An aberration is a property of a lens, mirror or other optical system that keeps its image from being a true copy of the object. Depending on the type, the image may come out blurred, bent out of shape, or edged with colour fringes that the object does not have. Whatever the kind, a system with aberration gives an image that is not sharp.",
+    "cites": [
+     1,
+     2,
+     6
+    ]
+   },
+   {
+    "heading": "Where it comes from",
+    "text": "With an ideal lens, all the light leaving any one point on an object would meet again at one point in the image. Real lenses do not manage this, even when they are perfectly made. Aberration is that shortfall: light from one point of the object fails to gather at a single point after passing through. The cause is not faulty glass but the fact that paraxial optics, the simple theory used to predict how lenses behave, is not a fully accurate model of what they do to light.",
+    "cites": [
+     3,
+     4,
+     5,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Two kinds",
+    "text": "Aberrations fall into two classes. Monochromatic aberrations come from the shape of the lens or mirror and happen with reflected and refracted light alike; they appear even with light of a single wavelength, which is where the name comes from. Chromatic aberrations come from dispersion, meaning that a lens's refractive index changes with wavelength. Because of this, different wavelengths focus at different points, so chromatic aberration disappears when only one wavelength is used.",
+    "cites": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "heading": "Effects left off the list",
+    "text": "Defocus is technically the lowest-order aberration, but it is usually not counted, since moving the lens or the image plane to the focus fixes it. Piston and tilt shift where the focal point lands. They are not true aberrations either, because an otherwise perfect wavefront altered by them still forms a flawless image, only in a different place.",
+    "cites": [
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Why perfection is out of reach",
+    "text": "Classical optics pictures a perfect system in which rays from every object point unite again at an image point. Gauss's ideas of focal lengths and focal planes let you find the image for any system, but only if every ray makes an infinitely small angle with the optical axis. In practice that may not hold, so uncorrected systems give blurred images once the aperture or field of view passes certain limits. James Clerk Maxwell and Ernst Abbe showed that no optical system can meet the ideal, because it contradicts the basic laws of reflection and refraction. Gauss's theory is therefore a handy approximation, and aberrations always occur and may never be fully corrected.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "heading": "Taming it",
+    "text": "Makers of optical instruments have to correct their designs to make up for aberration. A key part is the stop, or diaphragm: a hole, or the rim of a lens, that limits how wide a cone of light takes part in forming the image. The image of that stop formed by the parts in front of it is called the entrance pupil, and its position and diameter set how large the aberration is. Abbe also gave a rule called the sine condition; when it holds for all the rays forming a point, the aberrations that would otherwise spoil the points next to it are avoided.",
+    "cites": [
+     7,
+     34,
+     35,
+     36,
+     38,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-cp-aberrations",
+   "kind": "book",
+   "title": "26.6 Aberrations",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/26-6-aberrations",
+   "note": "A short textbook section on chromatic aberration, coma and spherical aberration, and how lens designers correct them.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

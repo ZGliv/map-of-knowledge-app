@@ -1,0 +1,231 @@
+{
+ "summary": [
+  {
+   "text": "Bézout's identity says the greatest common divisor d of a and b can be written as a linear combination ax + by.",
+   "cites": [
+    3,
+    20,
+    21
+   ]
+  },
+  {
+   "text": "The two multipliers are called Bézout coefficients; they are not unique, and the extended Euclidean algorithm can compute a minimal pair.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "It means any integer can be built from two coprime integers, and it decides exactly which water pouring puzzles are solvable.",
+   "cites": [
+    28,
+    29,
+    30,
+    43
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Worked example",
+   "value": "d = 3 for a = 15, b = 69, since 15(−9) + 69(2) = 3",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Not unique",
+   "value": "(x, y) = (−9, 2) and (x, y) = (14, −3) both work",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "label": "Named for",
+   "value": "Étienne Bézout (1730-1783), who proved it for polynomials",
+   "cites": [
+    40
+   ]
+  },
+  {
+   "label": "Earlier statement",
+   "value": "Bachet de Méziriac stated the integer case first",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Misattribution claim",
+   "value": "Granville argues it is implicit in Euclid's Elements",
+   "cites": [
+    42
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "What is 15(−9) + 69(2), and what does it show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1, because 15 and 69 are coprime"
+    },
+    {
+     "id": "b",
+     "label": "138, the larger of the two products"
+    },
+    {
+     "id": "c",
+     "label": "3, the greatest common divisor of 15 and 69"
+    },
+    {
+     "id": "d",
+     "label": "0, because the terms cancel out"
+    }
+   ],
+   "answer": "c",
+   "explain": "15(−9) + 69(2) = 3, which is the greatest common divisor of 15 and 69 written as a linear combination of the two.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "Can you reach every whole number by adding a whole-number multiple of 5 to a whole-number multiple of 9, with negatives allowed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, only numbers bigger than 45"
+    },
+    {
+     "id": "b",
+     "label": "No, only multiples of 5 or 9"
+    },
+    {
+     "id": "c",
+     "label": "Only the even numbers"
+    },
+    {
+     "id": "d",
+     "label": "Yes, since 5 and 9 are coprime"
+    }
+   ],
+   "answer": "d",
+   "explain": "Any integer can be written as a linear combination of two coprime integers: ax + by = 1, and multiplying both sides by n gives a(xn) + b(yn) = n.",
+   "cites": [
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "prompt": "Maya writes 3 as 15(−9) + 69(2), so (x, y) = (−9, 2). Her friend claims (x, y) = (14, −3) also gives 3. Can both be right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, the multipliers are not unique"
+    },
+    {
+     "id": "b",
+     "label": "No, only one pair can ever work"
+    },
+    {
+     "id": "c",
+     "label": "No, one of them must include a zero"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only for numbers under 20"
+    }
+   ],
+   "answer": "a",
+   "explain": "Bézout coefficients are not unique; (−9, 2) and (14, −3) are the two minimal pairs for this example.",
+   "cites": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "prompt": "You have two jugs and a tap and want to know in advance whether a given amount can be measured out. Which idea settles it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The test for divisibility by 3"
+    },
+    {
+     "id": "b",
+     "label": "Bézout's identity"
+    },
+    {
+     "id": "c",
+     "label": "A 12-hour clock"
+    },
+    {
+     "id": "d",
+     "label": "Counting prime numbers"
+    }
+   ],
+   "answer": "b",
+   "explain": "Bézout's identity decides exactly which water pouring puzzles can be solved.",
+   "cites": [
+    43
+   ]
+  },
+  {
+   "prompt": "5 divides 20 evenly. Which simple choice of multipliers makes 5 times one number plus 20 times another equal their greatest common divisor?",
+   "options": [
+    {
+     "id": "a",
+     "label": "1 for the first and 2 for the second"
+    },
+    {
+     "id": "b",
+     "label": "1 for the first and 0 for the second"
+    },
+    {
+     "id": "c",
+     "label": "0 for the first and 1 for the second"
+    },
+    {
+     "id": "d",
+     "label": "4 for the first and -1 for the second"
+    }
+   ],
+   "answer": "b",
+   "explain": "When one number divides the other, the GCD is the smaller number, so 1 and 0 work: 5 times 1 plus 20 times 0 is 5.",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "prompt": "The identity carries Bézout's name, though an earlier mathematician had the integer case. What further point does Andrew Granville make?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It was already implicit in Euclid's Elements: a misattribution"
+    },
+    {
+     "id": "b",
+     "label": "Bézout never proved anything at all about polynomials"
+    },
+    {
+     "id": "c",
+     "label": "The earlier statement was later shown to be wrong"
+    },
+    {
+     "id": "d",
+     "label": "The name was picked by Bézout himself back then"
+    }
+   ],
+   "answer": "a",
+   "explain": "Granville traced the naming to Bourbaki and argued that the identity is implicit in Euclid's Elements.",
+   "cites": [
+    40,
+    41,
+    42
+   ]
+  }
+ ]
+}

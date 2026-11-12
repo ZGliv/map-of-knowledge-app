@@ -1,0 +1,104 @@
+{
+ "title": "When anything can be an arrow",
+ "question": "What does a collection of things need before it counts as a vector space?",
+ "hook": "Arrows, polynomials and functions can all play by the same rules.",
+ "idea": "A vector space is anything you can add and scale by the rules, and its dimension counts the vectors in any basis.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A guide says: go 3 miles north. Then: go 4 miles east. Then adds: take one move of 3 miles north plus 4 miles east together. On a flat map, what does the third instruction do?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It gives new information the first two lack",
+     "feedback": "It sounds like extra detail, but the first two already fix the spot."
+    },
+    {
+     "id": "b",
+     "label": "It adds nothing new, being a combination of the first two"
+    },
+    {
+     "id": "c",
+     "label": "It contradicts the first two",
+     "feedback": "It is true; it is simply not necessary to find the location."
+    }
+   ],
+   "answer": "b",
+   "explain": "The third move is a linear combination of the other two, so no element is needed beyond them: the set is not linearly independent.",
+   "cites": [
+    30,
+    32
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Linear combination",
+     "A vector built by scaling and adding chosen vectors"
+    ],
+    [
+     "Span",
+     "The smallest subspace containing a group of vectors"
+    ],
+    [
+     "Basis",
+     "Independent vectors that span the whole space"
+    ],
+    [
+     "Dimension",
+     "The number of vectors in any basis"
+    ]
+   ],
+   "explain": "Each idea builds on the last: combinations make spans, spans plus independence make bases, and bases give dimension.",
+   "cites": [
+    30,
+    39,
+    42,
+    44
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "A basis is a group of independent vectors that spans the space.",
+    "Anna finds a basis for a space, and it has 3 vectors.",
+    "Ben picks a different basis for the same space.",
+    "So Ben's basis can have a different number of vectors than Anna's."
+   ],
+   "wrong": 3,
+   "explain": "All bases of a vector space have the same number of vectors, and that number is the dimension.",
+   "cites": [
+    42,
+    44
+   ]
+  },
+  {
+   "kind": "predict",
+   "prompt": "Two vector spaces over the same field have the same dimension. What do they share?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Every property that depends only on the vector-space structure"
+    },
+    {
+     "id": "b",
+     "label": "Exactly the same set of elements",
+     "feedback": "Their elements can be entirely different kinds of objects."
+    },
+    {
+     "id": "c",
+     "label": "Nothing, since dimension is only a count",
+     "feedback": "The count turns out to settle all structural properties."
+    }
+   ],
+   "answer": "a",
+   "explain": "Same field and same dimension means the spaces are isomorphic, so structural properties match.",
+   "cites": [
+    9
+   ]
+  }
+ ]
+}

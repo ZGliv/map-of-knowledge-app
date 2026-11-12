@@ -1,0 +1,34 @@
+{
+  "checker": "Claude (Opus 5.5), independent adversarial checker, round 6; did not write or edit these reels. Every quote in the four changed reels was machine-matched against its pinned source (all exact). Whole reels were read, the Tiktaalik file was viewed at 1280px, Commons metadata was fetched through the API, and the predict-phase rendering was checked in src/explore/ReelPlayer.tsx.",
+  "checkedAt": "2026-10-23T19:33:35Z",
+  "units": [
+    {
+      "id": "2026-10-23-the-fastest-wind-on-record/title",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: Hurricane Patricia] \"Patricia grew from a tropical storm to a Category 5 hurricane in just 24 hours—a near-record pace\" (exact). The best-track detail in the same article fits: hurricane strength \"shortly after 00:00 UTC on October 22\", Category 4 by 18:00 UTC October 22, peak on October 23.",
+      "note": "'Grew in a day' is the source's own word ('grew') and timescale ('24 hours'). It agrees with frame 2 ('In a single day it strengthened...') and the takeaway ('about a day and a half' to the peak, which is a longer span). The title does not give the prediction away: it names no record, and none of the choices is about speed of growth. The hero is m1 (frame 0: satellite spiral, x48 y48 zoom 1.08), and nothing in it hints at which record. One small point, not a defect: 'grew' can be read as size, which nudges readers toward the wrong choice 'Widest storm ever measured'. Frame 2 makes clear the growth was in strength, so nothing false is left standing.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-23-the-first-flight-anyone-certified/f6",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: Biplane] \"The first powered, controlled aeroplane to fly, the Wright Flyer, used a biplane wing arrangement\" (exact). [Wikipedia: Alberto Santos-Dumont] \"These were the first heavier-than-air flights certified by the Aeroclub of France, the first such flights officially witnessed by an aeronautics recordkeeping body, and the first of their kind recognised by the Fédération Aéronautique Internationale.\" (exact). In context, 'These' covers both the 23 October and the 12 November 1906 flights.",
+      "note": "Sentence 1 is verbatim except for 'the Wright brothers''. The Biplane text never says 'Wright brothers', but crediting the Flyer to the brothers is uncontroversial, and the Santos-Dumont source names them. Sentence 2: 'the first aeroplane flight that a record body certified' holds up. The Aero-Club certified the flights, and they were the first heavier-than-air flights any aeronautics recordkeeping body officially witnessed, so no earlier aeroplane flight can have been certified by such a body. The singular 'flight' matches the first of them (23 October). 'Aeroplane' rules out the earlier balloon and airship adjudications. The spoken line is word for word the caption, with 'Santos-Dumont' respelled 'Santos-Doomon' for the voice. Minor, unchanged from round 5: the Wright sentence plays over the 14-bis photo (m3), so a viewer could briefly take that machine for the Flyer. Frames 1 to 3 have already labelled that photo as the 14-bis.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-23-only-a-theory/media.m4",
+      "verdict": "supported",
+      "evidence": "Commons API extmetadata: Artist \"James St. John\" (Flickr jsjgeology), DateTimeOriginal \"2010-06-11 11:40\", LicenseShortName \"CC BY 2.0\", 2859×2000 (matches media.json). Description: \"(cast, FMNH PF15316 & PF15318, Field Museum of Natural History, Chicago...)\"; \"The specimen seen here consists of a skull and post-cranial skeleton.\"; \"a flat head with posterior notches\". Category: Tiktaalik skulls.",
+      "note": "Credit: the name is right. 'St John' is the standard unpunctuated form of 'St. John', with no truncation now. The year 2010 and CC BY 2.0 match Commons, and the page link is the file page. ', cropped' is fair notice of a change under CC BY: in the hero and frame 1 the camera crops the frame (zoom 1.12 at x40), though the src file itself is the unmodified Commons thumbnail. Alt text: I viewed the 1280px file. It shows a long, flat, wedge-shaped skull cast in tan and buff with brown patches. Darker reddish-brown shoulder and body pieces sit to the right, on a pale grey wall. 'Cast', 'long, flat head', 'tan and brown' and 'start of the body behind it' all match. 'Bone' describes the cast's depicted bone, which is acceptable because the alt opens with 'Cast of'. As the hero behind the prediction, a fossil does not hint at what scientists mean by 'theory'.",
+      "fix": ""
+    },
+    {
+      "id": "2026-10-23-what-the-skeletons-said/title",
+      "verdict": "supported",
+      "evidence": "[Wikipedia: Black Death in England] \"The term \"Black Death\"... was not used by contemporaries, who preferred such names as the \"Great Pestilence\" or the \"Great Mortality\"\"; \"A study reported in 2011 of skeletons exhumed from the Black Death cemetery in East Smithfield, London, found Yersinia pestis DNA.\" All eight quotes match exactly.",
+      "note": "'The Great Pestilence' is the contemporaries' name, as the source says. 'Naming' is figurative for identifying the disease, which matches the takeaway's 'The dead themselves named the killer'. Frame 2 also covers the literal naming. The title does not give the prediction away. The prompt already says 'Medieval England called it the Great Pestilence', and 'Naming' points no more to DNA than to the others. If anything it nudges toward the wrong choice 'Doctors at the time named it', which is fair misdirection, not a false claim. The hero (m2, the Crécy miniature) gives no hint.",
+      "fix": ""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "title": "Why engines always waste heat",
+  "question": "Why can't an engine turn all its heat into work?",
+  "hook": "Every engine, from a car to a power station, throws away part of the heat it burns.",
+  "idea": "A heat engine only gets work from heat moving from hot to cold, and the temperature gap caps how much it can get.",
+  "beats": [
+    {
+      "kind": "order",
+      "prompt": "Put these in the order a heat engine works through them",
+      "items": [
+        "A heat source warms the working substance",
+        "The substance reaches its higher temperature state",
+        "The substance does work while passing heat to the cold sink",
+        "The substance ends at a lower temperature state"
+      ],
+      "ends": [
+        "start",
+        "end"
+      ],
+      "explain": "The source heats the working substance, which does work as it passes heat on to the colder sink and cools.",
+      "cites": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "kind": "predict",
+      "prompt": "An engineer on Earth can't make the cold side much colder than the room, about 300 kelvin. To raise the engine's efficiency, what should she work on?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Make the hot source hotter",
+          "feedback": ""
+        },
+        {
+          "id": "b",
+          "label": "Chill the cold sink far below room temperature",
+          "feedback": "Tempting, since a bigger gap helps, but on Earth the cold side stays near ambient temperature."
+        },
+        {
+          "id": "c",
+          "label": "Add auxiliary pumps to push the heat along",
+          "feedback": "Pumps use energy themselves, which actually lowers efficiency."
+        },
+        {
+          "id": "d",
+          "label": "Remove the heat lost to friction by ignoring it",
+          "feedback": "Friction loss is real and cannot be ignored; it is separate from the temperature limit."
+        }
+      ],
+      "answer": "a",
+      "explain": "With the cold side stuck near 300 kelvin, efforts focus on raising the source temperature, within material limits.",
+      "cites": [
+        9,
+        20,
+        21,
+        24
+      ]
+    },
+    {
+      "kind": "sort",
+      "prompt": "Sort each machine by how it uses heat and work",
+      "groups": [
+        "Heat flows hot to cold to give work",
+        "Work moves heat from cold to hot"
+      ],
+      "items": [
+        [
+          "Thermal power station",
+          "Heat flows hot to cold to give work"
+        ],
+        [
+          "Internal combustion engine",
+          "Heat flows hot to cold to give work"
+        ],
+        [
+          "Refrigerator",
+          "Work moves heat from cold to hot"
+        ],
+        [
+          "Air conditioner",
+          "Work moves heat from cold to hot"
+        ],
+        [
+          "Heat pump",
+          "Work moves heat from cold to hot"
+        ]
+      ],
+      "explain": "Power stations and combustion engines produce work from heat; refrigerators, air conditioners and heat pumps are heat engines run in reverse.",
+      "cites": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "kind": "flaw",
+      "prompt": "One step in this reasoning is wrong; which?",
+      "steps": [
+        "A heat engine takes heat from a hot source and passes some to a cold sink.",
+        "The maximum efficiency is the temperature difference divided by the hot-end temperature, in absolute units.",
+        "With a hot end at 600 K and a cold end at 300 K, that limit is 50 percent.",
+        "So a perfectly built engine would still convert all of its heat into work."
+      ],
+      "wrong": 3,
+      "explain": "The efficiency limit applies to every engine, and no engine ever reaches it, let alone 100 percent.",
+      "cites": [
+        8,
+        22
+      ]
+    }
+  ]
+}

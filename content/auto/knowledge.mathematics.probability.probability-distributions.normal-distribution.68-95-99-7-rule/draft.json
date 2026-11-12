@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "The 68–95–99.7 rule says that in a normal distribution about 68%, 95% and 99.7% of values lie within one, two and three standard deviations of the mean.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It depends on the data genuinely being normal: distributions with fatter tails would give lower percentages at all three distances.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "It is used for quick rough probability estimates, as a simple test for outliers, and as a normality test.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Also called the empirical rule or the 3-sigma rule",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "label": "Physics standard",
+   "value": "Particle physics requires a five-sigma effect for a discovery",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Social sciences",
+   "value": "A two-sigma effect (95%) may count as significant",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Six sigma",
+   "value": "A 6σ event has a chance of about two parts per billion",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Weaker guarantee",
+   "value": "Even non-normal variables: at least 88.8% within three sigma",
+   "cites": [
+    6
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A school's test scores are normally distributed. Roughly what share of the 1,000 students should land within two standard deviations of the average?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 680"
+    },
+    {
+     "id": "b",
+     "label": "About 950"
+    },
+    {
+     "id": "c",
+     "label": "About 997"
+    },
+    {
+     "id": "d",
+     "label": "About 500"
+    }
+   ],
+   "answer": "b",
+   "explain": "About 95% of values lie within two standard deviations of the mean.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "prompt": "A dataset has heavier tails than a normal distribution, with more probability far from the center. How do its shares within one, two and three standard deviations compare with 68%, 95% and 99.7%?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They would be higher at every one of those distances"
+    },
+    {
+     "id": "b",
+     "label": "They would be the same, because the rule is universal"
+    },
+    {
+     "id": "c",
+     "label": "They would be lower at every one of those distances"
+    },
+    {
+     "id": "d",
+     "label": "They would swap order, with three beating two"
+    }
+   ],
+   "answer": "c",
+   "explain": "For distributions with fatter tails, the significance would be lower for all three deviations from the mean.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "prompt": "In a sample of 1,000 values assumed normal, you spot several that sit four standard deviations from the mean. What is the sensible reaction?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Treat it as ordinary, since four sigma happens often"
+    },
+    {
+     "id": "b",
+     "label": "Question the normality assumption or suspect outliers"
+    },
+    {
+     "id": "c",
+     "label": "Conclude the mean was computed with the wrong sign"
+    },
+    {
+     "id": "d",
+     "label": "Delete the whole sample and begin a new one"
+    }
+   ],
+   "answer": "b",
+   "explain": "Multiple 4 standard deviation moves in a sample of 1,000 are strong reason to consider outliers or question normality.",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "prompt": "An analyst applies the 68–95–99.7 rule to a column of numbers without checking their shape. What is the main danger?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rule only works when the numbers are whole"
+    },
+    {
+     "id": "b",
+     "label": "The rule only works for samples smaller than 100"
+    },
+    {
+     "id": "c",
+     "label": "The rule depends on the data truly being normal"
+    },
+    {
+     "id": "d",
+     "label": "The rule only works for data centered on zero"
+    }
+   ],
+   "answer": "c",
+   "explain": "The heuristic depends especially on the data genuinely being normally distributed.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "One field treats a two-sigma result as clear enough to examine closely, while another demands five sigma before calling something a discovery. Which is stricter?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Social sciences, which demand five sigma"
+    },
+    {
+     "id": "b",
+     "label": "Both are equally strict, as sigma levels match"
+    },
+    {
+     "id": "c",
+     "label": "Neither, since sigma levels do not measure strictness"
+    },
+    {
+     "id": "d",
+     "label": "Particle physics, which demands five sigma"
+    }
+   ],
+   "answer": "d",
+   "explain": "Particle physics requires a five-sigma effect for a discovery, while the social sciences may accept about two sigma.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Under a normal model, a 6σ move in daily data is expected about once in 1.4 million years. You see one after only a few years of data. What does that suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The normal model probably fits the large deviations poorly"
+    },
+    {
+     "id": "b",
+     "label": "The normal model is confirmed beyond doubt"
+    },
+    {
+     "id": "c",
+     "label": "The data must contain a typing error in every case"
+    },
+    {
+     "id": "d",
+     "label": "Days are not long enough to measure sigma"
+    }
+   ],
+   "answer": "a",
+   "explain": "Seeing a 6σ event in significantly fewer than a million years of daily data suggests a normal distribution is a poor model for large deviations.",
+   "cites": [
+    19,
+    20
+   ]
+  }
+ ]
+}

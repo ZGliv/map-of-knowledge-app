@@ -1,0 +1,309 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness",
+ "name": "Memorylessness",
+ "summary": [
+  {
+   "text": "Memorylessness is a property of some probability distributions: past failures or elapsed time do not affect future trials or further wait time.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Only two distributions have it: the geometric in the discrete case and the exponential in the continuous case.",
+   "cites": [
+    3,
+    8
+   ]
+  },
+  {
+   "text": "It models the number of coin flips until landing heads and the time between two earthquakes.",
+   "cites": [
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Discrete case",
+   "value": "The geometric distribution is the only memoryless one",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Continuous case",
+   "value": "The exponential distribution is the only memoryless one",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Coin example",
+   "value": "Number of flips until the first heads",
+   "cites": [
+    4
+   ]
+  },
+  {
+   "label": "Earthquake example",
+   "value": "Time between two earthquakes",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Converse",
+   "value": "A memoryless continuous distribution must be exponential",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You flip a fair coin and get five tails in a row. In a memoryless model of flips until heads, what does that history do to the next flip?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has no effect on the next flip"
+    },
+    {
+     "id": "b",
+     "label": "It makes heads more likely next"
+    },
+    {
+     "id": "c",
+     "label": "It makes heads less likely next"
+    },
+    {
+     "id": "d",
+     "label": "It makes the coin unfair"
+    }
+   ],
+   "answer": "a",
+   "explain": "Memorylessness means the number of previous failed trials has no effect on future trials.",
+   "cites": [
+    2,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness:q1"
+  },
+  {
+   "prompt": "Someone says a long quiet stretch without an earthquake makes one more likely soon. Under a memoryless model of time between earthquakes, what is true?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The elapsed time raises the chance of one"
+    },
+    {
+     "id": "b",
+     "label": "The elapsed time lowers the chance of one"
+    },
+    {
+     "id": "c",
+     "label": "The elapsed time has no effect on the future wait"
+    },
+    {
+     "id": "d",
+     "label": "The elapsed time makes the model invalid"
+    }
+   ],
+   "answer": "c",
+   "explain": "The elapsed time is independent of, and has no effect on, the further wait time.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness:q2"
+  },
+  {
+   "prompt": "You count the number of independent flips needed to land the first heads, and the count is memoryless. Which distribution is it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exponential"
+    },
+    {
+     "id": "b",
+     "label": "Normal"
+    },
+    {
+     "id": "c",
+     "label": "Uniform"
+    },
+    {
+     "id": "d",
+     "label": "Geometric"
+    }
+   ],
+   "answer": "d",
+   "explain": "The geometric distribution is the only discrete memoryless distribution.",
+   "cites": [
+    4,
+    8
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness:q3"
+  },
+  {
+   "prompt": "A waiting time is measured on a continuous scale and is known to be memoryless. Which distribution must it follow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The exponential distribution"
+    },
+    {
+     "id": "b",
+     "label": "The geometric distribution"
+    },
+    {
+     "id": "c",
+     "label": "The normal distribution"
+    },
+    {
+     "id": "d",
+     "label": "The uniform distribution"
+    }
+   ],
+   "answer": "a",
+   "explain": "If a continuous distribution is memoryless, it must be the exponential distribution.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness:q4"
+  },
+  {
+   "prompt": "Someone proposes a normal distribution as a memoryless model for waiting times. Why does that fail?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Normal curves cannot be graphed"
+    },
+    {
+     "id": "b",
+     "label": "Normal curves always have a mean of zero"
+    },
+    {
+     "id": "c",
+     "label": "Waiting times are always normal anyway"
+    },
+    {
+     "id": "d",
+     "label": "Only the geometric and exponential are memoryless"
+    }
+   ],
+   "answer": "d",
+   "explain": "Only the geometric and exponential distributions are memoryless.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness:q5"
+  },
+  {
+   "prompt": "Which statement best captures what memorylessness means?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The wait so far changes nothing about the wait still to come"
+    },
+    {
+     "id": "b",
+     "label": "The longer you wait, the sooner the event must arrive"
+    },
+    {
+     "id": "c",
+     "label": "Each wait must be exactly as long as the one before"
+    },
+    {
+     "id": "d",
+     "label": "The event can only occur once during the wait"
+    }
+   ],
+   "answer": "a",
+   "explain": "It describes situations where elapsed time or previous failures do not affect future trials or further wait time.",
+   "cites": [
+    2,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.exponential-distribution.memorylessness:q6"
+  }
+ ],
+ "source": {
+  "title": "Memorylessness",
+  "url": "https://en.wikipedia.org/wiki/Memorylessness",
+  "revision": 1349523249
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A distribution that forgets",
+    "text": "Memorylessness is a property that some probability distributions have. It describes a kind of waiting or trying in which the past makes no difference. However many failures you have already seen, or however long you have already waited, the future trials and the wait still ahead are unaffected. Put plainly, the count of earlier failed attempts, or the time already gone by, is independent of what comes next.",
+    "cites": [
+     1,
+     2,
+     6
+    ]
+   },
+   {
+    "heading": "Only two distributions qualify",
+    "text": "Just two distributions have this property: the geometric distribution and the exponential distribution. The geometric one is the memoryless choice in discrete settings, and the exponential one is the memoryless choice in continuous settings. Each is the only one of its kind. If a discrete distribution is memoryless, it has to be geometric, and if a continuous distribution is memoryless, it has to be exponential.",
+    "cites": [
+     3,
+     7,
+     8,
+     9,
+     15
+    ]
+   },
+   {
+    "heading": "Coin flips and earthquakes",
+    "text": "In the discrete case, picture an endless run of trials, each independent of the others and all following the same chances, known as Bernoulli trials. The question is when the first success arrives. Counting how many times you toss a coin before it lands heads is the everyday example. In the continuous case, memorylessness is used to model random happenings such as the gap in time between one earthquake and the next.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Why the continuous case is exponential",
+    "text": "The reasoning that pins down the continuous case works with the survival function, written S(t). Shrinking the input of the survival function by a factor k and taking a k-th root gives S(t/k) = S(t)^(1/k). That equality holds for any rational number standing in for k. Since S is continuous and there is always a rational number as close as you like to any real number, it then holds for every real number as well.",
+    "cites": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Where the formula lands",
+    "text": "Following this through gives S(t) = e^(−λt), where λ = −ln S(1) is zero or more. That is exactly the survival function of the exponential distribution. So a continuous distribution that forgets its past has no other shape it can take. The discrete story ends the same way, with the geometric distribution as the only possible answer.",
+    "cites": [
+     9,
+     13,
+     14,
+     15
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-5-3",
+   "kind": "book",
+   "title": "5.3 The Exponential Distribution",
+   "by": "OpenStax (Rice University)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/5-3-the-exponential-distribution",
+   "note": "A free statistics textbook section on the exponential distribution, with a worked part on its memorylessness.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-memoryless",
+   "kind": "article",
+   "title": "Memoryless",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Memoryless.html",
+   "note": "A short reference entry stating the memoryless property, with the exponential and geometric distributions as examples."
+  }
+ ]
+}

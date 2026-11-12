@@ -1,0 +1,221 @@
+{
+ "summary": [
+  {
+   "text": "The optional stopping theorem says that, under certain conditions, the expected value of a martingale at a stopping time equals its initial expected value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Because martingales can model a gambler's wealth in a fair game, it implies that on average nothing can be gained by choosing when to stop from information obtained so far.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "It applies to doubling strategies and shows mathematically why they cannot guarantee a profit with finite resources.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Doob's optional sampling theorem",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Credited to",
+   "value": "American probabilist Joseph Doob",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Finance role",
+   "value": "Used with the fundamental theorem of asset pricing",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Fine print",
+   "value": "Care is needed to ensure one of its conditions holds",
+   "cites": [
+    28
+   ]
+  },
+  {
+   "label": "Betting limits",
+   "value": "Finite lifetime, or a house limit on bets",
+   "cites": [
+    14
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A gambler in a fair game starts with $100 on average. They stop by a rule that uses only past results, and the theorem's conditions hold. What is their average wealth when they stop?",
+   "options": [
+    {
+     "id": "a",
+     "label": "More than $100, since they chose when to quit"
+    },
+    {
+     "id": "b",
+     "label": "Less than $100, since quitting loses momentum"
+    },
+    {
+     "id": "c",
+     "label": "Exactly $100, the initial expected value"
+    },
+    {
+     "id": "d",
+     "label": "It depends entirely on the rule they chose"
+    }
+   ],
+   "answer": "c",
+   "explain": "Under the conditions, the expected value of the martingale at the stopping time equals its initial expected value.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "prompt": "A gambler doubles the bet after each loss on a fair coin, with a house limit on bets. Can the strategy guarantee a profit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because the first win recovers every loss"
+    },
+    {
+     "id": "b",
+     "label": "No, the theorem shows that no such betting strategy succeeds"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as the gambler stops after a win"
+    },
+    {
+     "id": "d",
+     "label": "No, but only if the coin is slightly unfair"
+    }
+   ],
+   "answer": "b",
+   "explain": "The theorem proves the impossibility of successful betting strategies for a gambler under such limits, including doubling strategies.",
+   "cites": [
+    4,
+    14
+   ]
+  },
+  {
+   "prompt": "Instead of a house limit on bets, a gambler faces a limit on how deep in debt they may go. What changes about the no-gain result?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The result still holds"
+    },
+    {
+     "id": "b",
+     "label": "The gambler can now guarantee a profit"
+    },
+    {
+     "id": "c",
+     "label": "The gambler can now only break even"
+    },
+    {
+     "id": "d",
+     "label": "The result no longer applies to fair coins"
+    }
+   ],
+   "answer": "a",
+   "explain": "The same result holds if the gambler has a finite limit on their line of credit rather than a house limit on bets.",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "prompt": "A student applies the theorem to a quitting rule without checking anything about it. What is the problem?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The theorem only applies to coin flips"
+    },
+    {
+     "id": "b",
+     "label": "The theorem is never true in practice"
+    },
+    {
+     "id": "c",
+     "label": "The theorem needs a stopping time to be a whole number"
+    },
+    {
+     "id": "d",
+     "label": "The theorem holds only when one of its conditions does"
+    }
+   ],
+   "answer": "d",
+   "explain": "Certain conditions are necessary for the result, and care must be taken to ensure one of them holds.",
+   "cites": [
+    3,
+    28
+   ]
+  },
+  {
+   "prompt": "Besides gambling, in which area is the theorem an important tool, for evaluating expected returns of pricing models?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mathematical finance"
+    },
+    {
+     "id": "b",
+     "label": "Weather forecasting"
+    },
+    {
+     "id": "c",
+     "label": "Map making"
+    },
+    {
+     "id": "d",
+     "label": "Music theory"
+    }
+   ],
+   "answer": "a",
+   "explain": "It is an important tool of mathematical finance in the context of the fundamental theorem of asset pricing.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "prompt": "Two gamblers quit a fair game whenever they like. One uses only past results; the other secretly knows the next flip. For whom does the no-gain result apply?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both gamblers equally"
+    },
+    {
+     "id": "b",
+     "label": "Only the gambler who knows the next flip"
+    },
+    {
+     "id": "c",
+     "label": "Only the gambler using past results"
+    },
+    {
+     "id": "d",
+     "label": "Neither gambler"
+    }
+   ],
+   "answer": "c",
+   "explain": "The result is about stopping based on information obtained so far, without looking into the future.",
+   "cites": [
+    2,
+    16
+   ]
+  }
+ ]
+}

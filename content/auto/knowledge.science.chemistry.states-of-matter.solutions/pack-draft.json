@@ -1,0 +1,114 @@
+{
+ "title": "What counts as a solution?",
+ "question": "How does a solution hold one substance inside another, and what limits it?",
+ "hook": "Some mixtures hide one substance completely inside another, but only up to a point.",
+ "idea": "A solvent holds solutes, the solution takes the solvent's physical state, and a solution can hold only so much solute before it is saturated.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "You stir solid sugar into cold water until no more will dissolve, then warm the glass. What happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "A bit more sugar can dissolve"
+    },
+    {
+     "id": "b",
+     "label": "Some dissolved sugar drops back out",
+     "feedback": "That is how most gases behave, but solid solutes usually dissolve better when warmer."
+    },
+    {
+     "id": "c",
+     "label": "Nothing changes at all",
+     "feedback": "Temperature matters here: the point where a solution saturates can change significantly with temperature."
+    }
+   ],
+   "answer": "a",
+   "explain": "Usually, the warmer the solvent, the more of a given solid solute it can dissolve, so the saturation point moves up.",
+   "cites": [
+    32,
+    34,
+    35
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "Solvent",
+     "Usually the substance present in the greatest amount"
+    ],
+    [
+     "Solute",
+     "A component present other than the solvent"
+    ],
+    [
+     "Miscible",
+     "One liquid can completely dissolve in another"
+    ],
+    [
+     "Immiscible",
+     "Two substances that can never mix to form a solution"
+    ]
+   ],
+   "explain": "These four words describe the roles in a solution and whether two substances can mix.",
+   "cites": [
+    7,
+    9,
+    26,
+    27
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each example by what is being dissolved.",
+   "groups": [
+    "A gas is dissolved",
+    "A liquid or solid is dissolved"
+   ],
+   "items": [
+    [
+     "Oxygen in water",
+     "A gas is dissolved"
+    ],
+    [
+     "Hydrogen in palladium",
+     "A gas is dissolved"
+    ],
+    [
+     "Ethanol in water",
+     "A liquid or solid is dissolved"
+    ],
+    [
+     "Sucrose in sugar water",
+     "A liquid or solid is dissolved"
+    ]
+   ],
+   "explain": "Oxygen and hydrogen are gases dissolved in a liquid and a metal, while ethanol is a dissolved liquid and sucrose a dissolved solid.",
+   "cites": [
+    20,
+    21,
+    22,
+    24
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Sugar water is an example of a solid dissolved in a liquid.",
+    "A solution has the same physical state as its solvent.",
+    "Sucrose is the part that is dissolved, so it is the solvent.",
+    "So sugar water should be a solid."
+   ],
+   "wrong": 2,
+   "explain": "The dissolved sucrose is the solute, not the solvent, and the solution takes the state of the solvent.",
+   "cites": [
+    9,
+    10,
+    22
+   ]
+  }
+ ]
+}

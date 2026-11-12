@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "A group of vectors is linearly independent when none of them equals a linear combination of the others.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Equivalently, the only way to combine them into the zero vector 𝟎 is aᵢ = 0 for every coefficient.",
+   "cites": [
+    10,
+    12
+   ]
+  },
+  {
+   "text": "Independence is part of the definition of a basis and is central to finding the dimension of a vector space.",
+   "cites": [
+    3,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Dependence test",
+   "value": "One vector is zero or a combination of the others",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Single vector",
+   "value": "Dependent only if it is the zero vector",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Repeated vector",
+   "value": "Listing the same vector twice makes a sequence dependent",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Order",
+   "value": "Dependence does not depend on the order of the terms",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Locations",
+   "value": "n independent vectors are needed for n-dimensional space",
+   "cites": [
+    37
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A hiker is told: 3 miles north, 4 miles east, and also 5 miles northeast. How do these three directions relate as a group of vectors?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Independent, since they point different ways"
+    },
+    {
+     "id": "b",
+     "label": "Independent, since each has a different length"
+    },
+    {
+     "id": "c",
+     "label": "Dependent, since one is a combination of the others"
+    },
+    {
+     "id": "d",
+     "label": "Dependent, since two of them are perpendicular"
+    }
+   ],
+   "answer": "c",
+   "explain": "The northeast vector is a linear combination of the other two, so one of the three is unnecessary.",
+   "cites": [
+    33,
+    35
+   ]
+  },
+  {
+   "prompt": "A list of arrows includes one arrow of length zero. Could the whole list be linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, a zero vector forces the list to be dependent"
+    },
+    {
+     "id": "b",
+     "label": "Yes, if the other arrows are independent"
+    },
+    {
+     "id": "c",
+     "label": "Yes, if the list is long enough"
+    },
+    {
+     "id": "d",
+     "label": "No, but only when the list has two arrows"
+    }
+   ],
+   "answer": "a",
+   "explain": "A collection containing the zero vector is necessarily linearly dependent.",
+   "cites": [
+    38,
+    40
+   ]
+  },
+  {
+   "prompt": "You have a linearly independent list of arrows and you shuffle the order of the list. What happens to its independence?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is lost whenever the first arrow moves"
+    },
+    {
+     "id": "b",
+     "label": "It is lost for lists longer than two"
+    },
+    {
+     "id": "c",
+     "label": "It depends on which arrow ends up last"
+    },
+    {
+     "id": "d",
+     "label": "It is unchanged by the reordering"
+    }
+   ],
+   "answer": "d",
+   "explain": "Linear dependence of a sequence does not depend on the order of its terms.",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "prompt": "Two arrows point the same way, and one is twice as long as the other. Are they linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, because their lengths are different"
+    },
+    {
+     "id": "b",
+     "label": "No, because they are parallel"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because there are only two"
+    },
+    {
+     "id": "d",
+     "label": "No, because both are nonzero"
+    }
+   ],
+   "answer": "b",
+   "explain": "Parallel vectors are dependent: one can be written as a multiple of the other.",
+   "cites": [
+    1,
+    27
+   ]
+  },
+  {
+   "prompt": "Three arrows from one corner of a room all lie flat on the floor. Are they linearly independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since three arrows fill a room"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since none of them is zero"
+    },
+    {
+     "id": "c",
+     "label": "No, since they all lie in one plane"
+    },
+    {
+     "id": "d",
+     "label": "No, since they start at the same point"
+    }
+   ],
+   "answer": "c",
+   "explain": "Three vectors in the same plane are dependent; independent ones in 3D must not share a common plane.",
+   "cites": [
+    26,
+    28
+   ]
+  },
+  {
+   "prompt": "On a flat map, two independent directions locate any place. What is needed if altitude also matters?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A third independent vector"
+    },
+    {
+     "id": "b",
+     "label": "A longer second vector"
+    },
+    {
+     "id": "c",
+     "label": "A repeat of the first vector"
+    },
+    {
+     "id": "d",
+     "label": "Nothing more, since two always suffice"
+    }
+   ],
+   "answer": "a",
+   "explain": "If altitude is not ignored, a third vector must be added to the independent set; n independent vectors describe n-dimensional space.",
+   "cites": [
+    36,
+    37
+   ]
+  }
+ ]
+}

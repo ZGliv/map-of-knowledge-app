@@ -1,0 +1,298 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height",
+ "name": "Significant wave height",
+ "summary": [
+  {
+   "text": "Significant wave height is the average height, from trough to crest, of the highest third of the waves in a record.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It was meant to match the height a trained observer would estimate, since experienced mariners seem to focus on the higher waves.",
+   "cites": [
+    7,
+    9
+   ]
+  },
+  {
+   "text": "It is commonly used to measure ocean wave height, and the centres that forecast for the world's oceans give their wave forecasts in it.",
+   "cites": [
+    8,
+    23,
+    25
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Symbols",
+   "value": "Hₛ, SWH or H_(1/3)",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Origin",
+   "value": "Work by oceanographer Walter Munk during World War II",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Spectral formula",
+   "value": "H_m₀ = 4√m₀ = 4σ_η",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "RMS wave height",
+   "value": "About Hₛ divided by 1.4",
+   "cites": [
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "An oceanographer has a long record of individual wave heights and wants the significant wave height. Which waves does she average?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every wave in the record"
+    },
+    {
+     "id": "b",
+     "label": "The tallest third of the waves"
+    },
+    {
+     "id": "c",
+     "label": "Only the single tallest wave"
+    },
+    {
+     "id": "d",
+     "label": "The smallest third of the waves"
+    }
+   ],
+   "answer": "b",
+   "explain": "Traditionally, the measure is the mean trough-to-crest height of the highest one-third of the waves.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height:q1"
+  },
+  {
+   "prompt": "Why does the measure ignore the smaller two-thirds of the waves?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Small waves are too hard for instruments to detect"
+    },
+    {
+     "id": "b",
+     "label": "Small waves cause no harm to ships at sea"
+    },
+    {
+     "id": "c",
+     "label": "Small waves are averaged into a separate forecast"
+    },
+    {
+     "id": "d",
+     "label": "It best fits what experienced sailors report seeing"
+    }
+   ],
+   "answer": "d",
+   "explain": "Using the highest third matches visual observations by experienced mariners, whose eyes apparently settle on the higher waves.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height:q2"
+  },
+  {
+   "prompt": "A forecast gives a significant wave height of 3 m for your sailing trip. Which expectation is sound?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An odd wave might reach roughly 6 m"
+    },
+    {
+     "id": "b",
+     "label": "Every wave will be close to 3 m tall"
+    },
+    {
+     "id": "c",
+     "label": "No wave at all will rise above 3 m"
+    },
+    {
+     "id": "d",
+     "label": "Most waves will be taller than 3 m"
+    }
+   ],
+   "answer": "a",
+   "explain": "Most waves are lower than the significant height, but many are higher, and one might meet a wave roughly double it.",
+   "cites": [
+    14,
+    15,
+    16
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height:q3"
+  },
+  {
+   "prompt": "How can a radar altimeter on a satellite measure wave height directly from orbit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It counts how many whitecaps it can see"
+    },
+    {
+     "id": "b",
+     "label": "It reads pressure sensors on the seafloor"
+    },
+    {
+     "id": "c",
+     "label": "Its echoes return at different times from crests and troughs"
+    },
+    {
+     "id": "d",
+     "label": "It photographs the shadows that waves cast at noon"
+    }
+   ],
+   "answer": "c",
+   "explain": "Radar pulses bounce back from wave crests and troughs at slightly different times within the lit area, which reveals the wave height directly.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height:q4"
+  },
+  {
+   "prompt": "For the same set of waves, how does the RMS wave height, built from all the waves, compare with Hₛ?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is larger, about 1.4 times Hₛ"
+    },
+    {
+     "id": "b",
+     "label": "It is smaller, about Hₛ divided by 1.4"
+    },
+    {
+     "id": "c",
+     "label": "It is exactly the same as Hₛ"
+    },
+    {
+     "id": "d",
+     "label": "It is about double the value of Hₛ"
+    }
+   ],
+   "answer": "b",
+   "explain": "The RMS height uses every wave, including the many small ones, so it comes out at roughly Hₛ divided by 1.4.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height:q5"
+  },
+  {
+   "prompt": "A storm is building fast and the sea is changing by the hour. How does the gap between Hₛ and the biggest single waves tend to behave?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It shrinks to almost nothing"
+    },
+    {
+     "id": "b",
+     "label": "It stays fixed at exactly double"
+    },
+    {
+     "id": "c",
+     "label": "It flips, so Hₛ exceeds the biggest"
+    },
+    {
+     "id": "d",
+     "label": "It can grow even wider than usual"
+    }
+   ],
+   "answer": "d",
+   "explain": "In rapidly changing conditions, the difference between the significant wave height and the largest individual waves can be even larger.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.earth.oceans.waves-and-tides.wind-waves.significant-wave-height:q6"
+  }
+ ],
+ "source": {
+  "title": "Significant wave height",
+  "url": "https://en.wikipedia.org/wiki/Significant_wave_height",
+  "revision": 1379998733
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "One number for a rough sea",
+    "text": "Significant wave height, written Hₛ or SWH, is a common way to say how high ocean waves are. In its traditional form it is the mean trough-to-crest height of the tallest third of the waves. It is used to sum up the state of the sea, wind and swell included. It is also a key number for describing how wave heights are spread out statistically.",
+    "cites": [
+     1,
+     5,
+     8,
+     13
+    ]
+   },
+   {
+    "heading": "Matching the trained eye",
+    "text": "The idea came from the oceanographer Walter Munk during World War II. He wanted a number that matched the height a trained observer would estimate by eye. Only the highest third of the waves counts, because experienced sailors seem to fix their attention on the bigger waves. That slice is the one that lines up best with what they report.",
+    "cites": [
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "heading": "A second definition",
+    "text": "Today it is usually defined another way: four times the standard deviation of the height of the sea surface. Written Hₘ₀, this version is worked out from the wave spectrum, and it is used for both measured and forecast waves. For a measurement, the standard deviation is the simplest and most accurate statistic to use. The two definitions differ by only a few percent, so Hₛ can mean either one.",
+    "cites": [
+     2,
+     3,
+     4,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "heading": "Bigger waves still come",
+    "text": "Most waves are actually lower than Hₛ, so waves of that height do not come all the time. Yet many waves are higher, and a sailor may meet one roughly double it. When conditions change quickly, the gap between Hₛ and the largest single waves can grow even wider. Another measure, the RMS wave height, takes the square root of the average of the squared wave heights and comes out at about Hₛ divided by 1.4.",
+    "cites": [
+     14,
+     15,
+     16,
+     17,
+     19
+    ]
+   },
+   {
+    "heading": "Measured from space",
+    "text": "Most instruments work out significant wave height from a wave spectrum, but satellite radar altimeters measure it directly. They do this using the different times the radar takes to return from wave crests and from troughs. The largest wave height ever measured from a satellite was 20.1 metres, during a North Atlantic storm in 2011.",
+    "cites": [
+     21,
+     22
+    ]
+   },
+   {
+    "heading": "In the forecast",
+    "text": "The World Meteorological Organization makes certain countries responsible for forecasts over the world's oceans. Their weather offices, called Regional Specialized Meteorological Centers, give wave forecasts as significant wave height and use wind-wave models to help. In the United States, NOAA's National Weather Service covers parts of the North Atlantic and North Pacific and relies heavily on its Wavewatch III model. The same measure can also be worked out for each separate part of the sea, giving one value for the wind-sea and another for a particular swell.",
+    "cites": [
+     23,
+     24,
+     25,
+     26,
+     28,
+     29,
+     30,
+     31
+    ]
+   }
+  ]
+ }
+}

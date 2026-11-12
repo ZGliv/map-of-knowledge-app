@@ -1,0 +1,356 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.biology.genetics-genomes.gene-to-protein",
+ "name": "From gene to protein",
+ "summary": [
+  {
+   "text": "Gene expression is the process in which the information in a gene is used to make a functional product, such as a protein or a functional RNA molecule.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It involves transcription, where the gene's sequence is copied into RNA, and for protein-coding genes that RNA is then translated into a chain of amino acids that folds into a protein.",
+   "cites": [
+    2,
+    3
+   ]
+  },
+  {
+   "text": "In eukaryotes the first RNA copy must be modified before it is mature, and the nuclear membrane separating transcription from translation gives time for this.",
+   "cites": [
+    14,
+    31
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Gene products",
+   "value": "A protein or a functional RNA molecule",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "The copying enzymes",
+   "value": "RNA polymerases add one ribonucleotide at a time",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "RNA swap",
+   "value": "RNA uses uracil in place of thymine",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Eukaryote copiers",
+   "value": "Three types of RNA polymerase work in the nucleus",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Splicing",
+   "value": "Introns are removed and neighbouring exons are joined",
+   "cites": [
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A cell makes a protein from a protein-coding gene. Which description of the path is correct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The protein is built first, then copied into RNA"
+    },
+    {
+     "id": "b",
+     "label": "The gene is copied into RNA, which is translated into a chain that folds"
+    },
+    {
+     "id": "c",
+     "label": "The gene is cut into amino acids, which are joined into RNA"
+    },
+    {
+     "id": "d",
+     "label": "The gene folds directly into a protein with no RNA involved"
+    }
+   ],
+   "answer": "b",
+   "explain": "The gene's sequence is transcribed into RNA, and for protein-coding genes that RNA is translated into a chain of amino acids that folds into a protein.",
+   "cites": [
+    2,
+    3
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.gene-to-protein:q1"
+  },
+  {
+   "prompt": "A bacterium can start translating an RNA while it is still being copied, but a human cell cannot. What makes the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Human RNA is too long to be read in one go"
+    },
+    {
+     "id": "b",
+     "label": "Human cells have no ribosomes for protein making"
+    },
+    {
+     "id": "c",
+     "label": "Bacteria do not use RNA to make their proteins"
+    },
+    {
+     "id": "d",
+     "label": "A nuclear membrane keeps the two processes apart in human cells"
+    }
+   ],
+   "answer": "d",
+   "explain": "In prokaryotes transcription and translation happen together, while in eukaryotes the nuclear membrane separates them, which gives time for RNA processing.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.gene-to-protein:q2"
+  },
+  {
+   "prompt": "One human gene can give rise to several different proteins. What process can make that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Some introns or exons are kept or removed, giving different transcripts"
+    },
+    {
+     "id": "b",
+     "label": "The gene is rewritten into new letters each time it is read"
+    },
+    {
+     "id": "c",
+     "label": "Every cell contains several copies of the gene, each slightly different"
+    },
+    {
+     "id": "d",
+     "label": "The polymerase swaps thymine for adenine at random"
+    }
+   ],
+   "answer": "a",
+   "explain": "In alternative splicing, some introns or exons are either removed or retained, creating different transcripts from a single gene that can be translated into different proteins.",
+   "cites": [
+    27,
+    28,
+    29
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.gene-to-protein:q3"
+  },
+  {
+   "prompt": "A researcher finds a gene whose RNA is never made into a protein, yet the cell clearly needs it. Is that possible?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, because every gene must end in a protein"
+    },
+    {
+     "id": "b",
+     "label": "No, because RNA can only be a temporary copy"
+    },
+    {
+     "id": "c",
+     "label": "Yes, because for non-coding genes the finished RNA does the job itself"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if the RNA is first turned back into DNA"
+    }
+   ],
+   "answer": "c",
+   "explain": "For non-coding genes, the resulting RNA itself serves a functional role in the cell, and for some the mature RNA is the final gene product.",
+   "cites": [
+    3,
+    45
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.gene-to-protein:q4"
+  },
+  {
+   "prompt": "In a eukaryotic cell, an enzyme adds a special cap to one end of a fresh RNA copy and a long tail of adenines to the other end. What do these additions do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They shorten the RNA so it can leave the nucleus"
+    },
+    {
+     "id": "b",
+     "label": "They protect the RNA from being broken down"
+    },
+    {
+     "id": "c",
+     "label": "They turn the RNA into DNA"
+    },
+    {
+     "id": "d",
+     "label": "They set which amino acid comes first in the protein"
+    }
+   ],
+   "answer": "b",
+   "explain": "The 5′ cap and the poly(A) tail each protect the RNA from degradation.",
+   "cites": [
+    17,
+    21
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.gene-to-protein:q5"
+  },
+  {
+   "prompt": "A student says eukaryotic cells copy all their genes with one kind of RNA polymerase, just like bacteria do. Is the student right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, all living cells share a single polymerase"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for protein-coding genes"
+    },
+    {
+     "id": "c",
+     "label": "No, because bacteria use three and eukaryotes use one"
+    },
+    {
+     "id": "d",
+     "label": "No, because eukaryotes use three types in the nucleus; bacteria use one"
+    }
+   ],
+   "answer": "d",
+   "explain": "Bacteria use a single type of RNA polymerase, while eukaryotes use three types in the nucleus.",
+   "cites": [
+    8,
+    9
+   ],
+   "id": "knowledge.science.biology.genetics-genomes.gene-to-protein:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/MIT_HST.951J_-_6.873J_Medical_Decision_Support%2C_Fall_2005_-_Gene_Expression_-_4815083151.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "From gene to protein",
+  "credit": "mitopencourseware",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:MIT_HST.951J_-_6.873J_Medical_Decision_Support,_Fall_2005_-_Gene_Expression_-_4815083151.jpg"
+ },
+ "source": {
+  "title": "Gene expression",
+  "url": "https://en.wikipedia.org/wiki/Gene_expression",
+  "revision": 1371304978
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "From instructions to working parts",
+    "text": "Gene expression is how a cell turns the information in a gene into a working product, either a protein or an RNA molecule that does a job of its own. It is what lets cells use their genes to carry out a huge range of tasks. Some genes are switched on all the time at a fairly steady level, while others are turned up or down as the cell's needs and surroundings change.",
+    "cites": [
+     1,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Several steps",
+    "text": "The process has several steps, and one of them is transcription, where an RNA copy of the gene's sequence is made from the DNA. For a gene that codes for a protein, that RNA is then translated into a chain of amino acids, which folds up into a protein. For a non-coding gene, the RNA itself is the useful product.",
+    "cites": [
+     2,
+     3,
+     6,
+     45
+    ]
+   },
+   {
+    "heading": "Making the RNA copy",
+    "text": "Transcription is carried out by RNA polymerases, which work by adding one RNA building block at a time to a growing strand. Each new piece matches its partner on the DNA template, except that the base uracil, U, takes the place of thymine, T. Bacteria use a single kind of RNA polymerase. Eukaryotes, working inside the nucleus, use three kinds, each needing a DNA region called a promoter and helper proteins called transcription factors to get started. Copying stops when the polymerase reaches a sequence called the terminator.",
+    "cites": [
+     6,
+     7,
+     8,
+     9,
+     13
+    ]
+   },
+   {
+    "heading": "Finishing the message",
+    "text": "In prokaryotes, transcribing a protein-coding gene gives messenger RNA, or mRNA, that is ready for translation. In eukaryotes, the first copy, called pre-mRNA for a protein-coding gene, must be modified before it is mature. One change adds a cap to one end, the 5′ end, which protects the RNA from being broken down. Another cuts the other end, the 3′ end, and adds a tail of about 200 adenine bases, the poly(A) tail, which also guards it.",
+    "cites": [
+     14,
+     17,
+     19,
+     21
+    ]
+   },
+   {
+    "heading": "Cutting and splicing",
+    "text": "Most eukaryotic pre-mRNAs are made of alternating stretches called exons and introns. During splicing, a complex of RNA and protein called the spliceosome cuts out an intron and joins the neighbouring exons together. Sometimes particular exons or introns are kept in some copies and removed in others. This alternative splicing lets one gene give rise to several different transcripts, which may become different proteins.",
+    "cites": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Why the nucleus matters",
+    "text": "In prokaryotes, transcription and translation happen at the same time. In eukaryotes, the membrane around the nucleus keeps the two steps apart, which leaves time for the RNA to be processed. This extensive processing may have been an evolutionary advantage that the nucleus made possible.",
+    "cites": [
+     30,
+     31
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-bio-15-1",
+   "kind": "book",
+   "title": "15.1 The Genetic Code",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code",
+   "note": "A free textbook section on how DNA is read via mRNA into protein, and how three-letter codons name amino acids.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-15-3",
+   "kind": "book",
+   "title": "15.3 Eukaryotic Transcription",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+   "note": "A free textbook section on the three RNA polymerases, promoters and transcription factors in eukaryotes.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-bio-15-4",
+   "kind": "book",
+   "title": "15.4 RNA Processing in Eukaryotes",
+   "by": "OpenStax (Biology 2e)",
+   "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+   "note": "A free textbook section on the 5' cap, the poly-A tail and splicing out introns.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-bio-34",
+   "kind": "video",
+   "title": "Transcription: How mRNA Helped Save Lives: Crash Course Biology #34",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=j6YaOqKORYY",
+   "note": "A Crash Course video on transcription, how a gene is copied into mRNA."
+  },
+  {
+   "id": "crashcourse-bio-35",
+   "kind": "video",
+   "title": "Translation: How RNA Gets Translated into Protein Power: Crash Course Biology #35",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=6ulXau2HyHg",
+   "note": "A Crash Course video on translation, how RNA is read to build a protein."
+  }
+ ]
+}

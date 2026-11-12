@@ -1,0 +1,333 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.random-variables.variance.covariance",
+ "name": "Covariance",
+ "summary": [
+  {
+   "text": "Covariance is a measure of how two random variables vary together, a joint variability.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It is positive when the variables tend to show similar behavior and negative when they tend to show opposite behavior.",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "text": "Changing the units changes its value, so the correlation coefficient rescales it to a number between -1 and 1.",
+   "cites": [
+    6,
+    8
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Positive sign",
+   "value": "The variables tend to show similar behavior",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Negative sign",
+   "value": "The variables tend to show opposite behavior",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Units",
+   "value": "Units of X times units of Y",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Zero covariance",
+   "value": "Such variables are called uncorrelated",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Correlation range",
+   "value": "The normalized version lies between -1 and 1",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "On hot days a shop sells more ice cream, and on cold days it sells less. What is the sign of the covariance between temperature and sales?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Negative, as the two don't match"
+    },
+    {
+     "id": "b",
+     "label": "Zero, as temperature isn't a number"
+    },
+    {
+     "id": "c",
+     "label": "It has no sign at all"
+    },
+    {
+     "id": "d",
+     "label": "Positive, as they move in the same way"
+    }
+   ],
+   "answer": "d",
+   "explain": "Covariance is positive when two variables tend to show similar behavior.",
+   "cites": [
+    3
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.covariance:q1"
+  },
+  {
+   "prompt": "A researcher measures the heights of some people in meters and then recomputes the covariance with weight after switching heights to millimeters. What happens?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The covariance value changes in proportion"
+    },
+    {
+     "id": "b",
+     "label": "The covariance is exactly the same"
+    },
+    {
+     "id": "c",
+     "label": "The covariance turns negative"
+    },
+    {
+     "id": "d",
+     "label": "The covariance always becomes zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "Changing units changes the covariance value proportionally, which is why it is hard to judge the strength of a relationship from covariance alone.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.covariance:q2"
+  },
+  {
+   "prompt": "Two variables have a covariance of exactly zero. Does it follow that they are independent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, zero means no link of any kind"
+    },
+    {
+     "id": "b",
+     "label": "Yes, it only happens when they are unrelated"
+    },
+    {
+     "id": "c",
+     "label": "No, they could be linked in a non-linear way"
+    },
+    {
+     "id": "d",
+     "label": "No, it means one is constant"
+    }
+   ],
+   "answer": "c",
+   "explain": "Covariance measures linear dependence, so uncorrelated variables need not be independent.",
+   "cites": [
+    21,
+    22
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.covariance:q3"
+  },
+  {
+   "prompt": "You want to compare how strongly two pairs of variables go together, but one pair is in dollars and the other in kilograms. What should you use?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The correlation coefficient"
+    },
+    {
+     "id": "b",
+     "label": "Whichever covariance is larger"
+    },
+    {
+     "id": "c",
+     "label": "The sum of the two covariances"
+    },
+    {
+     "id": "d",
+     "label": "The sample size of each pair"
+    }
+   ],
+   "answer": "a",
+   "explain": "The correlation coefficient normalizes covariance to a value between -1 and 1, so pairs with different units can be compared.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.covariance:q4"
+  },
+  {
+   "prompt": "Two variables have negative covariance. Today X is over its average. What is likely true of Y?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Y is probably over its average"
+    },
+    {
+     "id": "b",
+     "label": "Y is probably below its average"
+    },
+    {
+     "id": "c",
+     "label": "Y is exactly at its average"
+    },
+    {
+     "id": "d",
+     "label": "Its position cannot be predicted"
+    }
+   ],
+   "answer": "b",
+   "explain": "With negative covariance, if X is above its expected value then Y is likely below its expected value.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.covariance:q5"
+  },
+  {
+   "prompt": "Height is measured in meters and weight in kilograms. What units does their covariance have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Meters divided by kilograms"
+    },
+    {
+     "id": "b",
+     "label": "No units, as it is a pure ratio"
+    },
+    {
+     "id": "c",
+     "label": "Meters times kilograms"
+    },
+    {
+     "id": "d",
+     "label": "Kilograms squared only"
+    }
+   ],
+   "answer": "c",
+   "explain": "The covariance of X and Y has the units of X times the units of Y.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.probability.random-variables.variance.covariance:q6"
+  }
+ ],
+ "source": {
+  "title": "Covariance",
+  "url": "https://en.wikipedia.org/wiki/Covariance",
+  "revision": 1356541342
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Two variables moving together",
+    "text": "Covariance measures how two random variables vary jointly. Its sign shows the direction of the linear trend between them. It is positive when the two tend to behave alike: if X sits above its expected value, also called its mean, Y is likely above its own. It is negative when they tend to behave in opposite ways, so X above its mean makes Y likely below its own. Variables with positive covariance are called positively correlated, and those with negative covariance negatively correlated.",
+    "cites": [
+     1,
+     2,
+     3,
+     10,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "The trouble with units",
+    "text": "Covariance carries units: those of X multiplied by those of Y. Switch from meters to millimeters and the covariance changes in proportion, so the raw number alone says little about how strong the link is. To compare pairs of variables that may be measured in different units, people use the correlation coefficient instead. It divides the covariance by the product of the two standard deviations, giving a number between -1 and 1 with no units at all.",
+    "cites": [
+     5,
+     6,
+     13,
+     7,
+     8,
+     14
+    ]
+   },
+   {
+    "heading": "Variance as a special case",
+    "text": "Variance is simply the covariance of a variable with itself: cov (X, X) = var (X). Covariance is also sometimes written σ_XY, by analogy with the notation for variance. Variables whose covariance is zero are called uncorrelated. Independent random variables always have zero covariance, because under independence E [XY] = E [X]⋅E [Y].",
+    "cites": [
+     16,
+     11,
+     17,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Uncorrelated is not independent",
+    "text": "The reverse does not hold. Covariance and correlation measure only linear dependence, so two variables can be linked in a non-linear way and still be uncorrelated. In general, then, being uncorrelated does not mean being independent. One exception is when the two variables are jointly normally distributed; it is not enough for each one to be normal on its own. Here linear dependence is a statistical idea and does not mean the same as the term in linear algebra.",
+    "cites": [
+     21,
+     22,
+     23,
+     37,
+     38
+    ]
+   },
+   {
+    "heading": "Population and sample",
+    "text": "Two related things share the name. The covariance of two random variables is a population parameter, a property of their joint probability distribution. The sample covariance, worked out from data, describes that sample and also serves as an estimate of the population value. In computer programs, the shortcut formula cov (X, Y) = E [XY] − E [X]E [Y] invites catastrophic cancellation when E [XY] and E [X]E [Y] are close and not computed exactly. For data that has not been centered first, numerically stable algorithms should be used instead.",
+    "cites": [
+     9,
+     35,
+     36
+    ]
+   },
+   {
+    "heading": "Uses in biology",
+    "text": "Covariance is an important measure in biology. Some DNA sequences are conserved more than others among species, so researchers compare sequences in closely related species to study the structures of proteins and of RNA. Finding changes, or no changes, in noncoding RNA such as microRNA shows which sequences are needed for shared structural motifs such as an RNA loop. In genetics, covariance is the basis of the Genetic Relationship Matrix, or kinship matrix, used to infer population structure and to estimate the heritability of complex traits.",
+    "cites": [
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "libretexts-covariance",
+   "kind": "book",
+   "title": "4.5: Covariance and Correlation",
+   "by": "Kyle Siegrist, LibreTexts",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/04%3A_Expected_Value/4.05%3A_Covariance_and_Correlation",
+   "note": "A free textbook section defining covariance and correlation, with a worked case of uncorrelated but dependent variables.",
+   "license": "CC BY 2.0"
+  },
+  {
+   "id": "mathworld-covariance",
+   "kind": "article",
+   "title": "Covariance",
+   "by": "Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Covariance.html",
+   "note": "A compact reference entry giving the covariance formulas and how they link to correlation."
+  },
+  {
+   "id": "pfeiffer-covariance",
+   "kind": "book",
+   "title": "12: Variance, Covariance, and Linear Regression - Applied Probability (Pfeiffer)",
+   "by": "Paul Pfeiffer",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Applied_Probability_(Pfeiffer)/12%3A_Variance_Covariance_and_Linear_Regression",
+   "note": "A free textbook chapter on variance and covariance of random variables and their use in linear regression.",
+   "license": "CC BY 3.0"
+  }
+ ]
+}

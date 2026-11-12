@@ -1,0 +1,337 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition",
+ "name": "Singular value decomposition",
+ "summary": [
+  {
+   "text": "The singular value decomposition factors a real or complex matrix into a rotation, followed by a scaling, followed by another rotation.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It generalizes the eigendecomposition of a square normal matrix to any m × n matrix, and such a decomposition always exists.",
+   "cites": [
+    2,
+    5
+   ]
+  },
+  {
+   "text": "Its singular values give the size of the stretching, and it is used for pseudoinverses, matrix approximation, signal processing and least squares fitting.",
+   "cites": [
+    14,
+    15,
+    25
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Singular values",
+   "value": "The scaling entries, usually listed from largest to smallest",
+   "cites": [
+    7,
+    8
+   ]
+  },
+  {
+   "label": "Rank link",
+   "value": "The number of non-zero singular values equals the matrix's rank",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Ellipse picture",
+   "value": "In 2D, singular values are the semiaxes of an ellipse",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Size and direction",
+   "value": "Singular values encode magnitude; singular vectors encode direction",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Uniqueness",
+   "value": "The decomposition itself is not unique in general",
+   "cites": [
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Into which three geometric steps does the decomposition break any linear transformation of ordinary space?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A shear, then a shift, then a further rotation"
+    },
+    {
+     "id": "b",
+     "label": "A rotation, a scaling, then another rotation"
+    },
+    {
+     "id": "c",
+     "label": "Three scalings along three separate axes"
+    },
+    {
+     "id": "d",
+     "label": "A rotation, then a projection, then a shear"
+    }
+   ],
+   "answer": "b",
+   "explain": "The factors are a rotation or reflection, a coordinate-by-coordinate scaling, and another rotation or reflection.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition:q1"
+  },
+  {
+   "prompt": "A matrix has exactly two non-zero singular values and all its other singular values are zero. What is its rank?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Zero"
+    },
+    {
+     "id": "b",
+     "label": "Two"
+    },
+    {
+     "id": "c",
+     "label": "Equal to its number of rows"
+    },
+    {
+     "id": "d",
+     "label": "Impossible to tell"
+    }
+   ],
+   "answer": "b",
+   "explain": "The number of non-zero singular values, repetitions included, equals the rank.",
+   "cites": [
+    9
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition:q2"
+  },
+  {
+   "prompt": "A picture of a 2D transformation shows an ellipse. What do the singular values correspond to?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The directions the ellipse is tilted toward"
+    },
+    {
+     "id": "b",
+     "label": "The area enclosed by the ellipse"
+    },
+    {
+     "id": "c",
+     "label": "The number of corners of the shape"
+    },
+    {
+     "id": "d",
+     "label": "The lengths of the ellipse's semiaxes"
+    }
+   ],
+   "answer": "d",
+   "explain": "Singular values can be read as the magnitudes of the semiaxes of an ellipse in 2D.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition:q3"
+  },
+  {
+   "prompt": "You want to know in which direction a matrix stretches things, not by how much. What should you look at?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The singular vectors"
+    },
+    {
+     "id": "b",
+     "label": "The singular values"
+    },
+    {
+     "id": "c",
+     "label": "The rank"
+    },
+    {
+     "id": "d",
+     "label": "The largest entry"
+    }
+   ],
+   "answer": "a",
+   "explain": "Singular vectors encode direction, while singular values encode magnitude.",
+   "cites": [
+    25
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition:q4"
+  },
+  {
+   "prompt": "A matrix is not square, say with more columns than rows. Does it still have such a decomposition?",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, only square matrices have one"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when its entries are real"
+    },
+    {
+     "id": "c",
+     "label": "Yes, any real or complex matrix has one"
+    },
+    {
+     "id": "d",
+     "label": "No, it needs a positive determinant"
+    }
+   ],
+   "answer": "c",
+   "explain": "It generalizes the eigendecomposition to any m × n matrix, and the decomposition always exists for a complex matrix.",
+   "cites": [
+    2,
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition:q5"
+  },
+  {
+   "prompt": "Ignoring order, two people each compute the decomposition of the same matrix. What must agree between them?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every factor matrix, entry by entry"
+    },
+    {
+     "id": "b",
+     "label": "Nothing, the results are arbitrary"
+    },
+    {
+     "id": "c",
+     "label": "Only the left factor"
+    },
+    {
+     "id": "d",
+     "label": "The singular values, though the factors may differ"
+    }
+   ],
+   "answer": "d",
+   "explain": "The singular values are uniquely determined up to reordering, but the decomposition in general is not unique.",
+   "cites": [
+    7,
+    11
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.eigenvectors.singular-value-decomposition:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Singular-Value-Decomposition.svg/960px-Singular-Value-Decomposition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Singular value decomposition",
+  "credit": "Georg-Johann",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Singular-Value-Decomposition.svg"
+ },
+ "source": {
+  "title": "Singular value decomposition",
+  "url": "https://en.wikipedia.org/wiki/Singular_value_decomposition",
+  "revision": 1383914796
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Three simple moves",
+    "text": "The singular value decomposition, or SVD, breaks a real or complex matrix into three steps: a rotation, then a scaling, then another rotation. It extends the eigendecomposition, which needs a square normal matrix with an orthonormal eigenbasis, so that it works for any m × n matrix. Such a decomposition exists for every complex matrix.",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   },
+   {
+    "heading": "The pieces",
+    "text": "Written out, the SVD of an m × n complex matrix M is 𝐌 = 𝐔𝜮𝐕^(∗). Here U is an m × m unitary matrix and V is an n × n unitary matrix, while V^(∗) stands for the conjugate transpose of V. The middle factor 𝜮 is a rectangular m × n diagonal matrix whose diagonal holds real numbers that are never negative. Those numbers are the singular values of M; M fixes them up to their order, and they are usually listed from largest to smallest. The columns of U are called left-singular vectors and the columns of V right-singular vectors.",
+    "cites": [
+     4,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "heading": "Seeing it in space",
+    "text": "For a real square matrix, think of M as a transformation of space. The SVD splits it into a rotation or reflection, then a scaling of each coordinate by its singular value, then another rotation or reflection. Another picture: M carries the unit sphere onto an ellipsoid, and the non-zero singular values are the lengths of that ellipsoid's semi-axes. The singular values give the sizes of those axes, and the singular vectors give their directions.",
+    "cites": [
+     16,
+     17,
+     25,
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Rank and building blocks",
+    "text": "The count of non-zero singular values, repeats included, equals the rank r of M. With the singular values sorted, the SVD writes M as r rank-1 matrices added together, one for each singular value. The first r columns of U give a basis for the column space of M. The last n − r columns of V give a basis for its null space.",
+    "cites": [
+     9,
+     13,
+     33,
+     36
+    ]
+   },
+   {
+    "heading": "What it is used for",
+    "text": "In mathematics, the SVD is used to compute the pseudoinverse, to approximate matrices, and to find a matrix's rank, range and null space. It is a common way to carry out low-rank approximation. Science, engineering and statistics rely on it too, for jobs like signal processing, process control and least squares fitting of data.",
+    "cites": [
+     3,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Rotations, reflections and signs",
+    "text": "For a real square matrix, the sign of the determinant says something about the outer factors. If the determinant is positive, U and V^(∗) can both be chosen as rotations with reflections, or both as rotations without. If it is negative, exactly one of them has a reflection. If it is zero, each can be picked as either type on its own.",
+    "cites": [
+     16,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "Compared with eigenvectors",
+    "text": "If M happens to be Hermitian and positive-semidefinite, U and V are both the same unitary matrix that diagonalizes M. When M is diagonalizable but not of that kind, its eigendecomposition and its SVD differ.",
+    "cites": [
+     31,
+     32
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-svd",
+   "kind": "book",
+   "title": "Linear Algebra/Singular Value Decomposition",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Singular_Value_Decomposition",
+   "note": "A free textbook section defining the SVD of any matrix, with a worked example and a proof that it exists.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "austin-ch7",
+   "kind": "book",
+   "title": "7: The Spectral Theorem and singular value decompositions - Understanding Linear Algebra (Austin)",
+   "by": "David Austin",
+   "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/07%3A_The_Spectral_Theorem_and_singular_value_decompositions",
+   "note": "A free textbook chapter building up to singular value decompositions and how they are used.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

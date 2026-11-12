@@ -1,0 +1,568 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.primes",
+ "name": "Primes",
+ "summary": [
+  {
+   "text": "A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Primes are central in number theory because every natural number greater than 1 is either prime or a product of primes, unique up to their order.",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "text": "There are infinitely many primes, no known simple formula separates them from composites, and public-key cryptography relies on how hard it is to factor large numbers.",
+   "cites": [
+    10,
+    11,
+    17
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Infinitely many",
+   "value": "Demonstrated by Euclid around 300 BC",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Divisor test",
+   "value": "A prime has exactly two positive divisors: 1 and itself",
+   "cites": [
+    26,
+    27
+   ]
+  },
+  {
+   "label": "The only even prime",
+   "value": "2; every other prime is odd",
+   "cites": [
+    30,
+    31
+   ]
+  },
+  {
+   "label": "Unsolved questions",
+   "value": "Goldbach's conjecture and the twin prime conjecture",
+   "cites": [
+    15
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A friend says 1 should count as prime because no smaller numbers multiply to make it. Why is 1 left out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is even, and primes must be odd"
+    },
+    {
+     "id": "b",
+     "label": "It is too small to be written as a product"
+    },
+    {
+     "id": "c",
+     "label": "A prime has exactly two divisors, and 1 has only one"
+    },
+    {
+     "id": "d",
+     "label": "It is a multiple of every other number"
+    }
+   ],
+   "answer": "c",
+   "explain": "Primes are the numbers with exactly two positive divisors, 1 and themselves, and 1 has only one divisor.",
+   "cites": [
+    26,
+    27,
+    28
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes:q1"
+  },
+  {
+   "prompt": "A number larger than 5 ends in the digit 5. Could it be prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any odd number could be"
+    },
+    {
+     "id": "b",
+     "label": "Yes, as long as it is over 100"
+    },
+    {
+     "id": "c",
+     "label": "Only if its other digits are all odd"
+    },
+    {
+     "id": "d",
+     "label": "No, it is divisible by 5"
+    }
+   ],
+   "answer": "d",
+   "explain": "Primes larger than 5 end in 1, 3, 7 or 9; numbers ending in 0 or 5 are divisible by 5, so they are composite.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes:q2"
+  },
+  {
+   "prompt": "Why can a large even number such as 1,000 never be prime?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is the product of 2 and a smaller number"
+    },
+    {
+     "id": "b",
+     "label": "Primes stop appearing past a few hundred"
+    },
+    {
+     "id": "c",
+     "label": "It has far too many digits to be prime"
+    },
+    {
+     "id": "d",
+     "label": "It is always divisible by 3 as well"
+    }
+   ],
+   "answer": "a",
+   "explain": "Any even number above 2 can be written as 2 × n/2, so it is a product of smaller numbers.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes:q3"
+  },
+  {
+   "prompt": "You can arrange a pile of dots into a rectangle at least two dots wide and two high. What does that tell you about the count?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It is a prime number"
+    },
+    {
+     "id": "b",
+     "label": "It is a composite number"
+    },
+    {
+     "id": "c",
+     "label": "It is exactly 1"
+    },
+    {
+     "id": "d",
+     "label": "It must be even"
+    }
+   ],
+   "answer": "b",
+   "explain": "A number is prime only if its dots cannot be arranged in such a grid, so a count that can be is composite.",
+   "cites": [
+    20,
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes:q4"
+  },
+  {
+   "prompt": "Why do number theorists treat primes as the building blocks of whole numbers?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Every even number is a sum of two primes"
+    },
+    {
+     "id": "b",
+     "label": "Primes appear at perfectly regular intervals"
+    },
+    {
+     "id": "c",
+     "label": "Every number over 1 is a prime or a product of primes, in one way"
+    },
+    {
+     "id": "d",
+     "label": "Primes are the only numbers with a divisor"
+    }
+   ],
+   "answer": "c",
+   "explain": "The fundamental theorem of arithmetic says each natural number above 1 is prime or factors into primes, uniquely up to order. The sum-of-two-primes claim is Goldbach's conjecture, still unsolved.",
+   "cites": [
+    5,
+    15
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes:q5"
+  },
+  {
+   "prompt": "As numbers get larger, how does the chance that a randomly chosen one is prime change?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It stays the same at every size"
+    },
+    {
+     "id": "b",
+     "label": "It rises, since bigger numbers have more room"
+    },
+    {
+     "id": "c",
+     "label": "It falls, tied inversely to the number of digits"
+    },
+    {
+     "id": "d",
+     "label": "It drops to zero beyond a certain size"
+    }
+   ],
+   "answer": "c",
+   "explain": "The prime number theorem says the chance for a large number is inversely proportional to its number of digits, so primes thin out.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.primes:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Primes-vs-composites.svg/960px-Primes-vs-composites.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Primes",
+  "credit": "David Eppstein",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Primes-vs-composites.svg"
+ },
+ "source": {
+  "title": "Prime number",
+  "url": "https://en.wikipedia.org/wiki/Prime_number",
+  "revision": 1381705799
+ },
+ "pack": {
+  "id": "auto-number-theory-primes",
+  "title": "Numbers That Refuse to Split",
+  "question": "What makes a number prime, and why do primes matter?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Number theory",
+   "Primes"
+  ],
+  "hue": 51,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Primes-vs-composites.svg/960px-Primes-vs-composites.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Primes",
+    "credit": "David Eppstein · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Primes-vs-composites.svg",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Numbers That Refuse to Split",
+    "hook": "Some numbers cannot be arranged into any rectangle of dots, and everything else is built from them."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-number-theory-primes:1",
+    "transfer": false,
+    "prompt": "You try to arrange a number of dots into a grid more than one dot wide and more than one high, and every attempt fails. What kind of number is it?",
+    "explain": "A number is prime if its dots cannot be arranged into a rectangle more than one dot wide and high.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "a",
+        "label": "Composite",
+        "feedback": "Composite numbers are the ones that do form such a grid."
+       },
+       {
+        "id": "c",
+        "label": "Even",
+        "feedback": "Even numbers above 2 can always be split, so they fail to match this."
+       },
+       {
+        "id": "b",
+        "label": "Prime"
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-number-theory-primes:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each number from 2 to 6 into its group",
+    "left": [
+     {
+      "id": "i0",
+      "label": "2"
+     },
+     {
+      "id": "i1",
+      "label": "3"
+     },
+     {
+      "id": "i2",
+      "label": "4"
+     },
+     {
+      "id": "i3",
+      "label": "5"
+     },
+     {
+      "id": "i4",
+      "label": "6"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "prime"
+     },
+     {
+      "id": "g1",
+      "label": "composite"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g0",
+     "i4": "g1"
+    },
+    "explain": "2, 3 and 5 have no divisors besides 1 and themselves, while 4 = 2 × 2 and 6 = 2 × 3."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-number-theory-primes:3",
+    "transfer": true,
+    "prompt": "Match each term to its meaning",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Prime"
+     },
+     {
+      "id": "l1",
+      "label": "Composite"
+     },
+     {
+      "id": "l2",
+      "label": "Odd prime"
+     },
+     {
+      "id": "l3",
+      "label": "Fundamental theorem of arithmetic"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "Greater than 1 and not prime"
+     },
+     {
+      "id": "r0",
+      "label": "Exactly two positive divisors"
+     },
+     {
+      "id": "r2",
+      "label": "Every prime other than 2"
+     },
+     {
+      "id": "r3",
+      "label": "Every number above 1 is prime or a product of primes, unique up to order"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Each term describes how numbers above 1 either resist splitting or are built from primes."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-number-theory-primes:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Any even number n above 2 can be written as 2 × n/2."
+     },
+     {
+      "id": "b",
+      "text": "So no even number above 2 can be prime."
+     },
+     {
+      "id": "c",
+      "text": "That means every prime number is odd."
+     },
+     {
+      "id": "d",
+      "text": "So the smallest prime must be an odd number."
+     }
+    ],
+    "answer": "c",
+    "explain": "The number 2 is prime and even; every prime other than 2 is odd."
+   },
+   {
+    "kind": "payoff",
+    "idea": "Primes cannot be broken into smaller factors, and every other whole number above 1 is built from them.",
+    "connections": [
+     {
+      "title": "Sieve of Eratosthenes",
+      "place": "Primes",
+      "node": "knowledge.mathematics.algebra.number-theory.primes.sieve-of-eratosthenes"
+     },
+     {
+      "title": "Prime number theorem",
+      "place": "Primes",
+      "node": "knowledge.mathematics.algebra.number-theory.primes.prime-number-theorem"
+     },
+     {
+      "title": "Twin prime",
+      "place": "Primes",
+      "node": "knowledge.mathematics.algebra.number-theory.primes.twin-prime"
+     },
+     {
+      "title": "Mersenne prime",
+      "place": "Primes",
+      "node": "knowledge.mathematics.algebra.number-theory.primes.mersenne-prime"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "A number is prime if its dots cannot be arranged into a rectangle more than one dot wide and high.",
+    "source": "Wikipedia sentences 21"
+   },
+   {
+    "claim": "2, 3 and 5 have no divisors besides 1 and themselves, while 4 = 2 × 2 and 6 = 2 × 3.",
+    "source": "Wikipedia sentences 22"
+   },
+   {
+    "claim": "Each term describes how numbers above 1 either resist splitting or are built from primes.",
+    "source": "Wikipedia sentences 5, 20, 26, 31"
+   },
+   {
+    "claim": "The number 2 is prime and even; every prime other than 2 is odd.",
+    "source": "Wikipedia sentences 30, 31"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a prime is",
+    "text": "A prime number, or prime, is a natural number above 1 that is not the result of multiplying two smaller natural numbers. Any natural number above 1 that is not prime is called composite. 5 is prime, since the only ways to write it as a product, 1 × 5 and 5 × 1, use 5 itself. 4 is composite, because 2 × 2 uses two numbers smaller than 4.",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "heading": "Other ways to see it",
+    "text": "A prime is also a number with exactly two positive divisors, 1 and itself; since 1 has just one divisor, it is not prime. Picture n dots: n is prime if no rectangle of them can be wider than one dot and also taller than one dot. Every even number above 2 equals 2 × n/2, so all primes except 2 are odd, and these are called odd primes.",
+    "cites": [
+     21,
+     26,
+     27,
+     28,
+     30,
+     31
+    ]
+   },
+   {
+    "heading": "Why primes matter",
+    "text": "Primes sit at the center of number theory. By the fundamental theorem of arithmetic, every natural number above 1 is either prime or a product of primes, and that product is unique apart from the order of the factors. They matter in computing too: public-key cryptography depends on how hard it is to break large numbers into their prime factors.",
+    "cites": [
+     5,
+     17
+    ]
+   },
+   {
+    "heading": "Testing for primes",
+    "text": "Being prime is called primality. The simplest check, trial division, asks whether n is a multiple of any whole number from 2 up to √n; it works but is slow. The Miller–Rabin test is fast but has a small chance of being wrong, while the AKS test is always right in polynomial time yet too slow for practical use. Numbers of special forms, such as Mersenne primes, have especially fast methods, which have been used to find large primes.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Endless but hard to predict",
+    "text": "Euclid showed around 300 BC that there are infinitely many primes. No known simple formula sorts primes from composites, but their spread across the natural numbers can be modelled statistically on a large scale. The prime number theorem, proved at the end of the 19th century, says roughly that the chance a large random number is prime is inversely proportional to its number of digits.",
+    "cites": [
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "Open questions",
+    "text": "Some old questions about primes remain unsolved. Goldbach's conjecture says every even integer above 2 is a sum of two primes. The twin prime conjecture says that pairs of primes 2 apart never run out. Questions like these drove the growth of branches of number theory that study the analytic or algebraic sides of numbers.",
+    "cites": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "A long history",
+    "text": "The earliest surviving study of primes comes from ancient Greek mathematicians, who called them prōtos arithmòs. The Greek Sieve of Eratosthenes is still used to build lists of primes. Around 1000 AD, Ibn al-Haytham found Wilson's theorem, which picks out primes as the numbers n that divide (n − 1)! + 1 evenly. Fibonacci's Liber Abaci of 1202 was the first book to describe trial division.",
+    "cites": [
+     36,
+     38,
+     39,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "barrus-clark-prime-numbers",
+   "kind": "book",
+   "title": "1.11: Prime Numbers - Elementary Number Theory (Barrus and Clark)",
+   "by": "Mike Barrus & W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Barrus_and_Clark)/01%3A_Chapters/1.11%3A_Prime_Numbers",
+   "note": "A free textbook section on primes: Euclid's proof there are infinitely many, the sieve, open conjectures, with exercises.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "in-our-time-prime-numbers",
+   "kind": "documentary",
+   "title": "Prime Numbers",
+   "by": "BBC Radio 4, In Our Time",
+   "url": "https://www.bbc.co.uk/programmes/p003hyf5",
+   "minutes": 45,
+   "note": "A radio discussion of prime numbers, from Euclid to the Riemann hypothesis."
+  },
+  {
+   "id": "numberphile-infinite-primes",
+   "kind": "video",
+   "title": "Infinite Primes",
+   "by": "Numberphile",
+   "url": "https://www.youtube.com/watch?v=ctC33JAV4FI",
+   "note": "A short video with James Grime on why there are infinitely many prime numbers."
+  }
+ ]
+}

@@ -1,0 +1,342 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate",
+ "name": "Desert climate",
+ "summary": [
+  {
+   "text": "A desert climate is a dry climate type where far more water evaporates than falls as rain, split into hot desert (BWh) and cold desert (BWk).",
+   "cites": [
+    1,
+    4
+   ]
+  },
+  {
+   "text": "A place counts as desert when its yearly rainfall is under half a set threshold; between half and the full threshold it is semi-arid instead.",
+   "cites": [
+    10,
+    11
+   ]
+  },
+  {
+   "text": "Hot deserts typically sit under high pressure near 20° to 33° latitude, where sinking air clears clouds and brings strong sunshine and heat.",
+   "cites": [
+    12,
+    13
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Hot vs cold dividing line",
+   "value": "Mean annual temperature of 18 °C",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Share of land",
+   "value": "Hot desert covers about 14.2% of Earth's land",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Typical yearly rainfall",
+   "value": "Between 25 and 200 mm",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Hottest recorded temperature",
+   "value": "56.7 °C in Death Valley",
+   "cites": [
+    19
+   ]
+  },
+  {
+   "label": "Kufra, Libya rainfall",
+   "value": "About 0.86 mm a year",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two dry towns get the same tiny rainfall. One has a mean annual temperature of 22 °C, the other 9 °C. How are they classed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Both are hot deserts, since rain is what decides it"
+    },
+    {
+     "id": "b",
+     "label": "The warmer is a hot desert, the cooler a cold desert"
+    },
+    {
+     "id": "c",
+     "label": "Both are cold deserts, since neither tops 25 °C"
+    },
+    {
+     "id": "d",
+     "label": "The cooler one is a polar climate, not a desert"
+    }
+   ],
+   "answer": "b",
+   "explain": "Desert climates are split by an 18 °C mean annual temperature: above it is hot desert (BWh), below it is cold desert (BWk).",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate:q1"
+  },
+  {
+   "prompt": "A dry region gets rainfall equal to 70% of its arid threshold. What is it classed as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A hot desert climate"
+    },
+    {
+     "id": "b",
+     "label": "A cold desert climate"
+    },
+    {
+     "id": "c",
+     "label": "A semi-arid climate"
+    },
+    {
+     "id": "d",
+     "label": "A humid climate"
+    }
+   ],
+   "answer": "c",
+   "explain": "Below half the threshold is desert; from 50% to 100% of the threshold is semi-arid.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate:q2"
+  },
+  {
+   "prompt": "Hot deserts cluster around 20° to 33° latitude. What keeps the skies there so clear?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Constant sea breezes blowing clouds out to sea"
+    },
+    {
+     "id": "b",
+     "label": "Sand reflecting heat that burns off the clouds"
+    },
+    {
+     "id": "c",
+     "label": "Rising warm air carrying moisture far upward"
+    },
+    {
+     "id": "d",
+     "label": "Sinking air and high pressure that clear clouds"
+    }
+   ],
+   "answer": "d",
+   "explain": "Under the subtropical ridge, stable descending air and high pressure aloft clear clouds, leaving hot, sunny, dry conditions.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate:q3"
+  },
+  {
+   "prompt": "A hiker camps in a hot desert in the cooler season. Why can the night temperature drop to freezing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Clear skies let heat escape rapidly at night"
+    },
+    {
+     "id": "b",
+     "label": "Cold ocean winds sweep inland after dark"
+    },
+    {
+     "id": "c",
+     "label": "Sand absorbs heat and pulls it from the air"
+    },
+    {
+     "id": "d",
+     "label": "Desert nights bring heavy cooling rainstorms"
+    }
+   ],
+   "answer": "a",
+   "explain": "In colder months, night temperatures can fall to freezing or below because heat radiates away fast under clear skies.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate:q4"
+  },
+  {
+   "prompt": "Compared with hot deserts, where are cold deserts usually found?",
+   "options": [
+    {
+     "id": "a",
+     "label": "At lower altitudes, right beside warm seas"
+    },
+    {
+     "id": "b",
+     "label": "Higher up, often behind tall mountain ranges"
+    },
+    {
+     "id": "c",
+     "label": "Along the equator, under daily thunderstorms"
+    },
+    {
+     "id": "d",
+     "label": "Only on islands far out in the oceans"
+    }
+   ],
+   "answer": "b",
+   "explain": "Cold deserts tend to sit at higher altitudes, often in the leeward rain shadow of high mountains that block rain-bearing winds.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate:q5"
+  },
+  {
+   "prompt": "Bare desert ground is mostly rock or sand. What does that do to the little rain that falls?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It soaks deep and builds up big groundwater stores"
+    },
+    {
+     "id": "b",
+     "label": "It stays on the surface and forms lasting lakes"
+    },
+    {
+     "id": "c",
+     "label": "It evaporates quickly because the ground holds little"
+    },
+    {
+     "id": "d",
+     "label": "It freezes into frost that lingers through summer"
+    }
+   ],
+   "answer": "c",
+   "explain": "Desert surfaces are dry and hold little moisture, so the scant rainfall evaporates quickly.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.earth.climate.climate-zones.dry-climates.desert-climate:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BW_climate.png/960px-BW_climate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Desert climate",
+  "credit": "Maulucioni, based on a previous work by Beck, H.E. et al. 2018",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:BW_climate.png"
+ },
+ "source": {
+  "title": "Desert climate",
+  "url": "https://en.wikipedia.org/wiki/Desert_climate",
+  "revision": 1384139689
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a desert climate is",
+    "text": "A desert climate, also called an arid climate, is a dry type of climate where evaporation runs far ahead of precipitation. In the Köppen climate classification it carries the codes BWh and BWk. The ground in these places is usually bare rock or sand that holds little water, so what little rain falls dries off quickly. The hot kind, BWh, covers about 14.2% of Earth's land, more than any other Köppen type.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "How a place qualifies",
+    "text": "To decide whether a place is arid, you first work out a precipitation threshold for it. If its yearly precipitation is under half that threshold, it counts as desert, written BW; between half and the full threshold, it is semi-arid instead. Most deserts get somewhere between 25 and 200 mm of rain in a year. A few very hot areas in Central Australia, the Sahel and the Guajira Peninsula still count as arid with as much as 430 mm, because evaporation there is so extreme. A mean annual temperature of 18 °C then splits hot deserts (BWh), above it, from cold deserts (BWk), below it.",
+    "cites": [
+     4,
+     5,
+     6,
+     10,
+     11
+    ]
+   },
+   {
+    "heading": "Hot deserts",
+    "text": "Hot deserts usually sit under the subtropical ridge, often between 20° and 33° of latitude north and south. There, calm sinking air and high pressure overhead sweep away clouds, giving hot, dry weather and strong sunshine. They stretch across North Africa, West Asia, interior Australia and the southwestern United States, among other places, and appear on every continent except Antarctica. The hottest month usually averages 29 to 35 °C, and midday readings of 43 to 46 °C are common. Death Valley's 56.7 °C is currently considered the highest temperature recorded on Earth, yet in the cooler months desert nights can fall to freezing or below as heat escapes through the clear sky.",
+    "cites": [
+     12,
+     13,
+     14,
+     15,
+     17,
+     19,
+     23
+    ]
+   },
+   {
+    "heading": "Cold deserts",
+    "text": "Cold deserts (BWk) usually have hot or warm dry summers, though not as hot as in hot deserts, and cold, dry winters. They tend to lie at higher altitudes than hot deserts and are usually drier. Many sit in the 30s and 40s of latitude, often in a rain shadow: the downwind side of high mountains that block rain carried by westerly winds. The Patagonian Desert in Argentina, with the Andes to its west, is one example. The Gobi in northern China and Mongolia is another, hot in summer but with the freezing winters of the rest of Inner Asia.",
+    "cites": [
+     26,
+     27,
+     29,
+     30,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "heading": "The driest places",
+    "text": "No part of Earth is known for certain to get no rain at all. Over 17 years, the Atacama Desert in northern Chile averaged only 5 mm of rain a year. Kufra, Libya, in the Sahara, records even less, 0.86 mm a year. Death Valley's official station reports 60 mm a year, but across 40 months between 1931 and 1934 only 16 mm fell there.",
+    "cites": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Deserts at the poles",
+    "text": "Some parts of the Arctic and Antarctic, called polar deserts, also get very little precipitation, since the cold, dry air freezes most of it. These areas share some desert features, such as streams that flow only now and then, very salty lakes and bare land wherever there is no ice, as in the McMurdo Dry Valleys of Antarctica. Even so, they are normally classed as polar climates, because their summers average below 10 °C.",
+    "cites": [
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "ritter-tropical-desert",
+   "kind": "book",
+   "title": "9.4.5: Tropical Desert Climate",
+   "by": "Michael E. Ritter (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.04%3A_Low_Latitude_Climates/9.4.05%3A_Tropical_Desert_Climate",
+   "note": "A free textbook section on hot deserts: why subtropical high pressure keeps them dry, and their heat and day-night swings.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "ritter-midlatitude-desert",
+   "kind": "book",
+   "title": "9.5.2: Midlatitude Desert Climate",
+   "by": "Michael E. Ritter (LibreTexts)",
+   "url": "https://geo.libretexts.org/Bookshelves/Geography_(Physical)/The_Physical_Environment_(Ritter)/09%3A_Climate_Systems/9.05%3A_Midlatitude_and_Subtropical_Climates/9.5.02%3A_Midlatitude_Desert_Climate",
+   "note": "A free textbook section on cold (BWk) deserts: where they are, rain shadows, and their cold winters.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "veritasium-desert-nights",
+   "kind": "video",
+   "title": "Why do deserts get cold at night?",
+   "by": "Veritasium",
+   "url": "https://www.youtube.com/watch?v=rL0qEmTRI-I",
+   "minutes": 1,
+   "note": "A one-minute video on why deserts swing from hot days to cold nights."
+  }
+ ]
+}

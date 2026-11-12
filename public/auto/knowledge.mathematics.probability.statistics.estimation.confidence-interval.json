@@ -1,0 +1,333 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.statistics.estimation.confidence-interval",
+ "name": "Confidence interval",
+ "summary": [
+  {
+   "text": "A confidence interval gives lower and upper bounds likely to contain an unknown value such as a population mean, instead of reporting a single estimate.",
+   "cites": [
+    1,
+    2
+   ]
+  },
+  {
+   "text": "Its confidence level, typically 95%, describes how well the method performs over repeated samples.",
+   "cites": [
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It does not mean there is a 95% probability that the true value lies inside one particular interval you computed.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Typical level",
+   "value": "A confidence level of 95%",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Repeated sampling",
+   "value": "About 95 of 100 such intervals would contain the true mean",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "The true value",
+   "value": "Treated as a fixed unknown constant, not a random one",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Random endpoints",
+   "value": "The interval's endpoints are random because the sample is random",
+   "cites": [
+    8
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A factory's sample of 25 rods gives a 95% confidence interval of 36.8 to 39.0 mm for the average rod length. Which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "label": "There is a 95% chance the true average lies in this interval"
+    },
+    {
+     "id": "b",
+     "label": "95% of all rods are between 36.8 and 39.0 mm"
+    },
+    {
+     "id": "c",
+     "label": "The true average is fixed, so it is either inside or not"
+    },
+    {
+     "id": "d",
+     "label": "The next sample's mean will land here 95% of the time"
+    }
+   ],
+   "answer": "c",
+   "explain": "The true mean is a fixed number, not random, so whether it lies in this one interval is a matter of fact rather than probability.",
+   "cites": [
+    7,
+    30,
+    31
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation.confidence-interval:q1"
+  },
+  {
+   "prompt": "A pollster repeats the same sampling procedure many times, building a 95% confidence interval each time. What would we expect?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 95% of those intervals would contain the true value"
+    },
+    {
+     "id": "b",
+     "label": "Every one of those intervals would contain the true value"
+    },
+    {
+     "id": "c",
+     "label": "Exactly half of them would contain the true value"
+    },
+    {
+     "id": "d",
+     "label": "All the intervals would come out identical"
+    }
+   ],
+   "answer": "a",
+   "explain": "The confidence level reflects long-run performance: across repeated samples, roughly 95 of 100 intervals would be expected to contain the true mean.",
+   "cites": [
+    5,
+    6
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation.confidence-interval:q2"
+  },
+  {
+   "prompt": "In the frequentist view, what is treated as random when a confidence interval is built?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The true population mean"
+    },
+    {
+     "id": "b",
+     "label": "The interval's endpoints, which depend on a random sample"
+    },
+    {
+     "id": "c",
+     "label": "Both the true mean and the endpoints"
+    },
+    {
+     "id": "d",
+     "label": "Neither the true mean nor the endpoints"
+    }
+   ],
+   "answer": "b",
+   "explain": "The true population mean is a fixed unknown constant, while the endpoints are random variables because the sample is random.",
+   "cites": [
+    7,
+    8
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation.confidence-interval:q3"
+  },
+  {
+   "prompt": "A 95% confidence interval for mean rod length is built from 25 rods. A colleague says 95% of those 25 rods lie inside it. Why can that not be right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Rods cannot be measured precisely enough for that"
+    },
+    {
+     "id": "b",
+     "label": "Rods are measured in millimeters rather than counts"
+    },
+    {
+     "id": "c",
+     "label": "The interval can only describe one rod at a time"
+    },
+    {
+     "id": "d",
+     "label": "95% of 25 is not a whole number of rods"
+    }
+   ],
+   "answer": "d",
+   "explain": "The interval is about the mean, not about individual rods, and in this case the claim cannot hold because 95% of 25 is not an integer.",
+   "cites": [
+    32,
+    33
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation.confidence-interval:q4"
+  },
+  {
+   "prompt": "What does the 95% in a 95% confidence interval describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The chance the true value is in your one interval"
+    },
+    {
+     "id": "b",
+     "label": "The share of the sampled data inside the interval"
+    },
+    {
+     "id": "c",
+     "label": "How reliably the method captures the truth over repeated samples"
+    },
+    {
+     "id": "d",
+     "label": "The size of the sample that was collected"
+    }
+   ],
+   "answer": "c",
+   "explain": "The confidence level reflects the long-run performance of the method used to generate the interval, not the probability for one computed interval.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation.confidence-interval:q5"
+  },
+  {
+   "prompt": "One report says people average 3 hours of screen time a day. Another says between 2 and 4 hours. What is the second report offering?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An interval likely to contain the true value, not a single guess"
+    },
+    {
+     "id": "b",
+     "label": "Certainty that the true value is between 2 and 4"
+    },
+    {
+     "id": "c",
+     "label": "A count of how many people were surveyed"
+    },
+    {
+     "id": "d",
+     "label": "The exact value for every individual person"
+    }
+   ],
+   "answer": "a",
+   "explain": "A confidence interval provides lower and upper bounds likely to contain the true value rather than one point estimate.",
+   "cites": [
+    1,
+    2
+   ],
+   "id": "knowledge.mathematics.probability.statistics.estimation.confidence-interval:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Normal_distribution_50%25_CI_illustration.svg/960px-Normal_distribution_50%25_CI_illustration.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Confidence interval",
+  "credit": "FRuDIxAFLG",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Normal_distribution_50%25_CI_illustration.svg"
+ },
+ "source": {
+  "title": "Confidence interval",
+  "url": "https://en.wikipedia.org/wiki/Confidence_interval",
+  "revision": 1376255302
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "A range instead of a guess",
+    "text": "A confidence interval gives a lower and an upper bound that are likely, over repeated sampling, to contain the true value of an unknown quantity, such as the mean of a population. Instead of one single figure, like an average screen time of 3 hours a day, it reports a range, such as 2 to 4 hours. Each interval comes with a confidence level that is fixed in advance, most often 95%.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "What 95% really means",
+    "text": "The 95% does not mean there is a 95% chance that the true value lies inside one particular interval worked out from a sample. Instead it describes how the method performs in the long run. If the same sampling were repeated 100 times from the same population, you would expect roughly 95 of the intervals it produced to capture the true mean.",
+    "cites": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "heading": "Where the randomness lives",
+    "text": "In this way of thinking, the true population mean is a fixed number that we do not know. The interval is built from a random sample, so its two ends are random too. The chance lies in the interval, not in the true mean.",
+    "cites": [
+     7,
+     8,
+     30
+    ]
+   },
+   {
+    "heading": "A factory example",
+    "text": "Say a factory makes metal rods. A random sample of 25 of them yields an interval from 36.8 to 39.0 mm for their mean length, at a 95% confidence level. It is wrong to say there is a 95% chance the true mean lies in that range. The true mean might be 37 mm, inside the interval, or 40 mm, outside it, but either way that is a matter of fact, not probability. Nor does it mean that 95% of the sampled rods fall in the range; with 25 rods that cannot be true, since 95% of 25 is not a whole number.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   },
+   {
+    "heading": "Common mistakes",
+    "text": "Confidence intervals are often misread, and published studies show that even professional scientists get them wrong. Comparing groups is especially tricky. Two common errors are thinking that two groups differ significantly when their intervals just touch, and thinking they differ when one group's interval leaves out the other's mean. Neither is true in general.",
+    "cites": [
+     27,
+     37,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Confidence versus prediction",
+    "text": "A confidence interval estimates a value that describes a population, such as its mean. A fair six-sided die has an expected value of 3.5, and if you compute many 95% confidence intervals from repeated samples, roughly 95% of them will contain 3.5; the intervals also get narrower as samples grow. A prediction interval is different: it gives a range where a single future observation is expected to land with a certain probability. For one roll of a fair six-sided die no exact 95% prediction interval exists, though there are exact ones for a twenty-sided die.",
+    "cites": [
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-ch8",
+   "kind": "book",
+   "title": "Ch. 8 Introduction",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/8-introduction",
+   "note": "A free textbook introduction to point estimates and confidence intervals, with a plain reading of a 95% interval.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "openstax-8-1",
+   "kind": "book",
+   "title": "8.1 A Single Population Mean using the Normal Distribution",
+   "by": "OpenStax, Introductory Statistics 2e",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/8-1-a-single-population-mean-using-the-normal-distribution",
+   "note": "A free textbook section that builds a confidence interval for a mean step by step and shows how to read it.",
+   "license": "CC BY-NC-SA"
+  },
+  {
+   "id": "cc-stats-20",
+   "kind": "video",
+   "title": "Confidence Intervals: Crash Course Statistics #20",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=yDEvXB6ApWc",
+   "note": "A Crash Course Statistics episode on confidence intervals: a range of plausible values instead of a single estimate."
+  }
+ ]
+}

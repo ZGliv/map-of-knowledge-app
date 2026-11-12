@@ -1,0 +1,327 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry",
+ "name": "Bathymetry",
+ "summary": [
+  {
+   "text": "Bathymetry is the study of how deep the floors of oceans, rivers and lakes are, the underwater version of mapping the shape of land.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Ships measure depth by timing how long a sound pulse takes to travel down, bounce off the seafloor and come back.",
+   "cites": [
+    16,
+    17
+   ]
+  },
+  {
+   "text": "Its charts guide vessels around underwater hazards and help with studying marine life and predicting currents and tides.",
+   "cites": [
+    3
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Oldest records",
+   "value": "Ancient Egypt, over 3,000 years ago",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Mapping gap",
+   "value": "Much of the seabed is less mapped than Mars",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Multibeam sonar",
+   "value": "Typically 256 narrow beams in a fan",
+   "cites": [
+    20
+   ]
+  },
+  {
+   "label": "Depth lines",
+   "value": "Contours called isobaths",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A ship's sonar ping takes longer to return over one spot than over the spot next to it. What does that tell the crew?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The seafloor is deeper at that spot"
+    },
+    {
+     "id": "b",
+     "label": "The water is warmer at that spot"
+    },
+    {
+     "id": "c",
+     "label": "A fish school is blocking the sound"
+    },
+    {
+     "id": "d",
+     "label": "The ship has slowed down there"
+    }
+   ],
+   "answer": "a",
+   "explain": "The travel time of the sound down to the seafloor and back tells the equipment the distance to the bottom, so a longer echo means a greater depth.",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry:q1"
+  },
+  {
+   "prompt": "Early sailors measured depth by lowering a weighted rope over the side. Why was mapping a large area this way slow?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The rope often snapped in deep water"
+    },
+    {
+     "id": "b",
+     "label": "Ships had to anchor before each drop"
+    },
+    {
+     "id": "c",
+     "label": "It measured only one point at a time"
+    },
+    {
+     "id": "d",
+     "label": "Sailors could only work in daylight"
+    }
+   ],
+   "answer": "c",
+   "explain": "Rope or cable sounding gives the depth at one point at a time, which makes it less efficient than other methods.",
+   "cites": [
+    13,
+    14
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry:q2"
+  },
+  {
+   "prompt": "A satellite finds the sea surface slightly higher over one patch of open ocean. What is most likely beneath it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A deep ocean trench"
+    },
+    {
+     "id": "b",
+     "label": "A flat abyssal plain"
+    },
+    {
+     "id": "c",
+     "label": "A large sunken shipwreck"
+    },
+    {
+     "id": "d",
+     "label": "An undersea mountain or ridge"
+    }
+   ],
+   "answer": "d",
+   "explain": "The gravity of undersea mountains and ridges pulls water toward them, so on average sea level sits higher over them than over plains and trenches.",
+   "cites": [
+    31,
+    32
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry:q3"
+  },
+  {
+   "prompt": "Compared with the surface of Mars, how well mapped is the seabed in many places on Earth?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Mapped in far finer detail"
+    },
+    {
+     "id": "b",
+     "label": "Less mapped than Mars"
+    },
+    {
+     "id": "c",
+     "label": "Mapped just as well"
+    },
+    {
+     "id": "d",
+     "label": "Fully mapped since the 1930s"
+    }
+   ],
+   "answer": "b",
+   "explain": "Despite modern computer-based research, the seabed in many locations is less mapped than the topography of Mars.",
+   "cites": [
+    11
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry:q4"
+  },
+  {
+   "prompt": "A survey team swaps its single-beam sounder for a multibeam one that sends a wide fan of beams. What is the main gain?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It can see through solid rock"
+    },
+    {
+     "id": "b",
+     "label": "It maps more seafloor with fewer passes"
+    },
+    {
+     "id": "c",
+     "label": "It no longer needs any computer"
+    },
+    {
+     "id": "d",
+     "label": "It works only in shallow water"
+    }
+   ],
+   "answer": "b",
+   "explain": "A wide swath lets a boat map more seafloor in less time than a single-beam sounder, because it makes fewer passes.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry:q5"
+  },
+  {
+   "prompt": "Before mapping, crews measure how the speed of sound changes with depth in the water. Why?",
+   "options": [
+    {
+     "id": "a",
+     "label": "To warn whales away from the ship"
+    },
+    {
+     "id": "b",
+     "label": "To find how salty the surface is"
+    },
+    {
+     "id": "c",
+     "label": "To correct for sound waves bending"
+    },
+    {
+     "id": "d",
+     "label": "To know how fast the ship can go"
+    }
+   ],
+   "answer": "c",
+   "explain": "Changes in temperature, conductivity and pressure bend the sound waves, and sound speed profiles correct for that bending.",
+   "cites": [
+    24
+   ],
+   "id": "knowledge.earth.oceans.ocean-floor.ocean-exploration.bathymetry:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mid-ocean_ridge_system.gif/960px-Mid-ocean_ridge_system.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Bathymetry",
+  "credit": "National Oceanic and Atmospheric Administration",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Mid-ocean_ridge_system.gif"
+ },
+ "source": {
+  "title": "Bathymetry",
+  "url": "https://en.wikipedia.org/wiki/Bathymetry",
+  "revision": 1371785589
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Measuring the depths",
+    "text": "Bathymetry is the study of how deep the floors of oceans, rivers and lakes lie, and of the shape of those floors. It is the underwater counterpart of topography. The first recorded evidence of people measuring water depth comes from Ancient Egypt, more than 3,000 years ago. The field also goes by names such as seafloor mapping and seabed imaging.",
+    "cites": [
+     1,
+     2,
+     8
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Bathymetric charts guide ships and mark hazards under the water. They usually show the shape of the bottom with contour lines called isobaths, along with selected depths called soundings. Depth data also helps in studying marine life near the bottom, in analysing coastlines, and in predicting currents and tides. Taking and analysing these measurements is a core part of modern hydrography and helps keep the world's shipping of goods safe. Yet in many places the seabed is still less mapped than the surface of Mars.",
+    "cites": [
+     3,
+     4,
+     11,
+     39
+    ]
+   },
+   {
+    "heading": "From ropes to sound",
+    "text": "Depth was first measured by depth sounding, which meant lowering a heavy rope or cable of known length over the side of a ship. This method gives the depth at only one point at a time, so it is less efficient. The ship's movement and the currents can also pull the line out of true, making it less accurate.",
+    "cites": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "heading": "Echoes from the seafloor",
+    "text": "Today depth data typically comes either from systems that use light or from an echosounder, a sonar on a boat that sends a beam of sound down at the seafloor. The time the sound takes to travel down, bounce off the bottom and return tells the equipment how far away the seafloor is. Single-beam sounders were used from the early 1930s. Modern multibeam echosounders use hundreds of narrow beams, typically 256, in a fan usually 90 to 170 degrees wide, so a boat maps more seafloor with fewer passes. A computer corrects for the angle of each beam and for sound bending as it passes through water of uneven temperature, conductivity and pressure.",
+    "cites": [
+     16,
+     17,
+     19,
+     20,
+     22,
+     24,
+     25
+    ]
+   },
+   {
+    "heading": "Light and satellites",
+    "text": "Some surveys use light instead, through LIDAR or LADAR systems that are usually airborne. Satellites help too. Satellite radar picks up subtle bumps and dips in the sea surface created by the gravity of underwater mountains, ridges and other masses. On average, the sea surface sits higher above undersea mountains and ridges than it does above trenches and abyssal plains.",
+    "cites": [
+     16,
+     17,
+     18,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Depth compared to what",
+    "text": "Depth figures are usually measured from a tidal reference level, called a datum. For deep water this is typically Mean Sea Level. Most data used for nautical charts is instead referenced to Mean Lower Low Water in American surveys and to the Lowest Astronomical Tide in other countries.",
+    "cites": [
+     35,
+     36
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-bathymetry",
+   "kind": "article",
+   "title": "What is bathymetry?",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/bathymetry.html",
+   "note": "A short NOAA explainer on what bathymetry is and how the depth of the seafloor is measured."
+  },
+  {
+   "id": "usgs-mapping-seafloor",
+   "kind": "article",
+   "title": "Mapping the Seafloor",
+   "by": "U.S. Geological Survey",
+   "url": "https://www.usgs.gov/science/science-explorer/ocean/mapping-the-seafloor",
+   "note": "A USGS overview of seafloor mapping: collecting bathymetry and backscatter data and what the maps are used for."
+  },
+  {
+   "id": "noaa-bathy-uses",
+   "kind": "article",
+   "title": "How is bathymetric data used?",
+   "by": "NOAA National Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/bathyuses.html",
+   "note": "A short NOAA explainer on the uses of bathymetric data."
+  }
+ ]
+}

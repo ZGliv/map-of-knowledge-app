@@ -1,0 +1,226 @@
+{
+  "summary": [
+    {
+      "text": "A combination is a selection of k things out of n things, with no thing taken twice.",
+      "cites": [
+        1
+      ]
+    },
+    {
+      "text": "A poker hand is a 5-combination from a 52-card deck: the five cards are all different and their order does not matter.",
+      "cites": [
+        5,
+        6
+      ]
+    },
+    {
+      "text": "There are 2,598,960 such hands, so the chance of drawing one particular hand at random is 1 in 2,598,960.",
+      "cites": [
+        7
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Poker hands",
+      "value": "2,598,960 different five-card hands exist",
+      "cites": [
+        7
+      ]
+    },
+    {
+      "label": "Ordered versus unordered",
+      "value": "Divide ordered picks by the orders that give the same group",
+      "cites": [
+        11
+      ]
+    },
+    {
+      "label": "Subsets of a set",
+      "value": "A set of n items has 2ⁿ subsets",
+      "cites": [
+        8
+      ]
+    },
+    {
+      "label": "Allowing repeats",
+      "value": "Called a k-multiset or k-combination with repetition",
+      "cites": [
+        2
+      ]
+    },
+    {
+      "label": "Whole-number trick",
+      "value": "Multiply and divide in turn; no remainders ever appear",
+      "cites": [
+        17,
+        18
+      ]
+    }
+  ],
+  "items": [
+    {
+      "prompt": "You are dealt five cards and then swap two of them around in your hand, keeping the same cards. Is it now a different poker hand?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Yes, the new order makes it a different hand from before"
+        },
+        {
+          "id": "b",
+          "label": "No, the order does not matter, so it is the same hand"
+        },
+        {
+          "id": "c",
+          "label": "Yes, but only if the swapped cards are of different suits"
+        },
+        {
+          "id": "d",
+          "label": "No, unless the cards had been dealt in another order first"
+        }
+      ],
+      "answer": "b",
+      "explain": "In a combination the cards are all different and their order does not matter, so the same five cards are one hand.",
+      "cites": [
+        5,
+        6
+      ]
+    },
+    {
+      "prompt": "To count 3-person teams from a club, you first count every ordered line-up of 3 different people. Why must you divide that number to get the number of teams?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Because some line-ups would use the same person twice"
+        },
+        {
+          "id": "b",
+          "label": "Because every team has exactly three captains to remove"
+        },
+        {
+          "id": "c",
+          "label": "Because each team appears once for every order of its members"
+        },
+        {
+          "id": "d",
+          "label": "Because teams sharing a captain would be counted together"
+        }
+      ],
+      "answer": "c",
+      "explain": "The line-up count includes each group several times, once for each order of its members; dividing removes those repeats.",
+      "cites": [
+        11
+      ]
+    },
+    {
+      "prompt": "A friend wants one specific, exact five-card hand to be dealt at random from a 52-card deck. What are the chances?",
+      "options": [
+        {
+          "id": "a",
+          "label": "1 in 2,598,960, because that many different hands exist"
+        },
+        {
+          "id": "b",
+          "label": "1 in 52, because each card has one chance in the deck"
+        },
+        {
+          "id": "c",
+          "label": "1 in 260, because five cards are drawn all at once"
+        },
+        {
+          "id": "d",
+          "label": "1 in 25,989, because the order of dealing is ignored"
+        }
+      ],
+      "answer": "a",
+      "explain": "There are 2,598,960 possible hands, and the chance of drawing any one at random is 1 in that number.",
+      "cites": [
+        5,
+        7
+      ]
+    },
+    {
+      "prompt": "A bowl holds an apple, an orange and a pear. You pick 2 pieces, but now you may take two of the same kind. What changes?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Nothing changes, since you still pick from the same three"
+        },
+        {
+          "id": "b",
+          "label": "Every choice is now counted twice, once for each order"
+        },
+        {
+          "id": "c",
+          "label": "Only the choices that include the apple become possible"
+        },
+        {
+          "id": "d",
+          "label": "Three new choices appear, such as taking two apples"
+        }
+      ],
+      "answer": "d",
+      "explain": "Allowing repeats adds three selections: two apples, two oranges or two pears.",
+      "cites": [
+        2,
+        3
+      ]
+    },
+    {
+      "prompt": "Computing 52 ÷ 1 × 51 ÷ 2 × 50 ÷ 3 × 49 ÷ 4 × 48 ÷ 5 in exactly that order never leaves a fraction. Why?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The divisions are saved for the very end of the calculation"
+        },
+        {
+          "id": "b",
+          "label": "Every running result is itself a count of combinations"
+        },
+        {
+          "id": "c",
+          "label": "Dividing by small numbers such as 2 or 3 never leaves a remainder"
+        },
+        {
+          "id": "d",
+          "label": "Each of 51, 50 and 49 is a multiple of the next divisor"
+        }
+      ],
+      "answer": "b",
+      "explain": "At each division the intermediate result is itself a count of combinations, so it is a whole number and no remainder appears.",
+      "cites": [
+        9,
+        17,
+        18
+      ]
+    },
+    {
+      "prompt": "Line up all n people in some order and take the first k as the chosen group. Why do many different line-ups give the same group?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Shuffling the first k, or the remaining ones, leaves the group unchanged"
+        },
+        {
+          "id": "b",
+          "label": "Each person can appear in the first k places only once overall"
+        },
+        {
+          "id": "c",
+          "label": "Line-ups that begin with the same person are always identical"
+        },
+        {
+          "id": "d",
+          "label": "Swapping people between the chosen k and the rest keeps the group"
+        }
+      ],
+      "answer": "a",
+      "explain": "Reordering the chosen k among themselves, or the rest among themselves, gives the same group, which explains the division.",
+      "cites": [
+        14,
+        15,
+        16
+      ]
+    }
+  ]
+}

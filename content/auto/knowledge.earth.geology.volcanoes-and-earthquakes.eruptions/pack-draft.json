@@ -1,0 +1,10 @@
+{"title":"Ooze or Explode?",
+"question":"What makes one volcanic eruption gentle and another violent?",
+"hook":"A single volcano can switch between calm lava and explosive blasts within one cycle of activity.",
+"idea":"Eruptions are sorted by what drives them and how hard they blow, from calm lava outpourings to violent gas-driven explosions.",
+"beats":[
+{"kind":"sort","prompt":"Sort each description into its eruption style","groups":["Effusive","Explosive"],"items":[["Pours out lava without significant explosion","Effusive"],["Gas-driven blasts that hurl magma and tephra","Explosive"],["Hawaiian eruptions with lava fountains","Effusive"],["Plinian eruptions","Explosive"],["Fluid lava flows, typically not very dangerous","Effusive"],["Large, violent and highly dangerous events","Explosive"]],"explain":"Effusive eruptions let lava flow out without significant explosion, while explosive ones are driven by gas blasting out magma and tephra.","cites":[15,16,17,19,20]},
+{"kind":"order","prompt":"Put these eruption types in order of strength","items":["Hawaiian","Strombolian","Vulcanian","Plinian"],"ends":["weakest","strongest"],"explain":"Hawaiian eruptions are among the weakest, then Strombolian, then Vulcanian, with Plinian among the strongest.","cites":[11,12]},
+{"kind":"match","prompt":"Match each eruption type to what drives it","pairs":[["Magmatic","Gas expanding within magma"],["Phreatic","Steam superheated by nearby magma"],["Phreatomagmatic","Magma meeting water directly"]],"explain":"The three main types differ in their driver: gas in magma, steam heated from a distance, or magma touching water.","cites":[5,6,7,9]},
+{"kind":"flaw","prompt":"One step in this reasoning is wrong; which?","steps":["The VEI rates eruptions on a scale from 0 to 8.","Each step up the scale means a tenfold increase.","So a VEI 4 eruption is twice as big as a VEI 2.","Most eruptions are small, scoring between 0 and 2."],"wrong":2,"explain":"The scale is logarithmic, so two steps up means about 100 times bigger, not twice as big.","cites":[27,29,30]}
+]}

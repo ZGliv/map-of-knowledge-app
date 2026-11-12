@@ -1,0 +1,330 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.number-theory.divisibility.divisor",
+ "name": "Divisor",
+ "summary": [
+  {
+   "text": "7 is a divisor of 42 because 7 × 6 = 42, so we can say 7 ∣ 42; equally, 42 is divisible by 7 and is a multiple of 7.",
+   "cites": [
+    18,
+    19
+   ]
+  },
+  {
+   "text": "Divisors can be negative as well as positive, though usually only the positive ones are mentioned: 4 has six divisors, 1, 2, 4, −1, −2 and −4.",
+   "cites": [
+    9,
+    10
+   ]
+  },
+  {
+   "text": "Composite numbers have a divisor beyond the trivial ones, while a prime has exactly two positive factors, 1 and itself.",
+   "cites": [
+    16,
+    30
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Divisors of 4",
+   "value": "1, 2, 4, −1, −2 and −4, six in all",
+   "cites": [
+    10
+   ]
+  },
+  {
+   "label": "Universal divisors",
+   "value": "1 and −1 divide every integer",
+   "cites": [
+    11
+   ]
+  },
+  {
+   "label": "Self divisor",
+   "value": "Every integer is a divisor of itself",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Even and odd",
+   "value": "Even integers are divisible by 2; odd ones are not",
+   "cites": [
+    13
+   ]
+  },
+  {
+   "label": "Prime number",
+   "value": "A positive integer with exactly two positive factors",
+   "cites": [
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Someone tells you seven is a factor of 42. Which other statement says exactly the same thing?",
+   "options": [
+    {
+     "id": "a",
+     "label": "42 is a factor of 7"
+    },
+    {
+     "id": "b",
+     "label": "7 is a multiple of 42"
+    },
+    {
+     "id": "c",
+     "label": "42 is a multiple of 7"
+    },
+    {
+     "id": "d",
+     "label": "42 divides 7"
+    }
+   ],
+   "answer": "c",
+   "explain": "Being a factor of 42 means dividing 42, which makes 42 a multiple of 7.",
+   "cites": [
+    19
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility.divisor:q1"
+  },
+  {
+   "prompt": "If you count negative numbers too, how many divisors does 4 have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Three"
+    },
+    {
+     "id": "b",
+     "label": "Four"
+    },
+    {
+     "id": "c",
+     "label": "Eight"
+    },
+    {
+     "id": "d",
+     "label": "Six"
+    }
+   ],
+   "answer": "d",
+   "explain": "The divisors are 1, 2, 4 and their negatives, which makes six.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility.divisor:q2"
+  },
+  {
+   "prompt": "Some numbers divide every integer, whatever it is. Which ones?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only 1"
+    },
+    {
+     "id": "b",
+     "label": "1 and −1"
+    },
+    {
+     "id": "c",
+     "label": "1 and the integer itself"
+    },
+    {
+     "id": "d",
+     "label": "1 and 2"
+    }
+   ],
+   "answer": "b",
+   "explain": "1 and −1 are divisors of every integer. The integer itself only works for itself.",
+   "cites": [
+    11,
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility.divisor:q3"
+  },
+  {
+   "prompt": "A number's only positive factors are 1 and the number itself, and there are exactly two of them. What do we call it?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A prime number"
+    },
+    {
+     "id": "b",
+     "label": "A composite number"
+    },
+    {
+     "id": "c",
+     "label": "An even number"
+    },
+    {
+     "id": "d",
+     "label": "A unit"
+    }
+   ],
+   "answer": "a",
+   "explain": "A prime is a positive integer with exactly two positive factors: 1 and itself.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility.divisor:q4"
+  },
+  {
+   "prompt": "You try to pair up 9 socks into twosomes and cannot, because 9 does not split by 2. What kind of integer is 9?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Even"
+    },
+    {
+     "id": "b",
+     "label": "A divisor of 2"
+    },
+    {
+     "id": "c",
+     "label": "Odd"
+    },
+    {
+     "id": "d",
+     "label": "Composite only"
+    }
+   ],
+   "answer": "c",
+   "explain": "Integers not divisible by 2 are called odd.",
+   "cites": [
+    13
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility.divisor:q5"
+  },
+  {
+   "prompt": "Is a number ever a divisor of itself? Think about 17 and 17.",
+   "options": [
+    {
+     "id": "a",
+     "label": "No, a divisor has to be smaller than the number"
+    },
+    {
+     "id": "b",
+     "label": "Yes, every integer is a divisor of itself"
+    },
+    {
+     "id": "c",
+     "label": "Only if the number is prime"
+    },
+    {
+     "id": "d",
+     "label": "Only if the number is even"
+    }
+   ],
+   "answer": "b",
+   "explain": "Every integer, and its negation, is a divisor of itself.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.number-theory.divisibility.divisor:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cuisenaire_ten.JPG/960px-Cuisenaire_ten.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Divisor",
+  "credit": "Annielogue",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cuisenaire_ten.JPG"
+ },
+ "source": {
+  "title": "Divisor",
+  "url": "https://en.wikipedia.org/wiki/Divisor",
+  "revision": 1380587208
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a divisor is",
+    "text": "A divisor of an integer n, which people also call a factor of n, is an integer m that you can multiply by some integer to get n. In that case n is a multiple of m, and n is divisible by m, which means dividing n by m leaves no remainder. For example, 7 × 6 = 42, so 7 is a divisor of 42, written 7 ∣ 42. You can also say 7 divides 42, or 42 is a multiple of 7.",
+    "cites": [
+     1,
+     2,
+     3,
+     18,
+     19
+    ]
+   },
+   {
+    "heading": "Positive, negative and trivial",
+    "text": "Divisors can be negative as well as positive, though people often mean only the positive ones. The number 4 has six divisors, 1, 2, 4, −1, −2 and −4, but usually only 1, 2 and 4 are mentioned. Every integer n is divided by 1, −1, n and −n, which are called its trivial divisors; any other divisor is non-trivial. Any nonzero integer that has a non-trivial divisor is a composite number. A prime number, by contrast, is a positive integer with exactly two positive factors: 1 and itself.",
+    "cites": [
+     9,
+     10,
+     11,
+     12,
+     14,
+     15,
+     16,
+     30
+    ]
+   },
+   {
+    "heading": "Rules divisors follow",
+    "text": "Divisibility passes along a chain: if a divides b and b divides c, then a divides c. If a divides both b and c, it also divides their sum b + c and their difference b − c. But two divisors of a number need not add up to another divisor: 2 and 3 both divide 6, yet 5 does not. Euclid's lemma says that if a divides bc and gcd (a, b) = 1, then a divides c.",
+    "cites": [
+     20,
+     22,
+     23,
+     26,
+     27
+    ]
+   },
+   {
+    "heading": "Proper divisors",
+    "text": "A positive divisor of n that is not n itself is called a proper divisor, or an aliquot part. The proper divisors of 6, for instance, are 1, 2 and 3. Adding up the proper divisors sorts numbers into three kinds. If the sum equals n, the number is perfect; if the sum is smaller, it is deficient; and if the sum is bigger, it is abundant.",
+    "cites": [
+     28,
+     33
+    ]
+   },
+   {
+    "heading": "Counting divisors",
+    "text": "The number of positive divisors of n is written d (n). When m and n are relatively prime, d (m n) = d (m) × d (n). For instance, 42 has eight divisors, 1, 2, 3, 6, 7, 14, 21 and 42, and 8 = d (2) × d (3) × d (7). This can break down when m and n share a common divisor. On average, a randomly chosen positive integer n has about ln n divisors, though that figure comes from the share contributed by numbers with unusually many divisors.",
+    "cites": [
+     34,
+     35,
+     36,
+     39,
+     40
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "raji-1-3",
+   "kind": "book",
+   "title": "1.3: Divisibility and the Division Algorithm",
+   "by": "Wissam Raji, American University of Beirut (LibreTexts)",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Raji)/01%3A_Introduction/1.03%3A_Divisibility_and_the_Division_Algorithm",
+   "note": "A free textbook section defining divisors and multiples and proving rules such as transitivity.",
+   "license": "CC BY"
+  },
+  {
+   "id": "mathworld-divisor",
+   "kind": "article",
+   "title": "Divisor",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/Divisor.html",
+   "note": "A reference entry on divisors, counting them, and sums and products of a number's divisors."
+  },
+  {
+   "id": "barrus-1-4",
+   "kind": "book",
+   "title": "1.4: Elementary Divisibility Properties",
+   "by": "Mike Barrus & W. Edwin Clark",
+   "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Barrus_and_Clark)/01%3A_Chapters/1.04%3A_Elementary_Divisibility_Properties",
+   "note": "A free textbook section defining what it means for one integer to divide another and proving the basic rules.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

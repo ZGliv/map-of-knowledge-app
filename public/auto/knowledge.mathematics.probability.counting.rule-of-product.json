@@ -1,0 +1,528 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.counting.rule-of-product",
+ "name": "Rule of product",
+ "summary": [
+  {
+   "text": "The rule of product, or multiplication principle, is a basic counting principle in combinatorics.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "If there are a ways of doing one thing and b ways of doing another, there are a · b ways of doing both.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "When you pick one of two crusts and then one of three toppings, the rule gives 2 × 3 = 6 possible pizzas.",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "The fundamental principle of counting",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "The formula",
+   "value": "a ways and b ways give a · b ways for both",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Pizza example",
+   "value": "2 crusts and 3 toppings give 6 combinations",
+   "cites": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "label": "Infinite sets",
+   "value": "The sets need not be finite",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Companion rule",
+   "value": "The rule of sum covers things you cannot do together",
+   "cites": [
+    10,
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A shop sells 4 kinds of shirt and 3 kinds of trousers. You pick one of each. How many different outfits can you make?",
+   "options": [
+    {
+     "id": "a",
+     "label": "7 outfits"
+    },
+    {
+     "id": "b",
+     "label": "12 outfits"
+    },
+    {
+     "id": "c",
+     "label": "1 outfit"
+    },
+    {
+     "id": "d",
+     "label": "24 outfits"
+    }
+   ],
+   "answer": "b",
+   "explain": "You do both actions, a ways and b ways, so the count is a · b: 4 × 3 = 12.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product:q1"
+  },
+  {
+   "prompt": "You must pick one of 2 crusts and then one of 3 toppings. Why does the number of pizzas come from multiplying and not from adding?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Because multiplying always gives the bigger answer"
+    },
+    {
+     "id": "b",
+     "label": "Because the toppings are chosen before the crusts"
+    },
+    {
+     "id": "c",
+     "label": "Because crusts and toppings cannot be mixed together"
+    },
+    {
+     "id": "d",
+     "label": "Because every crust can be paired with each topping"
+    }
+   ],
+   "answer": "d",
+   "explain": "Both choices are made, and each of the 2 crusts goes with each of the 3 toppings, giving 2 × 3 = 6 pizzas.",
+   "cites": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product:q2"
+  },
+  {
+   "prompt": "For lunch you will pick one meal from 3 soups or one meal from 4 salads, never both. Which counting idea gives the number of lunch choices?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add them, because the two options cannot be done at once"
+    },
+    {
+     "id": "b",
+     "label": "Multiply them, because there are two kinds of option"
+    },
+    {
+     "id": "c",
+     "label": "Subtract them, because you give up one kind"
+    },
+    {
+     "id": "d",
+     "label": "Neither, because the choices have different sizes"
+    }
+   ],
+   "answer": "a",
+   "explain": "When two things cannot be done at the same time, the ways to choose one of them are added. That is the rule of sum, not the rule of product.",
+   "cites": [
+    10,
+    11
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product:q3"
+  },
+  {
+   "prompt": "A student claims the multiplication principle only works when every set involved has a limited number of members. Is that right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, infinite sets cannot be multiplied at all"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only when there are exactly two sets"
+    },
+    {
+     "id": "c",
+     "label": "No, the sets need not be finite"
+    },
+    {
+     "id": "d",
+     "label": "No, but it fails if the sets have equal size"
+    }
+   ],
+   "answer": "c",
+   "explain": "The sets need not be finite, and there need not be only finitely many factors in the product.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product:q4"
+  },
+  {
+   "prompt": "A pizza place has 2 crusts and 3 toppings. It then offers twice as many crusts and keeps the same toppings. What happens to the number of combinations?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It rises by 2"
+    },
+    {
+     "id": "b",
+     "label": "It stays the same"
+    },
+    {
+     "id": "c",
+     "label": "It rises by 3"
+    },
+    {
+     "id": "d",
+     "label": "It doubles"
+    }
+   ],
+   "answer": "d",
+   "explain": "The total is a · b, so doubling the crust choices while keeping b fixed doubles the product.",
+   "cites": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product:q5"
+  },
+  {
+   "prompt": "Which statement correctly separates the rule of product from the rule of sum?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Product counts doing both actions; sum counts choosing one of two actions that cannot happen together"
+    },
+    {
+     "id": "b",
+     "label": "Product counts choosing one of two actions; sum counts doing both actions together"
+    },
+    {
+     "id": "c",
+     "label": "Product is for big numbers; sum is for small numbers of choices"
+    },
+    {
+     "id": "d",
+     "label": "Product is for finite sets; sum is for infinite sets of choices"
+    }
+   ],
+   "answer": "a",
+   "explain": "The rule of product applies when you perform both actions, giving a · b. The rule of sum applies when the actions cannot both be done, giving a + b.",
+   "cites": [
+    2,
+    11
+   ],
+   "id": "knowledge.mathematics.probability.counting.rule-of-product:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Multiplication-principle.svg/960px-Multiplication-principle.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Rule of product",
+  "credit": "Svjo",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Multiplication-principle.svg"
+ },
+ "source": {
+  "title": "Rule of product",
+  "url": "https://en.wikipedia.org/wiki/Rule_of_product",
+  "revision": 1315362408
+ },
+ "pack": {
+  "id": "auto-counting-rule-of-product",
+  "title": "Why pizza orders multiply",
+  "question": "How do separate choices combine into one count of possibilities?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Counting",
+   "Rule of product"
+  ],
+  "hue": 39,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Multiplication-principle.svg/960px-Multiplication-principle.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Rule of product",
+    "credit": "Svjo · CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Multiplication-principle.svg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Why pizza orders multiply",
+    "hook": "Two crusts and three toppings sound like five options, but the menu holds more than that."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-counting-rule-of-product:1",
+    "transfer": false,
+    "prompt": "You pick a cone from 3 kinds and a flavour from 4 kinds, one of each. How many different cone-and-flavour orders exist?",
+    "explain": "With a ways of doing one thing and b ways of doing another, there are a · b ways of doing both: 3 × 4 = 12.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "1",
+        "feedback": "Only if there were no choices at all; here each cone pairs with each flavour."
+       },
+       {
+        "id": "b",
+        "label": "12"
+       },
+       {
+        "id": "a",
+        "label": "7",
+        "feedback": "Tempting because 3 + 4 is quick, but you make both choices, so the counts multiply."
+       }
+      ],
+      "answer": "b"
+     }
+    ]
+   },
+   {
+    "kind": "order",
+    "gradeId": "auto-counting-rule-of-product:2",
+    "transfer": false,
+    "prompt": "put the steps of counting a pizza order in order",
+    "items": [
+     {
+      "id": "a",
+      "label": "Pick a crust: thin or deep dish"
+     },
+     {
+      "id": "b",
+      "label": "Pick one topping: cheese, pepperoni, or sausage"
+     },
+     {
+      "id": "c",
+      "label": "Multiply the choices: 2 × 3"
+     },
+     {
+      "id": "d",
+      "label": "Conclude there are 6 possible pizzas"
+     }
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "ends": [
+     "first",
+     "last"
+    ],
+    "explain": "You choose the crust, then the topping, and then the rule of product combines the two counts into 6."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-counting-rule-of-product:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "sort each situation by the rule that counts it",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Choosing a crust and then a topping"
+     },
+     {
+      "id": "i1",
+      "label": "Doing one action and also another action"
+     },
+     {
+      "id": "i2",
+      "label": "Doing one action or another, but never both"
+     },
+     {
+      "id": "i3",
+      "label": "Taking one of two things that cannot happen at once"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Use rule of product"
+     },
+     {
+      "id": "g1",
+      "label": "Use rule of sum"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "The rule of product counts doing both actions. The rule of sum counts choosing one of two actions that cannot be done at the same time."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-counting-rule-of-product:4",
+    "transfer": true,
+    "prompt": "one step in this reasoning is wrong; which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A pizza order needs a crust and a topping."
+     },
+     {
+      "id": "b",
+      "text": "There are 2 crust choices and 3 topping choices."
+     },
+     {
+      "id": "c",
+      "text": "Because both are chosen, add them: 2 + 3 = 5 pizzas."
+     },
+     {
+      "id": "d",
+      "text": "So there are 5 possible orders."
+     }
+    ],
+    "answer": "c",
+    "explain": "Both choices are made, so the rule of product applies: 2 × 3 = 6 pizzas, not 5."
+   },
+   {
+    "kind": "payoff",
+    "idea": "When you make one choice and then another, multiply the number of options for each.",
+    "connections": [
+     {
+      "title": "Rule of sum",
+      "place": "Rule of product",
+      "node": "knowledge.mathematics.probability.counting.rule-of-product.rule-of-sum"
+     },
+     {
+      "title": "Tree diagram",
+      "place": "Rule of product",
+      "node": "knowledge.mathematics.probability.counting.rule-of-product.tree-diagram"
+     },
+     {
+      "title": "Factorial",
+      "place": "Rule of product",
+      "node": "knowledge.mathematics.probability.counting.rule-of-product.factorial"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "With a ways of doing one thing and b ways of doing another, there are a · b ways of doing both: 3 × 4 = 12.",
+    "source": "Wikipedia sentences 2"
+   },
+   {
+    "claim": "You choose the crust, then the topping, and then the rule of product combines the two counts into 6.",
+    "source": "Wikipedia sentences 3, 4, 5"
+   },
+   {
+    "claim": "The rule of product counts doing both actions. The rule of sum counts choosing one of two actions that cannot be done at the same time.",
+    "source": "Wikipedia sentences 2, 11"
+   },
+   {
+    "claim": "Both choices are made, so the rule of product applies: 2 × 3 = 6 pizzas, not 5.",
+    "source": "Wikipedia sentences 2, 3, 4, 5"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "A basic tool for counting",
+    "text": "The rule of product is one of the basic principles of counting in combinatorics. It also goes by the name multiplication principle. A third name for it is the fundamental principle of counting.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "heading": "The rule in one line",
+    "text": "Suppose one task can be done in a ways and a second task can be done in b ways. Then the two tasks, done together, can be carried out in a · b ways. Put another way, to count the ways of doing both, you multiply the number of ways of doing each. Stated this simply, it is an intuitive idea.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "heading": "Ordering a pizza",
+    "text": "Picture ordering a pizza. First you pick a crust, and there are 2 options: thin or deep dish. Next you pick a single topping from 3 options: cheese, pepperoni or sausage. Putting the two choices together, the rule of product tells you there are 2 × 3 = 6 different pizzas you could order.",
+    "cites": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "Choices as sets",
+    "text": "The rule can also be written with sets, using the × sign for the Cartesian product of those sets. The sets in that product do not have to be finite. You are also not limited to a finite number of sets being multiplied together. A wider version of the rule looks at n kinds of objects, such as sweets, being given to k objects, such as people. It then asks in how many different ways the people can receive their sweets.",
+    "cites": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "heading": "Its partner, the rule of sum",
+    "text": "The rule of product has a companion called the rule of sum, which is another basic counting principle. It covers the case where you have a ways to do one thing and b ways to do another, but the two cannot both be done at the same time. In that case there are a + b ways to pick one of the two actions. So the two rules split the work: when both actions are carried out, you multiply, and when you can choose only one of them, you add.",
+    "cites": [
+     2,
+     10,
+     11
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-7-1",
+   "kind": "book",
+   "title": "7.1 The Multiplication Rule for Counting",
+   "by": "OpenStax, Contemporary Mathematics",
+   "url": "https://openstax.org/books/contemporary-mathematics/pages/7-1-the-multiplication-rule-for-counting",
+   "note": "A free textbook section on the multiplication rule, with worked examples and practice problems.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "mathworld-product-rule",
+   "kind": "article",
+   "title": "Multiplication Principle",
+   "by": "Eric W. Weisstein, Wolfram MathWorld",
+   "url": "https://mathworld.wolfram.com/MultiplicationPrinciple.html",
+   "note": "A short reference entry stating the rule for any number of steps, linked to the Cartesian product."
+  },
+  {
+   "id": "openstax-precalc-11-5",
+   "kind": "book",
+   "title": "11.5 Counting Principles - Precalculus 2e",
+   "by": "OpenStax (Jay Abramson)",
+   "url": "https://openstax.org/books/precalculus-2e/pages/11-5-counting-principles",
+   "note": "A free textbook section on the addition and multiplication principles, leading into permutations and combinations.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

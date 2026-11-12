@@ -1,0 +1,329 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem",
+ "name": "Central limit theorem",
+ "summary": [
+  {
+   "text": "The central limit theorem says that, under appropriate conditions, the distribution of a normalized sample mean converges to a standard normal distribution.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "This holds even when the original variables are not themselves normally distributed.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "That makes it key, because methods that work for normal distributions can then apply to many problems involving other distributions.",
+   "cites": [
+    4
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Earliest version",
+   "value": "Normal approximation to the binomial, the de Moivre-Laplace theorem",
+   "cites": [
+    14
+   ]
+  },
+  {
+   "label": "Modern form",
+   "value": "Stated precisely only in the 1920s",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Common condition",
+   "value": "Variables independent and identically distributed",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Link to large numbers",
+   "value": "The averages head to a limit, and this describes their fluctuations",
+   "cites": [
+    15,
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Many people each take a large sample and compute its average. If all those averages are collected, what shape should their distribution have?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A flat line across all values"
+    },
+    {
+     "id": "b",
+     "label": "Whatever shape the raw data had"
+    },
+    {
+     "id": "c",
+     "label": "Two separate peaks"
+    },
+    {
+     "id": "d",
+     "label": "Close to a normal distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "If the sample size is large enough, the probability distribution of these averages will closely approximate a normal distribution.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem:q1"
+  },
+  {
+   "prompt": "The individual measurements are skewed and nothing like a bell shape. Can the theorem still say something about their averages?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since it holds even without normal originals"
+    },
+    {
+     "id": "b",
+     "label": "No, the originals must be normal first"
+    },
+    {
+     "id": "c",
+     "label": "No, averages cannot be studied at all"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only for a single measurement"
+    }
+   ],
+   "answer": "a",
+   "explain": "The theorem holds even if the original variables themselves are not normally distributed.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem:q2"
+  },
+  {
+   "prompt": "The law of large numbers says a sample average heads toward the true mean. What does the central limit theorem add?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It proves the average never moves at all"
+    },
+    {
+     "id": "b",
+     "label": "It replaces the true mean with zero"
+    },
+    {
+     "id": "c",
+     "label": "It describes how the average fluctuates around that mean"
+    },
+    {
+     "id": "d",
+     "label": "It says the average is always exactly right"
+    }
+   ],
+   "answer": "c",
+   "explain": "The classical theorem describes the size and the distributional form of the fluctuations around the deterministic number during this convergence.",
+   "cites": [
+    15,
+    16
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem:q3"
+  },
+  {
+   "prompt": "The usual form needs observations that are independent and identically distributed. Must that always hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, with no exceptions"
+    },
+    {
+     "id": "b",
+     "label": "Yes, since any change ruins normality"
+    },
+    {
+     "id": "c",
+     "label": "No, the theorem only needs one observation"
+    },
+    {
+     "id": "d",
+     "label": "No, it can be weakened under certain conditions"
+    }
+   ],
+   "answer": "d",
+   "explain": "The requirement can be weakened: convergence to the normal distribution also occurs for non-identical distributions or non-independent observations if they meet certain conditions.",
+   "cites": [
+    12,
+    13
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem:q4"
+  },
+  {
+   "prompt": "The earliest version of the idea used the normal curve to approximate which other distribution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The Cauchy distribution"
+    },
+    {
+     "id": "b",
+     "label": "The binomial distribution"
+    },
+    {
+     "id": "c",
+     "label": "The Pareto distribution"
+    },
+    {
+     "id": "d",
+     "label": "The uniform distribution"
+    }
+   ],
+   "answer": "b",
+   "explain": "The earliest version, the de Moivre-Laplace theorem, says the normal distribution may be used as an approximation to the binomial distribution.",
+   "cites": [
+    14
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem:q5"
+  },
+  {
+   "prompt": "Why is this theorem so valuable to statisticians working with non-normal data?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It turns every data set into a normal one"
+    },
+    {
+     "id": "b",
+     "label": "It makes sampling unnecessary"
+    },
+    {
+     "id": "c",
+     "label": "It removes all random variation"
+    },
+    {
+     "id": "d",
+     "label": "Methods built for normal distributions can serve other problems"
+    }
+   ],
+   "answer": "d",
+   "explain": "It implies that methods that work for normal distributions can be applicable to many problems involving other types of distributions.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.basic-probability.law-of-large-numbers.central-limit-theorem:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/IllustrationCentralTheorem.png/960px-IllustrationCentralTheorem.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Central limit theorem",
+  "credit": "Mathieu ROUAUD",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:IllustrationCentralTheorem.png"
+ },
+ "source": {
+  "title": "Central limit theorem",
+  "url": "https://en.wikipedia.org/wiki/Central_limit_theorem",
+  "revision": 1383643841
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the theorem says",
+    "text": "The central limit theorem, or CLT, is a result in probability theory about averages. Take a sample, find its mean, and rescale that mean in a standard way. Under suitable conditions, the distribution of this rescaled mean settles toward the standard normal distribution. This holds even when the individual values are not normally distributed themselves.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "heading": "Why it matters",
+    "text": "Because of this, methods built for normal distributions can be put to work on many problems that involve other kinds of distributions. That is the reason the theorem counts as a key idea in probability theory.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "heading": "A picture in plain words",
+    "text": "Imagine gathering a large set of observations, each produced at random and without depending on any of the others. Work out their average. Now repeat the whole process many times, so you end up holding a pile of averages. The theorem says that, once each sample is big enough, the way those averages are spread out will closely match a normal distribution.",
+    "cites": [
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "The formula version",
+    "text": "In statistics, let X₁, X₂, …, Xₙ be a sample of size n from a population whose expected value, or average, is μ and whose variance σ² is finite and positive. The sample mean X̄_n is itself a random variable. As n → ∞, the distribution of (X̄_n − μ)√n approaches a normal distribution with mean 0 and variance σ². Put another way, for large enough n the sample mean behaves very nearly like a normal distribution with mean μ and variance σ²/n.",
+    "cites": [
+     7,
+     8,
+     18
+    ]
+   },
+   {
+    "heading": "Partner to the law of large numbers",
+    "text": "The law of large numbers says the sample average converges to the expected value μ as n grows. The CLT adds detail to that story. It describes how large the random wobbles around μ are along the way, and what shape they take.",
+    "cites": [
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "Conditions and variants",
+    "text": "There are several versions of the theorem, each suited to different conditions. The common form needs the random variables to be independent and identically distributed, often shortened to i.i.d. That requirement can be relaxed: the mean still converges to the normal distribution for variables that are not identically distributed, or not independent, provided they meet certain conditions. One variant, built around the Lyapunov condition, needs independence but not identical distributions.",
+    "cites": [
+     3,
+     12,
+     13,
+     19,
+     20
+    ]
+   },
+   {
+    "heading": "A long history",
+    "text": "The earliest version showed that the normal distribution may be used to approximate the binomial distribution, and it is known as the de Moivre–Laplace theorem. Earlier forms go back to 1811, but the modern form was stated precisely only in the 1920s. A broader version, the generalized central limit theorem, was worked out between 1920 and 1937 by several mathematicians, including Lindeberg, Lévy, Feller and Kolmogorov. Paul Lévy published the first complete proof of it, in French, in 1937.",
+    "cites": [
+     6,
+     14,
+     33,
+     34
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-clt-means",
+   "kind": "book",
+   "title": "7.1 The Central Limit Theorem for Sample Means (Averages) - Introductory Statistics 2e",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/7-1-the-central-limit-theorem-for-sample-means-averages",
+   "note": "A free textbook section on how the distribution of sample means approaches a normal distribution.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "3b1b-clt",
+   "kind": "video",
+   "title": "But what is the Central Limit Theorem?",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=zeJD6dqJ5lo",
+   "note": "A visual explainer of the central limit theorem and why sums of random variables tend toward a bell curve."
+  },
+  {
+   "id": "grinstead-clt",
+   "kind": "book",
+   "title": "9: Central Limit Theorem - Introductory Probability (Grinstead and Snell)",
+   "by": "Grinstead & Snell",
+   "url": "https://stats.libretexts.org/Bookshelves/Probability_Theory/Introductory_Probability_(Grinstead_and_Snell)/09%3A_Central_Limit_Theorem",
+   "note": "A free probability textbook chapter giving a fuller mathematical treatment of the central limit theorem.",
+   "license": "GNU Free Documentation License 1.3"
+  }
+ ]
+}

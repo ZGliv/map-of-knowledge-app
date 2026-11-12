@@ -1,0 +1,560 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.equations",
+ "name": "Equations",
+ "summary": [
+  {
+   "text": "An equation joins two expressions with an equals sign to say they have the same value.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Solving one means finding which values of the unknowns make the equality true; those values are its solutions.",
+   "cites": [
+    3,
+    4
+   ]
+  },
+  {
+   "text": "An equation stays balanced, like a scale, when you do the same operation to both sides.",
+   "cites": [
+    15,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Equals sign",
+   "value": "Invented by Robert Recorde in 1557",
+   "cites": [
+    8
+   ]
+  },
+  {
+   "label": "Two kinds",
+   "value": "Identities and conditional equations",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Identity",
+   "value": "True for all values of the variables",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Usual letters",
+   "value": "Unknowns use x, y, z; coefficients use a, b, c",
+   "cites": [
+    41
+   ]
+  },
+  {
+   "label": "Two sides",
+   "value": "Called the left-hand side and right-hand side",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A balance scale holds 5 apples in each pan. You take 2 apples out of the left pan. What keeps it level?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Add 2 apples to the right pan"
+    },
+    {
+     "id": "b",
+     "label": "Leave it, since a scale fixes itself"
+    },
+    {
+     "id": "c",
+     "label": "Take 2 apples out of the right pan too"
+    },
+    {
+     "id": "d",
+     "label": "Take every apple out of the right pan"
+    }
+   ],
+   "answer": "c",
+   "explain": "An equation, like a scale, stays balanced when the same change is made on both sides.",
+   "cites": [
+    16,
+    17,
+    18
+   ],
+   "id": "knowledge.mathematics.algebra.equations:q1"
+  },
+  {
+   "prompt": "Maya tests an equation with many different numbers for its variable, and every one works. Which kind of equation is it, if it holds for all values?",
+   "options": [
+    {
+     "id": "a",
+     "label": "An identity"
+    },
+    {
+     "id": "b",
+     "label": "A conditional equation"
+    },
+    {
+     "id": "c",
+     "label": "A coefficient"
+    },
+    {
+     "id": "d",
+     "label": "An unknown"
+    }
+   ],
+   "answer": "a",
+   "explain": "An identity is true for all values of the variables, while a conditional equation holds only for particular values.",
+   "cites": [
+    5,
+    6,
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.equations:q2"
+  },
+  {
+   "prompt": "Which number is a solution of the equation x + 3 = 7?",
+   "options": [
+    {
+     "id": "a",
+     "label": "4"
+    },
+    {
+     "id": "b",
+     "label": "10"
+    },
+    {
+     "id": "c",
+     "label": "3"
+    },
+    {
+     "id": "d",
+     "label": "7"
+    }
+   ],
+   "answer": "a",
+   "explain": "A solution is a value of the unknown that makes the equality true, and 4 + 3 equals 7.",
+   "cites": [
+    3,
+    4
+   ],
+   "id": "knowledge.mathematics.algebra.equations:q3"
+  },
+  {
+   "prompt": "You have the equation 2x = 10 and want to keep it balanced. Which step is allowed?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Divide only the left side by 2"
+    },
+    {
+     "id": "b",
+     "label": "Add 2 to the left side only"
+    },
+    {
+     "id": "c",
+     "label": "Change the sign on one side only"
+    },
+    {
+     "id": "d",
+     "label": "Divide both sides by 2"
+    }
+   ],
+   "answer": "d",
+   "explain": "Multiplying or dividing both sides by the same non-zero quantity keeps an equation balanced.",
+   "cites": [
+    18,
+    21
+   ],
+   "id": "knowledge.mathematics.algebra.equations:q4"
+  },
+  {
+   "prompt": "Someone solves x = 1, then squares both sides to get a new equation. What can go wrong?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The new equation can have an extra solution the old one lacked"
+    },
+    {
+     "id": "b",
+     "label": "The new equation must have exactly the same solutions"
+    },
+    {
+     "id": "c",
+     "label": "The new equation can have no solutions at all"
+    },
+    {
+     "id": "d",
+     "label": "The new equation turns the unknown into a constant"
+    }
+   ],
+   "answer": "a",
+   "explain": "Squaring turns x = 1 into x² = 1, which brings in the extraneous solution x = −1.",
+   "cites": [
+    25,
+    26,
+    27
+   ],
+   "id": "knowledge.mathematics.algebra.equations:q5"
+  },
+  {
+   "prompt": "Which move turns any equation into one with only zero on one side?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Multiply both sides by zero"
+    },
+    {
+     "id": "b",
+     "label": "Subtract the other side from both sides"
+    },
+    {
+     "id": "c",
+     "label": "Erase one of the two sides"
+    },
+    {
+     "id": "d",
+     "label": "Divide both sides by the other side"
+    }
+   ],
+   "answer": "b",
+   "explain": "Subtracting the right-hand side from both sides makes every equation equivalent to one with zero on the right.",
+   "cites": [
+    11,
+    12,
+    20
+   ],
+   "id": "knowledge.mathematics.algebra.equations:q6"
+  }
+ ],
+ "source": {
+  "title": "Equation",
+  "url": "https://en.wikipedia.org/wiki/Equation",
+  "revision": 1381875194
+ },
+ "pack": {
+  "id": "auto-algebra-equations",
+  "title": "Do the same to both sides",
+  "question": "What can you do to an equation without breaking it?",
+  "path": [
+   "Mathematics",
+   "Algebra",
+   "Equations"
+  ],
+  "hue": 54,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Linear_Function_Graph.svg/960px-Linear_Function_Graph.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Linear equations",
+    "credit": "Jim.belk · Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_Function_Graph.svg",
+    "license": "Public domain"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Do the same to both sides",
+    "hook": "A scale that tips the moment you cheat is a surprisingly good way to learn algebra."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-algebra-equations:1",
+    "transfer": false,
+    "prompt": "A scale holds equal grain in both pans and balances. You scoop some grain out of the left pan. What puts it back in balance?",
+    "explain": "An equation stays balanced when the same operation is done on each side, just as removing equal grain from both pans does.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Add more grain to the right pan",
+        "feedback": "It sounds like evening things up, but that makes the right side heavier, not equal."
+       },
+       {
+        "id": "c",
+        "label": "Do nothing, since equal pans stay equal",
+        "feedback": "They were equal only before one pan lost grain."
+       },
+       {
+        "id": "d",
+        "label": "Empty the right pan completely",
+        "feedback": "That removes far more than was taken from the left."
+       },
+       {
+        "id": "a",
+        "label": "Scoop the same amount out of the right pan"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-algebra-equations:2",
+    "transfer": false,
+    "prompt": "Match each word to what it means.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Identity"
+     },
+     {
+      "id": "l1",
+      "label": "Conditional equation"
+     },
+     {
+      "id": "l2",
+      "label": "Solution"
+     },
+     {
+      "id": "l3",
+      "label": "Unknown"
+     }
+    ],
+    "right": [
+     {
+      "id": "r2",
+      "label": "A value of the unknown that makes the equality true"
+     },
+     {
+      "id": "r0",
+      "label": "True for all values of the variables"
+     },
+     {
+      "id": "r1",
+      "label": "True only for particular values"
+     },
+     {
+      "id": "r3",
+      "label": "A variable the equation is to be solved for"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "Unknowns are what you solve for, solutions satisfy the equality, and equations are identities or conditional depending on how many values work."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-algebra-equations:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each move by how safe it is.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Add the same amount to both sides"
+     },
+     {
+      "id": "i1",
+      "label": "Multiply both sides by a non-zero number"
+     },
+     {
+      "id": "i2",
+      "label": "Square both sides"
+     },
+     {
+      "id": "i3",
+      "label": "Apply 1/x to both sides"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Plain balanced move"
+     },
+     {
+      "id": "g1",
+      "label": "Needs caution"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Adding or multiplying by a non-zero quantity keeps balance, but applying a function can add extra solutions, or lose solutions where it is undefined, as 1/x is for x = 0."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-algebra-equations:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Start with x = 1, which is solved by x = 1."
+     },
+     {
+      "id": "b",
+      "text": "Square both sides to get x² = 1."
+     },
+     {
+      "id": "c",
+      "text": "Since the new equation came from the old one, it has no new solutions."
+     },
+     {
+      "id": "d",
+      "text": "So we can square both sides freely when solving."
+     }
+    ],
+    "answer": "c",
+    "explain": "Squaring brings in the extraneous solution x = −1, so the new equation has solutions the old one did not."
+   },
+   {
+    "kind": "payoff",
+    "idea": "An equation stays true when you treat both sides alike, but some moves can slip in extra answers.",
+    "connections": [
+     {
+      "title": "Linear equations",
+      "place": "Equations",
+      "node": "knowledge.mathematics.algebra.equations.linear-equations"
+     },
+     {
+      "title": "Quadratic equations",
+      "place": "Equations",
+      "node": "knowledge.mathematics.algebra.equations.quadratic-equations"
+     },
+     {
+      "title": "Systems of equations",
+      "place": "Equations",
+      "node": "knowledge.mathematics.algebra.equations.systems-of-equations"
+     },
+     {
+      "title": "Inequalities",
+      "place": "Equations",
+      "node": "knowledge.mathematics.algebra.equations.inequalities"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "An equation stays balanced when the same operation is done on each side, just as removing equal grain from both pans does.",
+    "source": "Wikipedia sentences 16, 17, 18"
+   },
+   {
+    "claim": "Unknowns are what you solve for, solutions satisfy the equality, and equations are identities or conditional depending on how many values work.",
+    "source": "Wikipedia sentences 4, 6, 7"
+   },
+   {
+    "claim": "Adding or multiplying by a non-zero quantity keeps balance, but applying a function can add extra solutions, or lose solutions where it is undefined, as 1/x is for x = 0.",
+    "source": "Wikipedia sentences 19, 21, 25, 27, 28, 29"
+   },
+   {
+    "claim": "Squaring brings in the extraneous solution x = −1, so the new equation has solutions the old one did not.",
+    "source": "Wikipedia sentences 25, 26, 27"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What an equation is",
+    "text": "An equation states that two expressions are equal, with the equals sign = placed between them. The expression on the left is called the left-hand side, and the one on the right is the right-hand side. In English, any well-formed formula made of two expressions joined by an equals sign counts as an equation. Other languages can draw the line differently: French keeps équation for statements with one or more variables and uses égalité where no variable is needed. The = sign itself was invented in 1557 by Robert Recorde, who felt nothing could be more equal than two parallel straight lines of the same length.",
+    "cites": [
+     1,
+     2,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "heading": "Unknowns and solutions",
+    "text": "Many equations contain variables. Solving such an equation means finding the values of those variables that make the equality true. The variables you solve for are called unknowns, and the values that work are called solutions. Other terms in the equation are taken as known and are usually called constants, coefficients or parameters. By habit, unknowns get letters from the end of the alphabet, such as x, y and z, while coefficients get letters from the start, as in the general quadratic equation ax² + bx + c = 0.",
+    "cites": [
+     3,
+     4,
+     37,
+     38,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "Two kinds of equation",
+    "text": "Equations come in two kinds. An identity holds for every value of its variables. A conditional equation holds only for particular values of them.",
+    "cites": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "heading": "Like a balance scale",
+    "text": "A helpful picture is a balance scale with two pans. Put equal weights in the pans and the scale sits level, just as the two sides of an equation are equal. Take some grain out of one pan and you must take the same amount out of the other to keep it level. In the same way, an equation stays balanced when you do the same operation to both sides. If the two sides are not equal, the tipped scale stands for an inequality instead.",
+    "cites": [
+     15,
+     16,
+     17,
+     18,
+     33
+    ]
+   },
+   {
+    "heading": "Moves that keep the balance",
+    "text": "Several standard moves follow from this rule. You can add or subtract the same quantity on both sides, which shows that any equation can be rewritten with zero on the right-hand side. You can multiply or divide both sides by a quantity that is not zero. You can also rewrite one side using an identity, for example by expanding a product or factoring a sum. These moves are the basis of most elementary ways of solving equations, and of some less elementary ones such as Gaussian elimination.",
+    "cites": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     30
+    ]
+   },
+   {
+    "heading": "A warning about extra solutions",
+    "text": "Applying some other function to both sides needs more care. The new equation keeps all the old solutions but may pick up extra ones, called extraneous solutions. For example, x = 1 has the solution x = 1, but squaring both sides gives x² = 1, which also lets in x = −1. And if the function is undefined at some values, as 1/x is at x = 0, solutions at those values can be lost.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-2-2",
+   "kind": "book",
+   "title": "2.2 Linear Equations in One Variable",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/2-2-linear-equations-in-one-variable",
+   "note": "A free textbook section on solving equations by doing the same thing to both sides, with identities and conditional equations.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-2-6",
+   "kind": "book",
+   "title": "2.6 Other Types of Equations",
+   "by": "OpenStax, College Algebra 2e",
+   "url": "https://openstax.org/books/college-algebra-2e/pages/2-6-other-types-of-equations",
+   "note": "Worked examples of harder equations, including how squaring both sides can bring in extraneous solutions.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

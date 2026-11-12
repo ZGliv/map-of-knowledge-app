@@ -1,0 +1,340 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.physics.optics.wave-optics.double-slit-experiment",
+ "name": "Double-slit experiment",
+ "summary": [
+  {
+   "text": "The double-slit experiment shows that light and matter can behave like both classical waves and classical particles.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "A coherent beam such as a laser passes through two parallel slits onto a screen, where the light waves interfere to make bright and dark bands.",
+   "cites": [
+    6,
+    7
+   ]
+  },
+  {
+   "text": "Yet light always lands at the screen in single points, and detecting which slit each particle used makes the band pattern vanish.",
+   "cites": [
+    8,
+    10
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "First described",
+   "value": "Thomas Young, in 1801",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Electrons",
+   "value": "Shown to behave the same way in 1927",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Among larger objects",
+   "value": "Molecules of 2000 atoms, 25,000 daltons",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Feynman's view",
+   "value": "Called it the heart of quantum mechanics",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "With slit detectors",
+   "value": "Pattern becomes the sum of two single-slit patterns",
+   "cites": [
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You fire tiny paint pellets at two gaps and expect two blobs behind them. Light through two slits instead makes alternating bands. What does that suggest?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Light is made of tiny bullets"
+    },
+    {
+     "id": "b",
+     "label": "The waves from the two slits interfere"
+    },
+    {
+     "id": "c",
+     "label": "The screen sorts light by color"
+    },
+    {
+     "id": "d",
+     "label": "The slits magnify the light"
+    }
+   ],
+   "answer": "b",
+   "explain": "Bands of bright and dark are not expected from classical particles, but come from light waves passing through both slits interfering.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.double-slit-experiment:q1"
+  },
+  {
+   "prompt": "You turn the light so dim that you can watch the screen hit by hit. How does the light arrive?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a smooth glow that slowly brightens"
+    },
+    {
+     "id": "b",
+     "label": "As whole bands appearing all at once"
+    },
+    {
+     "id": "c",
+     "label": "As single points, building the pattern as hits accumulate"
+    },
+    {
+     "id": "d",
+     "label": "Only at the center of the screen"
+    }
+   ],
+   "answer": "c",
+   "explain": "The light is always absorbed at discrete points, and the interference pattern appears in the varying density of those hits.",
+   "cites": [
+    8
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.double-slit-experiment:q2"
+  },
+  {
+   "prompt": "A physicist adds a detector at each slit to learn which one each particle uses. What happens to the bands?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They get much brighter and sharper"
+    },
+    {
+     "id": "b",
+     "label": "They stay exactly as they were before"
+    },
+    {
+     "id": "c",
+     "label": "They split into thin separate color lines"
+    },
+    {
+     "id": "d",
+     "label": "They disappear, leaving two single-slit patterns added together"
+    }
+   ],
+   "answer": "d",
+   "explain": "Particles do not form the interference pattern if you detect which slit they pass through.",
+   "cites": [
+    9,
+    10
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.double-slit-experiment:q3"
+  },
+  {
+   "prompt": "You make a single slit narrower. What happens to how far the light spreads out?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It spreads through a larger angle"
+    },
+    {
+     "id": "b",
+     "label": "It spreads through a smaller angle"
+    },
+    {
+     "id": "c",
+     "label": "It does not spread at all"
+    },
+    {
+     "id": "d",
+     "label": "It stops spreading and stays the slit's width"
+    }
+   ],
+   "answer": "a",
+   "explain": "With a single slit the screen shows a diffraction pattern, and the smaller the slit the greater the angle of spread.",
+   "cites": [
+    23,
+    24
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.double-slit-experiment:q4"
+  },
+  {
+   "prompt": "Electrons are fired at a double slit with no detectors at the slits. What do they do?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They make two plain blobs, one behind each slit"
+    },
+    {
+     "id": "b",
+     "label": "They show the same kind of interference as light"
+    },
+    {
+     "id": "c",
+     "label": "They scatter randomly across the whole screen"
+    },
+    {
+     "id": "d",
+     "label": "They pass through without hitting the screen"
+    }
+   ],
+   "answer": "b",
+   "explain": "Electrons and other atomic-scale entities exhibit the same behavior as light when fired toward a double slit.",
+   "cites": [
+    3,
+    12
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.double-slit-experiment:q5"
+  },
+  {
+   "prompt": "A student claims this experiment only works with light and electrons. What is wrong with that?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Nothing, larger objects always block the slits"
+    },
+    {
+     "id": "b",
+     "label": "It also works with heavier things, though it gets harder as size grows"
+    },
+    {
+     "id": "c",
+     "label": "It only works with sound waves besides light"
+    },
+    {
+     "id": "d",
+     "label": "It works with larger things only if they are charged"
+    }
+   ],
+   "answer": "b",
+   "explain": "The experiment has been done with entities much larger than electrons, including big molecules and nanoparticles, though it becomes more difficult as size increases.",
+   "cites": [
+    14,
+    15
+   ],
+   "id": "knowledge.science.physics.optics.wave-optics.double-slit-experiment:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Double-slit.svg/960px-Double-slit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Double-slit experiment",
+  "credit": "Original: NekoJaNekoJa Vector: Johannes Kalliauer",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Double-slit.svg"
+ },
+ "source": {
+  "title": "Double-slit experiment",
+  "url": "https://en.wikipedia.org/wiki/Double-slit_experiment",
+  "revision": 1383176532
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Waves and particles at once",
+    "text": "The double-slit experiment shows that light and matter can act like classical particles and also like classical waves. Thomas Young first described this kind of experiment in 1801, as part of his case that visible light behaves as a wave. In 1927, Davisson and Germer, and separately George Paget Thomson with his research student Alexander Reid, showed that electrons behave the same way. This was later extended to atoms and molecules.",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "heading": "The basic setup",
+    "text": "In the basic version, a coherent light source such as a laser shines on a plate with two parallel slits cut in it. A screen behind the plate catches whatever gets through. The light waves from the two slits interfere and make bright and dark bands on the screen, which classical particles would not produce. The width of the bands depends on the frequency of the light. The experiment belongs to a family of \"double path\" experiments, where two diffracted waves meet again and form an interference pattern.",
+    "cites": [
+     4,
+     6,
+     7,
+     21
+    ]
+   },
+   {
+    "heading": "One slit first",
+    "text": "Imagine light made purely of ordinary particles, fired in straight lines through a single slit. You would expect a patch on the screen with the size and shape of the slit. When the experiment is actually done, the light spreads out into a diffraction pattern instead. The smaller the slit, the wider the angle of spread. Wave theory explains this pattern as light waves from the slit interfering with each other.",
+    "cites": [
+     22,
+     23,
+     24,
+     27
+    ]
+   },
+   {
+    "heading": "The particle side",
+    "text": "Yet the light is always absorbed at the screen at separate points, like individual particles. The bands appear only because the hits land more densely in some places than in others. Where each single hit lands is a matter of chance, which classical mechanics cannot explain. If detectors at the slits check which way each photon goes, every detected photon passes through just one slit. When that is detected, the double-slit bands do not form, and the screen shows the sum of two single-slit patterns instead. Together these results show wave–particle duality.",
+    "cites": [
+     8,
+     9,
+     10,
+     11,
+     13
+    ]
+   },
+   {
+    "heading": "Bigger and bigger",
+    "text": "Electrons and other atomic-scale things show the same behaviour when fired at a double slit. The experiment also works with much larger things, though it gets harder as size grows. It has been done with molecules of 2000 atoms each, with a total mass of 25,000 daltons, and with nanoparticles of 5000-10000 sodium atoms. No one did a slit experiment with anything but light until 1961. That year Claus Jönsson at the University of Tübingen used coherent electron beams and multiple slits. In 2018 a group in Como, Italy, showed single-particle interference with antimatter.",
+    "cites": [
+     12,
+     14,
+     15,
+     39,
+     45
+    ]
+   },
+   {
+    "heading": "A classic puzzle",
+    "text": "The experiment became a classic because it states the central puzzles of quantum mechanics so clearly. Richard Feynman said it holds the heart of quantum mechanics, and he liked to say that all of the subject can be drawn from thinking it through carefully. He proposed, as a thought experiment, that putting detectors before each slit would make the interference pattern disappear. In 2002, readers of Physics World voted the single-electron version \"the most beautiful experiment\".",
+    "cites": [
+     16,
+     17,
+     28,
+     29,
+     41
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-up3-3-1",
+   "kind": "book",
+   "title": "3.1 Young's Double-Slit Interference",
+   "by": "OpenStax, University Physics Volume 3",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/3-1-youngs-double-slit-interference",
+   "note": "A free textbook section on Young's experiment and where its bright and dark fringes fall.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-cp-27-3",
+   "kind": "book",
+   "title": "27.3 Young's Double Slit Experiment",
+   "by": "OpenStax, College Physics 2e",
+   "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment",
+   "note": "An introductory textbook section on the experiment that showed light is a wave, with the fringe equations.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "libretexts-6-7",
+   "kind": "book",
+   "title": "6.7: Wave-Particle Duality",
+   "by": "OpenStax via Physics LibreTexts",
+   "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/06%3A_Photons_and_Matter_Waves/6.07%3A_Wave-Particle_Duality",
+   "note": "Shows the double-slit pattern building up one electron at a time, and what that means for wave-particle duality.",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

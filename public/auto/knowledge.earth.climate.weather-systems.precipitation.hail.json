@@ -1,0 +1,335 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.earth.climate.weather-systems.precipitation.hail",
+ "name": "Hail",
+ "summary": [
+  {
+   "text": "Hail is solid precipitation made of balls or lumps of ice called hailstones, usually between 5 mm and 15 cm across.",
+   "cites": [
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "It forms in thunderstorms with strong upward-moving air, which keeps growing stones aloft in the cloud until their weight overcomes the updraft and they fall.",
+   "cites": [
+    8,
+    17
+   ]
+  },
+  {
+   "text": "Hail can seriously damage buildings and, most commonly, farmers' crops, so warnings go out once stones reach a damaging size.",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Heaviest stones",
+   "value": "More than 0.5 kg (1.1 lb)",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "Updraft speed",
+   "value": "As high as 110 mph (180 km/h)",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "METAR code",
+   "value": "GR for stones 5 mm or larger",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Inside a hailstone",
+   "value": "Onion-like layers",
+   "cites": [
+    29
+   ]
+  },
+  {
+   "label": "US warning threshold",
+   "value": "1 in (2.5 cm) since January 2010",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A powerful supercell drops hailstones the size of golf balls, while a weaker storm nearby makes only pea-sized ones. Why the difference?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The weaker storm is colder inside"
+    },
+    {
+     "id": "b",
+     "label": "Stronger updrafts can hold bigger stones aloft"
+    },
+    {
+     "id": "c",
+     "label": "The supercell falls from a lower height"
+    },
+    {
+     "id": "d",
+     "label": "The weaker storm has more rain to melt it"
+    }
+   ],
+   "answer": "b",
+   "explain": "How large hailstones get depends on updraft strength: the more powerful updrafts of stronger storms can keep larger stones aloft.",
+   "cites": [
+    23
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.hail:q1"
+  },
+  {
+   "prompt": "On a bitterly cold January day, small see-through frozen grains bounce off your car. What are they most likely?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Hail"
+    },
+    {
+     "id": "b",
+     "label": "Freezing rain"
+    },
+    {
+     "id": "c",
+     "label": "Dew"
+    },
+    {
+     "id": "d",
+     "label": "Ice pellets (sleet)"
+    }
+   ],
+   "answer": "d",
+   "explain": "Ice pellets generally fall in cold weather and are smaller and translucent, while hail growth is greatly inhibited when surface temperatures are low.",
+   "cites": [
+    4,
+    5
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.hail:q2"
+  },
+  {
+   "prompt": "You saw a large hailstone in half. What does the inside look like?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solid clear ice all the way through"
+    },
+    {
+     "id": "b",
+     "label": "A hollow center filled with air"
+    },
+    {
+     "id": "c",
+     "label": "Layers wrapped around each other like an onion"
+    },
+    {
+     "id": "d",
+     "label": "Packed snow with a thin icy skin"
+    }
+   ],
+   "answer": "c",
+   "explain": "A cross-section shows an onion-like structure: thick translucent layers alternating with thin, white, opaque ones.",
+   "cites": [
+    29,
+    30
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.hail:q3"
+  },
+  {
+   "prompt": "A growing hailstone is carried into a part of the cloud crowded with supercooled water droplets. What kind of layer does it pick up there?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A translucent layer"
+    },
+    {
+     "id": "b",
+     "label": "An opaque white layer"
+    },
+    {
+     "id": "c",
+     "label": "A layer of fluffy snow"
+    },
+    {
+     "id": "d",
+     "label": "No layer; it starts to melt"
+    }
+   ],
+   "answer": "a",
+   "explain": "In areas with many water droplets the hailstone captures them and gains a translucent layer; where mostly water vapor is present it gains opaque white ice.",
+   "cites": [
+    38,
+    39
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.hail:q4"
+  },
+  {
+   "prompt": "A wine-growing country issues hail warnings for smaller stones than the US threshold. What best explains its choice?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Its storms only ever produce small hail"
+    },
+    {
+     "id": "b",
+     "label": "Small hail falls faster in that climate"
+    },
+    {
+     "id": "c",
+     "label": "It has older radar equipment"
+    },
+    {
+     "id": "d",
+     "label": "Its grape crops can be hurt by smaller stones"
+    }
+   ],
+   "answer": "d",
+   "explain": "Countries set thresholds by local sensitivity to hail; grape-growing areas can be harmed by smaller hailstones.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.hail:q5"
+  },
+  {
+   "prompt": "A storm's updraft blows forming hailstones up through the cloud. How fast can that upward wind get?",
+   "options": [
+    {
+     "id": "a",
+     "label": "About 10 mph (16 km/h)"
+    },
+    {
+     "id": "b",
+     "label": "About 110 mph (180 km/h)"
+    },
+    {
+     "id": "c",
+     "label": "About 40 mph (64 km/h)"
+    },
+    {
+     "id": "d",
+     "label": "About 400 mph (640 km/h)"
+    }
+   ],
+   "answer": "b",
+   "explain": "Upwardly directed wind speeds in the storm's updraft can reach as high as 110 mph (180 km/h).",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.earth.climate.weather-systems.precipitation.hail:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Granizo.jpg/960px-Granizo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Hail",
+  "credit": "nssl0001, National Severe Storms Laboratory (NSSL) Collection",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Granizo.jpg"
+ },
+ "source": {
+  "title": "Hail",
+  "url": "https://en.wikipedia.org/wiki/Hail",
+  "revision": 1371034155
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Balls of ice from storms",
+    "text": "Hail is a solid form of precipitation made of balls or irregular lumps of ice, each one called a hailstone. People often mix it up with ice pellets, which Americans call sleet, but the two differ. Ice pellets mostly fall in cold weather, while low temperatures at the ground strongly hold back hail growth. Hailstones usually measure from 5 mm (0.2 in) to 15 cm (6 in) across, unlike graupel, which is made of rime ice, or ice pellets, which are smaller and translucent.",
+    "cites": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "The storms that make it",
+    "text": "Most thunderstorms can drop hail, since it comes from cumulonimbus clouds, and it can fall as far as 2 nmi (3.7 km) from the storm itself. It needs strong rising air inside the storm, called an updraft, and a freezing level that sits lower than usual. The best clouds for it have intense updrafts, plenty of liquid water, great height, large droplets, and much of their depth below 0 °C. In the mid-latitudes hail forms toward the middle of continents, while in the tropics it mostly stays at high elevations.",
+    "cites": [
+     7,
+     8,
+     9,
+     24
+    ]
+   },
+   {
+    "heading": "Riding the updraft",
+    "text": "Hail starts out as water droplets, as other precipitation in cumulonimbus clouds does. As they rise and the temperature drops below freezing, they become supercooled, still liquid though below freezing, and freeze when they meet condensation nuclei. The updraft, with upward winds as fast as 110 mph (180 km/h), carries the growing stones up through the cloud. A stone stays aloft until its weight beats the updraft, then falls. Stronger storms such as supercells have more powerful updrafts that can hold up larger stones, so they make bigger hail.",
+    "cites": [
+     17,
+     23,
+     27,
+     28,
+     34
+    ]
+   },
+   {
+    "heading": "Layers like an onion",
+    "text": "Slice a large hailstone in half and you see an onion-like pattern: thick translucent layers alternating with thin, white, cloudy ones. An older idea held that stones went up and down many times, refreezing on each trip, and that this built the layers. Newer research shows that is not necessarily so. Instead, as a stone rises it passes through parts of the cloud with different amounts of moisture and supercooled droplets. Where droplets are plentiful it gathers a translucent layer, and where there is mostly water vapor it gathers a layer of white ice.",
+    "cites": [
+     29,
+     30,
+     31,
+     32,
+     33,
+     35,
+     36,
+     38,
+     39
+    ]
+   },
+   {
+    "heading": "Growing big and lumpy",
+    "text": "The biggest stones generally form some distance from the strongest updraft, where they get more time to grow. As a hailstone grows it gives off heat, known as latent heat, which keeps its outside liquid. This wet surface is sticky, so a single stone can grow by bumping into smaller hailstones and joining with them, ending up large and oddly shaped.",
+    "cites": [
+     43,
+     44,
+     45
+    ]
+   },
+   {
+    "heading": "Damage and warnings",
+    "text": "The largest hailstones grow to 15 cm (6 in), and some weigh over 0.5 kg (1.1 lb). Warnings go out once stones reach a damaging size, because hail can badly harm buildings and, most often, farmers' crops. Stones over 2 cm (0.79 in) are usually thought big enough to do damage, and Canada's weather service warns at that size. The US National Weather Service has used a 1 in (2.5 cm) threshold since January 2010, up from 0.75 in (1.9 cm). Other countries set their own limits by how sensitive they are, since grape-growing areas, for example, can be hurt by smaller stones.",
+    "cites": [
+     12,
+     15,
+     19,
+     20,
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "noaa-jetstream-hail",
+   "kind": "article",
+   "title": "Thunderstorm Hazards - Hail",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/hail",
+   "note": "How updrafts carry drops into freezing air so hailstones grow, and how stone size ties to updraft speed."
+  },
+  {
+   "id": "noaa-sizing-up-hail",
+   "kind": "article",
+   "title": "Learning Lesson: Sizing Up Hail",
+   "by": "NOAA National Weather Service (JetStream)",
+   "url": "https://www.noaa.gov/jetstream/ll-hailsize",
+   "note": "A NOAA learning lesson on judging and comparing the size of hailstones."
+  }
+ ]
+}

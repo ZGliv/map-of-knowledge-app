@@ -1,0 +1,110 @@
+{
+ "title": "The universe's most common state",
+ "question": "What is plasma, and why does it matter so much?",
+ "hook": "Rare on Earth, it makes up nearly all of the ordinary matter in the universe.",
+ "idea": "Plasma is an ionized, electrically conductive state of matter that dominates the universe even though it is rarely encountered on Earth.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A neutral gas is heated strongly until a significant portion of its particles become charged. How does it behave?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "It becomes electrically conductive"
+    },
+    {
+     "id": "b",
+     "label": "It stays a poor conductor because it is still a gas",
+     "feedback": "Once a significant portion of particles is charged, the gas has become plasma, and charged particles make it conductive."
+    },
+    {
+     "id": "c",
+     "label": "It turns into a solid",
+     "feedback": "Plasma is the fourth state, not a route to solid; its charged particles keep it fluid and conductive."
+    }
+   ],
+   "answer": "a",
+   "explain": "Heating a neutral gas can ionize it, and the charged particles in the resulting plasma make it electrically conductive.",
+   "cites": [
+    1,
+    2,
+    5,
+    6
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps in the history of plasma in order.",
+   "items": [
+    "The electric arc is discovered (1803)",
+    "Faraday investigates glow discharge in rarefied gases (1831)",
+    "Crookes presents the idea of a fourth state of matter (1879)",
+    "Langmuir's work founds plasma science (1920s)"
+   ],
+   "ends": [
+    "Earliest",
+    "Latest"
+   ],
+   "explain": "The arc came first in 1803, then Faraday in 1831, Crookes in 1879, and Langmuir in the 1920s.",
+   "cites": [
+    16,
+    17,
+    18,
+    20
+   ]
+  },
+  {
+   "kind": "sort",
+   "prompt": "Sort each into found in nature or used in technology.",
+   "groups": [
+    "Found in nature",
+    "Used in technology"
+   ],
+   "items": [
+    [
+     "Stars",
+     "Found in nature"
+    ],
+    [
+     "Lightning",
+     "Found in nature"
+    ],
+    [
+     "Plasma televisions",
+     "Used in technology"
+    ],
+    [
+     "Plasma etching",
+     "Used in technology"
+    ],
+    [
+     "Fusion energy research",
+     "Used in technology"
+    ]
+   ],
+   "explain": "Stars and lightning are natural plasmas, while televisions, etching, and fusion energy use plasma's response to electromagnetic fields.",
+   "cites": [
+    4,
+    7,
+    9
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong. Which?",
+   "steps": [
+    "Plasma is made when a gas is ionized.",
+    "So it contains charged particles, ions and electrons.",
+    "Its overall charge is roughly zero.",
+    "Therefore plasma cannot respond to electric fields."
+   ],
+   "wrong": 3,
+   "explain": "Although the overall charge is roughly zero, its charged particles make plasma very sensitive to externally applied fields.",
+   "cites": [
+    2,
+    6,
+    23
+   ]
+  }
+ ]
+}

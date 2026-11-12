@@ -1,0 +1,99 @@
+{
+ "title": "Why shoots lean toward light",
+ "question": "How does a shoot sense where the light is and bend toward it?",
+ "hook": "Put a plant by a window and its stem slowly curves toward the glass.",
+ "idea": "Auxin gathers on the shaded side of a shoot, so cells there grow longer and tip the plant toward the light.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "Light shines on a shoot only from the right. Where does auxin move, and what happens?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "To the shaded left side, whose cells lengthen so the shoot curves right"
+    },
+    {
+     "id": "b",
+     "label": "To the lit right side, whose cells lengthen so the shoot curves left",
+     "feedback": "It tempts because light seems to drive growth, but auxin moves to the shaded side."
+    },
+    {
+     "id": "c",
+     "label": "It stays spread evenly, so the shoot grows straight up",
+     "feedback": "Light from one side is exactly what shifts auxin; an even spread would give no bending."
+    }
+   ],
+   "answer": "a",
+   "explain": "In asymmetric light, auxin moves to the shaded side and promotes elongation of the cells there, curving the plant toward the light.",
+   "cites": [
+    4,
+    14
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "put these steps in the order they happen in a bending shoot",
+   "items": [
+    "Asymmetric light shifts auxin to the shaded side",
+    "Auxin activates proton pumps, lowering the pH in those cells",
+    "Acid activates expansins, which loosen the cell walls",
+    "The cells swell, driving the shoot's bend"
+   ],
+   "ends": [
+    "Light hits one side",
+    "Shoot curves"
+   ],
+   "explain": "Auxin moves first, then the proton pumps acidify the wall, expansins loosen it, and the swelling cells push the shoot to bend.",
+   "cites": [
+    14,
+    15,
+    16,
+    19
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "match each phototropism player to its role",
+   "pairs": [
+    [
+     "Auxin",
+     "Promotes cell elongation on the shaded side"
+    ],
+    [
+     "PIN3",
+     "Main auxin carrier, setting where auxin collects"
+    ],
+    [
+     "Expansins",
+     "Enzymes that loosen cell walls"
+    ],
+    [
+     "Coleoptile",
+     "The very tip, needed for light sensing"
+    ]
+   ],
+   "explain": "Each one handles a different step, from sensing light to moving auxin to loosening walls.",
+   "cites": [
+    12,
+    14,
+    16,
+    22
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "one step in this reasoning is wrong; which?",
+   "steps": [
+    "A shoot gets light only from one side.",
+    "Auxin moves toward the shaded side.",
+    "Auxin there makes the cells shorter, which tilts the shoot toward the light.",
+    "So the plant curves toward the light source."
+   ],
+   "wrong": 2,
+   "explain": "Auxin promotes elongation of the cells on the shaded side; longer cells on that side are what curve the shoot toward the light.",
+   "cites": [
+    14
+   ]
+  }
+ ]
+}

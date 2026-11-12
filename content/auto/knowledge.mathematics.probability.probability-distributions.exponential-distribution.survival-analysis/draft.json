@@ -1,0 +1,224 @@
+{
+ "summary": [
+  {
+   "text": "Survival analysis is a branch of statistics for analyzing the expected time until one event occurs, such as death in organisms or failure in mechanical systems.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It asks what proportion survive past a certain time, at what rate survivors fail, and how circumstances or characteristics raise or lower the chance of survival.",
+   "cites": [
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "text": "It copes with censoring, where a subject's exact survival time is unknown, and uses the survival function S(t), the probability of surviving longer than time t.",
+   "cites": [
+    15,
+    18
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other names",
+   "value": "Reliability engineering, duration analysis, event history analysis",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "label": "Survival function",
+   "value": "S(t) is the probability of surviving longer than t",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "label": "Censoring",
+   "value": "Some information is known, but not the exact survival time",
+   "cites": [
+    15
+   ]
+  },
+  {
+   "label": "At time zero",
+   "value": "100% of subjects are alive without an event",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "label": "Reading the plot",
+   "value": "A vertical drop is an event; a tick is a censored subject",
+   "cites": [
+    35,
+    39
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A patient in a drug study is followed for 13 weeks with no relapse, then moves away and cannot be reached. How is this patient recorded?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As having had an event at 13 weeks"
+    },
+    {
+     "id": "b",
+     "label": "As a censored observation"
+    },
+    {
+     "id": "c",
+     "label": "As having survived forever"
+    },
+    {
+     "id": "d",
+     "label": "As a mistake to be removed"
+    }
+   ],
+   "answer": "b",
+   "explain": "Censoring means some information about survival time is known but not the exact time, such as a subject lost to follow up.",
+   "cites": [
+    15,
+    16,
+    27
+   ]
+  },
+  {
+   "prompt": "In a study, the survival function at 10 weeks reads 0.8. What does that mean?",
+   "options": [
+    {
+     "id": "a",
+     "label": "80% of subjects had an event at exactly week 10"
+    },
+    {
+     "id": "b",
+     "label": "The study lasted 80 weeks"
+    },
+    {
+     "id": "c",
+     "label": "The chance of surviving longer than 10 weeks is 0.8"
+    },
+    {
+     "id": "d",
+     "label": "Eight subjects were censored by week 10"
+    }
+   ],
+   "answer": "c",
+   "explain": "S(t) is the probability that a subject survives longer than time t.",
+   "cites": [
+    18
+   ]
+  },
+  {
+   "prompt": "You draw a survival curve. At the very start of observation, what proportion of subjects is still alive without an event?",
+   "options": [
+    {
+     "id": "a",
+     "label": "None of them"
+    },
+    {
+     "id": "b",
+     "label": "Half of them"
+    },
+    {
+     "id": "c",
+     "label": "Only the censored ones"
+    },
+    {
+     "id": "d",
+     "label": "All of them"
+    }
+   ],
+   "answer": "d",
+   "explain": "At time zero, 100% of the subjects are alive without an event.",
+   "cites": [
+    33
+   ]
+  },
+  {
+   "prompt": "An engineer studies how long machines run before failing, using the same mathematics as a medical study of patients. What is her field called?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Reliability engineering"
+    },
+    {
+     "id": "b",
+     "label": "Event history analysis in sociology"
+    },
+    {
+     "id": "c",
+     "label": "Duration modelling in economics"
+    },
+    {
+     "id": "d",
+     "label": "Clinical trial design"
+    }
+   ],
+   "answer": "a",
+   "explain": "Survival analysis is called reliability theory, analysis or engineering in engineering.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "prompt": "On a survival plot, you see a sudden vertical drop at 8 weeks and a small tick mark at 45 weeks. What do they show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A censored subject at 8 weeks and an event at 45 weeks"
+    },
+    {
+     "id": "b",
+     "label": "Two events, one at each time point"
+    },
+    {
+     "id": "c",
+     "label": "An event at 8 weeks and a censored subject at 45 weeks"
+    },
+    {
+     "id": "d",
+     "label": "Two censored subjects at those weeks"
+    }
+   ],
+   "answer": "c",
+   "explain": "A vertical drop indicates an event, and a vertical tick mark indicates that a subject was censored at that time.",
+   "cites": [
+    35,
+    39
+   ]
+  },
+  {
+   "prompt": "Why can it be harder to define the 'event' for a mechanical system than for a living organism?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Machines cannot be observed over time at all"
+    },
+    {
+     "id": "b",
+     "label": "Machines never fail in any real sense"
+    },
+    {
+     "id": "c",
+     "label": "Machine failure may be partial or a matter of degree"
+    },
+    {
+     "id": "d",
+     "label": "Organisms never die at a specific time"
+    }
+   ],
+   "answer": "c",
+   "explain": "Biological death is unambiguous, but mechanical failure may be partial, a matter of degree, or not localized in time.",
+   "cites": [
+    8
+   ]
+  }
+ ]
+}

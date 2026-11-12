@@ -1,0 +1,103 @@
+{
+ "title": "Motion's Hidden Bookkeeping",
+ "question": "What stays the same when objects crash or push apart?",
+ "hook": "Every collision comes with a ledger that always balances.",
+ "idea": "In a closed system the total momentum, mass times velocity with direction, never changes, which lets you predict what happens after a collision.",
+ "beats": [
+  {
+   "kind": "predict",
+   "prompt": "A model airplane of mass 1 kg accelerates from rest to 6 m/s due north in 2 s. What net force does that take?",
+   "choices": [
+    {
+     "id": "a",
+     "label": "6 newtons due north",
+     "feedback": "6 kg⋅m/s is the total change in momentum; the force is that change spread over the 2 seconds."
+    },
+    {
+     "id": "b",
+     "label": "3 newtons due north"
+    },
+    {
+     "id": "c",
+     "label": "12 newtons due north",
+     "feedback": "Multiplying by the time gives 12, but force is the change divided by the time."
+    }
+   ],
+   "answer": "b",
+   "explain": "The change in momentum is 6 kg⋅m/s, so the rate of change is 3 (kg⋅m/s)/s, which is numerically equivalent to 3 newtons.",
+   "cites": [
+    31,
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "kind": "order",
+   "prompt": "Put these steps in order to show why two interacting particles keep a constant total momentum.",
+   "items": [
+    "The third law: the forces between them are equal in magnitude but opposite in direction",
+    "The second law: F₁ = dp₁/dt and F₂ = dp₂/dt",
+    "Therefore dp₁/dt = −dp₂/dt",
+    "Equivalently, d/dt(p₁ + p₂) = 0"
+   ],
+   "ends": [
+    "Two particles interact",
+    "Total momentum is constant"
+   ],
+   "explain": "Equal and opposite forces mean equal and opposite rates of change of momentum, so the changes cancel in the total.",
+   "cites": [
+    38,
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "kind": "match",
+   "prompt": "Match each idea to its partner.",
+   "pairs": [
+    [
+     "kg⋅m/s",
+     "SI unit of momentum"
+    ],
+    [
+     "g⋅cm/s",
+     "cgs unit of momentum"
+    ],
+    [
+     "Net force",
+     "Rate of change of momentum"
+    ],
+    [
+     "Closed system",
+     "Total momentum stays constant"
+    ]
+   ],
+   "explain": "Momentum has units of mass times velocity, is tied to force through its rate of change, and is conserved in a closed system.",
+   "cites": [
+    4,
+    5,
+    23,
+    35
+   ]
+  },
+  {
+   "kind": "flaw",
+   "prompt": "One step in this reasoning is wrong; which?",
+   "steps": [
+    "Two skaters at rest push off each other with nothing else acting.",
+    "Momentum is conserved, so their total momentum stays the same.",
+    "They started at rest, so their total momentum before the push is zero.",
+    "So they cannot move, since zero total momentum means no motion."
+   ],
+   "wrong": 3,
+   "explain": "Momentum has direction, so equal and opposite momenta add to zero while both skaters move.",
+   "cites": [
+    15,
+    35,
+    40
+   ]
+  }
+ ]
+}

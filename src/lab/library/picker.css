@@ -1,0 +1,19 @@
+/* Temporary: the Library prototype picker (#/lab/library). A quiet page of the prototypes' names over the app. */
+.lib-picker:focus{outline:none}
+.lib-picker{position:fixed;inset:0;z-index:55;overflow-y:auto;overscroll-behavior:contain;background:var(--atlas-shade);color:var(--atlas-text);color-scheme:dark;animation:lib-picker-in .16s ease-out both}
+.lib-picker-page{width:min(560px,100%);margin:0 auto;padding:max(24px,calc(var(--safe-top) + 14px)) max(16px,var(--safe-right)) max(32px,var(--safe-bottom)) max(16px,var(--safe-left))}
+.lib-picker header{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px}
+.lib-picker h1{margin:0;font-family:var(--atlas-serif);font-size:17px;font-weight:400;letter-spacing:0;color:var(--atlas-muted)}
+.lib-picker-close{display:grid;place-items:center;width:44px;height:44px;flex-shrink:0;border-radius:50%;background:var(--control-face);box-shadow:inset 0 0 0 1px var(--control-edge);color:var(--atlas-text)}
+.lib-picker-close:focus{outline:none}
+.lib-picker-close:focus-visible{box-shadow:inset 0 0 0 1px var(--atlas-bright)}
+@media(hover:hover){.lib-picker-close:hover{background:var(--control-face-hover)}}
+.lib-picker ul{list-style:none;margin:clamp(40px,14vh,128px) 0 0;padding:0;border-top:1px solid var(--atlas-rule)}
+.lib-picker li{border-bottom:1px solid var(--atlas-rule)}
+.lib-picker li button{display:block;width:100%;min-height:76px;padding:18px 0;background:none;color:color-mix(in srgb,var(--atlas-text) 88%,transparent);font-family:var(--atlas-serif);font-size:30px;font-weight:400;line-height:1.15;letter-spacing:-.4px;text-align:left;transition:color .15s}
+.lib-picker li button:focus{outline:none}
+.lib-picker li button:focus-visible{color:var(--atlas-bright);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px}
+@media(hover:hover){.lib-picker li button:hover{color:var(--atlas-bright)}}
+@media(max-width:800px){.lib-picker li button{font-size:27px;min-height:72px}}
+@keyframes lib-picker-in{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.lib-picker{animation:none}.lib-picker li button{transition:none}}

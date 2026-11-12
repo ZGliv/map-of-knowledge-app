@@ -1,0 +1,575 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.science.chemistry.states-of-matter.solutions",
+ "name": "Solutions",
+ "summary": [
+  {
+   "text": "A solution is a liquid or solid phase holding more than one substance, where one is treated as the solvent and the others as solutes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "The solution has the same physical state as its solvent, and solvents can be gases, liquids, or solids.",
+   "cites": [
+    8,
+    10
+   ]
+  },
+  {
+   "text": "Concentration measures how much solute is in a given amount of solution or solvent, for example by molarity, volume fraction, or mole fraction.",
+   "cites": [
+    2,
+    41,
+    42
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Picking the solvent",
+   "value": "Usually the substance present in the greatest amount",
+   "cites": [
+    7
+   ]
+  },
+  {
+   "label": "Aqueous solution",
+   "value": "One where a solvent is water",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Gaseous example",
+   "value": "Oxygen and other gases dissolved in nitrogen, as in air",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Liquid example",
+   "value": "Ethanol dissolved in water, as in alcoholic beverages",
+   "cites": [
+    21
+   ]
+  },
+  {
+   "label": "Saturated",
+   "value": "A solution that can dissolve no more solute",
+   "cites": [
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Why does a solid dissolved in a liquid give a liquid solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Solids always melt when they touch a liquid"
+    },
+    {
+     "id": "b",
+     "label": "A solution has the same physical state as its solvent"
+    },
+    {
+     "id": "c",
+     "label": "The solute's state decides the state of the mixture"
+    },
+    {
+     "id": "d",
+     "label": "The mixture takes the average of both states"
+    }
+   ],
+   "answer": "b",
+   "explain": "The solution has the same physical state as the solvent, so a liquid solvent gives a liquid solution even when the solute is a solid.",
+   "cites": [
+    10,
+    22
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions:q1"
+  },
+  {
+   "prompt": "You keep stirring a solid into a liquid until no more will dissolve. What has happened to the solution?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It has become immiscible"
+    },
+    {
+     "id": "b",
+     "label": "It has swapped its solute and solvent"
+    },
+    {
+     "id": "c",
+     "label": "It has become saturated"
+    },
+    {
+     "id": "d",
+     "label": "It has become a dilute solution"
+    }
+   ],
+   "answer": "c",
+   "explain": "When the energy loss outweighs the entropy gain, no more solute can dissolve and the solution is called saturated.",
+   "cites": [
+    31
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions:q2"
+  },
+  {
+   "prompt": "A chemist wants to dissolve more of a solid in a liquid. What will usually help?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Warm the liquid, since heat usually raises how much solid dissolves"
+    },
+    {
+     "id": "b",
+     "label": "Cool the liquid, since cold usually raises how much solid dissolves"
+    },
+    {
+     "id": "c",
+     "label": "Add contamination, since it always raises how much dissolves"
+    },
+    {
+     "id": "d",
+     "label": "Change nothing, since temperature never affects what dissolves"
+    }
+   ],
+   "answer": "a",
+   "explain": "Usually, the greater the temperature of the solvent, the more of a given solid solute it can dissolve.",
+   "cites": [
+    34
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions:q3"
+  },
+  {
+   "prompt": "Two liquids poured together end up as one uniform liquid, with one completely dissolved in the other. What describes this pair?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are immiscible"
+    },
+    {
+     "id": "b",
+     "label": "They are saturated"
+    },
+    {
+     "id": "c",
+     "label": "They are supersaturated"
+    },
+    {
+     "id": "d",
+     "label": "They are miscible"
+    }
+   ],
+   "answer": "d",
+   "explain": "A liquid that can completely dissolve in another liquid makes the two liquids miscible, while substances that can never mix to form a solution are immiscible.",
+   "cites": [
+    26,
+    27
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions:q4"
+  },
+  {
+   "prompt": "Hydrogen gas can dissolve into a metal such as palladium. What does this show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Only liquids can act as solvents"
+    },
+    {
+     "id": "b",
+     "label": "A solid can act as the solvent for a gas"
+    },
+    {
+     "id": "c",
+     "label": "Gases can only dissolve in other gases"
+    },
+    {
+     "id": "d",
+     "label": "Metals can never form solutions"
+    }
+   ],
+   "answer": "b",
+   "explain": "If the solvent is a solid, then gases, liquids, and solids can be dissolved, and hydrogen dissolves rather well in palladium.",
+   "cites": [
+    8,
+    23,
+    24
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions:q5"
+  },
+  {
+   "prompt": "A drink is 50% ethanol and 50% water, so neither is clearly the most plentiful. How do chemists usually pick the solvent?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They pick whichever was poured in first"
+    },
+    {
+     "id": "b",
+     "label": "They pick the one with the higher boiling point"
+    },
+    {
+     "id": "c",
+     "label": "They pick the one more often used as a solvent"
+    },
+    {
+     "id": "d",
+     "label": "They say the mixture can have no solvent"
+    }
+   ],
+   "answer": "c",
+   "explain": "When both exist in equal quantities, the substance that is more often used as a solvent is normally designated as the solvent.",
+   "cites": [
+    44
+   ],
+   "id": "knowledge.science.chemistry.states-of-matter.solutions:q6"
+  }
+ ],
+ "image": {
+  "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Solvent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "alt": "Solutions",
+  "credit": "Maxmath12",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Solvent.png"
+ },
+ "source": {
+  "title": "Solution (chemistry)",
+  "url": "https://en.wikipedia.org/wiki/Solution_(chemistry)",
+  "revision": 1384268115
+ },
+ "pack": {
+  "id": "auto-states-of-matter-solutions",
+  "title": "What counts as a solution?",
+  "question": "How does a solution hold one substance inside another, and what limits it?",
+  "path": [
+   "Science",
+   "Chemistry",
+   "States of matter",
+   "Solutions"
+  ],
+  "hue": 180,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Solvent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Solutions",
+    "credit": "Maxmath12 · CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Solvent.png",
+    "license": "CC0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "What counts as a solution?",
+    "hook": "Some mixtures hide one substance completely inside another, but only up to a point."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-states-of-matter-solutions:1",
+    "transfer": false,
+    "prompt": "You stir solid sugar into cold water until no more will dissolve, then warm the glass. What happens?",
+    "explain": "Usually, the warmer the solvent, the more of a given solid solute it can dissolve, so the saturation point moves up.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "b",
+        "label": "Some dissolved sugar drops back out",
+        "feedback": "That is how most gases behave, but solid solutes usually dissolve better when warmer."
+       },
+       {
+        "id": "c",
+        "label": "Nothing changes at all",
+        "feedback": "Temperature matters here: the point where a solution saturates can change significantly with temperature."
+       },
+       {
+        "id": "a",
+        "label": "A bit more sugar can dissolve"
+       }
+      ],
+      "answer": "a"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-states-of-matter-solutions:2",
+    "transfer": false,
+    "prompt": "Match each term to its meaning.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Solvent"
+     },
+     {
+      "id": "l1",
+      "label": "Solute"
+     },
+     {
+      "id": "l2",
+      "label": "Miscible"
+     },
+     {
+      "id": "l3",
+      "label": "Immiscible"
+     }
+    ],
+    "right": [
+     {
+      "id": "r1",
+      "label": "A component present other than the solvent"
+     },
+     {
+      "id": "r0",
+      "label": "Usually the substance present in the greatest amount"
+     },
+     {
+      "id": "r2",
+      "label": "One liquid can completely dissolve in another"
+     },
+     {
+      "id": "r3",
+      "label": "Two substances that can never mix to form a solution"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "These four words describe the roles in a solution and whether two substances can mix."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-states-of-matter-solutions:3",
+    "transfer": true,
+    "buckets": true,
+    "prompt": "Sort each example by what is being dissolved.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Oxygen in water"
+     },
+     {
+      "id": "i1",
+      "label": "Hydrogen in palladium"
+     },
+     {
+      "id": "i2",
+      "label": "Ethanol in water"
+     },
+     {
+      "id": "i3",
+      "label": "Sucrose in sugar water"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "A gas is dissolved"
+     },
+     {
+      "id": "g1",
+      "label": "A liquid or solid is dissolved"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1"
+    },
+    "explain": "Oxygen and hydrogen are gases dissolved in a liquid and a metal, while ethanol is a dissolved liquid and sucrose a dissolved solid."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-states-of-matter-solutions:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "Sugar water is an example of a solid dissolved in a liquid."
+     },
+     {
+      "id": "b",
+      "text": "A solution has the same physical state as its solvent."
+     },
+     {
+      "id": "c",
+      "text": "Sucrose is the part that is dissolved, so it is the solvent."
+     },
+     {
+      "id": "d",
+      "text": "So sugar water should be a solid."
+     }
+    ],
+    "answer": "c",
+    "explain": "The dissolved sucrose is the solute, not the solvent, and the solution takes the state of the solvent."
+   },
+   {
+    "kind": "payoff",
+    "idea": "A solvent holds solutes, the solution takes the solvent's physical state, and a solution can hold only so much solute before it is saturated.",
+    "connections": [
+     {
+      "title": "Solvent",
+      "place": "Solutions",
+      "node": "knowledge.science.chemistry.states-of-matter.solutions.solvent"
+     },
+     {
+      "title": "Molar concentration",
+      "place": "Solutions",
+      "node": "knowledge.science.chemistry.states-of-matter.solutions.molar-concentration"
+     },
+     {
+      "title": "Colloid",
+      "place": "Solutions",
+      "node": "knowledge.science.chemistry.states-of-matter.solutions.colloid"
+     },
+     {
+      "title": "Supersaturation",
+      "place": "Solutions",
+      "node": "knowledge.science.chemistry.states-of-matter.solutions.supersaturation"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "Usually, the warmer the solvent, the more of a given solid solute it can dissolve, so the saturation point moves up.",
+    "source": "Wikipedia sentences 32, 34, 35"
+   },
+   {
+    "claim": "These four words describe the roles in a solution and whether two substances can mix.",
+    "source": "Wikipedia sentences 7, 9, 26, 27"
+   },
+   {
+    "claim": "Oxygen and hydrogen are gases dissolved in a liquid and a metal, while ethanol is a dissolved liquid and sucrose a dissolved solid.",
+    "source": "Wikipedia sentences 20, 21, 22, 24"
+   },
+   {
+    "claim": "The dissolved sucrose is the solute, not the solvent, and the solution takes the state of the solvent.",
+    "source": "Wikipedia sentences 9, 10, 22"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What a solution is",
+    "text": "In chemistry, a solution is a liquid or solid phase that holds more than one substance. For convenience, one substance, the solvent, is treated differently, and the others are called solutes. The solvent is usually whichever substance is present in the largest amount, and when it is water the mix is called an aqueous solution. A solution always has the same physical state as its solvent.",
+    "cites": [
+     1,
+     3,
+     7,
+     10
+    ]
+   },
+   {
+    "heading": "Gas, liquid or solid solvents",
+    "text": "Solvents can be gases, liquids or solids. Air is a gas solution, with oxygen and other gases dissolved in nitrogen. Liquids can dissolve gases, other liquids and solids: oxygen in water lets fish breathe, ethanol in water is found in alcoholic drinks, and sugar water holds dissolved sucrose. Solid solvents can take in all three as well; hydrogen dissolves rather well in metals, especially palladium, which is studied as a way to store hydrogen.",
+    "cites": [
+     8,
+     12,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "heading": "How much can dissolve",
+    "text": "Solubility is the ability of one compound to dissolve in another. Two liquids that fully dissolve in each other are miscible, and two substances that can never form a solution are immiscible. Every solution gains entropy from mixing, but the attractions between different particles may or may not favour mixing. At some point the energy cost outweighs that gain and no more solute dissolves, and the solution is then saturated. Where that point falls can shift a lot with temperature, pressure and contamination.",
+    "cites": [
+     25,
+     26,
+     27,
+     28,
+     29,
+     31,
+     32
+    ]
+   },
+   {
+    "heading": "Temperature and supersaturation",
+    "text": "A hotter solvent can usually dissolve more of a solid solute. Most gases and some other compounds do the opposite and become less soluble as temperature rises, which comes from an exothermic enthalpy of solution. Liquids dissolving in liquids are generally less sensitive to temperature than solids or gases. For some pairs, raising the solubility, for example by heating, lets extra solute dissolve, and then lowering it again, for example by cooling, leaves a supersaturated solution.",
+    "cites": [
+     33,
+     34,
+     35,
+     36,
+     38
+    ]
+   },
+   {
+    "heading": "Measuring and changing properties",
+    "text": "Concentration measures how much solute is in a given amount of solution or solvent. It can be expressed in several ways, such as molarity, volume fraction and mole fraction. When the solutes make up only a small share, the solution is called dilute. Adding compounds also changes properties such as melting point and boiling point, and these are grouped together as colligative properties.",
+    "cites": [
+     2,
+     39,
+     40,
+     41,
+     42
+    ]
+   },
+   {
+    "heading": "When the roles blur",
+    "text": "If solute and solvent are present in equal amounts, as in a mix of 50% ethanol and 50% water, the two labels matter less. Even then, the substance more often used as a solvent, here water, is normally named the solvent. In principle any kind of liquid can act as a solvent, from liquid noble gases to molten metals, molten salts and ordinary molecular liquids.",
+    "cites": [
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-11-1",
+   "kind": "book",
+   "title": "11.1 The Dissolution Process",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+   "note": "A free college textbook section on what solutions are and the energy changes that decide whether something dissolves.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-11-3",
+   "kind": "book",
+   "title": "11.3 Solubility",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+   "note": "Saturated and supersaturated solutions, how temperature changes solubility, and miscible versus immiscible liquids.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "openstax-11-4",
+   "kind": "book",
+   "title": "11.4 Colligative Properties",
+   "by": "OpenStax, Chemistry 2e",
+   "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+   "note": "How dissolved solutes shift boiling and freezing points, with worked calculations.",
+   "license": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "crashcourse-solutions",
+   "kind": "video",
+   "title": "Solutions: Crash Course Chemistry #27",
+   "by": "CrashCourse",
+   "url": "https://www.youtube.com/watch?v=9h2f1Bjr0p4",
+   "note": "A Crash Course Chemistry episode on solutions, polar solvents and how substances dissolve."
+  }
+ ]
+}

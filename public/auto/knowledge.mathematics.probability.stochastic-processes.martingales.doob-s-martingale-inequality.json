@@ -1,0 +1,307 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality",
+ "name": "Doob's martingale inequality",
+ "summary": [
+  {
+   "text": "Doob's martingale inequality, also known as Kolmogorov's submartingale inequality, is a fundamental result in the study of stochastic processes.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "It bounds the probability that a submartingale exceeds a given value over an interval of time.",
+   "cites": [
+    2
+   ]
+  },
+  {
+   "text": "Informally, the expected value of the process at a final time controls the chance that a sample path reaches above a given value beforehand.",
+   "cites": [
+    9
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Other name",
+   "value": "Kolmogorov's submartingale inequality",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Setting",
+   "value": "A submartingale relative to a filtration",
+   "cites": [
+    6
+   ]
+  },
+  {
+   "label": "Follow-up result",
+   "value": "Doob's maximal inequality",
+   "cites": [
+    25
+   ]
+  },
+  {
+   "label": "Role in convergence",
+   "value": "A stepping stone in Doob's martingale convergence theorems",
+   "cites": [
+    34
+   ]
+  },
+  {
+   "label": "Index sets",
+   "value": "Holds beyond intervals or natural numbers",
+   "cites": [
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "You want to know how likely a fair-game process is to spike above some high level at any point before a final time. What does the inequality use to bound that chance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The expected value of the process at the final time"
+    },
+    {
+     "id": "b",
+     "label": "The value at the very first moment only"
+    },
+    {
+     "id": "c",
+     "label": "The number of times the path changes direction"
+    },
+    {
+     "id": "d",
+     "label": "The average of the path over its first half"
+    }
+   ],
+   "answer": "a",
+   "explain": "By bounding the running maximum using only its terminal expectation, the inequality lets the final expected value control the chance of reaching above a value beforehand.",
+   "cites": [
+    3,
+    9
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality:q1"
+  },
+  {
+   "prompt": "The inequality is usually stated for martingales. Which wider class of processes does the core mathematics cover?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Processes with no randomness"
+    },
+    {
+     "id": "b",
+     "label": "Only processes that never move"
+    },
+    {
+     "id": "c",
+     "label": "Any process whatsoever"
+    },
+    {
+     "id": "d",
+     "label": "Submartingales"
+    }
+   ],
+   "answer": "d",
+   "explain": "The result is usually given for martingales, but the core mathematics applies to submartingales.",
+   "cites": [
+    4
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality:q2"
+  },
+  {
+   "prompt": "A martingale has bounded expectations. By bounding extreme excursions of its paths, what does the inequality help show?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The martingale does not oscillate infinitely"
+    },
+    {
+     "id": "b",
+     "label": "The martingale must stay at its starting value"
+    },
+    {
+     "id": "c",
+     "label": "The martingale must rise forever"
+    },
+    {
+     "id": "d",
+     "label": "The martingale must fall to zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "By bounding the probability of extreme excursions, it ensures such martingales do not oscillate infinitely, which supports convergence to a limit.",
+   "cites": [
+    34,
+    35,
+    36
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality:q3"
+  },
+  {
+   "prompt": "Compared with many other theorems about stochastic processes, what is notable about the assumptions needed for the proof?",
+   "options": [
+    {
+     "id": "a",
+     "label": "It needs the process to be very smooth"
+    },
+    {
+     "id": "b",
+     "label": "It needs no restrictive assumptions on the filtration or process"
+    },
+    {
+     "id": "c",
+     "label": "It needs a special filtration chosen with care"
+    },
+    {
+     "id": "d",
+     "label": "It needs the process to take only integer values"
+    }
+   ],
+   "answer": "b",
+   "explain": "The proof uses very direct reasoning, so it requires no restrictive assumptions on the filtration or the process itself.",
+   "cites": [
+    10
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality:q4"
+  },
+  {
+   "prompt": "A probability textbook cites Kolmogorov's submartingale inequality. Which result is this the same as?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The optional stopping theorem"
+    },
+    {
+     "id": "b",
+     "label": "The Black-Scholes formula"
+    },
+    {
+     "id": "c",
+     "label": "Doob's martingale inequality"
+    },
+    {
+     "id": "d",
+     "label": "The Itô isometry"
+    }
+   ],
+   "answer": "c",
+   "explain": "Doob's martingale inequality is also known as Kolmogorov's submartingale inequality.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality:q5"
+  },
+  {
+   "prompt": "Must the times at which the process is observed form an interval or the natural numbers for the inequality to hold?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, only whole-number times are allowed"
+    },
+    {
+     "id": "b",
+     "label": "Yes, only a single continuous interval works"
+    },
+    {
+     "id": "c",
+     "label": "Yes, only a finite list of times works"
+    },
+    {
+     "id": "d",
+     "label": "No, it holds for more general index sets"
+    }
+   ],
+   "answer": "d",
+   "explain": "The submartingale inequality holds even for more general index sets, which are not required to be intervals or natural numbers.",
+   "cites": [
+    21
+   ],
+   "id": "knowledge.mathematics.probability.stochastic-processes.martingales.doob-s-martingale-inequality:q6"
+  }
+ ],
+ "source": {
+  "title": "Doob's martingale inequality",
+  "url": "https://en.wikipedia.org/wiki/Doob%27s_martingale_inequality",
+  "revision": 1361684528
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "What the inequality does",
+    "text": "Doob's martingale inequality, also called Kolmogorov's submartingale inequality, is a basic result about stochastic processes. It puts a ceiling on the chance that a submartingale climbs past a chosen value during a stretch of time. The result is usually stated for martingales, but its mathematics works for submartingales as well. It is credited to the American mathematician Joseph L. Doob.",
+    "cites": [
+     1,
+     2,
+     4,
+     5
+    ]
+   },
+   {
+    "heading": "The idea in plain words",
+    "text": "Roughly, the expected value of the process at the end of the period limits how likely any path is to have risen above a given level earlier on. So the highest point a path reaches along the way can be bounded using only the expectation at the final time. That makes the inequality a strong tool for studying the extreme swings of individual paths.",
+    "cites": [
+     3,
+     9
+    ]
+   },
+   {
+    "heading": "Why it needs so little",
+    "text": "Because the proof reasons very directly, it does not need the restrictive assumptions that many other theorems about these processes require. It uses the submartingale property just once, along with the definition of conditional expectation. It can also be read as a consequence of the theorem that a submartingale stopped at a stopping time is still a submartingale. In that reading, the smallest index used in the proof plays the role of the stopping time.",
+    "cites": [
+     10,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "heading": "From steps to smooth time",
+    "text": "In continuous time, the paths must be right-continuous or left-continuous. This is needed only so that the highest value of a path equals its highest value over a countable dense set of times. Moving from discrete to continuous time this way is flexible, because such a countable dense set can be built from a growing sequence of finite sets. As a result, the inequality holds for index sets that need not be intervals or the natural numbers.",
+    "cites": [
+     11,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "Doob's maximal inequality",
+    "text": "Doob proved further inequalities of the same kind. Take a martingale, or a positive submartingale, with right-continuous paths if time is uncountable. Jensen's inequality shows that |Xₜ|^p is then a submartingale for any p ≥ 1, as long as these variables have finite integrals. Combining the submartingale inequality with the layer cake representation and the Hölder inequality gives a second result, known as Doob's maximal inequality.",
+    "cites": [
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "Kolmogorov's inequality",
+    "text": "Suppose the partial sums Sₙ = X₁ + ⋯ + Xₙ form a martingale. By Jensen's inequality, |Sₙ| is then a nonnegative submartingale. Applying the submartingale inequality to it gives exactly Kolmogorov's inequality.",
+    "cites": [
+     27,
+     28,
+     29
+    ]
+   },
+   {
+    "heading": "Where it gets used",
+    "text": "Doob's maximal inequality leads to the Burkholder–Davis–Gundy inequalities, which bound the maximum of a martingale from both sides in terms of its quadratic variation. The case p = 2 underpins the careful construction of the Itô integral. The submartingale inequality is also a key step toward Doob's martingale convergence theorems. By limiting extreme excursions, it stops martingales with bounded expectations from oscillating forever, so they settle almost surely on a limit.",
+    "cites": [
+     30,
+     31,
+     34,
+     35,
+     36
+    ]
+   }
+  ]
+ }
+}

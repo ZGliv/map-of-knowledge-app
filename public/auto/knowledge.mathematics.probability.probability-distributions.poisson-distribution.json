@@ -1,0 +1,544 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.probability.probability-distributions.poisson-distribution",
+ "name": "Poisson distribution",
+ "summary": [
+  {
+   "text": "The Poisson distribution gives the probability of a given number of events in a fixed interval when they occur at a known constant mean rate, independently of the time since the last event.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Its parameter λ equals both the expected value and the variance, and it can describe counts in an area or volume as well as in time.",
+   "cites": [
+    2,
+    17
+   ]
+  },
+  {
+   "text": "It suits many possible events that are each rare, but fails when the rate changes or events are not independent, such as students arriving in groups.",
+   "cites": [
+    18,
+    27
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Named for",
+   "value": "French mathematician Siméon Denis Poisson",
+   "cites": [
+    3
+   ]
+  },
+  {
+   "label": "Parameter λ",
+   "value": "λ = E (X) = Var (X)",
+   "cites": [
+    17
+   ]
+  },
+  {
+   "label": "Classic example",
+   "value": "Radioactive decay events during a fixed observation period",
+   "cites": [
+    9
+   ]
+  },
+  {
+   "label": "Horse kicks",
+   "value": "In 1898 Bortkiewicz modelled Prussian soldiers killed by horse kicks",
+   "cites": [
+    15,
+    16
+   ]
+  },
+  {
+   "label": "Earlier result",
+   "value": "Abraham de Moivre gave similar results in 1711",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "A count follows a Poisson distribution with an average of 4. What is its variance?",
+   "options": [
+    {
+     "id": "a",
+     "label": "16"
+    },
+    {
+     "id": "b",
+     "label": "2"
+    },
+    {
+     "id": "c",
+     "label": "4"
+    },
+    {
+     "id": "d",
+     "label": "8"
+    }
+   ],
+   "answer": "c",
+   "explain": "The parameter λ is equal to both the expected value and the variance: λ = E (X) = Var (X).",
+   "cites": [
+    17
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution:q1"
+  },
+  {
+   "prompt": "A student union counts arrivals each minute. The rate is low during class and high between classes, and friends tend to walk in together. Why is a plain Poisson model a poor fit?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The count is too large for any distribution"
+    },
+    {
+     "id": "b",
+     "label": "The rate is not constant and arrivals are not independent"
+    },
+    {
+     "id": "c",
+     "label": "Poisson models only apply to radioactive decay"
+    },
+    {
+     "id": "d",
+     "label": "Students never arrive in a fixed interval of time"
+    }
+   ],
+   "answer": "b",
+   "explain": "The rate is not constant and arrivals of individual students are not independent, since students tend to come in groups.",
+   "cites": [
+    27
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution:q2"
+  },
+  {
+   "prompt": "The number of magnitude 5 earthquakes in a country per year may not be Poisson distributed. What could break the assumptions?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Earthquakes can only be counted once a decade"
+    },
+    {
+     "id": "b",
+     "label": "Earthquakes are far too rare to count at all"
+    },
+    {
+     "id": "c",
+     "label": "A large quake can raise the chance of aftershocks"
+    },
+    {
+     "id": "d",
+     "label": "A year is too short to be an interval"
+    }
+   ],
+   "answer": "c",
+   "explain": "If one large earthquake increases the probability of aftershocks, events are not independent of each other.",
+   "cites": [
+    24,
+    29
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution:q3"
+  },
+  {
+   "prompt": "A forest is divided into equal square plots, and an ecologist counts trees in each plot. Can a Poisson distribution be considered?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since it can describe counts in an area, not only time"
+    },
+    {
+     "id": "b",
+     "label": "No, because Poisson counts only work over time intervals"
+    },
+    {
+     "id": "c",
+     "label": "No, because trees are too numerous to count"
+    },
+    {
+     "id": "d",
+     "label": "Yes, but only if every plot has exactly one tree"
+    }
+   ],
+   "answer": "a",
+   "explain": "The distribution can be used for events in other kinds of intervals, such as a given area, and tree locations are an example.",
+   "cites": [
+    2,
+    22
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution:q4"
+  },
+  {
+   "prompt": "A system has a huge number of possible events, each of them rare, and you count how many happen in a fixed time. Which distribution can fit under the right circumstances?",
+   "options": [
+    {
+     "id": "a",
+     "label": "A distribution where all counts are equally likely"
+    },
+    {
+     "id": "b",
+     "label": "A distribution with a single certain count"
+    },
+    {
+     "id": "c",
+     "label": "A distribution that always peaks at zero"
+    },
+    {
+     "id": "d",
+     "label": "A Poisson distribution"
+    }
+   ],
+   "answer": "d",
+   "explain": "The Poisson distribution can be applied to systems with a large number of possible events, each of which is rare.",
+   "cites": [
+    18,
+    19
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution:q5"
+  },
+  {
+   "prompt": "You only ever record visits where at least one event is guaranteed to happen. Is a plain Poisson distribution right?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, since a guaranteed event is a rare event"
+    },
+    {
+     "id": "b",
+     "label": "No, such counts may be modelled by a zero-truncated Poisson"
+    },
+    {
+     "id": "c",
+     "label": "Yes, as long as the rate is at least one"
+    },
+    {
+     "id": "d",
+     "label": "No, since such counts can never be modelled"
+    }
+   ],
+   "answer": "b",
+   "explain": "Examples where at least one event is guaranteed are not Poisson distributed, but can be modelled with a zero-truncated Poisson.",
+   "cites": [
+    30
+   ],
+   "id": "knowledge.mathematics.probability.probability-distributions.poisson-distribution:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Poisson_pmf.svg/960px-Poisson_pmf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Poisson distribution",
+  "credit": "Skbkekas",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Poisson_pmf.svg"
+ },
+ "source": {
+  "title": "Poisson distribution",
+  "url": "https://en.wikipedia.org/wiki/Poisson_distribution",
+  "revision": 1383735536
+ },
+ "pack": {
+  "id": "auto-probability-distributions-poisson-distribution",
+  "title": "Counting the rare and random",
+  "question": "When does a count of random events follow a Poisson pattern?",
+  "path": [
+   "Mathematics",
+   "Probability",
+   "Probability distributions",
+   "Poisson distribution"
+  ],
+  "hue": 44,
+  "minutes": 5,
+  "media": {
+   "hero": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Poisson_pmf.svg/960px-Poisson_pmf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Poisson distribution",
+    "credit": "Skbkekas · CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Poisson_pmf.svg",
+    "license": "CC BY 3.0"
+   }
+  },
+  "beats": [
+   {
+    "kind": "cover",
+    "media": "hero",
+    "title": "Counting the rare and random",
+    "hook": "Radioactive atoms, phone calls and even horse kicks all share one counting rule, as long as certain conditions hold."
+   },
+   {
+    "kind": "predict",
+    "gradeId": "auto-probability-distributions-poisson-distribution:1",
+    "transfer": false,
+    "prompt": "A call center averages 3 calls per minute all day, and calls in separate minutes are independent. How likely is a minute with between 1 and 4 calls?",
+    "explain": "With an average of 3 calls a minute, 1 to 4 calls has probability of about 0.77, and 0 or at least 5 calls about 0.23.",
+    "parts": [
+     {
+      "id": "p",
+      "label": "What happens?",
+      "choices": [
+       {
+        "id": "c",
+        "label": "About 0.77",
+        "feedback": ""
+       },
+       {
+        "id": "b",
+        "label": "About 0.50",
+        "feedback": "It is tempting to split evenly, but the average of 3 puts most minutes in that range."
+       },
+       {
+        "id": "a",
+        "label": "About 0.23",
+        "feedback": "That is the chance of 0 calls or at least 5, the opposite outcome."
+       }
+      ],
+      "answer": "c"
+     }
+    ]
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-distributions-poisson-distribution:2",
+    "transfer": false,
+    "buckets": true,
+    "prompt": "Sort each situation by whether a Poisson model fits it.",
+    "left": [
+     {
+      "id": "i0",
+      "label": "Radioactive decay events in a fixed observation period"
+     },
+     {
+      "id": "i1",
+      "label": "Calls at a constant average rate, independent of each other"
+     },
+     {
+      "id": "i2",
+      "label": "Students arriving in groups at changing rates"
+     },
+     {
+      "id": "i3",
+      "label": "Earthquakes where one large quake raises the chance of aftershocks"
+     },
+     {
+      "id": "i4",
+      "label": "Counts where at least one event is guaranteed"
+     }
+    ],
+    "right": [
+     {
+      "id": "g0",
+      "label": "Fits Poisson"
+     },
+     {
+      "id": "g1",
+      "label": "Does not fit"
+     }
+    ],
+    "pairs": {
+     "i0": "g0",
+     "i1": "g0",
+     "i2": "g1",
+     "i3": "g1",
+     "i4": "g1"
+    },
+    "explain": "Poisson needs a constant average rate and events independent of one another, and zero counts must be possible."
+   },
+   {
+    "kind": "match",
+    "gradeId": "auto-probability-distributions-poisson-distribution:3",
+    "transfer": true,
+    "prompt": "Match each person to what they did with the distribution.",
+    "left": [
+     {
+      "id": "l0",
+      "label": "Siméon Denis Poisson"
+     },
+     {
+      "id": "l1",
+      "label": "Abraham de Moivre"
+     },
+     {
+      "id": "l2",
+      "label": "Simon Newcomb"
+     },
+     {
+      "id": "l3",
+      "label": "Ladislaus Bortkiewicz"
+     }
+    ],
+    "right": [
+     {
+      "id": "r3",
+      "label": "Modelled soldiers killed by horse kicks"
+     },
+     {
+      "id": "r1",
+      "label": "Gave similar results in 1711"
+     },
+     {
+      "id": "r0",
+      "label": "Published it with his probability theory in 1837"
+     },
+     {
+      "id": "r2",
+      "label": "Fitted it to stars per unit of space in 1860"
+     }
+    ],
+    "pairs": {
+     "l0": "r0",
+     "l1": "r1",
+     "l2": "r2",
+     "l3": "r3"
+    },
+    "explain": "The distribution is named for Poisson, but similar results came earlier, and later users fitted it to real counts."
+   },
+   {
+    "kind": "flaw",
+    "gradeId": "auto-probability-distributions-poisson-distribution:4",
+    "transfer": true,
+    "prompt": "One step in this reasoning is wrong. Which?",
+    "steps": [
+     {
+      "id": "a",
+      "text": "A student union counts arrivals each minute."
+     },
+     {
+      "id": "b",
+      "text": "The arrival rate is low during class and high between classes."
+     },
+     {
+      "id": "c",
+      "text": "Counts in fixed intervals are always Poisson, so the changing rate does not matter."
+     },
+     {
+      "id": "d",
+      "text": "So Poisson predictions will be reliable."
+     }
+    ],
+    "answer": "c",
+    "explain": "Poisson needs a constant rate and independent arrivals. A changing rate breaks that."
+   },
+   {
+    "kind": "payoff",
+    "idea": "The Poisson distribution fits counts of events that come at a constant average rate and independently of one another.",
+    "connections": [
+     {
+      "title": "Poisson process",
+      "place": "Poisson distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-process"
+     },
+     {
+      "title": "Poisson limit theorem",
+      "place": "Poisson distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.poisson-limit-theorem"
+     },
+     {
+      "title": "Queueing theory",
+      "place": "Poisson distribution",
+      "node": "knowledge.mathematics.probability.probability-distributions.poisson-distribution.queueing-theory"
+     }
+    ]
+   }
+  ],
+  "provenance": [
+   {
+    "claim": "With an average of 3 calls a minute, 1 to 4 calls has probability of about 0.77, and 0 or at least 5 calls about 0.23.",
+    "source": "Wikipedia sentences 6, 7, 8"
+   },
+   {
+    "claim": "Poisson needs a constant average rate and events independent of one another, and zero counts must be possible.",
+    "source": "Wikipedia sentences 1, 6, 7, 9, 24, 27, 29, 30"
+   },
+   {
+    "claim": "The distribution is named for Poisson, but similar results came earlier, and later users fitted it to real counts.",
+    "source": "Wikipedia sentences 10, 12, 14, 15, 16"
+   },
+   {
+    "claim": "Poisson needs a constant rate and independent arrivals. A changing rate breaks that.",
+    "source": "Wikipedia sentences 1, 27"
+   }
+  ]
+ },
+ "read": {
+  "minutes": 3,
+  "paragraphs": [
+   {
+    "heading": "Counting events in a stretch",
+    "text": "The Poisson distribution tells you how likely each possible count of events is within a fixed stretch of time. It applies when the events arrive at a known average rate that stays the same, and when each one happens regardless of how long it has been since the one before. The count, written k, is a whole number that can be zero or larger. The stretch does not have to be time: the same idea works for counts in an area or in a volume.",
+    "cites": [
+     1,
+     2,
+     23
+    ]
+   },
+   {
+    "heading": "One number sets the shape",
+    "text": "The whole distribution is controlled by one number, λ (lambda), the number of events you expect in the stretch. The chance of seeing exactly k events is (λᵏᵉ^(−λ))/k!. λ is the expected value of the count, and it is also its variance. If you are told a rate r instead, multiply it by the length of the stretch t to get λ = rt.",
+    "cites": [
+     5,
+     17,
+     20,
+     21
+    ]
+   },
+   {
+    "heading": "When it fits",
+    "text": "It suits settings where a great many events could happen but each one is rare. Two conditions matter. One event must not change the chance of another, and the average rate must not depend on what has already happened. When both hold, the count k follows a Poisson distribution.",
+    "cites": [
+     18,
+     19,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "heading": "When it breaks down",
+    "text": "Students arriving at a student union each minute probably do not fit. Their rate rises between classes and falls during them, and they tend to turn up in groups rather than one by one. Yearly counts of magnitude 5 earthquakes in a country may not fit either, if one big quake makes similar aftershocks more likely. A count that is guaranteed to be at least one is also not Poisson, though a zero-truncated version can model it.",
+    "cites": [
+     27,
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "A call center example",
+    "text": "Picture a call center that gets 3 calls a minute on average, at every hour of the day. If the numbers of calls in any two non-overlapping periods are independent, then the number of calls in any one minute is Poisson. The chance of getting between 1 and 4 calls in a minute is then about 0.77. The chance of getting none, or 5 or more, is about 0.23.",
+    "cites": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "heading": "Who found it",
+    "text": "The distribution is named after the French mathematician Siméon Denis Poisson, who lived from 1781 to 1840. He published it in 1837 together with his theory of probability, in a work about wrongful convictions. Abraham de Moivre had given similar results back in 1711, which has led some authors to say the name should be his. Later, Simon Newcomb fitted it to the number of stars in a unit of space in 1860. In 1898 Ladislaus Bortkiewicz showed it described how often Prussian soldiers were killed by accidental horse kicks.",
+    "cites": [
+     3,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "openstax-4-6",
+   "kind": "book",
+   "title": "4.6 Poisson Distribution",
+   "by": "OpenStax (Barbara Illowsky, Susan Dean)",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-6-poisson-distribution",
+   "note": "A free textbook section on the Poisson distribution for counts of events in an interval, with worked examples.",
+   "license": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

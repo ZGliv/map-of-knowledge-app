@@ -1,0 +1,313 @@
+{
+ "schema": "mok.auto/1",
+ "nodeId": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra",
+ "name": "Basis (linear algebra)",
+ "summary": [
+  {
+   "text": "An ordered basis of an n-dimensional vector space lets you write any vector uniquely as a list of n numbers called coordinates.",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "text": "Under a different basis the same vector usually gets different coordinates, and a change-of-basis matrix converts between them.",
+   "cites": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "text": "A new group of n vectors is a basis exactly when its change-of-basis matrix is invertible, which means it has a nonzero determinant.",
+   "cites": [
+    12
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "label": "Coordinates",
+   "value": "A list of n scalars in an n-dimensional space",
+   "cites": [
+    1
+   ]
+  },
+  {
+   "label": "Transition matrix",
+   "value": "Its columns are the new basis vectors written in the old basis",
+   "cites": [
+    5
+   ]
+  },
+  {
+   "label": "Basis test",
+   "value": "The change-of-basis matrix must be invertible",
+   "cites": [
+    12
+   ]
+  },
+  {
+   "label": "Standard basis",
+   "value": "Tuples with a 1 in one place and 0 everywhere else",
+   "cites": [
+    22
+   ]
+  },
+  {
+   "label": "Physics use",
+   "value": "Often a rotation of an orthonormal basis, never a translation",
+   "cites": [
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "prompt": "Two surveyors describe the same location in a plane, each using their own pair of reference directions. What do you expect of their coordinate lists?",
+   "options": [
+    {
+     "id": "a",
+     "label": "They are identical, since the location is identical"
+    },
+    {
+     "id": "b",
+     "label": "They are in general different"
+    },
+    {
+     "id": "c",
+     "label": "They are always negatives of each other"
+    },
+    {
+     "id": "d",
+     "label": "They are always in the same order but doubled"
+    }
+   ],
+   "answer": "b",
+   "explain": "The coordinate vector of a vector on one basis is, in general, different from its coordinate vector on another basis.",
+   "cites": [
+    2
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra:q1"
+  },
+  {
+   "prompt": "Once an ordered basis is fixed, how many coordinate lists can represent a single given vector?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Exactly one"
+    },
+    {
+     "id": "b",
+     "label": "Exactly two, one per direction"
+    },
+    {
+     "id": "c",
+     "label": "As many as there are scalars"
+    },
+    {
+     "id": "d",
+     "label": "None, unless the vector is zero"
+    }
+   ],
+   "answer": "a",
+   "explain": "An ordered basis allows representing any element of the space uniquely by a coordinate vector.",
+   "cites": [
+    1
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra:q2"
+  },
+  {
+   "prompt": "Someone writes n new vectors using an old basis and puts their coordinates into a matrix. Its determinant is zero. Do the new vectors form a basis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Yes, any n vectors form a basis"
+    },
+    {
+     "id": "b",
+     "label": "Yes, but only for the standard basis"
+    },
+    {
+     "id": "c",
+     "label": "No, the matrix would need to be invertible"
+    },
+    {
+     "id": "d",
+     "label": "No, the determinant would need to be one"
+    }
+   ],
+   "answer": "c",
+   "explain": "The new vectors form a basis if and only if the matrix is invertible, equivalently if its determinant is nonzero.",
+   "cites": [
+    12
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra:q3"
+  },
+  {
+   "prompt": "In a change-of-basis matrix, what do the entries in column j describe?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The old basis vectors written in the new basis"
+    },
+    {
+     "id": "b",
+     "label": "The rows of the identity matrix"
+    },
+    {
+     "id": "c",
+     "label": "The j-th coordinate of every old vector"
+    },
+    {
+     "id": "d",
+     "label": "The j-th new basis vector written in the old basis"
+    }
+   ],
+   "answer": "d",
+   "explain": "The matrix columns are the coordinates of the new basis vectors on the old basis.",
+   "cites": [
+    5
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra:q4"
+  },
+  {
+   "prompt": "In the space of triples of numbers, which triple belongs to the standard basis?",
+   "options": [
+    {
+     "id": "a",
+     "label": "(1, 1, 1)"
+    },
+    {
+     "id": "b",
+     "label": "(2, 0, 0)"
+    },
+    {
+     "id": "c",
+     "label": "(0, 1, 0)"
+    },
+    {
+     "id": "d",
+     "label": "(1, 1, 0)"
+    }
+   ],
+   "answer": "c",
+   "explain": "Each standard basis element has a 1 in one position and 0 in all the others.",
+   "cites": [
+    22
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra:q5"
+  },
+  {
+   "prompt": "A physicist turns the axes of her coordinate system to line up with a ramp, keeping the origin fixed. In mechanics, how is such a change of orthonormal basis understood?",
+   "options": [
+    {
+     "id": "a",
+     "label": "As a rotation in physical space"
+    },
+    {
+     "id": "b",
+     "label": "As a stretching of physical space"
+    },
+    {
+     "id": "c",
+     "label": "As a shift of the origin"
+    },
+    {
+     "id": "d",
+     "label": "As a swap of two measurement units"
+    }
+   ],
+   "answer": "a",
+   "explain": "A change of basis in mechanics often transforms an orthonormal basis, understood as a rotation in physical space that excludes translations.",
+   "cites": [
+    7
+   ],
+   "id": "knowledge.mathematics.algebra.linear-algebra.vector-spaces.basis-linear-algebra:q6"
+  }
+ ],
+ "image": {
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/3d_basis_transformation.svg/960px-3d_basis_transformation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "alt": "Basis (linear algebra)",
+  "credit": "Maschen",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:3d_basis_transformation.svg"
+ },
+ "source": {
+  "title": "Change of basis",
+  "url": "https://en.wikipedia.org/wiki/Change_of_basis",
+  "revision": 1376113800
+ },
+ "read": {
+  "minutes": 2,
+  "paragraphs": [
+   {
+    "heading": "Coordinates from a basis",
+    "text": "Take a vector space of finite dimension n and put the vectors of a basis in a fixed order. Then every vector in the space can be described in exactly one way by a list of n scalars. Those scalars are the vector's coordinates, and the list is its coordinate vector.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "heading": "Same vector, new coordinates",
+    "text": "A space can have many bases, and the same vector usually gets a different coordinate vector on each one. A change of basis means rewriting every statement made in the coordinates of one basis into the coordinates of the other. The tool for this is the change-of-basis matrix, also called a transition matrix. Its columns hold the coordinates of the new basis vectors, measured on the old basis.",
+    "cites": [
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "heading": "Testing a new basis",
+    "text": "The same matrix tells you whether a new set of n vectors really is a basis. It is exactly when the matrix A is invertible, which is the same as A having a nonzero determinant. In that case A is called the change-of-basis matrix from the old basis to the new one.",
+    "cites": [
+     12,
+     13
+    ]
+   },
+   {
+    "heading": "A formula that runs backwards",
+    "text": "The change-of-basis formula, x = Ay, gives the old coordinates in terms of the new ones. That direction can feel unnatural at first. It turns out to be handy: to rewrite a function f(x) in the new coordinates, you just substitute and get f(Ay), with no matrix inversion needed.",
+    "cites": [
+     29,
+     30
+    ]
+   },
+   {
+    "heading": "Rotations in physics",
+    "text": "In physics, and in mechanics above all, a change of basis often moves from one orthonormal basis to another and is understood as a rotation in physical space. Geometry and physics also often meet symmetric bilinear forms over the real numbers, for example in the study of quadrics or of the inertia of a rigid body. In that setting orthonormal bases are especially useful. So people there usually allow only changes of basis whose matrix P is orthogonal, meaning P^𝖳 = P⁻¹.",
+    "cites": [
+     7,
+     44,
+     45
+    ]
+   }
+  ]
+ },
+ "links": [
+  {
+   "id": "wikibooks-basis",
+   "kind": "book",
+   "title": "Linear Algebra/Basis",
+   "by": "Wikibooks contributors",
+   "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Basis",
+   "note": "A free textbook section defining a basis and how it gives each vector unique coordinates.",
+   "license": "CC BY-SA"
+  },
+  {
+   "id": "3b1b-span-basis",
+   "kind": "video",
+   "title": "Linear combinations, span, and basis vectors",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=k7RM-ot2NWY",
+   "note": "An animated introduction to basis vectors, linear combinations and span."
+  },
+  {
+   "id": "3b1b-change-of-basis",
+   "kind": "video",
+   "title": "Change of basis",
+   "by": "3Blue1Brown",
+   "url": "https://www.youtube.com/watch?v=P2LTAUO1TdA",
+   "note": "An animated explanation of how the same vector gets different coordinates in a different basis."
+  }
+ ]
+}

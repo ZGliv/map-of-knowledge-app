@@ -1,0 +1,48 @@
+{
+  "name": "map-of-knowledge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js --configLoader runner --host 127.0.0.1",
+    "build": "node node_modules/typescript/bin/tsc --noEmit && node node_modules/vite/bin/vite.js build --configLoader runner",
+    "test": "node node_modules/vitest/vitest.mjs run --configLoader runner",
+    "preview": "node node_modules/vite/bin/vite.js preview --configLoader runner --host 127.0.0.1 --port 4178 --strictPort",
+    "guide": "node scripts/guide-server.mjs",
+    "unfurl": "node scripts/unfurl-server.mjs",
+    "test:guide": "node node_modules/vitest/vitest.mjs run --config server/guide-test.config.mjs --configLoader runner",
+    "start": "npm run build && node scripts/start-local.mjs",
+    "ios:sync": "node node_modules/vite/bin/vite.js build --configLoader runner && node node_modules/@capacitor/cli/bin/capacitor sync ios",
+    "ios:sync:remote": "node node_modules/vite/bin/vite.js build --configLoader runner && CAP_APP_MODE=remote node node_modules/@capacitor/cli/bin/capacitor sync ios",
+    "ios:open": "node node_modules/@capacitor/cli/bin/capacitor open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.4.1",
+    "@capacitor/ios": "8.4.1",
+    "@capacitor/splash-screen": "8.0.1",
+    "@capacitor/status-bar": "8.0.2",
+    "d3-geo": "3.1.1",
+    "d3-hierarchy": "3.1.2",
+    "d3-voronoi-treemap": "1.1.2",
+    "pixi.js": "8.19.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "seedrandom": "3.0.5",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.4.1",
+    "@types/d3-geo": "3.1.0",
+    "@types/d3-hierarchy": "3.1.7",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/seedrandom": "3.0.8",
+    "@types/topojson-client": "3.1.5",
+    "@vitejs/plugin-react": "6.0.3",
+    "playwright": "1.61.1",
+    "typescript": "7.0.2",
+    "vite": "8.1.4",
+    "vitest": "4.1.12"
+  }
+}

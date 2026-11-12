@@ -1,0 +1,3864 @@
+# Fact sheet: genetics-gene-regulation
+
+Numbered sentences from each pinned source. Draft from these facts in your own words: never copy a run of 8 words (the validator checks). Cite the source ID exactly as written in the heading.
+
+## [W1] Wikipedia: Regulation of gene expression
+https://en.wikipedia.org/w/index.php?title=Regulation_of_gene_expression&oldid=1381573041 · CC BY-SA 4.0 · usage: ai_input
+
+- [W1.1] Regulation of gene expression, or gene regulation, includes a wide range of mechanisms that are used by cells to increase or decrease the production of specific gene products (protein or RNA).
+- [W1.2] Sophisticated programs of gene expression are widely observed in biology, for example to trigger developmental pathways, respond to environmental stimuli, or adapt to new food sources.
+- [W1.3] Virtually any step of gene expression can be modulated, from transcriptional initiation, to RNA processing, and to the post-translational modification of a protein.
+- [W1.4] Often, one gene regulator controls another, and so on, in a gene regulatory network.
+- [W1.5] Gene regulation is essential for viruses, prokaryotes and eukaryotes as it increases the versatility and adaptability of an organism by allowing the cell to express protein when needed.
+- [W1.6] Although as early as 1951, Barbara McClintock showed interaction between two genetic loci, Activator (Ac) and Dissociator (Ds), in the color formation of maize seeds, the first discovery of a gene regulation system is widely considered to be the identification in 1961 of the lac operon, discovered by François Jacob and Jacques Monod, in which some enzymes involved in lactose metabolism are expressed by E. coli only in the presence of lactose and absence of glucose.
+- [W1.7] In multicellular organisms, gene regulation drives cellular differentiation and morphogenesis in the embryo, leading to the creation of different cell types that possess different gene expression profiles from the same genome sequence.
+- [W1.8] Although this does not explain how gene regulation originated, evolutionary biologists include it as a partial explanation of how evolution works at a molecular level, and it is central to the science of evolutionary developmental biology ("evo-devo").
+- [W1.9] Regulated stages of gene expression
+- [W1.10] Any step of gene expression may be modulated, from signaling to transcription to post-translational modification of a protein.
+- [W1.11] The following is a list of stages where gene expression is regulated, where the most extensively utilized point is transcription initiation, the first stage in transcription:
+- [W1.12] Chromatin, chromatin remodeling, chromatin domains
+- [W1.13] Post-transcriptional modification
+- [W1.14] In eukaryotes, the accessibility of large regions of DNA can depend on its chromatin structure, which can be altered as a result of histone modifications directed by DNA methylation, ncRNA, or DNA-binding protein.
+- [W1.15] Hence these modifications may up or down regulate the expression of a gene.
+- [W1.16] Some of these modifications that regulate gene expression are inheritable and are referred to as epigenetic regulation.
+- [W1.17] Transcription of DNA is dictated by its structure.
+- [W1.18] In general, the density of its packing is indicative of the frequency of transcription.
+- [W1.19] Octameric protein complexes called histones together with a segment of DNA wound around the eight histone proteins (together referred to as a nucleosome) are responsible for the amount of supercoiling of DNA, and these complexes can be temporarily modified by processes such as phosphorylation or more permanently modified by processes such as methylation.
+- [W1.20] Such modifications are considered to be responsible for more or less permanent changes in gene expression levels.
+- [W1.21] Methylation of DNA is a common method of gene silencing.
+- [W1.22] DNA is typically methylated by methyltransferase enzymes on cytosine nucleotides in a CpG dinucleotide sequence (also called "CpG islands" when densely clustered).
+- [W1.23] Analysis of the pattern of methylation in a given region of DNA (which can be a promoter) can be achieved through a method called bisulfite mapping.
+- [W1.24] Methylated cytosine residues are unchanged by the treatment, whereas unmethylated ones are changed to uracil.
+- [W1.25] The differences are analyzed by DNA sequencing or by methods developed to quantify SNPs, such as Pyrosequencing (Biotage) or MassArray (Sequenom), measuring the relative amounts of C/T at the CG dinucleotide.
+- [W1.26] Abnormal methylation patterns are thought to be involved in oncogenesis.
+- [W1.27] Histone acetylation is also an important process in transcription.
+- [W1.28] Histone acetyltransferase enzymes (HATs) such as CREB-binding protein also dissociate the DNA from the histone complex, allowing transcription to proceed.
+- [W1.29] Often, DNA methylation and histone deacetylation work together in gene silencing.
+- [W1.30] The combination of the two seems to be a signal for DNA to be packed more densely, lowering gene expression.
+- [W1.31] Regulation of transcription
+- [W1.32] Regulation of transcription thus controls when transcription occurs and how much RNA is created.
+- [W1.33] Transcription of a gene by RNA polymerase can be regulated by several mechanisms.
+- [W1.34] Specificity factors alter the specificity of RNA polymerase for a given promoter or set of promoters, making it more or less likely to bind to them (i.e., sigma factors used in prokaryotic transcription).
+- [W1.35] Repressors bind to the Operator, coding sequences on the DNA strand that are close to or overlapping the promoter region, impeding RNA polymerase's progress along the strand, thus impeding the expression of the gene.
+- [W1.36] The image to the right demonstrates regulation by a repressor in the lac operon.
+- [W1.37] General transcription factors position RNA polymerase at the start of a protein-coding sequence and then release the polymerase to transcribe the mRNA.
+- [W1.38] Activators enhance the interaction between RNA polymerase and a particular promoter, encouraging the expression of the gene.
+- [W1.39] Activators do this by increasing the attraction of RNA polymerase for the promoter, through interactions with subunits of the RNA polymerase or indirectly by changing the structure of the DNA.
+- [W1.40] Enhancers are sites on the DNA helix that are bound by activators in order to loop the DNA bringing a specific promoter to the initiation complex.
+- [W1.41] Enhancers are much more common in eukaryotes than prokaryotes, where only a few examples exist (to date).
+- [W1.42] Silencers are regions of DNA sequences that, when bound by particular transcription factors, can silence expression of the gene.
+- [W1.43] RNA can be an important regulator of gene activity, e.g. by microRNA (miRNA), antisense-RNA, or long non-coding RNA (lncRNA).
+- [W1.44] LncRNAs differ from mRNAs in the sense that they have specified subcellular locations and functions.
+- [W1.45] They were first discovered to be located in the nucleus and chromatin, and the localizations and functions are highly diverse now.
+- [W1.46] Some still reside in chromatin where they interact with proteins.
+- [W1.47] While this lncRNA ultimately affects gene expression in neuronal disorders such as Parkinson, Huntington, and Alzheimer disease, others, such as, PNCTR(pyrimidine-rich non-coding transcriptors), play a role in lung cancer.
+- [W1.48] Given their role in disease, lncRNAs are potential biomarkers and may be useful targets for drugs or gene therapy, although there are no approved drugs that target lncRNAs yet.
+- [W1.49] The number of lncRNAs in the human genome remains poorly defined, but some estimates range from 16,000 to 100,000 lnc genes.
+- [W1.50] Epigenetic gene regulation
+- [W1.51] Epigenetics refers to the modification of genes that is not changing the DNA or RNA sequence.
+- [W1.52] Epigenetic modifications are also a key factor in influencing gene expression.
+- [W1.53] They occur on genomic DNA and histones and their chemical modifications regulate gene expression in a more efficient manner.
+- [W1.54] There are several modifications of DNA (usually methylation) and more than 100 modifications of RNA in mammalian cells." Those modifications result in altered protein binding to DNA and a change in RNA stability and translation efficiency.
+- [W1.55] Special cases in human biology and disease
+- [W1.56] Regulation of transcription in cancer
+- [W1.57] In vertebrates, the majority of gene promoters contain a CpG island with numerous CpG sites.
+- [W1.58] When many of a gene's promoter CpG sites are methylated the gene becomes silenced.
+- [W1.59] Colorectal cancers typically have 3 to 6 driver mutations and 33 to 66 hitchhiker or passenger mutations.
+- [W1.60] However, transcriptional silencing may be of more importance than mutation in causing progression to cancer.
+- [W1.61] For example, in colorectal cancers about 600 to 800 genes are transcriptionally silenced by CpG island methylation (see regulation of transcription in cancer).
+- [W1.62] Transcriptional repression in cancer can also occur by other epigenetic mechanisms, such as altered expression of microRNAs.
+- [W1.63] In breast cancer, transcriptional repression of BRCA1 may occur more frequently by over-expressed microRNA-182 than by hypermethylation of the BRCA1 promoter (see Low expression of BRCA1 in breast and ovarian cancers).
+- [W1.64] Regulation of transcription in addiction
+- [W1.65] One of the cardinal features of addiction is its persistence.
+- [W1.66] The persistent behavioral changes appear to be due to long-lasting changes, resulting from epigenetic alterations affecting gene expression, within particular regions of the brain.
+- [W1.67] Drugs of abuse cause three types of epigenetic alteration in the brain.
+- [W1.68] These are (1) histone acetylations and histone methylations, (2) DNA methylation at CpG sites, and (3) epigenetic downregulation or upregulation of microRNAs.
+- [W1.69] (See Epigenetics of cocaine addiction for some details.)
+- [W1.70] Chronic nicotine intake in mice alters brain cell epigenetic control of gene expression through acetylation of histones.
+- [W1.71] This increases expression in the brain of the protein FosB, important in addiction.
+- [W1.72] Cigarette addiction was also studied in about 16,000 humans, including never smokers, current smokers, and those who had quit smoking for up to 30 years.
+- [W1.73] In blood cells, more than 18,000 CpG sites (of the roughly 450,000 analyzed CpG sites in the genome) had frequently altered methylation among current smokers.
+- [W1.74] These CpG sites occurred in over 7,000 genes, or roughly a third of known human genes.
+- [W1.75] The majority of the differentially methylated CpG sites returned to the level of never-smokers within five years of smoking cessation.
+- [W1.76] However, 2,568 CpGs among 942 genes remained differentially methylated in former versus never smokers.
+- [W1.77] Such remaining epigenetic changes can be viewed as "molecular scars" that may affect gene expression.
+- [W1.78] In rodent models, drugs of abuse, including cocaine, methamphetamine, alcohol and tobacco smoke products, all cause DNA damage in the brain.
+- [W1.79] During repair of DNA damages some individual repair events can alter the methylation of DNA and/or the acetylations or methylations of histones at the sites of damage, and thus can contribute to leaving an epigenetic scar on chromatin.
+- [W1.80] Such epigenetic scars likely contribute to the persistent epigenetic changes found in addiction.
+- [W1.81] Regulation of transcription in learning and memory
+- [W1.82] In mammals, methylation of cytosine (see Figure) in DNA is a major regulatory mediator.
+- [W1.83] Methylated cytosines primarily occur in dinucleotide sequences where cytosine is followed by a guanine, a CpG site.
+- [W1.84] The total number of CpG sites in the human genome is approximately 28 million. and generally about 70% of all CpG sites have a methylated cytosine.
+- [W1.85] In a rat, a painful learning experience, contextual fear conditioning, can result in a life-long fearful memory after a single training event.
+- [W1.86] Cytosine methylation is altered in the promoter regions of about 9.17% of all genes in the hippocampus neuron DNA of a rat that has been subjected to a brief fear conditioning experience.
+- [W1.87] The hippocampus is where new memories are initially stored.
+- [W1.88] Methylation of CpGs in a promoter region of a gene represses transcription while methylation of CpGs in the body of a gene increases expression.
+- [W1.89] TET enzymes play a central role in demethylation of methylated cytosines.
+- [W1.90] Demethylation of CpGs in a gene promoter by TET enzyme activity increases transcription of the gene.
+- [W1.91] When contextual fear conditioning is applied to a rat, more than 5,000 differentially methylated regions (DMRs) (of 500 nucleotides each) occur in the rat hippocampus neural genome both one hour and 24 hours after the conditioning in the hippocampus.
+- [W1.92] This causes about 500 genes to be up-regulated (often due to demethylation of CpG sites in a promoter region) and about 1,000 genes to be down-regulated (often due to newly formed 5-methylcytosine at CpG sites in a promoter region).
+- [W1.93] The pattern of induced and repressed genes within neurons appears to provide a molecular basis for forming the first transient memory of this training event in the hippocampus of the rat brain.
+- [W1.94] Post-transcriptional regulation
+- [W1.95] After the DNA is transcribed and mRNA is formed, there must be some sort of regulation on how much the mRNA is translated into proteins.
+- [W1.96] Cells do this by modulating the capping, splicing, addition of a Poly(A) Tail, the sequence-specific nuclear export rates, and, in several contexts, sequestration of the RNA transcript.
+- [W1.97] These processes occur in eukaryotes but not in prokaryotes.
+- [W1.98] This modulation is a result of a protein or transcript that, in turn, is regulated and may have an affinity for certain sequences.
+- [W1.99] Three prime untranslated regions and microRNAs
+- [W1.100] Three prime untranslated regions (3'-UTRs) of messenger RNAs (mRNAs) often contain regulatory sequences that post-transcriptionally influence gene expression.
+- [W1.101] Such 3'-UTRs often contain both binding sites for microRNAs (miRNAs) as well as for regulatory proteins.
+- [W1.102] By binding to specific sites within the 3'-UTR, miRNAs can decrease gene expression of various mRNAs by either inhibiting translation or directly causing degradation of the transcript.
+- [W1.103] The 3'-UTR also may have silencer regions that bind repressor proteins that inhibit the expression of a mRNA.
+- [W1.104] The 3'-UTR often contains miRNA response elements (MREs).
+- [W1.105] MREs are sequences to which miRNAs bind.
+- [W1.106] These are prevalent motifs within 3'-UTRs.
+- [W1.107] Among all regulatory motifs within the 3'-UTRs (e.g. including silencer regions), MREs make up about half of the motifs.
+- [W1.108] As of 2014, the miRBase web site, an archive of miRNA sequences and annotations, listed 28,645 entries in 233 biologic species.
+- [W1.109] Of these, 1,881 miRNAs were in annotated human miRNA loci.  miRNAs were predicted to have an average of about four hundred target mRNAs (affecting expression of several hundred genes).
+- [W1.110] Freidman et al. estimate that >45,000 miRNA target sites within human mRNA 3'-UTRs are conserved above background levels, and >60% of human protein-coding genes have been under selective pressure to maintain pairing to miRNAs.
+- [W1.111] Direct experiments show that a single miRNA can reduce the stability of hundreds of unique mRNAs.
+- [W1.112] Other experiments show that a single miRNA may repress the production of hundreds of proteins, but that this repression often is relatively mild (less than 2-fold).
+- [W1.113] The effects of miRNA dysregulation of gene expression seem to be important in cancer.
+- [W1.114] For instance, in gastrointestinal cancers, a 2015 paper identified nine miRNAs as epigenetically altered and effective in down-regulating DNA repair enzymes.
+- [W1.115] The effects of miRNA dysregulation of gene expression also seem to be important in neuropsychiatric disorders, such as schizophrenia, bipolar disorder, major depressive disorder, Parkinson's disease, Alzheimer's disease and autism spectrum disorders.
+- [W1.116] The translation of mRNA can also be controlled by a number of mechanisms, mostly at the level of initiation.
+- [W1.117] Recruitment of the small ribosomal subunit can indeed be modulated by mRNA secondary structure, antisense RNA binding, or protein binding.
+- [W1.118] In both prokaryotes and eukaryotes, a large number of RNA binding proteins exist, which often are directed to their target sequence by the secondary structure of the transcript, which may change depending on certain conditions, such as temperature or presence of a ligand (aptamer).
+- [W1.119] Some transcripts act as ribozymes and self-regulate their expression.
+- [W1.120] Examples of gene regulation
+- [W1.121] Enzyme induction is a process in which a molecule (e.g., a drug) induces (i.e., initiates or enhances) the expression of an enzyme.
+- [W1.122] The induction of heat shock proteins in the fruit fly Drosophila melanogaster.
+- [W1.123] The Lac operon is an interesting example of how gene expression can be regulated.
+- [W1.124] Viruses, despite having only a few genes, possess mechanisms to regulate their gene expression, typically into an early and late phase, using collinear systems regulated by anti-terminators (lambda phage) or splicing modulators (HIV).
+- [W1.125] Gal4 is a transcriptional activator that controls the expression of GAL1, GAL7, and GAL10 (all of which code for the metabolic of galactose in yeast).
+- [W1.126] The GAL4/UAS system has been used in a variety of organisms across various phyla to study gene expression.
+- [W1.127] A large number of studied regulatory systems come from developmental biology.
+- [W1.128] The colinearity of the Hox gene cluster with their nested antero-posterior patterning
+- [W1.129] Pattern generation of the hand (digits - interdigits): the gradient of sonic hedgehog (secreted inducing factor) from the zone of polarizing activity in the limb, which creates a gradient of active Gli3, which activates Gremlin, which inhibits BMPs also secreted in the limb, results in the formation of an alternating pattern of activity as a result of this reaction–diffusion system.
+- [W1.130] Somitogenesis is the creation of segments (somites) from a uniform tissue (Pre-somitic Mesoderm).
+- [W1.131] They are formed sequentially from anterior to posterior.
+- [W1.132] This is achieved in amniotes possibly by means of two opposing gradients, Retinoic acid in the anterior (wavefront) and Wnt and Fgf in the posterior, coupled to an oscillating pattern (segmentation clock) composed of FGF + Notch and Wnt in antiphase.
+- [W1.133] Sex determination in the soma of a Drosophila requires the sensing of the ratio of autosomal genes to sex chromosome-encoded genes, which results in the production of sexless splicing factor in females, resulting in the female isoform of doublesex.
+- [W1.134] Up-regulation and down-regulation
+- [W1.135] Up-regulation is a process which occurs within a cell triggered by a signal (originating internal or external to the cell), which results in increased expression of one or more genes and as a result the proteins encoded by those genes.
+- [W1.136] Conversely, down-regulation is a process resulting in decreased gene and corresponding protein expression.
+- [W1.137] Up-regulation occurs, for example, when a cell is deficient in some kind of receptor.
+- [W1.138] In this case, more receptor protein is synthesized and transported to the membrane of the cell and, thus, the sensitivity of the cell is brought back to normal, reestablishing homeostasis.
+- [W1.139] Down-regulation occurs, for example, when a cell is overstimulated by a neurotransmitter, hormone, or drug for a prolonged period of time, and the expression of the receptor protein is decreased in order to protect the cell (see also tachyphylaxis).
+- [W1.140] Inducible vs. repressible systems
+- [W1.141] Gene Regulation can be summarized by the response of the respective system:
+- [W1.142] Inducible systems - An inducible system is off unless there is the presence of some molecule (called an inducer) that allows for gene expression.
+- [W1.143] The molecule is said to "induce expression".
+- [W1.144] The manner by which this happens is dependent on the control mechanisms as well as differences between prokaryotic and eukaryotic cells.
+- [W1.145] Repressible systems - A repressible system is on except in the presence of some molecule (called a corepressor) that suppresses gene expression.
+- [W1.146] The molecule is said to "repress expression".
+- [W1.147] The manner by which this happens is dependent on the control mechanisms as well as differences between prokaryotic and eukaryotic cells.
+- [W1.148] The GAL4/UAS system is an example of both an inducible and repressible system.
+- [W1.149] Gal4 binds an upstream activation sequence (UAS) to activate the transcription of the GAL1/GAL7/GAL10 cassette.
+- [W1.150] On the other hand, a MIG1 response to the presence of glucose can inhibit GAL4 and therefore stop the expression of the GAL1/GAL7/GAL10 cassette.
+- [W1.151] Repressor/Inducer: an activation of a sensor results in the change of expression of a gene
+- [W1.152] negative feedback: the gene product downregulates its own production directly or indirectly, which can result in
+- [W1.153] keeping transcript levels constant/proportional to a factor
+- [W1.154] inhibition of run-away reactions when coupled with a positive feedback loop
+- [W1.155] creating an oscillator by taking advantage in the time delay of transcription and translation, given that the mRNA and protein half-life is shorter
+- [W1.156] positive feedback: the gene product upregulates its own production directly or indirectly, which can result in
+- [W1.157] bistable switches when two genes inhibit each other and both have positive feedback
+- [W1.158] In general, most experiments investigating differential expression used whole cell extracts of RNA, called steady-state levels, to determine which genes changed and by how much.
+- [W1.159] These are, however, not informative of where the regulation has occurred and may mask conflicting regulatory processes (see post-transcriptional regulation), but it is still the most commonly analysed (quantitative PCR and DNA microarray).
+- [W1.160] When studying gene expression, there are several methods to look at the various stages.
+- [W1.161] In eukaryotes these include:
+- [W1.162] The local chromatin environment of the region can be determined by ChIP-chip analysis by pulling down RNA Polymerase II, Histone 3 modifications, Trithorax-group protein, Polycomb-group protein, or any other DNA-binding element to which a good antibody is available.
+- [W1.163] Epistatic interactions can be investigated by synthetic genetic array analysis
+- [W1.164] Due to post-transcriptional regulation, transcription rates and total RNA levels differ significantly.
+- [W1.165] To measure the transcription rates nuclear run-on assays can be done and newer high-throughput methods are being developed, using thiol labelling instead of radioactivity.
+- [W1.166] Only 5% of the RNA polymerised in the nucleus exits, and not only introns, abortive products, and non-sense transcripts are degradated.
+- [W1.167] Therefore, the differences in nuclear and cytoplasmic levels can be seen by separating the two fractions by gentle lysis.
+- [W1.168] Alternative splicing can be analysed with a splicing array or with a tiling array (see DNA microarray).
+- [W1.169] All in vivo RNA is complexed as RNPs.
+- [W1.170] The quantity of transcripts bound to specific protein can be also analysed by RIP-Chip.
+- [W1.171] For example, DCP2 will give an indication of sequestered protein; ribosome-bound gives and indication of transcripts active in transcription (although a more dated method, called polysome fractionation, is still popular in some labs)
+- [W1.172] Protein levels can be analysed by Mass spectrometry, which can be compared only to quantitative PCR data, as microarray data is relative and not absolute.
+- [W1.173] RNA and protein degradation rates are measured by means of transcription inhibitors (actinomycin D or α-Amanitin) or translation inhibitors (Cycloheximide), respectively.
+- [W1.174] Artificial transcription factors (small molecules that mimic transcription factor protein)
+- [W1.175] Conserved non-coding DNA sequence
+- [W1.176] Spatiotemporal gene expression
+- [W1.177] Regulator gene glucosyltransferases (Rgg/SHP) systems
+- [W1.178] Gene regulation: a eukaryotic perspective.
+- [W1.179] Plant Transcription Factor Database and Plant Transcriptional Regulation Data and Analysis Platform
+- [W1.180] Regulation of Gene Expression (MeSH) at the U.S.
+- [W1.181] National Library of Medicine Medical Subject Headings (MeSH)
+- [W1.182] ChIPBase An open database for decoding the transcriptional regulatory networks of non-coding RNAs and protein-coding genes from ChIP-seq data.
+
+## [W2] Wikipedia: Cellular differentiation
+https://en.wikipedia.org/w/index.php?title=Cellular_differentiation&oldid=1381607119 · CC BY-SA 4.0 · usage: ai_input
+
+- [W2.1] Cellular differentiation, also known as cellular specification, is the process in which a stem cell changes from one type to a differentiated one.
+- [W2.2] Usually, the cell changes to a more specialized type.
+- [W2.3] Differentiation happens multiple times during the development of a multicellular organism as it changes from a simple zygote to a complex system of tissues and cell types.
+- [W2.4] Differentiation continues in adulthood as adult stem cells divide and create fully differentiated daughter cells during tissue repair and during normal cell turnover.
+- [W2.5] Some differentiation occurs in response to antigen exposure.
+- [W2.6] Differentiation dramatically changes a cell's size, shape, membrane potential, metabolic activity, and responsiveness to signals.
+- [W2.7] These changes are largely due to highly controlled modifications in gene expression and are the study of epigenetics.
+- [W2.8] With a few exceptions, cellular differentiation almost never involves a change in the DNA sequence itself.
+- [W2.9] Metabolic composition, however, gets dramatically altered where stem cells are characterized by abundant metabolites with highly unsaturated structures whose levels decrease upon differentiation.
+- [W2.10] Thus, different cells can have very different physical characteristics despite having the same genome.
+- [W2.11] A specialized type of differentiation, known as terminal differentiation, is of importance in some tissues, including vertebrate nervous system, striated muscle, epidermis and gut.
+- [W2.12] During terminal differentiation, a precursor cell formerly capable of cell division permanently leaves the cell cycle, dismantles the cell cycle machinery and often expresses a range of genes characteristic of the cell's final function (e.g. myosin and actin for a muscle cell).
+- [W2.13] Differentiation may continue to occur after terminal differentiation if the capacity and functions of the cell undergo further changes.
+- [W2.14] Among dividing cells, there are multiple levels of cell potency, which is the cell's ability to differentiate into other cell types.
+- [W2.15] A greater potency indicates a larger number of cell types that can be derived.
+- [W2.16] A cell that can differentiate into all cell types, including the placental tissue, is known as totipotent.
+- [W2.17] In mammals, only the zygote and subsequent blastomeres are totipotent, while in plants, many differentiated cells can become totipotent with simple laboratory techniques.
+- [W2.18] A cell that can differentiate into all cell types of the adult organism is known as pluripotent.
+- [W2.19] Such cells are called meristematic cells in higher plants and embryonic stem cells in animals, though some groups report the presence of adult pluripotent cells.
+- [W2.20] Virally induced expression of four transcription factors Oct4, Sox2, c-Myc, and Klf4 (Yamanaka factors) is sufficient to create pluripotent (iPS) cells from adult fibroblasts.
+- [W2.21] A multipotent cell is one that can differentiate into multiple different, but closely related cell types.
+- [W2.22] Oligopotent cells are more restricted than multipotent, but can still differentiate into a few closely related cell types.
+- [W2.23] Finally, unipotent cells can differentiate into only one cell type, but are capable of self-renewal.
+- [W2.24] In cytopathology, the level of cellular differentiation is used as a measure of cancer progression.
+- [W2.25] "Grade" is a marker of how differentiated a cell in a tumor is.
+- [W2.26] Three basic categories of cells make up the mammalian body: germ cells, somatic cells, and stem cells.
+- [W2.27] Each of the approximately 37.2 trillion (3.72×1013) cells in an adult human has its own copy or copies of the genome except certain cell types, such as red blood cells, that lack nuclei in their fully differentiated state.
+- [W2.28] Most cells are diploid; they have two copies of each chromosome.
+- [W2.29] Such cells, called somatic cells, make up most of the human body, such as skin and muscle cells.
+- [W2.30] Cells differentiate to specialize for different functions.
+- [W2.31] Germ line cells are any line of cells that give rise to gametes—eggs and sperm—and thus are continuous through the generations.
+- [W2.32] Stem cells, on the other hand, have the ability to divide for indefinite periods and to give rise to specialized cells.
+- [W2.33] They are best described in the context of normal human development.
+- [W2.34] Development begins when a sperm fertilizes an egg and creates a single cell that has the potential to form an entire organism.
+- [W2.35] In the first hours after fertilization, this cell divides into identical cells.
+- [W2.36] In humans, approximately four days after fertilization and after several cycles of cell division, these cells begin to specialize, forming a hollow sphere of cells, called a blastocyst.
+- [W2.37] The blastocyst has an outer layer of cells, and inside this hollow sphere, there is a cluster of cells called the inner cell mass.
+- [W2.38] The cells of the inner cell mass go on to form virtually all of the tissues of the human body.
+- [W2.39] Although the cells of the inner cell mass can form virtually every type of cell found in the human body, they cannot form an organism.
+- [W2.40] These cells are referred to as pluripotent.
+- [W2.41] Pluripotent stem cells undergo further specialization into multipotent progenitor cells that then give rise to functional cells.
+- [W2.42] Examples of stem and progenitor cells include:
+- [W2.43] Radial glial cells (embryonic neural stem cells) that give rise to excitatory neurons in the fetal brain through the process of neurogenesis.
+- [W2.44] Hematopoietic stem cells (adult stem cells) from the bone marrow that give rise to red blood cells, white blood cells, and platelets.
+- [W2.45] Mesenchymal stem cells (adult stem cells) from the bone marrow that give rise to stromal cells, fat cells, and types of bone cells.
+- [W2.46] Epithelial stem cells (progenitor cells) that give rise to the various types of skin cells.
+- [W2.47] Muscle satellite cells (progenitor cells) that contribute to differentiated muscle tissue.
+- [W2.48] A pathway that is guided by the cell adhesion molecules consisting of four amino acids, arginine, glycine, asparagine, and serine, is created as the cellular blastomere differentiates from the single-layered blastula to the three primary layers of germ cells in mammals, namely the ectoderm, mesoderm and endoderm (listed from most distal (exterior) to proximal (interior)).
+- [W2.49] The ectoderm ends up forming the skin and the nervous system, the mesoderm forms the bones and muscular tissue, and the endoderm forms the internal organ tissues.
+- [W2.50] Dedifferentiation, or integration, is a cellular process seen in the more basal life forms in animals, such as worms and amphibians where a differentiated cell reverts to an earlier developmental stage—usually as part of a regenerative process.
+- [W2.51] Dedifferentiation also occurs in plant cells.
+- [W2.52] And, in cell culture in the laboratory, cells can change shape or may lose specific properties such as protein expression—which processes are also termed dedifferentiation.
+- [W2.53] Some hypothesize that dedifferentiation is an aberration that likely results in cancers, but others explain it as a natural part of the immune response that was lost to humans at some point of evolution.
+- [W2.54] The molecule reversine, a purine analog, has proven to induce dedifferentiation in myotubes.
+- [W2.55] These manifestly dedifferentiated cells—now performing essentially as stem cells—could then redifferentiate into osteoblasts and adipocytes.
+- [W2.56] Each specialized cell type in an organism expresses a subset of all the genes that constitute the genome of that species.
+- [W2.57] Each cell type is defined by its particular pattern of regulated gene expression.
+- [W2.58] Cell differentiation is thus a transition of a cell from one cell type to another and it involves a switch from one pattern of gene expression to another.
+- [W2.59] Cellular differentiation during development can be understood as the result of a gene regulatory network.
+- [W2.60] A regulatory gene and its cis-regulatory modules are nodes in a gene regulatory network; they receive input and create output elsewhere in the network.
+- [W2.61] The systems biology approach to developmental biology emphasizes the importance of investigating how developmental mechanisms interact to produce predictable patterns (morphogenesis).
+- [W2.62] However, recent research suggests there may be an alternative view.
+- [W2.63] Based on stochastic gene expression, cellular differentiation is the result of a Darwinian selective process occurring among cells.
+- [W2.64] In this frame, protein and gene networks are the result of cellular processes and not their cause.
+- [W2.65] Cellular differentiation is often controlled by cell signaling.
+- [W2.66] Many of the signal molecules that convey information from cell to cell during the control of cellular differentiation are called growth factors.
+- [W2.67] Although the details of specific signal transduction pathways vary, these pathways often share the following general steps.
+- [W2.68] A ligand produced by one cell binds to a receptor in the extracellular region of another cell, inducing a conformational change in the receptor.
+- [W2.69] The shape of the cytoplasmic domain of the receptor changes, and the receptor acquires enzymatic activity.
+- [W2.70] The receptor then catalyzes reactions that phosphorylate other proteins, activating them.
+- [W2.71] A cascade of phosphorylation reactions eventually activates a dormant transcription factor or cytoskeletal protein, thus contributing to the differentiation process in the target cell.
+- [W2.72] Cells and tissues can vary in competence, their ability to respond to external signals.
+- [W2.73] Signal induction refers to cascades of signaling events, during which a cell or tissue signals to another cell or tissue to influence its developmental fate.
+- [W2.74] Yamamoto and Jeffery investigated the role of the lens in eye formation in cave- and surface-dwelling fish, a striking example of induction.
+- [W2.75] Through reciprocal transplants, Yamamoto and Jeffery found that the lens vesicle of surface fish can induce other parts of the eye to develop in cave- and surface-dwelling fish, while the lens vesicle of the cave-dwelling fish cannot.
+- [W2.76] Other important mechanisms fall under the category of asymmetric cell divisions, divisions that give rise to daughter cells with distinct developmental fates.
+- [W2.77] Asymmetric cell divisions can occur because of asymmetrically expressed maternal cytoplasmic determinants or because of signaling.
+- [W2.78] In the former mechanism, distinct daughter cells are created during cytokinesis because of an uneven distribution of regulatory molecules in the parent cell; the distinct cytoplasm that each daughter cell inherits results in a distinct pattern of differentiation for each daughter cell.
+- [W2.79] A well-studied example of pattern formation by asymmetric divisions is body axis patterning in Drosophila.
+- [W2.80] RNA molecules are an important type of intracellular differentiation control signal.
+- [W2.81] The molecular and genetic basis of asymmetric cell divisions has also been studied in green algae of the genus Volvox, a model system for studying how unicellular organisms can evolve into multicellular organisms.
+- [W2.82] In Volvox carteri, the 16 cells in the anterior hemisphere of a 32-cell embryo divide asymmetrically, each producing one large and one small daughter cell.
+- [W2.83] The size of the cell at the end of all cell divisions determines whether it becomes a specialized germ or somatic cell.
+- [W2.84] Evolutionary perspectives on mechanisms
+- [W2.85] While evolutionarily conserved molecular processes are involved in the cellular mechanisms underlying these switches, in animal species these are very different from the well-characterized gene regulatory mechanisms of bacteria, and even from those of the animals' closest unicellular relatives.
+- [W2.86] Specifically, cell differentiation in animals is highly dependent on biomolecular condensates of regulatory proteins and enhancer DNA sequences.
+- [W2.87] Since each cell, regardless of cell type, possesses the same genome, determination of cell type must occur at the level of gene expression.
+- [W2.88] While the regulation of gene expression can occur through cis- and trans-regulatory elements including a gene's promoter and enhancers, the problem arises as to how this expression pattern is maintained over numerous generations of cell division.
+- [W2.89] As it turns out, epigenetic processes play a crucial role in regulating the decision to adopt a stem, progenitor, or mature cell fate.
+- [W2.90] This section will focus primarily on mammalian stem cells.
+- [W2.91] In systems biology and mathematical modeling of gene regulatory networks, cell-fate determination is predicted to exhibit certain dynamics, such as attractor-convergence (the attractor can be an equilibrium point, limit cycle or strange attractor) or oscillatory.
+- [W2.92] Importance of epigenetic control
+- [W2.93] The first question that can be asked is the extent and complexity of the role of epigenetic processes in the determination of cell fate.
+- [W2.94] A clear answer to this question can be seen in the 2011 paper by Lister R, et al.  on aberrant epigenomic programming in human induced pluripotent stem cells.
+- [W2.95] As induced pluripotent stem cells (iPSCs) are thought to mimic embryonic stem cells in their pluripotent properties, few epigenetic differences should exist between them.
+- [W2.96] To test this prediction, the authors conducted whole-genome profiling of DNA methylation patterns in several human embryonic stem cell (ESC), iPSC, and progenitor cell lines.
+- [W2.97] Female adipose cells, lung fibroblasts, and foreskin fibroblasts were reprogrammed into induced pluripotent state with the OCT4, SOX2, KLF4, and MYC genes.
+- [W2.98] Patterns of DNA methylation in ESCs, iPSCs, somatic cells were compared.
+- [W2.99] Lister R, et al. observed significant resemblance in methylation levels between embryonic and induced pluripotent cells.
+- [W2.100] Around 80% of CG dinucleotides in ESCs and iPSCs were methylated, the same was true of only 60% of CG dinucleotides in somatic cells.
+- [W2.101] In addition, somatic cells possessed minimal levels of cytosine methylation in non-CG dinucleotides, while induced pluripotent cells possessed similar levels of methylation as embryonic stem cells, between 0.5 and 1.5%.
+- [W2.102] Thus, consistent with their respective transcriptional activities, DNA methylation patterns, at least on the genomic level, are similar between ESCs and iPSCs.
+- [W2.103] However, upon examining methylation patterns more closely, the authors discovered 1175 regions of differential CG dinucleotide methylation between at least one ES or iPS cell line.
+- [W2.104] By comparing these regions of differential methylation with regions of cytosine methylation in the original somatic cells, 44-49% of differentially methylated regions reflected methylation patterns of the respective progenitor somatic cells, while 51-56% of these regions were dissimilar to both the progenitor and embryonic cell lines.
+- [W2.105] In vitro-induced differentiation of iPSC lines saw transmission of 88% and 46% of hyper and hypo-methylated differentially methylated regions, respectively.
+- [W2.106] Two conclusions are readily apparent from this study.
+- [W2.107] First, epigenetic processes are heavily involved in cell fate determination, as seen from the similar levels of cytosine methylation between induced pluripotent and embryonic stem cells, consistent with their respective patterns of transcription.
+- [W2.108] Second, the mechanisms of reprogramming (and by extension, differentiation) are very complex and cannot be easily duplicated, as seen by the significant number of differentially methylated regions between ES and iPS cell lines.
+- [W2.109] Now that these two points have been established, we can examine some of the epigenetic mechanisms that are thought to regulate cellular differentiation.
+- [W2.110] Mechanisms of epigenetic regulation
+- [W2.111] Pioneer factors (Oct4, Sox2, Nanog)
+- [W2.112] Three transcription factors, OCT4, SOX2, and NANOG – the first two of which are used in induced pluripotent stem cell (iPSC) reprogramming, along with Klf4 and c-Myc – are highly expressed in undifferentiated embryonic stem cells and are necessary for the maintenance of their pluripotency.
+- [W2.113] It is thought that they achieve this through alterations in chromatin structure, such as histone modification and DNA methylation, to restrict or permit the transcription of target genes.
+- [W2.114] While highly expressed, their levels require a precise balance to maintain pluripotency, perturbation of which will promote differentiation towards different lineages based on how the gene expression levels change.
+- [W2.115] Differential regulation of Oct-4 and SOX2 levels have been shown to precede germ layer fate selection.
+- [W2.116] Increased levels of Oct4 and decreased levels of Sox2 promote a mesendodermal fate, with Oct4 actively suppressing genes associated with a neural ectodermal fate.
+- [W2.117] Similarly, increased levels of Sox2 and decreased levels of Oct4 promote differentiation towards a neural ectodermal fate, with Sox2 inhibiting differentiation towards a mesendodermal fate.
+- [W2.118] Regardless of the lineage cells differentiate down, suppression of NANOG has been identified as a necessary prerequisite for differentiation.
+- [W2.119] Polycomb repressive complex (PRC2)
+- [W2.120] In the realm of gene silencing, Polycomb repressive complex 2, one of two classes of the Polycomb group (PcG) family of proteins, catalyzes the di- and tri-methylation of histone H3 lysine 27 (H3K27me2/me3).
+- [W2.121] By binding to the H3K27me2/3-tagged nucleosome, PRC1 (also a complex of PcG family proteins) catalyzes the mono-ubiquitinylation of histone H2A at lysine 119 (H2AK119Ub1), blocking RNA polymerase II activity and resulting in transcriptional suppression.
+- [W2.122] PcG knockout ES cells do not differentiate efficiently into the three germ layers, and deletion of the PRC1 and PRC2 genes leads to increased expression of lineage-affiliated genes and unscheduled differentiation.
+- [W2.123] Presumably, PcG complexes are responsible for transcriptionally repressing differentiation and development-promoting genes.
+- [W2.124] Trithorax group proteins (TrxG)
+- [W2.125] Alternately, upon receiving differentiation signals, PcG proteins are recruited to promoters of pluripotency transcription factors.
+- [W2.126] PcG-deficient ES cells can begin differentiation but cannot maintain the differentiated phenotype.
+- [W2.127] Simultaneously, differentiation and development-promoting genes are activated by Trithorax group (TrxG) chromatin regulators and lose their repression.
+- [W2.128] TrxG proteins are recruited at regions of high transcriptional activity, where they catalyze the trimethylation of histone H3 lysine 4 (H3K4me3) and promote gene activation through histone acetylation.
+- [W2.129] PcG and TrxG complexes engage in direct competition and are thought to be functionally antagonistic, creating at differentiation and development-promoting loci what is termed a "bivalent domain" and rendering these genes sensitive to rapid induction or repression.
+- [W2.130] Regulation of gene expression is further achieved through DNA methylation, in which the DNA methyltransferase-mediated methylation of cytosine residues in CpG dinucleotides maintains heritable repression by controlling DNA accessibility.
+- [W2.131] The majority of CpG sites in embryonic stem cells are unmethylated and appear to be associated with H3K4me3-carrying nucleosomes.
+- [W2.132] Upon differentiation, a small number of genes, including OCT4 and NANOG, are methylated and their promoters repressed to prevent their further expression.
+- [W2.133] Consistently, DNA methylation-deficient embryonic stem cells rapidly enter apoptosis upon in vitro differentiation.
+- [W2.134] While the DNA sequence of most cells of an organism is the same, the binding patterns of transcription factors and the corresponding gene expression patterns are different.
+- [W2.135] To a large extent, differences in transcription factor binding are determined by the chromatin accessibility of their binding sites through histone modification and/or pioneer factors.
+- [W2.136] In particular, it is important to know whether a nucleosome is covering a given genomic binding site or not.
+- [W2.137] This can be determined using a chromatin immunoprecipitation assay.
+- [W2.138] Histone acetylation and methylation
+- [W2.139] DNA-nucleosome interactions are characterized by two states: either tightly bound by nucleosomes and transcriptionally inactive, called heterochromatin, or loosely bound and usually, but not always, transcriptionally active, called euchromatin.
+- [W2.140] The epigenetic processes of histone methylation and acetylation, and their inverses demethylation and deacetylation primarily account for these changes.
+- [W2.141] The effects of acetylation and deacetylation are more predictable.
+- [W2.142] An acetyl group is either added to or removed from the positively charged Lysine residues in histones by enzymes called histone acetyltransferases or histone deactylases, respectively.
+- [W2.143] The acetyl group prevents Lysine's association with the negatively charged DNA backbone.
+- [W2.144] Methylation is not as straightforward, as neither methylation nor demethylation consistently correlate with either gene activation or repression.
+- [W2.145] However, certain methylations have been repeatedly shown to either activate or repress genes.
+- [W2.146] The trimethylation of lysine 4 on histone 3 (H3K4Me3) is associated with gene activation, whereas trimethylation of lysine 27 on histone 3 represses genes.
+- [W2.147] During differentiation, stem cells change their gene expression profiles.
+- [W2.148] Recent studies have implicated a role for nucleosome positioning and histone modifications during this process.
+- [W2.149] There are two components of this process: turning off the expression of embryonic stem cell (ESC) genes, and the activation of cell fate genes.
+- [W2.150] Lysine specific demethylase 1 (KDM1A) is thought to prevent the use of enhancer regions of pluripotency genes, thereby inhibiting their transcription.
+- [W2.151] It interacts with Mi-2/NuRD complex (nucleosome remodelling and histone deacetylase) complex, giving an instance where methylation and acetylation are not discrete and mutually exclusive, but intertwined processes.
+- [W2.152] Role of signaling in epigenetic control
+- [W2.153] A final question to ask concerns the role of cell signaling in influencing the epigenetic processes governing differentiation.
+- [W2.154] Such a role should exist, as it would be reasonable to think that extrinsic signaling can lead to epigenetic remodeling, just as it can lead to changes in gene expression through the activation or repression of different transcription factors.
+- [W2.155] Little direct data is available concerning the specific signals that influence the epigenome, and the majority of current knowledge about the subject consists of speculations on plausible candidate regulators of epigenetic remodeling.
+- [W2.156] We will first discuss several major candidates thought to be involved in the induction and maintenance of both embryonic stem cells and their differentiated progeny, and then turn to one example of specific signaling pathways in which more direct evidence exists for its role in epigenetic change.
+- [W2.157] The first major candidate is Wnt signaling pathway.
+- [W2.158] The Wnt pathway is involved in all stages of differentiation, and the ligand Wnt3a can substitute for the overexpression of c-Myc in the generation of induced pluripotent stem cells.
+- [W2.159] On the other hand, disruption of β-catenin, a component of the Wnt signaling pathway, leads to decreased proliferation of neural progenitors.
+- [W2.160] Growth factors comprise the second major set of candidates of epigenetic regulators of cellular differentiation.
+- [W2.161] These morphogens are crucial for development, and include bone morphogenetic proteins, transforming growth factors (TGFs), and fibroblast growth factors (FGFs).
+- [W2.162] TGFs and FGFs have been shown to sustain expression of OCT4, SOX2, and NANOG by downstream signaling to Smad proteins.
+- [W2.163] Depletion of growth factors promotes the differentiation of ESCs, while genes with bivalent chromatin can become either more restrictive or permissive in their transcription.
+- [W2.164] Several other signaling pathways are also considered to be primary candidates.
+- [W2.165] Cytokine leukemia inhibitory factors are associated with the maintenance of mouse ESCs in an undifferentiated state.
+- [W2.166] This is achieved through its activation of the Jak-STAT3 pathway, which has been shown to be necessary and sufficient towards maintaining mouse ESC pluripotency.
+- [W2.167] Retinoic acid can induce differentiation of human and mouse ESCs, and Notch signaling is involved in the proliferation and self-renewal of stem cells.
+- [W2.168] Finally, Sonic hedgehog, in addition to its role as a morphogen, promotes embryonic stem cell differentiation and the self-renewal of somatic stem cells.
+- [W2.169] The problem, of course, is that the candidacy of these signaling pathways was inferred primarily on the basis of their role in development and cellular differentiation.
+- [W2.170] While epigenetic regulation is necessary for driving cellular differentiation, they are certainly not sufficient for this process.
+- [W2.171] Direct modulation of gene expression through modification of transcription factors plays a key role that must be distinguished from heritable epigenetic changes that can persist even in the absence of the original environmental signals.
+- [W2.172] Only a few examples of signaling pathways leading to epigenetic changes that alter cell fate currently exist, and we will focus on one of them.
+- [W2.173] Expression of Shh (Sonic hedgehog) upregulates the production of BMI1, a component of the PcG complex that recognizes H3K27me3.
+- [W2.174] This occurs in a Gli-dependent manner, as Gli1 and Gli2 are downstream effectors of the Hedgehog signaling pathway.
+- [W2.175] In culture, Bmi1 mediates the Hedgehog pathway's ability to promote human mammary stem cell self-renewal.
+- [W2.176] In both humans and mice, researchers showed Bmi1 to be highly expressed in proliferating immature cerebellar granule cell precursors.
+- [W2.177] When Bmi1 was knocked out in mice, impaired cerebellar development resulted, leading to significant reductions in postnatal brain mass along with abnormalities in motor control and behavior.
+- [W2.178] A separate study showed a significant decrease in neural stem cell proliferation along with increased astrocyte proliferation in Bmi null mice.
+- [W2.179] An alternative model of cellular differentiation during embryogenesis is that positional information is based on mechanical signalling by the cytoskeleton using Embryonic differentiation waves.
+- [W2.180] The mechanical signal is then epigenetically transduced via signal transduction systems (of which specific molecules such as Wnt are part) to result in differential gene expression.
+- [W2.181] In summary, the role of signaling in the epigenetic control of cell fate in mammals is largely unknown, but distinct examples exist that indicate the likely existence of further such mechanisms.
+- [W2.182] Effect of matrix elasticity
+- [W2.183] In order to fulfill the purpose of regenerating a variety of tissues, adult stems are known to migrate from their niches, adhere to new extracellular matrices (ECM) and differentiate.
+- [W2.184] The ductility of these microenvironments are unique to different tissue types.
+- [W2.185] The ECM surrounding brain, muscle and bone tissues range from soft to stiff.
+- [W2.186] The transduction of the stem cells into these cells types is not directed solely by chemokine cues and cell to cell signaling.
+- [W2.187] The elasticity of the microenvironment can also affect the differentiation of mesenchymal stem cells (MSCs which originate in bone marrow.) When MSCs are placed on substrates of the same stiffness as brain, muscle and bone ECM, the MSCs take on properties of those respective cell types.
+- [W2.188] Matrix sensing requires the cell to pull against the matrix at focal adhesions, which triggers a cellular mechano-transducer to generate a signal to be informed what force is needed to deform the matrix.
+- [W2.189] To determine the key players in matrix-elasticity-driven lineage specification in MSCs, different matrix microenvironments were mimicked.
+- [W2.190] From these experiments, it was concluded that focal adhesions of the MSCs were the cellular mechano-transducer sensing the differences of the matrix elasticity.
+- [W2.191] The non-muscle myosin IIa-c isoforms generates the forces in the cell that lead to signaling of early commitment markers.
+- [W2.192] Nonmuscle myosin IIa generates the least force increasing to non-muscle myosin IIc.
+- [W2.193] There are also factors in the cell that inhibit non-muscle myosin II, such as blebbistatin.
+- [W2.194] This makes the cell effectively blind to the surrounding matrix.
+- [W2.195] Researchers have achieved some success in inducing stem cell-like properties in HEK 239 cells by providing a soft matrix without the use of diffusing factors.
+- [W2.196] The stem-cell properties appear to be linked to tension in the cells' actin network.
+- [W2.197] One identified mechanism for matrix-induced differentiation is tension-induced proteins, which remodel chromatin in response to mechanical stretch.
+- [W2.198] The RhoA pathway is also implicated in this process.
+- [W2.199] A billion-years-old, likely holozoan, protist, Bicellum brasieri with two types of cells, shows that the evolution of differentiated multicellularity, possibly but not necessarily of animal lineages, occurred at least 1 billion years ago and possibly mainly in freshwater lakes rather than the ocean.
+- [W2.200] Interbilayer Forces in Membrane Fusion
+- [W2.201] List of human cell types derived from the germ layers
+
+## [W3] Wikipedia: John Gurdon
+https://en.wikipedia.org/w/index.php?title=John_Gurdon&oldid=1380372788 · CC BY-SA 4.0 · usage: ai_input
+
+- [W3.1] Sir John Bertrand Gurdon  (2 October 1933 – 7 October 2025) was a British developmental biologist, best known for his pioneering research in Cellular differentiation and nuclear transplantation and cloning.
+- [W3.2] Awarded the Lasker Award in 2009, in 2012, he and Shinya Yamanaka were jointly awarded the Nobel Prize in Physiology or Medicine for the discovery that mature cells can be converted to stem cells.
+- [W3.3] John Bertrand Gurdon was born on 2 October 1933 in Dippenhall, England, United Kingdom, and grew up in nearby Frensham in Surrey.
+- [W3.4] He attended Frensham Heights Prep school before then attending Edgeborough prep school.
+- [W3.5] He then attended Eton College, where he ranked last of the 250 boys in his year group at biology, and was in the bottom set in every other science subject.
+- [W3.6] A schoolmaster wrote a report stating, "I believe he has ideas about becoming a scientist; on his present showing this is quite ridiculous." Gurdon explains it is the only document he ever framed; he also told a reporter: "When you have problems like an experiment doesn't work, which often happens, it's nice to remind yourself that perhaps after all you are not so good at this job and the schoolmaster may have been right!"
+- [W3.7] Gurdon went up to Christ Church, Oxford, to read classics then switched to zoology, graduating with an Master of Arts degree.
+- [W3.8] For his DPhil degree he studied nuclear transplantation in a frog species of the genus Xenopus, supervised by Dr Michail Fischberg at Oxford University.
+- [W3.9] After pursuing further postdoctoral work at Caltech, he returned to England where his early posts were in the Department of Zoology at the University of Oxford (1962–71).
+- [W3.10] Gurdon spent much of his research career at the MRC Laboratory of Molecular Biology and then in the Department of Zoology, where he started working in 1972.
+- [W3.11] He became a professor at the University of Cambridge in 1983.
+- [W3.12] In 1989, he became a founding member of the Wellcome/CRC Institute for Cell Biology and Cancer at Cambridge, which was renamed in his honour in 2004, serving as its chairman until 2001.
+- [W3.13] He served as a member of the Nuffield Council on Bioethics 1991–1995, then Master of Magdalene College, Cambridge, from 1995 to 2002.
+- [W3.14] In 1958, Gurdon, then at the University of Oxford, successfully cloned a frog using intact nuclei from the somatic cells of a Xenopus tadpole.
+- [W3.15] This work was an important extension of work of Briggs and King in 1952 on transplanting nuclei from embryonic blastula cells and the successful induction of polyploidy in the stickleback, Gasterosteus aculatus, in 1956 by Har Swarup reported in Nature.
+- [W3.16] At that time he could not conclusively show that the transplanted nuclei derived from a fully differentiated cell.
+- [W3.17] This was finally shown in 1975 by a group working at the Basel Institute for Immunology in Switzerland.
+- [W3.18] They transplanted a nucleus from an antibody-producing lymphocyte (proof that it was fully differentiated) into an enucleated egg and obtained living tadpoles.
+- [W3.19] Gurdon's experiments captured the attention of the scientific community as it altered the notion of development and the tools and techniques he developed for nuclear transfer are still used today.
+- [W3.20] The term clone (from the ancient Greek word κλών (klōn, "twig")) had already been in use since the beginning of the 20th century in reference to plants.
+- [W3.21] In 1963 the British biologist J.
+- [W3.22] Haldane, in describing Gurdon's results, became one of the first to use the word "clone" in reference to animals.
+- [W3.23] Gurdon and colleagues also pioneered the use of Xenopus (genus of highly aquatic frog) eggs and oocytes to translate microinjected messenger RNA molecules, a technique which has been widely used to identify the proteins encoded and to study their function.
+- [W3.24] Gurdon's later research had focused on analysing intercellular signalling factors involved in cell differentiation, and on elucidating the mechanisms involved in reprogramming the nucleus in transplantation experiments, including the role of histone variants, and demethylation of the transplanted DNA.
+- [W3.25] Gurdon stated that he was politically "middle of the road", and religiously agnostic because "there is no scientific proof either way".
+- [W3.26] During his time as Master of Magdalene, Gurdon caused some controversy by suggesting that Fellows might occasionally be allowed to deliver "an address on anything they would like to talk about" in college chapel services.
+- [W3.27] In an interview with EWTN.com, Gurdon declared "I'm what you might call liberal-minded.
+- [W3.28] I'm a Christian, of the Church of England."
+- [W3.29] Gurdon married Jean Elizabeth Margaret Curtis, with whom he had two children.
+- [W3.30] He believed himself to be an "anti-intellectual" and hated to read books.
+- [W3.31] He was a keen skier, hiker, squash and tennis player.
+- [W3.32] Gurdon died on 7 October 2025, five days after his 92nd birthday, with professors from the University of Cambridge and the Gurdon Institute paying tribute.
+- [W3.33] Gurdon was elected a Fellow of the Royal Society (FRS) in 1971, and knighted in the 1995 Birthday Honours for "services to Developmental Biology".
+- [W3.34] He was elected as member to the American Academy of Arts and Sciences in 1978, the United States National Academy of Sciences in 1980, and the American Philosophical Society in 1983, since 2005 he has been an Honorary Member of the American Association of Anatomists.
+- [W3.35] He became a Member of the Academia Europaea (MAE) in 1991.
+- [W3.36] In 2001, he was awarded the Edwin G.
+- [W3.37] Conklin Medal from the Society for Developmental Biology.
+- [W3.38] In 2004, the Wellcome Trust/Cancer Research UK Institute for Cell Biology and Cancer was renamed the Gurdon Institute in his honour.
+- [W3.39] He was awarded the 2009 Albert Lasker Basic Medical Research Award and in 2014 delivered the Harveian Oration at the Royal College of Physicians.
+- [W3.40] In 2017, Gurdon received the Golden Plate Award of the American Academy of Achievement.
+- [W3.41] Gurdon was awarded as an Honorary Fellow of the Cambridge Philosophical Society in 2010, of the Academy of Medical Sciences (FMedSci) in 2011, of the Anatomical Society in 2013, the American Association for Cancer Research in 2013, the Royal College of Physicians (Hon FRCP) in 2014, and the Royal Society of Biology (Hon FRSB) in 2015.
+- [W3.42] He received honorary doctorates including Hon DSc (Oxon) and Hon ScD (Cantab) as well as many other awards and medals.
+- [W3.43] In 1989 he was awarded the Wolf Prize in Medicine "for his introduction of the xenopus oocyte into molecular biology and his demonstration that the nucleus of a differentiated cell and of the egg differ in expression but not in the content of genetic material".
+- [W3.44] In 2012, Gurdon was awarded, jointly with Shinya Yamanaka, the Nobel Prize for Physiology or Medicine "for the discovery that mature cells can be reprogrammed to become pluripotent".
+- [W3.45] His Nobel Lecture was called "The Egg and the Nucleus: A Battle for Supremacy".
+- [W3.46] Interviewed by Alan Macfarlane 20 August 2008 (video)
+- [W3.47] Wolf Prize in Medicine 1978–2008 edited by John Gurdon (book) including Chapter 1: John B Gurdon (1989) (pdf, 6 Mb)
+- [W3.48] Cloning and Stem Cell Discoveries Earn Nobel in Medicine (New York Times, 8 October 2012)
+- [W3.49] His ("The Egg and the Nucleus: A Battle for Supremacy") and Yamanaka's 2012 Nobel Lectures on YouTube (7 December 2012)
+- [W3.50] Interview with Sir John Gurdon at University of Cambridge
+- [W3.51] Cloning, Stem Cells, and Cell Replacement with John Gurdon at University of California
+- [W3.52] Sir John Gurdon – Conversations with History Evolution at University of California
+
+## [W4] Wikipedia: Dolly (sheep)
+https://en.wikipedia.org/w/index.php?title=Dolly_(sheep)&oldid=1373207102 · CC BY-SA 4.0 · usage: ai_input
+
+- [W4.1] Dolly (5 July 1996 – 14 February 2003) was a female Finn-Dorset sheep and the first mammal that was cloned from an adult somatic cell.
+- [W4.2] She was cloned by associates of the Roslin Institute in Scotland, using the process of nuclear transfer from a cell taken from a mammary gland (somatic cell nuclear transfer).
+- [W4.3] Her cloning proved that a cloned organism could be produced from a mature cell from a specific body part.
+- [W4.4] Contrary to popular belief, she was not the first animal to be cloned.
+- [W4.5] The employment of adult somatic cells instead of embryonic stem cells for cloning emerged from the foundational work of John Gurdon, who cloned African clawed frogs in 1958 with this approach.
+- [W4.6] The successful cloning of Dolly led to advancements in stem cell research, including the discovery of induced pluripotent stem cells.
+- [W4.7] Dolly lived at the Roslin Institute throughout her life and produced several lambs.
+- [W4.8] She was euthanised at the age of six years due to a progressive lung disease.
+- [W4.9] No cause that linked the disease to her cloning was found.
+- [W4.10] Dolly's body was preserved and donated by the Roslin Institute in Scotland to the National Museum of Scotland, where it has been regularly exhibited since 2003.
+- [W4.11] Dolly was cloned by Keith Campbell, Ian Wilmut and colleagues at the Roslin Institute, part of the University of Edinburgh, Scotland, and the biotechnology company PPL Therapeutics, based near Edinburgh.
+- [W4.12] The funding for Dolly's cloning was provided by PPL Therapeutics and the Ministry of Agriculture.
+- [W4.13] She was born on 5 July 1996.
+- [W4.14] She has been called "the world's most famous sheep" by sources including BBC News and Scientific American.
+- [W4.15] The cell used as the donor for the cloning of Dolly was taken from a mammary gland, and the production of a healthy clone, therefore, proved that a cell taken from a specific part of the body could recreate a whole individual.
+- [W4.16] On Dolly's name, Wilmut stated, "Dolly is derived from a mammary gland cell and we couldn't think of a more impressive pair of glands than Dolly Parton's."
+- [W4.17] Dolly was born on 5 July 1996 and had three mothers: one provided the egg, another the DNA, and a third carried the cloned embryo to term.
+- [W4.18] She was created using the technique of somatic cell nuclear transfer, where the cell nucleus from an adult cell is transferred into an unfertilised oocyte (developing egg cell) that has had its cell nucleus removed.
+- [W4.19] The hybrid cell is then stimulated to divide by an electric shock, and when it develops into a blastocyst it is implanted in a surrogate mother.
+- [W4.20] Dolly was the first clone produced from a cell taken from an adult mammal.
+- [W4.21] The production of Dolly showed that genes in the nucleus of such a mature differentiated somatic cell are still capable of reverting to an embryonic totipotent state, creating a cell that can then go on to develop into any part of an animal.
+- [W4.22] Dolly's existence was announced to the public on 22 February 1997.
+- [W4.23] It gained much attention in the media.
+- [W4.24] A commercial with Scottish scientists playing with sheep was aired on TV, and a special report in Time magazine featured Dolly.
+- [W4.25] Science featured Dolly as the breakthrough of the year.
+- [W4.26] Even though Dolly was not the first animal cloned, she received media attention because she was the first cloned from an adult cell.
+- [W4.27] Dolly lived her entire life at the Roslin Institute in Midlothian.
+- [W4.28] There she was bred with a Welsh Mountain ram and produced six lambs in total.
+- [W4.29] Her first lamb, named Bonnie, was born in April 1998.
+- [W4.30] The following year, Dolly produced twin lambs, Sally and Rosie; further, she gave birth to the triplets Lucy, Darcy and Cotton in 2000.
+- [W4.31] In late 2001, at the age of four, Dolly developed arthritis and started to have difficulty walking.
+- [W4.32] This was treated with anti-inflammatory drugs.
+- [W4.33] On 14 February 2003, Dolly was euthanised because she had a progressive lung disease and severe arthritis.
+- [W4.34] A Finn Dorset such as Dolly has a life expectancy of around 11 to 12 years, but Dolly lived 6.5 years.
+- [W4.35] A post-mortem examination showed she had a form of lung cancer called ovine pulmonary adenocarcinoma, also known as Jaagsiekte, which is a fairly common disease of sheep and is caused by the retrovirus JSRV.
+- [W4.36] Roslin scientists stated that they did not think there was a connection with Dolly being a clone, and that other sheep in the same flock had died of the same disease.
+- [W4.37] Such lung diseases are a particular danger for sheep kept indoors, and Dolly was made to sleep inside for security reasons.
+- [W4.38] Some in the press speculated that a contributing factor to Dolly's death was that she could have been born with a genetic age of six years, the same age as the sheep from which she was cloned.
+- [W4.39] One basis for this idea was the finding that Dolly's telomeres were short, which is typically a result of the ageing process.
+- [W4.40] The Roslin Institute stated that intensive health screening did not reveal any abnormalities in Dolly that could have come from advanced aging.
+- [W4.41] In 2016 scientists reported no defects in thirteen cloned sheep, including four from the same cell line as Dolly.
+- [W4.42] The first study to review the long-term health outcomes of cloning, the authors found no evidence of late-onset, non-communicable diseases other than some minor examples of osteoarthritis and concluded "We could find no evidence, therefore, of a detrimental long-term effect of cloning by SCNT on the health of aged offspring among our cohort."
+- [W4.43] After her death, Dolly's body was preserved via taxidermy and is currently on display at the National Museum of Scotland in Edinburgh.
+- [W4.44] After cloning was successfully demonstrated through the production of Dolly, many other large mammals were cloned, including pigs, deer, horses and cattle.
+- [W4.45] The attempt to clone argali (mountain sheep) did not produce viable embryos.
+- [W4.46] The attempt to clone a banteng bull was more successful, as were the attempts to clone mouflon (a form of wild sheep), both resulting in viable offspring.
+- [W4.47] The reprogramming process that cells need to go through during cloning is not perfect and embryos produced by nuclear transfer often show abnormal development.
+- [W4.48] Making cloned mammals was highly inefficient in 1996; Dolly was the only lamb that survived to adulthood from 277 attempts.
+- [W4.49] Wilmut, who led the team that created Dolly, announced in 2007 that the nuclear transfer technique may never be sufficiently efficient for use in humans.
+- [W4.50] But by 2014, Chinese scientists were reported to have 70–80% success rates in cloning pigs, and in 2016 Sooam Biotech was producing 500 cloned embryos a day.
+- [W4.51] Another commercial pet cloning company, Viagen, charges $50,000 (£38,000) to clone a dog, $30,000 for a cat, and $85,000 for a horse, showing cloning economy is getting more popular.
+- [W4.52] Cloning may have uses in preserving endangered species, and may become a viable tool for reviving extinct species.
+- [W4.53] In January 2009, scientists from the Centre of Food Technology and Research of Aragon in northern Spain announced the cloning of the Pyrenean ibex, a form of wild mountain goat, which was officially declared extinct in 2000.
+- [W4.54] Although the newborn ibex died shortly after birth due to physical defects in its lungs, it is the first time an extinct animal has been cloned, and may open doors for saving endangered and newly extinct species by resurrecting them from frozen tissue.
+- [W4.55] In July 2016, four identical clones of Dolly (Daisy, Debbie, Dianna and Denise) were alive and healthy at nine years old.
+- [W4.56] They were euthanised following research published in 2017.
+- [W4.57] Scientific American concluded in 2016 that the main legacy of Dolly has not been cloning of animals but in advances into stem cell research.
+- [W4.58] Gene targeting was added in 2000, when researchers cloned the female lamb Diana from sheep DNA altered to contain the human gene for alpha 1-antitrypsin.
+- [W4.59] The human gene was specifically activated in the ewe’s mammary gland, so Diana produced milk containing human alpha 1-antitrypsin.
+- [W4.60] After Dolly, researchers realised that ordinary cells could be reprogrammed to induced pluripotent stem cells, which can be grown into any tissue.
+- [W4.61] The first successful cloning of a primate species was reported in January 2018, using the same method which produced Dolly.
+- [W4.62] Two identical clones of a macaque monkey, Zhong Zhong and Hua Hua, were created by researchers in China and were born in late 2017.
+- [W4.63] In January 2019, scientists in China reported the creation of five identical cloned gene-edited monkeys, again using this method, and the gene-editing CRISPR-Cas9 technique allegedly used by He Jiankui in creating the first ever gene-modified human babies, Lulu and Nana.
+- [W4.64] The monkey clones were made in order to study several medical diseases.
+- [W4.65] The Brazilian telenovela O Clone (2001) drew inspiration for its central plot from the cloning of Dolly, exploring the subject of human cloning through the character played by Murilo Benício, the story's protagonist.
+- [W4.66] The production is one of the major successes of its creator, Glória Perez.
+- [W4.67] In 2003 the Belgian artist Dominique Goblet published a short comic strip about Dolly with the title: "2004 Apparition de Dolly dans la campagne anglaise".
+- [W4.68] In re Roslin Institute (Edinburgh) – US court decision that determined that Dolly could not be patented
+- [W4.69] Dolly the Sheep at the National Museum of Scotland, Edinburgh
+- [W4.70] Cloning Dolly the Sheep Dolly the Sheep and the importance of animal research
+- [W4.71] Antiques Roadshow, Series 45, Brodie Castle 3, Dolly the Sheep.
+- [W4.72] Episode where several items appertaining to Dolly, including wool from a shearing and scientific instruments, were appraised.
+
+## [W5] Wikipedia: Induced pluripotent stem cell
+https://en.wikipedia.org/w/index.php?title=Induced_pluripotent_stem_cell&oldid=1375666877 · CC BY-SA 4.0 · usage: ai_input
+
+- [W5.1] Induced pluripotent stem cells (also known as iPS cells or iPSCs) are a type of pluripotent stem cell that can be generated directly from a somatic cell.
+- [W5.2] The iPSC technology was pioneered by Shinya Yamanaka and Kazutoshi Takahashi in Kyoto, Japan, who together showed in 2006 that the introduction of four specific genes (named c-Myc, Oct4, Sox2 and KLF4), collectively known as Yamanaka factors, encoding transcription factors could convert somatic cells into pluripotent stem cells.
+- [W5.3] Shinya Yamanaka was awarded the 2012 Nobel Prize along with Sir John Gurdon "for the discovery that mature cells can be reprogrammed to become pluripotent."
+- [W5.4] Pluripotent stem cells hold promise in the field of regenerative medicine.
+- [W5.5] Because they can propagate indefinitely, as well as give rise to every other cell type in the body (such as neurons, heart, pancreatic, and liver cells), they represent a single source of cells that could be used to replace those lost to damage or disease.
+- [W5.6] The best-known type of pluripotent stem cell is the embryonic stem cell.
+- [W5.7] However, since the generation of embryonic stem cells involves the destruction (or at least manipulation) of a pre-implantation stage embryo, there has been much controversy surrounding their use.
+- [W5.8] Patient-matched embryonic stem cell lines can now be derived using somatic cell nuclear transfer (SCNT).
+- [W5.9] Since iPSCs can be derived directly from adult tissues, they not only bypass the need for embryos, but can be made in a patient-matched manner, which means that each individual could have their own pluripotent stem cell line.
+- [W5.10] These unlimited supplies of autologous cells could be used to generate transplants without the risk of immune rejection.
+- [W5.11] While the iPSC technology has not yet advanced to a stage where therapeutic transplants have been deemed safe, iPSCs are readily being used in personalized drug discovery efforts and understanding the patient-specific basis of disease.
+- [W5.12] Yamanaka named iPSCs with a lower case "i" due to the popularity of the iPod and other Apple products.
+- [W5.13] In his Nobel seminar, Yamanaka cited the earlier seminal work of Harold Weintraub on the role of myoblast determination protein 1 (MyoD) in reprogramming cell fate to a muscle lineage as an important precursor to the discovery of iPSCs.
+- [W5.14] iPSCs are typically derived by introducing products of specific sets of pluripotency-associated genes, or "reprogramming factors", into a given cell type.
+- [W5.15] The original set of reprogramming factors (also dubbed Yamanaka factors) are the transcription factors Oct4 (Pou5f1), Sox2, Klf4 and cMyc.
+- [W5.16] While this combination is most conventional in producing iPSCs, each of the factors can be functionally replaced by related transcription factors, miRNAs, small molecules, or even non-related genes such as lineage specifiers.
+- [W5.17] It is also clear that pro-mitotic factors such as C-MYC/L-MYC or repression of cell cycle checkpoints, such as p53, are conduits to creating a compliant cellular state for iPSC reprogramming.
+- [W5.18] iPSC derivation is typically a slow and inefficient process, taking one–two weeks for mouse cells and three–four weeks for human cells, with efficiencies around 0.01–0.1%.
+- [W5.19] However, considerable advances have been made in improving the efficiency and the time it takes to obtain iPSCs.
+- [W5.20] Upon introduction of reprogramming factors, cells begin to form colonies that resemble pluripotent stem cells, which can be isolated based on their morphology, conditions that select for their growth, or through expression of surface markers or reporter genes.
+- [W5.21] Induced pluripotent stem cells were first generated by Shinya Yamanaka and Kazutoshi Takahashi at Kyoto University, Japan, in 2006.
+- [W5.22] They hypothesized that genes important to embryonic stem cell (ESC) function might be able to induce an embryonic state in adult cells.
+- [W5.23] They chose twenty-four genes previously identified as important in ESCs and used retroviruses to deliver these genes to mouse fibroblasts.
+- [W5.24] The fibroblasts were engineered so that any cells reactivating the ESC-specific gene, Fbx15, could be isolated using antibiotic selection.
+- [W5.25] Upon delivery of all twenty-four factors, ESC-like colonies emerged that reactivated the Fbx15 reporter and could propagate indefinitely.
+- [W5.26] To identify the genes necessary for reprogramming, the researchers removed one factor at a time from the pool of twenty-four.
+- [W5.27] By this process, they identified four factors, Oct4, Sox2, cMyc, and Klf4, which were each necessary and together sufficient to generate ESC-like colonies under selection for reactivation of Fbx15.
+- [W5.28] In June 2007, three separate research groups, including that of Yamanaka's, a Harvard/University of California, Los Angeles collaboration, and a group at MIT, published studies that substantially improved on the reprogramming approach, giving rise to iPSCs that were indistinguishable from ESCs.
+- [W5.29] Unlike the first generation of iPSCs, these second generation iPSCs produced viable chimeric mice and contributed to the mouse germline, thereby achieving the 'gold standard' for pluripotent stem cells.
+- [W5.30] These second-generation iPSCs were derived from mouse fibroblasts by retroviral-mediated expression of the same four transcription factors (Oct4, Sox2, cMyc, Klf4).
+- [W5.31] However, instead of using Fbx15 to select for pluripotent cells, the researchers used Nanog, a gene that is functionally important in ESCs.
+- [W5.32] By using this different strategy, the researchers created iPSCs that were functionally identical to ESCs.
+- [W5.33] Human induced pluripotent stem cells
+- [W5.34] Generation from human fibroblasts
+- [W5.35] Reprogramming of human cells to iPSCs was reported in November 2007 by two independent research groups: Shinya Yamanaka of Kyoto University, Japan, who pioneered the original iPSC method, and James Thomson of University of Wisconsin-Madison who was the first to derive human embryonic stem cells.
+- [W5.36] With the same principle used in mouse reprogramming, Yamanaka's group successfully transformed human fibroblasts into iPSCs with the same four pivotal genes, Oct4, Sox2, Klf4, and cMyc, using a retroviral system, while Thomson and colleagues used a different set of factors, Oct4, Sox2, Nanog, and Lin28, using a lentiviral system.
+- [W5.37] Generation from additional cell types
+- [W5.38] Obtaining fibroblasts to produce iPSCs involves a skin biopsy, and there has been a push towards identifying cell types that are more easily accessible.
+- [W5.39] In 2008, iPSCs were derived from human keratinocytes, which could be obtained from a single hair pluck.
+- [W5.40] In 2010, iPSCs were derived from peripheral blood cells, and in 2012, iPSCs were made from renal epithelial cells in the urine.
+- [W5.41] Other considerations for starting cell type include mutational load (for example, skin cells may harbor more mutations due to UV exposure), time it takes to expand the population of starting cells, and the ability to differentiate into a given cell type.
+- [W5.42] Genes used to produce iPSCs
+- [W5.43] The generation of induced pluripotent cells is crucially dependent on the transcription factors used for the induction.
+- [W5.44] Oct-3/4 and certain products of the Sox gene family (Sox1, Sox2, Sox3, and Sox15) have been identified as crucial transcriptional regulators involved in the induction process whose absence makes induction impossible.
+- [W5.45] Additional genes, however, including certain members of the Klf family (Klf1, Klf2, Klf4, and Klf5), the Myc family (c-myc, L-myc, and N-myc), Nanog, and LIN28, have been identified to increase the induction efficiency.
+- [W5.46] Oct-3/4 (Pou5f1) Oct-3/4 is one of the family of octamer ("Oct") transcription factors, and plays a crucial role in maintaining pluripotency.
+- [W5.47] The absence of Oct-3/4 in Oct-3/4+ cells, such as blastomeres and embryonic stem cells, leads to spontaneous trophoblast differentiation, and presence of Oct-3/4 thus gives rise to the pluripotency and differentiation potential of embryonic stem cells.
+- [W5.48] Various other genes in the "Oct" family, including Oct-3/4's close relatives, Oct1 and Oct6, fail to elicit induction, thus demonstrating the exclusiveness of Oct-3/4 to the induction process.
+- [W5.49] Schöler showed that Oct4 overexpression during reprogramming causes epigenetic changes deteriorating the quality of iPSCs.
+- [W5.50] Comparing to OSKM (Oct4, Sox2, Klf4 and c-Myc) new SKM (Sox2, Klf4 and c-Myc) reprogramming generates iPSCs with developmental potential equivalent to embryonic stem cell, as determined by their ability to generate all-iPSC mice through tetraploid embryo complementation. iPSCs with higher developmental potential could also be generated by enhancing dimerization between Oct4 and Sox2 using a chimeric Sox factor.
+- [W5.51] Sox family: The Sox family of transcription factors is associated with maintaining pluripotency similar to Oct-3/4, although it is associated with multipotent and unipotent stem cells in contrast with Oct-3/4, which is exclusively expressed in pluripotent stem cells.
+- [W5.52] While Sox2 was the initial gene used for induction by Yamanaka et al., Jaenisch et al., and Thomson et al., other transcription factors in the Sox family have been found to work as well in the induction process.
+- [W5.53] Sox1 yields iPSCs with a similar efficiency as Sox2, and genes Sox3, Sox15, and Sox18 also generate iPSCs, although with decreased efficiency.
+- [W5.54] Velychko et al. engineered a chimeric super-reprogramming factor, Sox2-17 or "super-Sox", which enhanced or allowed generation of mouse, human, cynomolgus monkey, porcine and bovine iPSCs.
+- [W5.55] Klf family: Klf4 of the Klf family of transcription factors was initially identified by Yamanaka et al. and confirmed by Jaenisch et al. as a factor for the generation of mouse iPS cells and was demonstrated by Yamanaka et al. as a factor for generation of human iPS cells.
+- [W5.56] However, Thomson et al. reported that Klf4 was unnecessary for generation of human iPS cells and in fact failed to generate human iPS cells.
+- [W5.57] Klf2 and Klf4 were found to be factors capable of generating iPS cells, and related genes Klf1 and Klf5 did as well, although with reduced efficiency.
+- [W5.58] Myc family: The Myc family of transcription factors are proto-oncogenes implicated in cancer.
+- [W5.59] Yamanaka et al. and Jaenisch et al. demonstrated that c-myc is a factor implicated in the generation of mouse iPS cells and Yamanaka et al. demonstrated it was a factor implicated in the generation of human iPS cells.
+- [W5.60] However, Thomson et al., Yamanaka et al. usage of the "myc" family of genes in induction of iPS cells is troubling for the eventuality of iPS cells as clinical therapies, as 25% of mice transplanted with c-myc-induced iPS cells developed lethal teratomas.
+- [W5.61] N-myc and L-myc have been identified to induce instead of c-myc with similar efficiency.
+- [W5.62] Nanog: In embryonic stem cells, Nanog, along with Oct-3/4 and Sox2, is necessary in promoting pluripotency.
+- [W5.63] Therefore, it was surprising when Yamanaka et al. reported that Nanog was unnecessary for induction although Thomson et al. has reported it is possible to generate iPS cells with Nanog as one of the factors.
+- [W5.64] LIN28: LIN28 is an mRNA binding protein expressed in embryonic stem cells and embryonic carcinoma cells associated with differentiation and proliferation.
+- [W5.65] Thomson et al. demonstrated that LIN28 is a factor in iPSC generation in combination with Oct4, Sox2, and Nanog.
+- [W5.66] Glis1: Glis1 is a transcription factor that can be used with Oct-3/4, Sox2 and Klf4 to induce pluripotency.
+- [W5.67] It poses numerous advantages when used instead of C-myc.
+- [W5.68] Challenges in reprogramming cells to pluripotency
+- [W5.69] Although the methods pioneered by Yamanaka and others have demonstrated that adult cells can be reprogrammed to iPS cells, there are still challenges associated with this technology:
+- [W5.70] Low efficiency: in general, the conversion to iPS cells has been incredibly low.
+- [W5.71] For example, the rate at which somatic cells were reprogrammed into iPS cells in Yamanaka's original mouse study was 0.01–0.1%.
+- [W5.72] The low efficiency rate may reflect the need for precise timing, balance, and absolute levels of expression of the reprogramming genes.
+- [W5.73] It may also suggest a need for rare genetic or epigenetic changes in the original somatic cell population or in the prolonged culture.
+- [W5.74] However, recently a path was found for efficient reprogramming which required downregulation of the nucleosome remodeling and deacetylation (NuRD) complex.
+- [W5.75] Overexpression of Mbd3, a subunit of NuRD, inhibits induction of iPSCs.
+- [W5.76] Depletion of Mbd3, on the other hand, improves reprogramming efficiency, that results in deterministic and synchronized iPS cell reprogramming (near 100% efficiency within seven days from mouse and human cells).
+- [W5.77] Genomic Insertion: genomic integration of the transcription factors limits the utility of the transcription factor approach because of the risk of mutations being inserted into the target cell's genome.
+- [W5.78] A common strategy for avoiding genomic insertion has been to use a different vector for input.
+- [W5.79] Plasmids, adenoviruses, and transposon vectors have all been explored, but these often come with the tradeoff of lower throughput.
+- [W5.80] Tumorigenicity: Depending on the methods used, reprogramming of adult cells to obtain iPSCs may pose significant risks that could limit their use in humans.
+- [W5.81] For example, if viruses are used to genomically alter the cells, the expression of oncogenes (cancer-causing genes) may potentially be triggered.
+- [W5.82] In February 2008, scientists announced the discovery of a technique that could remove oncogenes after the induction of pluripotency, thereby increasing the potential use of iPS cells in human diseases.
+- [W5.83] In another study, Yamanaka reported that one can create iPSCs without the oncogene c-Myc.
+- [W5.84] The process took longer and was not as efficient, but the resulting chimeras did not develop cancer.
+- [W5.85] Inactivation or deletion of the tumor suppressor p53, which is a key regulator of cancer, significantly increases reprogramming efficiency.
+- [W5.86] Thus there seems to be a tradeoff between reprogramming efficiency and tumor generation.
+- [W5.87] Incomplete reprogramming: reprogramming also faces the challenge of completeness.
+- [W5.88] This is particularly challenging because the genome-wide epigenetic code must be reformatted to that of the target cell type in order to fully reprogram a cell.
+- [W5.89] However, three separate groups were able to find mouse embryonic fibroblast (MEF)-derived iPS cells that could be injected into tetraploid blastocysts and resulted in the live birth of mice derived entirely from iPS cells, thus ending the debate over the equivalence of embryonic stem cells (ESCs) and iPS with regard to pluripotency.
+- [W5.90] The table on the right summarizes the key strategies and techniques used to develop iPS cells in the first five years after Yamanaka et al.'s 2006 breakthrough.
+- [W5.91] Rows of similar colors represent studies that used similar strategies for reprogramming.
+- [W5.92] Mimicking transcription factors with chemicals
+- [W5.93] One of the main strategies for avoiding problems (1) and (2) has been to use small molecules that can mimic the effects of transcription factors.
+- [W5.94] These compounds can compensate for a reprogramming factor that does not effectively target the genome or fails at reprogramming for another reason; thus they raise reprogramming efficiency.
+- [W5.95] They also avoid the problem of genomic integration, which in some cases contributes to tumor genesis.
+- [W5.96] Key studies using such strategy were conducted in 2008.
+- [W5.97] Melton et al. studied the effects of histone deacetylase (HDAC) inhibitor valproic acid.
+- [W5.98] They found that it increased reprogramming efficiency 100-fold (compared to Yamanaka's traditional transcription factor method).
+- [W5.99] The researchers proposed that this compound was mimicking the signaling that is usually caused by the transcription factor c-Myc.
+- [W5.100] A similar type of compensation mechanism was proposed to mimic the effects of Sox2.
+- [W5.101] In 2008, Ding et al. used the inhibition of histone methyl transferase (HMT) with BIX-01294 in combination with the activation of calcium channels in the plasma membrane in order to increase reprogramming efficiency.
+- [W5.102] Deng et al. of Beijing University reported in July 2013 that induced pluripotent stem cells can be created without any genetic modification.
+- [W5.103] They used a cocktail of seven small-molecule compounds including DZNep to induce the mouse somatic cells into stem cells which they called CiPS cells with the efficiency – at 0.2% – comparable to those using standard iPSC production techniques.
+- [W5.104] The CiPS cells were introduced into developing mouse embryos and were found to contribute to all major cell types, proving its pluripotency.
+- [W5.105] Ding et al. demonstrated an alternative to transcription factor reprogramming through the use of drug-like chemicals.
+- [W5.106] By studying the mesenchymal-epithelial transition (MET) process in which fibroblasts are pushed to a stem-cell like state, Ding's group identified two chemicals – ALK5 inhibitor SB431412 and MEK (mitogen-activated protein kinase) inhibitor PD0325901 – which was found to increase the efficiency of the classical genetic method by 100 fold.
+- [W5.107] Adding a third compound known to be involved in the cell survival pathway, thiazovivin further increases the efficiency by 200 fold.
+- [W5.108] Using the combination of these three compounds also decreased the reprogramming process of the human fibroblasts from four weeks to two weeks.
+- [W5.109] In April 2009, it was demonstrated that generation of iPS cells is possible without any genetic alteration of the adult cell: a repeated treatment of the cells with certain proteins channeled into the cells via poly-arginine anchors was sufficient to induce pluripotency.
+- [W5.110] The acronym given for those iPSCs is piPSCs (protein-induced pluripotent stem cells).
+- [W5.111] Another key strategy for avoiding problems such as tumorgenesis and low throughput has been to use alternate forms of vectors: adenoviruses, plasmids, and naked DNA or protein compounds.
+- [W5.112] In 2008, Hochedlinger et al. used an adenovirus to transport the requisite four transcription factors into the DNA of skin and liver cells of mice, resulting in cells identical to ESCs.
+- [W5.113] The adenovirus is unique from other vectors like viruses and retroviruses because it does not incorporate any of its own genes into the targeted host and avoids the potential for insertional mutagenesis.
+- [W5.114] In 2009, Freed et al. demonstrated successful reprogramming of human fibroblasts to iPS cells.
+- [W5.115] Another advantage of using adenoviruses is that they only need to present for a brief amount of time in order for effective reprogramming to take place.
+- [W5.116] Also in 2008, Yamanaka et al. found that they could transfer the four necessary genes with a plasmid.
+- [W5.117] The Yamanaka group successfully reprogrammed mouse cells by transfection with two plasmid constructs carrying the reprogramming factors; the first plasmid expressed c-Myc, while the second expressed the other three factors (Oct4, Klf4, and Sox2).
+- [W5.118] Although the plasmid methods avoid viruses, they still require cancer-promoting genes to accomplish reprogramming.
+- [W5.119] The other main issue with these methods is that they tend to be much less efficient compared to retroviral methods.
+- [W5.120] Furthermore, transfected plasmids have been shown to integrate into the host genome and therefore they still pose the risk of insertional mutagenesis.
+- [W5.121] Because non-retroviral approaches have demonstrated such low efficiency levels, researchers have attempted to effectively rescue the technique with what is known as the PiggyBac Transposon System.
+- [W5.122] Several studies have demonstrated that this system can effectively deliver the key reprogramming factors without leaving footprint mutations in the host cell genome.
+- [W5.123] The PiggyBac Transposon System involves the re-excision of exogenous genes, which eliminates the issue of insertional mutagenesis.
+- [W5.124] Stimulus-triggered acquisition of pluripotency cell
+- [W5.125] In January 2014, two articles were published claiming that a type of pluripotent stem cell can be generated by subjecting the cells to certain types of stress (bacterial toxin, a low pH of 5.7, or physical squeezing); the resulting cells were called STAP cells, for stimulus-triggered acquisition of pluripotency.
+- [W5.126] In light of difficulties that other labs had replicating the results of the surprising study, in March 2014, one of the co-authors has called for the articles to be retracted.
+- [W5.127] On 4 June 2014, the lead author, Obokata agreed to retract both the papers after she was found to have committed 'research misconduct' as concluded in an investigation by RIKEN on 1 April 2014.
+- [W5.128] MicroRNAs are short RNA molecules that bind to complementary sequences on messenger RNA and block expression of a gene.
+- [W5.129] Measuring variations in microRNA expression in iPS cells can be used to predict their differentiation potential.
+- [W5.130] Addition of microRNAs can also be used to enhance iPS potential.
+- [W5.131] Several mechanisms have been proposed.
+- [W5.132] ES cell-specific microRNA molecules (such as miR-291, miR-294 and miR-295) enhance the efficiency of induced pluripotency by acting downstream of c-Myc.
+- [W5.133] MicroRNAs can also block expression of repressors of Yamanaka's four transcription factors, and there may be additional mechanisms that induce reprogramming even in the absence of added exogenous transcription factors.
+- [W5.134] Induced pluripotent stem cells are similar to natural pluripotent stem cells, such as embryonic stem cells, in many aspects, such as the expression of certain stem cell genes and proteins, chromatin methylation patterns, doubling time, embryoid body formation, teratoma formation, viable chimera formation, and potency and differentiability, but the full extent of their relation to natural pluripotent stem cells is still being assessed.
+- [W5.135] Gene expression and genome-wide H3K4me3 and H3K27me3 were found to be extremely similar between ES and iPS cells.
+- [W5.136] The generated iPSCs were remarkably similar to naturally isolated pluripotent stem cells (such as mouse and human embryonic stem cells, mESCs and hESCs, respectively) in the following respects, thus confirming the identity, authenticity, and pluripotency of iPSCs to naturally isolated pluripotent stem cells:
+- [W5.137] Cellular biological properties
+- [W5.138] Morphology: iPSCs were morphologically similar to ESCs.
+- [W5.139] Each cell had round shape, large nucleolus and scant cytoplasm.
+- [W5.140] Colonies of iPSCs were also similar to that of ESCs.
+- [W5.141] Human iPSCs formed sharp-edged, flat, tightly packed colonies similar to hESCs and mouse iPSCs formed the colonies similar to mESCs, less flat and more aggregated colonies than that of hESCs.
+- [W5.142] Growth properties: Doubling time and mitotic activity are cornerstones of ESCs, as stem cells must self-renew as part of their definition. iPSCs were mitotically active, actively self-renewing, proliferating, and dividing at a rate equal to ESCs.
+- [W5.143] Stem cell markers: iPSCs expressed cell surface antigenic markers expressed on ESCs.
+- [W5.144] Human iPSCs expressed the markers specific to hESC, including SSEA-3, SSEA-4, TRA-1-60, TRA-1-81, TRA-2-49/6E, and Nanog.
+- [W5.145] Mouse iPSCs expressed SSEA-1 but not SSEA-3 nor SSEA-4, similarly to mESCs.
+- [W5.146] Stem Cell Genes: iPSCs expressed genes expressed in undifferentiated ESCs, including Oct-3/4, Sox2, Nanog, GDF3, REX1, FGF4, ESG1, DPPA2, DPPA4, and hTERT.
+- [W5.147] Telomerase activity: Telomerases are necessary to sustain cell division unrestricted by the Hayflick limit of ~50 cell divisions. hESCs express high telomerase activity to sustain self-renewal and proliferation, and human iPSCs also demonstrate high telomerase activity and express hTERT (human telomerase reverse transcriptase), a necessary component in the telomerase protein complex.
+- [W5.148] Pluripotency: iPSCs were capable of differentiation in a fashion similar to ESCs into fully differentiated tissues.
+- [W5.149] Neural differentiation: iPSCs were differentiated into neurons, expressing βIII-tubulin, tyrosine hydroxylase, AADC, DAT, ChAT, LMX1B, and MAP2.
+- [W5.150] The presence of catecholamine-associated enzymes may indicate that iPSCs, like hESCs, may be differentiable into dopaminergic neurons.
+- [W5.151] Stem cell-associated genes were downregulated after differentiation.
+- [W5.152] Cardiac differentiation: iPSCs were differentiated into cardiomyocytes that spontaneously began beating.
+- [W5.153] Cardiomyocytes expressed TnTc, MEF2C, MYL2A, MYHCβ, and NKX2.5.
+- [W5.154] Stem cell-associated genes were downregulated after differentiation.
+- [W5.155] Teratoma formation: iPSCs injected into immunodeficient mice spontaneously formed teratomas after nine weeks.
+- [W5.156] Teratomas are tumors of multiple lineages containing tissue derived from the three germ layers endoderm, mesoderm and ectoderm; this is unlike other tumors, which typically are of only one cell type.
+- [W5.157] Teratoma formation is a landmark test for pluripotency.
+- [W5.158] Embryoid body: hESCs in culture spontaneously form ball-like embryo-like structures termed "embryoid bodies", which consist of a core of mitotically active and differentiating hESCs and a periphery of fully differentiated cells from all three germ layers. iPSCs also form embryoid bodies and have peripheral differentiated cells.
+- [W5.159] Chimeric mice: hESCs naturally reside within the inner cell mass (embryoblast) of blastocysts, and in the embryoblast, differentiate into the embryo while the blastocyst's shell (trophoblast) differentiates into extraembryonic tissues.
+- [W5.160] The hollow trophoblast is unable to form a living embryo, and thus it is necessary for the embryonic stem cells within the embryoblast to differentiate and form the embryo. iPSCs were injected by micropipette into a trophoblast, and the blastocyst was transferred to recipient females.
+- [W5.161] Chimeric living mouse pups were created: mice with iPSC derivatives incorporated all across their bodies with 10–90% chimerism.
+- [W5.162] Tetraploid complementation: iPS cells from mouse fetal fibroblasts injected into tetraploid blastocysts (which themselves can only form extra-embryonic tissues) can form whole, non-chimeric, fertile mice, although with low success rate.
+- [W5.163] The efficiency of all-PSC mouse production could be boosted by a short exposure of pluripotent stem cell line to an episomal plasmid encoding for engineered Sox2 and Klf4 (SK cocktail).
+- [W5.164] Promoter demethylation: Methylation is the transfer of a methyl group to a DNA base, typically the transfer of a methyl group to a cytosine molecule in a CpG site (adjacent cytosine/guanine sequence).
+- [W5.165] Widespread methylation of a gene interferes with expression by preventing the activity of expression proteins, or by recruiting enzymes that interfere with expression.
+- [W5.166] Thus, methylation of a gene effectively silences it by preventing transcription.
+- [W5.167] Promoters of pluripotency-associated genes, including Oct-3/4, Rex1, and Nanog, were demethylated in iPSCs, demonstrating their promoter activity and the active promotion and expression of pluripotency-associated genes in iPSCs.
+- [W5.168] DNA methylation globally: Human iPS cells are highly similar to ES cells in their patterns of which cytosines are methylated, more than to any other cell type.
+- [W5.169] However, on the order of a thousand sites show differences in several iPS cell lines.
+- [W5.170] Half of these resemble the somatic cell line the iPS cells were derived from, the rest are iPSC-specific.
+- [W5.171] Tens of regions which are megabases in size have also been found where iPS cells are not reprogrammed to the ES cell state.
+- [W5.172] Histone demethylation: Histones are compacting proteins that are structurally localized to DNA sequences that can affect their activity through various chromatin-related modifications.
+- [W5.173] H3 histones associated with Oct-3/4, Sox2, and Nanog were demethylated, indicating the expression of Oct-3/4, Sox2, and Nanog.
+- [W5.174] The major concern with the potential clinical application of iPSCs is their propensity to form tumors.
+- [W5.175] Much the same as ESC, iPSCs readily form teratoma when injected into immunodeficient mice.
+- [W5.176] Teratoma formation is considered a major obstacle to stem-cell based regenerative medicine by the FDA.
+- [W5.177] A more recent study on motor functional recovery after spinal cord injuries in mice showed that after human-induced pluripotent stem cells were transplanted into the mice, the cells differentiated into three neural lineages in the spinal cord.
+- [W5.178] The cells stimulated regrowth of the damaged spinal cord, maintained myelination, and formed synapses.
+- [W5.179] These positive outcomes were observed for over 112 days after the spinal cord injury, without tumor formation.
+- [W5.180] Nevertheless, a follow-up study by the same group showed distinct clones of human-induced pluripotent stem cells eventually formed tumors.
+- [W5.181] Since iPSCs can only be produced with high efficiency at this time using modifications, they are generally predicted to be less safe and more tumorigenic than hESC.
+- [W5.182] All the genes that have been shown to promote iPSC formation have also been linked to cancer in one way or another.
+- [W5.183] Some of the genes are known oncogenes, including the members of the Myc family.
+- [W5.184] While omitting Myc still allows for iPSC formation, the efficiency is reduced up to 100 fold.
+- [W5.185] A non-genetic method of producing iPSCs has been demonstrated using recombinant proteins, but its efficiency was quite low.
+- [W5.186] However, refinements to this methodology yielding higher efficiency may lead to production of safer iPSCs.
+- [W5.187] Other approaches such as using adenoviruses or plasmids are generally thought to be safer than retroviral methods.
+- [W5.188] An important area for future studies in the iPSC field is directly testing iPSC tumorigenicity using methods that mimic the approaches that would be used for regenerative medicine therapies.
+- [W5.189] Such studies are crucial since iPSCs not only form teratoma, but also mice derived from iPSCs have a high incidence of death from malignant cancer.
+- [W5.190] A 2010 paper was published in the journal Stem Cells indicating that iPS cells are far more tumorigenic than ESC, supporting the notion that iPS cell safety is a serious concern.
+- [W5.191] Concern regarding the immunogenicity of IPS cells arose in 2011 when Zhou et al. performed a study involving a teratoma formation assay and demonstrated that IPS cells produced an immune response strong enough to cause rejection of the cells.
+- [W5.192] When a similar procedure was performed on genetically equivalent ES cells however, Zhou et al. found teratomas, which indicated that the cells were tolerated by the immune system.
+- [W5.193] In 2013, Araki et al. attempted to reproduce the conclusion obtained by Zhou et al. using a different procedure.
+- [W5.194] They took cells from a chimera that had been grown from IPSC clones and a mouse embryo, this tissue was then transplanted into syngenic mice.
+- [W5.195] They conducted a similar trial using ES cells instead of IPSC clone and compared the results.
+- [W5.196] Findings indicate that there was no significant difference in the immunogenic response produced by the IPS cells and the ES cells.
+- [W5.197] Furthermore, Araki et al. reported little or no immunogenic response for both cell lines.
+- [W5.198] Thus, Araki et al. was unable to come to the same conclusion as Zhou et al.
+- [W5.199] The task of producing iPS cells continues to be challenging due to the six problems mentioned above.
+- [W5.200] A key tradeoff to overcome is that between efficiency and genomic integration.
+- [W5.201] Most methods that do not rely on the integration of transgenes are inefficient, while those that do rely on the integration of transgenes face the problems of incomplete reprogramming and tumor genesis, although a vast number of techniques and methods have been attempted.
+- [W5.202] Another large set of strategies is to perform a proteomic characterization of iPS cells.
+- [W5.203] Further studies and new strategies should generate optimal solutions to the five main challenges.
+- [W5.204] One approach might attempt to combine the positive attributes of these strategies into an ultimately effective technique for reprogramming cells to iPS cells.
+- [W5.205] Another approach is the use of iPS cells derived from patients to identify therapeutic drugs able to rescue a phenotype.
+- [W5.206] For instance, iPS cell lines derived from patients affected by ectodermal dysplasia syndrome (EEC), in which the p63 gene is mutated, display abnormal epithelial commitment that could be partially rescued by a small compound.
+- [W5.207] Disease modeling and drug development
+- [W5.208] An attractive feature of human iPS cells is the ability to derive them from adult patients to study the cellular basis of human disease.
+- [W5.209] Since iPS cells are self-renewing and pluripotent, they represent a theoretically unlimited source of patient-derived cells which can be turned into any type of cell in the body.
+- [W5.210] This is particularly important because many other types of human cells derived from patients tend to stop growing after a few passages in laboratory culture. iPS cells have been generated for a wide variety of human genetic diseases, including common disorders such as Down syndrome and polycystic kidney disease.
+- [W5.211] In many instances, the patient-derived iPS cells exhibit cellular defects not observed in iPS cells from healthy subjects, providing insight into the pathophysiology of the disease.
+- [W5.212] An international collaborated project, StemBANCC, was formed in 2012 to build a collection of iPS cell lines for drug screening for a variety of diseases.
+- [W5.213] Managed by the University of Oxford, the effort pooled funds and resources from 10 pharmaceutical companies and 23 universities.
+- [W5.214] The goal is to generate a library of 1,500 iPS cell lines which will be used in early drug testing by providing a simulated human disease environment.
+- [W5.215] Furthermore, combining hiPSC technology and small molecule or genetically encoded voltage and calcium indicators provided a large-scale and high-throughput platform for cardiovascular drug safety screening.
+- [W5.216] A proof-of-concept of using induced pluripotent stem cells (iPSCs) to generate human organ for transplantation was reported by researchers from Japan.
+- [W5.217] Human 'liver buds' (iPSC-LBs) were grown from a mixture of three different kinds of stem cells: hepatocyte (for liver function) coaxed from iPSCs; endothelial stem cells (to form lining of blood vessels) from umbilical cord blood; and mesenchymal stem cells (to form connective tissue).
+- [W5.218] This new approach allows different cell types to self-organize into a complex organ, mimicking the process in fetal development.
+- [W5.219] After growing in vitro for a few days, the liver buds were transplanted into mice where the 'liver' quickly connected with the host blood vessels and continued to grow.
+- [W5.220] Most importantly, it performed regular liver functions including metabolizing drugs and producing liver-specific proteins.
+- [W5.221] Further studies will monitor the longevity of the transplanted organ in the host body (ability to integrate or avoid rejection) and whether it will transform into tumors.
+- [W5.222] In 2021, a switchable Yamanaka factors-reprogramming-based approach for regeneration of damaged heart without tumor-formation was demonstrated in mice and was successful if the intervention was carried out immediately before or after a heart attack.
+- [W5.223] In 2020, Japan first transplanted lab-grown heart cells into a human patient.
+- [W5.224] Embryonic cord-blood cells were induced into pluripotent stem cells using plasmid DNA.
+- [W5.225] Using cell surface endothelial/pericytic markers CD31 and CD146, researchers identified 'vascular progenitor', the high-quality, multipotent vascular stem cells.
+- [W5.226] After the iPS cells were injected directly into the vitreous of the damaged retina of mice, the stem cells engrafted into the retina, grew and repaired the vascular vessels.
+- [W5.227] Labelled iPSCs-derived NSCs injected into laboratory animals with brain lesions were shown to migrate to the lesions and some motor function improvement was observed.
+- [W5.228] Beating cardiac muscle cells, iPSC-derived cardiomyocytes, can be mass-produced using chemically defined differentiation protocols.
+- [W5.229] These protocols typically modulate the same developmental signaling pathways required for heart development.
+- [W5.230] These iPSC-cardiomyocytes can recapitulate genetic arrhythmias and cardiac drug responses, since they exhibit the same genetic background as the patient from which they were derived.
+- [W5.231] In June 2014, Takara Bio received technology transfer from iHeart Japan, a venture company from Kyoto University's iPS Cell Research Institute, to make it possible to exclusively use technologies and patents that induce differentiation of iPS cells into cardiomyocytes in Asia.
+- [W5.232] The company announced the idea of selling cardiomyocytes to pharmaceutical companies and universities to help develop new drugs for heart disease.
+- [W5.233] On 9 March 2018, the Specified Regenerative Medicine Committee of Osaka University officially approved the world's first clinical research plan to transplant a "myocardial sheet" made from iPS cells into the heart of patients with severe heart failure.
+- [W5.234] Osaka University announced that it had filed an application with the Ministry of Health, Labor and Welfare on the same day.
+- [W5.235] On 16 May 2018, the clinical research plan was approved by the Ministry of Health, Labor and Welfare's expert group with a condition.
+- [W5.236] In October 2019, a group at Okayama University developed a model of ischemic heart disease using cardiomyocytes differentiated from iPS cells.
+- [W5.237] Although a pint of donated blood contains about two trillion red blood cells and over 107 million blood donations are collected globally, there is still a critical need for blood for transfusion.
+- [W5.238] In 2014, type O red blood cells were synthesized at the Scottish National Blood Transfusion Service from iPSC.
+- [W5.239] The cells were induced to become a mesoderm and then blood cells and then red blood cells.
+- [W5.240] The final step was to make them eject their nuclei and mature properly.
+- [W5.241] Type O can be transfused into all patients.
+- [W5.242] Human clinical trials were not expected to begin before 2016.
+- [W5.243] The first human clinical trial using autologous iPSCs was approved by the Japan Ministry Health and was to be conducted in 2014 at the Riken Center for Developmental Biology in Kobe.
+- [W5.244] However the trial was suspended after Japan's new regenerative medicine laws came into effect in November 2015.
+- [W5.245] More specifically, an existing set of guidelines was strengthened to have the force of law (previously mere recommendations). iPSCs derived from skin cells from six patients with wet age-related macular degeneration were reprogrammed to differentiate into retinal pigment epithelial (RPE) cells.
+- [W5.246] The cell sheet would be transplanted into the affected retina where the degenerated RPE tissue was excised.
+- [W5.247] Safety and vision restoration monitoring were to last one to three years.
+- [W5.248] In March 2017, a team led by Masayo Takahashi completed the first successful transplant of iPS-derived retinal cells from a donor into the eye of a person with advanced macular degeneration.
+- [W5.249] However it was reported that they are now having complications.
+- [W5.250] The benefits of using autologous iPSCs are that there is theoretically no risk of rejection and that it eliminates the need to use embryonic stem cells.
+- [W5.251] However, these iPSCs were derived from another person.
+- [W5.252] New clinical trials involving iPSCs are now ongoing not only in Japan, but also in the US and Europe.
+- [W5.253] Research in 2021 on the trial registry Clinicaltrials.gov identified 129 trial listings mentioning iPSCs, but most were non-interventional.
+- [W5.254] In 2026, Japan's Pharmaceutical Affairs Council recommended that the Ministry of Health, Labor and Welfare extend conditional approval to two allogeneic iPSC-based therapeutic products, Amchepry for Parkinson's and ReHeart for severe heart failure.
+- [W5.255] Strategy for obtaining universal iPSCs
+- [W5.256] To make iPSC-based regenerative medicine technologies available to more patients, it is necessary to create universal iPSCs that can be transplanted independently of haplotypes of HLA.
+- [W5.257] The current strategy for the creation of universal iPSCs has two main goals: to remove HLA expression and to prevent NK cells attacks due to deletion of HLA.
+- [W5.258] Deletion of the B2M and CIITA genes using the CRISPR/Cas9 system has been reported to suppress the expression of HLA class I and class II, respectively.
+- [W5.259] To avoid NK cell attacks. transduction of ligands inhibiting NK-cells, such as HLA-E and CD47 has been used.
+- [W5.260] HLA-C is left unchanged, since the 12 common HLA-C alleles are enough to cover 95% of the world's population.
+- [W5.261] A multipotent mesenchymal stem cell, when induced into pluripotence, holds great promise to slow or reverse aging phenotypes.
+- [W5.262] Such anti-aging properties were demonstrated in early clinical trials in 2017.
+- [W5.263] In 2020, Stanford University researchers concluded after studying elderly mice that old human cells when subjected to the Yamanaka factors, might rejuvenate and become nearly indistinguishable from their younger counterparts.
+- [W5.264] Hypoimmunogenic pluripotent stem cells
+- [W5.265] A review published in 2025 examines the development of hypoimmunogenic pluripotent stem cells (hPSCs) using advanced genome editing techniques aimed at reducing the risk of immune rejection in allogeneic cell therapy.
+- [W5.266] These hPSCs are engineered to lack expression of major histocompatibility complex (MHC) class I and II molecules, while expressing immune-modulatory genes such as PD-L1, CD47, and HLA-G.
+- [W5.267] This combination enhances immune evasion and supports the concept of universal donor cells that do not require human leukocyte antigen (HLA) matching.
+- [W5.268] The integration of suicide gene systems, such as inducible Caspase-9, further enhances safety by enabling the selective elimination of cells in the event of malignancy.
+- [W5.269] These strategies are intended to improve the safety, scalability, and accessibility of regenerative treatments.
+- [W5.270] Stimulus-triggered acquisition of pluripotency cell, a now-discredited claim of pluripotent stem cell generation by immersing cells in an acid
+- [W5.271] Park, Alice, "Shinya Yamanaka, the master of resetting cells", Time, vol.
+- [W5.272] 7–8 (7 September 2026), pp.
+- [W5.273] Center for iPS Cell Research and Application, Kyoto University
+- [W5.274] With few factors, adult cells take on character of embryonic stem cells
+- [W5.275] Generating iPS Cells from MEFS through Forced Expression of Sox-2, Oct-4, c-Myc, and Klf4
+- [W5.276] 2 Minute Video from BSCRF about Induced Pluripotent Stem Cells Archived 18 April 2011 at the Wayback Machine
+- [W5.277] 20Minute Video / The Discovery and Future of Induced Pluripotent Stem (iPS) Cells by Yamanaka 8 January 2008
+- [W5.278] Fact sheet on reprogramming
+- [W5.279] University of Oxford practical workshop on pluripotent stem cell technology Archived 8 April 2016 at the Wayback Machine
+- [W5.280] Allen Cell Explorer – realistic, data-driven 3D visualization of a living hiPSC in its pluri-potent state
+- [W5.281] CamBioScience iPSC course Archived 23 April 2019 at the Wayback Machine
+- [W5.282] Induced pluripotent stem cells vs embryonic stem cells lines obtained by SCNT (discussion) on Wikiversity
+
+## [W6] Wikipedia: Red blood cell
+https://en.wikipedia.org/w/index.php?title=Red_blood_cell&oldid=1380241183 · CC BY-SA 4.0 · usage: ai_input
+
+- [W6.1] Red blood cells (RBCs), referred to as erythrocytes (from Ancient Greek  erythros 'red' and  kytos 'hollow vessel', with -cyte translated as 'cell' in modern usage) in academia and medical publishing, also known as red cells, erythroid cells, and rarely haematids, are the most common type of blood cell and the vertebrate's principal means of delivering oxygen (O2) to the body tissues—via blood flow through the circulatory system.
+- [W6.2] Erythrocytes take up oxygen in the lungs, or in fish the gills, and release it into tissues while squeezing through the body's capillaries.
+- [W6.3] The cytoplasm of a red blood cell is rich in hemoglobin (Hb), an iron-containing biomolecule that can bind oxygen.
+- [W6.4] It is responsible for the red color of the cells and the blood.
+- [W6.5] Each human red blood cell contains approximately 270 million hemoglobin molecules.
+- [W6.6] The cell membrane is composed of proteins and lipids, and this structure provides properties essential for physiological cell function such as deformability and stability of the blood cell while traversing the circulatory system and specifically the capillary network.
+- [W6.7] In humans, mature red blood cells are flexible biconcave disks.
+- [W6.8] They lack a cell nucleus (which is expelled during development) and organelles, to accommodate maximum space for hemoglobin; they can be viewed as sacks of hemoglobin, with a plasma membrane as the sack.
+- [W6.9] Approximately 2.4 million new erythrocytes are produced per second in human adults.
+- [W6.10] The cells develop in the bone marrow and circulate for about 100–120 days in the body before their components are recycled by macrophages.
+- [W6.11] The average circulation time is about 60 seconds (one minute).
+- [W6.12] Approximately 84% of the cells in the human body are the 20–30 trillion red blood cells.
+- [W6.13] Nearly half of the blood's volume (40% to 45%) is red blood cells.
+- [W6.14] Packed red blood cells are red blood cells that have been donated, processed, and stored in a blood bank for blood transfusion.
+- [W6.15] The vast majority of vertebrates, including mammals and humans, have red blood cells.
+- [W6.16] These erythrocytes are cells present in blood to transport oxygen.
+- [W6.17] The only known vertebrates without red blood cells are the crocodile icefish (family Channichthyidae); they live in very oxygen-rich cold water and transport oxygen freely dissolved in their blood.
+- [W6.18] While they no longer use hemoglobin, remnants of hemoglobin genes can be found in their genome.
+- [W6.19] Vertebrate red blood cells consist mainly of hemoglobin, a complex metalloprotein containing heme groups whose iron atoms temporarily bind to oxygen molecules (O2) in the lungs or gills and release them throughout the body.
+- [W6.20] Oxygen can easily diffuse through the erythrocyte's cell membrane.
+- [W6.21] Hemoglobin in the red blood cells also carries some of the waste product carbon dioxide back from the tissues; most waste carbon dioxide, however, is transported back to the pulmonary capillaries of the lungs as bicarbonate (HCO3−) dissolved in the blood plasma.
+- [W6.22] Myoglobin, a compound related to hemoglobin, acts to store oxygen in muscle cells.
+- [W6.23] The color of red blood cells is due to the heme group of hemoglobin.
+- [W6.24] The blood plasma alone is straw-colored, but the red blood cells change color depending on the state of the hemoglobin: when combined with oxygen the resulting oxyhemoglobin is scarlet, and when oxygen has been released the resulting deoxyhemoglobin is of a dark red burgundy color.
+- [W6.25] However, blood can appear bluish when seen through the vessel wall and skin.
+- [W6.26] Pulse oximetry takes advantage of the hemoglobin color change to directly measure the arterial blood oxygen saturation using colorimetric techniques.
+- [W6.27] Hemoglobin also has a very high affinity for carbon monoxide, forming carboxyhemoglobin which is a very bright red in color.
+- [W6.28] Flushed, confused patients with a saturation reading of 100% on pulse oximetry are sometimes found to be suffering from carbon monoxide poisoning.
+- [W6.29] Having oxygen-carrying proteins inside specialized cells (as opposed to oxygen carriers being dissolved in body fluid) was an important step in the evolution of vertebrates as it allows for less viscous blood, higher concentrations of oxygen, and better diffusion of oxygen from the blood to the tissues.
+- [W6.30] The size of red blood cells varies widely among vertebrate species; red blood cell width is on average about 25% larger than capillary diameter, and it has been hypothesized that this improves the oxygen transfer from red blood cells to tissues.
+- [W6.31] The red blood cells of mammals are typically shaped as biconcave disks: flattened and depressed in the center, with a dumbbell-shaped cross section, and a torus-shaped rim on the edge of the disk.
+- [W6.32] This shape allows for a high surface-area-to-volume (SA/V) ratio to facilitate diffusion of gases.
+- [W6.33] However, there are some exceptions concerning shape in the artiodactyl order (even-toed ungulates including cattle, deer, and their relatives), which displays a wide variety of bizarre red blood cell morphologies: small and highly ovaloid cells in llamas and camels (family Camelidae), tiny spherical cells in mouse deer (family Tragulidae), and cells which assume fusiform, lanceolate, crescentic, and irregularly polygonal and other angular forms in red deer and wapiti (family Cervidae).
+- [W6.34] Members of this order have clearly evolved a mode of red blood cell development substantially different from the mammalian norm.
+- [W6.35] Overall, mammalian red blood cells are remarkably flexible and deformable so as to squeeze through tiny capillaries, as well as to maximize their apposing surface by assuming a cigar shape, where they efficiently release their oxygen load.
+- [W6.36] Red blood cells in mammals are unique amongst vertebrates as most species do not have nuclei when mature.
+- [W6.37] They do have nuclei during early phases of erythropoiesis, but extrude them during development as they mature; this provides more space for hemoglobin.
+- [W6.38] The red blood cells without nuclei, called reticulocytes, subsequently lose all other cellular organelles such as their mitochondria, Golgi apparatus and endoplasmic reticulum.
+- [W6.39] The spleen acts as a reservoir of red blood cells, but this effect is somewhat limited in humans.
+- [W6.40] In some other mammals such as dogs and horses, the spleen sequesters large numbers of red blood cells, which are dumped into the blood during times of exertion stress, yielding a higher oxygen transport capacity.
+- [W6.41] A typical human red blood cell has a disk diameter of approximately 6.2–8.2 μm and a maximum thickness of 2–2.5 μm and a minimum thickness in the centre of 0.8–1 μm, being much smaller than most other human cells.
+- [W6.42] These cells have an average volume of about 90 fL with a surface area of about 136 μm2, and can swell up to a sphere shape containing 150 fL, without membrane distension.
+- [W6.43] Adult humans have roughly 20–30 trillion red blood cells at any given time, constituting approximately 70% of all cells by number.
+- [W6.44] Women have about 4–5 million red blood cells per microliter (cubic millimeter) of blood and men about 5–6 million; people living at high altitudes with low oxygen tension will have more.
+- [W6.45] Red blood cells are thus much more common than the other blood particles: there are about 4,000–11,000 white blood cells and about 150,000–400,000 platelets per microliter.
+- [W6.46] Human red blood cells take on average 60 seconds to complete one cycle of circulation.
+- [W6.47] The blood's red color is due to the spectral properties of the hemic iron ions in hemoglobin.
+- [W6.48] Each hemoglobin molecule carries four heme groups; hemoglobin constitutes about a third of the total cell volume.
+- [W6.49] Hemoglobin is responsible for the transport of more than 98% of the oxygen in the body (the remaining oxygen is carried dissolved in the blood plasma).
+- [W6.50] The red blood cells of an average adult human male store collectively about 2.5 grams of iron, representing about 65% of the total iron contained in the body.
+- [W6.51] Red blood cells in mammals are anucleate when mature, meaning that they lack a cell nucleus.
+- [W6.52] In comparison, the red blood cells of other vertebrates have nuclei; the only known exceptions are salamanders of the family Plethodontidae, where five different clades has evolved various degrees of enucleated red blood cells (most evolved in some species of the genus Batrachoseps), and fish of the genus Maurolicus.
+- [W6.53] The elimination of the nucleus in vertebrate red blood cells has been offered as an explanation for the subsequent accumulation of non-coding DNA in the genome.
+- [W6.54] The argument runs as follows: Efficient gas transport requires red blood cells to pass through very narrow capillaries, and this constrains their size.
+- [W6.55] In the absence of nuclear elimination, the accumulation of repeat sequences is constrained by the volume occupied by the nucleus, which increases with genome size.
+- [W6.56] Nucleated red blood cells in mammals consist of two forms: normoblasts, which are normal erythropoietic precursors to mature red blood cells, and megaloblasts, which are abnormally large precursors that occur in megaloblastic anemias.
+- [W6.57] Red blood cells are deformable, flexible, are able to adhere to other cells, and are able to interface with immune cells.
+- [W6.58] Their membrane plays many roles in this.
+- [W6.59] These functions are highly dependent on the membrane composition.
+- [W6.60] The red blood cell membrane is composed of 3 layers: the glycocalyx on the exterior, which is rich in carbohydrates; the lipid bilayer which contains many transmembrane proteins, besides its lipidic main constituents; and the membrane skeleton, a structural network of proteins located on the inner surface of the lipid bilayer.
+- [W6.61] Half of the membrane mass in human and most mammalian red blood cells are proteins.
+- [W6.62] The other half are lipids, namely phospholipids and cholesterol.
+- [W6.63] The red blood cell membrane comprises a typical lipid bilayer, similar to what can be found in virtually all human cells.
+- [W6.64] Simply put, this lipid bilayer is composed of cholesterol and phospholipids in equal proportions by weight.
+- [W6.65] The lipid composition is important as it defines many physical properties such as membrane permeability and fluidity.
+- [W6.66] Additionally, the activity of many membrane proteins is regulated by interactions with lipids in the bilayer.
+- [W6.67] Unlike cholesterol, which is evenly distributed between the inner and outer leaflets, the 5 major phospholipids are asymmetrically disposed, as shown below:
+- [W6.68] Phosphatidylethanolamine (PE);
+- [W6.69] Phosphoinositol (PI) (small amounts).
+- [W6.70] This asymmetric phospholipid distribution among the bilayer is the result of the function of several energy-dependent and energy-independent phospholipid transport proteins.
+- [W6.71] Proteins called "Flippases" move phospholipids from the outer to the inner monolayer, while others called "floppases" do the opposite operation, against a concentration gradient in an energy-dependent manner.
+- [W6.72] Additionally, there are also "scramblase" proteins that move phospholipids in both directions at the same time, down their concentration gradients in an energy-independent manner.
+- [W6.73] There is still considerable debate ongoing regarding the identity of these membrane maintenance proteins in the red cell membrane.
+- [W6.74] The maintenance of an asymmetric phospholipid distribution in the bilayer (such as an exclusive localization of PS and PIs in the inner monolayer) is critical for the cell integrity and function due to several reasons:
+- [W6.75] Macrophages recognize and phagocytose red cells that expose PS at their outer surface.
+- [W6.76] Thus the confinement of PS in the inner monolayer is essential if the cell is to survive its frequent encounters with macrophages of the reticuloendothelial system, especially in the spleen.
+- [W6.77] Premature destruction of thallassemic and sickle red cells has been linked to disruptions of lipid asymmetry leading to exposure of PS on the outer monolayer.
+- [W6.78] An exposure of PS can potentiate adhesion of red cells to vascular endothelial cells, effectively preventing normal transit through the microvasculature.
+- [W6.79] Thus it is important that PS is maintained only in the inner leaflet of the bilayer to ensure normal blood flow in microcirculation.
+- [W6.80] Both PS and phosphatidylinositol 4,5-bisphosphate (PIP2) can regulate membrane mechanical function, due to their interactions with skeletal proteins such as spectrin and protein 4.1R.
+- [W6.81] Recent studies have shown that binding of spectrin to PS promotes membrane mechanical stability.
+- [W6.82] PIP2 enhances the binding of protein band 4.1R to glycophorin C but decreases its interaction with protein band 3, and thereby may modulate the linkage of the bilayer to the membrane skeleton.
+- [W6.83] The presence of specialized structures named "lipid rafts" in the red blood cell membrane have been described by recent studies.
+- [W6.84] These are structures enriched in cholesterol and sphingolipids associated with specific membrane proteins, namely flotillins, STOMatins (band 7), G-proteins, and β-adrenergic receptors.
+- [W6.85] Lipid rafts that have been implicated in cell signaling events in nonerythroid cells have been shown in erythroid cells to mediate β2-adregenic receptor signaling and increase cAMP levels, and thus regulating entry of malarial parasites into normal red cells.
+- [W6.86] The proteins of the membrane skeleton are responsible for the deformability, flexibility and durability of the red blood cell, enabling it to squeeze through capillaries less than half the diameter of the red blood cell (7–8 μm) and recovering the discoid shape as soon as these cells stop receiving compressive forces, in a similar fashion to an object made of rubber.
+- [W6.87] There are currently more than 50 known membrane proteins, which can exist in a few hundred up to a million copies per red blood cell.
+- [W6.88] Approximately 25 of these membrane proteins carry the various blood group antigens, such as the A, B and Rh antigens, among many others.
+- [W6.89] These membrane proteins can perform a wide diversity of functions, such as transporting ions and molecules across the red cell membrane, adhesion and interaction with other cells such as endothelial cells, as signaling receptors, as well as other currently unknown functions.
+- [W6.90] The blood types of humans are due to variations in surface glycoproteins of red blood cells.
+- [W6.91] Disorders of the proteins in these membranes are associated with many disorders, such as hereditary spherocytosis, hereditary elliptocytosis, hereditary stomatocytosis, and paroxysmal nocturnal hemoglobinuria.
+- [W6.92] The red blood cell membrane proteins organized according to their function:
+- [W6.93] Band 3 – Anion transporter, also an important structural component of the red blood cell membrane, makes up to 25% of the cell membrane surface, each red cell contains approximately one million copies.
+- [W6.94] Defines the Diego Blood Group;
+- [W6.95] Aquaporin 1 – water transporter, defines the Colton Blood Group;
+- [W6.96] Glut1 – glucose and L-dehydroascorbic acid transporter;
+- [W6.97] MCT1 – Monocarboxylate transporter for exporting Lactic acid to the liver.
+- [W6.98] Kidd antigen protein – urea transporter;
+- [W6.99] RHAG – gas transporter, probably of carbon dioxide, defines Rh Blood Group and the associated unusual blood group phenotype Rhnull;
+- [W6.100] Na+ K+ 2Cl− – cotransporter;
+- [W6.101] ICAM-4 – interacts with integrins;
+- [W6.102] BCAM  – a glycoprotein that defines the Lutheran blood group and also known as Lu or laminin-binding protein.
+- [W6.103] Structural role – The following membrane proteins establish linkages with skeletal proteins and may play an important role in regulating cohesion between the lipid bilayer and membrane skeleton, likely enabling the red cell to maintain its favorable membrane surface area by preventing the membrane from collapsing (vesiculating).
+- [W6.104] Ankyrin-based macromolecular complex – proteins linking the bilayer to the membrane skeleton through the interaction of their cytoplasmic domains with Ankyrin.
+- [W6.105] Band 3 – also assembles various glycolytic enzymes, the presumptive CO2 transporter, and carbonic anhydrase into a macromolecular complex termed a "metabolon", which may play a key role in regulating red cell metabolism and ion and gas transport function.
+- [W6.106] RHAG – also involved in transport, defines associated unusual blood group phenotype Rhmod.
+- [W6.107] Protein 4.1R-based macromolecular complex – proteins interacting with Protein 4.1R.
+- [W6.108] Protein 4.1R – weak expression of Gerbich antigens;
+- [W6.109] Glycophorin C and D – glycoprotein, defines Gerbich Blood Group;
+- [W6.110] XK – defines the Kell Blood Group and the Mcleod unusual phenotype (lack of Kx antigen and greatly reduced expression of Kell antigens);
+- [W6.111] RhD/RhCE – defines Rh Blood Group and the associated unusual blood group phenotype Rhnull;
+- [W6.112] Duffy protein – has been proposed to be associated with chemokine clearance;
+- [W6.113] Adducin – interaction with band 3;
+- [W6.114] Dematin- interaction with the Glut1 glucose transporter.
+- [W6.115] Surface electrostatic potential
+- [W6.116] The zeta potential is an electrochemical property of cell surfaces that is determined by the net electrical charge of molecules exposed at the surface of cell membranes of the cell.
+- [W6.117] The normal zeta potential of the red blood cell is −15.7 millivolts (mV).
+- [W6.118] Much of this potential appears to be contributed by the exposed sialic acid residues in the membrane: their removal results in zeta potential of −6.06 mV.
+- [W6.119] Recall that respiration, as illustrated schematically here with a unit of carbohydrate, produces about as many molecules of carbon dioxide, CO2, as it consumes of oxygen, O2.
+- [W6.120] {\displaystyle {\ce {HCOH + O2 -> CO2 + H2O}}}
+- [W6.121] Thus, the function of the circulatory system is as much about the transport of carbon dioxide as about the transport of oxygen.
+- [W6.122] As stated elsewhere in this article, most of the carbon dioxide in the blood is in the form of bicarbonate ion.
+- [W6.123] The bicarbonate provides a critical pH buffer.
+- [W6.124] Thus, unlike hemoglobin for O2 transport, there is a physiological advantage to not having a specific CO2 transporter molecule.
+- [W6.125] Red blood cells, nevertheless, play a key role in the CO2 transport process, for two reasons.
+- [W6.126] First, because, besides hemoglobin, they contain a large number of copies of the enzyme carbonic anhydrase on the inside of their cell membrane.
+- [W6.127] Carbonic anhydrase, as its name suggests, acts as a catalyst of the exchange between carbonic acid and carbon dioxide (which is the anhydride of carbonic acid).
+- [W6.128] Because it is a catalyst, it can affect many CO2 molecules, so it performs its essential role without needing as many copies as are needed for O2 transport by hemoglobin.
+- [W6.129] In the presence of this catalyst carbon dioxide and carbonic acid reach an equilibrium very rapidly, while the red cells are still moving through the capillary.
+- [W6.130] Thus it is the RBC that ensures that most of the CO2 is transported as bicarbonate.
+- [W6.131] At physiological pH the equilibrium strongly favors carbonic acid, which is mostly dissociated into bicarbonate ion.
+- [W6.132] {\displaystyle {\ce {CO2 + H2O <=>> H2CO3 <=>> HCO3- + H+}}}
+- [W6.133] The H+ ions released by this rapid reaction within RBC, while still in the capillary, act to reduce the oxygen binding affinity of hemoglobin, the Bohr effect.
+- [W6.134] The second major contribution of RBC to carbon dioxide transport is that carbon dioxide directly reacts with globin protein components of hemoglobin to form carbaminohemoglobin compounds.
+- [W6.135] As oxygen is released in the tissues, more CO2 binds to hemoglobin, and as oxygen binds in the lung, it displaces the hemoglobin bound CO2, this is called the Haldane effect.
+- [W6.136] Despite the fact that only a small amount of the CO2 in blood is bound to hemoglobin in venous blood, a greater proportion of the change in CO2 content between venous and arterial blood comes from the change in this bound CO2.
+- [W6.137] That is, there is always an abundance of bicarbonate in blood, both venous and arterial, because of its aforementioned role as a pH buffer.
+- [W6.138] In summary, carbon dioxide produced by cellular respiration diffuses very rapidly to areas of lower concentration, specifically into nearby capillaries.
+- [W6.139] When it diffuses into a RBC, CO2 is rapidly converted by the carbonic anhydrase found on the inside of the RBC membrane into bicarbonate ion.
+- [W6.140] The bicarbonate ions in turn leave the RBC in exchange for chloride ions from the plasma, facilitated by the band 3 anion transport protein colocated in the RBC membrane.
+- [W6.141] The bicarbonate ion does not diffuse back out of the capillary, but is carried to the lung.
+- [W6.142] In the lung the lower partial pressure of carbon dioxide in the alveoli causes carbon dioxide to diffuse rapidly from the capillary into the alveoli.
+- [W6.143] The carbonic anhydrase in the red cells keeps the bicarbonate ion in equilibrium with carbon dioxide.
+- [W6.144] So as carbon dioxide leaves the capillary, and CO2 is displaced by O2 on hemoglobin, sufficient bicarbonate ion converts rapidly to carbon dioxide to maintain the equilibrium.
+- [W6.145] When red blood cells undergo shear stress in constricted vessels, they release ATP, which causes the vessel walls to relax and dilate so as to promote normal blood flow.
+- [W6.146] When their hemoglobin molecules are deoxygenated, red blood cells release S-Nitrosothiols, which also act to dilate blood vessels, thus directing more blood to areas of the body depleted of oxygen.
+- [W6.147] Red blood cells can also synthesize nitric oxide enzymatically, using L-arginine as substrate, as do endothelial cells.
+- [W6.148] Exposure of red blood cells to physiological levels of shear stress activates nitric oxide synthase and export of nitric oxide, which may contribute to the regulation of vascular tonus.
+- [W6.149] Red blood cells can also produce hydrogen sulfide, a signalling gas that acts to relax vessel walls.
+- [W6.150] It is believed that the cardioprotective effects of garlic are due to red blood cells converting its sulfur compounds into hydrogen sulfide.
+- [W6.151] Red blood cells also play a part in the body's immune response: when lysed by pathogens such as bacteria, their hemoglobin releases free radicals, which break down the pathogen's cell wall and membrane, killing it.
+- [W6.152] As a result of not containing mitochondria, red blood cells use none of the oxygen they transport; instead they produce the energy carrier ATP by the glycolysis of glucose and lactic acid fermentation on the resulting pyruvate.
+- [W6.153] Furthermore, the pentose phosphate pathway plays an important role in red blood cells; see glucose-6-phosphate dehydrogenase deficiency for more information.
+- [W6.154] As red blood cells contain no nucleus, protein biosynthesis is currently assumed to be absent in these cells.
+- [W6.155] Because of the lack of nuclei and organelles, mature red blood cells do not contain DNA and cannot synthesize any RNA (although it does contain RNAs), and consequently cannot divide and have limited repair capabilities.
+- [W6.156] The inability to carry out protein synthesis means that no virus can evolve to target mammalian red blood cells.
+- [W6.157] However, infection with parvoviruses (such as human parvovirus B19) can affect erythroid precursors while they still have DNA, as recognized by the presence of giant pronormoblasts with viral particles and inclusion bodies, thus temporarily depleting the blood of reticulocytes and causing anemia.
+- [W6.158] Human red blood cells are produced through a process named erythropoiesis, developing from committed stem cells to mature red blood cells in about 7 days.
+- [W6.159] When matured, in a healthy individual these cells live in blood circulation for about 100 to 120 days (and 80 to 90 days in a full term infant).
+- [W6.160] At the end of their lifespan, they are removed from circulation.
+- [W6.161] In many chronic diseases, the lifespan of the red blood cells is reduced.
+- [W6.162] Erythropoiesis is the process by which new red blood cells are produced; it lasts about 7 days.
+- [W6.163] Through this process red blood cells are continuously produced in the red bone marrow of large bones.
+- [W6.164] (In the embryo, the liver is the main site of red blood cell production.) The production can be stimulated by the hormone erythropoietin (EPO), synthesised by the kidney.
+- [W6.165] Just before and after leaving the bone marrow, the developing cells are known as reticulocytes; these constitute about 1% of circulating red blood cells.
+- [W6.166] The functional lifetime of a red blood cell is about 100–120 days, during which time the red blood cells are continually moving in the circulatory system.
+- [W6.167] The aging red blood cell undergoes changes in its plasma membrane, making it susceptible to selective recognition by macrophages and subsequent phagocytosis in the mononuclear phagocyte system (spleen, liver and lymph nodes), thus removing old and defective cells and continually purging the blood.
+- [W6.168] This process is termed eryptosis, red blood cell programmed death.
+- [W6.169] This process normally occurs at the same rate of production by erythropoiesis, balancing the total circulating red blood cell count.
+- [W6.170] Eryptosis is increased in a wide variety of diseases including sepsis, haemolytic uremic syndrome, malaria, sickle cell anemia, beta-thalassemia, glucose-6-phosphate dehydrogenase deficiency, phosphate depletion, iron deficiency and Wilson's disease.
+- [W6.171] Eryptosis can be elicited by osmotic shock, oxidative stress, and energy depletion, as well as by a wide variety of endogenous mediators and xenobiotics.
+- [W6.172] Excessive eryptosis is observed in red blood cells lacking the cGMP-dependent protein kinase type I or the AMP-activated protein kinase AMPK.
+- [W6.173] Inhibitors of eryptosis include erythropoietin, nitric oxide, catecholamines and high concentrations of urea.
+- [W6.174] Much of the resulting breakdown products are recirculated in the body.
+- [W6.175] The heme constituent of hemoglobin are broken down into iron (Fe3+) and biliverdin.
+- [W6.176] The biliverdin is reduced to bilirubin, which is released into the plasma and recirculated to the liver bound to albumin.
+- [W6.177] The iron is released into the plasma to be recirculated by a carrier protein called transferrin.
+- [W6.178] Almost all red blood cells are removed in this manner from the circulation before they are old enough to hemolyze.
+- [W6.179] Hemolyzed hemoglobin is bound to a protein in plasma called haptoglobin, which is not excreted by the kidney.
+- [W6.180] Blood diseases involving the red blood cells include:
+- [W6.181] Anemias (or anaemias) are diseases characterized by low oxygen transport capacity of the blood, because of low red cell count or some abnormality of the red blood cells or the hemoglobin.
+- [W6.182] Iron deficiency anemia is the most common anemia; it occurs when the dietary intake or absorption of iron is insufficient, and hemoglobin, which contains iron, cannot be formed.
+- [W6.183] Pernicious anemia is an autoimmune disease wherein the body lacks intrinsic factor, required to absorb vitamin B12 from food.
+- [W6.184] Vitamin B12 is needed for the production of red blood cells and hemoglobin.
+- [W6.185] Sickle-cell disease is a genetic disease that results in abnormal hemoglobin molecules.
+- [W6.186] When these release their oxygen load in the tissues, they become insoluble, leading to mis-shaped red blood cells.
+- [W6.187] These sickle shaped red cells are less deformable and viscoelastic, meaning that they have become rigid and can cause blood vessel blockage, pain, strokes, and other tissue damage.
+- [W6.188] Thalassemia is a genetic disease that results in the production of an abnormal ratio of hemoglobin subunits.
+- [W6.189] Hereditary spherocytosis syndromes are a group of inherited disorders characterized by defects in the red blood cell's cell membrane, causing the cells to be small, sphere-shaped, and fragile instead of donut-shaped and flexible.
+- [W6.190] These abnormal red blood cells are destroyed by the spleen.
+- [W6.191] Several other hereditary disorders of the red blood cell membrane are known.
+- [W6.192] Aplastic anemia is caused by the inability of the bone marrow to produce blood cells.
+- [W6.193] Pure red cell aplasia is caused by the inability of the bone marrow to produce only red blood cells.
+- [W6.194] Hemolysis is the general term for excessive breakdown of red blood cells.
+- [W6.195] It can have several causes and can result in hemolytic anemia.
+- [W6.196] The malaria parasite spends part of its life-cycle in red blood cells, feeds on their hemoglobin and then breaks them apart, causing fever.
+- [W6.197] Both sickle-cell disease and thalassemia are more common in malaria areas, because these mutations convey some protection against the parasite.
+- [W6.198] Polycythemias (or erythrocytoses) are diseases characterized by a surplus of red blood cells.
+- [W6.199] The increased viscosity of the blood can cause a number of symptoms.
+- [W6.200] In polycythemia vera the increased number of red blood cells results from an abnormality in the bone marrow.
+- [W6.201] Several microangiopathic diseases, including disseminated intravascular coagulation and thrombotic microangiopathies, present with pathognomonic (diagnostic) red blood cell fragments called schistocytes.
+- [W6.202] These pathologies generate fibrin strands that sever red blood cells as they try to move past a thrombus.
+- [W6.203] Red blood cells may be given as part of a blood transfusion.
+- [W6.204] Blood may be donated from another person, or stored by the recipient at an earlier date.
+- [W6.205] Donated blood usually requires screening to ensure that donors do not contain risk factors for the presence of blood-borne diseases, or will not suffer themselves by giving blood.
+- [W6.206] Blood is usually collected and tested for common or serious blood-borne diseases including Hepatitis B, Hepatitis C and HIV.
+- [W6.207] The blood type (A, B, AB, or O) or the blood product is identified and matched with the recipient's blood to minimise the likelihood of acute hemolytic transfusion reaction, a type of transfusion reaction.
+- [W6.208] This relates to the presence of antigens on the cell's surface.
+- [W6.209] After this process, the blood is stored, and within a short duration is used.
+- [W6.210] Blood can be given as a whole product or the red blood cells separated as packed red blood cells.
+- [W6.211] Blood is often transfused when there is known anaemia, active bleeding, or when there is an expectation of serious blood loss, such as prior to an operation.
+- [W6.212] Before blood is given, a small sample of the recipient's blood is tested with the transfusion in a process known as cross-matching.
+- [W6.213] In 2008 it was reported that human embryonic stem cells had been successfully coaxed into becoming red blood cells in the lab.
+- [W6.214] The difficult step was to induce the cells to eject their nucleus; this was achieved by growing the cells on stromal cells from the bone marrow.
+- [W6.215] It is hoped that these artificial red blood cells can eventually be used for blood transfusions.
+- [W6.216] A human trial is conducted in 2022, using blood cultured from stem cells obtained from donor blood.
+- [W6.217] Several blood tests involve red blood cells.
+- [W6.218] These include a RBC count (the number of red blood cells per volume of blood), calculation of the hematocrit (percentage of blood volume occupied by red blood cells), and the erythrocyte sedimentation rate.
+- [W6.219] The blood type needs to be determined to prepare for a blood transfusion or an organ transplantation.
+- [W6.220] Many diseases involving red blood cells are diagnosed with a blood film (or peripheral blood smear), where a thin layer of blood is smeared on a microscope slide.
+- [W6.221] This may reveal poikilocytosis, which are variations in red blood cell shape.
+- [W6.222] When red blood cells sometimes occur as a stack, flat side next to flat side.
+- [W6.223] This is known as rouleaux formation, and it occurs more often if the levels of certain serum proteins are elevated, as for instance during inflammation.
+- [W6.224] Separation and blood doping
+- [W6.225] Red blood cells can be obtained from whole blood by centrifugation, which separates the cells from the blood plasma in a process known as blood fractionation.
+- [W6.226] Packed red blood cells, which are made in this way from whole blood with the plasma removed, are used in transfusion medicine.
+- [W6.227] During plasma donation, the red blood cells are pumped back into the body right away and only the plasma is collected.
+- [W6.228] Some athletes have tried to improve their performance by blood doping: first about 1 litre of their blood is extracted, then the red blood cells are isolated, frozen and stored, to be reinjected shortly before the competition.
+- [W6.229] (Red blood cells can be conserved for 5 weeks at −79 °C or −110 °F, or over 10 years using cryoprotectants) This practice is hard to detect but may endanger the human cardiovascular system which is not equipped to deal with blood of the resulting higher viscosity.
+- [W6.230] Another method of blood doping involves injection with erythropoietin to stimulate production of red blood cells.
+- [W6.231] Both practices are banned by the World Anti-Doping Agency.
+- [W6.232] The first person to describe red blood cells was the young Dutch biologist Jan Swammerdam, who had used an early microscope in 1658 to study the blood of a frog.
+- [W6.233] Unaware of this work, Anton van Leeuwenhoek provided another microscopic description in 1674, this time providing a more precise description of red blood cells, even approximating their size, "25,000 times smaller than a fine grain of sand".
+- [W6.234] In the 1740s, Vincenzo Menghini in Bologna was able to demonstrate the presence of iron by passing magnets over the powder or ash remaining from heated red blood cells.
+- [W6.235] In 1901, Karl Landsteiner published his discovery of the three main blood groups—A, B, and C (which he later renamed to O).
+- [W6.236] Landsteiner described the regular patterns in which reactions occurred when serum was mixed with red blood cells, thus identifying compatible and conflicting combinations between these blood groups.
+- [W6.237] A year later Alfred von Decastello and Adriano Sturli, two colleagues of Landsteiner, identified a fourth blood group—AB.
+- [W6.238] In 1959, by use of X-ray crystallography, Max Perutz was able to unravel the structure of hemoglobin, the red blood cell protein that carries oxygen.
+- [W6.239] The oldest intact red blood cells ever discovered were found in Ötzi the Iceman, a natural mummy of a man who died around 3255 BCE.
+- [W6.240] These cells were discovered in May 2012.
+- [W6.241] List of distinct cell types in the adult human body
+- [W6.242] Blood Groups and Red Cell Antigens by Laura Dean.
+- [W6.243] Searchable and downloadable online textbook in the public domain.
+- [W6.244] Database of vertebrate erythrocyte sizes Archived 5 July 2008 at the Wayback Machine.
+- [W6.245] Red Gold[link removed], PBS site containing facts and history
+
+## [W7] Wikipedia: Insulin
+https://en.wikipedia.org/w/index.php?title=Insulin&oldid=1380889447 · CC BY-SA 4.0 · usage: ai_input
+
+- [W7.1] Insulin ( ; from Latin  insula 'island') is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin (INS) gene.
+- [W7.2] It is the main anabolic hormone of the body.
+- [W7.3] It regulates the metabolism of carbohydrates, fats, and protein by promoting the absorption of glucose from the blood into cells of the liver, fat, and skeletal muscles.
+- [W7.4] In these tissues the absorbed glucose is converted into either glycogen, via glycogenesis, or fats (triglycerides), via lipogenesis; in the liver, glucose is converted into both.
+- [W7.5] Glucose production and secretion by the liver are strongly inhibited by high concentrations of insulin in the blood.
+- [W7.6] Circulating insulin also affects the synthesis of proteins in a wide variety of tissues.
+- [W7.7] It is thus an anabolic hormone, promoting the conversion of small molecules in the blood into large molecules in the cells.
+- [W7.8] Low insulin in the blood has the opposite effect, promoting widespread catabolism, especially of reserve body fat.
+- [W7.9] Beta cells are sensitive to blood sugar levels so that they secrete insulin into the blood in response to high level of glucose, and inhibit secretion of insulin when glucose levels are low.
+- [W7.10] Insulin enhances glucose uptake and metabolism in the cells, thereby reducing blood sugar.
+- [W7.11] Neighboring alpha cells, taking their cue from the beta cells, secrete glucagon into the blood in the opposite manner: increased secretion when blood glucose is low, and decreased secretion when glucose concentrations are high.
+- [W7.12] Glucagon increases blood glucose by stimulating glycogenolysis and gluconeogenesis in the liver.
+- [W7.13] The secretion of insulin and glucagon into the blood in response to the blood glucose concentration is the primary mechanism of glucose homeostasis.
+- [W7.14] Decreased or absent insulin activity results in diabetes, a condition of high blood sugar level (hyperglycaemia).
+- [W7.15] There are two types of the disease.
+- [W7.16] In type 1 diabetes, the beta cells are destroyed by an autoimmune reaction so that insulin can no longer be synthesized or be secreted into the blood.
+- [W7.17] In type 2 diabetes, the destruction of beta cells is less pronounced than in type 1, and is not due to an autoimmune process.
+- [W7.18] Instead, there is an accumulation of amyloid in the pancreatic islets, which likely disrupts their anatomy and physiology.
+- [W7.19] The pathogenesis of type 2 diabetes is not well understood but reduced population of islet beta-cells, reduced secretory function of islet beta-cells that survive, and peripheral tissue insulin resistance are known to be involved.
+- [W7.20] Type 2 diabetes is characterized by increased glucagon secretion which is unaffected by, and unresponsive to the concentration of blood glucose.
+- [W7.21] However, insulin is still secreted into the blood in response to the blood glucose.
+- [W7.22] As a result, glucose accumulates in the blood.
+- [W7.23] The human insulin protein is composed of 51 amino acids, and has a molecular mass of 5808 Da.
+- [W7.24] It is a heterodimer of an A-chain and a B-chain, which are linked together by disulfide bonds.
+- [W7.25] Insulin's structure varies slightly between species of animals.
+- [W7.26] Insulin from non-human animal sources differs somewhat in effectiveness (in carbohydrate metabolism effects) from human insulin because of these variations.
+- [W7.27] Porcine insulin is especially close to the human version, and was widely used to treat type 1 diabetics before human insulin could be produced in large quantities by recombinant DNA technologies.
+- [W7.28] Insulin was the first peptide hormone discovered.
+- [W7.29] Frederick Banting and Charles Best, working in the laboratory of John Macleod at the University of Toronto, were the first to isolate insulin from dog pancreas in 1921.
+- [W7.30] Frederick Sanger sequenced the amino acid structure in 1951, which made insulin the first protein to be fully sequenced.
+- [W7.31] The crystal structure of insulin in the solid state was determined by Dorothy Hodgkin in 1969.
+- [W7.32] Insulin is also the first protein to be chemically synthesised and produced by DNA recombinant technology.
+- [W7.33] It is on the WHO Model List of Essential Medicines, the most important medications needed in a basic health system.
+- [W7.34] Evolution and species distribution
+- [W7.35] Insulin may have originated more than a billion years ago.
+- [W7.36] The molecular origins of insulin go at least as far back as the simplest unicellular eukaryotes.
+- [W7.37] Apart from animals, insulin-like proteins are also known to exist in fungi and protists.
+- [W7.38] Insulin is produced by beta cells of the pancreatic islets in most vertebrates and by the Brockmann body in some teleost fish.
+- [W7.39] Cone snails: Conus geographus and Conus tulipa, venomous sea snails that hunt small fish, use modified forms of insulin in their venom cocktails.
+- [W7.40] The insulin toxin, closer in structure to fishes' than to snails' native insulin, slows down the prey fishes by lowering their blood glucose levels.
+- [W7.41] Insulin is produced exclusively in the beta cells of the pancreatic islets in mammals, and the Brockmann body in some fish.
+- [W7.42] Human insulin is produced from the INS gene, located on chromosome 11.
+- [W7.43] Rodents have two functional insulin genes; one is the homolog of most mammalian genes (Ins2), and the other is a retroposed copy that includes promoter sequence but that is missing an intron (Ins1).
+- [W7.44] Transcription of the insulin gene increases in response to elevated blood glucose.
+- [W7.45] This is primarily controlled by transcription factors that bind enhancer sequences in the ~400 base pairs before the gene's transcription start site.
+- [W7.46] The major transcription factors influencing insulin secretion are PDX1, NeuroD1, and MafA.
+- [W7.47] During a low-glucose state, PDX1 (pancreatic and duodenal homeobox protein 1) is located in the nuclear periphery as a result of interaction with HDAC1 and 2, which results in downregulation of insulin secretion.
+- [W7.48] An increase in blood glucose levels causes phosphorylation of PDX1, which leads it to undergo nuclear translocation and bind the A3 element within the insulin promoter.
+- [W7.49] Upon translocation it interacts with coactivators HAT p300 and SETD7.
+- [W7.50] PDX1 affects the histone modifications through acetylation and deacetylation as well as methylation.
+- [W7.51] It is also said to suppress glucagon.
+- [W7.52] NeuroD1, also known as β2, regulates insulin exocytosis in pancreatic β cells by directly inducing the expression of genes involved in exocytosis.
+- [W7.53] It is localized in the cytosol, but in response to high glucose it becomes glycosylated by OGT and/or phosphorylated by ERK, which causes translocation to the nucleus.
+- [W7.54] In the nucleus β2 heterodimerizes with E47, binds to the E1 element of the insulin promoter and recruits co-activator p300 which acetylates β2.
+- [W7.55] It is able to interact with other transcription factors as well in activation of the insulin gene.
+- [W7.56] MafA is degraded by proteasomes upon low blood glucose levels.
+- [W7.57] Increased levels of glucose make an unknown protein glycosylated.
+- [W7.58] This protein works as a transcription factor for MafA in an unknown manner and MafA is transported out of the cell.
+- [W7.59] MafA is then translocated back into the nucleus where it binds the C1 element of the insulin promoter.
+- [W7.60] These transcription factors work synergistically and in a complex arrangement.
+- [W7.61] Increased blood glucose can after a while destroy the binding capacities of these proteins, and therefore reduce the amount of insulin secreted, causing diabetes.
+- [W7.62] The decreased binding activities can be mediated by glucose induced oxidative stress and antioxidants are said to prevent the decreased insulin secretion in glucotoxic pancreatic β cells.
+- [W7.63] Stress signalling molecules and reactive oxygen species inhibits the insulin gene by interfering with the cofactors binding the transcription factors and the transcription factors itself.
+- [W7.64] Several regulatory sequences in the promoter region of the human insulin gene bind to transcription factors.
+- [W7.65] In general, the A-boxes bind to Pdx1 factors, E-boxes bind to NeuroD, C-boxes bind to MafA, and cAMP response elements to CREB.
+- [W7.66] There are also silencers that inhibit transcription.
+- [W7.67] Insulin is synthesized as an inactive precursor molecule, a 110 amino acid-long protein called preproinsulin.
+- [W7.68] Preproinsulin is translated directly into the rough endoplasmic reticulum (RER), where its signal peptide is removed by signal peptidase to form proinsulin.
+- [W7.69] As the proinsulin folds, opposite ends of the protein, called the "A-chain" and the "B-chain", are fused together with three disulfide bonds.
+- [W7.70] Folded proinsulin then transits through the Golgi apparatus and is packaged into specialized secretory vesicles, or granules.
+- [W7.71] In the granule, proinsulin is cleaved by proprotein convertase 1/3 and proprotein convertase 2, removing the middle part of the protein, called the "C-peptide".
+- [W7.72] Finally, carboxypeptidase E removes two pairs of amino acids from the protein's ends, resulting in active insulin – the insulin A- and B- chains, now connected with two disulfide bonds.
+- [W7.73] The resulting mature insulin is packaged inside mature granules waiting for metabolic signals (such as leucine, arginine, glucose and mannose) and vagal nerve stimulation to be exocytosed from the cell into the circulation.
+- [W7.74] Insulin and its related proteins have been shown to be produced inside the brain, and reduced levels of these proteins are linked to Alzheimer's disease.
+- [W7.75] Insulin release is stimulated also by beta-2 receptor stimulation and inhibited by alpha-1 receptor stimulation.
+- [W7.76] In addition, cortisol, glucagon and growth hormone antagonize the actions of insulin during times of stress.
+- [W7.77] Insulin also inhibits fatty acid release by hormone-sensitive lipase in adipose tissue.
+- [W7.78] Contrary to an initial belief that hormones would be generally small chemical molecules, as the first peptide hormone known of its structure, insulin was found to be quite large.
+- [W7.79] A single protein (monomer) of human insulin is composed of 51 amino acids, and has a molecular mass of 5808 Da.
+- [W7.80] The molecular formula of human insulin is C257H383N65O77S6.
+- [W7.81] It is a combination of two peptide chains (dimer) named an A-chain and a B-chain, which are linked together by two disulfide bonds.
+- [W7.82] The A-chain is composed of 21 amino acids, while the B-chain consists of 30 residues.
+- [W7.83] The linking (interchain) disulfide bonds are formed at cysteine residues between the positions A7-B7 and A20-B19.
+- [W7.84] There is an additional (intrachain) disulfide bond within the A-chain between cysteine residues at positions A6 and A11.
+- [W7.85] The A-chain exhibits two α-helical regions at A1-A8 and A12-A19 which are antiparallel; while the B chain has a central α -helix (covering residues B9-B19) flanked by the disulfide bond on both sides and two β-sheets (covering B7-B10 and B20-B23).
+- [W7.86] The amino acid sequence of insulin is strongly conserved and varies only slightly between species.
+- [W7.87] Bovine insulin differs from human in only three amino acid residues, and porcine insulin in one.
+- [W7.88] Even insulin from some species of fish is similar enough to human to be clinically effective in humans.
+- [W7.89] Insulin in some invertebrates is quite similar in sequence to human insulin, and has similar physiological effects.
+- [W7.90] The strong homology seen in the insulin sequence of diverse species suggests that it has been conserved across much of animal evolutionary history.
+- [W7.91] The C-peptide of proinsulin, however, differs much more among species; it is also a hormone, but a secondary one.
+- [W7.92] Insulin is produced and stored in the body as a hexamer (a unit of six insulin molecules), while the active form is the monomer.
+- [W7.93] The hexamer is about 36000 Da in size.
+- [W7.94] The six molecules are linked together as three dimeric units to form symmetrical molecule.
+- [W7.95] An important feature is the presence of zinc atoms (Zn2+) on the axis of symmetry, which are surrounded by three water molecules and three histidine residues at position B10.
+- [W7.96] The hexamer is an inactive form with long-term stability, which serves as a way to keep the highly reactive insulin protected, yet readily available.
+- [W7.97] The hexamer-monomer conversion is one of the central aspects of insulin formulations for injection.
+- [W7.98] The hexamer is far more stable than the monomer, which is desirable for practical reasons; however, the monomer is a much faster-reacting drug because diffusion rate is inversely related to particle size.
+- [W7.99] A fast-reacting drug means insulin injections do not have to precede mealtimes by hours, which in turn gives people with diabetes more flexibility in their daily schedules.
+- [W7.100] Insulin can aggregate and form fibrillar interdigitated beta-sheets.
+- [W7.101] This can cause injection amyloidosis, and prevents the storage of insulin for long periods.
+- [W7.102] Beta cells in the islets of Langerhans release insulin in two phases.
+- [W7.103] The first-phase release is rapidly triggered in response to increased blood glucose levels, and lasts about 10 minutes.
+- [W7.104] The second phase is a sustained, slow release of newly formed vesicles triggered independently of sugar, peaking in 2 to 3 hours.
+- [W7.105] The two phases of the insulin release suggest that insulin granules are present in diverse stated populations or "pools".
+- [W7.106] During the first phase of insulin exocytosis, most of the granules predispose for exocytosis are released after the calcium internalization.
+- [W7.107] This pool is known as Readily Releasable Pool (RRP).
+- [W7.108] The RRP granules represent 0.3-0.7% of the total insulin-containing granule population, and they are found immediately adjacent to the plasma membrane.
+- [W7.109] During the second phase of exocytosis, insulin granules require mobilization of granules to the plasma membrane and a previous preparation to undergo their release.
+- [W7.110] Thus, the second phase of insulin release is governed by the rate at which granules get ready for release.
+- [W7.111] This pool is known as a Reserve Pool (RP).
+- [W7.112] The RP is released slower than the RRP (RRP: 18 granules/min; RP: 6 granules/min).
+- [W7.113] Reduced first-phase insulin release may be the earliest detectable beta cell defect predicting onset of type 2 diabetes.
+- [W7.114] First-phase release and insulin sensitivity are independent predictors of diabetes.
+- [W7.115] The description of first phase release is as follows:
+- [W7.116] Glucose enters the β-cells through the glucose transporters, GLUT 2.
+- [W7.117] At low blood sugar levels little glucose enters the β-cells; at high blood glucose concentrations large quantities of glucose enter these cells.
+- [W7.118] The glucose that enters the β-cell is phosphorylated to glucose-6-phosphate (G-6-P) by glucokinase (hexokinase IV) which is not inhibited by G-6-P in the way that the hexokinases in other tissues (hexokinase I – III) are affected by this product.
+- [W7.119] This means that the intracellular G-6-P concentration remains proportional to the blood sugar concentration.
+- [W7.120] Glucose-6-phosphate enters glycolytic pathway and then, via the pyruvate dehydrogenase reaction, into the Krebs cycle, where multiple, high-energy ATP molecules are produced by the oxidation of acetyl CoA (the Krebs cycle substrate), leading to a rise in the ATP:ADP ratio within the cell.
+- [W7.121] An increased intracellular ATP:ADP ratio closes the ATP-sensitive SUR1/Kir6.2 potassium channel (see sulfonylurea receptor).
+- [W7.122] This prevents potassium ions (K+) from leaving the cell by facilitated diffusion, leading to a buildup of intracellular potassium ions.
+- [W7.123] As a result, the inside of the cell becomes less negative with respect to the outside, leading to the depolarization of the cell surface membrane.
+- [W7.124] Upon depolarization, voltage-gated calcium ion (Ca2+) channels open, allowing calcium ions to move into the cell by facilitated diffusion.
+- [W7.125] The cytosolic calcium ion concentration can also be increased by calcium release from intracellular stores via activation of ryanodine receptors.
+- [W7.126] The calcium ion concentration in the cytosol of the beta cells can also, or additionally, be increased through the activation of phospholipase C resulting from the binding of an extracellular ligand (hormone or neurotransmitter) to a G protein-coupled membrane receptor.
+- [W7.127] Phospholipase C cleaves the membrane phospholipid, phosphatidyl inositol 4,5-bisphosphate, into inositol 1,4,5-trisphosphate and diacylglycerol.
+- [W7.128] Inositol 1,4,5-trisphosphate (IP3) then binds to receptor proteins in the plasma membrane of the endoplasmic reticulum (ER).
+- [W7.129] This allows the release of Ca2+ ions from the ER via IP3-gated channels, which raises the cytosolic concentration of calcium ions independently of the effects of a high blood glucose concentration.
+- [W7.130] Parasympathetic stimulation of the pancreatic islets operates via this pathway to increase insulin secretion into the blood.
+- [W7.131] The significantly increased amount of calcium ions in the cells' cytoplasm causes the release into the blood of previously synthesized insulin, which has been stored in intracellular secretory vesicles.
+- [W7.132] This is the primary mechanism for release of insulin.
+- [W7.133] Other substances known to stimulate insulin release include the amino acids arginine and leucine, parasympathetic release of acetylcholine (acting via the phospholipase C pathway), sulfonylurea, cholecystokinin (CCK, also via phospholipase C), and the gastrointestinally derived incretins, such as glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic peptide (GIP).
+- [W7.134] Release of insulin is strongly inhibited by norepinephrine (noradrenaline), which leads to increased blood glucose levels during stress.
+- [W7.135] It appears that release of catecholamines by the sympathetic nervous system has conflicting influences on insulin release by beta cells, because insulin release is inhibited by α2-adrenergic receptors and stimulated by β2-adrenergic receptors.
+- [W7.136] The net effect of norepinephrine from sympathetic nerves and epinephrine from adrenal glands on insulin release is inhibition due to dominance of the α-adrenergic receptors.
+- [W7.137] When the glucose level comes down to the usual physiologic value, insulin release from the β-cells slows or stops.
+- [W7.138] If the blood glucose level drops lower than this, especially to dangerously low levels, release of hyperglycemic hormones (most prominently glucagon from islet of Langerhans alpha cells) forces release of glucose into the blood from the liver glycogen stores, supplemented by gluconeogenesis if the glycogen stores become depleted.
+- [W7.139] By increasing blood glucose, the hyperglycemic hormones prevent or correct life-threatening hypoglycemia.
+- [W7.140] Evidence of impaired first-phase insulin release can be seen in the glucose tolerance test, demonstrated by a substantially elevated blood glucose level at 30 minutes after the ingestion of a glucose load (75 or 100 g of glucose), followed by a slow drop over the next 100 minutes, to remain above 120 mg/100 mL after two hours after the start of the test.
+- [W7.141] In a normal person the blood glucose level is corrected (and may even be slightly over-corrected) by the end of the test.
+- [W7.142] An insulin spike is a 'first response' to blood glucose increase, this response is individual and dose specific although it was always previously assumed to be food type specific only.
+- [W7.143] Even during digestion, in general, one or two hours following a meal, insulin release from the pancreas is not continuous, but oscillates with a period of 3–6 minutes, changing from generating a blood insulin concentration more than about 800 p mol/l to less than 100 pmol/L (in rats).
+- [W7.144] This is thought to avoid downregulation of insulin receptors in target cells, and to assist the liver in extracting insulin from the blood.
+- [W7.145] This oscillation is important to consider when administering insulin-stimulating medication, since it is the oscillating blood concentration of insulin release, which should, ideally, be achieved, not a constant high concentration.
+- [W7.146] This may be achieved by delivering insulin rhythmically to the portal vein, by light activated delivery, or by islet cell transplantation to the liver.
+- [W7.147] The blood insulin level can be measured in international units, such as μIU/mL or in molar concentration, such as pmol/L, where 1 μIU/mL equals 6.945 pmol/L.
+- [W7.148] A typical blood level between meals is 8–11 μIU/mL (57–79 pmol/L).
+- [W7.149] The effects of insulin are initiated by its binding to a receptor, the insulin receptor (IR), present in the cell membrane.
+- [W7.150] The receptor molecule contains an α- and β subunits.
+- [W7.151] Two molecules are joined to form what is known as a homodimer.
+- [W7.152] Insulin binds to the α-subunits of the homodimer, which faces the extracellular side of the cells.
+- [W7.153] The β subunits have tyrosine kinase enzyme activity which is triggered by the insulin binding.
+- [W7.154] This activity provokes the autophosphorylation of the β subunits and subsequently the phosphorylation of proteins inside the cell known as insulin receptor substrates (IRS).
+- [W7.155] The phosphorylation of the IRS activates a signal transduction cascade that leads to the activation of other kinases as well as transcription factors that mediate the intracellular effects of insulin.
+- [W7.156] The cascade that leads to the insertion of GLUT4 glucose transporters into the cell membranes of muscle and fat cells, and to the synthesis of glycogen in liver and muscle tissue, as well as the conversion of glucose into triglycerides in liver, adipose, and lactating mammary gland tissue, operates via the activation, by IRS-1, of phosphoinositol 3 kinase (PI3K).
+- [W7.157] This enzyme converts a phospholipid in the cell membrane by the name of phosphatidylinositol 4,5-bisphosphate (PIP2), into phosphatidylinositol 3,4,5-triphosphate (PIP3), which, in turn, activates protein kinase B (PKB).
+- [W7.158] Activated PKB facilitates the fusion of GLUT4 containing endosomes with the cell membrane, resulting in an increase in GLUT4 transporters in the plasma membrane.
+- [W7.159] PKB also phosphorylates glycogen synthase kinase (GSK), thereby inactivating this enzyme.
+- [W7.160] This means that its substrate, glycogen synthase (GS), cannot be phosphorylated, and remains dephosphorylated, and therefore active.
+- [W7.161] The active enzyme, glycogen synthase (GS), catalyzes the rate limiting step in the synthesis of glycogen from glucose.
+- [W7.162] Similar dephosphorylations affect the enzymes controlling the rate of glycolysis leading to the synthesis of fats via malonyl-CoA in the tissues that can generate triglycerides, and also the enzymes that control the rate of gluconeogenesis in the liver.
+- [W7.163] The overall effect of these final enzyme dephosphorylations is that, in the tissues that can carry out these reactions, glycogen and fat synthesis from glucose are stimulated, and glucose production by the liver through glycogenolysis and gluconeogenesis are inhibited.
+- [W7.164] The breakdown of triglycerides by adipose tissue into free fatty acids and glycerol is also inhibited.
+- [W7.165] After the intracellular signal that resulted from the binding of insulin to its receptor has been produced, termination of signaling is then needed.
+- [W7.166] As mentioned below in the section on degradation, endocytosis and degradation of the receptor bound to insulin is a main mechanism to end signaling.
+- [W7.167] In addition, the signaling pathway is also terminated by dephosphorylation of the tyrosine residues in the various signaling pathways by tyrosine phosphatases.
+- [W7.168] Serine/Threonine kinases are also known to reduce the activity of insulin.
+- [W7.169] The structure of the insulin–insulin receptor complex has been determined using the techniques of X-ray crystallography.
+- [W7.170] The actions of insulin on the global human metabolism level include:
+- [W7.171] Increase of cellular intake of certain substances, most prominently glucose in muscle and adipose tissue (about two-thirds of body cells)
+- [W7.172] Increase of DNA replication and protein synthesis via control of amino acid uptake
+- [W7.173] Modification of the activity of numerous enzymes.
+- [W7.174] The actions of insulin (indirect and direct) on cells include:
+- [W7.175] Stimulates the uptake of glucose – Insulin decreases blood glucose concentration by inducing intake of glucose by the cells.
+- [W7.176] This is possible because Insulin causes the insertion of the GLUT4 transporter in the cell membranes of muscle and fat tissues which allows glucose to enter the cell.
+- [W7.177] Increased fat synthesis – insulin forces fat cells to take in blood glucose, which is converted into triglycerides; decrease of insulin causes the reverse.
+- [W7.178] Increased esterification of fatty acids – forces adipose tissue to make neutral fats (i.e., triglycerides) from fatty acids; decrease of insulin causes the reverse.
+- [W7.179] Decreased lipolysis in – forces reduction in conversion of fat cell lipid stores into blood fatty acids and glycerol; decrease of insulin causes the reverse.
+- [W7.180] Induced glycogen synthesis – When glucose levels are high, insulin induces the formation of glycogen by the activation of the hexokinase enzyme, which adds a phosphate group in glucose, thus resulting in a molecule that cannot exit the cell.
+- [W7.181] At the same time, insulin inhibits the enzyme glucose-6-phosphatase, which removes the phosphate group.
+- [W7.182] These two enzymes are key for the formation of glycogen.
+- [W7.183] Also, insulin activates the enzymes phosphofructokinase and glycogen synthase which are responsible for glycogen synthesis.
+- [W7.184] Decreased gluconeogenesis and glycogenolysis – decreases production of glucose from noncarbohydrate substrates, primarily in the liver (the vast majority of endogenous insulin arriving at the liver never leaves the liver); decrease of insulin causes glucose production by the liver from assorted substrates.
+- [W7.185] Decreased proteolysis – decreasing the breakdown of protein
+- [W7.186] Decreased autophagy – decreased level of degradation of damaged organelles.
+- [W7.187] Postprandial levels inhibit autophagy completely.
+- [W7.188] Increased amino acid uptake – forces cells to absorb circulating amino acids; decrease of insulin inhibits absorption.
+- [W7.189] Arterial muscle tone – forces arterial wall muscle to relax, increasing blood flow, especially in microarteries; decrease of insulin reduces flow by allowing these muscles to contract.
+- [W7.190] Increase in the secretion of hydrochloric acid by parietal cells in the stomach.
+- [W7.191] Increased potassium uptake – forces cells synthesizing glycogen (a very spongy, "wet" substance, that increases the content of intracellular water, and its accompanying K+ ions) to absorb potassium from the extracellular fluids; lack of insulin inhibits absorption.
+- [W7.192] Insulin's increase in cellular potassium uptake lowers potassium levels in blood plasma.
+- [W7.193] This possibly occurs via insulin-induced translocation of the Na+/K+-ATPase to the surface of skeletal muscle cells.
+- [W7.194] Decreased renal sodium excretion.
+- [W7.195] In hepatocytes, insulin binding acutely leads to activation of protein phosphatase 2A (PP2A), which dephosphorylates the bifunctional enzyme fructose bisphosphatase-2 (PFKB1), activating the phosphofructokinase-2 (PFK-2) active site.
+- [W7.196] PFK-2 increases production of fructose 2,6-bisphosphate.
+- [W7.197] Fructose 2,6-bisphosphate allosterically activates PFK-1, which favors glycolysis over gluconeogenesis.
+- [W7.198] Increased glycolysis increases the formation of malonyl-CoA, a molecule that can be shunted into lipogenesis and that allosterically inhibits of carnitine palmitoyltransferase I (CPT1), a mitochondrial enzyme necessary for the translocation of fatty acids into the intermembrane space of the mitochondria for fatty acid metabolism.
+- [W7.199] Insulin also influences other body functions, such as vascular compliance and cognition.
+- [W7.200] Once insulin enters the human brain, it enhances learning and memory and benefits verbal memory in particular.
+- [W7.201] Enhancing brain insulin signaling by means of intranasal insulin administration also enhances the acute thermoregulatory and glucoregulatory response to food intake, suggesting that central nervous insulin contributes to the co-ordination of a wide variety of homeostatic or regulatory processes in the human body.
+- [W7.202] Insulin also has stimulatory effects on gonadotropin-releasing hormone from the hypothalamus, thus favoring fertility.
+- [W7.203] Historically, insulin has been broadly classified as an anabolic hormone because it stimulates the synthesis of complex molecules.
+- [W7.204] However, recent medical literature has proposed reclassifying insulin specifically as a reponic hormone (from the Latin repono, meaning "to store") to better distinguish its metabolic role from that of classic anabolic hormones like testosterone or growth hormone.
+- [W7.205] While classic anabolic hormones drive energy-intensive processes to build metabolically active lean tissue, the primary physiological function of a reponic hormone is to conserve and store systemic energy.
+- [W7.206] Insulin achieves this by driving the cellular uptake of glucose and lipids for storage (lipogenesis and glycogenesis) while simultaneously inhibiting the breakdown of stored energy (lipolysis and glycogenolysis).
+- [W7.207] Researchers argue this distinction provides a clearer framework for understanding why hyperinsulinemia is uniquely characterized by central adiposity and metabolic syndrome rather than lean tissue growth.
+- [W7.208] Once an insulin molecule has docked onto the receptor and effected its action, it may be released back into the extracellular environment, or it may be degraded by the cell.
+- [W7.209] The two primary sites for insulin clearance are the liver and the kidney.
+- [W7.210] The liver clears most insulin during first-pass transit, whereas the kidney clears most of the insulin in systemic circulation.
+- [W7.211] Degradation normally involves endocytosis of the insulin-receptor complex, then the action of insulin-degrading enzyme on the B-chain, followed by the disulfide bond being broken by enzymes from the protein disulfide isomerase family.
+- [W7.212] An insulin molecule produced endogenously by the beta cells is estimated to be degraded within about one hour after its initial release into circulation (insulin half-life ~ 4–6 minutes).
+- [W7.213] Regulator of endocannabinoid metabolism
+- [W7.214] Insulin is a major regulator of endocannabinoid (EC) metabolism and insulin treatment has been shown to reduce intracellular ECs, the 2-arachidonoylglycerol (2-AG) and anandamide (AEA), which correspond with insulin-sensitive expression changes in enzymes of EC metabolism.
+- [W7.215] In insulin-resistant adipocytes, patterns of insulin-induced enzyme expression is disturbed in a manner consistent with elevated EC synthesis and reduced EC degradation.
+- [W7.216] Findings suggest that insulin-resistant adipocytes fail to regulate EC metabolism and decrease intracellular EC levels in response to insulin stimulation, whereby obese insulin-resistant individuals exhibit increased concentrations of ECs.
+- [W7.217] This dysregulation contributes to excessive visceral fat accumulation and reduced adiponectin release from abdominal adipose tissue, and further to the onset of several cardiometabolic risk factors that are associated with obesity and type 2 diabetes.
+- [W7.218] Hypoglycemia, also known as "low blood sugar", is when blood sugar decreases to below normal levels.
+- [W7.219] This may result in a variety of symptoms including clumsiness, trouble talking, confusion, loss of consciousness, seizures or death.
+- [W7.220] A feeling of hunger, sweating, shakiness and weakness may also be present.
+- [W7.221] Symptoms typically come on quickly.
+- [W7.222] The most common cause of hypoglycemia is medications used to treat diabetes such as insulin and sulfonylureas.
+- [W7.223] Risk is greater in diabetics who have eaten less than usual, exercised more than usual or have consumed alcohol.
+- [W7.224] Other causes of hypoglycemia include kidney failure, certain tumors, such as insulinoma, liver disease, hypothyroidism, starvation, inborn error of metabolism, severe infections, reactive hypoglycemia and a number of drugs including alcohol.
+- [W7.225] Low blood sugar may occur in otherwise healthy babies who have not eaten for a few hours.
+- [W7.226] There are several conditions in which insulin disturbance is pathologic:
+- [W7.227] Diabetes – general term referring to all states characterized by hyperglycemia.
+- [W7.228] It can be of the following types:
+- [W7.229] Type 1 diabetes – autoimmune-mediated destruction of insulin-producing β-cells in the pancreas, resulting in absolute insulin deficiency
+- [W7.230] Type 2 diabetes – either inadequate insulin production by the β-cells or insulin resistance or both because of reasons not completely understood.
+- [W7.231] there is correlation with diet, with sedentary lifestyle, with obesity, with age and with metabolic syndrome.
+- [W7.232] Causality has been demonstrated in multiple model organisms including mice and monkeys; importantly, non-obese people do get Type 2 diabetes due to diet, sedentary lifestyle and unknown risk factors, though this may not be a causal relationship.
+- [W7.233] it is likely that there is genetic susceptibility to develop Type 2 diabetes under certain environmental conditions
+- [W7.234] Other types of impaired glucose tolerance (see Diabetes)
+- [W7.235] Insulinoma – a tumor of beta cells producing excess insulin or reactive hypoglycemia.
+- [W7.236] Metabolic syndrome – a poorly understood condition first called syndrome X by Gerald Reaven.
+- [W7.237] It is not clear whether the syndrome has a single, treatable cause, or is the result of body changes leading to type 2 diabetes.
+- [W7.238] It is characterized by elevated blood pressure, dyslipidemia (disturbances in blood cholesterol forms and other blood lipids), and increased waist circumference (at least in populations in much of the developed world).
+- [W7.239] The basic underlying cause may be the insulin resistance that precedes type 2 diabetes, which is a diminished capacity for insulin response in some tissues (e.g., muscle, fat).
+- [W7.240] It is common for morbidities such as essential hypertension, obesity, type 2 diabetes, and cardiovascular disease (CVD) to develop.
+- [W7.241] Polycystic ovary syndrome – a complex syndrome in women in the reproductive years where anovulation and androgen excess are commonly displayed as hirsutism.
+- [W7.242] In many cases of PCOS, insulin resistance is present.
+- [W7.243] Biosynthetic human insulin (insulin human rDNA, INN) for clinical use is manufactured by recombinant DNA technology.
+- [W7.244] Biosynthetic human insulin has increased purity when compared with extractive animal insulin, enhanced purity reducing antibody formation.
+- [W7.245] Researchers have succeeded in introducing the gene for human insulin into plants as another method of producing insulin ("biopharming") in safflower.
+- [W7.246] This technique is anticipated to reduce production costs.
+- [W7.247] Several analogs of human insulin are available.
+- [W7.248] These insulin analogs are closely related to the human insulin structure, and were developed for specific aspects of glycemic control in terms of fast action (prandial insulins) and long action (basal insulins).
+- [W7.249] The first biosynthetic insulin analog was developed for clinical use at mealtime (prandial insulin), Humalog (insulin lispro), it is more rapidly absorbed after subcutaneous injection than regular insulin, with an effect 15 minutes after injection.
+- [W7.250] Other rapid-acting analogues are NovoRapid and Apidra, with similar profiles.
+- [W7.251] All are rapidly absorbed due to amino acid sequences that will reduce formation of dimers and hexamers (monomeric insulins are more rapidly absorbed).
+- [W7.252] Fast acting insulins do not require the injection-to-meal interval previously recommended for human insulin and animal insulins.
+- [W7.253] The other type is long acting insulin; the first of these was Lantus (insulin glargine).
+- [W7.254] These have a steady effect for an extended period from 18 to 24 hours.
+- [W7.255] Likewise, another protracted insulin analogue (Levemir) is based on a fatty acid acylation approach.
+- [W7.256] A myristic acid molecule is attached to this analogue, which associates the insulin molecule to the abundant serum albumin, which in turn extends the effect and reduces the risk of hypoglycemia.
+- [W7.257] Both protracted analogues need to be taken only once daily, and are used for type 1 diabetics as the basal insulin.
+- [W7.258] A combination of a rapid acting and a protracted insulin is also available, making it more likely for patients to achieve an insulin profile that mimics that of the body's own insulin release.
+- [W7.259] Insulin is also used in many cell lines, such as CHO-s, HEK 293 or Sf9, for the manufacturing of monoclonal antibodies, virus vaccines, and gene therapy products.
+- [W7.260] Insulin is usually taken as subcutaneous injections by single-use syringes with needles, via an insulin pump, or by repeated-use insulin pens with disposable needles.
+- [W7.261] Inhaled insulin is also available in the U.S. market.
+- [W7.262] Those who take insulin may choose a particular method of administration for improved blood glucose control, discrete delivery, comfort, or cost, among a variety of other factors.
+- [W7.263] Unlike many medicines, insulin cannot be taken by mouth because, like nearly all other proteins introduced into the gastrointestinal tract, it is reduced to fragments, whereupon all activity is lost.
+- [W7.264] There has been some research into ways to protect insulin from the digestive tract, so that it can be administered orally or sublingually.
+- [W7.265] In 2021, the World Health Organization added insulin to its model list of essential medicines.
+- [W7.266] Insulin, and all other medications, are supplied free of charge to people with diabetes by the National Health Service in the countries of the United Kingdom.
+- [W7.267] In 1869, while studying the structure of the pancreas under a microscope, Paul Langerhans, a medical student in Berlin, identified some previously unnoticed tissue clumps scattered throughout the bulk of the pancreas.
+- [W7.268] The function of the "little heaps of cells", later known as the islets of Langerhans, initially remained unknown, but Édouard Laguesse later suggested they might produce secretions that play a regulatory role in digestion.
+- [W7.269] Paul Langerhans' son, Archibald, also helped to understand this regulatory role.
+- [W7.270] In 1889, the physician Oskar Minkowski, in collaboration with Joseph von Mering, removed the pancreas from a healthy dog to test its assumed role in digestion.
+- [W7.271] On testing the urine, they found sugar, establishing for the first time a relationship between the pancreas and diabetes.
+- [W7.272] In 1901, another major step was taken by the American physician and scientist Eugene Lindsay Opie, when he isolated the role of the pancreas to the islets of Langerhans: "Diabetes mellitus when the result of a lesion of the pancreas is caused by destruction of the islets of Langerhans and occurs only when these bodies are in part or wholly destroyed".
+- [W7.273] Over the next two decades researchers made several attempts to isolate the islets' secretions.
+- [W7.274] In 1906, George Ludwig Zuelzer achieved partial success in treating dogs with pancreatic extract, but he was unable to continue his work.
+- [W7.275] Between 1911 and 1912, E.L.
+- [W7.276] Scott at the University of Chicago tried aqueous pancreatic extracts and noted "a slight diminution of glycosuria", but was unable to convince his director of his work's value; it was shut down.
+- [W7.277] Israel Kleiner demonstrated similar effects at Rockefeller University in 1915, but World War I interrupted his work and he did not return to it.
+- [W7.278] In 1916, Nicolae Paulescu developed an aqueous pancreatic extract which, when injected into a diabetic dog, had a normalizing effect on blood sugar levels.
+- [W7.279] He had to interrupt his experiments because of World War I, and in 1921 he wrote four papers about his work carried out in Bucharest and his tests on a diabetic dog.
+- [W7.280] Later that year, he published "Research on the Role of the Pancreas in Food Assimilation".
+- [W7.281] The name "insulin" was coined by Edward Albert Sharpey-Schafer in 1916 for a hypothetical molecule produced by pancreatic islets of Langerhans (Latin insula for islet or island) that controls glucose metabolism.
+- [W7.282] Unbeknown to Sharpey-Schafer, Jean de Meyer had introduced the very similar word "insuline" in 1909 for the same molecule.
+- [W7.283] Extraction and purification
+- [W7.284] In October 1920, Canadian Frederick Banting concluded that the digestive secretions that Minkowski had originally studied were breaking down the islet secretion, thereby making it impossible to extract successfully.
+- [W7.285] A surgeon by training, Banting knew that blockages of the pancreatic duct would lead most of the pancreas to atrophy, while leaving the islets of Langerhans intact.
+- [W7.286] He reasoned that a relatively pure extract could be made from the islets once most of the rest of the pancreas was gone.
+- [W7.287] He jotted a note to himself: "Ligate pancreatic ducts of dog.
+- [W7.288] Keep dogs alive till acini degenerate leaving Islets.
+- [W7.289] Try to isolate the internal secretion of these + relieve glycosurea[sic]."
+- [W7.290] In the spring of 1921, Banting traveled to Toronto to explain his idea to John Macleod, Professor of Physiology at the University of Toronto.
+- [W7.291] Macleod was initially skeptical, since Banting had no background in research and was not familiar with the latest literature, but he agreed to provide lab space for Banting to test out his ideas.
+- [W7.292] Macleod also arranged for two undergraduates to be Banting's lab assistants that summer, but Banting required only one lab assistant.
+- [W7.293] Charles Best and Clark Noble flipped a coin; Best won the coin toss and took the first shift.
+- [W7.294] This proved unfortunate for Noble, as Banting kept Best for the entire summer and eventually shared half his Nobel Prize money and credit for the discovery with Best.
+- [W7.295] On 30 July 1921, Banting and Best successfully isolated an extract ("isletin") from the islets of a duct-tied dog and injected it into a diabetic dog, finding that the extract reduced its blood sugar by 40% in 1 hour.
+- [W7.296] Banting and Best presented their results to Macleod on his return to Toronto in the fall of 1921, but Macleod pointed out flaws with the experimental design, and suggested the experiments be repeated with more dogs and better equipment.
+- [W7.297] He moved Banting and Best into a better laboratory and began paying Banting a salary from his research grants.
+- [W7.298] Several weeks later, the second round of experiments was also a success, and Macleod helped publish their results privately in Toronto that November.
+- [W7.299] Bottlenecked by the time-consuming task of duct-tying dogs and waiting several weeks to extract insulin, Banting hit upon the idea of extracting insulin from the fetal calf pancreas, which had not yet developed digestive glands.
+- [W7.300] By December, they had also succeeded in extracting insulin from the adult cow pancreas.
+- [W7.301] Macleod discontinued all other research in his laboratory to concentrate on the purification of insulin.
+- [W7.302] He invited biochemist James Collip to help with this task, and the team felt ready for a clinical test within a month.
+- [W7.303] On 11 January 1922, Leonard Thompson, a 14-year-old diabetic who lay dying at the Toronto General Hospital, was given the first injection of insulin.
+- [W7.304] However, the extract was so impure that Thompson had a severe allergic reaction, and further injections were cancelled.
+- [W7.305] Over the next 12 days, Collip worked day and night to improve the ox-pancreas extract.
+- [W7.306] A second dose was injected on 23 January, eliminating the glycosuria that was typical of diabetes without causing any obvious side-effects.
+- [W7.307] The first American patient was Elizabeth Hughes, the daughter of U.S.
+- [W7.308] Secretary of State Charles Evans Hughes.
+- [W7.309] The first patient treated in the U.S. was future woodcut artist James D.
+- [W7.310] Havens; John Ralston Williams imported insulin from Toronto to Rochester, New York, to treat Havens.
+- [W7.311] Banting and Best never worked well with Collip, regarding him as something of an interloper, and Collip left the project soon after.
+- [W7.312] Over the spring of 1922, Best managed to improve his techniques to the point where large quantities of insulin could be extracted on demand, but the preparation remained impure.
+- [W7.313] The drug firm Eli Lilly and Company had offered assistance not long after the first publications in 1921, and they took Lilly up on the offer in April.
+- [W7.314] In November, Lilly's head chemist, George B.
+- [W7.315] Walden discovered isoelectric precipitation and was able to produce large quantities of highly refined insulin.
+- [W7.316] Shortly thereafter, insulin was offered for sale to the general public.
+- [W7.317] Toward the end of January 1922, tensions mounted between the four "co-discoverers" of insulin and Collip briefly threatened to separately patent his purification process.
+- [W7.318] FitzGerald, director of the non-commercial public health institution Connaught Laboratories, therefore stepped in as peacemaker.
+- [W7.319] The resulting agreement of 25 January 1922 established two key conditions: 1) that the collaborators would sign a contract agreeing not to take out a patent with a commercial pharmaceutical firm during an initial working period with Connaught; and 2) that no changes in research policy would be allowed unless first discussed among FitzGerald and the four collaborators.
+- [W7.320] It helped contain disagreement and tied the research to Connaught's public mandate.
+- [W7.321] Initially, Macleod and Banting were particularly reluctant to patent their process for insulin on grounds of medical ethics.
+- [W7.322] However, concerns remained that a private third-party would hijack and monopolize the research (as Eli Lilly and Company had hinted), and that safe distribution would be difficult to guarantee without capacity for quality control.
+- [W7.323] To this end, Edward Calvin Kendall gave valuable advice.
+- [W7.324] He had isolated thyroxin at the Mayo Clinic in 1914 and patented the process through an arrangement between himself, the brothers Mayo, and the University of Minnesota, transferring the patent to the public university.
+- [W7.325] On 12 April, Banting, Best, Collip, Macleod, and FitzGerald wrote jointly to the president of the University of Toronto to propose a similar arrangement with the aim of assigning a patent to the Board of Governors of the university.
+- [W7.326] The letter emphasized that:The patent would not be used for any other purpose than to prevent the taking out of a patent by other persons.
+- [W7.327] When the details of the method of preparation are published anyone would be free to prepare the extract, but no one could secure a profitable monopoly.The assignment to the University of Toronto Board of Governors was completed on 15 January 1923, for the token payment of $1.00.
+- [W7.328] The arrangement was congratulated in The World's Work in 1923 as "a step forward in medical ethics".
+- [W7.329] It has also received much media attention in the 2010s regarding the issue of healthcare and drug affordability.
+- [W7.330] Following further concern regarding Eli Lilly's attempts to separately patent parts of the manufacturing process, Connaught's Assistant Director and Head of the Insulin Division Robert Defries established a patent pooling policy which would require producers to freely share any improvements to the manufacturing process without compromising affordability.
+- [W7.331] Structural analysis and synthesis
+- [W7.332] Purified animal-sourced insulin was initially the only type of insulin available for experiments and diabetics.
+- [W7.333] John Jacob Abel was the first to produce the crystallised form in 1926.
+- [W7.334] Evidence of the protein nature was first given by Michael Somogyi, Edward A.
+- [W7.335] It was fully proven when Hans Jensen and Earl A.
+- [W7.336] Evans Jr. isolated the amino acids phenylalanine and proline in 1935.
+- [W7.337] The amino acid structure of insulin was first characterized in 1951 by Frederick Sanger, and the first synthetic insulin was produced simultaneously in the labs of Panayotis Katsoyannis at the University of Pittsburgh and Helmut Zahn at RWTH Aachen University in the mid-1960s.
+- [W7.338] Synthetic crystalline bovine insulin was achieved by Chinese researchers in 1965.
+- [W7.339] The complete 3-dimensional structure of insulin was determined by X-ray crystallography in Dorothy Hodgkin's laboratory in 1969.
+- [W7.340] Weber discovered preproinsulin while working as a research fellow at the University of California Los Angeles in 1974.
+- [W7.341] In 1973–1974, Weber learned the techniques of how to isolate, purify, and translate messenger RNA.
+- [W7.342] To further investigate insulin, he obtained pancreatic tissues from a slaughterhouse in Los Angeles and then later from animal stock at UCLA.
+- [W7.343] He isolated and purified total messenger RNA from pancreatic islet cells which was then translated in oocytes from Xenopus laevis and precipitated using anti-insulin antibodies.
+- [W7.344] When total translated protein was run on an SDS-polyacrylamide gel electrophoresis and sucrose gradient, peaks corresponding to insulin and proinsulin were isolated.
+- [W7.345] However, to the surprise of Weber a third peak was isolated corresponding to a molecule larger than proinsulin.
+- [W7.346] After reproducing the experiment several times, he consistently noted this large peak prior to proinsulin that he determined must be a larger precursor molecule upstream of proinsulin.
+- [W7.347] In May 1975, at the American Diabetes Association meeting in New York, Weber gave an oral presentation of his work where he was the first to name this precursor molecule "preproinsulin".
+- [W7.348] Following this oral presentation, Weber was invited to dinner to discuss his paper and findings by Donald Steiner, a researcher who contributed to the characterization of proinsulin.
+- [W7.349] A year later in April 1976, this molecule was further characterized and sequenced by Steiner, referencing the work and discovery of Hans Weber.
+- [W7.350] Preproinsulin became an important molecule to study the process of transcription and translation.
+- [W7.351] The first genetically engineered (recombinant), synthetic human insulin was produced using E. coli in 1978 by Arthur Riggs and Keiichi Itakura at the Beckman Research Institute of the City of Hope in collaboration with Herbert Boyer at Genentech.
+- [W7.352] Genentech, founded by Swanson, Boyer and Eli Lilly and Company, went on in 1982 to sell the first commercially available biosynthetic human insulin under the brand name Humulin.
+- [W7.353] The vast majority of insulin used worldwide is biosynthetic recombinant human insulin or its analogues.
+- [W7.354] Recently, another recombinant approach has been used by a pioneering group of Canadian researchers, using an easily grown safflower plant, for the production of much cheaper insulin.
+- [W7.355] Recombinant insulin is produced either in yeast (usually Saccharomyces cerevisiae) or E. coli.
+- [W7.356] In yeast, insulin may be engineered as a single-chain protein with a KexII endoprotease (a yeast homolog of PCI/PCII) site that separates the insulin A chain from a C-terminally truncated insulin B chain.
+- [W7.357] A chemically synthesized C-terminal tail containing the missing threonine is then grafted onto insulin by reverse proteolysis using the inexpensive protease trypsin; typically the lysine on the C-terminal tail is protected with a chemical protecting group to prevent proteolysis.
+- [W7.358] The ease of modular synthesis and the relative safety of modifications in that region accounts for common insulin analogs with C-terminal modifications (e.g. lispro, aspart, glulisine).
+- [W7.359] The Genentech synthesis and completely chemical synthesis such as that by Bruce Merrifield are not preferred because the efficiency of recombining the two insulin chains is low, primarily due to competition with the precipitation of insulin B chain.
+- [W7.360] The Nobel Prize committee in 1923 credited the practical extraction of insulin to a team at the University of Toronto and awarded the Nobel Prize to two men: Frederick Banting and John Macleod.
+- [W7.361] They were awarded the Nobel Prize in Physiology or Medicine in 1923 for the discovery of insulin.
+- [W7.362] Banting, incensed that Best was not mentioned, shared his prize with him, and Macleod immediately shared his with James Collip.
+- [W7.363] The patent for insulin was sold to the University of Toronto for one dollar.
+- [W7.364] Two other Nobel Prizes have been awarded for work on insulin.
+- [W7.365] British molecular biologist Frederick Sanger, who determined the primary structure of insulin in 1955, was awarded the 1958 Nobel Prize in Chemistry.
+- [W7.366] Rosalyn Sussman Yalow received the 1977 Nobel Prize in Medicine for the development of the radioimmunoassay for insulin.
+- [W7.367] Several Nobel Prizes also have an indirect connection with insulin.
+- [W7.368] George Minot, co-recipient of the 1934 Nobel Prize for the development of the first effective treatment for pernicious anemia, had diabetes.
+- [W7.369] William Castle observed that the 1921 discovery of insulin, arriving in time to keep Minot alive, was therefore also responsible for the discovery of a cure for pernicious anemia.
+- [W7.370] Dorothy Hodgkin was awarded a Nobel Prize in Chemistry in 1964 for the development of crystallography, the technique she used for deciphering the complete molecular structure of insulin in 1969.
+- [W7.371] The work published by Banting, Best, Collip and Macleod represented the preparation of purified insulin extract suitable for use on human patients.
+- [W7.372] Although Paulescu discovered the principles of the treatment, his saline extract could not be used on humans; he was not mentioned in the 1923 Nobel Prize.
+- [W7.373] Ian Murray was particularly active in working to correct "the historical wrong" against Nicolae Paulescu.
+- [W7.374] Murray was a professor of physiology at the Anderson College of Medicine in Glasgow, United Kingdom, the head of the department of Metabolic Diseases at a leading Glasgow hospital, vice-president of the British Association of Diabetes, and a founding member of the International Diabetes Federation.
+- [W7.375] Insufficient recognition has been given to Paulescu, the distinguished Romanian scientist, who at the time when the Toronto team were commencing their research had already succeeded in extracting the antidiabetic hormone of the pancreas and proving its efficacy in reducing the hyperglycaemia in diabetic dogs.
+- [W7.376] In a private communication, Arne Tiselius, former head of the Nobel Institute, expressed his personal opinion that Paulescu was equally worthy of the award in 1923.
+- [W7.377] University of Toronto Libraries Collection: Discovery and Early Development of Insulin, 1920–1925
+- [W7.378] CBC Digital Archives – Banting, Best, Macleod, Collip: Chasing a Cure for Diabetes
+- [W7.379] Animations of insulin's action in the body at AboutKidsHealth.ca (archived 9 March 2011)
+- [W7.380] Overview of all the structural information available in the PDB for UniProt: P01308 (Insulin) at the PDBe-KB.
+
+## [W8] Wikipedia: Crystallin
+https://en.wikipedia.org/w/index.php?title=Crystallin&oldid=1358250342 · CC BY-SA 4.0 · usage: ai_input
+
+- [W8.1] In anatomy, a crystallin is a water-soluble structural protein found in the lens and the cornea of the eye  accounting for the transparency of the structure.
+- [W8.2] It has also been identified in other places such as the heart, and in aggressive breast cancer tumors.
+- [W8.3] The physical origins of eye lens transparency and its relationship to cataract are an active area of research.
+- [W8.4] Since it has been shown that lens injury may promote nerve regeneration,
+- [W8.5] crystallin has been an area of neural research.
+- [W8.6] So far,  it has been demonstrated that crystallin β b2 (crybb2) may be a neurite-promoting factor.
+- [W8.7] The main function of crystallins at least in the lens of the eye is probably to increase the refractive index while not obstructing light.
+- [W8.8] However, this is not their only function.
+- [W8.9] It has become clear that crystallins may have several metabolic and regulatory functions, both within the lens and in other parts of the body.
+- [W8.10] More proteins containing βγ-crystallin domains have now been characterized as calcium binding proteins with Greek key motif as a novel calcium-binding motif.
+- [W8.11] Enzyme activity and evolution
+- [W8.12] Some crystallins are active enzymes, while others lack activity but show homology to other enzymes.
+- [W8.13] The crystallins of different groups of organisms are related to a large number of different proteins, with those from birds and reptiles related to lactate dehydrogenase and argininosuccinate lyase, those of mammals to alcohol dehydrogenase and quinone reductase, and those of cephalopods to glutathione S-transferase and aldehyde dehydrogenase.
+- [W8.14] These particular enzymes or some mutated forms happened to be transparent and highly soluble and thus potential building material for animal lenses.
+- [W8.15] The recruitment of protein that originally evolved with one function to serve a second, unrelated function is an example of an exaptation.
+- [W8.16] While crystallins appear to have evolved from enzymes, most copies in the human genome have arisen from gene duplications.
+- [W8.17] Most notably, there are 2 gene clusters in the human genome, one on chromosome 2 and one on chromosome 22.
+- [W8.18] Crystallins from a vertebrate eye lens are classified into three main types: alpha, beta and gamma crystallins.
+- [W8.19] These distinctions are based on the order in which they elute from a gel filtration chromatography column.
+- [W8.20] These are also called ubiquitous crystallins.
+- [W8.21] Beta and gamma crystallins (such as CRYGC)  are similar in sequence, structure and domains topology, and thus have been grouped together as a protein superfamily called βγ-Crystallins.
+- [W8.22] The α-crystallin family and βγ-crystallins compose the major family of proteins present in the crystalline lens.
+- [W8.23] They occur in all vertebrate classes (though gamma-crystallins are low or absent in avian lenses); and delta-crystallin is found exclusively in reptiles and birds.
+- [W8.24] In addition to these crystallins there are other taxon-specific crystallins which are only found in the lens of some organisms; these include delta, epsilon, tau, and iota crystallins.
+- [W8.25] For example, alpha, beta, and delta crystallins are found in avian and reptilian lenses, and the alpha, beta, and gamma families are found in the lenses of all other vertebrates.
+- [W8.26] Alpha crystallin occurs as large aggregates, comprising two types of related subunits (A and B) that are highly similar to the small (15–30kDa) heat shock proteins (sHsps), particularly in their C-terminal halves.
+- [W8.27] The relationship between these families is one of classic gene duplication and divergence, from the small HSP family, allowing adaptation to novel functions.
+- [W8.28] Divergence probably occurred prior to evolution of the eye lens, alpha crystallin being found in small amounts in tissues outside the lens.
+- [W8.29] Alpha crystallin has chaperone-like properties including the ability to prevent the precipitation of denatured proteins and to increase cellular tolerance to stress.
+- [W8.30] It has been suggested that these functions are important for the maintenance of lens transparency and the prevention of cataracts.
+- [W8.31] This is supported by the observation that alpha-crystallin mutations show an association with cataract formation.
+- [W8.32] The N-terminal domain of alpha crystallin is not necessary for dimerisation or chaperone activity, but appears to be required for the formation of higher order aggregates.
+- [W8.33] Beta and gamma crystallins form a separate family.
+- [W8.34] Structurally, beta and gamma crystallins are composed of two similar domains which, in turn, are each composed of two similar motifs with the two domains connected by a short connecting peptide.
+- [W8.35] Each motif, which is about forty amino acid residues long, is folded in a distinctive Greek key pattern.
+- [W8.36] However, beta crystallins are oligomers, composed of a complex group of molecules, whereas gamma crystallins are simpler monomers.
+- [W8.37] National Library of Medicine Medical Subject Headings (MeSH)
+- [W8.38] alpha-Crystallins at the U.S.
+- [W8.39] National Library of Medicine Medical Subject Headings (MeSH)
+- [W8.40] Crystallins: Molecule of the Month Archived 2015-10-25 at the Wayback Machine, by David Goodsell, RCSB Protein Data Bank
+
+## [W9] Wikipedia: Hemoglobin
+https://en.wikipedia.org/w/index.php?title=Hemoglobin&oldid=1376983759 · CC BY-SA 4.0 · usage: ai_input
+
+- [W9.1] Hemoglobin (haemoglobin, Hb or Hgb) is a protein containing iron that facilitates the transportation of oxygen in red blood cells.
+- [W9.2] Almost all vertebrates contain hemoglobin, with the sole exception of the fish family Channichthyidae.
+- [W9.3] Hemoglobin in the blood carries oxygen from the respiratory organs (lungs or gills) to the other tissues of the body, where it releases the oxygen to enable aerobic respiration which powers an animal's metabolism.
+- [W9.4] A healthy human has 12 to 20 grams of hemoglobin in every 100 mL of blood.
+- [W9.5] Hemoglobin is a metalloprotein, a chromoprotein, and a globulin.
+- [W9.6] In mammals, hemoglobin makes up about 96% of a red blood cell's dry weight (excluding water), and around 35% of the total weight (including water).
+- [W9.7] Hemoglobin has an oxygen-binding capacity of 1.34 mL of O2 per gram, which increases the total blood oxygen capacity seventy-fold compared to dissolved oxygen in blood plasma alone.
+- [W9.8] The mammalian hemoglobin molecule can bind and transport up to four oxygen molecules.
+- [W9.9] Hemoglobin also transports other gases.
+- [W9.10] It carries off some of the body's respiratory carbon dioxide (about 20–25% of the total) as carbaminohemoglobin, in which CO2 binds to the heme protein.
+- [W9.11] The molecule also carries the important regulatory molecule nitric oxide bound to a thiol group in the globin protein, releasing it at the same time as oxygen.
+- [W9.12] Hemoglobin is also found in other cells, including in the A9 dopaminergic neurons of the substantia nigra, macrophages, alveolar cells, lungs, retinal pigment epithelium, hepatocytes, mesangial cells of the kidney, endometrial cells, cervical cells, and vaginal epithelial cells.
+- [W9.13] In these tissues, hemoglobin absorbs unneeded oxygen as an antioxidant, and regulates iron metabolism.
+- [W9.14] Excessive glucose in the blood can attach to hemoglobin and raise the level of hemoglobin A1c.
+- [W9.15] Hemoglobin and hemoglobin-like molecules are also found in many invertebrates, fungi, and plants.
+- [W9.16] In these organisms, hemoglobins may carry oxygen, or they may transport and regulate other small molecules and ions such as carbon dioxide, nitric oxide, hydrogen sulfide and sulfide.
+- [W9.17] A variant called leghemoglobin serves to scavenge oxygen away from anaerobic systems such as the nitrogen-fixing nodules of leguminous plants, preventing oxygen poisoning.
+- [W9.18] The medical condition hemoglobinemia, a form of anemia, is caused by intravascular hemolysis, in which hemoglobin leaks from red blood cells into the blood plasma.
+- [W9.19] Although blood had been known to carry oxygen since at least 1794, the oxygen-carrying property of hemoglobin was described by Hünefeld in 1840.
+- [W9.20] In 1851, German physiologist Otto Funke published a series of articles in which he described growing hemoglobin crystals by successively diluting red blood cells with a solvent such as pure water, alcohol or ether, followed by slow evaporation of the solvent from the resulting protein solution.
+- [W9.21] Hemoglobin's reversible oxygenation was described a few years later by Felix Hoppe-Seyler.
+- [W9.22] In 1825, Johann Friedrich Engelhart discovered that the ratio of iron to protein is identical in the hemoglobins of several species.
+- [W9.23] From the known atomic mass of iron, he calculated the molecular mass of hemoglobin to n × 16000 (n=number of iron atoms per hemoglobin molecule, now known to be 4), the first determination of a protein's molecular mass.
+- [W9.24] This "hasty conclusion" drew ridicule from colleagues who could not believe that any molecule could be so large.
+- [W9.25] However, Gilbert Smithson Adair confirmed Engelhart's results in 1925 by measuring the osmotic pressure of hemoglobin solutions.
+- [W9.26] With the development of X-ray crystallography, it became possible to solve protein structures.
+- [W9.27] In 1959, Max Perutz determined the molecular structure of hemoglobin.
+- [W9.28] For this work he shared the 1962 Nobel Prize in Chemistry with John Kendrew, who sequenced the globular protein myoglobin.
+- [W9.29] The role of hemoglobin in the blood was elucidated by French physiologist Claude Bernard.
+- [W9.30] The name hemoglobin (or haemoglobin) is derived from the words heme (or haem) and globin, reflecting the fact that each subunit of hemoglobin is a globular protein with an embedded heme group.
+- [W9.31] Each heme group contains one iron atom, that can bind one oxygen molecule through ion-induced dipole forces.
+- [W9.32] The most common type of hemoglobin in mammals contains four such subunits.
+- [W9.33] Hemoglobin consists of protein subunits (globin molecules), which are polypeptides, long folded chains of specific amino acids which determine the protein's chemical properties and function.
+- [W9.34] The amino acid sequence of any polypeptide is translated from a segment of DNA, the corresponding gene.
+- [W9.35] There is more than one hemoglobin gene.
+- [W9.36] In humans, hemoglobin A (the main form of hemoglobin in adults) is coded by genes HBA1, HBA2, and HBB.
+- [W9.37] Alpha 1 and alpha 2 subunits are respectively coded by genes HBA1 and HBA2 close together on chromosome 16, while the beta subunit is coded by gene HBB on chromosome 11.
+- [W9.38] The amino acid sequences of the globin subunits usually differ between species, with the difference growing with evolutionary distance.
+- [W9.39] For example, the most common hemoglobin sequences in humans, bonobos and chimpanzees are completely identical, with exactly the same alpha and beta globin protein chains.
+- [W9.40] Human and gorilla hemoglobin differ in one amino acid in both alpha and beta chains, and these differences grow larger between less closely related species.
+- [W9.41] Mutations in the genes for hemoglobin can result in variants of hemoglobin within a single species, although one sequence is usually "most common" in each species.
+- [W9.42] Many of these mutations cause no disease, but some cause a group of hereditary diseases called hemoglobinopathies.
+- [W9.43] The best known hemoglobinopathy is sickle-cell disease, which was the first human disease whose mechanism was understood at the molecular level.
+- [W9.44] A mostly separate set of diseases called thalassemias involves underproduction of normal and sometimes abnormal hemoglobins, through problems and mutations in globin gene regulation.
+- [W9.45] All these diseases produce anemia.
+- [W9.46] Globin proteins and thus their genes have an ancient evolutionary origin.
+- [W9.47] Even plants have a form of globin called leghemoglobin which shares about 15% of its sequence with hemoglobin.
+- [W9.48] While this level of similarity may be caused by chance, the 3-dimensional structure of both proteins is so similar that it is commonly assumed that they have a common origin.
+- [W9.49] This is confirmed by the conservation of intron positions in both types of genes.
+- [W9.50] Variations in hemoglobin sequences, as with other proteins, may be adaptive.
+- [W9.51] For example, hemoglobin has been found to adapt in different ways to the thin air at high altitudes, where lower partial pressure of oxygen diminishes its binding to hemoglobin compared to the higher pressures at sea level.
+- [W9.52] Recent studies of deer mice found mutations in four genes that can account for differences between high- and low-elevation populations.
+- [W9.53] It was found that the genes of the two breeds are "virtually identical—except for those that govern the oxygen-carrying capacity of their hemoglobin. . . .
+- [W9.54] The genetic difference enables highland mice to make more efficient use of their oxygen."
+- [W9.55] Evolution of vertebrate hemoglobin
+- [W9.56] Scientists agree that the event that separated myoglobin from hemoglobin occurred after lampreys diverged from jawed vertebrates.
+- [W9.57] This separation of myoglobin and hemoglobin allowed for the different functions of the two molecules to arise and develop: myoglobin has more to do with oxygen storage while hemoglobin is tasked with oxygen transport.
+- [W9.58] The α- and β-like globin genes encode the individual subunits of the protein.
+- [W9.59] The predecessors of these genes arose through another duplication event also after the gnathosome common ancestor derived from jawless fish, approximately 450–500 million years ago.
+- [W9.60] Ancestral reconstruction studies suggest that the preduplication ancestor of the α and β genes was a dimer made up of identical globin subunits, which then evolved to assemble into a tetrameric architecture after the duplication.
+- [W9.61] The development of α and β genes created the potential for hemoglobin to be composed of multiple distinct subunits, a physical composition central to hemoglobin's ability to transport oxygen.
+- [W9.62] Having multiple subunits contributes to hemoglobin's ability to bind oxygen cooperatively as well as be regulated allosterically.
+- [W9.63] Subsequently, the α gene also underwent a duplication event to form the HBA1 and HBA2 genes.
+- [W9.64] These further duplications and divergences have created a diverse range of α- and β-like globin genes that are regulated so that certain forms occur at different stages of development.
+- [W9.65] Most icefish of the family Channichthyidae have lost their hemoglobin genes as an adaptation to cold water.
+- [W9.66] Birds' unique circulatory lungs also promote efficient use of oxygen at low partial pressures of O2.
+- [W9.67] These two adaptations reinforce each other and account for birds' remarkable high-altitude performance.
+- [W9.68] This was specifically found in hummingbirds that inhabit the Andes.
+- [W9.69] Hummingbirds already expend a lot of energy and thus have high oxygen demands and yet Andean hummingbirds have been found to thrive in high altitudes.
+- [W9.70] Non-synonymous mutations in the hemoglobin gene of multiple species living at high elevations (Oreotrochilus, A. castelnaudii, C. violifer, P. gigas, and A. viridicuada) have caused the protein to have less of an affinity for inositol hexaphosphate (IHP), a molecule found in birds that has a similar role as 2,3-BPG in humans; this results in the ability to bind oxygen in lower partial pressures.
+- [W9.71] Mammoth hemoglobin featured mutations that allowed for oxygen delivery at lower temperatures, thus enabling mammoths to migrate to higher latitudes during the Pleistocene.
+- [W9.72] Hemoglobin adaptation extends to humans, as well.
+- [W9.73] There is a higher offspring survival rate among Tibetan women with high oxygen saturation genotypes residing at 4,000 m.
+- [W9.74] Natural selection seems to be the main force working on this gene because the mortality rate of offspring is significantly lower for women with higher hemoglobin-oxygen affinity when compared to the mortality rate of offspring from women with low hemoglobin-oxygen affinity.
+- [W9.75] While the exact genotype and mechanism by which this occurs is not yet clear, selection is acting on these women's ability to bind oxygen in low partial pressures, which overall allows them to better sustain crucial metabolic processes.
+- [W9.76] Hemoglobin (Hb) is synthesized in a complex series of steps.
+- [W9.77] The heme part is synthesized in a series of steps in the mitochondria and the cytosol of immature red blood cells, while the globin protein parts are synthesized by ribosomes in the cytosol.
+- [W9.78] Production of Hb continues in the cell throughout its early development from the proerythroblast to the reticulocyte in the bone marrow.
+- [W9.79] At this point, the nucleus is lost in mammalian red blood cells, but not in birds and many other species.
+- [W9.80] Even after the loss of the nucleus in mammals, residual ribosomal RNA allows further synthesis of Hb until the reticulocyte loses its RNA soon after entering the vasculature (this hemoglobin-synthetic RNA in fact gives the reticulocyte its reticulated appearance and name).
+- [W9.81] Hemoglobin has a quaternary structure characteristic of many multi-subunit globular proteins.
+- [W9.82] Most of the amino acids in hemoglobin form alpha helices, and these helices are connected by short non-helical segments.
+- [W9.83] Hydrogen bonds stabilize the helical sections inside this protein, causing attractions within the molecule, which then causes each polypeptide chain to fold into a specific shape.
+- [W9.84] Hemoglobin's quaternary structure comes from its four subunits in roughly a tetrahedral arrangement.
+- [W9.85] In most vertebrates, the hemoglobin molecule is an assembly of four globular protein subunits.
+- [W9.86] Each subunit is composed of a protein chain tightly associated with a non-protein prosthetic heme group.
+- [W9.87] Each protein chain arranges into a set of alpha-helix structural segments connected together in a globin fold arrangement.
+- [W9.88] Such a name is given because this arrangement is the same folding motif used in other heme/globin proteins such as myoglobin.
+- [W9.89] This folding pattern contains a pocket that strongly binds the heme group.
+- [W9.90] A heme group consists of an iron (Fe) ion held in a heterocyclic ring, known as a porphyrin.
+- [W9.91] This porphyrin ring consists of four pyrrole molecules cyclically linked together (by methine bridges) with the iron ion bound in the center.
+- [W9.92] The iron ion, which is the site of oxygen binding, coordinates with the four nitrogen atoms in the center of the ring, which all lie in one plane.
+- [W9.93] The heme is bound strongly (covalently) to the globular protein via the N atoms of the imidazole ring of F8 histidine residue (also known as the proximal histidine) below the porphyrin ring.
+- [W9.94] A sixth position can reversibly bind oxygen by a coordinate covalent bond, completing the octahedral group of six ligands.
+- [W9.95] This reversible bonding with oxygen is why hemoglobin is so useful for transporting oxygen around the body.
+- [W9.96] Oxygen binds in an "end-on bent" geometry where one oxygen atom binds to Fe and the other protrudes at an angle.
+- [W9.97] When oxygen is not bound, a very weakly bonded water molecule fills the site, forming a distorted octahedron.
+- [W9.98] Even though carbon dioxide is carried by hemoglobin, it does not compete with oxygen for the iron-binding positions but is bound to the amine groups of the protein chains attached to the heme groups.
+- [W9.99] The iron ion may be either in the ferrous Fe2+ or in the ferric Fe3+ state, but ferrihemoglobin (methemoglobin) (Fe3+) cannot bind oxygen.
+- [W9.100] In binding, oxygen temporarily and reversibly oxidizes (Fe2+) to (Fe3+) while oxygen temporarily turns into the superoxide ion, thus iron must exist in the +2 oxidation state to bind oxygen.
+- [W9.101] If superoxide ion associated to Fe3+ is protonated, the hemoglobin iron will remain oxidized and incapable of binding oxygen.
+- [W9.102] In such cases, the enzyme methemoglobin reductase will be able to eventually reactivate methemoglobin by reducing the iron center.
+- [W9.103] In adult humans, the most common hemoglobin type is a tetramer (which contains four subunit proteins) called hemoglobin A, consisting of two α and two β subunits non-covalently bound, each made of 141 and 146 amino acid residues, respectively.
+- [W9.104] The subunits are structurally similar and about the same size.
+- [W9.105] Each subunit has a molecular weight of about 16,000 daltons, for a total molecular weight of the tetramer of about 64,000 daltons (64,458 g/mol).
+- [W9.106] Thus, 1 g/dL=0.1551 mmol/L.
+- [W9.107] Hemoglobin A is the most intensively studied of the hemoglobin molecules.
+- [W9.108] In human infants, the fetal hemoglobin molecule is made up of 2 α chains and 2 γ chains.
+- [W9.109] The γ chains are gradually replaced by β chains as the infant grows.
+- [W9.110] The four polypeptide chains are bound to each other by salt bridges, hydrogen bonds, and the hydrophobic effect.
+- [W9.111] In general, hemoglobin can be saturated with oxygen molecules (oxyhemoglobin), or desaturated with oxygen molecules (deoxyhemoglobin).
+- [W9.112] Oxyhemoglobin is formed during physiological respiration when oxygen binds to the heme component of the protein hemoglobin in red blood cells.
+- [W9.113] This process occurs in the pulmonary capillaries adjacent to the alveoli of the lungs.
+- [W9.114] The oxygen then travels through the blood stream to be dropped off at cells where it is utilized as a terminal electron acceptor in the production of ATP by the process of oxidative phosphorylation.
+- [W9.115] It does not, however, help to counteract a decrease in blood pH.
+- [W9.116] Ventilation, or breathing, may reverse this condition by removal of carbon dioxide, thus causing a shift up in pH.
+- [W9.117] Hemoglobin exists in two forms, a taut (tense) form (T) and a relaxed form (R).
+- [W9.118] Various factors such as low pH, high CO2 and high 2,3 BPG at the level of the tissues favor the taut form, which has low oxygen affinity and releases oxygen in the tissues.
+- [W9.119] Conversely, a high pH, low CO2, or low 2,3 BPG favors the relaxed form, which can better bind oxygen.
+- [W9.120] The partial pressure of the system also affects O2 affinity where, at high partial pressures of oxygen (such as those present in the alveoli), the relaxed (high affinity, R) state is favoured.
+- [W9.121] Inversely, at low partial pressures (such as those present in respiring tissues), the (low affinity, T) tense state is favoured.
+- [W9.122] Additionally, the binding of oxygen to the iron(II) heme pulls the iron into the plane of the porphyrin ring, causing a slight conformational shift.
+- [W9.123] The shift encourages oxygen to bind to the three remaining heme units within hemoglobin (thus, oxygen binding is cooperative).
+- [W9.124] Classically, the iron in oxyhemoglobin is seen as existing in the iron(II) oxidation state.
+- [W9.125] However, the complex of oxygen with heme iron is diamagnetic, whereas both oxygen and high-spin iron(II) are paramagnetic.
+- [W9.126] Experimental evidence strongly suggests heme iron is in the iron(III) oxidation state in oxyhemoglobin, with the oxygen existing as superoxide anion (O2•−) or in a covalent charge-transfer complex.
+- [W9.127] Deoxygenated hemoglobin (deoxyhemoglobin) is the form of hemoglobin without the bound oxygen.
+- [W9.128] The absorption spectra of oxyhemoglobin and deoxyhemoglobin differ.
+- [W9.129] The oxyhemoglobin has significantly lower absorption of the 660 nm wavelength than deoxyhemoglobin, while at 940 nm its absorption is slightly higher.
+- [W9.130] This difference is used for the measurement of the amount of oxygen in a patient's blood by an instrument called a pulse oximeter.
+- [W9.131] This difference also accounts for the presentation of cyanosis, the blue to purplish color that tissues develop during hypoxia.
+- [W9.132] Deoxygenated hemoglobin is paramagnetic; it is weakly attracted to magnetic fields.
+- [W9.133] In contrast, oxygenated hemoglobin exhibits diamagnetism, a weak repulsion from a magnetic field.
+- [W9.134] When oxygen binds to the iron complex, it causes the iron atom to move back toward the center of the plane of the porphyrin ring (see moving diagram).
+- [W9.135] At the same time, the imidazole side-chain of the histidine residue interacting at the other pole of the iron is pulled toward the porphyrin ring.
+- [W9.136] This interaction forces the plane of the ring sideways toward the outside of the tetramer, and also induces a strain in the protein helix containing the histidine as it moves nearer to the iron atom.
+- [W9.137] This strain is transmitted to the remaining three monomers in the tetramer, where it induces a similar conformational change in the other heme sites such that binding of oxygen to these sites becomes easier.
+- [W9.138] As oxygen binds to one monomer of hemoglobin, the tetramer's conformation shifts from the T (tense) state to the R (relaxed) state.
+- [W9.139] This shift promotes the binding of oxygen to the remaining three monomers' heme groups, thus saturating the hemoglobin molecule with oxygen.
+- [W9.140] In the tetrameric form of normal adult hemoglobin, the binding of oxygen is, thus, a cooperative process.
+- [W9.141] The binding affinity of hemoglobin for oxygen is increased by the oxygen saturation of the molecule, with the first molecules of oxygen bound influencing the shape of the binding sites for the next ones, in a way favorable for binding.
+- [W9.142] This positive cooperative binding is achieved through steric conformational changes of the hemoglobin protein complex as discussed above; i.e., when one subunit protein in hemoglobin becomes oxygenated, a conformational or structural change in the whole complex is initiated, causing the other subunits to gain an increased affinity for oxygen.
+- [W9.143] As a consequence, the oxygen binding curve of hemoglobin is sigmoidal, or S-shaped, as opposed to the normal hyperbolic curve associated with noncooperative binding.
+- [W9.144] The dynamic mechanism of the cooperativity in hemoglobin and its relation with low-frequency resonance has been discussed.
+- [W9.145] Binding of ligands other than oxygen
+- [W9.146] Besides the oxygen ligand, which binds to hemoglobin in a cooperative manner, hemoglobin ligands also include competitive inhibitors such as carbon monoxide (CO) and allosteric ligands such as carbon dioxide (CO2) and nitric oxide (NO).
+- [W9.147] The carbon dioxide is bound to amino groups of the globin proteins to form carbaminohemoglobin; this mechanism is thought to account for about 10% of carbon dioxide transport in mammals.
+- [W9.148] Nitric oxide can also be transported by hemoglobin; it is bound to specific thiol groups in the globin protein to form an S-nitrosothiol, which dissociates into free nitric oxide and thiol again, as the hemoglobin releases oxygen from its heme site.
+- [W9.149] This nitric oxide transport to peripheral tissues is hypothesized to assist oxygen transport in tissues, by releasing vasodilatory nitric oxide to tissues in which oxygen levels are low.
+- [W9.150] The binding of oxygen is affected by molecules such as carbon monoxide (for example, from tobacco smoking, exhaust gas, and incomplete combustion in furnaces).
+- [W9.151] CO competes with oxygen at the heme binding site.
+- [W9.152] Hemoglobin's binding affinity for CO is 250 times greater than its affinity for oxygen.
+- [W9.153] Since carbon monoxide is a colorless, odorless, and tasteless gas, and poses a potentially fatal threat, carbon monoxide detectors have become commercially available to warn of dangerous levels in residences.
+- [W9.154] When hemoglobin combines with CO, it forms a very bright red compound called carboxyhemoglobin, which may cause the skin of CO poisoning victims to appear pink in death, instead of white or blue.
+- [W9.155] When inspired air contains CO levels as low as 0.02%, headache and nausea occur; if the CO concentration is increased to 0.1%, unconsciousness will follow.
+- [W9.156] In heavy smokers, up to 20% of the oxygen-active sites can be blocked by CO.
+- [W9.157] In similar fashion, hemoglobin also has competitive binding affinity for cyanide (CN−), sulfur monoxide (SO), and sulfide (S2−), including hydrogen sulfide (H2S).
+- [W9.158] All of these bind to iron in heme without changing its oxidation state, but they nevertheless inhibit oxygen-binding, causing grave toxicity.
+- [W9.159] The iron atom in the heme group must initially be in the ferrous (Fe2+) oxidation state to support oxygen and other gases' binding and transport (it temporarily switches to ferric during the time oxygen is bound, as explained above).
+- [W9.160] Initial oxidation to the ferric (Fe3+) state without oxygen converts hemoglobin into "hemiglobin" or methemoglobin, which cannot bind oxygen.
+- [W9.161] Hemoglobin in normal red blood cells is protected by a reduction system to keep this from happening.
+- [W9.162] Nitric oxide is capable of converting a small fraction of hemoglobin to methemoglobin in red blood cells.
+- [W9.163] The latter reaction is a remnant activity of the more ancient nitric oxide dioxygenase function of globins.
+- [W9.164] Carbon dioxide occupies a different binding site on the hemoglobin.
+- [W9.165] At tissues, where carbon dioxide concentration is higher, carbon dioxide binds to allosteric site of hemoglobin, facilitating unloading of oxygen from hemoglobin and ultimately its removal from the body after the oxygen has been released to tissues undergoing metabolism.
+- [W9.166] This increased affinity for carbon dioxide by the venous blood is known as the Bohr effect.
+- [W9.167] Through the enzyme carbonic anhydrase, carbon dioxide reacts with water to give carbonic acid, which decomposes into bicarbonate and protons:
+- [W9.168] CO2 + H2O → H2CO3 → HCO3− + H+
+- [W9.169] Hence, blood with high carbon dioxide levels is also lower in pH (more acidic).
+- [W9.170] Hemoglobin can bind protons and carbon dioxide, which causes a conformational change in the protein and facilitates the release of oxygen.
+- [W9.171] Protons bind at various places on the protein, while carbon dioxide binds at the α-amino group.
+- [W9.172] Carbon dioxide binds to hemoglobin and forms carbaminohemoglobin.
+- [W9.173] This decrease in hemoglobin's affinity for oxygen by the binding of carbon dioxide and acid is known as the Bohr effect.
+- [W9.174] The Bohr effect favors the T state rather than the R state.
+- [W9.175] (shifts the O2-saturation curve to the right).
+- [W9.176] Conversely, when the carbon dioxide levels in the blood decrease (i.e., in the lung capillaries), carbon dioxide and protons are released from hemoglobin, increasing the oxygen affinity of the protein.
+- [W9.177] A reduction in the total binding capacity of hemoglobin to oxygen (i.e. shifting the curve down, not just to the right) due to reduced pH is called the root effect.
+- [W9.178] This is seen in bony fish.
+- [W9.179] It is necessary for hemoglobin to release the oxygen that it binds; if not, there is no point in binding it.
+- [W9.180] The sigmoidal curve of hemoglobin makes it efficient in binding (taking up O2 in lungs), and efficient in unloading (unloading O2 in tissues).
+- [W9.181] In people acclimated to high altitudes, the concentration of 2,3-Bisphosphoglycerate (2,3-BPG) in the blood is increased, which allows these individuals to deliver a larger amount of oxygen to tissues under conditions of lower oxygen tension.
+- [W9.182] This phenomenon, where molecule Y affects the binding of molecule X to a transport molecule Z, is called a heterotropic allosteric effect.
+- [W9.183] Hemoglobin in organisms at high altitudes has also adapted such that it has less of an affinity for 2,3-BPG and so the protein will be shifted more towards its R state.
+- [W9.184] In its R state, hemoglobin will bind oxygen more readily, thus allowing organisms to perform the necessary metabolic processes when oxygen is present at low partial pressures.
+- [W9.185] Animals other than humans use different molecules to bind to hemoglobin and change its O2 affinity under unfavorable conditions.
+- [W9.186] Fish use both ATP and GTP.
+- [W9.187] These bind to a phosphate "pocket" on the fish hemoglobin molecule, which stabilizes the tense state and therefore decreases oxygen affinity.
+- [W9.188] GTP reduces hemoglobin oxygen affinity much more than ATP, which is thought to be due to an extra hydrogen bond formed that further stabilizes the tense state.
+- [W9.189] Under hypoxic conditions, the concentration of both ATP and GTP is reduced in fish red blood cells to increase oxygen affinity.
+- [W9.190] A variant hemoglobin, called fetal hemoglobin (HbF, α2γ2), is found in the developing fetus, and binds oxygen with greater affinity than adult hemoglobin.
+- [W9.191] This means that the oxygen binding curve for fetal hemoglobin is left-shifted (i.e., a higher percentage of hemoglobin has oxygen bound to it at lower oxygen tension), in comparison to that of adult hemoglobin.
+- [W9.192] As a result, fetal blood in the placenta is able to take oxygen from maternal blood.
+- [W9.193] Hemoglobin also carries nitric oxide (NO) in the globin part of the molecule.
+- [W9.194] This improves oxygen delivery in the periphery and contributes to the control of respiration.
+- [W9.195] NO binds reversibly to a specific cysteine residue in globin; the binding depends on the state (R or T) of the hemoglobin.
+- [W9.196] The resulting S-nitrosylated hemoglobin influences various NO-related activities such as the control of vascular resistance, blood pressure and respiration.
+- [W9.197] NO is not released in the cytoplasm of red blood cells but transported out of them by an anion exchanger called AE1.
+- [W9.198] Types of hemoglobin in humans
+- [W9.199] Hemoglobin variants are a part of the normal embryonic and fetal development.
+- [W9.200] They may also be pathologic mutant forms of hemoglobin in a population, caused by variations in genetics.
+- [W9.201] Some well-known hemoglobin variants, such as sickle-cell anemia, are responsible for diseases and are considered hemoglobinopathies.
+- [W9.202] Other variants cause no detectable pathology, and are thus considered non-pathological variants.
+- [W9.203] Gower 2 (α2ε2) (PDB: 1A9W​).
+- [W9.204] Hemoglobin Portland I (ζ2γ2).
+- [W9.205] Hemoglobin Portland II (ζ2β2).
+- [W9.206] Hemoglobin F (α2γ2) (PDB: 1FDH​).
+- [W9.207] In neonates (newborns inmmediately after birth):
+- [W9.208] Hemoglobin A (adult hemoglobin) (α2β2) (PDB: 1BZ0​) – The most common with a normal amount over 95%
+- [W9.209] Hemoglobin A2 (α2δ2) – δ chain synthesis begins late in the third trimester and, in adults, it has a normal range of 1.5–3.5%
+- [W9.210] Hemoglobin F (fetal hemoglobin) (α2γ2) – In adults Hemoglobin F is restricted to a limited population of red cells called F-cells.
+- [W9.211] However, the level of Hb F can be elevated in persons with sickle-cell disease and beta-thalassemia.
+- [W9.212] Abnormal forms that occur in diseases:
+- [W9.213] Hemoglobin D – (α2βD2) – A variant form of hemoglobin.
+- [W9.214] Hemoglobin H (β4) – A variant form of hemoglobin, formed by a tetramer of β chains, which may be present in variants of α thalassemia.
+- [W9.215] Hemoglobin Barts (γ4) – A variant form of hemoglobin, formed by a tetramer of γ chains, which may be present in variants of α thalassemia.
+- [W9.216] Hemoglobin S (α2βS2) – A variant form of hemoglobin found in people with sickle cell disease.
+- [W9.217] There is a variation in the β-chain gene, causing a change in the properties of hemoglobin, which results in sickling of red blood cells.
+- [W9.218] Hemoglobin C (α2βC2) – Another variant due to a variation in the β-chain gene.
+- [W9.219] This variant causes a mild chronic hemolytic anemia.
+- [W9.220] Hemoglobin E (α2βE2) – Another variant due to a variation in the β-chain gene.
+- [W9.221] This variant causes a mild chronic hemolytic anemia.
+- [W9.222] Hemoglobin AS – A heterozygous form causing sickle cell trait with one adult gene and one sickle cell disease gene
+- [W9.223] Hemoglobin SC disease – A compound heterozygous form with one sickle gene and another encoding hemoglobin C.
+- [W9.224] Hemoglobin Hopkins-2 – A variant form of hemoglobin that is sometimes viewed in combination with hemoglobin S to produce sickle cell disease.
+- [W9.225] Degradation in vertebrate animals
+- [W9.226] When red blood cells reach the end of their life due to aging or defects, they are removed from the circulation by the phagocytic activity of macrophages in the spleen or the liver or hemolyze within the circulation.
+- [W9.227] Free hemoglobin is then cleared from the circulation via the hemoglobin transporter CD163, which is exclusively expressed on monocytes or macrophages.
+- [W9.228] Within these cells the hemoglobin molecule is broken up, and the iron gets recycled.
+- [W9.229] This process also produces one molecule of carbon monoxide for every molecule of heme degraded.
+- [W9.230] Heme degradation is the only natural source of carbon monoxide in the human body, and is responsible for the normal blood levels of carbon monoxide in people breathing normal air.
+- [W9.231] The other major final product of heme degradation is bilirubin.
+- [W9.232] Increased levels of this chemical are detected in the blood if red blood cells are being destroyed more rapidly than usual.
+- [W9.233] Improperly degraded hemoglobin protein or hemoglobin that has been released from the blood cells too rapidly can clog small blood vessels, especially the delicate blood filtering vessels of the kidneys, causing kidney damage.
+- [W9.234] Iron is removed from heme and salvaged for later use, it is stored as hemosiderin or ferritin in tissues and transported in plasma by beta globulins as transferrins.
+- [W9.235] When the porphyrin ring is broken up, the fragments are normally secreted as a yellow pigment called bilirubin, which is secreted into the intestines as bile.
+- [W9.236] Intestines metabolize bilirubin into urobilinogen.
+- [W9.237] Urobilinogen leaves the body in faeces, in a pigment called stercobilin.
+- [W9.238] Globulin is metabolized into amino acids that are then released into circulation.
+- [W9.239] Diseases related to hemoglobin
+- [W9.240] Hemoglobin deficiency can be caused either by a decreased amount of hemoglobin molecules, as in anemia, or by decreased ability of each molecule to bind oxygen at the same partial pressure of oxygen.
+- [W9.241] Hemoglobinopathies (genetic defects resulting in abnormal structure of the hemoglobin molecule) may cause both.
+- [W9.242] In any case, hemoglobin deficiency decreases blood oxygen-carrying capacity.
+- [W9.243] Hemoglobin deficiency is, in general, strictly distinguished from hypoxemia, defined as decreased partial pressure of oxygen in blood, although both are causes of hypoxia (insufficient oxygen supply to tissues).
+- [W9.244] Other common causes of low hemoglobin include loss of blood, nutritional deficiency, bone marrow problems, chemotherapy, kidney failure, or abnormal hemoglobin (such as that of sickle-cell disease).
+- [W9.245] The ability of each hemoglobin molecule to carry oxygen is normally modified by altered blood pH or CO2, causing an altered oxygen–hemoglobin dissociation curve.
+- [W9.246] However, it can also be pathologically altered in, e.g., carbon monoxide poisoning.
+- [W9.247] Decrease of hemoglobin, with or without an absolute decrease of red blood cells, leads to symptoms of anemia.
+- [W9.248] Anemia has many different causes, although iron deficiency and its resultant iron deficiency anemia are the most common causes in the Western world.
+- [W9.249] As absence of iron decreases heme synthesis, red blood cells in iron deficiency anemia are hypochromic (lacking the red hemoglobin pigment) and microcytic (smaller than normal).
+- [W9.250] In hemolysis (accelerated breakdown of red blood cells), associated jaundice is caused by the hemoglobin metabolite bilirubin, and the circulating hemoglobin can cause kidney failure.
+- [W9.251] Some mutations in the globin chain are associated with the hemoglobinopathies, such as sickle-cell disease and thalassemia.
+- [W9.252] Other mutations, as discussed at the beginning of the article, are benign and are referred to merely as hemoglobin variants.
+- [W9.253] There is a group of genetic disorders, known as the porphyrias that are characterized by errors in metabolic pathways of heme synthesis.
+- [W9.254] King George III of the United Kingdom was probably the most famous porphyria sufferer.
+- [W9.255] To a small extent, hemoglobin A slowly combines with glucose at the terminal valine (an alpha aminoacid) of each β chain.
+- [W9.256] The resulting molecule is often referred to as Hb A1c, a glycated hemoglobin.
+- [W9.257] The binding of glucose to amino acids in the hemoglobin takes place spontaneously (without the help of an enzyme) in many proteins, but whether it serves a useful purpose is unknown.
+- [W9.258] However, as the concentration of glucose in the blood increases, the percentage of Hb A that turns into Hb A1c increases.
+- [W9.259] In diabetics whose glucose usually runs high, the percent Hb A1c also runs high.
+- [W9.260] Because of the slow rate of Hb A combination with glucose, the Hb A1c percentage reflects a weighted average of blood glucose levels over the lifetime of red cells, which is approximately 120 days.
+- [W9.261] The levels of glycated hemoglobin are therefore measured in order to monitor the long-term control of the chronic disease of type 2 diabetes mellitus (T2DM).
+- [W9.262] Poor control of T2DM results in high levels of glycated hemoglobin in the red blood cells.
+- [W9.263] The normal reference range is approximately 4.0–5.9%.
+- [W9.264] Though difficult to obtain, values less than 7% are recommended for people with T2DM.
+- [W9.265] Levels greater than 9% are associated with poor control of the glycated hemoglobin, and levels greater than 12% are associated with very poor control.
+- [W9.266] Diabetics who keep their glycated hemoglobin levels close to 7% have a much better chance of avoiding the complications that may accompany diabetes (than those whose levels are 8% or higher).
+- [W9.267] In addition, increased glycated of hemoglobin increases its affinity for oxygen, therefore preventing its release at the tissue and inducing a level of hypoxia in extreme cases.
+- [W9.268] Elevated levels of hemoglobin are associated with increased numbers or sizes of red blood cells, called polycythemia.
+- [W9.269] This elevation may be caused by congenital heart disease, cor pulmonale, pulmonary fibrosis, too much erythropoietin, or polycythemia vera.
+- [W9.270] High hemoglobin levels may also be caused by exposure to high altitudes, smoking, dehydration (artificially by concentrating Hb), advanced lung disease and certain tumors.
+- [W9.271] Hemoglobin concentration measurement is among the most commonly performed blood tests, usually as part of a complete blood count.
+- [W9.272] For example, it is typically tested before or after blood donation.
+- [W9.273] Results are reported in g/L, g/dL or mol/L.
+- [W9.274] 1 g/dL equals about 0.6206 mmol/L, although the latter units are not used as often due to uncertainty regarding the polymeric state of the molecule.
+- [W9.275] This conversion factor, using the single globin unit molecular weight of 16,000 Da, is more common for hemoglobin concentration in blood.
+- [W9.276] For MCHC (mean corpuscular hemoglobin concentration) the conversion factor 0.155, which uses the tetramer weight of 64,500 Da, is more common.
+- [W9.277] Men: 13.8 to 18.0 g/dL (138 to 180 g/L, or 8.56 to 11.17 mmol/L)
+- [W9.278] Women: 12.1 to 15.1 g/dL (121 to 151 g/L, or 7.51 to 9.37 mmol/L)
+- [W9.279] Children: 11 to 16 g/dL (110 to 160 g/L, or 6.83 to 9.93 mmol/L)
+- [W9.280] Pregnant women: 11 to 14 g/dL (110 to 140 g/L, or 6.83 to 8.69 mmol/L) (9.5 to 15 usual value during pregnancy)
+- [W9.281] Normal values of hemoglobin in the 1st and 3rd trimesters of pregnant women must be at least 11 g/dL and at least 10.5 g/dL during the 2nd trimester.
+- [W9.282] Dehydration or hyperhydration can greatly influence measured hemoglobin levels.
+- [W9.283] Albumin can indicate hydration status.
+- [W9.284] If the concentration is below normal, this is called anemia.
+- [W9.285] Anemias are classified by the size of red blood cells, the cells that contain hemoglobin in vertebrates.
+- [W9.286] The anemia is called "microcytic" if red cells are small, "macrocytic" if they are large, and "normocytic" otherwise.
+- [W9.287] Hematocrit, the proportion of blood volume occupied by red blood cells, is typically about three times the hemoglobin concentration measured in g/dL.
+- [W9.288] For example, if the hemoglobin is measured at 17 g/dL, that compares with a hematocrit of 51%.
+- [W9.289] Laboratory hemoglobin test methods require a blood sample (arterial, venous, or capillary) and analysis on hematology analyzer and CO-oximeter.
+- [W9.290] Additionally, a new noninvasive hemoglobin (SpHb) test method called Pulse CO-Oximetry is also available with comparable accuracy to invasive methods.
+- [W9.291] Concentrations of oxy- and deoxyhemoglobin can be measured continuously, regionally and noninvasively using NIRS.
+- [W9.292] NIRS can be used both on the head and on muscles.
+- [W9.293] This technique is often used for research in e.g. elite sports training, ergonomics, rehabilitation, patient monitoring, neonatal research, functional brain monitoring, brain–computer interface, urology (bladder contraction), neurology (Neurovascular coupling) and more.
+- [W9.294] Hemoglobin mass can be measured in humans using the non-radioactive, carbon monoxide (CO) rebreathing technique that has been used for more than 100 years.
+- [W9.295] With this technique, a small volume of pure CO gas is inhaled and rebreathed for a few minutes.
+- [W9.296] During rebreathing, CO binds to hemoglobin present in red blood cells.
+- [W9.297] Based on the increase in blood CO after the rebreathing period, the hemoglobin mass can be determined through the dilution principle.
+- [W9.298] Long-term control of blood sugar concentration can be measured by the concentration of Hb A1c.
+- [W9.299] Measuring it directly would require many samples because blood sugar levels vary widely through the day.
+- [W9.300] Hb A1c is the product of the irreversible reaction of hemoglobin A with glucose.
+- [W9.301] A higher glucose concentration results in more Hb A1c.
+- [W9.302] Because the reaction is slow, the Hb A1c proportion represents glucose level in blood averaged over the half-life of red blood cells, is typically about 120 days.
+- [W9.303] An Hb A1c proportion of 6.0% or less show good long-term glucose control, while values above 7.0% are elevated.
+- [W9.304] This test is especially useful for diabetics.
+- [W9.305] The functional magnetic resonance imaging (fMRI) machine uses the signal from deoxyhemoglobin, which is sensitive to magnetic fields since it is paramagnetic.
+- [W9.306] Combined measurement with NIRS shows good correlation with both the oxy- and deoxyhemoglobin signal compared to the BOLD signal.
+- [W9.307] Athletic tracking and self-tracking uses
+- [W9.308] Hemoglobin can be tracked noninvasively, to build an individual data set tracking the hemoconcentration and hemodilution effects of daily activities for better understanding of sports performance and training.
+- [W9.309] Athletes are often concerned about endurance and intensity of exercise.
+- [W9.310] The sensor uses light-emitting diodes that emit red and infrared light through the tissue to a light detector, which then sends a signal to a processor to calculate the absorption of light by the hemoglobin protein.
+- [W9.311] This sensor is similar to a pulse oximeter, which consists of a small sensing device that clips to the finger.
+- [W9.312] Analogues in non-vertebrate organisms
+- [W9.313] A variety of oxygen-transport and -binding proteins exist in organisms throughout the animal and plant kingdoms.
+- [W9.314] Organisms including bacteria, protozoans, and fungi all have hemoglobin-like proteins whose known and predicted roles include the reversible binding of gaseous ligands.
+- [W9.315] Since many of these proteins contain globins and the heme moiety (iron in a flat porphyrin support), they are often called hemoglobins, even if their overall tertiary structure is very different from that of vertebrate hemoglobin.
+- [W9.316] In particular, the distinction of "myoglobin" and hemoglobin in lower animals is often impossible, because some of these organisms do not contain muscles.
+- [W9.317] Or, they may have a recognizable separate circulatory system but not one that deals with oxygen transport (for example, many insects and other arthropods).
+- [W9.318] In all these groups, heme/globin-containing molecules (even monomeric globin ones) that deal with gas-binding are referred to as oxyhemoglobins.
+- [W9.319] In addition to dealing with transport and sensing of oxygen, they may also deal with NO, CO2, sulfide compounds, and even O2 scavenging in environments that must be anaerobic.
+- [W9.320] They may even deal with detoxification of chlorinated materials in a way analogous to heme-containing P450 enzymes and peroxidases.
+- [W9.321] The structure of hemoglobins varies across species.
+- [W9.322] Hemoglobin occurs in all kingdoms of organisms, but not in all organisms.
+- [W9.323] Primitive species such as bacteria, protozoa, algae, and plants often have single-globin hemoglobins.
+- [W9.324] Many nematode worms, molluscs, and crustaceans contain very large multisubunit molecules, much larger than those in vertebrates.
+- [W9.325] In particular, chimeric hemoglobins found in fungi and giant annelids may contain both globin and other types of proteins.
+- [W9.326] One of the most striking occurrences and uses of hemoglobin in organisms is in the giant tube worm (Riftia pachyptila, also called Vestimentifera), which can reach 2.4 meters length and populates ocean volcanic vents.
+- [W9.327] Instead of a digestive tract, these worms contain a population of bacteria constituting half the organism's weight.
+- [W9.328] The bacteria oxidize H2S from the vent with O2 from the water to produce energy to make food from H2O and CO2.
+- [W9.329] The worms' upper end is a deep-red fan-like structure ("plume"), which extends into the water and absorbs H2S and O2 for the bacteria, and CO2 for use as synthetic raw material similar to photosynthetic plants.
+- [W9.330] The structures are bright red due to their content of several extraordinarily complex hemoglobins that have up to 144 globin chains, each including associated heme structures.
+- [W9.331] These hemoglobins are remarkable for being able to carry oxygen in the presence of sulfide, and even to carry sulfide, without being completely "poisoned" or inhibited by it as hemoglobins in most other species are.
+- [W9.332] Other oxygen-binding proteins
+- [W9.333] Found in the muscle tissue of many vertebrates, including humans, it gives muscle tissue a distinct red or dark gray color.
+- [W9.334] It is very similar to hemoglobin in structure and sequence, but is not a tetramer; instead, it is a monomer that lacks cooperative binding.
+- [W9.335] It is used to store oxygen rather than transport it.
+- [W9.336] The second most common oxygen-transporting protein found in nature, it is found in the blood of many arthropods and molluscs.
+- [W9.337] Uses copper prosthetic groups instead of iron heme groups and is blue in color when oxygenated.
+- [W9.338] Some marine invertebrates and a few species of annelid use this iron-containing non-heme protein to carry oxygen in their blood.
+- [W9.339] Appears pink/violet when oxygenated, clear when not.
+- [W9.340] Found in many annelids, it is very similar to erythrocruorin, but the heme group is significantly different in structure.
+- [W9.341] Appears green when deoxygenated and red when oxygenated.
+- [W9.342] Also known as vanadium chromagens, they are found in the blood of sea squirts.
+- [W9.343] They were once hypothesized to use the metal vanadium as an oxygen binding prosthetic group.
+- [W9.344] However, although they do contain vanadium by preference, they apparently bind little oxygen, and thus have some other function, which has not been elucidated (sea squirts also contain some hemoglobin).
+- [W9.345] Found in many annelids, including earthworms, it is a giant free-floating blood protein containing many dozens—possibly hundreds—of iron- and heme-bearing protein subunits bound together into a single protein complex with a molecular mass greater than 3.5 million daltons.
+- [W9.346] In leguminous plants, such as alfalfa or soybeans, the nitrogen fixing bacteria in the roots are protected from oxygen by this iron heme containing oxygen-binding protein.
+- [W9.347] The specific enzyme protected is nitrogenase, which is unable to reduce nitrogen gas in the presence of free oxygen.
+- [W9.348] A synthetic cobalt-based porphyrin.
+- [W9.349] Coboprotein would appear colorless when oxygenated, but yellow when in veins.
+- [W9.350] Presence in nonerythroid cells
+- [W9.351] Some nonerythroid cells (i.e., cells other than the red blood cell line) contain hemoglobin.
+- [W9.352] In the brain, these include the A9 dopaminergic neurons in the substantia nigra, astrocytes in the cerebral cortex and hippocampus, and in all mature oligodendrocytes.
+- [W9.353] It has been suggested that brain hemoglobin in these cells may enable the "storage of oxygen to provide a homeostatic mechanism in anoxic conditions, which is especially important for A9 DA neurons that have an elevated metabolism with a high requirement for energy production".
+- [W9.354] It has been noted further that "A9 dopaminergic neurons may be at particular risk of anoxic degeneration since in addition to their high mitochondrial activity they are under intense oxidative stress caused by the production of hydrogen peroxide via autoxidation and/or monoamine oxidase (MAO)-mediated deamination of dopamine and the subsequent reaction of accessible ferrous iron to generate highly toxic hydroxyl radicals".
+- [W9.355] This may explain the risk of degeneration of these cells in Parkinson's disease.
+- [W9.356] The hemoglobin-derived iron in these cells is not the cause of the post-mortem darkness of these cells (origin of the Latin name, substantia nigra), but rather is due to neuromelanin.
+- [W9.357] Outside the brain, hemoglobin has non-oxygen-carrying functions as an antioxidant and a regulator of iron metabolism in macrophages, alveolar cells, and mesangial cells in the kidney.
+- [W9.358] Historically, an association between the color of blood and rust occurs in the association of the planet Mars, with the Roman god of war, since the planet is an orange-red, which reminded the ancients of blood.
+- [W9.359] Although the color of the planet is due to iron compounds in combination with oxygen in the Martian soil, it is a common misconception that the iron in hemoglobin and its oxides gives blood its red color.
+- [W9.360] The color is actually due to the porphyrin moiety of hemoglobin to which the iron is bound, not the iron itself, although the ligation and redox state of the iron can influence the pi to pi* or n to pi* electronic transitions of the porphyrin and hence its optical characteristics.
+- [W9.361] Artist Julian Voss-Andreae created a sculpture called Heart of Steel (Hemoglobin) in 2005, based on the protein's backbone.
+- [W9.362] The sculpture was made from glass and weathering steel.
+- [W9.363] The intentional rusting of the initially shiny work of art mirrors hemoglobin's fundamental chemical reaction of oxygen binding to iron.
+- [W9.364] Montreal artist Nicolas Baier created Lustre (Hémoglobine), a sculpture in stainless steel that shows the structure of the hemoglobin molecule.
+- [W9.365] It is displayed in the atrium of McGill University Health Centre's research centre in Montreal.
+- [W9.366] The sculpture measures about 10 metres × 10 metres × 10 metres.
+- [W9.367] Carbaminohemoglobin (Hb associated with CO2)
+- [W9.368] Carboxyhemoglobin (Hb associated with CO)
+- [W9.369] Methemoglobin (ferric Hb, or ferrihemoglobin)
+- [W9.370] Oxyhemoglobin (with diatomic oxygen, colored blood-red)
+- [W9.371] Tegillarca granosa - "blood clam"
+- [W9.372] Vaska's complex – iridium organometallic complex notable for its ability to bind to O2 reversibly
+- [W9.373] Eshaghian, S; Horwich, TB; Fonarow, GC (2006).
+- [W9.374] "An unexpected inverse relationship between HbA1c levels and mortality in patients with diabetes and advanced systolic heart failure".
+- [W9.375] 151 (1): 91.e1–91.e6. doi:10.1016/j.ahj.2005.10.008.
+- [W9.376] Review of Medical Physiology (21st ed.).
+- [W9.377] Force of Nature: The Life of Linus Pauling.
+- [W9.378] Hazelwood, Loren (2001) Can't Live Without It: The story of hemoglobin in sickness and in health, Nova Science Publishers ISBN 1-56072-907-4
+- [W9.379] Kneipp J, Balakrishnan G, Chen R, Shen TJ, Sahu SC, Ho NT, Giovannelli JL, Simplaceanu V, Ho C, Spiro T (2005).
+- [W9.380] "Dynamics of allostery in hemoglobin: roles of the penultimate tyrosine H bonds".
+- [W9.381] 356 (2): 335–53. doi:10.1016/j.jmb.2005.11.006.
+- [W9.382] "Evolution of Hemoglobin and Its Genes".
+- [W9.383] Cold Spring Harbor Perspectives in Medicine.
+- [W9.384] 2 (12) a011627. doi:10.1101/cshperspect.a011627.
+- [W9.385] National Anemia Action Council at anemia.org
+- [W9.386] New hemoglobin type causes mock diagnosis with pulse oxymeters Archived 2016-03-09 at the Wayback Machine at www.life-of-science.net Archived 2017-03-07 at the Wayback Machine
+- [W9.387] Hemoglobin article  at caloriebite.in
+
+## [W10] Wikipedia: Keratin
+https://en.wikipedia.org/w/index.php?title=Keratin&oldid=1376073477 · CC BY-SA 4.0 · usage: ai_input
+
+- [W10.1] Keratin () is one of a family of structural fibrous proteins also known as scleroproteins.
+- [W10.2] It is the key structural material making up scales, hair, nails, feathers, horns, claws, hooves, and the outer layer of skin in tetrapod vertebrates.
+- [W10.3] Keratin also protects epithelial cells from damage or stress.
+- [W10.4] Keratin is extremely insoluble in water and organic solvents.
+- [W10.5] Keratin monomers assemble into bundles to form intermediate filaments, which are tough and form strong unmineralized epidermal appendages found in reptiles, birds, amphibians, and mammals.
+- [W10.6] Excessive keratinization participate in fortification of certain tissues such as in horns of cattle and rhinos, and armadillos' osteoderm.
+- [W10.7] The only other biological matter known to approximate the toughness of keratinized tissue is chitin.
+- [W10.8] Keratin comes in two types: the primitive, softer forms found in all vertebrates and the harder, derived forms found only among sauropsids (reptiles and birds).
+- [W10.9] Alpha-keratins (α-keratins) are found in all vertebrates.
+- [W10.10] They form the hair (including wool), the outer layer of skin, horns, nails, claws and hooves of mammals, and the slime threads of hagfish.
+- [W10.11] The baleen plates of filter-feeding whales are also made of keratin.
+- [W10.12] Keratin filaments are abundant in keratinocytes in the hornified layer of the epidermis; these are proteins which have undergone keratinization.
+- [W10.13] They are also present in epithelial cells in general.
+- [W10.14] For example, mouse thymic epithelial cells react with antibodies for keratin 5, keratin 8, and keratin 14.
+- [W10.15] These antibodies are used as fluorescent markers to distinguish subsets of mouse thymic epithelial cells in genetic studies of the thymus.
+- [W10.16] The harder beta-keratins (β-keratins) are found only in the sauropsids, i.e., all living reptiles and birds.
+- [W10.17] They are found in the nails, scales, and claws of reptiles, in some reptile shells (Testudines), and in the feathers, beaks, and claws of birds.
+- [W10.18] These keratins are formed primarily in beta sheets.
+- [W10.19] However, beta sheets are also found in α-keratins.
+- [W10.20] Recent scholarship has shown that sauropsid β-keratins are fundamentally different from α-keratins at a genetic and structural level.
+- [W10.21] The new term corneous beta protein (CBP) has been proposed to avoid confusion with α-keratins.
+- [W10.22] Keratins (also described as cytokeratins) are polymers of type I and type II intermediate filaments that have been found only in chordates (vertebrates, amphioxi, urochordates).
+- [W10.23] Nematodes and many other non-chordate animals seem to have only type V intermediate filaments, fibers that structure the nucleus.
+- [W10.24] The human genome encodes 54 functional keratin genes, located in two clusters on chromosomes 12 and 17.
+- [W10.25] This suggests that they originated from a series of gene duplications on these chromosomes.
+- [W10.26] The keratins include the following proteins of which KRT23, KRT24, KRT25, KRT26, KRT27, KRT28, KRT31, KRT32, KRT33A, KRT33B, KRT34, KRT35, KRT36, KRT37, KRT38, KRT39, KRT40, KRT71, KRT72, KRT73, KRT74, KRT75, KRT76, KRT77, KRT78, KRT79, KRT80, KRT81, KRT82, KRT83, KRT84, KRT85 and KRT86 have been used to describe keratins past 20.
+- [W10.27] The first sequences of keratins were determined by Israel Hanukoglu and Elaine Fuchs (1982, 1983).
+- [W10.28] These sequences revealed that there are two distinct but homologous keratin families, which were named type I and type II keratins.
+- [W10.29] By analysis of the primary structures of these keratins and other intermediate filament proteins, Hanukoglu and Fuchs suggested a model in which keratins and intermediate filament proteins contain a central ~310 residue domain with four segments in α-helical conformation that are separated by three short linker segments predicted to be in beta-turn conformation.
+- [W10.30] This model has been confirmed by the determination of the crystal structure of a helical domain of keratins.
+- [W10.31] The human genome has 54 functional annotated keratin genes, of which 28 are type I keratins and 26 are type II keratins.
+- [W10.32] Fibrous keratin molecules supercoil to form a very stable, left-handed superhelical motif to multimerise, forming filaments consisting of multiple copies of the keratin monomer.
+- [W10.33] The major force that keeps the coiled-coil structure is hydrophobic interactions between apolar residues along the keratin's helical segments.
+- [W10.34] The keratin supercoil shape has limited space in the interior of the coil.
+- [W10.35] This size restriction is balanced in keratin by a high frequency of glycine residues, the smallest protein amino-acid.
+- [W10.36] A high frequency of glycine residues is also seen in collagen structural proteins, which also feature a size-constrained helical shape.
+- [W10.37] The connective tissue protein elastin also has a high percentage of both glycine and alanine.
+- [W10.38] A preponderance of amino acids with small, nonreactive side groups is characteristic of structural proteins, for which H-bonded close packing is more important than chemical specificity.
+- [W10.39] In addition to intra- and intermolecular hydrogen bonds, the distinguishing feature of keratins is the presence of large amounts of the sulfur-containing amino acid cysteine, required for the disulfide bridges that confer additional strength and rigidity by permanent, thermally stable crosslinking—in much the same way that non-protein sulfur bridges stabilize vulcanized rubber.
+- [W10.40] Human hair is approximately 14% cysteine.
+- [W10.41] The pungent smells of burning hair and skin are due to the volatile sulfur compounds formed.
+- [W10.42] Extensive disulfide bonding contributes to the insolubility of keratins, except in a small number of solvents such as dissociating or reducing agents.
+- [W10.43] The more flexible and elastic keratins of hair have fewer interchain disulfide bridges than the keratins in mammalian fingernails, hooves and claws (homologous structures), which are harder and more like their analogs in other vertebrate classes.
+- [W10.44] Hair and other α-keratins consist of α-helically coiled single protein strands (with regular intra-chain H-bonding), which are then further twisted into superhelical ropes that may be further coiled.
+- [W10.45] The β-keratins of reptiles and birds have β-pleated sheets twisted together, then stabilized and hardened by disulfide bridges.
+- [W10.46] Thiolated polymers (thiomers) can form disulfide bridges with cysteine substructures of keratins getting covalently attached to these proteins.
+- [W10.47] Thiomers therefore exhibit high binding properties to keratins found in hair, on skin and on the surface of many cell types.
+- [W10.48] It has been proposed that keratins can be divided into 'hard' and 'soft' forms, or 'cytokeratins' and 'other keratins'.
+- [W10.49] That model is now understood to be correct.
+- [W10.50] A new nuclear addition in 2006 to describe keratins takes this into account.
+- [W10.51] Keratin filaments are intermediate filaments.
+- [W10.52] Like all intermediate filaments, keratin proteins form filamentous polymers in a series of assembly steps beginning with dimerization; dimers assemble into tetramers and octamers and eventually, if the current hypothesis holds, into unit-length-filaments (ULF) capable of annealing end-to-end into long filaments.
+- [W10.53] Cornification is the process of forming an epidermal barrier in
+- [W10.54] stratified squamous epithelial tissue.
+- [W10.55] cornification is characterised by:
+- [W10.56] production of small proline-rich (SPRR) proteins and transglutaminase which eventually form a cornified cell envelope beneath the plasma membrane
+- [W10.57] loss of nuclei and organelles, in the final stages of cornification
+- [W10.58] Metabolism ceases, and the cells are almost completely filled by keratin.
+- [W10.59] During the process of epithelial differentiation, cells become cornified as keratin protein is incorporated into longer keratin intermediate filaments.
+- [W10.60] Eventually the nucleus and cytoplasmic organelles disappear, metabolism ceases and cells undergo a programmed death as they become fully keratinized.
+- [W10.61] In many other cell types, such as cells of the dermis, keratin filaments and other intermediate filaments function as part of the cytoskeleton to mechanically stabilize the cell against physical stress.
+- [W10.62] It does this through connections to desmosomes, cell–cell junctional plaques, and hemidesmosomes, cell-basement membrane adhesive structures.
+- [W10.63] Cells in the epidermis contain a structural matrix of keratin, which makes this outermost layer of the skin almost waterproof, and along with collagen and elastin gives skin its strength.
+- [W10.64] Rubbing and pressure cause thickening of the outer, cornified layer of the epidermis and forms protective calluses, which are useful for athletes and on the fingertips of musicians who play stringed instruments.
+- [W10.65] Keratinized epidermal cells are constantly shed and replaced.
+- [W10.66] These hard, integumentary structures are formed by intercellular cementing of fibers formed from the dead, cornified cells generated by specialized beds deep within the skin.
+- [W10.67] Hair grows continuously and feathers molt and regenerate.
+- [W10.68] The constituent proteins may be phylogenetically homologous but differ somewhat in chemical structure and supermolecular organization.
+- [W10.69] The evolutionary relationships are complex and only partially known.
+- [W10.70] Multiple genes have been identified for the β-keratins in feathers, and this is probably characteristic of all keratins.
+- [W10.71] Abnormal growth of keratin can occur in a variety of conditions including keratosis, hyperkeratosis and keratoderma.
+- [W10.72] Mutations in keratin gene expression can lead to, among others:
+- [W10.73] Epidermolysis bullosa simplex
+- [W10.74] Ichthyosis bullosa of Siemens
+- [W10.75] Epidermolytic hyperkeratosis
+- [W10.76] Rhabdoid cell formation in large cell lung carcinoma with rhabdoid phenotype
+- [W10.77] Several diseases, such as athlete's foot and ringworm, are caused by infectious fungi that feed on keratin.
+- [W10.78] Keratin is highly resistant to digestive acids if ingested.
+- [W10.79] Cats regularly ingest hair as part of their grooming behavior, leading to the gradual formation of hairballs that may be expelled orally or excreted.
+- [W10.80] In humans, trichophagia may lead to Rapunzel syndrome, an extremely rare but potentially fatal intestinal condition.
+- [W10.81] Keratin expression is helpful in determining epithelial origin in anaplastic cancers.
+- [W10.82] Tumors that express keratin include carcinomas, thymomas, sarcomas and trophoblastic neoplasms.
+- [W10.83] Furthermore, the precise expression-pattern of keratin subtypes allows prediction of the origin of the primary tumor when assessing metastases.
+- [W10.84] For example, hepatocellular carcinomas typically express CK8 and CK18, and cholangiocarcinomas express CK7, CK8 and CK18, while metastases of colorectal carcinomas express CK20, but not CK7.
+- [W10.85] Keratin-associated proteins (KRTAPs)
+- [W10.86] List of cutaneous conditions caused by mutations in keratins
+- [W10.87] List of keratins expressed in the human integumentary system
+- [W10.88] Hair-Science.com's entry on the microscopic elements of hair
+- [W10.89] Proteopedia page on keratins
+
+## [W11] Wikipedia: Transcription factor
+https://en.wikipedia.org/w/index.php?title=Transcription_factor&oldid=1378821232 · CC BY-SA 4.0 · usage: ai_input
+
+- [W11.1] In molecular biology, a transcription factor (TF) (or sequence-specific DNA-binding factor) is a protein that controls the rate of transcription of genetic information from DNA to messenger RNA, by binding to DNA sequences.
+- [W11.2] Specificity can be due to sequence motifs, or epigenetic modifications.
+- [W11.3] The function of TFs is to regulate—turn on and off—genes in order to make sure that they are expressed in the desired cells at the right time and in the right amount throughout the life of the cell and the organism.
+- [W11.4] Groups of TFs function in a coordinated fashion to direct cell division, cell growth, and cell death throughout life; cell migration and organization (body plan) during embryonic development; and intermittently in response to signals from outside the cell, such as a hormone.
+- [W11.5] There are approximately 1600 TFs in the human genome, where half of them are C2H2 zinc fingers.
+- [W11.6] Transcription factors are members of the proteome as well as regulome.
+- [W11.7] TFs work alone or with other proteins in a complex, by promoting (as an activator), or blocking (as a repressor) the recruitment of RNA polymerase (the enzyme that performs the transcription of genetic information from DNA to RNA) to specific genes.
+- [W11.8] A defining feature of TFs is that they contain at least one DNA-binding domain (DBD), which attaches to a specific sequence of DNA adjacent to the genes that they regulate.
+- [W11.9] TFs are grouped into classes based on their DBDs.
+- [W11.10] Other proteins such as coactivators, chromatin remodelers, histone acetyltransferases, histone deacetylases, kinases, and methylases are also essential to gene regulation, but lack DNA-binding domains, and therefore are not TFs.
+- [W11.11] TFs are of interest in medicine because TF mutations can cause specific diseases, and medications can be potentially targeted toward them.
+- [W11.12] Transcription factors are essential for the regulation of gene expression and are, as a consequence, found in all living organisms.
+- [W11.13] The number of transcription factors found within an organism increases with genome size, and larger genomes tend to have more transcription factors per gene.
+- [W11.14] There are approximately 2800 proteins in the human genome that contain DNA-binding domains, and 1600 of these are presumed to function as transcription factors, where half of them (~800) are C2H2 zinc finger proteins.
+- [W11.15] Therefore, approximately 10% of genes in the genome code for transcription factors, which makes this family the single largest family of human proteins.
+- [W11.16] Furthermore, genes are often flanked by several binding sites for distinct transcription factors, and efficient expression of each of these genes requires the cooperative action of several different transcription factors (see, for example, hepatocyte nuclear factors).
+- [W11.17] Hence, the combinatorial use of a subset of the approximately 2000 human transcription factors easily accounts for the unique regulation of each gene in the human genome during development.
+- [W11.18] Transcription factors bind to either enhancer or promoter regions of DNA adjacent to the genes that they regulate based on recognizing specific DNA motifs.
+- [W11.19] Depending on the transcription factor, the transcription of the adjacent gene is either up- or down-regulated.
+- [W11.20] Transcription factors use a variety of mechanisms for the regulation of gene expression.
+- [W11.21] stabilize or block the binding of RNA polymerase or other factors to DNA
+- [W11.22] catalyze the acetylation or deacetylation of histone proteins.
+- [W11.23] The transcription factor can either do this directly or recruit other proteins with this catalytic activity.
+- [W11.24] Many transcription factors use one or the other of two opposing mechanisms to regulate transcription:
+- [W11.25] histone acetyltransferase (HAT) activity – acetylates histone proteins, which weakens the association of DNA with histones, which make the DNA more accessible to transcription, thereby up-regulating transcription
+- [W11.26] histone deacetylase (HDAC) activity – deacetylates histone proteins, which strengthens the association of DNA with histones, which make the DNA less accessible to transcription, thereby down-regulating transcription
+- [W11.27] recruit coactivator or corepressor proteins to the transcription factor DNA complex
+- [W11.28] Transcription factors are one of the groups of proteins that read and interpret the genetic "blueprint" in the DNA.
+- [W11.29] They bind to the DNA and help initiate a program of increased or decreased gene transcription.
+- [W11.30] As such, they are vital for many important cellular processes.
+- [W11.31] Below are some of the important functions and biological roles transcription factors are involved in:
+- [W11.32] Basal transcriptional regulation
+- [W11.33] In eukaryotes, an important class of transcription factors called general transcription factors (GTFs) are necessary for transcription to occur.
+- [W11.34] Many of these GTFs do not actually bind DNA, but rather are part of the large transcription preinitiation complex that interacts with RNA polymerase directly.
+- [W11.35] The most common GTFs are TFIIA, TFIIB, TFIID (see also TATA binding protein), TFIIE, TFIIF, and TFIIH.
+- [W11.36] The preinitiation complex binds to promoter regions of DNA upstream to the gene that they regulate.
+- [W11.37] Differential enhancement of transcription
+- [W11.38] Other transcription factors differentially regulate the expression of various genes by binding to enhancer regions of DNA adjacent to regulated genes.
+- [W11.39] These transcription factors are critical to making sure that genes are expressed in the right cell at the right time and in the right amount, depending on the changing requirements of the organism.
+- [W11.40] Many transcription factors in multicellular organisms are involved in development.
+- [W11.41] Responding to stimuli, these transcription factors turn on/off the transcription of the appropriate genes, which, in turn, allows for changes in cell morphology or activities needed for cell fate determination and cellular differentiation.
+- [W11.42] The Hox transcription factor family, for example, is important for proper body pattern formation in organisms as diverse as fruit flies to humans.
+- [W11.43] Another example is the transcription factor sex-determining region Y protein encoded by the SRY gene, which plays a major role in determining sex in humans.
+- [W11.44] Response to intercellular signals
+- [W11.45] Cells can communicate with each other by releasing molecules that produce signaling cascades within another receptive cell.
+- [W11.46] If the signal requires upregulation or downregulation of genes in the recipient cell, often transcription factors will be downstream in the signaling cascade.
+- [W11.47] Estrogen signaling is an example of a fairly short signaling cascade that involves the estrogen receptor transcription factor:  Estrogen is secreted by tissues such as the ovaries and placenta, crosses the cell membrane of the recipient cell, and is bound by the estrogen receptor in the cell's cytoplasm.
+- [W11.48] The estrogen receptor then goes to the cell's nucleus and binds to its DNA-binding sites, changing the transcriptional regulation of the associated genes.
+- [W11.49] Not only do transcription factors act downstream of signaling cascades related to biological stimuli but they can also be downstream of signaling cascades involved in environmental stimuli.
+- [W11.50] Examples include heat shock factor (HSF), which upregulates genes necessary for survival at higher temperatures, hypoxia inducible factor (HIF), which upregulates genes necessary for cell survival in low-oxygen environments, and sterol regulatory element binding protein (SREBP), which helps maintain proper lipid levels in the cell.
+- [W11.51] Many transcription factors, especially some that are proto-oncogenes or tumor suppressors, help regulate the cell cycle and as such determine how large a cell will get and when it can divide into two daughter cells.
+- [W11.52] One example is the Myc oncogene, which has important roles in cell growth and apoptosis.
+- [W11.53] Transcription factors can also be used to alter gene expression in a host cell to promote pathogenesis.
+- [W11.54] A well studied example of this are the transcription-activator like effectors (TAL effectors) secreted by Xanthomonas bacteria.
+- [W11.55] When injected into plants, these proteins can enter the nucleus of the plant cell, bind plant promoter sequences, and activate transcription of plant genes that aid in bacterial infection.
+- [W11.56] TAL effectors contain a central repeat region in which there is a simple relationship between the identity of two critical residues in sequential repeats and sequential DNA bases in the TAL effector's target site.
+- [W11.57] This property likely makes it easier for these proteins to evolve in order to better compete with the defense mechanisms of the host cell.
+- [W11.58] It is common in biology for important processes to have multiple layers of regulation and control.
+- [W11.59] This is also true with transcription factors:  Not only do transcription factors control the rates of transcription to regulate the amounts of gene products (RNA and protein) available to the cell but transcription factors themselves are regulated (often by other transcription factors).
+- [W11.60] Below is a brief synopsis of some of the ways that the activity of transcription factors can be regulated:
+- [W11.61] Transcription factors (like all proteins) are transcribed from a gene on a chromosome into RNA, and then the RNA is translated into protein.
+- [W11.62] Any of these steps can be regulated to affect the production (and thus activity) of a transcription factor.
+- [W11.63] An implication of this is that transcription factors can regulate themselves.
+- [W11.64] For example, in a negative feedback loop, the transcription factor acts as its own repressor:  If the transcription factor protein binds the DNA of its own gene, it down-regulates the production of more of itself.
+- [W11.65] This is one mechanism to maintain low levels of a transcription factor in a cell.
+- [W11.66] In eukaryotes, transcription factors (like most proteins) are transcribed in the nucleus but are then translated in the cell's cytoplasm.
+- [W11.67] Many proteins that are active in the nucleus contain nuclear localization signals that direct them to the nucleus.
+- [W11.68] But, for many transcription factors, this is a key point in their regulation.
+- [W11.69] Important classes of transcription factors such as some nuclear receptors must first bind a ligand while in the cytoplasm before they can relocate to the nucleus.
+- [W11.70] Transcription factors may be activated or deactivated through their signal-sensing or effector domains.
+- [W11.71] However, not all transcription factors have an effector domain; for example, approximately 400 C2H2 zinc finger transcription factors contain only DNA-binding domains (DBDs).
+- [W11.72] Activation or repression of transcription factors can occur through a number of mechanisms, including:
+- [W11.73] ligand binding – Not only is ligand binding able to influence where a transcription factor is located within a cell but ligand binding can also affect whether the transcription factor is in an active state and capable of binding DNA or other cofactors (see, for example, nuclear receptors).
+- [W11.74] phosphorylation – Many transcription factors such as STAT proteins must be phosphorylated before they can bind DNA.
+- [W11.75] interaction with other transcription factors (e.g., homo- or hetero-dimerization)
+- [W11.76] interacting with coregulatory proteins such as co-activators (e.g., COPS5, EP300, BCL3); co-repressors (e.g., NCOR1, SIN3A, TRIM24).
+- [W11.77] However, there are transcription co-regulators that can act as both, activator and repressors.
+- [W11.78] Accessibility of dna-binding site
+- [W11.79] In eukaryotes, DNA is organized with the help of histones into compact particles called nucleosomes, where sequences of about 147 DNA base pairs make ~1.65 turns around histone protein octamers.
+- [W11.80] DNA within nucleosomes is inaccessible to many transcription factors.
+- [W11.81] Some transcription factors, so-called pioneer factors are still able to bind their DNA binding sites on the nucleosomal DNA.
+- [W11.82] For most other transcription factors, the nucleosome should be actively unwound by molecular motors such as chromatin remodelers.
+- [W11.83] Alternatively, the nucleosome can be partially unwrapped by thermal fluctuations, allowing temporary access to the transcription factor binding site.
+- [W11.84] In many cases, a transcription factor needs to compete for binding to its DNA binding site with other transcription factors and histones or non-histone chromatin proteins.
+- [W11.85] Pairs of transcription factors and other proteins can play antagonistic roles (activator versus repressor) in the regulation of the same gene.
+- [W11.86] Availability of other cofactors/transcription factors
+- [W11.87] Most transcription factors do not work alone.
+- [W11.88] Many large TF families form complex homotypic or heterotypic interactions through dimerization.
+- [W11.89] For gene transcription to occur, a number of transcription factors must bind to DNA regulatory sequences.
+- [W11.90] This collection of transcription factors, in turn, recruit intermediary proteins such as cofactors that allow efficient recruitment of the preinitiation complex and RNA polymerase.
+- [W11.91] Thus, for a single transcription factor to initiate transcription, all of these other proteins must also be present, and the transcription factor must be in a state where it can bind to them if necessary.
+- [W11.92] Cofactors are proteins that modulate the effects of transcription factors.
+- [W11.93] Cofactors are interchangeable between specific gene promoters; the protein complex that occupies the promoter DNA and the amino acid sequence of the cofactor determine its spatial conformation.
+- [W11.94] For example, certain steroid receptors can exchange cofactors with NF-κB, which is a switch between inflammation and cellular differentiation; thereby steroids can affect the inflammatory response and function of certain tissues.
+- [W11.95] Interaction with methylated cytosine
+- [W11.96] Transcription factors and methylated cytosines in DNA both have major roles in regulating gene expression.
+- [W11.97] (Methylation of cytosine in DNA primarily occurs where cytosine is followed by guanine in the 5' to 3' DNA sequence, a CpG site.)  Methylation of CpG sites in a promoter region of a gene usually represses gene transcription, while methylation of CpGs in the body of a gene increases expression.
+- [W11.98] TET enzymes play a central role in demethylation of methylated cytosines.
+- [W11.99] Demethylation of CpGs in a gene promoter by TET enzyme activity increases transcription of the gene.
+- [W11.100] The DNA binding sites of 519 transcription factors were evaluated.
+- [W11.101] Of these, 169 transcription factors (33%) did not have CpG dinucleotides in their binding sites, and 33 transcription factors (6%) could bind to a CpG-containing motif but did not display a preference for a binding site with either a methylated or unmethylated CpG.
+- [W11.102] There were 117 transcription factors (23%) that were inhibited from binding to their binding sequence if it contained a methylated CpG site, 175 transcription factors (34%) that had enhanced binding if their binding sequence had a methylated CpG site, and 25 transcription factors (5%) were either inhibited or had enhanced binding depending on where in the binding sequence the methylated CpG was located.
+- [W11.103] TET enzymes do not specifically bind to methylcytosine except when recruited (see DNA demethylation).
+- [W11.104] Multiple transcription factors important in cell differentiation and lineage specification, including NANOG, SALL4A, WT1, EBF1, PU.1, and E2A, have been shown to recruit TET enzymes to specific genomic loci (primarily enhancers) to act on methylcytosine (mC) and convert it to hydroxymethylcytosine hmC (and in most cases marking them for subsequent complete demethylation to cytosine).
+- [W11.105] TET-mediated conversion of mC to hmC appears to disrupt the binding of 5mC-binding proteins including MECP2 and MBD (Methyl-CpG-binding domain) proteins, facilitating nucleosome remodeling and the binding of transcription factors, thereby activating transcription of those genes.
+- [W11.106] EGR1 is an important transcription factor in memory formation.
+- [W11.107] It has an essential role in brain neuron epigenetic reprogramming.
+- [W11.108] The transcription factor EGR1 recruits the TET1 protein that initiates a pathway of DNA demethylation.
+- [W11.109] EGR1, together with TET1, is employed in programming the distribution of methylation sites on brain DNA during brain development and in learning (see Epigenetics in learning and memory).
+- [W11.110] Transcription factors are modular in structure and contain the following domains:
+- [W11.111] DNA-binding domain (DBD), which attaches to specific sequences of DNA (enhancer or promoter.
+- [W11.112] Necessary component for all vectors.
+- [W11.113] Used to drive transcription of the vector's transgene promoter sequences) adjacent to regulated genes.
+- [W11.114] DNA sequences that bind transcription factors are often referred to as response elements.
+- [W11.115] Sometimes, DBDs can directly recruit transcription coregulators without the need of an activation domain.
+- [W11.116] Activation domain (AD), which contains binding sites for other proteins such as transcription coregulators.
+- [W11.117] These binding sites are frequently referred to as activation functions (AFs), Transactivation domain (TAD) or Trans-activating domain TAD, not to be confused with topologically associating domain (TAD).
+- [W11.118] However, not all TFs have an activation domain (e.g., half of them (~800) are C2H2 zinc finger proteins)
+- [W11.119] An optional signal-sensing domain (SSD) (e.g., a ligand-binding domain), which senses external signals and, in response, transmits these signals to the rest of the transcription complex, resulting in up- or down-regulation of gene expression.
+- [W11.120] Also, the DBD and signal-sensing domains may reside on separate proteins that associate within the transcription complex to regulate gene expression.
+- [W11.121] The portion (domain) of the transcription factor that binds DNA is called its DNA-binding domain.
+- [W11.122] Below is a partial list of some of the major families of DNA-binding domains/transcription factors:
+- [W11.123] The DNA sequence that a transcription factor binds to is called a transcription factor-binding site or response element.
+- [W11.124] Transcription factors interact with their binding sites using a combination of electrostatic (of which hydrogen bonds are a special case) and Van der Waals forces.
+- [W11.125] Due to the nature of these chemical interactions, most transcription factors bind DNA in a sequence specific manner.
+- [W11.126] However, not all bases in the transcription factor-binding site may actually interact with the transcription factor.
+- [W11.127] In addition, some of these interactions may be weaker than others.
+- [W11.128] Thus, transcription factors do not bind just one sequence but are capable of binding a subset of closely related sequences, each with a different strength of interaction.
+- [W11.129] For example, although the consensus binding site for the TATA-binding protein (TBP) is TATAAAA, the TBP transcription factor can also bind similar sequences such as TATATAT or TATATAA.
+- [W11.130] Because transcription factors can bind a set of related sequences and these sequences tend to be short, potential transcription factor binding sites can occur by chance if the DNA sequence is long enough.
+- [W11.131] It is unlikely, however, that a transcription factor will bind all compatible sequences in the genome of the cell.
+- [W11.132] Other constraints, such as DNA accessibility in the cell or availability of cofactors may also help dictate where a transcription factor will actually bind.
+- [W11.133] Thus, given the genome sequence, it is still difficult to predict where a transcription factor will actually bind in a living cell.
+- [W11.134] Additional recognition specificity, however, may be obtained through the use of more than one DNA-binding domain (for example tandem DBDs in the same transcription factor or through dimerization of two transcription factors) that bind to two or more adjacent sequences of DNA.
+- [W11.135] Transcription factors are of clinical significance for at least two reasons: (1) mutations can be associated with specific diseases, and (2) they can be targets of medications.
+- [W11.136] Due to their important roles in development, intercellular signaling, and cell cycle, some human diseases have been associated with mutations in transcription factors.
+- [W11.137] Many transcription factors are either tumor suppressors or oncogenes, and, thus, mutations or aberrant regulation of them is associated with cancer.
+- [W11.138] Three groups of transcription factors are known to be important in human cancer: (1) the NF-kappaB and AP-1 families, (2) the STAT family and (3) the steroid receptors.
+- [W11.139] Below are a few of the better-studied examples:
+- [W11.140] Approximately 10% of currently prescribed drugs directly target the nuclear receptor class of transcription factors.
+- [W11.141] Examples include tamoxifen and bicalutamide for the treatment of breast and prostate cancer, respectively, and various types of anti-inflammatory and anabolic steroids.
+- [W11.142] In addition, transcription factors are often indirectly modulated by drugs through signaling cascades.
+- [W11.143] It might be possible to directly target other less-explored transcription factors such as NF-κB with drugs.
+- [W11.144] Transcription factors outside the nuclear receptor family are thought to be more difficult to target with small molecule therapeutics since it is not clear that they are "drugable" but progress has been made on Pax2 and the notch pathway.
+- [W11.145] Gene duplications have played a crucial role in the evolution of species and many transcription factors exist as numerous copies across genomes.
+- [W11.146] For instance, the human genome encodes about 160 homeobox proteins, most of which are transcription factors and thought to have arisen through gene duplications.
+- [W11.147] Change in DNA binding specificity
+- [W11.148] Transcription factors (TFs) can evolve by changing their DNA binding specificity.
+- [W11.149] For instance, the human transcription factor Max binds to the sequence CACGTG with 3 amino acids contacting the first three bases.
+- [W11.150] When the first of these amino acids, Arg-14 is changed to Tyr-14 the binding specificity changes to CATATG.
+- [W11.151] Changing Arg-14 to Met-14 changes the binding specificity to CAGCTG etc.
+- [W11.152] This shows that small changes in TFs can substantially change the specificity and thus the target genes (and therefore the function) of a TF.
+- [W11.153] Effect of transcription factor loss
+- [W11.154] Given that transcription factors (TFs) regulate other genes, a common assumption is that many transcription factors must be essential and thus cannot be deleted.
+- [W11.155] For instance, 182 yeast proteins have been shown or are presumed to bind specific DNA sequences and thus are probably TFs (not all of them have been thoroughly tested for this activity though).
+- [W11.156] Among these 182 proteins, 171 gene-specific transcription factors (GSTF) were identified and deleted from the yeast genome.
+- [W11.157] 54% of these deletions do not strongly affect gene expression (under one tested growth condition) although a median of 19 genes changed their expression levels to some extent (with 55% of TFs being activators and 39% being repressors).
+- [W11.158] In other words, gene regulatory networks appear to be highly resilient to perturbation, even when the gene regulators are completely deleted.
+- [W11.159] Role in biocontrol activity
+- [W11.160] The transcription factors have a role in resistance activity which is important for successful biocontrol activity.
+- [W11.161] The resistant to oxidative stress and alkaline pH sensing were contributed from the transcription factor Yap1 and Rim101 of the Papiliotrema terrestris LS28 as molecular tools revealed an understanding of the genetic mechanisms underlying the biocontrol activity which supports disease management programs based on biological and integrated control.
+- [W11.162] There are different technologies available to analyze transcription factors.
+- [W11.163] On the genomic level, DNA-sequencing and database research are commonly used.
+- [W11.164] The protein version of the transcription factor is detectable by using specific antibodies.
+- [W11.165] The sample is detected on a western blot.
+- [W11.166] By using electrophoretic mobility shift assay (EMSA), the activation profile of transcription factors can be detected.
+- [W11.167] A multiplex approach for activation profiling is a TF chip system where several different transcription factors can be detected in parallel.
+- [W11.168] The most commonly used method for identifying transcription factor binding sites is chromatin immunoprecipitation (ChIP).
+- [W11.169] This technique relies on chemical fixation of chromatin with formaldehyde, followed by co-precipitation of DNA and the transcription factor of interest using an antibody that specifically targets that protein.
+- [W11.170] The DNA sequences can then be identified by microarray or high-throughput sequencing (ChIP-seq) to determine transcription factor binding sites.
+- [W11.171] If no antibody is available for the protein of interest, DamID may be a convenient alternative.
+- [W11.172] As described in more detail below, transcription factors may be classified by their (1) mechanism of action, (2) regulatory function, or (3) sequence homology (and hence structural similarity) in their DNA-binding domains.
+- [W11.173] They are also classified by 3D structure of their DBD and the way it contacts DNA.
+- [W11.174] There are two mechanistic classes of transcription factors:
+- [W11.175] General transcription factors are involved in the formation of a preinitiation complex.
+- [W11.176] The most common are abbreviated as TFIIA, TFIIB, TFIID, TFIIE, TFIIF, and TFIIH.
+- [W11.177] They are ubiquitous and interact with the core promoter region surrounding the transcription start site(s) of all class II genes.
+- [W11.178] Upstream transcription factors are proteins that bind somewhere upstream of the initiation site to stimulate or repress transcription.
+- [W11.179] These are roughly synonymous with specific transcription factors, because they vary considerably depending on what recognition sequences are present in the proximity of the gene.
+- [W11.180] Transcription factors have been classified according to their regulatory function:
+- [W11.181] Constitutive – present in all cells at all times, constantly active, all being activators.
+- [W11.182] Very likely playing an important facilitating role in the transcription of many chromosomal genes, possibly in genes that seem to be always transcribed (e.g., structural proteins like tubulin and actin, and ubiquitous metabolic enzymes such as glyceraldehyde phosphate dehydrogenase (GAPDH)).
+- [W11.183] E.g.: general transcription factors, Sp1, NF1, CCAAT
+- [W11.184] Regulatory (conditionally active) – require activation.
+- [W11.185] II.A Developmental (cell-type specific) – beginning in a fertilized egg.
+- [W11.186] Once expressed, require no additional activation.
+- [W11.187] E.g.:GATA, HNF, PIT-1, MyoD, Myf5, Hox, Winged Helix
+- [W11.188] II.B Signal-dependent – may be either developmentally restricted in their expression or present in most or all cells, but all are inactive (or minimally active) until cells containing such proteins are exposed to the appropriate intra- or extracellular signal.
+- [W11.189] II.B.1 Extracellular ligand (endocrine or paracrine)-dependent – nuclear receptors.
+- [W11.190] II.B.2 Intracellular ligand (autocrine)-dependent – activated by small intracellular molecules.
+- [W11.191] E.g.: SREBP, p53, orphan nuclear receptors.
+- [W11.192] II.B.3 Cell surface receptor-ligand interaction-dependent – activated by second messenger signaling cascades.
+- [W11.193] II.B.3.a Constitutive nuclear factors activated by serine phosphorylation – residing within the nucleus.
+- [W11.194] The serine phosphorylation enzymes can be activated by two main routes:
+- [W11.195] G protein-coupled receptors upon ligand binding increase intracellular levels of second messengers (cAMP, IP3, DAG, calcium) which, in turn, activate protein serine-threonine kinase enzymes (such as PKA, PKC).
+- [W11.196] Receptor tyrosine kinases upon ligand binding trigger other pathways that finally terminate in serine phosphorylation of the abundant resident nuclear transcription factors.
+- [W11.197] Examples include: CREB, AP-1, Mef2
+- [W11.198] II.B.3.b Latent cytoplasmic factors – residing in the cytoplasm when inactive.
+- [W11.199] Structurally and chemically very diverse group, and so are their activation pathways.
+- [W11.200] E.g.: STAT, R-SMAD, NF-κB, Notch, TUBBY, NFAT
+- [W11.201] Transcription factors are often classified based on the sequence similarity and hence the tertiary structure of their DNA-binding domains.
+- [W11.202] The following classification is based on the 3D structure of their DBD and the way it contacts DNA.
+- [W11.203] It was first developed for Human TF and later extended to rodents  and also to plants.
+- [W11.204] 1 Superclass: Basic Domains
+- [W11.205] 1.1 Class: Leucine zipper factors (bZIP)
+- [W11.206] 1.1.1 Family: AP-1(-like) components; includes (c-Fos/c-Jun)
+- [W11.207] 1.1.3 Family: C/EBP-like factors
+- [W11.208] 1.1.5 Family: Plant G-box binding factors
+- [W11.209] 1.2 Class: Helix-loop-helix factors (bHLH)
+- [W11.210] 1.2.1 Family: Ubiquitous (class A) factors
+- [W11.211] 1.2.2 Family: Myogenic transcription factors (MyoD)
+- [W11.212] 1.2.3 Family: Achaete-Scute
+- [W11.213] 1.2.4 Family: Tal/Twist/Atonal/Hen
+- [W11.214] 1.3 Class: Helix-loop-helix / leucine zipper factors (bHLH-ZIP)
+- [W11.215] 1.3.1 Family: Ubiquitous bHLH-ZIP factors; includes USF  (USF1, USF2); SREBP (SREBP)
+- [W11.216] 1.3.2 Family: Cell-cycle controlling factors; includes c-Myc
+- [W11.217] 1.4.1 Family: NF-1  (A, B, C, X)
+- [W11.218] 1.5.1 Family: RF-X (1, 2, 3, 4, 5, ANK)
+- [W11.219] 2 Superclass: Zinc-coordinating DNA-binding domains
+- [W11.220] 2.1 Class: Cys4 zinc finger of nuclear receptor type
+- [W11.221] 2.1.1 Family: Steroid hormone receptors
+- [W11.222] 2.1.2 Family: Thyroid hormone receptor-like factors
+- [W11.223] 2.2 Class: diverse Cys4 zinc fingers
+- [W11.224] 2.2.1 Family: GATA-Factors
+- [W11.225] 2.3 Class: Cys2His2 zinc finger domain
+- [W11.226] 2.3.1 Family: Ubiquitous factors, includes TFIIIA, Sp1
+- [W11.227] 2.3.2 Family: Developmental / cell cycle regulators; includes Krüppel
+- [W11.228] 2.3.4 Family: Large factors with NF-6B-like binding properties
+- [W11.229] 2.4 Class: Cys6 cysteine-zinc cluster
+- [W11.230] 2.5 Class: Zinc fingers of alternating composition
+- [W11.231] 3 Superclass: Helix-turn-helix
+- [W11.232] 3.1.1 Family: Homeo domain only; includes Ubx
+- [W11.233] 3.1.2 Family: POU domain factors; includes Oct
+- [W11.234] 3.1.3 Family: Homeo domain with LIM region
+- [W11.235] 3.1.4 Family: homeo domain plus zinc finger motifs
+- [W11.236] 3.2.1 Family: Paired plus homeo domain
+- [W11.237] 3.2.2 Family: Paired domain only
+- [W11.238] 3.3 Class: Fork head / winged helix
+- [W11.239] 3.3.1 Family: Developmental regulators; includes forkhead
+- [W11.240] 3.3.2 Family: Tissue-specific regulators
+- [W11.241] 3.3.3 Family: Cell-cycle controlling factors
+- [W11.242] 3.3.0 Family: Other regulators
+- [W11.243] 3.4 Class: Heat Shock Factors
+- [W11.244] 3.5 Class: Tryptophan clusters
+- [W11.245] 3.5.3 Family: Interferon regulatory factors
+- [W11.246] 3.6 Class: TEA (transcriptional enhancer factor) domain
+- [W11.247] 3.6.1 Family: TEA (TEAD1, TEAD2, TEAD3, TEAD4)
+- [W11.248] 4 Superclass: beta-Scaffold Factors with Minor Groove Contacts
+- [W11.249] 4.1 Class: RHR (Rel homology region)
+- [W11.250] 4.1.1 Family: Rel/ankyrin; NF-kappaB
+- [W11.251] 4.1.2 Family: ankyrin only
+- [W11.252] 4.1.3 Family: NFAT (Nuclear Factor of Activated T-cells) (NFATC1, NFATC2, NFATC3)
+- [W11.253] 4.4.1 Family: Regulators of differentiation; includes (Mef2)
+- [W11.254] 4.4.2 Family: Responders to external signals, SRF (serum response factor)  (SRF)
+- [W11.255] 4.4.3 Family: Metabolic regulators (ARG80)
+- [W11.256] 4.5 Class: beta-Barrel alpha-helix transcription factors
+- [W11.257] 4.6 Class: TATA binding proteins
+- [W11.258] 4.7.1 Family: SOX genes, SRY
+- [W11.259] 4.7.2 Family: TCF-1 (TCF1)
+- [W11.260] 4.7.3 Family: HMG2-related, SSRP1
+- [W11.261] 4.8 Class: Heteromeric CCAAT factors
+- [W11.262] 4.8.1 Family: Heteromeric CCAAT factors
+- [W11.263] 4.10 Class: Cold-shock domain factors
+- [W11.264] 0 Superclass: Other Transcription Factors
+- [W11.265] 0.1 Class: Copper fist proteins
+- [W11.266] 0.2 Class: HMGI(Y) (HMGA1)
+- [W11.267] 0.4 Class: E1A-like factors
+- [W11.268] 0.5 Class: AP2/EREBP-related factors
+- [W11.269] Transcription factor databases
+- [W11.270] There are numerous databases cataloging information about transcription factors, but their scope and utility vary dramatically.
+- [W11.271] Some may contain only information about the actual proteins, some about their binding sites, or about their target genes.
+- [W11.272] Examples include the following:
+- [W11.273] footprintDB - a metadatabase of multiple databases, including JASPAR and others
+- [W11.274] JASPAR: database of transcription factor binding sites for eukaryotes
+- [W11.275] CIS-BP: an "online library of transcription factors and their DNA binding motifs" spanning different species (across several kingdoms), protein families, genomic assays, and studies
+- [W11.276] PlantTFD: Plant transcription factor database
+- [W11.277] YeTFaSCo: Yeast (S. cerevisiae) database of TF binding motifs
+- [W11.278] TcoF-DB: Database of transcription co-factors and transcription factor interactions
+- [W11.279] TFcheckpoint: database of human, mouse and rat TF candidates
+- [W11.280] transcriptionfactor.org (now commercial, selling reagents)
+- [W11.281] MethMotif.org: An integrative cell-specific database of transcription factor binding motifs coupled with DNA methylation profiles.
+- [W11.282] Transcription+Factors at the U.S.
+- [W11.283] National Library of Medicine Medical Subject Headings (MeSH)
+- [W11.284] Transcription factor database Archived 4 December 2008 at the Wayback Machine
+
+## [W12] Wikipedia: Frederick Campion Steward
+https://en.wikipedia.org/w/index.php?title=Frederick_Campion_Steward&oldid=1380681084 · CC BY-SA 4.0 · usage: ai_input
+
+- [W12.1] Frederick Campion "Camp" Steward FRS (16 June 1904 – 13 September 1993) was a British botanist and plant physiologist.
+- [W12.2] He was born in Pimlico, London, but brought up in Yorkshire.
+- [W12.3] He was educated at Heckmondwike Grammar School and then attended the University of Leeds, where he gained a BSc in biology in 1924 and then undertook research in the botany department.
+- [W12.4] A Rockefeller Foundation fellowship took him first to Cornell University in 1924 and then to the University of California at Berkeley four years later, where he worked as postdoctoral researcher with Dennis Robert Hoagland from 1928 to 1929.
+- [W12.5] In 1934 he returned to England as a reader in botany and from 1940 to serve in the Ministry of Aircraft Production.
+- [W12.6] After the war he returned to the USA, holding appointments at the Universities of Chicago and Rochester before finally moving to Cornell in 1950.
+- [W12.7] Ever fascinated by the unfolding processes of growth and development, Steward set out to study the behaviour of mature cells, isolated from carrot roots, when cultured in sterile nutrient culture media (liquid endosperm, or coconut water), using specially designed flasks and the rotating 'Steward' wheel.
+- [W12.8] He unequivocally demonstrated that plant cells are totipotent, carrying the genetic information to enable them to develop into complete plants, often by embryogenesis, if given the right chemical stimuli in the correct order – thus vindicating an earlier prophecy that this would be so.
+- [W12.9] Steward discovered and laid the foundation for plant tissue culture; genetic engineering and plant biotechnology,  whether of food crops or trees.
+- [W12.10] His most important scientific contribution came in 1958, when he established that plants could be totally regenerated from one cell.
+- [W12.11] The finding revolutionised the world of plant cell biology, establishing for the first time that plant cuttings and shoots were no longer required to propagate hybrids and create mutations but that individual plant cells contained all the necessary information to regulate the entire plant organism.
+- [W12.12] His discovery of the means to obtain such regeneration has formed the basis of the entire field of plant molecular biology, meaning that clones, hybrids and mutations of plants can be accomplished in the laboratory rather than having to resort to the far longer and cumbersome process of taking and then cultivating cuttings.
+- [W12.13] From his Cornell classrooms and laboratories, Steward was responsible for creating and inspiring a generation of botanists.
+- [W12.14] Former students said that his lectures, in "advanced plant physiology" were the high point of their education.
+- [W12.15] The lectures covered an entire year, he used no notes, and would speak as he walked back and forth in front of the lecture theatre in Plant Science hall.
+- [W12.16] From the outset of his career, Steward was often associated with scientific controversy and he often tended to be at its epicentre.
+- [W12.17] He believed that one could be and maybe should be a "majority of one" if scientific convictions dictated it.
+- [W12.18] Steward was elected a Fellow of the Royal Society in March 1957.
+- [W12.19] His candidature citation read:
+- [W12.20] "[Steward] has contributed to knowledge of salt absorption, accumulation and transport since 1930.
+- [W12.21] His earlier work established that ion accumulation was linked to metabolism at a time when this was doubted, and in this connection extensive studies of protein metabolism were undertaken.
+- [W12.22] Steward and his colleagues Dent and Stepka made important early studies using the (then) new technique of chromatographic separation of amino acids.
+- [W12.23] He has (following a distinguished war record as Director of Aircraft Equipment II) been successful in recent years in isolating from coconut milk the factors which promote or maintain plant cells in the embryonic or meristematic condition.
+- [W12.24] Two have been identified definitely as diphenylures and a leuco-anthocyanin.
+- [W12.25] His current studies are dealing with mode of action of these substances and with ion accumulation processes of meristem tissue".
+- [W12.26] Steward delivered The Royal Society's Croonian Lecture in 1969 on "From cultured cells to whole plants: the induction and control of their growth and morphogenesis".
+- [W12.27] In 1939/1940, together with Dennis Robert Hoagland, he published two interesting articles in one of the world's premier scientific journals, Nature, on the "Metabolism and Salt Absorption by Plants".
+- [W12.28] He wrote more than 100 scientific journal articles and several books and was an editor and contributor to the 10 volumes and 15 books of "Plant Physiology: A Treatise" (Academic Press, 1959–1991).
+- [W12.29] He died in Tuscaloosa, Alabama.
+- [W12.30] He had married Anne Temple Gordon, whom he met at Cornell.
+
+## [W13] Wikipedia: Snuppy
+https://en.wikipedia.org/w/index.php?title=Snuppy&oldid=1372672420 · CC BY-SA 4.0 · usage: ai_input
+
+- [W13.1] Snuppy (Korean: 스너피, romanized: Seuneopi, a portmanteau of "SNU" and "puppy"; April 24, 2005 – May 2015) was an Afghan Hound, the first dog clone.
+- [W13.2] The puppy was created using a cell from an ear from an adult Afghan Hound and involved 123 surrogate mothers, of which only two produced pups (Snuppy being the sole survivor).
+- [W13.3] The Department of Theriogenology and Biotechnology at Seoul National University, which cloned Snuppy, was led by Woo Suk Hwang.
+- [W13.4] Snuppy has since been used in the first known successful breeding between cloned canines after his sperm was used to artificially inseminate two cloned females, which resulted in the birth of 10 puppies in 2008.
+- [W13.5] In 2017, 4 clones of Snuppy were made by Sooam, and were the first clones made of a cloned dog, to investigate potential health effects of cloning.
+- [W13.6] After Dolly the sheep was cloned in 1996, scientists had managed to clone numerous other animals, including cats, cows, gaur, horses, mice, mules, pigs, rabbits and rats but had been unsuccessful in cloning a dog due to the problematic task of maturing a canine ovum in an artificial environment.
+- [W13.7] After several failed attempts by other scientists, Woo Suk Hwang, a lead researcher at Seoul National University, created a clone using tissue from the ear of a 3-year-old Afghan Hound.
+- [W13.8] 123 surrogate mothers were used to carry the embryos, of which 1,095 were implanted, the procedure resulted in only three pregnancies; one resulted in a miscarriage, the other pup was born successfully but died of pneumonia three weeks after birth, the successful clone was carried by a Labrador Retriever.
+- [W13.9] From the original 1,095 embryos to the final two puppies, this placed the success rate of the project at less than two tenths of a percent.
+- [W13.10] Snuppy was named as a portmanteau of the initials of the Seoul National University (SNU) and the word "puppy".
+- [W13.11] As the eggs in a female canine are only fertile during the estrus phase of the estrous cycle, the eggs could only be harvested during a three-week period each year.
+- [W13.12] Due to complexities with removing eggs from canine ovaries the eggs had to be extracted from the oviduct, which required constant monitoring to achieve.
+- [W13.13] The nucleus of each egg was replaced with the cell from the ear of the adult dog and then electrified and fused using a chemical reaction.
+- [W13.14] The embryos were then transferred to the surrogate dogs.
+- [W13.15] Three of the surrogate mothers became pregnant and two gave birth.
+- [W13.16] Snuppy, the first to be born, survived while the other died two weeks after birth.
+- [W13.17] This process of cloning Snuppy took nearly three years of intensive effort.
+- [W13.18] Snuppy was named as Time magazine's "Most Amazing Invention" of the year in 2005.
+- [W13.19] Particular recognition was given to the cloning technique used in the process, which Time stated was "embodied by a history-making puppy".
+- [W13.20] Despite numerous labs performing mammalian cloning, they hailed the achievements of Hwang's team as "extraordinary".
+- [W13.21] The experiment was criticized by Robert Klitzman, director of Columbia University's Masters in Bioethics program, who said that the process raised the question of whether humans are "just a mass of cells and biological processes?" Hwang himself criticized the process, stating that it did not bring science any closer to human cloning and the complexities, coupled with the low success rate (one in 123), did not make it ethical to clone family pets.
+- [W13.22] Ian Wilmut, the scientist behind the successful cloning of Dolly the sheep, said that the successful cloning of Snuppy proved that any mammal could be cloned in the correct environments and that a global ban on human cloning needed to be quickly implemented because of this.
+- [W13.23] The Kennel Club criticised the entire concept of dog cloning, on the grounds that their mission is to "To promote in every way the general improvement of dogs" and no improvement can occur if replicas are being created.
+- [W13.24] Between late 2005–2006 Hwang was accused of a series of incidents of misconduct.
+- [W13.25] The first allegations related to his work prior to Snuppy—the claim that he had successfully cloned a human embryo.
+- [W13.26] The charges alleged Hwang had paid for egg donations and that some of the eggs came from his employees, which would constitute serious breaches of the code of bioethics.
+- [W13.27] It was later found that photographs he published did not depict what was suggested and that most of the stem-cell lines he claimed to have created were not clones at all.
+- [W13.28] This brought serious doubts about the validity of Snuppy, which Hwang consistently claimed was a genuine clone.
+- [W13.29] Hwang hired HumanPass Inc., a Korean DNA lab to investigate Snuppy, who found that Snuppy was authentic.
+- [W13.30] The findings by HumanPass were dismissed on the grounds that they were employed by Hwang, and a panel at the Seoul National University ordered their own investigation.
+- [W13.31] The investigation found that, despite his fabrications in previous projects, Hwang's research related to Snuppy was accurate and Snuppy was a clone of the adult Afghan hound.
+- [W13.32] As a result of his forgeries, Hwang was indicted for fraud and dismissed from the university.
+- [W13.33] Veterinary professor Byeong Chun Lee took over leadership of the team behind Snuppy.
+- [W13.34] In 2008, Snuppy became involved in the first known successful breeding between cloned canines, after sperm taken from Snuppy was used to artificially inseminate two cloned females, which resulted in the birth of 10 puppies.
+- [W13.35] Nine of the puppies survived.
+- [W13.36] The SNU team, under Lee, have gone on to clone over 30 dogs and five wolves.
+- [W13.37] SNU, which claimed to own the patent for the process used to clone Snuppy, formed a license agreement with RNL Bio, a commercial pet cloning company.
+- [W13.38] Hwang entered into a partnership with RNL Bio's competitor, BioArts International, which caused an ongoing legal battle into who owns the patent rights although Bio Arts withdrew from dog cloning in 2009.
+- [W13.39] RNL completed the first commercial cloning in August 2008 but ran into financial trouble in 2013.
+- [W13.40] The world's first cloned sniffer dogs (all of which are named Toppy) were put to work by South Korean customs in July 2009.
+- [W13.41] Supporters of Hwang founded a company called Sooam Biotech where Hwang developed proprietary techniques based on a licence from ViaGen's subsidiary Start Licensing (which owns the original Dolly patent) and created cloned dogs for owners whose dogs had died, charging $100,000 a time.
+- [W13.42] Sooam Biotech was reported to have cloned 700 dogs by 2015 and to be producing 500 cloned embryos of various species a day in 2016.
+- [W13.43] Snuppy developed cancer, which was the cause of his death in May 2015, at the age of 10.
+
+## [W14] Wikipedia: Fetal hemoglobin
+https://en.wikipedia.org/w/index.php?title=Fetal_hemoglobin&oldid=1358204480 · CC BY-SA 4.0 · usage: ai_input
+
+- [W14.1] Fetal hemoglobin, or foetal haemoglobin (also hemoglobin F, HbF, or α2γ2) is the main oxygen carrier protein in the human fetus.
+- [W14.2] Hemoglobin F is found in fetal red blood cells, and is involved in transporting oxygen from the mother's bloodstream to organs and tissues in the fetus.
+- [W14.3] It is produced at around 6 weeks of pregnancy  and the levels remain high after birth until the baby is roughly 2–4 months old.
+- [W14.4] Hemoglobin F has a different composition than adult forms of hemoglobin, allowing it to bind (or attach to) oxygen more strongly; this in turn enables the developing fetus to retrieve oxygen from the mother's bloodstream, which occurs through the placenta found in the mother's uterus.
+- [W14.5] In the newborn, levels of hemoglobin F gradually decrease and reach adult levels (less than 1% of total hemoglobin) usually within the first year, as adult forms of hemoglobin begin to be produced.
+- [W14.6] Diseases such as beta thalassemias, which affect components of the adult hemoglobin, can delay this process, and cause hemoglobin F levels to be higher than normal.
+- [W14.7] In sickle cell anemia, increasing the production of hemoglobin F has been used as a treatment to relieve some of the symptoms.
+- [W14.8] Hemoglobin F, like adult hemoglobin (hemoglobin A and hemoglobin A2), has four subunits or chains.
+- [W14.9] Each subunit contains a heme group with an iron element which is key in allowing the binding and unbinding of oxygen.
+- [W14.10] As such, hemoglobin F can adopt two states: oxyhemoglobin (bound to oxygen) and deoxyhemoglobin (without oxygen).
+- [W14.11] As hemoglobin F has 4 heme groups, it can bind to up to four oxygen molecules.
+- [W14.12] It is composed of two α (alpha) subunits and two γ (gamma) subunits, whereas hemoglobin A (97% of total hemoglobin in adults) is composed of two α and two β (beta) subunits.
+- [W14.13] In humans, the α subunit is encoded on chromosome 16 and the γ subunit is encoded on chromosome 11.
+- [W14.14] There are two very similar genes that code for the α subunit, HBA1 and HBA2.
+- [W14.15] The protein that they produce is identical, but they differ in gene regulatory regions that determine when or how much of the protein is produced.
+- [W14.16] This leads to HBA1 and HBA2 contributing 40% and 60%, respectively, of the total α subunits produced.
+- [W14.17] As a consequence, mutations on the HBA2 gene are expected to have a stronger effect than mutations on the HBA1 gene.
+- [W14.18] There are also two similar copies of the gene coding for the γ subunit, HBG1 and HBG2, but the protein produced is slightly different, just in one protein unit: HBG1 codes for the protein form with an alanine at position 136, whereas HBG2 codes for a glycine
+- [W14.19] BCL11A and ZBTB7A are major repressor proteins of hemoglobin F production, by binding to the gene coding for the γ subunit at their promoter region.
+- [W14.20] This happens naturally as the newborn baby starts to switch from producing hemoglobin F to producing hemoglobin A.
+- [W14.21] Some genetic diseases can take place due to mutations to genes coding for components of hemoglobin F.
+- [W14.22] Mutations to HBA1 and HBA2 genes can cause alpha-thalassemia and mutations to the promoter regions of HBG1 and HBG2 can cause hemoglobin F to still be produced after the switch to hemoglobin A should have occurred, which is called hereditary persistence of fetal hemoglobin.
+- [W14.23] During the first 3 months of pregnancy, the main form of hemoglobin in the embryo/fetus is embryonic hemoglobin, which has 3 variants depending on the types of subunits it contains.
+- [W14.24] The production of hemoglobin F starts from week 6, but it's only from 3 months onwards that it becomes the main type found in fetal red blood cells.
+- [W14.25] The switch to produce adult forms of hemoglobin (essentially hemoglobin A) starts at around 40 weeks of gestation, which is close to the expected time of birth.
+- [W14.26] At birth, hemoglobin F accounts for 50-95% of the infant's hemoglobin and at around 6 months after birth, hemoglobin A becomes the predominant type.
+- [W14.27] By the time the baby is one year old, the proportions of different types of hemoglobin are expected to approximate the adult levels, with hemoglobin F reduced to very low levels.
+- [W14.28] The small proportion of red blood cells containing hemoglobin F are called F-cells, which also contain other types of hemoglobin.
+- [W14.29] In healthy adults, the composition of hemoglobin is hemoglobin A (~97%), hemoglobin A2 (2.2 - 3.5%) and hemoglobin F (<1%).
+- [W14.30] Certain genetic abnormalities can cause the switch to adult hemoglobin synthesis to fail, resulting in a condition known as hereditary persistence of fetal hemoglobin.
+- [W14.31] Factors affecting oxygen affinity
+- [W14.32] The four hemes, which are the oxygen-binding parts of hemoglobin, are similar between hemoglobin F and other types of hemoglobin, including hemoglobin A.
+- [W14.33] Thus, the key feature that allows hemoglobin F to bind more strongly to oxygen is by having γ subunits (instead of β, for example).
+- [W14.34] In fact, some naturally existing molecules in our body can bind to hemoglobin and change its binding affinity for oxygen.
+- [W14.35] One of the molecules is 2,3-bisphosphoglycerate (2,3-BPG) and it enhances hemoglobin's ability to release oxygen.
+- [W14.36] 2,3-BPG interacts much more with hemoglobin A than hemoglobin F.
+- [W14.37] This is because the adult β subunit has more positive charges than the fetal γ subunit, which attract the negative charges from 2,3-BPG.
+- [W14.38] Specifically, the β-subunit of haemoglobin A has a His143 residue that can complex the phosphate; in haemoglobin F this is substituted for a serine residue.
+- [W14.39] Due to the preference of 2,3-BPG for hemoglobin A, hemoglobin F binds to oxygen with more affinity, in average, and there is less of an allosteric inhibition of oxygen binding by 2,3-BPG.
+- [W14.40] Hemoglobin Barts is an abnormal form of hemoglobin produced in hemoglobin Barts syndrome or alpha-thalassemia major, the most severe form of alpha-thalassemia.
+- [W14.41] Alpha-thalassemia is a genetic blood disorder and one of the most common hemoglobin-related diseases, affecting the production of α subunits from hemoglobin.
+- [W14.42] Depending on how many genes coding for the α subunit are impacted (between one and four), patients with this disease can have reduced to no production of the α subunit of the hemoglobin.
+- [W14.43] As a consequence, less hemoglobin is available and this affects oxygen supply to the tissues.
+- [W14.44] Hemoglobin Barts syndrome manifests when all four genes coding for α subunit are deleted.
+- [W14.45] This is often fatal for the fetus carrying the disorder, as in the absence of α subunits, a form of hemoglobin with four γ subunits, hemoglobin Barts, is produced.
+- [W14.46] This form of hemoglobin isn't fit for oxygen exchange precisely due to its very high affinity for oxygen.
+- [W14.47] While hemoglobin Barts is very efficient at binding oxygen, it doesn't release oxygen to the organs and tissues.
+- [W14.48] The disease is fatal for the fetus or newborn unless early diagnosis and intervention is carried out during pregnancy, and the child will be dependent on lifelong blood transfusions.
+- [W14.49] Quantification of oxygen binding
+- [W14.50] To quantify how strongly a certain type of hemoglobin binds to oxygen (or its affinity for oxygen), a parameter called P50 is often used.
+- [W14.51] In a given situation, P50 can be understood as the partial pressure of oxygen at which Hb is 50% saturated.
+- [W14.52] For example, Hemoglobin F has a lower P50 than hemoglobin A.
+- [W14.53] This means that if we have the same amount of hemoglobin F and hemoglobin A in the blood and add oxygen to it, half of hemoglobin F will bind to oxygen before half of hemoglobin A manages to do so.
+- [W14.54] Therefore, a lower P50 means stronger binding or higher affinity for oxygen.
+- [W14.55] For reference, the P50 of fetal hemoglobin is roughly 19 mmHg (a measure of pressure), whereas adult hemoglobin is approximately 26.8 mmHg (see Blood gas tension).
+- [W14.56] Oxygen exchange in the womb
+- [W14.57] During pregnancy, the mother's circulatory system delivers oxygen and nutrients to the fetus and carries away nutrient-depleted blood enriched with carbon dioxide.
+- [W14.58] The maternal and fetal blood circulations are separate and the exchange of molecules occurs through the placenta, in a region called intervillous space which is located in between maternal and fetal blood vessels.
+- [W14.59] Focusing on oxygen exchange, there are three important aspects that allow oxygen to pass from the maternal circulation into the fetal circulation.
+- [W14.60] Firstly, the presence of hemoglobin F in the fetus allows a stronger binding to oxygen than maternal hemoglobin (see Factors affecting oxygen affinity).
+- [W14.61] Secondly, the mother's bloodstream is richer in oxygen than that of the fetus, so oxygen naturally flows towards the fetal circulation by diffusion.
+- [W14.62] The final factor is related to the effects of pH on maternal and fetal hemoglobin.
+- [W14.63] As the maternal blood acquires more carbon dioxide, it becomes more acidic and this favors the release of oxygen by the maternal hemoglobin.
+- [W14.64] At the same time, the decrease in carbon dioxide in fetal blood makes it more alkaline and favors the uptake of oxygen.
+- [W14.65] This is called the Bohr effect or Haldane effect, which also happens in the air exchange in the lungs.
+- [W14.66] All of these three factors are present simultaneously and cooperate to improve the fetus' access to oxygen from the mother.
+- [W14.67] F-cells are the subpopulation of red blood cells that contain hemoglobin F, in amongst other types of hemoglobin.
+- [W14.68] While common in fetuses, in normal adults, only around 3-7% of red blood cells contain hemoglobin F.
+- [W14.69] The low percentage of F-cells in adults owes to two factors: very low levels of hemoglobin F being present and its tendency to be produced only in a subset of cells rather than evenly distributed amongst all red blood cells.
+- [W14.70] In fact, there is a positive correlation between the levels of hemoglobin F and number of F-cells, with patients with higher percentages of hemoglobin F also having a higher proportion of F-cells.
+- [W14.71] Despite the correlations between hemoglobin F levels and F-cell numbers, usually they are determined by direct measurements.
+- [W14.72] While the amount of hemoglobin F is calculated using cell lysates, which are fluids with contents of cells that were broken open, F-cell numbers are done by counting intact red blood cells.
+- [W14.73] Due to the correlation between the amount of hemoglobin F and F-cells, F-cell numbers are higher in some inherited hemoglobin disorders, including beta-thalassemia, sickle cell anemia and hereditary persistence of fetal hemoglobin.
+- [W14.74] Additionally, some acquired conditions can also have higher F-cell numbers, such as acute erythropoietic stress (response to poor oxygenation which includes very rapid synthesis of new red blood cells) and pregnancy.
+- [W14.75] F-cells have similar mass of haemoglobin per cell compared to red blood cells without haemoglobin F, which is measured mean cell haemoglobin values (MCH).
+- [W14.76] Conditions with high hemoglobin F
+- [W14.77] There is a significant increase in hemoglobin F levels during early pregnancy.
+- [W14.78] However, it's not clear whether these levels are stable or decrease as the pregnancy goes on, as different sources reported different results.
+- [W14.79] The increase in hemoglobin F then induces a 3 to 7 fold increase in the number of F-cells in pregnant women, which was observed between the 23rd to 31st week of gestation.
+- [W14.80] However, as to the reason of the increase in hemoglobin F levels in pregnant women, there doesn't seem to be conclusive evidence.
+- [W14.81] While an early study suggested that maternal red blood cells switch on hemoglobin F production during pregnancy, more recent literature suggested that the increase in haemoglobin F could be, at least in part, due to fetal red blood cells being transferred to the maternal circulation.
+- [W14.82] Presence of high levels of hemoglobin F in pregnant women can impact the growth of the fetus, as fetal red blood cells struggle to compete for the oxygen from the mother's circulation.
+- [W14.83] This is because instead of competing with hemoglobin A, which has a weaker association to oxygen than hemoglobin F, it becomes a competition between fetal and maternal hemoglobin F which have similar affinities for oxygen.
+- [W14.84] As a result, women with hemoglobin F as >70% of total hemoglobin are much more likely to have fetuses that are small for their gestational age compared women with <70% hemoglobin F (at a rate of 100% compared to 8%, respectively).
+- [W14.85] Hereditary persistence of fetal hemoglobin (HPFH)
+- [W14.86] This is a rare benign genetic disease where production of hemoglobin F persists after twelve months of life and into the adulthood.
+- [W14.87] As a result, hemoglobin F is present in a higher number of adult red blood cells than normal.
+- [W14.88] It doesn't present symptoms and is usually discovered when screening for other blood-related diseases.
+- [W14.89] In this condition, the genes coding for the γ subunit (HBG1 and HBG2) are not suppressed shortly before birth.
+- [W14.90] This can happen when a mutation occurs in the promoter region of HBG1 and HBG2, preventing the binding of BCL11A and ZBTB7A proteins.
+- [W14.91] These proteins would normally bind and suppress the production of γ subunits and as they can't bind due to the mutation, γ subunits continue to be produced.
+- [W14.92] There are two types of patients with HPFH: either with one normal copy of the gene and one disease form or with two disease copies.
+- [W14.93] Whereas normal adults have less than 1% of hemoglobin F, patients with only one disease gene have 5-30%.
+- [W14.94] Patients with two disease copies can have hemoglobin F in up to 100% of red blood cells.
+- [W14.95] As other diseases such as sickle cell disease could also cause a higher level of hemoglobin F to be present, it can sometimes be misdiagnosed.
+- [W14.96] Delta beta-thalassemia is a rare genetic blood disorder in which the production of both δ and β subunits are reduced or absent.
+- [W14.97] In these cases, the production of the γ subunit increases to compensate for the loss of δ and β subunits, resulting in a higher amount of hemoglobin F present in the blood.
+- [W14.98] Normally,  people have two sets of genes for producing δ and β subunits.
+- [W14.99] People with only one set of working genes don't get any symptoms and in the rarely reported cases where both sets of genes are affected, the patients only experienced mild symptoms.
+- [W14.100] Treatment of sickle-cell disease
+- [W14.101] The discovery that hemoglobin F alleviated the symptoms of sickle cell disease occurred in 1948.
+- [W14.102] Janet Watson observed that red blood cells from infants with the disease took longer to sickle and did not deform as much compared to their mother's cells, which carried the disease trait.
+- [W14.103] Later, it was noted that patients with sickle cell trait as well as hereditary persistence of hemoglobin F (HPFH) didn't have symptoms.
+- [W14.104] Additionally, in sickle cell patients, F-cells were found to be more long living than non-F cells as they contain hemoglobin F.
+- [W14.105] When fetal hemoglobin production is switched off after birth, normal children begin producing adult hemoglobin (HbA).
+- [W14.106] Children with sickle-cell disease begin producing a defective form of hemoglobin called hemoglobin S instead, which form chains that cause red blood cells to change their shape from round to sickle-shaped.
+- [W14.107] These defective red blood cells have a much shorter life span than normal red blood cells (10–20 days compared to up to 120 days).
+- [W14.108] They also have a greater tendency to clump together and block small blood vessels, preventing blood supply to tissues and organs.
+- [W14.109] This leads to the so-called vaso-occlusive crisis, which is a hallmark of the disease.
+- [W14.110] If fetal hemoglobin remains relatively high after birth, the number of painful episodes decreases in patients with sickle-cell disease and they have a better prognosis.
+- [W14.111] Fetal hemoglobin's role in reducing disease severity comes from its ability to disrupt the formation of hemoglobin S chains within red blood cells.
+- [W14.112] Interestingly, while higher levels of hemoglobin F were associated with improvement of some symptoms, including the frequency of painful episodes, leg ulcers and the general severity of the disease, it had no correlation to others.
+- [W14.113] A few examples are priapism, stroke and systemic blood pressure.
+- [W14.114] As hemoglobin F are only produced by some red blood cells, in different quantities, only a subpopulation of cells are protected against sickling.
+- [W14.115] It could be that the symptoms that high hemoglobin F doesn't prevent are quite sensitive to the rupture of the sickled non-F cells.
+- [W14.116] Hydroxyurea is a chemical that promotes the production of fetal hemoglobin and reduces the premature rupturing of red blood cells.
+- [W14.117] Combination therapy with hydroxyurea and recombinant erythropoietin — rather than treatment with hydroxyurea alone — has been shown to further elevate hemoglobin F levels and to promote the development of HbF-containing F-cells.
+- [W14.118] Hemoglobin F as a marker for cancers
+- [W14.119] There have been some studies evaluating the possibility of using hemoglobin F as an indicator of the prognosis for cancer.
+- [W14.120] It has been suggested that elevated concentrations of haemoglobin F can be found in main kinds of solid tumours and blood cancers.
+- [W14.121] Examples include acute lymphoblastic leukemia and myeloid leukemia in children, where higher concentrations of hemoglobin F were associated with a worse outcome, including a higher risk of relapse or death.
+- [W14.122] Other cancer types where higher hemoglobin F levels have been observed are transitional cell cancer, colorectal carcinoma
+- [W14.123] and various types of blastomas.
+- [W14.124] In fact, in several types of blastomas, including neuroblastoma and retinoblastoma (affecting the nerve cells and the eyes, respectively), F-cells were found in newly formed blood vessels and spaces in between tumour cells.
+- [W14.125] Clusters of F-cells were also present in the bone marrow of some of these patients.
+- [W14.126] Interestingly, hemoglobin F is not directly produced by tumour cells, but seems to be induced by the biological environment of the cancer in nearby blood cells.
+- [W14.127] A reason suggested for this increase in hemoglobin F is that it may favor cancer growth by providing better oxygen supply to the developing cancerous cells.
+- [W14.128] In adults, increased hemoglobin F production is thought to be caused by factors leading to the activation of the gene coding for the γ subunit, such as DNA demethylation (which can activate normally silent genes and is a hallmark of cancer).
+- [W14.129] Transport across the placenta
+- [W14.130] American Sickle Cell Anemia Association
+- [W14.131] SCDAA: Break The Sickle Cycle
+- [W14.132] Hemoglobin structure and function (archived February 3, 2002
+- [W14.133] Hemoglobin F fact sheet (archived October 29, 2009)
+- [W14.134] Fetal hemoglobin (doc file; archived March 30 2003)
+- [W14.135] Hydroxyurea in sickle-cell disease (archived December 28, 2014 at [2])
+- [W14.136] Chapter 26 Fetal Hemoglobin Induction; Management of Sickle-Cell Disease 4th Edition 2002 (NIH Publication No.
+
+## [W15] Wikipedia: Lac operon
+https://en.wikipedia.org/w/index.php?title=Lac_operon&oldid=1362920271 · CC BY-SA 4.0 · usage: ai_input
+
+- [W15.1] The lactose operon (lac operon) is an operon required for the transport and metabolism of lactose in E. coli and many other enteric bacteria.
+- [W15.2] Although glucose is the preferred carbon source for most enteric bacteria, the lac operon allows for the effective digestion of lactose when glucose is not available through the activity of β-galactosidase.
+- [W15.3] Gene regulation of the lac operon was the first genetic regulatory mechanism to be understood clearly, so it has become a foremost example of prokaryotic gene regulation.
+- [W15.4] It is often discussed in introductory molecular and cellular biology classes for this reason.
+- [W15.5] This lactose metabolism system was used by François Jacob and Jacques Monod to determine how a biological cell knows which enzyme to synthesize.
+- [W15.6] Their work on the lac operon won them the Nobel Prize in Physiology in 1965.
+- [W15.7] Most bacterial cells including E. coli  lack introns in their genome.
+- [W15.8] They also lack a nuclear membrane.
+- [W15.9] Hence the gene regulation by lac operon occurs at the transcriptional level, by controlling transcription of DNA.
+- [W15.10] Bacterial operons are polycistronic transcripts that are able to produce multiple proteins from one mRNA transcript.
+- [W15.11] In this case, when lactose is required as a sugar source for the bacterium, the three genes of the lac operon can be transcribed and their subsequent proteins translated: lacZ, lacY, and lacA.
+- [W15.12] The gene product of lacZ is β-galactosidase which cleaves lactose, a disaccharide, into glucose and galactose. lacY encodes β-galactoside permease, a membrane protein which becomes embedded in the Plasma membrane to enable the cellular transport of lactose into the cell.
+- [W15.13] Finally, lacA encodes β-galactoside transacetylase.
+- [W15.14] Note that the number of base pairs in diagram given above are not to scale.
+- [W15.15] There are in fact over 5300 base pairs in the lac operon.
+- [W15.16] It would be wasteful to produce enzymes when no lactose is available or if a preferable energy source such as glucose were available.
+- [W15.17] The lac operon uses a two-part control mechanism to ensure that the cell expends energy producing the enzymes encoded by the lac operon only when necessary.
+- [W15.18] In the absence of lactose, the lac repressor, encoded by lacI, halts production of the enzymes and transport proteins encoded by the lac operon.
+- [W15.19] It does so by blocking the DNA dependent RNA polymerase.
+- [W15.20] This blocking/ halting is not perfect, and a minimal amount of gene expression does take place all the time.
+- [W15.21] The repressor protein is always expressed, but the lac operon (i.e. enzymes and transport proteins) are almost completely repressed, allowing for a small level of background expression.
+- [W15.22] If this weren't the case, there would be no lacY transporter protein in the cellular membrane; consequently, the lac operon would not be able to detect the presence of lactose.
+- [W15.23] When lactose is available but not glucose, then some lactose enters the cell using pre-existing transport protein encoded by lacY.
+- [W15.24] This lactose then combines with the repressor and inactivates it, hence allowing the lac operon to be expressed.
+- [W15.25] Then more β-galactoside permease is synthesized allowing even more lactose to enter and the enzymes encoded by lacZ and lacA can digest it.
+- [W15.26] However, in the presence of glucose, regardless of the presence of lactose, the operon will be repressed.
+- [W15.27] This is because the catabolite activator protein (CAP), required for production of the enzymes, remains inactive, and EIIAGlc shuts down lactose permease to prevent transport of lactose into the cell.
+- [W15.28] This dual control mechanism causes the sequential utilization of glucose and lactose in two distinct growth phases, known as diauxie.
+- [W15.29] The lac operon consists of 3 structural genes, and a promoter, a terminator, regulator, and an operator.
+- [W15.30] The three structural genes are: lacZ, lacY, and lacA.
+- [W15.31] lacZ encodes β-galactosidase (LacZ), an intracellular enzyme  that cleaves the disaccharide lactose into glucose and galactose.
+- [W15.32] It also plays a role in converting lactose into allolactose (which regulates the lac repressor).
+- [W15.33] lacY encodes β-galactoside permease (LacY),  a transmembrane symporter that pumps β-galactosides including lactose into the cell using a proton gradient in the same direction.
+- [W15.34] Permease increases the permeability of the cell to β-galactosides.
+- [W15.35] lacA encodes β-galactoside transacetylase (LacA), an enzyme that transfers an acetyl group from acetyl-CoA to thiogalactoside.
+- [W15.36] Only lacZ and lacY appear to be necessary for lactose catabolic pathway.
+- [W15.37] By numbers, lacI has 1100 bps, lacZ has 3000 bps, lacY has 800 bps, lacA has 800 bps, with 3 bps corresponding to 1 amino acid.
+- [W15.38] Three-letter abbreviations are used to describe phenotypes in bacteria including E. coli.
+- [W15.39] Lac (the ability to use lactose),
+- [W15.40] His (the ability to synthesize the amino acid histidine)
+- [W15.41] SmR (resistance to the antibiotic streptomycin)
+- [W15.42] In the case of Lac, wild type cells are Lac+ and are able to use lactose as a carbon and energy source, while Lac− mutant derivatives cannot use lactose.
+- [W15.43] The same three letters are typically used (lower-case, italicized) to label the genes involved in a particular phenotype, where each different gene is additionally distinguished by an extra letter.
+- [W15.44] The lac genes encoding enzymes are lacZ, lacY, and lacA.
+- [W15.45] The fourth lac gene is lacI, encoding the lactose repressor—"I" stands for inducibility.
+- [W15.46] One may distinguish between structural genes encoding enzymes, and regulatory genes encoding proteins that affect gene expression.
+- [W15.47] Current usage expands the phenotypic nomenclature to apply to proteins:  thus, LacZ is the protein product of the lacZ gene, β-galactosidase.
+- [W15.48] Various short sequences that are not genes also affect gene expression, including the lac promoter, lac p, and the lac operator, lac o.
+- [W15.49] Although it is not strictly standard usage, mutations affecting lac o are referred to as lac oc, for historical reasons.
+- [W15.50] Specific control of the lac genes depends on the availability of the substrate lactose to the bacterium.
+- [W15.51] The proteins are not produced by the bacterium when lactose is unavailable as a carbon source.
+- [W15.52] The lac genes are organized into an operon; that is, they are oriented in the same direction immediately adjacent on the chromosome and are co-transcribed into a single polycistronic mRNA molecule.
+- [W15.53] Transcription of all genes starts with the binding of the enzyme RNA polymerase (RNAP), a DNA-binding protein, which binds to a specific DNA binding site, the promoter, immediately upstream of the genes.
+- [W15.54] Binding of RNA polymerase to the promoter is aided by the cAMP-bound catabolite activator protein (CAP, also known as the cAMP receptor protein).
+- [W15.55] However, the lacI gene (regulatory gene for lac operon) produces a protein that blocks RNAP from binding to the operator of the operon.
+- [W15.56] This protein can only be removed when allolactose binds to it, and inactivates it.
+- [W15.57] The protein that is formed by the lacI gene is known as the lac repressor.
+- [W15.58] The type of regulation that the lac operon undergoes is referred to as negative inducible, meaning that the gene is turned off by the regulatory factor (lac repressor) unless some molecule (lactose) is added.
+- [W15.59] Once the repressor is removed, RNAP then proceeds to transcribe all three genes (lacZYA) into mRNA.
+- [W15.60] Each of the three genes on the mRNA strand has its own Shine-Dalgarno sequence, so the genes are independently translated.
+- [W15.61] The DNA sequence of the E. coli lac operon, the lacZYA mRNA, and the lacI  genes are available from GenBank (view).
+- [W15.62] The first control mechanism is the regulatory response to lactose, which uses an intracellular regulatory protein called the lactose repressor to hinder production of β-galactosidase in the absence of lactose.
+- [W15.63] The lacI gene coding for the repressor lies nearby the lac operon and is always expressed (constitutive).
+- [W15.64] If lactose is missing from the growth medium, the repressor binds very tightly to a short DNA sequence just downstream of the promoter near the beginning of lacZ called the lac operator.
+- [W15.65] The repressor binding to the operator interferes with binding of RNAP to the promoter, and therefore mRNA encoding LacZ and LacY is only made at very low levels.
+- [W15.66] When cells are grown in the presence of lactose, however, a lactose metabolite called allolactose, made from lactose by the product of the lacZ gene, binds to the repressor, causing an allosteric shift.
+- [W15.67] Thus altered, the repressor is unable to bind to the operator, allowing RNAP to transcribe the lac genes and thereby leading to higher levels of the encoded proteins.
+- [W15.68] The second control mechanism is a response to glucose, which uses the catabolite activator protein (CAP) homodimer to greatly increase production of β-galactosidase in the absence of glucose.
+- [W15.69] Cyclic adenosine monophosphate (cAMP) is a signal molecule whose prevalence is inversely proportional to that of glucose.
+- [W15.70] It binds to the CAP, which in turn allows the CAP to bind to the CAP binding site (a 16 bp DNA sequence upstream of the promoter on the left in the diagram below, about 60 bp upstream of the transcription start site), which assists the RNAP in binding to the DNA.
+- [W15.71] In the absence of glucose, the cAMP concentration is high and binding of CAP-cAMP to the DNA significantly increases the production of β-galactosidase, enabling the cell to hydrolyse lactose and release galactose and glucose.
+- [W15.72] More recently inducer exclusion was shown to block expression of the lac operon when glucose is present.
+- [W15.73] Glucose is transported into the cell by the PEP-dependent phosphotransferase system.
+- [W15.74] The phosphate group of phosphoenolpyruvate is transferred via a phosphorylation cascade consisting of the general PTS (phosphotransferase system) proteins HPr and EIA and the glucose-specific PTS proteins EIIAGlc and EIIBGlc, the cytoplasmic domain of the EII glucose transporter.
+- [W15.75] Transport of glucose is accompanied by its phosphorylation by EIIBGlc, draining the phosphate group from the other PTS proteins, including EIIAGlc.
+- [W15.76] The unphosphorylated form of EIIAGlc binds to the lac permease and prevents it from bringing lactose into the cell.
+- [W15.77] Therefore, if both glucose and lactose are present, the transport of glucose blocks the transport of the inducer of the lac operon.
+- [W15.78] The lac repressor is a four-part protein, a tetramer, with identical subunits.
+- [W15.79] Each subunit contains a helix-turn-helix (HTH) motif capable of binding to DNA.
+- [W15.80] The operator site where repressor binds is a DNA sequence with inverted repeat symmetry.
+- [W15.81] The two DNA half-sites of the operator together bind to two of the subunits of the repressor.
+- [W15.82] Although the other two subunits of repressor are not doing anything in this model, this property was not understood for many years.
+- [W15.83] Eventually it was discovered that two additional operators are involved in lac regulation.
+- [W15.84] One (O3) lies about −90 bp upstream of O1 in the end of the lacI gene, and the other (O2) is about +410 bp downstream of O1 in the early part of lacZ.
+- [W15.85] These two sites were not found in the early work because they have redundant functions and individual mutations do not affect repression very much.
+- [W15.86] Single mutations to either O2 or O3 have only 2 to 3-fold effects.
+- [W15.87] However, their importance is demonstrated by the fact that a double mutant defective in both O2 and O3 is dramatically de-repressed (by about 70-fold).
+- [W15.88] In the current model, lac repressor is bound simultaneously to both the main operator O1 and to either O2 or O3.
+- [W15.89] The intervening DNA loops out from the complex.
+- [W15.90] The redundant nature of the two minor operators suggests that it is not a specific looped complex that is important.
+- [W15.91] One idea is that the system works through tethering; if bound repressor releases from O1 momentarily, binding to a minor operator keeps it in the vicinity, so that it may rebind quickly.
+- [W15.92] This would increase the affinity of repressor for O1.
+- [W15.93] The repressor is an allosteric protein, i.e. it can assume either one of two slightly different shapes, which are in equilibrium with each other.
+- [W15.94] In one form the repressor will bind to the operator DNA with high specificity, and in the other form it has lost its specificity.
+- [W15.95] According to the classical model of induction, binding of the inducer, either allolactose or IPTG, to the repressor affects the distribution of repressor between the two shapes.
+- [W15.96] Thus, repressor with inducer bound is stabilized in the non-DNA-binding conformation.
+- [W15.97] However, this simple model cannot be the whole story, because repressor is bound quite stably to DNA, yet it is released rapidly by addition of inducer.
+- [W15.98] Therefore, it seems clear that an inducer can also bind to the repressor when the repressor is already bound to DNA.
+- [W15.99] It is still not entirely known what the exact mechanism of binding is.
+- [W15.100] Role of non-specific binding
+- [W15.101] Non-specific binding of the repressor to DNA plays a crucial role in the repression and induction of the Lac-operon.
+- [W15.102] The specific binding site for the Lac-repressor protein is the operator.
+- [W15.103] The non-specific interaction is mediated mainly by charge-charge interactions while binding to the operator is reinforced by hydrophobic interactions.
+- [W15.104] Additionally, there is an abundance of non-specific DNA sequences to which the repressor can bind.
+- [W15.105] Essentially, any sequence that is not the operator, is considered non-specific.
+- [W15.106] Studies have shown, that without the presence of non-specific binding, induction (or unrepression) of the Lac-operon could not occur even with saturated levels of inducer.
+- [W15.107] It had been demonstrated that, without non-specific binding, the basal level of induction is ten thousand times smaller than observed normally.
+- [W15.108] This is because the non-specific DNA acts as sort of a "sink" for the repressor proteins, distracting them from the operator.
+- [W15.109] The non-specific sequences decrease the amount of available repressor in the cell.
+- [W15.110] This in turn reduces the amount of inducer required to unrepress the system.
+- [W15.111] A number of lactose derivatives or analogs have been described that are useful for work with the lac operon.
+- [W15.112] These compounds are mainly substituted galactosides, where the glucose moiety of lactose is replaced by another chemical group.
+- [W15.113] Isopropyl-β-D-thiogalactopyranoside (IPTG) is frequently used as an inducer of the lac operon for physiological work.[1]  IPTG binds to repressor and inactivates it, but is not a substrate for β-galactosidase.
+- [W15.114] One advantage of IPTG for in vivo studies is that since it cannot be metabolized by E. coli.
+- [W15.115] Its concentration remains constant and the rate of expression of lac p/o-controlled genes is not a variable in the experiment.
+- [W15.116] IPTG intake is dependent on the action of lactose permease in P. fluorescens, but not in E. coli.
+- [W15.117] Phenyl-β-D-galactose (phenyl-Gal) is a substrate for β-galactosidase, but does not inactivate repressor and so is not an inducer.
+- [W15.118] Since wild type cells produce very little β-galactosidase, they cannot grow on phenyl-Gal as a carbon and energy source.
+- [W15.119] Mutants lacking repressor are able to grow on phenyl-Gal.
+- [W15.120] Thus, minimal medium containing only phenyl-Gal as a source of carbon and energy is selective for repressor mutants and operator mutants.
+- [W15.121] If 108 cells of a wild type strain are plated on agar plates containing phenyl-Gal, the rare colonies which grow are mainly spontaneous mutants affecting the repressor.
+- [W15.122] The relative distribution of repressor and operator mutants is affected by the target size.
+- [W15.123] Since the lacI gene encoding repressor is about 50 times larger than the operator, repressor mutants predominate in the selection.
+- [W15.124] Thiomethyl galactoside [TMG] is another lactose analog.
+- [W15.125] These inhibit the lacI repressor.
+- [W15.126] At low inducer concentrations, both TMG and IPTG can enter the cell through the lactose permease.
+- [W15.127] However at high inducer concentrations, both analogs can enter the cell independently.
+- [W15.128] TMG can reduce growth rates at high extracellular concentrations.
+- [W15.129] Other compounds serve as colorful indicators of β-galactosidase activity.
+- [W15.130] ONPG is cleaved to produce the intensely yellow compound, orthonitrophenol and galactose, and is commonly used as a substrate for assay of β-galactosidase in vitro.
+- [W15.131] Colonies that produce β-galactosidase are turned blue by X-gal (5-bromo-4-chloro-3-indolyl-β-D-galactoside) which is an artificial substrate for B-galactosidase whose cleavage results in galactose and 4-Cl,3-Br indigo thus producing a deep blue color.
+- [W15.132] Allolactose is an isomer of lactose and is the inducer of the lac operon.
+- [W15.133] Lactose is galactose-β(1→4)-glucose, whereas allolactose is galactose-β(1→6)-glucose.
+- [W15.134] Lactose is converted to allolactose by β-galactosidase in an alternative reaction to the hydrolytic one.
+- [W15.135] A physiological experiment which demonstrates the role of LacZ in production of the "true" inducer in E. coli cells is the observation that a null mutant of lacZ can still produce LacY permease when grown with IPTG, a non-hydrolyzable analog of allolactose, but not when grown with lactose.
+- [W15.136] The explanation is that processing of lactose to allolactose (catalyzed by β-galactosidase) is needed to produce the inducer inside the cell.
+- [W15.137] Development of the classic model
+- [W15.138] The experimental microorganism used by François Jacob and Jacques Monod  was the common laboratory bacterium, E. coli, but many of the basic regulatory concepts that were discovered by Jacob and Monod are fundamental to cellular regulation in all organisms.
+- [W15.139] The key idea is that proteins are not synthesized when they are not needed—E. coli conserves cellular resources and energy by not making the three Lac proteins when there is no need to metabolize lactose, such as when other sugars like glucose are available.
+- [W15.140] The following section discusses how E. coli controls certain genes in response to metabolic needs.
+- [W15.141] During World War II, Monod was testing the effects of combinations of sugars as nutrient sources for E. coli and B. subtilis.
+- [W15.142] Monod was following up on similar studies that had been conducted by other scientists with bacteria and yeast.
+- [W15.143] He found that bacteria grown with two different sugars often displayed two phases of growth.
+- [W15.144] For example, if glucose and lactose were both provided, glucose was metabolized first (growth phase I, see Figure 2) and then lactose (growth phase II).
+- [W15.145] Lactose was not metabolized during the first part of the diauxic growth curve because β-galactosidase was not made when both glucose and lactose were present in the medium.
+- [W15.146] Monod named this phenomenon diauxie.
+- [W15.147] Monod then focused his attention on the induction of β-galactosidase formation that occurred when lactose was the sole sugar in the culture medium.
+- [W15.148] Classification of regulatory mutants
+- [W15.149] A conceptual breakthrough of Jacob and Monod was to recognize the distinction between regulatory substances and sites where they act to change gene expression.
+- [W15.150] A former soldier, Jacob used the analogy of a bomber that would release its lethal cargo upon receipt of a special radio transmission or signal.
+- [W15.151] A working system requires both a ground transmitter and a receiver in the airplane.
+- [W15.152] Now, suppose that the usual transmitter is broken.
+- [W15.153] This system can be made to work by introduction of a second, functional transmitter.
+- [W15.154] In contrast, he said, consider a bomber with a defective receiver.
+- [W15.155] The behavior of this bomber cannot be changed by introduction of a second, functional aeroplane.
+- [W15.156] To analyze regulatory mutants of the lac operon, Jacob developed a system by which a second copy of the lac genes (lacI with its promoter, and lacZYA with promoter and operator) could be introduced into a single cell.
+- [W15.157] A culture of such bacteria, which are diploid for the lac genes but otherwise normal, is then tested for the regulatory phenotype.
+- [W15.158] In particular, it is determined whether LacZ and LacY are made even in the absence of IPTG (due to the lactose repressor produced by the mutant gene being non-functional).
+- [W15.159] This experiment, in which genes or gene clusters are tested pairwise, is called a complementation test.
+- [W15.160] This test is illustrated in the figure (lacA is omitted for simplicity).
+- [W15.161] First, certain haploid states are shown (i.e. the cell carries only a single copy of the lac genes).
+- [W15.162] Panel (a) shows repression, (b) shows induction by IPTG, and (c) and (d) show the effect of a mutation to the lacI gene or to the operator, respectively.
+- [W15.163] In panel (e) the complementation test for repressor is shown.
+- [W15.164] If one copy of the lac genes carries a mutation in lacI, but the second copy is wild type for lacI, the resulting phenotype is normal—but lacZ is expressed when exposed to inducer IPTG.
+- [W15.165] Mutations affecting repressor are said to be recessive to wild type (and that wild type is dominant), and this is explained by the fact that repressor is a small protein which can diffuse in the cell.
+- [W15.166] The copy of the lac operon adjacent to the defective lacI gene is effectively shut off by protein produced from the second copy of lacI.
+- [W15.167] If the same experiment is carried out using an operator mutation, a different result is obtained (panel (f)).
+- [W15.168] The phenotype of a cell carrying one mutant and one wild type operator site is that LacZ and LacY are produced even in the absence of the inducer IPTG; because the damaged operator site, does not permit binding of the repressor to inhibit transcription of the structural genes.
+- [W15.169] The operator mutation is dominant.
+- [W15.170] When the operator site where repressor must bind is damaged by mutation, the presence of a second functional site in the same cell makes no difference to expression of genes controlled by the mutant site.
+- [W15.171] A more sophisticated version of this experiment uses marked operons to distinguish between the two copies of the lac genes and show that the unregulated structural gene(s) is(are) the one(s) next to the mutant operator (panel (g).
+- [W15.172] For example, suppose that one copy is marked by a mutation inactivating lacZ so that it can only produce the LacY protein, while the second copy carries a mutation affecting lacY and can only produce LacZ.
+- [W15.173] In this version, only the copy of the lac operon that is adjacent to the mutant operator is expressed without IPTG.
+- [W15.174] We say that the operator mutation is cis-dominant, it is dominant to wild type but affects only the copy of the operon which is immediately adjacent to it.
+- [W15.175] This explanation is misleading in an important sense, because it proceeds from a description of the experiment and then explains the results in terms of a model.
+- [W15.176] But in fact, it is often true that the model comes first, and an experiment is fashioned specifically to test the model.
+- [W15.177] Jacob and Monod first imagined that there must be a site in DNA with the properties of the operator, and then designed their complementation tests to show this.
+- [W15.178] The dominance of operator mutants also suggests a procedure to select them specifically.
+- [W15.179] If regulatory mutants are selected from a culture of wild type using phenyl-Gal, as described above, operator mutations are rare compared to repressor mutants because the target-size is so small.
+- [W15.180] But if instead we start with a strain which carries two copies of the whole lac region (that is diploid for lac), the repressor mutations (which still occur) are not recovered because complementation by the second, wild type lacI gene confers a wild type phenotype.
+- [W15.181] In contrast, mutation of one copy of the operator confers a mutant phenotype because it is dominant to the second, wild type copy.
+- [W15.182] Explanation of diauxie depended on the characterization of additional mutations affecting the lac genes other than those explained by the classical model.
+- [W15.183] Two other genes, cya and crp, subsequently were identified that mapped far from lac, and that, when mutated, result in a decreased level of expression in the presence of IPTG and even in strains of the bacterium lacking the repressor or operator.
+- [W15.184] The discovery of cAMP in E. coli led to the demonstration that mutants defective the cya gene but not the crp gene could be restored to full activity by the addition of cAMP to the medium.
+- [W15.185] The cya gene encodes adenylate cyclase, which produces cAMP.
+- [W15.186] In a cya mutant, the absence of cAMP makes the expression of the lacZYA genes more than ten times lower than normal.
+- [W15.187] Addition of cAMP corrects the low Lac expression characteristic of cya mutants.
+- [W15.188] The second gene, crp, encodes a protein called catabolite activator protein (CAP) or cAMP receptor protein (CRP).
+- [W15.189] However the lactose metabolism enzymes are made in small quantities in the presence of both glucose and lactose (sometimes called leaky expression) due to the fact that the RNAP can still sometimes bind and initiate transcription even in the absence of CAP.
+- [W15.190] Leaky expression is necessary in order to allow for metabolism of some lactose after the glucose source is expended, but before lac expression is fully activated.
+- [W15.191] When lactose is absent then there is very little Lac enzyme production (the operator has Lac repressor bound to it).
+- [W15.192] When lactose is present but a preferred carbon source (like glucose) is also present then a small amount of enzyme is produced (Lac repressor is not bound to the operator).
+- [W15.193] When glucose is absent, CAP-cAMP binds to a specific DNA site upstream of the promoter and makes a direct protein-protein interaction with RNAP that facilitates the binding of RNAP to the promoter.
+- [W15.194] The delay between growth phases reflects the time needed to produce sufficient quantities of lactose-metabolizing enzymes.
+- [W15.195] First, the CAP regulatory protein has to assemble on the lac promoter, resulting in an increase in the production of lac mRNA.
+- [W15.196] More available copies of the lac mRNA results in the production (see translation) of significantly more copies of LacZ (β-galactosidase, for lactose metabolism) and LacY (lactose permease to transport lactose into the cell).
+- [W15.197] After a delay needed to increase the level of the lactose metabolizing enzymes, the bacteria enter into a new rapid phase of cell growth.
+- [W15.198] Two puzzles of catabolite repression relate to how cAMP levels are coupled to the presence of glucose, and secondly, why the cells should even bother.
+- [W15.199] After lactose is cleaved it actually forms glucose and galactose (easily converted to glucose).
+- [W15.200] In metabolic terms, lactose is just as good a carbon and energy source as glucose.
+- [W15.201] The cAMP level is related not to intracellular glucose concentration but to the rate of glucose transport, which influences the activity of adenylate cyclase.
+- [W15.202] (In addition, glucose transport also leads to direct inhibition of the lactose permease.)  As to why E. coli works this way, one can only speculate.
+- [W15.203] All enteric bacteria ferment glucose, which suggests they encounter it frequently.
+- [W15.204] It is possible that a small difference in efficiency of transport or metabolism of glucose v. lactose makes it advantageous for cells to regulate the lac operon in this way.
+- [W15.205] The lac gene and its derivatives are amenable to use as a reporter gene in a number of bacterial-based selection techniques such as two hybrid analysis, in which the successful binding of a transcriptional activator to a specific promoter sequence must be determined.
+- [W15.206] In LB plates containing X-gal, the colour change from white colonies to a shade of blue corresponds to about 20–100 β-galactosidase units, while tetrazolium lactose and MacConkey lactose media have a range of 100–1000 units, being most sensitive in the high and low parts of this range respectively.
+- [W15.207] Since MacConkey lactose and tetrazolium lactose media both rely on the products of lactose breakdown, they require the presence of both lacZ and lacY genes.
+- [W15.208] The many lac fusion techniques which include only the lacZ gene are thus suited to X-gal plates or ONPG liquid broths.
+- [W15.209] National Library of Medicine Medical Subject Headings (MeSH)
+- [W15.210] lac operon in NCBI Bookshelf [2]
+- [W15.211] Virtual Cell Animation Collection Introducing: The Lac Operon
+- [W15.212] The 'lac Operon: Bozeman Science
+- [W15.213] Staining Whole Mouse Embryos for β-Galactosidase (lacZ) Activity
+- [W15.214] Lac Operon Model Explained
+
+## [W16] Wikipedia: Pulmonary surfactant
+https://en.wikipedia.org/w/index.php?title=Pulmonary_surfactant&oldid=1367284905 · CC BY-SA 4.0 · usage: ai_input
+
+- [W16.1] Pulmonary surfactant is a surface-active complex of phospholipids and proteins formed by type II alveolar cells.
+- [W16.2] The proteins and lipids that make up the surfactant have both hydrophilic and hydrophobic regions.
+- [W16.3] By adsorbing to the air-water interface of alveoli, with hydrophilic head groups in the water and the hydrophobic tails facing towards the air, the main lipid component of the surfactant, dipalmitoylphosphatidylcholine (DPPC), reduces surface tension.
+- [W16.4] As a medication, pulmonary surfactant is on the WHO Model List of Essential Medicines, the most important medications needed in a basic health system.
+- [W16.5] To increase pulmonary compliance.
+- [W16.6] To prevent atelectasis (collapse of the alveoli or atriums) at the end of expiration.
+- [W16.7] To facilitate recruitment of collapsed airways.
+- [W16.8] Alveoli can be compared to gas in water, as the alveoli are wet and surround a central air space.
+- [W16.9] Pulmonary surfactant significantly reduces the work of breathing by minimizing alveolar surface tension, allowing alveoli to expand more easily during inspiration.
+- [W16.10] The surface tension acts at the air-water interface and tends to make the bubble smaller (by decreasing the surface area of the interface).
+- [W16.11] The gas pressure (P) needed to keep an equilibrium between the collapsing force of surface tension (γ) and the expanding force of gas in an alveolus of radius r is expressed by the Young–Laplace equation:
+- [W16.12] {\displaystyle P={\frac {2\gamma }{r}}}
+- [W16.13] Compliance is the ability of lungs and thorax to expand.
+- [W16.14] Lung compliance is defined as the volume change per unit of pressure change across the lung.
+- [W16.15] Measurements of lung volume obtained during the controlled inflation/deflation of a normal lung show that the volumes obtained during deflation exceed those during inflation, at a given pressure.
+- [W16.16] This difference in inflation and deflation volumes at a given pressure is called hysteresis and is due to the air-water surface tension that occurs at the beginning of inflation.
+- [W16.17] However, surfactant decreases the alveolar surface tension, as seen in cases of premature infants with infant respiratory distress syndrome.
+- [W16.18] The normal surface tension for water is 70 dyn/cm (70 mN/m) and in the lungs, it is 25 dyn/cm (25 mN/m); however, at the end of the expiration, compressed surfactant phospholipid molecules decrease the surface tension to very low, near-zero levels.
+- [W16.19] Pulmonary surfactant thus greatly reduces surface tension, increasing compliance allowing the lung to inflate much more easily, thereby reducing the work of breathing.
+- [W16.20] It reduces the pressure difference needed to allow the lung to inflate.
+- [W16.21] The lung's compliance, and ventilation decrease when lung tissue becomes diseased and fibrotic.
+- [W16.22] As the alveoli increase in size, the surfactant becomes more spread out over the surface of the liquid.
+- [W16.23] This increases surface tension effectively slowing the rate of expansion of the alveoli.
+- [W16.24] This also helps all alveoli in the lungs expand at the same rate, as one that expands more quickly will experience a large rise in surface tension slowing its rate of expansion.
+- [W16.25] It also means the rate of shrinking is more regular as if one reduces in size more quickly the surface tension will reduce more, so other alveoli can contract more easily than it can.
+- [W16.26] Surfactant reduces surface tension more readily when the alveoli are smaller because the surfactant is more concentrated.
+- [W16.27] Prevention of fluid accumulation and maintenance of dryness of airways
+- [W16.28] Surface tension draws fluid from capillaries to the alveolar spaces.
+- [W16.29] Surfactant reduces fluid accumulation and keeps the airways dry by reducing surface tension.
+- [W16.30] Surfactant immune function is primarily attributed to two proteins: SP-A and SP-D.
+- [W16.31] These proteins can bind to sugars on the surface of pathogens and thereby opsonize them for uptake by phagocytes.
+- [W16.32] It also regulates inflammatory responses and interacts with the adaptive immune response.
+- [W16.33] Surfactant degradation or inactivation may contribute to enhanced susceptibility to lung inflammation and infection.
+- [W16.34] ~40% dipalmitoylphosphatidylcholine (DPPC);
+- [W16.35] ~40% other phospholipids (PC);
+- [W16.36] ~10% surfactant proteins (SP-A, SP-B, SP-C and SP-D);
+- [W16.37] ~10% neutral lipids (Cholesterol);
+- [W16.38] Traces of other substances.
+- [W16.39] Dipalmitoylphosphatidylcholine (DPPC) is a phospholipid with two 16-carbon saturated chains and a phosphate group with quaternary amine group attached.
+- [W16.40] The DPPC is the strongest surfactant molecule in the pulmonary surfactant mixture.
+- [W16.41] It also has a higher compaction capacity than the other phospholipids, because the apolar tail is less bent.
+- [W16.42] Nevertheless, without the other substances of the pulmonary surfactant mixture, the DPPC's adsorption kinetics is very slow.
+- [W16.43] This happens primarily because the phase transition temperature between gel to liquid crystal of pure DPPC is  41.5 °C, which is higher than the human body's temperature of 37 °C.
+- [W16.44] Phosphatidylcholine molecules form ~85% of the lipid in surfactant and have saturated acyl chains.
+- [W16.45] Phosphatidylglycerol (PG) forms about 11% of the lipids in the surfactant, it has unsaturated fatty acid chains that fluidize the lipid monolayer at the interface.
+- [W16.46] Neutral lipids and cholesterol are also present.
+- [W16.47] The components for these lipids diffuse from the blood into type II alveolar cells where they are assembled and packaged for secretion into secretory organelles called lamellar bodies.
+- [W16.48] Proteins make up the remaining 10% of the surfactant.
+- [W16.49] Half of this 10% is plasma proteins but the rest is formed by the apolipoproteins, surfactant proteins SP-A, SP-B, SP-C, and SP-D.
+- [W16.50] The apolipoproteins are produced by the secretory pathway in type II cells.
+- [W16.51] They undergo much post-translational modification, ending up in the lamellar bodies.
+- [W16.52] These are concentric rings of lipid and protein, about 1 μm in diameter.
+- [W16.53] SP-A and SP-D are collectins.
+- [W16.54] They confer innate immunity as they have carbohydrate recognition domains that allow them to coat bacteria and viruses promoting phagocytosis by macrophages.
+- [W16.55] SP-A is also thought to be involved in a negative feedback mechanism to control the production of surfactant.
+- [W16.56] SP-B and SP-C are hydrophobic membrane proteins that increase the rate that surfactant spreads over the surface.
+- [W16.57] SP-B and SP-C are required for the proper biophysical function of the lung.
+- [W16.58] Humans and animals born with a congenital absence of the saposin family SP-B experience intractable respiratory failure whereas those born lacking SP-C tend to develop progressive interstitial pneumonitis.
+- [W16.59] The SP proteins reduce the critical temperature of DPPC's phase transition to a value lower than 37 °C, which improves its adsorption and interface spreading velocity.
+- [W16.60] The compression of the interface causes a phase change of the surfactant molecules to liquid-gel or even gel-solid.
+- [W16.61] The fast adsorption velocity is necessary to maintain the integrity of the gas exchange region of the lungs.
+- [W16.62] Each SP protein has distinct functions, which act synergistically to keep an interface rich in DPPC during lung's expansion and contraction.
+- [W16.63] Changes in the surfactant mixture composition alter the pressure and temperature conditions for phase changes and the phospholipids' crystal shape as well.
+- [W16.64] Only the liquid phase can freely spread on the surface to form a monolayer.
+- [W16.65] Nevertheless, it has been observed that if a lung region is abruptly expanded the floating crystals crack like "icebergs".
+- [W16.66] Then the SP proteins selectively attract more DPPC to the interface than other phospholipids or cholesterol, whose surfactant properties are worse than DPPC's.
+- [W16.67] The SP also fastens the DPPC on the interface to prevent the DPPC from being squeezed out when the surface area decreases  This also reduces the interface compressibility.
+- [W16.68] There are a number of types of pulmonary surfactants available.
+- [W16.69] Ex-situ measurements of surface tension and interfacial rheology can help to understand the functionality of pulmonary surfactants.
+- [W16.70] Synthetic pulmonary surfactants
+- [W16.71] Colfosceril palmitate (Exosurf) - a mixture of DPPC with hexadecanol and tyloxapol added as spreading agents
+- [W16.72] Pumactant (Artificial Lung Expanding Compound or ALEC) - a mixture of DPPC and PG
+- [W16.73] KL-4 - composed of DPPC, palmitoyl-oleoyl phosphatidylglycerol, and palmitic acid, combined with a 21 amino acid synthetic peptide that mimics the structural characteristics of SP-B.
+- [W16.74] Venticute - DPPC, PG, palmitic acid and recombinant SP-C
+- [W16.75] Lucinactant - DPPC, POPG, and palmitic acid.
+- [W16.76] Animal derived surfactants
+- [W16.77] (Alveofact) - extracted from cow lung lavage fluid
+- [W16.78] (Survanta) - extracted from minced cow lung with additional DPPC, palmitic acid, and tripalmitin
+- [W16.79] (Beraksurf) -extracted from minced calf lung with additional DPPC, palmitic acid, and tripalmitin
+- [W16.80] Calfactant (Infasurf) - extracted from calf lung lavage fluid
+- [W16.81] Poractant alfa (Curosurf) - extracted from material derived from minced pig lung
+- [W16.82] Ovinactant (Varasurf) - extracted from material derived from minced sheep lung
+- [W16.83] Surface tension magnitude inside the lung
+- [W16.84] Even though the surface tension can be greatly reduced by pulmonary surfactant, this effect will depend on the surfactant's concentration on the interface.
+- [W16.85] The interface concentration has a saturation limit, which depends on temperature and mixture composition.
+- [W16.86] Because during ventilation there is a variation of the lung surface area, the surfactant's interface concentration is not usually at the level of saturation.
+- [W16.87] The surface increases during inspiration, which consequently opens space for new surfactant molecules to be recruited to the interface.
+- [W16.88] Meanwhile, during expiration the surface area decreases at a rate which is always in excess of the rate at which the surfactant molecules are driven from the interface into the water film.
+- [W16.89] Thus, the surfactant density at the air water interface remains high and is relatively preserved throughout expiration, decreasing the surface tension even further.
+- [W16.90] This also explains why the compliance is greater during expiration than during inspiration.
+- [W16.91] SP molecules contribute to increasing the surfactant interface adsorption kinetics, when the concentration is below the saturation level.
+- [W16.92] They also make weak bonds with the surfactant molecules at the interface and hold them longer there when the interface is compressed.
+- [W16.93] Therefore, during ventilation, surface tension is usually lower than at equilibrium.
+- [W16.94] Therefore, the surface tension varies according to the volume of air in the lungs, which protects them from atelectasis at low volumes and tissue damage at high volume levels.
+- [W16.95] Production and degradation
+- [W16.96] Surfactant production in humans begins in type II cells during the alveolar sac stage of lung development.
+- [W16.97] Lamellar bodies appear in the cytoplasm at about 20 weeks gestation.
+- [W16.98] These lamellar bodies are secreted by exocytosis into the alveolar lining fluid, where the surfactant forms a meshwork of tubular myelin Full term infants are estimated to have an alveolar storage pool of approximately 100 mg/kg of surfactant, while preterm infants have an estimated 4–5 mg/kg at birth.
+- [W16.99] Club cells also produce a component of lung surfactant.
+- [W16.100] Alveolar surfactant has a half-life of 5 to 10 hours once secreted.
+- [W16.101] It can be both broken down by macrophages and/or reabsorbed into the lamellar structures of type II pneumocytes.
+- [W16.102] Up to 90% of surfactant DPPC (dipalmitoylphosphatidylcholine) is recycled from the alveolar space back into the type II pneumocyte.
+- [W16.103] This process is believed to occur through SP-A stimulating receptor-mediated, clathrin dependent endocytosis.
+- [W16.104] The other 10% is taken up by alveolar macrophages and digested.
+- [W16.105] Infant respiratory distress syndrome (IRDS) is caused by lack of surfactant, commonly seen in premature babies born before 28–32 weeks of gestation.
+- [W16.106] Congenital surfactant deficiency
+- [W16.107] Pulmonary alveolar proteinosis
+- [W16.108] Surfactant metabolism dysfunction
+- [W16.109] In late 1920s von Neergaard identified the function of the pulmonary surfactant in increasing the compliance of the lungs by reducing surface tension.
+- [W16.110] However the significance of his discovery was not understood by the scientific and medical community at that time.
+- [W16.111] He also realized the importance of having low surface tension in lungs of newborn infants.
+- [W16.112] Later, in the middle of the 1950s, Pattle and Clements rediscovered the importance of surfactant and low surface tension in the lungs.
+- [W16.113] At the end of that decade it was discovered that the lack of surfactant caused infant respiratory distress syndrome (IRDS).
+
+## [W17] Wikipedia: Pepsin
+https://en.wikipedia.org/w/index.php?title=Pepsin&oldid=1379839918 · CC BY-SA 4.0 · usage: ai_input
+
+- [W17.1] Pepsin  is an endopeptidase that breaks down proteins into smaller peptides and amino acids.
+- [W17.2] It is one of the main digestive enzymes in the digestive systems of humans and many other animals, where it helps digest the proteins in food.
+- [W17.3] Pepsin is an aspartic protease, using a catalytic aspartate in its active site.
+- [W17.4] It is one of three principal endopeptidases (enzymes cutting proteins in the middle) in the human digestive system, the other two being chymotrypsin and trypsin.
+- [W17.5] There are also exopeptidases which remove individual amino acids at both ends of proteins (carboxypeptidases produced by the pancreas and aminopeptidases secreted by the small intestine).
+- [W17.6] During the process of digestion, these enzymes, each of which is specialized in severing links between particular types of amino acids, collaborate to break down dietary proteins into their components, i.e., peptides and amino acids, which can be readily absorbed by the small intestine.
+- [W17.7] The cleavage specificity of pepsin is broad, but some amino acids like tyrosine, phenylalanine and tryptophan increase the probability of cleavage.
+- [W17.8] Pepsin's zymogen (proenzyme), pepsinogen, is released by the gastric chief cells in the stomach wall, and upon mixing with the hydrochloric acid of the gastric juice, pepsinogen activates to become pepsin.
+- [W17.9] Pepsin was one of the first enzymes to be discovered by Theodor Schwann in 1836.
+- [W17.10] Schwann coined its name from the Greek word πέψις pepsis, meaning "digestion" (from πέπτειν peptein "to digest").
+- [W17.11] An acidic substance that was able to convert nitrogen-based foods into water-soluble material was determined to be pepsin.
+- [W17.12] In 1928, it became one of the first enzymes to be crystallized when John H.
+- [W17.13] Northrop crystallized it using dialysis, filtration, and cooling.
+- [W17.14] Pepsin is expressed as a zymogen called pepsinogen, whose primary structure has an additional 44 amino acids compared to the active enzyme.
+- [W17.15] In the stomach, gastric chief cells release pepsinogen.
+- [W17.16] This zymogen is activated by hydrochloric acid (HCl), which is released from parietal cells in the stomach lining.
+- [W17.17] The hormone gastrin and the vagus nerve trigger the release of both pepsinogen and HCl from the stomach lining when food is ingested.
+- [W17.18] Hydrochloric acid creates an acidic environment, which allows pepsinogen to unfold and cleave itself in an autocatalytic fashion, thereby generating pepsin (the active form).
+- [W17.19] Pepsin cleaves the 44 amino acids from pepsinogen to create more pepsin.
+- [W17.20] Pepsinogens are mainly grouped in 5 different groups based on their primary structure: pepsinogen A (also called pepsinogen I), pepsinogen B, progastricsin (also called pepsinogen II and pepsinogen C), prochymosin (also called prorennin) and pepsinogen F (also called pregnancy-associated glycoprotein).
+- [W17.21] Pepsin is most active in acidic environments between pH 1.5 to 2.5.
+- [W17.22] Accordingly, its primary site of synthesis and activity is in the stomach (pH 1.5 to 2).
+- [W17.23] In humans the concentration of pepsin in the stomach reaches 0.5 – 1 mg/mL.
+- [W17.24] Pepsin is inactive at pH 6.5 and above; however, pepsin is not fully denatured or irreversibly inactivated until pH 8.0.
+- [W17.25] Therefore, pepsin in solutions of up to pH 8.0 can be reactivated upon re-acidification.
+- [W17.26] The stability of pepsin at high pH has significant implications on disease attributed to laryngopharyngeal reflux.
+- [W17.27] Pepsin remains in the larynx following a gastric reflux event.
+- [W17.28] At the mean pH of the laryngopharynx (pH = 6.8) pepsin would be inactive  but could be reactivated upon subsequent acid reflux events resulting in damage to local tissues.
+- [W17.29] Pepsin exhibits a broad cleavage specificity.
+- [W17.30] Pepsin will digest up to 20% of ingested amide bonds.
+- [W17.31] Residues in the P1 and P1' positions are most important in determining cleavage probability.
+- [W17.32] Generally, hydrophobic amino acids at P1 and P1' positions increase cleavage probability.
+- [W17.33] Phenylalanine, leucine and methionine at the P1 position, and phenylalanine, tryptophan and tyrosine at the P1' position result in the highest cleavage probability.
+- [W17.34] Cleavage is disfavoured by positively charged amino acids histidine, lysine and arginine at the P1 position.
+- [W17.35] In laryngopharyngeal reflux
+- [W17.36] Pepsin is one of the primary causes of mucosal damage during laryngopharyngeal reflux.
+- [W17.37] Pepsin remains in the larynx (pH 6.8) following a gastric reflux event.
+- [W17.38] While enzymatically inactive in this environment, pepsin would remain stable and could be reactivated upon subsequent acid reflux events.
+- [W17.39] Exposure of laryngeal mucosa to enzymatically active pepsin, but not irreversibly inactivated pepsin or acid, results in reduced expression of protective proteins and thereby increases laryngeal susceptibility to damage.
+- [W17.40] Pepsin may also cause mucosal damage during weakly acidic or non-acid gastric reflux.
+- [W17.41] Weak or non-acid reflux is correlated with reflux symptoms and mucosal injury.
+- [W17.42] Under non-acid conditions (neutral pH), pepsin is internalized by cells of the upper airways such as the larynx and hypopharynx by a process known as receptor-mediated endocytosis.
+- [W17.43] The receptor by which pepsin is endocytosed is currently unknown.
+- [W17.44] Upon cellular uptake, pepsin is stored in intracellular vesicles of low pH at which its enzymatic activity would be restored.
+- [W17.45] Pepsin is retained within the cell for up to 24 hours.
+- [W17.46] Such exposure to pepsin at neutral pH and endocyctosis of pepsin causes changes in gene expression associated with inflammation, which underlies signs and symptoms of reflux, and tumor progression.
+- [W17.47] This and other research implicates pepsin in carcinogenesis attributed to gastric reflux.
+- [W17.48] Pepsin in airway specimens is considered to be a sensitive and specific marker for laryngopharyngeal reflux.
+- [W17.49] Research to develop new pepsin-targeted therapeutic and diagnostic tools for gastric reflux is ongoing.
+- [W17.50] A rapid non-invasive pepsin diagnostic called Peptest is now available which determines the presence of pepsin in saliva samples.
+- [W17.51] Pepsin may be inhibited by high pH (see Activity and stability) or by inhibitor compounds.
+- [W17.52] Pepstatin is a low molecular weight compound and potently inhibitor specific for acid proteases with an inhibitory dissociation constant (Ki) of about 10−10 M for pepsin.
+- [W17.53] The statyl residue of pepstatin is thought to be responsible for pepstatin inhibition of pepsin; statine is a potential analog of the transition state for catalysis by pepsin and other acid proteases.
+- [W17.54] Pepstatin does not covalently bind pepsin, and inhibition of pepsin by pepstatin is therefore reversible.
+- [W17.55] 1-bis(diazoacetyl)-2-phenylethane reversibly inactivates pepsin at pH 5, a reaction which is accelerated by the presence of Cu(II).
+- [W17.56] Porcine pepsin is inhibited by pepsin inhibitor-3 (PI-3) produced by the large roundworm of pig (Ascaris suum).
+- [W17.57] PI-3 occupies the active site of pepsin using its N-terminal residues and thereby blocks substrate binding.
+- [W17.58] Amino acid residues 1 - 3 (Gln-Phe-Leu) of mature PI-3 bind to P1' - P3' positions of pepsin.
+- [W17.59] The N-terminus of PI-3 in the PI-3:pepsin complex is positioned by hydrogen bonds which form an eight-stranded β-sheet, where three strands are contributed by pepsin and five by PI-3.
+- [W17.60] A product of protein digestion by pepsin inhibits the reaction.
+- [W17.61] Sucralfate, a drug used to treat stomach ulcers and other pepsin-related conditions, also inhibits pepsin activity.
+- [W17.62] Commercial pepsin is extracted from the glandular layer of hog stomachs.
+- [W17.63] It is a component of rennet used to curdle milk during the manufacture of cheese.
+- [W17.64] Pepsin is used for a variety of applications in food manufacturing: to modify and provide whipping qualities to soy protein and gelatin, to modify vegetable proteins for use in nondairy snack items, to make precooked cereals into instant hot cereals, and to prepare animal and vegetable protein hydrolysates for use in flavoring foods and beverages.
+- [W17.65] It is used in the leather industry to remove hair and residual tissue from hides and in the recovery of silver from discarded photographic films by digesting the gelatin layer that holds the silver.
+- [W17.66] Pepsin was historically an additive of Beemans chewing gum by Dr.
+- [W17.67] The namesake of Pepsodent came from pepsin, designed to break down and digest food deposits on the teeth.
+- [W17.68] Pepsin was an ingredient used in early Pepsodent toothpaste.
+- [W17.69] Pepsin is commonly used in the preparation of F(ab')2 fragments from antibodies.
+- [W17.70] In some assays, it is preferable to use only the antigen-binding (Fab) portion of the antibody.
+- [W17.71] For these applications, antibodies may be enzymatically digested to produce either an Fab or an F(ab')2 fragment of the antibody.
+- [W17.72] To produce an F(ab')2 fragment, IgG is digested with pepsin, which cleaves the heavy chains near the hinge region.
+- [W17.73] One or more of the disulfide bonds that join the heavy chains in the hinge region are preserved, so the two Fab regions of the antibody remain joined together, yielding a divalent molecule (containing two antibody binding sites), hence the designation F(ab')2.
+- [W17.74] The light chains remain intact and attached to the heavy chain.
+- [W17.75] The Fc fragment is digested into small peptides.
+- [W17.76] Fab fragments are generated by cleavage of IgG with papain instead of pepsin.
+- [W17.77] Papain cleaves IgG above the hinge region containing the disulfide bonds that join the heavy chains, but below the site of the disulfide bond between the light chain and heavy chain.
+- [W17.78] This generates two separate monovalent (containing a single antibody binding site) Fab fragments and an intact Fc fragment.
+- [W17.79] The fragments can be purified by gel filtration, ion exchange, or affinity chromatography.
+- [W17.80] Fab and F(ab')2 antibody fragments are used in assay systems where the presence of the Fc region may cause problems.
+- [W17.81] In tissues such as lymph nodes or spleen, or in peripheral blood preparations, cells with Fc receptors (macrophages, monocytes, B lymphocytes, and natural killer cells) are present, which can bind the Fc region of intact antibodies, causing background staining in areas that do not contain the target antigen.
+- [W17.82] Use of F(ab')2 or Fab fragments ensures that the antibodies are binding to the antigen and not Fc receptors.
+- [W17.83] These fragments may also be desirable for staining cell preparations in the presence of plasma, because they are not able to bind complement, which could lyse the cells.
+- [W17.84] F(ab')2, and to a greater extent Fab, fragments allow more exact localization of the target antigen, i.e., in staining tissue for electron microscopy.
+- [W17.85] The divalency of the F(ab')2 fragment enables it to cross-link antigens, allowing use for precipitation assays, cellular aggregation via surface antigens, or rosetting assays.
+- [W17.86] The following three genes encode identical human pepsinogen A enzymes:
+- [W17.87] A fourth human gene encodes gastricsin also known as pepsinogen C:
+- [W17.88] The MEROPS online database for peptidases and their inhibitors: Pepsin A A01.001 Archived 2008-03-20 at the Wayback Machine, Pepsin B A01.002 Archived 2007-12-21 at the Wayback Machine, Pepsin C (Gastricsin) A01.003 Archived 2020-06-02 at the Wayback Machine
+- [W17.89] National Library of Medicine Medical Subject Headings (MeSH)
+- [W17.90] National Library of Medicine Medical Subject Headings (MeSH)
+- [W17.91] National Library of Medicine Medical Subject Headings (MeSH)
+- [W17.92] National Library of Medicine Medical Subject Headings (MeSH)
+- [W17.93] Pepsin: Molecule of the Month Archived 2015-11-30 at the Wayback Machine, by David Goodsell, RCSB Protein Data Bank
+- [W17.94] Overview of all the structural information available in the PDB for UniProt: P20142 (Human Gastricsin) at the PDBe-KB.
+- [W17.95] Overview of all the structural information available in the PDB for UniProt: P0DJD7 (Pepsin A-4) at the PDBe-KB.
+
+## [W18] Wikipedia: Hans Driesch
+https://en.wikipedia.org/w/index.php?title=Hans_Driesch&oldid=1372002868 · CC BY-SA 4.0 · usage: ai_input
+
+- [W18.1] Hans Adolf Eduard Driesch (28 October 1867 – 17 April 1941) was a German biologist and philosopher from Bad Kreuznach.
+- [W18.2] He is most noted for his early experimental work in embryology and for his neo-vitalist philosophy of entelechy.
+- [W18.3] He has also been credited with performing the first artificial 'cloning' of an animal in the 1880s, although this claim is dependent on how one defines cloning.
+- [W18.4] Driesch was educated at the Gelehrtenschule des Johanneums.
+- [W18.5] He began to study medicine in 1886 under August Weismann at the University of Freiburg.
+- [W18.6] In 1887, he attended the University of Jena under Ernst Haeckel, Oscar Hertwig and Christian Ernst Stahl.
+- [W18.7] In 1888, he studied physics and chemistry at the Ludwig-Maximilians-Universität München.
+- [W18.8] He received his doctorate in 1889.
+- [W18.9] He travelled widely on field and study trips and lecture-tours, visiting Plymouth, India, Zurich and Leipzig where, in 1894, he published his Analytische Theorie der organischen Entwicklung or Analytic Theory of Organic Development.
+- [W18.10] His interests encompassed mathematics, philosophy and physics as well as biology.
+- [W18.11] He married Margarete Relfferschneidt, and the couple had two children.
+- [W18.12] From 1891, Driesch worked in Naples at the Marine Biological Station, where until 1901, he continued to experiment and seek a theoretical formulation of his results.
+- [W18.13] He inquired into classical and modern philosophy in his search for an adequate theoretical overview and ended by adopting an Aristotelian teleological theory of entelechy.
+- [W18.14] Under the influence of his teacher Haeckel, Driesch had tested the mechanistic embryological theories of another of Haeckel's students, Wilhelm Roux.
+- [W18.15] Driesch studied sea urchin embryos, and found that when he separated the two cells of the embryo after the first cell-division, each developed into a complete sea urchin.
+- [W18.16] This was contrary to his expectation that each cell would develop into the corresponding half of the animal, a prediction based on Wilhelm Roux's earlier work with frog embryos.
+- [W18.17] This also happened at the four-cell stage: entire larvae ensued from each of the four cells, albeit smaller than usual.
+- [W18.18] By 1885, Driesch's experiments on the sea urchin embryo showed that it was even possible to shuffle the blastomeres of the early embryo without affecting the resulting larva.
+- [W18.19] These findings suggested that any single cell in the early embryo was capable of forming any part of the developing larva.
+- [W18.20] This seemed to be an important refutation of both early preformation ideas and the later mosaic theory of Wilhelm Roux, and was to be subject to much discussion in the ensuing years.
+- [W18.21] The conclusion caused friction among Driesch, Roux and Haeckel.
+- [W18.22] Driesch's findings brought about the adoption of the terms "totipotent" and "pluripotent" cell, referring respectively to a cell that can generate every cell in an organism and one that can generate nearly every cell.
+- [W18.23] Driesch's results were confirmed with greater precision, and the experiments extended, by Sven Hörstadius who showed that conclusions of equivalence between sea urchin embryonic cells were an over-simplification.
+- [W18.24] The philosophy of entelechy
+- [W18.25] Driesch, believing that his results compromised contemporary mechanistic theories of ontogeny, instead proposed that the autonomy of life that he deduced from this persistence of embryological development despite interferences was due to what he called entelechy, a term borrowed from Aristotle's philosophy to indicate a life force which he conceived of as psychoid or "mind-like", that is; non-spatial, intensive, and qualitative rather than spatial, extensive, and quantitative.
+- [W18.26] Driesch was awarded the chair of natural theology at the University of Aberdeen, where he delivered the Gifford Lectures in 1906 and 1908 on The Science and Philosophy of the Organism – the first comprehensive presentation of his ideas.
+- [W18.27] From 1909, determined to take up a career in academic philosophy, he taught natural philosophy at the Faculty of Natural Sciences at Heidelberg University.
+- [W18.28] In the ensuing decade he published a complete system of philosophy in three volumes, including his fundamental Theory of Order (1912) in which he proposed a three-part "doctrine of order".
+- [W18.29] In 1919, he was the ordinary professor of systematic philosophy at the University of Cologne and in 1921 professor of philosophy at Leipzig University, though he was a visiting professor in Nanjing and Beijing during 1922 and 1923, and in 1923 he received honorable doctor's degree from National Southeastern University (later renamed National Central University and Nanjing University) where he taught for a semester.
+- [W18.30] He taught at the University of Wisconsin (1926–27) and at the University of Buenos Aires (1928).
+- [W18.31] In 1933, he was removed from his chair at Leipzig University and prematurely placed in emeritus status by the Nazi administration, the first non-Jewish academic to be thus expelled, because of his pacifism and open hostility to Nazism.
+- [W18.32] He became interested in parapsychology and published on such phenomena as telepathy, clairvoyance, and telekinesis.
+- [W18.33] His concept of entelechy was criticized by the scientific community.
+- [W18.34] Jenkinson wrote that Driesch was inventing new entities "beyond necessity and the progress of science would be better served by a simpler philosophy." Zoologist Herbert Spencer Jennings commented that the concept of entelechy "does not help in our understanding of matters in the least."
+- [W18.35] His vitalist writings were criticized by historian Ruth Brandon for being based on a religious rather than an objective scientific standpoint.
+- [W18.36] Driesch developed a deep interest in psychical research and parapsychology.
+- [W18.37] In 1931, he published a methodology of parapsychological research (in German) and in 1933, he published a book on the topic titled Psychical Research: The Science of the Super-normal.
+- [W18.38] From 1926 to 1927, he served as the president of the Society for Psychical Research.
+- [W18.39] Die Biologie als selbstständige Wissenschaft (1893)
+- [W18.40] Die Lokalisation morphogenetischer Vorgänge Ein Beweis vitalistischen Geschehens (1899)
+- [W18.41] Analytische Theorie der organischen Entwicklung (1894)
+- [W18.42] Der Vitalismus als Geschichte und als Lehre (1905)
+- [W18.43] Der Begriff der organischen Form (1919)
+- [W18.44] Philosophie des Organischen (4th ed.
+- [W18.45] The Science and Philosophy of the Organism: The Gifford Lectures delivered before the University of Aberdeen in the Year 1907 and 1908 (2 vols.).
+- [W18.46] London: Adam and Charles Black. [1] Archived 2015-04-02 at the Wayback Machine 2nd ed.
+- [W18.47] The Justification of Vitalism.
+- [W18.48] Cambridge Magazine 1 (15): 397.
+- [W18.49] The Problem of Individuality: A Course of Four Lectures Delivered before the University of London in October 1913.
+- [W18.50] The History and Theory of Vitalism.
+- [W18.51] Ogden, trans.) London: Macmillan.
+- [W18.52] "The Biological Setting of Psychical Phenomena".
+- [W18.53] The Quest 15 (July): 433–456.
+- [W18.54] Princeton, NJ: Princeton University Press.
+- [W18.55] The Possibility of Metaphysics: The Course of Four Lectures Delivered before the University of London in March 1924.
+- [W18.56] "The Present Status of the Philosophy of Nature in Germany".
+- [W18.57] The Monist 36 (2): 281–298.
+- [W18.58] "Psychical Research and Established Science".
+- [W18.59] Proceedings of the Society for Psychical Research 36(99): 171–186.
+- [W18.60] "Psychical Research and Philosophy".
+- [W18.61] In: Carl Murchison (ed.), The Case For and Against Psychical Belief.
+- [W18.62] Worcester: Clark University, 163–178.
+- [W18.63] Psychical Research: The Science of the Super-Normal.
+- [W18.64] (Theodore Besterman, trans.) London: G.
+- [W18.65] "Psychiatry and Mental Health".
+- [W18.66] Ancient Philosophy 44: 152. [Book Review]
+- [W18.67] The Hibbert Journal 13: 438–443.
+- [W18.68] "Hans Driesch and the theory and practice of embryonic transplantation".
+- [W18.69] Bulletin of the History of Medicine.
+- [W18.70] "The biologists Hans Driesch and Hans Spemann".
+- [W18.71] Ergebnisse der Anatomie und Entwicklungsgeschichte.
+- [W18.72] Works by or about Hans Adolf Eduard Driesch at Wikisource
+- [W18.73] Media related to Hans Driesch at Wikimedia Commons
+- [W18.74] Works by Hans Driesch at Project Gutenberg
+- [W18.75] Works by or about Hans Driesch at the Internet Archive
+- [W18.76] Biography and bibliography in the Virtual Laboratory of the Max Planck Institute for the History of Science
+- [W18.77] Newspaper clippings about Hans Driesch in the 20th Century Press Archives of the ZBW
+
+## [W19] GTEx Portal v8, median expression of INS by tissue
+https://gtexportal.org/home/gene/INS · facts-only · usage: ai_input
+
+- [W19.1] {"data":[{"median":0.0,"tissueSiteDetailId":"Adipose_Subcutaneous","ontologyId":"UBERON:0002190","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.085274,"tissueSiteDetailId":"Adipose_Visceral_Omentum","ontologyId":"UBERON:0010414","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.47321199999999997,"tissueSiteDetailId":"Adrenal_Gland","ontologyId":"UBERON:0002369","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.125572,"tissueSiteDetailId":"Artery_Aorta","ontologyId":"UBERON:0001496","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.121121,"tissueSiteDetailId":"Artery_Coronary","ontologyId":"UBERON:0001621","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Artery_Tibial","ontologyId":"UBERON:0007610","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.18395799999999998,"tissueSiteDetailId":"Bladder","ontologyId":"UBERON:0001255","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Amygdala","ontologyId":"UBERON:0001876","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Anterior_cingulate_cortex_BA24","ontologyId":"UBERON:0009835","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.037241199999999995,"tissueSiteDetailId":"Brain_Caudate_basal_ganglia","ontologyId":"UBERON:0001873","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.08900830000000001,"tissueSiteDetailId":"Brain_Cerebellar_Hemisphere","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.16481400000000002,"tissueSiteDetailId":"Brain_Cerebellum","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.029521299999999997,"tissueSiteDetailId":"Brain_Cortex","ontologyId":"UBERON:0001870","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Frontal_Cortex_BA9","ontologyId":"UBERON:0009834","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Hippocampus","ontologyId":"UBERON:0001954","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.250118,"tissueSiteDetailId":"Brain_Hypothalamus","ontologyId":"UBERON:0001898","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Nucleus_accumbens_basal_ganglia","ontologyId":"UBERON:0001882","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Putamen_basal_ganglia","ontologyId":"UBERON:0001874","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Spinal_cord_cervical_c-1","ontologyId":"UBERON:0006469","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.43772,"tissueSiteDetailId":"Brain_Substantia_nigra","ontologyId":"UBERON:0002038","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Breast_Mammary_Tissue","ontologyId":"UBERON:0008367","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.042157,"tissueSiteDetailId":"Cells_Cultured_fibroblasts","ontologyId":"EFO:0002009","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.14077,"tissueSiteDetailId":"Cells_EBV-transformed_lymphocytes","ontologyId":"EFO:0000572","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.449316,"tissueSiteDetailId":"Cervix_Ectocervix","ontologyId":"UBERON:0012249","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.15518800000000002,"tissueSiteDetailId":"Cervix_Endocervix","ontologyId":"UBERON:0000458","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0721574,"tissueSiteDetailId":"Colon_Sigmoid","ontologyId":"UBERON:0001159","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.115908,"tissueSiteDetailId":"Colon_Transverse","ontologyId":"UBERON:0001157","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.036234800000000005,"tissueSiteDetailId":"Esophagus_Gastroesophageal_Junction","ontologyId":"UBERON:0004550","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.208995,"tissueSiteDetailId":"Esophagus_Mucosa","ontologyId":"UBERON:0006920","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.10328399999999999,"tissueSiteDetailId":"Esophagus_Muscularis","ontologyId":"UBERON:0004648","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.312292,"tissueSiteDetailId":"Fallopian_Tube","ontologyId":"UBERON:0003889","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Heart_Atrial_Appendage","ontologyId":"UBERON:0006631","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0229628,"tissueSiteDetailId":"Heart_Left_Ventricle","ontologyId":"UBERON:0006566","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.13133699999999998,"tissueSiteDetailId":"Kidney_Cortex","ontologyId":"UBERON:0001225","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.104458,"tissueSiteDetailId":"Kidney_Medulla","ontologyId":"UBERON:0001293","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.256632,"tissueSiteDetailId":"Liver","ontologyId":"UBERON:0001114","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0821945,"tissueSiteDetailId":"Lung","ontologyId":"UBERON:0008952","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.114276,"tissueSiteDetailId":"Minor_Salivary_Gland","ontologyId":"UBERON:0006330","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0208627,"tissueSiteDetailId":"Muscle_Skeletal","ontologyId":"UBERON:0011907","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0839574,"tissueSiteDetailId":"Nerve_Tibial","ontologyId":"UBERON:0001323","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.311204,"tissueSiteDetailId":"Ovary","ontologyId":"UBERON:0000992","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":2325.26,"tissueSiteDetailId":"Pancreas","ontologyId":"UBERON:0001150","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.254712,"tissueSiteDetailId":"Pituitary","ontologyId":"UBERON:0000007","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.17193599999999998,"tissueSiteDetailId":"Prostate","ontologyId":"UBERON:0002367","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0447548,"tissueSiteDetailId":"Skin_Not_Sun_Exposed_Suprapubic","ontologyId":"UBERON:0036149","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0590825,"tissueSiteDetailId":"Skin_Sun_Exposed_Lower_leg","ontologyId":"UBERON:8480050","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.193303,"tissueSiteDetailId":"Small_Intestine_Terminal_Ileum","ontologyId":"UBERON:0001211","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.339836,"tissueSiteDetailId":"Spleen","ontologyId":"UBERON:0002106","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.193037,"tissueSiteDetailId":"Stomach","ontologyId":"UBERON:0000945","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.266464,"tissueSiteDetailId":"Testis","ontologyId":"UBERON:0000473","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.10871800000000001,"tissueSiteDetailId":"Thyroid","ontologyId":"UBERON:0002046","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.25956799999999997,"tissueSiteDetailId":"Uterus","ontologyId":"UBERON:0000995","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.16730899999999999,"tissueSiteDetailId":"Vagina","ontologyId":"UBERON:0000996","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Whole_Blood","ontologyId":"UBERON:0013756","datasetId":"gtex_v8","gencodeId":"ENSG00000254647.6","geneSymbol":"INS","unit":"TPM"}],"paging_info":{"numberOfPages":1,"page":0,"maxItemsPerPage":250,"totalNumberOfItems":54}}
+
+## [W20] GTEx Portal v8, median expression of SFTPC by tissue
+https://gtexportal.org/home/gene/SFTPC · facts-only · usage: ai_input
+
+- [W20.1] {"data":[{"median":0.164001,"tissueSiteDetailId":"Adipose_Subcutaneous","ontologyId":"UBERON:0002190","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.192402,"tissueSiteDetailId":"Adipose_Visceral_Omentum","ontologyId":"UBERON:0010414","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.227293,"tissueSiteDetailId":"Adrenal_Gland","ontologyId":"UBERON:0002369","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.185135,"tissueSiteDetailId":"Artery_Aorta","ontologyId":"UBERON:0001496","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.253688,"tissueSiteDetailId":"Artery_Coronary","ontologyId":"UBERON:0001621","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.399889,"tissueSiteDetailId":"Artery_Tibial","ontologyId":"UBERON:0007610","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.0266,"tissueSiteDetailId":"Bladder","ontologyId":"UBERON:0001255","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":2.08766,"tissueSiteDetailId":"Brain_Amygdala","ontologyId":"UBERON:0001876","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":2.18942,"tissueSiteDetailId":"Brain_Anterior_cingulate_cortex_BA24","ontologyId":"UBERON:0009835","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":3.7137,"tissueSiteDetailId":"Brain_Caudate_basal_ganglia","ontologyId":"UBERON:0001873","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":1.27637,"tissueSiteDetailId":"Brain_Cerebellar_Hemisphere","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":1.55213,"tissueSiteDetailId":"Brain_Cerebellum","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":3.4468,"tissueSiteDetailId":"Brain_Cortex","ontologyId":"UBERON:0001870","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":3.3057800000000004,"tissueSiteDetailId":"Brain_Frontal_Cortex_BA9","ontologyId":"UBERON:0009834","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":2.89122,"tissueSiteDetailId":"Brain_Hippocampus","ontologyId":"UBERON:0001954","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":2.00007,"tissueSiteDetailId":"Brain_Hypothalamus","ontologyId":"UBERON:0001898","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":3.3323099999999997,"tissueSiteDetailId":"Brain_Nucleus_accumbens_basal_ganglia","ontologyId":"UBERON:0001882","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":4.02532,"tissueSiteDetailId":"Brain_Putamen_basal_ganglia","ontologyId":"UBERON:0001874","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":7.26598,"tissueSiteDetailId":"Brain_Spinal_cord_cervical_c-1","ontologyId":"UBERON:0006469","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":3.43335,"tissueSiteDetailId":"Brain_Substantia_nigra","ontologyId":"UBERON:0002038","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.160215,"tissueSiteDetailId":"Breast_Mammary_Tissue","ontologyId":"UBERON:0008367","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.0380828,"tissueSiteDetailId":"Cells_Cultured_fibroblasts","ontologyId":"EFO:0002009","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.165484,"tissueSiteDetailId":"Cells_EBV-transformed_lymphocytes","ontologyId":"EFO:0000572","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.15901500000000002,"tissueSiteDetailId":"Cervix_Ectocervix","ontologyId":"UBERON:0012249","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.18063900000000002,"tissueSiteDetailId":"Cervix_Endocervix","ontologyId":"UBERON:0000458","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.240938,"tissueSiteDetailId":"Colon_Sigmoid","ontologyId":"UBERON:0001159","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.17260799999999998,"tissueSiteDetailId":"Colon_Transverse","ontologyId":"UBERON:0001157","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.346139,"tissueSiteDetailId":"Esophagus_Gastroesophageal_Junction","ontologyId":"UBERON:0004550","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.23704099999999997,"tissueSiteDetailId":"Esophagus_Mucosa","ontologyId":"UBERON:0006920","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.350846,"tissueSiteDetailId":"Esophagus_Muscularis","ontologyId":"UBERON:0004648","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.117306,"tissueSiteDetailId":"Fallopian_Tube","ontologyId":"UBERON:0003889","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.291848,"tissueSiteDetailId":"Heart_Atrial_Appendage","ontologyId":"UBERON:0006631","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.179228,"tissueSiteDetailId":"Heart_Left_Ventricle","ontologyId":"UBERON:0006566","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.105465,"tissueSiteDetailId":"Kidney_Cortex","ontologyId":"UBERON:0001225","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Kidney_Medulla","ontologyId":"UBERON:0001293","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.1254,"tissueSiteDetailId":"Liver","ontologyId":"UBERON:0001114","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":1746.94,"tissueSiteDetailId":"Lung","ontologyId":"UBERON:0008952","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.183206,"tissueSiteDetailId":"Minor_Salivary_Gland","ontologyId":"UBERON:0006330","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.15682100000000002,"tissueSiteDetailId":"Muscle_Skeletal","ontologyId":"UBERON:0011907","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.603377,"tissueSiteDetailId":"Nerve_Tibial","ontologyId":"UBERON:0001323","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.17863199999999999,"tissueSiteDetailId":"Ovary","ontologyId":"UBERON:0000992","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.134375,"tissueSiteDetailId":"Pancreas","ontologyId":"UBERON:0001150","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.37896399999999997,"tissueSiteDetailId":"Pituitary","ontologyId":"UBERON:0000007","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.35246700000000003,"tissueSiteDetailId":"Prostate","ontologyId":"UBERON:0002367","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.86174,"tissueSiteDetailId":"Skin_Not_Sun_Exposed_Suprapubic","ontologyId":"UBERON:0036149","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":1.20234,"tissueSiteDetailId":"Skin_Sun_Exposed_Lower_leg","ontologyId":"UBERON:8480050","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.218745,"tissueSiteDetailId":"Small_Intestine_Terminal_Ileum","ontologyId":"UBERON:0001211","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.15628,"tissueSiteDetailId":"Spleen","ontologyId":"UBERON:0002106","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.22216799999999998,"tissueSiteDetailId":"Stomach","ontologyId":"UBERON:0000945","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":2.16853,"tissueSiteDetailId":"Testis","ontologyId":"UBERON:0000473","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":2.86292,"tissueSiteDetailId":"Thyroid","ontologyId":"UBERON:0002046","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.26037,"tissueSiteDetailId":"Uterus","ontologyId":"UBERON:0000995","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.245806,"tissueSiteDetailId":"Vagina","ontologyId":"UBERON:0000996","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"},{"median":0.120604,"tissueSiteDetailId":"Whole_Blood","ontologyId":"UBERON:0013756","datasetId":"gtex_v8","gencodeId":"ENSG00000168484.12","geneSymbol":"SFTPC","unit":"TPM"}],"paging_info":{"numberOfPages":1,"page":0,"maxItemsPerPage":250,"totalNumberOfItems":54}}
+
+## [W21] GTEx Portal v8, median expression of ALB by tissue
+https://gtexportal.org/home/gene/ALB · facts-only · usage: ai_input
+
+- [W21.1] {"data":[{"median":0.815163,"tissueSiteDetailId":"Adipose_Subcutaneous","ontologyId":"UBERON:0002190","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.17859,"tissueSiteDetailId":"Adipose_Visceral_Omentum","ontologyId":"UBERON:0010414","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.0441700000000003,"tissueSiteDetailId":"Adrenal_Gland","ontologyId":"UBERON:0002369","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.60199,"tissueSiteDetailId":"Artery_Aorta","ontologyId":"UBERON:0001496","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.63611,"tissueSiteDetailId":"Artery_Coronary","ontologyId":"UBERON:0001621","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.8225290000000001,"tissueSiteDetailId":"Artery_Tibial","ontologyId":"UBERON:0007610","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.25045,"tissueSiteDetailId":"Bladder","ontologyId":"UBERON:0001255","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.10637,"tissueSiteDetailId":"Brain_Amygdala","ontologyId":"UBERON:0001876","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.11093,"tissueSiteDetailId":"Brain_Anterior_cingulate_cortex_BA24","ontologyId":"UBERON:0009835","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.04408,"tissueSiteDetailId":"Brain_Caudate_basal_ganglia","ontologyId":"UBERON:0001873","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.903907,"tissueSiteDetailId":"Brain_Cerebellar_Hemisphere","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.66428,"tissueSiteDetailId":"Brain_Cerebellum","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.24651,"tissueSiteDetailId":"Brain_Cortex","ontologyId":"UBERON:0001870","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.1536799999999998,"tissueSiteDetailId":"Brain_Frontal_Cortex_BA9","ontologyId":"UBERON:0009834","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.1624,"tissueSiteDetailId":"Brain_Hippocampus","ontologyId":"UBERON:0001954","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.44494,"tissueSiteDetailId":"Brain_Hypothalamus","ontologyId":"UBERON:0001898","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.95096,"tissueSiteDetailId":"Brain_Nucleus_accumbens_basal_ganglia","ontologyId":"UBERON:0001882","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.7216599999999997,"tissueSiteDetailId":"Brain_Putamen_basal_ganglia","ontologyId":"UBERON:0001874","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.5852700000000002,"tissueSiteDetailId":"Brain_Spinal_cord_cervical_c-1","ontologyId":"UBERON:0006469","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.966507,"tissueSiteDetailId":"Brain_Substantia_nigra","ontologyId":"UBERON:0002038","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.8301599999999998,"tissueSiteDetailId":"Breast_Mammary_Tissue","ontologyId":"UBERON:0008367","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.300743,"tissueSiteDetailId":"Cells_Cultured_fibroblasts","ontologyId":"EFO:0002009","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.33807600000000004,"tissueSiteDetailId":"Cells_EBV-transformed_lymphocytes","ontologyId":"EFO:0000572","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.7050900000000002,"tissueSiteDetailId":"Cervix_Ectocervix","ontologyId":"UBERON:0012249","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.81663,"tissueSiteDetailId":"Cervix_Endocervix","ontologyId":"UBERON:0000458","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.652189,"tissueSiteDetailId":"Colon_Sigmoid","ontologyId":"UBERON:0001159","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.922533,"tissueSiteDetailId":"Colon_Transverse","ontologyId":"UBERON:0001157","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.0338200000000002,"tissueSiteDetailId":"Esophagus_Gastroesophageal_Junction","ontologyId":"UBERON:0004550","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.3383,"tissueSiteDetailId":"Esophagus_Mucosa","ontologyId":"UBERON:0006920","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.2054799999999999,"tissueSiteDetailId":"Esophagus_Muscularis","ontologyId":"UBERON:0004648","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":3.33077,"tissueSiteDetailId":"Fallopian_Tube","ontologyId":"UBERON:0003889","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.0686200000000001,"tissueSiteDetailId":"Heart_Atrial_Appendage","ontologyId":"UBERON:0006631","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.400455,"tissueSiteDetailId":"Heart_Left_Ventricle","ontologyId":"UBERON:0006566","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":40.2573,"tissueSiteDetailId":"Kidney_Cortex","ontologyId":"UBERON:0001225","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":13.3339,"tissueSiteDetailId":"Kidney_Medulla","ontologyId":"UBERON:0001293","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":25201.3,"tissueSiteDetailId":"Liver","ontologyId":"UBERON:0001114","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.5798099999999997,"tissueSiteDetailId":"Lung","ontologyId":"UBERON:0008952","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.0620100000000001,"tissueSiteDetailId":"Minor_Salivary_Gland","ontologyId":"UBERON:0006330","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.219006,"tissueSiteDetailId":"Muscle_Skeletal","ontologyId":"UBERON:0011907","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.91153,"tissueSiteDetailId":"Nerve_Tibial","ontologyId":"UBERON:0001323","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.39584,"tissueSiteDetailId":"Ovary","ontologyId":"UBERON:0000992","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":323.33099999999996,"tissueSiteDetailId":"Pancreas","ontologyId":"UBERON:0001150","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.8327,"tissueSiteDetailId":"Pituitary","ontologyId":"UBERON:0000007","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.291,"tissueSiteDetailId":"Prostate","ontologyId":"UBERON:0002367","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.6507470000000001,"tissueSiteDetailId":"Skin_Not_Sun_Exposed_Suprapubic","ontologyId":"UBERON:0036149","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":0.753997,"tissueSiteDetailId":"Skin_Sun_Exposed_Lower_leg","ontologyId":"UBERON:8480050","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.21139,"tissueSiteDetailId":"Small_Intestine_Terminal_Ileum","ontologyId":"UBERON:0001211","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.2016299999999998,"tissueSiteDetailId":"Spleen","ontologyId":"UBERON:0002106","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":5.32458,"tissueSiteDetailId":"Stomach","ontologyId":"UBERON:0000945","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":4.78765,"tissueSiteDetailId":"Testis","ontologyId":"UBERON:0000473","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.88551,"tissueSiteDetailId":"Thyroid","ontologyId":"UBERON:0002046","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.9131099999999999,"tissueSiteDetailId":"Uterus","ontologyId":"UBERON:0000995","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":1.42115,"tissueSiteDetailId":"Vagina","ontologyId":"UBERON:0000996","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"},{"median":2.46845,"tissueSiteDetailId":"Whole_Blood","ontologyId":"UBERON:0013756","datasetId":"gtex_v8","gencodeId":"ENSG00000163631.16","geneSymbol":"ALB","unit":"TPM"}],"paging_info":{"numberOfPages":1,"page":0,"maxItemsPerPage":250,"totalNumberOfItems":54}}
+
+## [W22] Wikipedia: Human serum albumin
+https://en.wikipedia.org/w/index.php?title=Human_serum_albumin&oldid=1378394754 · CC BY-SA 4.0 · usage: ai_input
+
+- [W22.1] Human serum albumin (HSA or "Human Fraction V") is the serum albumin found in human blood.
+- [W22.2] It is the most abundant protein in human blood plasma; it constitutes about half of serum protein.
+- [W22.3] It is produced in the liver.
+- [W22.4] It is soluble in water, and it is monomeric.
+- [W22.5] Albumin transports hormones, fatty acids, and other compounds, buffers pH, and maintains oncotic pressure, among other functions.
+- [W22.6] Albumin is synthesized in the liver as preproalbumin, which has an N-terminal peptide that is removed before the nascent protein is released from the rough endoplasmic reticulum.
+- [W22.7] The product, proalbumin, is in turn cleaved in the Golgi apparatus to produce the secreted albumin.
+- [W22.8] The reference range for albumin concentrations in serum is approximately 35–50 g/L (3.5–5.0 g/dL).
+- [W22.9] It has a serum half-life of approximately 21 days.
+- [W22.10] It has a molecular mass of 66.5 kDa.
+- [W22.11] The gene for albumin is located on chromosome 4 in locus 4q13.3 and mutations in this gene can result in anomalous proteins.
+- [W22.12] The human albumin gene is 16,961 nucleotides long from the putative 'cap' site to the first poly(A) addition site.
+- [W22.13] It is split into 15 exons that are symmetrically placed within the 3 domains thought to have arisen by triplication of a single primordial domain.
+- [W22.14] Human serum albumin (HSA) is a highly water-soluble globular monomeric plasma protein with a relative molecular weight of 67 KDa, consisting of 585 amino acid residues, one sulfhydryl group and 17 disulfide bridges.
+- [W22.15] Among nanoparticulate carriers, HSA nanoparticles have long been the center of attention in the pharmaceutical industry due to their ability to bind to various drug molecules, great stability during storage and in vivo usage, no toxicity and antigenicity, biodegradability, reproducibility, scale up of the production process and a better control over release properties.
+- [W22.16] In addition, significant amounts of drug can be incorporated into the particle matrix because of the large number of drug binding sites on the albumin molecule.
+- [W22.17] Maintains oncotic pressure
+- [W22.18] Transports thyroid hormones
+- [W22.19] Transports other hormones, in particular, ones that are fat-soluble
+- [W22.20] Transports fatty acids ("free" fatty acids) to the liver and to myocytes for utilization of energy
+- [W22.21] Transports unconjugated bilirubin
+- [W22.22] Transports many drugs; serum albumin levels can affect the half-life of drugs.
+- [W22.23] Competition between drugs for albumin binding sites may cause drug interaction by increasing the free fraction of one of the drugs, thereby affecting potency.
+- [W22.24] Competitively binds calcium ions (Ca2+)
+- [W22.25] Serum albumin, as a negative acute-phase protein, is down-regulated in inflammatory states.
+- [W22.26] As such, it is not a valid marker of nutritional status; rather, it is a marker of an inflammatory state
+- [W22.27] Prevents photodegradation of folic acid
+- [W22.28] Prevent pathogenic effects of Clostridioides difficile toxins
+- [W22.29] Serum albumin is commonly measured by recording the change in absorbance upon binding to a dye such as bromocresol green or bromocresol purple.
+- [W22.30] The normal range of human serum albumin in adults (> 3 y.o.) is 3.5–5.0  g/dL (35–50 g/L).
+- [W22.31] For children less than three years of age, the normal range is broader, 2.9–5.5 g/dL.
+- [W22.32] Low albumin (hypoalbuminemia) may be caused by liver disease, nephrotic syndrome, burns, protein-losing enteropathy, malnutrition (slowly in the absence of inflamation), and malignancy.
+- [W22.33] More commonly, particularly in hospitalized patients, it is caused by it is caused by inflammation and dilution by intravenous fluids.
+- [W22.34] High albumin (hyperalbuminemia) is almost always caused by dehydration.
+- [W22.35] In some cases of retinol (Vitamin A) deficiency, the albumin level can be elevated to high-normal values (e.g., 4.9 g/dL) because retinol causes cells to swell with water.
+- [W22.36] (This is also the reason too much Vitamin A is toxic.)
+- [W22.37] This swelling also likely occurs during treatment with 13-cis retinoic acid (isotretinoin), a pharmaceutical for treating severe acne, amongst other conditions.
+- [W22.38] In lab experiments it has been shown that all-trans retinoic acid down regulates human albumin production.
+- [W22.39] Hypoalbuminemia means low blood albumin levels.
+- [W22.40] Liver disease; cirrhosis of the liver is most common
+- [W22.41] Excess excretion by the kidneys (as in nephrotic syndrome)
+- [W22.42] Excess loss in bowel (protein-losing enteropathy, e.g., Ménétrier's disease)
+- [W22.43] Burns (plasma loss in the absence of skin barrier)
+- [W22.44] Redistribution (hemodilution [as in pregnancy], increased vascular permeability or decreased lymphatic clearance)
+- [W22.45] Acute disease states (referred to as a negative acute-phase protein)
+- [W22.46] Mutation causing analbuminemia (very rare)
+- [W22.47] Anorexia nervosa (most common cause in adolescents)
+- [W22.48] In clinical medicine, hypoalbuminemia significantly correlates with a higher mortality rates in several conditions such as heart failure, post-surgery, COVID-19.
+- [W22.49] Hyperalbuminemia is an increased concentration of albumin in the blood.
+- [W22.50] Typically, this condition is due to dehydration.
+- [W22.51] Hyperalbuminemia has also been associated with high protein diets.
+- [W22.52] Human albumin solution (HSA) is available for medical use, usually at concentrations of either 5 or 25%.
+- [W22.53] Human albumin is often used to replace lost fluid and help restore blood volume in trauma, burns and surgery patients.
+- [W22.54] There is no strong medical evidence that albumin administration (compared to saline) saves lives for people who have hypovolaemia or for those who are critically ill due to burns or hypoalbuminaemia.
+- [W22.55] It is also not known if there are people who are critically ill that may benefit from albumin.
+- [W22.56] Therefore, the Cochrane Collaboration recommends that it should not be used, except in clinical trials.
+- [W22.57] In acoustic droplet vaporization (ADV), albumin is sometimes used as a surfactant.
+- [W22.58] ADV has been proposed as a cancer treatment by means of occlusion therapy.
+- [W22.59] Human serum albumin may be used to potentially reverse drug/chemical toxicity by binding to free drug/agent.
+- [W22.60] Human albumin may also be used in treatment of decompensated cirrhosis.
+- [W22.61] Human serum albumin has been used as a component of a frailty index.
+- [W22.62] It has been known for a long time that human blood proteins like hemoglobin  and serum albumin may undergo a slow non-enzymatic glycation, mainly by formation of a Schiff base between ε-amino groups of lysine (and sometimes arginine) residues and glucose molecules in blood (Maillard reaction).
+- [W22.63] This reaction can be inhibited in the presence of antioxidant agents.
+- [W22.64] Although this reaction may happen normally, elevated glycoalbumin is observed in diabetes mellitus.
+- [W22.65] Glycation has the potential to alter the biological structure and function of the serum albumin protein.
+- [W22.66] Moreover, the glycation can result in the formation of advanced glycation end-products (AGEs), which result in abnormal biological effects.
+- [W22.67] Accumulation of AGEs leads to tissue damage via alteration of the structures and functions of tissue proteins, stimulation of cellular responses, through receptors specific for AGE-proteins, and generation of reactive oxygen intermediates.
+- [W22.68] AGEs also react with DNA, thus causing mutations and DNA transposition.
+- [W22.69] Thermal processing of proteins and carbohydrates brings major changes in allergenicity.
+- [W22.70] AGEs are antigenic and represent many of the important neoantigens found in cooked or stored foods.
+- [W22.71] They also interfere with the normal product of nitric oxide in cells.
+- [W22.72] Although there are several lysine and arginine residues in the serum albumin structure, very few of them can take part in the glycation reaction.
+- [W22.73] The albumin is the predominant protein in most body fluids, its Cys34 represents the largest fraction of free thiols within the body.
+- [W22.74] The albumin Cys34 thiol exists in both reduced and oxidized forms.
+- [W22.75] In plasma of healthy young adults, 70–80% of total HSA contains the free sulfhydryl group of Cys34 in a reduced form or mercaptoalbumin (HSA-SH).
+- [W22.76] However, in pathological states characterized by oxidative stress such as kidney disease, liver disease and diabetes the oxidized form, or non-mercaptoalbumin (HNA), could predominate.
+- [W22.77] The albumin thiol reacts with radical hydroxyl (.OH), hydrogen peroxide (H2O2) and the reactive nitrogen species as peroxynitrite (ONOO.), and have been shown to oxidize Cys34 to sulfenic acid derivate (HSA-SOH), it can be recycled to mercapto-albumin; however at high concentrations of reactive species leads to the irreversible oxidation to sulfinic (HSA-SO2H) or sulfonic acid (HSA-SO3H) affecting its structure.
+- [W22.78] Presence of reactive oxygen species (ROS), can induce irreversible structural damage and alter protein activities.
+- [W22.79] In the healthy kidney, albumin's size and negative electric charge exclude it from excretion in the glomerulus.
+- [W22.80] This is not always the case, as in some diseases including diabetic nephropathy, which can sometimes be a complication of uncontrolled or of longer term diabetes  in which proteins can cross the glomerulus.
+- [W22.81] The lost albumin can be detected by a simple urine test.
+- [W22.82] Depending on the amount of albumin lost, a patient may have normal renal function, microalbuminuria, or albuminuria.
+- [W22.83] Human serum albumin has been shown to interact with FCGRT.
+- [W22.84] It might also interact with a yet-unidentified albondin (gp60), a certain pair of gp18/gp30, and some other proteins like osteonectin, hnRNPs, calreticulin, cubilin, and megalin.
+- [W22.85] Human Albumin structure[link removed] in the Protein data bank
+- [W22.86] Human Serum Albumin Archived 2006-04-24 at the Wayback Machine on the Human Protein Reference Database Archived 2006-04-24 at the Wayback Machine
+- [W22.87] Albumin binding prediction
+- [W22.88] Albumin at Lab Tests Online
+- [W22.89] Albumin: analyte monograph from the Association for Clinical Biochemistry and Laboratory Medicine
+- [W22.90] Overview of all the structural information available in the PDB for UniProt: P02768 (Serum albumin) at the PDBe-KB.
+
+## [W23] Wikipedia: Myosin
+https://en.wikipedia.org/w/index.php?title=Myosin&oldid=1377878404 · CC BY-SA 4.0 · usage: ai_input
+
+- [W23.1] Myosins () are a family of motor proteins (though most often protein complexes) best known for their roles in muscle contraction and in a wide range of other motility processes in eukaryotes.
+- [W23.2] They are ATP-dependent and responsible for actin-based motility.
+- [W23.3] The first myosin (M2) to be discovered was in 1864 by Wilhelm Kühne.
+- [W23.4] Kühne had extracted a viscous protein from skeletal muscle that he held responsible for keeping the tension state in muscle.
+- [W23.5] He called this protein myosin.
+- [W23.6] The term has been extended to include a group of similar ATPases found in the cells of both striated muscle tissue and smooth muscle tissue.
+- [W23.7] Following the discovery in 1973 of enzymes with myosin-like function in Acanthamoeba castellanii, a global range of divergent myosin genes have been discovered throughout the realm of eukaryotes.
+- [W23.8] Although myosin was originally thought to be restricted to muscle cells (hence myo-(s) + -in), there is no single "myosin"; rather it is a very large superfamily of genes whose protein products share the basic properties of actin binding, ATP hydrolysis (ATPase enzyme activity), and force transduction.
+- [W23.9] Virtually all eukaryotic cells contain myosin isoforms.
+- [W23.10] Some isoforms have specialized functions in certain cell types (such as muscle), while other isoforms are ubiquitous.
+- [W23.11] The structure and function of myosin is globally conserved across species, to the extent that rabbit muscle myosin II will bind to actin from an amoeba.
+- [W23.12] Most myosin molecules are composed of a head, neck, and tail domain.
+- [W23.13] The head domain binds the filamentous actin, and uses ATP hydrolysis to generate force and to "walk" along the filament towards the barbed (+) end (with the exception of myosin VI, which moves towards the pointed (-) end).
+- [W23.14] the neck domain acts as a linker and as a lever arm for transducing force generated by the catalytic motor domain.
+- [W23.15] The neck domain can also serve as a binding site for myosin light chains which are distinct proteins that form part of a macromolecular complex and generally have regulatory functions.
+- [W23.16] The tail domain generally mediates interaction with cargo molecules and/or other myosin subunits.
+- [W23.17] In some cases, the tail domain may play a role in regulating motor activity.
+- [W23.18] Multiple myosin II molecules generate force in skeletal muscle through a power stroke mechanism fuelled by the energy released from ATP hydrolysis.
+- [W23.19] The power stroke occurs at the release of phosphate from the myosin molecule after the ATP hydrolysis while myosin is tightly bound to actin.
+- [W23.20] The effect of this release is a conformational change in the molecule that pulls against the actin.
+- [W23.21] The release of the ADP molecule leads to the so-called rigor state of myosin.
+- [W23.22] The binding of a new ATP molecule will release myosin from actin.
+- [W23.23] ATP hydrolysis within the myosin will cause it to bind to actin again to repeat the cycle.
+- [W23.24] The combined effect of the myriad power strokes causes the muscle to contract.
+- [W23.25] Nomenclature, evolution, and the family tree
+- [W23.26] The wide variety of myosin genes found throughout the eukaryotic phyla were named according to different schemes as they were discovered.
+- [W23.27] The nomenclature can therefore be somewhat confusing when attempting to compare the functions of myosin proteins within and between organisms.
+- [W23.28] Skeletal muscle myosin, the most conspicuous of the myosin superfamily due to its abundance in muscle fibers, was the first to be discovered.
+- [W23.29] This protein makes up part of the sarcomere and forms macromolecular filaments composed of multiple myosin subunits.
+- [W23.30] Similar filament-forming myosin proteins were found in cardiac muscle, smooth muscle, and nonmuscle cells.
+- [W23.31] However, beginning in the 1970s, researchers began to discover new myosin genes in simple eukaryotes encoding proteins that acted as monomers and were therefore entitled Class I myosins.
+- [W23.32] These new myosins were collectively termed "unconventional myosins" and have been found in many tissues other than muscle.
+- [W23.33] These new superfamily members have been grouped according to phylogenetic relationships derived from a comparison of the amino acid sequences of their head domains, with each class being assigned a Roman numeral (see phylogenetic tree).
+- [W23.34] The unconventional myosins also have divergent tail domains, suggesting unique functions.
+- [W23.35] The now diverse array of myosins likely evolved from an ancestral precursor (see picture).
+- [W23.36] Evolutionary analysis of Myosin II genes in vertebrates shows a pattern of class-specific duplications of skeletal and cardiac myosins.
+- [W23.37] These show that some Myosin II forms are conserved across vertebrates (e.g., MYH3 and MYH13), while others have undergone a duplication-loss replacement process.
+- [W23.38] Analysis of the amino acid sequences of different myosins shows great variability among the tail domains, but strong conservation of head domain sequences.
+- [W23.39] Presumably this is so the myosins may interact, via their tails, with a large number of different cargoes, while the goal in each case – to move along actin filaments – remains the same and therefore requires the same machinery in the motor.
+- [W23.40] For example, the human genome contains over 40 different myosin genes.
+- [W23.41] These differences in shape also determine the speed at which myosins can move along actin filaments.
+- [W23.42] The hydrolysis of ATP and the subsequent release of the phosphate group causes the "power stroke", in which the "lever arm" or "neck" region of the heavy chain is dragged forward.
+- [W23.43] Since the power stroke always moves the lever arm by the same angle, the length of the lever arm determines the displacement of the cargo relative to the actin filament.
+- [W23.44] A longer lever arm will cause the cargo to traverse a greater distance even though the lever arm undergoes the same angular displacement – just as a person with longer legs can move farther with each individual step.
+- [W23.45] The velocity of a myosin motor depends upon the rate at which it passes through a complete kinetic cycle of ATP binding to the release of ADP.
+- [W23.46] Myosin I, a ubiquitous cellular protein, functions  as monomer and functions in vesicle transport.
+- [W23.47] It has a step size of 10 nm and has been implicated as being responsible for the adaptation response of the stereocilia in the inner ear.
+- [W23.48] Myosin II (also known as conventional myosin) is the myosin type responsible for producing muscle contraction in muscle cells in most animal cell types.
+- [W23.49] It is also found in non-muscle cells in contractile bundles called stress fibers.
+- [W23.50] Myosin II contains two heavy chains, each about 2000 amino acids in length, which constitute the head and tail domains.
+- [W23.51] Each of these heavy chains contains the N-terminal head domain, while the C-terminal tails take on a coiled-coil morphology, holding the two heavy chains together (imagine two snakes wrapped around each other, as in a caduceus).
+- [W23.52] Thus, myosin II has two heads.
+- [W23.53] The intermediate neck domain is the region creating the angle between the head and tail.
+- [W23.54] In smooth muscle, a single gene (MYH11)) codes for the heavy chains myosin II, but splice variants of this gene result in four distinct isoforms.
+- [W23.55] It also contains 4 myosin light chains (MLC), resulting in 2 per head, weighing 20 (MLC20) and 17 (MLC17) kDa.
+- [W23.56] These bind the heavy chains in the "neck" region between the head and tail.
+- [W23.57] The MLC20 is also known as the regulatory light chain and actively participates in muscle contraction.
+- [W23.58] The MLC17 is also known as the essential light chain.
+- [W23.59] Its exact function is unclear, but is believed to contribute to the structural stability of the myosin head along with MLC20.
+- [W23.60] Two variants of MLC17 (MLC17a/b) exist as a result of alternative splicing at the MLC17 gene.
+- [W23.61] In muscle cells, the long coiled-coil tails of the individual myosin molecules can auto-inhibit active function in the 10S conformation or upon phosphorylation, change to the 6S conformation and join, forming the thick filaments of the sarcomere.
+- [W23.62] The force-producing head domains stick out from the side of the thick filament, ready to walk along the adjacent actin-based thin filaments in response to the proper chemical signals and may be in either auto-inhibited or active conformation.
+- [W23.63] The balance/transition between active and inactive states is subject to extensive chemical regulation.
+- [W23.64] Myosin III is a poorly understood member of the myosin family.
+- [W23.65] It has been studied in vivo in the eyes of Drosophila, where it is thought to play a role in phototransduction.
+- [W23.66] A human homologue gene for myosin III, MYO3A, has been uncovered through the Human Genome Project and is expressed in the retina and cochlea.
+- [W23.67] Myosin IV has a single IQ motif and a tail that lacks any coiled-coil forming sequence.
+- [W23.68] It has homology similar to the tail domains of Myosin VII and XV.
+- [W23.69] Myosin V is an unconventional myosin motor, which is processive as a dimer and has a step size of 36 nm.
+- [W23.70] It translocates (walks) along actin filaments traveling towards the barbed end (+ end) of the filaments.
+- [W23.71] Myosin V is involved in the transport of cargo (e.g.
+- [W23.72] RNA, vesicles, organelles, mitochondria) from the center of the cell to the periphery, but has been furthermore shown to act like a dynamic tether, retaining vesicles and organelles in the actin-rich periphery of cells.
+- [W23.73] A recent single molecule in vitro reconstitution study on assembling actin filaments suggests that Myosin V travels farther on newly assembling (ADP-Pi rich) F-actin, while processive runlengths are shorter on older (ADP-rich) F-actin.
+- [W23.74] The Myosin V motor head can be subdivided into the following functional regions:
+- [W23.75] Nucleotide-binding site - These elements together coordinate di-valent metal cations (usually magnesium) and catalyze hydrolysis:
+- [W23.76] Switch I - This contains a highly conserved SSR motif.
+- [W23.77] Isomerizes in the presence of ATP.
+- [W23.78] Switch II - This is the Kinase-GTPase version of the Walker B motif DxxG.
+- [W23.79] Isomerizes in the presence of ATP.
+- [W23.80] P-loop - This contains the Walker A motif GxxxxGK(S,T).
+- [W23.81] This is the primary ATP binding site.
+- [W23.82] Transducer - The seven β-strands that underpin the motor head's structure.
+- [W23.83] U50 and L50 - The Upper (U50) and Lower (L50) domains are each around 50kDa.
+- [W23.84] Their spatial separation forms a cleft critical for binding to actin and some regulatory compounds.
+- [W23.85] SH1 helix and Relay - These elements together provide an essential mechanism for coupling the enzymatic state of the motor domain to the powerstroke-producing region (converter domain, lever arm, and light chains).
+- [W23.86] Converter - This converts a change of conformation in the motor head to an angular displacement of the lever arm (in most cases reinforced with light chains).
+- [W23.87] Myosin VI is an unconventional myosin motor, which is primarily processive as a dimer, but also acts as a nonprocessive monomer.
+- [W23.88] It walks along actin filaments, travelling towards the pointed end (- end) of the filaments.
+- [W23.89] Myosin VI is thought to transport endocytic vesicles into the cell.
+- [W23.90] Myosin VII is an unconventional myosin with two FERM domains in the tail region.
+- [W23.91] It has an extended lever arm consisting of five calmodulin binding IQ motifs followed by a single alpha helix (SAH) Myosin VII is required for phagocytosis in Dictyostelium discoideum, spermatogenesis in C. elegans and stereocilia formation in mice and zebrafish.
+- [W23.92] Myosin VIII is a plant-specific myosin linked to cell division; specifically, it is involved in regulating the flow of cytoplasm between cells and in the localization of vesicles to the phragmoplast.
+- [W23.93] Myosin IX is a group of single-headed motor proteins.
+- [W23.94] It was first shown to be minus-end directed, but a later study showed that it is plus-end directed.
+- [W23.95] The movement mechanism for this myosin is poorly understood.
+- [W23.96] Myosin X is an unconventional myosin motor, which is functional as a dimer.
+- [W23.97] The dimerization of myosin X is thought to be antiparallel.
+- [W23.98] This behavior has not been observed in other myosins.
+- [W23.99] In mammalian cells, the motor is found to localize to filopodia.
+- [W23.100] Myosin X walks towards the barbed ends of filaments.
+- [W23.101] Some research suggests it preferentially walks on bundles of actin, rather than single filaments.
+- [W23.102] It is the first myosin motor found to exhibit this behavior.
+- [W23.103] Myosin XI directs the movement of organelles such as plastids and mitochondria in plant cells.
+- [W23.104] It is responsible for the light-directed movement of chloroplasts according to light intensity and the formation of stromules interconnecting different plastids.
+- [W23.105] Myosin XI also plays a key role in polar root tip growth and is necessary for proper root hair elongation.
+- [W23.106] A specific Myosin XI found in Nicotiana tabacum was discovered to be the fastest known processive molecular motor, moving at 7 μm/s in 35 nm steps along the actin filament.
+- [W23.107] This myosin group has been found in the Apicomplexa phylum.
+- [W23.108] The myosins localize to plasma membranes of the intracellular parasites and may then be involved in the cell invasion process.
+- [W23.109] This myosin is also found in the ciliated protozoan Tetrahymena thermophila.
+- [W23.110] Known functions include: transporting phagosomes to the nucleus and perturbing the developmentally regulated elimination of the macronucleus during conjugation.
+- [W23.111] Myosin XV is necessary for the development of the actin core structure of the non-motile stereocilia located in the inner ear.
+- [W23.112] It is thought to be functional as a monomer.
+- [W23.113] MYO18A A gene on chromosome 17q11.2 that encodes actin-based motor molecules with ATPase activity, which may be involved in maintaining stromal cell scaffolding required for maintaining intercellular contact.
+- [W23.114] Unconventional myosin XIX (Myo19) is a mitochondrial associated myosin motor.
+- [W23.115] Note that not all of these genes are active.
+- [W23.116] Class I: MYO1A, MYO1B, MYO1C, MYO1D, MYO1E, MYO1F, MYO1G, MYO1H
+- [W23.117] Class II: MYH1, MYH2, MYH3, MYH4, MYH6, MYH7, MYH7B, MYH8, MYH9, MYH10, MYH11, MYH13, MYH14, MYH15, MYH16
+- [W23.118] Class V: MYO5A, MYO5B, MYO5C
+- [W23.119] Class XVIII: MYO18A, MYO18B
+- [W23.120] Myosin light chains are distinct and have their own properties.
+- [W23.121] They are not considered "myosins" but are components of the macromolecular complexes that make up the functional myosin enzymes.
+- [W23.122] Light chain: MYL1, MYL2, MYL3, MYL4, MYL5, MYL6, MYL6B, MYL7, MYL9, MYLIP, MYLK, MYLK2, MYLL1
+- [W23.123] Paramyosin is a large, 93-115kDa muscle protein that has been described in a number of diverse invertebrate phyla.
+- [W23.124] Invertebrate thick filaments are thought to be composed of an inner paramyosin core surrounded by myosin.
+- [W23.125] The myosin interacts with actin, resulting in fibre contraction.
+- [W23.126] Paramyosin is found in many different invertebrate species, for example, Brachiopoda, Sipunculidea, Nematoda, Annelida, Mollusca, Arachnida, and Insecta.
+- [W23.127] Paramyosin is responsible for the "catch" mechanism that enables sustained contraction of muscles with very little energy expenditure, such that a clam can remain closed for extended periods.
+- [W23.128] Paramyosins can be found in seafood.
+- [W23.129] A recent computational study showed that following human intestinal digestion, paramyosins of common octopus, Humboldt squid, Japanese abalone, Japanese scallop, Mediterranean mussel, Pacific oyster, sea cucumber, and Whiteleg shrimp could release short peptides that inhibit the enzymatic activities of angiotensin converting enzyme and dipeptidyl peptidase.
+- [W23.130] MBInfo – The Myosin Powerstroke[link removed]
+- [W23.131] Myosin Video A video of a moving myosin motor protein.
+- [W23.132] National Library of Medicine Medical Subject Headings (MeSH)
+- [W23.133] http://cellimages.ascb.org/cdm4/item_viewer.php?CISOROOT=/p4041coll12&CISOPTR=101&CISOBOX=1&REC=2 Animation of a moving myosin motor protein
+- [W23.134] 3D macromolecular structures of myosin from the EM Data Bank(EMDB)
+
+## [W24] Wikipedia: Casein
+https://en.wikipedia.org/w/index.php?title=Casein&oldid=1372040108 · CC BY-SA 4.0 · usage: ai_input
+
+- [W24.1] Casein ( KAY-seen; from Latin caseus, 'cheese') is a family of related phosphoproteins (αS1, aS2, β, κ) that are commonly found in mammalian milk, comprising about 80% of the proteins in cow's milk and between 20% and 60% of the proteins in human milk.
+- [W24.2] Sheep and cow milk have a higher casein content than other types of milk with human milk having a particularly low casein content.
+- [W24.3] Casein does not appear to be essential in mammals.
+- [W24.4] For example, the β-casein gene can be deleted in mice.
+- [W24.5] The resulting mice are healthy and fertile, but the growth of their pups is reduced.
+- [W24.6] Similarly, mice lacking the κ-casein gene are healthy, but they did not suckle their pups and failed to lactate, hence the gene is required for reproductive success.
+- [W24.7] Casein is amphiphilic and therefore can be used as an emulsifier.
+- [W24.8] Casein has a wide variety of uses, from being a major component of cheese, to use as a food additive.
+- [W24.9] The most common form of casein is sodium caseinate (historically called nutrose), which is a very efficient emulsifier.
+- [W24.10] Casein is secreted into milk from mammary cells in the form of colloidal casein micelles, a type of biomolecular condensate.
+- [W24.11] As a food source, casein supplies amino acids, carbohydrates, and two essential elements, calcium and phosphorus.
+- [W24.12] While in animals it is only made by mammilian mammary glands (unlike some whey proteins), casein has been artificially biosynthesized.
+- [W24.13] Animal-free casein proteins have been produced since at least the early 1990's using bacteria-based recombinant  DNA precision fermentation genetic engineering, and has been in the process of commercialization by cellular agriculture for more than a decade.
+- [W24.14] Plant-produced beta-casein has been synthesized at least since 2026.
+- [W24.15] Casein contains a high number of proline amino acids which hinder the formation of common secondary structural motifs of proteins.
+- [W24.16] There are also no disulfide bridges.
+- [W24.17] As a result, it has relatively little tertiary structure.
+- [W24.18] It is relatively hydrophobic, making it poorly soluble in water.
+- [W24.19] It is found in milk as a suspension of particles, called casein micelles, which show only limited resemblance with surfactant-type micelles in a sense that the hydrophilic parts reside at the surface and they are spherical.
+- [W24.20] However, in sharp contrast to surfactant micelles, the interior of a casein micelle is highly hydrated.
+- [W24.21] The caseins in the micelles are held together by calcium ions and hydrophobic interactions.
+- [W24.22] Any of several molecular models could account for the special conformation of casein in the micelles.
+- [W24.23] One of them proposes the micellar nucleus is formed by several submicelles, the periphery consisting of microvillosities of κ-casein.
+- [W24.24] Another model suggests the nucleus is formed by casein-interlinked fibrils.
+- [W24.25] Finally, the most recent model proposes a double link among the caseins for gelling to take place.
+- [W24.26] All three models consider micelles as colloidal particles formed by casein aggregates wrapped up in soluble κ-casein molecules.
+- [W24.27] The isoelectric point of casein is 4.6.
+- [W24.28] Since milk's pH is 6.6, casein has a negative charge in milk.
+- [W24.29] The purified protein is water-insoluble.
+- [W24.30] While it is also insoluble in neutral salt solutions, it is readily dispersible in dilute alkalis and in salt solutions such as aqueous sodium oxalate and sodium acetate.
+- [W24.31] The enzyme trypsin can hydrolyze a phosphate-containing peptone.
+- [W24.32] It is used to form a type of organic adhesive.
+- [W24.33] Casein paint is a fast-drying, water-soluble medium used by artists.
+- [W24.34] Casein paint has been used since ancient Egyptian times as a form of tempera paint, and was widely used by commercial illustrators as the material of choice until the late 1960s when, with the advent of acrylic paint, casein became less popular.
+- [W24.35] It is still widely used by scenic painters, although acrylic has made inroads in that field as well.
+- [W24.36] Casein-based glues are formulated from casein, water, and alkalis (usually a mix of hydrated lime and sodium hydroxide).
+- [W24.37] Milk is skimmed to remove the fat, then the milk is soured so that the casein is precipitated as milk curd.
+- [W24.38] The curd is washed (removing the whey), and then the curd is pressed to squeeze out the water (it may even be dried to a powder).
+- [W24.39] The casein is mixed with alkali (usually both sodium and calcium hydroxide) to make glue.
+- [W24.40] Glues made with different mixes of alkalis have different properties.
+- [W24.41] Preservatives may also be added.
+- [W24.42] They were popular for woodworking, including for aircraft, as late as the de Havilland Albatross airliner in 1939.
+- [W24.43] Casein glue is also used in transformer manufacturing (specifically transformer board) due to its oil permeability.
+- [W24.44] Elmer's Glue-All, Elmer's School Glue and many other Borden adhesives were originally made from casein.
+- [W24.45] While one reason was its non-toxic nature, a primary factor was that it was economical to use.
+- [W24.46] Towards the end of the 20th century, Borden replaced casein in all of its popular adhesives with synthetics like PVA.
+- [W24.47] While largely replaced with synthetic resins, casein-based glues still have a use in certain niche applications, such as laminating fireproof doors and the labeling of bottles.
+- [W24.48] Casein glues thin rapidly with increasing temperature, making it easy to apply thin films quickly to label jars and bottles on a production line.
+- [W24.49] Several foods, creams, and toppings all contain a variety of caseinates.
+- [W24.50] Sodium caseinate acts as a greater food additive for stabilizing processed foods; however, companies could opt to use calcium caseinate to increase calcium content and decrease sodium levels in their products.
+- [W24.51] The main food uses of casein are for powders requiring rapid dispersion into water, ranging from coffee creamers to instant cream soups.
+- [W24.52] Mead Johnson introduced a product in the early 1920s named Casec to ease gastrointestinal disorders and infant digestive problems which were a common cause of death in children at that time.
+- [W24.53] All caseinates have very efficient emulsifying properties and widely used to make emulsions in foods.
+- [W24.54] Casein is also believed to neutralize capsaicin, the active spicy ingredient of chili peppers such as jalapeños, and habaneros.
+- [W24.55] Milk is often consumed to decrease irritation caused by spicy foods.
+- [W24.56] Cheese consists of proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep.
+- [W24.57] It is produced by coagulation that is caused by destabilization of the casein micelle, which begins the processes of fractionation and selective concentration.
+- [W24.58] Typically, the milk is acidified and then coagulated by the addition of rennet, containing a proteolytic enzyme known as rennin; traditionally obtained from the stomachs of calves, but currently produced more often from genetically modified microorganisms.
+- [W24.59] The solids are then separated and pressed into final form.
+- [W24.60] Unlike many proteins, casein is not coagulated by heat.
+- [W24.61] During the process of clotting, milk-clotting proteases act on the soluble portion of the caseins, κ-casein, thus originating an unstable micellar state that results in clot formation.
+- [W24.62] When coagulated with chymosin, casein is sometimes called paracasein.
+- [W24.63] Chymosin (EC 3.4.23.4) is an aspartic protease that specifically hydrolyzes the peptide bond in Phe105-Met106 of κ-casein, and is considered to be the most efficient protease for the cheese-making industry (Rao et al., 1998).
+- [W24.64] British terminology, on the other hand, uses the term caseinogen for the uncoagulated protein and casein for the coagulated protein.
+- [W24.65] As it exists in milk, it is a salt of calcium.
+- [W24.66] An attractive property of the casein molecule is its ability to form a gel or clot in the stomach, which makes it very efficient in nutrient supply.
+- [W24.67] The clot is able to provide a sustained slow release of amino acids into the blood stream, sometimes lasting for several hours.
+- [W24.68] This also happens when milk is consumed by an animal: the stomach proteases cause it to form a gel.
+- [W24.69] Cheesemaking using rennet (see above) replicates this behavior.
+- [W24.70] Casein is also a relatively abundant source of protein.
+- [W24.71] One form (without the delayed-gelling property) is hydrolyzed casein, whereby it is hydrolyzed by a protease such as trypsin.
+- [W24.72] This could result in quicker digestion or direct gel formation.
+- [W24.73] Hydrolyzed forms are noted to taste bitter and such supplements are often refused by infants and lab animals in favor of intact casein.
+- [W24.74] Some of the earliest plastics were based on casein.
+- [W24.75] In particular, galalith was well known for use in buttons.
+- [W24.76] Milk fiber can be made from extruded casein.
+- [W24.77] Lanital, a fabric made from casein fiber (known as Aralac in the United States), was invented in Italy in 1935.
+- [W24.78] This material, also referred to as milk cotton, is used in yarn production and can be made from a blend of casein and acrylonitrile, or in some cases, from pure casein.
+- [W24.79] Casein-derived compounds are used in tooth remineralization products to stabilize amorphous calcium phosphate (ACP) and release the ACP onto tooth surfaces, where it can facilitate remineralization.
+- [W24.80] Casein and gluten exclusion diets are sometimes used in alternative medicine for children with autism.
+- [W24.81] The evidence that such diets have any impact on behavior or cognitive and social functioning in autistic children was poor.
+- [W24.82] Casein proteins have potential for use as nanomaterials due to their readily available source (milk) and their propensity to self-assemble into amyloid fibrils.
+- [W24.83] Potential health issues and effects
+- [W24.84] There is no good evidence that caseins in milk increase the risk of getting cancer.
+- [W24.85] A1/A2 beta-caseins in milk
+- [W24.86] A1 and A2 beta-caseins are genetic variants of the beta-casein milk protein that differ by one amino acid; a proline occurs at position 67 in the chain of amino acids that make up the A2 beta-casein, while in A1 beta-casein a histidine occurs at that position.
+- [W24.87] Due to the way that beta-casein interacts with enzymes found in the digestive system, A1 and A2 are processed differently by digestive enzymes, and a seven-amino peptide, beta-casomorphin-7, (BCM-7) can be released by digestion of A1-beta-casein.
+- [W24.88] The A1 beta-casein type is the most common type found in cow's milk in Europe (excluding Italy and France which have more A2 cows), the United States, Australia, and New Zealand.
+- [W24.89] Interest in the distinction between A1 and A2 beta-casein proteins began in the early 1990s through epidemiological research and animal studies initially conducted by scientists in New Zealand, which found correlations between the prevalence of milk with A1 beta-casein proteins and various chronic diseases.
+- [W24.90] The research generated interest in the media, among some in the scientific community, and entrepreneurs.
+- [W24.91] A company, A2 Corporation, was founded in New Zealand in the early 2000s to commercialize the test and market "A2 Milk" as premium milk that is healthier due to the lack of peptides from A1.
+- [W24.92] A2 Milk even petitioned the Food Standards Australia New Zealand regulatory authority to require a health warning on ordinary milk.
+- [W24.93] Responding to public interest, the marketing of A2 milk, and the scientific evidence that had been published, an independent review published in 2005 found no discernible difference between drinking A1 or A2 milk on the risk of contracting chronic diseases.
+- [W24.94] The European Food Safety Authority (EFSA) reviewed the scientific literature and published a review in 2009 found no identifiable relationship between chronic diseases and drinking milk with the A1 protein.
+- [W24.95] A small fraction of the population is allergic to casein.
+- [W24.96] Casein intolerance, also known as "milk protein intolerance", is experienced when the body cannot break down the proteins of casein.
+- [W24.97] The prevalence of casein allergy or intolerance ranges from 0.25% to 4.9% of young children.
+- [W24.98] Numbers for older children and adults are not known.
+- [W24.99] Casein that is heat-treated has been shown to be more allergenic and harder to digest when fed to infants.
+- [W24.100] Breast milk has not been shown to cause an allergic reaction typically, but should be administered to an infant with caution each time in case of adverse reaction from something the breastfeeding parent consumed that contained casein.
+- [W24.101] Following a casein-free diet has been shown to improve outcomes of infants who are breastfed while allergic or intolerant to dairy protein.
+- [W24.102] Supplementation of protease enzyme has been shown to help casein intolerant individuals digest the protein with minimal adverse reaction.
+- [W24.103] National Library of Medicine Medical Subject Headings (MeSH)
+- [W24.104] Archived from the original on 2008-05-10.
+- [W24.105] Archived from the original on 2009-03-04.
+- [W24.106] Structure of casein Mol-Instincts Chemical Database, Predicted on Quantum
+
+## [W25] Wikipedia: Ovalbumin
+https://en.wikipedia.org/w/index.php?title=Ovalbumin&oldid=1337737611 · CC BY-SA 4.0 · usage: ai_input
+
+- [W25.1] Ovalbumin (abbreviated OVA) is the main protein found in egg white, making up approximately 55% of the total protein.
+- [W25.2] Ovalbumin displays sequence and three-dimensional homology to the serpin superfamily, but unlike most serpins it is not a serine protease inhibitor.
+- [W25.3] The function of ovalbumin is unknown, although it is presumed to be a storage protein.
+- [W25.4] Ovalbumin is an important protein in several different areas of research, including:
+- [W25.5] general studies of protein structure and properties (because it is available in large quantities).
+- [W25.6] studies of serpin structure and function (the fact that ovalbumin does not inhibit proteases means that by comparing its structure with that of inhibitory serpins, the structural characteristics required for inhibition can be determined).
+- [W25.7] proteomics (chicken egg ovalbumin is commonly used as a molecular weight marker for calibrating electrophoresis gels).
+- [W25.8] immunology (commonly used to stimulate an allergic reaction in test subjects; e.g., established model allergen for airway hyper-responsiveness, AHR).
+- [W25.9] (For in vivo and in vitro studies based on ovalbumin it is important that the endotoxin content is less than 1 EU/mg.)
+- [W25.10] The ovalbumin protein of chickens consists of 385 amino acids, its relative molecular mass is 42.7 kDa, and it adopts a serpin-like structure.
+- [W25.11] Ovalbumin also has several modifications, including N-terminal acetylation (G1), phosphorylation (S68, S344), and glycosylation (N292).
+- [W25.12] It has three isoforms, A1, A2, and A3, which vary based on the number of bound phosphate residues.
+- [W25.13] It is secreted from the cell, targeted by an internal signal sequence (residues 21–47), rather than the N-terminal signal sequence commonly found in other secreted proteins.
+- [W25.14] Ovalbumin's signal sequence is not cleaved off, but remains as part of the mature protein.
+- [W25.15] When heated, ovalbumin undergoes a conformational change from its soluble, serpin structure into an insoluble all-β-sheet structure with exposed hydrophobic regions.
+- [W25.16] This causes the protein to aggregate and cause the solidification associated with cooked egg white.
+- [W25.17] National Library of Medicine Medical Subject Headings (MeSH)
+
+## [W26] Wikipedia: Egg white
+https://en.wikipedia.org/w/index.php?title=Egg_white&oldid=1373670142 · CC BY-SA 4.0 · usage: ai_input
+
+- [W26.1] Egg white is the clear liquid (also called the albumen or the glair/glaire) contained within an egg.
+- [W26.2] In chickens, it is formed from the layers of secretions of the anterior section of the hen's oviduct during the passage of the egg.
+- [W26.3] It forms around fertilized or unfertilized egg yolks.
+- [W26.4] The primary natural purpose of egg white is to protect the yolk and provide additional nutrition for the growth of the embryo (when fertilized).
+- [W26.5] Egg white consists of about 90% water into which about 10% proteins (including albumins, mucoproteins, and globulins) are dissolved.
+- [W26.6] Unlike the yolk, which is high in lipids (fats), egg white contains almost no fat, and carbohydrate content is less than 1%.
+- [W26.7] Egg whites contain about 56% of the protein in the egg.
+- [W26.8] Egg white has many uses in food (e.g. meringue, mousse) as well as many other uses (e.g. in the preparation of vaccines such as those for influenza).
+- [W26.9] Egg white makes up around two-thirds of a chicken egg by weight.
+- [W26.10] Water constitutes about 90% of this, with protein, trace minerals, fatty material, vitamins, and glucose contributing the remainder.
+- [W26.11] A raw U.S. large egg contains around 33 grams of egg white with 3.6 grams of protein, 0.24 grams of carbohydrate and 55 milligrams of sodium.
+- [W26.12] It contains no cholesterol and the energy content is about 17 calories.
+- [W26.13] Egg white is an alkaline solution and contains around 149 proteins.
+- [W26.14] The table below lists the major proteins in egg whites by percentage and their natural functions.
+- [W26.15] Ovalbumin is the most abundant protein in albumen.
+- [W26.16] Classed as phosphoglycoprotein, during storage, it converts into s-ovalbumin (5% at the time of laying) and can reach up to 80% after six months of cold storage.
+- [W26.17] Ovalbumin in solution is heat-resistant.
+- [W26.18] Denaturation temperature is around 84 °C, but it can be easily denatured by physical stress.
+- [W26.19] Conalbumin/ovotransferrin is a glycoprotein which has the capacity to bind the bi- and trivalent metal cations into a complex and is more heat sensitive than ovalbumin.
+- [W26.20] At its isoelectric pH (6.5), it can bind two cations and assume a red or yellow color.
+- [W26.21] These metal complexes are more heat stable than the native state.
+- [W26.22] Ovomucoid is the major allergen from egg white and is a heat-resistant glycoprotein found to be a trypsin inhibitor.
+- [W26.23] Lysozyme is a holoprotein which can lyse the wall of certain Gram-positive bacteria and is found at high levels in the chalaziferous layer and the chalazae which anchor the yolk towards the middle of the egg.
+- [W26.24] Ovomucin is a glycoprotein which may contribute to the gel-like structure of thick albumen.
+- [W26.25] The amount of ovomucin in the thick albumen is four times as great as in the thin albumen.
+- [W26.26] The physical stress of beating egg whites can create a foam.
+- [W26.27] Two types of physical stress are caused by beating them with a whisk: denaturation and coagulation.
+- [W26.28] Denaturation occurs as the whisk drags the liquid through itself, creating a force that unfolds the protein molecules.
+- [W26.29] Coagulation comes from the mixing of air into the whites, which causes the proteins to come out of their natural state.
+- [W26.30] These denatured proteins gather together where the air and water meet and create multiple bonds with the other unraveled proteins, and thus become a foam, holding the incorporated air in place; because the proteins consist of amino acids, some are hydrophilic (attracted to water) and some are hydrophobic (repelled by water).
+- [W26.31] When beating egg whites, they are classified in three stages according to the peaks they form when the beater is lifted: soft, firm, and stiff peaks.
+- [W26.32] Overbeaten eggs take on a dry appearance, and  eventually collapse.
+- [W26.33] Egg whites do not beat up correctly if they are exposed to any form of fat, such as cooking oils or the fats contained in egg yolk.
+- [W26.34] Copper bowls have been used in France since the 18th century to stabilize egg foams.
+- [W26.35] The copper in the bowl assists in creating a tighter bond in reactive sulfur items such as egg whites.
+- [W26.36] The bond created is so tight that the sulfurs are prevented from reacting with any other material.
+- [W26.37] A silver-plated bowl has the same result as the copper bowl, as will a pinch of powdered copper supplement from a health store used in a glass bowl.
+- [W26.38] Drawbacks of the copper bowl include the expense of the bowl itself, and that the bowls are difficult to keep clean.
+- [W26.39] Copper contamination from the bowl is minimal, as a cup of foam contains a tenth of a human's normal daily intake level.
+- [W26.40] Although egg whites are prized as a source of low-fat, high-protein nutrition, a small number of people cannot eat them.
+- [W26.41] Egg allergy is more common among infants than adults, and most children will outgrow it by the age of five.
+- [W26.42] Allergic reactions against egg white are more common than reactions against egg yolks.
+- [W26.43] In addition to true allergic reactions, some people experience a food intolerance to egg whites.
+- [W26.44] Eggs are susceptible to Salmonella contamination.
+- [W26.45] Thorough cooking eliminates the direct threat (i.e. cooked egg whites that are solid and not runny), but the threat of cross-contamination remains if people handle contaminated eggs and then touch other foods or items in the kitchen, thus spreading the bacteria.
+- [W26.46] In August 2010, the FDA ordered the recall of 380 million eggs because of possible Salmonella contamination.
+- [W26.47] Cooked eggs are a good source of biotin.
+- [W26.48] However, daily consumption of raw egg whites for several months may result in biotin deficiency, due to their avidin content, as the avidin tightly binds biotin and prevents its absorption.
+- [W26.49] Egg white is a fining agent that can be used in the clarification and stabilization of wine.
+- [W26.50] Egg white can also be added to shaken cocktails to create a delicate froth.
+- [W26.51] Some protein powders also use egg whites as a primary source of protein.
+- [W26.52] The albumen from egg white was used as a binding agent in early photography during an 1855–90 period; such prints were called albumen prints.
+- [W26.53] Egg whites are used as adhesive.
+- [W26.54] In bookbinding, egg white (called glaire in this context) is used to adhere gold leaf in gold tooling.
+- [W26.55] In manuscripts, egg white (or yolk) can be used as a binder for pigments.
+- [W26.56] Haugh unit, a unit of measure for egg albumen
+- [W26.57] Meringue, a dessert or dessert ingredient made from egg white
+- [W26.58] Compendium Medicine Gilberti Anglici Tam Morborum Universalium Quam Particularium Nondum Medicis Sed & Cyrurgicis Utilissimum.
+- [W26.59] Lugduni: Impressum per Jacobum Sacconum, expensis Vincentii de Portonariis, 1510.
+- [W26.60] Good Eats, Let Them Eat Foam Archived 2021-01-27 at the Wayback Machine.
+- [W26.61] Television Food Network, June 13, 2001.
+- [W26.62] Elmhurst College, Denaturation Protein
+
+## [W27] GTEx Portal v8, median expression of PGA3 by tissue
+https://gtexportal.org/home/gene/PGA3 · facts-only · usage: ai_input
+
+- [W27.1] {"data":[{"median":0.05286849999999999,"tissueSiteDetailId":"Adipose_Subcutaneous","ontologyId":"UBERON:0002190","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0491522,"tissueSiteDetailId":"Adipose_Visceral_Omentum","ontologyId":"UBERON:0010414","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.163127,"tissueSiteDetailId":"Adrenal_Gland","ontologyId":"UBERON:0002369","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0553279,"tissueSiteDetailId":"Artery_Aorta","ontologyId":"UBERON:0001496","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.038357,"tissueSiteDetailId":"Artery_Coronary","ontologyId":"UBERON:0001621","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Artery_Tibial","ontologyId":"UBERON:0007610","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.226204,"tissueSiteDetailId":"Bladder","ontologyId":"UBERON:0001255","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.00327639,"tissueSiteDetailId":"Brain_Amygdala","ontologyId":"UBERON:0001876","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.010550200000000001,"tissueSiteDetailId":"Brain_Anterior_cingulate_cortex_BA24","ontologyId":"UBERON:0009835","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Caudate_basal_ganglia","ontologyId":"UBERON:0001873","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0401875,"tissueSiteDetailId":"Brain_Cerebellar_Hemisphere","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.11871199999999998,"tissueSiteDetailId":"Brain_Cerebellum","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0111812,"tissueSiteDetailId":"Brain_Cortex","ontologyId":"UBERON:0001870","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Frontal_Cortex_BA9","ontologyId":"UBERON:0009834","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.00815963,"tissueSiteDetailId":"Brain_Hippocampus","ontologyId":"UBERON:0001954","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Hypothalamus","ontologyId":"UBERON:0001898","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Nucleus_accumbens_basal_ganglia","ontologyId":"UBERON:0001882","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Putamen_basal_ganglia","ontologyId":"UBERON:0001874","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Spinal_cord_cervical_c-1","ontologyId":"UBERON:0006469","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Brain_Substantia_nigra","ontologyId":"UBERON:0002038","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0367843,"tissueSiteDetailId":"Breast_Mammary_Tissue","ontologyId":"UBERON:0008367","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0365756,"tissueSiteDetailId":"Cells_Cultured_fibroblasts","ontologyId":"EFO:0002009","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0336579,"tissueSiteDetailId":"Cells_EBV-transformed_lymphocytes","ontologyId":"EFO:0000572","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.388384,"tissueSiteDetailId":"Cervix_Ectocervix","ontologyId":"UBERON:0012249","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.162888,"tissueSiteDetailId":"Cervix_Endocervix","ontologyId":"UBERON:0000458","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0391586,"tissueSiteDetailId":"Colon_Sigmoid","ontologyId":"UBERON:0001159","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.10813699999999998,"tissueSiteDetailId":"Colon_Transverse","ontologyId":"UBERON:0001157","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.06915750000000001,"tissueSiteDetailId":"Esophagus_Gastroesophageal_Junction","ontologyId":"UBERON:0004550","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.164183,"tissueSiteDetailId":"Esophagus_Mucosa","ontologyId":"UBERON:0006920","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.05970269999999999,"tissueSiteDetailId":"Esophagus_Muscularis","ontologyId":"UBERON:0004648","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.38439,"tissueSiteDetailId":"Fallopian_Tube","ontologyId":"UBERON:0003889","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0174577,"tissueSiteDetailId":"Heart_Atrial_Appendage","ontologyId":"UBERON:0006631","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Heart_Left_Ventricle","ontologyId":"UBERON:0006566","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.052949800000000005,"tissueSiteDetailId":"Kidney_Cortex","ontologyId":"UBERON:0001225","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.056365599999999995,"tissueSiteDetailId":"Kidney_Medulla","ontologyId":"UBERON:0001293","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.184952,"tissueSiteDetailId":"Liver","ontologyId":"UBERON:0001114","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0267529,"tissueSiteDetailId":"Lung","ontologyId":"UBERON:0008952","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0971184,"tissueSiteDetailId":"Minor_Salivary_Gland","ontologyId":"UBERON:0006330","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0,"tissueSiteDetailId":"Muscle_Skeletal","ontologyId":"UBERON:0011907","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0165309,"tissueSiteDetailId":"Nerve_Tibial","ontologyId":"UBERON:0001323","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.146802,"tissueSiteDetailId":"Ovary","ontologyId":"UBERON:0000992","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.14523599999999998,"tissueSiteDetailId":"Pancreas","ontologyId":"UBERON:0001150","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.189813,"tissueSiteDetailId":"Pituitary","ontologyId":"UBERON:0000007","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.10129500000000001,"tissueSiteDetailId":"Prostate","ontologyId":"UBERON:0002367","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0222678,"tissueSiteDetailId":"Skin_Not_Sun_Exposed_Suprapubic","ontologyId":"UBERON:0036149","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0141893,"tissueSiteDetailId":"Skin_Sun_Exposed_Lower_leg","ontologyId":"UBERON:8480050","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.129098,"tissueSiteDetailId":"Small_Intestine_Terminal_Ileum","ontologyId":"UBERON:0001211","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.22110300000000002,"tissueSiteDetailId":"Spleen","ontologyId":"UBERON:0002106","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":1723.46,"tissueSiteDetailId":"Stomach","ontologyId":"UBERON:0000945","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.183179,"tissueSiteDetailId":"Testis","ontologyId":"UBERON:0000473","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0715491,"tissueSiteDetailId":"Thyroid","ontologyId":"UBERON:0002046","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.14868599999999998,"tissueSiteDetailId":"Uterus","ontologyId":"UBERON:0000995","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.113901,"tissueSiteDetailId":"Vagina","ontologyId":"UBERON:0000996","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"},{"median":0.0176387,"tissueSiteDetailId":"Whole_Blood","ontologyId":"UBERON:0013756","datasetId":"gtex_v8","gencodeId":"ENSG00000229859.9","geneSymbol":"PGA3","unit":"TPM"}],"paging_info":{"numberOfPages":1,"page":0,"maxItemsPerPage":250,"totalNumberOfItems":54}}
+
+## [W28] Nobel Prize in Physiology or Medicine 2012, press release
+https://www.nobelprize.org/prizes/medicine/2012/press-release/ · facts-only · usage: ai_input
+
+- [W28.1] Gurdon discovered in 1962 that the specialisation of cells is reversible.
+- [W28.2] In a classic experiment, he replaced the immature cell nucleus in an egg cell of a frog with the nucleus from a mature intestinal cell.
+- [W28.3] This modified egg cell developed into a normal tadpole.
+- [W28.4] The DNA of the mature cell still had all the information needed to develop all cells in the frog.
+- [W28.5] By introducing four genes together, they could reprogram their fibroblasts into immature stem cells!
+- [W28.6] The resulting induced pluripotent stem cells (iPS cells) could develop into mature cell types such as fibroblasts, nerve cells and gut cells.
+
+## [W29] Wikipedia: Leptin
+https://en.wikipedia.org/w/index.php?title=Leptin&oldid=1380909436 · CC BY-SA 4.0 · usage: ai_input
+
+- [W29.1] Leptin (from Greek λεπτός leptos, "thin" or "light" or "small"), also known as obese protein, is a protein hormone predominantly made by adipocytes (cells of adipose tissue).
+- [W29.2] Its primary role is likely to regulate long-term energy balance.
+- [W29.3] As one of the major signals of energy status, leptin levels influence appetite, satiety, and motivated behaviors oriented toward the maintenance of energy reserves (e.g., feeding, foraging behaviors).
+- [W29.4] The amount of circulating leptin correlates with the amount of energy reserves, mainly triglycerides stored in adipose tissue.
+- [W29.5] High leptin levels are interpreted by the brain that energy reserves are high, whereas low leptin levels indicate that energy reserves are low, in the process adapting the organism to starvation through a variety of metabolic, endocrine, neurobiochemical, and behavioral changes.
+- [W29.6] Leptin is coded for by the LEP gene.
+- [W29.7] Leptin receptors are expressed by a variety of brain and peripheral cell types.
+- [W29.8] These include cell receptors in the arcuate and ventromedial nuclei, as well as other parts of the hypothalamus and dopaminergic neurons of the ventral tegmental area, consequently mediating feeding.
+- [W29.9] Although regulation of fat stores is deemed to be the primary function of leptin, it also plays a role in other physiological processes, as evidenced by its many sites of synthesis other than fat cells, and the many cell types beyond hypothalamic cells that have leptin receptors.
+- [W29.10] Many of these additional functions are yet to be fully defined.
+- [W29.11] In obesity, a decreased sensitivity to leptin occurs (similar to insulin resistance in type 2 diabetes), resulting in an inability to detect satiety despite high energy stores and high levels of leptin.
+- [W29.12] Predominantly, the "energy expenditure hormone" leptin is made by adipose cells, and is thus labeled fat cell-specific.
+- [W29.13] In the context of its effects, the adjectives central, direct, and primary are not used interchangeably.
+- [W29.14] In regard to the hormone leptin, central vs peripheral refers to the hypothalamic portion of the brain vs non-hypothalamic location of action of leptin; direct vs indirect refers to whether there is no intermediary, or there is an intermediary in the mode of action of leptin; and primary vs secondary is an arbitrary description of a particular function of leptin.
+- [W29.15] The central location of action (effect) of the fat cell-specific hormone leptin is the hypothalamus, a part of the brain and thus of the central nervous system.
+- [W29.16] Non-hypothalamic targets of leptin are referred to as peripheral targets.
+- [W29.17] There is a different relative importance of central and peripheral leptin interactions under different physiologic states, and variations among species.
+- [W29.18] Leptin acts directly on leptin receptors in the cell membrane of different types of cells in the human body in particular, and in vertebrates in general.
+- [W29.19] The leptin receptor is found on a wide range of cell types.
+- [W29.20] It is a single-transmembrane-domain type I cytokine receptor, a special class of cytokine receptors.
+- [W29.21] Further, leptin interacts with other hormones and energy regulators, indirectly mediating the effects of: insulin, glucagon, insulin-like growth factor, growth hormone, glucocorticoids, cytokines, and metabolites.
+- [W29.22] The primary function of the hormone leptin is the regulation of adipose tissue mass through central hypothalamus mediated effects on hunger, food energy use, physical exercise, and energy balance.
+- [W29.23] Outside the brain, in the periphery of the body, leptin's secondary functions are: modulation of energy expenditure, modulation between fetal and maternal metabolism, and that of a permissive factor in puberty, activator of immune cells, activator of beta islet cells, and growth factor.
+- [W29.24] In vertebrates, the nervous system consists of two main parts, the central nervous system (CNS) and the peripheral nervous system (PNS).
+- [W29.25] The primary effect of leptins is in the hypothalamus, a part of the central nervous system.
+- [W29.26] Leptin receptors are expressed not only in the hypothalamus but also in other brain regions, particularly in the hippocampus.
+- [W29.27] Thus some leptin receptors in the brain are classified as central (hypothalamic) and some as peripheral (non-hypothalamic).
+- [W29.28] As scientifically known so far, the general effects of leptin in the central nervous system are:
+- [W29.29] Deficiency of leptin has been shown to alter brain proteins and neuronal functions of obese mice that can be restored by leptin injection
+- [W29.30] Leptin receptor signaling in the hippocampus enhances learning and memory  Treatment with leptin has been shown to enhance learning and memory in animal models.
+- [W29.31] In humans, low circulating plasma leptin has been associated with cognitive changes associated with anorexia, depression, and Alzheimer's Disease
+- [W29.32] Studies in transgenic mouse models of Alzheimer's disease have shown that chronic administration of leptin can ameliorate brain pathology and improve cognitive performance, by reducing b-amyloid and hyperphosphorylated Tau, two hallmarks of Alzheimer's pathology.
+- [W29.33] Generally, leptin is thought to enter the brain at the choroid plexus, where the intense expression of a form of leptin receptor molecule could act as a transport mechanism.
+- [W29.34] Increased levels of melatonin causes a downregulation of leptin, however, melatonin also appears to increase leptin levels in the presence of insulin, therefore causing a decrease in appetite during sleeping.
+- [W29.35] Partial sleep deprivation has also been associated with decreased leptin levels.
+- [W29.36] Mice with type 1 diabetes treated with leptin or leptin plus insulin, compared to insulin alone had better metabolic profiles: blood sugar did not fluctuate so much; cholesterol levels decreased; less body fat formed.
+- [W29.37] Leptin acts on receptors in the lateral hypothalamus to inhibit hunger and the medial hypothalamus to stimulate satiety.
+- [W29.38] In the lateral hypothalamus, leptin inhibits hunger  by
+- [W29.39] counteracting the effects of neuropeptide Y, a potent hunger promoter secreted by cells in the gut and in the hypothalamus
+- [W29.40] counteracting the effects of anandamide, another potent hunger promoter that binds to the same receptors as THC
+- [W29.41] In the medial hypothalamus, leptin stimulates satiety  by
+- [W29.42] promoting the synthesis of α-MSH, a hunger suppressant
+- [W29.43] Thus, a lesion in the lateral hypothalamus causes anorexia (due to a lack of hunger signals) and a lesion in the medial hypothalamus causes excessive hunger (due to a lack of satiety signals).
+- [W29.44] This appetite inhibition is long-term, in contrast to the rapid inhibition of hunger by cholecystokinin (CCK) and the slower suppression of hunger between meals mediated by PYY3-36.
+- [W29.45] The absence of leptin (or its receptor) leads to uncontrolled hunger and resulting obesity.
+- [W29.46] Fasting or following a very-low-calorie diet lowers leptin levels.
+- [W29.47] Leptin levels change more when food intake decreases than when it increases.
+- [W29.48] The dynamics of leptin due to an acute change in energy balance may be related to appetite and eventually, to food intake rather than fat stores.
+- [W29.49] It controls food intake and energy expenditure by acting on receptors in the mediobasal hypothalamus.
+- [W29.50] Leptin binds to neuropeptide Y (NPY) neurons in the arcuate nucleus in such a way as to decrease the activity of these neurons.
+- [W29.51] Leptin signals to the hypothalamus which produces a feeling of satiety.
+- [W29.52] Moreover, leptin signals may make it easier for people to resist the temptation of foods high in calories.
+- [W29.53] Leptin receptor activation inhibits neuropeptide Y and agouti-related peptide (AgRP), and activates α-melanocyte-stimulating hormone (α-MSH).
+- [W29.54] The NPY neurons are a key element in the regulation of hunger; small doses of NPY injected into the brains of experimental animals stimulates feeding, while selective destruction of the NPY neurons in mice causes them to become anorexic.
+- [W29.55] Conversely, α-MSH is an important mediator of satiety, and differences in the gene for the α-MSH receptor are linked to obesity in humans.
+- [W29.56] Leptin interacts with six types of receptors (Ob-Ra–Ob-Rf, or LepRa-LepRf), which in turn are encoded by a single gene, LEPR.
+- [W29.57] Ob-Rb is the only receptor isoform that can signal intracellularly via the JAK-STAT and MAPK signal transduction pathways, and is present in hypothalamic nuclei.
+- [W29.58] Once leptin has bound to the Ob-Rb receptor, it activates the stat3, which is phosphorylated and travels to the nucleus to effect changes in gene expression, one of the main effects being the down-regulation of the expression of endocannabinoids, responsible for increasing hunger.
+- [W29.59] In response to leptin, receptor neurons have been shown to remodel themselves, changing the number and types of synapses that fire onto them.
+- [W29.60] The role of leptin/leptin receptors in modulation of T cell activity and the innate immune system was shown in experimentation with mice.
+- [W29.61] It modulates the immune response to atherosclerosis, of which obesity is a predisposing and exercise a mitigating factor.
+- [W29.62] Exogenous leptin can promote angiogenesis by increasing vascular endothelial growth factor levels.
+- [W29.63] Hyperleptinemia produced by infusion or adenoviral gene transfer decreases blood pressure in rats.
+- [W29.64] Leptin microinjections into the nucleus of the solitary tract (NTS) have been shown to elicit sympathoexcitatory responses, and potentiate the cardiovascular responses to activation of the chemoreflex.
+- [W29.65] In fetal lung, leptin is induced in the alveolar interstitial fibroblasts ("lipofibroblasts") by the action of PTHrP secreted by formative alveolar epithelium (endoderm) under moderate stretch.
+- [W29.66] The leptin from the mesenchyme, in turn, acts back on the epithelium at the leptin receptor carried in the alveolar type II pneumocytes and induces surfactant expression, which is one of the main functions of these type II pneumocytes.
+- [W29.67] In mice, and to a lesser extent in humans, leptin is required for male and female fertility.
+- [W29.68] Ovulatory cycles in females are linked to energy balance (positive or negative depending on whether a female is losing or gaining weight) and energy flux (how much energy is consumed and expended) much more than energy status (fat levels).
+- [W29.69] When energy balance is highly negative (meaning the woman is starving) or energy flux is very high (meaning the woman is exercising at extreme levels, but still consuming enough calories), the ovarian cycle stops and females stop menstruating.
+- [W29.70] Only if a female has an extremely low body fat percentage does energy status affect menstruation.
+- [W29.71] Leptin levels outside an ideal range may have a negative effect on egg quality and outcome during in vitro fertilization.
+- [W29.72] Leptin is involved in reproduction by stimulating gonadotropin-releasing hormone from the hypothalamus.
+- [W29.73] The placenta produces leptin.
+- [W29.74] Leptin levels rise during pregnancy and fall after childbirth.
+- [W29.75] Leptin is also expressed in fetal membranes and the uterine tissue.
+- [W29.76] Uterine contractions are inhibited by leptin.
+- [W29.77] Leptin plays a role in hyperemesis gravidarum (severe morning sickness of pregnancy), in polycystic ovary syndrome, and hypothalamic leptin is implicated in bone growth in mice.
+- [W29.78] Immunoreactive leptin has been found in human breast milk; and leptin from mother's milk has been found in the blood of suckling infant animals.
+- [W29.79] Leptin along with kisspeptin controls the onset of puberty.
+- [W29.80] High levels of leptin, as usually observed in obese females, can trigger neuroendocrine cascade resulting in early menarche.
+- [W29.81] This may eventually lead to shorter stature as oestrogen secretion starts during menarche and causes early closure of epiphyses.
+- [W29.82] Leptin's role in regulating bone mass was identified in 2000.
+- [W29.83] Leptin can affect bone metabolism via direct signalling from the brain.
+- [W29.84] Leptin decreases cancellous bone, but increases cortical bone.
+- [W29.85] This "cortical-cancellous dichotomy" may represent a mechanism for enlarging bone size, and thus bone resistance, to cope with increased body weight.
+- [W29.86] Bone metabolism can be regulated by central sympathetic outflow, since sympathetic pathways innervate bone tissue.
+- [W29.87] A number of brain-signalling molecules (neuropeptides and neurotransmitters) have been found in bone, including adrenaline, noradrenaline, serotonin, calcitonin gene-related peptide, vasoactive intestinal peptide, and neuropeptide Y.
+- [W29.88] Leptin binds to its receptors in the hypothalamus, where it acts through the sympathetic nervous system to regulate bone metabolism.
+- [W29.89] Leptin may also act directly on bone metabolism via a balance between energy intake and the IGF-I pathway.
+- [W29.90] There is a potential for treatment of diseases of bone formation - such as impaired fracture healing - with leptin.
+- [W29.91] Factors that acutely affect leptin levels are also factors that influence other markers of inflammation, e.g., testosterone, sleep, emotional stress, caloric restriction, and body fat levels.
+- [W29.92] While it is well-established that leptin is involved in the regulation of the inflammatory response, it has been further theorized that leptin's role as an inflammatory marker is to respond specifically to adipose-derived inflammatory cytokines.
+- [W29.93] In terms of both structure and function, leptin resembles IL-6 and is a member of the cytokine superfamily.
+- [W29.94] Circulating leptin seems to affect the HPA axis, suggesting a role for leptin in stress response.
+- [W29.95] Elevated leptin concentrations are associated with elevated white blood cell counts in both men and women.
+- [W29.96] Similar to what is observed in chronic inflammation, chronically elevated leptin levels are associated with obesity, overeating, and inflammation-related diseases, including hypertension, metabolic syndrome, and cardiovascular disease.
+- [W29.97] While leptin is associated with body fat mass, the size of individual fat cells, and overeating, it is not affected by exercise (for comparison, IL-6 is released in response to muscular contractions).
+- [W29.98] Thus, it is speculated that leptin responds specifically to adipose-derived inflammation.
+- [W29.99] Leptin is a pro-angiogenic, pro-inflammatory, and mitogenic factor, the actions of which are reinforced through crosstalk with IL-1 family cytokines in cancer.
+- [W29.100] High leptin levels have been also demonstrated in patients with COVID-19 pneumonia.
+- [W29.101] Taken as such, increases in leptin levels (in response to caloric intake) function as an acute pro-inflammatory response mechanism to prevent excessive cellular stress induced by overeating.
+- [W29.102] When high caloric intake overtaxes the ability of fat cells to grow larger or increase in number in step with caloric intake, the ensuing stress response leads to inflammation at the cellular level and ectopic fat storage, i.e., the unhealthy storage of body fat within internal organs, arteries, and/or muscle.
+- [W29.103] The insulin increase in response to the caloric load provokes a dose-dependent rise in leptin, an effect potentiated by high cortisol levels.
+- [W29.104] (This insulin-leptin relationship is notably similar to insulin's effect on the increase of IL-6 gene expression and secretion from preadipocytes in a time- and dose-dependent manner.) Furthermore, plasma leptin concentrations have been observed to gradually increase when acipimox is administered to prevent lipolysis, concurrent hypocaloric dieting and weight loss notwithstanding.
+- [W29.105] Such findings appear to demonstrate high caloric loads in excess of storage rate capacities of fat cells lead to stress responses that induce an increase in leptin, which then operates as an adipose-derived inflammation stopgap signaling for the cessation of food intake so as to prevent adipose-derived inflammation from reaching elevated levels.
+- [W29.106] This response may then protect against the harmful process of ectopic fat storage, which perhaps explains the connection between chronically elevated leptin levels and ectopic fat storage in obese individuals.
+- [W29.107] Leptin increases the production of leukocytes via actions on the hematopoietic niche, a pathway that is more active in sedentary mice and humans when compared to individuals who are physically active.
+- [W29.108] Location of gene and structure of hormone
+- [W29.109] The Ob(Lep) gene (Ob for obese, Lep for leptin) is located on chromosome 7 in humans.
+- [W29.110] Human leptin is a 16-kDa protein of 167 amino acids.
+- [W29.111] A human mutant leptin was first described in 1997, and subsequently six additional mutations were described.
+- [W29.112] All of those affected were from Eastern countries; and all had variants of leptin not detected by the standard immunoreactive technique, so leptin levels were low or undetectable.
+- [W29.113] The most recently described eighth mutation reported in January 2015, in a child with Turkish parents, is unique in that it is detected by the standard immunoreactive technique, where leptin levels are elevated; but the leptin does not turn on the leptin receptor, hence the patient has functional leptin deficiency.
+- [W29.114] These eight mutations all cause extreme obesity in infancy, with hyperphagia.
+- [W29.115] A nonsense mutation in the leptin gene that results in a stop codon and lack of leptin production was first observed in mice.
+- [W29.116] In the mouse gene, arginine-105 is encoded by CGA and only requires one nucleotide change to create the stop codon TGA.
+- [W29.117] The corresponding amino acid in humans is encoded by the sequence CGG and would require two nucleotides to be changed to produce a stop codon, which is much less likely to happen.
+- [W29.118] A recessive frameshift mutation resulting in a reduction of leptin has been observed in two consanguineous children with juvenile obesity.
+- [W29.119] A 2001 study of 13 people with a heterozygous frameshift mutation known as delta-G133 found that they had lower blood leptin levels than controls.
+- [W29.120] There was an increased rate of obesity in these individuals, with 76% having a BMI of more than 30 compared to 26% in the control group.
+- [W29.121] A Human Genome Equivalent (HuGE) review in 2004 looked at studies of the connection between genetic mutations affecting leptin regulation and obesity.
+- [W29.122] They reviewed a common polymorphism in the leptin gene (A19G; frequency 0.46), three mutations in the leptin receptor gene (Q223R, K109R, and K656N) and two mutations in the PPARG gene (P12A and C161T).
+- [W29.123] They found no association between any of the polymorphisms and obesity.
+- [W29.124] A 2006 study found a link between the common LEP-2548 G/A genotype and morbid obesity in Taiwanese aborigines, but a 2014 meta-analysis did not, however, this polymorphism has been associated with weight gain in patients taking antipsychotics.
+- [W29.125] The LEP-2548 G/A polymorphism has been linked with an increased risk of prostate cancer, gestational diabetes, and osteoporosis.
+- [W29.126] Other rare polymorphisms have been found, but their association with obesity are not consistent.
+- [W29.127] A single case of a homozygous transversion mutation of the gene encoding for leptin was reported in January 2015.
+- [W29.128] It leads to functional leptin deficiency with high leptin levels in circulation.
+- [W29.129] The transversion of (c.298G → T) changed aspartic acid to tyrosine at position 100 (p.D100Y).
+- [W29.130] The mutant leptin could neither bind to nor activate the leptin receptor in vitro, nor in leptin-deficient mice in vivo.
+- [W29.131] It was found in a two-year-old boy with extreme obesity with recurrent ear and pulmonary infections.
+- [W29.132] Treatment with metreleptin led to "rapid change in eating behavior, a reduction in daily energy intake, and substantial weight loss."
+- [W29.133] Leptin is produced primarily in the adipocytes of white adipose tissue.
+- [W29.134] It also is produced by brown adipose tissue, placenta (syncytiotrophoblasts), ovaries, skeletal muscle, stomach (the lower part of the fundic glands), mammary epithelial cells, bone marrow, gastric chief cells, and P/D1 cells.
+- [W29.135] Leptin circulates in blood in free form and bound to proteins.
+- [W29.136] Leptin levels vary exponentially, not linearly, with fat mass.
+- [W29.137] Leptin levels in blood are higher between midnight and early morning, perhaps suppressing appetite during the night.
+- [W29.138] The diurnal rhythm of blood leptin levels may be modified by meal-timing.
+- [W29.139] In humans, many instances are seen where leptin dissociates from the strict role of communicating nutritional status between body and brain and no longer correlates with body fat levels:
+- [W29.140] Leptin plays a critical role in the adaptive response to starvation.
+- [W29.141] Leptin level is decreased after short-term fasting (24–72 hours), even when changes in fat mass are not observed.
+- [W29.142] Serum level of leptin is reduced by sleep deprivation.
+- [W29.143] Leptin levels are paradoxically increased in obesity.
+- [W29.144] Leptin level is increased by emotional stress.
+- [W29.145] Leptin level is chronically reduced by physical exercise training.
+- [W29.146] Leptin level is decreased by increases in testosterone levels and increased by increases in estrogen levels.
+- [W29.147] Leptin level is increased by insulin.
+- [W29.148] Leptin release is increased by dexamethasone.
+- [W29.149] In obese patients with obstructive sleep apnea, leptin level is increased, but decreased after the administration of continuous positive airway pressure.
+- [W29.150] In non-obese individuals, however, restful sleep (i.e., 8–12 hours of unbroken sleep) can increase leptin to normal levels.
+- [W29.151] All known leptin mutations except one are associated with low to undetectable immunoreactive leptin blood levels.
+- [W29.152] The exception is a mutant leptin reported in January 2015 that is not functional, but is detected with standard immunoreactive methods.
+- [W29.153] It was found in a massively obese 2+1⁄2-year-old boy who had high levels of circulating leptin that had no effect on leptin receptors, so he was functionally leptin-deficient.
+- [W29.154] Although leptin reduces appetite as a circulating signal, obese individuals generally exhibit a higher circulating concentration of leptin than normal weight individuals due to their higher percentage body fat.
+- [W29.155] These people show resistance to leptin, similar to resistance of insulin in type 2 diabetes, with the elevated levels failing to control hunger and modulate their weight.
+- [W29.156] A number of explanations have been proposed to explain this.
+- [W29.157] An important contributor to leptin resistance is changes to leptin receptor signalling, particularly in the arcuate nucleus.
+- [W29.158] However, deficiency of, or major changes to, the leptin receptor itself are not thought to be a major cause.
+- [W29.159] Triglycerides crossing the blood brain barrier (BBB) can induce leptin and insulin resistance in the hypothalamus.
+- [W29.160] Triglycerides can also impair leptin transport across the BBB.
+- [W29.161] Studies on leptin cerebrospinal fluid (CSF) levels provide evidence for the reduction in leptin crossing the BBB and reaching obesity-relevant targets, such as the hypothalamus, in obese people.
+- [W29.162] In humans it has been observed that the ratio of leptin in the CSF compared to the blood is lower in obese people than in people of a normal weight.
+- [W29.163] The reason for this may be high levels of triglycerides affecting the transport of leptin across the BBB or due to the leptin transporter becoming saturated.
+- [W29.164] Although deficits in the transfer of leptin from the plasma to the CSF is seen in obese people, they are still found to have 30% more leptin in their CSF than lean individuals.
+- [W29.165] These higher CSF levels fail to prevent their obesity.
+- [W29.166] Since the amount and quality of leptin receptors in the hypothalamus appears to be normal in the majority of obese humans (as judged from leptin-mRNA studies), it is likely that the leptin resistance in these individuals is due to a post leptin-receptor deficit, similar to the post-insulin receptor defect seen in type 2 diabetes.
+- [W29.167] When leptin binds with the leptin receptor, it activates a number of pathways.
+- [W29.168] Leptin resistance may be caused by defects in one or more parts of this process, particularly the JAK/STAT pathway.
+- [W29.169] Mice with a mutation in the leptin receptor gene that prevents the activation of STAT3 are obese and exhibit hyperphagia.
+- [W29.170] The PI3K pathway may also be involved in leptin resistance, as has been demonstrated in mice by artificial blocking of PI3K signalling.
+- [W29.171] The PI3K pathway also is activated by the insulin receptor and is therefore an important area where leptin and insulin act together as part of energy homeostasis.
+- [W29.172] The insulin-pI3K pathway can cause POMC neurons to become insensitive to leptin through hyperpolarization.
+- [W29.173] Leptin is known to interact with amylin, a hormone involved in gastric emptying and creating a feeling of fullness.
+- [W29.174] When both leptin and amylin were given to obese, leptin-resistant rats, sustained weight loss was seen.
+- [W29.175] Due to its apparent ability to reverse leptin resistance, amylin has been suggested as possible therapy for obesity.
+- [W29.176] It has been suggested that the main role of leptin is to act as a starvation signal when levels are low, to help maintain fat stores for survival during times of starvation, rather than a satiety signal to prevent overeating.
+- [W29.177] Leptin levels signal when an animal has enough stored energy to spend it in pursuits besides acquiring food.
+- [W29.178] This would mean that leptin resistance in obese people is a normal part of mammalian physiology and possibly, could confer a survival advantage.
+- [W29.179] Leptin resistance (in combination with insulin resistance and weight gain) is seen in rats after they are given unlimited access to palatable, energy-dense foods.
+- [W29.180] This effect is reversed when the animals are put back on a low-energy diet.
+- [W29.181] This also may have an evolutionary advantage: allowing energy to be stored efficiently when food is plentiful would be advantageous in populations where food frequently may be scarce.
+- [W29.182] A fad diet, the Rosedale diet is based on ideas about how leptin might affect weight.
+- [W29.183] It is based on unsound science and marketed with unevidenced claims of health benefits.
+- [W29.184] Role in osteoarthritis with obesity
+- [W29.185] Obesity and osteoarthritis
+- [W29.186] Osteoarthritis and obesity are closely linked.
+- [W29.187] Obesity is one of the most important preventable factors for the development of osteoarthritis.
+- [W29.188] Originally, the relationship between osteoarthritis and obesity was considered to be exclusively biomechanically based, according to which the excess weight caused the joint to become worn down more quickly.
+- [W29.189] However, today we recognise that there is also a metabolic component which explains why obesity is a risk factor for osteoarthritis, not only for weight-bearing joints (for example, the knees), but also for joints that do not bear weight (for example, the hands).
+- [W29.190] Consequently, it has been shown that decreasing body fat lessens osteoarthritis to a greater extent than weight loss per se.
+- [W29.191] This metabolic component related with the release of systemic factors, of a pro-inflammatory nature, by the adipose tissues, which frequently are critically associated with the development of osteoarthritis.
+- [W29.192] Thus, the deregulated production of adipokines and inflammatory mediators, hyperlipidaemia, and the increase of systemic oxidative stress are conditions frequently associated with obesity, which can favour joint degeneration.
+- [W29.193] Furthermore, many regulation factors have been implicated in the development, maintenance, and function, both of adipose tissues, as well as of the cartilage and other joint tissues.
+- [W29.194] Alterations in these factors can be the additional link between obesity and osteoarthritis.
+- [W29.195] Adipocytes interact with other cells through producing and secreting a variety of signalling molecules, including the cell signalling proteins known as adipokines.
+- [W29.196] Certain adipokines can be considered as hormones, as they regulate the functions of organs at a distance, and several of them have been specifically involved in the physiopathology of joint diseases.
+- [W29.197] In particular, there is one, leptin, which has been the focus of attention for research in recent years.
+- [W29.198] The circulating leptin levels are positively correlated with the Body Mass Index (BMI), more specifically with fatty mass, and obese individuals have higher leptin levels in their blood circulation, compared with non-obese individuals.
+- [W29.199] In obese individuals, the increased circulating leptin levels induce unwanted responses, that is, reduced food intake or losing body weight does not occur as there is a resistance to leptin (ref 9).
+- [W29.200] In addition to the function of regulating energy homeostasis, leptin carries out a role in other physiological functions such as neuroendocrine communication, reproduction, angiogenesis, and bone formation.
+- [W29.201] More recently, leptin has been recognised as a cytokine factor as well as with pleiotropic actions also in the immune response and inflammation.
+- [W29.202] For example, leptin can be found in the synovial fluid in correlation with the body mass index, and the leptin receptors are expressed in the cartilage, where leptin mediates and modulates many inflammatory responses that can damage cartilage and other joint tissues.
+- [W29.203] Leptin has thus emerged as a candidate to link obesity and osteoarthritis and serves as an apparent objective as a nutritional treatment for osteoarthritis.
+- [W29.204] As in the plasma, the leptin levels in the synovial fluid are positively correlated with BMI.
+- [W29.205] The leptin of the synovial fluid is synthesised at least partially in the joint and may originate in part in the circulation.
+- [W29.206] Leptin has been shown to be produced by chondrocytes, as well as by other tissues in the joints, including the synovial tissue, osteophytes, the meniscus, and bone.
+- [W29.207] An infrapatellar fat pad located extrasynovially within the knee joint is also adjacent to the synovial membrane and cartilage, and has recently been highly appreciated as an important source of leptin, as well as other adipokines and mediators that contribute to the pathogenesis of osteoarthritis
+- [W29.208] The risk of developing osteoarthritis can be decreased with weight loss.
+- [W29.209] This reduction of risk is related in part with the decrease of the load on the joint, but also in the decrease of fatty mass, the central adipose tissue and the low-level inflammation associated with obesity and systemic factors.
+- [W29.210] This growing evidence points to leptin as a cartilage degradation factor in the pathogenesis of osteoarthritis, and as a potential biomarker in the progression of the disease, which suggests that leptin, as well as regulation and signalling mechanisms, can be a new and promising target in the treatment of osteoarthritis, especially in obese patients.
+- [W29.211] Obese individuals are predisposed to developing osteoarthritis, not only due to the excess mechanical load, but also due to the excess expression of soluble factors, that is, leptin and pro-inflammatory cytokines, which contribute to joint inflammation and cartilage destruction.
+- [W29.212] As such, obese individuals are in an altered state, due to a metabolic insufficiency, which requires specific nutritional treatment capable of normalising the leptin production and reducing the systematic low-level inflammation, in order to reduce the harmful impact of these systematic mediators on the joint health.
+- [W29.213] Leptin was approved in the United States in 2014 for use in congenital leptin deficiency and generalized lipodystrophy.
+- [W29.214] An analog of human leptin metreleptin (trade names Myalept, Myalepta) was first approved in Japan in 2013, in the United States in February 2014, and in Europe in 2018.
+- [W29.215] In the US it is indicated as a treatment for complications of leptin deficiency, and for the diabetes and hypertriglyceridemia associated with congenital or acquired generalized lipodystrophy.
+- [W29.216] In Europe based on EMA, metreleptin should be used in addition to diet to treat lipodystrophy, where patients have loss of fatty tissue under the skin and build-up of fat elsewhere in the body such as in the liver and muscles.
+- [W29.217] The medicine is used in adults and children above the age of 2 years with generalised lipodystrophy (Berardinelli-Seip syndrome and Lawrence syndrome); and in adults and children above the age of 12 years with partial lipodystrophy (including Barraquer-Simons syndrome), when standard treatments have failed.
+- [W29.218] The National Health Service in England will commission metreleptin treatment for all with congenital leptin deficiency regardless of age beginning on April 1, 2019.
+- [W29.219] Leptin is currently being evaluated as a potential target for the treatment of anorexia nervosa.
+- [W29.220] It is hypothesized that the gradual loss of body fat mass, and more specifically the ensuing low leptin levels, escalate the preexisting drive for thinness into an obsessive-compulsive-like and addictive-like state.
+- [W29.221] It was shown that short-term metreleptin treatment of patients with anorexia nervosa had rapid on-set of beneficial cognitive, emotional, and behavioral effects.
+- [W29.222] Among other things, depression, drive for activity, repetitive thoughts of food, inner restlessness, and weight phobia decreased rapidly.
+- [W29.223] Whether metreleptin (or another leptin analogue) is a suitable treatment for anorexia nervosa is currently unknown.
+- [W29.224] Potential side effects are weight loss and the development of anti-metreleptin antibodies.
+- [W29.225] The leptin was discovered by Jeffrey Friedman in 1994 after several decades of research conducted by others institutions since 1950 on obese mouse models.
+- [W29.226] Identification of the encoding gene
+- [W29.227] In 1949, a non-obese mouse colony being studied at the Jackson Laboratory produced a strain of obese offspring, suggesting that a mutation had occurred in a hormone regulating hunger and energy expenditure.
+- [W29.228] Mice homozygous for the so-called ob mutation (ob/ob) ate voraciously and were massively obese.
+- [W29.229] In the 1960s, a second mutation causing obesity and a similar phenotype was identified by Douglas Coleman, also at the Jackson Laboratory, and was named diabetes (db), as both ob/ob and db/db were obese.
+- [W29.230] In 1990 Rudolph Leibel and Jeffrey M.
+- [W29.231] Friedman reported mapping of the db gene.
+- [W29.232] Consistent with Coleman's and Leibel's hypothesis, several subsequent studies from Leibel's and Friedman's labs and other groups confirmed that the ob gene encoded a novel hormone that circulated in blood and that could suppress food intake and body weight in ob and wild type mice, but not in db mice.
+- [W29.233] In 1994, Friedman's laboratory reported the identification of the gene.
+- [W29.234] Caro's laboratory provided evidence that the mutations in the mouse ob gene did not occur in humans.
+- [W29.235] Furthermore, since ob gene expression was increased, not decreased, in human obesity, it suggested resistance to leptin to be a possibility.
+- [W29.236] At the suggestion of Roger Guillemin, Friedman named this new hormone "leptin" from the Greek lepto meaning thin.
+- [W29.237] Leptin was the first fat cell-derived hormone (adipokine) to be discovered.
+- [W29.238] Subsequent studies in 1995 confirmed that the db gene encodes the leptin receptor, and that it is expressed in the hypothalamus, a region of the brain known to regulate the sensation of hunger and body weight.
+- [W29.239] Recognition of scientific advances
+- [W29.240] Coleman and Friedman have been awarded numerous prizes acknowledging their roles in discovery of leptin, including the Gairdner Foundation International Award (2005), the Shaw Prize (2009), the Lasker Award, the BBVA Foundation Frontiers of Knowledge Award and the King Faisal International Prize, Leibel has not received the same level of recognition from the discovery because he was omitted as a co-author of a scientific paper published by Friedman that reported the discovery of the gene.
+- [W29.241] The various theories surrounding Friedman's omission of Leibel and others as co-authors of this paper have been presented in a number of publications, including Ellen Ruppel Shell's 2002 book The Hungry Gene.
+- [W29.242] The discovery of leptin also is documented in a series of books including Fat: Fighting the Obesity Epidemic by Robert Pool, The Hungry Gene by Ellen Ruppel Shell, and Rethinking Thin: The New Science of Weight Loss and the Myths and Realities of Dieting by Gina Kolata.
+- [W29.243] Fat: Fighting the Obesity Epidemic and Rethinking Thin: The New Science of Weight Loss and the Myths and Realities of Dieting review the work in the Friedman laboratory that led to the cloning of the ob gene, while The Hungry Gene draws attention to the contributions of Leibel.
+- [W29.244] Leptin: Your brain, appetite and obesity by the British Society of Neuroendocrinology
+- [W29.245] Leptin by Colorado State University – last updated 1998
+- [W29.246] Leptin at 3Dchem.com, description and structure diagrams
+- [W29.247] Overview of all the structural information available in the PDB for UniProt: P41159 (Leptin) at the PDBe-KB.
+
+## [W30] Wikipedia: Atrial natriuretic peptide
+https://en.wikipedia.org/w/index.php?title=Atrial_natriuretic_peptide&oldid=1377740543 · CC BY-SA 4.0 · usage: ai_input
+
+- [W30.1] Atrial natriuretic peptide (natriuretic polypeptide (ANP) or atrial natriuretic factor (ANF) is a natriuretic peptide hormone secreted from the cardiac atria that in humans is encoded by the NPPA gene.
+- [W30.2] Natriuretic peptides (ANP, BNP, and CNP) are a family of hormone/paracrine factors that are structurally related.
+- [W30.3] The main function of ANP is causing a reduction in expanded extracellular fluid (ECF) volume by increasing renal sodium excretion.
+- [W30.4] ANP is synthesized and secreted by cardiac muscle cells in the walls of the atria in the heart.
+- [W30.5] These cells contain volume receptors which respond to increased stretching of the atrial wall due to increased atrial blood volume.
+- [W30.6] Reduction of blood volume by ANP can result in secondary effects such as reduction of extracellular fluid (ECF) volume, improved cardiac ejection fraction with resultant improved organ perfusion, decreased blood pressure, and increased serum potassium.
+- [W30.7] These effects may be blunted or negated by various counter-regulatory mechanisms operating concurrently on each of these secondary effects.
+- [W30.8] Brain natriuretic peptide (BNP) – a misnomer; it is secreted by cardiac muscle cells in the heart ventricles – is similar to ANP in its effect.
+- [W30.9] It acts via the same receptors as ANP does, but with 10-fold lower affinity than ANP.
+- [W30.10] The biological half-life of BNP, however, is twice as long as that of ANP, and that of NT-proBNP is even longer, making these peptides better choices than ANP for diagnostic blood testing.
+- [W30.11] A member of the natriuretic peptide gene family, NPPA encodes an important cardiac signaling molecule known as atrial natriuretic peptide/factor (ANP).
+- [W30.12] ANP carries out endocrine functions of the heart.
+- [W30.13] It acts as a diuretic by inhibiting sodium reabsorption in the kidneys.
+- [W30.14] ANP also acts in the heart to prevent cardiac hypertrophy and to regulate vascular remodeling and energy metabolism.
+- [W30.15] NPPA expression is varied throughout mammalian development into adulthood.
+- [W30.16] Fetal expression of NPPA is associated with the formation of chamber myocardium, muscle cells of the atria and ventricles in the early developing heart.
+- [W30.17] Early expression of this gene has been associated with ventricular hypertrophy in both in vitro and in vivo models.
+- [W30.18] NPPA variants affect plasma ANP concentrations, blood pressure levels, and cardiovascular diseases such as atrial fibrillation (AF).
+- [W30.19] ANP-deficient mice were found to have a large increase in heart and left ventricular weight in response to volume overload, which is normally prevented by proper regulation of blood pressure.
+- [W30.20] Using a knock-in (KI) rat model, researchers found an AF-associated human variant in NPPA caused inflammation, fibroblast activation, atrial fibrosis, and AF in KI rats.
+- [W30.21] These findings suggest NPPA is a critical gene in cardiac development and dysfunction of this gene can lead to heart problems via altered ANP levels.
+- [W30.22] The discovery of a natriuretic factor (one that promotes kidney excretion of salt and water) was first reported by Adolfo José de Bold in 1981 when rat atrial extracts were found to contain a substance that increased salt and urine output in the kidney.
+- [W30.23] Later, the substance was purified from heart tissue by several groups and named atrial natriuretic factor (ANF) or ANP.
+- [W30.24] ANP is a 28-amino acid peptide with a 17-amino acid ring in the middle of the molecule.
+- [W30.25] The ring is formed by a disulfide bond between two cysteine residues at positions 7 and 23.
+- [W30.26] ANP is closely related to BNP (brain natriuretic peptide) and CNP (C-type natriuretic peptide), which all share a similar amino acid ring structure.
+- [W30.27] ANP is one of a family of nine structurally similar natriuretic hormones: seven are atrial in origin.
+- [W30.28] ANP is synthesized as an inactive preprohormone, encoded by the human NPPA gene located on the short arm of chromosome 1.
+- [W30.29] The NPPA gene is expressed primarily in atrial myocytes and consists of 2 introns and three exons, with translation of this gene yielding a high molecular mass 151 amino acid polypeptide known as preproANP.
+- [W30.30] The preprohormone is activated via post-translational modification that involves cleavage of the 25 amino acid signal sequence to produce proANP (26–151), a 126 amino acid peptide that is the major form of ANP stored in intracellular granules of the atria.
+- [W30.31] Following stimulation of atrial cells, proANP is released and rapidly converted to the 28-amino-acid C-terminal mature ANP (124–151) on the cell surface by the cardiac transmembrane serine protease corin; the remaining N-terminal part is called "NT-proANP" (26–123).
+- [W30.32] ANP is secreted in response to:
+- [W30.33] Stretching of the atrial wall, via Atrial volume receptors
+- [W30.34] Increased Sympathetic stimulation of β-adrenoceptors
+- [W30.35] Increased sodium concentration (hypernatremia), though sodium concentration is not the direct stimulus for increased ANP secretion
+- [W30.36] Endothelin, a potent vasoconstrictor
+- [W30.37] Recently, it was discovered that ANP also can be O-glycosylated.
+- [W30.38] Three types of atrial natriuretic peptide receptors have been identified on which natriuretic peptides act.
+- [W30.39] They are all cell surface receptors and designated:
+- [W30.40] guanylyl cyclase-A (GC-A) also known as natriuretic peptide receptor-A (NPRA/ANPA) or NPR1
+- [W30.41] guanylyl cyclase-B (GC-B) also known as natriuretic peptide receptor-B (NPRB/ANPB) or NPR2
+- [W30.42] natriuretic peptide clearance receptor (NPRC/ANPC) or NPR3
+- [W30.43] NPR-A and NPR-B have a single membrane-spanning segment with an extracellular domain that binds the ligand.
+- [W30.44] The intracellular domain maintains two consensus catalytic domains for guanylyl cyclase activity.
+- [W30.45] Binding of a natriuretic peptide induces a conformational change in the receptor that causes receptor dimerization and activation.
+- [W30.46] The binding of ANP to its receptor causes the conversion of GTP to cGMP and raises intracellular cGMP.
+- [W30.47] As a consequence, cGMP activates a cGMP-dependent kinase (PKG or cGK) that phosphorylates proteins at specific serine and threonine residues.
+- [W30.48] In the medullary collecting duct, the cGMP generated in response to ANP may act not only through PKG but also via direct modulation of ion channels.
+- [W30.49] NPR-C functions mainly as a clearance receptor by binding and sequestering ANP from the circulation.
+- [W30.50] All natriuretic peptides are bound by the NPR-C.
+- [W30.51] Maintenance of the ECF volume (space), and its subcompartment the vascular space, is crucial for survival.
+- [W30.52] These compartments are maintained within a narrow range, despite wide variations in dietary sodium intake.
+- [W30.53] There are three volume regulating systems: two salt saving systems, the renin angiotensin aldosterone system (RAAS) and the renal sympathetic system (RSS); and the salt excreting natriuretic peptide (NP) hormone system.
+- [W30.54] When the vascular space contracts, the RAAS and RSS are "turned on"; when the atria expand, NPs are "turned on".
+- [W30.55] Each system also suppresses its counteracting system(s).
+- [W30.56] NPs are made in cardiac, intestinal, renal, and adrenal tissue: ANP in one of a family of cardiac NPs: others are BNP, CNP, and DNP.
+- [W30.57] ANP binds to a specific set of receptors – ANP receptors.
+- [W30.58] Receptor-agonist binding causes the increase in renal sodium excretion, which results in a decreased ECF and blood volume.
+- [W30.59] Secondary effects may be an improvement in cardiac ejection fraction and reduction of systemic blood pressure.
+- [W30.60] ANP acts on the kidney to increase sodium and water excretion (natriuresis) in the following ways:
+- [W30.61] The medullary collecting duct is the main site of ANP regulation of sodium excretion.
+- [W30.62] ANP effects sodium channels at both the apical and basolateral sides.
+- [W30.63] ANP inhibits ENaC on the apical side and the sodium potassium ATPase pump on the basolateral side in a cGMP PKG dependent manner resulting in less sodium re-absorption and more sodium excretion.
+- [W30.64] ANP increases glomerular filtration rate and glomerular permeability.
+- [W30.65] ANP directly dilates the afferent arteriole and counteracts the norepinephrine induced vasoconstriction of the afferent arteriole.
+- [W30.66] Some studies suggest that ANP also constricts the efferent arteriole, but this is not a unanimous finding.
+- [W30.67] ANP inhibits the effect of Angiotensin II on the mesangial cells, thereby relaxing them.
+- [W30.68] ANP increases the radius and number of glomerular pores, thereby increasing glomerular permeability and resulting in greater filter load of sodium and water.
+- [W30.69] Increases blood flow through the vasa recta, which will wash the solutes (sodium chloride (NaCl), and urea) out of the medullary interstitium.
+- [W30.70] The lower osmolarity of the medullary interstitium leads to less reabsorption of tubular fluid and increased excretion.
+- [W30.71] Decreases sodium reabsorption at least in the thick ascending limb (interaction with NKCC2) and cortical collecting duct of the nephron via guanosine 3',5'-cyclic monophosphate (cGMP) dependent phosphorylation of ENaC.
+- [W30.72] It inhibits renin secretion, thereby inhibiting the production of angiotensin and aldosterone.
+- [W30.73] It inhibits the renal sympathetic nervous system.
+- [W30.74] ANP has the opposite effect of angiotensin II on the kidney: angiotensin II increases renal sodium retention and ANP increases renal sodium loss.
+- [W30.75] Reduces aldosterone secretion by the zona glomerulosa of the adrenal cortex.
+- [W30.76] Relaxes vascular smooth muscle in arterioles and venules by:
+- [W30.77] Membrane Receptor-mediated elevation of vascular smooth muscle cGMP
+- [W30.78] Inhibition of the effects of catecholamines
+- [W30.79] Promotes uterine spiral artery remodeling, which is important for preventing pregnancy-induced hypertension.
+- [W30.80] ANP inhibits cardiac hypertrophy in heart failure as well as fibrosis.
+- [W30.81] Fibrosis is inhibited by preventing fibroblasts from entering heart tissue and replicating, as well as decreasing inflammation.
+- [W30.82] ANP prevents hypertrophy by inhibiting calcium influx that is caused by norepinephrine.
+- [W30.83] Re-expression of NPRA rescues the phenotype.
+- [W30.84] Increases the release of free fatty acids from adipose tissue.
+- [W30.85] Plasma concentrations of glycerol and nonesterified fatty acids are increased by i.v. infusion of ANP in humans.
+- [W30.86] Activates adipocyte plasma membrane type A guanylyl cyclase receptors NPR-A
+- [W30.87] Increases intracellular cGMP levels that induce the phosphorylation of a hormone-sensitive lipase and perilipin A via the activation of a cGMP-dependent protein kinase-I (cGK-I)
+- [W30.88] Does not modulate cAMP production or PKA activity.
+- [W30.89] ANP is produced locally by several immune cells.
+- [W30.90] ANP is shown to regulate several functions of innate and adaptive immune system as well as shown to have cytoprotective effects.
+- [W30.91] ANP modulates innate immunity by raising defence against extracellular microbes and inhibiting the release of pro-inflammatory markers and expression of adhesion molecules.
+- [W30.92] There is evidence of cytoprotective effects of ANP in myocardial, vascular smooth, endothelial, hepatocytes and tumour cells.
+- [W30.93] Modulation of the effects of ANP is achieved through gradual degradation of the peptide by the enzyme neutral endopeptidase (NEP).
+- [W30.94] Recently, NEP inhibitors have been developed, such as Sacubitril and Sacubitril/valsartan.
+- [W30.95] They may be clinically useful in treating patients in heart failure with reduced ejection fraction .
+- [W30.96] Fragments derived from the ANP precursor, including the signal peptide, NT-ProANP (N-terminal pro-ANP) and ANP, have been detected in human blood.
+- [W30.97] ANP (28 residues long) is the active hormone while NT-proANP (98 residues) is the remaining part of proANP after cleavage by corin.
+- [W30.98] ANP and associated peptides are used as biomarkers for cardiovascular diseases such as stroke, coronary artery disease, myocardial infarction and heart failure.
+- [W30.99] A part of NT-proANP called mid-regional pro-atrial natriuretic peptide (MR-proANP) is a highly sensitive biomarker in heart failure.
+- [W30.100] MR-proANP levels below 120 pmol/L can be used to effectively rule out acute heart failure.
+- [W30.101] MR-proANP is measured using antibodies that bind to two consecutive parts of NT-proANP, residue number 53–72 and 73–90.
+- [W30.102] In contrast, traditional NT-proANP measurement use antibodies that bind to the N-terminal of NT-proANP.
+- [W30.103] In either case, antibodies are only able to determine the amount of peptides matching their epitope fragments.
+- [W30.104] They largely cannot differentiate between a cleaved part (NT-proANP, ANP) and the uncleaved precursor (proANP).
+- [W30.105] Large amounts of ANP secretion has been noted to cause electrolyte disturbances (hyponatremia) and polyuria.
+- [W30.106] These indications can be a marker of a large atrial myxoma.
+- [W30.107] Therapeutic use and drug development
+- [W30.108] Opinions regarding the use of ANP for the treatment of acute heart failure and kidney disease are varied.
+- [W30.109] While this molecule has been shown to successfully restore some hemodynamic parameters following heart failure, and yield clinical improvement for kidney injury, whether it ultimately reduces mortality and its long-term effects are unknown.
+- [W30.110] Therefore, more studies need to be conducted to better understand the therapeutic effects of ANP.
+- [W30.111] Newly synthesized homologues of ANP molecule are being assessed for the treatment of acute heart failure.
+- [W30.112] Preliminary research on one of such molecules, ularitide, has shown that this drug is safe, well tolerated, and effective in the treatment of acute heart failure.
+- [W30.113] Other natriuretic peptides
+- [W30.114] Humans have three natriuretic peptide (NPPx) genes: NPPA for ANP, NPPB for BNP, and NPPC for CNP.
+- [W30.115] All of these have similar structures and effects.
+- [W30.116] In particular, brain natriuretic peptide (BNP) – a misnomer; it is secreted by ventricular myocytes – is similar to ANP in its effect.
+- [W30.117] It acts via atrial natriuretic peptide receptors but with 10-fold lower affinity than ANP.
+- [W30.118] The biological half-life of BNP, however, is twice as long as that of ANP, and that of NT-proBNP is even longer, making these peptides better choices than ANP for diagnostic blood testing.
+- [W30.119] Alternative cleavages of NPPA produces four peptides with alleged natriuretic properties: long-acting natriuretic peptide (LANP, 26–55), vessel dilator (56–92), kaliuretic peptide (104–123), and urodilatin (120–151).
+- [W30.120] The former two are of a dubious nature.
+- [W30.121] Adrenomedullin, produced by a gene not of the NPPx family, also has a natriuretic property.
+- [W30.122] It works through a different receptor and is generally not considered an NPP.
+- [W30.123] In addition to the mammalian natriuretic peptides (ANP, BNP, CNP), other natriuretic peptides with similar structure and properties have been isolated elsewhere in the animal kingdom.
+- [W30.124] A salmon natriuretic peptide known as salmon cardiac peptide has been described, and dendroaspis natriuretic peptide (DNP) has been found in the venom of the green mamba, as well as an NP in a species of African snake.
+- [W30.125] Pharmacological modulation
+- [W30.126] Neutral endopeptidase (NEP) also known as neprilysin is the enzyme that metabolizes natriuretic peptides.
+- [W30.127] Several inhibitors of NEP are currently being developed to treat disorders ranging from hypertension to heart failure.
+- [W30.128] Most of them are dual inhibitors (NEP and ACE).
+- [W30.129] In 2014, PARADIGM-HF study was published in NEJM.
+- [W30.130] This study considered as a landmark study in treatment of heart failure.
+- [W30.131] The study was double blinded; compared LCZ696 versus enalapril in patients with heart failure.
+- [W30.132] The study showed lower all cause mortality, cardiovascular mortality and hospitalization in LCZ696 arm.
+- [W30.133] Omapatrilat (dual inhibitor of NEP and angiotensin-converting enzyme) developed by BMS did not receive FDA approval due to angioedema safety concerns.
+- [W30.134] Other dual inhibitors of NEP with ACE/angiotensin receptor are (in 2003) being developed by pharmaceutical companies.
+- [W30.135] ANP is also called atrial natriuretic factor (ANF), atrial natriuretic hormone (ANH), cardionatrine, cardiodilatin (CDD), and atriopeptin.
+- [W30.136] Renin-angiotensin system: When the blood flow through the juxtaglomerular apparatus decreases, blood pressure is considered low, and the adrenal cortex secretes aldosterone to increase sodium reabsorption in the collecting duct, thereby increasing blood pressure.
+- [W30.137] Bainbridge reflex: In response to stretching of the right atrium wall, heart rate increases, lowering venous blood pressure.
+- [W30.138] Baroreflex: When the stretch receptors in the aortic arch and carotid sinus increase, the blood pressure is considered to be elevated and the heart rate decreases to lower blood pressure.
+- [W30.139] Antidiuretic hormone: The hypothalamus detects the extracellular fluid hyperosmolality and the posterior pituitary gland secretes antidiuretic hormone to increase water reabsorption in the collecting duct.
+- [W30.140] Atrial+Natriuretic+Factor at the U.S.
+- [W30.141] National Library of Medicine Medical Subject Headings (MeSH)
+- [W30.142] Human NPPA genome location and NPPA gene details page  in the UCSC Genome Browser.
+- [W30.143] Overview of all the structural information available in the PDB for UniProt: P01160 (Natriuretic peptides A) at the PDBe-KB.
+
+## [W31] GTEx Portal v8, median expression of LEP by tissue
+https://gtexportal.org/home/gene/LEP · facts-only · usage: ai_input
+
+- [W31.1] {"data":[{"median":198.827,"tissueSiteDetailId":"Adipose_Subcutaneous","ontologyId":"UBERON:0002190","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":55.397,"tissueSiteDetailId":"Adipose_Visceral_Omentum","ontologyId":"UBERON:0010414","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.102471,"tissueSiteDetailId":"Adrenal_Gland","ontologyId":"UBERON:0002369","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.369487,"tissueSiteDetailId":"Artery_Aorta","ontologyId":"UBERON:0001496","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":3.47571,"tissueSiteDetailId":"Artery_Coronary","ontologyId":"UBERON:0001621","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":1.33381,"tissueSiteDetailId":"Artery_Tibial","ontologyId":"UBERON:0007610","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.401681,"tissueSiteDetailId":"Bladder","ontologyId":"UBERON:0001255","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0146039,"tissueSiteDetailId":"Brain_Amygdala","ontologyId":"UBERON:0001876","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.018492599999999998,"tissueSiteDetailId":"Brain_Anterior_cingulate_cortex_BA24","ontologyId":"UBERON:0009835","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.016562200000000003,"tissueSiteDetailId":"Brain_Caudate_basal_ganglia","ontologyId":"UBERON:0001873","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0474065,"tissueSiteDetailId":"Brain_Cerebellar_Hemisphere","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.06712339999999999,"tissueSiteDetailId":"Brain_Cerebellum","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0285089,"tissueSiteDetailId":"Brain_Cortex","ontologyId":"UBERON:0001870","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0243554,"tissueSiteDetailId":"Brain_Frontal_Cortex_BA9","ontologyId":"UBERON:0009834","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0172263,"tissueSiteDetailId":"Brain_Hippocampus","ontologyId":"UBERON:0001954","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0202337,"tissueSiteDetailId":"Brain_Hypothalamus","ontologyId":"UBERON:0001898","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0182002,"tissueSiteDetailId":"Brain_Nucleus_accumbens_basal_ganglia","ontologyId":"UBERON:0001882","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.012956,"tissueSiteDetailId":"Brain_Putamen_basal_ganglia","ontologyId":"UBERON:0001874","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0492589,"tissueSiteDetailId":"Brain_Spinal_cord_cervical_c-1","ontologyId":"UBERON:0006469","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0164483,"tissueSiteDetailId":"Brain_Substantia_nigra","ontologyId":"UBERON:0002038","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":38.384,"tissueSiteDetailId":"Breast_Mammary_Tissue","ontologyId":"UBERON:0008367","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":5.45404,"tissueSiteDetailId":"Cells_Cultured_fibroblasts","ontologyId":"EFO:0002009","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.04214469999999999,"tissueSiteDetailId":"Cells_EBV-transformed_lymphocytes","ontologyId":"EFO:0000572","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.128666,"tissueSiteDetailId":"Cervix_Ectocervix","ontologyId":"UBERON:0012249","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.16923,"tissueSiteDetailId":"Cervix_Endocervix","ontologyId":"UBERON:0000458","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.11741700000000001,"tissueSiteDetailId":"Colon_Sigmoid","ontologyId":"UBERON:0001159","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.21721100000000002,"tissueSiteDetailId":"Colon_Transverse","ontologyId":"UBERON:0001157","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.09144060000000001,"tissueSiteDetailId":"Esophagus_Gastroesophageal_Junction","ontologyId":"UBERON:0004550","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0753469,"tissueSiteDetailId":"Esophagus_Mucosa","ontologyId":"UBERON:0006920","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.055815300000000005,"tissueSiteDetailId":"Esophagus_Muscularis","ontologyId":"UBERON:0004648","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.248007,"tissueSiteDetailId":"Fallopian_Tube","ontologyId":"UBERON:0003889","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.195053,"tissueSiteDetailId":"Heart_Atrial_Appendage","ontologyId":"UBERON:0006631","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0599984,"tissueSiteDetailId":"Heart_Left_Ventricle","ontologyId":"UBERON:0006566","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.018234599999999997,"tissueSiteDetailId":"Kidney_Cortex","ontologyId":"UBERON:0001225","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0345857,"tissueSiteDetailId":"Kidney_Medulla","ontologyId":"UBERON:0001293","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0249806,"tissueSiteDetailId":"Liver","ontologyId":"UBERON:0001114","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.08808730000000001,"tissueSiteDetailId":"Lung","ontologyId":"UBERON:0008952","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.221581,"tissueSiteDetailId":"Minor_Salivary_Gland","ontologyId":"UBERON:0006330","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.18638,"tissueSiteDetailId":"Muscle_Skeletal","ontologyId":"UBERON:0011907","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":3.3491,"tissueSiteDetailId":"Nerve_Tibial","ontologyId":"UBERON:0001323","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0825346,"tissueSiteDetailId":"Ovary","ontologyId":"UBERON:0000992","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.13156800000000002,"tissueSiteDetailId":"Pancreas","ontologyId":"UBERON:0001150","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0252797,"tissueSiteDetailId":"Pituitary","ontologyId":"UBERON:0000007","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.0661965,"tissueSiteDetailId":"Prostate","ontologyId":"UBERON:0002367","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.28848,"tissueSiteDetailId":"Skin_Not_Sun_Exposed_Suprapubic","ontologyId":"UBERON:0036149","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":1.2735299999999998,"tissueSiteDetailId":"Skin_Sun_Exposed_Lower_leg","ontologyId":"UBERON:8480050","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.19489800000000002,"tissueSiteDetailId":"Small_Intestine_Terminal_Ileum","ontologyId":"UBERON:0001211","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.199325,"tissueSiteDetailId":"Spleen","ontologyId":"UBERON:0002106","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.13475399999999998,"tissueSiteDetailId":"Stomach","ontologyId":"UBERON:0000945","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.438478,"tissueSiteDetailId":"Testis","ontologyId":"UBERON:0000473","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.103198,"tissueSiteDetailId":"Thyroid","ontologyId":"UBERON:0002046","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.11780999999999998,"tissueSiteDetailId":"Uterus","ontologyId":"UBERON:0000995","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.143024,"tissueSiteDetailId":"Vagina","ontologyId":"UBERON:0000996","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"},{"median":0.418224,"tissueSiteDetailId":"Whole_Blood","ontologyId":"UBERON:0013756","datasetId":"gtex_v8","gencodeId":"ENSG00000174697.4","geneSymbol":"LEP","unit":"TPM"}],"paging_info":{"numberOfPages":1,"page":0,"maxItemsPerPage":250,"totalNumberOfItems":54}}
+
+## [W32] GTEx Portal v8, median expression of NPPA by tissue
+https://gtexportal.org/home/gene/NPPA · facts-only · usage: ai_input
+
+- [W32.1] {"data":[{"median":3.16234,"tissueSiteDetailId":"Adipose_Subcutaneous","ontologyId":"UBERON:0002190","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.2261599999999997,"tissueSiteDetailId":"Adipose_Visceral_Omentum","ontologyId":"UBERON:0010414","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.8096700000000001,"tissueSiteDetailId":"Adrenal_Gland","ontologyId":"UBERON:0002369","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.0533900000000003,"tissueSiteDetailId":"Artery_Aorta","ontologyId":"UBERON:0001496","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.87549,"tissueSiteDetailId":"Artery_Coronary","ontologyId":"UBERON:0001621","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.06324,"tissueSiteDetailId":"Artery_Tibial","ontologyId":"UBERON:0007610","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.34215,"tissueSiteDetailId":"Bladder","ontologyId":"UBERON:0001255","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.71046,"tissueSiteDetailId":"Brain_Amygdala","ontologyId":"UBERON:0001876","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":4.46617,"tissueSiteDetailId":"Brain_Anterior_cingulate_cortex_BA24","ontologyId":"UBERON:0009835","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.30805,"tissueSiteDetailId":"Brain_Caudate_basal_ganglia","ontologyId":"UBERON:0001873","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.90481,"tissueSiteDetailId":"Brain_Cerebellar_Hemisphere","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.46287,"tissueSiteDetailId":"Brain_Cerebellum","ontologyId":"UBERON:0002037","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":5.81626,"tissueSiteDetailId":"Brain_Cortex","ontologyId":"UBERON:0001870","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":5.01574,"tissueSiteDetailId":"Brain_Frontal_Cortex_BA9","ontologyId":"UBERON:0009834","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.5184599999999997,"tissueSiteDetailId":"Brain_Hippocampus","ontologyId":"UBERON:0001954","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.8979700000000002,"tissueSiteDetailId":"Brain_Hypothalamus","ontologyId":"UBERON:0001898","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.35135,"tissueSiteDetailId":"Brain_Nucleus_accumbens_basal_ganglia","ontologyId":"UBERON:0001882","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":0.8994139999999999,"tissueSiteDetailId":"Brain_Putamen_basal_ganglia","ontologyId":"UBERON:0001874","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.96512,"tissueSiteDetailId":"Brain_Spinal_cord_cervical_c-1","ontologyId":"UBERON:0006469","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.4724700000000002,"tissueSiteDetailId":"Brain_Substantia_nigra","ontologyId":"UBERON:0002038","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.19861,"tissueSiteDetailId":"Breast_Mammary_Tissue","ontologyId":"UBERON:0008367","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":0.7265729999999999,"tissueSiteDetailId":"Cells_Cultured_fibroblasts","ontologyId":"EFO:0002009","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.2944400000000003,"tissueSiteDetailId":"Cells_EBV-transformed_lymphocytes","ontologyId":"EFO:0000572","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.82339,"tissueSiteDetailId":"Cervix_Ectocervix","ontologyId":"UBERON:0012249","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.2711900000000003,"tissueSiteDetailId":"Cervix_Endocervix","ontologyId":"UBERON:0000458","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.68698,"tissueSiteDetailId":"Colon_Sigmoid","ontologyId":"UBERON:0001159","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.18633,"tissueSiteDetailId":"Colon_Transverse","ontologyId":"UBERON:0001157","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.47591,"tissueSiteDetailId":"Esophagus_Gastroesophageal_Junction","ontologyId":"UBERON:0004550","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.53579,"tissueSiteDetailId":"Esophagus_Mucosa","ontologyId":"UBERON:0006920","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.5949199999999997,"tissueSiteDetailId":"Esophagus_Muscularis","ontologyId":"UBERON:0004648","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.0292,"tissueSiteDetailId":"Fallopian_Tube","ontologyId":"UBERON:0003889","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":28754.0,"tissueSiteDetailId":"Heart_Atrial_Appendage","ontologyId":"UBERON:0006631","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":35.8109,"tissueSiteDetailId":"Heart_Left_Ventricle","ontologyId":"UBERON:0006566","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.1989100000000001,"tissueSiteDetailId":"Kidney_Cortex","ontologyId":"UBERON:0001225","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":0.552606,"tissueSiteDetailId":"Kidney_Medulla","ontologyId":"UBERON:0001293","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.3644,"tissueSiteDetailId":"Liver","ontologyId":"UBERON:0001114","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":4.65875,"tissueSiteDetailId":"Lung","ontologyId":"UBERON:0008952","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.96328,"tissueSiteDetailId":"Minor_Salivary_Gland","ontologyId":"UBERON:0006330","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.34266,"tissueSiteDetailId":"Muscle_Skeletal","ontologyId":"UBERON:0011907","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.96895,"tissueSiteDetailId":"Nerve_Tibial","ontologyId":"UBERON:0001323","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.82401,"tissueSiteDetailId":"Ovary","ontologyId":"UBERON:0000992","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.00593,"tissueSiteDetailId":"Pancreas","ontologyId":"UBERON:0001150","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":5.93242,"tissueSiteDetailId":"Pituitary","ontologyId":"UBERON:0000007","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":5.27877,"tissueSiteDetailId":"Prostate","ontologyId":"UBERON:0002367","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.3183,"tissueSiteDetailId":"Skin_Not_Sun_Exposed_Suprapubic","ontologyId":"UBERON:0036149","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.23948,"tissueSiteDetailId":"Skin_Sun_Exposed_Lower_leg","ontologyId":"UBERON:8480050","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":2.9834,"tissueSiteDetailId":"Small_Intestine_Terminal_Ileum","ontologyId":"UBERON:0001211","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.63131,"tissueSiteDetailId":"Spleen","ontologyId":"UBERON:0002106","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.5039799999999999,"tissueSiteDetailId":"Stomach","ontologyId":"UBERON:0000945","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":13.3073,"tissueSiteDetailId":"Testis","ontologyId":"UBERON:0000473","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.5482699999999996,"tissueSiteDetailId":"Thyroid","ontologyId":"UBERON:0002046","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.28948,"tissueSiteDetailId":"Uterus","ontologyId":"UBERON:0000995","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":3.66395,"tissueSiteDetailId":"Vagina","ontologyId":"UBERON:0000996","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"},{"median":1.6892599999999998,"tissueSiteDetailId":"Whole_Blood","ontologyId":"UBERON:0013756","datasetId":"gtex_v8","gencodeId":"ENSG00000175206.10","geneSymbol":"NPPA","unit":"TPM"}],"paging_info":{"numberOfPages":1,"page":0,"maxItemsPerPage":250,"totalNumberOfItems":54}}

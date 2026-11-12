@@ -1,0 +1,100 @@
+{
+  "title": "The dinosaur at the feeder",
+  "question": "Why do biologists call birds living dinosaurs?",
+  "hook": "Every bird you see outside is a dinosaur, and the evidence sits in its family tree.",
+  "idea": "Birds evolved from earlier theropods, so they are the only living dinosaurs, and crocodilians are their closest living relatives.",
+  "beats": [
+    {
+      "kind": "predict",
+      "prompt": "A friend asks which living animals are a bird's closest relatives. What do you tell them?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Lizards, because they are the obvious reptile cousin",
+          "feedback": "Lizards seem the natural pick among reptiles, but they are not the birds' closest living relatives."
+        },
+        {
+          "id": "b",
+          "label": "Mammals, because both groups are warm-blooded",
+          "feedback": "Warm blood is shared with mammals, but that does not make them close kin to birds."
+        },
+        {
+          "id": "c",
+          "label": "Crocodilians, with which birds form the archosaurs"
+        }
+      ],
+      "answer": "c",
+      "explain": "Birds and crocodilians are each other's closest living relatives and form a clade known as archosaurs.",
+      "cites": [
+        13,
+        14
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "Put these events in order, earliest first (the first one is an estimate).",
+      "items": [
+        "Modern birds evolve, about 100 million years ago",
+        "An extinction event kills off the pterosaurs and non-ornithuran dinosaurs, 66 million years ago",
+        "Willughby and Ray publish the first classification of birds, in 1676",
+        "Linnaeus modifies that work, in 1758"
+      ],
+      "ends": [
+        "Earliest",
+        "Latest"
+      ],
+      "explain": "Modern birds evolved about 100 million years ago, the extinction event came 66 million years ago, and the classification work followed in 1676 and 1758.",
+      "cites": [
+        16,
+        31,
+        32
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "Match each term to its meaning.",
+      "pairs": [
+        [
+          "Ornithology",
+          "The study of birds"
+        ],
+        [
+          "Passerines",
+          "The \"perching\" birds, over half of all species"
+        ],
+        [
+          "Ratites",
+          "A group in which flight has been lost"
+        ],
+        [
+          "Archosaurs",
+          "The clade formed by birds and crocodilians"
+        ]
+      ],
+      "explain": "Each term names a part of the bird story, from the science itself to the relatives they share a clade with.",
+      "cites": [
+        4,
+        6,
+        11,
+        14
+      ]
+    },
+    {
+      "kind": "flaw",
+      "prompt": "One step in this reasoning is wrong. Which?",
+      "steps": [
+        "Birds evolved from earlier theropods.",
+        "So birds are the only living dinosaurs.",
+        "Their closest living relatives are the crocodilians.",
+        "Because birds are warm-blooded, they cannot be reptiles in any modern classification."
+      ],
+      "wrong": 3,
+      "explain": "In the modern cladistic sense of the term, birds are considered reptiles; their unique morphology and warm-bloodedness are why the older Linnaean system gave them their own class.",
+      "cites": [
+        12,
+        13,
+        14
+      ]
+    }
+  ]
+}
